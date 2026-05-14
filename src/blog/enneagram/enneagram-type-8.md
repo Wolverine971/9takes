@@ -48,7 +48,7 @@ type-8-cracked-armor
 </script>
 
 <QuickAnswer question="Why do Type 8s push everyone away?">
-You learned early that vulnerability gets you hurt. So you built armor. Not because you wanted to, but because you had to. Control isn't a preference. It's survival strategy. Letting people close means risking betrayal. Showing softness invites exploitation. You push people away before they can push you first. The kid who needed protection became the adult who trusts no one completely. Behind all that intensity? The part of you that knows closeness requires lowering defenses you can't afford to lower.
+Type 8s push people away because vulnerability can feel unsafe. Control becomes a survival strategy: if no one gets too close, no one can betray or exploit them. The intensity is armor. Underneath it is a person who wants closeness but fears the cost of lowering defenses.
 </QuickAnswer>
 
 **Read time**: 15 minutes | **Core wound**: Vulnerability means destruction

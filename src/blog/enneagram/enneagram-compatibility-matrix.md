@@ -53,7 +53,7 @@ Keyword Strategy:
 </script>
 
 <QuickAnswer question="Which Enneagram types are most compatible?">
-There's no universally "best" pairing: compatibility depends on health levels, not type combinations. That said, commonly successful pairings include: Type 2 + Type 8 (nurturing meets protection), Type 4 + Type 5 (depth meets stability), Type 1 + Type 7 (structure meets spontaneity), and Type 3 + Type 9 (ambition meets peace). Same-type pairings create either deep understanding or explosive conflict. The healthiest relationships occur when both partners are at similar developmental levels, regardless of type.
+There is no universally best Enneagram pairing. Compatibility depends more on health level than type. Commonly strong pairings include 2 + 8, 4 + 5, 1 + 7, and 3 + 9, but any pairing can work when both people are self-aware, emotionally regulated, and willing to grow.
 </QuickAnswer>
 
 <p class="firstLetter">Your perfect match isn't who you think it is.</p>

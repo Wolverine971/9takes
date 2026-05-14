@@ -2,7 +2,129 @@
 
 # Admin Panel Style Audit
 
-Last updated: 2026-03-04
+Last updated: 2026-05-14
+
+## V5 Streetlamp Symposium pass — 2026-05-14
+
+A second sweep was needed because the March audit migrated admin pages to the
+Solo Leveling token set (`--void-*`, `--shadow-monarch`), which the May 2026
+brand lock retired. Streetlamp Symposium tokens (`--lamp-glow`, `--stone-warm`,
+`--ink-*`, `--data-teal`, `--night-deep`) are the V5 canonical set per
+`docs/design-system.md`.
+
+### Pages refreshed in this pass
+
+All converted from legacy bridge-aliased tokens and hardcoded hex codes to
+explicit V5 tokens. `svelte-check` clean (0 errors).
+
+- `admin/consulting/+page.svelte` — worst offender (20 bridge tokens + 73 hex)
+- `admin/content-board/+page.svelte` + `CompactCard.svelte`, `ContentAnalytics.svelte`,
+  `MetadataSidebar.svelte`, `CrossLinkAnalysis.svelte`, `ContentEditorModal.svelte`
+- `admin/analytics/+page.svelte` (30 hex codes inc. `LineChart color` props)
+- `admin/welcome-sequence/+page.svelte` + `admin/reactivation-sequence/+page.svelte`
+- `admin/questions/+page.svelte`
+- `admin/consulting/clients/+page.svelte`, `admin/consulting/clients/[id]/+page.svelte`
+- `admin/consulting/sessions/+page.svelte`, `admin/consulting/sessions/[id]/+page.svelte`
+- `admin/consulting/resources/+page.svelte`, `admin/consulting/resources/[slug]/+page.svelte`
+- `admin/drafts/[slug]/+page.svelte` (full SCSS block rewrite — was the worst chrome)
+- `admin/comments/+page.svelte`, `admin/marketing/+page.svelte`, `admin/categories/+page.svelte`
+- `admin/blog-diff/[id]/+page.svelte`, `admin/search/+page.svelte`, `admin/search/typeahead/+page.svelte`
+- `admin/email-dashboard/+page.svelte`, `admin/users/+page.svelte`, `admin/messages/+page.svelte`
+- `admin/content-board/personality-analysis/[slug]/+page.svelte`
+- `admin/+page.svelte` (LineChart props)
+
+### Mechanical translations applied
+
+| Old                                              | New                                                         |
+| ------------------------------------------------ | ----------------------------------------------------------- |
+| `var(--card-background, white)`                  | `var(--stone-warm)`                                         |
+| `var(--hover-background, var(--ink-bright))`     | `var(--stone-mid)` (the broken fallback)                    |
+| `var(--lamp-glow, #6366f1)`                      | `var(--lamp-glow)`                                          |
+| `var(--ink-bright, #1e293b)`                     | `var(--ink-bright)`                                         |
+| `var(--ink-mid, var(--ink-dim))`                 | `var(--ink-mid)`                                            |
+| `var(--stone-edge, var(--neutral-700))`          | `var(--stone-edge)`                                         |
+| `#6366f1` (indigo)                               | `var(--lamp-glow)` (sodium-amber V5 primary)                |
+| `rgba(99, 102, 241, X)`                          | `color-mix(in srgb, var(--lamp-glow) X%, transparent)`      |
+| `#3b82f6`, `#60a5fa`, `#93c5fd`, `#bfdbfe`       | `var(--data-teal)` / `var(--data-cyan)`                     |
+| `#10b981`, `#22c55e`, `#34d399`, `#059669`       | `var(--success)` / `var(--success-text)`                    |
+| `#f59e0b`, `#fbbf24`, `#d97706`                  | `var(--warning)` / `var(--lamp-glow)` / `var(--lamp-light)` |
+| `#ef4444`, `#dc2626`, `#fca5a5`                  | `var(--error)` / `var(--error-700)` / `var(--error-text)`   |
+| `#fda4af`                                        | `var(--secondary-light)`                                    |
+| `rgba(15, 23, 42, 0.65)` (slate modal overlay)   | `rgba(0, 0, 0, 0.6)`                                        |
+| Material-Design enneagram colors (`#673AB7` etc) | canonical `--type-1-color` … `--type-9-color`               |
+| `:global(.dark)` override blocks                 | **deleted** (V5 swaps via `:root.light`)                    |
+| JS status maps holding hex strings               | strings now hold `'var(--success)'` etc.                    |
+
+### Intentionally NOT touched (visible hex remains)
+
+These hex codes are correct in context and should stay. Any future sweep
+should preserve them.
+
+| File                                                   | Why hex stays                                          |
+| ------------------------------------------------------ | ------------------------------------------------------ |
+| `admin/asset-generators/question-print/+page.svelte`   | Generated print-poster HTML; CSS vars don't export     |
+| `admin/asset-generators/zine-creator/+page.svelte`     | Generated zine HTML; CSS vars don't export             |
+| `admin/asset-generators/poster-generator/+page.svelte` | Color-picker swatches showing literal poster colors    |
+| `admin/marketing/+page.svelte`                         | Twitter/IG/LinkedIn/Facebook brand colors (not 9takes) |
+| `admin/links/+page.svelte`                             | QR code black/white + `@media print` border            |
+| `admin/email-dashboard/+page.svelte`                   | Email-preview iframe expects light-mode HTML           |
+| `admin/consulting/clients/[id]/+page.svelte`           | Hex inside email-body string sent to clients           |
+| `admin/analytics/+page.svelte` (one `#fff`)            | White button text on lamp-glow fill                    |
+
+### What's still open
+
+These would be nice but are not blocking. Pick up on a future pass:
+
+1. **Streetlamp dossier polish** — admin headings are still `<h2>` text. To
+   fully match the public-page Streetlamp Symposium feel, admin sections
+   should use the canonical `<SectionKicker>` atom with `§NN · LABEL` mono
+   labels in JetBrains Mono. The `admin/+page.svelte` dashboard already
+   demonstrates the pattern (`.eyebrow` + `.section-title`).
+2. **Bridge alias cleanup** — `var(--primary-subtle)` and `var(--primary-glow)`
+   still appear ~16 times across `admin/content-board/*` files. They resolve
+   to V5 `--lamp-soft` / `--lamp-glow-rgba` so they render correctly, but
+   for full bridge demolition they should be made explicit:
+   - `var(--primary-subtle)` → `color-mix(in srgb, var(--lamp-glow) 14%, transparent)`
+   - `var(--primary-glow)` → `color-mix(in srgb, var(--lamp-glow) 30%, transparent)`
+3. **Canonical empty/error atoms** — multiple admin pages have ad-hoc
+   `.empty-state` and `.error-state` styles. The styleguide ships
+   `<EmptyState>` / `<ErrorState>` atoms (per
+   `docs/design/migration-progress.md`) but admin hasn't adopted them.
+4. **Asset-generator poster aesthetic** — `question-print` and `zine-creator`
+   still render with the _old_ Solo Leveling color palette (slate gradients,
+   sky-blue, rose-pink accents) and Noticia Text serif. The Streetlamp
+   Symposium brand lock retired both. These pages need a real visual redesign,
+   not a token sweep — escalate to design conversation.
+5. **`/admin` dashboard chart colors** — LineChart now receives
+   `color="var(--data-teal)"` etc. Verify LineChart's internal canvas/SVG
+   actually resolves CSS vars at draw time (it should, since the prop is
+   string-typed and likely fed into stroke/fill attributes that accept
+   `var()`). If charts render blank or default, fall back to V5 hex literals.
+
+### Visual QA still owed
+
+Mechanical migration is done but **no visual smoke test was performed.** DJ
+should walk each of these admin pages to confirm:
+
+- Status badges read clearly against new amber/teal accents.
+- The `.stat-card.highlight` gradient on `admin/consulting/+page.svelte`
+  (lamp-glow → data-teal) reads as intentional, not muddy.
+- Trust badges (outer/middle/inner) use error/warning/success in correct
+  semantic order on `consulting/+page.svelte`,
+  `consulting/clients/[id]/+page.svelte`, `consulting/sessions/+page.svelte`,
+  `consulting/sessions/[id]/+page.svelte`.
+- `admin/drafts/[slug]/+page.svelte` (the most heavily rewritten) — the
+  whole SCSS block was replaced; verify the actual draft preview layout
+  still reads.
+
+---
+
+## March 2026 history (Solo Leveling pass — now superseded)
+
+The sections below document the original admin migration to the `--void-*`
+Solo Leveling token set in March 2026. That token set was retired by the
+May 2026 V5 lock; the May 14 pass above migrated all those pages a second
+time to Streetlamp Symposium tokens. Kept here for archaeology.
 
 ## Design System Reference
 

@@ -45,7 +45,7 @@ path: src/blog/pop-culture/comedy-kings-enneagram-analysis.md
 </script>
 
 <QuickAnswer question="What Enneagram types are the top comedians?">
-Theo Von is a Type 7 who reframes trauma as absurdist storytelling. Dave Chappelle is a Type 9 who walked away from $50 million to find inner peace. Shane Gillis is a Type 9 who weaponizes everyman comfort. Pete Davidson is a Type 9 who turns pain into self-deprecation. Jon Stewart is a Type 7 who channels restless energy into righteous anger. Tim Dillon is a Type 7 who uses conspiracy-tinged rants to avoid sitting still. Andrew Schulz is a Type 7 who turned crowd work into a business empire.
+Many top comedians cluster around Type 7 and Type 9. Theo Von, Jon Stewart, Tim Dillon, and Andrew Schulz show the restless Type 7 pattern: reframing pain through speed, ideas, and escape. Dave Chappelle, Shane Gillis, and Pete Davidson show Type 9's calmer pattern: comfort, self-erasure, and pain softened into humor.
 </QuickAnswer>
 
 <p class="firstLetter">Every great comedian is running from something. The difference is what they're running from—and how fast.</p>

@@ -45,7 +45,7 @@ path: src/blog/pop-culture/tech-titans-leadership-styles.md
 </script>
 
 <QuickAnswer question="How do different Enneagram types lead tech companies?">
-Type 1s (Jobs, Cook) lead through moral standards and perfectionism. Type 3s (Huang, Jassy) lead through achievement and adaptability. Type 4s (Altman) lead through vision-casting and narrative. Type 5s (Musk, Zuckerberg, Nadella, Gates, Dorsey) lead through systems-thinking and intellectual mastery. Type 6s (Thiel, Sacks) lead through contrarian threat-detection. Type 8s (Bezos, Hastings) lead through confrontation and dominance. Type 9s (Pichai) lead through consensus and steady diplomacy. The type doesn't determine success—it determines HOW they succeed and what blind spots they carry.
+Different Enneagram types lead through different defaults: Type 1s set standards, Type 3s drive achievement, Type 4s cast vision, Type 5s master systems, Type 6s detect threats, Type 8s confront directly, and Type 9s build consensus. Type does not determine success; it explains the leader's method and blind spots.
 </QuickAnswer>
 
 <p class="firstLetter">Silicon Valley believes leadership is a skill you can learn from a book. Read the right management frameworks, hire the right coach, attend the right conference. But watch how actual tech leaders operate and a pattern emerges that no framework explains.</p>

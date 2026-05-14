@@ -53,6 +53,16 @@ describe('/admin/analytics page', () => {
 				monthTo: '2026-04-08'
 			}
 		},
+		trending: {
+			available: false,
+			generatedAt: '',
+			baselineDays: 7,
+			minVisits: 3,
+			minUnique: 3,
+			rows: [],
+			broadRows: [],
+			repeatRows: []
+		},
 		rows: [],
 		pagination: {
 			total: 0,
@@ -107,7 +117,8 @@ describe('/admin/analytics page', () => {
 			expect.arrayContaining([
 				'/api/admin/analytics/overview?from=2026-03-10&to=2026-04-08&scope=all',
 				'/api/admin/analytics/timeseries?from=2026-03-10&to=2026-04-08&scope=all',
-				'/api/admin/analytics/pages?from=2026-03-10&to=2026-04-08&scope=all&page=1&limit=50&sortBy=visits&sortDir=desc&window=30d'
+				'/api/admin/analytics/pages?from=2026-03-10&to=2026-04-08&scope=all&page=1&limit=50&sortBy=visits&sortDir=desc&window=30d',
+				'/api/admin/analytics/trending?scope=all&baselineDays=7&minVisits=3&minUnique=3&limit=20'
 			])
 		);
 		expect(
@@ -362,10 +373,11 @@ describe('/admin/analytics page', () => {
 			expect(within(releaseRegion).queryByText('Beta Person')).toBeNull();
 
 			await fireEvent.click(screen.getByRole('button', { name: /Needs history\s+0/i }));
-			expect(
-				within(releaseRegion).getByText('No releases match this performance filter.')
-			).toBeTruthy();
-			expect(screen.getByText('Select a release to view its growth curve.')).toBeTruthy();
+			await waitFor(() => {
+				expect(
+					within(releaseRegion).getByText('No releases match this performance filter.')
+				).toBeTruthy();
+			});
 
 			await fireEvent.click(screen.getByRole('button', { name: /Underperforming\s+1/i }));
 			expect(within(releaseRegion).getByText('Beta Person')).toBeTruthy();

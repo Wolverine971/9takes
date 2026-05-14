@@ -48,7 +48,7 @@ type-7-possibility-crossroads
 </script>
 
 <QuickAnswer question="What makes Type 7s tick?">
-Your mind is a possibility engine. While others see one option, you see a dozen alternatives branching out in every direction. That's not a bug, it's your superpower. You learned early that you could transform disappointment into opportunity, boredom into adventure, and limitation into creative fuel. The flip side? Stillness can feel like a trap because your brain is wired to keep moving toward the next horizon. Understanding this wiring lets you harness it intentionally rather than letting it run you. The goal isn't to slow down and become someone else. It's to choose when to sprint and when to savor.
+Type 7s are driven by possibility, freedom, and the need to outrun pain. Their mind turns limitation into options and disappointment into the next adventure. That creativity is real, but stillness can feel like a trap. Growth means choosing when to sprint toward novelty and when to stay long enough to feel.
 </QuickAnswer>
 
 **Read time**: 14 minutes | **Core insight**: Your mind automatically generates possibilities where others see walls

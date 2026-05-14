@@ -29,7 +29,12 @@ Graded: 2026-02-22
 QUALITY_FEEDBACK_END -->
 
 <script>
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="What are the strongest criticisms of the Enneagram?">
+The strongest criticisms are that the Enneagram lacks enough scientific validation, can encourage stereotyping, depends heavily on subjective self-typing, and is sometimes used as a spiritual shortcut. Those critiques matter. The Enneagram works best as a reflective framework for motivation and growth, not as a diagnostic test or fixed identity label.
+</QuickAnswer>
 
 <p class="firstLetter">"The Enneagram is just astrology for people who think they're too smart for astrology."</p>
 

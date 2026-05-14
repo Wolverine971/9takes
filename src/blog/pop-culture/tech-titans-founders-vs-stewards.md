@@ -45,7 +45,7 @@ path: src/blog/pop-culture/tech-titans-founders-vs-stewards.md
 </script>
 
 <QuickAnswer question="What personality types replace tech founders?">
-Apple replaced Steve Jobs (Type 1) with Tim Cook (Type 1)—the company's DNA requires uncompromising standards. Microsoft replaced Bill Gates (Type 5) with Satya Nadella (Type 5)—a more emotionally integrated version who could fix the culture. Amazon replaced Jeff Bezos (Type 8) with Andy Jassy (Type 3)—channeling the same competitive intensity through execution instead of confrontation. Google replaced its founders with Sundar Pichai (Type 9)—the consensus-builder who could manage a company too complex for any single vision. The successor's type reveals what the company actually needed—not what the founder wanted.
+Successor types reveal what a tech company needs after the founder era. Apple stayed Type 1 with Tim Cook. Microsoft stayed Type 5 with Satya Nadella. Amazon moved from Jeff Bezos's Type 8 force to Andy Jassy's Type 3 execution. Google moved from Type 5 founders to Sundar Pichai's Type 9 consensus.
 </QuickAnswer>
 
 <p class="firstLetter">Every tech giant faces the same crisis: the founder leaves. And the personality type of whoever replaces them tells you everything about what the company actually values—and what it fears.</p>

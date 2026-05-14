@@ -33,7 +33,7 @@ Keyword Strategy:
 </script>
 
 <QuickAnswer question="How does depression manifest differently by Enneagram type?">
-Each type experiences depression through their core fear. Type 1s face perfectionist paralysis ("I'm fundamentally flawed"). Type 2s feel unloved despite giving ("No one loves me for who I am"). Type 3s experience identity collapse ("Without achievements, I'm nothing"). Type 4s sink into defectiveness ("I'm missing something essential"). Type 5s feel depleted ("I can't handle life's demands"). Type 6s lose all security ("The world is dangerous, I'm alone"). Type 7s face trapped emptiness ("I can't escape this pain"). Type 8s feel powerless ("I've been betrayed, I'm weak"). Type 9s disappear ("I don't matter").
+Depression shows up through each type's core fear. Type 1s freeze in imperfection, Type 2s feel unloved, Type 3s lose identity without achievement, Type 4s sink into defectiveness, Type 5s feel depleted, Type 6s feel unsafe, Type 7s feel trapped, Type 8s feel powerless, and Type 9s disappear into numbness.
 </QuickAnswer>
 
 **Read time**: 22 minutes | **Key insight**: Your type's core fear creates your unique depression pattern

@@ -65,6 +65,8 @@ describe('buildPersonPageJsonLd', () => {
 				],
 				wordCount: 2840,
 				timeRequired: 'PT14M',
+				speakableSelectors: ['.case-file-subhead'],
+				includeFaqPage: true,
 				faqs: [
 					{
 						question: "What is Taylor Swift's Enneagram type?",
@@ -120,7 +122,7 @@ describe('buildPersonPageJsonLd', () => {
 			],
 			speakable: {
 				'@type': 'SpeakableSpecification',
-				cssSelector: ['.article-body p']
+				cssSelector: ['.case-file-subhead']
 			}
 		});
 	});
@@ -161,17 +163,27 @@ describe('buildPersonPageJsonLd', () => {
 		});
 	});
 
-	it('omits the FAQPage node when faqs is empty or undefined', () => {
+	it('omits the FAQPage node when faqs is empty, undefined, or not explicitly enabled', () => {
 		const emptyFaqs = buildPersonPageJsonLd(minimalInput({ faqs: [] }));
 		const noFaqs = buildPersonPageJsonLd(minimalInput());
+		const notEnabled = buildPersonPageJsonLd(
+			minimalInput({
+				faqs: [
+					{ question: 'Q1', answer: 'A1' },
+					{ question: 'Q2', answer: 'A2' }
+				]
+			})
+		);
 
 		expect(emptyFaqs['@graph'].some((node) => node['@type'] === 'FAQPage')).toBe(false);
 		expect(noFaqs['@graph'].some((node) => node['@type'] === 'FAQPage')).toBe(false);
+		expect(notEnabled['@graph'].some((node) => node['@type'] === 'FAQPage')).toBe(false);
 	});
 
 	it('omits the FAQPage node when only a single FAQ item is supplied', () => {
 		const result = buildPersonPageJsonLd(
 			minimalInput({
+				includeFaqPage: true,
 				faqs: [
 					{
 						question: "What is Taylor Swift's Enneagram type?",
@@ -188,6 +200,7 @@ describe('buildPersonPageJsonLd', () => {
 	it('emits FAQ acceptedAnswer.url only when an anchor is present', () => {
 		const result = buildPersonPageJsonLd(
 			minimalInput({
+				includeFaqPage: true,
 				faqs: [
 					{
 						question: 'Q1',
@@ -273,13 +286,10 @@ describe('buildPersonPageJsonLd', () => {
 		]);
 	});
 
-	it('uses default speakable selectors and allows override', () => {
+	it('omits speakable by default and allows explicit selectors', () => {
 		const defaulted = buildPersonPageJsonLd(minimalInput());
 		const defaultedArticle = getGraphNode(defaulted, 'Article') as Record<string, unknown>;
-		expect(defaultedArticle.speakable).toEqual({
-			'@type': 'SpeakableSpecification',
-			cssSelector: ['.article-body p']
-		});
+		expect(defaultedArticle).not.toHaveProperty('speakable');
 
 		const overridden = buildPersonPageJsonLd(
 			minimalInput({ speakableSelectors: ['.custom', 'article > h2'] })

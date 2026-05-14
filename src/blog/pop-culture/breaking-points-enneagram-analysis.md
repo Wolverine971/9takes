@@ -33,7 +33,7 @@ path: src/blog/pop-culture/breaking-points-enneagram-analysis.md
 </script>
 
 <QuickAnswer question="What are Krystal Ball and Saagar Enjeti's Enneagram types?">
-Krystal Ball is a Type 1 (The Perfectionist)—driven by an internal moral compass that tells her how things *should* be and burns with righteous anger when they fall short. Saagar Enjeti is a Type 7 (The Enthusiast)—an intellectually restless mind that bounces across topics, makes unexpected connections, and keeps things light even when the subject matter is heavy. Their partnership works because these two types approach the same problems from opposite psychological angles: moral conviction meets open-ended curiosity.
+Krystal Ball reads as a Type 1: moral, reform-minded, and angry when institutions fail their stated ideals. Saagar Enjeti reads as a Type 7: intellectually restless, wide-ranging, and quick to reframe heavy topics. Their chemistry works because moral conviction meets open-ended curiosity.
 </QuickAnswer>
 
 <p class="firstLetter">A left populist and a right populist walk into a studio. No punchline—they built one of the biggest independent political news shows in America. Breaking Points hit #1 on the political podcast charts within a week of launching. 285,000 YouTube subscribers in four days. Over 10,000 paying subscribers in 48 hours. And they did it by having the kind of conversations the rest of the country supposedly can't have anymore.</p>

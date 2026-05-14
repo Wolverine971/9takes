@@ -46,7 +46,12 @@ feeling overlooked -->
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="What are mental health red flags by Enneagram type?">
+Mental health red flags vary by Enneagram type because each type breaks down through a different core fear. Watch for changes in sleep, body tension, isolation, irritability, obsessive thinking, numbness, or risky coping. The key warning sign is not the symptom alone; it is when the type's normal strategy becomes rigid, extreme, and hard to interrupt.
+</QuickAnswer>
 
 <p class="firstLetter">Your body knows you're struggling before your mind admits it.</p>
 

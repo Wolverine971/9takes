@@ -29,7 +29,7 @@ Keyword Strategy:
 </script>
 
 <QuickAnswer question="Is the Enneagram scientifically valid?">
-It's neither pseudoscience nor established science. It's somewhere in between, and that "in between" is more interesting than either side admits. There are 104 empirical studies, 75% classification accuracy against the Big Five, and strong psychometrics from newer instruments. But there are also real gaps: no predictive validity studies, weak cross-instrument agreement, and secondary features (wings, arrows) that lack evidence. The biggest surprise? It's the only personality framework with published evidence of advancing ego development, a measure of psychological maturity that almost nothing else can move.
+The Enneagram is neither pure pseudoscience nor fully established science. Research shows useful psychometrics and overlap with the Big Five, but gaps remain: weak cross-instrument agreement, limited predictive validity, and less evidence for wings and arrows. Its strongest case is as a reflective growth framework, not a clinical diagnostic tool.
 </QuickAnswer>
 
 <p class="firstLetter">"Is the Enneagram real?"</p>

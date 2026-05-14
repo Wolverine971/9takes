@@ -174,7 +174,7 @@ REVISION NOTES (2026-03-27):
 </script>
 
 <QuickAnswer question="What Enneagram types are Hollywood's biggest heartthrobs?">
-Pedro Pascal is a Type 6 (Loyalist)—the anxious protector whose warmth comes from genuine worry about the people he loves. Jacob Elordi is a Type 4 (Individualist)—the brooding artist who resents being reduced to his looks. Timothée Chalamet is a Type 6—the sensitive prodigy whose vulnerability reads as authenticity. Robert Pattinson is a Type 4—the disappearing act who made himself more desirable by running from fame. Tom Holland is a Type 7 (Enthusiast)—the golden retriever who can't keep a secret. Ryan Gosling is a Type 9 (Peacemaker)—the calm center that every generation keeps coming back to. Each one activates a different psychological need in their audience.
+Hollywood heartthrobs do not all share one type. Pedro Pascal and Timothee Chalamet read as Type 6 protectors; Jacob Elordi and Robert Pattinson as Type 4 brooding individualists; Tom Holland as a Type 7 charmer; Ryan Gosling as a Type 9 calm center. Each activates a different audience fantasy.
 </QuickAnswer>
 
 <p class="firstLetter">Picture this. Pedro Pascal walks into a restaurant in New York. Within 90 seconds, someone at the next table is pretending to take a selfie while angling their phone toward him. A waiter's hands are shaking. Two women at the bar are texting under the table—screenshots of his location hitting group chats in real time. A man in his 30s is rehearsing what he'll say if he can work up the nerve to approach. Nobody in this room knows Pedro Pascal. But every one of them feels like they do.</p>

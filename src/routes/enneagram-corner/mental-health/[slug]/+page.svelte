@@ -83,7 +83,7 @@
 	<strong>741741</strong>.
 </div>
 
-<article itemscope itemtype="https://schema.org/BlogPosting" class="blog" id="blogA">
+<article class="blog" id="blogA">
 	<div class="article-header">
 		<BlogPageHead data={data.frontmatter} slug={`enneagram-corner/mental-health/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />

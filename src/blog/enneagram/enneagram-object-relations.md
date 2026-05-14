@@ -31,7 +31,7 @@ Keyword Strategy:
 -->
 
 <QuickAnswer question="What are the three object relations in the Enneagram?">
-Object Relations Theory says your earliest bonds shape what you expect from every relationship that follows. The Enneagram organizes its nine types into three patterns based on how each type handles the internal image of an early caregiver: <strong>Attachment</strong> (3, 6, 9) bonds to a "good object" by adapting to fit it. <strong>Frustration</strong> (1, 4, 7) idealizes an object, then sours on it the moment they have it. <strong>Rejection</strong> (2, 5, 8) pre-empts being unwanted by offering one specialized gift and disowning the rest of their needs. You carry all three. One is loud.
+The three Enneagram object relations are Attachment, Frustration, and Rejection. Attachment types (3, 6, 9) adapt to preserve connection. Frustration types (1, 4, 7) chase an ideal and resent reality. Rejection types (2, 5, 8) offer one specialized gift while hiding their needs. Everyone has all three; one dominates.
 </QuickAnswer>
 
 **Read time**: 19 minutes | **Key insight**: Your Enneagram type isn't picking partners. It's casting them in a play that started before you could talk.

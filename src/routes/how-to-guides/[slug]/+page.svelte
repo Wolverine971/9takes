@@ -117,7 +117,7 @@
 	{/if}
 </svelte:head>
 
-<article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog" id="blogA">
+<article class="blog" id="blogA">
 	<div style="align-items: inherit;">
 		<BlogPageHead data={data.frontmatter} slug={`how-to-guides/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />

@@ -37,7 +37,7 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="What's the best way to learn the Enneagram?">
-**It depends on your learning style and the depth you want.** For beginners, start with *The Road Back to You* (accessible storytelling) or *The Enneagram Made Easy* (visual learners). For depth, *The Wisdom of the Enneagram* is the gold standard. Podcast listeners should try *Typology* or *Enneagram 2.0*. Video learners should check out Dr. Tom LaHue or Frank James on YouTube. For free online learning, The Enneagram Institute has the most comprehensive type descriptions. This guide organizes 60+ vetted resources by format and experience level: books, podcasts, YouTube channels, apps, certification programs, and online communities.
+The best way to learn the Enneagram depends on your format and depth. Beginners should start with *The Road Back to You* or *The Enneagram Made Easy*. For depth, use *The Wisdom of the Enneagram*. Podcast listeners can try *Typology* or *Enneagram 2.0*; free learners should start with The Enneagram Institute.
 </QuickAnswer>
 
 <p class="firstLetter">You've taken the test. You think you know your type. Now what?</p>

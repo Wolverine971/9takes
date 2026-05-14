@@ -45,7 +45,7 @@ path: src/blog/pop-culture/tech-titans-enneagram-analysis.md
 </script>
 
 <QuickAnswer question="What Enneagram types run the tech industry?">
-Type 5s dominate (Musk, Zuckerberg, Nadella, Gates, Dorsey, Page, Brin, SBF)—the systems thinkers who treat every problem as something to decode. Type 8s disrupt (Bezos, Kalanick, Hastings)—the challengers who see industries as territory to conquer. Type 6s fund and advise (Thiel, Sacks)—the contrarians who see threats others miss. Type 1s set standards (Jobs, Cook). Type 3s execute and perform (Huang, Chesky, Holmes, Neumann). Type 4s cast vision (Altman). Type 9s maintain (Pichai). The future is being built by a very specific set of personality types—and the types that are missing explain a lot about why tech keeps failing at human problems.
+Tech is disproportionately shaped by Type 5 systems thinkers, Type 8 challengers, Type 3 executors, Type 6 contrarians, Type 1 standard-setters, Type 4 vision-casters, and Type 9 maintainers. The pattern matters because each type solves different problems and misses different human costs. The types missing from tech explain many of its blind spots.
 </QuickAnswer>
 
 <p class="firstLetter">The tech industry isn't shaped by ideas. It's shaped by the personality types of the people who have the power to execute them.</p>

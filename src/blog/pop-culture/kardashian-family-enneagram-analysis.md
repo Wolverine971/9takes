@@ -187,7 +187,7 @@ path: src/blog/pop-culture/kardashian-family-enneagram-analysis.md
 </script>
 
 <QuickAnswer question="What are the Kardashian family's Enneagram types?">
-Kris Jenner is a Type 3 (Achiever) who turned trauma into empire-building. Kim is a Type 3w4 (image-conscious achiever). Kourtney is a Type 1 (Perfectionist) constantly critiquing the chaos. Khloé is a Type 2 (Helper) who protects everyone. Rob is a Type 9 (Peacekeeper) who withdrew from the spotlight entirely. Kendall is a Type 6 (Loyalist) running a vigilance system inside the highest-paid modeling career on earth. Kylie is a Type 9 (Peacekeeper) who built a $600 million empire by disappearing into a persona. These seven personality types explain every family fight, business decision, public drama — and the "Kardashian curse" on men who date them.
+Kris Jenner and Kim Kardashian show Type 3 achievement patterns; Kourtney reads as Type 1, Khloe as Type 2, Rob as Type 9, Kendall as Type 6, and Kylie as Type 9. The family works because image, loyalty, control, care, and withdrawal keep colliding under one brand machine.
 </QuickAnswer>
 
 <p class="firstLetter">A sex tape, a murder trial, a father's death, and a momager who saw opportunity where others saw scandal. The Kardashian story is American capitalism distilled to its essence—but it's also a masterclass in family psychology that both fans and critics get wrong.</p>

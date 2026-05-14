@@ -2,6 +2,7 @@
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import type { AnalyticsScope } from '$lib/analytics/pageAnalytics';
+import { emptyTrendingAnalyticsPayload } from '$lib/server/adminTrendingAnalytics';
 
 interface AnalyticsOverview {
 	total_visits: number;
@@ -128,6 +129,7 @@ export const load: PageServerLoad = async (event) => {
 				monthTo: toDate
 			}
 		},
+		trending: emptyTrendingAnalyticsPayload(),
 		rows: [],
 		pagination: {
 			total: 0,

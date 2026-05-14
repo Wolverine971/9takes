@@ -100,12 +100,7 @@
 	);
 </script>
 
-<article
-	itemscope
-	itemtype="https://schema.org/BlogPosting"
-	class="pop-culture-article"
-	id="popCultureArticle"
->
+<article class="pop-culture-article" id="popCultureArticle">
 	<div class="article-header" class:dark-theme={isDarkContent}>
 		<BlogPageHead data={data.frontmatter} slug={`pop-culture/${data.slug}`} />
 

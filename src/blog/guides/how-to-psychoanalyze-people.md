@@ -32,7 +32,12 @@ Detective in trench coat holding oversized magnifying glass examining busy city 
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
+
+<QuickAnswer question="How do you read people accurately?">
+To read people accurately, look past surface behavior and identify four deeper patterns: the image they project, what they want, what they fear, and how they cope under stress. The goal is not manipulation. It is understanding the motivational pattern behind behavior so you stop misreading people through your own wiring.
+</QuickAnswer>
 
 <p class="firstLetter">My brother and I grew up in the same house, with the same parents, eating the same food. Yet we might as well have been raised on different planets.</p>
 

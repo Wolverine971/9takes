@@ -34,7 +34,7 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="Why does nobody understand what I'm saying?">
-You're speaking one of 9 hidden languages, and so is everyone else. Type 1s speak in improvements (heard as criticism). Type 2s speak in needs (heard as manipulation). Type 3s speak in achievements (heard as bragging). Type 4s speak in emotions (heard as drama). Type 5s speak in analysis (heard as coldness). Type 6s speak in scenarios (heard as anxiety). Type 7s speak in possibilities (heard as avoidance). Type 8s speak in directness (heard as aggression). Type 9s speak in harmony (heard as passivity). Learning to translate changes everything.
+People misunderstand you because every Enneagram type communicates through a hidden filter. Type 1s sound critical, 2s sound needy, 3s sound performative, 4s sound dramatic, 5s sound cold, 6s sound anxious, 7s sound avoidant, 8s sound aggressive, and 9s sound passive. Translation changes the conversation.
 </QuickAnswer>
 
 **Read time**: 12 minutes | **Key insight**: Every misunderstanding is a translation problem

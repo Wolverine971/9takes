@@ -1,7 +1,7 @@
 <!-- src/lib/components/blog/ArticleSubTitle.svelte -->
 <script lang="ts">
 	export let metaData: App.BlogPost;
-	export let structuredData = true;
+	export let structuredData = false;
 
 	// import twitter from '$lib/images/twitter.svg';
 

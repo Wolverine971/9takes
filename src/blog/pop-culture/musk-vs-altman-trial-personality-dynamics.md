@@ -39,7 +39,7 @@ path: src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md
 </svelte:head>
 
 <QuickAnswer question="Why will the Musk vs Altman trial come down to vibes?">
-Because the cap tables and 2015 charter language are too dense for a jury to weigh — so they'll fall back on which founder felt more honest about the original mission. That's a personality contest, not a legal one. Elon is a Type 5 (Investigator) wired for first-principles control of any system that matters to him. Sam is a Type 4 (Individualist) wired to be the irreplaceable author of a singular story. On a witness stand, those two types perform sincerity in opposite ways — and the jury will pick the one whose performance lands.
+The legal record is dense, so a jury may default to which founder feels more honest about OpenAI's original mission. Elon Musk reads as a Type 5 trying to control a system he helped create. Sam Altman reads as a Type 4 trying to own the singular story. Their sincerity will perform very differently.
 </QuickAnswer>
 
 <p class="firstLetter">Jacob Ward — CNN contributor, founder of <a href="https://theripcurrent.com" target="_blank" rel="noopener">theripcurrent.com</a>, and one of the few journalists actually sitting in the Oakland federal courthouse for <em>Musk v. Altman</em> — said something this week that the rest of the tech press is missing.</p>

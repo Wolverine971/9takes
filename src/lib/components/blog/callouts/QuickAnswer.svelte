@@ -28,7 +28,7 @@
 	class="quick-answer"
 	class:quick-answer--subtle={variant === 'subtle'}
 	itemscope
-	itemtype="https://schema.org/Answer"
+	itemtype="https://schema.org/Question"
 >
 	<div class="quick-answer__header">
 		<svg
@@ -52,12 +52,14 @@
 		<p class="quick-answer__question" itemprop="name">{question}</p>
 	{/if}
 
-	<div class="quick-answer__content" itemprop="text">
-		{#if typeof children === 'string' && children.trim() !== ''}
-			{@html children}
-		{:else}
-			<slot />
-		{/if}
+	<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+		<div class="quick-answer__content" itemprop="text">
+			{#if typeof children === 'string' && children.trim() !== ''}
+				{@html children}
+			{:else}
+				<slot />
+			{/if}
+		</div>
 	</div>
 </aside>
 

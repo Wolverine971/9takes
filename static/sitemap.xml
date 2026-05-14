@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-14</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -3485,6 +3485,13 @@
     <lastmod>2026-04-07</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/podcaster-personality-map-composite.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/pop-culture/psychology-of-public-shame</loc>
+    <lastmod>2026-05-14</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/psychology-of-public-shame.webp</image:loc>
     </image:image>
   </url>
   <url>

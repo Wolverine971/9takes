@@ -98,12 +98,11 @@
 	};
 </script>
 
-<article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog" id="blogA">
+<article class="blog" id="blogA">
 	<div class="article-header">
 		<BlogPageHead data={data.frontmatter} slug={`enneagram-corner/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
 		<ArticleSubTitle metaData={data.frontmatter} />
-		<meta itemprop="description" content={data.frontmatter.description} />
 	</div>
 
 	{#if dossierProfile}
@@ -111,13 +110,7 @@
 			<EnneagramTypeDossier {...dossierProfile} />
 		</div>
 	{:else if data?.frontmatter?.pic}
-		<div
-			class="featured-image"
-			itemprop="image"
-			itemscope
-			itemtype="https://schema.org/ImageObject"
-		>
-			<meta itemprop="url" content={`https://9takes.com/blogs/${data.frontmatter.pic}.webp`} />
+		<div class="featured-image">
 			<PopCard
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
@@ -131,7 +124,7 @@
 
 	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
 
-	<div class="article-body" itemprop="articleBody">
+	<div class="article-body">
 		<Article />
 	</div>
 

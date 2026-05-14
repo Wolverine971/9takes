@@ -14,18 +14,21 @@
 
 	let { data }: { data: App.BlogPost } = $props();
 
-	let title = $derived(data?.meta_title || data?.title || '');
+	let articleTitle = $derived(data?.title || data?.meta_title || '');
+	let seoTitle = $derived(data?.meta_title || articleTitle || '');
 	let description = $derived(data?.description || '');
-	let formattedTitle = $derived(title ? `${title}` : '9takes');
+	let formattedTitle = $derived(seoTitle ? `${seoTitle}` : '9takes');
 	// SERP-budgeted variants — only constrain the snippet-facing tags.
 	let serpTitle = $derived(capTitleForSnippet(formattedTitle));
-	let serpDescription = $derived(capDescriptionForSnippet(description || title));
+	let serpDescription = $derived(capDescriptionForSnippet(description || seoTitle || articleTitle));
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 	let publishedAt = $derived(data?.date || '');
 	let modifiedAt = $derived(data?.lastmod || publishedAt);
 	let canonicalUrl = $derived(data?.loc || buildPersonalityAnalysisUrl(data?.person || data?.slug));
-	let personName = $derived(formatPersonalityDisplayName(data?.person || data?.slug) || title);
+	let personName = $derived(
+		formatPersonalityDisplayName(data?.person || data?.slug) || articleTitle || seoTitle
+	);
 	let shareImagePath = $derived(
 		buildPersonalityImagePath(data?.enneagram, data?.person || data?.slug)
 	);
@@ -82,7 +85,7 @@
 					personName,
 					canonicalUrl,
 					breadcrumb: breadcrumbItems,
-					title,
+					title: articleTitle || seoTitle,
 					description,
 					articleBody: buildArticleBodySummary(data?.persona_title, description),
 					datePublished: publishedAt,
@@ -128,7 +131,7 @@
 
 	<!-- Existing meta tags -->
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content={title} />
+	<meta property="og:title" content={seoTitle || articleTitle} />
 	<meta property="og:description" content={description} />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content={canonicalUrl} />
@@ -143,10 +146,10 @@
 	{/if}
 
 	<meta name="twitter:site" content="@9takesdotcom" />
-	<meta name="twitter:description" content={description || title} />
+	<meta name="twitter:description" content={description || seoTitle || articleTitle} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta name="twitter:title" content={title} />
+	<meta name="twitter:title" content={seoTitle || articleTitle} />
 	<meta name="twitter:url" content={canonicalUrl} />
 	{#if shareImageUrl}
 		<meta name="twitter:image" content={shareImageUrl} />

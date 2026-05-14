@@ -48,9 +48,7 @@ type-9-finding-your-voice
 </script>
 
 <QuickAnswer question="Why do Type 9s sometimes feel invisible?">
-If you're a Nine, you probably learned early that keeping the peace meant setting yourself aside. It made sense at the time. When you stayed calm and agreeable, things felt easier for everyone. Over time, this became second nature. You got good at reading what others needed, at smoothing things over, at creating space where everyone else could be comfortable.
-
-The challenge is that somewhere along the way, your own wants and needs got quieter. Not because they don't matter, but because you got so skilled at tuning into everyone else. This isn't a flaw. It's a gift that simply needs balance. Your presence matters, even when it feels easier to fade into the background.
+Type 9s feel invisible because they often learn to keep peace by setting themselves aside. Reading others, smoothing tension, and staying agreeable can become second nature. Over time, their own wants get quieter. Growth is not becoming louder for its own sake; it is letting their presence matter too.
 </QuickAnswer>
 
 **Read time**: 16 minutes | **Core experience**: Finding peace by creating it for others

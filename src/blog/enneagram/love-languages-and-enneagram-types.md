@@ -31,6 +31,7 @@ QUALITY_FEEDBACK_END -->
 
 <script>
     import PopCard from "$lib/components/atoms/PopCard.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
 <!--
@@ -40,6 +41,10 @@ Keyword Strategy:
 - Long-tail: love languages and personality types, enneagram love languages, love language compatibility, love languages by personality type
 - Questions: how do love languages work with personality types, what's my love language based on personality, love language compatibility guide
 -->
+
+<QuickAnswer question="How do love languages connect to Enneagram types?">
+Love languages show what affection feels like; Enneagram type helps explain why that form matters. A Type 2 may crave words because they fear being unloved, while a Type 5 may value acts of service because energy feels limited. The love language is the signal. The Enneagram reveals the wound underneath it.
+</QuickAnswer>
 
 <p class="firstLetter">Your love language isn't random. It's your personality's strategy for healing a wound you've been carrying since childhood.</p>
 

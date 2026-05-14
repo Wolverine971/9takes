@@ -50,8 +50,10 @@ export interface PersonJsonLdInput {
 	wordCount?: number | null;
 	timeRequired?: string | null;
 
-	// FAQs (pre-validated visible upstream)
+	// FAQs are ignored unless includeFaqPage is explicitly enabled. Google
+	// removed FAQ rich results in 2026, so keep this opt-in only.
 	faqs?: PersonJsonLdFaq[] | null;
+	includeFaqPage?: boolean;
 
 	// Overrides
 	articleSection?: string;
@@ -78,7 +80,6 @@ export const PUBLISHER_SAME_AS = [
 
 const DEFAULT_ARTICLE_SECTION = 'Personality Analysis';
 const DEFAULT_IN_LANGUAGE = 'en-US';
-const DEFAULT_SPEAKABLE_SELECTORS = ['.article-body p'];
 const MIN_FAQ_ITEMS = 2;
 
 type JsonLdNode = Record<string, unknown>;
@@ -150,8 +151,8 @@ function buildArticleNode(input: PersonJsonLdInput): JsonLdNode {
 	const citations = nonEmptyArray(input.citations);
 	if (citations) node.citation = citations;
 
-	const speakableSelectors = input.speakableSelectors ?? DEFAULT_SPEAKABLE_SELECTORS;
-	if (speakableSelectors.length > 0) {
+	const speakableSelectors = input.speakableSelectors;
+	if (speakableSelectors && speakableSelectors.length > 0) {
 		node.speakable = {
 			'@type': 'SpeakableSpecification',
 			cssSelector: speakableSelectors
@@ -248,6 +249,8 @@ function buildBreadcrumbNode(input: PersonJsonLdInput): JsonLdNode {
 }
 
 function buildFaqNode(input: PersonJsonLdInput): JsonLdNode | null {
+	if (!input.includeFaqPage) return null;
+
 	const faqs = nonEmptyArray(input.faqs);
 	if (!faqs || faqs.length < MIN_FAQ_ITEMS) return null;
 

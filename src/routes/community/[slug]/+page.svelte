@@ -75,7 +75,7 @@
 	};
 </script>
 
-<article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog" id="blogA">
+<article class="blog" id="blogA">
 	<div style="align-items: inherit;">
 		<BlogPageHead data={data.frontmatter} slug={`community/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />

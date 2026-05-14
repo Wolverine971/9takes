@@ -45,7 +45,7 @@ path: src/blog/pop-culture/podcaster-personality-map.md
 </script>
 
 <QuickAnswer question="Why does every podcaster end up talking about the same topics over and over?">
-Because their personality type determines their gravitational pull. Type 8 hosts like Joe Rogan and Dave Portnoy can't stop testing people—every interview becomes a confrontation test. Type 5 hosts like Lex Fridman, Shawn Ryan, and Andrew Huberman can't stop excavating—every conversation becomes a search for a deeper system to understand. Type 7 hosts like Alex Cooper and Theo Von can't stop chasing the next experience—every episode becomes a ride. Type 3 hosts like Chris Williamson can't stop optimizing—every episode becomes a benchmark.
+Podcasters repeat topics because personality creates a gravitational pull. Type 8 hosts test people. Type 5 hosts excavate systems. Type 7 hosts chase the next experience. Type 3 hosts optimize. The format looks open-ended, but each host keeps dragging conversations back to the problem their type cannot stop solving.
 </QuickAnswer>
 
 <p class="firstLetter">Rogan doesn't cover "comedy and MMA and politics and aliens" because those topics are related—they're not. He covers them because they all satisfy the same psychological need: a Type 8's hunger to pressure-test everything.</p>

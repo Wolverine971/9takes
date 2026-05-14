@@ -16,6 +16,13 @@ import {
 	countRecentActiveContributors,
 	loadAdminEnneagramDistribution
 } from '$lib/server/adminAnalytics';
+import {
+	DEFAULT_TRENDING_BASELINE_DAYS,
+	DEFAULT_TRENDING_MIN_UNIQUE,
+	DEFAULT_TRENDING_MIN_VISITS,
+	emptyTrendingAnalyticsPayload,
+	loadTrendingAnalytics
+} from '$lib/server/adminTrendingAnalytics';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
 
@@ -130,6 +137,12 @@ export const load: PageServerLoad = async (event) => {
 
 	const profilesTable = demo_time === true ? 'profiles_demo' : 'profiles';
 	const demoTime = demo_time === true;
+	const trendingOptions = {
+		baselineDays: DEFAULT_TRENDING_BASELINE_DAYS,
+		minVisits: DEFAULT_TRENDING_MIN_VISITS,
+		minUnique: DEFAULT_TRENDING_MIN_UNIQUE,
+		limit: 10
+	};
 
 	const [
 		dailyVisitorsResult,
@@ -146,7 +159,8 @@ export const load: PageServerLoad = async (event) => {
 		recentSignupsResult,
 		questionsTodayResult,
 		commentsTodayResult,
-		retentionSummaryResult
+		retentionSummaryResult,
+		trendingPagesResult
 	] = await Promise.all([
 		supabase.rpc('visitors_last_30_days'),
 		supabase.rpc('comments_last_30_days'),
@@ -188,7 +202,16 @@ export const load: PageServerLoad = async (event) => {
 			.gte('created_at', today.toISOString()),
 		demoTime
 			? Promise.resolve({ data: null, error: null })
-			: (supabase as any).rpc('get_admin_retention_summary')
+			: (supabase as any).rpc('get_admin_retention_summary'),
+		demoTime
+			? Promise.resolve(null)
+			: loadTrendingAnalytics(supabase as any, {
+					...trendingOptions,
+					scope: 'all'
+				}).catch((err) => {
+					console.error('Failed to load admin trending pages', err);
+					return emptyTrendingAnalyticsPayload(trendingOptions, false);
+				})
 	]);
 
 	if (dailyVisitorsResult.error) {
@@ -209,6 +232,8 @@ export const load: PageServerLoad = async (event) => {
 	if (retentionSummaryResult.error && !isMissingRetentionSummaryRpc(retentionSummaryResult.error)) {
 		console.error('Failed to load admin retention summary', retentionSummaryResult.error);
 	}
+
+	const trending = trendingPagesResult ?? emptyTrendingAnalyticsPayload(trendingOptions, false);
 
 	let activeContributors = retentionSummary.activeContributorsThisWeek;
 	if (!retentionSummary.available) {
@@ -236,7 +261,8 @@ export const load: PageServerLoad = async (event) => {
 		recentSignups: recentSignupsResult.data || [],
 		questionsToday: questionsTodayResult.count || 0,
 		commentsToday: commentsTodayResult.count || 0,
-		retentionSummary
+		retentionSummary,
+		trending
 	};
 };
 

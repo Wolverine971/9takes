@@ -84,6 +84,16 @@ describe('/admin/analytics page server load', () => {
 					monthTo: '2026-04-08'
 				}
 			},
+			trending: {
+				available: false,
+				generatedAt: '2026-04-08T12:00:00.000Z',
+				baselineDays: 7,
+				minVisits: 3,
+				minUnique: 3,
+				rows: [],
+				broadRows: [],
+				repeatRows: []
+			},
 			rows: [],
 			pagination: {
 				total: 0,

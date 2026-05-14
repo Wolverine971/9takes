@@ -39,7 +39,7 @@ path: src/blog/pop-culture/tech-titans-platform-emperors.md
 </script>
 
 <QuickAnswer question="What Enneagram types built the platforms billions of people use?">
-Mark Zuckerberg (Type 5) built Facebook as a data model of friendship. Jeff Bezos (Type 8) built Amazon as territory to conquer. Jack Dorsey (Type 5) built Twitter and kept walking away because managing humans drained him. Elon Musk (Type 5) bought what Dorsey abandoned and tried to engineer human discourse like it was a rocket. Three men who retreat into systems. One man who charges forward to dominate them. The platforms feel different because the people who built them are wired differently.
+The biggest platforms reflect their builders' types. Mark Zuckerberg and Jack Dorsey show Type 5 system-building; Elon Musk shows the same systems instinct turned toward control; Jeff Bezos shows Type 8 conquest. Facebook, Twitter/X, and Amazon feel different because their founders were solving different psychological problems.
 </QuickAnswer>
 
 <p class="firstLetter">You scroll, you buy, you argue. You use these products every day and never stop to ask why Facebook feels like being watched, why Amazon feels frictionless, or why Twitter felt like a bar fight with the door locked from the inside.</p>

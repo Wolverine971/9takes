@@ -2,7 +2,7 @@
 <script lang="ts">
 	export let slug = '';
 	export let title: string;
-	export let structuredData = true;
+	export let structuredData = false;
 	const cleanedTitle = title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
 	const id = cleanedTitle;
 

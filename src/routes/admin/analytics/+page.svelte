@@ -97,6 +97,43 @@
 		width_pct: number;
 	}
 
+	interface TrendingTrafficSource {
+		key: string;
+		count: number;
+	}
+
+	interface TrendingPageRow {
+		path: string;
+		path_group: string;
+		content_type: string;
+		current_visits: number;
+		current_unique_visitors: number;
+		baseline_avg_visits: number;
+		baseline_avg_unique_visitors: number;
+		lift_visits: number;
+		lift_unique_visitors: number;
+		ratio_visits: number | null;
+		trend_score: number;
+		confidence: string;
+		top_sources: TrendingTrafficSource[];
+		top_referrers: TrendingTrafficSource[];
+		avg_time_on_page_ms: number;
+		median_time_on_page_ms: number;
+		bounce_rate: number;
+		is_low_unique: boolean;
+	}
+
+	interface TrendingState {
+		available: boolean;
+		generatedAt: string;
+		baselineDays: number;
+		minVisits: number;
+		minUnique: number;
+		rows: TrendingPageRow[];
+		broadRows: TrendingPageRow[];
+		repeatRows: TrendingPageRow[];
+	}
+
 	type SortKey =
 		| 'path'
 		| 'path_group'
@@ -240,7 +277,8 @@
 			overview: data.overview,
 			timeseries: data.timeseries,
 			rows: data.rows,
-			topPages: data.topPages
+			topPages: data.topPages,
+			trending: data.trending
 		};
 	}
 
@@ -251,11 +289,13 @@
 	const initialTimeseries = initialPageData.timeseries;
 	const initialRows = initialPageData.rows;
 	const initialTopPages = initialPageData.topPages;
+	const initialTrending = initialPageData.trending;
 	const hasInitialPageviewData = Boolean(
 		(initialOverview?.total_visits ?? 0) > 0 ||
 			(initialTimeseries?.length ?? 0) > 0 ||
 			(initialRows?.length ?? 0) > 0 ||
-			(initialTopPages?.topPagesOverTime?.length ?? 0) > 0
+			(initialTopPages?.topPagesOverTime?.length ?? 0) > 0 ||
+			(initialTrending?.rows?.length ?? 0) > 0
 	);
 	let activeTab = $state<AnalyticsTab>('pageviews');
 	let pageviewsLoaded = $state(hasInitialPageviewData);
@@ -293,6 +333,17 @@
 			monthFrom: '',
 			monthTo: ''
 		}
+	};
+
+	const defaultTrending: TrendingState = {
+		available: false,
+		generatedAt: '',
+		baselineDays: 7,
+		minVisits: 3,
+		minUnique: 3,
+		rows: [],
+		broadRows: [],
+		repeatRows: []
 	};
 
 	const scopeOptions: Array<{ value: AnalyticsScope; label: string }> = [
@@ -384,6 +435,8 @@
 	let sortBy = $state<SortKey>('visits');
 	let sortDir = $state<SortDirection>('desc');
 	let pageBreakdownWindow = $state<PageBreakdownWindow>(defaultPageBreakdownWindow);
+	let trendingBaselineDays = $state(initialTrending?.baselineDays ?? defaultTrending.baselineDays);
+	let trendingMinUnique = $state(initialTrending?.minUnique ?? defaultTrending.minUnique);
 	let pageBreakdownRangeFrom = $state(initialFilters?.from ?? '');
 	let pageBreakdownRangeTo = $state(initialFilters?.to ?? '');
 	let pageBreakdownRangeLabel = $state(
@@ -396,6 +449,7 @@
 	let loading = $state(!hasInitialPageviewData);
 	let tableLoading = $state(!hasInitialPageviewData);
 	let insightsLoading = $state(!hasInitialPageviewData);
+	let trendingLoading = $state(!hasInitialPageviewData);
 	let trendLoading = $state(false);
 	let overview = $state<AnalyticsOverview>({ ...defaultOverview, ...(initialOverview ?? {}) });
 	let timeseries = $state<TimeseriesPoint[]>((initialTimeseries ?? []) as TimeseriesPoint[]);
@@ -414,6 +468,15 @@
 			...defaultTopPages.windows,
 			...(initialTopPages?.windows ?? {})
 		}
+	});
+	let trending = $state<TrendingState>({
+		...defaultTrending,
+		...(initialTrending ?? {}),
+		rows: ((initialTrending?.rows ?? defaultTrending.rows) as TrendingPageRow[]) ?? [],
+		broadRows:
+			((initialTrending?.broadRows ?? defaultTrending.broadRows) as TrendingPageRow[]) ?? [],
+		repeatRows:
+			((initialTrending?.repeatRows ?? defaultTrending.repeatRows) as TrendingPageRow[]) ?? []
 	});
 
 	let selectedTrendPath = $state(
@@ -772,8 +835,12 @@
 		return filtered.sort((a, b) => compareReleaseRows(a, b, key, direction));
 	}
 
-	function ensureSelectedReleaseInVisibleRows() {
-		const visibleRows = getReleaseRowsForControls();
+	function ensureSelectedReleaseInVisibleRows(
+		filter: ReleaseBandFilter = releaseBandFilter,
+		key: ReleaseSortKey = releaseSortBy,
+		direction: SortDirection = releaseSortDir
+	) {
+		const visibleRows = getReleaseRowsForControls(filter, key, direction);
 		if (visibleRows.length === 0) {
 			selectedReleaseSlug = '';
 			releaseGrowthPoints = [];
@@ -790,29 +857,35 @@
 	}
 
 	function handleReleaseSort(column: ReleaseSortKey) {
+		let nextSortBy = releaseSortBy;
+		let nextSortDir = releaseSortDir;
 		if (releaseSortBy === column) {
-			releaseSortDir = releaseSortDir === 'desc' ? 'asc' : 'desc';
+			nextSortDir = releaseSortDir === 'desc' ? 'asc' : 'desc';
 		} else {
-			releaseSortBy = column;
-			releaseSortDir = column === 'title' ? 'asc' : 'desc';
+			nextSortBy = column;
+			nextSortDir = column === 'title' ? 'asc' : 'desc';
 		}
 
-		ensureSelectedReleaseInVisibleRows();
+		releaseSortBy = nextSortBy;
+		releaseSortDir = nextSortDir;
+		ensureSelectedReleaseInVisibleRows(releaseBandFilter, nextSortBy, nextSortDir);
 	}
 
 	function updateReleaseSortKey(value: string) {
-		releaseSortBy = value as ReleaseSortKey;
-		ensureSelectedReleaseInVisibleRows();
+		const nextSortBy = value as ReleaseSortKey;
+		releaseSortBy = nextSortBy;
+		ensureSelectedReleaseInVisibleRows(releaseBandFilter, nextSortBy, releaseSortDir);
 	}
 
 	function toggleReleaseSortDirection() {
-		releaseSortDir = releaseSortDir === 'desc' ? 'asc' : 'desc';
-		ensureSelectedReleaseInVisibleRows();
+		const nextSortDir = releaseSortDir === 'desc' ? 'asc' : 'desc';
+		releaseSortDir = nextSortDir;
+		ensureSelectedReleaseInVisibleRows(releaseBandFilter, releaseSortBy, nextSortDir);
 	}
 
 	function setReleaseBandFilter(filter: ReleaseBandFilter) {
 		releaseBandFilter = filter;
-		ensureSelectedReleaseInVisibleRows();
+		ensureSelectedReleaseInVisibleRows(filter);
 	}
 
 	function focusReleaseSignal(slug: string, filter: ReleaseBandFilter) {
@@ -918,6 +991,34 @@
 		}));
 	}
 
+	function getTopTrafficSource(row: TrendingPageRow): string {
+		return row.top_sources[0]?.key ?? 'unknown';
+	}
+
+	function formatTrendLift(value: number): string {
+		const prefix = value > 0 ? '+' : '';
+		return `${prefix}${value.toFixed(value % 1 === 0 ? 0 : 1)}`;
+	}
+
+	function formatTrendBaseline(value: number): string {
+		return value.toFixed(value >= 10 || value % 1 === 0 ? 0 : 1);
+	}
+
+	function formatTrendRatio(value: number | null): string {
+		if (value === null || !Number.isFinite(value)) return 'New';
+		return `${value.toFixed(1)}x`;
+	}
+
+	function formatTrendGeneratedAt(value: string): string {
+		if (!value) return '';
+		const date = new Date(value);
+		if (Number.isNaN(date.getTime())) return '';
+		return date.toLocaleTimeString(undefined, {
+			hour: 'numeric',
+			minute: '2-digit'
+		});
+	}
+
 	let visitsChartData = $derived(
 		timeseries.map((point) => {
 			const date = parseDate(point.day);
@@ -989,6 +1090,9 @@
 	let weekRankedRows = $derived(rankByVisits(topPages.topPagesThisWeek));
 	let monthRankedRows = $derived(rankByVisits(topPages.topPagesThisMonth));
 	let durationRankedRows = $derived(rankByDuration(topPages.topPagesBySessionDuration));
+	let broadTrendingRows = $derived(trending.broadRows.slice(0, 8));
+	let repeatTrendingRows = $derived(trending.repeatRows.slice(0, 6));
+	let hasTrendingRows = $derived(trending.rows.length > 0);
 	let timingBySlot = $derived(
 		new Map(timingRows.map((row) => [`${row.local_dow}:${row.local_hour}`, row]))
 	);
@@ -1222,9 +1326,48 @@
 		}
 	}
 
+	async function fetchTrendingAnalytics() {
+		trendingLoading = true;
+		try {
+			const params = new URLSearchParams({
+				scope,
+				baselineDays: String(trendingBaselineDays),
+				minVisits: '3',
+				minUnique: String(trendingMinUnique),
+				limit: '20'
+			});
+			const response = await fetch(`/api/admin/analytics/trending?${params.toString()}`);
+			const body = await response.json();
+
+			if (!response.ok) {
+				throw new Error(body.message || 'Failed to load trending analytics');
+			}
+
+			trending = {
+				...defaultTrending,
+				...(body ?? {}),
+				rows: (body.rows ?? []) as TrendingPageRow[],
+				broadRows: (body.broadRows ?? []) as TrendingPageRow[],
+				repeatRows: (body.repeatRows ?? []) as TrendingPageRow[]
+			};
+			trendingBaselineDays = trending.baselineDays || trendingBaselineDays;
+			trendingMinUnique = trending.minUnique || trendingMinUnique;
+		} catch (err) {
+			console.error('Trending analytics fetch error:', err);
+			notifications.danger('Failed to load trending pages', 3000);
+		} finally {
+			trendingLoading = false;
+		}
+	}
+
 	async function fetchPageviewAnalytics() {
 		try {
-			await Promise.all([fetchOverviewAndTimeseries(), fetchPages(), fetchTopPagesInsights()]);
+			await Promise.all([
+				fetchOverviewAndTimeseries(),
+				fetchPages(),
+				fetchTopPagesInsights(),
+				fetchTrendingAnalytics()
+			]);
 			selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
 		} finally {
 			pageviewsLoaded = true;
@@ -1875,6 +2018,126 @@
 			/>
 		</section>
 
+		<section class="insight-card trending-card">
+			<div class="insight-header trending-header">
+				<div>
+					<h2>Trending Now</h2>
+					<p>
+						Today versus the same elapsed time across the previous {trending.baselineDays} days
+						{#if trending.generatedAt}
+							| refreshed {formatTrendGeneratedAt(trending.generatedAt)}
+						{/if}
+					</p>
+				</div>
+				<div class="trending-controls">
+					<label>
+						<span>Baseline</span>
+						<select
+							bind:value={trendingBaselineDays}
+							onchange={() => void fetchTrendingAnalytics()}
+						>
+							<option value={3}>3 days</option>
+							<option value={7}>7 days</option>
+							<option value={14}>14 days</option>
+							<option value={30}>30 days</option>
+						</select>
+					</label>
+					<label>
+						<span>Min unique</span>
+						<select bind:value={trendingMinUnique} onchange={() => void fetchTrendingAnalytics()}>
+							<option value={2}>2</option>
+							<option value={3}>3</option>
+							<option value={5}>5</option>
+							<option value={8}>8</option>
+						</select>
+					</label>
+					<button
+						class="btn btn-secondary"
+						onclick={fetchTrendingAnalytics}
+						disabled={trendingLoading}
+					>
+						{trendingLoading ? 'Refreshing...' : 'Refresh'}
+					</button>
+				</div>
+			</div>
+
+			{#if trendingLoading && !hasTrendingRows}
+				<div class="empty-panel">Loading trending pages...</div>
+			{:else if !trending.available}
+				<div class="empty-panel">Trending analytics are waiting for the database migration.</div>
+			{:else if !hasTrendingRows}
+				<div class="empty-panel">No pages are trending above baseline right now.</div>
+			{:else}
+				<div class="trending-layout">
+					<article class="trending-list-panel">
+						<div class="trending-list-header">
+							<h3>Broad Spikes</h3>
+							<span>{broadTrendingRows.length.toLocaleString()}</span>
+						</div>
+						{#if broadTrendingRows.length === 0}
+							<p class="trending-empty">No broad spikes meet the unique visitor threshold.</p>
+						{:else}
+							<div class="trending-list">
+								{#each broadTrendingRows as row}
+									<button
+										type="button"
+										class="trending-row"
+										class:active={selectedTrendPath === row.path}
+										onclick={() => void focusPathTrend(row.path)}
+									>
+										<span class="trend-page-path">{row.path}</span>
+										<span class="trend-page-score">
+											{row.current_visits.toLocaleString()} visits
+										</span>
+										<span class="trend-page-meta">
+											{row.current_unique_visitors.toLocaleString()} uniques |
+											{formatTrendLift(row.lift_visits)} vs
+											{formatTrendBaseline(row.baseline_avg_visits)} avg |
+											{formatTrendRatio(row.ratio_visits)}
+										</span>
+										<span class="trend-page-source">{getTopTrafficSource(row)}</span>
+									</button>
+								{/each}
+							</div>
+						{/if}
+					</article>
+
+					<article class="trending-list-panel repeat">
+						<div class="trending-list-header">
+							<h3>Repeat Activity</h3>
+							<span>{repeatTrendingRows.length.toLocaleString()}</span>
+						</div>
+						{#if repeatTrendingRows.length === 0}
+							<p class="trending-empty">No concentrated repeat spikes right now.</p>
+						{:else}
+							<div class="trending-list">
+								{#each repeatTrendingRows as row}
+									<button
+										type="button"
+										class="trending-row repeat"
+										class:active={selectedTrendPath === row.path}
+										onclick={() => void focusPathTrend(row.path)}
+									>
+										<span class="trend-page-path">{row.path}</span>
+										<span class="trend-page-score">
+											{row.current_visits.toLocaleString()} visits
+										</span>
+										<span class="trend-page-meta">
+											{row.current_unique_visitors.toLocaleString()} uniques |
+											{formatTrendLift(row.lift_visits)} vs
+											{formatTrendBaseline(row.baseline_avg_visits)} avg |
+											{formatTrendRatio(row.ratio_visits)}
+										</span>
+										<span class="trend-page-source">{getTopTrafficSource(row)}</span>
+									</button>
+								{/each}
+							</div>
+						{/if}
+					</article>
+				</div>
+			{/if}
+		</section>
+
 		<section class="charts-grid">
 			<div class="chart-card">
 				<LineChart
@@ -2474,7 +2737,11 @@
 
 					<div class="release-layout">
 						<div class="trend-panel release-growth-panel">
-							{#if selectedRelease}
+							{#if releaseVisibleRows.length === 0}
+								<div class="empty-panel trend-empty">
+									Select a release below to view its growth curve.
+								</div>
+							{:else if selectedRelease}
 								<div class="release-detail-header">
 									<div>
 										<h3>{selectedRelease.title || selectedRelease.slug}</h3>
@@ -2914,6 +3181,159 @@
 		background: color-mix(in srgb, var(--data-teal) 16%, transparent);
 		color: var(--data-cyan);
 		white-space: nowrap;
+	}
+
+	.trending-card {
+		padding: 12px;
+	}
+
+	.trending-header {
+		align-items: flex-start;
+	}
+
+	.trending-controls {
+		display: flex;
+		align-items: end;
+		justify-content: flex-end;
+		gap: 8px;
+		flex-wrap: wrap;
+	}
+
+	.trending-controls label {
+		display: grid;
+		gap: 4px;
+		min-width: 116px;
+	}
+
+	.trending-controls label span {
+		font-size: 0.72rem;
+		color: var(--ink-mid);
+	}
+
+	.trending-controls select {
+		border: 1px solid var(--stone-warm);
+		border-radius: 8px;
+		background: var(--night-deep);
+		color: var(--ink-bright);
+		padding: 8px;
+	}
+
+	.trending-layout {
+		display: grid;
+		grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+		gap: 12px;
+	}
+
+	.trending-list-panel {
+		border: 1px solid var(--stone-warm);
+		border-radius: 10px;
+		background: var(--night-deep);
+		padding: 10px;
+		min-width: 0;
+	}
+
+	.trending-list-panel.repeat {
+		border-color: color-mix(in srgb, var(--warning) 28%, var(--stone-warm));
+	}
+
+	.trending-list-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 8px;
+		margin-bottom: 8px;
+	}
+
+	.trending-list-header h3 {
+		margin: 0;
+		font-size: 0.95rem;
+	}
+
+	.trending-list-header span {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 28px;
+		height: 24px;
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--data-teal) 16%, transparent);
+		color: var(--data-cyan);
+		font-size: 0.72rem;
+		font-weight: 700;
+	}
+
+	.trending-list {
+		display: grid;
+		gap: 8px;
+	}
+
+	.trending-row {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		grid-template-areas:
+			'path score'
+			'meta source';
+		gap: 5px 10px;
+		width: 100%;
+		border: 1px solid var(--stone-warm);
+		border-radius: 9px;
+		background: color-mix(in srgb, var(--night-deep) 88%, var(--stone-warm));
+		color: inherit;
+		text-align: left;
+		padding: 9px;
+		cursor: pointer;
+		min-width: 0;
+	}
+
+	.trending-row:hover,
+	.trending-row.active {
+		border-color: var(--lamp-glow);
+	}
+
+	.trending-row.active {
+		background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+	}
+
+	.trend-page-path {
+		grid-area: path;
+		color: var(--ink-bright);
+		font-size: 0.82rem;
+		font-weight: 700;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.trend-page-score {
+		grid-area: score;
+		color: var(--ink-bright);
+		font-size: 0.8rem;
+		font-weight: 700;
+		white-space: nowrap;
+	}
+
+	.trend-page-meta {
+		grid-area: meta;
+		color: var(--ink-mid);
+		font-size: 0.74rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.trend-page-source {
+		grid-area: source;
+		color: var(--data-cyan);
+		font-size: 0.72rem;
+		font-weight: 700;
+		white-space: nowrap;
+	}
+
+	.trending-empty {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.82rem;
+		line-height: 1.5;
 	}
 
 	.empty-panel {
@@ -4075,6 +4495,7 @@
 		.charts-grid,
 		.top-lists-grid,
 		.top-trend-layout,
+		.trending-layout,
 		.release-signal-grid {
 			grid-template-columns: 1fr;
 		}
@@ -4246,14 +4667,29 @@
 		}
 
 		.release-header-actions,
-		.release-sort-controls {
+		.release-sort-controls,
+		.trending-controls {
 			width: 100%;
 			justify-content: flex-start;
 		}
 
-		.release-sort-controls {
+		.release-sort-controls,
+		.trending-controls {
 			flex-direction: column;
 			align-items: stretch;
+		}
+
+		.trending-controls label {
+			min-width: 0;
+		}
+
+		.trending-row {
+			grid-template-columns: 1fr;
+			grid-template-areas:
+				'path'
+				'score'
+				'meta'
+				'source';
 		}
 
 		.release-range-fields,

@@ -45,7 +45,7 @@ Nine pairs of Greek statues arranged in a heart formation, each couple showing d
 </script>
 
 <QuickAnswer question="How does each Enneagram type behave in relationships?">
-Each Enneagram type brings a distinct love pattern shaped by a core childhood wound. Type 1s perfect their partners, Type 2s give until depleted, Type 3s perform love rather than feel it, Type 4s create emotional intensity tests, Type 5s ration intimacy like a resource, Type 6s test loyalty constantly, Type 7s avoid emotional depth, Type 8s armor against vulnerability, and Type 9s disappear to keep peace. Understanding your pattern is the first step to breaking it — and building a relationship that actually works.
+Each Enneagram type brings a distinct relationship pattern: 1s perfect, 2s over-give, 3s perform, 4s test emotional depth, 5s ration intimacy, 6s test loyalty, 7s avoid heaviness, 8s armor up, and 9s disappear to keep peace. Seeing the pattern is the first step to changing it.
 </QuickAnswer>
 
 **Read time**: 25 minutes | **Key insight**: The way you love isn't random—it's a pattern from childhood that you can change

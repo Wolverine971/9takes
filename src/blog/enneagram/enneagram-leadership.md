@@ -36,7 +36,7 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="What is my Enneagram leadership style?">
-Each type leads differently. Type 1s set standards. Type 2s develop people. Type 3s drive results. Type 4s bring creative vision. Type 5s provide strategic expertise. Type 6s manage risk. Type 7s spark innovation. Type 8s make bold decisions. Type 9s build consensus. The catch: your greatest strength becomes your blind spot when overused. A Type 8's decisiveness tips into bulldozing. A Type 9's harmony-seeking becomes avoidance. Knowing your pattern is the first step to leading with it instead of being run by it.
+Your Enneagram leadership style is your core strategy under responsibility. Type 1s set standards, 2s develop people, 3s drive results, 4s bring vision, 5s provide expertise, 6s manage risk, 7s spark innovation, 8s make bold decisions, and 9s build consensus. The strength becomes a blind spot when overused.
 </QuickAnswer>
 
 <!-- ## The $8.9 Trillion Leadership Crisis Nobody's Talking About  -->

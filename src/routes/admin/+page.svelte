@@ -47,6 +47,27 @@
 		questionHref?: string;
 	};
 
+	type TrendingTrafficSource = {
+		key: string;
+		count: number;
+	};
+
+	type TrendingPageRow = {
+		path: string;
+		content_type: string;
+		current_visits: number;
+		current_unique_visitors: number;
+		baseline_avg_visits: number;
+		lift_visits: number;
+		ratio_visits: number | null;
+		trend_score: number;
+		confidence: string;
+		top_sources: TrendingTrafficSource[];
+		avg_time_on_page_ms: number;
+		bounce_rate: number;
+		is_low_unique: boolean;
+	};
+
 	type VisitorDay = NonNullable<PageData['dailyVisitors']>[number];
 	type CommentDay = NonNullable<PageData['dailyComments']>[number];
 	type QuestionDay = NonNullable<PageData['dailyQuestions']>[number];
@@ -112,6 +133,23 @@
 		block?.week_start && block?.week_end
 			? `${convertDateToReadable(block.week_start)} - ${convertDateToReadable(block.week_end)}`
 			: 'Retention rollup pending';
+	const formatTrendLift = (value: number) => {
+		const prefix = value > 0 ? '+' : '';
+		return `${prefix}${value.toFixed(value % 1 === 0 ? 0 : 1)}`;
+	};
+	const formatTrendBaseline = (value: number) =>
+		value.toFixed(value >= 10 || value % 1 === 0 ? 0 : 1);
+	const formatTrendRatio = (value: number | null) =>
+		value === null || !Number.isFinite(value) ? 'New' : `${value.toFixed(1)}x`;
+	const formatTrendSource = (row: TrendingPageRow) => row.top_sources[0]?.key ?? 'unknown';
+	const formatShortDuration = (value: number) => {
+		if (!value) return '0s';
+		const seconds = Math.round(value / 1000);
+		if (seconds < 60) return `${seconds}s`;
+		const minutes = Math.floor(seconds / 60);
+		const remainingSeconds = seconds % 60;
+		return remainingSeconds ? `${minutes}m ${remainingSeconds}s` : `${minutes}m`;
+	};
 
 	const changeDemoTime = async () => {
 		try {
@@ -334,6 +372,13 @@
 			})
 		)
 	);
+	let trendingBroadRows = $derived(
+		((data.trending?.broadRows ?? []) as TrendingPageRow[]).slice(0, 5)
+	);
+	let trendingRepeatRows = $derived(
+		((data.trending?.repeatRows ?? []) as TrendingPageRow[]).slice(0, 4)
+	);
+	let trendingAvailable = $derived(data.trending?.available === true);
 </script>
 
 <div class="admin-dashboard">
@@ -391,6 +436,99 @@
 					href={metric.href ?? ''}
 				/>
 			{/each}
+		</div>
+	</section>
+
+	<section class="dashboard-section">
+		<div class="section-header">
+			<div class="section-copy">
+				<span class="eyebrow">Trending</span>
+				<h2 class="section-title">Pages moving today</h2>
+				<p class="section-description">
+					Same-time comparison against each page's previous {data.trending?.baselineDays ?? 7}-day
+					baseline.
+				</p>
+			</div>
+			<a href="/admin/analytics" class="section-link">Open analytics</a>
+		</div>
+
+		<div class="trending-grid">
+			<article class="panel trending-panel">
+				<div class="trending-panel-header">
+					<div class="section-copy">
+						<span class="eyebrow">Broad spikes</span>
+						<h3 class="card-title">Real momentum</h3>
+					</div>
+					<span class="count-pill">{formatCount(trendingBroadRows.length)}</span>
+				</div>
+
+				{#if !trendingAvailable}
+					<p class="empty-state">Trending analytics are waiting for the database migration.</p>
+				{:else if trendingBroadRows.length === 0}
+					<p class="empty-state">No broad page spikes right now.</p>
+				{:else}
+					<ul class="trend-list">
+						{#each trendingBroadRows as row}
+							<li class="trend-item">
+								<div class="trend-main">
+									<a href={row.path} class="trend-path">{row.path}</a>
+									<p class="trend-subtitle">
+										{row.current_unique_visitors.toLocaleString()} uniques |
+										{formatTrendSource(row)} |
+										{formatShortDuration(row.avg_time_on_page_ms)} avg
+									</p>
+								</div>
+								<div class="trend-side">
+									<strong>{row.current_visits.toLocaleString()}</strong>
+									<span>
+										{formatTrendLift(row.lift_visits)} vs
+										{formatTrendBaseline(row.baseline_avg_visits)}
+									</span>
+									<small>{formatTrendRatio(row.ratio_visits)}</small>
+								</div>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+			</article>
+
+			<article class="panel trending-panel">
+				<div class="trending-panel-header">
+					<div class="section-copy">
+						<span class="eyebrow">Watchlist</span>
+						<h3 class="card-title">Repeat-heavy spikes</h3>
+					</div>
+					<span class="count-pill muted">{formatCount(trendingRepeatRows.length)}</span>
+				</div>
+
+				{#if !trendingAvailable}
+					<p class="empty-state">Trending analytics are waiting for the database migration.</p>
+				{:else if trendingRepeatRows.length === 0}
+					<p class="empty-state">No concentrated repeat spikes right now.</p>
+				{:else}
+					<ul class="trend-list">
+						{#each trendingRepeatRows as row}
+							<li class="trend-item repeat">
+								<div class="trend-main">
+									<a href={row.path} class="trend-path">{row.path}</a>
+									<p class="trend-subtitle">
+										{row.current_unique_visitors.toLocaleString()} uniques |
+										{formatTrendSource(row)} |
+										{formatTrendRatio(row.ratio_visits)}
+									</p>
+								</div>
+								<div class="trend-side">
+									<strong>{row.current_visits.toLocaleString()}</strong>
+									<span>
+										{formatTrendLift(row.lift_visits)} vs
+										{formatTrendBaseline(row.baseline_avg_visits)}
+									</span>
+								</div>
+							</li>
+						{/each}
+					</ul>
+				{/if}
+			</article>
 		</div>
 	</section>
 
@@ -866,6 +1004,113 @@
 		gap: 20px;
 	}
 
+	.trending-grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+		gap: 20px;
+		min-width: 0;
+	}
+
+	.trending-panel {
+		overflow: hidden;
+	}
+
+	.trending-panel-header {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 12px;
+		padding: 20px 22px 16px;
+		border-bottom: 1px solid var(--stone-warm);
+		background: color-mix(in srgb, var(--night-deep) 82%, var(--stone-warm));
+	}
+
+	.count-pill.muted {
+		background: color-mix(in srgb, var(--warning) 14%, transparent);
+		color: var(--warning);
+	}
+
+	.trend-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.trend-item {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 14px;
+		align-items: center;
+		padding: 14px 22px;
+		border-top: 1px solid var(--stone-warm);
+	}
+
+	.trend-item:first-child {
+		border-top: none;
+	}
+
+	.trend-item:hover {
+		background: color-mix(in srgb, var(--night-deep) 84%, var(--stone-warm));
+	}
+
+	.trend-item.repeat {
+		border-left: 2px solid color-mix(in srgb, var(--warning) 60%, transparent);
+	}
+
+	.trend-main,
+	.trend-side {
+		min-width: 0;
+	}
+
+	.trend-main {
+		display: grid;
+		gap: 5px;
+	}
+
+	.trend-path {
+		color: var(--ink-bright);
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 0.9rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.trend-path:hover {
+		color: var(--lamp-glow);
+	}
+
+	.trend-subtitle {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.76rem;
+		line-height: 1.45;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.trend-side {
+		display: grid;
+		gap: 3px;
+		justify-items: end;
+		text-align: right;
+	}
+
+	.trend-side strong {
+		color: var(--ink-bright);
+		font-size: 1rem;
+		line-height: 1;
+	}
+
+	.trend-side span,
+	.trend-side small {
+		color: var(--ink-mid);
+		font-size: 0.72rem;
+		white-space: nowrap;
+	}
+
 	.list-card,
 	.question-feed {
 		overflow: hidden;
@@ -1192,7 +1437,8 @@
 
 	@media (max-width: 1200px) {
 		.queue-grid,
-		.insights-grid {
+		.insights-grid,
+		.trending-grid {
 			grid-template-columns: 1fr;
 		}
 	}
@@ -1210,6 +1456,7 @@
 
 		.section-header,
 		.list-card-header,
+		.trending-panel-header,
 		.question-footer {
 			flex-direction: column;
 			align-items: flex-start;
@@ -1243,9 +1490,16 @@
 			flex-direction: column;
 		}
 
+		.trend-item {
+			grid-template-columns: 1fr;
+		}
+
 		.detail-side,
+		.trend-side,
 		.list-card-meta {
 			align-items: flex-start;
+			justify-items: start;
+			text-align: left;
 		}
 
 		.modal-actions {

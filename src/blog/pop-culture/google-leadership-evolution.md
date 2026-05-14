@@ -36,7 +36,7 @@ path: src/blog/pop-culture/google-leadership-evolution.md
 </script>
 
 <QuickAnswer question="How did Google change under Larry Page and Sergey Brin vs Sundar Pichai?">
-Larry Page (Enneagram 5w6) and Sergey Brin (5w7) built Google as a fortress wrapped around a trapeze: same Type 5 hunger to understand, opposite wings. In 2015 the board picked Sundar Pichai (Type 9), the calmest man in the room, to stabilize the sprawl. Then ChatGPT shipped in November 2022, and a 9's harmony-first instinct couldn't generate urgency under existential threat. By February 2023, Brin had requested code access. Page came in from Fiji. Google is the only Big Tech where the founders had to return — and the personality logic is the entire story.
+Larry Page and Sergey Brin built Google through Type 5 intensity: systems, experiments, and technical obsession. Sundar Pichai, a Type 9 pattern, stabilized the company through calm consensus. That worked until the AI race demanded urgency. When ChatGPT changed the market, Google's founders had to re-enter the story.
 </QuickAnswer>
 
 <p class="firstLetter">In February 2023, three months after ChatGPT launched, a retired co-founder of Google requested access to the company's code. He hadn't worked there in four years. He'd been drinking espresso, studying physics, riding around on a yacht. Then <a href="/personality-analysis/sergey-brin">Sergey Brin</a> came back. <a href="/personality-analysis/larry-page">Larry Page</a> came in from Fiji. <a href="/personality-analysis/sundar-pichai">Sundar Pichai</a> — the man both founders had personally chosen to run their company — sat in the same emergency meetings.</p>

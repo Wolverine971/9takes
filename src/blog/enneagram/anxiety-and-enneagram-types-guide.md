@@ -30,9 +30,14 @@ QUALITY_FEEDBACK_END -->
 
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
 <!-- Midjourney Prompt: greek statue with face showing worried expression and tension, surrounded by nine smaller statues each displaying different anxiety responses, dark stormy clouds transforming into calming light, marble white with subtle blue and gold accents, representing journey from anxiety to peace, therapeutic and healing atmosphere, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting transitioning to Soft Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
+
+<QuickAnswer question="How does anxiety show up differently by Enneagram type?">
+Anxiety shows up differently because each Enneagram type fears something different. Type 1s fear being wrong, 2s being unwanted, 3s failing, 4s being defective, 5s being overwhelmed, 6s being unsafe, 7s being trapped, 8s being controlled, and 9s losing peace. The trigger shapes the symptoms.
+</QuickAnswer>
 
 Your anxiety doesn't work like everyone else's.
 

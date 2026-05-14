@@ -35,7 +35,7 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="What are the red flags for each Enneagram type in relationships?">
-Type 1s criticize everything you do. Type 2s help with strings attached ("after all I've done for you"). Type 3s perform instead of connect. Type 4s make their crisis your constant responsibility. Type 5s withdraw when you need them most. Type 6s test your loyalty obsessively. Type 7s disappear when things get serious. Type 8s bulldoze your boundaries. Type 9s go silent and forget your needs exist. The trait that attracted you initially often becomes the toxic pattern that destroys the relationship.
+Each Enneagram type has a relationship red flag: 1s criticize, 2s give with strings attached, 3s perform, 4s make every feeling urgent, 5s withdraw, 6s test loyalty, 7s avoid seriousness, 8s bulldoze boundaries, and 9s go silent. The attractive trait often becomes the toxic pattern under stress.
 </QuickAnswer>
 
 ## Relationship Red Flags by Type

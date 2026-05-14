@@ -39,7 +39,7 @@ path: src/blog/pop-culture/tech-titans-ai-wars.md
 </script>
 
 <QuickAnswer question="What Enneagram types are leading the AI race?">
-Sam Altman is a Type 4 (Individualist) who needs building AGI to be his defining act of significance. Dario Amodei is a Type 5 (Investigator) who left OpenAI because the approach wasn't rigorous enough. Elon Musk is a Type 5 who founded xAI because he couldn't control OpenAI. Mark Zuckerberg is a Type 5 who wants to distribute AI to everyone—if he can't own the intelligence layer, he'll commoditize it so no one else can either. Four different psychological needs driving four different AI strategies.
+The AI race is mostly led by Type 4 and Type 5 patterns. Sam Altman reads as a Type 4 chasing a defining act of significance. Dario Amodei, Elon Musk, and Mark Zuckerberg read as Type 5s, each trying to understand, control, or distribute the intelligence layer in a different way.
 </QuickAnswer>
 
 <p class="firstLetter">The most important AI companies in the world were founded by men who fundamentally cannot agree—not because they see different data, but because they are different people.</p>

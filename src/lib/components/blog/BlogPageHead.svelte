@@ -3,6 +3,12 @@
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 	import { capDescriptionForSnippet, capTitleForSnippet } from '$lib/utils/seoBudget';
+	import {
+		AUTHOR_DJ_WAYNE_ID,
+		DJ_WAYNE_SAME_AS,
+		PUBLISHER_ID,
+		PUBLISHER_SAME_AS
+	} from '$lib/utils/personJsonLd';
 
 	interface Props {
 		data: App.BlogPost;
@@ -13,14 +19,15 @@
 	let { data, slug, skipJsonLd = false }: Props = $props();
 	let shouldSkipJsonLd = $derived(skipJsonLd || data?.skip_jsonld === true);
 
-	// Use meta_title for SEO/social if available, otherwise fall back to title
-	let title = $derived(data?.meta_title || data?.title || '');
+	// Use meta_title for snippet/social text, but keep Article JSON-LD aligned
+	// to the visible H1 title.
+	let articleTitle = $derived(data?.title || data?.meta_title || '');
+	let seoTitle = $derived(data?.meta_title || articleTitle || '');
 	let description = $derived(data?.description || '');
-	let formattedTitle = $derived(title ? `${title}` : '9takes');
-	// SERP-budgeted variants — Google snippet caps. Author-facing fields above
-	// stay full length so OG/JSON-LD nodes still see the editorial title/desc.
+	let formattedTitle = $derived(seoTitle ? `${seoTitle}` : '9takes');
+	// SERP-budgeted variants - only constrain the snippet-facing tags.
 	let serpTitle = $derived(capTitleForSnippet(formattedTitle));
-	let serpDescription = $derived(capDescriptionForSnippet(description || title));
+	let serpDescription = $derived(capDescriptionForSnippet(description || seoTitle || articleTitle));
 	const defaultShareImage = 'https://9takes.com/brand/aero.png';
 	let shareImage = $derived(
 		data?.picGroup?.length
@@ -34,7 +41,7 @@
 			? data.picGroup.map((p) => p.text).join(', ')
 			: data?.pic
 				? data.pic.split('-').join(' ')
-				: title || '9takes'
+				: articleTitle || '9takes'
 	);
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
@@ -87,7 +94,7 @@
 	let breadcrumbItems = $derived.by(() => [
 		{ name: 'Home', url: 'https://9takes.com/' },
 		{ name: articleSection, url: `https://9takes.com/${sectionRoute}` },
-		{ name: title, url: canonicalUrl }
+		{ name: articleTitle || seoTitle, url: canonicalUrl }
 	]);
 
 	let aboutThings = $derived(
@@ -125,8 +132,8 @@
 	let blogPostingNode = $derived({
 		'@type': articleType,
 		'@id': `${canonicalUrl}#article`,
-		headline: title,
-		name: title,
+		headline: articleTitle || seoTitle,
+		name: articleTitle || seoTitle,
 		url: canonicalUrl,
 		mainEntityOfPage: {
 			'@type': 'WebPage',
@@ -134,38 +141,38 @@
 		},
 		author: {
 			'@type': 'Person',
-			'@id': 'https://9takes.com/#person/dj-wayne',
+			'@id': AUTHOR_DJ_WAYNE_ID,
 			name: 'DJ Wayne',
 			url: 'https://9takes.com/about',
 			jobTitle: 'Creator of 9takes',
 			image: 'https://9takes.com/brand/djface.webp',
 			knowsAbout: ['Enneagram', 'personality psychology', 'emotional intelligence'],
-			sameAs: [
-				'https://www.instagram.com/djwayne3/',
-				'https://www.linkedin.com/in/djwayne/',
-				'https://twitter.com/djwayne3'
-			]
+			sameAs: DJ_WAYNE_SAME_AS
 		},
 		description,
 		datePublished: data.date,
 		dateModified: data.lastmod || data.date,
-		image:
-			data?.picGroup?.length || data?.pic
-				? {
+		...(data?.picGroup?.length || data?.pic
+			? {
+					image: {
 						'@type': 'ImageObject',
 						url: shareImage,
 						width: data?.picGroup?.length ? 560 : 900,
 						height: data?.picGroup?.length ? 560 : 900
 					}
-				: shareImage,
+				}
+			: {}),
+		isAccessibleForFree: true,
 		publisher: {
 			'@type': 'Organization',
+			'@id': PUBLISHER_ID,
 			name: '9takes',
+			url: 'https://9takes.com/',
 			logo: {
 				'@type': 'ImageObject',
-				url: 'https://9takes.com/brand/aero.png'
+				url: 'https://9takes.com/brand/darkRubix.png'
 			},
-			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
+			sameAs: PUBLISHER_SAME_AS
 		},
 		articleSection,
 		inLanguage: 'en-US',
@@ -181,27 +188,9 @@
 		...(data?.medical && data?.disclaimer ? { disclaimer: data.disclaimer } : {})
 	});
 
-	let faqNode = $derived(
-		data?.faqs && data.faqs.length
-			? {
-					'@type': 'FAQPage',
-					'@id': `${canonicalUrl}#faq`,
-					mainEntity: data.faqs.map((faq) => ({
-						'@type': 'Question',
-						name: faq.question,
-						acceptedAnswer: { '@type': 'Answer', text: faq.answer }
-					}))
-				}
-			: null
-	);
-
 	let jsonldObj = $derived.by(() => ({
 		'@context': 'https://schema.org',
-		'@graph': [
-			blogPostingNode,
-			buildBreadcrumbSchemaForGraph(breadcrumbItems),
-			...(faqNode ? [faqNode] : [])
-		]
+		'@graph': [blogPostingNode, buildBreadcrumbSchemaForGraph(breadcrumbItems)]
 	}));
 
 	let jsonld = $derived(JSON.stringify(jsonldObj));
@@ -217,7 +206,7 @@
 	<meta name="author" content="DJ Wayne" />
 
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content={title} />
+	<meta property="og:title" content={seoTitle || articleTitle} />
 	<meta property="og:description" content={data.description} />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content={canonicalUrl} />
@@ -228,10 +217,10 @@
 	<meta property="og:locale" content="en_US" />
 
 	<meta name="twitter:site" content="@9takesdotcom" />
-	<meta name="twitter:description" content={description || title} />
+	<meta name="twitter:description" content={description || seoTitle || articleTitle} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta name="twitter:title" content={title} />
+	<meta name="twitter:title" content={seoTitle || articleTitle} />
 	<meta name="twitter:url" content={canonicalUrl} />
 	<meta name="twitter:image" content={shareImage} />
 	<meta name="twitter:image:alt" content={shareImageAlt} />
