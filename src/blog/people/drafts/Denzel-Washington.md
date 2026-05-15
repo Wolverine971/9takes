@@ -13,7 +13,7 @@ published: true
 enneagram: 8
 type: ['movieStar']
 person: 'Denzel-Washington'
-suggestions: ['Will-Smith', 'Michael-B-Jordan', 'Morgan-Freeman', 'Tom-Hardy']
+suggestions: ['Tyler-Perry', 'Will-Smith', 'Michael-B-Jordan', 'Morgan-Freeman', 'Eddie-Murphy']
 wikipedia: 'https://en.wikipedia.org/wiki/Denzel_Washington'
 twitter: ''
 instagram: ''
@@ -365,4 +365,3 @@ PRIORITY FIXES:
 3. Trim the closing "every role / every film / every young actor" parallel. Pick the strongest of the three and let it stand; the triple is sermon, not analysis.
 
 ============================================================ -->
-

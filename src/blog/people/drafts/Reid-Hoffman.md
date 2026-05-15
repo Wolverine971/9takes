@@ -1,6 +1,6 @@
 ---
 title: "Reid Hoffman: An Enneagram Type 7 Analysis of Silicon Valley's Philosopher-Networker"
-meta_title: "Why Reid Hoffman Can't Stop Starting Things (The Pattern Nobody Talks About)"
+meta_title: 'Reid Hoffman Enneagram Type 7: Why He Keeps Starting'
 persona_title: "Silicon Valley's Restless Philosopher"
 description: "Reid Hoffman built the world's largest professional network. But his real obsession isn't connections. It's possibility itself."
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Reid-Hoffman'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['techie']
 person: 'Reid-Hoffman'
-suggestions: ['Peter-Thiel', 'Marc-Andreessen', 'Sam-Altman', 'Paul-Graham']
+suggestions: ['Ben-Horowitz', 'Marc-Andreessen', 'Shaan-Puri', 'Sam-Altman', 'Paul-Graham']
 wikipedia: 'https://en.wikipedia.org/wiki/Reid_Hoffman'
 twitter: 'reidhoffman'
 instagram: ''

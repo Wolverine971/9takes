@@ -147,7 +147,13 @@
 		| 'bounce_rate';
 	type SortDirection = 'asc' | 'desc';
 	type PageBreakdownWindow = '24h' | '7d' | '14d' | '30d' | '90d';
-	type AnalyticsTab = 'pageviews' | 'timing' | 'releases' | 'cohorts';
+	type AnalyticsTab =
+		| 'pageviews'
+		| 'timing'
+		| 'releases'
+		| 'overperformers'
+		| 'underperformers'
+		| 'cohorts';
 	type ReleaseSortKey =
 		| 'title'
 		| 'published_at'
@@ -156,8 +162,14 @@
 		| 'views_7d'
 		| 'views_30d'
 		| 'total_views'
+		| 'overall_score'
+		| 'launch_score'
+		| 'quality_demand_score'
 		| 'benchmark_score'
 		| 'performance_band'
+		| 'external_unique_30d'
+		| 'internal_share_30d'
+		| 'repeat_view_share_24h'
 		| 'growth_slope_7d'
 		| 'bounce_rate'
 		| 'avg_time_on_page_ms';
@@ -240,6 +252,35 @@
 		release_stage: string;
 		growth_slope_7d: number | null;
 		decay_rate_after_spike: number | null;
+		launch_score: number | null;
+		launch_band: string;
+		launch_basis: string;
+		launch_sample_size: number;
+		quality_demand_score: number | null;
+		quality_demand_band: string;
+		quality_demand_basis: string;
+		quality_demand_sample_size: number;
+		quality_demand_confidence: 'collecting' | 'directional' | 'stable';
+		overall_score: number | null;
+		overall_performance_band: string;
+		overall_basis: string;
+		external_unique_7d: number;
+		external_unique_30d: number;
+		engaged_external_unique_7d: number;
+		engaged_external_unique_30d: number;
+		search_unique_7d: number;
+		search_unique_30d: number;
+		direct_unique_7d: number;
+		direct_unique_30d: number;
+		internal_share_24h: number;
+		internal_share_7d: number;
+		internal_share_30d: number;
+		repeat_view_share_24h: number;
+		demand_points: number | null;
+		demand_percentile: number | null;
+		engagement_percentile: number | null;
+		top_demand_sources: Array<{ source: string; visits: number }>;
+		performance_notes: string[];
 	}
 
 	interface ReleaseGrowthPoint {
@@ -266,6 +307,86 @@
 		lift_pct: number | null;
 		days_before: number;
 		days_after: number;
+	}
+
+	interface BlogDiagnosticsRow {
+		slug: string;
+		file_path: string;
+		frontmatter: {
+			title: string;
+			meta_title: string;
+			persona_title: string;
+			description: string;
+			date: string;
+			lastmod: string;
+			published: boolean | string | null;
+			enneagram: string;
+			type: string[];
+			person: string;
+			suggestions: string[];
+			content_quality: {
+				hook: number | null;
+				enneagram: number | null;
+				evidence: number | null;
+				writing: number | null;
+				originality: number | null;
+				overall: number | null;
+				letter: string;
+				graded_at: string;
+			};
+			keywords: string[];
+			citations: string[];
+			faq_count: number;
+			same_as_count: number;
+		};
+		content_stats: {
+			word_count: number;
+			h2_count: number;
+			h3_count: number;
+			title_chars: number;
+			meta_title_chars: number;
+			description_chars: number;
+			has_tldr: boolean;
+			has_testimony_ledger: boolean;
+			has_heading_mix_ledger: boolean;
+			has_distribution_ledger: boolean;
+			has_faq_schema: boolean;
+		};
+		link_stats: {
+			outgoing_internal_count: number;
+			outgoing_personality_count: number;
+			outgoing_enneagram_count: number;
+			outgoing_category_count: number;
+			external_link_count: number;
+			incoming_internal_count: number;
+			suggestion_count: number;
+			suggestions_existing_count: number;
+			missing_suggestions: string[];
+			outgoing_targets: Array<{ href: string; label: string }>;
+			incoming_sources: Array<{ slug: string; title: string; href: string }>;
+		};
+		diagnostic_scores: {
+			seo: number;
+			internal_links: number;
+			content_depth: number;
+			frontmatter: number;
+		};
+		action_notes: string[];
+		replication_notes: string[];
+	}
+
+	interface BlogInsightRow {
+		release: ReleasePerformanceRow;
+		diagnostics: BlogDiagnosticsRow | null;
+	}
+
+	interface BlogInsightSummary {
+		count: number;
+		avgOverall: number | null;
+		avgExternal30d: number | null;
+		avgIncomingLinks: number | null;
+		avgOutgoingLinks: number | null;
+		avgSeoScore: number | null;
 	}
 
 	let { data }: { data: PageData } = $props();
@@ -301,6 +422,7 @@
 	let pageviewsLoaded = $state(hasInitialPageviewData);
 	let hasOpenedTiming = $state(false);
 	let hasOpenedReleases = $state(false);
+	let hasOpenedBlogInsights = $state(false);
 	let hasOpenedCohorts = $state(false);
 
 	const defaultOverview: AnalyticsOverview = {
@@ -390,11 +512,16 @@
 	];
 
 	const releaseSortOptions: Array<{ key: ReleaseSortKey; label: string }> = [
-		{ key: 'benchmark_score', label: 'Benchmark score' },
+		{ key: 'overall_score', label: 'Overall score' },
+		{ key: 'quality_demand_score', label: 'Demand score' },
+		{ key: 'launch_score', label: 'Launch score' },
 		{ key: 'views_24h', label: '24h views' },
 		{ key: 'views_7d', label: '7d views' },
 		{ key: 'views_30d', label: '30d views' },
 		{ key: 'total_views', label: 'Total views' },
+		{ key: 'external_unique_30d', label: '30d external unique' },
+		{ key: 'internal_share_30d', label: '30d internal share' },
+		{ key: 'repeat_view_share_24h', label: '24h repeat share' },
 		{ key: 'published_at', label: 'Publish date' },
 		{ key: 'growth_slope_7d', label: '7d growth slope' },
 		{ key: 'minutes_to_first_view', label: 'Time to first view' },
@@ -410,7 +537,9 @@
 		{ key: 'views_24h', label: '24h', numeric: true },
 		{ key: 'views_7d', label: '7d', numeric: true },
 		{ key: 'views_30d', label: '30d', numeric: true },
-		{ key: 'benchmark_score', label: 'Score', numeric: true },
+		{ key: 'launch_score', label: 'Launch', numeric: true },
+		{ key: 'quality_demand_score', label: 'Demand', numeric: true },
+		{ key: 'overall_score', label: 'Overall', numeric: true },
 		{ key: 'performance_band', label: 'Band' }
 	];
 	const releaseAnalyticsLimit = 500;
@@ -491,7 +620,7 @@
 	let releasesLoading = $state(false);
 	let releasesLoaded = $state(false);
 	let selectedReleaseSlug = $state('');
-	let releaseSortBy = $state<ReleaseSortKey>('published_at');
+	let releaseSortBy = $state<ReleaseSortKey>('overall_score');
 	let releaseSortDir = $state<SortDirection>('desc');
 	let releaseBandFilter = $state<ReleaseBandFilter>('all');
 	let releaseGrowthPoints = $state<ReleaseGrowthPoint[]>([]);
@@ -504,6 +633,10 @@
 	let releaseEventSource = $state('');
 	let releaseEventAt = $state('');
 	let releaseEventSubmitting = $state(false);
+	let blogDiagnosticsRows = $state<BlogDiagnosticsRow[]>([]);
+	let blogDiagnosticsLoading = $state(false);
+	let blogDiagnosticsLoaded = $state(false);
+	let selectedBlogInsightSlug = $state('');
 
 	function toDateString(date: Date): string {
 		const year = date.getFullYear();
@@ -733,7 +866,7 @@
 
 	function getReleaseBandCount(filter: ReleaseBandFilter): number {
 		if (filter === 'all') return releaseRows.length;
-		return releaseRows.filter((row) => row.performance_band === filter).length;
+		return releaseRows.filter((row) => row.overall_performance_band === filter).length;
 	}
 
 	function getReleaseBandSortRank(value: string): number {
@@ -772,10 +905,22 @@
 				return row.views_30d;
 			case 'total_views':
 				return row.total_views;
+			case 'overall_score':
+				return row.overall_score;
+			case 'launch_score':
+				return row.launch_score;
+			case 'quality_demand_score':
+				return row.quality_demand_score;
 			case 'benchmark_score':
 				return row.benchmark_score;
 			case 'performance_band':
-				return getReleaseBandSortRank(row.performance_band);
+				return getReleaseBandSortRank(row.overall_performance_band);
+			case 'external_unique_30d':
+				return row.external_unique_30d;
+			case 'internal_share_30d':
+				return row.internal_share_30d;
+			case 'repeat_view_share_24h':
+				return row.repeat_view_share_24h;
 			case 'growth_slope_7d':
 				return row.growth_slope_7d;
 			case 'bounce_rate':
@@ -830,7 +975,7 @@
 		const filtered =
 			filter === 'all'
 				? [...releaseRows]
-				: releaseRows.filter((row) => row.performance_band === filter);
+				: releaseRows.filter((row) => row.overall_performance_band === filter);
 
 		return filtered.sort((a, b) => compareReleaseRows(a, b, key, direction));
 	}
@@ -991,6 +1136,70 @@
 		}));
 	}
 
+	function averageNullable(values: Array<number | null | undefined>): number | null {
+		const finiteValues = values.filter(
+			(value): value is number => typeof value === 'number' && Number.isFinite(value)
+		);
+		if (finiteValues.length === 0) return null;
+		return finiteValues.reduce((sum, value) => sum + value, 0) / finiteValues.length;
+	}
+
+	function getBlogInsightRows(band: 'above_norm' | 'below_norm'): BlogInsightRow[] {
+		const sortDir = band === 'above_norm' ? 'desc' : 'asc';
+		const rows = getReleaseRowsForControls(band, 'overall_score', sortDir);
+		return rows.map((release) => ({
+			release,
+			diagnostics: blogDiagnosticsBySlug.get(release.slug) ?? null
+		}));
+	}
+
+	function getBlogInsightSummary(rows: BlogInsightRow[]): BlogInsightSummary {
+		return {
+			count: rows.length,
+			avgOverall: averageNullable(rows.map((row) => row.release.overall_score)),
+			avgExternal30d: averageNullable(rows.map((row) => row.release.external_unique_30d)),
+			avgIncomingLinks: averageNullable(
+				rows.map((row) => row.diagnostics?.link_stats.incoming_internal_count)
+			),
+			avgOutgoingLinks: averageNullable(
+				rows.map((row) => row.diagnostics?.link_stats.outgoing_internal_count)
+			),
+			avgSeoScore: averageNullable(rows.map((row) => row.diagnostics?.diagnostic_scores.seo))
+		};
+	}
+
+	function formatCompactNumber(value: number | null | undefined, digits = 0): string {
+		if (value === null || value === undefined || !Number.isFinite(value)) return '—';
+		return value.toLocaleString(undefined, {
+			maximumFractionDigits: digits,
+			minimumFractionDigits: digits
+		});
+	}
+
+	function formatFrontmatterValue(value: boolean | string | null): string {
+		if (value === true) return 'true';
+		if (value === false) return 'false';
+		return value || 'Missing';
+	}
+
+	function formatList(values: string[], fallback = 'None'): string {
+		return values.length > 0 ? values.join(', ') : fallback;
+	}
+
+	function getInsightModeLabel(mode: 'over' | 'under'): string {
+		return mode === 'over' ? 'Overperforming Blogs' : 'Underperforming Blogs';
+	}
+
+	function getInsightModeDescription(mode: 'over' | 'under'): string {
+		return mode === 'over'
+			? 'Find what the winners have in common: demand source, frontmatter quality, content structure, and internal-link support.'
+			: 'Prioritize fixes by separating weak demand from fixable SEO, content, and cross-linking gaps.';
+	}
+
+	function getSelectedBlogInsight(rows: BlogInsightRow[]): BlogInsightRow | null {
+		return rows.find((row) => row.release.slug === selectedBlogInsightSlug) ?? rows[0] ?? null;
+	}
+
 	function getTopTrafficSource(row: TrendingPageRow): string {
 		return row.top_sources[0]?.key ?? 'unknown';
 	}
@@ -1116,20 +1325,32 @@
 	);
 	let releaseVisibleRows = $derived(getReleaseRowsForControls());
 	let overperformingRows = $derived(
-		getReleaseRowsForControls('above_norm', 'benchmark_score', 'desc').slice(0, 3)
+		getReleaseRowsForControls('above_norm', 'overall_score', 'desc').slice(0, 3)
 	);
 	let underperformingRows = $derived(
-		getReleaseRowsForControls('below_norm', 'benchmark_score', 'asc').slice(0, 3)
+		getReleaseRowsForControls('below_norm', 'overall_score', 'asc').slice(0, 3)
 	);
 	let releaseSummary = $derived({
 		total: releaseRows.length,
-		aboveNorm: releaseRows.filter((row) => row.performance_band === 'above_norm').length,
-		belowNorm: releaseRows.filter((row) => row.performance_band === 'below_norm').length,
-		nearNorm: releaseRows.filter((row) => row.performance_band === 'near_norm').length,
-		collecting: releaseRows.filter((row) => row.performance_band === 'collecting').length,
-		needsHistory: releaseRows.filter((row) => row.performance_band === 'insufficient_history')
-			.length
+		aboveNorm: releaseRows.filter((row) => row.overall_performance_band === 'above_norm').length,
+		belowNorm: releaseRows.filter((row) => row.overall_performance_band === 'below_norm').length,
+		nearNorm: releaseRows.filter((row) => row.overall_performance_band === 'near_norm').length,
+		collecting: releaseRows.filter((row) => row.overall_performance_band === 'collecting').length,
+		needsHistory: releaseRows.filter(
+			(row) => row.overall_performance_band === 'insufficient_history'
+		).length
 	});
+	let blogDiagnosticsBySlug = $derived(new Map(blogDiagnosticsRows.map((row) => [row.slug, row])));
+	let overperformerBlogRows = $derived(getBlogInsightRows('above_norm'));
+	let underperformerBlogRows = $derived(getBlogInsightRows('below_norm'));
+	let activeBlogInsightMode: 'over' | 'under' = $derived(
+		activeTab === 'underperformers' ? 'under' : 'over'
+	);
+	let activeBlogInsightRows = $derived(
+		activeBlogInsightMode === 'over' ? overperformerBlogRows : underperformerBlogRows
+	);
+	let activeBlogInsightSummary = $derived(getBlogInsightSummary(activeBlogInsightRows));
+	let selectedBlogInsight = $derived(getSelectedBlogInsight(activeBlogInsightRows));
 
 	$effect(() => {
 		const firstPath = topPageTotals[0]?.path ?? '';
@@ -1531,6 +1752,37 @@
 		}
 	}
 
+	async function fetchBlogDiagnostics(force = false) {
+		if (blogDiagnosticsLoading || (blogDiagnosticsLoaded && !force)) return;
+
+		blogDiagnosticsLoading = true;
+		try {
+			const response = await fetch('/api/admin/analytics/blog-diagnostics');
+			const body = await response.json();
+
+			if (!response.ok) {
+				throw new Error(body.message || 'Failed to load blog diagnostics');
+			}
+
+			blogDiagnosticsRows = (body.rows ?? []) as BlogDiagnosticsRow[];
+			blogDiagnosticsLoaded = true;
+		} catch (err) {
+			console.error('Blog diagnostics fetch error:', err);
+			notifications.danger('Failed to load blog diagnostics', 3000);
+		} finally {
+			blogDiagnosticsLoading = false;
+		}
+	}
+
+	async function ensureBlogInsightData() {
+		if (!releasesLoaded && !releasesLoading) {
+			await fetchReleaseAnalytics();
+		}
+		if (!blogDiagnosticsLoaded && !blogDiagnosticsLoading) {
+			await fetchBlogDiagnostics();
+		}
+	}
+
 	async function applyReleaseFilters() {
 		if (!isReleaseDateRangeValid()) {
 			notifications.warning('Please use a valid release date range', 3000);
@@ -1550,7 +1802,7 @@
 		releaseFromDate = initialFilters?.from ?? '';
 		releaseToDate = initialFilters?.to ?? '';
 		releaseBandFilter = 'all';
-		releaseSortBy = 'published_at';
+		releaseSortBy = 'overall_score';
 		releaseSortDir = 'desc';
 		await applyReleaseFilters();
 	}
@@ -1577,7 +1829,11 @@
 		if (activeTab === 'timing') {
 			await fetchTimingAnalytics();
 		}
-		if (activeTab === 'releases') {
+		if (
+			activeTab === 'releases' ||
+			activeTab === 'overperformers' ||
+			activeTab === 'underperformers'
+		) {
 			await fetchReleaseAnalytics();
 		}
 		selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
@@ -1608,7 +1864,11 @@
 		if (activeTab === 'timing') {
 			await fetchTimingAnalytics();
 		}
-		if (activeTab === 'releases') {
+		if (
+			activeTab === 'releases' ||
+			activeTab === 'overperformers' ||
+			activeTab === 'underperformers'
+		) {
 			await fetchReleaseAnalytics();
 		}
 		selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
@@ -1647,7 +1907,47 @@
 			{ header: 'published_at', value: (row) => formatCsvDate(row.published_at) },
 			{ header: 'first_view_at', value: (row) => formatCsvDate(row.first_view_at) },
 			{ header: 'minutes_to_first_view', value: (row) => row.minutes_to_first_view },
-			{ header: 'performance_band', value: (row) => formatPerformanceBand(row.performance_band) },
+			{
+				header: 'overall_performance_band',
+				value: (row) => formatPerformanceBand(row.overall_performance_band)
+			},
+			{ header: 'overall_score', value: (row) => row.overall_score },
+			{ header: 'overall_basis', value: (row) => row.overall_basis },
+			{ header: 'launch_score', value: (row) => row.launch_score },
+			{ header: 'launch_band', value: (row) => formatPerformanceBand(row.launch_band) },
+			{ header: 'launch_basis', value: (row) => row.launch_basis },
+			{ header: 'quality_demand_score', value: (row) => row.quality_demand_score },
+			{
+				header: 'quality_demand_band',
+				value: (row) => formatPerformanceBand(row.quality_demand_band)
+			},
+			{ header: 'quality_demand_basis', value: (row) => row.quality_demand_basis },
+			{ header: 'quality_demand_confidence', value: (row) => row.quality_demand_confidence },
+			{ header: 'quality_demand_sample_size', value: (row) => row.quality_demand_sample_size },
+			{ header: 'external_unique_7d', value: (row) => row.external_unique_7d },
+			{ header: 'external_unique_30d', value: (row) => row.external_unique_30d },
+			{ header: 'engaged_external_unique_7d', value: (row) => row.engaged_external_unique_7d },
+			{ header: 'engaged_external_unique_30d', value: (row) => row.engaged_external_unique_30d },
+			{ header: 'search_unique_7d', value: (row) => row.search_unique_7d },
+			{ header: 'search_unique_30d', value: (row) => row.search_unique_30d },
+			{ header: 'direct_unique_7d', value: (row) => row.direct_unique_7d },
+			{ header: 'direct_unique_30d', value: (row) => row.direct_unique_30d },
+			{ header: 'internal_share_24h', value: (row) => row.internal_share_24h },
+			{ header: 'internal_share_7d', value: (row) => row.internal_share_7d },
+			{ header: 'internal_share_30d', value: (row) => row.internal_share_30d },
+			{ header: 'repeat_view_share_24h', value: (row) => row.repeat_view_share_24h },
+			{ header: 'demand_points', value: (row) => row.demand_points },
+			{ header: 'demand_percentile', value: (row) => row.demand_percentile },
+			{ header: 'engagement_percentile', value: (row) => row.engagement_percentile },
+			{
+				header: 'top_demand_sources',
+				value: (row) => formatSourceSummary(row.top_demand_sources)
+			},
+			{ header: 'performance_notes', value: (row) => row.performance_notes.join(' | ') },
+			{
+				header: 'legacy_performance_band',
+				value: (row) => formatPerformanceBand(row.performance_band)
+			},
 			{ header: 'release_stage', value: (row) => formatReleaseStage(row.release_stage) },
 			{ header: 'benchmark_score', value: (row) => row.benchmark_score },
 			{ header: 'benchmark_basis', value: (row) => row.benchmark_basis },
@@ -1787,6 +2087,11 @@
 		return value.toFixed(0);
 	}
 
+	function formatSourceSummary(sources: Array<{ source: string; visits: number }> | null): string {
+		if (!sources || sources.length === 0) return 'No demand source yet';
+		return sources.map((source) => `${source.source}:${source.visits}`).join(', ');
+	}
+
 	function formatBenchmarkBasis(value: string): string {
 		switch (value) {
 			case '24h':
@@ -1801,6 +2106,38 @@
 				return 'Collecting';
 			default:
 				return 'Needs history';
+		}
+	}
+
+	function formatDemandBasis(value: string): string {
+		switch (value) {
+			case '7d':
+				return '7d demand';
+			case '30d':
+				return '30d demand';
+			case 'demand_7d':
+				return '7d demand';
+			case 'demand_30d':
+				return '30d demand';
+			case 'demand_unavailable':
+				return 'Demand unavailable';
+			case 'unavailable':
+				return 'Unavailable';
+			case 'collecting':
+				return 'Needs 7d';
+			default:
+				return value || 'Needs history';
+		}
+	}
+
+	function formatConfidence(value: string): string {
+		switch (value) {
+			case 'stable':
+				return 'Stable';
+			case 'directional':
+				return 'Directional';
+			default:
+				return 'Collecting';
 		}
 	}
 
@@ -1874,7 +2211,11 @@
 				? 'When visitors show up by day and hour'
 				: activeTab === 'releases'
 					? 'How personality analysis releases grow after publish'
-					: 'Which new visitors activate and come back'
+					: activeTab === 'overperformers'
+						? 'Why the strongest blogs are working'
+						: activeTab === 'underperformers'
+							? 'Which weak blogs have the clearest fixes'
+							: 'Which new visitors activate and come back'
 	);
 
 	function openTab(tab: AnalyticsTab) {
@@ -1893,6 +2234,10 @@
 			if (!releasesLoaded && !releasesLoading) {
 				void fetchReleaseAnalytics();
 			}
+		}
+		if (tab === 'overperformers' || tab === 'underperformers') {
+			hasOpenedBlogInsights = true;
+			void ensureBlogInsightData();
 		}
 		if (tab === 'cohorts') {
 			hasOpenedCohorts = true;
@@ -1944,6 +2289,26 @@
 			onclick={() => openTab('releases')}
 		>
 			Release Performance
+		</button>
+		<button
+			type="button"
+			role="tab"
+			class="analytics-tab"
+			class:active={activeTab === 'overperformers'}
+			aria-selected={activeTab === 'overperformers'}
+			onclick={() => openTab('overperformers')}
+		>
+			Overperformers
+		</button>
+		<button
+			type="button"
+			role="tab"
+			class="analytics-tab"
+			class:active={activeTab === 'underperformers'}
+			aria-selected={activeTab === 'underperformers'}
+			onclick={() => openTab('underperformers')}
+		>
+			Underperformers
 		</button>
 		<button
 			type="button"
@@ -2583,7 +2948,8 @@
 					<div>
 						<h2>Personality Analysis Release Performance</h2>
 						<p>
-							Personality analysis releases {formatReleaseDateWindow(
+							Mature demand bands use non-internal visitors plus engagement after 7d/30d. Launch
+							score is shown separately. Releases {formatReleaseDateWindow(
 								releaseFromDate,
 								releaseToDate
 							)}
@@ -2691,7 +3057,7 @@
 					<div class="release-signal-grid">
 						<div class="release-signal-panel over">
 							<div class="signal-header">
-								<span>Overperforming</span>
+								<span>Mature overperforming</span>
 								<strong>{releaseSummary.aboveNorm.toLocaleString()}</strong>
 							</div>
 							{#if overperformingRows.length === 0}
@@ -2700,14 +3066,14 @@
 								{#each overperformingRows as row}
 									<button type="button" onclick={() => focusReleaseSignal(row.slug, 'above_norm')}>
 										<span>{row.title || row.slug}</span>
-										<strong>{formatBenchmarkScore(row.benchmark_score)}</strong>
+										<strong>{formatBenchmarkScore(row.overall_score)}</strong>
 									</button>
 								{/each}
 							{/if}
 						</div>
 						<div class="release-signal-panel under">
 							<div class="signal-header">
-								<span>Underperforming</span>
+								<span>Mature underperforming</span>
 								<strong>{releaseSummary.belowNorm.toLocaleString()}</strong>
 							</div>
 							{#if underperformingRows.length === 0}
@@ -2716,7 +3082,7 @@
 								{#each underperformingRows as row}
 									<button type="button" onclick={() => focusReleaseSignal(row.slug, 'below_norm')}>
 										<span>{row.title || row.slug}</span>
-										<strong>{formatBenchmarkScore(row.benchmark_score)}</strong>
+										<strong>{formatBenchmarkScore(row.overall_score)}</strong>
 									</button>
 								{/each}
 							{/if}
@@ -2750,8 +3116,10 @@
 											{selectedRelease.total_unique_visitors.toLocaleString()} unique visitors
 										</p>
 									</div>
-									<span class={`band-pill ${getBandClass(selectedRelease.performance_band)}`}>
-										{formatPerformanceBand(selectedRelease.performance_band)}
+									<span
+										class={`band-pill ${getBandClass(selectedRelease.overall_performance_band)}`}
+									>
+										{formatPerformanceBand(selectedRelease.overall_performance_band)}
 									</span>
 								</div>
 
@@ -2785,20 +3153,44 @@
 										<strong>{selectedRelease.views_6h.toLocaleString()}</strong>
 									</div>
 									<div>
-										<span>Score</span>
-										<strong>{formatBenchmarkScore(selectedRelease.benchmark_score)}</strong>
+										<span>Overall</span>
+										<strong>{formatBenchmarkScore(selectedRelease.overall_score)}</strong>
 									</div>
 									<div>
 										<span>Basis</span>
-										<strong>{formatBenchmarkBasis(selectedRelease.benchmark_basis)}</strong>
+										<strong>{formatDemandBasis(selectedRelease.overall_basis)}</strong>
 									</div>
 									<div>
-										<span>Sample</span>
+										<span>Demand sample</span>
 										<strong>
-											{selectedRelease.benchmark_sample_size > 0
-												? selectedRelease.benchmark_sample_size.toLocaleString()
+											{selectedRelease.quality_demand_sample_size > 0
+												? selectedRelease.quality_demand_sample_size.toLocaleString()
 												: 'Needs history'}
 										</strong>
+									</div>
+									<div>
+										<span>Launch</span>
+										<strong>{formatBenchmarkScore(selectedRelease.launch_score)}</strong>
+									</div>
+									<div>
+										<span>Demand</span>
+										<strong>{formatBenchmarkScore(selectedRelease.quality_demand_score)}</strong>
+									</div>
+									<div>
+										<span>External 30d</span>
+										<strong>{selectedRelease.external_unique_30d.toLocaleString()}</strong>
+									</div>
+									<div>
+										<span>Internal 30d</span>
+										<strong>{selectedRelease.internal_share_30d.toFixed(0)}%</strong>
+									</div>
+									<div>
+										<span>Repeat 24h</span>
+										<strong>{selectedRelease.repeat_view_share_24h.toFixed(0)}%</strong>
+									</div>
+									<div>
+										<span>Confidence</span>
+										<strong>{formatConfidence(selectedRelease.quality_demand_confidence)}</strong>
 									</div>
 									<div>
 										<span>7d slope</span>
@@ -2820,6 +3212,20 @@
 										<span>Bounce</span>
 										<strong>{formatBounceRate(selectedRelease.bounce_rate)}</strong>
 									</div>
+								</div>
+
+								<div class="release-demand-notes">
+									<div>
+										<span>Top demand sources</span>
+										<strong>{formatSourceSummary(selectedRelease.top_demand_sources)}</strong>
+									</div>
+									{#if selectedRelease.performance_notes.length}
+										<ul>
+											{#each selectedRelease.performance_notes as note}
+												<li>{note}</li>
+											{/each}
+										</ul>
+									{/if}
 								</div>
 
 								<div class="release-events-section">
@@ -2934,7 +3340,9 @@
 								<tbody>
 									{#if releaseVisibleRows.length === 0}
 										<tr>
-											<td colspan="8" class="empty">No releases match this performance filter.</td>
+											<td colspan={releaseTableColumns.length} class="empty">
+												No releases match this performance filter.
+											</td>
 										</tr>
 									{:else}
 										{#each releaseVisibleRows as row}
@@ -2987,16 +3395,35 @@
 														<small>{formatPercentile(row.views_30d_percentile)}</small>
 													{/if}
 												</td>
-												<td class="num" data-label="Score">
-													{formatBenchmarkScore(row.benchmark_score)}
-													<small>{formatBenchmarkBasis(row.benchmark_basis)}</small>
-													{#if row.benchmark_sample_size > 0}
-														<small>n={row.benchmark_sample_size.toLocaleString()}</small>
+												<td class="num" data-label="Launch">
+													{formatBenchmarkScore(row.launch_score)}
+													<small>{formatBenchmarkBasis(row.launch_basis)}</small>
+													{#if row.launch_sample_size > 0}
+														<small>n={row.launch_sample_size.toLocaleString()}</small>
+													{/if}
+												</td>
+												<td class="num" data-label="Demand">
+													{formatBenchmarkScore(row.quality_demand_score)}
+													<small>{formatDemandBasis(row.quality_demand_basis)}</small>
+													{#if row.quality_demand_sample_size > 0}
+														<small>n={row.quality_demand_sample_size.toLocaleString()}</small>
+													{/if}
+													<small>{row.external_unique_30d.toLocaleString()} external 30d</small>
+												</td>
+												<td class="num" data-label="Overall">
+													{formatBenchmarkScore(row.overall_score)}
+													<small>{formatDemandBasis(row.overall_basis)}</small>
+													{#if row.internal_share_30d > 0 || row.repeat_view_share_24h > 0}
+														<small>
+															{row.internal_share_30d.toFixed(0)}% internal · {row.repeat_view_share_24h.toFixed(
+																0
+															)}% repeat
+														</small>
 													{/if}
 												</td>
 												<td data-label="Band">
-													<span class={`band-pill ${getBandClass(row.performance_band)}`}>
-														{formatPerformanceBand(row.performance_band)}
+													<span class={`band-pill ${getBandClass(row.overall_performance_band)}`}>
+														{formatPerformanceBand(row.overall_performance_band)}
 													</span>
 													<small>{formatReleaseStage(row.release_stage)}</small>
 												</td>
@@ -3006,6 +3433,434 @@
 								</tbody>
 							</table>
 						</div>
+					</div>
+				{/if}
+			</section>
+		</div>
+	{/if}
+
+	{#if activeTab === 'overperformers' || activeTab === 'underperformers' || hasOpenedBlogInsights}
+		<div hidden={activeTab !== 'overperformers' && activeTab !== 'underperformers'}>
+			<section class="insight-card blog-insight-card">
+				<div class="insight-header release-header">
+					<div>
+						<h2>{getInsightModeLabel(activeBlogInsightMode)}</h2>
+						<p>{getInsightModeDescription(activeBlogInsightMode)}</p>
+					</div>
+					<div class="release-header-actions">
+						<button
+							class="btn btn-secondary"
+							onclick={() => void fetchBlogDiagnostics(true)}
+							disabled={blogDiagnosticsLoading}
+						>
+							{blogDiagnosticsLoading ? 'Refreshing...' : 'Refresh diagnostics'}
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick={fetchReleaseAnalytics}
+							disabled={releasesLoading}
+						>
+							{releasesLoading ? 'Refreshing...' : 'Refresh performance'}
+						</button>
+					</div>
+				</div>
+
+				<div class="release-range-panel" aria-label="Blog insight release date range">
+					<div class="release-range-fields">
+						<label class="field">
+							<span>Release from</span>
+							<input type="date" bind:value={releaseFromDate} />
+						</label>
+						<label class="field">
+							<span>Release to</span>
+							<input type="date" bind:value={releaseToDate} />
+						</label>
+						<div class="release-range-presets" aria-label="Release range presets">
+							{#each releaseRangePresetOptions as option}
+								<button
+									type="button"
+									class="range-preset"
+									onclick={() => setReleaseRangePreset(option.days)}
+									disabled={releasesLoading}
+								>
+									{option.label}
+								</button>
+							{/each}
+						</div>
+					</div>
+					<div class="release-range-actions">
+						<button
+							class="btn btn-primary"
+							onclick={applyReleaseFilters}
+							disabled={releasesLoading}
+						>
+							Apply range
+						</button>
+						<button
+							class="btn btn-secondary"
+							onclick={resetReleaseFilters}
+							disabled={releasesLoading}
+						>
+							Reset range
+						</button>
+					</div>
+				</div>
+
+				{#if (releasesLoading && !releasesLoaded) || (blogDiagnosticsLoading && !blogDiagnosticsLoaded)}
+					<div class="empty-panel">Loading blog diagnostics...</div>
+				{:else if activeBlogInsightRows.length === 0}
+					<div class="empty-panel">
+						No {activeBlogInsightMode === 'over' ? 'overperforming' : 'underperforming'} mature blogs
+						found for this release range.
+					</div>
+				{:else}
+					<div class="blog-insight-summary-grid">
+						<div>
+							<span>Blogs</span>
+							<strong>{activeBlogInsightSummary.count.toLocaleString()}</strong>
+						</div>
+						<div>
+							<span>Avg overall</span>
+							<strong>{formatCompactNumber(activeBlogInsightSummary.avgOverall, 0)}</strong>
+						</div>
+						<div>
+							<span>Avg external 30d</span>
+							<strong>{formatCompactNumber(activeBlogInsightSummary.avgExternal30d, 1)}</strong>
+						</div>
+						<div>
+							<span>Avg incoming links</span>
+							<strong>{formatCompactNumber(activeBlogInsightSummary.avgIncomingLinks, 1)}</strong>
+						</div>
+						<div>
+							<span>Avg outgoing links</span>
+							<strong>{formatCompactNumber(activeBlogInsightSummary.avgOutgoingLinks, 1)}</strong>
+						</div>
+						<div>
+							<span>Avg SEO health</span>
+							<strong>{formatCompactNumber(activeBlogInsightSummary.avgSeoScore, 0)}</strong>
+						</div>
+					</div>
+
+					<p class="blog-insight-note">
+						Frontmatter <code>published</code> is shown for sanity checking only. Performance scoring
+						comes from the release analytics database and raw visit signals.
+					</p>
+
+					<div class="blog-insight-layout">
+						<div class="blog-insight-list" aria-label="Blog insight list">
+							{#each activeBlogInsightRows as row}
+								<button
+									type="button"
+									class:active={selectedBlogInsight?.release.slug === row.release.slug}
+									onclick={() => (selectedBlogInsightSlug = row.release.slug)}
+								>
+									<span>{row.release.title || row.release.slug}</span>
+									<strong>{formatBenchmarkScore(row.release.overall_score)}</strong>
+									<small>
+										{row.release.external_unique_30d.toLocaleString()} external 30d ·
+										{row.diagnostics?.link_stats.incoming_internal_count ?? 0} in /
+										{row.diagnostics?.link_stats.outgoing_internal_count ?? 0} out links
+									</small>
+								</button>
+							{/each}
+						</div>
+
+						{#if selectedBlogInsight}
+							<div class="blog-insight-detail">
+								<div class="blog-insight-title">
+									<div>
+										<h3>{selectedBlogInsight.release.title || selectedBlogInsight.release.slug}</h3>
+										<a href={selectedBlogInsight.release.path}>{selectedBlogInsight.release.path}</a
+										>
+									</div>
+									<span
+										class={`band-pill ${getBandClass(selectedBlogInsight.release.overall_performance_band)}`}
+									>
+										{formatPerformanceBand(selectedBlogInsight.release.overall_performance_band)}
+									</span>
+								</div>
+
+								<div class="blog-insight-metrics">
+									<div>
+										<span>Overall</span>
+										<strong
+											>{formatBenchmarkScore(selectedBlogInsight.release.overall_score)}</strong
+										>
+										<small>{formatDemandBasis(selectedBlogInsight.release.overall_basis)}</small>
+									</div>
+									<div>
+										<span>Demand</span>
+										<strong
+											>{formatBenchmarkScore(
+												selectedBlogInsight.release.quality_demand_score
+											)}</strong
+										>
+										<small
+											>{formatConfidence(
+												selectedBlogInsight.release.quality_demand_confidence
+											)}</small
+										>
+									</div>
+									<div>
+										<span>Launch</span>
+										<strong>{formatBenchmarkScore(selectedBlogInsight.release.launch_score)}</strong
+										>
+										<small>{formatBenchmarkBasis(selectedBlogInsight.release.launch_basis)}</small>
+									</div>
+									<div>
+										<span>External 30d</span>
+										<strong
+											>{selectedBlogInsight.release.external_unique_30d.toLocaleString()}</strong
+										>
+										<small>
+											{selectedBlogInsight.release.search_unique_30d.toLocaleString()} search ·
+											{selectedBlogInsight.release.direct_unique_30d.toLocaleString()} direct
+										</small>
+									</div>
+									<div>
+										<span>Internal share</span>
+										<strong>{selectedBlogInsight.release.internal_share_30d.toFixed(0)}%</strong>
+										<small
+											>{selectedBlogInsight.release.repeat_view_share_24h.toFixed(0)}% repeat 24h</small
+										>
+									</div>
+								</div>
+
+								{#if selectedBlogInsight.diagnostics}
+									{@const diagnostics = selectedBlogInsight.diagnostics}
+									<div class="blog-diagnostic-grid">
+										<section>
+											<h4>Frontmatter</h4>
+											<dl>
+												<div>
+													<dt>File</dt>
+													<dd>{diagnostics.file_path}</dd>
+												</div>
+												<div>
+													<dt>Title</dt>
+													<dd>{diagnostics.frontmatter.title || 'Missing'}</dd>
+												</div>
+												<div>
+													<dt>Meta title</dt>
+													<dd>{diagnostics.frontmatter.meta_title || 'Missing'}</dd>
+												</div>
+												<div>
+													<dt>Persona</dt>
+													<dd>{diagnostics.frontmatter.persona_title || 'Missing'}</dd>
+												</div>
+												<div>
+													<dt>Description</dt>
+													<dd>{diagnostics.frontmatter.description || 'Missing'}</dd>
+												</div>
+												<div>
+													<dt>Date / lastmod</dt>
+													<dd>
+														{diagnostics.frontmatter.date || 'Missing'} / {diagnostics.frontmatter
+															.lastmod || 'Missing'}
+													</dd>
+												</div>
+												<div>
+													<dt>Published flag</dt>
+													<dd>{formatFrontmatterValue(diagnostics.frontmatter.published)}</dd>
+												</div>
+												<div>
+													<dt>Type</dt>
+													<dd>
+														Enneagram {diagnostics.frontmatter.enneagram || 'missing'} ·
+														{formatList(diagnostics.frontmatter.type)}
+													</dd>
+												</div>
+												<div>
+													<dt>Suggestions</dt>
+													<dd>{formatList(diagnostics.frontmatter.suggestions)}</dd>
+												</div>
+												<div>
+													<dt>Keywords</dt>
+													<dd>{formatList(diagnostics.frontmatter.keywords)}</dd>
+												</div>
+												<div>
+													<dt>Schema / citations</dt>
+													<dd>
+														{diagnostics.frontmatter.faq_count} FAQ · {diagnostics.frontmatter
+															.same_as_count}
+														sameAs · {diagnostics.frontmatter.citations.length} citations
+													</dd>
+												</div>
+											</dl>
+										</section>
+
+										<section>
+											<h4>Content Signals</h4>
+											<div class="diagnostic-score-row">
+												<span>SEO {diagnostics.diagnostic_scores.seo}</span>
+												<span>Depth {diagnostics.diagnostic_scores.content_depth}</span>
+												<span>FM {diagnostics.diagnostic_scores.frontmatter}</span>
+											</div>
+											<dl>
+												<div>
+													<dt>Words / headings</dt>
+													<dd>
+														{diagnostics.content_stats.word_count.toLocaleString()} words ·
+														{diagnostics.content_stats.h2_count} H2 · {diagnostics.content_stats
+															.h3_count}
+														H3
+													</dd>
+												</div>
+												<div>
+													<dt>Meta lengths</dt>
+													<dd>
+														{diagnostics.content_stats.meta_title_chars} title chars ·
+														{diagnostics.content_stats.description_chars} description chars
+													</dd>
+												</div>
+												<div>
+													<dt>Structure</dt>
+													<dd>
+														TL;DR {diagnostics.content_stats.has_tldr ? 'yes' : 'no'} · FAQ
+														{diagnostics.content_stats.has_faq_schema ? 'yes' : 'no'} · evidence
+														{diagnostics.content_stats.has_testimony_ledger ? 'yes' : 'no'}
+													</dd>
+												</div>
+												<div>
+													<dt>Quality</dt>
+													<dd>
+														{diagnostics.frontmatter.content_quality.letter || 'No grade'} · overall
+														{formatCompactNumber(
+															diagnostics.frontmatter.content_quality.overall,
+															1
+														)}
+													</dd>
+												</div>
+											</dl>
+										</section>
+
+										<section>
+											<h4>Cross-Links</h4>
+											<div class="diagnostic-score-row">
+												<span>Link health {diagnostics.diagnostic_scores.internal_links}</span>
+												<span>{diagnostics.link_stats.incoming_internal_count} in</span>
+												<span>{diagnostics.link_stats.outgoing_internal_count} out</span>
+											</div>
+											<dl>
+												<div>
+													<dt>Outgoing mix</dt>
+													<dd>
+														{diagnostics.link_stats.outgoing_personality_count} people ·
+														{diagnostics.link_stats.outgoing_enneagram_count} type ·
+														{diagnostics.link_stats.outgoing_category_count} category
+													</dd>
+												</div>
+												<div>
+													<dt>Suggestion health</dt>
+													<dd>
+														{diagnostics.link_stats.suggestions_existing_count}/{diagnostics
+															.link_stats.suggestion_count}
+														resolve locally
+													</dd>
+												</div>
+												<div>
+													<dt>Incoming sources</dt>
+													<dd>
+														{#if diagnostics.link_stats.incoming_sources.length}
+															{diagnostics.link_stats.incoming_sources
+																.slice(0, 4)
+																.map((source) => source.title)
+																.join(', ')}
+														{:else}
+															No incoming personality links found
+														{/if}
+													</dd>
+												</div>
+												<div>
+													<dt>Top outgoing targets</dt>
+													<dd>
+														{#if diagnostics.link_stats.outgoing_targets.length}
+															{diagnostics.link_stats.outgoing_targets
+																.slice(0, 5)
+																.map((target) => target.href)
+																.join(', ')}
+														{:else}
+															No outgoing internal links found
+														{/if}
+													</dd>
+												</div>
+											</dl>
+										</section>
+
+										<section>
+											<h4>{activeBlogInsightMode === 'over' ? 'Replicate' : 'Fix Next'}</h4>
+											<ul class="diagnostic-note-list">
+												{#each activeBlogInsightMode === 'over' ? diagnostics.replication_notes : diagnostics.action_notes as note}
+													<li>{note}</li>
+												{/each}
+												{#if (activeBlogInsightMode === 'over' ? diagnostics.replication_notes : diagnostics.action_notes).length === 0}
+													<li>No obvious diagnostic notes from the static checks.</li>
+												{/if}
+											</ul>
+										</section>
+									</div>
+								{:else}
+									<div class="empty-panel trend-empty">
+										No local frontmatter diagnostics found for this slug.
+									</div>
+								{/if}
+							</div>
+						{/if}
+					</div>
+
+					<div class="table-wrapper blog-action-table-wrapper">
+						<table class="data-table blog-action-table">
+							<thead>
+								<tr>
+									<th>Blog</th>
+									<th class="num">Overall</th>
+									<th class="num">External</th>
+									<th class="num">Internal</th>
+									<th class="num">Links</th>
+									<th class="num">SEO</th>
+									<th>Primary note</th>
+								</tr>
+							</thead>
+							<tbody>
+								{#each activeBlogInsightRows as row}
+									<tr class:active-row={selectedBlogInsight?.release.slug === row.release.slug}>
+										<td data-label="Blog">
+											<button
+												type="button"
+												class="table-path-button"
+												onclick={() => (selectedBlogInsightSlug = row.release.slug)}
+											>
+												{row.release.title || row.release.slug}
+											</button>
+											<small>{row.release.path}</small>
+										</td>
+										<td class="num" data-label="Overall"
+											>{formatBenchmarkScore(row.release.overall_score)}</td
+										>
+										<td class="num" data-label="External">
+											{row.release.external_unique_30d.toLocaleString()}
+											<small>{row.release.search_unique_30d.toLocaleString()} search</small>
+										</td>
+										<td class="num" data-label="Internal">
+											{row.release.internal_share_30d.toFixed(0)}%
+											<small>{row.release.repeat_view_share_24h.toFixed(0)}% repeat</small>
+										</td>
+										<td class="num" data-label="Links">
+											{row.diagnostics?.link_stats.incoming_internal_count ?? 0} in /
+											{row.diagnostics?.link_stats.outgoing_internal_count ?? 0} out
+										</td>
+										<td class="num" data-label="SEO">
+											{row.diagnostics?.diagnostic_scores.seo ?? '—'}
+										</td>
+										<td data-label="Primary note">
+											{(activeBlogInsightMode === 'over'
+												? row.diagnostics?.replication_notes[0]
+												: row.diagnostics?.action_notes[0]) ?? 'No diagnostic note'}
+										</td>
+									</tr>
+								{/each}
+							</tbody>
+						</table>
 					</div>
 				{/if}
 			</section>
@@ -3900,25 +4755,23 @@
 	}
 
 	.release-table {
-		min-width: 960px;
+		min-width: 1280px;
 		table-layout: fixed;
 	}
 
 	.release-table th:nth-child(1),
 	.release-table td:nth-child(1) {
-		width: 330px;
+		width: 300px;
 	}
 
 	.release-table th:nth-child(2),
 	.release-table td:nth-child(2) {
-		width: 128px;
+		width: 132px;
 	}
 
 	.release-table th:nth-child(3),
-	.release-table td:nth-child(3),
-	.release-table th:nth-child(7),
-	.release-table td:nth-child(7) {
-		width: 104px;
+	.release-table td:nth-child(3) {
+		width: 92px;
 	}
 
 	.release-table th:nth-child(4),
@@ -3927,12 +4780,27 @@
 	.release-table td:nth-child(5),
 	.release-table th:nth-child(6),
 	.release-table td:nth-child(6) {
-		width: 74px;
+		width: 82px;
+	}
+
+	.release-table th:nth-child(7),
+	.release-table td:nth-child(7) {
+		width: 90px;
 	}
 
 	.release-table th:nth-child(8),
 	.release-table td:nth-child(8) {
-		width: 120px;
+		width: 145px;
+	}
+
+	.release-table th:nth-child(9),
+	.release-table td:nth-child(9) {
+		width: 145px;
+	}
+
+	.release-table th:nth-child(10),
+	.release-table td:nth-child(10) {
+		width: 130px;
 	}
 
 	.release-table th {
@@ -3951,6 +4819,23 @@
 		margin-top: 3px;
 		color: var(--ink-mid);
 		font-size: 0.7rem;
+		line-height: 1.35;
+		overflow-wrap: break-word;
+	}
+
+	.release-table .sort-button {
+		min-width: 0;
+		gap: 5px;
+	}
+
+	.release-table .sort-button span:first-child {
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.release-table .sort-indicator {
+		flex: 0 0 auto;
 	}
 
 	.release-title-row {
@@ -4048,6 +4933,37 @@
 		gap: 4px;
 	}
 
+	.release-demand-notes {
+		margin-top: 10px;
+		border: 1px solid var(--stone-warm);
+		border-radius: 8px;
+		padding: 10px;
+		display: grid;
+		gap: 8px;
+	}
+
+	.release-demand-notes span {
+		display: block;
+		color: var(--ink-mid);
+		font-size: 0.72rem;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+
+	.release-demand-notes strong {
+		display: block;
+		margin-top: 2px;
+		font-size: 0.85rem;
+	}
+
+	.release-demand-notes ul {
+		margin: 0;
+		padding-left: 18px;
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+		line-height: 1.45;
+	}
+
 	.release-events-section {
 		margin-top: 14px;
 		border-top: 1px solid var(--stone-warm);
@@ -4141,6 +5057,225 @@
 
 	.release-event-impact strong.positive {
 		color: var(--success-text);
+	}
+
+	.blog-insight-card {
+		padding: 12px;
+	}
+
+	.blog-insight-summary-grid {
+		display: grid;
+		grid-template-columns: repeat(6, minmax(0, 1fr));
+		gap: 8px;
+		margin-bottom: 10px;
+	}
+
+	.blog-insight-summary-grid div,
+	.blog-diagnostic-grid section {
+		border: 1px solid var(--stone-warm);
+		border-radius: 8px;
+		background: var(--night-deep);
+		padding: 10px;
+		min-width: 0;
+	}
+
+	.blog-insight-summary-grid span,
+	.blog-insight-metrics span,
+	.blog-diagnostic-grid dt {
+		display: block;
+		color: var(--ink-mid);
+		font-size: 0.7rem;
+		font-weight: 700;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+	}
+
+	.blog-insight-summary-grid strong,
+	.blog-insight-metrics strong {
+		display: block;
+		margin-top: 4px;
+		color: var(--ink-bright);
+		font-size: 1rem;
+	}
+
+	.blog-insight-note {
+		margin: 0 0 10px;
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+	}
+
+	.blog-insight-note code {
+		color: var(--ink-bright);
+	}
+
+	.blog-insight-layout {
+		display: grid;
+		grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
+		gap: 12px;
+		align-items: start;
+	}
+
+	.blog-insight-list {
+		border: 1px solid var(--stone-warm);
+		border-radius: 8px;
+		background: var(--night-deep);
+		max-height: 760px;
+		overflow: auto;
+		padding: 6px;
+		display: grid;
+		gap: 5px;
+	}
+
+	.blog-insight-list button {
+		border: 1px solid transparent;
+		border-radius: 8px;
+		background: transparent;
+		color: var(--ink-bright);
+		text-align: left;
+		padding: 8px;
+		cursor: pointer;
+		display: grid;
+		gap: 3px;
+	}
+
+	.blog-insight-list button:hover,
+	.blog-insight-list button.active {
+		border-color: color-mix(in srgb, var(--lamp-glow) 45%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
+	}
+
+	.blog-insight-list span {
+		font-weight: 700;
+		line-height: 1.25;
+	}
+
+	.blog-insight-list strong,
+	.blog-insight-list small {
+		color: var(--ink-mid);
+		font-size: 0.74rem;
+	}
+
+	.blog-insight-detail {
+		min-width: 0;
+	}
+
+	.blog-insight-title {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 10px;
+		margin-bottom: 10px;
+	}
+
+	.blog-insight-title h3 {
+		margin: 0;
+		font-size: 1.05rem;
+		line-height: 1.25;
+	}
+
+	.blog-insight-title a {
+		display: inline-block;
+		margin-top: 4px;
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+		text-decoration: none;
+	}
+
+	.blog-insight-title a:hover {
+		color: var(--lamp-light);
+		text-decoration: underline;
+	}
+
+	.blog-insight-metrics {
+		display: grid;
+		grid-template-columns: repeat(5, minmax(0, 1fr));
+		gap: 8px;
+		margin-bottom: 10px;
+	}
+
+	.blog-insight-metrics div {
+		border: 1px solid var(--stone-warm);
+		border-radius: 8px;
+		padding: 9px;
+		min-width: 0;
+	}
+
+	.blog-insight-metrics small,
+	.blog-action-table small {
+		display: block;
+		margin-top: 3px;
+		color: var(--ink-mid);
+		font-size: 0.7rem;
+		line-height: 1.35;
+	}
+
+	.blog-diagnostic-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 10px;
+	}
+
+	.blog-diagnostic-grid h4 {
+		margin: 0 0 8px;
+		font-size: 0.9rem;
+		color: var(--ink-bright);
+	}
+
+	.blog-diagnostic-grid dl {
+		margin: 0;
+		display: grid;
+		gap: 8px;
+	}
+
+	.blog-diagnostic-grid dd {
+		margin: 2px 0 0;
+		color: var(--ink-bright);
+		font-size: 0.8rem;
+		line-height: 1.35;
+		overflow-wrap: break-word;
+	}
+
+	.diagnostic-score-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		margin-bottom: 8px;
+	}
+
+	.diagnostic-score-row span {
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--data-teal) 15%, transparent);
+		color: var(--data-cyan);
+		padding: 4px 7px;
+		font-size: 0.68rem;
+		font-weight: 700;
+	}
+
+	.diagnostic-note-list {
+		margin: 0;
+		padding-left: 18px;
+		color: var(--ink-mid);
+		font-size: 0.8rem;
+		line-height: 1.45;
+	}
+
+	.blog-action-table-wrapper {
+		margin-top: 12px;
+	}
+
+	.blog-action-table {
+		min-width: 1080px;
+		table-layout: fixed;
+	}
+
+	.blog-action-table th:nth-child(1),
+	.blog-action-table td:nth-child(1) {
+		width: 330px;
+	}
+
+	.blog-action-table th:nth-child(7),
+	.blog-action-table td:nth-child(7) {
+		width: 300px;
 	}
 
 	.table-header {
@@ -4406,6 +5541,18 @@
 		white-space: nowrap;
 	}
 
+	.data-table.release-table .num {
+		white-space: normal;
+	}
+
+	.data-table.release-table td[data-label='Band'] {
+		min-width: 0;
+	}
+
+	.data-table.release-table td[data-label='Band'] small {
+		white-space: normal;
+	}
+
 	.data-table .path {
 		max-width: 320px;
 		word-break: break-word;
@@ -4488,6 +5635,19 @@
 
 		.release-band-filters {
 			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+
+		.blog-insight-summary-grid,
+		.blog-insight-metrics {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+
+		.blog-insight-layout {
+			grid-template-columns: 1fr;
+		}
+
+		.blog-insight-list {
+			max-height: 320px;
 		}
 	}
 
@@ -4572,7 +5732,8 @@
 		}
 
 		.pageview-table,
-		.release-table {
+		.release-table,
+		.blog-action-table {
 			min-width: 0;
 			table-layout: auto;
 		}
@@ -4580,7 +5741,9 @@
 		.pageview-table th,
 		.pageview-table td,
 		.release-table th,
-		.release-table td {
+		.release-table td,
+		.blog-action-table th,
+		.blog-action-table td {
 			width: auto;
 		}
 
@@ -4663,6 +5826,12 @@
 		}
 
 		.release-event-form {
+			grid-template-columns: 1fr;
+		}
+
+		.blog-insight-summary-grid,
+		.blog-insight-metrics,
+		.blog-diagnostic-grid {
 			grid-template-columns: 1fr;
 		}
 

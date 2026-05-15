@@ -1,0 +1,33 @@
+All tasks complete. Session finalized.
+
+```
+Quora warmup complete for 2026-05-15.
+
+Searches run: 23
+Questions evaluated: 3 deep + 5 surface-skipped
+Questions queued: 2
+Questions skipped: 6
+
+Priority queue:
+1. "Why do people take advantage of good and kind people?" — 263 answers, 316 followers — Angle: Type 2 PRIMARY (kindness-as-relational-currency / give-to-be-loved); Types 9, 6, 4, 1 secondary
+2. "Why do I feel disconnected from everything and everyone in this world?" — 62 answers, 143 followers — Angle: Type 4 PRIMARY (terminal-uniqueness / "I don't belong anywhere"); Types 5, 9, 6, 1 secondary
+
+Type coverage: Type 2 + Type 4 PRIMARIES — missing 1, 3, 5, 6, 7, 8, 9 as primaries (all hit as secondaries on one or both queued questions)
+Blog matches: 2 of 2 have a 9takes link candidate (enneagram-type-2; enneagram-and-mental-illness)
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-05-15_quora-warmup.md
+
+Next step: /quora-answer docs/quora/sessions/2026-05-15_quora-warmup.md
+
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-15_quora-warmup.md
+QUEUED: 2
+SKIPPED: 6
+LIMITATIONS: none
+```
+
+**Key wins this session:**
+- **Type 2 secret-resentment hunt CLOSED MATERIALLY after 8 sessions** — the 05-12 strategy pivot to relational-currency vocabulary ("take advantage of good and kind people") landed. Type 2 lifetime portfolio: 16 → 17, the lowest-covered type finally moves.
+- **Type 4 terminal-uniqueness fresh primary closed** — "feel disconnected from everything" surfaces the existential-aloneness engine structurally distinct from prior Type 4 entries. Type 4: 25 → 26.
+- **Search vocabulary insight logged** — Quora doesn't index "givers/helpers end up alone" phrasings at all; "taken advantage of" is the right stem for future Type 2 probes.

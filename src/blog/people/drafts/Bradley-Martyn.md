@@ -1,6 +1,6 @@
 ---
 title: 'Bradley Martyn: The Fortress Built on Grief'
-meta_title: 'Why Bradley Martyn Built Himself Into Armor'
+meta_title: 'Bradley Martyn Enneagram Type 8: Armor Built From Grief'
 persona_title: "Fitness's Armored Guardian"
 description: "Why does a 260-lb man who challenges UFC fighters still carry a six-year-old's wound? Inside the grief, armor, and loyalty code that built Bradley Martyn."
 author: 'DJ Wayne'
@@ -13,11 +13,20 @@ published: true
 enneagram: 8
 type: ['creator', 'influencer']
 person: 'Bradley-Martyn'
-suggestions: ['Sara-Saffari', 'Sky-Bri', 'Joe-Rogan', 'Jake-Paul']
+suggestions: ['Sara-Saffari', 'Mike-Majlak', 'Sky-Bri', 'Joe-Rogan', 'Jake-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Bradley_Martyn'
 twitter: 'https://twitter.com/bradleymartyn'
 instagram: 'https://instagram.com/bradleymartyn'
 tiktok: 'https://tiktok.com/@bradleymartyn'
+content_quality:
+  hook: 8.5
+  enneagram: 8.5
+  evidence: 8
+  writing: 8.5
+  originality: 8.5
+  overall: 8.4
+  letter: B
+  graded_at: '2026-05-15'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

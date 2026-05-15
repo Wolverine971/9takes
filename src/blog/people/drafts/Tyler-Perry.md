@@ -1,6 +1,6 @@
 ---
 title: "Tyler Perry: An Enneagram Type 3 Analysis of Hollywood's Self-Made Mogul"
-meta_title: "Why Tyler Perry Can't Stop Working (The Pattern Nobody Talks About)"
+meta_title: "Tyler Perry Enneagram Type 3: Why He Can't Stop Working"
 persona_title: "Hollywood's Self-Built Fortress"
 description: 'Tyler Perry built a billion-dollar empire from nothing. But the same drive that made him rich kept him from grieving his mother for 15 years.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Tyler-Perry'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['entrepreneur']
 person: 'Tyler-Perry'
-suggestions: ['Oprah-Winfrey', 'Denzel-Washington', 'Beyonce-Knowles', 'Will-Smith']
+suggestions: ['Oprah-Winfrey', 'Denzel-Washington', 'Eddie-Murphy', 'Keke-Palmer', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyler_Perry'
 twitter: 'https://twitter.com/tylerperry'
 instagram: 'https://instagram.com/tylerperry'

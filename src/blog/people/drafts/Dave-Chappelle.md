@@ -13,7 +13,7 @@ published: true
 enneagram: 9
 type: ['comedian', 'celebrity']
 person: 'Dave-Chappelle'
-suggestions: ['Kevin-Hart', 'Eddie-Murphy', 'Jon-Stewart', 'Will-Smith', 'Morgan-Freeman']
+suggestions: ['Kevin-Hart', 'Eddie-Murphy', 'Caleb-Hearon', 'Keke-Palmer', 'Jon-Stewart']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Chappelle'
 twitter: 'davechappelle'
 instagram: 'davechappelle'

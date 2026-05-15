@@ -10,7 +10,7 @@
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import { buildPersonPageJsonLd } from '$lib/utils/personJsonLd';
 	import { buildPersonIdentifiers, buildPersonSameAsUrls } from '$lib/utils/schema';
-	import { capDescriptionForSnippet, capTitleForSnippet } from '$lib/utils/seoBudget';
+	import { capDescriptionForSnippet } from '$lib/utils/seoBudget';
 
 	let { data }: { data: App.BlogPost } = $props();
 
@@ -18,8 +18,9 @@
 	let seoTitle = $derived(data?.meta_title || articleTitle || '');
 	let description = $derived(data?.description || '');
 	let formattedTitle = $derived(seoTitle ? `${seoTitle}` : '9takes');
-	// SERP-budgeted variants — only constrain the snippet-facing tags.
-	let serpTitle = $derived(capTitleForSnippet(formattedTitle));
+	// Keep reviewed people-page titles intact. Google can choose its own visual
+	// truncation, but a literal ellipsis in <title> weakens exact-match intent.
+	let serpTitle = $derived(formattedTitle.trim() || '9takes');
 	let serpDescription = $derived(capDescriptionForSnippet(description || seoTitle || articleTitle));
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';

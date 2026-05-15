@@ -1,6 +1,6 @@
 ---
 title: 'Mike Majlak: Enneagram Type 7 — The Escape Artist Who Learned to Stay'
-meta_title: "Why Mike Majlak Can't Stop Running (And What Changed)"
+meta_title: 'Mike Majlak Enneagram Type 7: Addiction and Recovery'
 persona_title: "Recovery's Restless Evangelist"
 description: 'Mike Majlak spent a decade running from pain through every substance. The Enneagram reveals the wiring behind his addiction and reinvention.'
 author: 'DJ Wayne'
@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['creator', 'influencer']
 person: 'Mike-Majlak'
-suggestions: ['Logan-Paul', 'Theo-Von', 'Tim-Dillon', 'Andrew-Schulz']
+suggestions: ['Logan-Paul', 'Sara-Saffari', 'Bradley-Martyn', 'Theo-Von', 'Tim-Dillon']
 wikipedia: 'https://en.wikipedia.org/wiki/Mike_Majlak'
 twitter: 'https://twitter.com/mikemajlak'
 instagram: 'https://instagram.com/mikemajlak'

@@ -1,6 +1,6 @@
 ---
 title: 'Keke Palmer: Lauren Built Keke to Survive'
-meta_title: "Inside Keke Palmer's Mind: The Woman Behind the Performance"
+meta_title: 'Keke Palmer Enneagram Type 3: Woman Behind the Persona'
 persona_title: "Entertainment's Self-Made Architect"
 description: 'How Keke Palmer built an unstoppable persona to survive Hollywood — and then spent years trying to find the person underneath it.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Keke-Palmer'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['celebrity', 'musician']
 person: 'Keke-Palmer'
-suggestions: ['Zendaya', 'Paris-Hilton', 'Will-Smith', 'Ariana-Grande']
+suggestions: ['Zendaya', 'Tyler-Perry', 'Eddie-Murphy', 'Jake-Shane', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Keke_Palmer'
 twitter: '@KekePalmer'
 instagram: '@kabornejakeke'
@@ -317,4 +317,3 @@ PRIORITY FIXES:
 3. Add a single beat from the mother. Sharon Palmer is the only adult who watched her daughter become the family's financial engine and never appears in her own voice. One quote — even from an interview Sharon may have done — would balance the piece.
 
 ============================================================ -->
-

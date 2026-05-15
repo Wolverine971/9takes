@@ -1,6 +1,6 @@
 ---
 title: 'Patrick Bet-David: The Self-Made Strategist Who Turned Shame Into Fuel'
-meta_title: 'Why Patrick Bet-David Turns Shame Into Fuel'
+meta_title: 'Patrick Bet-David Enneagram Type 3: Shame Into Fuel'
 persona_title: "Media's Self-Made Strategist"
 description: 'Inside the psychology of Patrick Bet-David: how a refugee kid with a 1.8 GPA turned shame into an empire, and why he never stops.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Patrick-Bet-David'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['creator', 'entrepreneur']
 person: 'Patrick-Bet-David'
-suggestions: ['Alex-Hormozi', 'Gary-Vee', 'Donald-Trump', 'Arnold-Schwarzenegger']
+suggestions: ['Alex-Hormozi', 'Scott-Galloway', 'Stephen-A-Smith', 'Sam-Parr', 'Gary-Vee']
 wikipedia: 'https://en.wikipedia.org/wiki/Patrick_Bet-David'
 twitter: 'patrickbetdavid'
 instagram: 'patrickbetdavid'

@@ -1,6 +1,6 @@
 ---
 title: 'Caleb Hearon: An Enneagram Type 7 Analysis'
-meta_title: "Why Caleb Hearon Can't Stop Making Pain Funny (And What It Costs Him)"
+meta_title: 'Caleb Hearon Enneagram Type 7: Pain Made Funny'
 persona_title: "Comedy's Desperate Connector"
 description: 'How growing up poor, closeted, and suicidal in rural Missouri made Caleb Hearon the funniest person in any room — and what he still can not outrun.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Caleb-Hearon'
 lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['comedian', 'creator']
 person: 'Caleb-Hearon'
-suggestions: ['Brittany-Broski', 'Theo-Von', 'Kevin-Hart', 'Andrew-Callaghan']
+suggestions: ['Jake-Shane', 'Eddie-Murphy', 'Dave-Chappelle', 'Keke-Palmer', 'Theo-Von']
 wikipedia: ''
 twitter: 'calebsaysthings'
 instagram: 'calebsaysthings'

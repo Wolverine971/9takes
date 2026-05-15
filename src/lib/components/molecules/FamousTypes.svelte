@@ -34,7 +34,7 @@
 	};
 
 	function getDisplayCategory(person: FamousTypePerson): PersonalityCategorySlug | null {
-		const slugs = getPersonalityCategorySlugs(person.types ?? []);
+		const slugs = getPersonalityCategorySlugs(person.types ?? [], person.name);
 		return CATEGORY_ORDER.find((slug) => slugs.includes(slug)) ?? null;
 	}
 

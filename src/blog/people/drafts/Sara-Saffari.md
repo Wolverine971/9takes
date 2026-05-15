@@ -1,6 +1,6 @@
 ---
 title: "Sara Saffari: The Discipline Machine Behind Fitness's Fastest Reinvention"
-meta_title: "Why Sara Saffari Can't Stop Becoming Someone New"
+meta_title: 'Sara Saffari Enneagram Type 3: Fitness Reinvention'
 persona_title: "Fitness's Self-Built Phoenix"
 description: "From depressed teen eating McDonald's alone to fitness icon with millions watching. Inside the psychology driving Sara Saffari's transformation."
 author: 'DJ Wayne'
@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['creator', 'influencer']
 person: 'Sara-Saffari'
-suggestions: ['Bradley-Martyn', 'Sky-Bri', 'Chris-Williamson', 'Alex-Hormozi']
+suggestions: ['Bradley-Martyn', 'Mike-Majlak', 'Sky-Bri', 'Alex-Hormozi', 'Patrick-Bet-David']
 wikipedia: ''
 twitter: ''
 instagram: 'https://www.instagram.com/sara_saffari'

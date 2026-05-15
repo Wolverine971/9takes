@@ -98,7 +98,7 @@ export function mapPersonalityCategoryRow(
 
 	const normalizedSlug = normalizePersonalitySlug(row.person);
 	const types = normalizePeopleTypes(row.type);
-	const categorySlugs = getPersonalityCategorySlugs(types);
+	const categorySlugs = getPersonalityCategorySlugs(types, normalizedSlug);
 
 	return {
 		slug: normalizedSlug,
@@ -111,7 +111,7 @@ export function mapPersonalityCategoryRow(
 		date: row.date,
 		types,
 		categorySlugs,
-		primaryCategorySlug: getPrimaryPersonalityCategorySlug(types),
+		primaryCategorySlug: getPrimaryPersonalityCategorySlug(types, normalizedSlug),
 		contentQualityScore: extractContentQualityScore(row.content_quality)
 	};
 }
@@ -194,7 +194,10 @@ function personInSlugSet(
 const CREATOR_MEDIA_PODCASTER_SLUGS = createNormalizedSlugSet([
 	'Alex-Cooper',
 	'Andrew-Huberman',
+	'Bobby-Lee',
+	'Caleb-Hearon',
 	'Chris-Williamson',
+	'Conan-OBrien',
 	'Dax-Shepard',
 	'Joe-Rogan',
 	'Lex-Fridman',
@@ -205,9 +208,13 @@ const CREATOR_MEDIA_PODCASTER_SLUGS = createNormalizedSlugSet([
 
 const CREATOR_MEDIA_COMMENTARY_SLUGS = createNormalizedSlugSet([
 	'Andrew-Callaghan',
+	'Andrew-Ross-Sorkin',
 	'Hasan-Piker',
 	'Krystal-Ball',
+	'Piers-Morgan',
+	'Ryan-Grim',
 	'Saagar-Enjeti',
+	'Stephen-A-Smith',
 	'Taylor-Lorenz'
 ]);
 
@@ -223,22 +230,33 @@ const CREATOR_MEDIA_BUSINESS_SLUGS = createNormalizedSlugSet([
 
 const CREATOR_MEDIA_STREAMER_SLUGS = createNormalizedSlugSet([
 	'Adin-Ross',
+	'Asmongold',
 	'Clavicular',
 	'IShowSpeed',
 	'Kai-Cenat',
 	'Pokimane',
+	'TFue',
 	'xQc'
 ]);
 
 const CREATOR_MEDIA_ENTERTAINER_SLUGS = createNormalizedSlugSet([
 	'Brittany-Broski',
 	'Casey-Neistat',
+	'David-Dobrik',
 	'Dave-Portnoy',
 	'Druski',
+	'JackSepticeye',
+	'Jake-Paul',
 	'Jake-Shane',
+	'KSI',
+	'Kyle-Forgeard',
 	'Logan-Paul',
+	'Markiplier',
+	'Mike-Majlak',
 	'Mr-Beast',
-	'PewDiePie'
+	'PewDiePie',
+	'Sean-Evans',
+	'Trisha-Paytas'
 ]);
 
 const CREATOR_MEDIA_LIFESTYLE_SLUGS = createNormalizedSlugSet([
@@ -452,49 +470,99 @@ const MUSIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 	}
 ];
 
-const POLITICS_HEADS_OF_STATE_SLUGS = createNormalizedSlugSet([
-	'Abraham-Lincoln',
+const POLITICS_MODERN_LEADERS_SLUGS = createNormalizedSlugSet([
+	'Barack-Obama',
+	'Bill-Clinton',
 	'Donald-Trump',
 	'George-H-W-Bush',
+	'George-W-Bush',
+	'Jacinda-Ardern',
+	'Jimmy-Carter',
 	'Joe-Biden',
-	'Joseph-Stalin',
-	'Julius-Caesar',
+	'John-F-Kennedy',
 	'Justin-Trudeau',
-	'Napoleon-Bonaparte',
 	'Ronald-Reagan',
 	'Vladimir-Putin',
+	'Volodymyr-Zelensky',
 	'Winston-Churchill',
 	'Xi-Jinping'
 ]);
 
+const POLITICS_HISTORICAL_LEADERS_SLUGS = createNormalizedSlugSet([
+	'Abraham-Lincoln',
+	'Cleopatra',
+	'Joseph-Stalin',
+	'Julius-Caesar',
+	'Marie-Antoinette',
+	'Napoleon-Bonaparte'
+]);
+
 const POLITICS_ACTIVIST_SLUGS = createNormalizedSlugSet([
 	'Greta-Thunberg',
-	'Lupita-Nyongo',
+	'Mahatma-Gandhi',
 	'Malcolm-X',
-	'Martin-Luther-King-Jr'
+	'Martin-Luther-King-Jr',
+	'Mother-Teresa',
+	'Nelson-Mandela',
+	'Noam-Chomsky'
 ]);
 
 const POLITICS_ROYALTY_SLUGS = createNormalizedSlugSet([
 	'Meghan-Markle',
 	'Prince-Harry',
-	'Princess-Diana'
+	'Princess-Diana',
+	'Queen-Elizabeth-II'
+]);
+
+const POLITICS_POLITICAL_SPOUSES_SLUGS = createNormalizedSlugSet([
+	'Jackie-Kennedy',
+	'Michelle-Obama',
+	'Nancy-Reagan'
+]);
+
+const POLITICS_HISTORICAL_SCIENTISTS_SLUGS = createNormalizedSlugSet([
+	'Albert-Einstein',
+	'Friedrich-Nietzsche',
+	'Leonardo-da-Vinci',
+	'Marie-Curie',
+	'Nikola-Tesla',
+	'Robert-Oppenheimer',
+	'Stephen-Hawking'
+]);
+
+const POLITICS_HISTORICAL_ARTISTS_SLUGS = createNormalizedSlugSet([
+	'Agatha-Christie',
+	'Edgar-Allan-Poe',
+	'Ernest-Hemingway',
+	'Frank-Lloyd-Wright',
+	'Frida-Kahlo',
+	'John-D-Rockefeller',
+	'John-Lennon',
+	'Mark-Twain',
+	'Vincent-Van-Gogh'
 ]);
 
 const POLITICS_PUBLIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 	{
-		slug: 'heads-of-state-power-holders',
-		label: 'Heads of State & Power Holders',
+		slug: 'modern-heads-of-state-world-leaders',
+		label: 'Modern Heads of State & World Leaders',
 		description:
-			'Presidents, prime ministers, rulers, and regime-level leaders whose personality shapes institutions, war, loyalty, and large-scale power.',
-		matches: (person) => personInSlugSet(person, POLITICS_HEADS_OF_STATE_SLUGS)
+			'Post-WWII presidents, prime ministers, and rulers operating inside contemporary politics — coalition-building, media warfare, public scrutiny, and modern statecraft.',
+		matches: (person) => personInSlugSet(person, POLITICS_MODERN_LEADERS_SLUGS)
+	},
+	{
+		slug: 'historical-leaders-power-holders',
+		label: 'Historical Leaders & Power Holders',
+		description:
+			'Pre-WWII rulers, emperors, and regime-defining figures whose personalities shaped wars, dynasties, and the institutions that came after them.',
+		matches: (person) => personInSlugSet(person, POLITICS_HISTORICAL_LEADERS_SLUGS)
 	},
 	{
 		slug: 'activists-movement-leaders',
 		label: 'Activists & Movement Leaders',
 		description:
 			'People defined less by office and more by moral urgency, persuasion, sacrifice, movement energy, or symbolic resistance.',
-		matches: (person) =>
-			person.types.includes('activist') || personInSlugSet(person, POLITICS_ACTIVIST_SLUGS)
+		matches: (person) => personInSlugSet(person, POLITICS_ACTIVIST_SLUGS)
 	},
 	{
 		slug: 'royalty-symbolic-public-duty',
@@ -504,11 +572,32 @@ const POLITICS_PUBLIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = 
 		matches: (person) => personInSlugSet(person, POLITICS_ROYALTY_SLUGS)
 	},
 	{
+		slug: 'first-ladies-political-spouses',
+		label: 'First Ladies & Political Spouses',
+		description:
+			'Partners of presidents and power figures who built their own public identities through proximity to office — image discipline, advocacy, and the strange role of representing without being elected.',
+		matches: (person) => personInSlugSet(person, POLITICS_POLITICAL_SPOUSES_SLUGS)
+	},
+	{
 		slug: 'campaign-politicians-public-persuaders',
 		label: 'Campaign Politicians & Public Persuaders',
 		description:
-			'Elected officials, rising party figures, and influence-heavy public actors navigating coalitions, messaging, ambition, and permanent visibility.',
+			'Elected officials, rising party figures, judges, and influence-heavy public actors navigating coalitions, messaging, ambition, and permanent visibility.',
 		matches: (person) => person.types.includes('politician')
+	},
+	{
+		slug: 'historical-scientists-thinkers',
+		label: 'Historical Scientists & Thinkers',
+		description:
+			'Scientists, inventors, mathematicians, and philosophers whose personalities shaped how we understand reality — obsession, isolation, cognitive style, and the cost of seeing further than peers.',
+		matches: (person) => personInSlugSet(person, POLITICS_HISTORICAL_SCIENTISTS_SLUGS)
+	},
+	{
+		slug: 'historical-artists-writers',
+		label: 'Historical Artists & Writers',
+		description:
+			'Painters, novelists, poets, architects, and cultural figures whose interior lives shaped Western art and literature — temperament, suffering, craft, and the link between personality and aesthetic vision.',
+		matches: (person) => personInSlugSet(person, POLITICS_HISTORICAL_ARTISTS_SLUGS)
 	}
 ];
 

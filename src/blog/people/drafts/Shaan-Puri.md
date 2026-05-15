@@ -1,6 +1,6 @@
 ---
 title: 'Shaan Puri: Brilliant at Starting Chapters, Never Finishing the Book'
-meta_title: 'Why Shaan Puri Keeps Reinventing His Life and Career'
+meta_title: 'Shaan Puri Enneagram Type 7: Why He Keeps Reinventing'
 persona_title: 'The Restless Showman'
 description: 'Why does Shaan Puri keep reinventing his life? We decode the Type 7 drive behind the startups, My First Million, restlessness, and fear of settling.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Shaan-Puri'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['creator', 'entrepreneur']
 person: 'Shaan-Puri'
-suggestions: ['Sam-Parr', 'John-Coogan', 'Steven-Bartlett', 'Tim-Ferriss']
+suggestions: ['Sam-Parr', 'John-Coogan', 'Reid-Hoffman', 'Patrick-Bet-David', 'Tim-Ferriss']
 wikipedia: ''
 twitter: 'https://twitter.com/ShaanVP'
 instagram: ''

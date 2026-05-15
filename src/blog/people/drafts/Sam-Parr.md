@@ -1,6 +1,6 @@
 ---
 title: 'Sam Parr: The Scared Kid Running the Whole Show'
-meta_title: "Sam Parr's Enneagram Type: The Scared Kid Running the Whole Show"
+meta_title: 'Sam Parr Enneagram Type 8: The Scared Kid in Charge'
 persona_title: "Media's Brute-Force Builder"
 description: 'Sam Parr built The Hustle, sold it for $27M, and launched Hampton. His Enneagram Type 8 personality explains the vulnerability behind the brute force.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Sam-Parr'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['creator', 'entrepreneur']
 person: 'Sam-Parr'
-suggestions: ['Shaan-Puri', 'Dave-Portnoy', 'Alex-Hormozi', 'Gary-Vee']
+suggestions: ['Shaan-Puri', 'Patrick-Bet-David', 'Scott-Galloway', 'Alex-Hormozi', 'Gary-Vee']
 wikipedia: ''
 twitter: 'https://twitter.com/thesamparr'
 instagram: ''

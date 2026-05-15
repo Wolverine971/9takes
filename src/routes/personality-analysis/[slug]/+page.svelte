@@ -496,7 +496,7 @@
 				     into a quiet meta-row at the bottom of the case-file header. -->
 				<div class="legacy-article-meta">
 					{#key post.slug}
-						<ArticleTitle title={postMeta.title} structuredData={false} />
+						<ArticleTitle title={postMeta.title} structuredData={false} headingTag="h2" />
 						<ArticleSubTitle metaData={postMeta} structuredData={false} />
 					{/key}
 				</div>

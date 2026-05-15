@@ -18,9 +18,10 @@ suggestions:
     'Sydney-Sweeney',
     'Timothee-Chalamet',
     'Jenna-Ortega',
+    'Keke-Palmer',
+    'Kendall-Jenner',
     'Tom-Holland',
-    'Anya-Taylor-Joy',
-    'Millie-Bobby-Brown'
+    'Anya-Taylor-Joy'
   ]
 wikipedia: ''
 twitter: ''

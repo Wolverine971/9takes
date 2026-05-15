@@ -3,6 +3,13 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { analyticsDateSchema } from '$lib/validation/analyticsSchemas';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import {
+	computeReleasePerformanceScoreFields,
+	type ReleasePerformanceScoreFields,
+	type ReleaseScoreBaseRow,
+	type ReleaseVisitSignal
+} from '$lib/server/releasePerformanceScoring';
 
 interface ReleasePerformanceRow {
 	id: number;
@@ -43,6 +50,10 @@ const querySchema = z.object({
 });
 const RPC_RELEASE_LIMIT = 200;
 const MAX_RELEASE_FETCH_PAGES = 10;
+const DEMAND_BASELINE_LIMIT = 1000;
+const RAW_VISIT_PAGE_SIZE = 1000;
+const RAW_VISIT_MAX_PAGES_PER_CHUNK = 25;
+const RAW_VISIT_SLUG_CHUNK_SIZE = 75;
 const RAW_VISIT_REFRESH_WINDOW_DAYS = 90;
 const RELEASE_ANALYTICS_WINDOW_DAYS = 30;
 const analyticsDateFormatter = new Intl.DateTimeFormat('en-CA', {
@@ -81,6 +92,12 @@ function addDaysString(value: string, days: number): string | null {
 	if (Number.isNaN(date.getTime())) return null;
 	date.setUTCDate(date.getUTCDate() + days);
 	return date.toISOString().slice(0, 10);
+}
+
+function addDays(value: Date, days: number): Date {
+	const next = new Date(value);
+	next.setUTCDate(next.getUTCDate() + days);
+	return next;
 }
 
 function getFreshnessRefreshRange(): { from: string; to: string } {
@@ -208,6 +225,21 @@ function toNullableNumber(value: unknown): number | null {
 	return Number.isFinite(numeric) ? numeric : null;
 }
 
+function chunkArray<T>(items: T[], size: number): T[][] {
+	const chunks: T[][] = [];
+	for (let i = 0; i < items.length; i += size) {
+		chunks.push(items.slice(i, i + size));
+	}
+	return chunks;
+}
+
+function getLaunchBand(score: number | null): string {
+	if (score === null) return 'insufficient_history';
+	if (score >= 75) return 'above_norm';
+	if (score <= 25) return 'below_norm';
+	return 'near_norm';
+}
+
 function hasExpandedBenchmarkFields(row: ReleasePerformanceRow): boolean {
 	const record = row as unknown as Record<string, unknown>;
 	return (
@@ -269,6 +301,168 @@ function normalizeReleasePerformanceRow(row: ReleasePerformanceRow) {
 	};
 }
 
+function getFallbackScoreFields(
+	row: ReturnType<typeof normalizeReleasePerformanceRow>
+): ReleasePerformanceScoreFields {
+	const launchScore = row.views_24h_percentile;
+
+	return {
+		launch_score: launchScore,
+		launch_band: getLaunchBand(launchScore),
+		launch_basis: '24h',
+		launch_sample_size: row.benchmark_sample_size,
+		quality_demand_score: null,
+		quality_demand_band: 'insufficient_history',
+		quality_demand_basis: 'unavailable',
+		quality_demand_sample_size: 0,
+		quality_demand_confidence: 'collecting',
+		overall_score: null,
+		overall_performance_band: 'collecting',
+		overall_basis: 'demand_unavailable',
+		external_unique_7d: 0,
+		external_unique_30d: 0,
+		engaged_external_unique_7d: 0,
+		engaged_external_unique_30d: 0,
+		search_unique_7d: 0,
+		search_unique_30d: 0,
+		direct_unique_7d: 0,
+		direct_unique_30d: 0,
+		internal_share_24h: 0,
+		internal_share_7d: 0,
+		internal_share_30d: 0,
+		repeat_view_share_24h:
+			row.views_24h > 0 ? Math.round(((row.views_24h - row.unique_24h) / row.views_24h) * 100) : 0,
+		demand_points: null,
+		demand_percentile: null,
+		engagement_percentile: null,
+		top_demand_sources: [],
+		performance_notes: ['Demand scoring unavailable; overall band not assigned.']
+	};
+}
+
+function toReleaseScoreBaseRow(
+	row: ReturnType<typeof normalizeReleasePerformanceRow>
+): ReleaseScoreBaseRow {
+	return {
+		slug: row.slug,
+		published_at: row.published_at,
+		views_24h: row.views_24h,
+		unique_24h: row.unique_24h,
+		views_7d: row.views_7d,
+		unique_7d: row.unique_7d,
+		views_30d: row.views_30d,
+		unique_30d: row.unique_30d,
+		views_24h_percentile: row.views_24h_percentile,
+		benchmark_score: row.benchmark_score,
+		benchmark_sample_size: row.benchmark_sample_size,
+		benchmark_basis: row.benchmark_basis,
+		performance_band: row.performance_band
+	};
+}
+
+function getVisitFetchRange(rows: Array<ReturnType<typeof normalizeReleasePerformanceRow>>): {
+	from: string;
+	to: string;
+} | null {
+	const publishedDates = rows
+		.map((row) => (row.published_at ? new Date(row.published_at) : null))
+		.filter((date): date is Date => date !== null && !Number.isNaN(date.getTime()));
+
+	if (publishedDates.length === 0) return null;
+
+	const minPublished = new Date(Math.min(...publishedDates.map((date) => date.getTime())));
+	const maxPublished = new Date(Math.max(...publishedDates.map((date) => date.getTime())));
+	const maxWindowEnd = addDays(maxPublished, RELEASE_ANALYTICS_WINDOW_DAYS);
+	const now = new Date();
+
+	return {
+		from: minPublished.toISOString(),
+		to: (maxWindowEnd < now ? maxWindowEnd : now).toISOString()
+	};
+}
+
+async function fetchReleaseVisitSignals(
+	supabaseAdminAny: any,
+	rows: Array<ReturnType<typeof normalizeReleasePerformanceRow>>
+): Promise<ReleaseVisitSignal[]> {
+	const slugs = [...new Set(rows.map((row) => row.slug).filter(Boolean))];
+	const range = getVisitFetchRange(rows);
+	if (slugs.length === 0 || !range) return [];
+
+	const visits: ReleaseVisitSignal[] = [];
+	for (const slugChunk of chunkArray(slugs, RAW_VISIT_SLUG_CHUNK_SIZE)) {
+		for (let page = 0; page < RAW_VISIT_MAX_PAGES_PER_CHUNK; page += 1) {
+			const from = page * RAW_VISIT_PAGE_SIZE;
+			const to = from + RAW_VISIT_PAGE_SIZE - 1;
+			const { data, error: visitError } = await supabaseAdminAny
+				.from('page_analytics_visits')
+				.select(
+					'content_slug,started_at,fingerprint,acquisition_source,referrer_host,engaged_ms,max_scroll_pct,path'
+				)
+				.eq('content_type', 'people')
+				.in('content_slug', slugChunk)
+				.gte('started_at', range.from)
+				.lte('started_at', range.to)
+				.range(from, to)
+				.order('started_at', { ascending: true });
+
+			if (visitError) {
+				throw new Error(visitError.message || 'Failed to load raw release visits');
+			}
+
+			const batch = (data ?? []) as ReleaseVisitSignal[];
+			visits.push(...batch);
+			if (batch.length < RAW_VISIT_PAGE_SIZE) break;
+		}
+	}
+
+	return visits;
+}
+
+async function buildDemandScoreFields(
+	supabaseAny: any,
+	selectedRows: Array<ReturnType<typeof normalizeReleasePerformanceRow>>,
+	fromDate: string | undefined,
+	toDate: string | undefined
+): Promise<Map<string, ReleasePerformanceScoreFields>> {
+	if (selectedRows.length === 0) return new Map();
+
+	let baselineRows = selectedRows;
+	if (fromDate || toDate) {
+		const { data: baselineData, error: baselineError } = await fetchReleasePerformanceRows(
+			supabaseAny,
+			undefined,
+			undefined,
+			DEMAND_BASELINE_LIMIT
+		);
+		if (baselineError) {
+			throw new Error(baselineError.message || 'Failed to load release demand baseline');
+		}
+		const normalizedBaseline = ((baselineData ?? []) as ReleasePerformanceRow[]).map(
+			normalizeReleasePerformanceRow
+		);
+		if (normalizedBaseline.length > 0) {
+			baselineRows = normalizedBaseline;
+		}
+	}
+
+	const selectedSlugSet = new Set(selectedRows.map((row) => row.slug));
+	const baselineSlugSet = new Set(baselineRows.map((row) => row.slug));
+	const rowsForScoring = [
+		...baselineRows,
+		...selectedRows.filter((row) => !baselineSlugSet.has(row.slug))
+	];
+
+	const supabaseAdmin = getSupabaseAdminClient() as any;
+	const visits = await fetchReleaseVisitSignals(supabaseAdmin, rowsForScoring);
+	const scoreFields = computeReleasePerformanceScoreFields(
+		rowsForScoring.map(toReleaseScoreBaseRow),
+		visits
+	);
+
+	return new Map([...scoreFields.entries()].filter(([slug]) => selectedSlugSet.has(slug)));
+}
+
 export const GET: RequestHandler = async ({ url, locals }) => {
 	await assertAdmin(locals);
 
@@ -314,16 +508,32 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		throw error(500, 'Failed to fetch release performance analytics');
 	}
 
-	const rows = ((data ?? []) as ReleasePerformanceRow[]).map(normalizeReleasePerformanceRow);
+	const normalizedRows = ((data ?? []) as ReleasePerformanceRow[]).map(
+		normalizeReleasePerformanceRow
+	);
+	let scoreFieldsBySlug: Map<string, ReleasePerformanceScoreFields>;
+	try {
+		scoreFieldsBySlug = await buildDemandScoreFields(supabaseAny, normalizedRows, fromDate, toDate);
+	} catch (scoreError) {
+		console.warn('Failed to compute demand release scoring:', scoreError);
+		scoreFieldsBySlug = new Map(
+			normalizedRows.map((row) => [row.slug, getFallbackScoreFields(row)])
+		);
+	}
+
+	const rows = normalizedRows.map((row) => ({
+		...row,
+		...(scoreFieldsBySlug.get(row.slug) ?? getFallbackScoreFields(row))
+	}));
 
 	return json({
 		rows,
 		summary: {
 			total_releases: rows.length,
-			above_norm: rows.filter((row) => row.performance_band === 'above_norm').length,
-			below_norm: rows.filter((row) => row.performance_band === 'below_norm').length,
-			collecting: rows.filter((row) => row.performance_band === 'collecting').length,
-			benchmarked: rows.filter((row) => row.benchmark_score !== null).length
+			above_norm: rows.filter((row) => row.overall_performance_band === 'above_norm').length,
+			below_norm: rows.filter((row) => row.overall_performance_band === 'below_norm').length,
+			collecting: rows.filter((row) => row.overall_performance_band === 'collecting').length,
+			benchmarked: rows.filter((row) => row.overall_score !== null).length
 		},
 		refresh: {
 			from: refreshRange.from,

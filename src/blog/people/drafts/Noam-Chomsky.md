@@ -1,6 +1,6 @@
 ---
 title: 'Noam Chomsky: The Permanent Dissenter Who Could Never Stop Fighting'
-meta_title: 'Why Noam Chomsky Turned Moral Clarity Into Combat'
+meta_title: 'Noam Chomsky Enneagram Type 1: Moral Combat'
 persona_title: "Dissent's Permanent Judge"
 description: "The man who built the greatest critique of power from inside power itself. What drove Chomsky's relentless moral crusade, and what it cost him."
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Noam-Chomsky'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['author', 'activist']
 person: 'Noam-Chomsky'
-suggestions: ['Bernie-Sanders', 'Jordan-Peterson', 'Greta-Thunberg', 'Hillary-Clinton']
+suggestions: ['Bernie-Sanders', 'Jordan-Peterson', 'Robert-Oppenheimer', 'Stephen-Hawking']
 wikipedia: 'https://en.wikipedia.org/wiki/Noam_Chomsky'
 twitter: ''
 instagram: ''

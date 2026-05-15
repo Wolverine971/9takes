@@ -4,7 +4,7 @@ description: 'SSRIs, gambling addiction, and collective IQ decline are quietly r
 author: 'DJ Wayne'
 date: '2026-02-20'
 loc: 'https://9takes.com/community/societal-ticking-time-bombs'
-lastmod: '2026-04-16'
+lastmod: '2026-05-15'
 changefreq: monthly
 priority: '0.7'
 published: true
@@ -112,6 +112,27 @@ article_citations:
       '@type': Organization
       name: Crown
     url: 'https://power2u.org/wp-content/uploads/2017/01/AnatomyofanEpidemic-SummaryofFindings-Whitaker.pdf'
+  - name: 'The Educational Opportunity Project at Stanford University: 2026 Trends Report'
+    author: 'Reardon, S. et al.'
+    datePublished: '2026'
+    publisher:
+      '@type': Organization
+      name: 'Stanford University'
+    url: 'https://edopportunity.org/trends/'
+  - name: 'Education Recovery Scorecard 2026: U-Shaped Recovery'
+    author: 'Center for Education Policy Research'
+    datePublished: '2026'
+    publisher:
+      '@type': Organization
+      name: 'Harvard Graduate School of Education'
+    url: 'https://www.gse.harvard.edu/ideas/news/26/05/new-education-scorecard-finds-u-shaped-recovery'
+  - name: 'Handwriting but not typewriting leads to widespread brain connectivity: a high-density EEG study with implications for the classroom'
+    author: 'Van der Weel, F. & Van der Meer, A.'
+    datePublished: '2024'
+    publisher:
+      '@type': Organization
+      name: 'Frontiers in Psychology'
+    url: 'https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full'
 faqs:
   - question: 'What percentage of psychiatrists receive payments from pharmaceutical companies?'
     answer: '55.7% of practicing psychiatrists receive payments from pharmaceutical companies, totaling approximately $110.5 million over a two-year period according to Open Payments data analysis.'
@@ -363,6 +384,48 @@ And now we're adding **AI** to the mix. AI is a useful tool -- it can accelerate
 
 Then there's the **collapse in reading**. [40% of Americans](https://today.yougov.com/entertainment/articles/53804-most-americans-didnt-read-many-books-in-2025) read zero books in 2025. 32% of 8th graders in public schools scored ["below basic" in reading](https://www.nationsreportcard.gov/highlights/reading/2022/) on national tests -- the worst in decades. Reading builds exactly the cognitive muscles that scrolling destroys: sustained attention, complex reasoning, the ability to hold an argument in your head long enough to evaluate it.
 
+### The Reading Recession Is Real -- And It Started Before COVID
+
+In May 2026, the New York Times published [an investigation](https://politicalwire.com/2026/05/13/u-s-test-scores-are-in-a-generation-long-decline/) drawing on new district-level data from Stanford's [Educational Opportunity Project](https://edopportunity.org/trends/). Compared to a decade earlier, reading scores were down in **83% of US school districts**. Math scores were down in **70%**. The decline cut across every line the culture war pretends matters -- rich and poor, Black, white, and Hispanic, blue Massachusetts and red Utah, districts that banned phones and districts that didn't. The data covers grades 3 through 8 in 40 states plus DC, roughly 68% of US districts.
+
+Sean Reardon, the Stanford researcher behind the project, was blunt about the timing: this is a "[learning recession](https://news.stanford.edu/stories/2026/05/student-achievement-test-scores-covid-recovery-schools-research)" that started around 2013 -- years before COVID. From 2017 to 2019, students lost as much ground in reading as they did during the entire pandemic. The virus didn't cause the slide. It accelerated one that was already underway.
+
+2013 isn't a random year. That's roughly when US smartphone penetration crossed 50%, when Instagram passed 100 million users, when Snapchat exploded, when YouTube became default kid TV. The cognitive decline tracks the attention crash almost beat for beat.
+
+#### Phone Bans Don't Fix It Because the Phone Isn't the Whole Story
+
+If the Jonathan Haidt _Anxious Generation_ playbook were sufficient, phone bans would have moved the numbers. They haven't. The [largest study of school cellphone bans to date](https://www.nbcnews.com/tech/tech-news/largest-ever-study-school-cell-phone-bans-finds-mixed-results-rcna343761) found mostly null effects on academic achievement. Phones came out of pockets. Math and reading didn't budge.
+
+The deeper problem is that we built an entire school system on the assumption that learning should happen on a screen.
+
+88% of US public schools now [run one-to-one device programs](https://www.elpasoinc.com/wjournal/how-youtube-took-over-the-american-classroom/article_71958104-f96a-43ad-800b-43862fea30e0.html), and Chromebooks are about 60% of the K-12 device market. The homework is on the Chromebook. The reading is on the Chromebook. The writing is on the Chromebook. And the [Wall Street Journal found](https://gizmodo.com/kid-reportedly-consumes-13000-youtube-videos-in-three-months-during-school-hours-2000752505) a Kansas seventh-grader who logged **13,000 YouTube views on his school-issued device in three months** -- TikTok-style infinite scroll on Shorts, during class. That isn't a freak outlier. That's the predictable outcome of handing a child an internet-enabled device and calling it a classroom.
+
+The medium also matters more than schools want to admit. A [2024 high-density EEG study](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full) compared handwriting against typing in real time. Writing by hand produced widespread theta and alpha brain connectivity across the parietal and central regions involved in memory and encoding. Typing produced almost none. The hand is wired to the learning brain in a way the keyboard isn't. We replaced writing with typing across the entire school system and never bothered to ask what we were giving up.
+
+#### What's Actually Working: Phonics and Friction
+
+The exceptions in the Stanford data are not subtle. Mississippi, DC, Louisiana, Maryland, Tennessee, Kentucky, and Indiana -- the states that posted real reading gains -- all did the same thing. They mandated [the science of reading](https://www.bushcenter.org/catalyst/the-fix/mississippis-reading-revolution): phonics, phonemic awareness, fluency drills. The slow, methodical way kids were taught to read for centuries before education schools decided "balanced literacy" and "three-cueing" were more enlightened.
+
+Mississippi was performing a [full grade level below the national average](https://www.bushcenter.org/catalyst/the-fix/mississippis-reading-revolution) in 2013. By 2025 the state ranked ninth in the country in fourth-grade reading. Mississippi didn't get richer. It didn't get more high-tech. It [forced its schools](https://mississippitoday.org/2026/05/13/reading-mississippi-gains-pandemic/) to teach the way fifty years of reading science said to teach.
+
+The pattern is friction. Phonics is friction. Paper homework is friction. Sustained silent reading is friction. Memorizing times tables is friction. The unpleasant, slow things in the moment are the things that build neural muscle. Screens have spent two decades stripping friction out of education in the name of "engagement." Mississippi proves what should have been obvious -- kids learn _because_ of the friction, not in spite of it.
+
+#### The Middle Class Got Left Behind
+
+One more piece of the data should bother everyone. The post-COVID recovery has been [U-shaped](https://www.gse.harvard.edu/ideas/news/26/05/new-education-scorecard-finds-u-shaped-recovery). The richest districts recovered fastest because parents could afford private tutors, learning pods, and helicopter-grade academic supervision. The poorest districts -- the ones that qualified for federal relief grants -- got the second-biggest bump from concentrated funding.
+
+The kids who got crushed and stayed crushed are in middle-income districts: the 30-to-70% federally-subsidized-lunch range, mostly suburban or in smaller cities. They didn't qualify for federal grants. Their parents couldn't afford private tutors. They absorbed the loss without scaffolding.
+
+This is the through-line of every section in this piece. The systems profiting from the damage are insulated. The wealthy opt their kids out. The very poor get targeted programs. The everyday middle-income family with two exhausted working parents takes the full hit alone.
+
+#### The AI-in-Schools Wave Will Make It Worse
+
+If you think the Chromebook era is bad, watch what's coming. Israel just unveiled a [NIS 1.1 billion summer initiative](https://www.jpost.com/israel-news/article-896130) to train students in ChatGPT, Claude, and cloud AI tooling before matriculation exams. Melania Trump did a White House event with the British royal consort where children wore VR headsets for an "AI-powered cross-cultural educational program." Every edtech vendor in America is pitching schools an AI tutor.
+
+Here's what an AI tutor does for a ten-year-old who can't sit still long enough to read a chapter. It does the reading _for_ them. It does the writing for them. It produces a competent-sounding paragraph the kid "edits" by hitting accept. The cognitive atrophy that hit college students with ChatGPT will now hit nine-year-olds with school-issued AI -- earlier, before they ever build the muscle in the first place.
+
+The Stanford data is the warning. Four cohorts into the screen-based-schooling experiment, every demographic is reading worse than the cohort before. Pouring more powerful tools onto younger kids will not fix what the tools created.
+
 ### Young People Know -- And They're Laughing About It
 
 Young people aren't in denial about this. They _know_. They embrace it. They call it "brainrot" and they make it a meme.
@@ -536,6 +599,19 @@ A note on sourcing: the strongest claims in this piece come from peer-reviewed j
 - Arnsten, A. (2009). [Stress signalling pathways that impair prefrontal cortex structure and function](https://www.nature.com/articles/nrn2648). _Nature Reviews Neuroscience_.
 - Lieberman, M. et al. (2007). [Putting feelings into words: affect labeling disrupts amygdala activity](https://pubmed.ncbi.nlm.nih.gov/17576282/). _Psychological Science_.
 - Oxford University Press. (2024). ["Brain rot" named Oxford Word of the Year 2024](https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/).
+
+### Test score decline and the reading recession
+
+- Reardon, S. et al. (2026). [Educational Opportunity Project: 2026 Trends Report](https://edopportunity.org/trends/). Stanford University.
+- Stanford Report. (2026). ["Learning recession" in U.S. schools predates pandemic](https://news.stanford.edu/stories/2026/05/student-achievement-test-scores-covid-recovery-schools-research).
+- Center for Education Policy Research at Harvard. (2026). [Education Recovery Scorecard finds "U-shaped recovery"](https://www.gse.harvard.edu/ideas/news/26/05/new-education-scorecard-finds-u-shaped-recovery).
+- Political Wire / New York Times. (2026). [U.S. Test Scores Are in a "Generation-Long Decline"](https://politicalwire.com/2026/05/13/u-s-test-scores-are-in-a-generation-long-decline/).
+- Mississippi Today. (2026). [Mississippi's education gains continue amid a nationwide "reading recession"](https://mississippitoday.org/2026/05/13/reading-mississippi-gains-pandemic/).
+- George W. Bush Presidential Center. [Mississippi's Reading Revolution](https://www.bushcenter.org/catalyst/the-fix/mississippis-reading-revolution).
+- Van der Weel, F. & Van der Meer, A. (2024). [Handwriting but not typewriting leads to widespread brain connectivity: a high-density EEG study](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full). _Frontiers in Psychology_.
+- NBC News. (2025). [Largest-ever study of school cell phone bans finds mixed results](https://www.nbcnews.com/tech/tech-news/largest-ever-study-school-cell-phone-bans-finds-mixed-results-rcna343761).
+- El Paso Inc. / Wall Street Journal. (2025). [How YouTube took over the American classroom](https://www.elpasoinc.com/wjournal/how-youtube-took-over-the-american-classroom/article_71958104-f96a-43ad-800b-43862fea30e0.html).
+- Jerusalem Post. (2026). [Netanyahu, Kisch, Smotrich allocate over NIS 1b., outline AI education plan for summer schools](https://www.jpost.com/israel-news/article-896130).
 
 ### Connection, community, and emotional health
 

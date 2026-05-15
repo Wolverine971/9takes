@@ -1,5 +1,8 @@
 // src/lib/personalityCategories.ts
-import { formatPersonalityDisplayName } from '$lib/utils/personalityAnalysis';
+import {
+	formatPersonalityDisplayName,
+	normalizePersonalitySlug
+} from '$lib/utils/personalityAnalysis';
 
 export const PERSONALITY_CATEGORY_SLUGS = [
 	'film-tv',
@@ -40,6 +43,13 @@ export interface PersonalityCategoryDefinition {
 	accentSoft: string;
 	rawTypes: string[];
 	related: PersonalityCategorySlug[];
+	/**
+	 * Person slugs that should NOT appear under this category even when their
+	 * type tags would otherwise qualify them. Use for celebrities tagged with
+	 * a peripheral type (e.g., activist actresses) who really belong on their
+	 * primary category page.
+	 */
+	excludeSlugs?: string[];
 }
 
 export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] = [
@@ -130,7 +140,8 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		accent: '#38bdf8',
 		accentSoft: 'rgba(56, 189, 248, 0.18)',
 		rawTypes: ['creator', 'influencer', 'tiktoker', 'lifestyleInfluencer', 'journalist'],
-		related: ['tech-business', 'music', 'film-tv']
+		related: ['tech-business', 'music', 'film-tv'],
+		excludeSlugs: ['Brene-Brown', 'Dolly-Parton', 'Neil-Strauss']
 	},
 	{
 		slug: 'music',
@@ -186,7 +197,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 		intro:
 			'Public leadership makes power style visible. These profiles are useful for seeing how fear, conviction, charisma, duty, ambition, and symbolic responsibility scale under pressure.',
 		groupingDescription:
-			'Splits leaders into heads of state, campaign politicians, activists, and royals/public-duty figures so power styles are easier to compare.',
+			'Splits the library into modern world leaders, historical power holders, activists, royals, political spouses, campaign politicians, and historical cultural icons so power styles, eras, and roles stay legible side by side.',
 		seoTitle:
 			'Politics & Public Figures Personality Types: Politicians, Activists & Leaders | 9takes',
 		seoDescription:
@@ -214,13 +225,14 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			{
 				question: 'How is the politics category organized?',
 				answer:
-					'The page separates heads of state, activists and movement leaders, royals and symbolic-duty figures, and campaign politicians or public persuaders.'
+					'The page separates modern heads of state and world leaders, historical leaders and power holders, activists and movement leaders, royals and symbolic-duty figures, first ladies and political spouses, campaign politicians and public persuaders, and historical cultural icons (scientists, thinkers, artists, and writers).'
 			}
 		],
 		accent: '#fb7185',
 		accentSoft: 'rgba(251, 113, 133, 0.18)',
 		rawTypes: ['politician', 'historical', 'activist'],
-		related: ['tech-business', 'creator-media', 'film-tv']
+		related: ['tech-business', 'creator-media', 'film-tv'],
+		excludeSlugs: ['Shailene-Woodley', 'Lupita-Nyongo']
 	},
 	{
 		slug: 'tech-business',
@@ -433,16 +445,34 @@ export function getPersonalityCategoryBySlug(
 	return PERSONALITY_CATEGORY_MAP.get(slug as PersonalityCategorySlug);
 }
 
-export function getPersonalityCategorySlugs(types: string[]): PersonalityCategorySlug[] {
+export function getPersonalityCategorySlugs(
+	types: string[],
+	personSlug?: string | null
+): PersonalityCategorySlug[] {
 	const typeKeys = new Set(types.map((type) => normalizeTypeKey(type)));
+	const normalizedPersonSlug = personSlug ? normalizePersonalitySlug(personSlug) : '';
 
-	return PERSONALITY_CATEGORY_DEFINITIONS.filter((category) =>
-		category.rawTypes.some((rawType) => typeKeys.has(normalizeTypeKey(rawType)))
-	).map((category) => category.slug);
+	return PERSONALITY_CATEGORY_DEFINITIONS.filter((category) => {
+		if (!category.rawTypes.some((rawType) => typeKeys.has(normalizeTypeKey(rawType)))) {
+			return false;
+		}
+
+		if (normalizedPersonSlug && category.excludeSlugs?.length) {
+			const excluded = category.excludeSlugs.some(
+				(slug) => normalizePersonalitySlug(slug) === normalizedPersonSlug
+			);
+			if (excluded) return false;
+		}
+
+		return true;
+	}).map((category) => category.slug);
 }
 
-export function getPrimaryPersonalityCategorySlug(types: string[]): PersonalityCategorySlug | null {
-	return getPersonalityCategorySlugs(types)[0] ?? null;
+export function getPrimaryPersonalityCategorySlug(
+	types: string[],
+	personSlug?: string | null
+): PersonalityCategorySlug | null {
+	return getPersonalityCategorySlugs(types, personSlug)[0] ?? null;
 }
 
 export function formatPersonalityRawType(type: string): string {

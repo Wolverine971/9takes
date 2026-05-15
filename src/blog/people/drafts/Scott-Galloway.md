@@ -1,6 +1,6 @@
 ---
 title: "Why Scott Galloway Can't Stop Fighting: The Wound Behind the Rage"
-meta_title: "Why Scott Galloway Can't Stop Fighting (The Wound Behind the Rage)"
+meta_title: 'Scott Galloway Enneagram Type 8: Why He Keeps Fighting'
 persona_title: "Academia's Tender Brawler"
 description: "An absent father, a secretary mother, and a 2.23 GPA forged one of America's fiercest public voices. Here's the psychology behind Scott Galloway."
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Scott-Galloway'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['techie', 'author']
 person: 'Scott-Galloway'
-suggestions: ['Kara-Swisher', 'Marc-Andreessen', 'Peter-Thiel', 'Jordan-Peterson']
+suggestions: ['Kara-Swisher', 'Patrick-Bet-David', 'Shaan-Puri', 'Sam-Parr', 'Reid-Hoffman']
 wikipedia: 'https://en.wikipedia.org/wiki/Scott_Galloway_(professor)'
 twitter: '@profgalloway'
 instagram: '@profgalloway'

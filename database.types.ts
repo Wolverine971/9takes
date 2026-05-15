@@ -3986,6 +3986,15 @@ export type Database = {
       }
     }
     Functions: {
+      analytics_effective_people_published_at: {
+        Args: {
+          p_created_at: string
+          p_date: string
+          p_first_published_at: string
+          p_published_at: string
+        }
+        Returns: string
+      }
       analytics_local_date: { Args: { p_ts: string }; Returns: string }
       analytics_normalize_content_slug: {
         Args: { p_slug: string }
@@ -3998,6 +4007,10 @@ export type Database = {
           p_path: string
         }
         Returns: string
+      }
+      analytics_percent_rank_less: {
+        Args: { p_less_count: number; p_sample_count: number }
+        Returns: number
       }
       analytics_personality_detail_slug: {
         Args: { p_path: string }
@@ -4359,8 +4372,13 @@ export type Database = {
         Returns: {
           avg_scroll_pct: number
           avg_time_on_page_ms: number
+          benchmark_basis: string
+          benchmark_sample_size: number
+          benchmark_score: number
           bounce_rate: number
+          decay_rate_after_spike: number
           first_view_at: string
+          growth_slope_7d: number
           id: number
           median_time_on_page_ms: number
           minutes_to_first_view: number
@@ -4377,7 +4395,9 @@ export type Database = {
           unique_7d: number
           views_1h: number
           views_24h: number
+          views_24h_percentile: number
           views_30d: number
+          views_30d_percentile: number
           views_6h: number
           views_7d: number
           views_7d_percentile: number

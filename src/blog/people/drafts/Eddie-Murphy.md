@@ -1,6 +1,6 @@
 ---
 title: "Eddie Murphy: An Enneagram Type 7 Analysis of Comedy's Greatest Escape Artist"
-meta_title: 'Why Eddie Murphy Disappeared (The Real Reason He Left Hollywood)'
+meta_title: 'Eddie Murphy Enneagram Type 7: Why He Disappeared'
 persona_title: "Comedy's Joyful Recluse"
 description: 'Eddie Murphy made the world laugh then vanished. His Enneagram Type 7 personality reveals why the funniest man alive built a fortress of silence.'
 author: 'DJ Wayne'
@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['comedian', 'movieStar']
 person: 'Eddie-Murphy'
-suggestions: ['Dave-Chappelle', 'Will-Smith', 'Tyler-Perry', 'Tom-Cruise', 'Paris-Hilton']
+suggestions: ['Dave-Chappelle', 'Tyler-Perry', 'Keke-Palmer', 'Caleb-Hearon', 'Will-Smith']
 content_quality:
   hook: 9
   enneagram: 9

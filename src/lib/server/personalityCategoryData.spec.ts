@@ -137,9 +137,13 @@ describe('getPersonalityCategoryGroups', () => {
 		]);
 	});
 
-	it('clusters politics people into leaders, activists, royals, and campaign figures', () => {
+	it('clusters politics people across modern, historical, activist, royal, spouse, and cultural lanes', () => {
 		const groups = getPersonalityCategoryGroups('politics-public', [
 			makePerson('Joe-Biden', ['politician'], {
+				categorySlugs: ['politics-public'],
+				primaryCategorySlug: 'politics-public'
+			}),
+			makePerson('Napoleon-Bonaparte', ['historical'], {
 				categorySlugs: ['politics-public'],
 				primaryCategorySlug: 'politics-public'
 			}),
@@ -151,18 +155,53 @@ describe('getPersonalityCategoryGroups', () => {
 				categorySlugs: ['politics-public'],
 				primaryCategorySlug: 'politics-public'
 			}),
+			makePerson('Michelle-Obama', ['politician'], {
+				categorySlugs: ['politics-public'],
+				primaryCategorySlug: 'politics-public'
+			}),
 			makePerson('Alexandria-Ocasio-Cortez', ['politician'], {
+				categorySlugs: ['politics-public'],
+				primaryCategorySlug: 'politics-public'
+			}),
+			makePerson('Albert-Einstein', ['historical'], {
+				categorySlugs: ['politics-public'],
+				primaryCategorySlug: 'politics-public'
+			}),
+			makePerson('Vincent-Van-Gogh', ['historical'], {
 				categorySlugs: ['politics-public'],
 				primaryCategorySlug: 'politics-public'
 			})
 		]);
 
 		expect(groups.map((group) => group.slug)).toEqual([
-			'heads-of-state-power-holders',
+			'modern-heads-of-state-world-leaders',
+			'historical-leaders-power-holders',
 			'activists-movement-leaders',
 			'royalty-symbolic-public-duty',
-			'campaign-politicians-public-persuaders'
+			'first-ladies-political-spouses',
+			'campaign-politicians-public-persuaders',
+			'historical-scientists-thinkers',
+			'historical-artists-writers'
 		]);
+
+		expect(
+			groups.find((group) => group.slug === 'modern-heads-of-state-world-leaders')?.people[0]?.slug
+		).toBe('Joe-Biden');
+		expect(
+			groups.find((group) => group.slug === 'historical-leaders-power-holders')?.people[0]?.slug
+		).toBe('Napoleon-Bonaparte');
+		expect(
+			groups.find((group) => group.slug === 'royalty-symbolic-public-duty')?.people[0]?.slug
+		).toBe('Princess-Diana');
+		expect(
+			groups.find((group) => group.slug === 'first-ladies-political-spouses')?.people[0]?.slug
+		).toBe('Michelle-Obama');
+		expect(
+			groups.find((group) => group.slug === 'historical-scientists-thinkers')?.people[0]?.slug
+		).toBe('Albert-Einstein');
+		expect(
+			groups.find((group) => group.slug === 'historical-artists-writers')?.people[0]?.slug
+		).toBe('Vincent-Van-Gogh');
 	});
 
 	it('clusters tech-business people into builder, investor, and interpreter lanes', () => {

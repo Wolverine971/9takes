@@ -117,7 +117,8 @@ export const load: PageServerLoad = async (event) => {
 	const modifiedAt = personData.lastmod ?? publishedAt;
 	const bridgeLinks = buildPersonalityBridgeLinks({
 		enneagram: personData.enneagram,
-		types: personData.type
+		types: personData.type,
+		personSlug: canonicalSlug
 	});
 
 	return {
@@ -187,10 +188,12 @@ const TYPE_PILLAR_LABELS: Record<number, string> = {
  */
 function buildPersonalityBridgeLinks({
 	enneagram,
-	types
+	types,
+	personSlug
 }: {
 	enneagram: unknown;
 	types: unknown;
+	personSlug?: string | null;
 }): { label: string; href: string }[] {
 	const links: { label: string; href: string }[] = [];
 
@@ -211,7 +214,7 @@ function buildPersonalityBridgeLinks({
 	}
 
 	const normalizedTypes = normalizePeopleTypes(types);
-	const categorySlugs = getPersonalityCategorySlugs(normalizedTypes);
+	const categorySlugs = getPersonalityCategorySlugs(normalizedTypes, personSlug);
 	const primaryCategorySlug = categorySlugs[0];
 
 	if (primaryCategorySlug) {

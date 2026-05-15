@@ -1,6 +1,6 @@
 ---
 title: 'Kate Hudson: The Sunshine Strategy Built Around an Absent Father'
-meta_title: 'Why Kate Hudson Hid Her Music for Decades'
+meta_title: 'Kate Hudson Enneagram Type 7: Why She Hid Her Music'
 persona_title: "Hollywood's Radiant Fugitive"
 description: 'Kate Hudson built a life of movement, charm, and sunlight around the father wound she never fully stopped trying to outrun.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Kate-Hudson'
 lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['movieStar', 'entrepreneur']
 person: 'Kate-Hudson'
-suggestions: ['Gwyneth-Paltrow', 'Matthew-McConaughey', 'Anne-Hathaway', 'Dax-Shepard']
+suggestions: ['Gwyneth-Paltrow', 'Matthew-McConaughey', 'Dax-Shepard', 'Emma-Stone']
 wikipedia: 'https://en.wikipedia.org/wiki/Kate_Hudson'
 twitter: 'https://twitter.com/katehudson'
 instagram: 'https://instagram.com/katehudson'

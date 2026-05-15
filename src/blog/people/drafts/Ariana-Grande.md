@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['musician']
 person: 'Ariana-Grande'
-suggestions: ['Taylor-Swift', 'Billie-Eilish', 'Selena-Gomez', 'Demi-Lovato', 'Miley-Cyrus']
+suggestions: ['Keke-Palmer', 'Taylor-Swift', 'Billie-Eilish', 'Selena-Gomez', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Ariana_Grande'
 twitter: 'arianagrande'
 instagram: 'arianagrande'

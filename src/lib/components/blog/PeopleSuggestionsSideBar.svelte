@@ -98,23 +98,44 @@
 	});
 </script>
 
-{#if bridgeLinks.length}
-	<nav class="bridge-links-static" aria-label="Explore this personality framework">
-		<h3 class="bridge-links-title">Explore the framework</h3>
-		<ul class="bridge-links-list">
-			{#each bridgeLinks as bridge}
-				<li class="bridge-links-item">
-					<a
-						href={bridge.href}
-						class="bridge-links-link"
-						data-bridge="true"
-						data-track="profile-inline-bridge"
-					>
-						{bridge.label}
-					</a>
-				</li>
-			{/each}
-		</ul>
+{#if links.length || bridgeLinks.length}
+	<nav class="profile-links-static" aria-label="Related personality links">
+		{#if links.length}
+			<section class="profile-links-section" aria-labelledby="related-personalities-heading">
+				<h3 id="related-personalities-heading" class="profile-links-title">
+					Related personalities
+				</h3>
+				<ul class="profile-links-list">
+					{#each links as link}
+						<li class="profile-links-item">
+							<a href={buildPersonalityAnalysisPath(link)} class="profile-links-link">
+								{formatPersonalityDisplayName(link)}
+							</a>
+						</li>
+					{/each}
+				</ul>
+			</section>
+		{/if}
+
+		{#if bridgeLinks.length}
+			<section class="profile-links-section" aria-labelledby="framework-links-heading">
+				<h3 id="framework-links-heading" class="profile-links-title">Explore the framework</h3>
+				<ul class="profile-links-list">
+					{#each bridgeLinks as bridge}
+						<li class="profile-links-item">
+							<a
+								href={bridge.href}
+								class="profile-links-link"
+								data-bridge="true"
+								data-track="profile-inline-bridge"
+							>
+								{bridge.label}
+							</a>
+						</li>
+					{/each}
+				</ul>
+			</section>
+		{/if}
 	</nav>
 {/if}
 
@@ -163,7 +184,7 @@
 {/if}
 
 <style lang="scss">
-	.bridge-links-static {
+	.profile-links-static {
 		max-width: 880px;
 		margin: 0 auto 2rem;
 		padding: 1rem 0;
@@ -171,7 +192,13 @@
 		border-bottom: 1px solid var(--stone-edge);
 	}
 
-	.bridge-links-title {
+	.profile-links-section + .profile-links-section {
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px dashed var(--stone-edge);
+	}
+
+	.profile-links-title {
 		margin: 0 0 0.65rem;
 		font-size: 0.78rem;
 		font-weight: 600;
@@ -181,7 +208,7 @@
 		color: var(--ink-dim);
 	}
 
-	.bridge-links-list {
+	.profile-links-list {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.5rem;
@@ -190,12 +217,12 @@
 		padding: 0;
 	}
 
-	.bridge-links-item {
+	.profile-links-item {
 		margin: 0;
 		padding: 0;
 	}
 
-	.bridge-links-link {
+	.profile-links-link {
 		display: inline-flex;
 		align-items: center;
 		padding: 0.15rem 0;

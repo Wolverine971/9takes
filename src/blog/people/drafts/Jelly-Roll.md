@@ -1,6 +1,6 @@
 ---
 title: 'Jelly Roll: An Enneagram Type 9 Personality Analysis'
-meta_title: 'Why Jelly Roll Spent 30 Years Trying to Disappear (And What Finally Woke Him Up)'
+meta_title: 'Jelly Roll Enneagram Type 9: Why He Tried to Disappear'
 persona_title: "Nashville's Reluctant Giant"
 description: 'How Jelly Roll went from numbing himself through 40 arrests to becoming the most emotionally present artist in country music.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Jelly-Roll'
 lastmod: '2026-03-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['musician']
 person: 'Jelly-Roll'
-suggestions: ['Post-Malone', 'Eminem', 'Dolly-Parton', 'Dave-Chappelle']
+suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle']
 wikipedia: 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
 twitter: 'JellyRoll615'
 instagram: 'jellyroll615'

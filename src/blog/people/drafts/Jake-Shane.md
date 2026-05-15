@@ -1,6 +1,6 @@
 ---
 title: "Jake Shane: An Enneagram Type 6 Analysis — The Boy Who Made a Vow in Claire's"
-meta_title: "Why Jake Shane Can't Stop Being Scared (Even With 5 Million Followers)"
+meta_title: 'Jake Shane Enneagram Type 6: Why He Feels So Scared'
 persona_title: "TikTok's Anxious Sweetheart"
 description: 'Jake Shane built an empire on making people laugh. But beneath the charm is a fear most fans never see. An Enneagram Type 6 analysis.'
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Jake-Shane'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['creator']
 person: 'Jake-Shane'
-suggestions: ['Aubrey-Plaza', 'Alix-Earle', 'Sabrina-Carpenter', 'Chappell-Roan']
+suggestions: ['Caleb-Hearon', 'Keke-Palmer', 'Aubrey-Plaza', 'Alix-Earle', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Shane'
 twitter: ''
 instagram: 'passthatpuss'

@@ -13,7 +13,7 @@ published: false
 enneagram: '6'
 type: ['movieStar', 'celebrity']
 person: 'Penelope-Cruz'
-suggestions: ['Tom-Cruise', 'Pedro-Pascal', 'Scarlett-Johansson', 'Salma-Hayek']
+suggestions: ['Tom-Cruise', 'Pedro-Pascal', 'Scarlett-Johansson', 'Jennifer-Lawrence']
 wikipedia: 'https://en.wikipedia.org/wiki/Penélope_Cruz'
 production_pretext:
   status: draft
@@ -30,24 +30,25 @@ production_pretext:
 path: src/blog/people/drafts/Penelope-Cruz.md
 content_quality:
   hook: 9
-  enneagram: 9
-  evidence: 9
-  writing: 8.5
-  originality: 9
-  overall: 8.9
-  letter: 'B+'
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 9
+  originality: 9.5
+  overall: 9.3
+  letter: 'A'
   graded_at: '2026-05-15'
 ---
 
-<!-- QUALITY GRADE: B+ (8.9)
-Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 8.5 | Originality: 9
+<!-- QUALITY GRADE: A (9.3)
+Hook: 9 | Enneagram: 9.5 | Evidence: 9.5 | Writing: 9 | Originality: 9.5
 
-FEEDBACK (2026-05-15):
-- STRONG HOOK: The 2009 Oscar fainting question is a signature-quality opener — specific, sourced, reveals character, and the "That gap is the entire Penélope Cruz problem" line crystallizes the thesis by paragraph 5. The fortress-of-trusted-people framing lands cleanly as the Type 6 architecture statement.
-- STRONG EVIDENCE: Almodóvar's "safety net" (Venice 2021), Bardem's June 2025 postpartum disclosure, Sean Penn at Palm Springs (Jan 2024), the Ferrari/Modena access detail, the unchanged Calcutta sponsorship names — these are all dated, sourced, and structurally load-bearing rather than decorative.
-- STRONG SIGNATURE DETAILS: The "Is it okay to share what's happening to me with my husband?" line is the emotional center of the piece and a textbook aha — the Six who built her career on outsourcing trust couldn't access that trust when she needed it most. The "patient execution of a 1992 identification" framing for the Bardem marriage is original.
-- NEEDS WORK: Two 3-type counter-typing ladders in the main body (4/3/8 in the trust+fear paragraph, then 4/1/6 in the Ferrari research analysis). Each is diagnostically useful, but together they read as a faint formula fingerprint. Consider compressing the Ferrari one to a single sentence ("A Four would do this to merge; Cruz does it to make sure no surprise can land") or cutting one of the comparisons.
-- TO REACH A (9.0+): (1) Trim one of the counter-typing ladders — pick the more load-bearing one and condense the other. (2) The "Where Penélope Cruz Goes Under Stress" section is the shortest analytic section and could carry one more concrete behavioral example beyond the Oscar speech — a second moment where the Six → Three image-leak shows up would harden the arrow analysis. (3) The integration arrow (Six → Nine in health) is unaddressed; one sentence acknowledging what "well" looks like for her — possibly the Bardem two-week rule as structural calm rather than vigilance — would round out the arrow work.
+FEEDBACK (2026-05-15, post-revision):
+- STRONG HOOK: The 2009 Oscar fainting question is a signature-quality opener — specific, sourced, character-revealing — and the "That gap is the entire Penélope Cruz problem" line crystallizes the thesis by paragraph 5.
+- STRONG ENNEAGRAM: The Rabbit Hole now consolidates wings (6w7), instinctual subtype (sp/sx), stress arrow (→ 3), growth arrow (→ 9), and three counterarguments (Type 2, 4, 1) — freeing the main body to read as pure storytelling. The framework explains the fearless/fearful contradiction non-trivially.
+- STRONG EVIDENCE: Now includes Mother Teresa's forehead-pressed direct quote, the Estrella Morente lip-sync training detail, the five-month Parallel Mothers COVID-extended rehearsal, plus the prior Almodóvar/Bardem/Sean Penn/Ferrari sourcing. Multiple dated, sourced collaborator quotes. Voice is heard, not summarized.
+- STRONG ORIGINALITY: Multiple signature details — forehead-pressed Mother Teresa exchange, "she has not changed the names on the sponsorship," the postpartum "Is it okay to share what's happening to me with my husband?", the "patient execution of a 1992 identification" framing, the Hollywood-years stress-arrow analysis. Swap test passes cleanly.
+- ENDING: "She has been too careful for that" — clean cut-to-black at peak insight, no summary, no CTA.
+- TO REACH A+ (9.5+): The piece is one emotional-immersion paragraph away from the Dax-Shepard-deathbed tier. Consider deepening either (a) the Mother Teresa forehead moment with one extra sensory detail — the heat, the silence, the leprosy clinic in peripheral view — to put the reader physically in the room with a twenty-year-old Cruz, or (b) the Volver lip-sync-to-dead-mother scene with one paragraph that holds the camera on Cruz mouthing another woman's voice toward a parked car where her dead mother is listening. Either move would push Writing to 9.5+ and convert this from A to A+.
 -->
 
 

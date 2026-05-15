@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['entrepreneur']
 person: 'Alex-Hormozi'
-suggestions: ['Tony-Robbins', 'Elon-Musk', 'Gary-Vee', 'Leila-Hormozi']
+suggestions: ['Patrick-Bet-David', 'Sam-Parr', 'Tony-Robbins', 'Gary-Vee', 'Leila-Hormozi']
 wikipedia: ''
 twitter: 'AlexHormozi'
 instagram: 'hormozi'

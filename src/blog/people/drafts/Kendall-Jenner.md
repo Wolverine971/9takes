@@ -1,6 +1,6 @@
 ---
 title: "Kendall Jenner: The Cool-Girl Mask Hiding Fashion's Loudest Anxiety"
-meta_title: "Why Kendall Jenner's Calm Image Keeps Cracking"
+meta_title: 'Kendall Jenner Enneagram Type 6: Anxiety Behind the Calm'
 persona_title: "Fashion's Quiet Sentinel"
 description: "The highest-paid model in the world couldn't board a flight alone. Inside Kendall Jenner's hidden anxiety and what it reveals."
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Kendall-Jenner'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['celebrity']
 person: 'Kendall-Jenner'
-suggestions: ['Kylie-Jenner', 'Kim-Kardashian', 'Hailey-Bieber', 'Zendaya']
+suggestions: ['Kylie-Jenner', 'Gigi-Hadid', 'Kim-Kardashian', 'Hailey-Bieber', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Kendall_Jenner'
 twitter: '@KendallJenner'
 instagram: '@kendalljenner'

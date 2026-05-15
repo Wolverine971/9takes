@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['celebrity']
 person: 'Oprah-Winfrey'
-suggestions: ['Meghan-Markle', 'Dolly-Parton', 'Dwayne-Johnson', 'Michelle-Obama']
+suggestions: ['Tyler-Perry', 'Keke-Palmer', 'Dolly-Parton', 'Dwayne-Johnson', 'Michelle-Obama']
 wikipedia: 'https://en.wikipedia.org/wiki/Oprah_Winfrey'
 twitter: 'https://twitter.com/Oprah'
 instagram: 'https://www.instagram.com/oprah/'

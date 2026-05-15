@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['comedian', 'movieStar']
 person: 'Kevin-Hart'
-suggestions: ['Jack-Black', 'Dwayne-Johnson', 'Dave-Chappelle', 'Ryan-Reynolds']
+suggestions: ['Dave-Chappelle', 'Eddie-Murphy', 'Caleb-Hearon', 'Dwayne-Johnson', 'Ryan-Reynolds']
 wikipedia: ''
 twitter: ''
 instagram: ''

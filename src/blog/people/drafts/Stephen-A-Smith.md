@@ -1,6 +1,6 @@
 ---
 title: 'Stephen A. Smith: The Loudest Voice in Sports Built on a Boyhood of Doubt'
-meta_title: "Why Stephen A. Smith Can't Stop Proving Himself"
+meta_title: 'Stephen A. Smith Enneagram Type 3: Always Proving'
 persona_title: "Sports Media's Self-Made Thunder"
 description: "Stephen A. Smith built an empire out of volume. But the real story is what he won't say on camera — and the childhood wound that made silence feel like death."
 author: 'DJ Wayne'
@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Stephen-A-Smith'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['celebrity', 'creator']
 person: 'Stephen-A-Smith'
-suggestions: ['Donald-Trump', 'Dwayne-Johnson', 'Oprah-Winfrey', 'Jennifer-Lopez']
+suggestions: ['Piers-Morgan', 'Patrick-Bet-David', 'Dwayne-Johnson', 'Tyler-Perry']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_A._Smith'
 twitter: 'https://twitter.com/stephenasmith'
 instagram: 'https://instagram.com/stephenasmith'

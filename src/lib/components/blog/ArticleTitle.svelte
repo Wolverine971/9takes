@@ -3,6 +3,7 @@
 	export let slug = '';
 	export let title: string;
 	export let structuredData = false;
+	export let headingTag: 'h1' | 'h2' = 'h1';
 	const cleanedTitle = title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
 	const id = cleanedTitle;
 
@@ -14,6 +15,16 @@
 		<a {href}>
 			{title}
 		</a>
+	</h2>
+{:else if headingTag === 'h2'}
+	<h2
+		class="heading"
+		class:large={!slug}
+		{id}
+		itemprop={structuredData ? 'headline' : undefined}
+		style:--tag={`h-blog-${cleanedTitle}`}
+	>
+		{title}
 	</h2>
 {:else}
 	<h1
