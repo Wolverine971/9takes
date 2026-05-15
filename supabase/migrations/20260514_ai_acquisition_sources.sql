@@ -45,7 +45,9 @@ BEGIN
 				RETURN 'ai/google';
 			WHEN v_utm_source IN ('copilot', 'microsoft-copilot') THEN
 				RETURN 'ai/microsoft';
-			WHEN v_utm_source IN ('poe', 'you', 'phind', 'mistral') THEN
+			WHEN v_utm_source IN ('grok', 'xai', 'x-ai') THEN
+				RETURN 'ai/xai';
+			WHEN v_utm_source IN ('poe', 'you', 'phind', 'mistral', 'meta-ai', 'iask', 'felo', 'komo', 'andi') THEN
 				RETURN 'ai/other';
 			WHEN v_utm_source IN ('google', 'bing', 'duckduckgo') THEN
 				RETURN 'search/' || v_utm_source;
@@ -90,8 +92,11 @@ BEGIN
 	IF v_referrer_host LIKE '%claude.ai%' OR v_referrer_host LIKE '%anthropic.%' THEN RETURN 'ai/anthropic'; END IF;
 	IF v_referrer_host LIKE '%gemini.google.%' OR v_referrer_host LIKE '%bard.google.%' THEN RETURN 'ai/google'; END IF;
 	IF v_referrer_host LIKE '%copilot.microsoft.%' THEN RETURN 'ai/microsoft'; END IF;
+	IF v_referrer_host LIKE '%grok.%' OR v_referrer_host LIKE '%x.ai%' THEN RETURN 'ai/xai'; END IF;
 	IF v_referrer_host LIKE '%poe.com%' OR v_referrer_host LIKE '%you.com%' OR v_referrer_host LIKE '%phind.com%' THEN RETURN 'ai/other'; END IF;
 	IF v_referrer_host LIKE '%meta.ai%' OR v_referrer_host LIKE '%mistral.ai%' THEN RETURN 'ai/other'; END IF;
+	IF v_referrer_host LIKE '%iask.ai%' OR v_referrer_host LIKE '%felo.ai%' OR v_referrer_host LIKE '%komo.ai%' THEN RETURN 'ai/other'; END IF;
+	IF v_referrer_host LIKE '%andisearch.com%' THEN RETURN 'ai/other'; END IF;
 
 	IF v_referrer_host LIKE '%google.%' THEN RETURN 'search/google'; END IF;
 	IF v_referrer_host LIKE '%bing.%' THEN RETURN 'search/bing'; END IF;
@@ -118,7 +123,7 @@ SET acquisition_source = public.normalize_acquisition_source(
 )
 WHERE started_at >= NOW() - INTERVAL '180 days'
 	AND (
-		LOWER(COALESCE(referrer_host, '')) SIMILAR TO '%(chatgpt|openai|perplexity|claude|anthropic|gemini|bard|copilot|poe\\.com|you\\.com|phind\\.com|meta\\.ai|mistral\\.ai)%'
+		LOWER(COALESCE(referrer_host, '')) ~ '(chatgpt|openai|perplexity|claude[.]ai|anthropic|gemini|bard|copilot|grok|x[.]ai|poe[.]com|you[.]com|phind[.]com|meta[.]ai|mistral[.]ai|iask[.]ai|felo[.]ai|komo[.]ai|andisearch[.]com)'
 		OR LOWER(COALESCE(utm_source, '')) IN (
 			'chatgpt',
 			'openai',
@@ -132,10 +137,18 @@ WHERE started_at >= NOW() - INTERVAL '180 days'
 			'google-ai',
 			'copilot',
 			'microsoft-copilot',
+			'grok',
+			'xai',
+			'x-ai',
 			'poe',
 			'you',
 			'phind',
-			'mistral'
+			'mistral',
+			'meta-ai',
+			'iask',
+			'felo',
+			'komo',
+			'andi'
 		)
 	);
 
@@ -148,7 +161,7 @@ SET first_acquisition_source = public.normalize_acquisition_source(
 )
 WHERE first_visit_at >= NOW() - INTERVAL '180 days'
 	AND (
-		LOWER(COALESCE(first_referrer_host, '')) SIMILAR TO '%(chatgpt|openai|perplexity|claude|anthropic|gemini|bard|copilot|poe\\.com|you\\.com|phind\\.com|meta\\.ai|mistral\\.ai)%'
+		LOWER(COALESCE(first_referrer_host, '')) ~ '(chatgpt|openai|perplexity|claude[.]ai|anthropic|gemini|bard|copilot|grok|x[.]ai|poe[.]com|you[.]com|phind[.]com|meta[.]ai|mistral[.]ai|iask[.]ai|felo[.]ai|komo[.]ai|andisearch[.]com)'
 		OR LOWER(COALESCE(first_utm_source, '')) IN (
 			'chatgpt',
 			'openai',
@@ -162,9 +175,17 @@ WHERE first_visit_at >= NOW() - INTERVAL '180 days'
 			'google-ai',
 			'copilot',
 			'microsoft-copilot',
+			'grok',
+			'xai',
+			'x-ai',
 			'poe',
 			'you',
 			'phind',
-			'mistral'
+			'mistral',
+			'meta-ai',
+			'iask',
+			'felo',
+			'komo',
+			'andi'
 		)
 	);

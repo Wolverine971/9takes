@@ -208,15 +208,31 @@ function toNullableNumber(value: unknown): number | null {
 	return Number.isFinite(numeric) ? numeric : null;
 }
 
+function hasExpandedBenchmarkFields(row: ReleasePerformanceRow): boolean {
+	const record = row as unknown as Record<string, unknown>;
+	return (
+		Object.prototype.hasOwnProperty.call(record, 'benchmark_score') ||
+		Object.prototype.hasOwnProperty.call(record, 'views_24h_percentile') ||
+		Object.prototype.hasOwnProperty.call(record, 'views_30d_percentile') ||
+		Object.prototype.hasOwnProperty.call(record, 'benchmark_basis')
+	);
+}
+
 function normalizeReleasePerformanceRow(row: ReleasePerformanceRow) {
+	const hasExpandedBenchmarks = hasExpandedBenchmarkFields(row);
 	const views7dPercentile = toNullableNumber(row.views_7d_percentile);
-	const benchmarkScore = toNullableNumber(row.benchmark_score) ?? views7dPercentile;
+	const benchmarkScore = hasExpandedBenchmarks
+		? (toNullableNumber(row.benchmark_score) ?? views7dPercentile)
+		: null;
 	const benchmarkBasis =
-		row.benchmark_basis === null || row.benchmark_basis === undefined
+		!hasExpandedBenchmarks || row.benchmark_basis === null || row.benchmark_basis === undefined
 			? benchmarkScore === null
 				? 'insufficient_history'
 				: '7d'
 			: String(row.benchmark_basis);
+	const performanceBand = hasExpandedBenchmarks
+		? String(row.performance_band ?? 'insufficient_history')
+		: 'insufficient_history';
 
 	return {
 		id: Number(row.id || 0),
@@ -246,7 +262,7 @@ function normalizeReleasePerformanceRow(row: ReleasePerformanceRow) {
 		benchmark_score: benchmarkScore,
 		benchmark_sample_size: Number(row.benchmark_sample_size || 0),
 		benchmark_basis: benchmarkBasis,
-		performance_band: String(row.performance_band ?? 'insufficient_history'),
+		performance_band: performanceBand,
 		release_stage: String(row.release_stage ?? 'mature'),
 		growth_slope_7d: toNullableNumber(row.growth_slope_7d),
 		decay_rate_after_spike: toNullableNumber(row.decay_rate_after_spike)

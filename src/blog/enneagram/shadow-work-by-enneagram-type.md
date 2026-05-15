@@ -34,7 +34,7 @@ QUALITY_FEEDBACK_END -->
     import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
 </script>
 
-<QuickAnswer question="What is shadow work by Enneagram type?" answer="Shadow work by Enneagram type targets your specific unconscious patterns based on your personality. Each type has a predictable 'dark side'—Type 1s repress rage, Type 2s hide resentment, Type 8s deny vulnerability. Generic shadow work misses these patterns. Type-specific shadow work goes straight to your blind spots.">
+<QuickAnswer question="What is shadow work by Enneagram type?">
 Your shadow isn't random—it's shaped by your Enneagram type's core fears and repressed qualities. A Type 1's shadow (explosive rage behind perfectionism) looks completely different from a Type 7's shadow (avoidance and superficiality). Same goal: self-protection. Different expression.
 </QuickAnswer>
 

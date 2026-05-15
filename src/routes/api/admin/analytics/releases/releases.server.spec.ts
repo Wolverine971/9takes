@@ -147,7 +147,7 @@ describe('/api/admin/analytics/releases', () => {
 		});
 	});
 
-	it('normalizes legacy 7-day benchmark rows into current score fields', async () => {
+	it('quarantines legacy 7-day benchmark rows instead of trusting stale bands', async () => {
 		const rpc = vi
 			.fn()
 			.mockResolvedValueOnce({
@@ -179,7 +179,7 @@ describe('/api/admin/analytics/releases', () => {
 						avg_scroll_pct: '61',
 						bounce_rate: '31',
 						views_7d_percentile: '67.5',
-						performance_band: 'near_norm',
+						performance_band: 'below_norm',
 						release_stage: 'mature'
 					}
 				],
@@ -211,15 +211,17 @@ describe('/api/admin/analytics/releases', () => {
 
 		expect(body.rows[0]).toMatchObject({
 			views_7d_percentile: 67.5,
-			benchmark_score: 67.5,
-			benchmark_basis: '7d',
+			benchmark_score: null,
+			benchmark_basis: 'insufficient_history',
 			benchmark_sample_size: 0,
+			performance_band: 'insufficient_history',
 			growth_slope_7d: null,
 			decay_rate_after_spike: null
 		});
 		expect(body.summary).toMatchObject({
 			total_releases: 1,
-			benchmarked: 1
+			below_norm: 0,
+			benchmarked: 0
 		});
 	});
 

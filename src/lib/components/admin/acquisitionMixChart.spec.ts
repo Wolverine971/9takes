@@ -13,7 +13,10 @@ describe('acquisitionMixChart', () => {
 		expect(formatAcquisitionSourceLabel('paid/meta')).toBe('Meta Ads');
 		expect(formatAcquisitionSourceLabel('social/x')).toBe('X');
 		expect(formatAcquisitionSourceLabel('email/substack')).toBe('Substack Email');
+		expect(formatAcquisitionSourceLabel('ai/openai')).toBe('OpenAI');
+		expect(formatAcquisitionSourceLabel('ai/perplexity')).toBe('Perplexity AI');
 		expect(formatAcquisitionSourceShortLabel('search/duckduckgo')).toBe('DuckDuckGo');
+		expect(formatAcquisitionSourceShortLabel('ai/openai')).toBe('OpenAI');
 	});
 
 	it('builds weekly chart rows and ranks sources by total visitors', () => {

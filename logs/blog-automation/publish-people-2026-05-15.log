@@ -1,0 +1,14 @@
+```text
+Published people blog.
+
+Person: lili-reinhart
+Draft: src/blog/people/drafts/Lili-Reinhart.md
+Date/lastmod: 2026-05-15
+Supabase: published=true (row id=975)
+Content grade: 9.1 (3,669 words)
+Images: full + thumbnail present (static/types/4s/Lili-Reinhart.webp, s-Lili-Reinhart.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```

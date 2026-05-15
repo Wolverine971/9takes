@@ -33,7 +33,7 @@ QUALITY_FEEDBACK_END -->
   import TypeQuotes from '$lib/components/blog/callouts/TypeQuotes.svelte';
 </script>
 
-<QuickAnswer question="What is Enneagram self development?" answer="Enneagram self development uses your personality type as a roadmap for growth by revealing your core emotional patterns, childhood wounds, and unconscious motivations: then providing specific strategies to transform limitations into strengths.">
+<QuickAnswer question="What is Enneagram self development?">
 Enneagram self development goes beyond surface-level tips to reveal the <strong>operating system of your psyche</strong>: the childhood programming driving your decisions. Instead of fighting your personality, you learn to understand it, embrace its gifts, and gradually release its limitations.
 </QuickAnswer>
 

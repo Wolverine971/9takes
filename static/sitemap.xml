@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-15</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-15</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1317,7 +1317,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-15</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2300,6 +2300,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/lili-reinhart</loc>
+    <lastmod>2026-05-15</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/4s/Lili-Reinhart.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/lionel-messi</loc>
     <lastmod>2026-04-14</lastmod>
     <image:image>
@@ -3251,7 +3258,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-15</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>

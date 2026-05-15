@@ -7,8 +7,8 @@
 	"forceNext": null,
 	"rateLimit": {
 		"maxPerWeek": 5,
-		"currentWeekCount": 5,
-		"weekStartDate": "2026-05-08"
+		"currentWeekCount": 1,
+		"weekStartDate": "2026-05-15"
 	},
 	"notifications": {
 		"enabled": true,

@@ -1,0 +1,96 @@
+[2026-05-15 02:01:19] [INFO] Daily blog creator starting (non-interactive)
+[2026-05-15 02:01:19] [INFO] Pre-flight: pause=false, inProgress=null
+[2026-05-15 02:01:19] [INFO] Rate limit reset: weekStartDate 2026-05-08 → 2026-05-15, count 5 → 0
+[2026-05-15 02:01:41] [INFO] SELECTED: penelope-cruz (Type 4, Priority: 79)
+[2026-05-15 02:01:41] [INFO] Reason: Ranker/Instagram beauty-list spike, Oscar-winning international prestige, Type 4 artist analysis angle
+[2026-05-15 02:01:41] [INFO] inProgress set, queue length: 35
+BLOG IN PROGRESS: penelope-cruz - skipping today's run
+
+The pre-flight check found `inProgress` is set to **Penélope Cruz** (Type 4, priority 79), started at `2026-05-15T06:01:35Z` — only ~6 minutes ago, well under the 24-hour stale threshold. Per the workflow rules, I'm exiting without launching another run to avoid clobbering the active blog creation.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-15
+Status: SKIPPED (inProgress active)
+Blog: penelope-cruz (started 6 min ago)
+Action: None — letting active run complete
+Next Run: Tomorrow 2:00 AM
+===================================
+```
+Draft saved. Here's the summary.
+
+## Penélope Cruz draft complete — Type 6 (A, 9.0)
+
+**Location**: `/src/blog/people/drafts/Penelope-Cruz.md` (~3,800 words)
+**Preview**: `/admin/drafts/Penelope-Cruz`
+
+**Core tension**: Fearless on screen vs. chronic worrier off it — Cruz did not learn to stop being afraid; she built a fortress of trusted people (Almodóvar, Bardem, Mother Teresa's girls) and outsourced the fear to them.
+
+**Type**: 6w7, leaning Self-Preservation Six. The "warm Six" who weaves a safety net.
+
+**Grade**:
+```json
+{ "hook": 9.0, "enneagram": 9.2, "evidence": 8.8, "writing": 9.0, "originality": 9.0, "overall": 9.0, "letter": "A", "graded_at": "2026-05-15" }
+```
+
+**Strongest moments used**:
+- "Has anybody ever fainted here?" — Oscar opening as the entire thesis in one sentence
+- "I could hear him breathing — and that was like my safety net" — Almodóvar literally standing two meters off-camera
+- "Is it okay to share what's happening to me with my husband?" — postpartum depression she couldn't tell Bardem
+- Sat in the room where Laura Ferrari died, reading her love letters, to prepare for the role
+- 30 years still sponsoring the same girls she met in Calcutta at 20
+- Walking Madrid as a teenager imagining where Almodóvar might be
+
+**Internal links added (3)**:
+- `Tom Cruise` → `/personality-analysis/Tom-Cruise`
+- `Type 3` → `/enneagram-corner/enneagram-type-3` (stress arrow)
+- `how each Enneagram type behaves under stress` → `/enneagram-corner/enneagram-types-in-stress`
+
+**Suggestions**: Tom-Cruise, Pedro-Pascal (fellow Type 6 actor), Scarlett-Johansson (VCB co-star), Salma-Hayek.
+
+**Limitations**: No long-form podcast transcripts pulled in this pass. The postpartum and Almodóvar sections would deepen further with raw transcript material if available.
+
+**Status**: `production_pretext.status: draft` — needs your review before promoting to `ready` and running `blog_content_production_people`.
+
+### Options
+1. Make specific edits (tell me what to change)
+2. Regenerate specific sections
+3. Provide transcripts for a deeper second pass
+4. Approve → mark `production_pretext.status: ready` and hand off to `blog_content_production_people`
+
+Sources:
+- [Penélope Cruz — Wikipedia](https://en.wikipedia.org/wiki/Pen%C3%A9lope_Cruz)
+- [Deadline — "He's My Safety Net" (Venice 2021)](https://deadline.com/2021/09/penelope-cruz-pedro-almodovar-parallel-mothers-venice-film-festival-1234825452/)
+- [Variety — Penélope Cruz on Almodóvar (2021)](https://variety.com/2021/film/features/penelope-cruz-parallel-mothers-pedro-almodovar-1235111408/)
+- [Hola — Bardem on Cruz's postpartum depression (2025)](https://www.hola.com/us/celebrities/20250616838391/javier-bardem-penelope-cruz-depression-battle-recovery/)
+- [Screen Daily — Cruz on intense Almodóvar relationship](https://www.screendaily.com/features/parallel-mothers-star-penelope-cruz-on-her-intense-working-relationship-with-pedro-almodovar/5168481.article)
+- [SheKnows — Cruz's "sacred rule" about her children](https://www.sheknows.com/parenting/articles/2986357/penelope-cruz-javier-bardem-kids-privacy/)
+- [Oscars DB — 2009 Acceptance Speech](https://aaspeechesdb.oscars.org/link/081-4/)
+- [Borgen — Cruz's Mother Teresa work](https://www.borgenmagazine.com/penelope-cruzs-charity-work/)
+- [Screen Daily — "I always feel like a student" (Ferrari)](https://www.screendaily.com/features/i-always-feel-like-a-student-ferrari-star-penelope-cruz-on-sustaining-her-three-decade-career/5188717.article)
+- [Variety — Palm Springs honoree, Sean Penn intro (2024)](https://variety.com/2024/film/festivals/yorgos-lanthimos-penelope-cruz-creative-impact-awards-palm-springs-directors-to-watch-1235862667/)
+[2026-05-15 02:11:29] [SUCCESS] Draft created: /src/blog/people/drafts/Penelope-Cruz.md (23.5KB)
+[2026-05-15 02:11:29] [INFO] Self-graded by creator: overall 9.0/A (Type 6w7, not Type 4 as in queue)
+[2026-05-15 02:11:29] [INFO] Running independent grade_blog...
+[2026-05-15 02:13:05] [SUCCESS] Independent grade: 9.0/A (matches creator self-grade)
+[2026-05-15 02:13:05] [INFO] Queue updated: penelope-cruz → completed (22 total), inProgress cleared
+[2026-05-15 02:13:05] [INFO] Rate limit: 1/5 this week
+[2026-05-15 02:13:05] [INFO] Note: Queue had Cruz typed as 4; analysis pegged her as 6w7 (Self-Pres Six)
+Done. Daily blog creator run complete.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-15
+Status: SUCCESS
+Blog: Penélope Cruz
+Grade: 9.0/10 (A) — independent grade matched
+Duration: ~10 min
+Draft: src/blog/people/drafts/Penelope-Cruz.md (23.5 KB, ~3,800 words)
+Rate Limit: 1/5 this week (reset from previous week)
+Next Run: Tomorrow — Martha Stewart (Type 1, priority 78)
+===================================
+```
+
+**Notable finding:** Queue had Penélope Cruz typed as **Type 4**; the analysis pegged her as **Type 6w7 (Self-Pres Six)** — "Cinema's Trembling Loyalist." Type correction logged in `completed` entry for future queue hygiene.
+
+**Status:** Draft `production_pretext.status: draft` — needs your review before promoting to `ready` and running `blog_content_production_people`. Telegram notification skipped (no `tg-send` wired into this command yet — the workflow describes notification format but no send mechanism).

@@ -4596,6 +4596,36 @@ export type Database = {
           visits: number
         }[]
       }
+      get_page_analytics_trending_pages: {
+        Args: {
+          p_anchor_ts?: string
+          p_baseline_days?: number
+          p_limit?: number
+          p_min_unique?: number
+          p_min_visits?: number
+          p_scope?: string
+        }
+        Returns: {
+          avg_time_on_page_ms: number
+          baseline_avg_unique_visitors: number
+          baseline_avg_visits: number
+          bounce_rate: number
+          confidence: string
+          content_type: string
+          current_unique_visitors: number
+          current_visits: number
+          is_low_unique: boolean
+          lift_unique_visitors: number
+          lift_visits: number
+          median_time_on_page_ms: number
+          path: string
+          path_group: string
+          ratio_visits: number
+          top_referrers: Json
+          top_sources: Json
+          trend_score: number
+        }[]
+      }
       get_project_full: {
         Args: { p_actor_id: string; p_project_id: string }
         Returns: Json

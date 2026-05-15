@@ -55,7 +55,10 @@ const ACQUISITION_COLORS = [
 ];
 
 const SPECIAL_LABELS: Record<string, string> = {
+	ai: 'AI',
 	x: 'X',
+	xai: 'xAI',
+	openai: 'OpenAI',
 	youtube: 'YouTube',
 	linkedin: 'LinkedIn',
 	duckduckgo: 'DuckDuckGo',
@@ -97,6 +100,10 @@ export function formatAcquisitionSourceLabel(source: string): string {
 	}
 	if (channel === 'social') {
 		return formatBrand(detail);
+	}
+	if (channel === 'ai') {
+		if (detail === 'openai' || detail === 'xai') return formatBrand(detail);
+		return `${formatBrand(detail)} AI`;
 	}
 	if (channel === 'email') {
 		return `${formatBrand(detail)} Email`;

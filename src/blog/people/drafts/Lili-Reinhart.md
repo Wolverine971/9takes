@@ -4,12 +4,12 @@ meta_title: "The Real Reason Lili Reinhart Can't Look in the Mirror"
 persona_title: "Riverdale's Confessional Poet"
 description: "Lili Reinhart can articulate her pain better than most therapists can describe it. Why she still can't stand being in her own body, decoded through Enneagram Type 4."
 author: 'DJ Wayne'
-date: '2026-04-18'
+date: '2026-05-15'
 loc: 'https://9takes.com/personality-analysis/Lili-Reinhart'
-lastmod: '2026-04-18'
+lastmod: '2026-05-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['movieStar', 'author']
 person: 'Lili-Reinhart'

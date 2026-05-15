@@ -33,7 +33,7 @@ QUALITY_FEEDBACK_END -->
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
 </script>
 
-<QuickAnswer question="What were children of each Enneagram type like growing up?" answer="Each type developed their core pattern in childhood: Type 1s were little perfectionists and rule-keepers. Type 2s were young caretakers seeking love through helping. Type 3s were achievement-focused performers. Type 4s were tortured artists feeling misunderstood. Type 5s were curious observers who needed alone time. Type 6s were anxious questioners seeking safety. Type 7s were energetic adventurers avoiding pain. Type 8s were tiny warriors protecting themselves. Type 9s were peaceful mediators avoiding conflict.">
+<QuickAnswer question="What were children of each Enneagram type like growing up?">
 Your Enneagram type wasn't something you chose—it developed as an adaptive strategy in childhood to meet your emotional needs and protect you from pain. Understanding your childhood pattern reveals why you still operate the way you do.
 </QuickAnswer>
 

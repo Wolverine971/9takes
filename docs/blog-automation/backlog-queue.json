@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-05-13T06:06:48Z",
+	"lastUpdated": "2026-05-15T06:12:55Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "penelope-cruz",
-			"displayName": "Penélope Cruz",
-			"type": 4,
-			"priority": 79,
-			"priorityReason": "Ranker/Instagram beauty-list spike, Oscar-winning international prestige, and an expressive Type 4 artist analysis angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-05-06",
-			"retryCount": 0,
-			"strategicValue": "viral-beauty-list-hollywood-cluster"
-		},
 		{
 			"name": "paige-spiranac",
 			"displayName": "Paige Spiranac",
@@ -819,6 +806,28 @@
 			"contentGradeLetter": "A",
 			"duration": 13,
 			"draftPath": "src/blog/people/drafts/Salma-Hayek.md"
+		},
+		{
+			"name": "penelope-cruz",
+			"displayName": "Penélope Cruz",
+			"type": 4,
+			"priority": 79,
+			"priorityReason": "Ranker/Instagram beauty-list spike, Oscar-winning international prestige, and an expressive Type 4 artist analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-05-06",
+			"retryCount": 0,
+			"strategicValue": "viral-beauty-list-hollywood-cluster",
+			"startedAt": "2026-05-15T06:01:35Z",
+			"completedAt": "2026-05-15T06:12:55Z",
+			"contentGrade": 9.0,
+			"gradeLetter": "A",
+			"durationMinutes": 10,
+			"typeAtCreation": 6,
+			"typeInQueue": 4,
+			"typeCorrection": "Queue had Type 4; research/analysis pegged her as 6w7 (Self-Pres Six)",
+			"draftPath": "src/blog/people/drafts/Penelope-Cruz.md"
 		}
 	],
 	"inProgress": null,
