@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Tom-Hiddleston'
 suggestions: ['Chris-Hemsworth', 'Taylor-Swift', 'Tom-Holland', 'Timothee-Chalamet']
 wikipedia: 'https://en.wikipedia.org/wiki/Tom_Hiddleston'

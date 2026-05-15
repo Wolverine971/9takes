@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Salma-Hayek'
 suggestions: ['Frida-Kahlo', 'Jennifer-Lopez', 'Amy-Poehler', 'Rihanna']
 wikipedia: 'https://en.wikipedia.org/wiki/Salma_Hayek'

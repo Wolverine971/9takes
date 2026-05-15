@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
-type: ['tiktoker', 'influencer', 'celebrity']
+type: ['tiktoker', 'influencer', 'celebrity', 'celebrity-image', 'lifestyle-builder']
 person: 'Taylor-Frankie-Paul'
 suggestions: ['Alex-Cooper', 'Alix-Earle', 'Brittany-Broski', 'Benson-Boone']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Frankie_Paul'

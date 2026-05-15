@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Jennifer-Garner'
 suggestions: ['Meryl-Streep', 'Kristen-Bell', 'Ben-Affleck', 'Anne-Hathaway', 'Scarlett-Johansson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Garner'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
-type: ['historical']
+type: ['historical', 'historical-scientist']
 person: 'Marie-Curie'
 suggestions: ['Agatha-Christie', 'Leonardo-Da-Vinci', 'Bill-Gates', 'Friedrich-Nietzsche']
 wikipedia: 'https://en.wikipedia.org/wiki/Marie_Curie'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['historical']
+type: ['historical', 'movement-leader']
 person: 'Malcolm-X'
 suggestions: ['Martin-Luther-King-Jr', 'Abraham-Lincoln', 'Barack-Obama', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_X'

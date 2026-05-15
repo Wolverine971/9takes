@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'business-operator']
 person: 'John-McAfee'
 suggestions: ['Palmer-Luckey', 'Paul-Graham', 'Theo-Von', 'Mike-Majlak']
 wikipedia: 'https://en.wikipedia.org/wiki/John_McAfee'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['creator', 'tiktoker']
+type: ['creator', 'tiktoker', 'lifestyle-builder']
 person: 'Bella-Poarch'
 suggestions: ["Charli-D'Amelio", 'Addison-Rae', 'Emma-Chamberlain', 'Kylie-Jenner', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Bella_Poarch'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
-type: ['entrepreneur']
+type: ['entrepreneur', 'business-operator']
 person: 'Jamie-Dimon'
 suggestions: ['Jeff-Bezos', 'Alex-Karp', 'Reed-Hastings', 'Andrew-Ross-Sorkin']
 wikipedia: 'https://en.wikipedia.org/wiki/Jamie_Dimon'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['celebrity', 'movieStar', 'techie', 'entrepreneur']
+type: ['celebrity', 'movieStar', 'techie', 'entrepreneur', 'screen-icon', 'business-operator']
 person: 'Ashton-Kutcher'
 suggestions: ['Mila-Kunis', 'Steve-Jobs', 'Sam-Altman', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Ashton_Kutcher'

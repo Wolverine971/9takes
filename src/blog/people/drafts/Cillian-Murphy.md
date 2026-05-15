@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['celebrity']
+type: ['celebrity', 'screen-icon']
 person: 'Cillian-Murphy'
 suggestions: ['Robert-Oppenheimer', 'Tom-Hardy', 'Joaquin-Phoenix']
 wikipedia: 'https://en.wikipedia.org/wiki/Cillian_Murphy'

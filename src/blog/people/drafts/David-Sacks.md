@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['techie']
+type: ['techie', 'investor']
 person: 'David-Sacks'
 suggestions:
   ['Peter-Thiel', 'Elon-Musk', 'Jason-Calacanis', 'Chamath-Palihapitiya', 'David-Friedberg']

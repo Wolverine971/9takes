@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'Drake'
 suggestions: ['Kendrick-Lamar', 'Kanye', 'Travis-Scott', 'Post-Malone']
 wikipedia: ''

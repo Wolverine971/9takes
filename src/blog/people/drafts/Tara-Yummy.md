@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['creator', 'influencer']
+type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'Tara-Yummy'
 suggestions: ['Addison-Rae', 'Alix-Earle', 'Emma-Chamberlain', 'Paris-Hilton']
 wikipedia: ''

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'Jeff-Bezos'
 suggestions: ['Elon-Musk', 'Bill-Gates', 'Steve-Jobs', 'Sam-Altman', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeff_Bezos'

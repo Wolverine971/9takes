@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Chris-Hemsworth'
 suggestions: ['Tom-Holland', 'Scarlett-Johansson', 'Robert-Downey-Jr', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Chris_Hemsworth'

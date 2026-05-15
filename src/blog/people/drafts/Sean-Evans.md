@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'Sean-Evans'
 suggestions: ['Conan-OBrien', 'Joe-Rogan', 'David-Letterman', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'

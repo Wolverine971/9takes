@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['techie']
+type: ['techie', 'frontier-builder']
 person: 'Sam-Altman'
 suggestions: ['Paul-Graham', 'Elon-Musk', 'Peter-Thiel', 'Jason-Calacanis', 'Palmer-Luckey']
 wikipedia: 'https://en.wikipedia.org/wiki/Sam_Altman'

@@ -1,7 +1,7 @@
 ---
 title: 'Bella Hadid: The Face She Cut Before She Knew Whose It Was'
 persona_title: "Fashion's Erased Daughter"
-meta_title: 'Why Bella Hadid Built an Identity Out of the Nose She Erased at 14'
+meta_title: 'Bella Hadid Enneagram Type 4: Identity, Beauty, and Loss'
 description: "Bella Hadid altered the nose her Palestinian father's family left behind, then spent a decade trying to rebuild what she'd cut. The Type 4 wound is the brand."
 author: 'DJ Wayne'
 date: '2025-06-25'
@@ -11,13 +11,53 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['lifestyleInfluencer']
+type: ['lifestyleInfluencer', 'lifestyle-builder']
 person: 'Bella-Hadid'
 suggestions: ['Billie-Eilish', 'Hailey-Bieber', 'Selena-Gomez', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Bella_Hadid'
 twitter: 'bellahadid'
 instagram: 'bellahadid'
 tiktok: 'bellahadid'
+keywords:
+  - Bella Hadid Enneagram
+  - Bella Hadid psychology
+  - Enneagram Type 4
+  - Palestinian American model
+  - fashion identity
+same_as:
+  - https://en.wikipedia.org/wiki/Bella_Hadid
+  - https://www.wikidata.org/wiki/Q21286612
+  - https://www.instagram.com/bellahadid/
+  - https://www.tiktok.com/@bellahadid
+wikidata_qid: Q21286612
+imdb_id: nm7440414
+birth_date: '1996-10-09'
+birth_place: 'Washington, D.C., United States'
+nationality:
+  - American
+occupation:
+  - model
+  - entrepreneur
+knows_about:
+  - fashion
+  - modeling
+  - Palestinian identity
+  - beauty branding
+citations:
+  - https://en.wikipedia.org/wiki/Bella_Hadid
+  - https://www.wikidata.org/wiki/Q21286612
+  - https://www.vogue.com/article/bella-hadid-cover-april-2022
+  - https://www.vogue.co.uk/article/bella-hadid-british-vogue-interview/
+faqs:
+  - question: "What is Bella Hadid's Enneagram type?"
+    answer: "The article argues Bella Hadid is an Enneagram Type 4 with a 3 wing. The typing centers on identity-by-contrast, the public grief around her altered nose, and the way achievement made the wound more visible instead of making it disappear."
+    anchor: what-is-bella-hadids-personality-type
+  - question: 'Why is Bella Hadid analyzed as a 4w3?'
+    answer: "The Four explains the longing for a coherent identity; the Three wing explains the runway, brand, and public-performance machinery. She turns private alienation into a visible aesthetic and career engine."
+    anchor: bella-hadids-wing-4w3
+  - question: 'Why does the article focus so much on her nose job?'
+    answer: "The nose job is treated as the central psychological symbol because Hadid later described it as losing the nose of her ancestors. The article reads that regret as the beginning of her public search for identity, heritage, and self-definition."
+    anchor: the-nose-she-cut-before-she-knew-whose-it-was
 path: src/blog/people/drafts/Bella-Hadid.md
 content_quality:
   hook: 9

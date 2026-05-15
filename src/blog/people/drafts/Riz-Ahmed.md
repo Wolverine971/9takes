@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['movieStar', 'musician']
+type: ['movieStar', 'musician', 'screen-icon']
 person: 'Riz-Ahmed'
 suggestions: ['Dev-Patel', 'Mahershala-Ali', 'Hasan-Minhaj', 'Kumail-Nanjiani']
 wikipedia: 'https://en.wikipedia.org/wiki/Riz_Ahmed'

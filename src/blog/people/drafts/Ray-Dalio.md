@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['entrepreneur', 'author']
+type: ['entrepreneur', 'author', 'business-operator']
 person: 'Ray-Dalio'
 suggestions: ['Bill-Gates', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Ray_Dalio'

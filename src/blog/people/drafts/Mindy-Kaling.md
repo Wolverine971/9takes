@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['celebrity', 'comedian']
+type: ['celebrity', 'comedian', 'tv-comedy-crossover', 'sketch-comic']
 person: 'Mindy-Kaling'
 suggestions: ['Tina-Fey', 'Amy-Poehler', 'Oprah-Winfrey', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Mindy_Kaling'

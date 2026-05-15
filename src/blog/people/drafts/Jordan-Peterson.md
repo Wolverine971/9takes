@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['psychology']
+type: ['psychology', 'strategy-writer']
 person: 'Jordan-Peterson'
 suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Andrew-Tate', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jordan_Peterson'

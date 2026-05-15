@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
-type: ['creator']
+type: ['creator', 'news-commentator']
 person: 'Krystal-Ball'
 suggestions: ['Alexandria-Ocasio-Cortez', 'Saagar-Enjeti', 'Tucker-Carlson', 'Ryan-Grim']
 wikipedia: 'https://en.wikipedia.org/wiki/Krystal_Ball'

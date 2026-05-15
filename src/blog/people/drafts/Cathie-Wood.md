@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['entrepreneur', 'techie']
+type: ['entrepreneur', 'techie', 'business-operator']
 person: 'Cathie-Wood'
 suggestions: ['Reid-Hoffman', 'Chamath-Palihapitiya', 'Ben-Horowitz', 'David-Sacks']
 wikipedia: 'https://en.wikipedia.org/wiki/Cathie_Wood'

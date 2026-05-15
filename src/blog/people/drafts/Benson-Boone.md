@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['musician']
+type: ['musician', 'singer-songwriter']
 person: 'Benson-Boone'
 suggestions: ['Olivia-Rodrigo', 'Sabrina-Carpenter', 'Harry-Styles', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Benson_Boone'

@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Matthew-McConaughey'
 suggestions: ['Keanu-Reeves', 'Brad-Pitt', 'Ryan-Gosling', 'Leonardo-DiCaprio']
 wikipedia: 'https://en.wikipedia.org/wiki/Matthew_McConaughey'

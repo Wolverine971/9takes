@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram:
-type: ['celebrity', 'actor']
+type: ['celebrity', 'movieStar', 'screen-icon']
 person: 'Anthony-Hopkins'
 suggestions: []
 wikipedia: 'https://en.wikipedia.org/wiki/Anthony_Hopkins'

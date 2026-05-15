@@ -1,6 +1,6 @@
 ---
 title: 'Alex Hormozi: The Psychology Behind His $100M Obsession'
-meta_title: 'Why Alex Hormozi Treats Output Like Self-Worth'
+meta_title: 'Alex Hormozi Enneagram Type 3: Output as Self-Worth'
 persona_title: 'The Acquisition Architect'
 description: 'Alex Hormozi runs on discipline, repetition, and relentless output, turning self-optimization into a $100M empire and a never-ending test of worth.'
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['entrepreneur']
+type: ['entrepreneur', 'business-operator']
 person: 'Alex-Hormozi'
 suggestions: ['Patrick-Bet-David', 'Sam-Parr', 'Tony-Robbins', 'Gary-Vee', 'Leila-Hormozi']
 wikipedia: ''
@@ -28,6 +28,22 @@ content_quality:
   overall: 9.2
   letter: A
   graded_at: '2026-02-19'
+keywords:
+  - 'Alex Hormozi Enneagram'
+  - 'Alex Hormozi personality type'
+  - 'Alex Hormozi Type 3'
+  - '100M Offers psychology'
+  - 'Alex and Leila Hormozi'
+faqs:
+  - question: "What is Alex Hormozi's Enneagram type?"
+    answer: "Alex Hormozi reads as an Enneagram Type 3 with a strong 8 wing. The article argues that his discipline, output obsession, public scorekeeping, and repeated framing of achievement as proof of worth fit the Achiever pattern more than a pure Challenger or Reformer profile."
+    anchor: 'what-is-alex-hormozis-personality-type'
+  - question: 'Why is Alex Hormozi typed as a 3 and not an 8?'
+    answer: "Hormozi has obvious 8 traits: bluntness, confrontation, and appetite for control. But the deeper engine is Type 3: achievement as identity, measurable output as reassurance, and a lifelong attempt to convert insecurity into visible proof. The 8 wing explains the force; Type 3 explains the need to win."
+    anchor: 'why-type-3-and-not-type-8-or-type-1'
+  - question: "How does Leila Hormozi fit into Alex Hormozi's psychology?"
+    answer: "The piece treats Leila Hormozi as more than a spouse or business partner. She is the relational counterweight to Alex's achievement machine: the person who sees the cost of the output obsession and helps turn raw ambition into a durable operating system."
+    anchor: 'the-partnership-behind-the-achievements'
 ---
 
 > "Volume negates luck."

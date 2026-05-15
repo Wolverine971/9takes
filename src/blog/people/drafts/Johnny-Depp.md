@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Johnny-Depp'
 suggestions: ['Joaquin-Phoenix', 'Jared-Leto', 'Lady-Gaga', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Johnny_Depp'

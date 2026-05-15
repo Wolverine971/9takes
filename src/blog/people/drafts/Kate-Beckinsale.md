@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Kate-Beckinsale'
 suggestions: ['Robin-Williams', 'Kevin-Hart', 'Hugh-Jackman', 'Salma-Hayek']
 wikipedia: 'https://en.wikipedia.org/wiki/Kate_Beckinsale'

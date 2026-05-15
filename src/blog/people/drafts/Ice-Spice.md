@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Ice-Spice'
 suggestions: ['Jennifer-Lopez', 'Taylor-Swift', 'Drake', 'Doja-Cat']
 wikipedia: 'https://en.wikipedia.org/wiki/Ice_Spice'

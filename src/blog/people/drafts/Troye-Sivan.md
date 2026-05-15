@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Troye-Sivan'
 suggestions: ['Billie-Eilish', 'Harry-Styles', 'Charli-XCX', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Troye_Sivan'

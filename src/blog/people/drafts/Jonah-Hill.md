@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar', 'comedian']
+type: ['movieStar', 'comedian', 'screen-icon']
 person: 'Jonah-Hill'
 suggestions: ['Ben-Affleck', 'Will-Smith', 'Paris-Hilton', 'Miles-Teller']
 wikipedia: 'https://en.wikipedia.org/wiki/Jonah_Hill'

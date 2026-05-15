@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['entrepreneur']
+type: ['entrepreneur', 'business-operator']
 person: 'Bob-Iger'
 suggestions: ['Steve-Jobs', 'Tim-Cook', 'Jeff-Bezos', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Bob_Iger'

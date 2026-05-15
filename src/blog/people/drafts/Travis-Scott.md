@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'Travis-Scott'
 suggestions: ['Kanye', 'Drake', 'Kylie-Jenner', 'Kendrick-Lamar']
 wikipedia: 'https://en.wikipedia.org/wiki/Travis_Scott'

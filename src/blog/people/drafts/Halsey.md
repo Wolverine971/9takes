@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['musician']
+type: ['musician', 'alternative-artist']
 person: 'Halsey'
 suggestions: ['Chappell-Roan', 'Billie-Eilish', 'Rihanna', 'Lady-Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Halsey_(singer)'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'frontier-builder']
 person: 'Dario-Amodei'
 suggestions: ['Sam-Altman', 'Alex-Karp', 'David-Sacks', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Dario_Amodei'

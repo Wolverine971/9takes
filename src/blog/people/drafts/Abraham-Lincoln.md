@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['historical', 'politician']
+type: ['historical', 'politician', 'historical-leader']
 person: 'Abraham-Lincoln'
 suggestions: ['Martin-Luther-King-Jr', 'Barack-Obama', 'Ronald-Reagan', 'John-F-Kennedy']
 wikipedia: 'https://en.wikipedia.org/wiki/Abraham_Lincoln'

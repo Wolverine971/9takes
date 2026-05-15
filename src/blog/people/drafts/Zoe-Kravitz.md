@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Zoe-Kravitz'
 suggestions: ['Robert-Pattinson', 'Harry-Styles', 'Natalie-Portman', 'Rihanna']
 wikipedia: 'https://en.wikipedia.org/wiki/Zo%C3%AB_Kravitz'

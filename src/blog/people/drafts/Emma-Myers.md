@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['newMovieStar', 'celebrity']
+type: ['newMovieStar', 'celebrity', 'rising-star']
 person: 'Emma-Myers'
 suggestions: ['Jenna-Ortega', 'Millie-Bobby-Brown', 'Olivia-Rodrigo', 'Jennifer-Garner']
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Myers'

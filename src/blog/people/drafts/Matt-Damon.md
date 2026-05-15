@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Matt-Damon'
 suggestions: ['Ben-Affleck', 'Leonardo-DiCaprio', 'Natalie-Portman', 'Tom-Hanks']
 wikipedia: 'https://en.wikipedia.org/wiki/Matt_Damon'

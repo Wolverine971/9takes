@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '1'
-type: ['celebrity', 'entrepreneur']
+type: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator']
 person: 'Anna-Wintour'
 suggestions: ['Blake-Lively', 'Hillary-Clinton', 'Tim-Cook', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Anna_Wintour'

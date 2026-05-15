@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Jennifer-Aniston'
 suggestions: ['keanu-reeves', 'scarlett-johansson', 'brad-pitt', 'natalie-portman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Aniston'

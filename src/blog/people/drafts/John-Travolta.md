@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'John-Travolta'
 suggestions: ['Tom-Cruise', 'Arnold-Schwarzenegger', 'Paris-Hilton', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Travolta'

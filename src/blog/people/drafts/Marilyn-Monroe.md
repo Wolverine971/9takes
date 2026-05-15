@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Marilyn-Monroe'
 suggestions: ['Jackie-Kennedy', 'Princess-Diana', 'Paris-Hilton', 'Scarlett-Johansson']
 wikipedia: 'https://en.wikipedia.org/wiki/Marilyn_Monroe'

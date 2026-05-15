@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['celebrity', 'musician', 'movieStar']
+type: ['celebrity', 'musician', 'movieStar', 'screen-icon', 'music-crossover']
 person: 'Jennifer-Lopez'
 suggestions: ['Kim-Kardashian', 'Paris-Hilton', 'Taylor-Swift', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Lopez'

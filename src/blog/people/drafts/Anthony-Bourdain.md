@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['celebrity', 'author']
+type: ['celebrity', 'author', 'celebrity-image']
 person: 'Anthony-Bourdain'
 suggestions: ['Theo-Von', 'Kevin-Hart', 'Andrew-Callaghan', 'Robin-Williams']
 wikipedia: 'https://en.wikipedia.org/wiki/Anthony_Bourdain'

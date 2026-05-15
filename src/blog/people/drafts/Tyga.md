@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Tyga'
 suggestions: ['Drake', 'Kylie-Jenner', 'Kendrick-Lamar', 'Kim-Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyga'

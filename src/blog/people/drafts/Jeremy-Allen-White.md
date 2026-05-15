@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['newMovieStar', 'movieStar']
+type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'Jeremy-Allen-White'
 suggestions: ['Timothee-Chalamet', 'Paul-Mescal', 'Adam-Driver', 'Austin-Butler']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeremy_Allen_White'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['techie', 'author']
+type: ['techie', 'author', 'tech-interpreter', 'business-interpreter']
 person: 'Kara-Swisher'
 suggestions: ['Scott-Galloway', 'Peter-Thiel', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Kara_Swisher'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['celebrity', 'movieStar']
+type: ['celebrity', 'movieStar', 'screen-icon']
 person: 'Pamela-Anderson'
 suggestions: ['Paris-Hilton', 'Marilyn-Monroe', 'Kim-Kardashian', 'Kate-Hudson']
 wikipedia: 'https://en.wikipedia.org/wiki/Pamela_Anderson'

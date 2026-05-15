@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Rihanna'
 suggestions: ['Beyonce-Knowles', 'Lady-Gaga', 'Dua-Lipa', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Rihanna'

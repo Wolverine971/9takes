@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram:
-type: ['creator', 'influencer']
+type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'Nelk-Boys'
 suggestions: []
 wikipedia: 'https://en.wikipedia.org/wiki/Nelk'

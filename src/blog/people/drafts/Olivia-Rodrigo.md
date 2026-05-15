@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Olivia-Rodrigo'
 suggestions: ['Taylor Swift', 'Billie Eilish', 'Sabrina Carpenter', 'Chappell Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Rodrigo'

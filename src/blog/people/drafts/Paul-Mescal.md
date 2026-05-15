@@ -1,6 +1,6 @@
 ---
-title: 'Paul Mescal: An In-Depth Enneagram Type 4 Analysis'
-meta_title: "Paul Mescal's Hidden Fear: The Tears He Can't Turn Off"
+title: 'Paul Mescal: The Private Actor Who Turns Grief Into Range'
+meta_title: 'Paul Mescal Enneagram Type 4: Fame, Privacy, and Grief'
 persona_title: "Cinema's Guarded Romantic"
 description: "Why does Paul Mescal delete Instagram while building a career on emotional nakedness? An Enneagram Type 4 analysis of cinema's most guarded romantic."
 author: 'DJ Wayne'
@@ -11,13 +11,36 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['movieStar', 'newMovieStar']
+type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'Paul-Mescal'
 suggestions: ['Jacob-Elordi', 'Saoirse-Ronan', 'Robert-Pattinson', 'Oscar-Isaac']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Mescal'
 twitter: ''
 instagram: ''
 tiktok: ''
+same_as:
+  - https://en.wikipedia.org/wiki/Paul_Mescal
+  - https://www.wikidata.org/wiki/Q73367368
+  - https://www.imdb.com/name/nm8958770/
+wikidata_qid: Q73367368
+imdb_id: nm8958770
+birth_date: '1996-02-02'
+birth_place: 'Maynooth, County Kildare, Ireland'
+nationality:
+  - Irish
+occupation:
+  - actor
+knows_about:
+  - film acting
+  - stage acting
+  - Normal People
+  - privacy
+  - grief in performance
+citations:
+  - https://en.wikipedia.org/wiki/Paul_Mescal
+  - https://www.wikidata.org/wiki/Q73367368
+  - https://www.imdb.com/name/nm8958770/
+  - https://www.britannica.com/biography/Paul-Mescal
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -39,6 +62,22 @@ content_quality:
   overall: 8.9
   letter: 'B+'
   graded_at: '2026-04-23'
+keywords:
+  - 'Paul Mescal Enneagram'
+  - 'Paul Mescal personality type'
+  - 'Paul Mescal Type 4'
+  - 'Paul Mescal privacy'
+  - 'Normal People personality analysis'
+faqs:
+  - question: "What is Paul Mescal's Enneagram type?"
+    answer: "Paul Mescal reads as an Enneagram Type 4 with a 5 wing. The article connects his pull toward grief-heavy roles, discomfort with fame, guarded private life, and precise craft language to a Four who wants to be deeply seen without being consumed."
+    anchor: 'what-is-paul-mescals-personality-type'
+  - question: 'Why did Paul Mescal delete Instagram?'
+    answer: "The piece argues that Instagram made Mescal feel like a product at the exact moment his work depended on protecting mystery and emotional access. For a Type 4 with a 5 wing, deleting the feed becomes custody over the inner life that powers the work."
+    anchor: 'why-paul-mescal-deleted-instagram'
+  - question: 'Why does Paul Mescal choose so many grief-heavy roles?'
+    answer: "Mescal's strongest performances often live near loss: Normal People, Aftersun, All of Us Strangers, Hamnet, and even the public answer to the sad-boy label. The article frames that as Type 4 access to longing, not simply career branding."
+    anchor: 'how-paul-mescal-turned-grief-into-his-range'
 path: src/blog/people/drafts/Paul-Mescal.md
 ---
 
@@ -178,7 +217,7 @@ To <em>The Guardian</em>: "I just don't think it's particularly useful for peopl
 
 To the press after <em>Gladiator II</em>: the pressure to post trailers and photoshoots made him feel "a commodity."
 
-The context he will not supply: in 2022 he was reportedly engaged to the musician Phoebe Bridgers. The relationship ended that same year, in public, in the tabloids. Since then the rule has been no names. He is reportedly dating the singer Gracie Abrams now. He will not confirm it on the record. He is the subject of paparazzi pictures he has not posed for and would rather not have. "You don't want an audience to know you innately," he said once about acting. The rule has generalized.
+The context he will not supply: in 2022 he was reportedly engaged to the musician Phoebe Bridgers. The relationship ended that same year, in public, in the tabloids. Since then the rule has been no names. He is reportedly dating the singer [Gracie Abrams](/personality-analysis/Gracie-Abrams) now. He will not confirm it on the record. He is the subject of paparazzi pictures he has not posed for and would rather not have. "You don't want an audience to know you innately," he said once about acting. The rule has generalized.
 
 Two things are being said at once. The feed made him feel like a product, and acting depends on the audience not knowing you too well. The shape is Type Four with a 5 wing doing withdrawal as self-care. The withdrawal is not aloofness. It is custody. He is guarding the inner life that his craft sets on fire every time he says yes to a project.
 
@@ -363,4 +402,3 @@ PRIORITY FIXES:
 3. Cut "cannot coexist" repetition to two strongest placements. The cold open and one body callback. The closer doesn't need it because it earns the same idea differently.
 
 ============================================================ -->
-

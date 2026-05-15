@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['historical']
+type: ['historical', 'historical-leader']
 person: 'Julius-Caesar'
 suggestions: ['Napoleon-Bonaparte', 'Joseph-Stalin', 'Abraham-Lincoln', 'Winston-Churchill']
 wikipedia: 'https://en.wikipedia.org/wiki/Julius_Caesar'

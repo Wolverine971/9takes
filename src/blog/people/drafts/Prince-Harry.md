@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['politician']
+type: ['politician', 'royalty']
 person: 'Prince-Harry'
 suggestions: ['Meghan-Markle', 'Princess-Diana', 'Hillary-Clinton', 'Joe-Biden', 'Oprah-Winfrey']
 wikipedia: ''

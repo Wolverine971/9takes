@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.8'
 published: true
 enneagram: 3
-type: ['musician', 'entrepreneur', 'cultural icon']
+type: ['musician', 'entrepreneur', 'pop-star', 'business-operator']
 person: 'Taylor-Swift'
 suggestions:
   ['Kim-Kardashian', 'Ariana-Grande', 'Sabrina-Carpenter', 'Olivia-Rodrigo', 'Tom-Cruise']

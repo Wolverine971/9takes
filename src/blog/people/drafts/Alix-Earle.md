@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['influencer', 'creator']
+type: ['influencer', 'creator', 'lifestyle-builder']
 person: 'Alix-Earle'
 suggestions: ['Alex-Cooper', 'Emma-Chamberlain', 'Hailey-Bieber', 'Addison-Rae']
 wikipedia: 'https://en.wikipedia.org/wiki/Alix_Earle'

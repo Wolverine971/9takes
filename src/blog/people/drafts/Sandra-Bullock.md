@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Sandra-Bullock'
 suggestions: ['Keanu-Reeves', 'Jennifer-Aniston', 'Nicole-Kidman', 'Margot-Robbie']
 wikipedia: 'https://en.wikipedia.org/wiki/Sandra_Bullock'

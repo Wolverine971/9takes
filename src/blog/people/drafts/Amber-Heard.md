@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity']
+type: ['celebrity', 'screen-icon']
 person: 'Amber-Heard'
 suggestions: ['Johnny-Depp', 'Margot-Robbie', 'Blake-Lively', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Amber_Heard'

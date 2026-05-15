@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Kendall-Jenner'
 suggestions: ['Kylie-Jenner', 'Gigi-Hadid', 'Kim-Kardashian', 'Hailey-Bieber', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Kendall_Jenner'

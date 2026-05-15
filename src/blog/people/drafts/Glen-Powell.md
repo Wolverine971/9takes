@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Glen-Powell'
 suggestions: ['tom-cruise', 'sydney-sweeney', 'miles-teller', 'arnold-schwarzenegger']
 wikipedia: 'https://en.wikipedia.org/wiki/Glen_Powell'

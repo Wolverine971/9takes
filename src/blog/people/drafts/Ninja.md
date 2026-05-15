@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['creator', 'celebrity']
+type: ['creator', 'celebrity', 'celebrity-image']
 person: 'Ninja'
 suggestions: ['Pokimane', 'xQc', 'Kai-Cenat', 'iShowSpeed']
 wikipedia: 'https://en.wikipedia.org/wiki/Ninja_(gamer)'

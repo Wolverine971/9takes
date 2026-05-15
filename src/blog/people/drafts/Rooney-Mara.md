@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Rooney-Mara'
 suggestions: ['Cillian-Murphy', 'Joaquin-Phoenix', 'Jacob-Elordi', 'Saoirse-Ronan']
 wikipedia: 'https://en.wikipedia.org/wiki/Rooney_Mara'

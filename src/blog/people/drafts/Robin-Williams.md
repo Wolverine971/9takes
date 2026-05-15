@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['comedian', 'movieStar']
+type: ['comedian', 'movieStar', 'screen-icon']
 person: 'Robin-Williams'
 suggestions: ['Matt-Damon', 'Jack-Black', 'Tom-Holland', 'Brittany-Broski']
 wikipedia: 'https://en.wikipedia.org/wiki/Robin_Williams'

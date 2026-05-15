@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Samuel-L-Jackson'
 suggestions: ['Denzel-Washington', 'Morgan-Freeman', 'Tom-Hardy', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Samuel_L._Jackson'

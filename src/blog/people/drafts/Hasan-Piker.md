@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
-type: ['creator']
+type: ['creator', 'news-commentator']
 person: 'Hasan-Piker'
 suggestions: ['Taylor-Lorenz', 'Joe-Rogan', 'Alexandria-Ocasio-Cortez', 'Pokimane']
 wikipedia: 'https://en.wikipedia.org/wiki/Hasan_Piker'

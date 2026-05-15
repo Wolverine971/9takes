@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['author']
+type: ['author', 'novelist']
 person: 'George-RR-Martin'
 suggestions: ['Agatha-Christie', 'Elon-Musk', 'Lex-Fridman', 'Bill-Gates']
 wikipedia: 'https://en.wikipedia.org/wiki/George_R._R._Martin'

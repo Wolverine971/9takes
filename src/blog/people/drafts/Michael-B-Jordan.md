@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['newMovieStar']
+type: ['newMovieStar', 'rising-star']
 person: 'Michael-B-Jordan'
 suggestions: ['Will-Smith', 'Dwayne-Johnson', 'Tom-Cruise', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Michael_B._Jordan'

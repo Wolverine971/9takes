@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['politician']
+type: ['politician', 'movement-leader']
 person: 'Martin-Luther-King-Jr'
 suggestions:
   ['Barack-Obama', 'Malcolm-X', 'Winston-Churchill', 'Alexandria-Ocasio-Cortez', 'Joe-Biden']

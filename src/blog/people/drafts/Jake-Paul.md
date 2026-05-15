@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'Jake-Paul'
 suggestions: ['Logan-Paul', 'Conor-McGregor', 'Alex-Hormozi', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Paul'

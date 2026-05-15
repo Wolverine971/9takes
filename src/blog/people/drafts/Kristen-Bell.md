@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Kristen-Bell'
 suggestions: ['Jennifer-Garner', 'Anne-Hathaway', 'Meghan-Markle', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Kristen_Bell'

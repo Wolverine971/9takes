@@ -1,6 +1,6 @@
 ---
 title: 'Dave Chappelle: The Peacekeeper Who Keeps Starting Wars'
-meta_title: 'The Real Reason Dave Chappelle Walked Away From Everything'
+meta_title: 'Dave Chappelle Enneagram Type 9: Peace, Conflict, and Exit'
 persona_title: "Comedy's Reluctant Lion"
 description: 'Dave Chappelle keeps building sanctuaries and then setting them on fire, turning withdrawal, conflict, and moral authority into the same pattern.'
 author: 'DJ Wayne'
@@ -11,13 +11,54 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['comedian', 'celebrity']
+type: ['comedian', 'celebrity', 'tv-comedy-crossover', 'stand-up']
 person: 'Dave-Chappelle'
 suggestions: ['Kevin-Hart', 'Eddie-Murphy', 'Caleb-Hearon', 'Keke-Palmer', 'Jon-Stewart']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Chappelle'
 twitter: 'davechappelle'
 instagram: 'davechappelle'
 tiktok:
+keywords:
+  - Dave Chappelle Enneagram
+  - Dave Chappelle psychology
+  - Enneagram Type 9
+  - Chappelle Show
+  - Yellow Springs
+same_as:
+  - https://en.wikipedia.org/wiki/Dave_Chappelle
+  - https://www.wikidata.org/wiki/Q40321
+  - https://www.instagram.com/davechappelle/
+wikidata_qid: Q40321
+imdb_id: nm0152638
+birth_date: '1973-08-24'
+birth_place: 'Washington, D.C., United States'
+nationality:
+  - American
+occupation:
+  - comedian
+  - actor
+  - writer
+  - producer
+knows_about:
+  - stand-up comedy
+  - sketch comedy
+  - social satire
+  - Yellow Springs
+citations:
+  - https://en.wikipedia.org/wiki/Dave_Chappelle
+  - https://www.wikidata.org/wiki/Q40321
+  - https://www.britannica.com/biography/Dave-Chappelle
+  - https://www.imdb.com/name/nm0152638/
+faqs:
+  - question: "What is Dave Chappelle's Enneagram type?"
+    answer: "The article types Dave Chappelle as an Enneagram Type 9. It argues that his career is shaped by a search for peace, a low tolerance for environments that feel false, and a habit of exiting when the pressure becomes too loud."
+    anchor: what-is-dave-chappelles-personality-type
+  - question: 'Why did Dave Chappelle walk away from Chappelle Show?'
+    answer: "In the Type 9 reading, the exit was not just rebellion or fear. It was a gut-level refusal to stay inside an environment that no longer felt aligned with his own internal price for success."
+    anchor: the-laugh-that-made-him-walk-away
+  - question: 'Why does the article call Chappelle a peacekeeper who starts wars?'
+    answer: "The tension is that Chappelle seeks sanctuary, privacy, and quiet, but his comedy repeatedly places him inside cultural conflicts. The article reads that contradiction as a Type 9 pattern: peace pursued through withdrawal, resistance, and sudden hard lines."
+    anchor: why-the-sanctuary-never-stays-peaceful
 path: src/blog/people/drafts/Dave-Chappelle.md
 content_quality:
   hook: 9

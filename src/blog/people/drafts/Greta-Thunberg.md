@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['activist']
+type: ['activist', 'movement-leader']
 person: 'Greta-Thunberg'
 suggestions: ['Emma-Watson', 'Hillary-Clinton', 'Jordan-Peterson', 'Steve-Jobs']
 wikipedia: 'https://en.wikipedia.org/wiki/Greta_Thunberg'

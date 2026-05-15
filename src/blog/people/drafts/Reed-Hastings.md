@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'Reed-Hastings'
 suggestions: ['Jeff-Bezos', 'Elon-Musk', 'Steve-Jobs', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Reed_Hastings'

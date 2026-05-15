@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Harrison-Ford'
 suggestions: ['Matt-Damon', 'Meryl-Streep', 'Hugh-Jackman', 'Morgan-Freeman']
 wikipedia: 'https://en.wikipedia.org/wiki/Harrison_Ford'

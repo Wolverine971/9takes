@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['politician']
+type: ['politician', 'campaign-politician']
 person: 'Hillary-Clinton'
 suggestions:
   ['Bill-Clinton', 'Donald-Trump', 'Barack-Obama', 'Joe-Biden', 'Bernie-Sanders', 'Kamala-Harris']

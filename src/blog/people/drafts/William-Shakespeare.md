@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram:
-type: ['historical', 'writer']
+type: ['historical', 'author']
 person: 'William-Shakespeare'
 suggestions: []
 wikipedia: 'https://en.wikipedia.org/wiki/William_Shakespeare'

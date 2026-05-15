@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['celebrity', 'movieStar', 'comedian']
+type: ['celebrity', 'movieStar', 'comedian', 'screen-icon']
 person: 'Steve-Carell'
 suggestions: ['Jon-Stewart', 'Stephen-Colbert', 'Paul-Rudd', 'Keanu-Reeves', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Steve_Carell'

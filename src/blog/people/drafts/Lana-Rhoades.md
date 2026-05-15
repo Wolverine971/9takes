@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['influencer', 'creator']
+type: ['influencer', 'creator', 'lifestyle-builder']
 person: 'Lana-Rhoades'
 suggestions: ['Mike-Majlak', 'Sky-Bri', 'Addison-Rae', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Lana_Rhoades'

@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'Bill-Gates'
 persona_title: 'The World-Scale Problem Solver'
 suggestions: ['Steve-Jobs', 'Mark-Zuckerberg', 'Elon-Musk', 'Jeff-Bezos']

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'Logan-Paul'
 suggestions: ['Jake-Paul', 'Kai-Cenat', 'IShowSpeed', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/Logan_Paul'

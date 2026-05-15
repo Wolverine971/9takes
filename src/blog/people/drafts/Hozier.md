@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'singer-songwriter']
 person: 'Hozier'
 suggestions: ['Billie-Eilish', 'Bob-Dylan', 'Lana-Del-Rey', 'Halsey']
 wikipedia: 'https://en.wikipedia.org/wiki/Hozier_(musician)'

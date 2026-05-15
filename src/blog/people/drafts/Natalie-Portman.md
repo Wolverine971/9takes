@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Natalie-Portman'
 suggestions: ['Emma-Watson', 'Blake-Lively', 'Margot-Robbie', 'Gwyneth-Paltrow']
 wikipedia: 'https://en.wikipedia.org/wiki/Natalie_Portman'

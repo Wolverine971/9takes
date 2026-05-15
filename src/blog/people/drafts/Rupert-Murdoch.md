@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['entrepreneur', 'celebrity']
+type: ['entrepreneur', 'celebrity', 'celebrity-image', 'business-operator']
 person: 'Rupert-Murdoch'
 suggestions: ['Donald-Trump', 'Jeff-Bezos', 'Vladimir-Putin', 'Winston-Churchill']
 wikipedia: 'https://en.wikipedia.org/wiki/Rupert_Murdoch'

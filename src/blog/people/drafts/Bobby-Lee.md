@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['comedian', 'creator']
+type: ['comedian', 'creator', 'podcaster']
 person: 'Bobby-Lee'
 suggestions: ['Theo-Von', 'Joe-Rogan', 'Dax-Shepard', 'Pete-Davidson']
 wikipedia: 'https://en.wikipedia.org/wiki/Bobby_Lee'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['politician']
+type: ['politician', 'campaign-politician']
 person: 'JD-Vance'
 suggestions: ['Donald-Trump', 'Peter-Thiel', 'Tucker-Carlson', 'Gavin-Newsom']
 wikipedia: 'https://en.wikipedia.org/wiki/JD_Vance'

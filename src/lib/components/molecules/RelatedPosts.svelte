@@ -21,10 +21,12 @@
 	export let slug: string;
 	export let postTypes: string[] = [];
 	export let enneagramType: string | null = null;
+	export let initialSameNichePosts: RelatedPostCard[] = [];
+	export let initialSameEnneagramPosts: RelatedPostCard[] = [];
 
-	let loading = true;
-	let sameNichePosts: RelatedPostCard[] = [];
-	let sameEnneagramPosts: RelatedPostCard[] = [];
+	let loading = initialSameNichePosts.length === 0 && initialSameEnneagramPosts.length === 0;
+	let sameNichePosts: RelatedPostCard[] = initialSameNichePosts;
+	let sameEnneagramPosts: RelatedPostCard[] = initialSameEnneagramPosts;
 	let error: string | null = null;
 
 	// For responsive layout
@@ -36,6 +38,8 @@
 	}
 
 	onMount(async () => {
+		if (!loading) return;
+
 		try {
 			// Create the form data for the request
 			const formData = new FormData();

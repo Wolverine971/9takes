@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Naomi-Osaka'
 suggestions: ['Beyonce-Knowles', 'Taylor-Swift', 'Ariana-Grande', 'Emma-Chamberlain']
 wikipedia: 'https://en.wikipedia.org/wiki/Naomi_Osaka'

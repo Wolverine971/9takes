@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['politician']
+type: ['politician', 'political-spouse']
 person: 'Michelle-Obama'
 suggestions: ['Barack-Obama', 'Hillary-Clinton', 'Oprah-Winfrey', 'Kamala-Harris']
 wikipedia: 'https://en.wikipedia.org/wiki/Michelle_Obama'

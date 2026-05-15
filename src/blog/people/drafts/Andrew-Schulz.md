@@ -1,7 +1,7 @@
 ---
 title: "Andrew Schulz: The Psychology Behind Comedy's Most Fearless Entrepreneur"
 persona_title: "Comedy's Freedom Addict"
-meta_title: "Why Andrew Schulz Can't Stop Fighting the System (It's Not Just Ego)"
+meta_title: 'Andrew Schulz Enneagram Type 7: Freedom, Comedy, Control'
 description: 'Amazon told Andrew Schulz to cut jokes. He spent his life savings buying the special back and made 3x more. Inside the psychology of never being controlled.'
 author: 'DJ Wayne'
 date: '2026-01-07'
@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['comedian']
+type: ['comedian', 'stand-up']
 person: 'Andrew-Schulz'
 suggestions: ['Joe-Rogan', 'Theo-Von', 'Tim-Dillon', 'Shane-Gillis', 'Dave-Chappelle', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Schulz'
@@ -28,6 +28,22 @@ content_quality:
   overall: 8.0
   letter: B
   graded_at: '2026-02-18'
+keywords:
+  - 'Andrew Schulz Enneagram'
+  - 'Andrew Schulz personality type'
+  - 'Andrew Schulz Type 7'
+  - 'Flagrant podcast psychology'
+  - 'Andrew Schulz comedy analysis'
+faqs:
+  - question: "What is Andrew Schulz's Enneagram type?"
+    answer: "Andrew Schulz reads as an Enneagram Type 7 with an 8 wing. The article argues that his core pattern is a fear of limitation: buying back Infamous, building owned media channels, refusing venue pressure, and turning every constraint into a bigger stage."
+    anchor: 'what-is-andrew-schulzs-personality-type'
+  - question: 'Why is Andrew Schulz typed as a 7 and not an 8?'
+    answer: "Schulz has obvious 8-wing aggression, but the engine is Type 7. He does not primarily seek control for its own sake; he seeks options, freedom, stimulation, and routes around confinement. The fights are usually reactions to limits."
+    anchor: 'counterarguments-why-andrew-schulz-might-not-be-type-7'
+  - question: "Why did buying back Infamous matter for Andrew Schulz's psychology?"
+    answer: "Buying back Infamous compressed the whole pattern into one decision: he would rather risk his savings than let a platform decide which version of his voice was acceptable. The business move was also a psychological refusal to be trapped."
+    anchor: 'rise-to-fame'
 ---
 
 <!-- QUALITY GRADE: B (8.0)
@@ -77,7 +93,7 @@ That wasn't just business strategy. That was Schulz showing you exactly who he i
 
 ### Andrew Schulz is an Enneagram Type 7
 
-Enneagram Type 7s are called "The Enthusiast" because they're hungry. Hungry for new experiences, ideas, and opportunities. But beneath that hunger is something darker: **the fear of being trapped, limited, or deprived of freedom**.
+[Enneagram Type 7s](/enneagram-corner/enneagram-type-7) are called "The Enthusiast" because they're hungry. Hungry for new experiences, ideas, and opportunities. But beneath that hunger is something darker: **the fear of being trapped, limited, or deprived of freedom**.
 
 That's Schulz. His entire career has been about tearing down anything that could box him in. Networks. Streaming platforms. Cultural gatekeepers. Even the traditional comedy club circuit. He's gone after all of them.
 
@@ -137,7 +153,7 @@ He followed it with his podcast work. The Brilliant Idiots with Charlamagne tha 
 
 **The Flagrant dynamic matters.** Schulz doesn't work alone. He needs people to bounce off. Akaash Singh as co-host, Mark Gagnon adding chaos, AlexxMedia behind the boards. The chemistry turns what could be a solo rant into collaborative comedy.
 
-Joe Rogan has appeared on Flagrant. Schulz has been on The Joe Rogan Experience multiple times (episodes #1846 and #2132). Mark Normand comes through for particularly unhinged episodes.
+[Joe Rogan](/personality-analysis/Joe-Rogan) has appeared on Flagrant. Schulz has been on The Joe Rogan Experience multiple times (episodes #1846 and #2132). Mark Normand comes through for particularly unhinged episodes.
 
 This isn't a comedian isolated from the scene. He's connected to the biggest names, just on his own terms.
 
@@ -163,7 +179,7 @@ Type 7s fear deprivation and limitation above all else. They stay in constant mo
 
 They just know they hate being told "no."
 
-Type 8 energy craves autonomy. Not power for power's sake. It's about never being in a position where someone else can hurt you or take what's yours.
+[Type 8](/enneagram-corner/enneagram-type-8) energy craves autonomy. Not power for power's sake. It's about never being in a position where someone else can hurt you or take what's yours.
 
 Combine those two? You get someone who will torch a perfectly good streaming deal rather than let anyone edit his jokes.
 
@@ -215,7 +231,7 @@ In growth, Type 7 moves toward Type 5. See <a href="/enneagram-corner/enneagram-
 
 Type 8 is the obvious alternate. Schulz is confrontational, autonomy-driven, and willing to burn bridges. But 8s usually lead with control and protection. Schulz leads with possibility. Even the fights become new stages, new clips, new products, and new routes around constraint.
 
-Type 3 also has a case because the career architecture is polished and ambitious. But the emotional engine is not primarily status. He is not trying to look acceptable to the room. He is trying to make sure the room cannot cage him. That fear of limitation is the Type 7 tell.
+[Type 3](/enneagram-corner/enneagram-type-3) also has a case because the career architecture is polished and ambitious. But the emotional engine is not primarily status. He is not trying to look acceptable to the room. He is trying to make sure the room cannot cage him. That fear of limitation is the Type 7 tell.
 
 </div>
 </details>

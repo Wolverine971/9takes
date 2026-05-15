@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['influencer', 'creator']
+type: ['influencer', 'creator', 'streamer']
 person: 'Clavicular'
 suggestions: ['Adin-Ross', 'Andrew-Tate', 'Trisha-Paytas', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Clavicular_(influencer)'

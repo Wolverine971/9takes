@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Arnold-Schwarzenegger'
 suggestions: ['Dwayne-Johnson', 'Donald-Trump', 'Tom-Cruise', 'Cristiano-Ronaldo']
 wikipedia: 'https://en.wikipedia.org/wiki/Arnold_Schwarzenegger'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['creator', 'entrepreneur']
+type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'Sam-Parr'
 suggestions: ['Shaan-Puri', 'Patrick-Bet-David', 'Scott-Galloway', 'Alex-Hormozi', 'Gary-Vee']
 wikipedia: ''

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
-type: ['lifestyleInfluencer']
+type: ['lifestyleInfluencer', 'lifestyle-builder']
 person: 'Gwyneth-Paltrow'
 suggestions: ['Jack-Black', 'Taylor-Swift', 'Oprah-Winfrey', 'Kim-Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Gwyneth_Paltrow'

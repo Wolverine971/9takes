@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['historical']
+type: ['historical', 'historical-artist']
 person: 'Edgar-Allan-Poe'
 suggestions: ['Nikola-Tesla', 'Frida-Kahlo', 'Friedrich-Nietzsche', 'Bob-Dylan']
 wikipedia: 'https://en.wikipedia.org/wiki/Edgar_Allan_Poe'

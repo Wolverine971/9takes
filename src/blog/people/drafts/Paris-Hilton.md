@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Paris-Hilton'
 suggestions: ['Kim-Kardashian', 'Kylie-Jenner', 'Marilyn-Monroe', 'Taylor-Swift', 'Jake-Paul']
 wikipedia: ''

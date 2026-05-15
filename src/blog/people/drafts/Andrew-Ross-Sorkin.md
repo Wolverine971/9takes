@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['author', 'creator']
+type: ['author', 'creator', 'news-commentator']
 person: 'Andrew-Ross-Sorkin'
 suggestions: ['Elon-Musk', 'Mark-Zuckerberg', 'Tucker-Carlson', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Ross_Sorkin'

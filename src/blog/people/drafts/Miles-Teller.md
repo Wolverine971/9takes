@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Miles-Teller'
 suggestions: ['Tom-Cruise', 'Michael-B-Jordan', 'Dwayne-Johnson', 'Arnold-Schwarzenegger']
 wikipedia: 'https://en.wikipedia.org/wiki/Miles_Teller'

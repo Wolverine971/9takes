@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'saoirse-ronan'
 suggestions: ['anya-taylor-joy', 'jacob-elordi', 'robert-pattinson', 'hozier']
 content_quality:

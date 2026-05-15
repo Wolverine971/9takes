@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['comedian', 'movieStar']
+type: ['comedian', 'movieStar', 'screen-icon']
 person: 'Eddie-Murphy'
 suggestions: ['Dave-Chappelle', 'Tyler-Perry', 'Keke-Palmer', 'Caleb-Hearon', 'Will-Smith']
 content_quality:

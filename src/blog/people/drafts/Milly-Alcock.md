@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['movieStar', 'newMovieStar']
+type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'Milly-Alcock'
 suggestions: ['Jennifer-Lawrence', 'Zendaya', 'Timothee-Chalamet', 'Millie-Bobby-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/Milly_Alcock'

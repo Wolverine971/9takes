@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['comedian']
+type: ['comedian', 'stand-up']
 person: 'Theo-Von'
 suggestions: ['Joe-Rogan', 'Shane-Gillis', 'Kevin-Hart', 'Tim-Dillon']
 wikipedia: 'https://en.wikipedia.org/wiki/Theo_Von'

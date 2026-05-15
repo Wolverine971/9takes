@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'entrepreneur']
+type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'Patrick-Bet-David'
 suggestions: ['Alex-Hormozi', 'Scott-Galloway', 'Stephen-A-Smith', 'Sam-Parr', 'Gary-Vee']
 wikipedia: 'https://en.wikipedia.org/wiki/Patrick_Bet-David'

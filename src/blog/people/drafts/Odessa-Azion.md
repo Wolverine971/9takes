@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['newMovieStar', 'musician']
+type: ['newMovieStar', 'musician', 'rising-star']
 person: 'Odessa-Azion'
 suggestions: ['Zoe-Kravitz', 'Bella-Hadid', 'Jacob-Elordi', 'Saoirse-Ronan']
 wikipedia: "https://en.wikipedia.org/wiki/Odessa_A'zion"

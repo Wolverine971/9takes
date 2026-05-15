@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Emily-Ratajkowski'
 suggestions: ['Kim-Kardashian', 'Bella-Hadid', 'Hailey-Bieber', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'

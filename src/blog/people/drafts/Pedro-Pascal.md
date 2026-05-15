@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Pedro-Pascal'
 suggestions: ['Tom-Hanks', 'Timothee-Chalamet', 'Zendaya', 'Keanu-Reeves']
 wikipedia: 'https://en.wikipedia.org/wiki/Pedro_Pascal'

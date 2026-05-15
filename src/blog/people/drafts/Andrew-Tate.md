@@ -1,6 +1,6 @@
 ---
 title: 'Andrew Tate: The Armor That Became the Skin'
-meta_title: "Why Andrew Tate Can't Back Down: The Psychology Behind His Dominance"
+meta_title: 'Andrew Tate Enneagram Type 8: Dominance, Control, and Armor'
 persona_title: "Masculinity's Unapologetic Warlord"
 description: 'Explore Andrew Tate psychology through the Enneagram Type 8 lens. Discover the childhood wounds, father influence, and fear of weakness driving his persona.'
 author: 'DJ Wayne'
@@ -11,13 +11,55 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['creator', 'sports']
+type: ['creator', 'athlete', 'business-creator']
 person: 'Andrew-Tate'
 suggestions: ['Joe-Rogan', 'Jordan-Peterson', 'Clavicular', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Tate'
 twitter: 'Cobratate'
 instagram: 'cobratate'
 tiktok: ''
+keywords:
+  - Andrew Tate psychology
+  - Andrew Tate Enneagram
+  - Enneagram Type 8
+  - masculinity influencer
+  - dominance psychology
+same_as:
+  - https://en.wikipedia.org/wiki/Andrew_Tate
+  - https://www.wikidata.org/wiki/Q18637166
+  - https://x.com/Cobratate
+  - https://www.instagram.com/cobratate/
+wikidata_qid: Q18637166
+imdb_id: nm8345706
+birth_date: '1986-12-01'
+birth_place: 'Washington, D.C., United States'
+nationality:
+  - American
+  - British
+occupation:
+  - Internet personality
+  - former kickboxer
+  - entrepreneur
+knows_about:
+  - kickboxing
+  - influencer marketing
+  - online business
+  - masculinity discourse
+citations:
+  - https://en.wikipedia.org/wiki/Andrew_Tate
+  - https://www.wikidata.org/wiki/Q18637166
+  - https://www.nytimes.com/2022/08/24/technology/andrew-tate-banned-tiktok-instagram.html
+  - https://www.theguardian.com/world/2022/dec/30/andrew-tate-detained-in-romania-on-organised-and-charges
+faqs:
+  - question: "What is Andrew Tate's Enneagram type?"
+    answer: "The article argues Andrew Tate is an Enneagram Type 8 with a 7 wing. The case rests on his fear of weakness, appetite for confrontation, dominance framing, and tendency to treat control as the only reliable form of safety."
+    anchor: what-is-andrew-tates-personality-type
+  - question: 'Why does Andrew Tate read as an 8w7 instead of an 8w9?'
+    answer: "The 7 wing shows up in the constant stimulation seeking: supercars, new platforms, business schemes, excess, and a need for fresh fights. An 8w9 version would likely be slower, more contained, and less dependent on spectacle."
+    anchor: the-wing-why-he-reads-as-8w7
+  - question: "How does Andrew Tate's father shape the analysis?"
+    answer: "Emory Tate is treated as the psychological template for Andrew's combat style: brilliant, aggressive, absent, and allergic to vulnerability. The article argues that Andrew turns that father wound into a public identity built around never losing, never apologizing, and never appearing weak."
+    anchor: andrew-tates-upbringing-the-making-of-a-challenger
 path: src/blog/people/drafts/Andrew-Tate.md
 content_quality:
   hook: 9
@@ -436,4 +478,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Add 2-3 sentences earlier (in "The Void He Fills") that genuinely steelman why young men hear him as the protector they needed. The piece is so emotionally precise that the lack of empathy for the audience reads as the one missing dimension.
 
 ============================================================ -->
-

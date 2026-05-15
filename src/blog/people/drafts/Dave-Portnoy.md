@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'Dave-Portnoy'
 suggestions: ['Joe-Rogan', 'Alex-Cooper', 'Logan-Paul', 'Jake-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Portnoy'

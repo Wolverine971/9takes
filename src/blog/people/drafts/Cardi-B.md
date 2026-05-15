@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Cardi-B'
 suggestions: ['Rihanna', 'Doja-Cat', 'Beyonce-Knowles', 'Drake']
 wikipedia: 'https://en.wikipedia.org/wiki/Cardi_B'

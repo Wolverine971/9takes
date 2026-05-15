@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'business-operator']
 person: 'Steve-Jobs'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Tim-Cook', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Steve_Jobs'

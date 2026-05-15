@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'influencer']
+type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'Sara-Saffari'
 suggestions: ['Bradley-Martyn', 'Mike-Majlak', 'Sky-Bri', 'Alex-Hormozi', 'Patrick-Bet-David']
 wikipedia: ''

@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Zayn-Malik'
 persona_title: "Pop's Mysterious Recluse"
 suggestions: ['Harry-Styles', 'Taylor-Swift', 'Billie-Eilish', 'Justin-Bieber']

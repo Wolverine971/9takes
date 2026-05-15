@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['creator']
+type: ['creator', 'streamer']
 person: 'Asmongold'
 suggestions: ['Hasan-Piker', 'Pokimane', 'xQc', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Asmongold'

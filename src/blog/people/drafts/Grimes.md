@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['musician']
+type: ['musician', 'alternative-artist']
 person: 'Grimes'
 suggestions: ['Elon Musk', 'Billie Eilish', 'Lana Del Rey', 'Kanye', 'Lady Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Grimes_(musician)'

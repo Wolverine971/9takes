@@ -191,6 +191,23 @@ function personInSlugSet(
 	return slugs.has(normalizePersonalitySlug(person.slug));
 }
 
+function normalizeClusterTagKey(value: string): string {
+	return value.toLowerCase().replace(/[^a-z0-9-]/g, '');
+}
+
+/**
+ * Check if a person's `type` array contains a specific cluster tag.
+ * Cluster tags are kebab-case strings (e.g. 'screen-icon', 'business-operator')
+ * that map 1:1 to a sub-cluster on a category page. They live alongside
+ * top-level category types (movieStar, entrepreneur, ...) in the same array.
+ *
+ * Frontmatter is the source of truth; pnpm push:people syncs to DB.
+ */
+function hasClusterTag(person: Pick<PersonalityCategoryPerson, 'types'>, tag: string): boolean {
+	const target = normalizeClusterTagKey(tag);
+	return person.types.some((t) => normalizeClusterTagKey(t) === target);
+}
+
 const CREATOR_MEDIA_PODCASTER_SLUGS = createNormalizedSlugSet([
 	'Alex-Cooper',
 	'Andrew-Huberman',
@@ -278,7 +295,8 @@ const CREATOR_MEDIA_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		label: 'Podcasters & Interviewers',
 		description:
 			'Long-form hosts built around conversation, chemistry, and the ability to keep attention for an hour instead of a clip.',
-		matches: (person) => personInSlugSet(person, CREATOR_MEDIA_PODCASTER_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'podcaster') || personInSlugSet(person, CREATOR_MEDIA_PODCASTER_SLUGS)
 	},
 	{
 		slug: 'news-commentary',
@@ -286,7 +304,9 @@ const CREATOR_MEDIA_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		description:
 			'Personalities whose output revolves around politics, media narratives, reporting, or real-time cultural interpretation.',
 		matches: (person) =>
-			personInSlugSet(person, CREATOR_MEDIA_COMMENTARY_SLUGS) || person.types.includes('journalist')
+			hasClusterTag(person, 'news-commentator') ||
+			personInSlugSet(person, CREATOR_MEDIA_COMMENTARY_SLUGS) ||
+			person.types.includes('journalist')
 	},
 	{
 		slug: 'business-self-improvement',
@@ -294,21 +314,26 @@ const CREATOR_MEDIA_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		description:
 			'Creators selling frameworks, advice, and aspirational operating systems rather than pure entertainment.',
 		matches: (person) =>
-			personInSlugSet(person, CREATOR_MEDIA_BUSINESS_SLUGS) || person.types.includes('entrepreneur')
+			hasClusterTag(person, 'business-creator') ||
+			personInSlugSet(person, CREATOR_MEDIA_BUSINESS_SLUGS) ||
+			person.types.includes('entrepreneur')
 	},
 	{
 		slug: 'streamers-live',
 		label: 'Streamers & Live Personalities',
 		description:
 			'Internet figures whose appeal depends on spontaneity, volume, parasocial energy, and what happens when the camera never really turns off.',
-		matches: (person) => personInSlugSet(person, CREATOR_MEDIA_STREAMER_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'streamer') || personInSlugSet(person, CREATOR_MEDIA_STREAMER_SLUGS)
 	},
 	{
 		slug: 'viral-entertainers',
 		label: 'Viral Entertainers & Platform Giants',
 		description:
 			'Big-internet personalities who win through scale, spectacle, bits, and repeatable attention mechanics.',
-		matches: (person) => personInSlugSet(person, CREATOR_MEDIA_ENTERTAINER_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'viral-entertainer') ||
+			personInSlugSet(person, CREATOR_MEDIA_ENTERTAINER_SLUGS)
 	},
 	{
 		slug: 'lifestyle-brand-builders',
@@ -316,6 +341,7 @@ const CREATOR_MEDIA_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		description:
 			'Image-first creators whose leverage comes from taste, status, beauty, aspiration, and turning personal identity into a product line.',
 		matches: (person) =>
+			hasClusterTag(person, 'lifestyle-builder') ||
 			personInSlugSet(person, CREATOR_MEDIA_LIFESTYLE_SLUGS) ||
 			person.types.includes('lifestyleInfluencer') ||
 			person.types.includes('influencer') ||
@@ -354,14 +380,17 @@ const FILM_TV_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		label: 'TV, Hosts & Comedy Crossovers',
 		description:
 			'People whose screen identity is built as much on hosting, sketch, stand-up, or broad personality as on classic film-star mystique.',
-		matches: (person) => personInSlugSet(person, FILM_TV_CROSSOVER_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'tv-comedy-crossover') ||
+			personInSlugSet(person, FILM_TV_CROSSOVER_SLUGS)
 	},
 	{
 		slug: 'rising-stars-franchise-leads',
 		label: 'Rising Stars & Franchise Leads',
 		description:
 			'Breakout actors and next-generation names still building the long arc of their public image.',
-		matches: (person) => person.types.includes('newMovieStar')
+		matches: (person) =>
+			hasClusterTag(person, 'rising-star') || person.types.includes('newMovieStar')
 	},
 	{
 		slug: 'screen-icons-leading-actors',
@@ -369,14 +398,17 @@ const FILM_TV_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		description:
 			'Established movie stars, prestige actors, and marquee performers whose psychology shows up through craft, magnetism, and reinvention.',
 		matches: (person) =>
-			person.types.includes('movieStar') || personInSlugSet(person, FILM_TV_SCREEN_ACTOR_SLUGS)
+			hasClusterTag(person, 'screen-icon') ||
+			person.types.includes('movieStar') ||
+			personInSlugSet(person, FILM_TV_SCREEN_ACTOR_SLUGS)
 	},
 	{
 		slug: 'celebrity-image-public-fascination',
 		label: 'Celebrity, Royalty & Public Fascination',
 		description:
 			'Profiles driven less by acting craft and more by image, tabloid gravity, royalty, beauty, scandal, and the machinery of fame.',
-		matches: (person) => person.types.includes('celebrity')
+		matches: (person) =>
+			hasClusterTag(person, 'celebrity-image') || person.types.includes('celebrity')
 	}
 ];
 
@@ -434,28 +466,34 @@ const MUSIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		label: 'Pop Stars & Global Hitmakers',
 		description:
 			'High-visibility stars whose psychology plays out through image management, chart pressure, and the need to stay culturally central.',
-		matches: (person) => personInSlugSet(person, MUSIC_POP_STAR_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'pop-star') || personInSlugSet(person, MUSIC_POP_STAR_SLUGS)
 	},
 	{
 		slug: 'rappers-genre-disruptors',
 		label: 'Rappers & Genre Disruptors',
 		description:
 			'Artists whose public persona is inseparable from force, edge, provocation, reinvention, and the need to dominate a lane.',
-		matches: (person) => personInSlugSet(person, MUSIC_RAP_GENRE_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'rapper') || personInSlugSet(person, MUSIC_RAP_GENRE_SLUGS)
 	},
 	{
 		slug: 'alternative-art-pop-voices',
 		label: 'Alternative & Art-Pop Voices',
 		description:
 			'Performers who turn alienation, experimentation, aesthetics, or outsider identity into the center of the project.',
-		matches: (person) => personInSlugSet(person, MUSIC_ALTERNATIVE_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'alternative-artist') ||
+			personInSlugSet(person, MUSIC_ALTERNATIVE_SLUGS)
 	},
 	{
 		slug: 'singer-songwriters-roots',
 		label: 'Singer-Songwriters & Roots Performers',
 		description:
 			'Writers and emotionally direct performers where the draw is voice, confession, craft, and a stronger sense of personal songwriting.',
-		matches: (person) => personInSlugSet(person, MUSIC_SINGER_SONGWRITER_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'singer-songwriter') ||
+			personInSlugSet(person, MUSIC_SINGER_SONGWRITER_SLUGS)
 	},
 	{
 		slug: 'crossovers-multi-hyphenates',
@@ -463,6 +501,7 @@ const MUSIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		description:
 			'People whose music career overlaps heavily with acting, creator culture, celebrity branding, or another public lane.',
 		matches: (person) =>
+			hasClusterTag(person, 'music-crossover') ||
 			personInSlugSet(person, MUSIC_CROSSOVER_SLUGS) ||
 			person.types.includes('creator') ||
 			person.types.includes('celebrity') ||
@@ -548,56 +587,69 @@ const POLITICS_PUBLIC_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = 
 		label: 'Modern Heads of State & World Leaders',
 		description:
 			'Post-WWII presidents, prime ministers, and rulers operating inside contemporary politics — coalition-building, media warfare, public scrutiny, and modern statecraft.',
-		matches: (person) => personInSlugSet(person, POLITICS_MODERN_LEADERS_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'modern-leader') ||
+			personInSlugSet(person, POLITICS_MODERN_LEADERS_SLUGS)
 	},
 	{
 		slug: 'historical-leaders-power-holders',
 		label: 'Historical Leaders & Power Holders',
 		description:
 			'Pre-WWII rulers, emperors, and regime-defining figures whose personalities shaped wars, dynasties, and the institutions that came after them.',
-		matches: (person) => personInSlugSet(person, POLITICS_HISTORICAL_LEADERS_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'historical-leader') ||
+			personInSlugSet(person, POLITICS_HISTORICAL_LEADERS_SLUGS)
 	},
 	{
 		slug: 'activists-movement-leaders',
 		label: 'Activists & Movement Leaders',
 		description:
 			'People defined less by office and more by moral urgency, persuasion, sacrifice, movement energy, or symbolic resistance.',
-		matches: (person) => personInSlugSet(person, POLITICS_ACTIVIST_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'movement-leader') || personInSlugSet(person, POLITICS_ACTIVIST_SLUGS)
 	},
 	{
 		slug: 'royalty-symbolic-public-duty',
 		label: 'Royals & Symbolic Public Duty',
 		description:
 			'Figures whose public life revolves around symbolic service, inherited expectations, diplomacy, image, and the burden of representing something larger than themselves.',
-		matches: (person) => personInSlugSet(person, POLITICS_ROYALTY_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'royalty') || personInSlugSet(person, POLITICS_ROYALTY_SLUGS)
 	},
 	{
 		slug: 'first-ladies-political-spouses',
 		label: 'First Ladies & Political Spouses',
 		description:
 			'Partners of presidents and power figures who built their own public identities through proximity to office — image discipline, advocacy, and the strange role of representing without being elected.',
-		matches: (person) => personInSlugSet(person, POLITICS_POLITICAL_SPOUSES_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'political-spouse') ||
+			personInSlugSet(person, POLITICS_POLITICAL_SPOUSES_SLUGS)
 	},
 	{
 		slug: 'campaign-politicians-public-persuaders',
 		label: 'Campaign Politicians & Public Persuaders',
 		description:
 			'Elected officials, rising party figures, judges, and influence-heavy public actors navigating coalitions, messaging, ambition, and permanent visibility.',
-		matches: (person) => person.types.includes('politician')
+		matches: (person) =>
+			hasClusterTag(person, 'campaign-politician') || person.types.includes('politician')
 	},
 	{
 		slug: 'historical-scientists-thinkers',
 		label: 'Historical Scientists & Thinkers',
 		description:
 			'Scientists, inventors, mathematicians, and philosophers whose personalities shaped how we understand reality — obsession, isolation, cognitive style, and the cost of seeing further than peers.',
-		matches: (person) => personInSlugSet(person, POLITICS_HISTORICAL_SCIENTISTS_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'historical-scientist') ||
+			personInSlugSet(person, POLITICS_HISTORICAL_SCIENTISTS_SLUGS)
 	},
 	{
 		slug: 'historical-artists-writers',
 		label: 'Historical Artists & Writers',
 		description:
 			'Painters, novelists, poets, architects, and cultural figures whose interior lives shaped Western art and literature — temperament, suffering, craft, and the link between personality and aesthetic vision.',
-		matches: (person) => personInSlugSet(person, POLITICS_HISTORICAL_ARTISTS_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'historical-artist') ||
+			personInSlugSet(person, POLITICS_HISTORICAL_ARTISTS_SLUGS)
 	}
 ];
 
@@ -658,21 +710,24 @@ const TECH_BUSINESS_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		label: 'Big Tech Founders & CEOs',
 		description:
 			'Company-defining builders managing scale, products, public scrutiny, and the pressure of running systems that affect millions.',
-		matches: (person) => personInSlugSet(person, TECH_BIG_TECH_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'big-tech-founder') || personInSlugSet(person, TECH_BIG_TECH_SLUGS)
 	},
 	{
 		slug: 'investors-strategists-power-brokers',
 		label: 'Investors, Strategists & Power Brokers',
 		description:
 			'People whose edge comes from narrative control, contrarian bets, leverage, and seeing second-order effects before everyone else does.',
-		matches: (person) => personInSlugSet(person, TECH_INVESTOR_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'investor') || personInSlugSet(person, TECH_INVESTOR_SLUGS)
 	},
 	{
 		slug: 'frontier-builders-ai-defense',
 		label: 'Frontier Builders: AI & Defense',
 		description:
 			'Builders working in the highest-stakes corners of technology where existential ambition, security, and world-modeling all get amplified.',
-		matches: (person) => personInSlugSet(person, TECH_FRONTIER_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'frontier-builder') || personInSlugSet(person, TECH_FRONTIER_SLUGS)
 	},
 	{
 		slug: 'operators-business-builders',
@@ -680,6 +735,7 @@ const TECH_BUSINESS_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		description:
 			'Entrepreneurial personalities focused on execution, sales, operating systems, and turning a personal philosophy into a business engine.',
 		matches: (person) =>
+			hasClusterTag(person, 'business-operator') ||
 			personInSlugSet(person, TECH_OPERATOR_SLUGS) ||
 			person.types.includes('entrepreneur') ||
 			person.types.includes('business')
@@ -689,7 +745,8 @@ const TECH_BUSINESS_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		label: 'Tech Media & Interpreter Types',
 		description:
 			'Media figures and public intellectuals who translate tech power for an audience instead of only building behind the scenes.',
-		matches: (person) => personInSlugSet(person, TECH_INTERPRETER_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'tech-interpreter') || personInSlugSet(person, TECH_INTERPRETER_SLUGS)
 	}
 ];
 
@@ -727,28 +784,32 @@ const COMEDY_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		label: 'Stand-Up Headliners',
 		description:
 			'Comics built on live energy, provocation, timing, and the need to dominate a room with a single voice.',
-		matches: (person) => personInSlugSet(person, COMEDY_STANDUP_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'stand-up') || personInSlugSet(person, COMEDY_STANDUP_SLUGS)
 	},
 	{
 		slug: 'sketch-tv-character-comics',
 		label: 'Sketch, TV & Character Comics',
 		description:
 			'Performers whose comedy depends on ensemble instincts, recurring personas, writing rooms, or long-form character work.',
-		matches: (person) => personInSlugSet(person, COMEDY_SKETCH_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'sketch-comic') || personInSlugSet(person, COMEDY_SKETCH_SLUGS)
 	},
 	{
 		slug: 'satire-hosts-political-comedy',
 		label: 'Satire Hosts & Political Comedy',
 		description:
 			'Comedians who merge humor with commentary, making cultural interpretation part of the act.',
-		matches: (person) => personInSlugSet(person, COMEDY_SATIRE_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'satire-host') || personInSlugSet(person, COMEDY_SATIRE_SLUGS)
 	},
 	{
 		slug: 'internet-podcast-comics',
 		label: 'Internet & Podcast Comics',
 		description:
 			'Comedians whose appeal grows through clips, audience intimacy, personality-first content, and internet-native momentum.',
-		matches: (person) => personInSlugSet(person, COMEDY_INTERNET_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'internet-comic') || personInSlugSet(person, COMEDY_INTERNET_SLUGS)
 	}
 ];
 
@@ -773,7 +834,8 @@ const AUTHOR_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		label: 'Novelists & World-Builders',
 		description:
 			'Writers whose inner structure shows up through narrative architecture, myth-making, and the desire to build complete worlds.',
-		matches: (person) => personInSlugSet(person, AUTHOR_NOVELIST_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'novelist') || personInSlugSet(person, AUTHOR_NOVELIST_SLUGS)
 	},
 	{
 		slug: 'strategy-psychology-writers',
@@ -781,6 +843,7 @@ const AUTHOR_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		description:
 			'Authors and essayists whose work is built around frameworks, motives, social dynamics, and explanatory power.',
 		matches: (person) =>
+			hasClusterTag(person, 'strategy-writer') ||
 			personInSlugSet(person, AUTHOR_STRATEGY_SLUGS) ||
 			person.types.includes('psychology') ||
 			person.types.includes('essay')
@@ -790,7 +853,9 @@ const AUTHOR_GROUP_DEFINITIONS: PersonalityCategoryGroupDefinition[] = [
 		label: 'Business & Media Interpreters',
 		description:
 			'Writers and commentators translating power, markets, media, and elite behavior into digestible narratives for an audience.',
-		matches: (person) => personInSlugSet(person, AUTHOR_INTERPRETER_SLUGS)
+		matches: (person) =>
+			hasClusterTag(person, 'business-interpreter') ||
+			personInSlugSet(person, AUTHOR_INTERPRETER_SLUGS)
 	}
 ];
 

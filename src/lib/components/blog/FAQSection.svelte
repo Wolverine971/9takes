@@ -21,7 +21,7 @@
 
 	<div class="faq-list">
 		{#each faqs as faq}
-			<details class="faq-item">
+			<details class="faq-item" id={faq.anchor || undefined}>
 				<summary class="faq-question">
 					<span class="question-text">{faq.question}</span>
 					<span class="toggle-icon"></span>

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['celebrity']
+type: ['celebrity', 'tv-comedy-crossover']
 person: 'Howard-Stern'
 suggestions: ['Donald-Trump', 'Peter-Thiel', 'Eminem', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Howard_Stern'

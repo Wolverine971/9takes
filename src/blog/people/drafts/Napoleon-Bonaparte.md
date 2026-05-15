@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['historical']
+type: ['historical', 'historical-leader']
 person: 'Napoleon-Bonaparte'
 suggestions: ['Julius-Caesar', 'Winston-Churchill', 'Vladimir-Putin', 'Joseph-Stalin']
 wikipedia: 'https://en.wikipedia.org/wiki/Napoleon'

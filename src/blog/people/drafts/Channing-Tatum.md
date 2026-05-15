@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Channing-Tatum'
 suggestions: ['Ryan-Reynolds', 'Leonardo-DiCaprio', 'Brad-Pitt', 'Dwayne-Johnson']
 wikipedia: 'https://en.wikipedia.org/wiki/Channing_Tatum'

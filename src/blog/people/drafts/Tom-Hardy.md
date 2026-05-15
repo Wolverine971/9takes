@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['celebrity']
+type: ['celebrity', 'screen-icon']
 person: 'Tom-Hardy'
 suggestions: ['Shia-LaBeouf', 'Joaquin-Phoenix', 'Cillian-Murphy', 'Brad-Pitt', 'Henry-Cavill']
 wikipedia: ''

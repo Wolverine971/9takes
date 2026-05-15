@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator']
+type: ['creator', 'lifestyle-builder']
 person: 'Ashby'
 suggestions: ['Emma-Chamberlain', 'David-Dobrik', 'Kai-Cenat', 'Theo-Von']
 wikipedia: ''

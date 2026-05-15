@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['celebrity', 'movieStar', 'musician']
+type: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover']
 person: 'Zooey-Deschanel'
 suggestions: ['Jake-Gyllenhaal', 'Kate-Hudson', 'Aubrey-Plaza', 'Jennifer-Lawrence']
 wikipedia: 'https://en.wikipedia.org/wiki/Zooey_Deschanel'

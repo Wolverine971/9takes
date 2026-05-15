@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Halle-Berry'
 suggestions: ['Jennifer-Lopez', 'Beyonce-Knowles', 'Lupita-Nyongo', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Halle_Berry'

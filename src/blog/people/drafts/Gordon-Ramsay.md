@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Gordon-Ramsay'
 suggestions: ['Jocko-Willink', 'Beyonce', 'Joe-Rogan', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Gordon_Ramsay'

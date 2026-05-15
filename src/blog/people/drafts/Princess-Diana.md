@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['historical', 'politician']
+type: ['historical', 'politician', 'royalty']
 person: 'Princess-Diana'
 suggestions: ['Meghan-Markle', 'Prince-Harry', 'Queen-Elizabeth-II']
 wikipedia: 'https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales'

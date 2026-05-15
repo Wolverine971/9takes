@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['musician', 'creator']
+type: ['musician', 'creator', 'singer-songwriter']
 person: 'Dolly-Parton'
 suggestions: ['Oprah-Winfrey', 'Mr-Rogers', 'Taylor-Swift', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Dolly_Parton'

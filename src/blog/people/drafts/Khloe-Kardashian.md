@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Khloe-Kardashian'
 suggestions: ['Kim-Kardashian', 'Kourtney-Kardashian', 'Kylie-Jenner', 'Kris-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'Post-Malone'
 suggestions: ['Jelly-Roll', 'Drake', 'Billie-Eilish', 'Justin-Bieber', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Post_Malone'

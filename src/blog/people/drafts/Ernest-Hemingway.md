@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['historical', 'author']
+type: ['historical', 'author', 'historical-artist']
 person: 'Ernest-Hemingway'
 suggestions: ['Winston-Churchill', 'Tom-Hardy', 'Jon-Bernthal', 'Napoleon-Bonaparte']
 wikipedia: 'https://en.wikipedia.org/wiki/Ernest_Hemingway'

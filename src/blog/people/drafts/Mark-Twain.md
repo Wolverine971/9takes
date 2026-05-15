@@ -12,7 +12,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['historical']
+type: ['historical', 'historical-artist']
 person: 'Mark-Twain'
 suggestions: ['Abraham-Lincoln', 'Peter-Thiel', 'Winston-Churchill', 'Edgar-Allan-Poe']
 wikipedia: 'https://en.wikipedia.org/wiki/Mark_Twain'

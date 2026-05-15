@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Meghan-Trainor'
 suggestions: ['Adele', 'Demi-Lovato', 'Hilary-Duff', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Meghan_Trainor'

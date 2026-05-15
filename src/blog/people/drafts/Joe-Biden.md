@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Joe-Biden'
 suggestions: ['Barack-Obama', 'Kamala-Harris', 'Donald-Trump', 'Hillary-Clinton', 'Vladimir-Putin']
 wikipedia: 'https://en.wikipedia.org/wiki/Joe_Biden'

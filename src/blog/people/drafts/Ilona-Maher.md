@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['celebrity', 'influencer']
+type: ['celebrity', 'influencer', 'celebrity-image', 'lifestyle-builder']
 person: 'Ilona-Maher'
 suggestions: ['Chappell-Roan', 'Halsey', 'Beyonce-Knowles', 'Cardi-B']
 wikipedia: 'https://en.wikipedia.org/wiki/Ilona_Maher'

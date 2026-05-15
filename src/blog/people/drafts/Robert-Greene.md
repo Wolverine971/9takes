@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['author']
+type: ['author', 'strategy-writer']
 person: 'Robert-Greene'
 suggestions:
   ['Friedrich-Nietzsche', 'Robert-Oppenheimer', 'Elon-Musk', 'Jordan-Peterson', 'Tony-Robbins']

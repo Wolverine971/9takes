@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Ella-Langley'
 suggestions: ['Riley-Green', 'Morgan-Wallen', 'Lainey-Wilson', 'Miranda-Lambert']
 wikipedia: 'https://en.wikipedia.org/wiki/Ella_Langley'

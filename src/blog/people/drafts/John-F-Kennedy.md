@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['politician', 'historical']
+type: ['politician', 'historical', 'modern-leader']
 person: 'John-F-Kennedy'
 suggestions: ['Jackie-Kennedy', 'Abraham-Lincoln', 'Barack-Obama', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/John_F._Kennedy'

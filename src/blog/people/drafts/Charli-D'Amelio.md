@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['tiktoker']
+type: ['tiktoker', 'lifestyle-builder']
 person: "Charli-D'Amelio"
 suggestions: ['Addison-Rae', "Dixie-D'Amelio", 'Bella-Poarch', 'Alix-Earle']
 wikipedia: 'https://en.wikipedia.org/wiki/Charli_D%27Amelio'

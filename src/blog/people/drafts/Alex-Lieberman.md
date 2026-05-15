@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['entrepreneur', 'creator']
+type: ['entrepreneur', 'creator', 'business-creator', 'business-operator']
 person: 'Alex-Lieberman'
 suggestions: ['Alex-Hormozi', 'Brian-Chesky', 'Chris-Williamson', 'Tim-Ferriss']
 wikipedia: ''

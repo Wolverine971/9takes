@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar', 'entrepreneur']
+type: ['movieStar', 'entrepreneur', 'screen-icon', 'business-operator']
 person: 'Reese-Witherspoon'
 suggestions: ['Jennifer-Garner', 'Oprah-Winfrey', 'Blake-Lively', 'Natalie-Portman']
 wikipedia: 'https://en.wikipedia.org/wiki/Reese_Witherspoon'

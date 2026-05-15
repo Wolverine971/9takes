@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Lionel-Messi'
 suggestions: ['Cristiano-Ronaldo', 'David-Beckham', 'Kobe-Bryant', 'Michael-Jordan']
 wikipedia: 'https://en.wikipedia.org/wiki/Lionel_Messi'

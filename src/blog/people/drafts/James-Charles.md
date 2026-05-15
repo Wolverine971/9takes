@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator', 'lifestyleInfluencer']
+type: ['creator', 'lifestyleInfluencer', 'lifestyle-builder']
 person: 'James-Charles'
 suggestions: ['Paris-Hilton', 'Addison-Rae', 'Kim-Kardashian', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Charles'

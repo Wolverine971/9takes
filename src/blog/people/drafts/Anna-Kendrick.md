@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Anna-Kendrick'
 suggestions: ['Aubrey-Plaza', 'Jennifer-Lawrence', 'Blake-Lively', 'Anne-Hathaway']
 wikipedia: 'https://en.wikipedia.org/wiki/Anna_Kendrick'

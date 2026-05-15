@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['newMovieStar']
+type: ['newMovieStar', 'rising-star']
 person: 'Millie-Bobby-Brown'
 suggestions: ['Zendaya', 'Sydney-Sweeney', 'Jenna-Ortega', 'Tom-Holland']
 wikipedia: ''

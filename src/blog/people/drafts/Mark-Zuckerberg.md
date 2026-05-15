@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'Mark-Zuckerberg'
 suggestions: ['Elon-Musk', 'Bill-Gates', 'Jeff-Bezos', 'Steve-Jobs']
 wikipedia: 'https://en.wikipedia.org/wiki/Mark_Zuckerberg'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'Markiplier'
 suggestions: ['PewDiePie', 'Kai-Cenat', 'Casey-Neistat', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Markiplier'

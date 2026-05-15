@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['historical', 'author']
+type: ['historical', 'author', 'historical-scientist']
 person: 'Stephen-Hawking'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Friedrich-Nietzsche', 'Noam-Chomsky']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_Hawking'

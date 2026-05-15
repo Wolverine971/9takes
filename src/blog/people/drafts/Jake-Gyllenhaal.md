@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Jake-Gyllenhaal'
 suggestions: ['Denzel-Washington', 'Leonardo-DiCaprio', 'Tom-Holland', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Gyllenhaal'

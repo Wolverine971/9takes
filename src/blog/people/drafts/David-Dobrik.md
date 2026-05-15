@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'David-Dobrik'
 suggestions: ['Kai-Cenat', 'Kyle-Forgeard', 'Emma-Chamberlain', 'Andrew-Schulz']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Dobrik'

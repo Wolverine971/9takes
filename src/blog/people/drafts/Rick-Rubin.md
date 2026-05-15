@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['musician', 'creator']
+type: ['musician', 'creator', 'music-crossover']
 person: 'Rick-Rubin'
 suggestions: ['Adele', 'Kanye', 'Malcolm-Gladwell', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Rick_Rubin'

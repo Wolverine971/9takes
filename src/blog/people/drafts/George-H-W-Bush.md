@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'George-H-W-Bush'
 suggestions: ['Bill-Clinton', 'George-W-Bush', 'Ronald-Reagan', 'John-F-Kennedy', 'Jimmy-Carter']
 wikipedia: 'https://en.wikipedia.org/wiki/George_H._W._Bush'

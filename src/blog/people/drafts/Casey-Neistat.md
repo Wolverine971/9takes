@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'Casey-Neistat'
 suggestions: ['David-Dobrik', 'Mr-Beast', 'Logan-Paul', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Casey_Neistat'

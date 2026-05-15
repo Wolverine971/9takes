@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['journalist', 'creator']
+type: ['journalist', 'creator', 'news-commentator']
 person: 'Taylor-Lorenz'
 suggestions: ['Hasan-Piker', 'Kim-Kardashian', 'Logan-Paul', 'Gary-Vee']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Lorenz'

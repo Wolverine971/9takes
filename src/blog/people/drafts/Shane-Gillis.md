@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['comedian']
+type: ['comedian', 'stand-up']
 person: 'Shane-Gillis'
 suggestions:
   ['Theo-Von', 'Tim-Dillon', 'Andrew-Schulz', 'Dave-Chappelle', 'Joe-Rogan', 'Pete-Davidson']

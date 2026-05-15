@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Vladimir-Putin'
 persona_title: 'The Cornered Rat Who Became Czar'
 suggestions: ['Donald-Trump', 'Xi-Jinping', 'Joe-Biden', 'Barack-Obama', 'Winston-Churchill']

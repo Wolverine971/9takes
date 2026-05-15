@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator', 'entrepreneur']
+type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'John-Coogan'
 suggestions: ['Jordi-Hays', 'Shaan-Puri', 'Sam-Altman', 'Peter-Thiel', 'Steven-Bartlett']
 wikipedia: ''

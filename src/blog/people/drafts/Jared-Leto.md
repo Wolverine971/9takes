@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'music-crossover']
 person: 'Jared-Leto'
 suggestions: ['Johnny-Depp', 'Timothee-Chalamet', 'Billie-Eilish', 'Marilyn-Monroe']
 wikipedia: 'https://en.wikipedia.org/wiki/Jared_Leto'

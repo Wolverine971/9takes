@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Winston-Churchill'
 persona_title: "Britain's Weeping Iron"
 suggestions:

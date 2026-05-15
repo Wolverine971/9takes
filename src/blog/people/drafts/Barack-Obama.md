@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Barack-Obama'
 suggestions: ['Michelle-Obama', 'Hillary-Clinton', 'Joe-Biden', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Barack_Obama'

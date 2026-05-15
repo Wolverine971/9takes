@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Robert-De-Niro'
 suggestions: ['Al-Pacino', 'Martin-Scorsese', 'Leonardo-DiCaprio', 'Meryl-Streep']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_De_Niro'

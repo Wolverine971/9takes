@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['influencer', 'creator']
+type: ['influencer', 'creator', 'lifestyle-builder']
 person: 'Sky-Bri'
 suggestions: ['Bradley-Martyn', 'Sara-Saffari', 'Jake-Paul', 'Adin-Ross']
 wikipedia: ''

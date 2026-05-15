@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'PewDiePie'
 suggestions: ['Mr-Beast', 'Jordan-Peterson', 'Logan-Paul', 'Emma-Chamberlain']
 wikipedia: 'https://en.wikipedia.org/wiki/PewDiePie'

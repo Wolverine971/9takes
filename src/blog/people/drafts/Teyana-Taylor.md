@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['musician', 'movieStar']
+type: ['musician', 'movieStar', 'screen-icon']
 person: 'Teyana-Taylor'
 suggestions: ['Jennifer-Lopez', 'Drake', 'Keke-Palmer', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Teyana_Taylor'

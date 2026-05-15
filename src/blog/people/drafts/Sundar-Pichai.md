@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'Sundar-Pichai'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Mark-Zuckerberg', 'Tim-Cook']
 wikipedia: 'https://en.wikipedia.org/wiki/Sundar_Pichai'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['creator']
+type: ['creator', 'lifestyle-builder']
 person: 'Bobbi-Althoff'
 suggestions: ['Drake', 'Alex-Cooper', 'Aubrey-Plaza', 'Kim-Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Bobbi_Althoff'

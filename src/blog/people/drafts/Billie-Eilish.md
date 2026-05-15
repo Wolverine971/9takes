@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Billie-Eilish'
 suggestions: ['Lana-Del-Rey', 'Taylor-Swift', 'Ariana-Grande', 'Chappell-Roan', 'Madison-Beer']
 wikipedia: 'https://en.wikipedia.org/wiki/Billie_Eilish'

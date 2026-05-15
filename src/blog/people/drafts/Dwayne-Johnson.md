@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Dwayne-Johnson'
 suggestions: ['kevin-hart', 'arnold-schwarzenegger', 'tom-cruise', 'stephen-a-smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Dwayne_Johnson'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Beyonce-Knowles'
 suggestions: ['Rihanna', 'Taylor-Swift', 'Lady-Gaga', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Beyonc%C3%A9'

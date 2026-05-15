@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Anne-Hathaway'
 suggestions: ['Natalie-Portman', 'Emma-Watson', 'Blake-Lively', 'Meryl-Streep']
 wikipedia: ''

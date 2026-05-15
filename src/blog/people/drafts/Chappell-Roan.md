@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 enneagram: 8
-type: ['musician']
+type: ['musician', 'alternative-artist']
 person: 'Chappell-Roan'
 suggestions: ['Billie-Eilish', 'Halsey', 'Sabrina-Carpenter', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Chappell_Roan'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Megan-Fox'
 suggestions: ['Billie-Eilish', 'Bella-Hadid', 'Johnny-Depp', 'Miley-Cyrus']
 wikipedia: 'https://en.wikipedia.org/wiki/Megan_Fox'

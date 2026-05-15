@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['entrepreneur']
+type: ['entrepreneur', 'business-operator']
 person: 'Tyler-Perry'
 suggestions: ['Oprah-Winfrey', 'Denzel-Washington', 'Eddie-Murphy', 'Keke-Palmer', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyler_Perry'

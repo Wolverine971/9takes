@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['movieStar', 'activist']
+type: ['movieStar', 'activist', 'screen-icon']
 person: 'Shailene-Woodley'
 suggestions: ['Keanu-Reeves', 'Emma-Watson', 'Scarlett-Johansson', 'Nicole-Kidman']
 wikipedia: 'https://en.wikipedia.org/wiki/Shailene_Woodley'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator']
+type: ['creator', 'streamer']
 person: 'Adin-Ross'
 suggestions: ['Jake-Paul', 'Logan-Paul', 'Kai-Cenat', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/Adin_Ross'

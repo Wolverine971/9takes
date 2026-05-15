@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'Tyler-The-Creator'
 persona_title: "Hip-Hop's Self-Made Outcast"
 suggestions: ['Kanye', 'Billie-Eilish', 'Kendrick-Lamar', 'Doechii']

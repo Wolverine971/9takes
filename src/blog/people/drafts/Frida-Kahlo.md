@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['historical']
+type: ['historical', 'historical-artist']
 person: 'Frida-Kahlo'
 suggestions: ['Billie-Eilish', 'Lady-Gaga', 'Johnny-Depp', 'Bob-Dylan']
 wikipedia: 'https://en.wikipedia.org/wiki/Frida_Kahlo'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['historical']
+type: ['historical', 'historical-artist']
 person: 'Vincent-van-Gogh'
 suggestions: ['Frida-Kahlo', 'Joaquin-Phoenix', 'Johnny-Depp', 'Edgar-Allan-Poe']
 wikipedia: 'https://en.wikipedia.org/wiki/Vincent_van_Gogh'

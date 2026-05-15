@@ -1,6 +1,6 @@
 ---
 title: "Ali Abdaal: The Helper Who Wouldn't Help If Nobody Was Watching"
-meta_title: "Why Ali Abdaal Can't Stop Optimizing (The Real Psychology Behind It)"
+meta_title: 'Ali Abdaal Enneagram Type 3: Productivity and Validation'
 persona_title: "Productivity's Polished Polymath"
 description: "At six, he said 'neurosurgeon' because it sounded impressive. Ali Abdaal's productivity empire runs on the same engine — and he knows it."
 author: 'DJ Wayne'
@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator']
+type: ['creator', 'business-creator']
 person: 'Ali-Abdaal'
 suggestions: ['Steven-Bartlett', 'Alex-Hormozi', 'Tim-Ferriss', 'Gary-Vee']
 wikipedia: ''
@@ -28,6 +28,22 @@ content_quality:
   overall: 9.2
   letter: A
   graded_at: '2026-02-18'
+keywords:
+  - 'Ali Abdaal Enneagram'
+  - 'Ali Abdaal personality type'
+  - 'Ali Abdaal Type 3'
+  - 'Ali Abdaal productivity psychology'
+  - 'productivity YouTuber personality'
+faqs:
+  - question: "What is Ali Abdaal's Enneagram type?"
+    answer: "Ali Abdaal reads as an Enneagram Type 3 with a strong 2 wing. The article argues that his productivity empire, prestige tracking, public self-optimization, and need for useful visibility fit the Achiever pattern more than a pure Helper profile."
+    anchor: 'what-is-ali-abdaals-personality-type'
+  - question: "Why does Ali Abdaal's productivity advice feel so polished?"
+    answer: "The piece frames Ali's polish as Type 3 adaptation: he studies the room, optimizes presentation, and turns uncertainty into a teachable system. The result is useful, but the article asks what happens when every part of life becomes a performance dashboard."
+    anchor: 'ali-abdaals-personality-the-inner-architecture'
+  - question: 'What changed when Ali Abdaal left medicine?'
+    answer: "Leaving medicine exposed the prestige calculator underneath his identity. The move from doctor to YouTuber forced him to justify success in a less socially approved arena, which is why the article treats the transition as the central Type 3 crisis."
+    anchor: 'the-identity-crisis-of-leaving-medicine'
 ---
 
 <!-- QUALITY GRADE: A (9.2)

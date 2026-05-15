@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Conor-McGregor'
 suggestions: ['Andrew-Tate', 'Jake-Paul', 'Joe-Rogan', 'Dave-Portnoy']
 wikipedia: 'https://en.wikipedia.org/wiki/Conor_McGregor'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'big-tech-founder']
 person: 'Travis-Kalanick'
 suggestions: ['Elon-Musk', 'Jeff-Bezos', 'Mark-Zuckerberg', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Travis_Kalanick'

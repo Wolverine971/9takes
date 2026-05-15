@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['author']
+type: ['author', 'novelist']
 person: 'Sarah-J-Maas'
 suggestions: ['J.K.-Rowling', 'Taylor-Swift', 'Ariana-Grande', 'Charli-xcx']
 wikipedia: 'https://en.wikipedia.org/wiki/Sarah_J._Maas'

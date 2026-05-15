@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator']
+type: ['creator', 'podcaster']
 person: 'Dax-Shepard'
 suggestions: ['Kristen-Bell', 'Joe-Rogan', 'Tim-Ferriss', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Dax_Shepard'

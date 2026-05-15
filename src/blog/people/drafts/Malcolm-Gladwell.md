@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['author']
+type: ['author', 'strategy-writer']
 person: 'Malcolm-Gladwell'
 suggestions: ['Tyler-Cowen', 'Bill-Gates', 'Robert-Greene', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_Gladwell'

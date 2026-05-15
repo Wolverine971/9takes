@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['comedian', 'creator']
+type: ['comedian', 'creator', 'podcaster']
 person: 'Conan-OBrien'
 suggestions: ['jon-stewart', 'dax-shepard', 'jimmy-fallon', 'kevin-hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Conan_O%27Brien'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity', 'creator']
+type: ['celebrity', 'creator', 'celebrity-image', 'news-commentator']
 person: 'Stephen-A-Smith'
 suggestions: ['Piers-Morgan', 'Patrick-Bet-David', 'Dwayne-Johnson', 'Tyler-Perry']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_A._Smith'

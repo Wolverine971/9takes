@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['historical', 'celebrity']
+type: ['historical', 'celebrity', 'celebrity-image', 'political-spouse']
 person: 'Jackie-Kennedy'
 suggestions: ['John-F-Kennedy', 'Princess-Diana', 'Marilyn-Monroe', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Sabrina-Carpenter'
 suggestions: ['Taylor-Swift', 'Chappell-Roan', 'Ariana-Grande', 'Olivia-Rodrigo', 'Madison-Beer']
 wikipedia: 'https://en.wikipedia.org/wiki/Sabrina_Carpenter'

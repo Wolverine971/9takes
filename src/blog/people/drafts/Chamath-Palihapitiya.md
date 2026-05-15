@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['techie']
+type: ['techie', 'investor']
 person: 'Chamath-Palihapitiya'
 suggestions: ['David-Sacks', 'Jason-Calacanis', 'David-Friedberg', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'

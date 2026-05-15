@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator', 'entrepreneur']
+type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'Kyle-Forgeard'
 suggestions: ['David-Dobrik', 'Kai-Cenat', 'Andrew-Schulz', 'Adin-Ross']
 wikipedia: 'https://en.wikipedia.org/wiki/Nelk'

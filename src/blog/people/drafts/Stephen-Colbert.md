@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['comedian', 'celebrity']
+type: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host']
 person: 'Stephen-Colbert'
 suggestions: ['Trevor-Noah', 'Jon-Stewart', 'Jimmy-Fallon', 'Aubrey-Plaza']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_Colbert'

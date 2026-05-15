@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Jon-Bernthal'
 suggestions: ['tom-hardy', 'shia-labeouf', 'denzel-washington', 'jocko-willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Jon_Bernthal'

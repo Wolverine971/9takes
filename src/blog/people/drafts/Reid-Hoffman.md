@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['techie']
+type: ['techie', 'investor']
 person: 'Reid-Hoffman'
 suggestions: ['Ben-Horowitz', 'Marc-Andreessen', 'Shaan-Puri', 'Sam-Altman', 'Paul-Graham']
 wikipedia: 'https://en.wikipedia.org/wiki/Reid_Hoffman'

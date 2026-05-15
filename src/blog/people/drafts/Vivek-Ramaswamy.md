@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['politician', 'entrepreneur']
+type: ['politician', 'entrepreneur', 'campaign-politician', 'business-operator']
 person: 'Vivek-Ramaswamy'
 suggestions: ['JD-Vance', 'Donald-Trump', 'Peter-Thiel', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Vivek_Ramaswamy'

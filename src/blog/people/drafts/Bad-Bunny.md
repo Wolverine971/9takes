@@ -1,6 +1,6 @@
 ---
-title: 'Bad Bunny: The Psychology Behind the Conejo Malo'
-meta_title: "Why Bad Bunny Can't Stop Reinventing the Persona"
+title: 'Bad Bunny: The Puerto Rican Shape-Shifter Who Refused Every Cage'
+meta_title: 'Bad Bunny Enneagram Type 7: Why He Keeps Reinventing'
 description: 'Bad Bunny went from supermarket bagger to billionaire, never making the same album twice — until his latest forced him to stand still.'
 persona_title: 'The Conejo Who Ate Every Cage'
 author: 'DJ Wayne'
@@ -11,13 +11,57 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'Bad-Bunny'
 suggestions: ['Doja-Cat', 'Kanye', 'Drake', 'Kendrick-Lamar']
 wikipedia: 'https://en.wikipedia.org/wiki/Bad_Bunny'
-twitter: 'sanikimusic'
+twitter: 'sanbenito'
 instagram: 'badbunnypr'
 tiktok: 'badbunny'
+keywords:
+  - Bad Bunny Enneagram
+  - Bad Bunny psychology
+  - Enneagram Type 7
+  - Benito Martinez Ocasio
+  - Puerto Rican music
+same_as:
+  - https://en.wikipedia.org/wiki/Bad_Bunny
+  - https://www.wikidata.org/wiki/Q44333953
+  - https://x.com/sanbenito
+  - https://www.instagram.com/badbunnypr/
+  - https://www.tiktok.com/@badbunny
+wikidata_qid: Q44333953
+imdb_id: nm8730768
+birth_date: '1994-03-10'
+birth_place: 'Vega Baja, Puerto Rico'
+nationality:
+  - Puerto Rican
+occupation:
+  - rapper
+  - singer
+  - songwriter
+  - actor
+knows_about:
+  - Latin trap
+  - reggaeton
+  - Puerto Rican identity
+  - fashion
+  - professional wrestling
+citations:
+  - https://en.wikipedia.org/wiki/Bad_Bunny
+  - https://www.wikidata.org/wiki/Q44333953
+  - https://www.vogue.com/article/bad-bunny-vogue-mexico-interview-may-2025
+  - https://time.com/7204771/bad-bunny-debi-tirar-mas-fotos-interview-2025/
+faqs:
+  - question: "What is Bad Bunny's Enneagram type?"
+    answer: "The article types Bad Bunny as an Enneagram Type 7. His career is organized around movement, novelty, experimentation, and a refusal to let any one genre, language expectation, or celebrity script become a cage."
+    anchor: what-is-bad-bunnys-personality-type
+  - question: 'Why does Bad Bunny keep reinventing himself?'
+    answer: "In the Type 7 reading, reinvention is how Bad Bunny stays free. New sounds, wrestling, fashion, acting, and Puerto Rican folk traditions all let him keep possibility open instead of becoming trapped in the last successful version of himself."
+    anchor: the-restless-mind-behind-the-persona
+  - question: 'How does Debi Tirar Mas Fotos change the Type 7 analysis?'
+    answer: "The album is framed as a healthier Type 7 move toward depth: less chasing every possibility, more staying with Puerto Rican memory, grief, and cultural responsibility long enough to make something rooted."
+    anchor: what-triggered-deb-tirar-ms-fotos
 path: src/blog/people/drafts/Bad-Bunny.md
 content_quality:
   hook: 8.5

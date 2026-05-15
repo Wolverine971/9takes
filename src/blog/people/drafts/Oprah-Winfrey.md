@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['celebrity']
+type: ['celebrity', 'tv-comedy-crossover']
 person: 'Oprah-Winfrey'
 suggestions: ['Tyler-Perry', 'Keke-Palmer', 'Dolly-Parton', 'Dwayne-Johnson', 'Michelle-Obama']
 wikipedia: 'https://en.wikipedia.org/wiki/Oprah_Winfrey'

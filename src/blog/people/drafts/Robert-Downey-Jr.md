@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Robert-Downey-Jr'
 suggestions: ['tom-cruise', 'theo-von', 'dax-shepard', 'leonardo-dicaprio']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_Downey_Jr.'

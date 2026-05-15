@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator']
+type: ['creator', 'news-commentator']
 person: 'Piers-Morgan'
 suggestions: ['Donald-Trump', 'Meghan-Markle', 'Stephen-A-Smith', 'Patrick-Bet-David']
 wikipedia: 'https://en.wikipedia.org/wiki/Piers_Morgan'

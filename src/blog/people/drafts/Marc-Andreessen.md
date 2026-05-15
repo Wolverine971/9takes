@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['techie']
+type: ['techie', 'investor']
 person: 'Marc-Andreessen'
 suggestions: ['Peter-Thiel', 'Reid-Hoffman', 'Sam-Altman', 'Kara-Swisher']
 wikipedia: 'https://en.wikipedia.org/wiki/Marc_Andreessen'

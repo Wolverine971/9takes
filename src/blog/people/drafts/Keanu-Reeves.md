@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Keanu-Reeves'
 suggestions: ['Tom-Cruise', 'Johnny-Depp', 'Leonardo-DiCaprio', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Keanu_Reeves'

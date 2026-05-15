@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'Eminem'
 suggestions: ['Drake', 'Kanye', 'Taylor-Swift', 'Bad-Bunny', 'Joe-Rogan']
 wikipedia: ''

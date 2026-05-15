@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['celebrity']
+type: ['celebrity', 'screen-icon']
 person: 'Shia-LaBeouf'
 suggestions: ['Brad-Pitt', 'Kanye', 'Robert-Downey-Jr', 'Joaquin-Phoenix']
 wikipedia: 'https://en.wikipedia.org/wiki/Shia_LaBeouf'

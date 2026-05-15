@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
-type: ['author']
+type: ['author', 'novelist']
 person: 'J.K.-Rowling'
 suggestions: ['Emma-Watson', 'Hillary-Clinton', 'Greta-Thunberg', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/J._K._Rowling'

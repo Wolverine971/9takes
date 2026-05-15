@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'Brittany-Broski'
 suggestions: ['Emma-Chamberlain', 'Theo-Von', 'Kai-Cenat', 'Alex-Cooper']
 wikipedia: 'https://en.wikipedia.org/wiki/Brittany_Broski'

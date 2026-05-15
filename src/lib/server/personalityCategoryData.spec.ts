@@ -265,6 +265,41 @@ describe('getPersonalityCategoryGroups', () => {
 		]);
 	});
 
+	it('places people via cluster tags in the type array (frontmatter-driven path)', () => {
+		// Person whose slug is unknown to every hardcoded slug set, but whose
+		// type array contains an explicit cluster tag. They should still land
+		// in the right cluster.
+		const groups = getPersonalityCategoryGroups('film-tv', [
+			makePerson('Brand-New-Actor', ['movieStar', 'screen-icon'], {
+				categorySlugs: ['film-tv'],
+				primaryCategorySlug: 'film-tv'
+			}),
+			makePerson('Some-Newcomer', ['newMovieStar', 'rising-star'], {
+				categorySlugs: ['film-tv'],
+				primaryCategorySlug: 'film-tv'
+			})
+		]);
+
+		expect(groups.find((g) => g.slug === 'screen-icons-leading-actors')?.people[0]?.slug).toBe(
+			'Brand-New-Actor'
+		);
+		expect(groups.find((g) => g.slug === 'rising-stars-franchise-leads')?.people[0]?.slug).toBe(
+			'Some-Newcomer'
+		);
+
+		// Cluster tag should override expected default placement. Without the
+		// 'tv-comedy-crossover' tag, a plain ['movieStar'] would go to screen-icons.
+		const overrideGroups = getPersonalityCategoryGroups('film-tv', [
+			makePerson('Plain-Actor', ['movieStar', 'tv-comedy-crossover'], {
+				categorySlugs: ['film-tv'],
+				primaryCategorySlug: 'film-tv'
+			})
+		]);
+		expect(overrideGroups.find((g) => g.slug === 'tv-comedy-crossovers')?.people[0]?.slug).toBe(
+			'Plain-Actor'
+		);
+	});
+
 	it('clusters authors-thinkers people into author and interpreter lanes', () => {
 		const groups = getPersonalityCategoryGroups('authors-thinkers', [
 			makePerson('J.K.-Rowling', ['author'], {

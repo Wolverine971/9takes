@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Gal-Gadot'
 suggestions: ['Jennifer-Lopez', 'Hailey-Bieber', 'Ariana-Grande', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Gal_Gadot'

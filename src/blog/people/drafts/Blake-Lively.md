@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
-type: ['celebrity']
+type: ['celebrity', 'screen-icon']
 person: 'Blake-Lively'
 suggestions: ['Ryan-Reynolds', 'Taylor-Swift', 'Scarlett-Johansson', 'Jennifer-Garner']
 wikipedia: 'https://en.wikipedia.org/wiki/Blake_Lively'

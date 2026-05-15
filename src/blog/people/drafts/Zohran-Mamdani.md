@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['politician']
+type: ['politician', 'campaign-politician']
 person: 'Zohran-Mamdani'
 suggestions: ['Alexandria-Ocasio-Cortez', 'Gavin-Newsom', 'Kamala-Harris', 'Nancy-Pelosi']
 wikipedia: 'https://en.wikipedia.org/wiki/Zohran_Mamdani'

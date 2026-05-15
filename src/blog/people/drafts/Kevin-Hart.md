@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['comedian', 'movieStar']
+type: ['comedian', 'movieStar', 'tv-comedy-crossover', 'sketch-comic']
 person: 'Kevin-Hart'
 suggestions: ['Dave-Chappelle', 'Eddie-Murphy', 'Caleb-Hearon', 'Dwayne-Johnson', 'Ryan-Reynolds']
 wikipedia: ''

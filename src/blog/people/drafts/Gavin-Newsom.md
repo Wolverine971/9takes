@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['politician']
+type: ['politician', 'campaign-politician']
 person: 'Gavin-Newsom'
 suggestions: ['Donald-Trump', 'JD-Vance', 'Kamala-Harris', 'Justin-Trudeau']
 wikipedia: 'https://en.wikipedia.org/wiki/Gavin_Newsom'

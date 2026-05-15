@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['techie', 'author']
+type: ['techie', 'author', 'tech-interpreter', 'business-interpreter']
 person: 'Scott-Galloway'
 suggestions: ['Kara-Swisher', 'Patrick-Bet-David', 'Shaan-Puri', 'Sam-Parr', 'Reid-Hoffman']
 wikipedia: 'https://en.wikipedia.org/wiki/Scott_Galloway_(professor)'

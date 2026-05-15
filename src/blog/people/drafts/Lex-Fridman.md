@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['creator', 'techie']
+type: ['creator', 'techie', 'podcaster', 'tech-interpreter']
 person: 'Lex-Fridman'
 suggestions: ['Joe-Rogan', 'Jordan-Peterson', 'Elon-Musk', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Lex_Fridman'

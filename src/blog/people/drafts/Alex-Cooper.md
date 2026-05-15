@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['creator']
+type: ['creator', 'podcaster']
 person: 'Alex-Cooper'
 suggestions: ['Alix-Earle', 'Bobbi-Althoff', 'Emma-Chamberlain', 'Brittany-Broski']
 wikipedia: 'https://en.wikipedia.org/wiki/Call_Her_Daddy'

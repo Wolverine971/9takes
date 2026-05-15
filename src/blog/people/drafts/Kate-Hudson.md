@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['movieStar', 'entrepreneur']
+type: ['movieStar', 'entrepreneur', 'screen-icon', 'business-operator']
 person: 'Kate-Hudson'
 suggestions: ['Gwyneth-Paltrow', 'Matthew-McConaughey', 'Dax-Shepard', 'Emma-Stone']
 wikipedia: 'https://en.wikipedia.org/wiki/Kate_Hudson'

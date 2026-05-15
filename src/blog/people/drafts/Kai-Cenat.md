@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['creator']
+type: ['creator', 'streamer']
 person: 'Kai-Cenat'
 persona_title: "Twitch's Perpetual Motion Machine"
 suggestions: ['IShowSpeed', 'Druski', 'xQc', 'Mr-Beast', 'Logan-Paul']

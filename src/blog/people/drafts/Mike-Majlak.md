@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['creator', 'influencer']
+type: ['creator', 'influencer', 'viral-entertainer']
 person: 'Mike-Majlak'
 suggestions: ['Logan-Paul', 'Sara-Saffari', 'Bradley-Martyn', 'Theo-Von', 'Tim-Dillon']
 wikipedia: 'https://en.wikipedia.org/wiki/Mike_Majlak'

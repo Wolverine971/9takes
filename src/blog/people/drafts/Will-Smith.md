@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['movieStar', 'musician']
+type: ['movieStar', 'musician', 'screen-icon']
 person: 'Will-Smith'
 suggestions: ['Denzel-Washington', 'Dwayne-Johnson', 'Jennifer-Lopez', 'Drake']
 wikipedia: 'https://en.wikipedia.org/wiki/Will_Smith'

@@ -27,6 +27,11 @@ type PublicBlogCommentRow = Pick<
 	BlogCommentRow,
 	'id' | 'blog_link' | 'blog_type' | 'comment' | 'created_at' | 'author_id'
 >;
+type RelatedPersonalityCard = PersonalitySimilarityRow & { slug: string };
+type RelatedPersonalityPayload = {
+	sameNichePosts: RelatedPersonalityCard[];
+	sameEnneagramPosts: RelatedPersonalityCard[];
+};
 
 export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
@@ -120,6 +125,9 @@ export const load: PageServerLoad = async (event) => {
 		types: personData.type,
 		personSlug: canonicalSlug
 	});
+	const postTypes = normalizePeopleTypes(personData.type);
+	const enneagramNum = parseEnneagramNumber(personData.enneagram);
+	const relatedPosts = await buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum);
 
 	return {
 		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null, // Pass user info to components
@@ -148,12 +156,13 @@ export const load: PageServerLoad = async (event) => {
 		placeholders,
 		headings,
 		comments,
-		bridgeLinks
+		bridgeLinks,
+		relatedPosts
 	};
 };
 
 // In-memory cache for related posts
-const relatedPostsCache = new Map();
+const relatedPostsCache = new Map<string, RelatedPersonalityPayload>();
 
 function countRenderableWords(content: string): number {
 	const plainText = content
@@ -246,46 +255,12 @@ export const actions: Actions = {
 		const data = await request.formData();
 		const slug = data.get('slug')?.toString();
 		const postTypes = parsePostTypes(data.get('postTypes'));
-		const enneagram = data.get('enneagram')
-			? parseInt(data.get('enneagram')?.toString() || '0')
-			: null;
+		const enneagram = parseEnneagramNumber(data.get('enneagram')?.toString());
 
 		if (!slug || (!postTypes.length && !enneagram)) {
 			return { success: false, error: 'Missing required parameters' };
 		}
-
-		// Check cache first
-		const cacheKey = `${slug}:${JSON.stringify(postTypes)}:${enneagram || ''}`;
-		const cachedResult = relatedPostsCache.get(cacheKey);
-
-		if (cachedResult) {
-			return { success: true, ...cachedResult };
-		}
-
-		// Get related posts
-		let sameNichePosts: any[] = [];
-		let sameEnneagramPosts: any[] = [];
-
-		// Get similar posts by shared tags/categories
-		if (postTypes.length) {
-			sameNichePosts = await getSimilarPosts(supabase, slug, postTypes, enneagram);
-		}
-
-		// Get posts by enneagram, ranked by overall similarity
-		if (enneagram) {
-			sameEnneagramPosts = await getEnneagramPosts(supabase, slug, enneagram, postTypes).then(
-				(posts) =>
-					posts.filter((post) => !sameNichePosts.some((candidate) => candidate.slug === post.slug))
-			);
-		}
-
-		const result = {
-			sameNichePosts,
-			sameEnneagramPosts
-		};
-
-		// Cache the result for the process lifetime (small and non-personalized)
-		relatedPostsCache.set(cacheKey, result);
+		const result = await buildRelatedPosts(supabase, slug, postTypes, enneagram);
 
 		return {
 			success: true,
@@ -293,6 +268,15 @@ export const actions: Actions = {
 		};
 	}
 };
+
+function parseEnneagramNumber(value: unknown): number | null {
+	if (typeof value === 'number' && Number.isFinite(value)) return value;
+	if (typeof value === 'string' && value.trim() !== '') {
+		const parsed = Number.parseInt(value, 10);
+		return Number.isFinite(parsed) ? parsed : null;
+	}
+	return null;
+}
 
 function parsePostTypes(value: FormDataEntryValue | null): string[] {
 	if (typeof value !== 'string' || value.trim().length === 0) return [];
@@ -308,8 +292,44 @@ function parsePostTypes(value: FormDataEntryValue | null): string[] {
 	}
 }
 
-function mapSimilarResults(rows: PersonalitySimilarityRow[]) {
+function mapSimilarResults(rows: PersonalitySimilarityRow[]): RelatedPersonalityCard[] {
 	return rows.map((row) => ({ ...row, slug: normalizePersonalitySlug(row.person) }));
+}
+
+async function buildRelatedPosts(
+	supabase: ServerSupabaseClient,
+	slug: string,
+	postTypes: string[],
+	enneagram: number | null
+): Promise<RelatedPersonalityPayload> {
+	const cacheKey = `${normalizePersonalitySlug(slug)}:${JSON.stringify(postTypes)}:${enneagram || ''}`;
+	const cachedResult = relatedPostsCache.get(cacheKey);
+
+	if (cachedResult) {
+		return cachedResult;
+	}
+
+	let sameNichePosts: RelatedPersonalityCard[] = [];
+	let sameEnneagramPosts: RelatedPersonalityCard[] = [];
+
+	if (postTypes.length) {
+		sameNichePosts = await getSimilarPosts(supabase, slug, postTypes, enneagram);
+	}
+
+	if (enneagram) {
+		sameEnneagramPosts = await getEnneagramPosts(supabase, slug, enneagram, postTypes).then(
+			(posts) =>
+				posts.filter((post) => !sameNichePosts.some((candidate) => candidate.slug === post.slug))
+		);
+	}
+
+	const result = {
+		sameNichePosts,
+		sameEnneagramPosts
+	};
+
+	relatedPostsCache.set(cacheKey, result);
+	return result;
 }
 
 async function getSimilarPosts(

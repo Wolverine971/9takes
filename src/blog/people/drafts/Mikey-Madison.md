@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['newMovieStar']
+type: ['newMovieStar', 'rising-star']
 person: 'Mikey-Madison'
 suggestions: ['Sydney-Sweeney', 'Anya-Taylor-Joy', 'Zendaya', 'Timothee-Chalamet']
 wikipedia: 'https://en.wikipedia.org/wiki/Mikey_Madison'

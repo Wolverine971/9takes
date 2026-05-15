@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['creator']
+type: ['creator', 'viral-entertainer']
 person: 'Jake-Shane'
 suggestions: ['Caleb-Hearon', 'Keke-Palmer', 'Aubrey-Plaza', 'Alix-Earle', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Shane'

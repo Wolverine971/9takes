@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Mila-Kunis'
 suggestions: ['Natalie-Portman', 'Howard-Stern', 'Jennifer-Garner', 'Kristen-Bell']
 wikipedia: 'https://en.wikipedia.org/wiki/Mila_Kunis'

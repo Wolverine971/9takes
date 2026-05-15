@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Bill-Clinton'
 suggestions: ['Hillary-Clinton', 'Barack-Obama', 'George-W-Bush', 'George-H-W-Bush', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Clinton'

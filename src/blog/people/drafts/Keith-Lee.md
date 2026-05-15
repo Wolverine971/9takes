@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['creator', 'tiktoker']
+type: ['creator', 'tiktoker', 'lifestyle-builder']
 person: 'Keith-Lee'
 suggestions: ['Jelly-Roll', 'Dave-Chappelle', 'Bella-Poarch', 'Keanu-Reeves']
 wikipedia: 'https://en.wikipedia.org/wiki/Keith_Lee_(food_critic)'

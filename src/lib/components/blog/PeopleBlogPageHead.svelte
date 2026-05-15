@@ -106,7 +106,8 @@
 					citations: data?.citations ?? [],
 					wordCount: data?.word_count,
 					timeRequired: data?.time_required,
-					faqs: data?.faqs ?? []
+					faqs: data?.faqs ?? [],
+					includeFaqPage: (data?.faqs?.length ?? 0) >= 2
 				})
 			);
 		} catch (error) {

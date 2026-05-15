@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['movieStar', 'entrepreneur']
+type: ['movieStar', 'entrepreneur', 'screen-icon', 'business-operator']
 person: 'Ryan-Reynolds'
 suggestions: ['Hugh-Jackman', 'Dax-Shepard', 'Blake-Lively', 'Tom-Holland']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Reynolds'

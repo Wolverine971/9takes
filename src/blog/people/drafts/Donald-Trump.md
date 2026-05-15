@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Donald-Trump'
 suggestions:
   ['Joe-Biden', 'Kamala-Harris', 'Hillary-Clinton', 'JD-Vance', 'Joe-Rogan', 'Vladimir-Putin']

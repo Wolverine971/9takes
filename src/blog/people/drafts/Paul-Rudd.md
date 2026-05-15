@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Paul-Rudd'
 suggestions: ['Jack-Black', 'Keanu-Reeves', 'Tom-Hanks', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Rudd'

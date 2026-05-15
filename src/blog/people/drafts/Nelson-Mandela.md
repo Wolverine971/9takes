@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['historical', 'politician', 'activist']
+type: ['historical', 'politician', 'activist', 'movement-leader']
 person: 'Nelson-Mandela'
 suggestions: ['Abraham-Lincoln', 'Martin-Luther-King-Jr', 'Barack-Obama', 'Desmond-Tutu']
 wikipedia: 'https://en.wikipedia.org/wiki/Nelson_Mandela'

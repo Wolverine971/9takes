@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Katy-Perry'
 suggestions: ['Doja-Cat', 'Taylor-Swift', 'Alex-Cooper', 'Benson-Boone']
 wikipedia: 'https://en.wikipedia.org/wiki/Katy_Perry'

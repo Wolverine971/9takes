@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Rachel-McAdams'
 suggestions: ['Keanu-Reeves', 'Scarlett-Johansson', 'Ryan-Gosling', 'Anne-Hathaway']
 wikipedia: 'https://en.wikipedia.org/wiki/Rachel_McAdams'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Rachel-Brosnahan'
 suggestions: ['Anne-Hathaway', 'Natalie-Portman', 'Tina-Fey', 'Meryl-Streep']
 wikipedia: 'https://en.wikipedia.org/wiki/Rachel_Brosnahan'

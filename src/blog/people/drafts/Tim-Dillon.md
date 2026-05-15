@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['comedian']
+type: ['comedian', 'stand-up']
 person: 'Tim-Dillon'
 suggestions: ['Joe-Rogan', 'Theo-Von', 'Shane-Gillis', 'Andrew-Schulz']
 wikipedia: 'https://en.wikipedia.org/wiki/Tim_Dillon_(comedian)'

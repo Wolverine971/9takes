@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Hugh-Jackman'
 suggestions: ['Margot-Robbie', 'Tom-Hiddleston', 'Henry-Cavill', 'Dwayne-Johnson']
 wikipedia: 'https://en.wikipedia.org/wiki/Hugh_Jackman'

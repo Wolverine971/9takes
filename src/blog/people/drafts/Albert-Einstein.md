@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['historical']
+type: ['historical', 'historical-scientist']
 person: 'Albert-Einstein'
 suggestions: ['Bill-Gates', 'Nikola-Tesla', 'Friedrich-Nietzsche', 'Robert-Oppenheimer']
 wikipedia: 'https://en.wikipedia.org/wiki/Albert_Einstein'

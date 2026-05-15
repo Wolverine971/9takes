@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Miley-Cyrus'
 suggestions: ['Billie-Eilish', 'Demi-Lovato', 'Chappell-Roan', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Miley_Cyrus'

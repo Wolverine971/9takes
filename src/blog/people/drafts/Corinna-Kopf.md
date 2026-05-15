@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator', 'influencer']
+type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'Corinna-Kopf'
 suggestions: ['Alex-Cooper', 'Paris-Hilton', 'David-Dobrik', 'Alix-Earle']
 wikipedia: ''

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Daniel-Day-Lewis'
 suggestions: ['Cillian-Murphy', 'Robert-Greene', 'Mark-Zuckerberg', 'Rooney-Mara']
 wikipedia: 'https://en.wikipedia.org/wiki/Daniel_Day-Lewis'

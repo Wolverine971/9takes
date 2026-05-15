@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['comedian', 'creator']
+type: ['comedian', 'creator', 'podcaster', 'internet-comic']
 person: 'Caleb-Hearon'
 suggestions: ['Jake-Shane', 'Eddie-Murphy', 'Dave-Chappelle', 'Keke-Palmer', 'Theo-Von']
 wikipedia: ''

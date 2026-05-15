@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['historical']
+type: ['historical', 'historical-scientist']
 person: 'Leonardo-da-Vinci'
 suggestions: ['Nikola-Tesla', 'Elon-Musk', 'Friedrich-Nietzsche', 'Bill-Gates']
 wikipedia: 'https://en.wikipedia.org/wiki/Leonardo_da_Vinci'

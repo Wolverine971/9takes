@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Jocko-Willink'
 suggestions: ['Joe-Rogan', 'Shawn-Ryan', 'Tim-Ferriss', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jocko_Willink'

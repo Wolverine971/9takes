@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Penelope-Cruz'
 suggestions: ['Tom-Cruise', 'Pedro-Pascal', 'Scarlett-Johansson', 'Jennifer-Lawrence']
 wikipedia: 'https://en.wikipedia.org/wiki/Penélope_Cruz'

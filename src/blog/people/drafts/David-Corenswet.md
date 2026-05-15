@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'David-Corenswet'
 suggestions: ['Henry-Cavill', 'Matt-Damon', 'Tom-Hiddleston', 'Natalie-Portman']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Corenswet'

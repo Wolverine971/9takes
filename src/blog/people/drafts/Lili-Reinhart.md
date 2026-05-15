@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
-type: ['movieStar', 'author']
+type: ['movieStar', 'author', 'screen-icon']
 person: 'Lili-Reinhart'
 suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Selena-Gomez', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Lili_Reinhart'

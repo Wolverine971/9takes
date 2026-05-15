@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity', 'entrepreneur']
+type: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator']
 person: 'Kris-Jenner'
 suggestions: ['Kim-Kardashian', 'Khloe-Kardashian', 'Kylie-Jenner', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Kris_Jenner'

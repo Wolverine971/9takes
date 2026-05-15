@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
-type: ['historical', 'politician', 'activist']
+type: ['historical', 'politician', 'activist', 'movement-leader']
 person: 'Mahatma-Gandhi'
 suggestions: ['Martin-Luther-King-Jr', 'Greta-Thunberg', 'Bernie-Sanders', 'Noam-Chomsky']
 wikipedia: 'https://en.wikipedia.org/wiki/Mahatma_Gandhi'

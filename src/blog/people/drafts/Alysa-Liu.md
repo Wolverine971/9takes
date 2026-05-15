@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['celebrity']
+type: ['celebrity', 'celebrity-image']
 person: 'Alysa-Liu'
 suggestions: ['Brittany-Broski', 'Benson-Boone', 'Doja-Cat', 'Bad-Bunny']
 wikipedia: 'https://en.wikipedia.org/wiki/Alysa_Liu'

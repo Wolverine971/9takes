@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Harry-Styles'
 suggestions: ['Taylor-Swift', 'Olivia-Rodrigo', 'Billie-Eilish', 'Zayn-Malik', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Harry_Styles'

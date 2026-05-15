@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['historical', 'other']
+type: ['historical', 'other', 'historical-artist']
 person: 'Frank-Lloyd-Wright'
 suggestions: ['Steve-Jobs', 'Albert-Einstein', 'Nikola-Tesla', 'Robert-Oppenheimer']
 wikipedia: 'https://en.wikipedia.org/wiki/Frank_Lloyd_Wright'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Ana-de-Armas'
 suggestions: ['Ben-Affleck', 'Margot-Robbie', 'Robert-Pattinson', 'Anya-Taylor-Joy']
 wikipedia: 'https://en.wikipedia.org/wiki/Ana_de_Armas'

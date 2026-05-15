@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['entrepreneur']
+type: ['entrepreneur', 'business-operator']
 person: 'Bernard-Arnault'
 suggestions: ['Donald-Trump', 'Hailey-Bieber', 'Cristiano-Ronaldo', 'Jennifer-Lopez']
 wikipedia: 'https://en.wikipedia.org/wiki/Bernard_Arnault'

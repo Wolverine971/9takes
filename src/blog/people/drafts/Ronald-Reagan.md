@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Ronald-Reagan'
 suggestions:
   ['George-H-W-Bush', 'Donald-Trump', 'Abraham-Lincoln', 'Barack-Obama', 'Martin-Luther-King-Jr']

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
-type: ['politician']
+type: ['politician', 'campaign-politician']
 person: 'Bernie-Sanders'
 suggestions: ['alexandria-ocasio-cortez', 'hillary-clinton', 'donald-trump', 'joe-biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Bernie_Sanders'

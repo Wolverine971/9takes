@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Justin-Trudeau'
 suggestions: ['Gavin-Newsom', 'Kamala-Harris', 'Donald-Trump', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Justin_Trudeau'

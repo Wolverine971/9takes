@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['musician']
+type: ['musician', 'alternative-artist']
 person: 'Charli-xcx'
 suggestions: ['Taylor-Swift', 'Sabrina-Carpenter', 'Billie-Eilish', 'Dua-Lipa']
 wikipedia: 'https://en.wikipedia.org/wiki/Charli_XCX'

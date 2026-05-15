@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['historical']
+type: ['historical', 'historical-scientist']
 person: 'Robert-Oppenheimer'
 suggestions: ['Nikola-Tesla', 'Noam-Chomsky', 'Peter-Thiel', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/J._Robert_Oppenheimer'

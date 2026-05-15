@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '2'
-type: ['historical', 'activist']
+type: ['historical', 'activist', 'movement-leader']
 person: 'Mother-Teresa'
 suggestions: ['Princess-Diana', 'Martin-Luther-King-Jr', 'Malcolm-X', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Mother_Teresa'

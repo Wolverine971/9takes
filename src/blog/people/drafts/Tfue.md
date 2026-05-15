@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['creator']
+type: ['creator', 'streamer']
 person: 'Tfue'
 suggestions: ['xqc', 'Kai-Cenat', 'IShowSpeed', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Tfue'

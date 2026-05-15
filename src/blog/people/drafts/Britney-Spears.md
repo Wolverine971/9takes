@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Britney-Spears'
 suggestions: ['Paris-Hilton', 'Demi-Lovato', 'Hilary-Duff', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Britney_Spears'

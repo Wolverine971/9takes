@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram:
-type: ['celebrity', 'actor']
+type: ['celebrity', 'movieStar', 'screen-icon']
 person: 'Antonio-Banderas'
 suggestions: []
 wikipedia: 'https://en.wikipedia.org/wiki/Antonio_Banderas'

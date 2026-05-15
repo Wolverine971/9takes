@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['celebrity', 'lifestyleInfluencer']
+type: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder']
 person: 'Kylie-Jenner'
 suggestions:
   [

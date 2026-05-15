@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['creator']
+type: ['creator', 'podcaster']
 person: 'Shawn-Ryan'
 suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Chris-Williamson', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'

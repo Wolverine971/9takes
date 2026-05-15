@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['celebrity', 'lifestyleInfluencer']
+type: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder']
 person: 'Gigi-Hadid'
 suggestions: ['Bella-Hadid', 'Kendall-Jenner', 'Hailey-Bieber', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Gigi_Hadid'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['journalist', 'creator']
+type: ['journalist', 'creator', 'news-commentator']
 person: 'Andrew-Callaghan'
 suggestions: ['Theo-Von', 'Joe-Rogan', 'Casey-Neistat', 'Jon-Stewart']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Callaghan'

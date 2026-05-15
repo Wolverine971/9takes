@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Ryan-Gosling'
 suggestions: ['Keanu-Reeves', 'Joaquin-Phoenix', 'Paul-Rudd', 'Margot-Robbie']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Gosling'

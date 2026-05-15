@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Margot-Robbie'
 suggestions: ['Robert-Downey-Jr', 'Will-Smith', 'Emily-Ratajkowski', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Margot_Robbie'

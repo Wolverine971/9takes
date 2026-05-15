@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['musician']
+type: ['musician', 'singer-songwriter']
 person: 'John-Mayer'
 suggestions: ['Taylor-Swift', 'Drake', 'Katy-Perry', 'Harry-Styles']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Mayer'

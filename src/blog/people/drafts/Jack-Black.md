@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['celebrity', 'comedian', 'musician']
+type: ['celebrity', 'comedian', 'musician', 'tv-comedy-crossover', 'music-crossover', 'sketch-comic']
 person: 'Jack-Black'
 suggestions: ['Paul-Rudd', 'Kevin-Hart', 'Ryan-Reynolds', 'Robert-Downey-Jr']
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Black'

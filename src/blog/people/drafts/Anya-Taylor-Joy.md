@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['newMovieStar']
+type: ['newMovieStar', 'rising-star']
 person: 'Anya-Taylor-Joy'
 suggestions: ['Zendaya', 'Timothee-Chalamet', 'Sydney-Sweeney', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Anya_Taylor-Joy'

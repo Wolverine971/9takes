@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['newMovieStar', 'movieStar']
+type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'Callum-Turner'
 suggestions: ['Dua-Lipa', 'Anya-Taylor-Joy', 'Cillian-Murphy', 'Paul-Mescal']
 wikipedia: 'https://en.wikipedia.org/wiki/Callum_Turner'

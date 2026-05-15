@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'business-operator']
 person: 'Jensen-Huang'
 suggestions: ['peter-thiel', 'elon-musk', 'sam-altman', 'mark-zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jensen_Huang'

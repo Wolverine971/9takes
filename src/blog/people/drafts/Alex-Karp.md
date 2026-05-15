@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'frontier-builder']
 person: 'Alex-Karp'
 suggestions: ['Peter-Thiel', 'Dario-Amodei', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Alex_Karp'

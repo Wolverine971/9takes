@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['creator', 'author']
+type: ['creator', 'author', 'news-commentator']
 person: 'Ryan-Grim'
 suggestions: ['Alexandria-Ocasio-Cortez', 'Peter-Thiel', 'Tucker-Carlson', 'Krystal-Ball']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Grim'

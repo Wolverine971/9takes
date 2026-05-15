@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Oscar-Isaac'
 suggestions: ['Pedro-Pascal', 'Jake-Gyllenhaal', 'Keanu-Reeves', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Oscar_Isaac'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['newMovieStar']
+type: ['newMovieStar', 'rising-star']
 person: 'Tom-Holland'
 suggestions: ['Zendaya', 'Timothee-Chalamet', 'Robert-Downey-Jr', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Tom_Holland'

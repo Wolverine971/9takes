@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Leonardo-DiCaprio'
 suggestions: ['Tom-Cruise', 'Robert-Downey-Jr', 'Jennifer-Lawrence', 'Margot-Robbie']
 wikipedia: 'https://en.wikipedia.org/wiki/Leonardo_DiCaprio'

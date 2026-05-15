@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['tiktoker']
+type: ['tiktoker', 'lifestyle-builder']
 person: "Dixie-D'Amelio"
 suggestions: ["Charli-D'Amelio", 'Billie-Eilish', 'Madison-Beer', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Dixie_D%27Amelio'

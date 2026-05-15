@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['politician', 'entrepreneur']
+type: ['politician', 'entrepreneur', 'campaign-politician', 'business-operator']
 person: 'Jared-Kushner'
 suggestions: ['Donald-Trump', 'Peter-Thiel', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jared_Kushner'

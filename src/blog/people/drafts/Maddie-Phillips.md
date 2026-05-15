@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['newMovieStar', 'celebrity']
+type: ['newMovieStar', 'celebrity', 'rising-star']
 person: 'Maddie-Phillips'
 suggestions: ['Saoirse-Ronan', 'Anya-Taylor-Joy', 'Jacob-Elordi', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Maddie_Phillips'

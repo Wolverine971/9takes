@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Austin-Butler'
 suggestions: ['Keanu-Reeves', 'Ryan-Gosling', 'Mikey-Madison', 'Brad-Pitt']
 wikipedia: 'https://en.wikipedia.org/wiki/Austin_Butler'

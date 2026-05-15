@@ -404,11 +404,9 @@ const RAW_TYPE_LABELS: Record<string, string> = {
 	comedian: 'Comedian',
 	author: 'Author',
 	athlete: 'Athlete',
-	sports: 'Sports Figure',
 	psychology: 'Psychology',
 	other: 'Other',
-	essay: 'Essay Subject',
-	'cultural icon': 'Cultural Icon'
+	essay: 'Essay Subject'
 };
 
 function normalizeTypeKey(value: string): string {

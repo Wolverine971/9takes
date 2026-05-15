@@ -20,7 +20,7 @@ content_quality:
   overall: 9.0
   letter: 'A'
   graded_at: '2026-03-28'
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'business-operator']
 person: 'James-Dyson'
 suggestions: ['steve-jobs', 'elon-musk', 'greta-thunberg', 'jordan-peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Dyson'

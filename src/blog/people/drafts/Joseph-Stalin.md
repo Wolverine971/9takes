@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['historical', 'politician']
+type: ['historical', 'politician', 'historical-leader']
 person: 'Joseph-Stalin'
 suggestions: ['Vladimir-Putin', 'Xi-Jinping', 'Napoleon-Bonaparte', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Joseph_Stalin'

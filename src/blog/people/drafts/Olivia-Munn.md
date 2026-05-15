@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Olivia-Munn'
 suggestions: ['jennifer-lawrence', 'aubrey-plaza', 'pedro-pascal', 'zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Munn'

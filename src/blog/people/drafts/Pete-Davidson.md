@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['celebrity', 'comedian']
+type: ['celebrity', 'comedian', 'tv-comedy-crossover', 'sketch-comic']
 person: 'Pete-Davidson'
 suggestions: ['Dave-Chappelle', 'Ariana-Grande', 'Kim-Kardashian', 'Shane-Gillis']
 wikipedia: 'https://en.wikipedia.org/wiki/Pete_Davidson'

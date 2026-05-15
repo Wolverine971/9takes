@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'Tim-Cook'
 suggestions: ['Steve-Jobs', 'Mark-Zuckerberg', 'Sundar-Pichai', 'Satya-Nadella']
 wikipedia: 'https://en.wikipedia.org/wiki/Tim_Cook'

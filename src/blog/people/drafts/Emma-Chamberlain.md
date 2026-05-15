@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
-type: ['creator', 'lifestyleInfluencer', 'entrepreneur']
+type: ['creator', 'lifestyleInfluencer', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'Emma-Chamberlain'
 suggestions: ['Alex-Cooper', 'Olivia-Rodrigo', 'Billie-Eilish', "Charli-D'Amelio", 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Chamberlain'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['celebrity', 'movieStar']
+type: ['celebrity', 'movieStar', 'screen-icon']
 person: 'Sofia-Vergara'
 suggestions: ['Jennifer-Lopez', 'Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Sofía_Vergara'

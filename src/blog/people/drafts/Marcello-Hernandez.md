@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['comedian']
+type: ['comedian', 'sketch-comic']
 person: 'Marcello-Hernandez'
 suggestions: ['Kevin-Hart', 'Bad-Bunny', 'Pedro-Pascal', 'Jack-Black']
 content_quality:

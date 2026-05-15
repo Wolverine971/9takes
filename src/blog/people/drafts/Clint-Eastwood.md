@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
-type: ['movieStar', 'celebrity']
+type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'Clint-Eastwood'
 suggestions: ['Morgan-Freeman', 'Tom-Hanks', 'Arnold-Schwarzenegger', 'Keanu-Reeves']
 wikipedia: 'https://en.wikipedia.org/wiki/Clint_Eastwood'

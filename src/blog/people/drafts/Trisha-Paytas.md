@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['creator', 'celebrity']
+type: ['creator', 'celebrity', 'celebrity-image', 'viral-entertainer']
 person: 'Trisha-Paytas'
 suggestions: ['Kim-Kardashian', 'Paris-Hilton', 'James-Charles', 'Miley-Cyrus']
 wikipedia: 'https://en.wikipedia.org/wiki/Trisha_Paytas'

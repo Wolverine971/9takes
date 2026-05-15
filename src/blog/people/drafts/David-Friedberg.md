@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['techie', 'entrepreneur']
+type: ['techie', 'entrepreneur', 'investor']
 person: 'David-Friedberg'
 suggestions: ['Chamath-Palihapitiya', 'David-Sacks', 'Jason-Calacanis', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Friedberg'

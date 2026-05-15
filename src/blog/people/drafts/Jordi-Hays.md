@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator', 'entrepreneur']
+type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'Jordi-Hays'
 suggestions: ['John-Coogan', 'Chamath-Palihapitiya', 'Alex-Hormozi', 'Gary-Vee']
 wikipedia: ''

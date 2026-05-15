@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['newMovieStar']
+type: ['newMovieStar', 'rising-star']
 person: 'Jenna-Ortega'
 suggestions:
   [

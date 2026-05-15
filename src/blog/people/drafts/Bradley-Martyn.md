@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['creator', 'influencer']
+type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'Bradley-Martyn'
 suggestions: ['Sara-Saffari', 'Mike-Majlak', 'Sky-Bri', 'Joe-Rogan', 'Jake-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Bradley_Martyn'

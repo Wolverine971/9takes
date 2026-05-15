@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['comedian', 'celebrity']
+type: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host']
 person: 'Jon-Stewart'
 suggestions: ['Dave-Chappelle', 'Steve-Carell', 'Trevor-Noah', 'Pete-Davidson', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Jon_Stewart'

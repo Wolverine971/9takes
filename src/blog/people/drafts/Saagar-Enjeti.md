@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['journalist', 'creator']
+type: ['journalist', 'creator', 'news-commentator']
 person: 'Saagar-Enjeti'
 suggestions: ['Krystal-Ball', 'Ryan-Grim', 'Tucker-Carlson', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Saagar_Enjeti'

@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['entrepreneur', 'techie']
+type: ['entrepreneur', 'techie', 'business-operator']
 person: 'Adam-Neumann'
 suggestions: ['Travis-Kalanick', 'Elon-Musk', 'Gwyneth-Paltrow', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Adam_Neumann'

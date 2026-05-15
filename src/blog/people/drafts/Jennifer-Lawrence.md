@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Jennifer-Lawrence'
 suggestions: ['Timothee-Chalamet', 'Pedro-Pascal', 'Zendaya', 'Aubrey-Plaza']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Lawrence'

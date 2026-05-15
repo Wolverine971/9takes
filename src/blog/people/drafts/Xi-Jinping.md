@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['politician']
+type: ['politician', 'modern-leader']
 person: 'Xi-Jinping'
 persona_title: "China's Iron Hand"
 suggestions: ['Vladimir-Putin', 'Donald-Trump', 'Joe-Biden', 'Joseph-Stalin']

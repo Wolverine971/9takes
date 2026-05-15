@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Denzel-Washington'
 suggestions: ['Tyler-Perry', 'Will-Smith', 'Michael-B-Jordan', 'Morgan-Freeman', 'Eddie-Murphy']
 wikipedia: 'https://en.wikipedia.org/wiki/Denzel_Washington'

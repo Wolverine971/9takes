@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.7'
 published: true
 enneagram: 3
-type: ['musician']
+type: ['musician', 'pop-star']
 person: 'Ariana-Grande'
 suggestions: ['Keke-Palmer', 'Taylor-Swift', 'Billie-Eilish', 'Selena-Gomez', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Ariana_Grande'

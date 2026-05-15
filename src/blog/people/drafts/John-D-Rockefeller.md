@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
-type: ['entrepreneur', 'historical']
+type: ['entrepreneur', 'historical', 'historical-artist', 'business-operator']
 person: 'John-D-Rockefeller'
 suggestions: ['Bill-Gates', 'Warren-Buffett', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/John_D._Rockefeller'

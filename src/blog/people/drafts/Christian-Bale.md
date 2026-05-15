@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Christian-Bale'
 suggestions: ['Joaquin-Phoenix', 'Cillian-Murphy', 'Matt-Damon', 'Ben-Affleck']
 wikipedia: 'https://en.wikipedia.org/wiki/Christian_Bale'

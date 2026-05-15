@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['musician', 'celebrity']
+type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Snoop-Dogg'
 suggestions: ['Eminem', 'Kendrick-Lamar', 'Dwayne-Johnson', 'Drake']
 wikipedia: 'https://en.wikipedia.org/wiki/Snoop_Dogg'

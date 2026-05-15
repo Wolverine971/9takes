@@ -4,6 +4,7 @@
 export interface FAQItem {
 	question: string;
 	answer: string;
+	anchor?: string;
 }
 
 export interface FAQSection {

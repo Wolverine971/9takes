@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['entrepreneur', 'techie']
+type: ['entrepreneur', 'techie', 'business-operator']
 person: 'Elizabeth-Holmes'
 suggestions: ['Steve-Jobs', 'Anna-Wintour', 'Gwyneth-Paltrow', 'Hillary-Clinton']
 wikipedia: 'https://en.wikipedia.org/wiki/Elizabeth_Holmes'

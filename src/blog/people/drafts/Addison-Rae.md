@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['creator', 'musician', 'tiktoker']
+type: ['creator', 'musician', 'tiktoker', 'lifestyle-builder', 'music-crossover']
 person: 'Addison-Rae'
 suggestions:
   ['Alix-Earle', "Charli-D'Amelio", 'Emma-Chamberlain', 'Sydney-Sweeney', 'Hailey-Bieber']

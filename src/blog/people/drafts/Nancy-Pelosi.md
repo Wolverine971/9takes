@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['politician']
+type: ['politician', 'campaign-politician']
 person: 'Nancy-Pelosi'
 suggestions: ['Hillary-Clinton', 'Kamala-Harris', 'Alexandria-Ocasio-Cortez', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Nancy_Pelosi'

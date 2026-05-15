@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Ben-Affleck'
 suggestions: ['Matt-Damon', 'Jennifer-Lopez', 'Jennifer-Garner', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Affleck'

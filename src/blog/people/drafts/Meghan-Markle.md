@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '2'
-type: ['celebrity', 'politician']
+type: ['celebrity', 'politician', 'celebrity-image', 'royalty']
 person: 'Meghan-Markle'
 suggestions:
   ['Prince-Harry', 'Princess-Diana', 'Oprah-Winfrey', 'Kim-Kardashian', 'Hillary-Clinton']

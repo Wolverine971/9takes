@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['creator', 'entrepreneur']
+type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'Shaan-Puri'
 suggestions: ['Sam-Parr', 'John-Coogan', 'Reid-Hoffman', 'Patrick-Bet-David', 'Tim-Ferriss']
 wikipedia: ''

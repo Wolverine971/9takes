@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity', 'musician']
+type: ['celebrity', 'musician', 'tv-comedy-crossover', 'music-crossover']
 person: 'Keke-Palmer'
 suggestions: ['Zendaya', 'Tyler-Perry', 'Eddie-Murphy', 'Jake-Shane', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Keke_Palmer'

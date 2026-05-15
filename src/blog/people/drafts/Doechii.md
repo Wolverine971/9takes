@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'Doechii'
 suggestions: ['Lady-Gaga', 'Doja-Cat', 'Chappell-Roan', 'Kendrick-Lamar']
 wikipedia: 'https://en.wikipedia.org/wiki/Doechii'

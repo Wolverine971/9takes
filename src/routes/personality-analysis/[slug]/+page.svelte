@@ -4,9 +4,9 @@
   Phase 5 page #2 of docs/design/2026-05-04-rollout-plan.md.
 
   Restyle, don't rewrite: long-form blog page wrapped in a V5 case-file
-  header. All imported blog components (ArticleTitle, ArticleSubTitle,
+  header. All imported blog components (ArticleSubTitle,
   PeopleBlogPageHead, TableOfContents, PeopleSuggestionsSideBar,
-  RelatedPosts, AuthorBio, BlogPurpose, QuickAnswer, BookSessionCTA, PopCard)
+  RelatedPosts, FAQSection, AuthorBio, BlogPurpose, QuickAnswer, BookSessionCTA, PopCard)
   are preserved — only the layout chrome and scoped styles migrate.
 
   Stays in Svelte 4 syntax (`export let`, `$:`) because the contentStore /
@@ -32,10 +32,10 @@
 
 	// Only import critical components for initial render
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
-	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
+	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 	// Lazy-loaded RelatedPosts component
 	import RelatedPosts from '$lib/components/molecules/RelatedPosts.svelte';
 	// import MarkdownRenderer from '$lib/components/MarkdownRenderer.svelte';
@@ -162,7 +162,9 @@
 	$: postMeta = normalizePost(post);
 	$: postTypes = toStringArray(postMeta.type);
 	$: postSuggestions = postMeta.suggestions || [];
+	$: postFaqs = postMeta.faqs || [];
 	$: postDisplayName = formatPersonalityDisplayName(postMeta.person || postMeta.slug);
+	$: caseFileTitle = postMeta.title || postDisplayName;
 	$: postImagePath = buildPersonalityImagePath(
 		postMeta.enneagram,
 		postMeta.person || postMeta.slug
@@ -474,7 +476,7 @@
 				</div>
 
 				{#key post.slug}
-					<h1 id="case-file-name" class="case-file-name">{postDisplayName}</h1>
+					<h1 id="case-file-name" class="case-file-name">{caseFileTitle}</h1>
 				{/key}
 
 				{#if postMeta.description}
@@ -491,12 +493,10 @@
 					</div>
 				{/if}
 
-				<!-- Preserved: legacy ArticleTitle + ArticleSubTitle still render
-				     for structured data + author/date attribution; visually demoted
-				     into a quiet meta-row at the bottom of the case-file header. -->
+				<!-- Preserved: legacy ArticleSubTitle still renders author/date attribution;
+				     visually demoted into a quiet meta-row at the bottom of the case-file header. -->
 				<div class="legacy-article-meta">
 					{#key post.slug}
-						<ArticleTitle title={postMeta.title} structuredData={false} headingTag="h2" />
 						<ArticleSubTitle metaData={postMeta} structuredData={false} />
 					{/key}
 				</div>
@@ -557,6 +557,10 @@
 			<div class="article-body">
 				{@html post.content}
 			</div>
+
+			{#if postFaqs.length >= 2}
+				<FAQSection faqs={postFaqs} title={`${postDisplayName} FAQ`} />
+			{/if}
 
 			<BookSessionCTA slug={post.slug} />
 
@@ -627,6 +631,8 @@
 				slug={data.slug}
 				{postTypes}
 				enneagramType={postMeta.enneagram?.toString() || null}
+				initialSameNichePosts={data.relatedPosts?.sameNichePosts ?? []}
+				initialSameEnneagramPosts={data.relatedPosts?.sameEnneagramPosts ?? []}
 			/>
 		{/key}
 	</div>
@@ -755,12 +761,21 @@
 	.case-file-name {
 		font-family: var(--font-display);
 		font-weight: 800;
-		font-size: clamp(40px, 7vw, 72px);
-		line-height: 1.02;
-		letter-spacing: -0.04em;
+		font-size: 3.5rem;
+		line-height: 1.08;
+		letter-spacing: 0;
 		color: var(--ink-bright);
 		margin: 0;
 		text-wrap: balance;
+		overflow-wrap: anywhere;
+
+		@media (max-width: 1024px) {
+			font-size: 2.75rem;
+		}
+
+		@media (max-width: 640px) {
+			font-size: 2.1rem;
+		}
 	}
 
 	.case-file-subhead {
@@ -790,9 +805,8 @@
 		}
 	}
 
-	/* Legacy ArticleTitle / ArticleSubTitle — kept rendered for the SEO /
-	   structured-data attribution they carry. Visually demoted to a quiet
-	   meta row beneath the case-file head. */
+	/* Legacy ArticleSubTitle — kept rendered for author/date attribution.
+	   Visually demoted to a quiet meta row beneath the case-file head. */
 	.legacy-article-meta {
 		margin-top: 12px;
 		padding-top: 14px;
@@ -800,21 +814,6 @@
 		display: flex;
 		flex-direction: column;
 		gap: 6px;
-
-		:global(.heading) {
-			/* The original h1 is suppressed visually — the case-file h1 carries
-			   the visible brand moment. The element still emits for structured
-			   data parsers. */
-			position: absolute;
-			width: 1px;
-			height: 1px;
-			padding: 0;
-			margin: -1px;
-			overflow: hidden;
-			clip: rect(0, 0, 0, 0);
-			white-space: nowrap;
-			border: 0;
-		}
 
 		:global(.article-meta) {
 			margin: 0;

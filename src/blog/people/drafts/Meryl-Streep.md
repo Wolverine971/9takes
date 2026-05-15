@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Meryl-Streep'
 suggestions: ['Anne-Hathaway', 'Margot-Robbie', 'Oprah-Winfrey', 'Tom-Cruise']
 wikipedia: 'https://en.wikipedia.org/wiki/Meryl_Streep'

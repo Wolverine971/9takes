@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
-type: ['techie']
+type: ['techie', 'investor']
 person: 'Peter-Thiel'
 suggestions: ['Elon-Musk', 'David-Sacks', 'Sam-Altman', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'

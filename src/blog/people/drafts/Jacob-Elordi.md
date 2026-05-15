@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['movieStar', 'newMovieStar']
+type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'Jacob-Elordi'
 suggestions: ['Timothee-Chalamet', 'Robert-Pattinson', 'Zendaya', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Jacob_Elordi'

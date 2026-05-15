@@ -10,7 +10,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['politician']
+type: ['politician', 'campaign-politician']
 person: 'Tucker-Carlson'
 persona_title: "Media's Contrarian Watchdog"
 suggestions: ['Donald-Trump', 'JD-Vance', 'Joe-Rogan', 'Vladimir-Putin']

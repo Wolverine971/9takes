@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
-type: ['creator']
+type: ['creator', 'podcaster']
 person: 'Tim-Ferriss'
 suggestions: ['Jordan-Peterson', 'Steve-Jobs', 'Joe-Rogan', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Tim_Ferriss'

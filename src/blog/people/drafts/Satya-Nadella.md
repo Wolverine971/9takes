@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'Satya-Nadella'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Sundar-Pichai', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Satya_Nadella'

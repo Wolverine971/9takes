@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['entrepreneur', 'techie']
+type: ['entrepreneur', 'techie', 'business-operator']
 person: 'Whitney-Wolfe-Herd'
 suggestions: ['Steven-Bartlett', 'Hailey-Bieber', 'Reese-Witherspoon', 'Kris-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Whitney_Wolfe_Herd'

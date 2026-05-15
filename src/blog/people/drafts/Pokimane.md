@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['creator']
+type: ['creator', 'streamer']
 person: 'Pokimane'
 suggestions: ['Kai-Cenat', 'IShowSpeed', 'PewDiePie', 'Hasan-Piker']
 wikipedia: 'https://en.wikipedia.org/wiki/Pokimane'

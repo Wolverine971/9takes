@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['techie']
+type: ['techie', 'big-tech-founder']
 person: 'Jack-Dorsey'
 suggestions: ['Elon-Musk', 'Mark-Zuckerberg', 'Peter-Thiel', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Dorsey'

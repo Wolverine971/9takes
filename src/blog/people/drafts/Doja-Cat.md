@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['musician']
+type: ['musician', 'rapper']
 person: 'Doja-Cat'
 suggestions: ['Bad-Bunny', 'Katy-Perry', 'Ariana-Grande', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Doja_Cat'

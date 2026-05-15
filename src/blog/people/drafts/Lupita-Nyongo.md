@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['movieStar', 'activist']
+type: ['movieStar', 'activist', 'screen-icon']
 person: 'Lupita-Nyongo'
 suggestions: ['Zendaya', 'Michael-B-Jordan', 'Oprah-Winfrey', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Lupita_Nyong%27o'

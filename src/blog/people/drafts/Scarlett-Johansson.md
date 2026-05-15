@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['movieStar']
+type: ['movieStar', 'screen-icon']
 person: 'Scarlett-Johansson'
 suggestions: ['Anne-Hathaway', 'Jennifer-Garner', 'Brad-Pitt', 'Tom-Cruise', 'Marilyn-Monroe']
 wikipedia: 'https://en.wikipedia.org/wiki/Scarlett_Johansson'

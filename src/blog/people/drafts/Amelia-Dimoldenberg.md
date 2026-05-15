@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
-type: ['creator', 'celebrity']
+type: ['creator', 'celebrity', 'celebrity-image']
 person: 'Amelia-Dimoldenberg'
 suggestions: ['Drake', 'Amy-Poehler', 'Jennifer-Lopez', 'Alix-Earle']
 wikipedia: 'https://en.wikipedia.org/wiki/Amelia_Dimoldenberg'
