@@ -165,6 +165,7 @@ All other blog routes use `import.meta.glob` to load markdown files at build tim
 | `/admin/poster-generator`                  | Legacy poster generator (prefer asset-generators)       |
 | `/admin/questions`                         | Question moderation and hierarchy                       |
 | `/admin/search`                            | Search index management                                 |
+| `/admin/transactional-emails`              | Transactional template preview + ad-hoc admin sends     |
 | `/admin/users`                             | User management                                         |
 | `/admin/welcome-sequence`                  | Welcome email sequence editor                           |
 | `/admin/zine-creator`                      | Zine creator (standalone)                               |
@@ -182,9 +183,11 @@ Admin access is enforced by `src/lib/server/adminAuth.ts` and layout `+layout.se
 | `api/blog-versions/`              | Famous-people version history                |
 | `api/cron/process-sequences/`     | Cron: advance email drip sequences           |
 | `api/cron/send-scheduled-emails/` | Cron: send scheduled campaign emails         |
+| `api/person-suggestions/`         | Public POST: famous-person suggestions       |
 | `api/questions/typeahead/`        | Authenticated question typeahead (ES-backed) |
 | `api/questions/upload-image/`     | Question image upload                        |
 | `api/search/`                     | Universal search endpoint                    |
+| `api/signups/`                    | Public POST: waitlist/email signups          |
 | `api/track/`                      | Event tracking (analytics pings, etc.)       |
 | `api/update-questions/`           | Webhook-auth'd question bulk update          |
 

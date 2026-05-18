@@ -72,40 +72,40 @@ export const EmailHead = (title: string) => {
         margin: 0 !important;
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
         line-height: 1.5;
-        color: #333333;
-        background-color: #f9f9ff;
+        color: #44403c;
+        background-color: #faf8f4;
       }
-      
+
       /* Typography resets */
       h1, h2, h3, h4, h5, h6 {
         font-weight: 600;
         line-height: 1.2;
-        color: #2a2d34;
+        color: #1c1917;
         margin-bottom: 16px;
       }
-      
+
       h1 { font-size: 32px; }
       h2 { font-size: 24px; }
       h3 { font-size: 20px; }
       h4 { font-size: 18px; }
       p { margin-bottom: 16px; }
-      
+
       a {
-        color: #6c5ce7;
+        color: #b45309;
         text-decoration: none;
       }
-      
+
       strong, b {
         font-weight: 600;
       }
-      
+
       /* Branded elements */
       .header-gradient {
-        background: linear-gradient(to right, #7158e2, #6c5ce7);
+        background: linear-gradient(to right, #d97706, #b45309);
       }
-      
+
       .primary-button {
-        background-color: #6c5ce7;
+        background-color: #b45309;
         border-radius: 4px;
         color: #ffffff;
         display: inline-block;

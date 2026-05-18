@@ -22,6 +22,13 @@ interface ProcessedContent {
 	headings: TocHeading[];
 }
 
+type PlaceholderFallbackInput = {
+	id: string;
+	type: string;
+	props: Record<string, any>;
+	children?: string;
+};
+
 /**
  * Generate a URL-friendly slug from heading text.
  * Matches the behavior of rehype-slug used for MDsvex content.
@@ -62,6 +69,14 @@ export async function processBlogContent(content: string): Promise<ProcessedCont
 
 	// Initialize placeholders array
 	const placeholders: Placeholder[] = [];
+	const placeholderCounts = new Map<string, number>();
+
+	function nextPlaceholderId(tag: string): string {
+		const normalizedTag = tag.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+		const count = placeholderCounts.get(normalizedTag) ?? 0;
+		placeholderCounts.set(normalizedTag, count + 1);
+		return `component-${normalizedTag}-${count}`;
+	}
 
 	// Replace component tags with placeholders
 	COMPONENT_TAGS.forEach((tag) => {
@@ -69,7 +84,7 @@ export async function processBlogContent(content: string): Promise<ProcessedCont
 		const regex = new RegExp(`<${tag}([^>]*)(?:>([\\s\\S]*?)<\\/${tag}>|\\/>)`, 'g');
 
 		htmlContent = htmlContent.replace(regex, (_match, props, children = '') => {
-			const id = `component-${placeholders.length}`;
+			const id = nextPlaceholderId(tag);
 			const propsObj = parseProps(props);
 
 			// Add children content if any
@@ -83,7 +98,12 @@ export async function processBlogContent(content: string): Promise<ProcessedCont
 				props: propsObj
 			});
 
-			return `<div id="${id}" style="width:100%; display: flex; justify-content: center;"></div>`;
+			return renderComponentPlaceholder({
+				id,
+				type: tag,
+				props: propsObj,
+				children
+			});
 		});
 	});
 
@@ -91,19 +111,26 @@ export async function processBlogContent(content: string): Promise<ProcessedCont
 	const h2Regex = /<h2[^>]*>.*?<\/h2>/g;
 	const h2Matches = [...htmlContent.matchAll(h2Regex)];
 
-	if (h2Matches.length > 0) {
+	if (
+		h2Matches.length > 0 &&
+		!placeholders.some((placeholder) => placeholder.type === 'BlogPurpose')
+	) {
 		// Find the last h2 tag
 		const lastH2Match = h2Matches[h2Matches.length - 1];
 		const lastH2Index = lastH2Match.index;
 
 		if (lastH2Index !== undefined) {
-			// Generate a unique id for the BlogPurpose component
-			const blogPurposeId = `component-purpose-${Date.now()}`;
+			// Generate a stable id for cacheable SSR output.
+			const blogPurposeId = nextPlaceholderId('BlogPurpose');
 
 			// Insert placeholder div before the last h2 tag
 			htmlContent =
 				htmlContent.substring(0, lastH2Index) +
-				`<div id="${blogPurposeId}"></div>` +
+				renderComponentPlaceholder({
+					id: blogPurposeId,
+					type: 'BlogPurpose',
+					props: {}
+				}) +
 				htmlContent.substring(lastH2Index);
 
 			// Add the BlogPurpose component to placeholders for mounting
@@ -118,20 +145,129 @@ export async function processBlogContent(content: string): Promise<ProcessedCont
 	return { content: htmlContent, placeholders, headings };
 }
 
+function renderComponentPlaceholder({
+	id,
+	type,
+	props,
+	children = ''
+}: PlaceholderFallbackInput): string {
+	const fallbackHtml = renderComponentFallback(type, props, children);
+	const fallback = fallbackHtml ? `<div data-ssr-fallback="">${fallbackHtml}</div>` : '';
+
+	return `<div id="${escapeHtmlAttribute(id)}" data-component-placeholder="${escapeHtmlAttribute(type)}" style="width:100%; display: flex; justify-content: center;">${fallback}</div>`;
+}
+
+function renderComponentFallback(
+	type: string,
+	props: Record<string, any>,
+	children: string
+): string {
+	switch (type) {
+		case 'QuickAnswer':
+			return renderQuickAnswerFallback(props, children);
+		case 'BlogPurpose':
+			return renderBlogPurposeFallback();
+		case 'PopCard':
+			return renderPopCardFallback(props);
+		default:
+			return normalizeFallbackContent(children);
+	}
+}
+
+function renderQuickAnswerFallback(props: Record<string, any>, children: string): string {
+	const question = stringProp(props.question).trim();
+	const content = normalizeFallbackContent(children);
+
+	if (!question && !content) return '';
+
+	return `<aside class="quick-answer quick-answer--ssr" itemscope itemtype="https://schema.org/Question">
+	<div class="quick-answer__header">
+		<span class="quick-answer__label">Quick Answer</span>
+	</div>
+	${question ? `<p class="quick-answer__question" itemprop="name">${escapeHtml(question)}</p>` : ''}
+	<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+		<div class="quick-answer__content" itemprop="text">${content}</div>
+	</div>
+</aside>`;
+}
+
+function renderBlogPurposeFallback(): string {
+	return `<aside class="blog-purpose blog-purpose--ssr" aria-label="Explore the Enneagram types">
+	<div class="blog-purpose__summary">
+		<h3>Want to understand your own pattern?</h3>
+		<p>Start with the Enneagram fundamentals and see how the 9 types actually differ.</p>
+		<p><a href="/enneagram-corner">Explore the 9 Types</a></p>
+	</div>
+	<div class="blog-purpose__summary">
+		<h3>Explore the 9 Enneagram Types</h3>
+		<p>Use the type guides to compare core motivations, fears, and social patterns.</p>
+	</div>
+</aside>`;
+}
+
+function renderPopCardFallback(props: Record<string, any>): string {
+	const image = stringProp(props.image).trim();
+	const displayText = stringProp(props.displayText).trim();
+	const altText = stringProp(props.altText).trim() || displayText;
+	const subtext = stringProp(props.subtext).trim();
+
+	if (!image && !displayText && !subtext) return '';
+
+	return `<figure class="pop-card pop-card--ssr">
+	${image ? `<img src="${escapeHtmlAttribute(image)}" alt="${escapeHtmlAttribute(altText)}" loading="lazy" decoding="async" />` : ''}
+	${displayText || subtext ? `<figcaption>${displayText ? `<strong>${escapeHtml(displayText)}</strong>` : ''}${subtext ? `<span>${escapeHtml(subtext)}</span>` : ''}</figcaption>` : ''}
+</figure>`;
+}
+
+function normalizeFallbackContent(content: string): string {
+	const trimmed = content.trim();
+	if (!trimmed) return '';
+
+	if (
+		/<(?:p|ul|ol|li|blockquote|div|h[1-6]|table|figure|details|summary|a|strong|em)\b/i.test(
+			trimmed
+		)
+	) {
+		return trimmed;
+	}
+
+	return `<p>${trimmed}</p>`;
+}
+
+function stringProp(value: unknown): string {
+	return typeof value === 'string' ? value : value == null ? '' : String(value);
+}
+
+function escapeHtml(value: string): string {
+	return value
+		.replace(/&/g, '&amp;')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;')
+		.replace(/"/g, '&quot;')
+		.replace(/'/g, '&#39;');
+}
+
+function escapeHtmlAttribute(value: string): string {
+	return escapeHtml(value).replace(/`/g, '&#96;');
+}
+
 /**
  * Parse props from HTML attribute string
  */
 function parseProps(propsString: string): Record<string, any> {
 	const props: Record<string, any> = {};
+	const quotedAttrPattern = /\s+([a-zA-Z0-9_:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g;
+	const curlyAttrPattern = /\s+([a-zA-Z0-9_:-]+)\s*=\{([^}]*)\}/g;
 
-	// Match props with values (handles quotes better)
-	const propMatches = propsString.matchAll(/\s+([a-zA-Z0-9_]+)=["']([^"']*)["']/g);
+	// Match quoted props without treating apostrophes inside double-quoted
+	// values as delimiters.
+	const propMatches = propsString.matchAll(quotedAttrPattern);
 	for (const match of propMatches) {
-		props[match[1]] = match[2];
+		props[match[1]] = match[2] ?? match[3] ?? '';
 	}
 
 	// Handle curly brace values like {true}
-	const curlyPropMatches = propsString.matchAll(/\s+([a-zA-Z0-9_]+)=\{([^}]*)\}/g);
+	const curlyPropMatches = propsString.matchAll(curlyAttrPattern);
 	for (const match of curlyPropMatches) {
 		try {
 			// Try to parse as JSON if possible
@@ -143,9 +279,10 @@ function parseProps(propsString: string): Record<string, any> {
 	}
 
 	// Match boolean props
-	const boolProps = propsString.matchAll(/\s+([a-zA-Z0-9_]+)(?=\s|$)/g);
+	const boolSource = propsString.replace(quotedAttrPattern, ' ').replace(curlyAttrPattern, ' ');
+	const boolProps = boolSource.matchAll(/\s+([a-zA-Z0-9_:-]+)(?=\s|$)/g);
 	for (const match of boolProps) {
-		if (!props[match[1]]) {
+		if (!(match[1] in props)) {
 			props[match[1]] = true;
 		}
 	}

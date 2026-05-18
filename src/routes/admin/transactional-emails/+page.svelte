@@ -1,6 +1,6 @@
-<!-- src/routes/email/+page.svelte -->
+<!-- src/routes/admin/transactional-emails/+page.svelte -->
 <script lang="ts">
-	import { joinEmail, joinEmail2, signupEmail, forgotPass, emailTemplate } from '../../emails';
+	import { joinEmail, joinEmail2, signupEmail, forgotPass, emailTemplate } from '../../../emails';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { onMount } from 'svelte';
 	import Modal from '$lib/components/atoms/Modal.svelte';
@@ -79,7 +79,7 @@
 		formData.append('subject', subject);
 
 		try {
-			const response = await fetch(`/email?/emailTemplate`, {
+			const response = await fetch(`/admin/transactional-emails?/emailTemplate`, {
 				method: 'POST',
 				body: formData
 			});
@@ -126,7 +126,7 @@
 		formData.append('emailToSend', emailTemplate(subject, header, emailBody));
 
 		try {
-			const response = await fetch(`/email?/singleCustomEmail`, {
+			const response = await fetch(`/admin/transactional-emails?/singleCustomEmail`, {
 				method: 'POST',
 				body: formData
 			});
@@ -163,7 +163,7 @@
 		formData.append('emailToSend', emailTemplate(subject, header, emailBody));
 
 		try {
-			const response = await fetch(`/email?/sendCustomEmailToEveryone`, {
+			const response = await fetch(`/admin/transactional-emails?/sendCustomEmailToEveryone`, {
 				method: 'POST',
 				body: formData
 			});
@@ -206,7 +206,7 @@
 </svelte:head>
 
 <div class="container mx-auto px-4 py-8">
-	<h1 class="mb-6 text-3xl font-bold text-primary-700">Email Administration</h1>
+	<h1 class="mb-6 text-3xl font-bold text-primary-700">Transactional Emails</h1>
 
 	<!-- Custom Email Creator Section -->
 	<div class="mb-8 rounded-xl bg-white p-6 shadow-md">
@@ -489,12 +489,12 @@
 <style lang="scss">
 	/* Ensure email previews are isolated from page styles */
 	.email-preview-container {
-		background: #f9f9ff;
+		background: #faf8f4;
 		position: relative;
 
 		iframe {
 			border: 0;
-			background: #f9f9ff;
+			background: #faf8f4;
 		}
 	}
 

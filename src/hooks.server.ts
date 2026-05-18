@@ -8,6 +8,7 @@ import {
 	CONTENT_ACCESS_ANON_COOKIE_MAX_AGE_SECONDS,
 	CONTENT_ACCESS_ANON_COOKIE_NAME,
 	CONTENT_GUARD_CACHE_CONTROL,
+	getContentResponseCacheControl,
 	createAnonymousContentAccessId,
 	getContentAccessDecision,
 	getContentRequestKind,
@@ -197,7 +198,10 @@ export const handle: Handle = async ({ event, resolve }) => {
 	});
 
 	if (protectedContentPath) {
-		response.headers.set('Cache-Control', CONTENT_GUARD_CACHE_CONTROL);
+		response.headers.set('Cache-Control', getContentResponseCacheControl(requester));
+		if (requester?.kind === 'search_preview_bot') {
+			response.headers.append('Vary', 'User-Agent');
+		}
 	}
 
 	if (shouldSetAnonCookie && pendingAnonCookieValue) {

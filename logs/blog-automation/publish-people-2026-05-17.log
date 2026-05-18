@@ -1,0 +1,16 @@
+```text
+Published people blog.
+
+Person: gracie-abrams
+Draft: src/blog/people/drafts/Gracie-Abrams.md
+Date/lastmod: 2026-05-17
+Supabase: published=true (row id 1038)
+Images: full + thumbnail present (static/types/4s/Gracie-Abrams.webp, s-Gracie-Abrams.webp)
+Content grade: 9 (2174 words)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: gracie-abrams now link: true, lastmod 2026-05-17
+  - sitemap.xml: includes /personality-analysis/gracie-abrams
+
+Blockers:
+- none
+```

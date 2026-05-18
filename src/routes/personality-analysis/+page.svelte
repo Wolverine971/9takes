@@ -436,7 +436,7 @@
 
 	<!-- =====================================================================
 	  §05 EMAIL SIGNUP — quiet V5-styled wrapper around the existing form
-	  (preserves the wired /email?/submit action)
+	  (wired to /api/signups via Email-Signup component)
 	  ===================================================================== -->
 	{#if !data?.user}
 		<section class="signup">

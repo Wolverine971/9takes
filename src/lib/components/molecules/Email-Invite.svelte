@@ -16,29 +16,23 @@
 			error = '';
 		}
 
-		let body = new FormData();
+		const body = new FormData();
 		body.append('email', email);
 
-		const { data, error: emailError } = await (
-			await fetch(`/email?/submit`, {
-				method: 'POST',
-				body
-			})
-		).json();
+		try {
+			const resp = await fetch('/api/signups', { method: 'POST', body });
+			const result = (await resp.json()) as { ok: boolean; code?: string; message?: string };
 
-		if (data) {
-			notifications.success('Email Submitted', 3000);
-
-			// goto('/signup');
-
-			email = '';
-		} else {
-			if (emailError?.message && emailError?.message === 'Email already exists') {
-				// console.log(emailError);
+			if (result.ok) {
+				notifications.success('Email Submitted', 3000);
+				email = '';
+			} else if (result.code === 'already_exists') {
 				notifications.warning('Already invited', 3000);
 			} else {
 				notifications.warning('Send Invite Failed', 3000);
 			}
+		} catch {
+			notifications.warning('Send Invite Failed', 3000);
 		}
 	};
 </script>

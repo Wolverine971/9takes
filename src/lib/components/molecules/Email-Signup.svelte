@@ -1,12 +1,8 @@
 <!-- src/lib/components/molecules/Email-Signup.svelte -->
 <script lang="ts">
-	import { deserialize } from '$app/forms';
 	import { notifications } from './notifications';
 
-	type EmailSignupPayload = {
-		data?: { success?: boolean } | null;
-		error?: { message?: string } | null;
-	};
+	type SignupResponse = { ok: boolean; code?: string; message?: string };
 
 	export let cta: string = 'Get 9takes updates in your inbox';
 	export let description: string =
@@ -32,22 +28,14 @@
 		body.append('email', normalizedEmail);
 
 		try {
-			const resp = await fetch('/email?/submit', {
-				method: 'POST',
-				body
-			});
-			const result = deserialize(await resp.text());
-			const payload =
-				result.type === 'success' || result.type === 'failure'
-					? (result.data as EmailSignupPayload | undefined)
-					: undefined;
-			const errorMessage = payload?.error?.message;
+			const resp = await fetch('/api/signups', { method: 'POST', body });
+			const result = (await resp.json()) as SignupResponse;
 
-			if (result.type === 'success' && !errorMessage) {
+			if (result.ok) {
 				notifications.success("You're subscribed", 3000);
 				notifications.info('Check your inbox for the welcome note.', 6000);
 				email = '';
-			} else if (errorMessage === 'Email already exists') {
+			} else if (result.code === 'already_exists') {
 				notifications.warning('Already subscribed', 3000);
 			} else {
 				notifications.warning('Signup failed', 3000);

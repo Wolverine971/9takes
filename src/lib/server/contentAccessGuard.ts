@@ -101,6 +101,8 @@ export type ContentAccessDecision =
 	  };
 
 export const CONTENT_GUARD_CACHE_CONTROL = 'private, no-store';
+export const CONTENT_SEARCH_PREVIEW_CACHE_CONTROL =
+	'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400';
 export const CONTENT_ACCESS_ANON_COOKIE_NAME = '9tanon';
 export const CONTENT_ACCESS_ANON_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
 
@@ -304,6 +306,12 @@ export function isTrackableContentRequester(
 	requester: ContentRequester | null
 ): requester is TrackableContentRequester {
 	return requester?.kind === 'anonymous_human' || requester?.kind === 'allowed_ai_crawler';
+}
+
+export function getContentResponseCacheControl(requester: ContentRequester | null): string {
+	return requester?.kind === 'search_preview_bot'
+		? CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
+		: CONTENT_GUARD_CACHE_CONTROL;
 }
 
 export function getContentAccessDecision(

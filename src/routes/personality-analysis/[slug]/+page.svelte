@@ -427,10 +427,14 @@
 			const componentType = componentTypes.find((ct) => ct.tag === placeholder.type);
 			if (!componentType) return;
 
+			const fallback = element.querySelector('[data-ssr-fallback]');
 			const instance = mount(componentType.component, {
 				target: element,
 				props: placeholder.props
 			});
+			if (fallback?.parentElement === element) {
+				fallback.remove();
+			}
 			mountedPlaceholders.set(placeholder.id, instance);
 		});
 	}

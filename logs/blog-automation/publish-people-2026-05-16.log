@@ -1,0 +1,15 @@
+```text
+Published people blog.
+
+Person: anthony-bourdain
+Draft: src/blog/people/drafts/Anthony-Bourdain.md
+Date/lastmod: 2026-05-16
+Supabase: published=true (row id=1036)
+Images: full + thumbnail present (static/types/7s/Anthony-Bourdain.webp, s-Anthony-Bourdain.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: link=true, hasImage=true, lastmod=2026-05-16
+  - sitemap.xml: includes /personality-analysis/anthony-bourdain
+
+Blockers:
+- none
+```

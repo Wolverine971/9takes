@@ -1,6 +1,5 @@
 <!-- src/lib/components/blog/EnneagramCTASidebar.svelte -->
 <script lang="ts">
-	import { deserialize } from '$app/forms';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
@@ -8,10 +7,7 @@
 	import { notifications } from '../molecules/notifications';
 	import { getEnneagramSidebarCopy } from './enneagramSidebarCopy';
 
-	type EmailSignupPayload = {
-		data?: { success?: boolean } | null;
-		error?: { message?: string } | null;
-	};
+	type SignupResponse = { ok: boolean; code?: string; message?: string };
 
 	export let variant: 'floating' | 'embedded' = 'floating';
 	export let sidePosition: 'left' | 'right' = 'right';
@@ -52,23 +48,15 @@
 		body.append('email', normalizedEmail);
 
 		try {
-			const response = await fetch('/email?/submit', {
-				method: 'POST',
-				body
-			});
-			const result = deserialize(await response.text());
-			const payload =
-				result.type === 'success' || result.type === 'failure'
-					? (result.data as EmailSignupPayload | undefined)
-					: undefined;
-			const errorMessage = payload?.error?.message;
+			const response = await fetch('/api/signups', { method: 'POST', body });
+			const result = (await response.json()) as SignupResponse;
 
-			if (result.type === 'success' && !errorMessage) {
+			if (result.ok) {
 				submitted = true;
 				email = '';
 				notifications.success("You're subscribed", 3000);
 				notifications.info('Check your inbox for the welcome note.', 5000);
-			} else if (errorMessage === 'Email already exists') {
+			} else if (result.code === 'already_exists') {
 				submitted = true;
 				notifications.warning('Already subscribed', 3000);
 			} else {

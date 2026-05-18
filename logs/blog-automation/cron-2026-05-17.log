@@ -1,0 +1,79 @@
+[2026-05-17 02:11:19] [INFO] Daily blog creator starting (non-interactive)
+[2026-05-17 02:11:19] [INFO] Pre-flight: pause=false, inProgress=null, rateLimit=2/5
+[2026-05-17 02:11:19] [INFO] SELECTED: jane-goodall (Type 9, Priority: 77)
+[2026-05-17 02:11:19] [INFO] Reason: Fills Type 9 gap, huge global recognition, nature/science audience, evergreen
+[2026-05-17 02:11:41] [INFO] Spawning blog_content_creator_people subprocess for jane-goodall
+Draft created and graded. Here's the summary:
+
+## Jane Goodall draft complete
+
+**Location**: `/src/blog/people/drafts/jane-goodall.md`
+**Preview**: `/admin/drafts/jane-goodall` (after server reload)
+
+**Typing**: Enneagram Type 9w1, Self-Preservation subtype
+**Core tension**: "The shy girl who built a life around disappearing, then spent forty years refusing to let herself, or the planet, be ignored."
+
+**Signature originality moves**:
+- Henhouse-to-podium throughline (4-year-old vanishes for 5 hours to watch a hen → spends 26 years vanishing into Gombe → spends 40 years at podiums "showing up at the same ridge")
+- Jubilee (stuffed chimp, 1935, from absent father) → Mr. H (stuffed monkey, 1996, from blind magician) bookends "made of the same fabric, sixty-one years apart"
+- The "She integrated the contradiction without resolving it" reading of how she absorbed chimp violence without becoming a cynic
+- The four reasons for hope read as "things to trust, not me-things" — diagnostic of a 9w1
+
+**Internal links added (4 total)**:
+- Greta Thunberg → `/personality-analysis/Greta-Thunberg`
+- Mr. Rogers → `/personality-analysis/Mr-Rogers`
+- Wings guide → `/enneagram-corner/enneagram-wings-complete-guide`
+- Types in stress → `/enneagram-corner/enneagram-types-in-stress`
+
+**Grade**: 9.0 (A)
+- Hook: 9 · Enneagram: 9.5 · Evidence: 8.5 · Writing: 9 · Originality: 9
+
+**Production state**: `production_pretext.status: draft` — needs review before `blog_content_production_people`.
+
+### Options
+1. Make specific edits — tell me what to change
+2. Regenerate specific sections
+3. Approve as-is → I'll flip `production_pretext.status` to `ready` and you can run `blog_content_production_people`
+4. Continue editing later
+
+Sources used:
+- [Jane Goodall — Wikipedia](https://en.wikipedia.org/wiki/Jane_Goodall)
+- [Jane Goodall Institute — Passing announcement](https://janegoodall.org/jane-goodall-renowned-ethologist-conservationist-and-animal-behavior-expert-passes-away-at-age-91/)
+- [On Being — Krista Tippett conversation](https://onbeing.org/programs/jane-goodall-what-it-means-to-be-human/)
+- [The Story of How a Hen Lays an Egg — JGI](https://news.janegoodall.org/2016/05/04/story-hen-lays-egg/)
+- [Mr. H story — CNBC](https://www.cnbc.com/2019/01/25/jane-goodall-always-travels-with-a-stuffed-animal-named-mr-h.html)
+- [Block Club Chicago — 1986 conference recall](https://blockclubchicago.org/2025/09/15/jane-goodall-recalls-chicagos-role-in-her-life-of-activism/)
+- [Gombe Chimpanzee War — Wikipedia](https://en.wikipedia.org/wiki/Gombe_Chimpanzee_War)
+- [Templeton Foundation — Notre Dame moment](https://www.templeton.org/news/the-cathedral-and-the-forest-how-two-awe-inspiring-moments-shaped-jane-goodalls-spirituality)
+- [Reasons for Hope — Mongabay tribute](https://news.mongabay.com/2025/10/jane-goodall-1934-2025-primatologist-conservationist-and-messenger-of-hope/)
+- [Jane Goodall: Cause of Death — Yahoo](https://www.yahoo.com/news/articles/official-cause-death-revealed-jane-180546771.html)
+[2026-05-17 02:19:40] [INFO] Subprocess exit code: 0
+[2026-05-17 02:20:19] [SUCCESS] Draft created: src/blog/people/drafts/jane-goodall.md (31092 bytes)
+[2026-05-17 02:20:19] [INFO] Grade captured from frontmatter: 9.0 (A) — hook 9, enneagram 9.5, evidence 8.5, writing 9, originality 9
+[2026-05-17 02:20:19] [INFO] Duration: ~9 min
+[2026-05-17 02:20:19] [INFO] Queue: moved to completed, inProgress cleared
+[2026-05-17 02:20:19] [INFO] Rate limit incremented: 3/5 this week
+[2026-05-17 02:20:19] [INFO] Daily blog creator complete
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-17
+Status: SUCCESS ✅
+
+Blog: Jane Goodall
+Type: 9w1 (Self-Preservation) — "The Quiet Witness Who Wouldn't Stay Quiet"
+Grade: 9.0/10 (A)
+  · Hook: 9 · Enneagram: 9.5 · Evidence: 8.5 · Writing: 9 · Originality: 9
+Duration: ~9 min
+File: src/blog/people/drafts/jane-goodall.md (31 KB)
+Preview: /admin/drafts/jane-goodall (after server reload)
+
+Queue: 33 remaining · Completed: 24 · Rate limit: 3/5 this week
+Next in queue: Yuval Noah Harari (Type 5, priority 76)
+
+Production state: draft — needs human review before /blog_content_production_people
+===================================
+```
+
+Signature originality moves (per the draft): henhouse-to-podium throughline, Jubilee→Mr. H stuffed-animal bookend across 61 years, "integrated the contradiction without resolving it" reading of Gombe Chimpanzee War, and the four reasons for hope read as Type 9w1 diagnostic.
+
+Auto-production was NOT triggered — `production_pretext.status: draft` is set deliberately for human review. Run `/blog_content_production_people jane-goodall` when approved.

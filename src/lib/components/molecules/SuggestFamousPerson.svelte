@@ -2,8 +2,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
-	import { deserialize } from '$app/forms';
 	import { notifications } from './notifications';
+
+	type SuggestionResponse = { ok: boolean; code?: string; message?: string };
 
 	const STORAGE_KEY = '9takes_person_suggestions';
 	const MAX_SUGGESTIONS = 3;
@@ -86,24 +87,19 @@
 		body.append('suggestedPerson', otherPerson.trim());
 
 		try {
-			const resp = await fetch(`/email?/submitFamousPerson`, { method: 'POST', body });
-			const data = deserialize(await resp.text());
+			const resp = await fetch('/api/person-suggestions', { method: 'POST', body });
+			const data = (await resp.json()) as SuggestionResponse;
 
-			if (data?.type === 'success') {
+			if (data.ok) {
 				recordSuggestion();
 				notifications.success(`Thanks for suggesting ${otherPerson.trim()}! 🎉`, 4000);
 				email = '';
 				otherPerson = '';
-			} else if (data?.type === 'error') {
-				const errorMsg =
-					(data as { error?: { message?: string } })?.error?.message || 'Submission failed';
-				if (errorMsg.includes('rate limit') || errorMsg.includes('too many')) {
-					notifications.warning('Too many suggestions. Please try again later.', 4000);
-				} else {
-					notifications.warning(`Suggestion failed: ${errorMsg}`, 4000);
-				}
+			} else if (data.code === 'rate_limited') {
+				notifications.warning('Too many suggestions. Please try again later.', 4000);
 			} else {
-				notifications.warning('Suggestion could not be processed. Please try again.', 3000);
+				const message = data.message || 'Submission failed';
+				notifications.warning(`Suggestion failed: ${message}`, 4000);
 			}
 		} catch (err) {
 			console.error('Error submitting suggestion:', err);

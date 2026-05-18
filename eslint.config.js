@@ -235,7 +235,7 @@ export default [
 			'src/lib/components/molecules/WordCloud.svelte',
 			'src/routes/admin/content-board/ContentEditorModal.svelte',
 			'src/routes/admin/content-board/MetadataSidebar.svelte',
-			'src/routes/email/+page.svelte',
+			'src/routes/admin/transactional-emails/+page.svelte',
 			'src/routes/enneagram-test/+page.svelte'
 		],
 		rules: {

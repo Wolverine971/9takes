@@ -3,9 +3,11 @@ import { describe, expect, it } from 'vitest';
 import {
 	CONTENT_ACCESS_ANON_COOKIE_NAME,
 	CONTENT_GUARD_CACHE_CONTROL,
+	CONTENT_SEARCH_PREVIEW_CACHE_CONTROL,
 	createAnonymousContentAccessId,
 	getContentAccessDecision,
 	getContentRequestKind,
+	getContentResponseCacheControl,
 	getContentRequester,
 	getHardBlockedReason,
 	getProtectedContentPath,
@@ -226,6 +228,49 @@ describe('contentAccessGuard', () => {
 	it('exports the expected cookie name and cache policy', () => {
 		expect(CONTENT_ACCESS_ANON_COOKIE_NAME).toBe('9tanon');
 		expect(CONTENT_GUARD_CACHE_CONTROL).toBe('private, no-store');
+		expect(CONTENT_SEARCH_PREVIEW_CACHE_CONTROL).toContain('s-maxage=3600');
+	});
+
+	it('uses crawl-friendly cache headers only for search preview bots', () => {
+		const googlebot = getContentRequester({
+			method: 'GET',
+			pathname: '/personality-analysis/scott-galloway',
+			userAgent: 'Googlebot/2.1',
+			clientIp: '66.249.66.1',
+			anonymousId: null,
+			isAuthenticated: false
+		});
+		const human = getContentRequester({
+			method: 'GET',
+			pathname: '/personality-analysis/scott-galloway',
+			userAgent: 'Mozilla/5.0',
+			clientIp: '203.0.113.20',
+			anonymousId: 'anon-456',
+			isAuthenticated: false
+		});
+		const aiCrawler = getContentRequester({
+			method: 'GET',
+			pathname: '/personality-analysis/scott-galloway',
+			userAgent: 'GPTBot/1.0',
+			clientIp: '203.0.113.21',
+			anonymousId: null,
+			isAuthenticated: false
+		});
+		const authenticatedGooglebot = getContentRequester({
+			method: 'GET',
+			pathname: '/personality-analysis/scott-galloway',
+			userAgent: 'Googlebot/2.1',
+			clientIp: '203.0.113.22',
+			anonymousId: null,
+			isAuthenticated: true
+		});
+
+		expect(getContentResponseCacheControl(googlebot)).toBe(CONTENT_SEARCH_PREVIEW_CACHE_CONTROL);
+		expect(getContentResponseCacheControl(human)).toBe(CONTENT_GUARD_CACHE_CONTROL);
+		expect(getContentResponseCacheControl(aiCrawler)).toBe(CONTENT_GUARD_CACHE_CONTROL);
+		expect(getContentResponseCacheControl(authenticatedGooglebot)).toBe(
+			CONTENT_GUARD_CACHE_CONTROL
+		);
 	});
 
 	it('uses a stable bootstrap key when no anon cookie exists yet', () => {

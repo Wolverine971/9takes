@@ -19,6 +19,10 @@ import {
 	getPersonalityCategoryBySlug,
 	normalizePeopleTypes
 } from '$lib/personalityCategories';
+import {
+	CONTENT_GUARD_CACHE_CONTROL,
+	CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
+} from '$lib/server/contentAccessGuard';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
@@ -49,13 +53,14 @@ export const load: PageServerLoad = async (event) => {
 
 	if (!dev) {
 		setHeaders({
-			// Personalized response (user/session/fingerprint) - do not cache publicly.
-			'Cache-Control': 'private, no-store'
+			// The content guard keeps humans/private states uncached and upgrades
+			// recognized search preview bots to this short edge cache policy.
+			'Cache-Control': CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
 		});
 	} else {
 		// In dev mode, disable caching so changes appear instantly
 		setHeaders({
-			'Cache-Control': 'no-store'
+			'Cache-Control': CONTENT_GUARD_CACHE_CONTROL
 		});
 	}
 
