@@ -5,14 +5,14 @@ persona_title: "Wall Street's Fortress Builder"
 description: "Jamie Dimon runs the safest balance sheet in banking and won't stop warning about the storm. What Enneagram Type 8w7 reveals about the fortress and the wound."
 author: 'DJ Wayne'
 date: '2026-05-01'
-loc: 'https://9takes.com/personality-analysis/Jamie-Dimon'
+loc: 'https://9takes.com/personality-analysis/jamie-dimon'
 lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
 type: ['entrepreneur', 'business-operator']
-person: 'Jamie-Dimon'
+person: 'jamie-dimon'
 suggestions: ['Jeff-Bezos', 'Alex-Karp', 'Reed-Hastings', 'Andrew-Ross-Sorkin']
 wikipedia: 'https://en.wikipedia.org/wiki/Jamie_Dimon'
 twitter: ''
@@ -137,7 +137,7 @@ Weill, into his eighties, kept saying he regretted it. He told CNBC in 2014 that
 
 What Weill said publicly, others said privately: that he had broken Jamie Dimon's ability to ever again open up to a boss. That is the frame. The fortress that follows is what a man builds after he learns, the hard way, that a mentor can become the liability.
 
-Two years pass. [Jeff Bezos](/personality-analysis/Jeff-Bezos) flies him to Seattle and offers him the job of running Amazon's nascent banking operation. Dimon turns it down. Whatever else 1998 had done, it had narrowed him. He was no longer trying to be employed. He was trying to never be removable.
+Two years pass. [Jeff Bezos](/personality-analysis/jeff-bezos) flies him to Seattle and offers him the job of running Amazon's nascent banking operation. Dimon turns it down. Whatever else 1998 had done, it had narrowed him. He was no longer trying to be employed. He was trying to never be removable.
 
 ## Why Jamie Dimon bet half his net worth on a sinking bank
 

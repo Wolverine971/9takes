@@ -4,14 +4,14 @@ meta_title: "Bill Gates' Greatest Fear Will Surprise You (It Explains Everything
 description: "Bill Gates's greatest fear isn't losing his fortune. It's his brain going dark. That terror built Microsoft and a $200B giving pledge."
 author: 'DJ Wayne'
 date: '2024-07-09'
-loc: 'https://9takes.com/personality-analysis/Bill-Gates'
+loc: 'https://9takes.com/personality-analysis/bill-gates'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
 type: ['techie', 'big-tech-founder']
-person: 'Bill-Gates'
+person: 'bill-gates'
 persona_title: 'The World-Scale Problem Solver'
 suggestions: ['Steve-Jobs', 'Mark-Zuckerberg', 'Elon-Musk', 'Jeff-Bezos']
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Gates'
@@ -162,7 +162,7 @@ During Microsoft's first five years, Gates personally reviewed every line of cod
 
 He told his university teachers he'd be a millionaire by 30. He became a billionaire at 31. In his 2025 memoir "Source Code," he described his childhood as "the set-up, the source code that almost certainly was going to lead to some pretty amazing impact."
 
-That kind of certainty can look like arrogance — and sometimes it is. But for a Type 5 who has genuinely mastered his domain, the confidence isn't bluster. It's what happens when someone has done the work and knows it. [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg) shows a similar pattern: quiet certainty rooted in deep technical knowledge rather than charisma.
+That kind of certainty can look like arrogance — and sometimes it is. But for a Type 5 who has genuinely mastered his domain, the confidence isn't bluster. It's what happens when someone has done the work and knows it. [Mark Zuckerberg](/personality-analysis/mark-zuckerberg) shows a similar pattern: quiet certainty rooted in deep technical knowledge rather than charisma.
 
 ## The Investigator's Quirks and Habits
 
@@ -224,7 +224,7 @@ But here's what separates Gates from most leaders: he could change his mind.
 
 "He can be extremely vocal and persuasive in arguing one side of an issue," noted early Microsoft programmer Steve Wood, "and a day or two later he will say he was wrong. There aren't many people who have the drive, intensity and entrepreneurial qualities to be that successful who also have the ability to put their ego aside."
 
-This is Type 5 at its healthiest: committed to truth, not to being right. Compare this to [Steve Jobs](/personality-analysis/Steve-Jobs), whose Type 1 perfectionism made him equally demanding but less likely to reverse course once committed to a vision.
+This is Type 5 at its healthiest: committed to truth, not to being right. Compare this to [Steve Jobs](/personality-analysis/steve-jobs), whose Type 1 perfectionism made him equally demanding but less likely to reverse course once committed to a vision.
 
 ## Under Fire: The Antitrust Years
 

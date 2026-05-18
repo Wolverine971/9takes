@@ -5,14 +5,14 @@ description: "Scarlett Johansson turned rejection, privacy, and peacekeeping int
 persona_title: "Hollywood's Billion-Dollar Introvert"
 author: 'DJ Wayne'
 date: '2025-04-08'
-loc: 'https://9takes.com/personality-analysis/Scarlett-Johansson'
+loc: 'https://9takes.com/personality-analysis/scarlett-johansson'
 lastmod: '2026-02-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
 type: ['movieStar', 'screen-icon']
-person: 'Scarlett-Johansson'
+person: 'scarlett-johansson'
 suggestions: ['Anne-Hathaway', 'Jennifer-Garner', 'Brad-Pitt', 'Tom-Cruise', 'Marilyn-Monroe']
 wikipedia: 'https://en.wikipedia.org/wiki/Scarlett_Johansson'
 twitter: ''
@@ -134,7 +134,7 @@ Sofia Coppola cast her in _Lost in Translation_ without an audition. "She makes 
 
 For a Type 9, acting offers something paradoxical. Permission to explore conflict, rage, intensity, sexuality — through characters — while staying personally protected. The real Scarlett stays in the shell. The characters do the living.
 
-[Natalie Portman](/personality-analysis/Natalie-Portman) noticed the split:
+[Natalie Portman](/personality-analysis/natalie-portman) noticed the split:
 
 > "A lot of women, and I am among them, will be very careful. I might be like, 'this might sound stupid but is this what they would do in the scene?' She's not like that at all. She's very direct."
 
@@ -211,7 +211,7 @@ For a personality type that struggles to advocate for itself, watching everyone 
 
 Then came OpenAI. And the anger was different this time.
 
-September 2023. [Sam Altman](/personality-analysis/Sam-Altman) approached Johansson to voice ChatGPT. He told her she "could bridge the gap between tech companies and creatives" and that her voice "would be comforting to people." She declined for personal reasons. Altman contacted her again. She declined again.
+September 2023. [Sam Altman](/personality-analysis/sam-altman) approached Johansson to voice ChatGPT. He told her she "could bridge the gap between tech companies and creatives" and that her voice "would be comforting to people." She declined for personal reasons. Altman contacted her again. She declined again.
 
 Two days before the May 2024 demo, Altman's team reached out a third time. "Before we could connect, the system was out there."
 

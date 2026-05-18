@@ -5,14 +5,14 @@ persona_title: "Pop's Glamorous Exile"
 description: "Lana Del Rey built an empire out of longing. How the Enneagram Type 4 pattern explains Elizabeth Grant's transformation, her art, and her unexpected peace."
 author: 'DJ Wayne'
 date: '2026-04-15'
-loc: 'https://9takes.com/personality-analysis/Lana-Del-Rey'
+loc: 'https://9takes.com/personality-analysis/lana-del-rey'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician']
-person: 'Lana-Del-Rey'
+person: 'lana-del-rey'
 suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Taylor-Swift', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Lana_Del_Rey'
 twitter: '@LanaDelRey'
@@ -147,7 +147,7 @@ Then, in January 2012, she performed on Saturday Night Live — hosted by Daniel
 
 The irony, which took years to fully resolve, is that the "Video Games" video — the DIY thing she made herself, the thing that went viral before she had label support — was more authentically hers than anything the industry could have produced. The girl who felt like a changeling in Lake Placid was inventing a persona that could finally contain all of what she was. The construction and the truth were the same thing.
 
-<a href="/personality-analysis/Billie-Eilish">Billie Eilish</a> has said that Lana Del Rey was her lock screen on her first iPhone. She filmed herself covering Lana's songs and imagined going viral. A generation of artists — <a href="/personality-analysis/Olivia-Rodrigo">Olivia Rodrigo</a> among them — absorbed the template of unguarded emotional rawness that Lana invented and normalized. The persona accused of being manufactured became the blueprint for what authentic pop looks like.
+<a href="/personality-analysis/billie-eilish">Billie Eilish</a> has said that Lana Del Rey was her lock screen on her first iPhone. She filmed herself covering Lana's songs and imagined going viral. A generation of artists — <a href="/personality-analysis/olivia-rodrigo">Olivia Rodrigo</a> among them — absorbed the template of unguarded emotional rawness that Lana invented and normalized. The persona accused of being manufactured became the blueprint for what authentic pop looks like.
 
 ---
 

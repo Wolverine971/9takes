@@ -5,14 +5,14 @@ persona_title: "Pop's Calculated Anarchist"
 description: "Charli XCX wrote a 50-page brand bible before Brat. Inside the Type 3w4 psychology behind pop music's most convincing anti-perfectionist."
 author: 'DJ Wayne'
 date: '2026-02-18'
-loc: 'https://9takes.com/personality-analysis/Charli-xcx'
+loc: 'https://9takes.com/personality-analysis/charli-xcx'
 lastmod: '2026-02-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['musician', 'alternative-artist']
-person: 'Charli-xcx'
+person: 'charli-xcx'
 suggestions: ['Taylor-Swift', 'Sabrina-Carpenter', 'Billie-Eilish', 'Dua-Lipa']
 wikipedia: 'https://en.wikipedia.org/wiki/Charli_XCX'
 twitter: 'charabordeaux'
@@ -94,7 +94,7 @@ By 16, she had a five-album deal with Atlantic Records. She didn't know who she 
 
 The song that launched Charli's mainstream career was a rejection letter.
 
-"Boom Clap" was originally written for [Hilary Duff](/personality-analysis/Hilary-Duff). Duff's team passed, saying it "wasn't cool enough for Hilary." Charli was crushed. Then the song landed in the _Fault in Our Stars_ soundtrack, went top ten in 14 countries, and became one of the biggest pop hits of 2014.
+"Boom Clap" was originally written for [Hilary Duff](/personality-analysis/hilary-duff). Duff's team passed, saying it "wasn't cool enough for Hilary." Charli was crushed. Then the song landed in the _Fault in Our Stars_ soundtrack, went top ten in 14 countries, and became one of the biggest pop hits of 2014.
 
 "I was still in school," she told The Guardian about her early Atlantic years. "I'd just come out of this weird rave scene, and I wasn't really sure what to make of that. And when I got signed, I hated pop music; I wanted to make bad rap music. I didn't know who I was. I didn't know what I liked."
 
@@ -122,7 +122,7 @@ The evidence for Charli as a 3 is not subtle. It is the entire architecture of h
 
 - **Identity fused with production.** "If I go on holiday for three days I have a breakdown. That's when everything around me is still, and I have time to question everything I've done." Not everything she's _been._ Everything she's _done._ For Charli, the doing and the being are the same thing.
 - **The industry as primary relationship.** "The main relationship in my life is the relationship I have with the industry I'm in, and the way it makes me feel. Sometimes it makes me feel incredible and sometimes it makes me feel like nothing." When the mirror reflects back admiration, she exists. When it reflects indifference, she disappears.
-- **Shape-shifting as survival.** Five distinct eras in fifteen years. Each one a new persona, a new aesthetic, a new version of Charli XCX optimized for the current landscape. [Taylor Swift](/personality-analysis/Taylor-Swift) reinvents between albums. Charli reinvents between interviews.
+- **Shape-shifting as survival.** Five distinct eras in fifteen years. Each one a new persona, a new aesthetic, a new version of Charli XCX optimized for the current landscape. [Taylor Swift](/personality-analysis/taylor-swift) reinvents between albums. Charli reinvents between interviews.
 - **The post-performance audit.** After social events: "What have I fucking said? Did I belong in that situation? Did I amplify elements of my personality because I felt that I couldn't be myself? Who even am I?" The question is never "did I have fun?" It is "did the performance land?"
 - **The competitive drive, openly named.** "If you were just chill and happy, you probably wouldn't be working in this industry at the level that I am. There's a competitive nature to this industry, and I think you have to choose how to harness it."
 

@@ -5,14 +5,14 @@ persona_title: "Politics' Velvet Sledgehammer"
 description: "Inside the psychology of Nancy Pelosi — from her Baltimore favor file to the Speaker's gavel. The shy girl who became America's most effective power broker."
 author: 'DJ Wayne'
 date: '2024-08-30'
-loc: 'https://9takes.com/personality-analysis/Nancy-Pelosi'
+loc: 'https://9takes.com/personality-analysis/nancy-pelosi'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['politician', 'campaign-politician']
-person: 'Nancy-Pelosi'
+person: 'nancy-pelosi'
 suggestions: ['Hillary-Clinton', 'Kamala-Harris', 'Alexandria-Ocasio-Cortez', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Nancy_Pelosi'
 twitter: 'SpeakerPelosi'
@@ -188,7 +188,7 @@ A shy person's words. Delivered without flinching.
 
 To Rep. Tom Marino, on the House floor, in front of cameras: "You are an insignificant person."
 
-When [Donald Trump](/personality-analysis/Donald-Trump) refused to shake her hand at the 2020 State of the Union, she stood behind him on national television and ripped his speech in half. Then ripped it again. And again. And again.
+When [Donald Trump](/personality-analysis/donald-trump) refused to shake her hand at the 2020 State of the Union, she stood behind him on national television and ripped his speech in half. Then ripped it again. And again. And again.
 
 When reporters asked why, she said: "Because it was the courteous thing to do considering the alternative."
 
@@ -222,7 +222,7 @@ During the Affordable Care Act fight, she held together a fractious Democratic c
 
 What Obama didn't say, but privately felt, was frustration. House Democrats during his administration felt Obama was "giving away too much on the front end." Pelosi values leverage the way other people value oxygen. Watching a president fail to maximize his was physically painful for her.
 
-When younger progressives like [Alexandria Ocasio-Cortez](/personality-analysis/Alexandria-Ocasio-Cortez) and the rest of the Squad arrived in Congress, Pelosi picked up a glass of water at a press conference: "This glass of water would win with a 'D' next to its name in those districts." She wasn't insulting them. She was stating the math: the seats that made her Speaker were swing districts, not safe ones. Results required pragmatism, not purity.
+When younger progressives like [Alexandria Ocasio-Cortez](/personality-analysis/alexandria-ocasio-cortez) and the rest of the Squad arrived in Congress, Pelosi picked up a glass of water at a press conference: "This glass of water would win with a 'D' next to its name in those districts." She wasn't insulting them. She was stating the math: the seats that made her Speaker were swing districts, not safe ones. Results required pragmatism, not purity.
 
 "You go through the gate," she once explained. "If the gate's closed, you go over the fence. If the fence is too high, we'll pole-vault in. If that doesn't work, we'll parachute in."
 
@@ -276,7 +276,7 @@ Pelosi would. But not directly. Not publicly. Not in a way that could be traced.
 
 She worked quietly, speaking to scores of rank-and-file lawmakers, members of her old leadership team, and her vast network of Democratic donors. She "stood by him publicly, understanding that openly opposing him might mean losing his ear." She showed him polling data. She had allies press him to consider his legacy, his realistic chances, the growing opposition.
 
-In a private phone call, she warned [Biden](/personality-analysis/Joe-Biden) that he could lose so badly he'd damage Democrats down-ballot, potentially costing them the House and Senate.
+In a private phone call, she warned [Biden](/personality-analysis/joe-biden) that he could lose so badly he'd damage Democrats down-ballot, potentially costing them the House and Senate.
 
 When the assassination attempt on Trump appeared to stall the momentum to push Biden out, a trio of close Pelosi allies — including Rep. Adam Schiff — brought the story back.
 

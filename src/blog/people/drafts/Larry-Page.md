@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Vanishing Architect"
 description: "Larry Page indexed the world's information, then disappeared to a Fijian island. His Enneagram Type 5 explains why the most-Googled man refuses to be found."
 author: 'DJ Wayne'
 date: '2026-05-07'
-loc: 'https://9takes.com/personality-analysis/Larry-Page'
+loc: 'https://9takes.com/personality-analysis/larry-page'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
 type: ['techie', 'entrepreneur', 'business-operator']
-person: 'Larry-Page'
+person: 'larry-page'
 suggestions: ['Sundar-Pichai', 'Elon-Musk', 'Mark-Zuckerberg', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Larry_Page'
 twitter: ''
@@ -219,7 +219,7 @@ The unofficial answer is that he is on an island. Probably more than one island.
 
 He didn't vanish alone. In December 2007, he married [Lucinda Southworth](https://abcnews.go.com/Business/story?id=3969679&page=1), a Stanford biomedical-informatics researcher, on Necker Island; Richard Branson — who owns the island — served as best man. They have two children. Whatever rooms Page is in now, those three people are presumably in them too. Almost no one else is.
 
-The successor he handed Google to — <a href="/personality-analysis/Sundar-Pichai">Sundar Pichai</a>, a man whose temperament is the opposite of Page's in almost every measurable way — has run the company in front of cameras for six years now. The handoff has held. Page is reportedly still on the board. He almost never attends.
+The successor he handed Google to — <a href="/personality-analysis/sundar-pichai">Sundar Pichai</a>, a man whose temperament is the opposite of Page's in almost every measurable way — has run the company in front of cameras for six years now. The handoff has held. Page is reportedly still on the board. He almost never attends.
 
 The 2019 stepdown letter is the most Page-coded sentence in the entire Google archive. It read, in part:
 

@@ -5,14 +5,14 @@ persona_title: "Comedy's Rehearsed Confession"
 description: "The eating disorder and the standing ovations share the same engine. Inside Nikki Glaser's Type 3 drive for validation, and what it costs her."
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Nikki-Glaser'
+loc: 'https://9takes.com/personality-analysis/nikki-glaser'
 lastmod: '2026-04-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['comedian']
-person: 'Nikki-Glaser'
+person: 'nikki-glaser'
 suggestions: ['Chelsea-Handler', 'Tina-Fey', 'Taylor-Swift', 'Pete-Davidson']
 wikipedia: 'https://en.wikipedia.org/wiki/Nikki_Glaser'
 twitter: 'https://twitter.com/NikkiGlaser'

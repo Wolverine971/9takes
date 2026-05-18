@@ -5,14 +5,14 @@ persona_title: "Media's Self-Made Strategist"
 description: 'Inside the psychology of Patrick Bet-David: how a refugee kid with a 1.8 GPA turned shame into an empire, and why he never stops.'
 author: 'DJ Wayne'
 date: '2026-04-07'
-loc: 'https://9takes.com/personality-analysis/Patrick-Bet-David'
+loc: 'https://9takes.com/personality-analysis/patrick-bet-david'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
-person: 'Patrick-Bet-David'
+person: 'patrick-bet-david'
 suggestions: ['Alex-Hormozi', 'Scott-Galloway', 'Stephen-A-Smith', 'Sam-Parr', 'Gary-Vee']
 wikipedia: 'https://en.wikipedia.org/wiki/Patrick_Bet-David'
 twitter: 'patrickbetdavid'
@@ -227,7 +227,7 @@ Here's a detail nobody talks about: Patrick Bet-David once wanted to be the next
 
 "I wanted to be the next Arnold," he admitted. "You know, marry a Kennedy, be a governor, Hollywood actor, all this stuff."
 
-An Iranian refugee kid in Glendale, looking at an Austrian bodybuilder who became a movie star who became a governor who married into American royalty, [another Type 3 who reinvented himself with every act](/personality-analysis/Arnold-Schwarzenegger), and thinking: _I can do that, but bigger_.
+An Iranian refugee kid in Glendale, looking at an Austrian bodybuilder who became a movie star who became a governor who married into American royalty, [another Type 3 who reinvented himself with every act](/personality-analysis/arnold-schwarzenegger), and thinking: _I can do that, but bigger_.
 
 The thing is, he's actually running Arnold's playbook. Step by step. Immigrant who arrives with nothing. Dominates an industry (bodybuilding for Arnold, financial services for Patrick). Pivots to media (Hollywood for Arnold, YouTube for Patrick). Builds political influence. Hits the same constitutional wall — foreign-born citizens can't be president. Even their college choice overlaps: both attended Santa Monica Community College.
 
@@ -280,7 +280,7 @@ And the conglomerate has shifted. When Valuetainment launched in 2012, it was pu
 
 The shift itself is a Three move. Patrick read what the audience wanted and became it. The neutral business educator became the right-leaning media kingmaker because that's where the attention was moving. When he platformed Nick Fuentes in September 2025 and Ben Shapiro pulled out of a scheduled appearance in protest, the controversy only confirmed that the strategy was working. The transformation was total, just like every other one.
 
-He winters in Aspen. He summers in the Hamptons, renting estates at $75,000 a week. He's conducted marathon interviews with everyone from [Tucker Carlson](/personality-analysis/Tucker-Carlson) to the crown prince of Iran.
+He winters in Aspen. He summers in the Hamptons, renting estates at $75,000 a week. He's conducted marathon interviews with everyone from [Tucker Carlson](/personality-analysis/tucker-carlson) to the crown prince of Iran.
 
 And none of it has slowed him down.
 

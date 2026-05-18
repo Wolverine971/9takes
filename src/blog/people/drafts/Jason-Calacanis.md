@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Hype Man"
 description: 'Jason Calacanis turned working-class hunger into a public achievement machine, where every win has to be visible to feel real.'
 author: 'DJ Wayne'
 date: '2023-07-30'
-loc: 'https://9takes.com/personality-analysis/Jason-Calacanis'
+loc: 'https://9takes.com/personality-analysis/jason-calacanis'
 lastmod: '2026-01-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['techie', 'investor']
-person: 'Jason-Calacanis'
+person: 'jason-calacanis'
 suggestions: ['David-Sacks', 'Chamath-Palihapitiya', 'David-Friedberg', 'Elon-Musk', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jason_Calacanis'
 twitter: ''
@@ -184,7 +184,7 @@ Before All-In, before TWiST crossed 2,000 episodes, Jason was one of the earlies
 
 ## The Twitter Saga and Elon Musk
 
-In 2022, when <a href="/personality-analysis/Elon-Musk">Elon Musk</a> announced his $44 billion Twitter acquisition, Jason didn't just watch from the sidelines. He tried to get in the game.
+In 2022, when <a href="/personality-analysis/elon-musk">Elon Musk</a> announced his $44 billion Twitter acquisition, Jason didn't just watch from the sidelines. He tried to get in the game.
 
 Court documents revealed private texts where Jason offered himself up with almost comedic enthusiasm:
 
@@ -204,7 +204,7 @@ He didn't push back. He didn't leave. He absorbed the rebuke and reaffirmed his 
 
 ### Building Media Power
 
-Jason co-hosts the All-In Podcast alongside <a href="/personality-analysis/David-Sacks">David Sacks</a>, [Chamath Palihapitiya](/personality-analysis/Chamath-Palihapitiya), and [David Friedberg](/personality-analysis/David-Friedberg). What started as casual conversations between friends has become one of the most influential business podcasts in America.
+Jason co-hosts the All-In Podcast alongside <a href="/personality-analysis/david-sacks">David Sacks</a>, [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya), and [David Friedberg](/personality-analysis/david-friedberg). What started as casual conversations between friends has become one of the most influential business podcasts in America.
 
 The origin is worth understanding. During COVID, the four were already texting and calling each other constantly, smart people with no one new to talk to. Someone hit record. The chemistry was real and accidental: four opinionated investors who genuinely liked arguing with each other. The audience found it because it sounded nothing like a produced show.
 
@@ -214,7 +214,7 @@ He calls himself the "world's greatest moderator," and he gets credit for the sh
 
 ### The Political Tightrope
 
-The show's political trajectory has been dramatic. What began as tech commentary turned into something more charged. The hosts went from Trump critics to MAGA allies. David Sacks became <a href="/personality-analysis/Donald-Trump">President Trump's</a> AI and Crypto Czar. The podcast hosted Trump in the Oval Office.
+The show's political trajectory has been dramatic. What began as tech commentary turned into something more charged. The hosts went from Trump critics to MAGA allies. David Sacks became <a href="/personality-analysis/donald-trump">President Trump's</a> AI and Crypto Czar. The podcast hosted Trump in the Oval Office.
 
 Jason has played both sides with Type 3 precision, showing up at White House events while publicly critiquing Trump's market impact: "These Trump Truth Tantrums certainly play with the MAGA base, but they destabilize markets."
 
@@ -391,7 +391,7 @@ Is that healthy compartmentalization, or evidence of someone who can't integrate
 
 Perhaps the most damaging criticism of Jason came from Y Combinator itself.
 
-In 2016, it was revealed that Jason had been <a class="external-link" target="_blank" rel="noopener" href="https://news.ycombinator.com/item?id=11315325">banned from YC Demo Day</a>, the most important event in the startup fundraising calendar. [Sam Altman](/personality-analysis/Sam-Altman), then YC's president, explained:
+In 2016, it was revealed that Jason had been <a class="external-link" target="_blank" rel="noopener" href="https://news.ycombinator.com/item?id=11315325">banned from YC Demo Day</a>, the most important event in the startup fundraising calendar. [Sam Altman](/personality-analysis/sam-altman), then YC's president, explained:
 
 > "We collect feedback from YC founders on investors. If you mistreat founders, we don't invite you to Demo Day. This isn't permanent. If you stop mistreating founders we start inviting you again... investors have enough advantages in the system and we unashamedly take the side of our founders."
 

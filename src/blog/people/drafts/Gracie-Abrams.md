@@ -5,14 +5,14 @@ persona_title: "Pop's Hidden Heiress"
 description: "Why does Gracie Abrams hide that her dad directed Star Wars? Her Enneagram Type 4 explains the bedroom songs, the panic, and the inherited-spotlight fear."
 author: 'DJ Wayne'
 date: '2026-05-17'
-loc: 'https://9takes.com/personality-analysis/Gracie-Abrams'
+loc: 'https://9takes.com/personality-analysis/gracie-abrams'
 lastmod: '2026-05-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Gracie-Abrams'
+person: 'gracie-abrams'
 suggestions: ['Lana-Del-Rey', 'Olivia-Rodrigo', 'Taylor-Swift', 'Paul-Mescal']
 wikipedia: 'https://en.wikipedia.org/wiki/Gracie_Abrams'
 twitter: 'gracieabrams'
@@ -110,7 +110,7 @@ The motor is the Type 4 fear of being a copy. Not unloved, not ordinary. <em>Der
 
 The 5 wing is in the rest of the evidence. The introversion she names herself: <a href="/enneagram-corner/enneagram-types-in-stress">"I'm super shy"</a>, "I have very few friends because I'm not the most social person ever," "I've been an introverted person my whole life." The Barnard enrollment in international relations, the leave of absence she keeps refusing to call a dropout. The bedroom as "the safest space I've ever found in my life." The journal as a private system, ten minutes a day, since she was eight.
 
-A 4w3 musician performs the wound. <a href="/personality-analysis/Lana-Del-Rey">Lana Del Rey</a> is a 4w3.
+A 4w3 musician performs the wound. <a href="/personality-analysis/lana-del-rey">Lana Del Rey</a> is a 4w3.
 
 A <a href="/enneagram-corner/enneagram-type-4">Type 4</a> with a 5 wing studies it. Closes the door first.
 
@@ -145,12 +145,12 @@ Fours are most themselves alone, and performance asks the Four to be most hersel
 
 She got around the problem the only way a Type 4 with a 5 wing can: she let the work travel without her. "I miss you, I'm sorry," the bedroom song recorded on a laptop, became a viral TikTok sound across the lockdown years. The audience built itself while she stayed inside. By the time anyone needed her on a stage, the songs had already done the leaving.
 
-Then the touring slots came in a row, and they came from the women everyone was already watching. <a href="/personality-analysis/Olivia-Rodrigo">Olivia Rodrigo</a> brought her on the Sour Tour in 2022. Taylor Swift cast her on the Eras Tour in 2023. Olivia again on GUTS in 2024. Three of the biggest pop tours in succession, all chosen by Gen Z's most-watched women, for the artist who couldn't keep food down before her own shows.
+Then the touring slots came in a row, and they came from the women everyone was already watching. <a href="/personality-analysis/olivia-rodrigo">Olivia Rodrigo</a> brought her on the Sour Tour in 2022. Taylor Swift cast her on the Eras Tour in 2023. Olivia again on GUTS in 2024. Three of the biggest pop tours in succession, all chosen by Gen Z's most-watched women, for the artist who couldn't keep food down before her own shows.
 
 > "Being in Taylor's orbit for the summer completely altered every single thing for me."
 > — Gracie Abrams, _NME_
 
-Type 4's growth arrow points to Type 1: discipline, structure, the calm of someone who knows the work is enough. Watching <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> run a Three's three-and-a-half-hour set, four times a week, with no flinch, for a summer, is a particular kind of training the inside of a Four cannot give itself. The Four borrows the muscle from someone whose machinery already runs, and over a season builds her own.
+Type 4's growth arrow points to Type 1: discipline, structure, the calm of someone who knows the work is enough. Watching <a href="/personality-analysis/taylor-swift">Taylor Swift</a> run a Three's three-and-a-half-hour set, four times a week, with no flinch, for a summer, is a particular kind of training the inside of a Four cannot give itself. The Four borrows the muscle from someone whose machinery already runs, and over a season builds her own.
 
 Two years later, at Madison Square Garden, she said the sentence Fours never expect to mean.
 

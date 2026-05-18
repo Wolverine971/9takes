@@ -5,14 +5,14 @@ description: 'Greta Thunberg turned selective mutism, moral fury, and the gap be
 persona_title: "Climate's Uncompromising Conscience"
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Greta-Thunberg'
+loc: 'https://9takes.com/personality-analysis/greta-thunberg'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['activist', 'movement-leader']
-person: 'Greta-Thunberg'
+person: 'greta-thunberg'
 suggestions: ['Emma-Watson', 'Hillary-Clinton', 'Jordan-Peterson', 'Steve-Jobs']
 wikipedia: 'https://en.wikipedia.org/wiki/Greta_Thunberg'
 twitter: 'GretaThunberg'
@@ -196,7 +196,7 @@ However, researchers note that **many "Greta effects" have faded**. Her pivot to
 
 **"How dare you!"** she continued at the UN. Not destructive rage, but constructive fury that demands better from everyone, starting with those in power. Her father later observed: _"She felt she had to do something, and she had to do it on her own."_ This captures the **Type 1 burden**: feeling personally responsible for fixing what's broken, even when it's far beyond individual control.
 
-When [Donald Trump](/personality-analysis/Donald-Trump) mocked her, she simply changed her Twitter bio to his quote. When he criticized her again in 2025 after her Gaza flotilla detention, she responded with characteristic directness: **"I think the world needs a lot more young angry women, to be honest. Especially with everything going on right now."**
+When [Donald Trump](/personality-analysis/donald-trump) mocked her, she simply changed her Twitter bio to his quote. When he criticized her again in 2025 after her Gaza flotilla detention, she responded with characteristic directness: **"I think the world needs a lot more young angry women, to be honest. Especially with everything going on right now."**
 
 Type 1s don't waste energy defending themselves. They redirect attacks into validation of their mission.
 

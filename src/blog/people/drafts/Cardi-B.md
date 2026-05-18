@@ -5,14 +5,14 @@ persona_title: "The Bronx's Unbossable Challenger"
 description: "Cardi B's loud, no-filter Bronx persona looks like swagger. The Enneagram says it is armor. Inside the Type 8 pattern that explains the fights, the tears, and the gap between them."
 author: 'DJ Wayne'
 date: '2026-04-27'
-loc: 'https://9takes.com/personality-analysis/Cardi-B'
+loc: 'https://9takes.com/personality-analysis/cardi-b'
 lastmod: '2026-04-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Cardi-B'
+person: 'cardi-b'
 suggestions: ['Rihanna', 'Doja-Cat', 'Beyonce-Knowles', 'Drake']
 wikipedia: 'https://en.wikipedia.org/wiki/Cardi_B'
 twitter: 'iamcardib'

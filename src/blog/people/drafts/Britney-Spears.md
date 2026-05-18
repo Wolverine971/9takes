@@ -5,14 +5,14 @@ persona_title: 'Pop’s Sleepwalking Giant'
 description: 'Britney Spears built a billion-dollar career by saying yes to everyone except herself — and "crazy" was never the word for what was actually happening.'
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Britney-Spears'
+loc: 'https://9takes.com/personality-analysis/britney-spears'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Britney-Spears'
+person: 'britney-spears'
 suggestions: ['Paris-Hilton', 'Demi-Lovato', 'Hilary-Duff', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Britney_Spears'
 twitter: 'britneyspears'
@@ -182,7 +182,7 @@ You are allowed to read those two paragraphs as contradictory, because they are.
 
 A family friend named Jacqueline Butcher — quoted in <a href="https://www.newyorker.com/news/american-chronicles/britney-spears-conservatorship-nightmare">Ronan Farrow and Jia Tolentino's New Yorker investigation</a> — described Jamie Spears, during the conservatorship years, calling his daughter *"fat,"* accusing her of being *"a whore and a terrible mother,"* and shouting *"I am Britney Spears!"* in moments of self-importance. Picture that sentence in his mouth while she was in the building making everyone in it rich.
 
-She sang anyway. She danced anyway. She showed up to rehearsal anyway. She did three seasons as a judge on *The X Factor* anyway. She gave [her childhood friend Paris Hilton](/personality-analysis/Paris-Hilton) the kind of company most people give their therapists. *"I accomplished a lot during that time when I was supposedly incapable of taking care of myself,"* she wrote in the memoir, in what may be the driest sentence she has ever published.
+She sang anyway. She danced anyway. She showed up to rehearsal anyway. She did three seasons as a judge on *The X Factor* anyway. She gave [her childhood friend Paris Hilton](/personality-analysis/paris-hilton) the kind of company most people give their therapists. *"I accomplished a lot during that time when I was supposedly incapable of taking care of myself,"* she wrote in the memoir, in what may be the driest sentence she has ever published.
 
 This is the load-bearing observation about Britney Spears: she is so good at compliance that two parallel realities can run through her at once without either one breaking. She can be a high-functioning headlining performer and a court-declared incompetent at the same time. Most people would shatter under the cognitive dissonance. Nines don't shatter. They split the room and serve both sides.
 

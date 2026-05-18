@@ -5,14 +5,14 @@ persona_title: "Hollywood's Relentless Finisher"
 description: "Why Bob Iger couldn't stay retired. Inside the Type 3 Achiever pattern that built Disney, ran Arthur Iger's shadow underground, and trapped his son inside the self fifty years of achievement produced."
 author: 'DJ Wayne'
 date: '2026-04-24'
-loc: 'https://9takes.com/personality-analysis/Bob-Iger'
+loc: 'https://9takes.com/personality-analysis/bob-iger'
 lastmod: '2026-04-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['entrepreneur', 'business-operator']
-person: 'Bob-Iger'
+person: 'bob-iger'
 suggestions: ['Steve-Jobs', 'Tim-Cook', 'Jeff-Bezos', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Bob_Iger'
 production_pretext:
@@ -112,7 +112,7 @@ Three things make the call clean.
 
 First, the origin. Type 3 formation usually requires a parent who couldn't model steady achievement, so the child learns to achieve *for* the family. Arthur Iger, cycling through jobs, carrying his private sense of failure. Bob watching. Bob making the quiet vow.
 
-Second, the calibration. When Iger decided to buy Pixar in 2005, he didn't open the negotiation with a pitch deck. He called [Steve Jobs](/personality-analysis/Steve-Jobs) and said, *"I've got a crazy idea."* Five words, engineered. It's the exact opener most likely to make Steve Jobs (who distrusted pitch-men and loved whiteboards) stop what he was doing and listen. A Type 3 doesn't walk into a room hoping to be read. They've already read it.
+Second, the calibration. When Iger decided to buy Pixar in 2005, he didn't open the negotiation with a pitch deck. He called [Steve Jobs](/personality-analysis/steve-jobs) and said, *"I've got a crazy idea."* Five words, engineered. It's the exact opener most likely to make Steve Jobs (who distrusted pitch-men and loved whiteboards) stop what he was doing and listen. A Type 3 doesn't walk into a room hoping to be read. They've already read it.
 
 Third, the patience. Before he became CEO, Iger spent a decade as Michael Eisner's #2: repeatedly passed over, openly underestimated, privately described by Eisner as lacking "stature." He never argued. Type 3s don't argue a room's read of them. They wait until the room has no one else to look at. In March 2005, after Eisner's empire had cracked in public, the Disney board named Iger CEO unanimously.
 

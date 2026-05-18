@@ -5,14 +5,14 @@ persona_title: "Pop's Untouchable Queen"
 description: "The girl who barely spoke became music's most powerful force. Inside the Type 8 psychology driving Beyoncé's control, silence, and rare vulnerability."
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Beyonce-Knowles'
+loc: 'https://9takes.com/personality-analysis/beyonce-knowles'
 lastmod: '2026-03-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['musician', 'pop-star']
-person: 'Beyonce-Knowles'
+person: 'beyonce-knowles'
 suggestions: ['Rihanna', 'Taylor-Swift', 'Lady-Gaga', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Beyonc%C3%A9'
 twitter: 'https://twitter.com/Beyonce'
@@ -257,7 +257,7 @@ She had been writing it for over five years. "I believe genres are traps that bo
 
 The country music establishment responded predictably. Despite being the most acclaimed country-adjacent album of the year, Cowboy Carter received zero CMA nominations — a snub widely covered as country music's gatekeeping laid bare. The industry that wouldn't let her in still wouldn't let her in.
 
-So the Grammys did what the CMAs wouldn't. At the 2025 ceremony, Cowboy Carter became Album of the Year — the award that had eluded Beyoncé through four previous era-defining albums (in an industry where peers like [Taylor Swift](/personality-analysis/Taylor-Swift) had claimed it multiple times). She became the first Black woman to win Best Country Album. She broke the record for most Grammy wins in history.
+So the Grammys did what the CMAs wouldn't. At the 2025 ceremony, Cowboy Carter became Album of the Year — the award that had eluded Beyoncé through four previous era-defining albums (in an industry where peers like [Taylor Swift](/personality-analysis/taylor-swift) had claimed it multiple times). She became the first Black woman to win Best Country Album. She broke the record for most Grammy wins in history.
 
 "I have paid my dues and followed every rule for decades," she said, "so now I can break the rules that need to be broken."
 

@@ -2,17 +2,17 @@
 title: "Bernie Sanders: An Enneagram Type 1 Analysis of America's Moral Metronome"
 meta_title: "Why Bernie Sanders Has Given the Same Speech for 40 Years (It's Not Stubbornness)"
 persona_title: "Politics' Unsilenceable Conscience"
-description: 'Inside the moral engine that has driven Bernie Sanders for 60 years — from a Brooklyn apartment to the Senate floor'
+description: 'Inside the moral engine that has driven Bernie Sanders for 60 years- from a Brooklyn apartment to the Senate floor'
 author: 'DJ Wayne'
 date: '2026-03-27'
-loc: 'https://9takes.com/personality-analysis/Bernie-Sanders'
+loc: 'https://9takes.com/personality-analysis/bernie-sanders'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
 type: ['politician', 'campaign-politician']
-person: 'Bernie-Sanders'
+person: 'bernie-sanders'
 suggestions: ['alexandria-ocasio-cortez', 'hillary-clinton', 'donald-trump', 'joe-biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Bernie_Sanders'
 twitter: '@BernieSanders'

@@ -5,14 +5,14 @@ description: 'Taylor Swift built a career on loyalty, reinvention, and public al
 persona_title: "Pop's Strategic Alchemist"
 author: 'DJ Wayne'
 date: '2023-07-29'
-loc: 'https://9takes.com/personality-analysis/Taylor-Swift'
+loc: 'https://9takes.com/personality-analysis/taylor-swift'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
 enneagram: 3
 type: ['musician', 'entrepreneur', 'pop-star', 'business-operator']
-person: 'Taylor-Swift'
+person: 'taylor-swift'
 suggestions:
   ['Kim-Kardashian', 'Ariana-Grande', 'Sabrina-Carpenter', 'Olivia-Rodrigo', 'Tom-Cruise']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Swift'
@@ -45,7 +45,7 @@ FEEDBACK (2026-02-18):
 
 <p class="firstLetter">Court documents from January 2026 revealed Taylor Swift calling Justin Baldoni "this b----" while defending Blake Lively. Fans who'd only seen the polished pop star were shocked. But anyone paying attention recognized the pattern: Swift protects her people.</p>
 
-That protective instinct runs through every chapter of her career. The 2009 VMAs. [Kim Kardashian's](/personality-analysis/Kim-Kardashian) snake emojis. The masters heist. Each attack met with the same response: retreat, rebuild, return stronger.
+That protective instinct runs through every chapter of her career. The 2009 VMAs. [Kim Kardashian's](/personality-analysis/kim-kardashian) snake emojis. The masters heist. Each attack met with the same response: retreat, rebuild, return stronger.
 
 This is the psychology of the [Enneagram Type 3: the Achiever](/enneagram-corner/enneagram-type-3). Not just ambition for its own sake, but ambition fused with a refusal to let anyone else write her story.
 
@@ -59,9 +59,9 @@ Type 3s navigate careers [strategically](/enneagram-corner/enneagram-types-and-c
 
 <li><b>Calculated Genre Evolution:</b> Country to pop to indie folk to pop again. Each transition looked risky. Each paid off. Type 3s read what the moment requires and adapt.</li>
 
-<li><b>Image Attack Response:</b> <a href="/personality-analysis/Kim-Kardashian">Kim Kardashian</a> called her a snake in 2016. Swift disappeared for a year, then returned with a 63-foot inflatable cobra named "Karyn." Weaponized the insult.</li>
+<li><b>Image Attack Response:</b> <a href="/personality-analysis/kim-kardashian">Kim Kardashian</a> called her a snake in 2016. Swift disappeared for a year, then returned with a 63-foot inflatable cobra named "Karyn." Weaponized the insult.</li>
 
-<li><b>Inner Circle Protection:</b> The <a href="/personality-analysis/Blake-Lively">Blake Lively</a> texts showed Swift calling Baldoni "this b----" in private. Not PR strategy. Genuine friendship with teeth.</li>
+<li><b>Inner Circle Protection:</b> The <a href="/personality-analysis/blake-lively">Blake Lively</a> texts showed Swift calling Baldoni "this b----" in private. Not PR strategy. Genuine friendship with teeth.</li>
 
 <li><b>Crisis Alchemy:</b> Lost her masters to Scooter Braun? Re-recorded everything. The new versions outperformed the originals.</li>
 
@@ -112,11 +112,11 @@ This is what separates her from artists with better voices or bigger productions
 
 This feud nearly ended her. Understanding how she survived it reveals everything about Type 3 psychology.
 
-**2009: The Ambush.** [Kanye West](/personality-analysis/Kanye) grabbed the mic from 19-year-old Swift at the VMAs. "Beyonce had one of the best videos of all time." Her first major award, hijacked on live television. For a Type 3 whose core fear is public humiliation, this was a direct hit.
+**2009: The Ambush.** [Kanye West](/personality-analysis/kanye) grabbed the mic from 19-year-old Swift at the VMAs. "Beyonce had one of the best videos of all time." Her first major award, hijacked on live television. For a Type 3 whose core fear is public humiliation, this was a direct hit.
 
 **2015: The Setup.** Six years later, Kanye called Swift personally and asked her to present his VMA Vanguard Award. "I really, really would like for you to present this Vanguard Award to me," he told her, being "so sweet." She agreed, believing they'd reconciled. During his acceptance speech, he said: "You know how many times they announced Taylor was going to give me the award 'cause it got them more ratings?" He reduced her to a prop on live television. Swift described feeling "a chill" in her body. She later connected it to a pattern: "He literally did the same thing to Drake. Getting close to you, earning your trust, detonating you."
 
-**2016: The Snake Attack.** After years of apparent reconciliation, Kanye released "Famous" with degrading lyrics about Swift. She denied approving them. [Kim Kardashian](/personality-analysis/Kim-Kardashian) released edited clips on National Snake Day that seemed to prove Swift a liar.
+**2016: The Snake Attack.** After years of apparent reconciliation, Kanye released "Famous" with degrading lyrics about Swift. She denied approving them. [Kim Kardashian](/personality-analysis/kim-kardashian) released edited clips on National Snake Day that seemed to prove Swift a liar.
 
 #TaylorSwiftIsOverParty trended worldwide.
 
@@ -171,9 +171,9 @@ The Type 8 case shows up in the Baldoni texts, the Apple Music letter, the Scoot
 
 ## What the Loyalty to Blake Reveals
 
-The Kim/Kanye saga showed Swift's capacity for strategic warfare. Her friendship with [Blake Lively](/personality-analysis/Blake-Lively) shows something different: loyalty without calculation.
+The Kim/Kanye saga showed Swift's capacity for strategic warfare. Her friendship with [Blake Lively](/personality-analysis/blake-lively) shows something different: loyalty without calculation.
 
-The friendship started in 2015. A decade later, Swift is godmother to all four of Lively and [Ryan Reynolds'](/personality-analysis/Ryan-Reynolds) children. She named _Folklore_ characters after their kids. Lively directed her music video for "I Bet You Think About Me."
+The friendship started in 2015. A decade later, Swift is godmother to all four of Lively and [Ryan Reynolds'](/personality-analysis/ryan-reynolds) children. She named _Folklore_ characters after their kids. Lively directed her music video for "I Bet You Think About Me."
 
 For Type 3s who often struggle with authentic connection, this kind of sustained non-transactional friendship represents real growth.
 

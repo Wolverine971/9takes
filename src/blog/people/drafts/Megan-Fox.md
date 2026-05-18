@@ -5,14 +5,14 @@ persona_title: "Hollywood's Unseen Exile"
 description: 'The world worshipped Megan Fox for how she looked. She has spent twenty years proving someone lives inside the body they built a shrine to. An Enneagram Type 4 analysis.'
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Megan-Fox'
+loc: 'https://9takes.com/personality-analysis/megan-fox'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['movieStar', 'celebrity', 'screen-icon']
-person: 'Megan-Fox'
+person: 'megan-fox'
 suggestions: ['Billie-Eilish', 'Bella-Hadid', 'Johnny-Depp', 'Miley-Cyrus']
 wikipedia: 'https://en.wikipedia.org/wiki/Megan_Fox'
 twitter: 'meabornsept1986'
@@ -165,7 +165,7 @@ These aren't complaints. They're coordinates: the specific psychological locatio
 
 The evidence runs deeper than self-identification:
 
-- **The body as a stranger.** The dysmorphia Fox has described since childhood isn't vanity. It's the Four's defining experience of alienation turned inward, a disconnect between self and reflection that no amount of external worship has ever closed. A pattern shared by other Fours like [Billie Eilish](/personality-analysis/Billie-Eilish), who has described a nearly identical rift between public image and private experience.
+- **The body as a stranger.** The dysmorphia Fox has described since childhood isn't vanity. It's the Four's defining experience of alienation turned inward, a disconnect between self and reflection that no amount of external worship has ever closed. A pattern shared by other Fours like [Billie Eilish](/personality-analysis/billie-eilish), who has described a nearly identical rift between public image and private experience.
 - **Queerness as another axis of otherness.** Fox came out as bisexual in 2009, telling interviewers "I have no question in my mind about being bisexual," when it cost her credibility rather than earning her points. She'd dated a woman at eighteen. Posted "Putting the B in #LGBTQIA for over two decades" in 2021. For a Four, sexuality isn't a label to adopt. It's another dimension of feeling fundamentally different from the script everyone else seems to follow.
 - **Art as exorcism, not expression.** Fox didn't write poetry because she wanted to be a poet. She wrote it because the silence was killing her. "It was like a demon that I needed to have exercised from my body." Fours don't create for applause. They create because the alternative is suffocation.
 - **The construction of a false self.** Fox admitted to feeding the press false narratives for years, playing up a caricature to keep the real person hidden. This is the Four's survival instinct: if they're going to misunderstand me anyway, I'll hand them a decoy and keep what matters out of reach.

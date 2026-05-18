@@ -5,14 +5,14 @@ persona_title: "Intelligence's Silent Observer"
 description: 'From Navy SEAL to CIA to drug spiral to podcasting. Inside the Type 5 mind that processes everything before it speaks.'
 author: 'DJ Wayne'
 date: '2026-02-06'
-loc: 'https://9takes.com/personality-analysis/Shawn-Ryan'
+loc: 'https://9takes.com/personality-analysis/shawn-ryan'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['creator', 'podcaster']
-person: 'Shawn-Ryan'
+person: 'shawn-ryan'
 suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Chris-Williamson', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'
 twitter: 'ShawnRyan762'
@@ -157,7 +157,7 @@ The thing that finally gave him a system to master was a microphone.
 
 ### The Podcast: How Therapy Built an Empire
 
-The Shawn Ryan Show launched Christmas 2019, filmed in his attic with his wife manually resetting 30-minute camera timers. By late 2024, it hit #2 on Spotify, behind only <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>.
+The Shawn Ryan Show launched Christmas 2019, filmed in his attic with his wife manually resetting 30-minute camera timers. By late 2024, it hit #2 on Spotify, behind only <a href="/personality-analysis/joe-rogan">Joe Rogan</a>.
 
 The show's origin wasn't ambition. It was frustration.
 
@@ -176,7 +176,7 @@ The results show in specific moments:
 - Former SEAL Team 6 operator Pete Scobell chose the Shawn Ryan Show to break five years of public silence about the real Captain Phillips rescue.
 - When Chris Beck, one of the first transgender Navy SEALs, sat for six hours to discuss transitioning and then detransitioning, both sides of a politically charged topic praised the conversation's humanity.
 
-Compare this to [Joe Rogan's](/personality-analysis/Joe-Rogan) style, where the host debates, challenges, and inserts himself into the conversation. Shawn does the opposite. He creates a space so comfortable that guests say things they've never said publicly before.
+Compare this to [Joe Rogan's](/personality-analysis/joe-rogan) style, where the host debates, challenges, and inserts himself into the conversation. Shawn does the opposite. He creates a space so comfortable that guests say things they've never said publicly before.
 
 > "I'm not a very public person, I don't like going out in public... I sure as hell don't do public speeches. This is where I get my message across, me and you, nobody else is in the studio."
 

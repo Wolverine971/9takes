@@ -4,14 +4,14 @@ meta_title: "Sydney Sweeney's Personality: The Type 3 System That Cracked on Cam
 description: "Sydney Sweeney built a system at 12 to keep her real self off camera. One night on Twitter, it broke. Here's the Type 3 architecture underneath."
 author: 'DJ Wayne'
 date: '2024-06-01'
-loc: 'https://9takes.com/personality-analysis/Sydney-Sweeney'
+loc: 'https://9takes.com/personality-analysis/sydney-sweeney'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['newMovieStar', 'celebrity', 'rising-star']
-person: 'Sydney-Sweeney'
+person: 'sydney-sweeney'
 suggestions:
   ['Zendaya', 'Margot-Robbie', 'Timothee-Chalamet', 'Anya-Taylor-Joy', 'Millie-Bobby-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/Sydney_Sweeney'

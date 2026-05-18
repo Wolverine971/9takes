@@ -5,14 +5,14 @@ meta_title: "Michael B. Jordan Isn't Performing — He's Disappearing"
 description: "Michael B. Jordan's mother couldn't recognize him in Sinners. His Enneagram Type 3 personality explains why: the compulsive need to transform, the Killmonger crash, and the loneliness underneath."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Michael-B-Jordan'
+loc: 'https://9takes.com/personality-analysis/michael-b-jordan'
 lastmod: '2026-02-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['newMovieStar', 'rising-star']
-person: 'Michael-B-Jordan'
+person: 'michael-b-jordan'
 suggestions: ['Will-Smith', 'Dwayne-Johnson', 'Tom-Cruise', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Michael_B._Jordan'
 twitter: 'michaelb4jordan'

@@ -5,14 +5,14 @@ persona_title: "Cinema's Translated Outsider"
 description: "Riz Ahmed insists he's British, full stop. So why has he spent twenty years making art about people who don't belong? Inside a Type 4w3 contradiction."
 author: 'DJ Wayne'
 date: '2026-04-29'
-loc: 'https://9takes.com/personality-analysis/Riz-Ahmed'
+loc: 'https://9takes.com/personality-analysis/riz-ahmed'
 lastmod: '2026-04-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['movieStar', 'musician', 'screen-icon']
-person: 'Riz-Ahmed'
+person: 'riz-ahmed'
 suggestions: ['Dev-Patel', 'Mahershala-Ali', 'Hasan-Minhaj', 'Kumail-Nanjiani']
 wikipedia: 'https://en.wikipedia.org/wiki/Riz_Ahmed'
 twitter: '@rizwanahmed'

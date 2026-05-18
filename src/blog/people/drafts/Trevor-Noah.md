@@ -5,14 +5,14 @@ persona_title: "Comedy's Stateless Ambassador"
 description: 'How Trevor Noah turned the wound of not belonging into a survival strategy that made him everyone and no one simultaneously.'
 author: 'DJ Wayne'
 date: '2025-03-04'
-loc: 'https://9takes.com/personality-analysis/Trevor-Noah'
+loc: 'https://9takes.com/personality-analysis/trevor-noah'
 lastmod: '2026-03-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host']
-person: 'Trevor-Noah'
+person: 'trevor-noah'
 suggestions: ['Jon-Stewart', 'Dave-Chappelle', 'Kevin-Hart', 'Dax-Shepard']
 wikipedia: 'https://en.wikipedia.org/wiki/Trevor_Noah'
 twitter: 'Trevornoah'
@@ -152,7 +152,7 @@ Why not Type 3 or Type 7, the obvious alternatives? Type 3 (the performer) optim
 
 Evidence of the pattern:
 
-- **The charm is a surveillance system.** He told [Dax Shepard](/personality-analysis/Dax-Shepard) on Armchair Expert that silence scares him and that hypervigilance is a form of safety. What looks effortless on a stage or behind a desk is, in his own description, the engine of a man who does not feel safe in a quiet room.
+- **The charm is a surveillance system.** He told [Dax Shepard](/personality-analysis/dax-shepard) on Armchair Expert that silence scares him and that hypervigilance is a form of safety. What looks effortless on a stage or behind a desk is, in his own description, the engine of a man who does not feel safe in a quiet room.
 - **The authority paradox.** He simultaneously worked within institutional media (Comedy Central, Paramount) while building an entire comedic identity around questioning institutional authority. He craved the structure and scrutinized it at the same time.
 - **The exit strategy.** He left The Daily Show at peak success and told no one until live broadcast. He left relationships when they got too settled. He left South Africa. He even left his own comfort, revealing on the Diary of a CEO podcast in 2024 that his depression was linked to untreated ADHD, a vulnerability he'd hidden for years.
 - **The perpetual preparation.** "I'm terrified of being broke again," he told Howard Stern. "I'm perpetually terrified of that." This despite being worth approximately $100 million. The fear of poverty from Soweto has calcified into a permanent fixture, a Six's worst-case scenario running on an infinite loop.
@@ -169,7 +169,7 @@ His technical signature is the accent work: seven languages plus a seemingly inf
 
 But the accents are delivery, not substance. The substance is perspective.
 
-[Jon Stewart's](/personality-analysis/Jon-Stewart) comedy was built on righteous indignation — a New Jersey guy who couldn't believe what he was seeing. [Dave Chappelle's](/personality-analysis/Dave-Chappelle) is rooted in the specificity of Black American experience. [Kevin Hart's](/personality-analysis/Kevin-Hart) is relentless self-deprecation and physical energy. Trevor Noah's comedy does something none of them do: it treats every culture, including America, as equally foreign.
+[Jon Stewart's](/personality-analysis/jon-stewart) comedy was built on righteous indignation — a New Jersey guy who couldn't believe what he was seeing. [Dave Chappelle's](/personality-analysis/dave-chappelle) is rooted in the specificity of Black American experience. [Kevin Hart's](/personality-analysis/kevin-hart) is relentless self-deprecation and physical energy. Trevor Noah's comedy does something none of them do: it treats every culture, including America, as equally foreign.
 
 Noah has been explicit about where the act comes from. He's framed himself, in different forms across different years, as someone who has been an outsider everywhere he has lived — including South Africa — and who learned early that comedy was the only language that travels between rooms without needing a passport. The thesis his mother gave him at five years old, in a Soweto kitchen — _let the pain sharpen you_ — has been operating on stage ever since. The accents are surface. The instinct is to find the line nobody is allowed to say, then say it in a way the room laughs before it remembers it was supposed to flinch.
 
@@ -251,7 +251,7 @@ He told no one in advance. His producer Jen Flanz described the aftermath as "qu
 
 In his farewell, he devoted a significant portion to thanking Black women: "I've often been credited with having these grand ideas. People say, _Oh Trevor, you're so smart._ I'm like, _who do you think teaches me? Who do you think shaped me, nourished me and formed me?_" He told the audience: "If you truly want to learn about America, talk to Black women because, unlike everybody else, Black women cannot afford to f--k around and find out."
 
-[Jon Stewart](/personality-analysis/Jon-Stewart) had given him advice years earlier: "Make sure you leave before you become cynical. Make sure you leave before you're tired, before you feel like you need to rest in the space."
+[Jon Stewart](/personality-analysis/jon-stewart) had given him advice years earlier: "Make sure you leave before you become cynical. Make sure you leave before you're tired, before you feel like you need to rest in the space."
 
 He left the show the way he leaves everything — at peak performance, before the institution becomes the identity.
 
@@ -296,7 +296,7 @@ Since leaving The Daily Show, Trevor Noah has not slowed down. He has accelerate
 
 His "Where Was I" comedy special sold out the Hollywood Bowl, ten consecutive Beacon Theatre shows, three O2 Arena dates in London, and set a record for the most tickets sold by a non-German comedian in Berlin. It was nominated for a Grammy, an Emmy, and a Golden Globe.
 
-His production company Day Zero, a joint venture with Paramount, has a film adaptation of _Born a Crime_ in development starring [Lupita Nyong'o](/personality-analysis/Lupita-Nyongo), plus a biopic of 8-year-old Nigerian chess champion Tanitoluwa Adewumi and a reimagining of _The President's Analyst_.
+His production company Day Zero, a joint venture with Paramount, has a film adaptation of _Born a Crime_ in development starring [Lupita Nyong'o](/personality-analysis/lupita-nyongo), plus a biopic of 8-year-old Nigerian chess champion Tanitoluwa Adewumi and a reimagining of _The President's Analyst_.
 
 His children's book _Into the Uncut Grass_ became a #1 New York Times bestseller, a story about a child who ventures beyond the familiar into the wild unknown. The uncut grass, Trevor explained, represents "an area that is not traversed, that holds a whole lot of mystery." For the boy who was locked indoors for his own safety, the uncut grass isn't an adventure. It's the place where no one has written the rules yet. For a Six, that's both the most terrifying and the most liberating place to be.
 

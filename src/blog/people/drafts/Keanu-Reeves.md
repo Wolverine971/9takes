@@ -5,14 +5,14 @@ persona_title: "Hollywood's Gentle Vanishing Act"
 description: 'Inside the psychology of Keanu Reeves: how a lifetime of loss, self-erasure, and quiet generosity created the most beloved man in Hollywood.'
 author: 'DJ Wayne'
 date: '2023-08-11'
-loc: 'https://9takes.com/personality-analysis/Keanu-Reeves'
+loc: 'https://9takes.com/personality-analysis/keanu-reeves'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['movieStar', 'screen-icon']
-person: 'Keanu-Reeves'
+person: 'keanu-reeves'
 suggestions: ['Tom-Cruise', 'Johnny-Depp', 'Leonardo-DiCaprio', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Keanu_Reeves'
 twitter: ''
@@ -34,7 +34,7 @@ path: src/blog/people/drafts/Keanu-Reeves.md
 
 <p class="firstLetter">Keanu Reeves is worth an estimated $380 million. He takes the subway. He eats alone on park benches. He gave away roughly $75 million of his Matrix earnings to the special effects and stunt teams because, as he put it, "These guys made the movie." He has no social media presence. He once described himself as "a meathead" who "just happens to be dumb."</p>
 
-This is a man the entire internet has declared its boyfriend, a global icon of kindness, humility, and quiet cool. But underneath the mythology, there's a question nobody asks: what kind of person gives himself away that completely? Not the way [Tom Cruise](/personality-analysis/Tom-Cruise) gives everything to a performance, or the way [Johnny Depp](/personality-analysis/Johnny-Depp) disappears into characters. Keanu gives away the self itself.
+This is a man the entire internet has declared its boyfriend, a global icon of kindness, humility, and quiet cool. But underneath the mythology, there's a question nobody asks: what kind of person gives himself away that completely? Not the way [Tom Cruise](/personality-analysis/tom-cruise) gives everything to a performance, or the way [Johnny Depp](/personality-analysis/johnny-depp) disappears into characters. Keanu gives away the self itself.
 
 Not just money. Identity. Presence. Space in a room.
 

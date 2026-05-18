@@ -5,14 +5,14 @@ persona_title: "Microsoft's Silent Architect"
 description: "How Satya Nadella's quiet intellect and hard-won empathy transformed Microsoft from a stagnant giant into the world's most valuable company."
 author: 'DJ Wayne'
 date: '2026-02-18'
-loc: 'https://9takes.com/personality-analysis/Satya-Nadella'
+loc: 'https://9takes.com/personality-analysis/satya-nadella'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie', 'big-tech-founder']
-person: 'Satya-Nadella'
+person: 'satya-nadella'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Sundar-Pichai', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Satya_Nadella'
 twitter: '@sataborasu'
@@ -221,7 +221,7 @@ Then he went on a listening tour — and he ran it the way a cricket captain rea
 
 The culture shifted from what Nadella called a "know-it-all" company to a "learn-it-all" company — language borrowed from Stanford psychologist Carol Dweck's work on growth mindset. Each product move that followed was a signal of the same thing: a Five who'd decided that hoarding territory was killing them. Putting Office on iOS and Android in 2014 meant giving up the Windows-or-nothing doctrine that had calcified the company for years. Paying $7.5 billion for GitHub said: we'd rather own where developers live than insist they come to us. Betting the company on Azure meant admitting that the platform that mattered next wasn't the one Microsoft already owned.
 
-Like fellow quiet tech leader [Sundar Pichai](/personality-analysis/Sundar-Pichai) at Google, Nadella brought a listening-first [approach to leadership](/enneagram-corner/enneagram-communication-styles) that Silicon Valley didn't know it needed. "Invite everyone into the conversation," he wrote. "If you are on a conference call, ask the people on the phone to share their thoughts first." It was leadership designed by an introvert who knew what it felt like to have something to say and no opening to say it.
+Like fellow quiet tech leader [Sundar Pichai](/personality-analysis/sundar-pichai) at Google, Nadella brought a listening-first [approach to leadership](/enneagram-corner/enneagram-communication-styles) that Silicon Valley didn't know it needed. "Invite everyone into the conversation," he wrote. "If you are on a conference call, ask the people on the phone to share their thoughts first." It was leadership designed by an introvert who knew what it felt like to have something to say and no opening to say it.
 
 ## The Billion-Dollar Bet Nobody Wanted
 

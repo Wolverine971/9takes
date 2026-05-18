@@ -5,14 +5,14 @@ persona_title: "Football's Quiet Volcano"
 description: "The boy they called 'the mute one' became the most dominant athlete on earth. How Messi's silence became his greatest weapon."
 author: 'DJ Wayne'
 date: '2026-04-14'
-loc: 'https://9takes.com/personality-analysis/Lionel-Messi'
+loc: 'https://9takes.com/personality-analysis/lionel-messi'
 lastmod: '2026-04-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['celebrity', 'celebrity-image']
-person: 'Lionel-Messi'
+person: 'lionel-messi'
 suggestions: ['Cristiano-Ronaldo', 'David-Beckham', 'Kobe-Bryant', 'Michael-Jordan']
 wikipedia: 'https://en.wikipedia.org/wiki/Lionel_Messi'
 twitter: '@TeamMessi'
@@ -271,7 +271,7 @@ That's the paradox the Enneagram resolves. People see the introversion and assum
 
 But Messi's calm isn't the absence of intensity. It's intensity so concentrated that it has burned away everything unnecessary — the talking, the running, the performing, the ego. What remains is the purest competitive will in sports history, housed in the quietest possible vessel.
 
-[Cristiano Ronaldo](/personality-analysis/Cristiano-Ronaldo), his great rival, is the mirror image — all outward fire, all visible hunger, all performance. Ronaldo _shows_ you his desire. Messi _hides_ his. And somehow the hidden version was more devastating.
+[Cristiano Ronaldo](/personality-analysis/cristiano-ronaldo), his great rival, is the mirror image — all outward fire, all visible hunger, all performance. Ronaldo _shows_ you his desire. Messi _hides_ his. And somehow the hidden version was more devastating.
 
 The Maradona debate cut deeper because it was about identity, not statistics. Maradona was brash, political, chaotic — rose from a Buenos Aires villa miseria, challenged FIFA, embraced controversy as a way of life. Argentina saw itself in him. Messi left for Spain at twelve, spoke softly, avoided politics, won quietly. The country spent twenty years arguing which version of greatness was more authentically theirs. Argentina coach Lionel Scaloni put it plainly: "In terms of personality, they're different. But in their own way, they're both leaders. Leo shows it differently." Then Messi won them a World Cup, and a Copa America, and another Copa America, and the argument lost its heat.
 

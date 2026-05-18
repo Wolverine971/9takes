@@ -5,14 +5,14 @@ persona_title: "Media's Counterphobic Alarm System"
 description: "Taylor Lorenz isn't a restless thrill-seeker — she's a counterphobic Type 6 who runs on fear, and her career is an ongoing test of who she can trust."
 author: 'DJ Wayne'
 date: '2026-02-19'
-loc: 'https://9takes.com/personality-analysis/Taylor-Lorenz'
+loc: 'https://9takes.com/personality-analysis/taylor-lorenz'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['journalist', 'creator', 'news-commentator']
-person: 'Taylor-Lorenz'
+person: 'taylor-lorenz'
 suggestions: ['Hasan-Piker', 'Kim-Kardashian', 'Logan-Paul', 'Gary-Vee']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Lorenz'
 twitter: 'TaylorLorenz'

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Restless Reframer"
 description: "Ashton Kutcher's snowmobile, his twin's heart transplant, and the Masterson letter all run on the same software. Inside an Enneagram Type 7 engine."
 author: 'DJ Wayne'
 date: '2026-05-12'
-loc: 'https://9takes.com/personality-analysis/Ashton-Kutcher'
+loc: 'https://9takes.com/personality-analysis/ashton-kutcher'
 lastmod: '2026-05-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['celebrity', 'movieStar', 'techie', 'entrepreneur', 'screen-icon', 'business-operator']
-person: 'Ashton-Kutcher'
+person: 'ashton-kutcher'
 suggestions: ['Mila-Kunis', 'Steve-Jobs', 'Sam-Altman', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Ashton_Kutcher'
 twitter: 'aplusk'
@@ -145,7 +145,7 @@ The fruitarian diet put him in the hospital with pancreatic pain shortly before 
 
 This is what a Seven does with a fascination. They don't admire it; they try to inhale it. Steve Jobs wasn't a role for Kutcher. He was an operating system Kutcher wanted to install. The 20-hour audio loop wasn't research — it was an attempt to download a different brain over his own brain during the eight hours a day his Seven mind was already off doing something else. The hospitalization wasn't a misstep. It was the natural endpoint of treating another person's life like a fruit you could pick up at the farmers' market and try.
 
-The film flopped. The performance got savaged. The Type 7 didn't dwell on it. He pivoted into the tech investing his Jobs immersion had primed him for, and into <a href="/personality-analysis/Steve-Jobs">the actual Steve Jobs's</a> world, and never looked back.
+The film flopped. The performance got savaged. The Type 7 didn't dwell on it. He pivoted into the tech investing his Jobs immersion had primed him for, and into <a href="/personality-analysis/steve-jobs">the actual Steve Jobs's</a> world, and never looked back.
 
 ---
 
@@ -167,7 +167,7 @@ That first kiss was a bet. Danny Masterson, sitting in the makeup chair, paid Ku
 
 ## How Ashton Kutcher out-invested Silicon Valley
 
-In 2016, Forbes documented that Kutcher and his partners at A-Grade Investments had turned $30 million into $250 million in six years. That's roughly an 8x return — top decile of professional venture funds. By 2023, Sound Ventures, his follow-on fund with Guy Oseary, had crossed $1 billion under management, 219 portfolio companies, 25 unicorns, and a $240 million AI fund raised in five weeks that immediately bought into OpenAI, Anthropic, and Stability AI alongside <a href="/personality-analysis/Sam-Altman">Sam Altman's</a> network of allocators. He is, by a wide margin, more successful in venture than <a href="/personality-analysis/Ryan-Reynolds">Ryan Reynolds</a> is in operating businesses, and the press has spent twenty years not noticing.
+In 2016, Forbes documented that Kutcher and his partners at A-Grade Investments had turned $30 million into $250 million in six years. That's roughly an 8x return — top decile of professional venture funds. By 2023, Sound Ventures, his follow-on fund with Guy Oseary, had crossed $1 billion under management, 219 portfolio companies, 25 unicorns, and a $240 million AI fund raised in five weeks that immediately bought into OpenAI, Anthropic, and Stability AI alongside <a href="/personality-analysis/sam-altman">Sam Altman's</a> network of allocators. He is, by a wide margin, more successful in venture than <a href="/personality-analysis/ryan-reynolds">Ryan Reynolds</a> is in operating businesses, and the press has spent twenty years not noticing.
 
 The whole edifice was built on the snowmobile.
 

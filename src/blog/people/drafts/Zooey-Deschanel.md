@@ -5,14 +5,14 @@ persona_title: "Indie's Vigilant Romantic"
 description: 'Why has Zooey Deschanel spent 15 years rejecting the manic pixie dream girl label? Inside the worry behind the whimsy, through an Enneagram Type 6 lens.'
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Zooey-Deschanel'
+loc: 'https://9takes.com/personality-analysis/zooey-deschanel'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover']
-person: 'Zooey-Deschanel'
+person: 'zooey-deschanel'
 suggestions: ['Jake-Gyllenhaal', 'Kate-Hudson', 'Aubrey-Plaza', 'Jennifer-Lawrence']
 wikipedia: 'https://en.wikipedia.org/wiki/Zooey_Deschanel'
 twitter: 'ZooeyDeschanel'
@@ -155,7 +155,7 @@ She has been very specific about which one she preferred.
 
 That sentence is from the public biographical record. Most kids in Hollywood orbit beg to come along on the location shoots. She begged to stay home. The thing the airplane represented to her was the loss of the things she had built a life out of: the same friends, the same room, the same bedtime, the same week. Novelty was not a treat. Novelty was what the parents were doing _to_ her.
 
-The school she settled into — Crossroads, in Santa Monica — became the answer. She has talked about Crossroads with the kind of loyalty most people reserve for family. Her two closest school friends, <a href="/personality-analysis/Jake-Gyllenhaal">Jake Gyllenhaal</a> and <a href="/personality-analysis/Kate-Hudson">Kate Hudson</a>, are still in her life four decades later. She does not graduate out of friendships. She graduates _into_ them and never leaves.
+The school she settled into — Crossroads, in Santa Monica — became the answer. She has talked about Crossroads with the kind of loyalty most people reserve for family. Her two closest school friends, <a href="/personality-analysis/jake-gyllenhaal">Jake Gyllenhaal</a> and <a href="/personality-analysis/kate-hudson">Kate Hudson</a>, are still in her life four decades later. She does not graduate out of friendships. She graduates _into_ them and never leaves.
 
 She started auditioning young. Her father read lines with her. Her mother, an actress herself, coached her. She told Dax Shepard auditions always made her nervous. She didn't say _used to_ make her nervous. Auditions, at forty-six, with twenty-five years of credits, still made her nervous. The fear didn't go away with practice. She learned to work _through_ the fear instead of past it.
 

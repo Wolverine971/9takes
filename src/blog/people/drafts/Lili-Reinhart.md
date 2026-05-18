@@ -5,14 +5,14 @@ persona_title: "Riverdale's Confessional Poet"
 description: "Lili Reinhart can articulate her pain better than most therapists can describe it. Why she still can't stand being in her own body, decoded through Enneagram Type 4."
 author: 'DJ Wayne'
 date: '2026-05-15'
-loc: 'https://9takes.com/personality-analysis/Lili-Reinhart'
+loc: 'https://9takes.com/personality-analysis/lili-reinhart'
 lastmod: '2026-05-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
 type: ['movieStar', 'author', 'screen-icon']
-person: 'Lili-Reinhart'
+person: 'lili-reinhart'
 suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Selena-Gomez', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Lili_Reinhart'
 twitter: 'https://twitter.com/lilireinhart'
@@ -53,7 +53,7 @@ That same night, she sobbed alone in her hotel room.
 
 She called it "the ironic thing that people don't see." But it wasn't ironic. It was the whole Lili Reinhart story in one evening. The more eloquently she speaks about her pain in public, the more her body refuses to let her rest in private. The two have been running on different rails her entire life.
 
-At 28, Reinhart is one of the most articulate mental health advocates of her generation, in a cohort alongside artists like [Billie Eilish](/personality-analysis/Billie-Eilish) and [Olivia Rodrigo](/personality-analysis/Olivia-Rodrigo) who have built careers on emotional transparency. She published a _New York Times_ bestselling poetry collection about depression at 23. She has called out Kim Kardashian on Instagram, male directors in interviews, and the entire Hollywood machine in speeches. She has given her name to the vocabulary of body dysmorphia, OCD, eating disorders, chronic illness, and the specific kind of despair that does not have a name.
+At 28, Reinhart is one of the most articulate mental health advocates of her generation, in a cohort alongside artists like [Billie Eilish](/personality-analysis/billie-eilish) and [Olivia Rodrigo](/personality-analysis/olivia-rodrigo) who have built careers on emotional transparency. She published a _New York Times_ bestselling poetry collection about depression at 23. She has called out Kim Kardashian on Instagram, male directors in interviews, and the entire Hollywood machine in speeches. She has given her name to the vocabulary of body dysmorphia, OCD, eating disorders, chronic illness, and the specific kind of despair that does not have a name.
 
 She can describe pain with the precision of a surgeon.
 

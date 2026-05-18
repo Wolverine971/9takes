@@ -5,14 +5,14 @@ meta_title: 'Why Cillian Murphy Guards His Private Life So Hard'
 description: 'Why is Cillian Murphy so private offscreen? We decode the Type 5 pattern behind the fortress, obsessive preparation, and total disappearance into roles.'
 author: 'DJ Wayne'
 date: '2024-12-03'
-loc: 'https://9takes.com/personality-analysis/Cillian-Murphy'
+loc: 'https://9takes.com/personality-analysis/cillian-murphy'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['celebrity', 'screen-icon']
-person: 'Cillian-Murphy'
+person: 'cillian-murphy'
 suggestions: ['Robert-Oppenheimer', 'Tom-Hardy', 'Joaquin-Phoenix']
 wikipedia: 'https://en.wikipedia.org/wiki/Cillian_Murphy'
 twitter: ''
@@ -396,7 +396,7 @@ PRIORITY FIXES (numbered, 3 max):
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Cillian-Murphy",
+        "@id": "https://9takes.com/personality-analysis/cillian-murphy",
         "@type": "WebPage"
       },
       "mentions": {

@@ -5,14 +5,14 @@ persona_title: "Rap's Pharaoh Who Crowned Himself"
 description: "Tyga built an Egyptian king brand, called Tupac his dad, and made his own son a 'King.' His Enneagram Type 3 explains the pattern underneath."
 author: 'DJ Wayne'
 date: '2026-04-18'
-loc: 'https://9takes.com/personality-analysis/Tyga'
+loc: 'https://9takes.com/personality-analysis/tyga'
 lastmod: '2026-04-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Tyga'
+person: 'tyga'
 suggestions: ['Drake', 'Kylie-Jenner', 'Kendrick-Lamar', 'Kim-Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyga'
 twitter: 'Tyga'
@@ -109,7 +109,7 @@ Both stories are true. Neither story is the whole truth. Both are in service of 
 
 This is the 3w4 signature. The artifact — the name — carries more psychological weight than the person using it. It is simultaneously a tribute to a golf icon and a prayer to God. It is humility and ambition, fused into four letters, branded across a clothing line.
 
-His mother, Pasionaye Nicole Nguyen, did most of the raising. Born in Vietnam. Raised Tyga in Compton — the same city [Kendrick Lamar](/personality-analysis/Kendrick-Lamar) would later spend his career dignifying — and then in Gardena. Because Tyga's father was serving a life sentence, she became a single mother out of necessity, not choice. She cooked traditional Vietnamese food. Kept a garden. Stayed off social media.
+His mother, Pasionaye Nicole Nguyen, did most of the raising. Born in Vietnam. Raised Tyga in Compton — the same city [Kendrick Lamar](/personality-analysis/kendrick-lamar) would later spend his career dignifying — and then in Gardena. Because Tyga's father was serving a life sentence, she became a single mother out of necessity, not choice. She cooked traditional Vietnamese food. Kept a garden. Stayed off social media.
 
 That detail matters more than people realize. Tyga is half Vietnamese and half Black, of Jamaican descent. He grew up in Compton, a city whose iconography in rap is usually claimed by N.W.A. or by Kendrick — by Black Angeleno men with deep generational ties to it. He didn't fit the script. He was a half-Vietnamese kid being raised by a single immigrant mother in a neighborhood whose mythology was already spoken for by other people.
 
@@ -159,7 +159,7 @@ The one relationship from this era that did survive him is his friendship with C
 
 ## Access as Belonging: Kylie, Chyna, and the Image Machine
 
-Tyga was engaged to Blac Chyna. They had King Cairo in 2012. By late 2014 he had publicly pivoted to <a href="/personality-analysis/Kylie-Jenner">Kylie Jenner</a>.
+Tyga was engaged to Blac Chyna. They had King Cairo in 2012. By late 2014 he had publicly pivoted to <a href="/personality-analysis/kylie-jenner">Kylie Jenner</a>.
 
 The numbers matter, so let's name them. When their relationship became public in 2015, Kylie was 17. Tyga was 25. The age of consent in California is 18. The two had first met when Kylie was 14, at her sister's 16th-birthday party — Tyga was performing it, dating Chyna, and Kylie was a child. Khloé Kardashian went on _The Howard Stern Show_ to call them "a special case." A year after the relationship went public, Tyga was reported to have DM'd a 14-year-old Instagram model. He said he was interested in her music.
 
@@ -233,7 +233,7 @@ All of which is true and all of which misses the point. Tyga's medium is not lyr
 
 Read through a 3w4 lens, this is not a flaw. This is the _whole strategy_.
 
-[Drake](/personality-analysis/Drake), another [Type 3](/enneagram-corner/enneagram-type-3) who has publicly clashed with Tyga, built his career on vulnerability and lyrical pivots. That path was never available to Tyga. Drake's early wound was being biracial in Toronto, not quite claimed by either world. Tyga's early wound was a father in a cell and a last-king brand to manufacture. Same type, completely different engine — and it shows in every song they've ever made.
+[Drake](/personality-analysis/drake), another [Type 3](/enneagram-corner/enneagram-type-3) who has publicly clashed with Tyga, built his career on vulnerability and lyrical pivots. That path was never available to Tyga. Drake's early wound was being biracial in Toronto, not quite claimed by either world. Tyga's early wound was a father in a cell and a last-king brand to manufacture. Same type, completely different engine — and it shows in every song they've ever made.
 
 ## The Aha Moment: Kingship Was Always the Wound
 

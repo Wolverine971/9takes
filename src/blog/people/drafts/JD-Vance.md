@@ -5,14 +5,14 @@ persona_title: "Appalachia's Self-Made Shapeshifter"
 description: 'JD Vance learned to perform before he could choose to. From Middletown chaos to the Vice Presidency, the Enneagram Type 3 psychology behind his reinventions.'
 author: 'DJ Wayne'
 date: '2026-02-13'
-loc: 'https://9takes.com/personality-analysis/JD-Vance'
+loc: 'https://9takes.com/personality-analysis/jd-vance'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['politician', 'campaign-politician']
-person: 'JD-Vance'
+person: 'jd-vance'
 suggestions: ['Donald-Trump', 'Peter-Thiel', 'Tucker-Carlson', 'Gavin-Newsom']
 wikipedia: 'https://en.wikipedia.org/wiki/JD_Vance'
 twitter: 'JDVance'
@@ -182,13 +182,13 @@ When Trump announced Vance as his VP pick in July 2024, Usha's biography disappe
 
 _Hillbilly Elegy_ did something extraordinary: it turned a working-class childhood into an elite credential.
 
-Published in 2016, the memoir arrived at exactly the right cultural moment. America was trying to understand the rural white voters who would propel [Donald Trump](/personality-analysis/Donald-Trump) to the presidency, and here was a Yale-educated venture capitalist who could translate. The _New York Times_ listed it among "6 Books to Help Understand Trump's Win." The _Washington Post_ called Vance "the voice of the Rust Belt." The book became a bestseller, a Netflix film, and, most importantly, a political origin story.
+Published in 2016, the memoir arrived at exactly the right cultural moment. America was trying to understand the rural white voters who would propel [Donald Trump](/personality-analysis/donald-trump) to the presidency, and here was a Yale-educated venture capitalist who could translate. The _New York Times_ listed it among "6 Books to Help Understand Trump's Win." The _Washington Post_ called Vance "the voice of the Rust Belt." The book became a bestseller, a Netflix film, and, most importantly, a political origin story.
 
 What's revealing is the construction. Vance shares devastating details: his mother chasing him with a car, the parade of unstable men, the shame of watching his family unravel in public. But every wound serves the narrative arc. Every failure sets up the comeback. The book's thesis is ultimately optimistic, _I made it out, and here's what I learned_, and that optimism is what made it useful.
 
 "Whatever talents I have, I almost squandered until a handful of loving people rescued me," Vance wrote — a line that sounds humble while positioning the author as someone with talents worth rescuing.
 
-The book attracted [Peter Thiel](/personality-analysis/Peter-Thiel). Calling Thiel a donor undersells the relationship. Thiel became something closer to a life-engineer: he had first approached Vance at a 2011 Yale Law talk, introducing him to the Catholic philosopher Rene Girard; he then opened the door to venture capital, wrote the $15 million check that launched the Senate race (the largest single contribution in Senate-race history), and brokered the 2021 Mar-a-Lago meeting that produced the vice presidency. For a Three whose deepest wound is _who am I without a room to adapt to?_, having one billionaire pre-build each successive room is the most psychologically loaded fact in his adult biography.
+The book attracted [Peter Thiel](/personality-analysis/peter-thiel). Calling Thiel a donor undersells the relationship. Thiel became something closer to a life-engineer: he had first approached Vance at a 2011 Yale Law talk, introducing him to the Catholic philosopher Rene Girard; he then opened the door to venture capital, wrote the $15 million check that launched the Senate race (the largest single contribution in Senate-race history), and brokered the 2021 Mar-a-Lago meeting that produced the vice presidency. For a Three whose deepest wound is _who am I without a room to adapt to?_, having one billionaire pre-build each successive room is the most psychologically loaded fact in his adult biography.
 
 The book wasn't just a memoir. It was a launchpad. The person who emerged from it was already different from the person who wrote it.
 
@@ -218,7 +218,7 @@ In 2016, Vance wrote a piece for _The Atlantic_ headlined "Opioid of the Masses.
 
 He called Trump "a moral disaster" and privately messaged a Yale roommate wondering whether Trump was "America's Hitler." He voted for Evan McMullin. After the Access Hollywood tape, he tweeted: "Fellow Christians, everyone is watching us when we apologize for this man." As late as June 2020, he was still privately writing: "I think Trump will probably lose."
 
-Then Peter Thiel brought him to Mar-a-Lago in February 2021. The meeting began, per NBC, with "ten minutes of President [Trump](/personality-analysis/Donald-Trump) busting JD's chops" about his past criticism. [Tucker Carlson](/personality-analysis/Tucker-Carlson), Donald Trump Jr., and Elon Musk ran what Axios called a "secret lobbying campaign" for him. Carlson's argument: Vance was the only top contender who "doesn't secretly hate Trump, as all the rest of them do."
+Then Peter Thiel brought him to Mar-a-Lago in February 2021. The meeting began, per NBC, with "ten minutes of President [Trump](/personality-analysis/donald-trump) busting JD's chops" about his past criticism. [Tucker Carlson](/personality-analysis/tucker-carlson), Donald Trump Jr., and Elon Musk ran what Axios called a "secret lobbying campaign" for him. Carlson's argument: Vance was the only top contender who "doesn't secretly hate Trump, as all the rest of them do."
 
 By July 2021, Vance was on Fox News apologizing for what he'd said in 2016: "I did say those critical things and I regret them, and I regret being wrong about the guy." He deleted dozens of critical tweets. He forgot to delete his Likes, which still showed support for Hillary Clinton's 2016 candidacy.
 

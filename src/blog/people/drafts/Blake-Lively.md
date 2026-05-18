@@ -5,14 +5,14 @@ persona_title: 'The Immaculately Curated'
 description: "Even Taylor Swift couldn't reach her through the performance. Blake Lively's 20-year curation habit finally cracked in public."
 author: 'DJ Wayne'
 date: '2025-03-05'
-loc: 'https://9takes.com/personality-analysis/Blake-Lively'
+loc: 'https://9takes.com/personality-analysis/blake-lively'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
 type: ['celebrity', 'screen-icon']
-person: 'Blake-Lively'
+person: 'blake-lively'
 suggestions: ['Ryan-Reynolds', 'Taylor-Swift', 'Scarlett-Johansson', 'Jennifer-Garner']
 wikipedia: 'https://en.wikipedia.org/wiki/Blake_Lively'
 twitter: ''
@@ -109,7 +109,7 @@ filmography, cut 25% of the middle, don't flinch.
 
 <p class="firstLetter">"I just kinda miss my funny, dark, normal-speaking friend who talks to me as herself."</p>
 
-That's <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> texting Blake Lively during the most public crisis of Blake's life. Not a tabloid source. Not a leaked DM from a rival. The best friend of more than a decade, godmother to all four of Blake's kids, the woman who loved her daughters' names — James, Inez, and Betty — enough to build a _folklore_ song around them. And she's writing: _I can't reach you through the performance._
+That's <a href="/personality-analysis/taylor-swift">Taylor Swift</a> texting Blake Lively during the most public crisis of Blake's life. Not a tabloid source. Not a leaked DM from a rival. The best friend of more than a decade, godmother to all four of Blake's kids, the woman who loved her daughters' names — James, Inez, and Betty — enough to build a _folklore_ song around them. And she's writing: _I can't reach you through the performance._
 
 The text surfaced in January 2026, buried in unsealed court documents from Blake's lawsuit against director Justin Baldoni. Swift's full message was blunter: "It's felt like I was reading a mass corporate email sent to 200 employees."
 
@@ -159,7 +159,7 @@ Under [stress](/enneagram-corner/enneagram-types-in-stress), Ones move toward Ty
 
 In growth, Ones move toward the healthy qualities of [Type 7](/enneagram-corner/enneagram-type-7): spontaneity, joy in imperfection, loosening the grip of the internal critic.
 
-Her marriage to [Ryan Reynolds](/personality-analysis/Ryan-Reynolds) is often framed as chaotic Type 7 balancing rigid Type 1. The truer framing — once you look at Ryan's portfolio, not his jokes — is two of the most commercially curated humans in Hollywood, building a joint brand.
+Her marriage to [Ryan Reynolds](/personality-analysis/ryan-reynolds) is often framed as chaotic Type 7 balancing rigid Type 1. The truer framing — once you look at Ryan's portfolio, not his jokes — is two of the most commercially curated humans in Hollywood, building a joint brand.
 
 ## From the Hospital to the Set
 
@@ -263,7 +263,7 @@ Both stories can be true at the same time. A woman harassed in a workplace and p
 
 ## Two Curators, One Marriage
 
-Ryan Reynolds met Blake on the set of _Green Lantern_ in July 2010. He was married to [Scarlett Johansson](/personality-analysis/Scarlett-Johansson) at the time. By December, Ryan and Scarlett had announced their separation; that October, Blake had ended things with Penn Badgley. The official story — the double date with other people, fireworks, the accidental beginning — didn't happen until roughly a year later, when everyone was properly single. The timeline has been told that way ever since.
+Ryan Reynolds met Blake on the set of _Green Lantern_ in July 2010. He was married to [Scarlett Johansson](/personality-analysis/scarlett-johansson) at the time. By December, Ryan and Scarlett had announced their separation; that October, Blake had ended things with Penn Badgley. The official story — the double date with other people, fireworks, the accidental beginning — didn't happen until roughly a year later, when everyone was properly single. The timeline has been told that way ever since.
 
 They married at Boone Hall Plantation in South Carolina in September 2012. The venue featured nine former slave cabins referred to as "Slave Street." "What we saw at the time was a wedding venue on Pinterest," Ryan would later say. Eight years later, during the George Floyd protests, they apologized and donated $200,000 to the NAACP Legal Defense Fund. The apology was genuine. It also took eight years and a national reckoning for it to arrive. When your default mode is curation, real-time course correction becomes almost impossible.
 

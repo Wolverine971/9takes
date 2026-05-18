@@ -5,14 +5,14 @@ persona_title: "Media's Loyal Insurgent"
 description: "Why does the calmest journalist in DC break the most dangerous stories? Inside Ryan Grim's relentless need to stress-test every institution he touches."
 author: 'DJ Wayne'
 date: '2026-04-16'
-loc: 'https://9takes.com/personality-analysis/Ryan-Grim'
+loc: 'https://9takes.com/personality-analysis/ryan-grim'
 lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['creator', 'author', 'news-commentator']
-person: 'Ryan-Grim'
+person: 'ryan-grim'
 suggestions: ['Alexandria-Ocasio-Cortez', 'Peter-Thiel', 'Tucker-Carlson', 'Krystal-Ball']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Grim'
 twitter: '@ryangrim'
@@ -136,7 +136,7 @@ He didn't editorialize. He reported: a letter exists, a senator is withholding i
 
 ## The Tara Reade Story and the Cost of Consistency
 
-In 2020, Grim published a report on Tara Reade, a former staffer in [Joe Biden](/personality-analysis/Joe-Biden)'s Senate office who alleged sexual assault. The report focused initially on why Time's Up, the #MeToo advocacy nonprofit, had declined to take her case, because Biden's candidacy made it "too political."
+In 2020, Grim published a report on Tara Reade, a former staffer in [Joe Biden](/personality-analysis/joe-biden)'s Senate office who alleged sexual assault. The report focused initially on why Time's Up, the #MeToo advocacy nonprofit, had declined to take her case, because Biden's candidacy made it "too political."
 
 The backlash was immediate and ferocious. Not from the right, but from the left. Democrats who had championed Blasey Ford's right to be heard suddenly questioned why this allegation was getting oxygen. Grim became a lightning rod, accused of playing into Republican hands, of undermining the party's nominee in an election year.
 

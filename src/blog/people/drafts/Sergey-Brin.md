@@ -5,14 +5,14 @@ persona_title: "Google's Restless Mathematician"
 description: "Why couldn't Sergey Brin stay retired from Google? An in-depth Enneagram Type 5 analysis of the co-founder who'd rather know — even when knowing hurts."
 author: 'DJ Wayne'
 date: '2026-05-07'
-loc: 'https://9takes.com/personality-analysis/Sergey-Brin'
+loc: 'https://9takes.com/personality-analysis/sergey-brin'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
 type: ['techie', 'entrepreneur', 'business-operator']
-person: 'Sergey-Brin'
+person: 'sergey-brin'
 suggestions: ['Larry-Page', 'Sundar-Pichai', 'Sam-Altman', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Sergey_Brin'
 twitter: ''

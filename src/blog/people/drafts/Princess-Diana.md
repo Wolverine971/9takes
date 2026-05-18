@@ -4,14 +4,14 @@ persona_title: "The People's Wounded Caretaker"
 description: 'Princess Diana waited on a doorstep at five for a mother who never came back. Her entire personality — the giving, the rebellion — was an answer to that moment.'
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Princess-Diana'
+loc: 'https://9takes.com/personality-analysis/princess-diana'
 lastmod: '2025-12-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['historical', 'politician', 'royalty']
-person: 'Princess-Diana'
+person: 'princess-diana'
 suggestions: ['Meghan-Markle', 'Prince-Harry', 'Queen-Elizabeth-II']
 wikipedia: 'https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales'
 twitter: ''
@@ -217,7 +217,7 @@ After her divorce, Diana resigned from over 100 charities. She kept six: Centrep
 
 A hundred down to six. That's not scaling back. That's someone finally asking what actually matters to her — not what makes her needed by the most people.
 
-Her son [Prince Harry](/personality-analysis/Prince-Harry) continues her landmine work through HALO Trust. [Meghan Markle](/personality-analysis/Meghan-Markle), his wife, has navigated her own version of the institution Diana spent her adult life fighting against.
+Her son [Prince Harry](/personality-analysis/prince-harry) continues her landmine work through HALO Trust. [Meghan Markle](/personality-analysis/meghan-markle), his wife, has navigated her own version of the institution Diana spent her adult life fighting against.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Princess Diana</summary>
@@ -290,7 +290,7 @@ That reaction is itself a data point. Diana was able to make millions of strange
 
 She changed how we talk about mental health. She forced the AIDS conversation out of shame. She made public figures show up physically, not just sign checks.
 
-[Queen Elizabeth II](/personality-analysis/Queen-Elizabeth-II) represented the architecture Diana was always crashing against — duty over feeling, protocol over presence. Diana's bet was that authenticity would outlast protocol. She was right, but she didn't live to see how completely.
+[Queen Elizabeth II](/personality-analysis/queen-elizabeth-ii) represented the architecture Diana was always crashing against — duty over feeling, protocol over presence. Diana's bet was that authenticity would outlast protocol. She was right, but she didn't live to see how completely.
 
 ## What the Enneagram Actually Explains
 

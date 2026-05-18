@@ -5,14 +5,14 @@ persona_title: "Comedy's Glamorous Recluse"
 description: 'Jennifer Coolidge had her shot at 38, then sabotaged 20 years of it. Inside the Type 4 longing that built Tanya McQuoid and almost cost her everything.'
 author: 'DJ Wayne'
 date: '2026-04-28'
-loc: 'https://9takes.com/personality-analysis/Jennifer-Coolidge'
+loc: 'https://9takes.com/personality-analysis/jennifer-coolidge'
 lastmod: '2026-04-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
 type: ['comedian', 'movieStar', 'screen-icon']
-person: 'Jennifer-Coolidge'
+person: 'jennifer-coolidge'
 suggestions: ['Tim-Robinson', 'Adele', 'Lana-Del-Rey', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Coolidge'
 production_pretext:
@@ -165,7 +165,7 @@ She has said it plainly. "I wasted a lot of time. And that moment passes. And, G
 
 She names the wound. She explains the wound. She keeps the wound on the table where everyone can see it. She does not get over it.
 
-There is a smaller moment from this period that almost nobody talks about. In 2018, [Ariana Grande](/personality-analysis/Ariana-Grande) released the music video for *Thank U, Next* — a four-minute homage to *Mean Girls*, *Bring It On*, *13 Going on 30*, and *Legally Blonde*. Coolidge agreed to come back as Paulette. She did the bend-and-snap. She did the accent. She let a twenty-five-year-old pop star reintroduce her to a generation that had never seen *Legally Blonde* in theaters.
+There is a smaller moment from this period that almost nobody talks about. In 2018, [Ariana Grande](/personality-analysis/ariana-grande) released the music video for *Thank U, Next* — a four-minute homage to *Mean Girls*, *Bring It On*, *13 Going on 30*, and *Legally Blonde*. Coolidge agreed to come back as Paulette. She did the bend-and-snap. She did the accent. She let a twenty-five-year-old pop star reintroduce her to a generation that had never seen *Legally Blonde* in theaters.
 
 Coolidge has said, on the record, that her career was "flatlining" before that video. "I think it really started with you asking me to be in the *Thank U, Next* video," she told Grande in a later sit-down. The video was viewed a hundred million times in its first week. Two years later, Mike White called.
 

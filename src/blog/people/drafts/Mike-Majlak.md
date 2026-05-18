@@ -5,14 +5,14 @@ persona_title: "Recovery's Restless Evangelist"
 description: 'Mike Majlak spent a decade running from pain through every substance. The Enneagram reveals the wiring behind his addiction and reinvention.'
 author: 'DJ Wayne'
 date: '2026-04-16'
-loc: 'https://9takes.com/personality-analysis/Mike-Majlak'
+loc: 'https://9takes.com/personality-analysis/mike-majlak'
 lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['creator', 'influencer', 'viral-entertainer']
-person: 'Mike-Majlak'
+person: 'mike-majlak'
 suggestions: ['Logan-Paul', 'Sara-Saffari', 'Bradley-Martyn', 'Theo-Von', 'Tim-Dillon']
 wikipedia: 'https://en.wikipedia.org/wiki/Mike_Majlak'
 twitter: 'https://twitter.com/mikemajlak'
@@ -132,7 +132,7 @@ That campaign brought the two of them closer. Mike became part of Logan's inner 
 
 The dynamic worked because they're complementary opposites. Logan was bold, reckless, the face. Mike was grounded (or at least, grounded relative to Logan Paul), the storyteller, the one who'd lived enough to know what questions to ask. He's also genuinely funny in a way the written word can't fully capture: dry, self-deprecating, willing to be the punchline. Mike often functioned as Logan's "babysitter," especially after the Japan controversy. The former addict keeping the young star out of trouble. An irony Mike has never shied away from.
 
-He also launched his own YouTube series, _The Night Shift_, filming with MrBeast, [Kai Cenat](/personality-analysis/Kai-Cenat), members of the Sidemen, Mark Rober, and other top creators. Fellow Type 7 podcasters like [Theo Von](/personality-analysis/Theo-Von) and [Tim Dillon](/personality-analysis/Tim-Dillon) share that same restless momentum, but Mike's runs on a fuel they all recognize: the need to keep moving or risk feeling everything at once.
+He also launched his own YouTube series, _The Night Shift_, filming with MrBeast, [Kai Cenat](/personality-analysis/kai-cenat), members of the Sidemen, Mark Rober, and other top creators. Fellow Type 7 podcasters like [Theo Von](/personality-analysis/theo-von) and [Tim Dillon](/personality-analysis/tim-dillon) share that same restless momentum, but Mike's runs on a fuel they all recognize: the need to keep moving or risk feeling everything at once.
 
 ## What is Mike Majlak's personality type?
 
@@ -156,7 +156,7 @@ The Enneagram makes something click here that otherwise wouldn't: Mike's addicti
 
 ## The Relationships That Revealed the Pattern
 
-Mike's relationship with Lana Rhoades, the former adult film actress he began dating in 2020 after being introduced by [Logan Paul](/personality-analysis/Logan-Paul), became one of the most public relationship implosions in creator history.
+Mike's relationship with Lana Rhoades, the former adult film actress he began dating in 2020 after being introduced by [Logan Paul](/personality-analysis/logan-paul), became one of the most public relationship implosions in creator history.
 
 The pattern was pure Seven in stress. They had two months of what Mike called a "good, honeymoon-level relationship" before things turned toxic for a year. His framing of the breakup was characteristically binary: "When a relationship starts to take more energy from you than it provides to your life and you don't see an end in sight for either person, it's the time when you have to start thinking about calling it quits."
 

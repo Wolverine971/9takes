@@ -5,14 +5,14 @@ persona_title: 'Vogue''s Cold Reformer'
 description: 'Most people see Nuclear Wintour as a tyrant. The truth is a Type 1 perfectionist whose austere self-control built American Vogue and never broke composure.'
 author: 'DJ Wayne'
 date: '2026-05-13'
-loc: 'https://9takes.com/personality-analysis/Anna-Wintour'
+loc: 'https://9takes.com/personality-analysis/anna-wintour'
 lastmod: '2026-05-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '1'
 type: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator']
-person: 'Anna-Wintour'
+person: 'anna-wintour'
 suggestions: ['Blake-Lively', 'Hillary-Clinton', 'Tim-Cook', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Anna_Wintour'
 twitter: ''
@@ -108,7 +108,7 @@ Most people see a tyrant. The truth is a 1w9 whose self-control is so total that
 
 [Type 1](/enneagram-corner/enneagram-type-1) is the type that asks, every day, _am I doing this right?_ Not _am I winning_. Not _am I safe_. _Am I right._ The standard is moral, not strategic. Falling below it isn't a tactical loss — it's a kind of personal corruption. Wintour explains herself, on the rare occasions she does, in exactly that grammar: _"If one comes across sometimes as being cold or brusque, it's simply because I'm striving for the best."_ That is not a CEO defending her management style. That is a Type 1 explaining why the verdict came back guilty again.
 
-The behavior reads as an Eight to people who've only watched _The Devil Wears Prada_. Eights dominate with heat. They want to be the largest force in the room. Wintour is icy, withdrawn, and almost never visibly angry. Her dominance is not _I am bigger than you_ — it is _I have decided what is correct and you have not_. The pressure isn't in her voice. It's in the silence after she stops speaking. (For a less-powered shape of fashion-adjacent Type 1, see [Blake Lively](/personality-analysis/Blake-Lively): the same _I run on an internal compass_ self-image, the same enormous offstage labor controlling every external detail.)
+The behavior reads as an Eight to people who've only watched _The Devil Wears Prada_. Eights dominate with heat. They want to be the largest force in the room. Wintour is icy, withdrawn, and almost never visibly angry. Her dominance is not _I am bigger than you_ — it is _I have decided what is correct and you have not_. The pressure isn't in her voice. It's in the silence after she stops speaking. (For a less-powered shape of fashion-adjacent Type 1, see [Blake Lively](/personality-analysis/blake-lively): the same _I run on an internal compass_ self-image, the same enormous offstage labor controlling every external detail.)
 
 Of the [311 profiles](/corpus-stats) currently on 9takes, 22 are Type 1 — about 7%, the second-rarest type in the corpus. Wintour is the only one whose actual job, for nearly four decades, was deciding which images of women were allowed to be considered beautiful that month. The Type 1 instinct — _I will tell you what is correct_ — was, in her case, the entire org chart.
 

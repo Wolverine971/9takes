@@ -5,14 +5,14 @@ persona_title: "Pop's Avant-Garde Mother"
 description: 'Lady Gaga turned private devastation into the most theatrical persona in pop. An Enneagram Type 4w3 analysis of the armor and the person wearing it.'
 author: 'DJ Wayne'
 date: '2026-04-15'
-loc: 'https://9takes.com/personality-analysis/Lady-Gaga'
+loc: 'https://9takes.com/personality-analysis/lady-gaga'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician']
-person: 'Lady-Gaga'
+person: 'lady-gaga'
 suggestions: ['Doechii', 'Taylor-Swift', 'Billie-Eilish', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Lady_Gaga'
 twitter: 'ladygaga'

@@ -5,14 +5,14 @@ persona_title: "Podcasting's Restless Architect"
 description: "Inside Steven Bartlett's Type 3 psychology: how shame built a $425M empire, why becoming a millionaire felt worse than finding 13 pounds in loose change, and what finally made him stop running."
 author: 'DJ Wayne'
 date: '2026-01-21'
-loc: 'https://9takes.com/personality-analysis/Steven-Bartlett'
+loc: 'https://9takes.com/personality-analysis/steven-bartlett'
 lastmod: '2026-05-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['entrepreneur', 'creator', 'business-creator', 'business-operator']
-person: 'Steven-Bartlett'
+person: 'steven-bartlett'
 suggestions: ['Alex-Hormozi', 'Gary-Vee', 'Tony-Robbins', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Steven_Bartlett_(businessman)'
 twitter: 'StevenBartlett'
@@ -122,7 +122,7 @@ Expelled from Plymstock School. Dropped out of Manchester Metropolitan Universit
 
 ## How The Diary of a CEO Actually Works
 
-By December 2025, [Spotify Wrapped](https://podcastrex.com/news/spotify-wrapped-2025-reveals-the-years-biggest-podcasts-and-a-new-no-1-in-the-uk) named The Diary of a CEO the most-listened-to podcast in the UK and the **second-largest in the world** — only [Joe Rogan](/personality-analysis/Joe-Rogan) ahead of him globally. Bartlett's [own reaction](https://x.com/StevenBartlett/status/1996504762997756394) was a tell: "what. the. f\*ck! 😳… i genuinely don't know how to say this, so I'm just going to word vomit it out… How f\*cking weird is that?"
+By December 2025, [Spotify Wrapped](https://podcastrex.com/news/spotify-wrapped-2025-reveals-the-years-biggest-podcasts-and-a-new-no-1-in-the-uk) named The Diary of a CEO the most-listened-to podcast in the UK and the **second-largest in the world** — only [Joe Rogan](/personality-analysis/joe-rogan) ahead of him globally. Bartlett's [own reaction](https://x.com/StevenBartlett/status/1996504762997756394) was a tell: "what. the. f\*ck! 😳… i genuinely don't know how to say this, so I'm just going to word vomit it out… How f\*cking weird is that?"
 
 It's a weird thing. He's 33. Rogan is 58. Bartlett's typical guest — Esther Perel, Mo Gawdat, Gabor Maté, Andrew Huberman, Jordan Peterson, Daniel Amen — is twenty to forty years older than the host, often holds a doctorate the host does not, and is sitting opposite a man who attended one university lecture before dropping out. The reasonable question is: how does this work?
 
@@ -158,7 +158,7 @@ In late 2023, the brain scan with Daniel Amen [confirmed ADHD](https://www.linke
 
 The calendar is the visible artifact. Color-coded by category — gym, focused work, sleep, relationships. He describes blocking time as **"making a promise to yourself that you do."** Time with Melanie goes in as a scheduled event because for a Type 3, if it isn't on the calendar, it loses to whatever is.
 
-In October 2025, Bartlett [closed an eight-figure round](https://www.eu-startups.com/2025/10/from-dragons-den-to-disney-ambitions-steven-bartlett-raises-eight-figure-round-for-steven-com/) at a $425 million valuation for **Steven.com**, his creator holding company. He kept over 90% ownership — the same kind of structural control [Alex Hormozi](/personality-analysis/Alex-Hormozi) defaults to. He made TIME's inaugural TIME100 Creators list the same year. His 2023 book, _The 33 Laws of Business and Life_, hit #1 on the Sunday Times bestseller list. Law 1 is the tell: "Fill your five buckets in the right order — knowledge, skills, network, resources, reputation." Reputation last. That's a Type 3 writing the book he needed at 22, when reputation was the only bucket he was filling and the other four were empty.
+In October 2025, Bartlett [closed an eight-figure round](https://www.eu-startups.com/2025/10/from-dragons-den-to-disney-ambitions-steven-bartlett-raises-eight-figure-round-for-steven-com/) at a $425 million valuation for **Steven.com**, his creator holding company. He kept over 90% ownership — the same kind of structural control [Alex Hormozi](/personality-analysis/alex-hormozi) defaults to. He made TIME's inaugural TIME100 Creators list the same year. His 2023 book, _The 33 Laws of Business and Life_, hit #1 on the Sunday Times bestseller list. Law 1 is the tell: "Fill your five buckets in the right order — knowledge, skills, network, resources, reputation." Reputation last. That's a Type 3 writing the book he needed at 22, when reputation was the only bucket he was filling and the other four were empty.
 
 His **Flight Story Fund** is a $100 million vehicle writing $1–10 million checks. Portfolio reads like a tour of the last three years of hype: SpaceX, Whoop, Replit, Lovable, MrBeast, Cadence — 40+ companies. The defining deal: a seven-figure check into AI chip startup **Groq** in 2024. No traditional VC theatre — a Scooter Braun introduction, a single trusted advisor (Harper Carroll) vetting it, then Bartlett [calling founder Jonathan Ross directly](https://businesscloud.co.uk/news/steven-bartlett-and-nvidias-20bn-mega-deal-for-groq/) and asking if he could put a check in. On Christmas Eve 2025, [Nvidia announced](https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html) a $20 billion acquisition. His real edge isn't analysis. He's surrounded by analysts smarter than he is. His edge is that Jonathan Ross picked up the phone.
 

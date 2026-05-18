@@ -5,14 +5,14 @@ persona_title: "Combat's Self-Made Wrecking Ball"
 description: "The psychology behind Conor McGregor's rise, rage, and reinvention — through the lens of Enneagram Type 8."
 author: 'DJ Wayne'
 date: '2026-03-04'
-loc: 'https://9takes.com/personality-analysis/Conor-McGregor'
+loc: 'https://9takes.com/personality-analysis/conor-mcgregor'
 lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['celebrity', 'celebrity-image']
-person: 'Conor-McGregor'
+person: 'conor-mcgregor'
 suggestions: ['Andrew-Tate', 'Jake-Paul', 'Joe-Rogan', 'Dave-Portnoy']
 wikipedia: 'https://en.wikipedia.org/wiki/Conor_McGregor'
 twitter: 'TheNotoriousMMA'
@@ -104,7 +104,7 @@ The peak was Jose Aldo. The Brazilian featherweight champion had been undefeated
 
 He wasn't just talking about confidence. He was describing something closer to a religious conviction — a belief system in which speaking something into existence was not metaphor but mechanism. And for years, the evidence kept proving him right.
 
-He became the first fighter in UFC history to hold two championship belts simultaneously. He talked his way into a boxing match with Floyd Mayweather and earned over $100 million for it — a spectacle that fellow combat-sports crossover [Jake Paul](/personality-analysis/Jake-Paul) would later try to replicate. He launched Proper No. Twelve whiskey and turned it into a nine-figure empire.
+He became the first fighter in UFC history to hold two championship belts simultaneously. He talked his way into a boxing match with Floyd Mayweather and earned over $100 million for it — a spectacle that fellow combat-sports crossover [Jake Paul](/personality-analysis/jake-paul) would later try to replicate. He launched Proper No. Twelve whiskey and turned it into a nine-figure empire.
 
 The plumber's apprentice from Crumlin had willed himself into a different universe. But the operating system he'd built to get there — the absolute refusal to be vulnerable, the conversion of every soft emotion into aggression, the belief that he could will any outcome — that wiring doesn't rewire just because you've arrived.
 

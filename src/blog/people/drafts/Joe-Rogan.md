@@ -5,14 +5,14 @@ persona_title: "Podcasting's Alpha Interrogator"
 description: 'Why does Joe Rogan trust himself over every tribe? We decode the Type 8 drive behind the podcast empire, political independence, loyalty, and blind spots.'
 author: 'DJ Wayne'
 date: '2023-07-26'
-loc: 'https://9takes.com/personality-analysis/Joe-Rogan'
+loc: 'https://9takes.com/personality-analysis/joe-rogan'
 lastmod: '2026-04-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['creator', 'comedian', 'podcaster', 'stand-up']
-person: 'Joe-Rogan'
+person: 'joe-rogan'
 suggestions:
   [
     'Theo-Von',
@@ -206,7 +206,7 @@ But the podcast alone was never enough. A Type 8 who has decided autonomy is sur
 
 **UFC commentary** — the booth since 1997. His policy: no international travel for commentary. For domestic pay-per-views, his voice remains synonymous with the sport. The martial artist honoring the dojo.
 
-**Comedy Mothership** — his club in Austin's historic Ritz building on 6th Street, opened after two and a half years of development. **"Mothership was created because I wanted a space that would draw comics from around the world to Austin."** Ron White, <a href="/personality-analysis/Theo-Von">Theo Von</a>, Erik Griffin perform regularly. Independent from major ticketing platforms. Another institution Joe controls from the ground up.
+**Comedy Mothership** — his club in Austin's historic Ritz building on 6th Street, opened after two and a half years of development. **"Mothership was created because I wanted a space that would draw comics from around the world to Austin."** Ron White, <a href="/personality-analysis/theo-von">Theo Von</a>, Erik Griffin perform regularly. Independent from major ticketing platforms. Another institution Joe controls from the ground up.
 
 The pattern isn't random ambition. It's a man who decided, somewhere around childhood, that he would never again be at the mercy of a single person, institution, or platform. Every venture is another weight on the "nobody owns me" side of the scale.
 
@@ -319,7 +319,7 @@ That's an 8.
 
 ## Joe Rogan and Trump: Why He Won't Stay Loyal to Any Tribe
 
-October 2024. Joe interviewed [Donald Trump](/personality-analysis/Donald-Trump) for three hours. Over 59 million views.
+October 2024. Joe interviewed [Donald Trump](/personality-analysis/donald-trump) for three hours. Over 59 million views.
 
 Days before the election, Joe officially endorsed Trump. The assassination attempt in Pennsylvania factored heavily, along with what he saw as media bias.
 

@@ -5,14 +5,14 @@ persona_title: 'Crypto''s Disembodied Calculator'
 description: 'Sam Bankman-Fried preached ethics, then privately called it "a dumb game." Inside the Type 5 mind behind FTX, $8 billion in fraud, and 25 years in prison.'
 author: 'DJ Wayne'
 date: '2026-05-07'
-loc: 'https://9takes.com/personality-analysis/Sam-Bankman-Fried'
+loc: 'https://9takes.com/personality-analysis/sam-bankman-fried'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
 type: ['techie', 'entrepreneur', 'business-operator']
-person: 'Sam-Bankman-Fried'
+person: 'sam-bankman-fried'
 suggestions: ['Sam-Altman', 'Elon-Musk', 'Mark-Zuckerberg', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Sam_Bankman-Fried'
 twitter: 'SBF_FTX'

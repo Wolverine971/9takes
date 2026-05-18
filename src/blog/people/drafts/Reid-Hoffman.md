@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Restless Philosopher"
 description: "Reid Hoffman built the world's largest professional network. But his real obsession isn't connections. It's possibility itself."
 author: 'DJ Wayne'
 date: '2026-03-27'
-loc: 'https://9takes.com/personality-analysis/Reid-Hoffman'
+loc: 'https://9takes.com/personality-analysis/reid-hoffman'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['techie', 'investor']
-person: 'Reid-Hoffman'
+person: 'reid-hoffman'
 suggestions: ['Ben-Horowitz', 'Marc-Andreessen', 'Shaan-Puri', 'Sam-Altman', 'Paul-Graham']
 wikipedia: 'https://en.wikipedia.org/wiki/Reid_Hoffman'
 twitter: 'reidhoffman'
@@ -142,7 +142,7 @@ His father found the check. "Where did you get this?" he asked, suspicious. His 
 
 At Stanford, Hoffman finally found his people. He studied Symbolic Systems and Cognitive Science, a program built for minds that refused to stay in one lane, combining philosophy, linguistics, computer science, and psychology. His core obsession: "How we as people, as humans, think, speak, reason, communicate, understand each other."
 
-He met <a href="/personality-analysis/Peter-Thiel">Peter Thiel</a> in a philosophy class called "Mind, Matter, and Meeting." They debated constantly. Where Thiel saw the primacy of the individual, the lone genius who creates something from nothing, Hoffman saw something different. The individual matters, yes. But the individual reaching their potential _through_ other people matters more.
+He met <a href="/personality-analysis/peter-thiel">Peter Thiel</a> in a philosophy class called "Mind, Matter, and Meeting." They debated constantly. Where Thiel saw the primacy of the individual, the lone genius who creates something from nothing, Hoffman saw something different. The individual matters, yes. But the individual reaching their potential _through_ other people matters more.
 
 This wasn't an abstract disagreement. It was the fork in the road that would define both of their lives.
 
@@ -236,7 +236,7 @@ In 2009, Hoffman joined Greylock Partners. The move from operator to investor wa
 
 "Networks and marketplaces are central to all of my investing and thinking," he said. "They are foundational to scaling businesses that reach hundreds of millions of people."
 
-He led Airbnb's Series A, identifying platform dynamics before the network effects were obvious. He arranged the first meeting between <a href="/personality-analysis/Mark-Zuckerberg">Mark Zuckerberg</a> and Thiel that led to Facebook's first angel investment, then continued investing alongside Greylock. He joined Microsoft's board in 2017. He backed over 37 AI companies by 2023.
+He led Airbnb's Series A, identifying platform dynamics before the network effects were obvious. He arranged the first meeting between <a href="/personality-analysis/mark-zuckerberg">Mark Zuckerberg</a> and Thiel that led to Facebook's first angel investment, then continued investing alongside Greylock. He joined Microsoft's board in 2017. He backed over 37 AI companies by 2023.
 
 But the Greylock years also revealed the cost of breadth. Ben Casnocha, who served as Hoffman's chief of staff for over four years, watched the tension up close. Despite all his accomplishments — LinkedIn chairman, Greylock partner, board seats, books, philanthropy — Hoffman told the New York Times he was "functioning at 60 percent effectiveness."
 

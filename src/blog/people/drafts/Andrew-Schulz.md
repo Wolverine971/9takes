@@ -5,14 +5,14 @@ meta_title: 'Andrew Schulz Enneagram Type 7: Freedom, Comedy, Control'
 description: 'Amazon told Andrew Schulz to cut jokes. He spent his life savings buying the special back and made 3x more. Inside the psychology of never being controlled.'
 author: 'DJ Wayne'
 date: '2026-01-07'
-loc: 'https://9takes.com/personality-analysis/Andrew-Schulz'
+loc: 'https://9takes.com/personality-analysis/andrew-schulz'
 lastmod: '2026-01-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['comedian', 'stand-up']
-person: 'Andrew-Schulz'
+person: 'andrew-schulz'
 suggestions: ['Joe-Rogan', 'Theo-Von', 'Tim-Dillon', 'Shane-Gillis', 'Dave-Chappelle', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Schulz'
 twitter: 'andrewschulz'
@@ -153,7 +153,7 @@ He followed it with his podcast work. The Brilliant Idiots with Charlamagne tha 
 
 **The Flagrant dynamic matters.** Schulz doesn't work alone. He needs people to bounce off. Akaash Singh as co-host, Mark Gagnon adding chaos, AlexxMedia behind the boards. The chemistry turns what could be a solo rant into collaborative comedy.
 
-[Joe Rogan](/personality-analysis/Joe-Rogan) has appeared on Flagrant. Schulz has been on The Joe Rogan Experience multiple times (episodes #1846 and #2132). Mark Normand comes through for particularly unhinged episodes.
+[Joe Rogan](/personality-analysis/joe-rogan) has appeared on Flagrant. Schulz has been on The Joe Rogan Experience multiple times (episodes #1846 and #2132). Mark Normand comes through for particularly unhinged episodes.
 
 This isn't a comedian isolated from the scene. He's connected to the biggest names, just on his own terms.
 
@@ -161,7 +161,7 @@ His 2018 album "5:5:1" hit #1 on iTunes, Apple Music, Google Play, Amazon, and t
 
 And then came the Trump interview.
 
-On October 9, 2024, Schulz released a 90-minute conversation with [Donald Trump](/personality-analysis/Donald-Trump) on Flagrant. No network permission. No corporate approval. Just a podcast getting the former president three weeks before the election.
+On October 9, 2024, Schulz released a 90-minute conversation with [Donald Trump](/personality-analysis/donald-trump) on Flagrant. No network permission. No corporate approval. Just a podcast getting the former president three weeks before the election.
 
 Three hours later, he got an email from the Brooklyn Academy of Music. They'd been scheduled to host his next special taping. The email read: "After some internal discussion with leadership, it was decided that BAM is not the right fit for this show at this time."
 
@@ -240,7 +240,7 @@ Type 8 is the obvious alternate. Schulz is confrontational, autonomy-driven, and
 
 No analysis of Schulz would be complete without addressing the controversies. And there are many.
 
-**The Kendrick Lamar situation:** In August 2024, Schulz made jokes on Flagrant about white men who "get slapped" by their Black girlfriends. Three months later, [Kendrick Lamar](/personality-analysis/Kendrick-Lamar)'s album "GNX" dropped with what appeared to be a direct response on "Wacced Out Murals": _"Don't let no white comedian talk about no Black woman, that's law."_
+**The Kendrick Lamar situation:** In August 2024, Schulz made jokes on Flagrant about white men who "get slapped" by their Black girlfriends. Three months later, [Kendrick Lamar](/personality-analysis/kendrick-lamar)'s album "GNX" dropped with what appeared to be a direct response on "Wacced Out Murals": _"Don't let no white comedian talk about no Black woman, that's law."_
 
 Schulz's response? He doubled down on Flagrant, making sexual jokes about Kendrick and saying "the only thing he could do is decide if it's consensual or not." Four months later on The Breakfast Club, he was still making references to wanting to "make love" to Lamar, this time referencing Kendrick's Super Bowl halftime outfit.
 

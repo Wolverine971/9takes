@@ -5,19 +5,65 @@ persona_title: "Comedy's Confessional Live Wire"
 description: "Bobby Lee built a career out of saying what nobody else would say. His Type 7 wiring explains why every confession sounds like a cure he hasn't finished."
 author: 'DJ Wayne'
 date: '2026-05-04'
-loc: 'https://9takes.com/personality-analysis/Bobby-Lee'
+loc: 'https://9takes.com/personality-analysis/bobby-lee'
 lastmod: '2026-05-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['comedian', 'creator', 'podcaster']
-person: 'Bobby-Lee'
+person: 'bobby-lee'
 suggestions: ['Theo-Von', 'Joe-Rogan', 'Dax-Shepard', 'Pete-Davidson']
 wikipedia: 'https://en.wikipedia.org/wiki/Bobby_Lee'
 twitter: 'bobbyleelive'
 instagram: 'bobbyleelive'
 tiktok: 'bobbyleeclips'
+wikidata_qid: 'Q1064120'
+imdb_id: 'nm0496899'
+birth_date: '1971-09-17'
+birth_place: 'San Diego, California, USA'
+nationality: 'American'
+occupation:
+  - 'Stand-up comedian'
+  - 'Podcaster'
+  - 'Actor'
+knows_about:
+  - 'Stand-up comedy'
+  - 'MADtv'
+  - 'TigerBelly'
+  - 'Bad Friends'
+  - 'Addiction recovery'
+  - 'Korean-American identity'
+keywords:
+  - 'Bobby Lee enneagram'
+  - 'Bobby Lee type 7'
+  - 'Bobby Lee personality'
+  - 'Bobby Lee TigerBelly'
+  - 'Bad Friends podcast'
+  - 'Enthusiast enneagram'
+  - 'Bobby Lee MADtv'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Bobby_Lee'
+  - 'https://www.wikidata.org/wiki/Q1064120'
+  - 'https://www.imdb.com/name/nm0496899/'
+  - 'https://twitter.com/bobbyleelive'
+  - 'https://www.instagram.com/bobbyleelive/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Bobby_Lee'
+  - 'https://www.youtube.com/@TigerBellyOfficial'
+  - 'https://www.youtube.com/@BadFriendsPod'
+  - 'https://armchairexpertpod.com/'
+  - 'https://www.youtube.com/@SoulBoomPodcast'
+faqs:
+  - question: "What is Bobby Lee's personality type?"
+    answer: "Bobby Lee is an Enneagram Type 7 with an 8 wing. The pattern shows in his addiction history (meth and weed at twelve, heroin at fifteen, thirty Vicodins a day on the MADtv set), his confessional broadcasting style on TigerBelly and Bad Friends, and his Type-7 substitution of public confession for the substances he used to outrun his father's rage."
+    anchor: 'what-is-bobby-lees-personality-type'
+  - question: 'Why does Bobby Lee tell his worst stories on every podcast he goes on?'
+    answer: "His therapist gave him the reading he can't stop quoting: 'You used the one defense mechanism you had to survive, and you turned that into a living.' For a Type 7 raised in a rageaholic household, the joke and the drug do the same job — they keep moving so the pain can't catch up. Confession on a microphone is the version of that defense he has built a career on."
+    anchor: 'what-tigerbelly-lets-bobby-lee-do-that-comedy-clubs-dont'
+  - question: 'How did Bobby Lee get sober the first time?'
+    answer: "After he was fired from MADtv, Bobby Lee climbed the wall of a San Diego rehab at three in the morning, ran to a CVS, and was recognized by a stranger working the counter — a man who had been at Bobby's first teen rehab years earlier. The stranger walked him back. Bobby stayed sober and worked another six years on MADtv. He has relapsed since; the CVS night remains the cleanest version of the way Type 7s actually change."
+    anchor: 'how-bobby-lee-got-sober-the-first-time'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -91,7 +137,7 @@ Most fans know Bobby Lee as comedy's most unhinged oversharer. The guy who will 
 
 ### Bobby Lee is an Enneagram Type 7
 
-Start with what a [Type 7](/enneagram-corner/enneagram-type-7) actually is, before the Wikipedia clichés get in the way. The Seven is not the "fun one." The Seven is the person who learned, very early, that the inside of their own head is unsurvivable without external stimulation. The drug, the joke, the trip, the new project, the new person — all the same tool, used for the same job: keep moving so the pain can't catch up.
+Start with what a [Type 7](/enneagram-corner/enneagram-type-7) actually is, before the Wikipedia clichés get in the way. The Seven isn't the "fun one" — the Seven is the person who learned, very early, that the inside of their own head is unsurvivable without external stimulation. The drug, the joke, the trip, the new project, the new person — all the same tool, used for the same job: keep moving so the pain can't catch up.
 
 Bobby Lee describes the engine in his own words on the Dax Shepard interview: _"If I hear a loud noise, I instantly go into trauma."_ That is not a Seven sentence on the surface — Sevens are supposed to be the breezy ones. But it is exactly the sentence a Seven would say if you actually got them to slow down. The "fun" is the cover story. The avoidance is the engine.
 
@@ -109,7 +155,7 @@ His mother did not protect them. _"Over time, I built resentment toward her for 
 
 This is the household a Seven is built in. Not by accident. The wiring is partly genetic, partly the body's adaptation to a specific problem: the people in charge of your safety are themselves the source of the danger, and the only thing you can control is your own attention. So you learn to put your attention anywhere else. You learn to turn the channel inside your own head.
 
-Bobby found his first channel-changer at nine, when a neighbor with Down syndrome sexually abused him. He has told that story so many times now — on _The Fighter and the Kid_, on his own podcast, on stage at Comedy Store — that listeners can be forgiven for missing how unusual it is for a survivor to choose to keep saying it out loud. Most people who survive that age never tell anyone. Bobby tells everyone. That is not the behavior of a man who has processed the abuse. That is the behavior of a Seven who has discovered that telling it is the only thing that stops the room inside his head from shrinking.
+Bobby found his first channel-changer at nine, when a neighbor with Down syndrome sexually abused him. He has told that story so many times now — on _The Fighter and the Kid_, on his own podcast, on stage at Comedy Store — that listeners can be forgiven for missing how unusual it is for a survivor to choose to keep saying it out loud. Most people who survive that age never tell anyone. Bobby tells everyone, because for a Seven, telling it is the only thing that stops the room inside his head from shrinking.
 
 By twelve he was smoking weed and using methamphetamine. By fifteen he was on heroin. He has been, for forty years, a case study in what happens when a Seven's engine starts running before the brain has finished forming.
 
@@ -149,13 +195,13 @@ The shift matters because podcasts are doing something to Bobby that stand-up ne
 
 _"Once I got a laugh from an audience, I stopped going to meetings,"_ Bobby told Rainn Wilson. _"It felt like something was filling that void."_ He paused. Bobby called it _a false profit_ — not quite a malapropism, not quite a diagnosis, and somehow exactly both.
 
-The Khalyla arc is the clearest proof of how far a Seven will push the confessional engine. In July 2022, on _TigerBelly_ episode 355 — titled, with zero regard for privacy, _"Bobby & Khalyla Break Up"_ — the two of them announced the end of their roughly ten-year relationship on their own show. Bobby framed it as love that had turned into caretaking after Khalyla's heart condition surfaced on a trip abroad. She kept co-hosting into early 2023 before stepping back, citing mental health, and has returned as an occasional guest since. Most couples break up and stop seeing each other. Bobby and Khalyla broke up and kept broadcasting. A Six would have buried it. An Eight would have weaponized it. Bobby, a Seven, opened a microphone and told on himself in real time, because the microphone is the one room in his life where the pain has a job.
+The Khalyla arc is the clearest proof of how far a Seven will push the confessional engine. In July 2022, on _TigerBelly_ episode 355 — titled, with zero regard for privacy, _"Bobby & Khalyla Break Up"_ — the two of them announced the end of their roughly ten-year relationship on their own show. Bobby framed it as love that had turned into caretaking after Khalyla's heart condition surfaced on a trip abroad. She kept co-hosting into early 2023 before stepping back, citing mental health, and has returned as an occasional guest since. Most couples break up and stop seeing each other. Bobby and Khalyla broke up and kept broadcasting. He opened a microphone and told on himself in real time, because that is where his version of grief has always gone.
 
 The Santino dynamic on _Bad Friends_ is the 8-wing Seven in its most visible form. Santino plays the exasperated adult, Bobby detonates every five minutes, and the show runs on the tension between a man trying to hold a room and a man who has never wanted a room held. When Santino rolls his eyes, the audience is, without knowing it, watching the household Bobby grew up in — only with the roles reassigned and the stakes lowered to cable-grade chaos. The crudeness, the dares, the _"can you look a little less Bobby Lee?"_ style of self-roasting that has become a running _TigerBelly_ bit — that is the Seven who learned to swing first, still swinging, in a room where the table does not actually overturn.
 
 His younger brother Steve — _Steebee Weebee_ — shows up across both shows as a kind of Greek chorus: the other Lee boy who stayed closer to the house, now playing the straight-ish man to Bobby's blowups. His mother Jeanie, the same woman Bobby once resented for not protecting him, is now a recurring voice on _TigerBelly_; episodes like _"Bobby's Umma"_ turn the private argument into comedy currency. The Seven does not leave the family. The Seven puts the family on tape.
 
-It is, weirdly, the thing that has held him together. [Dax Shepard](/personality-analysis/Dax-Shepard), on _Armchair Expert_, said it plainly: _"I love Bobby Lee. He is so funny and honest."_ Monica Padman followed: _"Before you podcasted, I thought, He's a good actor. Then you started this and it was just like, Oh my God, he's smart, too."_
+It is, weirdly, the thing that has held him together. [Dax Shepard](/personality-analysis/dax-shepard), on _Armchair Expert_, said it plainly: _"I love Bobby Lee. He is so funny and honest."_ Monica Padman followed: _"Before you podcasted, I thought, He's a good actor. Then you started this and it was just like, Oh my God, he's smart, too."_
 
 The honesty is real. So is the cost. Every time Bobby tells the worst story about himself in public, he buys another week of being okay — and performs the wound one more time so it never fully closes. The career and the recovery run on the same fuel.
 
@@ -175,7 +221,7 @@ Bobby's father, the one who overturned the dinner table, called him after his fi
 
 Then he apologized. Years too late, in the middle of a phone call, in language that did not undo any of the dinner tables. He apologized for not supporting Bobby's career.
 
-In 2019 he died of Parkinson's. Bobby relapsed within months. He told the story to [Theo Von](/personality-analysis/Theo-Von) on _TigerBelly_ episode 224 the way Sevens tell every story they have not finished processing: as a punchline first, then a quiet sentence underneath, then a pivot to the next bit.
+In 2019 he died of Parkinson's. Bobby relapsed within months. He told the story to [Theo Von](/personality-analysis/theo-von) on _TigerBelly_ episode 224 the way Sevens tell every story they have not finished processing: as a punchline first, then a quiet sentence underneath, then a pivot to the next bit.
 
 This is what nobody who watches _Bad Friends_ clips actually sees. Bobby Lee is not a man who has escaped his father. He is a man who is still, every Monday and Wednesday, running on a track his father laid down. The stage, the podcast, the confessional voice, the willingness to say the unsayable — all of it traces back to a kid who could not change the household, so he learned to change his attention.
 

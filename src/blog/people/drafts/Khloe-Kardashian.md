@@ -5,14 +5,14 @@ persona_title: "Reality's Devoted Caretaker"
 description: 'Khloé Kardashian keeps forgiving the unforgivable because control, caretaking, and heartbreak have become the same emotional language.'
 author: 'DJ Wayne'
 date: '2026-04-04'
-loc: 'https://9takes.com/personality-analysis/Khloe-Kardashian'
+loc: 'https://9takes.com/personality-analysis/khloe-kardashian'
 lastmod: '2026-04-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['celebrity', 'celebrity-image']
-person: 'Khloe-Kardashian'
+person: 'khloe-kardashian'
 suggestions: ['Kim-Kardashian', 'Kourtney-Kardashian', 'Kylie-Jenner', 'Kris-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian'
 twitter: 'khloekardashian'

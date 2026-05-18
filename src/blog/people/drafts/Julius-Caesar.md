@@ -5,14 +5,14 @@ persona_title: "History's Relentless Conqueror"
 description: "Explore Julius Caesar's psychology through the Enneagram. From crushing debt to divine honors, discover the pattern behind history's most ambitious man."
 author: 'DJ Wayne'
 date: '2026-03-09'
-loc: 'https://9takes.com/personality-analysis/Julius-Caesar'
+loc: 'https://9takes.com/personality-analysis/julius-caesar'
 lastmod: '2026-03-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['historical', 'historical-leader']
-person: 'Julius-Caesar'
+person: 'julius-caesar'
 suggestions: ['Napoleon-Bonaparte', 'Joseph-Stalin', 'Abraham-Lincoln', 'Winston-Churchill']
 wikipedia: 'https://en.wikipedia.org/wiki/Julius_Caesar'
 twitter: ''
@@ -132,7 +132,7 @@ What makes Caesar specifically a Three, rather than just ambitious, becomes clea
 
 Caesar didn't wait. He manufactured his own authority. When the Senate wouldn't give him what he wanted, he crossed a river with one legion and took it. Pompey believed power was conferred by institutions. Caesar believed power was performed into existence, that if you acted like the most important man in the room, the room would eventually agree.
 
-That instinct makes him a useful contrast with [Napoleon Bonaparte](/personality-analysis/Napoleon-Bonaparte). Both men seized legitimacy instead of waiting for it. Caesar did it through the Three's mythmaking instinct; Napoleon did it through the Eight's demand for sovereignty.
+That instinct makes him a useful contrast with [Napoleon Bonaparte](/personality-analysis/napoleon-bonaparte). Both men seized legitimacy instead of waiting for it. Caesar did it through the Three's mythmaking instinct; Napoleon did it through the Eight's demand for sovereignty.
 
 ---
 
@@ -148,7 +148,7 @@ The psychological effect was instantaneous. By addressing them as civilians, he 
 
 The hardened veterans who had followed him across Gaul, Britain, and the civil war begged to be reinstated. They followed him to Africa, despite his feigned reluctance to accept them.
 
-He gave them no money. No promises. No threats. One word shifted their identity from essential to irrelevant, and they couldn't bear it. People will fight harder to keep their place in a story than they will for gold. (Compare this to how [Winston Churchill](/personality-analysis/Winston-Churchill) rallied Britain through sheer rhetorical force, a similar instinct with entirely different psychology.)
+He gave them no money. No promises. No threats. One word shifted their identity from essential to irrelevant, and they couldn't bear it. People will fight harder to keep their place in a story than they will for gold. (Compare this to how [Winston Churchill](/personality-analysis/winston-churchill) rallied Britain through sheer rhetorical force, a similar instinct with entirely different psychology.)
 
 ## The Women Who Saw Through the Performance
 
@@ -249,7 +249,7 @@ The silence didn't last. Five days later, Mark Antony raised Caesar's bloodstain
 
 Caesar was declared _Divus Julius_ — the first historical Roman to be officially deified. His adopted heir Octavian became Augustus, the first true Emperor. Every subsequent Roman ruler claimed Caesar's name. The words "Kaiser" and "Tsar" are both corruptions of "Caesar."
 
-Dante placed Brutus and Cassius in the lowest circle of Hell, alongside Judas. (For another leader whose psychology shaped a nation's destiny, see [Abraham Lincoln's personality analysis](/personality-analysis/Abraham-Lincoln).)
+Dante placed Brutus and Cassius in the lowest circle of Hell, alongside Judas. (For another leader whose psychology shaped a nation's destiny, see [Abraham Lincoln's personality analysis](/personality-analysis/abraham-lincoln).)
 
 The month of July bears his name.
 

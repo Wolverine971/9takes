@@ -5,14 +5,14 @@ persona_title: "Comedy's Strategic Introvert"
 description: "Tina Fey built comedy's most relatable persona while being its most controlled strategist. Inside the Type 3 mind behind the self-deprecation."
 author: 'DJ Wayne'
 date: '2026-04-01'
-loc: 'https://9takes.com/personality-analysis/Tina-Fey'
+loc: 'https://9takes.com/personality-analysis/tina-fey'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['comedian']
-person: 'Tina-Fey'
+person: 'tina-fey'
 suggestions: ['Taylor-Swift', 'Mindy-Kaling', 'Tom-Cruise', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Tina_Fey'
 twitter: '@tinafey'

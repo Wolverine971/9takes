@@ -5,14 +5,14 @@ persona_title: "Comedy's Shirtless Shark"
 description: "The shirtless party guy sold out arenas. The man underneath has OCD and can't sit still. Bert Kreischer isn't chasing fun — he's running from silence."
 author: 'DJ Wayne'
 date: '2026-04-23'
-loc: 'https://9takes.com/personality-analysis/Bert-Kreischer'
+loc: 'https://9takes.com/personality-analysis/bert-kreischer'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['comedian']
-person: 'Bert-Kreischer'
+person: 'bert-kreischer'
 suggestions: ['Joe-Rogan', 'Theo-Von', 'Andrew-Schulz', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Bert_Kreischer'
 twitter: 'bertkreischer'
@@ -68,7 +68,7 @@ Locations: "Why Bert Kreischer can't sit still" (1 paragraph on the 7→1 stress
 
 > "I just can't picture me doing anything. I don't know if there's anything I can do." — Bert Kreischer, Rolling Stone, 1997
 
-<p class="firstLetter">Bert Kreischer's house in the Valley has a treadmill he didn't buy. He mentioned to <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>, in passing, that he'd been running at the gym. The next day a five-thousand-dollar Air Assault trainer arrived at his front door. That is Rogan's love language and Bert's whole problem. The treadmill is still there. Bert is still running.</p>
+<p class="firstLetter">Bert Kreischer's house in the Valley has a treadmill he didn't buy. He mentioned to <a href="/personality-analysis/joe-rogan">Joe Rogan</a>, in passing, that he'd been running at the gym. The next day a five-thousand-dollar Air Assault trainer arrived at his front door. That is Rogan's love language and Bert's whole problem. The treadmill is still there. Bert is still running.</p>
 
 He is not running for fitness. He told Jay Shetty in 2025, "I liken myself to a shark, finding relief in continuous movement." A shark that stops swimming drowns. A Bert Kreischer who stops moving is alone with his head, and his head is where the trouble lives.
 

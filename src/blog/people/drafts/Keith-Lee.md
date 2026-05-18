@@ -5,14 +5,14 @@ persona_title: 'The Quiet Killa'
 description: "Why does Keith Lee sound like he's apologizing on every review? An Enneagram Type 9 read on the fighter who became TikTok's quietest protector."
 author: 'DJ Wayne'
 date: '2026-04-24'
-loc: 'https://9takes.com/personality-analysis/Keith-Lee'
+loc: 'https://9takes.com/personality-analysis/keith-lee'
 lastmod: '2026-04-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
 type: ['creator', 'tiktoker', 'lifestyle-builder']
-person: 'Keith-Lee'
+person: 'keith-lee'
 suggestions: ['Jelly-Roll', 'Dave-Chappelle', 'Bella-Poarch', 'Keanu-Reeves']
 wikipedia: 'https://en.wikipedia.org/wiki/Keith_Lee_(food_critic)'
 tiktok: 'keith_lee125'
@@ -102,7 +102,7 @@ Keith spent his first 18 years getting this message from every direction. A smal
 
 The Nine under this kind of pressure usually becomes invisible. Keith almost did. We'll get to the ten neckties on the cooler in a minute.
 
-Instead he became something rarer: a 9w8. The <a href="/enneagram-corner/enneagram-wings-complete-guide">8 wing</a> is why the fighter pedigree isn't a contradiction. A 9w8 — the kind of figure <a href="/personality-analysis/Jelly-Roll">Jelly Roll</a> exemplifies — is slow to anger, terrifying when roused, and willing to fight for things that aren't himself. He'll spend a decade not bothering anyone, and then one morning you'll wake up to find he's drawn a line that every dollar on earth can't make him cross.
+Instead he became something rarer: a 9w8. The <a href="/enneagram-corner/enneagram-wings-complete-guide">8 wing</a> is why the fighter pedigree isn't a contradiction. A 9w8 — the kind of figure <a href="/personality-analysis/jelly-roll">Jelly Roll</a> exemplifies — is slow to anger, terrifying when roused, and willing to fight for things that aren't himself. He'll spend a decade not bothering anyone, and then one morning you'll wake up to find he's drawn a line that every dollar on earth can't make him cross.
 
 Keith has that line. You can watch him keep filming in Atlanta after the death threats started. You'll see the rest of the line by the end of this piece.
 

@@ -5,14 +5,14 @@ persona_title: "Cinema's Beautiful Exile"
 description: "Inside Anya Taylor-Joy's lifelong search for identity — from a silent child in London to a woman who lost herself inside her characters."
 author: 'DJ Wayne'
 date: '2025-03-10'
-loc: 'https://9takes.com/personality-analysis/Anya-Taylor-Joy'
+loc: 'https://9takes.com/personality-analysis/anya-taylor-joy'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['newMovieStar', 'rising-star']
-person: 'Anya-Taylor-Joy'
+person: 'anya-taylor-joy'
 suggestions: ['Zendaya', 'Timothee-Chalamet', 'Sydney-Sweeney', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Anya_Taylor-Joy'
 twitter: 'anyataylorjoy'
@@ -205,7 +205,7 @@ She told the Golden Globes press she's "waiting for the right project in Spanish
 
 ## The Ongoing Question
 
-Born in 1996, barely a decade into her career, Anya Taylor-Joy already has _Dune: Part Three_ wrapped alongside [Timothée Chalamet](/personality-analysis/Timothee-Chalamet) and [Zendaya](/personality-analysis/Zendaya), with new projects lined up for Apple TV+ and Netflix. She's a Dior and Tiffany ambassador. She moves between London, New York, and wherever the next set is, carrying a chihuahua named Bartok the Magnificent — less than a kilogram, named after the bat in _Anastasia_, a film whose heroine happens to be named Anya. Despite his size, he's "really, really brave" and runs up to every dog he meets. She describes this like she's talking about someone she admires.
+Born in 1996, barely a decade into her career, Anya Taylor-Joy already has _Dune: Part Three_ wrapped alongside [Timothée Chalamet](/personality-analysis/timothee-chalamet) and [Zendaya](/personality-analysis/zendaya), with new projects lined up for Apple TV+ and Netflix. She's a Dior and Tiffany ambassador. She moves between London, New York, and wherever the next set is, carrying a chihuahua named Bartok the Magnificent — less than a kilogram, named after the bat in _Anastasia_, a film whose heroine happens to be named Anya. Despite his size, he's "really, really brave" and runs up to every dog he meets. She describes this like she's talking about someone she admires.
 
 "I've never been that good at being perceived outside of my job. I don't like the feeling of being watched if I'm not on with a capital O."
 

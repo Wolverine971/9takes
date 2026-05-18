@@ -5,14 +5,14 @@ persona_title: "Comedy's Boundless Showman"
 description: "How Jack Black's Enneagram Type 7 personality connects his cocaine addiction at 15, his rocket scientist mother, and his TikTok domination at 55."
 author: 'DJ Wayne'
 date: '2026-01-23'
-loc: 'https://9takes.com/personality-analysis/Jack-Black'
+loc: 'https://9takes.com/personality-analysis/jack-black'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['celebrity', 'comedian', 'musician', 'tv-comedy-crossover', 'music-crossover', 'sketch-comic']
-person: 'Jack-Black'
+person: 'jack-black'
 suggestions: ['Paul-Rudd', 'Kevin-Hart', 'Ryan-Reynolds', 'Robert-Downey-Jr']
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Black'
 twitter: 'https://twitter.com/jackblack'
@@ -296,9 +296,9 @@ The comedy works _because_ the musicianship is real. You can't parody something 
 
 He's been Po the panda across four Kung Fu Panda films and voiced Bowser in The Super Mario Bros. Movie — both franchises worth hundreds of millions at the box office. None of it is accidental. Jack has named Robin Williams' performances in Aladdin and Jumanji as "the most powerful one-two punch, pound for pound," and recognized early that the recording booth gives a performer like him room to run. He followed Williams' exact path. What that career actually reveals, psychologically: Jack is most himself when he can be everything at once — voice, character, absurdity, genuine emotion — without a camera catching his face.
 
-On the _Jumanji_ films, working alongside [Kevin Hart](/personality-analysis/Kevin-Hart) and Dwayne Johnson, Jack admitted he "raised my game a couple of notches out of the intimidation factor. He's a king of the industry. I've done a lot of movies, but when someone is on fire, at the peak of their powers, you feel like you have to earn your spot." A man with his filmography feeling like he needs to prove himself. That's not false modesty. That's a real gap between the persona and the internal experience.
+On the _Jumanji_ films, working alongside [Kevin Hart](/personality-analysis/kevin-hart) and Dwayne Johnson, Jack admitted he "raised my game a couple of notches out of the intimidation factor. He's a king of the industry. I've done a lot of movies, but when someone is on fire, at the peak of their powers, you feel like you have to earn your spot." A man with his filmography feeling like he needs to prove himself. That's not false modesty. That's a real gap between the persona and the internal experience.
 
-The most psychologically revealing detail in his recent work came from _Anaconda_ (2025). Jack and [Paul Rudd](/personality-analysis/Paul-Rudd) first met as kids at an audition; both got their starts in video game commercials — Jack for Atari, Rudd for Nintendo. Decades later, when Jack joined the project, he insisted they swap roles. **Jack plays the straight man.** The frustrated, grounded one. Rudd gets the chaos. The restraint is harder than the explosion. He knows that now.
+The most psychologically revealing detail in his recent work came from _Anaconda_ (2025). Jack and [Paul Rudd](/personality-analysis/paul-rudd) first met as kids at an audition; both got their starts in video game commercials — Jack for Atari, Rudd for Nintendo. Decades later, when Jack joined the project, he insisted they swap roles. **Jack plays the straight man.** The frustrated, grounded one. Rudd gets the chaos. The restraint is harder than the explosion. He knows that now.
 
 On set, director Tom Gormican couldn't keep them focused between takes: "Jack is belting out a song and then Paul is coming in and Steve is singing." Jack sings constantly on set. Not for cameras. As a way of existing in the world — keeping the silence at bay, filling whatever space opens up between actions.
 
@@ -332,7 +332,7 @@ The difference is channel. Cocaine became comedy. Self-destruction became perfor
 
 "When you connect with a character it's worth all the hard work and cold sweats at night," he once said about acting.
 
-When [Kevin Hart](/personality-analysis/Kevin-Hart) suffered a serious car accident in 2019, Jack visited him in the hospital. He came back with this: "He kept on saying that he was going to take this opportunity to breathe and slow down and appreciate his family."
+When [Kevin Hart](/personality-analysis/kevin-hart) suffered a serious car accident in 2019, Jack visited him in the hospital. He came back with this: "He kept on saying that he was going to take this opportunity to breathe and slow down and appreciate his family."
 
 > **Disclaimer:** This analysis of Jack Black's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jack Black.
 

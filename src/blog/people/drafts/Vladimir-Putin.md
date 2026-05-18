@@ -4,14 +4,14 @@ meta_title: 'Why Putin Turns Weakness Into Aggression'
 description: 'Putin turned a childhood of scarcity, weakness, and paranoia into armor so rigid it now governs how he fights, isolates, and rules.'
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Vladimir-Putin'
+loc: 'https://9takes.com/personality-analysis/vladimir-putin'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['politician', 'modern-leader']
-person: 'Vladimir-Putin'
+person: 'vladimir-putin'
 persona_title: 'The Cornered Rat Who Became Czar'
 suggestions: ['Donald-Trump', 'Xi-Jinping', 'Joe-Biden', 'Barack-Obama', 'Winston-Churchill']
 wikipedia: 'https://en.wikipedia.org/wiki/Vladimir_Putin'
@@ -135,7 +135,7 @@ There are two versions of that story, and the gap between them is psychologicall
 
 **Putin's own published account:** "Once my mother fainted from hunger and people thought she had died, laying her out with the corpses. Luckily Mama woke up in time and started moaning."
 
-**The version Putin told [Hillary Clinton](/personality-analysis/Hillary-Clinton) privately:** His father came home from the front for a short break. Approaching their apartment, he saw a pile of bodies stacked in the street and men loading them onto a truck. He drew nearer and recognized his wife's shoes on one of the bodies. He ran up and demanded her body. She was still alive.
+**The version Putin told [Hillary Clinton](/personality-analysis/hillary-clinton) privately:** His father came home from the front for a short break. Approaching their apartment, he saw a pile of bodies stacked in the street and men loading them onto a truck. He drew nearer and recognized his wife's shoes on one of the bodies. He ran up and demanded her body. She was still alive.
 
 In the private telling, his father is the hero who saves his mother. In the public version, his mother saves herself. Even when recounting his parents' most traumatic moment, Putin controls the narrative. He tells different versions to different audiences. The instinct to manage information — to never let anyone hold a story you don't control — didn't start with the KGB. It started at the kitchen table.
 
@@ -400,7 +400,7 @@ The cornered rat is cornering an entire country.
 
 ## Ending Up Dependent on Xi
 
-One relationship defines Putin's geopolitical position today: his partnership with [Xi Jinping](/personality-analysis/Xi-Jinping).
+One relationship defines Putin's geopolitical position today: his partnership with [Xi Jinping](/personality-analysis/xi-jinping).
 
 The two leaders have met more than 40 times since 2013. Days before the 2022 invasion, they declared their partnership had "no limits." Both share a worldview opposing U.S. hegemony. Both see Western liberalism as a threat to their domestic control.
 

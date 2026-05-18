@@ -5,14 +5,14 @@ persona_title: "Hollywood's Self-Demolishing Architect"
 description: 'Ben Affleck keeps building extraordinary lives and then detonating them from the inside. The same pattern drives the comebacks, the collapses, and the wreckage.'
 author: 'DJ Wayne'
 date: '2026-04-07'
-loc: 'https://9takes.com/personality-analysis/Ben-Affleck'
+loc: 'https://9takes.com/personality-analysis/ben-affleck'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'Ben-Affleck'
+person: 'ben-affleck'
 suggestions: ['Matt-Damon', 'Jennifer-Lopez', 'Jennifer-Garner', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Affleck'
 twitter: 'BenAffleck'
@@ -84,7 +84,7 @@ Achievement equals safety. Average equals invisible.
 
 ## Two Blocks Apart
 
-Two blocks away from the Affleck house, a ten-year-old named <a href="/personality-analysis/Matt-Damon">Matt Damon</a> lived with his mother. He and Ben found each other the way boys do, through baseball and proximity, and then discovered that they shared an obsession that went beyond anything else in their Cambridge world: they wanted to make movies.
+Two blocks away from the Affleck house, a ten-year-old named <a href="/personality-analysis/matt-damon">Matt Damon</a> lived with his mother. He and Ben found each other the way boys do, through baseball and proximity, and then discovered that they shared an obsession that went beyond anything else in their Cambridge world: they wanted to make movies.
 
 "We were both in love with the same thing: acting and filmmaking," Affleck has said. "I think we fed on each other's obsession during really formative, important years, and that bonded us for life."
 
@@ -120,7 +120,7 @@ GQ called him "the world's most over-exposed actor." _Daredevil_ had already cra
 
 "It was depressing and really made me question things and feel disappointed and have a lot of self-doubt," Affleck said of that period. For a person whose identity is built on being valued, on being _seen as_ excellent, public rejection doesn't just sting. It dismantles the self.
 
-He didn't disappear gracefully. He kept taking roles. He married <a href="/personality-analysis/Jennifer-Garner">Jennifer Garner</a> in 2005 and had three children. But the private man and the public persona were splitting further apart, and the drinking was getting worse, and the central question was becoming impossible to avoid: if Ben Affleck isn't the golden boy, who is he?
+He didn't disappear gracefully. He kept taking roles. He married <a href="/personality-analysis/jennifer-garner">Jennifer Garner</a> in 2005 and had three children. But the private man and the public persona were splitting further apart, and the drinking was getting worse, and the central question was becoming impossible to avoid: if Ben Affleck isn't the golden boy, who is he?
 
 When he decided to switch to directing, his peers were not supportive. "I'm an a--hole all of a sudden," he said about the reaction. People stopped inviting him to parties. The industry reads your choices as statements about your ambition, and choosing to direct instead of star was read as either arrogance or desperation.
 
@@ -216,7 +216,7 @@ There's something quietly devastating about that. A Three's deepest fear is wort
 
 ## Why Ben Affleck Keeps Marrying Into Spectacles
 
-<a href="/personality-analysis/Jennifer-Garner">Garner</a> was the correction after the first engagement to <a href="/personality-analysis/Jennifer-Lopez">Lopez</a> imploded: grounded, private, the image of stability. It lasted ten years and three children before the drinking, the distance, and the divorce. Garner told Vanity Fair she had separated from Affleck before the nanny rumors became public. The mess was already the mess. The scandal just gave it a name.
+<a href="/personality-analysis/jennifer-garner">Garner</a> was the correction after the first engagement to <a href="/personality-analysis/jennifer-lopez">Lopez</a> imploded: grounded, private, the image of stability. It lasted ten years and three children before the drinking, the distance, and the divorce. Garner told Vanity Fair she had separated from Affleck before the nanny rumors became public. The mess was already the mess. The scandal just gave it a name.
 
 Seventeen years later, he married Lopez again, a return to the scene of the original wound. They lasted two years. After the divorce was finalized in January 2025, Affleck told GQ the breakup was "much more quotidian than probably people would believe" and that he held "nothing but respect" for Lopez. Even in post-divorce reflection, the phrasing is careful. Measured. Edited.
 
@@ -234,7 +234,7 @@ The darker side of that fatherhood came early. Paparazzi made Violet's youth soc
 
 Years later, Violet testified at the United Nations about long COVID in children and published an academic paper in the Yale Global Health Review. Affleck's assessment: "She takes after her mom. She's spectacular."
 
-"Really, for me, actually, the meaning of my life is going to be these kids," he told [Kevin Hart](/personality-analysis/Kevin-Hart). He said it without his usual analytical framing. When he talks about Violet, Seraphina, and Samuel, the distance drops. He's just a dad.
+"Really, for me, actually, the meaning of my life is going to be these kids," he told [Kevin Hart](/personality-analysis/kevin-hart). He said it without his usual analytical framing. When he talks about Violet, Seraphina, and Samuel, the distance drops. He's just a dad.
 
 This is the Three in integration: moved toward loyalty, toward service, toward something that can't be performed. You can fake an Oscar campaign. You can't fake coaching Little League. Either you're there or you're not.
 

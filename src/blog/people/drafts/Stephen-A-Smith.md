@@ -5,14 +5,14 @@ persona_title: "Sports Media's Self-Made Thunder"
 description: "Stephen A. Smith built an empire out of volume. But the real story is what he won't say on camera — and the childhood wound that made silence feel like death."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Stephen-A-Smith'
+loc: 'https://9takes.com/personality-analysis/stephen-a-smith'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity', 'creator', 'celebrity-image', 'news-commentator']
-person: 'Stephen-A-Smith'
+person: 'stephen-a-smith'
 suggestions: ['Piers-Morgan', 'Patrick-Bet-David', 'Dwayne-Johnson', 'Tyler-Perry']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_A._Smith'
 twitter: 'https://twitter.com/stephenasmith'
@@ -168,7 +168,7 @@ He quietly pushed for Kellerman's removal for three years and got it in 2021. He
 </div>
 </div>
 
-The arc from fired to highest-paid personality in ESPN history is the most Type Three story in American media — rivaling even [Dwayne Johnson's](/personality-analysis/Dwayne-Johnson) reinvention from wrestling to Hollywood. Not because of the money — because of the mechanism. The humiliation didn't destroy him. It _recalibrated_ him. He took the feedback, adjusted the performance, and came back with a version of himself that was impossible to dismiss. That's the Three's survival instinct: if the current version of me isn't working, I'll build a version that does.
+The arc from fired to highest-paid personality in ESPN history is the most Type Three story in American media — rivaling even [Dwayne Johnson's](/personality-analysis/dwayne-johnson) reinvention from wrestling to Hollywood. Not because of the money — because of the mechanism. The humiliation didn't destroy him. It _recalibrated_ him. He took the feedback, adjusted the performance, and came back with a version of himself that was impossible to dismiss. That's the Three's survival instinct: if the current version of me isn't working, I'll build a version that does.
 
 ---
 

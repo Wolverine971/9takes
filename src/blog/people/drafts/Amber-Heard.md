@@ -5,14 +5,14 @@ persona_title: 'The Image on Trial'
 description: 'Amber Heard rebuilt herself after every public collapse, turning image management, reinvention, and ambition into the only stability she trusts.'
 author: 'DJ Wayne'
 date: '2024-07-10'
-loc: 'https://9takes.com/personality-analysis/Amber-Heard'
+loc: 'https://9takes.com/personality-analysis/amber-heard'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity', 'screen-icon']
-person: 'Amber-Heard'
+person: 'amber-heard'
 suggestions: ['Johnny-Depp', 'Margot-Robbie', 'Blake-Lively', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Amber_Heard'
 twitter: ''
@@ -52,7 +52,7 @@ FEEDBACK (2026-02-18):
 
 That response tells you everything about her psychology.
 
-Her trial with <a href="/personality-analysis/Johnny-Depp">Johnny Depp</a> drew 83.9 million hours of viewership. The verdict branded her a liar in front of the world. Within two years, she was receiving critical praise for her theatrical debut in a new country, speaking fluent Spanish, raising children she had planned for years.
+Her trial with <a href="/personality-analysis/johnny-depp">Johnny Depp</a> drew 83.9 million hours of viewership. The verdict branded her a liar in front of the world. Within two years, she was receiving critical praise for her theatrical debut in a new country, speaking fluent Spanish, raising children she had planned for years.
 
 This is not resilience in the generic sense. It is the relentless drive of an Enneagram Type 3 who equates her worth with achievement and will find a new arena when the old one rejects her.
 
@@ -154,7 +154,7 @@ That is not the language of image management. That is someone who had decided th
 
 ## The Depp Relationship: Type 3 Meets Type 4
 
-Understanding this dynamic requires understanding their personality interaction. [Johnny Depp is typed as an Enneagram Type 4](/personality-analysis/Johnny-Depp), "The Individualist," driven by a need for authenticity, emotional depth, and self-expression that refuses to look like anyone else's.
+Understanding this dynamic requires understanding their personality interaction. [Johnny Depp is typed as an Enneagram Type 4](/personality-analysis/johnny-depp), "The Individualist," driven by a need for authenticity, emotional depth, and self-expression that refuses to look like anyone else's.
 
 ### How They Met: The Rum Diary (2009)
 

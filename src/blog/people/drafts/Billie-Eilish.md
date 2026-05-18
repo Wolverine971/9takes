@@ -5,14 +5,14 @@ persona_title: "Gen Z's Beautiful Wound"
 description: "Billie Eilish turned vulnerability into a brand so complete she can't tell where the pain ends and the performance begins. A Type 4 analysis."
 author: 'DJ Wayne'
 date: '2023-06-17'
-loc: 'https://9takes.com/personality-analysis/Billie-Eilish'
+loc: 'https://9takes.com/personality-analysis/billie-eilish'
 lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician', 'pop-star']
-person: 'Billie-Eilish'
+person: 'billie-eilish'
 suggestions: ['Lana-Del-Rey', 'Taylor-Swift', 'Ariana-Grande', 'Chappell-Roan', 'Madison-Beer']
 wikipedia: 'https://en.wikipedia.org/wiki/Billie_Eilish'
 twitter: 'https://twitter.com/billieeilish'
@@ -115,7 +115,7 @@ Billie's whisper-singing was never an aesthetic choice. "I started recording whe
 
 The album was called _When We All Fall Asleep, Where Do We Go?_ because Billie had experienced sleep paralysis, night terrors, and lucid dreams her entire life. "I probably wouldn't have made 'Bury a Friend' the way it is if I hadn't had sleep paralysis and horrible nightmares and night terrors." All of her dreams are lucid; she can control them. The waking world has been harder to steer.
 
-She swept all four major Grammy categories at eighteen. Youngest ever. During her Song of the Year acceptance, she apologized: "So many other songs deserve this. I'm sorry." For Album of the Year: "Can I just say that I think Ariana deserves this?" She publicly told <a href="/personality-analysis/Ariana-Grande">Ariana Grande</a> that _thank u, next_ "got me through some shit."
+She swept all four major Grammy categories at eighteen. Youngest ever. During her Song of the Year acceptance, she apologized: "So many other songs deserve this. I'm sorry." For Album of the Year: "Can I just say that I think Ariana deserves this?" She publicly told <a href="/personality-analysis/ariana-grande">Ariana Grande</a> that _thank u, next_ "got me through some shit."
 
 Before the announcement, cameras caught her mouthing from her seat: "Please don't be me. Please."
 
@@ -248,7 +248,7 @@ By April 2024, she was more explicit: "I've been in love with girls for my whole
 
 She also said something most profiles overlooked: "I've never felt like a woman, to be honest with you. I've never felt desirable. I've never felt feminine. I have to convince myself that I'm, like, a pretty girl."
 
-Then, in an interview with <a href="/personality-analysis/Lana-Del-Rey">Lana Del Rey</a> for Interview Magazine, the admission that ties everything together: "I have a power issue and a control issue, and I also don't like being vulnerable in a romantic way. It makes me feel uncomfortable."
+Then, in an interview with <a href="/personality-analysis/lana-del-rey">Lana Del Rey</a> for Interview Magazine, the admission that ties everything together: "I have a power issue and a control issue, and I also don't like being vulnerable in a romantic way. It makes me feel uncomfortable."
 
 She has never been dumped.
 

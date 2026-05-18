@@ -5,14 +5,14 @@ persona_title: "Tech's Vigilant Architect"
 description: "Jensen Huang built the world's most valuable company and still wakes up fearing bankruptcy. Inside the fear-driven psychology of the man behind NVIDIA's rise."
 author: 'DJ Wayne'
 date: '2026-04-15'
-loc: 'https://9takes.com/personality-analysis/Jensen-Huang'
+loc: 'https://9takes.com/personality-analysis/jensen-huang'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['techie', 'entrepreneur', 'business-operator']
-person: 'Jensen-Huang'
+person: 'jensen-huang'
 suggestions: ['peter-thiel', 'elon-musk', 'sam-altman', 'mark-zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jensen_Huang'
 twitter: 'https://twitter.com/jensenhuang'

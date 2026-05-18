@@ -5,14 +5,14 @@ persona_title: "Hollywood's Perpetual Renovation"
 description: 'From fat funny friend to Oscar nominee to therapy documentary director. Every version of Jonah Hill arrives complete, convinced it is the real one.'
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Jonah-Hill'
+loc: 'https://9takes.com/personality-analysis/jonah-hill'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'comedian', 'screen-icon']
-person: 'Jonah-Hill'
+person: 'jonah-hill'
 suggestions: ['Ben-Affleck', 'Will-Smith', 'Paris-Hilton', 'Miles-Teller']
 wikipedia: 'https://en.wikipedia.org/wiki/Jonah_Hill'
 twitter: ''
@@ -102,13 +102,13 @@ But between 23 and 37 lies a decade and a half of reinvention so complete it's h
 
 The pivot was _Moneyball_. In 2011, Hill appeared alongside Brad Pitt in Bennett Miller's adaptation of Michael Lewis's book, playing a quiet, data-obsessed economics major. The role earned him his first Academy Award nomination for Best Supporting Actor. He was 27.
 
-Two years later, he took a role in Martin Scorsese's _The Wolf of Wall Street_ for $60,000. The SAG minimum. Leonardo DiCaprio and [Margot Robbie](/personality-analysis/Margot-Robbie) and the rest of the cast earned millions. Hill has said he would have "sold my house and given Scorsese all my money" for the chance to work with him.
+Two years later, he took a role in Martin Scorsese's _The Wolf of Wall Street_ for $60,000. The SAG minimum. Leonardo DiCaprio and [Margot Robbie](/personality-analysis/margot-robbie) and the rest of the cast earned millions. Hill has said he would have "sold my house and given Scorsese all my money" for the chance to work with him.
 
 "I realized this is a person who loves movies and I'm a person who loves movies," Hill said. "And he knows more about film than anyone in the world. If anything, I could bring up movies and I would sit back and ask questions and hear what he has to say."
 
 That performance earned him a second Oscar nomination. The kid from _Superbad_ now had two. The comedy actor had become a dramatic actor. The identity had shifted.
 
-What gets lost in the prestige narrative: while the serious-actor identity was being built, Hill was simultaneously running a comedy franchise he'd created from scratch. He co-wrote the treatment for _21 Jump Street_ (2012) with Michael Bacall, produced it, and co-starred opposite [Channing Tatum](/personality-analysis/Channing-Tatum). The film grossed over $200 million worldwide. The sequel, _22 Jump Street_ (2014), did even better. A writer-producer-star building a property from the ground up, not a sidekick catching a break.
+What gets lost in the prestige narrative: while the serious-actor identity was being built, Hill was simultaneously running a comedy franchise he'd created from scratch. He co-wrote the treatment for _21 Jump Street_ (2012) with Michael Bacall, produced it, and co-starred opposite [Channing Tatum](/personality-analysis/channing-tatum). The film grossed over $200 million worldwide. The sequel, _22 Jump Street_ (2014), did even better. A writer-producer-star building a property from the ground up, not a sidekick catching a break.
 
 The timing is what matters. _21 Jump Street_ hit theaters between his two Oscar nominations, one year after _Moneyball_, one year before _Wolf of Wall Street_. He was running dual identities simultaneously: the serious dramatic actor courting prestige, and the comedy architect proving he could carry a franchise. Most actors pick a lane. Hill built two and walked both at the same time.
 
@@ -181,7 +181,7 @@ Hill framed these demands as "boundaries." The exact therapeutic language he had
 
 The backlash was immediate. Therapists went on record saying these were not boundaries but control mechanisms. NBC News ran a piece about the "harms of social media therapy speak." Jezebel wrote that Hill's texts "expose the problem with therapy speak." A Newsweek poll found 48 percent of respondents saw "controlling behavior."
 
-The public read it as hypocrisy: the mental health documentary guy was actually controlling. It echoed the kind of public unmasking that [Will Smith](/personality-analysis/Will-Smith) experienced, another performer whose carefully constructed image cracked open under pressure.
+The public read it as hypocrisy: the mental health documentary guy was actually controlling. It echoed the kind of public unmasking that [Will Smith](/personality-analysis/will-smith) experienced, another performer whose carefully constructed image cracked open under pressure.
 
 Hypocrisy would be simpler. Hypocrisy requires knowing the difference between what you preach and what you practice. The deeper pattern here is a man who performed "healed" so thoroughly that he couldn't distinguish his own control patterns from genuine growth.
 

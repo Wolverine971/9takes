@@ -5,14 +5,14 @@ persona_title: "Comedy's Wounded Compass"
 description: "How Jon Stewart turned his father's abandonment into moral urgency, fierce advocacy, and the blind spots that still follow him."
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Jon-Stewart'
+loc: 'https://9takes.com/personality-analysis/jon-stewart'
 lastmod: '2026-03-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host']
-person: 'Jon-Stewart'
+person: 'jon-stewart'
 suggestions: ['Dave-Chappelle', 'Steve-Carell', 'Trevor-Noah', 'Pete-Davidson', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Jon_Stewart'
 twitter: 'https://twitter.com/JonStewart'
@@ -32,7 +32,7 @@ path: src/blog/people/drafts/Jon-Stewart.md
 
 > "My normal state of being vibrates too hot. It just does. I don't know how to stop it."
 
-<p class="firstLetter">Jon Stewart said that to <a href="/personality-analysis/Trevor-Noah">Trevor Noah</a> on a podcast, and it landed like a confession he hadn't planned to make. The man who spent 16 years as America's calmest voice in the room — sardonic, measured, always the sanest person on television — was telling you that calm was a performance. Underneath it, the engine was always redlining.</p>
+<p class="firstLetter">Jon Stewart said that to <a href="/personality-analysis/trevor-noah">Trevor Noah</a> on a podcast, and it landed like a confession he hadn't planned to make. The man who spent 16 years as America's calmest voice in the room — sardonic, measured, always the sanest person on television — was telling you that calm was a performance. Underneath it, the engine was always redlining.</p>
 
 Here's the thing about Jon Stewart that nobody quite reconciles: the man who built his career calling out institutional hypocrisy — who sat before Congress and wept for dying first responders, who shamed senators into passing legislation for forgotten veterans — is the same man a former executive described as running his show with "joyless rage." The same man whose explosion at his only Black writer made the office dogs shake.
 
@@ -176,7 +176,7 @@ A former show executive offered a broader picture: "There's a huge discrepancy b
 
 This isn't gossip. This is the wound operating. The man whose father abandoned him built a fiercely loyal inner circle — a tribe — and any challenge from within that tribe triggered the same primal terror as the original abandonment. You're supposed to be on my side. You're supposed to stay.
 
-Years later, when <a href="/personality-analysis/Dave-Chappelle">Dave Chappelle</a> faced criticism for his trans material, Stewart defended him. When Tony Hinchcliffe made racist comments at a Trump rally, Stewart defended him. When <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a> spread misinformation, Stewart defended him.
+Years later, when <a href="/personality-analysis/dave-chappelle">Dave Chappelle</a> faced criticism for his trans material, Stewart defended him. When Tony Hinchcliffe made racist comments at a Trump rally, Stewart defended him. When <a href="/personality-analysis/joe-rogan">Joe Rogan</a> spread misinformation, Stewart defended him.
 
 Cenac named the pattern: "Jon, in his unique position, often chooses to close ranks the way cops do when a fellow officer is under investigation for impropriety."
 
@@ -232,9 +232,9 @@ Stephen Colbert at the Mark Twain Prize ceremony: "He is the kindest, most thoug
 
 John Oliver: "It's hard to overstate — I wouldn't be sitting in this country if it wasn't for him. I left the country for him... I left my country for that man. I don't live in the country I was born in because I wanted to work with him."
 
-[Steve Carell](/personality-analysis/Steve-Carell) described his ethic as "making sense out of the insane and finding joy in the darkness."
+[Steve Carell](/personality-analysis/steve-carell) described his ethic as "making sense out of the insane and finding joy in the darkness."
 
-<a href="/personality-analysis/Pete-Davidson">Pete Davidson</a>, roast-style: "Jon is loyal — friendship isn't something he half-asses, like acting, or gives up quickly, like directing."
+<a href="/personality-analysis/pete-davidson">Pete Davidson</a>, roast-style: "Jon is loyal — friendship isn't something he half-asses, like acting, or gives up quickly, like directing."
 
 Jon Meacham, presidential biographer: "A comedian with a conscience. Night after night you've given a divided America a chance to get its moral bearings."
 
@@ -244,7 +244,7 @@ The theme across every tribute: clarity, loyalty, speed of mind, and a patriotis
 
 In February 2024, Stewart came back. Monday nights only. The show scored its highest quarterly rating in four years.
 
-<a href="/personality-analysis/Trevor-Noah">Trevor Noah</a> had called him years earlier with the offer. Stewart liked the way Noah "saw the world." When Noah initially declined, Stewart asked: "Are you saying no to the trappings of American fame and popularity?"
+<a href="/personality-analysis/trevor-noah">Trevor Noah</a> had called him years earlier with the offer. Stewart liked the way Noah "saw the world." When Noah initially declined, Stewart asked: "Are you saying no to the trappings of American fame and popularity?"
 
 The return was different. Observers noted more weight. More willingness to sit in difficulty rather than immediately converting it. On election night 2024, as Trump won, Stewart told viewers:
 

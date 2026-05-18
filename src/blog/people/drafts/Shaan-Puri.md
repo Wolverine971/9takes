@@ -5,14 +5,14 @@ persona_title: 'The Restless Showman'
 description: 'Why does Shaan Puri keep reinventing his life? We decode the Type 7 drive behind the startups, My First Million, restlessness, and fear of settling.'
 author: 'DJ Wayne'
 date: '2026-02-26'
-loc: 'https://9takes.com/personality-analysis/Shaan-Puri'
+loc: 'https://9takes.com/personality-analysis/shaan-puri'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
-person: 'Shaan-Puri'
+person: 'shaan-puri'
 suggestions: ['Sam-Parr', 'John-Coogan', 'Reid-Hoffman', 'Patrick-Bet-David', 'Tim-Ferriss']
 wikipedia: ''
 twitter: 'https://twitter.com/ShaanVP'
@@ -38,7 +38,7 @@ What happens when you're brilliant at starting new chapters but you've never fin
 <li><b>The movement is the tell.</b> Nine countries before high school, serial ventures as an adult, a philosophy that treats "safety" as a serial killer of ambition.</li>
 <li><b>He engineers his emotions.</b> A 90-second suffering budget, deliberate reframing, and a baseline he shifted from anxiety to joy, live on a podcast with Tony Robbins.</li>
 <li><b>The anti-hustle hustler.</b> Calls himself lazy, works in lion-like sprints, quietly runs a $25M baby brand nobody in his audience knows about.</li>
-<li><b>The partnership that sticks.</b> His longest commitment is a podcast with <a href="/personality-analysis/Sam-Parr">Sam Parr</a>, an Enneagram 8 whose directness counterweights Shaan's restless energy.</li>
+<li><b>The partnership that sticks.</b> His longest commitment is a podcast with <a href="/personality-analysis/sam-parr">Sam Parr</a>, an Enneagram 8 whose directness counterweights Shaan's restless energy.</li>
 <li><b>The tension beneath the frameworks.</b> A rocky relationship with his father, a decade of being "B+" at his dream, the one part of his life he can't reverse-engineer.</li>
 </ul>
 </div>
@@ -88,7 +88,7 @@ The evidence in Shaan's case is unusually explicit, because he's unusually self-
 - **Anti-goals before pro-goals.** His "Kickoff Doc" for every project starts with what he doesn't want to happen. Define the pain to avoid before the outcome to pursue. That's a Seven's native lens. The world sorts itself first into pain to dodge, then into possibility to chase.
 - **The metaverse thread.** In October 2021, Shaan tweeted a thread reframing the metaverse not as a place but as a crossing point, like the singularity in AI. It went viral because of the reframe, not the information. That's the Seven move: take a concept everyone is arguing about and show them they're asking the wrong question entirely.
 - **"Find what feels like play to you, and work to others."** His approach to content ("write like you talk," study comedians, make business entertaining) is a Seven's survival strategy. If the work stops being fun, the Seven stops showing up. So he redesigned the work until it was fun.
-- **He calls himself lazy.** Sevens don't grind. They sprint, rest, sprint. He calls it "working like a lion": sit, wait, sprint, eat, rest, repeat. The opposite of the [Gary Vee](/personality-analysis/Gary-Vee) school of relentless daily output.
+- **He calls himself lazy.** Sevens don't grind. They sprint, rest, sprint. He calls it "working like a lion": sit, wait, sprint, eat, rest, repeat. The opposite of the [Gary Vee](/personality-analysis/gary-vee) school of relentless daily output.
 
 Under sustained pressure, Sevens slide toward [Type 1](/enneagram-corner/enneagram-type-1) patterns: rigid, perfectionistic, frustrated with their own follow-through. The decade of being "B+" was exactly this. Compulsive search for new strategies instead of executing proven ones. The worthlessness that crept in every time momentum stalled.
 
@@ -104,7 +104,7 @@ He has literally quantified his relationship with suffering. Not suppressed it. 
 
 Another technique: instead of saying "I feel anxious," he says "I'm choosing to feel anxious." The reframe gives him an exit door he can see at all times. The emotion is a state he's occupying, not a condition he's trapped in.
 
-Before the timer, before the reframes, the baseline was different. In a 48-minute episode of My First Million where [Tony Robbins](/personality-analysis/Tony-Robbins) coached him live, Shaan admitted that his "emotional home" was stressed and anxious. Not occasionally. Not situationally. That was the default address he came back to every night.
+Before the timer, before the reframes, the baseline was different. In a 48-minute episode of My First Million where [Tony Robbins](/personality-analysis/tony-robbins) coached him live, Shaan admitted that his "emotional home" was stressed and anxious. Not occasionally. Not situationally. That was the default address he came back to every night.
 
 Robbins dismantled Shaan's emotional operating system piece by piece on air. The most revealing moment: Shaan admitted he was at "level two" love with his girlfriend (now wife), "transactional trading love, tit for tat measurements." He consciously decided to move to level three: unconditional.
 
@@ -144,7 +144,7 @@ The thing that should be impossible about Shaan Puri is My First Million.
 
 A guy who can't sit still, who has never run the same company for more than a few years, who treats every venture as a season of television, has been recording a podcast with the same co-host since 2019. Over 200 million YouTube views. More than 25 million downloads a year. Seven years and counting.
 
-The origin was accidental. After the Twitch acquisition, Shaan launched the show but needed distribution. [Sam Parr](/personality-analysis/Sam-Parr), then running The Hustle with over a million subscribers, agreed to a deal: Shaan handles content and production, Sam brings the audience, revenue split 50/50. Early episodes featured guests. Then a guest didn't show up one day, so they just recorded the two of them talking. Those episodes blew up.
+The origin was accidental. After the Twitch acquisition, Shaan launched the show but needed distribution. [Sam Parr](/personality-analysis/sam-parr), then running The Hustle with over a million subscribers, agreed to a deal: Shaan handles content and production, Sam brings the audience, revenue split 50/50. Early episodes featured guests. Then a guest didn't show up one day, so they just recorded the two of them talking. Those episodes blew up.
 
 What makes the partnership work is the collision of their types. Sam is an [Enneagram 8](/enneagram-corner/enneagram-type-8): direct, confrontational, intensity-addicted. He cold-emailed the same person fifty times, told HubSpot to stop wasting his time, described being unhappy 80% of the time as "thrilling." Where Shaan generates ideas at machine-gun speed (wouldn't it be cool if, what if someone built, imagine this), Sam pressure-tests them with blunt force. What would that actually cost? Who's the customer? Is that legal?
 

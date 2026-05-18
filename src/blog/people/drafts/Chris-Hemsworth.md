@@ -5,14 +5,14 @@ persona_title: "Hollywood's Restless Thunder"
 description: 'Chris Hemsworth used Thor as armor against panic attacks and imposter syndrome. Inside the psychology of the man behind the hammer.'
 author: 'DJ Wayne'
 date: '2026-03-10'
-loc: 'https://9takes.com/personality-analysis/Chris-Hemsworth'
+loc: 'https://9takes.com/personality-analysis/chris-hemsworth'
 lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['movieStar', 'screen-icon']
-person: 'Chris-Hemsworth'
+person: 'chris-hemsworth'
 suggestions: ['Tom-Holland', 'Scarlett-Johansson', 'Robert-Downey-Jr', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Chris_Hemsworth'
 twitter: 'chaborge'
@@ -86,7 +86,7 @@ Then his younger brother Liam auditioned for Thor. Liam got further — down to 
 
 "I just had a different attitude. Maybe I had a little more sort of motivation that my little brother had got a look in and I hadn't."
 
-He got the part. He was 27. The franchise would eventually pair him with everyone from [Tom Hiddleston](/personality-analysis/Tom-Hiddleston) to [Scarlett Johansson](/personality-analysis/Scarlett-Johansson) — but in that moment, it was just a kid from a soap opera who'd been handed the biggest break of his life partly because his little brother auditioned first.
+He got the part. He was 27. The franchise would eventually pair him with everyone from [Tom Hiddleston](/personality-analysis/tom-hiddleston) to [Scarlett Johansson](/personality-analysis/scarlett-johansson) — but in that moment, it was just a kid from a soap opera who'd been handed the biggest break of his life partly because his little brother auditioned first.
 
 <div class="source-card">
 <span class="source-card__icon">🎙️</span>

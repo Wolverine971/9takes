@@ -5,14 +5,14 @@ persona_title: 'The Showman Who Became the Show'
 description: "Trump's Type 3 personality decoded: the image obsession, the fear of failure, and the lifelong chase to prove he's a winner."
 author: 'DJ Wayne'
 date: '2025-01-20'
-loc: 'https://9takes.com/personality-analysis/Donald-Trump'
+loc: 'https://9takes.com/personality-analysis/donald-trump'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
 type: ['politician', 'modern-leader']
-person: 'Donald-Trump'
+person: 'donald-trump'
 suggestions:
   ['Joe-Biden', 'Kamala-Harris', 'Hillary-Clinton', 'JD-Vance', 'Joe-Rogan', 'Vladimir-Putin']
 wikipedia: 'https://en.wikipedia.org/wiki/Donald_Trump'
@@ -218,7 +218,7 @@ The nicknames are the clearest window into this.
 
 "Crooked Hillary." "Sleepy Joe." "Low Energy Jeb." "Little Marco." "Lyin' Ted." "Crazy Bernie." Each one functions the same way: it takes a person and reduces them to a single source of shame.
 
-Not "I disagree with [Hillary Clinton](/personality-analysis/Hillary-Clinton)'s policies." _Crooked._ Not "[Joe Biden](/personality-analysis/Joe-Biden) is too old for the presidency." _Sleepy._ Not "Jeb Bush's campaign lacks excitement." _Low Energy._
+Not "I disagree with [Hillary Clinton](/personality-analysis/hillary-clinton)'s policies." _Crooked._ Not "[Joe Biden](/personality-analysis/joe-biden) is too old for the presidency." _Sleepy._ Not "Jeb Bush's campaign lacks excitement." _Low Energy._
 
 A fairy tale linguistics expert observed that the structure is more psychologically potent than a direct accusation. The sentence "Hillary is crooked" passes through the intellect — the listener evaluates whether it's true. But the epithet "Crooked Hillary" presupposes the crookedness. The shame is baked into the name itself. It doesn't need to be argued. It just _is._
 
@@ -244,7 +244,7 @@ One word deserves special attention.
 
 When a reporter asks Trump a challenging question, the word that surfaces most reliably isn't "unfair" or "biased" or "wrong." It's "nasty." "What a nasty question." "You're a very nasty person." "That's a nasty thing to say."
 
-He called CNN's Kaitlan Collins "a nasty person." He called [Kamala Harris](/personality-analysis/Kamala-Harris) "nasty" for grilling Brett Kavanaugh. He called Denmark's prime minister "nasty" for calling his Greenland proposal absurd. He called [Meghan Markle](/personality-analysis/Meghan-Markle) "nasty" for calling him misogynistic.
+He called CNN's Kaitlan Collins "a nasty person." He called [Kamala Harris](/personality-analysis/kamala-harris) "nasty" for grilling Brett Kavanaugh. He called Denmark's prime minister "nasty" for calling his Greenland proposal absurd. He called [Meghan Markle](/personality-analysis/meghan-markle) "nasty" for calling him misogynistic.
 
 The word choice reveals the wound. "Nasty" isn't an intellectual rebuttal. It isn't "you're incorrect" or "that's misleading." It's a word that lives in the world of _manners_ and _propriety_ — the world of social shame. A nasty person isn't wrong. A nasty person has violated the social contract by saying something that should have stayed unsaid. They've been _mean._
 
@@ -372,7 +372,7 @@ The inner life Dan McAdams couldn't find in 2016 had become an exterior, literal
 
 And the world learned to meet him where he lived. At the June 2025 NATO summit, Secretary-General Mark Rutte interjected during a bilateral meeting: "Daddy has to sometimes use strong language to get them to stop." Trump embraced it — "He did it very affectionately, 'Daddy, you're my Daddy'" — and the White House posted a montage of the visit set to Usher's "Hey Daddy (Daddy's Home)." The most powerful military alliance in history had arrived at a tactical consensus: the most reliable way to manage the President of the United States was flattery calibrated to a specific emotional wound.
 
-The inverse arrived four months earlier. When Ukrainian President Zelensky visited the Oval Office in February 2025, Trump's team asked him to wear a suit instead of his military uniform. Zelensky refused. Trump greeted him on camera: "He's all dressed up today." The meeting devolved. [JD Vance](/personality-analysis/JD-Vance) demanded: "Have you said thank you once this entire meeting?" Lunch canceled. Joint press conference scrapped.
+The inverse arrived four months earlier. When Ukrainian President Zelensky visited the Oval Office in February 2025, Trump's team asked him to wear a suit instead of his military uniform. Zelensky refused. Trump greeted him on camera: "He's all dressed up today." The meeting devolved. [JD Vance](/personality-analysis/jd-vance) demanded: "Have you said thank you once this entire meeting?" Lunch canceled. Joint press conference scrapped.
 
 Notice what the offense wasn't. Not policy. Not alliance. Not leverage. Zelensky refused to dress the part Trump had cast him in, and refused to perform sufficient gratitude on camera. A war Ukraine was losing turned, for a moment, on wardrobe and thank-yous. The psychological structure that once ran a Queens child's bedroom was now setting the agenda of the West.
 
@@ -451,7 +451,7 @@ Then there's his ability to sit across from his enemies.
 
 He called Kim Jong Un "Little Rocket Man." Kim called him a "mentally deranged dotard." Eighteen months later, Trump became the first sitting president to meet a North Korean leader. They exchanged 27 letters. "He wrote me beautiful letters," Trump said at a rally. "We fell in love."
 
-After publicly calling New York mayoral candidate [Zohran Mamdani](/personality-analysis/Zohran-Mamdani) a "communist lunatic," Trump met him in the Oval Office and emerged calling him "a very rational person." Minnesota Governor Tim Walz, after a private phone call, marveled: "It's hard to believe that's the same guy I watch on television."
+After publicly calling New York mayoral candidate [Zohran Mamdani](/personality-analysis/zohran-mamdani) a "communist lunatic," Trump met him in the Oval Office and emerged calling him "a very rational person." Minnesota Governor Tim Walz, after a private phone call, marveled: "It's hard to believe that's the same guy I watch on television."
 
 The public Trump sorts the world into winners and losers. The private Trump sits across from people he's publicly savaged and listens until he finds the angle. That private listening gives him something the performer normally lacks: the ability to stop performing long enough to actually take someone in.
 

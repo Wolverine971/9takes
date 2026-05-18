@@ -5,14 +5,14 @@ persona_title: "Vlogging's Manic Ringleader"
 description: "The man who gave away Teslas and manufactured viral joy for millions couldn't face what his content had done. David Dobrik's Enneagram Type 7 analysis."
 author: 'DJ Wayne'
 date: '2026-04-15'
-loc: 'https://9takes.com/personality-analysis/David-Dobrik'
+loc: 'https://9takes.com/personality-analysis/david-dobrik'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'viral-entertainer']
-person: 'David-Dobrik'
+person: 'david-dobrik'
 suggestions: ['Kai-Cenat', 'Kyle-Forgeard', 'Emma-Chamberlain', 'Andrew-Schulz']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Dobrik'
 twitter: 'DavidDobrik'

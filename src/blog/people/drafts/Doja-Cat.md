@@ -5,14 +5,14 @@ persona_title: "Pop's Unpredictable Shapeshifter"
 description: "She lost 250,000 fans and celebrated. Doja Cat turned chaos, head-shaving, and fan rebellion into pop's most unpredictable career — on purpose."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Doja-Cat'
+loc: 'https://9takes.com/personality-analysis/doja-cat'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['musician', 'rapper']
-person: 'Doja-Cat'
+person: 'doja-cat'
 suggestions: ['Bad-Bunny', 'Katy-Perry', 'Ariana-Grande', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Doja_Cat'
 twitter: 'DojaCat'
@@ -132,7 +132,7 @@ August 2018. Doja was on Instagram Live with about 60 fans, goofing around, maki
 
 "It was a joke," she's said. "A throwaway."
 
-Five million views in two weeks. Chance the Rapper, [Katy Perry](/personality-analysis/Katy-Perry), and Chris Brown shared it. The label that had been ignoring her started paying attention.
+Five million views in two weeks. Chance the Rapper, [Katy Perry](/personality-analysis/katy-perry), and Chris Brown shared it. The label that had been ignoring her started paying attention.
 
 The Type 7 superpower: turning play into productivity, accidental experiments into career-defining moments. While other artists strategize their next move, 7s stumble into success by following what excites them in the moment.
 
@@ -380,4 +380,4 @@ Doja's doing whatever she wants. Somehow, that's working perfectly.
 
 > **Disclaimer:** This analysis is based on publicly available information and aims to explore Doja Cat's personality from an Enneagram perspective. It's not a definitive assessment but rather an invitation to reflect and engage.
 
-Curious how Doja's Type 7 energy compares to other artists? Explore how [Kanye](/personality-analysis/Kanye) channels similar unpredictable reinvention, or discover the contrasting approach of [Billie Eilish](/personality-analysis/Billie-Eilish), whose [Type 4](/enneagram-corner/enneagram-type-4) personality prioritizes authenticity and emotional depth over constant transformation.
+Curious how Doja's Type 7 energy compares to other artists? Explore how [Kanye](/personality-analysis/kanye) channels similar unpredictable reinvention, or discover the contrasting approach of [Billie Eilish](/personality-analysis/billie-eilish), whose [Type 4](/enneagram-corner/enneagram-type-4) personality prioritizes authenticity and emotional depth over constant transformation.

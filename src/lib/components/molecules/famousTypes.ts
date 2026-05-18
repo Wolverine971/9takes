@@ -33,7 +33,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'judge-judy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'lea-michele', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'mahatma-gandhi', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'The Self-Experimenting Saint', contentGrade: 8.9, types: ['historical', 'politician', 'activist', 'movement-leader'] },
-		{ name: 'martha-stewart', link: false, hasImage: false, lastmod: '2026-05-16', personaTitle: 'Domestic Life’s Unforgiving Reformer', contentGrade: 8.8, types: ['lifestyleInfluencer', 'entrepreneur', 'celebrity'] },
+		{ name: 'martha-stewart', link: false, hasImage: false, lastmod: '2026-05-17', personaTitle: 'Domestic Life’s Unforgiving Reformer', contentGrade: 8.8, types: ['lifestyleInfluencer', 'entrepreneur', 'celebrity'] },
 		{ name: 'peter-attia', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['techie'] }
 	],
 	2: [
@@ -268,6 +268,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'stephen-hawking', link: true, hasImage: true, lastmod: '2026-05-12', personaTitle: 'Cosmology\'s Withdrawn Architect', contentGrade: 8.8, types: ['historical', 'author', 'historical-scientist'] },
 		{ name: 'tyler-cowen', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Economics\' Quiet Devourer', contentGrade: 8.9, types: ['techie', 'author'] },
 		{ name: 'daniel-day-lewis', link: false, hasImage: false, lastmod: '2026-04-03', personaTitle: 'Cinema\'s Vanishing Craftsman', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
+		{ name: 'jerry-seinfeld', link: false, hasImage: false, lastmod: '2026-05-17', personaTitle: 'Comedy\'s Monastic Craftsman', contentGrade: 8.7, types: ['comedian', 'celebrity'] },
 		{ name: 'john-d-rockefeller', link: false, hasImage: false, lastmod: '2026-04-24', personaTitle: 'The Ledger\'s First Billionaire', contentGrade: 9, types: ['entrepreneur', 'historical', 'historical-artist', 'business-operator'] },
 		{ name: 'marie-curie', link: false, hasImage: false, lastmod: '2026-05-04', personaTitle: 'Science\'s Patient Excavator', contentGrade: 8.9, types: ['historical', 'historical-scientist'] },
 		{ name: 'stephen-king', link: false, hasImage: false, lastmod: '2026-04-01', personaTitle: 'The Fortress That Writes Nightmares', contentGrade: 8.8, types: ['author'] },
@@ -491,7 +492,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'britney-spears', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Pop’s Sleepwalking Giant', contentGrade: 9.2, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'clint-eastwood', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Cinema\'s Whispering Cowboy', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'daniel-radcliffe', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['newMovieStar'] },
-		{ name: 'jane-goodall', link: false, hasImage: false, lastmod: '2026-05-17', personaTitle: 'The Quiet Witness Who Wouldn\'t Stay Quiet', contentGrade: 9, types: ['activist', 'historical', 'author'] },
+		{ name: 'jane-goodall', link: false, hasImage: false, lastmod: '2026-05-17', personaTitle: 'The Quiet Witness Who Wouldn\'t Stay Quiet', contentGrade: 9.1, types: ['activist', 'historical', 'author'] },
 		{ name: 'jennifer-aniston', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'America\'s Beloved Vanishing Act', contentGrade: 8.8, types: ['movieStar', 'screen-icon'] },
 		{ name: 'keith-lee', link: false, hasImage: false, lastmod: '2026-04-24', personaTitle: 'The Quiet Killa', contentGrade: 9, types: ['creator', 'tiktoker', 'lifestyle-builder'] },
 		{ name: 'khaby-lame', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },

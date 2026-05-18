@@ -5,14 +5,14 @@ persona_title: "Streaming's Tender Shapeshifter"
 description: 'Maddie Phillips keeps playing characters who have lost themselves. A Type 4w5 analysis of the actress who moves between worlds — and why she does.'
 author: 'DJ Wayne'
 date: '2026-04-18'
-loc: 'https://9takes.com/personality-analysis/Maddie-Phillips'
+loc: 'https://9takes.com/personality-analysis/maddie-phillips'
 lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
 type: ['newMovieStar', 'celebrity', 'rising-star']
-person: 'Maddie-Phillips'
+person: 'maddie-phillips'
 suggestions: ['Saoirse-Ronan', 'Anya-Taylor-Joy', 'Jacob-Elordi', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Maddie_Phillips'
 instagram: 'themaddiep'

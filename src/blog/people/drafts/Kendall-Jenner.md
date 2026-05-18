@@ -5,14 +5,14 @@ persona_title: "Fashion's Quiet Sentinel"
 description: "The highest-paid model in the world couldn't board a flight alone. Inside Kendall Jenner's hidden anxiety and what it reveals."
 author: 'DJ Wayne'
 date: '2026-03-01'
-loc: 'https://9takes.com/personality-analysis/Kendall-Jenner'
+loc: 'https://9takes.com/personality-analysis/kendall-jenner'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['celebrity', 'celebrity-image']
-person: 'Kendall-Jenner'
+person: 'kendall-jenner'
 suggestions: ['Kylie-Jenner', 'Gigi-Hadid', 'Kim-Kardashian', 'Hailey-Bieber', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Kendall_Jenner'
 twitter: '@KendallJenner'
@@ -69,7 +69,7 @@ Kendall Jenner was ten years old when _Keeping Up with the Kardashians_ started 
 
 "I was born into this life, but I didn't choose this life," she said. "I'm not built for this by any means."
 
-She and [Kylie](/personality-analysis/Kylie-Jenner) didn't have a say. The cameras were in their house. There was no opting out. While their older sisters — [Kim](/personality-analysis/Kim-Kardashian), Khloe, Kourtney — had chosen the spotlight as young adults, Kendall and Kylie were children when the spotlight chose them.
+She and [Kylie](/personality-analysis/kylie-jenner) didn't have a say. The cameras were in their house. There was no opting out. While their older sisters — [Kim](/personality-analysis/kim-kardashian), Khloe, Kourtney — had chosen the spotlight as young adults, Kendall and Kylie were children when the spotlight chose them.
 
 "It's a little Hannah Montana-y in a way," she told Emma Chamberlain in 2024. The comparison was telling — then she added the part that mattered: "But I didn't have a disguise."
 
@@ -147,7 +147,7 @@ That's the sentence that separates Kendall from every other possible typing. She
 
 "The weirdest part about anxiety and panic attacks is they just come sometimes for me and there's no rhyme or reason. I didn't invite it. It just happens."
 
-In the Kardashian-Jenner household, emotions are confronted, broadcasted, weaponized, performed. Kris negotiates. Kim strategizes. [Khloe](/personality-analysis/Khloe-Kardashian) confronts. Kourtney walks out. Kylie builds walls of silence.
+In the Kardashian-Jenner household, emotions are confronted, broadcasted, weaponized, performed. Kris negotiates. Kim strategizes. [Khloe](/personality-analysis/khloe-kardashian) confronts. Kourtney walks out. Kylie builds walls of silence.
 
 Kendall sits in the bathroom.
 
@@ -195,7 +195,7 @@ She told Cara Delevingne in Harper's Bazaar what the stakes felt like: "My first
 
 That sentence isn't hyperbole from someone performing emotion for cameras. It's what happens when a person who runs on security loses it. The floor doesn't just drop — the entire building goes.
 
-But here's the part the tabloids miss. The woman who can't fully let a boyfriend in keeps a small circle so tight they might as well be load-bearing walls. [Hailey Bieber](/personality-analysis/Hailey-Bieber) has been in her life since 2012. "We've both seen each other thrive at different times," Kendall said, "and we've been there for each other through it all and not let it get in the way of our friendship."
+But here's the part the tabloids miss. The woman who can't fully let a boyfriend in keeps a small circle so tight they might as well be load-bearing walls. [Hailey Bieber](/personality-analysis/hailey-bieber) has been in her life since 2012. "We've both seen each other thrive at different times," Kendall said, "and we've been there for each other through it all and not let it get in the way of our friendship."
 
 Gigi Hadid goes deeper. They came up together — castings, early fashion weeks, the anonymous hustle before either name meant what it means now. On a 2025 Vogue cover together, Kendall threaded her fingers together to illustrate the bond: "We're sisters more than we're friends."
 

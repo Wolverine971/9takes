@@ -5,14 +5,14 @@ persona_title: "The Kitchen's Fiercest Protector"
 description: 'Why does Gordon Ramsay rage in the kitchen? His abusive childhood reveals a Type 8 pattern of control, protection, and hidden tenderness.'
 author: 'DJ Wayne'
 date: '2026-04-09'
-loc: 'https://9takes.com/personality-analysis/Gordon-Ramsay'
+loc: 'https://9takes.com/personality-analysis/gordon-ramsay'
 lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['celebrity', 'celebrity-image']
-person: 'Gordon-Ramsay'
+person: 'gordon-ramsay'
 suggestions: ['Jocko-Willink', 'Beyonce', 'Joe-Rogan', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Gordon_Ramsay'
 twitter: '@GordonRamsay'
@@ -222,7 +222,7 @@ On _MasterChef_, he championed Christine, a blind contestant whose apple pie he 
 
 The man who screams at professionals for sending raw chicken also gets on his knees to encourage amateurs who are afraid to try.
 
-That's not contradiction. That's Type 8 at its fullest expression — fury for the careless, tenderness for the vulnerable. The same duality you see in [Jocko Willink](/personality-analysis/Jocko-Willink), whose protective instinct shaped both the battlefield and the jiu-jitsu mat.
+That's not contradiction. That's Type 8 at its fullest expression — fury for the careless, tenderness for the vulnerable. The same duality you see in [Jocko Willink](/personality-analysis/jocko-willink), whose protective instinct shaped both the battlefield and the jiu-jitsu mat.
 
 ## How Thirty Years of Marriage Survived the Fire
 

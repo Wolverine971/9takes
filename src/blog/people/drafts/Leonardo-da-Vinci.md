@@ -5,14 +5,14 @@ persona_title: "History's Insatiable Observer"
 description: 'Leonardo da Vinci understood more than anyone alive. So why did he leave almost everything unfinished? The Enneagram explains the paradox.'
 author: 'DJ Wayne'
 date: '2026-03-28'
-loc: 'https://9takes.com/personality-analysis/Leonardo-da-Vinci'
+loc: 'https://9takes.com/personality-analysis/leonardo-da-vinci'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['historical', 'historical-scientist']
-person: 'Leonardo-da-Vinci'
+person: 'leonardo-da-vinci'
 suggestions: ['Nikola-Tesla', 'Elon-Musk', 'Friedrich-Nietzsche', 'Bill-Gates']
 wikipedia: 'https://en.wikipedia.org/wiki/Leonardo_da_Vinci'
 twitter: ''

@@ -5,14 +5,14 @@ persona_title: "YouTube's Loudest Mourner"
 description: "Inside Markiplier's psychology: how a shy kid who lost his father at 18 built a $38M empire on maximum volume — then kept making art about endings."
 author: 'DJ Wayne'
 date: '2026-03-27'
-loc: 'https://9takes.com/personality-analysis/Markiplier'
+loc: 'https://9takes.com/personality-analysis/markiplier'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'viral-entertainer']
-person: 'Markiplier'
+person: 'markiplier'
 suggestions: ['PewDiePie', 'Kai-Cenat', 'Casey-Neistat', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Markiplier'
 twitter: 'markiplier'
@@ -71,7 +71,7 @@ In 2012, everything fell apart at once. He broke up with his girlfriend. Got fir
 
 "I decided that I wanted to do something else," he said afterward. The understatement of his career.
 
-He created a YouTube channel in March 2012, calling it "Markiplier" — a portmanteau of his name and "multiplier" that he later called "a really dumb name." His first series was a Let's Play of Amnesia: The Dark Descent. Within a year, 94,000 subscribers — a number that would have made him a peer of [PewDiePie](/personality-analysis/PewDiePie) if they'd started at the same time.
+He created a YouTube channel in March 2012, calling it "Markiplier" — a portmanteau of his name and "multiplier" that he later called "a really dumb name." His first series was a Let's Play of Amnesia: The Dark Descent. Within a year, 94,000 subscribers — a number that would have made him a peer of [PewDiePie](/personality-analysis/pewdiepie) if they'd started at the same time.
 
 Then YouTube banned his AdSense account. No monetization. No income. Appeal denied. He started over — a new channel, "MarkiplierGAME," uploading from nothing. He dropped out of the University of Cincinnati, two semesters from a biomedical engineering degree. Some days he uploaded ten videos.
 

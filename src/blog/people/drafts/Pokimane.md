@@ -5,14 +5,14 @@ meta_title: "Why Pokimane Can't Stop Building Safety Nets (The Pattern Behind He
 description: "She punched a kid at four and cried on a livestream at twenty-four. Inside Pokimane's personality: she doesn't fear enemies — she fears allies who turn."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Pokimane'
+loc: 'https://9takes.com/personality-analysis/pokimane'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['creator', 'streamer']
-person: 'Pokimane'
+person: 'pokimane'
 suggestions: ['Kai-Cenat', 'IShowSpeed', 'PewDiePie', 'Hasan-Piker']
 wikipedia: 'https://en.wikipedia.org/wiki/Pokimane'
 twitter: 'pokaborat'
@@ -156,7 +156,7 @@ That year, she co-founded **OfflineTV** with William "Scarra" Li and his manager
 
 "Throughout my whole career, it is genuinely one of the things I'm the most proud of," she's said about OfflineTV. When she graduated from the group in 2023, OfflineTV's official statement called her "a pillar of OTV since it formed in 2017." Scarra, the group's founder, has consistently credited her as a driving force behind the group's success and culture.
 
-In 2020, she co-organized the viral <a href="https://happymag.tv/aoc-among-us/">AOC Among Us stream</a> with <a href="/personality-analysis/Hasan-Piker">Hasan Piker</a>, featuring Alexandria Ocasio-Cortez and Ilhan Omar. It peaked at over 400,000 viewers, one of Twitch's most-watched broadcasts ever. That same year she signed a multi-year Twitch exclusivity deal, turning down what she later called "life-changing money" from YouTube Gaming.
+In 2020, she co-organized the viral <a href="https://happymag.tv/aoc-among-us/">AOC Among Us stream</a> with <a href="/personality-analysis/hasan-piker">Hasan Piker</a>, featuring Alexandria Ocasio-Cortez and Ilhan Omar. It peaked at over 400,000 viewers, one of Twitch's most-watched broadcasts ever. That same year she signed a multi-year Twitch exclusivity deal, turning down what she later called "life-changing money" from YouTube Gaming.
 
 She took less money to stay on the platform she trusted.
 
@@ -350,7 +350,7 @@ She's threat-modeling intimacy itself. Deconstructing attachment through biochem
 
 For someone who spent a decade navigating parasocial intensity and romantic boundary violations from people in her inner circle, this isn't prudishness. It's the Six's ultimate perimeter, applied to the one domain where scanning can't protect you, because the thing you're scanning for is disguised as love.
 
-Even the <a href="https://www.dexerto.com/twitch/pokimane-responds-to-grammys-hate-over-her-red-carpet-invitation-3053974/">February 2025 Grammy appearance</a> alongside <a href="/personality-analysis/Kai-Cenat">Kai Cenat</a> showed the dynamic. Her self-aware response to backlash: "They invited a buncha creators & I agree I SHOULDNT BE HERE lmao but I am honored to beeee nonetheless."
+Even the <a href="https://www.dexerto.com/twitch/pokimane-responds-to-grammys-hate-over-her-red-carpet-invitation-3053974/">February 2025 Grammy appearance</a> alongside <a href="/personality-analysis/kai-cenat">Kai Cenat</a> showed the dynamic. Her self-aware response to backlash: "They invited a buncha creators & I agree I SHOULDNT BE HERE lmao but I am honored to beeee nonetheless."
 
 Self-deprecation as preemptive defense. Acknowledge the vulnerability before anyone can weaponize it.
 

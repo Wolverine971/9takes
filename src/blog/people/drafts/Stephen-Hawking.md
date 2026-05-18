@@ -5,14 +5,14 @@ persona_title: "Cosmology's Withdrawn Architect"
 description: "Inside Stephen Hawking: a Type 5w6 portrait of the mind that became a fortress before ALS — and why his family saw what the world didn't."
 author: 'DJ Wayne'
 date: '2026-05-12'
-loc: 'https://9takes.com/personality-analysis/Stephen-Hawking'
+loc: 'https://9takes.com/personality-analysis/stephen-hawking'
 lastmod: '2026-05-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
 type: ['historical', 'author', 'historical-scientist']
-person: 'Stephen-Hawking'
+person: 'stephen-hawking'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Friedrich-Nietzsche', 'Noam-Chomsky']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_Hawking'
 twitter: ''
@@ -150,7 +150,7 @@ What he built inside the closed room was the work that put his name in the textb
 
 This is the part that most retellings smooth into inspirational gloss. The truth is more useful and more characteristic of his type. A Type 5 under existential threat does not become someone new. They become a more concentrated version of who they already were. The disease was not transforming him into the great mind. It was clearing the room around the great mind he already was.
 
-He lived 55 years past the prognosis. He held the Lucasian Chair at Cambridge — Newton's chair, Dirac's chair — for thirty. He wrote _A Brief History of Time_ partly, by his own admission, to pay for his children's education. It sold more than 25 million copies in 40 languages and became, by reputation, the most unread bestseller in publishing history — the mathematician Jordan Ellenberg later named his index for stalled reading after it, with readers averaging about 6.6% of the book before quitting. The closed room had reached the widest possible audience and, on most coffee tables, stayed closed. He warned Earth not to broadcast our location to potentially hostile aliens. He warned, years before [Elon Musk](/personality-analysis/Elon-Musk) made it a cause, that artificial intelligence could end the human race. At 65, in a body that had given up on him forty-four years earlier, he flew on a Vomit Comet and floated weightless — the closest thing to leaving the body that physics could offer. He was, in many ways, the most public scientist alive.
+He lived 55 years past the prognosis. He held the Lucasian Chair at Cambridge — Newton's chair, Dirac's chair — for thirty. He wrote _A Brief History of Time_ partly, by his own admission, to pay for his children's education. It sold more than 25 million copies in 40 languages and became, by reputation, the most unread bestseller in publishing history — the mathematician Jordan Ellenberg later named his index for stalled reading after it, with readers averaging about 6.6% of the book before quitting. The closed room had reached the widest possible audience and, on most coffee tables, stayed closed. He warned Earth not to broadcast our location to potentially hostile aliens. He warned, years before [Elon Musk](/personality-analysis/elon-musk) made it a cause, that artificial intelligence could end the human race. At 65, in a body that had given up on him forty-four years earlier, he flew on a Vomit Comet and floated weightless — the closest thing to leaving the body that physics could offer. He was, in many ways, the most public scientist alive.
 
 He was also the most public scientist alive in a voice that wasn't his. After a 1985 tracheotomy in Geneva took his speech entirely, he ended up using a DECtalk synthesizer with an American accent — a "Perfect Paul" voice built in the early 1980s. Newer, more natural voices became available; he refused them. By then the synth was him. The accent was wrong, the cadence was robotic, and that was the point. He had found a way to broadcast at the world's volume while keeping the body and the breath out of the signal entirely. Engineers who tried to upgrade his voice say he treated the suggestion as unserious.
 

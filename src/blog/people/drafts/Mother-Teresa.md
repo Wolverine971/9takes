@@ -5,14 +5,14 @@ persona_title: "Calcutta's Saint of Darkness"
 description: "Mother Teresa spent fifty years unable to feel the God she served. The Type 2 wound, lived inside the relationship she most depended on."
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Mother-Teresa'
+loc: 'https://9takes.com/personality-analysis/mother-teresa'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '2'
 type: ['historical', 'activist', 'movement-leader']
-person: 'Mother-Teresa'
+person: 'mother-teresa'
 suggestions: ['Princess-Diana', 'Martin-Luther-King-Jr', 'Malcolm-X', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Mother_Teresa'
 twitter: ''
@@ -229,7 +229,7 @@ Hitchens called this fraud. The Type 2 lens calls it the helper compulsion at in
 
 In June 1997, three months before her death, Mother Teresa met Princess Diana in New York. They had first met in Rome in 1992. Diana had referred to it, privately, as the fulfillment of a long-held dream.
 
-The 1997 meeting was at the Missionaries of Charity convent in the South Bronx. They walked outside together — the small Albanian woman in the white sari with three blue stripes, the [English princess](/personality-analysis/Princess-Diana) in a dark dress. Forty minutes. Hand in hand. They prayed together. Mother Teresa blessed her.
+The 1997 meeting was at the Missionaries of Charity convent in the South Bronx. They walked outside together — the small Albanian woman in the white sari with three blue stripes, the [English princess](/personality-analysis/princess-diana) in a dark dress. Forty minutes. Hand in hand. They prayed together. Mother Teresa blessed her.
 
 Diana was killed in a Paris tunnel on 31 August. Mother Teresa, frail and on a heart medication regimen by then, was reported to have wept on hearing the news. She wrote a public condolence: _She was very concerned for the poor. She was very anxious to do something for them, and it was beautiful. That is why she was close to me._
 

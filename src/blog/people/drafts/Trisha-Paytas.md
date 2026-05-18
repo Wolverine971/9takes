@@ -5,14 +5,14 @@ persona_title: "Internet's Unfinished Portrait"
 description: 'Inside Trisha Paytas and her identity crisis that became an empire. An Enneagram Type 4 analysis of the most exposed woman online.'
 author: 'DJ Wayne'
 date: '2026-03-28'
-loc: 'https://9takes.com/personality-analysis/Trisha-Paytas'
+loc: 'https://9takes.com/personality-analysis/trisha-paytas'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['creator', 'celebrity', 'celebrity-image', 'viral-entertainer']
-person: 'Trisha-Paytas'
+person: 'trisha-paytas'
 suggestions: ['Kim-Kardashian', 'Paris-Hilton', 'James-Charles', 'Miley-Cyrus']
 wikipedia: 'https://en.wikipedia.org/wiki/Trisha_Paytas'
 twitter: 'taborsgonewild'

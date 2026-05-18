@@ -5,14 +5,14 @@ persona_title: "Hollywood's Unscripted Caretaker"
 description: 'A Type 2 read on Jennifer Garner that takes Ben Affleck''s 2021 Howard Stern comments seriously — caretaking, control, and what changed after Al‑Anon.'
 author: 'DJ Wayne'
 date: '2023-12-09'
-loc: 'https://9takes.com/personality-analysis/Jennifer-Garner'
+loc: 'https://9takes.com/personality-analysis/jennifer-garner'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['movieStar', 'screen-icon']
-person: 'Jennifer-Garner'
+person: 'jennifer-garner'
 suggestions: ['Meryl-Streep', 'Kristen-Bell', 'Ben-Affleck', 'Anne-Hathaway', 'Scarlett-Johansson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Garner'
 twitter: 'JenniferGarner'
@@ -44,7 +44,7 @@ FEEDBACK (2026-02-18):
 
 > "I am the model middle child. I am patient and I like to take care of everyone. Being called nice is a compliment. It's not a boring way to describe me." — Jennifer Garner, _People_ magazine
 
-<p class="firstLetter">In 2018, photographers caught Jennifer Garner driving [Ben Affleck](/personality-analysis/Ben-Affleck) to rehab. The marriage was over. The caretaking wasn't.</p>
+<p class="firstLetter">In 2018, photographers caught Jennifer Garner driving [Ben Affleck](/personality-analysis/ben-affleck) to rehab. The marriage was over. The caretaking wasn't.</p>
 
 It's a brutal little scene because it forces a question most celebrity profiles avoid: **what happens when the person who's always "the strong one" finally hits the limit of what strength can fix?**
 
@@ -193,7 +193,7 @@ The honest read can't end at Garner's growth. It has to acknowledge that the gro
 
 ## Co-parenting in the Bennifer-2 era
 
-When Affleck married <a href="/personality-analysis/Jennifer-Lopez">Jennifer Lopez</a> in 2022, it created a modern-family geometry the tabloids couldn't resist. The Dodgers-game photos. The school-pickup choreography. The Halloween group shots.
+When Affleck married <a href="/personality-analysis/jennifer-lopez">Jennifer Lopez</a> in 2022, it created a modern-family geometry the tabloids couldn't resist. The Dodgers-game photos. The school-pickup choreography. The Halloween group shots.
 
 Garner kept her end of it boring on purpose. No public commentary. No subtweets. No Vogue cover about "the new normal." When Affleck and Lopez separated in 2024 and divorced in early 2025, Garner declined to comment then either.
 

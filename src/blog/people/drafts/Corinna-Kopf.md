@@ -5,14 +5,14 @@ persona_title: "The Internet's Restless Escape Artist"
 description: 'Everyone sees the party girl who made $67M. Nobody sees the crippling anxiety since age seven or the grief that powers every career move she makes.'
 author: 'DJ Wayne'
 date: '2026-04-09'
-loc: 'https://9takes.com/personality-analysis/Corinna-Kopf'
+loc: 'https://9takes.com/personality-analysis/corinna-kopf'
 lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'influencer', 'lifestyle-builder']
-person: 'Corinna-Kopf'
+person: 'corinna-kopf'
 suggestions: ['Alex-Cooper', 'Paris-Hilton', 'David-Dobrik', 'Alix-Earle']
 wikipedia: ''
 twitter: 'https://twitter.com/CorinnaKopf'
@@ -104,7 +104,7 @@ After high school, Corinna packed a bag and moved to Los Angeles. She had no con
 
 She worked as a nanny. She waited tables at Hooters. She hustled.
 
-Then she met <a href="/personality-analysis/David-Dobrik">David Dobrik</a> at a Jack & Jack concert in Chicago. They'd both lived in the city before heading west. When Dobrik started building the Vlog Squad, Corinna became one of its most magnetic members — the girl with the quick comebacks and the signature pout who could hold a four-minute vlog segment without a script.
+Then she met <a href="/personality-analysis/david-dobrik">David Dobrik</a> at a Jack & Jack concert in Chicago. They'd both lived in the city before heading west. When Dobrik started building the Vlog Squad, Corinna became one of its most magnetic members — the girl with the quick comebacks and the signature pout who could hold a four-minute vlog segment without a script.
 
 But here's the part people missed: while she played the ditzy blonde bombshell on camera, she was quietly becoming one of the most business-savvy people in the room.
 
@@ -161,13 +161,13 @@ At the Streamy Awards, months after they'd technically broken up, Toddy said on 
 
 They were already done.
 
-Then <a href="/personality-analysis/Logan-Paul">Logan Paul</a>. The man whose suicide forest video mirrored the worst moment of her life. After she condemned him publicly, he mispronounced her name on a podcast. She slid into his DMs to correct him. They met up in the middle of the night and talked for four hours — about the video, about her brother, about everything she would normally sprint away from.
+Then <a href="/personality-analysis/logan-paul">Logan Paul</a>. The man whose suicide forest video mirrored the worst moment of her life. After she condemned him publicly, he mispronounced her name on a podcast. She slid into his DMs to correct him. They met up in the middle of the night and talked for four hours — about the video, about her brother, about everything she would normally sprint away from.
 
 They were spotted at a Lakers game in matching sweatshirts. On his podcast, Logan called it "friends with benefits" and implied she was seeing other people. She fired back publicly. In a later appearance on Impaulsive, she revealed they'd gone nearly a year without being intimate — she'd asked him to get STD tested, and he refused. That, she said, is partly what ended things.
 
 She sought out the man who triggered her deepest wound, sat with him at 2 a.m., and tried to build something with him. That's not recklessness. That's rewriting — turning pain she couldn't control into a choice she walked into voluntarily.
 
-Then <a href="/personality-analysis/Tfue">Tfue</a> — Turner Tenney, the gaming streamer. Spotted at a party in December 2018, confirmed by spring 2019, split by summer, back together, split again by February 2020. Distance was the stated reason. The pattern was the real one.
+Then <a href="/personality-analysis/tfue">Tfue</a> — Turner Tenney, the gaming streamer. Spotted at a party in December 2018, confirmed by spring 2019, split by summer, back together, split again by February 2020. Distance was the stated reason. The pattern was the real one.
 
 Then Sammy Wilk in 2021 — same arc, shorter shelf life.
 
@@ -215,7 +215,7 @@ Before gambling defined her streaming career, Corinna was already burning throug
 
 In 2019, Twitch banned her over a wardrobe dispute — she said she was wearing a Chanel tank top, Twitch said it violated their dress code. Within days, she signed an exclusive deal with Facebook Gaming. She spent two years there, became one of the platform's most-watched creators, and left the moment her contract expired in March 2022 to return to Twitch.
 
-Six months later, Twitch announced a ban on gambling content. Corinna, who'd been streaming slots for the crypto casino Stake, criticized the decision publicly. <a href="/personality-analysis/Pokimane">Pokimane</a> called her out, suggesting she'd "lost her job promoting illegal crypto gambling websites." Corinna fired back. Then she left for Kick — the platform backed by the same crypto casino — where the rules didn't follow her.
+Six months later, Twitch announced a ban on gambling content. Corinna, who'd been streaming slots for the crypto casino Stake, criticized the decision publicly. <a href="/personality-analysis/pokimane">Pokimane</a> called her out, suggesting she'd "lost her job promoting illegal crypto gambling websites." Corinna fired back. Then she left for Kick — the platform backed by the same crypto casino — where the rules didn't follow her.
 
 Banned from Twitch. Signed with Facebook. Left Facebook. Returned to Twitch. Banned from gambling on Twitch. Left for Kick. Each door closing behind someone already halfway through the next one.
 

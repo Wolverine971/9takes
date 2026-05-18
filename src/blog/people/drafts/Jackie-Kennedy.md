@@ -5,14 +5,14 @@ persona_title: "America's Tragic Elegance"
 description: "Jackie Kennedy controlled every visible surface of America's most photographed marriage while hiding an inner life no one was allowed to see. Here is why."
 author: 'DJ Wayne'
 date: '2026-04-08'
-loc: 'https://9takes.com/personality-analysis/Jackie-Kennedy'
+loc: 'https://9takes.com/personality-analysis/jackie-kennedy'
 lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
 type: ['historical', 'celebrity', 'celebrity-image', 'political-spouse']
-person: 'Jackie-Kennedy'
+person: 'jackie-kennedy'
 suggestions: ['John-F-Kennedy', 'Princess-Diana', 'Marilyn-Monroe', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis'
 twitter: ''
@@ -235,7 +235,7 @@ She never spoke about Camelot again publicly for the rest of her life. She had s
 
 The decision that scandalized America more than anything else Jackie ever did was the one that most clearly revealed who she really was.
 
-In October 1968 — five years after Dallas, four months after Robert F. Kennedy had been shot to death in Los Angeles in front of his own pregnant wife — Jackie married Aristotle Onassis, a Greek shipping magnate twenty-three years her senior. He was short. He was blunt. He looked nothing like [John F. Kennedy](/personality-analysis/John-F-Kennedy). He had almost none of JFK's cultural polish. The tabloids lost their minds. Her image as America's grieving widow took a beating it never fully recovered from.
+In October 1968 — five years after Dallas, four months after Robert F. Kennedy had been shot to death in Los Angeles in front of his own pregnant wife — Jackie married Aristotle Onassis, a Greek shipping magnate twenty-three years her senior. He was short. He was blunt. He looked nothing like [John F. Kennedy](/personality-analysis/john-f-kennedy). He had almost none of JFK's cultural polish. The tabloids lost their minds. Her image as America's grieving widow took a beating it never fully recovered from.
 
 The explanation people usually give is "money." It's not entirely wrong. Onassis was one of the richest men alive. He could give her a level of financial cushion the Kennedys could not. But money alone doesn't explain the marriage. Money would have gotten her a safer man.
 

@@ -5,14 +5,14 @@ persona_title: "California's Polished Shapeshifter"
 description: 'Gavin Newsom built an empire on image. His Enneagram Type 3 patterns reveal why — from a dyslexic childhood to the French Laundry to fighting Trump.'
 author: 'DJ Wayne'
 date: '2026-03-28'
-loc: 'https://9takes.com/personality-analysis/Gavin-Newsom'
+loc: 'https://9takes.com/personality-analysis/gavin-newsom'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['politician', 'campaign-politician']
-person: 'Gavin-Newsom'
+person: 'gavin-newsom'
 suggestions: ['Donald-Trump', 'JD-Vance', 'Kamala-Harris', 'Justin-Trudeau']
 wikipedia: 'https://en.wikipedia.org/wiki/Gavin_Newsom'
 twitter: '@GavinNewsom'
@@ -355,7 +355,7 @@ The achiever's deepest terror isn't failure. It's discovering that all the achie
 
 ## The Man Who Can't Stop Running
 
-Today, Newsom is in his final year as governor. He's launched a podcast. He's written a memoir. He's suing <a href="/personality-analysis/Donald-Trump">Donald Trump</a> on climate policy. And Trump, sensing a 2028 rival, has gone after the wound directly, telling reporters: "Gavin Newsom has admitted that he has learning disabilities, dyslexia. Honestly, I'm all for people with learning disabilities, but not for my president."
+Today, Newsom is in his final year as governor. He's launched a podcast. He's written a memoir. He's suing <a href="/personality-analysis/donald-trump">Donald Trump</a> on climate policy. And Trump, sensing a 2028 rival, has gone after the wound directly, telling reporters: "Gavin Newsom has admitted that he has learning disabilities, dyslexia. Honestly, I'm all for people with learning disabilities, but not for my president."
 
 The boy who was mocked for not being able to read is now being mocked by the President of the United States for not being able to read.
 

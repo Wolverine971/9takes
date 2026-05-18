@@ -5,18 +5,65 @@ persona_title: "The Producer of Missing Pieces"
 description: 'How Rick Rubin turned the refusal of technique into the space where feeling lives — a Type 4 analysis of the producer who closes his eyes to hear what the song is actually about.'
 author: 'DJ Wayne'
 date: '2026-04-25'
-loc: 'https://9takes.com/personality-analysis/Rick-Rubin'
+loc: 'https://9takes.com/personality-analysis/rick-rubin'
 lastmod: '2026-04-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
 type: ['musician', 'creator', 'music-crossover']
-person: 'Rick-Rubin'
+person: 'rick-rubin'
 suggestions: ['Adele', 'Kanye', 'Malcolm-Gladwell', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Rick_Rubin'
 twitter: 'RickRubin'
 instagram: 'rickrubin'
+wikidata_qid: 'Q587361'
+imdb_id: 'nm0005391'
+birth_date: '1963-03-10'
+birth_place: 'Long Beach, New York, USA'
+nationality: 'American'
+occupation:
+  - 'Record producer'
+  - 'Author'
+  - 'Co-founder of Def Jam Recordings'
+knows_about:
+  - 'Music production'
+  - 'Hip-hop'
+  - 'Heavy metal'
+  - 'Def Jam Recordings'
+  - 'Shangri-La studio'
+  - 'The Creative Act'
+  - 'Meditation'
+keywords:
+  - 'Rick Rubin enneagram'
+  - 'Rick Rubin type 4'
+  - 'Rick Rubin personality'
+  - 'Rick Rubin 4w5'
+  - 'Individualist enneagram'
+  - 'Rick Rubin Def Jam'
+  - 'The Creative Act book'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Rick_Rubin'
+  - 'https://www.wikidata.org/wiki/Q587361'
+  - 'https://www.imdb.com/name/nm0005391/'
+  - 'https://twitter.com/RickRubin'
+  - 'https://www.instagram.com/rickrubin/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Rick_Rubin'
+  - 'https://en.wikipedia.org/wiki/Rick_Rubin_production_discography'
+  - 'https://www.cbsnews.com/news/rick-rubin-anderson-cooper-60-minutes-interview-2023-01-15/'
+  - 'https://en.wikipedia.org/wiki/Def_Jam_Recordings'
+  - 'https://www.penguinrandomhouse.com/books/717356/the-creative-act-by-rick-rubin-with-neil-strauss/'
+faqs:
+  - question: "What is Rick Rubin's personality type?"
+    answer: "Rick Rubin is an Enneagram Type 4 (The Individualist) with a 5 wing. The 4w5 pattern shows in the monastic stillness, the bare feet and beard, the long retreats at Shangri-La with Bob Dylan's old tour bus still parked outside. Rubin's refusal of technical craft — 'I have no technical ability and I know nothing about music' — isn't modesty; it's identity defense, because craft would interfere with the feeling channel a Four is built to receive."
+    anchor: 'what-is-rick-rubins-personality-type'
+  - question: 'Why does Rick Rubin say he knows nothing about music?'
+    answer: "On 60 Minutes in January 2023, Anderson Cooper asked Rubin whether he could play an instrument. 'Barely.' Did he know how to use a mixing desk? 'No.' Rubin's actual paid skill is feeling whether a song is doing what it is supposed to be doing. For a Type 4, refusing the technical vocabulary keeps the feeling channel unobstructed. The artists who fly to Malibu — Cash, Adele, Kanye, Metallica, Petty — are paying for that listening, not for engineering knowledge."
+    anchor: 'why-rick-rubin-says-he-knows-nothing-about-music'
+  - question: 'How did Rick Rubin revive Johnny Cash?'
+    answer: "In 1993, Cash was 61, unsigned, playing half-empty rooms in Branson, Missouri. Rubin saw him at Bob Dylan's 30th-anniversary concert, invited him to meet, and the two sat across a table in silence for two minutes before speaking. Rubin told him to come to his living room with a guitar and two microphones and sing everything he had ever wanted to record. American Recordings (1994) followed. Cash's manager said the series 'probably added ten years to his life.'"
+    anchor: 'the-art-of-subtracting-cash-petty-kanye'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -87,7 +134,7 @@ If you want to understand Rick Rubin, you have to hold both rooms in your head a
 
 The industry calls what he does *taste*. A word the industry reaches for when it can't explain what it just watched happen.
 
-Taste is a strange thing to build a career on. It is invisible. It cannot be patented. It cannot be taught. An engineer can point at a waveform. A session musician can point at a chart. Rick Rubin has nothing to point at except the couch he is lying on. And yet Adele flew to Malibu. Johnny Cash flew to Malibu. [Kanye](/personality-analysis/Kanye), Metallica, Tom Petty, Neil Diamond, the Chili Peppers, the Beastie Boys, Slayer, Ed Sheeran, Paul McCartney — all of them flew to Malibu so a man who says he knows nothing could tell them what was actually wrong with the record.
+Taste is a strange thing to build a career on. It is invisible. It cannot be patented. It cannot be taught. An engineer can point at a waveform. A session musician can point at a chart. Rick Rubin has nothing to point at except the couch he is lying on. And yet [Adele](/personality-analysis/adele) flew to Malibu. Johnny Cash flew to Malibu. [Kanye](/personality-analysis/kanye), Metallica, Tom Petty, Neil Diamond, the Chili Peppers, the Beastie Boys, Slayer, Ed Sheeran, Paul McCartney — all of them flew to Malibu so a man who says he knows nothing could tell them what was actually wrong with the record.
 
 This is a Type 4 problem, stated at industrial scale.
 
@@ -305,8 +352,8 @@ Discography / Grammy context
 Internal 9takes references (linkable + used for framing)
 - /enneagram-corner/enneagram-type-4 (The Individualist explainer)
 - /enneagram-corner/enneagram-types-in-stress (4 → 2 stress arrow)
-- /personality-analysis/Adele
-- /personality-analysis/Kanye
+- /personality-analysis/adele
+- /personality-analysis/kanye
 -->
 
 <!-- FRESH EYES REVIEW (2026-04-24)

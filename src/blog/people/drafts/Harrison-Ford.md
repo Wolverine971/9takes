@@ -5,14 +5,14 @@ persona_title: "Hollywood's Reluctant Carpenter"
 description: "The most recognizable face in American cinema calls himself a carpenter. Inside the Type 9 pattern Harrison Ford has been building around for sixty years."
 author: 'DJ Wayne'
 date: '2026-04-24'
-loc: 'https://9takes.com/personality-analysis/Harrison-Ford'
+loc: 'https://9takes.com/personality-analysis/harrison-ford'
 lastmod: '2026-04-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['movieStar', 'screen-icon']
-person: 'Harrison-Ford'
+person: 'harrison-ford'
 suggestions: ['Matt-Damon', 'Meryl-Streep', 'Hugh-Jackman', 'Morgan-Freeman']
 wikipedia: 'https://en.wikipedia.org/wiki/Harrison_Ford'
 twitter: ''

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Eternal Shapeshifter"
 description: "What drives the man who made everyone feel special but described himself as blank? Inside Travolta's psychology of performance, grief, and survival."
 author: 'DJ Wayne'
 date: '2026-04-11'
-loc: 'https://9takes.com/personality-analysis/John-Travolta'
+loc: 'https://9takes.com/personality-analysis/john-travolta'
 lastmod: '2026-04-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'John-Travolta'
+person: 'john-travolta'
 suggestions: ['Tom-Cruise', 'Arnold-Schwarzenegger', 'Paris-Hilton', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Travolta'
 twitter: ''
@@ -46,7 +46,7 @@ path: src/blog/people/drafts/John-Travolta.md
 
 <p class="firstLetter">The most charismatic man in Hollywood just told you he's nobody.</p>
 
-Not humble. Not deflecting. John Travolta, the man whose entrance on the _Welcome Back, Kotter_ set made live studio audiences erupt, whose walk down a Brooklyn sidewalk in _Saturday Night Fever_ became the most imitated strut of the twentieth century, who made Kirstie Alley call him "the greatest love of my life" without ever touching her romantically, looked into a microphone on _Fresh Air_ and said, essentially: _I am empty. I fill myself with you._ It's the kind of admission that would reshape how you see someone like <a href="/personality-analysis/Paris-Hilton">Paris Hilton</a> or <a href="/personality-analysis/Tom-Cruise">Tom Cruise</a>, people whose public images are so total they seem to leave no room for a private self. But neither of them ever said it this plainly.
+Not humble. Not deflecting. John Travolta, the man whose entrance on the _Welcome Back, Kotter_ set made live studio audiences erupt, whose walk down a Brooklyn sidewalk in _Saturday Night Fever_ became the most imitated strut of the twentieth century, who made Kirstie Alley call him "the greatest love of my life" without ever touching her romantically, looked into a microphone on _Fresh Air_ and said, essentially: _I am empty. I fill myself with you._ It's the kind of admission that would reshape how you see someone like <a href="/personality-analysis/paris-hilton">Paris Hilton</a> or <a href="/personality-analysis/tom-cruise">Tom Cruise</a>, people whose public images are so total they seem to leave no room for a private self. But neither of them ever said it this plainly.
 
 That admission explains more about John Travolta than any career retrospective, any tabloid headline, any Scientology exposé ever could. It explains why he could become Tony Manero and Vincent Vega and Edna Turnblad and a philosophical hitman with equal conviction. It explains why everyone who meets him walks away feeling like the most important person in the room. And it explains why, when the performance stops, when a son dies, when a wife dies, when the phone stops ringing, he doesn't fall back on himself. He falls back on an institution.
 
@@ -138,7 +138,7 @@ What Travolta made instead: _Staying Alive_ (directed by Sylvester Stallone, the
 
 "I was still always working," he said later. "I just wasn't working on major projects. But I always had a job."
 
-That sentence is the Type 3 survival instinct laid bare. The identity is so fused with work that not working isn't an option, even when the work is embarrassing. He made _Look Who's Talking_. He made its sequels. He showed up. He didn't spiral into drugs or public meltdowns, which was the standard Hollywood trajectory for fallen stars in that era. Compare this to someone like <a href="/personality-analysis/Arnold-Schwarzenegger">Arnold Schwarzenegger</a>, whose Type 3 comeback was powered by relentless self-promotion. Travolta's was quieter. He retreated into structures that provided order: Scientology and aviation. Both offer clear hierarchies, measurable progress, and the feeling of going somewhere even when your career isn't.
+That sentence is the Type 3 survival instinct laid bare. The identity is so fused with work that not working isn't an option, even when the work is embarrassing. He made _Look Who's Talking_. He made its sequels. He showed up. He didn't spiral into drugs or public meltdowns, which was the standard Hollywood trajectory for fallen stars in that era. Compare this to someone like <a href="/personality-analysis/arnold-schwarzenegger">Arnold Schwarzenegger</a>, whose Type 3 comeback was powered by relentless self-promotion. Travolta's was quieter. He retreated into structures that provided order: Scientology and aviation. Both offer clear hierarchies, measurable progress, and the feeling of going somewhere even when your career isn't.
 
 For a decade, Hollywood forgot about him. He didn't forget about himself. He just put himself in storage.
 

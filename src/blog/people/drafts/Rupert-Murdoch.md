@@ -5,14 +5,14 @@ persona_title: "Media's Unbreakable Patriarch"
 description: "Why does the world's most powerful media tycoon spend his last years fighting his own children? A Type 8w7 analysis of Rupert Murdoch's empire and his fortress."
 author: 'DJ Wayne'
 date: '2026-05-14'
-loc: 'https://9takes.com/personality-analysis/Rupert-Murdoch'
+loc: 'https://9takes.com/personality-analysis/rupert-murdoch'
 lastmod: '2026-05-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
 type: ['entrepreneur', 'celebrity', 'celebrity-image', 'business-operator']
-person: 'Rupert-Murdoch'
+person: 'rupert-murdoch'
 suggestions: ['Donald-Trump', 'Jeff-Bezos', 'Vladimir-Putin', 'Winston-Churchill']
 wikipedia: 'https://en.wikipedia.org/wiki/Rupert_Murdoch'
 twitter: 'rupertmurdoch'

@@ -5,14 +5,14 @@ persona_title: "Media's Relentless Shapeshifter"
 description: "The boy who lost his father at 11 months built a career demanding the world know exactly who he is. Inside Piers Morgan's pattern of reinvention."
 author: 'DJ Wayne'
 date: '2026-04-23'
-loc: 'https://9takes.com/personality-analysis/Piers-Morgan'
+loc: 'https://9takes.com/personality-analysis/piers-morgan'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['creator', 'news-commentator']
-person: 'Piers-Morgan'
+person: 'piers-morgan'
 suggestions: ['Donald-Trump', 'Meghan-Markle', 'Stephen-A-Smith', 'Patrick-Bet-David']
 wikipedia: 'https://en.wikipedia.org/wiki/Piers_Morgan'
 twitter: '@piersmorgan'
@@ -121,7 +121,7 @@ Enneagram Threes experience a core wound around worthlessness. Early in life, th
 The case builds fast:
 
 - **The achievement-as-identity.** "It gave me the real taste of the excitement of a byline." Not the story. The byline. The name. The proof of existence.
-- **The conscious shapeshifting.** Morgan won <a href="/personality-analysis/Donald-Trump">Donald Trump</a>'s Celebrity Apprentice. He later admitted he won by "behaving in the way the then-real estate developer wanted him to." He didn't just compete. He read the room, identified what the audience valued, and became it.
+- **The conscious shapeshifting.** Morgan won <a href="/personality-analysis/donald-trump">Donald Trump</a>'s Celebrity Apprentice. He later admitted he won by "behaving in the way the then-real estate developer wanted him to." He didn't just compete. He read the room, identified what the audience valued, and became it.
 - **The 3w2 warmth.** Dawn Alford, who worked under Morgan at both the News of the World and the Daily Mirror, said: "He was gung ho and he was loud and he was a massive personality in the newsroom. But he would listen to you and ask your opinion. You'll be very hard pressed to find any reporters that worked under his tenure that have much of a bad word to say about him." Those who worked for him describe him as "a champion of female colleagues." The charm is real. The question is whether it's _only_ charm.
 - **The Type 3 vice: deceit.** Not lying, exactly. Something subtler. Performing conviction so convincingly that the performance becomes the conviction.
 
@@ -129,7 +129,7 @@ Under stress, Threes disintegrate toward [Type 9](/enneagram-corner/enneagram-ty
 
 ## Morgan and Trump: A Mirror for Each Other
 
-Morgan's friendship with <a href="/personality-analysis/Donald-Trump">Donald Trump</a> is the most revealing relationship in his public life, because it's the closest thing to looking in a mirror.
+Morgan's friendship with <a href="/personality-analysis/donald-trump">Donald Trump</a> is the most revealing relationship in his public life, because it's the closest thing to looking in a mirror.
 
 Two Type 3s. Two men whose identities are inseparable from their brands. Two men who read every room they enter and become whatever earns the most attention. They recognized each other immediately.
 
@@ -194,7 +194,7 @@ He put her in a cab. That cab took her to a party where she met Prince Harry. Sh
 
 For most people, this is a minor social slight. For a Type 3, this cuts to the bone. Morgan hadn't just been ghosted. He'd been ghosted by someone who'd upgraded, from tabloid celebrity to literal royalty. The woman he'd connected with over dirty martinis had looked at what Piers Morgan could offer and decided Prince Harry was a better room to walk into.
 
-What followed was extraordinary even by Morgan's standards. Between November 2017 and May 2021, he mentioned <a href="/personality-analysis/Meghan-Markle">Meghan Markle</a> 834 times on Good Morning Britain. He questioned her sincerity. He mocked her interviews. He challenged her mental health claims. He turned a personal rejection into a years-long public campaign that he framed, always, as truth-telling: _I'm the only one brave enough to say what everyone's thinking about this woman._
+What followed was extraordinary even by Morgan's standards. Between November 2017 and May 2021, he mentioned <a href="/personality-analysis/meghan-markle">Meghan Markle</a> 834 times on Good Morning Britain. He questioned her sincerity. He mocked her interviews. He challenged her mental health claims. He turned a personal rejection into a years-long public campaign that he framed, always, as truth-telling: _I'm the only one brave enough to say what everyone's thinking about this woman._
 
 The climax came on March 9, 2021, the morning after Meghan and Harry's Oprah interview. Morgan called her claims about suicidal thoughts "pathetic" and said he didn't believe "almost anything that comes out of her mouth." Co-host Alex Beresford pushed back, calmly: "She's entitled to cut you off if she wants to. Has she said anything about you after she cut you off? I don't think she has. But yet you continue to trash her."
 

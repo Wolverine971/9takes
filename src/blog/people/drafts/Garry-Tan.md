@@ -5,14 +5,14 @@ persona_title: "Tech's Earnest Watchdog"
 description: "From food insecurity in Fremont to running Y Combinator — why Garry Tan's fear-driven engine produces both billion-dollar bets and 1 AM Twitter meltdowns."
 author: 'DJ Wayne'
 date: '2026-04-15'
-loc: 'https://9takes.com/personality-analysis/Garry-Tan'
+loc: 'https://9takes.com/personality-analysis/garry-tan'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['techie']
-person: 'Garry-Tan'
+person: 'garry-tan'
 suggestions: ['Michael-Seibel', 'Dalton-Caldwell', 'Paul-Graham', 'Peter-Thiel', 'David-Sacks']
 wikipedia: 'https://en.wikipedia.org/wiki/Garry_Tan'
 twitter: 'garrytan'
@@ -145,7 +145,7 @@ Stanford came next. Computer Systems Engineering, 1999 to 2003. Then Microsoft, 
 
 The armor that did work was building.
 
-Garry left Microsoft to become the tenth employee at <a href="/personality-analysis/Peter-Thiel">Peter Thiel</a>'s Palantir Technologies. He wasn't just an engineer there — he was designer, product manager, and engineering manager. He sweated five iterations on Palantir's logo, a head poring over a book, meant to capture human intelligence.
+Garry left Microsoft to become the tenth employee at <a href="/personality-analysis/peter-thiel">Peter Thiel</a>'s Palantir Technologies. He wasn't just an engineer there — he was designer, product manager, and engineering manager. He sweated five iterations on Palantir's logo, a head poring over a book, meant to capture human intelligence.
 
 That design instinct later shaped how he evaluates founders. Most investors read traction and revenue curves. Tan reads clarity — the compression of a complex idea into something a person can hold in one take. It's the same quality he sweated onto that logo: understanding that fits.
 

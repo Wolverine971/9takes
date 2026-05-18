@@ -5,14 +5,14 @@ description: "He matched Gwyneth's haircut, Aniston's world, Jolie's mission. Br
 persona_title: "Hollywood's Peacekeeping Chameleon"
 author: 'DJ Wayne'
 date: '2025-04-08'
-loc: 'https://9takes.com/personality-analysis/Brad-Pitt'
+loc: 'https://9takes.com/personality-analysis/brad-pitt'
 lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['movieStar', 'screen-icon']
-person: 'Brad-Pitt'
+person: 'brad-pitt'
 suggestions:
   [
     'Tom-Cruise',
@@ -187,7 +187,7 @@ While in AA, Brad formed a friendship with Dax Shepard. "Dax was usually near th
 
 Type 9s tend to merge with their partners, adopting their interests, social circles, and even mannerisms.
 
-With [Gwyneth Paltrow](/personality-analysis/Gwyneth-Paltrow), he famously adopted her blonde pixie haircut. With Jennifer Aniston, he embraced her friends and her sit-com royalty status. With Angelina Jolie, he dove into humanitarian work and international adoption.
+With [Gwyneth Paltrow](/personality-analysis/gwyneth-paltrow), he famously adopted her blonde pixie haircut. With Jennifer Aniston, he embraced her friends and her sit-com royalty status. With Angelina Jolie, he dove into humanitarian work and international adoption.
 
 "I'm a bit of a chameleon," Brad once acknowledged. "I just adapt to what's around me."
 
@@ -287,7 +287,7 @@ Following his divorce, Brad turned to sculpture as a form of self-reflection.
 
 In 2022, he debuted nine sculptures at the Sara Hilden Art Museum in Finland. Speaking at the exhibition, Brad explained: "It was born out of ownership over what I call a 'radical inventory of the self'. And getting really brutally honest with me and taking account of those I may have hurt."
 
-He now maintains a sculpture studio at his Los Angeles home and invited [Leonardo DiCaprio](/personality-analysis/Leonardo-DiCaprio) over during the making of _Once Upon a Time in Hollywood_ to "bond over their shared love of pottery."
+He now maintains a sculpture studio at his Los Angeles home and invited [Leonardo DiCaprio](/personality-analysis/leonardo-dicaprio) over during the making of _Once Upon a Time in Hollywood_ to "bond over their shared love of pottery."
 
 ## How Age Changed Hollywood's Golden Boy
 

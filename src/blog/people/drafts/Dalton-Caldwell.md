@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Devoted Skeptic"
 description: 'Dalton Caldwell built his career by spotting where platforms betray creators, how trust breaks, and why skepticism became his edge.'
 author: 'DJ Wayne'
 date: '2026-04-20'
-loc: 'https://9takes.com/personality-analysis/Dalton-Caldwell'
+loc: 'https://9takes.com/personality-analysis/dalton-caldwell'
 lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['techie']
-person: 'Dalton-Caldwell'
+person: 'dalton-caldwell'
 suggestions: ['Garry-Tan', 'Michael-Seibel', 'Paul-Graham', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Dalton_Caldwell'
 twitter: 'https://twitter.com/daltonc'
@@ -77,11 +77,11 @@ path: src/blog/people/drafts/Dalton-Caldwell.md
 
 Caldwell said no. They pressed. They explained that his product's success would be "an impediment" to Facebook's ad revenue goals. That even offering an acquisition was, in their words, a "noble and kind move on their part."
 
-He went home and wrote an open letter to [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg). Published it on his blog. Burned every bridge Facebook had to offer. Then rebooted his entire company as App.net — a subscription-based social platform built on the principle that users are not the product.
+He went home and wrote an open letter to [Mark Zuckerberg](/personality-analysis/mark-zuckerberg). Published it on his blog. Burned every bridge Facebook had to offer. Then rebooted his entire company as App.net — a subscription-based social platform built on the principle that users are not the product.
 
 Here's what nobody talks about: App.net failed. The company that was supposed to prove Caldwell right about platform ethics couldn't solve the chicken-and-egg problem of user adoption. It entered maintenance mode in 2014 and shut down for good in 2017.
 
-And yet. This is a man who then spent twelve years at Y Combinator, conducting more than 6,500 office hours with founders, advising 35+ unicorns, showing up as what [Garry Tan](/personality-analysis/Garry-Tan) called "a steady presence for founders navigating the earliest and often hardest parts of company-building."
+And yet. This is a man who then spent twelve years at Y Combinator, conducting more than 6,500 office hours with founders, advising 35+ unicorns, showing up as what [Garry Tan](/personality-analysis/garry-tan) called "a steady presence for founders navigating the earliest and often hardest parts of company-building."
 
 The person who trusts no system spent a decade building the system everyone else trusts. That paradox — skepticism and devotion, operating simultaneously at full volume — is the key to understanding Dalton Caldwell.
 
@@ -128,7 +128,7 @@ He interned at VA Linux Systems in the summer of 2002, working on open-source so
 
 "Back in 2003, being in Silicon Valley and being interested in startups... it was a really small space," he told Lenny Rachitsky. "There just weren't that many people that were into this stuff."
 
-He wasn't awed by the people he met. He was curious about them. He cold-emailed Reid Hoffman when LinkedIn was twelve employees. "He just responded and he's like 'oh let's have lunch.' He was just a guy."
+He wasn't awed by the people he met. He was curious about them. He cold-emailed [Reid Hoffman](/personality-analysis/reid-hoffman) when LinkedIn was twelve employees. "He just responded and he's like 'oh let's have lunch.' He was just a guy."
 
 He gave Sean Parker a ride to the Oakland Airport. Parker sat in the backseat on the phone the whole time.
 
@@ -172,11 +172,11 @@ That line, buried in a letter about catastrophic failure, is the most revealing 
 
 After imeem's firesale, Caldwell was recruited to help save MySpace by Owen Van Natta, Facebook's former COO. Van Natta was fired almost immediately. "I think I worked at MySpace for like a month because the person that acquired my company got fired."
 
-He pivoted to picplz — a mobile photo-sharing app — and raised from Andreessen Horowitz. [Marc Andreessen](/personality-analysis/Marc-Andreessen) himself joined the board. The app gained 500,000 to a million users.
+He pivoted to picplz — a mobile photo-sharing app — and raised from Andreessen Horowitz. [Marc Andreessen](/personality-analysis/marc-andreessen) himself joined the board. The app gained 500,000 to a million users.
 
 Then Instagram launched. Same concept, but with free Hipstamatic-style filters that made every photo look like a Polaroid. Here's the wrinkle: a16z had put $250,000 into Kevin Systrom's original company Burbn — a location check-in app — months before investing $5 million in picplz. When Systrom pivoted Burbn into Instagram, suddenly a16z was funding both sides of a direct competition.
 
-Ben Horowitz later explained the ethical bind: "Funding Kevin to compete with Dalton would be a violation of the original implicit commitment we made to Dalton — to not fund competitors to PicPlz." So a16z stuck with Caldwell and didn't follow on in Instagram's later rounds. When Facebook acquired Instagram for $1 billion, that original $250,000 seed stake was worth $78 million. A 312x return they could have massively expanded.
+[Ben Horowitz](/personality-analysis/ben-horowitz) later explained the ethical bind: "Funding Kevin to compete with Dalton would be a violation of the original implicit commitment we made to Dalton — to not fund competitors to PicPlz." So a16z stuck with Caldwell and didn't follow on in Instagram's later rounds. When Facebook acquired Instagram for $1 billion, that original $250,000 seed stake was worth $78 million. A 312x return they could have massively expanded.
 
 Caldwell's response, when the tech press tried to cast him as the reason a16z "missed" Instagram, was characteristically direct: "Anyone reading this needs to remember to never be afraid of putting yourself out there because you are afraid of failure. I saw the market first, I created picplz, and I went for it with all of my heart. Clearly, picplz didn't win, but I have ZERO shame or regret for doing my best."
 
@@ -194,7 +194,7 @@ And then the line that reveals his entire psychological architecture:
 
 "I don't think you or your employees are bad people. I just think you constructed a business that has financial motivations that are not in-line with users & developers."
 
-Not bitter toward individuals. Bitter toward the system. The Six doesn't hate the people inside the corrupt institution. The Six hates the institution for corrupting the people.
+Not bitter toward individuals. Bitter toward the system that incentivized them.
 
 "Do remember how you used to always refer to Facebook as a 'social utility'?" he wrote. "That is an interesting term to use. I haven't heard you use that terminology in a while. I can guess why."
 
@@ -304,7 +304,7 @@ These aren't comfort-watch choices. They're study materials.
 
 In June 2025, after twelve years at Y Combinator, Dalton Caldwell transitioned to Partner Emeritus. Garry Tan called him "a steady presence for founders navigating the earliest and often hardest parts of company-building" and described the move as "a natural next step." Caldwell's announcement was characteristically measured: "I'm grateful to the thousands of founders who trusted me with their journeys, my fellow YC partners and teammates, and to Paul, Jessica, Trevor, and Robert for creating this extraordinary institution."
 
-The last names he listed — [Graham](/personality-analysis/Paul-Graham), Livingston, Blackwell, Morris — are YC's four original founders. Even in leaving, he honored the architecture.
+The last names he listed — [Graham](/personality-analysis/paul-graham), Livingston, Blackwell, Morris — are YC's four original founders. Even in leaving, he honored the architecture.
 
 He launched Standard Capital with Paul Buchheit and Bryan Berg. Buchheit created Gmail, developed the AdSense prototype, coined "Don't be evil," co-founded FriendFeed, and was an early OpenAI investor. But the Bryan Berg connection runs deeper than any résumé: Berg was CTO at imeem alongside Caldwell, then co-founded App.net with him, then went to Stripe as Head of Security. Three people who have built together, failed together, and rebuilt together across two decades.
 
@@ -314,7 +314,7 @@ The terms are designed to be transparent before the first conversation: 10% owne
 
 And the application process is open. Anyone in the world can apply without a warm introduction.
 
-The man who spent twelve years inside the most exclusive startup network on Earth built his new firm around the principle that access shouldn't require permission. The skeptic who doesn't trust systems designed the system to be trustworthy by default.
+The man who spent twelve years inside the most exclusive startup network on Earth built his new firm around the principle that access shouldn't require permission.
 
 Their first announced lead was Momentic, a $15 million Series A for AI-native test automation. The portfolio is growing quietly — the same way Caldwell has always operated.
 
@@ -322,7 +322,7 @@ Their first announced lead was Momentic, a $15 million Series A for AI-native te
 
 "I always had to have in my life a lot of optimism and energy and use that energy and motor to keep me going, even if lots of stuff I tried didn't work and continue to not work."
 
-The optimistic skeptic. The loyal questioner. The man who scans every room for exits and then stays for twelve years. At some point the contradiction stops being a contradiction and starts being the whole story: Dalton Caldwell built his life around the conviction that the ground can always shift, and the choice to show up anyway.
+The man who scans every room for exits and then stays for twelve years. Dalton Caldwell built his life around the conviction that the ground can always shift, and the choice to show up anyway.
 
 > **Disclaimer:** This analysis is based on publicly available information and aims to explore Dalton Caldwell's personality from an Enneagram perspective. It is not a definitive typing and is meant for educational and entertainment purposes.
 

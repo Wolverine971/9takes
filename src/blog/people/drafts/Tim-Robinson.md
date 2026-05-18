@@ -5,14 +5,14 @@ persona_title: "Comedy's Cringe Cartographer"
 description: 'Tim Robinson second-guesses every interaction. His characters never second-guess anything. That gap is where the comedy lives.'
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Tim-Robinson'
+loc: 'https://9takes.com/personality-analysis/tim-robinson'
 lastmod: '2026-03-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['comedian', 'sketch-comic']
-person: 'Tim-Robinson'
+person: 'tim-robinson'
 suggestions: ['Pete-Davidson', 'Aubrey-Plaza', 'Billie-Eilish', 'Paul-Rudd']
 wikipedia: 'https://en.wikipedia.org/wiki/Tim_Robinson_(comedian)'
 twitter: ''
@@ -90,7 +90,7 @@ Tim climbed the Second City ladder: touring company, Detroit mainstage, Chicago 
 
 ## What Saturday Night Live Did to His Confidence
 
-Tim debuted as a featured player alongside Aidy Bryant and Cecily Strong. While they each appeared in one sketch their first episode, Tim appeared in five. He seemed poised for stardom, another Second City talent following in the footsteps of [Tina Fey](/personality-analysis/Tina-Fey).
+Tim debuted as a featured player alongside Aidy Bryant and Cecily Strong. While they each appeared in one sketch their first episode, Tim appeared in five. He seemed poised for stardom, another Second City talent following in the footsteps of [Tina Fey](/personality-analysis/tina-fey).
 
 Then it fell apart.
 
@@ -145,7 +145,7 @@ Tim took the material SNL deemed too strange and built "I Think You Should Leave
 
 But ITYSL was just the beginning.
 
-In May 2025, his first starring film role arrived: _Friendship_, an A24 movie directed by Andrew DeYoung. Tim plays Craig, a suburban dad whose obsession with befriending his neighbor ([Paul Rudd](/personality-analysis/Paul-Rudd)) spirals into catastrophe. DeYoung wrote the role specifically for Robinson, calling the film "a breakup story between two straight men."
+In May 2025, his first starring film role arrived: _Friendship_, an A24 movie directed by Andrew DeYoung. Tim plays Craig, a suburban dad whose obsession with befriending his neighbor ([Paul Rudd](/personality-analysis/paul-rudd)) spirals into catastrophe. DeYoung wrote the role specifically for Robinson, calling the film "a breakup story between two straight men."
 
 Many executives "loved the script but didn't want to work on it," DeYoung later revealed, because "a lot of people were nervous about Tim's star power or Tim leading something."
 

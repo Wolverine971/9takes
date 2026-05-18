@@ -5,14 +5,14 @@ persona_title: 'The Self-Engineered Achiever'
 description: 'Why does Vivek Ramaswamy reinvent himself every two years? The Enneagram Type 3 psychology behind biotech, DOGE, and the borrowed Barack Obama line.'
 author: 'DJ Wayne'
 date: '2026-05-01'
-loc: 'https://9takes.com/personality-analysis/Vivek-Ramaswamy'
+loc: 'https://9takes.com/personality-analysis/vivek-ramaswamy'
 lastmod: '2026-05-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['politician', 'entrepreneur', 'campaign-politician', 'business-operator']
-person: 'Vivek-Ramaswamy'
+person: 'vivek-ramaswamy'
 suggestions: ['JD-Vance', 'Donald-Trump', 'Peter-Thiel', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Vivek_Ramaswamy'
 twitter: 'VivekGRamaswamy'
@@ -109,7 +109,7 @@ The achievement architecture was already in place when he was old enough to read
 
 The lesson a child learns inside that architecture is unspoken but precise: _the world rewards the legible. So make yourself legible to the room with the highest ceiling._ Move into the higher ceiling. Repeat. The Brahmin caste rewards scholarship. The Jesuit prep school rewards scholarship. Harvard rewards scholarship layered with leadership signaling. Yale Law rewards Harvard layered with intellectual contrarianism. Hedge funds reward Yale Law layered with risk appetite. Biotech rewards hedge funds layered with vision. Politics rewards biotech layered with conviction. The next room is always there. The work is never to find it. The work is to read it.
 
-That conditioning produces a specific Type 3 phenotype. Not the chaos-fleeing, identity-improvising Three of [JD Vance](/personality-analysis/JD-Vance). The Three who never had to flee anything — and whose entire psychological apparatus was built to optimize the next test, the next grader, the next stage. <em>Achievement was the inheritance. The room is the lifelong project.</em>
+That conditioning produces a specific Type 3 phenotype. Not the chaos-fleeing, identity-improvising Three of [JD Vance](/personality-analysis/jd-vance). The Three who never had to flee anything — and whose entire psychological apparatus was built to optimize the next test, the next grader, the next stage. <em>Achievement was the inheritance. The room is the lifelong project.</em>
 
 ## Why Vivek Ramaswamy Has Been Performing Since Harvard
 
@@ -149,7 +149,7 @@ The accusation is reductive but the timeline supports its outline. Vivek's umbre
 
 The Type 3 read on the Axovant arc is not that Vivek deliberately defrauded retirees. It is that his entire model of business is the model his personality was built for: <em>build the package. Sell the package. Let the underlying product catch up — or not.</em> The image is the asset.
 
-This is the Three's most dangerous instinct, run at scale and with capital. [Other Threes](/personality-analysis/Drake) mistake the LinkedIn profile for the self. Ramaswamy mistakes the IPO prospectus for the company. When the package fails publicly — as Axovant did — the Three's defense is to describe the failure as data, an _experiment that produced a clear result,_ a clean piece of intellectual property to be filed alongside the pitch deck for the next package.
+This is the Three's most dangerous instinct, run at scale and with capital. [Other Threes](/personality-analysis/drake) mistake the LinkedIn profile for the self. Ramaswamy mistakes the IPO prospectus for the company. When the package fails publicly — as Axovant did — the Three's defense is to describe the failure as data, an _experiment that produced a clear result,_ a clean piece of intellectual property to be filed alongside the pitch deck for the next package.
 
 By 2023 Roivant had become a real, profitable, multi-billion-dollar company. The package, in some cases, had grown a product underneath it. Vivek had also moved on.
 
@@ -157,7 +157,7 @@ By 2023 Roivant had become a real, profitable, multi-billion-dollar company. The
 
 Between the Roivant exit and the campaign launch, Ramaswamy did the two things that made the political Vivek possible. In August 2021 he published _Woke, Inc.: Inside Corporate America's Social Justice Scam._ It became a New York Times bestseller. The argument was that stakeholder capitalism — the idea that corporations should serve social and political causes alongside shareholders — was a power grab dressed up as virtue. CEOs were buying political influence they had not won at any ballot box. ESG was the cover story. The prize was leverage. The book did the diagnostic work. It also identified, with a Three's nose for unfilled rooms, a constituency that did not yet have an asset manager built for it.
 
-In May 2022, Ramaswamy and Anson Frericks — a former Anheuser-Busch sales president — launched Strive Asset Management. The pitch was the book turned into a financial product: passively manage retirement money for the Americans who did not want their proxy votes used to lobby Exxon for net-zero pledges. Strive raised about $20 million in its launch round. The investor sheet read like a JD Vance Rolodex because, in part, it was one. Peter Thiel's Founders Fund. Bill Ackman. Joe Lonsdale. Howard Lutnick. And Narya Capital — the venture firm of [JD Vance](/personality-analysis/JD-Vance), the Yale Law classmate Ramaswamy had spent law-school nights with at a New Haven bar that aired Cincinnati Bengals games for the few Ohio kids on campus.
+In May 2022, Ramaswamy and Anson Frericks — a former Anheuser-Busch sales president — launched Strive Asset Management. The pitch was the book turned into a financial product: passively manage retirement money for the Americans who did not want their proxy votes used to lobby Exxon for net-zero pledges. Strive raised about $20 million in its launch round. The investor sheet read like a JD Vance Rolodex because, in part, it was one. Peter Thiel's Founders Fund. Bill Ackman. Joe Lonsdale. Howard Lutnick. And Narya Capital — the venture firm of [JD Vance](/personality-analysis/jd-vance), the Yale Law classmate Ramaswamy had spent law-school nights with at a New Haven bar that aired Cincinnati Bengals games for the few Ohio kids on campus.
 
 Vance and Ramaswamy graduated from Yale Law in the same 2013 class. They had nothing in common except Ohio and ambition. By 2022, Vance was running for Senate in Ohio with Thiel money behind him, and his venture fund was writing Ramaswamy an early check on Strive. Two Yale Law Threes — different wounds, similar engines — had figured out that the next room was the conservative donor class, and that the donor class would pay to be told what it already believed.
 
@@ -252,7 +252,7 @@ Addressed the Fresh Eyes Review above:
 
 Big issues (all addressed):
 - Added new H2 "Why Vivek Ramaswamy Started Strive Asset Management" between Roivant and Skinny Guy. Covers Woke, Inc. (Aug 2021, NYT bestseller, stakeholder-capitalism thesis), Strive launch (May 2022, ~$20M, Anson Frericks co-founder), full investor list (Thiel/Founders Fund, Ackman, Lonsdale, Lutnick, JD Vance via Narya Capital), Yale Law 2013 cohort, Bengals-bar friendship in New Haven, and Feb 2023 Vivek stepdown to run for president.
-- JD Vance now named explicitly with internal cross-link to /personality-analysis/JD-Vance.
+- JD Vance now named explicitly with internal cross-link to /personality-analysis/jd-vance.
 - Woke, Inc. opened with subtitle, NYT bestseller status, and one-line thesis instead of being name-dropped twice.
 
 Expansions (all added):

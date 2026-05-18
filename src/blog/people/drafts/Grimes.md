@@ -5,14 +5,14 @@ persona_title: "Music's Boundless Futurist"
 description: 'Grimes keeps outrunning pain through reinvention, building personas, worlds, and futures faster than real life can catch up.'
 author: 'DJ Wayne'
 date: '2023-12-07'
-loc: 'https://9takes.com/personality-analysis/Grimes'
+loc: 'https://9takes.com/personality-analysis/grimes'
 lastmod: '2026-01-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['musician', 'alternative-artist']
-person: 'Grimes'
+person: 'grimes'
 suggestions: ['Elon Musk', 'Billie Eilish', 'Lana Del Rey', 'Kanye', 'Lady Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Grimes_(musician)'
 twitter: 'Grimezsz'
@@ -198,7 +198,7 @@ The Seven's relationship with success is complicated. Achievement matters less t
 
 ## The Musk Era: Love, Children, and Conflict
 
-Grimes' relationship with <a href="/personality-analysis/Elon-Musk">Elon Musk</a> began in 2018 and produced three children with names that read like science fiction: X Æ A-Xii (born 2020), Exa Dark Sideræl (born 2021), and Techno Mechanicus (born 2022).
+Grimes' relationship with <a href="/personality-analysis/elon-musk">Elon Musk</a> began in 2018 and produced three children with names that read like science fiction: X Æ A-Xii (born 2020), Exa Dark Sideræl (born 2021), and Techno Mechanicus (born 2022).
 
 The pairing made a strange kind of sense. Both share transhumanist interests, fascination with simulation theory, tendency toward bold public statements. Musk's [Type 5](/enneagram-corner/enneagram-type-5) systematic brilliance complemented Grimes' Type 7 creative chaos. At least initially.
 
@@ -256,7 +256,7 @@ The contradiction is real and she doesn't fully resolve it. When photographed re
 
 ### Distancing from Musk: January 2025
 
-The contradictions reached a breaking point in January 2025. When Musk made a gesture many described as a Nazi salute during <a href="/personality-analysis/Donald-Trump">Donald Trump</a>'s inauguration events, intense pressure fell on Grimes to respond.
+The contradictions reached a breaking point in January 2025. When Musk made a gesture many described as a Nazi salute during <a href="/personality-analysis/donald-trump">Donald Trump</a>'s inauguration events, intense pressure fell on Grimes to respond.
 
 Her initial reaction was distinctly Seven: refusing to be pinned down. "It's absurd that someone can be this cancelled for something their ex did before they even heard it happened," she wrote. "I am not him. I will not make a statement every time he does something."
 

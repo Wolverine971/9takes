@@ -5,14 +5,14 @@ persona_title: "Hollywood's Armored Enthusiast"
 description: "Behind Tom Holland's infectious energy is a man who quit alcohol, quit social media, and plans to disappear. The psychology of Spider-Man's real-life mask."
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Tom-Holland'
+loc: 'https://9takes.com/personality-analysis/tom-holland'
 lastmod: '2026-03-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['newMovieStar', 'rising-star']
-person: 'Tom-Holland'
+person: 'tom-holland'
 suggestions: ['Zendaya', 'Timothee-Chalamet', 'Robert-Downey-Jr', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Tom_Holland'
 twitter: 'TomHolland1996'
@@ -110,7 +110,7 @@ His brother Harry, the tech-savvy one, was skeptical. Sony had just been hacked.
 
 The story is charming. It's also revealing. Holland didn't get a phone call from his agent or a congratulatory email from Kevin Feige. He found out about the biggest moment of his career the same way a fan would, scrolling the internet, alone in his room. The most important news of his life arrived as content.
 
-Six auditions. A screen test with [Robert Downey Jr.](/personality-analysis/Robert-Downey-Jr) where RDJ calmed him by saying, "Look, I felt exactly the same as you did when I did my test for Iron Man, but just relax, let your body take over."
+Six auditions. A screen test with [Robert Downey Jr.](/personality-analysis/robert-downey-jr) where RDJ calmed him by saying, "Look, I felt exactly the same as you did when I did my test for Iron Man, but just relax, let your body take over."
 
 Then came Day 1 on set of _Civil War_. Holland arrived and discovered his lines had been "cut significantly." He was a kid. He didn't know what to do. Robert Downey Jr. went to the Russo Brothers and advocated for all of Holland's lines to be shot. "Shoot it all," RDJ said. "You can cut it later if you want."
 
@@ -128,7 +128,7 @@ One of the biggest studios in the world, contacted by a photographer from Kingst
 
 Then came the spoilers.
 
-He revealed there would be Spider-Man sequels before the first film was released. He spoiled an _Infinity War_ plot point to a live audience. He almost blurted out who bought Avengers Tower on camera before [Zendaya](/personality-analysis/Zendaya) physically covered his mouth with her hand. Jimmy Kimmel asked his castmates who was least trustworthy with secrets. Everyone pointed at Holland.
+He revealed there would be Spider-Man sequels before the first film was released. He spoiled an _Infinity War_ plot point to a live audience. He almost blurted out who bought Avengers Tower on camera before [Zendaya](/personality-analysis/zendaya) physically covered his mouth with her hand. Jimmy Kimmel asked his castmates who was least trustworthy with secrets. Everyone pointed at Holland.
 
 Marvel started giving him incomplete scripts.
 
@@ -268,7 +268,7 @@ The man who can't keep any secret kept the biggest one.
 
 ## What He's Building Now
 
-Two Tom Holland movies release in July 2026, two weeks apart. Christopher Nolan's _The Odyssey_ (July 17), where he plays Telemachus, Odysseus's son, alongside Matt Damon, Zendaya, and [Anne Hathaway](/personality-analysis/Anne-Hathaway). Then _Spider-Man: Brand New Day_ (July 31), his fourth turn in the suit. Sony moved the release date specifically so he wouldn't compete with himself for IMAX screens.
+Two Tom Holland movies release in July 2026, two weeks apart. Christopher Nolan's _The Odyssey_ (July 17), where he plays Telemachus, Odysseus's son, alongside Matt Damon, Zendaya, and [Anne Hathaway](/personality-analysis/anne-hathaway). Then _Spider-Man: Brand New Day_ (July 31), his fourth turn in the suit. Sony moved the release date specifically so he wouldn't compete with himself for IMAX screens.
 
 "The script is the best script I've ever read," he said about _The Odyssey_. "The job of a lifetime, without a doubt."
 

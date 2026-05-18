@@ -5,14 +5,14 @@ persona_title: "Nashville's Counterphobic Watchdog"
 description: 'Morgan Wallen assumes the worst in everyone he meets. The Enneagram explains why — and what it costs him.'
 author: 'DJ Wayne'
 date: '2026-03-27'
-loc: 'https://9takes.com/personality-analysis/Morgan-Wallen'
+loc: 'https://9takes.com/personality-analysis/morgan-wallen'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['musician']
-person: 'Morgan-Wallen'
+person: 'morgan-wallen'
 suggestions: ['Post-Malone', 'Jelly-Roll', 'Theo-Von', 'Dolly-Parton']
 wikipedia: 'https://en.wikipedia.org/wiki/Morgan_Wallen'
 twitter: 'MorganWallen'
@@ -138,13 +138,13 @@ Then there's Hardy. And Ernest.
 
 These aren't just collaborators. "I talk to Ern every day and I talk to Morgan every day, if not every day, five times a week," Hardy has said.
 
-<a href="/personality-analysis/Jelly-Roll">Jelly Roll</a> put it in historical terms: "Ernest, Hardy and Morgan have created a sense of actual genuine friendship in the music business that hasn't been seen since how Waylon and Willie were with each other."
+<a href="/personality-analysis/jelly-roll">Jelly Roll</a> put it in historical terms: "Ernest, Hardy and Morgan have created a sense of actual genuine friendship in the music business that hasn't been seen since how Waylon and Willie were with each other."
 
 Hardy's description of the dynamic is more revealing: "If Ern wins, I win. And if I win, Morgan wins. We all had nothing at the same time and then had something at the same time, and there's just something cool about, like, coming up together."
 
 Morgan took Hardy on tour. Then brought them both back. Ernest has joked, "I'd be broke if it wasn't for Morgan Wallen." It's funny because it's half true, and it's loyal because nobody cares.
 
-And then there's <a href="/personality-analysis/Theo-Von">Theo Von</a>, the comedian who somehow became one of Morgan's closest confidants. They do Bible study together. Not casually. They have a prayer list. When a fan's mother was facing brain surgery, Morgan FaceTimed her and told her she'd been added to the group's list. A comedian and a country star, praying together over people they've never met. Eric Church said this about him: **"I would trust him with my kids."**
+And then there's <a href="/personality-analysis/theo-von">Theo Von</a>, the comedian who somehow became one of Morgan's closest confidants. They do Bible study together. Not casually. They have a prayer list. When a fan's mother was facing brain surgery, Morgan FaceTimed her and told her she'd been added to the group's list. A comedian and a country star, praying together over people they've never met. Eric Church said this about him: **"I would trust him with my kids."**
 
 This is the part of Morgan Wallen that the headlines miss entirely. The wall is high. But the people behind it aren't there because they passed a background check. They're there because they stuck around long enough for the wall to come down.
 

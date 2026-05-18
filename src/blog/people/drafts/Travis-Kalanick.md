@@ -5,14 +5,14 @@ persona_title: "Tech's Armored Disruptor"
 description: 'Travis Kalanick built Uber into a $70B empire then lost it all. The Enneagram reveals the pattern behind his rise, his fall, and his silent comeback.'
 author: 'DJ Wayne'
 date: '2026-03-23'
-loc: 'https://9takes.com/personality-analysis/Travis-Kalanick'
+loc: 'https://9takes.com/personality-analysis/travis-kalanick'
 lastmod: '2026-03-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['techie', 'entrepreneur', 'big-tech-founder']
-person: 'Travis-Kalanick'
+person: 'travis-kalanick'
 suggestions: ['Elon-Musk', 'Jeff-Bezos', 'Mark-Zuckerberg', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Travis_Kalanick'
 twitter: 'travis'
@@ -119,7 +119,7 @@ Red Swoosh sold to Akamai Technologies in 2007 for $19 million. Kalanick cleared
 
 When Kalanick co-founded Uber in 2009 with Garrett Camp, he brought every lesson from Scour and Red Swoosh with him. Every single one.
 
-He structured the company so he could never be pushed out. Super-voting shares. Tight information rights. He resisted hiring a CFO because he didn't want "a watchdog over his spending." He insisted on controlling the board composition even as Uber raised billions. Where [Jeff Bezos](/personality-analysis/Jeff-Bezos) — another Type 8 — channeled his intensity into customer obsession and systems thinking, Kalanick channeled his into a fortress designed to prevent one thing above all: another Scour.
+He structured the company so he could never be pushed out. Super-voting shares. Tight information rights. He resisted hiring a CFO because he didn't want "a watchdog over his spending." He insisted on controlling the board composition even as Uber raised billions. Where [Jeff Bezos](/personality-analysis/jeff-bezos) — another Type 8 — channeled his intensity into customer obsession and systems thinking, Kalanick channeled his into a fortress designed to prevent one thing above all: another Scour.
 
 And it worked — spectacularly. Under Kalanick's leadership, Uber expanded into 70+ countries, fought taxi regulators on every continent, and reached a valuation of $70 billion. He created 14 company values that read like what Mike Isaac, the New York Times journalist who wrote "Super Pumped," described as Amazon's corporate values run through a bro-speak translation engine:
 
@@ -176,7 +176,7 @@ The Enneagram Type 8 — often called "The Challenger" — is built on a single 
 
 Most people see Travis Kalanick as a power-hungry tech bro who built a toxic empire and got what he deserved. But power was never the engine. **Fear was.**
 
-A man motivated by power accumulates luxury. A man motivated by fear of vulnerability accumulates control. (Compare this to [Peter Thiel](/personality-analysis/Peter-Thiel), another tech titan whose entire architecture is built on fear rather than ambition.) Kalanick didn't build Uber to get rich. He built it so that the helplessness of Scour — the betrayal, the bankruptcy, the investor who switched sides — could never happen again.
+A man motivated by power accumulates luxury. A man motivated by fear of vulnerability accumulates control. (Compare this to [Peter Thiel](/personality-analysis/peter-thiel), another tech titan whose entire architecture is built on fear rather than ambition.) Kalanick didn't build Uber to get rich. He built it so that the helplessness of Scour — the betrayal, the bankruptcy, the investor who switched sides — could never happen again.
 
 You've read the facts. Here's what matters for the typing:
 
@@ -248,7 +248,7 @@ Is this genuine growth — the Type 8 integrating toward Type 2, discovering tha
 
 The evidence cuts both ways. In 2024, a former CloudKitchens salesperson named Isabella Vincenza filed a lawsuit alleging the company was a "boys' club" led by Kalanick — sexual harassment, pay discrimination, retaliation after maternity leave. She was one of the only female employees. By 2021, some employees reportedly felt CloudKitchens' workplace "was Uber all over again." The head of recruiting resigned after an internal misconduct investigation.
 
-[Kara Swisher](/personality-analysis/Kara-Swisher), who wrote a glowing Vanity Fair profile of Kalanick in 2014 ("he was not as much of a jerk as I thought he was"), had by 2023 recast him as "the ever-uglier face of tech" who adopted a "dehumanizing attitude" toward everyone he worked with. She publicly challenged Arianna Huffington for suggesting Kalanick had been "redeemed." Tech journalist Om Malik called Kalanick "a complicated man, with real ideas, trying to rebuild reputation and company at the same time, using the same tools and instincts that made him famous the first time." TechCrunch drew explicit parallels between Atoms' acquisition of autonomous vehicle startup Pronto and Uber's disastrous 2016 acquisition of Anthony Levandowski's Otto, which ended in the Waymo trade-secret lawsuit.
+[Kara Swisher](/personality-analysis/kara-swisher), who wrote a glowing Vanity Fair profile of Kalanick in 2014 ("he was not as much of a jerk as I thought he was"), had by 2023 recast him as "the ever-uglier face of tech" who adopted a "dehumanizing attitude" toward everyone he worked with. She publicly challenged Arianna Huffington for suggesting Kalanick had been "redeemed." Tech journalist Om Malik called Kalanick "a complicated man, with real ideas, trying to rebuild reputation and company at the same time, using the same tools and instincts that made him famous the first time." TechCrunch drew explicit parallels between Atoms' acquisition of autonomous vehicle startup Pronto and Uber's disastrous 2016 acquisition of Anthony Levandowski's Otto, which ended in the Waymo trade-secret lawsuit.
 
 ## The Question the Armor Can't Answer
 

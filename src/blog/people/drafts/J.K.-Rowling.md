@@ -4,14 +4,14 @@ meta_title: "Inside J.K. Rowling's Relentless Need to Fix Everything"
 description: "How J.K. Rowling's private grief, moral fury, and fifteen-draft perfectionism reveal the psychology of an Enneagram Type 1."
 author: 'DJ Wayne'
 date: '2025-12-11'
-loc: 'https://9takes.com/personality-analysis/J.K.-Rowling'
+loc: 'https://9takes.com/personality-analysis/j.k.-rowling'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
 type: ['author', 'novelist']
-person: 'J.K.-Rowling'
+person: 'j.k.-rowling'
 suggestions: ['Emma-Watson', 'Hillary-Clinton', 'Greta-Thunberg', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/J._K._Rowling'
 twitter: 'jk_rowling'
@@ -228,7 +228,7 @@ The language she used to describe the decision is revealing. Not strategic langu
 
 "I didn't think, 'I can't wait for this, this is going to be amazing.' I really thought 'this is going to be horrible, but I've got to do it.'"
 
-The cost was immediate. Death threats. Rape threats. Her family's address published online alongside bomb-making instructions. The [Emma Watson](/personality-analysis/Emma-Watson) she had helped launch distanced herself publicly. Daniel Radcliffe called her views deeply saddening. She later responded to the actors who distanced themselves with a bluntness that matched the original provocation.
+The cost was immediate. Death threats. Rape threats. Her family's address published online alongside bomb-making instructions. The [Emma Watson](/personality-analysis/emma-watson) she had helped launch distanced herself publicly. Daniel Radcliffe called her views deeply saddening. She later responded to the actors who distanced themselves with a bluntness that matched the original provocation.
 
 "I still don't regret standing up," she said, "but it certainly hasn't given me pleasure on any level."
 

@@ -5,14 +5,14 @@ persona_title: "Podcasting's Honest Adrenaline Junkie"
 description: 'Why does Dax Shepard chase speed, honesty, and vulnerability? Inside his Enneagram Type 7 personality and what drives the man behind Armchair Expert.'
 author: 'DJ Wayne'
 date: '2026-02-10'
-loc: 'https://9takes.com/personality-analysis/Dax-Shepard'
+loc: 'https://9takes.com/personality-analysis/dax-shepard'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'podcaster']
-person: 'Dax-Shepard'
+person: 'dax-shepard'
 suggestions: ['Kristen-Bell', 'Joe-Rogan', 'Tim-Ferriss', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Dax_Shepard'
 twitter: 'daborgs'
@@ -150,7 +150,7 @@ Kristen said keep it moving, you didn't lose eight years. He told a couple peopl
 
 ## How the World's Loudest Talker Learned to Listen
 
-When <a href="/personality-analysis/Kristen-Bell">Kristen Bell</a> first met Dax at a dinner party in 2007, she walked away with one impression: "This guy can talk!" No sparks. She thought he might be "one of the guys from Jackass or something."
+When <a href="/personality-analysis/kristen-bell">Kristen Bell</a> first met Dax at a dinner party in 2007, she walked away with one impression: "This guy can talk!" No sparks. She thought he might be "one of the guys from Jackass or something."
 
 He thought she and her friends were in a cult. Their unbridled happiness made him suspicious.
 
@@ -164,7 +164,7 @@ When he created Armchair Expert in 2018, it was supposed to be a conversation sh
 
 His co-host Monica Padman, who started as Kristen's personal assistant's roommate, grew into something no one planned for. She went from booking guests and fact-checking Dax's half-remembered college statistics to becoming an equal creative partner with her own show on the network. Their dynamic runs on sibling-like tension: she's fifteen years younger, they disagree on everything from politics to pronunciation, and she will call him on his shit without flinching. Dax credits that friction as the connective tissue that holds the show together across wildly different guests.
 
-"The biggest improvement I've made as an interviewer is learning to shut the [ __ ] up," Dax told <a href="/personality-analysis/Tim-Ferriss">Tim Ferriss</a>. He's also dyslexic, can't read quotes on air, has to memorize them beforehand, which he says forces him to think in pictures rather than words. He believes it makes him a better storyteller and more empathetic interviewer.
+"The biggest improvement I've made as an interviewer is learning to shut the [ __ ] up," Dax told <a href="/personality-analysis/tim-ferriss">Tim Ferriss</a>. He's also dyslexic, can't read quotes on air, has to memorize them beforehand, which he says forces him to think in pictures rather than words. He believes it makes him a better storyteller and more empathetic interviewer.
 
 He builds recurring questions, especially about guests' relationships with their mothers, not just as show structure, but as a way to process his own unresolved material in front of an audience. It's the kind of [deep emotional work](/enneagram-corner/enneagram-communication-styles) most people do in private, if they do it at all. He asks hundreds of strangers about their mom dynamics because he still hasn't fully reckoned with his own.
 

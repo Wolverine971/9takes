@@ -5,14 +5,14 @@ persona_title: "Omaha's Quiet Fortress"
 description: 'Warren Buffett built the greatest fortune in history by observing from a distance. The same withdrawal that made him billions made him lose what mattered most.'
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Warren-Buffett'
+loc: 'https://9takes.com/personality-analysis/warren-buffett'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['entrepreneur', 'business-operator']
-person: 'Warren-Buffett'
+person: 'warren-buffett'
 suggestions: ['Steve-Jobs', 'Jeff-Bezos', 'Elon-Musk', 'Bill-Gates']
 wikipedia: 'https://en.wikipedia.org/wiki/Warren_Buffett'
 twitter: ''
@@ -94,7 +94,7 @@ That sentence is the origin story. A boy who learned that attention is dangerous
 
 By his teens, the withdrawal was already taking shape in less expected ways. His grades plummeted. He shoplifted from Sears with friends. "We'd just steal the place blind," he admitted. He shorted AT&T stock in high school and brought proof to class to make his teachers nervous about their retirement funds.
 
-His father, Howard Buffett, a congressman and stockbroker, gave Warren structure and a moral compass. But the emotional architecture was Leila's accidental gift: the withdrawal, the observation from protected distances, the preference for systems over people. The wiring resembles what shaped [Steve Jobs](/personality-analysis/Steve-Jobs) into a different kind of obsessive. Where Jobs channeled early abandonment into control over products, Buffett channeled early volatility into control over information.
+His father, Howard Buffett, a congressman and stockbroker, gave Warren structure and a moral compass. But the emotional architecture was Leila's accidental gift: the withdrawal, the observation from protected distances, the preference for systems over people. The wiring resembles what shaped [Steve Jobs](/personality-analysis/steve-jobs) into a different kind of obsessive. Where Jobs channeled early abandonment into control over products, Buffett channeled early volatility into control over information.
 
 ---
 
@@ -207,7 +207,7 @@ Every principle he teaches maps directly onto how his mind already works:
 
 **"Be fearful when others are greedy. Be greedy when others are fearful."** This only works if you can detach from the emotional contagion of a crowd. Most people cannot. That narrow emotional range Schroeder described, the thing that cost him his marriage, is the exact trait that allowed him to buy when everyone else was selling in 2008.
 
-**"Delegation to the point of abdication."** Schroeder's phrase for his management style. Some Berkshire managers speak to him a couple of times a year. Some communicate only in writing. He doesn't micromanage because engagement costs energy, and energy is finite. The scarcity economy applies to management too. Compare this with [Jeff Bezos](/personality-analysis/Jeff-Bezos), who built Amazon by inserting himself into every operational detail, a fundamentally different engine driving a similarly massive outcome.
+**"Delegation to the point of abdication."** Schroeder's phrase for his management style. Some Berkshire managers speak to him a couple of times a year. Some communicate only in writing. He doesn't micromanage because engagement costs energy, and energy is finite. The scarcity economy applies to management too. Compare this with [Jeff Bezos](/personality-analysis/jeff-bezos), who built Amazon by inserting himself into every operational detail, a fundamentally different engine driving a similarly massive outcome.
 
 **"Time is the friend of the wonderful business."** Patience isn't a skill for Buffett. It's his natural state. He can read for ten hours a day because that's what his mind wants to do. He can hold a stock for forty years because emotional urgency doesn't register the way it does in other people. The long game is pure temperament.
 

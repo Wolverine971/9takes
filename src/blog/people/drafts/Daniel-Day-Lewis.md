@@ -5,14 +5,14 @@ meta_title: 'Why Daniel Day-Lewis Quit Acting (The Real Reason Nobody Talks Abou
 description: 'Daniel Day-Lewis built the most airtight fortress in cinema — becoming other people. Then the fortress became a prison he had to escape.'
 author: 'DJ Wayne'
 date: '2026-04-03'
-loc: 'https://9takes.com/personality-analysis/Daniel-Day-Lewis'
+loc: 'https://9takes.com/personality-analysis/daniel-day-lewis'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['movieStar', 'screen-icon']
-person: 'Daniel-Day-Lewis'
+person: 'daniel-day-lewis'
 suggestions: ['Cillian-Murphy', 'Robert-Greene', 'Mark-Zuckerberg', 'Rooney-Mara']
 wikipedia: 'https://en.wikipedia.org/wiki/Daniel_Day-Lewis'
 twitter: ''

@@ -5,14 +5,14 @@ persona_title: "Late Night's Restless Alchemist"
 description: "Inside Conan O'Brien's psychology: how childhood anxiety, the Tonight Show crisis, and a 40-year sprint reveal an Enneagram Type 7 running from stillness."
 author: 'DJ Wayne'
 date: '2026-04-08'
-loc: 'https://9takes.com/personality-analysis/Conan-OBrien'
+loc: 'https://9takes.com/personality-analysis/conan-obrien'
 lastmod: '2026-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['comedian', 'creator', 'podcaster']
-person: 'Conan-OBrien'
+person: 'conan-obrien'
 suggestions: ['jon-stewart', 'dax-shepard', 'jimmy-fallon', 'kevin-hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Conan_O%27Brien'
 twitter: 'ConanOBrien'

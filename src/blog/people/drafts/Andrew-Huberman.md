@@ -5,14 +5,14 @@ meta_title: 'Andrew Huberman Enneagram Type 5: Protocols and Psychology'
 description: 'Andrew Huberman had a childhood tic he could only control by learning. That same psychology now runs a wellness empire — and nearly destroyed his personal life.'
 author: 'DJ Wayne'
 date: '2025-12-21'
-loc: 'https://9takes.com/personality-analysis/Andrew-Huberman'
+loc: 'https://9takes.com/personality-analysis/andrew-huberman'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['creator', 'podcaster']
-person: 'Andrew-Huberman'
+person: 'andrew-huberman'
 suggestions: ['Lex-Fridman', 'Joe-Rogan', 'Jocko-Willink', 'Bill-Gates']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Huberman'
 twitter: 'hubermanlab'
@@ -135,7 +135,7 @@ This validation of self-reliance, paired with tools for introspection, catalyzed
 
 Here is arguably the most interesting fact about Andrew Huberman: he has done therapy twice a week since he was a teenager. Over 30 years. With the same therapist.
 
-"I've done therapy twice a week since I was a kid," he told [Lex Fridman](/personality-analysis/Lex-Fridman). "I had to as a condition of being let back in school." But the condition became a commitment. When he was a broke postdoctoral researcher at Stanford, he took an extra job writing a music column for Thrasher Magazine — not for career advancement, but to afford his sessions. The therapist's office was conveniently located "within a half mile of my favorite skateboard spot."
+"I've done therapy twice a week since I was a kid," he told [Lex Fridman](/personality-analysis/lex-fridman). "I had to as a condition of being let back in school." But the condition became a commitment. When he was a broke postdoctoral researcher at Stanford, he took an extra job writing a music column for Thrasher Magazine — not for career advancement, but to afford his sessions. The therapist's office was conveniently located "within a half mile of my favorite skateboard spot."
 
 He compares it to physical training: "Therapy is hard work, especially if you're trying to gain real insights. It's like going to the gym and doing an effective workout." And he's specific about what he wants from it — not comfort, but confrontation: "Someone who has rapport with me" but not "someone who's going to make it easy... then that means they're not talking about the difficult things."
 
@@ -191,7 +191,7 @@ For someone whose public persona is built on mechanisms and protocols, this grie
 
 ## What the Empire Reveals About the Psychology
 
-Huberman Lab launched in 2021 and within two years was top 10 globally, with over 7 million YouTube subscribers. His early [Joe Rogan](/personality-analysis/Joe-Rogan) appearances — particularly a 2021 sleep episode that became one of the most-shared health conversations on the internet — pulled him from academia into mass culture.
+Huberman Lab launched in 2021 and within two years was top 10 globally, with over 7 million YouTube subscribers. His early [Joe Rogan](/personality-analysis/joe-rogan) appearances — particularly a 2021 sleep episode that became one of the most-shared health conversations on the internet — pulled him from academia into mass culture.
 
 For a Type 5, the impulse to organize and disseminate knowledge is the same whether the audience is twelve graduate students or twelve million listeners. The scale changed. The drive didn’t.
 
@@ -215,7 +215,7 @@ A spokesperson for Huberman denied many claims but did not contest that he had c
 
 ### The “Non-Apology Tour”
 
-For over a month after the article dropped, Huberman remained silent — the Type 5's first instinct under pressure. Withdraw. Process privately. Control the information until you're ready. When he finally addressed the allegations, it was on [Jocko Willink's](/personality-analysis/Jocko-Willink) podcast in a carefully controlled environment.
+For over a month after the article dropped, Huberman remained silent — the Type 5's first instinct under pressure. Withdraw. Process privately. Control the information until you're ready. When he finally addressed the allegations, it was on [Jocko Willink's](/personality-analysis/jocko-willink) podcast in a carefully controlled environment.
 
 In approximately 15 minutes of a three-plus-hour conversation, Huberman offered what critics called a “non-apology." As writer Derek Beres observed: “Men in the bro cave don’t apologize."
 

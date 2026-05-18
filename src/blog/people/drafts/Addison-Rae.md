@@ -5,14 +5,14 @@ meta_title: 'Why Addison Rae Became Cool Again (After the Internet Wrote Her Off
 description: 'The internet called her cringe in 2021. By 2026, she was Grammy-nominated. Addison Rae treated every public failure as data for the next reinvention.'
 author: 'DJ Wayne'
 date: '2026-01-17'
-loc: 'https://9takes.com/personality-analysis/Addison-Rae'
+loc: 'https://9takes.com/personality-analysis/addison-rae'
 lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator', 'musician', 'tiktoker', 'lifestyle-builder', 'music-crossover']
-person: 'Addison-Rae'
+person: 'addison-rae'
 suggestions:
   ['Alix-Earle', "Charli-D'Amelio", 'Emma-Chamberlain', 'Sydney-Sweeney', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Addison_Rae'
@@ -152,7 +152,7 @@ She learned it the hard way: public relationships are content. And content can b
 
 ## The Friendship That Raised Eyebrows
 
-In 2021, Addison became close friends with [Kourtney Kardashian](/personality-analysis/Kourtney-Kardashian). The more than 20-year age gap surprised people.
+In 2021, Addison became close friends with [Kourtney Kardashian](/personality-analysis/kourtney-kardashian). The more than 20-year age gap surprised people.
 
 The connection started through Kourtney's son Mason, who wanted TikTok help. But it evolved into genuine friendship: workouts together, appearances on each other's content, support during career transitions.
 
@@ -266,7 +266,7 @@ She learned from her first public relationship. Love and career are separate. Wh
 
 ## The Portfolio, Not the Career
 
-Acting roles have gotten deliberately stranger: a horror film, a Ryan Murphy true-crime series, a comedy alongside [Ryan Reynolds](/personality-analysis/Ryan-Reynolds) and [Aubrey Plaza](/personality-analysis/Aubrey-Plaza). Fashion campaigns have climbed in specificity — Saint Laurent, Marc Jacobs x Vaquera. And in 2021, she donated $1 million in gaming tournament prize money to No Kid Hungry without making it a content moment.
+Acting roles have gotten deliberately stranger: a horror film, a Ryan Murphy true-crime series, a comedy alongside [Ryan Reynolds](/personality-analysis/ryan-reynolds) and [Aubrey Plaza](/personality-analysis/aubrey-plaza). Fashion campaigns have climbed in specificity — Saint Laurent, Marc Jacobs x Vaquera. And in 2021, she donated $1 million in gaming tournament prize money to No Kid Hungry without making it a content moment.
 
 She's running a portfolio, not a career. Which might be the most Type 3 sentence in this piece.
 
@@ -408,7 +408,7 @@ This is a solid B+ draft that's one revision away from something memorable. The 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Addison-Rae",
+        "@id": "https://9takes.com/personality-analysis/addison-rae",
         "@type": "WebPage"
       },
       "mentions": {

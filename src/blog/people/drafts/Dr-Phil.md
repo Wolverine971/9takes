@@ -5,14 +5,14 @@ persona_title: "Television's Tough-Love Patriarch"
 description: "Inside Dr. Phil's Enneagram Type 8 personality—from sleeping in cardboard boxes to building a $400M empire on confrontation."
 author: 'DJ Wayne'
 date: '2026-03-29'
-loc: 'https://9takes.com/personality-analysis/Dr-Phil'
+loc: 'https://9takes.com/personality-analysis/dr-phil'
 lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['other']
-person: 'Dr-Phil'
+person: 'dr-phil'
 suggestions: ['Oprah-Winfrey', 'Joe-Rogan', 'Jordan-Peterson', 'Andrew-Tate']
 wikipedia: 'https://en.wikipedia.org/wiki/Phil_McGraw'
 twitter: 'DrPhil'
@@ -144,13 +144,13 @@ You can see both in Phil's life. The Merit Street Media bankruptcy — a venture
 
 In 1995, Oprah Winfrey's lawyers needed someone to prepare her for the Amarillo, Texas beef defamation trial. Texas cattlemen were suing her for $100 million after she said a segment about mad cow disease "stopped me cold from eating another burger." They hired Courtroom Sciences.
 
-Phil McGraw traveled to Chicago. He prepped [Oprah](/personality-analysis/Oprah-Winfrey) for trial. She won.
+Phil McGraw traveled to Chicago. He prepped [Oprah](/personality-analysis/oprah-winfrey) for trial. She won.
 
 Winfrey was so impressed she gave him a nickname — "Tell It Like It Is Phil" — and started putting him on her show. His first appearance as a counselor is revealing. A woman described her grief over a failed marriage where her husband mistreated her. McGraw's response wasn't empathy. It wasn't validation. He gently criticized her for allowing her husband to show her a continual lack of respect and told her the time had come for her to start treating herself with dignity.
 
 The audience loved it. Not because it was gentle. Because it was the opposite of gentle. It was someone saying out loud what everyone else was thinking. It was confrontation dressed up as care.
 
-By April 1998, Phil was appearing weekly on Oprah's show. By September 2002, he had his own. The Dr. Phil show ran for 21 seasons, over 3,500 episodes, and generated enough money to build a $400 million fortune. His books — five #1 New York Times bestsellers, ten total, published in 37 languages, 22 million copies — all carried the same message: stop making excuses, take accountability, face reality. Where someone like [Jordan Peterson](/personality-analysis/Jordan-Peterson) wraps his psychology in mythology and moral philosophy, Phil stripped his down to the studs. No theory. No nuance. Just action.
+By April 1998, Phil was appearing weekly on Oprah's show. By September 2002, he had his own. The Dr. Phil show ran for 21 seasons, over 3,500 episodes, and generated enough money to build a $400 million fortune. His books — five #1 New York Times bestsellers, ten total, published in 37 languages, 22 million copies — all carried the same message: stop making excuses, take accountability, face reality. Where someone like [Jordan Peterson](/personality-analysis/jordan-peterson) wraps his psychology in mythology and moral philosophy, Phil stripped his down to the studs. No theory. No nuance. Just action.
 
 "You create your own experience."
 

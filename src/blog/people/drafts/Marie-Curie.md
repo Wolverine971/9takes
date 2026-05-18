@@ -5,14 +5,14 @@ persona_title: "Science's Patient Excavator"
 description: "She said nothing should be feared, only understood — and kept radium in her pocket. Inside Marie Curie's Type 5 mind and the element that killed her."
 author: 'DJ Wayne'
 date: '2026-05-04'
-loc: 'https://9takes.com/personality-analysis/Marie-Curie'
+loc: 'https://9takes.com/personality-analysis/marie-curie'
 lastmod: '2026-05-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
 type: ['historical', 'historical-scientist']
-person: 'Marie-Curie'
+person: 'marie-curie'
 suggestions: ['Agatha-Christie', 'Leonardo-Da-Vinci', 'Bill-Gates', 'Friedrich-Nietzsche']
 wikipedia: 'https://en.wikipedia.org/wiki/Marie_Curie'
 twitter: ''
@@ -320,7 +320,7 @@ Internal links added (5):
 - Type 6 → /enneagram-corner/enneagram-type-6 (wing)
 - Type 5 stress → /enneagram-corner/enneagram-types-in-stress (no, dropped to keep links to 5; replaced with overthinking link)
 - Overthinking → /enneagram-corner/why-you-cant-stop-overthinking-enneagram (head-type framing)
-- Bill Gates → /personality-analysis/Bill-Gates (Type 5 problem-solver comparison) -->
+- Bill Gates → /personality-analysis/bill-gates (Type 5 problem-solver comparison) -->
 
 ---
 

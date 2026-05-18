@@ -5,14 +5,14 @@ persona_title: "Fantasy's Emotional Architect"
 description: 'How an adopted girl who rewrote Cinderella as an assassin became the most dominant fantasy author alive by turning her pain into mythology.'
 author: 'DJ Wayne'
 date: '2026-03-04'
-loc: 'https://9takes.com/personality-analysis/Sarah-J-Maas'
+loc: 'https://9takes.com/personality-analysis/sarah-j-maas'
 lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['author', 'novelist']
-person: 'Sarah-J-Maas'
+person: 'sarah-j-maas'
 suggestions: ['J.K.-Rowling', 'Taylor-Swift', 'Ariana-Grande', 'Charli-xcx']
 wikipedia: 'https://en.wikipedia.org/wiki/Sarah_J._Maas'
 twitter: ''

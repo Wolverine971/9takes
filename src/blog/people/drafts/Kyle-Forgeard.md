@@ -5,14 +5,14 @@ persona_title: "Content's Restless Empire Builder"
 description: "Inside Kyle Forgeard's mind: how a kid making funny videos in Mississauga built a $300M empire, and why his body almost collapsed before he'd slow down."
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Kyle-Forgeard'
+loc: 'https://9takes.com/personality-analysis/kyle-forgeard'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
-person: 'Kyle-Forgeard'
+person: 'kyle-forgeard'
 suggestions: ['David-Dobrik', 'Kai-Cenat', 'Andrew-Schulz', 'Adin-Ross']
 wikipedia: 'https://en.wikipedia.org/wiki/Nelk'
 twitter: 'https://twitter.com/kaborForgeard'
@@ -90,7 +90,7 @@ Between trips, Kyle worked at a golf course back in Canada. Five years of it. Sa
 
 ## What YouTube Demonetization Built
 
-Most creators treat demonetization as a death sentence. For comparison, [David Dobrik](/personality-analysis/David-Dobrik), another Type 7 creator, saw his empire crater when controversy hit; he retreated. Kyle accelerated. NELK got demonetized early because YouTube pulled their ad revenue over prank content that kept pushing boundaries. Arrests at a Target in Mississippi. An arrest for impersonating a mall security officer in Texas. A warrant in Ohio after a fake drunk-driving prank. A college party at Illinois State University during COVID that got them investigated by local officials.
+Most creators treat demonetization as a death sentence. For comparison, [David Dobrik](/personality-analysis/david-dobrik), another Type 7 creator, saw his empire crater when controversy hit; he retreated. Kyle accelerated. NELK got demonetized early because YouTube pulled their ad revenue over prank content that kept pushing boundaries. Arrests at a Target in Mississippi. An arrest for impersonating a mall security officer in Texas. A warrant in Ohio after a fake drunk-driving prank. A college party at Illinois State University during COVID that got them investigated by local officials.
 
 Every incident was content. Every consequence was fuel.
 

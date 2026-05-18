@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Empty Costume"
 description: "Why is there nothing left of Elizabeth Holmes when the costume comes off? A Type 3 reading of the Theranos founder, from age-9 letter to prison rebrand."
 author: 'DJ Wayne'
 date: '2026-05-07'
-loc: 'https://9takes.com/personality-analysis/Elizabeth-Holmes'
+loc: 'https://9takes.com/personality-analysis/elizabeth-holmes'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
 type: ['entrepreneur', 'techie', 'business-operator']
-person: 'Elizabeth-Holmes'
+person: 'elizabeth-holmes'
 suggestions: ['Steve-Jobs', 'Anna-Wintour', 'Gwyneth-Paltrow', 'Hillary-Clinton']
 wikipedia: 'https://en.wikipedia.org/wiki/Elizabeth_Holmes'
 production_pretext:
@@ -131,7 +131,7 @@ By the time the world heard Elizabeth Holmes speak, she had a voice — unusuall
 
 It was fake. In a 2023 New York Times interview, Holmes spoke in her natural higher pitch and quietly confirmed the deep voice had been an affectation. Former Theranos employees had said as much for years. Ana Arriola, an early design lead, remembered hearing Holmes drop the baritone at a company gathering and revert briefly to a younger woman's voice. John Carreyrou, the journalist who broke the story, recounted a 2011 episode where a new employee saw the same slip.
 
-Holmes told _Glamour_ in 2015 that the black turtleneck was her grandmother's idea, that her mother had her in turtlenecks at eight, that "all my focus is on the work." Most reporting traces it more directly to a different source. The Issey Miyake mock-neck reissued in 2017 — the exact one <a href="/personality-analysis/Steve-Jobs">Steve Jobs</a> wore for keynotes — was the one she wore. She bought them in bulk.
+Holmes told _Glamour_ in 2015 that the black turtleneck was her grandmother's idea, that her mother had her in turtlenecks at eight, that "all my focus is on the work." Most reporting traces it more directly to a different source. The Issey Miyake mock-neck reissued in 2017 — the exact one <a href="/personality-analysis/steve-jobs">Steve Jobs</a> wore for keynotes — was the one she wore. She bought them in bulk.
 
 The unblinking stare was real, in the sense that her eyes did the thing people described. Carreyrou wrote in _Bad Blood_ that "the way she trained her big blue eyes on you without blinking made you feel like the center of the world." Henry Kissinger, profiled in _Time_, used the word _ethereal_ for the same effect. A body language analyst, watching footage years later, called it sociopathic. All three readings are wrong in the same way. They treated the stare as a fact about her. It was a behavior. It was something she did, like wearing the turtleneck or lowering the voice. It was a piece of the costume.
 

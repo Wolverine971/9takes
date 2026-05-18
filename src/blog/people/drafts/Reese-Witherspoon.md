@@ -5,14 +5,14 @@ persona_title: "Hollywood's Relentless Architect"
 description: "Behind the Southern charm and billion-dollar empire: what drives Reese Witherspoon's relentless reinvention and why she can't slow down."
 author: 'DJ Wayne'
 date: '2026-04-09'
-loc: 'https://9takes.com/personality-analysis/Reese-Witherspoon'
+loc: 'https://9takes.com/personality-analysis/reese-witherspoon'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'entrepreneur', 'screen-icon', 'business-operator']
-person: 'Reese-Witherspoon'
+person: 'reese-witherspoon'
 suggestions: ['Jennifer-Garner', 'Oprah-Winfrey', 'Blake-Lively', 'Natalie-Portman']
 wikipedia: 'https://en.wikipedia.org/wiki/Reese_Witherspoon'
 twitter: '@ReeseW'
@@ -224,7 +224,7 @@ In 2012, she co-founded Pacific Standard Films with the specific mission of prod
 
 "I stopped waiting around for the phone to ring," she's said. "I started generating my own material."
 
-Then came _Big Little Lies_, which she produced and starred in alongside <a href="/personality-analysis/Nicole-Kidman">Nicole Kidman</a>. Then _Little Fires Everywhere_. Then _The Morning Show_. Each project followed the same blueprint: find a book by or about women, acquire the rights, develop it, star in it or executive produce it.
+Then came _Big Little Lies_, which she produced and starred in alongside <a href="/personality-analysis/nicole-kidman">Nicole Kidman</a>. Then _Little Fires Everywhere_. Then _The Morning Show_. Each project followed the same blueprint: find a book by or about women, acquire the rights, develop it, star in it or executive produce it.
 
 In 2016, she formalized this into Hello Sunshine — a media company with a stated mission to "change the narrative for women." At a Harvard Business School fireside chat in November 2025, she said what drove the company's founding: "Women were rarely the architects of their own stories." A Three who'd spent decades being cast in other people's visions had decided to become the architect.
 

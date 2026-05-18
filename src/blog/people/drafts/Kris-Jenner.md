@@ -5,14 +5,14 @@ persona_title: "Hollywood's Calculated Matriarch"
 description: "What drives the woman who turned her family into a billion-dollar brand? Inside Kris Jenner's psychology — from childhood abandonment to momager empire."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Kris-Jenner'
+loc: 'https://9takes.com/personality-analysis/kris-jenner'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator']
-person: 'Kris-Jenner'
+person: 'kris-jenner'
 suggestions: ['Kim-Kardashian', 'Khloe-Kardashian', 'Kylie-Jenner', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Kris_Jenner'
 twitter: '@KrisJenner'
@@ -212,7 +212,7 @@ The word exists because Kris needed it to. No existing title captured what she w
 
 But the show didn't materialize from nothing. In early 2007, a sex tape featuring Kim and her ex-boyfriend Ray J leaked, or was released, depending on who you believe. Kim sued Vivid Entertainment, then dropped the lawsuit and settled for a reported $5 million. Ray J has since alleged that Kris was in the room for the negotiation, that she watched multiple tapes and selected the one that presented Kim most favorably. Kris and Kim have denied this under oath. The allegations have escalated through lawsuits into 2026.
 
-What is not disputed: the tape made [Kim Kardashian](/personality-analysis/Kim-Kardashian) the most searched name on the internet. And seven months later, producer Ryan Seacrest hired a cameraman to film a Kardashian Sunday barbecue. He took the footage to E! Entertainment. On October 14, 2007, "Keeping Up with the Kardashians" premiered.
+What is not disputed: the tape made [Kim Kardashian](/personality-analysis/kim-kardashian) the most searched name on the internet. And seven months later, producer Ryan Seacrest hired a cameraman to film a Kardashian Sunday barbecue. He took the footage to E! Entertainment. On October 14, 2007, "Keeping Up with the Kardashians" premiered.
 
 What Kris negotiated for that show was unprecedented in reality television. At a time when reality stars were disposable talent (modest appearance fees, no intellectual property rights), she secured creative control, ownership stakes, and profit participation. She positioned her family as content creators, not subjects. A family member described her negotiation style bluntly: "She fights like a pit bull."
 

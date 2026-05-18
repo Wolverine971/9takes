@@ -5,14 +5,14 @@ description: "The Baywatch icon was never the fantasy. A Type 7 lens on Pamela A
 persona_title: "Hollywood's Romantic Fugitive"
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Pamela-Anderson'
+loc: 'https://9takes.com/personality-analysis/pamela-anderson'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['celebrity', 'movieStar', 'screen-icon']
-person: 'Pamela-Anderson'
+person: 'pamela-anderson'
 suggestions: ['Paris-Hilton', 'Marilyn-Monroe', 'Kim-Kardashian', 'Kate-Hudson']
 wikipedia: 'https://en.wikipedia.org/wiki/Pamela_Anderson'
 twitter: 'pamfoundation'
@@ -139,7 +139,7 @@ Pamela and Tommy got nothing. They sued IEG for $90 million in 1996 and signed a
 >
 > — Pamela Anderson, court testimony, _Rolling Stone_, 2014
 
-She is the woman who accidentally invented the celebrity sex tape as a content category. The lineage she did not ask to start became somebody else's empire. In 2004, a man named Rick Salomon released a tape with [Paris Hilton](/personality-analysis/Paris-Hilton) — this time produced and distributed on purpose. Pamela would, in a detail too strange for fiction, marry Rick Salomon twice (annulled in 2008, divorced in 2015). Then [Kim Kardashian's](/personality-analysis/Kim-Kardashian) tape arrived in 2007, and the format Pamela was robbed of became the template for an entire wing of American celebrity.
+She is the woman who accidentally invented the celebrity sex tape as a content category. The lineage she did not ask to start became somebody else's empire. In 2004, a man named Rick Salomon released a tape with [Paris Hilton](/personality-analysis/paris-hilton) — this time produced and distributed on purpose. Pamela would, in a detail too strange for fiction, marry Rick Salomon twice (annulled in 2008, divorced in 2015). Then [Kim Kardashian's](/personality-analysis/kim-kardashian) tape arrived in 2007, and the format Pamela was robbed of became the template for an entire wing of American celebrity.
 
 The full marriage list is a Type 7 timeline. **Tommy Lee** (1995–1998). **Kid Rock**, four months in 2006. **Rick Salomon**, married October 2007, annulled within five months. Salomon again, January 2014, divorced April 2015. **Jon Peters**, twelve days in January 2020, never legally finalized. **Dan Hayhurst**, her bodyguard during the COVID lockdown, married Christmas Eve 2020 at her Vancouver Island house, divorced January 2022. Five weddings to four men, depending on how you count Peters.
 
@@ -278,7 +278,7 @@ In 2024, [Gia Coppola](https://www.interviewmagazine.com/film/how-gia-coppola-go
 >
 > — Gia Coppola, _Yahoo Entertainment_, 2024
 
-Coppola, asked to summarize what Pamela was, called her ["the Marilyn of our time."](/personality-analysis/Marilyn-Monroe) It was a generous comparison. The two women shared a body of cultural projection. They did not, in the end, share a fate.
+Coppola, asked to summarize what Pamela was, called her ["the Marilyn of our time."](/personality-analysis/marilyn-monroe) It was a generous comparison. The two women shared a body of cultural projection. They did not, in the end, share a fate.
 
 What changed is not Pamela's talent. The talent was always there. What changed is that she finally let herself stay long enough to use it.
 

@@ -5,14 +5,14 @@ persona_title: "Late Night's Faithful Skeptic"
 description: "How losing his father and brothers at 10 shaped Colbert's comedy, faith, and the anxiety beneath America's favorite late-night host."
 author: 'DJ Wayne'
 date: '2026-03-01'
-loc: 'https://9takes.com/personality-analysis/Stephen-Colbert'
+loc: 'https://9takes.com/personality-analysis/stephen-colbert'
 lastmod: '2026-03-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host']
-person: 'Stephen-Colbert'
+person: 'stephen-colbert'
 suggestions: ['Trevor-Noah', 'Jon-Stewart', 'Jimmy-Fallon', 'Aubrey-Plaza']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_Colbert'
 twitter: '@StephenAtHome'
@@ -168,7 +168,7 @@ Enneagram Sixes carry a [core wound around safety](/enneagram-corner/enneagram-t
 
 For Colbert, it happened all at once. The ground didn't shift. It opened. His father and two brothers were alive at breakfast and dead by dinner.
 
-Everything that followed was a response to that rupture. The faith that became architecture, the performance that became regulation, the loyalties that became load-bearing walls. You've already seen it: the Catholicism that collapsed him when it cracked, the performing he can never stop doing, the thirty-year marriage and four-decade collaborations, the relationship with [Jon Stewart](/personality-analysis/Jon-Stewart) he describes as love. These aren't separate traits. They're a single system built by a boy who learned at ten that everything can disappear.
+Everything that followed was a response to that rupture. The faith that became architecture, the performance that became regulation, the loyalties that became load-bearing walls. You've already seen it: the Catholicism that collapsed him when it cracked, the performing he can never stop doing, the thirty-year marriage and four-decade collaborations, the relationship with [Jon Stewart](/personality-analysis/jon-stewart) he describes as love. These aren't separate traits. They're a single system built by a boy who learned at ten that everything can disappear.
 
 What makes Colbert a counterphobic Six, rather than the anxious, retreating kind, is that he doesn't avoid the threat. He charges at it. The WHCD speech, the Late Show transition, every confrontation we've traced: the fear comes first, always. And then he walks directly at it.
 

@@ -5,14 +5,14 @@ persona_title: "Streaming's Feral Recluse"
 description: 'Asmongold lived like an animal for 13 years while becoming one of the biggest voices on Twitch. Inside the Type 5 psychology behind the contradiction.'
 author: 'DJ Wayne'
 date: '2026-05-08'
-loc: 'https://9takes.com/personality-analysis/Asmongold'
+loc: 'https://9takes.com/personality-analysis/asmongold'
 lastmod: '2026-05-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
 type: ['creator', 'streamer']
-person: 'Asmongold'
+person: 'asmongold'
 suggestions: ['Hasan-Piker', 'Pokimane', 'xQc', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Asmongold'
 twitter: 'Asmongold'
@@ -176,7 +176,7 @@ That was it. That was the machine.
 
 The reaction format Asmongold built was so clean it shaped half the streamers who came after him. He sits, usually in the same hoodie, and watches. Reddit posts. Patch notes. Other streamers. News clips. Political videos. The audience watches him watch. The second-order observation, for the viewer, feels like being inside his mind.
 
-What makes him different from a [Pokimane](/personality-analysis/Pokimane) or a Kai Cenat or an xQc is how unconcealed the inner world is. He is not performing for the camera. He is barely addressing the camera. He is thinking — out loud — about what he just saw. The camera is incidental.
+What makes him different from a [Pokimane](/personality-analysis/pokimane) or a Kai Cenat or an xQc is how unconcealed the inner world is. He is not performing for the camera. He is barely addressing the camera. He is thinking — out loud — about what he just saw. The camera is incidental.
 
 Two years after founding it, the partnership split open. In September 2022, Trainwreckstv publicly accused Mizkif — Asmongold's closest OTK partner — of helping cover up a 2020 sexual assault allegedly committed by Mizkif's roommate, CrazySlick. Asmongold went on stream within hours and said he would stop speaking to Mizkif unless Mizkif cut ties with CrazySlick (Dexerto, 2022). OTK's outside counsel eventually cleared Mizkif of having minimized the incident, but the room had already moved. The two never fully came back.
 
@@ -224,7 +224,7 @@ He has said he supports universal basic income. He has said he believes in a con
 
 He has also said he places "no weight on principles or morality," describing such things as "top-down ideas that are given to you by the elites" (per Media Matters' 2024 coverage of his political pivot).
 
-Sixes need a side. [Hasan Piker](/personality-analysis/Hasan-Piker), the most prominent leftist streamer on Twitch and a Type 8, spent much of their October 2024 post-ban conversation pressing Asmongold to commit to a position on Palestine. What he got instead was characteristic. Piker set the trap — "You'd be the one teenager in Gaza being like 'Hold on, guys. Let's not celebrate the Iranian retaliation against this country that has, like, literally eviscerated my family.'" — and Asmongold stepped around it:
+Sixes need a side. [Hasan Piker](/personality-analysis/hasan-piker), the most prominent leftist streamer on Twitch and a Type 8, spent much of their October 2024 post-ban conversation pressing Asmongold to commit to a position on Palestine. What he got instead was characteristic. Piker set the trap — "You'd be the one teenager in Gaza being like 'Hold on, guys. Let's not celebrate the Iranian retaliation against this country that has, like, literally eviscerated my family.'" — and Asmongold stepped around it:
 
 > "I would be cheering it on. I'd be like 'Yes! Fuck yes!' But I wouldn't be sitting on a soapbox, saying that I'm the good guy." — Asmongold to Hasan Piker, October 2024 (Aftermath)
 

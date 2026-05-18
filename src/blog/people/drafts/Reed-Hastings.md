@@ -5,14 +5,14 @@ persona_title: "Entertainment's Unapologetic Disruptor"
 description: "How Reed Hastings turned a fear of bureaucracy into Netflix, a billion-dollar education crusade, and a management philosophy the world can't stop copying"
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Reed-Hastings'
+loc: 'https://9takes.com/personality-analysis/reed-hastings'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['techie', 'big-tech-founder']
-person: 'Reed-Hastings'
+person: 'reed-hastings'
 suggestions: ['Jeff-Bezos', 'Elon-Musk', 'Steve-Jobs', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Reed_Hastings'
 twitter: ''
@@ -275,7 +275,7 @@ When a healthy Type 8 integrates toward [Type 2](/enneagram-corner/enneagram-typ
 
 In January 2023, Hastings stepped back to Executive Chairman. Ted Sarandos and Greg Peters became co-CEOs. Sarandos said he talks to Hastings "all the time," calling him "a great safety net."
 
-He joined the board of Anthropic, the AI safety company — working alongside figures like [Sam Altman](/personality-analysis/Sam-Altman) to shape the future of AI — saying he wanted to "help humanity progress." He joined Bloomberg's board. He donated $50 million to Bowdoin College to create the Hastings Initiative for AI and Humanity.
+He joined the board of Anthropic, the AI safety company — working alongside figures like [Sam Altman](/personality-analysis/sam-altman) to shape the future of AI — saying he wanted to "help humanity progress." He joined Bloomberg's board. He donated $50 million to Bowdoin College to create the Hastings Initiative for AI and Humanity.
 
 And he bought a majority stake in Powder Mountain, the largest ski resort in America by skiable acres. He invested over $100 million. Built four new lifts in a single season. Created a members-only section called Powder Haven — three private lifts, a 40,000-square-foot lodge, spa, restaurants. A velvet rope on a mountaintop.
 
@@ -285,7 +285,7 @@ At home in Santa Cruz, he keeps four rescued dogs, four Nigerian dwarf goats, an
 
 Marc Randolph, looking back on twenty-five years, said: "Working closely with Reed was the highlight of my professional life. Unlike me, Reed is not only a phenomenal early-stage CEO — he's good, or better, as a late-stage CEO."
 
-The man who questioned how Marines packed their backpacks. Who sold vacuums for the fun of it. Who hitchhiked across Africa, taught math in Swaziland, and nearly bankrupted himself on a foot-operated mouse. Who built a company that destroyed Blockbuster, won twenty-three Oscars, acquired Warner Bros., and invented a management philosophy that Sheryl Sandberg called one of the most important documents ever to come out of Silicon Valley — outpacing even [Steve Jobs](/personality-analysis/Steve-Jobs)' influence on how tech companies think about talent.
+The man who questioned how Marines packed their backpacks. Who sold vacuums for the fun of it. Who hitchhiked across Africa, taught math in Swaziland, and nearly bankrupted himself on a foot-operated mouse. Who built a company that destroyed Blockbuster, won twenty-three Oscars, acquired Warner Bros., and invented a management philosophy that Sheryl Sandberg called one of the most important documents ever to come out of Silicon Valley — outpacing even [Steve Jobs](/personality-analysis/steve-jobs)' influence on how tech companies think about talent.
 
 He's on a mountain now, literally. Building lodges for teachers and velvet ropes for billionaires. Shaping the rules for artificial intelligence and the rules for who gets to ski on his powder. The systems keep getting bigger. The freedom keeps looking more and more like his design.
 

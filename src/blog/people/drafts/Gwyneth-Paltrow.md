@@ -5,14 +5,14 @@ meta_title: "Inside Gwyneth Paltrow's Relentless Drive to Fix Everything (Includ
 description: "She calls her suppressed rage the 'evil shadow.' Gwyneth Paltrow built Goop, conscious uncoupling, and a wellness empire from one compulsion: be good, or be nothing."
 author: 'DJ Wayne'
 date: '2025-12-04'
-loc: 'https://9takes.com/personality-analysis/Gwyneth-Paltrow'
+loc: 'https://9takes.com/personality-analysis/gwyneth-paltrow'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
 type: ['lifestyleInfluencer', 'lifestyle-builder']
-person: 'Gwyneth-Paltrow'
+person: 'gwyneth-paltrow'
 suggestions: ['Jack-Black', 'Taylor-Swift', 'Oprah-Winfrey', 'Kim-Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Gwyneth_Paltrow'
 twitter: 'GwynethPaltrow'
@@ -108,7 +108,7 @@ Gwyneth's path to stardom was both privileged and earned. That tension would def
 
 Her professional debut came in her father's 1989 TV film _High_. After summers watching her mother perform at the Williamstown Theatre Festival, she made her stage debut there in 1990. Doors opened easily. She walked through them with genuine talent.
 
-The breakthrough came with 1995's _Se7en_, where she played [Brad Pitt](/personality-analysis/Brad-Pitt)'s wife. Their on-screen chemistry sparked a real relationship, and the couple became engaged.
+The breakthrough came with 1995's _Se7en_, where she played [Brad Pitt](/personality-analysis/brad-pitt)'s wife. Their on-screen chemistry sparked a real relationship, and the couple became engaged.
 
 Her Oscar win for _Shakespeare in Love_ in 1999 cemented her status as Hollywood royalty. But the moment that should have been pure triumph exposed something crucial about her psychology.
 
@@ -206,7 +206,7 @@ This therapeutic work is significant. Type 1s suppress anger because good people
 
 Beneath Gwyneth's polished exterior lives a genuinely raunchy sense of humor.
 
-[Jack Black](/personality-analysis/Jack-Black), her co-star in 2001's _Shallow Hal_, discovered this firsthand. "I have to admit she made me blush," he revealed years later. "I was very surprised by her salty sense of humor. She completely out-salted me."
+[Jack Black](/personality-analysis/jack-black), her co-star in 2001's _Shallow Hal_, discovered this firsthand. "I have to admit she made me blush," he revealed years later. "I was very surprised by her salty sense of humor. She completely out-salted me."
 
 Robert Downey Jr. has known her for thirty years. When they first met at a 1990s film festival, she was wary of his wild reputation. Today, she calls him "truly like a brother." At a 2025 gala, Downey lovingly roasted her as "impossibly intelligent, yet forever confused by the basic tenets of the Marvel Cinematic Universe."
 

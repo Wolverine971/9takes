@@ -5,14 +5,14 @@ persona_title: "Hollywood's Beautiful Decoy"
 description: 'Inside the psychology of Zoë Kravitz — how a child who belonged nowhere built the coolest exterior in Hollywood to survive.'
 author: 'DJ Wayne'
 date: '2025-03-25'
-loc: 'https://9takes.com/personality-analysis/Zoe-Kravitz'
+loc: 'https://9takes.com/personality-analysis/zoe-kravitz'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['movieStar', 'screen-icon']
-person: 'Zoe-Kravitz'
+person: 'zoe-kravitz'
 suggestions: ['Robert-Pattinson', 'Harry-Styles', 'Natalie-Portman', 'Rihanna']
 wikipedia: 'https://en.wikipedia.org/wiki/Zo%C3%AB_Kravitz'
 twitter: 'ZoeKravitz'

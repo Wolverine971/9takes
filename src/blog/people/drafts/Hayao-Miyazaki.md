@@ -5,14 +5,14 @@ persona_title: "Animation's Tortured Idealist"
 description: "Hayao Miyazaki has retired five times. Each time, he comes back. The Enneagram Type 1 pattern behind animation's most reluctant master."
 author: 'DJ Wayne'
 date: '2026-05-01'
-loc: 'https://9takes.com/personality-analysis/Hayao-Miyazaki'
+loc: 'https://9takes.com/personality-analysis/hayao-miyazaki'
 lastmod: '2026-05-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
 type: ['other']
-person: 'Hayao-Miyazaki'
+person: 'hayao-miyazaki'
 suggestions: ['Steve-Jobs', 'J.K.-Rowling', 'Greta-Thunberg', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Hayao_Miyazaki'
 production_pretext:

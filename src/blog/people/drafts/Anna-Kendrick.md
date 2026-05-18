@@ -5,14 +5,14 @@ persona_title: "Hollywood's Scrappy Reframer"
 description: 'Anna Kendrick spent 25 years turning anxiety into comedy — until a six-year relationship stopped being something she could laugh her way out of. Type 7 read.'
 author: 'DJ Wayne'
 date: '2026-04-16'
-loc: 'https://9takes.com/personality-analysis/Anna-Kendrick'
+loc: 'https://9takes.com/personality-analysis/anna-kendrick'
 lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['movieStar', 'screen-icon']
-person: 'Anna-Kendrick'
+person: 'anna-kendrick'
 suggestions: ['Aubrey-Plaza', 'Jennifer-Lawrence', 'Blake-Lively', 'Anne-Hathaway']
 wikipedia: 'https://en.wikipedia.org/wiki/Anna_Kendrick'
 twitter: 'AnnaKendrick47'
@@ -142,7 +142,7 @@ Between _Up in the Air_ and _Pitch Perfect_, Anna Kendrick did something nobody 
 
 "I'll be happy when 'doing laundry' is a valid excuse for anything."
 
-Pop-Tart wrappers under the bed. The barely-holding-it-together voice. The constant play-by-play of low-stakes social dread — all of it written in the rhythm of a comedian working out material. Her feed was the first mass-distributed proof-of-concept that a movie star could sound like a group chat, and it made her, briefly, the most beloved actress on the internet — the goodwill loan she would later spend on playing the unnerved comic foil to <a href="/personality-analysis/Blake-Lively">Blake Lively</a> in _A Simple Favor_ and its 2025 sequel.
+Pop-Tart wrappers under the bed. The barely-holding-it-together voice. The constant play-by-play of low-stakes social dread — all of it written in the rhythm of a comedian working out material. Her feed was the first mass-distributed proof-of-concept that a movie star could sound like a group chat, and it made her, briefly, the most beloved actress on the internet — the goodwill loan she would later spend on playing the unnerved comic foil to <a href="/personality-analysis/blake-lively">Blake Lively</a> in _A Simple Favor_ and its 2025 sequel.
 
 The engine underneath the feed was the same one that had gotten her this far. Take the bad feeling, reframe it as a bit, ship the bit, repeat. Anxiety becomes jokes, jokes become identity, identity becomes brand, brand becomes the thing strangers trust her with. It is the most productive use of a Seven's defense mechanism in the history of Hollywood social media.
 
@@ -182,7 +182,7 @@ The producers could not find a director. Kendrick, against every instinct that h
 
 She has called the film the most revealing thing she has ever made. The reason is not the true-crime setup. It is that Sheryl Bradshaw, in the movie's best moment, trusts a gut read of danger that every pleasant reframe in the room is trying to argue her out of. She does not have evidence. She has a feeling. She listens.
 
-Filming <em>Alice, Darling</em> the year before — the low-budget indie she executive-produced and spent the 2023 press tour using, carefully, to narrate her own recovery, with her _Mike and Dave Need Wedding Dates_ co-star <a href="/personality-analysis/Aubrey-Plaza">Aubrey Plaza</a> in her corner through the publicity run — her scene partner Wunmi Mosaku had told her a line she could not pivot away from.
+Filming <em>Alice, Darling</em> the year before — the low-budget indie she executive-produced and spent the 2023 press tour using, carefully, to narrate her own recovery, with her _Mike and Dave Need Wedding Dates_ co-star <a href="/personality-analysis/aubrey-plaza">Aubrey Plaza</a> in her corner through the publicity run — her scene partner Wunmi Mosaku had told her a line she could not pivot away from.
 
 <div class="pull-quote">"You're the evidence." — Wunmi Mosaku to Anna Kendrick, on the set of <em>Alice, Darling</em>, per Rolling Stone, 2023</div>
 

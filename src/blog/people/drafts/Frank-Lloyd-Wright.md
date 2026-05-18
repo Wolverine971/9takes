@@ -5,14 +5,14 @@ persona_title: "The Architect Who Designed Himself"
 description: "Why did Frank Lloyd Wright keep performing genius into his nineties? An Enneagram Type 7w8 analysis of the porkpie hat, the leaks, and the brittle shell."
 author: 'DJ Wayne'
 date: '2026-05-13'
-loc: 'https://9takes.com/personality-analysis/Frank-Lloyd-Wright'
+loc: 'https://9takes.com/personality-analysis/frank-lloyd-wright'
 lastmod: '2026-05-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['historical', 'other', 'historical-artist']
-person: 'Frank-Lloyd-Wright'
+person: 'frank-lloyd-wright'
 suggestions: ['Steve-Jobs', 'Albert-Einstein', 'Nikola-Tesla', 'Robert-Oppenheimer']
 wikipedia: 'https://en.wikipedia.org/wiki/Frank_Lloyd_Wright'
 production_pretext:

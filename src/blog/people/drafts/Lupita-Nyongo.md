@@ -5,14 +5,14 @@ persona_title: "Hollywood's Invisible Healer"
 description: "How a girl who prayed to disappear became the most visible advocate for those unseen. Inside Lupita Nyong'o's psychology."
 author: 'DJ Wayne'
 date: '2026-03-09'
-loc: 'https://9takes.com/personality-analysis/Lupita-Nyongo'
+loc: 'https://9takes.com/personality-analysis/lupita-nyongo'
 lastmod: '2026-03-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['movieStar', 'activist', 'screen-icon']
-person: 'Lupita-Nyongo'
+person: 'lupita-nyongo'
 suggestions: ['Zendaya', 'Michael-B-Jordan', 'Oprah-Winfrey', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Lupita_Nyong%27o'
 twitter: 'Lupaborgnino'

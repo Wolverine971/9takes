@@ -4,19 +4,63 @@ meta_title: "Inside Robert De Niro's Silence: Why He Disappears Into Roles"
 description: 'Robert De Niro barely talks in interviews but plays the loudest men in cinema. Enneagram Type 9 explains the silence, the method, and the late-life anger.'
 author: 'DJ Wayne'
 date: '2026-05-07'
-loc: 'https://9takes.com/personality-analysis/Robert-De-Niro'
+loc: 'https://9takes.com/personality-analysis/robert-de-niro'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['movieStar', 'screen-icon']
-person: 'Robert-De-Niro'
+person: 'robert-de-niro'
 suggestions: ['Al-Pacino', 'Martin-Scorsese', 'Leonardo-DiCaprio', 'Meryl-Streep']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_De_Niro'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q36949'
+imdb_id: 'nm0000134'
+birth_date: '1943-08-17'
+birth_place: 'New York City, New York, USA'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Film producer'
+  - 'Film director'
+  - 'Restaurateur'
+knows_about:
+  - 'Method acting'
+  - 'American cinema'
+  - 'Tribeca Film Festival'
+  - 'Nobu restaurant group'
+  - 'Italian-American identity'
+keywords:
+  - 'Robert De Niro enneagram'
+  - 'Robert De Niro type 9'
+  - 'Robert De Niro personality'
+  - 'Peacemaker enneagram'
+  - 'Robert De Niro method acting'
+  - 'Taxi Driver Travis Bickle'
+  - 'Raging Bull Jake LaMotta'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Robert_De_Niro'
+  - 'https://www.wikidata.org/wiki/Q36949'
+  - 'https://www.imdb.com/name/nm0000134/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Robert_De_Niro'
+  - 'https://en.wikipedia.org/wiki/Raging_Bull'
+  - 'https://en.wikipedia.org/wiki/Taxi_Driver'
+  - 'https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Robert_De_Niro'
+  - 'https://www.britannica.com/biography/Robert-De-Niro'
+faqs:
+  - question: "What is Robert De Niro's personality type?"
+    answer: "Robert De Niro is an Enneagram Type 9 with an 8 wing — the Peacemaker who carries a buried physical force that almost never comes out in his own name. The mumble, the refusal to play the publicity game, and the decades-long creative marriage with Martin Scorsese are textbook public Nine. The voltage shows up only when he is loaned to a character: LaMotta, Bickle, Conway, young Vito Corleone."
+    anchor: 'what-is-robert-de-niros-personality-type'
+  - question: 'Why does Robert De Niro disappear into every role?'
+    answer: "For most actors, method acting is a technique for studying a character from the outside. For De Niro, the research is the process of vanishing. He drove 12-hour taxi shifts for Taxi Driver, gained 60 pounds for Raging Bull, learned Sicilian for Godfather Part II. The Type 9 instinct under any signal — a great script or a Dirty Grandpa rewrite — is the same: empty the inside, let the character move in."
+    anchor: 'why-robert-de-niro-disappears-into-every-role'
+  - question: 'Why did Robert De Niro start yelling at Donald Trump in 2016?'
+    answer: "Because Type 9s who get pushed past the point where vanishing works don't soften — they detonate. The late-life political fury (Tribeca speech, Cannes outbursts, repeated profanity) is not a personality change. It is the buried 8 wing reaching the surface after seven decades of being absorbed into other people's characters."
+    anchor: 'the-late-life-yell'
 persona_title: "Cinema's Quiet Volcano"
 path: src/blog/people/drafts/Robert-De-Niro.md
 content_quality:
@@ -81,7 +125,7 @@ Fifty years later he would own a drawer full of yellow legal pads and three-ring
 
 The problem is not that Robert De Niro has nothing to say. The problem is that he can only say it through somebody else.
 
-That is not a flaw. That is the whole engine. And once you see the shape of it, the most confusing career in American film stops being confusing.
+Once you see the shape of that, the most confusing career in American film stops being confusing.
 
 <details>
 <summary class="accordion">TL;DR: Why Robert De Niro is an Enneagram Type 9</summary>
@@ -146,7 +190,7 @@ These are the famous stories. What they share, underneath the spectacle, is the 
 > "I always look at everything. The important thing is to think it all out. Sometimes I write down my ideas. The main thing is to put in the time — even if it's boring."
 > — Robert De Niro
 
-No "I felt this," no "I wanted to express." The main thing is the time. Meryl Streep, the other great shape-shifter of their generation, once said about her own craft that she tries to _serve the writing_. That is a [Type 2](/personality-analysis/Meryl-Streep)'s relationship to a part. De Niro's relationship is different. He does not serve the writing. He vacates his own space so the writing can move in.
+No "I felt this," no "I wanted to express." The main thing is the time. Meryl Streep, the other great shape-shifter of their generation, once said about her own craft that she tries to _serve the writing_. That is a [Type 2](/personality-analysis/meryl-streep)'s relationship to a part. De Niro's relationship is different. He does not serve the writing. He vacates his own space so the writing can move in.
 
 <div class="pull-quote">
 He does not serve the writing. He vacates his own space so the writing can move in.

@@ -5,14 +5,14 @@ persona_title: "Economics' Quiet Devourer"
 description: 'Inside the mind that reads 5 books a day, blogs on Christmas, and claims to never have unhappy days. Tyler Cowen through the Enneagram.'
 author: 'DJ Wayne'
 date: '2026-04-19'
-loc: 'https://9takes.com/personality-analysis/Tyler-Cowen'
+loc: 'https://9takes.com/personality-analysis/tyler-cowen'
 lastmod: '2026-04-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
 type: ['techie', 'author']
-person: 'Tyler-Cowen'
+person: 'tyler-cowen'
 suggestions: ['Elon-Musk', 'Lex-Fridman', 'Malcolm-Gladwell', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyler_Cowen'
 twitter: 'tylercowen'
@@ -135,7 +135,7 @@ In 2003, he and his colleague Alex Tabarrok launched Marginal Revolution, an eco
 
 His daily output seems inhuman. But his explanation is almost aggressively mundane: "I do a wee bit and let it add up." He writes only a few hours each morning, quits before he gets tired so he's hungry to come back. He treats writing not as labor but as "exercise or practice." When asked about his style, he's disarmingly honest: "I wouldn't call it a choice. I'm not a good prose stylist."
 
-Patrick Collison, the CEO of Stripe, has described the experience of talking to Cowen: "You can have specific detailed discussion with him about 17th-century Irish economic thinkers, or trends in African music or the history of nominal GDP targeting." (Cowen's podcast guest list reads like a who's who of polymaths, and he's interviewed <a href="/personality-analysis/Malcolm-Gladwell">Malcolm Gladwell</a>, <a href="/personality-analysis/Tim-Ferriss">Tim Ferriss</a>, and dozens more.)
+Patrick Collison, the CEO of Stripe, has described the experience of talking to Cowen: "You can have specific detailed discussion with him about 17th-century Irish economic thinkers, or trends in African music or the history of nominal GDP targeting." (Cowen's podcast guest list reads like a who's who of polymaths, and he's interviewed <a href="/personality-analysis/malcolm-gladwell">Malcolm Gladwell</a>, <a href="/personality-analysis/tim-ferriss">Tim Ferriss</a>, and dozens more.)
 
 ## What is Tyler Cowen's personality type?
 
@@ -156,7 +156,7 @@ This is the core architecture of the Enneagram Type 5. And in Cowen's case, the 
 - **The scarcity economy applied to everything.** He orders sample sizes at ice cream shops, not to save money, but because "the experience of anticipation and memory" exceeds the experience of consumption. Maximum insight per unit of experience.
 - **The pre-computed exit.** He quit chess at fifteen because he'd already calculated his ceiling. Fives don't leave when they fail. They leave when they've exhausted the information a domain can offer them at the level they want to operate.
 - **The Social Five variant.** Enneagram theory describes Social Fives as people who use expertise as their social currency, connecting through contribution rather than emotional labor. Cowen's entire public life fits this pattern: the blog, the podcast, the dining guide, Emergent Ventures. He trades competence for belonging.
-- **The emotional conservation.** Fives are selectively high-energy people, exhaustible in small talk yet inexhaustible in deep expertise. Cowen's even temperament isn't a lack of feeling. It's a resource management strategy, an optimization so thorough that it reads, from the outside, as serenity.
+- **The emotional conservation.** Fives are selectively high-energy people, exhaustible in small talk yet inexhaustible in deep expertise. Cowen's even temperament is a resource-management strategy so thorough it reads, from the outside, as serenity.
 
 Under stress, Fives move toward the unhealthy patterns of [Type 7](/enneagram-corner/enneagram-type-7) — frantic expansion, overcommitting, inability to sit still. In health, they move toward Type 8: assertiveness, engagement, taking decisive action in the world. Cowen's career arc traces this integration: from the withdrawn chess prodigy calculating endgames alone to the man funding thousand-plus young entrepreneurs through Emergent Ventures, publicly arguing for civilizational growth in _Stubborn Attachments_, and spending decades building the intellectual commons through a free daily blog.
 

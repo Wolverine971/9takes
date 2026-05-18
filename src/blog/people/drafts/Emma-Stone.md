@@ -5,14 +5,14 @@ persona_title: "Hollywood's Restless Alchemist"
 description: 'How Emma Stone turned crippling childhood anxiety into two Oscars, and why becoming other people is the only thing that quiets her mind.'
 author: 'DJ Wayne'
 date: '2026-03-03'
-loc: 'https://9takes.com/personality-analysis/Emma-Stone'
+loc: 'https://9takes.com/personality-analysis/emma-stone'
 lastmod: '2026-03-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['newMovieStar', 'movieStar', 'rising-star']
-person: 'Emma-Stone'
+person: 'emma-stone'
 suggestions: ['Ryan-Gosling', 'Jennifer-Lawrence', 'Margot-Robbie', 'Scarlett-Johansson']
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Stone'
 twitter: ''
@@ -120,7 +120,7 @@ The evidence:
 - **"A very selfish condition"**: Her awareness that anxiety keeps you trapped in your own head — and her career-long strategy of escaping that head through characters.
 - **The refusal of armor**: She knows that growing "rhino skin" would protect her but kill her performances. She has chosen to stay open. The pain is worth it if the experiences are worth it.
 
-Her wing is Six — the Loyalist. This adds the anxiety that makes her look nothing like the stereotypical sunny Seven. It adds the worst-case-scenario thinking, the security-seeking, and the loyalty that keeps her returning to the same collaborators: <a href="/personality-analysis/Ryan-Gosling">Ryan Gosling</a> across four films, Yorgos Lanthimos across four films, <a href="/personality-analysis/Jennifer-Lawrence">Jennifer Lawrence</a> as a daily texting partner for more than a decade, Taylor Swift as a friend since they met in matching purple dresses at the Young Hollywood Awards in 2008. A Seven without the Six wing scatters freely. Stone scatters within constraints she's carefully chosen.
+Her wing is Six — the Loyalist. This adds the anxiety that makes her look nothing like the stereotypical sunny Seven. It adds the worst-case-scenario thinking, the security-seeking, and the loyalty that keeps her returning to the same collaborators: <a href="/personality-analysis/ryan-gosling">Ryan Gosling</a> across four films, Yorgos Lanthimos across four films, <a href="/personality-analysis/jennifer-lawrence">Jennifer Lawrence</a> as a daily texting partner for more than a decade, Taylor Swift as a friend since they met in matching purple dresses at the Young Hollywood Awards in 2008. A Seven without the Six wing scatters freely. Stone scatters within constraints she's carefully chosen.
 
 Under stress, Type 7s move toward the unhealthy patterns of [Type 1](/enneagram-corner/enneagram-type-1) — becoming rigid, self-critical, perfectionistic. In growth, they move toward [Type 5](/enneagram-corner/enneagram-type-5) — developing focus, depth, the ability to sit with one thing instead of chasing the next.
 
@@ -230,7 +230,7 @@ What makes the Lanthimos partnership so revealing is the question at its center:
 
 "I trust him beyond the trust I've had with any director," she said in 2025. They've now made four films together. _The Favourite_. _Poor Things_. _Kinds of Kindness_. _Bugonia_. Each one strips more away. Each one asks her to be more present. And each one is the thing that quiets her mind — not through escape this time, but through surrender.
 
-<a href="/personality-analysis/Ryan-Gosling">Ryan Gosling</a> once described working with her: "Emma Stone is just, like, constantly opening Christmas presents. There's nobody like her." The observation is more precise than it sounds. Christmas presents are about anticipation — the thing in the box might be anything. For someone whose mind is a possibility engine, always racing ahead to the next scenario, the present moment is a gift she gets to unwrap. Even the terrifying ones.
+<a href="/personality-analysis/ryan-gosling">Ryan Gosling</a> once described working with her: "Emma Stone is just, like, constantly opening Christmas presents. There's nobody like her." The observation is more precise than it sounds. Christmas presents are about anticipation — the thing in the box might be anything. For someone whose mind is a possibility engine, always racing ahead to the next scenario, the present moment is a gift she gets to unwrap. Even the terrifying ones.
 
 Somewhere in the middle of the Lanthimos years, she started building a house behind the camera. In 2020 she and Dave McCary founded Fruit Tree, a production company that has since backed some of the most distinctive debut and sophomore features of the era: Jane Schoenbrun's _I Saw the TV Glow_, Julio Torres's _Problemista_, Jesse Eisenberg's _A Real Pain_. In March 2025 they signed a first-look television deal with Fremantle. The woman who spent twenty years chasing the thing that would quiet her mind is now curating which other minds get that chance. That's the arrow bending toward Five — focus, patronage, the discipline to sit with one filmmaker's vision long enough to shepherd it to screen.
 

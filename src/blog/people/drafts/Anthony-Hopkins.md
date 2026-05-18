@@ -3,14 +3,14 @@ title: 'Anthony Hopkins: An Enneagram Analysis'
 description: "Exploring Anthony Hopkins's personality through the lens of the Enneagram"
 author: 'DJ Wayne'
 date: '2026-04-03'
-loc: 'https://9takes.com/personality-analysis/Anthony-Hopkins'
+loc: 'https://9takes.com/personality-analysis/anthony-hopkins'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram:
 type: ['celebrity', 'movieStar', 'screen-icon']
-person: 'Anthony-Hopkins'
+person: 'anthony-hopkins'
 suggestions: []
 wikipedia: 'https://en.wikipedia.org/wiki/Anthony_Hopkins'
 twitter: 'https://twitter.com/AnthonyHopkins'

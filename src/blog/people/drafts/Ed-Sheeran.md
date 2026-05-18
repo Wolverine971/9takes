@@ -5,14 +5,14 @@ persona_title: "Pop's Invisible Stadium-Filler"
 description: 'He fills stadiums with one guitar and no band. Then he goes home to four friends, no phone, and daily anxiety. Inside the contradiction that powers Ed Sheeran.'
 author: 'DJ Wayne'
 date: '2026-04-22'
-loc: 'https://9takes.com/personality-analysis/Ed-Sheeran'
+loc: 'https://9takes.com/personality-analysis/ed-sheeran'
 lastmod: '2026-04-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['musician']
-person: 'Ed-Sheeran'
+person: 'ed-sheeran'
 suggestions: ['Taylor-Swift', 'Elton-John', 'Post-Malone', 'Harry-Styles']
 wikipedia: 'https://en.wikipedia.org/wiki/Ed_Sheeran'
 twitter: 'https://twitter.com/edsheeran'
@@ -133,7 +133,7 @@ He writes two to three songs a day when he's working. He knows the first ones wi
 
 He names his guitars after his crew members: Lloyd, Cyril, Felix, Nigel. Not after lovers or heroes or abstract concepts. After the people who set up his stage. The instruments carry the names of the humans who make the show possible because Ed Sheeran's instinct, always, is to give credit to the room and take none for himself.
 
-<a href="/personality-analysis/Elton-John">Elton John</a>, who mentored him from early in his career, calls him every single morning. "Even if it's just 10 seconds." Elton told the Grammy showrunners he believed so much in Sheeran that he flew to America to play a private gig for radio executives just to get Ed's songs on the air. Elton said Sheeran "reminds me of me when I first started out."
+<a href="/personality-analysis/elton-john">Elton John</a>, who mentored him from early in his career, calls him every single morning. "Even if it's just 10 seconds." Elton told the Grammy showrunners he believed so much in Sheeran that he flew to America to play a private gig for radio executives just to get Ed's songs on the air. Elton said Sheeran "reminds me of me when I first started out."
 
 Ed's response: "I'm at a point in my career where I feel like, not equals, cause he's had such a long career, but I ring literally on a daily basis."
 
@@ -175,7 +175,7 @@ And then there's Band Aid 40. In November 2024, organizers used Sheeran's vocals
 
 A Nine who almost never pushes back, pushing back. That moment tells you more about where Sheeran is now than any song on _Subtract_.
 
-The father who gave him the <a href="/personality-analysis/Eminem">Eminem</a> CD taught his son something the Nine in him already understood: you could disappear into something and come out the other side more yourself than you were before.
+The father who gave him the <a href="/personality-analysis/eminem">Eminem</a> CD taught his son something the Nine in him already understood: you could disappear into something and come out the other side more yourself than you were before.
 
 ---
 
@@ -191,7 +191,7 @@ Four months without sunlight. Not in a prison. On a global tour. Surrounded by t
 
 The repetition is the tell. He can't even describe the problem without being compulsive about the description.
 
-The drinking led to binge eating. "I'm a real binge eater," he said. He described "doing what Elton talks about in his book -- gorging, and then it would come up again." He compared his body to One Direction's. He wondered why he didn't have a six-pack, the same way <a href="/personality-analysis/Post-Malone">Post Malone</a> deflects behind face tattoos and beer. He ate until he was sick and then ate more.
+The drinking led to binge eating. "I'm a real binge eater," he said. He described "doing what Elton talks about in his book -- gorging, and then it would come up again." He compared his body to One Direction's. He wondered why he didn't have a six-pack, the same way <a href="/personality-analysis/post-malone">Post Malone</a> deflects behind face tattoos and beer. He ate until he was sick and then ate more.
 
 Then he crashed a bicycle while drunk and broke both arms. He didn't go to the hospital. He went to the pub. He didn't realize the arms were broken until later. He had to cancel an entire leg of his world tour.
 
@@ -247,7 +247,7 @@ The boy from Framlingham became the biggest pop star on Earth and then spent mil
 
 ## The Loop That Never Closes
 
-Every night, Ed Sheeran walks out alone and makes a stadium feel like a living room. And every night, the lights go down and he drives back to a village he designed so that no one can find him, where <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> is one of the few people with the address, where Elton John calls every morning for ten seconds, and where the man who just held 80,000 people has four friends and no phone.
+Every night, Ed Sheeran walks out alone and makes a stadium feel like a living room. And every night, the lights go down and he drives back to a village he designed so that no one can find him, where <a href="/personality-analysis/taylor-swift">Taylor Swift</a> is one of the few people with the address, where Elton John calls every morning for ten seconds, and where the man who just held 80,000 people has four friends and no phone.
 
 He built a career on making strangers feel known. He built a life on making sure no one knows him.
 

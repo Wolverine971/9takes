@@ -5,14 +5,14 @@ persona_title: "Comedy's Gentle Fortress"
 description: "Adam Sandler built a billion-dollar empire on making everyone comfortable. The Enneagram reveals what he's been avoiding, and what breaks through."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Adam-Sandler'
+loc: 'https://9takes.com/personality-analysis/adam-sandler'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['comedian', 'movieStar', 'screen-icon']
-person: 'Adam-Sandler'
+person: 'adam-sandler'
 suggestions: ['Kevin-Hart', 'Pete-Davidson', 'Keanu-Reeves', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Adam_Sandler'
 twitter: 'https://twitter.com/AdamSandler'
@@ -221,7 +221,7 @@ He wrote a song called "Stan the Man" and performed it on Letterman in 2004, the
 
 Four years before Stanley died, Chris Farley overdosed in his Chicago apartment. December 18, 1997. Adam was 31.
 
-The Chris Farley tribute song has become a fixture of Sandler's live shows since 2019. He performed it on SNL with <a href="/personality-analysis/Pete-Davidson">Pete Davidson</a> accompanying him on guitar. The lyrics move between laughter and devastation: late-night prank calls and drinking after shows, then the silence where Farley should be.
+The Chris Farley tribute song has become a fixture of Sandler's live shows since 2019. He performed it on SNL with <a href="/personality-analysis/pete-davidson">Pete Davidson</a> accompanying him on guitar. The lyrics move between laughter and devastation: late-night prank calls and drinking after shows, then the silence where Farley should be.
 
 "The first few times we played that song, I would tear up and I couldn't really sing it well because I'd get so emotional," Sandler admitted. He has remained close with Farley's mother and brothers for nearly thirty years.
 

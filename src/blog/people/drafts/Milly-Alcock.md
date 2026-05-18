@@ -5,14 +5,14 @@ persona_title: 'The Understudy Who Cast Herself'
 description: 'Milly Alcock called her own agent at 13. Now she calls her director to ask permission. Inside the Type 6 anxiety pattern under the Supergirl cape.'
 author: 'DJ Wayne'
 date: '2026-04-23'
-loc: 'https://9takes.com/personality-analysis/Milly-Alcock'
+loc: 'https://9takes.com/personality-analysis/milly-alcock'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['movieStar', 'newMovieStar', 'rising-star']
-person: 'Milly-Alcock'
+person: 'milly-alcock'
 suggestions: ['Jennifer-Lawrence', 'Zendaya', 'Timothee-Chalamet', 'Millie-Bobby-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/Milly_Alcock'
 instagram: 'millyalcock'

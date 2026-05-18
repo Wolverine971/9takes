@@ -5,14 +5,14 @@ persona_title: "Vulnerability's Reluctant Researcher"
 description: "Brené Brown built the world's most influential body of work on vulnerability. Why the Enneagram Type 1 in her makes sense of every minute of it."
 author: 'DJ Wayne'
 date: '2026-04-18'
-loc: 'https://9takes.com/personality-analysis/Brene-Brown'
+loc: 'https://9takes.com/personality-analysis/brene-brown'
 lastmod: '2026-04-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
 type: ['author', 'creator']
-person: 'Brene-Brown'
+person: 'brene-brown'
 suggestions: ['Tim-Ferriss', 'Gwyneth-Paltrow', 'Jordan-Peterson', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Bren%C3%A9_Brown'
 twitter: 'BreneBrown'

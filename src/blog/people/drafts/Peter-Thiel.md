@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Vigilant Contrarian"
 description: 'Peter Thiel bought a parachute after 9/11, lectures on the Antichrist, and built Palantir. His Enneagram Type 6 personality explains why fear, not power, drives everything.'
 author: 'DJ Wayne'
 date: '2024-09-12'
-loc: 'https://9takes.com/personality-analysis/Peter-Thiel'
+loc: 'https://9takes.com/personality-analysis/peter-thiel'
 lastmod: '2026-03-02'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['techie', 'investor']
-person: 'Peter-Thiel'
+person: 'peter-thiel'
 suggestions: ['Elon-Musk', 'David-Sacks', 'Sam-Altman', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'
 twitter: ''
@@ -158,7 +158,7 @@ The evidence for Thiel as a Six is overwhelming:
 
 - **The outsider childhood** that taught him trust is earned, never given: seven schools, corporal punishment, constant displacement
 - **Systematic hedging against catastrophe**: New Zealand citizenship (obtained after spending just 12 days there), life extension research, cryonic preservation, a parachute in his office after 9/11
-- **Counterphobic risk-taking**: the most anxious people sometimes charge directly at what frightens them. Thiel backs [Donald Trump](/personality-analysis/Donald-Trump) when his entire social circle recoils. He stands before the 2016 Republican National Convention, a venue hostile to everything he represents, and declares **"I am proud to be gay."** The first person to say those words at an RNC. That is a Six running toward the fire
+- **Counterphobic risk-taking**: the most anxious people sometimes charge directly at what frightens them. Thiel backs [Donald Trump](/personality-analysis/donald-trump) when his entire social circle recoils. He stands before the 2016 Republican National Convention, a venue hostile to everything he represents, and declares **"I am proud to be gay."** The first person to say those words at an RNC. That is a Six running toward the fire
 - **The Thiel Fellowship**: In 2011, he created a program paying students $100,000 to drop out of college and pursue entrepreneurship instead. Not just an investment in young founders, but a direct challenge to the institution most Americans trust without question. When a Six decides an authority is corrupt, they don't just leave. They build an alternative
 - **The interview question**, "What important truth do very few people agree with you on?", is a Six's diagnostic tool. It identifies independent thinkers and reveals who is brave enough to be unpopular. A Six needs to know who will hold the line when consensus turns hostile
 - **The stagnation thesis as existential threat**: for Thiel, technological stagnation isn't disappointing. It's terrifying. Without progress, societies don't stagnate peacefully. They collapse
@@ -199,7 +199,7 @@ JD Vance fits the same pattern. Thiel met him after a Yale Law School talk in 20
 
 ### The Inner Circle's Inner Circle
 
-Perhaps most revealing is **Dialog**, a secretive network Thiel co-founded roughly two decades ago with tech investor Auren Hoffman. It has no public website, just an email address and the tagline: **"Leaders join Dialog to discuss topics off-the-record."** Attendees are hand-picked. Past participants reportedly include [Elon Musk](/personality-analysis/Elon-Musk), Treasury Secretary Scott Bessent, Larry Summers, Garry Kasparov, and Jonathan Haidt. Gizmodo called it a "Tech Bilderberg." It is exactly the kind of institution a Six would build: a private space where trusted people can speak freely, away from the mimetic pressures of public discourse.
+Perhaps most revealing is **Dialog**, a secretive network Thiel co-founded roughly two decades ago with tech investor Auren Hoffman. It has no public website, just an email address and the tagline: **"Leaders join Dialog to discuss topics off-the-record."** Attendees are hand-picked. Past participants reportedly include [Elon Musk](/personality-analysis/elon-musk), Treasury Secretary Scott Bessent, Larry Summers, Garry Kasparov, and Jonathan Haidt. Gizmodo called it a "Tech Bilderberg." It is exactly the kind of institution a Six would build: a private space where trusted people can speak freely, away from the mimetic pressures of public discourse.
 
 The contrast with Musk is instructive. Chafkin put it precisely: **"Whereas Thiel could be comically secretive, even among close friends, Musk was incapable of censoring himself."** Musk tweets constantly. Thiel doesn't maintain a social media presence at all, remarkable for a man who was Facebook's first outside investor. He has described himself as "a reluctant, distrustful user of social media," believing **"everything you say will be with you for all of eternity."**
 

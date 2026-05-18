@@ -5,14 +5,14 @@ persona_title: "Pop's Honest Witness"
 description: "Lily Allen built a career, a sobriety, and a divorce album out of telling the truth that costs her. The Type 4 pattern behind why she keeps doing it."
 author: 'DJ Wayne'
 date: '2026-04-29'
-loc: 'https://9takes.com/personality-analysis/Lily-Allen'
+loc: 'https://9takes.com/personality-analysis/lily-allen'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician']
-person: 'Lily-Allen'
+person: 'lily-allen'
 suggestions: ['Adele', 'Amy-Winehouse', 'Lana-Del-Rey', 'Florence-Welch']
 wikipedia: 'https://en.wikipedia.org/wiki/Lily_Allen'
 twitter: '@lilyallen'

@@ -12,7 +12,7 @@ priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician']
-person: 'SZA'
+person: 'sza'
 suggestions: ['Adele', 'Billie-Eilish', 'Olivia-Rodrigo', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/SZA'
 twitter: 'thereal_sza'

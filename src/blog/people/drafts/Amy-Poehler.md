@@ -4,14 +4,14 @@ persona_title: "Comedy's Warm-Hearted Enforcer"
 description: "'I don't care if you like it.' Amy Poehler said it to Fallon's face at SNL — then built three organizations so other women could say it too."
 author: 'DJ Wayne'
 date: '2025-12-03'
-loc: 'https://9takes.com/personality-analysis/Amy-Poehler'
+loc: 'https://9takes.com/personality-analysis/amy-poehler'
 lastmod: '2026-01-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['comedian', 'celebrity', 'movieStar', 'tv-comedy-crossover', 'sketch-comic']
-person: 'Amy-Poehler'
+person: 'amy-poehler'
 suggestions: ['Tina-Fey', 'Aubrey-Plaza', 'Chelsea-Handler', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Amy_Poehler'
 twitter: 'amypoehler'
@@ -31,7 +31,7 @@ content_quality:
 
 > "I don't f--king care if you like it."
 
-<p class="firstLetter">That line, delivered to <a href="/personality-analysis/Jimmy-Fallon">Jimmy Fallon</a> during an SNL table read, captures everything about Amy Poehler. She wasn't there to be cute. She wasn't there to play nice. She was there to take up space, speak her truth, and protect the door for others to follow.</p>
+<p class="firstLetter">That line, delivered to <a href="/personality-analysis/jimmy-fallon">Jimmy Fallon</a> during an SNL table read, captures everything about Amy Poehler. She wasn't there to be cute. She wasn't there to play nice. She was there to take up space, speak her truth, and protect the door for others to follow.</p>
 
 Most people see the warm smile, the infectious energy, the woman who played Leslie Knope with such earnestness it became a cultural touchstone. But beneath that warmth is something far more powerful: a personality type that explains why Amy builds empires, confronts sexism head-on, and refuses to shrink herself for anyone's comfort.
 
@@ -52,13 +52,13 @@ Most people see the warm smile, the infectious energy, the woman who played Lesl
 
 ### Amy Poehler is an Enneagram Type 8
 
-Amy confirmed this herself during a 2022 appearance on Late Night with Seth Meyers, where she revealed that she and her famous friends (including [Tina Fey](/personality-analysis/Tina-Fey) and Rachel Dratch) took the Enneagram test at her 50th birthday party.
+Amy confirmed this herself during a 2022 appearance on Late Night with Seth Meyers, where she revealed that she and her famous friends (including [Tina Fey](/personality-analysis/tina-fey) and Rachel Dratch) took the Enneagram test at her 50th birthday party.
 
 **"I'm a Challenger,"** Amy said. **"Safety and security are important to me, I want to know who's in charge."**
 
 Then, in true Type 8 fashion, she added: **"Just to be clear, I don't really know what I'm talking about. And I know there are people who are better at explaining this. But because I'm an Eight, I'm already an expert."**
 
-More recently, on her podcast "Good Hang" in January 2026, Amy dove deeper into her Enneagram type during a conversation with <a href="/personality-analysis/Gwyneth-Paltrow">Gwyneth Paltrow</a> (a self-identified Type 1). When Gwyneth asked Amy to guess her number, Amy joked: **"Nobody ever gets it right"** before revealing why.
+More recently, on her podcast "Good Hang" in January 2026, Amy dove deeper into her Enneagram type during a conversation with <a href="/personality-analysis/gwyneth-paltrow">Gwyneth Paltrow</a> (a self-identified Type 1). When Gwyneth asked Amy to guess her number, Amy joked: **"Nobody ever gets it right"** before revealing why.
 
 **"I think I hide it,"** Amy explained, **"but I definitely relate to all of that feeling of, like, authority stuff, and challenging a little bit and wanting to lead."**
 
@@ -259,7 +259,7 @@ Amy's production company declared 2025 "The Year of Precedented Times" and "The 
 
 **"It kind of feels like we want to get back to laughing,"** she said.
 
-She launched the podcast "Good Hang" in March 2025, co-produced with Bill Simmons' The Ringer, featuring low-key conversations with comedy friends. The podcast has already earned a nomination for the inaugural Best Podcast category at the 2026 Golden Globes. Recent guests have included <a href="/personality-analysis/Gwyneth-Paltrow">Gwyneth Paltrow</a>, Ana Gasteyer, and Martin Short.
+She launched the podcast "Good Hang" in March 2025, co-produced with Bill Simmons' The Ringer, featuring low-key conversations with comedy friends. The podcast has already earned a nomination for the inaugural Best Podcast category at the 2026 Golden Globes. Recent guests have included <a href="/personality-analysis/gwyneth-paltrow">Gwyneth Paltrow</a>, Ana Gasteyer, and Martin Short.
 
 She hosted SNL's 50th anniversary special in February 2025 and returned to host the October 11, 2025 episode of Season 51, on the exact 50th anniversary of the show's premiere.
 
@@ -319,7 +319,7 @@ James Cameron is still mad about a thirteen-year-old joke. Amy hasn't said a wor
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Amy-Poehler",
+        "@id": "https://9takes.com/personality-analysis/amy-poehler",
         "@type": "WebPage"
       },
       "mentions": {

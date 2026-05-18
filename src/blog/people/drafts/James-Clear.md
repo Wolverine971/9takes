@@ -5,14 +5,14 @@ persona_title: "Self-Help's Quiet Perfectionist"
 description: "Why does the man who preaches 1% better demand 100% of himself? Inside James Clear's perfectionism, near-death injury, and the psychology of Atomic Habits."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/James-Clear'
+loc: 'https://9takes.com/personality-analysis/james-clear'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
 type: ['author', 'entrepreneur', 'business-operator']
-person: 'James-Clear'
+person: 'james-clear'
 suggestions: ['Tim-Ferriss', 'Jordan-Peterson', 'Ali-Abdaal', 'Brene-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Clear'
 twitter: 'https://twitter.com/JamesClear'
@@ -139,7 +139,7 @@ Consider the evidence:
 
 - **He reframes discipline as environmental design.** "When scientists analyze people who appear to have tremendous self-control, it turns out those individuals aren't all that different from those who are struggling. Instead, 'disciplined' people are better at structuring their lives in a way that does not require heroic willpower." Ones don't have more willpower than everyone else. They've built internal and external systems so comprehensive that doing the right thing feels automatic — and they assume everyone else should be able to do the same.
 
-The online personality databases often type Clear as a Type 5, the Investigator. It's an understandable mistake — he's clearly intelligent, research-oriented, and private. But the core motivation gives it away. Type 5s accumulate knowledge to feel competent and safe. Clear accumulates knowledge to _improve things_. His website doesn't say "here's how things work." It says "here's how to live better." The direction of the energy flows outward toward reform, not inward toward understanding. That's what connects him to other Type 1 figures like [Steve Jobs](/personality-analysis/Steve-Jobs) — the relentless drive to make things not just functional, but _right._
+The online personality databases often type Clear as a Type 5, the Investigator. It's an understandable mistake — he's clearly intelligent, research-oriented, and private. But the core motivation gives it away. Type 5s accumulate knowledge to feel competent and safe. Clear accumulates knowledge to _improve things_. His website doesn't say "here's how things work." It says "here's how to live better." The direction of the energy flows outward toward reform, not inward toward understanding. That's what connects him to other Type 1 figures like [Steve Jobs](/personality-analysis/steve-jobs) — the relentless drive to make things not just functional, but _right._
 
 ---
 
@@ -210,7 +210,7 @@ When Clear later wrote that "every action you take is a vote for the type of per
 
 His philosophy didn't come from a research library. It came from a dining room table in Ohio where showing up wasn't a choice. It was character.
 
-And that distinction — between doing something because it works and doing something because it's right — is the line that separates a productivity hack from a worldview. Other self-improvement figures like [Tim Ferriss](/personality-analysis/Tim-Ferriss) optimize for efficiency; Clear optimizes for integrity. He lives on the "because it's right" side, and he always has.
+And that distinction — between doing something because it works and doing something because it's right — is the line that separates a productivity hack from a worldview. Other self-improvement figures like [Tim Ferriss](/personality-analysis/tim-ferriss) optimize for efficiency; Clear optimizes for integrity. He lives on the "because it's right" side, and he always has.
 
 ## The 1% That Never Feels Like Enough
 

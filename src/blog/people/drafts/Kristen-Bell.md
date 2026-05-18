@@ -5,14 +5,14 @@ description: 'How Kristen Bell turned panic attacks and codependency into remedy
 persona_title: "Hollywood's Remedy-Box Helper"
 author: 'DJ Wayne'
 date: '2025-03-27'
-loc: 'https://9takes.com/personality-analysis/Kristen-Bell'
+loc: 'https://9takes.com/personality-analysis/kristen-bell'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['movieStar', 'screen-icon']
-person: 'Kristen-Bell'
+person: 'kristen-bell'
 suggestions: ['Jennifer-Garner', 'Anne-Hathaway', 'Meghan-Markle', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Kristen_Bell'
 twitter: 'KristenBell'
@@ -196,7 +196,7 @@ Look at the characters Bell keeps playing and a pattern emerges that goes deeper
 
 **Joanne** in _Nobody Wants This_ is the role that sharpened it. **95% on Rotten Tomatoes. 90 million hours viewed** in its first 11 days. Already renewed through Season 3. Joanne is warm, emotionally intelligent, deeply caring — and also boundary-challenged, conflict-averse, chronically overextended, forever figuring out who she is outside of what she gives to other people. Not a Helper archetype. A Helper with the seams showing. Princess Anna from _Frozen_ is in that lineage too: no powers, just love and stubbornness, crossing a frozen mountain to save a sister who didn't ask for it. Pure Helper energy, played by the same person who's spent years learning that impulse needs limits.
 
-Bell told Jay Shetty that as she's gotten older, projects with meaning have become _"way way way more important"_ to her. She gravitates toward roles that carry a message about the gap between who we perform being and who we actually are. It's the kind of relatable vulnerability that's made fellow Helper [Jennifer Garner](/personality-analysis/Jennifer-Garner) equally beloved.
+Bell told Jay Shetty that as she's gotten older, projects with meaning have become _"way way way more important"_ to her. She gravitates toward roles that carry a message about the gap between who we perform being and who we actually are. It's the kind of relatable vulnerability that's made fellow Helper [Jennifer Garner](/personality-analysis/jennifer-garner) equally beloved.
 
 Three consecutive SAG Awards hosting gigs. Warmth without saccharine, humor without cruelty. She reads a room the second she walks into one.
 

@@ -5,14 +5,14 @@ persona_title: "Fashion's Effortless Performer"
 description: 'How Gigi Hadid built the most approachable brand in fashion while privately battling imposter syndrome and the pressure to perform'
 author: 'DJ Wayne'
 date: '2026-03-29'
-loc: 'https://9takes.com/personality-analysis/Gigi-Hadid'
+loc: 'https://9takes.com/personality-analysis/gigi-hadid'
 lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder']
-person: 'Gigi-Hadid'
+person: 'gigi-hadid'
 suggestions: ['Bella-Hadid', 'Kendall-Jenner', 'Hailey-Bieber', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Gigi_Hadid'
 twitter: 'GiGiHadid'
@@ -139,7 +139,7 @@ The warmth is real. It's also the vehicle for the achievement. That's the Three 
 
 Under stress, Threes move toward [Type 9](/enneagram-corner/enneagram-type-9) — they disengage, go numb, retreat. Gigi's response to the worst crisis of her personal life was total restraint. When the Zayn Malik incident exploded publicly, her representative released a single sentence: _"Gigi is solely focused on the best for Khai. She asks for privacy during this time."_ Then silence. The farm. The animals. The withdrawal into peace.
 
-In growth, Threes move toward Type 6 — they become loyal, committed, team-oriented. Gigi's fiercest quality isn't her work ethic. It's her protectiveness. _"All I do my entire life — the purpose — is just to watch over [Bella](/personality-analysis/Bella-Hadid). She's one of the only people that I'll get aggressive for."_ When Kanye West publicly attacked her friend and stylist Gabriella Karefa-Johnson, Gigi called him _"a bully and a joke"_ within hours. The loyalty isn't performative. It's the only thing that breaks through the polish.
+In growth, Threes move toward Type 6 — they become loyal, committed, team-oriented. Gigi's fiercest quality isn't her work ethic. It's her protectiveness. _"All I do my entire life — the purpose — is just to watch over [Bella](/personality-analysis/bella-hadid). She's one of the only people that I'll get aggressive for."_ When Kanye West publicly attacked her friend and stylist Gabriella Karefa-Johnson, Gigi called him _"a bully and a joke"_ within hours. The loyalty isn't performative. It's the only thing that breaks through the polish.
 
 ---
 

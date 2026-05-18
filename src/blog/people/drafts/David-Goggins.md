@@ -5,14 +5,14 @@ persona_title: "Fear's Most Loyal Soldier"
 description: "Why David Goggins keeps hurting himself at 51, even after world records and bestsellers. An Enneagram Type 6 analysis of fear weaponized into discipline."
 author: 'DJ Wayne'
 date: '2026-05-03'
-loc: 'https://9takes.com/personality-analysis/David-Goggins'
+loc: 'https://9takes.com/personality-analysis/david-goggins'
 lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['celebrity', 'author', 'celebrity-image']
-person: 'David-Goggins'
+person: 'david-goggins'
 suggestions: ['Jocko-Willink', 'Joe-Rogan', 'Andrew-Huberman', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Goggins'
 twitter: 'davidgoggins'
@@ -87,7 +87,7 @@ That detail tells you more about David Goggins than any motivational clip ever h
 
 Most personality sites call Goggins a Type 8 because he yells, he fights, and he refuses to be controlled. That reading mistakes the costume for the wearer.
 
-Type 8s do not need to "callus" themselves. They are the callus. <a href="/personality-analysis/Jocko-Willink">Jocko Willink</a> is what a Type 8 looks like in the same domain — a man who built a life around imposing order on the world without first having to convince himself he was strong enough. Type 8s do not stand in front of mirrors at 4 a.m. screaming insults at their own reflection. They do not write a book called *Never Finished* — that title is a Type 6 sentence in plain English. There is always more to prepare for. The work is never safe enough to stop.
+Type 8s do not need to "callus" themselves. They are the callus. <a href="/personality-analysis/jocko-willink">Jocko Willink</a> is what a Type 8 looks like in the same domain — a man who built a life around imposing order on the world without first having to convince himself he was strong enough. Type 8s do not stand in front of mirrors at 4 a.m. screaming insults at their own reflection. They do not write a book called *Never Finished* — that title is a Type 6 sentence in plain English. There is always more to prepare for. The work is never safe enough to stop.
 
 Goggins is a counter-phobic Six. The phobic Six runs from what scares him; the counter-phobic Six runs at it. Both are still Sixes. Both are still organized around fear. The difference is the direction of the sprint.
 

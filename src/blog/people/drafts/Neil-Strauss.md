@@ -5,14 +5,14 @@ persona_title: "Journalism's Method Actor"
 description: "Neil Strauss wrote the world's most famous seduction manual, then a 500-page confession about surviving it. A Type 4 analysis of the journalist who couldn't stay a journalist."
 author: 'DJ Wayne'
 date: '2026-04-25'
-loc: 'https://9takes.com/personality-analysis/Neil-Strauss'
+loc: 'https://9takes.com/personality-analysis/neil-strauss'
 lastmod: '2026-04-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['author', 'creator']
-person: 'Neil-Strauss'
+person: 'neil-strauss'
 suggestions: ['Marilyn-Manson', 'Lana-Del-Rey', 'Edgar-Allan-Poe', 'Adele']
 wikipedia: 'https://en.wikipedia.org/wiki/Neil_Strauss'
 twitter: 'neilstrauss'
@@ -252,7 +252,7 @@ He expanded The Society International, the invitation-only mastermind he had fou
 
 What looks from the outside like productization is really a Four's quietest move: the hunt externalized as a curriculum. Students pay, now, to be taught how to find themselves in other people's lives. The method Neil built by accident has become the method he teaches on purpose. It is the most honest thing a Four can do with the wound that made him — turn it into a classroom where other people can learn what it costs.
 
-Strauss once told [Tim Ferriss](/personality-analysis/Tim-Ferriss) that his drafting method is "first draft for you, second for the reader, third for the hater." Three imagined audiences, each further from him than the last. No draft, you will notice, is for _him_. Fours write for the reader, the hater, the person they loved, the therapist, the mother, the dead friend. Fours almost never write for themselves, because the self that would read the draft is the one they are still trying to finish building.
+Strauss once told [Tim Ferriss](/personality-analysis/tim-ferriss) that his drafting method is "first draft for you, second for the reader, third for the hater." Three imagined audiences, each further from him than the last. No draft, you will notice, is for _him_. Fours write for the reader, the hater, the person they loved, the therapist, the mother, the dead friend. Fours almost never write for themselves, because the self that would read the draft is the one they are still trying to finish building.
 
 ---
 

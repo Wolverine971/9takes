@@ -5,14 +5,14 @@ meta_title: 'Why Bella Poarch Never Needed Words to Break the Internet'
 description: "Explore how Bella Poarch's silenced childhood shaped her rise as TikTok's most-liked creator. A Type 9 story of quiet rebellion."
 author: 'DJ Wayne'
 date: '2026-01-18'
-loc: 'https://9takes.com/personality-analysis/Bella-Poarch'
+loc: 'https://9takes.com/personality-analysis/bella-poarch'
 lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['creator', 'tiktoker', 'lifestyle-builder']
-person: 'Bella-Poarch'
+person: 'bella-poarch'
 suggestions: ["Charli-D'Amelio", 'Addison-Rae', 'Emma-Chamberlain', 'Kylie-Jenner', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Bella_Poarch'
 twitter: 'https://twitter.com/bellapoarch'
@@ -196,7 +196,7 @@ The "M to the B" video isn't just a viral moment — it's proof that presence al
 
 The music career followed a similar logic. Between viral lip-syncs, she quietly posted acoustic ukulele covers on TikTok. She'd been singing since childhood, but nobody had ever told her she was any good. Then Warner Records came. Stefan Max, senior VP of A&R at Warner, said: "The first time I heard Bella in the studio it was obvious that she'd been singing for a long time. I couldn't believe the amount of musical talent she had hiding." Hiding. That word. Of course her talent was hiding. She'd spent her entire life learning to hide.
 
-Her debut single "Build a Bitch" peaked at #56 on Billboard Hot 100 and topped charts in India, Malaysia, and Singapore. Her 2022 EP "Dolls," featuring [Grimes](/personality-analysis/Grimes), drew Rolling Stone's notice for its "commitment to a unified aesthetic" and the "economy she applies to her songwriting." Economy is right — a Type 9 who says exactly as much as needed, and not a word more.
+Her debut single "Build a Bitch" peaked at #56 on Billboard Hot 100 and topped charts in India, Malaysia, and Singapore. Her 2022 EP "Dolls," featuring [Grimes](/personality-analysis/grimes), drew Rolling Stone's notice for its "commitment to a unified aesthetic" and the "economy she applies to her songwriting." Economy is right — a Type 9 who says exactly as much as needed, and not a word more.
 
 The 2022 Forbes 30 Under 30 inclusion completed the loop. From a farm in the Philippines where she wasn't allowed to speak, to a list of America's most influential young entrepreneurs. The trajectory looks improbable until you understand the type: a person who learned to make maximum impact with minimum assertion.
 

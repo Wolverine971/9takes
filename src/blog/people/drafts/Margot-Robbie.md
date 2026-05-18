@@ -4,14 +4,14 @@ meta_title: "Inside Margot Robbie's Mind: The Woman Who Gives Everything Away"
 description: "How Margot Robbie's Enneagram Type 2 wiring drives her auditions, her producing empire, her daily gifts to co-stars, and the role that finally made her face her own shadow."
 author: 'DJ Wayne'
 date: '2025-03-10'
-loc: 'https://9takes.com/personality-analysis/Margot-Robbie'
+loc: 'https://9takes.com/personality-analysis/margot-robbie'
 lastmod: '2026-02-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['movieStar', 'screen-icon']
-person: 'Margot-Robbie'
+person: 'margot-robbie'
 suggestions: ['Robert-Downey-Jr', 'Will-Smith', 'Emily-Ratajkowski', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Margot_Robbie'
 twitter: ''
@@ -117,7 +117,7 @@ Robbie's role choices stop looking like "range" and start looking like a pattern
 
 **Harley Quinn**: Robbie initially couldn't understand the character. "I couldn't understand how she could be such a badass and then fall to pieces over some guy. I found that really frustrating." (<a href="https://fandomwire.com/i-found-that-really-frustrating-margot-robbie-did-not-want-to-be-hopelessly-in-love-as-harley-quinn/">FandomWire</a>) Her acting coach told her to study codependence. It transformed her understanding — not just of Harley, but of herself. That frustration, the inability to comprehend why someone strong would organize their whole identity around another person's needs, is the sound of a Two confronting her own shadow without recognizing it yet.
 
-**Barbie**: When the character had no wound to latch onto, Robbie found another way in. She spent the entire shoot leaving daily gifts in [Ryan Gosling](/personality-analysis/Ryan-Gosling)'s dressing room — pink boxes with puka shells and signs that said "Pray for surf." All from Barbie to Ken. "Because Ken's job is just beach," Gosling said. "I've never quite figured out what that means. But I felt like she was trying to help Ken understand." (<a href="https://www.etonline.com/ryan-gosling-says-margot-robbie-left-him-a-gift-every-day-on-barbie-set-205201">ET Online</a>)
+**Barbie**: When the character had no wound to latch onto, Robbie found another way in. She spent the entire shoot leaving daily gifts in [Ryan Gosling](/personality-analysis/ryan-gosling)'s dressing room — pink boxes with puka shells and signs that said "Pray for surf." All from Barbie to Ken. "Because Ken's job is just beach," Gosling said. "I've never quite figured out what that means. But I felt like she was trying to help Ken understand." (<a href="https://www.etonline.com/ryan-gosling-says-margot-robbie-left-him-a-gift-every-day-on-barbie-set-205201">ET Online</a>)
 
 She couldn't play the doll. So she became the doll's caretaker instead — giving until the giving became the performance. Gerwig described the result: "She allows the audience to see her experiencing something pure without performing." (<a href="https://www.hollywoodreporter.com/movies/movie-features/margot-robbie-greta-gerwig-ryan-gosling-making-barbie-movie-1235766454/">The Hollywood Reporter</a>)
 

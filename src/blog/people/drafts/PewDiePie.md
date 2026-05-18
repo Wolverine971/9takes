@@ -5,14 +5,14 @@ persona_title: "YouTube's Reluctant Emperor"
 description: "Inside PewDiePie's psychology: why the internet's biggest star quit gaming, trained his own AI, and vanished into Japan."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/PewDiePie'
+loc: 'https://9takes.com/personality-analysis/pewdiepie'
 lastmod: '2026-03-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['creator', 'viral-entertainer']
-person: 'PewDiePie'
+person: 'pewdiepie'
 suggestions: ['Mr-Beast', 'Jordan-Peterson', 'Logan-Paul', 'Emma-Chamberlain']
 wikipedia: 'https://en.wikipedia.org/wiki/PewDiePie'
 twitter: 'pewdiepie'
@@ -197,7 +197,7 @@ The book club isn't a hobby. It's a coping mechanism built into a content format
 
 Felix has publicly recommended 113 books. But more revealing than the list is _how_ he talks about reading — like a man describing the thing that pulled him out of the ocean.
 
-On [Nietzsche](/personality-analysis/Friedrich-Nietzsche): "Nietzsche wants you to recognize life and all its suffering and at the end of it say yes that was life, one more time please once more — and that's life affirmation." He added: "The first time I read Nietzsche, I read Beyond Good and Evil and didn't understand anything."
+On [Nietzsche](/personality-analysis/friedrich-nietzsche): "Nietzsche wants you to recognize life and all its suffering and at the end of it say yes that was life, one more time please once more — and that's life affirmation." He added: "The first time I read Nietzsche, I read Beyond Good and Evil and didn't understand anything."
 
 He went back anyway. Fives don't abandon a system they can't understand. They dismantle it until they can.
 
@@ -336,7 +336,7 @@ But it was what he built in March 2026 that completed the circle. Felix used his
 
 Rather than promoting his own tool, he directed fans to an existing extension called Unhook. The man who built the internet's biggest audience was now building tools to help people escape the machine that audience ran on.
 
-[MrBeast](/personality-analysis/Mr-Beast) called him "rather humble, despite all of his fame." Jacksepticeye said: "I don't know how he does it, with that many people on you and that much scrutiny on you constantly. I think I would have lost my mind by now."
+[MrBeast](/personality-analysis/mr-beast) called him "rather humble, despite all of his fame." Jacksepticeye said: "I don't know how he does it, with that many people on you and that much scrutiny on you constantly. I think I would have lost my mind by now."
 
 The answer is that Felix never tried to be big enough to absorb it all. He built walls small enough to keep most of it out. The bedroom. The five-minute format. The Japanese neighborhood where nobody speaks his language. The Stoic philosophy that teaches you to want only what you already have. And now, a machine that thinks the way the internet never let him think: slowly, deliberately, without an algorithm deciding what matters.
 

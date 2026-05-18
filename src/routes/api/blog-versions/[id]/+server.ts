@@ -1,12 +1,12 @@
 // src/routes/api/blog-versions/[id]/+server.ts
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { readFileSync, existsSync, statSync } from 'fs';
-import { join } from 'path';
+import { requireAdmin } from '$lib/server/adminAuth';
+import { loadPeopleDraftVersion } from '$lib/server/peopleDraftVersion';
 
 export const GET: RequestHandler = async ({ params, locals }) => {
 	const blogId = parseInt(params.id as string);
-	const supabase = locals.supabase;
+	const { supabase } = await requireAdmin(locals);
 
 	if (isNaN(blogId)) {
 		return json({ error: 'Invalid blog ID' }, { status: 400 });
@@ -42,65 +42,30 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 			return json({ error: 'Failed to fetch version history' }, { status: 500 });
 		}
 
-		// Check for draft file
-		let draftContent: string | null = null;
-		let draftModified: Date | null = null;
 		const historyRows = history ?? [];
-
-		// Sanitize person name to prevent path traversal
-		const sanitizedPerson = currentBlog.person.replace(/[^a-zA-Z0-9-_]/g, '');
-		if (sanitizedPerson !== currentBlog.person) {
-			console.warn('Invalid person identifier detected:', currentBlog.person);
-			return json({ error: 'Invalid person identifier' }, { status: 400 });
-		}
-
-		const draftPath = join(
-			process.cwd(),
-			'src',
-			'blog',
-			'people',
-			'drafts',
-			`${sanitizedPerson}.md`
-		);
-
-		if (existsSync(draftPath)) {
-			try {
-				draftContent = readFileSync(draftPath, 'utf-8');
-				const stats = statSync(draftPath);
-				draftModified = stats.mtime;
-
-				// Extract content after frontmatter
-				const frontmatterEnd = draftContent.indexOf('---', 4);
-				if (frontmatterEnd !== -1) {
-					draftContent = draftContent.substring(frontmatterEnd + 3).trim();
-				}
-			} catch (err) {
-				console.error('Error reading draft file:', err);
-				// Continue without draft if file can't be read
-			}
-		}
+		const draft = await loadPeopleDraftVersion(currentBlog.person);
 
 		// Build versions array with current version, draft, and history
 		const versions = [];
 
 		// Add current version as the most recent (unless draft is newer)
-		const currentVersionNumber = historyRows.length + (draftContent ? 2 : 1);
+		const currentVersionNumber = historyRows.length + (draft ? 2 : 1);
 		versions.push({
 			id: 'current',
 			content: currentBlog.content,
 			changed_at: currentBlog.lastmod,
 			changed_by: null,
-			version_number: draftContent ? currentVersionNumber - 1 : currentVersionNumber,
-			is_current: !draftContent,
+			version_number: draft ? currentVersionNumber - 1 : currentVersionNumber,
+			is_current: !draft,
 			source: 'database'
 		});
 
 		// Add draft version if it exists (as the most recent)
-		if (draftContent) {
+		if (draft) {
 			versions.unshift({
 				id: 'draft',
-				content: draftContent,
-				changed_at: draftModified?.toISOString() || new Date().toISOString(),
+				content: draft.content,
+				changed_at: draft.modifiedAt?.toISOString() || new Date().toISOString(),
 				changed_by: null,
 				version_number: currentVersionNumber,
 				is_current: true,
@@ -128,7 +93,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 				title: currentBlog.title
 			},
 			versions,
-			hasDraft: !!draftContent
+			hasDraft: !!draft
 		});
 	} catch (error) {
 		console.error('Unexpected error:', error);

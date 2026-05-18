@@ -5,14 +5,14 @@ persona_title: "Beauty's Fabricated Origin Story"
 description: 'James Charles built a $22M empire on a fabricated origin story. The Enneagram reveals what happens when performance replaces personhood.'
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/James-Charles'
+loc: 'https://9takes.com/personality-analysis/james-charles'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator', 'lifestyleInfluencer', 'lifestyle-builder']
-person: 'James-Charles'
+person: 'james-charles'
 suggestions: ['Paris-Hilton', 'Addison-Rae', 'Kim-Kardashian', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Charles'
 twitter: 'jamescharles'
@@ -32,7 +32,7 @@ path: src/blog/people/drafts/James-Charles.md
 
 > "I allowed myself to be a science experiment for men that were never going to love me back."
 
-<p class="firstLetter">In September 2016, a tweet went viral. A 17-year-old boy from Bethlehem, New York had retaken his senior yearbook photo with a ring light and full glam makeup, and the before-and-after images were everywhere. <a href="/personality-analysis/Zendaya">Zendaya</a> approved. CoverGirl came calling. Within months, James Charles Dickinson was a millionaire.</p>
+<p class="firstLetter">In September 2016, a tweet went viral. A 17-year-old boy from Bethlehem, New York had retaken his senior yearbook photo with a ring light and full glam makeup, and the before-and-after images were everywhere. <a href="/personality-analysis/zendaya">Zendaya</a> approved. CoverGirl came calling. Within months, James Charles Dickinson was a millionaire.</p>
 
 The story became legend: the kid who brought his own ring light to picture day because he wanted his highlights to pop.
 
@@ -98,13 +98,13 @@ The edited yearbook photo hit Twitter. Eighty-six thousand likes. Thirty-three t
 
 "I was shook," James told ABC News. "I had just started working with a manager at the time, and she was like, 'Hey, we got an email from CoverGirl.'" He paused. "When everyone started congratulating me, I realized, 'Oh, this is... a little bit of a bigger deal than we would've anticipated.'"
 
-At 17, James Charles became the first male ambassador in CoverGirl's history. He shot campaigns alongside <a href="/personality-analysis/Katy-Perry">Katy Perry</a>. He appeared on Ellen. He was a millionaire before he had a high school diploma.
+At 17, James Charles became the first male ambassador in CoverGirl's history. He shot campaigns alongside <a href="/personality-analysis/katy-perry">Katy Perry</a>. He appeared on Ellen. He was a millionaire before he had a high school diploma.
 
 Before James, men in makeup existed largely in drag or theatrical contexts. He normalized a teenage boy simply enjoying cosmetics as self-expression, and The Guardian's Amelia Tait called his platform "arguably revolutionary."
 
 But the speed was disorienting. By 18, he'd moved to Los Angeles. By 19, he had 15 million followers on two platforms. He was building a media empire while most people his age were figuring out how to do laundry.
 
-He admitted to PAPER that he'd been focused on being "brand and family friendly to make the most amount of AD revenue" rather than being himself. Like [Paris Hilton](/personality-analysis/Paris-Hilton) — another Type 3 who built a character so effective it swallowed the person underneath — the brand had eaten the person.
+He admitted to PAPER that he'd been focused on being "brand and family friendly to make the most amount of AD revenue" rather than being himself. Like [Paris Hilton](/personality-analysis/paris-hilton) — another Type 3 who built a character so effective it swallowed the person underneath — the brand had eaten the person.
 
 ---
 
@@ -166,7 +166,7 @@ He described reaching for his usual defenses and finding nothing there: "I've al
 
 His brother Ian — who had been one of his closest relationships, who had appeared in dozens of videos, who had launched his own modeling career partly through James's platform — stopped speaking to him. For two years, nothing. Complete silence from the person who knew him before the brand existed.
 
-His wider circle tells a similar story. James's known friendships — Emma Chamberlain, <a href="/personality-analysis/Charli-D'Amelio">Charli D'Amelio</a>, Larray — are almost entirely professional, forged through collaborations and content rather than the kind of slow intimacy most people build in their twenties. He once defended Charli publicly during a backlash; Larray and he trade barbs on Twitter. But when the 2021 crisis hit, "I wasn't talking to anybody." The network built on content couldn't hold the weight of a person in freefall.
+His wider circle tells a similar story. James's known friendships — Emma Chamberlain, <a href="/personality-analysis/charli-d'Amelio">Charli D'Amelio</a>, Larray — are almost entirely professional, forged through collaborations and content rather than the kind of slow intimacy most people build in their twenties. He once defended Charli publicly during a backlash; Larray and he trade barbs on Twitter. But when the 2021 crisis hit, "I wasn't talking to anybody." The network built on content couldn't hold the weight of a person in freefall.
 
 In the wreckage, James did something unusual for someone who had spent his entire life constructing images. He sat with the destruction.
 
@@ -186,7 +186,7 @@ The structural difference from Morphe matters. That deal was a licensing arrange
 
 He launched Painted in August 2023. The hero product — Create Paints — came in paint tubes designed to look like actual art supplies, $15 each. Brushes made with art brush fibers for detail work, $8 apiece. A full ten-piece Artist's Set for $135. The positioning was deliberate: artists, not consumers. "I got into makeup because I loved art," he told PAPER. "Painting, drawing, being creative. Makeup was how I made myself look cool. It was never just about being pretty."
 
-Then something happened that no amount of image construction could have engineered: a professional makeup artist used Painted's black shade "Ink" on <a href="/personality-analysis/Beyonce-Knowles">Beyoncé</a> during the Renaissance World Tour. Unpaid. Unsolicited. The product spoke without James's name attached to it — which may be the first time anything in his career has done that.
+Then something happened that no amount of image construction could have engineered: a professional makeup artist used Painted's black shade "Ink" on <a href="/personality-analysis/beyonce-knowles">Beyoncé</a> during the Renaissance World Tour. Unpaid. Unsolicited. The product spoke without James's name attached to it — which may be the first time anything in his career has done that.
 
 He told the Saving Grace podcast that he was glad he hadn't launched a brand in 2017, at the peak of his fame. He wanted complete creative control, and the younger version of himself wouldn't have known what to do with it.
 

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Self-Built Fortress"
 description: 'Tyler Perry built a billion-dollar empire from nothing. But the same drive that made him rich kept him from grieving his mother for 15 years.'
 author: 'DJ Wayne'
 date: '2026-03-24'
-loc: 'https://9takes.com/personality-analysis/Tyler-Perry'
+loc: 'https://9takes.com/personality-analysis/tyler-perry'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['entrepreneur', 'business-operator']
-person: 'Tyler-Perry'
+person: 'tyler-perry'
 suggestions: ['Oprah-Winfrey', 'Denzel-Washington', 'Eddie-Murphy', 'Keke-Palmer', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyler_Perry'
 twitter: 'https://twitter.com/tylerperry'
@@ -126,7 +126,7 @@ Consider the evidence:
 
 The ownership obsession is the key to understanding Tyler Perry's entire business philosophy.
 
-In 2001, Perry appeared on <a href="/personality-analysis/Oprah-Winfrey">Oprah Winfrey's</a> show for the first time. He was a touring playwright, successful but not yet a mogul. The lesson he took from Oprah was crystalline: "Write your own checks and be in full control."
+In 2001, Perry appeared on <a href="/personality-analysis/oprah-winfrey">Oprah Winfrey's</a> show for the first time. He was a touring playwright, successful but not yet a mogul. The lesson he took from Oprah was crystalline: "Write your own checks and be in full control."
 
 That advice didn't just resonate. It fused with something already inside him. Remember the child in the room with the vacuum cord. Remember the boy molested by four adults. The through-line is powerlessness. Every person who hurt Tyler Perry had power over him. The response — the only response that made psychological sense — was to become someone no one could ever control again.
 
@@ -203,7 +203,7 @@ What Spike Lee and the critics missed was who Perry was talking to. He built his
 
 ## A Confederate Base and a Billionaire's Dream
 
-On October 5, 2019, Tyler Perry opened his studio on the 330-acre former site of Fort McPherson, a Confederate army base in Atlanta. The guest list read like a who's who of Black excellence: Oprah Winfrey, <a href="/personality-analysis/Beyonce-Knowles">Beyoncé</a>, <a href="/personality-analysis/Denzel-Washington">Denzel Washington</a>, Viola Davis, Halle Berry, Samuel L. Jackson. Even Spike Lee came.
+On October 5, 2019, Tyler Perry opened his studio on the 330-acre former site of Fort McPherson, a Confederate army base in Atlanta. The guest list read like a who's who of Black excellence: Oprah Winfrey, <a href="/personality-analysis/beyonce-knowles">Beyoncé</a>, <a href="/personality-analysis/denzel-washington">Denzel Washington</a>, Viola Davis, Halle Berry, Samuel L. Jackson. Even Spike Lee came.
 
 Tiffany Haddish captured the significance plainly: "I know the history of this place — it was a Confederate military base, trying to keep us enslaved. Now it's owned by a Black man."
 

@@ -1,9 +1,8 @@
 // src/routes/admin/blog-diff/[id]/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { error } from '@sveltejs/kit';
-import { readFileSync, existsSync, statSync } from 'fs';
-import { join } from 'path';
+import { error, isHttpError } from '@sveltejs/kit';
 import type { Database } from '../../../../../database.types';
+import { loadPeopleDraftVersion } from '$lib/server/peopleDraftVersion';
 
 type BlogRow = Pick<
 	Database['public']['Tables']['blogs_famous_people']['Row'],
@@ -58,58 +57,30 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 			throw error(500, 'Failed to fetch version history');
 		}
 
-		// Check for draft file
-		let draftContent: string | null = null;
-		let draftModified: Date | null = null;
-
-		const draftPath = join(
-			process.cwd(),
-			'src',
-			'blog',
-			'people',
-			'drafts',
-			`${currentBlog.person ?? currentBlog.id}.md`
-		);
-
-		if (existsSync(draftPath)) {
-			try {
-				draftContent = readFileSync(draftPath, 'utf-8');
-				const stats = statSync(draftPath);
-				draftModified = stats.mtime;
-
-				// Extract content after frontmatter
-				const frontmatterEnd = draftContent.indexOf('---', 4);
-				if (frontmatterEnd !== -1) {
-					draftContent = draftContent.substring(frontmatterEnd + 3).trim();
-				}
-			} catch (err) {
-				console.error('Error reading draft file:', err);
-				// Continue without draft if file can't be read
-			}
-		}
+		const draft = await loadPeopleDraftVersion(currentBlog.person ?? String(currentBlog.id));
 
 		// Build versions array with current version, draft, and history
 		const versions: VersionEntry[] = [];
 		const historyRows = history ?? [];
 
 		// Add current version as the most recent (unless draft is newer)
-		const currentVersionNumber = historyRows.length + (draftContent ? 2 : 1);
+		const currentVersionNumber = historyRows.length + (draft ? 2 : 1);
 		versions.push({
 			id: 'current',
 			content: currentBlog.content ?? '',
 			changed_at: currentBlog.lastmod ?? new Date().toISOString(),
 			changed_by: null,
-			version_number: draftContent ? currentVersionNumber - 1 : currentVersionNumber,
-			is_current: !draftContent,
+			version_number: draft ? currentVersionNumber - 1 : currentVersionNumber,
+			is_current: !draft,
 			source: 'database'
 		});
 
 		// Add draft version if it exists (as the most recent)
-		if (draftContent) {
+		if (draft) {
 			versions.unshift({
 				id: 'draft',
-				content: draftContent,
-				changed_at: draftModified?.toISOString() || new Date().toISOString(),
+				content: draft.content,
+				changed_at: draft.modifiedAt?.toISOString() || new Date().toISOString(),
 				changed_by: null,
 				version_number: currentVersionNumber,
 				is_current: true,
@@ -139,9 +110,13 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 				description: currentBlog.description ?? ''
 			},
 			versions,
-			hasDraft: !!draftContent
+			hasDraft: !!draft
 		};
 	} catch (err) {
+		if (isHttpError(err)) {
+			throw err;
+		}
+
 		console.error('Unexpected error:', err);
 		throw error(500, 'Internal server error');
 	}

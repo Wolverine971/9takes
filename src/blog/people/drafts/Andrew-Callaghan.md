@@ -5,14 +5,14 @@ persona_title: "Channel 5's Restless Truth-Seeker"
 description: "What drives Channel 5's fearless journalist into QAnon rallies and extremist events? The psychology of radical empathy and pain avoidance."
 author: 'DJ Wayne'
 date: '2026-01-20'
-loc: 'https://9takes.com/personality-analysis/Andrew-Callaghan'
+loc: 'https://9takes.com/personality-analysis/andrew-callaghan'
 lastmod: '2026-02-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['journalist', 'creator', 'news-commentator']
-person: 'Andrew-Callaghan'
+person: 'andrew-callaghan'
 suggestions: ['Theo-Von', 'Joe-Rogan', 'Casey-Neistat', 'Jon-Stewart']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Callaghan'
 twitter: 'allaboratory'
@@ -73,7 +73,7 @@ The core wound forms when a child experiences deprivation or pain and concludes 
 
 Andrew interviewing QAnon believers from an RV makes perfect sense through this lens.
 
-Type 7s reframe everything. They find humor in darkness, humanity in extremism, and unexpected angles where others see only absurdity. This makes them magnetic storytellers. Think [Theo Von](/personality-analysis/Theo-Von), another Type 7 who transforms trauma into comedy.
+Type 7s reframe everything. They find humor in darkness, humanity in extremism, and unexpected angles where others see only absurdity. This makes them magnetic storytellers. Think [Theo Von](/personality-analysis/theo-von), another Type 7 who transforms trauma into comedy.
 
 The cost? They're always moving toward the next experience, staying ahead of feelings they'd rather not face.
 

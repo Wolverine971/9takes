@@ -5,14 +5,14 @@ persona_title: "Hollywood's Confessing Arsonist"
 description: 'Shia LaBeouf went from clown makeup and child hustle to radical confession, destruction, and apology cycles that never fully outrun the damage.'
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Shia-LaBeouf'
+loc: 'https://9takes.com/personality-analysis/shia-labeouf'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['celebrity', 'screen-icon']
-person: 'Shia-LaBeouf'
+person: 'shia-labeouf'
 suggestions: ['Brad-Pitt', 'Kanye', 'Robert-Downey-Jr', 'Joaquin-Phoenix']
 wikipedia: 'https://en.wikipedia.org/wiki/Shia_LaBeouf'
 twitter: ''
@@ -78,7 +78,7 @@ Directors noticed something about this kid early: he didn't act. He inhabited. T
 
 On the set of David Ayer's World War II film Fury, Shia pulled out his own tooth with pliers. When the makeup department applied a prosthetic scar to his face, he decided it didn't look real enough and sliced his cheek with a knife. He kept the wound open for the entire four-month shoot.
 
-[Brad Pitt](/personality-analysis/Brad-Pitt), who starred alongside him, said: "Oh, I love this boy. He's one of the best actors I've ever seen. He's full-on commitment, man. He's living it like no one else."
+[Brad Pitt](/personality-analysis/brad-pitt), who starred alongside him, said: "Oh, I love this boy. He's one of the best actors I've ever seen. He's full-on commitment, man. He's living it like no one else."
 
 Logan Lerman, another Fury co-star: "He was the most committed actor I've ever worked with. He was there every single day working harder than everyone else."
 

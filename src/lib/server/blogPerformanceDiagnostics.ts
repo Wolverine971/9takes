@@ -90,6 +90,10 @@ interface ParsedBlog {
 }
 
 const DEFAULT_PEOPLE_DRAFTS_DIR = path.join(process.cwd(), 'src/blog/people/drafts');
+const RAW_PEOPLE_DRAFT_MODULES = import.meta.glob('/src/blog/people/drafts/*.{md,svx,svelte.md}', {
+	query: '?raw',
+	import: 'default'
+}) as Record<string, () => Promise<string>>;
 
 function toString(value: unknown): string {
 	return typeof value === 'string'
@@ -337,6 +341,21 @@ function buildReplicationNotes(
 }
 
 async function parsePeopleDrafts(rootDir: string): Promise<ParsedBlog[]> {
+	try {
+		return await parsePeopleDraftsFromFs(rootDir);
+	} catch (err) {
+		if (
+			isMissingDefaultDraftsDir(rootDir, err) &&
+			Object.keys(RAW_PEOPLE_DRAFT_MODULES).length > 0
+		) {
+			return parsePeopleDraftsFromModules(RAW_PEOPLE_DRAFT_MODULES);
+		}
+
+		throw err;
+	}
+}
+
+async function parsePeopleDraftsFromFs(rootDir: string): Promise<ParsedBlog[]> {
 	const entries = await readdir(rootDir, { withFileTypes: true });
 	const markdownFiles = entries
 		.filter((entry) => entry.isFile() && entry.name.endsWith('.md'))
@@ -359,6 +378,34 @@ async function parsePeopleDrafts(rootDir: string): Promise<ParsedBlog[]> {
 	}
 
 	return parsed;
+}
+
+async function parsePeopleDraftsFromModules(
+	modules: Record<string, () => Promise<string>>
+): Promise<ParsedBlog[]> {
+	const parsed: ParsedBlog[] = [];
+	const entries = Object.entries(modules).sort(([a], [b]) => a.localeCompare(b));
+
+	for (const [filePath, resolver] of entries) {
+		const raw = await resolver();
+		const { data, content } = matter(raw);
+		const links = extractLinks(content);
+		parsed.push({
+			slug: slugFromPath(filePath, data),
+			filePath: filePath.replace(/^\//, ''),
+			data,
+			content,
+			outgoingInternalHrefs: links.internal,
+			outgoingExternalHrefs: links.external
+		});
+	}
+
+	return parsed;
+}
+
+function isMissingDefaultDraftsDir(rootDir: string, err: unknown): boolean {
+	if (path.resolve(rootDir) !== path.resolve(DEFAULT_PEOPLE_DRAFTS_DIR)) return false;
+	return typeof err === 'object' && err !== null && 'code' in err && err.code === 'ENOENT';
 }
 
 export async function loadPeopleBlogPerformanceDiagnostics(

@@ -3,14 +3,14 @@ title: 'Winston Churchill: The Black Dog, The Bulldog, and the Type 8 Mind'
 description: 'Why was Winston Churchill both brutal and blubbery in public? We decode the Type 8 pattern behind the Black Dog, war leadership, and emotional extremes.'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Winston-Churchill'
+loc: 'https://9takes.com/personality-analysis/winston-churchill'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['politician', 'modern-leader']
-person: 'Winston-Churchill'
+person: 'winston-churchill'
 persona_title: "Britain's Weeping Iron"
 suggestions:
   ['Ronald-Reagan', 'Barack-Obama', 'George-W-Bush', 'Donald-Trump', 'Martin-Luther-King-Jr']

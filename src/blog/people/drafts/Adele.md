@@ -5,14 +5,14 @@ persona_title: "Music's Rawest Nerve"
 description: 'Adele turns heartbreak into anthems that move millions — yet she vomits backstage and escapes fire exits. Inside the Type 4 paradox driving every album.'
 author: 'DJ Wayne'
 date: '2026-04-11'
-loc: 'https://9takes.com/personality-analysis/Adele'
+loc: 'https://9takes.com/personality-analysis/adele'
 lastmod: '2026-04-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician']
-person: 'Adele'
+person: 'adele'
 suggestions: ['Billie-Eilish', 'Taylor-Swift', 'Lana-Del-Rey', 'Beyonce']
 wikipedia: 'https://en.wikipedia.org/wiki/Adele'
 twitter: 'Adele'
@@ -139,7 +139,7 @@ Here's what the Enneagram makes visible about Adele that a standard biography mi
 - **Every album is a single crisis, processed.** _19_ was heartbreak. _21_ was rage disguised as grief. _25_ was nostalgia for a self she'd already outgrown. _30_ was the destruction of a family she'd built to fill the absence her father left. She doesn't write albums about subjects. She writes albums as survival mechanisms.
 - **The Vegas cancellation was not a business decision.** She torpedoed a multimillion-dollar production one day before opening because it felt emotionally dishonest. Not logistics. Not Covid. The show lacked soul, so the show didn't happen. That is a Four's relationship with authenticity taken to its most expensive logical conclusion.
 - **The stage fright isn't separate from the talent.** The anxiety, the vomiting, the fire exit — these aren't flaws that exist alongside her gift. They're the cost of the gift. She writes from a place of total emotional exposure. Then she has to stand in front of thousands of people and _feel it again_. Every night. The fear isn't of performing. It's of being seen in the moment of feeling, by people who might not understand what they're seeing.
-- **The alter ego reveals the fracture.** When Adele met [Beyonce](/personality-analysis/Beyonce) for the first time, she had a panic attack. "What would Sasha Fierce do?" she asked herself on a balcony, crying. And Sasha Carter was born — a character cobbled together from Beyonce's stage persona and June Carter's fire. The fact that Adele needs a different identity to perform the emotions she's already written tells you everything about the distance between the woman who writes and the woman who has to stand up and sing it.
+- **The alter ego reveals the fracture.** When Adele met [Beyonce](/personality-analysis/beyonce) for the first time, she had a panic attack. "What would Sasha Fierce do?" she asked herself on a balcony, crying. And Sasha Carter was born — a character cobbled together from Beyonce's stage persona and June Carter's fire. The fact that Adele needs a different identity to perform the emotions she's already written tells you everything about the distance between the woman who writes and the woman who has to stand up and sing it.
 
 ---
 
@@ -151,7 +151,7 @@ She explained the core of it to Oprah: "The thought of someone spending money to
 
 That sentence is doing enormous psychological work. She's not worried about hitting wrong notes or forgetting lyrics. She's worried that the _live version of herself_ — the human being, not the recording — won't be enough. That the real Adele is less than the art she produces. That once people see the person behind the voice, they'll realize they preferred the disembodied version.
 
-This is the Four's central terror: that the essential self, once revealed, will be found lacking. It's a fear shared by artists like [Billie Eilish](/personality-analysis/Billie-Eilish) — the gift and the terror arriving as a package deal.
+This is the Four's central terror: that the essential self, once revealed, will be found lacking. It's a fear shared by artists like [Billie Eilish](/personality-analysis/billie-eilish) — the gift and the terror arriving as a package deal.
 
 So Sasha Carter isn't a gimmick. She's a survival mechanism — a character Adele can inhabit so that the woman behind the voice doesn't have to stand exposed in front of twenty thousand people every night. The emotions still flow. The songs still devastate. But it's technically someone else doing the devastating, and that sliver of distance is enough to keep her walking toward the stage instead of out the fire exit.
 

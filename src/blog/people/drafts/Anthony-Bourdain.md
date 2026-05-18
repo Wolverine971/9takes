@@ -5,14 +5,14 @@ persona_title: "Travel TV's Beautiful Fugitive"
 description: "Anthony Bourdain wasn't a hedonist. He was a Type 7w8 who couldn't sit still inside his own head — and spent fifty years building a life so he never had to."
 author: 'DJ Wayne'
 date: '2026-05-16'
-loc: 'https://9takes.com/personality-analysis/Anthony-Bourdain'
+loc: 'https://9takes.com/personality-analysis/anthony-bourdain'
 lastmod: '2026-05-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
 type: ['celebrity', 'author', 'celebrity-image']
-person: 'Anthony-Bourdain'
+person: 'anthony-bourdain'
 suggestions: ['Theo-Von', 'Kevin-Hart', 'Andrew-Callaghan', 'Robin-Williams']
 wikipedia: 'https://en.wikipedia.org/wiki/Anthony_Bourdain'
 twitter: 'Bourdain'

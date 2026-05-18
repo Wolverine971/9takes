@@ -5,14 +5,14 @@ persona_title: "Comedy's Southern Mystic"
 description: 'Theo Von spent 20 years on antidepressants, then quit before his Netflix taping. What happened next reveals the wound his comedy has been hiding since childhood.'
 author: 'DJ Wayne'
 date: '2025-12-09'
-loc: 'https://9takes.com/personality-analysis/Theo-Von'
+loc: 'https://9takes.com/personality-analysis/theo-von'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['comedian', 'stand-up']
-person: 'Theo-Von'
+person: 'theo-von'
 suggestions: ['Joe-Rogan', 'Shane-Gillis', 'Kevin-Hart', 'Tim-Dillon']
 wikipedia: 'https://en.wikipedia.org/wiki/Theo_Von'
 twitter: 'TheoVon'
@@ -145,7 +145,7 @@ The breakthrough came at the Comedy Store in Los Angeles. Joe Rogan described th
 
 His 2021 Netflix special _Regular People_ drew mixed reviews. Fans said it felt over-rehearsed compared to his freeform podcast style, where his mind could roam.
 
-The podcast was the real engine. "This Past Weekend" let Theo do what he does best: think out loud, toggle between absurd and devastating, confess something embarrassing, then ask you something no one has ever asked you before. By 2024, it was the **4th biggest podcast globally** on Spotify. His episode with [Donald Trump](/personality-analysis/Donald-Trump) hit over 16 million views. In July 2025, TIME named him to their inaugural "TIME100 Creators" list.
+The podcast was the real engine. "This Past Weekend" let Theo do what he does best: think out loud, toggle between absurd and devastating, confess something embarrassing, then ask you something no one has ever asked you before. By 2024, it was the **4th biggest podcast globally** on Spotify. His episode with [Donald Trump](/personality-analysis/donald-trump) hit over 16 million views. In July 2025, TIME named him to their inaugural "TIME100 Creators" list.
 
 His fans call themselves **"Gang Gang"** — Theo's signature greeting turned into an identity. The Rat King nickname started on The Fighter and The Kid podcast with Brendan Schaub and took on a mythic dimension when Jordan Peterson appeared on Theo's show, noticed his rat-print shirt, and launched into a story about catching rats and throwing them in a pit until only one survived, the "rat king" you release to eliminate the others. The Rat King persona became central to his brand: merch, fan culture, and his 2024-2025 arena tour, "Return of the Rat." But "Gang Gang" is what the audience actually says to each other. The podcast's confessional format — voicemails from listeners, unscripted vulnerability, real-time processing of his own life — creates the unusual feeling that his millions of listeners are friends, not fans.
 
@@ -157,7 +157,7 @@ The uncomfortable feelings didn't go away. They just had a nicer address.
 
 ## Why Politicians Tell Theo Things They Won't Tell Journalists
 
-In August 2024, Theo sat down with Donald Trump and [Bernie Sanders](/personality-analysis/Bernie-Sanders) in the same week. Both men have spent decades guarded with media. Both opened up about things they rarely discuss publicly.
+In August 2024, Theo sat down with Donald Trump and [Bernie Sanders](/personality-analysis/bernie-sanders) in the same week. Both men have spent decades guarded with media. Both opened up about things they rarely discuss publicly.
 
 Trump talked about his brother Fred's death from addiction. Sanders later admitted Trump is "very disarming."
 

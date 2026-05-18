@@ -9,12 +9,13 @@
 # is the only state passed between stages.
 #
 # Pipeline:
-#   1. create        - /blog_content_creator_people_v2 (non-interactive)
-#   2. fresh_eyes    - /blog_content_fresh_eyes_people
-#   3. second_pass   - /blog_content_second_pass_people
-#   4. cohesion      - /cohesion-check
-#   5. editor_pass   - /blog_content_editor_pass_people
-#   6. grade         - /grade_blog
+#   1. create             - /blog_content_creator_people_v2 (non-interactive)
+#   2. fresh_eyes         - /blog_content_fresh_eyes_people
+#   3. second_pass        - /blog_content_second_pass_people
+#   4. cohesion           - /cohesion-check
+#   5. editor_pass        - /blog_content_editor_pass_people
+#   6. enrich_frontmatter - /blog_content_frontmatter_enrich_people
+#   7. grade              - /grade_blog
 #
 # Usage:
 #   ./scripts/run-blog-pipeline.sh <Person-Name>
@@ -23,9 +24,9 @@
 # Notes:
 #   - Run-all-then-report: if a stage errors, the pipeline keeps going.
 #     Check the per-stage log files for failures.
-#   - Re-running on an already-graded blog: the grader may prompt or skip.
-#     Delete the existing `content_quality:` block from the draft frontmatter
-#     before re-running if you want a fresh score.
+#   - Re-running on an already-graded blog: the pipeline strips any existing
+#     `content_quality:` block from the draft frontmatter just before stage 6
+#     (grade), so re-runs always produce a fresh score with no prompt collision.
 #
 
 set -uo pipefail
@@ -79,12 +80,34 @@ echo "Started: $(date)"
 echo "═════════════════════════════════════════════════════"
 echo
 
-run_stage 1 create        "/blog_content_creator_people_v2 $PERSON --non-interactive"
-run_stage 2 fresh_eyes    "/blog_content_fresh_eyes_people $PERSON"
-run_stage 3 second_pass   "/blog_content_second_pass_people $PERSON"
-run_stage 4 cohesion      "/cohesion-check $DRAFT_PATH"
-run_stage 5 editor_pass   "/blog_content_editor_pass_people $PERSON"
-run_stage 6 grade         "/grade_blog $PERSON"
+clear_grading_frontmatter() {
+  local file="$REPO_ROOT/$DRAFT_PATH"
+  if [[ ! -f "$file" ]]; then
+    echo "[pre-grade] Draft not found at $file, skipping grade-block cleanup"
+    return 0
+  fi
+  if ! grep -q "^content_quality:" "$file"; then
+    echo "[pre-grade] No existing content_quality block on draft, nothing to clear"
+    return 0
+  fi
+  echo "[pre-grade] Stripping existing content_quality block from $DRAFT_PATH for a clean re-grade"
+  awk '
+    /^---$/ { fm_boundary++; print; next }
+    fm_boundary == 1 && /^content_quality:[[:space:]]*$/ { in_block = 1; next }
+    fm_boundary == 1 && in_block && /^[[:space:]]/ { next }
+    fm_boundary == 1 && in_block { in_block = 0 }
+    { print }
+  ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+}
+
+run_stage 1 create             "/blog_content_creator_people_v2 $PERSON --non-interactive"
+run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $PERSON"
+run_stage 3 second_pass        "/blog_content_second_pass_people $PERSON"
+run_stage 4 cohesion           "/cohesion-check $DRAFT_PATH"
+run_stage 5 editor_pass        "/blog_content_editor_pass_people $PERSON"
+run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $PERSON"
+clear_grading_frontmatter
+run_stage 7 grade              "/grade_blog $PERSON"
 
 echo "═════════════════════════════════════════════════════"
 echo "Pipeline complete for: $PERSON"

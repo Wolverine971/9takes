@@ -5,14 +5,14 @@ persona_title: "New York's Devoted Outsider"
 description: "Three continents by age seven. A failed rapper named Young Cardamom. Then Zohran Mamdani became NYC's youngest mayor in generations — driven by the psychology of belonging."
 author: 'DJ Wayne'
 date: '2026-02-18'
-loc: 'https://9takes.com/personality-analysis/Zohran-Mamdani'
+loc: 'https://9takes.com/personality-analysis/zohran-mamdani'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['politician', 'campaign-politician']
-person: 'Zohran-Mamdani'
+person: 'zohran-mamdani'
 suggestions: ['Alexandria-Ocasio-Cortez', 'Gavin-Newsom', 'Kamala-Harris', 'Nancy-Pelosi']
 wikipedia: 'https://en.wikipedia.org/wiki/Zohran_Mamdani'
 twitter: 'ZohranKMamdani'
@@ -184,7 +184,7 @@ From 1% to mayor of the largest city in America. The distance between those two 
 
 "I can go to a rally, and I can say _I'm going to freeze the_ — and the crowd will say _rent_. _Buses_ — _fast and free_. _Universal child care_. People know."
 
-He beat Andrew Cuomo in the June primary by 12 points. Cuomo, the son of a former governor, whose super PAC was funded by the same billionaires who backed [Trump](/personality-analysis/Donald-Trump). Cuomo, who called Mamdani a "kid," a "great actor," and "a divisive force in New York."
+He beat Andrew Cuomo in the June primary by 12 points. Cuomo, the son of a former governor, whose super PAC was funded by the same billionaires who backed [Trump](/personality-analysis/donald-trump). Cuomo, who called Mamdani a "kid," a "great actor," and "a divisive force in New York."
 
 When Cuomo attacked, Mamdani didn't retreat. In the second debate, he announced that Charlotte Bennett, one of the women who had accused Cuomo of sexual harassment, was in the audience. "You sought to access her private gynecological records," he said, looking directly at Cuomo. The room shifted. The kid who listens also knows when to stop listening — that's the [Type 8](/enneagram-corner/enneagram-type-8) edge that Twos pull out when they're cornered.
 

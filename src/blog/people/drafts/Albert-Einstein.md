@@ -5,16 +5,64 @@ persona_title: 'The Single-Harness Genius'
 description: "Why did Einstein write his wife a list of marital demands while preaching peace to humanity? An Enneagram Type 5 analysis of physics' loneliest mind."
 author: 'DJ Wayne'
 date: '2026-05-11'
-loc: 'https://9takes.com/personality-analysis/Albert-Einstein'
+loc: 'https://9takes.com/personality-analysis/albert-einstein'
 lastmod: '2026-05-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
 type: ['historical', 'historical-scientist']
-person: 'Albert-Einstein'
+person: 'albert-einstein'
 suggestions: ['Bill-Gates', 'Nikola-Tesla', 'Friedrich-Nietzsche', 'Robert-Oppenheimer']
 wikipedia: 'https://en.wikipedia.org/wiki/Albert_Einstein'
+wikidata_qid: 'Q937'
+imdb_id: 'nm0251868'
+birth_date: '1879-03-14'
+birth_place: 'Ulm, Württemberg, German Empire'
+nationality:
+  - 'German'
+  - 'Swiss'
+  - 'American'
+occupation:
+  - 'Theoretical physicist'
+  - 'Author'
+knows_about:
+  - 'Theory of relativity'
+  - 'Photoelectric effect'
+  - 'Quantum mechanics'
+  - 'Mass–energy equivalence'
+  - 'Brownian motion'
+  - 'Statistical mechanics'
+  - 'Cosmology'
+keywords:
+  - 'Albert Einstein enneagram'
+  - 'Albert Einstein type 5'
+  - 'Albert Einstein personality'
+  - 'Einstein 5w4'
+  - 'Investigator enneagram'
+  - 'Einstein wife contract'
+  - 'Einstein Mileva Marić'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Albert_Einstein'
+  - 'https://www.wikidata.org/wiki/Q937'
+  - 'https://www.imdb.com/name/nm0251868/'
+  - 'https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Albert_Einstein'
+  - 'https://en.wikipedia.org/wiki/Mileva_Marić'
+  - 'https://en.wikipedia.org/wiki/Annus_Mirabilis_papers'
+  - 'https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/'
+  - 'https://en.wikipedia.org/wiki/Einstein%E2%80%93Szilard_letter'
+faqs:
+  - question: "What is Albert Einstein's personality type?"
+    answer: "Albert Einstein is an Enneagram Type 5 (The Investigator), specifically a 5w4. The pattern shows in his self-described 'horse for single harness' temperament, the patent-office fortress where he wrote four papers in 1905, the written marital demands he handed Mileva, the schizophrenic son he never visited after emigrating, and the quantum-mechanics fight he refused to lose for thirty years."
+    anchor: 'what-is-albert-einsteins-personality-type'
+  - question: 'Why did Einstein hand his wife a written contract?'
+    answer: "In July 1914, after the marriage to Mileva Marić had collapsed under his work and his cousin Elsa, Einstein drafted a numbered list of marital conditions: no intimacy, no reproach, immediate departure on request. Mileva signed it and left months later with their two sons. The contract reads as Type 5 protective architecture — the same impulse that built a patent-office cloister, applied to a marriage."
+    anchor: 'the-marriage-einstein-ended-in-writing'
+  - question: 'Why did Einstein never accept quantum mechanics?'
+    answer: "The standard story is that Einstein was philosophically committed to a deterministic universe. The deeper Type 5 reading is that he had paid for his version of physics with thirty years of solitude, and accepting probabilistic quantum mechanics meant admitting the model his withdrawal had produced was incomplete. He was working on a unified field theory the night before he died."
+    anchor: 'why-einstein-lost-the-quantum-mechanics-fight'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -122,7 +170,7 @@ Einstein is the textbook 5, and unusually, he is also the textbook 5 in his own 
 
 This is not loneliness as suffering. This is loneliness as currency. He paid in connection. He bought independence.
 
-The [wing](/enneagram-corner/enneagram-wings-complete-guide) is **5w4**. The 4 wing is what gave him the romantic pull toward Mozart, the daydreaming-through-music, the line about "thinking in pictures, not in words." A pure 5w6 looks like [Bill Gates](/personality-analysis/Bill-Gates): systematic, security-oriented, allergic to drama. Einstein has a gauzy aesthetic streak the 5w6 lacks. He wrote about music the way a poet would: "I see my life in terms of music. I get most joy in life out of music." He was a 5 with the heart of a 4, and he kept both at arm's length from anyone who wanted to be loved by him.
+The [wing](/enneagram-corner/enneagram-wings-complete-guide) is **5w4**. The 4 wing is what gave him the romantic pull toward Mozart, the daydreaming-through-music, the line about "thinking in pictures, not in words." A pure 5w6 looks like [Bill Gates](/personality-analysis/bill-gates): systematic, security-oriented, allergic to drama. Einstein has a gauzy aesthetic streak the 5w6 lacks. He wrote about music the way a poet would: "I see my life in terms of music. I get most joy in life out of music." He was a 5 with the heart of a 4, and he kept both at arm's length from anyone who wanted to be loved by him.
 
 You will see the 5 most clearly in three places: the patent office where his greatest physics happened, the marriages where his greatest cruelty happened, and the deathbed where his deepest preference finally won.
 
@@ -240,7 +288,7 @@ There is a paradox in his life that most biographies note and then move past.
 
 He hated nationalism, signed antiwar manifestos in 1914 when most of his German colleagues were drafting pro-war ones, and spent his last decades campaigning for Jewish refugees, civil rights, world government, and nuclear disarmament. He was the first famous American to speak publicly against McCarthy. He answered children's letters by hand for forty years. The kindness was real.
 
-His most consequential public act was darker than the campaigns. In the summer of 1939, Hungarian physicist Leó Szilárd came to him with the news that German researchers had split the uranium atom and the warning that a Nazi bomb might follow. Szilárd had drafted a letter to Roosevelt. Einstein signed it on August 2. The letter was the first move in what became the Manhattan Project. Einstein was not invited onto the project itself — the FBI thought him a security risk — but he had cleared the path. After Hiroshima he spent the rest of his life campaigning against the world he had helped open. To Linus Pauling, in a 1954 conversation Pauling recorded in his diary:
+His most consequential public act was darker than the campaigns. In the summer of 1939, Hungarian physicist Leó Szilárd came to him with the news that German researchers had split the uranium atom and the warning that a Nazi bomb might follow. Szilárd had drafted a letter to Roosevelt. Einstein signed it on August 2. The letter was the first move in what became the Manhattan Project, eventually led by [Robert Oppenheimer](/personality-analysis/robert-oppenheimer). Einstein was not invited onto the project itself — the FBI thought him a security risk — but he had cleared the path. After Hiroshima he spent the rest of his life campaigning against the world he had helped open. To Linus Pauling, in a 1954 conversation Pauling recorded in his diary:
 
 > "I made one great mistake in my life — when I signed the letter to President Roosevelt recommending that atom bombs be made; but there was some justification — the danger that the Germans would make them."
 

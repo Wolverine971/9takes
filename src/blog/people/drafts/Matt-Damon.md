@@ -5,14 +5,14 @@ persona_title: "Hollywood's Disciplined Everyman"
 description: 'Matt Damon plays the normal guy. But the discipline behind that normalcy almost stopped his heart. Inside the Enneagram Type 1 drive no one talks about.'
 author: 'DJ Wayne'
 date: '2026-04-07'
-loc: 'https://9takes.com/personality-analysis/Matt-Damon'
+loc: 'https://9takes.com/personality-analysis/matt-damon'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['movieStar', 'screen-icon']
-person: 'Matt-Damon'
+person: 'matt-damon'
 suggestions: ['Ben-Affleck', 'Leonardo-DiCaprio', 'Natalie-Portman', 'Tom-Hanks']
 wikipedia: 'https://en.wikipedia.org/wiki/Matt_Damon'
 twitter: ''
@@ -88,7 +88,7 @@ He's not angry about it. He's grateful. And that might be the most Type 1 thing 
 
 ## Two Blocks Down the Road
 
-When Matt was ten, he met a kid named <a href="/personality-analysis/Ben-Affleck">Ben Affleck</a> who lived two blocks away. They played baseball. They played Dungeons and Dragons. They caught movie double-features.
+When Matt was ten, he met a kid named <a href="/personality-analysis/ben-affleck">Ben Affleck</a> who lived two blocks away. They played baseball. They played Dungeons and Dragons. They caught movie double-features.
 
 Then, in 1986, a pick-up football game: Matt got into a fight with a much larger, older student. Affleck — two years younger, smaller — jumped in. Damon has called this the defining moment of their friendship.
 
@@ -226,7 +226,7 @@ Here is the most revealing detail about this marriage: Damon told Esquire that h
 
 He's describing his private life the way an engineer describes a system. The privacy isn't accidental. It's maintained through consistency, through discipline, through the deliberate refusal to generate stories. The boring narrative is the defense mechanism.
 
-And when [Brad Pitt](/personality-analysis/Brad-Pitt) heard that Damon walks his kids to school every morning, Pitt said: "You bastard." Not because Damon is lucky. Because Damon built something Pitt couldn't.
+And when [Brad Pitt](/personality-analysis/brad-pitt) heard that Damon walks his kids to school every morning, Pitt said: "You bastard." Not because Damon is lucky. Because Damon built something Pitt couldn't.
 
 ## The Dream After the Funeral
 

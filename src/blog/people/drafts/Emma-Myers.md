@@ -5,17 +5,58 @@ persona_title: 'The Werewolf Who Wants to Disappear'
 description: "Emma Myers auditioned for Wednesday and got Enid. She's an introvert playing the show's sunshine. Inside the Type 9 wiring that makes it work."
 author: 'DJ Wayne'
 date: '2026-04-27'
-loc: 'https://9takes.com/personality-analysis/Emma-Myers'
+loc: 'https://9takes.com/personality-analysis/emma-myers'
 lastmod: '2026-04-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
 type: ['newMovieStar', 'celebrity', 'rising-star']
-person: 'Emma-Myers'
+person: 'emma-myers'
 suggestions: ['Jenna-Ortega', 'Millie-Bobby-Brown', 'Olivia-Rodrigo', 'Jennifer-Garner']
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Myers'
 instagram: 'ememyers'
+wikidata_qid: 'Q115411254'
+imdb_id: 'nm3528821'
+birth_date: '2002-04-02'
+birth_place: 'Orlando, Florida, USA'
+nationality: 'American'
+occupation:
+  - 'Actress'
+knows_about:
+  - 'Wednesday (TV series)'
+  - 'A Minecraft Movie'
+  - 'Family Switch'
+  - 'A Good Girl''s Guide to Murder'
+  - 'Acting'
+keywords:
+  - 'Emma Myers enneagram'
+  - 'Emma Myers type 9'
+  - 'Emma Myers personality'
+  - 'Wednesday Enid Sinclair'
+  - 'Peacemaker enneagram'
+  - 'Emma Myers Jenna Ortega'
+  - 'Emma Myers introvert'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Emma_Myers'
+  - 'https://www.wikidata.org/wiki/Q115411254'
+  - 'https://www.imdb.com/name/nm3528821/'
+  - 'https://www.instagram.com/ememyers/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Emma_Myers'
+  - 'https://en.wikipedia.org/wiki/Wednesday_(TV_series)'
+  - 'https://en.wikipedia.org/wiki/A_Minecraft_Movie'
+  - 'https://en.wikipedia.org/wiki/A_Good_Girl%27s_Guide_to_Murder_(TV_series)'
+faqs:
+  - question: "What is Emma Myers's personality type?"
+    answer: "Emma Myers is an Enneagram Type 9 (The Peacemaker). The pattern shows in her steady self-continuity ('I'm still pretty me'), the fact that she auditioned for Wednesday Addams and accepted Enid Sinclair without a fight, the soundproof car she uses as a private anger outlet, and the consistent reports from Jenna Ortega and Taylor Lautner's wife that something in her invites other people to protect her."
+    anchor: 'what-is-emma-myers-personality-type'
+  - question: 'How did Emma Myers get cast as Enid in Wednesday?'
+    answer: "She auditioned for Wednesday Addams in February 2021, sat through two months of silence, did a callback over Zoom, then a chemistry read with Jenna Ortega — who had already been cast. The Wednesday team pivoted her to Enid Sinclair. Emma's own account on The Squeeze: 'This is not gonna go well, I can't pull it off. Didn't pull it off. But they came back and were like, oh, you might be good for Enid.' The Type 9 instinct to accept the role the room is actually offering, rather than fight for the role she imagined."
+    anchor: 'why-emma-myers-auditioned-for-wednesday-and-got-enid'
+  - question: 'Why does Jenna Ortega want to protect Emma Myers?'
+    answer: "On Armchair Expert in 2025, Jenna Ortega said: 'I don't think I've ever been so protective of somebody.' During the Wednesday shoot in Romania, Jenna woke up every morning and sang Emma a new song about how beautiful and wonderful she was. Taylor Lautner's wife Tay made the same observation independently on The Squeeze: 'Wrap her in bubble wrap.' The Type 9 register that invites protection is rare in young Hollywood, where the default presentation skews toward I-can-handle-this."
+    anchor: 'why-jenna-ortega-wanted-to-protect-emma-myers'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -95,7 +136,7 @@ She was nineteen when _Wednesday_ landed. Ten million Instagram followers arrive
 
 What makes Emma clearly a Nine rather than a withdrawn 4 or an anxious 6 is her relationship to the undetermined. "The undetermined future is a crazy thing for me, but it's almost comforting not having anything planned out," she told Variety in 2025. A 6 finds that sentence terrifying. A 4 finds it empty. A 9 finds it peaceful. She can stand in an open field and feel held by the sky.
 
-The type also explains a line that doesn't otherwise make sense. When Seventeen asked her in 2025 whether fame had changed her, she said: "I don't really feel any different than I used to though. I'm still pretty me." That isn't humility. It's 9 self-continuity: the sense that the self is steady regardless of what spins around it. [Blake Lively](/personality-analysis/Blake-Lively) could not say that sentence. [Taylor Swift](/personality-analysis/Taylor-Swift) could not say that sentence. Emma says it and means it.
+The type also explains a line that doesn't otherwise make sense. When Seventeen asked her in 2025 whether fame had changed her, she said: "I don't really feel any different than I used to though. I'm still pretty me." That isn't humility. It's 9 self-continuity: the sense that the self is steady regardless of what spins around it. [Blake Lively](/personality-analysis/blake-lively) could not say that sentence. [Taylor Swift](/personality-analysis/taylor-swift) could not say that sentence. Emma says it and means it.
 
 ---
 
@@ -123,7 +164,7 @@ Her private anchor during the dance years was music nobody at the studio underst
 
 The casting of _Wednesday_ is the single most compressed example of how Emma operates.
 
-She auditioned for Wednesday Addams in February 2021. Two months of silence. A call from her manager: she was still in the running, but the team was locking Wednesday down first, so she'd have to wait. A callback over Zoom in April. Two more months of silence. Then a chemistry read with [Jenna Ortega](/personality-analysis/Jenna-Ortega), who had already been cast.
+She auditioned for Wednesday Addams in February 2021. Two months of silence. A call from her manager: she was still in the running, but the team was locking Wednesday down first, so she'd have to wait. A callback over Zoom in April. Two more months of silence. Then a chemistry read with [Jenna Ortega](/personality-analysis/jenna-ortega), who had already been cast.
 
 She thought she bombed it. The reason she thought she bombed it is the tell.
 
@@ -173,7 +214,7 @@ The response to overwhelm is the pattern. She did not double down on the feed to
 
 Then the sentence that nearly every Nine in a performance career eventually hits: "I didn't notice that I was putting value in [the attention], but when you would go through a quiet time and it wouldn't be there, and you would stop being recognized as much, the paparazzi didn't care as much about you — I started to get sad." Then the self-correction, arriving immediately after: "I was definitely not valuing the right things in life." That two-beat loop (crave attention, feel bad about craving it) is the 3-to-9 move under pressure. A 3 would chase the attention harder. A 9 catches herself caring and turns it down.
 
-She has dealt with it by asking people she trusts how they dealt with it. [Jennifer Garner](/personality-analysis/Jennifer-Garner), who plays her onscreen mother in _Family Switch_, has become one of the people she leans on. Her response to Garner in an early interview tells you everything: "She reminds me of my actual mom, so it works out for the best." Garner collapsed into the mother slot immediately.
+She has dealt with it by asking people she trusts how they dealt with it. [Jennifer Garner](/personality-analysis/jennifer-garner), who plays her onscreen mother in _Family Switch_, has become one of the people she leans on. Her response to Garner in an early interview tells you everything: "She reminds me of my actual mom, so it works out for the best." Garner collapsed into the mother slot immediately.
 
 "I regularly ask her, 'How do you do this? How do you deal with this?'" Emma said in 2025. Not _what should I do_. _How do you do this_. The Nine is asking the elder how it feels to carry the thing. She is looking for a body to model the endurance from, not a playbook.
 
@@ -215,7 +256,7 @@ Some people invite protection. Emma is one of them. You can watch it happen in r
 
 Jenna Ortega, appearing on _Armchair Expert with Dax Shepard_ in 2025, said something that startled the hosts: "I don't think I've ever been so protective of somebody." She was talking about Emma. During the _Wednesday_ shoot in Romania, Jenna added, she would wake up every morning and sing Emma a new song about "how beautiful and wonderful she was."
 
-That is not a standard co-star relationship. That is someone watching someone else stand close to an edge.
+That is not a standard co-star relationship. It is someone watching someone else stand close to an edge.
 
 Tay Lautner, two minutes after meeting Emma at a comic convention, told _The Squeeze_ audience she wanted to "wrap her in bubble wrap" and keep her from anything negative. That is a lot to say about a person you have known for two minutes. People keep saying it anyway.
 

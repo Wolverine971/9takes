@@ -5,14 +5,14 @@ persona_title: "Hip-Hop's Quiet Architect"
 description: "Inside Travis Scott's contradiction: a meticulous perfectionist who builds overwhelming worlds, then can't bear to see what happens inside them."
 author: 'DJ Wayne'
 date: '2025-03-04'
-loc: 'https://9takes.com/personality-analysis/Travis-Scott'
+loc: 'https://9takes.com/personality-analysis/travis-scott'
 lastmod: '2026-02-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['musician', 'rapper']
-person: 'Travis-Scott'
+person: 'travis-scott'
 suggestions: ['Kanye', 'Drake', 'Kylie-Jenner', 'Kendrick-Lamar']
 wikipedia: 'https://en.wikipedia.org/wiki/Travis_Scott'
 twitter: 'trvisXX'
@@ -89,7 +89,7 @@ The man who would build mosh pits across six continents sat in the backseat of h
 
 ## Fifty Sessions Per Song
 
-At nineteen, [Kanye West](/personality-analysis/Kanye) brought him into the fold. Travis produced tracks for _Yeezus_, worked on _Cruel Summer_, absorbed everything.
+At nineteen, [Kanye West](/personality-analysis/kanye) brought him into the fold. Travis produced tracks for _Yeezus_, worked on _Cruel Summer_, absorbed everything.
 
 "That guy took me in when I was young, when I was like 19," Travis said. "He taught me a lot about music. And not even just 'taught' me, but he allowed me to experience the creation of music."
 
@@ -191,7 +191,7 @@ Consider his childhood through that lens. A grandmother's dangerous neighborhood
 
 The rage at concerts isn't aggression. It's a Nine's suppressed anger finding the one channel where it's allowed. Nines sit in the Enneagram's anger triad but are the most anger-avoidant of all nine types, which means when the anger surfaces, it's volcanic. Travis doesn't get angry at people. He gets angry _with_ fifty thousand of them, channeling fury into a collective experience where the energy belongs to everyone and no one.
 
-Off stage, the pattern inverts. Travis maintains relationships across every feuding camp in hip-hop: [Drake](/personality-analysis/Drake) and [Kanye](/personality-analysis/Kanye), Playboi Carti and Don Toliver's rivals, all sides of the Drake-Kendrick war. He played Drake songs at DJ sets. He hyped Kendrick's diss track at a festival. When fans noticed, they commented: "Travis again with the 'get along with everyone.'" Pusha T's critique was sharper: "He don't have no picks, no loyalty to anybody." But that misreads the Nine. It's not disloyalty. It's the inability to choose a side when choosing means losing a connection.
+Off stage, the pattern inverts. Travis maintains relationships across every feuding camp in hip-hop: [Drake](/personality-analysis/drake) and [Kanye](/personality-analysis/kanye), Playboi Carti and Don Toliver's rivals, all sides of the Drake-Kendrick war. He played Drake songs at DJ sets. He hyped Kendrick's diss track at a festival. When fans noticed, they commented: "Travis again with the 'get along with everyone.'" Pusha T's critique was sharper: "He don't have no picks, no loyalty to anybody." But that misreads the Nine. It's not disloyalty. It's the inability to choose a side when choosing means losing a connection.
 
 "Because I don't do a lot of interviews or talk a lot, Travis Scott can be misunderstood," he told Billboard in 2025. "I'm still trying to find a balance between the real me and my outer shell."
 
@@ -211,7 +211,7 @@ Travis continued performing for thirty-seven minutes.
 
 During the show, he paused after spotting an ambulance in the crowd. "There's an ambulance in the — woah, woah," he said. "We need somebody to help, somebody passed out right here." He sent members of his entourage to crowd-surf toward the area. Then the show resumed.
 
-His autotune operator, Bilal "Bizzy" Joseph, told him three people had died. The show continued. [Drake](/personality-analysis/Drake) took the stage.
+His autotune operator, Bilal "Bizzy" Joseph, told him three people had died. The show continued. [Drake](/personality-analysis/drake) took the stage.
 
 Ten people died that night. The youngest was Ezra Blount. He was nine years old.
 
@@ -233,7 +233,7 @@ The architect disclaimed the building.
 
 ## "You Can't Crash Out"
 
-They met at Coachella in April 2017. Within a month, [Kylie Jenner](/personality-analysis/Kylie-Jenner) was pregnant.
+They met at Coachella in April 2017. Within a month, [Kylie Jenner](/personality-analysis/kylie-jenner) was pregnant.
 
 The pairing made no surface sense: the most private man in hip-hop and arguably the most public woman on Earth. They never lived together. Not even during their "on" periods. Six years, two children, separate homes, separate cities. An insider told outlets, "It's never been an easy relationship. There is a reason they never got married."
 

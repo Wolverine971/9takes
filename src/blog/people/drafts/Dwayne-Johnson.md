@@ -5,14 +5,14 @@ persona_title: "Hollywood's Armored Shapeshifter"
 description: 'Inside the psychology of Dwayne Johnson, from stolen Snickers bars to a Golden Globe nomination. The performance was always the point.'
 author: 'DJ Wayne'
 date: '2024-07-09'
-loc: 'https://9takes.com/personality-analysis/Dwayne-Johnson'
+loc: 'https://9takes.com/personality-analysis/dwayne-johnson'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'Dwayne-Johnson'
+person: 'dwayne-johnson'
 suggestions: ['kevin-hart', 'arnold-schwarzenegger', 'tom-cruise', 'stephen-a-smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Dwayne_Johnson'
 twitter: 'TheRock'
@@ -108,7 +108,7 @@ It worked so well he spent the next 25 years doing it in every new arena he ente
 
 For a Type 3 on the Enneagram, identity and achievement aren't just linked. They're fused. The core fear is worthlessness. The core belief: _without my achievements, I am nothing._
 
-Look at the trajectory. Dwayne Johnson didn't just succeed in one domain and stop. He conquered wrestling, then walked away at the peak to conquer Hollywood, a trajectory that mirrors <a href="/personality-analysis/Arnold-Schwarzenegger">Arnold Schwarzenegger</a>'s, another Type 3 who outgrew every arena he entered. He dominated the box office, then built a business empire: Teremana Tequila, Seven Bucks Productions, Project Rock with Under Armour, the XFL. Then he walked away from the empire to chase critical acclaim with an A24 film.
+Look at the trajectory. Dwayne Johnson didn't just succeed in one domain and stop. He conquered wrestling, then walked away at the peak to conquer Hollywood, a trajectory that mirrors <a href="/personality-analysis/arnold-schwarzenegger">Arnold Schwarzenegger</a>'s, another Type 3 who outgrew every arena he entered. He dominated the box office, then built a business empire: Teremana Tequila, Seven Bucks Productions, Project Rock with Under Armour, the XFL. Then he walked away from the empire to chase critical acclaim with an A24 film.
 
 The evidence runs deeper than ambition:
 

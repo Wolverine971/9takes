@@ -5,14 +5,14 @@ persona_title: "Streaming's Chaos Agent"
 description: "Adin Ross built a streaming empire on status hunger, controversy, celebrity proximity, and a need to keep proving he's still winning."
 author: 'DJ Wayne'
 date: '2025-04-08'
-loc: 'https://9takes.com/personality-analysis/Adin-Ross'
+loc: 'https://9takes.com/personality-analysis/adin-ross'
 lastmod: '2026-01-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['creator', 'streamer']
-person: 'Adin-Ross'
+person: 'adin-ross'
 suggestions: ['Jake-Paul', 'Logan-Paul', 'Kai-Cenat', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/Adin_Ross'
 twitter: 'adinross'
@@ -137,7 +137,7 @@ Despite tensions, he announced in December 2025 that he was sticking with Kick l
 
 ## Why the Trump Alliance Makes Sense to Him
 
-Adin Ross's support for <a href="/personality-analysis/Donald-Trump">Donald Trump</a> follows Type 3 logic: proximity to power as proof of winning.
+Adin Ross's support for <a href="/personality-analysis/donald-trump">Donald Trump</a> follows Type 3 logic: proximity to power as proof of winning.
 
 In August 2024, he interviewed Trump at Mar-a-Lago in a 90-minute livestream that drew **over 580,000 concurrent viewers**. The interview came at the request of Trump's son Barron, who called Adin a "friend." Being sought out by political power is validation that can't be faked.
 
@@ -147,7 +147,7 @@ When asked why he supports Trump: "I have my personal reasons, such as crypto. B
 
 Notice the order. _Crypto_ comes first. Outcomes over theory.
 
-The validation peaked at Trump's January 2025 inauguration. Dana White took the stage to publicly thank the influencers who helped deliver victory: **"I want to thank the Nelk Boys, Adin Ross, Theo Von, Bussin' With The Boys and last but not least, the mighty and powerful [Joe Rogan](/personality-analysis/Joe-Rogan)."**
+The validation peaked at Trump's January 2025 inauguration. Dana White took the stage to publicly thank the influencers who helped deliver victory: **"I want to thank the Nelk Boys, Adin Ross, Theo Von, Bussin' With The Boys and last but not least, the mighty and powerful [Joe Rogan](/personality-analysis/joe-rogan)."**
 
 Mutually beneficial. Trump gets access to Adin's demographic. Adin gets the status boost of associating with a president.
 
@@ -161,7 +161,7 @@ It's one thing to have access. It's another thing to be wanted.
 
 ### The Kai Cenat Situation
 
-Adin's relationship with <a href="/personality-analysis/Kai-Cenat">Kai Cenat</a> shows how quickly public alliances can unravel.
+Adin's relationship with <a href="/personality-analysis/kai-cenat">Kai Cenat</a> shows how quickly public alliances can unravel.
 
 The situation escalated when Kai revealed that Adin's manager, Taav, had allegedly called him the n-word during a late-night phone call. Kai clarified he had "no beef with Adin himself."
 
@@ -183,7 +183,7 @@ Achievers run on two fears: failing and not mattering. Adin says both in his own
 
 That's the Achiever trap: redefine the finish line the moment you cross it, so the race never ends and satisfaction never arrives.
 
-He's now 25. Net worth estimates range from **$24 million to $40 million**. He claims to own 30% of Kick, runs Risk Clothing merchandise, co-founded Breath Death breath mints with <a href="/personality-analysis/Logan-Paul">Logan Paul</a>, launched the Brand Risk boxing series, and owns rental properties in Los Angeles.
+He's now 25. Net worth estimates range from **$24 million to $40 million**. He claims to own 30% of Kick, runs Risk Clothing merchandise, co-founded Breath Death breath mints with <a href="/personality-analysis/logan-paul">Logan Paul</a>, launched the Brand Risk boxing series, and owns rental properties in Los Angeles.
 
 The goalposts keep moving.
 
@@ -237,7 +237,7 @@ Accountability is also strategy. It closes the loop before the narrative calcifi
 
 ### The Drake and Stake Lawsuits (2025-2026)
 
-Multiple class-action lawsuits filed in late 2025 name Adin alongside <a href="/personality-analysis/Drake">Drake</a> and gambling platform Stake.us. The allegations: promoting illegal online gambling, funding "bot farms" to inflate streaming numbers, and failing to disclose "house money" gambling.
+Multiple class-action lawsuits filed in late 2025 name Adin alongside <a href="/personality-analysis/drake">Drake</a> and gambling platform Stake.us. The allegations: promoting illegal online gambling, funding "bot farms" to inflate streaming numbers, and failing to disclose "house money" gambling.
 
 The Virginia lawsuit seeks damages not less than $5 million. Missouri goes to trial March 20, 2026.
 
@@ -255,7 +255,7 @@ Classic crisis management: take ownership, offer to pay, close the loop fast.
 
 The most revealing controversy of 2025 showed what happens when an Achiever's shadow takes over.
 
-It started when Adin launched an angry tirade about <a href="/personality-analysis/Doechii">Doechii</a>, calling her **"an entitled, unintelligent piece of sh\*t"** and an **"industry plant."**
+It started when Adin launched an angry tirade about <a href="/personality-analysis/doechii">Doechii</a>, calling her **"an entitled, unintelligent piece of sh\*t"** and an **"industry plant."**
 
 Context matters: Doechii entered 2025 with a **Grammy for Best Rap Album** and Kendrick Lamar selecting her for his Grand National tour. When someone else's win threatens your sense of worth, you attack the win itself — call it unearned, call it manufactured, deny that it counts.
 

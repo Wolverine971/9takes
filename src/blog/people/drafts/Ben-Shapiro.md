@@ -5,14 +5,14 @@ persona_title: "Conservatism's Inner Prosecutor"
 description: 'Ben Shapiro reads as anger machine, but the engine underneath is Type 1 moralism. Inside the inner courtroom that runs his work, his Sabbath, and his fights.'
 author: 'DJ Wayne'
 date: '2026-05-03'
-loc: 'https://9takes.com/personality-analysis/Ben-Shapiro'
+loc: 'https://9takes.com/personality-analysis/ben-shapiro'
 lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
 type: ['celebrity', 'politician', 'celebrity-image', 'campaign-politician']
-person: 'Ben-Shapiro'
+person: 'ben-shapiro'
 suggestions: ['Jordan-Peterson', 'Tucker-Carlson', 'Bernie-Sanders', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Shapiro'
 twitter: 'benshapiro'
@@ -216,7 +216,7 @@ When Boreing departed The Daily Wire in March 2025 after ten years as Shapiro's 
 
 Even Megyn Kelly, interviewing Shapiro after the Owens fracture, called The Daily Wire _"pro-free speech"_ and said she had _"never found you guys anything other than"_ that. The shop is not, structurally, an ideological purge factory. It is a Type 1's house, and Type 1s do not keep people whose presence is making the principle harder to apply.
 
-The cost the One pays for this kind of clarity is real. People he has built things with — a campaign-trail boss, a marquee colleague, a co-founder — can become unreviewable on a single line. <a href="/personality-analysis/Jordan-Peterson">Jordan Peterson</a>, his closest analogue in public-intellectual culture and another likely Type 1, runs the same operating system, with different fault lines.
+The cost the One pays for this kind of clarity is real. People he has built things with — a campaign-trail boss, a marquee colleague, a co-founder — can become unreviewable on a single line. <a href="/personality-analysis/jordan-peterson">Jordan Peterson</a>, his closest analogue in public-intellectual culture and another likely Type 1, runs the same operating system, with different fault lines.
 
 ## The List That Never Closes
 

@@ -5,14 +5,14 @@ meta_title: "Why xQc Can't Stop Chasing the Next Thrill (Type 7 Psychology Expla
 description: "xQc's Type 7 personality explains everything: the $100M Kick deal, 200-hour streaming months, gambling addiction, and why he can't sit still. Here's the psychology."
 author: 'DJ Wayne'
 date: '2025-01-07'
-loc: 'https://9takes.com/personality-analysis/xQc'
+loc: 'https://9takes.com/personality-analysis/xqc'
 lastmod: '2026-02-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'streamer']
-person: 'xQc'
+person: 'xqc'
 suggestions: ['Kai-Cenat', 'IShowSpeed', 'Pokimane', 'Adin-Ross']
 wikipedia: 'https://en.wikipedia.org/wiki/XQc'
 twitter: 'xQc'
@@ -143,7 +143,7 @@ And every night: terrors.
 
 "I don't mind being open about my mental health," he said during a stream. "When I get night terrors, which is basically every night, I have a dream segment that only lasts about 30 seconds. And once it gets really, really bad, I wake up. And I wake up out of air and I can't breathe."
 
-In a conversation with [Kai Cenat](/personality-analysis/Kai-Cenat) in October 2022, he put it bluntly: "I have sleep problems. I wake up and sh\*t. I scream and yell. I don't want to show that. It's really f\*\*king awkward."
+In a conversation with [Kai Cenat](/personality-analysis/kai-cenat) in October 2022, he put it bluntly: "I have sleep problems. I wake up and sh\*t. I scream and yell. I don't want to show that. It's really f\*\*king awkward."
 
 So why doesn't he stop?
 
@@ -167,7 +167,7 @@ His streaming setup is legendarily messy: empty Gatorade bottles, old Starbucks 
 
 He doesn't want his streaming room to "feel like work."
 
-When [Pokimane](/personality-analysis/Pokimane) posted a house tour, xQc responded with a parody tour of his disaster zone that sent chat into hysterics. MeatCanyon, the horror animator, created a viral parody depicting xQc as a literal goblin creature. The community calls him a "goblin," and he leans into it.
+When [Pokimane](/personality-analysis/pokimane) posted a house tour, xQc responded with a parody tour of his disaster zone that sent chat into hysterics. MeatCanyon, the horror animator, created a viral parody depicting xQc as a literal goblin creature. The community calls him a "goblin," and he leans into it.
 
 This is why people watch: authenticity. In an era of carefully curated content, xQc looks like he just rolled out of bed (because he did), eats fast food on camera (because that's what he eats), and says whatever enters his mind (because he can't help it).
 
@@ -330,9 +330,9 @@ Nine words. No context. No pivot. Just the admission.
 
 ## The Feuds: When the Enthusiast Becomes the Critic
 
-When [Pokimane](/personality-analysis/Pokimane) got nostalgic on stream — said she missed when streaming "focused on gaming rather than drama" — xQc took it personally. He disputed that drama culture came from "his side of the platform." He challenged her to "leak" her Twitch contract. Defended his Kick deal: "No equity and no gambling" in his contract, he insisted. "I would show proof if the bulls\*\*t would stop."
+When [Pokimane](/personality-analysis/pokimane) got nostalgic on stream — said she missed when streaming "focused on gaming rather than drama" — xQc took it personally. He disputed that drama culture came from "his side of the platform." He challenged her to "leak" her Twitch contract. Defended his Kick deal: "No equity and no gambling" in his contract, he insisted. "I would show proof if the bulls\*\*t would stop."
 
-Similar friction with [Kai Cenat](/personality-analysis/Kai-Cenat) and FaZe Clan followed — always the same accusation: _you're not authentic_.
+Similar friction with [Kai Cenat](/personality-analysis/kai-cenat) and FaZe Clan followed — always the same accusation: _you're not authentic_.
 
 The through-line: xQc charging other people with inauthenticity. Calling out the performance. Under pressure, the clown mask hardens into the critic. These aren't just criticisms. They're loyalty tests. _Who's real? Who's performing?_ The man who thrives in chaos still needs to know who he can trust in it.
 

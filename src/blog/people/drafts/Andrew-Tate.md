@@ -5,14 +5,14 @@ persona_title: "Masculinity's Unapologetic Warlord"
 description: 'Explore Andrew Tate psychology through the Enneagram Type 8 lens. Discover the childhood wounds, father influence, and fear of weakness driving his persona.'
 author: 'DJ Wayne'
 date: '2026-01-23'
-loc: 'https://9takes.com/personality-analysis/Andrew-Tate'
+loc: 'https://9takes.com/personality-analysis/andrew-tate'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['creator', 'athlete', 'business-creator']
-person: 'Andrew-Tate'
+person: 'andrew-tate'
 suggestions: ['Joe-Rogan', 'Jordan-Peterson', 'Clavicular', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Tate'
 twitter: 'Cobratate'
@@ -145,7 +145,7 @@ The distinction is in his relationship to conflict. Type 3s avoid conflict becau
 
 ### The Wing: Why He Reads as 8w7
 
-The 7-wing shows up in the appetites. Four countries of webcam operations. Private jets, cigars, supercars. One meal a day then feast days. A new platform every year, a new confrontation every week, a "Top G" brand that sells excess as virtue. An 8w9 would be slower and more grounded — the immovable mountain, energy pooled into a single domain. [Jocko Willink](/personality-analysis/Jocko-Willink) is that version: Type 8 as monastic discipline.
+The 7-wing shows up in the appetites. Four countries of webcam operations. Private jets, cigars, supercars. One meal a day then feast days. A new platform every year, a new confrontation every week, a "Top G" brand that sells excess as virtue. An 8w9 would be slower and more grounded — the immovable mountain, energy pooled into a single domain. [Jocko Willink](/personality-analysis/jocko-willink) is that version: Type 8 as monastic discipline.
 
 Tate is the opposite. Restless. Scattering. Always needing the next stimulus. When a Type 8 borrows the 7's hunger, you get someone who can't be still — for whom quiet becomes dangerous and peace becomes a threat to notice.
 
@@ -319,7 +319,7 @@ The wound is being transmitted — just with better lighting.
 
 ### The Stress Pattern: When 8 Goes to 5
 
-Under stress, Type 8s don't get louder. They get quieter and more paranoid, withdrawing into research, conspiracy thinking, and strategic planning. Tate's "Matrix" rhetoric — already seeded by a father who genuinely saw conspiracies in intelligence data — intensifies under pressure. Other Type 8s like [Joe Rogan](/personality-analysis/Joe-Rogan) show similar patterns, framing mainstream institutions as adversaries to independent thought. The fighter becomes the investigator, gathering evidence of persecution.
+Under stress, Type 8s don't get louder. They get quieter and more paranoid, withdrawing into research, conspiracy thinking, and strategic planning. Tate's "Matrix" rhetoric — already seeded by a father who genuinely saw conspiracies in intelligence data — intensifies under pressure. Other Type 8s like [Joe Rogan](/personality-analysis/joe-rogan) show similar patterns, framing mainstream institutions as adversaries to independent thought. The fighter becomes the investigator, gathering evidence of persecution.
 
 ## The Debates He Couldn't Win
 
@@ -377,7 +377,7 @@ The man who built a brand on being hunted by the system now walks through it fre
 
 ## The Manosphere Network
 
-Tate is not a soloist. He's the anchor of a network: Fresh & Fit's Myron Gaines and Walter Weekes, who hosted him repeatedly before and after Romania; Adin Ross, whose livestreams have been his preferred public platform; Sneako, often described by reporters as his successor during the 2022-2024 absence; and younger figures like [Clavicular](/personality-analysis/Clavicular) who have inherited much of his audience. In early 2026, the brothers gathered with Nick Fuentes, Sneako, Myron Gaines, and others in Miami — framed by analysts as a consolidation from scattered "Big Tent" masculinity into a harder, more coordinated front.
+Tate is not a soloist. He's the anchor of a network: Fresh & Fit's Myron Gaines and Walter Weekes, who hosted him repeatedly before and after Romania; Adin Ross, whose livestreams have been his preferred public platform; Sneako, often described by reporters as his successor during the 2022-2024 absence; and younger figures like [Clavicular](/personality-analysis/clavicular) who have inherited much of his audience. In early 2026, the brothers gathered with Nick Fuentes, Sneako, Myron Gaines, and others in Miami — framed by analysts as a consolidation from scattered "Big Tent" masculinity into a harder, more coordinated front.
 
 The fortress became a federation. Same psychology, more soldiers.
 

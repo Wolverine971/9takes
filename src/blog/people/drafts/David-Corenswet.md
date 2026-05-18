@@ -5,14 +5,14 @@ persona_title: 'The Sunbeam Superman'
 description: "Why does David Corenswet's Superman feel so unusually calm? The Philly kid's Buddhist upbringing, lawyer parents, and Enneagram Type 5 mind in a cape."
 author: 'DJ Wayne'
 date: '2026-05-02'
-loc: 'https://9takes.com/personality-analysis/David-Corenswet'
+loc: 'https://9takes.com/personality-analysis/david-corenswet'
 lastmod: '2026-05-02'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
 type: ['movieStar', 'screen-icon']
-person: 'David-Corenswet'
+person: 'david-corenswet'
 suggestions: ['Henry-Cavill', 'Matt-Damon', 'Tom-Hiddleston', 'Natalie-Portman']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Corenswet'
 instagram: 'davidcorenswet'
@@ -186,7 +186,7 @@ Corenswet has been almost pointedly quiet about the cultural moment. Which is, o
 
 ## What David Corenswet sees from inside the cape
 
-<a href="/personality-analysis/Henry-Cavill">Henry Cavill's</a> Superman was a god who resented being mistaken for a man. Brandon Routh's was a ghost in the shape of Christopher Reeve. Reeve's own was a farm boy trying to pass as mild-mannered. Each of them played Superman as someone performing restraint.
+<a href="/personality-analysis/henry-cavill">Henry Cavill's</a> Superman was a god who resented being mistaken for a man. Brandon Routh's was a ghost in the shape of Christopher Reeve. Reeve's own was a farm boy trying to pass as mild-mannered. Each of them played Superman as someone performing restraint.
 
 Corenswet does not play restraint. He plays attention. He grew up watching Reeve's old interviews and has said that the Reeve–Robin Williams friendship is Juilliard lore students pass down — so he knew exactly which lineage he was stepping into, and stepped in anyway.
 

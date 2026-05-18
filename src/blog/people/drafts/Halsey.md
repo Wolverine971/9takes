@@ -5,14 +5,14 @@ persona_title: "Pop's Armored Heart"
 description: "How childhood chaos, homelessness, and chronic illness forged Halsey into music's fiercest protector — and why surrender became her hardest battle."
 author: 'DJ Wayne'
 date: '2025-05-02'
-loc: 'https://9takes.com/personality-analysis/Halsey'
+loc: 'https://9takes.com/personality-analysis/halsey'
 lastmod: '2026-03-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['musician', 'alternative-artist']
-person: 'Halsey'
+person: 'halsey'
 suggestions: ['Chappell-Roan', 'Billie-Eilish', 'Rihanna', 'Lady-Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Halsey_(singer)'
 twitter: 'https://twitter.com/halsey'
@@ -146,7 +146,7 @@ But there's a counterweight that makes Halsey more than a textbook case. Eights 
 
 ## "I Can Make All of These Really Smart Men Dumb"
 
-Early in her career, Halsey figured out the cheat code. "I can make all of these really smart men dumb instantly if I'm just hot," she told [Alex Cooper](/personality-analysis/Alex-Cooper). "It's so crazy how fast they become stupid."
+Early in her career, Halsey figured out the cheat code. "I can make all of these really smart men dumb instantly if I'm just hot," she told [Alex Cooper](/personality-analysis/alex-cooper). "It's so crazy how fast they become stupid."
 
 She used sexiness as a weapon because she'd already learned what happens when you don't have one. The music industry is a power structure, and she'd entered it from the bottom — no connections, no money, no safety net. Charm was the fastest way to level the playing field.
 
@@ -249,7 +249,7 @@ When she's home, Halsey sets out her coffee cup the night before, lays out yoga 
 
 In 2025, she returned to the venues where it all started — Fillmores, ballrooms, clubs that held a few hundred people — for the Back to Badlands tour, celebrating the tenth anniversary of the album she made through pantyhose. She opened at Hollywood Forever Cemetery in Los Angeles. She covered Johnny Cash. She thanked her doctors, her nurses, and her nanny Rachel from the stage.
 
-Like fellow Type 8 [Chappell Roan](/personality-analysis/Chappell-Roan) — another pop artist who disclosed bipolar disorder publicly, who got dropped by a label and rebuilt from scratch with total creative control — Halsey's arc proves that the Eight's fierceness and the Eight's vulnerability aren't opposites. They're the same muscle.
+Like fellow Type 8 [Chappell Roan](/personality-analysis/chappell-roan) — another pop artist who disclosed bipolar disorder publicly, who got dropped by a label and rebuilt from scratch with total creative control — Halsey's arc proves that the Eight's fierceness and the Eight's vulnerability aren't opposites. They're the same muscle.
 
 She also played the arenas. The For My Last Trick tour was the highest-grossing run of her career — $1.4 million from a single Hollywood Bowl show. The set design was built by the team behind _Moulin Rouge_ on Broadway. At the final show, fans played casino games to select the setlist, and Halsey debuted two brand new songs. Songs Columbia didn't authorize.
 

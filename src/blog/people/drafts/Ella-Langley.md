@@ -5,14 +5,14 @@ persona_title: "Alabama's Stubborn Wildflower"
 description: "Why Ella Langley sings about wandering but lives like a recluse. An Enneagram Type 8 analysis of country's stubborn wildflower from Hope Hull, Alabama."
 author: 'DJ Wayne'
 date: '2026-05-08'
-loc: 'https://9takes.com/personality-analysis/Ella-Langley'
+loc: 'https://9takes.com/personality-analysis/ella-langley'
 lastmod: '2026-05-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Ella-Langley'
+person: 'ella-langley'
 suggestions: ['Riley-Green', 'Morgan-Wallen', 'Lainey-Wilson', 'Miranda-Lambert']
 wikipedia: 'https://en.wikipedia.org/wiki/Ella_Langley'
 instagram: 'ellalangleymusic'

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Disappearing Act"
 description: "Born into NFL royalty, Rooney Mara became Hollywood's most private star. This Type 5 analysis shows why her guardedness and her greatness are the same thing."
 author: 'DJ Wayne'
 date: '2026-04-15'
-loc: 'https://9takes.com/personality-analysis/Rooney-Mara'
+loc: 'https://9takes.com/personality-analysis/rooney-mara'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['movieStar', 'screen-icon']
-person: 'Rooney-Mara'
+person: 'rooney-mara'
 suggestions: ['Cillian-Murphy', 'Joaquin-Phoenix', 'Jacob-Elordi', 'Saoirse-Ronan']
 wikipedia: 'https://en.wikipedia.org/wiki/Rooney_Mara'
 twitter: ''
@@ -167,7 +167,7 @@ She cannot perform in a vacuum of unknowing. Once the knowing is in place, somet
 
 ## Rooney Mara Off the Screen
 
-She has been with [Joaquin Phoenix](/personality-analysis/Joaquin-Phoenix) since 2016, when they were both cast in _Mary Magdalene_ — they had met three years earlier on the set of _Her_, playing strangers who fell in love with someone unavailable, and then gone their separate ways. When they were brought back together, they became inseparable.
+She has been with [Joaquin Phoenix](/personality-analysis/joaquin-phoenix) since 2016, when they were both cast in _Mary Magdalene_ — they had met three years earlier on the set of _Her_, playing strangers who fell in love with someone unavailable, and then gone their separate ways. When they were brought back together, they became inseparable.
 
 She is not on social media. She gives almost no interviews. "The more people know about you," she has said, "the less they can project who you are supposed to be. It's unfortunate that you really only get one shot at that."
 

@@ -5,14 +5,14 @@ persona_title: "Leadership's Loneliest Optimist"
 description: "Simon Sinek teaches the world about belonging. So why is he lonely? Inside the psychology of the man who found everyone's why but his own."
 author: 'DJ Wayne'
 date: '2026-03-28'
-loc: 'https://9takes.com/personality-analysis/Simon-Sinek'
+loc: 'https://9takes.com/personality-analysis/simon-sinek'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['author', 'entrepreneur', 'business-operator']
-person: 'Simon-Sinek'
+person: 'simon-sinek'
 suggestions: ['Tony-Robbins', 'Jordan-Peterson', 'Gary-Vee', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/Simon_Sinek'
 twitter: 'simonsinek'

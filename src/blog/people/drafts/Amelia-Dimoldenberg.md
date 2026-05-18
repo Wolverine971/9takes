@@ -5,14 +5,14 @@ persona_title: "YouTube's Self-Made Deadpan Empire"
 description: 'How did the awkward girl from Marylebone build a chicken-shop empire every A-lister wants in? Inside the Type 3 mind of Amelia Dimoldenberg.'
 author: 'DJ Wayne'
 date: '2026-04-18'
-loc: 'https://9takes.com/personality-analysis/Amelia-Dimoldenberg'
+loc: 'https://9takes.com/personality-analysis/amelia-dimoldenberg'
 lastmod: '2026-04-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['creator', 'celebrity', 'celebrity-image']
-person: 'Amelia-Dimoldenberg'
+person: 'amelia-dimoldenberg'
 suggestions: ['Drake', 'Amy-Poehler', 'Jennifer-Lopez', 'Alix-Earle']
 wikipedia: 'https://en.wikipedia.org/wiki/Amelia_Dimoldenberg'
 twitter: 'ameliadimz'
@@ -102,7 +102,7 @@ Dimoldenberg is not improvising. She is curating a character in post, in a room 
 
 Most interviewers want you to forget the camera. She wants you to feel it. The awkwardness isn't a bug in the interview. It is the interview.
 
-Her stated comic influences are the giveaway. Nathan Fielder. Zach Galifianakis. [Amy Poehler](/personality-analysis/Amy-Poehler)'s Leslie Knope. Three characters built on watching a human overcommit to a tone that is slightly wrong for the room. The Type 3 insight Dimoldenberg borrowed: if you can't win by being the warmest person in the room, you can win by being the person who refuses to warm up.
+Her stated comic influences are the giveaway. Nathan Fielder. Zach Galifianakis. [Amy Poehler](/personality-analysis/amy-poehler)'s Leslie Knope. Three characters built on watching a human overcommit to a tone that is slightly wrong for the room. The Type 3 insight Dimoldenberg borrowed: if you can't win by being the warmest person in the room, you can win by being the person who refuses to warm up.
 
 And she owns the tape. That is the line most creators never cross. She kept the show sponsor-free for years, even after millions of views, precisely so the character would not drift. She directs it, then she cuts it. She is strategic about guests in a way that would feel cynical in anyone less self-aware: "I'm interested in who's going to flirt with me." She is not booking for prestige. She is booking for clips. She already knows what the internet will do with each combination before she sits down.
 
@@ -126,7 +126,7 @@ Ask a Type 3 how they set goals and you get a version of what Amelia told _The G
 
 The ridiculous goal she named was Drake. She said it out loud for years. _I'm gonna get someone like Drake on it._
 
-Then the inversion happened. Drake DM'd her, unsolicited. He left a flirty "Chups" comment under one of her Instagram posts. She told Metro he had promised "he's going to make it happen this year." [Drake](/personality-analysis/Drake) — one of the most Type 3 musicians in the world — watched what she built and started lobbying for a slot on the waitlist.
+Then the inversion happened. Drake DM'd her, unsolicited. He left a flirty "Chups" comment under one of her Instagram posts. She told Metro he had promised "he's going to make it happen this year." [Drake](/personality-analysis/drake) — one of the most Type 3 musicians in the world — watched what she built and started lobbying for a slot on the waitlist.
 
 He is not alone. Dimoldenberg has quietly moved into the position of someone who turns A-listers down. The scoreboard did not just flip — it flipped hard. The twenty-year-old in a chicken shop with a thousand views is now the thirty-two-year-old who decides whose publicist gets a reply. For a Type 3, this is the exact moment you have been unconsciously optimizing for: the thing you were chasing starts chasing you, and you are the one deciding who is worth the edit.
 

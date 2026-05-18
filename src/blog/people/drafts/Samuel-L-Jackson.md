@@ -5,14 +5,14 @@ persona_title: "Hollywood's Armored Thunder"
 description: "From a stuttering boy in segregated Tennessee to Hollywood's highest-grossing actor. Inside the fear, fury, and faith that drive Samuel L. Jackson."
 author: 'DJ Wayne'
 date: '2026-04-11'
-loc: 'https://9takes.com/personality-analysis/Samuel-L-Jackson'
+loc: 'https://9takes.com/personality-analysis/samuel-l-jackson'
 lastmod: '2026-04-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['movieStar', 'screen-icon']
-person: 'Samuel-L-Jackson'
+person: 'samuel-l-jackson'
 suggestions: ['Denzel-Washington', 'Morgan-Freeman', 'Tom-Hardy', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Samuel_L._Jackson'
 twitter: 'SamuelLJackson'

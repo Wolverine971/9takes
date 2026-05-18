@@ -5,14 +5,14 @@ meta_title: "Why George R.R. Martin Can't Finish The Winds of Winter (The Psycho
 description: "George R.R. Martin turned pet turtle deaths into epic fantasy. Now he's trapped in a world so detailed even its creator can't escape."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/George-RR-Martin'
+loc: 'https://9takes.com/personality-analysis/george-rr-martin'
 lastmod: '2025-12-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['author', 'novelist']
-person: 'George-RR-Martin'
+person: 'george-rr-martin'
 suggestions: ['Agatha-Christie', 'Elon-Musk', 'Lex-Fridman', 'Bill-Gates']
 wikipedia: 'https://en.wikipedia.org/wiki/George_R._R._Martin'
 twitter: 'GRRMspeaking'
@@ -169,7 +169,7 @@ The math suggests either completion is possible or that the remaining pages will
 
 George R.R. Martin changed fantasy literature forever. Before A Song of Ice and Fire, fantasy was largely Tolkienesque—good versus evil, clear heroes, ultimate redemption. Martin introduced moral ambiguity, consequence, and the uncomfortable reality that good people die and bad people prosper.
 
-This perspective is pure Type 5. The Investigator observes human nature without romantic illusion—much like fellow mystery author [Agatha Christie](/personality-analysis/Agatha-Christie), another Type 5 who built intricate puzzle-worlds. Martin has said he was "pleased to have created morally ambiguous characters" and describes dealing with moral ambiguity "quite naturally."
+This perspective is pure Type 5. The Investigator observes human nature without romantic illusion—much like fellow mystery author [Agatha Christie](/personality-analysis/agatha-christie), another Type 5 who built intricate puzzle-worlds. Martin has said he was "pleased to have created morally ambiguous characters" and describes dealing with moral ambiguity "quite naturally."
 
 His influence extends beyond books. Game of Thrones proved that fantasy could be prestige television. His work on Elden Ring brought his world-building to video games — a collaboration with FromSoftware that produced one of the best-selling games in history, the mythology written before Martin knew what the game mechanics would be. His theater supports independent cinema. His Wild Cards anthology series, which he's been editing since 1987, gave other writers a shared universe to explore — a system he designed to have room for everyone's ideas, but with his hand on the architecture.
 

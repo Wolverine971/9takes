@@ -5,14 +5,14 @@ persona_title: "Politics' Relentless Reinventor"
 description: "The prosecutor who wouldn't bend became the politician who couldn't stop adapting. Inside Kamala Harris's Type 3 personality."
 author: 'DJ Wayne'
 date: '2023-06-21'
-loc: 'https://9takes.com/personality-analysis/Kamala-Harris'
+loc: 'https://9takes.com/personality-analysis/kamala-harris'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['politician', 'campaign-politician']
-person: 'Kamala-Harris'
+person: 'kamala-harris'
 suggestions: ['Donald-Trump', 'Joe-Biden', 'Hillary-Clinton', 'Gavin-Newsom']
 wikipedia: 'https://en.wikipedia.org/wiki/Kamala_Harris'
 twitter: 'KamalaHarris'
@@ -229,7 +229,7 @@ She does read rooms. She does adapt. She code-switches between audiences with a 
 
 The problem is that in American politics, being multiple things reads as being no thing. And Harris, who learned early that adapting is how you survive, couldn't stop adapting even when it cost her.
 
-The most revealing example: June 2019. The first Democratic primary debate. Harris confronted <a href="/personality-analysis/Joe-Biden">Joe Biden</a> on his opposition to busing, the very policy that had shaped her own childhood. **"There was a little girl in California who was part of the second class to integrate her public schools, and she was bused to school every day. And that little girl was me."**
+The most revealing example: June 2019. The first Democratic primary debate. Harris confronted <a href="/personality-analysis/joe-biden">Joe Biden</a> on his opposition to busing, the very policy that had shaped her own childhood. **"There was a little girl in California who was part of the second class to integrate her public schools, and she was bused to school every day. And that little girl was me."**
 
 The moment was devastating. Biden was stunned. The clip went viral.
 
@@ -294,7 +294,7 @@ Cohen changed how she talked to her own nieces after seeing this.
 
 When Threes fail, they don't just feel disappointed. They feel exposed. The achievement was the armor. When it's gone, they're standing in front of the world with nothing to prove their worth.
 
-Harris lost the 2024 presidential election after a 107-day sprint that began with <a href="/personality-analysis/Joe-Biden">Biden</a>'s withdrawal in July. Her memoir, co-written with Pulitzer Prize winner Geraldine Brooks, opens with a Kendrick Lamar lyric: **"I got loyalty, got royalty inside my DNA."**
+Harris lost the 2024 presidential election after a 107-day sprint that began with <a href="/personality-analysis/joe-biden">Biden</a>'s withdrawal in July. Her memoir, co-written with Pulitzer Prize winner Geraldine Brooks, opens with a Kendrick Lamar lyric: **"I got loyalty, got royalty inside my DNA."**
 
 The title itself, _107 Days_, focuses on the heroic effort rather than the result. Frame the loss as an almost-victory. Redefine the failure as evidence of resilience. This is the move.
 
@@ -316,7 +316,7 @@ Not ashamed of losing. Ashamed of _grieving wrong_. Ashamed of being caught in t
 
 The depth of that wound surfaced in one detail: **"It says a lot about how traumatized we both were by what happened that night that Doug and I never discussed it with each other until I sat down to write this book."** Two people in the same marriage, carrying the same loss, unable to speak about it, because speaking about it would make it real, and making it real would mean the translator had failed at the one translation that mattered most.
 
-The book also turns its lens on Biden with uncharacteristic bluntness. On Biden calling her right before her debate with <a href="/personality-analysis/Donald-Trump">Trump</a>: **"I was yes, I was angry! And deeply disappointed. I just couldn't understand why he would call me, right now, and make it all about himself."**
+The book also turns its lens on Biden with uncharacteristic bluntness. On Biden calling her right before her debate with <a href="/personality-analysis/donald-trump">Trump</a>: **"I was yes, I was angry! And deeply disappointed. I just couldn't understand why he would call me, right now, and make it all about himself."**
 
 On Biden's inner circle: **"Their thinking was zero-sum: If she's shining, he's dimmed. None of them grasped that if I did well, he did well."**
 

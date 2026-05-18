@@ -5,14 +5,14 @@ meta_title: 'Why Leila Hormozi Turns Shame Into Extreme Success'
 description: 'Why does Leila Hormozi turn shame into output? We decode the Type 3 drive behind Acquisition.com, composure, loyalty, and why rest feels like quitting.'
 author: 'DJ Wayne'
 date: '2025-01-06'
-loc: 'https://9takes.com/personality-analysis/Leila-Hormozi'
+loc: 'https://9takes.com/personality-analysis/leila-hormozi'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['business', 'business-operator']
-person: 'Leila-Hormozi'
+person: 'leila-hormozi'
 suggestions: ['Alex-Hormozi', 'Tony-Robbins', 'Gary-Vee']
 wikipedia: ''
 twitter: 'LeilaHormozi'
@@ -47,7 +47,7 @@ RE-GRADE FEEDBACK (2026-04-04) — confirms 2026-02-19 scores:
 
 That's Leila Hormozi in [Goss Magazine](https://gossclub.com/leila-hormozi-interview/), describing her marriage. Cold. Calculated. The kind of sentence that makes people wince.
 
-Now here's the same woman nine months into dating [Alex Hormozi](/personality-analysis/Alex-Hormozi), after a dishonest business partner drained his accounts and left him broke. Alex told her he was a sinking ship. That she should leave.
+Now here's the same woman nine months into dating [Alex Hormozi](/personality-analysis/alex-hormozi), after a dishonest business partner drained his accounts and left him broke. Alex told her he was a sinking ship. That she should leave.
 
 Leila grabbed his chin, tilted his head up, and said: **"I'd sleep with you under a bridge if it came to that."**
 

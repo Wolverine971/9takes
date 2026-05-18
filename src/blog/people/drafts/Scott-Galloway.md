@@ -5,14 +5,14 @@ persona_title: "Academia's Tender Brawler"
 description: "An absent father, a secretary mother, and a 2.23 GPA forged one of America's fiercest public voices. Here's the psychology behind Scott Galloway."
 author: 'DJ Wayne'
 date: '2026-03-24'
-loc: 'https://9takes.com/personality-analysis/Scott-Galloway'
+loc: 'https://9takes.com/personality-analysis/scott-galloway'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['techie', 'author', 'tech-interpreter', 'business-interpreter']
-person: 'Scott-Galloway'
+person: 'scott-galloway'
 suggestions: ['Kara-Swisher', 'Patrick-Bet-David', 'Shaan-Puri', 'Sam-Parr', 'Reid-Hoffman']
 wikipedia: 'https://en.wikipedia.org/wiki/Scott_Galloway_(professor)'
 twitter: '@profgalloway'

@@ -5,14 +5,14 @@ persona_title: "Vlogging's Restless Artist"
 description: 'How Casey Neistat turned chaos, obsession, and motion into a filmmaking career that only works when he never fully stops.'
 author: 'DJ Wayne'
 date: '2023-03-16'
-loc: 'https://9takes.com/personality-analysis/Casey-Neistat'
+loc: 'https://9takes.com/personality-analysis/casey-neistat'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['creator', 'viral-entertainer']
-person: 'Casey-Neistat'
+person: 'casey-neistat'
 suggestions: ['David-Dobrik', 'Mr-Beast', 'Logan-Paul', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Casey_Neistat'
 twitter: 'Casey'
@@ -258,7 +258,7 @@ A man driven by longing, who moved 3,000 miles to escape it, only to discover th
 
 In October 2016, at the peak of his daily vlog and cultural influence, Casey uploaded a video called "Who I'm Endorsing for President."
 
-He endorsed [Hillary Clinton](/personality-analysis/Hillary-Clinton). That alone would have been unremarkable from most public figures. But from a YouTuber with millions of subscribers, an audience skewing young, male, and politically mixed, it was a grenade.
+He endorsed [Hillary Clinton](/personality-analysis/hillary-clinton). That alone would have been unremarkable from most public figures. But from a YouTuber with millions of subscribers, an audience skewing young, male, and politically mixed, it was a grenade.
 
 "I'm speaking up now because this election has very little to do with politics, policy, or legislation," he said in the video. "This has to do with morals and principles."
 
@@ -276,7 +276,7 @@ Three years later, Casey acknowledged he'd been "too upset, angry and emotional"
 
 ## The Template and Its Wreckage
 
-In 2022, Casey premiered "Under the Influence" at South by Southwest, a documentary about <a href="/personality-analysis/David-Dobrik">David Dobrik</a>, the YouTuber whose feel-good videos masked increasingly dangerous behavior.
+In 2022, Casey premiered "Under the Influence" at South by Southwest, a documentary about <a href="/personality-analysis/david-dobrik">David Dobrik</a>, the YouTuber whose feel-good videos masked increasingly dangerous behavior.
 
 The film began as a celebration. "There was something entirely unique about the videos he was making," Casey said. "They were portraits, little windows of life in early adulthood with no limit to resources and no responsibility."
 

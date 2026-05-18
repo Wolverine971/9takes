@@ -5,14 +5,14 @@ persona_title: "Pop's Counter-Phobic Dreamer"
 description: "Camila Cabello's anxiety shows up as rituals, reinventions, and the urge to destroy every safe haven once it starts feeling too small."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Camila-Cabello'
+loc: 'https://9takes.com/personality-analysis/camila-cabello'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['musician']
-person: 'Camila-Cabello'
+person: 'camila-cabello'
 suggestions: ['Ariana-Grande', 'Selena-Gomez', 'Demi-Lovato', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Camila_Cabello'
 twitter: 'Camaborello'
@@ -190,7 +190,7 @@ Stoicism. She appeared on Ryan Holiday's _Daily Stoic_ podcast and called it "th
 
 CBT. Meditation. Breathing exercises. SSRIs.
 
-"I have been taking an SSRI and that definitely has helped a lot," she told [Selena Gomez](/personality-analysis/Selena-Gomez) in a _Wondermind_ interview. "I felt like I needed that to get to a place where I could go below the surface level loops and manifestations of it."
+"I have been taking an SSRI and that definitely has helped a lot," she told [Selena Gomez](/personality-analysis/selena-gomez) in a _Wondermind_ interview. "I felt like I needed that to get to a place where I could go below the surface level loops and manifestations of it."
 
 _Surface level loops._ The medication didn't fix her. It quieted the noise enough to let her dig underneath.
 
@@ -266,7 +266,7 @@ This is the internal world of someone who processes reality through analysis and
 
 The writing is the truth-telling. It's where the rituals and the courage merge — where the girl who once designed elaborate mental architectures to survive now crafts song structures to say what she actually means.
 
-[Taylor Swift](/personality-analysis/Taylor-Swift) gave her advice once, early in her career: "When that happens to me, just keep writing through it. You just gotta keep going, keep writing through it."
+[Taylor Swift](/personality-analysis/taylor-swift) gave her advice once, early in her career: "When that happens to me, just keep writing through it. You just gotta keep going, keep writing through it."
 
 She listened. Because the advice matched what she'd already discovered: the only way through the catastrophizing is to keep moving. Just now she's writing songs instead of counting seconds.
 

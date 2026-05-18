@@ -5,14 +5,14 @@ persona_title: "Hollywood's Manufactured Hero"
 description: "Will Smith built Hollywood's biggest career to hide the 9-year-old boy who couldn't save his mother. On live TV, the armor did what it was built to do."
 author: 'DJ Wayne'
 date: '2026-04-08'
-loc: 'https://9takes.com/personality-analysis/Will-Smith'
+loc: 'https://9takes.com/personality-analysis/will-smith'
 lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['movieStar', 'musician', 'screen-icon']
-person: 'Will-Smith'
+person: 'will-smith'
 suggestions: ['Denzel-Washington', 'Dwayne-Johnson', 'Jennifer-Lopez', 'Drake']
 wikipedia: 'https://en.wikipedia.org/wiki/Will_Smith'
 twitter: 'willsmith'
@@ -167,7 +167,7 @@ He is describing the moment he chose _Independence Day_ and _Men in Black_. Thos
 
 This is what achievement looks like when it is the machinery of survival. A person who loves movies does not study the top-grossing opening weekends of all time before picking a script. A person who loves acting does not reverse-engineer a career from demographic data. A person who is outrunning the memory of his mother on the dining-room floor does exactly that. He builds the wall brick by brick. He studies the math. He never stops.
 
-The phase that followed was almost chemically Type 3. _Bad Boys_, _Independence Day_, _Men in Black_, _Enemy of the State_, _Ali_, _I, Robot_, _Hitch_, _The Pursuit of Happyness_, _I Am Legend_, _Hancock_, _Seven Pounds_. For a full decade, Will Smith was the single most reliable opening-weekend asset in North America. Forbes called him the most bankable star alive. There were years when studio executives would, without embarrassment, say his name as a genre — the same slot [Dwayne Johnson](/personality-analysis/Dwayne-Johnson) would quietly inherit a decade later, using an almost identical operating system.
+The phase that followed was almost chemically Type 3. _Bad Boys_, _Independence Day_, _Men in Black_, _Enemy of the State_, _Ali_, _I, Robot_, _Hitch_, _The Pursuit of Happyness_, _I Am Legend_, _Hancock_, _Seven Pounds_. For a full decade, Will Smith was the single most reliable opening-weekend asset in North America. Forbes called him the most bankable star alive. There were years when studio executives would, without embarrassment, say his name as a genre — the same slot [Dwayne Johnson](/personality-analysis/dwayne-johnson) would quietly inherit a decade later, using an almost identical operating system.
 
 And in the middle of it, hidden in plain sight, was his most honest quote — the one that sounds, the first time you hear it, like a motivational line and, the second time, like a confession:
 
@@ -223,7 +223,7 @@ He went to Peru.
 
 ## The Ayahuasca Vision Will Smith Had Before the Slap
 
-[Denzel Washington](/personality-analysis/Denzel-Washington) had, around this time, pulled him aside and told him something about being in your fifties that hit him hard. Smith interpreted the conversation as an order to stop being safe. He drank ayahuasca fourteen times in the jungles of Peru, in a series of ceremonies he has described, variously, as the greatest feeling he has ever had in his life and the most hellish psychological experience of his life. Both are true. Ayahuasca is like that.
+[Denzel Washington](/personality-analysis/denzel-washington) had, around this time, pulled him aside and told him something about being in your fifties that hit him hard. Smith interpreted the conversation as an order to stop being safe. He drank ayahuasca fourteen times in the jungles of Peru, in a series of ceremonies he has described, variously, as the greatest feeling he has ever had in his life and the most hellish psychological experience of his life. Both are true. Ayahuasca is like that.
 
 There were multiple visions. He has described seeing ancestors, versions of himself at every age, a presence he kept calling "Mother." But the one he talks about, the one he wrote into the memoir, is the one that cracked him. He saw his house flying away from him. He saw his money flying away from him. He saw his career flying away from him. A voice — angry, certain, not his — told him, _This is what the fuck life is._ And then, inside the vision, he heard his daughter Willow screaming for help and he could not move to reach her.
 

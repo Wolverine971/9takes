@@ -5,14 +5,14 @@ persona_title: "Looksmaxxing's Beautiful Wound"
 description: "How a boy who couldn't read a room built a $100,000/month empire on his own anatomy — and broadcasts the collapse like it's the point of the brand."
 author: 'DJ Wayne'
 date: '2026-03-23'
-loc: 'https://9takes.com/personality-analysis/Clavicular'
+loc: 'https://9takes.com/personality-analysis/clavicular'
 lastmod: '2026-05-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['influencer', 'creator', 'streamer']
-person: 'Clavicular'
+person: 'clavicular'
 suggestions: ['Adin-Ross', 'Andrew-Tate', 'Trisha-Paytas', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Clavicular_(influencer)'
 twitter: 'Clavicular0'
@@ -150,7 +150,7 @@ The looksmaxxing world, in its top layer, is pure Type 3 — image as currency, 
 The evidence:
 
 - **The wound externalized as anatomy.** A Type 4 spends life identifying what's missing from them that everyone else seems to have. Clavicular named the missing thing. _Clavicle width._ He took the shapeless Type 4 ache — _"I am fundamentally different and broken"_ — and converted it into a measurable physical deficit he could spend his life chemically and surgically correcting. The bone became the wound. The wound became the brand.
-- **Envy as the engine.** Type 4's core emotion is envy, but not for what others own — for what others appear to _be_ without effort. Watch what Clavicular rates: not careers, not money, not status. Faces. Jaws. Side profiles. He looks at <a href="/personality-analysis/JD-Vance">JD Vance</a> and Sydney Sweeney and Matt Bomer and sees what Type 4s see — _the people who got the wholeness I didn't_. Then he tries to acquire it through chemistry. That's the entire project.
+- **Envy as the engine.** Type 4's core emotion is envy, but not for what others own — for what others appear to _be_ without effort. Watch what Clavicular rates: not careers, not money, not status. Faces. Jaws. Side profiles. He looks at <a href="/personality-analysis/jd-vance">JD Vance</a> and Sydney Sweeney and Matt Bomer and sees what Type 4s see — _the people who got the wholeness I didn't_. Then he tries to acquire it through chemistry. That's the entire project.
 - **Anhedonia as identity.** He titled a podcast appearance "I Enjoy Nothing." Most people would never describe themselves this way. Most _Threes_ would burn the studio down before letting that phrase leave their mouth. Type 4s say it because it confirms the central premise: _I am the one for whom normal feeling doesn't arrive_. The not-enjoying isn't a side effect of the lifestyle. It's the identity the lifestyle confirms.
 - **The collapse as content.** After overdosing on stream in April 2026, he posted: _"All of the substances are just a cope trying to feel neurotypical while being in public, but obviously that isn't a real solution."_ Read that sentence carefully. _Cope. Trying to feel neurotypical. Being in public._ He is not posting recovery content. He is posting the wound, monetized — and he is articulating, in a single tweet, exactly what every Type 4 spends a lifetime feeling and never saying out loud.
 
@@ -186,7 +186,7 @@ The list of compounds Clavicular has publicly disclosed — or been caught with 
 - **Nebivolol** (a beta-blocker)
 - **Melanotan II**, Accutane, dutasteride
 - **Adderall** (unprescribed, found during his February arrest in Scottsdale)
-- And — according to multiple sources including fellow streamer <a href="/personality-analysis/Adin-Ross">Adin Ross</a> — **crystal methamphetamine** as an appetite suppressant
+- And — according to multiple sources including fellow streamer <a href="/personality-analysis/adin-ross">Adin Ross</a> — **crystal methamphetamine** as an appetite suppressant
 
 He now sells his own branded _"Clavicular Ascension Stack"_ through a peptide company: twelve compounds, over a hundred vials and tablets, shipped from warehouses in five countries.
 
@@ -266,7 +266,7 @@ In January 2026, he was filmed singing along to Kanye West's antisemitic "Heil H
 
 Nothing stuck. Nothing _could_ stick. Because to damage a reputation, there has to be something beneath the reputation that can be wounded. Clavicular has built **a persona with no person underneath it**. There is no Braden Peters to embarrass. There is only the product.
 
-He told Piers Morgan he wasn't apologizing. He told Michael Knowles that vanity _"in a lot of regards, could be perceived that way."_ He describes himself as "apolitical," supporting whoever provides _"the fattest bag."_ He can sing alongside <a href="/personality-analysis/Andrew-Tate">Andrew Tate</a> and Nick Fuentes one month and walk a high-fashion runway the next because **the allegiance shifts whenever the audience shifts**. Every confrontation slides off because the confronter is trying to reach a human being, and the human being has been optimized out of the equation.
+He told Piers Morgan he wasn't apologizing. He told Michael Knowles that vanity _"in a lot of regards, could be perceived that way."_ He describes himself as "apolitical," supporting whoever provides _"the fattest bag."_ He can sing alongside <a href="/personality-analysis/andrew-tate">Andrew Tate</a> and Nick Fuentes one month and walk a high-fashion runway the next because **the allegiance shifts whenever the audience shifts**. Every confrontation slides off because the confronter is trying to reach a human being, and the human being has been optimized out of the equation.
 
 ## The Strongest Counterargument
 

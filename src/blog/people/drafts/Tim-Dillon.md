@@ -5,14 +5,14 @@ meta_title: "Tim Dillon's Psychology Decoded: The Pattern Behind His Fearless Co
 description: "From closeted cocaine addict to comedy's sharpest critic. Decode how Tim Dillon's Type 7 psychology turns chaos into comedy gold."
 author: 'DJ Wayne'
 date: '2026-01-07'
-loc: 'https://9takes.com/personality-analysis/Tim-Dillon'
+loc: 'https://9takes.com/personality-analysis/tim-dillon'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['comedian', 'stand-up']
-person: 'Tim-Dillon'
+person: 'tim-dillon'
 suggestions: ['Joe-Rogan', 'Theo-Von', 'Shane-Gillis', 'Andrew-Schulz']
 wikipedia: 'https://en.wikipedia.org/wiki/Tim_Dillon_(comedian)'
 twitter: 'TimJDillon'
@@ -92,7 +92,7 @@ His grandmother's response to the Elvis claim: "I didn't have sex with Elvis." T
 
 When your childhood includes a parent whose reality is negotiable, two things happen. You learn that truth is flexible. And you learn that naming the absurdity out loud, before anyone else does, is the only power available to a kid who can't fix anything.
 
-At nine, Tim landed a role on Sesame Street. He appeared twice and did the polka with Snuffleupagus. On <a href="/personality-analysis/Joe-Rogan">Joe Rogan's</a> podcast years later, he called himself "a child actor as a kid and I failed." Calling a PBS appearance at age nine a "failure" tells you everything. Get to the joke before the world makes one at your expense.
+At nine, Tim landed a role on Sesame Street. He appeared twice and did the polka with Snuffleupagus. On <a href="/personality-analysis/joe-rogan">Joe Rogan's</a> podcast years later, he called himself "a child actor as a kid and I failed." Calling a PBS appearance at age nine a "failure" tells you everything. Get to the joke before the world makes one at your expense.
 
 ## Twelve Years Underground
 
@@ -163,7 +163,7 @@ Tim occupied a lane nobody else could. He wasn't anti-vax or pro-lockdown. He wa
 
 > "I am vaccinated and never told anyone not to get vaccinated. I'm wondering how many boosters can we take masks off? 12, 13?"
 
-Short-form sketch videos became his growth engine. Character pieces like "New York Is Back, Baby!" exploring post-COVID street life, and a man-on-the-street bit where he dressed as the virus itself. These viral clips funneled viewers to the full podcast, which funneled them to Patreon. Five <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a> appearances in 2020 alone (including JRE #1555 with Alex Jones, which pulled 19 million total views) supercharged the audience.
+Short-form sketch videos became his growth engine. Character pieces like "New York Is Back, Baby!" exploring post-COVID street life, and a man-on-the-street bit where he dressed as the virus itself. These viral clips funneled viewers to the full podcast, which funneled them to Patreon. Five <a href="/personality-analysis/joe-rogan">Joe Rogan</a> appearances in 2020 alone (including JRE #1555 with Alex Jones, which pulled 19 million total views) supercharged the audience.
 
 He also tried Austin. Following the Rogan migration, Tim relocated from LA in late 2020, seeking lower taxes and fewer restrictions. He lasted roughly three months. His verdict: Austin was "a soulless city that should be burned to the ground." Bad infrastructure, no restaurants, three heroin addicts busking on Sixth Street. By March 2021, he was back in LA.
 
@@ -222,7 +222,7 @@ Here's the Enneagram key. Self-Preservation Type 7s are strategic alliance-build
 
 ## The 8 Wing in Action
 
-The difference between Tim Dillon and most Type 7 comedians is the 8 wing. Where a 7w6 comedian uses warmth and charm to soften dark material (think <a href="/personality-analysis/Theo-Von">Theo Von</a>), a 7w8 uses aggression and force.
+The difference between Tim Dillon and most Type 7 comedians is the 8 wing. Where a 7w6 comedian uses warmth and charm to soften dark material (think <a href="/personality-analysis/theo-von">Theo Von</a>), a 7w8 uses aggression and force.
 
 The 8 wing gives Tim direct access to anger that pure Sevens typically avoid. He doesn't charm his way around conflict. He leans into it. The confrontation itself is the point.
 

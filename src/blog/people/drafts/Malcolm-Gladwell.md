@@ -5,14 +5,14 @@ persona_title: "Ideas' Silent Architect"
 description: "Inside the Type 5 mind that explains misperception to millions while keeping the world at maximum distance. Malcolm Gladwell's Enneagram analysis."
 author: 'DJ Wayne'
 date: '2025-12-03'
-loc: 'https://9takes.com/personality-analysis/Malcolm-Gladwell'
+loc: 'https://9takes.com/personality-analysis/malcolm-gladwell'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['author', 'strategy-writer']
-person: 'Malcolm-Gladwell'
+person: 'malcolm-gladwell'
 suggestions: ['Tyler-Cowen', 'Bill-Gates', 'Robert-Greene', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_Gladwell'
 twitter: 'gladwell'
@@ -60,7 +60,7 @@ The distance is the engine. It's also the cost.
 
 ### Malcolm Gladwell is an Enneagram Type 5
 
-Gladwell won't play golf because he knows he'd become obsessed. He quit running competitively at 15 — not because he was failing, but because he saw the obsession coming. He guards his cognitive time "zealously." That pattern has a name: the Enneagram Type 5. Fives hoard resources — not money, but energy, time, attention — and prepare obsessively before stepping into public view. [Bill Gates](/personality-analysis/Bill-Gates) and [Robert Greene](/personality-analysis/Robert-Greene) run the same architecture: learn in private, deploy in public, protect the interior at all costs.
+Gladwell won't play golf because he knows he'd become obsessed. He quit running competitively at 15 — not because he was failing, but because he saw the obsession coming. He guards his cognitive time "zealously." That pattern has a name: the Enneagram Type 5. Fives hoard resources — not money, but energy, time, attention — and prepare obsessively before stepping into public view. [Bill Gates](/personality-analysis/bill-gates) and [Robert Greene](/personality-analysis/robert-greene) run the same architecture: learn in private, deploy in public, protect the interior at all costs.
 
 Gladwell told Freakonomics Radio: **"I zealously guard my cognitive time."** That phrase does more work than it looks. It's not a preference. It's a worldview.
 
@@ -84,7 +84,7 @@ His father had what Gladwell calls **"an endless appetite for understanding thro
 
 The Mennonite culture, Gladwell has said, was more formative than his formal Presbyterian upbringing — a community built on simplicity, humility, and participatory governance where no single person "ran the room." Those values — observation over assertion, community over hierarchy — would shape how he asked questions and whose answers he trusted.
 
-And then there was his mother's influence. In conversation with [Tyler Cowen](/personality-analysis/Tyler-Cowen), Gladwell drew a distinction between Joyce's public and private selves: she **"wrote the stories she would never tell in public."** A mother who processed her deepest material through writing — privately, carefully, on her own terms.
+And then there was his mother's influence. In conversation with [Tyler Cowen](/personality-analysis/tyler-cowen), Gladwell drew a distinction between Joyce's public and private selves: she **"wrote the stories she would never tell in public."** A mother who processed her deepest material through writing — privately, carefully, on her own terms.
 
 Her son would make a career doing the same thing. Just with a bigger audience.
 

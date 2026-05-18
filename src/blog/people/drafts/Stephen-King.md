@@ -5,14 +5,14 @@ persona_title: 'The Fortress That Writes Nightmares'
 description: 'Stephen King fears spiders, the dark, and the number 13. So why has he spent 50 years writing about what terrifies him? His Enneagram type explains the paradox.'
 author: 'DJ Wayne'
 date: '2026-04-01'
-loc: 'https://9takes.com/personality-analysis/Stephen-King'
+loc: 'https://9takes.com/personality-analysis/stephen-king'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['author']
-person: 'Stephen-King'
+person: 'stephen-king'
 suggestions: ['j.k.-rowling', 'jordan-peterson', 'steve-jobs', 'morgan-freeman']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_King'
 twitter: '@StephenKing'

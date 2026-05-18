@@ -5,14 +5,14 @@ persona_title: "Fitness's Armored Guardian"
 description: "Why does a 260-lb man who challenges UFC fighters still carry a six-year-old's wound? Inside the grief, armor, and loyalty code that built Bradley Martyn."
 author: 'DJ Wayne'
 date: '2026-04-07'
-loc: 'https://9takes.com/personality-analysis/Bradley-Martyn'
+loc: 'https://9takes.com/personality-analysis/bradley-martyn'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['creator', 'influencer', 'lifestyle-builder']
-person: 'Bradley-Martyn'
+person: 'bradley-martyn'
 suggestions: ['Sara-Saffari', 'Mike-Majlak', 'Sky-Bri', 'Joe-Rogan', 'Jake-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Bradley_Martyn'
 twitter: 'https://twitter.com/bradleymartyn'
@@ -148,7 +148,7 @@ In 2014, Bradley started his YouTube channel and BMFIT brand. In 2015, he opened
 
 But Zoo Culture was never just a gym. It was an ecosystem. A content factory. A community hub. A kingdom where Bradley was the undisputed authority.
 
-The gym became a destination for fitness influencers, athletes, and celebrities. Memberships, day passes, content collaborations — all flowing through a space Bradley owned, controlled, and defended. It also made him a hub for adjacent creators like <a href="/personality-analysis/Sara-Saffari">Sara Saffari</a> and <a href="/personality-analysis/Sky-Bri">Sky Bri</a>, whose audiences sit inside the same Los Angeles fitness-influencer machine. When the city of LA tried to shut it down during COVID, they weren't just threatening his income. They were threatening his territory.
+The gym became a destination for fitness influencers, athletes, and celebrities. Memberships, day passes, content collaborations — all flowing through a space Bradley owned, controlled, and defended. It also made him a hub for adjacent creators like <a href="/personality-analysis/sara-saffari">Sara Saffari</a> and <a href="/personality-analysis/sky-bri">Sky Bri</a>, whose audiences sit inside the same Los Angeles fitness-influencer machine. When the city of LA tried to shut it down during COVID, they weren't just threatening his income. They were threatening his territory.
 
 The expansion followed the same pattern. RawGear for apparel. Origin Supplements for nutrition. BMFIT for online coaching. The RAWTALK podcast. Then co-hosting the Full Send Podcast with the NELK boys, where fans noticed something unexpected: while the NELK crew defaulted to "bro talk," Bradley was the one asking deep questions. The guy who looked like the least likely intellectual in the room kept steering conversations toward meaning.
 
@@ -164,9 +164,9 @@ A man who was happy with nothing built an empire anyway. Because for Bradley, bu
 
 ## Challenging Everyone, Trusting No One
 
-Bradley Martyn has challenged some of the most dangerous fighters on the planet to street fights. He invited Nate Diaz onto his podcast and told him he could take him. He provoked Demetrious "Mighty Mouse" Johnson — a 150-pound flyweight — and Johnson accepted. <a href="/personality-analysis/Jake-Paul">Jake Paul</a> offered him $2 million to fight Mike Perry.
+Bradley Martyn has challenged some of the most dangerous fighters on the planet to street fights. He invited Nate Diaz onto his podcast and told him he could take him. He provoked Demetrious "Mighty Mouse" Johnson — a 150-pound flyweight — and Johnson accepted. <a href="/personality-analysis/jake-paul">Jake Paul</a> offered him $2 million to fight Mike Perry.
 
-From the outside, this looks like delusion. A YouTuber who thinks his muscles make him a fighter. <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a> watched a clip and laughed: "No chance. He has no chance. He's going to get his back taken."
+From the outside, this looks like delusion. A YouTuber who thinks his muscles make him a fighter. <a href="/personality-analysis/joe-rogan">Joe Rogan</a> watched a clip and laughed: "No chance. He has no chance. He's going to get his back taken."
 
 But Bradley wasn't confused about his chances. He heard Rogan say "in a street fight" and smiled. The fight itself wasn't the point. Being willing to fight was the point. Showing up, taking the hit, refusing to back down — that's the only currency that means anything to someone who learned at six that you can't control what happens, but you can control whether you face it standing up.
 

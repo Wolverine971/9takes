@@ -5,14 +5,14 @@ persona_title: "Comedy's Restless Engine"
 description: 'Kevin Hart built an empire on motion. His broken spine taught him what the jokes were really for. A Type 7 personality analysis.'
 author: 'DJ Wayne'
 date: '2025-02-25'
-loc: 'https://9takes.com/personality-analysis/Kevin-Hart'
+loc: 'https://9takes.com/personality-analysis/kevin-hart'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['comedian', 'movieStar', 'tv-comedy-crossover', 'sketch-comic']
-person: 'Kevin-Hart'
+person: 'kevin-hart'
 suggestions: ['Dave-Chappelle', 'Eddie-Murphy', 'Caleb-Hearon', 'Dwayne-Johnson', 'Ryan-Reynolds']
 wikipedia: ''
 twitter: ''
@@ -45,7 +45,7 @@ FEEDBACK (2026-02-19):
 
 > "There's nothing more humbling than a quiet room."
 
-<p class="firstLetter">In March 2024, Kevin Hart stood at the Kennedy Center accepting the Mark Twain Prize for American Humor. Youngest recipient ever. <a href="/personality-analysis/Dave-Chappelle">Dave Chappelle</a>, Chris Rock, Jerry Seinfeld — all there to honor him. Hart cried during his acceptance speech. Then he told a joke.</p>
+<p class="firstLetter">In March 2024, Kevin Hart stood at the Kennedy Center accepting the Mark Twain Prize for American Humor. Youngest recipient ever. <a href="/personality-analysis/dave-chappelle">Dave Chappelle</a>, Chris Rock, Jerry Seinfeld — all there to honor him. Hart cried during his acceptance speech. Then he told a joke.</p>
 
 That moment is the whole man in two beats. The tears, then the pivot. The feeling, then the flight.
 
@@ -177,13 +177,13 @@ September 1, 2019. A Plymouth Barracuda on Mulholland Highway. Three spinal frac
 
 For the first time in his adult life, Kevin Hart could not move.
 
-"It all boiled down to four walls," he told [Joe Rogan](/personality-analysis/Joe-Rogan). "And in the space of those four walls was my wife and my brother, my kids and my friends, all on rotation. And I got a chance to think about what matters, and it's not fame. It's not money. It's not jewelry, cars, or watches. What matters are relationships. The people that were helping me get up and out of the bed."
+"It all boiled down to four walls," he told [Joe Rogan](/personality-analysis/joe-rogan). "And in the space of those four walls was my wife and my brother, my kids and my friends, all on rotation. And I got a chance to think about what matters, and it's not fame. It's not money. It's not jewelry, cars, or watches. What matters are relationships. The people that were helping me get up and out of the bed."
 
 The biggest cry of his life came the day he went home from the hospital: "Because I never had to see that house again. There was an option of me never walking on that driveway again. There was an option of me never seeing my wife and my kids again."
 
 "I feel like the other version of myself died in that moment and this new version was born to understand and to do better."
 
-<a href="/personality-analysis/Jack-Black">Jack Black</a> visited him in the hospital weeks later. What he observed: "He seemed to be coming from a different place emotionally and spiritually. He kept saying he was going to take the opportunity to breathe and slow down and appreciate his family."
+<a href="/personality-analysis/jack-black">Jack Black</a> visited him in the hospital weeks later. What he observed: "He seemed to be coming from a different place emotionally and spiritually. He kept saying he was going to take the opportunity to breathe and slow down and appreciate his family."
 
 Jack Black — a man known for his own boundless energy — watched Kevin Hart discover stillness. The man who'd been running since North Philadelphia had found, in a hospital bed, what thirty years of sold-out arenas never gave him: the ability to sit in a room and not need it to be loud.
 

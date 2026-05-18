@@ -4,14 +4,14 @@ meta_title: "Tyler The Creator's Psychology Explained: The Wound That Became His
 description: "Tyler made fake albums at 7 before recording a single note. Decades later, his father wound fuels Grammy-winning reinvention. Here's the pattern driving it all."
 author: 'DJ Wayne'
 date: '2026-03-30'
-loc: 'https://9takes.com/personality-analysis/Tyler-The-Creator'
+loc: 'https://9takes.com/personality-analysis/tyler-the-creator'
 lastmod: '2026-03-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician', 'rapper']
-person: 'Tyler-The-Creator'
+person: 'tyler-the-creator'
 persona_title: "Hip-Hop's Self-Made Outcast"
 suggestions: ['Kanye', 'Billie-Eilish', 'Kendrick-Lamar', 'Doechii']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyler,_the_Creator'
@@ -212,7 +212,7 @@ Type 4s are often stereotyped as impractical dreamers, but Tyler's 4w3 wing (the
 
 **Camp Flog Gnaw Carnival**, his annual music festival since 2012, began at Club Nokia and now fills Dodger Stadium. Unlike performing at festivals where Live Nation takes the profits, Camp Flog Gnaw is owned and curated entirely by Tyler. He controls both the culture and the bottom line.
 
-The festival has featured [Kanye West](/personality-analysis/Kanye), [Drake](/personality-analysis/Drake), [Kendrick Lamar](/personality-analysis/Kendrick-Lamar), [Lana Del Rey](/personality-analysis/Lana-Del-Rey), and [Billie Eilish](/personality-analysis/Billie-Eilish). Artists who share Tyler's commitment to singular vision.
+The festival has featured [Kanye West](/personality-analysis/kanye), [Drake](/personality-analysis/drake), [Kendrick Lamar](/personality-analysis/kendrick-lamar), [Lana Del Rey](/personality-analysis/lana-del-rey), and [Billie Eilish](/personality-analysis/billie-eilish). Artists who share Tyler's commitment to singular vision.
 
 The 2019 edition revealed something uncomfortable about what Tyler had built.
 
@@ -242,7 +242,7 @@ But the evolution of how he's addressed it, tracked through his lyrics, tells it
 
 **2023's "Sorry Not Sorry"**: Tyler finally addressed the hiding directly, apologizing to the guys he had to hide and the girls he had to lie to.
 
-**Chromakopia (2024)**: The album goes further. On "Balloon" featuring [Doechii](/personality-analysis/Doechii), Tyler states he doesn't like girls. "Take Your Mask Off" addresses hiding queerness and the damage it causes. The mask doing more harm than good.
+**Chromakopia (2024)**: The album goes further. On "Balloon" featuring [Doechii](/personality-analysis/doechii), Tyler states he doesn't like girls. "Take Your Mask Off" addresses hiding queerness and the damage it causes. The mask doing more harm than good.
 
 The trajectory (from slurs to hints to apology to openness) mirrors a classic coming-out arc, just stretched across a decade of music. Tyler never held a press conference. He let the art speak.
 

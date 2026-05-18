@@ -5,14 +5,14 @@ description: 'Paris Hilton turned a trauma-born persona into a billion-dollar em
 persona_title: "Pop Culture's Masked Mogul"
 author: 'DJ Wayne'
 date: '2025-02-12'
-loc: 'https://9takes.com/personality-analysis/Paris-Hilton'
+loc: 'https://9takes.com/personality-analysis/paris-hilton'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity', 'celebrity-image']
-person: 'Paris-Hilton'
+person: 'paris-hilton'
 suggestions: ['Kim-Kardashian', 'Kylie-Jenner', 'Marilyn-Monroe', 'Taylor-Swift', 'Jake-Paul']
 wikipedia: ''
 twitter: ''

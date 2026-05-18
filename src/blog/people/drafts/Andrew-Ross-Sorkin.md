@@ -5,14 +5,14 @@ persona_title: "Wall Street's Loyal Skeptic"
 description: 'Why Andrew Ross Sorkin wakes at 4:25 a.m. afraid of what he missed. An Enneagram Type 6 read on DealBook, Too Big to Fail, and the system he distrusts.'
 author: 'DJ Wayne'
 date: '2026-04-28'
-loc: 'https://9takes.com/personality-analysis/Andrew-Ross-Sorkin'
+loc: 'https://9takes.com/personality-analysis/andrew-ross-sorkin'
 lastmod: '2026-04-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['author', 'creator', 'news-commentator']
-person: 'Andrew-Ross-Sorkin'
+person: 'andrew-ross-sorkin'
 suggestions: ['Elon-Musk', 'Mark-Zuckerberg', 'Tucker-Carlson', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Ross_Sorkin'
 twitter: 'andrewrsorkin'
@@ -193,7 +193,7 @@ He described the move on _Acquired_: _"It's not me saying this. It's — there's
 
 In November 2022, with Sam Bankman-Fried sitting twenty feet from him on the DealBook stage in slippers, Sorkin pulled out an email from a customer who had lost his life savings in FTX. He read the subject line — _"Sam Bankman-Fried stole $2 million from me"_ — into the microphone, then read parts of the body, then asked SBF to respond. The clip is the journalistic moment of the FTX collapse. Sorkin never raises his voice. He doesn't have to. He's holding the document.
 
-A year later, on the same stage, [Elon Musk](/personality-analysis/Elon-Musk) — under pressure for amplifying an antisemitic conspiracy and watching advertisers flee X — told Sorkin and the boycotting advertisers in the audience to _"go fuck yourself."_ He repeated it for emphasis. Sorkin's response was not to escalate or retreat. He pointed out, calmly, that Linda Yaccarino — Musk's own ad-sales CEO — was sitting in the audience watching. He kept asking questions.
+A year later, on the same stage, [Elon Musk](/personality-analysis/elon-musk) — under pressure for amplifying an antisemitic conspiracy and watching advertisers flee X — told Sorkin and the boycotting advertisers in the audience to _"go fuck yourself."_ He repeated it for emphasis. Sorkin's response was not to escalate or retreat. He pointed out, calmly, that Linda Yaccarino — Musk's own ad-sales CEO — was sitting in the audience watching. He kept asking questions.
 
 This is not the behavior of a person trying to win an argument. It's the behavior of someone running a procedure he has rehearsed for fifteen to thirty hours per interview. He has called it _"plotting a flight path"_: he knows the start, he knows the destination, he expects weather.
 

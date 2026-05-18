@@ -5,14 +5,14 @@ persona_title: "Pop's Unapologetic Rebel"
 description: "Chappell Roan turned Catholic guilt, explosive boundaries, and queer self-invention into pop's most defiant persona and refused to soften it."
 author: 'DJ Wayne'
 date: '2024-08-16'
-loc: 'https://9takes.com/personality-analysis/Chappell-Roan'
+loc: 'https://9takes.com/personality-analysis/chappell-roan'
 lastmod: '2026-02-09'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
 enneagram: 8
 type: ['musician', 'alternative-artist']
-person: 'Chappell-Roan'
+person: 'chappell-roan'
 suggestions: ['Billie-Eilish', 'Halsey', 'Sabrina-Carpenter', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Chappell_Roan'
 twitter: 'https://twitter.com/ChappellRoan'
@@ -112,7 +112,7 @@ But the interesting wrinkles emerge throughout her story. Her admission of aband
 
 ## How the Music Actually Sounds
 
-In a pop landscape where [Sabrina Carpenter](/personality-analysis/Sabrina-Carpenter) trades in winking innuendo, [Olivia Rodrigo](/personality-analysis/Olivia-Rodrigo) channels confessional guitar rock, and Charli XCX cultivates hyperpop cool, Chappell Roan carved out something different entirely: a campy, theatrical, synth-drenched maximalism pulled from '80s pop, drag culture, and Midwest yearning.
+In a pop landscape where [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) trades in winking innuendo, [Olivia Rodrigo](/personality-analysis/olivia-rodrigo) channels confessional guitar rock, and Charli XCX cultivates hyperpop cool, Chappell Roan carved out something different entirely: a campy, theatrical, synth-drenched maximalism pulled from '80s pop, drag culture, and Midwest yearning.
 
 Her sound blends influences that shouldn't work together but do. Cyndi Lauper's synth-pop energy. Kate Bush's vocal drama. The unapologetic excess of RuPaul's Drag Race. The ache of Patsy Cline. She's cited Madonna, Lady Gaga, and Beyonce as touchstones. When she accepted her first Grammy, she credited "Madonna, Rihanna, and Nicki Minaj, women who made queer music mainstream."
 
@@ -178,7 +178,7 @@ That's not a tantrum. That's an articulate boundary. And it cost her something. 
 
 ### Chappell vs. Kayleigh: The Persona as Armor
 
-"I used to dress fucking crazy before all of this happened," she told [Alex Cooper](/personality-analysis/Alex-Cooper). "I had energy and like light in my eyes... and then I just lost my shine."
+"I used to dress fucking crazy before all of this happened," she told [Alex Cooper](/personality-analysis/alex-cooper). "I had energy and like light in my eyes... and then I just lost my shine."
 
 Fame collapsed the boundary. "I would look at myself in the mirror and be like, _what's the difference between Chappell and me?_"
 
@@ -244,7 +244,7 @@ In October 2025, Chappell launched The Midwest Princess Project, a nonprofit sup
 
 The controversy that defined Chappell's 2024 was her decision to publicly set limits on fan interaction. After canceling festival appearances and posting viral TikToks about harassment, the internet split: those who respected her boundaries and those who saw an "ungrateful" celebrity complaining about success.
 
-But as McLamb noted on _A Bit Fruity_, there's a documented cycle that young female celebrities get put through, what writer Rain Fisher-Quann calls "the womaning": adoration, overexposure, backlash, degradation, and sometimes redemption. The same pattern hit Britney Spears, [Anne Hathaway](/personality-analysis/Anne-Hathaway), and [Jennifer Lawrence](/personality-analysis/Jennifer-Lawrence) before her.
+But as McLamb noted on _A Bit Fruity_, there's a documented cycle that young female celebrities get put through, what writer Rain Fisher-Quann calls "the womaning": adoration, overexposure, backlash, degradation, and sometimes redemption. The same pattern hit Britney Spears, [Anne Hathaway](/personality-analysis/anne-hathaway), and [Jennifer Lawrence](/personality-analysis/jennifer-lawrence) before her.
 
 Chappell is attempting something most don't: **interrupting the cycle mid-stream** rather than waiting for the crash.
 

@@ -5,14 +5,14 @@ meta_title: 'Why Bobbi Althoff Acts So Awkward (The Dark Truth Behind Her Person
 description: "Inside Bobbi Althoff's psychology: how childhood trauma, a suicide attempt at 14, and deep insecurity created her viral deadpan persona."
 author: 'DJ Wayne'
 date: '2025-12-09'
-loc: 'https://9takes.com/personality-analysis/Bobbi-Althoff'
+loc: 'https://9takes.com/personality-analysis/bobbi-althoff'
 lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['creator', 'lifestyle-builder']
-person: 'Bobbi-Althoff'
+person: 'bobbi-althoff'
 suggestions: ['Drake', 'Alex-Cooper', 'Aubrey-Plaza', 'Kim-Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Bobbi_Althoff'
 twitter: 'boaboringalthof'
@@ -50,7 +50,7 @@ RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved sp
 
 > **Disclaimer** This analysis of Bobbi Althoff's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bobbi.
 
-<p class="firstLetter">The woman who made <a href="/personality-analysis/Drake">Drake</a> lie awkwardly in bed while she asked him if he prefers cats or dogs has a secret most viewers never see.</p>
+<p class="firstLetter">The woman who made <a href="/personality-analysis/drake">Drake</a> lie awkwardly in bed while she asked him if he prefers cats or dogs has a secret most viewers never see.</p>
 
 Behind the deadpan stares, the uncomfortable silences, and the viral interview clips that launched her into the stratosphere, Bobbi Althoff is running a masterclass in transformation. She took everything she hated about herself and turned it into a multimillion-dollar brand.
 
@@ -156,7 +156,7 @@ The truth? This wasn't imitation. It was finally having permission to be the per
 
 ### July 2023: In Bed With Drake
 
-When <a href="/personality-analysis/Drake">Drake</a> appeared on The Really Good Podcast in July 2023, lying in bed beside Bobbi while she asked mundane questions in her trademark deadpan, the internet lost its mind.
+When <a href="/personality-analysis/drake">Drake</a> appeared on The Really Good Podcast in July 2023, lying in bed beside Bobbi while she asked mundane questions in her trademark deadpan, the internet lost its mind.
 
 The contrast was electric. Here was one of the world's biggest rappers, charming, confident, used to controlling every narrative, reduced to nervous laughter by a relatively unknown podcaster who seemed genuinely unimpressed by his presence.
 
@@ -198,7 +198,7 @@ Let that sink in. She took everything she hated about herself: the awkwardness, 
 
 "Podcast Bobbi owns her discomfort," she explains. "She says what she thinks and she doesn't care about what people think about her. She leans into the things that people think are stupid about her."
 
-This is Type 4 alchemy: transforming pain into something meaningful, creating art from wounds: the same creative transformation we see in artists like [Billie Eilish](/personality-analysis/Billie-Eilish) and [Lana Del Rey](/personality-analysis/Lana-Del-Rey).
+This is Type 4 alchemy: transforming pain into something meaningful, creating art from wounds: the same creative transformation we see in artists like [Billie Eilish](/personality-analysis/billie-eilish) and [Lana Del Rey](/personality-analysis/lana-del-rey).
 
 ### The Real Bobbi vs. The Character
 

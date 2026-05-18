@@ -5,14 +5,14 @@ persona_title: "Middle Earth's Arms Dealer"
 description: "What drives Palmer Luckey from VR to weapons to nuclear silos? An Enneagram Type 7 analysis of defense tech's most fascinating mind."
 author: 'DJ Wayne'
 date: '2024-05-07'
-loc: 'https://9takes.com/personality-analysis/Palmer-Luckey'
+loc: 'https://9takes.com/personality-analysis/palmer-luckey'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['techie', 'frontier-builder']
-person: 'Palmer-Luckey'
+person: 'palmer-luckey'
 suggestions: ['Elon-Musk', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg', 'Paul-Graham']
 wikipedia: 'https://en.wikipedia.org/wiki/Palmer_Luckey'
 twitter: 'PalmerLuckey'
@@ -133,7 +133,7 @@ It raised $2.5 million.
 
 Two years later, before Oculus had shipped a single consumer product, Facebook acquired the company for $2 billion. Luckey was 21.
 
-"I try to be a humble guy. I don't usually succeed," he told [Joe Rogan](/personality-analysis/Joe-Rogan). "But I am not humble in this one regard. I believe that I am the world's best head-mounted display designer, bar none. I took the crown with the Oculus Rift. I think I still hold it."
+"I try to be a humble guy. I don't usually succeed," he told [Joe Rogan](/personality-analysis/joe-rogan). "But I am not humble in this one regard. I believe that I am the world's best head-mounted display designer, bar none. I took the crown with the Oculus Rift. I think I still hold it."
 
 He was barefoot when he said this.
 
@@ -141,7 +141,7 @@ He was barefoot when he said this.
 
 The day he sold Oculus to Facebook, Palmer Luckey gained $2 billion and lost the only thing he couldn't buy back.
 
-The free-wheeling garage inventor suddenly needed approval for every decision. Corporate politics. PR handlers. [Mark Zuckerberg's](/personality-analysis/Mark-Zuckerberg) exacting vision.
+The free-wheeling garage inventor suddenly needed approval for every decision. Corporate politics. PR handlers. [Mark Zuckerberg's](/personality-analysis/mark-zuckerberg) exacting vision.
 
 "The bureaucracy was suffocating," a former Oculus employee recalled. "Palmer went from building whatever he wanted, whenever he wanted, to needing approval for everything. You could see it wearing him down."
 
@@ -161,11 +161,11 @@ He initially apologized for the donation. He later told Fortune he regrets apolo
 
 Read that again. Not "I don't care." _I cannot care._ The distinction matters. He didn't decide to stop seeking approval. He discovered that approval and impact were mutually exclusive — and chose impact.
 
-He tracked his critics. He kept receipts. Five years later, at the All-In Summit in 2022, he stood on [Jason Calacanis's](/personality-analysis/Jason-Calacanis) own stage and called him an "NPC" — a non-player character, someone who follows the script instead of thinking independently.
+He tracked his critics. He kept receipts. Five years later, at the All-In Summit in 2022, he stood on [Jason Calacanis's](/personality-analysis/jason-calacanis) own stage and called him an "NPC" — a non-player character, someone who follows the script instead of thinking independently.
 
 "After years of lies, personal attacks, and celebrating my firing," Luckey later wrote, "Jason kept telling people I refused to be on his podcast because of something he said about Oculus. No. I refused because of his crew of bullies."
 
-[Paul Graham](/personality-analysis/Paul-Graham), watching the video, called it "extraordinary."
+[Paul Graham](/personality-analysis/paul-graham), watching the video, called it "extraordinary."
 
 "I am infamously good at holding grudges," Luckey admitted.
 
@@ -219,7 +219,7 @@ Then he started winning contracts.
 
 An AI-powered border surveillance system. Counter-drone technology deployed in Ukraine. The Air Force's Collaborative Combat Aircraft program — beating Boeing, Lockheed Martin, and Northrop Grumman. A $22 billion takeover of Microsoft's augmented reality headset program for the Army. A joint venture with General Atomics for up to $9 billion in autonomous aircraft. A $1 billion U.S. Special Operations Command contract.
 
-In June 2025, Anduril closed a $2.5 billion funding round. [Peter Thiel's](/personality-analysis/Peter-Thiel) Founders Fund invested $1 billion — the largest check in the fund's history. Valuation: $30.5 billion. Revenue doubled in 2024 to $1 billion. By early 2026, the company was in talks to raise again at roughly $60 billion.
+In June 2025, Anduril closed a $2.5 billion funding round. [Peter Thiel's](/personality-analysis/peter-thiel) Founders Fund invested $1 billion — the largest check in the fund's history. Valuation: $30.5 billion. Revenue doubled in 2024 to $1 billion. By early 2026, the company was in talks to raise again at roughly $60 billion.
 
 Then came the Meta reconciliation. "I'm working with Meta because we've buried the hatchet," Luckey said. The man fired in disgrace returned as a partner, on his terms.
 
@@ -243,7 +243,7 @@ Critics call this terrifying. The UN Secretary-General has called lethal autonom
 
 Luckey doesn't bother with the diplomacy.
 
-"Do you think that NATO should be armed with squirt guns or slingshots? How about sternly worded letters? Would you like it if NATO just had a bunch of guys sitting at typewriters, a thousand monkeys writing letters to [Vladimir Putin](/personality-analysis/Vladimir-Putin) begging him not to invade Ukraine?"
+"Do you think that NATO should be armed with squirt guns or slingshots? How about sternly worded letters? Would you like it if NATO just had a bunch of guys sitting at typewriters, a thousand monkeys writing letters to [Vladimir Putin](/personality-analysis/vladimir-putin) begging him not to invade Ukraine?"
 
 He paused.
 

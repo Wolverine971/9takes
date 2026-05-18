@@ -5,14 +5,14 @@ persona_title: "Hollywood's Counterphobic Sentinel"
 description: "Inside Olivia Munn's pattern of charging toward danger and paying for it with isolation, from an abusive childhood to cancer advocacy."
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Olivia-Munn'
+loc: 'https://9takes.com/personality-analysis/olivia-munn'
 lastmod: '2026-04-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['movieStar', 'screen-icon']
-person: 'Olivia-Munn'
+person: 'olivia-munn'
 suggestions: ['jennifer-lawrence', 'aubrey-plaza', 'pedro-pascal', 'zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Munn'
 twitter: '@oliviamunn'

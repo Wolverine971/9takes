@@ -5,14 +5,14 @@ description: 'Why does Timothée Chalamet over-prepare for every role and public
 persona_title: 'The Prodigy Who Needs Protecting'
 author: 'DJ Wayne'
 date: '2024-07-03'
-loc: 'https://9takes.com/personality-analysis/Timothee-Chalamet'
+loc: 'https://9takes.com/personality-analysis/timothee-chalamet'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['newMovieStar', 'movieStar', 'rising-star']
-person: 'Timothee-Chalamet'
+person: 'timothee-chalamet'
 suggestions: ['Zendaya', 'Kylie-Jenner', 'Bob-Dylan', 'Johnny-Depp', 'Aubrey-Plaza', 'Jared-Leto']
 wikipedia: 'https://en.wikipedia.org/wiki/Timoth%C3%A9e_Chalamet'
 twitter: 'RealChalamet'
@@ -63,7 +63,7 @@ That's [Type 6](/enneagram-corner/enneagram-type-6) psychology running at full t
 <li><b>Fear as foundation:</b> He grew up in Manhattan Plaza watching artists struggle — "This building truthfully made me scared of acting because it's a tough lifestyle." Chalamet was terrified by what talent alone could not protect.</li>
 <li><b>Preparation as anxiety management:</b> Seven years of ping pong training. Five years studying Bob Dylan. Six figures of his own money on a single SNL performance. Wearing blinding contact lenses because a director asked. This isn't ambition — it's catastrophe prevention.</li>
 <li><b>Charging at Fear:</b> The SAG "pursuit of greatness" speech, the "top-level shit" self-assessment — then immediately walking it back: "Sometimes I feel like I've been misinterpreted in my quest." He charges at the fear, then questions whether he went too far.</li>
-<li><b>Authority-seeking:</b> [Tom Cruise](/personality-analysis/Tom-Cruise) sent him a training "war cry" email and he followed it to the letter. He told Josh Safdie "I'll do anything you ask me to do." Villeneuve said he "needed to be protected." He doesn't trust his own instincts alone — he anchors against people he's decided to trust.</li>
+<li><b>Authority-seeking:</b> [Tom Cruise](/personality-analysis/tom-cruise) sent him a training "war cry" email and he followed it to the letter. He told Josh Safdie "I'll do anything you ask me to do." Villeneuve said he "needed to be protected." He doesn't trust his own instincts alone — he anchors against people he's decided to trust.</li>
 </ul>
 </div>
 </details>
@@ -98,7 +98,7 @@ When _Call Me By Your Name_ catapulted him to international stardom at 21, most 
 
 "My world had flipped," he told GQ. "But if I kicked it with my friends, things could still feel the same. I was trying to marry these two realities."
 
-When the external world becomes unfamiliar, he reaches for the familiar anchor. Like [Bob Dylan](/personality-analysis/Bob-Dylan) — another suspected Type 6 who retreated to Woodstock after his explosive fame — Chalamet sought refuge in the people he already trusted.
+When the external world becomes unfamiliar, he reaches for the familiar anchor. Like [Bob Dylan](/personality-analysis/bob-dylan) — another suspected Type 6 who retreated to Woodstock after his explosive fame — Chalamet sought refuge in the people he already trusted.
 
 ## What is Timothée Chalamet's personality type?
 
@@ -162,7 +162,7 @@ The SAG speech: "I'm as inspired by Daniel Day-Lewis, Marlon Brando, and Viola D
 
 The _Marty Supreme_ interview: "This is probably my best performance... I've been handing in really, really committed, top-of-the-line performances... This is really some top-level shit."
 
-Comparisons to [Kanye](/personality-analysis/Kanye) West's self-aggrandizing surfaced. Backlash followed.
+Comparisons to [Kanye](/personality-analysis/kanye) West's self-aggrandizing surfaced. Backlash followed.
 
 Then the retreat: "Sometimes I feel like I've been misinterpreted in my quest."
 
@@ -172,7 +172,7 @@ This oscillation — bold declaration, public backlash, immediate qualification 
 
 ## Timothée Chalamet and Kylie Jenner
 
-Since April 2023, Chalamet has been in a relationship with [Kylie Jenner](/personality-analysis/Kylie-Jenner). The tabloid details are everywhere. The psychological pattern underneath them is more revealing.
+Since April 2023, Chalamet has been in a relationship with [Kylie Jenner](/personality-analysis/kylie-jenner). The tabloid details are everywhere. The psychological pattern underneath them is more revealing.
 
 Every step has been taken with the precision of someone managing risk. First red carpet together: January 2024, nine months in. Official couple debut: May 2025, over two years in. Kylie didn't follow Timothée on Instagram until July 2025 — 24 months after they started dating.
 
@@ -186,7 +186,7 @@ When breakup rumors surfaced in November 2025, they responded not with a stateme
 
 The trajectory is visible.
 
-2018, [Harry Styles](/personality-analysis/Harry-Styles) interview in i-D: "Whatever bone gets electrified when I act, there's always a feeling that I'm a little bit out of my depth or out of control."
+2018, [Harry Styles](/personality-analysis/harry-styles) interview in i-D: "Whatever bone gets electrified when I act, there's always a feeling that I'm a little bit out of my depth or out of control."
 
 2025, Numero magazine: "I'm almost 30 years old, and I have fewer and fewer fears. The world is strange enough, so why choose to live a life that comes with fears?"
 

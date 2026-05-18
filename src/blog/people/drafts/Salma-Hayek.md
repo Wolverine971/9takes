@@ -5,14 +5,14 @@ persona_title: "Hollywood's Velvet-Gloved Challenger"
 description: "Salma Hayek smiles, charms, and produces. Then she sues you, fights you for eight years, and finishes the film anyway. An Enneagram Type 8 analysis."
 author: 'DJ Wayne'
 date: '2026-05-11'
-loc: 'https://9takes.com/personality-analysis/Salma-Hayek'
+loc: 'https://9takes.com/personality-analysis/salma-hayek'
 lastmod: '2026-05-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
 type: ['movieStar', 'celebrity', 'screen-icon']
-person: 'Salma-Hayek'
+person: 'salma-hayek'
 suggestions: ['Frida-Kahlo', 'Jennifer-Lopez', 'Amy-Poehler', 'Rihanna']
 wikipedia: 'https://en.wikipedia.org/wiki/Salma_Hayek'
 twitter: 'salmahayek'
@@ -52,7 +52,7 @@ Reviewer notes for next iteration: would benefit from a directly-quoted co-star/
 <!-- INTERNAL LINKS ADDED (4 total)
 - Enneagram Type 8 → /enneagram-corner/enneagram-type-8 (intro)
 - Frida Kahlo → /personality-analysis/frida-kahlo (Frida section)
-- Jennifer Lopez → /personality-analysis/Jennifer-Lopez (Frida section)
+- Jennifer Lopez → /personality-analysis/jennifer-lopez (Frida section)
 - How Type 8 Challengers Actually Succeed → /enneagram-corner/how-type-8-challengers-actually-succeed (final section)
 -->
 
@@ -163,7 +163,7 @@ Being told "no" is, for her, the cue to say it back, louder, until someone chang
 
 It took eight years.
 
-Studios passed. The script kept being rewritten. Madonna had been attached. [Jennifer Lopez](/personality-analysis/Jennifer-Lopez) had been attached. Hayek kept the rights moving with her. She brought the project to Miramax, run by Harvey Weinstein, on the assumption that he was the only producer in Hollywood crazy enough to greenlight an art-driven film about a Mexican Communist painter with a unibrow and a husband who slept with her sister.
+Studios passed. The script kept being rewritten. Madonna had been attached. [Jennifer Lopez](/personality-analysis/jennifer-lopez) had been attached. Hayek kept the rights moving with her. She brought the project to Miramax, run by Harvey Weinstein, on the assumption that he was the only producer in Hollywood crazy enough to greenlight an art-driven film about a Mexican Communist painter with a unibrow and a husband who slept with her sister.
 
 To play Kahlo, she stopped plucking. She glued prosthetic eyebrows on top of her own. She shaved her upper lip so the stubble would read on camera. She gained weight. She learned to paint, including the trick of working with the brush gripped in her teeth, the way Kahlo did when her hands wouldn't cooperate. "My interpretation of her obsession with her eyebrows," Hayek has said, "is that for her it represented freedom." A career built on being the most beautiful woman in any room, deliberately undone to honor a woman who had refused that game first.
 

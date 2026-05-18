@@ -5,14 +5,14 @@ persona_title: "Nashville's Reluctant Giant"
 description: 'How Jelly Roll went from numbing himself through 40 arrests to becoming the most emotionally present artist in country music.'
 author: 'DJ Wayne'
 date: '2026-03-03'
-loc: 'https://9takes.com/personality-analysis/Jelly-Roll'
+loc: 'https://9takes.com/personality-analysis/jelly-roll'
 lastmod: '2026-03-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['musician', 'singer-songwriter']
-person: 'Jelly-Roll'
+person: 'jelly-roll'
 suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle']
 wikipedia: 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
 twitter: 'JellyRoll615'

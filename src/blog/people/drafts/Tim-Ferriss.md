@@ -5,14 +5,14 @@ persona_title: "Self-Help's Relentless Reformer"
 description: 'Why does Tim Ferriss perfect everything he touches? The inner critic behind the productivity, the Stoicism, and the psychedelic reform mission.'
 author: 'DJ Wayne'
 date: '2026-01-23'
-loc: 'https://9takes.com/personality-analysis/Tim-Ferriss'
+loc: 'https://9takes.com/personality-analysis/tim-ferriss'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
 type: ['creator', 'podcaster']
-person: 'Tim-Ferriss'
+person: 'tim-ferriss'
 suggestions: ['Jordan-Peterson', 'Steve-Jobs', 'Joe-Rogan', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Tim_Ferriss'
 twitter: 'tferriss'

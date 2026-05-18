@@ -5,14 +5,14 @@ description: "Thomas Mapother IV attended 15 schools in 14 years, then erased hi
 persona_title: "Hollywood's Eternal Performance Machine"
 author: 'DJ Wayne'
 date: '2024-07-09'
-loc: 'https://9takes.com/personality-analysis/Tom-Cruise'
+loc: 'https://9takes.com/personality-analysis/tom-cruise'
 lastmod: '2026-02-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'Tom-Cruise'
+person: 'tom-cruise'
 suggestions:
   [
     'Dwayne-Johnson',
@@ -198,7 +198,7 @@ What emerges is someone who doesn't just perform. He partners. He studies his di
 
 ### The Mentor
 
-During _Top Gun: Maverick_, Cruise put the young cast through grueling flight training. [Miles Teller](/personality-analysis/Miles-Teller), who played Rooster: "**Tom told me, 'Miles, call me if you need anything,' and he meant it. And there's been many times just in my life or career that I've called Tom for advice, and he answers every time.**"
+During _Top Gun: Maverick_, Cruise put the young cast through grueling flight training. [Miles Teller](/personality-analysis/miles-teller), who played Rooster: "**Tom told me, 'Miles, call me if you need anything,' and he meant it. And there's been many times just in my life or career that I've called Tom for advice, and he answers every time.**"
 
 When jet fuel entered Teller's bloodstream during filming: "'Well, Tom, it turns out I have jet fuel in my blood.' And without skipping a beat, Tom just replied, '**Yeah, I was born with it, kid.**'"
 
@@ -218,7 +218,7 @@ These are not small gestures. They reveal sustained, thoughtful generosity — a
 
 This sits in uncomfortable tension with the most troubling fact of his life.
 
-In June 2024, when his daughter Suri graduated from LaGuardia High School in New York, Tom was photographed at a [Taylor Swift](/personality-analysis/Taylor-Swift) concert in London. Upon turning 18, Suri dropped "Cruise" from her name, using her mother's middle name "Noelle" instead.
+In June 2024, when his daughter Suri graduated from LaGuardia High School in New York, Tom was photographed at a [Taylor Swift](/personality-analysis/taylor-swift) concert in London. Upon turning 18, Suri dropped "Cruise" from her name, using her mother's middle name "Noelle" instead.
 
 The same man who sends shoes to a child actress for twenty years has not attended his daughter's graduation. The same capacity for sustained connection is _right there_. This is not about inability. It is about a system — and an identity — that demands a different kind of loyalty.
 
@@ -266,7 +266,7 @@ Each of Tom Cruise's three marriages tested whether the real person could be rea
 
 **Mimi Rogers (1987-1990)** introduced him to Scientology. The marriage lasted three years. She later hinted that his involvement with the church changed the dynamic.
 
-**[Nicole Kidman](/personality-analysis/Nicole-Kidman) (1990-2001)** came closest. "**Instant lust,**" he told _Vanity Fair_. "**I thought she was amazingly sexy and stunning. It grew into love and respect.**" They became one of Hollywood's most glamorous couples, adopted two children (Isabella and Connor), and collaborated with Kubrick on _Eyes Wide Shut_. The marriage ended after eleven years. According to _The Daily Beast_, Nicole studied Scientology for two years but turned away by 1992 due to conflicts with church leadership.
+**[Nicole Kidman](/personality-analysis/nicole-kidman) (1990-2001)** came closest. "**Instant lust,**" he told _Vanity Fair_. "**I thought she was amazingly sexy and stunning. It grew into love and respect.**" They became one of Hollywood's most glamorous couples, adopted two children (Isabella and Connor), and collaborated with Kubrick on _Eyes Wide Shut_. The marriage ended after eleven years. According to _The Daily Beast_, Nicole studied Scientology for two years but turned away by 1992 due to conflicts with church leadership.
 
 **Katie Holmes (2006-2012)** began with the couch-jumping moment and ended with Katie reportedly spending years planning her exit, consulting with Nicole Kidman on how to navigate the process. Her primary concern: protecting Suri from Scientology.
 

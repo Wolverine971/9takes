@@ -5,14 +5,14 @@ persona_title: "Television's Patron Saint of Pain"
 description: 'Oprah Winfrey built an empire by giving people the thing she needed most as a child: to feel fully seen, safe, and worthy.'
 author: 'DJ Wayne'
 date: '2024-08-30'
-loc: 'https://9takes.com/personality-analysis/Oprah-Winfrey'
+loc: 'https://9takes.com/personality-analysis/oprah-winfrey'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['celebrity', 'tv-comedy-crossover']
-person: 'Oprah-Winfrey'
+person: 'oprah-winfrey'
 suggestions: ['Tyler-Perry', 'Keke-Palmer', 'Dolly-Parton', 'Dwayne-Johnson', 'Michelle-Obama']
 wikipedia: 'https://en.wikipedia.org/wiki/Oprah_Winfrey'
 twitter: 'https://twitter.com/Oprah'
@@ -276,7 +276,7 @@ In 2013, she admitted she had experienced **"the symptoms of a nervous breakdown
 
 She did what she always does at the edge. She took control. Stepped up as CEO. Killed underperforming shows. Built "Super Soul Sunday" and "Oprah's Lifeclass." The network recovered. But the crisis left a mark.
 
-Before 2007, Oprah had never publicly endorsed a political candidate. Her 2008 endorsement of [Barack Obama](/personality-analysis/Barack-Obama) — which researchers estimated was worth approximately 1 million votes — cracked that wall. By August 2024, she was standing onstage at the Democratic National Convention in Chicago, the city where her career began, delivering a surprise endorsement of Vice President [Kamala Harris](/personality-analysis/kamala-harris).
+Before 2007, Oprah had never publicly endorsed a political candidate. Her 2008 endorsement of [Barack Obama](/personality-analysis/barack-obama) — which researchers estimated was worth approximately 1 million votes — cracked that wall. By August 2024, she was standing onstage at the Democratic National Convention in Chicago, the city where her career began, delivering a surprise endorsement of Vice President [Kamala Harris](/personality-analysis/kamala-harris).
 
 **"Decency and respect are on the ballot,"** she said. She identified herself as a registered Independent, aiming her words specifically at undecided voters.
 

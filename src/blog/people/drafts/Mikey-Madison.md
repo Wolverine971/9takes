@@ -5,14 +5,14 @@ persona_title: "The Shy Girl's Vanishing Act"
 description: 'Why does Mikey Madison disappear into roles so completely? We decode the Type 9 pattern behind her shyness, intensity, privacy, and Oscar rise.'
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Mikey-Madison'
+loc: 'https://9takes.com/personality-analysis/mikey-madison'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['newMovieStar', 'rising-star']
-person: 'Mikey-Madison'
+person: 'mikey-madison'
 suggestions: ['Sydney-Sweeney', 'Anya-Taylor-Joy', 'Zendaya', 'Timothee-Chalamet']
 wikipedia: 'https://en.wikipedia.org/wiki/Mikey_Madison'
 twitter: ''

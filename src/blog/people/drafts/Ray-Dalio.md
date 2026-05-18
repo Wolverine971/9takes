@@ -5,14 +5,14 @@ persona_title: "Wall Street's Principled Recluse"
 description: "He punched his boss in 1974 and spent 50 years writing 210 rules so it would never happen again. The Enneagram lens on Ray Dalio's fortress mind."
 author: 'DJ Wayne'
 date: '2026-05-14'
-loc: 'https://9takes.com/personality-analysis/Ray-Dalio'
+loc: 'https://9takes.com/personality-analysis/ray-dalio'
 lastmod: '2026-05-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
 type: ['entrepreneur', 'author', 'business-operator']
-person: 'Ray-Dalio'
+person: 'ray-dalio'
 suggestions: ['Bill-Gates', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Ray_Dalio'
 twitter: 'RayDalio'

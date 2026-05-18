@@ -5,14 +5,14 @@ persona_title: "Cinema's Hungry Late Starter"
 description: "Callum Turner says he 'lost four years' to weed before becoming Hollywood's golden boy. The Type 7 pattern behind a charming, late, hungry bloom."
 author: 'DJ Wayne'
 date: '2026-04-29'
-loc: 'https://9takes.com/personality-analysis/Callum-Turner'
+loc: 'https://9takes.com/personality-analysis/callum-turner'
 lastmod: '2026-04-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['newMovieStar', 'movieStar', 'rising-star']
-person: 'Callum-Turner'
+person: 'callum-turner'
 suggestions: ['Dua-Lipa', 'Anya-Taylor-Joy', 'Cillian-Murphy', 'Paul-Mescal']
 wikipedia: 'https://en.wikipedia.org/wiki/Callum_Turner'
 twitter: ''
@@ -194,7 +194,7 @@ He still supports Chelsea, the team that made him as a child, with season ticket
 
 He dated actress Vanessa Kirby for four years — from 2015 to 2020 — and they kept it almost entirely private. Kirby, in 2018, described him to the *Daily Mail* as her "best friend" and "completely wonderful." When the relationship ended, neither of them used the press to litigate it. The split, in tabloid terms, was almost suspiciously gentle. The asymmetry is harder to ignore than the absence of theatrics. Kirby, in the years after, banked an Oscar nomination for *Pieces of a Woman*, joined *Mission: Impossible*, and got cast as Sue Storm in *The Fantastic Four*. Turner kept doing six-month immersions for character roles. Whatever pulled them apart, only one of them took off in the public sense first. The Seven who is supposed to be optimizing for the next room watched his ex's career outscale his and stayed in the room.
 
-Then [Dua Lipa](/personality-analysis/Dua-Lipa). They met in early 2024 at a mutual friend's birthday in Los Angeles — "five near misses," he later told the *Sunday Times*, before the universe finally seated them at the same table. They were reading the same novel: *Trust* by Hernán Díaz. He had finished the first chapter that week. She had it in her bag. It is the kind of coincidence that should embarrass the people involved. They have leaned into it instead. By June 2025, they were engaged, an emerald cut on her finger that he had reportedly designed with the help of her sister and her best friend.
+Then [Dua Lipa](/personality-analysis/dua-lipa). They met in early 2024 at a mutual friend's birthday in Los Angeles — "five near misses," he later told the *Sunday Times*, before the universe finally seated them at the same table. They were reading the same novel: *Trust* by Hernán Díaz. He had finished the first chapter that week. She had it in her bag. It is the kind of coincidence that should embarrass the people involved. They have leaned into it instead. By June 2025, they were engaged, an emerald cut on her finger that he had reportedly designed with the help of her sister and her best friend.
 
 The friendship pattern shows up at work too. Austin Butler, after they'd wrapped *Masters of the Air*: "It was an amazing thing to bring these men to life, and then I think of our friendship; I really don't want to shake it off, that's for sure." He didn't say "the work was great." He said "I don't want to shake this off." Turner answered in kind. "I really miss him."
 

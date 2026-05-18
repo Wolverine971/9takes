@@ -5,14 +5,14 @@ persona_title: "Tech's Calculated Showman"
 description: "Inside the mind of TBPN's co-host: how a teacher's kid from California turned spectacle into strategy and built Silicon Valley's daily obsession."
 author: 'DJ Wayne'
 date: '2026-03-21'
-loc: 'https://9takes.com/personality-analysis/Jordi-Hays'
+loc: 'https://9takes.com/personality-analysis/jordi-hays'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
-person: 'Jordi-Hays'
+person: 'jordi-hays'
 suggestions: ['John-Coogan', 'Chamath-Palihapitiya', 'Alex-Hormozi', 'Gary-Vee']
 wikipedia: ''
 twitter: 'jordihays'
@@ -149,7 +149,7 @@ What separates Jordi from a textbook Three is his wing. The Four wing — 3w4, "
 
 The Three's stress pattern is revealing too. Under extreme pressure, Threes collapse toward [Type 9](/enneagram-corner/enneagram-type-9) — the achiever becomes paralyzed, the doer becomes the avoider. Jordi's entire life seems designed to prevent this from ever happening. The daily countdown. The obligation. The six hours of prep. He built a machine that makes it impossible to stop.
 
-And in security, Threes move toward [Type 6](/enneagram-corner/enneagram-type-6) — developing loyalty, collaboration, and genuine commitment to community over competition. Jordi married his co-founder. He built a genuine partnership with <a href="/personality-analysis/John-Coogan">John Coogan</a>. He deliberately limits TBPN's audience to roughly 200,000 people — founders, investors, operators — and refuses to go wider. "We're not a network," he told Axios. "The only thing we have a monopoly on is like ourselves."
+And in security, Threes move toward [Type 6](/enneagram-corner/enneagram-type-6) — developing loyalty, collaboration, and genuine commitment to community over competition. Jordi married his co-founder. He built a genuine partnership with <a href="/personality-analysis/john-coogan">John Coogan</a>. He deliberately limits TBPN's audience to roughly 200,000 people — founders, investors, operators — and refuses to go wider. "We're not a network," he told Axios. "The only thing we have a monopoly on is like ourselves."
 
 ---
 

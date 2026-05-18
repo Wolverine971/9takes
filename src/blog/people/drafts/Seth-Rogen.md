@@ -5,14 +5,14 @@ persona_title: "Comedy's Easygoing Empire Builder"
 description: 'How did Seth Rogen build a Hollywood empire while seeming like the chillest guy alive? The gap between his massive output and laid-back persona reveals a pattern.'
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Seth-Rogen'
+loc: 'https://9takes.com/personality-analysis/seth-rogen'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['comedian']
-person: 'Seth-Rogen'
+person: 'seth-rogen'
 suggestions: ['Jack-Black', 'Kevin-Hart', 'Keanu-Reeves', 'Theo-Von']
 wikipedia: 'https://en.wikipedia.org/wiki/Seth_Rogen'
 twitter: 'Sethrogen'
@@ -158,7 +158,7 @@ Enneagram [Nines](/enneagram-corner/enneagram-type-9) are called the Peacemakers
 
 The core fear of a Nine is loss and fragmentation, the sense that conflict will tear apart the world they've carefully kept together. Their core desire is wholeness and inner peace. And their signature move is making enormous effort look like no effort at all.
 
-Rogen's life is a case study. The invisible ambition: one of the most prolific creative empires of his generation, built by a man everyone describes as "chill" before they say "ambitious." The merge: thirty years with Goldberg, finishing each other's sentences, a partnership that operates like a single organism. ([Keanu Reeves](/personality-analysis/Keanu-Reeves) runs on the same operating system.) The conflict avoidance: a twenty-year friendship with Franco that ended without a single confrontation. The comfort architecture: cannabis, pottery, beautiful objects in beautiful spaces, an entire lifestyle brand built around manufacturing peace.
+Rogen's life is a case study. The invisible ambition: one of the most prolific creative empires of his generation, built by a man everyone describes as "chill" before they say "ambitious." The merge: thirty years with Goldberg, finishing each other's sentences, a partnership that operates like a single organism. ([Keanu Reeves](/personality-analysis/keanu-reeves) runs on the same operating system.) The conflict avoidance: a twenty-year friendship with Franco that ended without a single confrontation. The comfort architecture: cannabis, pottery, beautiful objects in beautiful spaces, an entire lifestyle brand built around manufacturing peace.
 
 The 9w8 wing explains the moments that surprise people. The [Eight](/enneagram-corner/enneagram-type-8) wing gives Nines a protective streak, a willingness to fight fiercely for others even when they can't fight for themselves. When Rogen sat before the Senate and called out the empty chamber, that wasn't the chill guy. That was the Eight wing showing up for someone he loved.
 

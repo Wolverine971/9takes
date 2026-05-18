@@ -5,14 +5,14 @@ persona_title: "Rap's Cool Operator"
 description: "Why does Ice Spice rap deadpan while chasing the Met Gala, Taylor Swift, and Super Bowl-sized fame? A Type 3 Enneagram analysis of rap's quietest strategist."
 author: 'DJ Wayne'
 date: '2026-04-28'
-loc: 'https://9takes.com/personality-analysis/Ice-Spice'
+loc: 'https://9takes.com/personality-analysis/ice-spice'
 lastmod: '2026-04-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Ice-Spice'
+person: 'ice-spice'
 suggestions: ['Jennifer-Lopez', 'Taylor-Swift', 'Drake', 'Doja-Cat']
 wikipedia: 'https://en.wikipedia.org/wiki/Ice_Spice'
 twitter: 'icespicee_'
@@ -80,7 +80,7 @@ All other type mentions in the body are single-sentence bridges inside narrative
 
 Ice Spice did not become famous by accident. She Googled the blueprint.
 
-The public version goes the other way. TikTok trips over "Munch" in the summer of 2022. [Drake](/personality-analysis/Drake) plays it on his Sirius station. A curly-haired 22-year-old with a deadpan monotone lands on the For You page, and the algorithm does the rest. Pretty girl got lucky. Viral fluke. Already a meme.
+The public version goes the other way. TikTok trips over "Munch" in the summer of 2022. [Drake](/personality-analysis/drake) plays it on his Sirius station. A curly-haired 22-year-old with a deadpan monotone lands on the For You page, and the algorithm does the rest. Pretty girl got lucky. Viral fluke. Already a meme.
 
 Look at the song itself. It is engineered, not lucky. Her producer RiotUSA has explained the math: short runtime, high replay count, no dead air. Ice Spice arrived at the optimized pop single before most of her peers figured out the hook.
 
@@ -108,7 +108,7 @@ The deadpan is the product. The calm is the strategy. The girl who Googled how t
 
 [Type 3 is the Achiever](/enneagram-corner/enneagram-type-3) — the type whose sense of worth fused with the ability to perform, adapt, and win. The [4 wing](/enneagram-corner/enneagram-wings-complete-guide) (3w4, "The Professional") is what gives her the introversion, the minimalism, and the insistence on a lane nobody else runs.
 
-The cleanest outside read on her comes from the person who worked with her at the peak of her visibility. [Taylor Swift](/personality-analysis/Taylor-Swift) pulled Ice Spice onto the "Karma" remix in 2023 and later told _Variety_:
+The cleanest outside read on her comes from the person who worked with her at the peak of her visibility. [Taylor Swift](/personality-analysis/taylor-swift) pulled Ice Spice onto the "Karma" remix in 2023 and later told _Variety_:
 
 > "She's extremely professional without being cold. Playful and fun without ever taking her eye off the prize. She knows what is and isn't 'her' and sets those boundaries with grace. She studies the industry and other artists' careers but is very clear about charting her own definitive, original path."
 
@@ -159,7 +159,7 @@ The chronology, compressed:
 - **January 2023.** "Princess Diana" releases as an album track on her _Like..?_ EP.
 - **February 2023.** She features on PinkPantheress's "Boy's a Liar Pt. 2." It peaks at number three on the Billboard Hot 100 — her highest-charting song to date — and pulls her into the pop and indie audience drill rap usually walls her out of.
 - **April 2023.** Nicki Minaj jumps on the "Princess Diana" remix. It peaks at number four on the Hot 100. The reigning queen of women in rap has officially co-signed.
-- **May 2023.** First Met Gala. Days later, [Taylor Swift](/personality-analysis/Taylor-Swift) adds her to the "Karma" remix.
+- **May 2023.** First Met Gala. Days later, [Taylor Swift](/personality-analysis/taylor-swift) adds her to the "Karma" remix.
 - **June 2023.** "Barbie World" with Nicki and Aqua debuts at number seven on the Hot 100 and charts top ten in fourteen countries. The Greta Gerwig _Barbie_ soundtrack puts her on every pop playlist on earth.
 - **November 2023.** Best New Artist nomination at the Grammys, plus three more nods. She is the only rapper in the category.
 
@@ -235,7 +235,7 @@ Watch the response. No tears. No reinvention announcement. No frantic feature ru
 
 That is the Type 3 stress move again. The same arrow she walked under the Cleotrapa fire — withdraw, minimize, refuse the frame — gets applied to her own commercial floor. A 4 would have grieved publicly. An 8 would have called out the critics by name. A 7 would have pivoted to a brand-new aesthetic by Christmas. The 3 went quiet, kept the hair, kept the voice, kept the producer, and waited for the next viable moment to walk back into the room.
 
-Even the [Drake](/personality-analysis/Drake) tabloid loop behaves the same way. He played "Munch" on his Sirius station in 2022, allegedly took shots at her on _Her Loss_ with 21 Savage, unfollowed her on Instagram in early 2023, then re-followed her months later. She was asked about it once, said they were "cool" and that they had "never really was on some bestie shit," and never spoke about him in detail again. A 3 will let an entire tabloid cycle expire by simply refusing to feed it a second sentence.
+Even the [Drake](/personality-analysis/drake) tabloid loop behaves the same way. He played "Munch" on his Sirius station in 2022, allegedly took shots at her on _Her Loss_ with 21 Savage, unfollowed her on Instagram in early 2023, then re-followed her months later. She was asked about it once, said they were "cool" and that they had "never really was on some bestie shit," and never spoke about him in detail again. A 3 will let an entire tabloid cycle expire by simply refusing to feed it a second sentence.
 
 ## The quietest girl in the room wins
 

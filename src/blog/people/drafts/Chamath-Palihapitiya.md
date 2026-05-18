@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Restless Reinventor"
 description: "From welfare to billions: Inside Chamath Palihapitiya's Type 3 drive for success, his guilt over Facebook, and his constant reinvention."
 author: 'DJ Wayne'
 date: '2026-01-21'
-loc: 'https://9takes.com/personality-analysis/Chamath-Palihapitiya'
+loc: 'https://9takes.com/personality-analysis/chamath-palihapitiya'
 lastmod: '2026-04-02'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['techie', 'investor']
-person: 'Chamath-Palihapitiya'
+person: 'chamath-palihapitiya'
 suggestions: ['David-Sacks', 'Jason-Calacanis', 'David-Friedberg', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
 twitter: 'chaaborhee'
@@ -201,7 +201,7 @@ Sit with that timing for a moment. The SPAC king whose retail followers were abo
 
 For nearly two decades, Chamath donated approximately $1.3 million to Democratic candidates and causes. Then something shifted.
 
-In 2023, he hosted a $50,000-per-plate fundraiser for Vivek Ramaswamy. In June 2024, he co-hosted a $12 million fundraiser for Donald Trump alongside his All-In co-host [David Sacks](/personality-analysis/David-Sacks), held in the Democratic stronghold of San Francisco.
+In 2023, he hosted a $50,000-per-plate fundraiser for Vivek Ramaswamy. In June 2024, he co-hosted a $12 million fundraiser for Donald Trump alongside his All-In co-host [David Sacks](/personality-analysis/david-sacks), held in the Democratic stronghold of San Francisco.
 
 He gave $300,000 directly to Trump's campaign.
 
@@ -215,7 +215,7 @@ Type 3s are drawn to power not necessarily for ideological reasons, but because 
 
 ## The All-In Besties
 
-Since 2020, Chamath has co-hosted the All-In podcast with [Jason Calacanis](/personality-analysis/Jason-Calacanis), David Sacks, and [David Friedberg](/personality-analysis/David-Friedberg). They call themselves "besties," a tongue-in-cheek term for their competitive, combative friendship.
+Since 2020, Chamath has co-hosted the All-In podcast with [Jason Calacanis](/personality-analysis/jason-calacanis), David Sacks, and [David Friedberg](/personality-analysis/david-friedberg). They call themselves "besties," a tongue-in-cheek term for their competitive, combative friendship.
 
 This matters more than it might seem. For millions of listeners, podcast Chamath _is_ Chamath. It's the medium through which most people form their entire impression of him. And the group dynamic reveals things that his investor persona carefully conceals.
 

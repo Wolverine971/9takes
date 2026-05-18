@@ -5,14 +5,14 @@ persona_title: "Hollywood's Deliberate Ghost"
 description: 'Rachel McAdams turned down Iron Man, Casino Royale, and Devil Wears Prada to protect something most people never notice she was losing.'
 author: 'DJ Wayne'
 date: '2026-04-12'
-loc: 'https://9takes.com/personality-analysis/Rachel-McAdams'
+loc: 'https://9takes.com/personality-analysis/rachel-mcadams'
 lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['movieStar', 'screen-icon']
-person: 'Rachel-McAdams'
+person: 'rachel-mcadams'
 suggestions: ['Keanu-Reeves', 'Scarlett-Johansson', 'Ryan-Gosling', 'Anne-Hathaway']
 wikipedia: 'https://en.wikipedia.org/wiki/Rachel_McAdams'
 twitter: ''
@@ -94,7 +94,7 @@ The industry didn't see a talented actress who'd spent a decade in community the
 
 What happened next is the most revealing chapter of Rachel McAdams's life.
 
-Devil Wears Prada director David Frankel offered her the role of Andy Sachs three times. "The studio was determined to have her." The role went to <a href="/personality-analysis/Anne-Hathaway">Anne Hathaway</a>. Casino Royale called — she would have been the Bond girl in the film that revived the franchise. Mission: Impossible III, Iron Man, Get Smart. All of them called.
+Devil Wears Prada director David Frankel offered her the role of Andy Sachs three times. "The studio was determined to have her." The role went to <a href="/personality-analysis/anne-hathaway">Anne Hathaway</a>. Casino Royale called — she would have been the Bond girl in the film that revived the franchise. Mission: Impossible III, Iron Man, Get Smart. All of them called.
 
 She was on her bicycle in St. Thomas.
 
@@ -165,7 +165,7 @@ A Nine who never relaxes in her art. Because relaxing would mean staying on the 
 
 The most famous love story of a generation was built on hostility.
 
-<a href="/personality-analysis/Ryan-Gosling">Ryan Gosling</a> arrived on the set of The Notebook brooding and intense, already deep inside the character of Noah. McAdams arrived bubbly and talkative — her natural state. They clashed immediately.
+<a href="/personality-analysis/ryan-gosling">Ryan Gosling</a> arrived on the set of The Notebook brooding and intense, already deep inside the character of Noah. McAdams arrived bubbly and talkative — her natural state. They clashed immediately.
 
 "We inspired the worst in each other," Gosling said later.
 

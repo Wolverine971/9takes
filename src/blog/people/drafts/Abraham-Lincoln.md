@@ -5,14 +5,14 @@ meta_title: 'Why Abraham Lincoln Could Hold a Nation Together'
 description: 'Why could Abraham Lincoln hold a nation together without hardening? We decode the Type 9 pattern behind the grief, anger control, and team of rivals.'
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Abraham-Lincoln'
+loc: 'https://9takes.com/personality-analysis/abraham-lincoln'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['historical', 'politician', 'historical-leader']
-person: 'Abraham-Lincoln'
+person: 'abraham-lincoln'
 suggestions: ['Martin-Luther-King-Jr', 'Barack-Obama', 'Ronald-Reagan', 'John-F-Kennedy']
 wikipedia: 'https://en.wikipedia.org/wiki/Abraham_Lincoln'
 twitter: ''

@@ -5,14 +5,14 @@ persona_title: "Dissent's Permanent Judge"
 description: "The man who built the greatest critique of power from inside power itself. What drove Chomsky's relentless moral crusade, and what it cost him."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Noam-Chomsky'
+loc: 'https://9takes.com/personality-analysis/noam-chomsky'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['author', 'activist', 'movement-leader']
-person: 'Noam-Chomsky'
+person: 'noam-chomsky'
 suggestions: ['Bernie-Sanders', 'Jordan-Peterson', 'Robert-Oppenheimer', 'Stephen-Hawking']
 wikipedia: 'https://en.wikipedia.org/wiki/Noam_Chomsky'
 twitter: ''

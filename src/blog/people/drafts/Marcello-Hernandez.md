@@ -5,14 +5,14 @@ persona_title: "SNL's Joyful Parachute"
 description: "Inside Marcello Hernández's psychology: how an immigrant mom's trauma, a COVID depression, and a quit soccer career built comedy's happiest escape artist."
 author: 'DJ Wayne'
 date: '2026-03-21'
-loc: 'https://9takes.com/personality-analysis/Marcello-Hernandez'
+loc: 'https://9takes.com/personality-analysis/marcello-hernandez'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['comedian', 'sketch-comic']
-person: 'Marcello-Hernandez'
+person: 'marcello-hernandez'
 suggestions: ['Kevin-Hart', 'Bad-Bunny', 'Pedro-Pascal', 'Jack-Black']
 content_quality:
   hook: 8.5
@@ -124,7 +124,7 @@ Marcello's entire biography reads like a Type 7 case study that's too on-the-nos
 
 **The motion addiction:**
 
-Soccer player. Stand-up comic. TikTok creator. SNL cast member. Netflix special. Esteban in _Happy Gilmore 2_. A Netflix movie with <a href="/personality-analysis/Kevin-Hart">Kevin Hart</a>. The voice of Fergus — Shrek's son — in _Shrek 5_. A 30-show tour. All happening simultaneously or in rapid succession. When <a href="/personality-analysis/Dax-Shepard">Dax Shepard</a> asked about his writing process, Marcello said: "I'll sit down with my assistant... and I'll just be screaming at you in Spanish. I think it might be my process."
+Soccer player. Stand-up comic. TikTok creator. SNL cast member. Netflix special. Esteban in _Happy Gilmore 2_. A Netflix movie with <a href="/personality-analysis/kevin-hart">Kevin Hart</a>. The voice of Fergus — Shrek's son — in _Shrek 5_. A 30-show tour. All happening simultaneously or in rapid succession. When <a href="/personality-analysis/dax-shepard">Dax Shepard</a> asked about his writing process, Marcello said: "I'll sit down with my assistant... and I'll just be screaming at you in Spanish. I think it might be my process."
 
 That's not a writing process. That's a man who can't hold still long enough to write quietly.
 
@@ -146,7 +146,7 @@ She left Cuba at 12 after her family lost their home, landing first in her fathe
 
 "She went through a lot to get to the U.S. and to make a name and a world for herself," Marcello told Variety. "So I respect her very much and I trust her judgment."
 
-Isabel became his comedy muse. The "Protective Mom" sketch on SNL — where <a href="/personality-analysis/Pedro-Pascal">Pedro Pascal</a> plays a version of her — was born directly from material Marcello performed during his SNL audition. "Behind the scenes, it's like her thoughts," he explained. "It's like if we got to hear her thoughts."
+Isabel became his comedy muse. The "Protective Mom" sketch on SNL — where <a href="/personality-analysis/pedro-pascal">Pedro Pascal</a> plays a version of her — was born directly from material Marcello performed during his SNL audition. "Behind the scenes, it's like her thoughts," he explained. "It's like if we got to hear her thoughts."
 
 Pedro Pascal, for his part, requested the role. "All I did was go in and say, 'It would be great to do something with Marcello, and, I don't know, be his protective mother or something,'" Pascal recalled. "They were like, 'You would do that?' I was like, 'Absolutely. I'll do anything you fucking want.'"
 
@@ -214,7 +214,7 @@ The special mines this tension — growing up in an immigrant household where hi
 
 The closing bit drops the comedy voice almost entirely. Marcello notes it bothers him "to hear white people talking about the Latinos like we're scary." He contrasts the types of crimes — white people crimes are "creepy, documentary-worthy," Latino crimes are "fun, exciting, movie-worthy." Then he looks directly into the camera and says: "We'll be back." It's the one moment in the special where the parachute comes off.
 
-"I want to be the Hispanic Jerry Seinfeld," Marcello told Slate in 2020, naming his comic idol. But the ambition isn't just personal. It's representational. "I'm actively trying to work as much as I can," he told TIME, "so that I can have the means and the power to do more and help more people and create a name for myself, but also to represent for Latinos, which is really important to me." He's written sketches for Spanish-speaking hosts like <a href="/personality-analysis/Bad-Bunny">Bad Bunny</a>, never needing to ask permission to bring his culture onto the stage. "I never have to be like, 'Can I please speak Spanish this week, Lorne?'"
+"I want to be the Hispanic Jerry Seinfeld," Marcello told Slate in 2020, naming his comic idol. But the ambition isn't just personal. It's representational. "I'm actively trying to work as much as I can," he told TIME, "so that I can have the means and the power to do more and help more people and create a name for myself, but also to represent for Latinos, which is really important to me." He's written sketches for Spanish-speaking hosts like <a href="/personality-analysis/bad-bunny">Bad Bunny</a>, never needing to ask permission to bring his culture onto the stage. "I never have to be like, 'Can I please speak Spanish this week, Lorne?'"
 
 That "also" is doing enormous work. The sentence starts with personal ambition and pivots to collective responsibility in the same breath. He carries both. All the time.
 

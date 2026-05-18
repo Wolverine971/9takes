@@ -12,7 +12,7 @@ priority: '0.6'
 published: true
 enneagram: 8
 type: ['comedian']
-person: 'Chelsea-Handler'
+person: 'chelsea-handler'
 suggestions: ['Amy-Poehler', 'Joe-Rogan', 'Kara-Swisher', 'Dave-Portnoy']
 wikipedia: 'https://en.wikipedia.org/wiki/Chelsea_Handler'
 twitter: 'chelseahandler'

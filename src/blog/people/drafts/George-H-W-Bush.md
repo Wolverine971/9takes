@@ -5,14 +5,14 @@ meta_title: "Why George H.W. Bush Couldn't Stop Building Alliances (Type 6 Psych
 description: "Discover how George H.W. Bush's Type 6 personality shaped his WWII heroism, CIA leadership, and the coalition-building that defined his presidency."
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/George-H-W-Bush'
+loc: 'https://9takes.com/personality-analysis/george-h-w-bush'
 lastmod: '2025-12-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician', 'modern-leader']
-person: 'George-H-W-Bush'
+person: 'george-h-w-bush'
 suggestions: ['Bill-Clinton', 'George-W-Bush', 'Ronald-Reagan', 'John-F-Kennedy', 'Jimmy-Carter']
 wikipedia: 'https://en.wikipedia.org/wiki/George_H._W._Bush'
 twitter: 'georgehwbush'
@@ -222,7 +222,7 @@ Rather than acting unilaterally, Bush assembled a coalition of 35 nations: the l
 
 Operation Desert Storm succeeded in just 42 days. Kuwait was liberated. Coalition casualties were minimal. And Bush made a decision that would prove controversial in retrospect but reflected his Type 6 prudence: he chose not to invade Baghdad and overthrow Saddam.
 
-"I believed it would lead to an unstable Middle East," Bush later explained. He anticipated the chaos that would follow regime change, a chaos that would indeed materialize when [his son](/personality-analysis/George-W-Bush) invaded Iraq twelve years later.
+"I believed it would lead to an unstable Middle East," Bush later explained. He anticipated the chaos that would follow regime change, a chaos that would indeed materialize when [his son](/personality-analysis/george-w-bush) invaded Iraq twelve years later.
 
 This calculated restraint was classic Type 6 thinking: achieving the objective while avoiding the unintended consequences that come from overreaching.
 
@@ -240,7 +240,7 @@ This quiet competence was his greatest strength and his fatal political liabilit
 
 At the 1988 Republican National Convention, Bush delivered what would become the most consequential six words of his political career: "Read my lips: no new taxes."
 
-The pledge was designed to address two problems. Conservatives doubted his commitment to [Reagan's](/personality-analysis/Ronald-Reagan) tax-cutting legacy. And the broader public had a nagging perception problem: the "wimp factor," as Newsweek had memorably labeled it.
+The pledge was designed to address two problems. Conservatives doubted his commitment to [Reagan's](/personality-analysis/ronald-reagan) tax-cutting legacy. And the broader public had a nagging perception problem: the "wimp factor," as Newsweek had memorably labeled it.
 
 For two years, the pledge held. Then came the 1990 budget crisis. The deficit was soaring. Democrats controlled Congress. Military operations in the Gulf were looming. Bush faced an impossible choice: keep his promise or address what he saw as a genuine threat to national security.
 
@@ -292,7 +292,7 @@ The defeat stung. But Bush handled the transition with characteristic Type 6 gra
 
 ### The Longest Goodbye
 
-In retirement, Bush and [Bill Clinton](/personality-analysis/Bill-Clinton) — the man who demolished him in 1992 — became genuine friends. They traveled together after the 2004 tsunami and Hurricane Katrina, raising hundreds of millions in relief funds. Clinton called him "a man I respect enormously." The Type 6 coalition-builder, still building coalitions, this time with his political enemy.
+In retirement, Bush and [Bill Clinton](/personality-analysis/bill-clinton) — the man who demolished him in 1992 — became genuine friends. They traveled together after the 2004 tsunami and Hurricane Katrina, raising hundreds of millions in relief funds. Clinton called him "a man I respect enormously." The Type 6 coalition-builder, still building coalitions, this time with his political enemy.
 
 He also took up skydiving. Jumps on his 75th, 80th, 85th, and 90th birthdays. The man Newsweek once labeled a wimp was jumping out of airplanes at 90. That detail never gets old.
 

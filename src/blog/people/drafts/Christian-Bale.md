@@ -5,14 +5,14 @@ persona_title: "Cinema's Vanishing Method Man"
 description: 'Why does Christian Bale destroy his body for every role? His extreme transformations reveal a man who found the only way to exist without being known.'
 author: 'DJ Wayne'
 date: '2026-04-21'
-loc: 'https://9takes.com/personality-analysis/Christian-Bale'
+loc: 'https://9takes.com/personality-analysis/christian-bale'
 lastmod: '2026-04-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['movieStar', 'screen-icon']
-person: 'Christian-Bale'
+person: 'christian-bale'
 suggestions: ['Joaquin-Phoenix', 'Cillian-Murphy', 'Matt-Damon', 'Ben-Affleck']
 wikipedia: 'https://en.wikipedia.org/wiki/Christian_Bale'
 twitter: ''

@@ -5,14 +5,14 @@ persona_title: "TikTok's Sleeping Empire"
 description: "How a seven-year-old shielded from her father's scandal grew into TikTok's highest-paid drifter. The Enneagram Type 9 pattern behind Alix Earle's empire."
 author: 'DJ Wayne'
 date: '2026-05-14'
-loc: 'https://9takes.com/personality-analysis/Alix-Earle'
+loc: 'https://9takes.com/personality-analysis/alix-earle'
 lastmod: '2026-05-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['influencer', 'creator', 'lifestyle-builder']
-person: 'Alix-Earle'
+person: 'alix-earle'
 suggestions: ['Alex-Cooper', 'Emma-Chamberlain', 'Hailey-Bieber', 'Addison-Rae']
 wikipedia: 'https://en.wikipedia.org/wiki/Alix_Earle'
 twitter: 'alaborr'
@@ -88,7 +88,7 @@ Ending swap-test: pass. References specific numbers (93,000 likes), the specific
 
 <p class="firstLetter">She has kept describing her own life as if she is watching it from outside the room.</p>
 
-When the paparazzi showed up at her family's New Jersey house in 2008 and her mother packed her and her sister into the car: "I had no idea what was going on." When her podcast was dropped from the [Alex Cooper](/personality-analysis/Alex-Cooper)-owned Unwell Network in February 2025, she gave the Wall Street Journal a self-diagnosis instead of a strategy: "behind the scenes, a little bit of a hot mess" — the same phrase she had already chosen as the title of her own show.
+When the paparazzi showed up at her family's New Jersey house in 2008 and her mother packed her and her sister into the car: "I had no idea what was going on." When her podcast was dropped from the [Alex Cooper](/personality-analysis/alex-cooper)-owned Unwell Network in February 2025, she gave the Wall Street Journal a self-diagnosis instead of a strategy: "behind the scenes, a little bit of a hot mess" — the same phrase she had already chosen as the title of her own show.
 
 She is not lying. The drift is the engine.
 
@@ -171,7 +171,7 @@ The stronger evidence for the non-curation thesis is what she has been willing t
 
 > "If I've gotten it done, I'm fine with sharing it. It's a pretty obvious thing."
 
-Compare that to the rest of the top tier — [Hailey Bieber](/personality-analysis/Hailey-Bieber), Sofia Richie, the Kardashians — where surgical work is denied as policy. To deny a procedure you need a polished image to protect. Alix has never built one, so when she's asked she just answers.
+Compare that to the rest of the top tier — [Hailey Bieber](/personality-analysis/hailey-bieber), Sofia Richie, the Kardashians — where surgical work is denied as policy. To deny a procedure you need a polished image to protect. Alix has never built one, so when she's asked she just answers.
 
 ## How Alix Earle handles a fight
 

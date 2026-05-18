@@ -5,7 +5,7 @@ persona_title: "Literature's Counterphobic Prophet"
 description: "The man who made America laugh was a prisoner of his own conscience. How the Enneagram reveals the counterphobic fear driving Mark Twain's fearless wit."
 author: 'DJ Wayne'
 date: '2026-04-09'
-loc: 'https://9takes.com/personality-analysis/Mark-Twain'
+loc: 'https://9takes.com/personality-analysis/mark-twain'
 lastmod: '2026-04-09'
 second_pass: true
 changefreq: 'monthly'
@@ -13,7 +13,7 @@ priority: '0.6'
 published: false
 enneagram: 6
 type: ['historical', 'historical-artist']
-person: 'Mark-Twain'
+person: 'mark-twain'
 suggestions: ['Abraham-Lincoln', 'Peter-Thiel', 'Winston-Churchill', 'Edgar-Allan-Poe']
 wikipedia: 'https://en.wikipedia.org/wiki/Mark_Twain'
 twitter: ''
@@ -38,7 +38,7 @@ path: src/blog/people/drafts/Mark-Twain.md
 
 <p class="firstLetter">He predicted his own death. And he was right.</p>
 
-On April 21, 1910 — one day after Halley's Comet reached its closest approach to Earth — Samuel Langhorne Clemens died of a heart attack at age 74. He had come in with the comet in 1835. He went out with it in 1910. Exactly as he said he would. Like fellow counterphobic Six <a href="/personality-analysis/Peter-Thiel">Peter Thiel</a> keeping a parachute in his office after 9/11, Twain needed a contingency plan — even for dying.
+On April 21, 1910 — one day after Halley's Comet reached its closest approach to Earth — Samuel Langhorne Clemens died of a heart attack at age 74. He had come in with the comet in 1835. He went out with it in 1910. Exactly as he said he would. Like fellow counterphobic Six <a href="/personality-analysis/peter-thiel">Peter Thiel</a> keeping a parachute in his office after 9/11, Twain needed a contingency plan — even for dying.
 
 Most people read that story and see cosmic poetry. A literary flourish from America's greatest storyteller. But something darker hides inside it. What kind of man rehearses his own ending? What kind of mind needs to control the narrative of its own annihilation?
 

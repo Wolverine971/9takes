@@ -5,14 +5,14 @@ persona_title: "Detroit's Anxious Assassin"
 description: "From white outsider to rap GOAT: how Eminem's paranoia, feuds with Ja Rule and MGK, and near-fatal overdose shaped hip-hop's most technically gifted lyricist."
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Eminem'
+loc: 'https://9takes.com/personality-analysis/eminem'
 lastmod: '2026-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
 type: ['musician', 'rapper']
-person: 'Eminem'
+person: 'eminem'
 suggestions: ['Drake', 'Kanye', 'Taylor-Swift', 'Bad-Bunny', 'Joe-Rogan']
 wikipedia: ''
 twitter: ''

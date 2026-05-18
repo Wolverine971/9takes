@@ -5,14 +5,14 @@ persona_title: "Tech's Unapologetic Inquisitor"
 description: "Why does Kara Swisher intimidate Silicon Valley's most powerful men? We decode the Type 8 drive behind the interviews, bluntness, and refusal to defer."
 author: 'DJ Wayne'
 date: '2026-03-24'
-loc: 'https://9takes.com/personality-analysis/Kara-Swisher'
+loc: 'https://9takes.com/personality-analysis/kara-swisher'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['techie', 'author', 'tech-interpreter', 'business-interpreter']
-person: 'Kara-Swisher'
+person: 'kara-swisher'
 suggestions: ['Scott-Galloway', 'Peter-Thiel', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Kara_Swisher'
 twitter: '@karaswisher'
@@ -142,7 +142,7 @@ She felt bad. And then she kept asking questions.
 
 The disorientation isn't limited to tech. Before interviewing Barack Obama, Swisher warned him she would interrupt more than he was used to. His response: "I heard you're obnoxious." Her response: "Yes, I am." And then they started.
 
-The relationship with [Elon Musk](/personality-analysis/Elon-Musk) was more personal. Swisher initially admired him. "He thought big" while others chased incremental improvements. She saw the juvenile humor — "dumb memes, boob jokes" — but wrote it off as maybe ten percent of who he was.
+The relationship with [Elon Musk](/personality-analysis/elon-musk) was more personal. Swisher initially admired him. "He thought big" while others chased incremental improvements. She saw the juvenile humor — "dumb memes, boob jokes" — but wrote it off as maybe ten percent of who he was.
 
 Then the pandemic hit. In September 2020, when she pressed him on COVID safety and the possibility that workers would still die, his response was two words: "Everybody dies." He threatened to end the interview.
 
@@ -150,7 +150,7 @@ After Musk bought Twitter, Swisher actually tried to help him. She sent strategi
 
 Her response: "If I did something assholish, I'd say so and I didn't, so fuck you."
 
-In _Burn Book_, the line that lingers is quieter: "If [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg) is the most damaging man in tech to me, Musk was the most disappointing."
+In _Burn Book_, the line that lingers is quieter: "If [Mark Zuckerberg](/personality-analysis/mark-zuckerberg) is the most damaging man in tech to me, Musk was the most disappointing."
 
 Damaging is a policy assessment. Disappointing is personal. That ten percent of juvenile humor "eventually became magnified, subsuming the rest of his personality." She had believed he could fix Twitter. After: "I was obviously and completely wrong."
 
@@ -212,7 +212,7 @@ She said that about being closeted. But she meant it as a universal law.
 
 Her anger at the industry isn't random. It's directional. "We had, in essence, privatized our public discourse and were now allowing billionaires" to control it. What drives her journalism is what drives all [healthy Eights](/enneagram-corner/enneagram-type-8): the instinct to channel power into protection, shielding others from the self-serving narratives of people who hold more of it.
 
-Adam Grant, after being grilled on her podcast, told her directly: "Your default is critical and disagreeable. You're willing to buck social norms and politeness expectations in order to be honest." She arrives knowing more than subjects expect, asks questions they haven't rehearsed answers for, and treats their authority as irrelevant to the conversation. She walks into a room with [Peter Thiel](/personality-analysis/Peter-Thiel) or [Sam Altman](/personality-analysis/Sam-Altman) and genuinely does not feel smaller. Not because she's performing confidence. The hierarchy in her head isn't organized by wealth or title. It's organized by honesty.
+Adam Grant, after being grilled on her podcast, told her directly: "Your default is critical and disagreeable. You're willing to buck social norms and politeness expectations in order to be honest." She arrives knowing more than subjects expect, asks questions they haven't rehearsed answers for, and treats their authority as irrelevant to the conversation. She walks into a room with [Peter Thiel](/personality-analysis/peter-thiel) or [Sam Altman](/personality-analysis/sam-altman) and genuinely does not feel smaller. Not because she's performing confidence. The hierarchy in her head isn't organized by wealth or title. It's organized by honesty.
 
 "I am fair. I think one of the things that always happens when I interview people is they start with the 'you're mean.'"
 

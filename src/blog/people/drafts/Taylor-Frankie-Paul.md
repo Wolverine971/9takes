@@ -5,18 +5,62 @@ persona_title: "MomTok's Restless Detonator"
 description: "Why does Taylor Frankie Paul keep blowing up her own life in public? An Enneagram Type 7w8 analysis of the MomTok star, the soft-swinging confession, and the Bachelorette cancellation."
 author: 'DJ Wayne'
 date: '2026-05-01'
-loc: 'https://9takes.com/personality-analysis/Taylor-Frankie-Paul'
+loc: 'https://9takes.com/personality-analysis/taylor-frankie-paul'
 lastmod: '2026-05-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
 type: ['tiktoker', 'influencer', 'celebrity', 'celebrity-image', 'lifestyle-builder']
-person: 'Taylor-Frankie-Paul'
+person: 'taylor-frankie-paul'
 suggestions: ['Alex-Cooper', 'Alix-Earle', 'Brittany-Broski', 'Benson-Boone']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Frankie_Paul'
 instagram: 'taylorfrankiepaul'
 tiktok: 'taylorfrankiepaul'
+wikidata_qid: 'Q130278034'
+imdb_id: 'nm16390303'
+birth_date: '1994-05-23'
+birth_place: 'Utah, USA'
+nationality: 'American'
+occupation:
+  - 'TikTok creator'
+  - 'Reality television personality'
+  - 'Influencer'
+knows_about:
+  - 'MomTok'
+  - 'The Secret Lives of Mormon Wives'
+  - 'Mormonism'
+  - 'Influencer marketing'
+  - 'Hulu reality television'
+keywords:
+  - 'Taylor Frankie Paul enneagram'
+  - 'Taylor Frankie Paul type 7'
+  - 'Taylor Frankie Paul 7w8'
+  - 'MomTok scandal'
+  - 'Secret Lives of Mormon Wives'
+  - 'Enthusiast enneagram'
+  - 'Taylor Frankie Paul Bachelorette'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Taylor_Frankie_Paul'
+  - 'https://www.wikidata.org/wiki/Q130278034'
+  - 'https://www.imdb.com/name/nm16390303/'
+  - 'https://www.instagram.com/taylorfrankiepaul/'
+  - 'https://www.tiktok.com/@taylorfrankiepaul'
+citations:
+  - 'https://en.wikipedia.org/wiki/Taylor_Frankie_Paul'
+  - 'https://en.wikipedia.org/wiki/The_Secret_Lives_of_Mormon_Wives'
+  - 'https://www.hollywoodreporter.com/tv/tv-news/the-bachelorette-taylor-frankie-paul'
+  - 'https://podscripts.co/podcasts/the-viall-files/e803-going-deeper-with-taylor-frankie-paul-secret-lives-of-mormon-wives'
+faqs:
+  - question: "What is Taylor Frankie Paul's personality type?"
+    answer: "Taylor Frankie Paul is an Enneagram Type 7 with an 8 wing. The Seven pattern shows in her confessional livestream style and refusal to slow down; the 8 wing shows in the bar-stool incident, the public detonations, and the willingness to escalate when stillness becomes unbearable. Her career has been a sequence of escape routes built out of confessions."
+    anchor: 'what-is-taylor-frankie-pauls-personality-type'
+  - question: 'Why did Taylor Frankie Paul confess to soft swinging on TikTok Live?'
+    answer: "In May 2022, Taylor announced on TikTok Live that the MomTok influencer group had been 'soft swinging' and that she had broken the agreed boundaries with another MomTok husband. The Type 7 pattern under pressure is to move — and when there is nowhere physical left to move, the only movement left is to expose the secret. The confession was the exit route. Her follower count quadrupled within days; the scandal led to a Hulu production deal within two years."
+    anchor: 'the-tiktok-live-that-ended-a-marriage-a-friend-group-and-a-faith'
+  - question: "Why was Taylor Frankie Paul's Bachelorette season cancelled?"
+    answer: "On March 19, 2026, two days before her season was scheduled to premiere, TMZ published an unedited version of the 2023 arrest video showing her throwing barstools at then-boyfriend Dakota Mortensen with a child present. ABC scrapped the season the same day. Dakota filed a protective order alleging additional assault, and a Utah court granted temporary sole custody of their son Ever through April 30, 2026."
+    anchor: 'why-abc-canceled-taylor-frankie-pauls-bachelorette'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -129,7 +173,7 @@ Then ABC saw a 2023 video of her attacking her ex-boyfriend with a metal barstoo
 
 ### Taylor Frankie Paul is an Enneagram Type 7w8
 
-[Type 7s](/enneagram-corner/enneagram-type-7) are the Enthusiasts. They keep options open. They stay ahead of feelings. They move before pain can catch them. Most celebrity Sevens channel this through comedy, content, or constant reinvention: Kevin Hart, Doja Cat, [Alex Cooper](/personality-analysis/alex-cooper), [Brittany Broski](/personality-analysis/brittany-broski). Taylor Frankie Paul channels it through confession.
+[Type 7s](/enneagram-corner/enneagram-type-7) are the Enthusiasts. They keep options open. They stay ahead of feelings. They move before pain can catch them. Most celebrity Sevens channel this through comedy, content, or constant reinvention: [Kevin Hart](/personality-analysis/kevin-hart), [Doja Cat](/personality-analysis/doja-cat), [Alex Cooper](/personality-analysis/alex-cooper), [Brittany Broski](/personality-analysis/brittany-broski). Taylor Frankie Paul channels it through confession.
 
 When the pressure builds, she doesn't run from the story. She tells it, loudly, on livestream, in a voice that sometimes shakes and sometimes doesn't. The confession itself becomes the exit.
 

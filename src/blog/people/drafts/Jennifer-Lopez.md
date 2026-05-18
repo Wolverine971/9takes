@@ -5,14 +5,14 @@ persona_title: "The Bronx's Relentless Reinventor"
 description: 'Why does Jennifer Lopez keep turning love, work, and reinvention into proof? We decode the Type 3 drive behind her ambition, image, and need to be enough.'
 author: 'DJ Wayne'
 date: '2026-04-03'
-loc: 'https://9takes.com/personality-analysis/Jennifer-Lopez'
+loc: 'https://9takes.com/personality-analysis/jennifer-lopez'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['celebrity', 'musician', 'movieStar', 'screen-icon', 'music-crossover']
-person: 'Jennifer-Lopez'
+person: 'jennifer-lopez'
 suggestions: ['Kim-Kardashian', 'Paris-Hilton', 'Taylor-Swift', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Lopez'
 twitter: 'https://twitter.com/JLo'

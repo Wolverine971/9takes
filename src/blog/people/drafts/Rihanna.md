@@ -5,14 +5,14 @@ persona_title: "Pop's Unbothered Mogul"
 description: "Nine years away from music at her peak, and not a single apology. Rihanna's detachment isn't a pose — it's her actual operating system."
 author: 'DJ Wayne'
 date: '2025-03-25'
-loc: 'https://9takes.com/personality-analysis/Rihanna'
+loc: 'https://9takes.com/personality-analysis/rihanna'
 lastmod: '2026-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '8'
 type: ['musician', 'pop-star']
-person: 'Rihanna'
+person: 'rihanna'
 suggestions: ['Beyonce-Knowles', 'Lady-Gaga', 'Dua-Lipa', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Rihanna'
 twitter: 'https://twitter.com/rihanna'
@@ -102,7 +102,7 @@ But the numbers don't capture what made her distinctive. She refused to stay in 
 
 "Pon de Replay" and "Rude Boy" dripped with the dancehall and reggae of her Barbadian roots. "Umbrella" thrust her into pop stratosphere with that iconic "ella-ella, eh-eh-eh" hook. "We Found Love" with Calvin Harris, ten consecutive weeks at number one, was dark yet euphoric electronic dance music. "Work" brought back the Jamaican patois in a hypnotic, repetitive structure that became a cultural moment.
 
-"I wanted every song to have its own subject, its own story, its own look, its own sound," she told [Kanye West](/personality-analysis/Kanye) in Interview Magazine.
+"I wanted every song to have its own subject, its own story, its own look, its own sound," she told [Kanye West](/personality-analysis/kanye) in Interview Magazine.
 
 That's not ambition. It's autonomy. She'd mastered pop, R&B, dancehall, EDM, and hip-hop before she turned 25, then decided the game bored her.
 

@@ -5,14 +5,14 @@ persona_title: 'The Quiet Witness Who Wouldn''t Stay Quiet'
 description: 'Jane Goodall fled the human world to live among chimps. Then the chimps showed her cruelty too. An Enneagram Type 9w1 study of the patron saint of hope.'
 author: 'DJ Wayne'
 date: '2026-05-17'
-loc: 'https://9takes.com/personality-analysis/Jane-Goodall'
+loc: 'https://9takes.com/personality-analysis/jane-goodall'
 lastmod: '2026-05-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
 type: ['activist', 'historical', 'author']
-person: 'Jane-Goodall'
+person: 'jane-goodall'
 suggestions: ['Greta-Thunberg', 'Mr-Rogers', 'Princess-Diana', 'Jimmy-Carter']
 wikipedia: 'https://en.wikipedia.org/wiki/Jane_Goodall'
 twitter: 'janegoodallinst'
@@ -276,7 +276,7 @@ Part of it was that she did not give them anything to hit. The 9 sidesteps confr
 
 The other part was that she had paid the price. You cannot easily attack a woman who has spent twenty-six years in a tent, has buried two husbands, has raised a son inside a wire-mesh enclosure, has watched mothers eat babies, and has, at the end of all that, told you to be hopeful. Whatever you bring to the fight, she has already paid more. The 9w1's slow accumulation of moral capital becomes, by the third decade, almost impossible to deplete.
 
-She paid it forward, too. When [Greta Thunberg](/personality-analysis/Greta-Thunberg) emerged as the face of youth climate activism, Goodall did not compete. She blessed her, publicly, and pointed at Roots & Shoots — the army Greta did not yet know she had. She had inherited a similar mantle herself, in some ways, from another quiet voice across the Atlantic: [Mr. Rogers](/personality-analysis/Mr-Rogers), the patron saint of slow attention. The line of 9w1 cultural figures who refused to be loud is not long, but it is unbroken.
+She paid it forward, too. When [Greta Thunberg](/personality-analysis/greta-thunberg) emerged as the face of youth climate activism, Goodall did not compete. She blessed her, publicly, and pointed at Roots & Shoots — the army Greta did not yet know she had. She had inherited a similar mantle herself, in some ways, from another quiet voice across the Atlantic: [Mr. Rogers](/personality-analysis/mr-rogers), the patron saint of slow attention. The line of 9w1 cultural figures who refused to be loud is not long, but it is unbroken.
 
 ## How Jane Goodall fell apart, when she did
 

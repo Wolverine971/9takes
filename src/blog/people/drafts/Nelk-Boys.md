@@ -3,14 +3,14 @@ title: 'Nelk Boys: An Enneagram Analysis'
 description: "Exploring the Nelk Boys' personalities through the lens of the Enneagram"
 author: 'DJ Wayne'
 date: '2026-04-03'
-loc: 'https://9takes.com/personality-analysis/Nelk-Boys'
+loc: 'https://9takes.com/personality-analysis/nelk-boys'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram:
 type: ['creator', 'influencer', 'lifestyle-builder']
-person: 'Nelk-Boys'
+person: 'nelk-boys'
 suggestions: []
 wikipedia: 'https://en.wikipedia.org/wiki/Nelk'
 twitter: 'https://twitter.com/nelaborhood'

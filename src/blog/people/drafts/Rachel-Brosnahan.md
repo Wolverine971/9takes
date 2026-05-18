@@ -5,14 +5,14 @@ persona_title: "Television's Reluctant Achiever"
 description: "Rachel Brosnahan was told for years she wasn't funny. Then she won two Golden Globes for comedy. What that arc reveals about who she really is."
 author: 'DJ Wayne'
 date: '2026-04-14'
-loc: 'https://9takes.com/personality-analysis/Rachel-Brosnahan'
+loc: 'https://9takes.com/personality-analysis/rachel-brosnahan'
 lastmod: '2026-04-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'Rachel-Brosnahan'
+person: 'rachel-brosnahan'
 suggestions: ['Anne-Hathaway', 'Natalie-Portman', 'Tina-Fey', 'Meryl-Streep']
 wikipedia: 'https://en.wikipedia.org/wiki/Rachel_Brosnahan'
 twitter: 'rachelbrosnahan'

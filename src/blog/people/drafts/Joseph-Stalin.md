@@ -5,14 +5,14 @@ persona_title: "History's Paranoid Architect"
 description: 'Stalin said he trusted no one, not even himself. His 40,000-book library, midnight purges, and lonely death reveal the terrified man inside the Man of Steel.'
 author: 'DJ Wayne'
 date: '2026-03-27'
-loc: 'https://9takes.com/personality-analysis/Joseph-Stalin'
+loc: 'https://9takes.com/personality-analysis/joseph-stalin'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['historical', 'politician', 'historical-leader']
-person: 'Joseph-Stalin'
+person: 'joseph-stalin'
 suggestions: ['Vladimir-Putin', 'Xi-Jinping', 'Napoleon-Bonaparte', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Joseph_Stalin'
 content_quality:
@@ -181,7 +181,7 @@ The evidence sits across his entire life:
 
 Foreign leaders who met him often left disarmed. Churchill called him "a man of unfathomable purpose." Roosevelt's aides noted his "human touch" in negotiations — a warmth that seemed genuine even as it served a tactical function. Khrushchev, who served under him for years, called him "a man of faces." Lazar Kaganovich said there were "four or five different versions of Stalin." Stephen Kotkin's three-volume biography keeps returning to the same diagnostic point: Stalin was not performing power. He was performing safety — scanning each interlocutor for threat, mirroring whatever face would keep the threat level lowest, and filing the data away for use later. The historian Simon Sebag Montefiore called the result "feline" — a charm that drew people in while keeping them uncertain whether the next move would be a smile or a signature on an arrest list.
 
-This is the most refined Type 6 surveillance system in modern political history. (For its successor, see how [Vladimir Putin](/personality-analysis/Vladimir-Putin) has inherited the same threat-detection architecture and turned it back into permanent control.)
+This is the most refined Type 6 surveillance system in modern political history. (For its successor, see how [Vladimir Putin](/personality-analysis/vladimir-putin) has inherited the same threat-detection architecture and turned it back into permanent control.)
 
 ---
 

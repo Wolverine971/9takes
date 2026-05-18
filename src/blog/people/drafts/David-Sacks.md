@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Vigilant Architect"
 description: "The All-In podcast's 'Rain Man' isn't cold — he's afraid. How Enneagram Type 6 explains David Sacks's frameworks, feuds, and fierce loyalties."
 author: 'DJ Wayne'
 date: '2025-03-16'
-loc: 'https://9takes.com/personality-analysis/David-Sacks'
+loc: 'https://9takes.com/personality-analysis/david-sacks'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['techie', 'investor']
-person: 'David-Sacks'
+person: 'david-sacks'
 suggestions:
   ['Peter-Thiel', 'Elon-Musk', 'Jason-Calacanis', 'Chamath-Palihapitiya', 'David-Friedberg']
 wikipedia: 'https://en.wikipedia.org/wiki/David_O._Sacks'
@@ -122,7 +122,7 @@ He excelled at Memphis University School, a private prep school. His yearbook li
 
 At Stanford, Sacks found his foxhole.
 
-He joined the Stanford Review, the conservative-libertarian newspaper <a href="/personality-analysis/Peter-Thiel">Peter Thiel</a> had co-founded. Sacks eventually became editor-in-chief. The paper positioned itself against the campus mainstream, fighting speech codes, what they called "dumbed-down" admissions standards, and "anti-Western zealotry."
+He joined the Stanford Review, the conservative-libertarian newspaper <a href="/personality-analysis/peter-thiel">Peter Thiel</a> had co-founded. Sacks eventually became editor-in-chief. The paper positioned itself against the campus mainstream, fighting speech codes, what they called "dumbed-down" admissions standards, and "anti-Western zealotry."
 
 This is where Sacks and Thiel fused. Not through business. Through ideological combat. They co-wrote _The Diversity Myth: Multiculturalism and Political Intolerance on Campus_ (1995), a book so provocative that the Stanford administration's reaction was "hostile."
 
@@ -148,7 +148,7 @@ He didn't call his team "managers." He called them "producers," explaining that 
 
 PayPal went public in 2002, the first dot-com IPO after 9/11. David was 29.
 
-But the most psychologically revealing moment at PayPal wasn't the IPO. It was the boardroom coup of 2000, when <a href="/personality-analysis/Elon-Musk">Elon Musk</a>, then CEO of merged entity X.com, was ousted while on his honeymoon. Sacks was among those who supported the removal. A man who would later be accused of a "coup" at Zenefits had already participated in one at PayPal.
+But the most psychologically revealing moment at PayPal wasn't the IPO. It was the boardroom coup of 2000, when <a href="/personality-analysis/elon-musk">Elon Musk</a>, then CEO of merged entity X.com, was ousted while on his honeymoon. Sacks was among those who supported the removal. A man who would later be accused of a "coup" at Zenefits had already participated in one at PayPal.
 
 The pattern isn't malicious. It's a preemptive action against a perceived organizational threat. When the ship feels like it's heading for rocks, Sacks grabs the wheel. He doesn't wait to see if it corrects itself.
 
@@ -325,7 +325,7 @@ A man who demands privacy, throwing the most un-private party imaginable, reques
 
 On the All-In Podcast, Sacks plays against type. Or rather, he plays exactly to type in a way the other hosts don't.
 
-<a href="/personality-analysis/Jason-Calacanis">Jason Calacanis</a> is the hype man, the emotional one, the host who screams and laughs and calls himself "the world's greatest moderator." [Chamath Palihapitiya](/personality-analysis/Chamath-Palihapitiya) is the provocateur, the one who drops contrarian bombs and watches the fallout. [David Friedberg](/personality-analysis/David-Friedberg) is the scientist, bringing data and dry humor.
+<a href="/personality-analysis/jason-calacanis">Jason Calacanis</a> is the hype man, the emotional one, the host who screams and laughs and calls himself "the world's greatest moderator." [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya) is the provocateur, the one who drops contrarian bombs and watches the fallout. [David Friedberg](/personality-analysis/david-friedberg) is the scientist, bringing data and dry humor.
 
 Sacks is the one who builds the argument. He doesn't riff or riff. He constructs. "Wait, let me finish" is his signature phrase because he's mid-framework, and the interruption threatens the structure. Listeners note that he frequently interrupts others yet demands the space to complete his own points.
 

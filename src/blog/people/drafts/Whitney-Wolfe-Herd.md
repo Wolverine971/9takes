@@ -5,14 +5,14 @@ persona_title: "Dating's Relentless Architect"
 description: "Whitney Wolfe Herd built a billion-dollar empire from her own trauma. Inside the Type 3 mind that can't stop — and the company that finally needs her to."
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Whitney-Wolfe-Herd'
+loc: 'https://9takes.com/personality-analysis/whitney-wolfe-herd'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['entrepreneur', 'techie', 'business-operator']
-person: 'Whitney-Wolfe-Herd'
+person: 'whitney-wolfe-herd'
 suggestions: ['Steven-Bartlett', 'Hailey-Bieber', 'Reese-Witherspoon', 'Kris-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Whitney_Wolfe_Herd'
 twitter: 'WhitWolfeHerd'

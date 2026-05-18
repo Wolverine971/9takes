@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Ornery Poet"
 description: "Why can't Alex Karp sit still? We decode the Type 4 drive behind Palantir, outsider identity, war-tech ambition, and refusal to fit Silicon Valley."
 author: 'DJ Wayne'
 date: '2026-03-25'
-loc: 'https://9takes.com/personality-analysis/Alex-Karp'
+loc: 'https://9takes.com/personality-analysis/alex-karp'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['techie', 'entrepreneur', 'frontier-builder']
-person: 'Alex-Karp'
+person: 'alex-karp'
 suggestions: ['Peter-Thiel', 'Dario-Amodei', 'Sam-Altman', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Alex_Karp'
 twitter: ''
@@ -141,7 +141,7 @@ Most people absorb the standard narrative and become shaped by it. Karp couldn't
 
 ## How Alex Karp Learned to Fight With Ideas
 
-At Stanford Law School, Karp met [Peter Thiel](/personality-analysis/Peter-Thiel). They bonded the way only two intellectual misfits can: through combat.
+At Stanford Law School, Karp met [Peter Thiel](/personality-analysis/peter-thiel). They bonded the way only two intellectual misfits can: through combat.
 
 "We argued like feral animals," Karp has said.
 

@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Wartime Watchman"
 description: "Ben Horowitz wrote the book on being a wartime CEO. He also cried every two hours through his own war. Here's what Enneagram Type 6 reveals about why."
 author: 'DJ Wayne'
 date: '2026-04-25'
-loc: 'https://9takes.com/personality-analysis/Ben-Horowitz'
+loc: 'https://9takes.com/personality-analysis/ben-horowitz'
 lastmod: '2026-04-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
 type: ['techie', 'entrepreneur', 'author', 'business-operator']
-person: 'Ben-Horowitz'
+person: 'ben-horowitz'
 suggestions: ['Marc-Andreessen', 'Peter-Thiel', 'Paul-Graham', 'Reid-Hoffman']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Horowitz'
 twitter: 'bhorowitz'
@@ -149,7 +149,7 @@ This is where the Six logic clicks into place. A Type 6 scans for which group wi
 
 Columbia for undergrad. UCLA for a master's under Leonard Kleinrock, the packet-switching pioneer. Silicon Graphics. Then, in 1995, a job interview at a scrappy company called Netscape. He walked out, called his brother, and said the guy who interviewed him might be the smartest person he had ever met.
 
-The guy was <a href="/personality-analysis/Marc-Andreessen">Marc Andreessen</a>. Ben was 29. He has never worked anywhere else since.
+The guy was <a href="/personality-analysis/marc-andreessen">Marc Andreessen</a>. Ben was 29. He has never worked anywhere else since.
 
 ## Why Ben Horowitz can't stop preparing for the worst
 

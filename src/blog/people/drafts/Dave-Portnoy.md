@@ -5,14 +5,14 @@ persona_title: "Media's Unapologetic Brawler"
 description: "Explore how Dave Portnoy's Enneagram Type 8 personality drives his empire, feuds, fierce loyalty, and the contradictions that define him."
 author: 'DJ Wayne'
 date: '2023-08-21'
-loc: 'https://9takes.com/personality-analysis/Dave-Portnoy'
+loc: 'https://9takes.com/personality-analysis/dave-portnoy'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['creator', 'viral-entertainer']
-person: 'Dave-Portnoy'
+person: 'dave-portnoy'
 suggestions: ['Joe-Rogan', 'Alex-Cooper', 'Logan-Paul', 'Jake-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Portnoy'
 twitter: 'stoolpresidente'
@@ -178,7 +178,7 @@ Two screens, two versions of the same man: the gambler bleeding money for entert
 
 What galled him about the fund was the speed comparison: "It took me 24 hours to come up with this concept and put it in motion." One person with a platform and 24 hours had done what Congress couldn't manage in months.
 
-Plenty of wealthy people give money (look at [Mr. Beast's](/personality-analysis/Mr-Beast) entire brand). What's different is that Portnoy chose to sit in the emotional wreckage of other people's pain, on camera, repeatedly. A man who built a brand on being untouchable kept putting himself in rooms where he could be touched.
+Plenty of wealthy people give money (look at [Mr. Beast's](/personality-analysis/mr-beast) entire brand). What's different is that Portnoy chose to sit in the emotional wreckage of other people's pain, on camera, repeatedly. A man who built a brand on being untouchable kept putting himself in rooms where he could be touched.
 
 ## The Combustion Engine
 

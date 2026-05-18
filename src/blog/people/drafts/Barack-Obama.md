@@ -5,14 +5,14 @@ persona_title: "America's Composed Colossus"
 description: "Barack Obama's calm wasn't an absence of feeling. It was the discipline of a man who learned early that steadiness could also be armor."
 author: 'DJ Wayne'
 date: '2025-04-06'
-loc: 'https://9takes.com/personality-analysis/Barack-Obama'
+loc: 'https://9takes.com/personality-analysis/barack-obama'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician', 'modern-leader']
-person: 'Barack-Obama'
+person: 'barack-obama'
 suggestions: ['Michelle-Obama', 'Hillary-Clinton', 'Joe-Biden', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Barack_Obama'
 twitter: '@BarackObama'
@@ -178,7 +178,7 @@ He called it "the single darkest day of my presidency." And what followed, Congr
 
 The angriest he ever was. From the man famous for never being angry.
 
-Then, November 2016. [Trump](/personality-analysis/Donald-Trump) wins. Obama gathers his senior staff in the White House. Christy Goldfuss, who served as managing director of the Council on Environmental Quality, described what happened: "He got up to give a speech and he started crying and he thanked everybody for believing in him."
+Then, November 2016. [Trump](/personality-analysis/donald-trump) wins. Obama gathers his senior staff in the White House. Christy Goldfuss, who served as managing director of the Council on Environmental Quality, described what happened: "He got up to give a speech and he started crying and he thanked everybody for believing in him."
 
 Treasury Secretary Jacob Lew and National Security Adviser Susan Rice were overcome with emotion. The room fell apart. The calmest man in Washington let the room see what the restraint had been holding.
 
@@ -231,7 +231,7 @@ He collected Spider-Man and Conan the Barbarian comics. Didn't drink coffee. Rar
 
 ## The Marriage Deficit
 
-[Michelle Obama](/personality-analysis/Michelle-Obama) has been honest about the cost.
+[Michelle Obama](/personality-analysis/michelle-obama) has been honest about the cost.
 
 "There are going to be long periods of time when you can't stand each other," she said publicly. There were times she wanted to push him out of the window. Having children during a political career "contributed to challenges in their relationship."
 

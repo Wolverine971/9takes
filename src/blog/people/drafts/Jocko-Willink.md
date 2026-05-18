@@ -5,14 +5,14 @@ meta_title: "Why Jocko Willink Can't Stop Waking Up at 4AM (The Real Reason)"
 description: "What drives a Navy SEAL to embrace total responsibility? Discover Jocko Willink's Type 8 personality and the psychology behind his extreme discipline."
 author: 'DJ Wayne'
 date: '2025-12-09'
-loc: 'https://9takes.com/personality-analysis/Jocko-Willink'
+loc: 'https://9takes.com/personality-analysis/jocko-willink'
 lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['celebrity', 'celebrity-image']
-person: 'Jocko-Willink'
+person: 'jocko-willink'
 suggestions: ['Joe-Rogan', 'Shawn-Ryan', 'Tim-Ferriss', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Jocko_Willink'
 twitter: 'jockowillink'
@@ -198,7 +198,7 @@ The girl he'd always seen as "the most confident human I'd ever known" had been 
 
 He later reflected: **"The weight of your words as a leader is a lot more than you think they are. And the weight of your words as a parent is probably even heavier than that."**
 
-He credits a conversation with [Jordan Peterson](/personality-analysis/Jordan-Peterson) on his podcast for teaching him that psychological problems need professional help, not just discipline and toughness. Before that conversation, Jocko didn't have that framework. The man who teaches the world about leadership and problem-solving didn't know how to approach mental health.
+He credits a conversation with [Jordan Peterson](/personality-analysis/jordan-peterson) on his podcast for teaching him that psychological problems need professional help, not just discipline and toughness. Before that conversation, Jocko didn't have that framework. The man who teaches the world about leadership and problem-solving didn't know how to approach mental health.
 
 This is the Type 8 blindspot laid bare: the assumption that strength is always the answer. Sometimes strength is the problem.
 
@@ -235,7 +235,7 @@ For a Type 8, discipline isn't motivated by external rewards or approval. It's a
 
 ### The "Good" in Conflict
 
-In a revealing moment on [Joe Rogan's](/personality-analysis/Joe-Rogan) podcast, Jocko admitted something that disturbed some listeners:
+In a revealing moment on [Joe Rogan's](/personality-analysis/joe-rogan) podcast, Jocko admitted something that disturbed some listeners:
 
 "In the SEAL teams I was an instigator. If I could talk smack to two different people and let them start to get escalating like they wanted to engage in conflict, I would do that all day long."
 

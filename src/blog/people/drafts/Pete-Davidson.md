@@ -5,14 +5,14 @@ persona_title: "Comedy's Lovable Mess"
 description: "Explore Pete Davidson's Enneagram Type 9 personality, from his father's heroic death to his pattern of self-erasure and surprising resilience"
 author: 'DJ Wayne'
 date: '2023-06-20'
-loc: 'https://9takes.com/personality-analysis/Pete-Davidson'
+loc: 'https://9takes.com/personality-analysis/pete-davidson'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['celebrity', 'comedian', 'tv-comedy-crossover', 'sketch-comic']
-person: 'Pete-Davidson'
+person: 'pete-davidson'
 suggestions: ['Dave-Chappelle', 'Ariana-Grande', 'Kim-Kardashian', 'Shane-Gillis']
 wikipedia: 'https://en.wikipedia.org/wiki/Pete_Davidson'
 twitter: ''
@@ -45,7 +45,7 @@ FEEDBACK (2026-02-20):
 
 > "I used to be a drug addict and I was a sad person, and I felt ugly and that I needed to be covered up."
 
-<p class="firstLetter">Pete Davidson is removing his tattoos. All of them. Every last inked memory on his body. The <a href="/personality-analysis/Ariana-Grande">Ariana Grande</a> bunny ears behind his ear, the random impulse designs from years of numbing out, the entire patchwork autobiography of a man who didn't know who he was.</p>
+<p class="firstLetter">Pete Davidson is removing his tattoos. All of them. Every last inked memory on his body. The <a href="/personality-analysis/ariana-grande">Ariana Grande</a> bunny ears behind his ear, the random impulse designs from years of numbing out, the entire patchwork autobiography of a man who didn't know who he was.</p>
 
 He's spent $200,000 so far. He's about 30 percent done. The process will take another decade.
 
@@ -153,12 +153,12 @@ For Nines, the path to peace often leads through paradox. They avoid conflict so
 
 The evidence for Pete as a Type 9 runs deep:
 
-- **Becoming whoever he's with**: Pete doesn't just date people; he becomes them. With Grande, he tattooed her brand onto his body. With [Kim Kardashian](/personality-analysis/Kim-Kardashian), he showed up in Skims underwear and bleached blonde hair. Jennifer Coolidge called him "one of the most unpredictable people I've ever met," adding, "You can't really get a take on him because he's like this chameleon."
+- **Becoming whoever he's with**: Pete doesn't just date people; he becomes them. With Grande, he tattooed her brand onto his body. With [Kim Kardashian](/personality-analysis/kim-kardashian), he showed up in Skims underwear and bleached blonde hair. Jennifer Coolidge called him "one of the most unpredictable people I've ever met," adding, "You can't really get a take on him because he's like this chameleon."
 - **The stranger in his own photos**: "I don't belong here." "I'm garbage." "I don't want to be this f---ing loser who just dates people." And to [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM): "Everybody's always like, 'Oh, that guy just has an I don't give a f--- attitude.' I'm like, no, I'm miserable. I want to be that dude too. I don't even know that guy. I look at pictures and I'm like, 'Who is this guy that everybody's talking about?' It's not me."
 - **People-pleasing as survival**: "It was like 25 years of people-pleasing and that's why I live," he told [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM). "We're people pleasers. 'Laugh at me, please.' Watch my movie. When I go outside, take a picture."
 - **The daily anesthetic**: Daily marijuana use from age 16 to 23 that eventually caused psychosis. Ketamine every day for four years. "Why would you not do it every day?" he told [Maron](https://www.youtube.com/watch?v=-M34WZSZA_M). "Why not?"
 - **Allergic to calm**: "I'm so afraid to be happy. Because it's uncomfortable," Pete told [Theo Von](https://www.youtube.com/watch?v=EmxcNhJSvzM). And to [Bernthal](https://www.youtube.com/watch?v=NxI92Mxpb1s): "It's weird being happy. I was at home the other day, and I was talking to my girl and my friends, and I was like, 'I feel weird. Like something's wrong.' And they're like, 'What?' I'm like, 'Nothing's wrong.'" He described crying on the floor of his new apartment because he couldn't get the TV to work: "I have everything and nothing. I have everything and nothing. And that's what it's like."
-- **The desire for peace**: His text to [Kanye](/personality-analysis/Kanye) during the Kardashian drama: "I want everything to be smooth." His decision to step back from Hollywood entirely: "I'm happy where I am right now, mentally."
+- **The desire for peace**: His text to [Kanye](/personality-analysis/kanye) during the Kardashian drama: "I want everything to be smooth." His decision to step back from Hollywood entirely: "I'm happy where I am right now, mentally."
 
 But the peacekeeping misses something.
 
@@ -176,7 +176,7 @@ Pete has an edge most Peacemakers don't carry. It's what lets his comedy turn sh
 
 Before Kanye, the edge had already surfaced in private. Pete told [Maron in 2017](https://www.youtube.com/watch?v=-M34WZSZA_M) about the blind rages that led to his BPD diagnosis, episodes where he would "freak out. Like, rage. Rage. Like stuff. And then not remember what happened after." His girlfriend at the time told him, "Something, you snapped." He described coming to after these episodes the way someone describes waking from a blackout, piecing things together from broken objects and fog.
 
-The Kanye timeline put this dynamic on a public stage. In early 2022, [Kanye](/personality-analysis/Kanye) spent months publicly harassing Pete over his relationship with Kim Kardashian. He released a song threatening to "beat Pete Davidson's ass." He dubbed Pete "Skete" on Instagram. He released an animated music video depicting himself kidnapping and burying a Pete-like figure.
+The Kanye timeline put this dynamic on a public stage. In early 2022, [Kanye](/personality-analysis/kanye) spent months publicly harassing Pete over his relationship with Kim Kardashian. He released a song threatening to "beat Pete Davidson's ass." He dubbed Pete "Skete" on Instagram. He released an animated music video depicting himself kidnapping and burying a Pete-like figure.
 
 Pete's initial response was pure Nine. He tried to make peace. He texted Kanye directly: "Yo it's Skete." He complimented Kim's parenting. He said he'd never get in the way of the children. He offered to hash things out "privately, one on one." He wrote: "I want everything to be smooth."
 
@@ -225,7 +225,7 @@ The rebuttal: 4s intensify feelings to build identity. Pete numbs his to escape 
 
 ## The Relationship Pattern
 
-The question everyone asks about Pete Davidson's dating life is "how?" How does this guy date [Ariana Grande](/personality-analysis/Ariana-Grande), Kate Beckinsale, and [Kim Kardashian](/personality-analysis/Kim-Kardashian)?
+The question everyone asks about Pete Davidson's dating life is "how?" How does this guy date [Ariana Grande](/personality-analysis/ariana-grande), Kate Beckinsale, and [Kim Kardashian](/personality-analysis/kim-kardashian)?
 
 Pete put it in perspective on [_Real Ones_](https://www.youtube.com/watch?v=NxI92Mxpb1s): "I've been in show business for half my life, almost like 14, 15 years, on a national TV show. And in 12 years I've dated like 10 people. I don't really think that's that crazy." He described meeting people at work, at "one of the five Hollywood epicenters where you meet people," and having no control over a paparazzi guy "trying to feed his family, trying to snag a pic."
 

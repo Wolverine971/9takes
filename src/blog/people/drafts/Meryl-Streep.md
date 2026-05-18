@@ -5,14 +5,14 @@ persona_title: "Hollywood's Devoted Shapeshifter"
 description: "Meryl Streep's Type 2 personality explains why the greatest actress alive built her genius on becoming other people."
 author: 'DJ Wayne'
 date: '2024-05-07'
-loc: 'https://9takes.com/personality-analysis/Meryl-Streep'
+loc: 'https://9takes.com/personality-analysis/meryl-streep'
 lastmod: '2026-03-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['movieStar', 'screen-icon']
-person: 'Meryl-Streep'
+person: 'meryl-streep'
 suggestions: ['Anne-Hathaway', 'Margot-Robbie', 'Oprah-Winfrey', 'Tom-Cruise']
 wikipedia: 'https://en.wikipedia.org/wiki/Meryl_Streep'
 twitter: ''
@@ -154,7 +154,7 @@ In the late 1970s, Streep auditioned for the lead in _King Kong_. Producer Dino 
 
 Streep replied in Italian: "I'm sorry I'm not beautiful enough to be in _King Kong_."
 
-The role went to Jessica Lange. Streep went on to become the most decorated actress in cinema history — though fellow Type 2 <a href="/personality-analysis/Margot-Robbie">Margot Robbie</a> might argue the approach has evolved since then.
+The role went to Jessica Lange. Streep went on to become the most decorated actress in cinema history — though fellow Type 2 <a href="/personality-analysis/margot-robbie">Margot Robbie</a> might argue the approach has evolved since then.
 
 But the incident reveals something about the engine underneath. For her role in _Sophie's Choice_, she learned Polish in two months. Director Alan Pakula noted: "She worked harder than anyone I've ever seen, as if her entire worth depended on getting every nuance perfect."
 
@@ -174,7 +174,7 @@ She abandoned Method acting permanently after that film.
 
 Think about what this means. The woman who can become _anyone_ — a Holocaust survivor, a prime minister, a violin teacher, a witch, a nun, a chef — could not sustain being cold. Warmth isn't just her preference. It's her operating system. Remove it and the whole machine breaks down.
 
-And yet — <a href="/personality-analysis/Anne-Hathaway">Anne Hathaway</a>, who played her assistant in the film, said: "I always felt cared for. I knew that whatever she was doing to create that fear, I appreciated it, because I also knew she was watching out for me."
+And yet — <a href="/personality-analysis/anne-hathaway">Anne Hathaway</a>, who played her assistant in the film, said: "I always felt cared for. I knew that whatever she was doing to create that fear, I appreciated it, because I also knew she was watching out for me."
 
 Even while performing cruelty, she was taking care of someone. She couldn't help it.
 

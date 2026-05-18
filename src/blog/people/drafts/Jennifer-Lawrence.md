@@ -5,14 +5,14 @@ persona_title: "Hollywood's Armored Sweetheart"
 description: "The woman famous for not caring was people-pleasing the entire time. Inside Jennifer Lawrence's counterphobic Type 6 personality."
 author: 'DJ Wayne'
 date: '2025-04-08'
-loc: 'https://9takes.com/personality-analysis/Jennifer-Lawrence'
+loc: 'https://9takes.com/personality-analysis/jennifer-lawrence'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['movieStar', 'screen-icon']
-person: 'Jennifer-Lawrence'
+person: 'jennifer-lawrence'
 suggestions: ['Timothee-Chalamet', 'Pedro-Pascal', 'Zendaya', 'Aubrey-Plaza']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Lawrence'
 twitter: ''
@@ -207,7 +207,7 @@ The woman who once seemed like the wildest person at every party was actually cr
 
 In November 2025, Lawrence revealed something that would have been unthinkable during her "I don't care what anyone thinks" era: she has a secret TikTok account where she gets into fights with strangers.
 
-It started with Real Housewives debates. Then the Kardashians. Then it "got really intense" when she began defending the British royal family. When co-star <a href="/personality-analysis/Robert-Pattinson">Robert Pattinson</a> pushed her on it, she admitted: "I guess I rage-bait on TikTok."
+It started with Real Housewives debates. Then the Kardashians. Then it "got really intense" when she began defending the British royal family. When co-star <a href="/personality-analysis/robert-pattinson">Robert Pattinson</a> pushed her on it, she admitted: "I guess I rage-bait on TikTok."
 
 This is the counterphobic Six in miniature. She withdrew from public engagement — stopped doing press she didn't have to, stopped sharing political opinions, stopped performing the "cool girl." But the need to engage, to test, to argue, to scan for threats didn't go away. It just went underground.
 

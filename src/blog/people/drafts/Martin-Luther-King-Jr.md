@@ -5,14 +5,14 @@ description: "Martin Luther King Jr. turned righteous anger, disciplined confron
 persona_title: 'The Pastor Who Weaponized Love'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Martin-Luther-King-Jr'
+loc: 'https://9takes.com/personality-analysis/martin-luther-king-jr'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['politician', 'movement-leader']
-person: 'Martin-Luther-King-Jr'
+person: 'martin-luther-king-jr'
 suggestions:
   ['Barack-Obama', 'Malcolm-X', 'Winston-Churchill', 'Alexandria-Ocasio-Cortez', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.'

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Self-Made Shield"
 description: "A 13-year-old built an intellectual fortress because seriousness was the only thing that kept her safe. The armor worked. Until it didn't."
 author: 'DJ Wayne'
 date: '2025-03-26'
-loc: 'https://9takes.com/personality-analysis/Natalie-Portman'
+loc: 'https://9takes.com/personality-analysis/natalie-portman'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
 type: ['movieStar', 'screen-icon']
-person: 'Natalie-Portman'
+person: 'natalie-portman'
 suggestions: ['Emma-Watson', 'Blake-Lively', 'Margot-Robbie', 'Gwyneth-Paltrow']
 wikipedia: 'https://en.wikipedia.org/wiki/Natalie_Portman'
 twitter: 'natalieportman'
@@ -62,7 +62,7 @@ Neta-Lee Hershlag was born in Jerusalem in 1981 to an Israeli father — a ferti
 
 Her childhood, by most accounts, was stable. Her parents were present, involved, demanding in the way that immigrant families often are: education was non-negotiable, discipline was assumed, and the expectation of excellence was baked into the atmosphere rather than announced.
 
-She went vegetarian at nine years old. Not because her parents told her to. Because she watched a demonstration of laser surgery on a chicken at a medical conference her father took her to, and decided she couldn't participate in a system that caused that kind of suffering. She was nine — the same age <a href="/personality-analysis/Emma-Watson">Emma Watson</a> was when she first played Hermione Granger, another child who would build a public identity around intellectual seriousness. Most nine-year-olds are negotiating bedtimes. Portman was making moral commitments she'd keep for decades.
+She went vegetarian at nine years old. Not because her parents told her to. Because she watched a demonstration of laser surgery on a chicken at a medical conference her father took her to, and decided she couldn't participate in a system that caused that kind of suffering. She was nine — the same age <a href="/personality-analysis/emma-watson">Emma Watson</a> was when she first played Hermione Granger, another child who would build a public identity around intellectual seriousness. Most nine-year-olds are negotiating bedtimes. Portman was making moral commitments she'd keep for decades.
 
 That early instinct — see a wrong, feel the wrongness in your body, reorganize your life around correcting it — would define everything that followed.
 
@@ -74,7 +74,7 @@ She was discovered at a pizza parlor at age ten by a Revlon scout. By eleven, Lu
 
 She returned to school in seventh grade and was shunned: "I cried every single day when I came back from shooting. My friends were not my friends and were saying things like 'She thinks she's so hot now.'" During adolescence, she's admitted to "locking myself in the bathroom, threatening to kill myself — being so mean to my mom and fighting with her."
 
-"Obviously, there was a long Lolita phase," Portman told <a href="/personality-analysis/Jenna-Ortega">Jenna Ortega</a> in a 2025 Interview Magazine conversation, with the matter-of-fact tone of someone who has processed trauma into data. "As a kid, I was really sexualized, which I think happens to a lot of young girls who are onscreen. I felt very scared by it."
+"Obviously, there was a long Lolita phase," Portman told <a href="/personality-analysis/jenna-ortega">Jenna Ortega</a> in a 2025 Interview Magazine conversation, with the matter-of-fact tone of someone who has processed trauma into data. "As a kid, I was really sexualized, which I think happens to a lot of young girls who are onscreen. I felt very scared by it."
 
 Scared. Not angry, not outraged — scared. The distinction matters. Anger fights back. Fear constructs.
 
@@ -207,7 +207,7 @@ But here's what's remarkable about Portman's response: she didn't just retreat i
 
 "It's terrible, and I have no desire to contribute to it," she told Vanity Fair when asked about the media coverage of her divorce. One sentence. No performance of suffering, no curated statement, no spin. Just a boundary stated with quiet clarity.
 
-But look at what she did next. She moved to Paris — away from the Hollywood machine she'd spent three decades navigating. She doubled down on her production company MountainA, producing _May December_ with Todd Haynes and the Apple TV+ series _Lady in the Lake_. And her upcoming roles shifted in a direction that would have been unthinkable a decade earlier: a Lena Dunham rom-com called _Good Sex_ where she plays a couples therapist re-entering the NYC dating scene in her forties, and a dark comedy thriller with <a href="/personality-analysis/Jenna-Ortega">Jenna Ortega</a> about scheming at Art Basel Miami.
+But look at what she did next. She moved to Paris — away from the Hollywood machine she'd spent three decades navigating. She doubled down on her production company MountainA, producing _May December_ with Todd Haynes and the Apple TV+ series _Lady in the Lake_. And her upcoming roles shifted in a direction that would have been unthinkable a decade earlier: a Lena Dunham rom-com called _Good Sex_ where she plays a couples therapist re-entering the NYC dating scene in her forties, and a dark comedy thriller with <a href="/personality-analysis/jenna-ortega">Jenna Ortega</a> about scheming at Art Basel Miami.
 
 The older version of her would have retreated further into principle. This version reached for play. Her post-divorce filmography reads like someone who finally gave herself permission to choose roles for pleasure instead of proving something.
 

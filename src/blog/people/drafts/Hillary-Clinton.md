@@ -5,14 +5,14 @@ description: 'Hillary Clinton lost the presidency and gave a concession speech a
 persona_title: "Politics' Iron Administrator"
 author: 'DJ Wayne'
 date: '2024-09-12'
-loc: 'https://9takes.com/personality-analysis/Hillary-Clinton'
+loc: 'https://9takes.com/personality-analysis/hillary-clinton'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['politician', 'campaign-politician']
-person: 'Hillary-Clinton'
+person: 'hillary-clinton'
 suggestions:
   ['Bill-Clinton', 'Donald-Trump', 'Barack-Obama', 'Joe-Biden', 'Bernie-Sanders', 'Kamala-Harris']
 wikipedia: 'https://en.wikipedia.org/wiki/Hillary_Clinton'
@@ -147,7 +147,7 @@ Most people forget that Hillary Clinton was once a conservative Republican.
 
 In 1964, teenage Hillary was a "Goldwater Girl, right down to my cowgirl outfit and straw cowboy hat emblazoned with the slogan 'AuH20.'" She was president of the Young Republicans Club at Wellesley her freshman year, echoing her father's worldview.
 
-Two influences started the rewiring. Her Methodist youth minister Donald Jones brought her to a 1962 sermon by Dr. [Martin Luther King Jr.](/personality-analysis/Martin-Luther-King-Jr) at Chicago's Orchestra Hall, then took her backstage to shake his hand. She wrote to a high school friend afterward: "**I'm a heart liberal, but a mind conservative.**"
+Two influences started the rewiring. Her Methodist youth minister Donald Jones brought her to a 1962 sermon by Dr. [Martin Luther King Jr.](/personality-analysis/martin-luther-king-jr) at Chicago's Orchestra Hall, then took her backstage to shake his hand. She wrote to a high school friend afterward: "**I'm a heart liberal, but a mind conservative.**"
 
 By Wellesley graduation, she had stepped down from her GOP campus post over civil rights and Vietnam. The 1968 Republican Convention in Miami Beach — which she attended and described as carrying "veiled" racist messages — finished the break. At commencement, she became the first student speaker in the school's history and earned a seven-minute standing ovation: "**We are, all of us, exploring a world that none of us understands.**"
 
@@ -199,7 +199,7 @@ Twenty-five years later, "women's rights are human rights" is still in circulati
 
 ## The Marriage That Endured
 
-Hillary's marriage to [Bill Clinton](/personality-analysis/Bill-Clinton) is probably the most scrutinized relationship in American political history. They met at Yale Law School and married on October 11, 1975. Bill's mother cried at the wedding because Hillary refused to take his last name. (She would adopt "Clinton" only after his 1980 gubernatorial loss in Arkansas, after pollsters told them voters there resented the maiden name.)
+Hillary's marriage to [Bill Clinton](/personality-analysis/bill-clinton) is probably the most scrutinized relationship in American political history. They met at Yale Law School and married on October 11, 1975. Bill's mother cried at the wedding because Hillary refused to take his last name. (She would adopt "Clinton" only after his 1980 gubernatorial loss in Arkansas, after pollsters told them voters there resented the maiden name.)
 
 Asked about staying after the Monica Lewinsky scandal, Hillary said: "**I think the gutsiest thing I've ever done, well, personally, is make the decision to stay in my marriage.**"
 
@@ -283,7 +283,7 @@ Hillary reads as social-dominant with self-preservation second — the so/sp <a 
 
 The sp tertiary is the inner critic — the relentless self-examination she names in *What Happened*: "I go back over my own shortcomings and the mistakes we made." That's sp-1's anxious self-correction. It also produces the camera-stiff Hillary friends say bears no resemblance to the off-camera one: sp's reserve plus 1's editor, with no sx looseness to override either.
 
-Sx is weakest. Hillary doesn't crusade by personal magnetism the way an sx-1 ([Greta Thunberg](/personality-analysis/Greta-Thunberg) is the cleaner example) would. She organizes coalitions and writes legislation.
+Sx is weakest. Hillary doesn't crusade by personal magnetism the way an sx-1 ([Greta Thunberg](/personality-analysis/greta-thunberg) is the cleaner example) would. She organizes coalitions and writes legislation.
 
 ### Stress and Growth Arrows
 
@@ -304,7 +304,7 @@ The other alternate-core case is **Type 8** (Challenger): the 11-hour Benghazi c
 
 ## Why Hillary Gave the Concession Speech Anyway
 
-Election night 2016 was supposed to end at the Javits Convention Center in Manhattan, beneath a symbolic glass ceiling. Instead, it ended with a private phone call to [Donald Trump](/personality-analysis/Donald-Trump) in the early morning hours.
+Election night 2016 was supposed to end at the Javits Convention Center in Manhattan, beneath a symbolic glass ceiling. Instead, it ended with a private phone call to [Donald Trump](/personality-analysis/donald-trump) in the early morning hours.
 
 The next morning, Hillary did the Type 1 thing. She got up and gave a concession speech.
 
@@ -324,7 +324,7 @@ The cost of doing the right thing the first time is that you watch someone else 
 
 Hillary did not retreat after 2016. She pivoted.
 
-She joined Columbia University's School of International and Public Affairs as a professor in 2023, co-teaching "Inside the Situation Room" — what it was like to advise [Barack Obama](/personality-analysis/Barack-Obama) the night of the bin Laden raid, what it was like to sit across from [Vladimir Putin](/personality-analysis/Vladimir-Putin) in a Moscow bunker. She became the first woman to serve as Chancellor of Queen's University Belfast. She wrote *Something Lost, Something Gained* in 2024, taking the title from Joni Mitchell's "Both Sides Now" — a song she said she finally understood at 76 in a way she hadn't at 26.
+She joined Columbia University's School of International and Public Affairs as a professor in 2023, co-teaching "Inside the Situation Room" — what it was like to advise [Barack Obama](/personality-analysis/barack-obama) the night of the bin Laden raid, what it was like to sit across from [Vladimir Putin](/personality-analysis/vladimir-putin) in a Moscow bunker. She became the first woman to serve as Chancellor of Queen's University Belfast. She wrote *Something Lost, Something Gained* in 2024, taking the title from Joni Mitchell's "Both Sides Now" — a song she said she finally understood at 76 in a way she hadn't at 26.
 
 The quieter pivot was the podcast. "You and Me Both" — Judy Blume one week, Hakeem Jeffries the next, Megan Rapinoe the week after. Huma Abedin once described a Hillary the campaigns never managed to show: "**Contrary to popular belief, Hillary Clinton is one of the most fun people to be around. She has a great sense of humor, and she's very curious about people.**" The podcast is where that Hillary turns up. Off-camera Hillary, on-air for an hour at a time.
 

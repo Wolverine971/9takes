@@ -5,14 +5,14 @@ persona_title: "Podcasting's Unfiltered Queen"
 description: 'A psychological read of Alex Cooper. See how Enneagram Type 7 drives her reinventions, from Call Her Daddy to The Unwell Network and beyond.'
 author: 'DJ Wayne'
 date: '2023-08-29'
-loc: 'https://9takes.com/personality-analysis/Alex-Cooper'
+loc: 'https://9takes.com/personality-analysis/alex-cooper'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['creator', 'podcaster']
-person: 'Alex-Cooper'
+person: 'alex-cooper'
 suggestions: ['Alix-Earle', 'Bobbi-Althoff', 'Emma-Chamberlain', 'Brittany-Broski']
 wikipedia: 'https://en.wikipedia.org/wiki/Call_Her_Daddy'
 twitter: 'alexandracooper'
@@ -170,9 +170,9 @@ By 2021, "Call Her Daddy" had left Barstool for Spotify. The show shifted from s
 
 ## How She Gets Them to Talk
 
-How does Alex Cooper get <a href="/personality-analysis/Hailey-Bieber">Hailey Bieber</a> to address the Selena Gomez timeline controversy for the first and only time? How does she get <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a> to reveal she was attracted to women before men, something she hadn't shared anywhere else?
+How does Alex Cooper get <a href="/personality-analysis/hailey-bieber">Hailey Bieber</a> to address the Selena Gomez timeline controversy for the first and only time? How does she get <a href="/personality-analysis/miley-cyrus">Miley Cyrus</a> to reveal she was attracted to women before men, something she hadn't shared anywhere else?
 
-If you listen to a 2025 episode, the show that launched on sex tips now sounds closer to a therapy session in sweats. Cooper sits cross-legged, lets silences breathe, and goes off-script deliberately. The Cyrus confession happened mid-tangent, not in response to a prepared question. When [Chappell Roan](/personality-analysis/Chappell-Roan) opened up about fan boundaries and sexuality for over an hour, the episode won a GLAAD Media Award.
+If you listen to a 2025 episode, the show that launched on sex tips now sounds closer to a therapy session in sweats. Cooper sits cross-legged, lets silences breathe, and goes off-script deliberately. The Cyrus confession happened mid-tangent, not in response to a prepared question. When [Chappell Roan](/personality-analysis/chappell-roan) opened up about fan boundaries and sexuality for over an hour, the episode won a GLAAD Media Award.
 
 Three techniques make it work. She follows emotional flow over scripted structure. She leaves room for mess instead of rushing to clean up oversharing. And she protects her guests in the edit, telling them: "This is going to make you look really bad, and I'm going to choose to believe you didn't mean to say that."
 
@@ -180,7 +180,7 @@ That protection creates trust. Trust creates confessions.
 
 She also deliberately avoids being photographed socializing with celebrities. She told Dax Shepard she built a "bubble." If people see her with famous people, they'll assume she's "fame hungry." She can't make people confess on air if they think she's collecting famous friends offstage.
 
-The clearest proof: in October 2024, Vice President <a href="/personality-analysis/Kamala-Harris">Kamala Harris</a> chose Cooper's microphone for a 40-minute conversation about reproductive rights. Cooper lost roughly 5,000 Instagram followers overnight. For a woman whose childhood terror was rejection, she watched the number drop and called it "totally worth it."
+The clearest proof: in October 2024, Vice President <a href="/personality-analysis/kamala-harris">Kamala Harris</a> chose Cooper's microphone for a 40-minute conversation about reproductive rights. Cooper lost roughly 5,000 Instagram followers overnight. For a woman whose childhood terror was rejection, she watched the number drop and called it "totally worth it."
 
 ## What They Actually Get From Her
 
@@ -218,7 +218,7 @@ After the SiriusXM deal, Alex bought her parents a house in Los Angeles, a New E
 
 ## When the Pattern Repeats
 
-The Sofia split is well-documented. The [Alix Earle](/personality-analysis/Alix-Earle) split is still unfolding.
+The Sofia split is well-documented. The [Alix Earle](/personality-analysis/alix-earle) split is still unfolding.
 
 Earle signed with The Unwell Network in September 2023. Cooper praised her publicly: "She's a beast. She has a work ethic that I've never seen." But the structure mattered more than the compliments—under the SiriusXM deal, Earle's compensation flowed through Cooper. By early 2025, Earle's podcast had dropped from the network. Insiders said Earle "felt taken advantage of." When a fan asked Earle what happened with Alex Cooper, her response: "How much time do you have?"
 

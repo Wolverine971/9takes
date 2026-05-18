@@ -5,14 +5,14 @@ persona_title: "Music's Effortless Machine"
 description: "Bruno Mars looks like the easiest thing in the world. His producer says otherwise. Inside the private anxiety behind pop's most spectacular performer."
 author: 'DJ Wayne'
 date: '2026-04-13'
-loc: 'https://9takes.com/personality-analysis/Bruno-Mars'
+loc: 'https://9takes.com/personality-analysis/bruno-mars'
 lastmod: '2026-04-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['musician']
-person: 'Bruno-Mars'
+person: 'bruno-mars'
 suggestions: ['Taylor-Swift', 'Drake', 'Jennifer-Lopez', 'Justin-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Bruno_Mars'
 twitter: ''

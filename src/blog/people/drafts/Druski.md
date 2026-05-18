@@ -5,14 +5,14 @@ description: "How Druski turned Netflix rejection into a $14M empire. Inside the
 persona_title: "Comedy's Self-Appointed CEO"
 author: 'DJ Wayne'
 date: '2025-03-26'
-loc: 'https://9takes.com/personality-analysis/Druski'
+loc: 'https://9takes.com/personality-analysis/druski'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['comedian', 'creator', 'viral-entertainer', 'internet-comic']
-person: 'Druski'
+person: 'druski'
 suggestions: ['Kai-Cenat', 'IShowSpeed', 'Kevin-Hart', 'Theo-Von']
 wikipedia: 'https://en.wikipedia.org/wiki/Druski'
 twitter: 'drulogang'
@@ -34,7 +34,7 @@ content_quality:
 
 <p class="firstLetter">If Druski was standing in front of you right now, you would feel small.</p>
 
-Not because Drew Desbordes is physically imposing, but because his presence fills whatever room he enters. There's a gravitational pull to the 31-year-old comedian that makes you understand why Drake, <a href="/personality-analysis/Justin-Bieber">Justin Bieber</a>, and <a href="/personality-analysis/Timothee-Chalamet">Timothée Chalamet</a> keep showing up in his orbit.
+Not because Drew Desbordes is physically imposing, but because his presence fills whatever room he enters. There's a gravitational pull to the 31-year-old comedian that makes you understand why Drake, <a href="/personality-analysis/justin-bieber">Justin Bieber</a>, and <a href="/personality-analysis/timothee-chalamet">Timothée Chalamet</a> keep showing up in his orbit.
 
 He has big energy. He has a big presence. He might come off as intimidating.
 
@@ -61,7 +61,7 @@ Druski doesn't just play a boss on social media. He _carries_ himself like one e
 
 He's funnier than you. He's self-deprecating because he's secure in himself. He isn't defensive because he isn't intimidated. He dissolves tension with humor. And make no mistake, he's usually in control.
 
-Remember when <a href="/personality-analysis/Drake">Drake</a> invited him to film the "Laugh Now Cry Later" video at Nike headquarters? Instead of being starstruck, Druski spent the day "walking around talking to people like I was the CEO." He wasn't performing confidence for the camera. Nike employees just encountered a guy who acted like the building was already his.
+Remember when <a href="/personality-analysis/drake">Drake</a> invited him to film the "Laugh Now Cry Later" video at Nike headquarters? Instead of being starstruck, Druski spent the day "walking around talking to people like I was the CEO." He wasn't performing confidence for the camera. Nike employees just encountered a guy who acted like the building was already his.
 
 His "Coulda Been Records" character works precisely because it taps into that natural confidence. As the mock label CEO, he can hilariously roast aspiring "artists" with the brutal honesty of someone who feels completely entitled to judge others.
 
@@ -139,7 +139,7 @@ The defense lane is well-staffed. Clare Corbould, a historian at Deakin Universi
 
 The harder question is the one the punch-up framing doesn't answer. Druski's strongest character work — Coulda Been Records, the corporate-CEO bit, the frat-boy Kyle Rogger — is character-specific. The targets are individuals with recognizable behaviors. The whiteface sketches trade specificity for a type: "NASCAR fan," "conservative woman." That's the move a critic who actually likes Druski's comedy, like Boston College's _The Heights_ in "When Satire Hits a Nerve," presses on. Caricature is a different tool than character. The bit works on volume, not precision.
 
-Druski hasn't engaged any of it. After the NASCAR backlash he posted a video of himself walking through a corporate building smoking a cigarette to James Brown's "It's a Man's Man's Man's World." After the Erika Kirk skit, he doubled down. <a href="/personality-analysis/Theo-Von">Theo Von</a>'s "I feel a jheri curl coming on" got the same treatment as Cruz's "beneath contempt": no answer, more content.
+Druski hasn't engaged any of it. After the NASCAR backlash he posted a video of himself walking through a corporate building smoking a cigarette to James Brown's "It's a Man's Man's Man's World." After the Erika Kirk skit, he doubled down. <a href="/personality-analysis/theo-von">Theo Von</a>'s "I feel a jheri curl coming on" got the same treatment as Cruz's "beneath contempt": no answer, more content.
 
 For a Type 8, the silence is structurally consistent — Challengers read engaging the critic as conceding ground. Billboard called the no-apology stance "the acid test for comedians." Pass it and the audience that came for the boldness stays. Apologize and they leave.
 
@@ -149,7 +149,7 @@ The compression cycle is real. NASCAR was September. Erika Kirk was six months l
 
 ## The Mafiathon Stream and the Apology That Wouldn't Land
 
-In November 2024, during <a href="/personality-analysis/Kai-Cenat">Kai Cenat</a>'s "Mafiathon 2" Thanksgiving stream on Twitch, Druski repeatedly called a 9-year-old child actor "fat." The kid started crying. Cenat got up and went to console him. Druski hugged the boy and apologized in the moment.
+In November 2024, during <a href="/personality-analysis/kai-cenat">Kai Cenat</a>'s "Mafiathon 2" Thanksgiving stream on Twitch, Druski repeatedly called a 9-year-old child actor "fat." The kid started crying. Cenat got up and went to console him. Druski hugged the boy and apologized in the moment.
 
 Then the boy's mother went on TikTok.
 
@@ -203,7 +203,7 @@ The results speak for themselves:
 - **Coulda Been Love**: 80 million views across seven episodes (11.4M average per episode)
 - **Coulda Been House Season 2**: Features Lil Baby, Rick Ross, Kevin Hart, Lil Yachty, and more
 
-Druski studies Adam Sandler's "Happy Madison" model and <a href="/personality-analysis/Kevin-Hart">Kevin Hart</a>'s "HARTBEAT" blueprint. But he's taking a different route: financing and self-funding his own projects, earning online, touring offline, investing where he controls risk and reward.
+Druski studies Adam Sandler's "Happy Madison" model and <a href="/personality-analysis/kevin-hart">Kevin Hart</a>'s "HARTBEAT" blueprint. But he's taking a different route: financing and self-funding his own projects, earning online, touring offline, investing where he controls risk and reward.
 
 His entertainment company, 4Lifers Entertainment, now has a feature film in development called _The Diggers_. The streaming giants refused to give him a platform. He built the platform, then made the platform profitable enough to fund a film.
 
@@ -223,7 +223,7 @@ The comedian who filmed his first skits in his mother's living room is now the o
 
 The evidence:
 
-**Dunkin' "DunKings 2" Super Bowl Campaign**: A two-minute mini-film alongside [Ben Affleck](/personality-analysis/Ben-Affleck) and Jeremy Strong, one of the year's most-watched ads.
+**Dunkin' "DunKings 2" Super Bowl Campaign**: A two-minute mini-film alongside [Ben Affleck](/personality-analysis/ben-affleck) and Jeremy Strong, one of the year's most-watched ads.
 
 **Justin Bieber's SWAG Album**: Bieber asked Druski, "Why wouldn't you be my therapist?" The comedian appeared on three tracks, serving as a "therapist" figure punctuating the R&B-forward album. Bieber knew Druski's "sprawling reach and range made him a perfect partner" for his mature new chapter.
 

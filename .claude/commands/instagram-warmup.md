@@ -102,15 +102,23 @@ When you recover from a stale state, append one line to today's warmup doc under
 
 ## Command Boundary
 
-`/instagram-warmup` is **Stage 1 only**:
+`/instagram-warmup` is **Stage 1 only**, but it runs **two parallel filters** on every post the agent scrolls past:
+
+- **Filter A — Engagement:** Should we comment / amplify / build relationship here? Hits go to the reply queue for `/instagram-reply`.
+- **Filter B — Save:** Is this post a pattern worth building 9takes content off of? Hits get a save file written to `docs/instagram/saves/inbox/` (Phase 7 below).
+
+A post can hit one filter, both filters, or neither. The two filters are independent — do not skip Filter B just because a post failed Filter A (a popular creator's post buried under 800 comments might be a perfect content pattern even though commenting there is dead).
+
+Stage 1 responsibilities:
 
 1. Check notifications, stories, feed, profiles, hashtags, and explore.
-2. Identify strong engagement opportunities.
+2. Run both filters on every promising post.
 3. Look up account history and relationship context.
 4. Create or update the account profile when needed.
-5. Queue the best opportunities for `/instagram-reply`.
+5. Queue the best engagement opportunities for `/instagram-reply`.
+6. Write up to `max_saves_per_warmup` save files into `docs/instagram/saves/inbox/`.
 
-Do not draft final comments here.
+Do not draft final comments here. Do not like, save (in IG), follow, or DM during this command — saves are written as local Markdown files only.
 
 ---
 
@@ -243,6 +251,39 @@ For each selected comment, capture in the warmup doc:
 
 ---
 
+## Save Bar (Filter B — feeds `docs/instagram/saves/inbox/`)
+
+A post is **save-worthy** (distinct from engagement-worthy) when at least **two** of these signals are clearly present:
+
+| Signal                                | What it means                                                                                                  |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Pattern is named, not vibed           | Post identifies a specific behavioral pattern, framing trick, or format heuristic — not a feeling or aesthetic |
+| Format is replicable                  | The structure (hook → turn → CTA, carousel skeleton, reel beat) can be remixed into 9takes voice next week     |
+| Bridges to existing 9takes content    | Pattern maps cleanly to a published blog, person analysis, or Enneagram corner piece without forcing it        |
+| Counter-signal available              | You can name what would falsify the claim — meaning it's a real take, not a generic truism                     |
+
+**Hard skip — never write a save file for:**
+
+- Mental-health diagnosis content.
+- Sponsored or ad-like content.
+- Heavy IP reuse (quote-dump carousels, screenshot compilations of someone else's tweets).
+- Political fights.
+- Pure aesthetic with no extractable mechanic.
+
+**Cap:** `max_saves_per_warmup` from `.local/config.json` (default 3). If more than the cap qualify, keep the highest-signal ones and list the rest under "Saves Held" in the warmup doc with shortcode + one-line reason, so DJ can manually bookmark them on IG if he wants.
+
+**Filter A vs Filter B — worked examples:**
+
+| Post                                                         | Filter A | Filter B | Why                                                              |
+| ------------------------------------------------------------ | -------- | -------- | ---------------------------------------------------------------- |
+| Peer (5k followers) just posted a Type 5 reel, 8 comments    | hit      | hit      | Comment-worthy and replicable format                             |
+| Big creator (300k), 800 comments, sharp pattern read         | skip     | hit      | Engagement is buried; pattern is gold                            |
+| Rising peer's coffee aesthetic carousel, no pattern          | hit      | skip     | Worth a relationship-building comment, nothing to remix          |
+| Random meme account, 2k likes, no audience overlap           | skip     | skip     | Nothing to do                                                    |
+| Therapy account giving DSM-style diagnoses                   | maybe    | skip     | Hard-skip on Filter B regardless of A                            |
+
+The save bar is **stricter** than the engagement bar. When in doubt, skip the save. Triage is the cleanup step, but the saves engine works best when `inbox/` only contains posts you'd actually want to remix.
+
 ## Daily Workflow
 
 ## Phase 0: Create Today’s Warmup Doc
@@ -356,6 +397,72 @@ Score using these factors:
 High-comment posts (100+) should not be dropped for comment competition alone. Re-score them as `comment-level` opportunities — they can be high-value even on a buried post, because you are amplifying existing voices, not competing with them.
 
 Select the top 5-7 opportunities for the reply queue. Mix modes: aim for a blend of `post` and `comment-level` items rather than loading the queue with only one mode.
+
+## Phase 7: Capture Save Candidates (Filter B output)
+
+Run this in parallel with Phases 2–6 as you scroll. Do not treat it as a separate browsing pass — by the time you finish prioritizing the reply queue, you should already know which posts also cleared the Save Bar.
+
+### Pre-flight for Phase 7
+
+1. Confirm `docs/instagram/saves/inbox/`, `processed/`, `rejected/`, and `templates/save.md` all exist. If any are missing, skip Phase 7 and log `phase7_skipped: saves_engine_not_initialized` in the warmup doc's Browser Notes section.
+2. Read `docs/instagram/saves/.local/config.json`. Use `max_saves_per_warmup` (default 3 if absent) as the cap.
+
+### Steps
+
+For each post that cleared the Save Bar during the main scan:
+
+1. **Extract the shortcode.** From `https://www.instagram.com/p/<code>/` or `/reel/<code>/` or `/tv/<code>/`, the shortcode is the value between the type segment and the next `/`.
+2. **Dedupe.** Search `docs/instagram/saves/{inbox,processed,rejected}/` for any filename containing that shortcode. If a match exists, skip and note `(deduped: already in <folder>)` in the Saves Captured table.
+3. **Write the save file.** Copy `docs/instagram/saves/templates/save.md` to `docs/instagram/saves/inbox/YYYY-MM-DD_<shortcode>.md`. Fill frontmatter:
+   - `id: 'ig_<shortcode>'`
+   - `status: 'new'`
+   - `source: 'instagram'`
+   - `capture_method: 'warmup_assisted'` ← **must be this exact value** so triage can audit agent-curated saves
+   - `captured_at:` ISO 8601 with timezone from config
+   - `post_url:` canonical URL
+   - `shortcode:` the extracted code
+   - `author_handle:` `@handle`
+   - `collection: 'warmup_inline'` (these did not come from a real IG collection)
+   - `content_type:` `post` / `reel` / `carousel` / `tv`
+   - `pillar_guess:` your best guess at which 9takes content pillar this maps to
+   - `risk_level:` `normal` / `caution` / `skip` — set to `caution` if the post borders on a hard-skip category but you decided it was still save-worthy
+4. **Fill in "Original Context"** with the caption (quote exact text when you can), visible on-screen text, audio/visual notes, and one line on *why* you saved it. Be specific — "great reel" is useless to future triage.
+5. **Fill in "9takes Opportunity"** with: pattern observed (one sentence), audience this lands with, possible format, and any blog/person tie-in.
+6. **Leave "Processing Notes"** empty except `Deduped against:` (which folders you checked).
+7. **Append to the Saves Captured table** in the warmup doc.
+8. **Stop when you hit `max_saves_per_warmup`.** If more posts qualified, list the rest in "Saves Held" with shortcode + one-line reason.
+
+### What does NOT trigger Phase 7
+
+- Posts that cleared only Filter A (engagement) but not Filter B (save bar).
+- Posts you already replied to or are *about* to reply to. Filter B is about the post's content as a pattern, not the relationship.
+- Anything in the hard-skip list above, even if the rest of the post is interesting.
+
+### Phase 7 Logging
+
+After Phase 7 completes, append a brief block to today's warmup doc:
+
+```markdown
+## Saves Captured
+
+| #   | Shortcode | Author    | Why saved (one line)            | File                                              |
+| --- | --------- | --------- | ------------------------------- | ------------------------------------------------- |
+| 1   | ABCxyz    | @handle   | Falsifiable claim about avoiders | docs/instagram/saves/inbox/2026-05-18_ABCxyz.md |
+
+## Saves Held (over cap)
+
+| Shortcode | Author  | Why held                                                  |
+| --------- | ------- | --------------------------------------------------------- |
+| DEFuvw    | @other  | Cap reached. Replicable carousel format if you want it.   |
+
+## Saves Skipped (hard-skip rules)
+
+| Shortcode | Author  | Reason                          |
+| --------- | ------- | ------------------------------- |
+| GHIrst    | @other  | DSM-style diagnosis content.    |
+```
+
+Only include "Saves Held" and "Saves Skipped" sections when they have content.
 
 ---
 
@@ -561,31 +668,47 @@ Queued opportunities: [count]
 Profiles created: [count]
 Profiles updated: [count]
 New accounts discovered: [count]
+Saves dropped to inbox/: [count]   ← Phase 7 output
+Saves held (over cap): [count]
+Saves skipped (hard-skip): [count]
 
-Top priorities:
+Top reply priorities:
 1. @[handle] - [topic]
 2. @[handle] - [topic]
 3. @[handle] - [topic]
 
-Next step: /instagram-reply [warmup path]
+Top saves:
+1. <shortcode> @[handle] - [one-line pattern]
+2. <shortcode> @[handle] - [one-line pattern]
+
+Next steps:
+- /instagram-reply [warmup path]    (engagement path)
+- /instagram-saves triage           (content-remix path; only if saves dropped > 0)
 
 Warmup doc: docs/instagram/daily-engagement/[filename]
 ```
+
+If Phase 7 produced zero saves, omit the "Top saves" block and the `/instagram-saves triage` next-step line. Don't print empty sections.
 
 ---
 
 ## Workflow Map
 
 ```text
-/instagram-warmup -> Research, account intel, queue opportunities
-/instagram-reply -> Draft replies and update execution history
-/distribute-instagram -> Build publishing assets for a specific blog post
+/instagram-warmup       -> Research + engagement queue + Filter-B save drops
+/instagram-reply        -> Draft replies and update execution history
+/instagram-saves triage -> Score warmup-dropped saves; promote or reject
+/instagram-saves ideate -> Turn processed saves into content ideas
+/instagram-saves assets -> Build publish-ready asset packs
+/distribute-instagram   -> Build publishing assets for a specific blog post
 ```
 
-**Use `/instagram-warmup` when:** You want to scan Instagram, update relationship memory, and decide where to engage.
+**Use `/instagram-warmup` when:** You want a single browser sweep that produces both an engagement queue and a fresh batch of save candidates.
 
 **Use `/instagram-reply` when:** You already have a warmup doc and want to draft replies for the queued opportunities without losing account context.
 
+**Use `/instagram-saves triage` when:** Today's warmup dropped saves into `inbox/` (or you bookmarked things manually and ran `/instagram-saves capture`).
+
 ---
 
-_Last Updated: 2026-04-19 (v3 — comment-level engagement mode for high-comment posts)_
+_Last Updated: 2026-05-18 (v4 — Phase 7 Filter-B save bar; warmup now feeds docs/instagram/saves/inbox/)_

@@ -5,14 +5,14 @@ persona_title: "Gaming's Anxious Hype-Man"
 description: "Ninja built the most-watched career in streaming on hypervigilance. So why did his wife have to schedule the dermatologist appointment that caught his cancer?"
 author: 'DJ Wayne'
 date: '2026-05-03'
-loc: 'https://9takes.com/personality-analysis/Ninja'
+loc: 'https://9takes.com/personality-analysis/ninja'
 lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['creator', 'celebrity', 'celebrity-image']
-person: 'Ninja'
+person: 'ninja'
 suggestions: ['Pokimane', 'xQc', 'Kai-Cenat', 'iShowSpeed']
 wikipedia: 'https://en.wikipedia.org/wiki/Ninja_(gamer)'
 twitter: 'https://twitter.com/Ninja'
@@ -175,7 +175,7 @@ What happened next is the most Six response possible. He did not retreat. He did
 
 In September 2022, mid-stream with SypherPK, frustrated with rift-spamming in *Fortnite*, Tyler said: _"Guys, I'm done. I'm done streaming. I don't know when I'm going to be live and I don't know where I'm going to be live. But I gotta get off, man."_ Hours later, he tweeted: _"I just need a break...I don't know when I will be back, or where."_ Eight days later, he came back, simulcasting on six platforms.
 
-Two industry voices on record called it staged. [xQc](/personality-analysis/xQc), watching live: _"I think he's acting."_ Esports reporter Jacob Wolf: _"an obvious and disgusting use of mental health and burnout signs as a marketing ploy."_
+Two industry voices on record called it staged. [xQc](/personality-analysis/xqc), watching live: _"I think he's acting."_ Esports reporter Jacob Wolf: _"an obvious and disgusting use of mental health and burnout signs as a marketing ploy."_
 
 Both reads can be right at once, and that is the more interesting answer. The frustration was real. The eight-day return on six platforms was strategic. Sixes don't fake burnout cold; they wait until burnout starts to look like a positioning risk and then announce it in a way that doubles as a hedge. The walk-off told the audience the hours were costing him; the simulcast return told sponsors the costs weren't going to bench him. Burnout, but on-message. The [stress-arrow Three](/enneagram-corner/enneagram-types-in-stress) shows up exactly here: image management as the response to image risk.
 

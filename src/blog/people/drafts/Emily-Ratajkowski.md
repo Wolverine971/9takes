@@ -5,14 +5,14 @@ persona_title: 'The Intellectual Provocateur'
 description: 'Inside EmRata''s Type 8 mind: from art-world childhood to confronting power. Why she''s "aggressive" toward powerful men.'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Emily-Ratajkowski'
+loc: 'https://9takes.com/personality-analysis/emily-ratajkowski'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['celebrity', 'celebrity-image']
-person: 'Emily-Ratajkowski'
+person: 'emily-ratajkowski'
 suggestions: ['Kim-Kardashian', 'Bella-Hadid', 'Hailey-Bieber', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'
 twitter: 'https://twitter.com/emrata'
@@ -79,7 +79,7 @@ At San Dieguito Academy, she tried soccer, ballet, and local theater before land
 
 The "Blurred Lines" video (2013) made Emily famous in a single news cycle. It also taught her, at 21, the lesson her career has been litigating ever since: liberation and commodification can wear the same outfit.
 
-David Fincher's "Gone Girl" (2014) cast her as [Ben Affleck](/personality-analysis/Ben-Affleck)'s manipulative mistress, a role with more range than the music-video aesthetic allowed. The industry already had its slot for her, though, and the slot wasn't acting. Rather than spend the next decade auditioning into it, she began building elsewhere: writing, speaking out, eventually owning the platforms she'd previously rented out.
+David Fincher's "Gone Girl" (2014) cast her as [Ben Affleck](/personality-analysis/ben-affleck)'s manipulative mistress, a role with more range than the music-video aesthetic allowed. The industry already had its slot for her, though, and the slot wasn't acting. Rather than spend the next decade auditioning into it, she began building elsewhere: writing, speaking out, eventually owning the platforms she'd previously rented out.
 
 ## Inamorata: Building Her Own Thing
 
@@ -135,7 +135,7 @@ The harder reviews came from people who took the cultural-prosecution claim seri
 
 The temptation here is to defend her. The critique is partly right. The book diagnoses the system in vivid forensic detail and then declines to leave it. Emily's own line — "complicity on this spectrum of compromise" — gestures at the issue without pursuing it. That is, I think, the honest place where the type framework runs into its own limit. An Eight's specific blind spot is conceding defeat to the system she is diagnosing. She will document it, indict it, monetize her indictment of it, and stay inside it, because leaving the room is itself a form of being told to leave. The complicity isn't a flaw in the argument so much as it's the argument's friction with itself, and Emily has not, six years later, fully metabolized it.
 
-The "High Low with EmRata" podcast (2022-2024) ran the same play with her platform. Three episodes a week, mixing politics and TikTok. Esther Perel one day, [Alex Cooper](/personality-analysis/Alex-Cooper) the next, then Julia Fox or Mia Khalifa — women the mainstream had reduced to tabloid characters, given space to be complicated. Sony cancelled it in 2024 amid layoffs. The logic survived the cancellation; it now lives in the next thing she builds.
+The "High Low with EmRata" podcast (2022-2024) ran the same play with her platform. Three episodes a week, mixing politics and TikTok. Esther Perel one day, [Alex Cooper](/personality-analysis/alex-cooper) the next, then Julia Fox or Mia Khalifa — women the mainstream had reduced to tabloid characters, given space to be complicated. Sony cancelled it in 2024 amid layoffs. The logic survived the cancellation; it now lives in the next thing she builds.
 
 The Victoria's Secret Fashion Show return in 2025 looked, to some critics, like the answer to the book. She walked the show again, alongside Barbara Palvin and Adriana Lima, after spending years interrogating exactly what shows like that do to women. Read uncharitably, the book becomes a brand strategy that lets her keep modeling. Read more carefully, it's the Type 8's specific gambit: re-enter the system on your own terms, having documented it, and dare anyone to call you a hypocrite to your face. Either reading can be sustained. They are not mutually exclusive.
 
@@ -171,7 +171,7 @@ She is now (November 2025) with the French film director Romain Gavras — anoth
 
 ### Blue Origin Criticism (2025)
 
-When Jeff Bezos's Blue Origin launched an all-female crew including [Katy Perry](/personality-analysis/Katy-Perry), Gayle King, and Lauren Sánchez, Emily took to TikTok to call it "end-time shit."
+When Jeff Bezos's Blue Origin launched an all-female crew including [Katy Perry](/personality-analysis/katy-perry), Gayle King, and Lauren Sánchez, Emily took to TikTok to call it "end-time shit."
 
 "You say you care about Mother Earth, then fly in a planet-killing rocket?" she asked. The optics of diverse representation, she argued, masked the reality of space tourism's environmental impact. Being flown to space by your billionaire fiancé is not feminist progress.
 

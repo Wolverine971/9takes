@@ -5,14 +5,14 @@ persona_title: 'The Achiever Who Made Vulnerability Win'
 description: "Drake's Type 3 psychology explains the outsider wound, the chameleon branding, the Stake.com losses, and why Iceman still refuses to concede Kendrick Lamar."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Drake'
+loc: 'https://9takes.com/personality-analysis/drake'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['musician', 'rapper']
-person: 'Drake'
+person: 'drake'
 suggestions: ['Kendrick-Lamar', 'Kanye', 'Travis-Scott', 'Post-Malone']
 wikipedia: ''
 twitter: ''
@@ -231,7 +231,7 @@ A similar image-reality gap showed up earlier in the texting controversies with 
 
 ## The Kendrick Challenge: When Achievers Lose
 
-On March 22, 2024, [Kendrick Lamar](/personality-analysis/Kendrick-Lamar) appeared on Future and Metro Boomin's "Like That" and rejected the notion of a "Big Three" in rap: _"It's just big me."_
+On March 22, 2024, [Kendrick Lamar](/personality-analysis/kendrick-lamar) appeared on Future and Metro Boomin's "Like That" and rejected the notion of a "Big Three" in rap: _"It's just big me."_
 
 For a Type 3, this wasn't just a diss. It was a direct attack on Drake's position, his standing, his value.
 

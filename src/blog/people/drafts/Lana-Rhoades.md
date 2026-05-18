@@ -5,14 +5,14 @@ persona_title: "The Industry's Vanishing Star"
 description: 'Lana Rhoades became the most-searched woman on earth, then begged the internet to forget her. The psychology behind her reinvention reveals more than regret.'
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Lana-Rhoades'
+loc: 'https://9takes.com/personality-analysis/lana-rhoades'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['influencer', 'creator', 'lifestyle-builder']
-person: 'Lana-Rhoades'
+person: 'lana-rhoades'
 suggestions: ['Mike-Majlak', 'Sky-Bri', 'Addison-Rae', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Lana_Rhoades'
 twitter: ''
@@ -173,7 +173,7 @@ The precision matters. She doesn't condemn the concept of sex work in the abstra
 
 ## The Pros and Cons of Loving Lana Rhoades
 
-After leaving the industry, Rhoades pivoted. Influencer. Podcaster. And then, in January 2020, girlfriend to Mike Majlak, [Logan Paul](/personality-analysis/Logan-Paul)'s Impaulsive podcast co-host, in what became one of the most publicly documented relationships on the internet.
+After leaving the industry, Rhoades pivoted. Influencer. Podcaster. And then, in January 2020, girlfriend to Mike Majlak, [Logan Paul](/personality-analysis/logan-paul)'s Impaulsive podcast co-host, in what became one of the most publicly documented relationships on the internet.
 
 Logan Paul set them up as a birthday surprise for Majlak. Within weeks the relationship was content: podcast appearances, Instagram posts, the full influencer-couple performance. Within months, Majlak cheated on her with Ava Louise, the woman known for her Dr. Phil appearance. Louise leaked the DMs. Rhoades called her out publicly. Majlak went on Impaulsive and admitted to sleeping with Louise while insisting he "didn't cheat." They stayed together.
 
@@ -241,7 +241,7 @@ Julia Fox, sitting across from her in that interview, had been celibate for two 
 
 ## The Face She'll Never Show
 
-Her son, Milo, was born in January 2022. She has never shown his full face on social media. Not his face. Not his father's name. Not any detail that could make him searchable, clickable, consumable. In an era where even [Kim Kardashian](/personality-analysis/Kim-Kardashian) carefully curates her children's digital presence, Rhoades has chosen total erasure.
+Her son, Milo, was born in January 2022. She has never shown his full face on social media. Not his face. Not his father's name. Not any detail that could make him searchable, clickable, consumable. In an era where even [Kim Kardashian](/personality-analysis/kim-kardashian) carefully curates her children's digital presence, Rhoades has chosen total erasure.
 
 She's not taking child support from his father. "I don't want to involve my child in my situation with my baby's daddy," she has said. Financial independence as perimeter defense. If she doesn't need anything from anyone, no one gets to define the terms of her son's life.
 

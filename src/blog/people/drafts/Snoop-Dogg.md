@@ -5,19 +5,68 @@ persona_title: "Hip-Hop's Unmovable Peacemaker"
 description: 'How did Snoop Dogg outlast Death Row, a murder trial, and the coast war? By becoming harder to rattle, not harder to break. An Enneagram Type 9w8 read.'
 author: 'DJ Wayne'
 date: '2026-05-03'
-loc: 'https://9takes.com/personality-analysis/Snoop-Dogg'
+loc: 'https://9takes.com/personality-analysis/snoop-dogg'
 lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Snoop-Dogg'
+person: 'snoop-dogg'
 suggestions: ['Eminem', 'Kendrick-Lamar', 'Dwayne-Johnson', 'Drake']
 wikipedia: 'https://en.wikipedia.org/wiki/Snoop_Dogg'
 twitter: 'SnoopDogg'
 instagram: 'snoopdogg'
 tiktok: 'snoopdogg'
+wikidata_qid: 'Q6096'
+imdb_id: 'nm0004879'
+birth_date: '1971-10-20'
+birth_place: 'Long Beach, California, USA'
+nationality: 'American'
+occupation:
+  - 'Rapper'
+  - 'Songwriter'
+  - 'Actor'
+  - 'Entrepreneur'
+  - 'Television personality'
+knows_about:
+  - 'West Coast hip-hop'
+  - 'Death Row Records'
+  - 'Doggystyle Records'
+  - 'Gangsta rap'
+  - 'Snoop Youth Football League'
+  - 'Cannabis industry'
+  - 'Gospel music'
+keywords:
+  - 'Snoop Dogg enneagram'
+  - 'Snoop Dogg type 9'
+  - 'Snoop Dogg personality'
+  - 'Snoop Dogg 9w8'
+  - 'Peacemaker enneagram'
+  - 'Snoop Dogg Death Row'
+  - 'Snoop Dogg Olympics'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Snoop_Dogg'
+  - 'https://www.wikidata.org/wiki/Q6096'
+  - 'https://www.imdb.com/name/nm0004879/'
+  - 'https://twitter.com/SnoopDogg'
+  - 'https://www.instagram.com/snoopdogg/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Snoop_Dogg'
+  - 'https://en.wikipedia.org/wiki/Doggystyle'
+  - 'https://en.wikipedia.org/wiki/Tha_Doggfather'
+  - 'https://en.wikipedia.org/wiki/Snoop_Youth_Football_League'
+  - 'https://en.wikipedia.org/wiki/Death_Row_Records'
+faqs:
+  - question: "What is Snoop Dogg's personality type?"
+    answer: "Snoop Dogg is an Enneagram Type 9 with an 8 wing. The pattern shows in his structural conflict-aversion ('I moved around and I became a peaceful person because I seen that we was all alike'), his ability to merge with any room from gospel choir to Death Row to Martha Stewart's kitchen, and the stubborn immobility that appears only when he is pushed past a line — like refusing Tupac's demand to ride on Biggie."
+    anchor: 'what-is-snoop-doggs-personality-type'
+  - question: 'How did Snoop Dogg survive Death Row Records?'
+    answer: "By going softer, not harder. After the Tupac killing and the coast war's peak, Snoop's second album Tha Doggfather (1996) deliberately scaled back the gangsta material, costing him commercial momentum. He left Death Row for No Limit in 1998 without subtweets or burned bridges. The Type 9 instinct under pressure is to find the exit that keeps the most people in the room — which is how he is still here while Tupac is dead, Dre left, and Suge went to prison."
+    anchor: 'why-snoop-dogg-chose-to-be-a-bridge-instead-of-a-warrior'
+  - question: 'Why is Snoop Dogg friends with Martha Stewart?'
+    answer: "Their VH1 cooking show Martha & Snoop's Potluck Dinner Party (2016) institutionalized a friendship that had started on Martha's roast of Justin Bieber. The Type 9 read: Snoop does not reinvent himself between rooms — he lowers the temperature of each one until it fits him. Stewart's kitchen, NBC's Olympic booth, his mother's gospel pew, and the Long Beach Crip set are all the same room to a Nine who learned early that his chill was the most dangerous thing in any of them."
+    anchor: 'how-snoop-dogg-built-the-friendship-empire'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -152,7 +201,7 @@ Days later, Pac was in a hospital bed in Las Vegas with tubes coming out of him,
 
 Then the line that haunts: "I knew that was going to be my last time speaking with him."
 
-A Type Eight would have weaponized that grief. A Type Four would have stayed in it for the rest of his career. A Type Nine does something both simpler and stranger — he carries it quietly, and it changes how he moves forever after. Snoop never fully reconciled on tape with Pac. He never got to un-say the things that the coast war put between them. He just kept walking.
+A Type Nine carries that grief quietly, and it changes how he moves forever after. Snoop never fully reconciled on tape with Pac. He never got to un-say the things that the coast war put between them. He just kept walking.
 
 Most of the softness in the next thirty years traces back to that room. Every interview he's done about Tupac — every one — includes some version of _I wish we'd had more time_. It's the one subject where his laid-back register drops out completely. The death of the friend he couldn't quite reach is the silent tax his entire laid-back persona has been paying ever since.
 
@@ -198,7 +247,7 @@ The coaching didn't stop. If anything, it deepened. He has said in multiple inte
 
 ## Why everyone — from Kendrick Lamar to Martha Stewart — can be in Snoop Dogg's life at the same time
 
-Most celebrities of this magnitude accumulate enemies. Snoop accumulates friends. The list of people who publicly love him cuts across every category American culture has: [Eminem](/personality-analysis/Eminem), Willie Nelson, Larry King, 50 Cent, Stevie Wonder, Matthew McConaughey, Tom Brady, Gwen Stefani, Charlie Wilson, and — the one that broke the internet — Martha Stewart.
+Most celebrities of this magnitude accumulate enemies. Snoop accumulates friends. The list of people who publicly love him cuts across every category American culture has: [Eminem](/personality-analysis/eminem), Willie Nelson, Larry King, 50 Cent, Stevie Wonder, Matthew McConaughey, Tom Brady, Gwen Stefani, Charlie Wilson, and — the one that broke the internet — Martha Stewart.
 
 The Martha story is the most revealing. They met on her cooking show in 2008 making mashed potatoes. They cemented the friendship four years later, seated next to each other at the Comedy Central roast of Justin Bieber, where Snoop later said: "In that moment, I knew I wanted to be alongside this lady for the rest of my life."
 
@@ -220,7 +269,7 @@ The "chill" framing is the most misleading thing ever said about him.
 
 Since 1993 he has released 20 studio albums. He owns a cannabis brand, a wine label, a fragrance, a dog food company, a YouTube sports commentary channel, a boxing promotion arm, a record label, and — as of 2022 — Death Row Records itself, the same label he once left in fear for his life. He [integrates to Three](/enneagram-corner/enneagram-wings-complete-guide) in a way most Nines never do, because most Nines never get the chance. Most Nines work in the mediating layer of an organization and never get their own office. Snoop got his own empire and ran it like a Nine would — through warmth, through relationships, through never asking anyone to choose between him and another friend.
 
-The Olympic chapter is the cleanest illustration. In 2024, NBC made him a full-time correspondent for the Paris Games. He carried the torch through Saint-Denis. He commentated on dressage. He did equestrian coverage with [Kevin Hart](/personality-analysis/Kevin-Hart). He hosted state-delegation parties. He was, by a wide margin, the most-watched figure of the games outside of Simone Biles.
+The Olympic chapter is the cleanest illustration. In 2024, NBC made him a full-time correspondent for the Paris Games. He carried the torch through Saint-Denis. He commentated on dressage. He did equestrian coverage with [Kevin Hart](/personality-analysis/kevin-hart). He hosted state-delegation parties. He was, by a wide margin, the most-watched figure of the games outside of Simone Biles.
 
 The network did not hire him because he is a rapper. They hired him because he is the rare public figure who can make any American feel included in the room. That is a Type Nine specialty. It's what Nines have been doing since kindergarten, when they learned that their gift was making other people feel less alone. The Olympics just paid him for it at scale.
 

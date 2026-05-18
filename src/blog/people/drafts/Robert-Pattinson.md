@@ -5,14 +5,14 @@ persona_title: "Hollywood's Disappearing Act"
 description: 'Robert Pattinson lies in interviews, hid in car trunks, and chose to play freaks after Twilight. Inside the Enneagram Type 4 psychology that explains all of it.'
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Robert-Pattinson'
+loc: 'https://9takes.com/personality-analysis/robert-pattinson'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['movieStar', 'newMovieStar', 'rising-star']
-person: 'Robert-Pattinson'
+person: 'robert-pattinson'
 suggestions: ['Johnny-Depp', 'Zendaya', 'Joaquin-Phoenix', 'Zoe-Kravitz']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_Pattinson'
 twitter: ''
@@ -132,7 +132,7 @@ After the final Twilight film, the conventional wisdom was that Pattinson was do
 
 He chose David Cronenberg first. _Cosmopolis_ (2012), a cold, abstract film shot almost entirely in a limousine. Pattinson was terrified. "I don't think I'm a good enough actor," he admitted. Cronenberg's response was the kind of validation that can change a life: "You are creating a new thing, an original thing, and you have to forget all that other stuff." He later compared Pattinson to a Stradivarius.
 
-Then came the Safdie brothers. Pattinson saw a single still from their film _Heaven Knows What_ and sent them what he calls "a crazy, obsessive email": "I know, I know. It's meant to be." For _Good Time_ (2017), he studied a drug dealer's body language from one of their previous films and reverse-engineered the character from the accent outward. He spent days fully in character walking into Dunkin' Donuts to test reactions. If someone recognized him, he'd respond aggressively as Connie, his character. "I don't know what an audience wants," he told [Jennifer Lopez](/personality-analysis/Jennifer-Lopez) in their Actors on Actors conversation. "I know what I want to watch."
+Then came the Safdie brothers. Pattinson saw a single still from their film _Heaven Knows What_ and sent them what he calls "a crazy, obsessive email": "I know, I know. It's meant to be." For _Good Time_ (2017), he studied a drug dealer's body language from one of their previous films and reverse-engineered the character from the accent outward. He spent days fully in character walking into Dunkin' Donuts to test reactions. If someone recognized him, he'd respond aggressively as Connie, his character. "I don't know what an audience wants," he told [Jennifer Lopez](/personality-analysis/jennifer-lopez) in their Actors on Actors conversation. "I know what I want to watch."
 
 ### Becoming Unrecognizable
 
@@ -212,7 +212,7 @@ The hermit found an anchor. Not in art, not in fame, not in another performance,
 
 ## What Comes Next
 
-As of 2026, Pattinson's slate reads like a director's all-star team: Bong Joon-ho (_Mickey 17_), Lynne Ramsay (_Die My Love_, which premiered at Cannes to a lengthy standing ovation), Kristoffer Borgli (_The Drama_, an A24 romantic comedy with [Zendaya](/personality-analysis/Zendaya)), Christopher Nolan (_The Odyssey_), and Denis Villeneuve (_Dune: Part Three_, where he plays the shapeshifting antagonist Scytale). _The Batman: Part II_ begins filming in spring 2026.
+As of 2026, Pattinson's slate reads like a director's all-star team: Bong Joon-ho (_Mickey 17_), Lynne Ramsay (_Die My Love_, which premiered at Cannes to a lengthy standing ovation), Kristoffer Borgli (_The Drama_, an A24 romantic comedy with [Zendaya](/personality-analysis/zendaya)), Christopher Nolan (_The Odyssey_), and Denis Villeneuve (_Dune: Part Three_, where he plays the shapeshifting antagonist Scytale). _The Batman: Part II_ begins filming in spring 2026.
 
 The Dune shoot reveals the most about how he works. He described filming in the desert: "My brain wasn't operating. I did not have a single functioning brain cell. And I was just listening to Denis: 'Whatever you want!'" For a man whose mind torments him with self-doubt and anxiety, finding directors who can shut off his thinking and pull something raw out of him isn't just a career strategy. It's survival.
 

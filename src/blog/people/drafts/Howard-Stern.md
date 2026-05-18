@@ -5,14 +5,14 @@ persona_title: "Radio's Counterphobic Sentinel"
 description: "Howard Stern built the most confrontational show in broadcast history. His therapist was the first person to tell him: 'I take you seriously.'"
 author: 'DJ Wayne'
 date: '2026-03-01'
-loc: 'https://9takes.com/personality-analysis/Howard-Stern'
+loc: 'https://9takes.com/personality-analysis/howard-stern'
 lastmod: '2026-03-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['celebrity', 'tv-comedy-crossover']
-person: 'Howard-Stern'
+person: 'howard-stern'
 suggestions: ['Donald-Trump', 'Peter-Thiel', 'Eminem', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Howard_Stern'
 twitter: 'HowardStern'
@@ -94,7 +94,7 @@ The kid who couldn't find safe ground anywhere — not at home with his volatile
 
 Most people see Howard Stern as a power-hungry provocateur who mellowed with age. The common read: he was a wild shock jock, he got rich, he married a model, he went soft. "Hollywood Howard." "Hamptons Howard." Sellout.
 
-But power-hungry people don't tap radios three times. They don't enter rooms right foot forward. They don't spend their first therapy session doing impressions because they're too frightened to say anything real. The pattern looks less like a Challenger and more like another famous Six, [Peter Thiel](/personality-analysis/Peter-Thiel), who kept a parachute in his office after 9/11. Not because he wanted to fly. Because he was afraid the building would fall.
+But power-hungry people don't tap radios three times. They don't enter rooms right foot forward. They don't spend their first therapy session doing impressions because they're too frightened to say anything real. The pattern looks less like a Challenger and more like another famous Six, [Peter Thiel](/personality-analysis/peter-thiel), who kept a parachute in his office after 9/11. Not because he wanted to fly. Because he was afraid the building would fall.
 
 The [Enneagram framework for Type 6](/enneagram-corner/enneagram-type-6) — "The Loyalist" — reframes everything. Sixes are driven by a core fear of being without support or guidance in a dangerous world. They scan for threats. They test loyalty. They build alliances and then worry those alliances will fail. And in their counterphobic form, they don't run from what scares them. They charge directly at it.
 
@@ -121,7 +121,7 @@ He told Letterman this on Netflix in 2018. Then he said something that cracked t
 
 "I was angry with you, that you were on television, that you had an audience. There was no rhyme or reason to it. I could not love anyone. I could not respect anyone."
 
-This is the confession that separates Stern from every other shock jock who ever lived. Don Imus died without apologizing. Rush Limbaugh died without introspecting. [Eminem](/personality-analysis/Eminem) channeled similar rage into bars but never sat across from his targets and named the fear underneath. Howard Stern sat across from the man he'd spent years attacking and said: the aggression wasn't strength. It was a wound wearing a microphone.
+This is the confession that separates Stern from every other shock jock who ever lived. Don Imus died without apologizing. Rush Limbaugh died without introspecting. [Eminem](/personality-analysis/eminem) channeled similar rage into bars but never sat across from his targets and named the fear underneath. Howard Stern sat across from the man he'd spent years attacking and said: the aggression wasn't strength. It was a wound wearing a microphone.
 
 "I was so angry at the world. I love Robin Williams, and yet if he came into my studio, I had to act like I didn't love him."
 
@@ -231,7 +231,7 @@ The man whose rage made him millions needed a woman who could say no. Not a push
 
 Former cast member Jackie "The Joke Man" Martling put it bluntly: "Howard has become a lot of the things that he always told people not to become."
 
-The angry old fans call him "Hollywood Howard." "Hamptons Howard." They say he sold out, that he cares about being liked now, that the dangerous edge is gone. <a href="/personality-analysis/Donald-Trump">Donald Trump</a> Jr. weighed in: the "blue-collar people that he now hates since he became Hollywood Howard would've probably been pretty big Trump supporters."
+The angry old fans call him "Hollywood Howard." "Hamptons Howard." They say he sold out, that he cares about being liked now, that the dangerous edge is gone. <a href="/personality-analysis/donald-trump">Donald Trump</a> Jr. weighed in: the "blue-collar people that he now hates since he became Hollywood Howard would've probably been pretty big Trump supporters."
 
 Stern's own response reveals the misunderstanding at the heart of it:
 

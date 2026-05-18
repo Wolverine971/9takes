@@ -5,14 +5,14 @@ persona_title: "Comedy's Reluctant Lion"
 description: 'Dave Chappelle keeps building sanctuaries and then setting them on fire, turning withdrawal, conflict, and moral authority into the same pattern.'
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Dave-Chappelle'
+loc: 'https://9takes.com/personality-analysis/dave-chappelle'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['comedian', 'celebrity', 'tv-comedy-crossover', 'stand-up']
-person: 'Dave-Chappelle'
+person: 'dave-chappelle'
 suggestions: ['Kevin-Hart', 'Eddie-Murphy', 'Caleb-Hearon', 'Keke-Palmer', 'Jon-Stewart']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Chappelle'
 twitter: 'davechappelle'
@@ -213,7 +213,7 @@ When Chappelle sat down with James Lipton after returning from Africa, the world
 
 "A weak person cannot get to sit here and talk to you. Ain't no weak people talking to you. So what is happening in Hollywood? Nobody knows."
 
-Then the line that went viral fifteen years later, resurfacing after [Kanye](/personality-analysis/Kanye)'s hospitalization, after Britney's conservatorship hearings:
+Then the line that went viral fifteen years later, resurfacing after [Kanye](/personality-analysis/kanye)'s hospitalization, after Britney's conservatorship hearings:
 
 **"The worst thing to call somebody is crazy. It's dismissive. 'I don't understand this person, so they're crazy.' That's bullshit. These people are not crazy. They are strong people. Maybe the environment is a little sick."**
 
@@ -233,7 +233,7 @@ Chappelle acquired a COVID testing machine. He created a bubble on his property.
 
 "My town was dying. I did shows in my neighbor's cornfield."
 
-The cornfield shows brought in $9 million in revenue to Yellow Springs. <a href="/personality-analysis/Jon-Stewart">Jon Stewart</a> came and called it "the new Jerusalem." Mo Amer, a comedian struggling through the pandemic and personal crises, later told Chappelle directly: "You really saved my life."
+The cornfield shows brought in $9 million in revenue to Yellow Springs. <a href="/personality-analysis/jon-stewart">Jon Stewart</a> came and called it "the new Jerusalem." Mo Amer, a comedian struggling through the pandemic and personal crises, later told Chappelle directly: "You really saved my life."
 
 When asked about the cost, Chappelle's response was pure gut: "What do I have money for? If I have to, I'll pay for it."
 
@@ -293,7 +293,7 @@ Daphne Dorman was a trans comedian from San Francisco. She opened for Chappelle 
 
 That fact is real. It is also not the whole story.
 
-In _The Closer_ (2021), Chappelle came back to the same material and went further. He aligned himself with [J.K. Rowling](/personality-analysis/J-K-Rowling): "I'm team TERF." He told the audience "gender is a fact." He used Daphne's friendship — and her family's defense of him after her death — as the argument that his jokes had not, in fact, harmed anyone.
+In _The Closer_ (2021), Chappelle came back to the same material and went further. He aligned himself with [J.K. Rowling](/personality-analysis/j-k-rowling): "I'm team TERF." He told the audience "gender is a fact." He used Daphne's friendship — and her family's defense of him after her death — as the argument that his jokes had not, in fact, harmed anyone.
 
 That last move is where his critics drew the line, and they had names.
 
@@ -323,7 +323,7 @@ The indirect path is elegant when it's used against power. It is harder to call 
 
 On May 3, 2022, a man rushed the stage and tackled Dave Chappelle at the Hollywood Bowl. The attacker was carrying a knife disguised as a replica gun.
 
-Chappelle was not injured. His immediate response was a joke — because the lion handles the public moments. <a href="/personality-analysis/Will-Smith">Jamie Foxx</a> jumped from the crowd wearing "a white cowboy hat like he knew this shit was going to happen to me." Other celebrities piled on the attacker. "Every celebrity just ran out because every celebrity saw themselves in me."
+Chappelle was not injured. His immediate response was a joke — because the lion handles the public moments. <a href="/personality-analysis/will-smith">Jamie Foxx</a> jumped from the crowd wearing "a white cowboy hat like he knew this shit was going to happen to me." Other celebrities piled on the attacker. "Every celebrity just ran out because every celebrity saw themselves in me."
 
 But the moment that actually mattered happened offstage. Chappelle's son embraced him and said: "Dad, I love you."
 
@@ -341,11 +341,11 @@ The special was called _The Dreamer_. And the line that landed hardest was the q
 
 This is Chappelle at 51 — not the provocateur, not the exile, not the culture warrior. A man taking inventory. Asking whether the life he's built is actually the one he wanted, or whether the lion built it while the lamb wasn't looking.
 
-His January 2025 SNL monologue — the longest in the show's history — ended not with a joke but with a request. He looked into the camera and addressed <a href="/personality-analysis/Donald-Trump">Donald Trump</a> directly: "The presidency is no place for petty people... whether people voted for you or not, they're all counting on you."
+His January 2025 SNL monologue — the longest in the show's history — ended not with a joke but with a request. He looked into the camera and addressed <a href="/personality-analysis/donald-trump">Donald Trump</a> directly: "The presidency is no place for petty people... whether people voted for you or not, they're all counting on you."
 
 Then the final words: "Please, have empathy for displaced people, whether they're in the Palisades or Palestine."
 
-He later revealed at a San Francisco show that SNL producers had barred him from discussing Gaza or transgender people in the monologue. He worked Palestine in through a <a href="/personality-analysis/Jimmy-Carter">Jimmy Carter</a> tribute and the closing line anyway. In San Francisco, he dropped the mic with: "Give the Jews a break, free Palestine."
+He later revealed at a San Francisco show that SNL producers had barred him from discussing Gaza or transgender people in the monologue. He worked Palestine in through a <a href="/personality-analysis/jimmy-carter">Jimmy Carter</a> tribute and the closing line anyway. In San Francisco, he dropped the mic with: "Give the Jews a break, free Palestine."
 
 The reaction split immediately. Pro-Palestinian commentators called the closing line the most consequential sentence spoken on a mainstream American stage that month. The Anti-Defamation League called the Palisades-Palestine pairing cheap. _The Forward_'s columnists landed in different places on the same op-ed page, some reading it as moral clarity, some as provocation dressed as humility. Chappelle did not respond to any of it. He had said what he said, and the rest of the conversation could happen without him in the room.
 

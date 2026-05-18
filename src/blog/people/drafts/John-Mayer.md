@@ -5,14 +5,14 @@ persona_title: "Music's Haunted Virtuoso"
 description: 'Inside the contradiction that defines John Mayer: the man who writes devastating truths but spent a decade performing lies.'
 author: 'DJ Wayne'
 date: '2026-03-28'
-loc: 'https://9takes.com/personality-analysis/John-Mayer'
+loc: 'https://9takes.com/personality-analysis/john-mayer'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician', 'singer-songwriter']
-person: 'John-Mayer'
+person: 'john-mayer'
 suggestions: ['Taylor-Swift', 'Drake', 'Katy-Perry', 'Harry-Styles']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Mayer'
 twitter: '@JohnMayer'
@@ -74,7 +74,7 @@ The first John Mayer wrote "Gravity" and "Slow Dancing in a Burning Room" — so
 
 The second John Mayer showed up in interviews — charming, provocative, performing the roguish rock star with a philosopher's brain and a frat boy's mouth. In Enneagram terms, this was his Three wing in overdrive — the Achiever next door, layering image-consciousness and competitive charm on top of the Four's emotional depth. He needed to be not just talented but _recognized_ as exceptional. Not just interesting but the most interesting person in any room.
 
-The same pattern ran through his relationships. Jessica Simpson described him as "obsessed with me, sexually and emotionally" — then he broke up with her nine times, every time by email. Jennifer Aniston received a public post-mortem in Playboy where he mourned the relationship while explaining why he needed freedom more. <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a>, nineteen to his thirty-two, got "Dear John" as her closure; he said he "never got a phone call." With <a href="/personality-analysis/Katy-Perry">Katy Perry</a>, his longest relationship, the cycle stretched over four years of reconciliations before the final split.
+The same pattern ran through his relationships. Jessica Simpson described him as "obsessed with me, sexually and emotionally" — then he broke up with her nine times, every time by email. Jennifer Aniston received a public post-mortem in Playboy where he mourned the relationship while explaining why he needed freedom more. <a href="/personality-analysis/taylor-swift">Taylor Swift</a>, nineteen to his thirty-two, got "Dear John" as her closure; he said he "never got a phone call." With <a href="/personality-analysis/katy-perry">Katy Perry</a>, his longest relationship, the cycle stretched over four years of reconciliations before the final split.
 
 Each time: intense pursuit, intellectual dominance, emotional overwhelm, withdrawal. "I hate being the heartbreaker," he said later. "Hate it." But the pattern was structural. He chased the intensity that made him feel alive, then retreated when the relationship settled into ordinariness — because for a Four, ordinary feels like death.
 
@@ -143,7 +143,7 @@ The silence had stripped the performance away. But stripping a habit isn't the s
 
 ## The Night John Mayer Quit Drinking for Good
 
-On October 23, 2016, John Mayer got spectacularly drunk at <a href="/personality-analysis/Drake">Drake</a>'s 30th birthday party. About 150 guests — ex-girlfriends he'd hurt, celebrities he'd offended, an entire room of people who represented everything he'd spent years trying to escape.
+On October 23, 2016, John Mayer got spectacularly drunk at <a href="/personality-analysis/drake">Drake</a>'s 30th birthday party. About 150 guests — ex-girlfriends he'd hurt, celebrities he'd offended, an entire room of people who represented everything he'd spent years trying to escape.
 
 He "made quite a fool of himself." He went too deep.
 

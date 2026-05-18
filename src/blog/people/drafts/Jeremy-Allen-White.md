@@ -5,14 +5,14 @@ persona_title: "Brooklyn's Brooding Dancer"
 description: 'Why does Jeremy Allen White keep playing damaged men? His Enneagram Type 4 pattern—melancholy, the dancer instinct, the hunger for authenticity—explains it.'
 author: 'DJ Wayne'
 date: '2026-04-16'
-loc: 'https://9takes.com/personality-analysis/Jeremy-Allen-White'
+loc: 'https://9takes.com/personality-analysis/jeremy-allen-white'
 lastmod: '2026-04-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
 type: ['newMovieStar', 'movieStar', 'rising-star']
-person: 'Jeremy-Allen-White'
+person: 'jeremy-allen-white'
 suggestions: ['Timothee-Chalamet', 'Paul-Mescal', 'Adam-Driver', 'Austin-Butler']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeremy_Allen_White'
 instagram: 'jeremyallenwhitee'

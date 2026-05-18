@@ -5,14 +5,14 @@ persona_title: "Comedy's Joyful Recluse"
 description: 'Eddie Murphy made the world laugh then vanished. His Enneagram Type 7 personality reveals why the funniest man alive built a fortress of silence.'
 author: 'DJ Wayne'
 date: '2026-04-12'
-loc: 'https://9takes.com/personality-analysis/Eddie-Murphy'
+loc: 'https://9takes.com/personality-analysis/eddie-murphy'
 lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['comedian', 'movieStar', 'screen-icon']
-person: 'Eddie-Murphy'
+person: 'eddie-murphy'
 suggestions: ['Dave-Chappelle', 'Tyler-Perry', 'Keke-Palmer', 'Caleb-Hearon', 'Will-Smith']
 content_quality:
   hook: 9
@@ -217,7 +217,7 @@ At 19, sitting in a blues bar with John Belushi and Robin Williams, both of them
 
 He has never tried cocaine. He stopped drinking over twenty years ago. He smoked one joint at age 30. That's the entire drug history of a man who spent the 1980s as the biggest star in the world, surrounded by people who were consuming everything.
 
-[Dave Chappelle](/personality-analysis/Dave-Chappelle), who followed Murphy's blueprint — explode into fame, then walk away — put it simply: "Surviving being Eddie Murphy is a hell of an accomplishment." It's the kind of survival that [Tyler Perry](/personality-analysis/Tyler-Perry), another Black entertainment mogul who built his own fortress, would understand intimately.
+[Dave Chappelle](/personality-analysis/dave-chappelle), who followed Murphy's blueprint — explode into fame, then walk away — put it simply: "Surviving being Eddie Murphy is a hell of an accomplishment." It's the kind of survival that [Tyler Perry](/personality-analysis/tyler-perry), another Black entertainment mogul who built his own fortress, would understand intimately.
 
 ---
 
@@ -231,7 +231,7 @@ The 2000s were brutal. _The Adventures of Pluto Nash_ became one of the biggest 
 
 Then came the cruelest turn. In 2006, Murphy delivered a performance as James "Thunder" Early in _Dreamgirls_ that won him the Golden Globe and the Screen Actors Guild Award. He was the heavy Oscar favorite. Then _Norbit_ opened to catastrophic reviews just before Oscar voting began. Alan Arkin won for _Little Miss Sunshine_ instead.
 
-Murphy left the ceremony early. "People kept coming over to me and kept patting me on the shoulder. I didn't want to be the sympathy guy all night." Compare this to how [Will Smith](/personality-analysis/Will-Smith) handles public humiliation — at the 2023 Golden Globes, Murphy himself landed the joke: "Pay your taxes, mind your business, and keep Will Smith's wife's name out your f---ing mouth." Smith escalates. Murphy evaporates. Same industry, opposite survival instincts.
+Murphy left the ceremony early. "People kept coming over to me and kept patting me on the shoulder. I didn't want to be the sympathy guy all night." Compare this to how [Will Smith](/personality-analysis/will-smith) handles public humiliation — at the 2023 Golden Globes, Murphy himself landed the joke: "Pay your taxes, mind your business, and keep Will Smith's wife's name out your f---ing mouth." Smith escalates. Murphy evaporates. Same industry, opposite survival instincts.
 
 The _Dreamgirls_ loss cut deeper than a missed trophy. Murphy had done the thing everyone said he couldn't — a dramatic performance that silenced the critics who'd dismissed him as impressions and fat suits. And the industry still couldn't give it to him. Whether _Norbit_ actually cost him the Oscar is debatable, but the message Murphy received was clear: even your best isn't enough. For a man already building walls, this was another brick.
 

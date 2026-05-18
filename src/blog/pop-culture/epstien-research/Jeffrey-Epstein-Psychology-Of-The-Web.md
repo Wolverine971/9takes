@@ -11,7 +11,7 @@ priority: '0.6'
 published: false
 enneagram: '2'
 type: ['situational']
-person: 'Jeffrey-Epstein-Psychology-Of-The-Web'
+person: 'jeffrey-epstein-psychology-of-the-web'
 persona_title: 'The Web of Complicity'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Donald-Trump', 'Peter-Thiel', 'Grimes']
 wikipedia: ''

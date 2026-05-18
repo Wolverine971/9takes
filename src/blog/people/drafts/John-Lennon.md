@@ -5,14 +5,14 @@ persona_title: "Rock's Wounded Prophet"
 description: "John Lennon sang peace to the world but couldn't find it himself. Inside the abandonment wound that made him a genius and a ghost."
 author: 'DJ Wayne'
 date: '2026-04-18'
-loc: 'https://9takes.com/personality-analysis/John-Lennon'
+loc: 'https://9takes.com/personality-analysis/john-lennon'
 lastmod: '2026-04-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician', 'historical', 'historical-artist']
-person: 'John-Lennon'
+person: 'john-lennon'
 suggestions: ['bob-marley', 'prince', 'billie-eilish', 'johnny-depp']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Lennon'
 twitter: ''
@@ -295,7 +295,7 @@ On December 8, 1980, the future ran out.
 
 In the last weeks of his life, John Lennon was, by most accounts, happier than he had ever been. _Double Fantasy_ was finished. He was making music again. He was talking about the future with an energy his friends hadn't seen in years.
 
-"You make your own dream," he said. "Don't expect Jimmy Carter or [Ronald Reagan](/personality-analysis/Ronald-Reagan) or John Lennon or Yoko Ono or Bob Dylan or Jesus Christ to come and do it for you. You have to do it yourself."
+"You make your own dream," he said. "Don't expect Jimmy Carter or [Ronald Reagan](/personality-analysis/ronald-reagan) or John Lennon or Yoko Ono or Bob Dylan or Jesus Christ to come and do it for you. You have to do it yourself."
 
 He included himself in the list of people who cannot save you. The peace prophet had finally stopped asking to be saved.
 

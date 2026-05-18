@@ -5,14 +5,14 @@ persona_title: "Pop's Mosaic Provocateur"
 description: 'How Hannah Montana split Miley Cyrus in two, and how she spent 20 years trying to put herself back together.'
 author: 'DJ Wayne'
 date: '2024-09-12'
-loc: 'https://9takes.com/personality-analysis/Miley-Cyrus'
+loc: 'https://9takes.com/personality-analysis/miley-cyrus'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician', 'pop-star']
-person: 'Miley-Cyrus'
+person: 'miley-cyrus'
 suggestions: ['Billie-Eilish', 'Demi-Lovato', 'Chappell-Roan', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Miley_Cyrus'
 twitter: 'MileyCyrus'
@@ -38,7 +38,7 @@ Most people know the headline version: child star goes wild, shocks America at t
 
 The show's premise made it literal. Hannah Montana was about a girl who was a nobody without her wig. Invisible, ordinary, unremarkable. With it, she was everything. The camera loved her. The crowd screamed. Take the wig off, and the same face meant nothing. Miley was eleven when that became the organizing principle of her life.
 
-**"The concept of the show is that when you have this alter ego, you're valuable,"** she told <a href="/personality-analysis/Howard-Stern">Howard Stern</a>. **"When I looked like myself, when I didn't have the wig on anymore, no one cared about me. I wasn't a star anymore. That was drilled into my head — without being Hannah Montana, no one cares about you."**
+**"The concept of the show is that when you have this alter ego, you're valuable,"** she told <a href="/personality-analysis/howard-stern">Howard Stern</a>. **"When I looked like myself, when I didn't have the wig on anymore, no one cared about me. I wasn't a star anymore. That was drilled into my head — without being Hannah Montana, no one cares about you."**
 
 That statement. That's the whole thing. Everything that came after (the twerking, the reinventions, the wrecking ball, the flowers) is a woman trying to prove that premise wrong while being unable to escape the suspicion that it might be true.
 
@@ -163,7 +163,7 @@ The way Miley works in the studio says more about her than any interview. Her co
 
 **"Even in day sessions, she gets real quickly and has been so exposed in her life that she's willing to be vulnerable creatively,"** one producer noted. **"You feel a jolt of this creative energy from her, almost at all times — it's sporadic and it's crazy and it's wild, but it's the best kind."**
 
-Kid Harpoon, who produced "Flowers" and has worked with <a href="/personality-analysis/Harry-Styles">Harry Styles</a>, described Miley and Harry as **"very similar — they're giant pop icons, but their process is like indie kids who just want to have fun and don't really care about the pop stuff."**
+Kid Harpoon, who produced "Flowers" and has worked with <a href="/personality-analysis/harry-styles">Harry Styles</a>, described Miley and Harry as **"very similar — they're giant pop icons, but their process is like indie kids who just want to have fun and don't really care about the pop stuff."**
 
 The "Flowers" origin story is the signature detail. The chorus was originally written as: _"I can buy myself flowers, write my name in the sand, but I can't love me better than you can."_
 

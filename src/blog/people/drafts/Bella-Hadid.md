@@ -5,14 +5,14 @@ meta_title: 'Bella Hadid Enneagram Type 4: Identity, Beauty, and Loss'
 description: "Bella Hadid altered the nose her Palestinian father's family left behind, then spent a decade trying to rebuild what she'd cut. The Type 4 wound is the brand."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Bella-Hadid'
+loc: 'https://9takes.com/personality-analysis/bella-hadid'
 lastmod: '2026-04-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
 type: ['lifestyleInfluencer', 'lifestyle-builder']
-person: 'Bella-Hadid'
+person: 'bella-hadid'
 suggestions: ['Billie-Eilish', 'Hailey-Bieber', 'Selena-Gomez', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Bella_Hadid'
 twitter: 'bellahadid'
@@ -180,7 +180,7 @@ The Type 4 pattern explains some of those. It does not soften them. Sometimes it
 
 Hadid has been doing exactly that, on the record, since she was 19.
 
-The wound shows up in every interview, and it shows up specifically in comparison: to Gigi, to other models, to whoever sits next to her in a photograph. "I was the uglier sister. I was the brunette. I wasn't as cool as Gigi, not as outgoing," she told American _Vogue_ in 2018. She said almost the same thing in her 2022 mental-health cover. She said something close to it again in the British _Vogue_ June 2025 profile. The recycling matters. Eight years on, with a $19 million modeling year and a Time 100 listing behind her, the framing has not budged. She is still the unloved sister. Hadid does not exit this comparison. She builds an identity around losing it. Like her fellow Type 4 [Billie Eilish](/personality-analysis/Billie-Eilish), the public mental-health honesty became a way to organize the wound rather than escape it.
+The wound shows up in every interview, and it shows up specifically in comparison: to Gigi, to other models, to whoever sits next to her in a photograph. "I was the uglier sister. I was the brunette. I wasn't as cool as Gigi, not as outgoing," she told American _Vogue_ in 2018. She said almost the same thing in her 2022 mental-health cover. She said something close to it again in the British _Vogue_ June 2025 profile. The recycling matters. Eight years on, with a $19 million modeling year and a Time 100 listing behind her, the framing has not budged. She is still the unloved sister. Hadid does not exit this comparison. She builds an identity around losing it. Like her fellow Type 4 [Billie Eilish](/personality-analysis/billie-eilish), the public mental-health honesty became a way to organize the wound rather than escape it.
 
 Counter-typing matters here, because the alternates are real. **Type 3** has the strongest case — modeling rewards image control, and Hadid is unmistakably ambitious — but achievement never reads as the core wound. She wins Model of the Year and the wound expands. **Type 6** has the second-strongest case — her account of her own anxiety is among the most detailed any contemporary celebrity has put on the record — but the anxiety is anchored in self, not in threat. It is anxiety about who she is, not about what's coming. That is Four terrain.
 
@@ -234,7 +234,7 @@ This is the section most Bella Hadid profiles get wrong. They list achievements 
 
 She moved to New York in 2014 to study photography at Parsons. She signed with IMG that August, days before her 18th birthday. By February 2015 she was walking Tom Ford. By the time she was 21, four years into the career and weeks before her depression went public on Instagram, Charlotte Wales was photographing her for _Pop_ magazine's Issue 39 "Goldfish Bella" series — Hadid posed inside a glass display case at Highbury Park while other models stood as observers, the image cited as a Tilda-Swinton-_The Maybe_ reference. The Three wing did the rest.
 
-What the Three wing explains, specifically, is the _kind_ of model Hadid became. Not the smiling girl-next-door. The haunted face. _Vogue Italia_, _Pop_, the Pirelli, the editorial bookings ahead of the commercial ones — [Hailey Bieber](/personality-analysis/Hailey-Bieber)'s lane sat next to a different lane Hadid claimed: the brooding one. The industry the New York Times's Vanessa Friedman has been critiquing for over a decade — for using young-bodied women as adult sexual signifiers, for the "jarring disjunction between reality and image" she returned to in a February 2025 _Cultured_ roundtable with Tim Blanks and Rachel Tashjian — is the industry that wanted Hadid specifically because the inwardness photographed. Photographers could see it. They could shoot it. She could perform it.
+What the Three wing explains, specifically, is the _kind_ of model Hadid became. Not the smiling girl-next-door. The haunted face. _Vogue Italia_, _Pop_, the Pirelli, the editorial bookings ahead of the commercial ones — [Hailey Bieber](/personality-analysis/hailey-bieber)'s lane sat next to a different lane Hadid claimed: the brooding one. The industry the New York Times's Vanessa Friedman has been critiquing for over a decade — for using young-bodied women as adult sexual signifiers, for the "jarring disjunction between reality and image" she returned to in a February 2025 _Cultured_ roundtable with Tim Blanks and Rachel Tashjian — is the industry that wanted Hadid specifically because the inwardness photographed. Photographers could see it. They could shoot it. She could perform it.
 
 The "Goldfish Bella" image is the literalization. A model posed in a glass case, audience invited to look at the looking. The work-conditions critique — that the brooding-inwardness aesthetic is a recognizable industry pattern, not a one-off — does not vanish because the subject later became a sensitive-skin entrepreneur. Hadid is a Four whose wound earned her a career. The career also continued the model-industrial system Friedman has been describing. Naming the second fact does not unname the first.
 
@@ -256,7 +256,7 @@ His March 2018 EP _My Dear Melancholy_ is the clearest case. "Wasted Times" read
 >
 > — The Weeknd, "Wasted Times," _My Dear Melancholy_, 2018
 
-The construction is a regret song addressed to one ex from inside the wreckage of a different one. Tesfaye had just been dumped by [Selena Gomez](/personality-analysis/Selena-Gomez), who he wrote "Call Out My Name" about on the same EP. Hadid's value to him spiked, in his own discography, _after_ Gomez left him. That is the indictable read no Hadid profile has put on record. The post-breakup narration of her was shaped by who replaced her, not by what she had been.
+The construction is a regret song addressed to one ex from inside the wreckage of a different one. Tesfaye had just been dumped by [Selena Gomez](/personality-analysis/selena-gomez), who he wrote "Call Out My Name" about on the same EP. Hadid's value to him spiked, in his own discography, _after_ Gomez left him. That is the indictable read no Hadid profile has put on record. The post-breakup narration of her was shaped by who replaced her, not by what she had been.
 
 Hadid's documented response, on Instagram in November 2017 when Tesfaye and Gomez first went public: she unfollowed Selena Gomez.
 
@@ -310,7 +310,7 @@ The piece would like to leave it there. The next two sections complicate it.
 
 In May 2024, Hadid launched Orebella. The name's etymology embeds the Arabic word for iron — _hadid_ — into the brand. Pronounced aura-bella. The marketing copy is built around her Lyme-disease history: nonalcoholic biphase formula, dermatologist-tested, sensitive-skin friendly, free of the chemicals that trigger reactions in people with chronic illness. _Fashionista_ described the launch as "the skinification of fragrance," a wellness product as much as a perfume. By late 2025, Orebella had expanded internationally to Selfridges and the Middle East through Ulta Beauty.
 
-Orebella is also a licensed celebrity-fragrance deal. Coty is the manufacturing partner. Celebrands, the firm behind [Halsey](/personality-analysis/Halsey)'s About-Face line, holds the brand-services contract. The structure is identical to J.Lo's Glow, Ariana Grande's Cloud, and the dozens of other celebrity fragrances the same firm has shepherded to market. The flattering Type 4 reading — Orebella as identity made manifest, the wound integrated, the inner world bottled — coexists with this structural fact rather than canceling it.
+Orebella is also a licensed celebrity-fragrance deal. Coty is the manufacturing partner. Celebrands, the firm behind [Halsey](/personality-analysis/halsey)'s About-Face line, holds the brand-services contract. The structure is identical to J.Lo's Glow, Ariana Grande's Cloud, and the dozens of other celebrity fragrances the same firm has shepherded to market. The flattering Type 4 reading — Orebella as identity made manifest, the wound integrated, the inner world bottled — coexists with this structural fact rather than canceling it.
 
 Jessica DeFino, the beauty critic whose Substack _FLESH WORLD_ has been the most sustained named voice critiquing the celebrity-beauty industrial complex, frames the genre this way: "Why is a beauty line now a necessary accessory of fame?" Her fragrance argument: "Fragrance is popular because it's as close as it comes to mass-producing and consuming emotions." Orebella's pitch is exactly this. The wellness-vocabulary-as-product-positioning — _born from her sensitivities to alcohol-based fragrance_ — is the tell. So is the timing: the brand launched at the same moment Hadid's modeling income was peaking and her rate of public appearances was about to drop. Celebrity fragrances are how that career arc gets capitalized.
 

@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Restless Perfectionist"
 description: "The abandoned boy who built perfect products also turned perfection into a weapon. Inside the psychology behind Steve Jobs's genius and cruelty."
 author: 'DJ Wayne'
 date: '2026-03-28'
-loc: 'https://9takes.com/personality-analysis/Steve-Jobs'
+loc: 'https://9takes.com/personality-analysis/steve-jobs'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
 type: ['techie', 'entrepreneur', 'business-operator']
-person: 'Steve-Jobs'
+person: 'steve-jobs'
 suggestions: ['Bill-Gates', 'Elon-Musk', 'Tim-Cook', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Steve_Jobs'
 twitter: ''
@@ -310,7 +310,7 @@ And: "Sometimes I believe in God, sometimes I don't. I think it's 50/50, maybe. 
 
 He had spent his whole life making objects so beautiful they could speak for him. Products so perfect they would prove that the boy who was given away was worth keeping. A world so carefully designed that the chaos of human imperfection could be held at bay — at least on the screen, at least in the box, at least in the thing you held in your hand.
 
-The [man who succeeded him](/personality-analysis/Tim-Cook) at Apple would carry the standard forward. But he would never carry the wound. That was Jobs's alone.
+The [man who succeeded him](/personality-analysis/tim-cook) at Apple would carry the standard forward. But he would never carry the wound. That was Jobs's alone.
 
 Whatever Steve Jobs saw in those final moments, it met his standards.
 

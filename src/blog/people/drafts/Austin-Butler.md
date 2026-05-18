@@ -5,14 +5,14 @@ persona_title: "Hollywood's Borrowed Voice"
 description: "Why did Austin Butler's voice stay Elvis after filming ended? The Enneagram Type 9 pattern explains the actor who keeps misplacing himself between roles."
 author: 'DJ Wayne'
 date: '2026-04-29'
-loc: 'https://9takes.com/personality-analysis/Austin-Butler'
+loc: 'https://9takes.com/personality-analysis/austin-butler'
 lastmod: '2026-04-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
 type: ['movieStar', 'screen-icon']
-person: 'Austin-Butler'
+person: 'austin-butler'
 suggestions: ['Keanu-Reeves', 'Ryan-Gosling', 'Mikey-Madison', 'Brad-Pitt']
 wikipedia: 'https://en.wikipedia.org/wiki/Austin_Butler'
 instagram: 'austinbutler'
@@ -135,7 +135,7 @@ He kept acting anyway. The grief never stopped being in the work, but it stopped
 
 The audition is the part of this story that makes Type 9 visible in slow motion.
 
-When Butler first heard about the role, he was thirty and had spent more than a decade as a working but unspectacular actor — Disney Channel, Nickelodeon, _The Carrie Diaries_, _The Shannara Chronicles_, a small part in Quentin Tarantino's _Once Upon a Time in Hollywood_, and a Broadway debut where [Denzel Washington](/personality-analysis/Denzel-Washington) terrified him every night and quietly catalogued his work ethic.
+When Butler first heard about the role, he was thirty and had spent more than a decade as a working but unspectacular actor — Disney Channel, Nickelodeon, _The Carrie Diaries_, _The Shannara Chronicles_, a small part in Quentin Tarantino's _Once Upon a Time in Hollywood_, and a Broadway debut where [Denzel Washington](/personality-analysis/denzel-washington) terrified him every night and quietly catalogued his work ethic.
 
 The Broadway role is the part most write-ups skim. He played Don Parritt in _The Iceman Cometh_ — a guilt-ridden young man who confesses to betraying his anarchist mother and then walks offstage to throw himself off a fire escape. Butler took the part in 2018, four years after his own mother's cancer death. Eight performances a week, he stood across from Washington and said the lines of a son whose silence had killed his mother. Then he went home. Whatever he was working out about Lori, he was working it out in public, in eight-show-a-week increments, before anyone knew his name.
 
@@ -175,7 +175,7 @@ The voice never came all the way back. He hired a dialect coach not to learn an 
 
 That sentence — _I don't know the difference_ — is the entire diagnosis. You could read it as publicist coaching. But he keeps saying it, year after year, in exactly the same tone, and a coached line gets refined. His doesn't. The line is just true. The merger went all the way down to where the words start.
 
-After the hospital, [Tom Hanks](/personality-analysis/Tom-Hanks) — widely read as a 9 himself — pulled him aside with advice no other actor on the project was qualified to give. _You have immersed yourself so deeply in Elvis that, for your mental health, it would be wise to go straight into something else._ The kindest possible warning. Hanks was not telling him to rest. He was telling him that for a person built like Butler, rest is the dangerous part. Rest is when the silence comes back. The silence is what the merger was protecting him from. Same-to-same.
+After the hospital, [Tom Hanks](/personality-analysis/tom-hanks) — widely read as a 9 himself — pulled him aside with advice no other actor on the project was qualified to give. _You have immersed yourself so deeply in Elvis that, for your mental health, it would be wise to go straight into something else._ The kindest possible warning. Hanks was not telling him to rest. He was telling him that for a person built like Butler, rest is the dangerous part. Rest is when the silence comes back. The silence is what the merger was protecting him from. Same-to-same.
 
 Butler took the advice. He went straight into _Masters of the Air_, and then _Dune: Part Two_, and then _The Bikeriders_, and then _Eddington_, and then _Caught Stealing_. The release valve for a man who almost dissolved into one role turned out to be more roles. Different shapes. Just don't stop shaping.
 

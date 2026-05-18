@@ -5,14 +5,14 @@ persona_title: "Literature's Cartographer of Loss"
 description: 'Edgar Allan Poe invented detective fiction and terrorized American literature. But the darkness in his work was never fiction — it was autobiography.'
 author: 'DJ Wayne'
 date: '2026-03-28'
-loc: 'https://9takes.com/personality-analysis/Edgar-Allan-Poe'
+loc: 'https://9takes.com/personality-analysis/edgar-allan-poe'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['historical', 'historical-artist']
-person: 'Edgar-Allan-Poe'
+person: 'edgar-allan-poe'
 suggestions: ['Nikola-Tesla', 'Frida-Kahlo', 'Friedrich-Nietzsche', 'Bob-Dylan']
 wikipedia: 'https://en.wikipedia.org/wiki/Edgar_Allan_Poe'
 twitter: ''
@@ -150,7 +150,7 @@ That poem, "Alone," was written when he was twenty-one.
 The evidence runs through everything:
 
 - **The orphan who never belonged.** Taken in but never adopted. Given a family name but never a family. The permanent guest who could see what home looked like but couldn't live in it.
-- **The emotional alchemist.** Poe didn't just write about fear and loss — he transmuted them, the way [Frida Kahlo](/personality-analysis/Frida-Kahlo) would later turn physical pain into paint. "The Tell-Tale Heart," "The Fall of the House of Usher," "Annabel Lee" — each one makes you feel what he felt. That's the Four's gift. The isolation becomes the art.
+- **The emotional alchemist.** Poe didn't just write about fear and loss — he transmuted them, the way [Frida Kahlo](/personality-analysis/frida-kahlo) would later turn physical pain into paint. "The Tell-Tale Heart," "The Fall of the House of Usher," "Annabel Lee" — each one makes you feel what he felt. That's the Four's gift. The isolation becomes the art.
 - **The critic who couldn't tolerate mediocrity.** Nearly a thousand reviews demanding that American literature deserve its name. Fours have an allergic reaction to the fake, the shallow, the merely competent. Poe's "tomahawk" wasn't cruelty. It was a refusal to let people get away with not trying. And when his former friend Thomas Dunn English published a novel caricaturing him as a drunken liar — a character named "Marmaduke Hammerhead," author of "The Black Crow" — Poe responded with "The Cask of Amontillado," a story in which a man bricks his insulter alive inside a catacomb wall. The family motto of the narrator: _Nemo me impune lacessit._ No one insults me with impunity. If that isn't a Four channeling wounded pride into art, nothing is.
 - **The man who described his drinking as an escape from "insupportable loneliness."** Not pleasure-seeking. Not rebellion. The desperate attempt to numb a feeling that was too big to carry.
 

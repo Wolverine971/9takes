@@ -5,14 +5,14 @@ persona_title: "Rap's Armored Queen"
 description: 'The girl who shielded her mother from violence became rap royalty who shields everyone. Inside the Type 8 psychology driving Nicki Minaj.'
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Nicki-Minaj'
+loc: 'https://9takes.com/personality-analysis/nicki-minaj'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['musician']
-person: 'Nicki-Minaj'
+person: 'nicki-minaj'
 suggestions: ['Rihanna', 'Drake', 'Doja-Cat', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Nicki_Minaj'
 twitter: '@NICKIMINAJ'

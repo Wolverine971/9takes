@@ -5,14 +5,14 @@ persona_title: "Hollywood's Quick-Witted Escapist"
 description: "Kate Beckinsale built a comedic shield around her grief — until it burned a literal hole through her body. Inside a Type 7 Enthusiast's reckoning."
 author: 'DJ Wayne'
 date: '2026-05-13'
-loc: 'https://9takes.com/personality-analysis/Kate-Beckinsale'
+loc: 'https://9takes.com/personality-analysis/kate-beckinsale'
 lastmod: '2026-05-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['movieStar', 'celebrity', 'screen-icon']
-person: 'Kate-Beckinsale'
+person: 'kate-beckinsale'
 suggestions: ['Robin-Williams', 'Kevin-Hart', 'Hugh-Jackman', 'Salma-Hayek']
 wikipedia: 'https://en.wikipedia.org/wiki/Kate_Beckinsale'
 instagram: 'katebeckinsale'
@@ -207,7 +207,7 @@ There is a sharper version of the same wit when she needs it. To a body-shamer c
 
 The aging question handles the same way. She gets asked about her face every week of her life. In 2023 she put it on the record: "No threads, no thread lift, no Botox, no laser, no nose job, no filler… I probably would try laser but I'm a bit scared." The pattern is identical. _Take the loaded question, deliver the inventory in a deadpan, end on a self-deprecating button._ The reader exhales. The actual subject — the public surveillance of an aging woman's body — never has to be argued with directly.
 
-A friend who would know once said of her: she's funnier on her worst day than most people are on their best. ([Robin Williams](/personality-analysis/Robin-Williams) lived inside the same equation; so does [Kevin Hart](/personality-analysis/Kevin-Hart). The pattern is recognizable across the type.) This is not a compliment in a vacuum. It is a description of the engine — the mind that has been finding the angle on the worst news since the news first arrived in a sitting room in 1979.
+A friend who would know once said of her: she's funnier on her worst day than most people are on their best. ([Robin Williams](/personality-analysis/robin-williams) lived inside the same equation; so does [Kevin Hart](/personality-analysis/kevin-hart). The pattern is recognizable across the type.) This is not a compliment in a vacuum. It is a description of the engine — the mind that has been finding the angle on the worst news since the news first arrived in a sitting room in 1979.
 
 The persona is genuinely delightful, and the persona is also a load-bearing wall. If the wall ever stops working, what's behind it has had forty-six years to compound.
 

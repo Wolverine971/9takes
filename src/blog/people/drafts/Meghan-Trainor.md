@@ -5,14 +5,14 @@ persona_title: "Pop's Bubblegum Sentinel"
 description: 'Meghan Trainor wrote body-positive anthems while hiding panic disorder, then built a family compound to keep the fight-or-flight response at bay.'
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Meghan-Trainor'
+loc: 'https://9takes.com/personality-analysis/meghan-trainor'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Meghan-Trainor'
+person: 'meghan-trainor'
 suggestions: ['Adele', 'Demi-Lovato', 'Hilary-Duff', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Meghan_Trainor'
 twitter: 'Meghan_Trainor'
@@ -224,7 +224,7 @@ Every time she names the fear in public, the fear loses a small amount of power 
 
 ## Why Meghan Trainor's Weight Loss Broke Her Fans
 
-In 2023, after Barry, she started a GLP-1 medication called Mounjaro. Worked with a dietitian. Worked with a trainer. Lost roughly sixty pounds. Her face changed. The internet noticed. Compare [Demi Lovato](/personality-analysis/Demi-Lovato), who has walked her own version of this gauntlet from the opposite psychological corner. A Six absorbs the criticism privately and keeps going — cries, defends, stays in the room. A Four wires the wound directly into the next song and makes the public watch her bleed. Same fan-backlash, opposite metabolism.
+In 2023, after Barry, she started a GLP-1 medication called Mounjaro. Worked with a dietitian. Worked with a trainer. Lost roughly sixty pounds. Her face changed. The internet noticed. Compare [Demi Lovato](/personality-analysis/demi-lovato), who has walked her own version of this gauntlet from the opposite psychological corner. A Six absorbs the criticism privately and keeps going — cries, defends, stays in the room. A Four wires the wound directly into the next song and makes the public watch her bleed. Same fan-backlash, opposite metabolism.
 
 The backlash had two flavors. The predictable one — _is she on Ozempic, why won't she admit it_ — she resolved in 2024 by naming the drug and the reason she went on it. Pure Trainor transparency. The other flavor was harder. Fans who had built their self-worth around "All About That Bass" felt betrayed. _You told us our bodies were beautiful. Now you've fixed yours._
 

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Armored Comedian"
 description: "Ryan Reynolds uses humor to outrun anxiety he's carried since childhood. Inside the Type 7 psychology behind the jokes, the empire, and the father wound."
 author: 'DJ Wayne'
 date: '2025-02-25'
-loc: 'https://9takes.com/personality-analysis/Ryan-Reynolds'
+loc: 'https://9takes.com/personality-analysis/ryan-reynolds'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['movieStar', 'entrepreneur', 'screen-icon', 'business-operator']
-person: 'Ryan-Reynolds'
+person: 'ryan-reynolds'
 suggestions: ['Hugh-Jackman', 'Dax-Shepard', 'Blake-Lively', 'Tom-Holland']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Reynolds'
 twitter: 'VancityReynolds'
@@ -110,7 +110,7 @@ Reynolds fits this pattern with textbook precision, but what makes him interesti
 
 When Reynolds [goes to a dark place](/enneagram-corner/enneagram-types-in-stress), the reframing machine seizes up. The spontaneous mind that normally generates possibilities locks into a rigid, critical loop — "I lay awake at night, wrapping and unwrapping every possible scenario." Instead of finding the joke, he fixates on the threat. The escape artist trapped in his own head.
 
-His [Type 6](/enneagram-corner/enneagram-type-6) wing explains why he isn't just a thrill-chaser. Where a pure Seven bounces from adventure to adventure without looking back, Reynolds builds safety nets. Diversified business empires that ensure he'll never be cornered. Deep, decades-long friendships that outlast any project. The mock feud with [Hugh Jackman](/personality-analysis/Hugh-Jackman) isn't content — it's a loyalty bond disguised as comedy.
+His [Type 6](/enneagram-corner/enneagram-type-6) wing explains why he isn't just a thrill-chaser. Where a pure Seven bounces from adventure to adventure without looking back, Reynolds builds safety nets. Diversified business empires that ensure he'll never be cornered. Deep, decades-long friendships that outlast any project. The mock feud with [Hugh Jackman](/personality-analysis/hugh-jackman) isn't content — it's a loyalty bond disguised as comedy.
 
 And when he's at his best, the pattern inverts. Instead of going wide, he goes deep — the calculated Wrexham investment, the methodical construction of Maximum Effort, the deliberate decision to pay his own writers from his salary to protect a creative vision.
 
@@ -209,7 +209,7 @@ The disease created distance, and Reynolds let it. "It was very easy for me to d
 
 The Seven who could reframe anything couldn't reframe this. He ran from the pain the way he'd always run from pain — and this time, the exit closed behind him.
 
-Then [Blake Lively](/personality-analysis/Blake-Lively) made him look back.
+Then [Blake Lively](/personality-analysis/blake-lively) made him look back.
 
 They met on the set of Green Lantern, started as friends, crossed a line on a dance floor in Tribeca, and built something that quietly restructured his operating system. "She always responds with empathy," Reynolds said during a Humans of New York appearance at the Met Gala. "She meets anger with empathy. She meets hate with empathy. She'll take the time to imagine what happened to a person when they were five or six years old. And she's made me a more empathetic person."
 

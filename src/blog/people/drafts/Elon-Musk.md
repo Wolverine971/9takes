@@ -5,14 +5,14 @@ description: "A dark conference room, the world's richest man on the floor, and 
 persona_title: "Technology's Apocalyptic Engineer"
 author: 'DJ Wayne'
 date: '2023-09-03'
-loc: 'https://9takes.com/personality-analysis/Elon-Musk'
+loc: 'https://9takes.com/personality-analysis/elon-musk'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
 type: ['techie', 'big-tech-founder']
-person: 'Elon-Musk'
+person: 'elon-musk'
 suggestions:
   [
     'Bill-Gates',
@@ -150,7 +150,7 @@ Fourteen years mapped to 2008 — Tesla and SpaceX nearly dying simultaneously. 
 
 Most Type 5s theorize endlessly. Elon transforms theory into reality.
 
-In conversation with <a href="/personality-analysis/Lex-Fridman">Lex Fridman</a>, he explained: **"I think it's important to reason from first principles rather than by analogy... It takes a lot more mental energy."**
+In conversation with <a href="/personality-analysis/lex-fridman">Lex Fridman</a>, he explained: **"I think it's important to reason from first principles rather than by analogy... It takes a lot more mental energy."**
 
 When Musk started SpaceX in 2002, rockets cost $65 million. He asked a different question: **"What is a rocket made of? Aerospace-grade aluminum alloys, plus some titanium, copper, and carbon fiber. What is the value of those materials on the commodity market? It turned out that the materials cost of a rocket was around two percent of the typical price."**
 
@@ -219,7 +219,7 @@ The other alternate-core case is Type 8: dominance displays, empire-building, wi
 
 Zip2 sold for $300 million in 1999. X.com became PayPal, sold for $1.5 billion in 2002. Financial success alone could not satisfy a Type 5. He needed bigger systems.
 
-<a href="/personality-analysis/Peter-Thiel">Peter Thiel</a>, his PayPal colleague, made a counterintuitive observation: **"He's the most risk-averse person I've ever met... He's always thinking about ways to reduce risk."** What looks like recklessness is calculated. SpaceX's Falcon 1 failed three times before reaching orbit. Elon kept analyzing, kept iterating.
+<a href="/personality-analysis/peter-thiel">Peter Thiel</a>, his PayPal colleague, made a counterintuitive observation: **"He's the most risk-averse person I've ever met... He's always thinking about ways to reduce risk."** What looks like recklessness is calculated. SpaceX's Falcon 1 failed three times before reaching orbit. Elon kept analyzing, kept iterating.
 
 The pattern across every venture: identify an industry running on inherited assumptions, reduce it to first principles, rebuild. SpaceX rewrote space economics. Tesla transformed electric vehicles from eco-compromises into objects of desire. The Boring Company cuts tunnel costs from $200 million per mile to $27 million. Neuralink puts brain implants in patients who control computers with thought. xAI engages the AI threat directly rather than warning from the sidelines.
 
@@ -255,7 +255,7 @@ Despite the turbulence, she calls him "the perfect ex-husband." Elon attended he
 
 ### Grimes: When Two Minds Collide
 
-His relationship with <a href="/personality-analysis/Grimes">Grimes</a> looked different. Their shared passion for AI, space, and futurism created an intellectual bond that transcended his previous partnerships. Three children: X Æ A-Xii (2020), Exa Dark Sideræl (2021), Techno Mechanicus (2022).
+His relationship with <a href="/personality-analysis/grimes">Grimes</a> looked different. Their shared passion for AI, space, and futurism created an intellectual bond that transcended his previous partnerships. Three children: X Æ A-Xii (2020), Exa Dark Sideræl (2021), Techno Mechanicus (2022).
 
 Grimes described the attraction: **"We've had this amazing debate about AI and computing... It's not like a celebrity thing where you're just writing about what they're eating."** Precisely what draws a Type 5 into relationship: someone who energizes rather than depletes mental energy.
 
@@ -299,7 +299,7 @@ He has said: **"Kids by far make me the happiest."** His young son X Æ A-Xii ac
 
 ## Trump and DOGE: The System That Wouldn't Behave
 
-Elon saw government as one more system to master. He donated nearly $300 million to <a href="/personality-analysis/Donald-Trump">Trump's</a> 2024 campaign and embedded himself in DOGE with access to Treasury payment systems — the Investigator deploying the same first-principles approach that cracked rocket economics and battery chemistry.
+Elon saw government as one more system to master. He donated nearly $300 million to <a href="/personality-analysis/donald-trump">Trump's</a> 2024 campaign and embedded himself in DOGE with access to Treasury payment systems — the Investigator deploying the same first-principles approach that cracked rocket economics and battery chemistry.
 
 But political reality doesn't reduce to first principles.
 

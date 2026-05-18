@@ -4,14 +4,14 @@ meta_title: "Why MrBeast Keeps Building Even When It's Breaking Him"
 description: 'Jimmy Donaldson turned isolation, illness, and defiance into the loudest machine on YouTube, then got trapped inside the empire he built.'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Mr-Beast'
+loc: 'https://9takes.com/personality-analysis/mr-beast'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['creator', 'viral-entertainer']
-person: 'Mr-Beast'
+person: 'mr-beast'
 persona_title: "The Algorithm Monk Who Can't Stop Building"
 suggestions: ['PewDiePie', 'Logan-Paul', 'Elon-Musk', 'David-Dobrik', 'IShowSpeed', 'Alex-Cooper']
 wikipedia: 'https://en.wikipedia.org/wiki/MrBeast'

@@ -5,14 +5,14 @@ persona_title: "Camelot's Graceful Fugitive"
 description: 'JFK projected vitality while living in agony. How Type 7 wiring shaped Camelot, the Cuban Missile Crisis, the Vietnam escalation, and the affairs the Camelot story was built to hide.'
 author: 'DJ Wayne'
 date: '2024-07-10'
-loc: 'https://9takes.com/personality-analysis/John-F-Kennedy'
+loc: 'https://9takes.com/personality-analysis/john-f-kennedy'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['politician', 'historical', 'modern-leader']
-person: 'John-F-Kennedy'
+person: 'john-f-kennedy'
 suggestions: ['Jackie-Kennedy', 'Abraham-Lincoln', 'Barack-Obama', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/John_F._Kennedy'
 content_quality:
@@ -140,7 +140,7 @@ Those first years were painful to watch. In 1946, running for Congress in workin
 
 After that, Kennedy campaigned with a convert's desperation. Thirty-four speeches in a single day. Climbing tenement stairs to sit in kitchens. The day before the primary, he marched five miles in the Bunker Hill Day Parade and collapsed at the finish, turning yellow and blue. Aides thought he was having a heart attack. He won the primary in a landslide.
 
-He got C-pluses and a C-minus in public speaking as a young man. Then he became the greatest communicator to hold the presidency since [Lincoln](/personality-analysis/Abraham-Lincoln), another president who built a public persona atop private anguish. Every room, every quip, every press conference: will, not nature.
+He got C-pluses and a C-minus in public speaking as a young man. Then he became the greatest communicator to hold the presidency since [Lincoln](/personality-analysis/abraham-lincoln), another president who built a public persona atop private anguish. Every room, every quip, every press conference: will, not nature.
 
 ---
 
@@ -251,7 +251,7 @@ Both things are true. The wiring was real. The choices made inside the wiring we
 
 **"My marriage was like a deep black hole and I knew if I looked down, I'd fall in."**
 
-<a href="/personality-analysis/Jackie-Kennedy">Jackie Kennedy</a> said that years after everything. After the White House. After Dallas. She came from a world where powerful men had affairs and their wives tolerated it. Her own father was a Wall Street stockbroker known for infidelity. She entered the Kennedy marriage with open eyes. But open eyes do not prevent wounds.
+<a href="/personality-analysis/jackie-kennedy">Jackie Kennedy</a> said that years after everything. After the White House. After Dallas. She came from a world where powerful men had affairs and their wives tolerated it. Her own father was a Wall Street stockbroker known for infidelity. She entered the Kennedy marriage with open eyes. But open eyes do not prevent wounds.
 
 In 1956, Jackie miscarried while Jack was sailing across the Atlantic, unreachable. Bobby handled the funeral arrangements. Jackie wanted out. Joe Kennedy Sr. offered her one million dollars not to divorce.
 

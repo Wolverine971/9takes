@@ -5,14 +5,14 @@ description: 'Madison Beer turned lockets, lyrics, therapy, and public breakdown
 persona_title: "Pop's Haunted Locket"
 author: 'DJ Wayne'
 date: '2024-10-30'
-loc: 'https://9takes.com/personality-analysis/Madison-Beer'
+loc: 'https://9takes.com/personality-analysis/madison-beer'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician', 'lifestyleInfluencer', 'lifestyle-builder', 'music-crossover']
-person: 'Madison-Beer'
+person: 'madison-beer'
 suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Madison_Beer'
 twitter: 'madisonbeer'
@@ -89,7 +89,7 @@ The first fracture came at seven. Her parents divorced in 2006. Her father's "mu
 
 She taught herself piano, drums, and guitar from books and YouTube tutorials. No formal instruction. Just a kid alone in her room, learning instruments from strangers on the internet, building an internal world she could control.
 
-At 13, she posted a cover of Etta James's "At Last" to YouTube. [Justin Bieber](/personality-analysis/Justin-Bieber) tweeted it to his millions of followers. Overnight, she went from eighth-grader to trending topic. Scooter Braun signed her before her 14th birthday. The machine started.
+At 13, she posted a cover of Etta James's "At Last" to YouTube. [Justin Bieber](/personality-analysis/justin-bieber) tweeted it to his millions of followers. Overnight, she went from eighth-grader to trending topic. Scooter Braun signed her before her 14th birthday. The machine started.
 
 Labels told her: "We all love you; you're going to be the female Justin Bieber, give it a year."
 
@@ -153,7 +153,7 @@ Read that again. Fans are telling her she's their dream. And she's standing ther
 
 "I tried to be somewhat of a role model for so long that I ended up not even allowing myself to make human errors — that's unhealthy."
 
-The comparison had a target. She never named names, but the context is legible: [Olivia Rodrigo](/personality-analysis/Olivia-Rodrigo), [Billie Eilish](/personality-analysis/Billie-Eilish), [Sabrina Carpenter](/personality-analysis/Sabrina-Carpenter) — generational peers who achieved the mainstream dominance that kept eluding her. _Evie Magazine_ even ran an article titled "Why Hasn't Madison Beer Reached Olivia Rodrigo's Level of Success?"
+The comparison had a target. She never named names, but the context is legible: [Olivia Rodrigo](/personality-analysis/olivia-rodrigo), [Billie Eilish](/personality-analysis/billie-eilish), [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) — generational peers who achieved the mainstream dominance that kept eluding her. _Evie Magazine_ even ran an article titled "Why Hasn't Madison Beer Reached Olivia Rodrigo's Level of Success?"
 
 She says she's "fiercely protective of her female peers." But protectiveness and comparison coexist. You can root for someone and still measure yourself against them every night.
 
@@ -169,7 +169,7 @@ Madison's creative process reveals more about her psychology than any interview 
 
 "Definitely melodies first," she told _Interview Magazine_. "I can't write without the melody."
 
-She records vocals straight through — no jumping in and out of the booth. She keeps her creative circle small, working with the same producer, Leroy Clampitt, across multiple albums. Clampitt, who is Grammy-nominated and has produced for [Justin Bieber](/personality-analysis/Justin-Bieber) and Sabrina Carpenter, has called Madison his "idol, mentor, one of his biggest influences, deepest collaborators and dearest friends." When a producer of his caliber calls his artist his _mentor_, it tells you who leads in the room.
+She records vocals straight through — no jumping in and out of the booth. She keeps her creative circle small, working with the same producer, Leroy Clampitt, across multiple albums. Clampitt, who is Grammy-nominated and has produced for [Justin Bieber](/personality-analysis/justin-bieber) and Sabrina Carpenter, has called Madison his "idol, mentor, one of his biggest influences, deepest collaborators and dearest friends." When a producer of his caliber calls his artist his _mentor_, it tells you who leads in the room.
 
 But the revealing detail is this:
 
@@ -179,7 +179,7 @@ She was writing songs about wanting to leave while still sitting in the same roo
 
 "Getting that deeply into some really serious things that I've been through, and just facing certain facts that maybe I'd been running from prior, it made me want to write about them."
 
-[Lana Del Rey](/personality-analysis/Lana-Del-Rey), who became Madison's friend and mentor, heard Beatles influence throughout _Silence Between Songs_ and called it "the perfect record." Lana also reportedly approached Madison in a coffee shop to tell her she was a fan — and taught her "not to put so much pressure on herself when it comes to releasing music."
+[Lana Del Rey](/personality-analysis/lana-del-rey), who became Madison's friend and mentor, heard Beatles influence throughout _Silence Between Songs_ and called it "the perfect record." Lana also reportedly approached Madison in a coffee shop to tell her she was a fan — and taught her "not to put so much pressure on herself when it comes to releasing music."
 
 The woman who feels like a failure being told by her idol that the pressure is self-imposed. That's the kind of moment that either changes someone or bounces off entirely.
 
@@ -462,7 +462,7 @@ PRIORITY FIXES:
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Madison-Beer",
+        "@id": "https://9takes.com/personality-analysis/madison-beer",
         "@type": "WebPage"
       },
       "mentions": {

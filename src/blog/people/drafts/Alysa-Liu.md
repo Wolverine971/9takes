@@ -5,14 +5,14 @@ persona_title: 'The Champion Who Quit'
 description: "She quit skating at 16 because it felt like a burden. She came back to win Olympic gold. The Enneagram Type 7 logic behind Alysa Liu's comeback."
 author: 'DJ Wayne'
 date: '2026-05-05'
-loc: 'https://9takes.com/personality-analysis/Alysa-Liu'
+loc: 'https://9takes.com/personality-analysis/alysa-liu'
 lastmod: '2026-05-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['celebrity', 'celebrity-image']
-person: 'Alysa-Liu'
+person: 'alysa-liu'
 suggestions: ['Brittany-Broski', 'Benson-Boone', 'Doja-Cat', 'Bad-Bunny']
 wikipedia: 'https://en.wikipedia.org/wiki/Alysa_Liu'
 instagram: 'alysaliu'

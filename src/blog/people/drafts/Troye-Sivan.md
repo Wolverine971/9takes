@@ -5,14 +5,14 @@ persona_title: "Pop's Beautiful Exile"
 description: 'Why does Troye Sivan share so much and still keep the deepest parts hidden? We decode the Type 4 pattern behind the songs, style, and exposure paradox.'
 author: 'DJ Wayne'
 date: '2026-03-28'
-loc: 'https://9takes.com/personality-analysis/Troye-Sivan'
+loc: 'https://9takes.com/personality-analysis/troye-sivan'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician', 'pop-star']
-person: 'Troye-Sivan'
+person: 'troye-sivan'
 suggestions: ['Billie-Eilish', 'Harry-Styles', 'Charli-XCX', 'Lana-Del-Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Troye_Sivan'
 twitter: 'traborjam'

@@ -11,7 +11,7 @@ priority: '0.6'
 published: false
 enneagram: '2'
 type: ['person', 'situational']
-person: 'Jeffrey-Epstein'
+person: 'jeffrey-epstein'
 persona_title: 'The Dark Helper'
 suggestions: ['Bill-Gates', 'Donald-Trump', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeffrey_Epstein'

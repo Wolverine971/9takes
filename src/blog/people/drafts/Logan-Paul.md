@@ -5,14 +5,14 @@ persona_title: 'The Redemption Entrepreneur'
 description: 'Logan Paul went from isolated kid to state wrestler to viral star to WWE fighter. The personality behind every pivot: turning attention into respect.'
 author: 'DJ Wayne'
 date: '2026-02-18'
-loc: 'https://9takes.com/personality-analysis/Logan-Paul'
+loc: 'https://9takes.com/personality-analysis/logan-paul'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator', 'viral-entertainer']
-person: 'Logan-Paul'
+person: 'logan-paul'
 suggestions: ['Jake-Paul', 'Kai-Cenat', 'IShowSpeed', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/Logan_Paul'
 twitter: 'LoganPaul'
@@ -84,7 +84,7 @@ The lesson isn't "this caused everything." It's simpler: when love and safety fe
 
 ## The Camera Became the First Scoreboard
 
-Long before Prime bottles and WWE pyro, Logan and his younger brother [Jake Paul](/personality-analysis/Jake-Paul) treated the internet like a ladder: post, learn what hits, post again.
+Long before Prime bottles and WWE pyro, Logan and his younger brother [Jake Paul](/personality-analysis/jake-paul) treated the internet like a ladder: post, learn what hits, post again.
 
 Vine (2013) rewarded punchy spectacle, and Logan learned quickly: attention is currency. When Vine died, he moved to YouTube without hesitation. Different platform, same game.
 
@@ -168,7 +168,7 @@ The episode is revealing because it's one of the few times Logan chose legal act
 
 Logan's rivals aren't just enemies. They're mirrors.
 
-[Jake Paul](/personality-analysis/Jake-Paul) is the most obvious one: same last name, same internet origin story, same obsession with "wins," different brands. A brother that close is a permanent comparison machine. Even when the relationship is loving, the competition never fully turns off.
+[Jake Paul](/personality-analysis/jake-paul) is the most obvious one: same last name, same internet origin story, same obsession with "wins," different brands. A brother that close is a permanent comparison machine. Even when the relationship is loving, the competition never fully turns off.
 
 KSI is the more complicated arc: rival, opponent, business partner, and the source of the brothers' worst rift. Jake publicly accused Logan of "playing both sides" by partnering with KSI while expecting Jake to honor the brotherhood. Their relationship hit what Jake called a "breaking point" in 2023.
 

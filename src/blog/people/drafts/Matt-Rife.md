@@ -5,18 +5,62 @@ persona_title: "Comedy's Grief-Powered Charmer"
 description: "Matt Rife's father died by suicide when he was 17 months old. His career is one long audition for a room that can't leave. An Enneagram Type 3w2 analysis."
 author: 'DJ Wayne'
 date: '2026-04-27'
-loc: 'https://9takes.com/personality-analysis/Matt-Rife'
+loc: 'https://9takes.com/personality-analysis/matt-rife'
 lastmod: '2026-04-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
 type: ['comedian']
-person: 'Matt-Rife'
+person: 'matt-rife'
 suggestions: ['Andrew-Schulz', 'Theo-Von', 'Shane-Gillis', 'Pete-Davidson']
 wikipedia: 'https://en.wikipedia.org/wiki/Matt_Rife'
 instagram: 'mattrife'
 tiktok: 'matt_rife'
+wikidata_qid: 'Q113632706'
+imdb_id: 'nm5994231'
+birth_date: '1995-09-10'
+birth_place: 'North Lewisburg, Ohio, USA'
+nationality: 'American'
+occupation:
+  - 'Stand-up comedian'
+  - 'Actor'
+  - 'Author'
+knows_about:
+  - 'Stand-up comedy'
+  - 'Crowd work comedy'
+  - 'Wild ''n Out'
+  - 'Netflix specials'
+  - 'TikTok virality'
+keywords:
+  - 'Matt Rife enneagram'
+  - 'Matt Rife type 3'
+  - 'Matt Rife personality'
+  - 'Matt Rife 3w2'
+  - 'Achiever enneagram'
+  - 'Matt Rife crowd work'
+  - 'Matt Rife Netflix Natural Selection'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Matt_Rife'
+  - 'https://www.wikidata.org/wiki/Q113632706'
+  - 'https://www.imdb.com/name/nm5994231/'
+  - 'https://www.instagram.com/mattrife/'
+  - 'https://www.tiktok.com/@matt_rife'
+citations:
+  - 'https://en.wikipedia.org/wiki/Matt_Rife'
+  - 'https://en.wikipedia.org/wiki/Natural_Selection_(comedy_special)'
+  - 'https://www.forbes.com/sites/jordanmoreau/2023/10/'
+  - 'https://www.rollingstone.com/culture/culture-features/matt-rife-comedian-2023-1234880000/'
+faqs:
+  - question: "What is Matt Rife's personality type?"
+    answer: "Matt Rife is an Enneagram Type 3 (The Achiever) with a 2 wing. His father died by suicide when Matt was 17 months old; the career that followed has been one long audition for a room that cannot leave. The 3w2 pattern shows in the crowd-work specialization, the heartthrob image management, the buying-his-mother-a-house gesture, and the careful denials about cosmetic work — image is the product, and Threes cannot afford to let it become an open question."
+    anchor: 'what-is-matt-rifes-personality-type'
+  - question: 'Why does Matt Rife do so much crowd work?'
+    answer: "Crowd work is the medium that returns approval the fastest. A written joke takes weeks to test; a crowd-work exchange returns its score the same instant the bit lands. For a Type 3 whose first room was a father-shaped vacancy, the comedy form that minimizes the gap between effort and applause is the form he was always going to optimize for. The rooms can't leave him because the rooms are participating."
+    anchor: 'why-matt-rife-built-his-career-on-crowd-work'
+  - question: 'What happened with the 2023 Netflix special backlash?'
+    answer: "Matt Rife's first Netflix special Natural Selection (November 2023) opened with a joke about domestic violence that triggered a major backlash. He responded with an Instagram story directing offended fans to a website that, when clicked, took them to a help center for people with special needs. The response itself was a Type 3 move: when the image takes damage, the Achiever doubles down on the version of himself the original audience already approved of."
+    anchor: 'the-natural-selection-backlash-and-the-doubled-down-image'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -73,7 +117,7 @@ Locations: "How Matt Rife got famous" (Three-with-Two charm + crowd work as Thre
 
 <p class="firstLetter">Matt Rife has not entered REM sleep in five years.</p>
 
-His own count, told to [Joe Rogan](/personality-analysis/Joe-Rogan), on a microphone, calm as a weather report. Nine days straight awake once. Xanax that doesn't work. A brain, he says, that does the same fast switching at 4 a.m. that it does onstage — except at 4 a.m. there's no one in the room.
+His own count, told to [Joe Rogan](/personality-analysis/joe-rogan), on a microphone, calm as a weather report. Nine days straight awake once. Xanax that doesn't work. A brain, he says, that does the same fast switching at 4 a.m. that it does onstage — except at 4 a.m. there's no one in the room.
 
 Almost no one. For the last few years, the houseguest he's been most public about is the Annabelle doll — the one from the Warren case files, the artifact at the center of a horror franchise that has grossed over two billion dollars at the global box office. He owns her now. She sits on a shelf in his home. He tells the story the way other people tell the story of their dog.
 
@@ -130,7 +174,7 @@ Then he did something that, in hindsight, reads as a pure Three move: he bet on 
 
 That quote doesn't sound like anything the 2023 Matt Rife would admit. It is, in fact, the 2023 Matt Rife, speaking to _Variety_ in the same week his Netflix special dropped. The cockiness is a layer laid down on top of something the viewer is not supposed to notice is there. The silent years are the reason it's so thick.
 
-[Dave Chappelle](/personality-analysis/Dave-Chappelle) — whom Rife has repeatedly called a mentor, and at whose fiftieth birthday show at Madison Square Garden Rife performed — gave him advice that comes up in nearly every long-form interview Rife has done since.
+[Dave Chappelle](/personality-analysis/dave-chappelle) — whom Rife has repeatedly called a mentor, and at whose fiftieth birthday show at Madison Square Garden Rife performed — gave him advice that comes up in nearly every long-form interview Rife has done since.
 
 "Make sure you're still making time to live your life," Chappelle told him. "Because that's where material comes from."
 
@@ -180,7 +224,7 @@ Somewhere between the first Netflix special and the 2024 tour that reportedly gr
 
 The standard celebrity-hobby frame reads this as quirk. _Aww, the comedian likes ghosts._ The more honest read is that a man who cannot sleep is spending his downtime in the places that would frighten a normal person into sleep deprivation.
 
-That is not a hobby. That's an environment he already lives in, rendered external.
+It is not a hobby. It is an environment he already lives in, rendered external.
 
 <div class="contrast-panel">
 <p><b>Public-facing Matt:</b> chill, flirty, unbothered. Front row at NBA games. Instagram-official with a fitness model. Hollywood Bowl at twenty-eight, four nights at the Dolby, Madison Square Garden.</p>
@@ -215,7 +259,7 @@ The peace does not seem to be arriving. This is the part of the pattern the crow
 
 ## How Matt Rife compares to Schulz, Theo, Gillis, and Davidson
 
-The male-comic cohort Rife is usually grouped with — [Andrew Schulz](/personality-analysis/Andrew-Schulz), [Theo Von](/personality-analysis/Theo-Von), [Shane Gillis](/personality-analysis/Shane-Gillis), [Pete Davidson](/personality-analysis/Pete-Davidson) — is a useful diagnostic rack.
+The male-comic cohort Rife is usually grouped with — [Andrew Schulz](/personality-analysis/andrew-schulz), [Theo Von](/personality-analysis/theo-von), [Shane Gillis](/personality-analysis/shane-gillis), [Pete Davidson](/personality-analysis/pete-davidson) — is a useful diagnostic rack.
 
 Schulz is a crowd-work virtuoso too, but he runs _toward_ the fight. His self-released output, the Trump interview, the venue cancellations he publicizes rather than hides — his whole brand is _I will break your frame, not manage it._ That's not Three behavior. Theo Von tells Bayou-Gothic stories of his own weirdness; his platform is a podcast, his product is vulnerability, his image is unkempt-seeker, not heartthrob. Gillis was fired by SNL, built a parallel media company with Matt McCusker, and returned to host the show five years later; the move is _I'll outlast you by being liked by my own people_, and the material is tightly written by a team. Davidson made the damaged-pretty-boy thing into a career long before Rife made the ascendant-pretty-boy thing into one; Davidson's voice is _you can see how small I feel_, Rife's is _you cannot see me feeling anything._
 

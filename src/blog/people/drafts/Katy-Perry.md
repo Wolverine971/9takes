@@ -5,14 +5,14 @@ persona_title: "Pop's Restless Escape Artist"
 description: "From Pentecostal pastor's daughter to pop icon to identity crisis — how Katy Perry's relentless reinvention reveals an Enneagram Type 7 running from deprivation."
 author: 'DJ Wayne'
 date: '2026-04-01'
-loc: 'https://9takes.com/personality-analysis/Katy-Perry'
+loc: 'https://9takes.com/personality-analysis/katy-perry'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
-person: 'Katy-Perry'
+person: 'katy-perry'
 suggestions: ['Doja-Cat', 'Taylor-Swift', 'Alex-Cooper', 'Benson-Boone']
 wikipedia: 'https://en.wikipedia.org/wiki/Katy_Perry'
 twitter: '@katyperry'
@@ -124,7 +124,7 @@ That reflex — convert the wound, move forward, never sit in it — isn't just 
 
 You can see the Seven in Perry before you ever read a personality framework. It's in the velocity — the way she moves through identities the way other people move through outfits.
 
-Seven albums. Seven distinct eras. Gospel singer to bubblegum provocateur to California dream girl to "purposeful pop" artist to dance-pop comeback. Like fellow Seven [Doja Cat](/personality-analysis/Doja-Cat), she has never repeated a persona. Like [Taylor Swift](/personality-analysis/Taylor-Swift), she understands that reinvention is currency in pop — but where Swift archives each era with meticulous narrative control, Perry torches hers. The old version doesn't get preserved. It gets left behind.
+Seven albums. Seven distinct eras. Gospel singer to bubblegum provocateur to California dream girl to "purposeful pop" artist to dance-pop comeback. Like fellow Seven [Doja Cat](/personality-analysis/doja-cat), she has never repeated a persona. Like [Taylor Swift](/personality-analysis/taylor-swift), she understands that reinvention is currency in pop — but where Swift archives each era with meticulous narrative control, Perry torches hers. The old version doesn't get preserved. It gets left behind.
 
 The Seven's core wound forms when a child learns that the world will not provide satisfaction, so they must manufacture it themselves. Perry learned this in the most literal way possible: food stamps, forbidden cereal, a social world that ended at the church walls. If the world won't give you what you need, you leave it and build your own.
 

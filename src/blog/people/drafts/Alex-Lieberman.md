@@ -5,14 +5,14 @@ persona_title: "Media's Anxious Optimist"
 description: "Alex Lieberman sold Morning Brew for $75M at 28 and felt worse. Inside the Type 7 founder's panic attacks, OCD, and the grief he kept burying in the next project."
 author: 'DJ Wayne'
 date: '2026-05-11'
-loc: 'https://9takes.com/personality-analysis/Alex-Lieberman'
+loc: 'https://9takes.com/personality-analysis/alex-lieberman'
 lastmod: '2026-05-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['entrepreneur', 'creator', 'business-creator', 'business-operator']
-person: 'Alex-Lieberman'
+person: 'alex-lieberman'
 suggestions: ['Alex-Hormozi', 'Brian-Chesky', 'Chris-Williamson', 'Tim-Ferriss']
 wikipedia: ''
 twitter: 'businessbarista'

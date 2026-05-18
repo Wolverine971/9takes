@@ -5,14 +5,14 @@ persona_title: "Hollywood's Beautiful Outsider"
 description: "Johnny Depp built a career out of masks, personas, and vanishing acts, still searching for one identity that doesn't feel like a costume."
 author: 'DJ Wayne'
 date: '2024-08-30'
-loc: 'https://9takes.com/personality-analysis/Johnny-Depp'
+loc: 'https://9takes.com/personality-analysis/johnny-depp'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['movieStar', 'screen-icon']
-person: 'Johnny-Depp'
+person: 'johnny-depp'
 suggestions: ['Joaquin-Phoenix', 'Jared-Leto', 'Lady-Gaga', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Johnny_Depp'
 twitter: ''
@@ -178,7 +178,7 @@ Ed Wood is the parable in miniature: a man whose inner vision of himself has no 
 
 Eight films together across two decades. _Sleepy Hollow_, where Depp modeled Ichabod Crane after Angela Lansbury — "a very delicate, fragile person who was maybe a little too in touch with his feminine side." _Sweeney Todd_, where he drew from Peter Lorre's portrayal of a "creepy but sympathetic" surgeon. Every role another outsider. Every outsider another way to be real by being someone else entirely.
 
-It's why Depp's best work feels closer to [Joaquin Phoenix](/personality-analysis/Joaquin-Phoenix) than to glossy, brand-forward stardom: the point isn't to look impressive. The point is to turn the private interior into something the world can finally see.
+It's why Depp's best work feels closer to [Joaquin Phoenix](/personality-analysis/joaquin-phoenix) than to glossy, brand-forward stardom: the point isn't to look impressive. The point is to turn the private interior into something the world can finally see.
 
 ---
 
@@ -313,7 +313,7 @@ He also didn't pretend the truth was flattering. When his own violent, ugly text
 
 _Ashamed_. Named. Out loud. In a courtroom. For a Four — someone whose entire architecture is built to avoid being seen as defective — that sentence cost more than the lawsuit.
 
-The jury ultimately awarded Depp $10.35 million in damages and [Amber Heard](/personality-analysis/Amber-Heard) $2 million on her counterclaim.
+The jury ultimately awarded Depp $10.35 million in damages and [Amber Heard](/personality-analysis/amber-heard) $2 million on her counterclaim.
 
 And notice what happened afterward. He didn't take a victory lap. He sounded emptied out:
 

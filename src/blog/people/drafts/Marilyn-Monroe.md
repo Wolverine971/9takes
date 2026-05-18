@@ -5,14 +5,14 @@ persona_title: "Hollywood's Armored Icon"
 description: 'Marilyn Monroe turned intelligence, allure, and reinvention into armor while quietly asking whether anyone could be trusted with Norma Jeane.'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Marilyn-Monroe'
+loc: 'https://9takes.com/personality-analysis/marilyn-monroe'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['movieStar', 'screen-icon']
-person: 'Marilyn-Monroe'
+person: 'marilyn-monroe'
 suggestions: ['Jackie-Kennedy', 'Princess-Diana', 'Paris-Hilton', 'Scarlett-Johansson']
 wikipedia: 'https://en.wikipedia.org/wiki/Marilyn_Monroe'
 twitter: 'https://twitter.com/MarilynMonroe'

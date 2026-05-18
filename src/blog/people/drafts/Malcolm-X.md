@@ -5,14 +5,14 @@ meta_title: "Malcolm X's Psychology: Why the Most 'Rigid' Leader Kept Changing H
 description: "Everyone remembers Malcolm X's fire. The more remarkable thing was his flexibility. A Type 8 Enneagram analysis of the psychology behind both."
 author: 'DJ Wayne'
 date: '2026-01-17'
-loc: 'https://9takes.com/personality-analysis/Malcolm-X'
+loc: 'https://9takes.com/personality-analysis/malcolm-x'
 lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['historical', 'movement-leader']
-person: 'Malcolm-X'
+person: 'malcolm-x'
 suggestions: ['Martin-Luther-King-Jr', 'Abraham-Lincoln', 'Barack-Obama', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Malcolm_X'
 twitter: ''
@@ -230,7 +230,7 @@ The FBI — with every resource available, every incentive to discredit him — 
 
 His principles had no price. His positions did.
 
-He changed his view of race after Mecca. His view of women after Africa. His view of [Martin Luther King Jr.](/personality-analysis/Martin-Luther-King-Jr) after watching what King's commitment actually cost. He kept every one of those changes while maintaining the ferocity that made him dangerous in the first place.
+He changed his view of race after Mecca. His view of women after Africa. His view of [Martin Luther King Jr.](/personality-analysis/martin-luther-king-jr) after watching what King's commitment actually cost. He kept every one of those changes while maintaining the ferocity that made him dangerous in the first place.
 
 "The mental flexibility of the wise man permits him to keep an open mind and enables him to readjust himself whenever it becomes necessary for a change."
 

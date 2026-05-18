@@ -5,14 +5,14 @@ persona_title: "Media's Restless Crusader"
 description: "Saagar Enjeti isn't a bookworm intellectual. He's a Type 7 who turns fear into forward motion across books, crusades, and careers."
 author: 'DJ Wayne'
 date: '2025-01-20'
-loc: 'https://9takes.com/personality-analysis/Saagar-Enjeti'
+loc: 'https://9takes.com/personality-analysis/saagar-enjeti'
 lastmod: '2026-04-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['journalist', 'creator', 'news-commentator']
-person: 'Saagar-Enjeti'
+person: 'saagar-enjeti'
 suggestions: ['Krystal-Ball', 'Ryan-Grim', 'Tucker-Carlson', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Saagar_Enjeti'
 twitter: 'https://twitter.com/esaagar'
@@ -97,7 +97,7 @@ Listen to Saagar talk about books and you'll hear something most people mistake 
 
 In December 2020, he published his "Best Reads of 2020" on The Realignment's Substack. It reads less like a book list than a field report from a brain on fire.
 
-"I became obsessed with the early history of the American West," he wrote, after hearing S.C. Gwynne discuss _Empire of the Summer Moon_ on <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>'s podcast. He didn't just read the book. He consumed everything he could find about the collision between American settlers and the Comanche. Then moved on.
+"I became obsessed with the early history of the American West," he wrote, after hearing S.C. Gwynne discuss _Empire of the Summer Moon_ on <a href="/personality-analysis/joe-rogan">Joe Rogan</a>'s podcast. He didn't just read the book. He consumed everything he could find about the collision between American settlers and the Comanche. Then moved on.
 
 Then it was Antarctic exploration. Scott and Amundsen's race to the South Pole. Douglas Mawson's survival in the ice. He loved, in his words, "stories of extraordinary men facing off against the most extreme that nature has to offer."
 
@@ -199,7 +199,7 @@ Think tanks were too narrow — he wanted a microphone. The Daily Caller had edi
 
 To The American Conservative's Curt Mills, during what Mills described as "a decathlon, Corona-spring phone call" for a July 2020 profile, Saagar compressed his entire worldview into four words: "It's about power, man."
 
-So he left. Then The Hill's Rising had corporate ownership. So he and [Krystal Ball](/personality-analysis/Krystal-Ball) walked away from that too — announcing their exit on May 28, 2021 and launching independently ten days later. No backing. No oversight. No salary guarantee. Just a webcam and credibility.
+So he left. Then The Hill's Rising had corporate ownership. So he and [Krystal Ball](/personality-analysis/krystal-ball) walked away from that too — announcing their exit on May 28, 2021 and launching independently ten days later. No backing. No oversight. No salary guarantee. Just a webcam and credibility.
 
 The Breaking Points premiere hit on June 7, 2021. The mission statement, straight from episode one: "We want to make people hate each other less and hate the ruling class more." Four days later the YouTube channel had 285,000 subscribers. Within a week, Fast Company was calling it the number-one political podcast. By 2023, it had crossed one million subscribers.
 
@@ -235,7 +235,7 @@ This is what the Seven's fear looks like when it channels outward. The threats k
 
 For all the Seven's restlessness — the serial obsessions, the expanding platforms, the new crusade every month — the inner circle doesn't rotate.
 
-Saagar and [Krystal Ball](/personality-analysis/Krystal-Ball) have survived three platform changes together. Rising. Breaking Points. Their co-authored 2020 book, _The Populist's Guide to 2020_. They left stable jobs together. Built from nothing together. Disagreed publicly on air while maintaining a partnership that shows no sign of fracture.
+Saagar and [Krystal Ball](/personality-analysis/krystal-ball) have survived three platform changes together. Rising. Breaking Points. Their co-authored 2020 book, _The Populist's Guide to 2020_. They left stable jobs together. Built from nothing together. Disagreed publicly on air while maintaining a partnership that shows no sign of fracture.
 
 His loyal side holds the relationships steady while the restless core keeps chasing the next horizon. The people he's tested and chosen — Krystal, Jill McGrath, Marshall Kosloff at The Realignment — they stay. Everyone else is a temporary collaborator in the latest campaign.
 

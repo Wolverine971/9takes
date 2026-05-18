@@ -5,14 +5,14 @@ persona_title: 'The Acquisition Architect'
 description: 'Alex Hormozi runs on discipline, repetition, and relentless output, turning self-optimization into a $100M empire and a never-ending test of worth.'
 author: 'DJ Wayne'
 date: '2026-01-06'
-loc: 'https://9takes.com/personality-analysis/Alex-Hormozi'
+loc: 'https://9takes.com/personality-analysis/alex-hormozi'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['entrepreneur', 'business-operator']
-person: 'Alex-Hormozi'
+person: 'alex-hormozi'
 suggestions: ['Patrick-Bet-David', 'Sam-Parr', 'Tony-Robbins', 'Gary-Vee', 'Leila-Hormozi']
 wikipedia: ''
 twitter: 'AlexHormozi'
@@ -84,7 +84,7 @@ The childhood wound typically involves feeling loved for what they achieved rath
 
 Hormozi shows all the hallmarks. His entire business philosophy centers on measurable results. His brand is literally built on numbers: $100M Offers, $100M Leads, $100M Money Models. Even his personal habits are engineered around a single question: what produces more output per hour?
 
-His particular expression of Type 3 includes a strong 8 wing, making him a 3w8. This adds aggression, directness, and a willingness to confront rather than charm his way to success. Compare him to [Taylor Swift](/personality-analysis/Taylor-Swift), another Type 3, who leans toward charm and adaptation. Same core drive, opposite tactics.
+His particular expression of Type 3 includes a strong 8 wing, making him a 3w8. This adds aggression, directness, and a willingness to confront rather than charm his way to success. Compare him to [Taylor Swift](/personality-analysis/taylor-swift), another Type 3, who leans toward charm and adaptation. Same core drive, opposite tactics.
 
 ### Why Type 3 and Not Type 8 or Type 1?
 
@@ -194,7 +194,7 @@ It's anxiety management through action.
 
 ## The Tony Robbins Conversation: When a Type 3 Confronts His Shadow
 
-The January 2025 episode with <a href="/personality-analysis/Tony-Robbins">Tony Robbins</a> was titled "How To Find Meaning When Success Feels Empty." That title alone tells you this wasn't a business tactics conversation.
+The January 2025 episode with <a href="/personality-analysis/tony-robbins">Tony Robbins</a> was titled "How To Find Meaning When Success Feels Empty." That title alone tells you this wasn't a business tactics conversation.
 
 Underneath the confession — duty, not delight — was something deeper. When identity fuses with productivity, rest becomes impossible. "Grow or Die" isn't just a philosophy. It's survival. Without achievement, who is he?
 
@@ -290,7 +290,7 @@ This might be what the growth path looks like: achievement that serves something
 
 On August 17, 2025, Hormozi broke a Guinness World Record.
 
-$100M Money Models sold 2,917,443 copies in a single day. The previous record holder? [Prince Harry](/personality-analysis/Prince-Harry)'s memoir Spare, at 1.43 million copies. Hormozi nearly doubled it within hours.
+$100M Money Models sold 2,917,443 copies in a single day. The previous record holder? [Prince Harry](/personality-analysis/prince-harry)'s memoir Spare, at 1.43 million copies. Hormozi nearly doubled it within hours.
 
 Only Harry Potter books have sold more copies on launch day.
 
@@ -334,7 +334,7 @@ Type 3s genuinely believe their success came from their actions. Acknowledging e
 
 ## The Partnership Behind the Achievements
 
-Understanding Alex requires understanding [Leila Hormozi](/personality-analysis/Leila-Hormozi).
+Understanding Alex requires understanding [Leila Hormozi](/personality-analysis/leila-hormozi).
 
 She went on roughly 60 dates before finding Alex on Bumble. Their first date at a frozen yogurt shop turned into four and a half hours of conversation.
 

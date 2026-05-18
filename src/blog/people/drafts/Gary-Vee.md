@@ -5,14 +5,14 @@ persona_title: 'The Hustle King'
 description: "Gary Vaynerchuk named his wine brand Empathy. The same man who preaches 18-hour days. Here's the Type 3w2 psychology that makes both impulses the same."
 author: 'DJ Wayne'
 date: '2026-01-07'
-loc: 'https://9takes.com/personality-analysis/Gary-Vee'
+loc: 'https://9takes.com/personality-analysis/gary-vee'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['business', 'business-operator']
-person: 'Gary-Vee'
+person: 'gary-vee'
 suggestions: ['Tony-Robbins', 'Alex-Hormozi', 'Leila-Hormozi', 'Joe-Rogan', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Gary_Vaynerchuk'
 twitter: 'garyvee'
@@ -75,7 +75,7 @@ The core wound: love felt conditional on performance. The message they internali
 
 Gary's Two wing (3w2) changes the entire character of the ambition. Pure Type 3s can be coldly ambitious. 3w2s genuinely want to help others succeed. They're charming, warm, people-oriented. They don't just want to win. They want to be loved for winning.
 
-It's why he gives his best advice away for free while [Tony Robbins](/personality-analysis/Tony-Robbins) charges $10,000 a seminar and [Alex Hormozi](/personality-analysis/Alex-Hormozi) builds behind paywalls. The generosity isn't a marketing layer. It's load-bearing. Fifty million followers keep rewarding it.
+It's why he gives his best advice away for free while [Tony Robbins](/personality-analysis/tony-robbins) charges $10,000 a seminar and [Alex Hormozi](/personality-analysis/alex-hormozi) builds behind paywalls. The generosity isn't a marketing layer. It's load-bearing. Fifty million followers keep rewarding it.
 
 ## The Operating System Behind the Content
 

@@ -5,14 +5,14 @@ persona_title: "Comedy's Relentless Alchemist"
 description: 'Mindy Kaling turned repression, ambition, and grief into an output machine, building a career where control always felt safer than feeling.'
 author: 'DJ Wayne'
 date: '2026-03-29'
-loc: 'https://9takes.com/personality-analysis/Mindy-Kaling'
+loc: 'https://9takes.com/personality-analysis/mindy-kaling'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['celebrity', 'comedian', 'tv-comedy-crossover', 'sketch-comic']
-person: 'Mindy-Kaling'
+person: 'mindy-kaling'
 suggestions: ['Tina-Fey', 'Amy-Poehler', 'Oprah-Winfrey', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Mindy_Kaling'
 twitter: '@mindykaling'
@@ -79,7 +79,7 @@ She performed with The Dog Day Players improv troupe, sang in The Rockapellas a 
 
 But the real education was class.
 
-"I tried sushi for the first time," she told [Dax Shepard](/personality-analysis/Dax-Shepard). "My parents were like, 'Well, we don't eat that. That's expensive and weird.'" She learned to navigate circles where "summer is a verb" — where classmates vacationed in places her parents had only read about. "Being able to navigate in those circles and go to college and know those kinds of people was, I would argue, almost as valuable as anything else."
+"I tried sushi for the first time," she told [Dax Shepard](/personality-analysis/dax-shepard). "My parents were like, 'Well, we don't eat that. That's expensive and weird.'" She learned to navigate circles where "summer is a verb" — where classmates vacationed in places her parents had only read about. "Being able to navigate in those circles and go to college and know those kinds of people was, I would argue, almost as valuable as anything else."
 
 She was learning to code-switch. To read a room. To become whoever the room needed her to be. Her parents had "raised me with the entitlement of a tall, blond, white man," she later wrote — and she used that entitlement like armor. But entitlement and belonging aren't the same thing. She could act like she fit in. Whether she felt it is a different question.
 
@@ -101,7 +101,7 @@ For the first year, she was terrified.
 
 She was, by her own admission, a diversity hire. "For a long time I was really embarrassed about that," she said. "It took me a while to realize that I was just getting the access other people had because of who they knew."
 
-While [Tina Fey](/personality-analysis/Tina-Fey) was rewriting late-night television at SNL, Kaling was proving herself in a room that had hired her, she believed, to check a box. So she outworked everyone. She wrote 24 episodes of The Office — more than any other writer on staff. She created Kelly Kapoor, a character most actors would have played as a punchline, and gave her enough dimension that she became a fan favorite.
+While [Tina Fey](/personality-analysis/tina-fey) was rewriting late-night television at SNL, Kaling was proving herself in a room that had hired her, she believed, to check a box. So she outworked everyone. She wrote 24 episodes of The Office — more than any other writer on staff. She created Kelly Kapoor, a character most actors would have played as a punchline, and gave her enough dimension that she became a fan favorite.
 
 BJ Novak, who was both a writer and her on-screen love interest, would later describe her scripts with precision: "Every actor on the show thinks she writes for them best, with an extra little 'smile' that infuses her scripts."
 
@@ -165,7 +165,7 @@ Her wing is clearly 2 — the Helper. The 3w2, sometimes called "The Charmer," a
 
 ## "My Superpower: Delusion"
 
-"There's the psychotic ambitious side of myself that wants a fashion line and my own network and be like a combination of [Oprah](/personality-analysis/Oprah-Winfrey) and Gwen Stefani." She said this in an interview, laughing. She was joking. She was also being completely honest.
+"There's the psychotic ambitious side of myself that wants a fashion line and my own network and be like a combination of [Oprah](/personality-analysis/oprah-winfrey) and Gwen Stefani." She said this in an interview, laughing. She was joking. She was also being completely honest.
 
 In 2015, she published _Why Not Me?_, a title that doubles as a manifesto. The book is organized around the premise that confidence is earned, not innate. "People talk about confidence without ever bringing up hard work," she wrote. "That's a mistake... I don't understand how you could have self-confidence if you don't do the work."
 

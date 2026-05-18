@@ -5,14 +5,14 @@ persona_title: "America's Beloved Vanishing Act"
 description: "Behind America's Sweetheart lies a woman who spent decades learning to say no. Inside Jennifer Aniston's Type 9 personality."
 author: 'DJ Wayne'
 date: '2026-03-27'
-loc: 'https://9takes.com/personality-analysis/Jennifer-Aniston'
+loc: 'https://9takes.com/personality-analysis/jennifer-aniston'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['movieStar', 'screen-icon']
-person: 'Jennifer-Aniston'
+person: 'jennifer-aniston'
 suggestions: ['keanu-reeves', 'scarlett-johansson', 'brad-pitt', 'natalie-portman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Aniston'
 twitter: 'https://twitter.com/jaboretsky'

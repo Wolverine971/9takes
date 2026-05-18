@@ -5,14 +5,14 @@ persona_title: "Hollywood's Chillest Worrier"
 description: 'The "chillest woman in Hollywood" arrived in LA with $250 at age seven. Inside Mila Kunis is a Type 6 loyalty engine — and the moment it misfired.'
 author: 'DJ Wayne'
 date: '2026-05-12'
-loc: 'https://9takes.com/personality-analysis/Mila-Kunis'
+loc: 'https://9takes.com/personality-analysis/mila-kunis'
 lastmod: '2026-05-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['movieStar', 'celebrity', 'screen-icon']
-person: 'Mila-Kunis'
+person: 'mila-kunis'
 suggestions: ['Natalie-Portman', 'Howard-Stern', 'Jennifer-Garner', 'Kristen-Bell']
 wikipedia: 'https://en.wikipedia.org/wiki/Mila_Kunis'
 twitter: ''
@@ -121,7 +121,7 @@ Mila Kunis's groundedness is not the opposite of her anxiety. It is the solution
 
 The story Mila Kunis tells about her mother is not a triumph story. It is a story she finds inexplicable.
 
-"There's absolutely no rhyme or reason for what my mother did or why she did it," she told [Howard Stern](/personality-analysis/Howard-Stern) in 2019. "Mind you, I never got birthday presents, never got holiday gifts. Like we weren't a family of givers in that regard — it's one of those kismet moments that you can't explain."
+"There's absolutely no rhyme or reason for what my mother did or why she did it," she told [Howard Stern](/personality-analysis/howard-stern) in 2019. "Mind you, I never got birthday presents, never got holiday gifts. Like we weren't a family of givers in that regard — it's one of those kismet moments that you can't explain."
 
 She doesn't say her mother believed in her. She doesn't say her mother saw something. She says her mother spent the money for reasons her daughter still cannot find. The story sits in her mouth like an unsolved problem.
 
@@ -209,7 +209,7 @@ Loyalty, for Mila, is not sentimentality. It is risk management with a smile on 
 
 For one year of her adult life, Mila Kunis was not chill at all.
 
-The first crack in the sitcom-Jackie surface was _Forgetting Sarah Marshall_ in 2008 — the breakup-rebound role that made directors stop seeing her as the spoiled-princess voice from _That '70s Show_ and start seeing her as a leading-woman face. Two years later, Darren Aronofsky cast her in _Black Swan_ on the strength of two things: that performance, and a phone call from [Natalie Portman](/personality-analysis/Natalie-Portman). Portman saw her at the Rose Bowl Flea Market and immediately called Aronofsky. "There was this amazing actress with ballet experience who would be perfect for Lily," she told him.
+The first crack in the sitcom-Jackie surface was _Forgetting Sarah Marshall_ in 2008 — the breakup-rebound role that made directors stop seeing her as the spoiled-princess voice from _That '70s Show_ and start seeing her as a leading-woman face. Two years later, Darren Aronofsky cast her in _Black Swan_ on the strength of two things: that performance, and a phone call from [Natalie Portman](/personality-analysis/natalie-portman). Portman saw her at the Rose Bowl Flea Market and immediately called Aronofsky. "There was this amazing actress with ballet experience who would be perfect for Lily," she told him.
 
 The training was brutal. Kunis later described the regimen plainly: "A lot of dancing and very little eating." Twelve-hour dance days. Broth-only stretches. She has joked that she "somehow came out totally fine," which is the kind of line a Type 6 makes when she does not want to revisit the file.
 

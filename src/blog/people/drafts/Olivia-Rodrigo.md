@@ -5,14 +5,14 @@ persona_title: "Pop's Tender Confessor"
 description: 'Olivia Rodrigo learned to hand her feelings to millions through songs long before she learned how to keep any of that tenderness for herself.'
 author: 'DJ Wayne'
 date: '2024-10-30'
-loc: 'https://9takes.com/personality-analysis/Olivia-Rodrigo'
+loc: 'https://9takes.com/personality-analysis/olivia-rodrigo'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['musician', 'pop-star']
-person: 'Olivia-Rodrigo'
+person: 'olivia-rodrigo'
 suggestions: ['Taylor Swift', 'Billie Eilish', 'Sabrina Carpenter', 'Chappell Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Rodrigo'
 twitter: 'oliviarodrigo'
@@ -155,7 +155,7 @@ In January 2021, a seventeen-year-old Olivia Rodrigo released "drivers license" 
 
 **"Literally, it was the first song out of the gate and all of that shit happened. I felt so ill-equipped."**
 
-The media machine took her real pain and made it gossip content. Every lyric was decoded, every possible subject identified, sides were drawn. She was seventeen. Then "good 4 u" came out, and the internet noticed it sounded like Paramore's "Misery Business" — and Hayley Williams and Josh Farro ended up with songwriting credits. Then the [Taylor Swift](/personality-analysis/Taylor-Swift) comparisons started. Not flattering ones. The implication-heavy kind, where being compared to a more established artist means you haven't built anything real yet.
+The media machine took her real pain and made it gossip content. Every lyric was decoded, every possible subject identified, sides were drawn. She was seventeen. Then "good 4 u" came out, and the internet noticed it sounded like Paramore's "Misery Business" — and Hayley Williams and Josh Farro ended up with songwriting credits. Then the [Taylor Swift](/personality-analysis/taylor-swift) comparisons started. Not flattering ones. The implication-heavy kind, where being compared to a more established artist means you haven't built anything real yet.
 
 **"Last time there was so much weird media shit and I had no idea how to deal with any of it."**
 
@@ -175,7 +175,7 @@ A girl who writes songs for the whole world, living in a circle of five.
 
 ## From SOUR to GUTS: Learning to Scream Out Loud
 
-SOUR was the sound of a Two in her wound: _I changed everything about myself and it still wasn't enough for you._ GUTS was the sound of a Two finding the line to Eight — the Enneagram's path toward healthy anger and self-assertion, the same raw confrontational energy that defines artists like [Chappell Roan](/personality-analysis/Chappell-Roan).
+SOUR was the sound of a Two in her wound: _I changed everything about myself and it still wasn't enough for you._ GUTS was the sound of a Two finding the line to Eight — the Enneagram's path toward healthy anger and self-assertion, the same raw confrontational energy that defines artists like [Chappell Roan](/personality-analysis/chappell-roan).
 
 The shift wasn't just artistic. It was psychological.
 
@@ -234,7 +234,7 @@ On a trip to Hawaii with her best friend Madison Hu, she refused to take any pho
 
 And here's the detail that sits underneath all of it: **"We both write a lot of sad music,"** she told Conan Gray, **"but I think maybe one misconception about us is that we're actually very optimistic people. And super happy. Never a day without giggling, laughing. About the dumbest thing you've ever heard."**
 
-The girl who wrote "drivers license" and "vampire" and "traitor" and "enough for you" — four of the saddest pop songs of the 2020s — is, in person, an optimist who giggles about nothing and carries cheese in her purse. It's a gap that would surprise fans who assume she's as devastated as her music, similar to how [Billie Eilish](/personality-analysis/Billie-Eilish) confounds expectations off stage.
+The girl who wrote "drivers license" and "vampire" and "traitor" and "enough for you" — four of the saddest pop songs of the 2020s — is, in person, an optimist who giggles about nothing and carries cheese in her purse. It's a gap that would surprise fans who assume she's as devastated as her music, similar to how [Billie Eilish](/personality-analysis/billie-eilish) confounds expectations off stage.
 
 That isn't a contradiction. It's the whole point. The sadness goes into the music so that the rest of her life can be light. The songs are the container for everything she can't hold in person. Every wound becomes a track. Every betrayal becomes a gift for someone else who's hurting.
 

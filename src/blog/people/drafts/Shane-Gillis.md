@@ -5,14 +5,14 @@ meta_title: "Shane Gillis's Type 9 Personality — The Quiet Stubbornness Behind
 description: "Shane Gillis quit West Point, got fired from SNL, and kept going. Inside the Type 9 psychology that turned the man who quits into the comedian who won't stop."
 author: 'DJ Wayne'
 date: '2025-12-11'
-loc: 'https://9takes.com/personality-analysis/Shane-Gillis'
+loc: 'https://9takes.com/personality-analysis/shane-gillis'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['comedian', 'stand-up']
-person: 'Shane-Gillis'
+person: 'shane-gillis'
 suggestions:
   ['Theo-Von', 'Tim-Dillon', 'Andrew-Schulz', 'Dave-Chappelle', 'Joe-Rogan', 'Pete-Davidson']
 wikipedia: 'https://en.wikipedia.org/wiki/Shane_Gillis'
@@ -186,7 +186,7 @@ Shane's comedy occupies a strange space. Critics call him a "blue-collar everyma
 
 ### The Man Who Hates Compliments
 
-On the Flagrant podcast with [Andrew Schulz](/personality-analysis/Andrew-Schulz), Shane admitted something revealing: he hates compliments.
+On the Flagrant podcast with [Andrew Schulz](/personality-analysis/andrew-schulz), Shane admitted something revealing: he hates compliments.
 
 This is the 9's deepest discomfort — being singled out, even positively. Praise creates pressure. It sets expectations. It separates you from the group. Shane would rather deflect through self-deprecation than sit with the idea that he might be special.
 
@@ -212,7 +212,7 @@ This surprised listeners used to Shane's unbothered persona. But 9s absorb the a
 
 ### Clarity Through Absence
 
-On [Theo Von](/personality-analysis/Theo-Von)'s podcast, Shane discussed doing ayahuasca — the intense psychedelic ceremony popular among comedians seeking insight. He described it as something that **"enabled him to gain clarity by not being mentally present."**
+On [Theo Von](/personality-analysis/theo-von)'s podcast, Shane discussed doing ayahuasca — the intense psychedelic ceremony popular among comedians seeking insight. He described it as something that **"enabled him to gain clarity by not being mentally present."**
 
 Other personality types seek psychedelics for revelation, ego death, transformation. Shane found value in _temporary absence from his own mind_. For a 9 who often feels foggy or disconnected from his own desires, the relief of not thinking is itself therapeutic.
 
@@ -242,7 +242,7 @@ Pause.
 
 ### The Jeep
 
-[Dave Chappelle](/personality-analysis/Dave-Chappelle) eventually invited Shane to perform at his club in Yellow Springs, Ohio. The trip became legendary. Post-show fried chicken and waffles at 1:30 a.m. Dancing in a private barn. Chappelle picking up guests from the airport himself in his Jeep, offering private gear shopping sprees.
+[Dave Chappelle](/personality-analysis/dave-chappelle) eventually invited Shane to perform at his club in Yellow Springs, Ohio. The trip became legendary. Post-show fried chicken and waffles at 1:30 a.m. Dancing in a private barn. Chappelle picking up guests from the airport himself in his Jeep, offering private gear shopping sprees.
 
 But the detail that stuck: both Shane and Matt McCusker admitted to crying after Chappelle picked them up.
 
@@ -330,7 +330,7 @@ In 2024, Shane set the all-time ticket record at Toronto's Scotiabank Arena. The
 
 He quit drinking. Lost approximately 40 pounds. **"I just found out I was fat,"** he joked. **"I'm from a white trash enough town that I thought I was just built like a linebacker."** But the real shift was deliberate. For a 9, choosing discipline over comfort is the growth arrow to Type 3 in action — the drifter becoming purposeful without losing the ease that makes the work feel effortless.
 
-He declined an offer to impersonate [Donald Trump](/personality-analysis/Donald-Trump) for SNL's entire 50th season, choosing instead to attend Skankfest in Las Vegas with the comedy community. The choice is pure 9. He'd rather be in the room with his people than chasing prestige alone. He shares that instinct with [Dave Chappelle](/personality-analysis/Dave-Chappelle), another 9 who weathered cancel campaigns by simply continuing to work.
+He declined an offer to impersonate [Donald Trump](/personality-analysis/donald-trump) for SNL's entire 50th season, choosing instead to attend Skankfest in Las Vegas with the comedy community. The choice is pure 9. He'd rather be in the room with his people than chasing prestige alone. He shares that instinct with [Dave Chappelle](/personality-analysis/dave-chappelle), another 9 who weathered cancel campaigns by simply continuing to work.
 
 His career goal, he's said, is to work with his friends — "similar to Adam Sandler's approach." Not to be the biggest. Not to dominate. To enjoy the work with the people he actually likes.
 

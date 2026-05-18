@@ -5,14 +5,14 @@ persona_title: 'The Calligrapher Who Burned the Palace'
 description: "Meghan Markle's warmth, intensity, and public contradictions make more sense once you see how badly she needs love to feel safe and fairness to feel possible."
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Meghan-Markle'
+loc: 'https://9takes.com/personality-analysis/meghan-markle'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '2'
 type: ['celebrity', 'politician', 'celebrity-image', 'royalty']
-person: 'Meghan-Markle'
+person: 'meghan-markle'
 suggestions:
   ['Prince-Harry', 'Princess-Diana', 'Oprah-Winfrey', 'Kim-Kardashian', 'Hillary-Clinton']
 wikipedia: 'https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex'
@@ -121,7 +121,7 @@ At eleven, Meghan saw a TV ad for Ivory dishwashing liquid. The tagline: "Women 
 
 She was bothered. Not by the soap. By the word "women."
 
-So she wrote letters. To Procter & Gamble. To [Hillary Clinton](/personality-analysis/Hillary-Clinton). To Gloria Allred. To Nick News anchor Linda Ellerbee. She was methodical about it — her father told her to write "to the most powerful people you can find."
+So she wrote letters. To Procter & Gamble. To [Hillary Clinton](/personality-analysis/hillary-clinton). To Gloria Allred. To Nick News anchor Linda Ellerbee. She was methodical about it — her father told her to write "to the most powerful people you can find."
 
 Procter & Gamble changed the ad. "Women" became "people."
 
@@ -203,7 +203,7 @@ She erased her own box. Again.
 
 ## The Royal Chapter: When Giving Isn't Enough
 
-The marriage to <a href="/personality-analysis/Prince-Harry">Prince Harry</a> was, for a Type 2, the ultimate test: enter a system that explicitly values duty over feelings, protocol over personality, and institutional preservation over individual needs. Then give it everything you have and see if they love you back.
+The marriage to <a href="/personality-analysis/prince-harry">Prince Harry</a> was, for a Type 2, the ultimate test: enter a system that explicitly values duty over feelings, protocol over personality, and institutional preservation over individual needs. Then give it everything you have and see if they love you back.
 
 She gave it everything.
 
@@ -233,7 +233,7 @@ A Type 2's deepest shame is needing help. Their entire identity is built on bein
 
 She was scared to tell Harry. The line she gave Oprah about why is the one to sit with: "I knew that if I didn't say it, that I would do it. I just didn't want to be alive anymore." She did not say *I was scared he would see I was weak*. She said she was scared she would die before she got the words out. The two fears are sitting on top of each other in the same sentence — the practical fear of dying, and underneath it the older Type 2 fear of being a person who had to be carried instead of the person doing the carrying.
 
-When she eventually told the world — on [Oprah](/personality-analysis/Oprah-Winfrey), watched by 49 million people — Tom Bower called it a strategically deployed grievance, "the calculated centerpiece of a counter-attack on the Windsors." The platform was, undeniably, a platform. But the disclosure she chose to lead with was not a tactical one. A career-minded counter-attack does not lead with the night you almost killed yourself. It leads with the night they made you take off the title.
+When she eventually told the world — on [Oprah](/personality-analysis/oprah-winfrey), watched by 49 million people — Tom Bower called it a strategically deployed grievance, "the calculated centerpiece of a counter-attack on the Windsors." The platform was, undeniably, a platform. But the disclosure she chose to lead with was not a tactical one. A career-minded counter-attack does not lead with the night you almost killed yourself. It leads with the night they made you take off the title.
 
 ---
 
@@ -307,7 +307,7 @@ The phrasing matters. She doesn't describe loving him. She describes being loved
 
 ## The Comparison She Can't Escape
 
-Every analysis of Meghan eventually arrives at <a href="/personality-analysis/Princess-Diana">Princess Diana</a>.
+Every analysis of Meghan eventually arrives at <a href="/personality-analysis/princess-diana">Princess Diana</a>.
 
 The parallels are obvious: both married into the Royal Family, both clashed with the institution, both used media as a weapon against it, both were vilified by the British press. Both were Type 2s — helpers who entered a system that valued protocol over warmth and discovered that their giving would never be enough.
 

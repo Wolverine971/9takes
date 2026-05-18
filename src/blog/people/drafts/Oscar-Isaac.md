@@ -5,14 +5,14 @@ persona_title: "Cinema's Grief Alchemist"
 description: "Oscar Isaac built his philosophy on impermanence but his art on devotion. Inside the contradiction that drives Hollywood's most emotionally committed actor."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Oscar-Isaac'
+loc: 'https://9takes.com/personality-analysis/oscar-isaac'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['movieStar', 'screen-icon']
-person: 'Oscar-Isaac'
+person: 'oscar-isaac'
 suggestions: ['Pedro-Pascal', 'Jake-Gyllenhaal', 'Keanu-Reeves', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Oscar_Isaac'
 twitter: '@OscarIsaac'

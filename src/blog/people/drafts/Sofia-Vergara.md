@@ -5,14 +5,14 @@ persona_title: "Hollywood's Accented CEO"
 description: 'Everyone thinks Sofia Vergara is Gloria Pritchett. The accent, the giggle, the bombshell. The truth is stranger: the ditz is the business plan.'
 author: 'DJ Wayne'
 date: '2026-04-29'
-loc: 'https://9takes.com/personality-analysis/Sofia-Vergara'
+loc: 'https://9takes.com/personality-analysis/sofia-vergara'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
 type: ['celebrity', 'movieStar', 'screen-icon']
-person: 'Sofia-Vergara'
+person: 'sofia-vergara'
 suggestions: ['Jennifer-Lopez', 'Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Sofía_Vergara'
 instagram: 'sofiavergara'
@@ -188,7 +188,7 @@ In 1994, when she was twenty-two and had been on Miami TV for less than a year, 
 
 She was already building the infrastructure to control her own output before she had an output worth controlling. That is not the sequence most actresses follow. Most actresses build a career first, hire representation, and decades later — if ever — start a company. Vergara's career and her company were born in the same room.
 
-The pattern repeats. She did not endorse brands; she co-founded lines with them. She did not license her name for a flat fee; she negotiated percentages with sales minimums, the kind of deal a sitcom star isn't supposed to know how to ask for. [Forbes reported](https://www.complex.com/pop-culture/a/tracewilliamcowen/modern-family-sofia-vergara-highest-paid-woman-tv) that in her peak years, three-quarters of her income came from _outside_ acting. The acting was a marketing vehicle for a portfolio of consumer-products businesses hiding behind a sitcom. [Jennifer Lopez](/personality-analysis/Jennifer-Lopez) built an empire on the same blueprint a decade earlier; [Arnold Schwarzenegger](/personality-analysis/Arnold-Schwarzenegger) had shown thirty years before that an accent could be the most bankable thing in a career, not the least.
+The pattern repeats. She did not endorse brands; she co-founded lines with them. She did not license her name for a flat fee; she negotiated percentages with sales minimums, the kind of deal a sitcom star isn't supposed to know how to ask for. [Forbes reported](https://www.complex.com/pop-culture/a/tracewilliamcowen/modern-family-sofia-vergara-highest-paid-woman-tv) that in her peak years, three-quarters of her income came from _outside_ acting. The acting was a marketing vehicle for a portfolio of consumer-products businesses hiding behind a sitcom. [Jennifer Lopez](/personality-analysis/jennifer-lopez) built an empire on the same blueprint a decade earlier; [Arnold Schwarzenegger](/personality-analysis/arnold-schwarzenegger) had shown thirty years before that an accent could be the most bankable thing in a career, not the least.
 
 Here is where a Type 3 shows up that a Type 7 never would. Type 7s spend. Type 3s accumulate and position. Vergara is explicit: _"I save way more than I spend. I invest. I plan for the future."_ This sentence, read aloud in Gloria Pritchett's voice, would get laughed off as a joke. Read aloud as the quarterly earnings guidance of the CEO of a one-woman consumer-goods empire, it tracks.
 

@@ -5,14 +5,14 @@ persona_title: "Beauty's Polished Prover"
 description: "Why is Hailey Bieber so polished? We decode the Type 3 drive behind Rhode, image control, marriage pressure, and the need to prove she's enough online."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Hailey-Bieber'
+loc: 'https://9takes.com/personality-analysis/hailey-bieber'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer', 'lifestyle-builder']
-person: 'Hailey-Bieber'
+person: 'hailey-bieber'
 suggestions: ['Justin-Bieber', 'Selena-Gomez', 'Kim-Kardashian', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Hailey_Bieber'
 twitter: 'haileybieber'
@@ -98,7 +98,7 @@ But the trajectory required real work.
 
 By 2015, she was shooting for American Vogue and Teen Vogue. She landed covers for Jalouse, L'Officiel, and Wonderland in rapid succession. In 2016, she signed with IMG Models—the agency representing Gigi Hadid, Kendall Jenner, and the world's top talent.
 
-The real shift came when she started dating [Justin Bieber](/personality-analysis/Justin-Bieber). Their 2018 engagement after years of on-and-off friendship thrust her into a different stratosphere of public attention. Suddenly, she wasn't just a model from a famous family—she was half of one of the most scrutinized couples in pop culture.
+The real shift came when she started dating [Justin Bieber](/personality-analysis/justin-bieber). Their 2018 engagement after years of on-and-off friendship thrust her into a different stratosphere of public attention. Suddenly, she wasn't just a model from a famous family—she was half of one of the most scrutinized couples in pop culture.
 
 Rather than retreat from the spotlight, Hailey leaned into it on her own terms. She co-hosted Drop the Mic. She guest-judged Next in Fashion. She appeared in Justin's documentary. Every move was calculated to establish her own identity separate from her husband's.
 
@@ -158,11 +158,11 @@ She later shared that she "struggled with a little bit of PTSD" after the event.
 
 ### Hailey Bieber and Selena Gomez: Why the Feud Story Stuck
 
-No analysis of Hailey's public life is complete without addressing the manufactured feud with [Selena Gomez](/personality-analysis/Selena-Gomez).
+No analysis of Hailey's public life is complete without addressing the manufactured feud with [Selena Gomez](/personality-analysis/selena-gomez).
 
 Justin and Selena dated on-and-off from 2011 to 2018. When he married Hailey months after the final breakup, fans created a narrative of betrayal, villainy, and revenge. TikTok's algorithm amplified conspiracy theories. "Team Selena" trolls targeted Hailey relentlessly.
 
-The facts tell a different story. Both women have publicly denied any feud. "It's all respect. It's all love. There is no drama personally," Hailey stated on [Alex Cooper](/personality-analysis/Alex-Cooper)'s Call Her Daddy podcast. Selena asked her fans to "be kind to everyone."
+The facts tell a different story. Both women have publicly denied any feud. "It's all respect. It's all love. There is no drama personally," Hailey stated on [Alex Cooper](/personality-analysis/alex-cooper)'s Call Her Daddy podcast. Selena asked her fans to "be kind to everyone."
 
 But the narrative persisted. And this is where her deepest sensitivity gets weaponized against her.
 

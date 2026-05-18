@@ -5,14 +5,14 @@ persona_title: "Media's Principled Arsonist"
 description: "How Krystal Ball's moral compass drives her to torch every comfortable position she builds — and why she can't stop."
 author: 'DJ Wayne'
 date: '2025-01-20'
-loc: 'https://9takes.com/personality-analysis/Krystal-Ball'
+loc: 'https://9takes.com/personality-analysis/krystal-ball'
 lastmod: '2026-04-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
 type: ['creator', 'news-commentator']
-person: 'Krystal-Ball'
+person: 'krystal-ball'
 suggestions: ['Alexandria-Ocasio-Cortez', 'Saagar-Enjeti', 'Tucker-Carlson', 'Ryan-Grim']
 wikipedia: 'https://en.wikipedia.org/wiki/Krystal_Ball'
 twitter: 'https://twitter.com/krystalball'
@@ -23,11 +23,11 @@ path: src/blog/people/drafts/Krystal-Ball.md
 
 > "She sold out to Wall Street. People are gonna hate this lady."
 
-<p class="firstLetter">That's what Krystal Ball said on MSNBC on February 11, 2014 — a full year before <a href="/personality-analysis/Hillary-Clinton">Hillary Clinton</a> officially launched her campaign. The monologue was titled <em>Don't Run, Hillary</em>. The control room let it air.</p>
+<p class="firstLetter">That's what Krystal Ball said on MSNBC on February 11, 2014 — a full year before <a href="/personality-analysis/hillary-clinton">Hillary Clinton</a> officially launched her campaign. The monologue was titled <em>Don't Run, Hillary</em>. The control room let it air.</p>
 
 Then came the meeting.
 
-"I was pulled into an office," Ball later told [Joe Rogan](/personality-analysis/Joe-Rogan). "Great monologue, everything's fine. But next time you do any commentary on Hillary Clinton, it has to get approved by the president of the network."
+"I was pulled into an office," Ball later told [Joe Rogan](/personality-analysis/joe-rogan). "Great monologue, everything's fine. But next time you do any commentary on Hillary Clinton, it has to get approved by the president of the network."
 
 Eighteen months later, _The Cycle_ was canceled.
 
@@ -163,7 +163,7 @@ She'd watched the Ohio River Valley towns empty out. She knew what NAFTA had don
 
 "People feel like what they are getting from the national party is contempt and condescension," she said. "'We know better than you, and you should let us tell you what your American dream should be.'"
 
-In 2017, she published _Reversing the Apocalypse: Hijacking the Democratic Party to Save the World._ The thesis was blunt: Democrats betrayed their New Deal principles under Carter and Clinton, and forty years of economic abandonment produced [Donald Trump](/personality-analysis/Donald-Trump).
+In 2017, she published _Reversing the Apocalypse: Hijacking the Democratic Party to Save the World._ The thesis was blunt: Democrats betrayed their New Deal principles under Carter and Clinton, and forty years of economic abandonment produced [Donald Trump](/personality-analysis/donald-trump).
 
 That same year she founded the People's House Project, a PAC dedicated to recruiting working-class candidates for Congress. Not lawyers and consultants. Teachers, firefighters, nurse aides. People who'd actually lived what they'd be legislating about.
 
@@ -219,7 +219,7 @@ The reformer giving herself permission to laugh. The discipline doesn't vanish. 
 
 ## Building the Thing She Said Was Possible
 
-In 2018, Ball landed at The Hill's web show _Rising_ with conservative co-host [Saagar Enjeti](/personality-analysis/Saagar-Enjeti). The partnership worked because it was built on a shared diagnosis rather than a shared prescription.
+In 2018, Ball landed at The Hill's web show _Rising_ with conservative co-host [Saagar Enjeti](/personality-analysis/saagar-enjeti). The partnership worked because it was built on a shared diagnosis rather than a shared prescription.
 
 "We want to make people hate each other less and hate the ruling class more," Enjeti said on their first episode.
 
@@ -291,7 +291,7 @@ Not anger at Slotkin the person. Anger at the gap between power and responsibili
 
 ## The Reformer's Curse
 
-In November 2024, after [Kamala Harris](/personality-analysis/Kamala-Harris) lost to Trump, Ball published an essay on Drop Site News titled "Bernie Would Have Won." The argument was the same one she'd been making since 2014 — since her book, since her MSNBC monologue, since she ran for Congress. Democrats keep running neoliberal campaigns in a post-neoliberal era. They keep abandoning the working class. They keep losing.
+In November 2024, after [Kamala Harris](/personality-analysis/kamala-harris) lost to Trump, Ball published an essay on Drop Site News titled "Bernie Would Have Won." The argument was the same one she'd been making since 2014 — since her book, since her MSNBC monologue, since she ran for Congress. Democrats keep running neoliberal campaigns in a post-neoliberal era. They keep abandoning the working class. They keep losing.
 
 Then, buried in the same essay, a line most readers missed:
 

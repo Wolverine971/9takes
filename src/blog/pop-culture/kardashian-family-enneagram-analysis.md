@@ -230,7 +230,7 @@ And here's what the fans miss: **loving someone doesn't mean ignoring their impa
 
 Now let's decode the types.
 
-## The Matriarch: [Kris Jenner](/personality-analysis/Kris-Jenner) (Type 3 - The Achiever)
+## The Matriarch: [Kris Jenner](/personality-analysis/kris-jenner) (Type 3 - The Achiever)
 
 ### The Wound Behind the Momager
 
@@ -269,7 +269,7 @@ When threatened, Type 3s can become disconnected from their genuine feelings and
 
 Her relationship with Caitlyn's transition revealed this pattern. Kris struggled not just with the personal betrayal but with the narrative disruption. Type 3s need to control the story.
 
-## [Kim Kardashian](/personality-analysis/Kim-Kardashian) (Type 3w4 - The Achiever with Individualist Wing)
+## [Kim Kardashian](/personality-analysis/kim-kardashian) (Type 3w4 - The Achiever with Individualist Wing)
 
 ### The Image Queen
 
@@ -307,7 +307,7 @@ Her marriage to Kanye West put two achievement-driven personalities in competiti
 
 The divorce became inevitable when Kanye's behavior started damaging Kim's carefully curated image. Type 3s will sacrifice relationships before reputation.
 
-## [Kourtney Kardashian](/personality-analysis/Kourtney-Kardashian) (Type 1 - The Perfectionist)
+## [Kourtney Kardashian](/personality-analysis/kourtney-kardashian) (Type 1 - The Perfectionist)
 
 ### The Critic in the Family
 
@@ -342,7 +342,7 @@ Their physical altercation on the show wasn't random. It was years of Type 1 res
 
 > "I don't want to be a part of this anymore." —Kourtney Kardashian (a very Type 1 statement)
 
-## [Khloé Kardashian](/personality-analysis/Khloe-Kardashian) (Type 2 - The Helper)
+## [Khloé Kardashian](/personality-analysis/khloe-kardashian) (Type 2 - The Helper)
 
 ### The Family Protector
 
@@ -413,7 +413,7 @@ So he disappeared into nothing instead.
 
 The family doesn't talk about it much. That silence speaks volumes about what happens when you can't perform in a performance family.
 
-## [Kendall Jenner](/personality-analysis/Kendall-Jenner) (Type 6 - The Loyalist)
+## [Kendall Jenner](/personality-analysis/kendall-jenner) (Type 6 - The Loyalist)
 
 ### The Vigilance Engine
 
@@ -452,11 +452,11 @@ Type 6s don't demand security. They negotiate for it, hold what they're given, a
 
 By 2024 she'd been two years panic-attack-free. She announced it like a sobriety milestone. Because for her, it was.
 
-## [Kylie Jenner](/personality-analysis/Kylie-Jenner) (Type 9 - The Peacekeeper)
+## [Kylie Jenner](/personality-analysis/kylie-jenner) (Type 9 - The Peacekeeper)
 
 ### America's Most Visible Ghost
 
-The most-followed woman to walk the Golden Globes red carpet didn't walk it. She snuck in through a side entrance in a silver gown so her boyfriend, [Timothée Chalamet](/personality-analysis/Timothee-Chalamet), could have his moment alone. She'd done the same thing the year before. And the year before that. Three consecutive Golden Globes, three red carpets erased.
+The most-followed woman to walk the Golden Globes red carpet didn't walk it. She snuck in through a side entrance in a silver gown so her boyfriend, [Timothée Chalamet](/personality-analysis/timothee-chalamet), could have his moment alone. She'd done the same thing the year before. And the year before that. Three consecutive Golden Globes, three red carpets erased.
 
 This is not shyness. It's the strategy you develop when you're the youngest in a family where every personality slot is already taken and every conflict gets turned into content.
 

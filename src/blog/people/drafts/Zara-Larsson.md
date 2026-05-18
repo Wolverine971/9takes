@@ -5,14 +5,14 @@ persona_title: "Pop's Unfiltered Achiever"
 description: 'Inside the contradiction driving Zara Larsson: she wants to be number one more than anything but refuses to perform a version of herself that gets her there.'
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Zara-Larsson'
+loc: 'https://9takes.com/personality-analysis/zara-larsson'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['musician']
-person: 'Zara-Larsson'
+person: 'zara-larsson'
 suggestions: ['Charli-XCX', 'Taylor-Swift', 'Ariana-Grande', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Zara_Larsson'
 twitter: '@zaralarsson'
@@ -138,7 +138,7 @@ These years are where a different kind of achiever would have recalibrated. Read
 
 **Act Three: The Burning.** Instead, Zara started lighting things on fire.
 
-She left TEN Music Group, her label of eleven years, and bought back her entire recording catalogue. The catalyst was partly <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a>'s public battle over her masters, but the deal happened because her original label head, Ola Håkansson, didn't want to be the villain. "This was during the whole Taylor Swift situation and he was like, 'I don't want that to happen. I don't want to be that person,'" Zara recalled.
+She left TEN Music Group, her label of eleven years, and bought back her entire recording catalogue. The catalyst was partly <a href="/personality-analysis/taylor-swift">Taylor Swift</a>'s public battle over her masters, but the deal happened because her original label head, Ola Håkansson, didn't want to be the villain. "This was during the whole Taylor Swift situation and he was like, 'I don't want that to happen. I don't want to be that person,'" Zara recalled.
 
 She launched Sommer House, her own label, in partnership with Epic Records. Nine billion streams of catalogue, all hers. For someone whose self-worth runs on metrics, owning the metrics themselves was transformational. "It's such a safety net for me," she said. "I can be more free in my artistic choices."
 
@@ -148,7 +148,7 @@ And then she started spending the freedom.
 
 The activism didn't start with Palestine. Zara Larsson has been saying what she thinks since she was a teenager: about feminism, about toxic masculinity, about men in general. "Man hating and feminism is two different things," she tweeted in 2017. "I support both."
 
-She credits her parents: "Both are very educated when it comes to social issues." She modeled herself as an activist after [Beyoncé](/personality-analysis/Beyonce-Knowles), and Time magazine named her one of the 30 Most Influential Teens of 2016.
+She credits her parents: "Both are very educated when it comes to social issues." She modeled herself as an activist after [Beyoncé](/personality-analysis/beyonce-knowles), and Time magazine named her one of the 30 Most Influential Teens of 2016.
 
 But the costs escalated.
 

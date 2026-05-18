@@ -5,14 +5,14 @@ persona_title: "Apple's Moral Metronome"
 description: "Tim Cook wakes at 3:45 a.m., calls inventory 'fundamentally evil,' and runs Apple like a moral exam. The childhood night that wired him for it."
 author: 'DJ Wayne'
 date: '2026-04-07'
-loc: 'https://9takes.com/personality-analysis/Tim-Cook'
+loc: 'https://9takes.com/personality-analysis/tim-cook'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
 type: ['techie', 'big-tech-founder']
-person: 'Tim-Cook'
+person: 'tim-cook'
 suggestions: ['Steve-Jobs', 'Mark-Zuckerberg', 'Sundar-Pichai', 'Satya-Nadella']
 wikipedia: 'https://en.wikipedia.org/wiki/Tim_Cook'
 twitter: 'tim_cook'
@@ -175,7 +175,7 @@ Then his boss got sick.
 
 ## The Liver Steve Jobs Refused
 
-In January 2009, [Steve Jobs](/personality-analysis/Steve-Jobs) was dying. His liver was failing. Cook went through a series of medical tests on his own initiative and discovered that he was a viable partial-liver donor — they shared a rare blood type. He went to Jobs and offered him a piece of his liver.
+In January 2009, [Steve Jobs](/personality-analysis/steve-jobs) was dying. His liver was failing. Cook went through a series of medical tests on his own initiative and discovered that he was a viable partial-liver donor — they shared a rare blood type. He went to Jobs and offered him a piece of his liver.
 
 Jobs cut him off before he could finish the sentence.
 
@@ -227,7 +227,7 @@ The essay is worth reading carefully, because it is the cleanest piece of writin
 
 That is not the language of pride or relief or liberation. It is the language of an audit. He was running the same internal courtroom on himself that he runs on his executives every morning. He had discovered a discrepancy. The discrepancy was that his preference for privacy was, by his own moral code, the wrong call. So the verdict came down. The verdict was: do the harder thing.
 
-He quoted [Martin Luther King Jr.](/personality-analysis/Martin-Luther-King-Jr) — the same Martin Luther King Jr. who, in another version of Alabama, had been the moral counterweight to the deacon under the hood. The King line that mattered to him was: _Life's most persistent and urgent question is, 'What are you doing for others?'_ Cook decided he was not doing enough. The letters from struggling LGBTQ kids piled up on his desk and he could not, in his own internal accounting, justify staying hidden any longer.
+He quoted [Martin Luther King Jr.](/personality-analysis/martin-luther-king-jr) — the same Martin Luther King Jr. who, in another version of Alabama, had been the moral counterweight to the deacon under the hood. The King line that mattered to him was: _Life's most persistent and urgent question is, 'What are you doing for others?'_ Cook decided he was not doing enough. The letters from struggling LGBTQ kids piled up on his desk and he could not, in his own internal accounting, justify staying hidden any longer.
 
 > "So let me be clear: I'm proud to be gay, and I consider being gay among the greatest gifts God has given me."
 
@@ -297,7 +297,7 @@ What it tells you about Cook is that the conscience and the operator are not sep
 
 Apple under Cook became the first company to reach $1 trillion in market cap, then $2 trillion, then $3 trillion, then briefly $4 trillion in 2025. He launched the Apple Watch, AirPods, Vision Pro. He institutionalized Apple's gross margins until they hum like a power plant. But the numbers miss the more honest version of what he did with the company. Cook spent the last decade trying to make Apple stand for something specific, and the thing is not innovation. The thing is conscience.
 
-He pushed Apple toward end-to-end encryption while every other major tech company — most notably the one run by [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg) — was monetizing user behavior. He made privacy a marketing position, not because privacy sold (it mostly didn't, until Apple made it sell) but because he believed it was the morally correct stance and was willing to stake the company on it. He committed Apple to carbon neutrality and recycled materials. He poured resources into accessibility — Voice Control, screen readers, hearing-aid features — long after the press had stopped paying attention, because Ones do not stop fixing a thing just because no one is watching. They mostly prefer no one to be watching.
+He pushed Apple toward end-to-end encryption while every other major tech company — most notably the one run by [Mark Zuckerberg](/personality-analysis/mark-zuckerberg) — was monetizing user behavior. He made privacy a marketing position, not because privacy sold (it mostly didn't, until Apple made it sell) but because he believed it was the morally correct stance and was willing to stake the company on it. He committed Apple to carbon neutrality and recycled materials. He poured resources into accessibility — Voice Control, screen readers, hearing-aid features — long after the press had stopped paying attention, because Ones do not stop fixing a thing just because no one is watching. They mostly prefer no one to be watching.
 
 > "We do a lot of things for reasons besides profit motive. We want to leave the world better than we found it."
 

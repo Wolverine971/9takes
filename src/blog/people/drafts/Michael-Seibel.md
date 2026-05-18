@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Principled Gatekeeper"
 description: 'Michael Seibel built Twitch and ran YC. But tech was always the detour. Inside the reformer who is returning to his original mission.'
 author: 'DJ Wayne'
 date: '2026-04-20'
-loc: 'https://9takes.com/personality-analysis/Michael-Seibel'
+loc: 'https://9takes.com/personality-analysis/michael-seibel'
 lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['techie']
-person: 'Michael-Seibel'
+person: 'michael-seibel'
 suggestions: ['Garry-Tan', 'Dalton-Caldwell', 'Paul-Graham', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Michael_Seibel'
 twitter: 'https://twitter.com/mwseibel'
@@ -33,6 +33,8 @@ birth_place: 'Brooklyn, New York, USA'
 nationality: 'American'
 occupation:
   - 'Entrepreneur'
+  - 'Investor'
+  - 'Startup advisor'
 knows_about:
   - 'Startup accelerators'
   - 'Y Combinator'
@@ -240,7 +242,7 @@ The man who mentored thousands of founders, who built billion-dollar companies, 
 
 ## The Departure
 
-In January 2023, Y Combinator named [Garry Tan](/personality-analysis/Garry-Tan), who had been running a separate venture fund outside YC, as president and CEO. The move surprised YC employees who believed Seibel was next in line. He had been running the Core unit since 2016. He had built the modern YC interview process. He had mentored more companies than almost anyone in the organization's history.
+In January 2023, Y Combinator named [Garry Tan](/personality-analysis/garry-tan), who had been running a separate venture fund outside YC, as president and CEO. The move surprised YC employees who believed Seibel was next in line. He had been running the Core unit since 2016. He had built the modern YC interview process. He had mentored more companies than almost anyone in the organization's history.
 
 He didn't get the job. When Steven Levy asked him about it for Wired, Seibel said he "did not feel disappointed" but would have accepted the role if offered. That's a precise distinction. Not bitterness, not indifference. Acknowledgment without grievance.
 

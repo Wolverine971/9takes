@@ -5,14 +5,14 @@ persona_title: "Statecraft's Polished Mechanic"
 description: "Jared Kushner had a 10% White House approval rating and called it a win. Inside the Enneagram Type 3 pattern behind his quiet 'Mechanic' identity."
 author: 'DJ Wayne'
 date: '2026-04-28'
-loc: 'https://9takes.com/personality-analysis/Jared-Kushner'
+loc: 'https://9takes.com/personality-analysis/jared-kushner'
 lastmod: '2026-04-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['politician', 'entrepreneur', 'campaign-politician', 'business-operator']
-person: 'Jared-Kushner'
+person: 'jared-kushner'
 suggestions: ['Donald-Trump', 'Peter-Thiel', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jared_Kushner'
 twitter: 'jaredkushner'
@@ -96,7 +96,7 @@ That word does the work most people miss. Jared Kushner doesn't experience defea
 
 Most Type 3 readings of public figures stop at ambition. The Achiever wants the trophy, builds the resume, polishes the image, runs out of an internal sense of self and needs the external scoreboard to know who they are. By the textbook, Kushner fits cleanly: Harvard, the _Observer_, $1.8B at 27, senior White House advisor, Affinity Partners with $6.16 billion in AUM by spring 2026.
 
-But the textbook misses what makes him distinctive among 3s. Where Donald Trump turns every interaction into a public scoring opportunity, [Kushner's approach](/personality-analysis/Donald-Trump) is the inverse. He goes silent for years, then re-emerges only when the achievement narrative is fully assembled. The 4 wing supplies the depth: niche reading habits (he discovered QXO via a David Senra _Founders_ episode on Brad Jacobs), the cultivated mystique of "The Mechanic," the family-as-mythology framing. The self-preservation subtype supplies the capital discipline: preferred equity, structured deals, the constant question "what do I lose if this goes wrong?"
+But the textbook misses what makes him distinctive among 3s. Where Donald Trump turns every interaction into a public scoring opportunity, [Kushner's approach](/personality-analysis/donald-trump) is the inverse. He goes silent for years, then re-emerges only when the achievement narrative is fully assembled. The 4 wing supplies the depth: niche reading habits (he discovered QXO via a David Senra _Founders_ episode on Brad Jacobs), the cultivated mystique of "The Mechanic," the family-as-mythology framing. The self-preservation subtype supplies the capital discipline: preferred equity, structured deals, the constant question "what do I lose if this goes wrong?"
 
 His own crystallizing line was rehearsed but accurate: he had no subject matter expertise on the Middle East, "so I just asked the smartest people in the world what they would do." Most analysts would expect a Type 5 to have prepared with 30 books or a Type 6 to have built a security framework around contingencies. The 3 walked into the room with no preparation and made his lack of expertise the deliverable. MBZ told him he was the first senior US emissary in years who didn't fall asleep, read note cards, or pressure. The room read it as humility. It was image-management at the level of a black belt.
 

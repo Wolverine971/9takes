@@ -5,14 +5,14 @@ persona_title: "Hollywood's Restless Escape Artist"
 description: 'Leonardo DiCaprio grew up staring at a painting of paradise and ruin. His Type 7 personality explains why freedom, not fame, drives everything he does.'
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Leonardo-DiCaprio'
+loc: 'https://9takes.com/personality-analysis/leonardo-dicaprio'
 lastmod: '2026-02-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['movieStar', 'screen-icon']
-person: 'Leonardo-DiCaprio'
+person: 'leonardo-dicaprio'
 suggestions: ['Tom-Cruise', 'Robert-Downey-Jr', 'Jennifer-Lawrence', 'Margot-Robbie']
 wikipedia: 'https://en.wikipedia.org/wiki/Leonardo_DiCaprio'
 twitter: ''
@@ -202,7 +202,7 @@ Their pre-production process reveals how a Seven operates at his best. DiCaprio 
 
 On _The Wolf of Wall Street_, something broke open. DiCaprio described it as "the most free and exciting and spontaneous and hilarious film production I've ever been a part of." Scorsese described a creative escalation: "He came up with wonderful stuff that was outrageous. I pushed him, he pushed me. Then I pushed him more, then he pushed me, and suddenly everything was wild." DiCaprio's verdict: "I've never seen Martin Scorsese that happy on a set in my life."
 
-The audition for [Margot Robbie](/personality-analysis/Margot-Robbie)'s role in that film is one of Hollywood's great stories. When the scene called for her to kiss DiCaprio, she slapped him instead. Dead silence for what Robbie described as "an eternity, but was probably three seconds." Then DiCaprio and Scorsese burst out laughing. She got the part.
+The audition for [Margot Robbie](/personality-analysis/margot-robbie)'s role in that film is one of Hollywood's great stories. When the scene called for her to kiss DiCaprio, she slapped him instead. Dead silence for what Robbie described as "an eternity, but was probably three seconds." Then DiCaprio and Scorsese burst out laughing. She got the part.
 
 Then came _Killers of the Flower Moon_ (2023). DiCaprio was originally cast as FBI agent Tom White, the hero investigator. He told Scorsese it wasn't working: "It just didn't feel like it got to the heart of it. We weren't immersed in the Osage story." He asked to play Ernest Burkhart instead — a dim, manipulable man complicit in the systematic murder of Osage people for their oil wealth. The entire script was overhauled.
 

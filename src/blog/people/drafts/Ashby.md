@@ -5,14 +5,14 @@ meta_title: "Inside Ashby Florence's Type 7 Mind: Why Playing Characters Is How 
 description: "She trained for Broadway since childhood. The world ignored her for 20 years. Then a fevered TikTok in a Sharpie goatee changed everything. Inside Ashby Florence's Type 7 psychology."
 author: 'DJ Wayne'
 date: '2025-12-11'
-loc: 'https://9takes.com/personality-analysis/Ashby'
+loc: 'https://9takes.com/personality-analysis/ashby'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'lifestyle-builder']
-person: 'Ashby'
+person: 'ashby'
 suggestions: ['Emma-Chamberlain', 'David-Dobrik', 'Kai-Cenat', 'Theo-Von']
 wikipedia: ''
 twitter: ''

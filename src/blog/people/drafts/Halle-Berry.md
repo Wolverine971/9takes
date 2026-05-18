@@ -5,14 +5,14 @@ persona_title: "Hollywood's Relentless Vessel"
 description: "Why does Halle Berry keep reinventing herself — pageant queen, Oscar winner, MMA director, menopause CEO? Inside the Type 3 wiring behind the performance."
 author: 'DJ Wayne'
 date: '2026-05-10'
-loc: 'https://9takes.com/personality-analysis/Halle-Berry'
+loc: 'https://9takes.com/personality-analysis/halle-berry'
 lastmod: '2026-05-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['movieStar', 'celebrity', 'screen-icon']
-person: 'Halle-Berry'
+person: 'halle-berry'
 suggestions: ['Jennifer-Lopez', 'Beyonce-Knowles', 'Lupita-Nyongo', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Halle_Berry'
 twitter: 'halleberry'
@@ -332,7 +332,7 @@ She thanked her family for sitting through it. She thanked her management. She d
 
 The Razzie was the dress rehearsal. ReSpin is the long-form version of the same play, run twenty years later on a script the body wrote rather than a studio. *Every wall becomes a stage. Every wound becomes a campaign.*
 
-[Jennifer Lopez](/personality-analysis/Jennifer-Lopez) does it. Beyoncé does it. The high-functioning Three at the very top of the Hollywood ecosystem operates on this engine. What is unusual about Halle Berry is that she has been doing it long enough — with enough of the standard distractions stripped away by age — that you can finally see the engine. You can finally see what it is costing her, and what it is still buying her, and what is left when the next reinvention runs out.
+[Jennifer Lopez](/personality-analysis/jennifer-lopez) does it. Beyoncé does it. The high-functioning Three at the very top of the Hollywood ecosystem operates on this engine. What is unusual about Halle Berry is that she has been doing it long enough — with enough of the standard distractions stripped away by age — that you can finally see the engine. You can finally see what it is costing her, and what it is still buying her, and what is left when the next reinvention runs out.
 
 She is fifty-eight. Her boyfriend has proposed. She has not answered. The performance is still running.
 

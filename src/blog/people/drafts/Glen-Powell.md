@@ -5,14 +5,14 @@ persona_title: "Hollywood's Relentless Shapeshifter"
 description: 'Glen Powell spent two decades becoming whoever Hollywood needed, then discovered the real crisis starts when the role finally fits.'
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Glen-Powell'
+loc: 'https://9takes.com/personality-analysis/glen-powell'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'Glen-Powell'
+person: 'glen-powell'
 suggestions: ['tom-cruise', 'sydney-sweeney', 'miles-teller', 'arnold-schwarzenegger']
 wikipedia: 'https://en.wikipedia.org/wiki/Glen_Powell'
 twitter: 'https://twitter.com/glenpowell'

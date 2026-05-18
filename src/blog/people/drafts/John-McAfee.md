@@ -5,14 +5,14 @@ persona_title: "Cybersecurity's Doomed Escape Artist"
 description: "He built antivirus software, a yoga retreat, and a Belize compound — then ran from each one. The Enneagram Type 7 pattern that drove John McAfee's life."
 author: 'DJ Wayne'
 date: '2026-05-09'
-loc: 'https://9takes.com/personality-analysis/John-McAfee'
+loc: 'https://9takes.com/personality-analysis/john-mcafee'
 lastmod: '2026-05-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
 type: ['techie', 'entrepreneur', 'business-operator']
-person: 'John-McAfee'
+person: 'john-mcafee'
 suggestions: ['Palmer-Luckey', 'Paul-Graham', 'Theo-Von', 'Mike-Majlak']
 wikipedia: 'https://en.wikipedia.org/wiki/John_McAfee'
 twitter: 'officialmcafee'
@@ -167,7 +167,7 @@ In Guatemala, denied asylum, he faked two heart attacks in detention to delay hi
 
 In June 2013 he uploaded a YouTube parody titled _How to Uninstall McAfee Antivirus_ — Hawaiian shirt, scantily clad women undressing him, white powder on a glass-topped table, an actual handgun, ten million views. He told Reuters it was payback for the negative coverage he had been getting since fleeing Belize. He was a man under federal interest converting his own ruined reputation into branded content in real time, in a sub-three-minute clip.
 
-The rest of the inventory ran in parallel. Wrote a book. Started Future Tense Central. Volunteered to crack the San Bernardino shooter's iPhone (he later admitted it was a publicity stunt). Ran for the Cyber Party nomination for President in 2015, then for the Libertarian nomination, finishing third at the convention. Took over a tiny public company called MGT Capital and pivoted it into Bitcoin mining. (Compare another tech-Seven escape artist, [Paul Graham](/personality-analysis/Paul-Graham) — who once described feeling empty after selling his startup for $49 million and routed the same restlessness into Y Combinator. McAfee had the engine without the steering.) Began tweeting price predictions for cryptocurrencies — the most famous being the July 2017 vow that Bitcoin would hit $500,000 within three years _"or I will eat my own dick on national television."_
+The rest of the inventory ran in parallel. Wrote a book. Started Future Tense Central. Volunteered to crack the San Bernardino shooter's iPhone (he later admitted it was a publicity stunt). Ran for the Cyber Party nomination for President in 2015, then for the Libertarian nomination, finishing third at the convention. Took over a tiny public company called MGT Capital and pivoted it into Bitcoin mining. (Compare another tech-Seven escape artist, [Paul Graham](/personality-analysis/paul-graham) — who once described feeling empty after selling his startup for $49 million and routed the same restlessness into Y Combinator. McAfee had the engine without the steering.) Began tweeting price predictions for cryptocurrencies — the most famous being the July 2017 vow that Bitcoin would hit $500,000 within three years _"or I will eat my own dick on national television."_
 
 The dick-eating threat was vintage 7w8. A pure 7 ducks accountability quietly. A 7-with-8 wing makes the accountability so theatrical that nobody is allowed to take it seriously. The actual question — would he stay sober, file taxes, complete a single project to its end — was always drowned out by volume.
 

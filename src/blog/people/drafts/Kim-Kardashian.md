@@ -5,14 +5,14 @@ description: 'Kim Kardashian built a life of composure, precision, and visual co
 persona_title: "Pop Culture's Engineered Calm"
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Kim-Kardashian'
+loc: 'https://9takes.com/personality-analysis/kim-kardashian'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity', 'creator', 'celebrity-image', 'lifestyle-builder']
-person: 'Kim-Kardashian'
+person: 'kim-kardashian'
 suggestions:
   ['Kris-Jenner', 'Paris-Hilton', 'Kylie-Jenner', 'Taylor-Swift', 'Meghan-Markle', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Kim_Kardashian'
@@ -66,7 +66,7 @@ Kim is the most image-managed person in entertainment. And the moments that defi
 
 ## Robert Kardashian's Daughter First
 
-Before she was famous, before the tape, before [Kanye](/personality-analysis/Kanye), Kim Kardashian was Robert Kardashian's daughter. And the way she talks about her father tells you everything about where the composure comes from.
+Before she was famous, before the tape, before [Kanye](/personality-analysis/kanye), Kim Kardashian was Robert Kardashian's daughter. And the way she talks about her father tells you everything about where the composure comes from.
 
 > "My dad was always the one to take the bullet. You would never hear him say anything bad about anyone in his life, and he chose to be that person."
 
@@ -82,7 +82,7 @@ Robert Kardashian died when Kim was 22. She was in the middle of her first divor
 
 ## The Momager's Blueprint
 
-If Robert gave Kim the composure, [Kris Jenner](/personality-analysis/Kris-Jenner) gave her the ambition.
+If Robert gave Kim the composure, [Kris Jenner](/personality-analysis/kris-jenner) gave her the ambition.
 
 Kris didn't just manage the family. She saw what the world would pay attention to and built infrastructure around it. She turned a large, photogenic family into a multi-platform empire. And she carries the weight of that decision.
 
@@ -152,7 +152,7 @@ The pared-down wardrobe, the monochrome aesthetic, the "quiet luxury" Kim has be
 
 ## When Control Met Chaos
 
-Kim describes her early relationship with [Kanye](/personality-analysis/Kanye) the way you'd describe discovering a new world:
+Kim describes her early relationship with [Kanye](/personality-analysis/kanye) the way you'd describe discovering a new world:
 
 > "He was like larger than life and so smart and just always talked about new ideas and things that I wasn't really familiar with. I was always learning with him."
 
@@ -184,7 +184,7 @@ She frames leaving not as failure but as necessity. _One of us that can_ also qu
 
 Her first instinct isn't _am I safe?_ It's _will people think I'm a failure?_
 
-She raises the kids full-time. She pushes for a healthy co-parenting relationship. She keeps everything in organized folders. Every text, every exchange. Her sister [Kourtney](/personality-analysis/Kourtney-Kardashian) has seen the archive. The whole family has. She's had drafts written, approved by the group chat, ready to post. She never posts them.
+She raises the kids full-time. She pushes for a healthy co-parenting relationship. She keeps everything in organized folders. Every text, every exchange. Her sister [Kourtney](/personality-analysis/kourtney-kardashian) has seen the archive. The whole family has. She's had drafts written, approved by the group chat, ready to post. She never posts them.
 
 > "What's the point? Am I going to go back and forth? My kids are going to see this."
 
@@ -258,7 +258,7 @@ Kim spent her adult life inside relationships. She was married or seriously part
 
 > "I was in a relationship from the time I was 19 years old. I've never been just single and free and not thinking about what someone else's needs are. And I just love it."
 
-When she dated [Pete Davidson](/personality-analysis/Pete-Davidson), the relationship was fun. She says so directly. But Kanye's public attacks on Pete made her reluctant to put anyone else in the crossfire.
+When she dated [Pete Davidson](/personality-analysis/pete-davidson), the relationship was fun. She says so directly. But Kanye's public attacks on Pete made her reluctant to put anyone else in the crossfire.
 
 > "It's had me put up this guard where I don't want to put anyone in that position. So it's easier if I just maybe stay away."
 

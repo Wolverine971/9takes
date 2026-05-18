@@ -5,14 +5,14 @@ persona_title: "Podcasting's Holy Fool"
 description: "Five million subscribers and he's outside a 7-Eleven at 2am, feeling lonely. Lex Fridman built the world's biggest listening booth to find himself."
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Lex-Fridman'
+loc: 'https://9takes.com/personality-analysis/lex-fridman'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['creator', 'techie', 'podcaster', 'tech-interpreter']
-person: 'Lex-Fridman'
+person: 'lex-fridman'
 suggestions: ['Joe-Rogan', 'Jordan-Peterson', 'Elon-Musk', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Lex_Fridman'
 twitter: 'https://twitter.com/lexfridman'
@@ -104,7 +104,7 @@ FEEDBACK (2026-04-06):
 
 > "Feeling lonely. Just one of those nights. I'm sitting outside 7-Eleven at 2am like old times, listening to music, trying to figure out what it's all about. Silly brain is stuck feeling low tonight, even though I know life is so fucking beautiful."
 
-<p class="firstLetter">January 2025. Lex Fridman has nearly five million YouTube subscribers. He has interviewed <a href="/personality-analysis/Elon-Musk">Elon Musk</a>, <a href="/personality-analysis/Donald-Trump">Donald Trump</a>, and the president of Ukraine in a single twelve-month stretch. He has sat across from Nobel laureates, convicted fraudsters, and the prime minister of India. He is, by any measure, one of the most connected people on Earth.</p>
+<p class="firstLetter">January 2025. Lex Fridman has nearly five million YouTube subscribers. He has interviewed <a href="/personality-analysis/elon-musk">Elon Musk</a>, <a href="/personality-analysis/donald-trump">Donald Trump</a>, and the president of Ukraine in a single twelve-month stretch. He has sat across from Nobel laureates, convicted fraudsters, and the prime minister of India. He is, by any measure, one of the most connected people on Earth.</p>
 
 And he is sitting outside a 7-Eleven at two in the morning, listening to music, feeling lonely, posting about it to millions of strangers.
 
@@ -170,7 +170,7 @@ None of that is decoration. It is the source code. When critics roll their eyes 
 
 ## "I See Myself as The Idiot and an Idiot"
 
-In a 2022 conversation with <a href="/personality-analysis/Jordan-Peterson">Jordan Peterson</a>, Fridman made the single most revealing statement of his public life. Peterson asked about his favorite Dostoevsky novel.
+In a 2022 conversation with <a href="/personality-analysis/jordan-peterson">Jordan Peterson</a>, Fridman made the single most revealing statement of his public life. Peterson asked about his favorite Dostoevsky novel.
 
 > "For the longest time, _The Idiot_ was my favorite book of all because I identified with the ideas represented by Prince Myshkin. I also identified with Prince Myshkin as a human being... The fool, yeah, because the world kind of my whole life still kind of saw me in my perception, in my narrow perception, as kind of the fool. And I, different from the interpretation that a lot of people take of this book, I see him as a kind of hero. To be a naive, quote unquote, fool, but really just a naive optimist and naive in the best possible way."
 
@@ -241,7 +241,7 @@ That is the move. Three Type 5 instincts make it work:
 
 None of this is performance. It is what Five-shaped curiosity looks like when it is given three uninterrupted hours: observation, restatement, observation again, until the model fits the data.
 
-By 2020 he had renamed the show "The Lex Fridman Podcast" and moved from Boston to Austin, following the gravitational pull of <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a> and the broader tech migration south. He left a paid MIT research position to do it. For a Five, that is not a career pivot. The academic post was the institutional version of everything Type 5s spend their twenties building — credentialed expertise, controlled inputs, a contained domain. Walking away from it was the structural equivalent of leaving the fortress on purpose, betting that a microphone would protect what the laboratory had.
+By 2020 he had renamed the show "The Lex Fridman Podcast" and moved from Boston to Austin, following the gravitational pull of <a href="/personality-analysis/joe-rogan">Joe Rogan</a> and the broader tech migration south. He left a paid MIT research position to do it. For a Five, that is not a career pivot. The academic post was the institutional version of everything Type 5s spend their twenties building — credentialed expertise, controlled inputs, a contained domain. Walking away from it was the structural equivalent of leaving the fortress on purpose, betting that a microphone would protect what the laboratory had.
 
 By 2025: nearly five million subscribers, over 500 million views, interviews with sitting world leaders on three continents. The Atlantic called him a "tech-world whisperer." Andrew Huberman credited him as the inspiration for launching the Huberman Lab Podcast.
 

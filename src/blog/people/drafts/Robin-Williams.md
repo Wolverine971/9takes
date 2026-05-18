@@ -5,14 +5,14 @@ persona_title: "Comedy's Lonely Possibility Engine"
 description: 'Robin Williams was a Type 7 who built joy as survival. Inside the third-floor toy soldiers, the cocaine that slowed him down, and the engine that finally broke.'
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Robin-Williams'
+loc: 'https://9takes.com/personality-analysis/robin-williams'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['comedian', 'movieStar', 'screen-icon']
-person: 'Robin-Williams'
+person: 'robin-williams'
 suggestions: ['Matt-Damon', 'Jack-Black', 'Tom-Holland', 'Brittany-Broski']
 wikipedia: 'https://en.wikipedia.org/wiki/Robin_Williams'
 production_pretext:
@@ -249,7 +249,7 @@ There is a line in the Maron interview that doesn't get quoted enough. Maron ask
 
 A 7 spends a life converting fear into laughter. The conversion costs something. For most 7s the cost is hidden — a divorce, a bottle, a string of next things. For Robin Williams the cost was paid in public, in increments, until the day the conversion stopped working.
 
-He gave us the laughter he was making for himself. He kept giving it after he'd run out. The third-floor little boy with thousands of toy soldiers had grown up to give voices to ninety thousand troops, to cancer patients in pediatric wards, to [two kids from South Boston with a screenplay about a boy genius](/personality-analysis/Matt-Damon), to a friend on the other end of a 415 area code at three in the morning.
+He gave us the laughter he was making for himself. He kept giving it after he'd run out. The third-floor little boy with thousands of toy soldiers had grown up to give voices to ninety thousand troops, to cancer patients in pediatric wards, to [two kids from South Boston with a screenplay about a boy genius](/personality-analysis/matt-damon), to a friend on the other end of a 415 area code at three in the morning.
 
 He could not keep any of it for himself.
 

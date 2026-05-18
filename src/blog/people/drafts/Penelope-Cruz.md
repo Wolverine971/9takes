@@ -5,14 +5,14 @@ persona_title: "Cinema's Trembling Loyalist"
 description: "Penélope Cruz looks fearless on screen and admits to worrying about everything off it. Inside the Type 6 system she built to keep working scared."
 author: 'DJ Wayne'
 date: '2026-05-15'
-loc: 'https://9takes.com/personality-analysis/Penelope-Cruz'
+loc: 'https://9takes.com/personality-analysis/penelope-cruz'
 lastmod: '2026-05-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['movieStar', 'celebrity', 'screen-icon']
-person: 'Penelope-Cruz'
+person: 'penelope-cruz'
 suggestions: ['Tom-Cruise', 'Pedro-Pascal', 'Scarlett-Johansson', 'Jennifer-Lawrence']
 wikipedia: 'https://en.wikipedia.org/wiki/Penélope_Cruz'
 production_pretext:
@@ -209,7 +209,7 @@ That is the cost the Type 6 system extracts when it cracks. The architecture is 
 
 Bardem said he eventually understood. He learned to stay. He has since restructured his entire career around an unspoken rule he and Cruz operate by: <em>one parent always home, no work contract that puts him more than two weeks away from his family.</em>
 
-That is not a Hollywood-romance flourish. That is a Type 6 who, having survived the moment when her system nearly failed, rebuilt it with redundancy. The anchor has a backup. The backup has a backup. <a href="/personality-analysis/Tom-Cruise">Tom Cruise</a>, her partner of three years through the early 2000s, had been the louder option but never the patient choice — the patient choice was the one she had been holding in reserve since the wardrobe test in 1992. The rules of the marriage to Bardem are designed to make sure the structure can hold even when Cruz cannot.
+That is not a Hollywood-romance flourish. That is a Type 6 who, having survived the moment when her system nearly failed, rebuilt it with redundancy. The anchor has a backup. The backup has a backup. <a href="/personality-analysis/tom-cruise">Tom Cruise</a>, her partner of three years through the early 2000s, had been the louder option but never the patient choice — the patient choice was the one she had been holding in reserve since the wardrobe test in 1992. The rules of the marriage to Bardem are designed to make sure the structure can hold even when Cruz cannot.
 
 ## Cruz's Sacred Rule About Her Children
 
@@ -243,7 +243,7 @@ Listen to the 2009 Oscar speech a second time. The first fifteen seconds are a S
 
 That is the controlled <a href="/enneagram-corner/enneagram-type-3">Type 3</a> leak. The Six's stress line runs to the Achiever — to the image-driven, achievement-focused armor that arrives precisely when the trusted person is not in the room. Almodóvar was not two meters off the Oscar stage. Bardem was in the audience but he was not directing. The Six who normally outsources the courage to someone she trusts more than herself reaches, in their absence, for the polished competence the Achiever deploys effortlessly and the Six deploys under duress.
 
-The Oscar speech is the live miniature. The long version is the seven-year stretch between <em>The Hi-Lo Country</em> (1998) and <em>Volver</em> (2006). Cruz spent those years working almost exclusively in English without Almodóvar, choosing visibility over fit. <em>Captain Corelli's Mandolin</em>. <em>Vanilla Sky</em>. <em>Sahara</em>. <em>Gothika</em>. The three-year relationship with <a href="/personality-analysis/Tom-Cruise">Tom Cruise</a>. The "exotic" Hollywood-discovery packaging. Most of those films were panned. Several of those performances were criticized as inert in a way her Spanish work never was. She returned to Almodóvar in 2006 for <em>Volver</em>, won Cannes Best Actress, and never operated at that distance from the safety net again. The Hollywood years were the Six in stress, performing achievement-shaped competence in the absence of the chosen authority. The <em>Volver</em> turn was the Six finding her way back to the room where the work could be real.
+The Oscar speech is the live miniature. The long version is the seven-year stretch between <em>The Hi-Lo Country</em> (1998) and <em>Volver</em> (2006). Cruz spent those years working almost exclusively in English without Almodóvar, choosing visibility over fit. <em>Captain Corelli's Mandolin</em>. <em>Vanilla Sky</em>. <em>Sahara</em>. <em>Gothika</em>. The three-year relationship with <a href="/personality-analysis/tom-cruise">Tom Cruise</a>. The "exotic" Hollywood-discovery packaging. Most of those films were panned. Several of those performances were criticized as inert in a way her Spanish work never was. She returned to Almodóvar in 2006 for <em>Volver</em>, won Cannes Best Actress, and never operated at that distance from the safety net again. The Hollywood years were the Six in stress, performing achievement-shaped competence in the absence of the chosen authority. The <em>Volver</em> turn was the Six finding her way back to the room where the work could be real.
 
 The reason Cruz remains identifiably a Six rather than re-typing as a Three is that the achievement is never enough for her. The Six who has just won the Oscar still cannot tell her husband she is in postpartum depression three years later. The image solved nothing. It just got her through the speech.
 

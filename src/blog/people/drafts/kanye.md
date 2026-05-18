@@ -100,11 +100,11 @@ He said that publicly. Out loud. The way someone says it when they've carried it
 
 The album that followed, _808s & Heartbreak_, stripped everything away. Auto-Tune vocals over a Roland TR-808 drum machine. Emotional devastation converted into something cold and mechanical. The critical response was mixed. The cultural impact was seismic.
 
-Before _808s_, rappers didn't sing about heartbreak over synth pads. After it, an entire generation did. [Drake](/personality-analysis/Drake) built _So Far Gone_ on the same emotional energy. The Weeknd, Travis Scott, Future, Young Thug, Juice WRLD, Post Malone. They all trace lineage back to what Kanye made from his mother's death. Rolling Stone named it one of the forty most groundbreaking albums of all time. And it was just one pivot in a career defined by them, from the chipmunk soul of _The College Dropout_ to the orchestral ambitions of _Late Registration_ to the stadium anthems of _Graduation_ that outsold 50 Cent and, as Ben Detrick wrote in XXL, "altered the direction of hip-hop" by proving rappers didn't need street narratives to fill arenas.
+Before _808s_, rappers didn't sing about heartbreak over synth pads. After it, an entire generation did. [Drake](/personality-analysis/drake) built _So Far Gone_ on the same emotional energy. The Weeknd, Travis Scott, Future, Young Thug, Juice WRLD, Post Malone. They all trace lineage back to what Kanye made from his mother's death. Rolling Stone named it one of the forty most groundbreaking albums of all time. And it was just one pivot in a career defined by them, from the chipmunk soul of _The College Dropout_ to the orchestral ambitions of _Late Registration_ to the stadium anthems of _Graduation_ that outsold 50 Cent and, as Ben Detrick wrote in XXL, "altered the direction of hip-hop" by proving rappers didn't need street narratives to fill arenas.
 
 ## Twenty-Four Hours a Day in Paradise
 
-After the [Taylor Swift](/personality-analysis/Taylor-Swift) VMA interruption in 2009, when he jumped onstage to declare Beyoncé deserved the award, the backlash was total. He was the most hated man in music. President Obama called him a "jackass."
+After the [Taylor Swift](/personality-analysis/taylor-swift) VMA interruption in 2009, when he jumped onstage to declare Beyoncé deserved the award, the backlash was total. He was the most hated man in music. President Obama called him a "jackass."
 
 Kanye responded by flying to Hawaii and block-booking three recording studios at Avex for twenty-four hours a day. He slept in ninety-minute intervals on a studio chair. He flew in dozens of collaborators (Kid Cudi, Pusha T, Elton John, Justin Vernon, Rick Ross) and posted "Kanye Commandments" on the studio wall: No tweeting. No pictures.
 
@@ -126,7 +126,7 @@ The Enneagram framework calls Type 7 "The Enthusiast," the personality driven by
 
 But that clinical description doesn't capture what a Type 7 looks like at Kanye's voltage.
 
-Kanye's mind operates like a possibility engine running at maximum RPM with no governor. Ideas don't arrive one at a time. They arrive in symphonies. "When I talk, it's not a rant, it's a symphony of ideas," he told [Joe Rogan](/personality-analysis/Joe-Rogan) in 2020. "I think very three-dimensionally. I don't think in the black-and-white lines that I've been programmed to think in. I think in full color."
+Kanye's mind operates like a possibility engine running at maximum RPM with no governor. Ideas don't arrive one at a time. They arrive in symphonies. "When I talk, it's not a rant, it's a symphony of ideas," he told [Joe Rogan](/personality-analysis/joe-rogan) in 2020. "I think very three-dimensionally. I don't think in the black-and-white lines that I've been programmed to think in. I think in full color."
 
 The evidence runs across every domain of his life:
 
@@ -205,7 +205,7 @@ In October 2022, Kanye appeared at Paris Fashion Week wearing a "White Lives Mat
 
 The fallout was total. Adidas, Gap, Balenciaga, Vogue, Universal Music Group, CAA. Every major partnership severed. His net worth collapsed. The ADL documented over thirty antisemitic incidents that directly referenced his statements.
 
-[Kim Kardashian](/personality-analysis/Kim-Kardashian), his ex-wife, described the marriage's end in terms that echo the Seven's pattern: "I didn't know what you're going to get when you wake up, and that's a really unsettling feeling." The unpredictability that makes Kanye electrifying in a studio makes him unbearable in a home.
+[Kim Kardashian](/personality-analysis/kim-kardashian), his ex-wife, described the marriage's end in terms that echo the Seven's pattern: "I didn't know what you're going to get when you wake up, and that's a really unsettling feeling." The unpredictability that makes Kanye electrifying in a studio makes him unbearable in a home.
 
 The fatherhood question is the one that cuts deepest. Kanye has four children (North, Saint, Chicago, Psalm) and he has said, publicly and emphatically, "I DON'T WANT TO JUST 'SEE' MY KIDS. I NEED TO RAISE THEM." He started Donda Academy, a private school in Simi Valley named after his mother, because "so many schools are made to set kids up for industries that don't even matter anymore." He fought publicly over North's TikTok account. He sent cease-and-desist letters through lawyers. He said on camera: "I'm their dad. It has to be co-parenting. Men's voices matter."
 

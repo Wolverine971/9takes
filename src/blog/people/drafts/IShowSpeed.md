@@ -5,14 +5,14 @@ description: 'Why is IShowSpeed so loud? We decode the Type 8 drive behind his c
 persona_title: "Streaming's Homesick Warlord"
 author: 'DJ Wayne'
 date: '2025-03-25'
-loc: 'https://9takes.com/personality-analysis/IShowSpeed'
+loc: 'https://9takes.com/personality-analysis/ishowspeed'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['creator', 'streamer']
-person: 'IShowSpeed'
+person: 'ishowspeed'
 suggestions: ['Kai-Cenat', 'Jake-Paul', 'Logan-Paul', 'Mr-Beast']
 wikipedia: ''
 twitter: ''
@@ -112,7 +112,7 @@ Speed's response: he moved out. Went to live with his father in Detroit. He was 
 
 Resolving the conflict not through confrontation but through departure. That's how someone with this wiring handles authority they can't overpower. They don't submit. They establish independence.
 
-The pattern showed early. During [Adin Ross](/personality-analysis/Adin-Ross)'s e-dating show in 2021, Speed asked guest Ash Kash a hypothetical about being the last two people on Earth. When she declined, 16-year-old Speed snapped: "_Who's going to stop me? You're not stopping me._" Twitch permanently banned him.
+The pattern showed early. During [Adin Ross](/personality-analysis/adin-ross)'s e-dating show in 2021, Speed asked guest Ash Kash a hypothetical about being the last two people on Earth. When she declined, 16-year-old Speed snapped: "_Who's going to stop me? You're not stopping me._" Twitch permanently banned him.
 
 Speed's response? He tweeted "Bye." with a screenshot and moved to YouTube.
 
@@ -156,7 +156,7 @@ February 2025: WWE Royal Rumble. Speed landed a perfect backflip, helped elimina
 
 The body had changed too. Starting around early 2024, Speed quietly committed to a physical transformation: 50 pull-ups a day, six workouts a week, a 225-pound bench press that eventually climbed to 300. The kid who once projected strength through volume alone was now building it into bone and muscle. He raced Noah Lyles in a 50-meter dash. He ran a 4.49-second 40-yard dash in front of Tom Brady, who said: "_Oh my God. That's unbelievable._" Randy Orton, after training him at the WWE Performance Center, said he could be a full-time WWE superstar. The armor was no longer just noise. He was making it physical.
 
-He and [Kai Cenat](/personality-analysis/Kai-Cenat) turned down **$140 million from Kick**. Speed stayed on YouTube. "_I hate taking deals where I feel like nah, that's really not me. This might mess up my YouTube career._"
+He and [Kai Cenat](/personality-analysis/kai-cenat) turned down **$140 million from Kick**. Speed stayed on YouTube. "_I hate taking deals where I feel like nah, that's really not me. This might mess up my YouTube career._"
 
 For someone whose career is an extension of his identity, selling the platform is selling the self. The 8's need for autonomy expressed through a nine-figure refusal.
 
@@ -252,7 +252,7 @@ The contrast between the parents tells the rest. With his mother, the authority 
 
 Speed doesn't pick friends who let him be the loudest person in the room. He picks friends who fight back.
 
-**[Kai Cenat](/personality-analysis/Kai-Cenat)** is the only creator who matches Speed's energy without yielding. During a 68-hour Minecraft Hardcore marathon in August 2024, frustration boiled over into shoving and wrestling. TMZ covered it. They beat the game after 105 hours and 42 deaths.
+**[Kai Cenat](/personality-analysis/kai-cenat)** is the only creator who matches Speed's energy without yielding. During a 68-hour Minecraft Hardcore marathon in August 2024, frustration boiled over into shoving and wrestling. TMZ covered it. They beat the game after 105 hours and 42 deaths.
 
 Speed on Kai: "_That's really my brother, man. He really made streaming fun and exciting for me._"
 
@@ -260,7 +260,7 @@ The dynamic works because neither defers. Speed gravitates toward equals, people
 
 **Adin Ross** failed the test. After a platform dispute, Speed confronted him: "_Me and Adin haven't talked in like... months. I text him and he hasn't been texting me._" The core grievance wasn't business. It was loyalty. _Are you my friend when the camera's off?_ Speed asks this question through confrontation, not conversation.
 
-**[Cristiano Ronaldo](/personality-analysis/Cristiano-Ronaldo)** is the one crack in the armor.
+**[Cristiano Ronaldo](/personality-analysis/cristiano-ronaldo)** is the one crack in the armor.
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/Uv1PyE8J38w?si=2RYXWH2HSF6XlmQx" title="IShowSpeed meets Ronaldo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -272,7 +272,7 @@ At the Sidemen charity match at Wembley, an 18-goal, 9-9 thriller that went to p
 
 His first call was to his dad.
 
-Even [MrBeast](/personality-analysis/Mr-Beast) leverages this dynamic. When he added Speed to a WhatsApp group chat with Ronaldo, MrBeast laid down conditions: "_Don't cry. Don't freak out. Don't smell him. Definitely don't bark at him._" Speed agreed. Accepting instructions because MrBeast controlled access to the one thing Speed can't take by force.
+Even [MrBeast](/personality-analysis/mr-beast) leverages this dynamic. When he added Speed to a WhatsApp group chat with Ronaldo, MrBeast laid down conditions: "_Don't cry. Don't freak out. Don't smell him. Definitely don't bark at him._" Speed agreed. Accepting instructions because MrBeast controlled access to the one thing Speed can't take by force.
 
 ## The Ghana Homecoming
 

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Tender Brawler"
 description: "14 broken noses, jail at 17, sober at 30. Inside the psychology that makes Jon Bernthal one of Hollywood's most compelling actors and a textbook Enneagram Type 8."
 author: 'DJ Wayne'
 date: '2026-04-12'
-loc: 'https://9takes.com/personality-analysis/Jon-Bernthal'
+loc: 'https://9takes.com/personality-analysis/jon-bernthal'
 lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['movieStar', 'screen-icon']
-person: 'Jon-Bernthal'
+person: 'jon-bernthal'
 suggestions: ['tom-hardy', 'shia-labeouf', 'denzel-washington', 'jocko-willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Jon_Bernthal'
 twitter: ''
@@ -149,7 +149,7 @@ In security, the armor cracks open. He fosters children, just like his mother di
 
 ## What Sobriety Actually Cost Him
 
-The Venice Beach fight wasn't the only one. In another incident he described to [Dax Shepard](/personality-analysis/Dax-Shepard), he hit a man and knocked his teeth out. The next morning was Christmas. "I just woke up that next morning in this state of like absolute horror that this guy has to wake up on Christmas morning without his teeth." The horror didn't come from fear of consequences. It came from empathy, the thing the anger had been blocking.
+The Venice Beach fight wasn't the only one. In another incident he described to [Dax Shepard](/personality-analysis/dax-shepard), he hit a man and knocked his teeth out. The next morning was Christmas. "I just woke up that next morning in this state of like absolute horror that this guy has to wake up on Christmas morning without his teeth." The horror didn't come from fear of consequences. It came from empathy, the thing the anger had been blocking.
 
 He got sober on July 3, 2009. He went to anger management. He started keeping an anger journal, something he still maintains. "I really like keeping an anger journal and really whittling it down and doing the work," he told Shepard. Boxing replaced bar fights. Not to hurt anyone, but to process what was inside him.
 
@@ -169,7 +169,7 @@ One year after that night in jail, on July 3, 2010, he was in Atlanta, starting 
 
 The roles that made Jon Bernthal famous are not coincidences. They are the same story told in different costumes.
 
-Shane Walsh in _The Walking Dead_: a man who loves his best friend's family so fiercely that the love curdles into something violent and possessive. Frank Castle in _The Punisher_: a father whose family is murdered, who converts grief into a war that can never end. Wayne Jenkins in _We Own This City_: a cop who started out wanting to protect Baltimore and ended up becoming the thing the city needed protection from. In _Fury_, alongside [Brad Pitt](/personality-analysis/Brad-Pitt), the four months of boot camp and on-set brawling between cast members weren't an obstacle for Bernthal. They were the point.
+Shane Walsh in _The Walking Dead_: a man who loves his best friend's family so fiercely that the love curdles into something violent and possessive. Frank Castle in _The Punisher_: a father whose family is murdered, who converts grief into a war that can never end. Wayne Jenkins in _We Own This City_: a cop who started out wanting to protect Baltimore and ended up becoming the thing the city needed protection from. In _Fury_, alongside [Brad Pitt](/personality-analysis/brad-pitt), the four months of boot camp and on-set brawling between cast members weren't an obstacle for Bernthal. They were the point.
 
 Every one of those characters is a protector who crossed the line. Every one of them is a version of the man Bernthal almost became.
 
@@ -177,7 +177,7 @@ Every one of those characters is a protector who crossed the line. Every one of 
 
 That line contains his entire acting philosophy: there are no villains, only people whose protection instinct went wrong. He doesn't play bad men. He plays men whose goodness broke.
 
-The same impulse led him to give [Shia LaBeouf](/personality-analysis/Shia-LaBeouf) space on _Real Ones_ to address FKA twigs' sexual battery and abuse lawsuit. LaBeouf said "I hurt that woman" and called her a saint who saved his life. The episode drew backlash for platforming an accused abuser, but Bernthal's instinct wasn't to excuse. It was to make a man say it out loud.
+The same impulse led him to give [Shia LaBeouf](/personality-analysis/shia-labeouf) space on _Real Ones_ to address FKA twigs' sexual battery and abuse lawsuit. LaBeouf said "I hurt that woman" and called her a saint who saved his life. The episode drew backlash for platforming an accused abuser, but Bernthal's instinct wasn't to excuse. It was to make a man say it out loud.
 
 ### How He Approaches the Craft
 
@@ -189,7 +189,7 @@ What he does instead is pursue authenticity at a level that borders on obsession
 
 The career bears this out. Ten years without stopping: _Wolf of Wall Street_, _Fury_, _Sicario_, _Baby Driver_, _Wind River_, _We Own This City_. Andy Greenwald of The Ringer called his Wayne Jenkins portrayal "one of the great TV performances of this century." Punisher co-creator Gerry Conway called Bernthal's Frank Castle his favorite on-screen version of the character.
 
-In 2026, he's making his Broadway debut at the August Wilson Theatre opposite Ebon Moss-Bachrach in _Dog Day Afternoon_, playing the Al Pacino role, written by Pulitzer winner Stephen Adly Guirgis. He co-wrote a Marvel special presentation, _The Punisher: One Last Kill_, describing it as "a visceral, psychologically complex, unforgiving, no-holds-barred version of Frank" where "nothing is easy and all violence has a cost." He's in Christopher Nolan's _The Odyssey_ alongside Matt Damon, [Tom Holland](/personality-analysis/Tom-Holland), and [Zendaya](/personality-analysis/Zendaya). The man does not slow down. That has never been the point.
+In 2026, he's making his Broadway debut at the August Wilson Theatre opposite Ebon Moss-Bachrach in _Dog Day Afternoon_, playing the Al Pacino role, written by Pulitzer winner Stephen Adly Guirgis. He co-wrote a Marvel special presentation, _The Punisher: One Last Kill_, describing it as "a visceral, psychologically complex, unforgiving, no-holds-barred version of Frank" where "nothing is easy and all violence has a cost." He's in Christopher Nolan's _The Odyssey_ alongside Matt Damon, [Tom Holland](/personality-analysis/tom-holland), and [Zendaya](/personality-analysis/zendaya). The man does not slow down. That has never been the point.
 
 ---
 

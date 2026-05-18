@@ -5,14 +5,14 @@ meta_title: "Why Dixie D'Amelio Can't Escape Charli's Shadow (Psychology Explain
 description: "Inside Dixie D'Amelio's battle with identity, anxiety, and being the 'other' D'Amelio sister. A deep Type 4 personality analysis."
 author: 'DJ Wayne'
 date: '2025-01-07'
-loc: "https://9takes.com/personality-analysis/Dixie-D'Amelio"
+loc: "https://9takes.com/personality-analysis/dixie-d'Amelio"
 lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['tiktoker', 'lifestyle-builder']
-person: "Dixie-D'Amelio"
+person: "dixie-d'Amelio"
 suggestions: ["Charli-D'Amelio", 'Billie-Eilish', 'Madison-Beer', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Dixie_D%27Amelio'
 twitter: 'https://twitter.com/dixiedamelio'
@@ -49,7 +49,7 @@ FEEDBACK (2026-02-18):
 
 <p class="firstLetter">That's not the kind of thing you expect from someone with 35 million TikTok followers. But Dixie D'Amelio isn't what she appears to be. Behind the sarcastic humor and deadpan delivery is someone who spent her entire rise to fame questioning whether she deserved any of it.</p>
 
-While her younger sister [Charli D'Amelio](/personality-analysis/Charli-D'Amelio) became TikTok's golden child, Dixie carved out a different path. Not the polished performer. Not the natural star. Something messier, more complicated, and harder to look away from.
+While her younger sister [Charli D'Amelio](/personality-analysis/charli-d'Amelio) became TikTok's golden child, Dixie carved out a different path. Not the polished performer. Not the natural star. Something messier, more complicated, and harder to look away from.
 
 <details>
 <summary class="accordion">TL;DR: Why Dixie D'Amelio is an Enneagram Type 4</summary>

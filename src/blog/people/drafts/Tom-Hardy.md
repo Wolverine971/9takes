@@ -5,14 +5,14 @@ description: 'Tom Hardy has spent decades building armor around the frightened b
 persona_title: "Cinema's Armored Brawler"
 author: 'DJ Wayne'
 date: '2024-07-12'
-loc: 'https://9takes.com/personality-analysis/Tom-Hardy'
+loc: 'https://9takes.com/personality-analysis/tom-hardy'
 lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['celebrity', 'screen-icon']
-person: 'Tom-Hardy'
+person: 'tom-hardy'
 suggestions: ['Shia-LaBeouf', 'Joaquin-Phoenix', 'Cillian-Murphy', 'Brad-Pitt', 'Henry-Cavill']
 wikipedia: ''
 twitter: ''
@@ -79,13 +79,13 @@ The film's most striking sequences show Hardy stripped naked, coated in petroleu
 
 This is the Type 8 paradox in action. Hardy created armor through physical transformation while being more exposed than most actors would dare. Protective vulnerability. Dominance through the audacity of total commitment.
 
-Working with Christopher Nolan on "Inception" (2010) and "The Dark Knight Rises" (2012) gave Hardy the right container: structured environments where his need for control could lock onto the work rather than collide with everything around it. Like fellow Nolan collaborator [Cillian Murphy](/personality-analysis/Cillian-Murphy), Hardy thrives under directors who earn his respect. Their meticulous approach liberates rather than constrains. This pattern continued with George Miller and Alejandro Iñárritu.
+Working with Christopher Nolan on "Inception" (2010) and "The Dark Knight Rises" (2012) gave Hardy the right container: structured environments where his need for control could lock onto the work rather than collide with everything around it. Like fellow Nolan collaborator [Cillian Murphy](/personality-analysis/cillian-murphy), Hardy thrives under directors who earn his respect. Their meticulous approach liberates rather than constrains. This pattern continued with George Miller and Alejandro Iñárritu.
 
 ## How Type 8 Energy Shows Up in Hardy
 
 ### The Body as Armor
 
-Hardy's body is his primary instrument. 42 pounds of muscle for Bronson. 30 pounds for Bane. Lean and sinewy for Warrior. Weathered for The Revenant. This physical commitment puts him alongside actors like [Joaquin Phoenix](/personality-analysis/Joaquin-Phoenix), who dropped 52 pounds for Joker. But their motivations differ. Phoenix's Type 4 nature drives him toward emotional immersion. Hardy's Type 8 drive is about dominance.
+Hardy's body is his primary instrument. 42 pounds of muscle for Bronson. 30 pounds for Bane. Lean and sinewy for Warrior. Weathered for The Revenant. This physical commitment puts him alongside actors like [Joaquin Phoenix](/personality-analysis/joaquin-phoenix), who dropped 52 pounds for Joker. But their motivations differ. Phoenix's Type 4 nature drives him toward emotional immersion. Hardy's Type 8 drive is about dominance.
 
 "The physical is the physical and the mental is the mental," Hardy has said. "The two have to work in harmony."
 
@@ -149,7 +149,7 @@ Type 8s often refuse to let others define them while carrying real internal comp
 
 ## When Intensity Becomes Liability
 
-Hardy's Type 8 energy creates mesmerizing performances. It also creates friction. Like fellow Type 8 [Shia LaBeouf](/personality-analysis/Shia-LaBeouf), Hardy has caused serious problems on set. Unlike LaBeouf, he has learned to channel it more constructively with age.
+Hardy's Type 8 energy creates mesmerizing performances. It also creates friction. Like fellow Type 8 [Shia LaBeouf](/personality-analysis/shia-labeouf), Hardy has caused serious problems on set. Unlike LaBeouf, he has learned to channel it more constructively with age.
 
 The "Mad Max: Fury Road" shoot became legendary for the wrong reasons. Hardy arrived three hours late for an 8 a.m. call. Charlize Theron, waiting in full costume and makeup, confronted him publicly and demanded he be fined. The conflict escalated until Theron requested producer Denise Di Novi shadow her on the Namibian desert set.
 

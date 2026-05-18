@@ -5,7 +5,7 @@ persona_title: "Comedy's Monastic Craftsman"
 description: 'How Jerry Seinfeld built one of the most observed careers in comedy by being one of its most private craftsmen, and why his Enneagram type explains both.'
 author: 'DJ Wayne'
 date: '2026-05-17'
-loc: 'https://9takes.com/personality-analysis/Jerry-Seinfeld'
+loc: 'https://9takes.com/personality-analysis/jerry-seinfeld'
 lastmod: '2026-05-17'
 editor_pass: '2026-05-17'
 changefreq: 'monthly'
@@ -13,7 +13,7 @@ priority: '0.6'
 published: false
 enneagram: '5'
 type: ['comedian', 'celebrity']
-person: 'Jerry-Seinfeld'
+person: 'jerry-seinfeld'
 suggestions: ['Tina-Fey', 'Dave-Chappelle', 'Jon-Stewart', 'Stephen-Colbert']
 wikipedia: 'https://en.wikipedia.org/wiki/Jerry_Seinfeld'
 twitter: 'JerrySeinfeld'
@@ -126,7 +126,7 @@ That is the whole thesis of him.
 
 Jerry Seinfeld has spent fifty years on the same proof. He is widely considered the most technically proficient living stand-up. The proficiency is not casual. It is the entire point.
 
-In [Tim Ferriss's](/personality-analysis/Tim-Ferriss) 2020 interview, Seinfeld described his daily writing ritual with the precision of a chemist. The coffee goes here. The pad goes here. The notes go here. "You can't do anything else," he told Ferriss. "You don't have to write, but you can't do anything else." Read that as architecture, not advice. Distractions are not banished by willpower; they are made impossible by the room.
+In [Tim Ferriss's](/personality-analysis/tim-ferriss) 2020 interview, Seinfeld described his daily writing ritual with the precision of a chemist. The coffee goes here. The pad goes here. The notes go here. "You can't do anything else," he told Ferriss. "You don't have to write, but you can't do anything else." Read that as architecture, not advice. Distractions are not banished by willpower; they are made impossible by the room.
 
 He told the same interview, almost as an aside: "It's 95 percent rewrite." A Three would not say that. A Three would say _I worked twice as hard as everyone else._ A Five says _the writing is mostly editing,_ because for a Five, the romantic part of the job is the cold part. The cutting. The syllable count. The part where you take a joke that already works and shave letters off it until it works more.
 

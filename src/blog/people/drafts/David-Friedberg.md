@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Quiet Systems Builder"
 description: "David Friedberg's father called Monsanto evil. His son sold them a billion-dollar company anyway. Inside the mind of the All-In podcast's Sultan of Science."
 author: 'DJ Wayne'
 date: '2026-02-20'
-loc: 'https://9takes.com/personality-analysis/David-Friedberg'
+loc: 'https://9takes.com/personality-analysis/david-friedberg'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie', 'entrepreneur', 'investor']
-person: 'David-Friedberg'
+person: 'david-friedberg'
 suggestions: ['Chamath-Palihapitiya', 'David-Sacks', 'Jason-Calacanis', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Friedberg'
 twitter: 'friedberg'
@@ -193,7 +193,7 @@ Friedberg's entire career is a Five's biography.
 
 - **The knowledge-as-safety instinct**: Poker on the resume. Astrophysics at Berkeley. Weather modeling at a startup. Data science for agriculture. Gene editing for crop yields. Each leap goes deeper into more complex systems. A Five doesn't feel safe until they've understood the architecture.
 
-- **The privacy reflex**: Friedberg keeps his personal life almost entirely out of public view. He has a wife, Allison Broude Friedberg, and three children in San Francisco. You'd barely know from anything he's ever said publicly. His co-hosts on the All-In Podcast — [Chamath Palihapitiya](/personality-analysis/Chamath-Palihapitiya), [Jason Calacanis](/personality-analysis/Jason-Calacanis), [David Sacks](/personality-analysis/David-Sacks) — are flamingly public personalities. Friedberg is the one who shows up with data.
+- **The privacy reflex**: Friedberg keeps his personal life almost entirely out of public view. He has a wife, Allison Broude Friedberg, and three children in San Francisco. You'd barely know from anything he's ever said publicly. His co-hosts on the All-In Podcast — [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya), [Jason Calacanis](/personality-analysis/jason-calacanis), [David Sacks](/personality-analysis/david-sacks) — are flamingly public personalities. Friedberg is the one who shows up with data.
 
 Under stress, Fives move toward [Type 7](/enneagram-corner/enneagram-type-7) — becoming scattered, impulsive, chasing new stimulations to avoid the anxiety of not knowing enough. You can see this in Friedberg's portfolio: Climate Corporation, Metromile, Eatsa, Cana, Ohalo, The Production Board. The ventures multiply. The scope expands. When the tension between knowing and doing becomes unbearable, a Five starts more projects.
 

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Inherited Runaway"
 description: "Odessa A'zion ran away at 15, dropped the Adlon name, and keeps playing runaways on screen. Inside the Type 4 pattern that connects the dots."
 author: 'DJ Wayne'
 date: '2026-04-18'
-loc: 'https://9takes.com/personality-analysis/Odessa-Azion'
+loc: 'https://9takes.com/personality-analysis/odessa-azion'
 lastmod: '2026-04-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
 type: ['newMovieStar', 'musician', 'rising-star']
-person: 'Odessa-Azion'
+person: 'odessa-azion'
 suggestions: ['Zoe-Kravitz', 'Bella-Hadid', 'Jacob-Elordi', 'Saoirse-Ronan']
 wikipedia: "https://en.wikipedia.org/wiki/Odessa_A'zion"
 instagram: 'odessaazion'
@@ -46,7 +46,7 @@ path: src/blog/people/drafts/Odessa-Azion.md
 
 You could not write that on purpose. Not without being accused of laying it on too thick.
 
-Her mother is [Pamela Adlon](https://en.wikipedia.org/wiki/Pamela_Adlon) — the Emmy-winning creator of _Better Things_, the voice of Bobby Hill on _King of the Hill_, a Hollywood lifer whose father produced shows for CBS and whose own father-in-law was a New German Cinema director. Her sister is the actress Gideon Adlon. Her father, Felix Adlon, is a German filmmaker. On both sides, three generations of the industry. A name the cameras already knew — the same kind of inheritance [Zoe Kravitz](/personality-analysis/Zoe-Kravitz) grew up inside, and the same kind of inheritance that tends to produce the same kind of child: one who spends their adult life trying to answer whether the career was theirs or someone else's in the first place.
+Her mother is [Pamela Adlon](https://en.wikipedia.org/wiki/Pamela_Adlon) — the Emmy-winning creator of _Better Things_, the voice of Bobby Hill on _King of the Hill_, a Hollywood lifer whose father produced shows for CBS and whose own father-in-law was a New German Cinema director. Her sister is the actress Gideon Adlon. Her father, Felix Adlon, is a German filmmaker. On both sides, three generations of the industry. A name the cameras already knew — the same kind of inheritance [Zoe Kravitz](/personality-analysis/zoe-kravitz) grew up inside, and the same kind of inheritance that tends to produce the same kind of child: one who spends their adult life trying to answer whether the career was theirs or someone else's in the first place.
 
 A'zion's first credit on TV was playing a girl named Defiance on her mother's show. A few years later, she stopped being an Adlon.
 

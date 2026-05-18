@@ -5,14 +5,14 @@ persona_title: "The Internet's Enthusiastic Chaos Agent"
 description: "A military brat who learned to make every new situation entertaining. Brittany Broski's chaos is a system — and the mask slips more than she admits."
 author: 'DJ Wayne'
 date: '2026-01-07'
-loc: 'https://9takes.com/personality-analysis/Brittany-Broski'
+loc: 'https://9takes.com/personality-analysis/brittany-broski'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'viral-entertainer']
-person: 'Brittany-Broski'
+person: 'brittany-broski'
 suggestions: ['Emma-Chamberlain', 'Theo-Von', 'Kai-Cenat', 'Alex-Cooper']
 wikipedia: 'https://en.wikipedia.org/wiki/Brittany_Broski'
 twitter: 'brittany_broski'
@@ -198,7 +198,7 @@ The timeline tells the story:
 
 **2023-present:** Created "Royal Court" YouTube interview show featuring celebrities in medieval-themed setting (now 800,000+ subscribers)
 
-**2025:** Released debut single "The Sun" and cover of [Harry Styles](/personality-analysis/Harry-Styles)' "Adore You," followed by second single "Stained," announced concept album in development
+**2025:** Released debut single "The Sun" and cover of [Harry Styles](/personality-analysis/harry-styles)' "Adore You," followed by second single "Stained," announced concept album in development
 
 **2025:** Named to inaugural TIME100 Creators list in the Entertainers category
 
@@ -224,7 +224,7 @@ From a Type 7 perspective, this silence is notable. Type 7s typically reframe pa
 
 **"I didn't want to make just another celebrity podcast,"** she explained. **"I wanted to combine Game of Thrones with Hot Ones. Sean Evans is able to make these celebrities feel like real people. You get them down to this level where they're dying from spicy wings and you don't see the celebrity. You see the person."**
 
-The show started in her spare bedroom. Now in its third season, it features guests like Charli XCX, [Saoirse Ronan](/personality-analysis/Saoirse-Ronan), [Hozier](/personality-analysis/Hozier), Brie Larson, Kyle MacLachlan, Paul Mescal, and Da'Vine Joy Randolph. Nearly 6 million people have watched the Cole Sprouse episode alone.
+The show started in her spare bedroom. Now in its third season, it features guests like Charli XCX, [Saoirse Ronan](/personality-analysis/saoirse-ronan), [Hozier](/personality-analysis/hozier), Brie Larson, Kyle MacLachlan, Paul Mescal, and Da'Vine Joy Randolph. Nearly 6 million people have watched the Cole Sprouse episode alone.
 
 When Paul Mescal appeared in November 2025, Brittany called it a dream fulfilled. He'd been at the top of her wish list since the show's inception. She flew to London to recreate her Royal Court set for the interview.
 
@@ -320,7 +320,7 @@ Brittany has been open about her dating life on The Broski Report, turning roman
 
 She self-identifies as a **"lover girl,"** someone unafraid to show affection, but acknowledges the need to protect herself from becoming too invested too quickly. Classic Type 7 romantic pattern: enthusiastic engagement paired with self-awareness about vulnerability.
 
-In early 2024, she shared her foray into online dating using a premium app set to Dublin, matching with Irish men and sharing comedic conversations. She was planning a trip to Ireland partly for a [Hozier](/personality-analysis/Hozier) concert and potentially to arrange meetups.
+In early 2024, she shared her foray into online dating using a premium app set to Dublin, matching with Irish men and sharing comedic conversations. She was planning a trip to Ireland partly for a [Hozier](/personality-analysis/hozier) concert and potentially to arrange meetups.
 
 Then came the episode titled "I Have Horrible News," where she revealed she'd been ghosted by the Irishman she'd been talking to. True to Type 7 form, she maintained a light-hearted tone, jesting about a hypothetical future with her once-potential partner.
 
@@ -342,7 +342,7 @@ She described it as **"ethereal, whimsical, but also at the core of it, a stink 
 
 Critics praised it as evidence that the influencer-to-artist pipeline doesn't have to be cringe. The Harvard Crimson called it a "redemption" of the entire genre.
 
-Her second single "Stained" followed in May 2025, produced by Zhone (Kesha, Troye Sivan) and co-written with Annika Bennett ([Chappell Roan](/personality-analysis/Chappell-Roan), Lauv). The song slowly builds to her powerful vocals on the chorus.
+Her second single "Stained" followed in May 2025, produced by Zhone (Kesha, Troye Sivan) and co-written with Annika Bennett ([Chappell Roan](/personality-analysis/chappell-roan), Lauv). The song slowly builds to her powerful vocals on the chorus.
 
 **"I wanted to capture the feeling of being forever marked by a relationship,"** Brittany explained. **"Whether or not it's something you particularly want to remember is irrelevant. It is and always will be... on you."**
 

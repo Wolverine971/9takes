@@ -5,14 +5,14 @@ meta_title: "Why Hozier Can't Stop Turning Pain Into Art (His Hidden Personality
 description: "Discover the psychological depth behind Hozier's melancholic genius. Explore how his Type 4 personality shapes his music, activism, and poetic vision."
 author: 'DJ Wayne'
 date: '2025-12-09'
-loc: 'https://9takes.com/personality-analysis/Hozier'
+loc: 'https://9takes.com/personality-analysis/hozier'
 lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician', 'singer-songwriter']
-person: 'Hozier'
+person: 'hozier'
 suggestions: ['Billie-Eilish', 'Bob-Dylan', 'Lana-Del-Rey', 'Halsey']
 wikipedia: 'https://en.wikipedia.org/wiki/Hozier_(musician)'
 twitter: 'Habormoshow'
@@ -193,7 +193,7 @@ The album includes his first songs sung in the Irish language — another act of
 
 ### Activism and Values
 
-A Type 4 integrating toward 1 stops turning inward and starts looking outward — the emotional depth gets converted into principled action. You can track that arc clearly in Hozier's work. The "Take Me to Church" video used violence against a same-sex couple in Russia not as provocation but as documentation of what institutional hypocrisy actually produces. "Cherry Wine," featuring [Saoirse Ronan](/personality-analysis/Saoirse-Ronan), brought intimate partner abuse into a song soft enough that people didn't see it coming until they did. "Swan Upon Leda" landed within weeks of Roe v. Wade being overturned — mythology pressed into the service of something urgent. "Nina Cried Power" was an explicit act of lineage-claiming, invoking Nina Simone and [Bob Dylan](/personality-analysis/Bob-Dylan) and everyone else who proved that a song could be a form of witness.
+A Type 4 integrating toward 1 stops turning inward and starts looking outward — the emotional depth gets converted into principled action. You can track that arc clearly in Hozier's work. The "Take Me to Church" video used violence against a same-sex couple in Russia not as provocation but as documentation of what institutional hypocrisy actually produces. "Cherry Wine," featuring [Saoirse Ronan](/personality-analysis/saoirse-ronan), brought intimate partner abuse into a song soft enough that people didn't see it coming until they did. "Swan Upon Leda" landed within weeks of Roe v. Wade being overturned — mythology pressed into the service of something urgent. "Nina Cried Power" was an explicit act of lineage-claiming, invoking Nina Simone and [Bob Dylan](/personality-analysis/bob-dylan) and everyone else who proved that a song could be a form of witness.
 
 This is what healthy Type 4 integration looks like. Not just feeling things deeply in private. Using that depth as fuel.
 

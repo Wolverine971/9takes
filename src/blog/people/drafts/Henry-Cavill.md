@@ -5,14 +5,14 @@ description: "Henry Cavill ignored Zack Snyder's Superman call because his WoW t
 persona_title: 'Superman Who Chose His Raid Party'
 author: 'DJ Wayne'
 date: '2025-03-26'
-loc: 'https://9takes.com/personality-analysis/Henry-Cavill'
+loc: 'https://9takes.com/personality-analysis/henry-cavill'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['celebrity', 'movieStar', 'screen-icon']
-person: 'Henry-Cavill'
+person: 'henry-cavill'
 suggestions: ['Tom-Hardy', 'Tom-Cruise', 'Brad-Pitt', 'Harry-Styles', 'Kristen-Bell']
 wikipedia: 'https://en.wikipedia.org/wiki/Henry_Cavill'
 twitter: 'henrycavill'
@@ -180,7 +180,7 @@ But even as a producer, the Helper's instinct is to serve the fans, the lore, th
 
 That producer's instinct also has a moral texture. Cavill's version of showing up is correctness, thoroughness, doing the thing _right_ rather than doing it flashily. Three hundred lines of dialogue checked by hand isn't a performance. It's a moral obligation.
 
-Compare this to fellow Type 2 [Margot Robbie](/personality-analysis/Margot-Robbie), who similarly evolved from performer to producer and used the role to champion stories she believed others needed to see.
+Compare this to fellow Type 2 [Margot Robbie](/personality-analysis/margot-robbie), who similarly evolved from performer to producer and used the role to champion stories she believed others needed to see.
 
 ## The Witcher: When Helpers Read Every Book
 

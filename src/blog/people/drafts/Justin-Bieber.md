@@ -5,14 +5,14 @@ persona_title: "Pop's Hollow Prodigy"
 description: 'Justin Bieber became the biggest star on earth at 13 and nearly disappeared inside the product. At Coachella 2026, he brought the kid back.'
 author: 'DJ Wayne'
 date: '2026-04-03'
-loc: 'https://9takes.com/personality-analysis/Justin-Bieber'
+loc: 'https://9takes.com/personality-analysis/justin-bieber'
 lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['musician']
-person: 'Justin-Bieber'
+person: 'justin-bieber'
 suggestions: ['Hailey-Bieber', 'Selena-Gomez', 'Ariana-Grande', 'Drake']
 wikipedia: 'https://en.wikipedia.org/wiki/Justin_Bieber'
 twitter: 'justinbieber'
@@ -234,7 +234,7 @@ But something about the forced stillness changed the calculus. For a Type 3 whos
 
 ## "I Just Can't Stand Fake Stuff"
 
-"I just can't stand fake stuff. I never have," Justin said in his documentary, sitting next to <a href="/personality-analysis/Hailey-Bieber">Hailey</a>. "I never have been able to be in a room with people who are— I just want to be me."
+"I just can't stand fake stuff. I never have," Justin said in his documentary, sitting next to <a href="/personality-analysis/hailey-bieber">Hailey</a>. "I never have been able to be in a room with people who are— I just want to be me."
 
 The irony cuts deep. A Type 3 — the type most wired to adapt, to perform, to become whatever the room needs — saying he can't stand fake stuff. But this is what healthy growth looks like for a Three. The move toward authenticity isn't natural for them. It's the hardest thing they'll ever do.
 

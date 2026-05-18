@@ -5,14 +5,14 @@ persona_title: "Tech's Silent Architect"
 description: "Inside Jack Dorsey's psychology: how a stuttering kid from St. Louis built the world's public square, then spent a decade trying to give it all away."
 author: 'DJ Wayne'
 date: '2024-09-29'
-loc: 'https://9takes.com/personality-analysis/Jack-Dorsey'
+loc: 'https://9takes.com/personality-analysis/jack-dorsey'
 lastmod: '2026-03-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie', 'big-tech-founder']
-person: 'Jack-Dorsey'
+person: 'jack-dorsey'
 suggestions: ['Elon-Musk', 'Mark-Zuckerberg', 'Peter-Thiel', 'Sam-Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Dorsey'
 twitter: '@jack'
@@ -80,7 +80,7 @@ path: src/blog/people/drafts/Jack-Dorsey.md
 
 <p class="firstLetter">When Jack Dorsey was eight years old, he covered his bedroom walls with maps. Not posters of athletes or rock stars — maps. Torn from gas station kiosks, pulled from the backs of magazines. He wanted to see the city moving. The taxis, the ambulances, the couriers carrying packages from one dot to another. "I loved couriers," he said later. "You had this transfer of physical information happening throughout the city and the world."</p>
 
-By fourteen, his father bought him an IBM computer and the boy taught himself to code — a path that would parallel other tech founders like <a href="/personality-analysis/Mark-Zuckerberg">Mark Zuckerberg</a>, though Dorsey's instincts would prove fundamentally different. By fifteen, he was writing dispatch software for a local entrepreneur named Jim McKelvey. By his twenties, he had built a platform that let 300 million people broadcast their thoughts to the planet in 140 characters.
+By fourteen, his father bought him an IBM computer and the boy taught himself to code — a path that would parallel other tech founders like <a href="/personality-analysis/mark-zuckerberg">Mark Zuckerberg</a>, though Dorsey's instincts would prove fundamentally different. By fifteen, he was writing dispatch software for a local entrepreneur named Jim McKelvey. By his twenties, he had built a platform that let 300 million people broadcast their thoughts to the planet in 140 characters.
 
 Then he spent the rest of his career trying to make sure no one — including himself — could control what he'd made.
 
@@ -167,7 +167,7 @@ When he first moved to San Francisco, Jack Dorsey wrote his phone number on t-sh
 
 Then Twitter made him famous, and something shifted.
 
-He began dressing like <a href="/personality-analysis/Steve-Jobs">Steve Jobs</a>. Same jeans. Same deliberate minimalism. He listened to The Beatles because Jobs listened to The Beatles. He used Jobs's phrases in interviews. Friends and colleagues noticed the transformation and didn't know what to make of it.
+He began dressing like <a href="/personality-analysis/steve-jobs">Steve Jobs</a>. Same jeans. Same deliberate minimalism. He listened to The Beatles because Jobs listened to The Beatles. He used Jobs's phrases in interviews. Friends and colleagues noticed the transformation and didn't know what to make of it.
 
 Then he moved past the imitation into something stranger. The Rick Owens leather jackets. The Dior shirts with reverse collars. The nose ring came back. He showed up at Paris Fashion Week. The billionaire CEO of two companies cultivated what Quartz called a "Ricked-out, billionaire hacker aesthetic" — part punk, part monk, entirely deliberate.
 
@@ -209,7 +209,7 @@ When pushed on what that meant, he clarified: "A protocol can't be owned by a st
 
 This wasn't a new position. In 2019, while still CEO of Twitter, he funded Bluesky — an internal project to develop an open, decentralized standard for social media. The idea was that Twitter would become just one client among many, all running on the same protocol. No single company could control the conversation because no single company would own the infrastructure.
 
-Then <a href="/personality-analysis/Elon-Musk">Elon Musk</a> bought Twitter for $44 billion. Dorsey initially supported the acquisition, believing Musk would take the company private and free it from the pressures of public markets. When it became clear that Musk's vision was about ownership, not liberation, Dorsey admitted his mistake: "It all went south."
+Then <a href="/personality-analysis/elon-musk">Elon Musk</a> bought Twitter for $44 billion. Dorsey initially supported the acquisition, believing Musk would take the company private and free it from the pressures of public markets. When it became clear that Musk's vision was about ownership, not liberation, Dorsey admitted his mistake: "It all went south."
 
 Bluesky spun out as an independent company — the exact thing Dorsey never wanted. Users started demanding moderation tools. The CEO and team built them. Dorsey watched the same pattern repeat: open protocol vision → company formation → centralized control → inevitable corruption.
 
@@ -293,7 +293,7 @@ WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
 - "Then he funds Nostr — Notes and Other Stuff Transmitted by Relays. A protocol so decentralized..." — the tech-acronym expansion is awkward in-line and breaks the rhythm.
 
 GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
-- His relationship with [Elon Musk](/personality-analysis/Elon-Musk) post-acquisition gets two sentences; the actual Twitter-to-X arc, his current view of Musk, and his vocal disagreements with the moderation regime are absent for a 2026 piece.
+- His relationship with [Elon Musk](/personality-analysis/elon-musk) post-acquisition gets two sentences; the actual Twitter-to-X arc, his current view of Musk, and his vocal disagreements with the moderation regime are absent for a 2026 piece.
 - The Bluesky board exit + his subsequent public attacks on Bluesky (calling it a "honeypot" etc.) are missing — the most public Dorsey beat of 2024-2025.
 - His relationship with women / dating / wife/partner is never mentioned; for a Type 5 monastic-discipline portrait, the absent intimate-life is itself diagnostic and goes unexamined.
 - Square/Block's payday-lending criticism, Cash App's role in scams, and the financial-empowerment-vs-actual-harm critique never appear despite the "abstraction over faces" thesis being primed for them.

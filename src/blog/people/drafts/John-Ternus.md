@@ -5,14 +5,14 @@ persona_title: "Cupertino's Vigilant Craftsman"
 description: "John Ternus refused Apple's private offices and said no to its moonshots. Now he's CEO. A Type 6 Enneagram read on the engineer Tim Cook picked."
 author: 'DJ Wayne'
 date: '2026-04-21'
-loc: 'https://9takes.com/personality-analysis/John-Ternus'
+loc: 'https://9takes.com/personality-analysis/john-ternus'
 lastmod: '2026-04-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['techie']
-person: 'John-Ternus'
+person: 'john-ternus'
 suggestions: ['Tim-Cook', 'Steve-Jobs', 'Satya-Nadella', 'Jack-Dorsey']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Ternus'
 twitter: ''
@@ -138,7 +138,7 @@ Ternus had already failed at VR in the 1990s. He remembered what it actually too
 
 That is a Type 6 signature pattern: the past is not a closed case. It is an active data source. Sixes do not forget the shape of prior failures. They re-run them.
 
-This is also the reason Ternus is not Tim Cook 2.0. Cook is a <a href="/personality-analysis/Tim-Cook">consensus builder</a> — a deliberative operator who asks a series of questions before choosing. Ternus has run his career like a swimmer's training plan: workouts are non-negotiable, the stopwatch does not lie, and at some point you dive in. Once the verification is done, the commitment is absolute.
+This is also the reason Ternus is not Tim Cook 2.0. Cook is a <a href="/personality-analysis/tim-cook">consensus builder</a> — a deliberative operator who asks a series of questions before choosing. Ternus has run his career like a swimmer's training plan: workouts are non-negotiable, the stopwatch does not lie, and at some point you dive in. Once the verification is done, the commitment is absolute.
 
 <div class="contrast-panel">
 

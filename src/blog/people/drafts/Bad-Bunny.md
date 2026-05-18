@@ -5,14 +5,14 @@ description: 'Bad Bunny went from supermarket bagger to billionaire, never makin
 persona_title: 'The Conejo Who Ate Every Cage'
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Bad-Bunny'
+loc: 'https://9takes.com/personality-analysis/bad-bunny'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['musician', 'rapper']
-person: 'Bad-Bunny'
+person: 'bad-bunny'
 suggestions: ['Doja-Cat', 'Kanye', 'Drake', 'Kendrick-Lamar']
 wikipedia: 'https://en.wikipedia.org/wiki/Bad_Bunny'
 twitter: 'sanbenito'
@@ -150,7 +150,7 @@ The supermarket worker was about to become the biggest Latin artist alive. Fast.
 
 What happened next defied every industry prediction. Instead of riding one sound to fame and milking it, Bad Bunny kept shapeshifting. Latin trap became reggaeton became pop became rock became traditional Puerto Rican music. Never the same move twice.
 
-"People can feel me," he told [Trevor Noah](/personality-analysis/Trevor-Noah). "I'm Latino; I'm Puerto Rican... This is my music. This is my culture. If you don't like it, don't listen to me."
+"People can feel me," he told [Trevor Noah](/personality-analysis/trevor-noah). "I'm Latino; I'm Puerto Rican... This is my music. This is my culture. If you don't like it, don't listen to me."
 
 That confidence didn't come from arrogance. It came from the Type 7's inability to sustain anything that feels false. The psychological cost is too high.
 
@@ -288,7 +288,7 @@ Bad Bunny made history in late 2025 when he became the first Latino, Hispanic, a
 
 If "Debi Tirar Mas Fotos" wins Album of the Year, it would be the first all-Spanish-language album to ever take the prize.
 
-Six nominations total put him alongside [Sabrina Carpenter](/personality-analysis/Sabrina-Carpenter) as one of the most-nominated artists of the year.
+Six nominations total put him alongside [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) as one of the most-nominated artists of the year.
 
 ### The Puerto Rico Residency: $713 Million Impact
 
@@ -306,13 +306,13 @@ The economic impact? $713 million injected into Puerto Rico's economy, according
 
 Bad Bunny's 2025 wasn't just about music. He appeared in two major films:
 
-**Caught Stealing** (August 2025): Directed by Darren Aronofsky, this crime thriller stars Austin Butler and <a href="/personality-analysis/Zoe-Kravitz">Zoë Kravitz</a>. Bad Bunny plays Colorado, a Puerto Rican gang member navigating New York's criminal underworld. Aronofsky called him "the sweetest guy in the world" on set.
+**Caught Stealing** (August 2025): Directed by Darren Aronofsky, this crime thriller stars Austin Butler and <a href="/personality-analysis/zoe-kravitz">Zoë Kravitz</a>. Bad Bunny plays Colorado, a Puerto Rican gang member navigating New York's criminal underworld. Aronofsky called him "the sweetest guy in the world" on set.
 
 **Happy Gilmore 2** (July 2025): Adam Sandler's Netflix sequel cast Bad Bunny as Oscar Mejías, Happy's caddy and a former busboy dreaming of owning a restaurant. The film debuted at #1 on Netflix with 46.7 million views in three days—the biggest US Netflix film debut of 2025.
 
 ### The Super Bowl Moment
 
-When the NFL announced Bad Bunny would headline the Super Bowl LX halftime show, scheduled for February 8, 2026, at Levi's Stadium, it triggered predictable backlash from conservative commentators. [Donald Trump](/personality-analysis/Donald-Trump) called it "absolutely ridiculous."
+When the NFL announced Bad Bunny would headline the Super Bowl LX halftime show, scheduled for February 8, 2026, at Levi's Stadium, it triggered predictable backlash from conservative commentators. [Donald Trump](/personality-analysis/donald-trump) called it "absolutely ridiculous."
 
 NFL Commissioner Roger Goodell defended the selection: "He's one of the leading and most popular entertainers in the world... this was carefully thought through."
 
@@ -332,7 +332,7 @@ Type 7s attract this tension because they genuinely contain multitudes. The same
 
 ### Political Lightning Rod
 
-After a comedian at a Trump rally called Puerto Rico "a floating island of garbage," Bad Bunny endorsed [Kamala Harris](/personality-analysis/Kamala-Harris) and encouraged Puerto Ricans to vote. Conservative media exploded.
+After a comedian at a Trump rally called Puerto Rico "a floating island of garbage," Bad Bunny endorsed [Kamala Harris](/personality-analysis/kamala-harris) and encouraged Puerto Ricans to vote. Conservative media exploded.
 
 His support for Puerto Rican independence and criticism of gentrification has made him a political figure whether he wanted that role or not.
 
@@ -400,7 +400,7 @@ But the story has shifted. The supermarket bagger who wanted to experience every
 
 The question isn't what Bad Bunny has in common with other Type 7 artists. It's what makes his version of 7 work differently than theirs.
 
-[Miley Cyrus](/personality-analysis/Miley-Cyrus) channels variety-seeking through image reinvention — the self becomes the project. Robin Williams expressed it through improvisational overflow — the performance became the escape. The comparison reveals something about what each artist was fleeing. Miley fled the good-girl box. Robin fled the silence.
+[Miley Cyrus](/personality-analysis/miley-cyrus) channels variety-seeking through image reinvention — the self becomes the project. Robin Williams expressed it through improvisational overflow — the performance became the escape. The comparison reveals something about what each artist was fleeing. Miley fled the good-girl box. Robin fled the silence.
 
 Bad Bunny isn't fleeing anything. He's moving toward something.
 

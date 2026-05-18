@@ -5,14 +5,14 @@ persona_title: "Folk-Pop's Reluctant Survivor"
 description: 'Noah Kahan got famous singing about anxiety. Then he got diagnosed with OCD and had to choose between healing and his career. A Type 4 analysis.'
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Noah-Kahan'
+loc: 'https://9takes.com/personality-analysis/noah-kahan'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
 type: ['musician']
-person: 'Noah-Kahan'
+person: 'noah-kahan'
 suggestions: ['Hozier', 'Lana-Del-Rey', 'Olivia-Rodrigo', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Noah_Kahan'
 twitter: 'NoahKahan'
@@ -197,7 +197,7 @@ The radical thing about _The Great Divide_ is not that it's a more honest record
 
 The challenge had not gone away. The vise around it had loosened.
 
-You can hear what Kahan does with that loosening in who he sings with. _Stick Season (Forever)_, the deluxe edition released February 2024, was effectively a duet album: Brandi Carlile on "You're Gonna Go Far," Kacey Musgraves on "She Calls Me Back," Sam Fender on "Homesick," Lizzy McAlpine on "Call Your Mom," Gracie Abrams on "Everywhere, Everything," Post Malone on "Dial Drunk." His duet with [Hozier](/personality-analysis/Hozier) on "Northern Attitude" — another Type 4 who built a career out of dressing grief in folk arrangements — sounds like two people trading hauntings. Olivia Rodrigo pulled him onstage at MSG to share "Stick Season." Fours collect emotional twins. The suggestions panel under this article is mostly his collaborators.
+You can hear what Kahan does with that loosening in who he sings with. _Stick Season (Forever)_, the deluxe edition released February 2024, was effectively a duet album: Brandi Carlile on "You're Gonna Go Far," Kacey Musgraves on "She Calls Me Back," Sam Fender on "Homesick," Lizzy McAlpine on "Call Your Mom," Gracie Abrams on "Everywhere, Everything," Post Malone on "Dial Drunk." His duet with [Hozier](/personality-analysis/hozier) on "Northern Attitude" — another Type 4 who built a career out of dressing grief in folk arrangements — sounds like two people trading hauntings. Olivia Rodrigo pulled him onstage at MSG to share "Stick Season." Fours collect emotional twins. The suggestions panel under this article is mostly his collaborators.
 
 ## Noah Kahan and the Busyhead Project: how the wound became the work
 

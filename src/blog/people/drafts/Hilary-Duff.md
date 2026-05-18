@@ -5,14 +5,14 @@ persona_title: "America's Sweetest Survivor"
 description: "At 18, Hilary Duff couldn't start a washing machine. She'd been too busy being what everyone needed. Here's the Enneagram Type 2 pattern behind it all."
 author: 'DJ Wayne'
 date: '2026-04-12'
-loc: 'https://9takes.com/personality-analysis/Hilary-Duff'
+loc: 'https://9takes.com/personality-analysis/hilary-duff'
 lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['celebrity', 'musician', 'celebrity-image', 'music-crossover']
-person: 'Hilary-Duff'
+person: 'hilary-duff'
 suggestions: ['Paris-Hilton', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Millie-Bobby-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/Hilary_Duff'
 twitter: '@HilaryDuff'

@@ -5,14 +5,14 @@ description: "Discover why Harry Styles' Helper personality drives everything fr
 persona_title: "Pop's Emotional First Responder"
 author: 'DJ Wayne'
 date: '2024-10-30'
-loc: 'https://9takes.com/personality-analysis/Harry-Styles'
+loc: 'https://9takes.com/personality-analysis/harry-styles'
 lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['musician', 'pop-star']
-person: 'Harry-Styles'
+person: 'harry-styles'
 suggestions: ['Taylor-Swift', 'Olivia-Rodrigo', 'Billie-Eilish', 'Zayn-Malik', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Harry_Styles'
 twitter: 'Harry_Styles'
@@ -75,7 +75,7 @@ The pattern held through X Factor, through One Direction, through the solo caree
 
 ## One Direction: Finding a Family to Hold Together
 
-When the X Factor producers grouped Harry with Niall Horan, [Zayn Malik](/personality-analysis/Zayn-Malik), Liam Payne, and Louis Tomlinson, they accidentally gave a Type 2 the perfect container.
+When the X Factor producers grouped Harry with Niall Horan, [Zayn Malik](/personality-analysis/zayn-malik), Liam Payne, and Louis Tomlinson, they accidentally gave a Type 2 the perfect container.
 
 Harry wasn't competing anymore. He was part of a unit. A family.
 

@@ -5,14 +5,14 @@ persona_title: "Cinema's Guarded Romantic"
 description: "Why does Paul Mescal delete Instagram while building a career on emotional nakedness? An Enneagram Type 4 analysis of cinema's most guarded romantic."
 author: 'DJ Wayne'
 date: '2026-05-02'
-loc: 'https://9takes.com/personality-analysis/Paul-Mescal'
+loc: 'https://9takes.com/personality-analysis/paul-mescal'
 lastmod: '2026-05-02'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
 type: ['movieStar', 'newMovieStar', 'rising-star']
-person: 'Paul-Mescal'
+person: 'paul-mescal'
 suggestions: ['Jacob-Elordi', 'Saoirse-Ronan', 'Robert-Pattinson', 'Oscar-Isaac']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Mescal'
 twitter: ''
@@ -217,7 +217,7 @@ To <em>The Guardian</em>: "I just don't think it's particularly useful for peopl
 
 To the press after <em>Gladiator II</em>: the pressure to post trailers and photoshoots made him feel "a commodity."
 
-The context he will not supply: in 2022 he was reportedly engaged to the musician Phoebe Bridgers. The relationship ended that same year, in public, in the tabloids. Since then the rule has been no names. He is reportedly dating the singer [Gracie Abrams](/personality-analysis/Gracie-Abrams) now. He will not confirm it on the record. He is the subject of paparazzi pictures he has not posed for and would rather not have. "You don't want an audience to know you innately," he said once about acting. The rule has generalized.
+The context he will not supply: in 2022 he was reportedly engaged to the musician Phoebe Bridgers. The relationship ended that same year, in public, in the tabloids. Since then the rule has been no names. He is reportedly dating the singer [Gracie Abrams](/personality-analysis/gracie-abrams) now. He will not confirm it on the record. He is the subject of paparazzi pictures he has not posed for and would rather not have. "You don't want an audience to know you innately," he said once about acting. The rule has generalized.
 
 Two things are being said at once. The feed made him feel like a product, and acting depends on the audience not knowing you too well. The shape is Type Four with a 5 wing doing withdrawal as self-care. The withdrawal is not aloofness. It is custody. He is guarding the inner life that his craft sets on fire every time he says yes to a project.
 

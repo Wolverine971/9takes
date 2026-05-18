@@ -5,14 +5,14 @@ persona_title: "Hollywood's Tireless Host"
 description: "Behind Hugh Jackman's warmth lies a boy who came home to an empty house at 8 and built a life around being impossible to leave."
 author: 'DJ Wayne'
 date: '2026-04-01'
-loc: 'https://9takes.com/personality-analysis/Hugh-Jackman'
+loc: 'https://9takes.com/personality-analysis/hugh-jackman'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['movieStar', 'screen-icon']
-person: 'Hugh-Jackman'
+person: 'hugh-jackman'
 suggestions: ['Margot-Robbie', 'Tom-Hiddleston', 'Henry-Cavill', 'Dwayne-Johnson']
 wikipedia: 'https://en.wikipedia.org/wiki/Hugh_Jackman'
 twitter: 'RealHughJackman'

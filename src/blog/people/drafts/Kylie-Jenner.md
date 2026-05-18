@@ -5,14 +5,14 @@ description: 'Why does Kylie Jenner keep disappearing from her own life? We deco
 persona_title: "America's Most Visible Ghost"
 author: 'DJ Wayne'
 date: '2023-07-24'
-loc: 'https://9takes.com/personality-analysis/Kylie-Jenner'
+loc: 'https://9takes.com/personality-analysis/kylie-jenner'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder']
-person: 'Kylie-Jenner'
+person: 'kylie-jenner'
 suggestions:
   [
     'Kris-Jenner',
@@ -55,7 +55,7 @@ FEEDBACK (2026-02-19):
 
 <p class="firstLetter">In January 2026, Kylie Jenner, 391 million Instagram followers, snuck into the Golden Globes through a side entrance in a silver gown.</p>
 
-She skipped the red carpet. Her boyfriend, [Timothee Chalamet](/personality-analysis/Timothee-Chalamet), walked it alone. When they reunited inside, she settled into a seat beside him and disappeared into the crowd. She'd done the same thing the year before. And the year before that. Three consecutive Golden Globes, three red carpets skipped, three times she erased herself from the frame so someone else could fill it.
+She skipped the red carpet. Her boyfriend, [Timothee Chalamet](/personality-analysis/timothee-chalamet), walked it alone. When they reunited inside, she settled into a seat beside him and disappeared into the crowd. She'd done the same thing the year before. And the year before that. Three consecutive Golden Globes, three red carpets skipped, three times she erased herself from the frame so someone else could fill it.
 
 This is not shyness. This is strategy, the kind you develop when you're the youngest person in a family where every personality slot is already taken and every conflict gets turned into content. Kylie Jenner learned early that the safest place in a room full of chaos is nowhere.
 
@@ -139,7 +139,7 @@ This is the Type 9 survival strategy taken to its logical extreme: if being real
 
 _"It doesn't really hurt me because I know that's not really me."_ Attacks land on the character, not the person. The distance is the point.
 
-[Kris Jenner](/personality-analysis/Kris-Jenner) named it from the outside: _"She has learned to be emotionally available only to the people she feels really comfortable being around. She protects her mental health that way."_ <a href="https://anneofcarversville.com/fashion/2024/8/13/kylie-jenner-by-luis-alberto-rodriguez-british-vogue-september" target="_blank" rel="noopener">British Vogue</a>
+[Kris Jenner](/personality-analysis/kris-jenner) named it from the outside: _"She has learned to be emotionally available only to the people she feels really comfortable being around. She protects her mental health that way."_ <a href="https://anneofcarversville.com/fashion/2024/8/13/kylie-jenner-by-luis-alberto-rodriguez-british-vogue-september" target="_blank" rel="noopener">British Vogue</a>
 
 Protect is the right word. But what's being protected is also being hidden. And what's hidden eventually gets lost.
 
@@ -187,7 +187,7 @@ When Kris acknowledged missing Kylie's energy, Kim and Khloe sat in silence. Kri
 
 The youngest sibling, the one who spent her whole life making herself small to keep the peace, finally says _I matter._ And gets silence from most of the room.
 
-This is the position Kylie has always occupied. Kendall is her closest-in-age sibling and longest-running ally, more duo than rivals. [Kim](/personality-analysis/Kim-Kardashian) is the family's loudest achiever; Kylie keeps her own lane rather than compete. [Khloe](/personality-analysis/Khloe-Kardashian) is the emotional center; Kylie's calm matters most when friendship and family collide. [Kourtney](/personality-analysis/Kourtney-Kardashian) operates in her own orbit; Kylie stays connected without escalating.
+This is the position Kylie has always occupied. Kendall is her closest-in-age sibling and longest-running ally, more duo than rivals. [Kim](/personality-analysis/kim-kardashian) is the family's loudest achiever; Kylie keeps her own lane rather than compete. [Khloe](/personality-analysis/khloe-kardashian) is the emotional center; Kylie's calm matters most when friendship and family collide. [Kourtney](/personality-analysis/kourtney-kardashian) operates in her own orbit; Kylie stays connected without escalating.
 
 Watching her older sisters' public conflicts taught her how to navigate without getting burned, and that the cost of navigation is that nobody notices you're navigating.
 
@@ -245,7 +245,7 @@ Creating something that holds together after you're gone. That's Type 9 territor
 
 ## Travis Scott: Merging into the Fire
 
-In April 2017, Kylie met [Travis Scott](/personality-analysis/Travis-Scott) at Coachella. Within days, she'd abandoned her own schedule, her own city, her own routine and joined his tour. _"I guess I'm going with you,"_ she told him. She left Calabasas without telling anyone where she was headed. _"I live on my own, and so I just rode off into the sunset. I did the whole tour with him."_ <a href="https://www.gq.com/story/kylie-jenner-travis-scott-gq-cover-story" target="_blank" rel="noopener">GQ</a>
+In April 2017, Kylie met [Travis Scott](/personality-analysis/travis-scott) at Coachella. Within days, she'd abandoned her own schedule, her own city, her own routine and joined his tour. _"I guess I'm going with you,"_ she told him. She left Calabasas without telling anyone where she was headed. _"I live on my own, and so I just rode off into the sunset. I did the whole tour with him."_ <a href="https://www.gq.com/story/kylie-jenner-travis-scott-gq-cover-story" target="_blank" rel="noopener">GQ</a>
 
 She didn't ask him to enter her world. She dissolved into his: his tour dates, his cities, his schedule. They walked the streets of random cities like Cleveland for hours, unbothered. She described it as freeing because _"we got to not be who we really were."_ For a woman who had already been performing a character since age 14, vanishing into someone else's life wasn't a sacrifice. It was a relief.
 
@@ -259,7 +259,7 @@ What the Travis years revealed: merging works with chaos, but it exhausts her. A
 
 ## Timothée Chalamet and Kylie Jenner
 
-The romance with [Timothee Chalamet](/personality-analysis/Timothee-Chalamet) shows the same merging pattern pointed in a healthier direction.
+The romance with [Timothee Chalamet](/personality-analysis/timothee-chalamet) shows the same merging pattern pointed in a healthier direction.
 
 Start with the red carpets. At the 2024 Golden Globes, Kylie skipped the carpet and joined Chalamet inside. At the 2025 ceremony, she did it again, arriving in vintage Versace chainmail because _"it was Timothee's moment of glory"_ and she _"wanted to be there to cheer for her boyfriend instead of hogging the limelight."_ <a href="https://www.marieclaire.com/fashion/kylie-jenner-2025-golden-globes-timothee-chalamet-versace-dress/" target="_blank" rel="noopener">Marie Claire</a> At the 2026 Golden Globes, she snuck in again. Three years. Three red carpets erased.
 
@@ -393,7 +393,7 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Kylie-Jenner",
+        "@id": "https://9takes.com/personality-analysis/kylie-jenner",
         "@type": "WebPage"
       },
       "mentions": {

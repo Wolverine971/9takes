@@ -5,14 +5,14 @@ persona_title: "Politics' Devoted Shapeshifter"
 description: 'Bill Clinton made everyone feel like the only person in the room. But who was he when the room was empty? Inside the parallel lives of a Type 2 president.'
 author: 'DJ Wayne'
 date: '2026-04-20'
-loc: 'https://9takes.com/personality-analysis/Bill-Clinton'
+loc: 'https://9takes.com/personality-analysis/bill-clinton'
 lastmod: '2026-04-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['politician', 'modern-leader']
-person: 'Bill-Clinton'
+person: 'bill-clinton'
 suggestions: ['Hillary-Clinton', 'Barack-Obama', 'George-W-Bush', 'George-H-W-Bush', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Clinton'
 twitter: '@BillClinton'
@@ -182,7 +182,7 @@ Instead, he played an Elvis song on national television.
 
 There it is. He didn't talk about competence or leadership. He wanted them to feel cared about. He wanted to close the gap between politician and person, because for Clinton, that gap was unbearable.
 
-Four months later, in the second presidential debate of 1992, a woman in the audience asked how the national debt had personally affected each candidate. <a href="/personality-analysis/George-H-W-Bush">George H.W. Bush</a> fumbled the question, famously looking at his watch. Clinton walked toward the woman. He asked her to tell him more. He asked if she knew people who had lost their homes.
+Four months later, in the second presidential debate of 1992, a woman in the audience asked how the national debt had personally affected each candidate. <a href="/personality-analysis/george-h-w-bush">George H.W. Bush</a> fumbled the question, famously looking at his watch. Clinton walked toward the woman. He asked her to tell him more. He asked if she knew people who had lost their homes.
 
 It was the moment the election turned. Not because of policy. Because one man on that stage needed to feel the other person's pain. Physically needed it, the way most people need air.
 
@@ -282,7 +282,7 @@ The friendship illuminates something essential about Clinton's Two-ness. Bush re
 
 Bush understood this instinctively. "Just because you run against someone," he once said, "does not mean you have to be enemies. Politics does not have to be mean and ugly."
 
-[Hillary Clinton](/personality-analysis/Hillary-Clinton) saw it too. "He's still the most interesting, energizing and fully alive person I have ever met," she wrote, decades after the worst betrayal. "Bill Clinton started a conversation in the spring of 1971, and more than 30 years later we're still talking."
+[Hillary Clinton](/personality-analysis/hillary-clinton) saw it too. "He's still the most interesting, energizing and fully alive person I have ever met," she wrote, decades after the worst betrayal. "Bill Clinton started a conversation in the spring of 1971, and more than 30 years later we're still talking."
 
 She called staying in the marriage "the gutsiest thing I've ever done." She said she had to choose: "forgive and let go of the anger and the disappointment, or we weren't going to have a marriage."
 
@@ -292,7 +292,7 @@ The Two's partner learns the same lesson every Two eventually learns: the giving
 
 In the second act of his life, Clinton built the Clinton Foundation into one of the largest philanthropic organizations on earth. He raised $130 million for tsunami relief with Bush. He raised $54 million for Haiti earthquake recovery. He channeled his connection gifts into global health, climate change, economic development.
 
-In 2012, Obama asked him to deliver the nominating speech at the Democratic National Convention. Clinton spoke for nearly fifty minutes, ad-libbing most of it, and made the case for Obama's reelection more persuasively than Obama himself had managed. Obama started calling him the "Secretary of Explaining Stuff." The Two's highest compliment: you make everyone else's argument better than they can.
+In 2012, [Barack Obama](/personality-analysis/barack-obama) asked him to deliver the nominating speech at the Democratic National Convention. Clinton spoke for nearly fifty minutes, ad-libbing most of it, and made the case for Obama's reelection more persuasively than Obama himself had managed. Obama started calling him the "Secretary of Explaining Stuff." The Two's highest compliment: you make everyone else's argument better than they can.
 
 The giving got bigger. The need to be needed scaled from a household to a country to a planet.
 

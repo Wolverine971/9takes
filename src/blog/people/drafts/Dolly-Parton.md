@@ -5,14 +5,14 @@ persona_title: "Country's Beloved Fairy Godmother"
 description: "The doctor who delivered Dolly Parton was paid in cornmeal. Now she's worth $650M — the personality behind the velvet glove hides an iron fist."
 author: 'DJ Wayne'
 date: '2026-02-04'
-loc: 'https://9takes.com/personality-analysis/Dolly-Parton'
+loc: 'https://9takes.com/personality-analysis/dolly-parton'
 lastmod: '2026-02-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['musician', 'creator', 'singer-songwriter']
-person: 'Dolly-Parton'
+person: 'dolly-parton'
 suggestions: ['Oprah-Winfrey', 'Mr-Rogers', 'Taylor-Swift', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Dolly_Parton'
 twitter: 'DollyParton'
@@ -247,7 +247,7 @@ When Federalist writer Ericka Andersen criticized Dolly's stance on LGBTQ+ inclu
 
 "I've got transgender people. I've got gays. I've got lesbians. I've got drunks. I've got drug addicts. All within my own family. I know and love them all, and I do not judge."
 
-She doesn't abandon people. That's the same unwavering acceptance that defined [Mr. Rogers](/personality-analysis/Mr-Rogers). You're hers, and she's keeping you.
+She doesn't abandon people. That's the same unwavering acceptance that defined [Mr. Rogers](/personality-analysis/mr-rogers). You're hers, and she's keeping you.
 
 ## Dolly Parton's Legacy and Current Work
 

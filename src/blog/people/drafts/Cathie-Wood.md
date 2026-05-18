@@ -5,14 +5,14 @@ persona_title: "Disruption's Pulpit Pioneer"
 description: 'Cathie Wood lost 67% in a single year and bought more. Here is what Enneagram Type 7w8 reveals about why she keeps the future open when the present collapses.'
 author: 'DJ Wayne'
 date: '2026-04-29'
-loc: 'https://9takes.com/personality-analysis/Cathie-Wood'
+loc: 'https://9takes.com/personality-analysis/cathie-wood'
 lastmod: '2026-04-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '7'
 type: ['entrepreneur', 'techie', 'business-operator']
-person: 'Cathie-Wood'
+person: 'cathie-wood'
 suggestions: ['Reid-Hoffman', 'Chamath-Palihapitiya', 'Ben-Horowitz', 'David-Sacks']
 wikipedia: 'https://en.wikipedia.org/wiki/Cathie_Wood'
 twitter: 'CathieDWood'

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Scarred Charmer"
 description: "He almost died at 20. Then a magazine called him 'a dick' and that hurt worse. Inside Miles Teller's Type 3 personality and the mask he couldn't take off."
 author: 'DJ Wayne'
 date: '2026-04-01'
-loc: 'https://9takes.com/personality-analysis/Miles-Teller'
+loc: 'https://9takes.com/personality-analysis/miles-teller'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'Miles-Teller'
+person: 'miles-teller'
 suggestions: ['Tom-Cruise', 'Michael-B-Jordan', 'Dwayne-Johnson', 'Arnold-Schwarzenegger']
 wikipedia: 'https://en.wikipedia.org/wiki/Miles_Teller'
 twitter: 'Miles_Teller'
@@ -233,7 +233,7 @@ In 2022, Miles Teller appeared on screen in _Top Gun: Maverick_ as Lt. Bradley "
 
 He almost said no.
 
-"There was a part of me that didn't know if I wanted to be a part of something that could bring that much attention and success to me," he told SlashFilm. After _Fantastic Four_, blockbusters felt like the enemy. He'd spent years rebuilding credibility through small, grounded films. A franchise sequel starring <a href="/personality-analysis/Tom-Cruise">Tom Cruise</a> was the opposite of everything he'd been building toward.
+"There was a part of me that didn't know if I wanted to be a part of something that could bring that much attention and success to me," he told SlashFilm. After _Fantastic Four_, blockbusters felt like the enemy. He'd spent years rebuilding credibility through small, grounded films. A franchise sequel starring <a href="/personality-analysis/tom-cruise">Tom Cruise</a> was the opposite of everything he'd been building toward.
 
 Cruise changed his mind. He personally couriered a script to Teller while he was on vacation in Hawaii, then flew to Florida to meet him. The pitch was simple: if Tom Cruise thinks you're the guy, you're the guy.
 

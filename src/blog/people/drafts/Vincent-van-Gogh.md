@@ -5,14 +5,14 @@ persona_title: "Art's Sacred Arsonist"
 description: 'Van Gogh failed at 5 careers before painting. Each failure reveals the same psychological pattern. The fire that built masterpieces burned down everything else.'
 author: 'DJ Wayne'
 date: '2026-04-24'
-loc: 'https://9takes.com/personality-analysis/Vincent-van-Gogh'
+loc: 'https://9takes.com/personality-analysis/vincent-van-gogh'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['historical', 'historical-artist']
-person: 'Vincent-van-Gogh'
+person: 'vincent-van-gogh'
 suggestions: ['Frida-Kahlo', 'Joaquin-Phoenix', 'Johnny-Depp', 'Edgar-Allan-Poe']
 wikipedia: 'https://en.wikipedia.org/wiki/Vincent_van_Gogh'
 twitter: ''
@@ -179,7 +179,7 @@ That line isn't metaphor. It's a status report.
 
 ### Vincent van Gogh is an Enneagram Type 4
 
-The core of Enneagram Type 4 is a feeling of fundamental incompleteness, the sense that something essential was given to everyone else and somehow withheld from you. Not a talent. Not a possession. Something closer to a birthright of belonging. (If you've read about [Frida Kahlo](/personality-analysis/Frida-Kahlo), another Type 4 artist, you'll recognize the frequency, but Van Gogh's expression is rawer, less controlled, more self-destructive.) Fours don't envy what others have. They envy what others _are_: at ease. Whole. Unquestioned in their right to exist.
+The core of Enneagram Type 4 is a feeling of fundamental incompleteness, the sense that something essential was given to everyone else and somehow withheld from you. Not a talent. Not a possession. Something closer to a birthright of belonging. (If you've read about [Frida Kahlo](/personality-analysis/frida-kahlo), another Type 4 artist, you'll recognize the frequency, but Van Gogh's expression is rawer, less controlled, more self-destructive.) Fours don't envy what others have. They envy what others _are_: at ease. Whole. Unquestioned in their right to exist.
 
 Van Gogh lived this pattern with a literalness that borders on terrifying.
 

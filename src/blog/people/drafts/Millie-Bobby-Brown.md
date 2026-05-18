@@ -5,14 +5,14 @@ persona_title: "Hollywood's Youngest Rescuer"
 description: "At ten, too mature. At twenty-one, aging too fast. Millie Bobby Brown is always too much of what she naturally is — and she can't stop giving anyway."
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Millie-Bobby-Brown'
+loc: 'https://9takes.com/personality-analysis/millie-bobby-brown'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['newMovieStar', 'rising-star']
-person: 'Millie-Bobby-Brown'
+person: 'millie-bobby-brown'
 suggestions: ['Zendaya', 'Sydney-Sweeney', 'Jenna-Ortega', 'Tom-Holland']
 wikipedia: ''
 twitter: ''
@@ -154,7 +154,7 @@ This is not a scattered list of celebrity side projects. This is a single patter
 
 The world kept taking from Millie Bobby Brown. And for years, she kept letting it — because that is what people who believe love must be earned do when the people around them cross lines.
 
-At fourteen, she mentioned on the Emmys red carpet that thirty-one-year-old [Drake](/personality-analysis/Drake) texted her regularly, saying "I miss you so much" and offering advice "about boys." The public recoiled. Millie defended him on Instagram: "Why you gotta make a lovely friendship ur headline? U guys are weird... for real."
+At fourteen, she mentioned on the Emmys red carpet that thirty-one-year-old [Drake](/personality-analysis/drake) texted her regularly, saying "I miss you so much" and offering advice "about boys." The public recoiled. Millie defended him on Instagram: "Why you gotta make a lovely friendship ur headline? U guys are weird... for real."
 
 She couldn't see the power imbalance. She could only see a connection being taken away from her.
 
@@ -201,7 +201,7 @@ She changed her legal name to Millie Bonnie Bongiovi. Dropped both "Bobby" and "
 
 They moved to a farm in Georgia. Away from Hollywood. Away from cameras. She doesn't have social media on her phone — someone else handles her accounts. She calls her father-in-law Jon Bon Jovi for advice: "His wisdom is ridiculous."
 
-Her co-star [Henry Cavill](/personality-analysis/Henry-Cavill), who played her brother in the Enola Holmes films, modeled something else she needed. "I'm not allowed to ask about his personal life," she said. She described this as feeling "like a real adult relationship. Like a really healthy one."
+Her co-star [Henry Cavill](/personality-analysis/henry-cavill), who played her brother in the Enola Holmes films, modeled something else she needed. "I'm not allowed to ask about his personal life," she said. She described this as feeling "like a real adult relationship. Like a really healthy one."
 
 For someone burned by men with no boundaries — Drake at fourteen, Ecimovic at sixteen — the appeal of a man who says _here are the lines_ makes perfect sense.
 

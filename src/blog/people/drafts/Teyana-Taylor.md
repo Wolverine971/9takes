@@ -5,14 +5,14 @@ persona_title: "Harlem's Insatiable Performer"
 description: "Teyana Taylor's Enneagram Type 3 wiring explains the polyp surgery, the bathroom birth, the retirement threat, and why she keeps performing through every shutdown."
 author: 'DJ Wayne'
 date: '2026-04-29'
-loc: 'https://9takes.com/personality-analysis/Teyana-Taylor'
+loc: 'https://9takes.com/personality-analysis/teyana-taylor'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['musician', 'movieStar', 'screen-icon']
-person: 'Teyana-Taylor'
+person: 'teyana-taylor'
 suggestions: ['Jennifer-Lopez', 'Drake', 'Keke-Palmer', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Teyana_Taylor'
 twitter: 'TEYANATAYLOR'
@@ -94,7 +94,7 @@ The fierce Harlem performer the public sees — the woman writhing through [Kany
 
 [Type 3 is the Achiever](/enneagram-corner/enneagram-type-3). The core wound forms around a single early lesson: love comes from output. Approval comes from being _impressive_. The self gets organized around whatever performance the world rewards, and the engine never quite turns off — because if it does, the question underneath might surface, and that question is _am I anything if I'm not producing._
 
-Teyana Taylor was choreographing for other Harlem dance teams before she was ten. She was hood famous, by her own description, "in a too-grown way" — performing in local talent shows, recording her first track at seven, working her way through every entertainment vector available to a kid in 2000s Harlem. By 15 she had a credit on [Beyoncé](/personality-analysis/Beyonce-Knowles)'s "Ring the Alarm" video. By 16 she had a record deal with Pharrell's Star Trak label. By 17 she was on MTV's _My Super Sweet 16_, with Pharrell as a party guest.
+Teyana Taylor was choreographing for other Harlem dance teams before she was ten. She was hood famous, by her own description, "in a too-grown way" — performing in local talent shows, recording her first track at seven, working her way through every entertainment vector available to a kid in 2000s Harlem. By 15 she had a credit on [Beyoncé](/personality-analysis/beyonce-knowles)'s "Ring the Alarm" video. By 16 she had a record deal with Pharrell's Star Trak label. By 17 she was on MTV's _My Super Sweet 16_, with Pharrell as a party guest.
 
 She has never not been working. That phrasing matters: not "she always works hard" — but that there is no point in her conscious memory at which she was not producing for an audience. Her mother, Nikki Taylor, founded Taylormade Management Group to manage her daughter's career when Teyana was still a child. The structure that should have been unconditional became conditional on output, and the child learned to deliver.
 

@@ -5,14 +5,14 @@ meta_title: "Why Post Malone Tattooed His Face (It's Not What You Think)"
 description: 'Post Malone spent his life trying to disappear. His face tattoos, genre-hopping, and laid-back persona hide a Type 9 war between numbness and presence.'
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Post-Malone'
+loc: 'https://9takes.com/personality-analysis/post-malone'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['musician', 'rapper']
-person: 'Post-Malone'
+person: 'post-malone'
 suggestions: ['Jelly-Roll', 'Drake', 'Billie-Eilish', 'Justin-Bieber', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Post_Malone'
 twitter: 'PostMalone'
@@ -70,7 +70,7 @@ Austin's parents, Rich Post and Nicole Frazier, separated when he was young. He 
 
 Rich Post was a wedding DJ before he became a stadium concessions manager. The house was full of music — AC/DC, Mötley Crüe, Guns N' Roses, country, funk, hip-hop. Austin absorbed all of it. Not one genre. Everything. No flag planted. No allegiance declared.
 
-Then Guitar Hero happened. Austin five-starred everything on Expert mode, got obsessed, and taught himself real guitar through YouTube tutorials. By eighth grade, he was performing a metalcore cover of [Rihanna](/personality-analysis/Rihanna)'s "Umbrella" at a school talent show — a genre collision that would become his entire career in miniature.
+Then Guitar Hero happened. Austin five-starred everything on Expert mode, got obsessed, and taught himself real guitar through YouTube tutorials. By eighth grade, he was performing a metalcore cover of [Rihanna](/personality-analysis/rihanna)'s "Umbrella" at a school talent show — a genre collision that would become his entire career in miniature.
 
 He auditioned for the Texas metalcore band Crown the Empire. His guitar strings broke during the tryout. He didn't get the spot.
 
@@ -105,7 +105,7 @@ What's remarkable about the "White Iverson" story isn't the virality — it's th
 
 This is how Nines build careers. Not through assertion but through momentum. The expected path felt dead ("I wasn't feeling the vibe" is how he described dropping out of community college), so he followed the next open door. And the next one. And the next one.
 
-The doors kept opening. The kid who couldn't socialize became a streaming-era juggernaut in conversation with [Drake](/personality-analysis/Drake) and [Taylor Swift](/personality-analysis/Taylor-Swift). But the success didn't change the internal math. If anything, it made it worse.
+The doors kept opening. The kid who couldn't socialize became a streaming-era juggernaut in conversation with [Drake](/personality-analysis/drake) and [Taylor Swift](/personality-analysis/taylor-swift). But the success didn't change the internal math. If anything, it made it worse.
 
 ---
 
@@ -212,7 +212,7 @@ His producer Louis Bell: "As far as Post Malone goes, it's much deeper than musi
 
 His sound engineer Nick Mac: "He is so involved in things, and he really cares about things to the highest degree."
 
-During their Big Ass Stadium Tour in 2025, [Jelly Roll](/personality-analysis/Jelly-Roll) stopped the show to address Post directly: "You've changed my life. Our friendship means more to me than you'll ever know." Then: "I see a mother, a father, a daughter... somebody in your family every night backstage. You're a great human." Then: "Everybody who works for you loves you, Post. There is a backstage crew of people who love you."
+During their Big Ass Stadium Tour in 2025, [Jelly Roll](/personality-analysis/jelly-roll) stopped the show to address Post directly: "You've changed my life. Our friendship means more to me than you'll ever know." Then: "I see a mother, a father, a daughter... somebody in your family every night backstage. You're a great human." Then: "Everybody who works for you loves you, Post. There is a backstage crew of people who love you."
 
 The crowd chanted "We love you, Postie." The two shared a hug.
 

@@ -5,14 +5,14 @@ persona_title: "Hollywood's Fearful Daredevil"
 description: "Jake Gyllenhaal keeps choosing roles that scare him because anxiety isn't the obstacle. It's the engine behind the work, the loyalty, and the control."
 author: 'DJ Wayne'
 date: '2026-03-21'
-loc: 'https://9takes.com/personality-analysis/Jake-Gyllenhaal'
+loc: 'https://9takes.com/personality-analysis/jake-gyllenhaal'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['movieStar', 'screen-icon']
-person: 'Jake-Gyllenhaal'
+person: 'jake-gyllenhaal'
 suggestions: ['Denzel-Washington', 'Leonardo-DiCaprio', 'Tom-Holland', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Gyllenhaal'
 twitter: 'jakegyllenhaal'
@@ -36,7 +36,7 @@ path: src/blog/people/drafts/Jake-Gyllenhaal.md
 
 He'd lost 30 pounds from his 180-pound frame. His eyes were sunken. His cheekbones cut shadows.
 
-This is the same man who, a few years later, had a full panic attack on the set of Spider-Man: Far From Home. A movie about a superhero in a cape. "I was freaking out," he told Howard Stern. He was standing next to Samuel L. Jackson and <a href="/personality-analysis/Tom-Holland">Tom Holland</a>, and he couldn't remember his lines. The Oscar-nominated actor who had starved himself and bled for Nightcrawler was undone by a green screen.
+This is the same man who, a few years later, had a full panic attack on the set of Spider-Man: Far From Home. A movie about a superhero in a cape. "I was freaking out," he told Howard Stern. He was standing next to Samuel L. Jackson and <a href="/personality-analysis/tom-holland">Tom Holland</a>, and he couldn't remember his lines. The Oscar-nominated actor who had starved himself and bled for Nightcrawler was undone by a green screen.
 
 That contradiction is the key to Jake Gyllenhaal.
 
@@ -235,7 +235,7 @@ Then came _Road House_ in 2024, a gleefully over-the-top action film where he go
 
 And then he chose the hardest joy of all.
 
-In 2025, he stepped onto the stage of the Ethel Barrymore Theatre to play Iago opposite <a href="/personality-analysis/Denzel-Washington">Denzel Washington</a>'s Othello. His first Shakespeare. He prepared with a Columbia professor and a Royal Shakespeare Company coach. He admitted to having "a bit of dyslexia, particularly with articles" and joked, "Maybe I should have started with a sonnet."
+In 2025, he stepped onto the stage of the Ethel Barrymore Theatre to play Iago opposite <a href="/personality-analysis/denzel-washington">Denzel Washington</a>'s Othello. His first Shakespeare. He prepared with a Columbia professor and a Royal Shakespeare Company coach. He admitted to having "a bit of dyslexia, particularly with articles" and joked, "Maybe I should have started with a sonnet."
 
 The result was something critics struggled to categorize. Deadline called it "remarkable — conversational, contemporary, and unerringly convincing." The New York Theatre Guide compared his soliloquies to "Jim Halpert shrugging at the camera." He confided in the audience with such casual menace that they became, in his words, "his partner in it." Every night was different. When asked how he delivered Iago's famous line "I hate the Moor," he said: "I'm trying to think about yesterday's matinee, because it changes."
 

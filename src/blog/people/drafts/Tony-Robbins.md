@@ -5,14 +5,14 @@ persona_title: 'The War Dance No One Sees'
 description: "The world's most confident speaker has the most elaborate pre-talk ritual in the business. Inside the Type 3 wound that built Tony Robbins' empire."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Tony-Robbins'
+loc: 'https://9takes.com/personality-analysis/tony-robbins'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
-person: 'Tony-Robbins'
+person: 'tony-robbins'
 suggestions: ['Alex-Hormozi', 'Oprah-Winfrey', 'Arnold-Schwarzenegger', 'Gary-Vee', 'Robert-Greene']
 wikipedia: 'https://en.wikipedia.org/wiki/Tony_Robbins'
 twitter: 'TonyRobbins'
@@ -60,7 +60,7 @@ The question is what the war dance is for.
 <li><b>The Wound:</b> Four fathers, an abusive mother, poverty so deep they ate saltine crackers for Thanksgiving. He learned early that love had to be earned through performance.</li>
 <li><b>The Body:</b> A pituitary tumor made him grow ten inches in one year. He turned a medical condition into a brand. Classic Three.</li>
 <li><b>Why Not Type 8:</b> The anger is performative and strategic. Watch what happens when the image cracks: he apologizes and rebuilds. Eights double down. Threes protect the image.</li>
-<li><b>Duty vs. Devotion:</b> In his <a href="/personality-analysis/Alex-Hormozi">Alex Hormozi</a> podcast, Tony named the Type 3 growth journey out loud, from "I have to" to "I get to."</li>
+<li><b>Duty vs. Devotion:</b> In his <a href="/personality-analysis/alex-hormozi">Alex Hormozi</a> podcast, Tony named the Type 3 growth journey out loud, from "I have to" to "I get to."</li>
 </ul>
 </div>
 </details>
@@ -245,7 +245,7 @@ Loyalty. Systems. Commitment. A Three doing the quiet work of a Six.
 
 ## Duty vs. Devotion
 
-In January 2026, Tony sat down with <a href="/personality-analysis/Alex-Hormozi">Alex Hormozi</a> for what was supposed to be a podcast about mindset and success. It became a raw coaching session, Hormozi as the client, Robbins as the practitioner.
+In January 2026, Tony sat down with <a href="/personality-analysis/alex-hormozi">Alex Hormozi</a> for what was supposed to be a podcast about mindset and success. It became a raw coaching session, Hormozi as the client, Robbins as the practitioner.
 
 Hormozi confessed he doesn't find joy in much of what he does. He works because he can't see himself doing anything else. At 37, identity is bound to output.
 

@@ -5,14 +5,14 @@ persona_title: "Comedy's Deadpan Skeptic"
 description: "At 20, Aubrey Plaza had a stroke and her friends thought it was a joke. Since then she's turned anxiety into deadpan armor and chosen roles that weaponize it."
 author: 'DJ Wayne'
 date: '2025-04-08'
-loc: 'https://9takes.com/personality-analysis/Aubrey-Plaza'
+loc: 'https://9takes.com/personality-analysis/aubrey-plaza'
 lastmod: '2026-02-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
 type: ['comedian', 'movieStar', 'tv-comedy-crossover', 'sketch-comic']
-person: 'Aubrey-Plaza'
+person: 'aubrey-plaza'
 suggestions: ['Zoe Kravitz', 'Blake Lively', 'Margot Robbie', 'Timothee Chalamet']
 wikipedia: 'None'
 twitter: 'None'

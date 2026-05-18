@@ -5,14 +5,14 @@ persona_title: "Hollywood's Gentle Vanishing Man"
 description: "Inside Ryan Gosling's psychology: how a bullied kid who couldn't read became the blank screen the internet projected its fantasies onto."
 author: 'DJ Wayne'
 date: '2026-03-27'
-loc: 'https://9takes.com/personality-analysis/Ryan-Gosling'
+loc: 'https://9takes.com/personality-analysis/ryan-gosling'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['movieStar', 'screen-icon']
-person: 'Ryan-Gosling'
+person: 'ryan-gosling'
 suggestions: ['Keanu-Reeves', 'Joaquin-Phoenix', 'Paul-Rudd', 'Margot-Robbie']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Gosling'
 twitter: ''
@@ -171,7 +171,7 @@ When George died, Gosling wore his tags around his neck.
 
 The way he described this dog, with complete respect for the animal's autonomy and dignity, as though George were a peer with preferences worth honoring, mirrors how he talks about everyone. Collaborators. His daughters. Eva.
 
-He made a friend out of a dog. He made a friend out of a TV schedule. He'd later make a friend out of an alien puppet. (There's a similar gentleness in [Keanu Reeves](/personality-analysis/Keanu-Reeves), another quiet man who treats every person on set like a peer.) He keeps finding connection in the most unlikely places, and he treats those connections with a seriousness that other people reserve for humans.
+He made a friend out of a dog. He made a friend out of a TV schedule. He'd later make a friend out of an alien puppet. (There's a similar gentleness in [Keanu Reeves](/personality-analysis/keanu-reeves), another quiet man who treats every person on set like a peer.) He keeps finding connection in the most unlikely places, and he treats those connections with a seriousness that other people reserve for humans.
 
 ---
 

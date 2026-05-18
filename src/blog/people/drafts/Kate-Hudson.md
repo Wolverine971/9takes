@@ -5,14 +5,14 @@ persona_title: "Hollywood's Radiant Fugitive"
 description: 'Kate Hudson built a life of movement, charm, and sunlight around the father wound she never fully stopped trying to outrun.'
 author: 'DJ Wayne'
 date: '2026-04-12'
-loc: 'https://9takes.com/personality-analysis/Kate-Hudson'
+loc: 'https://9takes.com/personality-analysis/kate-hudson'
 lastmod: '2026-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['movieStar', 'entrepreneur', 'screen-icon', 'business-operator']
-person: 'Kate-Hudson'
+person: 'kate-hudson'
 suggestions: ['Gwyneth-Paltrow', 'Matthew-McConaughey', 'Dax-Shepard', 'Emma-Stone']
 wikipedia: 'https://en.wikipedia.org/wiki/Kate_Hudson'
 twitter: 'https://twitter.com/katehudson'
@@ -139,7 +139,7 @@ The evidence:
 
 Under stress, Sevens shift toward the rigid, critical patterns of [Type 1](/enneagram-corner/enneagram-type-1) — the perfectionist shadow that kept Kate from singing for decades. In growth, they move toward [Type 5](/enneagram-corner/enneagram-type-5) — focused depth, sustained attention, the willingness to go deep instead of skating across the surface. Her Fabletics commitment (thirteen years and counting, hands-on with budgets and design) and her eventual music release both point to a woman integrating toward health.
 
-The 6 wing adds something critical: loyalty. Kate isn't the bulldozing 7w8. She's the community-building 7w6 — the one who co-hosts a podcast with her brother, who maintains friendships through decades and through difficulty. [Gwyneth Paltrow](/personality-analysis/Gwyneth-Paltrow), a friend since both were living in England in the early 2000s, became a support system during Kate's divorce from Robinson. Their kids grew up together, went to school together, were in a band together. After Matthew Perry died in 2023, Kate wrote: "Our friendship spanned a long time. A lifetime really. We played tennis and talked endlessly about trials and tribulations of love." Perry struggled publicly with addiction for decades — maintaining that friendship through his darkest years is loyalty that costs something. The warmth isn't performed. But it's also not effortless.
+The 6 wing adds something critical: loyalty. Kate isn't the bulldozing 7w8. She's the community-building 7w6 — the one who co-hosts a podcast with her brother, who maintains friendships through decades and through difficulty. [Gwyneth Paltrow](/personality-analysis/gwyneth-paltrow), a friend since both were living in England in the early 2000s, became a support system during Kate's divorce from Robinson. Their kids grew up together, went to school together, were in a band together. After Matthew Perry died in 2023, Kate wrote: "Our friendship spanned a long time. A lifetime really. We played tennis and talked endlessly about trials and tribulations of love." Perry struggled publicly with addiction for decades — maintaining that friendship through his darkest years is loyalty that costs something. The warmth isn't performed. But it's also not effortless.
 
 ---
 
@@ -161,7 +161,7 @@ Searching. Always searching. The restlessness of a mind that treats stillness as
 
 Her brother Oliver nicknamed her "Hammerhead" as a kid, mocking her ears and the way her eyes sat on her face. She grew up comparing her body to her mother's — Goldie Hawn, one of the most beautiful women of her generation. The physical insecurity coexisted with the radiance, which is the part nobody sees.
 
-On set, the sunshine is real. [Matthew McConaughey](/personality-analysis/Matthew-McConaughey) experienced her improv style firsthand when she kissed him intensely during an unscripted moment on _Fool's Gold_. She threw vegetables at actors to get genuine reactions. She shocked costars with unexpected choices. "You aren't really an artist unless you're taking those chances," she said.
+On set, the sunshine is real. [Matthew McConaughey](/personality-analysis/matthew-mcconaughey) experienced her improv style firsthand when she kissed him intensely during an unscripted moment on _Fool's Gold_. She threw vegetables at actors to get genuine reactions. She shocked costars with unexpected choices. "You aren't really an artist unless you're taking those chances," she said.
 
 High energy, fearless spontaneity, relentless positivity — and underneath it all, a woman who journals her fears and meditates twice a day to keep the machinery running.
 

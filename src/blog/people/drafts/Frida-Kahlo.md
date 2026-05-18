@@ -5,14 +5,14 @@ persona_title: "Art's Unfinished Self-Portrait"
 description: "Frida Kahlo hid her broken body behind elaborate costumes while exposing her broken soul on canvas. Inside the psychology of art history's most honest liar."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Frida-Kahlo'
+loc: 'https://9takes.com/personality-analysis/frida-kahlo'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['historical', 'historical-artist']
-person: 'Frida-Kahlo'
+person: 'frida-kahlo'
 suggestions: ['Billie-Eilish', 'Lady-Gaga', 'Johnny-Depp', 'Bob-Dylan']
 wikipedia: 'https://en.wikipedia.org/wiki/Frida_Kahlo'
 twitter: ''
@@ -236,7 +236,7 @@ She painted _Henry Ford Hospital_ from her bed: herself lying on a hospital matt
 
 She painted _My Birth_ the same year. A woman giving birth to herself, a sheet pulled over the mother's face as if she's dead, a portrait of the Virgin of Sorrows on the wall above, weeping for something that can't be saved.
 
-Nobody was painting this. Not in 1932. Not for decades after. It would take generations before another young woman, someone like [Billie Eilish](/personality-analysis/Billie-Eilish), would make her pain the public's problem with the same unflinching directness.
+Nobody was painting this. Not in 1932. Not for decades after. It would take generations before another young woman, someone like [Billie Eilish](/personality-analysis/billie-eilish), would make her pain the public's problem with the same unflinching directness.
 
 She kept animals instead. Spider monkeys, parrots, cats, indigenous hairless Xoloitzcuintli dogs. They filled the rooms of La Casa Azul. They sat on her lap while she painted. They appeared in painting after painting, held in her arms like infants, perched on her shoulders, staring out at the viewer with the same unblinking intensity as their owner.
 

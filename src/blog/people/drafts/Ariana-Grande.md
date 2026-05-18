@@ -5,14 +5,14 @@ persona_title: "Pop's Relentless Achiever"
 description: "From Broadway kid to Oscar-nominated actress, Ariana Grande's four-octave range and strategic reinventions reveal classic Type 3 Achiever psychology in motion."
 author: 'DJ Wayne'
 date: '2023-06-21'
-loc: 'https://9takes.com/personality-analysis/Ariana-Grande'
+loc: 'https://9takes.com/personality-analysis/ariana-grande'
 lastmod: '2026-01-29'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
 enneagram: 3
 type: ['musician', 'pop-star']
-person: 'Ariana-Grande'
+person: 'ariana-grande'
 suggestions: ['Keke-Palmer', 'Taylor-Swift', 'Billie-Eilish', 'Selena-Gomez', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Ariana_Grande'
 twitter: 'arianagrande'
@@ -103,13 +103,13 @@ Ariana gets typed as a Type 2 (Helper) or Type 4 (Individualist) often. Both rea
 
 Look closer. One Love Manchester wasn't just compassion. It was a logistical achievement that raised 17 million pounds. The recurring pattern is achievement-as-identity: vocal mastery, chart dominance, rebuilding her image in one arena after another, the drive to be respected everywhere she goes. Type 2s want to be needed. Type 3s want to be undeniable.
 
-Compare her to [Dolly Parton](/personality-analysis/Dolly-Parton), a Type 2 who built her career around nurturing others and downplaying ambition. Ariana has never once downplayed her ambition.
+Compare her to [Dolly Parton](/personality-analysis/dolly-parton), a Type 2 who built her career around nurturing others and downplaying ambition. Ariana has never once downplayed her ambition.
 
 **The Type 4 case:** Ariana can be emotionally raw. Songs like "pov" and "ghostin" expose genuine vulnerability. Her aesthetics are specific and personal.
 
 But Type 4s resist optimization. They'd rather be misunderstood than compromise their vision for mass appeal. Ariana is comfortable with polish: tight branding, strategic eras, precision performance, feeling translated into commercial output.
 
-Compare her to [Billie Eilish](/personality-analysis/Billie-Eilish), a likely Type 4, who actively resists commercial pressure and leans into darkness and alienation. Ariana's darkness becomes a hit single and a fragrance line. The emotion is real. The process is Achiever.
+Compare her to [Billie Eilish](/personality-analysis/billie-eilish), a likely Type 4, who actively resists commercial pressure and leans into darkness and alienation. Ariana's darkness becomes a hit single and a fragrance line. The emotion is real. The process is Achiever.
 
 ## From Florida to Broadway to the Oscars
 
@@ -245,4 +245,4 @@ The question isn't "how do I stop achieving?" It's "what am I willing to trade f
 
 > **Disclaimer:** This analysis is based on publicly available information and aims to explore Ariana Grande's personality from an Enneagram perspective. It's not a definitive assessment but rather an invitation to reflect and engage.
 
-Wondering how Ariana's Type 3 drive compares to other artists? Explore how [Taylor Swift](/personality-analysis/Taylor-Swift) channels similar Achiever energy, or discover the contrasting approach of [Billie Eilish](/personality-analysis/Billie-Eilish), whose Type 4 personality prioritizes authenticity over achievement.
+Wondering how Ariana's Type 3 drive compares to other artists? Explore how [Taylor Swift](/personality-analysis/taylor-swift) channels similar Achiever energy, or discover the contrasting approach of [Billie Eilish](/personality-analysis/billie-eilish), whose Type 4 personality prioritizes authenticity over achievement.

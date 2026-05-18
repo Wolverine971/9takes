@@ -5,14 +5,14 @@ persona_title: "Rap's Fearless Shapeshifter"
 description: "How Doechii's Type 7 psychology explains the constant reinvention, the sobriety, the face tape, and the diary entry that saved her life."
 author: 'DJ Wayne'
 date: '2025-03-25'
-loc: 'https://9takes.com/personality-analysis/Doechii'
+loc: 'https://9takes.com/personality-analysis/doechii'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['musician', 'rapper']
-person: 'Doechii'
+person: 'doechii'
 suggestions: ['Lady-Gaga', 'Doja-Cat', 'Chappell-Roan', 'Kendrick-Lamar']
 wikipedia: 'https://en.wikipedia.org/wiki/Doechii'
 twitter: 'doechii'
@@ -220,7 +220,7 @@ What followed the Grammy was not a victory lap. It was an avalanche.
 
 "Anxiety" — a song she'd originally self-released on YouTube in 2019, sampling Gotye's "Somebody That I Used to Know" — hit number 9 on the Billboard Hot 100. Her first top-10 single. It spawned a TikTok dance challenge that generated 2.8 million videos. She launched a mental health resource hub called "Anxiety Is Watching Me," turning her biggest vulnerability into infrastructure.
 
-Billboard named her Woman of the Year — only the second female rapper to receive the honor, after Cardi B. She beat out [Doja Cat](/personality-analysis/Doja-Cat), Nicki Minaj, Megan Thee Stallion, and others for Best Female Hip Hop Artist at the BET Awards, then used her acceptance speech to do something no one else at the ceremony did: call out the President.
+Billboard named her Woman of the Year — only the second female rapper to receive the honor, after Cardi B. She beat out [Doja Cat](/personality-analysis/doja-cat), Nicki Minaj, Megan Thee Stallion, and others for Best Female Hip Hop Artist at the BET Awards, then used her acceptance speech to do something no one else at the ceremony did: call out the President.
 
 "There are ruthless attacks that are creating fear and chaos in our communities in the name of law and order. Trump is using military forces to stop a protest." She asked the audience to consider "what kind of government it appears to be when every time we exercise our democratic right to protest, the military is deployed against us." She called for support for "all oppressed people, for Black people, for Latino people, for trans people, for the people in Gaza."
 
@@ -228,7 +228,7 @@ At the Met Gala — her first — she arrived in custom Louis Vuitton, a cream m
 
 She narrated Nike's Super Bowl commercial — their first in 27 years. It generated over 66 million Instagram views in 24 hours. She featured on JENNIE's "ExtraL" and A$AP Rocky's _Don't Be Dumb_. She closed out 2025 by surprise-releasing "girl, get up" with SZA — a direct response to the industry plant accusations that had trailed her all year. _"All that industry plant shit wack... Y'all wanna believe I'm on drugs and forsaken / They won't credit me, so they blame it on Satan."_
 
-Her _Live from the Swamp Tour_ sold out in minutes. She opened for [Kendrick Lamar](/personality-analysis/Kendrick-Lamar) in Australia. She performed a surprise duet with Lauryn Hill at Jazz in the Gardens — the artist whose _Miseducation_ was the first full album she ever listened to.
+Her _Live from the Swamp Tour_ sold out in minutes. She opened for [Kendrick Lamar](/personality-analysis/kendrick-lamar) in Australia. She performed a surprise duet with Lauryn Hill at Jazz in the Gardens — the artist whose _Miseducation_ was the first full album she ever listened to.
 
 "The feeling that I have when I listen to _The Miseducation of Lauryn Hill_ is the same feeling I want some other Black little girl to have when she listens to me," she's said. "And in order for her to have that feeling, I have to talk about my feelings."
 

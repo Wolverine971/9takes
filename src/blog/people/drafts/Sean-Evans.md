@@ -5,14 +5,14 @@ persona_title: "YouTube's Anxious Anchor"
 description: "Why does Sean Evans, the calmest seat at the Hot Ones table, run on anxiety? An Enneagram Type 6 read on the host who built a career on preparation."
 author: 'DJ Wayne'
 date: '2026-05-11'
-loc: 'https://9takes.com/personality-analysis/Sean-Evans'
+loc: 'https://9takes.com/personality-analysis/sean-evans'
 lastmod: '2026-05-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '6'
 type: ['creator', 'viral-entertainer']
-person: 'Sean-Evans'
+person: 'sean-evans'
 suggestions: ['Conan-OBrien', 'Joe-Rogan', 'David-Letterman', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'
 twitter: 'seanseaevans'
@@ -73,7 +73,7 @@ Note: "How Sean Evans prepares for every Hot Ones interview" contains one single
 
 <p class="firstLetter">Every weekday in the 1990s, Michael Evans put a fresh VHS tape in the machine before he went to bed. By morning, Late Night with David Letterman had recorded itself onto the cassette. On Saturday, Michael's son Sean — eight, nine, ten years old — would binge-watch a week of Letterman in a row. The interview craft was being absorbed at the kitchen table before the kid knew he was studying it.</p>
 
-Decades later, Sean Evans has interviewed [Margot Robbie](/personality-analysis/Margot-Robbie), Gordon Ramsay, Conan O'Brien, Jennifer Lawrence, and Bryan Cranston. Hot Ones, the YouTube show he co-created in 2015, was acquired in an $82.5 million deal in 2024 — one Evans helped lead from the buy side. He's on Time's TIME100 Creators list. He's the calmest seat at a table where movie stars dissolve into hiccupping wrecks on wings sauced with two-million-Scoville chili extract.
+Decades later, Sean Evans has interviewed [Margot Robbie](/personality-analysis/margot-robbie), Gordon Ramsay, Conan O'Brien, Jennifer Lawrence, and Bryan Cranston. Hot Ones, the YouTube show he co-created in 2015, was acquired in an $82.5 million deal in 2024 — one Evans helped lead from the buy side. He's on Time's TIME100 Creators list. He's the calmest seat at a table where movie stars dissolve into hiccupping wrecks on wings sauced with two-million-Scoville chili extract.
 
 He still hasn't watched some of his own episodes back. The anxiety is too loud in the recording.
 
@@ -158,7 +158,7 @@ He's also said: *"You have the impostor syndrome that takes over your whole life
 
 Evans calls each episode "a Rubik's Cube that just solves itself." It's a Type 6 metaphor in a tuxedo. The Rubik's Cube has a fixed number of moves, a knowable algorithm, a determinable solution. There is exactly the right amount of structure to make a vigilant mind feel safe. The puzzle terrifies a 4 and bores a 7. It is the dream object for a 6 who is afraid of formless time.
 
-Each episode is the same shape. Ten wings. Ten questions, then follow-ups. Two openings: who the guest is and why they're here. One closing: the wing of shame, the parting question, the credits. Within that shape, anything can happen. Lorde can sing a Caroline Polachek cover. Margaret Qualley can cry. [Pedro Pascal](/personality-analysis/Pedro-Pascal) can gargle milk. The shape holds them up.
+Each episode is the same shape. Ten wings. Ten questions, then follow-ups. Two openings: who the guest is and why they're here. One closing: the wing of shame, the parting question, the credits. Within that shape, anything can happen. Lorde can sing a Caroline Polachek cover. Margaret Qualley can cry. [Pedro Pascal](/personality-analysis/pedro-pascal) can gargle milk. The shape holds them up.
 
 The show is, in this sense, an externalization of how Sean Evans copes with the world. Build a structure that allows for chaos but never depends on improvisation to survive. Inside the structure, you can take the worst hot sauce on earth and still ask question seven. Outside the structure, you watch yourself for refinement and lose.
 

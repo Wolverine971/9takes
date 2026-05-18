@@ -5,14 +5,14 @@ meta_title: "Why Nelson Mandela Could Forgive a Country But Not Stay Married"
 description: "Why could Nelson Mandela forgive a regime but lose his family? Decoding the Type 9w8 fortress behind the prison routine, Springbok jersey, and loneliest man."
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Nelson-Mandela'
+loc: 'https://9takes.com/personality-analysis/nelson-mandela'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['historical', 'politician', 'activist', 'movement-leader']
-person: 'Nelson-Mandela'
+person: 'nelson-mandela'
 suggestions: ['Abraham-Lincoln', 'Martin-Luther-King-Jr', 'Barack-Obama', 'Desmond-Tutu']
 wikipedia: 'https://en.wikipedia.org/wiki/Nelson_Mandela'
 twitter: ''
@@ -113,7 +113,7 @@ But the harder thing to see — the thing the framework actually unlocks — is 
 
 ## Why Nelson Mandela Chose Sabotage Over Surrender
 
-For most of his early career he sounded like Gandhi. The ANC's Defiance Campaign in 1952 was textbook nonviolent resistance — fill the jails, refuse to comply, suffer publicly. Mandela was its national volunteer-in-chief. He kept that line for almost a decade. (His American counterpart, [Martin Luther King Jr.](/personality-analysis/Martin-Luther-King-Jr), would never leave it.)
+For most of his early career he sounded like Gandhi. The ANC's Defiance Campaign in 1952 was textbook nonviolent resistance — fill the jails, refuse to comply, suffer publicly. Mandela was its national volunteer-in-chief. He kept that line for almost a decade. (His American counterpart, [Martin Luther King Jr.](/personality-analysis/martin-luther-king-jr), would never leave it.)
 
 Then in March 1960, police opened fire on a peaceful crowd at Sharpeville and killed 69 people, most of them shot in the back. The government banned the ANC. Mandela went underground.
 
@@ -139,7 +139,7 @@ This is unusual childhood material for a Type 9. Most 9s build their self-forget
 
 He carried that into adulthood. _"A leader,"_ he wrote later, _"is like a shepherd. He stays behind the flock, letting the most nimble go out ahead, whereupon the others follow, not realizing that all along they are being directed from behind."_
 
-Read that sentence next to a Type 9 textbook. The 9's instinct to merge, to absorb, to lead from behind without requiring credit — Mandela did not invent it in prison. He learned it at 12, sitting on a bench in a regent's hut, watching old men argue and waiting to see what survived their argument. ([Abraham Lincoln](/personality-analysis/Abraham-Lincoln), the other Type 9 who held a fracturing country together by absorbing his rivals into his cabinet, learned a similar instinct from a frontier childhood without a court — different soil, same plant.)
+Read that sentence next to a Type 9 textbook. The 9's instinct to merge, to absorb, to lead from behind without requiring credit — Mandela did not invent it in prison. He learned it at 12, sitting on a bench in a regent's hut, watching old men argue and waiting to see what survived their argument. ([Abraham Lincoln](/personality-analysis/abraham-lincoln), the other Type 9 who held a fracturing country together by absorbing his rivals into his cabinet, learned a similar instinct from a frontier childhood without a court — different soil, same plant.)
 
 The childhood thread to the adult is unusually clean: the boy who was sent away from his mother's village and made a ward of a court grew up to be a man who could live anywhere, with anyone, and not require the room to revolve around him. The same architecture that made him survivable in a tribal court made him survivable in a 7-by-9 cell.
 

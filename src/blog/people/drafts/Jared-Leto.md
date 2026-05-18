@@ -5,14 +5,14 @@ description: "Jared Leto lost his father at 8 and never stopped trying on new id
 persona_title: 'The Man With No Default Setting'
 author: 'DJ Wayne'
 date: '2025-03-10'
-loc: 'https://9takes.com/personality-analysis/Jared-Leto'
+loc: 'https://9takes.com/personality-analysis/jared-leto'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician', 'music-crossover']
-person: 'Jared-Leto'
+person: 'jared-leto'
 suggestions: ['Johnny-Depp', 'Timothee-Chalamet', 'Billie-Eilish', 'Marilyn-Monroe']
 wikipedia: 'https://en.wikipedia.org/wiki/Jared_Leto'
 twitter: 'JaredLeto'
@@ -113,7 +113,7 @@ For Dallas Buyers Club, Leto didn't eat. "I stopped eating," he told [TheWrap in
 
 What made it different from a stunt was what it cost. His stomach shrank until he could only eat a few tablespoons of food. The weight loss changed "the way you walk, the way you sit, the way you think." And when it was over, letting go was harder than the transformation itself. "It's kind of hard to stop," he admitted. "It takes a little while sometimes."
 
-For Chapter 27, the pattern reversed. He gained 67 pounds to play Mark David Chapman, the man who murdered [John Lennon](/personality-analysis/John-Lennon). His method: microwaved pints of ice cream mixed with soy sauce and olive oil, every night. He developed gout, elevated cholesterol, and an irregular heartbeat. By the end of filming, he needed a wheelchair to get around the set. "It took about a year to get back to a place that felt semi-normal." He later tried to talk a friend out of gaining weight for a role, warning: "Just because you can lose the weight doesn't mean the impact it had on you isn't there anymore."
+For Chapter 27, the pattern reversed. He gained 67 pounds to play Mark David Chapman, the man who murdered [John Lennon](/personality-analysis/john-lennon). His method: microwaved pints of ice cream mixed with soy sauce and olive oil, every night. He developed gout, elevated cholesterol, and an irregular heartbeat. By the end of filming, he needed a wheelchair to get around the set. "It took about a year to get back to a place that felt semi-normal." He later tried to talk a friend out of gaining weight for a role, warning: "Just because you can lose the weight doesn't mean the impact it had on you isn't there anymore."
 
 For the Joker in Suicide Squad, the immersion went social — and his coworkers did not find it charming. He mailed Margot Robbie a live rat in a black box. Will Smith got a letter weighted with a bullet. Adewale Akinnuoye-Agbaje, who played Killer Croc, received a used Playboy. The dead pig that landed on the cast's read-through table arrived unannounced; the henchman who delivered it walked out without speaking. "I'm terrified just as a person thinking, 'Is he crazy?'" Viola Davis told [Vanity Fair](https://time.com/4420595/suicide-squad-will-smith-jared-leto/). "But the second part was, 'Oh shit, I've got to have my stuff together.'"
 
@@ -248,7 +248,7 @@ That moment is the most himself the camera has ever caught him.
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/personality-analysis/Jared-Leto",
+        "@id": "https://9takes.com/personality-analysis/jared-leto",
         "@type": "WebPage"
       },
       "mentions": {

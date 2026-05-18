@@ -5,18 +5,63 @@ persona_title: "Tennis's Apologetic Champion"
 description: 'Naomi Osaka apologized to the crowd for beating Serena. Inside the Type 9 mind that became tennis''s quietest champion and loudest mental-health voice.'
 author: 'DJ Wayne'
 date: '2026-05-10'
-loc: 'https://9takes.com/personality-analysis/Naomi-Osaka'
+loc: 'https://9takes.com/personality-analysis/naomi-osaka'
 lastmod: '2026-05-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
 type: ['celebrity', 'celebrity-image']
-person: 'Naomi-Osaka'
+person: 'naomi-osaka'
 suggestions: ['Beyonce-Knowles', 'Taylor-Swift', 'Ariana-Grande', 'Emma-Chamberlain']
 wikipedia: 'https://en.wikipedia.org/wiki/Naomi_Osaka'
 twitter: 'naomiosaka'
 instagram: 'naomiosaka'
+wikidata_qid: 'Q17466583'
+imdb_id: 'nm8171677'
+birth_date: '1997-10-16'
+birth_place: 'Chūō-ku, Osaka, Japan'
+nationality: 'Japanese'
+occupation:
+  - 'Tennis player'
+  - 'Entrepreneur'
+knows_about:
+  - 'Professional tennis'
+  - 'WTA Tour'
+  - 'Grand Slam championships'
+  - 'Mental health advocacy'
+  - 'Hana Kuma media company'
+  - 'Athlete activism'
+keywords:
+  - 'Naomi Osaka enneagram'
+  - 'Naomi Osaka type 9'
+  - 'Naomi Osaka personality'
+  - 'Naomi Osaka 9w1'
+  - 'Peacemaker enneagram'
+  - 'Naomi Osaka mental health'
+  - 'Naomi Osaka 2018 US Open'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Naomi_Osaka'
+  - 'https://www.wikidata.org/wiki/Q17466583'
+  - 'https://www.imdb.com/name/nm8171677/'
+  - 'https://twitter.com/naomiosaka'
+  - 'https://www.instagram.com/naomiosaka/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Naomi_Osaka'
+  - 'https://en.wikipedia.org/wiki/2018_US_Open_–_Women%27s_singles_final'
+  - 'https://en.wikipedia.org/wiki/2021_French_Open'
+  - 'https://time.com/6077128/naomi-osaka-essay-tokyo-olympics/'
+  - 'https://en.wikipedia.org/wiki/2020_Summer_Olympics_opening_ceremony'
+faqs:
+  - question: "What is Naomi Osaka's personality type?"
+    answer: "Naomi Osaka is an Enneagram Type 9 with a 1 wing — the Peacemaker who feels guilty about her own quietness and can't stop apologizing for it. The pattern shows in the 2018 US Open apology, the headphones in tournament corridors, the silent seven-mask protest at the 2020 US Open, and the 2021 French Open withdrawal. Type 9s self-erase to keep the peace; the 1 wing supplies the inner judge that won't let her stay erased."
+    anchor: 'what-is-naomi-osakas-personality-type'
+  - question: 'Why did Naomi Osaka apologize for beating Serena?'
+    answer: "The crowd was booing the umpire, not Osaka, but the Type 9 reflex reads any unhappiness in the room as something to absorb and apologize for. The Enneagram traditionalists call this state sloth — not laziness but a forgetting of one's own existence in the presence of someone else's discomfort. Osaka said it herself on Today: 'I had to apologize.' Not 'felt I should' — had to."
+    anchor: 'the-apology-that-wasnt-polite'
+  - question: 'What happened to Naomi Osaka at the 2021 French Open?'
+    answer: "Osaka announced she would skip post-match press conferences during Roland Garros, citing the toll on her mental health. After a $15,000 fine and a joint Grand Slam threat of default and suspension, she withdrew from the tournament and disclosed long bouts of depression dating to 2018. The Type 9 under sustained stress disintegrates toward Type 6 anxiety — the 'huge waves' she described before press appearances are textbook 9-going-to-6 language."
+    anchor: 'what-happened-at-the-2021-french-open'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -113,7 +158,7 @@ This is the Naomi Osaka her former coach Sascha Bajin watched for two years. Baj
 
 The 1 wing explains the rest. Osaka isn't comfortable with her own quietness — she has a moral problem with it. The CNN line — "I have a lot of regrets before I go to sleep" — is the 1 wing's inner courtroom passing judgment on the 9's withdrawal. A pure 9 might shrug. A 9w1 lies awake litigating it.
 
-There's a counter-case for Type 5. She's introverted. She loves anime. She wears headphones to dull her social anxiety at tournaments. But a Type 5 wouldn't apologize to 23,000 people for winning a tennis match. A 5 would walk off the court analyzing the umpire's calls. The 5 protects privacy by withholding. The 9 protects the room by self-erasing. Naomi self-erases.
+There's a counter-case for Type 5. She's introverted. She loves anime. She wears headphones to dull her social anxiety at tournaments. But a Type 5 wouldn't apologize to 23,000 people for winning a tennis match — a 5 would walk off the court analyzing the umpire's calls. The 9 protects the room by self-erasing. Naomi self-erases.
 
 ## The Apology That Wasn't Polite
 
@@ -221,7 +266,7 @@ Then the Games began. Four days after the cauldron, Naomi lost in the third roun
 
 > "I definitely feel like there was a lot of pressure for this. I think it's maybe because I haven't played in the Olympics before and for the first one to be in my home country is a bit much." — Naomi Osaka, post-match press conference, Tokyo 2020.
 
-Type 9s do their best assertion when assertion is built into routine. Lighting a torch is routine — a ritual with marked steps, a predetermined choreography, a body that simply has to climb stairs and tilt a flame. Winning a match against world No. 42 is not routine. It requires going against a stranger who is allowed to want to beat you. The 9 lit the cauldron flawlessly because the cauldron asked nothing of her self-assertion. The Vondrousova match asked everything of it. The body that had been holding the torch four days earlier could not, in the same week, swing freely against an opponent who didn't care that the country was watching.
+Lighting a torch is routine — a ritual with marked steps, a predetermined choreography, a body that simply has to climb stairs and tilt a flame. Winning a match against world No. 42 is not routine. It requires going against a stranger who is allowed to want to beat you. The 9 lit the cauldron flawlessly because the cauldron asked nothing of her self-assertion. The Vondrousova match asked everything of it. The body that had been holding the torch four days earlier could not, in the same week, swing freely against an opponent who didn't care that the country was watching.
 
 She had picked the room. The room had built her a stage. She walked onto the stage and the body would not perform.
 

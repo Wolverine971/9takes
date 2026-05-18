@@ -5,14 +5,14 @@ persona_title: "Hollywood's Drill-Trained Wonder"
 description: "From a sheltered Israeli childhood to combat trainer to Wonder Woman, Gal Gadot's relentless performance reveals a Type 3 pattern beneath the polish."
 author: 'DJ Wayne'
 date: '2026-05-08'
-loc: 'https://9takes.com/personality-analysis/Gal-Gadot'
+loc: 'https://9takes.com/personality-analysis/gal-gadot'
 lastmod: '2026-05-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'Gal-Gadot'
+person: 'gal-gadot'
 suggestions: ['Jennifer-Lopez', 'Hailey-Bieber', 'Ariana-Grande', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Gal_Gadot'
 twitter: 'GalGadot'

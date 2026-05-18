@@ -5,14 +5,14 @@ persona_title: "Media's Brute-Force Builder"
 description: 'Sam Parr built The Hustle, sold it for $27M, and launched Hampton. His Enneagram Type 8 personality explains the vulnerability behind the brute force.'
 author: 'DJ Wayne'
 date: '2026-02-26'
-loc: 'https://9takes.com/personality-analysis/Sam-Parr'
+loc: 'https://9takes.com/personality-analysis/sam-parr'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
-person: 'Sam-Parr'
+person: 'sam-parr'
 suggestions: ['Shaan-Puri', 'Patrick-Bet-David', 'Scott-Galloway', 'Alex-Hormozi', 'Gary-Vee']
 wikipedia: ''
 twitter: 'https://twitter.com/thesamparr'
@@ -177,7 +177,7 @@ In health, Eights move toward Type 2: the protector who serves. Hampton. The "Sh
 
 ## Why My First Million Works: Sam Parr and Shaan Puri
 
-In mid-2019, [Shaan Puri](/personality-analysis/Shaan-Puri), a serial founder who'd just sold Bebo to Twitch, approached Sam with a proposition: "I'm creating a podcast anyways. You give me distribution. We split the money 50/50."
+In mid-2019, [Shaan Puri](/personality-analysis/shaan-puri), a serial founder who'd just sold Bebo to Twitch, approached Sam with a proposition: "I'm creating a podcast anyways. You give me distribution. We split the money 50/50."
 
 Sam had The Hustle's two-million-person newsletter. Shaan had the ideas and the mic presence. My First Million launched on June 23, 2019. The first episode pulled 60,000 downloads. Within weeks, that number dropped to 10,000.
 
@@ -235,7 +235,7 @@ The origin was a Slack channel called "Shit, I'm Fucked," a space for entreprene
 
 "Very cathartic," Sam wrote. "Participants laughed at their miseries and felt less alone."
 
-Think about what Sam actually built here. A man whose entire career runs on projected strength created a structured space where the most powerful people in the room are required to be vulnerable. It's the opposite of what someone like [Dave Portnoy](/personality-analysis/Dave-Portnoy) does with his Eight energy. Portnoy doubles down on dominance. Sam built a room where dominance isn't the point.
+Think about what Sam actually built here. A man whose entire career runs on projected strength created a structured space where the most powerful people in the room are required to be vulnerable. It's the opposite of what someone like [Dave Portnoy](/personality-analysis/dave-portnoy) does with his Eight energy. Portnoy doubles down on dominance. Sam built a room where dominance isn't the point.
 
 He couldn't do it for himself. So he built a company that does it for others.
 

@@ -5,14 +5,14 @@ persona_title: "Rugby's Unapologetic Bodyguard"
 description: "Ilona Maher reads as pure swagger. The truth is more interesting: a Type 8 who built a fortress big enough that other women could move in."
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Ilona-Maher'
+loc: 'https://9takes.com/personality-analysis/ilona-maher'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
 type: ['celebrity', 'influencer', 'celebrity-image', 'lifestyle-builder']
-person: 'Ilona-Maher'
+person: 'ilona-maher'
 suggestions: ['Chappell-Roan', 'Halsey', 'Beyonce-Knowles', 'Cardi-B']
 wikipedia: 'https://en.wikipedia.org/wiki/Ilona_Maher'
 instagram: 'ilonamaher'

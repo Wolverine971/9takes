@@ -5,14 +5,14 @@ persona_title: "Hollywood's Comeback Alchemist"
 description: "Inside the psychology of Robert Downey Jr. — how a father who taught love through drugs created Hollywood's greatest escape artist, and the three forces that finally made him stay."
 author: 'DJ Wayne'
 date: '2025-03-25'
-loc: 'https://9takes.com/personality-analysis/Robert-Downey-Jr'
+loc: 'https://9takes.com/personality-analysis/robert-downey-jr'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['movieStar', 'screen-icon']
-person: 'Robert-Downey-Jr'
+person: 'robert-downey-jr'
 suggestions: ['tom-cruise', 'theo-von', 'dax-shepard', 'leonardo-dicaprio']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_Downey_Jr.'
 twitter: '@RobertDowneyJr'

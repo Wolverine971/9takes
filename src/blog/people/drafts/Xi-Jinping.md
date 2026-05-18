@@ -4,14 +4,14 @@ meta_title: "Inside Xi Jinping's Mind: How Trauma Forged the World's Most Powerf
 description: 'Why does Xi Jinping consolidate power so ruthlessly? His Type 8 psychology reveals how Cultural Revolution trauma created a leader who will never be powerless again.'
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Xi-Jinping'
+loc: 'https://9takes.com/personality-analysis/xi-jinping'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['politician', 'modern-leader']
-person: 'Xi-Jinping'
+person: 'xi-jinping'
 persona_title: "China's Iron Hand"
 suggestions: ['Vladimir-Putin', 'Donald-Trump', 'Joe-Biden', 'Joseph-Stalin']
 wikipedia: 'https://en.wikipedia.org/wiki/Xi_Jinping'
@@ -116,7 +116,7 @@ Think about that in the context of Xi's childhood: at age nine, watching his fat
 
 What comes out the other side isn't just trauma. It's a determination — iron, quiet, patient — that sounds like: _This will never happen to me again._
 
-But here's what trips people up: Xi doesn't _look_ like a Type 8. The stereotypical 8 is loud, confrontational, obviously dominant — think [Trump](/personality-analysis/Donald-Trump) working a rally. Xi smiles. He listens. He waits years before making a move. Diplomats consistently describe him as polite and restrained.
+But here's what trips people up: Xi doesn't _look_ like a Type 8. The stereotypical 8 is loud, confrontational, obviously dominant — think [Trump](/personality-analysis/donald-trump) working a rally. Xi smiles. He listens. He waits years before making a move. Diplomats consistently describe him as polite and restrained.
 
 That restraint does not contradict the typing. It changes the tempo. Xi's power drive is not explosive; it is immovable. He applied to the Communist Party ten times over several years. He consolidated slowly, watched carefully, and moved only when the terrain was ready.
 
@@ -377,7 +377,7 @@ What it does do is make Xi comprehensible. And comprehensible actors are easier 
 
 **How does Xi compare to Putin?**
 
-Both are [Type 8s](/enneagram-corner/enneagram-type-8), but the tempo difference is everything. [Putin](/personality-analysis/Vladimir-Putin) is shaped by KGB training and Soviet collapse: overtly aggressive, theatrical, willing to gamble. Xi is shaped by Cultural Revolution trauma and rural exile: controlled, patient, playing decades-long games. Putin invades countries. Xi builds infrastructure across 150 of them. Both refuse to show weakness. The methods couldn't be more different.
+Both are [Type 8s](/enneagram-corner/enneagram-type-8), but the tempo difference is everything. [Putin](/personality-analysis/vladimir-putin) is shaped by KGB training and Soviet collapse: overtly aggressive, theatrical, willing to gamble. Xi is shaped by Cultural Revolution trauma and rural exile: controlled, patient, playing decades-long games. Putin invades countries. Xi builds infrastructure across 150 of them. Both refuse to show weakness. The methods couldn't be more different.
 
 **Why doesn't Xi seem like a "typical" Type 8?**
 

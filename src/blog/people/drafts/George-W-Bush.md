@@ -5,14 +5,14 @@ persona_title: "America's Counterphobic Commander"
 description: 'Inside the mind of George W. Bush — how a C-student frat boy became a wartime president, and why the man who sent soldiers to war now paints their portraits.'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/George-W-Bush'
+loc: 'https://9takes.com/personality-analysis/george-w-bush'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician', 'modern-leader']
-person: 'George-W-Bush'
+person: 'george-w-bush'
 suggestions: ['Barack-Obama', 'George-H-W-Bush', 'Donald-Trump', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/George_W._Bush'
 twitter: 'georgewbush_43'
@@ -162,7 +162,7 @@ The gap between this private reality and the public "Bushisms" caricature is the
 
 One childhood friend put it simply: "I think his political philosophy comes completely from the philosophy of the independent oilman. His homage to his parents, his respect for his elders, his respect for tradition, his belief in religion — that's the philosophy he grew up with here."
 
-But there's a difference between absorbing your father's values and living in your father's shadow. <a href="/personality-analysis/George-H-W-Bush">George H.W. Bush</a> was a war hero at 18, a congressman, CIA director, ambassador, vice president, and president. The younger Bush's early record, by contrast, was a collection of near-misses: middling grades at Yale, an oil company that merged its way out of failure, a lost congressional race at 31.
+But there's a difference between absorbing your father's values and living in your father's shadow. <a href="/personality-analysis/george-h-w-bush">George H.W. Bush</a> was a war hero at 18, a congressman, CIA director, ambassador, vice president, and president. The younger Bush's early record, by contrast, was a collection of near-misses: middling grades at Yale, an oil company that merged its way out of failure, a lost congressional race at 31.
 
 His father knew the weight of the name. In a letter to George and Jeb, he wrote: "Be your own person, even if it means distancing yourself from your old man."
 
@@ -266,7 +266,7 @@ Hurricane Katrina hit the Gulf Coast on August 29, 2005. Bush was at his Crawfor
 
 On September 2, he stood at Mobile Regional Airport and said: "Brownie, you're doing a heck of a job." Brown — whose previous job had been running the International Arabian Horse Association — resigned ten days later. He had been brought to FEMA by Joe Allbaugh, Bush's 2000 campaign manager, who'd been the first FEMA director of the administration before handing the agency to his old college friend. The "Brownie" moment wasn't a verbal slip in the wrong setting. It was a Six praising someone inside the loyalty network on the day the network's competence stopped being theoretical.
 
-That same day, [Kanye West](/personality-analysis/Kanye) said on live television: "George Bush doesn't care about Black people."
+That same day, [Kanye West](/personality-analysis/kanye) said on live television: "George Bush doesn't care about Black people."
 
 Bush later told Matt Lauer it was the worst moment of his entire presidency. Not 9/11. Not Iraq. Being told he didn't care.
 
@@ -296,7 +296,7 @@ The progression tells the Six's growth story: from leaning on Cheney as the trus
 
 After leaving office with a 34% approval rating, George W. Bush did something nobody predicted.
 
-He read [Winston Churchill](/personality-analysis/Winston-Churchill)'s essay "Painting as a Pastime." He thought: "I admired his leadership. I thought his paintings were very good, and I decided if he could, I could."
+He read [Winston Churchill](/personality-analysis/winston-churchill)'s essay "Painting as a Pastime." He thought: "I admired his leadership. I thought his paintings were very good, and I decided if he could, I could."
 
 He took lessons from Texas Christian University art professor Jim Woodson, then from artist Sedrick Huckaby, who gave him the advice that changed everything: paint people you know but others don't.
 

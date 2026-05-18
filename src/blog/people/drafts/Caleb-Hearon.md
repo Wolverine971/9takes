@@ -5,14 +5,14 @@ persona_title: "Comedy's Desperate Connector"
 description: 'How growing up poor, closeted, and suicidal in rural Missouri made Caleb Hearon the funniest person in any room — and what he still can not outrun.'
 author: 'DJ Wayne'
 date: '2026-03-10'
-loc: 'https://9takes.com/personality-analysis/Caleb-Hearon'
+loc: 'https://9takes.com/personality-analysis/caleb-hearon'
 lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['comedian', 'creator', 'podcaster', 'internet-comic']
-person: 'Caleb-Hearon'
+person: 'caleb-hearon'
 suggestions: ['Jake-Shane', 'Eddie-Murphy', 'Dave-Chappelle', 'Keke-Palmer', 'Theo-Von']
 wikipedia: ''
 twitter: 'calebsaysthings'

@@ -5,14 +5,14 @@ persona_title: "Capital's Barefoot Prophet"
 description: "How does a man sell himself the trademark to his own company? An Enneagram Type 3w2 read on WeWork's barefoot prophet."
 author: 'DJ Wayne'
 date: '2026-05-07'
-loc: 'https://9takes.com/personality-analysis/Adam-Neumann'
+loc: 'https://9takes.com/personality-analysis/adam-neumann'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '3'
 type: ['entrepreneur', 'techie', 'business-operator']
-person: 'Adam-Neumann'
+person: 'adam-neumann'
 suggestions: ['Travis-Kalanick', 'Elon-Musk', 'Gwyneth-Paltrow', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Adam_Neumann'
 twitter: 'adamneumann'

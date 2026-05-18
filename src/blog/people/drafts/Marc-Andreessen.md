@@ -5,14 +5,14 @@ persona_title: "Tech's Fortress Philosopher"
 description: 'Marc Andreessen built the browser that opened the world. Then he built walls around himself. Inside the mind that connects everything except itself.'
 author: 'DJ Wayne'
 date: '2026-03-29'
-loc: 'https://9takes.com/personality-analysis/Marc-Andreessen'
+loc: 'https://9takes.com/personality-analysis/marc-andreessen'
 lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie', 'investor']
-person: 'Marc-Andreessen'
+person: 'marc-andreessen'
 suggestions: ['Peter-Thiel', 'Reid-Hoffman', 'Sam-Altman', 'Kara-Swisher']
 wikipedia: 'https://en.wikipedia.org/wiki/Marc_Andreessen'
 twitter: '@pmarca'
@@ -260,7 +260,7 @@ This is not the behavior of a Five in their comfort zone. This is disintegration
 
 When Fives are overwhelmed, they don't withdraw further. They scatter. They move toward the unhealthy patterns of [Type 7](/enneagram-corner/enneagram-type-7): frantic expansion, multiple simultaneous projects, an inability to sit still. The person who usually sends one email per hour starts sending twelve. The person who carefully budgets every hour starts spending recklessly.
 
-Look at Andreessen's trajectory from 2023 forward: the manifesto, the political shift from Democrat to Trump supporter, the $5 million in political donations, involvement with DOGE alongside <a href="/personality-analysis/Elon-Musk">Elon Musk</a>, the podcast blitz, the culture-war positioning. His managing partner was appointed Director of the Office of Personnel Management.
+Look at Andreessen's trajectory from 2023 forward: the manifesto, the political shift from Democrat to Trump supporter, the $5 million in political donations, involvement with DOGE alongside <a href="/personality-analysis/elon-musk">Elon Musk</a>, the podcast blitz, the culture-war positioning. His managing partner was appointed Director of the Office of Personnel Management.
 
 A man who built his career on carefully analyzed systems bets is suddenly everywhere, doing everything, taking positions on everything.
 
@@ -270,7 +270,7 @@ Even there, though, the Five's boundaries held in one way: he explicitly said he
 
 What triggered it? The threat was concrete. About thirty founders in his portfolio had been "debanked," their accounts closed under regulatory pressure, and a16z had poured $47 million into crypto-focused super PACs. He described meetings with Biden officials on AI policy as "the most alarming meetings I've ever been in." They told him there would be "a small number of large companies completely regulated and controlled by the government" and that startups shouldn't bother. His firm's investments, the systems he'd spent a decade building, were under real threat.
 
-And so the Five did what Fives do under existential threat: scattered toward Seven. Expand. Move. Engage on every front simultaneously. The opposite of withdrawal, but driven by the same fear. (Compare this with how <a href="/personality-analysis/Peter-Thiel">Peter Thiel</a>, another tech figure driven by fear, channels threat into preparation rather than expansion.)
+And so the Five did what Fives do under existential threat: scattered toward Seven. Expand. Move. Engage on every front simultaneously. The opposite of withdrawal, but driven by the same fear. (Compare this with how <a href="/personality-analysis/peter-thiel">Peter Thiel</a>, another tech figure driven by fear, channels threat into preparation rather than expansion.)
 
 ---
 

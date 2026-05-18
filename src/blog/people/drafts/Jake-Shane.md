@@ -5,14 +5,14 @@ persona_title: "TikTok's Anxious Sweetheart"
 description: 'Jake Shane built an empire on making people laugh. But beneath the charm is a fear most fans never see. An Enneagram Type 6 analysis.'
 author: 'DJ Wayne'
 date: '2026-03-27'
-loc: 'https://9takes.com/personality-analysis/Jake-Shane'
+loc: 'https://9takes.com/personality-analysis/jake-shane'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['creator', 'viral-entertainer']
-person: 'Jake-Shane'
+person: 'jake-shane'
 suggestions: ['Caleb-Hearon', 'Keke-Palmer', 'Aubrey-Plaza', 'Alix-Earle', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Shane'
 twitter: ''
@@ -159,7 +159,7 @@ This is not an accident.
 
 Most podcast hosts would kill for an unguarded celebrity moment. Jake deletes them. The impulse looks like kindness. It is kindness. But it's also architecture — the careful construction of a space so safe that people keep coming back. A Six whose operating principle is simple: make them comfortable enough that they never want to leave.
 
-In the Enneagram, your "wing" is the adjacent type that flavors your core — and Jake's 6w7 energy is what makes the show work. The Six provides the safety architecture — the editing, the protection, the loyalty. The [Seven wing](/enneagram-corner/enneagram-type-7) provides the electricity. Watch him on camera and you see it: the hyperfixations, the pop culture tangents, the manic enthusiasm that makes celebrities forget they're being recorded. He prescribes Taylor Swift songs and _Jersey Shore_ rewatches as remedies. "I have really bad OCD of everything going away," he told Rolling Stone. "So I like everything to move very fast." The speed is the Seven wing outrunning the Six's dread. "Something about female pop stars made the world go quiet," he wrote for Wondermind. Hyperfixation as comfort. Devotion to figures who can't reject you. [Taylor Swift](/personality-analysis/Taylor-Swift) can't leave you.
+In the Enneagram, your "wing" is the adjacent type that flavors your core — and Jake's 6w7 energy is what makes the show work. The Six provides the safety architecture — the editing, the protection, the loyalty. The [Seven wing](/enneagram-corner/enneagram-type-7) provides the electricity. Watch him on camera and you see it: the hyperfixations, the pop culture tangents, the manic enthusiasm that makes celebrities forget they're being recorded. He prescribes Taylor Swift songs and _Jersey Shore_ rewatches as remedies. "I have really bad OCD of everything going away," he told Rolling Stone. "So I like everything to move very fast." The speed is the Seven wing outrunning the Six's dread. "Something about female pop stars made the world go quiet," he wrote for Wondermind. Hyperfixation as comfort. Devotion to figures who can't reject you. [Taylor Swift](/personality-analysis/taylor-swift) can't leave you.
 
 When asked if celebrities come on _Therapuss_ specifically to avoid the probing questions of real journalists, he didn't flinch. "Probably!" But what mattered to him was different: "Whether you're laughing or you are feeling seen by it or you're crying... what matters to me is I'm putting out something worth watching."
 

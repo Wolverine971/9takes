@@ -5,14 +5,14 @@ persona_title: 'The Gentleman Behind the Mask'
 description: 'Tom Hiddleston turned heartbreak, empathy, and emotional usefulness into a career, then learned how costly it is to make everyone feel cared for.'
 author: 'DJ Wayne'
 date: '2026-03-24'
-loc: 'https://9takes.com/personality-analysis/Tom-Hiddleston'
+loc: 'https://9takes.com/personality-analysis/tom-hiddleston'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['movieStar', 'screen-icon']
-person: 'Tom-Hiddleston'
+person: 'tom-hiddleston'
 suggestions: ['Chris-Hemsworth', 'Taylor-Swift', 'Tom-Holland', 'Timothee-Chalamet']
 wikipedia: 'https://en.wikipedia.org/wiki/Tom_Hiddleston'
 twitter: 'twhiddleston'
@@ -117,7 +117,7 @@ Off screen, Tom Hiddleston is by all accounts one of the kindest people in the e
 
 At ACE Comic Con in Seattle, when other actors dropped out, Tom added an extra day. He stayed two hours past closing to make sure every single fan got their moment. Not rushing. Not phoning it in. Giving each person full eye contact, full presence, as though they were the only one in the room.
 
-<a href="/personality-analysis/Chris-Hemsworth">Chris Hemsworth</a> has spoken about Tom's loyalty: "He's the first to check in when something's happening in your life."
+<a href="/personality-analysis/chris-hemsworth">Chris Hemsworth</a> has spoken about Tom's loyalty: "He's the first to check in when something's happening in your life."
 
 None of this is surprising for someone with his wiring. The capacity to make others feel seen, to anticipate what a room needs, to be the connective tissue holding a group together — these aren't just nice traits. They're survival skills, refined over decades, that happen to look like warmth.
 
@@ -147,7 +147,7 @@ But the most revealing evidence came when the system broke.
 
 In June 2016, Tom Hiddleston was at the height of his career. The Night Manager had made him a household name beyond the Marvel fandom. He was the frontrunner for James Bond. Millions placed bets on his casting.
 
-Then photographs emerged of him kissing <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> on a beach in Rhode Island.
+Then photographs emerged of him kissing <a href="/personality-analysis/taylor-swift">Taylor Swift</a> on a beach in Rhode Island.
 
 What followed was a three-month media circus that would fundamentally alter Tom Hiddleston's relationship with the public and himself.
 

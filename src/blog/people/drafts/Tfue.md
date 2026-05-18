@@ -5,14 +5,14 @@ persona_title: "Gaming's Restless Fugitive"
 description: "The kid banned from video games became the best gamer alive, then tearfully quit. Inside Tfue's cycle of freedom and captivity."
 author: 'DJ Wayne'
 date: '2026-04-06'
-loc: 'https://9takes.com/personality-analysis/Tfue'
+loc: 'https://9takes.com/personality-analysis/tfue'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator', 'streamer']
-person: 'Tfue'
+person: 'tfue'
 suggestions: ['xqc', 'Kai-Cenat', 'IShowSpeed', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Tfue'
 twitter: 'Tfue'
@@ -96,7 +96,7 @@ Even Cloakzy acknowledged that the talent was innate: "Tfue is one of the best p
 
 FaZe Clan recruited him in 2018. His average viewership rocketed from roughly 10,000 to 42,000 per stream. He was 20 years old, and the kid from Indian Rocks Beach who sold TV antennas at flea markets was suddenly earning millions.
 
-But the numbers don't explain why people watched. ESPN called Tfue "the game's anti-hero": trash talking, big plays, and account bans. If [Ninja](/personality-analysis/Ninja) was Fortnite's golden boy, Tfue was the edgy counterpoint. He'd rage about aim assist, flame controller players, and rant about whatever Epic Games had just patched. Ninja himself noted the double standard: "If I talked to my teammates the way Turner talks to his, there would be Reddit threads roasting me. I'd be the most hated player on the planet."
+But the numbers don't explain why people watched. ESPN called Tfue "the game's anti-hero": trash talking, big plays, and account bans. If [Ninja](/personality-analysis/ninja) was Fortnite's golden boy, Tfue was the edgy counterpoint. He'd rage about aim assist, flame controller players, and rant about whatever Epic Games had just patched. Ninja himself noted the double standard: "If I talked to my teammates the way Turner talks to his, there would be Reddit threads roasting me. I'd be the most hated player on the planet."
 
 Yet Tfue would also ban his own viewers for being toxic to other streamers, a moderation paradox that somehow worked. People joined for the mechanical skill and stayed because Turner Tenney was genuinely, unpredictably entertaining.
 
@@ -205,7 +205,7 @@ The Kick arc matters because it's the pattern running in real time, compressed i
 
 ## Ninja allegedly tried to get him permanently banned
 
-In May 2025, Turner sat down with [Logan Paul](/personality-analysis/Logan-Paul) on the Impaulsive podcast and dropped a claim that added retroactive weight to everything: he alleged that Ninja had tried to get him permanently banned from Twitch.
+In May 2025, Turner sat down with [Logan Paul](/personality-analysis/logan-paul) on the Impaulsive podcast and dropped a claim that added retroactive weight to everything: he alleged that Ninja had tried to get him permanently banned from Twitch.
 
 "He reached out to my partnership manager and tried to get them to permanently terminate my account behind my back," Turner said. When Paul asked if Ninja saw him as a threat: "Yeah, I was a threat to him in the space. He tried to eliminate me."
 

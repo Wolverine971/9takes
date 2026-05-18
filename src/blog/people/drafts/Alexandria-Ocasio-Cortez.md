@@ -5,14 +5,14 @@ description: 'Alexandria Ocasio-Cortez turned family instability, political vigi
 persona_title: "Congress's Vigilant Insurgent"
 author: 'DJ Wayne'
 date: '2024-05-06'
-loc: 'https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez'
+loc: 'https://9takes.com/personality-analysis/alexandria-ocasio-cortez'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician', 'campaign-politician']
-person: 'Alexandria-Ocasio-Cortez'
+person: 'alexandria-ocasio-cortez'
 suggestions:
   [
     'Ryan-Grim',
@@ -291,7 +291,7 @@ Congressional hearings give you five minutes. AOC treats them like cross-examina
 
 ### The Zuckerberg Confrontation
 
-October 2019. House Financial Services Committee. <a href="/personality-analysis/Mark-Zuckerberg">Mark Zuckerberg</a> faces questions about Facebook's political ad policies.
+October 2019. House Financial Services Committee. <a href="/personality-analysis/mark-zuckerberg">Mark Zuckerberg</a> faces questions about Facebook's political ad policies.
 
 AOC gets her five minutes.
 
@@ -311,7 +311,7 @@ The administration's top immigration enforcer told her to back down. She escalat
 
 ## The Pelosi Dynamic: Type 6 Meets Type 3
 
-AOC's most complex relationship in Washington isn't with Republicans. It's with <a href="/personality-analysis/Nancy-Pelosi">Nancy Pelosi</a>.
+AOC's most complex relationship in Washington isn't with Republicans. It's with <a href="/personality-analysis/nancy-pelosi">Nancy Pelosi</a>.
 
 Their dynamic reveals something essential about how Type 6s navigate authority, especially when that authority is nominally on their side.
 
@@ -361,7 +361,7 @@ Type 6s understand strategic loyalty. You can distrust an authority figure and s
 
 When Pelosi stepped down from leadership in 2022, everything changed.
 
-**"Senior members talk to me. Chairs are nice to me. People want to work together,"** AOC told journalist [Ryan Grim](/personality-analysis/Ryan-Grim). The constant surveillance lifted.
+**"Senior members talk to me. Chairs are nice to me. People want to work together,"** AOC told journalist [Ryan Grim](/personality-analysis/ryan-grim). The constant surveillance lifted.
 
 But the détente didn't last. In December 2024, when AOC ran for Oversight Committee ranking member, Pelosi was back on the phones, lobbying for Gerry Connolly. He won, 131-84.
 
@@ -407,7 +407,7 @@ Through the Type 6 lens: build alliances for security, keep the capacity to chal
 
 ## The 2024 Election: Reading the Room
 
-<a href="/personality-analysis/Donald-Trump">Donald Trump</a> won. AOC's response: acknowledge the threat, then immediately build community.
+<a href="/personality-analysis/donald-trump">Donald Trump</a> won. AOC's response: acknowledge the threat, then immediately build community.
 
 **"I'm not here to sugarcoat what we all are about to collectively experience. But what we can do to prepare is build community."**
 

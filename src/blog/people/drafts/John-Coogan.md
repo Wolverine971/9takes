@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Relentless Reinventor"
 description: "What drives John Coogan to keep building? Explore how his Type 3 achiever personality fueled Soylent, Lucy, and TBPN's meteoric rise."
 author: 'DJ Wayne'
 date: '2026-02-06'
-loc: 'https://9takes.com/personality-analysis/John-Coogan'
+loc: 'https://9takes.com/personality-analysis/john-coogan'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
-person: 'John-Coogan'
+person: 'john-coogan'
 suggestions: ['Jordi-Hays', 'Shaan-Puri', 'Sam-Altman', 'Peter-Thiel', 'Steven-Bartlett']
 wikipedia: ''
 twitter: 'https://twitter.com/johncoogan'
@@ -118,7 +118,7 @@ But Coogan did learn something that would save him later: "I've certainly not st
 
 ### Lucy: The Second Act
 
-After leaving Soylent in 2017, Coogan and Renteln co-founded Lucy with Samy Hamdouche, their former head of R&D. He also became an Entrepreneur-in-Residence at [Peter Thiel](/personality-analysis/Peter-Thiel)'s Founders Fund, one of the most elite VC firms in the world, while simultaneously launching a new company in tobacco-free nicotine. A deliberately controversial space. They even went through Y Combinator a second time with Lucy, "a signal that YC was taking a bet on something 'controversial.'"
+After leaving Soylent in 2017, Coogan and Renteln co-founded Lucy with Samy Hamdouche, their former head of R&D. He also became an Entrepreneur-in-Residence at [Peter Thiel](/personality-analysis/peter-thiel)'s Founders Fund, one of the most elite VC firms in the world, while simultaneously launching a new company in tobacco-free nicotine. A deliberately controversial space. They even went through Y Combinator a second time with Lucy, "a signal that YC was taking a bet on something 'controversial.'"
 
 The strategic reasoning ran deeper than contrarianism. Soylent's fatal flaw was that nutritional supplements have _"very, very few barriers to entry,"_ and every MBA grad could launch a competitor. There was a "DTC industrial complex" that popped up with Dollar Shave Club and Warby Parker, and every new protein shake was fighting for the same influencer deals and the same Amazon shelf space. Nicotine products, now requiring **FDA approval costing "millions to hundreds of millions of dollars,"** created a regulatory moat that was closing fast. "Literally all of our direct competitors above us are owned by big tobacco," Coogan noted. "We're the one company in the space that's _not_ big tobacco."
 
@@ -172,7 +172,7 @@ What makes TBPN work is the complementary partnership. "I think John loves techn
 
 But the real chemistry is in how they sharpen each other. Jordi described it bluntly: "John's one of the few people, certainly at the top of the list, where when I talk about the things that I'm good at, he is _consistently bringing ideas that are better than my own._" They never seem to run out of things to say. If one of them is driving somewhere on a Friday, the other will ride along just because "I didn't get quite enough time." Coogan writes the newsletter **for Jordi, not the audience**: "I'm pitching an idea to Jordi. I'm not trying to find something that will make you happy. I'm actually trying to make something that will make you tee off."
 
-Within months: Mark Zuckerberg. <a href="/personality-analysis/Sam-Altman">Sam Altman</a>. Mark Cuban. Satya Nadella. The New York Times called them "SportsCenter for the LinkedIn crowd." A partnership with the NYSE. Nearly $5 million in projected 2025 revenue. Ad inventory for 2026 almost sold out.
+Within months: Mark Zuckerberg. <a href="/personality-analysis/sam-altman">Sam Altman</a>. Mark Cuban. Satya Nadella. The New York Times called them "SportsCenter for the LinkedIn crowd." A partnership with the NYSE. Nearly $5 million in projected 2025 revenue. Ad inventory for 2026 almost sold out.
 
 Coogan is deliberate about what TBPN is _not_ chasing: "We make content for 200,000 people in the world. These are people who run companies, who invest, who work at the most important tech companies." And he's deliberate about where the creative ideas come from: "I think technology is too inspired by technology." They pull references from F1 sponsorship models, Hollywood cinematography, fashion archives, and Aaron Sorkin shows. "We found maybe one idea within tech to make the show better this year, and we found hundreds from outside of tech."
 

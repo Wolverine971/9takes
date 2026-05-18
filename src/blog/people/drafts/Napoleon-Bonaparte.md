@@ -5,14 +5,14 @@ persona_title: "History's Restless Conqueror"
 description: "Inside Napoleon's psychology: the Corsican outsider who conquered Europe but couldn't conquer his need to be loved."
 author: 'DJ Wayne'
 date: '2026-03-10'
-loc: 'https://9takes.com/personality-analysis/Napoleon-Bonaparte'
+loc: 'https://9takes.com/personality-analysis/napoleon-bonaparte'
 lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 8
 type: ['historical', 'historical-leader']
-person: 'Napoleon-Bonaparte'
+person: 'napoleon-bonaparte'
 suggestions: ['Julius-Caesar', 'Winston-Churchill', 'Vladimir-Putin', 'Joseph-Stalin']
 wikipedia: 'https://en.wikipedia.org/wiki/Napoleon'
 
@@ -269,7 +269,7 @@ Napoleon listened. He was, by Caulaincourt's account, genuinely moved — showin
 
 He heard the prophecy. He felt its weight. And he overrode it through sheer force of will. On June 23, 1812, as the Grande Armée massed at the Niemen River, Napoleon told Caulaincourt: "In less than two months' time Russia will be suing for peace."
 
-Six hundred thousand men marched east. Fewer than one hundred thousand came back. The campaign lasted five months, not two. [Winston Churchill](/personality-analysis/Winston-Churchill), who carried a similar compulsive intensity, once observed that the hardest thing in war was knowing when to stop — but Churchill operated within a democracy that forced compromise. Napoleon had no such constraint. He was the system. And the system had no brake.
+Six hundred thousand men marched east. Fewer than one hundred thousand came back. The campaign lasted five months, not two. [Winston Churchill](/personality-analysis/winston-churchill), who carried a similar compulsive intensity, once observed that the hardest thing in war was knowing when to stop — but Churchill operated within a democracy that forced compromise. Napoleon had no such constraint. He was the system. And the system had no brake.
 
 "Alas, I have dared only too much already," he admitted after Waterloo. The closest he ever came to naming the pattern.
 

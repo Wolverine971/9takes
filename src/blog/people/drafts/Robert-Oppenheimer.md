@@ -5,14 +5,14 @@ persona_title: "Physics' Tragic Romantic"
 description: "Oppenheimer didn't just build the atomic bomb — he became it. How a hunger for depth and meaning drove the 20th century's most haunted genius."
 author: 'DJ Wayne'
 date: '2026-04-15'
-loc: 'https://9takes.com/personality-analysis/Robert-Oppenheimer'
+loc: 'https://9takes.com/personality-analysis/robert-oppenheimer'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['historical', 'historical-scientist']
-person: 'Robert-Oppenheimer'
+person: 'robert-oppenheimer'
 suggestions: ['Nikola-Tesla', 'Noam-Chomsky', 'Peter-Thiel', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/J._Robert_Oppenheimer'
 twitter: null

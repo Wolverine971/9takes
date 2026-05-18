@@ -5,14 +5,14 @@ persona_title: "Cinema's Restless Apprentice"
 description: "Inside Jacob Elordi's psychology: how an unsettled kid from Brisbane became Hollywood's most reluctant heartthrob. An Enneagram Type 4 analysis."
 author: 'DJ Wayne'
 date: '2026-02-11'
-loc: 'https://9takes.com/personality-analysis/Jacob-Elordi'
+loc: 'https://9takes.com/personality-analysis/jacob-elordi'
 lastmod: '2026-02-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
 type: ['movieStar', 'newMovieStar', 'rising-star']
-person: 'Jacob-Elordi'
+person: 'jacob-elordi'
 suggestions: ['Timothee-Chalamet', 'Robert-Pattinson', 'Zendaya', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Jacob_Elordi'
 twitter: ''
@@ -97,7 +97,7 @@ He tells one audition story that reveals everything about how he operates. Asked
 
 That's not arrogance. That's a person who would rather lose the opportunity than fake their way through it. For a Four, inauthenticity isn't just uncomfortable. It's existentially threatening.
 
-He got _Euphoria_ anyway, starring alongside [Zendaya](/personality-analysis/Zendaya), who would become one of his generation's most recognized faces. And he describes it as a turning point: the first role that demanded everything. "How much can I study? How much can I learn?" he remembers thinking. Playing Nate Jacobs, a violent, manipulative, deeply damaged character, gave him permission to be the actor he'd dreamed of becoming. Not a hero. Not a heartthrob. Something more complicated and more honest.
+He got _Euphoria_ anyway, starring alongside [Zendaya](/personality-analysis/zendaya), who would become one of his generation's most recognized faces. And he describes it as a turning point: the first role that demanded everything. "How much can I study? How much can I learn?" he remembers thinking. Playing Nate Jacobs, a violent, manipulative, deeply damaged character, gave him permission to be the actor he'd dreamed of becoming. Not a hero. Not a heartthrob. Something more complicated and more honest.
 
 ## "You're Dead Inside"
 
@@ -171,7 +171,7 @@ His process isn't "be intense." It's: build a world model, strip away everything
 
 The private Jacob Elordi is almost aggressively unglamorous. And that privacy extends to everything, not just his work, but his relationships.
 
-He dated [Zendaya](/personality-analysis/Zendaya) during _Euphoria_ but publicly called her "like my sister." Not silence, but active denial. That's a specific kind of privacy-guarding. Silence leaves room for interpretation. Denial tries to kill the narrative entirely. For a Four, the logic makes sense: if the public gets to name and define the relationship, it stops being yours. The denial isn't dishonesty so much as a refusal to let the most intimate part of your inner life become content. He dated model Kaia Gerber for about a year; they dressed as Elvis and Priscilla for Halloween, a detail that feels almost too on-the-nose for a man who would later play Elvis. In every case, he says almost nothing. The relationships exist in public only through paparazzi photos and unnamed sources.
+He dated [Zendaya](/personality-analysis/zendaya) during _Euphoria_ but publicly called her "like my sister." Not silence, but active denial. That's a specific kind of privacy-guarding. Silence leaves room for interpretation. Denial tries to kill the narrative entirely. For a Four, the logic makes sense: if the public gets to name and define the relationship, it stops being yours. The denial isn't dishonesty so much as a refusal to let the most intimate part of your inner life become content. He dated model Kaia Gerber for about a year; they dressed as Elvis and Priscilla for Halloween, a detail that feels almost too on-the-nose for a man who would later play Elvis. In every case, he says almost nothing. The relationships exist in public only through paparazzi photos and unnamed sources.
 
 He paints, but won't discuss what he paints, because he worries that talking about it would "jeopardize what he gets out of it." He photographs everything on set, a habit that started after watching a documentary about Heath Ledger told entirely through Ledger's own photos and Super 8 footage. He reads voraciously: Sartre, Beckett, Joan Didion. He writes in Moleskine journals. He once co-wrote a one-act play. This is the 4w5 wing in daily operation: the emotional intensity turned inward, channeled through intellectual accumulation and private creative ritual. He doesn't just feel things. He builds private systems for processing what he feels.
 
@@ -205,7 +205,7 @@ He grounds himself through small, ordinary things: his dogs, his collections of 
 
 "Talk to someone, look them in the eye and listen," he once said. "Really listen." For a man who fears becoming an island, who knows that isolation is the occupational hazard of his specific kind of fame, that's not advice. It's a survival strategy.
 
-His dual Golden Globe nominations in 2025, for _Frankenstein_ and _The Narrow Road to the Deep North_, marked a turning point. Peers like [Timothée Chalamet](/personality-analysis/Timothee-Chalamet) had already navigated a similar path from youthful fame to serious recognition, but Elordi's route was more combative, more burned-bridge. The kid who felt "corny" about his early work had been recognized for the kind of acting he'd always dreamed of doing.
+His dual Golden Globe nominations in 2025, for _Frankenstein_ and _The Narrow Road to the Deep North_, marked a turning point. Peers like [Timothée Chalamet](/personality-analysis/timothee-chalamet) had already navigated a similar path from youthful fame to serious recognition, but Elordi's route was more combative, more burned-bridge. The kid who felt "corny" about his early work had been recognized for the kind of acting he'd always dreamed of doing.
 
 But if you expected triumph, you'd be wrong. About the recognition, he said: "There will probably always be an impostor element to acting for me."
 

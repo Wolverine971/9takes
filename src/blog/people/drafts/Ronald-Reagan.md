@@ -5,14 +5,14 @@ description: "He joked with surgeons while a bullet sat near his heart. Inside R
 persona_title: "America's Smiling Sphinx"
 author: 'DJ Wayne'
 date: '2025-04-08'
-loc: 'https://9takes.com/personality-analysis/Ronald-Reagan'
+loc: 'https://9takes.com/personality-analysis/ronald-reagan'
 lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician', 'modern-leader']
-person: 'Ronald-Reagan'
+person: 'ronald-reagan'
 suggestions:
   ['George-H-W-Bush', 'Donald-Trump', 'Abraham-Lincoln', 'Barack-Obama', 'Martin-Luther-King-Jr']
 wikipedia: 'https://en.wikipedia.org/wiki/Ronald_Reagan'
@@ -95,7 +95,7 @@ Here is the central puzzle: he was the warmest man in any room, and no one — i
 
 Reagan's specific flavor is 9w8. The Eight wing brings assertiveness and willingness to use power you wouldn't see in a 9w1 (which produces more principled idealism — more Jimmy Carter). Reagan was comfortable with power. He could fire thousands of people and sleep fine. That's Eight energy beneath Nine's calm surface.
 
-The Enneagram Institute lists Reagan among their famous Type 9 examples, alongside [Abraham Lincoln](/personality-analysis/Abraham-Lincoln) and Dwight Eisenhower — leaders known for stabilizing presence rather than driving force.
+The Enneagram Institute lists Reagan among their famous Type 9 examples, alongside [Abraham Lincoln](/personality-analysis/abraham-lincoln) and Dwight Eisenhower — leaders known for stabilizing presence rather than driving force.
 
 As his longtime aide Michael Deaver observed:
 

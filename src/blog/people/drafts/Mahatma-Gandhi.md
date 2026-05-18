@@ -5,14 +5,14 @@ persona_title: 'The Self-Experimenting Saint'
 description: 'Mahatma Gandhi turned his own life into a moral laboratory. The experiments freed a subcontinent and consumed everyone closest to him at home.'
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Mahatma-Gandhi'
+loc: 'https://9takes.com/personality-analysis/mahatma-gandhi'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
 type: ['historical', 'politician', 'activist', 'movement-leader']
-person: 'Mahatma-Gandhi'
+person: 'mahatma-gandhi'
 suggestions: ['Martin-Luther-King-Jr', 'Greta-Thunberg', 'Bernie-Sanders', 'Noam-Chomsky']
 wikipedia: 'https://en.wikipedia.org/wiki/Mahatma_Gandhi'
 twitter: ''
@@ -138,7 +138,7 @@ In September 1896, writing in defense of Indian merchants in Natal, he objected 
 
 These are not edits. These are signed essays. The man who would later become the global symbol of human equality was, at thirty-three, asking the British Empire to file Indians one shelf above Africans rather than next to them.
 
-Twenty years later he reversed himself almost completely. By 1913 he was working with the African leader John Dube. By the 1930s he was writing about racial brotherhood in language [Martin Luther King Jr.](/personality-analysis/Martin-Luther-King-Jr) would later quote from directly, and the anti-apartheid movement would draw from for forty years. The reversal was not a press release. It was the result of two decades of self-examination of a kind almost no other politician of his stature has produced on the page.
+Twenty years later he reversed himself almost completely. By 1913 he was working with the African leader John Dube. By the 1930s he was writing about racial brotherhood in language [Martin Luther King Jr.](/personality-analysis/martin-luther-king-jr) would later quote from directly, and the anti-apartheid movement would draw from for forty years. The reversal was not a press release. It was the result of two decades of self-examination of a kind almost no other politician of his stature has produced on the page.
 
 This is the move that gets missed when people typecast Gandhi as a Type 9 peacemaker. A peacemaker would have buried the early letters, or lost them, or never quite gotten around to them. Gandhi reprinted them. He let them stand in the Collected Works and corrected himself in public, repeatedly, across decades. The inner critic kept auditing the prior self.
 
@@ -246,7 +246,7 @@ So did the experiments on the women in his ashram. So did the refusal of penicil
 
 The Type 1 inner critic is not a moral failing. It is an engine. Gandhi's was the most sustained, the most documented, and the most public version of that engine in the twentieth century. The empire it broke was real. The household it broke was also real. The movement of Dalits it tried to enlist over their own objection was real, and is still arguing.
 
-The third thing the engine did was outlive him. [Martin Luther King Jr.](/personality-analysis/Martin-Luther-King-Jr) studied him in seminary and carried satyagraha into Birmingham and Selma. Nelson Mandela read him in a prison library. Cesar Chavez fasted in the California vineyards on what he openly called the Gandhi pattern. The Dalai Lama still calls him a teacher. The method, when it left the man, did things the man could not.
+The third thing the engine did was outlive him. [Martin Luther King Jr.](/personality-analysis/martin-luther-king-jr) studied him in seminary and carried satyagraha into Birmingham and Selma. Nelson Mandela read him in a prison library. Cesar Chavez fasted in the California vineyards on what he openly called the Gandhi pattern. The Dalai Lama still calls him a teacher. The method, when it left the man, did things the man could not.
 
 On 18 June 1948, four months after his father was assassinated, Harilal Gandhi died in a Bombay charity ward. Tuberculosis, malnutrition, drink. He was fifty-nine. He was buried as a stranger.
 

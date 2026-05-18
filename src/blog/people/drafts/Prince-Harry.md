@@ -5,14 +5,14 @@ persona_title: 'The Spare Who Burned the Manual'
 description: "Harry's contradictions make sense once you see the Type 6 logic underneath them: trust slowly, protect the inner circle, and keep fighting the threat forever."
 author: 'DJ Wayne'
 date: '2024-09-29'
-loc: 'https://9takes.com/personality-analysis/Prince-Harry'
+loc: 'https://9takes.com/personality-analysis/prince-harry'
 lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
 type: ['politician', 'royalty']
-person: 'Prince-Harry'
+person: 'prince-harry'
 suggestions: ['Meghan-Markle', 'Princess-Diana', 'Hillary-Clinton', 'Joe-Biden', 'Oprah-Winfrey']
 wikipedia: ''
 twitter: ''
@@ -97,7 +97,7 @@ This is Harry at his best: building institutions where vulnerability is permitte
 
 ## How He Chose Meghan — and What That Choice Reveals
 
-Harry navigates life through a small circle of trusted allies. Friendships like Charlie van Straubenzee and Tom Inskip date back to his schooldays. But his marriage to **<a href="/personality-analysis/Meghan-Markle">Meghan Markle</a>**, a [Type 2 Helper](/enneagram-corner/enneagram-type-2), reveals his psychology most clearly.
+Harry navigates life through a small circle of trusted allies. Friendships like Charlie van Straubenzee and Tom Inskip date back to his schooldays. But his marriage to **<a href="/personality-analysis/meghan-markle">Meghan Markle</a>**, a [Type 2 Helper](/enneagram-corner/enneagram-type-2), reveals his psychology most clearly.
 
 _"I will not be bullied into playing a game that killed my mum."_
 

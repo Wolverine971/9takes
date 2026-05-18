@@ -5,14 +5,14 @@ persona_title: "Hollywood's Restless Performer"
 description: 'Why does Channing Tatum keep reinventing himself? Inside the ADHD, the stripping, the imposter syndrome — and the fear that drives it all.'
 author: 'DJ Wayne'
 date: '2026-04-10'
-loc: 'https://9takes.com/personality-analysis/Channing-Tatum'
+loc: 'https://9takes.com/personality-analysis/channing-tatum'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['movieStar', 'screen-icon']
-person: 'Channing-Tatum'
+person: 'channing-tatum'
 suggestions: ['Ryan-Reynolds', 'Leonardo-DiCaprio', 'Brad-Pitt', 'Dwayne-Johnson']
 wikipedia: 'https://en.wikipedia.org/wiki/Channing_Tatum'
 twitter: 'channingtatum'
@@ -193,7 +193,7 @@ His marriage to Jenna Dewan — the woman he met while dancing in Step Up, the f
 
 _We told ourselves a story._ This is how Sevens process relationships: the story matters more than the reality. The narrative — the possibility of what it could be — carries them past the point where others would have confronted the truth. Because confronting the truth means sitting in the pain. And sitting in the pain is the one thing the engine was built to prevent.
 
-He dated singer Jessie J briefly. Then came <a href="/personality-analysis/Zoe-Kravitz">Zoë Kravitz</a> — three years together, an engagement, and a creative partnership that produced one of the more uncomfortable films of 2024. In Blink Twice, Kravitz's directorial debut, Tatum played Slater King: a charming tech billionaire who lures women to his private island, where the charm curdles into something predatory. Tatum let his then-fiancée direct him as a villain. He surrendered the likability that had defined his entire career. The film landed a 75% on Rotten Tomatoes and established Kravitz as a filmmaker.
+He dated singer Jessie J briefly. Then came <a href="/personality-analysis/zoe-kravitz">Zoë Kravitz</a> — three years together, an engagement, and a creative partnership that produced one of the more uncomfortable films of 2024. In Blink Twice, Kravitz's directorial debut, Tatum played Slater King: a charming tech billionaire who lures women to his private island, where the charm curdles into something predatory. Tatum let his then-fiancée direct him as a villain. He surrendered the likability that had defined his entire career. The film landed a 75% on Rotten Tomatoes and established Kravitz as a filmmaker.
 
 They split quietly in late 2024. Reports said they "grew apart" and "realized they're at different stages in life."
 

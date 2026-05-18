@@ -5,14 +5,14 @@ persona_title: "Silicon Valley's Serial Escape Artist"
 description: 'How fear of confinement drove Paul Graham from philosophy to painting to startups to essays, and what it cost him along the way.'
 author: 'DJ Wayne'
 date: '2024-07-04'
-loc: 'https://9takes.com/personality-analysis/Paul-Graham'
+loc: 'https://9takes.com/personality-analysis/paul-graham'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['techie', 'investor']
-person: 'Paul-Graham'
+person: 'paul-graham'
 suggestions: ['Sam-Altman', 'Michael-Seibel', 'Dalton-Caldwell', 'Garry-Tan', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
 twitter: 'https://twitter.com/paulg'
@@ -300,7 +300,7 @@ Then he took flying lessons in a Cessna. The result: **"Still afraid of getting 
 
 That's not a quirky anecdote. That's the whole psychology in miniature. He'll face any fear if he's in control. What paralyzes him is being a passenger. Not the height. The helplessness.
 
-The same pattern runs through everything. He couldn't be an employee because working hours "seemed unnatural." He couldn't stay at Yahoo after the acquisition, since it was someone else's company, someone else's rules. He couldn't run YC once it outgrew his capacity to shape it personally. Even his Twitter combativeness comes from the same place: the willingness to call Trump "a crook," to confront [Elon Musk](/personality-analysis/Elon-Musk) publicly about link deprioritization, to double down on the "delve" controversy when Nigerian users pushed back. He'd rather be wrong loudly than silently compliant.
+The same pattern runs through everything. He couldn't be an employee because working hours "seemed unnatural." He couldn't stay at Yahoo after the acquisition, since it was someone else's company, someone else's rules. He couldn't run YC once it outgrew his capacity to shape it personally. Even his Twitter combativeness comes from the same place: the willingness to call Trump "a crook," to confront [Elon Musk](/personality-analysis/elon-musk) publicly about link deprioritization, to double down on the "delve" controversy when Nigerian users pushed back. He'd rather be wrong loudly than silently compliant.
 
 In September 2025, he posted a photo of his child on X. Racist and hateful replies flooded in. He deleted the photo and posted:
 
@@ -350,7 +350,7 @@ He warns that fierceness can curdle into **"bitterness"** or becoming an **"inte
 
 Graham's reaction: **"This seemed strange advice, because YC was doing great."** Then it landed. "Either YC was my life's work or I'd have to leave eventually. And it wasn't, so I would."
 
-In February 2014, he handed YC to [Sam Altman](/personality-analysis/Sam-Altman), a 28-year-old who'd been in YC's very first batch at 19. Graham had been watching him for nearly a decade. His assessment, written years earlier: **"You could parachute him into an island full of cannibals and come back in five years and he'd be the king."** On questions of strategy, Graham admitted he'd ask himself **"What would Sama do?"**, putting Altman in the same sentence as Steve Jobs.
+In February 2014, he handed YC to [Sam Altman](/personality-analysis/sam-altman), a 28-year-old who'd been in YC's very first batch at 19. Graham had been watching him for nearly a decade. His assessment, written years earlier: **"You could parachute him into an island full of cannibals and come back in five years and he'd be the king."** On questions of strategy, Graham admitted he'd ask himself **"What would Sama do?"**, putting Altman in the same sentence as Steve Jobs.
 
 The admission that YC, the institution worth $600 billion, the thing his name will be attached to in every obituary, _wasn't his life's work_ tells you everything. Most people would cling to that legacy. Graham heard the cage door starting to close and walked out.
 

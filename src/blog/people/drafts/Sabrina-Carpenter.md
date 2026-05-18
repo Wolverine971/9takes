@@ -5,14 +5,14 @@ description: 'Her dad built a studio in the basement. Sabrina Carpenter has been
 persona_title: "Pop's Winking Machine"
 author: 'DJ Wayne'
 date: '2024-08-23'
-loc: 'https://9takes.com/personality-analysis/Sabrina-Carpenter'
+loc: 'https://9takes.com/personality-analysis/sabrina-carpenter'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['musician', 'pop-star']
-person: 'Sabrina-Carpenter'
+person: 'sabrina-carpenter'
 suggestions: ['Taylor-Swift', 'Chappell-Roan', 'Ariana-Grande', 'Olivia-Rodrigo', 'Madison-Beer']
 wikipedia: 'https://en.wikipedia.org/wiki/Sabrina_Carpenter'
 twitter: 'SabrinaAnnLynn'
@@ -79,7 +79,7 @@ Being homeschooled gave Sabrina flexibility, but it also meant she was never rea
 
 The sarcasm came from home too. "My parents are both extremely sarcastic," she told Vogue Italia. "Anytime I didn't really want to be nice and please people, I could use sarcasm as a tactic of being transparent, and I didn't come across as rude or bitchy." The humor that would later define her brand wasn't learned in Hollywood. It was inherited at the dinner table.
 
-By 10, she was uploading covers to YouTube: Adele, [Taylor Swift](/personality-analysis/Taylor-Swift), Christina Aguilera, even Ozzy Osbourne and Guns N' Roses. The range was deliberate. She was already learning that versatility pays.
+By 10, she was uploading covers to YouTube: Adele, [Taylor Swift](/personality-analysis/taylor-swift), Christina Aguilera, even Ozzy Osbourne and Guns N' Roses. The range was deliberate. She was already learning that versatility pays.
 
 ## From Disney Cage to Pop Reinvention
 
@@ -215,7 +215,7 @@ Off-stage? "I dress like a little boy for most of the day, if I'm trying to hide
 
 ## The Fan Relationship: Intimacy by Design
 
-Every night on the Short n' Sweet Tour, Carpenter "arrests" someone in the crowd for "being too hot," complete with fuzzy pink handcuffs and a mugshot-style graphic on the jumbotron. The targets range from celebrities (Nicole Kidman in Nashville, [Anne Hathaway](/personality-analysis/Anne-Hathaway) in New York, Miss Piggy on closing night) to random fans who go viral.
+Every night on the Short n' Sweet Tour, Carpenter "arrests" someone in the crowd for "being too hot," complete with fuzzy pink handcuffs and a mugshot-style graphic on the jumbotron. The targets range from celebrities (Nicole Kidman in Nashville, [Anne Hathaway](/personality-analysis/anne-hathaway) in New York, Miss Piggy on closing night) to random fans who go viral.
 
 In Austin, she full-on flirted with a fan who blew up on TikTok. At one European stop, a fan said he was from Liverpool and she replied: "I'm gonna marry you, is that cool?"
 
@@ -229,7 +229,7 @@ That's the healthy Type 3 paradox: the performance creates the conditions for au
 
 ### The Love Triangle That Wouldn't Die
 
-In 2021, <a href="/personality-analysis/Olivia-Rodrigo">Olivia Rodrigo's</a> "Driver's License" sparked speculation about a love triangle involving Rodrigo, Joshua Bassett, and Carpenter. Sabrina became "the other woman" in the public imagination before anyone confirmed anything.
+In 2021, <a href="/personality-analysis/olivia-rodrigo">Olivia Rodrigo's</a> "Driver's License" sparked speculation about a love triangle involving Rodrigo, Joshua Bassett, and Carpenter. Sabrina became "the other woman" in the public imagination before anyone confirmed anything.
 
 Her response was telling. She released "Skin," addressing the situation through music rather than social media. Then she went quiet, redirecting energy to her work.
 
@@ -245,7 +245,7 @@ Where other artists issue Notes App apologies, Carpenter metabolizes controversy
 
 ### The White House Attack
 
-In December 2025, the Trump administration used her song "Juno" in a TikTok video showing ICE agents detaining people. Carpenter, who had endorsed <a href="/personality-analysis/Kamala-Harris">Kamala Harris</a>, responded immediately: "This video is evil and disgusting. Do not ever involve me or my music to benefit your inhumane agenda."
+In December 2025, the Trump administration used her song "Juno" in a TikTok video showing ICE agents detaining people. Carpenter, who had endorsed <a href="/personality-analysis/kamala-harris">Kamala Harris</a>, responded immediately: "This video is evil and disgusting. Do not ever involve me or my music to benefit your inhumane agenda."
 
 The White House escalated, posting a manipulated clip from her SNL appearance that made her appear to call a cast member "illegal" instead of "hot." Both videos were quietly deleted after backlash.
 

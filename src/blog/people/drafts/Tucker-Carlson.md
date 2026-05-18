@@ -4,14 +4,14 @@ meta_title: "Why Tucker Carlson Doesn't Trust Anyone (His Psychology Explained)"
 description: "What makes Tucker Carlson question everything? Childhood abandonment created America's most skeptical broadcaster. Here's why millions trust him."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Tucker-Carlson'
+loc: 'https://9takes.com/personality-analysis/tucker-carlson'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
 type: ['politician', 'campaign-politician']
-person: 'Tucker-Carlson'
+person: 'tucker-carlson'
 persona_title: "Media's Contrarian Watchdog"
 suggestions: ['Donald-Trump', 'JD-Vance', 'Joe-Rogan', 'Vladimir-Putin']
 wikipedia: 'https://en.wikipedia.org/wiki/Tucker_Carlson'
@@ -216,7 +216,7 @@ In 2025, Tucker Carlson wields significant influence in American politics withou
 
 ### Personnel Decisions
 
-Tucker and Donald Trump Jr. played key roles in persuading [Donald Trump](/personality-analysis/Donald-Trump) to choose [JD Vance](/personality-analysis/JD-Vance) as his running mate. Tucker's son Buckley now serves as Vance's deputy press secretary.
+Tucker and Donald Trump Jr. played key roles in persuading [Donald Trump](/personality-analysis/donald-trump) to choose [JD Vance](/personality-analysis/jd-vance) as his running mate. Tucker's son Buckley now serves as Vance's deputy press secretary.
 
 They also influenced who wouldn't serve: former Secretary of State Michael Pompeo and former UN Ambassador Nikki Haley were passed over. Carlson and Trump Jr. reportedly viewed them as too establishment, particularly on Ukraine.
 
@@ -236,7 +236,7 @@ This willingness to question even allies distinguishes counter-phobic 6s from me
 
 ## The Putin Interview: Bravery, Propaganda, or Both
 
-In February 2024, Tucker did something no Western journalist had done since Russia invaded Ukraine: he sat down with [Vladimir Putin](/personality-analysis/Vladimir-Putin) for over two hours. The interview generated 215.9 million views on X.
+In February 2024, Tucker did something no Western journalist had done since Russia invaded Ukraine: he sat down with [Vladimir Putin](/personality-analysis/vladimir-putin) for over two hours. The interview generated 215.9 million views on X.
 
 The reading depends entirely on where you sit.
 

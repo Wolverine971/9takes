@@ -5,14 +5,14 @@ persona_title: "The Internet's Warm-Hearted Party Girl"
 description: 'Tara Yummy was called fake in high school for being too nice. Inside the personality that walked into LA parties alone and built a career out of warmth.'
 author: 'DJ Wayne'
 date: '2026-02-17'
-loc: 'https://9takes.com/personality-analysis/Tara-Yummy'
+loc: 'https://9takes.com/personality-analysis/tara-yummy'
 lastmod: '2026-02-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
 type: ['creator', 'influencer', 'lifestyle-builder']
-person: 'Tara-Yummy'
+person: 'tara-yummy'
 suggestions: ['Addison-Rae', 'Alix-Earle', 'Emma-Chamberlain', 'Paris-Hilton']
 wikipedia: ''
 twitter: 'tarayummy'
@@ -115,7 +115,7 @@ The series deserves its own moment because it reveals how her mind works.
 
 The concept is deliberately stripped down: two people in a car, no crew, no script, no formal questions. "We're not going to do an interview," she told Our Era Magazine. "None of them are pressing. We're just yapping."
 
-The Vinnie Hacker episode pulled over 3 million views largely because the comfort she created was so palpable that fans read genuine chemistry into every glance. The Chris Sturniolo and [Alix Earle](/personality-analysis/Alix-Earle) episodes landed the same way. She makes guests feel like they're hanging out with a friend, not performing for a camera.
+The Vinnie Hacker episode pulled over 3 million views largely because the comfort she created was so palpable that fans read genuine chemistry into every glance. The Chris Sturniolo and [Alix Earle](/personality-analysis/alix-earle) episodes landed the same way. She makes guests feel like they're hanging out with a friend, not performing for a camera.
 
 Her analytics showed audiences valued "conversation and chemistry" most, not spectacle. She was right. But what her analytics couldn't measure was why the chemistry happened: it's the same instinct that carried her through those LA parties. Remove every barrier. Make the other person the center of attention. Let the connection do the work.
 

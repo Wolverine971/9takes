@@ -5,14 +5,14 @@ persona_title: "Cinema's Whispering Cowboy"
 description: "Why does the actor who built Hollywood's hardest tough guys whisper instead of yelling 'Action' on set? Inside Clint Eastwood's Type 9 contradiction."
 author: 'DJ Wayne'
 date: '2026-05-06'
-loc: 'https://9takes.com/personality-analysis/Clint-Eastwood'
+loc: 'https://9takes.com/personality-analysis/clint-eastwood'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '9'
 type: ['movieStar', 'celebrity', 'screen-icon']
-person: 'Clint-Eastwood'
+person: 'clint-eastwood'
 suggestions: ['Morgan-Freeman', 'Tom-Hanks', 'Arnold-Schwarzenegger', 'Keanu-Reeves']
 wikipedia: 'https://en.wikipedia.org/wiki/Clint_Eastwood'
 twitter: ''
@@ -156,7 +156,7 @@ It wasn't laziness. It was philosophy. Eastwood doesn't say "Action" because the
 
 So instead, low: *"Go ahead."* Or: *"OK, anytime."* Or nothing at all. Laura Linney has compared his sets to walking into a church. Often he doesn't shoot a second take. The actors take the take they have.
 
-[Morgan Freeman](/personality-analysis/Morgan-Freeman), who has worked with him on both *Unforgiven* and *Million Dollar Baby*, has the most precise description of what Eastwood does behind the monitor:
+[Morgan Freeman](/personality-analysis/morgan-freeman), who has worked with him on both *Unforgiven* and *Million Dollar Baby*, has the most precise description of what Eastwood does behind the monitor:
 
 > "He is so enabling. He is so out of your way as an actor and he likes to watch actors play. He expects you to know what you are doing and he's going to take two giant steps back and let you do it."  
 > — Morgan Freeman, on Clint Eastwood

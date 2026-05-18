@@ -5,14 +5,14 @@ description: "Anne Hathaway's Enneagram Type 1 psychology: the inner critic, the
 persona_title: 'The Actress They Hated for Trying'
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: 'https://9takes.com/personality-analysis/Anne-Hathaway'
+loc: 'https://9takes.com/personality-analysis/anne-hathaway'
 lastmod: '2026-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['movieStar', 'screen-icon']
-person: 'Anne-Hathaway'
+person: 'anne-hathaway'
 suggestions: ['Natalie-Portman', 'Emma-Watson', 'Blake-Lively', 'Meryl-Streep']
 wikipedia: ''
 twitter: ''
@@ -127,7 +127,7 @@ For any personality type, public ridicule hurts. But being called _fake_ while t
 
 "I felt shocked and slapped and embarrassed," she told Harper's Bazaar. "I was still partly Fantine. I was still identifying with being a victim."
 
-Her co-star <a href="/personality-analysis/Hugh-Jackman">Hugh Jackman</a> defended her: "She is the most dedicated, hardworking actress I've worked with. She's brilliant but she's also kind."
+Her co-star <a href="/personality-analysis/hugh-jackman">Hugh Jackman</a> defended her: "She is the most dedicated, hardworking actress I've worked with. She's brilliant but she's also kind."
 
 It didn't help. Anne retreated — not from work, but from visibility. She kept filming, taking quieter roles: a small cameo in _Don Jon_, voice work for a documentary. But she stopped doing press, stopped doing magazine covers, stopped showing up on talk shows. For roughly a year, she adopted what one writer called "the Milford School of crisis P.R.: be neither seen nor heard."
 
@@ -151,7 +151,7 @@ She said this matter-of-factly in a 2024 Women's Wear Daily interview. An Oscar-
 
 Nolan cast her in _Interstellar_ (2014) when others wouldn't touch her. "I don't know if he knew that he was backing me at the time, but it had that effect. And my career did not lose momentum the way it could have if he hadn't backed me."
 
-Now she's starring in her third Nolan film, _The Odyssey_ (2026), playing Penelope opposite Tom Holland, [Zendaya](/personality-analysis/Zendaya), and Robert Pattinson. "It fills me with so much joy... I love Chris and Emma Nolan so much, and to be invited into their world is one of the best places you can find yourself."
+Now she's starring in her third Nolan film, _The Odyssey_ (2026), playing Penelope opposite Tom Holland, [Zendaya](/personality-analysis/zendaya), and Robert Pattinson. "It fills me with so much joy... I love Chris and Emma Nolan so much, and to be invited into their world is one of the best places you can find yourself."
 
 Being repeatedly chosen by one of cinema's most acclaimed directors — that's not a career milestone. For someone who felt rejected by the world for trying too hard, it's proof that earnestness and dedication were virtues, not flaws.
 
@@ -245,7 +245,7 @@ The woman who had spent her career preparing so thoroughly that anxiety couldn't
 
 Anne's 2026 isn't just a career peak — it's a showcase of what a mature Type 1 looks like when principle turns outward instead of inward.
 
-On the set of _The Devil Wears Prada 2_, she and <a href="/personality-analysis/Meryl-Streep">Meryl Streep</a> attended Milan Fashion Week for research. Both were struck by how thin the models were.
+On the set of _The Devil Wears Prada 2_, she and <a href="/personality-analysis/meryl-streep">Meryl Streep</a> attended Milan Fashion Week for research. Both were struck by how thin the models were.
 
 "I thought that all had been addressed years ago," Streep told Harper's Bazaar. "Annie clocked it too. And she made a beeline to the producers about it, securing promises that the models in the show that we were putting together for our film would not be so skeletal!"
 

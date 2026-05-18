@@ -5,14 +5,14 @@ persona_title: "Pop's Restless Daredevil"
 description: "What drives Benson Boone's backflips, sobriety, and relentless energy? An Enneagram Type 7 analysis of the Beautiful Things singer."
 author: 'DJ Wayne'
 date: '2026-02-06'
-loc: 'https://9takes.com/personality-analysis/Benson-Boone'
+loc: 'https://9takes.com/personality-analysis/benson-boone'
 lastmod: '2026-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
 type: ['musician', 'singer-songwriter']
-person: 'Benson-Boone'
+person: 'benson-boone'
 suggestions: ['Olivia-Rodrigo', 'Sabrina-Carpenter', 'Harry-Styles', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Benson_Boone'
 twitter: 'BensonBoone'
@@ -195,7 +195,7 @@ He plays drums, guitar, and piano on his own recordings, designs his own cover a
 
 ### What People Actually Say
 
-The most persistent criticism of Benson Boone: he's a copy of a copy. Someone doing impressions of <a href="/personality-analysis/Harry-Styles">Harry Styles</a> and Freddie Mercury without a unique artistic identity.
+The most persistent criticism of Benson Boone: he's a copy of a copy. Someone doing impressions of <a href="/personality-analysis/harry-styles">Harry Styles</a> and Freddie Mercury without a unique artistic identity.
 
 Pitchfork gave his _American Heart_ album a 3.7/10. Critic Jeremy D. Larson called it "music for people who like how music sounds, but not for people who like music." He described the cover art as "the movie poster for Zack Snyder's lost Bruce Springsteen biopic" and noted that despite the Americana branding, "these songs are American insofar as they do not evoke a specific time or place and have nothing really to say."
 

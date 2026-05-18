@@ -5,14 +5,14 @@ persona_title: "Hollywood's Perpetual Nice Guy"
 description: "Discover how Paul Rudd's conflict-avoiding Enneagram Type 9 personality explains his ageless charm and why everyone in Hollywood adores him."
 author: 'DJ Wayne'
 date: '2026-01-23'
-loc: 'https://9takes.com/personality-analysis/Paul-Rudd'
+loc: 'https://9takes.com/personality-analysis/paul-rudd'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
 type: ['movieStar', 'screen-icon']
-person: 'Paul-Rudd'
+person: 'paul-rudd'
 suggestions: ['Jack-Black', 'Keanu-Reeves', 'Tom-Hanks', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Rudd'
 twitter: ''
@@ -134,7 +134,7 @@ Peter doesn't know what he wants when separated from someone else's wanting. He'
 
 ### Anaconda: When the Straight Man Goes Sideways
 
-In 2025, Rudd starred alongside [Jack Black](/personality-analysis/Jack-Black) in Anaconda, a meta-comedy built around two friends confronting midlife crisis by trying to remake their favorite childhood film.
+In 2025, Rudd starred alongside [Jack Black](/personality-analysis/jack-black) in Anaconda, a meta-comedy built around two friends confronting midlife crisis by trying to remake their favorite childhood film.
 
 The casting has real history. Rudd and Black first met as kids at an audition. Both launched their careers in video game commercials — Rudd in a Nintendo ad, Black in one for Atari.
 
@@ -212,7 +212,7 @@ Recent projects: Ghostbusters: Frozen Empire (2024), the dark comedy Friendship 
 
 His approach stays consistent. Interesting projects. Collaborative environments. Work that doesn't require constant public performance.
 
-The [Tom Hanks](/personality-analysis/Tom-Hanks) comparison comes up often, and it tracks — another Hollywood figure known for being genuinely decent, not as a brand but as the actual operating mode. Fellow Type 9 [Keanu Reeves](/personality-analysis/Keanu-Reeves) runs the same way. These aren't coincidences.
+The [Tom Hanks](/personality-analysis/tom-hanks) comparison comes up often, and it tracks — another Hollywood figure known for being genuinely decent, not as a brand but as the actual operating mode. Fellow Type 9 [Keanu Reeves](/personality-analysis/keanu-reeves) runs the same way. These aren't coincidences.
 
 Rudd's longevity is remarkable precisely because it was never the goal. He didn't architect a lasting career. He just kept showing up to things that interested him, with people he liked, and declined to participate in the machinery that burns most actors out.
 

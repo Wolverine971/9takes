@@ -5,14 +5,14 @@ persona_title: "Hollywood's Insatiable Architect"
 description: 'Arnold Schwarzenegger won everything and still looked in the mirror and saw failure. Inside the psychology of the ultimate Type 3 achiever.'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/personality-analysis/Arnold-Schwarzenegger'
+loc: 'https://9takes.com/personality-analysis/arnold-schwarzenegger'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar', 'screen-icon']
-person: 'Arnold-Schwarzenegger'
+person: 'arnold-schwarzenegger'
 suggestions: ['Dwayne-Johnson', 'Donald-Trump', 'Tom-Cruise', 'Cristiano-Ronaldo']
 wikipedia: 'https://en.wikipedia.org/wiki/Arnold_Schwarzenegger'
 twitter: 'https://twitter.com/Schwarzenegger'

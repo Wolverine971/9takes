@@ -5,14 +5,14 @@ persona_title: 'Domestic Life’s Unforgiving Reformer'
 description: 'Inside Martha Stewart’s Enneagram Type 1 mind: how her father’s voice built the empire, why prison cut deeper than the crime, and what Snoop unlocks.'
 author: 'DJ Wayne'
 date: '2026-05-16'
-loc: 'https://9takes.com/personality-analysis/Martha-Stewart'
+loc: 'https://9takes.com/personality-analysis/martha-stewart'
 lastmod: '2026-05-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '1'
 type: ['lifestyleInfluencer', 'entrepreneur', 'celebrity']
-person: 'Martha-Stewart'
+person: 'martha-stewart'
 suggestions: ['Anna-Wintour', 'Gwyneth-Paltrow', 'Snoop-Dogg', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Martha_Stewart'
 twitter: 'MarthaStewart'
@@ -121,7 +121,7 @@ In 1990, the year of her divorce, Martha Stewart was already a successful catere
 
 Read it as a Reformer's verdict in disguise. *It's a good thing* is not a compliment paid to the recipe, the technique, or the centerpiece. It is the judgment Martha is allowed to give once a thing finally meets her standard. The audience hears the seal of approval. What Martha is actually doing is closing a tiny case file: this one passes. The fact that she eventually trademarked the phrase, sold the trademark, joked "I invented 'It's a good thing' before you were even born," and then collected the best of them into a book called *Martha Stewart's Very Good Things* — that is the 1w2 wing turning correction into curriculum.
 
-Inside the work she is, by every credible account, brutally exacting. Archival footage from the *Martha Stewart Living* set has her holding up the wrong knife at a staffer for cutting an orange — *"Well, isn't that a stupid knife?"* — like the offense is the staffer's and the evidence is the tool. A former Martha Stewart Living Omnimedia executive once told *Vanity Fair* the office air could change the moment a witness walked in: "Martha is delightful, charming, brilliant, fascinating — if you are in the room alone with her. You bring a third person in and it becomes poisonous. She has to dominate." The closest mainstream analog is [Anna Wintour](/personality-analysis/Anna-Wintour) — another perfectionist who built a publishing empire on the premise that someone has to set the standard or it will not get set. The two readings of Martha — world's best mentor, world's worst boss — are the same impulse heard at different volumes by different listeners.
+Inside the work she is, by every credible account, brutally exacting. Archival footage from the *Martha Stewart Living* set has her holding up the wrong knife at a staffer for cutting an orange — *"Well, isn't that a stupid knife?"* — like the offense is the staffer's and the evidence is the tool. A former Martha Stewart Living Omnimedia executive once told *Vanity Fair* the office air could change the moment a witness walked in: "Martha is delightful, charming, brilliant, fascinating — if you are in the room alone with her. You bring a third person in and it becomes poisonous. She has to dominate." The closest mainstream analog is [Anna Wintour](/personality-analysis/anna-wintour) — another perfectionist who built a publishing empire on the premise that someone has to set the standard or it will not get set. The two readings of Martha — world's best mentor, world's worst boss — are the same impulse heard at different volumes by different listeners.
 
 ## The Daughter Who Got the Same File
 
@@ -143,7 +143,7 @@ She did not get the chance to talk her way out. The judge sentenced her. The cam
 
 Before Snoop there was Trump. In 2005, the year of her prison release, NBC gave Martha her own *Apprentice* spinoff in which she tried to deliver Donald Trump's signature execution scene with the softened line *"You just don't fit in."* The show ran a single season, averaged six to seven million viewers against Trump's ten, and was cancelled. Trump publicly blamed Martha for the decline of his own ratings. The Reformer learned what a Reformer always learns on camera: her standards do not translate to spectacle when the spectacle is humiliation. Domination, for a One, is private business. She needed a different way to be on television.
 
-By the time [Snoop Dogg](/personality-analysis/Snoop-Dogg) first walked onto Martha's cooking show in 2008, she had been out of Alderson for three years and was rebuilding. The friendship that has since become its own line of business — *Martha and Snoop's Potluck Dinner Party*, joint Olympic coverage, his appearance as the first guest on her podcast, her in his music videos — formally began at the 2015 Comedy Central Roast of Justin Bieber.
+By the time [Snoop Dogg](/personality-analysis/snoop-dogg) first walked onto Martha's cooking show in 2008, she had been out of Alderson for three years and was rebuilding. The friendship that has since become its own line of business — *Martha and Snoop's Potluck Dinner Party*, joint Olympic coverage, his appearance as the first guest on her podcast, her in his music videos — formally began at the 2015 Comedy Central Roast of Justin Bieber.
 
 Snoop's own description of that night is the second key piece of named-third-party testimony in any honest Martha profile. "She sat next to me, and she stole the show," he later told the documentary's crew. "She was the funniest roaster that night. In that moment I knew I wanted to be alongside this lady for the rest of my life." There is no equivalent line about her from a corporate collaborator. There is a reason.
 

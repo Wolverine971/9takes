@@ -3,14 +3,14 @@ title: 'William Shakespeare: An Enneagram Analysis'
 description: "Exploring William Shakespeare's personality through the lens of the Enneagram"
 author: 'DJ Wayne'
 date: '2026-04-03'
-loc: 'https://9takes.com/personality-analysis/William-Shakespeare'
+loc: 'https://9takes.com/personality-analysis/william-shakespeare'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram:
 type: ['historical', 'author']
-person: 'William-Shakespeare'
+person: 'william-shakespeare'
 suggestions: []
 wikipedia: 'https://en.wikipedia.org/wiki/William_Shakespeare'
 twitter: ''

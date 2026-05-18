@@ -5,14 +5,14 @@ persona_title: 'The First Lady of Controlled Fire'
 description: "Michelle Obama removed the dress so duty couldn't drag her back to the inauguration. That story reveals discipline, anger, and conscience underneath the poise."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/personality-analysis/Michelle-Obama'
+loc: 'https://9takes.com/personality-analysis/michelle-obama'
 lastmod: '2026-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['politician', 'political-spouse']
-person: 'Michelle-Obama'
+person: 'michelle-obama'
 suggestions: ['Barack-Obama', 'Hillary-Clinton', 'Oprah-Winfrey', 'Kamala-Harris']
 wikipedia: 'https://en.wikipedia.org/wiki/Michelle_Obama'
 twitter: 'MichelleObama'
@@ -84,7 +84,7 @@ path: src/blog/people/drafts/Michelle-Obama.md
 
 Not because she didn't have one. Michelle Obama always has a dress. She walks around with the right outfit, travels with clothes just in case something pops off. She is, by any measure, one of the most meticulously prepared public figures alive.
 
-But she knew herself. If the dress existed, she'd put it on. If the option to attend [Donald Trump](/personality-analysis/Donald-Trump)'s second inauguration was physically available to her, the voice inside — the one that has been running since childhood, the one that says _do the right thing, show up, be above reproach_ — would win.
+But she knew herself. If the dress existed, she'd put it on. If the option to attend [Donald Trump](/personality-analysis/donald-trump)'s second inauguration was physically available to her, the voice inside — the one that has been running since childhood, the one that says _do the right thing, show up, be above reproach_ — would win.
 
 So she removed the option entirely.
 
@@ -118,7 +118,7 @@ That image — a man in a uniform, fighting his own body every day, never mentio
 
 The Robinsons lived in a one-bedroom apartment on the upper floor of 7436 South Euclid Avenue. Michelle and Craig slept in the living room, divided by a makeshift partition. Great-aunt Robbie lived downstairs. Four people in a space designed for two, and nobody talked about what was hard.
 
-Marian Robinson — Michelle's mother — taught her to read before kindergarten. Took her to the public library. Sewed some of her clothes. Later, when [Barack Obama](/personality-analysis/Barack-Obama) became president, Marian moved into the White House and helped raise Malia and Sasha for eight years. She never left the South Side worldview. When Marian died in May 2024 at 86, Michelle described her as the person who _"set my moral compass high and showed me the power of my voice."_
+Marian Robinson — Michelle's mother — taught her to read before kindergarten. Took her to the public library. Sewed some of her clothes. Later, when [Barack Obama](/personality-analysis/barack-obama) became president, Marian moved into the White House and helped raise Malia and Sasha for eight years. She never left the South Side worldview. When Marian died in May 2024 at 86, Michelle described her as the person who _"set my moral compass high and showed me the power of my voice."_
 
 The family's roots trace back to Jim Robinson, Michelle's paternal great-great-grandfather, born into slavery in 1850 on Friendfield Plantation near Georgetown, South Carolina. He became a freedman at 15.
 
@@ -290,7 +290,7 @@ That's the Type 1 under [stress](/enneagram-corner/enneagram-types-in-stress). W
 
 In 2018, Michelle published _Becoming_. It sold over 17 million copies, was translated into 24 languages, and became one of the bestselling memoirs in history.
 
-The book tour was unlike anything publishing had seen. Produced by Live Nation, it filled arenas in 34 cities. The interviewers were [Oprah](/personality-analysis/Oprah-Winfrey), Reese Witherspoon, Tracee Ellis Ross. Tickets sold like concert seats. It was a one-woman cultural event — part memoir reading, part intimate conversation staged at stadium scale.
+The book tour was unlike anything publishing had seen. Produced by Live Nation, it filled arenas in 34 cities. The interviewers were [Oprah](/personality-analysis/oprah-winfrey), Reese Witherspoon, Tracee Ellis Ross. Tickets sold like concert seats. It was a one-woman cultural event — part memoir reading, part intimate conversation staged at stadium scale.
 
 But the book itself was the revelation. Michelle wrote openly about the resentment she felt during Barack's political rise — the cold dinners, the solo parenting, the slow erosion of her own career while his consumed everything. She wrote about her miscarriage and IVF journey with an openness that made her one of the first major public figures to discuss fertility struggles plainly. She described impostor syndrome not as a phase but as permanent furniture.
 
@@ -318,7 +318,7 @@ _The Look_ is her way of rewriting that script. Her deeper claim: style isn't ju
 
 ## Why Michelle Calls Herself "Less Light"
 
-In November 2025, speaking in Brooklyn about [Kamala Harris](/personality-analysis/Kamala-Harris)'s presidential loss, Michelle said: _"As we saw in this past election, sadly, we ain't ready. That's why I'm like, don't even look at me about running 'cause you all are lying. You're not ready for a woman."_
+In November 2025, speaking in Brooklyn about [Kamala Harris](/personality-analysis/kamala-harris)'s presidential loss, Michelle said: _"As we saw in this past election, sadly, we ain't ready. That's why I'm like, don't even look at me about running 'cause you all are lying. You're not ready for a woman."_
 
 She was also asked, again, about running for office herself. Her response has never varied: _"No is a full sentence."_
 

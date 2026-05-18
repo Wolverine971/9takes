@@ -5,14 +5,14 @@ persona_title: "Hollywood's Beautiful Stranger"
 description: "Ana de Armas left Cuba to be seen and Hollywood to be invisible. Inside the Type 4w5 longing that explains both leaps — and the Vermont cocoon she built last."
 author: 'DJ Wayne'
 date: '2026-05-09'
-loc: 'https://9takes.com/personality-analysis/Ana-de-Armas'
+loc: 'https://9takes.com/personality-analysis/ana-de-armas'
 lastmod: '2026-05-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '4'
 type: ['movieStar', 'screen-icon']
-person: 'Ana-de-Armas'
+person: 'ana-de-armas'
 suggestions: ['Ben-Affleck', 'Margot-Robbie', 'Robert-Pattinson', 'Anya-Taylor-Joy']
 wikipedia: 'https://en.wikipedia.org/wiki/Ana_de_Armas'
 instagram: 'ana_d_armas'
@@ -262,7 +262,7 @@ That is the line. The Four does not collect the trophy and rest. The Four uses t
 
 The Ben Affleck era is now a footnote, but it was the inflection point.
 
-They met on _Deep Water_ in 2019. They quarantined together during the pandemic. By 2020, she was being photographed walking the dog with [Ben Affleck](/personality-analysis/Ben-Affleck) in the West Village every other day. The internet ran a sub-genre of "Ana de Armas walking with Ben Affleck" content. Cardboard cutouts of her appeared in his trash. There was a meme economy around them.
+They met on _Deep Water_ in 2019. They quarantined together during the pandemic. By 2020, she was being photographed walking the dog with [Ben Affleck](/personality-analysis/ben-affleck) in the West Village every other day. The internet ran a sub-genre of "Ana de Armas walking with Ben Affleck" content. Cardboard cutouts of her appeared in his trash. There was a meme economy around them.
 
 By January 2021, it was over.
 
@@ -316,7 +316,7 @@ That is not a soft "movie stars used to be cool" nostalgia bit. That is a thesis
 
 She is trying to put it back. Quietly, as a personal practice. No social posts. No relationship debuts. No memoir. No "day in the life" content. A Vermont farmhouse and an eighteen-month silence on a relationship the international press named for her.
 
-She is, in her own unannounced way, attempting to be the last movie star — or one of the last actors who still believes there is something inside her that deserves to be hidden, and that hiding it is part of the job. She has company in this. [Robert Pattinson](/personality-analysis/Robert-Pattinson) does the same thing. So does [Anya Taylor-Joy](/personality-analysis/Anya-Taylor-Joy). Each of them, in slightly different keys, has decided that the gap between the public face and the private self is not a marketing problem to solve. It is the whole asset.
+She is, in her own unannounced way, attempting to be the last movie star — or one of the last actors who still believes there is something inside her that deserves to be hidden, and that hiding it is part of the job. She has company in this. [Robert Pattinson](/personality-analysis/robert-pattinson) does the same thing. So does [Anya Taylor-Joy](/personality-analysis/anya-taylor-joy). Each of them, in slightly different keys, has decided that the gap between the public face and the private self is not a marketing problem to solve. It is the whole asset.
 
 ## The Norma Underneath
 

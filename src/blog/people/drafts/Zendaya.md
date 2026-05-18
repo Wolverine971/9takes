@@ -4,14 +4,14 @@ meta_title: "Why Zendaya Can't Stop Preparing for Everything (Type 6 Explained)"
 description: 'Zendaya admits anxiety nearly broke her as a child. Now that same hypervigilance fuels the most calculated career in Hollywood.'
 author: 'DJ Wayne'
 date: '2025-03-04'
-loc: 'https://9takes.com/personality-analysis/Zendaya'
+loc: 'https://9takes.com/personality-analysis/zendaya'
 lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['newMovieStar', 'movieStar', 'rising-star']
-person: 'Zendaya'
+person: 'zendaya'
 persona_title: "Hollywood's Weaponized Worrier"
 suggestions:
   [
@@ -225,7 +225,7 @@ Most celebrities let stylists dress them. Zendaya and Law Roach invented somethi
 
 They call it "method dressing." Fashion as an extension of her film roles. Every outfit researched and intentional.
 
-For the Dune: Part Two press tour, alongside fellow Type 6 [Timothée Chalamet](/personality-analysis/Timothee-Chalamet), she didn't borrow designer pieces. They bought them. Archival Mugler. Vintage Givenchy. A robot suit from 1995. Each look referenced the film's aesthetic while making its own statement.
+For the Dune: Part Two press tour, alongside fellow Type 6 [Timothée Chalamet](/personality-analysis/timothee-chalamet), she didn't borrow designer pieces. They bought them. Archival Mugler. Vintage Givenchy. A robot suit from 1995. Each look referenced the film's aesthetic while making its own statement.
 
 "We don't borrow, we buy," Roach told Vogue.
 
@@ -243,7 +243,7 @@ Over 50 red carpet appearances in 2024. Every single one researched, curated, an
 
 ## The Tom Holland Dynamic: When Two Types Find Security in Each Other
 
-She's been with [Tom Holland](/personality-analysis/Tom-Holland) for over three years now. They got engaged between Christmas and New Year's 2024.
+She's been with [Tom Holland](/personality-analysis/tom-holland) for over three years now. They got engaged between Christmas and New Year's 2024.
 
 What makes this relationship work through a Type 6 lens?
 
@@ -273,7 +273,7 @@ The man is offering something Zendaya has built her entire career around: predic
 
 Zendaya's upcoming slate reads like a Type 6's dream portfolio:
 
-**The Odyssey** (2026): Christopher Nolan cast her as Athena, goddess of wisdom and strategic warfare. She'll appear alongside fiancé Tom Holland (playing Telemachus) and heavy-hitters like [Matt Damon](/personality-analysis/Matt-Damon), [Anne Hathaway](/personality-analysis/Anne-Hathaway), and Charlize Theron.
+**The Odyssey** (2026): Christopher Nolan cast her as Athena, goddess of wisdom and strategic warfare. She'll appear alongside fiancé Tom Holland (playing Telemachus) and heavy-hitters like [Matt Damon](/personality-analysis/matt-damon), [Anne Hathaway](/personality-analysis/anne-hathaway), and Charlize Theron.
 
 The symbolism isn't lost. Athena is the patron deity of heroes. She doesn't fight with brute force, she wins through preparation, strategy, and being several moves ahead.
 

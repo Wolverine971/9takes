@@ -5,14 +5,14 @@ meta_title: "Inside Charli D'Amelio's Psychology: Why Fame Made Her Lose Herself
 description: "At 100 million followers, Charli D'Amelio was having 15 panic attacks a day. The psychology behind TikTok's most watched identity crisis."
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: "https://9takes.com/personality-analysis/Charli-D'Amelio"
+loc: "https://9takes.com/personality-analysis/charli-d'Amelio"
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['tiktoker', 'lifestyle-builder']
-person: "Charli-D'Amelio"
+person: "charli-d'Amelio"
 suggestions: ['Addison-Rae', "Dixie-D'Amelio", 'Bella-Poarch', 'Alix-Earle']
 wikipedia: 'https://en.wikipedia.org/wiki/Charli_D%27Amelio'
 twitter: 'https://twitter.com/charlidamelio'
@@ -253,7 +253,7 @@ They broke up briefly in May 2023 after "a huge argument," reconciled weeks late
 
 That's the Nine in relationships: merge deeply, withdraw when it gets painful, let the other person narrate the ending. "I don't have to post about my relationships with anyone to prove that they are still in my life."
 
-Her family remains the anchor. Her sister [Dixie](/personality-analysis/Dixie-D'Amelio), once so distant they "didn't talk at all really" for weeks, is now her best friend and fiercest defender.
+Her family remains the anchor. Her sister [Dixie](/personality-analysis/dixie-d'Amelio), once so distant they "didn't talk at all really" for weeks, is now her best friend and fiercest defender.
 
 ### Where She Is Now
 

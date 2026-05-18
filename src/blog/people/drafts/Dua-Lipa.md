@@ -5,14 +5,14 @@ persona_title: "Pop's Relentless Rule-Maker"
 description: 'Rejected from choir at 9, alone in London at 15. How Dua Lipa turned every setback into a blueprint and gave it to millions. An Enneagram Type 3 analysis.'
 author: 'DJ Wayne'
 date: '2026-04-15'
-loc: 'https://9takes.com/personality-analysis/Dua-Lipa'
+loc: 'https://9takes.com/personality-analysis/dua-lipa'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['musician']
-person: 'Dua-Lipa'
+person: 'dua-lipa'
 suggestions: ['Taylor-Swift', 'Ariana-Grande', 'Billie-Eilish', 'Charli-XCX']
 wikipedia: 'https://en.wikipedia.org/wiki/Dua_Lipa'
 twitter: '@DUALIPA'

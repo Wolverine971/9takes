@@ -5,14 +5,14 @@ persona_title: "Combat's Restless Achiever"
 description: "From suicidal thoughts to Olympic tears, Jake Paul's psychology maps onto one Enneagram type. Decode the father wound driving his $200M empire."
 author: 'DJ Wayne'
 date: '2023-06-21'
-loc: 'https://9takes.com/personality-analysis/Jake-Paul'
+loc: 'https://9takes.com/personality-analysis/jake-paul'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator', 'viral-entertainer']
-person: 'Jake-Paul'
+person: 'jake-paul'
 suggestions: ['Logan-Paul', 'Conor-McGregor', 'Alex-Hormozi', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Paul'
 twitter: 'jakepaul'
@@ -67,7 +67,7 @@ Jake Joseph Paul was born January 17, 1997, in Westlake, Ohio, a comfortable sub
 
 When Jake was seven, his parents divorced. By all accounts, ugly.
 
-Then Greg bought his sons a camera, thinking they'd film themselves playing football. Jake was ten. His older brother [Logan](/personality-analysis/Logan-Paul) was twelve. Instead of football, they started filming skits and pranks. They named their channel "Zoosh," a riff on their favorite YouTube channel, Smosh. Even then, Jake deviated from what authority expected of him.
+Then Greg bought his sons a camera, thinking they'd film themselves playing football. Jake was ten. His older brother [Logan](/personality-analysis/logan-paul) was twelve. Instead of football, they started filming skits and pranks. They named their channel "Zoosh," a riff on their favorite YouTube channel, Smosh. Even then, Jake deviated from what authority expected of him.
 
 > "When I started to gain viewership and money — first of all, I wanted to make my dad proud, mostly because I saw him lose everything in the divorce," Jake told Men's Health. "I thought to myself, I'd never want to be in that position, for my kids to see me weak."
 
@@ -215,7 +215,7 @@ The man who puts everything on camera, who films every training session, every b
 
 ## The $200 Million Empire Nobody Expected
 
-Jake's ambitions extend far beyond content and combat. A venture capital firm (Anti Fund, with [Logan](/personality-analysis/Logan-Paul) joining as General Partner, their first formal business partnership). A men's body-care brand at Walmart on track for $50 million in first-year sales. A sportsbook operating in 25 states. A 6,000-acre Georgia estate with a private lake and plans for its own airstrip.
+Jake's ambitions extend far beyond content and combat. A venture capital firm (Anti Fund, with [Logan](/personality-analysis/logan-paul) joining as General Partner, their first formal business partnership). A men's body-care brand at Walmart on track for $50 million in first-year sales. A sportsbook operating in 25 states. A 6,000-acre Georgia estate with a private lake and plans for its own airstrip.
 
 Forbes ranked him the No. 3 highest-paid creator globally in 2025 at $50 million in annual earnings. Net worth estimates sit around $200 million.
 
@@ -289,7 +289,7 @@ In April 2021, TikTok creator Justine Paradise publicly accused Jake of forcing 
 
 These accusations exist alongside the growth story. They don't erase it, and it doesn't erase them.
 
-In October 2024, Jake released a 20-minute video endorsing [Donald Trump](/personality-analysis/Donald-Trump) for president, urging his 80 million followers to vote despite being unable to vote himself (Puerto Rico residents can't participate in presidential elections). The video racked up 19 million views. For a Type 3, gravitating toward the biggest possible stage, including presidential politics, tracks perfectly. The scale of the platform is the point.
+In October 2024, Jake released a 20-minute video endorsing [Donald Trump](/personality-analysis/donald-trump) for president, urging his 80 million followers to vote despite being unable to vote himself (Puerto Rico residents can't participate in presidential elections). The video racked up 19 million views. For a Type 3, gravitating toward the biggest possible stage, including presidential politics, tracks perfectly. The scale of the platform is the point.
 
 ## How It All Connects
 

@@ -5,14 +5,14 @@ persona_title: "The Ledger's First Billionaire"
 description: 'The robber-baron story is true. It is also surface. The real John D. Rockefeller was an Enneagram Type 5 who turned the oil industry into one enormous ledger.'
 author: 'DJ Wayne'
 date: '2026-04-24'
-loc: 'https://9takes.com/personality-analysis/John-D-Rockefeller'
+loc: 'https://9takes.com/personality-analysis/john-d-rockefeller'
 lastmod: '2026-04-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: '5'
 type: ['entrepreneur', 'historical', 'historical-artist', 'business-operator']
-person: 'John-D-Rockefeller'
+person: 'john-d-rockefeller'
 suggestions: ['Bill-Gates', 'Warren-Buffett', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/John_D._Rockefeller'
 content_quality:
@@ -228,7 +228,7 @@ Rockefeller Sr. was 74 years old and seventeen years into retirement. He had nev
 
 His son testified before Congress and fumbled it badly. When the Walsh Commission cross-examined him in 1915, Junior admitted he had never been to Colorado and had relied entirely on his managers' reports. The family hired Ivy Lee, the first recognizably modern PR man, to repair the damage. Lee coached Junior to go to Colorado, meet miners' wives, and dance with them. Lee also noticed something Senior had been doing for twenty years — the dimes and nickels pressed into strangers' hands — and turned it into the signature image of the benign old man. The habit was Rockefeller's. The theater of it was Lee's. By the time Senior died in 1937, the coins had largely displaced Ludlow in public memory. That was exactly what Lee had been paid to accomplish.
 
-A century later, [Bill Gates](/personality-analysis/Bill-Gates) would run a miniature of the same arc: an antitrust loss at Microsoft, a retreat from day-to-day operations, a Foundation as the philanthropic vehicle, and a public image carefully managed on the long tail. Structurally, a Five wins twice — once at the business, and once at the story about the business.
+A century later, [Bill Gates](/personality-analysis/bill-gates) would run a miniature of the same arc: an antitrust loss at Microsoft, a retreat from day-to-day operations, a Foundation as the philanthropic vehicle, and a public image carefully managed on the long tail. Structurally, a Five wins twice — once at the business, and once at the story about the business.
 
 ---
 

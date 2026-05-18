@@ -5,14 +5,14 @@ persona_title: "Hollywood's Barefoot Vanishing Act"
 description: "She forages her own food, got arrested at Standing Rock, and lost herself inside a relationship. How the Enneagram explains Shailene Woodley's paradox."
 author: 'DJ Wayne'
 date: '2026-04-13'
-loc: 'https://9takes.com/personality-analysis/Shailene-Woodley'
+loc: 'https://9takes.com/personality-analysis/shailene-woodley'
 lastmod: '2026-04-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['movieStar', 'activist', 'screen-icon']
-person: 'Shailene-Woodley'
+person: 'shailene-woodley'
 suggestions: ['Keanu-Reeves', 'Emma-Watson', 'Scarlett-Johansson', 'Nicole-Kidman']
 wikipedia: 'https://en.wikipedia.org/wiki/Shailene_Woodley'
 twitter: 'shaborz'
@@ -171,7 +171,7 @@ In late 2015, Woodley was done. Not with activism. With acting. She was "really 
 
 Dern had one thing to say: "What I see in you, Shai, is your purpose, at least in this moment in your life, is to be a storyteller. And I think it's a massive mistake for you to walk away from this opportunity."
 
-The opportunity was _Big Little Lies_, alongside [Nicole Kidman](/personality-analysis/Nicole-Kidman) and Reese Witherspoon. Woodley took the role of Jane Chapman, a young single mother carrying a sexual assault she'd never fully processed. Quiet and internal. Absorbing the chaos of the women around her while her own trauma stayed buried.
+The opportunity was _Big Little Lies_, alongside [Nicole Kidman](/personality-analysis/nicole-kidman) and Reese Witherspoon. Woodley took the role of Jane Chapman, a young single mother carrying a sexual assault she'd never fully processed. Quiet and internal. Absorbing the chaos of the women around her while her own trauma stayed buried.
 
 It was the most Nine role she could have played. Jane doesn't explode. She endures. She watches. She holds everyone else's drama at arm's length while her own pain quietly runs the show. Woodley earned Emmy, Golden Globe, and SAG nominations for the performance, her first in all three categories.
 

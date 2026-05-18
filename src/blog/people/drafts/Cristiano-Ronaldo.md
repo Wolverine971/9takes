@@ -5,14 +5,14 @@ persona_title: "Football's Relentless Perfectionist"
 description: "Discover how Cristiano Ronaldo's relentless self-improvement, psychological drive, and Euro 2024 tears reveal the mind of football's most driven achiever."
 author: 'DJ Wayne'
 date: '2025-06-25'
-loc: 'https://9takes.com/personality-analysis/Cristiano-Ronaldo'
+loc: 'https://9takes.com/personality-analysis/cristiano-ronaldo'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['athlete']
-person: 'Cristiano-Ronaldo'
+person: 'cristiano-ronaldo'
 suggestions:
   ['Lionel-Messi', 'Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Tom-Cruise', 'Alex-Hormozi']
 wikipedia: 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
@@ -98,7 +98,7 @@ The man who steered him out of that academy and into the rest of his life was Jo
 
 Sir Alex Ferguson, who would coach Ronaldo through six Premier League seasons, summarized what he saw in the boy: "There are players born to be greats with their natural talent, and another essential factor: the work ethic necessary to make yourself into a complete player. Cristiano had this determination, this desire to be the best to the level of obsession."
 
-That word — *obsession* — recurs in everyone's vocabulary about him. Patrice Evra, his United teammate for five seasons, told a story for years about being invited over for lunch. He arrived expecting a meal. He was served plain salad, grilled chicken breast, and water, then dragged into the back garden for two hours of finishing drills. "I never went back," Evra said. "I cried." Like [Tom Cruise](/personality-analysis/Tom-Cruise), another Type 3 famous for relentless work ethic, Ronaldo's obsession didn't come from nowhere. It was forged in childhood, in the gap between who you are and who you believe you need to be to deserve love.
+That word — *obsession* — recurs in everyone's vocabulary about him. Patrice Evra, his United teammate for five seasons, told a story for years about being invited over for lunch. He arrived expecting a meal. He was served plain salad, grilled chicken breast, and water, then dragged into the back garden for two hours of finishing drills. "I never went back," Evra said. "I cried." Like [Tom Cruise](/personality-analysis/tom-cruise), another Type 3 famous for relentless work ethic, Ronaldo's obsession didn't come from nowhere. It was forged in childhood, in the gap between who you are and who you believe you need to be to deserve love.
 
 At Madrid, Ronaldo scored 450 goals in 438 games over nine seasons and won four more Champions League titles. Then Juventus at 33 (he won Serie A twice; he became the only player to win league titles in England, Spain, and Italy). Then the catastrophic United return at 36. Then Al-Nassr.
 
@@ -174,7 +174,7 @@ In 2025, Ronaldo and Georgina got engaged — nearly a decade after they met at 
 
 ## The Messi Question
 
-For 15 years, Cristiano Ronaldo and [Lionel Messi](/personality-analysis/Lionel-Messi) defined each other. Their pursuit of each other arguably produced both careers in their final form. Eight Ballon d'Ors to Messi, five to Ronaldo. Two great players, one of whom lifted the World Cup in 2022 and one of whom did not.
+For 15 years, Cristiano Ronaldo and [Lionel Messi](/personality-analysis/lionel-messi) defined each other. Their pursuit of each other arguably produced both careers in their final form. Eight Ballon d'Ors to Messi, five to Ronaldo. Two great players, one of whom lifted the World Cup in 2022 and one of whom did not.
 
 That last sentence is the part of the rivalry the brand version of this story would prefer to skip. For Messi's defenders, it is the closing argument. The World Cup is the trophy football has decided matters most. Messi got there. Ronaldo didn't, despite getting closest in 2016 — when Portugal won the Euros, in a final he watched from the sideline after a Dimitri Payet tackle in the 7th minute. He paced the touchline in a tracksuit that night, coaching teammates, screaming at the fourth official, refusing to be a spectator. Portugal won the trophy. The image of Ronaldo, leg strapped, conducting from the sideline, became one of his career's most-shared photographs. It is a beautiful image. It is also not the same as Messi lifting the World Cup with his teammates in 2022, which is the moment football's collective memory has decided is the harder one.
 

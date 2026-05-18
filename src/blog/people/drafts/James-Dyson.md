@@ -5,7 +5,7 @@ persona_title: "Engineering's Relentless Reformer"
 description: "Inside the mind of James Dyson: how losing his father at 9 created a lifelong compulsion to fix what's broken, told through the Enneagram."
 author: 'DJ Wayne'
 date: '2026-04-17'
-loc: 'https://9takes.com/personality-analysis/James-Dyson'
+loc: 'https://9takes.com/personality-analysis/james-dyson'
 lastmod: '2026-04-17'
 changefreq: 'monthly'
 priority: '0.6'
@@ -21,7 +21,7 @@ content_quality:
   letter: 'A'
   graded_at: '2026-03-28'
 type: ['techie', 'entrepreneur', 'business-operator']
-person: 'James-Dyson'
+person: 'james-dyson'
 suggestions: ['steve-jobs', 'elon-musk', 'greta-thunberg', 'jordan-peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Dyson'
 twitter: ''

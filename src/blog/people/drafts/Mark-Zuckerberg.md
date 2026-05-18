@@ -5,14 +5,14 @@ persona_title: "Tech's Quiet Fortress"
 description: 'Inside the mind of Mark Zuckerberg through the lens of Enneagram Type 5 — the private architect who built the most public platform on earth.'
 author: 'DJ Wayne'
 date: '2024-01-15'
-loc: 'https://9takes.com/personality-analysis/Mark-Zuckerberg'
+loc: 'https://9takes.com/personality-analysis/mark-zuckerberg'
 lastmod: '2026-03-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
 type: ['techie', 'big-tech-founder']
-person: 'Mark-Zuckerberg'
+person: 'mark-zuckerberg'
 suggestions: ['Elon-Musk', 'Bill-Gates', 'Jeff-Bezos', 'Steve-Jobs']
 wikipedia: 'https://en.wikipedia.org/wiki/Mark_Zuckerberg'
 twitter: 'faborisefacebook'
@@ -79,7 +79,7 @@ path: src/blog/people/drafts/Mark-Zuckerberg.md
 
 > "Obviously, yes, I'm like the most awkward person. People have been calling me a robot online for 20 years. It's really done wonders for my confidence."
 
-<p class="firstLetter">In 2011, Mark Zuckerberg invited Twitter CEO <a href="/personality-analysis/Jack-Dorsey">Jack Dorsey</a> over for dinner. Zuckerberg had recently committed to only eating meat he'd personally killed, a challenge he approached with the same systematic precision he applied to everything else. He'd stunned a goat with a stun gun, used a knife to finish it, and sent it to a butcher for preparation. When the goat arrived back at the table, it was cold. Zuckerberg told Dorsey they were having goat and salad. Nothing else. Dorsey later recalled: "I just ate my salad."</p>
+<p class="firstLetter">In 2011, Mark Zuckerberg invited Twitter CEO <a href="/personality-analysis/jack-dorsey">Jack Dorsey</a> over for dinner. Zuckerberg had recently committed to only eating meat he'd personally killed, a challenge he approached with the same systematic precision he applied to everything else. He'd stunned a goat with a stun gun, used a knife to finish it, and sent it to a butcher for preparation. When the goat arrived back at the table, it was cold. Zuckerberg told Dorsey they were having goat and salad. Nothing else. Dorsey later recalled: "I just ate my salad."</p>
 
 That dinner tells you more about Mark Zuckerberg than any congressional testimony or earnings call ever could. He invited someone over, a gesture of connection, then served the experience entirely on his own terms. The food was what he'd killed. The menu was non-negotiable. Whether the guest enjoyed it was beside the point. The act of hosting was the act of control.
 
@@ -256,7 +256,7 @@ Why announce that? Why preemptively explain away the appearance of tears — unl
 
 The Yahoo acquisition offer in 2006 is well documented. Yahoo offered $1 billion for Facebook. What's less discussed is what happened in the room.
 
-[Peter Thiel](/personality-analysis/Peter-Thiel), Facebook's first major investor, and Jim Breyer of Accel Partners both thought they should probably take the deal. Zuckerberg called a board meeting. "This is kind of a formality, just a quick board meeting, it shouldn't take more than 10 minutes," he told them. "We're obviously going to turn this down."
+[Peter Thiel](/personality-analysis/peter-thiel), Facebook's first major investor, and Jim Breyer of Accel Partners both thought they should probably take the deal. Zuckerberg called a board meeting. "This is kind of a formality, just a quick board meeting, it shouldn't take more than 10 minutes," he told them. "We're obviously going to turn this down."
 
 He was twenty-two. The company had 10 million users. A billion dollars was on the table. He said no in under ten minutes.
 
@@ -291,7 +291,7 @@ Then came the gold chain. The black button-down shirts with exposed chest hair. 
 
 The internet didn't know what to do with New Zuckerberg.
 
-On the [Joe Rogan](/personality-analysis/Joe-Rogan) Experience in January 2025, he said: "Masculine energy I think is good... I think having a culture that celebrates the aggression a bit more has its own merits."
+On the [Joe Rogan](/personality-analysis/joe-rogan) Experience in January 2025, he said: "Masculine energy I think is good... I think having a culture that celebrates the aggression a bit more has its own merits."
 
 On the Theo Von podcast in April 2025, when asked if he'd ever felt socially awkward, he responded: "No, I'm really smooth." Then, with the first genuine self-awareness he'd ever shown on camera: "Obviously, yes, I'm like the most awkward person. People have been calling me a robot online for 20 years. It's really done wonders for my confidence."
 

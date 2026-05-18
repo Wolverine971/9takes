@@ -5,14 +5,14 @@ persona_title: "Power's Cold Cartographer"
 description: 'Robert Greene taught millions to decode power and human nature, while missing the private paternal wound that shaped his obsession with both.'
 author: 'DJ Wayne'
 date: '2025-04-10'
-loc: 'https://9takes.com/personality-analysis/Robert-Greene'
+loc: 'https://9takes.com/personality-analysis/robert-greene'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
 type: ['author', 'strategy-writer']
-person: 'Robert-Greene'
+person: 'robert-greene'
 suggestions:
   ['Friedrich-Nietzsche', 'Robert-Oppenheimer', 'Elon-Musk', 'Jordan-Peterson', 'Tony-Robbins']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_Greene_(American_author)'
@@ -199,7 +199,7 @@ They spent extensive time together. "I went to his house in Connecticut, hung ou
 
 The collaboration — The 50th Law, published in 2009, debuting at #5 on the New York Times list — was significant not just commercially but psychologically. For a man who'd spent his entire life watching from the margins, this was a step into the arena. He appeared on The Today Show, CNBC, BBC, and MTV News. The observer was participating.
 
-What made the partnership work was that both men understood power from the outside. 50 Cent had learned the laws on the streets of Queens without knowing the technical terms. Greene had learned them in the libraries of [Nietzsche](/personality-analysis/Friedrich-Nietzsche) and Machiavelli without ever having to survive a shooting. Each had half of the picture. Together, they had the whole thing.
+What made the partnership work was that both men understood power from the outside. 50 Cent had learned the laws on the streets of Queens without knowing the technical terms. Greene had learned them in the libraries of [Nietzsche](/personality-analysis/friedrich-nietzsche) and Machiavelli without ever having to survive a shooting. Each had half of the picture. Together, they had the whole thing.
 
 "I love rappers because of their stories and where they come from and what they've had to overcome," Greene said. Coming from a man who studied Sun Tzu for a living, this wasn't slumming. It was recognition. The rapper and the scholar were both self-taught students of human nature who'd learned the game because the alternative was being destroyed by it.
 

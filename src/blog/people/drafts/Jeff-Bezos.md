@@ -5,14 +5,14 @@ description: 'What drives Jeff Bezos to build 10,000-year clocks and stay silent
 persona_title: 'The Challenger Who Thinks in Centuries'
 author: 'DJ Wayne'
 date: '2025-02-25'
-loc: 'https://9takes.com/personality-analysis/Jeff-Bezos'
+loc: 'https://9takes.com/personality-analysis/jeff-bezos'
 lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['techie', 'big-tech-founder']
-person: 'Jeff-Bezos'
+person: 'jeff-bezos'
 suggestions: ['Elon-Musk', 'Bill-Gates', 'Steve-Jobs', 'Sam-Altman', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeff_Bezos'
 twitter: 'JeffBezos'
@@ -97,7 +97,7 @@ Jeff Bezos displays strong Enneagram Type 8 (The Challenger) traits, not narciss
 
 Not ego. Not boredom. Something deeper.
 
-**Jeff Bezos** founded Amazon. Third-richest person alive at $253 billion (behind <a href="/personality-analysis/Elon-Musk">Elon Musk</a> and Sergey Brin as of January 2026). But that's the surface.
+**Jeff Bezos** founded Amazon. Third-richest person alive at $253 billion (behind <a href="/personality-analysis/elon-musk">Elon Musk</a> and Sergey Brin as of January 2026). But that's the surface.
 
 He thinks in centuries while obsessing over same-day delivery. In 2025 alone: married Lauren Sanchez in Venice, lost his mother Jacklyn to Lewy body dementia, launched Blue Origin's first Mars mission, gave over $100 million through the Day 1 Families Fund.
 
@@ -241,7 +241,7 @@ Type 8s need control over their environment. When you're building trillion-dolla
 
 ## Blue Origin: The 10,000-Year Vision
 
-[Elon Musk](/personality-analysis/Elon-Musk) races to Mars with urgency. Bezos plays a longer game. Blue Origin's motto: "Gradatim Ferociter," step by step, ferociously.
+[Elon Musk](/personality-analysis/elon-musk) races to Mars with urgency. Bezos plays a longer game. Blue Origin's motto: "Gradatim Ferociter," step by step, ferociously.
 
 > "Blue Origin is the most important work I'm doing."
 
@@ -320,7 +320,7 @@ Type 8s under stress move toward [Type 5](/enneagram-corner/enneagram-type-5): w
 
 The man who once published the National Enquirer's blackmail attempt has chosen a different strategy with different power.
 
-**Context matters.** The Post lost roughly 250,000 subscribers after Bezos blocked the editorial board's planned endorsement of [Kamala Harris](/personality-analysis/Kamala-Harris) in October 2024. The opinion section shifted to focus on "personal liberties and free markets," a change opposed by 400+ staff in a signed petition.
+**Context matters.** The Post lost roughly 250,000 subscribers after Bezos blocked the editorial board's planned endorsement of [Kamala Harris](/personality-analysis/kamala-harris) in October 2024. The opinion section shifted to focus on "personal liberties and free markets," a change opposed by 400+ staff in a signed petition.
 
 This isn't the Jeff Bezos of 2019 who fought publicly. This is strategic retreat. Or survival. The Type 8 shadow: when the need for control means avoiding fights you might lose.
 
@@ -408,7 +408,7 @@ He no longer holds the title of world's wealthiest, a position he maintained fro
 
 **Bezos:** "Gradatim Ferociter." Methodical, protective, building infrastructure for centuries. The 10,000-year clock symbolizes patience measured in millennia. Blue Origin may beat SpaceX to the Moon.
 
-**[Musk](/personality-analysis/Elon-Musk):** Urgent, public, racing against perceived extinction timelines. Mars colonization as species insurance.
+**[Musk](/personality-analysis/elon-musk):** Urgent, public, racing against perceived extinction timelines. Mars colonization as species insurance.
 
 Both want humanity in space. Bezos approaches it like Amazon: customer-obsessed, infrastructure-first, playing infinite games. Musk approaches it like crisis response: move fast, accept failures publicly, maintain urgency.
 
@@ -416,7 +416,7 @@ Net worth competition matters less than legacy competition. Who will history rem
 
 ## Bezos vs. The Type 5 Builders
 
-Most of Bezos's peers in tech — [Bill Gates](/personality-analysis/Bill-Gates), [Mark Zuckerberg](/personality-analysis/Mark-Zuckerberg), Steve Jobs — trend toward [Type 5](/enneagram-corner/enneagram-type-5): the drive to understand, analyze, optimize. Their empires are expressions of intellectual mastery.
+Most of Bezos's peers in tech — [Bill Gates](/personality-analysis/bill-gates), [Mark Zuckerberg](/personality-analysis/mark-zuckerberg), Steve Jobs — trend toward [Type 5](/enneagram-corner/enneagram-type-5): the drive to understand, analyze, optimize. Their empires are expressions of intellectual mastery.
 
 Bezos's Type 8 approach runs a different engine. He doesn't build systems to understand outcomes. He builds systems to control them. The distinction shows in what each builder does when things go wrong. A Type 5 refines the model. A Type 8 takes over the variable.
 

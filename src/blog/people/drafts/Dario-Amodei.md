@@ -5,14 +5,14 @@ persona_title: "AI's Reluctant Prometheus"
 description: "A four-year gap between his father's death and a medical breakthrough drives everything Dario Amodei builds and fears. Here's his personality decoded."
 author: 'DJ Wayne'
 date: '2026-03-23'
-loc: 'https://9takes.com/personality-analysis/Dario-Amodei'
+loc: 'https://9takes.com/personality-analysis/dario-amodei'
 lastmod: '2026-03-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie', 'entrepreneur', 'frontier-builder']
-person: 'Dario-Amodei'
+person: 'dario-amodei'
 suggestions: ['Sam-Altman', 'Alex-Karp', 'David-Sacks', 'Marc-Andreessen']
 wikipedia: 'https://en.wikipedia.org/wiki/Dario_Amodei'
 twitter: 'DarioAmodei'
@@ -217,7 +217,7 @@ The rebuttal: 6s orient around external authorities and group-held certainty. Th
 
 By 2020, Dario was VP of Research at OpenAI and increasingly convinced that the organization he'd joined _because_ of its safety mission was not treating safety seriously enough.
 
-His proposal inside OpenAI (where [Sam Altman](/personality-analysis/Sam-Altman) was CEO) was straightforward: dramatically increase investment in interpretability and alignment research. The gap between what AI could do and what humans understood about controlling it was widening with each new model generation.
+His proposal inside OpenAI (where [Sam Altman](/personality-analysis/sam-altman) was CEO) was straightforward: dramatically increase investment in interpretability and alignment research. The gap between what AI could do and what humans understood about controlling it was widening with each new model generation.
 
 The response was tepid.
 
@@ -298,7 +298,7 @@ In July 2025, Anthropic signed a $200 million contract with the Pentagon. The co
 
 The Pentagon demanded those clauses be removed. Dario refused.
 
-Secretary of Defense Pete Hegseth formally designated Anthropic a "Supply-Chain Risk to National Security," the first time that label had been publicly applied to an American company. The Trump administration ordered all federal agencies to cease using Anthropic's technology. [David Sacks](/personality-analysis/David-Sacks), the president's AI czar, called the company "woke." Pentagon official Emil Michael went further: Amodei is "a liar and has a God-complex."
+Secretary of Defense Pete Hegseth formally designated Anthropic a "Supply-Chain Risk to National Security," the first time that label had been publicly applied to an American company. The Trump administration ordered all federal agencies to cease using Anthropic's technology. [David Sacks](/personality-analysis/david-sacks), the president's AI czar, called the company "woke." Pentagon official Emil Michael went further: Amodei is "a liar and has a God-complex."
 
 Dario's response, in an exclusive CBS News interview:
 
@@ -312,7 +312,7 @@ Remember: this is the same person whose parents taught him "a sense of right and
 
 The fallout was swift. Lockheed Martin cut ties. OpenAI struck a Pentagon deal hours after Anthropic was blacklisted. Anthropic claims hundreds of millions in lost revenue, with billions at risk as private-sector customers scrambled to renegotiate contracts.
 
-On March 9, 2026, Anthropic filed lawsuits in two federal courts, alleging the designation punishes them for being outspoken on AI policy. Over thirty employees from OpenAI and Google DeepMind, including Google chief scientist Jeff Dean, filed an amicus brief warning that the designation threatens the entire American AI industry. [Sam Altman](/personality-analysis/Sam-Altman) publicly disagreed with the government's decision.
+On March 9, 2026, Anthropic filed lawsuits in two federal courts, alleging the designation punishes them for being outspoken on AI policy. Over thirty employees from OpenAI and Google DeepMind, including Google chief scientist Jeff Dean, filed an amicus brief warning that the designation threatens the entire American AI industry. [Sam Altman](/personality-analysis/sam-altman) publicly disagreed with the government's decision.
 
 The red lines held. The cost of holding them is still being calculated.
 
