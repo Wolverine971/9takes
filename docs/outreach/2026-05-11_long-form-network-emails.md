@@ -161,19 +161,25 @@ If you're sending cold to all 12, consider a parallel IG/X DM track for Hormozi,
 
 Hi Chris,
 
-I've watched a handful of your long-form interviews end to end. What I like is that you're genuinely curious — it shows in how you interact with everyone you interview. You ask the same thought-provoking questions I would. You're obviously smart, and I learn from listening to your podcasts.
+I've followed you for years and watched a many of your long-form interviews end to end and I did a personality analysis on you that I would love you to read.
 
-I run 9takes.com — long-form personality analyses of public figures. I just published a 5,000-word piece on you, and wanted to tell you directly rather than hope it found you.
+https://9takes.com/personality-analysis/chris-williamson
 
-Here's the thinking: people are always trying to understand themselves and the public figures they spend hours with — that's just being human. The question is whether that understanding gets written down in a way the subject can engage with, or whether it stays in podcasts and group chats. Long-form podcasts like yours changed how ideas get tested in public; personality writing hasn't caught up. I'm trying to do the long-form version — the kind of read worth pushing back on, instead of one you can't reach the writer of.
+I hope you read it because you seem to be genuinly curious and it shows in how you interact with everyone you interview. You ask the same thought-provoking questions I would. You're obviously smart, and I learn from listening to your podcasts.
 
-So the piece is an argument, not a verdict. The core claim: you're a particular kind of driven — the kind whose ambition has always been matched by something quieter and more sensitive underneath. The cheese and the cat have been pulling the same direction since the Coriolis moment.
+As for me I am DJ, and I run 9takes.com and I do long-form personality analyses of public figures. I just published a 5,000-word personality analysis on you, and wanted to tell you directly rather than hope it found you.
 
-https://9takes.com/personality-analysis/Chris-Williamson
+Here's is why i write these analysises: people are always analyzing public figures, dissecting the things they like and don't like but the thing is they usually arent patient enough and observant enough to get the full picture. I try to be the one who is patient and observant and I try to dig into what most people miss.
 
-If any of it is wrong, the correction matters more than the piece itself — same way you'd treat a wrong claim in a guest's argument. If any of it is useful, take it. No ask attached.
+I do these analysises because people can learn from it. It helps us understand ourselves and others and I just want to do a good job.
 
-For context, I've also written on Peterson, Huberman, and Bartlett — same long-form discipline.
+Long-form podcasts like yours take the time to dive into these details and I love it. And I hope you appreciate the analysis I put into your profile. 
+
+So the piece is an argument, not a verdict. The core claim: you're a particular kind of driven, the kind whose ambition has always been matched by something quieter and more sensitive underneath. The cheese and the cat have been pulling the same direction since the Coriolis moment.
+
+If any of it is wrong, the correction matters more than the piece itself. I want to treat this with the same sensitivity that you'd treat a wrong claim in a guest's argument. If any of it is useful, take it. No ask attached.
+
+And for context, I've also written these analysises on Jordan Peterson, Andrew Huberman, and Steven Bartlett and a bunch others.
 
 Best,
 DJ Wayne

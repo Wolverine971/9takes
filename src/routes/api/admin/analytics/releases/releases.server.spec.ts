@@ -32,10 +32,16 @@ describe('/api/admin/analytics/releases', () => {
 			rangeTo = to;
 			return query;
 		});
-		query.order = vi.fn(async () => ({
-			data: visits.slice(rangeFrom, rangeTo + 1),
-			error: null
-		}));
+		let orderCalls = 0;
+		query.order = vi.fn(() => {
+			orderCalls += 1;
+			if (orderCalls < 2) return query;
+			orderCalls = 0;
+			return Promise.resolve({
+				data: visits.slice(rangeFrom, rangeTo + 1),
+				error: null
+			});
+		});
 		return {
 			from: vi.fn(() => query)
 		};

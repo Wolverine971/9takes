@@ -397,14 +397,15 @@ async function fetchReleaseVisitSignals(
 			const { data, error: visitError } = await supabaseAdminAny
 				.from('page_analytics_visits')
 				.select(
-					'content_slug,started_at,fingerprint,acquisition_source,referrer_host,engaged_ms,max_scroll_pct,path'
+					'id,content_slug,started_at,fingerprint,acquisition_source,referrer_host,engaged_ms,max_scroll_pct,path'
 				)
 				.eq('content_type', 'people')
 				.in('content_slug', slugChunk)
 				.gte('started_at', range.from)
 				.lte('started_at', range.to)
 				.range(from, to)
-				.order('started_at', { ascending: true });
+				.order('started_at', { ascending: true })
+				.order('id', { ascending: true });
 
 			if (visitError) {
 				throw new Error(visitError.message || 'Failed to load raw release visits');

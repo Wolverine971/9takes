@@ -1,0 +1,32 @@
+Done. Final report:
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-18_quora-warmup.md
+QUEUED: 2
+SKIPPED: 7
+LIMITATIONS: none
+```
+
+**Quora warmup complete for 2026-05-18.**
+
+- Searches run: 14
+- Questions evaluated: 4 (deep-eval)
+- Questions queued: 2
+- Questions skipped: 7
+
+**Priority queue:**
+
+1. "Why are some people fearless in situations where a normal guy like me would tremble?" — Est. 30K+, 47 related, May 2 active — **Type 8 vulnerability-denial PRIMARY + Type 6 counter-phobic SECONDARY** (rare double-fresh close)
+2. "Why do some successful people secretly feel like a fraud?" — Est. 25K+, 34 related, Apr 17 active — **Type 3 image-vs-achievement-gap-fear-of-exposure PRIMARY** (backward exposure-fear, distinct from all 6 prior Type 3 direct primaries)
+
+**Type coverage:** Types 8, 6cp, 3 fresh PRIMARY closes; Types 1, 4, 5, 7, 9 fill as secondaries in five-engine breakdowns. Type 2 inactive this session.
+
+**Blog matches:** 2 of 2 queued have clean 9takes links (`enneagram-type-8`, `enneagram-type-3`).
+
+**Coverage map updated:** Type 8: 18→19, Type 6: 26→27, Type 3: 20→21.
+
+- Question log: `docs/quora/question-log.md`
+- Session doc: `docs/quora/sessions/2026-05-18_quora-warmup.md`
+
+**Next step:** `/quora-answer docs/quora/sessions/2026-05-18_quora-warmup.md`

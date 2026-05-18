@@ -1,0 +1,37 @@
+Stage 1 complete. Session doc and question log fully updated.
+
+```
+Quora warmup complete for 2026-05-17.
+
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-17_quora-warmup.md
+QUEUED: 2
+SKIPPED: 5 (deep-evaluated) + 7 (surface-eliminated)
+LIMITATIONS: none
+
+Searches run: 15
+Questions evaluated: 5 (deep-eval) + 12 (surface)
+Questions queued: 2
+Questions skipped: 12
+
+Priority queue:
+1. "Why are kind people scary when they get angry?" — Est. 50K+ views, 78 related, 5+ answers >999↑
+   Angle: Type 9 PRIMARY (anger-triad-eruption / repression-as-shadow-side); Types 2, 1, 4, 6 sec — Score 92
+2. "Why do some people reject compliments?" — Est. 40K+ views, 100+ related, 999 followers, 20K viral top
+   Angle: Type 4 PRIMARY (compliment-as-deficiency-threat); Types 1, 5, 9 fresh sec — Score 89
+
+Type coverage: PRIMARIES today close Types 4 + 9; secondary fills hit Types 1, 2, 5
+  Lifetime: T4 26→27, T9 24→25, T1 24→25, T2 17→18, T5 19→20
+  Untouched today: Types 3, 6, 7, 8 (T7+T8 fresh-angle hunts both dead)
+
+Blog matches: 2 of 2 queued have a 9takes link candidate
+  - kind-people-scary → src/blog/enneagram/enneagram-type-9.md
+  - reject-compliments → src/blog/enneagram/enneagram-type-4.md
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-05-17_quora-warmup.md
+
+Next step: /quora-answer docs/quora/sessions/2026-05-17_quora-warmup.md
+```
+
+Two fresh-angle PRIMARIES closed in one session — first time since 05-15. Type 9 anger-triad-eruption and Type 4 compliment-as-deficiency-threat are both structurally distinct from prior coverage. Type 7 and Type 8 fresh-angle hunts produced no surfaceable candidates; lose-motivation question (20K-upvote viral top) held as strong revisit after 04-29 starting-projects ships.

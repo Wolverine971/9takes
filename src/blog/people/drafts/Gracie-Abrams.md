@@ -4,12 +4,12 @@ meta_title: "Why Gracie Abrams Hides Her Famous Last Name"
 persona_title: "Pop's Hidden Heiress"
 description: "Why does Gracie Abrams hide that her dad directed Star Wars? Her Enneagram Type 4 explains the bedroom songs, the panic, and the inherited-spotlight fear."
 author: 'DJ Wayne'
-date: '2026-05-07'
+date: '2026-05-17'
 loc: 'https://9takes.com/personality-analysis/Gracie-Abrams'
-lastmod: '2026-05-07'
+lastmod: '2026-05-17'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'Gracie-Abrams'

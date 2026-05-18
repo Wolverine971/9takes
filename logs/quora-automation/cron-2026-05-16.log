@@ -1,0 +1,25 @@
+Quora warmup complete for 2026-05-16.
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-16_quora-warmup.md
+QUEUED: 1
+SKIPPED: 9
+LIMITATIONS: sponsored-content trap on Quora search-result pages (logged in Browser Notes; recovered via direct-URL navigation)
+```
+
+**Searches run:** 11
+**Questions evaluated:** 10 (1 deep, 4 deep-evaluated)
+**Questions queued:** 1
+**Questions skipped:** 9
+
+**Priority queue:**
+1. "Why do some people feel the need for constant attention?" — Est. 25K+ views, 54+ related — **Type 3 PRIMARY** (image-needs-mirror / "I only exist when seen" — fresh angle distinct from prior Type 3 entries) + secondary 4/2/7/8 — score 91
+
+**Type coverage:** Type 3 PRIMARY (missing 1, 2, 5, 6, 7, 8, 9 direct primaries — Type 2/4/7/8 covered as secondaries on the queued question)
+**Blog matches:** 1 of 1 (enneagram-type-3)
+
+**Question log:** docs/quora/question-log.md — Type 3 count: 19 → 20
+**Session doc:** docs/quora/sessions/2026-05-16_quora-warmup.md
+
+**Next step:** /quora-answer docs/quora/sessions/2026-05-16_quora-warmup.md

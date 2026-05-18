@@ -1,8 +1,8 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-05-13_
-_Total Posts Analyzed: 187 (Published: 167, Unpublished: 20)_
+_Generated: 2026-05-18_
+_Total Posts Analyzed: 188 (Published: 168, Unpublished: 20)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,18 +11,18 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 187 |
-| Published posts | 167 |
+| Total posts | 188 |
+| Published posts | 168 |
 | Unpublished posts | 20 |
 | Posts with 0 outgoing links | 29 |
 | Posts with 0 incoming links | 47 |
-| Completely isolated (0 in, 0 out) | 28 |
-| Total internal cross-links | 956 |
+| Completely isolated (0 in, 0 out) | 27 |
+| Total internal cross-links | 958 |
 | Average outgoing links per post | 5.1 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (28 posts)
+## Priority 1: Completely Isolated Posts (27 posts)
 
 These posts have NO links in or out. Fix these first!
 
@@ -30,7 +30,6 @@ These posts have NO links in or out. Fix these first!
 |------------|------|--------|
 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` | Add 3+ outgoing links |
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | Add 3+ outgoing links |
-| Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | Add 3+ outgoing links |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | Add 3+ outgoing links |
 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein-citations.md` | Add 3+ outgoing links |
 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein.md` | Add 3+ outgoing links |
@@ -65,13 +64,13 @@ These posts don't link to any other content.
 
 | Post Title | Path | Incoming Links |
 |------------|------|----------------|
+| Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | 1 |
 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` | 1 |
 | Untitled | `community/societal-ticking-time-bombs-fact-check.md` | 0 |
 | Untitled | `enneagram/enneagram-dating-guide-captivate-deeper.md` | 0 |
 | Untitled | `enneagram/enneagram-dating-guide-captivate.md` | 0 |
 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` | 0 |
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | 0 |
-| Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` | 0 |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | 0 |
 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein-citations.md` | 0 |
 | Untitled | `pop-culture/epstien-research/Jeffrey-Epstein-luring-tactics.md` | 0 |
@@ -118,6 +117,7 @@ These posts are "orphaned" - no other content links to them.
 | Enneagram Social Styles: The Hornevian Triads, Decoded | `enneagram/enneagram-social-styles.md` | 2 |
 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | 2 |
 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
+| The Anatomy of Public Shame: What We | `pop-culture/psychology-of-public-shame.md` | 2 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` | 1 |
 | The PayPal Mafia: How One Company Produced More Tech Billion... | `pop-culture/tech-titans-paypal-mafia.md` | 1 |
@@ -237,10 +237,10 @@ Sorted by total connections (incoming + outgoing).
 | 14 | 5 | 9 | Enneagram Dating Guide for Men: Type-Specific Strategies Tha... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 14 | 10 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 14 | 6 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
+| 14 | 9 | 5 | Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` |
 | 13 | 5 | 8 | What to Say to Each Enneagram Type (Scripts That Actually Wo... | `enneagram/enneagram-communication-tips.md` |
 | 13 | 7 | 6 | Enneagram Personal Growth: Why Type 3s Can | `enneagram/enneagram-personal-growth.md` |
 | 13 | 3 | 10 | Productivity Systems by Enneagram Type | `guides/productivity-systems-by-enneagram-type.md` |
-| 13 | 8 | 5 | Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` |
 | 13 | 7 | 6 | Tech Titans Through the Enneagram: A Series on the Personali... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 12 | 6 | 6 | How Minds Actually Change | `community/how-minds-change-on-9takes.md` |
 | 12 | 4 | 8 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
@@ -348,7 +348,9 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | The Stress Paradox: Why Emotional Patterns Outlast Situation... | `enneagram/situations-change-emotions-dont.md` |
 | 2 | 0 | 2 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` |
 | 2 | 0 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |
+| 2 | 0 | 2 | The Anatomy of Public Shame: What We | `pop-culture/psychology-of-public-shame.md` |
 | 2 | 1 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
+| 1 | 1 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 1 | 1 | 0 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
 | 1 | 0 | 1 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` |
@@ -359,7 +361,6 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | Untitled | `enneagram/enneagram-dating-guide-captivate.md` |
 | 0 | 0 | 0 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` |
 | 0 | 0 | 0 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` |
-| 0 | 0 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 0 | 0 | 0 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` |
 | 0 | 0 | 0 | Jeffrey Epstein: The Dark Helper - An Enneagram Type 2 Analy... | `pop-culture/epstien-research/Jeffrey-Epstein-citations.md` |
 | 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/Jeffrey-Epstein-luring-tactics.md` |
