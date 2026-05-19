@@ -15,6 +15,41 @@ type: ['creator', 'tiktoker', 'lifestyle-builder']
 person: 'keith-lee'
 suggestions: ['Jelly-Roll', 'Dave-Chappelle', 'Bella-Poarch', 'Keanu-Reeves']
 wikipedia: 'https://en.wikipedia.org/wiki/Keith_Lee_(food_critic)'
+wikidata_qid: 'Q119207555'
+birth_date: '1996-10-04'
+birth_place: 'Detroit, Michigan, United States'
+nationality: 'American'
+occupation:
+  - 'Writer'
+knows_about:
+  - 'Writing'
+  - 'Digital media'
+  - 'Writer'
+keywords:
+  - 'Keith Lee enneagram'
+  - 'Keith Lee type 9'
+  - 'Keith Lee Enneagram Type 9'
+  - 'Keith Lee personality'
+  - 'Keith Lee personality type'
+  - 'Keith Lee analysis'
+  - 'Peacemaker enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Keith_Lee_(food_critic)'
+  - 'https://www.wikidata.org/wiki/Q119207555'
+citations:
+  - 'https://en.wikipedia.org/wiki/Keith_Lee_(food_critic)'
+  - 'https://www.wikidata.org/wiki/Q119207555'
+  - 'https://www.kgw.com/article/life/food/tiktok-food-critic-keith-lee-portland-food-tour/283-286b4b1e-b364-46cf-b6d3-48a26a64b705'
+  - 'https://blockclubchicago.org/2026/04/20/after-viral-lifeline-from-tiktoker-keith-lee-amici-is-closing/'
+  - 'https://sfstandard.com/2024/01/12/keith-lee-ends-bay-area-tour-hospital-safety-fears/'
+  - 'https://www.rollingstone.com/culture/culture-features/keith-lee-food-critic-tiktok-1235030611/'
+faqs:
+  - question: 'What is Keith Lee''s personality type?'
+    answer: 'The popular misread of Keith Lee is "shy guy who got lucky on TikTok." It''s not a shy guy. It''s a Nine.'
+    anchor: 'what-is-keith-lees-personality-type'
+  - question: 'Why is Keith Lee typed as an Enneagram Type 9?'
+    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Digital media, Writer.'
+    anchor: 'why-is-keith-lee-typed-as-an-enneagram-type-9'
 tiktok: 'keith_lee125'
 production_pretext:
   status: draft
@@ -339,4 +374,3 @@ PRIORITY FIXES:
 3. Reframe the shellfish ER moment as the explicit 9-under-stress beat. It's already in the piece; just name what it is so the type architecture has both directions.
 
 ============================================================ -->
-

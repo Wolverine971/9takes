@@ -15,6 +15,41 @@ type: ['celebrity', 'celebrity-image']
 person: 'alysa-liu'
 suggestions: ['Brittany-Broski', 'Benson-Boone', 'Doja-Cat', 'Bad-Bunny']
 wikipedia: 'https://en.wikipedia.org/wiki/Alysa_Liu'
+wikidata_qid: 'Q55356854'
+imdb_id: 'nm10438384'
+birth_date: '2005-08-08'
+birth_place: 'Clovis, California, United States'
+nationality: 'American'
+occupation:
+  - 'Figure Skater'
+knows_about:
+  - 'Figure skating'
+  - 'Figure Skater'
+keywords:
+  - 'Alysa Liu enneagram'
+  - 'Alysa Liu type 7'
+  - 'Alysa Liu Enneagram Type 7'
+  - 'Alysa Liu personality'
+  - 'Alysa Liu personality type'
+  - 'Alysa Liu analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Alysa_Liu'
+  - 'https://www.wikidata.org/wiki/Q55356854'
+  - 'https://www.imdb.com/name/nm10438384/'
+  - 'https://alysaliu.figureskatersonline.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Alysa_Liu'
+  - 'https://www.wikidata.org/wiki/Q55356854'
+  - 'https://www.imdb.com/name/nm10438384/'
+  - 'https://alysaliu.figureskatersonline.com/'
+faqs:
+  - question: 'What is Alysa Liu''s Personality Type?'
+    answer: 'Type 7s — Enthusiasts in classical Enneagram language — are wired to convert limitation into possibility. Their minds run a constant scan for what is fun, what is next, what is interesting, what could be. Their core fear is being trapped in pain or deprivation. Their core defense is to keep moving, keep planning, keep finding the next thing.'
+    anchor: 'what-is-alysa-lius-personality-type'
+  - question: 'Why is Alysa Liu typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Figure skating, Figure Skater.'
+    anchor: 'why-is-alysa-liu-typed-as-an-enneagram-type-7'
 instagram: 'alysaliu'
 production_pretext:
   status: draft

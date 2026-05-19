@@ -14,7 +14,7 @@ enneagram: 8
 type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'bradley-martyn'
 suggestions: ['Sara-Saffari', 'Mike-Majlak', 'Sky-Bri', 'Joe-Rogan', 'Jake-Paul']
-wikipedia: 'https://en.wikipedia.org/wiki/Bradley_Martyn'
+wikipedia: ''
 wikidata_qid: 'Q123029715'
 imdb_id: 'nm8494471'
 birth_date: '1989-05-22'

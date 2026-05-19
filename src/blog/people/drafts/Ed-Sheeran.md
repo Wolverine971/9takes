@@ -68,13 +68,14 @@ faqs:
   - question: 'Why did Ed Sheeran build Sheeranville?'
     answer: 'After eight years of working on his anxiety, Sheeran built a private compound around his Suffolk childhood home in Framlingham — pub, recording studio, chapel, treehouse, 24-hour security against kidnapping threats. He eliminated his phone, cut his friendship group to four people, and built the pub so he could go out without being mobbed. "We have a level of security that probably won''t change until I pass away." The boy from Framlingham became the biggest pop star on Earth and then spent millions of pounds rebuilding Framlingham around himself so he could disappear back into it.'
     anchor: 'sheeranville'
+content_quality:
   hook: 9
   enneagram: 9
   evidence: 8
   writing: 9
   originality: 9
   overall: 8.8
-  letter: B+
+  letter: 'B+'
   graded_at: '2026-04-09'
 production_pretext:
   status: draft
@@ -410,4 +411,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Add 2-3 sentences engaging with the legitimate critique that he's a manufactured ubiquity, not a quiet artist — the piece is so sympathetic that a skeptical reader will distrust it.
 
 ============================================================ -->
-

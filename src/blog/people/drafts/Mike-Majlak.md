@@ -15,6 +15,41 @@ type: ['creator', 'influencer', 'viral-entertainer']
 person: 'mike-majlak'
 suggestions: ['Logan-Paul', 'Sara-Saffari', 'Bradley-Martyn', 'Theo-Von', 'Tim-Dillon']
 wikipedia: 'https://en.wikipedia.org/wiki/Mike_Majlak'
+wikidata_qid: 'Q131804181'
+birth_date: '1985-01-13'
+birth_place: 'Milford, Connecticut, United States'
+nationality: 'American'
+occupation:
+  - 'YouTuber'
+  - 'Writer'
+knows_about:
+  - 'YouTube content creation'
+  - 'Writing'
+  - 'Digital media'
+  - 'YouTuber'
+  - 'Writer'
+keywords:
+  - 'Mike Majlak enneagram'
+  - 'Mike Majlak type 7'
+  - 'Mike Majlak Enneagram Type 7'
+  - 'Mike Majlak personality'
+  - 'Mike Majlak personality type'
+  - 'Mike Majlak analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Mike_Majlak'
+  - 'https://www.wikidata.org/wiki/Q131804181'
+citations:
+  - 'https://en.wikipedia.org/wiki/Mike_Majlak'
+  - 'https://www.wikidata.org/wiki/Q131804181'
+  - 'https://youtube.com/impaulsive'
+faqs:
+  - question: 'What is Mike Majlak''s personality type?'
+    answer: 'The Enneagram Seven is called "The Enthusiast," but that label undersells what''s actually happening inside. Sevens are wired with a possibility engine: a cognitive system that automatically generates alternatives, options, and escape routes whenever reality becomes painful. Something bad happens, and within milliseconds, the Seven''s mind has already reframed it, pivoted away from it, or replaced it with something more exciting.'
+    anchor: 'what-is-mike-majlaks-personality-type'
+  - question: 'Why is Mike Majlak typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Writing, Digital media.'
+    anchor: 'why-is-mike-majlak-typed-as-an-enneagram-type-7'
 twitter: 'https://twitter.com/mikemajlak'
 instagram: 'https://instagram.com/mikemajlak'
 tiktok: 'https://tiktok.com/@mikemajlak'

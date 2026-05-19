@@ -15,6 +15,43 @@ type: ['influencer', 'creator', 'streamer']
 person: 'clavicular'
 suggestions: ['Adin-Ross', 'Andrew-Tate', 'Trisha-Paytas', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Clavicular_(influencer)'
+wikidata_qid: 'Q138026713'
+imdb_id: 'nm18224456'
+birth_date: '2005-12-17'
+birth_place: 'Hoboken, New Jersey, United States'
+nationality: 'American'
+occupation:
+  - 'Online Streamer'
+  - 'Influencer'
+knows_about:
+  - 'Incelosphere'
+  - 'Manosphere'
+  - 'Digital media'
+  - 'Online Streamer'
+  - 'Influencer'
+keywords:
+  - 'Clavicular enneagram'
+  - 'Clavicular type 4'
+  - 'Clavicular Enneagram Type 4'
+  - 'Clavicular personality'
+  - 'Clavicular personality type'
+  - 'Clavicular analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Clavicular_(influencer)'
+  - 'https://www.wikidata.org/wiki/Q138026713'
+  - 'https://www.imdb.com/name/nm18224456/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Clavicular_(influencer)'
+  - 'https://www.wikidata.org/wiki/Q138026713'
+  - 'https://www.imdb.com/name/nm18224456/'
+faqs:
+  - question: 'What is Clavicular''s personality type?'
+    answer: 'The Enneagram''s Type 4 is the Individualist — the kid who looked across the dinner table at his own family and decided everyone else got a manual he didn''t. Type 4s build identity from the texture of their not-belonging. The wound becomes the self. Authenticity gets defined as whatever feels most uniquely broken.'
+    anchor: 'what-is-claviculars-personality-type'
+  - question: 'Why is Clavicular typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Incelosphere, Manosphere, Digital media.'
+    anchor: 'why-is-clavicular-typed-as-an-enneagram-type-4'
 twitter: 'Clavicular0'
 instagram: 'clavicular0'
 tiktok: '@kingclavicular'

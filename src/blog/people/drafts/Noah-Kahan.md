@@ -15,6 +15,42 @@ type: ['musician']
 person: 'noah-kahan'
 suggestions: ['Hozier', 'Lana-Del-Rey', 'Olivia-Rodrigo', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Noah_Kahan'
+wikidata_qid: 'Q53832755'
+imdb_id: 'nm9664454'
+birth_date: '1997-01-01'
+birth_place: 'Strafford, Vermont, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Composer'
+knows_about:
+  - 'Singing'
+  - 'Music'
+  - 'Singer'
+  - 'Composer'
+keywords:
+  - 'Noah Kahan enneagram'
+  - 'Noah Kahan type 4'
+  - 'Noah Kahan Enneagram Type 4'
+  - 'Noah Kahan personality'
+  - 'Noah Kahan personality type'
+  - 'Noah Kahan analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Noah_Kahan'
+  - 'https://www.wikidata.org/wiki/Q53832755'
+  - 'https://www.imdb.com/name/nm9664454/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Noah_Kahan'
+  - 'https://www.wikidata.org/wiki/Q53832755'
+  - 'https://www.imdb.com/name/nm9664454/'
+faqs:
+  - question: 'What is Noah Kahan''s personality type?'
+    answer: 'Noah Kahan is a Type 4 with a 5 wing — the Individualist with an Investigator''s introversion. The Four is the romantic, the artist, the one who feels fundamentally different. The Four''s core wound is shame: there''s something defective at the center, and no amount of love or success can quite reach it.'
+    anchor: 'what-is-noah-kahans-personality-type'
+  - question: 'Why is Noah Kahan typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Music, Singer.'
+    anchor: 'why-is-noah-kahan-typed-as-an-enneagram-type-4'
 twitter: 'NoahKahan'
 instagram: 'noahkahanmusic'
 tiktok: 'noahkahanmusic'

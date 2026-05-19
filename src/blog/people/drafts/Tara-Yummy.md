@@ -15,6 +15,38 @@ type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'tara-yummy'
 suggestions: ['Addison-Rae', 'Alix-Earle', 'Emma-Chamberlain', 'Paris-Hilton']
 wikipedia: ''
+birth_date: '2000-07-31'
+birth_place: 'Maryland, United States'
+nationality: 'American'
+occupation:
+  - 'Content Creator'
+knows_about:
+  - 'Digital media'
+keywords:
+  - 'Tara Yummy enneagram'
+  - 'Tara Yummy type 2'
+  - 'Tara Yummy Enneagram Type 2'
+  - 'Tara Yummy personality'
+  - 'Tara Yummy personality type'
+  - 'Tara Yummy analysis'
+  - 'Helper enneagram'
+same_as:
+  - 'https://x.com/tarayummy'
+  - 'https://www.instagram.com/tarayummyy'
+  - 'https://www.tiktok.com/@tarayummy'
+citations:
+  - 'https://x.com/tarayummy'
+  - 'https://www.instagram.com/tarayummyy'
+  - 'https://www.tiktok.com/@tarayummy'
+  - 'https://www.kadhal.net/tara-yummy-biography/'
+  - 'https://www.thefamousmagazine.com/tara-yummy/'
+faqs:
+  - question: 'What is Tara Yummy''s Personality Type?'
+    answer: 'Enneagram Twos carry a core belief that runs deeper than any philosophy: to be loved, you must be useful. You must give. You must be the person who makes the room better.'
+    anchor: 'what-is-tara-yummys-personality-type'
+  - question: 'Why is Tara Yummy typed as an Enneagram Type 2?'
+    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media.'
+    anchor: 'why-is-tara-yummy-typed-as-an-enneagram-type-2'
 twitter: 'tarayummy'
 instagram: 'tarayummyy'
 tiktok: 'tarayummy'

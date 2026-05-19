@@ -15,6 +15,35 @@ type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'shaan-puri'
 suggestions: ['Sam-Parr', 'John-Coogan', 'Reid-Hoffman', 'Patrick-Bet-David', 'Tim-Ferriss']
 wikipedia: ''
+birth_date: '1988-04-25'
+birth_place: 'San Francisco, California, United States'
+nationality: 'American'
+occupation:
+  - 'Content Creator'
+  - 'Entrepreneur'
+knows_about:
+  - 'Digital media'
+  - 'Entrepreneurship'
+keywords:
+  - 'Shaan Puri enneagram'
+  - 'Shaan Puri type 7'
+  - 'Shaan Puri Enneagram Type 7'
+  - 'Shaan Puri personality'
+  - 'Shaan Puri personality type'
+  - 'Shaan Puri analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://twitter.com/ShaanVP'
+citations:
+  - 'https://twitter.com/ShaanVP'
+  - 'https://www.capitalism.com/shaan-puri-crypto-copywriting-and-podcasting-his-way-to-millions/'
+faqs:
+  - question: 'What is Shaan Puri''s Personality Type?'
+    answer: 'The pattern hides in plain sight. Not in the exits or the follower count, but in the way Shaan has structured his entire life around one principle: never get trapped.'
+    anchor: 'what-is-shaan-puris-personality-type'
+  - question: 'Why is Shaan Puri typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Entrepreneurship.'
+    anchor: 'why-is-shaan-puri-typed-as-an-enneagram-type-7'
 twitter: 'https://twitter.com/ShaanVP'
 instagram: ''
 tiktok: ''

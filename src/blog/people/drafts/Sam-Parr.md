@@ -15,6 +15,31 @@ type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'sam-parr'
 suggestions: ['Shaan-Puri', 'Patrick-Bet-David', 'Scott-Galloway', 'Alex-Hormozi', 'Gary-Vee']
 wikipedia: ''
+occupation:
+  - 'Content Creator'
+  - 'Entrepreneur'
+knows_about:
+  - 'Digital media'
+  - 'Entrepreneurship'
+keywords:
+  - 'Sam Parr enneagram'
+  - 'Sam Parr type 8'
+  - 'Sam Parr Enneagram Type 8'
+  - 'Sam Parr personality'
+  - 'Sam Parr personality type'
+  - 'Sam Parr analysis'
+  - 'Challenger enneagram'
+same_as:
+  - 'https://twitter.com/thesamparr'
+citations:
+  - 'https://twitter.com/thesamparr'
+faqs:
+  - question: 'What is Sam Parr''s Personality Type?'
+    answer: 'The core wound of Type 8 is the belief that the world will exploit vulnerability. The response: become invulnerable, or at least look that way. Eights don''t charge forward because they''re fearless. They charge forward because standing still feels like death.'
+    anchor: 'what-is-sam-parrs-personality-type'
+  - question: 'Why is Sam Parr typed as an Enneagram Type 8?'
+    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Entrepreneurship.'
+    anchor: 'why-is-sam-parr-typed-as-an-enneagram-type-8'
 twitter: 'https://twitter.com/thesamparr'
 instagram: ''
 tiktok: ''

@@ -15,6 +15,46 @@ type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'kate-beckinsale'
 suggestions: ['Robin-Williams', 'Kevin-Hart', 'Hugh-Jackman', 'Salma-Hayek']
 wikipedia: 'https://en.wikipedia.org/wiki/Kate_Beckinsale'
+wikidata_qid: 'Q179414'
+imdb_id: 'nm0000295'
+birth_date: '1973-07-26'
+birth_place: 'Chiswick, England, United Kingdom'
+nationality: 'British'
+occupation:
+  - 'Actor'
+  - 'Film Actor'
+  - 'Stage Actor'
+  - 'Model'
+knows_about:
+  - 'Acting'
+  - 'Film acting'
+  - 'Modeling'
+  - 'Actor'
+  - 'Film Actor'
+  - 'Stage Actor'
+keywords:
+  - 'Kate Beckinsale enneagram'
+  - 'Kate Beckinsale type 7'
+  - 'Kate Beckinsale Enneagram Type 7'
+  - 'Kate Beckinsale personality'
+  - 'Kate Beckinsale personality type'
+  - 'Kate Beckinsale analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Kate_Beckinsale'
+  - 'https://www.wikidata.org/wiki/Q179414'
+  - 'https://www.imdb.com/name/nm0000295/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Kate_Beckinsale'
+  - 'https://www.wikidata.org/wiki/Q179414'
+  - 'https://www.imdb.com/name/nm0000295/'
+faqs:
+  - question: 'What is Kate Beckinsale''s Personality Type?'
+    answer: 'Type Sevens are the Enneagram''s Enthusiasts. Their core fear is being trapped in pain, and their survival strategy is to keep moving — toward the next plan, the next idea, the next reframe — fast enough that the pain never quite catches them. They are often brilliant, articulate, charming, and superficially fine in a way that can fool everyone, including themselves. We can see evidence of this pattern in Beckinsale''s life from the moment her father died, when a five-year-old started building a coping system she would carry for the next half-century.'
+    anchor: 'what-is-kate-beckinsales-personality-type'
+  - question: 'Why is Kate Beckinsale typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Modeling.'
+    anchor: 'why-is-kate-beckinsale-typed-as-an-enneagram-type-7'
 instagram: 'katebeckinsale'
 content_quality:
   hook: 9.0

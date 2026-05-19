@@ -1,6 +1,6 @@
 ---
-title: `To the Loneliest Generation- A Manifesto for Those Who Don't Fit In`
-description: `You're not broken. The world is. Here's how understanding the emotions behind every take can help us heal the isolation, polarization, and anxiety tearing us apart.`
+title: "To the Loneliest Generation- A Manifesto for Those Who Don't Fit In"
+description: "You're not broken. The world is. Here's how understanding the emotions behind every take can help us heal the isolation, polarization, and anxiety tearing us apart."
 author: 'For those who feel it'
 date: '2025-06-05'
 loc: 'https://9takes.com/community/manifesto'

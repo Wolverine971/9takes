@@ -15,6 +15,40 @@ type: ['business', 'business-operator']
 person: 'leila-hormozi'
 suggestions: ['Alex-Hormozi', 'Tony-Robbins', 'Gary-Vee']
 wikipedia: ''
+birth_date: '1992-07-13'
+birth_place: 'United States'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+knows_about:
+  - 'Entrepreneurship'
+keywords:
+  - 'Leila Hormozi enneagram'
+  - 'Leila Hormozi type 3'
+  - 'Leila Hormozi Enneagram Type 3'
+  - 'Leila Hormozi personality'
+  - 'Leila Hormozi personality type'
+  - 'Leila Hormozi analysis'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://x.com/LeilaHormozi'
+  - 'https://www.instagram.com/leilahormozi'
+  - 'https://www.tiktok.com/@leilahormozi'
+citations:
+  - 'https://gossclub.com/leila-hormozi-interview/'
+  - 'https://davidtogoliath.com/p/untold-rise-leila-hormozi'
+  - 'https://www.tiktok.com/@leilahormozi'
+  - 'https://x.com/LeilaHormozi/status/1591445753267773441'
+  - 'https://strongandsculpted.podbean.com/e/my-mother-tried-to-commit-suicide-in-front-of-me-this-is-how-i-repaid-her-interview-with-leila-hormozi-episode-59/'
+  - 'https://hormozi.blog/doing-my-own-hair-and-makeup/'
+  - 'https://www.famousbirthdays.com/people/leila-hormozi.html'
+faqs:
+  - question: 'What is Leila Hormozi''s Personality Type?'
+    answer: 'Type 3s are called "The Achiever," but that label flattens what''s actually happening inside them. The engine isn''t ambition. It''s shame.'
+    anchor: 'what-is-leila-hormozis-personality-type'
+  - question: 'Why is Leila Hormozi typed as an Enneagram Type 3?'
+    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship.'
+    anchor: 'why-is-leila-hormozi-typed-as-an-enneagram-type-3'
 twitter: 'LeilaHormozi'
 instagram: 'leilahormozi'
 tiktok: 'leilahormozi'
@@ -356,4 +390,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Rotate the triplet construction. "Humiliating. Effective." and "Not butterflies. Not chemistry. Recognition." in adjacent sections is a verbal tic readers will register, even subliminally.
 
 ============================================================ -->
-

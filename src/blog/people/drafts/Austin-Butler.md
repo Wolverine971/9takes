@@ -15,6 +15,47 @@ type: ['movieStar', 'screen-icon']
 person: 'austin-butler'
 suggestions: ['Keanu-Reeves', 'Ryan-Gosling', 'Mikey-Madison', 'Brad-Pitt']
 wikipedia: 'https://en.wikipedia.org/wiki/Austin_Butler'
+wikidata_qid: 'Q469954'
+imdb_id: 'nm2581521'
+birth_date: '1991-08-17'
+birth_place: 'Anaheim, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Television Actor'
+  - 'Film Actor'
+  - 'Singer'
+  - 'Model'
+knows_about:
+  - 'Acting'
+  - 'Television acting'
+  - 'Film acting'
+  - 'Singing'
+  - 'Modeling'
+  - 'Modelling'
+keywords:
+  - 'Austin Butler enneagram'
+  - 'Austin Butler type 9'
+  - 'Austin Butler Enneagram Type 9'
+  - 'Austin Butler personality'
+  - 'Austin Butler personality type'
+  - 'Austin Butler analysis'
+  - 'Peacemaker enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Austin_Butler'
+  - 'https://www.wikidata.org/wiki/Q469954'
+  - 'https://www.imdb.com/name/nm2581521/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Austin_Butler'
+  - 'https://www.wikidata.org/wiki/Q469954'
+  - 'https://www.imdb.com/name/nm2581521/'
+faqs:
+  - question: 'What is Austin Butler''s personality type?'
+    answer: 'Type 9s are the Peacemakers. Their core wound is the early lesson that their presence had to soften, dim, blur — that being big inside the room cost them love. So they learned to merge. To agree. To take on the emotional weather of whoever they were standing next to. Healthy 9s become unflappable presences who absorb other people''s edges. Unhealthy 9s lose track of where they end and the room begins.'
+    anchor: 'what-is-austin-butlers-personality-type'
+  - question: 'Why is Austin Butler typed as an Enneagram Type 9?'
+    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
+    anchor: 'why-is-austin-butler-typed-as-an-enneagram-type-9'
 instagram: 'austinbutler'
 production_pretext:
   status: draft

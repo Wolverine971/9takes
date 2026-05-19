@@ -15,6 +15,46 @@ type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'penelope-cruz'
 suggestions: ['Tom-Cruise', 'Pedro-Pascal', 'Scarlett-Johansson', 'Jennifer-Lawrence']
 wikipedia: 'https://en.wikipedia.org/wiki/Penélope_Cruz'
+wikidata_qid: 'Q39666'
+imdb_id: 'nm0004851'
+birth_date: '1974-04-28'
+birth_place: 'Alcobendas, Spain'
+nationality: 'Spanish'
+occupation:
+  - 'Television Presenter'
+  - 'Film Actor'
+  - 'Television Actor'
+  - 'Presenter'
+  - 'Voice Actor'
+  - 'Photographer'
+knows_about:
+  - 'Film acting'
+  - 'Television acting'
+  - 'Voice acting'
+  - 'Film directing'
+keywords:
+  - 'Penélope Cruz enneagram'
+  - 'Penélope Cruz type 6'
+  - 'Penélope Cruz Enneagram Type 6'
+  - 'Penélope Cruz personality'
+  - 'Penélope Cruz personality type'
+  - 'Penélope Cruz analysis'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Penélope_Cruz'
+  - 'https://www.wikidata.org/wiki/Q39666'
+  - 'https://www.imdb.com/name/nm0004851/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Penélope_Cruz'
+  - 'https://www.wikidata.org/wiki/Q39666'
+  - 'https://www.imdb.com/name/nm0004851/'
+faqs:
+  - question: 'What is Penélope Cruz''s Personality Type?'
+    answer: 'Enneagram Sixes do not lead with fear the way the diagnostic books describe. They lead with calculation. The Six is the type whose mind is always two steps ahead of the danger that may or may not arrive — the early-warning system, the one who notices the exit, the one who rehearses the catastrophe so it cannot ambush them. Cruz fits this pattern so cleanly that her own quotes practically grade themselves.'
+    anchor: 'what-is-pen-lope-cruzs-personality-type'
+  - question: 'Why is Penélope Cruz typed as an Enneagram Type 6?'
+    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, Voice acting.'
+    anchor: 'why-is-pen-lope-cruz-typed-as-an-enneagram-type-6'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

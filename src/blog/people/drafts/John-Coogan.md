@@ -15,6 +15,39 @@ type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'john-coogan'
 suggestions: ['Jordi-Hays', 'Shaan-Puri', 'Sam-Altman', 'Peter-Thiel', 'Steven-Bartlett']
 wikipedia: ''
+wikidata_qid: 'Q110865149'
+birth_date: '1989-05-05'
+birth_place: 'Pasadena, California, United States'
+nationality: 'American'
+occupation:
+  - 'Vlogger'
+knows_about:
+  - 'Power Law with John Coogan'
+  - 'Digital media'
+  - 'Entrepreneurship'
+  - 'Vlogger'
+keywords:
+  - 'John Coogan enneagram'
+  - 'John Coogan type 3'
+  - 'John Coogan Enneagram Type 3'
+  - 'John Coogan personality'
+  - 'John Coogan personality type'
+  - 'John Coogan analysis'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://www.wikidata.org/wiki/Q110865149'
+  - 'https://www.johncoogan.com/'
+citations:
+  - 'https://www.wikidata.org/wiki/Q110865149'
+  - 'https://www.johncoogan.com/'
+  - 'https://www.famousbirthdays.com/people/john-coogan.html'
+faqs:
+  - question: 'What is John Coogan''s Personality Type?'
+    answer: 'Enneagram Type 3s are called "The Achievers." But the label undersells the psychology. At the heart of the Type 3 pattern is a tension between shame and pride, a deep, often unconscious fear that you''re only as valuable as your last accomplishment. Achievement becomes proof that you matter. Success isn''t just satisfying; it''s necessary. Without it, the question "but what have you actually done?" becomes unbearable.'
+    anchor: 'what-is-john-coogans-personality-type'
+  - question: 'Why is John Coogan typed as an Enneagram Type 3?'
+    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Power Law with John Coogan, Digital media, Entrepreneurship.'
+    anchor: 'why-is-john-coogan-typed-as-an-enneagram-type-3'
 twitter: 'https://twitter.com/johncoogan'
 instagram: 'https://instagram.com/johncoogan'
 tiktok: ''

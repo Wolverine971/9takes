@@ -15,6 +15,50 @@ type: ['techie', 'entrepreneur', 'business-operator']
 person: 'john-mcafee'
 suggestions: ['Palmer-Luckey', 'Paul-Graham', 'Theo-Von', 'Mike-Majlak']
 wikipedia: 'https://en.wikipedia.org/wiki/John_McAfee'
+wikidata_qid: 'Q45864'
+imdb_id: 'nm2538937'
+birth_date: '1945-09-18'
+birth_place: 'Cinderford, United Kingdom'
+nationality:
+  - 'American'
+  - 'British'
+occupation:
+  - 'Programmer'
+  - 'Engineer'
+  - 'Businessperson'
+  - 'Computer Scientist'
+  - 'Politician'
+knows_about:
+  - 'Business'
+  - 'Politics'
+  - 'Entrepreneurship'
+  - 'Programmer'
+  - 'Engineer'
+  - 'Businessperson'
+keywords:
+  - 'John McAfee enneagram'
+  - 'John McAfee type 7'
+  - 'John McAfee Enneagram Type 7'
+  - 'John McAfee personality'
+  - 'John McAfee personality type'
+  - 'John McAfee analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/John_McAfee'
+  - 'https://www.wikidata.org/wiki/Q45864'
+  - 'https://www.imdb.com/name/nm2538937/'
+citations:
+  - 'https://en.wikipedia.org/wiki/John_McAfee'
+  - 'https://www.wikidata.org/wiki/Q45864'
+  - 'https://www.imdb.com/name/nm2538937/'
+  - 'https://www.sec.gov/news/press-release/2020-246'
+faqs:
+  - question: 'What is John McAfee''s personality type?'
+    answer: 'Type 7s are wired to convert pain into possibility in real time. Disappointment hits, and within milliseconds the mind reroutes: new direction, fresh start, what if instead. It''s not denial. It''s a genuine cognitive talent. Sevens see seventeen exits where most people see a wall.'
+    anchor: 'what-is-john-mcafees-personality-type'
+  - question: 'Why is John McAfee typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Politics, Entrepreneurship.'
+    anchor: 'why-is-john-mcafee-typed-as-an-enneagram-type-7'
 twitter: 'officialmcafee'
 production_pretext:
   status: draft

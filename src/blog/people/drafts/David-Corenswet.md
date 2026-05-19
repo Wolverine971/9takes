@@ -42,7 +42,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/David_Corenswet'
   - 'https://www.wikidata.org/wiki/Q70954450'
   - 'https://www.imdb.com/name/nm4825178/'
-  - 'https://en.wikipedia.org/wiki/Superman_(2025_film)'
 citations:
   - 'https://time.com/7273166/david-corenswet-superman-interview/'
   - 'https://en.wikipedia.org/wiki/David_Corenswet'
@@ -319,4 +318,3 @@ PRIORITY FIXES:
 3. Name the stress arrow (5→7 scattered/escapist) somewhere. Even one sentence — what does Corenswet look like when overwhelmed? — would balance the relentless calm of the read.
 
 ============================================================ -->
-

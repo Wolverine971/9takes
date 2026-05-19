@@ -15,6 +15,43 @@ type: ['author', 'entrepreneur', 'business-operator']
 person: 'simon-sinek'
 suggestions: ['Tony-Robbins', 'Jordan-Peterson', 'Gary-Vee', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/Simon_Sinek'
+wikidata_qid: 'Q7519777'
+birth_date: '1973-10-09'
+birth_place: 'Wimbledon, England, United Kingdom'
+nationality: 'British'
+occupation:
+  - 'Motivational Speaker'
+  - 'Writer'
+knows_about:
+  - 'Writing'
+  - 'Start with why'
+  - 'Leaders Eat Last'
+  - 'Together Is Better: A Little Book of Inspiration'
+  - 'Find Your Why: A Practical Guide for Discovering Purpose for You and Your Team'
+  - 'Entrepreneurship'
+keywords:
+  - 'Simon Sinek enneagram'
+  - 'Simon Sinek type 2'
+  - 'Simon Sinek Enneagram Type 2'
+  - 'Simon Sinek personality'
+  - 'Simon Sinek personality type'
+  - 'Simon Sinek analysis'
+  - 'Helper enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Simon_Sinek'
+  - 'https://www.wikidata.org/wiki/Q7519777'
+  - 'https://www.startwithwhy.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Simon_Sinek'
+  - 'https://www.wikidata.org/wiki/Q7519777'
+  - 'https://www.startwithwhy.com/'
+faqs:
+  - question: 'What is Simon Sinek''s Personality Type?'
+    answer: 'If you understand Type 2, the real driver behind Sinek''s career isn''t intellectual curiosity about organizations. It''s a bone-deep need to be useful. To be the person others can''t do without.'
+    anchor: 'what-is-simon-sineks-personality-type'
+  - question: 'Why is Simon Sinek typed as an Enneagram Type 2?'
+    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Start with why, Leaders Eat Last.'
+    anchor: 'why-is-simon-sinek-typed-as-an-enneagram-type-2'
 twitter: 'simonsinek'
 instagram: 'simonsinek'
 tiktok: '@simonsinek'

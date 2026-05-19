@@ -52,7 +52,7 @@ same_as:
   - 'https://www.britannica.com/biography/Jared-Leto'
 citations:
   - 'https://en.wikipedia.org/wiki/Jared_Leto'
-  - 'https://www.npr.org/transcripts/241982136'
+  - 'https://freshairarchive.org/segments/jared-leto-was-seduced-role-rayon-buyers-club'
   - 'https://collider.com/jared-leto-dallas-buyers-club-interview/'
   - 'https://www.refinery29.com/en-us/2014/01/60624/jared-leto-golden-globes-awards-interview'
   - 'https://www.rollingstone.com/music/music-news/virgin-emi-sue-30-seconds-to-mars-for-30-million-leto-fights-back-244059/'
@@ -94,7 +94,7 @@ content_quality:
 
 "Man, they did a great job," he thought, studying the gaunt face in the mirror. "I'm looking real sick." He pressed a hot towel to his face, scrubbed again, and looked up. The sickness was still there. He scrubbed harder. Same face. Then he realized: it wasn't the makeup anymore. It was just his face. He had lost so much weight — nearly 40 pounds, down to 114 — that the character's dying body had become his own.
 
-"That was a bit of a surprise," he told Terry Gross on [NPR's Fresh Air in October 2013](https://www.npr.org/transcripts/241982136). The choice of word matters. Not alarming. Not unsettling. A surprise — the tone of a man who has long since stopped finding the boundary between self and character particularly interesting.
+"That was a bit of a surprise," he told Terry Gross on [Fresh Air in October 2013](https://freshairarchive.org/segments/jared-leto-was-seduced-role-rayon-buyers-club). The choice of word matters. Not alarming. Not unsettling. A surprise — the tone of a man who has long since stopped finding the boundary between self and character particularly interesting.
 
 The popular explanation is "method acting." But Leto's father died by suicide when he was eight. His mother raised him on food stamps and hippie communes. He learned before he could put it into words that the self you're born with isn't safe — so you'd better get good at being someone else.
 

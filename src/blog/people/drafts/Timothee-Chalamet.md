@@ -15,6 +15,42 @@ type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'timothee-chalamet'
 suggestions: ['Zendaya', 'Kylie-Jenner', 'Bob-Dylan', 'Johnny-Depp', 'Aubrey-Plaza', 'Jared-Leto']
 wikipedia: 'https://en.wikipedia.org/wiki/Timoth%C3%A9e_Chalamet'
+wikidata_qid: 'Q19877770'
+imdb_id: 'nm3154303'
+birth_date: '1995-12-27'
+birth_place: 'Manhattan, New York, United States'
+nationality:
+  - 'French'
+  - 'American'
+occupation:
+  - 'Actor'
+knows_about:
+  - 'Acting'
+  - 'Film acting'
+  - 'Actor'
+keywords:
+  - 'Timothée Chalamet enneagram'
+  - 'Timothée Chalamet type 6'
+  - 'Timothée Chalamet Enneagram Type 6'
+  - 'Timothée Chalamet personality'
+  - 'Timothée Chalamet personality type'
+  - 'Timothée Chalamet analysis'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Timoth%C3%A9e_Chalamet'
+  - 'https://www.wikidata.org/wiki/Q19877770'
+  - 'https://www.imdb.com/name/nm3154303/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Timoth%C3%A9e_Chalamet'
+  - 'https://www.wikidata.org/wiki/Q19877770'
+  - 'https://www.imdb.com/name/nm3154303/'
+faqs:
+  - question: 'What is Timothée Chalamet''s personality type?'
+    answer: 'The simplest version: Chalamet is not driven by certainty. He is driven by what happens when certainty is missing. The preparation, the authority-checking, the backup plans, the cautious relationship timeline, the public ambition followed by immediate qualification — all of it points to someone trying to make unstable ground hold.'
+    anchor: 'what-is-timoth-e-chalamets-personality-type'
+  - question: 'Why is Timothée Chalamet typed as an Enneagram Type 6?'
+    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Actor.'
+    anchor: 'why-is-timoth-e-chalamet-typed-as-an-enneagram-type-6'
 twitter: 'RealChalamet'
 instagram: 'tchalamet'
 tiktok: ''

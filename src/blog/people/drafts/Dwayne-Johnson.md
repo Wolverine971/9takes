@@ -68,6 +68,7 @@ faqs:
   - question: "What is Dwayne Johnson's relationship to depression?"
     answer: "Johnson has publicly named three depressive episodes: after the CFL cut him at 22 with $7 in his pocket, after his 2007 divorce from Dany Garcia, and around the 2022–2023 Black Adam collapse. Each followed the same Type 3 architecture — identity-threatening failure, a stretch of paralysis, then a reinvention total enough to erase the failure from the narrative. The $7 became Seven Bucks. The divorce became the business partnership. Black Adam became the setup for The Smashing Machine. He doesn't process pain — he produces it."
     anchor: 'when-the-scoreboard-went-dark'
+content_quality:
   hook: 9
   enneagram: 9
   evidence: 8.5

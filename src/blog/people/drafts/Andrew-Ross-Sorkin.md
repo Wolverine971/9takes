@@ -15,6 +15,48 @@ type: ['author', 'creator', 'news-commentator']
 person: 'andrew-ross-sorkin'
 suggestions: ['Elon-Musk', 'Mark-Zuckerberg', 'Tucker-Carlson', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Ross_Sorkin'
+wikidata_qid: 'Q506972'
+imdb_id: 'nm3376444'
+birth_date: '1977-02-19'
+birth_place: 'New York City, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Journalist'
+  - 'Writer'
+  - 'Screenwriter'
+  - 'Television Producer'
+knows_about:
+  - 'Journalism'
+  - 'Writing'
+  - 'Screenwriting'
+  - 'Television production'
+  - 'Too Big to Fail'
+  - 'Digital media'
+keywords:
+  - 'Andrew Ross Sorkin enneagram'
+  - 'Andrew Ross Sorkin type 6'
+  - 'Andrew Ross Sorkin Enneagram Type 6'
+  - 'Andrew Ross Sorkin personality'
+  - 'Andrew Ross Sorkin personality type'
+  - 'Andrew Ross Sorkin analysis'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Andrew_Ross_Sorkin'
+  - 'https://www.wikidata.org/wiki/Q506972'
+  - 'https://www.imdb.com/name/nm3376444/'
+  - 'https://www.andrewrosssorkin.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Andrew_Ross_Sorkin'
+  - 'https://www.wikidata.org/wiki/Q506972'
+  - 'https://www.imdb.com/name/nm3376444/'
+  - 'https://www.andrewrosssorkin.com/'
+faqs:
+  - question: 'What is Andrew Ross Sorkin''s personality type?'
+    answer: 'The Enneagram Type 6 — the Loyalist, sometimes called the Skeptic — is the personality wired around one central question: what can I trust here? Sixes manage their lives by preparing for what could go wrong. They build safety through verification, loyalty to institutions that have proven reliable, and a constant background scan for hidden danger.'
+    anchor: 'what-is-andrew-ross-sorkins-personality-type'
+  - question: 'Why is Andrew Ross Sorkin typed as an Enneagram Type 6?'
+    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Writing, Screenwriting.'
+    anchor: 'why-is-andrew-ross-sorkin-typed-as-an-enneagram-type-6'
 twitter: 'andrewrsorkin'
 instagram: 'sorkinsays'
 production_pretext:

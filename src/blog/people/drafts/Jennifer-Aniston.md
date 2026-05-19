@@ -45,9 +45,9 @@ same_as:
 citations:
   - 'https://en.wikipedia.org/wiki/Jennifer_Aniston'
   - 'https://www.allure.com/story/jennifer-aniston-december-2022-cover-interview'
-  - 'https://www.interview.com/jennifer-aniston-sandra-bullock'
+  - 'https://www.interviewmagazine.com/culture/jennifer-aniston-cover-story-sandra-bullock-march-2020'
   - 'https://archive.vanityfair.com/article/2005/9/the-unsinkable-jennifer-aniston'
-  - 'https://www.menshealth.com/entertainment/a63048946/jennifer-aniston-profile/'
+  - 'https://www.latimes.com/archives/blogs/ministry-of-gossip/story/2011-12-11/jennifer-aniston-named-sexiest-woman-of-all-time'
 faqs:
   - question: "What is Jennifer Aniston's personality type?"
     answer: "Jennifer Aniston is an Enneagram Type 9 (The Peacemaker). The pattern shows in the volatile childhood that taught her erasure was survival, the 'social glue' role she plays in every friendship, the decades she let tabloids write her story rather than correct them, and the four years of therapy spent on a single project: teaching her that expressing anger wouldn't get her killed in response."

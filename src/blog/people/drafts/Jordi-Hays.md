@@ -15,6 +15,33 @@ type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'jordi-hays'
 suggestions: ['John-Coogan', 'Chamath-Palihapitiya', 'Alex-Hormozi', 'Gary-Vee']
 wikipedia: ''
+occupation:
+  - 'Content Creator'
+  - 'Entrepreneur'
+knows_about:
+  - 'Digital media'
+  - 'Entrepreneurship'
+keywords:
+  - 'Jordi Hays enneagram'
+  - 'Jordi Hays type 3'
+  - 'Jordi Hays Enneagram Type 3'
+  - 'Jordi Hays personality'
+  - 'Jordi Hays personality type'
+  - 'Jordi Hays analysis'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://x.com/jordihays'
+  - 'https://www.instagram.com/jordihays'
+citations:
+  - 'https://x.com/jordihays'
+  - 'https://www.instagram.com/jordihays'
+faqs:
+  - question: 'What is Jordi Hays''s personality type?'
+    answer: 'The evidence isn''t subtle. It''s woven into every sentence he''s ever said about himself.'
+    anchor: 'what-is-jordi-hayss-personality-type'
+  - question: 'Why is Jordi Hays typed as an Enneagram Type 3?'
+    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Entrepreneurship.'
+    anchor: 'why-is-jordi-hays-typed-as-an-enneagram-type-3'
 twitter: 'jordihays'
 instagram: 'jordihays'
 tiktok: ''

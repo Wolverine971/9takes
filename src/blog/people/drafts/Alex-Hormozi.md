@@ -14,6 +14,7 @@ enneagram: 3
 type: ['entrepreneur', 'business-operator']
 person: 'alex-hormozi'
 suggestions: ['Patrick-Bet-David', 'Sam-Parr', 'Tony-Robbins', 'Gary-Vee', 'Leila-Hormozi']
+wikipedia: ''
 wikidata_qid: 'Q117803902'
 birth_date: '1988-08-18'
 birth_place: 'Towson, Maryland, United States'
@@ -36,6 +37,8 @@ same_as:
   - 'https://www.acquisition.com/bio-alex'
   - 'https://www.linkedin.com/in/alexhormozi/'
   - 'https://www.youtube.com/@AlexHormozi'
+citations:
+  - 'https://www.wikidata.org/wiki/Q117803902'
 faqs:
   - question: "What is Alex Hormozi's Enneagram type?"
     answer: "Alex Hormozi reads as an Enneagram Type 3 with a strong 8 wing (3w8). His brand is literally built on measurable success: $100M Offers, $100M Leads, $100M Money Models. Same three meals daily, same black t-shirt, 4am wake-ups, and a stated philosophy that 'Grow or Die.' The 8 wing adds the directness and confrontational edge, but the core engine is the Achiever's fear of being worthless without accomplishment."

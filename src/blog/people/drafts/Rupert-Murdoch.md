@@ -15,6 +15,49 @@ type: ['entrepreneur', 'celebrity', 'celebrity-image', 'business-operator']
 person: 'rupert-murdoch'
 suggestions: ['Donald-Trump', 'Jeff-Bezos', 'Vladimir-Putin', 'Winston-Churchill']
 wikipedia: 'https://en.wikipedia.org/wiki/Rupert_Murdoch'
+wikidata_qid: 'Q53944'
+imdb_id: 'nm0613770'
+birth_date: '1931-03-11'
+birth_place: 'Melbourne, Victoria, Australia'
+nationality:
+  - 'American'
+  - 'Australian'
+occupation:
+  - 'Publisher'
+  - 'Entrepreneur'
+  - 'Financier'
+  - 'Businessperson'
+  - 'Media Proprietor'
+knows_about:
+  - 'Entrepreneurship'
+  - 'Business'
+  - 'Publisher'
+  - 'Entrepreneur'
+  - 'Financier'
+  - 'Businessperson'
+keywords:
+  - 'Rupert Murdoch enneagram'
+  - 'Rupert Murdoch type 8'
+  - 'Rupert Murdoch Enneagram Type 8'
+  - 'Rupert Murdoch personality'
+  - 'Rupert Murdoch personality type'
+  - 'Rupert Murdoch analysis'
+  - 'Challenger enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Rupert_Murdoch'
+  - 'https://www.wikidata.org/wiki/Q53944'
+  - 'https://www.imdb.com/name/nm0613770/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Rupert_Murdoch'
+  - 'https://www.wikidata.org/wiki/Q53944'
+  - 'https://www.imdb.com/name/nm0613770/'
+faqs:
+  - question: 'What Is Rupert Murdoch''s Personality Type?'
+    answer: 'The classic Type 8 — Riso and Hudson''s "Challenger" — has one core fear: being controlled, harmed, or made vulnerable again. The architecture is built backwards from a wound. Whatever made them feel powerless once, they spend their lives making sure it can never reach them.'
+    anchor: 'what-is-rupert-murdochs-personality-type'
+  - question: 'Why is Rupert Murdoch typed as an Enneagram Type 8?'
+    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Business, Publisher.'
+    anchor: 'why-is-rupert-murdoch-typed-as-an-enneagram-type-8'
 twitter: 'rupertmurdoch'
 production_pretext:
   status: draft

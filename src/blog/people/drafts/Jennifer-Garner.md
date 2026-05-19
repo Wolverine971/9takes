@@ -14,6 +14,7 @@ enneagram: 2
 type: ['movieStar', 'screen-icon']
 person: 'jennifer-garner'
 suggestions: ['Meryl-Streep', 'Kristen-Bell', 'Ben-Affleck', 'Anne-Hathaway', 'Scarlett-Johansson']
+wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Garner'
 wikidata_qid: 'Q172044'
 imdb_id: 'nm0004950'
 birth_date: '1972-04-17'
@@ -47,8 +48,8 @@ citations:
   - 'https://en.wikipedia.org/wiki/Jennifer_Garner'
   - 'https://archive.vanityfair.com/article/2016/3/jennifer-garner-ben-affleck-divorce'
   - 'https://www.instyle.com/celebrity/jennifer-garner-2019-cover'
-  - 'https://www.today.com/food/people/jennifer-garner-pretend-cooking-show-rcna146716'
-  - 'https://www.howardstern.com/show/2021/12/14/ben-affleck-talks-jennifer-garner-jennifer-lopez-and-the-tender-bar/'
+  - 'https://abcnews.go.com/amp/GMA/Culture/jennifer-garner-talks-pretend-cooking-show-holiday-plans/story?id=73903693'
+  - 'https://www.howardstern.com/news/2021/12/16/ben-affleck-opens-up-about-nearly-losing-his-career-and-how-he-made-his-big-comeback/'
 faqs:
   - question: "What is Jennifer Garner's personality type?"
     answer: "Jennifer Garner is an Enneagram Type 2 (The Helper), with a strong 1 wing. The pattern shows in the public self-definition as 'the model middle child' who likes taking care of everyone, the 'useful' platforms she builds (Pretend Cooking Show, Once Upon a Farm baby-food, Save the Children advocacy), the 2018 paparazzi photo of her driving Ben Affleck to rehab after the marriage ended, and the Al-Anon work she credits with 'changing the dance' — the recognition that her caretaking had hardened into control."
@@ -190,7 +191,7 @@ The Type 2 reading: a leading lady has to demand the room. A supporting actor ca
 
 Since 2017, Garner has posted what she calls her "Pretend Cooking Show" — recipes filmed in her own kitchen, messy counters and all.
 
-"Pretty much it's just, 'Hey, we have a couple hours, what do I want to make for lunch or bake for the kids?' and we go ahead and just shoot it," she told _Today_ in 2021. "We don't think ahead and plan it, it's more random."
+"Pretty much it's just, 'Hey, we have a couple hours, what do I want to make for lunch or bake for the kids?' and we go ahead and just shoot it," she told _Good Morning America_ in 2020. "We don't think ahead and plan it, it's more random."
 
 The most interesting word in that sentence isn't "random." It's "pretend."
 

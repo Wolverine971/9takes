@@ -61,7 +61,7 @@ faqs:
   - question: 'Why did Halle Berry call her own Oscar a "vessel" moment that "meant nothing"?'
     answer: "In 2002 she shrank behind a representation duty within thirty seconds of taking the stage, naming Dandridge, Horne, Carroll, and 'every nameless, faceless woman of color.' Fifteen years later at Cannes Lions, with no other Black woman having won Best Actress in the intervening decade and a half, she said the moment 'meant nothing.' For a Type 3, the existential horror is when the performance works and the meaning still doesn't arrive. The door opened and behind it was an empty hallway."
     anchor: 'what-halle-berrys-oscar-speech-actually-revealed-about-her-wiring'
-  - question: 'Why do Halle Berry\'s relationships keep ending around three years?'
+  - question: "Why do Halle Berry's relationships keep ending around three years?"
     answer: "On Armchair Expert in 2024, she named the pattern herself: she had entered relationships 'for the wrong reasons,' fusing with partners whose identity confirmed her current performance — the baseball star, the R&B singer, the Versace supermodel, the French action star. A Sexual Three's identity is stitched into being chosen by one person, so when the performance shifts, the partnership cannot. The Van Hunt relationship is the first one she says she has not tried to 'manipulate.'"
     anchor: 'why-halle-berrys-relationships-keep-ending-around-three-years'
   - question: 'How did Halle Berry turn a perimenopause misdiagnosis into ReSpin?'
@@ -435,4 +435,3 @@ She is still doing it.
 - Storm-specific cost detail (white wig, accent debates, franchise loyalty) — currently named but not unpacked
 - Aubry custody fight has one timeline line; could become its own beat in a future revision
 -->
-

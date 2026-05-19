@@ -15,6 +15,48 @@ type: ['celebrity', 'movieStar', 'techie', 'entrepreneur', 'screen-icon', 'busin
 person: 'ashton-kutcher'
 suggestions: ['Mila-Kunis', 'Steve-Jobs', 'Sam-Altman', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Ashton_Kutcher'
+wikidata_qid: 'Q164782'
+imdb_id: 'nm0005110'
+birth_date: '1978-02-07'
+birth_place: 'Cedar Rapids, Iowa, United States'
+nationality: 'American'
+occupation:
+  - 'Television Actor'
+  - 'Film Actor'
+  - 'Financier'
+  - 'Comedian'
+  - 'Model'
+  - 'Actor'
+knows_about:
+  - 'Television acting'
+  - 'Film acting'
+  - 'Comedy'
+  - 'Modeling'
+  - 'Acting'
+  - 'Television production'
+keywords:
+  - 'Ashton Kutcher enneagram'
+  - 'Ashton Kutcher type 7'
+  - 'Ashton Kutcher Enneagram Type 7'
+  - 'Ashton Kutcher personality'
+  - 'Ashton Kutcher personality type'
+  - 'Ashton Kutcher analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ashton_Kutcher'
+  - 'https://www.wikidata.org/wiki/Q164782'
+  - 'https://www.imdb.com/name/nm0005110/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ashton_Kutcher'
+  - 'https://www.wikidata.org/wiki/Q164782'
+  - 'https://www.imdb.com/name/nm0005110/'
+faqs:
+  - question: 'What is Ashton Kutcher''s personality type?'
+    answer: 'The Seven is "The Enthusiast." Core fear: being trapped in pain, deprivation, or limitation. Core desire: to be satisfied, content, and free. The engine is gluttony — not for food, but for experience, possibility, novelty. Sevens stay one step ahead of the question they don''t want to sit with by moving toward the next thing.'
+    anchor: 'what-is-ashton-kutchers-personality-type'
+  - question: 'Why is Ashton Kutcher typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Television acting, Film acting, Comedy.'
+    anchor: 'why-is-ashton-kutcher-typed-as-an-enneagram-type-7'
 twitter: 'aplusk'
 instagram: 'aplusk'
 production_pretext:

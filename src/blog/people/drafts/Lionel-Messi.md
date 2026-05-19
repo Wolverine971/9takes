@@ -15,6 +15,47 @@ type: ['celebrity', 'celebrity-image']
 person: 'lionel-messi'
 suggestions: ['Cristiano-Ronaldo', 'David-Beckham', 'Kobe-Bryant', 'Michael-Jordan']
 wikipedia: 'https://en.wikipedia.org/wiki/Lionel_Messi'
+wikidata_qid: 'Q615'
+imdb_id: 'nm2177779'
+birth_date: '1987-06-24'
+birth_place: 'Rosario, Argentina'
+nationality:
+  - 'Argentine'
+  - 'Spanish'
+  - 'Italian'
+occupation:
+  - 'Association Football Player'
+knows_about:
+  - 'Football'
+  - 'Association Football'
+  - 'Association Football Player'
+keywords:
+  - 'Lionel Messi enneagram'
+  - 'Lionel Messi type 9'
+  - 'Lionel Messi Enneagram Type 9'
+  - 'Lionel Messi personality'
+  - 'Lionel Messi personality type'
+  - 'Lionel Messi analysis'
+  - 'Peacemaker enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Lionel_Messi'
+  - 'https://www.wikidata.org/wiki/Q615'
+  - 'https://www.imdb.com/name/nm2177779/'
+  - 'https://www.leomessi.com'
+  - 'https://messi.com'
+citations:
+  - 'https://en.wikipedia.org/wiki/Lionel_Messi'
+  - 'https://www.wikidata.org/wiki/Q615'
+  - 'https://www.imdb.com/name/nm2177779/'
+  - 'https://www.leomessi.com'
+  - 'https://messi.com'
+faqs:
+  - question: 'What is Lionel Messi''s Personality Type?'
+    answer: 'Most people see the greatest footballer alive — the records, the eight Ballon d''Ors, the World Cup. They see dominance. What they miss is that Messi''s entire operating system runs on the exact opposite impulse: disappearance. His core drive is peace — inner and outer — and every major pattern in his life flows from that single need.'
+    anchor: 'what-is-lionel-messis-personality-type'
+  - question: 'Why is Lionel Messi typed as an Enneagram Type 9?'
+    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Football, Association Football, Association Football Player.'
+    anchor: 'why-is-lionel-messi-typed-as-an-enneagram-type-9'
 twitter: '@TeamMessi'
 instagram: '@leomessi'
 tiktok: ''

@@ -15,6 +15,45 @@ type: ['entrepreneur', 'historical', 'historical-artist', 'business-operator']
 person: 'john-d-rockefeller'
 suggestions: ['Bill-Gates', 'Warren-Buffett', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/John_D._Rockefeller'
+wikidata_qid: 'Q160278'
+imdb_id: 'nm1377260'
+birth_date: '1839-07-08'
+birth_place: 'Richford, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Accountant'
+  - 'Banker'
+  - 'Philanthropist'
+knows_about:
+  - 'Entrepreneurship'
+  - 'Riverside Church'
+  - 'Kykuit'
+  - 'Historical influence'
+  - 'Music'
+keywords:
+  - 'John D. Rockefeller enneagram'
+  - 'John D. Rockefeller type 5'
+  - 'John D. Rockefeller Enneagram Type 5'
+  - 'John D. Rockefeller personality'
+  - 'John D. Rockefeller personality type'
+  - 'John D. Rockefeller analysis'
+  - 'Investigator enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/John_D._Rockefeller'
+  - 'https://www.wikidata.org/wiki/Q160278'
+  - 'https://www.imdb.com/name/nm1377260/'
+citations:
+  - 'https://en.wikipedia.org/wiki/John_D._Rockefeller'
+  - 'https://www.wikidata.org/wiki/Q160278'
+  - 'https://www.imdb.com/name/nm1377260/'
+faqs:
+  - question: 'What is John D. Rockefeller''s personality type?'
+    answer: 'The reason Rockefeller confuses people is that two diagnoses seem to fit. The Reformer (Type 1) makes sense because of his Baptist piety, his daily ledger, his sense that commerce without order was a moral offense. The Investigator (Type 5) makes sense because of his compulsive knowledge-gathering, his emotional opacity, his long private withdrawal.'
+    anchor: 'what-is-john-d-rockefellers-personality-type'
+  - question: 'Why is John D. Rockefeller typed as an Enneagram Type 5?'
+    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Riverside Church, Kykuit.'
+    anchor: 'why-is-john-d-rockefeller-typed-as-an-enneagram-type-5'
 content_quality:
   hook: 9
   enneagram: 9

@@ -48,7 +48,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Adam_Neumann'
   - 'https://www.wikidata.org/wiki/Q34579349'
   - 'https://www.imdb.com/name/nm4102427/'
-  - 'https://en.wikipedia.org/wiki/WeCrashed'
 citations:
   - 'https://www.calcalistech.com/ctech/articles/0,7340,L-3802511,00.html'
   - 'https://en.wikipedia.org/wiki/Rebekah_Neumann'
@@ -306,4 +305,3 @@ He doesn't experience the two as contradictory. He can't.
 For a Three, debt is measured by visibility. The fifty bucks was visible — his mother in the kitchen, watching him fail at being the man of the house. To owe her was to be insufficient in front of the only audience he had ever known. The stock options are invisible. Seven thousand employees in aggregate are not an audience the way his mother was. They are a brand metric — a number on a slide that, when it went the wrong way, was disowned along with the leadership style that produced it.
 
 The boy who could not bear to be insufficient in front of his mother is the same man who cannot see what he owes a system he has already left. He is barefoot because the costume requires it — and the kibbutz he keeps trying to build is the one he has not yet been thrown out of.
-

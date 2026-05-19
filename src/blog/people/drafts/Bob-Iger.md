@@ -15,6 +15,48 @@ type: ['entrepreneur', 'business-operator']
 person: 'bob-iger'
 suggestions: ['Steve-Jobs', 'Tim-Cook', 'Jeff-Bezos', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Bob_Iger'
+wikidata_qid: 'Q532423'
+imdb_id: 'nm2250609'
+birth_date: '1951-02-10'
+birth_place: 'Oceanside, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Business Executive'
+  - 'Businessperson'
+  - 'Entrepreneur'
+  - 'Film Producer'
+  - 'Television Producer'
+knows_about:
+  - 'Business'
+  - 'Entrepreneurship'
+  - 'Film production'
+  - 'Television production'
+keywords:
+  - 'Bob Iger enneagram'
+  - 'Bob Iger type 3'
+  - 'Bob Iger Enneagram Type 3'
+  - 'Bob Iger personality'
+  - 'Bob Iger personality type'
+  - 'Bob Iger analysis'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Bob_Iger'
+  - 'https://www.wikidata.org/wiki/Q532423'
+  - 'https://www.imdb.com/name/nm2250609/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Bob_Iger'
+  - 'https://www.wikidata.org/wiki/Q532423'
+  - 'https://www.imdb.com/name/nm2250609/'
+  - 'https://tim.blog/2020/01/27/bob-iger-transcript/'
+  - 'https://www.rev.com/transcripts/dealbook-summit-2023-bob-iger-interview-transcript'
+  - 'https://www.randomhousebooks.com/books/556683/'
+faqs:
+  - question: 'What is Bob Iger''s personality type?'
+    answer: 'Bob Iger is a Type 3, the Achiever, specifically a 3w2 with a social-dominant instinct. The type whose self-worth fuses with what they accomplish. The type that learned early that performance equals love and average equals invisible.'
+    anchor: 'what-is-bob-igers-personality-type'
+  - question: 'Why is Bob Iger typed as an Enneagram Type 3?'
+    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Entrepreneurship, Film production.'
+    anchor: 'why-is-bob-iger-typed-as-an-enneagram-type-3'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

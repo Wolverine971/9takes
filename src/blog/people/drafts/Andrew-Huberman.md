@@ -59,6 +59,9 @@ keywords:
   - 'Andrew Huberman Type 5'
   - 'Huberman Lab psychology'
   - 'Andrew Huberman protocols'
+citations:
+  - 'https://en.wikipedia.org/wiki/Andrew_Huberman'
+  - 'https://www.wikidata.org/wiki/Q26250970'
 faqs:
   - question: "What is Andrew Huberman's Enneagram type?"
     answer: "Andrew Huberman reads as an Enneagram Type 5, the Investigator. The article points to his childhood regulation through learning, his retreat into science after family chaos, his protocol-building, and his need to turn uncertainty into knowledge."

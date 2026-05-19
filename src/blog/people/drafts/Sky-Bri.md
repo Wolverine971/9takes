@@ -15,6 +15,40 @@ type: ['influencer', 'creator', 'lifestyle-builder']
 person: 'sky-bri'
 suggestions: ['Bradley-Martyn', 'Sara-Saffari', 'Jake-Paul', 'Adin-Ross']
 wikipedia: ''
+wikidata_qid: 'Q117225513'
+imdb_id: 'nm13470580'
+birth_date: '1999-02-21'
+birth_place: 'Philadelphia, Pennsylvania, United States'
+nationality: 'American'
+occupation:
+  - 'Pornographic Actor'
+  - 'OnlyFans Model'
+knows_about:
+  - 'Pornographic Film'
+  - 'Digital media'
+  - 'Pornographic Actor'
+  - 'OnlyFans Model'
+keywords:
+  - 'Sky Bri enneagram'
+  - 'Sky Bri type 2'
+  - 'Sky Bri Enneagram Type 2'
+  - 'Sky Bri personality'
+  - 'Sky Bri personality type'
+  - 'Sky Bri analysis'
+  - 'Helper enneagram'
+same_as:
+  - 'https://www.wikidata.org/wiki/Q117225513'
+  - 'https://www.imdb.com/name/nm13470580/'
+citations:
+  - 'https://www.wikidata.org/wiki/Q117225513'
+  - 'https://www.imdb.com/name/nm13470580/'
+faqs:
+  - question: 'What is Sky Bri''s personality type?'
+    answer: 'The pattern that runs through every major decision in Sky Bri''s life is the pattern of the Enneagram Two: giving yourself away to earn love, and then discovering that what you gave away didn''t buy what you were looking for.'
+    anchor: 'what-is-sky-bris-personality-type'
+  - question: 'Why is Sky Bri typed as an Enneagram Type 2?'
+    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Pornographic Film, Digital media, Pornographic Actor.'
+    anchor: 'why-is-sky-bri-typed-as-an-enneagram-type-2'
 twitter: '@skaborr'
 instagram: 'https://instagram.com/realskybri'
 tiktok: '@realskybri'

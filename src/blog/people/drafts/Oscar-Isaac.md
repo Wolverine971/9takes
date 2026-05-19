@@ -15,6 +15,48 @@ type: ['movieStar', 'screen-icon']
 person: 'oscar-isaac'
 suggestions: ['Pedro-Pascal', 'Jake-Gyllenhaal', 'Keanu-Reeves', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Oscar_Isaac'
+wikidata_qid: 'Q336788'
+imdb_id: 'nm1209966'
+birth_date: '1979-03-09'
+birth_place: 'Guatemala City, Guatemala'
+nationality:
+  - 'Guatemala'
+  - 'American'
+occupation:
+  - 'Stage Actor'
+  - 'Film Actor'
+  - 'Television Actor'
+  - 'Actor'
+knows_about:
+  - 'Film acting'
+  - 'Television acting'
+  - 'Acting'
+  - 'Stage Actor'
+  - 'Film Actor'
+  - 'Television Actor'
+keywords:
+  - 'Oscar Isaac enneagram'
+  - 'Oscar Isaac type 4'
+  - 'Oscar Isaac Enneagram Type 4'
+  - 'Oscar Isaac personality'
+  - 'Oscar Isaac personality type'
+  - 'Oscar Isaac analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Oscar_Isaac'
+  - 'https://www.wikidata.org/wiki/Q336788'
+  - 'https://www.imdb.com/name/nm1209966/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Oscar_Isaac'
+  - 'https://www.wikidata.org/wiki/Q336788'
+  - 'https://www.imdb.com/name/nm1209966/'
+faqs:
+  - question: 'What is Oscar Isaac''s Personality Type?'
+    answer: 'Enneagram Fours carry a core wound of feeling fundamentally different from everyone around them — not because they chose to be outsiders, but because the world simply registered differently in them from the beginning. They feel things at a depth that others find uncomfortable, and they build their identity around the conviction that authenticity is survival.'
+    anchor: 'what-is-oscar-isaacs-personality-type'
+  - question: 'Why is Oscar Isaac typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, Acting.'
+    anchor: 'why-is-oscar-isaac-typed-as-an-enneagram-type-4'
 twitter: '@OscarIsaac'
 instagram: 'oscarisaac'
 tiktok: ''

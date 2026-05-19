@@ -15,6 +15,50 @@ type: ['comedian', 'movieStar', 'screen-icon']
 person: 'robin-williams'
 suggestions: ['Matt-Damon', 'Jack-Black', 'Tom-Holland', 'Brittany-Broski']
 wikipedia: 'https://en.wikipedia.org/wiki/Robin_Williams'
+wikidata_qid: 'Q83338'
+imdb_id: 'nm0000245'
+birth_date: '1951-07-21'
+birth_place: 'Chicago, Illinois, United States'
+nationality: 'American'
+occupation:
+  - 'Stand-Up Comedian'
+  - 'Television Actor'
+  - 'Film Actor'
+  - 'Actor'
+  - 'Comedian'
+  - 'Film Producer'
+knows_about:
+  - 'Stand-up comedy'
+  - 'Television acting'
+  - 'Film acting'
+  - 'Acting'
+  - 'Comedy'
+  - 'Film production'
+keywords:
+  - 'Robin Williams enneagram'
+  - 'Robin Williams type 7'
+  - 'Robin Williams Enneagram Type 7'
+  - 'Robin Williams personality'
+  - 'Robin Williams personality type'
+  - 'Robin Williams analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Robin_Williams'
+  - 'https://www.wikidata.org/wiki/Q83338'
+  - 'https://www.imdb.com/name/nm0000245/'
+  - 'https://www.robinwilliams.com'
+citations:
+  - 'https://en.wikipedia.org/wiki/Robin_Williams'
+  - 'https://www.wikidata.org/wiki/Q83338'
+  - 'https://www.imdb.com/name/nm0000245/'
+  - 'https://www.robinwilliams.com'
+faqs:
+  - question: 'What is Robin Williams''s personality type?'
+    answer: 'Williams is a Type 7w8, the Enthusiast with an 8 wing, going to Type 1 in stress and Type 5 in growth. Read straight, that sounds like a personality-quiz tag. Read carefully, it explains almost everything about his life.'
+    anchor: 'what-is-robin-williamss-personality-type'
+  - question: 'Why is Robin Williams typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Stand-up comedy, Television acting, Film acting.'
+    anchor: 'why-is-robin-williams-typed-as-an-enneagram-type-7'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

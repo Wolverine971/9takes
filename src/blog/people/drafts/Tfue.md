@@ -15,6 +15,41 @@ type: ['creator', 'streamer']
 person: 'tfue'
 suggestions: ['xqc', 'Kai-Cenat', 'IShowSpeed', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Tfue'
+wikidata_qid: 'Q61609160'
+birth_date: '1998-01-02'
+birth_place: 'Indian Rocks Beach, Florida, United States'
+nationality: 'American'
+occupation:
+  - 'Professional Gamer'
+  - 'YouTuber'
+  - 'Online Streamer'
+knows_about:
+  - 'YouTube content creation'
+  - 'Digital media'
+  - 'Professional Gamer'
+  - 'YouTuber'
+  - 'Online Streamer'
+keywords:
+  - 'Tfue enneagram'
+  - 'Tfue type 7'
+  - 'Tfue Enneagram Type 7'
+  - 'Tfue personality'
+  - 'Tfue personality type'
+  - 'Tfue analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Tfue'
+  - 'https://www.wikidata.org/wiki/Q61609160'
+citations:
+  - 'https://en.wikipedia.org/wiki/Tfue'
+  - 'https://www.wikidata.org/wiki/Q61609160'
+faqs:
+  - question: 'What is Tfue''s Personality Type?'
+    answer: 'The Enneagram Type 7, the Enthusiast, operates from a single relentless engine: the need to avoid being trapped, deprived, or in pain. Sevens are the possibility machines of the personality system. They see escape routes where others see walls. They transform disappointment into adventure, limitation into fuel, and "no" into "not yet, but what about this instead?"'
+    anchor: 'what-is-tfues-personality-type'
+  - question: 'Why is Tfue typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Digital media, Professional Gamer.'
+    anchor: 'why-is-tfue-typed-as-an-enneagram-type-7'
 twitter: 'Tfue'
 instagram: 'tfue'
 tiktok: 'tfue'

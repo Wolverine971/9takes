@@ -15,6 +15,54 @@ type: ['celebrity', 'movieStar', 'screen-icon']
 person: 'sofia-vergara'
 suggestions: ['Jennifer-Lopez', 'Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Sofía_Vergara'
+wikidata_qid: 'Q231911'
+imdb_id: 'nm0005527'
+birth_date: '1972-07-10'
+birth_place: 'Barranquilla, Colombia'
+nationality:
+  - 'Colombian'
+  - 'American'
+occupation:
+  - 'Model'
+  - 'Film Actor'
+  - 'Television Presenter'
+  - 'Television Actor'
+  - 'Television Producer'
+  - 'Voice Actor'
+knows_about:
+  - 'Modeling'
+  - 'Film acting'
+  - 'Television acting'
+  - 'Television production'
+  - 'Voice acting'
+  - 'Acting'
+keywords:
+  - 'Sofia Vergara enneagram'
+  - 'Sofia Vergara type 3'
+  - 'Sofia Vergara Enneagram Type 3'
+  - 'Sofia Vergara personality'
+  - 'Sofia Vergara personality type'
+  - 'Sofia Vergara analysis'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Sofía_Vergara'
+  - 'https://www.wikidata.org/wiki/Q231911'
+  - 'https://www.imdb.com/name/nm0005527/'
+  - 'https://www.sofiavergara.com'
+citations:
+  - 'https://en.wikipedia.org/wiki/Sofía_Vergara'
+  - 'https://www.wikidata.org/wiki/Q231911'
+  - 'https://www.imdb.com/name/nm0005527/'
+  - 'https://time.com/4493851/sofia-vergara-highest-paid-tv-actress/'
+  - 'https://time.com/4650846/sofia-vergara-stereotype-modern-family/'
+  - 'https://www.complex.com/pop-culture/a/jaelaniturnerwilliams/sofia-vergara-brother-murdered-by-colombian-cartel'
+faqs:
+  - question: 'What is Sofia Vergara''s personality type?'
+    answer: 'Type 3s — the Achievers — build identity through external success and calibrated self-presentation. They read the room, find the version of themselves the room rewards, and make that version undeniable. Not every Type 3 makes it this explicit. Vergara does.'
+    anchor: 'what-is-sofia-vergaras-personality-type'
+  - question: 'Why is Sofia Vergara typed as an Enneagram Type 3?'
+    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Modeling, Film acting, Television acting.'
+    anchor: 'why-is-sofia-vergara-typed-as-an-enneagram-type-3'
 instagram: 'sofiavergara'
 production_pretext:
   status: draft

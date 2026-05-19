@@ -15,6 +15,47 @@ type: ['techie']
 person: 'john-ternus'
 suggestions: ['Tim-Cook', 'Steve-Jobs', 'Satya-Nadella', 'Jack-Dorsey']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Ternus'
+wikidata_qid: 'Q106028933'
+imdb_id: 'nm12562805'
+birth_date: '1975-05-18'
+birth_place: 'California, United States'
+nationality: 'American'
+occupation:
+  - 'Business Executive'
+  - 'Manager'
+  - 'Engineer'
+knows_about:
+  - 'Entrepreneurship'
+  - 'Business Executive'
+  - 'Manager'
+  - 'Engineer'
+keywords:
+  - 'John Ternus enneagram'
+  - 'John Ternus type 6'
+  - 'John Ternus Enneagram Type 6'
+  - 'John Ternus personality'
+  - 'John Ternus personality type'
+  - 'John Ternus analysis'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/John_Ternus'
+  - 'https://www.wikidata.org/wiki/Q106028933'
+  - 'https://www.imdb.com/name/nm12562805/'
+  - 'https://www.apple.com/leadership/john-ternus/'
+  - 'https://www.famousbirthdays.com/people/john-ternus.html'
+citations:
+  - 'https://en.wikipedia.org/wiki/John_Ternus'
+  - 'https://www.wikidata.org/wiki/Q106028933'
+  - 'https://www.imdb.com/name/nm12562805/'
+  - 'https://www.apple.com/leadership/john-ternus/'
+  - 'https://www.famousbirthdays.com/people/john-ternus.html'
+faqs:
+  - question: 'What is John Ternus''s personality type?'
+    answer: 'Ternus runs on one engine: trust built through verification. Every major move in his career traces the same pattern — check the work, stay close to the people doing it, commit only when the case is airtight. The 25-vs-35-grooves argument is not an anecdote about obsession. It is the Type 6 mind refusing to accept a surface "yes" when a closer look might reveal a "no."'
+    anchor: 'what-is-john-ternuss-personality-type'
+  - question: 'Why is John Ternus typed as an Enneagram Type 6?'
+    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Business Executive, Manager.'
+    anchor: 'why-is-john-ternus-typed-as-an-enneagram-type-6'
 twitter: ''
 instagram: ''
 tiktok: ''
@@ -333,4 +374,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Sit with Cameron Rogers' "has he made any hard decisions" critique for a real paragraph. The piece names the steward's-dilemma question but doesn't push on it.
 
 ============================================================ -->
-

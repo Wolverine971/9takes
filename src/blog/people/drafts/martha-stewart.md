@@ -15,6 +15,52 @@ type: ['lifestyleInfluencer', 'entrepreneur', 'celebrity']
 person: 'martha-stewart'
 suggestions: ['Anna-Wintour', 'Gwyneth-Paltrow', 'Snoop-Dogg', 'Oprah-Winfrey']
 wikipedia: 'https://en.wikipedia.org/wiki/Martha_Stewart'
+wikidata_qid: 'Q234606'
+imdb_id: 'nm0829644'
+birth_date: '1941-08-03'
+birth_place: 'Jersey City, New Jersey, United States'
+nationality:
+  - 'American'
+  - 'Polish'
+occupation:
+  - 'Television Presenter'
+  - 'Blogger'
+  - 'Entrepreneur'
+  - 'Writer'
+  - 'Businessperson'
+  - 'Model'
+knows_about:
+  - 'Entrepreneurship'
+  - 'Writing'
+  - 'Business'
+  - 'Modeling'
+  - 'Journalism'
+  - 'Television production'
+keywords:
+  - 'Martha Stewart enneagram'
+  - 'Martha Stewart type 1'
+  - 'Martha Stewart Enneagram Type 1'
+  - 'Martha Stewart personality'
+  - 'Martha Stewart personality type'
+  - 'Martha Stewart analysis'
+  - 'Reformer enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Martha_Stewart'
+  - 'https://www.wikidata.org/wiki/Q234606'
+  - 'https://www.imdb.com/name/nm0829644/'
+  - 'https://www.marthastewart.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Martha_Stewart'
+  - 'https://www.wikidata.org/wiki/Q234606'
+  - 'https://www.imdb.com/name/nm0829644/'
+  - 'https://www.marthastewart.com/'
+faqs:
+  - question: 'What is Martha Stewart''s personality type?'
+    answer: 'Type 1 is the Reformer, sometimes called the Perfectionist. The core wound is the early belief that you yourself are not quite right and have to earn the verdict of "good" through correctness — of folding, of phrasing, of moral conduct, of dinner. The internal experience is a courtroom that never adjourns. Every choice is on trial. Every verdict is not quite. (See the full Type 1 profile.)'
+    anchor: 'what-is-martha-stewarts-personality-type'
+  - question: 'Why is Martha Stewart typed as an Enneagram Type 1?'
+    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Writing, Business.'
+    anchor: 'why-is-martha-stewart-typed-as-an-enneagram-type-1'
 twitter: 'MarthaStewart'
 instagram: 'marthastewart48'
 production_pretext:

@@ -50,7 +50,7 @@ citations:
   - 'https://en.wikipedia.org/wiki/James_Charles'
   - 'https://www.newsweek.com/james-charles-reveals-incredible-childhood-home-dad-built-scratch-1800858'
   - 'https://www.papermag.com/james-charles-painted'
-  - 'https://www.cosmopolitan.com/entertainment/celebs/a42584856/james-charles-podcast-interview/'
+  - 'https://www.cosmopolitan.com/entertainment/celebs/a44535376/james-charles-interview-2023/'
 faqs:
   - question: "What is James Charles's personality type?"
     answer: "James Charles is an Enneagram Type 3 (The Achiever), specifically a 3w4. The pattern shows in the JaysCoding YouTube channel he started at eleven before he had anything to say, the edited yearbook photo he used to launch a CoverGirl deal at seventeen, the four-year build of Painted from inside the 2019 Tati controversy, the disintegration to Type Nine in 2021 (\"my coping mechanisms weren't coping\"), and the Four-wing creative streak that pushed him into a cappella and pop music despite mockery."

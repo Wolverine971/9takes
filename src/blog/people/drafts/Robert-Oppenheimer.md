@@ -15,6 +15,47 @@ type: ['historical', 'historical-scientist']
 person: 'robert-oppenheimer'
 suggestions: ['Nikola-Tesla', 'Noam-Chomsky', 'Peter-Thiel', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/J._Robert_Oppenheimer'
+wikidata_qid: 'Q132537'
+imdb_id: 'nm0649185'
+birth_date: '1904-04-22'
+birth_place: 'New York City, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Theoretical Physicist'
+  - 'Engineer'
+  - 'Nuclear Physicist'
+  - 'Art Collector'
+  - 'University Teacher'
+  - 'Science Administrator'
+knows_about:
+  - 'Applied Physics'
+  - 'Theoretical Physics'
+  - 'Nuclear Physics'
+  - 'nuclear bomb'
+  - 'Historical influence'
+keywords:
+  - 'Robert Oppenheimer enneagram'
+  - 'Robert Oppenheimer type 4'
+  - 'Robert Oppenheimer Enneagram Type 4'
+  - 'Robert Oppenheimer personality'
+  - 'Robert Oppenheimer personality type'
+  - 'Robert Oppenheimer analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/J._Robert_Oppenheimer'
+  - 'https://www.wikidata.org/wiki/Q132537'
+  - 'https://www.imdb.com/name/nm0649185/'
+citations:
+  - 'https://en.wikipedia.org/wiki/J._Robert_Oppenheimer'
+  - 'https://www.wikidata.org/wiki/Q132537'
+  - 'https://www.imdb.com/name/nm0649185/'
+faqs:
+  - question: 'What is Robert Oppenheimer''s personality type?'
+    answer: 'Enneagram Fours carry one question from childhood into old age: Why do I feel like I''m missing something that everyone else seems to have? Oppenheimer said it plainly at fourteen: "I''m the loneliest man in the world." Not the loneliest kid. The loneliest man. That''s not a diagnosis of shyness — it''s a Four''s specific ache: watching other people belong to the world naturally, as though they were issued a script yours never arrived. Fours compensate by going further — into feeling, into meaning, into art or physics or ancient texts — trying to build from intensity of inner life what they can''t find in ordinary belonging.'
+    anchor: 'what-is-robert-oppenheimers-personality-type'
+  - question: 'Why is Robert Oppenheimer typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Applied Physics, Theoretical Physics, Nuclear Physics.'
+    anchor: 'why-is-robert-oppenheimer-typed-as-an-enneagram-type-4'
 twitter: null
 instagram: null
 tiktok: null

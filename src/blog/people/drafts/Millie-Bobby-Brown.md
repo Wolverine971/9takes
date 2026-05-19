@@ -15,6 +15,48 @@ type: ['newMovieStar', 'rising-star']
 person: 'millie-bobby-brown'
 suggestions: ['Zendaya', 'Sydney-Sweeney', 'Jenna-Ortega', 'Tom-Holland']
 wikipedia: ''
+wikidata_qid: 'Q25936414'
+imdb_id: 'nm5611121'
+birth_date: '2004-02-19'
+birth_place: 'Marbella, Spain'
+nationality:
+  - 'British'
+  - 'Spanish'
+occupation:
+  - 'Actor'
+  - 'Film Actor'
+  - 'Film Producer'
+  - 'Writer'
+  - 'Singer'
+  - 'Model'
+knows_about:
+  - 'Acting'
+  - 'Film acting'
+  - 'Film production'
+  - 'Writing'
+  - 'Singing'
+  - 'Modeling'
+keywords:
+  - 'Millie Bobby Brown enneagram'
+  - 'Millie Bobby Brown type 2'
+  - 'Millie Bobby Brown Enneagram Type 2'
+  - 'Millie Bobby Brown personality'
+  - 'Millie Bobby Brown personality type'
+  - 'Millie Bobby Brown analysis'
+  - 'Helper enneagram'
+same_as:
+  - 'https://www.wikidata.org/wiki/Q25936414'
+  - 'https://www.imdb.com/name/nm5611121/'
+citations:
+  - 'https://www.wikidata.org/wiki/Q25936414'
+  - 'https://www.imdb.com/name/nm5611121/'
+faqs:
+  - question: 'What is Millie Bobby Brown''s personality type?'
+    answer: 'Most people see a young celebrity who grew up too fast — married at twenty, mother at twenty-one, owner of sixty-two rescue animals and a beauty empire. If you understand Type 2, the real driver comes into focus: a child who became her family''s salvation and absorbed the lesson that love must be earned through giving.'
+    anchor: 'what-is-millie-bobby-browns-personality-type'
+  - question: 'Why is Millie Bobby Brown typed as an Enneagram Type 2?'
+    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Film production.'
+    anchor: 'why-is-millie-bobby-brown-typed-as-an-enneagram-type-2'
 twitter: ''
 instagram: ''
 tiktok: ''

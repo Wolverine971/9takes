@@ -52,7 +52,7 @@ citations:
   - 'https://en.wikipedia.org/wiki/Druski'
   - 'https://www.rollingstone.com/t/druski/'
   - 'https://www.billboard.com/'
-  - 'https://www.forbes.com/'
+  - 'https://www.forbes.com/profile/drew-desbordes-druski/'
   - 'https://afrotech.com/'
 faqs:
   - question: "What is Druski's personality type?"

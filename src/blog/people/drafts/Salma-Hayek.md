@@ -15,6 +15,52 @@ type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'salma-hayek'
 suggestions: ['Frida-Kahlo', 'Jennifer-Lopez', 'Amy-Poehler', 'Rihanna']
 wikipedia: 'https://en.wikipedia.org/wiki/Salma_Hayek'
+wikidata_qid: 'Q125106'
+imdb_id: 'nm0000161'
+birth_date: '1966-09-02'
+birth_place: 'Coatzacoalcos, Mexico'
+nationality:
+  - 'Mexican'
+  - 'American'
+  - 'French'
+occupation:
+  - 'Film Actor'
+  - 'Film Director'
+  - 'Film Producer'
+  - 'Television Actor'
+  - 'Actor'
+  - 'Singer'
+knows_about:
+  - 'Film acting'
+  - 'Film directing'
+  - 'Film production'
+  - 'Television acting'
+  - 'Acting'
+  - 'Singing'
+keywords:
+  - 'Salma Hayek enneagram'
+  - 'Salma Hayek type 8'
+  - 'Salma Hayek Enneagram Type 8'
+  - 'Salma Hayek personality'
+  - 'Salma Hayek personality type'
+  - 'Salma Hayek analysis'
+  - 'Challenger enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Salma_Hayek'
+  - 'https://www.wikidata.org/wiki/Q125106'
+  - 'https://www.imdb.com/name/nm0000161/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Salma_Hayek'
+  - 'https://www.wikidata.org/wiki/Q125106'
+  - 'https://www.imdb.com/name/nm0000161/'
+  - 'https://en.wikipedia.org/wiki/Antonio_Banderas'
+faqs:
+  - question: 'What is Salma Hayek''s personality type?'
+    answer: 'Hayek presents as a Type 8 with a 7 wing — the Challenger archetype, softened and brightened by the appetite, humor, and quick movement of the Enthusiast.'
+    anchor: 'what-is-salma-hayeks-personality-type'
+  - question: 'Why is Salma Hayek typed as an Enneagram Type 8?'
+    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Film directing, Film production.'
+    anchor: 'why-is-salma-hayek-typed-as-an-enneagram-type-8'
 twitter: 'salmahayek'
 instagram: 'salmahayek'
 production_pretext:

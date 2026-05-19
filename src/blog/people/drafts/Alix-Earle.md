@@ -45,6 +45,9 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Alix_Earle'
   - 'https://www.wikidata.org/wiki/Q121422393'
   - 'https://www.imdb.com/name/nm14654113/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Alix_Earle'
+  - 'https://www.wikidata.org/wiki/Q121422393'
 faqs:
   - question: "What is Alix Earle's personality type?"
     answer: "Alix Earle is an Enneagram Type 9 (The Peacemaker) with a strong 8 wing. The pattern shows in the seven-year-old who got in the car and left the room when paparazzi arrived, the non-curated bathroom-floor Get Ready With Me format that built an $8M-a-year empire, the two-word 'Okay on it!!' response to Alex Cooper's April 2026 callout, and the Type 9-to-Type 3 integration that earned her perfect 30s and second place on Dancing with the Stars."

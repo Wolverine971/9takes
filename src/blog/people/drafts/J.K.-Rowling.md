@@ -48,7 +48,7 @@ citations:
   - 'https://en.wikipedia.org/wiki/J._K._Rowling'
   - 'https://news.harvard.edu/gazette/story/2008/06/text-of-j-k-rowling-speech/'
   - 'https://www.oprah.com/oprahshow/oprahs-interview-with-jk-rowling'
-  - 'https://www.thefp.com/witchtrials'
+  - 'https://podcasts.apple.com/us/podcast/the-witch-trials-of-j-k-rowling/id1842502506'
 faqs:
   - question: "What is J.K. Rowling's personality type?"
     answer: "J.K. Rowling is an Enneagram Type 1 (The Reformer). The pattern shows in the fifteen-draft Chapter 1 of Philosopher's Stone, the marble bust she signed in Room 552 facing the wall so it had to be turned around to be found, the £200 million she has donated to Lumos and the Anne Rowling Clinic and Beira's Place, the Robert Galbraith pseudonym she invented to test whether the writing was good enough without the fame, and the 3,700-word essay she wrote knowing the cost in advance and publishing anyway."

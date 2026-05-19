@@ -15,6 +15,42 @@ type: ['journalist', 'creator', 'news-commentator']
 person: 'saagar-enjeti'
 suggestions: ['Krystal-Ball', 'Ryan-Grim', 'Tucker-Carlson', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Saagar_Enjeti'
+wikidata_qid: 'Q81703688'
+birth_date: '1992-04-21'
+birth_place: 'Texas, United States'
+nationality: 'American'
+occupation:
+  - 'Political Pundit'
+  - 'Television Presenter'
+  - 'Writer'
+knows_about:
+  - 'Writing'
+  - 'Breaking Points with Krystal and Saagar'
+  - 'Digital media'
+  - 'Political Pundit'
+  - 'Television Presenter'
+  - 'Writer'
+keywords:
+  - 'Saagar Enjeti enneagram'
+  - 'Saagar Enjeti type 7'
+  - 'Saagar Enjeti Enneagram Type 7'
+  - 'Saagar Enjeti personality'
+  - 'Saagar Enjeti personality type'
+  - 'Saagar Enjeti analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Saagar_Enjeti'
+  - 'https://www.wikidata.org/wiki/Q81703688'
+citations:
+  - 'https://en.wikipedia.org/wiki/Saagar_Enjeti'
+  - 'https://www.wikidata.org/wiki/Q81703688'
+faqs:
+  - question: 'What is Saagar Enjeti''s Personality Type?'
+    answer: 'The core of a Type 7 is the fear of being trapped in pain — of being deprived, limited, stuck in suffering with no escape route. The response is forward motion. Consume. Experience. Expand. Reframe. Where other types build walls against the world, Sevens build runways out of it.'
+    anchor: 'what-is-saagar-enjetis-personality-type'
+  - question: 'Why is Saagar Enjeti typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Breaking Points with Krystal and Saagar, Digital media.'
+    anchor: 'why-is-saagar-enjeti-typed-as-an-enneagram-type-7'
 twitter: 'https://twitter.com/esaagar'
 instagram: 'https://www.instagram.com/esaagar'
 tiktok: ''

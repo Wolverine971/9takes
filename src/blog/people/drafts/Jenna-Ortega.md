@@ -52,10 +52,10 @@ same_as:
   - 'https://www.imdb.com/name/nm4911194/'
 citations:
   - 'https://en.wikipedia.org/wiki/Jenna_Ortega'
-  - 'https://www.harpersbazaar.com/culture/film-tv/a64789012/jenna-ortega-2025'
-  - 'https://www.hollywoodreporter.com/movies/movie-features/jenna-ortega-wednesday-tim-burton-2025'
+  - 'https://www.harpersbazaar.com/culture/film-tv/a64704219/jenna-ortega-wednesday-interview-2025/'
+  - 'https://www.netflix.com/tudum/articles/wednesday-season-2-teaser-photos'
   - 'https://www.nytimes.com/2024/08/jenna-ortega-interview.html'
-  - 'https://www.vanityfair.com/hollywood/2024/08/jenna-ortega-cover-story'
+  - 'https://www.vanityfair.com/hollywood/story/jenna-ortega-cover-interview'
 faqs:
   - question: "What is Jenna Ortega's personality type?"
     answer: "Jenna Ortega is an Enneagram Type 3 (The Achiever). The pattern shows in the loud existential child who begged to act from age 6, the relentless output that pushed her career box office past $700 million by 22, the OCD rituals and teeth-grinding insomnia, and her own admission to Harper's Bazaar in 2025 that after Wednesday's record-breaking success she was 'an unhappy person' — the exact crisis the heart triad reaches when external metrics no longer match internal experience."

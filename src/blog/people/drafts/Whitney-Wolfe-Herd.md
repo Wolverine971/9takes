@@ -15,6 +15,44 @@ type: ['entrepreneur', 'techie', 'business-operator']
 person: 'whitney-wolfe-herd'
 suggestions: ['Steven-Bartlett', 'Hailey-Bieber', 'Reese-Witherspoon', 'Kris-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Whitney_Wolfe_Herd'
+wikidata_qid: 'Q19967707'
+imdb_id: 'nm7617070'
+birth_date: '1989-07-01'
+birth_place: 'Salt Lake City, Utah, United States'
+nationality: 'American'
+occupation:
+  - 'Businessperson'
+  - 'Celebrity'
+  - 'Entrepreneur'
+knows_about:
+  - 'Business'
+  - 'Entrepreneurship'
+  - 'Businessperson'
+  - 'Celebrity'
+  - 'Entrepreneur'
+keywords:
+  - 'Whitney Wolfe Herd enneagram'
+  - 'Whitney Wolfe Herd type 3'
+  - 'Whitney Wolfe Herd Enneagram Type 3'
+  - 'Whitney Wolfe Herd personality'
+  - 'Whitney Wolfe Herd personality type'
+  - 'Whitney Wolfe Herd analysis'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Whitney_Wolfe_Herd'
+  - 'https://www.wikidata.org/wiki/Q19967707'
+  - 'https://www.imdb.com/name/nm7617070/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Whitney_Wolfe_Herd'
+  - 'https://www.wikidata.org/wiki/Q19967707'
+  - 'https://www.imdb.com/name/nm7617070/'
+faqs:
+  - question: 'What is Whitney Wolfe Herd''s personality type?'
+    answer: 'Every Type 3 child runs the same equation in the background. Achievement equals love. Average equals invisible. The 3 learns, early and without anyone explaining it, that the fastest way to be safe in a room is to be impressive in it. Over years, that adaptation hardens into an identity. The self becomes whatever version of you the world claps for.'
+    anchor: 'what-is-whitney-wolfe-herds-personality-type'
+  - question: 'Why is Whitney Wolfe Herd typed as an Enneagram Type 3?'
+    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Entrepreneurship, Businessperson.'
+    anchor: 'why-is-whitney-wolfe-herd-typed-as-an-enneagram-type-3'
 twitter: 'WhitWolfeHerd'
 instagram: 'whitwolfeherd'
 production_pretext:

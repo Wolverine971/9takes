@@ -51,7 +51,7 @@ citations:
   - 'https://www.hbomax.com/movies/caleb-hearon-model-comedian/3da10291-dc85-49c0-af26-d051dab7090b'
   - 'https://www.elitedaily.com/'
   - 'https://www.bustle.com/'
-  - 'https://www.washingtonpost.com/'
+  - 'https://www.thewrap.com/caleb-hearon-model-comedian-politics-vulnerability-interview/'
 faqs:
   - question: "What is Caleb Hearon's personality type?"
     answer: "Caleb Hearon is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in his deprivation-origin childhood in rural Chillicothe, his explicit pain-to-material engineering (\"get some of the stuff about my dad in there so I can stop talking about it on stage\"), the manic creative output (HBO special, chart-topping podcast, two films, a Hulu pilot, stand-up touring), and his loyalty-anchored partnership with Holmes since both landed at iO in 2017."

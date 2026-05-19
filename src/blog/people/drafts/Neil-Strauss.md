@@ -15,6 +15,46 @@ type: ['author', 'creator']
 person: 'neil-strauss'
 suggestions: ['Marilyn-Manson', 'Lana-Del-Rey', 'Edgar-Allan-Poe', 'Adele']
 wikipedia: 'https://en.wikipedia.org/wiki/Neil_Strauss'
+wikidata_qid: 'Q519984'
+birth_date: '1973-10-13'
+birth_place: 'Chicago, Illinois, United States'
+nationality: 'American'
+occupation:
+  - 'Writer'
+  - 'Biographer'
+  - 'Music Journalist'
+knows_about:
+  - 'Writing'
+  - 'Digital media'
+  - 'Writer'
+  - 'Biographer'
+  - 'Music Journalist'
+keywords:
+  - 'Neil Strauss enneagram'
+  - 'Neil Strauss type 4'
+  - 'Neil Strauss Enneagram Type 4'
+  - 'Neil Strauss personality'
+  - 'Neil Strauss personality type'
+  - 'Neil Strauss analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Neil_Strauss'
+  - 'https://www.wikidata.org/wiki/Q519984'
+  - 'https://www.neilstrauss.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Neil_Strauss'
+  - 'https://www.wikidata.org/wiki/Q519984'
+  - 'https://podcasts.apple.com/gb/podcast/former-no-1-pick-up-artist-were-wired-to-cheat-after/id1291423644?i=1000634589488'
+  - 'https://tim.blog/2014/06/24/neil-strauss/'
+  - 'https://www.hollywoodreporter.com/movies/movie-features/game-author-neil-strauss-how-881437/'
+  - 'https://slate.com/human-interest/2015/10/neil-strauss-10-years-after-his-controversial-book-i-look-back-on-the-game-and-cringe.html'
+faqs:
+  - question: 'What is Neil Strauss''s personality type?'
+    answer: 'Enneagram Type 4, "The Individualist," organizes its entire life around a single conviction: something essential is missing inside me, and if I can find it, I will finally be real. Fours grow up believing that other people received a self at birth and they did not. Their lives become a hunt for the missing piece — through intensity, art, love, and the next experience that might finally feel authentic.'
+    anchor: 'what-is-neil-strausss-personality-type'
+  - question: 'Why is Neil Strauss typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Digital media, Writer.'
+    anchor: 'why-is-neil-strauss-typed-as-an-enneagram-type-4'
 twitter: 'neilstrauss'
 instagram: 'neilstrauss'
 content_quality:

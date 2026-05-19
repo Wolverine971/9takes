@@ -15,6 +15,39 @@ type: ['newMovieStar', 'celebrity', 'rising-star']
 person: 'maddie-phillips'
 suggestions: ['Saoirse-Ronan', 'Anya-Taylor-Joy', 'Jacob-Elordi', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Maddie_Phillips'
+wikidata_qid: 'Q98408279'
+imdb_id: 'nm5828485'
+birth_date: '1994-09-06'
+birth_place: 'Vancouver, British Columbia, Canada'
+nationality: 'Canadian'
+occupation:
+  - 'Actor'
+knows_about:
+  - 'Acting'
+  - 'Actor'
+keywords:
+  - 'Maddie Phillips enneagram'
+  - 'Maddie Phillips type 4'
+  - 'Maddie Phillips Enneagram Type 4'
+  - 'Maddie Phillips personality'
+  - 'Maddie Phillips personality type'
+  - 'Maddie Phillips analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Maddie_Phillips'
+  - 'https://www.wikidata.org/wiki/Q98408279'
+  - 'https://www.imdb.com/name/nm5828485/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Maddie_Phillips'
+  - 'https://www.wikidata.org/wiki/Q98408279'
+  - 'https://www.imdb.com/name/nm5828485/'
+faqs:
+  - question: 'What is Maddie Phillips''s personality type?'
+    answer: 'The evidence is in how she narrates her inner world — and whose inner worlds she chooses to inhabit.'
+    anchor: 'what-is-maddie-phillipss-personality-type'
+  - question: 'Why is Maddie Phillips typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Actor.'
+    anchor: 'why-is-maddie-phillips-typed-as-an-enneagram-type-4'
 instagram: 'themaddiep'
 production_pretext:
   status: draft

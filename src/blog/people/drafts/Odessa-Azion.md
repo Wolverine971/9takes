@@ -15,6 +15,48 @@ type: ['newMovieStar', 'musician', 'rising-star']
 person: 'odessa-azion'
 suggestions: ['Zoe-Kravitz', 'Bella-Hadid', 'Jacob-Elordi', 'Saoirse-Ronan']
 wikipedia: "https://en.wikipedia.org/wiki/Odessa_A'zion"
+wikidata_qid: 'Q55346754'
+imdb_id: 'nm5570560'
+birth_date: '2000-06-17'
+birth_place: 'Los Angeles, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Television Actor'
+  - 'Dub Actor'
+knows_about:
+  - 'Acting'
+  - 'Television acting'
+  - 'Music'
+  - 'Actor'
+  - 'Television Actor'
+  - 'Dub Actor'
+keywords:
+  - 'Odessa A''zion enneagram'
+  - 'Odessa A''zion type 4'
+  - 'Odessa A''zion Enneagram Type 4'
+  - 'Odessa A''zion personality'
+  - 'Odessa A''zion personality type'
+  - 'Odessa A''zion analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Odessa_A''zion'
+  - 'https://www.wikidata.org/wiki/Q55346754'
+  - 'https://www.imdb.com/name/nm5570560/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Odessa_A''zion'
+  - 'https://www.wikidata.org/wiki/Q55346754'
+  - 'https://www.imdb.com/name/nm5570560/'
+  - 'https://en.wikipedia.org/wiki/Pamela_Adlon'
+  - 'https://en.wikipedia.org/wiki/Odessa_A%27zion'
+  - 'https://en.wikipedia.org/wiki/Gideon_Adlon'
+faqs:
+  - question: 'What is Odessa A''zion''s personality type?'
+    answer: 'The Type 4 case for Odessa A''zion is the kind of case that doesn''t need to be argued — it needs to be organized. The evidence piles up faster than the analysis can keep it sorted.'
+    anchor: 'what-is-odessa-azions-personality-type'
+  - question: 'Why is Odessa A''zion typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Music.'
+    anchor: 'why-is-odessa-azion-typed-as-an-enneagram-type-4'
 instagram: 'odessaazion'
 content_quality:
   hook: 9.0

@@ -48,7 +48,7 @@ same_as:
   - 'https://www.imdb.com/name/nm0000590/'
   - 'https://www.britannica.com/biography/Edgar-Allan-Poe'
   - 'https://www.poetryfoundation.org/poets/edgar-allan-poe'
-  - 'https://www.poemuseum.org/'
+  - 'https://poemuseum.org/'
 twitter: ''
 instagram: ''
 tiktok: ''

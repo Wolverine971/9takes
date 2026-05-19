@@ -47,6 +47,9 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Addison_Rae'
   - 'https://www.wikidata.org/wiki/Q83739405'
   - 'https://www.imdb.com/name/nm11290905/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Addison_Rae'
+  - 'https://www.wikidata.org/wiki/Q83739405'
 faqs:
   - question: "What is Addison Rae's personality type?"
     answer: "Addison Rae is an Enneagram Type 3 (The Achiever). The pattern shows in her strategic reinvention from mocked TikToker to Grammy-nominated artist, the post-mortem she ran on 'Obsessed' before pivoting to 'Diet Pepsi,' the way she aligned her entire family around her opportunity in Los Angeles, and her own self-narration: 'I feel like I've surpassed Addison Rae. It's just Addison now.'"

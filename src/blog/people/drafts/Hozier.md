@@ -14,7 +14,7 @@ enneagram: 4
 type: ['musician', 'singer-songwriter']
 person: 'hozier'
 suggestions: ['Billie-Eilish', 'Bob-Dylan', 'Lana-Del-Rey', 'Halsey']
-wikipedia: 'https://en.wikipedia.org/wiki/Hozier_(musician)'
+wikipedia: 'https://en.wikipedia.org/wiki/Hozier'
 wikidata_qid: 'Q16233232'
 imdb_id: 'nm6494594'
 birth_date: '1990-03-17'

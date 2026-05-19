@@ -47,6 +47,9 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Amber_Heard'
   - 'https://www.wikidata.org/wiki/Q229166'
   - 'https://www.imdb.com/name/nm1720028/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Amber_Heard'
+  - 'https://www.wikidata.org/wiki/Q229166'
 faqs:
   - question: "What is Amber Heard's personality type?"
     answer: "Amber Heard is an Enneagram Type 3 (The Achiever). The pattern shows in her relentless reinvention from Texas pageants to Hollywood lead to fluent-Spanish theater debut in Madrid, her trial statement insisting on 'no admission' even in defeat, her surrogacy-driven motherhood framed as 'the family I've strived to build,' and the donation-vs-pledge controversy that exposed image management as her core operating system."

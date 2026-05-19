@@ -15,6 +15,10 @@ type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'corinna-kopf'
 suggestions: ['Alex-Cooper', 'Paris-Hilton', 'David-Dobrik', 'Alix-Earle']
 wikipedia: ''
+wikidata_qid: 'Q111033485'
+citations:
+  - 'https://www.wikidata.org/wiki/Q111033485'
+  - 'https://www.imdb.com/name/nm9923865/'
 twitter: 'https://twitter.com/CorinnaKopf'
 instagram: 'https://instagram.com/corinnakopf'
 tiktok: 'https://tiktok.com/@corinnakopf'
@@ -49,6 +53,7 @@ same_as:
   - 'https://www.instagram.com/corinnakopf/'
   - 'https://twitter.com/CorinnaKopf'
   - 'https://www.tiktok.com/@corinnakopf'
+  - 'https://www.wikidata.org/wiki/Q111033485'
 faqs:
   - question: "What is Corinna Kopf's personality type?"
     answer: "Corinna Kopf is an Enneagram Type 7 (The Enthusiast). The pattern shows in the anxiety she has had since age seven, the brother she lost at twelve, the father who taught her that humor stops panic, the platform-after-platform exit pattern (Twitch ban to Facebook Gaming to Twitch to Kick), the four-relationship arc from Toddy Smith through Logan Paul, and the gambling habit she structures around the 30 seconds between spins."

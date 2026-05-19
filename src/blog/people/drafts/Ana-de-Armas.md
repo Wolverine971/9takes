@@ -15,6 +15,46 @@ type: ['movieStar', 'screen-icon']
 person: 'ana-de-armas'
 suggestions: ['Ben-Affleck', 'Margot-Robbie', 'Robert-Pattinson', 'Anya-Taylor-Joy']
 wikipedia: 'https://en.wikipedia.org/wiki/Ana_de_Armas'
+wikidata_qid: 'Q698173'
+imdb_id: 'nm1869101'
+birth_date: '1988-04-30'
+birth_place: 'Havana, Cuba'
+nationality:
+  - 'Spanish'
+  - 'Cuban'
+  - 'American'
+occupation:
+  - 'Actor'
+  - 'Model'
+knows_about:
+  - 'Acting'
+  - 'Modeling'
+  - 'Film acting'
+  - 'Actor'
+  - 'Model'
+keywords:
+  - 'Ana de Armas enneagram'
+  - 'Ana de Armas type 4'
+  - 'Ana de Armas Enneagram Type 4'
+  - 'Ana de Armas personality'
+  - 'Ana de Armas personality type'
+  - 'Ana de Armas analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ana_de_Armas'
+  - 'https://www.wikidata.org/wiki/Q698173'
+  - 'https://www.imdb.com/name/nm1869101/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ana_de_Armas'
+  - 'https://www.wikidata.org/wiki/Q698173'
+  - 'https://www.imdb.com/name/nm1869101/'
+faqs:
+  - question: 'What is Ana de Armas''s personality type?'
+    answer: 'Type 4 is the Individualist — the type whose entire psychic architecture is organized around the belief that something essential is missing, and that the missing thing is what would finally let them feel whole. Fours are not chasing accomplishment for its own sake. They are chasing the feeling of being real, of being seen accurately, of finally arriving inside their own life.'
+    anchor: 'what-is-ana-de-armass-personality-type'
+  - question: 'Why is Ana de Armas typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Modeling, Film acting.'
+    anchor: 'why-is-ana-de-armas-typed-as-an-enneagram-type-4'
 instagram: 'ana_d_armas'
 production_pretext:
   status: draft

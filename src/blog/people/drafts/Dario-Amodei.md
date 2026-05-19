@@ -28,7 +28,7 @@ content_quality:
   letter: 'B+'
   graded_at: '2026-03-15'
 wikidata_qid: 'Q103335665'
-birth_place: 'San Francisco, California, USA'
+birth_place: 'San Francisco, California, United States'
 nationality: 'American'
 occupation:
   - 'AI Researcher'

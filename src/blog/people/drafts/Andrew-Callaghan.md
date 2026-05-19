@@ -45,6 +45,9 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Andrew_Callaghan'
   - 'https://www.wikidata.org/wiki/Q106144873'
   - 'https://www.imdb.com/name/nm12339062/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Andrew_Callaghan'
+  - 'https://www.wikidata.org/wiki/Q106144873'
 faqs:
   - question: "What is Andrew Callaghan's personality type?"
     answer: "Andrew Callaghan is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in his refusal to stop moving — interviewing Silk Road contacts at 16, hitchhiking America for 70 days at 19, chasing QAnon believers from an RV at 22 — his 'interview like a toddler' technique that reframes extremism as human story, and the 6-wing anxiety that lets him walk into white supremacist rallies but spiral into a psychiatric facility when the camera turns on him."

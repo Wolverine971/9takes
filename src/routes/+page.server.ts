@@ -99,13 +99,13 @@ export const load: PageServerLoad = async ({ locals }) => {
 		}
 	}
 
-	typeRepresentatives.push({
-		name: 'leila-hormozi',
-		type: 3,
-		hasImage: true,
-		hasLink: true,
-		personaTitle: "Business's Worthiness Machine"
-	});
+	// typeRepresentatives.push({
+	// 	name: 'leila-hormozi',
+	// 	type: 3,
+	// 	hasImage: true,
+	// 	hasLink: true,
+	// 	personaTitle: "Business's Worthiness Machine"
+	// });
 
 	const homepageCorpusStats: HomepageCorpusStats = {
 		published: corpusStats.totals.published,

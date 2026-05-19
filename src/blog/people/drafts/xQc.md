@@ -15,6 +15,43 @@ type: ['creator', 'streamer']
 person: 'xqc'
 suggestions: ['Kai-Cenat', 'IShowSpeed', 'Pokimane', 'Adin-Ross']
 wikipedia: 'https://en.wikipedia.org/wiki/XQc'
+wikidata_qid: 'Q50716407'
+birth_date: '1995-11-12'
+birth_place: 'Laval, Quebec, Canada'
+nationality: 'Canadian'
+occupation:
+  - 'Vlogger'
+  - 'Professional Gamer'
+  - 'Online Streamer'
+  - 'YouTuber'
+  - 'Twitch Streamer'
+  - 'Kick Streamer'
+knows_about:
+  - 'YouTube content creation'
+  - 'Livestreaming'
+  - 'Football'
+  - 'Digital media'
+keywords:
+  - 'xQc enneagram'
+  - 'xQc type 7'
+  - 'xQc Enneagram Type 7'
+  - 'xQc personality'
+  - 'xQc personality type'
+  - 'xQc analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/XQc'
+  - 'https://www.wikidata.org/wiki/Q50716407'
+citations:
+  - 'https://en.wikipedia.org/wiki/XQc'
+  - 'https://www.wikidata.org/wiki/Q50716407'
+faqs:
+  - question: 'What is xQc''s personality type?'
+    answer: 'xQc is analyzed as an Enneagram Type 7 (Enthusiast). The profile connects that type pattern to xQc''s Type 7 personality explains everything: the $100M Kick deal, 200-hour streaming months, gambling addiction, and why he can''t sit still. Here''s the psychology.'
+    anchor: 'what-is-xqcs-personality-type'
+  - question: 'Why is xQc typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Livestreaming, Football.'
+    anchor: 'why-is-xqc-typed-as-an-enneagram-type-7'
 twitter: 'xQc'
 instagram: ''
 tiktok: ''

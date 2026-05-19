@@ -15,6 +15,48 @@ type: ['historical', 'historical-scientist']
 person: 'marie-curie'
 suggestions: ['Agatha-Christie', 'Leonardo-Da-Vinci', 'Bill-Gates', 'Friedrich-Nietzsche']
 wikipedia: 'https://en.wikipedia.org/wiki/Marie_Curie'
+wikidata_qid: 'Q7186'
+imdb_id: 'nm1792513'
+birth_date: '1867-11-07'
+birth_place: 'Warsaw, Poland'
+nationality:
+  - 'Second Polish Republic'
+  - 'French'
+  - 'Russian Empire'
+occupation:
+  - 'Physicist'
+  - 'Chemist'
+  - 'University Teacher'
+knows_about:
+  - 'Radioactivity'
+  - 'Chemistry'
+  - 'Physics'
+  - 'Radium'
+  - 'Polonium'
+  - 'Treatise on Radioactivity'
+keywords:
+  - 'Marie Curie enneagram'
+  - 'Marie Curie type 5'
+  - 'Marie Curie Enneagram Type 5'
+  - 'Marie Curie personality'
+  - 'Marie Curie personality type'
+  - 'Marie Curie analysis'
+  - 'Investigator enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Marie_Curie'
+  - 'https://www.wikidata.org/wiki/Q7186'
+  - 'https://www.imdb.com/name/nm1792513/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Marie_Curie'
+  - 'https://www.wikidata.org/wiki/Q7186'
+  - 'https://www.imdb.com/name/nm1792513/'
+faqs:
+  - question: 'What is Marie Curie''s personality type?'
+    answer: 'Type 5s — "The Observer" — are head-type personalities organized around one central anxiety: the world will demand more energy than I have. The Five''s response is to retreat, gather knowledge, and master a domain so completely that competence becomes a substitute for safety. If I cannot control the external world, I can master the internal one. For more on the head-type pattern, it''s worth knowing that Fives don''t avoid the world out of disinterest — they avoid it because they''ve learned, early, that engagement costs them disproportionately.'
+    anchor: 'what-is-marie-curies-personality-type'
+  - question: 'Why is Marie Curie typed as an Enneagram Type 5?'
+    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Radioactivity, Chemistry, Physics.'
+    anchor: 'why-is-marie-curie-typed-as-an-enneagram-type-5'
 twitter: ''
 instagram: ''
 tiktok: ''

@@ -15,6 +15,35 @@ type: ['entrepreneur', 'creator', 'business-creator', 'business-operator']
 person: 'alex-lieberman'
 suggestions: ['Alex-Hormozi', 'Brian-Chesky', 'Chris-Williamson', 'Tim-Ferriss']
 wikipedia: ''
+occupation:
+  - 'Entrepreneur'
+  - 'Content Creator'
+knows_about:
+  - 'Entrepreneurship'
+  - 'Digital media'
+keywords:
+  - 'Alex Lieberman enneagram'
+  - 'Alex Lieberman type 7'
+  - 'Alex Lieberman Enneagram Type 7'
+  - 'Alex Lieberman personality'
+  - 'Alex Lieberman personality type'
+  - 'Alex Lieberman analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://x.com/businessbarista'
+  - 'https://www.instagram.com/businessbarista'
+  - 'https://www.tiktok.com/@businessbarista'
+citations:
+  - 'https://x.com/businessbarista'
+  - 'https://www.instagram.com/businessbarista'
+  - 'https://www.tiktok.com/@businessbarista'
+faqs:
+  - question: 'What is Alex Lieberman''s personality type?'
+    answer: 'Type 7s — the Enthusiast — are the head triad''s externalizers. The head triad is the anxiety triad. Sixes manage anxiety by scanning for danger. Fives manage it by withdrawing into the mind. Sevens manage it by going somewhere else — the next idea, the next project, the next possibility, the next plane ticket. The fear of being trapped in pain is the engine; the new thing is the exit.'
+    anchor: 'what-is-alex-liebermans-personality-type'
+  - question: 'Why is Alex Lieberman typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Digital media.'
+    anchor: 'why-is-alex-lieberman-typed-as-an-enneagram-type-7'
 twitter: 'businessbarista'
 instagram: 'businessbarista'
 tiktok: 'businessbarista'

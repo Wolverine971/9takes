@@ -15,6 +15,38 @@ type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'sara-saffari'
 suggestions: ['Bradley-Martyn', 'Mike-Majlak', 'Sky-Bri', 'Alex-Hormozi', 'Patrick-Bet-David']
 wikipedia: ''
+wikidata_qid: 'Q125814190'
+birth_date: '2001-02-27'
+birth_place: 'Kentucky, United States'
+nationality: 'American'
+occupation:
+  - 'Influencer'
+  - 'Personal Trainer'
+knows_about:
+  - 'Digital media'
+  - 'Influencer'
+  - 'Personal Trainer'
+keywords:
+  - 'Sara Saffari enneagram'
+  - 'Sara Saffari type 3'
+  - 'Sara Saffari Enneagram Type 3'
+  - 'Sara Saffari personality'
+  - 'Sara Saffari personality type'
+  - 'Sara Saffari analysis'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://www.wikidata.org/wiki/Q125814190'
+  - 'https://hoo.be/sarasaffari'
+citations:
+  - 'https://www.wikidata.org/wiki/Q125814190'
+  - 'https://hoo.be/sarasaffari'
+faqs:
+  - question: 'What is Sara Saffari''s Personality Type?'
+    answer: 'Enneagram Threes carry a core belief that was installed early: your worth is what you produce. Love came after the good report card, the winning performance, the visible proof that you mattered. At some point, the child stops distinguishing between "I did something valuable" and "I am valuable" — the doing becomes the being.'
+    anchor: 'what-is-sara-saffaris-personality-type'
+  - question: 'Why is Sara Saffari typed as an Enneagram Type 3?'
+    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Influencer, Personal Trainer.'
+    anchor: 'why-is-sara-saffari-typed-as-an-enneagram-type-3'
 twitter: ''
 instagram: 'https://www.instagram.com/sara_saffari'
 tiktok: 'https://www.tiktok.com/@sara_saffari'

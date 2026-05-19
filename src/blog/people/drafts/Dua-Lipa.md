@@ -70,6 +70,7 @@ faqs:
   - question: 'How did Service95 become a Type 3 evolution rather than a brand extension?'
     answer: 'Service95 launched in 2022 as a weekly newsletter Dua Lipa described as "a way to find order in the chaos" — a "global style, culture, and society concierge service" she actually writes and curates herself, with a book club that runs to Olga Tokarczuk and Tommy Orange and a podcast that books Esther Perel. The Type 3 read is that achievement extends into curation when music starts to land; the healthier read is that she''s learning to give from interest rather than calculation, and the name itself — Service95 — is the artifact of that shift.'
     anchor: 'the-mind-behind-the-music'
+content_quality:
   hook: 9
   enneagram: 8.5
   evidence: 8.5
@@ -304,4 +305,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Trim the come-from-behind narrative front-loading; the structure is repeating itself by section three.
 
 ============================================================ -->
-

@@ -15,6 +15,45 @@ type: ['entrepreneur', 'author', 'business-operator']
 person: 'ray-dalio'
 suggestions: ['Bill-Gates', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Ray_Dalio'
+wikidata_qid: 'Q7297378'
+imdb_id: 'nm4734656'
+birth_date: '1949-08-01'
+birth_place: 'Jackson Heights, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Hedge Fund Manager'
+  - 'Investor'
+  - 'Financier'
+knows_about:
+  - 'Investing'
+  - 'Investment'
+  - 'Success In Business'
+  - 'Principles: Life & Work'
+  - 'Entrepreneurship'
+  - 'Writing'
+keywords:
+  - 'Ray Dalio enneagram'
+  - 'Ray Dalio type 5'
+  - 'Ray Dalio Enneagram Type 5'
+  - 'Ray Dalio personality'
+  - 'Ray Dalio personality type'
+  - 'Ray Dalio analysis'
+  - 'Investigator enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ray_Dalio'
+  - 'https://www.wikidata.org/wiki/Q7297378'
+  - 'https://www.imdb.com/name/nm4734656/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ray_Dalio'
+  - 'https://www.wikidata.org/wiki/Q7297378'
+  - 'https://www.imdb.com/name/nm4734656/'
+faqs:
+  - question: 'What is Ray Dalio''s personality type?'
+    answer: 'He is a textbook Type 5 with a strong 6 wing — the Investigator who builds systems against future helplessness. The 5 is the head-center type whose core fear is being depleted, overwhelmed, or rendered incompetent. Their answer is to retreat, observe, and accumulate enough understanding to never be caught off-guard. Dalio gives this away in almost every sentence he writes about decision-making.'
+    anchor: 'what-is-ray-dalios-personality-type'
+  - question: 'Why is Ray Dalio typed as an Enneagram Type 5?'
+    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Investing, Investment, Success In Business.'
+    anchor: 'why-is-ray-dalio-typed-as-an-enneagram-type-5'
 twitter: 'RayDalio'
 instagram: 'raydalio'
 production_pretext:

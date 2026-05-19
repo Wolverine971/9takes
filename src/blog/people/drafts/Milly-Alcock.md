@@ -15,6 +15,46 @@ type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'milly-alcock'
 suggestions: ['Jennifer-Lawrence', 'Zendaya', 'Timothee-Chalamet', 'Millie-Bobby-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/Milly_Alcock'
+wikidata_qid: 'Q108816955'
+imdb_id: 'nm6854116'
+birth_date: '2000-04-11'
+birth_place: 'Sydney, New South Wales, Australia'
+nationality: 'Australian'
+occupation:
+  - 'Film Actor'
+  - 'Television Actor'
+knows_about:
+  - 'Film acting'
+  - 'Television acting'
+  - 'House of the Dragon'
+  - 'Film Actor'
+  - 'Television Actor'
+keywords:
+  - 'Milly Alcock enneagram'
+  - 'Milly Alcock type 6'
+  - 'Milly Alcock Enneagram Type 6'
+  - 'Milly Alcock personality'
+  - 'Milly Alcock personality type'
+  - 'Milly Alcock analysis'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Milly_Alcock'
+  - 'https://www.wikidata.org/wiki/Q108816955'
+  - 'https://www.imdb.com/name/nm6854116/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Milly_Alcock'
+  - 'https://www.wikidata.org/wiki/Q108816955'
+  - 'https://www.imdb.com/name/nm6854116/'
+  - 'https://www.youtube.com/watch?v=UmV5jfybAwo'
+  - 'https://www.youtube.com/watch?v=D2w8rcYm0Ys'
+  - 'https://www.youtube.com/watch?v=Cth26PIfQUU'
+faqs:
+  - question: 'What is Milly Alcock''s personality type?'
+    answer: 'Type 6 lives in the space between action and doubt. They act, then second-guess. They trust, then verify. They commit, then scan for the exit. The engine that drives them is a single question running in the background of every interaction: Is the ground under me actually solid, or am I about to fall?'
+    anchor: 'what-is-milly-alcocks-personality-type'
+  - question: 'Why is Milly Alcock typed as an Enneagram Type 6?'
+    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, House of the Dragon.'
+    anchor: 'why-is-milly-alcock-typed-as-an-enneagram-type-6'
 instagram: 'millyalcock'
 production_pretext:
   status: draft

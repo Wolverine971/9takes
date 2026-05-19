@@ -15,6 +15,43 @@ type: ['movieStar', 'author', 'screen-icon']
 person: 'lili-reinhart'
 suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Selena-Gomez', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Lili_Reinhart'
+wikidata_qid: 'Q28653501'
+imdb_id: 'nm3929887'
+birth_date: '1996-09-13'
+birth_place: 'Cleveland, Ohio, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Television Actor'
+  - 'Film Actor'
+knows_about:
+  - 'Acting'
+  - 'Television acting'
+  - 'Film acting'
+  - 'Writing'
+keywords:
+  - 'Lili Reinhart enneagram'
+  - 'Lili Reinhart type 4'
+  - 'Lili Reinhart Enneagram Type 4'
+  - 'Lili Reinhart personality'
+  - 'Lili Reinhart personality type'
+  - 'Lili Reinhart analysis'
+  - 'Individualist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Lili_Reinhart'
+  - 'https://www.wikidata.org/wiki/Q28653501'
+  - 'https://www.imdb.com/name/nm3929887/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Lili_Reinhart'
+  - 'https://www.wikidata.org/wiki/Q28653501'
+  - 'https://www.imdb.com/name/nm3929887/'
+faqs:
+  - question: 'What is Lili Reinhart''s Personality Type?'
+    answer: 'Most Enneagram Fours do not publish books. They write the poems, but they rarely let the world see them. Reinhart is an unusual Four because she has turned the private inner experience — the one Fours guard like a religion — into a public career. The depth, the melancholy, the obsession with authenticity, the sense of being different from everyone around her: these are the currency she trades in.'
+    anchor: 'what-is-lili-reinharts-personality-type'
+  - question: 'Why is Lili Reinhart typed as an Enneagram Type 4?'
+    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
+    anchor: 'why-is-lili-reinhart-typed-as-an-enneagram-type-4'
 twitter: 'https://twitter.com/lilireinhart'
 instagram: 'https://www.instagram.com/lilireinhart'
 tiktok: ''

@@ -15,6 +15,43 @@ type: ['creator', 'author', 'news-commentator']
 person: 'ryan-grim'
 suggestions: ['Alexandria-Ocasio-Cortez', 'Peter-Thiel', 'Tucker-Carlson', 'Krystal-Ball']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Grim'
+wikidata_qid: 'Q7384105'
+birth_date: '1978-03-23'
+birth_place: 'Allentown, Pennsylvania, United States'
+nationality: 'American'
+occupation:
+  - 'Journalist'
+  - 'Television Producer'
+knows_about:
+  - 'Journalism'
+  - 'Television production'
+  - 'Digital media'
+  - 'Writing'
+keywords:
+  - 'Ryan Grim enneagram'
+  - 'Ryan Grim type 6'
+  - 'Ryan Grim Enneagram Type 6'
+  - 'Ryan Grim personality'
+  - 'Ryan Grim personality type'
+  - 'Ryan Grim analysis'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ryan_Grim'
+  - 'https://www.wikidata.org/wiki/Q7384105'
+  - 'https://yourcountryondrugs.com/'
+  - 'https://badnews.substack.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ryan_Grim'
+  - 'https://www.wikidata.org/wiki/Q7384105'
+  - 'https://yourcountryondrugs.com/'
+  - 'https://badnews.substack.com/'
+faqs:
+  - question: 'What is Ryan Grim''s Personality Type?'
+    answer: 'Most people see Grim as a progressive advocate journalist, someone whose politics drive his reporting. But politics are the surface. Underneath, something older is running.'
+    anchor: 'what-is-ryan-grims-personality-type'
+  - question: 'Why is Ryan Grim typed as an Enneagram Type 6?'
+    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Television production, Digital media.'
+    anchor: 'why-is-ryan-grim-typed-as-an-enneagram-type-6'
 twitter: '@ryangrim'
 instagram: ''
 tiktok: ''

@@ -17,8 +17,7 @@ suggestions: ['Hasan-Piker', 'Pokimane', 'xQc', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Asmongold'
 wikidata_qid: 'Q104589878'
 imdb_id: 'nm10602552'
-birth_date: '1990'
-birth_place: 'Austin, Texas, United States'
+birth_place: 'Texas, United States'
 nationality: 'American'
 occupation:
   - 'Twitch streamer'

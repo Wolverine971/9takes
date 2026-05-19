@@ -14,7 +14,7 @@ enneagram: 7
 type: ['musician', 'alternative-artist']
 person: 'grimes'
 suggestions: ['Elon Musk', 'Billie Eilish', 'Lana Del Rey', 'Kanye', 'Lady Gaga']
-wikipedia: 'https://en.wikipedia.org/wiki/Grimes_(musician)'
+wikipedia: 'https://en.wikipedia.org/wiki/Grimes'
 wikidata_qid: 'Q117970'
 imdb_id: 'nm4568245'
 birth_date: '1988-03-17'
@@ -43,11 +43,11 @@ keywords:
   - 'Miss Anthropocene'
   - 'Enthusiast enneagram'
 same_as:
-  - 'https://en.wikipedia.org/wiki/Grimes_(musician)'
+  - 'https://en.wikipedia.org/wiki/Grimes'
   - 'https://www.wikidata.org/wiki/Q117970'
   - 'https://www.imdb.com/name/nm4568245/'
 citations:
-  - 'https://en.wikipedia.org/wiki/Grimes_(musician)'
+  - 'https://en.wikipedia.org/wiki/Grimes'
   - 'https://en.wikipedia.org/wiki/Visions_(Grimes_album)'
   - 'https://en.wikipedia.org/wiki/Miss_Anthropocene'
   - 'https://en.wikipedia.org/wiki/Art_Angels'

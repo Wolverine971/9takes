@@ -16,6 +16,40 @@ person: 'robert-greene'
 suggestions:
   ['Friedrich-Nietzsche', 'Robert-Oppenheimer', 'Elon-Musk', 'Jordan-Peterson', 'Tony-Robbins']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_Greene_(American_author)'
+wikidata_qid: 'Q1386992'
+birth_date: '1959-05-14'
+birth_place: 'Los Angeles, California, United States'
+nationality: 'American'
+occupation:
+  - 'Writer'
+knows_about:
+  - 'Writing'
+  - 'Social Psychological Research'
+  - 'The 33 Strategies of War'
+  - 'The 48 Laws of Power'
+keywords:
+  - 'Robert Greene enneagram'
+  - 'Robert Greene type 5'
+  - 'Robert Greene Enneagram Type 5'
+  - 'Robert Greene personality'
+  - 'Robert Greene personality type'
+  - 'Robert Greene analysis'
+  - 'Investigator enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Robert_Greene_(American_author)'
+  - 'https://www.wikidata.org/wiki/Q1386992'
+  - 'https://powerseductionandwar.com'
+citations:
+  - 'https://en.wikipedia.org/wiki/Robert_Greene_(American_author)'
+  - 'https://www.wikidata.org/wiki/Q1386992'
+  - 'https://powerseductionandwar.com'
+faqs:
+  - question: 'What is Robert Greene''s Personality Type?'
+    answer: 'You''re six years old. Your mother''s anxiety fills the room like weather — you can''t see it, but your body registers every shift. "My mother''s a very anxious person, and she''ll admit it," Greene told Rick Rubin on Tetragrammaton. "And so you absorb the energy patterns of people you were around when you''re that young." Your father comes home from selling cleaning supplies. He doesn''t talk about what he wanted. Your sister makes you dinner. Nobody explains the rules.'
+    anchor: 'what-is-robert-greenes-personality-type'
+  - question: 'Why is Robert Greene typed as an Enneagram Type 5?'
+    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Social Psychological Research, The 33 Strategies of War.'
+    anchor: 'why-is-robert-greene-typed-as-an-enneagram-type-5'
 content_quality:
   hook: 9
   enneagram: 9.5

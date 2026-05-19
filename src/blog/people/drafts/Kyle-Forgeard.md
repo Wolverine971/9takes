@@ -14,7 +14,39 @@ enneagram: 7
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'kyle-forgeard'
 suggestions: ['David-Dobrik', 'Kai-Cenat', 'Andrew-Schulz', 'Adin-Ross']
-wikipedia: 'https://en.wikipedia.org/wiki/Nelk'
+wikipedia: ''
+birth_date: '1994-07-12'
+birth_place: 'Mississauga, Ontario, Canada'
+nationality: 'Canadian'
+occupation:
+  - 'Content Creator'
+  - 'Entrepreneur'
+knows_about:
+  - 'Digital media'
+  - 'Entrepreneurship'
+keywords:
+  - 'Kyle Forgeard enneagram'
+  - 'Kyle Forgeard type 7'
+  - 'Kyle Forgeard Enneagram Type 7'
+  - 'Kyle Forgeard personality'
+  - 'Kyle Forgeard personality type'
+  - 'Kyle Forgeard analysis'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://twitter.com/kaborForgeard'
+  - 'https://instagram.com/kyle'
+  - 'https://tiktok.com/@kyleforgeard'
+citations:
+  - 'https://en.wikipedia.org/wiki/Nelk'
+  - 'https://www.famousbirthdays.com/people/kyle-forgeard.html'
+  - 'https://www.thefamouspeople.com/profiles/kyle-forgeard-123127.php'
+faqs:
+  - question: 'What is Kyle Forgeard''s Personality Type?'
+    answer: 'Enneagram Sevens are called "The Enthusiast," but the label undersells the psychology. Sevens don''t just enjoy new experiences. They need them. Their minds constantly generate alternatives, reframe negatives into positives, sprint toward the next horizon before the current one has fully landed. The core fear is being trapped: in pain, in boredom, in limitation.'
+    anchor: 'what-is-kyle-forgeards-personality-type'
+  - question: 'Why is Kyle Forgeard typed as an Enneagram Type 7?'
+    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Entrepreneurship.'
+    anchor: 'why-is-kyle-forgeard-typed-as-an-enneagram-type-7'
 twitter: 'https://twitter.com/kaborForgeard'
 instagram: 'https://instagram.com/kyle'
 tiktok: 'https://tiktok.com/@kyleforgeard'

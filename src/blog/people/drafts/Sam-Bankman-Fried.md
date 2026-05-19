@@ -15,6 +15,47 @@ type: ['techie', 'entrepreneur', 'business-operator']
 person: 'sam-bankman-fried'
 suggestions: ['Sam-Altman', 'Elon-Musk', 'Mark-Zuckerberg', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Sam_Bankman-Fried'
+wikidata_qid: 'Q106543540'
+imdb_id: 'nm13060203'
+birth_date: '1992-03-06'
+birth_place: 'Stanford, California, United States'
+nationality: 'American'
+occupation:
+  - 'Business Executive'
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Political Donor'
+  - 'Convict'
+knows_about:
+  - 'Entrepreneurship'
+  - 'Investing'
+  - 'Business Executive'
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Political Donor'
+keywords:
+  - 'Sam Bankman-Fried enneagram'
+  - 'Sam Bankman-Fried type 5'
+  - 'Sam Bankman-Fried Enneagram Type 5'
+  - 'Sam Bankman-Fried personality'
+  - 'Sam Bankman-Fried personality type'
+  - 'Sam Bankman-Fried analysis'
+  - 'Investigator enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Sam_Bankman-Fried'
+  - 'https://www.wikidata.org/wiki/Q106543540'
+  - 'https://www.imdb.com/name/nm13060203/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Sam_Bankman-Fried'
+  - 'https://www.wikidata.org/wiki/Q106543540'
+  - 'https://www.imdb.com/name/nm13060203/'
+faqs:
+  - question: 'What is Sam Bankman-Fried''s personality type?'
+    answer: 'Bankman-Fried is a clear Type 5 — the Investigator. Specifically, a 5w6 with a sexual/social subtype stack. The wiring is the head triad in its purest form: a mind that experiences the world from a distance, runs the world as a probability model, and protects itself by retreating further into analysis whenever feeling threatens to intrude.'
+    anchor: 'what-is-sam-bankman-frieds-personality-type'
+  - question: 'Why is Sam Bankman-Fried typed as an Enneagram Type 5?'
+    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Investing, Business Executive.'
+    anchor: 'why-is-sam-bankman-fried-typed-as-an-enneagram-type-5'
 twitter: 'SBF_FTX'
 production_pretext:
   status: draft

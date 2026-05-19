@@ -49,6 +49,9 @@ same_as:
   - 'https://www.imdb.com/name/nm12914358/'
   - 'https://kick.com/AdinRoss'
   - 'https://www.twitch.tv/AdinRoss'
+citations:
+  - 'https://en.wikipedia.org/wiki/Adin_Ross'
+  - 'https://www.wikidata.org/wiki/Q106626612'
 faqs:
   - question: "What is Adin Ross's personality type?"
     answer: "Adin Ross is an Enneagram Type 3 (The Achiever). The pattern shows in his skipped prom and graduation for streaming, his obsession with celebrity proximity (the LeBron call, the Trump Mar-a-Lago interview, the Cybertruck gift), his image-management playbook of refunds and public apologies, and his admission that even after a $24–40M net worth he is 'not even like, proud of myself as of right now.'"

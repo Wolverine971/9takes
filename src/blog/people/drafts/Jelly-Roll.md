@@ -14,6 +14,7 @@ enneagram: 9
 type: ['musician', 'singer-songwriter']
 person: 'jelly-roll'
 suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle']
+wikipedia: 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
 wikidata_qid: 'Q6176881'
 imdb_id: 'nm2000227'
 birth_date: '1984-12-04'
@@ -46,8 +47,8 @@ same_as:
 citations:
   - 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
   - 'https://www.today.com/popculture/music/jelly-roll-mom-music-records-cigarettes-rcna146708'
-  - 'https://www.gq.com/story/jelly-roll-profile-2024'
-  - 'https://www.menshealth.com/entertainment/a63091798/jelly-roll-cover-story/'
+  - 'https://www.gq.com/story/jelly-roll-gq-hype'
+  - 'https://www.menshealth.com/health/a69709463/jelly-roll-transformation-weight-loss/'
   - 'https://www.banking.senate.gov/hearings/stopping-the-flow-of-fentanyl-public-awareness-and-legislative-solutions'
 faqs:
   - question: "What is Jelly Roll's personality type?"

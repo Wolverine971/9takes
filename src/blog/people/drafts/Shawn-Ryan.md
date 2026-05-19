@@ -15,6 +15,38 @@ type: ['creator', 'podcaster']
 person: 'shawn-ryan'
 suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Chris-Williamson', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'
+wikidata_qid: 'Q131919780'
+birth_place: 'Kansas City, Missouri, United States'
+nationality: 'American'
+occupation:
+  - 'Military Personnel'
+  - 'Podcaster'
+knows_about:
+  - 'Podcasting'
+  - 'Digital media'
+  - 'Military Personnel'
+  - 'Podcaster'
+keywords:
+  - 'Shawn Ryan enneagram'
+  - 'Shawn Ryan type 5'
+  - 'Shawn Ryan Enneagram Type 5'
+  - 'Shawn Ryan personality'
+  - 'Shawn Ryan personality type'
+  - 'Shawn Ryan analysis'
+  - 'Investigator enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'
+  - 'https://www.wikidata.org/wiki/Q131919780'
+citations:
+  - 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'
+  - 'https://www.wikidata.org/wiki/Q131919780'
+faqs:
+  - question: 'What is Shawn Ryan''s Personality Type?'
+    answer: 'Type 5s are the most internally-focused type in the Enneagram. Their core fear: being useless, overwhelmed, or incapable. Their response? Withdraw. Observe. Gather knowledge until you understand the world so thoroughly that nothing catches you off guard.'
+    anchor: 'what-is-shawn-ryans-personality-type'
+  - question: 'Why is Shawn Ryan typed as an Enneagram Type 5?'
+    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Podcasting, Digital media, Military Personnel.'
+    anchor: 'why-is-shawn-ryan-typed-as-an-enneagram-type-5'
 twitter: 'ShawnRyan762'
 instagram: 'shawnryan762'
 tiktok: 'shawnryan762'

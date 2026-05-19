@@ -15,6 +15,51 @@ type: ['entrepreneur', 'creator', 'business-creator', 'business-operator']
 person: 'steven-bartlett'
 suggestions: ['Alex-Hormozi', 'Gary-Vee', 'Tony-Robbins', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Steven_Bartlett_(businessman)'
+wikidata_qid: 'Q108914793'
+birth_date: '1992-08-26'
+birth_place: 'Gaborone, Botswana'
+nationality: 'British'
+occupation:
+  - 'Businessperson'
+  - 'Podcaster'
+  - 'Journalist'
+  - 'Writer'
+  - 'Entrepreneur'
+  - 'Consultant'
+knows_about:
+  - 'Business'
+  - 'Podcasting'
+  - 'Journalism'
+  - 'Writing'
+  - 'Entrepreneurship'
+  - 'Marketing'
+keywords:
+  - 'Steven Bartlett enneagram'
+  - 'Steven Bartlett type 3'
+  - 'Steven Bartlett Enneagram Type 3'
+  - 'Steven Bartlett personality'
+  - 'Steven Bartlett personality type'
+  - 'Steven Bartlett analysis'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Steven_Bartlett_(businessman)'
+  - 'https://www.wikidata.org/wiki/Q108914793'
+  - 'https://stevenbartlett.com/'
+  - 'https://stevenbartlett.com'
+citations:
+  - 'https://en.wikipedia.org/wiki/Steven_Bartlett_(businessman)'
+  - 'https://www.wikidata.org/wiki/Q108914793'
+  - 'https://theweek.com/people/955944/steven-bartlett-profile'
+  - 'https://www.diasporanews.ng/post/diaspora-star-steven-bartlett-from-startup-rebel-to-global-business-influencer'
+  - 'https://podcastrex.com/news/spotify-wrapped-2025-reveals-the-years-biggest-podcasts-and-a-new-no-1-in-the-uk'
+  - 'https://x.com/StevenBartlett/status/1996504762997756394'
+faqs:
+  - question: 'What is Steven Bartlett''s Personality Type?'
+    answer: 'Enneagram Type 3s are called "The Achievers." The core drive isn''t ambition for its own sake — it''s a need to feel valuable, usually because no one taught them they were valuable without earning it first.'
+    anchor: 'what-is-steven-bartletts-personality-type'
+  - question: 'Why is Steven Bartlett typed as an Enneagram Type 3?'
+    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Podcasting, Journalism.'
+    anchor: 'why-is-steven-bartlett-typed-as-an-enneagram-type-3'
 twitter: 'StevenBartlett'
 instagram: 'steven'
 tiktok: 'steven'
@@ -504,4 +549,3 @@ The Wikipedia scaffolding is gone. The piece reads as one
 Type 3 essay with the biography woven in, not stapled on.
 Should grade B+ → A- on the next quality pass.
 ============================================================ -->
-

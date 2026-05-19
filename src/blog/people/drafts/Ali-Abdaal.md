@@ -14,6 +14,7 @@ enneagram: 3
 type: ['creator', 'business-creator']
 person: 'ali-abdaal'
 suggestions: ['Steven-Bartlett', 'Alex-Hormozi', 'Tim-Ferriss', 'Gary-Vee']
+wikipedia: ''
 wikidata_qid: 'Q95980508'
 imdb_id: 'nm13128832'
 birth_date: '1994-01-01'

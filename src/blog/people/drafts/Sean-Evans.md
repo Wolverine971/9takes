@@ -15,6 +15,44 @@ type: ['creator', 'viral-entertainer']
 person: 'sean-evans'
 suggestions: ['Conan-OBrien', 'Joe-Rogan', 'David-Letterman', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'
+wikidata_qid: 'Q27917256'
+imdb_id: 'nm8797195'
+birth_date: '1986-04-26'
+birth_place: 'Chicago, Illinois, United States'
+nationality: 'American'
+occupation:
+  - 'Vlogger'
+  - 'Podcaster'
+  - 'YouTuber'
+  - 'Television Producer'
+knows_about:
+  - 'Podcasting'
+  - 'YouTube content creation'
+  - 'Television production'
+  - 'Digital media'
+keywords:
+  - 'Sean Evans enneagram'
+  - 'Sean Evans type 6'
+  - 'Sean Evans Enneagram Type 6'
+  - 'Sean Evans personality'
+  - 'Sean Evans personality type'
+  - 'Sean Evans analysis'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'
+  - 'https://www.wikidata.org/wiki/Q27917256'
+  - 'https://www.imdb.com/name/nm8797195/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'
+  - 'https://www.wikidata.org/wiki/Q27917256'
+  - 'https://www.imdb.com/name/nm8797195/'
+faqs:
+  - question: 'What is Sean Evans''s personality type?'
+    answer: 'Type 6s are wired around a question: what could go wrong, and am I ready for it? They prepare. They vet. They build relationships that hold under pressure, because the pressure is coming. They distrust their own footing more than anyone else does. Their best version is steady, loyal, and unusually competent under fire. Their worst version cannot put the worry down.'
+    anchor: 'what-is-sean-evanss-personality-type'
+  - question: 'Why is Sean Evans typed as an Enneagram Type 6?'
+    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Podcasting, YouTube content creation, Television production.'
+    anchor: 'why-is-sean-evans-typed-as-an-enneagram-type-6'
 twitter: 'seanseaevans'
 instagram: 'seanseaevans'
 production_pretext:

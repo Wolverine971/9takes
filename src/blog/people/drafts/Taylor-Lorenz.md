@@ -15,6 +15,42 @@ type: ['journalist', 'creator', 'news-commentator']
 person: 'taylor-lorenz'
 suggestions: ['Hasan-Piker', 'Kim-Kardashian', 'Logan-Paul', 'Gary-Vee']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Lorenz'
+wikidata_qid: 'Q89135464'
+imdb_id: 'nm11381011'
+birth_date: '1984-10-21'
+birth_place: 'New York City, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Journalist'
+knows_about:
+  - 'Journalism'
+  - 'Digital media'
+  - 'Journalist'
+keywords:
+  - 'Taylor Lorenz enneagram'
+  - 'Taylor Lorenz type 6'
+  - 'Taylor Lorenz Enneagram Type 6'
+  - 'Taylor Lorenz personality'
+  - 'Taylor Lorenz personality type'
+  - 'Taylor Lorenz analysis'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Taylor_Lorenz'
+  - 'https://www.wikidata.org/wiki/Q89135464'
+  - 'https://www.imdb.com/name/nm11381011/'
+  - 'https://www.taylorlorenz.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Taylor_Lorenz'
+  - 'https://www.wikidata.org/wiki/Q89135464'
+  - 'https://www.imdb.com/name/nm11381011/'
+  - 'https://www.taylorlorenz.com/'
+faqs:
+  - question: 'What is Taylor Lorenz''s Personality Type?'
+    answer: 'Enneagram Sixes are driven by a core fear of being without support, guidance, or security. Not just physical safety. Existential stability. The sense that the ground beneath you could shift at any moment, that the people and institutions you depend on could fail without warning, and that you might not survive it alone.'
+    anchor: 'what-is-taylor-lorenzs-personality-type'
+  - question: 'Why is Taylor Lorenz typed as an Enneagram Type 6?'
+    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Digital media, Journalist.'
+    anchor: 'why-is-taylor-lorenz-typed-as-an-enneagram-type-6'
 twitter: 'TaylorLorenz'
 instagram: 'taylorlorenz'
 tiktok: 'taylorlorenz'

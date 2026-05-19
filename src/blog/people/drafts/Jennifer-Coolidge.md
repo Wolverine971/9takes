@@ -14,6 +14,7 @@ enneagram: '4'
 type: ['comedian', 'movieStar', 'screen-icon']
 person: 'jennifer-coolidge'
 suggestions: ['Tim-Robinson', 'Adele', 'Lana-Del-Rey', 'Robert-Pattinson']
+wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Coolidge'
 wikidata_qid: 'Q230278'
 imdb_id: 'nm0177639'
 birth_date: '1961-08-28'
@@ -346,4 +347,3 @@ PRIORITY FIXES:
 3. Add at least one current-era beat (post-Tanya 2024-2026 work, what does she choose now that the role is dead?) — the piece ends on "she's hoping she has the guts to stay on" but never tells us whether she has.
 
 ============================================================ -->
-
