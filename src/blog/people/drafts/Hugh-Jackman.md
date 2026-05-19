@@ -15,9 +15,58 @@ type: ['movieStar', 'screen-icon']
 person: 'hugh-jackman'
 suggestions: ['Margot-Robbie', 'Tom-Hiddleston', 'Henry-Cavill', 'Dwayne-Johnson']
 wikipedia: 'https://en.wikipedia.org/wiki/Hugh_Jackman'
-twitter: 'RealHughJackman'
-instagram: 'thehughjackman'
-tiktok: ''
+wikidata_qid: 'Q129591'
+imdb_id: 'nm0413168'
+birth_date: '1968-10-12'
+birth_place: 'Sydney, New South Wales, Australia'
+nationality:
+  - 'Australian'
+  - 'British'
+occupation:
+  - 'Actor'
+  - 'Singer'
+  - 'Producer'
+  - 'Stage performer'
+knows_about:
+  - 'Wolverine portrayal'
+  - 'Broadway musicals'
+  - 'Film acting'
+  - 'Method physical transformation'
+  - 'Hosting awards ceremonies'
+  - 'Transcendental meditation'
+keywords:
+  - 'Hugh Jackman enneagram'
+  - 'Hugh Jackman type 2'
+  - 'Hugh Jackman personality'
+  - 'Hugh Jackman 2w3'
+  - 'Helper enneagram'
+  - 'Hugh Jackman Wolverine'
+  - 'Hugh Jackman Deborra-Lee Furness'
+  - 'Hugh Jackman Sutton Foster'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Hugh_Jackman'
+  - 'https://www.wikidata.org/wiki/Q129591'
+  - 'https://www.imdb.com/name/nm0413168/'
+  - 'https://www.britannica.com/biography/Hugh-Jackman'
+citations:
+  - 'https://en.wikipedia.org/wiki/Hugh_Jackman'
+  - 'https://en.wikipedia.org/wiki/Deborra-Lee_Furness'
+  - 'https://en.wikipedia.org/wiki/Wolverine_(film)'
+  - 'https://en.wikipedia.org/wiki/Les_Misérables_(2012_film)'
+  - 'https://en.wikipedia.org/wiki/The_Greatest_Showman'
+faqs:
+  - question: "What is Hugh Jackman's personality type?"
+    answer: "Hugh Jackman is an Enneagram Type 2 (The Helper), specifically a 2w3 — what the system calls 'The Host.' The pattern shows in the eight-year-old who couldn't enter his own empty house after his mother's telegram from England, the adolescent 'white rage' that became Wolverine fuel (the Two's stress arrow to Eight), the morning tea ritual of a 27-year marriage, and a stage philosophy that 'all spiritual moments in my life have been on stage' — connection as both calling and survival mechanism."
+    anchor: 'what-is-hugh-jackmans-personality-type'
+  - question: 'How did Hugh Jackman channel his childhood anger into Wolverine?'
+    answer: "His mother left for England when he was eight; the rage didn't surface until 12 or 13, when a planned reconciliation fell apart. He headbutted lockers, went into 'white rage' in rugby rucks, and identified the source himself: 'Isn't most anger fear-based, ultimately? It emanates from some kind of powerlessness.' Preparing for Wolverine, he stood in a Toronto apartment at 3 AM under a freezing shower and felt the rage rise — the same fury, stored in his body for decades, finally with a controlled place to go across ten films and twenty-four years."
+    anchor: 'white-rage-and-the-diving-board'
+  - question: 'What happened with Hugh Jackman and Deborra-Lee Furness?'
+    answer: "They married in 1996 after meeting on the set of Correlli, adopted Oscar and Ava after multiple miscarriages, and announced their separation in September 2023 citing 'individual growth.' By 2024, Jackman was linked to his Music Man co-star Sutton Foster — described by sources as 'Broadway's worst-kept secret.' Furness filed for divorce in May 2025 with a statement referencing 'the traumatic journey of betrayal' — a single word that reframed twenty-seven years of public morning-tea narrative."
+    anchor: '27-years-of-morning-tea'
+  - question: 'Why does Hugh Jackman call performing a spiritual practice?'
+    answer: "At thirteen, his evangelical father took him to a Billy Graham crusade in Sydney, where he had a premonition he'd one day stand on stage 'like the preachers I saw.' Before every Broadway performance, he prays: 'Allow me to surrender.' He compares himself to Eric Liddell's 'When I run, I feel His pleasure.' The stage is where the boy who waited outside the empty house finally gets to be inside a room so full that absence becomes impossible."
+    anchor: 'the-stage-as-altar'
 content_quality:
   hook: 9
   enneagram: 9

@@ -15,9 +15,61 @@ type: ['creator', 'viral-entertainer']
 person: 'david-dobrik'
 suggestions: ['Kai-Cenat', 'Kyle-Forgeard', 'Emma-Chamberlain', 'Andrew-Schulz']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Dobrik'
+wikidata_qid: 'Q50574810'
+imdb_id: 'nm7228036'
+birth_date: '1996-07-23'
+birth_place: 'Košice, Slovakia'
+nationality:
+  - 'Slovak'
+  - 'American'
+occupation:
+  - 'YouTuber'
+  - 'Vlogger'
+  - 'Entrepreneur'
+  - 'Internet personality'
+knows_about:
+  - 'YouTube vlog production'
+  - 'Short-form video editing'
+  - 'Vine-era content creation'
+  - 'Influencer brand-building'
+  - 'Photo-sharing app design'
+  - 'Celebrity giveaway formats'
 twitter: 'DavidDobrik'
 instagram: 'daviddobrik'
 tiktok: '@daviddobrik'
+keywords:
+  - 'David Dobrik enneagram'
+  - 'David Dobrik type 7'
+  - 'David Dobrik personality'
+  - 'David Dobrik Vlog Squad'
+  - 'Enthusiast enneagram'
+  - 'David Dobrik Tesla giveaway'
+  - 'David Dobrik Jeff Wittek'
+  - 'David Dobrik Dispo'
+same_as:
+  - 'https://en.wikipedia.org/wiki/David_Dobrik'
+  - 'https://www.wikidata.org/wiki/Q50574810'
+  - 'https://www.imdb.com/name/nm7228036/'
+  - 'https://www.youtube.com/@DavidDobrik'
+citations:
+  - 'https://en.wikipedia.org/wiki/David_Dobrik'
+  - 'https://en.wikipedia.org/wiki/Vlog_Squad'
+faqs:
+  - question: "What is David Dobrik's personality type?"
+    answer: "David Dobrik is an Enneagram Type 7 (The Enthusiast). The pattern shows in his joy-manufacturing format (4-minute-20-second vlogs, three a week for years), the compulsive Tesla and Lamborghini giveaways aimed at engineering ecstatic reactions on other people's faces, the inability to sit still during a forced hiatus, and the 'missed the mark' reframes that softened serious harm into a quality-control problem."
+    anchor: 'what-is-david-dobriks-personality-type'
+  - question: "How did David Dobrik's DACA status shape his career?"
+    answer: "Dobrik discovered at sixteen, trying to get his driver's license, that his family had brought him to the United States undocumented as a child. He spent the next several years as a DACA recipient — allowed to stay, allowed to work, but unable to leave the country safely. For a Type 7 whose core fear is being trapped or deprived, the restriction wasn't imagined; it was a legal fact. He got his green card in 2021 and called it 'a super super big deal for me.'"
+    anchor: 'the-16-year-old-who-found-out-he-wasnt-american'
+  - question: 'What happened to David Dobrik in 2021?'
+    answer: "In March 2021, Business Insider reported a 2018 incident in which a woman had been sexually assaulted by Vlog Squad member Dominykas Zeglaitis at a filming event and footage tied to the incident had been left up. Former member Seth François came forward separately about a non-consensual kiss prank. Sponsors including HelloFresh, Dollar Shave Club and SeatGeek dropped him. His photo-app Dispo had just raised a $20M Series A at a $200M valuation; lead investor Spark Capital severed ties within days. Dobrik stepped down from the Dispo board and apologized via a comments-disabled video."
+    anchor: 'what-happened-in-2021'
+  - question: 'What happened with Jeff Wittek and David Dobrik?'
+    answer: "In 2020, during a stunt shoot in Utah, Dobrik operated an excavator while Wittek swung from a rope attached to its arm. Dobrik brought the arm to a sudden stop and Wittek smashed into the machine, fracturing his skull in nine places, his eye socket, his hip and his foot, with a torn knee ligament and nine subsequent eye surgeries. Wittek filed a $10 million lawsuit; it settled in June 2025 for $10,000. Dobrik's apology centered the day as 'the worst thing that's ever happened to me' — a tell about whose pain he was actually weighing."
+    anchor: 'what-happened-in-2021'
+  - question: 'Did David Dobrik come back to YouTube after the scandals?'
+    answer: "Yes. After largely going dark from March 2022 to January 2025, Dobrik returned on January 7, 2025 with a 14-minute video taking friends through seven natural wonders, giving Teslas to Doughbrik's employees and linking up with MrBeast. He announced an every-other-week posting cadence — a marked slowdown from the three-a-week peak. The formula was the same. The question the analysis leaves open: whether three years of stillness produced internal work, or whether the stillness was its own form of running."
+    anchor: 'the-return'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -261,4 +313,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Resolve the "Three Years of Stillness" ambiguity — name what's actually documented (no on-record apology to François, lawsuit dragging) and what's not, then let the reader weight it. Currently the section's neutrality protects him.
 
 ============================================================ -->
-

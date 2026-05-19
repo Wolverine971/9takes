@@ -15,9 +15,61 @@ type: ['movieStar', 'screen-icon']
 person: 'daniel-day-lewis'
 suggestions: ['Cillian-Murphy', 'Robert-Greene', 'Mark-Zuckerberg', 'Rooney-Mara']
 wikipedia: 'https://en.wikipedia.org/wiki/Daniel_Day-Lewis'
+wikidata_qid: 'Q166389'
+imdb_id: 'nm0000358'
+birth_date: '1957-04-29'
+birth_place: 'Kensington, London, England'
+nationality:
+  - 'British'
+  - 'Irish'
+occupation:
+  - 'Actor'
+  - 'Screenwriter'
+knows_about:
+  - 'Method acting'
+  - 'Character immersion'
+  - 'Stagecraft and Shakespearean performance'
+  - 'Cobbling and leatherwork'
+  - 'Cabinetmaking and woodworking'
+  - 'Violin making'
+keywords:
+  - 'Daniel Day-Lewis enneagram'
+  - 'Daniel Day-Lewis type 5'
+  - 'Daniel Day-Lewis personality'
+  - 'Day-Lewis 5w4'
+  - 'Investigator enneagram'
+  - 'Day-Lewis Hamlet collapse'
+  - 'Daniel Day-Lewis retirement'
+  - 'Day-Lewis Anemone'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Daniel_Day-Lewis'
+  - 'https://www.wikidata.org/wiki/Q166389'
+  - 'https://www.imdb.com/name/nm0000358/'
+  - 'https://www.britannica.com/biography/Daniel-Day-Lewis'
+  - 'https://www.oscars.org/'
 twitter: ''
 instagram: ''
 tiktok: ''
+citations:
+  - 'https://en.wikipedia.org/wiki/Daniel_Day-Lewis'
+  - 'https://en.wikipedia.org/wiki/Cecil_Day-Lewis'
+  - 'https://en.wikipedia.org/wiki/Phantom_Thread'
+  - 'https://en.wikipedia.org/wiki/There_Will_Be_Blood'
+  - 'https://en.wikipedia.org/wiki/Lincoln_(film)'
+  - 'https://en.wikipedia.org/wiki/Anemone_(film)'
+faqs:
+  - question: "What is Daniel Day-Lewis's personality type?"
+    answer: "Daniel Day-Lewis is an Enneagram Type 5 (The Investigator), a 5w4. The pattern shows in the 1989 Hamlet collapse the night he saw his dead father's ghost, the Florence cobbling apprenticeship he disappeared into for two years after The Boxer, the violin-making school he enrolled in during his last retirement, the fewer than 20 interviews he has given in a 40-year career, and his own self-diagnosis: 'I'm not a good enough actor to not do it.'"
+    anchor: 'what-is-daniel-day-lewiss-personality-type'
+  - question: 'Why did Daniel Day-Lewis really quit acting in 2017?'
+    answer: "After Phantom Thread, Day-Lewis was inhabiting Reynolds Woodcock — a controlling craftsman haunted by a dead parent and stitching hidden messages into his work — and the character did not let him go. 'I depleted myself to the point where I had nothing left.' He used a public retirement statement as a binding cage to keep himself out of the work. He later called the statement 'grandiose gibberish' and admitted he 'never intended to retire, really.' Then his son Ronan asked him to do Anemone."
+    anchor: 'grandiose-gibberish'
+  - question: 'Why did Daniel Day-Lewis stay in character through entire productions?'
+    answer: "For My Left Foot he stayed in the wheelchair and broke two ribs from the posture; for The Last of the Mohicans he learned to skin animals and fire a flintlock on the run; for Lincoln he texted Sally Field in character for a year. He has been explicit that the immersion is not perfectionism: 'I do it because I'm not a good enough actor to not do it.' For a Type 5, total preparation is what makes the abandon possible. The control enables the fall."
+    anchor: 'im-not-a-good-enough-actor-to-not-do-it'
+  - question: 'What is the story behind Daniel Day-Lewis ending things with Isabelle Adjani by fax?'
+    answer: "Day-Lewis and Adjani were together for six years. When she became pregnant with their son Gabriel-Kane, he reportedly ended the relationship by fax. He has never publicly confirmed or denied the story. A man who can spend three months texting as Abraham Lincoln chose, at the most consequential personal moment of his life, the most emotionally remote method of communication available. In 2025, Gabriel-Kane was in the audience at the New York Film Festival premiere of Anemone — a film about a man who abandoned his pregnant partner."
+    anchor: 'the-fax-from-paris'
 content_quality:
   hook: 9
   enneagram: 9

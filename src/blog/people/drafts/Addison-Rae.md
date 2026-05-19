@@ -16,9 +16,50 @@ person: 'addison-rae'
 suggestions:
   ['Alix-Earle', "Charli-D'Amelio", 'Emma-Chamberlain', 'Sydney-Sweeney', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Addison_Rae'
-twitter: 'whoisaddison'
-instagram: 'addisonraee'
-tiktok: 'addisonre'
+wikidata_qid: 'Q83739405'
+imdb_id: 'nm11290905'
+birth_date: '2000-10-06'
+birth_place: 'Lafayette, Louisiana, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Actress'
+  - 'Dancer'
+  - 'Social media personality'
+knows_about:
+  - 'Hyperpop and alternative pop'
+  - 'TikTok content strategy'
+  - 'Strategic image reinvention'
+  - 'Pop music collaboration'
+  - 'Influencer-to-artist crossover'
+  - 'Brand and persona positioning'
+keywords:
+  - 'Addison Rae enneagram'
+  - 'Addison Rae type 3'
+  - 'Addison Rae personality'
+  - 'Addison Rae 3w4'
+  - 'Achiever enneagram'
+  - 'Addison Rae Diet Pepsi'
+  - 'Addison Rae reinvention'
+  - 'TikTok to Grammy nominee'
+  - 'Addison Rae Charli XCX'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Addison_Rae'
+  - 'https://www.wikidata.org/wiki/Q83739405'
+  - 'https://www.imdb.com/name/nm11290905/'
+faqs:
+  - question: "What is Addison Rae's personality type?"
+    answer: "Addison Rae is an Enneagram Type 3 (The Achiever). The pattern shows in her strategic reinvention from mocked TikToker to Grammy-nominated artist, the post-mortem she ran on 'Obsessed' before pivoting to 'Diet Pepsi,' the way she aligned her entire family around her opportunity in Los Angeles, and her own self-narration: 'I feel like I've surpassed Addison Rae. It's just Addison now.'"
+    anchor: 'what-is-addison-raes-personality-type'
+  - question: 'Why is Addison Rae a Type 3 and not a Type 7 or Type 2?'
+    answer: "Type 7s avoid pain through pleasure-seeking; Type 2s measure worth through being needed. When 'Obsessed' flopped, Addison didn't distract herself with new adventures or retreat into her support system. She analyzed what went wrong, found better collaborators, and came back with 'Diet Pepsi.' Achievement, not avoidance or attachment, is her organizing drive."
+    anchor: 'why-type-3-and-not-type-7-or-type-2'
+  - question: 'How did Addison Rae go from cringe TikToker to Grammy nominee?'
+    answer: "She treated her early failures as positioning errors, not talent verdicts. Through producer Omer Fedi she entered the hyperpop world, Charli XCX texted her after the '2 Die 4' demo leaked and asked to be on the song, and signing with Columbia she released 'Diet Pepsi' in 2024. The album 'Addison' debuted at #4 on the Billboard 200 in 2025, earning a Best New Artist nomination at the 2026 Grammys."
+    anchor: 'diet-pepsi-the-song-that-changed-the-story'
+  - question: 'How did Addison Rae handle her father Monty Lopez cheating scandal?'
+    answer: "When Renée Ash came forward in 2022 claiming an affair with Addison's father, the entire collapse played out across millions of feeds. Addison unfollowed her father on Instagram and posted a measured statement that named no one, gave no context, and revealed nothing while she kept performing publicly. That private/public divide — keeping the wound invisible while managing the image — is the most Type 3 move in her career, and it didn't happen on a stage."
+    anchor: 'the-family-collapse-broadcast-in-real-time'
 path: src/blog/people/drafts/Addison-Rae.md
 content_quality:
   hook: 9

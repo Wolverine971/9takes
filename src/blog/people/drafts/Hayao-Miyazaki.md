@@ -15,6 +15,61 @@ type: ['other']
 person: 'hayao-miyazaki'
 suggestions: ['Steve-Jobs', 'J.K.-Rowling', 'Greta-Thunberg', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/Hayao_Miyazaki'
+wikidata_qid: 'Q55400'
+imdb_id: 'nm0594503'
+birth_date: '1941-01-05'
+birth_place: 'Bunkyō, Tokyo, Empire of Japan'
+nationality: 'Japanese'
+occupation:
+  - 'Animator'
+  - 'Film director'
+  - 'Screenwriter'
+  - 'Manga artist'
+  - 'Studio co-founder'
+knows_about:
+  - 'Hand-drawn animation'
+  - 'Studio Ghibli'
+  - 'Pacifist storytelling'
+  - 'Environmentalist filmmaking'
+  - 'Female-led protagonist design'
+  - 'Anti-AI animation advocacy'
+keywords:
+  - 'Hayao Miyazaki enneagram'
+  - 'Hayao Miyazaki type 1'
+  - 'Hayao Miyazaki personality'
+  - 'Miyazaki 1w9'
+  - 'Reformer enneagram'
+  - 'Miyazaki retirements'
+  - 'Miyazaki AI insult to life'
+  - 'Studio Ghibli founder'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Hayao_Miyazaki'
+  - 'https://www.wikidata.org/wiki/Q55400'
+  - 'https://www.imdb.com/name/nm0594503/'
+  - 'https://www.ghibli.jp/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Hayao_Miyazaki'
+  - 'https://en.wikipedia.org/wiki/Isao_Takahata'
+  - 'https://en.wikipedia.org/wiki/The_Kingdom_of_Dreams_and_Madness'
+  - 'https://en.wikipedia.org/wiki/The_Boy_and_the_Heron'
+  - 'https://en.wikipedia.org/wiki/The_Wind_Rises'
+  - 'https://en.wikipedia.org/wiki/Studio_Ghibli'
+faqs:
+  - question: "What is Hayao Miyazaki's personality type?"
+    answer: "Hayao Miyazaki is an Enneagram Type 1 (The Reformer), specifically a 1w9. The pattern shows in his moral framing of artistic compromise as 'dishonest,' the AI demo he called 'an insult to life itself,' the five public retirements that always reverse, the wastebasket of discarded sketches he chain-smokes through every morning, and the bench outside his studio with a hand-lettered 'Have a seat' sign that he watches through a window from his desk."
+    anchor: 'what-is-hayao-miyazakis-personality-type'
+  - question: 'Why does Hayao Miyazaki keep coming out of retirement?'
+    answer: "Miyazaki has retired publicly in 1986, 1992, 1998, 2013, and again before The Boy and the Heron — and returned every time. Each retirement followed exhaustion after a film he believed was unbearable to make. Each return followed the Type 1 recovery from a stress-shift into a melancholic Type 4: things are still wrong, someone still has to fix them, and the world being broken with him sitting it out feels worse than the world being broken with him trying."
+    anchor: 'multiple-retirements-the-pattern-that-defines-him'
+  - question: 'Why did Hayao Miyazaki call AI animation an insult to life?'
+    answer: "In a 2016 NHK documentary, programmers showed Miyazaki an AI animation of a creature using its head as a leg, proudly noting it 'cannot feel pain.' Miyazaki reached for his disabled friend, whose stiff arm struggled with a high-five, as the moral measure: 'Whoever creates this stuff has no idea what pain is.' For a Type 1, the aesthetic question is never separable from the ethical one — hand-drawn animation is a daily protest vote against a world he believes is letting itself off the hook."
+    anchor: 'why-miyazaki-hates-ai-and-most-of-modern-animation'
+  - question: "How did Miyazaki's mother shape his films?"
+    answer: "From age six to roughly fourteen, Miyazaki's mother Yoshiko was bedridden with spinal tuberculosis. He took over adult chores, visited her bedside as often as he could, and learned the Type 1 founding calculation: if I am good enough, careful enough, responsible enough, this might be okay. Almost every Miyazaki film has a mother who is ill, absent, or dying — Satsuki and Mei in Totoro, Mahito losing his mother in the opening of The Boy and the Heron — and a child who has to be more capable than a child should be."
+    anchor: 'the-sick-mother-who-built-his-worldview'
+  - question: 'What was Miyazaki and Isao Takahata’s relationship?'
+    answer: "Takahata was the most important relationship of Miyazaki's adult life. They met at Toei in 1963 and began the conversation that became Studio Ghibli at a bus stop after the rain. In his 2018 eulogy, Miyazaki was unguardedly warm in public for the only time: 'Thank you for talking to me 55 years ago at that bus stop after the rain.' Takahata was the rare peer whose standards were high enough that being seen by him felt safe — two Ones who could share a studio but not a desk."
+    anchor: 'the-bus-stop-that-built-studio-ghibli'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

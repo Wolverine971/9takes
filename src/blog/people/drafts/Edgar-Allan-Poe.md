@@ -15,9 +15,63 @@ type: ['historical', 'historical-artist']
 person: 'edgar-allan-poe'
 suggestions: ['Nikola-Tesla', 'Frida-Kahlo', 'Friedrich-Nietzsche', 'Bob-Dylan']
 wikipedia: 'https://en.wikipedia.org/wiki/Edgar_Allan_Poe'
+wikidata_qid: 'Q16867'
+imdb_id: 'nm0000590'
+birth_date: '1809-01-19'
+birth_place: 'Boston, Massachusetts, United States'
+nationality: 'American'
+occupation:
+  - 'Writer'
+  - 'Poet'
+  - 'Literary critic'
+  - 'Editor'
+knows_about:
+  - 'Gothic fiction'
+  - 'Detective fiction'
+  - 'Short story craft'
+  - 'Cryptography'
+  - 'Literary criticism'
+  - 'American Romanticism'
+  - 'Poetic theory'
+keywords:
+  - 'Edgar Allan Poe enneagram'
+  - 'Edgar Allan Poe type 4'
+  - 'Edgar Allan Poe personality'
+  - 'Poe 4w5'
+  - 'Individualist enneagram'
+  - 'Edgar Allan Poe Virginia Clemm'
+  - 'Edgar Allan Poe death cooping'
+  - 'Rufus Griswold obituary'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Edgar_Allan_Poe'
+  - 'https://www.wikidata.org/wiki/Q16867'
+  - 'https://www.imdb.com/name/nm0000590/'
+  - 'https://www.britannica.com/biography/Edgar-Allan-Poe'
+  - 'https://www.poetryfoundation.org/poets/edgar-allan-poe'
+  - 'https://www.poemuseum.org/'
 twitter: ''
 instagram: ''
 tiktok: ''
+citations:
+  - 'https://en.wikipedia.org/wiki/Edgar_Allan_Poe'
+  - 'https://en.wikipedia.org/wiki/Virginia_Eliza_Clemm_Poe'
+  - 'https://en.wikipedia.org/wiki/The_Raven'
+  - 'https://en.wikipedia.org/wiki/Death_of_Edgar_Allan_Poe'
+  - 'https://en.wikipedia.org/wiki/Rufus_Wilmot_Griswold'
+  - 'https://en.wikipedia.org/wiki/The_Murders_in_the_Rue_Morgue'
+faqs:
+  - question: "What is Edgar Allan Poe's personality type?"
+    answer: "Edgar Allan Poe is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in the orphan who was taken in but never adopted, the poem 'Alone' he wrote at twenty-one ('From childhood's hour I have not been as others were'), the nearly thousand savage reviews he published as 'The Tomahawk Man,' the cryptographer's mind that invented detective fiction, and his own confession that he drank to escape 'insupportable loneliness.'"
+    anchor: 'what-is-edgar-allan-poes-personality-type'
+  - question: 'Why did Poe write about beautiful dead women?'
+    answer: 'Poe lost every woman he loved before he could hold on. His mother Eliza died of tuberculosis when he was two. His foster mother Frances Allan followed. His wife Virginia Clemm, who married him at thirteen and died of tuberculosis at twenty-four, ruptured a blood vessel singing at a party in 1842 and slowly faded over five years of poverty. Ligeia, Madeline Usher, Lenore, and Annabel Lee are all the same wound — the women who vanished before he could keep them.'
+    anchor: 'my-dear-muddy'
+  - question: 'How did Edgar Allan Poe die?'
+    answer: "On October 3, 1849, Poe was found delirious near a Baltimore polling place dressed in shabby secondhand clothes that were not his own. He died four days later at Washington College Hospital, never coherent long enough to explain. Theories range from alcohol to rabies to a brain tumor, but the most compelling is cooping — a form of election fraud in which gangs kidnapped citizens, drugged them, changed their clothes, and forced them to vote repeatedly. He was forty."
+    anchor: 'the-gutter-on-election-day'
+  - question: "Why is Rufus Griswold's version of Poe still the popular one?"
+    answer: "Poe named his rival Rufus Wilmot Griswold his literary executor — one of history's more catastrophic acts of irony. Two days after Poe's death, Griswold published a pseudonymous obituary calling Poe a depraved madman 'few will be grieved' to lose. He then edited the posthumous collected works with a 'Memoir of the Author' built on forged letters and fabricated incidents. People who knew Poe denounced it. Griswold's version stuck anyway, and shaped the popular image for decades."
+    anchor: 'the-enemy-who-wrote-the-obituary'
 content_quality:
   hook: 9
   enneagram: 8.5

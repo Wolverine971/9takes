@@ -14,7 +14,38 @@ enneagram: 3
 type: ['creator', 'business-creator']
 person: 'ali-abdaal'
 suggestions: ['Steven-Bartlett', 'Alex-Hormozi', 'Tim-Ferriss', 'Gary-Vee']
-wikipedia: ''
+wikidata_qid: 'Q95980508'
+imdb_id: 'nm13128832'
+birth_date: '1994-01-01'
+birth_place: 'Karachi, Pakistan'
+nationality:
+  - 'British'
+  - 'Pakistani'
+occupation:
+  - 'YouTuber'
+  - 'Author'
+  - 'Entrepreneur'
+  - 'Podcaster'
+  - 'Former physician'
+knows_about:
+  - 'Productivity systems'
+  - 'Evidence-based study techniques'
+  - 'Creator economy business models'
+  - 'YouTube channel growth'
+  - 'Feel-good productivity philosophy'
+  - 'Personal knowledge management'
+  - 'Medical school admissions coaching'
+same_as:
+  - 'https://www.wikidata.org/wiki/Q95980508'
+  - 'https://www.imdb.com/name/nm13128832/'
+  - 'https://aliabdaal.com/'
+  - 'https://www.youtube.com/@aliabdaal'
+citations:
+  - 'https://www.youtube.com/watch?v=Ck2yqXMofoc'
+  - 'https://pathlesspath.com/ali-abdaal/'
+  - 'https://www.youtube.com/watch?v=bNs6ttSjN30'
+  - 'https://www.youtube.com/watch?v=HXg-KuyJpTY'
+  - 'https://podcasts.apple.com/gb/podcast/not-overthinking/id1456538451'
 twitter: 'https://twitter.com/AliAbdaal'
 instagram: 'https://instagram.com/aliabdaal'
 tiktok: 'https://tiktok.com/@aliabdaal'

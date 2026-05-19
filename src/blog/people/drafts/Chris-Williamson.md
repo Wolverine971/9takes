@@ -15,9 +15,54 @@ type: ['creator', 'podcaster']
 person: 'chris-williamson'
 suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Shawn-Ryan', 'Steven-Bartlett']
 wikipedia: 'https://en.wikipedia.org/wiki/Chris_Williamson_(TV_personality)'
-twitter: 'https://twitter.com/ChrisWillx'
-instagram: 'https://www.instagram.com/chriswillx/'
-tiktok: 'https://www.tiktok.com/@chriswillx'
+wikidata_qid: 'Q116188644'
+imdb_id: 'nm7969251'
+birth_date: '1988-02-23'
+birth_place: 'Stockton-on-Tees, County Durham, England'
+nationality: 'British'
+occupation:
+  - 'Podcaster'
+  - 'YouTuber'
+  - 'TV personality'
+  - 'Former nightclub promoter'
+knows_about:
+  - 'Long-form podcast interviewing'
+  - 'Self-improvement and behavioral psychology'
+  - 'Modern masculinity and male loneliness'
+  - 'Nightclub promotion and events'
+  - 'Sobriety and habit change'
+  - 'Studio production and content creation'
+keywords:
+  - 'Chris Williamson enneagram'
+  - 'Chris Williamson type 3'
+  - 'Chris Williamson personality'
+  - 'Chris Williamson 3w4'
+  - 'Modern Wisdom podcast host'
+  - 'Achiever enneagram'
+  - 'Chris Williamson Love Island'
+  - 'Chris Williamson health crisis'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Chris_Williamson_(TV_personality)'
+  - 'https://www.wikidata.org/wiki/Q116188644'
+  - 'https://www.imdb.com/name/nm7969251/'
+  - 'https://chriswillx.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Chris_Williamson_(TV_personality)'
+  - 'https://chriswillx.com/'
+  - 'https://chriswillx.com/podcast/'
+faqs:
+  - question: "What is Chris Williamson's personality type?"
+    answer: "Chris Williamson is an Enneagram Type 3 (The Achiever), specifically a 3w4. The pattern shows in his relentless reinventions from nightclub promoter to Love Island contestant to Modern Wisdom host, his admission that he was 'world class at playing Chris Williamson on the front door of a nightclub,' the rats-pulling-harder framing of striving as fear, the open writing about depression and shame the 4 wing adds, and the 2025 health crisis that stripped him down to 'somebody who's genuinely kind and sensitive.'"
+    anchor: 'what-is-chris-williamsons-personality-type'
+  - question: 'Why did Chris Williamson quit drinking?'
+    answer: "He stopped drinking at 30, then tested it about a year in with a couple glasses of wine that wrecked three days of sleep, eating, podcasting, and gym performance. He never went back. The real revelation was social, not physiological: sobriety filtered the people who needed him at a nightclub door from the people who actually knew him. By 2023 he was over a thousand days sober."
+    anchor: 'the-sobriety-decision'
+  - question: 'What happened during Chris Williamson''s 2025 health crisis?'
+    answer: "Brain fog and exhaustion turned out to be toxic mold poisoning from his Austin house, compounded by Lyme disease, Epstein-Barr, cytomegalovirus, candida, H. pylori, and parasites. He went to bed at 7 p.m. for six months, forgot how to tie his shoes, forgot friends' names, and described the experience as 'swimming in melancholy.' Asked by Steven Bartlett what remained when everything he valued was taken away, he answered: 'somebody who's genuinely kind and sensitive.'"
+    anchor: 'the-health-crisis'
+  - question: 'How did Love Island change Chris Williamson?'
+    answer: "He calls his 2015 stint on the show's first series a 'fatal dose of contrast' — three weeks in a villa with no phones, no books, and the genuine party-boy version of the persona he'd been performing. When he dropped a fact about the Coriolis effect and his date said 'say some more clever things,' he felt fear, not flattery, and buried his intellectual self for the rest of the show. The crisis that followed eventually became Modern Wisdom."
+    anchor: 'love-island-and-the-identity-crisis'
 path: src/blog/people/drafts/Chris-Williamson.md
 content_quality:
   hook: 9

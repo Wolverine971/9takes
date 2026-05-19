@@ -15,9 +15,57 @@ type: ['celebrity', 'celebrity-image']
 person: 'gordon-ramsay'
 suggestions: ['Jocko-Willink', 'Beyonce', 'Joe-Rogan', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Gordon_Ramsay'
-twitter: '@GordonRamsay'
-instagram: '@gordongram'
-tiktok: '@gordonramsayofficial'
+wikidata_qid: 'Q15280'
+imdb_id: 'nm1451059'
+birth_date: '1966-11-08'
+birth_place: 'Johnstone, Renfrewshire, Scotland'
+nationality: 'British'
+occupation:
+  - 'Chef'
+  - 'Restaurateur'
+  - 'Television presenter'
+  - 'Writer'
+knows_about:
+  - 'Michelin-starred cuisine'
+  - 'Modern French cooking'
+  - 'Kitchen brigade discipline'
+  - 'Restaurant operations'
+  - 'Culinary television production'
+  - 'Ironman triathlon training'
+  - 'Endurance sports'
+keywords:
+  - 'Gordon Ramsay enneagram'
+  - 'Gordon Ramsay type 8'
+  - 'Gordon Ramsay personality'
+  - 'Gordon Ramsay 8w7'
+  - 'Challenger enneagram'
+  - 'Gordon Ramsay father alcoholic'
+  - 'Gordon Ramsay brother Ronnie'
+  - 'Marco Pierre White Gordon Ramsay'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Gordon_Ramsay'
+  - 'https://www.wikidata.org/wiki/Q15280'
+  - 'https://www.imdb.com/name/nm1451059/'
+  - 'https://www.britannica.com/biography/Gordon-Ramsay'
+citations:
+  - 'https://en.wikipedia.org/wiki/Gordon_Ramsay'
+  - 'https://en.wikipedia.org/wiki/Marco_Pierre_White'
+  - 'https://en.wikipedia.org/wiki/Restaurant_Gordon_Ramsay'
+  - 'https://en.wikipedia.org/wiki/Kitchen_Nightmares'
+  - 'https://en.wikipedia.org/wiki/Hell%27s_Kitchen_(American_TV_series)'
+faqs:
+  - question: "What is Gordon Ramsay's personality type?"
+    answer: "Gordon Ramsay is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the fifteen addresses before sixteen, the alcoholic father whose violence taught him chaos always wins unless someone imposes order, the Marco Pierre White apprenticeship that turned cruelty into precision, the Ironman training that turned his body into another controlled domain, and the brother he can't save no matter how much empire he builds."
+    anchor: 'what-is-gordon-ramsays-personality-type'
+  - question: 'Why does Gordon Ramsay scream in the kitchen?'
+    answer: "The rage isn't about food and it isn't involuntary — it's a tool he can deploy or holster. On the UK version of Kitchen Nightmares he rarely raises his voice; he crouches beside chefs and talks them through dishes. The American format edits for confrontation. Underneath both versions is the same Type 8 wound: a boy who watched chaos destroy his mother and decided he would never be vulnerable to that chaos again."
+    anchor: 'what-is-gordon-ramsays-personality-type'
+  - question: 'What happened with Gordon Ramsay and his brother Ronnie?'
+    answer: "Ronnie Ramsay, fifteen months younger than Gordon, has been a heroin addict for four decades. Gordon has talked publicly about the guilt complex of being the brother who got out. When his daughter Holly married Olympic swimmer Adam Peaty, Ronnie asked to perform music at the wedding and Gordon declined — protecting the world he built from the world he escaped. It is the deepest Type 8 wound: the protector who can't protect everyone."
+    anchor: 'the-brother-he-couldnt-save'
+  - question: "Why doesn't Gordon Ramsay let his kids fly first class?"
+    answer: "Ramsay is worth over $220 million, and his children fly economy. 'They haven't worked anywhere near hard enough to afford that,' he has said. His kids tidy up, cook, do homework, and aren't allowed to work in his own restaurants — he insists they train under other chefs. It's a Type 8 rebuilding the childhood he didn't get: his father withheld out of neglect; Ramsay withholds out of deliberate design."
+    anchor: 'why-gordon-ramsay-wont-let-his-kids-fly-first-class'
 content_quality:
   hook: 9.0
   enneagram: 8.5

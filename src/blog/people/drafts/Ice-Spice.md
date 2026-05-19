@@ -15,9 +15,56 @@ type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'ice-spice'
 suggestions: ['Jennifer-Lopez', 'Taylor-Swift', 'Drake', 'Doja-Cat']
 wikipedia: 'https://en.wikipedia.org/wiki/Ice_Spice'
+wikidata_qid: 'Q114114977'
+imdb_id: 'nm14039339'
+birth_date: '2000-01-01'
+birth_place: 'The Bronx, New York City, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Rapper'
+  - 'Songwriter'
+knows_about:
+  - 'Bronx drill'
+  - 'Hip hop'
+  - 'Deadpan flow'
+  - 'Y2K aesthetic'
+  - 'Short-runtime pop singles'
+  - 'Celebrity collaboration strategy'
+keywords:
+  - 'Ice Spice enneagram'
+  - 'Ice Spice type 3'
+  - 'Ice Spice personality'
+  - 'Ice Spice 3w4'
+  - 'Ice Spice Munch'
+  - 'Achiever enneagram'
+  - 'Ice Spice Cleotrapa'
+  - 'Ice Spice Y2K album'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ice_Spice'
+  - 'https://www.wikidata.org/wiki/Q114114977'
+  - 'https://www.imdb.com/name/nm14039339/'
 twitter: 'icespicee_'
 instagram: 'icespice'
 tiktok: 'icespice'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ice_Spice'
+  - 'https://variety.com/2023/music/news/taylor-swift-ice-spice-karma-remix-1235613247/'
+  - 'https://au.rollingstone.com/music/music-features/ice-spice-y2k-album-hustle-stardom-interview-cover-story-1235064247/'
+  - 'https://www.billboard.com/artist/ice-spice/'
+  - 'https://www.teenvogue.com/story/ice-spice-teen-vogue-cover-story-june-2023'
+faqs:
+  - question: "What is Ice Spice's personality type?"
+    answer: "Ice Spice is an Enneagram Type 3 (The Achiever), specifically a 3w4 — 'The Professional.' The pattern shows in the Bronx kid who Googled 'how to be rich,' the engineered 1:49 runtime of 'Munch,' the deadpan flow as counterprogramming to a yelling drill scene, the Met-Gala-to-Taylor-to-Barbie victory lap of 2023, and the calm, no-rant response to every leak and feud since."
+    anchor: 'what-is-ice-spices-personality-type'
+  - question: 'Why does Ice Spice rap in such a deadpan, low-energy voice?'
+    answer: "The deadpan is the product, not the personality. The Bronx and Brooklyn drill scene she emerged out of — Kay Flock, Sha Ek, B-Lovee, Sleepy Hallow — ran on shouted aggression. Ice Spice lowered the volume and let the beat carry the stress, which is a 3w4 originality-as-strategy move. RiotUSA's short-runtime, high-replay engineering does the rest."
+    anchor: 'how-ice-spice-turned-deadpan-into-a-product'
+  - question: 'What did the Cleotrapa fallout reveal about Ice Spice?'
+    answer: "After Cleotrapa's six-part TikTok series alleging she was stranded at a McDonald's in Texas while Ice Spice's inner circle ate steak, Ice Spice answered with a three-sentence Twitch comment that called the whole series a 'crash out' and asserted the listener-count power gradient. No defense, no apology, no screenshots — pivot, compress, move on. That is a Type 3 under stress walking the arrow to Type 9: withdraw, minimize, refuse the frame."
+    anchor: 'what-the-cleotrapa-fallout-revealed-about-ice-spice'
+  - question: "How did Ice Spice handle the Y2K! album underperformance?"
+    answer: "Her July 2024 debut sold 28,000 first-week units and debuted at #18 on the Billboard 200, triggering an immediate 'Ice Spice fell off' discourse. She did not cry, reinvent, or feature-bomb. She told an interviewer she did not 'put too much weight' into the pressure, kept the hair, kept the voice, kept the producer, and went quiet. Same 3-to-9 stress arrow she walked under the Cleotrapa fire."
+    anchor: 'how-ice-spice-handled-the-y2k-fall-off'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -332,4 +379,3 @@ PRIORITY FIXES:
 3. Add a 2025-2026 dated beat — what's her commercial trajectory now, post-fall-off? Is she still the "popular loner"? Without that the piece feels frozen 18 months ago.
 
 ============================================================ -->
-

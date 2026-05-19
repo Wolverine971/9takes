@@ -15,10 +15,59 @@ type: ['musician']
 person: 'ed-sheeran'
 suggestions: ['Taylor-Swift', 'Elton-John', 'Post-Malone', 'Harry-Styles']
 wikipedia: 'https://en.wikipedia.org/wiki/Ed_Sheeran'
+wikidata_qid: 'Q47447'
+imdb_id: 'nm3247828'
+birth_date: '1991-02-17'
+birth_place: 'Halifax, West Yorkshire, England'
+nationality: 'British'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Guitarist'
+  - 'Record producer'
+knows_about:
+  - 'Pop songwriting'
+  - 'Loop pedal performance'
+  - 'Acoustic singer-songwriter craft'
+  - 'Stadium-scale solo touring'
+  - 'Hit songwriting for other artists'
+  - 'Gingerbread Man Records'
+keywords:
+  - 'Ed Sheeran enneagram'
+  - 'Ed Sheeran type 9'
+  - 'Ed Sheeran personality'
+  - 'Ed Sheeran Peacemaker'
+  - 'Ed Sheeran anxiety'
+  - 'Ed Sheeran Subtract analysis'
+  - 'Ed Sheeran Sheeranville'
+  - 'Ed Sheeran songwriter Bieber Love Yourself'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ed_Sheeran'
+  - 'https://www.wikidata.org/wiki/Q47447'
+  - 'https://www.imdb.com/name/nm3247828/'
+  - 'https://www.britannica.com/biography/Ed-Sheeran'
 twitter: 'https://twitter.com/edsheeran'
 instagram: 'https://instagram.com/teddysphotos'
 tiktok: 'https://tiktok.com/@edsheeran'
-content_quality:
+citations:
+  - 'https://en.wikipedia.org/wiki/Ed_Sheeran'
+  - 'https://en.wikipedia.org/wiki/Subtract_(album)'
+  - 'https://en.wikipedia.org/wiki/Mathematics_Tour'
+  - 'https://en.wikipedia.org/wiki/Shape_of_You'
+  - 'https://en.wikipedia.org/wiki/Autumn_Variations'
+faqs:
+  - question: "What is Ed Sheeran's personality type?"
+    answer: 'Ed Sheeran is an Enneagram Type 9 (The Peacemaker). The pattern shows in the stuttering nine-year-old who learned to talk by memorizing the Marshall Mathers LP, the 300-gigs-while-homeless year reframed as "I''m just home less than I''d like to be," the habit of writing number-one hits like "Love Yourself" and "Little Things" and handing them to other artists, the addictive-personality binge cycles, and the Suffolk fortress with no phone, four friends, and a private pub built so he wouldn''t have to be seen.'
+    anchor: 'what-is-ed-sheerans-personality-type'
+  - question: "Why does Ed Sheeran give away number-one songs to other artists?"
+    answer: 'He wrote "Love Yourself" for Justin Bieber (#1 worldwide), "Little Things" for One Direction (#1 UK), "Permission to Dance" for BTS, "Eastside" for Halsey and Khalid, and tracks for Westlife, Anne-Marie, and The Weeknd. The Nine''s instinct isn''t to hide talent — it''s to pour it into other people''s containers so the room stays balanced and no one has to deal with the songwriter''s own ambition. The biggest pop songwriter of his generation kept giving away number ones like someone leaving extra change on the counter.'
+    anchor: 'the-ghost-behind-the-hits'
+  - question: "What happened to Ed Sheeran in February 2022?"
+    answer: 'In one week: Cherry was diagnosed with a tumor while pregnant with their second daughter Jupiter; his best friend and SBTV founder Jamal Edwards died at 31; and two copyright lawsuits ("Shape of You" vs. Sami Chokri in the UK, "Thinking Out Loud" vs. the Ed Townsend estate in the US) were attacking the originality of his songwriting. He scrapped the Subtract album he had planned for a decade and rewrote the whole thing from the wreckage. "I felt like I didn''t want to live anymore." It was the first time a Nine''s lifelong equilibrium fully collapsed in public.'
+    anchor: 'february-2022'
+  - question: 'Why did Ed Sheeran build Sheeranville?'
+    answer: 'After eight years of working on his anxiety, Sheeran built a private compound around his Suffolk childhood home in Framlingham — pub, recording studio, chapel, treehouse, 24-hour security against kidnapping threats. He eliminated his phone, cut his friendship group to four people, and built the pub so he could go out without being mobbed. "We have a level of security that probably won''t change until I pass away." The boy from Framlingham became the biggest pop star on Earth and then spent millions of pounds rebuilding Framlingham around himself so he could disappear back into it.'
+    anchor: 'sheeranville'
   hook: 9
   enneagram: 9
   evidence: 8

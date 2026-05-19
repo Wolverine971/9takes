@@ -15,9 +15,72 @@ type: ['entrepreneur', 'techie', 'business-operator']
 person: 'adam-neumann'
 suggestions: ['Travis-Kalanick', 'Elon-Musk', 'Gwyneth-Paltrow', 'Peter-Thiel']
 wikipedia: 'https://en.wikipedia.org/wiki/Adam_Neumann'
-twitter: 'adamneumann'
-instagram: ''
-tiktok: ''
+wikidata_qid: 'Q34579349'
+imdb_id: 'nm4102427'
+birth_date: '1979-04-25'
+birth_place: 'Beersheba, Southern District, Israel'
+nationality:
+  - 'Israeli'
+  - 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Businessman'
+  - 'Investor'
+knows_about:
+  - 'Coworking real estate'
+  - 'WeWork founding and collapse'
+  - 'Flow residential real estate'
+  - 'Flowcarbon and carbon-credit crypto'
+  - 'Founder-led brand storytelling'
+  - 'Venture-scale fundraising'
+  - 'Kibbutz-inspired community design'
+keywords:
+  - 'Adam Neumann enneagram'
+  - 'Adam Neumann type 3'
+  - 'Adam Neumann personality'
+  - 'Adam Neumann 3w2'
+  - 'Achiever enneagram'
+  - 'WeWork founder personality'
+  - 'Adam Neumann Flow'
+  - 'Adam Neumann WeCrashed'
+  - 'Masayoshi Son WeWork'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Adam_Neumann'
+  - 'https://www.wikidata.org/wiki/Q34579349'
+  - 'https://www.imdb.com/name/nm4102427/'
+  - 'https://en.wikipedia.org/wiki/WeCrashed'
+citations:
+  - 'https://www.calcalistech.com/ctech/articles/0,7340,L-3802511,00.html'
+  - 'https://en.wikipedia.org/wiki/Rebekah_Neumann'
+  - 'https://www.thedailybeast.com/weworks-private-school-wegrow-has-stranded-parents-as-adam-neumann-cashes-out/'
+  - 'https://forward.com/fast-forward/431698/we-work-adam-neumann/'
+  - 'https://www.cnbc.com/2019/09/04/wework-ceo-returns-5point9-million-the-company-paid-for-we-trademark.html'
+  - 'https://www.fastcompany.com/90426446/wefail-how-the-doomed-masa-son-adam-neumann-relationship-set-wework-on-the-road-to-disaster'
+  - 'https://www.bookforum.com/print/2704/how-low-quality-visionary-adam-neumann-gets-it-done-24269'
+  - 'https://www.cnbc.com/2019/08/14/wework-ipo-filing-sells-a-romantic-vision-alongside-losses.html'
+  - 'https://fortune.com/longform/book-excerpt-cult-of-we-work/'
+  - 'https://www.cnbc.com/2021/11/09/ousted-wework-ceo-adam-neumann-47-billion-valuation-went-to-his-head.html'
+  - 'https://a16z.com/announcement/flow/'
+  - 'https://techcrunch.com/2024/09/11/adam-neumanns-crypto-comeback-company-is-reportedly-refunding-investors/'
+  - 'https://www.cnbc.com/2024/03/25/adam-neumann-submits-bid-of-more-than-500-million-to-buy-wework.html'
+  - 'https://fortune.com/2024/05/28/wework-flow-adam-neumann-bankruptcy-judge-chapter-11-flow/'
+  - 'https://en.wikipedia.org/wiki/WeCrashed'
+faqs:
+  - question: "What is Adam Neumann's personality type?"
+    answer: "Adam Neumann is an Enneagram Type 3w2 (The Charmer). The pattern shows in the ten-year-old who handed his single mother $150 for half her rent, the Israeli Navy officer commission used as a credential and shed, the twelve-minute pitch that won Masayoshi Son $4.4 billion, the barefoot tequila-and-Run-DMC layoff theatre, and the inability to apologize at the DealBook Summit because the previous self is only a previous role."
+    anchor: 'what-is-adam-neumanns-personality-type'
+  - question: 'How did Adam Neumann convince Masayoshi Son to invest $4.4 billion in WeWork in twelve minutes?'
+    answer: "In 2017, a scheduled two-hour SoftBank tour collapsed into a twelve-minute walk-around before Son pulled Neumann into the back of his SUV and sketched a $4.4 billion check on the way to Trump Tower. The Vision Fund had run months of background diligence, but the human moment was twelve minutes of a Type 3 at full performance — reading exactly what Son needed and becoming it. Benchmark's Bruce Dunlevie later described his earlier bet the same way: 'an indefinable feeling you couldn't quite put your finger on.'"
+    anchor: 'how-adam-neumann-sold-masayoshi-son-on-44-billion-in-12-minutes'
+  - question: 'Was the WeWork collapse fraud, or did Adam Neumann believe his own pitch?'
+    answer: "It is not fraud in the Elizabeth Holmes sense — the offices worked, the leases existed, the members showed up. What collapsed was a $47 billion valuation built on a persona. Neumann personally trademarked the word 'We' and sold the rights back to WeWork for $5.9 million, and leased four buildings he owned to the company for roughly $236.6 million in future minimum payments. For a Three at his level of performance, the brand and the founder are not separable categories — leasing to himself reads as a man being paid by his own work."
+    anchor: 'what-the-wework-collapse-revealed-about-adam-neumann'
+  - question: 'Why did Andreessen Horowitz back Adam Neumann again with Flow after WeWork?'
+    answer: "In August 2022, a16z wrote its largest single check ever — $350 million at a $1 billion+ valuation — for a residential real-estate company that had not yet started operating. Marc Andreessen called Neumann a 'visionary leader' revolutionizing housing. The bet wasn't on the housing thesis — it was on the repaired ability to make the next room believe him. A founder who held a $47 billion narrative and survived its public collapse has been pre-pressure-tested in front of a global audience, and for a Three, public failure resets rather than destroys the value of the pitch."
+    anchor: 'adam-neumanns-comeback-flow-the-bankruptcy-bid-and-the-role-he-cant-stop-playing'
+  - question: 'Why did Adam Neumann try to buy WeWork out of bankruptcy in 2024?'
+    answer: "Strategically, he should have stayed out of bankruptcy court — he had Flow, three thousand apartments, $1.7 billion banked from the original exit, and a16z behind him. The bid through Flow and his Nazare family office started above $500 million and was rejected in May 2024 as infeasible against WeWork's $4 billion in liabilities. He needed the story, not the asset: a Three cannot tolerate being the loser of his own narrative, and the bid was an attempt to reset the persona from founder-who-lost-WeWork to founder-who-took-it-back."
+    anchor: 'adam-neumanns-comeback-flow-the-bankruptcy-bid-and-the-role-he-cant-stop-playing'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

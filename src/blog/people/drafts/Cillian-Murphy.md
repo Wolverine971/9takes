@@ -15,9 +15,53 @@ type: ['celebrity', 'screen-icon']
 person: 'cillian-murphy'
 suggestions: ['Robert-Oppenheimer', 'Tom-Hardy', 'Joaquin-Phoenix']
 wikipedia: 'https://en.wikipedia.org/wiki/Cillian_Murphy'
-twitter: ''
-instagram: ''
-tiktok: ''
+wikidata_qid: 'Q202589'
+imdb_id: 'nm0614165'
+birth_date: '1976-05-25'
+birth_place: 'Douglas, County Cork, Ireland'
+nationality: 'Irish'
+occupation:
+  - 'Actor'
+  - 'Producer'
+  - 'Musician'
+knows_about:
+  - 'Method acting and obsessive role preparation'
+  - 'Stage and film acting'
+  - 'Irish theatre and Enda Walsh collaborations'
+  - 'Magdalene Laundries and Irish institutional history'
+  - 'Indie film production'
+  - 'Privacy infrastructure and offline living'
+keywords:
+  - 'Cillian Murphy enneagram'
+  - 'Cillian Murphy type 5'
+  - 'Cillian Murphy personality'
+  - 'Cillian Murphy 5w4'
+  - 'Investigator enneagram'
+  - 'Cillian Murphy Oppenheimer'
+  - 'Cillian Murphy Peaky Blinders'
+  - 'Cillian Murphy private life'
+  - 'Small Things Like These'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Cillian_Murphy'
+  - 'https://www.wikidata.org/wiki/Q202589'
+  - 'https://www.imdb.com/name/nm0614165/'
+  - 'https://www.britannica.com/biography/Cillian-Murphy'
+citations:
+  - 'https://en.wikipedia.org/wiki/Cillian_Murphy'
+  - 'https://en.wikipedia.org/wiki/David_Letterman'
+faqs:
+  - question: "What is Cillian Murphy's personality type?"
+    answer: "Cillian Murphy is an Enneagram Type 5 (The Investigator), specifically a 5w4. The pattern shows in his fortress-with-no-WiFi life in Monkstown, the 30,000 Dutch words and six months of research he piled into Oppenheimer before 'abandoning it all' on set, the five-word text 'Remember, I'm an actor' that won him Tommy Shelby, and the tears he hid under a hood on a Dublin train reading Claire Keegan that eventually became his production company and Small Things Like These."
+    anchor: 'what-is-cillian-murphys-personality-type'
+  - question: 'Why is Cillian Murphy so private?'
+    answer: "His home in south Dublin has no internet connection, his phone has every notification turned off, and he has never had a social media account. His acting philosophy ('you have to withhold more than you add') is also his living philosophy: the less people know about him, the more space the audience has to read the character. When asked about the 'Disappointed Cillian Murphy' meme, his answer was simply: 'What's a meme?'"
+    anchor: 'why-cillian-murphy-is-so-private'
+  - question: 'How did Cillian Murphy prepare for Oppenheimer?'
+    answer: "Six months of research, every biography, every archived lecture; 30,000 words of Dutch for one scene; 28 pounds lost while working with a nutritionist he refused to discuss in numbers. Then on set, he abandoned all of it: 'Instinct is your most powerful tool. Nothing must be predetermined.' Robert Downey Jr. called the performance 'the greatest sacrifice by a lead actor in my career.' Matt Damon called him 'the worst dinner companion imaginable.'"
+    anchor: 'why-cillian-murphy-is-so-private'
+  - question: "Why did Cillian Murphy produce Small Things Like These?"
+    answer: "He started crying on a Dublin train reading Claire Keegan's novella Foster, hiding under his hood so no one would see. That book led him to Keegan's other work, which led to Small Things Like These, a film about Ireland's Magdalene Laundries. He launched his production company, Big Things Films, specifically to get it made, pitched it to Matt Damon during Oppenheimer, and used his Oscar momentum to get it funded. He framed it through a single question: 'Where do the rest of us sit on that spectrum, between innocence and complicity?'"
+    anchor: 'the-man-on-the-train'
 path: src/blog/people/drafts/Cillian-Murphy.md
 content_quality:
   hook: 9

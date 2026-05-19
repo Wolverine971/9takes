@@ -15,6 +15,49 @@ type: ['journalist', 'creator', 'news-commentator']
 person: 'andrew-callaghan'
 suggestions: ['Theo-Von', 'Joe-Rogan', 'Casey-Neistat', 'Jon-Stewart']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Callaghan'
+wikidata_qid: 'Q106144873'
+imdb_id: 'nm12339062'
+birth_date: '1997-04-23'
+birth_place: 'Philadelphia, Pennsylvania, United States'
+nationality: 'American'
+occupation:
+  - 'Journalist'
+  - 'Documentary filmmaker'
+  - 'YouTuber'
+  - 'Author'
+knows_about:
+  - 'Gonzo journalism'
+  - 'Man-on-the-street interviewing'
+  - 'Fringe political movements'
+  - 'QAnon and conspiracy subcultures'
+  - 'Independent documentary production'
+  - 'Patreon-funded media'
+keywords:
+  - 'Andrew Callaghan enneagram'
+  - 'Andrew Callaghan type 7'
+  - 'Andrew Callaghan personality'
+  - 'Andrew Callaghan 7w6'
+  - 'Channel 5 Andrew Callaghan'
+  - 'All Gas No Brakes personality'
+  - 'Enthusiast enneagram journalist'
+  - 'Andrew Callaghan Dear Kelly'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Andrew_Callaghan'
+  - 'https://www.wikidata.org/wiki/Q106144873'
+  - 'https://www.imdb.com/name/nm12339062/'
+faqs:
+  - question: "What is Andrew Callaghan's personality type?"
+    answer: "Andrew Callaghan is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in his refusal to stop moving — interviewing Silk Road contacts at 16, hitchhiking America for 70 days at 19, chasing QAnon believers from an RV at 22 — his 'interview like a toddler' technique that reframes extremism as human story, and the 6-wing anxiety that lets him walk into white supremacist rallies but spiral into a psychiatric facility when the camera turns on him."
+    anchor: 'what-is-andrew-callaghans-personality-type'
+  - question: 'Why did Andrew Callaghan leave All Gas No Brakes?'
+    answer: "In 2021 he discovered his Doing Things Media contract had signed away the IP for a $45,000 salary, with Patreon revenue split 60% to the company. Trapped is the one state a Type 7 cannot tolerate, so he didn't negotiate — he walked out with Nic Mosher and Evan Gilbert-Katz, launched Channel 5 within months, and used Dear Kelly proceeds to buy the All Gas No Brakes brand back in May 2025."
+    anchor: 'rise-to-fame-from-bourbon-street-to-3-million-subscribers'
+  - question: 'What happened with the 2023 sexual misconduct allegations?'
+    answer: "Two days after This Place Rules premiered on HBO, multiple women accused Callaghan of sexual coercion, with The Stranger reporting additional rape allegations from his Loyola years. His closest collaborators unfollowed him within 48 hours, Tim Heidecker publicly cut ties, and Callaghan ended up in a psychiatric facility with panic attacks. He called his own thinking 'binary' — a textbook Type 7 disintegration toward Type 1 — and returned to YouTube nine months later after therapy and a 12-step program."
+    anchor: 'the-2023-allegations-spiral-and-rebuild'
+  - question: 'How does Andrew Callaghan get extremists to open up on camera?'
+    answer: "His technique is 'interview like a toddler' — ask the simplest possible question, nod just enough to keep the subject going without agreeing, and let silence do the work. In This Place Rules he let QAnon believer Dave Todeschini rant for hours before producing sex offender records at a Culver's restaurant. The patience makes the confrontation devastating because the subject built his own scaffold first."
+    anchor: 'the-toddler-method'
 twitter: 'allaboratory'
 instagram: 'channel5'
 tiktok: ''

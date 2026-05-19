@@ -15,9 +15,61 @@ type: ['movieStar', 'screen-icon']
 person: 'harrison-ford'
 suggestions: ['Matt-Damon', 'Meryl-Streep', 'Hugh-Jackman', 'Morgan-Freeman']
 wikipedia: 'https://en.wikipedia.org/wiki/Harrison_Ford'
-twitter: ''
-instagram: ''
-tiktok: ''
+wikidata_qid: 'Q81328'
+imdb_id: 'nm0000148'
+birth_date: '1942-07-13'
+birth_place: 'Chicago, Illinois, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Film producer'
+  - 'Aviator'
+  - 'Carpenter'
+knows_about:
+  - 'Film acting'
+  - 'Carpentry'
+  - 'Aviation'
+  - 'Search and rescue'
+  - 'Conservation advocacy'
+  - 'Reluctant-hero screen archetype'
+keywords:
+  - 'Harrison Ford enneagram'
+  - 'Harrison Ford type 9'
+  - 'Harrison Ford personality'
+  - 'Harrison Ford 9w8'
+  - 'Peacemaker enneagram'
+  - 'Harrison Ford carpenter'
+  - 'Harrison Ford taxiway schmuck'
+  - 'Harrison Ford Shrinking'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Harrison_Ford'
+  - 'https://www.wikidata.org/wiki/Q81328'
+  - 'https://www.imdb.com/name/nm0000148/'
+  - 'https://www.conservation.org/about/our-people/board-of-directors'
+citations:
+  - 'https://en.wikipedia.org/wiki/Harrison_Ford'
+  - 'https://www.hollywoodreporter.com/feature/harrison-ford-interview-shrinking-indy-5-1923-1235318736/'
+  - 'https://thepointsguy.com/news/harrison-ford-schmuck-atc-audio/'
+  - 'https://abcnews.go.com/Entertainment/harrison-ford-plane-crash-golfing-spine-surgeon/story?id=29434851'
+  - 'https://en.wikipedia.org/wiki/The_Princess_Diarist'
+  - 'https://www.snopes.com/fact-check/harrison-ford-i-know/'
+  - 'https://snowbrains.com/fun-fact-harrison-ford-is-a-teton-county-wy-volunteer-search-and-rescue-helicopter-pilot-and-has-saved-lives-in-real-life/'
+faqs:
+  - question: "What is Harrison Ford's personality type?"
+    answer: "Harrison Ford is an Enneagram Type 9 (The Peacemaker), specifically a 9w8. The pattern shows in his self-identification as a tradesman building a house, the carpentry years that preceded Han Solo, the taxiway radio call where he named himself 'the schmuck who landed on the taxiway' instead of Harrison Ford, the 'Lawyer!' deflection to Carrie Fisher, and the 'I know' rewrite that refused to oversell a love line."
+    anchor: 'what-is-harrison-fords-personality-type'
+  - question: 'Why did Harrison Ford become a carpenter before Star Wars?'
+    answer: "After a Columbia Pictures executive told him he had no future as an actor in the early 1970s, Ford read every carpentry book in the public library and taught himself the trade. He built a recording studio for Sergio Mendes, a sun porch for Sally Kellerman, and a bed for casting director Fred Roos — the bed that led Roos to bring him in to read for George Lucas. For a Type 9, carpentry was a place to disappear into the work itself, with no audience and no self to project."
+    anchor: 'the-carpenter-who-built-a-star'
+  - question: "Why doesn't Harrison Ford like giving interviews?"
+    answer: "Ford has been polite-but-guarded about interviews for half a century, saying he can't imagine exposing himself more than he already has on screen and calling the loss of anonymity one of the most valuable things he ever lost. The position is a Type 9 perimeter defense: if Han Solo, Indiana Jones, John Book and Dr. Paul Rhoades have done the talking for sixty years, the man in the green room doesn't have to add anything new."
+    anchor: 'why-harrison-ford-doesnt-like-giving-interviews'
+  - question: 'How does Harrison Ford fit the reluctant hero archetype?'
+    answer: "Ford has stated his casting philosophy almost verbatim: he wants to play 'an ordinary person in extraordinary circumstances, who happens to behave well for the benefit of others.' Witness, The Fugitive, Patriot Games, Air Force One, and Presumed Innocent all run this template — the decent professional dragged into action against his preference. It is the Type 9 compressed into a casting brief: the center finds him; he does the next right thing despite it."
+    anchor: 'indiana-jones-and-the-art-of-playing-the-reluctant-hero'
+  - question: 'What does Shrinking show about Harrison Ford in growth?'
+    answer: "Playing Dr. Paul Rhoades on Shrinking earned Ford his first Emmy nomination after 59 years of work. The character is willing to say how he feels out loud, tell another therapist he loves him, and be afraid in front of the camera. This is the Type 9 growth arrow to Type 3: not new ambition, but the willingness to show up as a specific, asserting, visible self instead of disappearing into someone else's sentences."
+    anchor: 'what-harrison-ford-sounds-like-in-growth'
 content_quality:
   hook: 9
   enneagram: 9

@@ -15,6 +15,56 @@ type: ['creator', 'streamer']
 person: 'adin-ross'
 suggestions: ['Jake-Paul', 'Logan-Paul', 'Kai-Cenat', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/Adin_Ross'
+wikidata_qid: 'Q106626612'
+imdb_id: 'nm12914358'
+birth_date: '2000-10-11'
+birth_place: 'Boca Raton, Florida, United States'
+nationality: 'American'
+occupation:
+  - 'Live streamer'
+  - 'YouTuber'
+  - 'Content creator'
+  - 'Entrepreneur'
+knows_about:
+  - 'Live streaming'
+  - 'Kick platform'
+  - 'NBA 2K streaming'
+  - 'Influencer marketing'
+  - 'Online gambling promotion'
+  - 'Celebrity interview formats'
+  - 'Creator economy business'
+keywords:
+  - 'Adin Ross enneagram'
+  - 'Adin Ross type 3'
+  - 'Adin Ross personality'
+  - 'Adin Ross 3w2'
+  - 'Achiever enneagram'
+  - 'Adin Ross Doechii feud'
+  - 'Adin Ross Trump interview'
+  - 'Adin Ross Kick streamer'
+  - 'Adin Ross lean addiction'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Adin_Ross'
+  - 'https://www.wikidata.org/wiki/Q106626612'
+  - 'https://www.imdb.com/name/nm12914358/'
+  - 'https://kick.com/AdinRoss'
+  - 'https://www.twitch.tv/AdinRoss'
+faqs:
+  - question: "What is Adin Ross's personality type?"
+    answer: "Adin Ross is an Enneagram Type 3 (The Achiever). The pattern shows in his skipped prom and graduation for streaming, his obsession with celebrity proximity (the LeBron call, the Trump Mar-a-Lago interview, the Cybertruck gift), his image-management playbook of refunds and public apologies, and his admission that even after a $24–40M net worth he is 'not even like, proud of myself as of right now.'"
+    anchor: 'what-is-adin-rosss-personality-type'
+  - question: 'Why is Adin Ross a Type 3 and not a Type 7 or Type 8?'
+    answer: "The chaos and bravado make Type 7 and Type 8 tempting reads, but the through-line is achievement and image, not stimulation or power. The Doechii feud proves it: when she won a Grammy and got Kendrick Lamar's tour pick, Adin didn't lose interest (Type 7) or confront her directly for dominance (Type 8) — he tried to delegitimize the win itself, calling her an 'industry plant.' That's Type 3 shadow, attacking someone else's scoreboard when it threatens yours."
+    anchor: 'why-type-3-and-not-type-7-or-type-8'
+  - question: 'Why did Adin Ross attack Doechii so publicly?'
+    answer: "Doechii entered 2025 with a Best Rap Album Grammy and the opening slot on Kendrick Lamar's Grand National tour. Adin's response — calling her 'an entitled, unintelligent piece of sh*t' and an 'industry plant' — wasn't random misogyny; it was Type 3 shadow behavior under threat. When someone else's win threatens an Achiever's sense of worth, the move is to deny the win counts. The feud cost him two major brand deals, which is the Achiever nightmare: losing achievements over an uncontrolled outburst."
+    anchor: 'the-doechii-feud-2025-2026'
+  - question: 'Why did Adin Ross interview Donald Trump and gift him a Cybertruck?'
+    answer: "For a Type 3, proximity to power is proof of winning. The August 2024 Mar-a-Lago interview drew over 580,000 concurrent viewers and came at the request of Trump's son Barron — being sought out by political power is validation that can't be faked. The gold Rolex and custom-wrapped Cybertruck were status receipts. When Dana White publicly thanked Adin alongside Joe Rogan at the January 2025 inauguration, the alliance paid off in exactly the currency Achievers chase."
+    anchor: 'why-the-trump-alliance-makes-sense-to-him'
+  - question: 'Is Adin Ross showing signs of growth?'
+    answer: "The evidence is small but real. He deleted his entire 'Adin Loyals' X Community in January 2025, voluntarily cutting off part of his own audience because it had turned toxic. He confessed to spending over $1 million on lean in a YouTube video — choosing the platform specifically because 'the audience will receive it best.' By mid-2025 he was dating someone named Isa with a privacy-first approach instead of turning the relationship into content. An Achiever who starts building a private scorecard alongside the public one is the version worth watching."
+    anchor: 'taking-accountability'
 twitter: 'adinross'
 instagram: 'adinross'
 tiktok: ''

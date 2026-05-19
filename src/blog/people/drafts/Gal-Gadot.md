@@ -15,6 +15,56 @@ type: ['movieStar', 'screen-icon']
 person: 'gal-gadot'
 suggestions: ['Jennifer-Lopez', 'Hailey-Bieber', 'Ariana-Grande', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Gal_Gadot'
+wikidata_qid: 'Q185654'
+imdb_id: 'nm2933757'
+birth_date: '1985-04-30'
+birth_place: 'Petah Tikva, Israel'
+nationality: 'Israeli'
+occupation:
+  - 'Actress'
+  - 'Producer'
+  - 'Model'
+knows_about:
+  - 'IDF combat training'
+  - 'Superhero franchise lead acting'
+  - 'Wonder Woman portrayal'
+  - 'Pilot Wave Motion Pictures production'
+  - 'Hebrew-language and bilingual press performance'
+  - 'Modeling and pageant performance'
+keywords:
+  - 'Gal Gadot enneagram'
+  - 'Gal Gadot type 3'
+  - 'Gal Gadot personality'
+  - 'Gal Gadot 3w2'
+  - 'Achiever enneagram'
+  - 'Gal Gadot Wonder Woman'
+  - 'Gal Gadot Imagine video'
+  - 'Gal Gadot brain clot'
+  - 'Gal Gadot Snow White'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Gal_Gadot'
+  - 'https://www.wikidata.org/wiki/Q185654'
+  - 'https://www.imdb.com/name/nm2933757/'
+  - 'https://www.britannica.com/biography/Gal-Gadot'
+citations:
+  - 'https://en.wikipedia.org/wiki/Gal_Gadot'
+  - 'https://en.wikipedia.org/wiki/Wonder_Woman_(2017_film)'
+  - 'https://en.wikipedia.org/wiki/Wonder_Woman_1984'
+  - 'https://en.wikipedia.org/wiki/Snow_White_(2025_film)'
+  - 'https://en.wikipedia.org/wiki/Red_Notice_(film)'
+faqs:
+  - question: "What is Gal Gadot's personality type?"
+    answer: "Gal Gadot is an Enneagram Type 3w2 (The Achiever with a Two wing). The pattern shows in the twelve years of dance, the two years as an IDF combat trainer, Miss Israel at eighteen, the nine months of horseback and sword drilling before Wonder Woman shot, the Hot Ones interview where she cried through the wings without breaking the bit, and the press tour for Snow White that began weeks after a craniotomy for a brain clot."
+    anchor: 'what-is-gal-gadots-personality-type'
+  - question: 'Why did the Imagine video fail?'
+    answer: "On March 18, 2020, Gadot organized two dozen celebrity friends to sing John Lennon's 'Imagine' into their phones during pandemic lockdown. The New York Times called it 'an empty and profoundly awkward gesture.' The cast was famous, the song iconic, the lighting kind, the intention sincere — by every metric a Type 3 uses to plan a performance, the package was right. What she could not optimize was the moment. The moment wanted information about ICU beds and rent freezes, not celebrities asking the world to 'imagine no possessions.'"
+    anchor: 'the-imagine-video-and-the-limits-of-polish'
+  - question: 'What almost killed Gal Gadot in 2024?'
+    answer: "Eight months into her fourth pregnancy in February 2024, an MRI showed cerebral venous thrombosis — a massive blood clot in the venous system of her brain. CVT affects roughly three in 100,000 pregnant women in their thirties and is fatal in a meaningful percentage of undiagnosed cases. Cedars-Sinai neurosurgeons performed an emergency procedure and delivered her daughter Ori the same day. 'In the midst of a difficult year, all I wanted was to hold on and live.'"
+    anchor: 'what-almost-killed-gal-gadot-in-2024'
+  - question: 'Did October 7 hurt Gal Gadot career?'
+    answer: "In November 2023, Gadot helped facilitate a Los Angeles screening of 'Bearing Witness to the October 7th Massacre' at the Museum of Tolerance. The screening drew clashing demonstrators and required LAPD intervention. For the first time her Israeli identity became inseparable from how the next role would be received. She later attributed Snow White's $205 million worldwide gross on a $270 million budget partly to 'the pressure to speak out against Israel,' then walked it back to Deadline as 'not solely' responsible — the Type 3 instinct to protect the performance even from herself."
+    anchor: 'october-7-and-the-year-her-identity-stopped-being-optional'
 twitter: 'GalGadot'
 instagram: 'gal_gadot'
 production_pretext:

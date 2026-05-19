@@ -14,11 +14,61 @@ enneagram: '3'
 type: ['musician', 'rapper']
 person: 'drake'
 suggestions: ['Kendrick-Lamar', 'Kanye', 'Travis-Scott', 'Post-Malone']
-wikipedia: ''
+wikipedia: 'https://en.wikipedia.org/wiki/Drake_(musician)'
+wikidata_qid: 'Q33240'
+imdb_id: 'nm1013044'
+birth_date: '1986-10-24'
+birth_place: 'Toronto, Ontario, Canada'
+nationality: 'Canadian'
+occupation:
+  - 'Rapper'
+  - 'Singer'
+  - 'Songwriter'
+  - 'Record producer'
+  - 'Actor'
+knows_about:
+  - 'Hip-hop'
+  - 'R&B songwriting'
+  - 'Trap production'
+  - 'OVO Sound label'
+  - 'Streaming-era release strategy'
+  - 'Celebrity branding'
+keywords:
+  - 'Drake enneagram'
+  - 'Drake type 3'
+  - 'Drake personality'
+  - 'Drake 3w2'
+  - 'Achiever enneagram'
+  - 'Drake Kendrick feud personality'
+  - 'Drake Iceman album'
+  - 'Drake vulnerability strategy'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Drake_(musician)'
+  - 'https://www.wikidata.org/wiki/Q33240'
+  - 'https://www.imdb.com/name/nm1013044/'
+  - 'https://www.britannica.com/biography/Drake'
 twitter: ''
 instagram: ''
 tiktok: ''
-path: src/blog/people/drafts/Drake.md
+citations:
+  - 'https://en.wikipedia.org/wiki/Drake_(musician)'
+  - 'https://en.wikipedia.org/wiki/Not_Like_Us'
+  - 'https://en.wikipedia.org/wiki/The_Story_of_Adidon'
+  - 'https://en.wikipedia.org/wiki/Iceman_(Drake_album)'
+  - 'https://en.wikipedia.org/wiki/Kendrick_Lamar%E2%80%93Drake_feud'
+faqs:
+  - question: "What is Drake's personality type?"
+    answer: "Drake is an Enneagram Type 3 (The Achiever), most consistent with a 3w2. The pattern shows in the biracial outsider wound (\"the last kid to get the invite to the party\"), the Degrassi child-actor pivot that turned performance into family income at 15, the strategic vulnerability that powered \"Marvins Room\" and \"Look What You've Done,\" the chameleon flow that absorbs Houston, Atlanta, UK grime and Afrobeats, and the post-Kendrick refusal to concede — the UMG defamation suit, the bullet-hole sweatshirt, and the Iceman re-brand."
+    anchor: 'what-is-drakes-personality-type'
+  - question: "Why can't Drake accept losing to Kendrick Lamar?"
+    answer: "For a Type 3, public defeat doesn't just sting — it threatens the entire identity, because worth was wired to winning. Drake's response runs the predictable Type 3 playbook: sue UMG over \"Not Like Us,\" perform resilience in a smoking bullet-hole sweatshirt in Australia, ship a chart-topping PartyNextDoor album within a week of the Super Bowl halftime, and re-launch as Iceman. Acceptance would mean admitting worthlessness, so the Achiever reprices the loss instead of absorbing it."
+    anchor: 'the-kendrick-challenge-when-achievers-lose'
+  - question: 'Is Drake a culture vulture or a Type 3 chameleon?'
+    answer: "Both readings can be true at once. The Kendrick \"Not Like Us\" charge — that Drake extracts from Houston, Atlanta, UK grime, dancehall and Afrobeats without belonging to any of them — names a real pattern. The Type 3 reading explains the engine: a biracial kid who grew up in a Jewish school basement learned early that every culture is a costume that almost fits, and fluency in being whatever the room needs becomes a survival skill, not a moral failing — even when the Quentin Miller reference-track scandal shows how thin the line gets."
+    anchor: 'the-chameleon-question'
+  - question: 'Why does Drake stream his gambling losses?'
+    answer: "Drake's roughly $100M-per-year Stake.com deal turns $8M monthly losses into content rather than crises. For a Type 3, the unbearable thing isn't losing money — it's being seen as someone money can hurt. Streaming the losses to 50,000 teenagers in chat reframes the loss as flex: same image, better proof that the bag is too big to register. Validation at scale is the whole game; you don't need approval, you need an audience."
+    anchor: 'the-gamblers-flex'
 content_quality:
   hook: 9
   enneagram: 9
@@ -28,6 +78,7 @@ content_quality:
   overall: 9.0
   letter: A
   graded_at: '2026-04-23'
+path: src/blog/people/drafts/Drake.md
 ---
 
 <!-- QUALITY GRADE: A (9.0)

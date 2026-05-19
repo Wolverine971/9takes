@@ -15,7 +15,52 @@ type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'jeremy-allen-white'
 suggestions: ['Timothee-Chalamet', 'Paul-Mescal', 'Adam-Driver', 'Austin-Butler']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeremy_Allen_White'
-instagram: 'jeremyallenwhitee'
+wikidata_qid: 'Q1411012'
+imdb_id: 'nm2087739'
+birth_date: '1991-02-28'
+birth_place: 'Brooklyn, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+knows_about:
+  - 'Method acting'
+  - 'Ballet and contemporary dance'
+  - 'Culinary technique for screen'
+  - 'Physical transformation for film'
+  - 'Independent cinema'
+keywords:
+  - 'Jeremy Allen White enneagram'
+  - 'Jeremy Allen White type 4'
+  - 'Jeremy Allen White personality'
+  - 'Jeremy Allen White 4w5'
+  - 'Carmy Berzatto enneagram'
+  - 'The Bear personality analysis'
+  - 'Individualist enneagram'
+  - 'Jeremy Allen White Springsteen'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jeremy_Allen_White'
+  - 'https://www.wikidata.org/wiki/Q1411012'
+  - 'https://www.imdb.com/name/nm2087739/'
+  - 'https://www.britannica.com/biography/Jeremy-Allen-White'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jeremy_Allen_White'
+  - 'https://en.wikipedia.org/wiki/The_Bear_(TV_series)'
+  - 'https://en.wikipedia.org/wiki/The_Iron_Claw_(film)'
+  - 'https://en.wikipedia.org/wiki/Shameless_(American_TV_series)'
+  - 'https://en.wikipedia.org/wiki/Springsteen:_Deliver_Me_from_Nowhere'
+faqs:
+  - question: "What is Jeremy Allen White's personality type?"
+    answer: "Jeremy Allen White is an Enneagram Type 4 (The Individualist), specifically a 4w5 with an sx/so instinctual stacking. The pattern shows in his choice of cracked men (Lip Gallagher, Carmy Berzatto, Kerry Von Erich, Bruce Springsteen in the Nebraska years), his refusal to watch his own work, his physical discomfort with the Calvin Klein campaign that made him a global sex symbol, the silence he kept through a public divorce, and the ballet training he still treats as the real first love he could not keep."
+    anchor: 'what-is-jeremy-allen-whites-personality-type'
+  - question: 'Why does Jeremy Allen White keep playing broken men?'
+    answer: "Every signature role — Lip across eleven seasons of Shameless, Carmy panicking in a walk-in freezer, Kerry Von Erich's doomed wrestling body, Bruce Springsteen alone in a New Jersey bedroom recording Nebraska — is a man whose inner life is at war with his outer life. Type 4s organize their identity around the gap between who they are and who they were supposed to be. The role keeps finding him because the role is already inside him."
+    anchor: 'why-jeremy-allen-white-keeps-playing-broken-men'
+  - question: 'Why did the Calvin Klein campaign hit Jeremy Allen White so hard?'
+    answer: "When his body became the only thing New Yorkers could talk about in January 2024, he visibly recoiled. He pivoted every compliment to the trainers, said he didn't recognize the photos. For a Type 4, getting famous for a torso is the precise opposite of being seen — it is being looked at hard, for something that does not feel like them. The campaign worked culturally and financially. He grieved it anyway."
+    anchor: 'calvin-klein-a-photograph-of-a-body'
+  - question: 'Why does Jeremy Allen White still talk about dance?'
+    answer: "He trained in ballet from age seven, attended the Professional Performing Arts School in Manhattan, and only drifted into acting when his body outgrew the corps line. He still talks about dance in the present tense when he's not careful. A Type 4 locates the 'real self' somewhere they cannot quite return to, then lives in the ache of the distance. Every role since has required rebuilding the body to reach the man — dancer logic, applied to acting."
+    anchor: 'jeremy-allen-whites-brooklyn-childhood-and-the-dance-he-left'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -294,4 +339,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Bring in one Shameless-era or Bear-era named co-star or director with a perspective other than reverence (Storer + Moss-Bachrach are both currently used as character witnesses, not analysts).
 
 ============================================================ -->
-

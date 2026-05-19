@@ -22,10 +22,63 @@ suggestions:
     'Scarlett-Johansson',
     'Shia-LaBeouf'
   ]
-wikipedia: ''
+wikipedia: 'https://en.wikipedia.org/wiki/Brad_Pitt'
+wikidata_qid: 'Q35332'
+imdb_id: 'nm0000093'
+birth_date: '1963-12-18'
+birth_place: 'Shawnee, Oklahoma, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Film producer'
+  - 'Humanitarian'
+knows_about:
+  - 'Film acting'
+  - 'Film producing'
+  - 'Sculpture'
+  - 'Architecture and design'
+  - 'Sustainable housing'
+  - 'Motorcycle riding'
+  - 'Plan B Entertainment'
+keywords:
+  - 'Brad Pitt enneagram'
+  - 'Brad Pitt type 9'
+  - 'Brad Pitt personality'
+  - 'Brad Pitt peacemaker'
+  - 'Peacemaker enneagram'
+  - 'Brad Pitt Angelina Jolie divorce'
+  - 'Brad Pitt children estrangement'
+  - 'Brad Pitt F1 movie'
+  - 'Brad Pitt sculpture'
 twitter: ''
 instagram: ''
 tiktok: ''
+same_as:
+  - 'https://en.wikipedia.org/wiki/Brad_Pitt'
+  - 'https://www.wikidata.org/wiki/Q35332'
+  - 'https://www.imdb.com/name/nm0000093/'
+  - 'https://www.britannica.com/biography/Brad-Pitt'
+citations:
+  - 'https://en.wikipedia.org/wiki/Brad_Pitt'
+  - 'https://en.wikipedia.org/wiki/F1_(film)'
+  - 'https://en.wikipedia.org/wiki/Make_It_Right_Foundation'
+  - 'https://en.wikipedia.org/wiki/Plan_B_Entertainment'
+  - 'https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood'
+  - 'https://en.wikipedia.org/wiki/Fight_Club'
+  - 'https://en.wikipedia.org/wiki/Ad_Astra_(film)'
+faqs:
+  - question: "What is Brad Pitt's personality type?"
+    answer: "Brad Pitt is an Enneagram Type 9 (The Peacemaker). The pattern shows in his chameleon-with-partners arc — Gwyneth's haircut, Aniston's social world, Jolie's humanitarian mission — the eight-year divorce a Nine could not seal, the children dropping 'Pitt' from their names as the cost of too much accommodation, the on-screen eating as self-soothing, and the post-divorce sculpture practice he calls 'a radical inventory of the self.'"
+    anchor: 'what-is-brad-pitts-personality-type'
+  - question: 'Why are Brad Pitt’s children estranged from him?'
+    answer: "After the 2016 plane incident and the eight-year divorce from Angelina Jolie, multiple children have severed ties. Pax called him a 'world class' terrible person on private Instagram. Shiloh hired a lawyer to legally drop 'Pitt' from her name. Zahara has 'virtually no contact.' Vivienne went by 'Vivienne Jolie' in a Broadway playbill. Only Knox kept the full surname — described by sources as 'a glimmer of hope.' It is the Type 9 nightmare: the peace he sought cost him the relationships."
+    anchor: 'the-painful-estrangement-from-his-children'
+  - question: "What is Brad Pitt's chameleon pattern in relationships?"
+    answer: "Type 9s merge with their partners, and Brad has named the pattern himself: 'I'm a bit of a chameleon. I just adapt to what's around me.' He famously matched Gwyneth Paltrow's blonde pixie haircut, adopted Jennifer Aniston's sitcom-royalty social world, then dove into international adoption and humanitarian work with Angelina Jolie. The strength is supportiveness; the cost is losing the through-line of his own identity."
+    anchor: 'love-family-and-the-type-9-merging-pattern'
+  - question: 'What happened with Brad Pitt’s Make It Right Foundation?'
+    answer: "After Hurricane Katrina, Brad launched Make It Right in 2007 and recruited world-famous architects to design 109 LEED Platinum homes in New Orleans' Lower Ninth Ward. By 2018 residents had filed suit over defective materials and rotting weatherproof lumber; by 2022 only 6 of 109 homes remained in 'reasonably good shape.' 'We went into it incredibly naive,' Brad admitted. It is the Type 9 pattern of leading with optimism while underestimating practical obstacles."
+    anchor: 'humanitarian-work-the-make-it-right-tragedy'
 path: src/blog/people/drafts/Brad-Pitt.md
 content_quality:
   hook: 8.5

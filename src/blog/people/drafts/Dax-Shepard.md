@@ -15,9 +15,62 @@ type: ['creator', 'podcaster']
 person: 'dax-shepard'
 suggestions: ['Kristen-Bell', 'Joe-Rogan', 'Tim-Ferriss', 'Ryan-Reynolds']
 wikipedia: 'https://en.wikipedia.org/wiki/Dax_Shepard'
+wikidata_qid: 'Q462354'
+imdb_id: 'nm1009277'
+birth_date: '1975-01-02'
+birth_place: 'Ypsilanti, Michigan, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Comedian'
+  - 'Filmmaker'
+  - 'Podcaster'
 twitter: 'daborgs'
 instagram: 'daborgs'
 tiktok: ''
+knows_about:
+  - 'Long-form interviewing'
+  - 'Improv comedy'
+  - 'Screenwriting and directing'
+  - 'Anthropology'
+  - 'Addiction recovery'
+  - 'Off-road and motorcycle racing'
+  - 'Podcasting business strategy'
+keywords:
+  - 'Dax Shepard enneagram'
+  - 'Dax Shepard type 7'
+  - 'Dax Shepard personality'
+  - 'Dax Shepard 7w8'
+  - 'Enthusiast enneagram'
+  - 'Armchair Expert host personality'
+  - 'Dax Shepard relapse'
+  - 'Dax Shepard Kristen Bell'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Dax_Shepard'
+  - 'https://www.wikidata.org/wiki/Q462354'
+  - 'https://www.imdb.com/name/nm1009277/'
+  - 'https://armchairexpertpod.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Dax_Shepard'
+  - 'https://en.wikipedia.org/wiki/Armchair_Expert'
+  - 'https://en.wikipedia.org/wiki/Kristen_Bell'
+  - 'https://en.wikipedia.org/wiki/Parenthood_(2010_TV_series)'
+faqs:
+  - question: "What is Dax Shepard's personality type?"
+    answer: "Dax Shepard is an Enneagram Type 7 (The Enthusiast), with a strong 8 wing. The pattern shows in the relentless forward motion (five cars, five motorcycles, four off-road toys, seven riding-injury surgeries), the reframe-everything reflex that turned his father's deathbed Percocet into 'connection' and his relapse into the most downloaded episode of Armchair Expert, and the eight weeks in 2020 where he secretly used opioids while telling himself an intricate story he could live inside."
+    anchor: 'what-is-dax-shepards-personality-type'
+  - question: 'How does Armchair Expert work as Type 7 integration?'
+    answer: "Adam Grant decoded twenty years of Dax's career in one question: his favorite part of acting was hanging out at 'video village,' the on-set area where creative people talk between takes. Grant's reply — 'Don't you think you've just rebuilt video village in your attic?' — is the integration move. Healthy Sevens don't keep adding. They subtract. Dax stripped acting down to the one thing that fed him: sitting across from interesting people and talking, then making that the business."
+    anchor: 'twenty-years-in-hollywood-decoded-in-one-question'
+  - question: "What caused Dax Shepard's 2020 relapse?"
+    answer: "After a Sonoma Raceway motorcycle crash, Dax was prescribed Percocet — the same drug he had shared with his dying father in 2012. Eight days as prescribed, then an extra pill on day nine, then double, then triple, then OxyContin off the street: eight pills a day. He sat through his sixteen-year sobriety AA meeting in September 2020 high on opioids and later called it 'the worst hour of my life.' He surrendered the remaining pills after a fourth lie of the day to his co-host Monica Padman and recorded the 'Day 7' episode at the urging of his sponsor."
+    anchor: 'the-worst-hour-of-his-life'
+  - question: 'What was the journal that Dax Shepard stopped writing in?'
+    answer: "For fourteen years, Dax wrote in a journal every morning for twenty minutes, superstitious that missing a day would lead to relapse. He stopped, citing being too busy. After getting sober again he admitted the truth: 'I stopped journaling because I didn't feel safe being honest with that journal. I was afraid it would get found.' The journal was the first thing to die — before Monica noticed, before Kristen sensed something off, before a single pill was bought on the street. The conversation he was having with himself had gone silent first."
+    anchor: 'the-journal-he-stopped-writing-in'
+  - question: 'How do Dax Shepard and Kristen Bell stay together?'
+    answer: "They started couples therapy six months in, not because things were broken but because they both knew things would break if they didn't build the tools first. Their therapist Harry eventually moved them to separate sessions, with Kristen describing the setup as venting to Harry every two weeks, getting told why she was wrong, and meeting up loving each other again because their toolboxes were bigger. Even inside that architecture, the 2020 relapse stayed hidden — because addiction targets the strong spots in a relationship, not the weak ones."
+    anchor: 'dax-and-kristen-a-marriage-that-runs-on-brutal-honesty'
 path: src/blog/people/drafts/Dax-Shepard.md
 content_quality:
   hook: 9.5

@@ -15,9 +15,57 @@ type: ['musician', 'alternative-artist']
 person: 'charli-xcx'
 suggestions: ['Taylor-Swift', 'Sabrina-Carpenter', 'Billie-Eilish', 'Dua-Lipa']
 wikipedia: 'https://en.wikipedia.org/wiki/Charli_XCX'
-twitter: 'charabordeaux'
-instagram: 'charli_xcx'
-tiktok: 'charlixcx'
+wikidata_qid: 'Q5084390'
+imdb_id: 'nm6424616'
+birth_date: '1992-08-02'
+birth_place: 'Cambridge, England, United Kingdom'
+nationality: 'British'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Record producer'
+  - 'Actress'
+knows_about:
+  - 'Hyperpop production'
+  - 'Pop songwriting and topline'
+  - 'PC Music collective'
+  - 'Album branding and rollout strategy'
+  - 'Warehouse rave culture'
+  - 'Cross-format artist reinvention'
+keywords:
+  - 'Charli XCX enneagram'
+  - 'Charli XCX type 3'
+  - 'Charli XCX 3w4'
+  - 'Charli XCX personality'
+  - 'Brat manifesto'
+  - 'Brat summer enneagram'
+  - 'Charli XCX Lorde'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Charli_XCX'
+  - 'https://www.wikidata.org/wiki/Q5084390'
+  - 'https://www.imdb.com/name/nm6424616/'
+  - 'https://www.britannica.com/biography/Charli-XCX'
+citations:
+  - 'https://en.wikipedia.org/wiki/Charli_XCX'
+  - 'https://en.wikipedia.org/wiki/Brat_(album)'
+  - 'https://en.wikipedia.org/wiki/Girl,_So_Confusing'
+  - 'https://en.wikipedia.org/wiki/Sophie_(musician)'
+  - 'https://en.wikipedia.org/wiki/Crash_(Charli_XCX_album)'
+  - 'https://en.wikipedia.org/wiki/How_I%27m_Feeling_Now'
+faqs:
+  - question: "What is Charli XCX's personality type?"
+    answer: "Charli XCX is an Enneagram Type 3w4 — the Achiever with the Individualist wing. The pattern shows in the 50-page brand manifesto she wrote before a single Brat song existed, the five distinct eras in fifteen years (rave kid, pop topliner, hyperpop queen, deliberate sell-out, brat icon, actress), the self-naming line 'I've always been very embarrassed by myself,' and the SOPHIE grief filtered through self-evaluation: 'I didn't feel like I was magical enough for this unbelievably magic person.'"
+    anchor: 'charli-xcx-is-an-enneagram-type-3'
+  - question: 'Did Charli XCX really write a 50-page brand bible before Brat?'
+    answer: "Yes. Before she wrote a note of music for Brat, she wrote 'the brat manifesto' — a comprehensive brand bible defining the font, the acidic lime green, the marketing beats, and the commandment to 'cultivate desire, chaos, and destruction.' She distributed it to her team months before recording. Then she went on every podcast and called the album spontaneous. A.G. Cook called the result 'the sound of something fighting itself.' That is the Type 3 condition exactly."
+    anchor: 'the-50-page-manifesto'
+  - question: 'How did Charli XCX resolve her rivalry with Lorde?'
+    answer: "The rivalry simmered for over a decade — Charli once tweeted she'd been mistaken for Lorde and played along. On the Brat track 'Girl, So Confusing' she addressed the dynamic directly. The day before the album dropped, she sent Lorde a voice note expecting silence. Lorde responded with a remix verse about disordered eating and being misread as aloof. They performed it together at Coachella 2025. That is the 3w4 in a single arc: convert insecurity into content, risk genuine vulnerability, end up with a cultural moment."
+    anchor: 'girl-so-confusing'
+  - question: 'Why is Charli XCX pivoting to film?'
+    answer: "She told A Rabbit's Foot in early 2026, 'I've been on the same hamster wheel since I was 15. I don't feel the danger with music anymore.' She has accumulated eight or more film projects in under two years — including Pete Ohs's ERUPCJA and an A24 mockumentary about her own life. With music she controls every detail. With cinema she has to surrender to someone else's vision. For a Type 3 whose entire system runs on mastery, the danger of failing again is the new oxygen."
+    anchor: 'the-hamster-wheel'
 path: src/blog/people/drafts/Charli-xcx.md
 content_quality:
   hook: 9.5

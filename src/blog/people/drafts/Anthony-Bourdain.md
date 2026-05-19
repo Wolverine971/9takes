@@ -15,6 +15,58 @@ type: ['celebrity', 'author', 'celebrity-image']
 person: 'anthony-bourdain'
 suggestions: ['Theo-Von', 'Kevin-Hart', 'Andrew-Callaghan', 'Robin-Williams']
 wikipedia: 'https://en.wikipedia.org/wiki/Anthony_Bourdain'
+wikidata_qid: 'Q426582'
+imdb_id: 'nm1113529'
+birth_date: '1956-06-25'
+birth_place: 'Manhattan, New York City, United States'
+nationality: 'American'
+occupation:
+  - 'Chef'
+  - 'Author'
+  - 'Television presenter'
+  - 'Travel documentarian'
+knows_about:
+  - 'French brasserie cooking'
+  - 'Food writing'
+  - 'Travel television'
+  - 'Memoir and narrative nonfiction'
+  - 'Brazilian jiu-jitsu'
+  - 'Addiction and recovery'
+keywords:
+  - 'Anthony Bourdain enneagram'
+  - 'Anthony Bourdain type 7'
+  - 'Anthony Bourdain personality'
+  - 'Anthony Bourdain 7w8'
+  - 'Enthusiast enneagram'
+  - 'Kitchen Confidential'
+  - 'Parts Unknown'
+  - 'Anthony Bourdain death'
+  - 'Bourdain Kissinger'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Anthony_Bourdain'
+  - 'https://www.wikidata.org/wiki/Q426582'
+  - 'https://www.imdb.com/name/nm1113529/'
+  - 'https://www.britannica.com/biography/Anthony-Bourdain'
+  - 'https://www.ciachef.edu/cia-bios/anthony-bourdain/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Anthony_Bourdain'
+  - 'https://en.wikipedia.org/wiki/Kitchen_Confidential'
+  - 'https://en.wikipedia.org/wiki/Parts_Unknown'
+  - 'https://en.wikipedia.org/wiki/No_Reservations_(TV_series)'
+  - 'https://en.wikipedia.org/wiki/Roadrunner:_A_Film_About_Anthony_Bourdain'
+faqs:
+  - question: "What was Anthony Bourdain's personality type?"
+    answer: "Anthony Bourdain was an Enneagram Type 7 (The Enthusiast) with a strong 8 wing — 7w8. The pattern shows in his hunger-for-what's-next over a Type 4's longing-for-what's-gone, his substrate substitutions (heroin → twenty-year kitchen brigade → jiu-jitsu), 250 days a year on the road for over a decade, and the 8-wing pro-worker loyalty that named dishwashers by name and called Henry Kissinger a war criminal in print."
+    anchor: 'what-is-anthony-bourdains-personality-type'
+  - question: 'Why was Anthony Bourdain a Type 7 and not a Type 4?'
+    answer: "Type 4 is the alternate case people make because of the melancholy, the romanticism, and the writer's voice. But Bourdain's characteristic mode wasn't longing for what's gone — it was hunger for what's next. A Four mourns the lost thing. A Seven is already booking the flight. His own line about cold stairwells — once for dope, now for jiu-jitsu — is a Seven framing a successful substitution, not a Four mourning a transformation."
+    anchor: 'what-is-anthony-bourdains-personality-type'
+  - question: 'How did Bourdain trade heroin for the kitchen?'
+    answer: "After the CBGB years of heroin, cocaine, and crack on the Lower East Side, three of four friends in a single cab ride did not make it. Bourdain did. The reason he gave was vain, not virtuous: 'I didn't like what I saw in the mirror.' He didn't quit the addiction — he changed its substrate. Twenty years of line-cook and executive-chef jobs at Tom Sullivan's, Coco Pazzo Teatro, and finally Brasserie Les Halles became the brigade discipline that paused the Seven engine."
+    anchor: 'how-bourdain-traded-heroin-for-the-kitchen'
+  - question: "Why did Anthony Bourdain die by suicide in 2018?"
+    answer: "The Seven mechanism — sprint forward, change the substrate, keep the rotor spinning — works on most pain most of the time. It does not work on a depression that has stopped accepting payment in motion. By spring 2018, Bourdain's proposition since age nine — that the next thing is always more alive than the current thing — had stopped paying out. Asia Argento's relationship had cracked publicly via the Hugo Clément paparazzi photos; the running engine kept running but no longer kept him from being inside himself."
+    anchor: 'what-happened-when-anthony-bourdain-finally-stopped-moving'
 twitter: 'Bourdain'
 instagram: 'anthonybourdain'
 production_pretext:

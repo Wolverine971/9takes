@@ -15,7 +15,60 @@ type: ['celebrity', 'newMovieStar', 'rising-star']
 person: 'emma-watson'
 suggestions: ['Millie Bobby Brown', 'Natalie Portman', 'Zoe Kravitz', 'Anya Taylor Joy']
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Watson'
-twitter: 'EmmaWatson'
+wikidata_qid: 'Q39476'
+imdb_id: 'nm0914612'
+birth_date: '1990-04-15'
+birth_place: 'Paris, Île-de-France, France'
+nationality:
+  - 'British'
+  - 'French'
+occupation:
+  - 'Actress'
+  - 'Activist'
+  - 'Model'
+  - 'Entrepreneur'
+knows_about:
+  - 'Gender equality advocacy'
+  - 'HeForShe campaign'
+  - 'Sustainable fashion'
+  - 'English literature'
+  - 'Feminist book club curation'
+  - 'Creative writing'
+  - 'Sustainable luxury spirits'
+keywords:
+  - 'Emma Watson enneagram'
+  - 'Emma Watson type 1'
+  - 'Emma Watson personality'
+  - 'Emma Watson perfectionist'
+  - 'Perfectionist enneagram'
+  - 'Emma Watson Rowling'
+  - 'Emma Watson HeForShe'
+  - 'Emma Watson Renais gin'
+  - 'Emma Watson Oxford DPhil'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Emma_Watson'
+  - 'https://www.wikidata.org/wiki/Q39476'
+  - 'https://www.imdb.com/name/nm0914612/'
+  - 'https://www.britannica.com/biography/Emma-Watson'
+citations:
+  - 'https://en.wikipedia.org/wiki/Emma_Watson'
+  - 'https://en.wikipedia.org/wiki/HeForShe'
+  - 'https://en.wikipedia.org/wiki/J._K._Rowling'
+  - 'https://www.thetrevorproject.org/'
+faqs:
+  - question: "What is Emma Watson's personality type?"
+    answer: "Emma Watson is an Enneagram Type 1 (The Perfectionist). The pattern shows in her self-described terror of 'doing it wrong' on the Harry Potter set at nine, her HeForShe speech at the UN at twenty-four, her decision to step away from acting at peak market value, her switch from an Oxford Master's to a DPhil at thirty-five, and her refusal to stay silent on Rowling's gender-critical position even when silence was the easier career move."
+    anchor: 'what-is-emma-watsons-personality-type'
+  - question: 'Why did Emma Watson publicly break with JK Rowling?'
+    answer: "After Rowling's 2020 essays and tweets on gender identity, Emma posted a brief affirmation of trans people on X without naming Rowling, then at the 2022 BAFTAs declared 'I'm here for all of the witches.' Rowling later named that BAFTAs line as the moment the relationship broke. The Type 1 inner critic could have lived with the post; it could not have lived with silence on a question it had already answered."
+    anchor: 'the-jk-rowling-rift'
+  - question: 'Why did Emma Watson stop acting after Little Women?'
+    answer: "In a 2025 interview on On Purpose with Jay Shetty, Emma described a Type 1 collapse — 'I worked so hard for so long that my life sort of bottomed out.' She stepped fully away from Hollywood, did sustained therapy, and spent years in what she called her 'cocoon.' The five-year withdrawal was financially possible because of Harry Potter wealth, which Rowling's 'uncushioned by wealth and fame' critique names directly."
+    anchor: 'when-the-bottom-fell-out'
+  - question: 'What is Emma Watson studying at Oxford?'
+    answer: "Emma enrolled at Lady Margaret Hall, Oxford in September 2023 in the creative writing Master's program, then switched to a DPhil (Oxford's PhD equivalent) in 2025. Reports suggest she may be developing a feature script or directorial project. For a Type 1, the upgrade from Master's to DPhil is the tell — mastery is never finished, there is always more to be earned."
+    anchor: 'the-dphil-at-35'
+
 instagram: 'emmawatson'
 tiktok: ''
 path: src/blog/people/drafts/Emma-Watson.md

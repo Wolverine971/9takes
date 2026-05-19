@@ -15,6 +15,52 @@ type: ['influencer', 'creator', 'lifestyle-builder']
 person: 'alix-earle'
 suggestions: ['Alex-Cooper', 'Emma-Chamberlain', 'Hailey-Bieber', 'Addison-Rae']
 wikipedia: 'https://en.wikipedia.org/wiki/Alix_Earle'
+wikidata_qid: 'Q121422393'
+imdb_id: 'nm14654113'
+birth_date: '2000-12-16'
+birth_place: 'Monmouth County, New Jersey, United States'
+nationality: 'American'
+occupation:
+  - 'Social media personality'
+  - 'TikTok creator'
+  - 'Podcast host'
+  - 'Entrepreneur'
+knows_about:
+  - 'Get Ready With Me content'
+  - 'TikTok creator economy'
+  - 'Beauty and lifestyle influencing'
+  - 'Podcast hosting'
+  - 'Brand partnerships'
+  - 'Non-curated personal branding'
+keywords:
+  - 'Alix Earle enneagram'
+  - 'Alix Earle type 9'
+  - 'Alix Earle personality'
+  - 'Alix Earle 9w8'
+  - 'Peacemaker enneagram'
+  - 'Alix Earle Alex Cooper feud'
+  - 'Alix Earle Dancing with the Stars'
+  - 'Alix Earle Hot Mess podcast'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Alix_Earle'
+  - 'https://www.wikidata.org/wiki/Q121422393'
+  - 'https://www.imdb.com/name/nm14654113/'
+faqs:
+  - question: "What is Alix Earle's personality type?"
+    answer: "Alix Earle is an Enneagram Type 9 (The Peacemaker) with a strong 8 wing. The pattern shows in the seven-year-old who got in the car and left the room when paparazzi arrived, the non-curated bathroom-floor Get Ready With Me format that built an $8M-a-year empire, the two-word 'Okay on it!!' response to Alex Cooper's April 2026 callout, and the Type 9-to-Type 3 integration that earned her perfect 30s and second place on Dancing with the Stars."
+    anchor: 'what-is-alix-earles-personality-type'
+  - question: 'Why does Alix Earle refuse to curate her content?'
+    answer: "The non-curation is the product. After a 2022 facial cyst made her not want to post a brand video, she filmed her face instead and gained almost three million TikTok followers in a month. The bathroom-floor robe-and-rambling format works because a Type 9 does not need the camera to feel important — she just has to be in the room with it on. The 'Hi babes' opening and the candor about her breast augmentation, lip filler, Botox, and ten regretted veneers are not strategy; they are the absence of one."
+    anchor: 'why-alix-earles-whole-job-is-not-curating'
+  - question: 'How did Alix Earle respond to the Alex Cooper feud?'
+    answer: "When Alex Cooper publicly accused her of 'passive-aggressive reposts' on April 13, 2026, Alix posted a two-word comment: 'Okay on it!!' Four weeks later on the Today show, she smiled and said, 'No, it's exaggerated. I love everyone.' That is how a Type 9 says no — not by fighting back, but by reframing the conflict out of existence and outlasting it. The same pattern handled the 2024 ask.fm slur surfacing, the Gymshark lawsuit, and the Ivanka Trump Art Basel photos."
+    anchor: 'how-alix-earle-handles-a-fight'
+  - question: 'What did Dancing with the Stars reveal about Alix Earle?'
+    answer: "Her ten weeks on DWTS Season 34 in fall 2025 — perfect 30s in the finale, second place to Robert Irwin, most-improved dancer of the season — is the cleanest documented example of a Type 9 integrating to Type 3 in real time. Under the right structure (a coach, a schedule, a partner waking her up at 9 a.m.), a Nine can briefly look more focused and ambitious than an actual Achiever. Her exit framing — 'I am gonna come out of this such a different person than I was going in' — was about being different, not about winning."
+    anchor: 'what-dancing-with-the-stars-revealed-about-alix-earles-drive'
+  - question: "What does Alix Earle's anxiety reveal about her personality?"
+    answer: "Alix has been on Lexapro since high school and has described racing thoughts, disordered eating history, and body dysmorphia in unusually specific detail. That presentation is exactly how a Type 9 under stress shows up — disintegrating to Type 6, with worst-case spirals and second-guessing rather than a 7's chase-the-next-thing energy. A career built on millions of opinions about her body and face is a Nine's worst-case operating environment, which is why the medication is infrastructure, not a footnote."
+    anchor: 'what-alix-earle-says-about-her-anxiety'
 twitter: 'alaborr'
 instagram: 'alixearle'
 tiktok: 'alixearle'

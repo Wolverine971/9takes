@@ -14,6 +14,54 @@ type: ['author', 'novelist']
 person: 'j.k.-rowling'
 suggestions: ['Emma-Watson', 'Hillary-Clinton', 'Greta-Thunberg', 'Jordan-Peterson']
 wikipedia: 'https://en.wikipedia.org/wiki/J._K._Rowling'
+wikidata_qid: 'Q34660'
+imdb_id: 'nm0746830'
+birth_date: '1965-07-31'
+birth_place: 'Yate, Gloucestershire, England, United Kingdom'
+nationality: 'British'
+occupation:
+  - 'Novelist'
+  - 'Screenwriter'
+  - 'Film producer'
+  - 'Philanthropist'
+knows_about:
+  - 'Harry Potter series'
+  - 'Cormoran Strike novels'
+  - 'Worldbuilding'
+  - 'Lumos child-welfare advocacy'
+  - 'Multiple sclerosis research funding'
+  - 'Sex and gender public discourse'
+keywords:
+  - 'J.K. Rowling enneagram'
+  - 'J.K. Rowling type 1'
+  - 'J.K. Rowling personality'
+  - 'JK Rowling 1w9'
+  - 'Reformer enneagram'
+  - 'J.K. Rowling Robert Galbraith'
+  - 'J.K. Rowling Lumos'
+  - 'J.K. Rowling depression dementors'
+same_as:
+  - 'https://en.wikipedia.org/wiki/J._K._Rowling'
+  - 'https://www.wikidata.org/wiki/Q34660'
+  - 'https://www.imdb.com/name/nm0746830/'
+citations:
+  - 'https://en.wikipedia.org/wiki/J._K._Rowling'
+  - 'https://news.harvard.edu/gazette/story/2008/06/text-of-j-k-rowling-speech/'
+  - 'https://www.oprah.com/oprahshow/oprahs-interview-with-jk-rowling'
+  - 'https://www.thefp.com/witchtrials'
+faqs:
+  - question: "What is J.K. Rowling's personality type?"
+    answer: "J.K. Rowling is an Enneagram Type 1 (The Reformer). The pattern shows in the fifteen-draft Chapter 1 of Philosopher's Stone, the marble bust she signed in Room 552 facing the wall so it had to be turned around to be found, the £200 million she has donated to Lumos and the Anne Rowling Clinic and Beira's Place, the Robert Galbraith pseudonym she invented to test whether the writing was good enough without the fame, and the 3,700-word essay she wrote knowing the cost in advance and publishing anyway."
+    anchor: 'what-is-j-k-rowlings-personality-type'
+  - question: 'How did her mother’s death shape J.K. Rowling and Harry Potter?'
+    answer: "Anne Rowling died of multiple sclerosis at 45 on the night of December 30, 1990, while Joanne was writing Harry Potter for the first time and had never told her mother about the story. Rowling has said plainly: 'If she hadn't died I don't think it is too strong to say there wouldn't be Harry Potter.' Within months, the story darkened. Orphans appeared. Death became the architecture. She processed grief by giving an orphan boy a mirror that showed his dead parents."
+    anchor: 'my-mother-dying-was-like-a-depth-charge-in-my-life'
+  - question: 'Why did J.K. Rowling write the gender essay knowing the backlash was coming?'
+    answer: "Her language at the time was not strategic but moral: 'I really was starting to feel this moral obligation,' 'I'm living in what I feel is a duplicitous state,' 'I would have betrayed myself if I had not stood up on this issue.' She said on the Witch Trials podcast: 'I cannot look at myself in the mirror if I don't do it.' That is not the language of someone managing a brand. It is a Type 1 answering to an internal judge after years of reading the opposing arguments first."
+    anchor: 'i-cannot-look-at-myself-in-the-mirror'
+  - question: "Why did J.K. Rowling publish The Cuckoo's Calling under a fake name?"
+    answer: "Six years after finishing Deathly Hallows, she released a crime novel under the name Robert Galbraith. No one knew. It sold 1,500 copies in three months — quiet, anonymous, honest feedback. When the pseudonym was exposed she called the experience 'liberating.' The Type 1 question was never whether she was successful. It was whether the work was good enough without the fame attached. The hidden marble signature in Room 552 and the Galbraith pseudonym are the same gesture: a private verdict only the work has to pass."
+    anchor: 'room-552-and-the-name-that-wasnt-her'
 twitter: 'jk_rowling'
 instagram: 'jkrowling'
 tiktok: ''

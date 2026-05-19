@@ -277,7 +277,7 @@ The Slavoj Žižek debate (April 2019, titled "Happiness: Capitalism vs. Marxism
 
 ### The Algorithm and the Drift
 
-In June 2022, Peterson signed a multi-year deal with the Daily Wire, <a href="/personality-analysis/ben-shapiro">Ben Shapiro's</a> conservative media company, which took over ad sales, distribution, and development of exclusive content. The stated logic: legacy media is dying, the Daily Wire is the future.
+In June 2022, Peterson signed a multi-year deal with the Daily Wire, Ben Shapiro's conservative media company, which took over ad sales, distribution, and development of exclusive content. The stated logic: legacy media is dying, the Daily Wire is the future.
 
 But the partnership raised a question his earlier work didn't: what happens when a Type 1's moral certainty meets the incentive structure of partisan media? Peterson attended a Turning Point USA event celebrating <a href="/personality-analysis/donald-trump">Donald Trump's</a> return to power, spent time at Mar-a-Lago, and his December 2024 interview with Pierre Poilievre garnered over 40 million views after <a href="/personality-analysis/elon-musk">Elon Musk</a> reposted it.
 

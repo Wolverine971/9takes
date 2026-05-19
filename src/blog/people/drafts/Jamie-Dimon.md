@@ -15,7 +15,55 @@ type: ['entrepreneur', 'business-operator']
 person: 'jamie-dimon'
 suggestions: ['Jeff-Bezos', 'Alex-Karp', 'Reed-Hastings', 'Andrew-Ross-Sorkin']
 wikipedia: 'https://en.wikipedia.org/wiki/Jamie_Dimon'
-twitter: ''
+wikidata_qid: 'Q922169'
+imdb_id: 'nm5038401'
+birth_date: '1956-03-13'
+birth_place: 'New York City, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Banker'
+  - 'Business executive'
+  - 'Investor'
+knows_about:
+  - 'Commercial banking'
+  - 'Investment banking'
+  - 'Bank balance sheet management'
+  - 'Distressed bank acquisitions'
+  - 'Financial crisis management'
+  - 'Capital markets risk'
+  - 'Corporate governance'
+keywords:
+  - 'Jamie Dimon enneagram'
+  - 'Jamie Dimon type 8'
+  - 'Jamie Dimon 8w7'
+  - 'Jamie Dimon personality'
+  - 'Challenger enneagram'
+  - 'JPMorgan Chase CEO'
+  - 'Jamie Dimon Sandy Weill firing'
+  - 'Jamie Dimon Bear Stearns'
+  - 'Jamie Dimon fortress balance sheet'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jamie_Dimon'
+  - 'https://www.wikidata.org/wiki/Q922169'
+  - 'https://www.imdb.com/name/nm5038401/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jamie_Dimon'
+  - 'https://www.cnbc.com/2014/04/24/sandy-weill-i-wish-i-hadnt-fired-jamie-dimon.html'
+  - 'https://www.bloomberg.com/news/features/2024-05-13/jpmorgan-ceo-jamie-dimon-on-family-leadership-and-legacy'
+  - 'https://fortune.com/2026/01/15/jpmorgan-jamie-dimon-todd-combs-warren-buffett/'
+faqs:
+  - question: "What is Jamie Dimon's personality type?"
+    answer: "Jamie Dimon is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the $60M Bank One purchase that made him uncashable, the 1998 firing by Sandy Weill that taught him no mentor was safe, the war-room precision of the Bear Stearns weekend, the leaked town-hall tirade he conceded only in form, and the presidency he keeps walking up to and refusing to enter. The 7 wing is the gregarious storyteller; the 8 core is the man who refuses to ever again be removable."
+    anchor: 'what-is-jamie-dimons-personality-type'
+  - question: 'Why did Sandy Weill fire Jamie Dimon?'
+    answer: "After sixteen years as Weill's protégé, on a 1998 executive retreat following the Citigroup merger, Weill asked Dimon to resign. The most credible account is the simplest: Dimon had asked to be treated as an equal, and Weill could not. Dimon's line about it — \"I was totally surprised. I shouldn't have been. There were a lot of tell-tale signs, but I missed them at the time\" — is the line of a man who learned, at forty-two, that he had been unguarded. The fortress that follows is what an 8 builds after a mentor becomes the liability."
+    anchor: 'the-phone-call-that-ended-jamie-dimons-first-career'
+  - question: 'Why did Jamie Dimon buy half his net worth in Bank One stock?'
+    answer: "On his first day as CEO of Bank One in March 2000, Dimon bought $60 million of the bank's stock — roughly half his net worth. He explained it in one sentence: \"I wanted to make it clear I was here permanently.\" The stronger reading is structural: Dimon was making himself uncashable. The fortune that a Sandy Weill could not seize, he locked into a position that required him to fix the bank he had been hired to run."
+    anchor: 'why-jamie-dimon-bet-half-his-net-worth-on-a-sinking-bank'
+  - question: 'Why does Jamie Dimon refuse to run for president?'
+    answer: "The door has opened at least six times — 2016, 2018, 2023, 2024 — and Dimon has flinched each time. The cleanest reason he has given, from a February 2025 podcast: \"Had I run and won, when I was walking into that White House I'd be waving goodbye to my family for four years.\" Through the type frame, it's the same gesture as the balance sheet, inverted. The 8 will not take a job he can be voted out of. The presidency is the one position in American life where the chain still pulls."
+    anchor: 'the-room-jamie-dimon-wont-enter'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

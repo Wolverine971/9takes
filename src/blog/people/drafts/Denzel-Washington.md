@@ -15,6 +15,55 @@ type: ['movieStar', 'screen-icon']
 person: 'denzel-washington'
 suggestions: ['Tyler-Perry', 'Will-Smith', 'Michael-B-Jordan', 'Morgan-Freeman', 'Eddie-Murphy']
 wikipedia: 'https://en.wikipedia.org/wiki/Denzel_Washington'
+wikidata_qid: 'Q42101'
+imdb_id: 'nm0000243'
+birth_date: '1954-12-28'
+birth_place: 'Mount Vernon, New York, USA'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Film director'
+  - 'Producer'
+knows_about:
+  - 'Method acting'
+  - 'Stage and screen direction'
+  - 'August Wilson Century Cycle adaptations'
+  - 'Black Hollywood mentorship'
+  - 'Pentecostal Christianity'
+  - 'Shakespearean performance'
+keywords:
+  - 'Denzel Washington enneagram'
+  - 'Denzel Washington type 8'
+  - 'Denzel Washington personality'
+  - 'Denzel Washington 8w9'
+  - 'Challenger enneagram'
+  - 'Denzel Washington sobriety'
+  - 'Denzel Washington baptism'
+  - 'Denzel Washington Chadwick Boseman Oxford'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Denzel_Washington'
+  - 'https://www.wikidata.org/wiki/Q42101'
+  - 'https://www.imdb.com/name/nm0000243/'
+  - 'https://www.britannica.com/biography/Denzel-Washington'
+citations:
+  - 'https://en.wikipedia.org/wiki/Denzel_Washington'
+  - 'https://en.wikipedia.org/wiki/Training_Day'
+  - 'https://en.wikipedia.org/wiki/Fences_(film)'
+  - 'https://en.wikipedia.org/wiki/Chadwick_Boseman'
+  - 'https://en.wikipedia.org/wiki/Pauletta_Washington'
+faqs:
+  - question: "What is Denzel Washington's personality type?"
+    answer: "Denzel Washington is an Enneagram Type 8 (The Challenger), specifically an 8w9. The pattern shows in the two-bottles-a-day drinking he ran for fifteen years before quitting overnight at his mother's correction, the controlled-eruption performances like the King Kong speech in Training Day, the marriage he proposed to Pauletta three times until she said yes, and the quiet mentorship infrastructure — Boseman, Hardwick, Butler, Powell, Jenkins — that surfaces only when the beneficiaries tell the stories."
+    anchor: 'what-is-denzel-washingtons-personality-type'
+  - question: 'Why did Denzel Washington quit drinking?'
+    answer: "Around 1999, Denzel and Pauletta built a ten-thousand-bottle wine cellar; for fifteen years he ordered two bottles a day from Gil Turner's in Los Angeles — never one, never three. In 2013, his mother Lennis told him: 'Denzel, you do a lot of good. You have to do good the right way and you know what I'm talking about.' He stopped completely. He hasn't had a thimble's worth since."
+    anchor: 'two-bottles-a-day-no-more-no-less'
+  - question: 'What did Denzel Washington do for Chadwick Boseman?'
+    answer: "Denzel privately paid for a group of Howard University students — including Chadwick Boseman — to study at Oxford. He didn't tell anyone; Boseman didn't reveal it publicly for twenty years. The same pattern repeats with Omari Hardwick (housed when facing homelessness), Austin Butler (advocated to Baz Luhrmann for Elvis), and Glen Powell (introduced to agent Ed Limato at eighteen). The help is always private; the stories surface years later."
+    anchor: 'the-protectors-network'
+  - question: 'Why was Denzel Washington baptized at 70?'
+    answer: "In December 2024, three days before his seventieth birthday, Denzel walked into Kelly Temple Church of God in Christ in New York City, was baptized, and received a minister's training license. The seed had been planted in 1975 when Ruth Green, an elderly church member in his mother's Mount Vernon beauty parlor, told him 'Boy, you are going to travel the world and speak to millions of people.' He kept the paper in his wallet. 'It took a while,' he said, 'but I'm finally here.'"
+    anchor: 'i-wanted-to-party'
 twitter: ''
 instagram: ''
 tiktok: ''

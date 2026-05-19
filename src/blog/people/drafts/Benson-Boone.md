@@ -15,10 +15,60 @@ type: ['musician', 'singer-songwriter']
 person: 'benson-boone'
 suggestions: ['Olivia-Rodrigo', 'Sabrina-Carpenter', 'Harry-Styles', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Benson_Boone'
+wikidata_qid: 'Q110008128'
+imdb_id: 'nm13184863'
+birth_date: '2002-06-25'
+birth_place: 'Monroe, Washington, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Musician'
+knows_about:
+  - 'Pop songwriting'
+  - 'Piano performance'
+  - 'Stadium tour production'
+  - 'Competitive diving'
+  - 'Album cover design'
+  - 'Acrobatic stage performance'
+keywords:
+  - 'Benson Boone enneagram'
+  - 'Benson Boone type 7'
+  - 'Benson Boone personality'
+  - 'Benson Boone 7w8'
+  - 'Enthusiast enneagram'
+  - 'Benson Boone Beautiful Things'
+  - 'Benson Boone sobriety'
+  - 'Benson Boone American Idol quit'
+  - 'Benson Boone Brian May Coachella'
 twitter: 'BensonBoone'
 instagram: 'bensonboone'
 tiktok: 'bensonboone'
 path: src/blog/people/drafts/Benson-Boone.md
+same_as:
+  - 'https://en.wikipedia.org/wiki/Benson_Boone'
+  - 'https://www.wikidata.org/wiki/Q110008128'
+  - 'https://www.imdb.com/name/nm13184863/'
+  - 'https://musicbrainz.org/artist/62b914a7-d775-4bb4-bb5e-d46e7df115b5'
+citations:
+  - 'https://en.wikipedia.org/wiki/Benson_Boone'
+  - 'https://en.wikipedia.org/wiki/Beautiful_Things_(Benson_Boone_song)'
+  - 'https://en.wikipedia.org/wiki/Fireworks_%26_Rollerblades'
+  - 'https://en.wikipedia.org/wiki/American_Heart_(Benson_Boone_album)'
+  - 'https://en.wikipedia.org/wiki/Dan_Reynolds'
+faqs:
+  - question: "What is Benson Boone's personality type?"
+    answer: "Benson Boone is an Enneagram Type 7 (The Enthusiast). The pattern shows in his 629-foot Sky Tower jump and his refusal to ever try alcohol or drugs because 'Dude, candy' — he already knows he'd go all-in. He quit American Idol after Katy Perry predicted he'd win because the show felt like a cage, walked out of the LDS Church when the room that promised transcendent feeling was the one where his inner life went quiet, and writes songs at 2 AM on his grandmother's piano stitching two different time signatures into 'Beautiful Things.'"
+    anchor: 'what-is-benson-boones-personality-type'
+  - question: 'Why does Benson Boone refuse to drink or use drugs?'
+    answer: "Boone has never tried alcohol or drugs because he says he has an 'addictive personality,' and his evidence is 'Dude, candy.' His full quote: 'I would die. I feel like if I started, I would do it so much that my health would just decline.' At 23, he mapped his own all-or-nothing wiring preemptively and drew a hard line before he had a reason to — not because the LDS Church told him to, but because he knows what he'd do."
+    anchor: 'the-sobriety-paradox'
+  - question: 'Why did Benson Boone quit American Idol?'
+    answer: "In 2021, Boone advanced to American Idol's Top 24 after three yeses, a standing ovation, and Katy Perry telling him 'I see you winning American Idol.' He quit because he didn't want to be 'the American Idol guy' — he wanted to be Benson Boone 'because I write smash hits.' Within months, Dan Reynolds of Imagine Dragons mentored him in Vegas, signed him to Night Street Records, and produced 'Ghost Town,' which has over 350 million Spotify streams. A Type 7 refusing a sure thing because it felt like a cage."
+    anchor: 'the-american-idol-quit'
+  - question: 'How does Benson Boone respond to copy-of-Freddie-Mercury criticism?'
+    answer: "Pitchfork gave American Heart a 3.7/10, TikTok creators paired his songs with plates of plain white food, and the dominant charge has been 'copy of a copy.' Boone turned the criticism into his 'Mr. Electric Blue' video — wearing a 'One Hit Wonder' t-shirt walking into 'Industry Plant Records.' At Coachella 2025, Brian May walked out and played 'Bohemian Rhapsody' and 'Beautiful Things' with him. The 'copy of a copy' charge gets harder to hold when the original sends its guitarist."
+    anchor: 'how-he-handles-it'
 content_quality:
   hook: 8.5
   enneagram: 8.5

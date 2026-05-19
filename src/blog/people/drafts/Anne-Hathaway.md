@@ -14,10 +14,57 @@ enneagram: 1
 type: ['movieStar', 'screen-icon']
 person: 'anne-hathaway'
 suggestions: ['Natalie-Portman', 'Emma-Watson', 'Blake-Lively', 'Meryl-Streep']
-wikipedia: ''
-twitter: ''
-instagram: ''
-tiktok: ''
+wikipedia: 'https://en.wikipedia.org/wiki/Anne_Hathaway'
+wikidata_qid: 'Q36301'
+imdb_id: 'nm0004266'
+birth_date: '1982-11-12'
+birth_place: 'Brooklyn, New York City, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Film producer'
+  - 'Singer'
+knows_about:
+  - 'Film acting'
+  - 'Method preparation'
+  - 'Musical theater performance'
+  - 'Catholic-to-Episcopalian conversion'
+  - 'Sobriety and recovery'
+  - 'Perfectionism and anxiety'
+keywords:
+  - 'Anne Hathaway enneagram'
+  - 'Anne Hathaway type 1'
+  - 'Anne Hathaway personality'
+  - 'Anne Hathaway perfectionism'
+  - 'Anne Hathaway anxiety'
+  - 'Hathahate'
+  - 'Anne Hathaway Mother Mary'
+  - 'Anne Hathaway sobriety'
+  - 'Reformer enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Anne_Hathaway'
+  - 'https://www.wikidata.org/wiki/Q36301'
+  - 'https://www.imdb.com/name/nm0004266/'
+  - 'https://www.britannica.com/biography/Anne-Hathaway-American-actress'
+citations:
+  - 'https://en.wikipedia.org/wiki/Anne_Hathaway'
+  - 'https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables_(2012_film)'
+  - 'https://en.wikipedia.org/wiki/Mother_Mary_(film)'
+  - 'https://en.wikipedia.org/wiki/Interstellar_(film)'
+  - 'https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(film)'
+faqs:
+  - question: "What is Anne Hathaway's personality type?"
+    answer: "Anne Hathaway is an Enneagram Type 1 (The Reformer). The pattern shows in her preparation-as-armor against her own anxiety ('how hard I can work is something I can control'), the no-half-measures conversions (Catholic to Episcopalian after her brother came out, sobriety after one bad morning, confronting producers about skeletal models), the locked-up body that couldn't take a deep breath, and the line that names the whole operating system — 'perfectionism is a form of self-harm.'"
+    anchor: 'what-is-anne-hathaways-personality-type'
+  - question: 'Why was Anne Hathaway hated online (Hathahate)?'
+    answer: "After winning the 2013 Best Supporting Actress Oscar for Les Misérables, critics and social media called her 'inauthentic' and 'too perfect.' For a Type 1 whose core fear is being seen as corrupt or defective despite trying to be good, being called fake while working harder than anyone was a scalpel aimed at the only nerve that mattered. She retreated from press for nearly a year and later said, 'I had no desire to have anything to do with this line of energy.'"
+    anchor: 'when-the-world-decided-she-was-trying-too-hard'
+  - question: "What did dance training for Mother Mary do for Anne Hathaway?"
+    answer: "Nearly two years of daily dance training with choreographer Dani Vitale — up to eight hours a day — broke the scaffolding her preparation had built. Vitale's note was 'I have to break this person.' Anne later said she 'finally learned how to breathe' and discovered her natural voice was alto, not the soprano register her mother sang in. At 42, the perfectionist who had armored herself against her own body finally let it move."
+    anchor: 'i-have-to-break-this-person'
+  - question: 'Why did Anne Hathaway stop drinking?'
+    answer: "In 2018 she dropped her son off at school while hungover. 'That was enough for me.' No moderation, no cutting back — a complete cessation based on a single violation of her own standards. By 2026 she has been sober nearly seven years and describes alcohol as 'wallowing fuel.' The all-or-nothing exit is signature Type 1: if the standard has been breached, the substance leaves the house."
+    anchor: 'the-morning-she-stopped-drinking'
 content_quality:
   hook: 9
   enneagram: 9

@@ -15,9 +15,59 @@ type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'bradley-martyn'
 suggestions: ['Sara-Saffari', 'Mike-Majlak', 'Sky-Bri', 'Joe-Rogan', 'Jake-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Bradley_Martyn'
+wikidata_qid: 'Q123029715'
+imdb_id: 'nm8494471'
+birth_date: '1989-05-22'
+birth_place: 'San Francisco, California, United States'
+nationality: 'American'
+occupation:
+  - 'Fitness coach'
+  - 'YouTuber'
+  - 'Entrepreneur'
+  - 'Podcaster'
+knows_about:
+  - 'Bodybuilding'
+  - 'Strength training'
+  - 'Gym ownership'
+  - 'Fitness influencer marketing'
+  - 'Mental health advocacy'
+  - 'Supplement industry'
+keywords:
+  - 'Bradley Martyn enneagram'
+  - 'Bradley Martyn type 8'
+  - 'Bradley Martyn personality'
+  - 'Bradley Martyn father suicide'
+  - 'Challenger enneagram'
+  - 'Zoo Culture gym'
+  - 'Bradley Martyn COVID lockdown'
+  - 'Bradley Martyn Nate Diaz'
+  - 'BMFIT Bradley Martyn'
 twitter: 'https://twitter.com/bradleymartyn'
 instagram: 'https://instagram.com/bradleymartyn'
 tiktok: 'https://tiktok.com/@bradleymartyn'
+same_as:
+  - 'https://www.wikidata.org/wiki/Q123029715'
+  - 'https://www.imdb.com/name/nm8494471/'
+  - 'https://www.youtube.com/channel/UC7aE5B-ZFEAoumyj6FaJ7lg'
+  - 'https://www.thezooculture.com/about'
+citations:
+  - 'https://www.imdb.com/title/tt11717766/'
+  - 'https://generationiron.com/watch-bradley-martyn-movie/'
+  - 'https://generationiron.com/bradley-martyn-profile-stats-bio/'
+  - 'https://www.thewrap.com/bradley-martyn-the-influencer-generation-iron-documentary-traile/'
+faqs:
+  - question: "What is Bradley Martyn's personality type?"
+    answer: "Bradley Martyn is an Enneagram Type 8 (The Challenger). The pattern installed at six when his father died by suicide and shows in the 260-pound physical fortress, the empire of self-owned businesses (Zoo Culture, RawGear, Origin, BMFIT, RAWTALK), the COVID-era padlock confrontation with the city of Los Angeles, the open challenges to UFC fighters from Nate Diaz to Demetrious Johnson, and the protective mission beneath all of it: preventing other people from going where his father did."
+    anchor: 'what-is-bradley-martyns-personality-type'
+  - question: 'How did Bradley Martyn’s father die and how did it shape him?'
+    answer: "When Bradley was six years old, his father Michael Martyn — clinically depressed — took his own life at 36. The depression didn't skip a generation; it surfaced in Bradley too. The gym became his only reliable escape: 'I found the gym and it changed my entire life.' His stated mission — spreading awareness 'in the hopes that I can help people across the world from suffering the same way my father did' — is the Type 8 protective drive aimed at the wound that built him."
+    anchor: 'the-house-that-went-quiet'
+  - question: "Why did Bradley Martyn break the city's padlock on Zoo Culture during COVID?"
+    answer: "In December 2020, Los Angeles cut power to Zoo Culture and padlocked the electrical panel after Bradley refused lockdown closure. He showed up with two other men, ripped the padlock off, replaced it with his own, and turned the lights back on. He was charged with a misdemeanor and didn't back down: 'closing the gym is never closing.' For an Eight whose only working escape from childhood depression had been the weight room, the city wasn't threatening his income — it was threatening the territory that had saved him."
+    anchor: 'the-fortress-built-on-grief'
+  - question: 'Why does Bradley Martyn challenge UFC fighters to street fights?'
+    answer: "He challenged Nate Diaz on his podcast, provoked Demetrious Johnson, Sean O'Malley, and Alex Pereira, and got a death threat from Sean Strickland. Joe Rogan laughed: 'No chance.' Bradley smiled. The fight itself isn't the point — being willing to fight is. For someone who learned at six that you can't control what happens but you can control whether you face it standing up, the confrontation itself is the proof of life."
+    anchor: 'challenging-everyone-trusting-no-one'
 content_quality:
   hook: 8.5
   enneagram: 8.5

@@ -14,10 +14,58 @@ enneagram: 8
 type: ['creator', 'streamer']
 person: 'ishowspeed'
 suggestions: ['Kai-Cenat', 'Jake-Paul', 'Logan-Paul', 'Mr-Beast']
-wikipedia: ''
+wikipedia: 'https://en.wikipedia.org/wiki/IShowSpeed'
+wikidata_qid: 'Q114834007'
+imdb_id: 'nm12964938'
+birth_date: '2005-01-21'
+birth_place: 'Cincinnati, Ohio, United States'
+nationality: 'American'
+occupation:
+  - 'Streamer'
+  - 'YouTuber'
+  - 'Rapper'
+knows_about:
+  - 'Livestreaming'
+  - 'YouTube content creation'
+  - 'IRL streaming'
+  - 'Gaming reactions'
+  - 'Viral music releases'
+  - 'Global tour streaming'
+keywords:
+  - 'IShowSpeed enneagram'
+  - 'IShowSpeed type 8'
+  - 'IShowSpeed personality'
+  - 'IShowSpeed 8w7'
+  - 'Darren Watkins Jr enneagram'
+  - 'Challenger enneagram'
+  - 'IShowSpeed Africa tour'
+  - 'IShowSpeed Ronaldo'
+same_as:
+  - 'https://en.wikipedia.org/wiki/IShowSpeed'
+  - 'https://www.wikidata.org/wiki/Q114834007'
+  - 'https://www.imdb.com/name/nm12964938/'
 twitter: ''
 instagram: ''
 tiktok: ''
+citations:
+  - 'https://en.wikipedia.org/wiki/IShowSpeed'
+  - 'https://www.youtube.com/watch?v=9bnh7XOH3wg'
+  - 'https://www.youtube.com/watch?v=U-pQN5boCDo'
+  - 'https://www.youtube.com/watch?v=Uv1PyE8J38w'
+  - 'https://www.youtube.com/watch?v=fJNyN0DEOw8'
+faqs:
+  - question: "What is IShowSpeed's personality type?"
+    answer: "IShowSpeed is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the resurfaced photo of a quiet Cincinnati kid at an empty desk, the rage at Talking Ben for saying he doesn't love God, the Twitch ban he answered with a one-word tweet, the $140 million Kick deal he turned down, the Tokyo hospital prayers when the armor cracked, and the silence on the floor of a Senegal slave cell when he finally stopped filling the room."
+    anchor: 'what-is-ishowspeeds-personality-type'
+  - question: 'Why is IShowSpeed so loud and angry on stream?'
+    answer: "The volume looks random until you track what it does for him. Every room he enters gets filled with noise before the silence can remind him of that empty desk. The rage at controllers, Valorant teammates, and Talking Ben is not a temper problem — it is load-bearing armor. Volume is how an 8 keeps from being invisible, dismissed, or controlled, and Speed turned the dial up earlier and harder than almost anyone in streaming."
+    anchor: 'why-ishowspeed-gets-so-angry-on-stream'
+  - question: "What did the Africa tour reveal about IShowSpeed?"
+    answer: "On Gorée Island in Senegal, sitting on the stone floor of a slave-trade holding cell, the loudest person on the internet chose silence. In Liberia he met members of the Watkins family — Ohio descendants of freed slaves — and broke down on a 1.4-million-viewer stream. In Akropong, Ghana, elders gave him the Asante name Barima Kofi Akuffo. The Africa tour was not territorial expansion. It was an 8 looking for where the volume came from."
+    anchor: 'the-africa-tour-and-search-for-home'
+  - question: 'Is IShowSpeed actually maturing?'
+    answer: "The 2024-2026 evidence says yes. In China he refused to give racists the explosive reaction they wanted and drove away instead. He bought his mother a house after she kicked him out at 16, offered his father a four-million-dollar mansion, and got Jamal into Streamer University. The faith thread runs through all of it — mosques in Qatar, an Orthodox church in Ethiopia, a cross necklace on stream. For an 8, surrender is the rarest move. He keeps walking into rooms where he is not in charge."
+    anchor: 'how-he-is-changing'
 path: src/blog/people/drafts/IShowSpeed.md
 content_quality:
   hook: 9.5

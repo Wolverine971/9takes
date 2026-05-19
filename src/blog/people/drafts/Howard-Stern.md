@@ -15,9 +15,56 @@ type: ['celebrity', 'tv-comedy-crossover']
 person: 'howard-stern'
 suggestions: ['Donald-Trump', 'Peter-Thiel', 'Eminem', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Howard_Stern'
-twitter: 'HowardStern'
-instagram: 'saborabethstern'
-tiktok: ''
+wikidata_qid: 'Q348603'
+imdb_id: 'nm0001769'
+birth_date: '1954-01-12'
+birth_place: 'Jackson Heights, Queens, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Radio personality'
+  - 'Television host'
+  - 'Author'
+  - 'Producer'
+knows_about:
+  - 'Talk radio broadcasting'
+  - 'Satellite radio'
+  - 'Long-form celebrity interviews'
+  - 'Shock-jock radio history'
+  - 'FCC indecency regulation'
+  - 'America''s Got Talent judging'
+keywords:
+  - 'Howard Stern enneagram'
+  - 'Howard Stern type 6'
+  - 'Howard Stern personality'
+  - 'Howard Stern counterphobic'
+  - 'Loyalist enneagram'
+  - 'Howard Stern therapy transformation'
+  - 'Howard Stern Robin Quivers'
+  - 'Howard Stern SiriusXM deal'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Howard_Stern'
+  - 'https://www.wikidata.org/wiki/Q348603'
+  - 'https://www.imdb.com/name/nm0001769/'
+  - 'https://www.britannica.com/biography/Howard-Stern'
+citations:
+  - 'https://en.wikipedia.org/wiki/Howard_Stern'
+  - 'https://en.wikipedia.org/wiki/The_Howard_Stern_Show'
+  - 'https://en.wikipedia.org/wiki/Private_Parts_(book)'
+  - 'https://en.wikipedia.org/wiki/Beth_Stern'
+  - 'https://en.wikipedia.org/wiki/Robin_Quivers'
+faqs:
+  - question: "What is Howard Stern's personality type?"
+    answer: "Howard Stern is an Enneagram Type 6 (The Loyalist), specifically counterphobic. The pattern shows in the radio-tap-three-times ritual he calls 'my attempt to control the world,' the rage he later named as preemptive defense ('I had to act like I didn't love' Robin Williams), the four-decade loyalty to Robin Quivers and Fred Norris, the $500 million Sirius escape from FCC fines, and the 25 years of therapy that rewired the interviewer into 'the best in media.'"
+    anchor: 'what-is-howard-sterns-personality-type'
+  - question: "Why did Howard Stern leave terrestrial radio for Sirius?"
+    answer: "Stern's employers had been fined $2.5 million by the FCC over fourteen years, and Clear Channel dropped him from six stations mid-contract in April 2004. For a Type 6, the authority structure had turned hostile and the ground was disappearing. He signed for a reported $500 million over five years, traded 20 million free listeners for roughly 1 million paying ones, and bought himself a fortress with no advertiser boycotts and no FCC. Reach down, control up."
+    anchor: 'the-500-million-bet-against-the-known-world'
+  - question: 'How did therapy change Howard Stern as an interviewer?'
+    answer: "His therapist's first move — 'There's nothing funny going on here. I take you seriously' — was the first time Stern had been heard that way. After more than 25 years of weekly sessions he stopped using guests as targets and started using them as mirrors: opening with Conan O'Brien on depression and medication, drawing Bill Murray into 70 minutes about not being able to look at himself, holding Steve Martin in his father's 'he's no Charlie Chaplin' line. The same vigilance that scanned rooms for threats as a child started scanning interviews for the real story."
+    anchor: 'none-of-this-is-funny'
+  - question: 'Why do fans call him "Hollywood Howard" — and are they right?'
+    answer: "Old fans say he sold out: married a model, votes Democrat, stopped attacking people. Stern's reframe: 'There used to be two Howard Sterns: the on-air Howard and the off-air Howard. Now they feel much closer together.' The Wack Pack got quietly phased out by 2015 without a public apology, his politics turned on Trump after 2015, and his 'rage' he now identifies as counterphobic defense. The fans loved the attack dog; what they're watching now is a Six who stopped performing terror."
+    anchor: 'hollywood-howard-and-what-the-fans-got-wrong'
 content_quality:
   hook: 9
   enneagram: 9.5

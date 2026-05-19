@@ -15,9 +15,56 @@ type: ['creator', 'lifestyle-builder']
 person: 'ashby'
 suggestions: ['Emma-Chamberlain', 'David-Dobrik', 'Kai-Cenat', 'Theo-Von']
 wikipedia: ''
+imdb_id: 'nm8330383'
+birth_date: '2000-11-22'
+birth_place: 'Virginia, United States'
+nationality: 'American'
+occupation:
+  - 'Content creator'
+  - 'Comedian'
+  - 'Graphic designer'
+  - 'Actress'
+knows_about:
+  - 'TikTok character comedy'
+  - 'Livestream improvisation'
+  - 'Graphic design and illustration'
+  - 'Musical theater performance'
+  - 'Print production for comics'
+  - 'Creator-economy merch strategy'
+keywords:
+  - 'Ashby Florence enneagram'
+  - 'Ashby Florence type 7'
+  - 'Ashby Florence personality'
+  - 'Ashby TikTok Hamilton'
+  - 'Ashby Florence Lorax'
+  - 'Enthusiast enneagram'
+  - 'Ashby Florence Smosh'
+  - 'Ashby Florence Ben Hunt'
 twitter: ''
 instagram: '_ashbyflorence_'
 tiktok: '_ashbyflorence_'
+same_as:
+  - 'https://www.imdb.com/name/nm8330383/'
+  - 'https://smosh.fandom.com/wiki/Ashby_Florence'
+  - 'https://wikitia.com/wiki/Ashby_Florence'
+citations:
+  - 'https://www.distractify.com/p/ashby-tiktok-explainer'
+  - 'https://betches.com/ashby-florence-alexander-hamilton-viral-tiktok-interview/'
+  - 'https://fourthwall.com/blog/from-tiktok-live-to-viral-merch-hit-how-ashby-florence-turned-a-gag-into-real-time-sales'
+  - 'https://quchronicle.com/90521/arts-and-life/the-rise-of-influencer-ashby-florence/'
+faqs:
+  - question: "What is Ashby Florence's personality type?"
+    answer: "Ashby Florence is an Enneagram Type 7 (The Enthusiast) with a 6 wing. The pattern shows in her insistence on keeping every door open (Broadway, TV, Drag Race, Dancing with the Stars, pop music), her character rotation (Hamilton, Lorax, Megamind, King Julien) as escape hatches into emotional registers her insecure self can't access, the breakthrough that came in a 'fevered daze' once she stopped performing and just played, and her admission that her favorite character to play is 'myself' — the hardest one."
+    anchor: 'what-is-ashbys-personality-type'
+  - question: 'Why are characters like the Lorax and Hamilton so important to Ashby Florence?'
+    answer: "Each character is an escape hatch into a different emotional register. The Lorax lets her be aggressive and entitled in ways 'insecure Ashby' can't. Hamilton lets her be heroic and dramatic. The proof the characters aren't really about the source material — she's never even seen The Lorax movie ('I'm just capitalizing off of it'). The character she created has nothing to do with the original. It's entirely her, filtered through a costume that gives her permission."
+    anchor: 'what-the-characters-actually-do-for-her'
+  - question: 'How did Ashby Florence go from 10,000 followers to 1 million in ten days?'
+    answer: "August 1, 2025, sick in bed in what she called 'a fevered daze,' she posted a DIY Alexander Hamilton TikTok — letter jacket, cowboy boots, Sharpie goatee. The video hit 22.4 million views. The Type 7 breakthrough didn't come from her decade of obsessive Broadway training (the stress arrow to Type 1) — it came from the moment she let go and played. Lin-Manuel Miranda DM'd her within weeks. Disney invited her to the Hamilton film premiere."
+    anchor: 'ten-days-in-a-fevered-daze'
+  - question: 'Why is Ben Hunt important to understanding Ashby Florence?'
+    answer: "Ben is the 6 wing made literal. They've been together eight years, met on an elementary school bus over fifteen years ago. He serves as her livestream moderator — keeping the chat in order while she spirals into absurdist comedy. A Type 7 who feels controlled will bolt; Ben doesn't try to direct her, he moderates. The comedy comes from chaos. The relationship holds the structure."
+    anchor: 'the-6-wing-the-tether'
 path: src/blog/people/drafts/Ashby.md
 content_quality:
   hook: 9

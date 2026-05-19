@@ -15,9 +15,51 @@ type: ['musician']
 person: 'adele'
 suggestions: ['Billie-Eilish', 'Taylor-Swift', 'Lana-Del-Rey', 'Beyonce']
 wikipedia: 'https://en.wikipedia.org/wiki/Adele'
-twitter: 'Adele'
-instagram: 'adele'
-tiktok: ''
+wikidata_qid: 'Q23215'
+imdb_id: 'nm2233157'
+birth_date: '1988-05-05'
+birth_place: 'Tottenham, London, England'
+nationality: 'British'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+knows_about:
+  - 'Confessional pop songwriting'
+  - 'Soul-influenced vocal performance'
+  - 'Breakup album craft'
+  - 'Arena and residency performance'
+  - 'Performance anxiety and stage fright management'
+keywords:
+  - 'Adele enneagram'
+  - 'Adele type 4'
+  - 'Adele personality'
+  - 'Adele 4w3'
+  - 'Individualist enneagram'
+  - 'Adele stage fright'
+  - 'Adele Sasha Carter'
+  - 'Adele Vegas residency cancelled'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Adele'
+  - 'https://www.wikidata.org/wiki/Q23215'
+  - 'https://www.imdb.com/name/nm2233157/'
+  - 'https://www.britannica.com/biography/Adele'
+citations:
+  - 'https://en.wikipedia.org/wiki/Adele'
+  - 'https://en.wikipedia.org/wiki/Someone_like_You_(Adele_song)'
+  - 'https://en.wikipedia.org/wiki/30_(Adele_album)'
+faqs:
+  - question: "What is Adele's personality type?"
+    answer: "Adele is an Enneagram Type 4 (The Individualist). The pattern shows in every album mapped to a single emotional catastrophe, the Vegas residency she torpedoed one day before opening because it had 'no soul,' the Sasha Carter alter ego she invented to survive being seen on stage, the fire-exit escapes and pre-show vomiting, and the 'huge gaping hole' she said her absent father left and that reconciling with him before his death finally filled."
+    anchor: 'what-is-adeles-personality-type'
+  - question: 'Why did Adele cancel her Las Vegas residency one day before opening?'
+    answer: "She told the BBC, 'There was just no soul in it.' The stage setup felt disconnected from her and her band, and the show lacked intimacy. For a Four, a multimillion-dollar production with the emotional frequency wrong is not a show — it is a lie. She rebuilt 'Weekends with Adele' to her specifications and opened it 10 months later, eventually extending the run through 2024."
+    anchor: 'there-was-just-no-soul-in-it'
+  - question: 'Why does Adele get stage fright if she is one of the best singers alive?'
+    answer: "She told Oprah, 'The thought of someone spending money to come see me and preferring the recorded version really upsets me.' The terror is not about wrong notes — it is the Type 4 fear that the live, embodied self will be found less than the art. She has vomited backstage, escaped through fire exits, and invented an alter ego named Sasha Carter, cobbled together from Beyonce's Sasha Fierce and June Carter, just to get herself out under the lights."
+    anchor: 'sasha-carter-and-the-fire-exit'
+  - question: 'Why did fans feel betrayed by Adele’s weight loss?'
+    answer: "When she posted a 2020 birthday photo revealing a dramatic transformation, many fans felt she had defected from the women she once 'visually represented.' Her reply — 'I'm still the same person' — names the central Type 4 fear: that people were responding to the packaging, not the person. She has said the change was driven by anxiety, not vanity: 'Working out made me feel better. It was never about losing weight, it was always about becoming strong.'"
+    anchor: 'im-still-the-same-person'
 content_quality:
   hook: 9
   enneagram: 8.5
@@ -139,7 +181,7 @@ Here's what the Enneagram makes visible about Adele that a standard biography mi
 - **Every album is a single crisis, processed.** _19_ was heartbreak. _21_ was rage disguised as grief. _25_ was nostalgia for a self she'd already outgrown. _30_ was the destruction of a family she'd built to fill the absence her father left. She doesn't write albums about subjects. She writes albums as survival mechanisms.
 - **The Vegas cancellation was not a business decision.** She torpedoed a multimillion-dollar production one day before opening because it felt emotionally dishonest. Not logistics. Not Covid. The show lacked soul, so the show didn't happen. That is a Four's relationship with authenticity taken to its most expensive logical conclusion.
 - **The stage fright isn't separate from the talent.** The anxiety, the vomiting, the fire exit — these aren't flaws that exist alongside her gift. They're the cost of the gift. She writes from a place of total emotional exposure. Then she has to stand in front of thousands of people and _feel it again_. Every night. The fear isn't of performing. It's of being seen in the moment of feeling, by people who might not understand what they're seeing.
-- **The alter ego reveals the fracture.** When Adele met [Beyonce](/personality-analysis/beyonce) for the first time, she had a panic attack. "What would Sasha Fierce do?" she asked herself on a balcony, crying. And Sasha Carter was born — a character cobbled together from Beyonce's stage persona and June Carter's fire. The fact that Adele needs a different identity to perform the emotions she's already written tells you everything about the distance between the woman who writes and the woman who has to stand up and sing it.
+- **The alter ego reveals the fracture.** When Adele met [Beyonce](/personality-analysis/beyonce-knowles) for the first time, she had a panic attack. "What would Sasha Fierce do?" she asked herself on a balcony, crying. And Sasha Carter was born — a character cobbled together from Beyonce's stage persona and June Carter's fire. The fact that Adele needs a different identity to perform the emotions she's already written tells you everything about the distance between the woman who writes and the woman who has to stand up and sing it.
 
 ---
 

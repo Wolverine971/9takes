@@ -15,6 +15,59 @@ type: ['historical', 'author', 'historical-artist']
 person: 'ernest-hemingway'
 suggestions: ['Winston-Churchill', 'Tom-Hardy', 'Jon-Bernthal', 'Napoleon-Bonaparte']
 wikipedia: 'https://en.wikipedia.org/wiki/Ernest_Hemingway'
+wikidata_qid: 'Q23434'
+imdb_id: 'nm0002133'
+birth_date: '1899-07-21'
+birth_place: 'Oak Park, Illinois, United States'
+nationality: 'American'
+occupation:
+  - 'Novelist'
+  - 'Short story writer'
+  - 'Journalist'
+  - 'War correspondent'
+knows_about:
+  - 'Iceberg theory of prose'
+  - 'Lost Generation literature'
+  - 'War correspondence'
+  - 'Big-game hunting and deep-sea fishing'
+  - 'Bullfighting'
+  - 'Spanish Civil War reportage'
+  - 'Modernist American fiction'
+keywords:
+  - 'Ernest Hemingway enneagram'
+  - 'Ernest Hemingway type 8'
+  - 'Hemingway personality'
+  - 'Hemingway 8w7'
+  - 'Challenger enneagram'
+  - 'Hemingway iceberg theory'
+  - 'Hemingway suicide'
+  - 'Hemingway father suicide'
+  - 'Hemingway FBI file'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ernest_Hemingway'
+  - 'https://www.wikidata.org/wiki/Q23434'
+  - 'https://www.imdb.com/name/nm0002133/'
+  - 'https://www.nobelprize.org/prizes/literature/1954/hemingway/biographical/'
+  - 'https://www.britannica.com/biography/Ernest-Hemingway'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ernest_Hemingway'
+  - 'https://en.wikipedia.org/wiki/Grace_Hall_Hemingway'
+  - 'https://en.wikipedia.org/wiki/Agnes_von_Kurowsky'
+  - 'https://en.wikipedia.org/wiki/Martha_Gellhorn'
+  - 'https://www.nobelprize.org/prizes/literature/1954/hemingway/biographical/'
+faqs:
+  - question: "What is Ernest Hemingway's personality type?"
+    answer: "Ernest Hemingway is an Enneagram Type 8w7 (The Challenger with a Seven wing). The pattern shows in the flowered hat his mother put on him until age five, the four wives he left before they could leave him, the iceberg theory that buried every soft feeling underwater, the FBI surveillance he sensed for years before the 1983 declassification proved him right, and the 12-gauge Boss shotgun he used to keep the 1928 promise he had written to his mother-in-law about his father's suicide."
+    anchor: 'what-is-ernest-hemingways-personality-type'
+  - question: 'Why did Grace Hemingway dress Ernest as a girl?'
+    answer: "Grace Hall Hemingway, a frustrated New York opera singer, wanted twin daughters. From Ernest's 1899 birth through his early childhood, she dressed him in dresses and bonnets and held his older sister Marcelline back a school year so the children could enter first grade together as a matched set of twin girls. Kenneth Lynn called the pretense a rebellion that lasted a lifetime — the wound that converted into the Eight's lifelong refusal to be soft."
+    anchor: 'the-flowered-hat'
+  - question: "Was Hemingway's FBI paranoia real?"
+    answer: "Yes. By 1959 Hemingway was telling A.E. Hotchner that the FBI was tailing him, bugging his car, his phone, intercepting his mail. His doctors called it paranoia and prescribed electroconvulsive therapy. In 1983, the bureau declassified a 127-page file opened in 1942 at J. Edgar Hoover's order. Hotchner spent the rest of his life publicly apologizing in print to a friend who had been right and dead for two decades."
+    anchor: 'hemingway-cuban-cave'
+  - question: 'Why did Hemingway kill himself?'
+    answer: "Between November 1960 and June 1961 Hemingway received at least fifteen rounds of electroconvulsive therapy at the Mayo Clinic. ECT eliminated the depression and erased the autobiographical memory that had been his raw material. He told Hotchner: 'It was a brilliant cure, but we lost the patient.' Discharged June 26, 1961, he drove to Ketchum and used a 12-gauge Boss shotgun on July 2 — keeping the promise he had written to his mother-in-law in 1928 after his own father shot himself."
+    anchor: 'the-last-cure'
 twitter: ''
 instagram: ''
 tiktok: ''

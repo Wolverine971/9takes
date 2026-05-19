@@ -15,9 +15,57 @@ type: ['celebrity', 'musician', 'movieStar', 'screen-icon', 'music-crossover']
 person: 'jennifer-lopez'
 suggestions: ['Kim-Kardashian', 'Paris-Hilton', 'Taylor-Swift', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Lopez'
-twitter: 'https://twitter.com/JLo'
-instagram: 'https://instagram.com/jlo'
-tiktok: 'https://www.tiktok.com/@jlo'
+wikidata_qid: 'Q40715'
+imdb_id: 'nm0000182'
+birth_date: '1969-07-24'
+birth_place: 'The Bronx, New York City, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Actress'
+  - 'Dancer'
+  - 'Producer'
+  - 'Businesswoman'
+knows_about:
+  - 'Latin pop music'
+  - 'Pop choreography'
+  - 'Las Vegas residency production'
+  - 'Celebrity brand building'
+  - 'Fragrance and beauty industry'
+  - 'Film production'
+keywords:
+  - 'Jennifer Lopez enneagram'
+  - 'Jennifer Lopez type 3'
+  - 'Jennifer Lopez personality'
+  - 'JLo 3w2'
+  - 'Achiever enneagram'
+  - 'Jennifer Lopez This Is Me Now'
+  - 'Jennifer Lopez Ben Affleck'
+  - 'Jennifer Lopez Hustlers'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Lopez'
+  - 'https://www.wikidata.org/wiki/Q40715'
+  - 'https://www.imdb.com/name/nm0000182/'
+  - 'https://www.britannica.com/biography/Jennifer-Lopez'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Lopez'
+  - 'https://en.wikipedia.org/wiki/Jennifer_Lopez:_Halftime'
+  - 'https://en.wikipedia.org/wiki/This_Is_Me..._Now'
+  - 'https://en.wikipedia.org/wiki/Hustlers_(2019_film)'
+  - 'https://en.wikipedia.org/wiki/Super_Bowl_LIV_halftime_show'
+faqs:
+  - question: "What is Jennifer Lopez's personality type?"
+    answer: "Jennifer Lopez is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in her self-named wound — 'My whole life has been proving my enoughness' — the multi-hyphenate empire built as evidence of worth, four marriages each entered as proof she'd been chosen, the $20 million This Is Me... Now trilogy that staged a love story as it was collapsing, and the Vegas dance studio she slept on at 18 when home stopped feeling safe."
+    anchor: 'what-is-jennifer-lopezs-personality-type'
+  - question: "Why did Jennifer Lopez spend $20 million on This Is Me... Now?"
+    answer: "She self-funded a trilogy — album, film, documentary — to prove she'd finally found authentic love with Ben Affleck. For a Three, the private isn't real unless it's also public. She shared his love letters with her musicians (he called himself 'Pen Affleck'). The album sold 14,000 first-week copies, the tour was cancelled, and she filed for divorce six months later. The wound wouldn't scale with the venue."
+    anchor: 'why-jennifer-lopez-spent-20-million-to-prove-a-love-story'
+  - question: 'Why does Jennifer Lopez seem so demanding?'
+    answer: "The all-white dressing rooms, the lime-blossom Jo Malone candles, the two-page demands list — she's blamed gender bias for the diva label, which is partly fair. But the deeper reading is a girl who shared a bed with two sisters and learned that nobody would make space for her unless she demanded it. Every white room is a shrine to the child who never had her own bed."
+    anchor: 'why-jennifer-lopez-seems-so-demanding'
+  - question: 'How did Hustlers matter so much to Jennifer Lopez?'
+    answer: "Director Lorene Scafaria said 'Ramona is Jennifer Lopez. It has to be her' — and was truer than she knew. Ramona survives by performing, controls every transaction, and mistakes the hustle for the self. Lopez installed poles in three homes and trained for months. The Oscar nomination never came; the snub became another data point in her ledger of not enough."
+    anchor: 'why-hustlers-mattered-so-much-to-jennifer-lopez'
 content_quality:
   hook: 9.0
   enneagram: 9.0

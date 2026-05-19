@@ -18,6 +18,55 @@ wikipedia: 'https://en.wikipedia.org/wiki/Emma_Stone'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q147077'
+imdb_id: 'nm1297015'
+birth_date: '1988-11-06'
+birth_place: 'Scottsdale, Arizona, USA'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Film producer'
+knows_about:
+  - 'Method acting'
+  - 'Yorgos Lanthimos collaborations'
+  - 'Improvisational comedy'
+  - 'Fruit Tree (production company)'
+  - 'Anxiety and panic disorder'
+  - 'Saturday Night Live hosting'
+keywords:
+  - 'Emma Stone enneagram'
+  - 'Emma Stone type 7'
+  - 'Emma Stone personality'
+  - 'Emma Stone 7w6'
+  - 'Enthusiast enneagram'
+  - 'Emma Stone Poor Things'
+  - 'Emma Stone La La Land'
+  - 'Emma Stone Project Hollywood 2004'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Emma_Stone'
+  - 'https://www.wikidata.org/wiki/Q147077'
+  - 'https://www.imdb.com/name/nm1297015/'
+  - 'https://www.britannica.com/biography/Emma-Stone'
+citations:
+  - 'https://en.wikipedia.org/wiki/Emma_Stone'
+  - 'https://en.wikipedia.org/wiki/Poor_Things_(film)'
+  - 'https://en.wikipedia.org/wiki/La_La_Land'
+  - 'https://en.wikipedia.org/wiki/Easy_A'
+  - 'https://en.wikipedia.org/wiki/Birdman_(film)'
+  - 'https://en.wikipedia.org/wiki/Fruit_Tree_(company)'
+faqs:
+  - question: "What is Emma Stone's personality type?"
+    answer: "Emma Stone is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in her lifelong conversion of childhood panic disorder into forward motion — improv at eleven, Project Hollywood 2004 PowerPoint at fourteen, two Academy Awards by thirty-five — and in the 6 wing that pulls her back to a small fixed circle (Lanthimos across four films, Jennifer Lawrence for over a decade, the Lily Gladstone 'Infinity Stones' ring)."
+    anchor: 'what-is-emma-stones-personality-type'
+  - question: 'How did Emma Stone use anxiety as fuel for her acting career?'
+    answer: "Stone was diagnosed with generalized anxiety disorder and panic disorder at seven. By eleven she discovered improvisational comedy at Valley Youth Theatre, and described it later as 'the antithesis of anxiety' — a profession that forced her into the only place anxiety couldn't follow, the present tense. The 'I am bigger than my anxiety' drawing she made in therapy at nine became the literal Type 7 strategy: shrink the pain, rise above it, keep moving."
+    anchor: 'the-house-that-was-always-on-fire'
+  - question: 'Why does Emma Stone want to be called Emily?'
+    answer: "Stone was forced to change her name from Emily because another Emily Stone was already registered at SAG when she joined at sixteen. In 2024, her Favourite co-star Olivia Colman called her Emily while presenting an award, and Stone leaned in: 'I would like to be Emily.' The 'avatar' / Emily split — the red hair Judd Apatow suggested for Superbad, the raspy voice from infant vocal nodules, the SAG-forced name — is a construct she has worn for twenty years."
+    anchor: 'the-avatar-and-emily'
+  - question: 'Why does Emma Stone keep working with Yorgos Lanthimos?'
+    answer: "Stone has now made four films with Lanthimos — The Favourite, Poor Things, Kinds of Kindness, and Bugonia — and won her second Academy Award for Poor Things. The collaboration works because Lanthimos asks her to stop managing and start surrendering. For a Type 7 whose entire system runs on converting pain into forward motion, the Lanthimos partnership is the rare room where she is allowed to be present instead of escaping into the next moment."
+    anchor: 'becoming-bella'
 content_quality:
   hook: 9
   enneagram: 9

@@ -15,10 +15,56 @@ type: ['musician', 'alternative-artist']
 person: 'grimes'
 suggestions: ['Elon Musk', 'Billie Eilish', 'Lana Del Rey', 'Kanye', 'Lady Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Grimes_(musician)'
-twitter: 'Grimezsz'
-instagram: 'grimes'
-tiktok: 'grimes'
-path: src/blog/people/drafts/Grimes.md
+wikidata_qid: 'Q117970'
+imdb_id: 'nm4568245'
+birth_date: '1988-03-17'
+birth_place: 'Vancouver, British Columbia, Canada'
+nationality: 'Canadian'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Record producer'
+  - 'Visual artist'
+knows_about:
+  - 'Synth-pop production'
+  - 'Vocal layering'
+  - 'AI voice modeling'
+  - 'Transhumanism'
+  - 'Music video direction'
+  - 'NFT art'
+  - 'World-building album concepts'
+keywords:
+  - 'Grimes enneagram'
+  - 'Grimes type 7'
+  - 'Grimes personality'
+  - 'Claire Boucher personality'
+  - 'Grimes Elon Musk'
+  - 'Grimes WarNymph'
+  - 'Miss Anthropocene'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Grimes_(musician)'
+  - 'https://www.wikidata.org/wiki/Q117970'
+  - 'https://www.imdb.com/name/nm4568245/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Grimes_(musician)'
+  - 'https://en.wikipedia.org/wiki/Visions_(Grimes_album)'
+  - 'https://en.wikipedia.org/wiki/Miss_Anthropocene'
+  - 'https://en.wikipedia.org/wiki/Art_Angels'
+  - 'https://en.wikipedia.org/wiki/Oblivion_(Grimes_song)'
+faqs:
+  - question: "What is Grimes' personality type?"
+    answer: "Grimes (Claire Elise Boucher) is an Enneagram Type 7, The Enthusiast. The pattern shows in the constant reinvention from album to album, the splitting of herself into WarNymph and AI-clone avatars, the reframing of climate doom as the mythology of Miss Anthropocene, the 'pathological optimism' about AI even as her personal life collapsed, and the inability to stay long in any single identity, scene, or relationship."
+    anchor: 'what-is-grimes-personality-type'
+  - question: 'Why did Grimes turn an assault into a pop song with "Oblivion"?'
+    answer: "Grimes has said outright that she 'took one of the most shattering experiences of my life and turned it into something I can build a career on.' For a Type 7, this is the signature defense: convert pain into spectacle before it can touch you. She paired creepy nighttime-violence lyrics with cotton-candy synth-pop, then placed her small pink-haired figure in male crowds in the music video — a tiny protagonist who could cut a head off with a sword."
+    anchor: 'the-mind-that-cant-stop-escaping-forward'
+  - question: 'Why did Grimes go from anti-imperialist leftist to "class traitor"?'
+    answer: "Before Elon Musk, Grimes had a Karl Marx avatar and an 'anti-imperialist' bio; afterward, she told Vanity Fair the 'class traitor' label was 'not an inaccurate description.' The Type 7 refusal to be pinned down is the throughline — sincere belief, sincere change, refusal to let either become a cage. She troll-cosplays the Communist Manifesto for tabloids while genuinely meaning the earlier convictions she has since left behind."
+    anchor: 'the-contradictions-she-contains'
+  - question: 'How is the custody battle with Elon Musk different from anything Grimes has faced before?'
+    answer: "The custody fight is the first pain her Type 7 reframing engine cannot process. You cannot hand your children to a digital avatar like WarNymph; you cannot turn the case into a Bosch painting. Grimes has spoken about going bankrupt on legal fees against 'a fraction of his resources' in a state with 'terrible mothers' rights,' and her statements about her kids' lives being public read flat — pain stated, not transformed."
+    anchor: 'the-musk-era-love-children-and-conflict'
 content_quality:
   hook: 9
   enneagram: 9.5
@@ -28,6 +74,7 @@ content_quality:
   overall: 9.1
   letter: A
   graded_at: '2026-02-18'
+path: src/blog/people/drafts/Grimes.md
 ---
 
 <!-- QUALITY GRADE: A (9.1)

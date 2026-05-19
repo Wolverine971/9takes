@@ -18,6 +18,47 @@ wikipedia: ''
 twitter: 'https://twitter.com/CorinnaKopf'
 instagram: 'https://instagram.com/corinnakopf'
 tiktok: 'https://tiktok.com/@corinnakopf'
+imdb_id: 'nm9923865'
+birth_date: '1995-12-01'
+birth_place: 'Palatine, Illinois, United States'
+nationality: 'American'
+occupation:
+  - 'Social media personality'
+  - 'Twitch streamer'
+  - 'YouTuber'
+  - 'OnlyFans creator'
+knows_about:
+  - 'Influencer business strategy'
+  - 'Platform diversification'
+  - 'OnlyFans monetization'
+  - 'Twitch and Kick streaming'
+  - 'Slots and crypto-casino streaming'
+  - 'Vlog Squad ensemble dynamics'
+keywords:
+  - 'Corinna Kopf enneagram'
+  - 'Corinna Kopf type 7'
+  - 'Corinna Kopf personality'
+  - 'Kopf 7w8'
+  - 'Enthusiast enneagram'
+  - 'Corinna Kopf OnlyFans'
+  - 'Corinna Kopf brother suicide'
+  - 'Corinna Kopf anxiety'
+  - 'Pouty Girl Vlog Squad'
+same_as:
+  - 'https://www.imdb.com/name/nm9923865/'
+  - 'https://www.instagram.com/corinnakopf/'
+  - 'https://twitter.com/CorinnaKopf'
+  - 'https://www.tiktok.com/@corinnakopf'
+faqs:
+  - question: "What is Corinna Kopf's personality type?"
+    answer: "Corinna Kopf is an Enneagram Type 7 (The Enthusiast). The pattern shows in the anxiety she has had since age seven, the brother she lost at twelve, the father who taught her that humor stops panic, the platform-after-platform exit pattern (Twitch ban to Facebook Gaming to Twitch to Kick), the four-relationship arc from Toddy Smith through Logan Paul, and the gambling habit she structures around the 30 seconds between spins."
+    anchor: 'what-is-corinna-kopfs-personality-type'
+  - question: 'Why did Corinna Kopf date Logan Paul after publicly condemning him?'
+    answer: "In January 2018, Kopf called Logan Paul's suicide-forest video 'sick' on Twitter and disclosed that her own brother had died by hanging. Within a year, they were spotted at a Lakers game in matching sweatshirts. For a Type 7, walking back into the source of the wound on her own terms is a way of rewriting pain into a choice. She sat with him at 2 a.m. for four hours; the relationship later ended after he refused an STD test she requested."
+    anchor: 'the-relationships-that-never-stay'
+  - question: 'Why does Corinna Kopf keep gambling and posting OnlyFans even though she says she hates it?'
+    answer: "In October 2024 she announced she was leaving OnlyFans, then walked it back three days later: 'walking away from $300,000+ dollars a month seems a little…stupid.' For a girl whose anxiety started at seven and whose brother died at twelve, the equation is grief, not greed — if I have enough, nothing bad can happen. Her gambling streams run on the same math: the 30 seconds the reels spin is 30 seconds the past cannot land."
+    anchor: 'the-67-million-trap'
 content_quality:
   hook: 9
   enneagram: 9

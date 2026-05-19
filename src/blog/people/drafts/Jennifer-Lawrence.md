@@ -15,9 +15,53 @@ type: ['movieStar', 'screen-icon']
 person: 'jennifer-lawrence'
 suggestions: ['Timothee-Chalamet', 'Pedro-Pascal', 'Zendaya', 'Aubrey-Plaza']
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Lawrence'
-twitter: ''
-instagram: 'https://www.instagram.com/jenniferlawrence_/'
-tiktok: ''
+wikidata_qid: 'Q189490'
+imdb_id: 'nm2225369'
+birth_date: '1990-08-15'
+birth_place: 'Indian Hills, Kentucky, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Film producer'
+knows_about:
+  - 'Method acting'
+  - 'Counterphobic anxiety'
+  - 'Hollywood pay equity'
+  - 'Postpartum mental health'
+  - 'Documentary production'
+  - 'Activism through film'
+keywords:
+  - 'Jennifer Lawrence enneagram'
+  - 'Jennifer Lawrence type 6'
+  - 'Jennifer Lawrence personality'
+  - 'Counterphobic six'
+  - 'Jennifer Lawrence cool girl'
+  - 'Jennifer Lawrence anxiety'
+  - 'Jennifer Lawrence Die My Love'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Lawrence'
+  - 'https://www.wikidata.org/wiki/Q189490'
+  - 'https://www.imdb.com/name/nm2225369/'
+  - 'https://www.britannica.com/biography/Jennifer-Lawrence'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Lawrence'
+  - 'https://en.wikipedia.org/wiki/Winter%27s_Bone'
+  - 'https://en.wikipedia.org/wiki/Die_My_Love'
+  - 'https://en.wikipedia.org/wiki/2014_celebrity_nude_photo_leak'
+faqs:
+  - question: "What is Jennifer Lawrence's personality type?"
+    answer: "Jennifer Lawrence is an Enneagram Type 6 (The Loyalist), specifically a counterphobic Six with a Seven wing. The pattern shows in her self-named 'defense mechanism' candor, the 'Working made me feel like nobody could be mad at me' confession, the way she charges at frightening roles (Winter's Bone, Die My Love) rather than chasing easy ones, the two-year collapse after public rejection, and the anchor-husband she now organizes her life around."
+    anchor: 'what-is-jennifer-lawrences-personality-type'
+  - question: 'Why is Jennifer Lawrence typed as a Six, not a Seven?'
+    answer: "Most databases call her a Type 7 because of the surface energy. But Sevens are driven by joy-seeking; Lawrence has repeatedly described her humor as anxiety management and people-pleasing as survival. She doesn't run from pain — she charges at it. Counterphobic Sixes with a Seven wing are the type most commonly mistyped as Sevens, and Lawrence is the textbook case."
+    anchor: 'what-is-jennifer-lawrences-personality-type'
+  - question: "Why did Jennifer Lawrence disappear from Hollywood for two years?"
+    answer: "After the 2016 Golden Globes incident and the cultural turn against her 'cool girl' persona, Lawrence collapsed. 'I felt rejected not for my movies, not for my politics, but for me, for my personality.' A Seven would have pivoted to a new image. As a Six, she retreated to a bunker — fired her agency, married a quiet art gallerist from Vermont, had a baby, and was 'at peace with never returning.'"
+    anchor: 'the-cool-girl-cage'
+  - question: 'Why does Jennifer Lawrence rage-bait on a secret TikTok account?'
+    answer: "She revealed in November 2025 that she runs an anonymous TikTok account where she fights strangers about reality TV, the Kardashians, and the British royal family. It's the counterphobic Six in miniature: she withdrew from public engagement but the need to scan for threats, test, and argue didn't disappear. It just went underground, stripped of the vulnerability of being Jennifer Lawrence while doing it."
+    anchor: 'the-secret-tiktok-account'
 content_quality:
   hook: 9
   enneagram: 9.5

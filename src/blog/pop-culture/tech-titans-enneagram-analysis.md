@@ -60,7 +60,7 @@ This series maps those patterns. Not as gossip. As intelligence.
 | ------------------------------------------------------------------ | ---------------------- | ----------------------- | --------------------------------- |
 | [Steve Jobs](/personality-analysis/steve-jobs)                     | Type 1 - Reformer      | Apple (founder)         | Moral perfectionism               |
 | [Tim Cook](/personality-analysis/tim-cook)                         | Type 1 - Reformer      | Apple (successor)       | Principled operations             |
-| [Jensen Huang](/personality-analysis/jensen-huang)                 | Type 3 - Achiever      | Nvidia                  | Achievement through adaptation    |
+| Jensen Huang                                                       | Type 3 - Achiever      | Nvidia                  | Achievement through adaptation    |
 | [Brian Chesky](/personality-analysis/brian-chesky)                 | Type 3 - Achiever      | Airbnb                  | Achievement through hospitality   |
 | [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya) | Type 3 - Achiever      | Social Capital          | Achievement through capital       |
 | [Elizabeth Holmes](/personality-analysis/elizabeth-holmes)         | Type 3 - Achiever      | Theranos                | Image without substance           |

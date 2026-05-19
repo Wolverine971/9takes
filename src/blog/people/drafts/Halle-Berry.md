@@ -15,8 +15,58 @@ type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'halle-berry'
 suggestions: ['Jennifer-Lopez', 'Beyonce-Knowles', 'Lupita-Nyongo', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Halle_Berry'
-twitter: 'halleberry'
-instagram: 'halleberry'
+wikidata_qid: 'Q1033016'
+imdb_id: 'nm0000932'
+birth_date: '1966-08-14'
+birth_place: 'Cleveland, Ohio, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Film producer'
+  - 'Director'
+  - 'Wellness entrepreneur'
+knows_about:
+  - 'Dramatic film acting'
+  - 'Mixed martial arts training'
+  - 'Pageantry'
+  - 'Perimenopause advocacy'
+  - 'Producing'
+  - 'Film directing'
+  - 'X-Men franchise'
+keywords:
+  - 'Halle Berry enneagram'
+  - 'Halle Berry type 3'
+  - 'Halle Berry personality'
+  - 'Halle Berry 3w4'
+  - 'Halle Berry Oscar speech'
+  - 'Halle Berry Monsters Ball'
+  - 'Halle Berry ReSpin'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Halle_Berry'
+  - 'https://www.wikidata.org/wiki/Q1033016'
+  - 'https://www.imdb.com/name/nm0000932/'
+  - 'https://www.britannica.com/biography/Halle-Berry'
+citations:
+  - 'https://en.wikipedia.org/wiki/Halle_Berry'
+  - 'https://en.wikipedia.org/wiki/Monster%27s_Ball'
+  - 'https://en.wikipedia.org/wiki/Bruised_(film)'
+  - 'https://en.wikipedia.org/wiki/Jungle_Fever'
+  - 'https://en.wikipedia.org/wiki/Die_Another_Day'
+  - 'https://en.wikipedia.org/wiki/74th_Academy_Awards'
+faqs:
+  - question: "What is Halle Berry's personality type?"
+    answer: "Halle Berry is an Enneagram Type 3w4 (The Professional), Sexual subtype. The pattern shows in the rebuilt engine after her 1989 homeless shelter year, the diabetic-coma-rebranded-as-discipline at 22, the six full identity replacements across forty years of public life, the relationship pattern that ends near the three-year mark each time the performance shifts, and the 2017 Cannes Lions admission that her own Oscar 'meant nothing' once it failed to open the door for other Black actresses."
+    anchor: 'what-is-halle-berrys-personality-type'
+  - question: 'Why did Halle Berry call her own Oscar a "vessel" moment that "meant nothing"?'
+    answer: "In 2002 she shrank behind a representation duty within thirty seconds of taking the stage, naming Dandridge, Horne, Carroll, and 'every nameless, faceless woman of color.' Fifteen years later at Cannes Lions, with no other Black woman having won Best Actress in the intervening decade and a half, she said the moment 'meant nothing.' For a Type 3, the existential horror is when the performance works and the meaning still doesn't arrive. The door opened and behind it was an empty hallway."
+    anchor: 'what-halle-berrys-oscar-speech-actually-revealed-about-her-wiring'
+  - question: 'Why do Halle Berry\'s relationships keep ending around three years?'
+    answer: "On Armchair Expert in 2024, she named the pattern herself: she had entered relationships 'for the wrong reasons,' fusing with partners whose identity confirmed her current performance — the baseball star, the R&B singer, the Versace supermodel, the French action star. A Sexual Three's identity is stitched into being chosen by one person, so when the performance shifts, the partnership cannot. The Van Hunt relationship is the first one she says she has not tried to 'manipulate.'"
+    anchor: 'why-halle-berrys-relationships-keep-ending-around-three-years'
+  - question: 'How did Halle Berry turn a perimenopause misdiagnosis into ReSpin?'
+    answer: "At 54, a doctor misdiagnosed her vaginal atrophy as 'a really bad case of herpes.' She corrected the diagnosis herself after two weeks of research, then built ReSpin — a digital midlife wellness platform — out of the experience. The structural play is identical to the 2005 Razzie speech: rather than let the un-performable thing (biological aging) end her, she rebranded surrender as a new performance. Every wall becomes a stage. Every wound becomes a campaign."
+    anchor: 'halle-berry-at-58-turning-menopause-into-the-next-reinvention'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

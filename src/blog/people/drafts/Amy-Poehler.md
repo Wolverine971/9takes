@@ -17,6 +17,55 @@ wikipedia: 'https://en.wikipedia.org/wiki/Amy_Poehler'
 twitter: 'amypoehler'
 instagram: 'amypoehler'
 tiktok: ''
+wikidata_qid: 'Q230203'
+imdb_id: 'nm0688132'
+birth_date: '1971-09-16'
+birth_place: 'Newton, Massachusetts, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Comedian'
+  - 'Producer'
+  - 'Screenwriter'
+  - 'Author'
+knows_about:
+  - 'Improvisational comedy'
+  - 'Sketch comedy'
+  - 'Sitcom production'
+  - 'Voice acting'
+  - 'Comedy theater leadership'
+  - 'Women in comedy advocacy'
+  - 'Long-form improv'
+keywords:
+  - 'Amy Poehler enneagram'
+  - 'Amy Poehler type 8'
+  - 'Amy Poehler personality'
+  - 'Amy Poehler 8w9'
+  - 'Challenger enneagram'
+  - 'Amy Poehler Jimmy Fallon'
+  - 'Amy Poehler UCB'
+  - 'Amy Poehler Smart Girls'
+  - 'Leslie Knope personality'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Amy_Poehler'
+  - 'https://www.wikidata.org/wiki/Q230203'
+  - 'https://www.imdb.com/name/nm0688132/'
+  - 'https://www.britannica.com/biography/Amy-Poehler'
+citations:
+  - 'https://en.wikipedia.org/wiki/Amy_Poehler'
+faqs:
+  - question: "What is Amy Poehler's personality type?"
+    answer: "Amy Poehler is an Enneagram Type 8 (The Challenger), specifically an 8w9. She confirmed both the type and the wing herself — first on Late Night with Seth Meyers in 2022 ('I'm a Challenger. Safety and security are important to me, I want to know who's in charge') and again in January 2026 on her podcast Good Hang, adding 'I'm not a monster, right? 'Cause I got a little peacemaker in me.' The pattern shows in the Fallon confrontation, the UCB empire, the all-female Paper Kite staff, and her preference for direct communication over 'coming sideways.'"
+    anchor: 'what-is-amy-poehlers-personality-type'
+  - question: 'Why is Amy Poehler a Type 8 and not a Type 7 or Type 3?'
+    answer: "Type 7s avoid pain by seeking the next fun thing; Amy confronts pain instead — she didn't laugh off SNL's sexism, she dug in and changed the environment. Type 3s need to be liked; Amy has openly said she doesn't care whether people like her work. The tell is her relationship to power: she builds theaters, production companies, and organizations she staffs with women — not to appear powerful, but to be powerful enough to protect her people."
+    anchor: 'why-type-8-and-not-type-7-or-type-3'
+  - question: 'How does Amy Poehler handle vulnerability?'
+    answer: "Fearlessly in confrontation, far more guardedly on the page. In the preface to 'Yes Please,' she confessed the book had 'nearly killed me' — writing about herself was harder than creating characters. The Type 8 pattern fits: she'll go to war for her people but holds tender emotions tightly, a tension her postpartum depression during the Parks and Recreation launch only deepened."
+    anchor: 'the-vulnerability-struggle'
+  - question: 'Why did Amy Poehler build UCB and Smart Girls instead of just performing?'
+    answer: "Type 8s want to control the environment so they can keep their people safe. Co-founding UCB Theatre in 1996, launching Smart Girls in 2008, and staffing Paper Kite Productions exclusively with women are all the same move: build structures that outlast any single performance. UCB became the pipeline that launched Kate McKinnon, Donald Glover, Aubrey Plaza, Ilana Glazer, and a generation more — not personal glory, but lasting infrastructure that protects and elevates others."
+    anchor: 'the-ucb-empire-building-the-room-instead-of-filling-it'
 path: src/blog/people/drafts/Amy-Poehler.md
 content_quality:
   hook: 9

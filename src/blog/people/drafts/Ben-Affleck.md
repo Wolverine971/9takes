@@ -15,9 +15,62 @@ type: ['movieStar', 'screen-icon']
 person: 'ben-affleck'
 suggestions: ['Matt-Damon', 'Jennifer-Lopez', 'Jennifer-Garner', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Affleck'
+wikidata_qid: 'Q483118'
+imdb_id: 'nm0000255'
+birth_date: '1972-08-15'
+birth_place: 'Berkeley, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Film director'
+  - 'Producer'
+  - 'Screenwriter'
+knows_about:
+  - 'Film directing'
+  - 'Screenwriting'
+  - 'Boston crime drama'
+  - 'Card counting'
+  - 'Superhero franchise filmmaking'
+  - 'Eastern Congo advocacy'
+  - 'Profit-sharing production models'
+keywords:
+  - 'Ben Affleck enneagram'
+  - 'Ben Affleck type 3'
+  - 'Ben Affleck personality'
+  - 'Ben Affleck 3w4'
+  - 'Achiever enneagram'
+  - 'Ben Affleck alcoholism'
+  - 'Ben Affleck Jennifer Garner divorce'
+  - 'Ben Affleck Jennifer Lopez'
+  - 'Ben Affleck Artists Equity'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ben_Affleck'
+  - 'https://www.wikidata.org/wiki/Q483118'
+  - 'https://www.imdb.com/name/nm0000255/'
+  - 'https://www.britannica.com/biography/Ben-Affleck'
 twitter: 'BenAffleck'
 instagram: 'benaffleck'
 tiktok: ''
+citations:
+  - 'https://en.wikipedia.org/wiki/Ben_Affleck'
+  - 'https://en.wikipedia.org/wiki/Good_Will_Hunting'
+  - 'https://en.wikipedia.org/wiki/Argo_(2012_film)'
+  - 'https://en.wikipedia.org/wiki/The_Way_Back_(2020_film)'
+  - 'https://en.wikipedia.org/wiki/Eastern_Congo_Initiative'
+  - 'https://en.wikipedia.org/wiki/Artists_Equity'
+faqs:
+  - question: "What is Ben Affleck's personality type?"
+    answer: "Ben Affleck is an Enneagram Type 3 (The Achiever), specifically a 3w4. The pattern shows in the card-counting rigor that got him banned from the Hard Rock blackjack tables, the Oscar-to-tabloid-to-Oscar career arc that rebuilt his identity through Argo after Gigli buried it, the bottle-of-scotch-on-the-couch disintegration during the Garner divorce, and the 'If I could have, I would have kept the fact that I'm sober anonymous' wish that names the gap between who he is and what people see."
+    anchor: 'what-is-ben-afflecks-personality-type'
+  - question: 'Why did Ben Affleck stop acting and start directing?'
+    answer: "After Gigli, Daredevil, and a canceled film cratered his career around 2003, Affleck said he was 'caught in that intersection of celebrity and tabloid culture' and the work was being upstaged by the image. He pivoted to directing as 'the only option I felt I had to do good work,' delivering Gone Baby Gone (2007), The Town (2010), and Argo, which won Best Picture in 2012. The shift reads as a Type 3 moving into Type 6 integration: serving the story instead of the spotlight."
+    anchor: 'how-ben-affleck-saved-his-career-by-walking-away-from-it'
+  - question: 'How does Ben Affleck talk about his alcoholism?'
+    answer: "Affleck has described his addiction with director-like analytical clarity, naming his father Tim's daily drinking as the family pattern: 'My father was drunk every day and that was just life.' He told Howard Stern that during his marriage to Jennifer Garner he was 'trapped' and drank 'a bottle of scotch and fell asleep on the couch, which turned out not to be the solution.' He clarified afterward that 'my behavior is my responsibility entirely.' Under stress, Type 3s move toward Type 9 numbness — not choosing to drink, dissolving."
+    anchor: 'the-bottle-of-scotch-on-the-couch'
+  - question: "What is Ben Affleck's relationship with Matt Damon?"
+    answer: "Affleck and Matt Damon grew up two blocks apart in Cambridge, shared a bank account as teenagers, and wrote Good Will Hunting out of 'frustration with our unemployment' before winning Oscars at twenty-five. They co-founded Artists Equity in 2022 on the premise that writers, directors, and crew should share film profits. Air (2023) was their first major production. The friendship is the most sustained, performance-free attachment in his public life."
+    anchor: 'two-blocks-apart'
 content_quality:
   hook: 9
   enneagram: 8.5

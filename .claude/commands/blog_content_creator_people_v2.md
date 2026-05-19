@@ -49,7 +49,7 @@ Apply these at every step that would normally wait for a user reply:
 2. **Transcript gather (Step 3, Substep 3b)** — default to **Option B** (fetch transcripts yourself). Invoke the `/youtube-transcript` skill (or `yt-dlp` + `youtube-transcript-api` directly) on 2-4 shortlisted URLs. If every fetch fails, fall back to Option C, log `research_limitation: no_transcripts` in working notes, and continue. Never present the A/B/C prompt to the user in non-interactive mode.
 3. **Hard gates (Gates 1, 2, 4, 5, 6 in Step 5)** — enforce normally. If a gate blocks the draft, do **not** prompt. Save the draft anyway with `production_pretext.status: blocked` and the appropriate blocker (`thin_collaborator_testimony`, `heading_mix_violation`, `anti_imitation_violation`, `distribution_rule_violation`, `formula_fingerprint_violation`) in the `blockers` list. Include the gate failure in the final output.
 4. **Draft save (Step 8)** — always save with `production_pretext.status: draft` (or `blocked` if a gate failed). Never auto-promote to `ready` in non-interactive mode; human review before production is still required.
-5. **Post-save options menu (Step 8)** — skip the numbered-options menu. Report draft location, internal-link summary, grade, and gate status, then exit.
+5. **Post-save options menu (Step 8)** — skip the numbered-options menu. Report draft location, internal-link summary, and gate status, then exit. Do not grade — grading is owned by `/grade_blog`.
 6. **Review and refinement (Step 9)** — not applicable. There is no user-in-the-loop iteration in non-interactive mode. A single full pass, gated by the Quality Checklist and the hard gates, is the entire run.
 
 In non-interactive mode, completion output should always include:
@@ -59,10 +59,11 @@ MODE: non-interactive
 DRAFT: /src/blog/people/drafts/[Person-Name].md
 STATUS: production_pretext.status = [draft | blocked]
 BLOCKERS: [list or "none"]
-GRADE: [overall] ([letter])  # omit if grading skipped
 GATES: [Gate 1: pass/fail, Gate 2: pass/fail, Gate 4: pass/fail, Gate 5: pass/fail, Gate 6: pass/fail]
 LIMITATIONS: [list or "none"]
 ```
+
+Note: this command does **not** emit a numeric grade. Grading is a separate downstream step owned by `/grade_blog`.
 
 ---
 
@@ -1191,38 +1192,20 @@ This command does not generate a Rabbit Hole. The separate flow that owns it is 
 
 ---
 
-## Quality Grading (Required Before Hand-Off)
+## Quality Grading
 
-After the Quality Checklist passes, score the blog using the rubric at `docs/content-analysis/blog-grading-rubric.md`. Rate each dimension 1–10:
+**Grading is owned by `/grade_blog`, not by this command.**
 
-1. **Hook** — opening grabs and creates a question
-2. **Enneagram Integration** — framework explains something non-obvious
-3. **Evidence / Sourcing** — claims backed by direct quotes and sourced material
-4. **Writing Quality** — prose is distinctive, confident, well-structured
-5. **Originality** — says something new with a signature detail
+Do not score the blog 1–10. Do not write a `content_quality` block to frontmatter from this workflow. Do not emit a `GRADE:` line in the completion report.
 
-**Overall = (Hook + Enneagram + Evidence + Writing + Originality) / 5**
+What this command enforces instead:
 
-Letter grade: A+ (9.5+), A (9.0–9.4), B+ (8.5–8.9), B (8.0–8.4), C (7.0–7.9), D (6.0–6.9), F (<6.0).
+- The **Quality Checklist** above (pass/fail content checks)
+- The **Hard Gates** (Gate 1: thin collaborator testimony; Gate 2: heading mix violation; Gate 4: anti-imitation violation; Gate 5: distribution rule violation; Gate 6: formula fingerprint violation) — these are structural pass/fail blockers, not a numeric grade
 
-**Publication handoff threshold: 8.5 (B+).** Below this, keep revising.
+If a `content_quality` block already exists on the draft from a prior `/grade_blog` run, **preserve it untouched**. Never regrade from this command.
 
-Output the grade:
-
-```json
-{
-	"hook": 0,
-	"enneagram": 0,
-	"evidence": 0,
-	"writing": 0,
-	"originality": 0,
-	"overall": 0,
-	"letter": "X",
-	"graded_at": "YYYY-MM-DD"
-}
-```
-
-Store in draft frontmatter as `content_quality` when grading is part of the writing workflow.
+The numeric rubric grade is applied later by `/grade_blog`, and the publish gate at `content_quality.overall >= 8.5` is enforced even later by `/blog_content_publish_people`.
 
 ---
 

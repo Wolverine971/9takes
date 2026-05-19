@@ -18,6 +18,56 @@ wikipedia: 'https://en.wikipedia.org/wiki/Emma_Chamberlain'
 twitter: 'emmachamberlain'
 instagram: 'emmachamberlain'
 tiktok: 'emmachamberlain'
+wikidata_qid: 'Q63349606'
+imdb_id: 'nm10524027'
+birth_date: '2001-05-22'
+birth_place: 'San Bruno, California, USA'
+nationality: 'American'
+occupation:
+  - 'YouTuber'
+  - 'Podcaster'
+  - 'Entrepreneur'
+  - 'Model'
+  - 'Content creator'
+knows_about:
+  - 'YouTube vlogging'
+  - 'Chamberlain Coffee'
+  - 'Anything Goes podcast'
+  - 'Met Gala interviews'
+  - 'Influencer marketing'
+  - 'Creator economy'
+keywords:
+  - 'Emma Chamberlain enneagram'
+  - 'Emma Chamberlain type 4'
+  - 'Emma Chamberlain personality'
+  - 'Emma Chamberlain 4w3'
+  - 'Individualist enneagram'
+  - 'Chamberlain Coffee founder'
+  - 'Anything Goes podcast'
+  - 'Emma Chamberlain Sister Squad'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Emma_Chamberlain'
+  - 'https://www.wikidata.org/wiki/Q63349606'
+  - 'https://www.imdb.com/name/nm10524027/'
+  - 'https://www.instagram.com/emmachamberlain/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Emma_Chamberlain'
+  - 'https://chamberlaincoffee.com/'
+  - 'https://en.wikipedia.org/wiki/Anything_Goes_with_Emma_Chamberlain'
+  - 'https://en.wikipedia.org/wiki/James_Charles'
+faqs:
+  - question: "What is Emma Chamberlain's personality type?"
+    answer: "Emma Chamberlain is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in her on-record seasonal depression, the build-then-quit cycle (two YouTube exits, Chamberlain Coffee as 'the hardest thing I've ever done'), the high school diploma she went back to finish at twenty-three, and the year-long single prescription she announced on Anything Goes after the Peter McPoland breakup."
+    anchor: 'what-is-emma-chamberlains-personality-type'
+  - question: 'Why did Emma Chamberlain go back to finish her high school diploma at 23?'
+    answer: "She had dropped out of Notre Dame High School at sixteen, halfway through her junior year, when YouTube took off. By twenty-three she had a Cartier ambassadorship, a coffee company in twelve thousand retail doors, and a Met Gala interview franchise — none of which required a diploma. She got it anyway. For a Type 4, the missing piece keeps the ache alive; she circles back to closures most people would leave open."
+    anchor: 'the-diploma-she-finished-at-23'
+  - question: 'Why does Emma Chamberlain keep quitting YouTube?'
+    answer: "She has publicly quit YouTube twice — once in 2020 and again in 2021. The distinctly Type 4 part is the timing: she does not quit when she is failing, she quits when she is winning. She quits when the gap between Emma Chamberlain the brand and Emma Chamberlain the person opens too wide, then withdraws, heals, and comes back on her own schedule."
+    anchor: 'why-emma-chamberlain-keeps-quitting-youtube'
+  - question: 'Why did Emma Chamberlain compare Chamberlain Coffee to a marriage?'
+    answer: "On her own podcast in 2024, Chamberlain said running the company felt like 'my preview to what marriage is going to feel like… It's been the hardest thing I've ever done. It's crying. It feels like a marriage.' Almost no founder in consumer goods would say this on record while still running the company. For a Type 4, marriage is not a metaphor — it is the closest available word for bonding deeply, idealizing, then waking up to find the thing is still a thing and the ache is still there."
+    anchor: 'chamberlain-coffee-feels-like-a-marriage'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -317,4 +367,3 @@ PRIORITY FIXES:
 3. Cut the closer-as-recap. The "She quit Notre Dame at sixteen / She quit YouTube / She regretted the coffee company" list rehashes four sections that already made the case. End on the Tucker album receipt or the marriage pull-quote.
 
 ============================================================ -->
-

@@ -15,9 +15,55 @@ type: ['movieStar', 'screen-icon']
 person: 'chris-hemsworth'
 suggestions: ['Tom-Holland', 'Scarlett-Johansson', 'Robert-Downey-Jr', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Chris_Hemsworth'
-twitter: 'chaborge'
-instagram: 'chrishemsworth'
-tiktok: ''
+wikidata_qid: 'Q54314'
+imdb_id: 'nm1165110'
+birth_date: '1983-08-11'
+birth_place: 'Melbourne, Victoria, Australia'
+nationality: 'Australian'
+occupation:
+  - 'Actor'
+  - 'Producer'
+knows_about:
+  - 'Marvel Cinematic Universe'
+  - 'Thor (character)'
+  - 'Action filmmaking'
+  - 'Mad Max franchise (Furiosa, Dementus)'
+  - 'Fitness and longevity programming'
+  - 'APOE4 Alzheimer’s research and prevention'
+keywords:
+  - 'Chris Hemsworth enneagram'
+  - 'Chris Hemsworth type 7'
+  - 'Chris Hemsworth personality'
+  - 'Chris Hemsworth 7w6'
+  - 'Chris Hemsworth APOE4'
+  - 'Thor enneagram'
+  - 'Furiosa Dementus enneagram'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Chris_Hemsworth'
+  - 'https://www.wikidata.org/wiki/Q54314'
+  - 'https://www.imdb.com/name/nm1165110/'
+  - 'https://www.britannica.com/biography/Chris-Hemsworth'
+citations:
+  - 'https://en.wikipedia.org/wiki/Chris_Hemsworth'
+  - 'https://en.wikipedia.org/wiki/Thor_(film)'
+  - 'https://en.wikipedia.org/wiki/Limitless_with_Chris_Hemsworth'
+  - 'https://en.wikipedia.org/wiki/Furiosa:_A_Mad_Max_Saga'
+  - 'https://en.wikipedia.org/wiki/Home_and_Away'
+  - 'https://en.wikipedia.org/wiki/Thor:_Love_and_Thunder'
+faqs:
+  - question: "What is Chris Hemsworth's personality type?"
+    answer: "Chris Hemsworth is an Enneagram Type 7 (The Enthusiast), likely 7w6. The pattern shows in the barefoot Northern Territory kid who turned a soap-opera ceiling into a Marvel franchise within five years, the reframe reflex that converted an APOE4 Alzheimer's diagnosis into 'another wonderful motivation' within minutes, the panic attacks and imposter syndrome he carried while starring in the highest-grossing film of all time, and the constructed Thor persona he has openly called 'a creation' built to hide a boy's fear."
+    anchor: 'chris-hemsworth-is-an-enneagram-type-7'
+  - question: 'How did Chris Hemsworth react to the APOE4 Alzheimer’s gene result?'
+    answer: "While filming Limitless in 2022, Hemsworth learned he carries two copies of the APOE4 variant — present in only about 2% of the population and linked to significantly elevated Alzheimer's risk. His first response was textbook Type 7: 'It very quickly just became another wonderful motivation to make some changes.' The slower second response came in Vanity Fair: 'The idea that I won't be able to remember the life I've experienced, or my wife, my kids, is probably my biggest fear.' Then his father Craig was diagnosed."
+    anchor: 'the-gene-the-father-and-the-thing-you-cant-outrun'
+  - question: 'Why does Chris Hemsworth say Thor was a shield, not a role?'
+    answer: "Hemsworth has said the confidence was manufactured: 'I started thinking, Okay, no one can mess with me. Playing a god became a safety net.' He looked physically invincible while having panic attacks. He told Jay Shetty that even while starring in the biggest film of all time he was internally thinking 'It's not really happening. You dreamt that.' Thor gave the anxious kid from the Northern Territory permission to be big, loud, certain — and the moment the camera stopped, the permission evaporated."
+    anchor: 'thor-was-never-a-role-it-was-a-shield'
+  - question: 'Why was Dementus in Furiosa a turning point for Hemsworth?'
+    answer: "For a decade Hemsworth circled the same frustration about Thor: 'Sometimes I felt like a security guard for the team. I would read everyone else's lines, and go, Oh, they got way cooler stuff.' Then George Miller cast him as Dementus in Furiosa: A Mad Max Saga — unhinged, grotesque, free. Critics called it 'a career-best performance.' His father Craig has a cameo. The son who worried he hadn't spent enough time with his father found a way to put him on screen, permanently recorded, before the memories finished fading."
+    anchor: 'dementus-and-the-career-that-finally-fit'
 content_quality:
   hook: 9
   enneagram: 8.5

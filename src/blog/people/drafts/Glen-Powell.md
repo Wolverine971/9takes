@@ -15,9 +15,56 @@ type: ['movieStar', 'screen-icon']
 person: 'glen-powell'
 suggestions: ['tom-cruise', 'sydney-sweeney', 'miles-teller', 'arnold-schwarzenegger']
 wikipedia: 'https://en.wikipedia.org/wiki/Glen_Powell'
-twitter: 'https://twitter.com/glenpowell'
-instagram: 'https://www.instagram.com/glenpowell/'
-tiktok: ''
+wikidata_qid: 'Q5567967'
+imdb_id: 'nm1412974'
+birth_date: '1988-10-21'
+birth_place: 'Austin, Texas, USA'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Screenwriter'
+  - 'Film producer'
+knows_about:
+  - 'Romantic comedy revival'
+  - 'Character transformation and persona work'
+  - 'Top Gun: Maverick'
+  - 'Hit Man'
+  - 'Anyone But You marketing strategy'
+  - 'Barnstorm Productions'
+  - 'Austin-based filmmaking'
+keywords:
+  - 'Glen Powell enneagram'
+  - 'Glen Powell type 3'
+  - 'Glen Powell personality'
+  - 'Glen Powell 3w2'
+  - 'Achiever enneagram'
+  - 'Glen Powell Hit Man'
+  - 'Glen Powell shapeshifter'
+  - 'Anyone But You chemistry'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Glen_Powell'
+  - 'https://www.wikidata.org/wiki/Q5567967'
+  - 'https://www.imdb.com/name/nm1412974/'
+  - 'https://www.britannica.com/biography/Glen-Powell'
+citations:
+  - 'https://en.wikipedia.org/wiki/Glen_Powell'
+  - 'https://en.wikipedia.org/wiki/Hit_Man_(2023_film)'
+  - 'https://en.wikipedia.org/wiki/Top_Gun:_Maverick'
+  - 'https://en.wikipedia.org/wiki/Anyone_But_You'
+  - 'https://en.wikipedia.org/wiki/Chad_Powers'
+faqs:
+  - question: "What is Glen Powell's personality type?"
+    answer: "Glen Powell is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in the flask hidden in his boot during the lean years, the notebook where he records every lesson from every collaborator, the market-instinct bet on rom-coms when the genre was dead, the Hit Man and Chad Powers roles built around literal identity-shifting, and the opening admission that acting is 'an identity crisis on its own.'"
+    anchor: 'what-is-glen-powells-personality-type'
+  - question: 'Why did Glen Powell hide a flask in his boot?'
+    answer: "During his decade of small roles in Hollywood, Powell couldn't afford to split bills at dinner or buy drinks at bars. He hid a flask in his boot so he could keep up at social gatherings while broke — performing the social life of a working actor while his bank account said otherwise. It's the cleanest snapshot of a Type 3 protecting the image even when the reality won't fund it."
+    anchor: 'the-flask-in-the-boot'
+  - question: 'How did Glen Powell revive the romantic comedy?'
+    answer: "Powell read the market the way a Type 3 reads a room. He saw that studios had abandoned mid-budget rom-coms, then leaned into offscreen chemistry rumors with Sydney Sweeney to sell Anyone But You — which grossed $220 million on a $25 million budget. He's been transparent about the strategy: 'The two things that you have to sell a rom-com are fun and chemistry.' He didn't just act in the revival; he helped engineer it."
+    anchor: 'how-glen-powell-became-everyones-favorite-person-to-watch'
+  - question: 'Why does Glen Powell choose roles about people who become other people?'
+    answer: "Powell co-wrote both Hit Man (a professor who adopts personas to entrap hit-buyers) and Chad Powers (a disgraced quarterback who puts on prosthetics to rejoin football). He has described Hit Man as being about 'my experience as an actor. Every role that Gary Johnson played was a piece of Gary Johnson.' These aren't random casting choices — they're a Type 3 dramatizing his own operating system."
+    anchor: 'why-glen-powell-cant-slow-down'
 content_quality:
   hook: 9
   enneagram: 9

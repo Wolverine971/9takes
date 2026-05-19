@@ -15,9 +15,64 @@ type: ['movieStar', 'screen-icon']
 person: 'arnold-schwarzenegger'
 suggestions: ['Dwayne-Johnson', 'Donald-Trump', 'Tom-Cruise', 'Cristiano-Ronaldo']
 wikipedia: 'https://en.wikipedia.org/wiki/Arnold_Schwarzenegger'
+wikidata_qid: 'Q2685'
+imdb_id: 'nm0000216'
+birth_date: '1947-07-30'
+birth_place: 'Thal, Styria, Austria'
+nationality:
+  - 'Austrian'
+  - 'American'
+occupation:
+  - 'Actor'
+  - 'Bodybuilder'
+  - 'Politician'
+  - 'Film producer'
+  - 'Writer'
+knows_about:
+  - 'Competitive bodybuilding'
+  - 'Action film performance'
+  - 'Strategic self-promotion'
+  - 'California state politics'
+  - 'Climate policy (AB 32)'
+  - 'Real estate investment'
+  - 'Redistricting reform'
+keywords:
+  - 'Arnold Schwarzenegger enneagram'
+  - 'Arnold Schwarzenegger type 3'
+  - 'Arnold Schwarzenegger personality'
+  - 'Arnold Schwarzenegger 3w2'
+  - 'Achiever enneagram'
+  - 'Schwarzenegger Be Useful'
+  - 'Schwarzenegger schmah'
+  - 'Schwarzenegger Mildred Baena'
 twitter: 'https://twitter.com/Schwarzenegger'
 instagram: 'https://www.instagram.com/schwarzenegger'
 tiktok: 'https://www.tiktok.com/tag/arnoldschwarzenegger'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Arnold_Schwarzenegger'
+  - 'https://www.wikidata.org/wiki/Q2685'
+  - 'https://www.imdb.com/name/nm0000216/'
+  - 'https://www.britannica.com/biography/Arnold-Schwarzenegger'
+citations:
+  - 'https://en.wikipedia.org/wiki/Arnold_Schwarzenegger'
+  - 'https://en.wikipedia.org/wiki/The_Terminator'
+  - 'https://en.wikipedia.org/wiki/Pumping_Iron'
+  - 'https://en.wikipedia.org/wiki/Joseph_Baena'
+  - 'https://en.wikipedia.org/wiki/Maria_Shriver'
+  - 'https://en.wikipedia.org/wiki/California_Global_Warming_Solutions_Act_of_2006'
+faqs:
+  - question: "What is Arnold Schwarzenegger's personality type?"
+    answer: "Arnold Schwarzenegger is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in his serial reinvention from Mr. Olympia to movie star to governor to newsletter publisher, his self-coined word 'schmah' for strategic packaging, the body-image crisis that persisted through his physical peak, the 14-year secret about Mildred Baena that he traced to becoming 'an expert in living in denial,' and the deliberate choice to play emotionless machines that didn't require the dramatic range he lacked."
+    anchor: 'what-is-arnold-schwarzeneggers-personality-type'
+  - question: 'What is the schmah strategy and why does it define Schwarzenegger?'
+    answer: "Schmah is the Austrian-German word Arnold uses for wrapping the same product in a more attractive package. Two guys with bricks became 'European style bricklayers' and the phone started ringing. His unfixable Austrian accent became the Terminator's robotic voice. His limited dramatic range became the deliberate choice of machine roles. The schmah isn't lying — it's the foundational Type 3 instinct that packaging is the asset, repeated across bodybuilding, film, and politics."
+    anchor: 'the-first-schmah'
+  - question: 'Why did Arnold Schwarzenegger keep the Mildred Baena affair secret for 14 years?'
+    answer: "Arnold has called himself 'an expert in living in denial' — the same emotional-freeze system that saved him as a child running a father who hit him. He didn't tell Maria Shriver about the affair, his first major heart surgery, or his decision to run for governor until announcement was imminent. The Type 3 pattern wasn't conscious deception but the survival strategy that had always worked: freeze the inconvenient emotion, focus on what you can achieve, let the feelings wait until they can't."
+    anchor: 'the-secret-that-lasted-14-years'
+  - question: 'How did losing all four 2005 ballot initiatives change Schwarzenegger as governor?'
+    answer: "Every initiative was defeated. His approval rating dropped to 33%, lower than the governor he'd replaced. It was a kind of failure Arnold had never encountered — in bodybuilding and film, individual dominance wins; in politics, you can do everything 'right' and still lose. He hired a Democratic chief of staff, set up a smoking tent outside the Capitol where Democrats and Republicans came to deal, and signed AB 32, the country's most aggressive climate legislation. The Achiever learned to integrate."
+    anchor: 'the-governor-who-had-to-learn-to-lose'
 path: src/blog/people/drafts/Arnold-Schwarzenegger.md
 content_quality:
   hook: 9

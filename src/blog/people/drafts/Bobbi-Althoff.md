@@ -15,9 +15,55 @@ type: ['creator', 'lifestyle-builder']
 person: 'bobbi-althoff'
 suggestions: ['Drake', 'Alex-Cooper', 'Aubrey-Plaza', 'Kim-Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Bobbi_Althoff'
-twitter: 'boaboringalthof'
-instagram: 'bobbialthoff'
-tiktok: 'bobbialthoff'
+wikidata_qid: 'Q121334786'
+imdb_id: 'nm15109734'
+birth_date: '1997-07-31'
+birth_place: 'Moreno Valley, California, United States'
+nationality: 'American'
+occupation:
+  - 'Podcaster'
+  - 'Social media influencer'
+  - 'Interviewer'
+knows_about:
+  - 'Deadpan interview style'
+  - 'Celebrity podcasting'
+  - 'TikTok content creation'
+  - 'Awkward comedy'
+  - 'Mental health advocacy'
+  - 'Personal branding'
+keywords:
+  - 'Bobbi Althoff enneagram'
+  - 'Bobbi Althoff type 4'
+  - 'Bobbi Althoff personality'
+  - 'Bobbi Althoff 4w5'
+  - 'Individualist enneagram'
+  - 'Bobbi Althoff Drake interview'
+  - 'Really Good Podcast'
+  - 'Bobbi Althoff divorce'
+  - 'Bobbi Althoff suicide attempt'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Bobbi_Althoff'
+  - 'https://www.wikidata.org/wiki/Q121334786'
+  - 'https://www.imdb.com/name/nm15109734/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Bobbi_Althoff'
+  - 'https://newsletter.soulboom.com/p/bobbi-althoff-breaking-generational-0cc'
+  - 'https://www.bustle.com/entertainment/bobbi-althoff-drake-interview-podcast-tiktok'
+  - 'https://www.today.com/popculture/who-is-bobbi-althoff-rcna95535'
+  - 'https://www.complex.com/pop-culture/a/starrsavoy/who-is-bobbi-althoff-the-really-good-podcast'
+faqs:
+  - question: "What is Bobbi Althoff's personality type?"
+    answer: "Bobbi Althoff is an Enneagram Type 4 (The Individualist), specifically a 4w5 with a so/sp instinct stack. The pattern shows in her self-described 'hated who I was as a person' wound, the suicide attempt at 14, the deadpan podcast persona she calls 'an amalgamation of my biggest insecurities, just without shame,' and the lifelong sense she'd never 'find my place in this world' — all transformed into a brand instead of hidden."
+    anchor: 'what-is-bobbi-althoffs-personality-type'
+  - question: 'Why is Bobbi Althoff so awkward on her podcast?'
+    answer: "The awkwardness isn't a bit she copied from Between Two Ferns or Chicken Shop Date — she says she hadn't watched either. It's the version of herself she once hated, repurposed without the shame. 'Podcast Bobbi owns her discomfort. She says what she thinks and she doesn't care what people think about her.' Off-camera she still describes debilitating social anxiety and pre-interview nerves on Zoom."
+    anchor: 'the-persona-as-transformation'
+  - question: 'What happened between Bobbi Althoff and Drake?'
+    answer: "After the July 2023 in-bed interview went viral, both unfollowed each other and the video was deleted. Bobbi's marriage was ending at the same time (separation date July 4, 2023), and affair rumors swirled despite her denial. In September 2025 they reconciled on her new podcast 'Not This Again,' where Drake said: 'You made me feel like our interview was the reason your life was bad.' She admitted she'd blamed him for struggles that weren't his."
+    anchor: 'the-drake-interview-that-changed-everything'
+  - question: 'Did Bobbi Althoff really attempt suicide at 14?'
+    answer: "Yes. On Rainn Wilson's Soul Boom podcast, she described her mother finding her 'hours later' in her bedroom, 'passed out on the bed and very pale.' Her parents — who had divorced but kept living in the same house — rushed her to the hospital, after which she was sent to live with her brother. 'I hated who I was as a person. I felt uncomfortable in my own skin. I felt like I just didn't fit in.' It is the Type 4 core wound surfacing in adolescence."
+    anchor: 'the-attempt-at-14'
 path: src/blog/people/drafts/Bobbi-Althoff.md
 content_quality:
   hook: 9

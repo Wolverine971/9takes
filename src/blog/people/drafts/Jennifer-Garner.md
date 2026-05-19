@@ -14,7 +14,54 @@ enneagram: 2
 type: ['movieStar', 'screen-icon']
 person: 'jennifer-garner'
 suggestions: ['Meryl-Streep', 'Kristen-Bell', 'Ben-Affleck', 'Anne-Hathaway', 'Scarlett-Johansson']
-wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Garner'
+wikidata_qid: 'Q172044'
+imdb_id: 'nm0004950'
+birth_date: '1972-04-17'
+birth_place: 'Houston, Texas, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Producer'
+  - 'Entrepreneur'
+knows_about:
+  - 'Television action drama'
+  - 'Romantic comedy film'
+  - 'Childhood nutrition advocacy'
+  - 'Once Upon a Farm baby-food company'
+  - 'Save the Children philanthropy'
+  - 'Al-Anon recovery'
+keywords:
+  - 'Jennifer Garner enneagram'
+  - 'Jennifer Garner type 2'
+  - 'Jennifer Garner personality'
+  - 'Jennifer Garner 2w1'
+  - 'Helper enneagram'
+  - 'Jennifer Garner Alias'
+  - 'Jennifer Garner Ben Affleck'
+  - 'Jennifer Garner Pretend Cooking Show'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Garner'
+  - 'https://www.wikidata.org/wiki/Q172044'
+  - 'https://www.imdb.com/name/nm0004950/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Garner'
+  - 'https://archive.vanityfair.com/article/2016/3/jennifer-garner-ben-affleck-divorce'
+  - 'https://www.instyle.com/celebrity/jennifer-garner-2019-cover'
+  - 'https://www.today.com/food/people/jennifer-garner-pretend-cooking-show-rcna146716'
+  - 'https://www.howardstern.com/show/2021/12/14/ben-affleck-talks-jennifer-garner-jennifer-lopez-and-the-tender-bar/'
+faqs:
+  - question: "What is Jennifer Garner's personality type?"
+    answer: "Jennifer Garner is an Enneagram Type 2 (The Helper), with a strong 1 wing. The pattern shows in the public self-definition as 'the model middle child' who likes taking care of everyone, the 'useful' platforms she builds (Pretend Cooking Show, Once Upon a Farm baby-food, Save the Children advocacy), the 2018 paparazzi photo of her driving Ben Affleck to rehab after the marriage ended, and the Al-Anon work she credits with 'changing the dance' — the recognition that her caretaking had hardened into control."
+    anchor: 'jennifer-garner-is-an-enneagram-type-2'
+  - question: "Why does Jennifer Garner call it her 'Pretend Cooking Show'?"
+    answer: "Garner is an A-list actor with the resources to produce a real cooking show. Instead she calls it 'pretend' and films it in her own kitchen, messy counters and all. The word is emotional insurance — if it flops, it was never that serious; if people like it, great, she helped. That's the bargain a Type 2 makes in one word: 'I will give you something useful so I never have to ask you to take care of me.'"
+    anchor: 'the-word-she-keeps-using-pretend'
+  - question: 'What did Ben Affleck say about Jennifer Garner on Howard Stern?'
+    answer: "In December 2021, Affleck told Stern that staying in his marriage to Garner was part of why he drank — 'I was like, I can't leave 'cause of my kids, but I'm not happy.' He said he was 'relieved' when it ended. Days later on Today, he walked the framing back. Both things happened. The interview pressures the conventional read: Garner's instinct to manage — refined since Vacation Bible School — was, in his telling, one of the things he was drinking against."
+    anchor: 'what-ben-affleck-told-howard-stern'
+  - question: 'Why has Jennifer Garner been a supporting actress for fifteen years?'
+    answer: "She had the range — Alias asked her to be vulnerable, lethal, and funny; 13 Going on 30 proved she could carry a film. But after Elektra flopped in 2005, the parts she chose again and again were mom-coded: Yes Day, The Adam Project, Family Switch, the Deadpool & Wolverine cameo. The Type 2 reading: a leading lady has to demand the room. A supporting actor can be helpful, valuable, indispensable — without ever asking the audience to need her back."
+    anchor: 'the-career-narrowing-nobody-asks-her-about'
 twitter: 'JenniferGarner'
 instagram: 'jennifer.garner'
 tiktok: ''
@@ -347,4 +394,3 @@ PRIORITY FIXES:
 3. Add John Miller. A 2026 portrait that ends in the rehab-drive image without naming the current relationship is a temporal hole — and the seven-year-relationship-with-someone-out-of-the-industry is itself Type 2 evidence.
 
 ============================================================ -->
-

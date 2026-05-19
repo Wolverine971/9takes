@@ -15,9 +15,56 @@ type: ['movieStar', 'screen-icon']
 person: 'channing-tatum'
 suggestions: ['Ryan-Reynolds', 'Leonardo-DiCaprio', 'Brad-Pitt', 'Dwayne-Johnson']
 wikipedia: 'https://en.wikipedia.org/wiki/Channing_Tatum'
-twitter: 'channingtatum'
-instagram: 'channingtatum'
-tiktok: ''
+wikidata_qid: 'Q212064'
+imdb_id: 'nm1475594'
+birth_date: '1980-04-26'
+birth_place: 'Cullman, Alabama, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Producer'
+  - 'Dancer'
+  - 'Author'
+knows_about:
+  - 'Action filmmaking'
+  - 'Dance choreography'
+  - "Magic Mike franchise"
+  - 'Childhood ADHD and dyslexia'
+  - 'Romantic comedy performance'
+  - "Children's picture-book authorship"
+keywords:
+  - 'Channing Tatum enneagram'
+  - 'Channing Tatum type 7'
+  - 'Channing Tatum personality'
+  - 'Channing Tatum 7w8'
+  - 'Magic Mike enneagram'
+  - 'Channing Tatum Roofman'
+  - 'Channing Tatum Gambit'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Channing_Tatum'
+  - 'https://www.wikidata.org/wiki/Q212064'
+  - 'https://www.imdb.com/name/nm1475594/'
+  - 'https://www.britannica.com/biography/Channing-Tatum'
+citations:
+  - 'https://en.wikipedia.org/wiki/Channing_Tatum'
+  - 'https://en.wikipedia.org/wiki/Magic_Mike'
+  - 'https://en.wikipedia.org/wiki/Roofman_(film)'
+  - 'https://en.wikipedia.org/wiki/Deadpool_%26_Wolverine'
+  - 'https://www.caa.com/entertainmenttalent/books/author/channing-tatum/book/the-one-and-only-sparkella/'
+faqs:
+  - question: "What is Channing Tatum's personality type?"
+    answer: "Channing Tatum is an Enneagram Type 7, the Enthusiast — likely 7w8. The pattern shows in the constant reinvention (stripper, model, action star, comedy lead, producer, director, children's-book author), the self-described 'tendency to escape' he linked to childhood ADHD medication, the decade-long Gambit obsession that finally landed as a Deadpool & Wolverine cameo, and the Roofman shift where Derek Cianfrance forced him to stop performing and stay."
+    anchor: 'what-is-channing-tatums-personality-type'
+  - question: 'Why does Channing Tatum keep reinventing himself?'
+    answer: "Tatum told the New York Times in 2025, 'I'll perform for love, essentially: Who do you want me to be, what do you want me to be, just to love me?' The shapeshifting started at nine — diagnosed with ADHD and dyslexia, put on Ritalin and Dexedrine, told by his mother to 'be a sponge.' Each new identity, from Chan Crawford the Tampa stripper to Magic Mike to Gambit, was a Type 7 escape from sitting still long enough to feel inadequate."
+    anchor: 'the-boy-who-was-nowhere'
+  - question: 'Why was Roofman a turning point for Channing Tatum?'
+    answer: "Roofman was the first role where Tatum says he 'earned a seat at the table.' Director Derek Cianfrance refused to let him charm his way through it — no pivot, no reframe, no escape — and the result was the best reviews of his career. For a Type 7, whose engine runs on outrunning pain through new projects, being made to inhabit one role instead of cycling through twelve is the growth move toward Type 5 depth."
+    anchor: 'ive-earned-a-seat-at-the-table'
+  - question: 'What does Channing Tatum say about his mental health and drinking?'
+    answer: "Tatum has called himself a 'pretty high-functioning alcoholic' and named a 'tendency to escape,' later walking back the alcoholism framing while keeping the diagnosis of the escape pattern. He traces it to the Ritalin and Dexedrine he was put on at 13 — medication that fed a depression that 'settled over him like weather.' The substance was never the point. The escape was."
+    anchor: 'what-is-channing-tatums-personality-type'
 content_quality:
   hook: 8.5
   enneagram: 8.5

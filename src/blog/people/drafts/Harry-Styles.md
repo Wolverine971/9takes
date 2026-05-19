@@ -15,9 +15,62 @@ type: ['musician', 'pop-star']
 person: 'harry-styles'
 suggestions: ['Taylor-Swift', 'Olivia-Rodrigo', 'Billie-Eilish', 'Zayn-Malik', 'Henry-Cavill']
 wikipedia: 'https://en.wikipedia.org/wiki/Harry_Styles'
+wikidata_qid: 'Q3626966'
+imdb_id: 'nm4089170'
+birth_date: '1994-02-01'
+birth_place: 'Redditch, Worcestershire, England'
+nationality: 'British'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Actor'
+  - 'Record producer'
+knows_about:
+  - 'Pop songwriting'
+  - 'Stadium tour production'
+  - 'Treat People With Kindness ethos'
+  - 'Gender-fluid fashion'
+  - 'Love On Tour ritual moments'
+  - 'Pleasing cosmetics line'
+keywords:
+  - 'Harry Styles enneagram'
+  - 'Harry Styles type 2'
+  - 'Harry Styles personality'
+  - 'Harry Styles 2w3'
+  - 'Helper enneagram'
+  - 'Treat People With Kindness'
+  - 'Love On Tour Harry Styles'
+  - 'Harry Styles Matilda song'
 twitter: 'Harry_Styles'
 instagram: 'harrystyles'
 tiktok: ''
+same_as:
+  - 'https://en.wikipedia.org/wiki/Harry_Styles'
+  - 'https://www.wikidata.org/wiki/Q3626966'
+  - 'https://www.imdb.com/name/nm4089170/'
+  - 'https://www.grammy.com/artists/harry-styles/287522'
+citations:
+  - 'https://en.wikipedia.org/wiki/Harry_Styles'
+  - 'https://en.wikipedia.org/wiki/Love_On_Tour'
+  - 'https://en.wikipedia.org/wiki/The_Princess_Diarist'
+  - 'https://en.wikipedia.org/wiki/Harry%27s_House'
+  - 'https://en.wikipedia.org/wiki/Sign_of_the_Times_(Harry_Styles_song)'
+faqs:
+  - question: "What is Harry Styles' personality type?"
+    answer: "Harry Styles is an Enneagram Type 2 (The Helper). The pattern shows in his self-described 'protect Mom at all costs' role from age 10, the way he ran Love On Tour as a 22-month ritual of coming-out moments and gender reveals for 5 million strangers, the 'sixth sense' Liam Payne said he had for struggling bandmates, the $6.5M raised for charity along the way, and the therapy admission that One Direction's biggest moments felt like 'relief that we hadn't failed' rather than joy."
+    anchor: 'when-making-everyone-okay-becomes-your-operating-system'
+  - question: "How did Harry Styles' parents' divorce shape his personality?"
+    answer: "When Harry was seven, his parents divorced. Most kids retreat inward; Harry did the opposite, becoming the family's emotional anchor by checking on his mother Anne and sister Gemma, defusing tension with humor, and learning that making others feel okay made him feel like he mattered. That seven-year-old role became the operating system for the next 25 years — the origin pattern of an Enneagram Type 2."
+    anchor: 'when-making-everyone-okay-becomes-your-operating-system'
+  - question: 'Why does Harry Styles stop concerts for fans?'
+    answer: "Every night on Love On Tour, Harry scanned the crowd for signs asking for help — coming-out moments, marriage proposals, sobriety milestones. In Milwaukee 2021, he helped a fan named McKenzie Grace come out to her mother by shouting 'Lisa, she's gay!' to 17,000 people. For a Type 2, being the catalyst for someone's most significant moment is the peak of the type — being needed without ambiguity, in front of a stadium."
+    anchor: 'love-on-tour-creating-church-at-scale'
+  - question: 'Why did Harry Styles take a hiatus after Love On Tour?'
+    answer: "After Love On Tour ended in July 2023, Harry disappeared from public life — no award shows, no social media, occasional sightings running marathons in Tokyo and Berlin. He had articulated the pull years earlier: 'You can't pour from an empty cup.' The hiatus is the Type 2's hardest lesson made literal: the Helper who built his career on 22 months of ritual giving had to learn that the cup needed refilling, too."
+    anchor: 'the-hiatus-when-the-helper-finally-stops'
+  - question: 'What did therapy reveal to Harry Styles about himself?'
+    answer: "Harry told Zane Lowe that he had 'emotionally coasted' for years — that the biggest moments of One Direction's success felt like relief that they hadn't failed, not joy or pride. That is the Type 2 shadow exposed: orienting so completely around others that you lose access to your own experience. Therapy gave him the metaphor of opening doors in a house he didn't know existed, feeling everything harder, good and bad."
+    anchor: 'therapy-opening-doors-he-didnt-know-existed'
 path: src/blog/people/drafts/Harry-Styles.md
 content_quality:
   hook: 9
@@ -275,4 +328,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Cut "Read that again." and one of the cushion-the-critic transitions; trust the reader.
 
 ============================================================ -->
-

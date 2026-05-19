@@ -15,8 +15,59 @@ type: ['celebrity', 'author', 'celebrity-image']
 person: 'david-goggins'
 suggestions: ['Jocko-Willink', 'Joe-Rogan', 'Andrew-Huberman', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Goggins'
+wikidata_qid: 'Q5234184'
+birth_date: '1975-02-17'
+birth_place: 'Buffalo, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Author'
+  - 'Motivational speaker'
+  - 'Ultramarathon runner'
+  - 'Retired Navy SEAL'
 twitter: 'davidgoggins'
 instagram: 'davidgoggins'
+knows_about:
+  - 'Navy SEAL training'
+  - 'Air Force Tactical Air Control Party'
+  - 'Army Ranger School'
+  - 'Ultra-endurance running'
+  - 'Mental toughness frameworks'
+  - 'Self-publishing'
+  - 'Cognitive behavioral self-talk'
+keywords:
+  - 'David Goggins enneagram'
+  - 'David Goggins type 6'
+  - 'David Goggins personality'
+  - 'David Goggins 6w5'
+  - 'Counter-phobic six enneagram'
+  - 'David Goggins Accountability Mirror'
+  - 'David Goggins Cookie Jar'
+  - 'David Goggins pararescue'
+same_as:
+  - 'https://en.wikipedia.org/wiki/David_Goggins'
+  - 'https://www.wikidata.org/wiki/Q5234184'
+  - 'https://davidgoggins.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/David_Goggins'
+  - 'https://allhands.navy.mil/Stories/Display-Story/Article/1840612/the-toughest-man-alive/'
+  - 'https://www.stripes.com/branches/air_force/2026-03-17/david-goggins-reenlists-air-force-51-21095492.html'
+  - 'https://sofrep.com/news/david-goggins-re-enlists-at-51-re-enters-air-force-special-warfare-pipeline/'
+faqs:
+  - question: "What is David Goggins's personality type?"
+    answer: "David Goggins is an Enneagram Type 6 (The Loyalist), specifically a counter-phobic 6w5 — not the Type 8 brawler the internet usually calls him. The pattern shows in the Accountability Mirror, the Cookie Jar, 'callus your mind,' 'armor your mind,' the title Never Finished, and the methodical Mental Lab he builds at the kitchen table with his fiancée Jennifer Kish. Type 8s do not need to manufacture toughness — they are the callus. Sixes prepare for what could come."
+    anchor: 'what-is-david-gogginss-personality-type'
+  - question: "Why is David Goggins a Type 6 and not a Type 8?"
+    answer: "Because the entire system is contingency architecture. 'Stay hard' parses cleanly as Six grammar — stay is vigilance, hard is armor — and Goggins describes himself in the present tense as 'a coward,' 'weak,' 'scared,' and 'insecure' after twenty years of accomplishments most people could not survive once. Eights take what they want. Sixes prepare. Goggins's brand is a Six instructing himself, in public, to never stop scanning for the next thing that could hurt him."
+    anchor: 'what-is-david-gogginss-personality-type'
+  - question: 'Why did David Goggins reenlist in the Air Force at 51?'
+    answer: "In March 2026, a leaked photo placed Goggins at the Special Warfare Training Wing in San Antonio. He had requested an age waiver because the Air Force pararescue program does not accept candidates older than 42. He returned because in 1994, at 19, he washed out of pararescue training — taking a sickle-cell-trait medical exit he later admitted was a cover for fear. The single sentence 'I quit. I was scared' has been chasing him for thirty-two years. The lab does not get to close until that sentence has a different ending."
+    anchor: 'why-david-goggins-reenlisted-in-the-air-force-at-51'
+  - question: 'How did David Goggins lose 106 pounds to become a Navy SEAL?'
+    answer: "At 24, weighing 297 pounds and working nights as an exterminator in Indianapolis, Goggins called eight Navy recruiters before one finally said: lose 100 pounds in three months and pass the ASVAB, and I'll sign the papers. He lost 106. Stationary bike at 5 a.m., two-a-day swims he taught himself, a survival-grade diet. He shipped out, went through Hell Week three times (rolled back for pneumonia, a stress-fractured kneecap, and broken legs duct-taped into his boots), and graduated with BUD/S Class 235 on August 10, 2001."
+    anchor: 'how-david-goggins-lost-106-pounds-in-three-months-to-become-a-seal'
+  - question: "What is the hole in David Goggins's heart?"
+    answer: "In 2010, at 34, Goggins started passing out during workouts. Doctors diagnosed an Atrial Septal Defect — a congenital hole between the upper chambers of his heart. He had been functioning his entire life on roughly 75% of his cardiac capacity. Every Hell Week, every ultramarathon, every pull-up, every Ranger School log carry had been done on three-quarters of a heart. He had the surgery, recovered, and went back to training."
+    anchor: 'the-hole-in-david-gogginss-heart'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -104,7 +155,7 @@ Confidence: high. The Type 8 reading describes the pose. The Type 6 reading desc
 
 ## David Goggins's childhood: Skateland, the belt, and the noose
 
-David Goggins was born in 1975 in Williamsville, New York, on a street ironically called Paradise Road. His father Trunnis ran a roller rink called Skateland in East Buffalo. The family lived inside the business and worked it at night.
+David Goggins was born in 1975 in Buffalo, New York, and grew up in Williamsville on a street ironically called Paradise Road. His father Trunnis ran a roller rink called Skateland in East Buffalo. The family lived inside the business and worked it at night.
 
 > "My brother and I would sleep on a couch in the office. We'd get up, go to school exhausted, come home and work the rink again."
 
@@ -253,4 +304,3 @@ Protected from the prior pass:
 - "Duct tape became my best friend" + the 4,030 / 7,801 / ~75% stat row.
 - The thesis sentence: "He has been managing that contradiction his entire adult life, and the management never stops, because the fear never goes away."
 -->
-

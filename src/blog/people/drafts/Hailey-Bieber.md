@@ -15,10 +15,54 @@ type: ['lifestyleInfluencer', 'lifestyle-builder']
 person: 'hailey-bieber'
 suggestions: ['Justin-Bieber', 'Selena-Gomez', 'Kim-Kardashian', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/Hailey_Bieber'
-twitter: 'haileybieber'
-instagram: 'haileybieber'
-tiktok: 'haileybieber'
-path: src/blog/people/drafts/Hailey-Bieber.md
+wikidata_qid: 'Q20983703'
+imdb_id: 'nm2440257'
+birth_date: '1996-11-22'
+birth_place: 'Tucson, Arizona, United States'
+nationality: 'American'
+occupation:
+  - 'Model'
+  - 'Media personality'
+  - 'Entrepreneur'
+knows_about:
+  - 'Skincare formulation'
+  - 'Direct-to-consumer beauty branding'
+  - 'Runway modeling'
+  - 'Social media marketing'
+  - 'Image management'
+  - 'Brand acquisition deals'
+keywords:
+  - 'Hailey Bieber enneagram'
+  - 'Hailey Bieber type 3'
+  - 'Hailey Bieber personality'
+  - 'Hailey Bieber Rhode'
+  - 'Rhode skincare founder'
+  - 'Hailey Bieber image control'
+  - 'Achiever enneagram'
+  - 'Hailey Bieber Selena Gomez'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Hailey_Bieber'
+  - 'https://www.wikidata.org/wiki/Q20983703'
+  - 'https://www.imdb.com/name/nm2440257/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Hailey_Bieber'
+  - 'https://en.wikipedia.org/wiki/Rhode_(brand)'
+  - 'https://en.wikipedia.org/wiki/Justin_Bieber'
+  - 'https://en.wikipedia.org/wiki/E.l.f.'
+  - 'https://en.wikipedia.org/wiki/Stephen_Baldwin'
+faqs:
+  - question: "What is Hailey Bieber's personality type?"
+    answer: "Hailey Bieber reads as Enneagram Type 3, The Achiever. The pattern shows in the polished image management, the rapid pivots from ballet to modeling to founding Rhode, the $1 billion e.l.f. acquisition built in three years, the public admission that 'I've fought so hard to try to get people to understand me,' and the Vogue-confessed sensitivity to being misperceived rather than to being disliked. The wound is that worth has to be earned, not given."
+    anchor: 'what-is-hailey-biebers-personality-type'
+  - question: 'Why does Hailey Bieber seem so controlled in public?'
+    answer: "Control is how she protects herself from being turned into someone else's narrative. The more the internet projects onto her — nepo baby, mean girl, snake, husband-stealer — the more carefully she manages what people can see. She has admitted to seven-day intensive therapy programs to handle social media anxiety, identifies as an 'otrovert' who needs solitude after being perceived, and treats Rhode's launch cadence with the same precision as her own image."
+    anchor: 'why-hailey-bieber-seems-so-controlled-in-public'
+  - question: 'Why did Rhode succeed so quickly?'
+    answer: "Rhode worked because Hailey treated it as a real operating business, not celebrity merch. She launched in 2022 with three products instead of thirty, hired domain experts (Versed's Melanie Bender, OBB Media's Michael Ratner) and let them run, turned her own 'glazed donut' aesthetic into the brand identity, and engineered cultural moments like the Super Bowl Lip Case tease. By March 2025 the brand had hit $212 million in revenue on ten products, and e.l.f. acquired it for $1 billion."
+    anchor: 'how-hailey-bieber-turned-pressure-into-rhode'
+  - question: 'Why does the Selena Gomez feud narrative keep following Hailey Bieber?'
+    answer: "Because it gives the internet a simple villain story even when both women have publicly denied any feud. For Hailey — a Type 3 whose deepest wound is being morally misread — being unable to control a public narrative despite doing everything 'right' is its own prison. 'I've been in a position where I've tried to tell my side of a story... and then they go, well, she's lying,' she has said. 'Imagine how trapping that feels.'"
+    anchor: 'hailey-bieber-and-selena-gomez-why-the-feud-story-stuck'
 content_quality:
   hook: 8.5
   enneagram: 9
@@ -28,6 +72,7 @@ content_quality:
   overall: 8.7
   letter: B+
   graded_at: '2026-02-18'
+path: src/blog/people/drafts/Hailey-Bieber.md
 ---
 
 > "I feel like I've fought so hard to try to get people to understand me, or know who I am, or see me for me. And people just don't want to sometimes."

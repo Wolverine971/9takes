@@ -14,7 +14,57 @@ enneagram: 7
 type: ['creator', 'podcaster']
 person: 'alex-cooper'
 suggestions: ['Alix-Earle', 'Bobbi-Althoff', 'Emma-Chamberlain', 'Brittany-Broski']
-wikipedia: 'https://en.wikipedia.org/wiki/Call_Her_Daddy'
+wikipedia: 'https://en.wikipedia.org/wiki/Alex_Cooper_(podcaster)'
+wikidata_qid: 'Q109977530'
+imdb_id: 'nm10751676'
+birth_date: '1994-08-21'
+birth_place: 'Newtown, Pennsylvania, United States'
+nationality: 'American'
+occupation:
+  - 'Podcaster'
+  - 'Media entrepreneur'
+  - 'Producer'
+  - 'Author'
+knows_about:
+  - 'Long-form celebrity interviewing'
+  - 'Podcast hosting and production'
+  - 'Creator-led media networks'
+  - 'Audio licensing deals'
+  - 'Direct-to-consumer brand building'
+  - 'Women-led audience communities'
+keywords:
+  - 'Alex Cooper enneagram'
+  - 'Alex Cooper type 7'
+  - 'Alex Cooper personality'
+  - 'Call Her Daddy enneagram'
+  - 'Unwell Network'
+  - 'Alex Cooper Sofia Franklyn'
+  - 'Alex Cooper Alix Earle'
+  - 'Alex Cooper Nancy Feldman'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Alex_Cooper_(podcaster)'
+  - 'https://www.wikidata.org/wiki/Q109977530'
+  - 'https://www.imdb.com/name/nm10751676/'
+  - 'https://www.britannica.com/biography/Alex-Cooper'
+citations:
+  - 'https://press.hulu.com/shows/call-her-alex/'
+faqs:
+  - question: "What is Alex Cooper's personality type?"
+    answer: "Alex Cooper is an Enneagram Type 7 (The Enthusiast). The pattern shows in her serial reinvention — the 2020 Barstool split, the Spotify-to-SiriusXM jump, the pivot from raunchy sex talk to A-list celebrity interviews, the Unwell Network expansion into agency, beverage, and TV — and in the Type 7 core fear of being trapped in pain, which she rebrands as 'Unwell' rather than sits with."
+    anchor: 'what-is-alex-coopers-personality-type'
+  - question: 'Why is Alex Cooper a Type 7 instead of a Type 3 or Type 8?'
+    answer: "From the outside she can read as a Type 3 Achiever or a Type 8 Challenger, but the motivation is different. Type 3s polish image for external approval; Type 8s confront and dominate. Cooper charms, riffs, and pivots — and when a format stops feeling expansive (raunchy sex tips, the Barstool deal, the Spotify cage) she moves. The driver is escaping the cage, not winning the room."
+    anchor: 'alex-cooper-is-an-enneagram-type-7'
+  - question: 'What happened between Alex Cooper and Sofia Franklyn?'
+    answer: "During 2020 Barstool contract talks, Dave Portnoy offered both hosts the Call Her Daddy IP if they stayed another year. Cooper accepted; Franklyn pushed for $1M-per-host plus merch. Franklyn later told Rolling Stone that Cooper negotiated separately without telling her and that 'the betrayal piece was more upsetting than the financial piece.' They have not spoken since."
+    anchor: 'from-an-apartment-to-a-war'
+  - question: 'What did Alex Cooper allege about her Boston University soccer coach?'
+    answer: "In her 2025 Hulu docuseries 'Call Her Alex,' Cooper alleged that BU head coach Nancy Feldman (1995–2022) subjected her to years of escalating sexual harassment — questions about her sex life, comments about her body, a hand on her thigh in private meetings, and playing time leveraged for personal information. BU has said it takes the allegations seriously and retained outside counsel; 99 former players signed a letter supporting Feldman."
+    anchor: 'what-the-coach-wouldnt-say'
+  - question: 'What is the Unwell Network and why is it called Unwell?'
+    answer: "Unwell is Cooper's media conglomerate — a reported $125M three-year SiriusXM deal, a Nestlé-partnered beverage line at Target, a creative agency whose first client was Google, a Hulu dating show, and a $3M NWSL sponsorship. The name is Gen-Z shorthand for 'I'm not okay, and that's fine.' For a Type 7 whose core fear is being trapped in pain, naming the empire after the feeling she's running from is either real growth or the ultimate reframe."
+    anchor: 'the-unwell-machine'
 twitter: 'alexandracooper'
 instagram: 'alexandracooper'
 tiktok: 'callherdaddy'

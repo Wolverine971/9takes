@@ -15,10 +15,59 @@ type: ['movieStar', 'screen-icon']
 person: 'dwayne-johnson'
 suggestions: ['kevin-hart', 'arnold-schwarzenegger', 'tom-cruise', 'stephen-a-smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Dwayne_Johnson'
+wikidata_qid: 'Q10738'
+imdb_id: 'nm0425005'
+birth_date: '1972-05-02'
+birth_place: 'Hayward, California, United States'
+nationality:
+  - 'American'
+  - 'Canadian'
+occupation:
+  - 'Actor'
+  - 'Producer'
+  - 'Professional wrestler'
+  - 'Businessman'
+knows_about:
+  - 'Professional wrestling'
+  - 'Action film franchise leadership'
+  - 'Brand-building (Seven Bucks Productions, Teremana, Project Rock)'
+  - 'XFL ownership'
+  - 'Reinvention-as-strategy'
+  - 'Mark Kerr / The Smashing Machine dramatic acting'
+keywords:
+  - 'Dwayne Johnson enneagram'
+  - 'Dwayne Johnson type 3'
+  - 'The Rock personality'
+  - 'Dwayne Johnson Achiever'
+  - 'Dwayne Johnson Smashing Machine analysis'
+  - 'Dwayne Johnson Seven Bucks origin'
+  - 'Dwayne Johnson depression mental health'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Dwayne_Johnson'
+  - 'https://www.wikidata.org/wiki/Q10738'
+  - 'https://www.imdb.com/name/nm0425005/'
 twitter: 'TheRock'
 instagram: 'therock'
 tiktok: 'therock'
-content_quality:
+citations:
+  - 'https://en.wikipedia.org/wiki/Dwayne_Johnson'
+  - 'https://en.wikipedia.org/wiki/The_Smashing_Machine_(2025_film)'
+  - 'https://en.wikipedia.org/wiki/Black_Adam_(film)'
+  - 'https://en.wikipedia.org/wiki/Seven_Bucks_Productions'
+  - 'https://variety.com/'
+faqs:
+  - question: "What is Dwayne Johnson's personality type?"
+    answer: "Dwayne Johnson is an Enneagram Type 3 (The Achiever). The pattern shows in the Rocky Maivia-to-The-Rock reinvention after the crowd chanted \"Die, Rocky, die,\" the Seven Bucks Productions company name turning the CFL-cut origin into a brand asset, the $298 Snickers redemption on Instagram, the shape-shifts from wrestler to action star to Disney dad to A24 dramatic lead, and the repeated post-failure crashes (CFL, divorce, Black Adam) followed by total reinvention."
+    anchor: 'what-is-dwayne-johnsons-personality-type'
+  - question: 'Why did Dwayne Johnson make The Smashing Machine instead of another franchise film?'
+    answer: 'After Black Adam''s $391M-against-$235M flop, Johnson told the Hollywood Reporter he had been "chasing something for a lot of years, and what I was chasing was box office" — and that the chase wasn''t fulfilling him. The Smashing Machine opened to $5.8M, his lowest ever, and he didn''t seem to care. For a Type 3 in integration, that''s the move toward authenticity: doing the work without the scoreboard. Whether the crack holds, or whether "vulnerable dramatic actor" simply becomes the next character, is the open question.'
+    anchor: 'i-was-ready-to-chase-the-challenge'
+  - question: 'Why did Dwayne Johnson turn down running for president?'
+    answer: 'In late 2022, representatives from multiple parties brought polling data to his door showing 46% of Americans wanted him to run, and he declined. He framed the decision around fatherhood — being present for Jasmine and Tiana during "this critical time" — rather than fear. The unusual thing for a Type 3 isn''t the answer but the refusal: the man who never met an arena he wouldn''t conquer looked at the biggest one in the world and walked away.'
+    anchor: 'the-arena-he-didnt-enter'
+  - question: "What is Dwayne Johnson's relationship to depression?"
+    answer: "Johnson has publicly named three depressive episodes: after the CFL cut him at 22 with $7 in his pocket, after his 2007 divorce from Dany Garcia, and around the 2022–2023 Black Adam collapse. Each followed the same Type 3 architecture — identity-threatening failure, a stretch of paralysis, then a reinvention total enough to erase the failure from the narrative. The $7 became Seven Bucks. The divorce became the business partnership. Black Adam became the setup for The Smashing Machine. He doesn't process pain — he produces it."
+    anchor: 'when-the-scoreboard-went-dark'
   hook: 9
   enneagram: 9
   evidence: 8.5

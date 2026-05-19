@@ -14,7 +14,44 @@ enneagram: 3
 type: ['entrepreneur', 'business-operator']
 person: 'alex-hormozi'
 suggestions: ['Patrick-Bet-David', 'Sam-Parr', 'Tony-Robbins', 'Gary-Vee', 'Leila-Hormozi']
-wikipedia: ''
+wikidata_qid: 'Q117803902'
+birth_date: '1988-08-18'
+birth_place: 'Towson, Maryland, United States'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Author'
+  - 'Content creator'
+knows_about:
+  - 'Customer acquisition'
+  - 'Offer construction'
+  - 'Direct response marketing'
+  - 'Business scaling'
+  - 'Gym industry operations'
+  - 'Holding company strategy'
+  - 'Short-form content production'
+same_as:
+  - 'https://www.wikidata.org/wiki/Q117803902'
+  - 'https://www.acquisition.com/bio-alex'
+  - 'https://www.linkedin.com/in/alexhormozi/'
+  - 'https://www.youtube.com/@AlexHormozi'
+faqs:
+  - question: "What is Alex Hormozi's Enneagram type?"
+    answer: "Alex Hormozi reads as an Enneagram Type 3 with a strong 8 wing (3w8). His brand is literally built on measurable success: $100M Offers, $100M Leads, $100M Money Models. Same three meals daily, same black t-shirt, 4am wake-ups, and a stated philosophy that 'Grow or Die.' The 8 wing adds the directness and confrontational edge, but the core engine is the Achiever's fear of being worthless without accomplishment."
+    anchor: 'what-is-alex-hormozis-personality-type'
+  - question: 'Why is Alex Hormozi typed as a 3 and not an 8 or a 1?'
+    answer: "Type 8s seek power and dominance; Hormozi talks about being valuable, not powerful. Type 1s perfect things because imperfection feels morally wrong; Hormozi ships 'good enough' and iterates, bothered by inefficiency rather than incorrectness. The tell is what happens when he fails: he gets curious about the system rather than angry (8) or self-critical (1). The 8 wing explains the force, but Type 3 explains the need to win."
+    anchor: 'why-type-3-and-not-type-8-or-type-1'
+  - question: "How did Alex Hormozi's Iranian-American background shape him?"
+    answer: "Hormozi's father escaped the Iranian Revolution and rebuilt from nothing in America. That immigrant inheritance turned success into obligation rather than option. Alex has said he was 'pursuing what my father would have liked me to do, not what I really wanted to do,' and the pressure to prove the family's sacrifice was worth it shaped every decision from Gilman School to Vanderbilt to the government job he eventually quit."
+    anchor: 'the-iranian-american-drive-how-his-father-shaped-everything'
+  - question: 'What did Tony Robbins tell Alex Hormozi about duty versus devotion?'
+    answer: "In their January 2025 conversation, Hormozi admitted he doesn't find joy in most of what he does but can't see himself doing anything else. Tony Robbins, a fellow Type 3 thirty years further down the road, offered a reframe: duty is pushing yourself from obligation and fear (exhausting because the fuel is self-generated), while devotion is being pulled by a cause larger than yourself (sustainable because the fuel comes from outside). It maps the Type 3 growth edge from 'I achieve to prove I'm worthy' to 'I achieve because it serves something larger.'"
+    anchor: 'the-tony-robbins-conversation-when-a-type-3-confronts-his-shadow'
+  - question: 'How does Leila Hormozi fit into Alex Hormozi psychology?'
+    answer: "Leila is treated as more than a spouse or business partner. She's the relational counterweight to Alex's achievement machine, the co-founder who provides both business partnership and emotional grounding. Their dynamic, both pushing toward achievement while keeping each other accountable, models what healthy Type 3 partnership looks like and represents Hormozi's movement toward the integrated, more loyal expression of the type."
+    anchor: 'the-partnership-behind-the-achievements'
 twitter: 'AlexHormozi'
 instagram: 'hormozi'
 tiktok: 'hormozi'
@@ -34,16 +71,6 @@ keywords:
   - 'Alex Hormozi Type 3'
   - '100M Offers psychology'
   - 'Alex and Leila Hormozi'
-faqs:
-  - question: "What is Alex Hormozi's Enneagram type?"
-    answer: "Alex Hormozi reads as an Enneagram Type 3 with a strong 8 wing. The article argues that his discipline, output obsession, public scorekeeping, and repeated framing of achievement as proof of worth fit the Achiever pattern more than a pure Challenger or Reformer profile."
-    anchor: 'what-is-alex-hormozis-personality-type'
-  - question: 'Why is Alex Hormozi typed as a 3 and not an 8?'
-    answer: "Hormozi has obvious 8 traits: bluntness, confrontation, and appetite for control. But the deeper engine is Type 3: achievement as identity, measurable output as reassurance, and a lifelong attempt to convert insecurity into visible proof. The 8 wing explains the force; Type 3 explains the need to win."
-    anchor: 'why-type-3-and-not-type-8-or-type-1'
-  - question: "How does Leila Hormozi fit into Alex Hormozi's psychology?"
-    answer: "The piece treats Leila Hormozi as more than a spouse or business partner. She is the relational counterweight to Alex's achievement machine: the person who sees the cost of the output obsession and helps turn raw ambition into a durable operating system."
-    anchor: 'the-partnership-behind-the-achievements'
 ---
 
 > "Volume negates luck."

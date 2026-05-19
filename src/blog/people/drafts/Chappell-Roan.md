@@ -15,9 +15,56 @@ type: ['musician', 'alternative-artist']
 person: 'chappell-roan'
 suggestions: ['Billie-Eilish', 'Halsey', 'Sabrina-Carpenter', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Chappell_Roan'
-twitter: 'https://twitter.com/ChappellRoan'
-instagram: 'https://www.instagram.com/chappellroan/'
-tiktok: 'https://www.tiktok.com/@chappellroan'
+wikidata_qid: 'Q110281146'
+imdb_id: 'nm11490513'
+birth_date: '1998-02-19'
+birth_place: 'Willard, Missouri, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Drag-pop performer'
+knows_about:
+  - 'Synth-pop songwriting'
+  - 'Drag-inspired pop performance'
+  - 'Queer pop iconography'
+  - 'Live performance staging'
+  - 'Music industry labor advocacy'
+  - 'Parasocial fandom management'
+keywords:
+  - 'Chappell Roan enneagram'
+  - 'Chappell Roan type 8'
+  - 'Chappell Roan personality'
+  - 'Chappell Roan Challenger'
+  - 'Chappell Roan Grammy speech'
+  - 'Kayleigh Amstutz'
+  - 'Pink Pony Club enneagram'
+  - 'Midwest Princess Project'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Chappell_Roan'
+  - 'https://www.wikidata.org/wiki/Q110281146'
+  - 'https://www.imdb.com/name/nm11490513/'
+  - 'https://www.britannica.com/biography/Chappell-Roan'
+citations:
+  - 'https://en.wikipedia.org/wiki/Chappell_Roan'
+  - 'https://www.youtube.com/watch?v=kzLrHTEvVfE'
+  - 'https://www.grammy.com/news/chappell-roan-wins-best-new-artist-2025-grammys'
+  - 'https://www.youtube.com/watch?v=XQSQ02k0RTc'
+  - 'https://en.wikipedia.org/wiki/Good_Luck%2C_Babe%21'
+  - 'https://en.wikipedia.org/wiki/The_Rise_and_Fall_of_a_Midwest_Princess'
+faqs:
+  - question: "What is Chappell Roan's personality type?"
+    answer: "Chappell Roan is an Enneagram Type 8 (The Challenger) — and she said so herself on Call Her Daddy: 'I'm an eight, the challenger.' The pattern shows in the Grammy stage where she demanded labels pay living wages instead of thanking them, the fan-boundary fight she refused to soften, the Catholic-guilt fear of 'being a bad person' that sits under the armor, and the four-year relationship where she 'threw away my personality' — the Type 8 stress line toward 2 in full view."
+    anchor: 'chappell-roan-is-an-enneagram-type-8-the-challenger'
+  - question: 'Why did Chappell Roan demand a living wage in her Grammy speech?'
+    answer: "She had been signed to Atlantic at 17, dropped, and was working in a donut shop through 2020 with zero job experience. When she won Best New Artist in 2025, she didn't thank the industry — she demanded labels offer 'a living wage and healthcare, especially to developing artists.' When music exec Jeff Rabhan called the speech 'noble but wildly misinformed,' she donated $25,000 to dropped artists. Noah Kahan matched it. That is a Type 8 using power, not just having it."
+    anchor: 'the-grammy-win-and-the-speech-that-shook-the-industry'
+  - question: "Why did Chappell Roan set such public boundaries with fans?"
+    answer: "After 'Good Luck, Babe!' and the Coachella moment, her Spotify monthly listeners went from 5 million to over 40 million in months. Strangers bought airline tickets through TSA to wait at her gate. She refused to silently endure or have a Britney-level breakdown — instead she said publicly, 'I don't agree with the notion that I owe a mutual exchange of energy, time, or attention to people I do not know.' Eliza McLamb on A Bit Fruity called it interrupting 'the womaning' cycle mid-stream."
+    anchor: 'boundaries-as-survival'
+  - question: 'What is the contradiction at the heart of Chappell Roan?'
+    answer: "She creates such forceful public boundaries that celebrity friends describe being near her as standing inside 'a force field' — yet she has admitted abandoning her own personality to keep boyfriends from leaving, including a four-year relationship with a man who never gave her an orgasm. The fortress is real. So is the loneliness. In Enneagram terms, that is the Type 8 stress line toward Type 2 — the Challenger who becomes a Helper when intimacy is on the line."
+    anchor: 'strength-everywhere-except-love'
 path: src/blog/people/drafts/Chappell-Roan.md
 content_quality:
   hook: 9.5

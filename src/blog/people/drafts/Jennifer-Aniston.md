@@ -14,6 +14,53 @@ enneagram: 9
 type: ['movieStar', 'screen-icon']
 person: 'jennifer-aniston'
 suggestions: ['keanu-reeves', 'scarlett-johansson', 'brad-pitt', 'natalie-portman']
+wikidata_qid: 'Q32522'
+imdb_id: 'nm0000098'
+birth_date: '1969-02-11'
+birth_place: 'Sherman Oaks, Los Angeles, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Producer'
+  - 'Businesswoman'
+knows_about:
+  - 'Television comedy'
+  - 'Romantic comedy film'
+  - 'Television drama production'
+  - 'Haircare entrepreneurship'
+  - 'IVF and fertility advocacy'
+keywords:
+  - 'Jennifer Aniston enneagram'
+  - 'Jennifer Aniston type 9'
+  - 'Jennifer Aniston personality'
+  - 'Jennifer Aniston Peacemaker'
+  - 'Jennifer Aniston therapy'
+  - 'Jennifer Aniston Friends'
+  - 'Jennifer Aniston Morning Show'
+  - 'Jennifer Aniston dyslexia'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Aniston'
+  - 'https://www.wikidata.org/wiki/Q32522'
+  - 'https://www.imdb.com/name/nm0000098/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Aniston'
+  - 'https://www.allure.com/story/jennifer-aniston-december-2022-cover-interview'
+  - 'https://www.interview.com/jennifer-aniston-sandra-bullock'
+  - 'https://archive.vanityfair.com/article/2005/9/the-unsinkable-jennifer-aniston'
+  - 'https://www.menshealth.com/entertainment/a63048946/jennifer-aniston-profile/'
+faqs:
+  - question: "What is Jennifer Aniston's personality type?"
+    answer: "Jennifer Aniston is an Enneagram Type 9 (The Peacemaker). The pattern shows in the volatile childhood that taught her erasure was survival, the 'social glue' role she plays in every friendship, the decades she let tabloids write her story rather than correct them, and the four years of therapy spent on a single project: teaching her that expressing anger wouldn't get her killed in response."
+    anchor: 'jennifer-aniston-is-an-enneagram-type-9'
+  - question: 'Why did Jennifer Aniston stay silent about her IVF struggles?'
+    answer: "For twenty years she absorbed the tabloid narrative that Brad Pitt left because she chose career over kids. The truth, which she kept private until a 2022 Allure interview, was that she had been doing IVF and drinking Chinese teas trying to get pregnant. Type 9s don't correct false stories because correction requires the conflict their nervous system is organized to avoid — even when the lie is being printed on magazine covers about them."
+    anchor: 'they-have-no-clue-whats-going-on-with-me'
+  - question: 'Why did Jennifer Aniston spend four years in therapy?'
+    answer: "Her Jungian therapist had one central project: teach her that her anger was allowed to exist. 'She was really trying to help me deal with anger and learning how to express it without feeling terrified that I was going to get murdered in response.' Her nervous system, trained in a volatile childhood with a critical mother, processed every expression of anger as a life-threatening event. The therapist died during her divorce from Brad Pitt."
+    anchor: 'the-anger-she-couldnt-name'
+  - question: 'How did Jennifer Aniston discover she had dyslexia?'
+    answer: "She carried the belief she was stupid through her entire adolescence. The diagnosis came in her early twenties, almost by accident, during an eye exam where she read a paragraph through Buddy Holly-style red-and-blue glasses and got three of ten quiz questions right. The relief — 'all of my childhood trauma-dies, tragedies, dramas were explained' — was immediate. She didn't tell anyone publicly for years."
+    anchor: 'the-girl-who-thought-she-was-stupid'
 wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Aniston'
 twitter: 'https://twitter.com/jaboretsky'
 instagram: 'https://www.instagram.com/jenniferaniston'

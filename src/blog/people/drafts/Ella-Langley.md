@@ -15,7 +15,55 @@ type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'ella-langley'
 suggestions: ['Riley-Green', 'Morgan-Wallen', 'Lainey-Wilson', 'Miranda-Lambert']
 wikipedia: 'https://en.wikipedia.org/wiki/Ella_Langley'
+wikidata_qid: 'Q127559972'
+imdb_id: 'nm14840978'
+birth_date: '1999-05-03'
+birth_place: 'Hope Hull, Alabama, United States'
+nationality: 'American'
+occupation:
+  - 'Country singer'
+  - 'Songwriter'
+knows_about:
+  - 'Country songwriting'
+  - 'Traditional country music'
+  - 'Nashville co-write rooms'
+  - 'Country-rock crossover'
+  - 'Live performance vocal craft'
+keywords:
+  - 'Ella Langley enneagram'
+  - 'Ella Langley type 8'
+  - 'Ella Langley personality'
+  - 'Ella Langley 8w7'
+  - 'Challenger enneagram'
+  - 'Ella Langley Riley Green'
+  - 'Ella Langley Choosin Texas'
+  - 'Ella Langley Hope Hull Alabama'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ella_Langley'
+  - 'https://www.wikidata.org/wiki/Q127559972'
+  - 'https://www.imdb.com/name/nm14840978/'
+  - 'https://www.instagram.com/ellalangleymusic/'
 instagram: 'ellalangleymusic'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ella_Langley'
+  - 'https://en.wikipedia.org/wiki/Hungover_(Ella_Langley_album)'
+  - 'https://en.wikipedia.org/wiki/You_Look_Like_You_Love_Me'
+  - 'https://en.wikipedia.org/wiki/Choosin%27_Texas'
+  - 'https://www.billboard.com/artist/ella-langley/'
+  - 'https://www.rollingstone.com/'
+faqs:
+  - question: "What is Ella Langley's personality type?"
+    answer: "Ella Langley is an Enneagram Type 8 (The Challenger), specifically an 8w7 with an sp/sx subtype. The pattern shows in the kid who wouldn't sit still at the green metal desk in the church corner, the 20-year-old who walked away from forestry school at Auburn because 'nothing's going to happen if I stay here,' the artist who told her label she'd 'stick my heels in the mud' rather than make music she didn't want to make, and the 8 who covers her calves on every stage."
+    anchor: 'what-is-ella-langleys-personality-type'
+  - question: 'Why does Ella Langley always wear tall boots?'
+    answer: "Langley has been insecure about the shape of her calves since childhood and has covered them deliberately on every stage. The mid-calf boot is the adult version of an early pattern — multiple childhood eye surgeries to correct her eye muscles, the same kid who kept what felt 'off' covered. The fearlessness is real. It is built around something that still needs covering."
+    anchor: 'why-ella-langley-still-covers-her-calves'
+  - question: 'Are Ella Langley and Riley Green dating?'
+    answer: "No. Both Langley and Green have repeatedly said they are friends — Green told Nick Viall 'Ella's probably too smart to date me anyway,' and Langley's standing line is 'we're just friends.' Their 2024 duet 'You Look Like You Love Me' won four CMA trophies (the first song ever to sweep Single, Song, Music Video, and Musical Event). Most artists with that chemistry would feed the rumor. The 8 lets the song do the work and keeps her own life sealed off."
+    anchor: 'what-ella-langley-actually-sounds-like'
+  - question: 'Why did Ella Langley leave Auburn for Nashville?'
+    answer: "Langley lasted about a year studying forestry at Auburn before leaving for Nashville in 2019. Her own framing: 'Nothing's going to happen if I stay here.' Her mother Heather greenlit the exit with 'This is your college. This is your schooling to move there.' Permission was not the bottleneck in this household. She spent four years in Nashville co-write rooms, signed with Sony/Columbia in February 2023, and released Hungover in August 2024."
+    anchor: 'why-ella-langley-left-auburn-for-nashville'
 content_quality:
   hook: 9
   enneagram: 9

@@ -14,6 +14,57 @@ enneagram: 7
 type: ['comedian', 'movieStar', 'screen-icon']
 person: 'eddie-murphy'
 suggestions: ['Dave-Chappelle', 'Tyler-Perry', 'Keke-Palmer', 'Caleb-Hearon', 'Will-Smith']
+wikidata_qid: 'Q43874'
+imdb_id: 'nm0000552'
+birth_date: '1961-04-03'
+birth_place: 'Brooklyn, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Comedian'
+  - 'Actor'
+  - 'Filmmaker'
+  - 'Singer'
+knows_about:
+  - 'Stand-up comedy'
+  - 'Sketch comedy'
+  - 'Celebrity impressions'
+  - 'Saturday Night Live'
+  - 'Action comedy filmmaking'
+  - 'Family animation voice acting'
+keywords:
+  - 'Eddie Murphy enneagram'
+  - 'Eddie Murphy type 7'
+  - 'Eddie Murphy personality'
+  - 'Eddie Murphy 7w8'
+  - 'Eddie Murphy OCD'
+  - 'Eddie Murphy SNL'
+  - 'Eddie Murphy recluse'
+  - 'Enthusiast enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Eddie_Murphy'
+  - 'https://www.wikidata.org/wiki/Q43874'
+  - 'https://www.imdb.com/name/nm0000552/'
+  - 'https://www.britannica.com/biography/Eddie-Murphy'
+citations:
+  - 'https://en.wikipedia.org/wiki/Eddie_Murphy'
+  - 'https://en.wikipedia.org/wiki/Eddie_Murphy_Delirious'
+  - 'https://en.wikipedia.org/wiki/Eddie_Murphy_Raw'
+  - 'https://en.wikipedia.org/wiki/Beverly_Hills_Cop'
+  - 'https://en.wikipedia.org/wiki/Dreamgirls_(film)'
+  - 'https://en.wikipedia.org/wiki/Being_Eddie'
+faqs:
+  - question: "What is Eddie Murphy's personality type?"
+    answer: "Eddie Murphy is an Enneagram Type 7 (The Enthusiast). The pattern shows in the eight-year-old who checked the gas dials every night after his father's murder, the comedy career he used to escape unbearable pain, the elaborate information quarantine (no email, no newspapers, no funerals, no award shows) he built to keep negativity out, the ten children and multiple careers that overflow into abundance, and the OCD he disclosed in his 2025 documentary Being Eddie."
+    anchor: 'what-is-eddie-murphys-personality-type'
+  - question: "Why doesn't Eddie Murphy use email or read the news?"
+    answer: "Murphy has not used a computer, email, or read a newspaper in over twenty years. His staff reads articles about him first and only shows him the non-negative ones. He calls himself a 'supersensitive artist' whose antenna picks up pain with the same fidelity it picks up the micro-details that made him a great impressionist. The quarantine is built to protect the instrument."
+    anchor: 'eddie-murphys-information-quarantine'
+  - question: 'Why did Eddie Murphy walk away from stand-up for thirty years?'
+    answer: "Murphy stopped doing stand-up after Raw in 1987 and didn't return until decades later. He has said it stopped being fun once the money got too big, and he watched the cautionary tales — Elvis, Michael Jackson, Prince — that came from young Black artists who could not stop. Six years of sitting on the couch after the Razzies for Norbit and Pluto Nash turned into a parenting decade, not a collapse."
+    anchor: 'the-couch-years-and-the-movies-he-celebrates-anyway'
+  - question: 'How many children does Eddie Murphy have?'
+    answer: 'Murphy has ten children across five partners. He says his superpower is being always present — any one of his kids can tell you which room of the house he is in at any hour. The walls he built against the public face outward; inside the house, the father of ten is fully there.'
+    anchor: 'the-father-of-ten-who-is-always-home'
 content_quality:
   hook: 9
   enneagram: 9

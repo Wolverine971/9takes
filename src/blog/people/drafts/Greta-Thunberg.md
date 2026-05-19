@@ -15,9 +15,60 @@ type: ['activist', 'movement-leader']
 person: 'greta-thunberg'
 suggestions: ['Emma-Watson', 'Hillary-Clinton', 'Jordan-Peterson', 'Steve-Jobs']
 wikipedia: 'https://en.wikipedia.org/wiki/Greta_Thunberg'
+wikidata_qid: 'Q56434717'
+imdb_id: 'nm10361418'
+birth_date: '2003-01-03'
+birth_place: 'Stockholm, Sweden'
+nationality: 'Swedish'
+occupation:
+  - 'Climate activist'
+  - 'Environmental activist'
+  - 'Public speaker'
+  - 'Author'
+knows_about:
+  - 'Climate change activism'
+  - 'School Strike for Climate'
+  - 'Fridays for Future'
+  - 'IPCC climate science'
+  - 'Palestinian solidarity activism'
+  - 'Neurodivergent advocacy'
+  - 'Civil disobedience'
+keywords:
+  - 'Greta Thunberg enneagram'
+  - 'Greta Thunberg type 1'
+  - 'Greta Thunberg personality'
+  - 'Greta Thunberg 1w9'
+  - 'Reformer enneagram'
+  - 'Fridays for Future founder'
+  - 'Greta Thunberg how dare you'
+  - 'Greta Thunberg selective mutism'
 twitter: 'GretaThunberg'
 instagram: 'gretathunberg'
 tiktok: ''
+same_as:
+  - 'https://en.wikipedia.org/wiki/Greta_Thunberg'
+  - 'https://www.wikidata.org/wiki/Q56434717'
+  - 'https://www.imdb.com/name/nm10361418/'
+  - 'https://www.britannica.com/biography/Greta-Thunberg'
+citations:
+  - 'https://en.wikipedia.org/wiki/Greta_Thunberg'
+  - 'https://en.wikipedia.org/wiki/Fridays_for_Future'
+  - 'https://en.wikipedia.org/wiki/School_Strike_for_Climate'
+  - 'https://en.wikipedia.org/wiki/I_Am_Greta'
+  - 'https://en.wikipedia.org/wiki/The_Climate_Book'
+faqs:
+  - question: "What is Greta Thunberg's personality type?"
+    answer: "Greta Thunberg is an Enneagram Type 1 (The Reformer), specifically a 1w9. The pattern shows in the solitary school strike outside Swedish Parliament rather than organizing a coalition, the controlled monotone delivery that treats catastrophe as fact, the 'How dare you!' UN speech as moral mathematics rather than performance, the depression and eating disorders that came from an internal critic with no outlet, and the inability to compartmentalize injustice across climate, Palestine, and Hungarian LGBTQ+ policy."
+    anchor: 'what-is-greta-thunbergs-personality-type'
+  - question: 'Why is Greta Thunberg a 1w9 rather than a 1w2?'
+    answer: "The 9 wing softens Type 1 intensity into withdrawn idealism rather than outgoing advocacy. Her school strike began alone with a handmade sign in silence — a 1w2 would have organized others first. She submits IPCC reports rather than debating opponents, didn't speak outside her immediate family for three years, and admits 'I don't like making small talk with people or socializing.' The anger is channeled through restraint and precision, not through warmth and direct interpersonal correction."
+    anchor: 'why-1w9-the-idealist-rather-than-1w2-the-advocate'
+  - question: 'How did Greta Thunberg go from selective mutism to global speaker?'
+    answer: "Selective mutism is an anxiety-linked condition that makes speech impossible in certain social situations while allowing it where the person feels safe. Greta didn't overcome it to become a speaker — she found a cause important enough to make speech necessary. Her autism strips away social filler so 'she speaks and we see nothing but the message.' For a Type 1 who only speaks when it matters, existential crisis qualifies."
+    anchor: 'from-silence-to-global-voice'
+  - question: "Why did Greta Thunberg pivot from climate to Palestine?"
+    answer: "Type 1s cannot compartmentalize injustice. In her own words: 'For me, it hasn't been solely about the climate at all... we're talking about climate justice. All forms of justice are included within climate justice.' The pivot has cost her — the Mannheim outburst, the Fridays for Future Germany split, the Gaza flotilla detention, the December 2025 arrest under the UK Terrorism Act — but for a Type 1, legal consequences are irrelevant when moral duty calls."
+    anchor: 'from-climate-to-all-forms-of-justice-the-2024-2025-evolution'
 path: src/blog/people/drafts/Greta-Thunberg.md
 content_quality:
   hook: 9.5

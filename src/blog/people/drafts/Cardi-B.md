@@ -15,9 +15,60 @@ type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'cardi-b'
 suggestions: ['Rihanna', 'Doja-Cat', 'Beyonce-Knowles', 'Drake']
 wikipedia: 'https://en.wikipedia.org/wiki/Cardi_B'
-twitter: 'iamcardib'
-instagram: 'iamcardib'
-tiktok: 'iamcardib'
+wikidata_qid: 'Q29033668'
+imdb_id: 'nm8054799'
+birth_date: '1992-10-11'
+birth_place: 'Washington Heights, Manhattan, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Rapper'
+  - 'Songwriter'
+  - 'Television personality'
+  - 'Actress'
+knows_about:
+  - 'Hip hop'
+  - 'Trap music'
+  - 'Bronx street culture'
+  - 'Reality television'
+  - 'Afro-Latina identity'
+  - 'Celebrity political endorsement'
+  - 'Social media direct broadcasting'
+keywords:
+  - 'Cardi B enneagram'
+  - 'Cardi B type 8'
+  - 'Cardi B personality'
+  - 'Cardi B 8w7'
+  - 'Challenger enneagram'
+  - 'Bodak Yellow analysis'
+  - 'WAP Cardi B Megan'
+  - 'Cardi B Offset divorce'
+  - 'Am I the Drama album'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Cardi_B'
+  - 'https://www.wikidata.org/wiki/Q29033668'
+  - 'https://www.imdb.com/name/nm8054799/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Cardi_B'
+  - 'https://www.gq.com/'
+  - 'https://www.vogue.com/'
+  - 'https://www.elle.com/'
+  - 'https://www.vibe.com/'
+faqs:
+  - question: "What is Cardi B's personality type?"
+    answer: "Cardi B is an Enneagram Type 8 (The Challenger), specifically an 8w7 sexual subtype. The pattern shows in her sixth-grade jumping that she still names as the origin of who she is, the way she preempts every attack by exposing herself first ('regular degular shmegular girl from the Bronx'), the binary friend-or-enemy reads of Offset and Nicki Minaj, the conversion of soft feelings into rage on Instagram Live, and the justice-radar that aimed her at Trump, Biden, and Bernie alike."
+    anchor: 'what-is-cardi-bs-personality-type'
+  - question: 'Why did Cardi B throw a shoe at Nicki Minaj?'
+    answer: "At the September 2018 Harper's Bazaar Icons party, Nicki had liked tweets questioning Cardi's abilities as a mother — Kulture was two months old. A Type 8's threat sensor doesn't light up for abstract slights; it lights up when someone goes after the people they protect. The red Christian Louboutin was not a career move. It was the sound of a fortress door slamming closed."
+    anchor: 'the-shoe-the-mic-and-what-cardi-b-actually-protects'
+  - question: "Why did Cardi B's second album take seven years?"
+    answer: "When Type 8s break, they don't get louder — they go quiet, retreating toward Type 5 perfectionism, hoarding verses, and obsessing over threats. She has said she experienced suicidal ideation as far back as 2019 and described feeling like 'somebody dead inside a body.' Then, characteristically, she came back with an album titled Am I the Drama? — making the criticism into the T-shirt and the title of a record that debuted at number one."
+    anchor: 'why-cardi-bs-second-album-took-seven-years'
+  - question: 'Why does Cardi B say everything on Instagram Live?'
+    answer: "She has stated the policy out loud: 'I don't like talking about my feelings because when you show weakness, people be like, oh, sympathy.' For a Type 8, flooding the room with your own truth — at 2 a.m., in a bonnet, in a Bronx accent — leaves no leverage for anyone else. Every other pop star of her era has a publicist between themselves and the audience. She refuses one. The refusal is the point."
+    anchor: 'the-bronx-armor-she-never-took-off'
+  - question: "What is Cardi B's growth edge as a Type 8?"
+    answer: "Type 8s don't struggle with visibility — they struggle with access. The fortress accepts visitors, not residents. Her growth direction toward Type 2 means learning that power can include letting somebody take care of her. Her four children are the test case: 'I want you to be a 100 times better version' of her, which for an 8 means accepting that the armor she built to survive is not what she wants her daughters to inherit."
+    anchor: 'what-cardi-b-is-still-figuring-out'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

@@ -1,0 +1,25 @@
+Quora warmup complete for 2026-05-19.
+
+```
+MODE: non-interactive
+SESSION: docs/quora/sessions/2026-05-19_quora-warmup.md
+QUEUED: 1
+SKIPPED: 1 deep-evaluated + 19 surface-filtered keywords
+LIMITATIONS: Type 7 fresh-angle vocabulary structurally exhausted (4th consecutive session); Type 5/Type 3/Type 8 follow-up searches returned weak signal at literal phrasing.
+```
+
+Searches run: 21
+Questions evaluated: 2 (deep)
+Questions queued: 1
+Questions skipped: 1 (deep) + ~19 (surface)
+
+Priority queue:
+1. "Why are the nicest people always depressed and lonely?" — Est. 50K+ views, 145 answers + 100+ related — Angle: **Type 2 shadow-collapse-arc PRIMARY** (depleted-helper-outcome; closes long-open Type 2 outcome/shadow gap — distinct from all 18 prior behavioral entries). Score 88.
+
+Type coverage: Type 2 PRIMARY — missing 1, 3, 5, 6, 7, 8, 9 (Type 7 confirmed structurally exhausted at current vocabulary)
+Blog matches: 1 of 1 (enneagram-type-2)
+
+Question log: docs/quora/question-log.md
+Session doc: docs/quora/sessions/2026-05-19_quora-warmup.md
+
+Next step: /quora-answer docs/quora/sessions/2026-05-19_quora-warmup.md

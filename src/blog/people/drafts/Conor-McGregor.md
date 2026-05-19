@@ -15,9 +15,54 @@ type: ['celebrity', 'celebrity-image']
 person: 'conor-mcgregor'
 suggestions: ['Andrew-Tate', 'Jake-Paul', 'Joe-Rogan', 'Dave-Portnoy']
 wikipedia: 'https://en.wikipedia.org/wiki/Conor_McGregor'
-twitter: 'TheNotoriousMMA'
-instagram: 'thenotoriousmma'
-tiktok: ''
+wikidata_qid: 'Q5162259'
+imdb_id: 'nm6135552'
+birth_date: '1988-07-14'
+birth_place: 'Crumlin, Dublin, Ireland'
+nationality: 'Irish'
+occupation:
+  - 'Mixed martial artist'
+  - 'Boxer'
+  - 'Entrepreneur'
+  - 'Actor'
+knows_about:
+  - 'Mixed martial arts'
+  - 'Boxing'
+  - 'Trash talk and fight promotion'
+  - 'Visualization and self-belief'
+  - 'Proper No. Twelve whiskey'
+  - 'Bare-knuckle fighting promotion'
+keywords:
+  - 'Conor McGregor enneagram'
+  - 'Conor McGregor type 8'
+  - 'Conor McGregor personality'
+  - 'McGregor 8w7'
+  - 'Challenger enneagram'
+  - 'Conor McGregor Khabib'
+  - 'McGregor pub punch'
+  - 'McGregor visualization'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Conor_McGregor'
+  - 'https://www.wikidata.org/wiki/Q5162259'
+  - 'https://www.imdb.com/name/nm6135552/'
+  - 'https://www.ufc.com/athlete/conor-mcgregor'
+  - 'https://www.britannica.com/biography/Conor-McGregor'
+citations:
+  - 'https://www.espn.com/mma/story/_/id/31346618/conor-mcgregor-sells-majority-whiskey-brand-proper-no-twelve-600m'
+  - 'https://en.wikipedia.org/wiki/Conor_McGregor'
+  - 'https://en.wikipedia.org/wiki/UFC_229'
+  - 'https://en.wikipedia.org/wiki/Khabib_Nurmagomedov'
+  - 'https://www.properwhiskey.com/'
+faqs:
+  - question: "What is Conor McGregor's personality type?"
+    answer: "Conor McGregor is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the motorway shoulder he refused to ever stand on again, the visualization-as-religion he ran from the Peugeot 206 to a featherweight belt, the 13-second knockout he predicted out loud, the steel dolly he threw through a bus window, the old man he punched for declining whiskey, and the threats he screamed at Poirier's wife from the canvas with a broken leg."
+    anchor: 'what-is-conor-mcgregors-personality-type'
+  - question: 'Why did Conor McGregor attack the bus and punch an old man in a pub?'
+    answer: "Between the October 2018 Khabib submission and the July 2021 broken leg, McGregor went 1-3 in the octagon. Every off-cage incident clustered in the same window. For a Type 8, public submission is the one outcome the visualization cannot rehearse; when the legitimate outlet for intensity closes, the aggression does not disappear, it floods. The Brooklyn dolly, the Marble Arch pub punch, and the broken-leg threats track that narrowing in real time."
+    anchor: 'the-dolly-the-old-man-and-the-broken-leg'
+  - question: 'What does Conor McGregor mean when he says he is saved?'
+    answer: "At a BKFC press conference in Italy in October 2025, McGregor publicly attributed his recovery to a spiritual journey: 'I've been saved. I'm saved. I am healed.' After his Vatican wedding to Dee Devlin in December 2025, he went further — 'Serving God is my number one priority.' For a Type 8 whose entire operating system rejects surrender as biological threat, naming a higher authority is structural — even if the November 2024 sexual-assault verdict and the ongoing controversies suggest the saving is not finished."
+    anchor: 'i-am-saved'
 content_quality:
   hook: 9
   enneagram: 8.5

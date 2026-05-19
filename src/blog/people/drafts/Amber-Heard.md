@@ -15,6 +15,51 @@ type: ['celebrity', 'screen-icon']
 person: 'amber-heard'
 suggestions: ['Johnny-Depp', 'Margot-Robbie', 'Blake-Lively', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Amber_Heard'
+wikidata_qid: 'Q229166'
+imdb_id: 'nm1720028'
+birth_date: '1986-04-22'
+birth_place: 'Austin, Texas, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Film producer'
+  - 'Model'
+  - 'Activist'
+knows_about:
+  - 'Film acting'
+  - 'Theater acting'
+  - 'Image management and reinvention'
+  - 'Bisexual visibility in Hollywood'
+  - 'Domestic violence advocacy'
+  - 'ACLU women''s rights ambassadorship'
+  - 'Surrogacy and single motherhood'
+keywords:
+  - 'Amber Heard enneagram'
+  - 'Amber Heard type 3'
+  - 'Amber Heard personality'
+  - 'Amber Heard 3w4'
+  - 'Achiever enneagram'
+  - 'Amber Heard Johnny Depp trial'
+  - 'Amber Heard ACLU donation'
+  - 'Amber Heard Spain Madrid'
+  - 'Amber Heard Aquaman 2'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Amber_Heard'
+  - 'https://www.wikidata.org/wiki/Q229166'
+  - 'https://www.imdb.com/name/nm1720028/'
+faqs:
+  - question: "What is Amber Heard's personality type?"
+    answer: "Amber Heard is an Enneagram Type 3 (The Achiever). The pattern shows in her relentless reinvention from Texas pageants to Hollywood lead to fluent-Spanish theater debut in Madrid, her trial statement insisting on 'no admission' even in defeat, her surrogacy-driven motherhood framed as 'the family I've strived to build,' and the donation-vs-pledge controversy that exposed image management as her core operating system."
+    anchor: 'what-is-amber-heards-personality-type'
+  - question: 'Why did Amber Heard move to Spain after the Depp trial?'
+    answer: "Heard sold her Yucca Valley home and relocated to Madrid claiming no U.S. state domicile, a legal maneuver to complicate the federal insurance lawsuit over her unpaid settlement. It also functioned as a Type 3 narrative reset: a new country, a new language, and a new arena where she could rebuild an image American tabloids had taken apart in real time."
+    anchor: 'the-financial-aftermath'
+  - question: 'Did Amber Heard actually donate her $7 million divorce settlement?'
+    answer: "No. Heard pledged her entire settlement to the ACLU and Children's Hospital of LA but the ACLU received only $1.3 million — $500,000 from Elon Musk, $350,000 anonymously (likely also Musk), and $100,000 from Johnny Depp himself. On the stand she said she used 'pledge and donate synonymous with one another,' a moment one juror called 'a fiasco for her' and the collision point where her activist image hit reality."
+    anchor: 'the-donation-controversy'
+  - question: 'How does Amber Heard frame her motherhood?'
+    answer: "On Mother's Day 2025, announcing twins Agnes and Ocean, Heard wrote about 'the family I've strived to build for years' — strived, as in earned. She chose surrogacy after fertility challenges, identifies as 'the mom and the dad' with no father publicly named, and repeats 'on my own terms' across statements. Even motherhood is framed as goals accomplished, a Type 3 pattern that has shifted arenas but not orientation."
+    anchor: 'motherhood-on-her-own-terms'
 twitter: ''
 instagram: ''
 tiktok: ''

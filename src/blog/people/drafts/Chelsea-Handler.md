@@ -15,9 +15,56 @@ type: ['comedian']
 person: 'chelsea-handler'
 suggestions: ['Amy-Poehler', 'Joe-Rogan', 'Kara-Swisher', 'Dave-Portnoy']
 wikipedia: 'https://en.wikipedia.org/wiki/Chelsea_Handler'
-twitter: 'chelseahandler'
-instagram: 'chelseahandler'
-tiktok: 'chelseahandler'
+wikidata_qid: 'Q262502'
+imdb_id: 'nm1314546'
+birth_date: '1975-02-25'
+birth_place: 'Livingston, New Jersey, United States'
+nationality: 'American'
+occupation:
+  - 'Comedian'
+  - 'Author'
+  - 'Talk show host'
+  - 'Activist'
+knows_about:
+  - 'Stand-up comedy'
+  - 'Late-night television hosting'
+  - 'Memoir writing'
+  - 'Cannabis legalization advocacy'
+  - 'Grief and therapy as material'
+  - 'Celebrity interviewing'
+keywords:
+  - 'Chelsea Handler enneagram'
+  - 'Chelsea Handler type 8'
+  - 'Chelsea Handler personality'
+  - 'Chelsea Handler 8w7'
+  - 'Chelsea Lately enneagram'
+  - 'Chelsea Handler Jane Fonda'
+  - 'Chelsea Handler Chet brother'
+  - 'Challenger enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Chelsea_Handler'
+  - 'https://www.wikidata.org/wiki/Q262502'
+  - 'https://www.imdb.com/name/nm1314546/'
+  - 'https://www.britannica.com/biography/Chelsea-Handler'
+citations:
+  - 'https://en.wikipedia.org/wiki/Chelsea_Handler'
+  - 'https://en.wikipedia.org/wiki/Chelsea_Lately'
+  - 'https://en.wikipedia.org/wiki/Are_You_There%2C_Vodka%3F_It%27s_Me%2C_Chelsea'
+  - 'https://en.wikipedia.org/wiki/Life_Will_Be_the_Death_of_Me'
+  - 'https://en.wikipedia.org/wiki/Chelsea_(TV_series)'
+faqs:
+  - question: "What is Chelsea Handler's personality type?"
+    answer: "Chelsea Handler has publicly identified as an Enneagram Type 8 (The Challenger), likely 8w7. The pattern shows in the nine-year-old who decided to be 'the reason we're going to have joy again' after her brother Chet died, the late-night desk where she eviscerated celebrities with a precision that made Joan Rivers look diplomatic, the mantra 'I don't need a man, I don't need you, I don't need a family' she repeated until therapy revealed it as a defense — and the Jane Fonda dinner that finally cracked the shell."
+    anchor: 'chelsea-handler-is-an-enneagram-type-8'
+  - question: "How did Chet Handler's death shape Chelsea?"
+    answer: "Chet — her older brother, her 'protector, father figure, big brother, crush' — promised he would never leave her with her parents, then fell eighty feet off a cliff in Grand Teton on July 10, 1984. Chelsea was nine. Her family decided she was too young to grieve, so she rode her bike for hours alone to cry where no one could see, then came home and started being funny. 'When he died, he may as well have found a different family with a sister who was cuter, and funnier.' That reframing — death as abandonment — rewired everything."
+    anchor: 'the-brother-she-never-recovered-from'
+  - question: 'What did Jane Fonda say to Chelsea Handler at that dinner?'
+    answer: "Fonda invited Chelsea to dinner and didn't soften it: 'You behaved badly at my party… you had a black cloud hanging over you and you insulted people and it brought the whole party down.' Then the verdict: 'Go find out what your problem is, because your gifts are plentiful, and sometimes people with the most gifts have the easiest time throwing them in the trash.' Chelsea, for once, didn't deflect with a joke. She started therapy in 2017 and wrote Life Will Be the Death of Me — the first book that actually cost her something."
+    anchor: 'the-jane-fonda-dinner-that-broke-the-pattern'
+  - question: "Why did Chelsea Handler's relationship with Jo Koy end?"
+    answer: "They had been friends for fifteen years before dating in 2021 and broke up a year later. Chelsea's diagnosis was direct: 'I would have compromised my own value system. I did not want to break up. I had no choice.' Translation: he wanted her to need him; she couldn't. The post-therapy admission was the new part — 'I come on too strong. I think I'm being direct, but sometimes I'm just being controlling.' That sentence, from a woman who spent decades equating directness with virtue, is the sound of a Type 8 actually growing."
+    anchor: 'what-the-jo-koy-relationship-exposed'
 content_quality:
   hook: 9
   enneagram: 9

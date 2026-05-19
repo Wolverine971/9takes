@@ -16,8 +16,58 @@ type: ['comedian', 'celebrity']
 person: 'jerry-seinfeld'
 suggestions: ['Tina-Fey', 'Dave-Chappelle', 'Jon-Stewart', 'Stephen-Colbert']
 wikipedia: 'https://en.wikipedia.org/wiki/Jerry_Seinfeld'
-twitter: 'JerrySeinfeld'
-instagram: 'jerryseinfeld'
+wikidata_qid: 'Q215506'
+imdb_id: 'nm0000632'
+birth_date: '1954-04-29'
+birth_place: 'Brooklyn, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Comedian'
+  - 'Actor'
+  - 'Writer'
+  - 'Producer'
+  - 'Director'
+knows_about:
+  - 'Observational stand-up comedy'
+  - 'Sitcom writing and showrunning'
+  - 'Joke craft and rewriting'
+  - 'Transcendental Meditation'
+  - 'Porsche collecting and automotive history'
+  - 'Long-form interview craft'
+keywords:
+  - 'Jerry Seinfeld enneagram'
+  - 'Jerry Seinfeld type 5'
+  - 'Jerry Seinfeld personality'
+  - 'Jerry Seinfeld 5w6'
+  - 'Investigator enneagram'
+  - 'Seinfeld writing process'
+  - 'Jerry Seinfeld Unfrosted'
+  - 'Jerry Seinfeld Pop-Tart joke'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jerry_Seinfeld'
+  - 'https://www.wikidata.org/wiki/Q215506'
+  - 'https://www.imdb.com/name/nm0000632/'
+  - 'https://www.britannica.com/biography/Jerry-Seinfeld'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jerry_Seinfeld'
+  - 'https://en.wikipedia.org/wiki/Seinfeld'
+  - 'https://en.wikipedia.org/wiki/Unfrosted'
+  - 'https://en.wikipedia.org/wiki/Bee_Movie'
+  - 'https://en.wikipedia.org/wiki/Comedians_in_Cars_Getting_Coffee'
+  - 'https://en.wikipedia.org/wiki/Is_This_Anything%3F'
+faqs:
+  - question: "What is Jerry Seinfeld's personality type?"
+    answer: "Jerry Seinfeld is an Enneagram Type 5 (The Investigator), specifically a 5w6. The pattern shows in the two-year rewrite of a single Pop-Tart joke, the 200 rehearsals before his first Tonight Show set, the Transcendental Meditation practice he has held twice a day since 1972, the 45 years of yellow legal pads compiled into Is This Anything?, his refusal to ever work blue, the 25-plus-year marriage and decades-long writing partnership the Six wing built, and the three-story Manhattan car library where he can recite chassis numbers."
+    anchor: 'what-is-jerry-seinfelds-personality-type'
+  - question: 'How did Jerry Seinfeld inherit his comedy method from his father?'
+    answer: "Kalman Seinfeld was a Hungarian Jew, World War II Army veteran, and Brooklyn sign painter who kept a literal box of jokes he had collected during the war on scraps of paper. Jerry inherited the method, not the sense of humor: collect, store, refine, refine again, show no one until it is right. The 45 years of legal pads, Comedians in Cars Getting Coffee as a comedian catalogue, and the Don't-Break-the-Chain calendar are all variations on Kalman's box."
+    anchor: 'how-a-sign-painters-son-inherited-a-system'
+  - question: 'Why did Jerry Seinfeld walk off-script in 2024?'
+    answer: "After October 7, 2023, the Six wing of his 5w6 reached first for the tribe. He flew to Israel in December 2023 to sit with kibbutz survivors, then in 2024 blamed 'the extreme left and PC crap' for killing TV comedy, declared 'the movie business is over,' and gave a Duke commencement that 100 students walked out of. By October 2024 he had walked the 'extreme left' line back word for word. The Six wing reaches first; the Five returns and audits later."
+    anchor: 'jerry-seinfeld-and-the-year-he-walked-off-script'
+  - question: 'Why does Jerry Seinfeld spend two years rewriting one joke?'
+    answer: "He waited two years to get one Pop-Tart bit right for 23 Hours to Kill. Most comedians walk away from a single joke after a week. Even at his hourly rate, the math is irrational. But a Type 5's romantic part of the job is the cold part — the cutting, the syllable count, the place where a joke that already works gets shaved until it works more. The bit was not done. It was therefore worth being undone for as long as it took."
+    anchor: 'why-jerry-seinfeld-will-not-stop-writing'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

@@ -18,6 +18,55 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jacob_Elordi'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q53909401'
+imdb_id: 'nm8624059'
+birth_date: '1997-06-26'
+birth_place: 'Brisbane, Queensland, Australia'
+nationality: 'Australian'
+occupation:
+  - 'Actor'
+knows_about:
+  - 'Method-adjacent character work'
+  - 'Prosthetic-driven performance'
+  - 'Auteur-directed cinema'
+  - 'Basque diaspora identity'
+  - 'Stage and absurdist theatre'
+  - 'Private creative ritual'
+keywords:
+  - 'Jacob Elordi enneagram'
+  - 'Jacob Elordi type 4'
+  - 'Jacob Elordi personality'
+  - 'Jacob Elordi 4w5'
+  - 'Individualist enneagram'
+  - 'Jacob Elordi Frankenstein'
+  - 'Jacob Elordi Saltburn'
+  - 'Jacob Elordi Priscilla'
+  - 'Jacob Elordi Superman'
+  - 'Jacob Elordi Basque'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jacob_Elordi'
+  - 'https://www.wikidata.org/wiki/Q53909401'
+  - 'https://www.imdb.com/name/nm8624059/'
+  - 'https://www.britannica.com/biography/Jacob-Elordi'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jacob_Elordi'
+  - 'https://en.wikipedia.org/wiki/Saltburn_(film)'
+  - 'https://en.wikipedia.org/wiki/Frankenstein_(2025_film)'
+  - 'https://en.wikipedia.org/wiki/Priscilla_(film)'
+  - 'https://en.wikipedia.org/wiki/The_Narrow_Road_to_the_Deep_North_(miniseries)'
+faqs:
+  - question: "What is Jacob Elordi's personality type?"
+    answer: "Jacob Elordi is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in the Waiting for Godot read at fifteen that rewrote his personality overnight, the public correction of his Wikipedia 'Spanish descent' to Basque, the candle-lit Frankenstein script reading, his refusal to audition for Superman because it 'didn't feel like him,' and a career of apprenticeships under Coppola, Fennell, del Toro and Kurzel that prizes authenticity over scale."
+    anchor: 'what-is-jacob-elordis-personality-type'
+  - question: 'Why did Jacob Elordi turn down Superman?'
+    answer: "Elordi declined to even audition for Superman, saying 'That's too dark for me' — meaning not the character's tone but what playing the most iconic hero in cinema would do to his soul. 'I like to make what I would watch, and I get very restless watching those movies.' For a Type 4, inauthenticity is existentially threatening; he'd rather lose the opportunity than fake a role that doesn't feel like him."
+    anchor: 'the-apprentice'
+  - question: 'Why does Jacob Elordi keep picking outcast roles?'
+    answer: "From Felix in Saltburn to Elvis in Priscilla to Frankenstein's creature to Dorrigo Evans in The Narrow Road to the Deep North, every character lives inside a gap between what the world sees and what's actually there. Each role is a different answer to the same question his Basque grandfather Joaquin, who fled Franco's dictatorship, and his father John, who built a quiet life in Brisbane, have been living for three generations. The misunderstood outcast is the only mirror in which a Type 4 recognizes himself."
+    anchor: 'playing-the-monsters-and-the-ghosts'
+  - question: "Why did Jacob Elordi call The Kissing Booth movies 'dead inside'?"
+    answer: "The Netflix teen rom-coms made Elordi a global name and made him miserable. He called the 'commercial work to fund artistic work' compromise 'a trap' where 'you have no original ideas and you're dead inside.' That phrase is the Type 4 wound named directly — the unbearable gap between the heartthrob image the world handed him and the actor he believed he actually was."
+    anchor: 'youre-dead-inside'
 path: src/blog/people/drafts/Jacob-Elordi.md
 content_quality:
   hook: 9

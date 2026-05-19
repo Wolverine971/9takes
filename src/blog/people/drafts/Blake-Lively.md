@@ -15,9 +15,58 @@ type: ['celebrity', 'screen-icon']
 person: 'blake-lively'
 suggestions: ['Ryan-Reynolds', 'Taylor-Swift', 'Scarlett-Johansson', 'Jennifer-Garner']
 wikipedia: 'https://en.wikipedia.org/wiki/Blake_Lively'
-twitter: ''
-instagram: 'blakelively'
-tiktok: ''
+wikidata_qid: 'Q162959'
+imdb_id: 'nm0515116'
+birth_date: '1987-08-25'
+birth_place: 'Tarzana, Los Angeles, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Producer'
+  - 'Entrepreneur'
+knows_about:
+  - 'Film acting'
+  - 'Self-styling'
+  - 'Beverage product development'
+  - 'Brand curation'
+  - 'Met Gala fashion'
+  - 'Survival thriller filmmaking'
+keywords:
+  - 'Blake Lively enneagram'
+  - 'Blake Lively type 1'
+  - 'Blake Lively personality'
+  - 'Blake Lively perfectionist'
+  - 'Reformer enneagram'
+  - 'It Ends With Us Blake Lively'
+  - 'Blake Lively Justin Baldoni lawsuit'
+  - 'Blake Lively Taylor Swift texts'
+  - 'Blake Lively Betty Buzz'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Blake_Lively'
+  - 'https://www.wikidata.org/wiki/Q162959'
+  - 'https://www.imdb.com/name/nm0515116/'
+  - 'https://www.britannica.com/biography/Blake-Lively'
+citations:
+  - 'https://en.wikipedia.org/wiki/Blake_Lively'
+  - 'https://en.wikipedia.org/wiki/It_Ends_with_Us_(film)'
+  - 'https://en.wikipedia.org/wiki/A_Simple_Favor_(film)'
+  - 'https://en.wikipedia.org/wiki/The_Shallows_(film)'
+  - 'https://en.wikipedia.org/wiki/Another_Simple_Favor'
+  - 'https://en.wikipedia.org/wiki/Ryan_Reynolds'
+  - 'https://en.wikipedia.org/wiki/Betty_(Taylor_Swift_song)'
+faqs:
+  - question: "What is Blake Lively's personality type?"
+    answer: "Blake Lively is an Enneagram Type 1 (The Reformer/Perfectionist). The pattern shows in her refusal to use a stylist, the three years she spent perfecting Betty Buzz recipes, the 17-point list of non-negotiable demands she handed Sony during It Ends With Us, the self-edit of her own film using Deadpool editors, and the fact that even Taylor Swift couldn't reach her through the performance during the worst year of her career."
+    anchor: 'what-is-blake-livelys-personality-type'
+  - question: 'Why did Taylor Swift say she couldn’t find Blake Lively?'
+    answer: "Surfaced in unsealed January 2026 court exhibits, Swift texted Blake during the It Ends With Us crisis: 'I just kinda miss my funny, dark, normal-speaking friend who talks to me as herself.' Her blunter line: 'It's felt like I was reading a mass corporate email sent to 200 employees.' Swift — godmother to all four of Blake's kids — wasn't accusing her, she was reporting. Even Blake's most intimate relationships had begun operating at the level of disclosure."
+    anchor: 'the-friend-who-couldnt-find-her'
+  - question: "What was the 'Ryle You Wait' cocktail controversy?"
+    answer: "At the It Ends With Us premiere afterparty, Blake served Betty Buzz cocktails — one of which was named 'Ryle You Wait,' a pun on the name of the domestic abuser at the film's center. A Sony executive later called the tie-ins 'epic level stupid' and said 'she wouldn't listen.' Co-star and director Justin Baldoni centered survivors in every appearance; Blake promoted florals and haircare. It is the Type 1 curator's blind spot at maximum stakes — control of the merchandise, no control over the optics."
+    anchor: 'when-the-curated-world-cracked'
+  - question: 'Why did Blake Lively defend Woody Allen at Cannes in 2016?'
+    answer: "Promoting Café Society while Dylan Farrow's allegations were back in the news, Blake said 'My experience with Woody is he's empowering to women' and added 'It's amazing what Woody has written for women.' Eight years later she was the face of a domestic violence film and a self-described protector of survivors. The contradiction isn't hypocrisy — it's the blind spot of a curator who trusted the image she could see over the reporting she refused to read."
+    anchor: 'what-she-controls'
 path: src/blog/people/drafts/Blake-Lively.md
 content_quality:
   hook: 10

@@ -14,13 +14,13 @@ Architecture rationale lives in `docs/instagram/instagram-saves-engine-architect
 
 The command takes one mode argument. Default if absent: print the mode menu and stop.
 
-| Mode      | Reads from                                | Writes to                                         |
-| --------- | ----------------------------------------- | ------------------------------------------------- |
-| `capture` | Instagram Saved page (Claude in Chrome)   | `docs/instagram/saves/inbox/`                     |
-| `triage`  | `docs/instagram/saves/inbox/`             | `docs/instagram/saves/{processed,rejected}/`      |
-| `ideate`  | `docs/instagram/saves/processed/`         | `docs/instagram/saves/ideas/`                     |
-| `assets`  | `docs/instagram/saves/ideas/`             | `docs/instagram/saves/assets/`                    |
-| `digest`  | All save folders                          | `docs/instagram/saves/digests/YYYY-MM-DD.md`      |
+| Mode      | Reads from                              | Writes to                                    |
+| --------- | --------------------------------------- | -------------------------------------------- |
+| `capture` | Instagram Saved page (Claude in Chrome) | `docs/instagram/saves/inbox/`                |
+| `triage`  | `docs/instagram/saves/inbox/`           | `docs/instagram/saves/{processed,rejected}/` |
+| `ideate`  | `docs/instagram/saves/processed/`       | `docs/instagram/saves/ideas/`                |
+| `assets`  | `docs/instagram/saves/ideas/`           | `docs/instagram/saves/assets/`               |
+| `digest`  | All save folders                        | `docs/instagram/saves/digests/YYYY-MM-DD.md` |
 
 ---
 
@@ -91,7 +91,7 @@ Goal: read the active Instagram Saved page (or a specific collection from `allow
    - If DJ named a specific collection in the invocation, use `https://www.instagram.com/<capture_account>/saved/<collection-slug>/`.
    - Else if `.local/config.json` has `capture_url_override`, use that URL verbatim.
    - Else use `https://www.instagram.com/<capture_account>/saved/`.
-   Note: when the account has no named collections yet, the `/saved/` root renders only a "+ New Collection" prompt and no tiles. In that case `capture_url_override` should point at `/saved/all-posts/` so this mode has something to read.
+     Note: when the account has no named collections yet, the `/saved/` root renders only a "+ New Collection" prompt and no tiles. In that case `capture_url_override` should point at `/saved/all-posts/` so this mode has something to read.
 3. Navigate to that URL.
 4. For each visible saved item, in order:
    - Extract the canonical post URL.
@@ -137,17 +137,17 @@ Goal: review each `inbox/` save file and decide keep, reject, or needs-more-cont
 
 ### Triage rubric (0–10)
 
-| Signal                              | Points |
-| ----------------------------------- | ------ |
-| Clear pattern (not a vague vibe)    | +3     |
-| 9takes voice fit (provocative, evidence-based, falsifiable) | +2 |
-| Audience overlap with 9takes        | +2     |
-| Format we can produce (carousel, reel, caption) | +1 |
-| Tie-in to existing 9takes blog or person | +1 |
-| **Penalties**                       |        |
-| Pure gossip / fan content           | −3     |
-| Mental-health diagnosis territory   | −3     |
-| Heavy IP / would require reposting creator content | −2 |
+| Signal                                                      | Points |
+| ----------------------------------------------------------- | ------ |
+| Clear pattern (not a vague vibe)                            | +3     |
+| 9takes voice fit (provocative, evidence-based, falsifiable) | +2     |
+| Audience overlap with 9takes                                | +2     |
+| Format we can produce (carousel, reel, caption)             | +1     |
+| Tie-in to existing 9takes blog or person                    | +1     |
+| **Penalties**                                               |        |
+| Pure gossip / fan content                                   | −3     |
+| Mental-health diagnosis territory                           | −3     |
+| Heavy IP / would require reposting creator content          | −2     |
 
 ---
 

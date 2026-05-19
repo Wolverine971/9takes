@@ -18,6 +18,58 @@ wikipedia: 'https://en.wikipedia.org/wiki/Gary_Vaynerchuk'
 twitter: 'garyvee'
 instagram: 'garyvee'
 tiktok: 'garyvee'
+wikidata_qid: 'Q3098629'
+imdb_id: 'nm2734089'
+birth_date: '1975-11-14'
+birth_place: 'Babruysk, Byelorussian SSR, Soviet Union'
+nationality:
+  - 'Belarusian'
+  - 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Investor'
+  - 'Author'
+  - 'Internet personality'
+knows_about:
+  - 'Social media marketing'
+  - 'Wine retail'
+  - 'Brand building'
+  - 'Early-stage investing'
+  - 'Content strategy'
+  - 'Emotional intelligence in business'
+  - 'NFTs and Web3'
+keywords:
+  - 'Gary Vee Enneagram'
+  - 'Gary Vaynerchuk personality type'
+  - 'Gary Vee Type 3'
+  - 'Gary Vee 3w2'
+  - 'Achiever Enneagram'
+  - 'Gary Vee VaynerMedia'
+  - 'Gary Vee Empathy Wines'
+  - 'Gary Vee insecurity is makeup'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Gary_Vaynerchuk'
+  - 'https://www.wikidata.org/wiki/Q3098629'
+  - 'https://www.imdb.com/name/nm2734089/'
+  - 'https://garyvaynerchuk.com/'
+  - 'https://twitter.com/garyvee'
+citations:
+  - 'https://en.wikipedia.org/wiki/Gary_Vaynerchuk'
+  - 'https://garyvaynerchuk.com/biography/'
+  - 'https://www.imdb.com/name/nm2734089/'
+faqs:
+  - question: "What is Gary Vee's personality type?"
+    answer: "Gary Vaynerchuk maps onto Enneagram Type 3w2 — the Achiever with a Helper wing. The pattern shows in his father-installed achievement template, his mother-installed self-esteem cushion, the 'jab jab jab right hook' generosity that's load-bearing rather than tactical, and his own on-camera confession that 'insecurity is makeup' for someone using massive success to answer the question of whether he matters."
+    anchor: 'what-is-gary-vees-personality-type'
+  - question: 'Why did Gary Vee name his wine brand Empathy Wines?'
+    answer: "In 2019, while his clips were still preaching 'sacrifice your twenties,' Gary launched Empathy Wines — not as a pivot but as the same Type 3w2 engine firing in two directions. The Three wants to win. The Two wing wants to help. Naming a wine brand Empathy isn't contradiction; it's the brand identity of someone whose ambition has always been wrapped in generosity."
+    anchor: 'what-is-gary-vees-personality-type'
+  - question: "What did Gary Vee mean by 'insecurity is makeup'?"
+    answer: "Gary said it on camera: 'When you're deeply insecure, you might create massive success because you're using it as makeup. Thinking, if I put up the points on the board, everyone will think I'm good, even though I secretly don't think I'm good.' For a Type 3, that sentence is the operating system confessed aloud — success as cosmetics over an unresolved worthlessness wound."
+    anchor: 'the-thesis-insecurity-is-makeup'
+  - question: "Why does Gary Vee want to buy the New York Jets?"
+    answer: "Gary's mother knitted him a Jets jersey when the family couldn't afford one, so even the dream is braided with her. He's said 'I need a crazy goal so I never have to stop' — for a Type 3, a north star they can't actually reach is insurance against ever having to sit still and face the original worthlessness question."
+    anchor: 'the-jets-the-north-star-hell-never-catch'
 path: src/blog/people/drafts/Gary-Vee.md
 content_quality:
   hook: 9

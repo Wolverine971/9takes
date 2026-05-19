@@ -15,10 +15,61 @@ type: ['musician']
 person: 'dua-lipa'
 suggestions: ['Taylor-Swift', 'Ariana-Grande', 'Billie-Eilish', 'Charli-XCX']
 wikipedia: 'https://en.wikipedia.org/wiki/Dua_Lipa'
+wikidata_qid: 'Q21914464'
+imdb_id: 'nm7645984'
+birth_date: '1995-08-22'
+birth_place: 'London, England, United Kingdom'
+nationality:
+  - 'British'
+  - 'Albanian'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Model'
+  - 'Media entrepreneur'
+knows_about:
+  - 'Pop songwriting'
+  - 'Disco-pop production'
+  - 'Stadium tour design'
+  - 'Service95 cultural curation'
+  - 'Albanian-Kosovan heritage advocacy'
+  - 'Mezzo-soprano vocal performance'
+keywords:
+  - 'Dua Lipa enneagram'
+  - 'Dua Lipa type 3'
+  - 'Dua Lipa personality'
+  - 'Dua Lipa Achiever'
+  - 'Dua Lipa Service95'
+  - 'Dua Lipa Radical Optimism analysis'
+  - 'Dua Lipa New Rules psychology'
+  - 'Dua Lipa Future Nostalgia'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Dua_Lipa'
+  - 'https://www.wikidata.org/wiki/Q21914464'
+  - 'https://www.imdb.com/name/nm7645984/'
+  - 'https://www.britannica.com/biography/Dua-Lipa'
 twitter: '@DUALIPA'
 instagram: '@dualipa'
 tiktok: '@dualipaofficial'
-content_quality:
+citations:
+  - 'https://en.wikipedia.org/wiki/Dua_Lipa'
+  - 'https://en.wikipedia.org/wiki/New_Rules_(song)'
+  - 'https://en.wikipedia.org/wiki/Future_Nostalgia'
+  - 'https://en.wikipedia.org/wiki/Radical_Optimism'
+  - 'https://www.service95.com/'
+faqs:
+  - question: "What is Dua Lipa's personality type?"
+    answer: 'Dua Lipa is an Enneagram Type 3 (The Achiever). The pattern shows in the nine-year-old who answered a choir rejection by finding "the scariest teacher" at Sylvia Young Theatre School, the fifteen-year-old who moved back to London alone with "no plan B," the protocol-as-pop-song instinct that produced "New Rules," the Service95 newsletter built as "a way to find order in the chaos," and the post-2018-Brit-Awards "no stage presence" tweet that fueled a Glastonbury Pyramid Stage headline slot.'
+    anchor: 'what-is-dua-lipas-personality-type'
+  - question: 'Why did Dua Lipa move to London alone at 15?'
+    answer: 'After her family relocated to Kosovo following independence in 2008, Dua Lipa assessed that her musical career required London and made the call: "I''m going back to London. Alone." Her parents agreed because she had always been "very mature as a child." She moved in with a family friend in Camden, finished her A-Levels at Parliament Hill School, took modeling and waitressing jobs to fund demo sessions, and treated reckless-looking sacrifice as clarity. Type 3s measure futures, not feelings, when the worth equation is at stake.'
+    anchor: 'the-scariest-teacher-and-what-he-understood-about-her'
+  - question: 'What does "New Rules" reveal about how Dua Lipa processes pain?'
+    answer: 'Dua Lipa picked up "New Rules" — a song Caroline Ailin and Emily Warren had written and seen rejected elsewhere — because it was "the breakup song I wished I had." Type 3s rarely process pain through grief; they build systems. Turning a breakup into a numbered three-step operational protocol, then making the protocol globally legible enough that two billion streams adopted it, is the Achiever''s signature: convert private chaos into a public framework, and treat helping others as another achievement.'
+    anchor: 'writing-the-rules'
+  - question: 'How did Service95 become a Type 3 evolution rather than a brand extension?'
+    answer: 'Service95 launched in 2022 as a weekly newsletter Dua Lipa described as "a way to find order in the chaos" — a "global style, culture, and society concierge service" she actually writes and curates herself, with a book club that runs to Olga Tokarczuk and Tommy Orange and a podcast that books Esther Perel. The Type 3 read is that achievement extends into curation when music starts to land; the healthier read is that she''s learning to give from interest rather than calculation, and the name itself — Service95 — is the artifact of that shift.'
+    anchor: 'the-mind-behind-the-music'
   hook: 9
   enneagram: 8.5
   evidence: 8.5

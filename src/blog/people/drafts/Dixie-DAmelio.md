@@ -15,6 +15,53 @@ type: ['tiktoker', 'lifestyle-builder']
 person: "dixie-d'Amelio"
 suggestions: ["Charli-D'Amelio", 'Billie-Eilish', 'Madison-Beer', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Dixie_D%27Amelio'
+wikidata_qid: 'Q83708517'
+imdb_id: 'nm11342109'
+birth_date: '2001-08-12'
+birth_place: 'Norwalk, Connecticut, USA'
+nationality: 'American'
+occupation:
+  - 'Social media personality'
+  - 'Singer'
+  - 'Model'
+knows_about:
+  - 'TikTok content creation'
+  - 'Pop songwriting'
+  - 'Premenstrual dysphoric disorder advocacy'
+  - 'Psychogenic non-epileptic seizures'
+  - 'Fashion modeling'
+  - 'Reality television'
+keywords:
+  - "Dixie D'Amelio enneagram"
+  - "Dixie D'Amelio type 4"
+  - "Dixie D'Amelio personality"
+  - "Charli D'Amelio sister"
+  - 'Individualist enneagram'
+  - "Dixie D'Amelio PMDD"
+  - "Dixie D'Amelio Be Happy"
+  - "Dixie D'Amelio anxiety"
+same_as:
+  - 'https://en.wikipedia.org/wiki/Dixie_D%27Amelio'
+  - 'https://www.wikidata.org/wiki/Q83708517'
+  - 'https://www.imdb.com/name/nm11342109/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Dixie_D%27Amelio'
+  - 'https://en.wikipedia.org/wiki/The_D%27Amelio_Show'
+  - 'https://en.wikipedia.org/wiki/Charli_D%27Amelio'
+  - 'https://en.wikipedia.org/wiki/Premenstrual_dysphoric_disorder'
+faqs:
+  - question: "What is Dixie D'Amelio's personality type?"
+    answer: "Dixie D'Amelio is an Enneagram Type 4 (The Individualist). The pattern shows in her early-onset identity wound (the psychogenic seizures, the five months of bed rest, the stutter), the PMDD diagnosis that finally named what she'd always felt, the music she treats as therapy rather than hits, and the lifelong project of finding a self that exists independent of her sister Charli's spotlight."
+    anchor: 'what-is-dixie-damelios-personality-type'
+  - question: "Why did Dixie D'Amelio develop psychogenic seizures?"
+    answer: "During her sophomore year of high school, before TikTok existed, Dixie's anxiety became so severe she developed Psychogenic Nonepileptic Seizures — her body's physical response to psychological distress. She fell to the ground in her mother's car, was hospitalized, put on five months of bed rest, transferred schools, and developed a stutter. 'I was a person who I did not like. I was not myself.' The Type 4 wound was already in place long before the fame compounded it."
+    anchor: 'the-breaking-point'
+  - question: "What is Dixie D'Amelio's relationship with her sister Charli?"
+    answer: "Dixie and Charli 'absolutely hated each other' through middle school, became best friends in high school, then watched the dynamic warp when Charli exploded on TikTok in late 2019. Dixie got famous as the older sister of TikTok's golden child — the classic Type 4 trap of being defined by comparison. In May 2025, Dixie was notably absent from Charli's 21st birthday and didn't post publicly, the sharpest recent signal that the sisters have finally become separate people."
+    anchor: 'dixie-damelios-upbringing-the-other-sister'
+  - question: 'What is PMDD and how did it affect Dixie?'
+    answer: "In October 2022, Dixie revealed she had Premenstrual Dysphoric Disorder — a severe form of PMS that brings extreme anxiety, depression, and loss of will to live. 'I didn't know that you weren't supposed to want to die every month before you got your period.' For a Type 4 already prone to feeling fundamentally different, PMDD amplified the intensity but also gave her something she'd always craved: a name for the thing."
+    anchor: 'the-pmdd-diagnosis'
 twitter: 'https://twitter.com/dixiedamelio'
 instagram: 'https://www.instagram.com/dixiedamelio/'
 tiktok: 'https://www.tiktok.com/@dixiedamelio'

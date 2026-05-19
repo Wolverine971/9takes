@@ -15,9 +15,55 @@ type: ['celebrity', 'musician', 'celebrity-image', 'music-crossover']
 person: 'hilary-duff'
 suggestions: ['Paris-Hilton', 'Olivia-Rodrigo', 'Sabrina-Carpenter', 'Millie-Bobby-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/Hilary_Duff'
-twitter: '@HilaryDuff'
-instagram: '@hilaryduff'
-tiktok: '@hilaryduff'
+wikidata_qid: 'Q122020'
+imdb_id: 'nm0240381'
+birth_date: '1987-09-28'
+birth_place: 'Houston, Texas, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Singer-songwriter'
+  - 'Author'
+  - 'Businesswoman'
+knows_about:
+  - 'Disney Channel acting'
+  - 'Pop music'
+  - 'Lizzie McGuire'
+  - 'Celebrity brand partnerships'
+  - 'Young adult fiction'
+  - 'Co-parenting after divorce'
+keywords:
+  - 'Hilary Duff enneagram'
+  - 'Hilary Duff type 2'
+  - 'Hilary Duff personality'
+  - 'Hilary Duff 2w3'
+  - 'Helper enneagram'
+  - 'Lizzie McGuire personality'
+  - 'Hilary Duff luck or something'
+  - 'Hilary Duff Haylie estrangement'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Hilary_Duff'
+  - 'https://www.wikidata.org/wiki/Q122020'
+  - 'https://www.imdb.com/name/nm0240381/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Hilary_Duff'
+  - 'https://en.wikipedia.org/wiki/Lizzie_McGuire'
+  - 'https://en.wikipedia.org/wiki/Luck..._or_Something'
+  - 'https://en.wikipedia.org/wiki/Mike_Comrie'
+  - 'https://en.wikipedia.org/wiki/Matthew_Koma'
+faqs:
+  - question: "What is Hilary Duff's personality type?"
+    answer: "Hilary Duff is an Enneagram Type 2 (The Helper), specifically a 2w3. The pattern shows in the eighteen-year-old who couldn't start a washing machine or name a food she liked after six years of giving herself to Disney, the Southern-girl smile she kept fixed through body-shaming questions and Aaron Carter's 'I got a little bored,' the connection-as-magic-trick she names as her core skill, and the lyric about wishing her father would really love her tucked inside a wish about sleeping on planes."
+    anchor: 'what-is-hilary-duffs-personality-type'
+  - question: 'Why did Hilary Duff walk away from the Lizzie McGuire reboot?'
+    answer: "Disney wanted a family-friendly Lizzie that fit a kids' platform; Hilary wanted a thirty-year-old Lizzie who had actually lived a decade. In February 2020 she went around the studio on Instagram asking Disney to move the show to Hulu, and when they refused she let the crown jewel of her IP go. The same instinct that walked her home at eighteen to learn how to be a person walked her away from her own legacy at thirty-two."
+    anchor: 'the-lizzie-she-refused-to-play'
+  - question: 'Why are Hilary Duff and her sister Haylie estranged?'
+    answer: "Hilary and Haylie haven't been photographed together since 2019, and after Ashley Tisdale's January 2026 essay about being iced out of a celebrity mom group, Haylie publicly liked it with a 'leave your toxic friends behind you in 2026' caption. The family had originally moved to LA for Haylie's career, and Hilary accidentally eclipsed her. For a Type 2 whose whole moral contract is built on giving back to the people who came first, that wound runs from the wrong direction — and Hilary called it 'absolutely the most lonely part of my existence.'"
+    anchor: 'the-family-that-came-apart'
+  - question: "What does Hilary Duff's album 'luck... or something' reveal about her?"
+    answer: "Released February 20, 2026, it's the first album she co-wrote every track on, made entirely with husband Matthew Koma. 'The Optimist' carries the most devastating line of her career: 'I wish I could sleep on planes / And that my father would really love me' — two wishes in one breath, one trivial and one annihilating. 'We Don't Talk' addresses the estrangement from her sister Haylie directly. It's a thirty-eight-year-old woman taking inventory, not a pop rescue mission."
+    anchor: 'why-luck-or-something-sounds-like-a-real-person'
 content_quality:
   hook: 9
   enneagram: 8.5

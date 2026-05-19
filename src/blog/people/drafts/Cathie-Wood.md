@@ -15,7 +15,58 @@ type: ['entrepreneur', 'techie', 'business-operator']
 person: 'cathie-wood'
 suggestions: ['Reid-Hoffman', 'Chamath-Palihapitiya', 'Ben-Horowitz', 'David-Sacks']
 wikipedia: 'https://en.wikipedia.org/wiki/Cathie_Wood'
-twitter: 'CathieDWood'
+wikidata_qid: 'Q104587868'
+birth_date: '1955-11-26'
+birth_place: 'Los Angeles, California, United States'
+nationality: 'American'
+occupation:
+  - 'Investor'
+  - 'Portfolio manager'
+  - 'Chief executive officer'
+  - 'Economist'
+knows_about:
+  - 'Disruptive innovation investing'
+  - 'Actively managed ETFs'
+  - 'Thematic equity strategy'
+  - 'Long-horizon portfolio construction'
+  - 'Tesla and robotaxi thesis'
+  - 'Bitcoin price targeting'
+  - 'Genomics and multi-omic sequencing'
+keywords:
+  - 'Cathie Wood enneagram'
+  - 'Cathie Wood type 7'
+  - 'Cathie Wood personality'
+  - 'Cathie Wood 7w8'
+  - 'Enthusiast enneagram'
+  - 'ARK Invest founder'
+  - 'Cathie Wood Tesla target'
+  - 'Cathie Wood Bitcoin prediction'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Cathie_Wood'
+  - 'https://www.wikidata.org/wiki/Q104587868'
+  - 'https://ark-invest.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Cathie_Wood'
+  - 'https://www.cnbc.com/'
+  - 'https://fortune.com/'
+  - 'https://www.morningstar.com/'
+  - 'https://ark-invest.com/big-ideas-2026/'
+faqs:
+  - question: "What is Cathie Wood's personality type?"
+    answer: "Cathie Wood is an Enneagram Type 7 (The Enthusiast), specifically a 7w8 — the Enthusiast with a Challenger wing. The pattern shows in her structural inability to sit inside a present she cannot reframe (the 67% drawdown she called 'the new deep value'), the eight-year Bible-reading covenant that produced ARK's name, the willingness to walk out of AllianceBernstein after twelve years, and the missionary-with-elbows public posture that fights Burry on TV instead of equivocating."
+    anchor: 'what-is-cathie-woods-personality-type'
+  - question: 'Why did Cathie Wood keep doubling down during the 2022 crash?'
+    answer: "As her flagship fund collapsed she stopped diversifying and concentrated — buying 135,000 more shares of Roku, defending Teladoc after a 98% drawdown, calling beaten-down innovation 'the new deep value.' The 'I was wrong, let me sell and rebuild' strategy requires sitting inside a present-tense loss long enough to metabolize it. That is the one move a Type 7 structurally cannot make. Doubling down was the only form of loss she could hold."
+    anchor: 'why-cathie-wood-cant-stop-doubling-down'
+  - question: 'How did prayer lead Cathie Wood to found ARK Invest?'
+    answer: "After a 2006 'very rough year' — divorce three years prior, an AllianceBernstein book about to be wrecked by the financial crisis — she started reading the One-Year Bible every morning, asking God for direction. By her own count, every third or fourth time she opened it, the passage was about the Ark of the Covenant. Eight years later, at 57, she mortgaged her house, walked out of AllianceBernstein, and named the firm ARK."
+    anchor: 'the-eight-years-of-prayer-that-built-ark-invest'
+  - question: 'Why does Cathie Wood call indexing a heresy?'
+    answer: "Her line — 'the most massive misallocation of capital in the history of mankind' — sounds like Type 1 moralism but is structurally a Type 7 defense of an open future. Indexing allocates capital to the past, rewards companies that already won, and starves the disruptive ones. For a Seven who builds her entire identity around tomorrow being open, the rise of passive investing reads not as competition but as the closing of the door."
+    anchor: 'why-cathie-wood-thinks-indexing-is-a-heresy'
+  - question: "What does Cathie Wood's actual ten-year track record show?"
+    answer: "Morningstar called ARKK 'the biggest wealth-destroying fund of the decade' in 2023, and most retail investors did get destroyed because the 2021 inflows arrived at the top. But measured from inception, ARKK has compounded roughly 16% annually versus the S&P's 13% over the same window. The duration-mismatch critique — daily liquidity on bets that need five years — is the strongest non-moralized argument against her, and it lives in real tension with the long-run number."
+    anchor: 'what-the-ten-year-number-actually-says'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

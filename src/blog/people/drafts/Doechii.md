@@ -15,6 +15,55 @@ type: ['musician', 'rapper']
 person: 'doechii'
 suggestions: ['Lady-Gaga', 'Doja-Cat', 'Chappell-Roan', 'Kendrick-Lamar']
 wikipedia: 'https://en.wikipedia.org/wiki/Doechii'
+wikidata_qid: 'Q106629186'
+imdb_id: 'nm13677320'
+birth_date: '1998-08-14'
+birth_place: 'Tampa, Florida, USA'
+nationality: 'American'
+occupation:
+  - 'Rapper'
+  - 'Singer'
+  - 'Songwriter'
+knows_about:
+  - 'Hip-hop'
+  - 'Genre-fluid songwriting'
+  - 'Stage choreography'
+  - 'Sobriety and recovery advocacy'
+  - 'Mental health advocacy'
+  - 'LGBTQ+ visibility'
+keywords:
+  - 'Doechii enneagram'
+  - 'Doechii type 7'
+  - 'Doechii personality'
+  - 'Doechii Swamp Princess'
+  - 'Enthusiast enneagram'
+  - 'Doechii Anxiety song'
+  - 'Doechii Denial Is a River'
+  - 'Doechii sobriety'
+  - 'Alligator Bites Never Heal'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Doechii'
+  - 'https://www.wikidata.org/wiki/Q106629186'
+  - 'https://www.imdb.com/name/nm13677320/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Doechii'
+  - 'https://en.wikipedia.org/wiki/Alligator_Bites_Never_Heal'
+  - 'https://en.wikipedia.org/wiki/Anxiety_(Doechii_song)'
+  - 'https://en.wikipedia.org/wiki/Top_Dawg_Entertainment'
+  - 'https://en.wikipedia.org/wiki/Yucky_Blucky_Fruitcake'
+faqs:
+  - question: "What is Doechii's personality type?"
+    answer: "Doechii is an Enneagram Type 7 (The Enthusiast). The pattern shows in the 'I am Doechii' diary entry she wrote at eleven after a suicide attempt, the constant reinvention across hip-hop, R&B, pop, house, punk and gospel, the one-hour timer she sets for lyric writing so doubt can't catch her, and the way every wound — bullying, addiction, anxiety, deception — gets metabolized into a song, a hub, a top-10 hit."
+    anchor: 'doechii-is-an-enneagram-type-7'
+  - question: 'What does the "I am Doechii" diary entry mean?'
+    answer: "At ten or eleven, after being relentlessly bullied in Tampa for being dark-skinned and attempting suicide, Jaylah Ji'mya Hickmon went to her diary and wrote three words: 'I am Doechii.' Not a stage name — a psychological survival act. She wrote a new self into existence on paper, then wore a tutu to school the next day. Every major identity transformation since — the sobriety, the 'lesbian' Instagram bio, the house — has been mediated by writing something down."
+    anchor: 'i-am-doechii-the-diary-entry-that-built-a-person'
+  - question: 'Why did Doechii get sober?'
+    answer: "After signing with TDE and moving to LA, Doechii leaned on 'day-drinkin' and Hollywood drugs' until she realized she was creating from 'a source outside of myself.' She quit alcohol, tobacco and caffeine entirely. The Grammy-winning mixtape Alligator Bites Never Heal was the product. At the ceremony she thanked God: 'I dedicated myself to sobriety and God told me that I would be rewarded.' For a Type 7, sobriety wasn't deprivation — it was integration toward depth."
+    anchor: 'denial-is-a-river-and-sobriety-is-the-shore'
+  - question: 'Is Doechii a lesbian?'
+    answer: "In February 2026, Doechii added one word to her personal Instagram bio: 'lesbian.' No press release, no announcement — the same quiet self-definition she used at eleven when she wrote 'I am Doechii' in her diary. She has a girlfriend whose identity she keeps completely private. Asked her biggest dating red flag on Hot Ones Versus in March 2025, she answered 'A straight man' and didn't flinch."
+    anchor: 'a-straight-man'
 twitter: 'doechii'
 instagram: 'doechii'
 tiktok: '@doechii'

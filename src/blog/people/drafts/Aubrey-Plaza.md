@@ -14,10 +14,60 @@ enneagram: '6'
 type: ['comedian', 'movieStar', 'tv-comedy-crossover', 'sketch-comic']
 person: 'aubrey-plaza'
 suggestions: ['Zoe Kravitz', 'Blake Lively', 'Margot Robbie', 'Timothee Chalamet']
-wikipedia: 'None'
+wikipedia: 'https://en.wikipedia.org/wiki/Aubrey_Plaza'
+wikidata_qid: 'Q210547'
+imdb_id: 'nm2201555'
+birth_date: '1984-06-26'
+birth_place: 'Wilmington, Delaware, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Comedian'
+  - 'Producer'
+  - 'Voice actress'
+knows_about:
+  - 'Deadpan comedic delivery'
+  - 'Improv comedy (UCB)'
+  - 'Independent film producing'
+  - 'Counterphobic anxiety performance'
+  - 'Character-driven dark comedy'
+  - 'Evil Hag Productions'
+keywords:
+  - 'Aubrey Plaza enneagram'
+  - 'Aubrey Plaza type 6'
+  - 'Aubrey Plaza personality'
+  - 'Aubrey Plaza stroke'
+  - 'Aubrey Plaza counterphobic'
+  - 'Loyalist enneagram'
+  - 'Aubrey Plaza White Lotus'
+  - 'Aubrey Plaza Jeff Baena'
 twitter: 'None'
 instagram: 'None'
 tiktok: 'None'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Aubrey_Plaza'
+  - 'https://www.wikidata.org/wiki/Q210547'
+  - 'https://www.imdb.com/name/nm2201555/'
+  - 'https://www.britannica.com/biography/Aubrey-Plaza'
+citations:
+  - 'https://en.wikipedia.org/wiki/Aubrey_Plaza'
+  - 'https://en.wikipedia.org/wiki/Parks_and_Recreation'
+  - 'https://en.wikipedia.org/wiki/The_White_Lotus'
+  - 'https://en.wikipedia.org/wiki/Jeff_Baena'
+  - 'https://en.wikipedia.org/wiki/Black_Bear_(film)'
+faqs:
+  - question: "What is Aubrey Plaza's personality type?"
+    answer: "Aubrey Plaza is a counterphobic Enneagram Type 6 (The Loyalist). The pattern shows in the 'look at me, don't look at me' tension she names herself, the class-president-of-everything organizing as anxiety management, the role choices that map to Six fears (Legion's mind-parasite reality, Black Bear's gaslit performer, Harper Spiller running a 'trust audit' in The White Lotus), and the way the stroke at 20 took her worst fear — total loss of control — and made it real, then became the engine that drove her to charge at fear rather than wait for it."
+    anchor: 'aubrey-plazas-type-6-mind-beyond-the-deadpan-facade'
+  - question: 'How did the stroke at 20 change Aubrey Plaza?'
+    answer: "She was at lunch in Astoria, mid-sentence about a Hillary Duff concert, when her right arm stopped feeling like hers. Her friends thought it was a bit. She had expressive aphasia from a blood clot in her left temporal lobe — she could understand but couldn't speak. The hypothetical Six nightmare of total loss of control became literal. After she recovered, the panic attacks started, but so did the fuel: if the worst can happen any moment, standing still is the most dangerous thing she could do."
+    anchor: 'i-forgot-how-to-talk-the-stroke-that-changed-everything'
+  - question: 'Why does Aubrey Plaza weaponize awkwardness?'
+    answer: "On Armchair Expert she named it directly: 'I would like to be an interruptor. Silence is power.' Break the pattern by creating a situation so weird the room has to reorient. The 2013 MTV Movie Awards stage-rush at Will Ferrell — she'd scrawled her upcoming movie's title on her chest, so there was calculation underneath — is the cleanest example. Her comedy hero Rosie O'Donnell taught her 'never have a net.' For an anxious Six, that's not recklessness. It's a declaration of war against the part of yourself that wants to hide."
+    anchor: 'weaponized-awkwardness-how-discomfort-became-a-tool'
+  - question: "How did Jeff Baena's death affect Aubrey Plaza?"
+    answer: "For a Six, the anchor person isn't just a partner — they make the unpredictable world predictable. Plaza and Baena were together over a decade, married on a whim with 1HourMarriage.com and a backyard altar of stones and smoke. When he died by suicide in January 2025, she described grief through The Gorge: a cliff on each side and 'a giant ocean of just awfulness that's right there, and I can see it… sometimes I just want to dive into it.' The fear that had been running in the background all along — nothing is permanent, not even the structures you build — became the present."
+    anchor: 'its-like-a-daily-struggle-the-anchor-the-loss-and-what-remains'
 path: src/blog/people/drafts/Aubrey-Plaza.md
 content_quality:
   hook: 9

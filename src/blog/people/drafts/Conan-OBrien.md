@@ -15,9 +15,58 @@ type: ['comedian', 'creator', 'podcaster']
 person: 'conan-obrien'
 suggestions: ['jon-stewart', 'dax-shepard', 'jimmy-fallon', 'kevin-hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Conan_O%27Brien'
-twitter: 'ConanOBrien'
-instagram: 'teamcoco'
-tiktok: 'teamcoco'
+wikidata_qid: 'Q486740'
+imdb_id: 'nm0005277'
+birth_date: '1963-04-18'
+birth_place: 'Brookline, Massachusetts, United States'
+nationality: 'American'
+occupation:
+  - 'Television host'
+  - 'Comedian'
+  - 'Writer'
+  - 'Producer'
+  - 'Podcaster'
+knows_about:
+  - 'Late-night television hosting'
+  - 'Absurdist sketch comedy'
+  - 'Long-form interview podcasting'
+  - 'Travel and cross-cultural comedy'
+  - 'Harvard Lampoon-style humor'
+  - 'Saturday Night Live and Simpsons writing'
+keywords:
+  - "Conan O'Brien enneagram"
+  - "Conan O'Brien type 7"
+  - "Conan O'Brien personality"
+  - "Conan O'Brien 7w6"
+  - 'Enthusiast enneagram'
+  - "Conan O'Brien Tonight Show"
+  - "Conan O'Brien anxiety depression"
+  - "Conan O'Brien Needs a Friend podcast"
+  - "Conan O'Brien Oscars 2025"
+same_as:
+  - 'https://en.wikipedia.org/wiki/Conan_O%27Brien'
+  - 'https://www.wikidata.org/wiki/Q486740'
+  - 'https://www.imdb.com/name/nm0005277/'
+  - 'https://www.britannica.com/biography/Conan-OBrien'
+citations:
+  - 'https://en.wikipedia.org/wiki/Conan_O%27Brien'
+  - 'https://en.wikipedia.org/wiki/David_Letterman'
+faqs:
+  - question: "What is Conan O'Brien's personality type?"
+    answer: "Conan O'Brien is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in his serial reinventions (Late Night, Tonight Show, TBS, podcast, travel show, Oscars), his admission that performing is the only state in which depression and anxiety disappear, the reframe reflex that turned the worst year of his career into 'the most satisfying and fascinating year of my professional life,' and the 7w6 floor of paying roughly 75 staff salaries out of pocket during the 2007 writers' strike and keeping his whole crew on payroll through the pandemic."
+    anchor: "what-is-conan-obriens-personality-type"
+  - question: 'What happened with Conan O''Brien and The Tonight Show?'
+    answer: "In January 2010, seven months into hosting The Tonight Show, NBC told him they were moving Jay Leno back to 11:35 p.m. and bumping Tonight to 12:05 a.m. Conan refused: 'I will not participate in the destruction of The Tonight Show.' He took $45 million to walk away, then announced a 42-city Legally Prohibited from Being Funny on Television Tour, grew a beard, and recorded the documentary Conan O'Brien Can't Stop. Years later he told Dartmouth's graduates it had become 'the most satisfying and fascinating year of my professional life.'"
+    anchor: "the-most-satisfying-year-of-my-professional-life"
+  - question: "Why did Conan O'Brien start a travel show and podcast?"
+    answer: "The growth direction for a Type 7 is Type 5 — depth over breadth. Late night was breadth: five shows a week, hundreds of guests a year. Conan O'Brien Needs a Friend (which earned a $150 million SiriusXM deal) is longer conversations, real curiosity, a willingness to follow a thread past the punchline. The travel show, modeled on the unglamorous research trips his epidemiologist father took him on as a kid, won two Emmys for vulnerability — the Seven who couldn't sit still choosing, for the first time, to sit."
+    anchor: 'the-running-and-the-standing-still'
+  - question: "What is Conan O'Brien's relationship with anxiety and depression?"
+    answer: "Real bouts of strong anxiety started in fourth grade and continued for decades. He resisted the word 'depression' until a doctor explained that chronic anxiety is a form of depression and someone offered: 'depression is anger turned inward.' He'd feared medication would dull his edge; instead it gave him greater motivation and sharpness, and going home to Liza and the kids changed. The line that doubles as a thesis for his life: 'Anxiety is forward-looking. Depression requires sitting in what already happened.'"
+    anchor: 'when-the-running-slowed'
+  - question: "How did Conan O'Brien get The Tonight Show after his parents died?"
+    answer: "His parents died within three days of each other in December 2024 while he was filming the travel show in Austria. Ten weeks later he hosted the 2025 Academy Awards for nineteen million viewers. He'd prepared so thoroughly that he could 'have fun' on the night, betting that if he was having a good time it would be good. The performance escape that has worked since fourth grade — motion as survival — held one more time, at the highest stakes of his career."
+    anchor: 'the-traffic-cops-grandson'
 content_quality:
   hook: 9
   enneagram: 9

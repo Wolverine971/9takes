@@ -18,6 +18,57 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jake_Paul'
 twitter: 'jakepaul'
 instagram: 'jakepaul'
 tiktok: 'jakepaul'
+wikidata_qid: 'Q25714026'
+imdb_id: 'nm4777243'
+birth_date: '1997-01-17'
+birth_place: 'Cleveland, Ohio, USA'
+nationality: 'American'
+occupation:
+  - 'Professional boxer'
+  - 'Internet personality'
+  - 'Actor'
+  - 'Entrepreneur'
+knows_about:
+  - 'Crossover boxing'
+  - 'Influencer brand building'
+  - 'Pay-per-view promotion'
+  - 'Venture capital and creator economy'
+  - 'Cherry-picked opponent matchmaking'
+  - 'Anti Fund and Most Valuable Promotions'
+keywords:
+  - 'Jake Paul enneagram'
+  - 'Jake Paul type 3'
+  - 'Jake Paul personality'
+  - 'Jake Paul Problem Child'
+  - 'Achiever enneagram'
+  - 'Jake Paul father wound'
+  - 'Jake Paul Anthony Joshua'
+  - 'Jake Paul Jutta Leerdam'
+  - 'Jake Paul Mike Tyson'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jake_Paul'
+  - 'https://www.wikidata.org/wiki/Q25714026'
+  - 'https://www.imdb.com/name/nm4777243/'
+  - 'https://www.forbes.com/profile/jake-paul/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jake_Paul'
+  - 'https://en.wikipedia.org/wiki/Jake_Paul_vs._Mike_Tyson'
+  - 'https://en.wikipedia.org/wiki/Jake_Paul_vs._Anthony_Joshua'
+  - 'https://en.wikipedia.org/wiki/Logan_Paul'
+  - 'https://en.wikipedia.org/wiki/Jutta_Leerdam'
+faqs:
+  - question: "What is Jake Paul's personality type?"
+    answer: "Jake Paul is an Enneagram Type 3 (The Achiever). The pattern shows in his stated 'lurking energy of needing approval because my dad didn't give me much,' the 800 consecutive days of YouTube content fueled by alcohol and weed, the calculated 'Problem Child' brand, the strategic boxing record of credentialed-but-beatable opponents, the immediate post-loss callout ('Double broken jaw. Give me Canelo in 10 days'), and a $200 million empire built as evidence that he is not the financially crumbling man he watched his father become."
+    anchor: 'what-is-jake-pauls-personality-type'
+  - question: "What is Jake Paul's relationship with his father?"
+    answer: "Greg Paul, on camera in Netflix's Untold: Jake Paul the Problem Child, first denied hitting his sons, then admitted, 'I did pick you up and throw you on a couch a couple of times.' Jake has said, 'Yeah, my dad would slap the shit out of me,' but also, 'I attribute pretty much all of my success to my father.' He invited Greg on an ayahuasca trip filmed for the 2025 HBO series Paul American — the abuse and the conditional approval are the wound, and the wound is the engine."
+    anchor: 'the-hands-that-shaped-him'
+  - question: 'Did Jake Paul really plan to drive off a cliff?'
+    answer: "Yes. On the Aubrey Marcus podcast, Jake described planning to fill his Lamborghini with gas cans, get very drunk, and drive off a cliff in Calabasas during the depression that followed Logan's Aokigahara forest scandal, $30 million in lost deals, and 800 straight days of substance-fueled content. What stopped him was characteristically Type 3: 'I was not going to let them win. This is what every social media hater wants is to wake up and see Jake Paul killed himself.' Even his reason for surviving was competitive."
+    anchor: 'the-lamborghini-the-cliff-and-the-decision-to-stay-alive'
+  - question: 'Why did Jake Paul cry at the Olympics?'
+    answer: "On February 9, 2026, Jake's fiancee Jutta Leerdam won gold in the women's 1000m speed skating at the Milano Cortina Winter Olympics, breaking the Olympic record at 1:12.31. NBC caught Jake sobbing uncontrollably in the stands, hugging Jutta's mother and his own. The man who built everything on being watched, who proposed to Jutta with a $1 million ring shaped like a skating rink rather than staging another pay-per-view wedding like the Tana Mongeau spectacle, crying openly at someone else's achievement may be the most unperformed thing he has ever done on camera."
+    anchor: 'the-olympic-tears'
 path: src/blog/people/drafts/Jake-Paul.md
 content_quality:
   hook: 9

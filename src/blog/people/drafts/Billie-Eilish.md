@@ -15,9 +15,58 @@ type: ['musician', 'pop-star']
 person: 'billie-eilish'
 suggestions: ['Lana-Del-Rey', 'Taylor-Swift', 'Ariana-Grande', 'Chappell-Roan', 'Madison-Beer']
 wikipedia: 'https://en.wikipedia.org/wiki/Billie_Eilish'
-twitter: 'https://twitter.com/billieeilish'
-instagram: 'https://www.instagram.com/billieeilish'
-tiktok: 'https://www.tiktok.com/@billieeilish'
+wikidata_qid: 'Q29564107'
+imdb_id: 'nm8483808'
+birth_date: '2001-12-18'
+birth_place: 'Los Angeles, California, United States'
+nationality: 'American'
+occupation:
+  - 'Singer-songwriter'
+  - 'Musician'
+  - 'Film score composer'
+knows_about:
+  - 'Pop songwriting'
+  - 'Bedroom pop production'
+  - 'Synesthesia in music composition'
+  - 'Whisper-vocal performance'
+  - 'Climate activism'
+  - 'Vegan tour production'
+  - 'Confessional songwriting'
+keywords:
+  - 'Billie Eilish enneagram'
+  - 'Billie Eilish type 4'
+  - 'Billie Eilish personality'
+  - 'Billie Eilish 4w3'
+  - 'Individualist enneagram'
+  - 'Billie Eilish synesthesia'
+  - 'Billie Eilish Tourette syndrome'
+  - 'Hit Me Hard and Soft analysis'
+  - 'Billie Eilish body dysmorphia'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Billie_Eilish'
+  - 'https://www.wikidata.org/wiki/Q29564107'
+  - 'https://www.imdb.com/name/nm8483808/'
+  - 'https://www.britannica.com/biography/Billie-Eilish'
+citations:
+  - 'https://en.wikipedia.org/wiki/Billie_Eilish'
+  - 'https://en.wikipedia.org/wiki/Ocean_Eyes_(song)'
+  - 'https://en.wikipedia.org/wiki/Hit_Me_Hard_and_Soft'
+  - 'https://en.wikipedia.org/wiki/What_Was_I_Made_For%3F'
+  - 'https://en.wikipedia.org/wiki/Finneas_O%27Connell'
+  - 'https://en.wikipedia.org/wiki/Billie_Eilish:_The_World%27s_a_Little_Blurry'
+faqs:
+  - question: "What is Billie Eilish's personality type?"
+    answer: "Billie Eilish is an Enneagram Type 4 (The Individualist), specifically a 4w3 with a so/sx instinct stack. The pattern shows in her synesthesia and Tourette's diagnosed at eleven, the dance-injury-to-'Ocean Eyes' conversion of pain into art, the baggy-clothes-to-British-Vogue aesthetic eras driven by the same wound, the self-described 'parody of myself' realization at eighteen, and the third album she calls 'the most me thing I've ever made.'"
+    anchor: 'what-is-billie-eilishs-personality-type'
+  - question: 'Why did Billie Eilish wear baggy clothes for so long?'
+    answer: "She has been explicit that it was never a fashion statement or feminist gesture — it was protection from a body she hated after early development and the hip injury that ended her dance career. 'The only reason I did it was 'cos I hated my body.' The 2021 British Vogue corset shoot was framed as liberation but driven by the same insecurity in the opposite direction. Both modes — hiding and revealing — were the same wound."
+    anchor: 'the-clothes-the-cover-and-the-wound-underneath'
+  - question: 'What does Billie Eilish mean when she says she has synesthesia?'
+    answer: "Her senses are cross-wired so every person, number, day of the week, and song has a color, shape, texture, and sometimes a smell or temperature. Finneas is 'an orange triangle.' 'Bad Guy' is yellow. 'Xanny' is 'velvety, like if you could feel smoke.' Every music video, every live show palette, and every album cover is built from the colors she literally sees when the song plays — the Type 4 'I am different' is grounded in measurable neurology."
+    anchor: 'what-is-billie-eilishs-personality-type'
+  - question: "Why did Billie Eilish say 'Fuck ICE' at the 2026 Grammys?"
+    answer: "Accepting her tenth Grammy and third Song of the Year, she used her sixty seconds to say 'No one is illegal on stolen land. Fuck ICE.' Senators denounced her, Fox News ran segments, and Bill Maher called her a child. Finneas's response a week later: 'We can literally see your names in the Epstein files.' It is the Type 4 stress-to-2 channel of feeling unlovable converted into the growth-arrow-to-1 capacity to use a platform on principle."
+    anchor: 'the-go-kart-and-the-grammy-speech'
 content_quality:
   hook: 9
   enneagram: 9

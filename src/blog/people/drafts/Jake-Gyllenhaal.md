@@ -18,6 +18,56 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jake_Gyllenhaal'
 twitter: 'jakegyllenhaal'
 instagram: 'jakegyllenhaal'
 tiktok: ''
+wikidata_qid: 'Q133313'
+imdb_id: 'nm0350453'
+birth_date: '1980-12-19'
+birth_place: 'Los Angeles, California, USA'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Film producer'
+knows_about:
+  - 'Counterphobic Six performance'
+  - 'Method-style physical transformation'
+  - 'Stage acting and Sondheim musical theatre'
+  - 'Shakespearean drama'
+  - 'Cookbook collecting and home cooking'
+  - 'Production company stewardship'
+keywords:
+  - 'Jake Gyllenhaal enneagram'
+  - 'Jake Gyllenhaal type 6'
+  - 'Jake Gyllenhaal personality'
+  - 'Jake Gyllenhaal 6w5'
+  - 'Counterphobic six enneagram'
+  - 'Loyalist enneagram'
+  - 'Jake Gyllenhaal Nightcrawler'
+  - 'Jake Gyllenhaal Othello'
+  - 'Jake Gyllenhaal anxiety'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jake_Gyllenhaal'
+  - 'https://www.wikidata.org/wiki/Q133313'
+  - 'https://www.imdb.com/name/nm0350453/'
+  - 'https://www.britannica.com/biography/Jake-Gyllenhaal'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jake_Gyllenhaal'
+  - 'https://en.wikipedia.org/wiki/Nightcrawler_(film)'
+  - 'https://en.wikipedia.org/wiki/Brokeback_Mountain'
+  - 'https://en.wikipedia.org/wiki/Southpaw_(film)'
+  - 'https://en.wikipedia.org/wiki/Sunday_in_the_Park_with_George'
+  - 'https://www.broadway.com/shows/othello/'
+faqs:
+  - question: "What is Jake Gyllenhaal's personality type?"
+    answer: "Jake Gyllenhaal is an Enneagram Type 6 (The Loyalist), specifically a counterphobic 6w5. The pattern shows in his stated practice of seeking projects that 'freak him out,' the 30-pound starvation and 15-mile night runs for Nightcrawler, the panic attack on a Spider-Man green-screen set, the godfather duties he quietly absorbed after Heath Ledger's death, and a personal mantra — 'Don't forget to breathe' — that he uses to manage chronic anxiety."
+    anchor: 'what-is-jake-gyllenhaals-personality-type'
+  - question: 'Why does Jake Gyllenhaal pick roles that scare him?'
+    answer: "Counterphobic Sixes charge directly at what scares them. Gyllenhaal has said, 'If there's something that I'm afraid of, and I'm thinking about why I'm afraid of it, a lot of times I want to go try it.' The starvation for Nightcrawler, the boxing for Southpaw, the prosthetic-free vulnerability of Iago opposite Denzel Washington — each is a fear engineered into the work, because for him anxiety isn't the obstacle, it's the engine that produces authentic performance."
+    anchor: 'running-through-the-dark-to-become-nightcrawler'
+  - question: 'What happened between Jake Gyllenhaal and Heath Ledger?'
+    answer: "Gyllenhaal and Ledger bonded over being passed over for Moulin Rouge! before Ang Lee cast them in Brokeback Mountain, which earned both men Oscar nominations. Ledger made Gyllenhaal godfather to his daughter Matilda. When Ledger died of an accidental overdose in January 2008, Gyllenhaal flew to New York to help Michelle Williams raise her, sharing godparent duties with Busy Philipps. He never publicized the role. Ledger's death is also when Gyllenhaal began describing fame's audience love as 'synthesized love.'"
+    anchor: 'the-ghost-of-brokeback-mountain'
+  - question: "Why is Jake Gyllenhaal's eyesight relevant to his acting?"
+    answer: "Gyllenhaal is legally blind, with vision around 20/1250 and corrective lenses since age six. For Southpaw, he deliberately removed his contacts during an emotional scene so he couldn't read the other actors' faces — stripping his primary sense to force himself onto instinct and sound. A boy raised in storytelling who couldn't trust his eyes learned to listen harder; the same vigilance now shows up as a Six's anxiety-management tool turned creative discipline."
+    anchor: 'the-childhood-that-taught-vigilance'
 content_quality:
   hook: 9
   enneagram: 8.5

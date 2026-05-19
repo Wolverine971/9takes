@@ -15,9 +15,60 @@ type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'clint-eastwood'
 suggestions: ['Morgan-Freeman', 'Tom-Hanks', 'Arnold-Schwarzenegger', 'Keanu-Reeves']
 wikipedia: 'https://en.wikipedia.org/wiki/Clint_Eastwood'
-twitter: ''
-instagram: ''
-tiktok: ''
+wikidata_qid: 'Q43203'
+imdb_id: 'nm0000142'
+birth_date: '1930-05-31'
+birth_place: 'San Francisco, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Film director'
+  - 'Film producer'
+  - 'Composer'
+  - 'Politician'
+knows_about:
+  - 'Western and revisionist Western filmmaking'
+  - 'Minimalist on-set directing'
+  - 'Spaghetti Western iconography'
+  - 'Film scoring and piano composition'
+  - 'Carmel-by-the-Sea politics'
+  - 'War filmmaking and dual-perspective storytelling'
+keywords:
+  - 'Clint Eastwood enneagram'
+  - 'Clint Eastwood type 9'
+  - 'Clint Eastwood personality'
+  - 'Clint Eastwood 9w8'
+  - 'Peacemaker enneagram'
+  - 'Clint Eastwood Unforgiven'
+  - 'Clint Eastwood Dirty Harry'
+  - 'Clint Eastwood empty chair RNC'
+  - 'Sondra Locke Clint Eastwood'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Clint_Eastwood'
+  - 'https://www.wikidata.org/wiki/Q43203'
+  - 'https://www.imdb.com/name/nm0000142/'
+  - 'https://www.britannica.com/biography/Clint-Eastwood'
+citations:
+  - 'https://en.wikipedia.org/wiki/Clint_Eastwood'
+  - 'https://en.wikipedia.org/wiki/Unforgiven'
+  - 'https://en.wikipedia.org/wiki/Letters_from_Iwo_Jima'
+  - 'https://en.wikipedia.org/wiki/Sondra_Locke'
+faqs:
+  - question: "What is Clint Eastwood's personality type?"
+    answer: "Clint Eastwood is an Enneagram Type 9 (The Peacemaker), specifically a 9w8. The pattern shows in his refusal to yell 'Action' on set (he whispers 'Go ahead' or says nothing), Morgan Freeman's description of him taking 'two giant steps back' as a director, the eight grammar schools he moved through by age fourteen that taught him to merge with whatever room he was in, the way Sergio Leone cast him off a 'tired, resigned air,' and the integration arrow that produced seventeen feature films directed past the age most actors retire."
+    anchor: 'what-is-clint-eastwoods-personality-type'
+  - question: 'Why doesn''t Clint Eastwood say "Action" on set?'
+    answer: "He believes the word itself is an interruption: 'When someone screams action, it can take time to recover from that. Actors, like horses, have a central nervous system.' Instead he says, low, 'Go ahead,' or 'OK, anytime,' or nothing at all. Laura Linney has compared his sets to walking into a church. Often he doesn't shoot a second take. The whole career is Type 9 directorial calm — lower the temperature, trust the room, withhold the noise."
+    anchor: 'why-clint-eastwood-never-yells-action-on-set'
+  - question: 'Why did Clint Eastwood make Unforgiven?'
+    answer: "He bought David Webb Peoples' 1976 screenplay in the mid-eighties and held it almost a decade, waiting to be old enough to play William Munny — a used-up killer who can't mount a horse without help and can't hit a tin can after years off the bottle. The film eviscerated the genre he'd built his career inside. He dedicated it to Sergio Leone and Don Siegel, won Best Picture and Best Director, and spent two hours undoing forty years of his own myth. It's a Type 9 refusing to keep performing a peace he no longer believes."
+    anchor: 'why-clint-eastwood-buried-his-own-cowboy-in-unforgiven'
+  - question: 'What happened with Clint Eastwood and the empty chair at the 2012 RNC?'
+    answer: "In August 2012 he walked onto the Republican National Convention stage with no script and a chair meant to represent President Obama, and extemporized for eleven minutes in front of roughly thirty million live viewers. Roger Ebert called it 'sad and pathetic… unworthy of him.' Eastwood later told the Washington Post he regretted it. Read through the Enneagram, it's a Type 9 forced into ideological combat shifting toward Type 6 stress: anxious, scattered, looking for ground that isn't there."
+    anchor: 'the-empty-chair-was-a-stress-test'
+  - question: 'What did Sondra Locke say about Clint Eastwood?'
+    answer: "Locke and Eastwood were together for fourteen years after meeting on The Outlaw Josey Wales in 1975. He never publicly acknowledged the two children he fathered with Jacelyn Reeves during the relationship. In 1989 Locke came home to find the Bel Air locks changed; she sued for palimony, settled, then proved her Warner Bros. director's deal was a sham Eastwood had paid Warners to bury. Her 1997 memoir alleged he pressured her into two abortions and a tubal ligation, which Eastwood denied. She died in 2018 without speaking to him for twenty-nine years."
+    anchor: 'what-sondra-locke-said-about-clint-eastwood'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

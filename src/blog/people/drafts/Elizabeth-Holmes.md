@@ -15,6 +15,56 @@ type: ['entrepreneur', 'techie', 'business-operator']
 person: 'elizabeth-holmes'
 suggestions: ['Steve-Jobs', 'Anna-Wintour', 'Gwyneth-Paltrow', 'Hillary-Clinton']
 wikipedia: 'https://en.wikipedia.org/wiki/Elizabeth_Holmes'
+wikidata_qid: 'Q17503525'
+imdb_id: 'nm7266010'
+birth_date: '1984-02-03'
+birth_place: 'Washington, D.C., United States'
+nationality: 'American'
+occupation:
+  - 'Entrepreneur'
+  - 'Founder'
+  - 'Convicted fraudster'
+knows_about:
+  - 'Theranos'
+  - 'Blood testing technology marketing'
+  - 'Startup fundraising'
+  - 'Silicon Valley founder myth'
+  - 'Board assembly and social proof'
+  - 'Stanford dropout founder narrative'
+keywords:
+  - 'Elizabeth Holmes enneagram'
+  - 'Elizabeth Holmes type 3'
+  - 'Elizabeth Holmes personality'
+  - 'Elizabeth Holmes 3w2'
+  - 'Achiever enneagram'
+  - 'Theranos founder personality'
+  - 'Elizabeth Holmes voice fake'
+  - 'Liz Holmes rebrand'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Elizabeth_Holmes'
+  - 'https://www.wikidata.org/wiki/Q17503525'
+  - 'https://www.imdb.com/name/nm7266010/'
+  - 'https://www.britannica.com/biography/Elizabeth-Holmes'
+citations:
+  - 'https://en.wikipedia.org/wiki/Elizabeth_Holmes'
+  - 'https://en.wikipedia.org/wiki/Theranos'
+  - 'https://en.wikipedia.org/wiki/Bad_Blood:_Secrets_and_Lies_in_a_Silicon_Valley_Startup'
+  - 'https://en.wikipedia.org/wiki/The_Dropout_(miniseries)'
+  - 'https://en.wikipedia.org/wiki/The_Inventor:_Out_for_Blood_in_Silicon_Valley'
+  - 'https://www.nytimes.com/2023/05/07/business/elizabeth-holmes-interview-theranos.html'
+faqs:
+  - question: "What is Elizabeth Holmes's personality type?"
+    answer: "Elizabeth Holmes is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in the age-nine letter to her father announcing she wanted to 'discover something new' (a shape without a subject), the Channing Robertson 'another Bill Gates or Steve Jobs' quote she kept on her desk before building anything, the fabricated baritone voice and Jobs-replica turtleneck, the board of statesmen assembled as social proof, and the 600+ 'I don't know' answers in deposition when the costume failed."
+    anchor: 'what-is-elizabeth-holmess-personality-type'
+  - question: 'Was Elizabeth Holmes faking her deep voice?'
+    answer: "Yes. In a 2023 New York Times interview, Holmes spoke in her natural higher pitch and quietly confirmed the deep voice had been an affectation. Former Theranos employees, including early design lead Ana Arriola and reporter John Carreyrou, had documented her dropping the baritone at company gatherings for years. The voice, the unblinking stare, the bulk-bought Issey Miyake turtleneck — all pieces of a wardrobe, not a person."
+    anchor: 'what-elizabeth-holmess-voice-was-costuming'
+  - question: 'Why did Elizabeth Holmes stay with Sunny Balwani for a decade?'
+    answer: "Holmes met Sunny Balwani in 2002 when she was 18 and he was 37 and married. He moved into her house, became Theranos COO, and told her she had to 'kill the old Elizabeth' to make it in business. For a Type 3, 'kill the old Elizabeth' is not a threat — it is a job description. She was already wired to become whatever the room required. He was asking her to become more of the only person she knew how to be."
+    anchor: 'why-elizabeth-holmes-stayed-with-sunny-balwani-for-a-decade'
+  - question: 'What is Elizabeth Holmes doing in prison?'
+    answer: "Holmes is serving her sentence at the federal prison camp in Bryan, Texas, working as a reentry clerk for 31 cents an hour — helping fellow inmates polish their resumes and apply for jobs and benefits. She has begun posting warnings about an imminent AI-driven privacy apocalypse and has filed for clemency. The achievement engine doesn't stop. It just changes costumes."
+    anchor: 'what-elizabeth-holmes-does-in-prison'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

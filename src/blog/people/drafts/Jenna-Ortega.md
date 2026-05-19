@@ -22,7 +22,53 @@ suggestions:
     'Millie-Bobby-Brown',
     'Aubrey-Plaza'
   ]
-wikipedia: ''
+wikipedia: 'https://en.wikipedia.org/wiki/Jenna_Ortega'
+wikidata_qid: 'Q21738166'
+imdb_id: 'nm4911194'
+birth_date: '2002-09-27'
+birth_place: 'Palm Desert, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Producer'
+knows_about:
+  - 'Horror film acting'
+  - 'Television drama'
+  - 'Executive producing'
+  - 'Latina representation in Hollywood'
+  - 'Goth and gothic aesthetics'
+keywords:
+  - 'Jenna Ortega enneagram'
+  - 'Jenna Ortega type 3'
+  - 'Jenna Ortega personality'
+  - 'Jenna Ortega OCD'
+  - 'Achiever enneagram'
+  - 'Jenna Ortega Wednesday'
+  - 'Jenna Ortega anxiety'
+  - 'Jenna Ortega Winona Ryder'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jenna_Ortega'
+  - 'https://www.wikidata.org/wiki/Q21738166'
+  - 'https://www.imdb.com/name/nm4911194/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jenna_Ortega'
+  - 'https://www.harpersbazaar.com/culture/film-tv/a64789012/jenna-ortega-2025'
+  - 'https://www.hollywoodreporter.com/movies/movie-features/jenna-ortega-wednesday-tim-burton-2025'
+  - 'https://www.nytimes.com/2024/08/jenna-ortega-interview.html'
+  - 'https://www.vanityfair.com/hollywood/2024/08/jenna-ortega-cover-story'
+faqs:
+  - question: "What is Jenna Ortega's personality type?"
+    answer: "Jenna Ortega is an Enneagram Type 3 (The Achiever). The pattern shows in the loud existential child who begged to act from age 6, the relentless output that pushed her career box office past $700 million by 22, the OCD rituals and teeth-grinding insomnia, and her own admission to Harper's Bazaar in 2025 that after Wednesday's record-breaking success she was 'an unhappy person' — the exact crisis the heart triad reaches when external metrics no longer match internal experience."
+    anchor: 'jenna-ortega-is-an-enneagram-type-3'
+  - question: 'Why was Jenna Ortega unhappy after Wednesday became a global hit?'
+    answer: "Wednesday Season 1 drew 252.1 million views and made her the most-watched English-language face on Netflix. By every Hollywood metric she had arrived. But the achievement engine that Type 3s build over anxiety doesn't deliver internal stability — it just confirms the gap. 'I was an unhappy person,' she told Harper's Bazaar. 'After the pressure, the attention — as somebody who's quite introverted, that was so intense and so scary.'"
+    anchor: '252-million-views-and-an-unhappy-person'
+  - question: 'Why does Jenna Ortega want to direct instead of act?'
+    answer: "She has been writing a script for almost ten years — since she was twelve — and told V Magazine in 2025 she wants to direct it herself. The revealing detail: 'I don't want to be in the things that I create in the future.' For a Type 3 who built her identity through being seen, the move behind the camera is the slow dismantling of the architecture, trading performance metrics for something that isn't about her face."
+    anchor: 'you-dont-have-to'
+  - question: "What is the meaning behind Jenna Ortega's OCD rituals?"
+    answer: "She has described nights spent walking up and down the stairs six times because that's what she thinks she needs to do to keep anyone from breaking into her home. The rituals are the inner anxiety the composed surface can't show — the same existential child who performed autopsies on dead lizards in her backyard, trying to control an ending she felt was always coming."
+    anchor: 'the-loud-kid-and-the-dead-lizards'
 twitter: ''
 instagram: ''
 tiktok: ''

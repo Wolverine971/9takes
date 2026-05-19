@@ -15,9 +15,59 @@ type: ['creator', 'viral-entertainer']
 person: 'casey-neistat'
 suggestions: ['David-Dobrik', 'Mr-Beast', 'Logan-Paul', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Casey_Neistat'
-twitter: 'Casey'
-instagram: 'caseyneistat'
-tiktok: '@caseyneistat'
+wikidata_qid: 'Q5048547'
+imdb_id: 'nm2931325'
+birth_date: '1981-03-25'
+birth_place: 'Gales Ferry, Connecticut, United States'
+nationality: 'American'
+occupation:
+  - 'Filmmaker'
+  - 'YouTuber'
+  - 'Vlogger'
+  - 'Entrepreneur'
+knows_about:
+  - 'Daily vlogging'
+  - 'Documentary filmmaking'
+  - 'Guerrilla brand filmmaking'
+  - 'Consumer video editing'
+  - 'Endurance running'
+  - 'Creator economy'
+  - 'iMovie production'
+keywords:
+  - 'Casey Neistat enneagram'
+  - 'Casey Neistat type 4'
+  - 'Casey Neistat personality'
+  - 'Casey Neistat 4w3'
+  - 'Individualist enneagram'
+  - 'Casey Neistat Nike Make It Count'
+  - 'Casey Neistat 800 day vlog'
+  - 'Casey Neistat Beme CNN'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Casey_Neistat'
+  - 'https://www.wikidata.org/wiki/Q5048547'
+  - 'https://www.imdb.com/name/nm2931325/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Casey_Neistat'
+  - 'https://www.youtube.com/watch?v=S9ZblByTmqY'
+  - 'https://www.theverge.com/'
+  - 'https://richroll.com/'
+  - 'https://www.lewishowes.com/'
+faqs:
+  - question: "What is Casey Neistat's personality type?"
+    answer: "Casey Neistat is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in the 'fucked up wandering' unsupervised childhood he tells as a founding myth, the Nike FuelBand budget he spent on a personal round-the-world odyssey instead of a brand brief, the 800-day vlog streak that nearly broke his marriage, and the explicit identity quote: 'I never want to be comfortable, I never want to feel safe — that is the fast track to being irrelevant.'"
+    anchor: 'what-is-casey-neistats-personality-type'
+  - question: "Why did Casey Neistat hijack a Nike ad?"
+    answer: "Nike hired him for a FuelBand commercial. He looked at the slogan 'Life is a Sport. Make It Count' and took the production budget to airports until it ran out — Zambia, Doha, Bangkok in ten days with Max Joseph. The resulting film 'Make It Count' has 33 million views. Nike never approved the treatment, but a Type 4 cannot psychologically produce something that isn't authentically his."
+    anchor: 'turning-a-nike-ad-into-a-personal-manifesto'
+  - question: 'What did the 800-day daily vlog cost Casey Neistat?'
+    answer: "From March 2015 he posted every day for 800 days, going from a couple hundred thousand subscribers to over 10 million in 18 months. The cost: $200,000 in debt, four hours of sleep a night, and a marriage that nearly ended. He later called the hustle persona 'bullshit' — a Type 4 stress-move toward unhealthy Type 2, performing what the algorithm rewarded instead of what was authentically him."
+    anchor: '800-days-inside-the-camera'
+  - question: "Why did Casey Neistat walk away from CNN's $25 million Beme deal?"
+    answer: "CNN bought Beme in November 2016 expecting a digital Anthony Bourdain. The 22-person team produced only 40 videos in 14 months, most with under 100,000 views. Casey said he would 'disappear and hide' from the CNN work and retreat to his own YouTube channel. He walked away in January 2018. A conventional entrepreneur would have adapted; for a Type 4, when the product stopped being his, that was the only thing that mattered."
+    anchor: 'beme-cnn-and-the-innovators-dilemma'
+  - question: "How did Casey Neistat handle being an absent father to his son Owen?"
+    answer: "Owen was born when Casey was 17; Casey moved to New York after the breakup with Robin Harris and Owen grew up in Connecticut. Casey himself named the paradox: 'All I want to do as a parent now is protect my children from the hardships I had when I was little. But it is those hardships I had that made me who I am.' The very suffering that gave him his creative fuel is the suffering he inflicted on someone else — the most unresolved beat in his Type 4 wiring."
+    anchor: 'the-son-he-left-behind'
 path: src/blog/people/drafts/Casey-Neistat.md
 ---
 

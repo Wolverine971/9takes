@@ -14,7 +14,52 @@ enneagram: '4'
 type: ['comedian', 'movieStar', 'screen-icon']
 person: 'jennifer-coolidge'
 suggestions: ['Tim-Robinson', 'Adele', 'Lana-Del-Rey', 'Robert-Pattinson']
-wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Coolidge'
+wikidata_qid: 'Q230278'
+imdb_id: 'nm0177639'
+birth_date: '1961-08-28'
+birth_place: 'Boston, Massachusetts, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Comedian'
+knows_about:
+  - 'Comedic acting'
+  - 'Improvisational comedy'
+  - 'The Groundlings'
+  - "Christopher Guest's ensemble films"
+  - 'New Orleans gothic architecture restoration'
+keywords:
+  - 'Jennifer Coolidge enneagram'
+  - 'Jennifer Coolidge type 4'
+  - 'Jennifer Coolidge personality'
+  - 'Jennifer Coolidge 4w5'
+  - 'Individualist enneagram'
+  - 'Jennifer Coolidge Tanya'
+  - 'Jennifer Coolidge White Lotus'
+  - 'Jennifer Coolidge sabotage'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Coolidge'
+  - 'https://www.wikidata.org/wiki/Q230278'
+  - 'https://www.imdb.com/name/nm0177639/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jennifer_Coolidge'
+  - 'https://variety.com/2025/film/news/jennifer-coolidge-white-lotus-interview'
+  - 'https://www.wtfpod.com/podcast/episode-790-jennifer-coolidge'
+  - 'https://en.wikipedia.org/wiki/The_White_Lotus'
+  - 'https://en.wikipedia.org/wiki/American_Pie_(film)'
+faqs:
+  - question: "What is Jennifer Coolidge's personality type?"
+    answer: "Jennifer Coolidge is an Enneagram Type 4 (The Individualist), specifically a 4w5 Bohemian. The pattern shows in the gothic mansion in New Orleans she bought weeks before Katrina and has spent twenty years restoring (not modernizing), the lifetime of chasing 'unattainable men,' her own naming of the lost decade as self-sabotage, and the way she keeps offering her depressing stories to interviewers like a gift — moving toward the wound instead of away from it."
+    anchor: 'jennifer-coolidge-is-an-enneagram-type-4'
+  - question: 'Why did Jennifer Coolidge sabotage her career for twenty years?'
+    answer: "In her own telling: 'I wanted this guy that I was obsessed with. I wanted him to like me, so I went completely off-track.' After American Pie, Best in Show, and Legally Blonde made her a sure bet at 38, she fell for someone who was never going to love her back. The 4 pattern at work: the falling-in-love is with the version of the person that is not yet there. Romance has to remain just out of reach to remain interesting — and she chose the feeling over the work."
+    anchor: 'the-man-who-ate-twenty-years'
+  - question: 'How did Jennifer Coolidge get cast as Tanya in The White Lotus?'
+    answer: "Mike White had spent two weeks on safari with her in 2018 and wrote Tanya specifically for her. When he called in 2020, Coolidge — alone in the gothic house, having gained 30-40 pounds during COVID, eating 'six vegan pizzas' a day — tried to say no. A friend stopped her: 'for once in my life, I listened.' Two years later, she had an Emmy. The whole comeback hinged on one phone call refusing to let her self-sabotage again."
+    anchor: 'six-pizzas-a-day-and-the-friend-who-saved-her-career'
+  - question: "Why does Jennifer Coolidge live in a haunted house in New Orleans?"
+    answer: "The 7,000 square foot 1867 mansion in the Lower Garden District is a self-portrait. Other actors in her tax bracket bought Malibu beach houses or Beverly Hills compounds that read as success. Coolidge bought a half-broken ruin below sea level in a hurricane path, filled it with creepy oil paintings, and chose to live among its dead Confederate-era inhabitants. Faded grandeur and proximity to loss aren't aesthetic preferences for a 4w5 Bohemian — they're home."
+    anchor: 'why-jennifer-coolidge-built-a-haunted-house'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

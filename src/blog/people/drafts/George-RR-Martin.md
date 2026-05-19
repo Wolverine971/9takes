@@ -18,6 +18,56 @@ wikipedia: 'https://en.wikipedia.org/wiki/George_R._R._Martin'
 twitter: 'GRRMspeaking'
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q181677'
+imdb_id: 'nm0552333'
+birth_date: '1948-09-20'
+birth_place: 'Bayonne, New Jersey, USA'
+nationality: 'American'
+occupation:
+  - 'Novelist'
+  - 'Screenwriter'
+  - 'Television producer'
+  - 'Short story writer'
+  - 'Editor'
+knows_about:
+  - 'Epic fantasy'
+  - 'Wars of the Roses'
+  - 'Medieval history'
+  - 'Science fiction'
+  - 'Television adaptation'
+  - 'Shared-world anthology editing'
+  - 'World-building'
+keywords:
+  - 'George R.R. Martin Enneagram'
+  - 'George R.R. Martin Type 5'
+  - 'GRRM personality'
+  - 'Investigator Enneagram'
+  - 'Winds of Winter delay psychology'
+  - 'A Song of Ice and Fire author'
+  - 'George R.R. Martin WordStar'
+  - 'George R.R. Martin Type 5 Investigator'
+same_as:
+  - 'https://en.wikipedia.org/wiki/George_R._R._Martin'
+  - 'https://www.wikidata.org/wiki/Q181677'
+  - 'https://www.imdb.com/name/nm0552333/'
+  - 'https://www.georgerrmartin.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/George_R._R._Martin'
+  - 'https://www.georgerrmartin.com/'
+  - 'https://www.imdb.com/name/nm0552333/'
+faqs:
+  - question: "What is George R.R. Martin's personality type?"
+    answer: "George R.R. Martin maps onto Enneagram Type 5, the Investigator. The pattern shows in his obsessive world-building, his WordStar-on-an-air-gapped-DOS-machine writing setup, his 'I don't write in hotel rooms, I don't write on airplanes' rule, the lonely Bayonne childhood that turned pet turtle deaths into his first epic, and the Wars of the Roses-deep research that produced Westeros and the same fortress that now keeps him trapped inside it."
+    anchor: 'what-is-george-r-r-martins-personality-type'
+  - question: "Why can't George R.R. Martin finish The Winds of Winter?"
+    answer: "Martin himself names it as distraction rather than block, but the deeper Type 5 reading is the perfectionism trap — each detail opens a new rabbit hole of research, each revision discovers a new inconsistency, and the comprehensive-understanding instinct that built Westeros makes releasing it nearly impossible. He's written 1,100-1,200 pages with 400-500 to go, after 13 years."
+    anchor: 'the-curse-of-perfectionism'
+  - question: 'How did George R.R. Martin start writing as a kid?'
+    answer: "Martin grew up in a Bayonne housing project so confined his 'world consisted predominantly of First Street to Fifth Street.' He kept pet turtles in a toy castle and, when they died, decided they must be murdering each other in 'sinister plots' — his first epic fantasy. He started selling monster stories to neighborhood kids for pennies, with dramatic readings included. The pattern was set: withdraw, build the world, emerge on your own terms."
+    anchor: 'the-boy-from-bayonne-where-the-pattern-began'
+  - question: 'Why did George R.R. Martin fall out with the Game of Thrones showrunners?'
+    answer: "Martin wanted 10-13 seasons; the showrunners wanted 8. He flew to New York to meet HBO's CEO begging for more episodes. He lost. He was 'kept out of the loop' for the later seasons and watched commercial pressure compress his life's work — the exact Type 5 nightmare of losing control over your own creation, which his subsequent disputes with HBO over House of the Dragon have only sharpened."
+    anchor: 'the-hbo-wars-when-the-world-invaded-westeros'
 path: src/blog/people/drafts/George-RR-Martin.md
 content_quality:
   hook: 9

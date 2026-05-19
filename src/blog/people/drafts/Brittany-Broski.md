@@ -15,9 +15,58 @@ type: ['creator', 'viral-entertainer']
 person: 'brittany-broski'
 suggestions: ['Emma-Chamberlain', 'Theo-Von', 'Kai-Cenat', 'Alex-Cooper']
 wikipedia: 'https://en.wikipedia.org/wiki/Brittany_Broski'
-twitter: 'brittany_broski'
-instagram: 'brittany_broski'
-tiktok: 'brittanybroski'
+wikidata_qid: 'Q99656431'
+imdb_id: 'nm11137492'
+birth_date: '1997-05-10'
+birth_place: 'Valdosta, Georgia, United States'
+nationality: 'American'
+occupation:
+  - 'Comedian'
+  - 'Podcaster'
+  - 'Content creator'
+  - 'Singer'
+knows_about:
+  - 'Short-form video comedy'
+  - 'Podcast hosting'
+  - 'Celebrity interviewing'
+  - 'Improv comedy'
+  - 'Etymology'
+  - 'Parasocial community building'
+  - 'Vintage rock songwriting'
+keywords:
+  - 'Brittany Broski enneagram'
+  - 'Brittany Broski type 7'
+  - 'Brittany Broski personality'
+  - 'Brittany Broski 7w6'
+  - 'Enthusiast enneagram'
+  - 'Kombucha Girl personality'
+  - 'Royal Court host'
+  - 'Broski Report podcast'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Brittany_Broski'
+  - 'https://www.wikidata.org/wiki/Q99656431'
+  - 'https://www.imdb.com/name/nm11137492/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Brittany_Broski'
+  - 'https://time.com/collection/time100-creators-2025/'
+  - 'https://www.hollywoodreporter.com/'
+  - 'https://www.bustle.com/'
+faqs:
+  - question: "What is Brittany Broski's personality type?"
+    answer: "Brittany Broski is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in her military-brat upbringing across seven states, her ability to reframe getting fired from a bank as career fuel, the rotating hyperfixations (etymology, knitting, Irish men, Cake Sort), the constant platform-hopping from TikTok to podcasting to music, and her unusually open admission of mutual parasocial attachment to Broski Nation."
+    anchor: 'what-is-brittany-broskis-personality-type'
+  - question: 'How did the kombucha video change Brittany Broski''s life?'
+    answer: "In August 2019, Brittany Tomlinson was working in trust and investment services at a Texas bank when an 8-second TikTok of her reacting to kombucha hit 1.8 million likes in three days. The bank fired her — 'This is not becoming of a young professional' — and she packed her desk the same day. Within weeks she had pivoted into full-time content, the classic Type 7 move of converting pain into permission."
+    anchor: 'the-kombucha-moment-when-viral-fame-found-a-type-7'
+  - question: 'Why does Brittany Broski keep changing platforms and projects?'
+    answer: "Most creators find a niche and optimize it. Brittany has gone from TikTok to YouTube to TikTok's official podcast to 'Violating Community Guidelines' to 'The Broski Report' to 'Royal Court' to releasing original music — each move once the prior format felt mastered or limiting. Type 7s expand rather than deepen because staying in one place feels like being trapped."
+    anchor: 'building-an-empire-on-enthusiasm'
+  - question: 'What happened between Brittany Broski and Sarah Schauer?'
+    answer: "Their podcast 'Violating Community Guidelines' ended abruptly with a 'Series Finale' in December 2023, and Sarah hinted on Instagram that the decision was 'out of her and Broski's hands.' Neither has publicly explained what happened. For a Type 7 who processed getting fired live on camera and turned a situationship into her debut single, the silence is the giveaway — it's the only chapter she hasn't made into content."
+    anchor: 'the-sarah-schauer-chapter'
+  - question: 'Why is Brittany Broski''s health journey a Type 7 stress signal?'
+    answer: "In 2024 she documented her PCOS diagnosis and a 27-pound transformation through Metformin, Semaglutide, dietary changes, and consistent exercise. The systematic self-examination — tracking diet against mood, naming seasonal depression, building 'safety systems' — is the Type 7 stress move toward Type 1 perfectionism. The body forced her to confront symptoms she couldn't outrun with distraction."
+    anchor: 'the-health-journey-when-type-7-meets-type-1'
 path: src/blog/people/drafts/Brittany-Broski.md
 content_quality:
   hook: 8

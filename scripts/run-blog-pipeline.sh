@@ -1,3 +1,4 @@
+# scripts/run-blog-pipeline.sh
 #!/usr/bin/env bash
 #
 # scripts/run-blog-pipeline.sh

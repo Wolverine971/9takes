@@ -15,9 +15,57 @@ type: ['musician', 'pop-star']
 person: 'ariana-grande'
 suggestions: ['Keke-Palmer', 'Taylor-Swift', 'Billie-Eilish', 'Selena-Gomez', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Ariana_Grande'
-twitter: 'arianagrande'
-instagram: 'arianagrande'
-tiktok: 'arianagrande'
+wikidata_qid: 'Q151892'
+imdb_id: 'nm3812858'
+birth_date: '1993-06-26'
+birth_place: 'Boca Raton, Florida, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Actress'
+  - 'Record producer'
+knows_about:
+  - 'Pop songwriting'
+  - 'Four-octave vocal range'
+  - 'Whistle register technique'
+  - 'Musical theater performance'
+  - 'Celebrity fragrance branding'
+  - 'r.e.m. beauty brand-building'
+  - 'Concert tour production'
+keywords:
+  - 'Ariana Grande enneagram'
+  - 'Ariana Grande type 3'
+  - 'Ariana Grande personality'
+  - 'Ariana Grande Wicked'
+  - 'Ariana Grande Oscar snub'
+  - 'Achiever enneagram'
+  - 'Ariana Grande One Love Manchester'
+  - 'Ariana Grande r.e.m. beauty'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ariana_Grande'
+  - 'https://www.wikidata.org/wiki/Q151892'
+  - 'https://www.imdb.com/name/nm3812858/'
+  - 'https://www.britannica.com/biography/Ariana-Grande'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ariana_Grande'
+  - 'https://en.wikipedia.org/wiki/One_Love_Manchester'
+  - 'https://en.wikipedia.org/wiki/Wicked_(2024_film)'
+  - 'https://en.wikipedia.org/wiki/Thank_U,_Next_(album)'
+  - 'https://en.wikipedia.org/wiki/R.E.M._Beauty'
+faqs:
+  - question: "What is Ariana Grande's personality type?"
+    answer: "Ariana Grande is an Enneagram Type 3 (The Achiever). The pattern shows in her arena-switching trajectory from Broadway kid to Nickelodeon to pop superstar to Oscar-nominated film lead, her four-octave vocal range treated as a skill to perfect rather than a gift to coast on, the months of classical retraining she did before even auditioning for Glinda, and the way she converts crisis (Manchester, Mac Miller's death) into momentum (One Love Manchester, thank u, next)."
+    anchor: 'what-is-ariana-grandes-personality-type'
+  - question: 'Why is Ariana Grande Type 3 and not Type 2 or Type 4?'
+    answer: "Her warmth and Manchester benefit concert read Type 2, but One Love Manchester was a logistical achievement that raised 17 million pounds in two weeks — Type 2s want to be needed, Type 3s want to be undeniable. Her emotional rawness on tracks like 'pov' reads Type 4, but unlike Billie Eilish, Ariana's darkness becomes a hit single and a fragrance line. The emotion is real. The process is Achiever."
+    anchor: 'why-not-type-2-or-type-4'
+  - question: 'How did Ariana Grande respond to the 2026 Oscar snub for Wicked: For Good?'
+    answer: "The sequel grossed $526 million worldwide with the best reviews of her career, then the Academy gave her zero nominations. Healthy Type 3 growth looks like what she did next — she kept moving, announced her Eternal Sunshine Tour, and didn't spiral into bitterness or perform grievance for sympathy. The scoreboard didn't cooperate, so she moved to the next scoreboard."
+    anchor: 'when-the-scoreboard-doesnt-cooperate'
+  - question: 'What does Ariana Grande choosing 41 tour shows reveal about her growth?'
+    answer: "Six million people crashed Ticketmaster trying to buy pre-sale tickets. She added nine dates and still chose 41 shows instead of 100, calling it her 'last hurrah.' Unhealthy Type 3s cannot slow down because rest feels like failure. Choosing pace over volume suggests integration toward Type 6 — grounded priorities, loyalty to what's sustainable, value beyond external validation."
+    anchor: 'choosing-pace-over-more'
 path: src/blog/people/drafts/Ariana-Grande.md
 content_quality:
   hook: 8.5

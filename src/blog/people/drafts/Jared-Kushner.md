@@ -17,6 +17,57 @@ suggestions: ['Donald-Trump', 'Peter-Thiel', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jared_Kushner'
 twitter: 'jaredkushner'
 instagram: 'jaredkushner'
+wikidata_qid: 'Q13628723'
+imdb_id: 'nm4138582'
+birth_date: '1981-01-10'
+birth_place: 'Livingston, New Jersey, USA'
+nationality: 'American'
+occupation:
+  - 'Investor'
+  - 'Real estate developer'
+  - 'Political advisor'
+  - 'Publisher'
+knows_about:
+  - 'Middle East diplomacy'
+  - 'Abraham Accords'
+  - 'Private equity'
+  - 'Commercial real estate'
+  - 'Operation Warp Speed'
+  - 'First Step Act'
+  - 'Distressed-debt restructuring'
+keywords:
+  - 'Jared Kushner enneagram'
+  - 'Jared Kushner type 3'
+  - 'Jared Kushner personality'
+  - 'Kushner 3w4'
+  - 'Achiever enneagram'
+  - 'Jared Kushner Mechanic'
+  - '666 Fifth Avenue Kushner'
+  - 'Affinity Partners Kushner'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jared_Kushner'
+  - 'https://www.wikidata.org/wiki/Q13628723'
+  - 'https://www.imdb.com/name/nm4138582/'
+  - 'https://www.britannica.com/biography/Jared-Kushner'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jared_Kushner'
+  - 'https://en.wikipedia.org/wiki/Charles_Kushner'
+  - 'https://www.cnn.com/2018/04/23/politics/charles-jared-kushner-666-fifth-avenue'
+  - 'https://www.newsweek.com/john-bolton-book-details-intense-frustration-jared-kushner-white-house-1512560'
+  - 'https://oversightdemocrats.house.gov/imo/media/doc/2026-03-19garciawydenlettertoaffinitypartnersrekushnerfundraisingfinal.pdf'
+faqs:
+  - question: "What is Jared Kushner's personality type?"
+    answer: "Jared Kushner is an Enneagram Type 3 (The Achiever), specifically a 3w4 with a self-preservation subtype. The pattern shows in the $1.8 billion 666 Fifth Avenue disaster he converted into the 'Mechanic' frame, the silent two years of special counsel testimony, the no-subject-matter-expertise Middle East diplomacy that produced the Abraham Accords, and the Affinity Partners fund that hit $6.16 billion in AUM by April 2026."
+    anchor: 'what-is-jared-kushners-personality-type'
+  - question: 'How did 666 Fifth Avenue change Jared Kushner?'
+    answer: "Charles Kushner pushed Jared into the $1.8 billion single-asset deal in 2007; the 2008 crash gutted it. Jared flew alone to Tom Barrack, restructured the distressed debt, eventually unloaded retail to Carlyle and the Cherng family for $525 million, and got Vornado to recap the office tower. Every deal since carries the same signature: preferred equity, structured downside, and the disaster repackaged as the credential that built Affinity Partners."
+    anchor: 'the-18-billion-dollar-lesson-that-made-jared-kushner-patient'
+  - question: 'How did Kushner negotiate the Abraham Accords without diplomatic experience?'
+    answer: "Kushner walked into Mohammed bin Zayed's office and spent two and a half hours asking 'If you were me, what would you do?' MBZ told him he was the first senior US emissary in years who didn't fall asleep, read note cards, or pressure. The lack of credentials became the deliverable: the UAE, Bahrain, Sudan, and Morocco signed, and the Saudi-Qatar GCC reconciliation closed January 5, 2021 after Kushner put MBS on iPhone speaker inside Emir Tamim's room."
+    anchor: 'how-jared-kushner-negotiated-the-abraham-accords-by-asking-questions'
+  - question: 'Why did Jared Kushner stay silent during his father Charles Kushner’s imprisonment?'
+    answer: "Charles Kushner pleaded guilty in 2004 to 16 counts of tax fraud, witness retaliation, and false FEC statements — including hiring a prostitute to seduce his cooperating brother-in-law and sending the tape to his sister. Jared was 23, running the family company within months. In his only extended public account, he compressed the federal conviction into a usable parable: money and ego don't come between us. The horror was edited out; the lesson was kept."
+    anchor: 'why-jared-kushner-sat-through-his-fathers-imprisonment-without-speaking'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

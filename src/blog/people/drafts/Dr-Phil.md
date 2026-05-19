@@ -15,6 +15,56 @@ type: ['other']
 person: 'dr-phil'
 suggestions: ['Oprah-Winfrey', 'Joe-Rogan', 'Jordan-Peterson', 'Andrew-Tate']
 wikipedia: 'https://en.wikipedia.org/wiki/Phil_McGraw'
+wikidata_qid: 'Q204630'
+imdb_id: 'nm1114695'
+birth_date: '1950-09-01'
+birth_place: 'Vinita, Oklahoma, USA'
+nationality: 'American'
+occupation:
+  - 'Television personality'
+  - 'Author'
+  - 'Psychologist'
+  - 'Businessperson'
+knows_about:
+  - 'Clinical psychology'
+  - 'Trial consulting'
+  - 'Television hosting'
+  - 'Self-help publishing'
+  - 'Jury behavior analysis'
+  - 'Confrontational counseling'
+keywords:
+  - 'Dr Phil enneagram'
+  - 'Dr Phil type 8'
+  - 'Dr Phil personality'
+  - 'Phil McGraw 8w9'
+  - 'Challenger enneagram'
+  - 'Dr Phil childhood'
+  - 'Dr Phil Oprah Amarillo trial'
+  - 'Dr Phil Merit Street bankruptcy'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Phil_McGraw'
+  - 'https://www.wikidata.org/wiki/Q204630'
+  - 'https://www.imdb.com/name/nm1114695/'
+  - 'https://www.britannica.com/biography/Phil-McGraw'
+citations:
+  - 'https://en.wikipedia.org/wiki/Phil_McGraw'
+  - 'https://en.wikipedia.org/wiki/Dr._Phil_(talk_show)'
+  - 'https://www.drphil.com/about-dr-phil/'
+  - 'https://en.wikipedia.org/wiki/Merit_Street_Media'
+  - 'https://en.wikipedia.org/wiki/Oprah_Winfrey'
+faqs:
+  - question: "What is Dr. Phil's personality type?"
+    answer: "Phil McGraw is an Enneagram Type 8 (The Challenger), specifically an 8w9. The pattern is the through-line of his life: the boy who climbed through a bedroom window to bypass his alcoholic father's chaos became the trial consultant who controlled courtrooms, then the host who decided who got confronted on national TV, then the network owner who pivoted within weeks of bankruptcy. Control as survival, confrontation as native language, armor that never comes off."
+    anchor: 'what-is-dr-phils-personality-type'
+  - question: "How did Dr. Phil's childhood shape him?"
+    answer: "Phil grew up with 'yelling, screaming, violence — domestic violence' and a father he described as a 'bad alcoholic.' At twelve he was living in a car with that father in Kansas City, then a $5-a-night YMCA room, then an apartment with no gas, electric or water. He worked at A&W at thirteen, decided at sixteen he would never drink, and made himself 'the patriarch of the family.' The Type 8 vow — never be at someone else's mercy again — was forged in that chaos."
+    anchor: 'the-bedroom-window'
+  - question: 'Why did Dr. Phil get involved in the Oprah Winfrey beef trial?'
+    answer: "In 1995, Oprah's lawyers hired Phil's firm Courtroom Sciences to prep her for the Amarillo, Texas beef defamation trial after Texas cattlemen sued for $100 million. He coached her through it; she won. Impressed, Oprah nicknamed him 'Tell It Like It Is Phil' and put him on her show. His first counselor appearance set the template: confrontation dressed up as care. By 2002 he had his own show — a 21-season, 3,500-episode platform where he held all the power."
+    anchor: 'tell-it-like-it-is-phil'
+  - question: 'What happened with Merit Street Media?'
+    answer: "Phil launched Merit Street Media in April 2024 after ending the Dr. Phil show, endorsing Trump and accompanying ICE on raids. Average prime-time viewership fell to 17,000. It filed Chapter 11 by July 2025; Professional Bull Riders accused him of orchestrating the bankruptcy. Within weeks he announced Envoy Media Company with Steve Harvey. Pure Type 8 pivot — stillness is death, reflection is what happens to people who can't afford action."
+    anchor: 'the-merit-street-collapse'
 twitter: 'DrPhil'
 instagram: 'drphil'
 tiktok: ''

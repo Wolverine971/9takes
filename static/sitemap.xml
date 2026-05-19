@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -1607,6 +1607,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/elizabeth-holmes</loc>
+    <lastmod>2026-05-07</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Elizabeth-Holmes.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/ellen-degeneres</loc>
     <lastmod>2025-03-24</lastmod>
     <image:image>
@@ -2815,6 +2822,13 @@
     <lastmod>2026-02-10</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/4s/Robert-Pattinson.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/robin-williams</loc>
+    <lastmod>2026-05-06</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Robin-Williams.webp</image:loc>
     </image:image>
   </url>
   <url>

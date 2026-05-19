@@ -6,7 +6,7 @@ description: "Adam Sandler built a billion-dollar empire on making everyone comf
 author: 'DJ Wayne'
 date: '2026-04-06'
 loc: 'https://9takes.com/personality-analysis/adam-sandler'
-lastmod: '2026-04-06'
+lastmod: '2026-05-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -15,9 +15,65 @@ type: ['comedian', 'movieStar', 'screen-icon']
 person: 'adam-sandler'
 suggestions: ['Kevin-Hart', 'Pete-Davidson', 'Keanu-Reeves', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Adam_Sandler'
-twitter: 'https://twitter.com/AdamSandler'
-instagram: 'https://instagram.com/adamsandler'
-tiktok: ''
+wikidata_qid: 'Q132952'
+imdb_id: 'nm0001191'
+birth_date: '1966-09-09'
+birth_place: 'Brooklyn, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Comedian'
+  - 'Screenwriter'
+  - 'Film producer'
+  - 'Musician'
+knows_about:
+  - 'Sketch comedy'
+  - 'Comedy songwriting'
+  - 'Saturday Night Live'
+  - 'Romantic comedy filmmaking'
+  - 'Stand-up comedy'
+  - 'Happy Madison Productions'
+  - 'Manchild film characters'
+keywords:
+  - 'Adam Sandler enneagram'
+  - 'Adam Sandler type 9'
+  - 'Adam Sandler personality'
+  - 'Adam Sandler peacemaker'
+  - 'Peacemaker enneagram'
+  - 'Happy Madison Productions'
+  - 'Adam Sandler Uncut Gems'
+  - 'Adam Sandler Punch-Drunk Love'
+  - 'Adam Sandler Chris Farley song'
+  - 'Adam Sandler basketball'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Adam_Sandler'
+  - 'https://www.wikidata.org/wiki/Q132952'
+  - 'https://www.imdb.com/name/nm0001191/'
+  - 'https://www.britannica.com/biography/Adam-Sandler'
+citations:
+  - 'https://en.wikipedia.org/wiki/Adam_Sandler'
+  - 'https://en.wikipedia.org/wiki/Happy_Madison_Productions'
+  - 'https://en.wikipedia.org/wiki/Punch-Drunk_Love'
+  - 'https://en.wikipedia.org/wiki/Uncut_Gems'
+  - 'https://en.wikipedia.org/wiki/The_Chanukah_Song'
+  - 'https://en.wikipedia.org/wiki/Mark_Twain_Prize_for_American_Humor'
+  - 'https://en.wikipedia.org/wiki/Chris_Farley'
+faqs:
+  - question: "What is Adam Sandler's personality type?"
+    answer: "Adam Sandler is an Enneagram Type 9, the Peacemaker. The pattern shows up everywhere: he developed comedy as a boy specifically to defuse his father's temper, built Happy Madison Productions to eliminate every source of professional friction, wears clothes engineered for zero physical discomfort, plays pickup basketball almost daily as a body-based grounding ritual, and only delivers his most devastating performances when someone he trusts (Paul Thomas Anderson, the Safdie brothers, his wife Jackie) pushes him past his comfort zone."
+    anchor: 'what-is-adam-sandlers-personality-type'
+  - question: 'Why does Adam Sandler only work with the same group of friends?'
+    answer: "Happy Madison Productions exists, essentially, to keep Adam Sandler's friends employed and comfortable. Allen Covert has appeared in or produced 16 Happy Madison titles; David Spade has 14; Rob Schneider and Kevin James have 12 each. Films shoot in Hawaii, South Africa, and on cruise ships so the cast and their families can vacation while shooting. Rob Schneider told Howard Stern, 'I owe him for the rest of my life.' For a Type 9, merging work and personal life into one frictionless environment isn't a quirk — it's the architecture."
+    anchor: 'how-adam-sandler-turned-friendship-into-a-business-model'
+  - question: 'Why did Adam Sandler have to be talked into Uncut Gems and Punch-Drunk Love?'
+    answer: "Sandler trained at Strasberg long before he was the funny guy, so the dramatic chops were always there. The willingness wasn't. The Safdie brothers pursued him for years for Uncut Gems; he was 'scared to do the movie' until his wife Jackie read the script and said, 'You have to do it.' Paul Thomas Anderson pursued him in the same way for Punch-Drunk Love. Nines rarely push themselves toward discomfort — someone they trust has to push, and what surfaces is decades of accumulated feeling that has been waiting underneath."
+    anchor: 'the-roles-he-had-to-be-pushed-into'
+  - question: 'Why does Adam Sandler play basketball every day?'
+    answer: "Sandler has played pickup basketball five to seven times a week for most of his adult life. Location scouts on his films have a side job: finding courts within five minutes of set. The court gives him what his career can't — clear rules, a working body, and a room where nobody asks about his Netflix deal or his Oscar snub. Nines sit in the body-based Anger triad of the Enneagram, and the daily ritual keeps him connected to himself when his mind would rather drift. It's not exercise. It's where he goes to feel like himself."
+    anchor: 'why-adam-sandler-plays-basketball-every-single-day'
+  - question: "How did Adam Sandler process his father's death?"
+    answer: "Stanley Sandler died of lung cancer on September 9, 2003 — Adam's birthday. Adam processed it the way he processes everything: quietly, through work and music. He buried a dedication to his father at the end of 50 First Dates, after a silly romantic comedy, where the audience wasn't expecting it. He wrote 'Stan the Man' and has performed it on Letterman, in his 2018 special 100% Fresh, and when he returned to host SNL in 2019. The same impulse drives the Chris Farley tribute song he can still barely finish without crying. Nines don't write confessional essays. They put the feeling into songs and let the room catch it."
+    anchor: 'september-9-2003'
 content_quality:
   hook: 9
   enneagram: 8.5

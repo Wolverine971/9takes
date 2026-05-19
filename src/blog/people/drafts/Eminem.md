@@ -14,10 +14,59 @@ enneagram: '6'
 type: ['musician', 'rapper']
 person: 'eminem'
 suggestions: ['Drake', 'Kanye', 'Taylor-Swift', 'Bad-Bunny', 'Joe-Rogan']
-wikipedia: ''
-twitter: ''
-instagram: ''
-tiktok: ''
+wikipedia: 'https://en.wikipedia.org/wiki/Eminem'
+wikidata_qid: 'Q5608'
+imdb_id: 'nm0004896'
+birth_date: '1972-10-17'
+birth_place: 'Saint Joseph, Missouri, USA'
+nationality: 'American'
+occupation:
+  - 'Rapper'
+  - 'Songwriter'
+  - 'Record producer'
+  - 'Actor'
+  - 'Entrepreneur'
+knows_about:
+  - 'Hip hop lyricism'
+  - 'Multisyllabic rhyme schemes'
+  - 'Battle rap'
+  - 'Shady Records'
+  - 'D12'
+  - 'Diss tracks'
+  - 'Detroit hip hop'
+keywords:
+  - 'Eminem enneagram'
+  - 'Eminem type 6'
+  - 'Eminem personality'
+  - 'Marshall Mathers 6w7'
+  - 'Loyal Skeptic enneagram'
+  - 'Eminem Proof'
+  - 'Eminem Slim Shady'
+  - 'Eminem Ja Rule MGK feud'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Eminem'
+  - 'https://www.wikidata.org/wiki/Q5608'
+  - 'https://www.imdb.com/name/nm0004896/'
+  - 'https://www.rockhall.com/inductees/eminem'
+citations:
+  - 'https://en.wikipedia.org/wiki/Eminem'
+  - 'https://en.wikipedia.org/wiki/Slim_Shady'
+  - 'https://en.wikipedia.org/wiki/8_Mile_(film)'
+  - 'https://en.wikipedia.org/wiki/Proof_(rapper)'
+  - 'https://en.wikipedia.org/wiki/The_Death_of_Slim_Shady_(Coup_de_Gr%C3%A2ce)'
+faqs:
+  - question: "What is Eminem's personality type?"
+    answer: "Eminem is an Enneagram Type 6 (The Loyal Skeptic). The pattern shows in his lifelong scanning for threats (twelve schools before ninth grade, dictionary-as-arsenal), his unbreakable loyalty to a small circle (Dre, Proof, Paul Rosenberg, D12), the war-footing response to anyone who crosses his daughter Hailie, and the disintegration into prescription drugs after Proof's 2006 murder removed his anchor."
+    anchor: 'what-is-eminems-personality-type'
+  - question: 'Why did Eminem create Slim Shady?'
+    answer: "Slim Shady is a Type 6 defensive structure — a comic shield that lets Marshall say the things he can't say as himself. Eminem has described Slim as 'the evil thoughts that come into my head,' and used him for 25 years as armor against a hostile world. In 2024 he released The Death of Slim Shady (Coup de Grâce), a concept album about literally killing the alter ego he had used to face an unsafe world since 1997."
+    anchor: 'the-protector-emerges'
+  - question: 'Why does Eminem feud so aggressively with other rappers?'
+    answer: "Type 6 paranoia is not passive — Eminem charges toward threats rather than waiting for them. The Ja Rule, MGK, and Benzino feuds all activated when each rapper crossed a perceived line involving his daughter Hailie or his crew. His response is not measured: 'Killshot' got 38 million YouTube views in 24 hours, 'Nail in the Coffin' helped end Benzino's career, and he is still taking Benzino shots 22 years later on 2024's 'Doomsday Pt. 2.'"
+    anchor: 'going-to-war'
+  - question: 'How did Proof''s death affect Eminem?'
+    answer: "Proof was Eminem's anchor — the friend who snuck him into Osborn High School for lunchroom battles and hosted the Hip Hop Shop competitions. After Proof was shot outside a Detroit nightclub in April 2006, Eminem spiraled into prescription drug addiction, peaking at 60 Valium and 30 Vicodin pills a day before a near-fatal methadone overdose in December 2007. This is what disintegration looks like for a Type 6 when the trusted anchor is removed."
+    anchor: 'when-the-anchor-breaks'
 path: src/blog/people/drafts/Eminem.md
 content_quality:
   hook: 8

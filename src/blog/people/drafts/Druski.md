@@ -15,10 +15,58 @@ type: ['comedian', 'creator', 'viral-entertainer', 'internet-comic']
 person: 'druski'
 suggestions: ['Kai-Cenat', 'IShowSpeed', 'Kevin-Hart', 'Theo-Von']
 wikipedia: 'https://en.wikipedia.org/wiki/Druski'
+wikidata_qid: 'Q111671188'
+imdb_id: 'nm11926377'
+birth_date: '1994-09-12'
+birth_place: 'Columbia, Maryland, United States'
+nationality: 'American'
+occupation:
+  - 'Comedian'
+  - 'Actor'
+  - 'Internet personality'
+  - 'Entertainment executive'
+knows_about:
+  - 'Sketch comedy'
+  - 'Character-driven satire'
+  - 'Social media content production'
+  - '4Lifers Entertainment'
+  - 'Coulda Been Records'
+  - 'Hip-hop adjacent comedy'
+keywords:
+  - 'Druski enneagram'
+  - 'Druski type 8'
+  - 'Druski personality'
+  - 'Druski Coulda Been Records'
+  - 'Challenger enneagram'
+  - 'Druski 4Lifers Entertainment'
+  - 'Druski whiteface controversy'
+  - 'Druski Kai Cenat Mafiathon'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Druski'
+  - 'https://www.wikidata.org/wiki/Q111671188'
+  - 'https://www.imdb.com/name/nm11926377/'
 twitter: 'drulogang'
 instagram: 'druski'
 tiktok: 'druski'
-path: src/blog/people/drafts/Druski.md
+citations:
+  - 'https://en.wikipedia.org/wiki/Druski'
+  - 'https://www.rollingstone.com/t/druski/'
+  - 'https://www.billboard.com/'
+  - 'https://www.forbes.com/'
+  - 'https://afrotech.com/'
+faqs:
+  - question: "What is Druski's personality type?"
+    answer: "Druski is an Enneagram Type 8 (The Challenger). The pattern shows in the \"walking around Nike like the CEO\" Drake-video story, the refusal to apologize for the NASCAR whiteface and Erika Kirk sketches, the in-48-hours documentary defense against the Diddy lawsuit, the post-Netflix-rejection decision to self-fund 4Lifers Entertainment, and the day-one Gwinnett crew who still ride on Coulda Fest. He expands into rooms instead of shrinking inside them."
+    anchor: 'how-big-boss-energy-got-him-into-hip-hops-inner-circle'
+  - question: 'How did Druski build a $14M comedy empire after Netflix said no?'
+    answer: "After Netflix, Amazon, and Hulu all passed on his shows, Druski self-financed them through 4Lifers Entertainment. Coulda Been House Season 1 pulled 58 million views; Coulda Been Love pulled 80 million across seven episodes. By 2025 Forbes had him ninth on its Top Creators list at $14M, the Coulda Fest arena tour was filling Wembley and Barclays, and The Diggers feature film was in development. The Type 8 wiring treats rejection as a budget meeting, not a verdict."
+    anchor: 'we-dont-need-anybody-else-how-netflixs-rejection-built-an-empire'
+  - question: "Why won't Druski apologize for the whiteface and Erika Kirk sketches?"
+    answer: "For a Type 8, engaging the critic reads as conceding ground, so Druski's pattern after the September 2025 NASCAR sketch and the March 2026 Erika Kirk sketch was the same: more content, no answer. Theo Von's \"I feel a jheri curl coming on\" and Ted Cruz's \"beneath contempt\" got the same treatment. Billboard called the no-apology stance \"the acid test for comedians,\" but the cost is that the actual question — whether the bit caricatures rather than characterizes — never has to be answered."
+    anchor: 'whiteface-erika-kirk-and-the-argument-druski-wont-have'
+  - question: 'How did Druski use self-deprecation as a Type 8 shield?'
+    answer: "Jack Harlow named the move: Druski makes himself the punchline first so no one else can. When Rubi Rose said she'd dated him only for clout and \"never slept with that man,\" his caption was \"Never needed no PR\" with a laughing emoji. By controlling the joke about himself he disarms outside mockery — controlled vulnerability that protects, rather than reveals, the deeper feelings. The shield only works when Druski is the one holding it."
+    anchor: 'why-druski-can-roast-himself-better-than-anyone-else-could'
 content_quality:
   hook: 8.5
   enneagram: 8.5
@@ -28,6 +76,7 @@ content_quality:
   overall: 8.4
   letter: B
   graded_at: '2026-02-18'
+path: src/blog/people/drafts/Druski.md
 ---
 
 > "I live with no boundaries... I don't like being boxed in."

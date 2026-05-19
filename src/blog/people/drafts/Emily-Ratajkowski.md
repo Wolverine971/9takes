@@ -15,9 +15,69 @@ type: ['celebrity', 'celebrity-image']
 person: 'emily-ratajkowski'
 suggestions: ['Kim-Kardashian', 'Bella-Hadid', 'Hailey-Bieber', 'Sydney-Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'
-twitter: 'https://twitter.com/emrata'
-instagram: 'https://www.instagram.com/emrata'
-tiktok: 'https://www.tiktok.com/@emrata'
+wikidata_qid: 'Q5372335'
+imdb_id: 'nm1589279'
+birth_date: '1991-06-07'
+birth_place: 'Westminster, London, England'
+nationality: 'American'
+occupation:
+  - 'Model'
+  - 'Actress'
+  - 'Author'
+  - 'Podcaster'
+  - 'Entrepreneur'
+knows_about:
+  - 'Fashion modeling'
+  - 'Cultural criticism'
+  - 'Image ownership and consent'
+  - 'Inamorata swimwear'
+  - 'Feminist essay writing'
+  - 'Podcast hosting'
+keywords:
+  - 'Emily Ratajkowski enneagram'
+  - 'Emily Ratajkowski type 8'
+  - 'Emily Ratajkowski personality'
+  - 'EmRata 8w7'
+  - 'Challenger enneagram'
+  - 'Emily Ratajkowski My Body'
+  - 'Emily Ratajkowski Blurred Lines'
+  - 'Inamorata swimwear founder'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'
+  - 'https://www.wikidata.org/wiki/Q5372335'
+  - 'https://www.imdb.com/name/nm1589279/'
+  - 'https://www.instagram.com/emrata/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'
+  - 'https://en.wikipedia.org/wiki/Blurred_Lines'
+  - 'https://www.goodreads.com/book/show/56969474-my-body'
+  - 'https://en.wikipedia.org/wiki/Inamorata_(brand)'
+  - 'https://en.wikipedia.org/wiki/Gone_Girl_(film)'
+faqs:
+  - question: "What is Emily Ratajkowski's personality type?"
+    answer: "Emily Ratajkowski is an Enneagram Type 8 (The Challenger). The pattern shows in her power-mapping book My Body, the Richard Prince NFT counter-move that sold for $175,000, the public Robin Thicke allegation, the refusal to soften around men who need her smaller, and the Blue Origin 'end-times shit' TikTok that named Bezos, Sánchez, and Katy Perry without scrubbing the names first."
+    anchor: 'what-is-emily-ratajkowskis-personality-type'
+  - question: 'Why does Emily Ratajkowski confront powerful men?'
+    answer: "She has said directly that she is 'quite unpleasant around men who need that' — men whose self-image requires her to be smaller. A Type 8 reads every room as a power map; Ratajkowski names the dynamic out loud rather than performing softness for an insecure man's comfort, even when the cost is being called difficult."
+    anchor: 'refusing-to-perform-niceness'
+  - question: 'What is the My Body book about?'
+    answer: "My Body (2021) is a New York Times bestselling essay collection that puts the fashion and film industries on trial, including Ratajkowski's allegation that Robin Thicke groped her on the Blurred Lines set. Critics like Sophie Gilbert and Becca Rothfeld noted the book diagnoses the system without leaving it — the Type 8's signature blind spot of indicting an architecture she is still inside."
+    anchor: 'the-intellectual-hunger-no-one-asked-for'
+  - question: 'Why did Emily Ratajkowski make an NFT of a Richard Prince painting of herself?'
+    answer: "In 2014, artist Richard Prince appropriated her Instagram photo without consent and sold it at Gagosian. Seven years later, Ratajkowski photographed herself standing in front of the Prince painting and sold the image as an NFT at Christie's for $175,000 — the cleanest single illustration of her psychology. The question, in her framing, is never whether the body gets sold, only who collects."
+    anchor: 'fighting-for-image-ownership'
+production_pretext:
+  status: draft
+  handoff_from: blog_content_creator_people
+  reviewed: false
+  ready_for_production: false
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
 path: src/blog/people/drafts/Emily-Ratajkowski.md
 content_quality:
   hook: 9

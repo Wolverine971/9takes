@@ -15,8 +15,59 @@ type: ['celebrity', 'influencer', 'celebrity-image', 'lifestyle-builder']
 person: 'ilona-maher'
 suggestions: ['Chappell-Roan', 'Halsey', 'Beyonce-Knowles', 'Cardi-B']
 wikipedia: 'https://en.wikipedia.org/wiki/Ilona_Maher'
+wikidata_qid: 'Q106086464'
+imdb_id: 'nm14911129'
+birth_date: '1996-08-12'
+birth_place: 'Burlington, Vermont, United States'
+nationality: 'American'
+occupation:
+  - 'Rugby union player'
+  - 'Content creator'
+  - 'Television personality'
+knows_about:
+  - 'Rugby sevens'
+  - 'Rugby fifteens'
+  - 'Body-positive athletics'
+  - 'Sports content creation'
+  - 'Nursing'
+  - 'Olympic rugby'
+keywords:
+  - 'Ilona Maher enneagram'
+  - 'Ilona Maher type 8'
+  - 'Ilona Maher personality'
+  - 'Ilona Maher 8w7'
+  - 'Challenger enneagram'
+  - 'Ilona Maher BMI video'
+  - 'Ilona Maher Dancing with the Stars'
+  - 'Ilona Maher Bristol Bears'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ilona_Maher'
+  - 'https://www.wikidata.org/wiki/Q106086464'
+  - 'https://www.imdb.com/name/nm14911129/'
+  - 'https://www.teamusa.com/profiles/ilona-maher-1118568'
 instagram: 'ilonamaher'
 tiktok: 'ilonamaher'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ilona_Maher'
+  - 'https://www.cnn.com/style/ilona-maher-interview-body-positive-rugby-spc'
+  - 'https://www.rugbyworld.com/news/i-feel-overwhelmed-by-the-fact-that-i-have-become-the-face-of-the-game-and-people-expect-so-much-out-of-me-to-continue-growing-the-game-i-want-to-do-it-all-to-help-the-game-but-at-times-i-feel-like-175655'
+  - 'https://www.today.com/health/mind-body/ilona-maher-weight-bmi-rcna164081'
+  - 'https://swimsuit.si.com/swimnews/meet-your-cover-model-ilona-maher-01j60g3h2dhc'
+  - 'https://www.cnn.com/2025/03/03/sport/ilona-maher-bristol-bears-rugby-spt-intl/'
+  - 'https://www.npr.org/2024/07/31/nx-s1-5058465/ilona-maher-rugby-tiktok-olympics'
+faqs:
+  - question: "What is Ilona Maher's personality type?"
+    answer: "Ilona Maher is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the twelve-year-old fast-pitch story she still tells, the BMI video where she answered a stranger by naming her exact weight, the 'I don't have imposter syndrome' CNN line, the bronze medal plus Sports Illustrated cover plus Dancing with the Stars run she stacked simultaneously, and the 'wrung dry' Rugby World admission that named the cost out loud."
+    anchor: 'what-is-ilona-mahers-personality-type'
+  - question: 'Why did Ilona Maher post her own weight to a stranger on TikTok?'
+    answer: "A commenter wrote 'I bet that person has a 30% BMI.' Most public figures would have ignored it or had a media trainer answer. Maher filmed herself naming her exact height (5'10\"), her exact weight (200 lbs), and her BMI (29.3) on camera. The 7.7-million-view video has no anger in it. That is the 8 instinct refusing to be cornered by walking through the wall the other person built."
+    anchor: 'why-ilona-maher-posted-her-own-weight-on-tiktok'
+  - question: 'What did the 2025 "wrung dry" interview reveal about Ilona Maher?'
+    answer: "In March 2025, Maher told Rugby World she felt 'overwhelmed,' 'wrung dry,' and 'used' as the face of women's rugby. Paired with her on-camera DWTS Week 4 collapse and her tearful Bristol Bears farewell, it is the Type 8 stress arrow to Type 5: withdrawal, isolation, conservation when the fortress runs out of energy. The same candor that lets her post her exact weight to a stranger lets her admit when the territory has started to drain her."
+    anchor: 'the-wrung-dry-year'
+  - question: "Why is Ilona Maher considered an 8w7 instead of an 8w9?"
+    answer: "Most elite athletes specialize. Maher metastasizes. The bronze, the SI swimsuit cover, the Dancing with the Stars finale, the Bristol Bears Premiership signing, the Medalist skincare brand, and the House of Maher podcast all run on overlapping calendars. A pure 8 conquers and holds. An 8w7 conquers and immediately looks for the next arena. The 7-wing appetite is what keeps her from staying in any one fortress long enough to live in it."
+    anchor: 'what-ilona-maher-actually-built-between-two-olympics'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

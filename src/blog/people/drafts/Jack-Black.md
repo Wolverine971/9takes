@@ -15,6 +15,55 @@ type: ['celebrity', 'comedian', 'musician', 'tv-comedy-crossover', 'music-crosso
 person: 'jack-black'
 suggestions: ['Paul-Rudd', 'Kevin-Hart', 'Ryan-Reynolds', 'Robert-Downey-Jr']
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Black'
+wikidata_qid: 'Q483907'
+imdb_id: 'nm0085312'
+birth_date: '1969-08-28'
+birth_place: 'Santa Monica, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Comedian'
+  - 'Musician'
+  - 'Singer'
+knows_about:
+  - 'Comedy acting'
+  - 'Tenacious D'
+  - 'Rock and comedy music'
+  - 'Voice acting'
+  - 'Animated film franchises'
+  - 'TikTok content creation'
+keywords:
+  - 'Jack Black enneagram'
+  - 'Jack Black type 7'
+  - 'Jack Black personality'
+  - 'Jack Black 7w8'
+  - 'Enthusiast enneagram'
+  - 'Jack Black Tenacious D'
+  - 'Jack Black Kyle Gass tour'
+  - 'Jack Black Bernie'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jack_Black'
+  - 'https://www.wikidata.org/wiki/Q483907'
+  - 'https://www.imdb.com/name/nm0085312/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jack_Black'
+  - 'https://en.wikipedia.org/wiki/Judith_Love_Cohen'
+  - 'https://en.wikipedia.org/wiki/Tenacious_D'
+  - 'https://en.wikipedia.org/wiki/Bernie_(2011_film)'
+  - 'https://en.wikipedia.org/wiki/The_Super_Mario_Bros._Movie'
+faqs:
+  - question: "What is Jack Black's personality type?"
+    answer: "Jack Black is an Enneagram Type 7 (The Enthusiast), specifically a 7w8. The pattern shows in the boundless TikTok-at-55 energy, the cocaine addiction at 15 that he later named as escape, the Tenacious D operatic metal that needs the 8 wing's body-level intensity, the 32 takes he requested on Shallow Hal, the overnight tour cancellation after Kyle Gass's Trump joke, and the prison visits he made to study Bernie Tiede before suppressing every comedic instinct on screen."
+    anchor: 'what-is-jack-blacks-personality-type'
+  - question: 'How did Jack Black survive the same self-destruction that killed Belushi and Farley?'
+    answer: "By going inward at fifteen instead of further out. Jack stole from his mother to buy cocaine, then sat with a school counselor and cried. He has called it a 'huge release.' He consciously diverged from the Belushi-Farley template he was being compared to — doesn't like getting drunk, hates big parties, self-conscious dancing in public. The same explosive energy that nearly killed him in his teens now sustains the TikTok and Tenacious D career. Cocaine became comedy."
+    anchor: 'the-dark-years-jack-rarely-discusses'
+  - question: 'Why did Jack Black cancel the entire Tenacious D tour over Kyle Gass’s joke?'
+    answer: "After Gass quipped 'Don't miss Trump next time' on stage in Sydney, the day after the Butler rally shooting, Jack issued formal, rigid, lawyer-and-priest language and canceled the rest of the world tour overnight. That is Type 7 under stress reaching toward Type 1: no hedging, no humor, no improvisation. The man whose entire career is built on appetite chose moral clarity over income. He later kept the friendship — that part is the 7 returning."
+    anchor: 'the-kyle-gass-incident'
+  - question: "What does Jack Black look like at his healthiest?"
+    answer: "Quiet. The self-described 'hermit' meditates, practices visualization, and uses sleep and stretching as anxiety tools. He spent time in prison with Bernie Tiede before playing him, came back with questions instead of answers, and gave Richard Linklater what Roger Ebert called 'one of the performances of the year.' That is the Type 7 growth arrow to Type 5: depth instead of distraction, sitting with complexity rather than fleeing it."
+    anchor: 'in-growth-the-hermit-and-the-philosopher'
 twitter: 'https://twitter.com/jackblack'
 instagram: 'https://instagram.com/jackblack'
 tiktok: 'https://tiktok.com/@jackblack'

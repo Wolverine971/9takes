@@ -15,9 +15,56 @@ type: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder
 person: 'gigi-hadid'
 suggestions: ['Bella-Hadid', 'Kendall-Jenner', 'Hailey-Bieber', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Gigi_Hadid'
-twitter: 'GiGiHadid'
-instagram: 'gigihadid'
-tiktok: ''
+wikidata_qid: 'Q16843706'
+imdb_id: 'nm4676882'
+birth_date: '1995-04-23'
+birth_place: 'Los Angeles, California, USA'
+nationality: 'American'
+occupation:
+  - 'Fashion model'
+  - 'Television personality'
+  - 'Entrepreneur'
+knows_about:
+  - 'High-fashion modeling'
+  - 'Vogue cover work'
+  - 'Cashmere knitwear design'
+  - 'Brand building'
+  - 'Palestinian-American identity'
+  - 'Co-parenting after public separation'
+  - 'Hashimoto''s disease management'
+keywords:
+  - 'Gigi Hadid enneagram'
+  - 'Gigi Hadid type 3'
+  - 'Gigi Hadid personality'
+  - 'Gigi Hadid 3w2'
+  - 'Achiever enneagram'
+  - 'Gigi Hadid Yolanda almond'
+  - 'Guest in Residence cashmere'
+  - 'Gigi Hadid imposter syndrome'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Gigi_Hadid'
+  - 'https://www.wikidata.org/wiki/Q16843706'
+  - 'https://www.imdb.com/name/nm4676882/'
+  - 'https://www.vogue.com/tag/model/gigi-hadid'
+citations:
+  - 'https://en.wikipedia.org/wiki/Gigi_Hadid'
+  - 'https://en.wikipedia.org/wiki/Yolanda_Hadid'
+  - 'https://en.wikipedia.org/wiki/Mohamed_Hadid'
+  - 'https://en.wikipedia.org/wiki/Zayn_Malik'
+  - 'https://guestinresidence.com/'
+faqs:
+  - question: "What is Gigi Hadid's personality type?"
+    answer: "Gigi Hadid is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in the daily three-goal mantra ('be nice, work hard, and make friends'), the half-almond phone call she absorbed without pushing back, the approachability she maintains with Fortune-500 discipline, the two-journal split between gratitude and self-doubt, and the $30 million Guest in Residence brand she runs while admitting to constant imposter syndrome."
+    anchor: 'what-is-gigi-hadids-personality-type'
+  - question: 'Why does Gigi Hadid keep two journals?'
+    answer: "During her 2020 pregnancy with Khai, Gigi kept a 'good journal' for gratitude entries and milestones and a separate 'bad journal' for entries like 'Am I good enough to be a mom?' The split tells you how a Type 3 processes life: the performance goes in one place, the truth goes in another. The good feelings and the bad feelings couldn't share a page."
+    anchor: 'the-two-journals'
+  - question: 'What did Yolanda Hadid teach Gigi on Real Housewives?'
+    answer: "Yolanda's on-camera mantra became Gigi's life thesis: 'If you're not the nicest, most hardworking girl in the industry, there's going to be someone prettier, nicer, and more hardworking.' That's Type 3 survival programming stated as explicit parenting philosophy — your worth is your output, your value is conditional, someone is always coming for your spot."
+    anchor: 'the-equation-yolanda-taught-her'
+  - question: 'Why did Gigi Hadid launch Guest in Residence?'
+    answer: "In 2022, Gigi launched Guest in Residence, a luxury cashmere brand she founded and runs as creative director — not a celebrity collaboration. The 'Future Heirlooms' mission and the name itself (someone who belongs but not permanently) capture the Type 3 paradox at the center of her career: a $30 million business, profitable and largely unrecognized as hers, that she runs while admitting 'I have imposter syndrome all the time.'"
+    anchor: 'the-farm-the-cashmere-and-the-woman-behind-the-curtain'
 content_quality:
   hook: 9
   enneagram: 8.5

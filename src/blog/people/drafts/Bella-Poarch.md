@@ -15,10 +15,60 @@ type: ['creator', 'tiktoker', 'lifestyle-builder']
 person: 'bella-poarch'
 suggestions: ["Charli-D'Amelio", 'Addison-Rae', 'Emma-Chamberlain', 'Kylie-Jenner', 'Selena-Gomez']
 wikipedia: 'https://en.wikipedia.org/wiki/Bella_Poarch'
-twitter: 'https://twitter.com/bellapoarch'
-instagram: 'https://www.instagram.com/bellapoarch/'
-tiktok: 'https://www.tiktok.com/@bellapoarch'
-path: src/blog/people/drafts/Bella-Poarch.md
+wikidata_qid: 'Q104064843'
+imdb_id: 'nm11978500'
+birth_date: '1997-02-09'
+birth_place: 'Pangasinan, Philippines'
+nationality:
+  - 'Filipino'
+  - 'American'
+occupation:
+  - 'Singer'
+  - 'Social media personality'
+  - 'Songwriter'
+knows_about:
+  - 'TikTok content creation'
+  - 'Lip-sync video performance'
+  - 'Pop songwriting'
+  - 'Kawaii aesthetic'
+  - 'Cosplay'
+  - 'Mental health advocacy'
+  - 'U.S. Navy aviation ordnance'
+keywords:
+  - 'Bella Poarch enneagram'
+  - 'Bella Poarch type 9'
+  - 'Bella Poarch personality'
+  - 'Bella Poarch 9w1'
+  - 'Peacemaker enneagram'
+  - 'Bella Poarch M to the B'
+  - 'Bella Poarch Navy'
+  - 'Bella Poarch childhood'
+  - 'TikTok most liked video'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Bella_Poarch'
+  - 'https://www.wikidata.org/wiki/Q104064843'
+  - 'https://www.imdb.com/name/nm11978500/'
+  - 'https://www.tiktok.com/@bellapoarch'
+  - 'https://www.instagram.com/bellapoarch/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Bella_Poarch'
+  - 'https://en.wikipedia.org/wiki/M_to_the_B'
+  - 'https://en.wikipedia.org/wiki/Build_a_Bitch'
+  - 'https://en.wikipedia.org/wiki/Dolls_(Bella_Poarch_EP)'
+  - 'https://en.wikipedia.org/wiki/Grimes'
+faqs:
+  - question: "What is Bella Poarch's personality type?"
+    answer: "Bella Poarch is an Enneagram Type 9 (The Peacemaker). The pattern shows in her viral 'M to the B' video that broke TikTok without a single spoken word, a childhood in which her adoptive parents forbade her to speak Filipino or have friends, a Navy enlistment as a quiet structural escape, a four-year marriage she kept entirely off the internet, and a tattoo apology where she absorbed personal attacks until critics turned on Filipinos."
+    anchor: 'what-is-bella-poarchs-personality-type'
+  - question: 'Why did Bella Poarch keep her marriage secret for four years?'
+    answer: "Bella met Tyler Poarch during her Navy service, eloped in Hawaii in January 2019, and shared no wedding photos, ring footage, or couples content for four years. The privacy reads as the most Type 9 detail in her life — protecting an inner peace by withholding it from the platform that made her famous. She kept the Poarch name after their 2023 divorce because it was hers, separate from both the marriage and the adoptive family that abused her."
+    anchor: 'the-hidden-marriage'
+  - question: 'How did Bella Poarch respond to the Rising Sun tattoo controversy?'
+    answer: "When Korean users criticized her 2020 Rising Sun tattoo, Bella apologized, had it covered, and scheduled removal — classic Type 9 conflict avoidance. But when some critics escalated to attacking all Filipinos as 'poor' and 'non-educated,' her dormant anger surfaced: 'Y'all can attack me. I'm ok with that. But when y'all attack Philippines and make fun of them, that's when I lose my shit.' Type 9s absorb personal slights but defend the people and identity they belong to."
+    anchor: 'defending-her-people'
+  - question: 'Why did Bella Poarch join the Navy?'
+    answer: "At 17, Bella enlisted as an Aviation Ordnanceman to escape an abusive adoptive household: 'I just didn't want to be there forever. The military was one way out. I also just didn't want to be homeless. So yeah, that was my one option.' She served three years in Japan and Hawaii. Type 9s under stress shift toward Type 6 patterns — seeking rigid structure where they can 'just do the job' without navigating emotional terrain."
+    anchor: 'bella-poarchs-rise-to-fame-escaping-through-structure-then-screens'
 content_quality:
   hook: 9
   enneagram: 9
@@ -28,6 +78,7 @@ content_quality:
   overall: 8.9
   letter: B+
   graded_at: '2026-02-18'
+path: src/blog/people/drafts/Bella-Poarch.md
 ---
 
 <!-- QUALITY GRADE: B+ (8.9)

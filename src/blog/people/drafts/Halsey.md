@@ -15,9 +15,59 @@ type: ['musician', 'alternative-artist']
 person: 'halsey'
 suggestions: ['Chappell-Roan', 'Billie-Eilish', 'Rihanna', 'Lady-Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Halsey_(singer)'
+wikidata_qid: 'Q18534249'
+imdb_id: 'nm7214498'
+birth_date: '1994-09-29'
+birth_place: 'Edison, New Jersey, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Actress'
+  - 'Author'
+knows_about:
+  - 'Alt-pop songwriting'
+  - 'Concept album production'
+  - 'Bipolar disorder advocacy'
+  - 'Lupus and autoimmune disease advocacy'
+  - 'Endometriosis advocacy'
+  - 'Independent label negotiation'
+  - 'Live performance staging'
 twitter: 'https://twitter.com/halsey'
 instagram: 'https://instagram.com/iamhalsey'
 tiktok: 'https://www.tiktok.com/@halsey'
+keywords:
+  - 'Halsey enneagram'
+  - 'Halsey type 8'
+  - 'Halsey personality'
+  - 'Ashley Frangipane personality'
+  - 'Halsey lupus'
+  - 'Halsey Capitol Records'
+  - 'The Great Impersonator Halsey'
+  - 'Challenger enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Halsey_(singer)'
+  - 'https://www.wikidata.org/wiki/Q18534249'
+  - 'https://www.imdb.com/name/nm7214498/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Halsey_(singer)'
+  - 'https://en.wikipedia.org/wiki/Badlands_(Halsey_album)'
+  - 'https://en.wikipedia.org/wiki/The_Great_Impersonator'
+  - 'https://en.wikipedia.org/wiki/Manic_(Halsey_album)'
+  - 'https://en.wikipedia.org/wiki/Avan_Jogia'
+faqs:
+  - question: "What is Halsey's personality type?"
+    answer: "Halsey is an Enneagram Type 8w7, The Challenger. The pattern shows in the duffel-bag fortress built from teenage homelessness, the alter ego created because 'Ashley didn't deserve to be famous,' two major-label fights in three years (Capitol 2022, Columbia 2025), the refusal to drink or use because she funds her family, miscarrying onstage and finishing the set, and a chronic illness diagnosis she initially refused to let stop the next performance. Control is survival."
+    anchor: 'what-is-halseys-personality-type'
+  - question: 'Why does Halsey keep fighting her record labels?'
+    answer: "Because institutional control is the exact thing her Type 8 wiring exists to refuse. In May 2022 she posted a TikTok calling out Capitol for refusing to release her music without a manufactured viral moment — the TikTok itself got nine million views and became the moment. In September 2025 she cried with Zane Lowe that Columbia wouldn't let her make another album after The Great Impersonator. Different label, same woman, same refusal to be told what her art is worth."
+    anchor: 'i-can-make-all-of-these-really-smart-men-dumb'
+  - question: 'How did chronic illness change Halsey?'
+    answer: "Her 2022 lupus and T-cell lymphoproliferative disorder diagnoses (plus Ehlers-Danlos, Sjögren's, MCAS, POTS) collided directly with the Eight's operating system — the body that was supposed to be armor became the thing she could not out-perform. She told herself 'I'm giving myself two more years to be sick. By 30, I'm having a rebirth.' She made The Great Impersonator during chemotherapy, named it after the medical nickname for lupus ('The Great Imitator'), and was hospitalized at Mass General mid-tour, then performed the next night."
+    anchor: 'im-still-sick-thats-still-reality-this-is-forever-now'
+  - question: 'What did motherhood do to Halsey?'
+    answer: "She has called it 'the absolute, glorious eradication and death of my ego.' The woman who carried her life in a duffel bag and stayed awake on Red Bull rather than sleep somewhere random discovered that her son Ender's opinion of her outweighed every platinum record and label fight. Eights in growth move toward healthy Type 2 — learning that protection can be received as well as given. The fortress now has a four-year-old inside it who calls her 'Ash.'"
+    anchor: 'the-absolute-glorious-eradication-of-my-ego'
 content_quality:
   hook: 9
   enneagram: 8.5

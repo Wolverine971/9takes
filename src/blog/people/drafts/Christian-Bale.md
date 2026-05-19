@@ -15,9 +15,56 @@ type: ['movieStar', 'screen-icon']
 person: 'christian-bale'
 suggestions: ['Joaquin-Phoenix', 'Cillian-Murphy', 'Matt-Damon', 'Ben-Affleck']
 wikipedia: 'https://en.wikipedia.org/wiki/Christian_Bale'
-twitter: ''
-instagram: ''
-tiktok: ''
+wikidata_qid: 'Q45772'
+imdb_id: 'nm0000288'
+birth_date: '1974-01-30'
+birth_place: 'Haverfordwest, Pembrokeshire, Wales'
+nationality:
+  - 'British'
+  - 'American'
+occupation:
+  - 'Actor'
+  - 'Producer'
+knows_about:
+  - 'Method acting and extreme physical transformation'
+  - 'Internal-dialogue scene preparation'
+  - 'Accent and dialect work'
+  - 'Foster care advocacy'
+  - 'Animal welfare and vegetarianism'
+  - 'Dark psychological character work'
+keywords:
+  - 'Christian Bale enneagram'
+  - 'Christian Bale type 5'
+  - 'Christian Bale personality'
+  - 'Christian Bale 5w4'
+  - 'Investigator enneagram'
+  - 'Christian Bale weight loss'
+  - 'Christian Bale Dorchester incident'
+  - 'Christian Bale foster care village'
+  - 'Together California foster care'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Christian_Bale'
+  - 'https://www.wikidata.org/wiki/Q45772'
+  - 'https://www.imdb.com/name/nm0000288/'
+  - 'https://www.britannica.com/biography/Christian-Bale'
+citations:
+  - 'https://en.wikipedia.org/wiki/Christian_Bale'
+  - 'https://en.wikipedia.org/wiki/David_Bale'
+  - 'https://en.wikipedia.org/wiki/Empire_of_the_Sun_(film)'
+  - 'https://en.wikipedia.org/wiki/Unforgiven'
+faqs:
+  - question: "What is Christian Bale's personality type?"
+    answer: "Christian Bale is an Enneagram Type 5 (The Investigator), specifically a 5w4. The pattern shows in his fortress-quiet refusal to socialize on set, his practice of writing internal dialogue for silent scenes, the matching-accents-to-roles trick that hides his real Welsh-English voice from interviewers, the decade of silence with his mother and sister after the 2008 Dorchester incident, and the sixteen years he spent quietly building a $22 million foster care village almost no one knew about."
+    anchor: 'what-is-christian-bales-personality-type'
+  - question: 'Why does Christian Bale gain and lose so much weight for roles?'
+    answer: "Each transformation is body-as-currency: he changes so completely that no one can see the person inside the role. The Machinist took him to 120 pounds on an apple and a can of tuna a day; Batman Begins demanded 220 pounds gained in five months; Vice added 40 pounds and doughnuts for Dick Cheney. After Vice, with his doctor warning him about metabolic and organ strain, he told The Sunday Times: 'I can't keep doing it. I really can't. My mortality is staring me in the face.'"
+    anchor: 'the-body-as-currency'
+  - question: 'What happened at the Dorchester hotel in 2008?'
+    answer: "The night before The Dark Knight's London premiere in July 2008, Bale's mother Jenny and sister Sharon visited him at the Dorchester. After a disputed altercation, both went to police; Bale was arrested, questioned for four hours, and released without charges due to insufficient evidence. He never campaigned for public sympathy. He simply stopped speaking to his mother and sister for roughly a decade, reconciling quietly around 2018."
+    anchor: 'what-happened-at-the-dorchester'
+  - question: 'What is Together California, the foster care village Christian Bale built?'
+    answer: "Together California is the organization Bale co-founded with his wife Sibi and UCLA's Dr. Eric Esrailian. The $22 million 'Village for Brothers and Sisters' broke ground in Palmdale in February 2024 with 12 townhouses designed to keep foster siblings together, addressing the fact that up to 75% of foster siblings are separated when entering the system. Bale worked on the project quietly for sixteen years before construction began, and has called it the thing he wants to be most proud of 'when I draw my last breath.'"
+    anchor: 'the-village-nobody-knew-about'
 content_quality:
   hook: 9
   enneagram: 9

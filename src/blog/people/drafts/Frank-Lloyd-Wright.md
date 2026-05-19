@@ -15,6 +15,61 @@ type: ['historical', 'other', 'historical-artist']
 person: 'frank-lloyd-wright'
 suggestions: ['Steve-Jobs', 'Albert-Einstein', 'Nikola-Tesla', 'Robert-Oppenheimer']
 wikipedia: 'https://en.wikipedia.org/wiki/Frank_Lloyd_Wright'
+wikidata_qid: 'Q5604'
+imdb_id: 'nm0942394'
+birth_date: '1867-06-08'
+birth_place: 'Richland Center, Wisconsin, United States'
+nationality: 'American'
+occupation:
+  - 'Architect'
+  - 'Interior designer'
+  - 'Writer'
+  - 'Educator'
+knows_about:
+  - 'Organic architecture'
+  - 'Prairie Style'
+  - 'Usonian houses'
+  - 'Broadacre City planning'
+  - 'Taliesin Fellowship pedagogy'
+  - 'Cantilever construction'
+  - 'Froebel-derived geometric design'
+keywords:
+  - 'Frank Lloyd Wright enneagram'
+  - 'Frank Lloyd Wright type 7'
+  - 'Frank Lloyd Wright personality'
+  - 'Frank Lloyd Wright 7w8'
+  - 'Enthusiast enneagram'
+  - 'Fallingwater Frank Lloyd Wright'
+  - 'Frank Lloyd Wright Taliesin'
+  - 'Frank Lloyd Wright Guggenheim'
+  - 'Frank Lloyd Wright Mamah Borthwick'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Frank_Lloyd_Wright'
+  - 'https://www.wikidata.org/wiki/Q5604'
+  - 'https://www.imdb.com/name/nm0942394/'
+  - 'https://franklloydwright.org/'
+  - 'https://www.guggenheim.org/about-us/architecture/frank-lloyd-wright-and-the-guggenheim'
+citations:
+  - 'https://en.wikipedia.org/wiki/Frank_Lloyd_Wright'
+  - 'https://en.wikipedia.org/wiki/Mamah_Borthwick'
+  - 'https://en.wikipedia.org/wiki/Imperial_Hotel,_Tokyo'
+  - 'https://en.wikipedia.org/wiki/John_Lloyd_Wright'
+  - 'https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/'
+  - 'https://www.guggenheim.org/about-us/architecture/frank-lloyd-wright-and-the-guggenheim'
+  - 'https://franklloydwright.org/a-man-100-years-ahead-of-his-time-excerpts-from-the-mike-wallace-interview/'
+faqs:
+  - question: "What is Frank Lloyd Wright's personality type?"
+    answer: "Frank Lloyd Wright is an Enneagram Type 7w8 (The Enthusiast with an Eight wing), Self-Preservation subtype. The pattern shows in the brittle-shell admission he made to Mike Wallace at ninety, the four-month gap between Mamah Borthwick's murder and a new lover installed at the rebuilt Taliesin, the two-hour Fallingwater drawing after nine months of procrastination, the 'move your chair' reply to Hib Johnson about the leaking roof, and the autobiography that converted twelve fallow years into a chrysalis."
+    anchor: 'what-is-frank-lloyd-wrights-personality-type'
+  - question: "Why did Wright tell a client to 'move his chair' when the roof leaked?"
+    answer: "At the first big dinner at Wingspread in 1937, water dripped from the cantilevered roof onto S.C. Johnson Wax CEO Herbert 'Hib' Johnson's head in front of his guests. Johnson called Taliesin; Wright replied 'Well Hib, why don't you move your chair?' and hung up. The 8-wing turned the Seven's reframe into dominion — the leak was not a flaw in the cantilever, the cantilever was the achievement, complaining about the leak was a failure of comprehension. Fallingwater's endemic leaks finally got a $7 million renovation in March 2026."
+    anchor: 'what-wright-meant-when-he-told-a-client-to-move-his-chair'
+  - question: 'How did Frank Lloyd Wright design Fallingwater in two hours?'
+    answer: "In autumn 1935, Edgar Kaufmann Sr. called Wright from Milwaukee to say he was driving over to Taliesin to check on the country home commissioned nine months earlier. Wright had not started. According to apprentice Edgar Tafel, Wright drew Fallingwater in roughly two hours, apprentices sharpening pencils as fast as he used them up, and signed the sheet in block capitals. The procrastination-then-flash pattern is the cleanest Seven work signature in modern biography — Sevens cannot tolerate the slow in-between and deliver in a burst."
+    anchor: 'how-fallingwater-happened-in-two-hours'
+  - question: 'Why did Wright walk out on six children for Mamah Borthwick?'
+    answer: "In September 1909, at the height of his Prairie Style career, Wright walked out of his Oak Park studio in the middle of three open commissions, met Mamah Borthwick Cheney — wife of a former client — and sailed for Europe. He left his wife Catherine, six children, the practice, the country. Sevens do not just leave one room; they leave several at once. Mamah was the door. Catherine refused to grant a divorce for thirteen years. Wright spent the rest of his life producing biographical material about Mamah and going almost silent on the children."
+    anchor: 'why-wright-walked-out-on-six-children-for-mamah-borthwick'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

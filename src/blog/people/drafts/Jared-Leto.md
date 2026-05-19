@@ -18,6 +18,60 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jared_Leto'
 twitter: 'JaredLeto'
 instagram: 'jaredleto'
 tiktok: 'jaredleto'
+wikidata_qid: 'Q484523'
+imdb_id: 'nm0001467'
+birth_date: '1971-12-26'
+birth_place: 'Bossier City, Louisiana, USA'
+nationality: 'American'
+occupation:
+  - 'Actor'
+  - 'Singer'
+  - 'Songwriter'
+  - 'Director'
+  - 'Investor'
+knows_about:
+  - 'Method acting'
+  - 'Immersive character work'
+  - 'Rock music production'
+  - 'Early-stage tech investing'
+  - 'Music video direction'
+  - 'Live performance'
+keywords:
+  - 'Jared Leto enneagram'
+  - 'Jared Leto type 4'
+  - 'Jared Leto personality'
+  - 'Leto 4w3'
+  - 'Individualist enneagram'
+  - 'Jared Leto method acting'
+  - '30 Seconds to Mars Leto'
+  - 'Jared Leto Empire State Building'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jared_Leto'
+  - 'https://www.wikidata.org/wiki/Q484523'
+  - 'https://www.imdb.com/name/nm0001467/'
+  - 'https://www.britannica.com/biography/Jared-Leto'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jared_Leto'
+  - 'https://www.npr.org/transcripts/241982136'
+  - 'https://collider.com/jared-leto-dallas-buyers-club-interview/'
+  - 'https://www.refinery29.com/en-us/2014/01/60624/jared-leto-golden-globes-awards-interview'
+  - 'https://www.rollingstone.com/music/music-news/virgin-emi-sue-30-seconds-to-mars-for-30-million-leto-fights-back-244059/'
+  - 'https://www.today.com/popculture/jared-leto-empire-state-building-rcna124370'
+  - 'https://airmail.news/issues/2025-6-7/the-cult-of-leto'
+  - 'https://www.hollywoodreporter.com/news/general-news/jared-leto-rep-denies-claims-inappropriate-relationships-1236260213/'
+faqs:
+  - question: "What is Jared Leto's personality type?"
+    answer: "Jared Leto is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in the literal childhood wound — his father's suicide when he was eight — the way Rayon's dying face became his own in a Dallas Buyers Club trailer, the Bartholomew Cubbins pseudonym borrowed from a Dr. Seuss boy who can't stop producing new hats, the 10,000 nos he absorbed to be the first person to legally climb the Empire State Building, and the line he gave The Talks: he is 'more myself' on stage than anywhere else."
+    anchor: 'jared-leto-is-an-enneagram-type-4-the-individualist'
+  - question: 'How did Jared Leto stay in character as Rayon for Dallas Buyers Club?'
+    answer: "Leto stopped eating, dropped to 114 pounds, waxed his eyebrows, and never broke character during filming. By the trailer scene where he scrubbed Rayon's makeup off, the dying face in the mirror was no longer makeup — it was his face. He told Collider that 'a better actor' could have switched the voice and dialect on cue, but he had to stay as close as possible just to do the job. For a Four, the immersion is not a technique. It is the only way back."
+    anchor: 'the-face-under-the-makeup'
+  - question: 'Why did Jared Leto direct Artifact under the name Bartholomew Cubbins?'
+    answer: "After EMI sued 30 Seconds to Mars for $30 million in 2008, Leto directed a documentary about the case, premiered Artifact at the 2012 Toronto Film Festival, and credited the direction to 'Bartholomew Cubbins.' The name is the Dr. Seuss character who removes his hat for the king only to find another hat underneath, then another, then another. A man who cannot stop producing new identities picked, as his pseudonym, the fictional boy who cannot stop producing new hats."
+    anchor: 'the-war-for-authentic-expression'
+  - question: 'How does the Air Mail sexual misconduct report sit alongside the Type 4 reading?'
+    answer: "In June 2025, Air Mail published 'The Cult of Leto,' in which nine women accused Leto of sexual misconduct between 2005 and 2010, including model Laura La Rue, who said she met him at 16 while he was 36. His representatives 'vehemently denied' the allegations and no criminal charges have been filed. The piece holds the type frame and the harm at once: the dead pig and the live rat described how he treated people who could not easily say no on a film set, and the Air Mail accounts describe a much older version of the same dynamic with much higher stakes."
+    anchor: 'the-cult-of-leto'
 path: src/blog/people/drafts/Jared-Leto.md
 content_quality:
   hook: 9

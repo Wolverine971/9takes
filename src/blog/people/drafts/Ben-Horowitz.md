@@ -15,7 +15,61 @@ type: ['techie', 'entrepreneur', 'author', 'business-operator']
 person: 'ben-horowitz'
 suggestions: ['Marc-Andreessen', 'Peter-Thiel', 'Paul-Graham', 'Reid-Hoffman']
 wikipedia: 'https://en.wikipedia.org/wiki/Ben_Horowitz'
+wikidata_qid: 'Q4885859'
+imdb_id: 'nm11092696'
+birth_date: '1966-06-13'
+birth_place: 'London, England, United Kingdom'
+nationality: 'American'
+occupation:
+  - 'Venture capitalist'
+  - 'Author'
+  - 'Entrepreneur'
+  - 'Blogger'
+knows_about:
+  - 'Venture capital'
+  - 'Wartime CEO leadership'
+  - 'Startup management'
+  - 'Cloud computing'
+  - 'Cryptocurrency investment'
+  - 'Business culture design'
+  - 'Hip-hop history'
+keywords:
+  - 'Ben Horowitz enneagram'
+  - 'Ben Horowitz type 6'
+  - 'Ben Horowitz personality'
+  - 'Ben Horowitz 6w7'
+  - 'Counter-phobic six enneagram'
+  - 'Wartime CEO Ben Horowitz'
+  - 'Ben Horowitz Marc Andreessen'
+  - 'a16z founders'
+  - 'Andreessen Horowitz political pivot'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Ben_Horowitz'
+  - 'https://www.wikidata.org/wiki/Q4885859'
+  - 'https://www.imdb.com/name/nm11092696/'
+  - 'https://a16z.com/author/ben-horowitz/'
 twitter: 'bhorowitz'
+citations:
+  - 'https://en.wikipedia.org/wiki/Ben_Horowitz'
+  - 'https://a16z.com/peacetime-ceo-wartime-ceo/'
+  - 'https://a16z.com/nobody-cares/'
+  - 'https://a16z.com/cultural-leadership-fund/'
+  - 'https://arcmag.org/ben-is-boring/'
+  - 'https://sfstandard.com/2024/08/16/felicia-ben-horowitz-party-switch/'
+  - 'https://en.wikipedia.org/wiki/David_Horowitz'
+faqs:
+  - question: "What is Ben Horowitz's personality type?"
+    answer: "Ben Horowitz is an Enneagram Type 6 (The Loyalist), specifically a counter-phobic 6w7. The pattern shows in 'I slept like a baby. I woke up every two hours and cried' through Opsware's 35-cent stock and three rounds of layoffs, a 30-year partnership with Marc Andreessen built on a no-replace-the-founder promise, a 37-year marriage to Felicia, hip-hop as outsider-survival operating system, and a 2024 political pivot to Trump that rhymes psychologically with his father David's New-Left-to-conservative turn."
+    anchor: 'what-is-ben-horowitzs-personality-type'
+  - question: 'Why does Ben Horowitz call himself a wartime CEO?'
+    answer: "In his April 2011 a16z post, Horowitz split the CEO job in two: peacetime CEOs optimize a wide competitive moat, wartime CEOs 'fend off an imminent existential threat.' Read through the Enneagram, the wartime CEO is a Type 6 with permission to admit he's afraid and a plan to move anyway — the same nervous system that ran Andy Grove's 'imagine you've been fired' thought experiment, but permanently. His most-quoted post, 'Nobody Cares,' is the four-word version: no one is coming to save you. You are the rescue."
+    anchor: 'why-ben-horowitz-cant-stop-preparing-for-the-worst'
+  - question: "What did Ben Horowitz's father teach him about marriage?"
+    answer: "Working at NetLabs with three young kids in a house with no air conditioning, Ben was visited by his father David, who said: 'Son, do you know what's cheap? Flowers. But do you know what's expensive? Divorce.' Ben has called the line 'a joke, which was not really a joke' that made him realize he had run out of time. His daughter Mariah had just been diagnosed with autism. He quit NetLabs the next morning for Lotus so he could be home — a Type 6 catching that his scanner had been pointed the wrong way."
+    anchor: 'the-flowers-and-the-phone-call'
+  - question: 'Why did Ben Horowitz switch from Democratic to Trump donor in 2024?'
+    answer: "After decades of Democratic donations, Ben and Felicia Horowitz announced in summer 2024 they were backing Trump; by mid-2025 Ben had given $3 million to MAGA Inc. Type 6 under stress moves to Type 3 — authenticity gives way to image armor, and the Six pivots to whatever tribe looks most likely to protect the worst case (crypto regulation, tax policy, founder-class interests). The shape rhymes exactly with his father David's New-Left-to-conservative pivot forty years earlier. Sixes do not always pick right. They pick tight."
+    anchor: 'what-ben-horowitzs-political-pivot-reveals'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

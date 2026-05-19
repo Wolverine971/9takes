@@ -15,6 +15,58 @@ type: ['historical', 'historical-artist']
 person: 'frida-kahlo'
 suggestions: ['Billie-Eilish', 'Lady-Gaga', 'Johnny-Depp', 'Bob-Dylan']
 wikipedia: 'https://en.wikipedia.org/wiki/Frida_Kahlo'
+wikidata_qid: 'Q5588'
+imdb_id: 'nm1085710'
+birth_date: '1907-07-06'
+birth_place: 'Coyoacán, Mexico City, Mexico'
+nationality: 'Mexican'
+occupation:
+  - 'Painter'
+  - 'Educator'
+  - 'Political activist'
+knows_about:
+  - 'Mexican retablo and ex-voto folk painting'
+  - 'Self-portraiture'
+  - 'Tehuana dress as political statement'
+  - 'Mexicanidad and indigenous identity'
+  - 'Communist Party of Mexico'
+  - 'Painting on tin and copper'
+  - 'Surrealism (which she rejected)'
+keywords:
+  - 'Frida Kahlo enneagram'
+  - 'Frida Kahlo type 4'
+  - 'Frida Kahlo personality'
+  - 'Individualist enneagram'
+  - 'Frida Kahlo Diego Rivera'
+  - 'Frida Kahlo wardrobe'
+  - 'Frida Kahlo Casa Azul'
+  - 'Frida Kahlo bus accident'
+  - 'Frida Kahlo self-portraits'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Frida_Kahlo'
+  - 'https://www.wikidata.org/wiki/Q5588'
+  - 'https://www.imdb.com/name/nm1085710/'
+  - 'https://www.britannica.com/biography/Frida-Kahlo'
+  - 'https://www.moma.org/artists/2963'
+citations:
+  - 'https://en.wikipedia.org/wiki/Frida_Kahlo'
+  - 'https://en.wikipedia.org/wiki/Diego_Rivera'
+  - 'https://en.wikipedia.org/wiki/La_Casa_Azul'
+  - 'https://en.wikipedia.org/wiki/Henry_Ford_Hospital_(painting)'
+  - 'https://en.wikipedia.org/wiki/Ex-voto'
+faqs:
+  - question: "What is Frida Kahlo's personality type?"
+    answer: "Frida Kahlo is an Enneagram Type 4 (The Individualist). The pattern shows in the birth-year she rewrote from 1907 to 1910 to coincide with the Mexican Revolution, the 55 self-portraits out of 143 paintings, the Tehuana wardrobe she designed to conceal a withered leg and broken spine while her canvases exposed the same body without flinching, and the cycle of fierce independence and devastating dependence on Diego Rivera that defined every adult year."
+    anchor: 'what-is-frida-kahlos-personality-type'
+  - question: 'Why did Frida Kahlo paint so many self-portraits?'
+    answer: "After the 1925 bus accident, Frida lay encased in a full-body plaster cast while her mother hung a mirror above her bed and rigged a specially made easel so she could paint flat on her back. 'I paint myself because I am so often alone, and because I am the subject I know best.' For a Type 4, the self-portrait was not narcissism but the compulsion to keep answering the question — who am I, really — and never being satisfied with the answer."
+    anchor: 'the-crash-that-made-the-painter'
+  - question: "What was Frida Kahlo's relationship with Diego Rivera?"
+    answer: "Frida married muralist Diego Rivera in 1929 — her mother called the match 'an elephant and a dove.' Diego had affairs constantly, including with Frida's sister Cristina; Frida took her own lovers, men and women both, including Leon Trotsky. They divorced in 1939 and remarried in 1940, this time living in two houses connected by a bridge. 'There have been two great accidents in my life. One was the trolley, and the other was Diego. Diego was by far the worst.'"
+    anchor: 'the-elephant-and-the-dove'
+  - question: 'Why did Frida Kahlo wear Tehuana dresses?'
+    answer: "The Tehuana dress comes from the Isthmus of Tehuantepec, a matriarchal Mexican region where women controlled markets and finances. Frida adopted it as an assertion of indigenous Mexican identity, a rejection of European fashion, and a specifically feminist alignment with women who held power. She also used the dress to hide the withered right leg, the steel corsets, and the surgical scars — concealing exactly what her self-portraits exposed."
+    anchor: 'the-wardrobe-as-manifesto'
 twitter: ''
 instagram: ''
 tiktok: ''

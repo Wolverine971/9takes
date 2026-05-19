@@ -1,0 +1,9 @@
+[2026-05-19 02:16:24] [INFO] Starting daily blog creator (--non-interactive)
+[2026-05-19 02:16:24] [INFO] override.json: pause=false, currentWeekCount=3/5
+[2026-05-19 02:16:24] [INFO] inProgress: null (clean start)
+[2026-05-19 02:16:24] [INFO] SELECTED: yuval-noah-harari (Type 5, Priority 76)
+[2026-05-19 02:16:24] [INFO] Reason: Fills Type 5 gap, Sapiens search volume, intellectual audience crossover
+[2026-05-19 02:16:24] [INFO] Pre-selection draft check: no draft exists at src/blog/people/drafts/Yuval-Noah-Harari.md
+[2026-05-19 02:16:24] [INFO] Queue updated: yuval-noah-harari moved from queue → inProgress
+[2026-05-19 02:16:24] [INFO] Executing blog_content_creator_people_v2 yuval-noah-harari...
+API Error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()

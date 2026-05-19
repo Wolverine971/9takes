@@ -15,10 +15,56 @@ type: ['lifestyleInfluencer', 'lifestyle-builder']
 person: 'gwyneth-paltrow'
 suggestions: ['Jack-Black', 'Taylor-Swift', 'Oprah-Winfrey', 'Kim-Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Gwyneth_Paltrow'
-twitter: 'GwynethPaltrow'
-instagram: 'gwynethpaltrow'
-tiktok: ''
-path: src/blog/people/drafts/Gwyneth-Paltrow.md
+wikidata_qid: 'Q34460'
+imdb_id: 'nm0000569'
+birth_date: '1972-09-27'
+birth_place: 'Los Angeles, California, United States'
+nationality: 'American'
+occupation:
+  - 'Actress'
+  - 'Businesswoman'
+  - 'Author'
+  - 'Lifestyle entrepreneur'
+knows_about:
+  - 'Wellness branding'
+  - 'Lifestyle commerce'
+  - 'Method-adjacent acting'
+  - 'Goop business strategy'
+  - 'Conscious uncoupling'
+  - 'Clean-beauty marketing'
+keywords:
+  - 'Gwyneth Paltrow enneagram'
+  - 'Gwyneth Paltrow type 1'
+  - 'Gwyneth Paltrow personality'
+  - 'Gwyneth Paltrow perfectionist'
+  - 'Goop founder personality'
+  - 'conscious uncoupling enneagram'
+  - 'Reformer enneagram'
+  - 'Gwyneth Paltrow evil shadow'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Gwyneth_Paltrow'
+  - 'https://www.wikidata.org/wiki/Q34460'
+  - 'https://www.imdb.com/name/nm0000569/'
+  - 'https://www.britannica.com/biography/Gwyneth-Paltrow'
+citations:
+  - 'https://en.wikipedia.org/wiki/Gwyneth_Paltrow'
+  - 'https://en.wikipedia.org/wiki/Goop_(company)'
+  - 'https://en.wikipedia.org/wiki/Shakespeare_in_Love'
+  - 'https://en.wikipedia.org/wiki/The_Goop_Lab'
+  - 'https://en.wikipedia.org/wiki/Conscious_uncoupling'
+faqs:
+  - question: "What is Gwyneth Paltrow's personality type?"
+    answer: "Gwyneth Paltrow is a self-identified Enneagram Type 1, The Perfectionist. She told The Hollywood Reporter in 2024 that 'especially as an Enneagram 1' she fixates on being morally misread. The pattern shows in her therapist's framing of her 'evil shadow' suppressed rage, the optimization-as-mission engine behind Goop, the 'conscious uncoupling' framework applied to divorce, and the burnout from making fifteen films in five years because she 'didn't know how to say no.'"
+    anchor: 'what-is-gwyneth-paltrows-personality-type'
+  - question: 'What does Gwyneth Paltrow mean by the "evil shadow"?'
+    answer: "Her therapist coined the term for 'the part of you where rage lives.' Type 1s believe good people don't get angry, so they bottle it, simmer, and perfect. Paltrow's therapeutic work centers on actually accessing that shadow — 'there's a freedom there.' Naming and meeting the suppressed anger is the integration arrow for a 1, the move toward Type 7's freedom rather than rigid self-control."
+    anchor: 'the-evil-shadow'
+  - question: 'Why did Gwyneth Paltrow start Goop?'
+    answer: 'Goop launched in 2008, six years after her father Bruce died of oral cancer. Type 1s convert grief into mission: if she could optimize wellness, maybe she could spare other women her loss. The same compulsion that made her fly to Italy on her thirtieth birthday and lose her father to a sudden hemorrhage now drives the $250 million crusade — jade eggs, vagina candles, ghost-kitchen Goop pizza, all stamped with the same belief that the right routine can fix what grief cannot.'
+    anchor: 'the-loss-that-changed-everything'
+  - question: 'Why does criticism wound Gwyneth Paltrow so deeply?'
+    answer: "When the FDA, scientists, or fans push back on Goop's claims, she doesn't hear 'your facts are wrong.' She hears 'you're not good.' For a Type 1 whose entire identity is fused with being moral and helpful, having good intentions questioned is the core wound. It is why she answers a $145,000 jade-egg settlement with new candles, why she frames the vagina candle as 'punk rock' feminism, and why her ski-trial 'I lost half a day of skiing' line reads as Type 1 disintegration into Type 4 alienation under stress."
+    anchor: 'the-perfectionists-paradox'
 content_quality:
   hook: 9
   enneagram: 9.5
@@ -28,6 +74,7 @@ content_quality:
   overall: 9.2
   letter: A
   graded_at: '2026-02-18'
+path: src/blog/people/drafts/Gwyneth-Paltrow.md
 ---
 
 <!-- QUALITY GRADE: A (9.2)

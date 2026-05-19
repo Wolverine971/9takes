@@ -14,8 +14,54 @@ enneagram: 9
 type: ['musician', 'singer-songwriter']
 person: 'jelly-roll'
 suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle']
-wikipedia: 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
-twitter: 'JellyRoll615'
+wikidata_qid: 'Q6176881'
+imdb_id: 'nm2000227'
+birth_date: '1984-12-04'
+birth_place: 'Antioch, Nashville, Tennessee, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Rapper'
+knows_about:
+  - 'Country music'
+  - 'Southern hip-hop'
+  - 'Addiction recovery advocacy'
+  - 'Fentanyl crisis policy'
+  - 'Confessional songwriting'
+  - 'Juvenile justice reform'
+keywords:
+  - 'Jelly Roll enneagram'
+  - 'Jelly Roll type 9'
+  - 'Jelly Roll personality'
+  - 'Jelly Roll 9w8'
+  - 'Peacemaker enneagram'
+  - 'Jelly Roll weight loss'
+  - 'Jelly Roll Save Me'
+  - 'Jelly Roll fentanyl testimony'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
+  - 'https://www.wikidata.org/wiki/Q6176881'
+  - 'https://www.imdb.com/name/nm2000227/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
+  - 'https://www.today.com/popculture/music/jelly-roll-mom-music-records-cigarettes-rcna146708'
+  - 'https://www.gq.com/story/jelly-roll-profile-2024'
+  - 'https://www.menshealth.com/entertainment/a63091798/jelly-roll-cover-story/'
+  - 'https://www.banking.senate.gov/hearings/stopping-the-flow-of-fentanyl-public-awareness-and-legislative-solutions'
+faqs:
+  - question: "What is Jelly Roll's personality type?"
+    answer: "Jelly Roll is an Enneagram Type 9 (The Peacemaker), specifically a 9w8. The pattern shows in the decades of numbing — drugs, food, 40 arrests by age 25, a body that climbed to 540 pounds — all serving the same self-forgetting function, plus the 8-wing fire that emerges when he's fighting for others rather than himself (Congressional testimony on fentanyl, the $250,000 studio in his old detention center, donating his Grammy to that facility)."
+    anchor: 'jelly-roll-is-an-enneagram-type-9'
+  - question: 'Why did Jelly Roll commit 40 arrests by age 25?'
+    answer: "The crime wasn't rebellion. It was numbing. Growing up in Antioch, Nashville, with a mother who struggled with drugs and a father who booked bets, young Jason DeFord trained himself not to want — to drift, use, and accept consequences as weather. The Type 9 pattern of self-forgetting expressed itself as drug dealing, drug use, and the slow accumulation of a body and a record designed to make him invisible."
+    anchor: 'forty-arrests-and-the-architecture-of-absence'
+  - question: 'How did Jelly Roll change from rapper to country star?'
+    answer: "He wrote 'Save Me' in 2020, during the pandemic and a year after his father Buddy died — inspired by Bette Midler's 'The Rose,' the song he and his mother used to listen to together. It became an acoustic ballad with over 200 million YouTube views. BMG's Jon Loba heard the vocal and signed him to the country roster. Jelly Roll didn't switch genres; he finally found the one that matched what he had always been saying."
+    anchor: 'the-rapper-who-walked-into-country-music'
+  - question: 'Why did Jelly Roll testify before Congress about fentanyl?'
+    answer: "On January 11, 2024, Jelly Roll sat before the Senate Banking Committee and told them that during the five minutes he was speaking, somebody in America would die of a drug overdose. He named himself as 'the uneducated man in the kitchen playing chemist' and urged passage of the FEND Off Fentanyl Act. The 9w8 expression is exact: he won't raise his voice for his own needs, but he'll shake the walls of Congress for someone else's."
+    anchor: 'i-was-part-of-the-problem'
 instagram: 'jellyroll615'
 tiktok: 'jellyroll615'
 content_quality:

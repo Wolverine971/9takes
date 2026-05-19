@@ -15,6 +15,57 @@ type: ['newMovieStar', 'rising-star']
 person: 'anya-taylor-joy'
 suggestions: ['Zendaya', 'Timothee-Chalamet', 'Sydney-Sweeney', 'Billie-Eilish']
 wikipedia: 'https://en.wikipedia.org/wiki/Anya_Taylor-Joy'
+wikidata_qid: 'Q20882479'
+imdb_id: 'nm5896355'
+birth_date: '1996-04-16'
+birth_place: 'Miami, Florida, United States'
+nationality:
+  - 'British'
+  - 'American'
+occupation:
+  - 'Actress'
+  - 'Model'
+  - 'Film producer'
+knows_about:
+  - 'Film acting'
+  - 'Method immersion'
+  - 'Bilingual performance'
+  - 'Fashion ambassadorship'
+  - 'Period and genre cinema'
+  - 'Action film performance'
+keywords:
+  - 'Anya Taylor-Joy enneagram'
+  - 'Anya Taylor-Joy type 4'
+  - 'Anya Taylor-Joy personality'
+  - 'Anya Taylor-Joy Furiosa'
+  - 'Anya Taylor-Joy Queens Gambit'
+  - 'Individualist enneagram'
+  - 'Anya Taylor-Joy breakdown'
+  - 'Anya Taylor-Joy Buenos Aires'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Anya_Taylor-Joy'
+  - 'https://www.wikidata.org/wiki/Q20882479'
+  - 'https://www.imdb.com/name/nm5896355/'
+  - 'https://www.britannica.com/biography/Anya-Taylor-Joy'
+citations:
+  - 'https://en.wikipedia.org/wiki/Anya_Taylor-Joy'
+  - 'https://en.wikipedia.org/wiki/The_Witch_(2015_film)'
+  - 'https://en.wikipedia.org/wiki/Emma_(2020_film)'
+  - 'https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)'
+  - 'https://en.wikipedia.org/wiki/Furiosa:_A_Mad_Max_Saga'
+faqs:
+  - question: "What is Anya Taylor-Joy's personality type?"
+    answer: "Anya Taylor-Joy is an Enneagram Type 4 (The Individualist), with a 3 wing. The pattern shows in her lifelong search for an identity she lost at six when the family left Buenos Aires, the porous 'I have no skin' inability to keep her own feelings separate from her characters', her drive toward roles featuring women isolated and fighting from the margins, and the 2023 strike breakdown she had been postponing for a decade so she could 'start living as myself again.'"
+    anchor: 'what-is-anya-taylor-joys-personality-type'
+  - question: "Why did Anya Taylor-Joy refuse to speak English as a child?"
+    answer: "When her family moved from Buenos Aires to London when she was six, she refused to learn English for two years. It wasn't stubbornness — it was grief. She was holding onto Buenos Aires the only way a child can, by refusing to let its language be replaced. Her uncle eventually taught her using the Harry Potter books, and she watched School of Rock on repeat to absorb English through Jack Black."
+    anchor: 'too-many-feelings-and-nowhere-to-put-them'
+  - question: "Why was Furiosa so difficult for Anya Taylor-Joy?"
+    answer: "George Miller's direction was 'Mouth closed, no emotion, speak with your eyes.' Furiosa has roughly thirty lines of dialogue in the entire film. Anya went months on set without speaking a single word on camera. 'I've never been more alone than I was on Furiosa,' she said at Cannes. Two years after filming, she watched it for the first time and was in tears within three minutes."
+    anchor: 'mouth-closed-no-emotion-speak-with-your-eyes'
+  - question: "Why did Anya Taylor-Joy have a breakdown during the 2023 strike?"
+    answer: "The actors' strike was the first time since she was sixteen that she stopped working. With no call sheet, the boundary between her and her characters — already collapsed by The Queen's Gambit and Furiosa — finally had to be rebuilt. 'I needed to fall apart. I needed to understand everything. I needed to be able to put it all back together and I basically started living as myself again.'"
+    anchor: 'the-breakdown-she-was-waiting-for'
 twitter: 'anyataylorjoy'
 instagram: 'anyataylorjoy'
 tiktok: ''

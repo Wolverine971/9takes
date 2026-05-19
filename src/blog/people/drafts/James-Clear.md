@@ -15,9 +15,55 @@ type: ['author', 'entrepreneur', 'business-operator']
 person: 'james-clear'
 suggestions: ['Tim-Ferriss', 'Jordan-Peterson', 'Ali-Abdaal', 'Brene-Brown']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Clear'
+wikidata_qid: 'Q98178306'
+birth_date: '1986-01-22'
+birth_place: 'Hamilton, Ohio, United States'
+nationality: 'American'
+occupation:
+  - 'Author'
+  - 'Speaker'
+  - 'Entrepreneur'
+knows_about:
+  - 'Habit formation'
+  - 'Behavior change'
+  - 'Productivity systems'
+  - 'Identity-based habits'
+  - 'Continuous improvement'
+  - 'Newsletter publishing'
+keywords:
+  - 'James Clear enneagram'
+  - 'James Clear type 1'
+  - 'James Clear personality'
+  - 'James Clear perfectionism'
+  - 'Atomic Habits author'
+  - 'James Clear 1w9'
+  - 'Reformer enneagram'
+  - 'James Clear baseball bat injury'
+  - 'James Clear 3-2-1 newsletter'
+same_as:
+  - 'https://en.wikipedia.org/wiki/James_Clear'
+  - 'https://www.wikidata.org/wiki/Q98178306'
+  - 'https://jamesclear.com/about'
+citations:
+  - 'https://en.wikipedia.org/wiki/James_Clear'
+  - 'https://jamesclear.com/about'
+  - 'https://jamesclear.com/atomic-habits'
 twitter: 'https://twitter.com/JamesClear'
 instagram: 'https://instagram.com/jamesclear'
 tiktok: ''
+faqs:
+  - question: "What is James Clear's personality type?"
+    answer: "James Clear is an Enneagram Type 1 (The Reformer), specifically a 1w9. The pattern shows in the perfectionism and self-criticism he openly names, the moral framing of habits (\"every action is a vote for the type of person you wish to become\"), the three-year twice-weekly publishing streak to zero readers, the obsessive \"edit, edit, edit\" loop, and the Sunday-dinner childhood that taught him systems are character, not optimization."
+    anchor: 'what-is-james-clears-personality-type'
+  - question: 'What happened to James Clear in high school?'
+    answer: "Sophomore year, a baseball bat slipped out of a teammate's hands during practice and struck Clear directly between the eyes. He broke his nose and ethmoid bone, both eye sockets caved in, and he had three seizures before being put in a medically induced coma. Recovery took eight months of relearning to swallow, walk, and see clearly enough to drive. The next year he tried out for baseball again and was the only junior cut."
+    anchor: 'the-bat-that-changed-everything'
+  - question: 'Why is James Clear a perfectionist if he tells people to aim for 1% better?'
+    answer: "Clear has openly admitted: \"I struggle with perfectionism myself and can be very self-critical of my own work.\" His mantra — reduce the scope but stick to the schedule — is a self-regulation tool for managing an inner critic that never goes off. The book argues against the perfectionist impulse; his process embodies it. He teaches what he most needs to learn, which is a hallmark Type 1 conversion of private struggle into public reform."
+    anchor: 'why-james-clear-cant-take-his-own-advice'
+  - question: 'How did James Clear start writing?'
+    answer: "Clear published his first article on November 12, 2012, with zero subscribers. He committed to publishing every Monday and Thursday and held that schedule for nearly three years before the audience meaningfully grew — not because metrics justified it but because breaking the commitment would have violated something deeper than a content strategy. Three million subscribers later, his 3-2-1 newsletter still arrives every Thursday in the same restrained format."
+    anchor: 'how-james-clear-writes-and-what-it-reveals'
 content_quality:
   hook: 8.5
   enneagram: 8.5

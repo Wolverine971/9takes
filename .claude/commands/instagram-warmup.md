@@ -255,12 +255,12 @@ For each selected comment, capture in the warmup doc:
 
 A post is **save-worthy** (distinct from engagement-worthy) when at least **two** of these signals are clearly present:
 
-| Signal                                | What it means                                                                                                  |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Pattern is named, not vibed           | Post identifies a specific behavioral pattern, framing trick, or format heuristic — not a feeling or aesthetic |
-| Format is replicable                  | The structure (hook → turn → CTA, carousel skeleton, reel beat) can be remixed into 9takes voice next week     |
-| Bridges to existing 9takes content    | Pattern maps cleanly to a published blog, person analysis, or Enneagram corner piece without forcing it        |
-| Counter-signal available              | You can name what would falsify the claim — meaning it's a real take, not a generic truism                     |
+| Signal                             | What it means                                                                                                  |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Pattern is named, not vibed        | Post identifies a specific behavioral pattern, framing trick, or format heuristic — not a feeling or aesthetic |
+| Format is replicable               | The structure (hook → turn → CTA, carousel skeleton, reel beat) can be remixed into 9takes voice next week     |
+| Bridges to existing 9takes content | Pattern maps cleanly to a published blog, person analysis, or Enneagram corner piece without forcing it        |
+| Counter-signal available           | You can name what would falsify the claim — meaning it's a real take, not a generic truism                     |
 
 **Hard skip — never write a save file for:**
 
@@ -274,13 +274,13 @@ A post is **save-worthy** (distinct from engagement-worthy) when at least **two*
 
 **Filter A vs Filter B — worked examples:**
 
-| Post                                                         | Filter A | Filter B | Why                                                              |
-| ------------------------------------------------------------ | -------- | -------- | ---------------------------------------------------------------- |
-| Peer (5k followers) just posted a Type 5 reel, 8 comments    | hit      | hit      | Comment-worthy and replicable format                             |
-| Big creator (300k), 800 comments, sharp pattern read         | skip     | hit      | Engagement is buried; pattern is gold                            |
-| Rising peer's coffee aesthetic carousel, no pattern          | hit      | skip     | Worth a relationship-building comment, nothing to remix          |
-| Random meme account, 2k likes, no audience overlap           | skip     | skip     | Nothing to do                                                    |
-| Therapy account giving DSM-style diagnoses                   | maybe    | skip     | Hard-skip on Filter B regardless of A                            |
+| Post                                                      | Filter A | Filter B | Why                                                     |
+| --------------------------------------------------------- | -------- | -------- | ------------------------------------------------------- |
+| Peer (5k followers) just posted a Type 5 reel, 8 comments | hit      | hit      | Comment-worthy and replicable format                    |
+| Big creator (300k), 800 comments, sharp pattern read      | skip     | hit      | Engagement is buried; pattern is gold                   |
+| Rising peer's coffee aesthetic carousel, no pattern       | hit      | skip     | Worth a relationship-building comment, nothing to remix |
+| Random meme account, 2k likes, no audience overlap        | skip     | skip     | Nothing to do                                           |
+| Therapy account giving DSM-style diagnoses                | maybe    | skip     | Hard-skip on Filter B regardless of A                   |
 
 The save bar is **stricter** than the engagement bar. When in doubt, skip the save. Triage is the cleanup step, but the saves engine works best when `inbox/` only contains posts you'd actually want to remix.
 
@@ -426,7 +426,7 @@ For each post that cleared the Save Bar during the main scan:
    - `content_type:` `post` / `reel` / `carousel` / `tv`
    - `pillar_guess:` your best guess at which 9takes content pillar this maps to
    - `risk_level:` `normal` / `caution` / `skip` — set to `caution` if the post borders on a hard-skip category but you decided it was still save-worthy
-4. **Fill in "Original Context"** with the caption (quote exact text when you can), visible on-screen text, audio/visual notes, and one line on *why* you saved it. Be specific — "great reel" is useless to future triage.
+4. **Fill in "Original Context"** with the caption (quote exact text when you can), visible on-screen text, audio/visual notes, and one line on _why_ you saved it. Be specific — "great reel" is useless to future triage.
 5. **Fill in "9takes Opportunity"** with: pattern observed (one sentence), audience this lands with, possible format, and any blog/person tie-in.
 6. **Leave "Processing Notes"** empty except `Deduped against:` (which folders you checked).
 7. **Append to the Saves Captured table** in the warmup doc.
@@ -435,7 +435,7 @@ For each post that cleared the Save Bar during the main scan:
 ### What does NOT trigger Phase 7
 
 - Posts that cleared only Filter A (engagement) but not Filter B (save bar).
-- Posts you already replied to or are *about* to reply to. Filter B is about the post's content as a pattern, not the relationship.
+- Posts you already replied to or are _about_ to reply to. Filter B is about the post's content as a pattern, not the relationship.
 - Anything in the hard-skip list above, even if the rest of the post is interesting.
 
 ### Phase 7 Logging
@@ -445,21 +445,21 @@ After Phase 7 completes, append a brief block to today's warmup doc:
 ```markdown
 ## Saves Captured
 
-| #   | Shortcode | Author    | Why saved (one line)            | File                                              |
-| --- | --------- | --------- | ------------------------------- | ------------------------------------------------- |
-| 1   | ABCxyz    | @handle   | Falsifiable claim about avoiders | docs/instagram/saves/inbox/2026-05-18_ABCxyz.md |
+| #   | Shortcode | Author  | Why saved (one line)             | File                                            |
+| --- | --------- | ------- | -------------------------------- | ----------------------------------------------- |
+| 1   | ABCxyz    | @handle | Falsifiable claim about avoiders | docs/instagram/saves/inbox/2026-05-18_ABCxyz.md |
 
 ## Saves Held (over cap)
 
-| Shortcode | Author  | Why held                                                  |
-| --------- | ------- | --------------------------------------------------------- |
-| DEFuvw    | @other  | Cap reached. Replicable carousel format if you want it.   |
+| Shortcode | Author | Why held                                                |
+| --------- | ------ | ------------------------------------------------------- |
+| DEFuvw    | @other | Cap reached. Replicable carousel format if you want it. |
 
 ## Saves Skipped (hard-skip rules)
 
-| Shortcode | Author  | Reason                          |
-| --------- | ------- | ------------------------------- |
-| GHIrst    | @other  | DSM-style diagnosis content.    |
+| Shortcode | Author | Reason                       |
+| --------- | ------ | ---------------------------- |
+| GHIrst    | @other | DSM-style diagnosis content. |
 ```
 
 Only include "Saves Held" and "Saves Skipped" sections when they have content.

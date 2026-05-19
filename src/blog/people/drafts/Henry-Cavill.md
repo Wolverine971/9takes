@@ -15,9 +15,59 @@ type: ['celebrity', 'movieStar', 'screen-icon']
 person: 'henry-cavill'
 suggestions: ['Tom-Hardy', 'Tom-Cruise', 'Brad-Pitt', 'Harry-Styles', 'Kristen-Bell']
 wikipedia: 'https://en.wikipedia.org/wiki/Henry_Cavill'
+wikidata_qid: 'Q295498'
+imdb_id: 'nm0147147'
+birth_date: '1983-05-05'
+birth_place: 'Saint Helier, Jersey, Channel Islands'
+nationality: 'British'
+occupation:
+  - 'Actor'
+  - 'Film producer'
+knows_about:
+  - 'Superman film franchise'
+  - 'The Witcher source-material fidelity'
+  - 'Warhammer 40,000 lore stewardship'
+  - 'Method-physique transformation'
+  - 'PC building and gaming'
+  - 'Tabletop miniature painting'
+keywords:
+  - 'Henry Cavill enneagram'
+  - 'Henry Cavill type 2'
+  - 'Henry Cavill personality'
+  - 'Henry Cavill 2w1'
+  - 'Helper enneagram'
+  - 'Henry Cavill Warhammer'
+  - 'Henry Cavill Superman'
+  - 'Henry Cavill WoW raid Snyder call'
 twitter: 'henrycavill'
 instagram: 'henrycavill'
 tiktok:
+same_as:
+  - 'https://en.wikipedia.org/wiki/Henry_Cavill'
+  - 'https://www.wikidata.org/wiki/Q295498'
+  - 'https://www.imdb.com/name/nm0147147/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Henry_Cavill'
+  - 'https://en.wikipedia.org/wiki/Man_of_Steel_(film)'
+  - 'https://en.wikipedia.org/wiki/The_Witcher_(TV_series)'
+  - 'https://en.wikipedia.org/wiki/Warhammer_40,000'
+  - 'https://people.com/tv/who-is-natalie-viscuso-henry-cavill/'
+faqs:
+  - question: "What is Henry Cavill's personality type?"
+    answer: "Henry Cavill is an Enneagram Type 2 (The Helper), specifically a 2w1. The pattern shows in the WoW raid he refused to bail on while Zack Snyder was calling about Superman, the 12-year silence about meeting Russell Crowe at Stowe before they played father and son in Man of Steel, the 300 lines of Warhammer 40K dialogue he personally audited as producer, and the mirror that still occasionally tells him 'Look at you, you fat fuck' even after the cape."
+    anchor: 'fat-cavill-was-the-actual-name'
+  - question: 'Why did Henry Cavill almost miss the Superman role?'
+    answer: "Cavill was deep in a World of Warcraft dungeon when Zack Snyder called to offer him Superman. He ignored the phone because he wouldn't bail on his anonymous teammates mid-raid. When he finally returned the call, he opened with 'I'm really sorry, I was saving someone's life' — a joke, but not entirely. For a Type 2, the Helper's operating system doesn't distinguish between teammates in a dungeon and a director on the phone. Both need you. You don't bail."
+    anchor: 'the-phone-rang-during-a-world-of-warcraft-raid'
+  - question: "How did boarding-school bullying shape Henry Cavill?"
+    answer: "At Stowe School, classmates called him 'Fat Cavill.' Most adults recounting that lean into the pain; Cavill rationalized the bullies' position — 'kids are still stretching their social muscles… they're just trying to find out where they fit.' The wound produced no resentment, just a compulsive empathy: 'It helped me read people very well, which has helped me in this industry.' Classic Type 2 processing — forgive before you've even been asked."
+    anchor: 'fat-cavill-was-the-actual-name'
+  - question: 'Why did Henry Cavill leave The Witcher?'
+    answer: "Cavill had read every Sapkowski novel, played the games, and campaigned for Geralt as the fan in the room. Sources told The Hollywood Reporter he repeatedly clashed with showrunner Lauren Schmidt Hissrich over tonal and character departures from the books, particularly in Season 2. His own line was diplomatic but pointed: 'I always had it in the back of my mind that if this was going to work, it had to be the books.' For a Type 2, the Helper becomes forceful when service to the people he feels responsible to is no longer possible. He didn't trash the show. He left."
+    anchor: 'the-witcher-when-helpers-read-every-book'
+  - question: 'Why did Henry Cavill take on Warhammer 40K as a producer?'
+    answer: "Amazon tapped Cavill as executive producer for the Warhammer 40,000 cinematic universe, and he personally audited over 300 individual lines of dialogue, terminology, and world-building detail. 'This is the stuff I've been dealing with since I was a kid,' he said. 'It is the greatest privilege of my professional career.' For a Type 2 who has spent his career acting out other people's visions, Warhammer is the first time his hand is on the tiller — and the instinct, even with creative authority, is to serve the lore and the community rather than impose."
+    anchor: 'lines-of-lore-how-a-helper-becomes-a-producer'
 path: src/blog/people/drafts/Henry-Cavill.md
 content_quality:
   hook: 9

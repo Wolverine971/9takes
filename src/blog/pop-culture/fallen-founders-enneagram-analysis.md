@@ -182,7 +182,7 @@ The whole argument rests on the word "check." Here is the working taxonomy:
 
 A founder is integrated to the degree that their type has at least two of these in real, operating order. Strip them all and any type — including the celebrated ones — defaults to the failure shape its stress-arrow predicts.
 
-- [Jensen Huang](/personality-analysis/jensen-huang)'s 3w2 is checked by a chip in real data centers and the customers who would notice if it underperformed. Same wing as Holmes; different substrate.
+- Jensen Huang's 3w2 is checked by a chip in real data centers and the customers who would notice if it underperformed. Same wing as Holmes; different substrate.
 - [Bill Gates](/personality-analysis/bill-gates)'s 5 is checked by a moral framework he spent decades stress-testing in public, and by Paul Allen as a co-founder peer. Same type as SBF; different integrations.
 - Altman's 4 is checked, today, by GPT working, Microsoft's $13 billion, and a missionary employee base — none of which are operated by anyone whose only job is to say no.
 

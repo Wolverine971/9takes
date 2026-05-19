@@ -15,9 +15,55 @@ type: ['musician', 'singer-songwriter']
 person: 'hozier'
 suggestions: ['Billie-Eilish', 'Bob-Dylan', 'Lana-Del-Rey', 'Halsey']
 wikipedia: 'https://en.wikipedia.org/wiki/Hozier_(musician)'
-twitter: 'Habormoshow'
-instagram: 'hozier'
-tiktok: ''
+wikidata_qid: 'Q16233232'
+imdb_id: 'nm6494594'
+birth_date: '1990-03-17'
+birth_place: 'Bray, County Wicklow, Ireland'
+nationality: 'Irish'
+occupation:
+  - 'Singer-songwriter'
+  - 'Musician'
+  - 'Guitarist'
+knows_about:
+  - 'Folk-soul songwriting'
+  - 'Blues guitar'
+  - "Dante's Inferno as album structure"
+  - 'Irish language music'
+  - 'Quaker upbringing'
+  - 'Beekeeping'
+keywords:
+  - 'Hozier enneagram'
+  - 'Hozier type 4'
+  - 'Hozier personality'
+  - 'Hozier 4w5'
+  - 'Individualist enneagram'
+  - 'Take Me to Church meaning'
+  - 'Unreal Unearth analysis'
+  - 'Hozier Too Sweet'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Hozier'
+  - 'https://www.wikidata.org/wiki/Q16233232'
+  - 'https://www.imdb.com/name/nm6494594/'
+  - 'https://musicbrainz.org/artist/b4691384-50c3-4afd-9988-51d3ec5db65d'
+citations:
+  - 'https://en.wikipedia.org/wiki/Hozier'
+  - 'https://en.wikipedia.org/wiki/Take_Me_to_Church'
+  - 'https://en.wikipedia.org/wiki/Unreal_Unearth'
+  - 'https://en.wikipedia.org/wiki/Too_Sweet'
+  - 'https://en.wikipedia.org/wiki/Nina_Cried_Power'
+faqs:
+  - question: "What is Hozier's personality type?"
+    answer: "Hozier is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in the year-long songwriting process he calls 'trimming off the shoots that ultimately might fail,' the attic-room solitude where 'Take Me to Church' was made before it traveled, the framing of falling in love as 'a death of everything,' and a third album structured around Dante's Inferno that converts pandemic isolation into mythology."
+    anchor: 'what-is-hoziers-personality-type'
+  - question: "Why did Hozier write 'Take Me to Church'?"
+    answer: "He wrote it about the Catholic Church's treatment of LGBTQ+ people, wrapped in the language of religious ecstasy. 'Growing up in Ireland, the church is ever present, and a lot of the feeling in the song stems from frustration with its hypocrisy and political cowardice.' The video, documenting violence against a same-sex couple in Russia, used a Type 4's grief-into-witness instinct rather than provocation — and the song became Diamond-certified in the US."
+    anchor: 'rise-to-fame-the-reluctant-star'
+  - question: "Why did Hozier structure 'Unreal Unearth' around Dante's Inferno?"
+    answer: "Pandemic isolation gave him no usable material, and he refused to write a lockdown album. He found in Dante's 700-year-old poem a framework for loss, longing, and transformation — each song corresponds to a circle of Hell. The album also includes his first songs in the Irish language. It's the textbook 4w5 move: emotional depth filtered through literary structure to make a private grief speakable in public."
+    anchor: 'the-unreal-unearth-era'
+  - question: 'How is Hozier integrating toward Type 1?'
+    answer: "A Type 4 in growth converts emotional depth into principled action, and Hozier's activist record tracks that arc clearly. The 'Take Me to Church' video, 'Cherry Wine' on intimate partner abuse, 'Swan Upon Leda' released within weeks of Roe being overturned, and 'Nina Cried Power' as explicit lineage-claiming — all use the Type 4's interior compass as fuel for outward witness, not just private feeling."
+    anchor: 'activism-and-values'
 path: src/blog/people/drafts/Hozier.md
 content_quality:
   hook: 8.5

@@ -15,9 +15,64 @@ type: ['musician', 'pop-star']
 person: 'beyonce-knowles'
 suggestions: ['Rihanna', 'Taylor-Swift', 'Lady-Gaga', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Beyonc%C3%A9'
+wikidata_qid: 'Q36153'
+imdb_id: 'nm0461498'
+birth_date: '1981-09-04'
+birth_place: 'Houston, Texas, United States'
+nationality: 'American'
+occupation:
+  - 'Singer'
+  - 'Songwriter'
+  - 'Record producer'
+  - 'Dancer'
+  - 'Actress'
+knows_about:
+  - 'R&B vocal performance'
+  - 'Stadium tour production'
+  - 'Visual album direction'
+  - 'Country music crossover'
+  - 'Black queer dance music history'
+  - 'Parkwood Entertainment label operations'
+  - 'HBCU marching band tradition'
+keywords:
+  - 'Beyoncé enneagram'
+  - 'Beyoncé type 8'
+  - 'Beyoncé personality'
+  - 'Beyoncé 8w7'
+  - 'Challenger enneagram'
+  - 'Beyoncé Lemonade'
+  - 'Beyoncé Cowboy Carter'
+  - 'Beyoncé Parkwood Entertainment'
+  - 'Beyoncé Sasha Fierce'
+  - 'Beyoncé Homecoming Coachella'
 twitter: 'https://twitter.com/Beyonce'
 instagram: 'https://www.instagram.com/beyonce/'
 tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Beyonc%C3%A9'
+  - 'https://www.wikidata.org/wiki/Q36153'
+  - 'https://www.imdb.com/name/nm0461498/'
+  - 'https://www.britannica.com/biography/Beyonce'
+citations:
+  - 'https://en.wikipedia.org/wiki/Beyonc%C3%A9'
+  - 'https://en.wikipedia.org/wiki/Lemonade_(Beyonc%C3%A9_album)'
+  - 'https://en.wikipedia.org/wiki/Cowboy_Carter'
+  - 'https://en.wikipedia.org/wiki/Homecoming_(2019_film)'
+  - 'https://en.wikipedia.org/wiki/Parkwood_Entertainment'
+  - 'https://en.wikipedia.org/wiki/Destiny%27s_Child'
+faqs:
+  - question: "What is Beyoncé's personality type?"
+    answer: "Beyoncé is an Enneagram Type 8 (The Challenger). The pattern shows in a first decade spent in near-silence ('No one in my school knew that I could sing because I barely spoke'), a father who drilled her on practicing failure scenarios as a child, founding Parkwood Entertainment at 27 so no one would control her career again, hand-selecting every dancer and fabric swatch for Coachella while recovering from a near-fatal pregnancy, and answering Jay-Z's infidelity by picking up a baseball bat named Hot Sauce on Lemonade."
+    anchor: 'what-is-beyonces-personality-type'
+  - question: 'Why did Beyoncé invent Sasha Fierce?'
+    answer: "Sasha Fierce was emotional technology. The shy girl from Houston who couldn't speak in class needed a character who could be sexual, aggressive, commanding — everything that felt dangerous without armor. Beyoncé traced the persona back to recording 'Crazy in Love' in 2003 and gave it a public name on I Am... Sasha Fierce (2008). In 2010 she announced she no longer needed the alter ego — but didn't merge the two selves so much as make the seam invisible enough that audiences stopped noticing."
+    anchor: 'the-woman-she-invented'
+  - question: 'Why did Beyoncé fire her father Mathew Knowles?'
+    answer: "In 2011, after an audit revealed financial discrepancies, Beyoncé severed Mathew Knowles as her manager — the man who had quit a six-figure Xerox sales job to run Girls Tyme when she was nine and built the Destiny's Child machine. Her statement was carefully worded: 'I've only parted ways with my father on a business level. He is my father for life.' In her Life Is But a Dream documentary the wound was rawer: 'I needed a break, I needed my dad. I had to let go.' The Type 8 agony: needing someone and knowing the need makes you vulnerable."
+    anchor: 'the-machine-she-built-herself'
+  - question: 'Why did Beyoncé make Cowboy Carter?'
+    answer: "Cowboy Carter was born from the 2016 CMA Awards, where Beyoncé performed 'Daddy Lessons' with The Chicks and was met with a racial slur from the audience, social-media boycotts, and the CMA quietly scrubbing performance clips. 'It was born out of an experience that I had years ago where I did not feel welcomed... it was very clear that I wasn't.' She spent five years writing it. The country establishment gave it zero CMA nominations; the 2025 Grammys made it Album of the Year and Best Country Album — the first time a Black woman had won the latter."
+    anchor: 'the-music-is-enough'
 content_quality:
   hook: 9
   enneagram: 9

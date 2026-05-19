@@ -14,10 +14,57 @@ enneagram: 7
 type: ['comedian', 'creator', 'podcaster', 'internet-comic']
 person: 'caleb-hearon'
 suggestions: ['Jake-Shane', 'Eddie-Murphy', 'Dave-Chappelle', 'Keke-Palmer', 'Theo-Von']
-wikipedia: ''
-twitter: 'calebsaysthings'
-instagram: 'calebsaysthings'
-tiktok: 'calebsaysthings'
+wikipedia: 'https://en.wikipedia.org/wiki/Caleb_Hearon'
+wikidata_qid: 'Q107087843'
+imdb_id: 'nm11016259'
+birth_date: '1995-01-24'
+birth_place: 'Chillicothe, Missouri, United States'
+nationality: 'American'
+occupation:
+  - 'Comedian'
+  - 'Actor'
+  - 'Podcaster'
+  - 'Screenwriter'
+knows_about:
+  - 'Stand-up comedy'
+  - 'Improv comedy'
+  - 'Character-based short-form video'
+  - 'Podcast hosting'
+  - 'Screenwriting'
+  - 'Tenant organizing'
+  - 'Queer comedy'
+keywords:
+  - 'Caleb Hearon enneagram'
+  - 'Caleb Hearon type 7'
+  - 'Caleb Hearon personality'
+  - 'Caleb Hearon 7w6'
+  - 'Enthusiast enneagram'
+  - 'So True podcast'
+  - 'Caleb Hearon Model Comedian'
+  - 'Trash Mountain film'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Caleb_Hearon'
+  - 'https://www.wikidata.org/wiki/Q107087843'
+  - 'https://www.imdb.com/name/nm11016259/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Caleb_Hearon'
+  - 'https://www.hbomax.com/movies/caleb-hearon-model-comedian/3da10291-dc85-49c0-af26-d051dab7090b'
+  - 'https://www.elitedaily.com/'
+  - 'https://www.bustle.com/'
+  - 'https://www.washingtonpost.com/'
+faqs:
+  - question: "What is Caleb Hearon's personality type?"
+    answer: "Caleb Hearon is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in his deprivation-origin childhood in rural Chillicothe, his explicit pain-to-material engineering (\"get some of the stuff about my dad in there so I can stop talking about it on stage\"), the manic creative output (HBO special, chart-topping podcast, two films, a Hulu pilot, stand-up touring), and his loyalty-anchored partnership with Holmes since both landed at iO in 2017."
+    anchor: 'what-is-caleb-hearons-personality-type'
+  - question: 'How did improv save Caleb Hearon''s life?'
+    answer: "During his Chicago grind years he battled suicidal ideation, working as an admin assistant by day and writing jokes by night. On the Mike Birbiglia podcast the episode title is literally 'Caleb Hearon: Improv Saved His Life.' Comedy gave him a room full of people who wanted to laugh, and laughing together is a form of connection that doesn't require anyone to be vulnerable first. For a Type 7 drowning in deprivation, that structure was a life raft."
+    anchor: 'how-hearon-got-funny-and-why-it-saved-his-life'
+  - question: "Why did Caleb Hearon put his dead father into his HBO special?"
+    answer: "He said it plainly: 'I knew that I wanted to get some of the stuff about my dad in there so I can stop talking about it on stage.' Not to process grief. Not to make the audience understand. To convert the raw material into a finished product, install it somewhere permanent, and walk forward lighter. That's the Type 7 mechanism in its purest form — emotional engineering, not avoidance."
+    anchor: 'the-special-where-the-funny-and-the-broken-meet'
+  - question: 'Why does Caleb Hearon say he is desperate to connect?'
+    answer: "Growing up poor, closeted, and suicidal in rural Missouri built a Type 7 whose terror of being trapped in pain became a survival drive toward connection. His character videos, the So True podcast, the HBO special framed as 'dinner with friends,' and his organizing work with KC Tenants and BLM are all the same instinct expressed in different rooms — connection as oxygen, not strategy."
+    anchor: 'community-as-mission'
 content_quality:
   hook: 9
   enneagram: 8.5

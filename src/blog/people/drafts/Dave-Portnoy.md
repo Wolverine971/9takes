@@ -15,9 +15,61 @@ type: ['creator', 'viral-entertainer']
 person: 'dave-portnoy'
 suggestions: ['Joe-Rogan', 'Alex-Cooper', 'Logan-Paul', 'Jake-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Dave_Portnoy'
-twitter: 'stoolpresidente'
-instagram: 'stoolpresidente'
-tiktok: ''
+wikidata_qid: 'Q16734645'
+imdb_id: 'nm8747776'
+birth_date: '1977-03-22'
+birth_place: 'Salem, Massachusetts, United States'
+nationality: 'American'
+occupation:
+  - 'Internet entrepreneur'
+  - 'Media personality'
+  - 'Blogger'
+  - 'Pizza critic'
+knows_about:
+  - 'Sports media'
+  - 'Sports gambling'
+  - 'Digital publishing'
+  - 'Pizza criticism'
+  - 'Day trading'
+  - 'Brand-building'
+  - 'Crisis PR'
+keywords:
+  - 'Dave Portnoy enneagram'
+  - 'Dave Portnoy type 8'
+  - 'Dave Portnoy personality'
+  - 'Portnoy 8w7'
+  - 'Barstool Sports founder personality'
+  - 'El Presidente enneagram'
+  - 'Davey Day Trader'
+  - 'Barstool Fund'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Dave_Portnoy'
+  - 'https://www.wikidata.org/wiki/Q16734645'
+  - 'https://www.imdb.com/name/nm8747776/'
+  - 'https://www.barstoolsports.com/'
+citations:
+  - 'https://www.youtube.com/watch?v=Seh1vt3c-hM'
+  - 'https://www.youtube.com/watch?v=37Tz3TpELxc'
+  - 'https://www.youtube.com/watch?v=wiDWudjAIBs'
+  - 'https://www.youtube.com/watch?v=oQrMPvIduvk'
+  - 'https://en.wikipedia.org/wiki/Dave_Portnoy'
+  - 'https://en.wikipedia.org/wiki/Barstool_Sports'
+faqs:
+  - question: "What is Dave Portnoy's personality type?"
+    answer: "Dave Portnoy is an Enneagram Type 8 (The Challenger), most likely 8w7. The pattern shows in the champagne bottles labeled with his enemies' names, the $1 buyback of Barstool from Penn National, the refusal to apologize that he calls his 'greatest blessing and greatest curse,' and the protective loyalty to employees like Ben Mintz, his father Michael, and his ex-wife Renee, who still has full access to roughly $150 million of his money."
+    anchor: 'what-is-dave-portnoys-personality-type'
+  - question: 'Why did Dave Portnoy buy Barstool Sports back for $1?'
+    answer: "In January 2020, Portnoy sold a majority stake to Penn National Gaming for a reported $450 million. After Penn's ESPN partnership collapsed and the company wrote off $850 million on the acquisition, Portnoy bought Barstool back in August 2023 for one dollar. For a Type 8 organized around autonomy, the price was beside the point — what mattered was having his thing back, with no regulator telling him what he could say."
+    anchor: 'the-450-million-gamble'
+  - question: 'What was the Barstool Fund?'
+    answer: "Portnoy launched the Barstool Fund in December 2020 with $500,000 of his own money, then personally called struggling small-business owners on camera during COVID. The fund raised over $39 million for more than 348 businesses. The defining detail is that he insisted on making the calls himself — sitting on camera while a clothing-store owner from Jasper, Indiana broke down about his recently dead father. The protector instinct was the same engine as the brawler."
+    anchor: 'davey-day-trader-and-the-barstool-fund'
+  - question: "Why does Dave Portnoy's ex-wife still have access to his money?"
+    answer: "Dave and Renee Portnoy married in 2009 and separated in 2017 but never finalized the divorce — a Massachusetts judge denied it because the settlement wasn't equitable and Renee refused to take her half. On Club Shay Shay, Dave summed it up: 'I'm a loyalty guy. I know it surprises people.' She still has full access to approximately $150 million of his money. The man who fights everyone trusts his ex-wife with everything."
+    anchor: 'im-a-loyalty-guy'
+  - question: 'How did Dave Portnoy respond to the Business Insider allegations?'
+    answer: "In November 2021, Business Insider published women's allegations that sexual encounters with Portnoy had 'turned violent and humiliating.' Portnoy denied the claims within hours, held a staged 'emergency press conference' behind a water cooler, sued for defamation, and made Business Insider CEO Henry Blodget his self-declared 'new arch enemy' — digging up Blodget's 2003 SEC fraud settlement and crashing a BI union protest. When Blodget stepped down in November 2023, Portnoy popped a champagne bottle labeled with his name on camera. The lawsuit was dismissed in 2022; the appeal was quietly dropped in 2023."
+    anchor: 'the-hit-piece'
 path: src/blog/people/drafts/Dave-Portnoy.md
 content_quality:
   hook: 10

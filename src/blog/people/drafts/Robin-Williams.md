@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/robin-williams'
 lastmod: '2026-05-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['comedian', 'movieStar', 'screen-icon']
 person: 'robin-williams'

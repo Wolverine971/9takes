@@ -15,6 +15,31 @@ type: ['comedian', 'stand-up']
 person: 'andrew-schulz'
 suggestions: ['Joe-Rogan', 'Theo-Von', 'Tim-Dillon', 'Shane-Gillis', 'Dave-Chappelle', 'Kevin-Hart']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Schulz'
+wikidata_qid: 'Q21063227'
+imdb_id: 'nm3683006'
+birth_date: '1983-10-30'
+birth_place: 'Manhattan, New York City, United States'
+nationality: 'American'
+occupation:
+  - 'Stand-up comedian'
+  - 'Podcaster'
+  - 'Actor'
+  - 'Writer'
+knows_about:
+  - 'Stand-up comedy'
+  - 'Crowd work'
+  - 'Podcasting'
+  - 'Direct-to-audience distribution'
+  - 'Comedy specials'
+  - 'Owned media'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Andrew_Schulz'
+  - 'https://www.wikidata.org/wiki/Q21063227'
+  - 'https://www.imdb.com/name/nm3683006/'
+  - 'https://theandrewschulz.com/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Andrew_Schulz'
+  - 'https://podcasts.apple.com/us/podcast/andrew-schulzs-flagrant-with-akaash-singh/id1288641267'
 twitter: 'andrewschulz'
 instagram: 'andrewschulz'
 tiktok: 'andrewschulz'

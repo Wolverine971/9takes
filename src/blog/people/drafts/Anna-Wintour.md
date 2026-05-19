@@ -15,6 +15,64 @@ type: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator']
 person: 'anna-wintour'
 suggestions: ['Blake-Lively', 'Hillary-Clinton', 'Tim-Cook', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Anna_Wintour'
+wikidata_qid: 'Q230744'
+imdb_id: 'nm1659661'
+birth_date: '1949-11-03'
+birth_place: 'Hampstead, London, England'
+nationality:
+  - 'British'
+  - 'American'
+occupation:
+  - 'Editor-in-chief'
+  - 'Magazine editor'
+  - 'Media executive'
+  - 'Journalist'
+knows_about:
+  - 'Magazine editing'
+  - 'Fashion journalism'
+  - 'Editorial direction'
+  - 'Met Gala curation'
+  - 'CFDA/Vogue Fashion Fund'
+  - 'Political fundraising'
+  - 'Brand stewardship'
+keywords:
+  - 'Anna Wintour enneagram'
+  - 'Anna Wintour type 1'
+  - 'Anna Wintour personality'
+  - 'Anna Wintour 1w9'
+  - 'Reformer enneagram'
+  - 'Anna Wintour Vogue'
+  - 'Nuclear Wintour'
+  - 'Anna Wintour bob haircut'
+  - 'Anna Wintour daily routine'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Anna_Wintour'
+  - 'https://www.wikidata.org/wiki/Q230744'
+  - 'https://www.imdb.com/name/nm1659661/'
+  - 'https://www.britannica.com/biography/Anna-Wintour'
+citations:
+  - 'https://en.wikipedia.org/wiki/Anna_Wintour'
+  - 'https://en.wikipedia.org/wiki/The_September_Issue'
+  - 'https://www.penguinrandomhouse.com/books/609773/the-chiffon-trenches-by-andre-leon-talley/'
+  - 'https://en.wikipedia.org/wiki/Met_Gala'
+  - 'https://en.wikipedia.org/wiki/CFDA/Vogue_Fashion_Fund'
+  - 'https://en.wikipedia.org/wiki/Vogue_(magazine)'
+faqs:
+  - question: "What is Anna Wintour's personality type?"
+    answer: "Anna Wintour is an Enneagram Type 1 (The Reformer), specifically a 1w9. The pattern shows in her unchanged dark bob since age 14, the 4 a.m. wake-up and daily tennis, the moral grammar of 'striving for the best,' the cold-not-hot dominance that decides what is correct and refuses to negotiate, and the withdrawn 9-wing composure that lets a long walk to her desk do the work other bosses do with yelling."
+    anchor: 'what-is-anna-wintours-personality-type'
+  - question: 'Why did Anna Wintour keep the same bob haircut for 60 years?'
+    answer: "She cut the sharp dark bob in 1963 at age fourteen, watching Cathy McGowan on Ready Steady Go! at a strict North London girls' school. Sixty-three years later it is substantively unchanged. The haircut is not a style choice; it is a Type 1 thesis statement — she had decided what was correct and stopped revisiting the question."
+    anchor: 'why-anna-wintour-kept-the-bob-she-cut-at-fourteen'
+  - question: 'Why does Anna Wintour wake up at 4 a.m.?'
+    answer: "She is on a tennis court by 5:45, at Vogue by 8, and in bed by 10:15 p.m. The schedule has been substantively unchanged for decades. It is not a productivity hack; it is moral architecture. Tennis is the proof of seriousness, bed at 10:15 is the refusal to begin the next day compromised, and the structure functions as her face — the part she shows the world more often than her actual face."
+    anchor: 'why-anna-wintour-wakes-up-at-4-a-m'
+  - question: 'Did Anna Wintour really step down from Vogue in 2025?'
+    answer: "On June 26, 2025, she told staffers she was stepping down as editor-in-chief of American Vogue after thirty-seven years. She kept her global title — chief content officer of Condé Nast and global editorial director of Vogue — which means every Vogue edition still reports to her. A Type 1 does not step away from the work; she redesigns it so the line can outlive her presence at any single desk."
+    anchor: 'why-anna-wintour-didnt-actually-step-down'
+  - question: 'What does the André Leon Talley situation reveal about Anna Wintour?'
+    answer: "Talley was her colleague for thirty years and described being dropped because he had become 'too old, too overweight and too uncool.' That is the Type 1 blind spot — aesthetic perfectionism mistaken for moral perfectionism. Wintour's 2020 internal memo, acknowledging Vogue 'has not found enough ways to elevate and give space to Black editors,' all but conceded the framing without abandoning the reformer's instinct."
+    anchor: 'where-the-type-1-ethics-meets-its-blind-spot'
 twitter: ''
 instagram: ''
 tiktok: ''

@@ -16,9 +16,62 @@ person: 'cristiano-ronaldo'
 suggestions:
   ['Lionel-Messi', 'Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Tom-Cruise', 'Alex-Hormozi']
 wikipedia: 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
+wikidata_qid: 'Q11571'
+imdb_id: 'nm1860184'
+birth_date: '1985-02-05'
+birth_place: 'Funchal, Madeira, Portugal'
+nationality: 'Portuguese'
+occupation:
+  - 'Footballer'
+  - 'Forward'
+  - 'Brand entrepreneur'
+knows_about:
+  - 'Association football'
+  - 'Goal-scoring records'
+  - 'Sports performance training'
+  - 'Sleep cycle optimization'
+  - 'Athlete brand building'
+  - 'Image-rights monetization'
+  - 'Saudi Pro League football'
+keywords:
+  - 'Cristiano Ronaldo enneagram'
+  - 'Cristiano Ronaldo type 3'
+  - 'Cristiano Ronaldo personality'
+  - 'Ronaldo 3w2'
+  - 'Achiever enneagram'
+  - 'Ronaldo Euro 2024 tears'
+  - 'Ronaldo Jorge Mendes'
+  - 'Ronaldo Al-Nassr'
+  - 'Ronaldo Mayorga case'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
+  - 'https://www.wikidata.org/wiki/Q11571'
+  - 'https://www.imdb.com/name/nm1860184/'
+  - 'https://www.britannica.com/biography/Cristiano-Ronaldo'
+  - 'https://www.uefa.com/uefachampionsleague/'
 twitter: 'cristiano'
 instagram: 'cristiano'
 tiktok: 'cristiano'
+citations:
+  - 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
+  - 'https://en.wikipedia.org/wiki/Football_Leaks'
+  - 'https://en.wikipedia.org/wiki/Kathryn_Mayorga'
+  - 'https://en.wikipedia.org/wiki/Jorge_Mendes'
+  - 'https://en.wikipedia.org/wiki/Al-Nassr_FC'
+  - 'https://www.amnesty.org/en/latest/news/2023/01/saudi-arabia-at-al-nassr-cristiano-ronaldo-should-draw-attention-to-human-rights-issues/'
+faqs:
+  - question: "What is Cristiano Ronaldo's personality type?"
+    answer: "Cristiano Ronaldo is an Enneagram Type 3 (The Achiever). The pattern shows in the alcoholic father who died in 2005 before seeing his son's biggest awards, the five 90-minute naps engineered by Nick Littlehales, the three to four 'invisible training' hours past team sessions, the SIUUU as press conference, and the 960 goals that still aren't enough because the equation he learned as a child — achievement equals worth — does not have a solution."
+    anchor: 'what-is-cristiano-ronaldos-personality-type'
+  - question: 'Why did Cristiano Ronaldo cry after missing the penalty against Slovenia?'
+    answer: "In the 114th minute of the Euro 2024 Round of 16, Jan Oblak saved Ronaldo's penalty and the man whose architecture is built to prevent on-camera vulnerability burst into tears on the pitch. Days later he defended the moment to Rio Ferdinand: 'You have to express yourself. If you hide this stuff, you're not being true to yourself.' For a Type 3, that is the closest he has come on camera to admitting the architecture costs something."
+    anchor: 'the-euro-2024-breakthrough'
+  - question: "What is Cristiano Ronaldo's relationship with his agent Jorge Mendes?"
+    answer: "Jorge Mendes is the Portuguese super-agent who engineered every contract Ronaldo has signed since age 17 — the 2003 Manchester United transfer, the 2009 €94 million Real Madrid record, Juventus, the disastrous United return, and the Saudi move. Per the 2016 Football Leaks investigation by Der Spiegel, Mendes' team also designed the offshore image-rights structures that ended in Ronaldo's 2017 tax-evasion guilty plea in Spain. The architecture of Cristiano Ronaldo, Inc. is Mendes-built and Mendes-protected."
+    anchor: 'the-build-from-madeira-to-manchester-to-madrid'
+  - question: 'How should the Kathryn Mayorga allegation be understood in a personality analysis?'
+    answer: "Mayorga has alleged consistently, in police reports and civil filings, that Ronaldo raped her in his Las Vegas hotel suite in 2009; she signed a $375,000 NDA that year. The 2017 Football Leaks archive included Ronaldo's legal-team 'case file.' Las Vegas police closed the criminal review in 2019; Judge Jennifer Dorsey dismissed the civil suit in 2022 on procedural grounds tied to the lawyers' use of hacked documents. The dismissal was not a finding on the underlying allegation. Type 3 theory can explain the image-management response; it cannot rule on what happened in the room."
+    anchor: 'las-vegas-tax-evasion-and-the-cost-of-the-image'
 path: src/blog/people/drafts/Cristiano-Ronaldo.md
 content_quality:
   hook: 8.5

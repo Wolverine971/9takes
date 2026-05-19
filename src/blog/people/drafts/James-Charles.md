@@ -15,9 +15,55 @@ type: ['creator', 'lifestyleInfluencer', 'lifestyle-builder']
 person: 'james-charles'
 suggestions: ['Paris-Hilton', 'Addison-Rae', 'Kim-Kardashian', 'Kylie-Jenner']
 wikipedia: 'https://en.wikipedia.org/wiki/James_Charles'
-twitter: 'jamescharles'
-instagram: 'jamescharles'
-tiktok: 'jamescharles'
+wikidata_qid: 'Q58816418'
+imdb_id: 'nm6113114'
+birth_date: '1999-05-23'
+birth_place: 'Bethlehem, New York, United States'
+nationality: 'American'
+occupation:
+  - 'Makeup artist'
+  - 'YouTuber'
+  - 'Beauty influencer'
+  - 'Entrepreneur'
+knows_about:
+  - 'Beauty content creation'
+  - 'Makeup artistry'
+  - 'Cosmetics brand building'
+  - 'YouTube creator economy'
+  - 'LGBTQ representation in beauty'
+  - 'Influencer reinvention strategy'
+keywords:
+  - 'James Charles enneagram'
+  - 'James Charles type 3'
+  - 'James Charles personality'
+  - 'James Charles 3w4'
+  - 'James Charles CoverGirl'
+  - 'James Charles Painted brand'
+  - 'James Charles Tati allegations'
+  - 'James Charles songs'
+  - 'Achiever enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/James_Charles'
+  - 'https://www.wikidata.org/wiki/Q58816418'
+  - 'https://www.imdb.com/name/nm6113114/'
+citations:
+  - 'https://en.wikipedia.org/wiki/James_Charles'
+  - 'https://www.newsweek.com/james-charles-reveals-incredible-childhood-home-dad-built-scratch-1800858'
+  - 'https://www.papermag.com/james-charles-painted'
+  - 'https://www.cosmopolitan.com/entertainment/celebs/a42584856/james-charles-podcast-interview/'
+faqs:
+  - question: "What is James Charles's personality type?"
+    answer: "James Charles is an Enneagram Type 3 (The Achiever), specifically a 3w4. The pattern shows in the JaysCoding YouTube channel he started at eleven before he had anything to say, the edited yearbook photo he used to launch a CoverGirl deal at seventeen, the four-year build of Painted from inside the 2019 Tati controversy, the disintegration to Type Nine in 2021 (\"my coping mechanisms weren't coping\"), and the Four-wing creative streak that pushed him into a cappella and pop music despite mockery."
+    anchor: 'what-is-james-charles-personality-type'
+  - question: "Why was James Charles's viral yearbook photo a fabrication?"
+    answer: "The legend is that James brought a ring light to senior picture day and the result went viral untouched. A former friend later revealed he edited the photos afterward to make the makeup look more extreme than it actually was. The viral moment that launched a $22M empire was itself an image of an image — the most Type 3 origin story possible, because the construction is the achievement."
+    anchor: 'jayscoding-and-the-boy-from-bethlehem'
+  - question: 'What happened to James Charles during the 2021 grooming allegations?'
+    answer: "In February 2021 a sixteen-year-old named Isaiyah posted a TikTok alleging James had groomed him; more accusers followed. Morphe cut ties, YouTube demonetized him, and he was removed from Instant Influencer's second season. For the first time the Type 3 construction machine couldn't manufacture a way out: \"I was crying myself to sleep every single night... I wanted to kill myself.\" His brother Ian stopped speaking to him for two years."
+    anchor: 'the-week-the-performance-broke'
+  - question: 'Why did James Charles start releasing music?'
+    answer: "After the 2021 crisis, James began writing songs as the first medium where the construction visibly dropped. \"Call Me Back\" (February 2024) is a piano ballad about being ghosted; \"Can We Just Be Friends\" traces his LA years and lands on the line \"You promised that I wasn't an experiment.\" He cited Troye Sivan as inspiration and trained seriously with vocal coach Cheryl Porter despite years of internet mockery of his voice."
+    anchor: 'the-songs-that-dropped-the-construction'
 content_quality:
   hook: 9
   enneagram: 8.5

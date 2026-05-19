@@ -15,7 +15,55 @@ type: ['movieStar', 'screen-icon']
 person: 'david-corenswet'
 suggestions: ['Henry-Cavill', 'Matt-Damon', 'Tom-Hiddleston', 'Natalie-Portman']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Corenswet'
-instagram: 'davidcorenswet'
+wikidata_qid: 'Q70954450'
+imdb_id: 'nm4825178'
+birth_date: '1993-07-08'
+birth_place: 'Philadelphia, Pennsylvania, United States'
+nationality: 'American'
+occupation:
+  - 'Actor'
+knows_about:
+  - 'Screen acting'
+  - 'Stage acting'
+  - 'Juilliard drama training'
+  - 'Buddhist mindfulness practice'
+  - 'Jazz standards'
+  - 'Method preparation'
+keywords:
+  - 'David Corenswet enneagram'
+  - 'David Corenswet type 5'
+  - 'David Corenswet personality'
+  - 'David Corenswet 5w4'
+  - 'Investigator enneagram'
+  - 'David Corenswet Superman'
+  - 'Jewish Superman actor'
+  - 'David Corenswet Julia Best Warner'
+same_as:
+  - 'https://en.wikipedia.org/wiki/David_Corenswet'
+  - 'https://www.wikidata.org/wiki/Q70954450'
+  - 'https://www.imdb.com/name/nm4825178/'
+  - 'https://en.wikipedia.org/wiki/Superman_(2025_film)'
+citations:
+  - 'https://time.com/7273166/david-corenswet-superman-interview/'
+  - 'https://en.wikipedia.org/wiki/David_Corenswet'
+  - 'https://en.wikipedia.org/wiki/Superman_(2025_film)'
+  - 'https://www.biography.com/actors/a65255194/david-corenswet'
+  - 'https://www.hollywoodreporter.com/movies/movie-news/superman-movie-actor-david-corenswet-interview-gq-hype-1236308210/'
+  - 'https://www.rollingstone.com/tv-movies/tv-movie-features/david-corenswet-first-jewish-superman-why-matters-james-gunn-dc-comics-1234780413/'
+  - 'https://www.jta.org/2023/08/09/culture/david-corenswet-the-next-superman-has-deep-jewish-roots-in-new-orleans-where-he-was-married-by-a-rabbi'
+faqs:
+  - question: "What is David Corenswet's personality type?"
+    answer: "David Corenswet is an Enneagram Type 5 (The Investigator), specifically a 5w4. The pattern shows in the audition-floor sunbeam Nicholas Hoult described, his Buddhist-retreat upbringing, James Gunn's testimony that Corenswet 'asks a ton of questions about every single little moment' and then 'turns those questions into something magical in his performance,' and his decision to raise his daughter in a Philadelphia suburb instead of moving to Los Angeles after booking Superman."
+    anchor: 'what-is-david-corenswets-personality-type'
+  - question: 'How did David Corenswet prepare to play Superman?'
+    answer: "He ran the decision the way a Five runs an experiment, asking himself: 'If this is the only role I get to play for the rest of my life, would I still say yes?' The answer was yes. Physically, he followed a five-month protocol with trainer Paolo Mascitti — 4,500 calories a day, seven meals, push-pull-legs sessions three or four times a week — taking him from 195 to 240 pounds. He described it as 'lifting heavy things and eating a lot of calories and sleeping as much as I could.'"
+    anchor: 'how-david-corenswet-prepares-to-play-a-role'
+  - question: 'Why was David Corenswet considered too intellectual for Hollywood leading-man roles?'
+    answer: "Before Superman, the recurring industry note on Corenswet was some version of 'too much upstairs.' From The Politician (2019) onward, he kept playing the man who listens in rooms full of people performing. James Gunn called him 'a pain in the ass' for asking endless questions — and that question-into-take pipeline is precisely the Type 5 trade: slow start, a lot of asking, the answer handed back as the take. The internet had been fan-casting him as Superman since 2020."
+    anchor: 'why-hollywood-kept-calling-david-corenswet-too-intellectual'
+  - question: 'What does it mean that David Corenswet is the first Jewish Superman?'
+    answer: "Jerry Siegel and Joe Shuster, two Jewish teenagers from Cleveland, invented Superman in 1938 as Moses with a cape — sent from a dying world, raised by a family not his own, named with the Hebrew suffix -el. Every live-action theatrical Superman before Corenswet (Reeves, Reeve, Routh, Cavill) was a gentile. Corenswet's paternal family is Louisiana Jewish stock going back to the 1860s; his March 2023 interfaith wedding at Immaculate Conception in New Orleans was officiated by both a priest and a rabbi."
+    anchor: 'what-it-means-that-superman-is-finally-jewish'
 content_quality:
   hook: 9
   enneagram: 8.5

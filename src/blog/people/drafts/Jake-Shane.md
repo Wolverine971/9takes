@@ -15,9 +15,56 @@ type: ['creator', 'viral-entertainer']
 person: 'jake-shane'
 suggestions: ['Caleb-Hearon', 'Keke-Palmer', 'Aubrey-Plaza', 'Alix-Earle', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Shane'
-twitter: ''
-instagram: 'passthatpuss'
-tiktok: 'octopusslover8'
+wikidata_qid: 'Q125261339'
+imdb_id: 'nm15752984'
+birth_date: '1999-10-27'
+birth_place: 'Los Angeles, California, United States'
+nationality: 'American'
+occupation:
+  - 'Comedian'
+  - 'Podcaster'
+  - 'Actor'
+  - 'Content creator'
+knows_about:
+  - 'Short-form video comedy'
+  - 'Celebrity podcast interviewing'
+  - 'OCD and anxiety advocacy'
+  - 'Improvisational comedy'
+  - 'Pop culture commentary'
+  - 'Self-deprecating humor'
+keywords:
+  - 'Jake Shane enneagram'
+  - 'Jake Shane type 6'
+  - 'Jake Shane personality'
+  - 'Jake Shane 6w7'
+  - 'octopusslover8 enneagram'
+  - 'Therapuss Jake Shane'
+  - 'Jake Shane OCD'
+  - 'Jake Shane Vanity Fair'
+  - 'Loyalist enneagram'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jake_Shane'
+  - 'https://www.wikidata.org/wiki/Q125261339'
+  - 'https://www.imdb.com/name/nm15752984/'
+citations:
+  - 'https://www.treatmyocd.com/blog/jake-shane-on-ocd'
+  - 'https://www.wondermind.com/article/jake-shane/'
+  - 'https://www.rollingstone.com/tv-movies/tv-movie-features/jake-shane-wishful-thinking-therapuss-journalism-1235530475/'
+  - 'https://www.thetrevorproject.org/blog/on-influencing-mental-health-and-being-lgbtq-with-jake-shane-octopusslover8/'
+  - 'https://en.wikipedia.org/wiki/Jake_Shane'
+faqs:
+  - question: "What is Jake Shane's personality type?"
+    answer: "Jake Shane is an Enneagram Type 6 (The Loyalist), specifically a 6w7. The pattern shows in the childhood OCD rituals he built to control catastrophe, the Claire's-store vow at thirteen to never say he was happy again, the Therapuss podcast where he lets celebrities edit their own moments out, the catastrophizing he openly names (\"I'm so scared of people leaving me\"), and the manic Seven-wing energy that powers his hyperfixations on Taylor Swift and pop stars."
+    anchor: 'what-is-jake-shanes-personality-type'
+  - question: 'Why does Jake Shane let celebrities edit his podcast episodes?'
+    answer: "Most podcast hosts protect unguarded celebrity moments because they generate clips and press. Jake deletes them. \"It's really selfish to not honor someone's discomfort with something they've said,\" he told Rolling Stone. The impulse looks like kindness, and it is — but it's also Type 6 architecture: build a space so safe that the guests keep coming back."
+    anchor: 'the-therapuss-principle-make-them-stay'
+  - question: 'What happened with Jake Shane at the Vanity Fair Oscar party?'
+    answer: "In March 2026, Vanity Fair hired Jake to host its Oscar party red carpet livestream alongside Quen Blackwell and Brittany Broski. On camera he unraveled — telling Kris Jenner \"I don't know\" why he got the gig, calling the sick child in Julia Fox's film \"annoying,\" misreading Damson Idris, and inventing a personal connection with Lewis Pullman. The clips read as counterphobic Six panic: the warmth that usually insulates him had nowhere to go, so the anxiety came out raw. He posted nothing afterward."
+    anchor: 'the-vanity-fair-moment'
+  - question: 'How did Jake Shane go from reviewing octopus to being one of the biggest TikTokers?'
+    answer: "Jake started @octopusslover8 in 2021 while studying at USC, reviewing octopus dishes for a few thousand followers. In February 2023, a commenter asked him to do a bit as Bill Clinton denying his relationship with Monica Lewinsky. He did. He gained 100,000 followers in a week, a million in a month, and signed with WME by March — then responded by posting ten to twenty TikToks a day."
+    anchor: 'octopus-then-everything'
 content_quality:
   hook: 9
   enneagram: 9

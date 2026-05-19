@@ -15,9 +15,59 @@ type: ['creator', 'streamer']
 person: 'asmongold'
 suggestions: ['Hasan-Piker', 'Pokimane', 'xQc', 'Kai-Cenat']
 wikipedia: 'https://en.wikipedia.org/wiki/Asmongold'
+wikidata_qid: 'Q104589878'
+imdb_id: 'nm10602552'
+birth_date: '1990'
+birth_place: 'Austin, Texas, United States'
+nationality: 'American'
+occupation:
+  - 'Twitch streamer'
+  - 'YouTuber'
+  - 'Content creator'
+  - 'Political commentator'
+knows_about:
+  - 'World of Warcraft theorycrafting'
+  - 'Twitch reaction-content format'
+  - 'Livestream commentary'
+  - 'Gaming-industry critique'
+  - 'Online political commentary'
+  - 'Creator-economy economics'
+keywords:
+  - 'Asmongold enneagram'
+  - 'Asmongold type 5'
+  - 'Asmongold personality'
+  - 'Zack Hoyt enneagram'
+  - 'Observer enneagram'
+  - 'Asmongold living like animal'
+  - 'Asmongold mother'
+  - 'Asmongold OTK'
 twitter: 'Asmongold'
 instagram: ''
 tiktok: ''
+same_as:
+  - 'https://en.wikipedia.org/wiki/Asmongold'
+  - 'https://www.wikidata.org/wiki/Q104589878'
+  - 'https://www.imdb.com/name/nm10602552/'
+citations:
+  - 'https://en.wikipedia.org/wiki/Asmongold'
+  - 'https://www.dexerto.com/twitch/asmongold-balks-as-emiru-describes-his-mildew-odor-on-stream-2877650/'
+  - 'https://www.sportskeeda.com/us/streamers/news-asmongold-net-worth-2025'
+  - 'https://aftermath.site/asmongold-apology-palestine-hasan-piker-twitch-youtube'
+  - 'https://dotesports.com/streaming/news/who-is-asmongold-everything-to-know-about-twitch-mmo-king'
+  - 'https://www.mediamatters.org/asmongold/asmongold-one-largest-us-streamers-youtube-has-leveled-gaming-politics'
+faqs:
+  - question: "What is Asmongold's personality type?"
+    answer: "Asmongold (Zack Hoyt) is an Enneagram Type 5 (The Observer). The pattern shows in the reaction-content career that is observation monetized, the 13 years of squalor explained as preserving attention for the mind by neglecting the body that houses it, the 2014 decision to stay home as his mother's caregiver because a Five whose home life is stable can disappear into his own head for a decade, and the refusal to be captured by any political team — observation, not membership."
+    anchor: 'what-is-asmongolds-personality-type'
+  - question: 'Why did Asmongold live like an animal for 13 years?'
+    answer: "In his own 35-minute October 2024 video he traced the squalor back to high school. Buried in it: he had planned to end his life after high school, then World of Warcraft: Wrath of the Lich King launched in 2008 and he said he 'forgot.' The thirteen years didn't happen because he didn't care about his life — they happened because he put his life somewhere nobody could see it, where he could keep watching without being asked to participate. The body is what a Five lets go first."
+    anchor: 'why-asmongold-lived-like-an-animal-for-13-years'
+  - question: "How did Asmongold's mother dying change him?"
+    answer: "On October 7, 2021, his mother's oxygen tank exploded while she smoked near it. He pulled her from the fire. Twenty-two days later she died of COPD complications. The caregiving structure that had held his life together died with her — he had spent seven years building his public empire inside a single house with his mother in the next room. The house was already dirty; it got worse. The streams got longer. The panic attacks started."
+    anchor: 'the-fire-the-cupcakes-and-the-goodbye'
+  - question: "Why don't Asmongold's politics fit a clean left-right box?"
+    answer: "He supports UBI, a constitutional right to abortion, and a 60% capitalism / 40% socialism mix — and also places 'no weight on principles or morality,' which he calls 'top-down ideas given to you by the elites.' When Hasan Piker pressed him on Gaza, he stepped around the trap: 'I would be cheering it on… but I wouldn't be sitting on a soapbox saying that I'm the good guy.' That's not a political answer. It's a Five answering a question about the self while pretending to answer a question about Gaza. Fives refuse ideological capture."
+    anchor: 'why-asmongolds-politics-dont-fit-a-box'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

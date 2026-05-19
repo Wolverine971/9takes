@@ -15,9 +15,63 @@ type: ['creator', 'news-commentator']
 person: 'hasan-piker'
 suggestions: ['Taylor-Lorenz', 'Joe-Rogan', 'Alexandria-Ocasio-Cortez', 'Pokimane']
 wikipedia: 'https://en.wikipedia.org/wiki/Hasan_Piker'
+wikidata_qid: 'Q72219322'
+imdb_id: 'nm8573173'
+birth_date: '1991-07-25'
+birth_place: 'New Brunswick, New Jersey, United States'
+nationality:
+  - 'American'
+  - 'Turkish'
+occupation:
+  - 'Streamer'
+  - 'Political commentator'
+  - 'Journalist'
+knows_about:
+  - 'Twitch streaming'
+  - 'Democratic socialism'
+  - 'Anti-imperialist political commentary'
+  - 'Online community building'
+  - 'Disaster-relief fundraising'
+  - 'Leftist masculinity'
+keywords:
+  - 'Hasan Piker enneagram'
+  - 'Hasan Piker type 8'
+  - 'Hasan Piker personality'
+  - 'Hasan Piker 8w7'
+  - 'Challenger enneagram'
+  - 'HasanAbi Twitch'
+  - 'himbo gateway drug'
+  - 'Hasan Piker 9/11 quote'
 twitter: 'hasanthehun'
 instagram: 'hasand_'
 tiktok: 'hasanpiker'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Hasan_Piker'
+  - 'https://www.wikidata.org/wiki/Q72219322'
+  - 'https://www.imdb.com/name/nm8573173/'
+  - 'https://www.twitch.tv/hasanabi'
+citations:
+  - 'https://en.wikipedia.org/wiki/Hasan_Piker'
+  - 'https://en.wikipedia.org/wiki/Cenk_Uygur'
+  - 'https://en.wikipedia.org/wiki/The_Young_Turks'
+  - 'https://en.wikipedia.org/wiki/Sabanc%C4%B1_Holding'
+  - 'https://en.wikipedia.org/wiki/Twitch_(service)'
+faqs:
+  - question: "What is Hasan Piker's personality type?"
+    answer: "Hasan Piker is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in his refusal to fully walk back the 'America deserved 9/11' quote that got him banned from Twitch, the $2.74M Beverly Grove house he defended against the 'champagne socialist' charge, the on-air rupture with Ethan Klein over Israel-Gaza, his January 2026 doubling-down on 'Hamas is a thousand times better than the fascist settler colonial apartheid state,' and the 8-hour-a-day, 7-day-a-week stream cadence that uses compulsive output as armor."
+    anchor: 'what-is-hasan-pikers-personality-type'
+  - question: "How did Hasan Piker's upbringing in Turkey shape him?"
+    answer: "Hasan was born in New Jersey but moved to Istanbul as a toddler, where his father chose public school over elite private institutions to instill discipline. He was bullied for his weight, punished for questioning, and watched Erdoğan systematically consolidate power — including suing the political-satire cartoon newspapers he used to read. The wound is textbook Type 8 formation: if vulnerability gets you hurt, you hit first and hit harder. The anti-imperialist worldview was baked in from childhood."
+    anchor: 'the-making-of-a-challenger-hasans-formative-years'
+  - question: 'Why does Hasan Piker stream so much?'
+    answer: "Hasan has acknowledged being 'addicted to work, exercise, and healthy habits as ways to manage the stress from constant online attacks' — streaming 8+ hours daily, 7 days a week, while maintaining a one-to-two-hour daily workout. For a Type 8, this is the compulsive-activity pattern used to avoid sitting with difficult emotions. Keep moving, keep fighting, keep streaming. If you stop, the vulnerability catches up."
+    anchor: 'the-work-addiction'
+  - question: 'Why did Hasan Piker refuse to apologize for the 9/11 comment?'
+    answer: "When his uncle Cenk Uygur publicly called the joke 'crass and offensive,' Hasan called the comments 'inappropriate' and a 'poor attempt at satire,' then qualified: 'I didn't say Americans deserved 9/11. I said America deserves 9/11.' He later acknowledged: 'I apologized for this remark, but I still hold the sentiments behind it.' That minimal concession without surrendering the underlying position is the Type 8 signature — backing down under pressure feels worse than any consequence."
+    anchor: 'the-911-statement-2019'
+  - question: 'Is Hasan Piker the Joe Rogan of the left?'
+    answer: "Hasan is skeptical of the framing. He has told Democrats repeatedly that 'a Joe Rogan is not going to solve their problems. They need to change their policies.' His own self-description — 'gateway drug to empathy' — leans on the himbo aesthetic and strategic self-deprecation to disarm viewers who'd dismiss political content otherwise. The brand proves a single point: you can be a gym bro and a socialist, and the aesthetics of masculinity don't have to come with right-wing politics attached."
+    anchor: 'the-bro-left-dilemma'
 path: src/blog/people/drafts/Hasan-Piker.md
 content_quality:
   hook: 8

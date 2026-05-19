@@ -18,6 +18,59 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis'
 twitter: ''
 instagram: ''
 tiktok: ''
+wikidata_qid: 'Q165421'
+imdb_id: 'nm0448080'
+birth_date: '1929-07-28'
+birth_place: 'Southampton, New York, USA'
+nationality: 'American'
+occupation:
+  - 'First Lady of the United States'
+  - 'Book editor'
+  - 'Journalist'
+  - 'Historic preservationist'
+knows_about:
+  - 'White House restoration'
+  - 'Historic preservation'
+  - 'Book editing'
+  - 'French eighteenth-century literature'
+  - 'State funeral design'
+  - 'Camelot legacy framing'
+  - 'Image curation and press doctrine'
+keywords:
+  - 'Jackie Kennedy enneagram'
+  - 'Jackie Kennedy type 4'
+  - 'Jackie Kennedy personality'
+  - 'Jackie Kennedy 4w3'
+  - 'Individualist enneagram'
+  - 'Jackie Kennedy three lives'
+  - 'Jackie Kennedy pink suit'
+  - 'Jackie Kennedy Camelot'
+  - 'Jacqueline Kennedy Onassis personality analysis'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis'
+  - 'https://www.wikidata.org/wiki/Q165421'
+  - 'https://www.imdb.com/name/nm0448080/'
+  - 'https://www.jfklibrary.org/learn/about-jfk/the-kennedy-family/jacqueline-kennedy-onassis'
+  - 'https://www.britannica.com/biography/Jacqueline-Kennedy-Onassis'
+citations:
+  - 'https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis'
+  - 'https://www.jfklibrary.org/learn/about-jfk/the-kennedy-family/jacqueline-kennedy-onassis'
+  - 'https://en.wikipedia.org/wiki/Camelot_(musical)#Kennedy_administration'
+  - 'https://en.wikipedia.org/wiki/Pink_Chanel_suit_of_Jacqueline_Bouvier_Kennedy'
+  - 'https://en.wikipedia.org/wiki/Penn_Central_Transportation_Co._v._New_York_City'
+faqs:
+  - question: "What is Jackie Kennedy's personality type?"
+    answer: "Jackie Kennedy is an Enneagram Type 4 (The Individualist), specifically a 4w3 sometimes called 'The Aristocrat.' The pattern shows in her explicit 'I have three lives. Public, private, and secret' self-description, her refusal to keep a diary ('I want to live my life, not record it'), the White House restoration she insisted was scholarship not decoration, the Camelot myth she dictated to Theodore H. White within a week of Dallas, and the pink Chanel suit she sealed in a vault until 2103."
+    anchor: 'what-is-jackie-kennedys-personality-type'
+  - question: 'Why did Jackie Kennedy refuse to change out of the bloody pink suit?'
+    answer: "After JFK was shot in Dallas on November 22, 1963, Jackie wore the bloodstained pink Chanel-style suit through the swearing-in of Lyndon Johnson and back to Washington. According to witnesses she said, 'I want them to see what they have done to Jack.' For the most curated woman in America to deliberately refuse curation that day was aesthetic control in reverse — the surface as accusation. The suit has never been cleaned and is sealed in a National Archives vault until at least 2103."
+    anchor: 'the-pink-suit-she-refused-to-change'
+  - question: 'Why did Jackie Kennedy marry Aristotle Onassis?'
+    answer: "Five years after Dallas and four months after Bobby Kennedy's assassination, Jackie married Greek shipping magnate Aristotle Onassis in October 1968. Biographers like Barbara Leaming frame it as retreat, not romance — Onassis offered a private island, a 325-foot yacht, and the round-the-clock security her first husband's government had failed to provide. He was a wall, a fortress of distance from a country she no longer trusted to keep her children alive."
+    anchor: 'why-jackie-kennedy-married-aristotle-onassis'
+  - question: 'What did Jackie Kennedy do after the White House?'
+    answer: "Starting in September 1975, Jackie spent nineteen years as a book editor — first at Viking, then at Doubleday — earning $200 a week at first and eventually around $100,000 a year. She edited Naguib Mahfouz's Cairo Trilogy, Gelsey Kirkland's memoir, Carly Simon's autobiography, and Michael Jackson's bestseller Moonwalk. She also helped lead the 1975–78 fight that saved Grand Central Terminal from a fifty-nine-story tower, winning at the Supreme Court in Penn Central v. New York City."
+    anchor: 'the-secret-life-of-jackie-kennedy-book-editor'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
