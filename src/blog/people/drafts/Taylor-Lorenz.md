@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/taylor-lorenz'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['journalist', 'creator', 'news-commentator']
 person: 'taylor-lorenz'

@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/jacob-elordi'
 lastmod: '2026-02-13'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'jacob-elordi'

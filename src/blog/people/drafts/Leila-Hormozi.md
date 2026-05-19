@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/leila-hormozi'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['business', 'business-operator']
 person: 'leila-hormozi'

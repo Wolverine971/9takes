@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/gavin-newsom'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['politician', 'campaign-politician']
 person: 'gavin-newsom'

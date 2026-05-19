@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/leonardo-dicaprio'
 lastmod: '2026-02-17'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['movieStar', 'screen-icon']
 person: 'leonardo-dicaprio'

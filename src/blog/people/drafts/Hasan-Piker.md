@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/hasan-piker'
 lastmod: '2026-01-26'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '8'
 type: ['creator', 'news-commentator']
 person: 'hasan-piker'

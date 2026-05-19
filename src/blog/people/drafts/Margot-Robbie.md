@@ -8,7 +8,7 @@ loc: 'https://9takes.com/personality-analysis/margot-robbie'
 lastmod: '2026-02-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['movieStar', 'screen-icon']
 person: 'margot-robbie'

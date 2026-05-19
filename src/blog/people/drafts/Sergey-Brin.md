@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/sergey-brin'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type: ['techie', 'entrepreneur', 'business-operator']
 person: 'sergey-brin'

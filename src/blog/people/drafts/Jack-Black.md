@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/jack-black'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['celebrity', 'comedian', 'musician', 'tv-comedy-crossover', 'music-crossover', 'sketch-comic']
 person: 'jack-black'

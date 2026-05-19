@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/andrew-callaghan'
 lastmod: '2026-02-17'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['journalist', 'creator', 'news-commentator']
 person: 'andrew-callaghan'

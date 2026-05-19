@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/shane-gillis'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['comedian', 'stand-up']
 person: 'shane-gillis'

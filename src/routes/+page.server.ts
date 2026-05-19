@@ -73,6 +73,17 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	// Pick one random person from each type's recent 6
 	for (let type = 1; type <= 9; type++) {
+		if (type === 3) {
+			typeRepresentatives.push({
+				name: 'alex-hormozi',
+				type: 3,
+				hasImage: true,
+				hasLink: true,
+				personaTitle: 'The Acquisition Architect'
+			});
+			continue;
+		}
+
 		const typeKey = String(type);
 		const group = peopleByType.get(typeKey) || [];
 		if (group.length > 0) {
@@ -87,6 +98,14 @@ export const load: PageServerLoad = async ({ locals }) => {
 			});
 		}
 	}
+
+	typeRepresentatives.push({
+		name: 'leila-hormozi',
+		type: 3,
+		hasImage: true,
+		hasLink: true,
+		personaTitle: "Business's Worthiness Machine"
+	});
 
 	const homepageCorpusStats: HomepageCorpusStats = {
 		published: corpusStats.totals.published,

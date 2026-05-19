@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/lex-fridman'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['creator', 'techie', 'podcaster', 'tech-interpreter']
 person: 'lex-fridman'

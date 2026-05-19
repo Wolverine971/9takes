@@ -8,7 +8,7 @@ loc: 'https://9takes.com/personality-analysis/princess-diana'
 lastmod: '2025-12-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['historical', 'politician', 'royalty']
 person: 'princess-diana'

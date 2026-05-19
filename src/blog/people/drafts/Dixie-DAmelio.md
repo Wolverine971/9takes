@@ -9,7 +9,7 @@ loc: "https://9takes.com/personality-analysis/dixie-d'Amelio"
 lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['tiktoker', 'lifestyle-builder']
 person: "dixie-d'Amelio"

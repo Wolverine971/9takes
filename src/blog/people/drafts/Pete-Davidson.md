@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/pete-davidson'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['celebrity', 'comedian', 'tv-comedy-crossover', 'sketch-comic']
 person: 'pete-davidson'

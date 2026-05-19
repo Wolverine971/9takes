@@ -161,25 +161,23 @@ If you're sending cold to all 12, consider a parallel IG/X DM track for Hormozi,
 
 Hi Chris,
 
-I've followed you for years and watched a many of your long-form interviews end to end and I did a personality analysis on you that I would love you to read.
+I've followed you for years and watched many of your long-form interviews end to end. I did a personality analysis on you that I would love you to read.
 
-https://9takes.com/personality-analysis/chris-williamson
+https://9takes.com/personality-analysis/Chris-Williamson
 
-I hope you read it because you seem to be genuinly curious and it shows in how you interact with everyone you interview. You ask the same thought-provoking questions I would. You're obviously smart, and I learn from listening to your podcasts.
+I hope you read it because you seem to be genuinely curious, and it shows in how you interact with everyone you interview. You ask the same thought-provoking questions I would. You're obviously smart, and I learn from listening to your podcasts.
 
-As for me I am DJ, and I run 9takes.com and I do long-form personality analyses of public figures. I just published a 5,000-word personality analysis on you, and wanted to tell you directly rather than hope it found you.
+As for me, I am DJ. I run 9takes.com and do long-form personality analyses of public figures. I just published a 5,000-word piece on you and wanted to tell you directly rather than hope it found you.
 
-Here's is why i write these analysises: people are always analyzing public figures, dissecting the things they like and don't like but the thing is they usually arent patient enough and observant enough to get the full picture. I try to be the one who is patient and observant and I try to dig into what most people miss.
+Here's why I write these: people are always analyzing public figures, dissecting the things they like and don't like, but they usually aren't patient enough or observant enough to get the full picture. I try to be the one who is. I dig into what most people miss because I think people can actually learn from it. It helps us understand ourselves and others, and I just want to do a good job.
 
-I do these analysises because people can learn from it. It helps us understand ourselves and others and I just want to do a good job.
-
-Long-form podcasts like yours take the time to dive into these details and I love it. And I hope you appreciate the analysis I put into your profile. 
+Long-form podcasts like yours take the time to dive into these details, and I love that. I hope you appreciate the analysis I put into your profile.
 
 So the piece is an argument, not a verdict. The core claim: you're a particular kind of driven, the kind whose ambition has always been matched by something quieter and more sensitive underneath. The cheese and the cat have been pulling the same direction since the Coriolis moment.
 
-If any of it is wrong, the correction matters more than the piece itself. I want to treat this with the same sensitivity that you'd treat a wrong claim in a guest's argument. If any of it is useful, take it. No ask attached.
+If any of it is wrong, the correction matters more than the piece itself. I want to treat this with the same sensitivity you'd give a wrong claim in a guest's argument. If any of it is useful, take it. No ask attached.
 
-And for context, I've also written these analysises on Jordan Peterson, Andrew Huberman, and Steven Bartlett and a bunch others.
+And for context, I've also written these on Jordan Peterson, Andrew Huberman, and Steven Bartlett, and a bunch of others.
 
 Best,
 DJ Wayne
@@ -242,23 +240,47 @@ DJ
 - `The Tony Robbins moment` _(23 chars, signature scene; proves you saw the engine admission with the one person three decades further down the road, not the surface acquisition.com stuff)_
 - `Alex — wrote a long read on you` _(31 chars, status-neutral journalistic fallback; also works as the lead-in line for the `@hormozi` IG DM compressed version)_
 
-**Body (4-layer template, send this):**
+**Body V1 (original — 4-layer template):**
 
 Hi Alex,
 
-I've been reading and watching your content for years. The willingness to publicly correct yourself when you've been wrong, the discipline of putting the framework before the brand, the way you stress-test claims by trying them in volume — those have shaped how I think about my own work.
-
-I run 9takes.com — long-form personality analyses of public figures. I just published a 5,000-word piece on you, and wanted to tell you directly rather than hope it found you.
-
-Here's the thinking: people are always trying to understand themselves and the public figures they spend hours with — that's just being human. The question is whether that understanding gets written down in a way the subject can engage with, or whether it stays in podcasts and group chats. Long-form content like yours changed how ideas get tested in public; personality writing hasn't caught up. I'm trying to do the long-form version — the kind of read worth pushing back on, instead of one you can't reach the writer of.
-
-So the piece is an argument, not a verdict. The core claim: you're a particular kind of relentless — the cleanest version of the build-and-acquire engine, with a directness underneath that refuses to let the scoreboard get fuzzy. Duty, not delight — said in the one room where someone three decades further down the road might understand.
+I've caught a lot of your clips and recently listened to $100M Offers. So here's me applying it: a 5,000-word personality analysis on you that I would love you to read. No ask attached.
 
 https://9takes.com/personality-analysis/Alex-Hormozi
 
-If any of it is wrong, I want to hear what — same way you'd want to be told you're wrong about a pricing claim. Your correction is more valuable to me than the piece landing right.
+What I respect most is the give-it-away strategy. Most people hoard their best stuff. You give yours away, and that's why people trust you when you do sell something.
 
-For context, I've also written on Williamson, Peterson, and Bartlett — same long-form discipline.
+I'm DJ. I run 9takes.com. The piece is an argument, not a verdict — you're the cleanest version of the build-and-acquire engine, with a directness underneath that refuses to let the scoreboard get fuzzy. Duty, not delight.
+
+If any of it is wrong, I want to hear what.
+
+Also written on Williamson, Peterson, Bartlett.
+
+Best,
+DJ Wayne
+9takes.com
+
+P.S. Reply "no thanks" if you'd rather I stop.
+
+---
+
+**Body V2 (revised 2026-05-18 — adds Leila, kills "love you to read" supplication, sharpens thesis, anchors Tony Robbins scene):**
+
+> _Changes from V1:_ (1) "would love you to read" → "wanted to tell you directly rather than hope it found you" (matches inevitability-voice rule, kills the only supplication tell). (2) "cleanest version" → "most uncompromising version" (3w8 register — he's been called clean before, never refuses-the-brakes). (3) "Duty, not delight." → "The Tony Robbins admission — duty, not delight." (anchors the phrase to the scene that birthed it, so the recognition payoff doubles). (4) Network proof line: Leila promoted to her own sentence ahead of the male-podcaster list — signals you read her as load-bearing, not accessory, mirrors his own "yin to my yang" framing.
+
+Hi Alex,
+
+I've caught a lot of your clips and recently listened to $100M Offers. So here's me applying it: a 5,000-word personality analysis on you. Wanted to tell you directly rather than hope it found you. No ask attached.
+
+https://9takes.com/personality-analysis/Alex-Hormozi
+
+What I respect most is the give-it-away strategy. Most people hoard their best stuff. You give yours away, and that's why people trust you when you do sell something.
+
+I'm DJ. I run 9takes.com. The piece is an argument, not a verdict — you're the most uncompromising version of the build-and-acquire engine, with a directness underneath that refuses to let the scoreboard get fuzzy. The Tony Robbins admission — duty, not delight.
+
+If any of it is wrong, I want to hear what.
+
+Also wrote on Leila. Plus Williamson, Peterson, Bartlett.
 
 Best,
 DJ Wayne

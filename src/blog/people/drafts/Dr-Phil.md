@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/dr-phil'
 lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['other']
 person: 'dr-phil'

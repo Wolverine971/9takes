@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/chris-hemsworth'
 lastmod: '2026-03-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['movieStar', 'screen-icon']
 person: 'chris-hemsworth'

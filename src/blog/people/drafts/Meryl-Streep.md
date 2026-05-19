@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/meryl-streep'
 lastmod: '2026-03-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['movieStar', 'screen-icon']
 person: 'meryl-streep'

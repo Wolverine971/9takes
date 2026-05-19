@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/dolly-parton'
 lastmod: '2026-02-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['musician', 'creator', 'singer-songwriter']
 person: 'dolly-parton'

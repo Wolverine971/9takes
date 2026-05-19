@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/miley-cyrus'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician', 'pop-star']
 person: 'miley-cyrus'

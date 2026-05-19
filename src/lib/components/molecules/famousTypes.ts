@@ -410,7 +410,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'dr-phil', link: true, hasImage: true, lastmod: '2026-03-29', personaTitle: 'Television\'s Tough-Love Patriarch', contentGrade: 8.8, types: ['other'] },
 		{ name: 'druski', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Comedy\'s Self-Appointed CEO', contentGrade: 8.4, types: ['comedian', 'creator', 'viral-entertainer', 'internet-comic'] },
 		{ name: 'emily-ratajkowski', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'The Intellectual Provocateur', contentGrade: 9, types: ['celebrity', 'celebrity-image'] },
-		{ name: 'ernest-hemingway', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Literature\'s Armored Iceberg', contentGrade: 9, types: ['historical', 'author', 'historical-artist'] },
+		{ name: 'ernest-hemingway', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Literature\'s Armored Iceberg', contentGrade: 9, types: ['historical', 'author', 'historical-artist'] },
 		{ name: 'halsey', link: true, hasImage: true, lastmod: '2026-03-15', personaTitle: 'Pop\'s Armored Heart', contentGrade: 8.9, types: ['musician', 'alternative-artist'] },
 		{ name: 'hasan-piker', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Twitch\'s Political Firebrand', contentGrade: 8, types: ['creator', 'news-commentator'] },
 		{ name: 'ilona-maher', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Rugby\'s Unapologetic Bodyguard', contentGrade: null, types: ['celebrity', 'influencer', 'celebrity-image', 'lifestyle-builder'] },

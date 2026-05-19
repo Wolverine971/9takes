@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/gwyneth-paltrow'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['lifestyleInfluencer', 'lifestyle-builder']
 person: 'gwyneth-paltrow'

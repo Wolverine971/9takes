@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/rooney-mara'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['movieStar', 'screen-icon']
 person: 'rooney-mara'

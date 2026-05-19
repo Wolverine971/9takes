@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/andrew-tate'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['creator', 'athlete', 'business-creator']
 person: 'andrew-tate'

@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/joseph-stalin'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['historical', 'politician', 'historical-leader']
 person: 'joseph-stalin'

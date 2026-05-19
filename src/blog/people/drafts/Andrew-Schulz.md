@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/andrew-schulz'
 lastmod: '2026-01-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['comedian', 'stand-up']
 person: 'andrew-schulz'

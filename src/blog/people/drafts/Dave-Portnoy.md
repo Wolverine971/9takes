@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/dave-portnoy'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['creator', 'viral-entertainer']
 person: 'dave-portnoy'

@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/tim-cook'
 lastmod: '2026-04-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['techie', 'big-tech-founder']
 person: 'tim-cook'

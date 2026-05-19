@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/emma-chamberlain'
 lastmod: '2026-04-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['creator', 'lifestyleInfluencer', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'emma-chamberlain'

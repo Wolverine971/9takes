@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/reed-hastings'
 lastmod: '2026-02-20'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['techie', 'big-tech-founder']
 person: 'reed-hastings'

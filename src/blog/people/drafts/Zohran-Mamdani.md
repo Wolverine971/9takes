@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/zohran-mamdani'
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['politician', 'campaign-politician']
 person: 'zohran-mamdani'

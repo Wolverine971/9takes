@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/beyonce-knowles'
 lastmod: '2026-03-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['musician', 'pop-star']
 person: 'beyonce-knowles'

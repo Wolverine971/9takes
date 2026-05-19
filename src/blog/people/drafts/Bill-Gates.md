@@ -8,7 +8,7 @@ loc: 'https://9takes.com/personality-analysis/bill-gates'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type: ['techie', 'big-tech-founder']
 person: 'bill-gates'

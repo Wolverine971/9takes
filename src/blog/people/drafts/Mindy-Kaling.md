@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/mindy-kaling'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['celebrity', 'comedian', 'tv-comedy-crossover', 'sketch-comic']
 person: 'mindy-kaling'

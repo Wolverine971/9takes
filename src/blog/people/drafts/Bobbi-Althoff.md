@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/bobbi-althoff'
 lastmod: '2025-12-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['creator', 'lifestyle-builder']
 person: 'bobbi-althoff'

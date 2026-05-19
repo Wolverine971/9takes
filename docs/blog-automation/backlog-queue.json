@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-05-18T00:00:00Z",
+	"lastUpdated": "2026-05-19T02:16:24Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
@@ -44,19 +44,6 @@
 			"addedToQueue": "2026-05-06",
 			"retryCount": 0,
 			"strategicValue": "viral-beauty-list-model-cluster"
-		},
-		{
-			"name": "yuval-noah-harari",
-			"displayName": "Yuval Noah Harari",
-			"type": 5,
-			"priority": 76,
-			"priorityReason": "Fills Type 5 gap, Sapiens search volume, intellectual audience crossover",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "fills-type-5-gap"
 		},
 		{
 			"name": "lizzo",
@@ -840,7 +827,20 @@
 			"needsReview": false
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "yuval-noah-harari",
+		"displayName": "Yuval Noah Harari",
+		"type": 5,
+		"priority": 76,
+		"priorityReason": "Fills Type 5 gap, Sapiens search volume, intellectual audience crossover",
+		"estimatedTraffic": "medium",
+		"searchVolume": "medium",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-03",
+		"retryCount": 0,
+		"strategicValue": "fills-type-5-gap",
+		"startedAt": "2026-05-19T02:16:24Z"
+	},
 	"skipped": [
 		{
 			"name": "anna-wintour",

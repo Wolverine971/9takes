@@ -8,7 +8,7 @@ loc: 'https://9takes.com/personality-analysis/amy-poehler'
 lastmod: '2026-01-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['comedian', 'celebrity', 'movieStar', 'tv-comedy-crossover', 'sketch-comic']
 person: 'amy-poehler'

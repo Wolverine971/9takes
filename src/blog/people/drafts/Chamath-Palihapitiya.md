@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/chamath-palihapitiya'
 lastmod: '2026-04-02'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['techie', 'investor']
 person: 'chamath-palihapitiya'

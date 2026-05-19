@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/tom-holland'
 lastmod: '2026-03-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['newMovieStar', 'rising-star']
 person: 'tom-holland'

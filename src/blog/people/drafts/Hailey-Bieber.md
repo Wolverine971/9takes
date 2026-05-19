@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/hailey-bieber'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['lifestyleInfluencer', 'lifestyle-builder']
 person: 'hailey-bieber'

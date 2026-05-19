@@ -4,12 +4,12 @@ persona_title: "Literature's Armored Iceberg"
 meta_title: "Why Ernest Hemingway Couldn't Stop Performing Manhood"
 description: "Why couldn't Ernest Hemingway stop performing manhood? The Type 8 pattern behind the persona, the iceberg, the four wives, and the shotgun he inherited."
 author: 'DJ Wayne'
-date: '2026-05-06'
+date: '2026-05-19'
 loc: 'https://9takes.com/personality-analysis/ernest-hemingway'
-lastmod: '2026-05-06'
+lastmod: '2026-05-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['historical', 'author', 'historical-artist']
 person: 'ernest-hemingway'

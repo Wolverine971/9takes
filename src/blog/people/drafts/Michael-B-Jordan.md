@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/michael-b-jordan'
 lastmod: '2026-02-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['newMovieStar', 'rising-star']
 person: 'michael-b-jordan'

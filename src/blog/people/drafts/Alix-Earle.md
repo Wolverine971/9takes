@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/alix-earle'
 lastmod: '2026-05-14'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['influencer', 'creator', 'lifestyle-builder']
 person: 'alix-earle'

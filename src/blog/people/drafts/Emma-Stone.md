@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/emma-stone'
 lastmod: '2026-03-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'emma-stone'

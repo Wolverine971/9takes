@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/bella-poarch'
 lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['creator', 'tiktoker', 'lifestyle-builder']
 person: 'bella-poarch'

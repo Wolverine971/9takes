@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/zoe-kravitz'
 lastmod: '2026-03-24'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['movieStar', 'screen-icon']
 person: 'zoe-kravitz'

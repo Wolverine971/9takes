@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/lana-del-rey'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician']
 person: 'lana-del-rey'

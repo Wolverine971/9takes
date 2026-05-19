@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/keanu-reeves'
 lastmod: '2026-04-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['movieStar', 'screen-icon']
 person: 'keanu-reeves'

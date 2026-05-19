@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/stephen-colbert'
 lastmod: '2026-03-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host']
 person: 'stephen-colbert'

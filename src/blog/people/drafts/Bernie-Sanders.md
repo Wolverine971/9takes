@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/bernie-sanders'
 lastmod: '2026-04-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['politician', 'campaign-politician']
 person: 'bernie-sanders'

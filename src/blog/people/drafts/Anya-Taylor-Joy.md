@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/anya-taylor-joy'
 lastmod: '2026-03-21'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['newMovieStar', 'rising-star']
 person: 'anya-taylor-joy'

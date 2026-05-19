@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/doja-cat'
 lastmod: '2026-01-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['musician', 'rapper']
 person: 'doja-cat'

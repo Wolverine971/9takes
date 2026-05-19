@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/rihanna'
 lastmod: '2026-01-26'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '8'
 type: ['musician', 'pop-star']
 person: 'rihanna'

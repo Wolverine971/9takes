@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/sarah-j-maas'
 lastmod: '2026-03-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['author', 'novelist']
 person: 'sarah-j-maas'

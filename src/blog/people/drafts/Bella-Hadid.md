@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/bella-hadid'
 lastmod: '2026-04-30'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['lifestyleInfluencer', 'lifestyle-builder']
 person: 'bella-hadid'

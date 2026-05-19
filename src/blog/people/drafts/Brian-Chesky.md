@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/brian-chesky'
 lastmod: '2026-05-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['techie', 'entrepreneur', 'business-operator']
 person: 'brian-chesky'

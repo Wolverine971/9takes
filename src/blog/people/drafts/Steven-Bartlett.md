@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/steven-bartlett'
 lastmod: '2026-05-11'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['entrepreneur', 'creator', 'business-creator', 'business-operator']
 person: 'steven-bartlett'

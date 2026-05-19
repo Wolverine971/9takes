@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/tim-dillon'
 lastmod: '2026-04-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['comedian', 'stand-up']
 person: 'tim-dillon'

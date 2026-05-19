@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/jake-paul'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['creator', 'viral-entertainer']
 person: 'jake-paul'

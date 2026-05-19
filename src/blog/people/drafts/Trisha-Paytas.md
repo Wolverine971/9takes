@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/trisha-paytas'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['creator', 'celebrity', 'celebrity-image', 'viral-entertainer']
 person: 'trisha-paytas'

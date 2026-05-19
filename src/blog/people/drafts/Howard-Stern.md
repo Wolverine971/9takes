@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/howard-stern'
 lastmod: '2026-03-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['celebrity', 'tv-comedy-crossover']
 person: 'howard-stern'

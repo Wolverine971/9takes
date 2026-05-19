@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/pewdiepie'
 lastmod: '2026-03-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['creator', 'viral-entertainer']
 person: 'pewdiepie'

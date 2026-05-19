@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/shawn-ryan'
 lastmod: '2026-02-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['creator', 'podcaster']
 person: 'shawn-ryan'

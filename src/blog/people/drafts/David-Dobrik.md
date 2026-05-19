@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/david-dobrik'
 lastmod: '2026-04-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['creator', 'viral-entertainer']
 person: 'david-dobrik'

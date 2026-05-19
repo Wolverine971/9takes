@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/kara-swisher'
 lastmod: '2026-04-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['techie', 'author', 'tech-interpreter', 'business-interpreter']
 person: 'kara-swisher'

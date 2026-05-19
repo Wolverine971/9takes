@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/ryan-reynolds'
 lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['movieStar', 'entrepreneur', 'screen-icon', 'business-operator']
 person: 'ryan-reynolds'

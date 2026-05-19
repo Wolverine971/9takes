@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/chris-williamson'
 lastmod: '2026-02-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['creator', 'podcaster']
 person: 'chris-williamson'

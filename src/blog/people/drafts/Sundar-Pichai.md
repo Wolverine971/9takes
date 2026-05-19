@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/sundar-pichai'
 lastmod: '2026-02-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['techie', 'big-tech-founder']
 person: 'sundar-pichai'

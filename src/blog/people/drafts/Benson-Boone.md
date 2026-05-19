@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/benson-boone'
 lastmod: '2026-04-08'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['musician', 'singer-songwriter']
 person: 'benson-boone'

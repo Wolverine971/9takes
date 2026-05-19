@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/jackie-kennedy'
 lastmod: '2026-04-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['historical', 'celebrity', 'celebrity-image', 'political-spouse']
 person: 'jackie-kennedy'

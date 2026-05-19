@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/tara-yummy'
 lastmod: '2026-02-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['creator', 'influencer', 'lifestyle-builder']
 person: 'tara-yummy'

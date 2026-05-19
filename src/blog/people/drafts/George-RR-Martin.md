@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/george-rr-martin'
 lastmod: '2025-12-21'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['author', 'novelist']
 person: 'george-rr-martin'

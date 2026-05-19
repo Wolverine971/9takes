@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/ali-abdaal'
 lastmod: '2026-02-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['creator', 'business-creator']
 person: 'ali-abdaal'

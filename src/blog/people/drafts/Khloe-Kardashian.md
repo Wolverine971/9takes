@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/khloe-kardashian'
 lastmod: '2026-04-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 2
 type: ['celebrity', 'celebrity-image']
 person: 'khloe-kardashian'

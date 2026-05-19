@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/gigi-hadid'
 lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder']
 person: 'gigi-hadid'
