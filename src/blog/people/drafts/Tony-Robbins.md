@@ -54,6 +54,10 @@ citations:
   - 'https://www.linkedin.com/pulse/tony-robbins-pre-talk-ritual-crazy-nancy-duarte'
   - 'https://www.capitalism.com/tony-robbins/'
   - 'https://singjupost.com/diary-of-a-ceo-w-tony-robbins-on-suffering-strangers-and-service-transcript/'
+  - 'https://www.huffpost.com/entry/tony-robbins-first-marriage-divorce_n_57e30ae9e4b0e28b2b522608'
+  - 'https://riabiz.com/a/2019/5/24/exclusive-creative-plannings-split-with-tony-robbins-was-in-the-works-well-before-self-help-gurus-sexual-misconduct-allegations-says-peter-mallouk'
+  - 'https://about.netflix.com/en/news/netflix-premieres-new-joe-berlinger-documentary-tony-robbins-i-am-not-your-guru-exclusively-to-members-worldwide-on-july-15'
+  - 'https://sports.jrank.org/pages/39/Agassi-Andre-New-Coach-New-Triumphs.html'
 faqs:
   - question: 'What is Tony Robbins'' Personality Type?'
     answer: 'Type 3s sit in the heart triad. Their core emotion isn''t anger. It isn''t fear.'
@@ -127,13 +131,15 @@ It's **shame**.
 
 The belief that who you are, stripped of achievement, performance, and reputation, is not enough. That love must be earned. That if you stop producing, you disappear.
 
-For Tony Robbins, that belief wasn't psychology. It was the first thing he learned.
+More specifically, Robbins reads as a **3w2** — the Achiever with a wing toward the Helper, sometimes called The Star. Where a 3w4 turns inward and broods, a 3w2 turns outward and serves. The image being managed isn't aloof competence; it's warm, magnetic, can-I-help-you competence. The achievement and the giving are not separate strategies. They're the same strategy.
+
+For Tony Robbins, this isn't psychology. It was the first thing he learned.
 
 ## The Wound That Created a Giant
 
-Anthony J. Mahavorick was born on February 29, 1960, in Glendora, California. A leap-year birthday. A boy who technically existed one year in four.
+Anthony J. Mahavorick was born on February 29, 1960, in North Hollywood, California. A leap-year birthday. A boy who technically existed one year in four.
 
-His mother drank. In a [2026 conversation with Steven Bartlett](https://singjupost.com/diary-of-a-ceo-w-tony-robbins-on-suffering-strangers-and-service-transcript/), Robbins described what that meant: "We never had any money. We were very, very poor... under that stress, she drank alcohol and took prescription drugs. And when she did that, she became very violent."
+His mother drank. In a [January 2026 conversation with Steven Bartlett](https://singjupost.com/diary-of-a-ceo-w-tony-robbins-on-suffering-strangers-and-service-transcript/), Robbins described what that meant: "We never had any money. We were very, very poor... under that stress, she drank alcohol and took prescription drugs. And when she did that, she became very violent."
 
 The violence was specific. She held his mouth open and poured liquid dish soap down his throat until he vomited. She beat his head against a wall until it bled. By adolescence, he'd had four different fathers: his biological father left when he was seven, a man named Jim Robbins adopted him at twelve, and others rotated through after that. Each new marriage was another lesson: stability does not last.
 
@@ -177,9 +183,9 @@ He refused.
 
 The tumor eventually stabilized. But it had already done its work. It made him a physical giant. The 6'7" frame, the enormous hands, the commanding presence that fills stadiums. None of it was built in a gym. It was a medical condition.
 
-Tony Robbins turned a pituitary tumor into a brand.
+Tony Robbins didn't hide the tumor. He made it the message.
 
-This is what Threes do. They don't just cope with circumstance; they _perform_ it. What might have been a medical vulnerability became the foundation of the most recognizable physical presence in self-help. The body became the message: _I am larger than my problems, and you can be too._
+This is what Threes do. They don't just cope with circumstance; they _perform_ it. What might have been a medical vulnerability became the foundation of the most recognizable physical presence in self-help. He'll tell you so himself, with gratitude — without the tumor, no 6'7" frame, no stadium-filling presence. The body became the message: _I am larger than my problems, and you can be too._
 
 ## The Method: Performance as System
 
@@ -193,7 +199,7 @@ In 2002, he partnered with Cloé Madanes, a pioneering family therapist and dire
 
 Robbins' signature move is pulling someone from an audience of thousands and making a breakthrough in real time. The most documented example: tennis legend Andre Agassi.
 
-When Agassi first worked with Robbins, he had fallen from world number one and was ranked outside the top 25, frustrated, injured, and close to quitting. In a session, Robbins [later described on the Tim Ferriss podcast](https://www.tonyrobbins.com/podcasts/secrets-of-peak-performance), he sat Agassi down and said: _"Think of a time you hit the tennis ball perfectly."_
+When Agassi first worked with Robbins, his ranking had collapsed to [#141 in November 1997](https://sports.jrank.org/pages/39/Agassi-Andre-New-Coach-New-Triumphs.html) — a stunning fall from the top of the sport. He was frustrated, injured, and close to quitting. In a session Robbins [later described on the Tim Ferriss podcast](https://www.tonyrobbins.com/podcasts/secrets-of-peak-performance), he sat Agassi down and said: _"Think of a time you hit the tennis ball perfectly."_
 
 He got Agassi into that peak state. Then he asked: _"Are you thinking about your wrist?"_
 
@@ -201,9 +207,17 @@ Agassi said no.
 
 _"How the hell did you think you'd ever get back to peak form by focusing on your wrist?"_
 
-Within four months, Agassi was back to number one. He went on to win multiple Grand Slams and called Robbins the "ultimate life coach."
+Agassi began climbing within months. He returned to the top 10 the following year, completed a career Grand Slam in 1999, and reclaimed world #1. He has called Robbins "the ultimate life coach."
 
 This is the method in action: identify peak states, anchor them, create triggers, and install new patterns. Neuro-Linguistic Programming scaled to stadium size. The performance **is** the therapy.
+
+### I Am Not Your Guru
+
+The most public artifact of the method is Joe Berlinger's 2016 Netflix documentary, [_Tony Robbins: I Am Not Your Guru_](https://about.netflix.com/en/news/netflix-premieres-new-joe-berlinger-documentary-tony-robbins-i-am-not-your-guru-exclusively-to-members-worldwide-on-july-15). Berlinger — known for dark documentaries about serial killers — attended Date With Destiny himself, was personally moved, and asked to film the next one. Robbins agreed. Cameras rolled at the six-day seminar in Boca Raton in December 2014.
+
+The film opens with Robbins standing across from a young Swiss man named Hans, suicidal, in front of 2,500 people. Tony swears at him. Confronts him. Anchors a new state. Then the room rises and lifts Hans overhead, crowd-surfing him as Snow Patrol's "Run" swells. Later in the film, a woman named Dawn — raised in the cult Children of God and sexually abused from age six — works through her own breakthrough.
+
+Critics call it edited theater. Robbins doesn't disagree about the editing. He'd tell you the experience was real because the participant experienced it. That's the Three's epistemology in a single frame: _if the result holds, the method is justified._
 
 ## Why Not Type 8?
 
@@ -241,13 +255,13 @@ But when a real crisis arrives, the unhealthy Three pattern surfaces.
 
 ### The BuzzFeed Crisis
 
-In 2019, BuzzFeed News published allegations of sexual misconduct against Robbins. His response followed a textbook Three stress sequence: denial, litigation, then image reconstruction through achievement.
+In 2019, BuzzFeed News published allegations of sexual misconduct against Robbins. He denied them categorically and sued BuzzFeed for defamation; the dispute moved through litigation for years.
 
-Publisher Simon & Schuster dropped his book. His business partner, Peter Mallouk, ended their professional association. For a man whose identity is built on institutional validation, losing those relationships was existential.
+The institutional fallout came regardless of legal outcome. Simon & Schuster shelved his upcoming book. Peter Mallouk exited their three-year partnership at Creative Planning. Mallouk later [told RIABiz](https://riabiz.com/a/2019/5/24/exclusive-creative-plannings-split-with-tony-robbins-was-in-the-works-well-before-self-help-gurus-sexual-misconduct-allegations-says-peter-mallouk) the split had been negotiated for six months before the story broke, was mutual, and was driven by a strategic shift toward M&A. The timing made it look like consequence. For a man whose identity is built on institutional validation, the optics were the same.
 
-Then came a [study from Stanford's Snyder Lab](https://pmc.ncbi.nlm.nih.gov/articles/PMC9107501/) reporting decreases in depression and anxiety among seminar attendees, though [some Stanford colleagues questioned the methodology](https://www.sfchronicle.com/bayarea/article/stanford-tony-robbins-science-19742532.php). For Robbins, the study served a purpose beyond science: academic validation to rebuild the damaged image.
+Then came a [study from Stanford's Snyder Lab](https://pmc.ncbi.nlm.nih.gov/articles/PMC9107501/) reporting decreases in depression and anxiety among seminar attendees, though [some Stanford colleagues questioned the methodology](https://www.sfchronicle.com/bayarea/article/stanford-tony-robbins-science-19742532.php). Whatever the science showed, the study served another purpose: institutional reinforcement of a story under attack.
 
-_Deny. Litigate. Achieve something new. Rebuild._ This is how an unhealthy Three processes threat, not by confronting the pain, but by performing past it.
+_Deny. Litigate. Rebuild._ Whatever the truth of any single allegation, the response is the muscle a Three reaches for whenever the image is threatened. The denial is real. The litigation is real. The rebuilding is real. For a Three, all three happen in parallel — because the image is not a defense of the self. It IS the self.
 
 ### The #MeToo Comments
 
@@ -291,9 +305,23 @@ The goal now: the next billion, by 2035.
 
 **This is what Type 3 integration looks like.** When Threes grow, they move toward [Type 6](/enneagram-corner/enneagram-type-6), building loyal systems, creating infrastructure, committing to something beyond personal achievement. The feeding program isn't a vanity project. It's a systems-level response to a childhood wound: infrastructure where there was once scarcity. Permanence where there was chaos.
 
-His Cloé Madanes partnership follows the same arc, not performing alone, but building institutional structures that outlast him. His twenty-four-year marriage to Sage, whom he met when she was a phlebotomist drawing his blood at a routine appointment: "We do less doing," Sage [told DuJour](https://dujour.com/news/tony-and-sage-robbins/), "and experience more being together."
+His Cloé Madanes partnership follows the same arc — not performing alone, but building institutional structures that outlast him.
 
-Loyalty. Systems. Commitment. A Three doing the quiet work of a Six.
+So does the harder, quieter story of his family.
+
+### The Family He Built (And Lost, And Built Again)
+
+In 1982, Robbins married Becky Jenkins. He has admitted, with brutal candor, that he knew on his wedding day it wasn't right: ["But I didn't want to disappoint her,"](https://www.huffpost.com/entry/tony-robbins-first-marriage-divorce_n_57e30ae9e4b0e28b2b522608) he later told Oprah. _"It sounds so stupid, but it's the truth."_ A Three's wedding vow: I'd rather perform the marriage than disappoint the person.
+
+He stayed nineteen years. He adopted Becky's three children from prior relationships — Jolie, Tyler, and Josh — and raised them as his own. Around the same time, he fathered a biological son with Liz Acosta: Jairek Robbins, born in 1984, who grew up to become a coach himself and now runs his own performance-coaching practice in his father's lineage.
+
+The boy with four fathers became father to four. He never had a stable home; he built one and held it for nineteen years before it broke. The divorce was filed in 1998 and finalized in 2001.
+
+Then came Sage. He met her when she was a phlebotomist drawing his blood at a routine appointment. They have been married for twenty-four years. ["We do less doing,"](https://dujour.com/news/tony-and-sage-robbins/) Sage told DuJour, "and experience more being together."
+
+The first marriage was duty: _I can't disappoint her._ The second is something a Three has to learn how to do — presence without performance. Sage is the long, slow lesson.
+
+Loyalty. Systems. Commitment. Stillness. A Three doing the quiet work of a Six.
 
 ## Duty vs. Devotion
 

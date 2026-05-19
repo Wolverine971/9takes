@@ -44,8 +44,8 @@ same_as:
   - 'https://www.imdb.com/name/nm2425576/'
 citations:
   - 'https://en.wikipedia.org/wiki/Kara_Swisher'
-  - 'https://www.wikidata.org/wiki/Q6367550'
   - 'https://www.imdb.com/name/nm2425576/'
+  - 'https://www.imdb.com/name/nm2425576/bio/'
 faqs:
   - question: 'What is Kara Swisher''s personality type?'
     answer: 'Kara Swisher is analyzed as an Enneagram Type 8 (Challenger). The profile connects that type pattern to Why does Kara Swisher intimidate Silicon Valley''s most powerful men? We decode the Type 8 drive behind the interviews, bluntness, and refusal to defer.'

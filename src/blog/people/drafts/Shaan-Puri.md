@@ -75,7 +75,9 @@ What happens when you're brilliant at starting new chapters but you've never fin
 
 ## Shaan Puri's Childhood Across Nine Countries
 
-By the time Shaan Puri finished high school, he'd lived in nine countries. Started in Texas, finished in China, with Australia in between. His father ("incredibly inspiring," Shaan would later write) moved the family for work. His mother guided him to "walk on the right path." The family was warm, close, and conventional in ways that would later feel constraining.
+By the time Shaan Puri finished high school, he'd lived in nine countries. Born in the Bay Area, with stops through Denver, Texas, Indonesia, and Australia before finishing high school in China. His father ("incredibly inspiring," Shaan would later write) moved the family for work. Pack the boxes, learn a new accent, find new friends, do it again. His mother guided him to "walk on the right path." The family was warm, close, and conventional in ways that would later feel constraining.
+
+The most important thing to understand about Shaan's restlessness is that it predates him. He didn't choose to keep moving. His childhood was movement. By the time he was old enough to opt out, the tempo was already his.
 
 He landed at Duke on a biology track, completed every pre-med requirement, and then, with one credit left, took a class called "Getting Rich." Taught by a woman who'd ridden the dot-com boom and real estate boom to retire by 30. Compound interest, mortgages, entrepreneur war stories.
 
@@ -195,7 +197,13 @@ Then, in one paragraph, the tone shifts:
 
 "For me, I have a much more rocky relationship with my dad. I haven't cracked this nut, but I know the right thing to do is to build a bridge with the 'other parent' too."
 
-One paragraph. No framework, no system, no reframe. The man who has built frameworks for suffering, love, work, identity, and daily energy has one relationship he can't engineer his way through. He has never dedicated a podcast episode, a tweet thread, or an essay to his father specifically. The man whose career moved Shaan through nine countries, who shaped the restlessness before Shaan chose it for himself, sits in a conspicuous gap in an otherwise transparent personal narrative.
+One paragraph. No framework, no system, no reframe. The man who has built frameworks for suffering, love, work, identity, and daily energy has one relationship he can't engineer his way through. He has never dedicated a podcast episode, a tweet thread, or an essay to his father specifically.
+
+**His father built the engine Shaan now uses to escape him.**
+
+The career that moved the family across nine countries didn't just give Shaan an unusual childhood. It taught him the move. When a situation goes stale, the next place is already waiting. By the time Shaan was old enough to choose for himself, restlessness wasn't a tool he picked up. It was the only tempo he knew. Every chapter, every venture, every reframe is a variation on a song his father started playing when he was a kid.
+
+That's why the father section can't be engineered through. Every framework Shaan has would have to be applied to the source of the frameworks themselves. The fish can't reframe water.
 
 His family has told him he comes across as "rude to people." The directness that serves him in business cuts differently at home.
 

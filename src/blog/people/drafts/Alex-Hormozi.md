@@ -38,7 +38,8 @@ same_as:
   - 'https://www.linkedin.com/in/alexhormozi/'
   - 'https://www.youtube.com/@AlexHormozi'
 citations:
-  - 'https://www.wikidata.org/wiki/Q117803902'
+  - 'https://ceo.wiki/wiki/Alex_Hormozi'
+  - 'https://www.acquisition.com/bio-alex'
 faqs:
   - question: "What is Alex Hormozi's Enneagram type?"
     answer: "Alex Hormozi reads as an Enneagram Type 3 with a strong 8 wing (3w8). His brand is literally built on measurable success: $100M Offers, $100M Leads, $100M Money Models. Same three meals daily, same black t-shirt, 4am wake-ups, and a stated philosophy that 'Grow or Die.' The 8 wing adds the directness and confrontational edge, but the core engine is the Achiever's fear of being worthless without accomplishment."
@@ -47,13 +48,13 @@ faqs:
     answer: "Type 8s seek power and dominance; Hormozi talks about being valuable, not powerful. Type 1s perfect things because imperfection feels morally wrong; Hormozi ships 'good enough' and iterates, bothered by inefficiency rather than incorrectness. The tell is what happens when he fails: he gets curious about the system rather than angry (8) or self-critical (1). The 8 wing explains the force, but Type 3 explains the need to win."
     anchor: 'why-type-3-and-not-type-8-or-type-1'
   - question: "How did Alex Hormozi's Iranian-American background shape him?"
-    answer: "Hormozi's father escaped the Iranian Revolution and rebuilt from nothing in America. That immigrant inheritance turned success into obligation rather than option. Alex has said he was 'pursuing what my father would have liked me to do, not what I really wanted to do,' and the pressure to prove the family's sacrifice was worth it shaped every decision from Gilman School to Vanderbilt to the government job he eventually quit."
+    answer: "Hormozi's father fled Iran during the revolution, landed in Paris, and failed the first year of French medical school twice because he didn't speak the language — then made it to America and finished his medical training anyway. Alex was raised by his father; his mother doesn't appear in his public story. That immigrant inheritance, carried by one parent, turned success into obligation rather than option. Alex has said he was 'pursuing what my father would have liked me to do, not what I really wanted to do,' and the pressure to honor that journey shaped every decision from Gilman School to Vanderbilt to the government job he eventually quit."
     anchor: 'the-iranian-american-drive-how-his-father-shaped-everything'
   - question: 'What did Tony Robbins tell Alex Hormozi about duty versus devotion?'
     answer: "In their January 2025 conversation, Hormozi admitted he doesn't find joy in most of what he does but can't see himself doing anything else. Tony Robbins, a fellow Type 3 thirty years further down the road, offered a reframe: duty is pushing yourself from obligation and fear (exhausting because the fuel is self-generated), while devotion is being pulled by a cause larger than yourself (sustainable because the fuel comes from outside). It maps the Type 3 growth edge from 'I achieve to prove I'm worthy' to 'I achieve because it serves something larger.'"
     anchor: 'the-tony-robbins-conversation-when-a-type-3-confronts-his-shadow'
   - question: 'How does Leila Hormozi fit into Alex Hormozi psychology?'
-    answer: "Leila is treated as more than a spouse or business partner. She's the relational counterweight to Alex's achievement machine, the co-founder who provides both business partnership and emotional grounding. Their dynamic, both pushing toward achievement while keeping each other accountable, models what healthy Type 3 partnership looks like and represents Hormozi's movement toward the integrated, more loyal expression of the type."
+    answer: "Leila is the operator, not the supportive spouse. Alex sees the end state — the audience, the frameworks, the brand; Leila sees all the steps to get there — the team, the systems, the operational machinery. She ran Acquisition.com as CEO for years before stepping down to Executive Chair in early 2026. Both are Type 3s with the same core fear, expressed differently: his manifests as charisma and content, hers as competence and systems. The healthy version of Type 3 partnership isn't mutual support — it's two people who hold each other accountable to the work without becoming an audience for the performance."
     anchor: 'the-partnership-behind-the-achievements'
 twitter: 'AlexHormozi'
 instagram: 'hormozi'
@@ -75,6 +76,32 @@ keywords:
   - '100M Offers psychology'
   - 'Alex and Leila Hormozi'
 ---
+
+<!-- ============================================================
+PLANNED EDITS — 2026-05-19 (DJ + Claude review pass)
+Full analysis: docs/content-analysis/hormozi-profile-review-2026-05-19.md
+
+PRE-SEND FIXES (this session) — ALL COMPLETED 2026-05-19:
+[x] Verify Guinness number: confirmed 2,917,443 copies on Aug 17 2025
+[x] Cross-check Fortune article date: Jan 12 2026, confirmed
+[x] Fix father's escape story: now Iran → Paris → failed French med school twice → U.S.
+    + named father as a doctor. Updated body + FAQ.
+[x] Name the missing mother: added single-father-household beat. Updated body + FAQ.
+[x] Fix Leila-shaped hole: partnership section rewritten — operator/visionary framing,
+    bridge moment included, Executive Chair transition referenced. Updated body + FAQ.
+[x] Standardize $46.2M sale: now "majority stake" in both pieces (dropped 66% figure).
+[x] Standardize Acquisition.com revenue: $250M+ in both pieces.
+[x] Add launch timeframe: Alex piece now $82M in 24hrs / $106M over 3 days, matches Leila.
+
+LATER (post-send, not blocking):
+[ ] Cut/compress the "How Type 3 Thinks: The Frameworks" H2 — stalls after Tony peak.
+[ ] Replace stat-block "$100M Money Models Launch" section with a single launch-day scene.
+[ ] Vary the "Type 8s want X / Type 1s want Y" counter-typing structure (appears in both pieces).
+[ ] Drop the H2 "What is Alex Hormozi's Personality Type?" restatement (triple front-loading).
+[ ] LORE: develop the 26-year-old collapse beyond "data not shame" (personal cost).
+[ ] LORE: add one off-camera private-Alex detail (from Leila's podcast or similar).
+[ ] LORE: engage the mortality/memento mori angle as the deep version of "Grow or Die."
+============================================================ -->
 
 > "Volume negates luck."
 
@@ -130,13 +157,19 @@ His 8 wing gives him the directness and confrontational style. But the core moti
 
 ## The Iranian-American Drive: How His Father Shaped Everything
 
-Alex Hormozi was born August 18, 1988, in Towson, Maryland. His father escaped the Iranian Revolution. Left everything behind. Came to America. Rebuilt from nothing.
+Alex Hormozi was born August 18, 1988, in Towson, Maryland. His father fled Iran during the revolution as a young man. Landed in Paris. Decided to become a doctor.
+
+He failed his first year of French medical school. He didn't speak the language. He retook the year. Failed again. Same reason.
+
+He eventually made it to the United States, finished his medical training, and built a life from a starting point most people never come back from. Alex has told this story himself on X — not as a triumph beat but as the proof his father walked around with. Falling on your face in a country whose language you don't speak is a different kind of education than the one his son would later sell on YouTube.
 
 That's not background noise. That's psychological inheritance.
 
-First-generation immigrant households carry specific weight. Success isn't optional. It's obligation. Your parents sacrificed everything. Failure means their sacrifice was wasted.
+There's another piece of the inheritance the corpus of Hormozi content rarely names: Alex was raised by his father. His mother doesn't appear in his public story, his interviews, his books. Single-father household, immigrant rebuild, the whole emotional and economic load carried by one parent who'd already failed publicly twice before he got here. Whatever the reasons for the absence, the kid who grew up in that house had exactly one face to disappoint and exactly one face to make proud. That changes the math on every decision.
 
-"I was pursuing what my father would have liked me to do, not what I really wanted to do," Hormozi has said about his early career. The pressure to prove that the family's journey was worth it shaped every decision.
+First-generation immigrant households carry specific weight. Success isn't optional. It's obligation. Your parent sacrificed everything. Failure means the sacrifice was wasted.
+
+"I was pursuing what my father would have liked me to do, not what I really wanted to do," Hormozi has said about his early career. The father wanted medicine — the path he'd had to fight a foreign language to get back into. The pressure to honor that journey shaped every decision.
 
 Alex grew up watching his father prove that transformation was possible. That a person could lose everything and rebuild. That hard work and determination could overcome any starting point. This isn't abstract inspiration. It's lived example that shaped how Alex sees the world.
 
@@ -194,7 +227,7 @@ At 27, the business did $3 million profit in six months. Then $17 million profit
 
 The Type 3 pattern is clear: find a winning formula, build a repeatable process around it, scale it, then move on to bigger challenges. Gym Launch eventually helped over 5,000 gyms across 13 countries acquire customers.
 
-In 2021, American Pacific Group purchased 66% of Gym Launch and Prestige Labs for $46.2 million cash.
+In 2021, American Pacific Group purchased a majority stake in Gym Launch and Prestige Labs for $46.2 million cash.
 
 Then came Acquisition.com, where Hormozi could invest in and scale multiple businesses at once. The portfolio now generates over $250 million in annual revenue.
 
@@ -326,9 +359,9 @@ Only Harry Potter books have sold more copies on launch day.
 
 How? Four years of groundwork. Over $4 million in tested advertising. Hundreds of ad iterations refined until the formula worked. A marathon YouTube livestream that mixed eight hours of real teaching with sharp pitches, attracting over 100,000 viewers.
 
-At roughly $30 per book, that's approximately $82 million in revenue in 24 hours.
+At roughly $30 per book, that's approximately $82 million in revenue in the first 24 hours. By the end of the launch weekend, including Sunday and Monday events, total sales exceeded 3.28 million copies and gross revenue passed $106 million in 72 hours.
 
-By the end of the launch weekend, including Sunday and Monday events, total sales exceeded 3.28 million copies. The $100M series has now sold over 5 million copies total.
+The $100M series has now sold over 5 million copies total.
 
 Type 3 achievement in its purest form: set an audacious goal, build the machine to reach it, break the record, start planning the next one.
 
@@ -364,19 +397,19 @@ Type 3s genuinely believe their success came from their actions. Acknowledging e
 
 ## The Partnership Behind the Achievements
 
-Understanding Alex requires understanding [Leila Hormozi](/personality-analysis/leila-hormozi).
+Understanding Alex requires understanding [Leila Hormozi](/personality-analysis/leila-hormozi). And understanding her means dropping the "Alex Hormozi's wife" framing most of the internet starts with.
 
-She went on roughly 60 dates before finding Alex on Bumble. Their first date at a frozen yogurt shop turned into four and a half hours of conversation.
+She went on roughly 60 dates before finding Alex on Bumble. Their first date at a frozen yogurt shop turned into four and a half hours of conversation, mostly about business. "I just wanted to keep talking to him," Leila has said. "I finally felt like I found somebody who sees reality the same way as me." Not chemistry. Recognition.
 
-"I just wanted to keep talking to him," Leila has said. "I finally felt like I found somebody who sees reality the same way as me."
+The early years weren't romantic. 
 
-The early years weren't romantic. They lived in motels. Navigated financial uncertainty. Built businesses from nothing together.
+They lived in motels. Ate at 7-Eleven. Personally launched 33 gyms while sleeping at Extended Stays with $1,000 saved after 19 months. The bridge moment — when Alex's first business partner drained his accounts and Alex told her he was a sinking ship — is the load-bearing event in the marriage. Leila grabbed his chin and said _"I'd sleep with you under a bridge if it came to that."_ Everything Acquisition.com is downstream of that sentence.
+
+What she actually does inside the company matters more than the spouse framing usually allows. Alex sees the end state. Leila sees all the steps to get there. He builds the audience and the frameworks. She builds the team, the systems, and the operational machinery that turns frameworks into a portfolio. She ran Acquisition.com as CEO for years, including the launch infrastructure for $100M Money Models — the Guinness day is hers as much as his. In early 2026, she stepped down as CEO and moved to Executive Chair, bringing in Sharran Srivatsaa to run the day-to-day so she could hold the strategic future instead. She has been more honest about the cost of all of this than Alex has — about layoffs, about burnout, about rest feeling uncomfortably close to quitting.
 
 "My wife is Leila Hormozi and she's been there through every collapse and every comeback," Alex has written. "The yin to my yang. Moderately successful on our own. And much stronger together."
 
-This partnership represents Hormozi's movement toward integration. The healthy Type 3 pattern of becoming more collaborative and loyal. Leila isn't just a spouse. She's a co-founder who provides both business partnership and emotional grounding.
-
-Their dynamic, both pushing toward achievement while keeping each other accountable, models what healthy Type 3 partnership looks like.
+In Enneagram terms, the partnership is two Threes — same fear, different expression. His version manifests as charisma and content. Hers manifests as competence and systems. That's the integration Type 3s have to find: someone who will hold you accountable to the work without becoming an audience for the performance. They both push toward achievement. They both check each other when the performance starts running the person.
 
 ## The Billion Dollar Question
 

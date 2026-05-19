@@ -14,7 +14,7 @@ enneagram: 4
 type: ['comedian', 'sketch-comic']
 person: 'tim-robinson'
 suggestions: ['Pete-Davidson', 'Aubrey-Plaza', 'Billie-Eilish', 'Paul-Rudd']
-wikipedia: 'https://en.wikipedia.org/wiki/Tim_Robinson_(comedian)'
+wikipedia: 'https://en.wikipedia.org/wiki/Tim_Robinson'
 wikidata_qid: 'Q7804181'
 imdb_id: 'nm4200503'
 birth_date: '1981-05-23'
@@ -39,11 +39,11 @@ keywords:
   - 'Tim Robinson analysis'
   - 'Individualist enneagram'
 same_as:
-  - 'https://en.wikipedia.org/wiki/Tim_Robinson_(comedian)'
+  - 'https://en.wikipedia.org/wiki/Tim_Robinson'
   - 'https://www.wikidata.org/wiki/Q7804181'
   - 'https://www.imdb.com/name/nm4200503/'
 citations:
-  - 'https://en.wikipedia.org/wiki/Tim_Robinson_(comedian)'
+  - 'https://en.wikipedia.org/wiki/Tim_Robinson'
   - 'https://www.wikidata.org/wiki/Q7804181'
   - 'https://www.imdb.com/name/nm4200503/'
 faqs:

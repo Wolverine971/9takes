@@ -42,7 +42,6 @@ same_as:
   - 'https://badnews.substack.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Ryan_Grim'
-  - 'https://www.wikidata.org/wiki/Q7384105'
   - 'https://yourcountryondrugs.com/'
   - 'https://badnews.substack.com/'
 faqs:
@@ -83,7 +82,7 @@ content_quality:
 Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 
 FEEDBACK (2026-04-19):
-- SIGNATURE DETAIL: The Webster Grim namesake frame is the spine — opens with "named after a fraud" and closes with "took the name and reversed the function." That bookend is a legitimate "aha" device and would break if you swapped the subject. Strongest structural move in the piece.
+- SIGNATURE DETAIL: The Webster Grim namesake frame is the spine — opens with "named after a political setup" and closes with "took the name and reversed the function." That bookend is a legitimate "aha" device and would break if you swapped the subject. Strongest structural move in the piece.
 - MEMORABLE LINES carry the prose: "Deep roots, thin soil." / "The world doesn't announce itself as unreliable. It just proves it." / "Ones indict the person. Sixes indict the protocol." / "Daily reporting is how a Six checks individual joints in the structure. Book-writing is what happens when the checking isn't enough — when you have to walk the whole foundation." These do the work of a paragraph in one sentence.
 - ENNEAGRAM RESOLVES NON-OBVIOUS CONTRADICTION: The 6 frame actually explains why Grim both *confronts* (Watters) and *apologizes* (Nate Silver) — "the audit has to apply in both directions or it isn't really an audit." That's the kind of insight the rubric rewards.
 - MIMI SECTION is the hidden gem — "The man who interrogates systems for a living found the most trustworthy institution in his life in an 89-year-old woman with a red pen." Private-life anchor to a public-life thesis. Do not cut.
@@ -103,13 +102,13 @@ TO REACH A+ (9.5+):
 
 > "I didn't know that this was an option, but it very much fits my personality. I've always been eager to challenge authority."
 
-<p class="firstLetter">Ryan Webster Grim is named after a fraud.</p>
+<p class="firstLetter">Ryan Webster Grim is named after a political setup.</p>
 
 His father told him the family name honored a great-great-uncle, Isaac Webster Grim, who'd been "the Democratic nominee for governor of Pennsylvania." Sounds distinguished. Sounds like a man of principle. Years later, Ryan dug into the actual history and discovered something different: Webster Grim was the patsy. The party bosses put him up in 1910 specifically to lose, to split the progressive vote and stop a populist reformer named William Berry from winning. Webster Grim received 13% of the vote. He may have been the biggest major-party loser in any statewide race in the entire twentieth century.
 
 "Webster Grim, in other words, was the patsy the party bosses put up to lose on purpose," Ryan wrote on his Substack, with the kind of dry precision that makes you wonder how long he'd been sitting on that sentence.
 
-A man named after a corrupt party establishment figure who spent his entire career exposing corrupt party establishments. It tells you more about Ryan Grim than any résumé ever could. The question his whole life keeps answering is whether the institutions that are supposed to protect people are actually doing their job, or whether someone inside them is rigging the game.
+A man named after a party-machine decoy who spent his entire career exposing corrupt party establishments. It tells you more about Ryan Grim than any résumé ever could. The question his whole life keeps answering is whether the institutions that are supposed to protect people are actually doing their job, or whether someone inside them is rigging the game.
 
 <details>
 <summary class="accordion">TL;DR: Why Ryan Grim is an Enneagram Type 6</summary>
@@ -167,7 +166,7 @@ And then he broke the stories.
 
 In September 2018, Grim reported that California Senator Dianne Feinstein had received a letter, its content unspecified and its implications enormous, related to Supreme Court nominee Brett Kavanaugh. No one else had the story. No one else was willing to push on why Feinstein was sitting on it.
 
-The letter turned out to be from Christine Blasey Ford, alleging that Kavanaugh had sexually assaulted her in high school. Grim's reporting forced the story into public view, triggering Ford's decision to come forward, Senate hearings that riveted the country, and a fight over the Court's legitimacy that hasn't ended.
+The letter turned out to be from Christine Blasey Ford, alleging that Kavanaugh had sexually assaulted her in high school. Grim's reporting helped force the story into public view, contributing to the chain of events that led Ford to come forward, Senate hearings that riveted the country, and a fight over the Court's legitimacy that hasn't ended.
 
 He didn't editorialize. He reported: a letter exists, a senator is withholding it, and the public has a right to know. The instinct wasn't ideological. It was structural: an institution (the Senate) was concealing information the public needed to evaluate a lifetime appointment. The system was failing its function, and someone needed to say so.
 
@@ -244,7 +243,7 @@ The most common alternate reads are **Type 8** and **Type 1**, and the case for 
 
 The Jesse Watters incident deserves its own space, because it's the most compressed expression of who Ryan Grim is.
 
-In 2009, Fox News correspondent Jesse Watters and a cameraman followed Amanda Terkel from Washington, D.C. to Winchester, Virginia, stalked her to a hotel, confronted her at check-in, and demanded on camera that she recant her criticism of Bill O'Reilly. Terkel was shaken. The episode was widely condemned.
+In 2009, Fox News correspondent Jesse Watters and a cameraman followed Amanda Terkel from Washington, D.C. to Winchester, Virginia, followed her to a hotel, confronted her at check-in, and demanded on camera that she recant her criticism of Bill O'Reilly. Terkel was shaken. The episode was widely condemned.
 
 Seven years later, at the 2016 White House Correspondents' Dinner after-party, Grim walked up to Watters with his phone recording.
 
@@ -317,6 +316,8 @@ So they built their own. Drop Site News launched as an independent, nonprofit ne
 
 And the new institution started producing. In February 2025, Grim reported that the State Department had allocated $400 million for "Armored Tesla" in a procurement document. After publication, the department quietly amended the spreadsheet to read "Armored Electric Vehicles." Metadata showed the revision happened hours after the story went live. That's the kind of scoop that makes government officials rewrite their own paperwork to pretend the document never said what it said.
 
+The unresolved question is whether Drop Site can survive the same audit Grim applies elsewhere. It is reader-facing, Gaza-heavy, adversarial, and built without the safety of a giant legacy institution. That gives it freedom. It also means the institution will be tested by the same pressures that broke the places he left: funding, audience expectations, ideological sorting, and the temptation to let mission become identity. A Six profile should not pretend the new structure is proven just because its founding critique is persuasive.
+
 Drop Site kept producing: a multi-part investigation with Murtaza Hussain documenting Epstein's ties to Israeli intelligence, then a pre-war intelligence official's warning that Trump was planning Iran regime change — both stories the major outlets declined to touch.
 
 Same pattern, new masthead.
@@ -386,7 +387,7 @@ STRONGEST SECTION: "The Audit That Runs Both Ways" — the Nate Silver apology p
 WEAKEST SECTION: "The Books: Mapping the Whole System" — the editor's own comment block flagged this, and it remains the section most prone to publisher-catalog cadence. The "single articles expose a failure" sentence is good; the AIPAC $100K beat is good; the rest reads as biography.
 
 STRENGTHS (3-5 bullets, specific):
-- "Ryan Webster Grim is named after a fraud." — the cleanest single-sentence opener in the batch. Earns the read in five words.
+- "Ryan Webster Grim is named after a political setup." — the cleanest single-sentence opener in the batch. Earns the read immediately.
 - The Webster-Grim namesake bookend ("Webster Grim was the patsy. Ryan Grim took the name and reversed the function") is the corpus's best example of a structural motif that pays off in the closer.
 - "Deep roots, thin soil." — three-word rhythm that does class diagnosis, geographic specificity, and Six-formation in one beat.
 - "Ones indict the person. Sixes indict the protocol." — two-sentence aphorism that does counter-typing better than the corpus's usual rule-of-three.
@@ -408,7 +409,7 @@ GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that
 - The 2025 election aftermath / Trump-DOJ-investigations-of-journalists landscape that Drop Site is operating in.
 
 PATTERN HITS (DJ tropes that worked here):
-- The bookend (open with Webster-Grim-fraud, close with Webster-Grim-correction) is the corpus's best structural craft in this batch.
+- The bookend (open with Webster-Grim setup, close with Webster-Grim correction) is the corpus's best structural craft in this batch.
 - Named-quote testimony stack (Stein, Polgreen, congressional aides) is well-distributed and proportionate.
 - "The audit has to apply in both directions or it isn't really an audit" — sentence-level Type 6 diagnosis without saying "Type 6."
 

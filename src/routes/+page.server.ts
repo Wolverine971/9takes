@@ -84,6 +84,28 @@ export const load: PageServerLoad = async ({ locals }) => {
 			continue;
 		}
 
+		if (type === 7) {
+			typeRepresentatives.push({
+				name: 'shaan-puri',
+				type: 7,
+				hasImage: true,
+				hasLink: true,
+				personaTitle: 'The Restless Showman'
+			});
+			continue;
+		}
+
+		if (type === 8) {
+			typeRepresentatives.push({
+				name: 'sam-parr',
+				type: 8,
+				hasImage: true,
+				hasLink: true,
+				personaTitle: "Media's Brute-Force Builder"
+			});
+			continue;
+		}
+
 		const typeKey = String(type);
 		const group = peopleByType.get(typeKey) || [];
 		if (group.length > 0) {

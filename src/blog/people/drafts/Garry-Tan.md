@@ -79,7 +79,7 @@ path: src/blog/people/drafts/Garry-Tan.md
 
 <p class="firstLetter">On January 28, 2024, at 1 AM, the CEO of Y Combinator — the man who runs the most prestigious startup accelerator on Earth, who preaches "earnestness" as the single most important quality in a founder — opened X and typed: "Die slow motherfuckers."</p>
 
-He was quoting Tupac. He was drunk. He was naming seven San Francisco supervisors he wanted politically destroyed.
+He was quoting Tupac. He'd been drinking. He was naming seven San Francisco supervisors he wanted politically destroyed.
 
 Five of those supervisors received anonymous letters at their homes within days: "I wish a slow and painful death for you and your loved ones." Police reports were filed. The apology came in stages — first dismissive ("I thought everyone would get the rap reference"), then fuller, then the long silence of a man who realized his mask had slipped in the worst possible way.
 
@@ -197,9 +197,7 @@ The philosophy is autobiographical. Tan never meant to become an investor either
 
 ### Garry Tan is an Enneagram Type 6
 
-Most people see Garry Tan and think: combative tech bro with a savior complex. The tweets. The political donations. The "every way they come after me, I'm going 10x" rhetoric. It reads as power.
-
-But a man motivated by power buys a seat at the table. A man motivated by fear rebuilds the entire table.
+A man motivated by power buys a seat at the table. A man motivated by fear rebuilds the entire table. Garry Tan has spent his whole career rebuilding the table.
 
 Type 6 (the Loyalist, the Skeptic) forms where solid ground proved to be quicksand — where the people supposed to keep you safe couldn't keep themselves safe, and trust got broken before you were old enough to know what trust was.
 
@@ -214,6 +212,10 @@ What confuses people is the flip from avoidance to aggression. Garry went from c
 He thinks he's describing founders. He's describing himself. The vigilant child who couldn't stop scanning for threats found a way to turn the scanning into a career, then into a cause.
 
 Under [stress](/enneagram-corner/enneagram-types-in-stress), Type 6 moves toward unhealthy [Type 3](/enneagram-corner/enneagram-type-3), the performer and image manager. The person who stops asking questions and starts projecting certainty. A Six at full throttle with inhibitions dissolved looks like this: all aggression, no questioning, no doubt. The opposite of the authenticity he prizes.
+
+His wing tells the rest of the story. In builder-mode — Posthaven, gstack, the engineering-as-AI-roles design — Tan runs 6w5: introverted, system-obsessed, building scaffolding for himself and others. In political-mode — Garry's List, the donor network, the 10x rhetoric — he flips to 6w7: louder, more public, more willing to risk the relationship to make the point. The whiplash people feel between "thoughtful YC president" and "1 AM brawler" is the same Six oscillating between his two wings.
+
+And in [security](/enneagram-corner/enneagram-types-in-security), a healthy Six moves toward [Type 9](/enneagram-corner/enneagram-type-9) — the quiet, settled, present mode. You see it in the parts of his life he doesn't perform: the Noe Valley house, the monthly checks home, the sober father, the two sons. The years of therapy look like that integration when they're working. The 1 AM tweets look like what happens when they're not.
 
 ---
 
@@ -239,7 +241,7 @@ The therapy changed him — not gradually, in breakthroughs. He began to see how
 
 He started recommending therapy to every founder he worked with, particularly those with high ACE (Adverse Childhood Experiences) scores — not as feel-good advice but as operational necessity. "Critical moments in your business career are driven by your own mental health. Inner work allows you to actually radiate that outwards into your organization. And it's real."
 
-His father eventually stopped drinking. Went to AA. Started therapy himself. Garry sends his parents money every month — still building ground for the people who couldn't build it for themselves.
+His father eventually stopped drinking. Went to AA. Started therapy himself. Garry sends his parents money every month.
 
 ---
 
@@ -247,7 +249,7 @@ His father eventually stopped drinking. Went to AA. Started therapy himself. Gar
 
 In January 2023, Garry Tan became president and CEO of Y Combinator. The same month, he went to war.
 
-The targets were San Francisco's progressive politicians: the supervisors, the district attorney, the school board members he blamed for the city's decline. He'd been donating to YIMBY housing causes since 2015, but the COVID-era deterioration of San Francisco activated something deeper. The man who'd spent years in therapy learning to fight instead of freeze now had a cause worthy of the full counterphobic arsenal.
+The targets were San Francisco's progressive politicians: the supervisors, the district attorney, the school board members he blamed for the city's decline. He'd been donating to YIMBY housing causes since 2015, but the COVID-era deterioration of San Francisco activated something deeper. The man who'd spent years in therapy learning to fight instead of freeze finally had a cause big enough to use the new muscle on.
 
 He donated $100,000 to recall progressive DA Chesa Boudin. He gave $20,000 to recall school board members. He joined the board of GrowSF. He organized meetings with tech leaders, told them: "You may not be interested in government, but government is absolutely interested in you."
 
@@ -260,6 +262,8 @@ And then, on a night when the duty and the drinking and the decades of compresse
 The responses were immediate. Board President Aaron Peskin called him "a prototypical, testosterone-poisoned tech bro." Supervisor Connie Chan offered the sharpest line: "I will waive rent for living in his head."
 
 The critics had a point beyond the tweet. This was the CEO of Y Combinator — a centimillionaire with half a million social media followers — spending $50,000 on a single PAC targeting one city supervisor. One of the most connected men in tech was going "10x" against people earning government salaries. Journalist Christopher Cook put it plainly in the SF Standard: Tan orchestrates a "money-fueled political machine" backed by "opaque, largely unaccountable networks."
+
+The asymmetry is real, and it stays real even after the Enneagram explains the engine. A Six with a national platform and a checkbook moving at this volume against people earning $150,000 a year is not a fair fight, even if his read of the city's problems is correct. The fear is psychologically legible. The leverage he brings to that fear is its own question, and his Type 6 wiring doesn't answer it for him.
 
 Tan called the political fight "fun." He compared it to FarmVille. "What other game of FarmVille am I supposed to be playing?"
 
@@ -301,13 +305,13 @@ And a Six who finally trusts a process evangelizes it — hard. Tan open-sourced
 
 There's a final layer. His father was "a hacker's hacker" whose brilliance never found a channel because addiction took him out. Gstack is what that ghost gets to build, forty years late, through the son — a structure that makes sure the code actually ships. A system where the brilliance can't be drunk away.
 
-## Still the Kid from Fremont
+## The Door He's Holding Open
 
 The man who wrote a $300,000 check into a cryptocurrency exchange nobody believed in is now presiding over the era where ten people with the right AI tools can build what used to take hundreds. Every technological shift that lowers the barrier to building has been, for him, a form of justice. The internet gave him a byline at sixteen. Software gave him Palantir at twenty-three. AI is the door he's now trying to hold open for the next misfit with a laptop and a reason.
 
 "If you have at least one person at YC who took an oath to look out for you for the life of the company," he says, "that's better than 90% of founders get."
 
-One person who took an oath to look out for you. That's not a business proposition. That's the promise he never got from his father.
+He's describing his father in the negative space.
 
 ---
 

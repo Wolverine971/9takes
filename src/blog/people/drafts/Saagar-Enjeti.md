@@ -73,7 +73,7 @@ REWRITE NOTES (2026-04-19):
 - GROUNDED THE HOOK: Hitler-biography scene now dated (Lex Fridman #167, March 2021) and staged with specific weight ("1,000-page study of the Reich's collapse").
 - VERIFIED SOURCING: Every major quote now attributed to venue + date — Realignment Substack (Dec 11, 2020), Sept 10, 2021 Twitter thread, Brown Pundits podcast (Nov 2020), American Conservative Curt Mills profile (July 10, 2020), Lex Fridman #454 (Dec 8, 2024), Tucker Carlson Show (July 8, 2025), RealClearPolitics Kirk appearance (Feb 13, 2026), tweets with exact dates.
 - CUT UNSOURCED QUOTES: Removed "Oh my God, it's amazing" (Jim Webb), "There are a lot of people out there who can see through the BS too," and over-specified "Playing within a bullshit system / performance art / all a game" phrasing. Replaced with the verified "utterly useless... bunch of bullshit for their television packages" from Brown Pundits.
-- SOFTENED UNVERIFIED CLAIMS: "Temple needed guards" → "temple community took on protective measures" (matches verifiable racism-post-9/11 record without specifying armed guards). "Last year of high school" in Doha → "attended... for part of high school."
+- SOFTENED UNVERIFIED CLAIMS: "Temple needed guards" → "temple community had to absorb a new atmosphere of suspicion" (matches verifiable racism-post-9/11 record without specifying armed guards or security protocols). "Last year of high school" in Doha → "attended... for part of high school."
 - NEW CRUSADES OPENING: Replaced summary with Tucker Carlson Epstein scene (July 8, 2025) — "It enrages me. It actually enrages me." Visible cerebral-to-fury pivot, then widens to the pattern.
 - BREAKING POINTS PREMIERE DETAIL: Added verified opening-episode thesis ("We want to make people hate each other less and hate the ruling class more," June 7, 2021) plus 285K subscribers in four days, #1 political podcast within a week.
 - SIGNATURE DETAIL ADDED: Priya June Enjeti born Mother's Day 2025, required NICU care — the quiet private beat against the loud public pace.
@@ -109,19 +109,19 @@ They're wrong. What they're actually watching is a man who cannot stop consuming
 
 ## Saagar Enjeti at Nine in W. Country
 
-Saagar was born January 1, 1992 in College Station, Texas — home of Texas A&M, deep in George W. Bush country. His parents, Dr. Prasad Enjeti and Dr. Radhika Viruru, are Telugu immigrants from India, both professors at the university. An academic household where books weren't entertainment. They were the infrastructure of daily life.
+Saagar was born April 21, 1992 in College Station, Texas — home of Texas A&M, deep in George W. Bush country. His parents, Dr. Prasad Enjeti and Dr. Radhika Viruru, are Telugu immigrants from India, both professors at the university. An academic household where books weren't entertainment. They were the infrastructure of daily life.
 
 He attended the American School of Doha in Qatar for part of high school — early exposure to a world outside American borders. Then came the morning that rewired everything.
 
 September 11, 2001. He was nine.
 
-His family's Hindu temple community took on protective measures. In a conservative, predominantly white, evangelical Texas town, being a brown kid after the towers fell meant something specific and frightening that most nine-year-olds will never have to process. On the Brown Pundits podcast in November 2020, he put it plainly: "The vast majority of the racism I experienced in my life was right when I was a kid after 9/11."
+His family's Hindu temple community had to absorb a new atmosphere of suspicion. In a conservative, predominantly white, evangelical Texas town, being a brown kid after the towers fell meant something specific and frightening that most nine-year-olds will never have to process. On the Brown Pundits podcast in November 2020, he put it plainly: "The vast majority of the racism I experienced in my life was right when I was a kid after 9/11."
 
 Then the Iraq War. He was eleven, living in "W. country" where everybody supported the invasion. People on his street were serving. And slowly, undeniably, the government's justification disintegrated.
 
 "The entire reason I am interested in politics is because of 9/11 and opposition to the war in Iraq," he wrote on X in September 2021, marking the twenty-year anniversary. "It is my North Star and always will be."
 
-He was a child who opposed the war while his neighbors waved flags for it. A kid whose temple community had to harden itself while the town around him prepared for retaliation. The lesson arrived before he had the vocabulary for it: _your government can lie to you, and the people around you will believe the lie._
+He was a child who opposed the war while his neighbors waved flags for it. A kid whose temple community had to live under suspicion while the town around him prepared for retaliation. The lesson arrived before he had the vocabulary for it: _your government can lie to you, and the people around you will believe the lie._
 
 Most people who absorb that wound at nine years old build walls. They retreat. They protect themselves by needing less from the world. Saagar did the opposite. He ran toward the world. Harder. Faster. On every front he could find.
 
@@ -157,7 +157,7 @@ A man who reads for safety stays in the chair. A man who reads because he's hung
 
 The core of a [Type 7](/enneagram-corner/enneagram-type-7) is the fear of being trapped in pain — of being deprived, limited, stuck in suffering with no escape route. The response is forward motion. Consume. Experience. Expand. Reframe. Where other types build walls against the world, Sevens build runways out of it.
 
-Saagar's childhood wound maps this precisely. The world showed him it was dangerous before he turned ten. His temple community locked down. His government lied. People on his street went to die for those lies. The Seven's response to that kind of fear isn't to hide. It's to outrun it. To know more than anyone else. To experience more than anyone else. To see through every lie before it lands.
+Saagar's childhood wound maps this precisely. The world showed him it was dangerous before he turned ten. His temple community lived under suspicion. His government lied. People on his street went to die for those lies. The Seven's response to that kind of fear isn't to hide. It's to outrun it. To know more than anyone else. To experience more than anyone else. To see through every lie before it lands.
 
 Lex Fridman, introducing him on their December 2024 follow-up conversation, called him "one of the most well-read people I've ever met" whose "love of history and the wisdom gained from reading thousands of history books radiates through every analysis he makes of the world." Fascination — not detachment — is the through-line.
 
@@ -273,6 +273,8 @@ For all the Seven's restlessness — the serial obsessions, the expanding platfo
 
 Saagar and [Krystal Ball](/personality-analysis/krystal-ball) have survived three platform changes together. Rising. Breaking Points. Their co-authored 2020 book, _The Populist's Guide to 2020_. They left stable jobs together. Built from nothing together. Disagreed publicly on air while maintaining a partnership that shows no sign of fracture.
 
+Their disagreements are part of the point, not a branding accident. On war, immigration, social trust, speech rules, and the limits of anti-establishment politics, Saagar often begins from risk, order, and historical contingency; Krystal often begins from material dignity, democratic accountability, and moral obligation. Breaking Points works when each lets the other expose the weakness in the argument without turning disagreement into contempt.
+
 His loyal side holds the relationships steady while the restless core keeps chasing the next horizon. The people he's tested and chosen — Krystal, Jill McGrath, Marshall Kosloff at The Realignment — they stay. Everyone else is a temporary collaborator in the latest campaign.
 
 His daughter, Priya June Enjeti, was born on Mother's Day 2025. She required NICU care. Saagar posted the announcement on Instagram two days later, his public voice gone quiet for once. A month earlier, he'd memorialized his childhood dog of seventeen years. For a man who moves at this velocity, the private bonds hold with a steadiness that contradicts the public pace entirely.
@@ -293,7 +295,7 @@ But even Fridman's warm framing — "one of the most well-read people I've ever 
 
 There's a hike in Shenandoah National Park where Saagar and Jill got lost. Went four miles past their intended turnaround. Most people would tell that story as a cautionary tale about preparation. Saagar told it like a highlight.
 
-A cautious researcher gets lost on a trail and recalculates the optimal route home. Saagar gets lost and keeps going to see what's past the next ridge. At some point you have to wonder whether Saagar Enjeti is running toward the next revelation or away from the nine-year-old whose temple community had to harden itself while his neighbors waved flags. Probably both. And probably he'll never stop long enough to find out which one is winning.
+A cautious researcher gets lost on a trail and recalculates the optimal route home. Saagar gets lost and keeps going to see what's past the next ridge. That is the profile in miniature: the boy who learned early that institutions can lie, and the man who keeps moving until he can see the terrain for himself. The motion is not emptiness. It is how he turns fear into a map.
 
 <!-- ============================================================
 FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)

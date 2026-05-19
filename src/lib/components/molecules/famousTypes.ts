@@ -17,7 +17,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'james-dyson', link: true, hasImage: true, lastmod: '2026-04-17', personaTitle: 'Engineering\'s Relentless Reformer', contentGrade: 9, types: ['techie', 'entrepreneur', 'business-operator'] },
 		{ name: 'jordan-peterson', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Psychology\'s Weeping Crusader', contentGrade: 9.4, types: ['psychology', 'strategy-writer'] },
 		{ name: 'kourtney-kardashian', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Reality\'s Reluctant Reformer', contentGrade: 8.9, types: ['celebrity', 'celebrity-image'] },
-		{ name: 'krystal-ball', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Media\'s Principled Arsonist', contentGrade: 9, types: ['creator', 'news-commentator'] },
+		{ name: 'krystal-ball', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Media\'s Moral Dissenter', contentGrade: 9, types: ['creator', 'news-commentator'] },
 		{ name: 'matt-damon', link: true, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Hollywood\'s Disciplined Everyman', contentGrade: 8.6, types: ['movieStar', 'screen-icon'] },
 		{ name: 'michael-seibel', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Silicon Valley\'s Principled Gatekeeper', contentGrade: 8.8, types: ['techie'] },
 		{ name: 'michelle-obama', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'The First Lady of Controlled Fire', contentGrade: 9.1, types: ['politician', 'political-spouse'] },
@@ -449,7 +449,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'lizzo', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] },
 		{ name: 'salma-hayek', link: false, hasImage: false, lastmod: '2026-05-11', personaTitle: 'Hollywood\'s Velvet-Gloved Challenger', contentGrade: 8.8, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'sean-connery', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
-		{ name: 'sean-penn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] }
+		{ name: 'sean-penn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
+		{ name: 'tyler1', link: false, hasImage: false, lastmod: '2026-05-19', personaTitle: 'Streaming\'s Disciplined Brawler', contentGrade: null, types: ['creator', 'streamer'] }
 	],
 	9: [
 		{ name: 'abraham-lincoln', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Melancholy Peacemaker', contentGrade: 9, types: ['historical', 'politician', 'historical-leader'] },

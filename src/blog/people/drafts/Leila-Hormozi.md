@@ -64,6 +64,39 @@ content_quality:
   graded_at: '2026-04-04'
 ---
 
+<!-- ============================================================
+PLANNED EDITS — 2026-05-19 (DJ + Claude review pass)
+Full analysis: docs/content-analysis/hormozi-profile-review-2026-05-19.md
+
+PRE-SEND FIXES (this session) — ALL COMPLETED 2026-05-19:
+[x] Verify Fortune article date: Jan 12 2026, confirmed
+[x] Verify CEO transition: Sharran Srivatsaa confirmed
+[x] Standardize Acquisition.com revenue: now $250M+ to match Alex's piece.
+[x] Standardize $46.2M sale phrasing: now "majority stake in Gym Launch and Prestige
+    Labs for $46.2 million cash" in both pieces.
+[x] Standardize $100M Money Models numbers: 2,917,443 day one + $82M in 24hrs +
+    $106M over 3 days, consistent across both pieces.
+[x] Added new "The Outer Architecture" subsection in "How Leila Hormozi Performs
+    Composure" — engages plastic surgery in her own words, framed as Type 3 image
+    architecture (matching the existing inner-architecture thesis). Stuck to what she
+    has confirmed publicly: rhinoplasty + makeup-routine changes. No "facial
+    reconstruction" language.
+[x] Added critical layoff paragraph in "Leila Hormozi's Role Inside Acquisition.com":
+    HR leak + Glassdoor 4.9 → 2.2 crash + her own framing of swinging too far trying
+    to be liked. Names the cost that falls on the team, not the leader.
+
+LATER (post-send, not blocking):
+[ ] Pull the mother's-absence paragraph (lines 156-157) out as its own short beat.
+[ ] Pay off the uncle's 8-year-prison setup — currently dropped at line 135.
+[ ] Connect the four flat years (15-19) explicitly to the "rest feels like quitting" close.
+[ ] Rotate the triplet tic ("Humiliating. Effective." + "Not butterflies. Not chemistry.
+    Recognition." in adjacent sections).
+[ ] Source the $50M / 4,000+ locations / $46.2M / $100M-by-28 financials inline.
+[ ] Source the 85-lb weight loss or soften.
+============================================================ -->
+
+
+
 <!-- QUALITY GRADE: B+ (8.6)
 Hook: 9 | Enneagram: 9 | Evidence: 8 | Writing: 9 | Originality: 8
 
@@ -224,7 +257,7 @@ What followed was the hardest period of their lives, and the most clarifying. Th
 
 They recorded each other on iPhones doing cartwheels and backflips for gym marketing materials. Humiliating. Effective.
 
-Within two years, Gym Launch went from zero to $50 million in revenue. They scaled to 4,000+ locations. They founded three companies across four industries (software, service, e-commerce, brick and mortar) without outside capital. They sold a majority stake to American Pacific Group for $46.2 million. By 28, Leila's net worth hit $100 million.
+Within two years, Gym Launch went from zero to $50 million in revenue. They scaled to 4,000+ locations. They founded three companies across four industries (software, service, e-commerce, brick and mortar) without outside capital. In 2021, American Pacific Group bought a majority stake in Gym Launch and Prestige Labs for $46.2 million cash. By 28, Leila's net worth hit $100 million.
 
 All of it built on a frozen yogurt date and a promise made in a spare bedroom.
 
@@ -238,7 +271,17 @@ _"If you want to get s\*\*t done... There are no shortcuts/hacks. You just have 
 
 This anti-ritual IS the ritual. Where other influencers perform wellness, Leila performs pure output. The routine tells you exactly what a Three values: doing, not being.
 
-But the most revealing thing about Leila isn't the routine. It's what happens underneath it.
+### The Outer Architecture
+
+The same engineering instinct shows up in the body. In a blog post titled ["How My Makeup Routine Has Changed Since Plastic Surgery"](https://hormozi.blog/how-my-makeup-routine-has-changed-since-plastic-surgery/), Leila walked through the practical consequences of her own face being different: rhinoplasty changed the focal point, so the dramatic eye makeup she used to wear to pull attention away from her nose no longer worked. The whole approach had to be rebuilt.
+
+Her own framing of the surgery is the line worth sitting with: _"I got plastic surgery because I care what I look like... whether you guys think it's bad that I did this or good that I do. This is divorced from the fact that all I care about is that I'm honest."_
+
+It's a strangely Type 3 sentence. The honesty isn't a defense of the surgery. It's the deeper currency she's trying to protect. The body is something she can engineer. So is the makeup. So is the morning routine. What she's unwilling to engineer is the story about why. A Three who decides to admit something about image-consciousness — rather than perform that she's "above" it — is a Three refusing to curate the explanation while still curating the face.
+
+Many readers will flinch at the openness. The flinch is the diagnostic. We expect successful women to either deny cosmetic work or weaponize it. Leila does neither. She names it as architecture, the same way she names her morning routine as architecture and (next) her emotional system as architecture. The whole self is the project. The surgery is just the part most people lie about.
+
+But the most revealing thing about Leila isn't the routine, and it isn't the surgery. It's what happens underneath both of them.
 
 After her father's intervention, she didn't just change her habits. She rebuilt her entire emotional operating system. She studied Albert Ellis (the founder of Rational Emotive Behavior Therapy) and Stephen Hayes, who developed Acceptance and Commitment Therapy. From them, she built what might be the most Type 3 coping mechanism imaginable: the 5-minute rule.
 
@@ -278,9 +321,11 @@ Alex is the visionary. He creates content, writes books, develops frameworks tha
 
 Leila sees all the steps to get there.
 
-She's the operator. The CEO who ran Acquisition.com's day-to-day operations across a portfolio generating $200M+ in annual revenue. She built the team past 100 people, hiring 41 in a single quarter during 2025. And when a launch underperformed expectations, she didn't spin it. She [laid off half the team](https://hormozi.blog/we-fired-half-our-teamthis-is-why/), publicly explained why, and built an accountability formula she published for anyone to use: _"Expectations + Measurement x Feedback = Accountability."_
+She's the operator. The CEO who ran Acquisition.com's day-to-day operations across a portfolio generating $250M+ in annual revenue. She built the team past 100 people, hiring 41 in a single quarter during 2025. And when a launch underperformed expectations, she didn't spin it. She [laid off half the team](https://hormozi.blog/we-fired-half-our-teamthis-is-why/), publicly explained why, and built an accountability formula she published for anyone to use: _"Expectations + Measurement x Feedback = Accountability."_
 
 On the [Female Startup Club podcast](https://www.femalestartupclub.com/blogs/podcasts/leila-hormozi-prestige-labs), she described it without flinching: _"I had to lay off like half a team because we hired in anticipation of a launch we're going to do, and that launch didn't go nearly as well as we anticipated."_ Most founders bury that story. Leila teaches from it.
+
+But teaching from it isn't the same as the team feeling taught. The day before the layoff, her HR director texted one person who told the rest of the team. The leak gutted the rollout. Acquisition.com's Glassdoor rating dropped from 4.9 to 2.2 — a public scoreboard moving in the wrong direction for a Type 3 who builds entire systems around the right scoreboard moving. Leila has named the underlying failure in her own voice: she'd defaulted to wanting to be liked, then swung too far the other way trying to overcorrect, and had to find a middle she didn't have a map for. _"Being so nice you don't tell people the truth has the same long-term effect on people as yelling at your team,"_ she's said. It does — for the leader. For the person on the other side of a Three who's trying to engineer her way to the right calibration, the cost is real, and it's not paid by the Three. The accountability formula she published is genuinely useful. It also exists because the version of her that hired those forty-one people in a quarter ran ahead of the version of her that had to lay half of them off.
 
 In a [Fortune interview](https://fortune.com/2026/01/12/acquisition-com-ceo-emotional-intelligence-over-technical-skills-success/) in January 2026, she described her hiring philosophy: _"People overvalue technical skills and undervalue social and emotional skills."_ She cited the Ritz-Carlton model: hire for character, train for competence. This from the woman who built her own emotional system from behavioral psychology textbooks. She doesn't just manage teams. She selects for the emotional architecture she had to build herself.
 
@@ -306,7 +351,7 @@ She had to be her own bridge first.
 
 ## What Leila Hormozi Learned From Burnout and Surgery
 
-In August 2025, Leila and Alex broke the Guinness World Record for the fastest-selling nonfiction book. Alex's _$100M Money Models_ sold 2.9 million copies in a single day, generating $106 million in three days. They bought a second building. They crossed 100 teammates at Acquisition.com.
+In August 2025, Leila and Alex broke the Guinness World Record for the fastest-selling nonfiction book. Alex's _$100M Money Models_ sold 2,917,443 copies on day one (August 17, 2025) — generating roughly $82 million in 24 hours and crossing $106 million over the 3-day launch weekend. They bought a second building. They crossed 100 teammates at Acquisition.com.
 
 And then, in January 2026, Leila published a blog post called ["What Rising Reveals."](https://leilahormozi.com/p/what-rising-reveals)
 

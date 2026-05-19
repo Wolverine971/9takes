@@ -49,8 +49,8 @@ same_as:
   - 'https://www.nickiminajofficial.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Nicki_Minaj'
-  - 'https://www.wikidata.org/wiki/Q162202'
   - 'https://www.imdb.com/name/nm3747326/'
+  - 'https://www.britannica.com/biography/Nicki-Minaj'
   - 'https://www.nickiminajofficial.com/'
 faqs:
   - question: 'What is Nicki Minaj''s personality type?'
