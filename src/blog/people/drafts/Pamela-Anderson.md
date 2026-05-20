@@ -4,12 +4,12 @@ meta_title: "Why Pamela Anderson Keeps Falling in Love (and Walking Away)"
 description: "The Baywatch icon was never the fantasy. A Type 7 lens on Pamela Anderson's four-day wedding, her Ladysmith garden, and the survival skill behind her chaos."
 persona_title: "Hollywood's Romantic Fugitive"
 author: 'DJ Wayne'
-date: '2026-05-06'
+date: '2026-05-20'
 loc: 'https://9takes.com/personality-analysis/pamela-anderson'
-lastmod: '2026-05-06'
+lastmod: '2026-05-20'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['celebrity', 'movieStar', 'screen-icon']
 person: 'pamela-anderson'

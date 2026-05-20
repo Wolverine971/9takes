@@ -36,7 +36,7 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="How do I find my Enneagram type?">
-Skip the 200-question tests. Find your type in 4 steps: (1) Identify your core emotion—anger, shame, or fear; (2) Match your childhood coping strategy to one of the 9 types; (3) Read all type descriptions and notice which one makes you uncomfortable (that's often yours); (4) Ask people who know you well what motivates your behavior. Focus on WHY you do things, not WHAT you do.
+Skip the 200-question tests. Find your type in 4 steps: (1) Identify your core emotion: anger, shame, or fear; (2) Match your childhood coping strategy to one of the 9 types; (3) Read all type descriptions and notice which one makes you uncomfortable (that's often yours); (4) Ask people who know you well what motivates your behavior. Focus on WHY you do things, not WHAT you do.
 </QuickAnswer>
 
 **Read time**: 10 minutes | **Key insight**: Your type is found through motivation, not behavior
@@ -47,7 +47,7 @@ Skip the 200-question tests. Find your type in 4 steps: (1) Identify your core e
 
 You know _what_ you do. But not _why_ you do it.
 
-That's where the Enneagram changes everything. In the next 10 minutes, you'll discover which of the nine types drives your deepest motivations—and finally understand the "why" behind your patterns.
+That's where the Enneagram changes everything. In the next 10 minutes, you'll discover which of the nine types drives your deepest motivations and finally understand the "why" behind your patterns.
 
 No fluff. No 200-question tests. Just **four proven steps** to find your type.
 
@@ -59,7 +59,7 @@ Here's the truth:
 
 Most personality systems are like taking a photo of your house from the outside. The Enneagram? It gives you the blueprints.
 
-> **"The Enneagram doesn't put you in a box. It shows you the box you're already in—and how to break free."**
+> **"The Enneagram doesn't put you in a box. It shows you the box you're already in and how to break free."**
 
 ### Why the Enneagram Actually Works
 
@@ -78,11 +78,11 @@ Your confident friend at the party? Could be a **Type 3** showcasing achievement
 
 Same behavior. **Completely different reasons.**
 
-That's the power here—understanding the invisible forces that drive you.
+That's the power here, understanding the invisible forces that drive you.
 
 ---
 
-## Step 2: Find Your Emotional Home Base (This Changes Everything)
+## Step 2: Find Your Emotional Home Base
 
 Forget complex theories.
 
@@ -97,7 +97,7 @@ Which one feels most familiar?
 - Your first reaction is physical (fight, freeze, or withdraw)
 - You're constantly aware of power dynamics
 - Control and autonomy are non-negotiable
-- Injustice makes your blood boil (or simmer)
+- Injustice makes your blood boil
 
 **But here's the twist:**
 
@@ -145,11 +145,11 @@ _Ask yourself:_ Do you hide, prepare, or run?
 
 ---
 
-## Step 3: Connect the Dots to Your Childhood (It All Makes Sense Now)
+## Step 3: Connect the Dots to Your Childhood
 
 Your Enneagram type isn't random.
 
-It's a brilliant survival strategy you developed as a kid. Not necessarily from trauma—sometimes just from being human in an imperfect world.
+It's a brilliant survival strategy you developed as a kid. Not necessarily from trauma. Sometimes just from being human in an imperfect world.
 
 ### If You're ANGER-Driven (8, 9, 1):
 
@@ -220,7 +220,9 @@ quotes={[
 
 Now for the moment of recognition.
 
-Read these descriptions slowly. One will feel uncomfortably accurate—like someone's been reading your diary.
+Read these descriptions slowly. One will feel uncomfortably accurate, like someone's been reading your diary.
+
+<section style="border: 1px solid rgba(120,113,108,0.25); border-radius: 12px; padding: 0.5rem 1.5rem 1rem; margin: 2rem 0; background: rgba(120,113,108,0.04);">
 
 ### 🔥 **The Body Types (Gut Center)**
 
@@ -266,6 +268,10 @@ _"There's a right way to do everything"_
 **Your superpower:** Making things better  
 **Your kryptonite:** Accepting imperfection
 
+</section>
+
+<section style="border: 1px solid rgba(120,113,108,0.25); border-radius: 12px; padding: 0.5rem 1.5rem 1rem; margin: 2rem 0; background: rgba(120,113,108,0.04);">
+
 ### 💔 **The Heart Types (Feeling Center)**
 
 #### **Type 2 - The Helper**
@@ -309,6 +315,10 @@ _"Something essential is missing in me"_
 
 **Your superpower:** Finding beauty in pain  
 **Your kryptonite:** Accepting your inherent completeness
+
+</section>
+
+<section style="border: 1px solid rgba(120,113,108,0.25); border-radius: 12px; padding: 0.5rem 1.5rem 1rem; margin: 2rem 0; background: rgba(120,113,108,0.04);">
 
 ### 😰 **The Head Types (Thinking Center)**
 
@@ -354,6 +364,8 @@ _"Life is full of possibilities I can't miss"_
 **Your superpower:** Turning lead into gold  
 **Your kryptonite:** Sitting with discomfort
 
+</section>
+
 **Which one made you uncomfortable?** That's probably your type.
 
 ---
@@ -386,12 +398,6 @@ Each type has **predictable patterns** when thriving or struggling. These "[conn
 
 ---
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'ADHD & personality 🧠', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'}, {name: 'overthinking patterns 💭', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'mental health risks 🏥', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
-</div>
-
----
-
 ## The 3 Reasons You're Still Confused (And How to Fix Them)
 
 ### Mistake #1: You're Typing Your Behavior, Not Your Motivation
@@ -417,6 +423,12 @@ Each type has **predictable patterns** when thriving or struggling. These "[conn
 
 ---
 
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'self-sabotage patterns 🔄', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'ADHD & personality 🧠', link: '/enneagram-corner/enneagram-and-adhd-which-types-struggle-most'}, {name: 'overthinking patterns 💭', link: '/enneagram-corner/why-you-cant-stop-overthinking-enneagram'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'mental health risks 🏥', link: '/enneagram-corner/enneagram-and-mental-illness'} ]} />
+</div>
+
+---
+
 ## Your Next Move (This Is Where Real Growth Begins)
 
 Congratulations. You've just discovered something 90% of people never will:
@@ -425,7 +437,7 @@ Congratulations. You've just discovered something 90% of people never will:
 
 But here's what matters more:
 
-- Your type isn't your destiny—it's your starting point
+- Your type isn't your destiny. It's your starting point
 - Every type can be healthy or unhealthy
 - Awareness is the first step to freedom
 

@@ -76,7 +76,7 @@ faqs:
     answer: 'Type 3 (The Achiever) is the obvious alternative given her business success. But Threes are driven by a need to be valued for accomplishments and image. Pokimane has repeatedly walked away from opportunities that would boost her profile but compromise her values.'
     anchor: 'why-not-type-3-9-or-1'
   - question: 'Why is Pokimane typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Livestreaming, Television production.'
+    answer: 'Every defining choice in her career maps to the Loyalist pattern: trust-testing institutions before committing, walking away from $3M to $10M offers that compromise security, capping donations to neutralize parasocial leverage, and writing 11-page receipts documents when allies turn. The counterphobic edge (running toward threats rather than away) and the safety-net architecture (OfflineTV, RTS, the snack company, the podcast) confirm a 6w7 with self-preservation dominance.'
     anchor: 'why-is-pokimane-typed-as-an-enneagram-type-6'
 twitter: 'pokaborat'
 instagram: 'pokimane'
@@ -249,11 +249,11 @@ The <a href="https://www.dexerto.com/entertainment/pokimane-shares-crazy-story-a
 
 She was four. She barely had the language. She already had the instinct.
 
-Think about what that scene tells you. The brother — older, bigger, the one who *should* be the protector — gets hit. The four-year-old little sister, the one who needs protecting, becomes the protector. Roles invert under threat. A Six's loyalty is not abstract; it's directional, and the direction is always *toward* the person in her circle who's been wronged. That instinct never left her. Twenty years later, the same wiring would tear an 11-page defense apart for Yvonnie Ng, walk away from a $10 million Kick deal to refuse complicity with gambling streams, and frame her own celibacy as a defense of her energy.
+Look at what that scene tells you. The brother — older, bigger, the one who *should* be the protector — gets hit. The four-year-old becomes the protector instead. Roles invert under threat. A Six's loyalty isn't abstract; it's directional, and the direction is always *toward* the person in her circle who's been wronged. That instinct never left her. Twenty years later, the same wiring would write an 11-page receipts document defending her closest friends after a housemate's betrayal, walk away from a $10 million Kick deal rather than be complicit in gambling streams, and frame her own celibacy as a defense of her energy.
 
-Growing up Berber-Moroccan in francophone Ontario meant three worlds running in parallel. French became her first language formally — Quebec's <a href="https://en.wikipedia.org/wiki/Charter_of_the_French_Language">Bill 101</a> required French-only schooling, and she went through the system from age four. English was social oxygen once the family moved to Ontario. Moroccan Arabic — her parents' real tongue, the one Hafida and Rachid spoke between themselves — she'd later describe knowing only "a little bit," a half-tongue at home. She's called herself a speaker of "two and a half languages."
+Growing up Berber-Moroccan in francophone Ontario meant three worlds running in parallel. French became her first language formally — Quebec's <a href="https://en.wikipedia.org/wiki/Charter_of_the_French_Language">Bill 101</a> required French-only schooling, and she went through the system from age four. English was social oxygen once the family moved to Ontario. Moroccan Arabic — her parents' real tongue, the one Hafida and Rachid spoke between themselves — she'd later describe knowing only "a little bit." She's called herself a speaker of "two and a half languages."
 
-That half-language is a Six detail. Constant code-switching builds hyperawareness — you learn to read the room before you speak, you learn which version of yourself each room requires — but a half-tongue at home means part of her parents' inner life was always slightly out of reach. Her brother got there first; she came in behind him. Even at home, she was the second one through the door.
+That missing half is a Six detail. Constant code-switching builds hyperawareness — you learn to read the room before you speak, you learn which version of yourself each room requires — but the partial Arabic at home meant part of her parents' inner life was always slightly out of reach. Mo got there first. She came in behind him. Even at home, she was the second one through the door.
 
 Mo introduced her to gaming. He passed down his Game Boy, Nintendo DS, and Wii — used hardware, hand-me-down, the kind of inheritance that comes pre-loved in immigrant households where the parents' answer to "can I have a new one" is usually "use your brother's." Gaming became what she'd later call <a href="https://www.essentiallysports.com/esports-news-my-after-school-secret-life-twitch-queen-pokimane-reveals-how-she-hid-her-hobby/">"my after-school secret life."</a>
 
@@ -321,7 +321,7 @@ The mistake most analyses of Pokimane make is treating her career as a series of
 
 **The found family.** OfflineTV's official statement on her departure called her "a pillar of OTV since it formed in 2017." Scarra has repeatedly credited her as one of the driving forces behind the group's culture, not just its commercial success. The "fortress builder" framing makes her sound cold; what she actually built was a *house*. The Six's most under-rated capacity is exactly this — once trust is established, the loyalty is total.
 
-Hold all of that in your head before the next section. Because the Fedmyster story is not just about a Six discovering a betrayal. It's about a Six discovering that the *house she built* — the one place she'd allowed herself to be fully invested — had been quietly hollowed from the inside.
+That's the context the Fedmyster story has to be read against. Not a Six discovering a betrayal. A Six discovering that the *house she built* — the one place she'd allowed herself to be fully invested — had been quietly hollowed from the inside.
 
 ---
 
@@ -399,7 +399,7 @@ The Six's ultimate growth move: trusting yourself enough to walk away from the s
 
 ## The Dr. K Session: "I Just Wish I Could Be Worthy of the Benefit of the Doubt"
 
-The <a href="https://www.youtube.com/watch?v=fh518OdBpbI">May 2020 interview with Dr. K on HealthyGamer</a> is the single most revealing window into who Pokimane actually is.
+Before the OTV exit, before RTS, before the cookies, before any of it — there was a single conversation that explains the rest. Rewind to the spring of 2020, six weeks before Fedmyster. The <a href="https://www.youtube.com/watch?v=fh518OdBpbI">May 9, 2020 interview with Dr. K on HealthyGamer</a> is the single most revealing window into who Pokimane actually is.
 
 She'd just announced a month-long hiatus from streaming and social media. She'd been "crying a lot and feeling very sensitive and on the verge of crying often over the last two weeks." She sat down composed. Professional.
 
@@ -453,9 +453,9 @@ Then, on <a href="https://www.sportskeeda.com/us/streamers/news-i-take-profits-p
 
 > "I didn't take any profits. What it means to be a content creator is very, very different from what it means to be a business owner. There are certain things that most businesses can get away with that you simply cannot do when you're a creator-backed brand."
 
-That's a Six finally separating two things she'd previously fused: the persona and the product. A 3 would frame the closure as a strategic pivot. A 1 would lead with apology and self-correction. The Six does what she always does — she identifies the system error ("creator-backed brand" as a category problem, not just a personal failure) and writes the post-mortem in the most Pokimane sentence possible: *I learned the rules of the new game by losing it once*.
+That's a Six finally separating two things she'd previously fused: the persona and the product. A 3 would frame the closure as a strategic pivot. A 1 would lead with apology and self-correction. The Six does what she always does — she identifies the system error and writes the post-mortem. "Creator-backed brand" reframed as a category problem, not a personal failure. The fortress doesn't take losses; it documents them, files them, and uses the rubble to write a better blueprint.
 
-**[Don't Tell Anyone](https://open.spotify.com/show/2k3DUGbvap0I40B2L7X122) Podcast (2023)**: "I'm tired of keeping secrets." The podcast was her attempt to close the gap between Pokimane and Imane, sharing the private self she'd spent a decade protecting.
+**Podcasts (2023–2026)**: First came [*Don't Tell Anyone*](https://open.spotify.com/show/2k3DUGbvap0I40B2L7X122), launched December 2023 with the tagline "I'm tired of keeping secrets" — her attempt to close the gap between Pokimane and Imane and share the private self she'd spent a decade protecting. She ended it in June 2024. Then *Sweet n Sour* with LilyPichu ran from September 2024 through April 2026, sixty-eight episodes before she closed that one too. Both podcasts followed the same arc: open a controlled channel for vulnerability, run it carefully, end it on her own schedule. Even her openness ships with an exit clause.
 
 ---
 
@@ -489,7 +489,7 @@ The reason she gave is the most Six sentence in the entire interview:
 
 > "I didn't wanna talk about my diagnosis for a little while because, I think anytime you're diagnosed with something, there's a bit of shame or feeling like 'Oh, is something wrong with me?' or 'Are people gonna judge me?'"
 
-Read that twice. For most people, a chronic-but-manageable diagnosis registers as a *health* problem. For a Six, it registers as a *trust* problem — *can I trust my own body, can I trust my audience to handle this, can I trust myself to disclose without losing the perimeter I've built?* PCOS for Pokimane wasn't a medical event. It was the discovery that one more system she'd been depending on — her own biology — was running on rules she hadn't been briefed on. The body became another fortress to threat-model. The diet changed. The training routines changed. Myna Snacks was, in part, the entrepreneurial output of that re-architecting.
+For most people, a chronic-but-manageable diagnosis registers as a *health* problem. For a Six, it registers as a *trust* problem — *can I trust my own body, can I trust my audience to handle this, can I trust myself to disclose without losing the perimeter I've built?* PCOS wasn't a medical event for Pokimane. It was the discovery that one more system she'd been depending on — her own biology — was running on rules she hadn't been briefed on. The body became another fortress to threat-model. The diet changed. The training routines changed. Myna Snacks was, in part, the entrepreneurial output of that re-architecting.
 
 Then, in <a href="https://www.dexerto.com/twitch/pokimane-tearfully-reveals-overwhelming-health-scare-after-lump-regrows-2971809/">November 2024</a>, a lump that had previously been removed from her chest grew back. Her gynecologist flagged it during a routine MRI. A second lump showed up on the imaging. Multiple biopsies followed.
 

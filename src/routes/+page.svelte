@@ -928,7 +928,7 @@
 								<span class="mono">[PORTRAIT]</span>
 							</div>
 						{/if}
-						<span class="mono library-type-chip">T{typeNum}</span>
+						<span class="mono library-type-chip" aria-hidden="true">T{typeNum}</span>
 					</div>
 					<div class="library-card-body">
 						<span class="mono library-id">

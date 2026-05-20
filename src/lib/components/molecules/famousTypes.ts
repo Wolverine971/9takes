@@ -367,7 +367,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'markiplier', link: false, hasImage: true, lastmod: '2026-03-28', personaTitle: 'YouTube\'s Loudest Mourner', contentGrade: 8.9, types: ['creator', 'viral-entertainer'] },
 		{ name: 'mike-majlak', link: true, hasImage: true, lastmod: '2026-04-16', personaTitle: 'Recovery\'s Restless Evangelist', contentGrade: 8.7, types: ['creator', 'influencer', 'viral-entertainer'] },
 		{ name: 'palmer-luckey', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Middle Earth\'s Arms Dealer', contentGrade: 9, types: ['techie', 'frontier-builder'] },
-		{ name: 'pamela-anderson', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Hollywood\'s Romantic Fugitive', contentGrade: 9, types: ['celebrity', 'movieStar', 'screen-icon'] },
+		{ name: 'pamela-anderson', link: true, hasImage: true, lastmod: '2026-05-20', personaTitle: 'Hollywood\'s Romantic Fugitive', contentGrade: 9, types: ['celebrity', 'movieStar', 'screen-icon'] },
 		{ name: 'paul-graham', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Serial Escape Artist', contentGrade: 8.7, types: ['techie', 'investor'] },
 		{ name: 'reid-hoffman', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Silicon Valley\'s Restless Philosopher', contentGrade: 8.8, types: ['techie', 'investor'] },
 		{ name: 'robert-downey-jr', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Hollywood\'s Comeback Alchemist', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
