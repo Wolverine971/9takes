@@ -59,7 +59,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/David_O._Sacks'
   - 'https://www.wikidata.org/wiki/Q5238174'
   - 'https://www.imdb.com/name/nm1616294/'
-  - 'https://twitter.com/DavidSacks'
   - 'https://www.craftventures.com/team/david-sacks'
 citations:
   - 'https://en.wikipedia.org/wiki/David_O._Sacks'

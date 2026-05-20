@@ -57,7 +57,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Mark_Zuckerberg'
   - 'https://www.wikidata.org/wiki/Q36215'
   - 'https://www.imdb.com/name/nm3212916/'
-  - 'https://www.instagram.com/zuck/'
   - 'https://about.meta.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Mark_Zuckerberg'

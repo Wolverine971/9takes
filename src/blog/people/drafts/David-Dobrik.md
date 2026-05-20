@@ -50,7 +50,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/David_Dobrik'
   - 'https://www.wikidata.org/wiki/Q50574810'
   - 'https://www.imdb.com/name/nm7228036/'
-  - 'https://www.youtube.com/@DavidDobrik'
 citations:
   - 'https://en.wikipedia.org/wiki/David_Dobrik'
   - 'https://en.wikipedia.org/wiki/Vlog_Squad'

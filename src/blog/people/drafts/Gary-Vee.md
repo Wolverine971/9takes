@@ -52,7 +52,6 @@ same_as:
   - 'https://www.wikidata.org/wiki/Q3098629'
   - 'https://www.imdb.com/name/nm2734089/'
   - 'https://garyvaynerchuk.com/'
-  - 'https://twitter.com/garyvee'
 citations:
   - 'https://en.wikipedia.org/wiki/Gary_Vaynerchuk'
   - 'https://garyvaynerchuk.com/biography/'

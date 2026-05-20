@@ -44,8 +44,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Taylor_Frankie_Paul'
   - 'https://www.wikidata.org/wiki/Q130278034'
   - 'https://www.imdb.com/name/nm16390303/'
-  - 'https://www.instagram.com/taylorfrankiepaul/'
-  - 'https://www.tiktok.com/@taylorfrankiepaul'
 citations:
   - 'https://en.wikipedia.org/wiki/Taylor_Frankie_Paul'
   - 'https://en.wikipedia.org/wiki/The_Secret_Lives_of_Mormon_Wives'

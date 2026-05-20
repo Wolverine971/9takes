@@ -50,7 +50,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Tim_Cook'
   - 'https://www.wikidata.org/wiki/Q265852'
   - 'https://www.imdb.com/name/nm7378038/'
-  - 'https://twitter.com/tim_cook'
   - 'https://www.apple.com/leadership/tim-cook/'
 citations:
   - 'https://en.wikipedia.org/wiki/Tim_Cook'

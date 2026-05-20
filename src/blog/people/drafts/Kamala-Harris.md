@@ -49,8 +49,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Kamala_Harris'
   - 'https://www.wikidata.org/wiki/Q10853588'
   - 'https://www.imdb.com/name/nm3668431/'
-  - 'https://twitter.com/KamalaHarris'
-  - 'https://www.instagram.com/kamalaharris/'
 citations:
   - 'https://en.wikipedia.org/wiki/Kamala_Harris'
   - 'https://www.britannica.com/biography/Kamala-Harris'

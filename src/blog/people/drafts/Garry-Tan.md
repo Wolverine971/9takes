@@ -55,9 +55,7 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Garry_Tan'
   - 'https://www.wikidata.org/wiki/Q23417057'
-  - 'https://twitter.com/garrytan'
   - 'https://www.ycombinator.com/people/garry-tan'
-  - 'https://blog.garrytan.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Garry_Tan'
   - 'https://www.ycombinator.com/people/garry-tan'
@@ -171,6 +169,8 @@ But partnerships under pressure reveal character. In 2020 Ohanian left to start 
 
 The firm they built struggled without either of them. By October 2024, Initialized had cut staff from 33 to 21. Key partners departed. The fund that once minted unicorns was restructuring to survive a dormant IPO market. "The best partnerships are the people that you enjoy disagreeing with the most," Tan has said. "You know the relationship won't be harmed." But sometimes it is.
 
+There's a particular cruelty in that for a Six. The man whose entire psychological project was engineering institutional safety watched his own firm shed a third of its people. The structure he built was subject to the same gravity as every structure — market cycles, founder dynamics, partners with other dreams. Safety nets aren't gravity-proof. Sometimes the institution you built to outlast the chaos becomes part of it.
+
 Ask Tan about the Coinbase investment and he doesn't talk about returns. He talks about earnestness.
 
 "The #1 characteristic is earnestness — incredibly sincere," he says about what he looks for in founders. "What you see is what you get."
@@ -180,6 +180,8 @@ Armstrong, he notes, was driven by genuine frustration with financial systems, n
 "Most successful companies start with founders who never meant to start a company."
 
 The philosophy is autobiographical. Tan never meant to become an investor either. Earnestness isn't a metric he evaluates founders against — it's the quality he recognizes because he's lived it.
+
+That conviction got tested in late 2022, when FTX imploded and the crypto skeptics started doing victory laps. Plenty of Coinbase's early believers went quiet. Tan didn't. He stayed publicly bullish on Coinbase and on the broader crypto rails — drawing sharp lines between Armstrong's compliance-first operation and the FTX-style shell games that blew up around it. He'd vetted Armstrong's earnestness ten years earlier, and a Six who's actually vetted someone doesn't walk it back when sentiment turns. The crypto winter was a market read. His read on Armstrong was a character read. He never mixed the two.
 
 <details>
 <summary class="accordion">TL;DR: Why Garry Tan is an Enneagram Type 6</summary>
@@ -231,7 +233,7 @@ The high school journalist who'd discovered that media could change the world ha
 
 He paused. "That's my mask, man."
 
-The mask was functional — it got him through Microsoft, Palantir, the venture grind. It also kept him from dealing with what was underneath: the conflict avoidance, the compulsive achieving, the shopping-as-coping, the relationship patterns that repeated without resolution.
+The mask he named was the calm YouTube voice. But the same operating principle — perform competence, suppress mess — is the one that got him through Microsoft, Palantir, and the venture grind. Functional armor. It also kept him from dealing with what was underneath: the conflict avoidance, the compulsive achieving, the shopping-as-coping, the relationship patterns that repeated without resolution.
 
 A therapist eventually said the words that cracked it open: "Garry, you went through something that is not supposed to happen to children."
 
@@ -285,6 +287,8 @@ The numbers back him up. The Winter 2025 batch grew an average of 10% per week �
 
 He's giddy about it. Not in the polished way of a VC talking up his portfolio, but with the excitement of someone who remembers that code was the way out of a one-bedroom apartment, and now the code is writing itself.
 
+The critics aren't sold. A batch where 95% of the code is AI-written raises real questions: founders who don't fully understand their own stack, products that ship faster than the safety thinking can keep up, teams burning out chasing what AI makes possible rather than what users actually want. The argument inside and outside the YC ecosystem is whether the new pace produces durable companies or just faster failures. Tan treats the risk as a worthy trade — the same Six who white-knuckled the safety harness in gstack is, on the platform side, willing to wear the cost. To him, the cost of slowing down would be paid by the people who couldn't afford to start at all.
+
 ## G-Stack: A Type 6 Ships His Nervous System as Open Source
 
 The clearest window into who Garry Tan is in 2026 isn't a tweet or a podcast. It's a GitHub repository.
@@ -299,7 +303,7 @@ Read it through the Enneagram and every design choice snaps into focus.
 
 A Type 6 doesn't yolo. "Vibe coding" — AI-assisted coding that runs on feel and prompt intuition — is the opposite of how a Six survives. So gstack's documentation says it plainly: "100% test coverage is the goal — tests make vibe coding safe instead of yolo coding." That is the sentence of a man who was punched in the face for a B on a test. You don't let the system ship on vibes. You build the harness first.
 
-A Six doesn't trust a single authority either. So gstack splits the work across 23 named roles — design has a voice, security has a voice, QA has a voice, release engineering has a voice. You don't have to remember to check; the structure remembers for you. It is, almost literally, the institutional safety net a Fremont kid would engineer if he could draft a company from scratch.
+A Six doesn't trust a single authority either. So gstack splits the work across 23 named roles — design has a voice, security has a voice, QA has a voice, release engineering has a voice. You don't have to remember to check; the structure remembers for you. It is, almost literally, the institutional safety net you'd design if you'd grown up without one.
 
 And a Six who finally trusts a process evangelizes it — hard. Tan open-sourced the whole thing for free and has been hyping it at a volume that reads as self-promotion only if you miss what's underneath. He isn't really selling a dev tool. He's handing you the exact system that quiets his own nervous system, and he wants you to have it. It's the same impulse that had him pushing therapy on every founder with a high ACE score.
 
@@ -311,7 +315,7 @@ The man who wrote a $300,000 check into a cryptocurrency exchange nobody believe
 
 "If you have at least one person at YC who took an oath to look out for you for the life of the company," he says, "that's better than 90% of founders get."
 
-He's describing his father in the negative space.
+He's describing his father in the negative space. He's also describing Paul Graham and Jessica Livingston — the YC founders who hired him in 2011, who let him leave to build Initialized, and who welcomed him back to run the place a decade later. For a Six whose first authority figures were a drunk father and an absent grandfather, two adults who said what they meant and meant what they said was the original miracle. The YC oath he wants every founder to have is the one he finally got.
 
 ---
 
@@ -375,8 +379,33 @@ Tightening pass (same day, second pass):
 - G-Stack: tightened the adoption paragraph, collapsed two closing paragraphs into one, removed the "final layer" set-up line.
 -->
 
+<!-- EDITOR PASS NOTES (2026-05-19, DJ + Claude — two rounds responding to "how would Garry read this?" assessment)
+
+ROUND 1 — Fairness, accuracy, structural fixes:
+- "He was drunk" → "He'd been drinking." Matches his own apology wording; "drunk" carried an accusation he never used on himself.
+- Counterphobic trimmed from 3 active uses to 2 (kept FAQ + TL;DR; cut "counterphobic arsenal" line in political section, replaced with "new muscle").
+- "Still building ground for the people who couldn't build it for themselves" cut from family paragraph; reader already has the point.
+- Type-reveal opening rewritten: killed the "Most people see Garry Tan and think: combative tech bro" straw-man. "Table" thesis now lands first.
+- Added critic-engagement paragraph in political section: "The asymmetry is real, and it stays real even after the Enneagram explains the engine..." Sits with the disproportionality critique without rescuing it.
+- "That's not a business proposition. That's the promise he never got from his father" AI-cadence cut. Replaced with "He's describing his father in the negative space."
+- Added wing (6w5 builder / 6w7 political) and integration-to-Type-9 paragraphs after stress-to-3. Names the whiplash people feel and reads Noe Valley life as the integration.
+- Renamed "Still the Kid from Fremont" section → "The Door He's Holding Open." Kills the duplicate Fremont motif at the closing.
+
+ROUND 2 — Depth, missing beats, voice:
+- Extended the "negative space" beat with Paul Graham + Jessica Livingston — the first authority figures in his life who said what they meant. Critical Type 6 counterpoint to the father.
+- Strengthened Initialized 33→21 with a thematic paragraph: the Six who engineered institutional safety watching his own firm shed a third of its staff. "Safety nets aren't gravity-proof."
+- Added crypto post-FTX paragraph in Coinbase section: he stayed bullish when others went quiet. Loyalty to a vetted founder doesn't expire when sentiment turns. Distinguishes Armstrong from FTX-style operators.
+- Added YC AI-batch critic engagement in "Best Time in Startup History" section: 95%-AI-coded concerns (founder skill, brittleness, burnout). Adds psychological payoff to previously weakest section. Notes the inconsistency — gstack white-knuckles safety, platform side wears the cost.
+- Tightened mask extension: "The mask he named was the calm YouTube voice. But the same operating principle..." Makes clear which part is his self-description vs. the piece's interpretation.
+
+Intentionally left for a possible later pass:
+- "X. They never were" / "It wasn't X. It was Y" cadence: appears but spread out, each instance earns its move. Not crushing.
+- Stephanie Lim / Third State Books beat expansion: would need an on-the-record quote about partnership/parenting I don't have.
+- Brother / extended family context: still absent; no clean public source.
+-->
+
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)
+FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read — pre-2026-05-19 edits)
 ============================================================
 
 ONE-LINE VERDICT: The most analytically integrated of the nine — childhood wound, mid-career flip, and 2026 GitHub repo all snap into one Type 6 thesis — but the "Fremont kid" / "build the structure that wasn't built for him" refrain runs hot.

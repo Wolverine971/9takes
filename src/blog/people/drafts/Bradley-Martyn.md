@@ -48,7 +48,6 @@ tiktok: 'https://tiktok.com/@bradleymartyn'
 same_as:
   - 'https://www.wikidata.org/wiki/Q123029715'
   - 'https://www.imdb.com/name/nm8494471/'
-  - 'https://www.youtube.com/channel/UC7aE5B-ZFEAoumyj6FaJ7lg'
   - 'https://www.thezooculture.com/about'
 citations:
   - 'https://www.imdb.com/title/tt11717766/'

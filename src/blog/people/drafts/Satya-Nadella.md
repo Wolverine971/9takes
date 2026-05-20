@@ -49,7 +49,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Satya_Nadella'
   - 'https://www.wikidata.org/wiki/Q7426870'
   - 'https://www.imdb.com/name/nm8202665/'
-  - 'https://twitter.com/satyanadella'
   - 'https://news.microsoft.com/source/leadership/'
 citations:
   - 'https://en.wikipedia.org/wiki/Satya_Nadella'

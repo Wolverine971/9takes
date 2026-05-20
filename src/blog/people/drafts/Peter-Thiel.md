@@ -48,9 +48,7 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Peter_Thiel'
   - 'https://www.wikidata.org/wiki/Q705525'
   - 'https://www.imdb.com/name/nm1902615/'
-  - 'https://x.com/peterthiel'
-  - 'https://www.foundersfund.com/'
-  - 'https://www.palantir.com/'
+  - 'https://www.foundersfund.com/team/peter-thiel/'
 citations:
   - 'https://en.wikipedia.org/wiki/Peter_Thiel'
   - 'https://www.foundersfund.com/team/peter-thiel/'

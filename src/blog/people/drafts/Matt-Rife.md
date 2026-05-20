@@ -44,8 +44,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Matt_Rife'
   - 'https://www.wikidata.org/wiki/Q113632706'
   - 'https://www.imdb.com/name/nm5994231/'
-  - 'https://www.instagram.com/mattrife/'
-  - 'https://www.tiktok.com/@matt_rife'
 citations:
   - 'https://en.wikipedia.org/wiki/Matt_Rife'
   - 'https://en.wikipedia.org/wiki/Natural_Selection_(comedy_special)'

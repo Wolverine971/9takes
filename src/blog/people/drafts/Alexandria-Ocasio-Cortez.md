@@ -56,8 +56,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'
   - 'https://www.wikidata.org/wiki/Q55223040'
   - 'https://www.imdb.com/name/nm9936326/'
-  - 'https://twitter.com/AOC'
-  - 'https://www.instagram.com/aoc/'
   - 'https://ocasio-cortez.house.gov/'
 citations:
   - 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'

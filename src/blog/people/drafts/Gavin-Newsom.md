@@ -55,9 +55,7 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Gavin_Newsom'
   - 'https://www.wikidata.org/wiki/Q461391'
   - 'https://www.imdb.com/name/nm1821303/'
-  - 'https://twitter.com/GavinNewsom'
-  - 'https://www.instagram.com/gavinnewsom/'
-  - 'https://www.gavinnewsom.com/'
+  - 'https://www.britannica.com/biography/Gavin-Newsom'
 citations:
   - 'https://en.wikipedia.org/wiki/Gavin_Newsom'
   - 'https://www.britannica.com/biography/Gavin-Newsom'

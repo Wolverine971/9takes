@@ -95,7 +95,7 @@ And the [Enneagram Type 4](/enneagram-corner/enneagram-type-4) is the map.
 <ul>
 <li><b>Leader by Going First:</b> Paul Graham saw it at 23. At 17, Altman proved it by standing up in a hostile environment and becoming the leader by being the most honest person in the room.</li>
 <li><b>Meaning Over Money:</b> Takes no equity and earns $76K running one of the most valuable companies on Earth. Status-chasing alone cannot explain that choice.</li>
-<li><b>The Word "Shameful":</b> When fired from OpenAI in 2023, he didn't call it "unfair" or "political." He called it <i>shameful</i>, the core emotion of the heart triad, and specifically the Type 4 variant.</li>
+<li><b>The Word "Shameful":</b> When fired from OpenAI in 2023, he didn't call it "unfair" or "political." He called it <i>shameful</i> — the word a Type 4 reaches for when identity itself is what's been threatened.</li>
 <li><b>Identity, Not Ambition:</b> From coming out at 17 to Worldcoin's mission of giving every human a unique identity, the thread isn't career advancement. It's: <i>I am different. That difference matters. I will build a world where it's allowed to exist.</i></li>
 <li><b>Conflict Through Feeling:</b> When [Elon Musk](/personality-analysis/elon-musk) turned adversary, Altman texted: "You're my hero and it really fucking hurts when you publicly attack OpenAI." Vulnerability first, strategy second.</li>
 </ul>
@@ -110,7 +110,7 @@ If you picture a Type 4, you probably picture a moody artist. Black turtleneck. 
 
 Sam Altman is not that.
 
-He runs one of the most powerful companies in history. He testifies before Congress. He makes decisions that affect hundreds of millions of people daily. He's not journaling about his feelings. He's negotiating with heads of state.
+He runs one of the most powerful companies in history. He testifies before Congress. He makes decisions that affect hundreds of millions of people daily. He's also negotiating with heads of state.
 
 But the emotional engine is still there. It just doesn't look like theater. It looks like relentless effort.
 
@@ -178,7 +178,7 @@ After seven years, Loopt sold to Green Dot Corporation for $43.4 million, roughl
 
 "[I failed pretty hard at my first startup — it sucked!](https://dynamicbusiness.com/topics/news/i-failed-pretty-hard-at-my-first-startup-it-sucked-chatgpts-sam-altman.html)" he said. Then, in the same breath: "The thing I wish someone told me during the first one is that no one else thinks about your failures as much as you do."
 
-This is the Type 4 relationship with failure. It's not a data point on a scorecard. It's a chapter in the story of _who you're becoming_. The pain was real ("it sucked") but the meaning was already being woven. That $5 million became the seed for an investment fund with his brother Jack. That fund led to Y Combinator. Y Combinator led to OpenAI.
+This is the Type 4 relationship with failure. It's not a data point on a scorecard. It's a chapter in the story of _who you're becoming_. The pain was real ("it sucked") but the meaning was already being woven. The $5 million became the seed for Hydrazine Capital, an investment fund Sam started with his brother Jack — the same brother who'd diagnosed the household as "restless, unceasing competition," who would later build [Lattice](https://lattice.com/) in parallel and officiate Sam's wedding. The Altman brothers built in adjacent lanes: separate companies, shared fund, the bond holding through everything that came after. That Hydrazine money led to early bets. The early bets led to Y Combinator. Y Combinator led to OpenAI.
 
 "I will fail many times, and I will be really right once," he later wrote. That sentence only makes sense from someone who has failure woven into their identity, someone betting the entire arc on redemption.
 
@@ -215,6 +215,8 @@ He calls it "my childhood dream job."
 The dream had a specific texture: pure creative meaning, uncomplicated by what happens after. He told [_The New Yorker_](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted), "This was the most fun job in the world until the day we launched ChatGPT. We were making these massive scientific discoveries — I think we did the most important piece of scientific discovery in, I don't know, many decades. And then, since the launch of ChatGPT, the decisions have gotten very difficult."
 
 That's the precise shape of the wound. Meaning is safe while it's yours alone. Meaning curdles the moment it meets the world. The scientific discovery was the art. Everything after was the price of the art leaving his hands.
+
+What is the meaning, when he tries to name it? In his ["Moore's Law for Everything"](https://moores.samaltman.com/) essay, AGI is the engine that ends scarcity — housing, healthcare, education, food collapsing in cost as intelligence becomes a utility. In ["The Intelligence Age,"](https://ia.samaltman.com/) it cures most diseases and compresses what used to take generations of science into a fraction of the time. "I believe the future is going to be so bright that no one can do it justice by trying to write about it now," he wrote. The reward, in his telling, isn't the money or the power. It's the moral physics of building a tool that erases the hardest constraints on human life. That is the meaning the salary can't touch — and the meaning a public-markets scoreboard would necessarily distort.
 
 On the surface, Altman looks like a conventional Silicon Valley operator. He runs meetings in 15-minute blocks, built a system at YC to track how quickly founders replied to emails, and operates at the highest levels of power. But the status model collapses right here. He keeps building scoreboards that don't exist yet and keeps refusing to read his own score. The meaning of the work is the reward.
 
@@ -277,9 +279,11 @@ Months later, he reached for a different word to describe the same few days. He 
 
 The identity crisis isn't "can I get power back?" It's "who do they think I am, and are they right?"
 
-By Monday, nearly all 800 OpenAI employees had signed a letter threatening to quit. They demanded the board resign and Altman return. Satya Nadella offered him a job at Microsoft. Within five days, he was back.
+By Monday, nearly all 800 OpenAI employees had signed a letter threatening to quit. They demanded the board resign and Altman return. Satya Nadella — whose company had poured roughly $13 billion into OpenAI — moved to absorb Altman and any defecting employees into a new Microsoft AI research lab. In a [CNBC interview the next morning](https://www.cnbc.com/2023/11/20/satya-nadella-on-openai-microsoft-relationship-with-altman.html), Nadella said the quiet part out loud: "We know what we need to do either way." Whatever happened next, Microsoft would end up with the talent and the model. The board's leverage evaporated overnight. Within five days, Altman was back.
 
 The employee rally revealed something about _how_ Altman leads. He hadn't asked anyone to fight for him. He'd spent years building the kind of emotional bonds that made people _choose_ him, not through authority but through relational investment. That pattern, over years, is what produced 800 signatures in 48 hours.
+
+Greg Brockman is the individual case of the same pattern. The co-founder and president who'd built OpenAI alongside Altman from the apartment-meeting era resigned from his role within hours of the firing. ["Based on today's news, I quit,"](https://x.com/gdb/status/1725667410387378559) he posted on X. He helped lead the employee revolt that brought Altman back and stood beside him in the photograph of the rebuilt board the following week. Nine months later, in August 2024, Brockman announced an [extended sabbatical](https://x.com/gdb/status/1820644694264791459) to "relax and recharge" after nine years without a break. He stayed away the better part of a year. The closest co-pilot of the OpenAI story didn't fracture with Altman the way Sutskever or Musk did. He passed the loyalty test, then quietly stepped back from the intensity that asked it of him. The pattern repeats: deep bond, total devotion, eventual distance. Altman's bonds are real. They are also costly in a way that even the people who pass the test eventually need to recover from.
 
 But the word that stayed was from months later. On the [Lex Fridman podcast](https://lexfridman.com/sam-altman-2-transcript/), he called the experience "definitely the most painful professional experience of my life."
 
@@ -385,13 +389,9 @@ The pattern had been visible to his closest colleagues since the beginning. In 2
 
 Six years before the firing. Six years before the Trump reversal. The co-founder who would eventually compile the Ilya Memos was already asking the question in 2017: _what are you actually after?_ From Sutskever's side of the table, the stated reasons were incoherent because they kept changing. From Altman's side, they were coherent because they lived at a depth the stated reasons never touched. Two people staring at the same man and disagreeing about whether he had a _self_ to read.
 
-The political maneuvering wasn't new either. In 2023, he'd toured world capitals (Madrid, Paris, London, Delhi, Seoul, Tel Aviv) meeting heads of state, positioning himself as the person governments should talk to about AI. He testified before the Senate and called for regulation. Then OpenAI [lobbied the EU to weaken the AI Act](https://time.com/6288245/openai-eu-lobbying-ai-act/) even while Altman was publicly calling for guardrails. When the EU regulations tightened, he told reporters that OpenAI might "cease operating" in Europe.
-
-In his ["Reflections" blog post](https://blog.samaltman.com/reflections), he wrote: "Our vision won't change; our tactics will continue to evolve."
+In his ["Reflections" blog post](https://blog.samaltman.com/reflections), Altman gave the pattern its own name: "Our vision won't change; our tactics will continue to evolve."
 
 That sentence cracks open the entire political psychology. A Type 4's identity is built on _vision_, the deep sense of who they are and what they're meant to do. Tactics are surface. Vision is self. As long as the vision stays constant, any tactical shift, from "Trump is a threat to democracy" to "we wouldn't be able to do this without you," can be absorbed without the identity cracking. The self remains coherent because the self lives at a deeper layer than any particular political stance.
-
-By July 2025, he'd adopted a new label: ["politically homeless."](https://fortune.com/2025/07/08/sam-altman-democratic-party-politically-homeless-silicon-valley-politics-openai/) "I care much, much more about being American than any political party." Not a Democrat. Not a Republican. Not compromising, but _transcending_. Another identity move: he's not a person who switched sides. He's a person who doesn't fit in any box. The same boy who was different in St. Louis, different at Stanford, different at YC. Difference as a through line, even in politics.
 
 ### "A Nuanced Character"
 
@@ -405,13 +405,11 @@ This is the Type 4's identity engine doing what it does: absorbing contradiction
 
 ## World: Every Human Gets an Identity
 
-Of all the things Sam Altman could build outside of AI (a social network, a fintech platform, a media company) he built an _identity system_.
+[World](https://world.org/) (originally Worldcoin), co-founded in 2019, uses a spherical device called the Orb to scan your iris and generate a unique cryptographic proof that you are a real human, not a bot. By early 2026, it had more than 26 million verified accounts and over 33 million total app users across dozens of countries. Of all the things he could have built outside of AI, he built an _identity system_.
 
-[World](https://world.org/) (originally Worldcoin), co-founded in 2019, uses a spherical device called the Orb to scan your iris and generate a unique cryptographic proof that you are a real human, not a bot. By early 2026, it had more than 26 million verified accounts and over 33 million total app users across dozens of countries.
+The controversy was immediate. [MIT Technology Review](https://www.technologyreview.com/2022/04/06/1048981/worldcoin-cryptocurrency-biometrics-web3/) accused it of "building a biometric database from the bodies of the poor," documenting how early Orb operators offered cash and tokens to people in low-income countries in exchange for their irises. Kenya suspended the project. European regulators opened privacy investigations. The drive to make identity legible can shade into the drive to _control_ it, and World sits exactly on that line.
 
-The kid who spent his childhood carrying a secret about who he really was grew up to build a system whose sole purpose is proving that every person on Earth is uniquely, verifiably themselves. The kid who found AOL chat rooms because he needed to know other people like him existed built a global network so no human would be invisible.
-
-The controversy was immediate. MIT Technology Review accused it of "building a biometric database from the bodies of the poor," Kenya suspended the project, European regulators opened investigations. The drive to make identity legible can shade into the drive to _control_ it. But the impulse underneath is unmistakable: identity isn't a product feature for Altman. It's the central preoccupation of his existence.
+But the impulse underneath is unmistakable. Identity isn't a product feature for Altman. It's the central preoccupation. The boy who once needed AOL chat rooms to prove other people like him existed grew up and built a system whose stated purpose is proving every person on Earth is uniquely, verifiably real.
 
 ## Guns, Gold, and the Survival Kit
 
@@ -429,15 +427,15 @@ Most doomsday preppers are hedging against someone else's mistakes. Altman is he
 
 "I'm a Midwestern Jew," he told [TIME](https://time.com/6288584/openai-sam-altman-full-interview/). "I think that fully explains my exact mental model: very optimistic, and prepared for things to go super wrong at any point."
 
-## The Michael Jordan of Listening (Who No One Fully Knows)
+## The Listener
 
-People who have had one-on-one meetings with Altman report coming out feeling "totally transformed," according to startup founder [John Coogan](https://sherwood.news/tech/the-most-interesting-things-people-have-said-openais-sam-altman/), who described him as "the Michael Jordan of listening."
+People who have had one-on-one meetings with Altman report coming out feeling "totally transformed," according to startup founder [John Coogan](https://sherwood.news/tech/the-most-interesting-things-people-have-said-openais-sam-altman/), who described him as "the Michael Jordan of listening." Founders, researchers, world leaders, employees on their way out the door — the consistent testimony is that being heard by Sam Altman feels different from being heard by almost anyone else.
 
-But Coogan added something else: "No matter how long someone worked with him or how closely they worked with him, they would always say: 'I don't know what Sam believes.'"
+But Coogan added a second clause that complicates the first: "No matter how long someone worked with him or how closely they worked with him, they would always say: 'I don't know what Sam believes.'"
 
-The extraordinary listener whose inner world remains opaque. That paradox has a darker expression.
+The extraordinary listener whose inner world remains opaque. The instrument turned toward you, never away from itself. That paradox is the seam down the middle of every relationship in his orbit, and it has a darker expression on the other side.
 
-### The Shadow of Deep Attentiveness
+## The Shadow of Deep Attentiveness
 
 A colleague who worked with Altman for several years told Karen Hao: "Sam remembers all these details about you. He's so attentive. But then part of it is he uses that to figure out how to influence you in different ways. He's so good at adjusting to what you say, and you really feel like you're making progress with him. And then you realize over time that you're actually just running in place."
 
@@ -447,9 +445,25 @@ The specifics got worse after the firing. Former board member Helen Toner went p
 
 The [Washington Post](https://www.washingtonpost.com/technology/2023/12/08/open-ai-sam-altman-complaints/) reported that before the firing, senior executives had approached the board with documentation (screenshots and records) alleging Altman was "pitting employees against each other" and creating "pockets of chaos." Two executives used the phrase "psychological abuse."
 
+Altman's response, both at the time and since, has been narrow rather than confrontational. After his return, OpenAI's board commissioned an [independent review by the law firm WilmerHale](https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/). The review concluded that the prior board's concerns did not arise out of issues with "product safety or security, the pace of development, OpenAI's finances, or its statements to investors, customers, or business partners," and that Altman's conduct "did not mandate removal." Altman and Brockman were reinstated to the board. He has acknowledged he could be "more transparent" and committed to improving communication, but he has rarely engaged the specific allegations — the ChatGPT-launch disclosure, the Startup Fund ownership, the alleged push against Toner — in any detail. The pattern echoes the political reversal: feel the wound, name it at the level of emotion, redirect the specifics into a story about growth.
+
 These allegations don't describe brute-force domination. They describe the shadow of deep attentiveness: building loyalty through emotional bonds so deep that the line between genuine connection and influence becomes invisible. The attentiveness is real. The care is real. And the manipulation, if that's what it is, operates through the same channel. That's what makes it so difficult to untangle, for the people inside it and for Altman himself.
 
+## The Sister
+
+Every contested fact in this piece up to this point has lived inside a public arena: board rooms, news cycles, Senate hearings, X feeds. There is a different category of accusation that does not fit any of those.
+
+Annie Altman, Sam's only sister and youngest sibling, has alleged on social media and in interviews since 2021 that Sam sexually abused her in childhood, beginning when she was a young child. In January 2025, she filed a federal civil lawsuit making the same allegations. Sam, his brothers Jack and Max, and their mother Connie issued a [joint statement](https://x.com/sama/status/1746990938439131604): "All of these claims are utterly untrue. This situation causes immense pain to our entire family." They described years of attempting to support Annie through serious mental and financial health struggles — including financial assistance, housing, and other help — within the limits of what she would accept.
+
+The litigation is ongoing. The underlying claim is unresolved in the legal sense and contested in the public one.
+
+A personality analysis cannot adjudicate a family allegation. It also cannot pretend the allegation does not exist. For a piece arguing that Sam's central preoccupation is identity — who he is, who he is allowed to be, who gets to tell the story of who he is — the existence of a sister telling a wholly different story from inside the same childhood is the gravest possible counter-account.
+
+The Clayton, Missouri household that opens this piece — competitive, affectionate, four kids in T-shirts reading "Mom's Favorite" — is one version of the family. There is another version, told from inside the same house. The public record does not let us settle which is true. Honesty about Sam Altman requires naming that this other version exists, that he and his family deny it categorically, and that this analysis cannot resolve it.
+
 ## The Counterweight
+
+The piece has stayed in difficult terrain for a while. What follows isn't an answer to any of it. People are not single things, and the part of a life that runs on a different frequency doesn't cancel the part that runs on this one.
 
 In January 2024, Altman married Oliver Mulherin in an intimate ceremony in Hawaii. White shirts, white sneakers, his brother Jack officiating. When their son was born in February 2025, Altman posted: "I have never felt such love."
 
@@ -483,7 +497,7 @@ Sam Altman was born on the island. A gay kid in suburban St. Louis, carrying a s
 
 Every island since has been the same island. And every time, the same move: name the thing. Feel it. Keep building.
 
-Somewhere in early 2026, a man who earns $76,000 a year and holds no equity in a $300 billion company sat down with the tool his company built and watched it think better than he could. He felt useless. He felt sad. He wrote it down. Then he closed his laptop and went back to building the thing that made him feel that way.
+Somewhere in early 2026, a man with no equity in a $300 billion company sat down with the tool his company built and watched it think better than he could. He felt useless. He felt sad. He wrote it down. Then he closed his laptop and went back to building the thing that made him feel that way.
 
 The boy with the Macintosh. Still taking it apart. Still putting it back together.
 

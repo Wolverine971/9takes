@@ -31,9 +31,7 @@ keywords:
   - 'Leila Hormozi analysis'
   - 'Achiever enneagram'
 same_as:
-  - 'https://x.com/LeilaHormozi'
-  - 'https://www.instagram.com/leilahormozi'
-  - 'https://www.tiktok.com/@leilahormozi'
+  - 'https://www.acquisition.com/bio-leila-2'
 citations:
   - 'https://gossclub.com/leila-hormozi-interview/'
   - 'https://davidtogoliath.com/p/untold-rise-leila-hormozi'

@@ -56,7 +56,6 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Tyler_Cowen'
   - 'https://www.wikidata.org/wiki/Q602278'
-  - 'https://twitter.com/tylercowen'
   - 'https://marginalrevolution.com/'
   - 'https://www.mercatus.org/tyler-cowen'
 citations:

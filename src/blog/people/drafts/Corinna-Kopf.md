@@ -50,9 +50,6 @@ keywords:
   - 'Pouty Girl Vlog Squad'
 same_as:
   - 'https://www.imdb.com/name/nm9923865/'
-  - 'https://www.instagram.com/corinnakopf/'
-  - 'https://twitter.com/CorinnaKopf'
-  - 'https://www.tiktok.com/@corinnakopf'
   - 'https://www.wikidata.org/wiki/Q111033485'
 faqs:
   - question: "What is Corinna Kopf's personality type?"

@@ -667,6 +667,8 @@
 		position: relative;
 		contain: layout;
 		margin: 0 auto;
+		max-width: 100%;
+		overflow-x: hidden;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		font-family: var(--font-display);
@@ -676,6 +678,12 @@
 			--pool-alpha-mid: 0.06;
 			--pool-alpha-soft: 0.03;
 			--statue-blend: normal;
+		}
+	}
+
+	@supports (overflow-x: clip) {
+		.dossier-page {
+			overflow-x: clip;
 		}
 	}
 
@@ -738,6 +746,7 @@
 	.case-file-inner {
 		position: relative;
 		z-index: 1;
+		width: 100%;
 		max-width: 1280px;
 		margin: 0 auto;
 		display: grid;
@@ -752,6 +761,7 @@
 	}
 
 	.case-file-text {
+		min-width: 0;
 		max-width: 720px;
 		display: flex;
 		flex-direction: column;
@@ -851,6 +861,8 @@
 	/* ---------- portrait (right column) ---------- */
 	.case-file-portrait {
 		position: relative;
+		min-width: 0;
+		max-width: 100%;
 
 		@media (max-width: 968px) {
 			width: min(100%, 360px);
@@ -862,6 +874,8 @@
 
 	.portrait-frame {
 		position: relative;
+		width: 100%;
+		max-width: 100%;
 		aspect-ratio: 4 / 5;
 		max-height: 480px;
 		margin-left: auto;
@@ -1009,11 +1023,16 @@
 	}
 
 	.breakdown-inner {
+		width: 100%;
 		max-width: 880px;
 		margin: 0 auto;
+		min-width: 0;
 	}
 
 	.article-body {
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
 		margin-bottom: 2rem;
 		font-family: var(--font-display);
 		font-size: 18px;
@@ -1289,6 +1308,8 @@
 
 		.article-body {
 			font-size: 17px;
+			max-width: 100%;
+			min-width: 0;
 			overflow-wrap: break-word;
 			word-wrap: break-word;
 
@@ -1324,13 +1345,24 @@
 
 			:global(iframe),
 			:global(video) {
+				width: 100%;
 				max-width: 100%;
 			}
 
 			:global(pre),
-			:global(code) {
+			:global(table) {
+				max-width: 100%;
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
+			}
+
+			:global(pre) {
 				overflow-x: auto;
 				word-wrap: normal;
+			}
+
+			:global(code) {
+				overflow-wrap: anywhere;
 			}
 		}
 

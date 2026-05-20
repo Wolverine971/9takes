@@ -45,7 +45,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Bill_Clinton'
   - 'https://www.wikidata.org/wiki/Q1124'
   - 'https://www.imdb.com/name/nm0001051/'
-  - 'https://twitter.com/BillClinton'
   - 'https://www.clintonfoundation.org/'
 citations:
   - 'https://en.wikipedia.org/wiki/Bill_Clinton'

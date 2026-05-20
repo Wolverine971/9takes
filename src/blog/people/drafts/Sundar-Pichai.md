@@ -46,7 +46,7 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Sundar_Pichai'
   - 'https://www.wikidata.org/wiki/Q3503829'
-  - 'https://twitter.com/sundarpichai'
+  - 'https://www.britannica.com/money/Sundar-Pichai'
 citations:
   - 'https://en.wikipedia.org/wiki/Sundar_Pichai'
   - 'https://www.investopedia.com/articles/investing/090815/look-sundar-pichai-googles-new-ceo.asp'

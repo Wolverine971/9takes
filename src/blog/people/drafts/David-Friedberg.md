@@ -56,7 +56,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/David_Friedberg'
   - 'https://www.wikidata.org/wiki/Q112898833'
   - 'https://www.imdb.com/name/nm13057644/'
-  - 'https://twitter.com/friedberg'
   - 'https://allin.com/about/david-friedberg'
 citations:
   - 'https://en.wikipedia.org/wiki/David_Friedberg'

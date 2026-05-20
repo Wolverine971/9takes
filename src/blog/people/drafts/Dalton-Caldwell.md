@@ -52,7 +52,6 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Dalton_Caldwell'
   - 'https://www.wikidata.org/wiki/Q74093'
-  - 'https://twitter.com/daltonc'
   - 'https://www.standardcap.com/partners/dalton'
 citations:
   - 'https://en.wikipedia.org/wiki/Dalton_Caldwell'

@@ -1,0 +1,13 @@
+## Editor pass complete: `src/blog/people/drafts/Joe-Lonsdale.md`
+
+**Main cleanups:**
+
+- **Em-dash purge (the #1 AI tell).** Removed ~15 em-dashes from body content and block-quote attributions. Replaced with commas, periods, parentheses, or clean restructure depending on rhythm. The two block quote attributions ("> — Joe Lonsdale, …") now sit on their own line, no dash.
+- **One dense parenthetical rewritten.** The "Type 6 line — quote — that reads…" sentence in the chess section was broken at a colon so the quote lands cleanly instead of being squeezed between dashes.
+- **UATX "rings" paragraph split into three.** The fresh-eyes review flagged it as dense; the second pass hadn't fully addressed it. Each ring now registers.
+- **Comma-stack fix.** After removing the em-dashes in the closing Stanford paragraph ("drone swarms, microwave cannons, the cowards in the bureaucracy"), the list got demoted into parentheses so the sentence breathes.
+- **Added an `EDITOR PASS NOTES` block at the bottom** documenting what was changed and what's still rough.
+
+**Production readiness:** The piece feels production-ready as a draft. The original draft was already structurally strong — sharp insights (Thiel-as-mentor, Tolkien-naming pattern, "audit of whether the claim will survive scrutiny," the daughters-and-chess integration arrow, "still the same board / pieces moved" close), good critic-pressure on the Cicero/public-hangings/Venezuela rhetoric, real-tense anchors (2025 Erebor, April 2025 UATX meeting, January 2026 X posts). It just sounded too AI-heavy at the punctuation level. That's now fixed without flattening the voice.
+
+**Still worth a fuller pass if you want:** the Lonsdale-mother thread is restricted to the closing section — surfacing her Jewish identity earlier (where the loyalty/Christian-Jewish-alliance beat already lives in the chess section) could make the close land harder. That's structural, not polish, so I left it.

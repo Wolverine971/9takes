@@ -27,8 +27,7 @@ keywords:
 same_as:
   - https://en.wikipedia.org/wiki/Andrew_Tate
   - https://www.wikidata.org/wiki/Q18637166
-  - https://x.com/Cobratate
-  - https://www.instagram.com/cobratate/
+  - https://www.imdb.com/name/nm8345706/
 wikidata_qid: Q18637166
 imdb_id: nm8345706
 birth_date: '1986-12-01'

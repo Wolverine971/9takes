@@ -54,8 +54,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Bernie_Sanders'
   - 'https://www.wikidata.org/wiki/Q359442'
   - 'https://www.sanders.senate.gov/'
-  - 'https://twitter.com/BernieSanders'
-  - 'https://www.instagram.com/berniesanders/'
 citations:
   - 'https://en.wikipedia.org/wiki/Bernie_Sanders'
   - 'https://www.britannica.com/biography/Bernie-Sanders'

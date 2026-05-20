@@ -61,13 +61,13 @@ Note: "The billboard..." section uses interleaved 8-framing sentences with Tyler
 Contrast-pair sentence engines: 2 — 1) "the rage isn't the engine. It's the exhaust" (intro, the central thesis-setting contrast). 2) "Reform implies remorse. Tyler1 has never performed remorse" (closing, the final thesis landing).
 Counter-typing ladders in main body: 0 — the counter-phobic 6 case appears as a single tight paragraph in the diagnosis section (allowed); a draft "If a 3 had survived... If a 6 had survived..." ladder was removed from the reformation section during self-review.
 Critic-pressure anchor: Phreak (David Turley, Riot Games employee) calling Tyler1 "vile" with the "no such thing as bad publicity" reading from c. 2016–2017 — addressed head-on in "Why Tyler1 didn't actually reform," conceding the financial-reading critique before answering the personality critique.
-Current-tense anchor: marriage to Macaiyla; daughter Saiyler Rue born April 2024; daughter Ivy born September 2025; 2026 Missouri lifestyle anchor; ongoing chess top-1.5% grind on Chess.com.
+Current-tense anchor: long partnership with Macaiyla (engaged since 2019); daughter Saiyler Rue born April 2024; daughter Ivy born September 2025; 2026 Missouri lifestyle anchor; ongoing chess top-0.6% grind on Chess.com.
 Ending swap-test: pass — final paragraphs anchor to the 613-day Riot ban, the Challenger-in-every-role arc, the New London billboard, and the dinner-check, none of which fit another 9takes celebrity profile.
 -->
 
 > "I love when I get that anxiety. It's a mental check. It happens to me once every two months. I love it. I love it." — Tyler1, livestream, April 2024
 
-<p class="firstLetter">Tyler1 lives beneath a highway billboard, two hours from St. Louis, in a town of 900 people. He pays his mother $70,000 a year to bring him dinner. He has 22 League of Legends accounts that Riot Games permanently banned by name. He has not let a friend visit his house in years.</p>
+<p class="firstLetter">Tyler1 lives beneath a highway billboard, two hours from St. Louis, in a town of 900 people. He pays his mother $70,000 a year to bring him dinner. Riot Games has permanently banned 22 of his League of Legends accounts. He has not let a friend visit his house in years.</p>
 
 He is also the loudest man on Twitch.
 
@@ -127,7 +127,7 @@ The inverse never makes the highlight reels. Long-session viewers know it anyway
 
 ## The billboard, the Adderall, and the $70,000 dinner check
 
-A 2022 *Washington Post* profile, picked up by papers from the *Fresno Bee* to *Muddy River News*, sat in his living room for a day and described a setting that no one who watches the stream would predict.
+A 2021 *Washington Post* profile, picked up by papers from the *Fresno Bee* to *Muddy River News*, sat in his living room for a day and described a setting that no one who watches the stream would predict.
 
 There is a highway billboard right outside his house. The house is rented from his stepdad. The town has roughly 900 people. He is two hours from a real city. On his nightstand sit bottles of Adderall, taken since first grade. His mother is paid around $70,000 a year to deliver his dinner. She previously made $14,000 a year working in an elementary school office. When people ask her job now, she tells them she's *a private chef.* She doesn't mention the client. He also helps fund his stepdad's roadside fireworks stand.
 
@@ -151,7 +151,7 @@ The pattern is the actual diagnosis. Other top streamers chase variety for the a
 
 > "I love when I get that anxiety. It's a mental check. It happens to me once every two months." — Tyler1, broadcast, 2024
 
-That quote does more work than it looks like. Most people experience anxiety as a body-no signal: pause, retreat, decompress. He has trained himself to receive it as a body-yes signal: engage, escalate, double the volume. When the anxiety hits, he walks to a mirror and yells *Let's go!* at himself.
+Most people experience anxiety as a body-no signal: pause, retreat, decompress. He has trained himself to receive it as a body-yes signal: engage, escalate, double the volume. When the anxiety hits, he walks to a mirror and yells *Let's go!* at himself.
 
 The mirror routine is a Type 8 refusing to let a feeling be in charge of the room. Wellness has nothing to do with it. The 6,000-game ranked grind is the same instinct, scaled up. The game refuses him a rank. He refuses to be refused. The grind keeps going. The 8 outlasts whatever tries to refuse him.
 
@@ -171,7 +171,7 @@ A Type 8 does not orient around friend networks at all. The 8 orients around a p
 
 The white-knight fans miss this in a different direction. They keep trying to recast him as a wounded loner who would secretly love a friend group, if only. Macaiyla, the one person inside the perimeter with standing to argue back, has been telling those fans the same thing for years.
 
-She isn't an administrative fiction. She and Tyler1 met at TwitchCon 2016 and started dating soon after. They started dating, broke up in public, got back together in public, fought in public, did most of the volatile years of their twenties on camera. In June 2023, an ectopic pregnancy ruptured one of Macaiyla's fallopian tubes. She lost roughly half her blood, needed two transfusions and emergency surgery, and came out missing the tube. She wrote during recovery, *"He still FaceTimes me for hours a day but I need my snuggles."* They buried the parents-to-be version of themselves and kept walking. By the time she earned the right to tell his fans they were projecting, she had spent the better part of a decade earning it in front of them:
+She isn't an administrative fiction. She and Tyler1 met at TwitchCon 2016 and started dating soon after. They broke up in public, got back together in public, fought in public, did most of the volatile years of their twenties on camera. In June 2023, an ectopic pregnancy ruptured one of Macaiyla's fallopian tubes. She lost roughly half her blood, needed two transfusions and emergency surgery, and came out missing the tube. She wrote during recovery, *"He still FaceTimes me for hours a day but I need my snuggles."* They buried the parents-to-be version of themselves and kept walking. By the time she earned the right to tell his fans they were projecting, she had spent the better part of a decade earning it in front of them:
 
 > "You're such white knights, he doesn't give a fuck about you... he is in a real sense does this accurate crap on stream and it's insane, but you love him to such an extent." — Macaiyla, X, ~2023
 
@@ -209,7 +209,7 @@ When the unban came in January 2018, Riot communications staffer Ryan Ringey pos
 
 Phreak deserves the concession he is owed. He was right about the financial reading: Tyler1 went from 5,700 Twitch followers to 92,000 in the month his toxicity compilation hit YouTube. The ban was a launch pad. The "genuine jerk" line Riot put in a 2016 public statement is genuinely one of the wildest sentences any company has ever published about one of its customers, and Tyler1 turned it into merch energy. The closest thing to a reformation statement Tyler ever volunteered, in an ESPN interview after the unban, was a single line: *"It was smart to do. I was a douchebag."* Past tense. About a different person. No apology attached.
 
-But Phreak's read of the personality was wrong in one specific direction. Reformation is the wrong frame because Tyler1 never agreed to reform in the sense the system meant. He agreed to win. He agreed to be undeniable. He agreed to spend 613 days documented enough that there was no honest reason to keep him out.
+But Phreak's read of the personality was wrong. Reformation is the wrong frame because Tyler1 never agreed to reform in the sense the system meant. He agreed to win. He agreed to be undeniable. He agreed to spend 613 days documented enough that there was no honest reason to keep him out.
 
 When he came back, 382,000 people watched simultaneously. Tyler1 did not soften the persona. He did not apologize on camera. He did not tone-correct. He just played at a level that made the volume look like context for the skill. Call it what it actually was: a Type 8 winning the only argument an 8 ever bothers to win, the argument about who has the standing to remove him.
 
@@ -221,11 +221,15 @@ The Tyler1 comeback was, unmistakably, an 8 comeback: same person, more dominanc
 
 ## Tyler1 in 2026: the wife, the daughters, and the dinner that still arrives
 
-He married Macaiyla. Their first daughter, Saiyler Rue, was born in April 2024. Their second, Ivy, arrived in September 2025. Macaiyla wants five children. Tyler1 wants three. He told his audience, half-joking, that men in the chat should "not get into a relationship, it's not worth it." Then he kept being in the relationship.
+He's still with Macaiyla after a decade, engaged since a Hawaii trip in 2019. Their first daughter, Saiyler Rue, was born in April 2024. Their second, Ivy, arrived in September 2025. Macaiyla wants five children. Tyler1 wants three. He told his audience, half-joking, that men in the chat should "not get into a relationship, it's not worth it." Then he kept being in the relationship.
 
-He plays chess in the top 0.6% of Chess.com players, peaked at 1960 Elo, and won Best Chess Streamer at the 2023 Streamer Awards. He hosts the Tyler1 All-Stars 1v1 invitational under his own name. The earlier Tyler1 Championship Series, which he founded as a parody tournament in 2017, paid out $100,000 across two seasons. In late 2024 he joined Sodapoppin's OnlyFangs WoW Classic Hardcore guild, then took the guild-master title off Sodapoppin in a 1v1 duel in front of 430,000 viewers, and forced Sodapoppin to dye his hair pink as forfeit. A few weeks later, Tyler's own raid character died on a Baron Geddon pull. He raged at the guild on stream, *"these WoW players are all pussies,"* took four days off, came back and apologized. Asmongold publicly blamed him for the wipe. He's already talking about coming back for the next iteration. He still lives in New London, Missouri. The billboard is still there. His mother still brings dinner.
+He plays chess in the top 0.6% of Chess.com players, peaked at 1960 Elo, and won Best Chess Streamer at the 2023 Streamer Awards. He hosts the Tyler1 All-Stars 1v1 invitational under his own name. The earlier Tyler1 Championship Series, which he founded as a parody tournament in 2017, paid out $100,000 across two seasons.
 
-This is the 9takes pattern the Enneagram makes legible. The most volatile-looking man in his industry has the most stable life in his industry. Other Twitch heavyweights chase the new city, the bigger house, the next bit. [Kai Cenat](/personality-analysis/kai-cenat) in Atlanta with the entire culture-creator circuit walking through his front door. [IShowSpeed](/personality-analysis/ishowspeed) on a permanent world tour. Tyler1 stayed exactly where he was, married the one woman who has been pushing back on his audience since the beginning, and let the rest of streaming culture move around him.
+In late 2024 he joined Sodapoppin's OnlyFangs WoW Classic Hardcore guild, then took the guild-master title off Sodapoppin in a 1v1 duel in front of 430,000 viewers, and forced Sodapoppin to dye his hair pink as forfeit. A few weeks later Tyler's own raid character died on a Baron Geddon pull. He raged at the guild on stream — *"these WoW players are all pussies"* — took four days off, came back and apologized. Asmongold publicly blamed him for the wipe. He's already talking about coming back for the next iteration.
+
+He still lives in New London, Missouri. The billboard is still there. His mother still brings dinner.
+
+This is the 9takes pattern the Enneagram makes legible. The most volatile-looking man in his industry has the most stable life in his industry. Other Twitch heavyweights chase the new city, the bigger house, the next bit. [Kai Cenat](/personality-analysis/kai-cenat) in Atlanta with the entire culture-creator circuit walking through his front door. [IShowSpeed](/personality-analysis/ishowspeed) on a permanent world tour. Tyler1 stayed exactly where he was, stayed with the one woman who has been pushing back on his audience since the beginning, and let the rest of streaming culture move around him.
 
 The downside of a perimeter this small is that it doesn't have to grow. An 8 of this intensity could spend the next two decades in the same chair, in the same room, in the same 900-person county, with two daughters watching their father be the loudest man any of them will ever meet. The perimeter calcifies into a cell. The brawler ages into a man whose entire economy of care still fits inside one rental house under a billboard.
 
@@ -314,6 +318,24 @@ Still rough:
 - "That quote does more work than it looks like" is the one piece of meta-commentary left. Defensible (it cues close reading) but cut-able.
 - "The thing the haters miss / the thing the white-knight fans miss" parallel is intentional but can read heavy. Leaving as-is for now.
 - The 2024 LGBT controversy beat still rests on a single Sportskeeda source. Worth a fact-check before publish, per second-pass note.
+-->
+
+<!-- FINAL TIGHTENING PASS (2026-05-19) — Claude
+
+Touched:
+- Intro: "22 LoL accounts that Riot Games permanently banned by name" → "Riot Games has permanently banned 22 of his League of Legends accounts." Cleaner grammar; the by-name detail was conflating per-account bans with the indefinite ID ban.
+- WaPo profile date fixed: 2022 → 2021 (actual publication December 2021).
+- Marriage softening: "He married Macaiyla" → "He's still with Macaiyla after a decade, engaged since a Hawaii trip in 2019." Research brief is firm that no public wedding has been documented; Wikipedia still labels her "girlfriend." Also softened "married the one woman" → "stayed with the one woman" in the same section. Updated FORMULA FINGERPRINT LEDGER to match.
+- Repetition fix: cut the "started dating" stutter in the Macaiyla paragraph that my earlier softening introduced.
+- Wall-of-text fix: split the 11-sentence chess + OnlyFangs + Missouri block in the 2026 section into three paragraphs (chess/tournaments / WoW arc / closing tag).
+- Stale ledger: FORMULA FINGERPRINT chess figure updated 1.5% → 0.6%.
+- Cut "That quote does more work than it looks like" — flagged cut-able by the editor pass, gone now.
+- Tightened "wrong in one specific direction" → "wrong."
+
+What I left alone:
+- Colloquial uses of "wife" (TL;DR, counter-phobic 6 list, no-friends Alaska line, H2 8 header). Defensible as common usage for a decade-long partner with two kids. If a wedding genuinely hasn't happened and you want full consistency, swap to "fiancée" or "Macaiyla" across those four spots.
+- Section ordering. Reform section stays before 2026 section per the second-pass call.
+- All thesis lines and pull quotes.
 -->
 
 <!-- LORE DEEPENING PASS (2026-05-19) — Claude

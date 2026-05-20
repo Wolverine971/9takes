@@ -49,8 +49,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Snoop_Dogg'
   - 'https://www.wikidata.org/wiki/Q6096'
   - 'https://www.imdb.com/name/nm0004879/'
-  - 'https://twitter.com/SnoopDogg'
-  - 'https://www.instagram.com/snoopdogg/'
 citations:
   - 'https://en.wikipedia.org/wiki/Snoop_Dogg'
   - 'https://en.wikipedia.org/wiki/Doggystyle'

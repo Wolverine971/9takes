@@ -2,7 +2,7 @@
 title: "Theo Von: The Psychology Behind Comedy's Most Authentic Storyteller"
 meta_title: 'Why Theo Von Quit His Meds Before the Biggest Night of His Career'
 persona_title: "Comedy's Southern Mystic"
-description: 'Theo Von spent 20 years on antidepressants, then quit before his Netflix taping. What happened next reveals the wound his comedy has been hiding since childhood.'
+description: 'Theo Von spent most of his adult life on antidepressants, then quit before his Netflix taping. What happened next reveals the wound his comedy has been hiding since childhood.'
 author: 'DJ Wayne'
 date: '2025-12-09'
 loc: 'https://9takes.com/personality-analysis/theo-von'

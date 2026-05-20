@@ -28,7 +28,7 @@ same_as:
   - https://en.wikipedia.org/wiki/Dave_Chappelle
   - https://www.wikidata.org/wiki/Q40321
   - https://www.imdb.com/name/nm0152638/
-  - https://www.instagram.com/davechappelle/
+  - https://www.britannica.com/biography/Dave-Chappelle
 wikidata_qid: Q40321
 imdb_id: nm0152638
 birth_date: '1973-08-24'

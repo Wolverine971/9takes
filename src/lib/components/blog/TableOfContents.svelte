@@ -814,6 +814,10 @@
 		--toc-link-color: var(--lamp-glow);
 		--toc-link-hover-color: var(--lamp-glow);
 
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--night-deep);
 		border-radius: 12px;
@@ -825,6 +829,9 @@
 	}
 
 	.toc-summary {
+		box-sizing: border-box;
+		max-width: 100%;
+		min-width: 0;
 		font-weight: 600;
 		font-size: 1rem;
 		padding: 0.625rem 1rem;
@@ -862,8 +869,12 @@
 	}
 
 	.toc-accordion-content {
+		box-sizing: border-box;
+		max-width: 100%;
+		min-width: 0;
 		padding: 0.625rem 1rem;
 		background-color: var(--night-deep);
+		overflow-x: hidden;
 	}
 
 	/* Global styles for ToC elements */
@@ -878,6 +889,7 @@
 	}
 
 	:global(.toc-sublist) {
+		width: auto;
 		padding-left: 0.75rem;
 		margin-top: 0.125rem;
 		border-left: 2px solid var(--primary-glow);
@@ -941,6 +953,8 @@
 	:global(.toc-link) {
 		display: block !important;
 		width: 100%;
+		min-width: 0;
+		max-width: 100%;
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
@@ -990,6 +1004,8 @@
 	@media (max-width: 768px) {
 		.toc-accordion {
 			margin: 0.75rem 0;
+			width: 100%;
+			max-width: 100%;
 		}
 
 		.toc-summary {

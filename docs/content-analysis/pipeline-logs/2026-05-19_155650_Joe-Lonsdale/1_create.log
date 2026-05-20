@@ -1,0 +1,38 @@
+Draft saved. Non-interactive completion report follows.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Joe-Lonsdale.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES:
+  Gate 1 (Testimony Ledger ≥2 named-third-party quotes): pass — 2 quotes (Julie Bort, Business Insider; Emily Bazelon, NYT Magazine)
+  Gate 2 (Heading Mix ≥2 search-intent/hybrid): pass — 6 of 8 H2s tagged search-intent or hybrid
+  Gate 3 (Self-loop): pass — no internal link targets /personality-analysis/Joe-Lonsdale
+  Gate 4 (Anti-imitation, ending cadence): pass — one "A Six's" sentence in the ending, no anaphora, hook does not echo reference-library object-reveal structure
+  Gate 5 (Distribution Rule ≤4 type-theory paragraphs outside diagnosis): pass — 4 paragraphs (chess, cowards, UATX, daughters); Stanford section is single-sentence bridges only
+  Gate 6 (Formula Fingerprint): pass — 1 "not X but Y" engine total; critic-pressure anchor (public-hangings rhetoric + Jan 2026 amplification) engaged head-on; current-tense anchors (Erebor 2025, UATX April 2025, Jan 2026); ending passes swap test
+LIMITATIONS:
+  - Transcripts were not directly fetched via the youtube-transcript skill in this run; substituted with web-scraped transcript summaries from Shawn Ryan Show #151 and published interview write-ups
+  - Testimony gate met at exactly the minimum (2 quotes) — both from journalists rather than collaborators; a stronger pass would add a co-founder or employee on the record
+```
+
+**Type call:** Enneagram **Type 6w7, counterphobic, sx/sp**.
+
+**Thesis:** The "American Optimist" branding describes the seven-wing surface. The engine underneath is a chess-prodigy Six who has spent twenty years naming threats, building fortresses (Palantir, Anduril, Epirus, Erebor, UATX), and calling everyone who won't name them with him a coward — while a lifelong nervous tic keeps surfacing on his face.
+
+**Internal links added (3):**
+- `[Type 6](/enneagram-corner/enneagram-type-6)` — diagnosis section
+- `[Peter Thiel](/personality-analysis/Peter-Thiel)` — Clarium/Palantir paragraph (first mention)
+- `[Six in stress](/enneagram-corner/enneagram-types-in-stress)` — Stanford section
+
+**Next step:** Human review. If approved, set `production_pretext.status: ready` and run `/blog_content_production_people`. Grading is owned by `/grade_blog` and was not performed here.
+
+Sources:
+- [Joe Lonsdale - Wikipedia](https://en.wikipedia.org/wiki/Joe_Lonsdale)
+- [Shawn Ryan Show #151 - Joe Lonsdale (Happyscribe transcript)](https://podcasts.happyscribe.com/shawn-ryan-show/151-joe-lonsdale-the-ai-driven-emp-weapon-built-to-destroy-new-jersey-drone-swarms)
+- [The return of Joe Lonsdale (Business Insider via Yahoo Finance)](https://finance.yahoo.com/news/return-joe-lonsdale-cofounder-multibillion-192556403.html)
+- [Lessons from Joe Lonsdale - Antoine Buteau](https://www.antoinebuteau.com/lessons-from-joe-lonsdale/)
+- [Joe Lonsdale: From Chess Prodigy (Substack)](https://yesterdayy.substack.com/p/joe-lonsdale-from-chess-prodigy-to)
+- [Stanford Politics: The Stanford Review and Silicon Valley](https://stanfordpolitics.org/2017/11/27/peter-thiel-cover-story/)
+- [Fortune: UATX raises $150M](https://fortune.com/2023/05/30/university-of-austin-marc-andreessen-joe-lonsdale-bari-weiss/)

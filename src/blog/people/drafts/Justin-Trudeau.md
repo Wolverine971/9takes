@@ -48,8 +48,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Justin_Trudeau'
   - 'https://www.wikidata.org/wiki/Q3099714'
   - 'https://www.imdb.com/name/nm0874040/'
-  - 'https://twitter.com/JustinTrudeau'
-  - 'https://www.instagram.com/justinpjtrudeau/'
 citations:
   - 'https://en.wikipedia.org/wiki/Justin_Trudeau'
   - 'https://www.britannica.com/biography/Justin-Trudeau'

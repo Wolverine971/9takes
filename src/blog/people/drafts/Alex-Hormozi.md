@@ -35,8 +35,7 @@ knows_about:
 same_as:
   - 'https://www.wikidata.org/wiki/Q117803902'
   - 'https://www.acquisition.com/bio-alex'
-  - 'https://www.linkedin.com/in/alexhormozi/'
-  - 'https://www.youtube.com/@AlexHormozi'
+  - 'https://www.imdb.com/name/nm14344566/'
 citations:
   - 'https://ceo.wiki/wiki/Alex_Hormozi'
   - 'https://www.acquisition.com/bio-alex'

@@ -48,8 +48,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Bella_Poarch'
   - 'https://www.wikidata.org/wiki/Q104064843'
   - 'https://www.imdb.com/name/nm11978500/'
-  - 'https://www.tiktok.com/@bellapoarch'
-  - 'https://www.instagram.com/bellapoarch/'
 citations:
   - 'https://en.wikipedia.org/wiki/Bella_Poarch'
   - 'https://en.wikipedia.org/wiki/M_to_the_B'

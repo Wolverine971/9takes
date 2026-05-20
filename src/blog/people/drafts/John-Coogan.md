@@ -1,8 +1,8 @@
 ---
 title: 'John Coogan: The Achiever Whose Scoreboard Never Shuts Off'
-meta_title: 'Why John Coogan Keeps Reinventing Himself (The Drive Behind TBPN, Soylent, and Lucy)'
+meta_title: 'Why John Coogan Keeps Reinventing Himself (The Drive Behind TBPN, Soylent, Lucy, and the OpenAI Acquisition)'
 persona_title: "Silicon Valley's Relentless Reinventor"
-description: "What drives John Coogan to keep building? Explore how his Type 3 achiever personality fueled Soylent, Lucy, and TBPN's meteoric rise."
+description: "What drives John Coogan to keep building? Explore how his Type 3 achiever personality fueled Soylent, Lucy, and TBPN — the daily live show OpenAI bought in 2026."
 author: 'DJ Wayne'
 date: '2026-02-06'
 loc: 'https://9takes.com/personality-analysis/john-coogan'
@@ -20,12 +20,18 @@ birth_date: '1989-05-05'
 birth_place: 'Pasadena, California, United States'
 nationality: 'American'
 occupation:
-  - 'Vlogger'
+  - 'Entrepreneur'
+  - 'Media Founder'
+  - 'Podcaster'
+  - 'Investor'
 knows_about:
+  - 'TBPN (Technology Business Programming Network)'
   - 'Power Law with John Coogan'
+  - 'Consumer brand building'
+  - 'Tobacco harm reduction'
+  - 'Venture capital'
   - 'Digital media'
   - 'Entrepreneurship'
-  - 'Vlogger'
 keywords:
   - 'John Coogan enneagram'
   - 'John Coogan type 3'
@@ -40,13 +46,18 @@ same_as:
 citations:
   - 'https://www.wikidata.org/wiki/Q110865149'
   - 'https://www.johncoogan.com/'
-  - 'https://www.famousbirthdays.com/people/john-coogan.html'
+  - 'https://www.tbpn.com/'
+  - 'https://openai.com/index/openai-acquires-tbpn/'
+  - 'https://www.therebooting.com/p/techs-media-safe-space'
+  - 'https://www.theinformation.com/articles/technology-brothers-seized-silicon-valley'
+  - 'https://www.cnbc.com/2026/04/02/openai-acquires-tech-podcast-tbpn.html'
+  - 'https://podcasts.apple.com/us/podcast/power-law-with-john-coogan/id1704200890'
 faqs:
   - question: 'What is John Coogan''s Personality Type?'
     answer: 'Enneagram Type 3s are called "The Achievers." But the label undersells the psychology. At the heart of the Type 3 pattern is a tension between shame and pride, a deep, often unconscious fear that you''re only as valuable as your last accomplishment. Achievement becomes proof that you matter. Success isn''t just satisfying; it''s necessary. Without it, the question "but what have you actually done?" becomes unbearable.'
     anchor: 'what-is-john-coogans-personality-type'
   - question: 'Why is John Coogan typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Power Law with John Coogan, Digital media, Entrepreneurship.'
+    answer: 'The Type 3 Achiever case is built on a consistent behavioral pattern across his career: serial reinvention from Soylent to Lucy to YouTube to Founders Fund to Power Law to TBPN to the OpenAI acquisition, an instinct to identify the bigger arena and move into it, image-aware production choices, adaptive performance, and the heart-triad reframing of feeling into output. The likely shading is 3w2 with a self-preservation dominant instinct.'
     anchor: 'why-is-john-coogan-typed-as-an-enneagram-type-3'
 twitter: 'https://twitter.com/johncoogan'
 instagram: 'https://instagram.com/johncoogan'
@@ -65,7 +76,7 @@ content_quality:
 
 > "I've been an entrepreneur my entire career. I've never held a full-time job at a company I didn't start myself."
 
-<p class="firstLetter">Most people hear that line and think: independence. But look closer. That's not just a lifestyle choice; it's a scoreboard. John Coogan has spent his entire adult life proving he can build things from scratch. Soylent. Lucy. A 450,000-subscriber YouTube channel. And now TBPN, the show The New York Times called "Silicon Valley's newest obsession."</p>
+<p class="firstLetter">Most people hear that line and think: independence. But look closer. That's not just a lifestyle choice; it's a scoreboard. John Coogan has spent his entire adult life proving he can build things from scratch. Soylent. Lucy. A YouTube channel north of half a million subscribers. <em>Power Law</em>, his Founders Fund podcast. And then TBPN, the daily live show The New York Times called "Silicon Valley's newest obsession" — which in April 2026, eighteen months after launch, OpenAI bought for a reported low nine figures.</p>
 
 What's interesting about that trajectory is how closely it mirrors what the Enneagram describes as the Type 3 pattern, the Achiever. Not a diagnosis, but a lens worth looking through.
 
@@ -73,11 +84,11 @@ What's interesting about that trajectory is how closely it mirrors what the Enne
 <summary class="accordion">TL;DR: Why John Coogan is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>The Serial Reinventor:</b> From failed startups to Soylent to Lucy to YouTube stardom to TBPN, Coogan builds, succeeds, then pivots to a bigger stage.</li>
-<li><b>The Image Architect:</b> Documentary-style videos (not hot takes). An EIR role at Founders Fund. TBPN is modeled after ESPN's SportsCenter, shot on cinema cameras with Hollywood lighting. Every move builds the brand of "serious tech authority."</li>
-<li><b>The Adaptive Performer:</b> He went from behind-the-scenes CTO at Soylent to on-camera daily live host at TBPN: three hours a day, five days a week, no script. "Your mood doesn't matter. How you feel doesn't matter. We have an obligation to go live."</li>
+<li><b>The Serial Reinventor:</b> From failed YC startups to Soylent to Lucy to a Founders Fund EIR role to <em>Power Law</em> to TBPN to an OpenAI acquisition — every chapter is a bigger arena than the last.</li>
+<li><b>The Image Architect:</b> Documentary-style videos (not hot takes). TBPN modeled after ESPN's SportsCenter, shot on cinema cameras with Hollywood lighting. An NYSE exclusive-exchange partnership at twelve months in. Every move builds the brand of "serious tech authority."</li>
+<li><b>The Adaptive Performer:</b> Went from behind-the-scenes CTO at Soylent to on-camera daily live host at TBPN: three hours a day, five days a week, no script. "Your mood doesn't matter. How you feel doesn't matter. We have an obligation to go live."</li>
 <li><b>The Systems Thinker:</b> Traces get-rich-quick schemes to AWS in four logical steps. Followed the Master Settlement Agreement to derivative bond markets. Sees the Warby Parker brand thesis before anyone explains it. Every surface-level fact is a thread to pull.</li>
-<li><b>The Competitive Edge:</b> Raised $100M+ in venture capital. Built two consumer brands. Grew TBPN to a NYSE partnership in under a year. Rejects legacy as a goal: "I don't care if I'm known for something or not. I want to KNOW things."</li>
+<li><b>The Competitive Edge:</b> Raised ~$74M for Soylent. Brought Lucy from three months of runway to profitable in six. Grew TBPN to an OpenAI acquisition (reported low hundreds of millions) in under eighteen months. Yet rejects legacy as a goal: "I don't care if I'm known for something or not. I want to KNOW things."</li>
 </ul>
 </div>
 </details>
@@ -92,7 +103,15 @@ This doesn't make Type 3s insecure in any obvious way. Most are remarkably compe
 
 So they adapt. They read the room, figure out what success looks like in any given environment, and then become the person who achieves it.
 
-When you look at Coogan's career through this lens, the parallels are striking. Identify the next arena, build credibility, win, then move to a bigger arena. The failed first startup taught him the game. Soylent proved he could play it. Lucy showed he could do it again. YouTube gave him an audience. TBPN made him the voice of an industry.
+When you look at Coogan's career through this lens, the parallels are striking. Identify the next arena, build credibility, win, then move to a bigger arena. The failed first startup taught him the game. Soylent proved he could play it. Lucy showed he could do it again. YouTube gave him an audience. <em>Power Law</em> and Founders Fund gave him institutional credibility. TBPN made him the voice of an industry. And OpenAI's acquisition of TBPN put that voice inside the most important company in tech.
+
+### Wing, Instinct, and Movement
+
+If the Type 3 frame fits, the specific shade looks like **3w2** (the Charmer): warmer than the more aesthetic 3w4, partnership-oriented, attentive to how other people are reading him. He keeps building with the same childhood friend for two decades. He writes the TBPN newsletter "for Jordi, not the audience." He noticed when his co-founder undersold himself on a podcast and was visibly frustrated on his behalf. That's a 2-wing showing up — the achievement engine routed through real attachment.
+
+The dominant instinct reads **self-preservation**: a Tenderloin apartment with rent paid a year in advance, $17K of his own money, regulatory moats as the strategic frame, three kids, two Newfoundland dogs, living down the road from where he grew up. The fingerprints are material and durable, not status-display.
+
+The movement is where it gets interesting. Under stress, Type 3s shade into **Type 9** behavior: numbing out, going quiet, dissociating from feeling rather than confronting it. Coogan's version of that is contained and characteristic — emotion compressed into a single sentence, then quickly redirected back to leverage. In growth, Type 3s move toward **Type 6**: loyalty, team-building, naming risks instead of papering over them. The 2022 board call ("anyone who thinks we're going to raise money is delusional"), the two-decade partnership with Renteln, the protective instinct around Jordi — those are 6-flavored moves. The healthiest version of this type doesn't stop achieving. It just stops needing the achievement to prove anything.
 
 ## John Coogan's Upbringing and Early Influences
 
@@ -114,7 +133,7 @@ Most people would've retreated to safety after that many failures. Coogan double
 
 ### Soylent: The Accidental Empire
 
-The road to Soylent started with a completely different idea. Coogan and his team were trying to build a wireless mesh network, "kind of like Helium later did with crypto, but crypto barely existed at the time." (Fun footnote: Coinbase was in their YC batch and was giving anyone who signed up a full Bitcoin. It was worth about five dollars.) But building wireless base stations was expensive, nobody wanted to fund it, and the team was broke.
+The road to Soylent started with a completely different idea. Coogan and his team — Rob Rhinehart, Matt Cauble, and his childhood friend David Renteln — were in YC's Summer 2012 batch trying to build an affordable wireless mesh network for the developing world. "Kind of like Helium later did with crypto, but crypto barely existed at the time." By demo day they had a working white-space radio with a $70 bill of materials. Paul Graham would later call what came next "the biggest pivot in YC history." (Fun footnote: Coinbase was in their batch and was giving anyone who signed up a full Bitcoin. It was worth about five dollars.) But building wireless base stations was expensive, nobody wanted to fund it, and the team was broke.
 
 That's when co-founder Rob Rhinehart, a computer engineer who'd been studying biology, started thinking about nutrition from a programmer's perspective: what if you could just consume the exact nutrients you need? They were spending most of their money on food, and in San Francisco, eating healthy was expensive, and eating cheaply was unhealthy.
 
@@ -128,7 +147,7 @@ Even the branding was a masterclass in calculated provocation. They hired Ryder 
 
 The controversy was an engine. "Every time we'd post anything on Facebook, everyone in the comments would be like, 'You're an idiot, there's this movie about cannibalism.' It was the peak Boomer Facebook era. So many uncles wanting to comment on everything. We were just viral machines."
 
-As CTO, Coogan built the technology infrastructure that scaled the company to a 50-person operation. He described having a _"voracious appetite for data,"_ not for the joy of knowing, but to optimize, to scale faster and smarter than the competition. The company grew to roughly **$60 million** in annual revenue and raised over **$133 million** in venture capital from firms including Google Ventures and Andreessen Horowitz.
+As CTO, Coogan built the technology infrastructure that scaled the company to a 50-person operation. He described having a _"voracious appetite for data,"_ not for the joy of knowing, but to optimize, to scale faster and smarter than the competition. The company grew into a national consumer brand doing tens of millions in revenue and raised **~$74.5 million** across five rounds, including a $50M Series B led by Google Ventures in 2017 and earlier rounds from Andreessen Horowitz, Lerer Hippeau, and Index Ventures.
 
 Then came the fall.
 
@@ -136,22 +155,17 @@ The money was supposed to fuel a category-defining brand. Instead, it fueled a _
 
 Coogan left around the same time, saying the "rapidly changing operations of the company" meant he was no longer "the perfect person for the job." He remained a shareholder.
 
-Looking back, Coogan is remarkably clinical about what happened: "Over-raised, brought in a bad team, it was just a disaster. Everyone left, and the company sold for not a great outcome." That "not a great outcome" was Starco Brands acquiring Soylent in 2023 for roughly **$29 million** — _pennies on the dollar_ compared to what investors had put in, and a fraction of the $225 million exit the company had once sought.
+Looking back, Coogan is remarkably clinical about what happened: "Over-raised, brought in a bad team, it was just a disaster. Everyone left, and the company sold for not a great outcome." That "not a great outcome" was Starco Brands acquiring Soylent Nutrition in February 2023 for roughly **$29.4 million** — a fraction of the **$225 million** exit Bloomberg had previously reported the company was seeking, and a meaningful haircut to the $74.5M of capital that had gone in.
 
-It's worth noting what Coogan doesn't discuss publicly about this period. He never names who the "bad team" was. Never discusses whether he saw the problems coming. Never talks about his relationship with Rhinehart during the chaos. For someone who's candid about almost everything else, the Soylent collapse gets the most carefully managed retelling of his career, and that restraint, whether protective or strategic, is its own kind of signal.
+It's worth noting what Coogan doesn't litigate publicly about this period. He doesn't name names. He doesn't relitigate whether he saw the problems coming. He doesn't air the internal politics. For someone who's candid about almost everything else, the Soylent collapse gets the most _disciplined_ retelling of his career. You can read that as image management or as someone declining to throw old colleagues under the bus on a public feed — both are honest possibilities.
 
-The contrast in where the cofounders landed tells its own story. Rhinehart now lives on a secluded Malibu property with goats and horses, _writing poetry and eating homemade ice cream_. Coogan went to Founders Fund and **built three more things**. He once described Rob as "so unique, eccentric, and weird in such an interesting way," appreciative but clearly viewing him as a different species. When the four Soylent cofounders split, they split two-and-two:
+The contrast in where the cofounders landed is striking on its own terms. Rhinehart, the original visionary, eventually pulled back from operational life and from public view. Cauble went on to found Kin Euphorics. Coogan and Renteln stuck together — the childhood friends from Pasadena — and brought Soylent's head of R&D, Samy Hamdouche, with them to Lucy. Coogan once described Rhinehart as "so unique, eccentric, and weird in such an interesting way," appreciative and clearly viewing him as a different species of operator.
 
-- **Coogan and Renteln** (the childhood friends from Pasadena) stuck together and brought their head of R&D to Lucy.
-- **Rhinehart and COO Matt Cauble** each went their own way entirely.
-
-Coogan kept building; Rob went off-grid. That divergence says something about what each man needed from the experience — and what he was running toward next.
-
-But Coogan did learn something that would save him later: "I've certainly not struck lightning like Soylent again." That kind of honest self-assessment, naming what he's good at (economics, finance, operations, programming, content) and what he's not ("coming up with an iconic brand design"), would become a quiet strength.
+Whatever each cofounder needed from the experience, what came next for Coogan was clear: keep building. But he also left with a kind of self-knowledge that would matter later: "I've certainly not struck lightning like Soylent again." Naming what he's good at (economics, finance, operations, programming, content) and what he's not ("coming up with an iconic brand design") became a quiet operating strength. Soylent's collapse didn't make him cynical. It made him calibrated.
 
 ### Lucy: The Second Act
 
-After leaving Soylent in 2017, Coogan and Renteln co-founded Lucy with Samy Hamdouche, their former head of R&D. He also became an Entrepreneur-in-Residence at [Peter Thiel](/personality-analysis/peter-thiel)'s Founders Fund, one of the most elite VC firms in the world, while simultaneously launching a new company in tobacco-free nicotine. A deliberately controversial space. They even went through Y Combinator a second time with Lucy, "a signal that YC was taking a bet on something 'controversial.'"
+After leaving Soylent in 2017, Coogan and Renteln co-founded Lucy Goods with Samy Hamdouche, their former head of R&D. The catalyst was personal: Renteln had promised his wife he'd quit smoking, and the available nicotine-replacement options were clinical, generic, and built for harm-reduction messaging the FDA wouldn't actually let them say. They built **tobacco-free oral nicotine** — gum, lozenges, and pouches, including "Lucy Breakers" with a crushable flavor capsule — and went through Y Combinator a second time, "a signal that YC was taking a bet on something 'controversial.'"
 
 The strategic reasoning ran deeper than contrarianism. Soylent's fatal flaw was that nutritional supplements have _"very, very few barriers to entry,"_ and every MBA grad could launch a competitor. There was a "DTC industrial complex" that popped up with Dollar Shave Club and Warby Parker, and every new protein shake was fighting for the same influencer deals and the same Amazon shelf space. Nicotine products, now requiring **FDA approval costing "millions to hundreds of millions of dollars,"** created a regulatory moat that was closing fast. "Literally all of our direct competitors above us are owned by big tobacco," Coogan noted. "We're the one company in the space that's _not_ big tobacco."
 
@@ -175,9 +189,9 @@ That phrase — "fun to be on the other side" — is worth sitting with. There's
 
 ### YouTube: The Serendipity Machine
 
-During the COVID lockdown in 2020, Coogan started making YouTube videos, documentary-style deep dives into tech companies and business models. Despite growing to over 450,000 subscribers, he "never really turned it into a business." He thought about his YouTube channel "the way most people think about their Twitter account." Building a half-million-subscriber platform and treating it as a side project tells you something about the scale of ambition operating underneath.
+During the COVID lockdown in 2020, Coogan started making YouTube videos — documentary-style deep dives into tech companies and business models. The channel grew to over half a million subscribers, and yet he "never really turned it into a business." He thought about his YouTube channel "the way most people think about their Twitter account." Building that kind of audience and treating it as a side project tells you something about the scale of ambition operating underneath.
 
-He calls YouTube a "serendipity machine," content that "grows for a very, very long time, especially if it's evergreen. People can find it, and then they know that you're interested in something, and they can reach out." Congress members reached out. Startups reached out. Founders Fund reached out, partly because Coogan had been making videos about their portfolio companies (Flexport, SpaceX, Palantir), "without even putting it together" that they were all FF companies.
+He calls YouTube a "serendipity machine," content that "grows for a very, very long time, especially if it's evergreen. People can find it, and then they know that you're interested in something, and they can reach out." Congress members reached out. Startups reached out. Founders Fund reached out — partly because Coogan had been making videos about their portfolio companies (Flexport, SpaceX, Palantir), "without even putting it together" that they were all FF companies.
 
 He described it as a Feynman learning method: "If I want to understand the dynamics of 'should we ban TikTok or not,' well, if I go and spend a day researching it, write a YouTube script, record it, and edit a video, I usually come away with a pretty solid thesis. Much more so than if I just watched a different video and came away with one thing that I was parroting."
 
@@ -185,9 +199,19 @@ He deliberately avoided the mainstream formula of covering scandals (FTX, Theran
 
 He could have "100x every single view, impression, subscriber number in three months" by pivoting to history and politics content. He chose not to. The restraint was strategic: building the right audience mattered more than building the biggest one.
 
+### Founders Fund and Power Law: The Institutional Chapter
+
+In January 2023, Coogan joined [Peter Thiel](/personality-analysis/peter-thiel)'s Founders Fund as an Entrepreneur-in-Residence — one of the most coveted perches in venture capital. The role was unusual. He wasn't running diligence or sourcing deals in the conventional sense; he was building the firm's content infrastructure. He produced documentary videos on FF portfolio companies and spent his early months focused on the firm's defense-tech investments — the Palantir/Anduril/SpaceX axis the firm had been quietly betting on for years.
+
+The institutional credibility cut both ways. He gained an inside view of how the most heterodox fund in tech actually thinks. They gained someone who could translate their bets into stories the world could absorb.
+
+In mid-2023, he launched **Power Law with John Coogan**, his Founders Fund–era podcast. The premise was tight: investigate how humans impact technology, one figure or company at a time. Episodes ran long-form on figures like Adam D'Angelo and his role in the OpenAI board drama, or deep on a single company's history. It was the audio extension of the YouTube documentary instinct — the same Feynman-by-publishing approach, longer form, with the gravitational pull of the Founders Fund name behind it.
+
+He stayed at FF through April 2025, then left to focus full-time on TBPN. EIRs are temporary by definition, but the exit is still telling: he didn't ride the Founders Fund credential into a new fund, a new portfolio role, or a quiet operating gig. He left to bet on a daily live show — because TBPN had outgrown a side project, and because the next arena was bigger than the one he was standing in.
+
 ### TBPN: The Biggest Stage Yet
 
-In October 2024, Coogan and Jordi Hays launched TBPN (Technology Business Programming Network), a daily live show streaming three hours every weekday, modeled after ESPN's SportsCenter but for tech and business.
+In October 2024, Coogan and Jordi Hays launched TBPN (Technology Business Programming Network) as a weekly podcast. By March 2025 it had gone fully daily — three hours live every weekday from a Los Angeles studio, modeled after ESPN's SportsCenter but for tech and business, eleven people in the company, and a Future Grade 4K production rig running the broadcast.
 
 The origin story is disarmingly simple. "The story of TBPN is two guys decide they should do a podcast, and it's not much deeper than that." They started as "Technology Brothers," literally two men reading the newspaper, which "isn't really a thing and that's not really a show." Before they had sponsors, Coogan ambushed Jordi on air with fake ads: "And John goes, 'and now I need to tell you about Feadship. Feadship is one of the world's premier yacht builders." They listed Aman, Gulfstream, and Feadship as companies that "made this possible," pure aspiration comedy. When they launched a cinematic Succession-style trailer, they loved the immediate roast: "Temu Succession."
 
@@ -205,11 +229,19 @@ What makes TBPN work is the complementary partnership. "I think John loves techn
 
 But the real chemistry is in how they sharpen each other. Jordi described it bluntly: "John's one of the few people, certainly at the top of the list, where when I talk about the things that I'm good at, he is _consistently bringing ideas that are better than my own._" They never seem to run out of things to say. If one of them is driving somewhere on a Friday, the other will ride along just because "I didn't get quite enough time." Coogan writes the newsletter **for Jordi, not the audience**: "I'm pitching an idea to Jordi. I'm not trying to find something that will make you happy. I'm actually trying to make something that will make you tee off."
 
-Within months: Mark Zuckerberg. <a href="/personality-analysis/sam-altman">Sam Altman</a>. Mark Cuban. Satya Nadella. The New York Times called them "SportsCenter for the LinkedIn crowd." A partnership with the NYSE. Nearly $5 million in projected 2025 revenue. Ad inventory for 2026 almost sold out.
+Within months: Mark Zuckerberg. <a href="/personality-analysis/sam-altman">Sam Altman</a>. Mark Cuban. Satya Nadella. The New York Times called them "SportsCenter for the LinkedIn crowd." Roughly $5 million in 2025 ad revenue from an eleven-person company. Then, on December 5, 2025, the **NYSE announced TBPN as its exclusive exchange media partner** — putting the show on the floor alongside CNBC for a 233-year-old institution courting new media. CAA signed them. 2026 ad inventory sold through.
 
 Coogan is deliberate about what TBPN is _not_ chasing: "We make content for 200,000 people in the world. These are people who run companies, who invest, who work at the most important tech companies." And he's deliberate about where the creative ideas come from: "I think technology is too inspired by technology." They pull references from F1 sponsorship models, Hollywood cinematography, fashion archives, and Aaron Sorkin shows. "We found maybe one idea within tech to make the show better this year, and we found hundreds from outside of tech."
 
 Why media? Why not another startup? "If you enjoy making things, there's nothing better than content because we can have an idea at breakfast and ship it two hours later." Compared to startups, where you might not know if an idea works for 12-18 months, content gives a near-instant signal. For someone wired to build and iterate, the feedback loop is irresistible.
+
+#### The OpenAI Acquisition
+
+On **April 2, 2026**, eighteen months after the first episode, OpenAI announced it was acquiring TBPN — for a reported low hundreds of millions of dollars, terms undisclosed. TBPN was housed inside OpenAI's strategy organization under Fidji Simo. Editorial independence was, per the deal, foundational: "TBPN will continue to run their programming, choose their guests, and make their own editorial decisions. That's foundational to their credibility, and it's something we're explicitly protecting as part of this agreement." Coogan's frame: "We can say whatever we want because we're live, and we don't need to run anything through anyone."
+
+It's a strange piece of media history. The biggest AI company in the world buying a daily tech podcast that started as two guys reading the newspaper. For Coogan, it's both a vindication and a tell. The kid who refreshed TechCrunch every day after middle school now sits inside the strategy org of the company defining the next era of technology — and gets to keep his microphone on the way in.
+
+The "scoreboard" framing matters here. Eighteen months. Two-guys-and-a-podcast to a nine-figure exit inside the most valuable private company in the world. Pure 3 alchemy: identify the arena, build credibility, get bought by the king of the arena. And the arena keeps getting bigger.
 
 ## The Person Behind the Builder
 
@@ -219,7 +251,7 @@ Coogan's communication style is _analytical rather than energetic_ — the calm,
 
 But he's not just contrarian for contrarianism's sake — he **defends things Silicon Valley has labeled low-status**. When the "ChatGPT wrapper" meme spread (VCs dismissing anyone building thin layers on top of foundation models), Coogan pushed back: _"The whole ChatGPT wrapper meme is a total psyop by VCs who have scaled up their funds too much to ruin fun for young entrepreneurs."_ Just let the 18-year-old build a ChatGPT wrapper and make $100K a month. Who cares if GPT-6 puts him out of business? He sees VCs de-statusing small entrepreneurship because "unless they can put a billion dollars into it, it's bad." The pattern is consistent: **question the incentive structure, find the hidden signal, bet on the thing that feels unfashionable.**
 
-What energizes him is being right about something the world hasn't figured out yet. "I really, really enjoy learning about things that are misunderstood. It's always fun, focusing on anything that's non-consensus and controversial." Eight years into the nicotine space, the fact that it's still misunderstood energizes rather than frustrates him.
+What energizes him is being right about something the world hasn't figured out yet. "I really, really enjoy learning about things that are misunderstood. It's always fun, focusing on anything that's non-consensus and controversial." Nearly a decade into the nicotine space, the fact that it's still misunderstood energizes rather than frustrates him.
 
 ### The Systems Thinker Who Sees in Layers
 
@@ -267,22 +299,22 @@ When asked what he wants to be known for in 30 years, he **flatly rejects the pr
 
 There's a quieter tension that's harder to explain away. Before TBPN, Coogan was running Lucy profitably, with real financial independence. But the recognition wasn't there. _"It didn't feel like I was in the league at all,"_ he admitted. Making money invisibly — succeeding without being _seen_ succeeding — was **deeply unsatisfying** for him. TBPN solved that. It merged the building with the being seen. For someone in the Enneagram's heart triad, that merger might matter more than the revenue.
 
-#### Humor as Armor
+#### Humor as Launch Pad
 
-There's also a pattern in how Coogan manages risk — specifically the risk of **public failure**. He consistently starts things from a place of comedy: the cannibalism joke at Soylent's core, the fake yacht ads at TBPN's launch, the "Temu Succession" trailer. _"Humor gives you the permission to do something low status."_ You could read this as a clever emotional hedge: start with a joke, and you can't really fail, because it was never fully serious. Only later does it become serious. It's the kind of move that many driven people make instinctively, Type 3 or not.
+There's a pattern in how Coogan starts things, and it's worth naming as Coogan himself names it: _"Humor gives you the permission to do something low status."_ Soylent's brand was built around a cannibalism joke. TBPN launched with fake yacht ads ("and now I need to tell you about Feadship") and a "Temu Succession" trailer. The joke isn't a hedge — it's a strategic doorway. You can start something that would otherwise be too earnest to take seriously, and the humor buys you time to make it real. It's the kind of move many great brand builders use instinctively, Type 3 or not.
 
-And when criticism does come (_real_ criticism, not the playful roasts), the pattern holds. When The Rebooting published an influential piece calling TBPN **"tech's media safe space,"** arguing that it "filters the news through the consensus view of the Silicon Valley elite," Coogan and Hays didn't engage with the substance. When The Information ran a profile alleging "bro culture" at TBPN, Jordi's response was a joke: "This is Kendrick vs Drake for people that know what TSMC is." **Humor first. Deflect the vulnerability of the critique. Reframe it as entertainment.** It's the same instinct that launched Soylent with a cannibalism joke and TBPN with fake yacht ads, but applied _defensively_ rather than offensively. Whether that's emotional avoidance or just smart media strategy is, again, a question with more than one honest answer.
+The same instinct shows up defensively too. When Brian Morrissey at The Rebooting argued TBPN was **"tech's media safe space"** — a "friendly, non-confrontational, aligned" CNBC mimic that "filters the news through the consensus view of the Silicon Valley elite" — and when Abram Brown at The Information published "How the 'Technology Brothers' Seized Silicon Valley," Coogan and Hays mostly didn't engage with the substance. Jordi reframed one of the critiques as entertainment ("Kendrick vs Drake for people that know what TSMC is"). Whether that's emotional avoidance or just smart media strategy — refusing to give critics oxygen on their own terms — is a real question with more than one honest answer. Both can be true.
 
-None of this is a critique. Coogan's evolution from behind-the-scenes CTO to on-camera live host sharing real opinions, three hours a day, unscripted, in front of people who matter to him, represents genuine growth toward authenticity. The question of what he does with the emotions he doesn't discuss isn't ours to answer. But the Enneagram framework suggests it's worth asking.
+What's worth saying clearly is this: Coogan's evolution from behind-the-scenes CTO to on-camera live host sharing real opinions — three hours a day, unscripted, in front of people who matter to him — represents genuine growth toward exposure. He could have stayed in the operator chair and made more money, more privately, with less risk. He chose the harder, more visible thing. That's not a Type 3 pattern to apologize for. It's the part of the pattern that produces real work in the world.
 
 ## John Coogan's Legacy and Current Work
 
-At 36, Coogan is in the middle of something. TBPN has nearly sold out its 2026 ad inventory. Lucy continues to grow profitably. His YouTube library keeps accumulating views.
+At 37, Coogan is in the middle of something genuinely strange. TBPN is now inside OpenAI. Lucy continues to grow profitably. Power Law and the YouTube library keep accumulating views in the background. He still lives in Pasadena. He still goes home after the show.
 
-But Coogan frames what drives him beyond any single venture. What motivates him is "the expansion of GDP, the expansion of life expectancy. All of those things that I think allow humanity to climb the cosmic scoreboard and just put more points on the board."
+But Coogan frames what drives him beyond any single venture. What motivates him, he says, is "the expansion of GDP, the expansion of life expectancy. All of those things that I think allow humanity to climb the cosmic scoreboard and just put more points on the board."
 
-The early career was pure execution: heads down, build the thing, hit the numbers. The YouTube era added storytelling and the Feynman discipline of learning by teaching. TBPN added live vulnerability and real-time authenticity. Each chapter required him to become a different version of himself, and each version was more exposed, more human, more willing to say what he actually thinks rather than what sounds impressive.
+The early career was pure execution: heads down, build the thing, hit the numbers. The YouTube era added storytelling and the Feynman discipline of learning by teaching. Founders Fund added an institutional vantage point. TBPN added live vulnerability and real-time authenticity. The OpenAI acquisition placed all of it — the building, the being seen, the explaining — _inside_ the company arguably defining the next era of technology. Each chapter required him to become a different version of himself, and each version has been more exposed, more human, more willing to say what he actually thinks rather than what sounds impressive.
 
-If the Enneagram framework is right about anything, it's that the healthiest version of any type isn't the one that escapes their pattern — it's the one that becomes conscious of it and chooses it freely. Coogan has gone from proving himself to expressing himself. And that's the journey every Type 3 hopes to make.
+If the Enneagram framework is right about anything, it's that the healthiest version of any type isn't the one that escapes their pattern — it's the one that becomes conscious of it and chooses it freely. The scoreboard never shuts off for a Type 3. The question is what you write on it. Coogan has gone from proving himself to expressing himself to, increasingly, _explaining_ the people building the future. And that's the journey every Type 3 hopes to make.
 
 > **Disclaimer:** This analysis of John Coogan's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.

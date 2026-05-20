@@ -482,7 +482,8 @@
 	position: relative;
 	z-index: 10;
 	overflow: hidden;
-	margin: 1rem;
+	margin: 1rem auto;
+	max-width: 100%;
 	border: 2px solid var(--lamp-glow);
 	background-color: var(--primary-subtle);
 
@@ -639,8 +640,9 @@
 @include mobile {
 	.image-card-base {
 		aspect-ratio: auto !important; // Let image determine height on mobile
-		margin-bottom: 0;
+		margin: 1rem 0 0;
 		width: 100%;
+		max-width: 100%;
 		min-height: 200px; // Prevent CLS before image loads
 
 		.image-card__content {
@@ -662,7 +664,7 @@
 
 @media (min-width: 500px) {
 	.image-card-base {
-		width: clamp(400px, 100%, 600px);
+		width: min(100%, 600px);
 		max-height: 500px;
 	}
 }

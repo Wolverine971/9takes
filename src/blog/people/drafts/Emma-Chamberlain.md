@@ -49,7 +49,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Emma_Chamberlain'
   - 'https://www.wikidata.org/wiki/Q63349606'
   - 'https://www.imdb.com/name/nm10524027/'
-  - 'https://www.instagram.com/emmachamberlain/'
 citations:
   - 'https://en.wikipedia.org/wiki/Emma_Chamberlain'
   - 'https://chamberlaincoffee.com/'

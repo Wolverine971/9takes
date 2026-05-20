@@ -31,9 +31,7 @@ keywords:
   - 'Tara Yummy analysis'
   - 'Helper enneagram'
 same_as:
-  - 'https://x.com/tarayummy'
-  - 'https://www.instagram.com/tarayummyy'
-  - 'https://www.tiktok.com/@tarayummy'
+  - 'https://www.imdb.com/name/nm12575429/'
 citations:
   - 'https://x.com/tarayummy'
   - 'https://www.instagram.com/tarayummyy'

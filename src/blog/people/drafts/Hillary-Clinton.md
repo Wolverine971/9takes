@@ -49,8 +49,8 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Hillary_Clinton'
   - 'https://www.wikidata.org/wiki/Q6294'
-  - 'https://twitter.com/HillaryClinton'
-  - 'https://www.instagram.com/hillaryclinton/'
+  - 'https://www.britannica.com/biography/Hillary-Clinton'
+  - 'https://www.state.gov/biographies/hillary-rodham-clinton/'
 citations:
   - 'https://en.wikipedia.org/wiki/Hillary_Clinton'
   - 'https://www.britannica.com/biography/Hillary-Clinton'

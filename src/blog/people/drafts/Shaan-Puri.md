@@ -54,7 +54,7 @@ path: src/blog/people/drafts/Shaan-Puri.md
 
 <p class="firstLetter">Shaan Puri didn't say that. A stranger at a casino did, some guy he'd never met, making conversation at a table in the middle of nowhere. Shaan was in his early twenties. He kept the line for sixteen years.</p>
 
-That's the thing about **Shaan Puri** that most people miss. The guy who sold companies to Twitch and built My First Million into one of the biggest business podcasts on YouTube, who turned a metaverse tweet thread into a reframing clinic, is still carrying a stranger's line in his pocket like a talisman. Still needing the reminder.
+That's the thing about **Shaan Puri** that most people miss. The guy who sold a company to Twitch and built My First Million into one of the biggest business podcasts on YouTube, who turned a metaverse tweet thread into a reframing clinic, is still carrying a stranger's line in his pocket like a talisman. Still needing the reminder.
 
 He has built an entire philosophy around movement. New ventures, new chapters, new identities. He calls life "seasons of a TV show." He's started a sushi restaurant, a live-streaming app, a social network, a crypto newsletter, a baby clothing brand, and a venture fund, all before 37. But his most honest moments, the 2 AM essays, the podcast episodes where the performance drops, reveal someone wrestling with the question all that motion is designed to outrun.
 
@@ -203,7 +203,7 @@ One paragraph. No framework, no system, no reframe. The man who has built framew
 
 The career that moved the family across nine countries didn't just give Shaan an unusual childhood. It taught him the move. When a situation goes stale, the next place is already waiting. By the time Shaan was old enough to choose for himself, restlessness wasn't a tool he picked up. It was the only tempo he knew. Every chapter, every venture, every reframe is a variation on a song his father started playing when he was a kid.
 
-That's why the father section can't be engineered through. Every framework Shaan has would have to be applied to the source of the frameworks themselves. The fish can't reframe water.
+That's why this relationship can't be engineered through. Every framework Shaan has would have to be applied to the source of the frameworks themselves. The fish can't reframe water.
 
 His family has told him he comes across as "rude to people." The directness that serves him in business cuts differently at home.
 

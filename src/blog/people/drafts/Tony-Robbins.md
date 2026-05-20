@@ -114,7 +114,7 @@ The question is what the war dance is for.
 <ul>
 <li><b>The War Dance:</b> The world's most confident speaker has the most elaborate pre-talk ritual in the business, because underneath the performance, a Type 3's core emotion is shame.</li>
 <li><b>The Wound:</b> Four fathers, an abusive mother, poverty so deep they ate saltine crackers for Thanksgiving. He learned early that love had to be earned through performance.</li>
-<li><b>The Body:</b> A pituitary tumor made him grow ten inches in one year. He turned a medical condition into a brand. Classic Three.</li>
+<li><b>The Body:</b> A pituitary tumor made him grow ten inches in one year. He didn't hide it — he made it the message. Classic Three.</li>
 <li><b>Why Not Type 8:</b> The anger is performative and strategic. Watch what happens when the image cracks: he apologizes and rebuilds. Eights double down. Threes protect the image.</li>
 <li><b>Duty vs. Devotion:</b> In his <a href="/personality-analysis/alex-hormozi">Alex Hormozi</a> podcast, Tony named the Type 3 growth journey out loud, from "I have to" to "I get to."</li>
 </ul>
@@ -191,7 +191,7 @@ This is what Threes do. They don't just cope with circumstance; they _perform_ i
 
 Robbins studied Neuro-Linguistic Programming with its creators, Richard Bandler and John Grinder. When Grinder asked for a project proving his commitment, Robbins suggested firewalking: walking across red-hot coals as visceral proof that people can do more than they believe. It became his signature.
 
-His core insight: when any single behavior meets three or more human needs simultaneously, it becomes almost addictive. This explains why some people can't stop working, why others can't leave bad relationships, and why transformation requires rewiring, which needs to be met by certain behaviors.
+His core insight: when any single behavior meets three or more human needs simultaneously, it becomes almost addictive. It's why some people can't stop working. It's why others can't leave bad relationships. And it's why transformation requires installing new behaviors that meet those needs better than the old ones — not willpower, but replacement.
 
 In 2002, he partnered with Cloé Madanes, a pioneering family therapist and direct student of the legendary hypnotherapist Milton Erickson. Where Robbins brought scale and stage presence, Madanes brought psychological rigor. Together, they created Strategic Intervention and trained over 15,000 coaches worldwide. The partnership gave his intuitive methods the institutional structure they'd lacked.
 
@@ -215,7 +215,7 @@ This is the method in action: identify peak states, anchor them, create triggers
 
 The most public artifact of the method is Joe Berlinger's 2016 Netflix documentary, [_Tony Robbins: I Am Not Your Guru_](https://about.netflix.com/en/news/netflix-premieres-new-joe-berlinger-documentary-tony-robbins-i-am-not-your-guru-exclusively-to-members-worldwide-on-july-15). Berlinger — known for dark documentaries about serial killers — attended Date With Destiny himself, was personally moved, and asked to film the next one. Robbins agreed. Cameras rolled at the six-day seminar in Boca Raton in December 2014.
 
-The film opens with Robbins standing across from a young Swiss man named Hans, suicidal, in front of 2,500 people. Tony swears at him. Confronts him. Anchors a new state. Then the room rises and lifts Hans overhead, crowd-surfing him as Snow Patrol's "Run" swells. Later in the film, a woman named Dawn — raised in the cult Children of God and sexually abused from age six — works through her own breakthrough.
+The film opens with Robbins standing across from a young man from Berlin named Matyas, suicidal, in front of 2,500 people. Tony swears at him. Confronts him. Anchors a new state. Then the room rises and lifts Matyas overhead, crowd-surfing him as Snow Patrol's "Run" swells. Later in the film, a woman named Dawn — raised in the cult Children of God and sexually abused from age six — works through her own breakthrough.
 
 Critics call it edited theater. Robbins doesn't disagree about the editing. He'd tell you the experience was real because the participant experienced it. That's the Three's epistemology in a single frame: _if the result holds, the method is justified._
 
@@ -347,7 +347,7 @@ There it was. The Three's core wound, spoken aloud by the most successful motiva
 
 Later in the conversation, Robbins visibly struggled to hold his composure. "I'm trying not to cry," [he told Bartlett](https://singjupost.com/diary-of-a-ceo-w-tony-robbins-on-suffering-strangers-and-service-transcript/) in a separate interview that same month. "I hate suffering. I have suffered myself, and so I hate to see anybody suffer."
 
-At 65, Tony has shifted from _I achieve to prove I'm worthy_ toward _I achieve because it serves something larger_. The shift isn't complete (for a Three, it never entirely is). But the direction is real. The question isn't whether to achieve. Tony Robbins will always achieve.
+At 66, Tony has shifted from _I achieve to prove I'm worthy_ toward _I achieve because it serves something larger_. The shift isn't complete (for a Three, it never entirely is). But the direction is real. The question isn't whether to achieve. Tony Robbins will always achieve.
 
 The question is what fuels it.
 
@@ -359,6 +359,6 @@ Every morning, the ritual. The trampoline. The ice water. The war dance no one s
 
 He is still performing.
 
-The question, at sixty-five, is whether the audience has changed.
+The question, at sixty-six, is whether the audience has changed.
 
 > **Disclaimer:** This analysis of Tony Robbins' Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tony Robbins.

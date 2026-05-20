@@ -48,7 +48,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Tucker_Carlson'
   - 'https://www.wikidata.org/wiki/Q743162'
   - 'https://www.imdb.com/name/nm1227121/'
-  - 'https://twitter.com/TuckerCarlson'
   - 'https://tuckercarlson.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Tucker_Carlson'

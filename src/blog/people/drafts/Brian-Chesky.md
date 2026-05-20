@@ -43,8 +43,6 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Brian_Chesky'
   - 'https://www.wikidata.org/wiki/Q4963341'
-  - 'https://twitter.com/bchesky'
-  - 'https://www.instagram.com/bchesky/'
   - 'https://www.airbnb.com/about'
 citations:
   - 'https://en.wikipedia.org/wiki/Brian_Chesky'

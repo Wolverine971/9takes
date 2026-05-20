@@ -1,0 +1,35 @@
+Draft saved. Final report:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Tyler1.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES:
+  Gate 1 (Testimony Ledger ≥2): pass — 3 qualifying named third-party quotes (Riot Games 2016 official statement, Phreak/David Turley c. 2017, Macaiyla ~2023)
+  Gate 2 (Heading Mix ≥2 search-intent/hybrid): pass — 8 H2s tagged (2 signature, 2 search-intent, 4 hybrid); search-intent + hybrid = 6
+  Gate 4 (Anti-imitation): pass — no "A [Type]" anaphora in ending; hook opens on multi-detail cascade (billboard / $70k dinner / 22 banned accounts / no friend visits), not a Thiel-style object-reveal
+  Gate 5 (Distribution Rule ≤4 type-theory paragraphs in body): pass — 3 paragraphs counted ("Why Tyler1 doesn't want friends" opener; stress-arrow paragraph; growth-arrow paragraph)
+  Gate 6 (Formula Fingerprint): pass — contrast-pair sentence engines = 2 (intro + close, both load-bearing); no 3-type counter-typing ladder; critic-pressure anchor (Phreak) and current-tense anchor (Saiyler 2024 / Ivy 2025 / 2026 Missouri life) both present; ending swap-test passes (anchors to 613-day ban + New London billboard + dinner check, person-specific)
+LIMITATIONS:
+  - No transcripts fetched. Non-interactive Option B was the default, but adequate primary-source quote inventory was already extracted from text-based sources (ESPN 2018, Dexerto 2024, Washington Post/Muddy River mirror, mein-MMO). Logging as research_limitation: no_transcripts in working notes for future revision passes if Tyler1 long-form podcast appearances (e.g., recent Hasan/Asmongold collabs) become available.
+
+Person: Tyler1 (Tyler Steinkamp)
+Type call: Enneagram 8w7, sexual subtype (8sx)
+Thesis: Most people see the loudest performer on Twitch — a screaming meathead. Through Type 8, the rage isn't the engine; it's the exhaust. The engine is a small-town Missouri kid with ADHD who decided no one would tell him what he could and couldn't do.
+
+Suggestions (frontmatter): Asmongold, IShowSpeed, Kai-Cenat, Hasan-Piker
+
+Internal links added (4 total):
+  - Type 8 → /enneagram-corner/enneagram-type-8 (diagnosis section, first mention)
+  - Kai Cenat → /personality-analysis/kai-cenat (Tyler1 in 2026 section)
+  - IShowSpeed → /personality-analysis/ishowspeed (Tyler1 in 2026 section)
+  - Enneagram types under stress → /enneagram-corner/enneagram-types-in-stress (stress section)
+
+Titles:
+  title: "Tyler1: An In-Depth Enneagram Type 8 Analysis"
+  meta_title: "Inside Tyler1's Mind: The Discipline Behind the Rage" (52 chars)
+  persona_title: "Streaming's Disciplined Brawler"
+
+Next step: Human review. After approval, set production_pretext.status: ready and run /blog_content_production_people.
+```

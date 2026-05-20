@@ -30,9 +30,9 @@ keywords:
   - 'Alex Lieberman analysis'
   - 'Enthusiast enneagram'
 same_as:
-  - 'https://x.com/businessbarista'
-  - 'https://www.instagram.com/businessbarista'
-  - 'https://www.tiktok.com/@businessbarista'
+  - 'https://alexlieberman.com/'
+  - 'https://www.crunchbase.com/person/alex-lieberman'
+  - 'https://www.morningbrew.com/'
 citations:
   - 'https://x.com/businessbarista'
   - 'https://www.instagram.com/businessbarista'

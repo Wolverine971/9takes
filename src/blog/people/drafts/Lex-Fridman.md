@@ -58,7 +58,6 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Lex_Fridman'
   - 'https://www.wikidata.org/wiki/Q76448707'
-  - 'https://twitter.com/lexfridman'
   - 'https://lexfridman.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Lex_Fridman'

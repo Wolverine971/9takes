@@ -56,7 +56,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex'
   - 'https://www.wikidata.org/wiki/Q3304418'
   - 'https://www.imdb.com/name/nm1620783/'
-  - 'https://www.instagram.com/meghan/'
   - 'https://sussex.com/meghan-duchess-of-sussex/'
 citations:
   - 'https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex'

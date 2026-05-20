@@ -53,6 +53,21 @@ citations:
   - 'https://www.sportskeeda.com/esports/news-pokimane-tells-viewers-accept-multi-million-dollar-gambling-sponsorships'
   - 'https://www.sportskeeda.com/esports/news-why-i-compromise-morals-ethics-pokimane-says-cringe-accepts-10-million-contract-kick'
   - 'https://www.dexerto.com/entertainment/pokimane-shares-crazy-story-about-confronting-brothers-childhood-bully-1322725/'
+  - 'https://time.com/collections/time100-creators-2025/7299131/pokimane/'
+  - 'https://www.dexerto.com/twitch/pokimane-reveals-pcos-diagnosis-urges-viewers-to-get-checked-2749667/'
+  - 'https://www.dexerto.com/twitch/pokimane-tearfully-reveals-overwhelming-health-scare-after-lump-regrows-2971809/'
+  - 'https://www.complex.com/pop-culture/a/backwoodsaltar/pokimane-explains-really-into-celibacy'
+  - 'https://www.sportskeeda.com/us/streamers/news-i-take-profits-pokimane-breaks-silence-stepped-away-controversial-cookie-brand-myna-snacks'
+  - 'https://www.dexerto.com/entertainment/pokimanes-snack-company-goes-quiet-after-two-years-3298282/'
+  - 'https://www.dexerto.com/twitch/ellum-allegations-explained-captainpuffy-accuses-streamer-of-emotional-and-financial-abuse-3295156/'
+  - 'https://kotaku.com/alexandria-ocasio-cortez-streams-on-twitch-with-hasan-p-1845431479'
+  - 'https://dotesports.com/streaming/news/aocs-among-us-stream-raises-200000-for-community-support-organizations'
+  - 'https://www.thegamer.com/pokimane-twitch-9-million-followers/'
+  - 'https://www.pcgamer.com/pokimane-leaving-twitch-podcast/'
+  - 'https://dotesports.com/streaming/news/scarra-intervention-with-fedmyster-and-7-other-girls-6-had-allegations-against-him'
+  - 'https://gameriv.com/fedmyster-reveals-his-relationship-with-pokimane-in-a-25-page-response-titled-my-truth/'
+  - 'https://kotaku.com/pokimane-s-new-5-donation-cap-sends-ripples-through-th-1845562331'
+  - 'https://www.youtube.com/watch?v=fh518OdBpbI'
 faqs:
   - question: 'What is Pokimane''s Personality Type?'
     answer: 'Enneagram Sixes run on a question most people never consciously ask: Who can I actually trust?'
@@ -78,14 +93,19 @@ content_quality:
   graded_at: '2026-02-19'
 ---
 
-<!-- QUALITY GRADE: A (9.0)
+<!-- QUALITY GRADE: A (9.0) — pending re-grade after 2026-05-19 revision pass
 Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
 
-FEEDBACK (2026-02-19):
-- STRENGTHS: The playground-to-Dr. K juxtaposition is one of the strongest openings in the collection. "She doesn't fear the attack — she fears the moment after" is a thesis that drives every section. The celibacy/oxytocin analysis ("threat-modeling intimacy itself") is a genuinely novel insight — a Six deconstructing attachment through biochemistry to avoid false connection. The Fedmyster section is the central case study it needs to be: "The Six's worst nightmare isn't an enemy. It's an ally running a long con."
-- STRENGTHS: Evidence is exceptional — gambling rejection quotes, Dr. K direct quotes, Fedmyster stream detail, donation cap reasoning, celibacy reasoning. Person's voice is heard throughout. Multiple sourced links. Step-counting depression metric is a signature detail.
-- NEEDS WORK: The "Storms That Shaped the Fortress" subsections (JiDion, Burnout, Health Scares) are slightly more report-like than the rest — the health scares section in particular reads as events listed rather than analyzed through the Six lens. The Myna Snacks section is strong but the "broke boy" clip moment could connect more explicitly to the counterphobic edge misfiring.
-- TO REACH A+: (1) Deepen the Health Scares section — connect PCOS diagnosis shame and lump regrowth anxiety to the Six's relationship with bodily vulnerability and control. (2) Add one more emotionally immersive scene at Dr. K/Fedmyster level — the JiDion depression section has the material but needs to put the reader IN the room more viscerally. (3) The ending is good but not devastating — consider ending on the Dr. K "worthy of the benefit of the doubt" line or the Josh Ellum pattern repetition rather than the playground callback. (4) One more unforgettable line on par with "Empathy arrived as intellectual achievement" would push writing to 10.
+PRE-OUTREACH REVISION PASS (2026-05-19):
+- Added "Enneagram Rabbit Hole" section (6w7 wing, sp/so subtype, 6-1-3 tritype, Levels of Health, counterarguments for Type 3/1/9/4) — matches the Elon Musk template depth.
+- Expanded upbringing section ("Three Languages and a Fist") with verified family detail: mother Hafida (Berber), father Rachid (Moroccan), brother Mohamed (3 years older), the Bill 101 French-school context, the half-tongue Arabic detail, MapleStory as community-building practice.
+- Added "What She Was Building (Before It Got Tested)" warmth section between the Rise and Fedmyster sections — female-creator mentorship, AOC/Bernie political moments, humor, spiritual practice, the OTV culture credit. Counters the "all fortress, no warmth" reading.
+- Updated Myna Snacks with verified April 1, 2026 statement: "I didn't take any profits" / "what it means to be a content creator is very, very different from what it means to be a business owner."
+- Deepened Health Scares section: PCOS shame as Six body-trust problem, lump-regrowth waiting period as "vigilance without resolution," mom's birthday call as the safety net working in reverse direction.
+- Reworked ending to land on Dr. K's "worthy of the benefit of the doubt" line rather than playground callback.
+- Updated Josh Ellum section: corrected attribution (Cara released the 6-page Google Doc on Dec 17 2025; Captain Puffy raised it publicly; Pokimane statement Dec 27 2025).
+- Verified: Reckful $3M offer, $5 donation cap (Nov 2 2020), Fedmyster timeline (June 27 2020 + Nov 25 2020 25-page/11-page docs), JiDion (Jan 12 2022), OfflineTV graduation (May 19 2023), Twitch departure (Jan 30 2024), 9.4M followers, TIME100 #35.
+- Per memory: did NOT modify lastmod (user-managed).
 -->
 
 <p class="firstLetter">She was four years old, fresh off a plane from Morocco to Quebec, when another kid hit her brother on the playground.</p>
@@ -150,27 +170,100 @@ When gambling streams became controversial, she didn't stay quiet:
 
 This is what clinicians call a "counterphobic" Six, someone who moves _toward_ the thing that scares them. Where a phobic Six might quietly step back from a hostile industry, a counterphobic Six builds an empire in it.
 
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wing, Subtype &amp; Connecting Lines for Pokimane</summary>
+<div class="panel">
+
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands without it.</em></p>
+
+### Pokimane's Wing: 6w7 (The Buddy)
+
+The 7 <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> is what separates Pokimane from the textbook 6w5 doomscroller. A pure 6w5 builds *walls*; a 6w7 builds *clubhouses*. The OfflineTV instinct, the comedic timing, the willingness to bring AOC and Hasan Piker into the same Among Us lobby, the warmth that softens every public callout — none of that is 6w5 material. 6w5s sit in archives. 6w7s organize the group chat.
+
+The 7-wing also explains why her hypervigilance hasn't collapsed her. A 6w5 under sustained threat tends to curl inward, shrink the perimeter, and disappear from the public layer entirely. A 6w7 reroutes the anxiety into activity, novelty, social bandwidth. Pokimane responds to JiDion by counting steps and then launching a podcast. She responds to Fedmyster by founding RTS. She responds to burnout by reinventing her content loop entirely. The Six's anxiety doesn't get processed; it gets *projected forward* into the next project. That's the 7-wing pressure valve.
+
+The cost of 6w7: when the 7 escapism breaks, it breaks visibly. Burnout 2022, the "broke boy" misfire, the depression after JiDion — these are 6w7-specific failure modes where the optimism reserves run out and the underlying fear hits without the usual buffer. 6w5s know they're scared; 6w7s find out when the smile stops working.
+
+### Pokimane's Instinctual Subtype: sp/so (Self-Preservation Six with Social Secondary)
+
+Pokimane reads as a **sp/so 6**, which in Naranjo's taxonomy is sometimes called the "warm" or "affectionate" Six — the variant that builds safety through reliability, financial discipline, and high-trust small circles rather than through ideology or one-on-one intensity. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">subtype</a> stack maps almost cleanly onto her decisions:
+
+**Self-preservation dominant:** Caps donations at $5. Refuses gambling sponsorships at $10M. Turns down Reckful's $3M offer. Buys a $250 Kijiji PC. Hedges with a STEM degree. Keeps her home address off the internet. Frames celibacy as "preserving energy." Treats her diet, her PCOS, her sleep, her step count, her perimeter as systems to be monitored. The sp-6's primary question is *am I materially safe* — finances, body, home, food. Every Pokimane "boundary" maps to a sp-6 perimeter.
+
+**Social secondary:** OfflineTV. RTS. Charity streams. The AOC Among Us moment. Mentoring younger female streamers. Bernie Sanders / Kamala stream October 2024. The so-6 instinct is *am I safe inside the group*, which is why she keeps building groups whose rules she helps write. Sp-dominance keeps her solvent; so-secondary keeps her connected.
+
+**Sexual (one-to-one) tertiary:** This is the missing instinct, and her own framing names it. Demisexuality. Celibacy. Private relationships. Threat-modeling oxytocin. The sx-6 (the "counterphobic" subtype in some readings) is the *most* aggressive Six — the one who picks fights to find allies. Pokimane's counterphobic edge is real but it's *selectively* deployed; she's not a sx-dominant who needs intense pair-bonds to feel alive. She specifically defends *against* that intensity. Sx-last is why her romantic life looks the way it does — not absence of desire but active de-prioritization of it.
+
+The sp/so stack also predicts the specific shape of her empire. RTS protects the *material* layer (contracts, deals, money). OfflineTV protected the *social* layer (community, found family). Myna Snacks tried to protect the *body* layer (food, health). No sexual-stack venture exists. The instincts she invests in are the ones at the top of her stack.
+
+### Pokimane's Tritype: 6-1-3 (The Taskmaster)
+
+The likely **tritype** is **6-1-3** — Loyalist core, Reformer fix in the gut center, Achiever fix in the heart center. Each fix shows up in a specific behavior layer:
+
+- **6 (head, core):** Trust audit. Worst-case modeling. Fortress architecture.
+- **1 (gut, fix):** Moral perfectionism. "I'd rather make $0 and keep my dignity." The gambling refusal. The 11-page receipts document. The way she frames every business decision as a values test.
+- **3 (heart, fix):** Image management. Strategic career building. The Forbes 30 Under 30 / TIME100 trajectory. The polished public persona that's now hers to deconstruct.
+
+Tritype 6-1-3 (sometimes called "The Taskmaster") is one of the most common tritypes in long-career creators with strong ethical signatures — Stephen Colbert, Michelle Obama, and Bryan Cranston all read this way. The pattern is "anxious moralist who quietly out-executes everyone." It's not flashy. It's just relentless.
+
+### Stress and Growth Arrows
+
+The core essay walks through 6→3 in stress and 6→9 in growth. The typology nuance to add:
+
+**6-in-stress pulls the *worst* of 3** (image-driven performance, hollowed-out productivity, running on the hamster wheel because stopping feels more dangerous than exhaustion) — not the best (focused execution, healthy ambition). This is exactly what Dr. K named when he said she'd "gotten away from her real identity." The 3-arrow under stress doesn't make her *more accomplished* — it makes her accomplish things she doesn't actually want, then wonder why the wins feel hollow. Her 2022 burnout was a 6→3 collapse. The "playing every large, trending game and not feeling passionate" was the 3-fix going through the motions while the 6-core had already checked out.
+
+**6-in-growth pulls the *best* of 9** (settled presence, trust that not everything needs a contingency plan, the willingness to be unstructured) — not the worst (numbing, dissociation, conflict-avoidance). The "comfy test" stream in 2025. The 90-minute low-stakes broadcast with no production. The "free as a bird" Twitch exit. These are not anti-ambition moves; they're the 9-arrow giving her permission to *want less* and call it growth. See <a href="/enneagram-corner/enneagram-types-in-stress">Type 6 in stress</a> for more on the asymmetry.
+
+### Levels of Health (Riso-Hudson)
+
+Pokimane reads as a **Level 4 Six** with frequent Level 3 integration moments and Level 5 dips under acute stress.
+
+- **Level 3 (healthy, integrating):** Self-affirming, courageous, faith in self. Visible in: the gambling refusal, the OfflineTV co-founding, the early Fed callout, the 2025 lifestyle recalibration. The woman who hit back at four lives at Level 3.
+- **Level 4 (average, default):** Engaging committed loyalty to people and projects, ambivalent about own authority, dutiful but reactive. Her default state — running RTS, leading OTV, producing content while wondering if she's still the right person to be doing it.
+- **Level 5 (average, stress-leaning):** Defensive scanning, testing for loyalty, over-vigilant. Visible in: the Leafy response cycle, the post-Fed receipts era, the JiDion depression, the broke-boy misfire. Not unhealthy — just the Six's threat-response running hot.
+
+She doesn't visibly hit Level 6-7 (authoritarian dependence, paranoid projection) in public material. The system has more guardrails than that.
+
+### Counterarguments: Why Pokimane Might Not Be Type 6
+
+The strongest alternate read is **Type 3 (Achiever)**, and it's the one her business resume keeps inviting. Forbes 30 Under 30, TIME100 #35, three companies, podcasts, brand deals — Threes love a stack. The rebuttal is in what she's *refused*. A 3 takes the $3M Reckful offer. A 3 takes the $10M Kick deal. A 3 doesn't cap donations at $5 because $5 is sub-optimal extraction. A 3 doesn't say *"I'd rather make $0 and keep my dignity"* — that's a 1-fix line spoken from a 6-core platform. The 3 read explains the trophy case. It does not explain the trophies she walked away from.
+
+The second alternate is **Type 1 (Reformer)**. The moral signature is real — gambling refusal, ethical sourcing on Myna, the "compromise my morals and ethics" framing. But Ones lead with internal moral perfectionism applied to their own work; their motivation is *being right*. Pokimane's motivation is *being secure*. She isn't trying to make perfect things; she's trying to make *trustworthy* things, where trustworthy means the people who get close don't end up costing her later. The 1-fix gives her language. The 6-core gives her decisions.
+
+The third alternate is **Type 9 (Peacemaker)**. The warmth, the conflict-aversion in some interviews, the integration line to 9 in growth — these create surface noise. But 9s merge; Pokimane *audits*. 9s avoid conflict; Pokimane confronts gambling streams and writes 11-page receipts documents. 9s have a self that gets diluted by others; Pokimane's self gets *hidden* from others. The 9 read explains a few hours of footage. The 6 read explains the career.
+
+The most interesting close-but-not-quite read is **Type 4 (Individualist)**, suggested by the Imane/Poki identity split she described to Dr. K. 4s do have an "is there a real self under the persona" wound. The rebuttal: 4s lean *into* idiosyncrasy and difference. Pokimane reduces her individuality on purpose, to protect it. The Six hides her self because she's not sure who can be trusted with it. The Four shows her self because she's not sure who else has one like it. Different wound. Different defense.
+
+</div>
+</details>
+
 ---
 
 ## Pokimane's Upbringing: Three Languages and a Fist
 
-Imane Anys was born in Morocco on May 14, 1996, to an academic-centric family. At four, they immigrated to Quebec, Canada, eventually settling in St. Catharines, Ontario.
+Imane Anys was born in Morocco on May 14, 1996, to two academics. Her mother Hafida is of Berber descent. Her father Rachid is Moroccan. When Imane was four, the family immigrated to Quebec, Canada, before eventually settling in Ontario.
 
-The <a href="https://www.dexerto.com/entertainment/pokimane-shares-crazy-story-about-confronting-brothers-childhood-bully-1322725/">playground incident</a> happened almost immediately. Another kid hit her brother Mo. Without hesitation, she confronted the boy, confirmed he'd done it, and hit him back.
+To understand the psychology you have to start with what that move actually cost. A Berber-Moroccan family arriving in francophone Quebec in the year 2000 wasn't moving to a new neighborhood. They were moving across an entire identity architecture: from a culture organized around lineage and tribe to one organized around assimilation, from Arabic prayer to French public school, from extended family to nuclear isolation, from one set of survival rules to another. The parents were academics, which means they understood the trade they were making for their kids. The kids absorbed it as instinct.
 
-She was four. She didn't speak the language yet. She already had the instinct.
+The <a href="https://www.dexerto.com/entertainment/pokimane-shares-crazy-story-about-confronting-brothers-childhood-bully-1322725/">playground incident</a> happened almost immediately. Another kid hit her brother Mohamed ("Mo"), three years her senior and the family's first line of defense in the new country. Without hesitation, four-year-old Imane confronted the boy, confirmed he'd done it, and hit him back.
 
-Growing up as an immigrant with Berber and Moroccan heritage meant navigating between worlds. French at school (her first language), English socially, Moroccan Arabic at home. Constant code-switching builds hyperawareness. You learn to read the room before you speak. You learn which version of yourself each room requires.
+She was four. She barely had the language. She already had the instinct.
 
-Her brother introduced her to gaming, passing down his Game Boy, Nintendo DS, and Wii. Gaming became what she'd later call <a href="https://www.essentiallysports.com/esports-news-my-after-school-secret-life-twitch-queen-pokimane-reveals-how-she-hid-her-hobby/">"my after-school secret life."</a> In middle school, she gravitated toward MMOs like MapleStory, where she spent more time customizing characters and socializing with other players than competing. Even then, community mattered more than winning.
+Think about what that scene tells you. The brother — older, bigger, the one who *should* be the protector — gets hit. The four-year-old little sister, the one who needs protecting, becomes the protector. Roles invert under threat. A Six's loyalty is not abstract; it's directional, and the direction is always *toward* the person in her circle who's been wronged. That instinct never left her. Twenty years later, the same wiring would tear an 11-page defense apart for Yvonnie Ng, walk away from a $10 million Kick deal to refuse complicity with gambling streams, and frame her own celibacy as a defense of her energy.
 
-Think about that. A kid with three languages and no stable cultural anchor finds a virtual world where she can build an identity, decorate a space, and choose her own community. MapleStory wasn't a game. It was practice.
+Growing up Berber-Moroccan in francophone Ontario meant three worlds running in parallel. French became her first language formally — Quebec's <a href="https://en.wikipedia.org/wiki/Charter_of_the_French_Language">Bill 101</a> required French-only schooling, and she went through the system from age four. English was social oxygen once the family moved to Ontario. Moroccan Arabic — her parents' real tongue, the one Hafida and Rachid spoke between themselves — she'd later describe knowing only "a little bit," a half-tongue at home. She's called herself a speaker of "two and a half languages."
 
-When she enrolled at McMaster University for chemical engineering, she wasn't rebelling against her parents' academic values. She was hedging her bets. Streaming was a passion, but a STEM degree was the fallback.
+That half-language is a Six detail. Constant code-switching builds hyperawareness — you learn to read the room before you speak, you learn which version of yourself each room requires — but a half-tongue at home means part of her parents' inner life was always slightly out of reach. Her brother got there first; she came in behind him. Even at home, she was the second one through the door.
 
-"I actually loved school," she's admitted. "I would continue my education if there was a specific degree I wanted to earn."
+Mo introduced her to gaming. He passed down his Game Boy, Nintendo DS, and Wii — used hardware, hand-me-down, the kind of inheritance that comes pre-loved in immigrant households where the parents' answer to "can I have a new one" is usually "use your brother's." Gaming became what she'd later call <a href="https://www.essentiallysports.com/esports-news-my-after-school-secret-life-twitch-queen-pokimane-reveals-how-she-hid-her-hobby/">"my after-school secret life."</a>
 
-Keep your options open. Never burn bridges. Always have a Plan B.
+In middle school she gravitated toward **MMOs — specifically MapleStory** — where she spent more time customizing avatars and chatting in guilds than completing quests. The game wasn't the point. The world was the point. A kid with three half-cultures and no stable anchor had found a virtual room she could redecorate, populate, and exit on her own terms. MapleStory wasn't a game. It was a controlled simulation of community-building — choose the friends, design the avatar, set the rules of engagement. The OfflineTV instinct was already there, ten years before OfflineTV existed.
+
+When she enrolled at **McMaster University** for chemical engineering, she wasn't rebelling against her parents' academic values. She was hedging. Chemical engineering is the most academic-sounding STEM degree available — the one immigrant parents from a maths-and-medicine culture would recognize as safe. Streaming was a hobby on the side. The Six's first job is always to keep the fallback intact.
+
+"I actually loved school," she's said. "I would continue my education if there was a specific degree I wanted to earn."
+
+She didn't drop out until she'd already built a Twitch following large enough to make the dropout *retroactively safe*. The risk wasn't taken; it was managed into existence. Keep the options open. Never burn the bridge. Always have a Plan B — and only walk Plan A's door once Plan B is a guaranteed landing.
 
 ---
 
@@ -208,9 +301,27 @@ In 2020, she co-organized the viral <a href="https://happymag.tv/aoc-among-us/">
 
 She took less money to stay on the platform she trusted.
 
-By 2022, she was the first female Twitch streamer to hit 9 million followers. Forbes 30 Under 30. The Streamer Awards Legacy Award. A cameo in _Free Guy_.
+By April 2022, she was the <a href="https://www.thegamer.com/pokimane-twitch-9-million-followers/">first female Twitch streamer to hit 9 million followers</a>. Forbes 30 Under 30 (Games) in 2021. The Streamer Awards Legacy Award in 2021. A cameo in _Free Guy_. By 2025, she was on the <a href="https://time.com/collections/time100-creators-2025/7299131/pokimane/">inaugural TIME100 Creators list at #35</a>.
 
-But the milestones aren't what make the story interesting. What's interesting is what happened when the safety nets started breaking.
+But the milestones aren't what make the story interesting. What's interesting is who she actually was when the cameras and the contracts faded.
+
+---
+
+## What She Was Building (Before It Got Tested)
+
+The mistake most analyses of Pokimane make is treating her career as a series of defensive moves. That's half the picture. The other half is that she's the streamer who keeps showing up for *other people's* problems, often when there's no upside for her in it.
+
+**The female-creator infrastructure.** Long before "women in gaming" became a PR pillar, she was the one making space. She mentored LilyPichu, Yvonnie Ng, Brookeab, Janet Rose ("xChocoBars") and a generation of female Twitch streamers — many of them through OfflineTV, many of them off-camera. When she capped donations and told viewers to "support growing channels," that wasn't theater. She was using the audience as redistribution. Sixes don't just want to be safe — they want to make the *group* safe.
+
+**The political moment.** The <a href="https://kotaku.com/alexandria-ocasio-cortez-streams-on-twitch-with-hasan-p-1845431479">October 2020 Among Us stream with AOC, Ilhan Omar, Hasan Piker, Disguised Toast, and Myth</a> peaked at over 439,000 concurrent viewers — one of the largest viewership records in Twitch history. The November 27, 2020 follow-up <a href="https://dotesports.com/streaming/news/aocs-among-us-stream-raises-200000-for-community-support-organizations">raised $200,000</a> for food pantries, eviction defense, and community support orgs. In October 2024, she co-hosted a livestream with Bernie Sanders supporting the Kamala Harris campaign, alongside Hank Green, Mark Cuban, and Mark Hamill. She uses the audience she built for things that aren't her.
+
+**The humor.** Anyone who's actually watched her — not just the LiveStreamFail clips — knows she's funny in a specific way: dry, self-deprecating, willing to be the butt of the joke before anyone else can be. The "boyfriend application" bit at Christmas 2020 (where she read a fan's "gaming resume" on stream and jokingly rejected him for zero Fall Guys wins) wasn't a power move. It was a *kindness* dressed as comedy. She redirected what could have been humiliation into a shared bit. The audience left feeling closer to her, not further from him.
+
+**The faith she's quiet about.** She <a href="https://en.wikipedia.org/wiki/Pokimane">describes herself</a> as "spiritual and believing in God but not being religious," participates in Ramadan and Eid al-Fitr, and has deliberately declined to publicly claim Islam as an identity in order to avoid being "the perfect role model" any community would project onto her. The Six refuses both the temple and the soapbox — but keeps the practice.
+
+**The found family.** OfflineTV's official statement on her departure called her "a pillar of OTV since it formed in 2017." Scarra has repeatedly credited her as one of the driving forces behind the group's culture, not just its commercial success. The "fortress builder" framing makes her sound cold; what she actually built was a *house*. The Six's most under-rated capacity is exactly this — once trust is established, the loyalty is total.
+
+Hold all of that in your head before the next section. Because the Fedmyster story is not just about a Six discovering a betrayal. It's about a Six discovering that the *house she built* — the one place she'd allowed herself to be fully invested — had been quietly hollowed from the inside.
 
 ---
 
@@ -320,11 +431,11 @@ Every public statement she makes gets instantly reinterpreted. Clips set to "omi
 
 She saw creators getting exploited by bad deals and built the support system she wished had existed. RTS now manages major streamers and [co-owns the Evolution Championship Series (Evo) with Sony](https://www.pcgamer.com/twitch-streamer-pokimane-sorta-co-owns-the-biggest-fighting-game-tournament-in-the-world-now/). She turned her own hypervigilance about getting screwed into a company that protects an entire industry from getting screwed.
 
-**Myna Snacks (2023)**: The healthy snack company she launched with a former Kellogg's executive. Midnight Mini Cookies, $28 for four bags. Critics noticed a nearly identical product at Costco for a fraction of the price.
+**Myna Snacks (November 2023)**: The healthy snack company she launched with a former Kellogg's executive. Midnight Mini Cookies, $28 for four bags. Gluten-free, non-GMO, fortified with vitamin D. Born partly out of her own PCOS journey — she'd changed her diet after diagnosis and decided to build something that would have helped her younger self.
 
-Then the clip happened. A viewer challenged the pricing on stream, and Pokimane fired back: "If you're a broke boy, just say so."
+Critics noticed a nearly identical product at Costco for a fraction of the price.
 
-It went viral on r/LiveStreamFail. MoistCr1TiKaL called it a "sh\*\*ty thing to say." Asmongold piled on. The counterphobic edge, the same impulse that made her confront Leafy and call out Twitch, had cut the wrong direction.
+Then the clip happened. A viewer challenged the pricing on stream, and Pokimane fired back: "If you're a broke boy, just say so." In context, the line landed as a joking deflection — the kind of self-aware quip she'd done a hundred times before. Outside of context, on a r/LiveStreamFail clip, it read as a millionaire mocking her own audience. MoistCr1TiKaL called it a "sh\*\*ty thing to say." Asmongold piled on. The counterphobic edge, the same impulse that made her confront Leafy and call out Twitch, had cut the wrong direction at the wrong time.
 
 She apologized the same day. But the real response came later, and it was more revealing:
 
@@ -332,11 +443,17 @@ She apologized the same day. But the real response came later, and it was more r
 
 "To have people try and <a href="https://www.dexerto.com/youtube/pokimane-felt-viewers-tried-to-assassinate-her-character-after-failed-cookie-launch-2747706/">assassinate my character</a> in that way, I do think it hurt quite a bit."
 
-This is the wound beneath the wound. The cookies weren't the issue. Trust was. She'd spent years building a reputation as the streamer who doesn't do cash grabs, and the first time she launched a product, the audience treated her like every other influencer running a scam. The safety net of public goodwill, the one she'd spent a decade weaving, tore in a single clip.
+This is the wound beneath the wound. The cookies weren't the issue. *Trust* was. She'd spent a decade building a reputation as the streamer who doesn't do cash grabs, and the first time she launched a product, the audience treated her like every other influencer running a scam. The safety net of public goodwill, the one she'd spent ten years weaving, tore in a single clip.
 
 She also revealed they weren't profiting: "Even at that price point, I wanna be very clear, we were not making money."
 
-By October 2025, Myna Snacks <a href="https://www.dexerto.com/entertainment/pokimanes-snack-company-goes-quiet-after-two-years-3298282/">quietly ceased operations</a>. Pokimane hasn't publicly addressed the closure.
+By late October 2025, Myna Snacks' Instagram had stopped posting. By <a href="https://www.dexerto.com/entertainment/pokimanes-snack-company-goes-quiet-after-two-years-3298282/">December 2025</a>, reporting confirmed the brand had quietly shut down. Pokimane stayed silent for four months.
+
+Then, on <a href="https://www.sportskeeda.com/us/streamers/news-i-take-profits-pokimane-breaks-silence-stepped-away-controversial-cookie-brand-myna-snacks">April 1, 2026</a>, she finally addressed it directly:
+
+> "I didn't take any profits. What it means to be a content creator is very, very different from what it means to be a business owner. There are certain things that most businesses can get away with that you simply cannot do when you're a creator-backed brand."
+
+That's a Six finally separating two things she'd previously fused: the persona and the product. A 3 would frame the closure as a strategic pivot. A 1 would lead with apology and self-correction. The Six does what she always does — she identifies the system error ("creator-backed brand" as a category problem, not just a personal failure) and writes the post-mortem in the most Pokimane sentence possible: *I learned the rules of the new game by losing it once*.
 
 **[Don't Tell Anyone](https://open.spotify.com/show/2k3DUGbvap0I40B2L7X122) Podcast (2023)**: "I'm tired of keeping secrets." The podcast was her attempt to close the gap between Pokimane and Imane, sharing the private self she'd spent a decade protecting.
 
@@ -364,13 +481,25 @@ Summer 2022 brought a breaking point. Pokimane announced burnout and took a brea
 
 When she returned, she'd recalibrated. No more fixed streaming schedules. A lifestyle-first approach to content. She used burnout as a springboard for reinvention, not by pushing harder, but by rewriting the rules of engagement entirely.
 
-### Health Scares
+### Health Scares: When the Body Becomes Another System to Audit
 
-In <a href="https://www.dexerto.com/twitch/pokimane-reveals-pcos-diagnosis-urges-viewers-to-get-checked-2749667/">May 2024</a>, she revealed a PCOS diagnosis on the "Just Trish" podcast. She'd had irregular periods her whole life but wasn't diagnosed until her mid-20s. She initially felt "ashamed" and worried about being judged.
+In <a href="https://www.dexerto.com/twitch/pokimane-reveals-pcos-diagnosis-urges-viewers-to-get-checked-2749667/">May 2024</a>, she revealed a PCOS diagnosis on the *Just Trish* podcast. She'd had irregular periods her whole life. She wasn't diagnosed until her mid-20s. She sat on the diagnosis for an entire year before speaking publicly.
 
-In <a href="https://www.dexerto.com/twitch/pokimane-tearfully-reveals-overwhelming-health-scare-after-lump-regrows-2971809/">November 2024</a>, a lump previously removed from her chest had regrown, requiring MRIs and biopsies. The results came back benign.
+The reason she gave is the most Six sentence in the entire interview:
 
-On her mother's birthday.
+> "I didn't wanna talk about my diagnosis for a little while because, I think anytime you're diagnosed with something, there's a bit of shame or feeling like 'Oh, is something wrong with me?' or 'Are people gonna judge me?'"
+
+Read that twice. For most people, a chronic-but-manageable diagnosis registers as a *health* problem. For a Six, it registers as a *trust* problem — *can I trust my own body, can I trust my audience to handle this, can I trust myself to disclose without losing the perimeter I've built?* PCOS for Pokimane wasn't a medical event. It was the discovery that one more system she'd been depending on — her own biology — was running on rules she hadn't been briefed on. The body became another fortress to threat-model. The diet changed. The training routines changed. Myna Snacks was, in part, the entrepreneurial output of that re-architecting.
+
+Then, in <a href="https://www.dexerto.com/twitch/pokimane-tearfully-reveals-overwhelming-health-scare-after-lump-regrows-2971809/">November 2024</a>, a lump that had previously been removed from her chest grew back. Her gynecologist flagged it during a routine MRI. A second lump showed up on the imaging. Multiple biopsies followed.
+
+She filmed the reveal in a YouTube video and could barely get through it. The waiting period — knowing something is in your body and not knowing what it means — is the exact texture of Six suffering: vigilance without resolution. The mind has to keep modeling every outcome until the data lands.
+
+Both biopsies came back benign.
+
+The results arrived on her mother's birthday. In the video, she plays the audio of the phone call. Hafida's voice on the other end — the same mother who'd carried her across an ocean at four — saying it back in English: *"That's the best birthday gift I could ever receive."*
+
+The four-year-old who once stood between her brother and a bully had spent a quarter-century constructing a fortress to protect everyone in her circle. In November 2024, the fortress turned around and protected *her* — through her mother's voice, on her mother's birthday, in the language Hafida and Rachid had crossed the ocean to give her. Sometimes the safety net works in the direction the Six can't see coming: backward, from the people they've been busy protecting.
 
 ---
 
@@ -422,7 +551,9 @@ The Six's growth isn't eliminating fear. It's learning to hold the fear without 
 
 ## The Pattern That Won't Break
 
-In December 2025, allegations surfaced against Josh Ellum, the British content creator Pokimane had moved in with earlier that year. She'd explicitly told the internet they were just friends and roommates. When Captain Puffy released a document detailing Ellum's mistreatment, <a href="https://x.com/pokimanelol/status/2004963287310778692">Pokimane's statement</a> was measured: she'd already distanced herself months earlier, after Cara spoke to her privately. "I've since spoken to Cara privately and apologized so she knows I took what she said seriously. I've also decided to move out."
+In <a href="https://www.dexerto.com/twitch/ellum-allegations-explained-captainpuffy-accuses-streamer-of-emotional-and-financial-abuse-3295156/">December 2025</a>, allegations surfaced against Josh Ellum, the British content creator Pokimane had moved in with earlier that year. She'd explicitly told the internet they were friends and roommates, nothing more. On December 17, 2025, Ellum's ex Cara released a six-page Google Doc detailing emotional, financial, and personal mistreatment during their relationship. Captain Puffy boosted the document publicly and noted she'd raised concerns to Pokimane months earlier — back in October 2025 — about Ellum's alleged behavior.
+
+On December 27, 2025, <a href="https://x.com/pokimanelol/status/2004963287310778692">Pokimane's statement</a> arrived. It was measured: she clarified she'd never been *living* in the apartment full-time (she rented a room there for content-collaboration proximity, kept her own residential address), that she had already stopped visiting once Cara raised concerns privately, and that she had spoken to Cara directly. "I've since spoken to Cara privately and apologized so she knows I took what she said seriously. I've also decided to move out."
 
 The Fedmyster situation. Again. A different name, a different house, the same pattern: someone inside the safety net turning out to be unsafe.
 
@@ -430,14 +561,20 @@ She'd spent her career building protected spaces. OfflineTV. RTS. Her carefully 
 
 For most people, this would breed cynicism. For Pokimane, it breeds sharper vetting. More careful trust. The walls get higher because the walls have been proven necessary.
 
-She stayed loyal to Twitch when YouTube offered more money than she'd ever seen. Two years later, she left Twitch entirely, calling out the "manosphere, red pill bullshit" that had "flourished within the male-dominated livestreaming sphere." She told <a href="https://www.pcgamer.com/pokimane-leaving-twitch-podcast/">PC Gamer</a>: "Some of the stuff I see them say and do breaks my heart."
+She stayed loyal to Twitch when YouTube offered more money than she'd ever seen. Two years later, on January 30, 2024, she left Twitch entirely, calling out the "manosphere, red pill bullshit" that had "flourished within the male-dominated livestreaming sphere." She told <a href="https://www.pcgamer.com/pokimane-leaving-twitch-podcast/">PC Gamer</a>: "Some of the stuff I see them say and do breaks my heart."
 
 She tested the institution. It failed. She walked.
 
 The question she keeps answering, over and over, in every decision: _Does this deserve my loyalty?_
 
-And the question underneath that one, the one Dr. K got to in four minutes, the one that made a woman who hits back at four years old break down crying at twenty-four: _If I strip away every safety net I've built, is there someone underneath worth protecting?_
+But under that question lives the harder one — the one Dr. K reached in four minutes, the one that made a woman who'd hit back at four years old break down crying at twenty-four:
 
-A four-year-old in Quebec already knew the answer. She's still learning to trust it.
+> _"I just wish I could feel like I could be worthy of the benefit of the doubt."_
+
+That sentence is the whole psychology compressed to one line. Every safety net, every contract clause, every receipts document, every donation cap, every cookie reformulation, every celibate pause, every 11-page response is the same answer to the same fear: *that the people watching her will decide she didn't earn the trust they extended, and pull it back without warning.*
+
+The fortress isn't built to keep enemies out. It's built to keep her *worthy of being trusted in the first place*.
+
+Twenty-five years after the playground, with three companies behind her, a TIME100 plaque, nine million followers, two podcasts ended on her own terms, and a slow, careful relationship to her own body — Imane is still doing the work the four-year-old started. Confirming the threat. Choosing the response. And quietly, slowly, learning that the person underneath all the architecture might already be worth the benefit of the doubt she's spent her life trying to earn.
 
 > **Disclaimer:** This analysis of Pokimane's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Pokimane.

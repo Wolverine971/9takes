@@ -58,8 +58,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Michelle_Obama'
   - 'https://www.wikidata.org/wiki/Q13133'
   - 'https://www.imdb.com/name/nm2349292/'
-  - 'https://twitter.com/MichelleObama'
-  - 'https://www.instagram.com/michelleobama/'
   - 'https://www.obama.org/'
 citations:
   - 'https://en.wikipedia.org/wiki/Michelle_Obama'

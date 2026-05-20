@@ -53,7 +53,7 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Michael_Seibel'
   - 'https://www.wikidata.org/wiki/Q28226109'
-  - 'https://twitter.com/mwseibel'
+  - 'https://www.ycombinator.com/people/michael-seibel'
   - 'https://www.michaelseibel.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Michael_Seibel'

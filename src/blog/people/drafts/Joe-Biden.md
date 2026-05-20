@@ -46,8 +46,8 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Joe_Biden'
   - 'https://www.wikidata.org/wiki/Q6279'
-  - 'https://twitter.com/JoeBiden'
-  - 'https://www.instagram.com/joebiden/'
+  - 'https://millercenter.org/president/biden'
+  - 'https://www.britannica.com/biography/Joe-Biden'
 citations:
   - 'https://en.wikipedia.org/wiki/Joe_Biden'
   - 'https://millercenter.org/president/biden'

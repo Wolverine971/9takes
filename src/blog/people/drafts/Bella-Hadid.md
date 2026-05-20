@@ -27,8 +27,7 @@ keywords:
 same_as:
   - https://en.wikipedia.org/wiki/Bella_Hadid
   - https://www.wikidata.org/wiki/Q21286612
-  - https://www.instagram.com/bellahadid/
-  - https://www.tiktok.com/@bellahadid
+  - https://www.imdb.com/name/nm7440414/
 wikidata_qid: Q21286612
 imdb_id: nm7440414
 birth_date: '1996-10-09'

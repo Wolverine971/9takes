@@ -54,7 +54,6 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Travis_Kalanick'
   - 'https://www.wikidata.org/wiki/Q7836291'
-  - 'https://twitter.com/travisk'
   - 'https://www.cloudkitchens.com/'
 citations:
   - 'https://en.wikipedia.org/wiki/Travis_Kalanick'

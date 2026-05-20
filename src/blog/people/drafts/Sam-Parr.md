@@ -164,7 +164,7 @@ Then he built Trends, a premium subscription at $299 a year. Presold $30,000 in 
 
 His own diagnosis: "I'm not really that much of a business person; I'm an artist. I was being a business person and I was worn out and I wanted to create, not have meetings and manage people."
 
-Look back at every move and the pattern is the same. The cold emails ghost-written under aliases like Steve Garcia and Sidd Finch. The Anti-MBA's curated reading list. The Hustle's voice, distilled into a daily column with the rhythm of stand-up comedy. The 9,000-mile motorcycle ride with Marcus Aurelius in the saddlebag. He didn't build a media business so much as keep finding excuses to write, perform, and ride. He has the constitution of a sprinter and the soul of a columnist. "I would say I'm a creator," he told one interviewer. "It sounds weird, but I think I'm an artist." The business person was always the costume. The artist was who he was when he took it off.
+Look back at every move and the pattern is the same. The newsletter pieces written under pen names like Steve Garcia and Sidd Finch. The Anti-MBA's curated reading list. The Hustle's voice, distilled into a daily column with the rhythm of stand-up comedy. The 9,000-mile motorcycle ride with Marcus Aurelius in the saddlebag. He didn't build a media business so much as keep finding excuses to write, perform, and ride. He has the constitution of a sprinter and the soul of a columnist. "I would say I'm a creator," he told one interviewer. "It sounds weird, but I think I'm an artist." The business person was always the costume. The artist was who he was when he took it off.
 
 In February 2021, he sold The Hustle to HubSpot for roughly $27 million.
 
@@ -188,7 +188,7 @@ Here's how that plays out across his life:
 
 **Intensity as a survival strategy.** Cold-calling strangers a hundred times a day to burn away rejection. Riding a motorcycle 9,000 miles to mark one year sober. Carrying an 80-pound pit bull on his shoulders through city streets because the dog couldn't walk anymore. If you're always moving, nothing can pin you down.
 
-**The braces origin story.** His entire financial ambition traces back to wanting to protect his family from helplessness. That's the Eight's integration into [Type 2](/enneagram-corner/enneagram-type-2): the protector who learns to serve.
+**The braces origin story.** His entire financial ambition traces back to wanting to protect his family from helplessness. That's the Eight's healthy direction — toward [Type 2](/enneagram-corner/enneagram-type-2), the protector who learns to serve.
 
 Sam laid it bare in a 2025 podcast episode: "My self-worth is my net worth basically. That's probably through years of trauma and believing something, and it's hard to break."
 

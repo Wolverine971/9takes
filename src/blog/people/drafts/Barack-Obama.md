@@ -58,8 +58,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Barack_Obama'
   - 'https://www.wikidata.org/wiki/Q76'
   - 'https://www.imdb.com/name/nm1682433/'
-  - 'https://twitter.com/BarackObama'
-  - 'https://www.instagram.com/barackobama/'
   - 'https://www.obama.org/'
 citations:
   - 'https://en.wikipedia.org/wiki/Barack_Obama'

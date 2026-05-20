@@ -928,6 +928,7 @@
 								<span class="mono">[PORTRAIT]</span>
 							</div>
 						{/if}
+						<span class="mono library-type-chip">T{typeNum}</span>
 					</div>
 					<div class="library-card-body">
 						<span class="mono library-id">
@@ -1969,7 +1970,8 @@
 		}
 
 		@media (max-width: 640px) {
-			grid-template-columns: 1fr;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 8px;
 		}
 	}
 
@@ -1977,10 +1979,11 @@
 		--type-stripe: var(--lamp-glow);
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
-		border-radius: 16px;
+		border-radius: 8px;
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
+		min-width: 0;
 		transition:
 			background 0.2s ease,
 			border-color 0.2s ease,
@@ -2006,6 +2009,10 @@
 		object-fit: cover;
 		object-position: center 25%;
 		filter: contrast(1.05) brightness(0.96) saturate(0.92);
+	}
+
+	.library-type-chip {
+		display: none;
 	}
 
 	:global(:root.light) .home .library-image {
@@ -2059,6 +2066,91 @@
 		font-size: 14px;
 		line-height: 1.5;
 		color: var(--ink-mid);
+	}
+
+	@media (max-width: 640px) {
+		.library-header {
+			margin-bottom: 32px;
+		}
+
+		.library-grid {
+			max-width: 420px;
+		}
+
+		.library-card {
+			border-radius: 8px;
+
+			&:hover {
+				transform: none;
+			}
+		}
+
+		.library-image-wrap {
+			border-top-width: 2px;
+		}
+
+		.library-image,
+		.library-image-stub {
+			aspect-ratio: 1 / 1;
+		}
+
+		.library-type-chip {
+			position: absolute;
+			top: 6px;
+			left: 6px;
+			z-index: 1;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			min-width: 24px;
+			height: 20px;
+			padding: 0 6px;
+			border: 1px solid var(--type-stripe);
+			border-radius: 999px;
+			background: rgba(10, 8, 7, 0.78);
+			color: var(--type-stripe);
+			font-size: 9px;
+			letter-spacing: 0.04em;
+			line-height: 1;
+			backdrop-filter: blur(4px);
+		}
+
+		:global(:root.light) .home .library-type-chip {
+			background: rgba(250, 248, 244, 0.84);
+		}
+
+		.library-card-body {
+			min-height: 66px;
+			padding: 8px 8px 10px;
+			gap: 4px;
+		}
+
+		.library-id {
+			display: none;
+		}
+
+		.library-name {
+			display: -webkit-box;
+			overflow: hidden;
+			font-size: 12.5px;
+			line-height: 1.15;
+			letter-spacing: 0;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+		}
+
+		.library-subtitle {
+			overflow: hidden;
+			font-size: 10.5px;
+			line-height: 1.25;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.library .library-cta-row {
+			margin-top: 28px;
+		}
 	}
 
 	.library-cta-row {

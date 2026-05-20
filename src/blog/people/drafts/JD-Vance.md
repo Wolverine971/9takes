@@ -51,8 +51,6 @@ same_as:
   - 'https://www.wikidata.org/wiki/Q28935729'
   - 'https://www.imdb.com/name/nm8577419/'
   - 'https://www.whitehouse.gov/administration/jd-vance/'
-  - 'https://twitter.com/JDVance'
-  - 'https://www.instagram.com/jdvance/'
 citations:
   - 'https://en.wikipedia.org/wiki/JD_Vance'
   - 'https://www.whitehouse.gov/administration/jd-vance/'

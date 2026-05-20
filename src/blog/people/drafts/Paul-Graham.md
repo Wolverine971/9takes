@@ -57,7 +57,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
   - 'https://www.wikidata.org/wiki/Q92650'
   - 'https://paulgraham.com/'
-  - 'https://twitter.com/paulg'
   - 'https://www.ycombinator.com/people'
 citations:
   - 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
@@ -110,15 +109,9 @@ Philosophy. Computer science. Painting. Startups. Venture capital. Essays. Each 
 
 The engine underneath is fear of confinement. Not physical confinement, but psychological. The dread of being trapped in a domain gone stale, a role turned routine, a label hardened into identity. He wrote an entire essay arguing that the more labels you attach to yourself, **"the dumber they make you."** That's not a writing exercise. That's a survival manual.
 
-Here's the evidence:
+The exits stack up like footprints leading out of every room he's been in. He gave up television at thirteen because passive consumption felt like a cage. "I developed an intrinsic compulsion to work hard," he wrote. "Like most little kids, I enjoyed the feeling of achievement when I learned or did something new. As I grew older, this morphed into a feeling of **disgust when I wasn't achieving anything.**" He quit his only real job after a few years at Interleaf, later apologizing in print: "I hereby apologize to my boss and coworkers, because **I was a bad employee.**" Traditional working hours "seemed unnatural." After Yahoo bought Viaweb for $49 million, the year that should have been triumph instead became, in his words, "the least productive of my life." He stepped down from YC after building it into a $600 billion empire because "I am not really much of a manager." He even wrote an essay called "Keep Your Identity Small," arguing that fixed positions are traps. The irony is that he clearly _is_ a startup person, a contrarian, a Lisp advocate. The essay isn't a manifesto. It's a prayer.
 
-- **Gave up TV at 13**, not because he was told to, but because passive consumption felt like a cage. "I developed an intrinsic compulsion to work hard," he wrote. "Like most little kids, I enjoyed the feeling of achievement when I learned or did something new. As I grew older, this morphed into a feeling of **disgust when I wasn't achieving anything.**"
-- **Quit his only real job after a few years.** At Interleaf, he was so bad at corporate life he later apologized: "I hereby apologize to my boss and coworkers, because **I was a bad employee.**" Traditional working hours "seemed unnatural."
-- **Left a major exit feeling hollow**: "The next year must have been the least productive of my life."
-- **Stepped down from YC**, the organization he built into a $600 billion empire, because "I am not really much of a manager."
-- **Wrote "Keep Your Identity Small"**, arguing that fixed positions are traps. The irony is that he clearly _is_ a startup person, a contrarian, a Lisp advocate. The essay isn't a manifesto. It's a prayer.
-
-The core emotion isn't enthusiasm. It's the low hum of dread that settles in whenever the walls start closing, when something that was once alive starts calcifying into obligation. Compare this to a [Type 5](/enneagram-corner/enneagram-type-5), who withdraws to conserve energy, or a [Type 3](/enneagram-corner/enneagram-type-3), who shapeshifts to win. Graham doesn't withdraw or adapt. He leaves.
+The core emotion isn't enthusiasm. It's the low hum of dread that settles in whenever the walls start closing, when something that was once alive starts calcifying into obligation. A [Type 5](/enneagram-corner/enneagram-type-5) would withdraw to conserve energy; a [Type 3](/enneagram-corner/enneagram-type-3) would shapeshift to win the next room. Graham does neither. He leaves the building.
 
 ---
 
@@ -144,17 +137,21 @@ By 13, he'd quit TV and started programming on a TRS-80 his father bought after 
 
 > **"There was something else I wanted more: to be smart. Not simply to do well in school, but to design beautiful rockets, or to write well, or to understand how to program computers."**
 
+At Cornell, he started in philosophy because it seemed like the field that asked the deepest questions. The disappointment was almost immediate: **"I kept taking philosophy courses and they kept being boring."** He switched to artificial intelligence, which at least had the courtesy of producing things you could run. The pattern is already visible in the eighteen-year-old: a domain that wouldn't compile, abandoned. Philosophy didn't fail him in any reasonable sense. It just didn't move fast enough.
+
 ---
 
 ## Choosing Painting and Poverty in Florence
 
 The painting years are the chapter Graham's admirers rarely discuss, and they're the most psychologically revealing.
 
-At Harvard, finishing his computer science PhD, he saw a painting on a wall and something shifted:
+In 1988, deep into his Harvard PhD on programming language design, he visited the Carnegie Institute in Pittsburgh. He was looking at a painting on the wall when something shifted:
 
 > **"There, right on the wall, was something you could make that would last. Paintings didn't become obsolete."**
 
 Code dies. Paintings endure. For someone wired to flee the temporary, that permanence was magnetic.
+
+He finished the PhD anyway, but barely. With no dissertation written and five weeks to the deadline, he picked "applications of continuations" as a topic and assembled the thesis at speed, partly by reusing material from a Lisp book he was already writing. It is one of the cleanest tells in the whole biography: he treated the PhD itself as a side quest to be exited, not a destination to be honored.
 
 He enrolled at RISD. Dropped out in 1993: **"I could do that for free."** Art school "did not bear the same relationship to art that medical school bore to medicine."
 
@@ -179,6 +176,10 @@ He craved the verdict. Code compiles or it doesn't. Startups grow or they don't.
 ## Why Selling Viaweb Didn't End the Restlessness
 
 Viaweb, one of the first web applications, was Graham's ticket out of artistic ambiguity. But the key decision, the one that reveals the mind underneath, was building it in Lisp.
+
+He didn't build it alone. Robert Morris had been a constant in Graham's life since grad school, a quiet, methodical hacker whose mind ran in straight lines where Graham's ran in spirals. Morris is the same Robert Tappan Morris who, in 1988, released the first internet worm from a Cornell terminal and accidentally crashed a significant slice of the early internet. He pleaded guilty under the Computer Fraud and Abuse Act, did community service, and eventually became an MIT computer science professor. Graham would later name him as one of his personal heroes and write, plainly, that Morris is "never wrong." The Type 7 attaches to the person whose judgment can act as ballast for his own.
+
+Trevor Blackwell joined in 1995, mid-PhD at Harvard, mainly known to Graham for a stated plan to reduce his entire life to a stack of notecards. Graham described him as a "frighteningly effective hacker" whose mind worked like Austrian Rococo, ornate, surprising, weirdly load-bearing where Morris's was orderly and Roman. Blackwell wrote Viaweb's image rendering, order processing, and statistics layers. He would later found Anybots, building one of the first dynamically balancing biped robots. Even his quirks — a "bogometer" on his desk, a Segway polo league he played in — read as somebody who, like Graham, treated novelty as a basic nutrient.
 
 In 1995, Lisp was a museum piece, a language academics loved and businesses ignored. Graham and Morris chose it deliberately.
 
@@ -218,7 +219,7 @@ Within two years, the relationship had become the secret architecture of the mos
 
 On March 11, 2005 (Graham remembers the exact location, the corner of Garden and Walker streets in Cambridge) three threads converged during a walk home from dinner. Jessica was miserable at her investment bank. Graham had been lecturing her about what was wrong with venture capital. The idea crystallized.
 
-Y Combinator launched that summer. Eight startups. $200,000 pooled from Graham, Morris, Trevor Blackwell, and Jessica. Today, it has funded over 4,000 companies worth over $600 billion, including Airbnb, Dropbox, Stripe, and Reddit.
+Y Combinator launched that summer. Eight startups. $200,000 pooled from Graham, Morris, Blackwell, and Jessica. The same four people. The same friendships that built Viaweb, now pooled into the next institution. For someone who exits everything else, Graham doesn't exit relationships. Forty years on, Morris is still the friend whose advice he weighs against his own. Blackwell is still in his life. Jessica became the partner he built a family with. The Type 7 mythology of the restless solo explorer is, in his case, almost completely wrong. Every door he walked through, he walked through with the same small group of people. Today YC has funded over 4,000 companies worth over $600 billion, including Airbnb, Dropbox, Stripe, and Reddit.
 
 What the public didn't see was how the operation actually worked during interviews. Graham, Morris, and Blackwell asked the technical questions. Then they'd all turn to Jessica:
 
@@ -280,9 +281,15 @@ These aren't just essays. They're the mental furniture of an entire generation o
 
 Then there's Arc, the programming language Graham spent seven years building with Robert Morris, announced in 2001, finally released in 2008. He envisioned something timeless: **"We're trying to make something for the long term, something that will be useful to people in, say, 100 years."** It launched to mixed reviews. Its most notable achievement was powering Hacker News. Graham quietly moved on. The pattern, again: intense investment, diminishing novelty, exit.
 
-In 2025, he published four essays. "Good Writing" argued that prose quality and idea quality are inseparable: **"Writing that sounds good is more likely to be right."** "What to Do" distilled decades of thinking into three principles: help people, take care of the world, make good new things.
+Except he didn't quite move on. On March 26, 2015, the year after leaving YC, he started a new Lisp dialect called Bel. He worked on it for the next four years, finishing on October 12, 2019. It was the kind of project that should not have existed. He had no business reason to write it, no team waiting on it, no community demanding it. Bel was a self-interpreting Lisp pursuing John McCarthy's 1960 axiomatic approach to its logical end, an answer to the question of what happens if you delay leaving the formal phase as long as possible. The result was, by his own admission, "not a language you can use to program computers." It was a four-year intellectual exercise in retirement, written quietly, mostly alone. The story Graham tells about his current life is that the paintings stopped and the startups stopped and the writing remained. Bel is the data point that complicates that story. The mind that runs on novelty kept a stealth project running in the basement.
 
-"The Origins of Wokeness" was the most controversial. Graham defined wokeness as "an aggressively performative focus on social justice" and traced it to 1960s activists gaining institutional power as professors. The essay generated weeks of rebuttals. A former YC founder wrote that they "couldn't finish reading it, it made me too upset." Graham later acknowledged on X that wokeness had inspired several of his earlier essays, calling some of them "largely a subtweet about wokeness."
+In September 2024, after Brian Chesky gave an unscheduled two-hour talk at a YC alumni gathering about the trauma of being told to "hire good people and give them room to do their jobs," Graham went home and wrote "Founder Mode." The essay landed at over 20 million views on Twitter inside a week. Its central claim, that founders running companies should ignore the standard managerial playbook and trust their own instincts, became Silicon Valley's loudest argument of the year. Garry Tan reframed YC itself around it. Whitney Wolfe Herd, the Bumble founder, replied that she had been in founder mode for ten years and got attacked for it every single day, raising the obvious question of why men founders got celebrated for the same behavior that got women founders pushed out. Graham didn't take the bait. He didn't really engage the gender critique. He let the essay stand. That is itself a Type 7 move: publish the diagnosis, let the world fight about it, don't get pulled into the meta-argument that would consume months he'd rather spend on the next essay.
+
+The essay that did not let him walk away that easily was "The Origins of Wokeness," published in January 2025. Graham defined wokeness as "an aggressively performative focus on social justice" and traced it to 1960s campus activists who eventually became tenured professors and then administrators. The piece generated weeks of rebuttals. Erik Torenberg, a Silicon Valley voice mostly sympathetic to Graham's project, wrote "Contra Paul Graham on Wokeness" arguing that Graham had misdiagnosed the problem as stylistic when it was substantive. The woke critique isn't really about how people talk, Torenberg argued; it's about whether equal treatment under the law or equality of outcome is the goal. Graham's "performative" framing concedes the underlying disagreement and reduces it to manners. A former YC founder wrote that they "couldn't finish reading it, it made me too upset." Graham later acknowledged on X that wokeness had inspired several of his earlier essays, calling some of them "largely a subtweet about wokeness."
+
+The essay is the test of his own Fierce Nerds warning. He cautioned that fierceness can curdle into "bitterness" or becoming an "intellectual playground bully." On Wokeness, the honest read is that he's writing close to that line. The voice is sharper than the analysis. The Type 7 who has to keep moving has trouble holding still long enough to engage the strongest version of his critics; he prefers to publish, take the hit, and reach for the next subject. That isn't the whole of him. But it is the cost of the engine.
+
+In 2025 he also published "Good Writing," which argued that prose quality and idea quality are inseparable: **"Writing that sounds good is more likely to be right."** And "What to Do," which distilled decades of thinking into three principles: help people, take care of the world, make good new things.
 
 ---
 
@@ -300,7 +307,13 @@ Then he took flying lessons in a Cessna. The result: **"Still afraid of getting 
 
 That's not a quirky anecdote. That's the whole psychology in miniature. He'll face any fear if he's in control. What paralyzes him is being a passenger. Not the height. The helplessness.
 
-The same pattern runs through everything. He couldn't be an employee because working hours "seemed unnatural." He couldn't stay at Yahoo after the acquisition, since it was someone else's company, someone else's rules. He couldn't run YC once it outgrew his capacity to shape it personally. Even his Twitter combativeness comes from the same place: the willingness to call Trump "a crook," to confront [Elon Musk](/personality-analysis/elon-musk) publicly about link deprioritization, to double down on the "delve" controversy when Nigerian users pushed back. He'd rather be wrong loudly than silently compliant.
+The same pattern runs through everything. He couldn't be an employee because working hours "seemed unnatural." He couldn't stay at Yahoo after the acquisition, since it was someone else's company, someone else's rules. He couldn't run YC once it outgrew his capacity to shape it personally. Even his Twitter combativeness comes from the same place: the willingness to call Trump "a crook" while most of Silicon Valley's billionaires were measuring their distance, to confront [Elon Musk](/personality-analysis/elon-musk) publicly about link deprioritization, to double down on the "delve" controversy when Nigerian users pushed back. He'd rather be wrong loudly than silently compliant.
+
+The cleanest example came in July 2024. Rippling founder Parker Conrad, who had been pushed out of his previous company Zenefits years earlier, replied to a Trump-era political tweet from [David Sacks](/personality-analysis/david-sacks) with a single line: "coups are this man's specialty." Graham didn't have to enter the fight. He had nothing to gain and a significant network to risk. He entered it anyway:
+
+> **"Do you really want the full story of what you did to Parker to be told publicly? Because it's the worst case of an investor maltreating a founder that I've ever heard, and I've heard practically all of them."**
+
+In a follow-up tweet he later deleted, Graham said he was talking to another investor about whether Sacks was "the most evil person in Silicon Valley." Sacks called Graham an anti-Semitic bully. The thread became a multi-day brawl among the Valley's most powerful people. Graham did not back down. The Type 7 instinct to avoid pain runs head-on into the Type 7 instinct to defend a founder he believes was wronged, and the second one wins every time. He'll take the social cost as long as the choice is his.
 
 In September 2025, he posted a photo of his child on X. Racist and hateful replies flooded in. He deleted the photo and posted:
 
@@ -314,7 +327,7 @@ The fighter who'll take on anyone still has things he can't protect from the pas
 
 Before his sons were born, Graham viewed parenthood with dread. Parents seemed "uncool" and "dull and responsible" with no fun. He congratulated people on babies insincerely, thinking: **"Better you than me."**
 
-Then the first child arrived. Driving home from the hospital, something chemical shifted. Every pedestrian became **"someone's child."** The overwhelming protectiveness was involuntary, a rewiring he hadn't anticipated.
+Then the first child arrived. The rewiring was involuntary and complete. He'd expected the obvious losses, the sleep and the time and the option to drop everything. What he hadn't expected was how dull the alternative now looked.
 
 > **"What I didn't notice, because they tend to be much quieter, were all the great moments parents had with kids."**
 
@@ -330,7 +343,7 @@ His parenting philosophy: **"We tolerate noise and mess and junk food, but not m
 
 He came to believe that bringing children into existence without their consent creates **"a debt to children so massive, that it can't be fully repaid in a lifetime."**
 
-The restless mind found something worth being still for. Or at least worth being still*er* for. In late 2025, at 61, he was still writing personal checks to teen founders building AI pesticides and hunting for the next essay on his afternoon walks.
+The man who quit television, philosophy, computer science, painting, his only job, his own company, and the institution that made him famous found one thing he refused to leave. In late 2025, at 61, he was still writing personal checks to teen founders building AI pesticides between school pickups, still hunting for the next essay on his afternoon walks.
 
 ---
 
@@ -358,11 +371,9 @@ He admitted he could see himself making **"at least four of the five"** regrets 
 
 A founder once asked his advice about combining a startup with having small children. His answer: **"Family is more important than business. Put your kids first and cram the startup into the remaining time."**
 
-The man who has spent his life starting things has learned the hardest lesson for someone wired like him: the most important things aren't things you start. They're things you stay for.
+Picture his morning, then. He drops the boys at school. He walks the same medieval common he has walked for years, because the walk is where the next essay arrives if it is going to arrive. He comes back to the house that has been standing for five hundred years and sits down in the quiet room with the closeable door and the desk too heavy to wobble. He opens Twitter for ten minutes longer than he meant to. He closes it. He picks up the thread of whatever sentence he was on when he left the day before. He'll spend two weeks on it and reread it fifty times before anyone sees it.
 
-He hasn't learned it completely. At 61, he's still writing checks and picking fights on X and publishing essays that generate weeks of argument. Still walking his usual route through the fog. Still, probably, checking the news when he should be writing.
-
-But the paintings have stopped. The startups have stopped. The exits have stopped. What remains is the writing, the family, and the five-hundred-year-old house. The mind that can't stop starting may have finally figured out what's worth finishing.
+The Seven who spent his life sprinting out of rooms still wakes up restless. The difference now is that there is a room he doesn't want to leave.
 
 > **Disclaimer:** This analysis of Paul Graham's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
 
@@ -415,6 +426,38 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 1. Engage one named critic of "Origins of Wokeness" by name with their specific argument — currently the most controversial piece of his recent work is reported neutrally and the Type 7 read of "fight on my own terms" needs that test.
 2. Cut the bullet-list of typing evidence — fold it into prose. The bulleted format makes the evidence look like a checklist rather than a diagnosis.
 3. Replace the closing "still going" rhythm with a beat that doesn't echo the corpus child-still-doing-what-child-did trope — the blog's strongest moves are scene-based, so close on a scene.
+
+============================================================ -->
+
+<!-- ============================================================
+REVISION NOTES — 2026-05-19 (PG outreach prep)
+============================================================
+ADDED:
+- Cornell philosophy quote ("I kept taking philosophy courses and they kept being boring") + the 18-year-old's first exit.
+- Robert Morris character paragraph in Viaweb section — 1988 worm, MIT faculty, "never wrong" hero quote. Names the ballast under the Type 7.
+- Trevor Blackwell paragraph — "Austrian Rococo" quote, Anybots, notecard plan. Fourth original YC founder, finally on the page.
+- Jessica-section beat naming the four-person architecture across Viaweb + YC. Counters the "restless solo explorer" Type 7 myth.
+- Bel (March 26 2015 – Oct 12 2019) — four-year Lisp project in retirement. Complicates the "everything has stopped" closing frame.
+- "Founder Mode" (Sept 2024) — Chesky origin, 20M views, Whitney Wolfe Herd gender critique, the publish-and-walk-away Type 7 move.
+- "Origins of Wokeness" (Jan 2025) engaged with Erik Torenberg's specific critique (substantive vs. stylistic). Tested against PG's own Fierce Nerds "intellectual playground bully" warning. Honest read of the cost.
+- Sacks/Conrad/Zenefits July 2024 confrontation in the "fight on my own terms" section — cleanest example in the data.
+- Trump "crook" line strengthened with the Silicon Valley-billionaires-measuring-distance context.
+
+CORRECTED:
+- Painting epiphany location: Carnegie Institute in Pittsburgh, 1988 (not "at Harvard finishing his PhD").
+- Harvard PhD: completed, but rushed in 5 weeks on "applications of continuations" with reused On Lisp material — itself a Type 7 tell.
+- Blackwell joined Viaweb 1995 mid-Harvard-PhD (not "fresh out").
+
+CUT:
+- Bulleted typing-evidence stack in "What is Paul Graham's Personality Type?" — folded into prose.
+- "Every pedestrian became someone's child" sentimental beat.
+- Italicized "still*er* for" cuteness.
+- Closing binary-resolution "may have finally figured out what's worth finishing" — replaced with morning-routine scene (drop-off → walk → quiet room → desk).
+
+INTENTIONALLY LEFT:
+- TL;DR accordion bullet list (UX-load-bearing, opt-in via <details>).
+- Three-essays-as-mental-furniture paragraph and Reddit/Stripe pattern beat (working).
+- Disclaimer.
 
 ============================================================ -->
 

@@ -46,35 +46,39 @@ Most self-help advice tells you to _change_ who you are. Be more confident. Be l
 
 But here's the truth nobody tells you: **You can't max out something you don't understand.**
 
-And you don't understand your personality. Not yet.
+And nobody ever taught you how to see your personality clearly.
 
-Not because you're not smart. Because nobody ever taught you _how_ to see it clearly.
+That's the gap this guide closes.
 
-This guide changes that. Over 90 days, you'll build genuine self-awareness using a specific method: First understand _what_ your personality actually is. Then discover _how_ you're similar and different from others. Only then can you work on becoming the best version of who you already are.
+Here's the reframe most self-help misses: **Maxing your personality isn't about changing who you are. It's about putting in reps to understand yourself and others.**
 
-Think about it this way: You go to the gym to build physical strength. But what's the gym for your mind?
+The actual work? **Perspective-taking.**
 
-**Perspective-taking.**
+The act of being observant. Studying how other people think and feel. Because when you understand other people, you understand yourself better. And when you understand yourself better, you can accentuate the best parts of who you already are.
 
-When you genuinely try to understand how someone else sees the world, your brain has to work. It's mental effort. It's uncomfortable. And that effort creates growth, just like lifting weights.
+That's the whole core. The rest of this guide is the sequence to get you there: concepts first, then exercises, then reps.
 
-This guide gives you the exercises, the framework, and the reps.
+You go to the gym to build physical strength. Perspective-taking is the gym for your mind. When you genuinely try to understand how someone else sees the world, your brain has to work. It's mental effort. It's uncomfortable. And that effort creates growth, just like lifting weights.
 
 > **The person who understands themselves and others isn't playing self-improvement. They're playing a completely different game.**
 
 ---
 
-## Part 1: What Is Personality, Really?
+## Part 1: Get the Concepts Right
 
-Before we can "max" anything, we need to define what we're working with.
+Step one of maxing your personality: nail down what personality actually is.
 
-Here's the simplest definition that actually matters:
+Most people skip this step. They jump straight into quizzes and self-improvement tactics without defining the thing they're trying to improve. That's why nothing sticks.
 
-**Your personality describes how you are similar to some people and different from others.**
+Here's the definition that actually matters:
+
+**Personality is the dimensions by which people are similar and different.**
 
 That's it. Not your zodiac sign. Not your Myers-Briggs letters. Not some abstract trait score.
 
-Your personality is the pattern of how you think, feel, and act, and how those patterns compare to the people around you.
+We measure those dimensions a hundred different ways: attributes, traits, strengths, weaknesses, tendencies. But it all comes back to dimensions. The specific axes on which one person runs higher, lower, or simply different than another.
+
+You're stronger than some people on certain dimensions. Weaker than others on different ones. Every comparison is a dimension.
 
 ### Why This Definition Changes Everything
 
@@ -95,6 +99,14 @@ This matters because it means:
 1. **You can only understand yourself by understanding others**
 2. **Your strengths are relative to context**
 3. **Growth isn't about changing; it's about expanding your range**
+
+### Your Action for Part 1
+
+Start observing people through dimensions, not labels.
+
+Your coworker isn't "annoying." They're high on a dimension you run low on, and probably low on one you run high on. Your sister isn't "dramatic." She runs intense where you run flat.
+
+Once you stop typing people and start measuring them, you've finished step one. That sets up Part 2: digging into the specific differences.
 
 ---
 
@@ -210,9 +222,17 @@ Two Type 5s might both withdraw to analyze. But one does it because of childhood
 
 Your job isn't to fit the description perfectly. It's to use the description as a **prompt** to discover your authentic self.
 
+### Your Action for Part 3
+
+If you don't know your type yet, take an hour and find it. Read the [beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) and land on a working guess. You don't need certainty. You need a starting point.
+
+If you already know your type, write one short paragraph: not what the textbook says about your type, but what's true about YOUR version of it. The specific experiences that shaped how this type shows up in your life.
+
+That paragraph becomes the seed for the next few parts.
+
 ---
 
-## Part 4: Discovering Your Superpowers (Arrow of Security)
+## Part 4: Discover Your Superpowers (Arrow of Security)
 
 Here's where things get good.
 
@@ -301,7 +321,7 @@ This is YOUR superpower. Not the textbook version.
 
 ---
 
-## Part 5: Understanding Your Weaknesses (Arrow of Disintegration)
+## Part 5: Understand Your Weaknesses (Arrow of Disintegration)
 
 Now the harder part. But the more important one.
 
@@ -368,15 +388,15 @@ Your weakness isn't the movement itself. It's the _unconscious, reactive_ versio
 
 ---
 
-## Part 6: Flip the Script, Understanding Others
+## Part 6: Flip the Script — Understand Others
 
-Here's where most self-improvement advice stops. You understand yourself. Congratulations. Here's a journal. Good luck.
+Here's where most self-improvement stops. Self-awareness, journal, good luck.
 
-But you're not done.
+That's half the workout.
 
-Because here's the uncomfortable truth:
+Maxing your personality means putting reps in on understanding others, too. Because here's the uncomfortable truth:
 
-**Other people are going through all of this too.**
+**Other people are going through all of this themselves.**
 
 Your coworker who irritates you? They have a security arrow and a stress arrow. They have triggers. They have superpowers. They have a childhood story that shaped how they see the world.
 
@@ -413,45 +433,33 @@ Now: How does seeing them this way change how you might interact with them?
 
 ---
 
-## Part 7: Transform Your Mind Like You Train Your Body
+## Part 7: Do the Reps in Real Life
 
-If you've done the work up to this point, something interesting starts to happen.
+By now you've collected the concepts, mapped yourself, mapped someone else, and seen the Enneagram architecture from both ends. That's foundation.
 
-You become more charismatic.
+This is where you stack the reps.
 
-Not in the fake, "work the room" sense. In the real sense.
+If you keep going, something specific happens: you become more charismatic. Not in the fake, "work the room" sense. In the real sense. The kind people feel but can't quite explain.
 
-But here's the insight most people miss about how this happens:
+Here's the insight most people miss about why that happens.
 
-### The Mental Gym
+### The Neuroscience of the Workout
 
-You've heard of "looksmaxxing" (optimizing your physical appearance). You've probably been to an actual gym. You know that physical exercise makes you physically stronger.
+Perspective-taking isn't a metaphor for a workout. It IS a workout.
 
-**But what's the equivalent workout for your mind?**
+Research shows that genuinely trying to understand how someone else sees the world activates multiple brain regions simultaneously: the prefrontal cortex (reasoning), the temporal-parietal junction (understanding others' mental states), and the mirror neuron system (empathy). It's a full-brain effort.
 
-The answer: **perspective-taking.**
-
-Think about it. When you go to the gym, you lift something heavy. Your muscles strain. It's uncomfortable. And that effort creates growth.
-
-Perspective-taking works the same way. When you genuinely try to understand how someone else sees the world, especially someone who thinks and feels differently than you, your brain has to _work_. It's mental effort. It's uncomfortable. And that effort creates growth.
+That's why it's hard. That's why most people skip it. And that's why people who do it consistently build a capacity others don't have.
 
 > **Physical exercise makes you physically stronger. Perspective-taking makes you mentally and emotionally stronger.**
 
-This isn't metaphor. Neuroscience research shows that perspective-taking activates multiple brain regions simultaneously: the prefrontal cortex (reasoning), the temporal-parietal junction (understanding others' mental states), and the mirror neuron system (empathy). It's literally a full-brain workout.
-
-### Why This Is Hard (And Why That's the Point)
-
-Here's why most people never develop this skill:
-
-**It takes effort.**
+### Why Most People Never Do This
 
 Staying in your own head is easy. Assuming everyone thinks like you is comfortable. Judging people who are different requires zero mental energy.
 
 But genuinely asking: "What is this person feeling right now? What are they afraid of? What do they want that they're not saying?" That's work.
 
-It's the mental equivalent of picking up something heavy.
-
-And just like physical training, the results compound over time. Every time you genuinely try to see through someone else's eyes, you're building capacity you didn't have before.
+It's the mental equivalent of picking up something heavy. And like physical training, the results compound. Every rep builds capacity you didn't have before.
 
 ### What Charisma Actually Is
 
@@ -459,7 +467,7 @@ Here's the secret research reveals about charismatic people:
 
 They're not performing. They're **genuinely interested** in others.
 
-Neuroscience shows that when someone feels truly listened to, their brain releases dopamine, creating pleasure and trust. Mirror neurons fire when we observe someone who's genuinely engaged with us, creating a sense of connection.
+Neuroscience shows that when someone feels truly listened to, their brain releases dopamine, creating pleasure and trust. Mirror neurons fire when we watch someone who's genuinely engaged with us, creating a sense of connection.
 
 Here's what charismatic people do:
 
@@ -471,15 +479,15 @@ Here's what charismatic people do:
 | Calibrated assertiveness | Knowing when to speak up and when to listen            |
 | Authentic presence       | Being yourself instead of performing a role            |
 
-But notice what these all have in common: **they require you to step outside your own perspective.**
+Notice what these have in common: **they all require you to step outside your own perspective.**
 
-The charismatic person isn't thinking "How do I impress this person?" They're thinking "I wonder what this person's world looks like from the inside?"
+The charismatic person isn't thinking, "How do I impress this person?" They're thinking, "I wonder what this person's world looks like from the inside?"
 
 That wondering? That's the workout.
 
-### The Practical Application: Ask Questions, Take In Perspectives
+### Your Action for Part 7: Daily Reps
 
-So how do you actually practice perspective-taking?
+Here's how to actually practice perspective-taking. Every day.
 
 **Ask genuine questions. Then actually listen to the answers.**
 
@@ -491,13 +499,11 @@ Not surface questions. Real ones:
 
 Then, and this is the workout, try to see the situation from _their_ perspective. Not to fix it. Not to judge it. Just to understand it.
 
-This is what 9takes is built for. One question. Nine different personality types. Nine different ways of seeing the same situation.
+This is what 9takes is built for. One question. Nine different personality types. Nine different ways of seeing the same situation. When you read how a Type 4 experiences something versus how a Type 8 does, you're doing perspective-taking reps. You're literally exercising your capacity to understand people who think and feel differently than you.
 
-When you read how a Type 4 experiences something versus how a Type 8 experiences it, you're doing perspective-taking reps. You're literally exercising your capacity to understand people who think and feel differently than you.
+### Midpoint Check-In
 
-### The Foundation You've Built
-
-If you've worked through this guide, you now have:
+If you've worked through the guide to this point, you now have:
 
 1. **Self-awareness**: You know your patterns, triggers, and superpowers
 2. **Other-awareness**: You recognize that others have their own internal logic
@@ -509,7 +515,7 @@ This is the foundation of charisma. Not tricks. Not techniques. **Understanding 
 
 ---
 
-## Part 8: Your Archetype, Best and Worst Versions
+## Part 8: Place Yourself on the Archetype Spectrum
 
 Here's the final framework: your archetype.
 
@@ -663,9 +669,9 @@ You have a core Self (calm, curious, compassionate) and various parts that try t
 
 ---
 
-## Part 9.5: Type-Specific Protocols
+## Part 10: Tailor the Protocols to Your Type
 
-The protocols above work for everyone. But each Enneagram type has specific patterns that require targeted interventions. Here's how to tailor the expert advice to YOUR type:
+The protocols above work for everyone. But each Enneagram type has specific patterns that need targeted interventions. Here's how to tailor the expert advice to YOUR type:
 
 ### Type 1: The Perfectionist
 
@@ -847,7 +853,7 @@ The protocols above work for everyone. But each Enneagram type has specific patt
 
 ---
 
-## Part 10: Common Sabotages (And How to Overcome Them)
+## Part 11: Avoid the Common Sabotages
 
 Here's what will try to derail you:
 
@@ -877,7 +883,7 @@ Here's what will try to derail you:
 
 ---
 
-## Part 11: The Bottom Line
+## Part 12: The Bottom Line
 
 Here's what 90 days of this work produces:
 
@@ -974,7 +980,7 @@ The understanding builds from there.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Personality is how you are similar to and different from other people. It's not a fixed trait inside you. It's the pattern of how you think, feel, and act compared to those around you. Understanding your personality requires understanding your relationships and contexts, not just taking a quiz."
+            "text": "Personality is the set of dimensions by which people are similar and different. It's not a fixed trait inside you. It's the specific axes (attributes, traits, strengths, tendencies) on which one person runs higher, lower, or simply different than another. Understanding your personality requires understanding your relationships and contexts, not just taking a quiz."
           },
           "name": "What is personality really?"
         },

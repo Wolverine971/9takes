@@ -44,8 +44,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Naomi_Osaka'
   - 'https://www.wikidata.org/wiki/Q17466583'
   - 'https://www.imdb.com/name/nm8171677/'
-  - 'https://twitter.com/naomiosaka'
-  - 'https://www.instagram.com/naomiosaka/'
 citations:
   - 'https://en.wikipedia.org/wiki/Naomi_Osaka'
   - 'https://en.wikipedia.org/wiki/2018_US_Open_–_Women%27s_singles_final'

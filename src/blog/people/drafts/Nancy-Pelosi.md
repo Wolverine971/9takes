@@ -53,8 +53,6 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Nancy_Pelosi'
   - 'https://www.wikidata.org/wiki/Q170581'
-  - 'https://twitter.com/SpeakerPelosi'
-  - 'https://www.instagram.com/speakerpelosi/'
   - 'https://pelosi.house.gov/'
 citations:
   - 'https://en.wikipedia.org/wiki/Nancy_Pelosi'

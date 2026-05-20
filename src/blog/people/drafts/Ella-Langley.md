@@ -42,7 +42,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Ella_Langley'
   - 'https://www.wikidata.org/wiki/Q127559972'
   - 'https://www.imdb.com/name/nm14840978/'
-  - 'https://www.instagram.com/ellalangleymusic/'
 instagram: 'ellalangleymusic'
 citations:
   - 'https://en.wikipedia.org/wiki/Ella_Langley'

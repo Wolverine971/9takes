@@ -41,7 +41,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Emma_Myers'
   - 'https://www.wikidata.org/wiki/Q115411254'
   - 'https://www.imdb.com/name/nm3528821/'
-  - 'https://www.instagram.com/ememyers/'
 citations:
   - 'https://en.wikipedia.org/wiki/Emma_Myers'
   - 'https://en.wikipedia.org/wiki/Wednesday_(TV_series)'

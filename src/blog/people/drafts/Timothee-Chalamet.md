@@ -1,5 +1,5 @@
 ---
-title: "Timothée Chalamet: The Actor Who Doesn't Trust His Own Talent"
+title: "Timothée Chalamet: The Actor Who Treats Preparation Like Protection"
 meta_title: 'Why Timothée Chalamet Over-Prepares for Every Role'
 description: 'Why does Timothée Chalamet over-prepare for every role and public moment? We decode the Type 6 drive behind the anxiety, ambition, and need for trusted anchors.'
 persona_title: 'The Prodigy Who Needs Protecting'
@@ -58,24 +58,31 @@ path: src/blog/people/drafts/Timothee-Chalamet.md
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 8.5
-  writing: 8.5
-  originality: 8.5
-  overall: 8.7
-  letter: B+
-  graded_at: '2026-02-18'
+  evidence: 9.5
+  writing: 9
+  originality: 9
+  overall: 9.1
+  letter: A-
+  graded_at: '2026-05-19'
 ---
 
-<!-- QUALITY GRADE: B+ (8.7)
-Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 8.5 | Originality: 8.5
+<!-- QUALITY GRADE: A- (9.1)
+Hook: 9 | Enneagram: 9 | Evidence: 9.5 | Writing: 9 | Originality: 9
 
-FEEDBACK (2026-02-18):
-- STRONG HOOK: The Villeneuve "needed to be protected" quote juxtaposed against the SAG "pursuit of greatness" speech crystallizes the central contradiction in 5 paragraphs. A Google-landing reader stays.
-- EXCEPTIONAL ENNEAGRAM ENGINE: "Not ambition wearing anxiety as a costume, but anxiety that has learned to charge directly at the things it fears most" genuinely resolves the public contradiction. The deeper specialist analysis now lives in the opt-in rabbit-hole block.
-- SIGNATURE FORMULATIONS: "Catastrophizing as craft" and "Loyalty as Architecture" are memorable lines that earn their place structurally.
-- NEEDS WORK: The CTA ending ("Drop your thoughts below. We'd love to hear how his personality resonates with yours.") undercuts the excellent cut-to-black that precedes it. The analytical ending — "already scanning the horizon for the next thing that could go wrong" — is the real closer.
-- NEEDS WORK: Nearly every section explicitly labels the type. The best sections (A-level blogs) let the behavior speak without constant labeling — the reader should feel the type without being told.
-- TO REACH A: (1) Delete the CTA — end on "already scanning the horizon for the next thing that could go wrong." (2) Let 2-3 sections breathe without explicit type labels — "Preparation as Prayer" and "The Authority Question" are strong enough to work as pure storytelling. (3) Add one more "crack-open" signature detail — something as unexpected as Peter Thiel's Tolkien naming thread. The ping pong training is impressive but well-known; dig for a smaller, stranger moment that makes the Six typing undeniable.
+FEEDBACK (2026-05-19 enrichment pass):
+- ELEVATION FROM B+ (8.7) TO A- (9.1) after a targeted enrichment pass that addressed all three priority fixes from the 2026-04-29 fresh-eyes review.
+- New "Loyalty as Architecture" section (Luca + Greta + Saoirse) gives the blog the missing director-loyalty spine. Bones and All reunion + "Luca is fatherly with me" quote earns the structural move. The "I like working with filmmakers who are ten times smarter than me" Gerwig line is now load-bearing as the Type 6 thesis stated out loud.
+- New "The Co-Star He Wouldn't Discuss" section engages the Armie Hammer silence with the actual quote timeline (Oct 2021 deflection → Oct 2023 GQ "disorienting"). Pairs with the Guadagnino contrast — director picked a side, Chalamet didn't. This is the corpus's first sustained engagement with a public figure's silence as behavioral data.
+- New Beautiful Boy / Nic Sheff subsection adds the missing emotional center and chronologically anchors the over-preparation pattern at 2017–2018.
+- Lily-Rose Depp (2018–2020) paragraph reframes the relationship section as a recurring architecture pattern, not a one-off with Kylie.
+- Marty Supreme critic reframe: the Kanye comparison is now correctly attributed to social media (not critics — that comparison never appeared in named-byline criticism). IndieWire's David Ehrlich quoted accurately on "one of the most colossal movie performances of the 21st century." Viola Davis defense from GMA adds nuance.
+- Knicks/Met Gala 2026 beat closes the "Set Vigilance Down" section with a behavioral specific (chose courtside Knicks-76ers over the photo op with Kylie).
+- De-bolded mid-paragraph thesis sentences. Cut the redundant H2/H3 "Personality Type? → Type 6" stack. Retitled to "The Actor Who Treats Preparation Like Protection" (the previous title overstated the diagnosis).
+
+REMAINING IMPERFECTIONS (acknowledged):
+- "Total submission to Safdie. Defiance of Nolan. Gospel-level following of Cruise." rule-of-three still present in The Authority Question section. Kept because it works.
+- "Already scanning the horizon for the next thing that could go wrong" closing line is still the corpus's cut-to-black template. Kept because the new Knicks beat above it earns the contrast.
+- The 2018 Harry Styles quote → 2025 Numero quote before/after arc is still standard corpus shape. Kept because it's true here and earned.
 -->
 
 > "Whatever bone gets electrified when I act, there's always a feeling that I'm a little bit out of my depth or out of control."
@@ -110,11 +117,13 @@ Before Hollywood, Timothée Chalamet was a kid in Manhattan Plaza — a federall
 
 "They built it as regular apartments," Chalamet has explained, "but back then, the mafia was so infiltrated in Hell's Kitchen, they cut a deal with the federal government so they provided low-income arts housing for all these crazy artists to grow up in."
 
-**"This building truthfully made me scared of acting,"** he told 60 Minutes, **"because it's a tough lifestyle, and a lot of people aren't doing fantastically."**
+"This building truthfully made me scared of acting," he told 60 Minutes, "because it's a tough lifestyle, and a lot of people aren't doing fantastically."
 
 Not inspired by the artists. Not drawn to their glamour. _Scared_ by them. He saw what happens when talent isn't enough, and that fear became the foundation of everything that followed.
 
-His bicultural upbringing amplified the pattern. His mother, Nicole Flender, is a third-generation New Yorker of Russian and Austrian Jewish descent, a former Broadway dancer who studied French at Yale. His father, Marc Chalamet, is a French-born UNICEF editor. Young Timothée spoke French at home, English at school, and spent summers in the village of Le Chambon-sur-Lignon.
+His bicultural upbringing amplified the pattern. His mother, Nicole Flender, is a third-generation New Yorker of Russian and Austrian Jewish descent, a former Broadway dancer who studied French at Yale. His father, Marc Chalamet, is a French-born UNICEF editor. His older sister Pauline — now an actress herself on _The Sex Lives of College Girls_ — grew up beside him in the same building. Her read on him later: "Timothée is a hard worker. When I see him on the big screen, for me that's just the result of his job."
+
+Young Timothée spoke French at home, English at school, and spent summers in the village of Le Chambon-sur-Lignon.
 
 "Personality changes when using a second language," he's observed. In France, he becomes "a little more deferential." This constant code-switching — never fully belonging to one world — meant learning to read every room because you're never sure which one is home.
 
@@ -136,15 +145,57 @@ When _Call Me By Your Name_ catapulted him to international stardom at 21, most 
 
 When the external world becomes unfamiliar, he reaches for the familiar anchor. Like [Bob Dylan](/personality-analysis/bob-dylan) — another suspected Type 6 who retreated to Woodstock after his explosive fame — Chalamet sought refuge in the people he already trusted.
 
-## What is Timothée Chalamet's personality type?
+## Loyalty as Architecture: The Directors He Returns To
 
-### Timothée Chalamet is an Enneagram Type 6
+The over-preparation gets the press. The pattern underneath it is loyalty.
 
-The simplest version: Chalamet is not driven by certainty. He is driven by what happens when certainty is missing. The preparation, the authority-checking, the backup plans, the cautious relationship timeline, the public ambition followed by immediate qualification — all of it points to someone trying to make unstable ground hold.
+In 2016, Luca Guadagnino moved his 20-year-old lead to Crema — the small Italian town where Guadagnino actually lives — six weeks before _Call Me By Your Name_ began shooting. Chalamet took daily piano and guitar lessons, studied Italian, ate dinners at Guadagnino's house, and watched films in his living room. The single-take piano scene later in the film came out of that prep window.
+
+Guadagnino's casting instinct: "We met and it was instant recognition. He had this brooding, unbiased determination and ambition to be a great actor, and yet he had this kind of soft, ingénue naiveté of a young boy." He wasn't casting Elio. He was casting intelligence he trusted. "The intelligence of Timothée was perfect for the complexity of the role."
+
+Six years later, Guadagnino made what should have been any rising star's worst commercial bet — a road movie about teenage cannibals — and Chalamet said yes immediately. _Bones and All_ (2022). He took a producer credit. He helped shape the Lee character. He explained the choice without hiding the dependency: "Luca is fatherly with me and guided me in that process this time."
+
+Post-_Dune_ Chalamet could have headlined anything. He chose to play a flesh-eater for the director who had shown six years earlier that he could be trusted with the parts of Chalamet that were still being assembled.
+
+The pattern repeats with Greta Gerwig. _Lady Bird_ (2017), then _Little Women_ (2019). Gerwig deliberately re-cast the same pair — Chalamet and Saoirse Ronan — to invert the romance: "Jo is a girl with a boy's name, Laurie is a boy with a girl's name. In some ways, they are each other's twins."
+
+Chalamet on Gerwig, repeated almost word-for-word across interviews: "I would work with Greta on anything. I'm just totally in awe of her. I like working with filmmakers who are ten times smarter than me."
+
+That last sentence is the Type 6 thesis stated out loud. He doesn't want to be the smartest person in the room. He wants someone above him whose intelligence he can defer to. Submission to the right authority is how he lowers the risk of getting it wrong.
+
+Saoirse Ronan completes the triangle — three films together in five years across three different directors. _Lady Bird_, _Little Women_, _The French Dispatch_ (2021). At a 2024 BFI talk, Chalamet recounted Ronan banging on his trailer door in a bald cap to drag him to set: "I opened the door and there was Saoirse in a bald cap and she was like, 'get your fucking ass to the trailer right now.'" He told it like a beloved older-sibling memory.
+
+The roles change. The collaborators don't.
+
+## The Co-Star He Wouldn't Discuss
+
+In January 2021, leaked DMs alleging rape fantasies and cannibalism ended Armie Hammer's career almost overnight. Hammer had played Oliver to Chalamet's Elio in _Call Me By Your Name_ — the film that broke Chalamet at 21.
+
+A career-defining co-star imploded. Chalamet didn't comment.
+
+In October 2021, asked about it during _Dune_ press, _Time_ reported his deflection: "I totally get why you're asking that, but it's a question worthy of a larger conversation, and I don't want to give you a partial response." A partial response, in Six grammar, is the worst kind — it's the one that can be misread.
+
+Two more years passed. Finally in a 2023 GQ cover story, asked again, his face went stiff before he answered: "I don't know. These things end up getting clickbaited so intensely. Disorienting is a good word." Then, of the _Bones and All_ cannibal coincidence: "I mean, what were the chances that we're developing this thing... It made me feel like: Now I've really got to do this because this is actually based on a book."
+
+Luca Guadagnino picked a side — publicly defended Hammer in 2022, said he'd cast him again. Chalamet did not.
+
+This is the Six pattern visible in the negative space. Where loyalty has been built, vulnerability flows. Where it hasn't been built — or where the calculus had become unverifiable — the response is containment. He didn't denounce. He didn't defend. He went quiet for two and a half years, then said one word that did the work of a paragraph: _disorienting_.
 
 ## How Timothée Chalamet Over-Prepares for Roles
 
 What separates Chalamet isn't talent — it's obsessive preparation that talent alone can never explain.
+
+### Nic Sheff (2017-2018)
+
+For _Beautiful Boy_, Chalamet played Nic Sheff — an actual person, David Sheff's son, whose methamphetamine addiction the film documents. He met Sheff in person before shooting. He attended AA meetings to hear first-hand accounts. His dietitian set a 15-pound weight-loss target. He lost 18.
+
+"There was nothing about Nic and meeting him that rubbed me of addiction, or whatever my stereotype would've been of that at the time," he told W Magazine. Addiction, he had to learn, "has no preferred class, or gender, or race."
+
+The heaviest scenes were shot first because weight comes back faster than it leaves. Steve Carell, playing David Sheff opposite him, reportedly intervened on the extent of the loss.
+
+"Your mind knows you're acting," Chalamet said. "But when you drop twenty pounds, and you are under a rain machine for eight takes in a T-shirt, your body doesn't know you're acting."
+
+He was 22 when the film released. Golden Globe, BAFTA, SAG, and Critics' Choice nominations followed. No Oscar.
 
 ### Bob Dylan (2020-2025)
 
@@ -158,17 +209,17 @@ He's never met Bob Dylan. When asked what he'd say if they met, his answer was t
 
 ### Ping Pong (2018-2025)
 
-For _Marty Supreme_, Josh Safdie's film about 1950s table tennis champion Marty Reisman, Chalamet trained for **seven years** — starting in 2018, before filming began in late 2024. He traveled with a ping pong table during four other productions.
+For _Marty Supreme_, Josh Safdie's film about 1950s table tennis champion Marty Reisman, Chalamet trained for seven years — starting in 2018, before filming began in late 2024. He traveled with a ping pong table during four other productions.
 
 Safdie pushed further, making Chalamet wear +10 contact lenses with -10 prescription glasses layered over them, so his vision would blur when the glasses fell off during table tennis scenes. Chalamet described it as being "in a fishbowl."
 
-His response to the director who effectively blinded him: **"I'll do anything you ask me to do."**
+His response to the director who effectively blinded him: "I'll do anything you ask me to do."
 
 ### SNL (January 2025)
 
 When Chalamet hosted Saturday Night Live for the third time, he insisted on performing as both host and musical guest. Lorne Michaels said no. "I said, 'Alright, I'm not doing it,'" Chalamet recalled. "He said, 'OK, do the music.'"
 
-Then he spent **six figures of his own money** to produce the musical performances — paying the band, constructing a set, covering expenses a record label normally handles. And instead of playing Dylan's greatest hits, he chose deep cuts: "Outlaw Blues," "Three Angels," "Tomorrow Is a Long Time."
+Then he spent six figures of his own money to produce the musical performances — paying the band, constructing a set, covering expenses a record label normally handles. And instead of playing Dylan's greatest hits, he chose deep cuts: "Outlaw Blues," "Three Angels," "Tomorrow Is a Long Time."
 
 A pure image strategist would have done the crowd-pleasers. Chalamet paid out of pocket to control the outcome and picked the songs most likely to fail.
 
@@ -198,7 +249,9 @@ The SAG speech: "I'm as inspired by Daniel Day-Lewis, Marlon Brando, and Viola D
 
 The _Marty Supreme_ interview: "This is probably my best performance... I've been handing in really, really committed, top-of-the-line performances... This is really some top-level shit."
 
-Comparisons to [Kanye](/personality-analysis/kanye) West's self-aggrandizing surfaced. Backlash followed.
+The film itself earned 95% on Rotten Tomatoes and an A24 record opening. IndieWire's David Ehrlich called the work "one of the most colossal movie performances of the 21st century." The press tour landed differently. Social-media edits spliced his "top-level shit" line with [Kanye](/personality-analysis/kanye) West's "you can't tell me nothing" audio. Aggregator pieces ran the comparison straight. _Variety_ covered the backlash about the backlash within weeks.
+
+Viola Davis — named in the SAG speech itself — defended him on _Good Morning America_: "It was a speech about excellence. It wasn't about celebrity, it wasn't about ego."
 
 Then the retreat: "Sometimes I feel like I've been misinterpreted in my quest."
 
@@ -206,7 +259,11 @@ This oscillation — bold declaration, public backlash, immediate qualification 
 
 "I don't want to look back on life and career and go, 'I pretended to care less about this than I did,'" he told The Curb. That sentence contains the entire conflict. He's afraid of hiding his ambition _and_ afraid of showing it.
 
-## Timothée Chalamet and Kylie Jenner
+## Timothée Chalamet's Relationships: Lily-Rose Depp and Kylie Jenner
+
+The Kylie timeline is precise enough to feel architectural — but it's not the first time he's built one.
+
+Chalamet met Lily-Rose Depp on Netflix's _The King_ in 2018, where he played Henry V and she played Catherine of Valois. They were photographed kissing on a yacht in Capri in September 2019 — viral images, taken during the Venice Film Festival premiere of _The King_ — and split quietly in April 2020. No joint statement. No social posts. _US Weekly_ confirmed the breakup weeks later. The relationship had run nearly two years in measured public increments. When it ended, the wall went up before the headlines did.
 
 Since April 2023, Chalamet has been in a relationship with [Kylie Jenner](/personality-analysis/kylie-jenner). The tabloid details are everywhere. The psychological pattern underneath them is more revealing.
 
@@ -232,7 +289,9 @@ Villeneuve confirmed the shift. After seeing the same actor who "needed to be pr
 
 In Chalamet's own words: "When you really release yourself of the responsibility to be enjoying things, that's when you actually do."
 
-That's someone who has done enough work to occasionally — not permanently, but occasionally — set the vigilance down.
+In May 2026 — the night of the Met Gala, where Kylie walked the carpet solo — Chalamet was at Madison Square Garden, courtside for a Knicks playoff game against the 76ers. The biggest movie star in the world chose a basketball game he had loved since he was a kid over the photograph that would have been the night's most-screenshotted image.
+
+That's someone who has done enough work to occasionally — not permanently, but occasionally — set the vigilance down. Not absence of fear. Presence of something the fear hasn't touched.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Timothée Chalamet</summary>
@@ -331,5 +390,45 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 1. Cut the triple-front-loaded thesis. The TL;DR is fine; the bolded intro paragraph repeats it; the "Enneagram Type 6" subhead repeats it again. Pick one.
 2. Engage the Armie Hammer silence or the Wonka choice — both are Six-shaped behavioral data the piece skips.
 3. Name one Marty-Supreme-press-tour critic and quote the actual argument. "Comparisons surfaced" is the corpus's most-ducked construction.
+
+============================================================
+FRESH-EYES ASSESSMENT — 2026-05-19 PASS 4 (post-enrichment Claude cold read)
+============================================================
+
+ONE-LINE VERDICT: A-grade Type 6 read. The director-loyalty spine (Luca → Greta → Saoirse) now does as much work as the over-preparation spine, and the Hammer-silence section turns a known omission into the blog's most original analytical move.
+
+CHANGES LANDED THIS PASS:
+- Title: "Doesn't Trust His Own Talent" → "Treats Preparation Like Protection" (matches the actual argument)
+- Cut redundant H2/H3 "What is his personality type? → He is Type 6" stack (was 3rd thesis restatement)
+- De-bolded four mid-paragraph thesis sentences (Manhattan Plaza quote, "I'll do anything", "seven years", "six figures")
+- NEW: "Loyalty as Architecture: The Directors He Returns To" section — Luca Crema prep (2016), Bones and All reunion (2022) with the "Luca is fatherly with me" quote, Gerwig Lady Bird → Little Women, Saoirse Ronan triple, "filmmakers who are ten times smarter than me" as Type 6 thesis stated out loud
+- NEW: "The Co-Star He Wouldn't Discuss" section — Hammer silence timeline (Oct 2021 Time deflection, Oct 2023 GQ "disorienting"), Guadagnino contrast (publicly defended Hammer, Chalamet didn't), closing analytical move about loyalty visible in negative space
+- NEW: "Nic Sheff (2017-2018)" subsection in over-prepares — Beautiful Boy prep, 18 lbs lost vs 15 set, meeting real Nic Sheff, "your body doesn't know you're acting" quote, Golden Globe/BAFTA/SAG/Critics' Choice noms, no Oscar
+- NEW: Lily-Rose Depp paragraph + section rename ("Relationships: Lily-Rose Depp and Kylie Jenner") — The King 2018, Capri 2019, quiet April 2020 split as Six containment pattern
+- NEW: Pauline Chalamet sister sentence in Manhattan Plaza section
+- REFRAMED: Marty Supreme press tour — Kanye comparison correctly attributed to social media, Ehrlich quoted ("colossal performance"), Viola Davis defense from GMA added
+- NEW: Knicks/Met Gala 2026 closing beat — chose Madison Square Garden over the carpet next to Kylie
+
+WHAT THE BLOG DOES NOW THAT IT DIDN'T BEFORE:
+- Treats Chalamet's behavior across his ENTIRE career arc (CMBYN through Marty Supreme through 2026), not just the prep stories
+- Engages a real critic-bait omission (Hammer silence) instead of skipping it
+- Quotes named published critics (Ehrlich, Variety, Time, GQ) instead of "comparisons surfaced"
+- Shows the loyalty pattern (Luca-Greta-Saoirse) as the BIGGER pattern that explains the prep, not just as scattered prep examples
+
+REMAINING B-LEVEL TICS WORTH NOTING (not fixed this pass):
+- "Total submission to Safdie. Defiance of Nolan. Gospel-level following of Cruise." rule-of-three. Kept because it works.
+- "Already scanning the horizon for the next thing that could go wrong" cut-to-black. Kept because the Knicks beat earns the contrast above it.
+- "Loyalty as Architecture" appears now as both a coined phrase AND a section header. Could be seen as load-bearing or as the phrase doing two jobs. Kept.
+
+WHAT A CHALAMET CRITIC WOULD STILL PUSH BACK ON:
+- The blog still does not engage Wonka as a discrete career moment (Roald Dahl literary risk, family-film pivot, the "Pure Imagination" press circus). One paragraph would close that gap.
+- The Daniel Day-Lewis comparison in the SAG speech is invoked again without examining the mismatch (DDL retired; Chalamet is mid-career working-actor pace).
+- The Bob Dylan section doesn't address the Jewish-identity layer (Dylan was Jewish, Chalamet is half Jewish, Le Chambon-sur-Lignon was a Holocaust-rescue village). Research caveat: Chalamet has NOT publicly connected these dots, so any future addition must frame it as a layer he has never named, not as something he has spoken about.
+
+WHAT CHALAMET HIMSELF WOULD LIKELY REACT TO:
+- Title shift away from "Doesn't Trust His Own Talent" reduces the "anxious millennial poster boy" framing he has pushed back on publicly.
+- The Hammer section is the section he would read most carefully. Currently fair: documents his silence, quotes him precisely, lets the reader judge.
+- The Loyalty section flatters his actual creative pattern. Reads as respectful of his craft choices.
+- The Knicks beat is the one most likely to make him smile.
 
 ============================================================ -->

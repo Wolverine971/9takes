@@ -46,8 +46,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Bobby_Lee'
   - 'https://www.wikidata.org/wiki/Q1064120'
   - 'https://www.imdb.com/name/nm0496899/'
-  - 'https://twitter.com/bobbyleelive'
-  - 'https://www.instagram.com/bobbyleelive/'
 citations:
   - 'https://en.wikipedia.org/wiki/Bobby_Lee'
   - 'https://www.youtube.com/@TigerBellyOfficial'

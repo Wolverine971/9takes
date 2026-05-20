@@ -50,7 +50,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Marc_Andreessen'
   - 'https://www.wikidata.org/wiki/Q62882'
   - 'https://www.imdb.com/name/nm4336932/'
-  - 'https://twitter.com/pmarca'
   - 'https://a16z.com/author/marc-andreessen/'
 citations:
   - 'https://en.wikipedia.org/wiki/Marc_Andreessen'
@@ -116,7 +115,6 @@ The question Andreessen's life keeps answering, whether he examines it or not: *
 <ul>
 <li><b>The Library Escape:</b> Self-taught programming from books in rural Wisconsin before he'd ever touched a computer, classic Five knowledge-hoarding as survival</li>
 <li><b>The Controlled Interior:</b> Calendars every second of his day including sleep and free time, "barbells" his reading between real-time and timeless, and runs his body like a machine serving the mind</li>
-<li><b>The Connection Paradox:</b> Built the tool that connected humanity, then shut down his own emotional connections in favor of intellectual systems</li>
 <li><b>The Stress Scatter:</b> Under pressure, his output multiplies chaotically (manifestos, political involvement, multiple simultaneous crusades), matching the Five's disintegration toward Seven</li>
 </ul>
 </div>
@@ -140,19 +138,35 @@ That's not superiority. That's sanctuary.
 
 ## Mosaic, Netscape, and the 22-Year-Old Who Broke Open the Internet
 
-At the University of Illinois, Andreessen worked at the National Center for Supercomputing Applications, where he and Eric Bina created Mosaic, the first web browser with integrated graphics. The result was a 342,000% increase in web traffic in a single year. The number of websites jumped from 50 to 10,000.
+At the University of Illinois, Andreessen worked part-time at the National Center for Supercomputing Applications as an undergraduate. The senior engineer on the project was Eric Bina, a full-time NCSA staffer who handled the core programming. Andreessen drove the vision, the user experience choices, and the evangelism. They started coding in December 1992 and had a working browser by March 1993. The result was a 342,000% increase in web traffic in a single year. The number of websites jumped from 50 to 10,000.
 
-After graduating, he moved to California and met Jim Clark, the founder of Silicon Graphics, who was looking for his next act. Andreessen convinced Clark that they should "do Mosaic right. Do a Mosaic killer."
+The credit-sharing matters. Bina wrote much of the code; Andreessen built the case for it, recruited users, and made it feel inevitable. The Type 5 here isn't the lone coder in a basement. It's the systems architect who picks the right problem, finds the right collaborator, and makes the case for what gets built. Bina followed him to Netscape as a co-founder. The two share the 1995 ACM Software System Award and both sit in the Internet Hall of Fame.
 
-In mid-April 1994, Andreessen and Clark boarded a plane from Silicon Valley to Illinois, held a meeting, then flew back with a full engineering team. They founded Netscape. Andreessen was 22 years old and named vice president of technology.
+After graduating, Andreessen moved to California and met Jim Clark, the founder of Silicon Graphics, who was looking for his next act. Andreessen convinced Clark that they should "do Mosaic right. Do a Mosaic killer." In mid-April 1994, the two boarded a plane from Silicon Valley to Illinois, held a meeting, then flew back with the original Mosaic engineering team. They founded what became Netscape. Andreessen was 22, named vice president of technology.
 
-The Netscape IPO in August 1995 ignited the first great internet boom. Andreessen was on the cover of Time magazine, barefoot and sitting on a golden throne. He was 24.
+Then came the institutional betrayal that would teach him to build his own fortress. The University of Illinois, which owned the Mosaic copyright through NCSA, threatened legal action. Netscape settled in December 1994 — close to $3 million all-in, an agreement never to use the "Mosaic" name, and a forced clean-room rebuild of the entire browser from scratch without touching a line of the original codebase. Meanwhile, NCSA licensed Mosaic to a commercial offshoot called Spyglass, which in turn licensed it to Microsoft, which used it as the foundation of Internet Explorer.
 
-But the detail that matters more than any magazine cover: during that entire period, the coding sprints, the founding, the IPO, Andreessen described his work style as living on "exactly one thing all the time until exhausted and collapsed, then getting up the next morning to work on that thing some more."
+So the institution that had employed Andreessen sold the work he'd evangelized to the company that would soon try to destroy his. If you're looking for the moment a Type 5 stops trusting institutions and starts building his own, it's here.
+
+The Netscape IPO in August 1995 ignited the first great internet boom. Andreessen, 24, landed on the cover of Time magazine, barefoot on a golden throne. He hated the photo. Years later he would tell the Financial Times, "I'm an introvert. I would hide if I could get away with it." After the Time cover ran, he stopped sitting for personal profiles for years.
+
+But the detail that matters more than any magazine cover: during that entire period — the coding sprints, the founding, the IPO — Andreessen described his work style as living on "exactly one thing all the time until exhausted and collapsed, then getting up the next morning to work on that thing some more."
 
 Not multitasking. Not managing. Not networking. One problem, total immersion, until physical collapse. Then repeat.
 
 <div class="pull-quote">"Exactly one thing all the time until exhausted and collapsed, then getting up the next morning to work on that thing some more."</div>
+
+---
+
+## The Microsoft Wars and the Lesson That Built a16z
+
+Within months of Netscape's IPO, Microsoft started bundling Internet Explorer free with Windows. IE 3.0 in 1996 was credible. IE 4.0 in 1997 was decisive. By 1999, the browser Andreessen and Bina had built was being squeezed out of the market by code Microsoft had licensed from the very commercial offshoot NCSA had spun off Mosaic into.
+
+A line entered the lore around this period: Microsoft's Windows 95 was "a poorly debugged set of device drivers that masquerades as an operating system." Andreessen deployed the line repeatedly and got credit for it for years. In 2012, he set the record straight and pointed at Bob Metcalfe as the original author. The line wasn't his. The strategic claim underneath it was: the browser would become the new operating system, and the OS would be reduced to plumbing. Microsoft heard it the same way and moved to crush Netscape before the prophecy could come true.
+
+The Department of Justice brought its 1998 antitrust case against Microsoft with Netscape at the center. Andreessen testified by videotaped deposition, alleging Microsoft had asked Netscape to "divide the market" — to abandon Windows in exchange for everything else. The court ruled Microsoft a monopolist. By then it was too late. AOL bought what was left of Netscape in November 1998 for $4.3 billion. Andreessen became CTO. He lasted six months before leaving to start what would become Loudcloud.
+
+The lesson he carried out of that decade is the thread that runs through everything after: never depend on someone else's platform. If you want to survive, you have to own the rails. A decade later, that lesson would become the founding thesis of Andreessen Horowitz — a venture firm Marc and Ben explicitly modeled on Michael Ovitz's Creative Artists Agency, the Hollywood talent shop that built its moat by surrounding stars with a full-stack support system rather than just representing them. "A lot of what we're trying to do with Andreessen Horowitz is based on what Michael was doing at CAA," Andreessen later told an interviewer. Ovitz had coached them on the model since 1999, when they recruited him to Loudcloud's board. The firm they built was less a checkbook than a platform. The man who'd been crushed by someone else's platform spent the next decade making sure he'd never be the dependent party again.
 
 ---
 
@@ -173,6 +187,8 @@ Here's the evidence, drawn not from theory but from Andreessen's own words and b
 - **Selective high-energy engagement**: In person, people consistently describe him as "humble, curious, polite" and "surprisingly grounded." A wine shop employee who interacted with him regularly noted he was "easy-going, loyal, never in a hurry." This is the Five pattern: warm and present in controlled settings, guarded everywhere else.
 
 The 5w6 wing matters here: the Loyalist's orientation toward systems of trust. Andreessen doesn't just hoard knowledge. He builds institutional frameworks. Andreessen Horowitz was explicitly designed as a system: not just a fund, but a "full-stack" support model with dedicated teams for recruiting, marketing, and executive coaching. He systematized venture capital the way a 5w6 systematizes everything, by building reliable infrastructure around unreliable human processes.
+
+The wing to pressure-test this against is 5w4. Andreessen collects rare first-edition books. He and Laura sit in ARTnews' Top 200 art collectors. He reads "timeless" texts as deliberately as he reads breaking news. There's an aesthete inside the system-builder. But the aesthete isn't driving. The 4 wing wants to be unique, expressive, set apart by feeling — and Andreessen's signature move isn't expressive distinction. It's institution-building: Mosaic, Netscape, Loudcloud/Opsware, a16z, the manifesto-as-platform. Even the art collecting runs through Laura, the actual art historian in the marriage. 5w6 reads better because Andreessen's identity hangs on the systems he builds and defends, not on the texture of his interior life. The art is decoration. The infrastructure is the self.
 
 ---
 
@@ -242,11 +258,25 @@ That courtship tells you more about Andreessen's mind than any manifesto. He cou
 
 Laura is Marc's temperamental opposite. She's a Stanford lecturer in philanthropy who shouts giddily when excited about a new idea. When asked what gives her energy, she listed "giving to others, laughing, having dance parties with myself or my work team," then added, "Wait... did I mention dance parties?" She once described herself as unable to sleep because her work excited her too much, "literally physically sick from tiredness" because she couldn't stop.
 
-The contrast is almost too neat. Marc calendars his sleep to stave off panic. Laura can't sleep because she's too alive with purpose. He programs every hour of his day to keep the chaos out. She throws spontaneous dance parties. He calls himself the family's "chief philanthropic officer." Actually, no. He calls _her_ that. She's the one who decides where the money goes, who they support, how they engage with the world beyond the firm.
+Marc calendars his sleep to stave off panic. Laura can't sleep because she's too alive with purpose. He programs every hour of his day to keep the chaos out. She throws spontaneous dance parties. He calls himself the family's "chief philanthropic officer." Actually, no. He calls _her_ that. She's the one who decides where the money goes, who they support, how they engage with the world beyond the firm.
 
 Marc doesn't need Laura to explain systems to him. He needs her to pull him out of them. The art collecting, the gallery visits, the laughter that gets past his usual guard. This is what happens when a Five finds someone warm enough that the walls stop mattering.
 
-They have one son, born via gestational surrogate. They co-founded the Marc and Laura Andreessen Foundation. The public Marc writes manifestos with lists of enemies. The private Marc follows his wife through galleries and laughs until he can't breathe.
+They have one son, John, born via gestational surrogate. Marc rarely speaks about him. The most direct quote about fatherhood that has surfaced publicly is itself revealing. Asked how he felt about becoming a father, Andreessen said: "I feel fantastic! He'll come of age in a world where ten or a hundred times more people will be able to contribute in science and medicine and the arts, a more peaceful and prosperous world." Even fatherhood gets framed as a thesis about civilizational throughput. The love is real. It's just routed through the abstract system the child will inhabit, rather than through the messy specifics of the child himself.
+
+They co-founded the Marc and Laura Andreessen Foundation. The public Marc writes manifestos with lists of enemies. The private Marc follows his wife through galleries and laughs until he can't breathe.
+
+---
+
+## The Two Voices of pmarca
+
+For three years starting in 2007, Marc Andreessen wrote a personal blog at blog.pmarca.com. He wasn't yet a venture capitalist. He was an operator with strong opinions. The essays were unhurried, generous, and quietly authoritative. In a single paragraph of a piece called "The Only Thing That Matters," he coined the term "product/market fit." He published multi-part guides on hiring executives, market timing, and how to manage a startup CEO. Founders printed them out. Investors used them as scripts.
+
+Then in 2009, around the time he and Ben Horowitz raised the first a16z fund, the blog disappeared. The URLs stopped resolving. Years later, the firm posted a curated archive at pmarchive.com and re-released the essays as an ebook. Andreessen has never offered a clean public explanation for why he stopped, but the implicit logic is obvious enough: a venture capitalist with opinions in essay form creates conflicts of interest and lawsuits. A venture capitalist with opinions in 280-character form creates engagement.
+
+The Twitter voice that replaced the blog voice is a different person. The pmarca essayist was patient, structured, and credit-sharing. The @pmarca poster is rapid-fire, combative, and increasingly conspiratorial. He retweets dismissals of climate scientists, posts lists of his ideological enemies, and engages with anonymous accounts as readily as with cabinet officials. The shift accelerated after 2020. By the time the Techno-Optimist Manifesto landed in 2023, the patient explainer of product/market fit and the man warning that "deceleration is the enemy" sounded like two different humans inhabiting the same byline.
+
+The Type 5 pattern under both voices is the same: produce, hoard, control distribution. The 2007 essays were a closed system opened to the right audience. The 2020s tweets are a flood nobody can fully read. In both cases, what Andreessen never does is sit for a real conversation with someone who disagrees with him. The blog had no comments. The Twitter feed has no replies that matter to him. The system stays sealed.
 
 ---
 
@@ -286,7 +316,7 @@ Read that again. He's suspicious of his own motivation. He doesn't know what dri
 
 This is what "zero introspection" actually looks like in practice. He can see the question just fine. He won't follow it to its answer. The library is vast, the reading list is endless, and the one book he won't open is the one about himself.
 
-His description of the ideal founder says the same thing differently: "A lot of the best founders are zero percent neuroticism. Like they just don't get emotionally [fazed] by things." He frames this as a superpower. And for building companies, he's probably right.
+His description of the ideal founder says the same thing differently: "A lot of the best founders are zero percent neuroticism. Like they just don't get emotionally [fazed] by things." He frames this as a superpower. For building companies, he's right.
 
 But neuroticism isn't the absence of emotion. Low neuroticism is the absence of _visible_ emotional response. The feelings don't disappear. They get filed.
 
@@ -329,23 +359,30 @@ He knows the interior exists. He told Senra as much. He just won't go there.
 **What does a man who connected the entire world think he'd find if he ever connected with himself?**
 
 <!-- ============================================================
-POST-FIX AUDIT — 2026-04-30 (Claude cold read)
+POST-FIX AUDIT — 2026-05-19 (lore-deepening pass)
 ============================================================
 
-PRIOR DIAGNOSIS (Pass 1): Confident Type 5 read with no 2025-2026 anchor; Senra podcast carries too much source weight; "Fortress Becomes a Launchpad" Type 8 section feels grafted on.
+PRIOR DIAGNOSIS: Strong Type 5 read but missing key biographical lore. Eric Bina invisible, NCSA IP fight unmentioned, Microsoft browser wars/DOJ omitted, pmarca.com → Twitter shift un-engaged, son beat single-line, 5w4 wing untested, two hedges still in body, a16z/CAA lineage unstated.
 
-FIXED in 2026-04-29 pass:
-- "The Techno-Optimist Manifesto: A Five Under Stress" H2 added — names specific enemies (existential risk, trust and safety, tech ethics, sustainability, stakeholder capitalism) and engages psychologically
-- "What the Manifesto's Enemies Said Back" H2 added — first real critic-engagement section
-- 2026 currency landed: "Fifteen years later, in 2026, his prophecy has been fulfilled in ways 'even the biggest bulls failed to predict.'"
-- Vance dinners and DOGE proximity referenced where relevant
-- Senra-source dependency reduced — multiple sections now lead with non-Senra evidence
-- "Fortress Becomes a Launchpad" Type 8 section appears rewritten/cut
+FIXED in 2026-05-19 pass:
+- Bina properly credited (full-time NCSA engineer with senior coder role; Marc as part-time undergrad doing vision + evangelism; followed Marc to Netscape; shares 1995 ACM Software System Award)
+- NCSA IP fight added: Dec 1994 settlement, ~$3M, "no Mosaic name" clause, clean-room rebuild, NCSA → Spyglass → Microsoft IE chain framed as the institutional betrayal that taught Five-style self-reliance
+- New "Microsoft Wars and the Lesson That Built a16z" section: IE bundling timeline, "device drivers" line properly attributed to Bob Metcalfe (Marc set the record straight in 2012), 1998 DOJ testimony, AOL $4.3B acquisition, 6-month CTO stint
+- a16z / CAA / Michael Ovitz lineage stated with direct Marc quote ("based on what Michael was doing at CAA") and Ovitz's 1999 Loudcloud board origin
+- Time cover discomfort added with the FT introvert quote ("I would hide if I could get away with it")
+- New "Two Voices of pmarca" section: blog era 2007-2009, "Only Thing That Matters" coining product/market fit, blog takedown at a16z founding, archive at pmarchive.com, post-2020 Twitter shift framed psychologically (closed system → flood, both Type 5 control strategies)
+- Son paragraph expanded: name (John), American Prospect fatherhood quote ("ten or a hundred times more people will be able to contribute"), framed as love-routed-through-civilizational-thesis
+- 5w4 vs 5w6 pressure-test paragraph added (5w4 case: rare books, art collecting, timeless reading; 5w6 wins because the systems are the self, not the aesthete)
+- Both hedges cut: "The contrast is almost too neat" deleted; "he's probably right" → "he's right"
+- TL;DR "Connection Paradox" bullet cut (was duplicating the hook)
 
-STILL OFF:
-- Two hedges still in body: "almost too neat" (line 227) and "he's probably right" (line 271). Reviewer flagged both; second pass missed them.
-- Twitter/X presence still not engaged — Marc has one of the most prolific VC accounts of 2020-2026 and the piece engages zero tweets.
-- Son-via-surrogate beat still single-line; for a piece about emotional unavailability, this is loaded data still un-engaged.
-- The 5w4 alternative wing is still not pressure-tested in the diagnosis section.
+DELIBERATELY NOT INCLUDED:
+- Meta board departure (2024) — research could not confirm; Marc reportedly still on the board. Skipped to avoid factual risk.
+- The "Gandhi/barefoot" Time cover quote — widely cited but original source untraceable; paraphrased instead.
+
+OPEN QUESTIONS FOR NEXT PASS:
+- Could add Marc's 2024 Sam Altman / "AI conspiracy theory" exchange if you want to engage critics inside the AI camp, not just the doomer camp.
+- The Hinton/Bengio section could be sharpened with one specific Bengio paper or Hinton resignation quote.
+- "Marc's Five Lists" / taxonomic thinking habit is a Type 5 tell that could earn its own beat.
 
 ============================================================ -->

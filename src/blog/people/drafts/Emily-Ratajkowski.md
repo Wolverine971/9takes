@@ -46,7 +46,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'
   - 'https://www.wikidata.org/wiki/Q5372335'
   - 'https://www.imdb.com/name/nm1589279/'
-  - 'https://www.instagram.com/emrata/'
 citations:
   - 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'
   - 'https://en.wikipedia.org/wiki/Blurred_Lines'

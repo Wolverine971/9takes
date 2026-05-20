@@ -57,7 +57,6 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Reid_Hoffman'
   - 'https://www.wikidata.org/wiki/Q211098'
-  - 'https://twitter.com/reidhoffman'
   - 'https://greylock.com/team/reid-hoffman/'
   - 'https://www.reidhoffman.org/'
 citations:

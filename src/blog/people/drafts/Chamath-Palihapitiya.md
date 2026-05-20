@@ -49,7 +49,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
   - 'https://www.wikidata.org/wiki/Q16734050'
   - 'https://www.imdb.com/name/nm9501838/'
-  - 'https://twitter.com/chamath'
   - 'https://www.socialcapital.com/about'
 citations:
   - 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'

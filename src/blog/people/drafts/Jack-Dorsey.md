@@ -57,8 +57,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Jack_Dorsey'
   - 'https://www.wikidata.org/wiki/Q335552'
   - 'https://www.imdb.com/name/nm4263038/'
-  - 'https://twitter.com/jack'
-  - 'https://block.xyz/'
 citations:
   - 'https://en.wikipedia.org/wiki/Jack_Dorsey'
   - 'https://block.xyz/'

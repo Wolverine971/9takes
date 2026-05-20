@@ -27,9 +27,7 @@ keywords:
 same_as:
   - https://en.wikipedia.org/wiki/Bad_Bunny
   - https://www.wikidata.org/wiki/Q44333953
-  - https://x.com/sanbenito
-  - https://www.instagram.com/badbunnypr/
-  - https://www.tiktok.com/@badbunny
+  - https://www.imdb.com/name/nm8730768/
 wikidata_qid: Q44333953
 imdb_id: nm8730768
 birth_date: '1994-03-10'

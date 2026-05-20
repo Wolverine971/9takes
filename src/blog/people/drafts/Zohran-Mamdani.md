@@ -47,8 +47,6 @@ same_as:
   - 'https://en.wikipedia.org/wiki/Zohran_Mamdani'
   - 'https://www.wikidata.org/wiki/Q28034971'
   - 'https://www.imdb.com/name/nm8421715/'
-  - 'https://twitter.com/ZohranKMamdani'
-  - 'https://www.instagram.com/zohrankmamdani/'
   - 'https://www.nyc.gov/mayor'
 citations:
   - 'https://en.wikipedia.org/wiki/Zohran_Mamdani'
