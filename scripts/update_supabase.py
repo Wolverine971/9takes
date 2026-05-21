@@ -1,5 +1,5 @@
-# scripts/update_supabase.py
 #!/usr/bin/env python3
+# scripts/update_supabase.py
 import urllib.request
 import json
 import ssl

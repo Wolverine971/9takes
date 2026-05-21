@@ -1,6 +1,4 @@
-# scripts/run-blog-pipeline.sh
 #!/usr/bin/env bash
-#
 # scripts/run-blog-pipeline.sh
 #
 # Run the full 9takes personality-blog pipeline for one person.

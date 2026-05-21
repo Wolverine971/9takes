@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-05-19T02:16:24Z",
+	"lastUpdated": "2026-05-21T06:01:05Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
@@ -44,19 +44,6 @@
 			"addedToQueue": "2026-05-06",
 			"retryCount": 0,
 			"strategicValue": "viral-beauty-list-model-cluster"
-		},
-		{
-			"name": "lizzo",
-			"displayName": "Lizzo",
-			"type": 7,
-			"priority": 75,
-			"priorityReason": "Pop star, body positivity, exuberant flute-and-joy register reads 7w8 (was Type 8 — corrected during audit; dominant tone is joyful expression with 8-wing edge, not 8-core)",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "contemporary-pop-cluster"
 		},
 		{
 			"name": "judge-judy",
@@ -828,18 +815,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "yuval-noah-harari",
-		"displayName": "Yuval Noah Harari",
-		"type": 5,
-		"priority": 76,
-		"priorityReason": "Fills Type 5 gap, Sapiens search volume, intellectual audience crossover",
-		"estimatedTraffic": "medium",
-		"searchVolume": "medium",
+		"name": "lizzo",
+		"displayName": "Lizzo",
+		"type": 7,
+		"priority": 75,
+		"priorityReason": "Pop star, body positivity, exuberant flute-and-joy register reads 7w8 (was Type 8 — corrected during audit; dominant tone is joyful expression with 8-wing edge, not 8-core)",
+		"estimatedTraffic": "high",
+		"searchVolume": "high",
 		"personaTitle": null,
 		"addedToQueue": "2026-04-03",
 		"retryCount": 0,
-		"strategicValue": "fills-type-5-gap",
-		"startedAt": "2026-05-19T02:16:24Z"
+		"strategicValue": "contemporary-pop-cluster",
+		"startedAt": "2026-05-21T06:01:05Z"
 	},
 	"skipped": [
 		{
@@ -982,6 +969,23 @@
 			"skippedAt": "2026-05-03T06:01:47Z",
 			"skipReason": "stale inProgress - draft exists",
 			"skipDetail": "Draft exists at src/blog/people/drafts/Hayao-Miyazaki.md (33KB, frontmatter published=false). ~50h after startedAt 2026-05-01T06:01:38Z."
+		},
+		{
+			"name": "yuval-noah-harari",
+			"displayName": "Yuval Noah Harari",
+			"type": 5,
+			"priority": 76,
+			"priorityReason": "Fills Type 5 gap, Sapiens search volume, intellectual audience crossover",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "fills-type-5-gap",
+			"startedAt": "2026-05-19T02:16:24Z",
+			"skippedAt": "2026-05-21T06:01:05Z",
+			"skipReason": "stale inProgress - timeout (>24h)",
+			"skipDetail": "Previous run did not complete; no draft created"
 		}
 	],
 	"failed": [],

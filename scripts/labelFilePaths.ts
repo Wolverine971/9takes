@@ -133,12 +133,62 @@ function shouldProcessDirectory(dirPath: string): boolean {
 	return !EXCLUDED_DIRS.includes(dirName) && !dirName.startsWith('.');
 }
 
+function isExistingPathCommentLine(line: string): boolean {
+	const trimmedLine = line.trim();
+	return EXISTING_PATH_COMMENT_PATTERNS.some((pattern) => pattern.test(trimmedLine));
+}
+
 function hasExistingPathComment(content: string): boolean {
 	const lines = content.split('\n');
 	if (lines.length === 0) return false;
 
-	const firstLine = lines[0].trim();
-	return EXISTING_PATH_COMMENT_PATTERNS.some((pattern) => pattern.test(firstLine));
+	return isExistingPathCommentLine(lines[0]);
+}
+
+function isShebangLine(line: string): boolean {
+	return line.startsWith('#!');
+}
+
+function findLeadingShebangIndex(lines: string[]): number {
+	const searchLimit = Math.min(lines.length, 4);
+
+	for (let index = 0; index < searchLimit; index++) {
+		if (isShebangLine(lines[index])) {
+			const precedingLines = lines.slice(0, index);
+			const canRelocateShebang = precedingLines.every(
+				(line) => line.trim() === '' || isExistingPathCommentLine(line)
+			);
+			return canRelocateShebang ? index : -1;
+		}
+
+		if (lines[index].trim() !== '' && !isExistingPathCommentLine(lines[index])) {
+			return -1;
+		}
+	}
+
+	return -1;
+}
+
+function addOrUpdatePathCommentInContent(content: string, pathComment: string): string {
+	const lines = content.split('\n');
+	const shebangIndex = findLeadingShebangIndex(lines);
+
+	if (shebangIndex !== -1) {
+		const afterShebang = lines.slice(shebangIndex + 1);
+
+		while (afterShebang.length > 0 && isExistingPathCommentLine(afterShebang[0])) {
+			afterShebang.shift();
+		}
+
+		return [lines[shebangIndex], pathComment, ...afterShebang].join('\n');
+	}
+
+	if (hasExistingPathComment(content)) {
+		lines[0] = pathComment;
+		return lines.join('\n');
+	}
+
+	return pathComment + '\n' + content;
 }
 
 /**
@@ -199,29 +249,12 @@ function addOrUpdatePathComment(filePath: string, rootDir: string): boolean {
 			} else {
 				// No frontmatter - prepend HTML comment, NEVER replace existing content
 				const pathComment = commentFunction(relativePath);
-				if (hasExistingPathComment(content)) {
-					// Already has a path comment, update it
-					const lines = content.split('\n');
-					lines[0] = pathComment;
-					newContent = lines.join('\n');
-				} else {
-					// Prepend the path comment (push existing content down)
-					newContent = pathComment + '\n' + content;
-				}
+				newContent = addOrUpdatePathCommentInContent(content, pathComment);
 			}
 		} else {
-			// Non-markdown files: use original logic
+			// Non-markdown files: keep shebangs executable by labeling after them.
 			const pathComment = commentFunction(relativePath);
-			const lines = content.split('\n');
-
-			if (hasExistingPathComment(content)) {
-				// Replace the first line with the new path comment
-				lines[0] = pathComment;
-				newContent = lines.join('\n');
-			} else {
-				// Add the path comment at the beginning
-				newContent = pathComment + '\n' + content;
-			}
+			newContent = addOrUpdatePathCommentInContent(content, pathComment);
 		}
 
 		// Only write if content has changed

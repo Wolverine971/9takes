@@ -1,6 +1,5 @@
-# scripts/resize.sh
-
 #!/bin/bash
+# scripts/resize.sh
 
 DIRECTORY="C:/Users/djway/Downloads/newbbb"
 

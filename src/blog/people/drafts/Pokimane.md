@@ -301,7 +301,7 @@ In 2020, she co-organized the viral <a href="https://happymag.tv/aoc-among-us/">
 
 She took less money to stay on the platform she trusted.
 
-By April 2022, she was the <a href="https://www.thegamer.com/pokimane-twitch-9-million-followers/">first female Twitch streamer to hit 9 million followers</a>. Forbes 30 Under 30 (Games) in 2021. The Streamer Awards Legacy Award in 2021. A cameo in _Free Guy_. By 2025, she was on the <a href="https://time.com/collections/time100-creators-2025/7299131/pokimane/">inaugural TIME100 Creators list at #35</a>.
+By April 2022, she was the <a href="https://www.thegamer.com/pokimane-twitch-9-million-followers/">first female Twitch streamer to hit 9 million followers</a>. Forbes 30 Under 30 (Games) in 2021. The Streamer Awards Legacy Award in 2021. A cameo in _Free Guy_. By 2025, she was on the <a href="https://time.com/collections/time100-creators-2025/7299131/pokimane/">inaugural TIME100 Creators list</a>, ranked No. 35.
 
 But the milestones aren't what make the story interesting. What's interesting is who she actually was when the cameras and the contracts faded.
 

@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-05-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-05-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1324,7 +1324,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-05-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1800,6 +1800,13 @@
     <lastmod>2026-01-26</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Hasan-Piker.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/hayao-miyazaki</loc>
+    <lastmod>2026-05-21</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/1s/Hayao-Miyazaki.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3288,7 +3295,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/1</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-21</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>

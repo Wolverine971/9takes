@@ -1,5 +1,5 @@
-# scripts/capture-dossiers.sh
 #!/bin/bash
+# scripts/capture-dossiers.sh
 # Capture each enneagram type dossier in BOTH dark and light theme,
 # save webp variants to static/blogs/.
 #
