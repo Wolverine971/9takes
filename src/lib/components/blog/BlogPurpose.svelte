@@ -206,6 +206,8 @@
 	.explorer-section {
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		padding: 1.25rem 1rem 1rem;
+		min-width: 0;
+		overflow-x: hidden;
 
 		@media (min-width: 768px) {
 			flex: 1;
@@ -235,5 +237,14 @@
 		width: 100%;
 		max-width: 20rem;
 		margin: 0 auto;
+		min-width: 0;
+		overflow-x: hidden;
+	}
+
+	@supports (overflow-x: clip) {
+		.explorer-section,
+		.diagram-container {
+			overflow-x: clip;
+		}
 	}
 </style>

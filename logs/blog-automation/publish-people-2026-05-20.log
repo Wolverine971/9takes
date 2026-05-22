@@ -1,0 +1,13 @@
+```text
+Published people blog.
+
+Person: pamela-anderson
+Draft: src/blog/people/drafts/Pamela-Anderson.md
+Date/lastmod: 2026-05-20
+Supabase: published=true (row id=1031)
+Images: full + thumbnail present (static/types/7s/Pamela-Anderson.webp + s-Pamela-Anderson.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```

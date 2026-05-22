@@ -41,18 +41,26 @@
 	.glow-container {
 		position: fixed;
 		inset: 0;
+		width: 100vw;
+		max-width: 100vw;
 		pointer-events: none;
 		z-index: 1;
 		overflow: hidden;
+		contain: layout paint;
+		clip-path: inset(0);
 	}
 
 	/* Floating particles container (above content) */
 	.particles-container {
 		position: fixed;
 		inset: 0;
+		width: 100vw;
+		max-width: 100vw;
 		pointer-events: none;
 		z-index: 25;
 		overflow: hidden;
+		contain: layout paint;
+		clip-path: inset(0);
 	}
 
 	/* Floating particles */
@@ -186,31 +194,16 @@
 
 	/* Reduce particles on mobile for performance */
 	@media (max-width: 768px) {
+		.glow {
+			display: none;
+		}
+
 		.particle:nth-child(n + 9) {
 			display: none;
 		}
 
 		.particle {
 			filter: blur(0.5px);
-		}
-
-		.glow {
-			filter: blur(80px);
-		}
-
-		.glow-1 {
-			width: 300px;
-			height: 300px;
-		}
-
-		.glow-2 {
-			width: 250px;
-			height: 250px;
-		}
-
-		.glow-3 {
-			width: 280px;
-			height: 280px;
 		}
 	}
 </style>

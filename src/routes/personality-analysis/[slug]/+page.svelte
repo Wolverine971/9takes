@@ -1027,6 +1027,7 @@
 		max-width: 880px;
 		margin: 0 auto;
 		min-width: 0;
+		overflow-x: hidden;
 	}
 
 	.article-body {
@@ -1034,6 +1035,7 @@
 		max-width: 100%;
 		min-width: 0;
 		margin-bottom: 2rem;
+		overflow-x: hidden;
 		font-family: var(--font-display);
 		font-size: 18px;
 		line-height: 1.7;
@@ -1310,6 +1312,7 @@
 			font-size: 17px;
 			max-width: 100%;
 			min-width: 0;
+			overflow-x: hidden;
 			overflow-wrap: break-word;
 			word-wrap: break-word;
 
@@ -1384,6 +1387,13 @@
 				max-width: 100%;
 				height: auto;
 			}
+		}
+	}
+
+	@supports (overflow-x: clip) {
+		.breakdown-inner,
+		.article-body {
+			overflow-x: clip;
 		}
 	}
 </style>

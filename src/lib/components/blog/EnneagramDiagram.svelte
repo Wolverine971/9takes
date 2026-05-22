@@ -398,6 +398,33 @@
 		overflow: visible;
 	}
 
+	@media (max-width: 639px) {
+		.diagram-wrapper,
+		.enneagram-container {
+			max-width: 100%;
+			min-width: 0;
+			overflow-x: hidden;
+		}
+
+		.glow-layer,
+		.center-pulse,
+		.node-glow {
+			display: none;
+		}
+
+		.center-icon,
+		.type-node {
+			overflow: hidden;
+		}
+
+		@supports (overflow-x: clip) {
+			.diagram-wrapper,
+			.enneagram-container {
+				overflow-x: clip;
+			}
+		}
+	}
+
 	/* ==========================================
 	   GLOW LAYER
 	   ========================================== */

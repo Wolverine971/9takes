@@ -807,7 +807,17 @@
 	}
 
 	.toc-nav-wrapper {
-		display: contents;
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
+		overflow-x: hidden;
+	}
+
+	@supports (overflow-x: clip) {
+		.toc-nav-wrapper {
+			overflow-x: clip;
+		}
 	}
 
 	.toc-accordion {
@@ -838,6 +848,7 @@
 		cursor: pointer;
 		display: flex;
 		align-items: center;
+		min-width: 0;
 		outline: none;
 		color: var(--ink-bright);
 		background-color: var(--stone-warm);
@@ -1020,6 +1031,9 @@
 		:global(.toc-link) {
 			padding: 0.2rem 0.35rem;
 			font-size: var(--font-size-xs);
+			white-space: normal;
+			overflow-wrap: anywhere;
+			text-overflow: clip;
 		}
 	}
 </style>

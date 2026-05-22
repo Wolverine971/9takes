@@ -1,0 +1,15 @@
+BLOG IN PROGRESS: yuval-noah-harari - skipping today's run
+
+The previous run for **yuval-noah-harari** is still marked `inProgress` (started 2026-05-19T02:16:24Z, 23 hours ago). It hasn't crossed the 24-hour stale threshold, so per the workflow's critical rule #2, I'm stopping without running.
+
+**Status:**
+- Pause: false ✓
+- Rate limit: 3/5 this week ✓
+- inProgress: yuval-noah-harari (23h old, not yet stale)
+- Draft file: MISSING (previous run likely failed silently)
+
+**Recommendation:** The previous run looks like a silent failure (no draft created after 23h). In ~1 hour it will cross the 24h threshold and auto-clear on the next run. If you want to unblock immediately, you can either:
+1. Manually clear `inProgress` in `docs/blog-automation/backlog-queue.json` (move yuval to `skipped` or back to `queue` with retryCount++)
+2. Wait ~1 hour and re-run — the stale-clear logic will handle it automatically
+
+Want me to do option 1 now?
