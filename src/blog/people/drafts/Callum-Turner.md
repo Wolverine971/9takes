@@ -4,12 +4,12 @@ meta_title: "Callum Turner Spent 4 Years Stoned. Then He Got Hungry."
 persona_title: "Cinema's Hungry Late Starter"
 description: "Callum Turner says he 'lost four years' to weed before becoming Hollywood's golden boy. The Type 7 pattern behind a charming, late, hungry bloom."
 author: 'DJ Wayne'
-date: '2026-04-29'
+date: '2026-05-23'
 loc: 'https://9takes.com/personality-analysis/callum-turner'
-lastmod: '2026-04-30'
+lastmod: '2026-05-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'callum-turner'

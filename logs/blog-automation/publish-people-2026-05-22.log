@@ -1,0 +1,14 @@
+```text
+Published people blog.
+
+Person: vivek-ramaswamy
+Draft: src/blog/people/drafts/Vivek-Ramaswamy.md
+Date/lastmod: 2026-05-22
+Supabase: published=true (row id=1019)
+Images: full + thumbnail present (static/types/3s/Vivek-Ramaswamy.webp, s-Vivek-Ramaswamy.webp)
+Generated files: pnpm gen:all completed (famousTypes.ts updated, sitemap.xml includes /personality-analysis/vivek-ramaswamy)
+Content grade: 9 (4,443 words)
+
+Blockers:
+- none
+```

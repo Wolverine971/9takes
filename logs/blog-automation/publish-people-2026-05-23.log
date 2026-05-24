@@ -1,0 +1,17 @@
+```text
+Published people blog.
+
+Person: callum-turner
+Draft: src/blog/people/drafts/Callum-Turner.md
+Date/lastmod: 2026-05-23
+Supabase: published=true (row id=1003)
+Images: full + thumbnail present (static/types/7s/Callum-Turner.webp + s-Callum-Turner.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts → callum-turner now link:true, lastmod 2026-05-23
+  - sitemap.xml includes /personality-analysis/callum-turner
+
+Blockers:
+- none
+```
+
+Note: `famousTypes.ts` regen also flipped `vivek-ramaswamy` to `link: true` (lastmod 2026-05-22) as a side effect — looks like an already-staged draft state catch-up, unrelated to this publish.

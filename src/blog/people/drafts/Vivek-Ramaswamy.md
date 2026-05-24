@@ -4,12 +4,12 @@ meta_title: "Why Vivek Ramaswamy Can't Stop Reinventing Himself"
 persona_title: 'The Self-Engineered Achiever'
 description: 'Why does Vivek Ramaswamy reinvent himself every two years? The Enneagram Type 3 psychology behind biotech, DOGE, and the borrowed Barack Obama line.'
 author: 'DJ Wayne'
-date: '2026-05-01'
+date: '2026-05-22'
 loc: 'https://9takes.com/personality-analysis/vivek-ramaswamy'
-lastmod: '2026-05-01'
+lastmod: '2026-05-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['politician', 'entrepreneur', 'campaign-politician', 'business-operator']
 person: 'vivek-ramaswamy'

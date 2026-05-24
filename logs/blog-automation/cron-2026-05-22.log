@@ -1,0 +1,17 @@
+Pre-flight checks complete. There's an inProgress blog that's 19 hours old (< 24h threshold), so per the workflow rules I must stop.
+
+However, the Lizzo draft actually exists at `src/blog/people/drafts/lizzo.md` (41KB, modified May 21 15:44), meaning yesterday's run successfully created the draft but never cleared `inProgress` from the queue. This is a stuck-state bug from the prior run, not a genuinely in-flight job.
+
+```
+BLOG IN PROGRESS: lizzo - skipping today's run
+```
+
+**Status:**
+- `pause`: false ✓
+- `inProgress`: **lizzo** (started 2026-05-21T06:01:05Z, 19 hours ago — under 24h stale threshold)
+- Rate limit: 3/5 this week ✓
+- Lizzo draft: **already exists** (41KB), so the prior run produced a draft but failed to update the queue
+
+**Recommended manual cleanup** (I'm not doing this automatically since it modifies queue state and the user is on a parallel-work-safety memory):
+
+The Lizzo entry should be moved from `inProgress` to `completed` with `completedAt` set to ~2026-05-21T15:44Z, and `rateLimit.currentWeekCount` should be incremented to 4. Want me to run that cleanup and then re-execute today's selection, or leave it for you to handle?

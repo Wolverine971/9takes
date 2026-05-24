@@ -1,11 +1,24 @@
 {
-	"lastUpdated": "2026-05-23T06:17:14Z",
+	"lastUpdated": "2026-05-21T06:01:05Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
+		{
+			"name": "paige-spiranac",
+			"displayName": "Paige Spiranac",
+			"type": 3,
+			"priority": 74,
+			"priorityReason": "Ranker/Instagram beauty-list spike, large golf-influencer reach, and a clear Type 3 sports-media image-performance angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-05-06",
+			"retryCount": 0,
+			"strategicValue": "viral-beauty-list-sports-influencer-cluster"
+		},
 		{
 			"name": "victoria-justice",
 			"displayName": "Victoria Justice",
@@ -799,51 +812,22 @@
 			"gradeLetter": "A",
 			"durationMinutes": 9,
 			"needsReview": false
-		},
-		{
-			"name": "lizzo",
-			"displayName": "Lizzo",
-			"type": 7,
-			"priority": 75,
-			"priorityReason": "Pop star, body positivity, exuberant flute-and-joy register reads 7w8 (was Type 8 — corrected during audit; dominant tone is joyful expression with 8-wing edge, not 8-core)",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "contemporary-pop-cluster",
-			"startedAt": "2026-05-21T06:01:05Z",
-			"completedAt": "2026-05-21T15:44:15Z",
-			"contentGrade": 8.7,
-			"gradeLetter": "B+",
-			"status": "draft",
-			"durationMinutes": null,
-			"needsReview": false,
-			"recoveredAt": "2026-05-23T06:01:00Z",
-			"recoveryNote": "Draft existed at src/blog/people/drafts/lizzo.md (41KB, graded B+ 8.7) but queue was never finalized after previous run; reconciled by daily-blog-creator."
-		},
-		{
-			"name": "paige-spiranac",
-			"displayName": "Paige Spiranac",
-			"type": 3,
-			"priority": 74,
-			"priorityReason": "Ranker/Instagram beauty-list spike, large golf-influencer reach, and a clear Type 3 sports-media image-performance angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-05-06",
-			"retryCount": 0,
-			"strategicValue": "viral-beauty-list-sports-influencer-cluster",
-			"startedAt": "2026-05-23T06:02:00Z",
-			"completedAt": "2026-05-23T06:17:14Z",
-			"contentGrade": 8.9,
-			"gradeLetter": "B+",
-			"status": "draft",
-			"durationMinutes": 15,
-			"needsReview": false
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "lizzo",
+		"displayName": "Lizzo",
+		"type": 7,
+		"priority": 75,
+		"priorityReason": "Pop star, body positivity, exuberant flute-and-joy register reads 7w8 (was Type 8 — corrected during audit; dominant tone is joyful expression with 8-wing edge, not 8-core)",
+		"estimatedTraffic": "high",
+		"searchVolume": "high",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-03",
+		"retryCount": 0,
+		"strategicValue": "contemporary-pop-cluster",
+		"startedAt": "2026-05-21T06:01:05Z"
+	},
 	"skipped": [
 		{
 			"name": "anna-wintour",
