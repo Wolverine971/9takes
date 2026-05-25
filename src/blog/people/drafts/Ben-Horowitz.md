@@ -240,7 +240,7 @@ He stayed on the road for two and a half more weeks. The IPO priced at $6. No cl
 
 That is the Six made literal. The wife who stops breathing tells you to keep selling because the floor under the company is the floor under everything else, including her hospital bill and the four hundred families on the payroll. He stayed because she gave him permission to. It was not a heroic choice. It was the only choice a Six can metabolize.
 
-Four hundred people got laid off across three rounds at Loudcloud and Opsware. The stock fell to 35 cents — below the company's cash position, which is the market's mathematical verdict that you are already bankrupt and just haven't noticed. Then, in July 2007, Hewlett-Packard bought Opsware for $1.65 billion in cash. The line he repeated about the worst of those years, on the Tim Ferriss show years later, was unsparing: <em>"I was up at 2 a.m. in a cold sweat with my guts boiling, all that stuff."</em>
+Four hundred people got laid off across three rounds at Loudcloud and Opsware. The stock fell to 35 cents — below the company's cash position, which is the market's mathematical verdict that you are already bankrupt and just haven't noticed. Then, in July 2007, Hewlett-Packard bought Opsware for $1.65 billion in cash. The line he repeated about the worst of those years, on the [Tim Ferriss](/personality-analysis/tim-ferriss) show years later, was unsparing: <em>"I was up at 2 a.m. in a cold sweat with my guts boiling, all that stuff."</em>
 
 ## The flowers and the phone call
 

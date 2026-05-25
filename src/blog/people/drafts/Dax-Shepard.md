@@ -161,7 +161,7 @@ He made it to UCLA, where he graduated magna cum laude with a degree in anthropo
 
 What followed maps the Seven's need to do everything at once. Dax didn't just act. He wrote, directed, produced, and starred. Punk'd, then Without a Paddle, then Parenthood, which ran for six seasons on NBC and gave him his most sustained role. He wrote Hit and Run as a love letter to Kristen and their shared obsession with cars. He wrote, directed, and starred in CHiPs, poured two and a half years into it, and it landed with a thud.
 
-"I was heartbroken," he told Tim Ferriss. "I questioned whether I should keep acting, whether I should keep writing and directing."
+"I was heartbroken," he told [Tim Ferriss](/personality-analysis/tim-ferriss). "I questioned whether I should keep acting, whether I should keep writing and directing."
 
 For a decade in LA he lived on eight grand a year, barely able to order pizza, budgeting his drinking money. Even after Parenthood, the financial security never quite matched the effort. He hosted Top Gear America and called it the best job in the world because "I just go there and horse around in fast cars that someone else owns."
 

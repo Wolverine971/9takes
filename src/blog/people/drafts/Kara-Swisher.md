@@ -112,7 +112,7 @@ There are two ways to read that sentence. The first is resilience, a child learn
 
 "There's not a day that goes by I don't think about my dad."
 
-Years later, when her own son turned five, Swisher had a revelation. "I don't remember a lot of my father," she told Tim Ferriss. "You remember little snatches and memories." But watching her son at that age, she realized: "He knew me incredibly well at 5. We were very close. We had conversations." A pause. "So I must have had that and I don't remember it." She has said she wants to get hypnotized to recover those memories but isn't sure it would work.
+Years later, when her own son turned five, Swisher had a revelation. "I don't remember a lot of my father," she told [Tim Ferriss](/personality-analysis/tim-ferriss). "You remember little snatches and memories." But watching her son at that age, she realized: "He knew me incredibly well at 5. We were very close. We had conversations." A pause. "So I must have had that and I don't remember it." She has said she wants to get hypnotized to recover those memories but isn't sure it would work.
 
 She doesn't know what she lost. She only knows it was everything.
 

@@ -61,15 +61,6 @@ faqs:
 twitter: 'tferriss'
 instagram: 'timferriss'
 tiktok: 'timferriss'
-content_quality:
-  hook: 9.5
-  enneagram: 9
-  evidence: 8.7
-  writing: 9
-  originality: 8.5
-  overall: 8.9
-  letter: B+
-  graded_at: '2026-04-03'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -83,9 +74,34 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Tim-Ferriss.md
+content_quality:
+  hook: 9.5
+  enneagram: 9
+  evidence: 8.5
+  writing: 8
+  originality: 9
+  overall: 8.8
+  letter: B+
+  graded_at: '2026-05-25'
 ---
 
-<!-- QUALITY GRADE: B+ (8.9) — pending regrade after 2026-05-19 revisions
+<!-- QUALITY GRADE: B+ (8.8)
+Hook: 9.5 | Enneagram: 9 | Evidence: 8.5 | Writing: 8 | Originality: 9
+
+FEEDBACK (2026-05-25):
+- EXCEPTIONAL HOOK (still): The Princeton minivan → Firestone Library reserve → forgotten address change → "the kind of small administrative failure Tim Ferriss would spend twenty-five years teaching people to eliminate" remains a top-tier opening. The thesis ("a voice that has never once told him he's done enough") lands by paragraph five.
+- SIGNATURE INSIGHT EARNED: "Seventeen behaviors, one source" is the genuine aha. The "Misbehave" close-read ("Not 'fail.' Not 'underperform.' Misbehave.") is one of the sharpest word-level reads in the corpus. Stoicism-as-rage-container, anchored by Tim's own confirmation to Gabor Maté and the 2026 "not a clean fuel / damage to the vessel" Shawn Ryan upgrade, is non-obvious type integration.
+- RELATIONSHIPS PASS LANDED: "The Armor That Kept Everyone Out" is real and necessary. "Cauterized. The medical word for a wound deliberately sealed by burning" is the kind of close reading you can only earn with the source quote in hand. The Brené Brown "very clean fighter / clearest mirror / scripts and sensitivities out of date" beat is the strongest critic-engagement moment in the piece because Tim doesn't concede — and the analysis names that he doesn't.
+- INVESTING SECTION FIXED: The 2026-05-19 restructure worked. Leading with the $150M loss disclosure as emotional payoff, then walking back to the $120K-as-tuition framing, then the walk-away in 2015 — the order now carries the emotional logic instead of the financial timeline. Old chronology is gone.
+- CLOSER STILL CUTS TO BLACK: "Maybe the most honest thing about Tim Ferriss is that the man who taught the world there's a right way to do everything is still searching for the right way to stop searching." Earned the right to be there.
+
+- NEEDS WORK: Formula fingerprint on "Not X. Y." contrast pairs. The "Not 'fail.' Not 'underperform.' Misbehave." engine is reused too many times in the main body: "Not casually. Fifty times." / "Not curiosity. Conviction." / "Not grief. Not helplessness. Self-prosecution." / "The body. Not the mind." That's 5+ uses. Per the rubric's formula fingerprint check, this caps Writing Quality at 8 — and it's a real read, the device starts to feel like a tic by the third or fourth deployment.
+- NEEDS WORK: Off-camera testimony is still thin. Charlie Hoehn is the named collaborator but his "kamikaze pilot" quote is about himself burning out, not a direct read on Tim. The Kate Adams / Natalie Sisson naming is a documentation move, not testimony. To break above B+, the piece needs one quote from a co-worker, ex-collaborator, or ex-partner who saw the perfectionism off-camera and described it in their own words.
+
+- TO REACH A (9.0): (1) Audit the "Not X. Y." sentence engine. Pick the two strongest uses (the "Misbehave" close-read and the "Not curiosity. Conviction." in the philanthropy section, probably) and rewrite the other 3+ with different syntax — even just "He doesn't experience it as anger. He experiences it as 'the world is wrong, and someone needs to fix it.'" recast as a single declarative sentence. The device is doing too much load-bearing work right now. (2) Add one outside voice — a co-author, ex-employee, ex-partner, or peer (Naval, Kevin Rose, Debbie Millman are all on-record allies) who has described Tim's perfectionism in their own words rather than echoing it through him. Even one paragraph would shift the evidence score meaningfully. (3) The bolded mid-paragraph thesis lines were trimmed in the 2026-05-19 pass — they're now at a reasonable level, leave them.
+-->
+
+<!-- QUALITY GRADE: PREVIOUS (2026-04-03)
 Hook: 9.5 | Enneagram: 9 | Evidence: 8.7 | Writing: 9 | Originality: 8.5
 
 FEEDBACK (2026-04-03):
@@ -102,7 +118,13 @@ REVISION LOG (2026-05-19) — depth/respect pass for outreach readiness:
 - CRITIC ENGAGEMENT: Jacobin/labor critique now gets a full three paragraphs instead of a sentence-and-pivot. The structural critique is held, named (Ferriss has not built a system to answer it), and treated as a Type 1 tell.
 - HEDGE PASS: "Anger disguised as discipline" reframed via Tim's own confirmation to Gabor Maté (Episode #620) that he experiences the repressed-anger-into-rage pattern — anchors the claim in his words instead of theory. Spirit Rock recovered memories given a single careful parenthetical acknowledging the contested-memory debate without undermining his disclosure.
 - TRIM: Bolded mid-paragraph thesis lines cut roughly in half (from ~10 to ~4). Prose carries the diagnosis now.
+
+REVISION LOG (2026-05-24) — relationships and hidden self-critique pass:
+- NEW SECTION ADDED: "The Armor That Kept Everyone Out" slots in right after "Even Intimacy Gets a Process" (keeping that section's "morning routine has rules / heart doesn't" closer intact as a natural hinge). New section traces the actual relationship cost of the inner critic projected outward — three long-term partners of 3-6 years each, only two of whom heard the abuse disclosure. Anchored by four primary disclosures: the Shawn Ryan "emotionally cauterized / works up to a point" admission (Jan 2026, #274); the Kevin Rose Random Show "litany of charges" check-in meeting failure where his girlfriend rewrote the format; the Brené Brown "very clean fighter / clearest mirror / scripts and sensitivities out of date" praise for his current partner (Ep #409, Feb 2020); the Terry Real "indirectness → resentment grows" diagnosis and "household with repair: one person screams, the other goes to fix" childhood template (Ep #810, May 2025).
+- STOIC SECTION UPDATE: Added the Shawn Ryan "not a clean fuel / damage to the vessel" rage disclosure as a 2026 sharper version of the existing Gabor Maté reference. Dates the rage as active until 2013-2015 in his own words. The container of Stoicism does not eliminate the rage; it buys time on it.
+- TRAUMA SECTION UPDATE: Added the "fuck that, if I could remove that, I would remove it" disclosure (Shawn Ryan #274, Jan 2026) as a six-years-later coda to the Episode #464 disclosure. Ferriss explicitly refusing the trauma-made-me-who-I-am narrative his own career helped popularize.
 -->
+
 
 > "I was sitting in the back of my used minivan in a campus parking lot, when I decided I was going to commit suicide."
 
@@ -250,6 +272,8 @@ _Misbehave._ Not "fail." Not "underperform." **Misbehave.** The word choice of s
 
 And there's a darker undertow beneath the discipline that Ferriss himself has named. On Episode #620 (September 2022) with Dr. Gabor Maté, Maté described the pattern of repressed anger that erupts as explosive rage — the kind that bypasses the slow, healthy version and goes straight to the nervous system. Ferriss responded simply: _"That's what happens to me."_ The Stoic practice, the cold exposure, the same meals every day — they aren't only optimization. They're the container that keeps the rage from leaking out sideways. The Type 1 doesn't experience anger as anger. He experiences it as _the world is wrong, and someone needs to fix it._
 
+By early 2026, four hours into a conversation with Shawn Ryan, he had pushed the admission further. He dated the rage — _"a very angry kid, very angry human, I would say, up until probably 2013, 2015"_ — and named what it had cost him to run on it: _"I took all the rage… It's not a clean fuel. You do a lot of damage to the vessel, but it's a fuel."_ The container of Stoicism does not eliminate the rage. It buys time on it.
+
 ### The Quiet Pivot Hiding in the Bibliography
 
 Look at the publication dates. _The 4-Hour Workweek_ (2007), _The 4-Hour Body_ (2010), _The 4-Hour Chef_ (2012) — three prescriptive books in five years, each titled _here is the right way._ Then nothing of his own for four years. When Ferriss came back in 2016, the form had changed. _Tools of Titans_ wasn't his protocol — it was the distilled protocols of 200+ peak performers he'd interviewed, curated and footnoted. _Tribe of Mentors_ (2017) was an even sharper turn: he sent eleven questions to over 130 of the world's most successful people, then mostly got out of the way and printed their answers. He wrote that book, he later admitted, after a year of personal loss and a mild 40-year-old existential crisis. He wasn't sure he had any more answers to give. After _Tribe_, the silence stretched another seven years.
@@ -277,6 +301,42 @@ Despite being one of the most visible self-help figures of his generation, Ferri
 The story he _does_ tell, and tells often, is the dating-by-VA experiment. He once outsourced his OkCupid presence to virtual assistants — they built the profile, answered the messages, and scheduled the dates. The winning profile photo, picked by the platform's "My Best Face" tool, was a shirtless Tim holding a kitten. He reported about fifty dates and one long relationship that came out of it.
 
 The detail is funny. It is also Ferriss in a nutshell. The variables are identified, the inputs optimized, the outputs measured. The vulnerability of opening up to another person, the messiness of it, gets routed through a system first. You can know everything about his morning routine and nothing about his heart. The morning routine has rules. The heart doesn't.
+
+### The Armor That Kept Everyone Out
+
+What he has begun to say, only in the last two years and only in the longest interviews, is what that routing-through-a-system actually cost him.
+
+On the Shawn Ryan Show in January 2026 — four hours into the conversation, well past the point where most guests have already given their best line — he reached for an unusual word for what he had been to his partners over the years:
+
+> "Compartmentalizing, while it can help you with performance, for relationships, for friends, for family, it doesn't work very well. You end up being emotionally cauterized."
+
+Cauterized. The medical word for a wound deliberately sealed by burning. The cost, he said in the same conversation, was that the strategy works _"up to a point. And then you hit a wall and suddenly it doesn't work."_ He put the count of those long-term partners at three, each running three to six years. Of the three, he had told the story of the childhood abuse to only two.
+
+The pattern is consistent: the armor holds while the relationship is functional, and breaks at the moment intimacy would demand he show what's behind it.
+
+The most telling artifact of the work he has done on this is the weekly check-in meetings he ran with one of those long-term partners. They borrowed the format from a couples-counseling playbook — protected time once a week to surface what wasn't working. By his own description on the Random Show with Kevin Rose, the meetings degraded into _"a litany of charges against each other."_ Two adults sitting across the kitchen table reading out an indictment. They came to dread the appointment.
+
+It was his girlfriend, not Tim, who rewrote the format. New order: appreciation first (what your partner is doing well), then self-reflection (what you yourself are doing well), and only then any version of "what we would like more of." The criticism phrasing got reformatted into the language of non-violent communication: _"The story I'm creating in my head is that you did X because…"_ The Type 1 had brought the prosecutor to the relationship. His partner had to teach him a different procedure.
+
+He did not stay in that relationship, either.
+
+What changed, on his own account, was the arrival of his current partner. On Episode #409 with Brené Brown, he reached for a peculiar compliment for her:
+
+> "She's a very well-developed empath and a very clean fighter, which is really important… She's been the clearest mirror maybe I've ever had… I have my scripts and my sensitivities, many of which are out of date."
+
+_Clean fighter_ is a strange virtue to single out in a partner unless you have been the dirty one. _Clearest mirror_ is a strange compliment unless you have been hard to reflect. And "scripts and sensitivities, many of which are out of date" is the closest thing to a self-arrest the inner critic has ever issued — the admission that the standards the One has been enforcing for thirty years may no longer be the right ones. They batch his criticism intake by mutual agreement. The man with a system for everything has built a system, with his current girlfriend's help, for being given feedback by her.
+
+In May 2025, sitting across from the couples therapist Terry Real, Ferriss named where the cost of the caretaker template he had been running since childhood actually compounds:
+
+> "Could be a lot better at proactively going after [what I want] and requesting it. Tend to be very indirect. The cost of that indirectness is you don't get your needs met and then resentment grows."
+
+This is the One's emotional logic in his own voice. The inner critic prosecutes the partner because the One has not asked for what he needs, and has begun to read the silence as evidence the partner doesn't care. The resentment grows in private. The prosecution surfaces later, in front of the kitchen-table notebook.
+
+He traced the template to where it began:
+
+> "I grew up in a household with repair… One person screams, then the other person goes to fix, which they don't really want to do, but it's their attempt to basically quell the disaster and fury, and that's it."
+
+Scream, fix, move on. The boy who learned to be the fixer never learned the slower, harder skill of staying inside the discomfort long enough to actually feel it. So he optimized around it instead. He built the morning routine, the same meals every day, the eight-foot shelf of notebooks, the system for everything. And kept missing the one part of his life he could not engineer his way past.
 
 ---
 
@@ -329,6 +389,12 @@ He published the disclosure on September 15, 2020 as Episode #464 of his podcast
 He added: _"Please note that I expect to be completely overwhelmed emotionally and otherwise when this is published."_
 
 No system. No framework. No spreadsheet. Just a man telling the truth about what happened to him as a child, knowing it would change how millions of people saw him. The inner critic, the one that insists on doing things the right way, had finally encountered something that couldn't be fixed with discipline. It could only be faced.
+
+Six years later, sitting with Shawn Ryan in early 2026, the standard self-help redemption arc — the one his own career had helped popularize — got the verdict it deserved:
+
+> "Am I glad it happened? No. When people say, well, it made me who I am — fuck that. If I could remove that, I would remove it. For sure. The amount of damage that's done is unbelievable."
+
+The reformer refused to reform the reality of what was done to him. No conversion of suffering into growth. No silver lining identified. No protocol built to make the wound make sense. The wound was allowed to stay a wound.
 
 ## Why Tim Ferriss Is Spending Millions to Fix Mental Health
 
@@ -473,6 +539,10 @@ Tim Ferriss Show podcast episodes:
 - #741 — Jim Collins and Ed Zschau (return appearance for Zschau)
 - #788 (January 16, 2025) — Naval Ravikant and Aaron Stupple: "How to Raise a Sovereign Child"
   https://tim.blog/2025/01/18/naval-ravikant-sovereign-child/
+- #810 (May 10, 2025) — Terry Real: therapy, indirectness→resentment dynamic, "household with repair" childhood template
+  https://tim.blog/2025/05/10/terry-real-therapy-transcript/
+- Random Show with Kevin Rose (year-end episode, circa 2018–2019) — weekly check-in meetings "litany of charges" disclosure; girlfriend's NVC rewrite
+  https://podcastnotes.org/tim-ferris-show/tim-ferriss-kevin-rose-random-show-resolutions-relationships/
 - #855 (February 24, 2026) — Dan Harris interviewing Tim: "How to Quiet the Ruminative Mind"
   https://tim.blog/2026/02/24/tim-ferriss-how-to-quiet-the-ruminative-mind/
   Transcript: https://tim.blog/2026/02/25/tim-ferriss-how-to-quiet-the-ruminative-mind-transcript/
@@ -505,8 +575,9 @@ TED talk:
   https://www.ted.com/talks/tim_ferriss_why_you_should_define_your_fears_instead_of_your_goals
 
 External interviews and appearances:
-- The Shawn Ryan Show #274 (January 2026) — suicide disclosure, OCD diagnosis
+- The Shawn Ryan Show #274 (January 2026) — suicide disclosure, OCD diagnosis, "emotionally cauterized" admission, three long-term girlfriends count, rage as "not a clean fuel," "fuck that" refusal of trauma-as-growth narrative
   https://podcasts.happyscribe.com/the-shawn-ryan-show/274-tim-ferriss-life-changing-practical-wisdom-backed-by-experience-and-science
+  Alternate transcript: https://singjupost.com/shawn-ryan-show-srs-274-with-tim-ferriss-transcript/
 - 20VC with Harry Stebbings (October 2025) — "$150M loss" disclosure, "Money fixes money problems"
   https://www.thetwentyminutevc.com/tim-ferriss
 - Rich Roll Podcast (2023) — "appreciation for the unoptimized life"

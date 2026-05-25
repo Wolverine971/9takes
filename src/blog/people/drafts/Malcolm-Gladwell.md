@@ -171,7 +171,7 @@ Two articles — "The Tipping Point" and "The Coolhunt" — went viral before vi
 
 **"An astonishingly boring life."**
 
-That's Gladwell's own description. He wakes between 8 and 8:30. Drinks Lapsang Souchong tea — the smokiest, most polarizing variety you can buy; he believes the coffee shop he frequents only stocks it because of him. Eats "the absolute minimum" breakfast. Writes at home, then leaves to write in public places — cafes and restaurants in lower Manhattan and Brooklyn. **"I like people around me,"** he told Tim Ferriss. **"But I don't want to talk to them."** Afternoon research at the NYU library.
+That's Gladwell's own description. He wakes between 8 and 8:30. Drinks Lapsang Souchong tea — the smokiest, most polarizing variety you can buy; he believes the coffee shop he frequents only stocks it because of him. Eats "the absolute minimum" breakfast. Writes at home, then leaves to write in public places — cafes and restaurants in lower Manhattan and Brooklyn. **"I like people around me,"** he told [Tim Ferriss](/personality-analysis/tim-ferriss). **"But I don't want to talk to them."** Afternoon research at the NYU library.
 
 The math is lopsided on purpose: **"For every hour I spend writing, I spend three hours thinking about writing."**
 

@@ -60,7 +60,7 @@ Here is the uncomfortable truth: you have probably been trying to lead like some
 
 ### The Uncomfortable Conversation Problem
 
-Tim Ferriss observed something consistent across world-class leaders: _"A person's success in life can usually be measured by the number of uncomfortable conversations he or she is willing to have."_
+[Tim Ferriss](/personality-analysis/tim-ferriss) observed something consistent across world-class leaders: _"A person's success in life can usually be measured by the number of uncomfortable conversations he or she is willing to have."_
 
 Most leaders avoid these conversations. Different types avoid different ones.
 

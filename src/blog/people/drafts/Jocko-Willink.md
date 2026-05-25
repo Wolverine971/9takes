@@ -327,7 +327,7 @@ Note the language: **"I can camouflage it."** A military term, applied to his ow
 
 ### "I Struggle With Everything"
 
-When Tim Ferriss asked what he struggles with, Jocko's answer was disarming:
+When [Tim Ferriss](/personality-analysis/tim-ferriss) asked what he struggles with, Jocko's answer was disarming:
 
 "First of all, I can assure you that I am far from bulletproof. When you ask what I struggle with, I struggle with everything. I'm not naturally gifted at pretty much anything. I'm not naturally strong. I'm not naturally fast. I'm certainly not the sharpest tool in the shed."
 

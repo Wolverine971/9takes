@@ -164,7 +164,7 @@ The [3w2 wing](/enneagram-corner/enneagram-wings-complete-guide) is the warm one
 
 Oceanside, Long Island, in the nineteen-fifties and sixties. A working-class commuter town on the south shore. Mimi Iger teaches junior high. Arthur Iger is the one who makes the house unpredictable.
 
-Arthur is a Navy veteran of the Second World War. He is also, by his own son's on-record description to Tim Ferriss, a man whose moods swung hard enough that the family could not count on which version of him was home. The anger came "very fast and often." It was "not particularly pretty to look at." Eventually he is diagnosed with manic depression. He cycles through advertising jobs. He never reaches what he believed he was capable of. His son watches, and notices.
+Arthur is a Navy veteran of the Second World War. He is also, by his own son's on-record description to [Tim Ferriss](/personality-analysis/tim-ferriss), a man whose moods swung hard enough that the family could not count on which version of him was home. The anger came "very fast and often." It was "not particularly pretty to look at." Eventually he is diagnosed with manic depression. He cycles through advertising jobs. He never reaches what he believed he was capable of. His son watches, and notices.
 
 A Type 3 is often made by exactly this kind of childhood. Not a neglectful parent but an inconsistent one. A parent whose approval was conditional on which mood was in the house that day. The child adapts. The child learns to read the room before the door closes. The child learns that achievement is the single variable they can control, and pours themselves into controlling it.
 

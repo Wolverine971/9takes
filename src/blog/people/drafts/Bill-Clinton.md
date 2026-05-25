@@ -161,7 +161,7 @@ The emotional radar Clinton developed in that Hot Springs household didn't shut 
 
 People who met Bill Clinton described it the same way, over and over, using almost identical language: "He made me feel like I was the only person in the room." He looked at you like you were the most important person he'd talked to that day. And here's the part that baffled people: even knowing this was his gift, even knowing he did it with everyone, you still felt it.
 
-Tim Ferriss called it a "reality distortion field," an aura of charisma and attention so powerful that people found it almost impossible to resist. One man who openly despised Clinton's politics met him face-to-face and watched his own animosity dissolve in seconds. The eye contact was too direct. The attention too complete. The feeling of being seen too overwhelming.
+[Tim Ferriss](/personality-analysis/tim-ferriss) called it a "reality distortion field," an aura of charisma and attention so powerful that people found it almost impossible to resist. One man who openly despised Clinton's politics met him face-to-face and watched his own animosity dissolve in seconds. The eye contact was too direct. The attention too complete. The feeling of being seen too overwhelming.
 
 Clinton could reportedly remember your full name years after a single meeting. He spent more time on rope lines than any politician in memory, forty-five minutes, sometimes an hour after events, working his way through every hand, every photograph, every brief conversation. He mailed dozens of handwritten notes from the White House each month: thank-you cards, birthday wishes, "I was thinking of you" letters.
 

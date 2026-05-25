@@ -50,39 +50,28 @@ enneagram-types-and-career-choices
 fallen-founders-enneagram-analysis
 google-leadership-evolution
 
-Act like a normal person who is reading this article and tell me what i missed or left out or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Frank-Lloyd-Wright blog, read it and put your comments as a comment at the bottom of the article
+Act like a normal person who is reading this article and tell me what i missed or left out or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the Jane-Goodall blog, read it and put your comments as a comment at the bottom of the article
 
 Try to assess it with fresh eyes. Think about what this person is know for and what someone who knows about them would want to have insight into and what should be addressed.
 
-Ok so i added some comments at the bottom of the article Frank-Lloyd-Wright, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+Ok so i added some comments at the bottom of the article Jane-Goodall, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
 
 I want you to edit this blog on Noam-Chomsky and use the content-editor agent doc to guide you.
 
 Act like a normal person who is reading these articles and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the blogs, read it and put your comments as a comment at the bottom of each article, also tell me how they fit together
 
-Biggest issues:
+-----------
 
-- Repetition — "throwing away her personality," the "force field," and the "kiss the ring" quote each appear 3 times.
-  The TL;DR also spoils every major point, so readers who open it have no reason to keep scrolling.
-- Missing the music — For a musician profile, there's almost nothing about what her songs sound like, why they connect,
-  or her creative process with Dan Nigro.
-- Enneagram fatigue — By midway through, "this is classic Type 8 behavior" starts to feel like a refrain. The best
-  sections (upbringing, relationship pattern, Grammy speech) work because they're stories first and analysis second.
+<!-- Reaching out text -->
 
-What to expand:
+ok i am working through a few personaliy analysis blogs and updateing them. What i am trying to do is
+  do into greater detail on people's lore and background so that the blog is and the analysis is deep and
+  rich.
 
-- The queer identity arc (coming out, family's reaction now)
-- Drag influences (which queens, how it shows up beyond costumes)
-- "The Subway" section (currently just chart numbers, no analysis)
-- Bipolar II and how it intersects with Type 8 tendencies
+  I'm going to be reaching out to these people, so I want to see how they're going to assess the blog and
+  what they would notice. I want to be fair, I want to be honest, I just want to portray them in the
+  right light and respect their lore. And I want to fairly, honestly, and insightfully do my Enneagram
+  analysis on them.
 
-What to trim:
-
-- The "Smaller Controversies" subsection (Brigitte Bardot, kids comment = filler)
-- Duplicate mentions across TL;DR, evidence list, and later sections
-
-Structural suggestion: Flip the upbringing section before the personality type evidence list. Story first, analysis
-second.
-
-What's already great: The opening hook, the upbringing section, the relationship reveal, the Grammy speech, the closing,
-and the "promise trap" concept.
+  Right now I am looking at Tim Ferriss's blog. Please assess the blog and see what needs to be updated
+  and fixed. I want to make it better and more rich.

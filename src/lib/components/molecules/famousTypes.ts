@@ -158,6 +158,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'josh-richards', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'marie-kondo', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['lifestyleInfluencer'] },
 		{ name: 'michael-le', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
+		{ name: 'paige-spiranac', link: false, hasImage: false, lastmod: '2026-05-23', personaTitle: 'Golf\'s Watched Outsider', contentGrade: 8.9, types: ['celebrity', 'creator', 'influencer', 'lifestyle-builder'] },
 		{ name: 'patrick-starr', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
 		{ name: 'pelosi-schumer-dynamic', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'pete-buttigieg', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
