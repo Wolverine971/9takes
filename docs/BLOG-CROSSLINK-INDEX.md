@@ -1,8 +1,8 @@
 <!-- docs/BLOG-CROSSLINK-INDEX.md -->
 # Blog Cross-Link Index
 
-_Generated: 2026-05-18_
-_Total Posts Analyzed: 188 (Published: 168, Unpublished: 20)_
+_Generated: 2026-05-25_
+_Total Posts Analyzed: 190 (Published: 168, Unpublished: 22)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,23 +11,24 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 188 |
+| Total posts | 190 |
 | Published posts | 168 |
-| Unpublished posts | 20 |
-| Posts with 0 outgoing links | 29 |
-| Posts with 0 incoming links | 47 |
-| Completely isolated (0 in, 0 out) | 27 |
-| Total internal cross-links | 958 |
-| Average outgoing links per post | 5.1 |
+| Unpublished posts | 22 |
+| Posts with 0 outgoing links | 30 |
+| Posts with 0 incoming links | 49 |
+| Completely isolated (0 in, 0 out) | 28 |
+| Total internal cross-links | 959 |
+| Average outgoing links per post | 5.0 |
 
 ---
 
-## Priority 1: Completely Isolated Posts (27 posts)
+## Priority 1: Completely Isolated Posts (28 posts)
 
 These posts have NO links in or out. Fix these first!
 
 | Post Title | Path | Action |
 |------------|------|--------|
+| Alex and Leila Hormozi: What a Marriage Between Two Type 3s ... | `pop-culture/hormozi-marriage-two-type-3s-enneagram.md` | Add 3+ outgoing links |
 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` | Add 3+ outgoing links |
 | AOC and the Squad: The Enneagram Types of Millennial Politic... | `pop-culture/aoc-and-the-squad-enneagram-types.md` | Add 3+ outgoing links |
 | Jeffrey Epstein | `pop-culture/epstein-web-of-manipulation.md` | Add 3+ outgoing links |
@@ -58,7 +59,7 @@ These posts have NO links in or out. Fix these first!
 
 ---
 
-## Priority 2: Posts with NO Outgoing Links (29 posts)
+## Priority 2: Posts with NO Outgoing Links (30 posts)
 
 These posts don't link to any other content.
 
@@ -81,6 +82,7 @@ These posts don't link to any other content.
 | Untitled | `pop-culture/epstien-research/epstien-pltr.md` | 0 |
 | Untitled | `pop-culture/epstien-research/epstien-politicians.md` | 0 |
 | Untitled | `pop-culture/epstien-research/epstien-uk.md` | 0 |
+| Alex and Leila Hormozi: What a Marriage Between Two Type 3s ... | `pop-culture/hormozi-marriage-two-type-3s-enneagram.md` | 0 |
 | Untitled | `pop-culture/incel-exit-post.md` | 0 |
 | Marvel | `pop-culture/marvel-universe-enneagram-analysis.md` | 0 |
 | Online Gurus: The Personality Types Selling You a Better Lif... | `pop-culture/online-gurus-enneagram-analysis.md` | 0 |
@@ -96,7 +98,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (47 posts)
+## Priority 3: Posts with NO Incoming Links (49 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -119,6 +121,7 @@ These posts are "orphaned" - no other content links to them.
 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
 | The Anatomy of Public Shame: What We | `pop-culture/psychology-of-public-shame.md` | 2 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
+| My First Million | `pop-culture/my-first-million-shaan-sam-enneagram-dynamic.md` | 1 |
 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` | 1 |
 | The PayPal Mafia: How One Company Produced More Tech Billion... | `pop-culture/tech-titans-paypal-mafia.md` | 1 |
 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` | 1 |
@@ -315,6 +318,7 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 1 | 4 | How Each Enneagram Type Unwinds: Your Stress-Relief Formula | `enneagram/how-each-enneagram-type-unwinds.md` |
 | 5 | 4 | 1 | The Pattern-Breaking Guide to Fighting Depression | `guides/guide-to-fighting-depression.md` |
 | 5 | 1 | 4 | How to Read People: The 4-Step Guide to Understanding Anyone | `guides/how-to-psychoanalyze-people.md` |
+| 5 | 2 | 3 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 5 | 1 | 4 | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried... | `pop-culture/fallen-founders-enneagram-analysis.md` |
 | 5 | 2 | 3 | Google | `pop-culture/google-leadership-evolution.md` |
 | 5 | 2 | 3 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
@@ -328,7 +332,6 @@ Sorted by total connections (incoming + outgoing).
 | 4 | 1 | 3 | Personality Maxing: Looksmaxxing for What People Experience | `enneagram/personality-maxing.md` |
 | 4 | 2 | 2 | 5 Conversations That Separate Thriving Couples From Everyone... | `guides/5-tough-conversations-you-need-to-have-with-your-partner.md` |
 | 4 | 1 | 3 | Why You Don | `guides/definitive-guide-to-self-efficacy.md` |
-| 4 | 1 | 3 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 4 | 2 | 2 | How Epstein Trapped the Powerful and the Vulnerable (Part 2) | `pop-culture/epstein-psychology-part-2.md` |
 | 4 | 2 | 2 | The Podcaster Personality Map: Why Every Host Gravitates to ... | `pop-culture/podcaster-personality-map.md` |
 | 3 | 1 | 2 | The Bible Doesn | `community/questions-are-the-engine-of-moral-awakening.md` |
@@ -353,6 +356,7 @@ Sorted by total connections (incoming + outgoing).
 | 1 | 1 | 0 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 1 | 1 | 0 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
+| 1 | 0 | 1 | My First Million | `pop-culture/my-first-million-shaan-sam-enneagram-dynamic.md` |
 | 1 | 0 | 1 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` |
 | 1 | 0 | 1 | The PayPal Mafia: How One Company Produced More Tech Billion... | `pop-culture/tech-titans-paypal-mafia.md` |
 | 1 | 0 | 1 | Why World Leaders Can | `pop-culture/world-leaders-enneagram-personality-dynamics.md` |
@@ -371,6 +375,7 @@ Sorted by total connections (incoming + outgoing).
 | 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-pltr.md` |
 | 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-politicians.md` |
 | 0 | 0 | 0 | Untitled | `pop-culture/epstien-research/epstien-uk.md` |
+| 0 | 0 | 0 | Alex and Leila Hormozi: What a Marriage Between Two Type 3s ... | `pop-culture/hormozi-marriage-two-type-3s-enneagram.md` |
 | 0 | 0 | 0 | Untitled | `pop-culture/incel-exit-post.md` |
 | 0 | 0 | 0 | Marvel | `pop-culture/marvel-universe-enneagram-analysis.md` |
 | 0 | 0 | 0 | Online Gurus: The Personality Types Selling You a Better Lif... | `pop-culture/online-gurus-enneagram-analysis.md` |

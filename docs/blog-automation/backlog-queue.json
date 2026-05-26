@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-05-23T06:17:14Z",
+	"lastUpdated": "2026-05-25T06:00:44Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
@@ -31,19 +31,6 @@
 			"addedToQueue": "2026-05-06",
 			"retryCount": 0,
 			"strategicValue": "viral-beauty-list-model-cluster"
-		},
-		{
-			"name": "judge-judy",
-			"displayName": "Judge Judy",
-			"type": 1,
-			"priority": 74,
-			"priorityReason": "TV legend, Type 1, strong public recognition, fills Type 1 gap",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "tv-legend-cluster"
 		},
 		{
 			"name": "daniel-radcliffe",
@@ -843,7 +830,20 @@
 			"needsReview": false
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "judge-judy",
+		"displayName": "Judge Judy",
+		"type": 1,
+		"priority": 74,
+		"priorityReason": "TV legend, Type 1, strong public recognition, fills Type 1 gap",
+		"estimatedTraffic": "medium",
+		"searchVolume": "medium",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-03",
+		"retryCount": 0,
+		"strategicValue": "tv-legend-cluster",
+		"startedAt": "2026-05-25T06:00:44Z"
+	},
 	"skipped": [
 		{
 			"name": "anna-wintour",

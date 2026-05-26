@@ -1,0 +1,16 @@
+```text
+Published people blog.
+
+Person: riz-ahmed
+Draft: src/blog/people/drafts/Riz-Ahmed.md
+Date/lastmod: 2026-05-25
+Supabase: published=true (row id=1008)
+Images: full + thumbnail present (static/types/4s/Riz-Ahmed.webp + s-Riz-Ahmed.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: riz-ahmed now link: true, lastmod 2026-05-25
+  - sitemap.xml: /personality-analysis/riz-ahmed present
+  - Content grade: 9, word count: 4,102
+
+Blockers:
+- none
+```

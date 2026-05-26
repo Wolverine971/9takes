@@ -4,12 +4,12 @@ meta_title: "Why Riz Ahmed Can't Stop Making Films About People Who Don't Belong
 persona_title: "Cinema's Translated Outsider"
 description: "Riz Ahmed insists he's British, full stop. So why has he spent twenty years making art about people who don't belong? Inside a Type 4w3 contradiction."
 author: 'DJ Wayne'
-date: '2026-04-29'
+date: '2026-05-25'
 loc: 'https://9takes.com/personality-analysis/riz-ahmed'
-lastmod: '2026-04-30'
+lastmod: '2026-05-25'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['movieStar', 'musician', 'screen-icon']
 person: 'riz-ahmed'
