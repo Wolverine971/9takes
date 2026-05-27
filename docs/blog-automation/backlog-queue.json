@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-05-25T06:00:44Z",
+	"lastUpdated": "2026-05-27T06:11:49Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
@@ -31,19 +31,6 @@
 			"addedToQueue": "2026-05-06",
 			"retryCount": 0,
 			"strategicValue": "viral-beauty-list-model-cluster"
-		},
-		{
-			"name": "daniel-radcliffe",
-			"displayName": "Daniel Radcliffe",
-			"type": 6,
-			"priority": 73,
-			"priorityReason": "Harry Potter fame, openly-discussed anxiety, post-Potter loyalty-to-weird-projects pattern reads 6w5 (was Type 9 — corrected during audit)",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-03",
-			"retryCount": 0,
-			"strategicValue": "harry-potter-cluster"
 		},
 		{
 			"name": "julia-roberts",
@@ -828,22 +815,56 @@
 			"status": "draft",
 			"durationMinutes": 15,
 			"needsReview": false
+		},
+		{
+			"name": "judge-judy",
+			"displayName": "Judge Judy",
+			"type": 1,
+			"priority": 74,
+			"priorityReason": "TV legend, Type 1, strong public recognition, fills Type 1 gap",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "tv-legend-cluster",
+			"startedAt": "2026-05-25T06:00:44Z",
+			"completedAt": "2026-05-27T06:02:44Z",
+			"contentGrade": null,
+			"status": "draft",
+			"durationMinutes": null,
+			"needsReview": true,
+			"recoveryNote": "stale inProgress recovered - draft existed but orchestrator never updated state"
+		},
+		{
+			"name": "daniel-radcliffe",
+			"displayName": "Daniel Radcliffe",
+			"type": 6,
+			"priority": 73,
+			"priorityReason": "Harry Potter fame, openly-discussed anxiety, post-Potter loyalty-to-weird-projects pattern reads 6w5 (was Type 9 — corrected during audit)",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "harry-potter-cluster",
+			"startedAt": "2026-05-27T06:02:44Z",
+			"completedAt": "2026-05-27T06:11:49Z",
+			"contentGrade": null,
+			"status": "draft",
+			"durationMinutes": null,
+			"needsReview": true,
+			"gatesPassed": [
+				"Gate 1: pass",
+				"Gate 2: pass",
+				"Gate 4: pass",
+				"Gate 5: pass",
+				"Gate 6: pass"
+			],
+			"note": "non-interactive draft from /daily-blog-creator; awaiting /grade_blog"
 		}
 	],
-	"inProgress": {
-		"name": "judge-judy",
-		"displayName": "Judge Judy",
-		"type": 1,
-		"priority": 74,
-		"priorityReason": "TV legend, Type 1, strong public recognition, fills Type 1 gap",
-		"estimatedTraffic": "medium",
-		"searchVolume": "medium",
-		"personaTitle": null,
-		"addedToQueue": "2026-04-03",
-		"retryCount": 0,
-		"strategicValue": "tv-legend-cluster",
-		"startedAt": "2026-05-25T06:00:44Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "anna-wintour",

@@ -4,12 +4,12 @@ meta_title: "Inside Anna Kendrick's Mind: The Joke That Kept Her Safe"
 persona_title: "Hollywood's Scrappy Reframer"
 description: 'Anna Kendrick spent 25 years turning anxiety into comedy — until a six-year relationship stopped being something she could laugh her way out of. Type 7 read.'
 author: 'DJ Wayne'
-date: '2026-04-16'
+date: '2026-05-26'
 loc: 'https://9takes.com/personality-analysis/anna-kendrick'
-lastmod: '2026-04-16'
+lastmod: '2026-05-26'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['movieStar', 'screen-icon']
 person: 'anna-kendrick'
