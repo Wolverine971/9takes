@@ -526,8 +526,8 @@
 	}
 
 	.btn-primary {
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		color: white;
+		background: var(--lamp-glow);
+		color: var(--cta-text, var(--night-deep));
 		box-shadow: var(--glow-sm);
 	}
 

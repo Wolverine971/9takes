@@ -19,8 +19,27 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				// Teal primary palette
+				// Amber primary palette — sodium-amber illumination (V5 --lamp-*).
+				// 2026-05-29: was teal. Teal was off-brand vs the shipped V5 amber theme,
+				// so `bg-primary-500` (teal) disagreed with `var(--primary)` (amber).
+				// primary-500 = #F59E0B = --lamp-glow; 400 = --lamp-light; 700 = --lamp-deep.
 				primary: {
+					50: '#FFFBEB',
+					100: '#FEF3C7',
+					200: '#FDE68A',
+					300: '#FCD34D',
+					400: '#FBBF24',
+					500: '#F59E0B',
+					600: '#D97706',
+					700: '#B45309',
+					800: '#92400E',
+					900: '#78350F'
+				},
+				// Teal survives ONLY as the data / tech-spec dossier accent (V5 --data-teal).
+				// This is the OLD `primary` ramp, renamed. Use `data-*` for annotations,
+				// stat panels, and `/personality-analysis/*` dossier moments — never as the
+				// brand action color.
+				data: {
 					50: '#F0FDFA',
 					100: '#CCFBF1',
 					200: '#99F6E4',

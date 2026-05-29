@@ -127,7 +127,7 @@ The Enneagram is a lens, not a subject. Keep typology debates off the page.
 
 **Where it applies:** the whole draft. Especially the "What is [Person]'s personality type?" section — it should analyze the person, not argue against neighboring types.
 
-**Exception — the Enneagram Rabbit Hole block:** typology-nerd content (wings, instinctual subtypes, stress/growth arrows, counter-typing cases against neighboring types) is permitted when quarantined inside a collapsed `<details class="enneagram-rabbit-hole">` block clearly labeled _"🐇 Enneagram Rabbit Hole"_ with an opt-in note like _"Skip if you're not deep into the system — the rest of the analysis stands on its own."_ This block is added by a separate flow, not by this command. Do **not** generate a Rabbit Hole from this command. But when Self-Review encounters one in the draft, treat it as approved — it does not count against the Distribution Rule or the "story over system" principle, because it is reader-opt-in and sits outside the main narrative surface.
+**Exception — the Enneagram Rabbit Hole block:** typology-nerd content (wings, instinctual subtypes, stress/growth arrows, counter-typing cases against neighboring types) is **required**, but it must be quarantined inside a single collapsed `<details class="enneagram-rabbit-hole">` block clearly labeled _"🐇 Enneagram Rabbit Hole"_ with an opt-in note like _"Skip if you're not deep into the system — the rest of the analysis stands on its own."_ **This command generates that block in Step 6 — it is the ONLY place wing/subtype/arrow/counter-typing analysis lives.** Anything typology-nerdy you're tempted to put in the body goes here instead. The block does not count against the Distribution Rule or the "story over system" principle, because it is reader-opt-in and sits outside the main narrative surface.
 
 ### 4. Sound like 9takes
 
@@ -890,40 +890,46 @@ Enhance the reading experience with visual furniture — decorative elements tha
 
 **Available HTML furniture:**
 
-| Element                                                     | When to use                                                            |
-| ----------------------------------------------------------- | ---------------------------------------------------------------------- |
-| `<p class="firstLetter">`                                   | Opening paragraph (already present from Step 4)                        |
-| `<details>/<summary class="accordion">/<div class="panel">` | TL;DR (already present from Step 4)                                    |
-| `---` horizontal rules                                      | Between major sections                                                 |
-| `>` blockquotes                                             | Pull quotes, attributed quotes, disclaimers                            |
-| `<div class="iframe-container">` + `<iframe>`               | Embed a relevant YouTube interview clip                                |
-| `<div class="scroll-table">`                                | Wrap wide comparison tables                                            |
-| `<blockquote class="twitter-tweet">`                        | Embed a relevant tweet as evidence                                     |
-| Markdown pipe tables                                        | Structured comparisons                                                 |
-| `<div class="pull-quote">`                                  | Elevate a powerful quote out of the prose                              |
-| `<div class="key-stat">` / `<div class="key-stat-row">`     | Highlight a striking number                                            |
-| `<p class="inner-thought">`                                 | Imagine what the person was thinking in a key moment                   |
-| `<div class="timeline">`                                    | Chronological arc                                                      |
-| `<div class="contrast-panel">`                              | Public vs. private, says vs. does                                      |
-| `<div class="source-card">`                                 | Cite a specific podcast or interview source                            |
-| `<div class="dialogue">`                                    | Recreate a revealing interview exchange                                |
-| `<div class="aside-box">`                                   | Supplementary context                                                  |
-| **Enneagram Rabbit Hole** (`<details>` block)               | Added by a separate flow. Preserve if already in the draft — see below |
+| Element                                                     | When to use                                                                           |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `<p class="firstLetter">`                                   | Opening paragraph (already present from Step 4)                                       |
+| `<details>/<summary class="accordion">/<div class="panel">` | TL;DR (already present from Step 4)                                                   |
+| `---` horizontal rules                                      | Between major sections                                                                |
+| `>` blockquotes                                             | Pull quotes, attributed quotes, disclaimers                                           |
+| `<div class="iframe-container">` + `<iframe>`               | Embed a relevant YouTube interview clip                                               |
+| `<div class="scroll-table">`                                | Wrap wide comparison tables                                                           |
+| `<blockquote class="twitter-tweet">`                        | Embed a relevant tweet as evidence                                                    |
+| Markdown pipe tables                                        | Structured comparisons                                                                |
+| `<div class="pull-quote">`                                  | Elevate a powerful quote out of the prose                                             |
+| `<div class="key-stat">` / `<div class="key-stat-row">`     | Highlight a striking number                                                           |
+| `<p class="inner-thought">`                                 | Imagine what the person was thinking in a key moment                                  |
+| `<div class="timeline">`                                    | Chronological arc                                                                     |
+| `<div class="contrast-panel">`                              | Public vs. private, says vs. does                                                     |
+| `<div class="source-card">`                                 | Cite a specific podcast or interview source                                           |
+| `<div class="dialogue">`                                    | Recreate a revealing interview exchange                                               |
+| `<div class="aside-box">`                                   | Supplementary context                                                                 |
+| **Enneagram Rabbit Hole** (`<details>` block)               | **Required.** Generate one per the spec below — it holds ALL wing/subtype/arrow depth |
 
 **Rules:**
 
 - 2–4 furniture additions per blog. More competes with the writing.
 - Every element must earn its place. If a YouTube embed doesn't add insight the text can't, cut it.
 - No furniture in the intro or the ending. The intro hooks with prose. The ending cuts to black.
-- The **Enneagram Rabbit Hole** is added by a separate flow, not this command. Do not generate one here. If an existing draft already contains one, preserve it — do not strip it during revision. The reference spec below is retained so you can validate an existing block and know what belongs where.
+- The **Enneagram Rabbit Hole is required and generated here** (spec below). If an existing draft already contains one, update it in place rather than adding a second. It is the single home for all wing/subtype/arrow/counter-typing content.
 
-### The Enneagram Rabbit Hole (Reference — Managed by Separate Flow)
+### The Enneagram Rabbit Hole (Generate this — it is the home for all typology depth)
 
-**This command does not generate a Rabbit Hole.** A dedicated flow owns that step. The reference below exists so you can (1) recognize one in an existing draft and preserve it during revision, and (2) validate it passes the structural rules when present.
+**Generate exactly one Rabbit Hole block per blog.** This is where every wing, subtype, stress/growth
+mechanic, and counter-typing case goes — so the main body stays accessible (per the Distribution Rule)
+while power readers and long-tail/AI queries still get served.
 
 The Distribution Rule keeps the body free of typology debate so casual readers stay engaged. But power readers come to 9takes specifically for wing/subtype/arrow depth, AND those long-tail terms (`[Person] 3w4`, `[Person] sx/so subtype`, `[Person] integration to type 7`) are exactly the LLM fan-out queries we want to capture.
 
-The solution the separate flow uses: a **single collapsed `<details>` block** dropped into the body next to the narrative beat it deepens, delivering all the advanced Enneagram material in one sealed unit. Casual readers scroll past it. Power users open it. Search engines and LLMs index everything inside.
+The mechanism: a **single collapsed `<details>` block** dropped into the body next to the narrative beat it deepens, delivering all the advanced Enneagram material in one sealed unit. Casual readers scroll past it. Power users open it. Search engines and LLMs index everything inside. **The grader (rubric v2) checks that this block exists and holds the typology depth — a missing rabbit hole when wing/subtype/arrow analysis is warranted caps Enneagram Integration at 8.**
+
+> **Body discipline:** while writing Step 4, whenever you're tempted to write about a wing, instinctual
+> subtype, stress/growth arrow mechanic, or "why not Type Y" — do NOT put it in the body. Park it and move
+> that material into this block. The body names the type once and stays on the person's life.
 
 **Placement:** anchor the rabbit hole to a mid-body H2 where the type's core pattern is most visible — usually the `Stress and Growth` section. **Do NOT place it directly after the TL;DR accordion.** Two `<details>` panels stacked back-to-back look broken and bury the opening narrative. Keep at least one full prose H2 between the TL;DR and the rabbit hole.
 
@@ -1164,13 +1170,13 @@ Before finalizing any blog (new or updated). Every item must pass. Items marked 
 - [ ] **Testimony (hard gate — Gate 1)** — Testimony Ledger HTML comment is present with ≥2 enumerated qualifying quotes. Each row has a named speaker other than the subject, a direct quote with quotation marks, an attribution (source + year), and the speaker is commenting on the subject. Paraphrased or narrated actions do not qualify.
 - [ ] **Stat check (strongly encouraged, not required)** — ideally 1–2 specific, sourced, falsifiable numbers are placed where they earn their weight (hook, type diagnosis, counterarguments, or a single accomplishment stat). Examples: "[Person] has written 44 films" (IMDb), "of 23 Type 8 musicians profiled on 9takes, only 3 publicly…" (9takes corpus). See "Statistical Claims & Cited Sources" in Part 1. A blog with zero stats can still ship if the rest is strong — but if you have verifiable numbers and left them out, add them. Do not invent numbers to satisfy this check.
 
-### Enneagram Rabbit Hole (if present — added by separate flow)
+### Enneagram Rabbit Hole (required — generated in Step 6)
 
-This command does not generate a Rabbit Hole. The separate flow that owns it is the source of truth. These checks validate what you encounter in an existing draft.
+Every blog must contain exactly one `<details class="enneagram-rabbit-hole">` block. These checks confirm it.
 
-- [ ] **Preservation** — if the draft already contains a `<details class="enneagram-rabbit-hole">` block, it was not stripped during revision.
-- [ ] **If present, structure is intact** — placed after the main type analysis section; frame paragraph with "For the Enneagram nerds…" line; four sub-sections (Wing, Subtype, Stress/Growth Arrows, Counterarguments); 400–700 words inside.
-- [ ] **Body stays free of wing/subtype/arrow jargon** — if the body argues wings or subtypes, flag it so the Rabbit Hole flow (or a manual edit) can move the material into the block. Do not generate a Rabbit Hole from this command.
+- [ ] **Present** — the draft contains exactly one `<details class="enneagram-rabbit-hole">` block (and updates, not duplicates, any pre-existing one).
+- [ ] **Structure is intact** — placed after the main type analysis section (≥1 prose H2 after the TL;DR); frame paragraph with the "For the Enneagram nerds…" line; four sub-sections (Wing, Subtype, Stress/Growth Arrows, Counterarguments); 400–700 words inside.
+- [ ] **Body stays free of wing/subtype/arrow jargon** — all wing/subtype/arrow/counter-typing content lives inside the block, not the body. If you find any in the body, move it into the block.
 
 ### Headings & titles
 

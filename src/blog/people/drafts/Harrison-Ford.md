@@ -4,12 +4,12 @@ meta_title: "Why Harrison Ford Spent 60 Years Trying Not to Be Seen"
 persona_title: "Hollywood's Reluctant Carpenter"
 description: "The most recognizable face in American cinema calls himself a carpenter. Inside the Type 9 pattern Harrison Ford has been building around for sixty years."
 author: 'DJ Wayne'
-date: '2026-04-24'
+date: '2026-05-29'
 loc: 'https://9takes.com/personality-analysis/harrison-ford'
-lastmod: '2026-04-24'
+lastmod: '2026-05-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['movieStar', 'screen-icon']
 person: 'harrison-ford'

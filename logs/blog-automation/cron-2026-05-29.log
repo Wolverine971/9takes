@@ -1,0 +1,8 @@
+[2026-05-29 02:34:10] [INFO] Starting daily blog creator (--non-interactive)
+[2026-05-29 02:34:10] [INFO] override.json - pause: false, forceNext: null
+[2026-05-29 02:34:10] [INFO] inProgress - null (good)
+[2026-05-29 02:34:10] [INFO] Rate limit: 3/5 this week (week of 2026-05-23)
+[2026-05-29 02:34:10] [INFO] SKIPPED: gracie-abrams - draft already exists at src/blog/people/drafts/gracie-abrams.md
+[2026-05-29 02:34:10] [INFO] SELECTED: julia-roberts (Type 7, Priority: 72)
+[2026-05-29 02:34:10] [INFO] Executing blog_content_creator_people_v2 for julia-roberts...
+API Error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()

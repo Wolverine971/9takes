@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1345,7 +1345,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1807,6 +1807,13 @@
     <lastmod>2026-03-15</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Halsey.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/harrison-ford</loc>
+    <lastmod>2026-05-29</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Harrison-Ford.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3362,7 +3369,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-29</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vincent-van-gogh</loc>

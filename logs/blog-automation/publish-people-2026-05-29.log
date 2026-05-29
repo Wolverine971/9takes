@@ -1,0 +1,22 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: harrison-ford
+Draft: src/blog/people/drafts/Harrison-Ford.md
+Date/lastmod: 2026-05-29
+Supabase: published=true (row id=995)
+Images: full + thumbnail present (static/types/9s/Harrison-Ford.webp + s-Harrison-Ford.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verification confirmed:
+- **Draft** — `published: true`, `date` and `lastmod` both set to `2026-05-29`
+- **famousTypes.ts** — `link: true`, `hasImage: true`, `lastmod: '2026-05-29'`
+- **sitemap.xml** — includes `https://9takes.com/personality-analysis/harrison-ford` with image entry
+
+Harrison Ford (Type 9, grade 8.9, 3,236 words) is now live.

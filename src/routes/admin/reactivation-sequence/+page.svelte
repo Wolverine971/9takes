@@ -880,5 +880,18 @@
 		.test-form {
 			grid-template-columns: 1fr;
 		}
+
+		/* Let the wide tables reflow within the phone viewport instead of
+		   forcing a 900px-wide horizontal scroll on every row. */
+		.table-wrapper table {
+			min-width: 0;
+		}
+
+		.email-cell,
+		.subject-cell {
+			max-width: none;
+			white-space: normal;
+			overflow-wrap: anywhere;
+		}
 	}
 </style>

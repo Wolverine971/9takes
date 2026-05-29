@@ -616,6 +616,9 @@
 	.controls-card,
 	.table-card {
 		padding: 1.35rem;
+		/* Without min-width:0 the grid item stretches to fit the wide table,
+		   defeating the inner overflow-x:auto wrapper and overflowing the page. */
+		min-width: 0;
 	}
 
 	.controls-head,

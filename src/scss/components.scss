@@ -15,9 +15,9 @@
 	justify-content: center;
 	padding: 0.75rem 1.25rem;
 	border: none;
-	border-radius: var(--border-radius);
+	border-radius: 0.625rem; /* 10px — matches Button atom (rounded-md) */
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 600; /* matches Button atom */
 	cursor: pointer;
 	transition: var(--transition-glow);
 	text-decoration: none;
@@ -39,15 +39,14 @@
 
 .btn-primary {
 	@extend .btn-base !optional;
-	background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-	color: var(--text-on-primary);
+	/* Solid amber, dark text — matches Button atom. No fake gradient, no resting glow. */
+	background: var(--lamp-glow);
+	color: var(--cta-text, var(--night-deep));
 	border: 1px solid var(--lamp-glow);
-	box-shadow: var(--glow-sm);
 
 	&:hover:not(:disabled) {
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		transform: translateY(-2px);
-		box-shadow: var(--glow-md);
+		background: var(--lamp-deep);
+		border-color: var(--lamp-deep);
 	}
 }
 
@@ -67,17 +66,16 @@
 .btn-hub-primary {
 	@extend .btn-base !optional;
 	padding: 0.75rem 1.5rem;
-	border-radius: 0.5rem;
-	background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--accent-dark) 100%);
-	box-shadow: 0 0 20px color-mix(in srgb, var(--lamp-glow) 25%, transparent);
+	border-radius: 0.625rem;
+	/* Solid amber, dark text — was light --ink-bright on amber (failed contrast). */
+	background: var(--lamp-glow);
 	font-size: 0.875rem;
 	font-weight: 600;
-	color: var(--ink-bright);
+	color: var(--cta-text, var(--night-deep));
 
 	&:hover:not(:disabled) {
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
+		background: var(--lamp-deep);
 		transform: translateY(-2px);
-		box-shadow: 0 0 30px color-mix(in srgb, var(--lamp-glow) 35%, transparent);
 	}
 }
 
@@ -110,7 +108,8 @@
 	padding: 0.9rem 1.75rem;
 	font-size: 1rem;
 	font-weight: 700;
-	color: var(--text-on-dark);
+	/* dark text on amber — was light --text-on-dark on amber (failed contrast). */
+	color: var(--cta-text, var(--night-deep));
 
 	&:hover:not(:disabled) {
 		transform: translateY(-1px);
@@ -1098,7 +1097,10 @@
 /*==============================================
   ACCESSIBILITY
 ==============================================*/
-@include reduced-motion {
+/* Honor users who ask for reduced motion: kill the hover lifts.
+   NOTE: the `reduced-motion` SCSS mixin wraps `prefers-reduced-motion: no-preference`
+   (opt-IN motion), so it is the WRONG guard here — we want `reduce`. */
+@media (prefers-reduced-motion: reduce) {
 	.card-hover-effect:hover {
 		transform: none;
 	}

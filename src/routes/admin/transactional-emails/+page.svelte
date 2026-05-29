@@ -263,7 +263,7 @@
 					></div>
 				</div>
 
-				<div class="flex space-x-4 pt-4">
+				<div class="flex flex-wrap gap-4 pt-4">
 					<button
 						on:click={refreshEmailContent}
 						class="rounded-md bg-neutral-600 px-4 py-2 font-medium text-white hover:bg-neutral-700 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2"

@@ -696,8 +696,11 @@
 
 				<div class="sg-callout sg-callout--banned">
 					<span class="mono sg-callout-tag">❌ BANNED · LINT-ENFORCED</span>
+					<!-- These are documentation examples of banned classes, not real usage. -->
 					<p>
+						<!-- lint-radius-disable-line -->
 						<code>rounded-lg</code> · <code>rounded-2xl</code> · <code>rounded-3xl</code> ·
+						<!-- lint-radius-disable-line -->
 						<code>rounded-[Npx]</code>. See <code>scripts/lint-radius.js</code>.
 					</p>
 				</div>

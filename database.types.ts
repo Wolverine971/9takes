@@ -4333,6 +4333,26 @@ export type Database = {
           signup_rate_pct: number
         }[]
       }
+      get_content_release_demand_metrics: {
+        Args: never
+        Returns: {
+          direct_unique: number
+          engaged_external_unique: number
+          engaged_external_visits: number
+          engaged_ms_sum: number
+          external_unique: number
+          external_views: number
+          internal_views: number
+          published_at: string
+          scroll_sum: number
+          search_unique: number
+          slug: string
+          source_counts: Json
+          unique_visitors: number
+          views: number
+          window_days: number
+        }[]
+      }
       get_content_release_event_impact: {
         Args: { p_days_after?: number; p_days_before?: number; p_slug: string }
         Returns: {

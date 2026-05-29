@@ -993,7 +993,7 @@
 			color-mix(in srgb, var(--lamp-glow) 78%, white 22%),
 			color-mix(in srgb, var(--lamp-glow) 88%, black 12%)
 		);
-		color: var(--text-on-primary, #ffffff);
+		color: var(--cta-text, var(--night-deep));
 		box-shadow: 0 14px 28px color-mix(in srgb, var(--lamp-glow) 26%, transparent);
 	}
 

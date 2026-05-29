@@ -116,6 +116,13 @@
 		overflow: hidden;
 	}
 
+	/* Deeply nested categories indent past the viewport on phones; let the
+	   tree scroll horizontally inside the card instead of overflowing the page. */
+	.tree-wrapper {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
 	.tree-wrapper {
 		padding: 1.25rem;
 	}

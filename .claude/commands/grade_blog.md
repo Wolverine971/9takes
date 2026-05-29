@@ -42,57 +42,71 @@ Use TaskCreate/TaskUpdate to track grading progress when processing batches.
 
 ## Step 2: Read the Full Rubric
 
-Before grading, internalize the rubric from `docs/content-analysis/blog-grading-rubric.md`. The 5 dimensions are:
+Before grading, internalize the **v2 rubric** in `docs/content-analysis/blog-grading-rubric.md`. v2
+reoriented grading after a full-corpus analysis found the old grade barely predicted traffic while
+organic-search capture did. There are now **6 dimensions with weights**, a weighted overall, and a
+discoverability gate. Score each 1–10.
 
-### 1. Hook (1-10)
+### 1. Evidence / Sourcing — weight 1.5× (highest)
 
-How effectively the opening grabs the reader and establishes the piece's central question.
+Specificity of quotes, anecdotes, testimony, sourced material. 9-10: 90%+ subject's own words or
+testimony from people around them, dated/sourced, multiple sources, metrics sourced. 5-6: some quotes,
+heavy paraphrase, vague sources. 1-2: no quotes, pure speculation. (Highest weight: citable evidence is
+what separates us from AI filler and is what AI answer engines quote.)
 
-- **9-10 (Exceptional)**: Opens with a specific, surprising moment that reveals character AND creates a question the reader needs answered. Thesis clear within 3-5 paragraphs. A Google-landing reader stays.
-- **7-8 (Good)**: Strong opening with concrete scene or quote. Central tension stated but may take extra paragraphs. Engaged but not riveted.
-- **5-6 (Average)**: Opens with general observation about fame/career. No specific moment. Central question vague or absent.
-- **3-4 (Below Average)**: Generic "X is known for..." opening. No tension, no question, no scene.
-- **1-2 (Poor)**: No hook. Wikipedia summary from sentence one.
+### 2. Originality — weight 1.5×
 
-### 2. Enneagram Integration (1-10)
+Does it say something new? 9-10: a genuinely novel insight, a "signature detail" that makes it click,
+public/private gap, faces critic pressure, current-tense/legacy anchor, passes the swap test (replace the
+name and it breaks). 5-6: competent compilation, no surprises, fails swap test. 1-2: pure regurgitation.
 
-How deeply and naturally the Enneagram framework drives the analysis rather than being bolted on or turning into insider typology debate.
+### 3. Search & Discoverability — weight 1.5× (NEW) — also a GATE
 
-- **9-10 (Exceptional)**: The Enneagram explains something NON-OBVIOUS. A driving contradiction is resolved through the type. The analysis stays accessible to readers who don't know Enneagram jargon and keeps the focus on the person's life, not on type-vs-type argument. Advanced lenses only appear when they genuinely deepen the insight.
-- **7-8 (Good)**: Type clearly identified with behavioral evidence. Goes beyond surface labeling and stays focused on the person rather than typology mechanics, but no "aha moment."
-- **5-6 (Average)**: Type stated, some behaviors mapped. Feels descriptive rather than explanatory. Could swap the type label and observations still read similarly.
-- **3-4 (Below Average)**: Enneagram feels like afterthought or insider baseball. Behaviors listed then labeled, or the analysis gets bogged down in jargon and type comparisons instead of clarifying the person.
-- **1-2 (Poor)**: Type stated once, never substantiated.
+Is the blog built to be found and to answer the query? Check the **frontmatter + structure**, not just
+prose:
 
-### 3. Evidence / Sourcing (1-10)
+- Search-intent titling: `title`/`meta_title`/`persona_title` match how people search the person
+  (`[Person] enneagram`, `[Person] personality type`, `what type is [Person]`); name early/exact;
+  `meta_title` 35–65 chars; `description` 120–170 chars and CTR-worthy.
+- A direct, early, **extractable** type answer (a reader or AI can lift it in one block) — type not buried.
+- AEO structure: real `faqs` schema on genuine search questions; specific citable claims; `same_as`/entity
+  metadata; search-intent headings.
+- 9-10: nails all of the above; an AI engine could cite it cleanly. 5-6: clever-but-unsearchable title,
+  buried answer, thin/missing FAQ. 1-2: undiscoverable, no extractable answer.
+- **GATE: a blog cannot be graded B+ (8.5) or higher if Discoverability < 7.**
 
-Quality and specificity of quotes, anecdotes, testimony, and sourced material.
+### 4. Enneagram Integration — weight 1.0× — accessibility, NOT typology debate
 
-- **9-10 (Exceptional)**: 90%+ is subject's own words or testimony from people around them. Direct quotes are specific, dated, sourced. Multiple sources. Revenue/metrics sourced. Person's voice is HEARD, not summarized.
-- **7-8 (Good)**: Solid mix of quotes and paraphrase. 3-5 specific attributed quotes. Some co-star/collaborator testimony.
-- **5-6 (Average)**: Some quotes, heavy paraphrase. Sources vague ("in an interview"). Key metrics unsourced.
-- **3-4 (Below Average)**: Mostly paraphrase with 1-2 generic quotes. No sourced metrics.
-- **1-2 (Poor)**: No direct quotes. No sourced claims. Pure speculation.
+How well the type drives a person-first analysis a general reader can follow. **Wings, instinctual
+subtypes, stress/growth MECHANICS, and counter-typing belong in the `<details class="enneagram-rabbit-hole">`
+accordion — NOT the main body.**
 
-### 4. Writing Quality (1-10)
+- Reward: type resolves a non-obvious contradiction; core emotion felt (not just named); fresh
+  person-specific language (archetype name once, then its own vocabulary); a well-formed rabbit hole holds
+  the typology depth.
+- Penalize: wing/subtype/arrow mechanics or 3+ type-vs-type ladders in the body; stock clichés ("classic
+  Challenger"). **Do NOT award credit for insider typology in the body.** If wing/subtype/arrow analysis is
+  warranted but there's no rabbit hole, cap this dimension at 8.
 
-Prose quality, structure, pacing, and adherence to 9takes voice.
+### 5. Writing Quality — weight 1.0× (now absorbs the opening)
 
-- **9-10 (Exceptional)**: Distinctive prose with memorable lines. Sections flow as narrative. Half+ sections work as pure storytelling. Ending cuts to black at peak insight. No summary, no CTA. TL;DR teases not spoils. No repeated quotes/anecdotes. Confident framing (minimal hedging). No visible formula fingerprint.
-- **7-8 (Good)**: Clean, readable. Good structure. Some memorable lines. Minor repetition or hedging. The 9takes template is present but not distracting.
-- **5-6 (Average)**: Competent but unremarkable. Report-like. Sections feel like bullet points as paragraphs. Conventional ending. Repeated contrast-pair phrasing or counter-typing structure is visible.
-- **3-4 (Below Average)**: Flat or formulaic. Heavy repetition. Over-hedged. No narrative arc. The reader can see the template before the insight.
-- **1-2 (Poor)**: AI slop. Generic phrasing, no voice, no rhythm.
+Prose, structure, pacing, visual rhythm, 9takes voice. 9-10: distinctive prose, strong opening, varied
+paragraph rhythm, formatting guides the eye, immersive scenes, narrative flow, cut-to-black ending, no
+repeated material, no house-template fingerprint. 5-6: competent/report-like, dense stacking, conventional
+ending, visible contrast-pair/counter-typing architecture. 1-2: AI slop.
 
-### 5. Originality (1-10)
+### 6. Hook — weight 0.5× (lowest)
 
-How fresh the analysis feels — does it say something new?
+The opening's grab. 9-10: specific surprising moment that reveals character and poses a question; thesis
+clear in 3-5 paragraphs. 1-2: Wikipedia summary from sentence one. (Weighted lowest — near-zero traffic
+correlation — but still scored.)
 
-- **9-10 (Exceptional)**: Contains at least one genuinely novel insight. Has a "signature detail" — a specific small moment that makes the entire analysis click. Public/private gap explored. Childhood-to-adult thread visible. Faces a real critic/skeptical pressure point and includes a current-tense or legacy-now anchor. Would pass the "swap test" (replacing person's name breaks the analysis).
-- **7-8 (Good)**: Some original observations alongside known material. At least one surprising angle.
-- **5-6 (Average)**: Competent compilation through Enneagram lens. No surprising insights. Too generic (fails swap test).
-- **3-4 (Below Average)**: Rehashes widely known info. No private details. No original framing.
-- **1-2 (Poor)**: Pure regurgitation. Nothing beyond Wikipedia.
+### Formula fingerprint caps (apply across Writing + Enneagram)
+
+> 2 contrast-pair engines in the body → cap Writing at 8 (6 if it drives the piece); 3+ counter-typing
+> ladders in the body → cap Enneagram + Writing at 8; ducked obvious critic pressure → cap Originality at 8;
+> missing current-tense anchor (living figure) → cap Originality at 8; ending fails swap test → cap Writing
+> at 8.
 
 ---
 
@@ -100,7 +114,7 @@ How fresh the analysis feels — does it say something new?
 
 For each blog, score independently on each dimension. Do NOT let one dimension pull others up or down. Be strict and calibrated.
 
-### Calibration Anchors (use these to stay consistent):
+### Calibration Anchors (craft reference — these were graded under v1's flat average; treat the overall as approximate and re-grade under v2 before trusting it):
 
 | Score        | Reference Blog                                        | Why                                                                                                 |
 | ------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -114,27 +128,42 @@ For each blog, score independently on each dimension. Do NOT let one dimension p
 
 ### Scoring Rules:
 
-1. Read the blog in full without scoring first
-2. Score each dimension independently
-3. Calculate overall: **(Hook + Enneagram + Evidence + Writing + Originality) / 5**, rounded to 1 decimal
-4. Assign letter grade:
-   - A+ = 9.5-10.0
-   - A = 9.0-9.4
-   - B+ = 8.5-8.9
-   - B = 8.0-8.4
-   - C = 7.0-7.9
-   - D = 6.0-6.9
-   - F = below 6.0
-5. Publication threshold: **8.5 (B+)**
+1. Read the blog in full without scoring first.
+2. Score each of the 6 dimensions independently.
+3. **Check the rabbit hole explicitly:** does wing/subtype/arrow/counter-typing depth live in
+   `<details class="enneagram-rabbit-hole">` rather than the body? Adjust Enneagram Integration.
+4. **Check discoverability against frontmatter:** title/meta_title/description lengths + search-intent
+   match, FAQ schema presence, clear early type answer.
+5. Calculate the **weighted overall**, rounded to 1 decimal:
+
+   ```
+   overall = ( evidence×1.5 + originality×1.5 + discoverability×1.5
+             + enneagram×1.0 + writing×1.0 + hook×0.5 ) / 6.0
+   ```
+
+6. **Apply the discoverability gate:** if `discoverability < 7`, the letter cannot exceed **B** (8.4)
+   regardless of the computed overall — cap it.
+7. Assign letter grade: A+ 9.5-10.0 · A 9.0-9.4 · B+ 8.5-8.9 · B 8.0-8.4 · C 7.0-7.9 · D 6.0-6.9 · F <6.0.
+8. Publication threshold: **8.5 (B+)** — and Discoverability ≥ 7.
 
 ### Common Scoring Mistakes to Avoid:
 
-- **Grade inflation**: Don't give 9s just because the blog is "pretty good." A 9 means EXCEPTIONAL — signature detail, genuine insight, prose that could be published in a magazine.
+- **Grade inflation / cookie-cutter clustering**: v1 grades clustered 8.5–9.4 and lost all discriminating
+  power. A 9 means EXCEPTIONAL. Use the full range. If three blogs feel "about the same," your scores
+  should still differ on Evidence, Originality, and Discoverability.
 - **Halo effect**: A great hook doesn't mean the evidence is great. Score each dimension on its own merits.
-- **Length bias**: Long blogs aren't automatically better. Short, tight blogs can score higher than long, padded ones.
-- **Insider-baseball reward**: Do not give extra credit just because a draft discusses alternate types, wings, arrows, or counter-typing. Reward that material only if it makes the analysis clearer for a general reader; if it distracts, score it down.
-- **Formula forgiveness**: Penalize repeated contrast-pair sentence engines, three-plus type-comparison ladders in the main body, missing critic pressure, and missing current-tense/legacy-now anchors. These are brand risks, not small style preferences.
-- **Outline penalty**: If a blog is clearly an outline/draft (bullet points, placeholder text, incomplete sections), grade it as-is but note "THIS IS AN OUTLINE — grade reflects current state only."
+- **Length bias**: Long blogs aren't automatically better. Short, tight, discoverable blogs can outscore
+  long padded ones.
+- **Insider-baseball reward (the wings trap)**: Do NOT give credit for wings, arrows, subtypes, or
+  counter-typing in the **main body** — that content belongs in the rabbit hole. Reward the body only for
+  clarity and person-first insight. If the draft argues type-vs-type in the narrative, score Enneagram
+  Integration _down_, and if a warranted rabbit hole is missing, cap that dimension at 8.
+- **Discoverability blindness**: The most common v1 failure. A polished, beautifully written blog with a
+  clever-but-unsearchable title and no clear early type answer is NOT publication-ready. Grade it like it.
+- **Formula forgiveness**: Apply the fingerprint caps (contrast-pair engines, counter-typing ladders,
+  ducked critic pressure, missing current anchor, swap-test ending). Brand risks, not style nits.
+- **Outline penalty**: If a blog is clearly an outline/draft, grade as-is but note "THIS IS AN OUTLINE —
+  grade reflects current state only."
 
 ---
 
@@ -152,19 +181,23 @@ content_quality:
   evidence: X
   writing: X
   originality: X
+  discoverability: X
   overall: X.X
   letter: XX
+  rubric_version: 2
   graded_at: 'YYYY-MM-DD'
 ---
 ```
+
+Keep all v1 keys present (consumers read them) and always add `discoverability` + `rubric_version: 2`.
 
 ### Reviewer Comment
 
 Add an HTML comment block immediately after the closing `---` (before the first line of content):
 
 ```html
-<!-- QUALITY GRADE: [LETTER] ([OVERALL])
-Hook: X | Enneagram: X | Evidence: X | Writing: X | Originality: X
+<!-- QUALITY GRADE: [LETTER] ([OVERALL]) — rubric v2
+Evidence: X | Originality: X | Discoverability: X | Enneagram: X | Writing: X | Hook: X
 
 FEEDBACK ([DATE]):
 - [2-3 specific positive observations with quotes or section references]
@@ -199,11 +232,13 @@ After grading, present a summary table:
 ```
 ## Grading Complete — Batch [N]
 
-| Blog | Hook | Ennea | Evidence | Writing | Orig | Overall | Grade |
-|------|------|-------|----------|---------|------|---------|-------|
-| Person-1 | X | X | X | X | X | X.X | XX |
-| Person-2 | X | X | X | X | X | X.X | XX |
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Person-1 | X | X | X | X | X | X | X.X | XX |
+| Person-2 | X | X | X | X | X | X | X.X | XX |
 ...
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 6`. Disc<7 caps at B.)
 
 ### Key Observations:
 - [Notable standouts or concerns]

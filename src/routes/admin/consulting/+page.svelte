@@ -2345,7 +2345,7 @@
 		margin-top: 0.75rem;
 		padding: 0.625rem;
 		background: var(--lamp-glow);
-		color: white;
+		color: var(--cta-text, var(--night-deep));
 		border-radius: 8px;
 		text-decoration: none;
 		font-size: 0.8125rem;
@@ -2529,7 +2529,7 @@
 
 	.btn-primary {
 		background: var(--lamp-glow);
-		color: white;
+		color: var(--cta-text, var(--night-deep));
 	}
 
 	.btn-primary:hover:not(:disabled) {
@@ -2544,7 +2544,7 @@
 
 	.btn-secondary:hover {
 		background: var(--lamp-glow);
-		color: white;
+		color: var(--cta-text, var(--night-deep));
 		border-color: var(--lamp-glow);
 	}
 

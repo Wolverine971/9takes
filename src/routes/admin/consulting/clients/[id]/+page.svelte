@@ -1250,7 +1250,7 @@
 
 	.action-btn.email-btn {
 		background: var(--lamp-glow);
-		color: white;
+		color: var(--cta-text, var(--night-deep));
 		border-color: var(--lamp-glow);
 	}
 
@@ -1365,7 +1365,7 @@
 
 	.btn-primary {
 		background: var(--lamp-glow);
-		color: white;
+		color: var(--cta-text, var(--night-deep));
 	}
 
 	.btn-secondary {
@@ -1444,6 +1444,26 @@
 
 		.info-grid,
 		.edit-grid {
+			grid-template-columns: 1fr;
+		}
+
+		/* Session rows: a 100px date column + info + action buttons overflow
+		   the card on phones. Let them wrap and stack. */
+		.session-item {
+			flex-wrap: wrap;
+			gap: 0.5rem;
+		}
+
+		.session-date {
+			min-width: 0;
+		}
+
+		.session-actions {
+			width: 100%;
+		}
+
+		/* Date/time pair in the Schedule Session modal stacks on narrow screens. */
+		.form-row {
 			grid-template-columns: 1fr;
 		}
 	}

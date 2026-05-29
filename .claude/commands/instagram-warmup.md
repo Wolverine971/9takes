@@ -83,10 +83,15 @@ Reload the current page (or, if reload fails, navigate fresh to `https://instagr
 
 Whenever you switch Instagram accounts — even within the same browser session:
 
-1. Switch accounts via the profile menu.
-2. **Always do one explicit page reload** before doing anything else.
-3. **Verify the top-bar handle matches the intended account** before queueing anything. If it doesn't match, switch again and reload again.
-4. Only after the handle is verified should you start scanning notifications, stories, feed, hashtags, etc.
+1. Navigate to `https://www.instagram.com/`.
+2. Verify the active account from at least two signals: avatar alt text (`9takesdotcom's profile picture`), profile link `/9takesdotcom/`, or sidebar/top-right widget text.
+3. If the account is not `@9takesdotcom`, switch accounts using the Instagram skill's account-switching playbook:
+   - Preferred logged-in path: Settings gear -> **Switch accounts** -> `9takesdotcom` row (`div[role="button"]`).
+   - Fallback logged-out picker path: click the visible `9takesdotcom` account row/span directly.
+4. **Always do one explicit page reload** after switching.
+5. Verify the same two account signals before scanning notifications, stories, feed, hashtags, saves, or profiles.
+6. If `9takesdotcom` is not visible in the picker, stop and log `browser_limitation: instagram_account_not_in_picker`.
+7. If `9takesdotcom` appears but `/notifications/` or another protected route redirects to `/accounts/login/`, stop and log `browser_limitation: instagram_session_logged_out`; DJ must refresh the session manually.
 
 Do not assume an account switch took effect just because the menu animation finished.
 

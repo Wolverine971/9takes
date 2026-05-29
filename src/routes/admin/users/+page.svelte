@@ -1001,7 +1001,7 @@
 	.edit-btn:hover,
 	.details-btn:hover {
 		background: var(--lamp-glow);
-		color: white;
+		color: var(--cta-text, var(--night-deep));
 		border-color: var(--lamp-glow);
 	}
 
@@ -1302,7 +1302,7 @@
 
 	.btn-primary {
 		background: var(--lamp-glow);
-		color: white;
+		color: var(--cta-text, var(--night-deep));
 		border: none;
 	}
 

@@ -240,7 +240,7 @@
 
 			&.btn-primary {
 				background: var(--lamp-glow);
-				color: white;
+				color: var(--cta-text, var(--night-deep));
 
 				&:hover {
 					background: var(--lamp-deep);
@@ -302,6 +302,20 @@
 			:global(p) {
 				margin: 0 0 1.5rem 0;
 				color: var(--ink-bright);
+			}
+
+			// Wide markdown tables would overflow the page on phones; let them scroll.
+			:global(table) {
+				display: block;
+				max-width: 100%;
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
+			}
+
+			// Long unbroken strings (URLs, slugs) shouldn't blow out the layout.
+			:global(a),
+			:global(code) {
+				overflow-wrap: anywhere;
 			}
 
 			:global(.firstLetter) {
@@ -378,7 +392,7 @@
 		}
 
 		.content-wrapper {
-			padding: 2rem;
+			padding: 1rem;
 		}
 
 		.draft-meta {

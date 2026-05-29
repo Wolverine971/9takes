@@ -695,8 +695,8 @@
 	}
 
 	.btn-primary {
-		background: var(--lamp-glow, #6c5ce7);
-		color: white;
+		background: var(--lamp-glow);
+		color: var(--cta-text, var(--night-deep));
 	}
 
 	.btn-primary:hover:not(:disabled) {

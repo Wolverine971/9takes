@@ -1232,7 +1232,7 @@
 
 	.btn-primary {
 		background: var(--lamp-glow);
-		color: white;
+		color: var(--cta-text, var(--night-deep));
 	}
 
 	.btn-success {

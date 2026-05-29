@@ -468,7 +468,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'dave-chappelle', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Comedy\'s Reluctant Lion', contentGrade: 9, types: ['comedian', 'celebrity', 'tv-comedy-crossover', 'stand-up'] },
 		{ name: 'ed-sheeran', link: true, hasImage: true, lastmod: '2026-04-22', personaTitle: 'Pop\'s Invisible Stadium-Filler', contentGrade: 8.8, types: ['musician'] },
 		{ name: 'emma-myers', link: true, hasImage: true, lastmod: '2026-04-27', personaTitle: 'The Werewolf Who Wants to Disappear', contentGrade: 9, types: ['newMovieStar', 'celebrity', 'rising-star'] },
-		{ name: 'harrison-ford', link: false, hasImage: true, lastmod: '2026-04-24', personaTitle: 'Hollywood\'s Reluctant Carpenter', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
+		{ name: 'harrison-ford', link: true, hasImage: true, lastmod: '2026-05-29', personaTitle: 'Hollywood\'s Reluctant Carpenter', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'jelly-roll', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Nashville\'s Reluctant Giant', contentGrade: 8.8, types: ['musician', 'singer-songwriter'] },
 		{ name: 'keanu-reeves', link: true, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Gentle Vanishing Act', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'kylie-jenner', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Most Visible Ghost', contentGrade: 9, types: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder'] },

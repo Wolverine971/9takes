@@ -171,6 +171,16 @@
 	--card-padding: 1.25rem;
 	--card-margin: 1rem;
 	--spacing-unit: 5px;
+
+	/* Spacing scale — mirrors tailwind.config.ts `spacing` + design-system.md §7.
+	   Use these for padding/margin/gap so spacing stays on-system. 2026-05-29. */
+	--space-xs: 0.25rem; /* 4px  — hairlines, icon padding */
+	--space-sm: 0.5rem; /* 8px  — tight gaps between paired elements */
+	--space-md: 0.75rem; /* 12px — default small gap */
+	--space-lg: 1rem; /* 16px — default card padding, body gap */
+	--space-xl: 1.5rem; /* 24px — section gaps inside a card */
+	--space-2xl: 2rem; /* 32px — section gaps on a page */
+	--space-3xl: 3rem; /* 48px — major section breaks, hero padding */
 	--font-size: var(--font-size-base);
 	--tag: none;
 	--num-images: 1;
@@ -280,7 +290,13 @@
 	/* Ink — semantic text */
 	--ink-bright: #faf8f4;
 	--ink-mid: #a8a095;
-	--ink-dim: #5c4f47;
+	/* --ink-dim is used both as muted/caption TEXT (--text-tertiary/--text-muted,
+	   placeholders) and as faint border tints via color-mix(). It was #5c4f47,
+	   which only hit 2.11:1 on stone-warm — a WCAG AA failure for text. Lightened
+	   to #948578 (~4.5:1 on stone-warm, higher on night-deep) for readability.
+	   Side effect: color-mix() borders get a touch lighter — acceptable on the
+	   near-black surfaces. 2026-05-29. */
+	--ink-dim: #948578;
 	--ink-muted: #3a302a;
 
 	/* Pool / glow rgb triples for radial gradients */
@@ -557,18 +573,8 @@ a {
 	background-color: transparent;
 	position: relative;
 	overflow: hidden;
-
-	&::before {
-		content: '';
-		position: fixed;
-		top: -150vh;
-		left: -150vw;
-		width: 400vw;
-		height: 400vw;
-		/* Background pattern can be added here if needed */
-		z-index: -1;
-		animation: spin 300s linear infinite;
-	}
+	/* Removed a `::before` that spun an empty 400vw fixed element forever
+	   (no background, z-index:-1) — pure GPU/battery waste. 2026-05-29. */
 }
 
 main {
@@ -695,7 +701,7 @@ figure {
 	display: inline-block;
 	padding: 10px 20px;
 	border: none;
-	border-radius: var(--border-radius);
+	border-radius: 0.625rem; /* 10px — matches Button atom */
 	font-size: 16px;
 	cursor: pointer;
 	transition: var(--transition-glow);
@@ -974,6 +980,22 @@ table {
 	}
 	to {
 		transform: rotate(360deg);
+	}
+}
+
+/*==============================================
+  REDUCED MOTION (global guard)
+  Users who request reduced motion get near-instant, single-shot animations.
+  Infinite spinners/pans still "tick" once so loading states remain meaningful.
+==============================================*/
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
 	}
 }
 
