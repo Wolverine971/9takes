@@ -1,6 +1,7 @@
 <!-- src/routes/admin/consulting/sessions/+page.svelte -->
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { Button } from '$lib/components/atoms';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -123,7 +124,7 @@
 		{#if data.sessions.length === 0}
 			<div class="empty-state">
 				<p>No sessions found</p>
-				<a href="/admin/consulting/clients" class="btn btn-primary"> Go to Clients to Schedule </a>
+				<Button href="/admin/consulting/clients">Go to Clients to Schedule</Button>
 			</div>
 		{:else}
 			{#each data.sessions as session}
@@ -166,13 +167,11 @@
 
 					<div class="session-actions">
 						{#if session.meeting_link && session.status !== 'completed'}
-							<a href={session.meeting_link} target="_blank" class="btn btn-sm btn-primary">
-								Join
-							</a>
+							<Button href={session.meeting_link} target="_blank" size="sm">Join</Button>
 						{/if}
-						<a href="/admin/consulting/sessions/{session.id}" class="btn btn-sm btn-secondary">
+						<Button href="/admin/consulting/sessions/{session.id}" variant="secondary" size="sm">
 							{session.status === 'completed' ? 'Review' : 'Prep'}
-						</a>
+						</Button>
 					</div>
 				</div>
 			{/each}
@@ -404,41 +403,7 @@
 		color: var(--ink-mid);
 	}
 
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: 12px;
-		font-size: 0.875rem;
-		font-weight: 500;
-		cursor: pointer;
-		text-decoration: none;
-	}
-
-	.btn-sm {
-		padding: 0.375rem 0.75rem;
-		font-size: 0.8rem;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-secondary {
-		background: var(--night-deep);
-		border: 1px solid var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn[aria-disabled='true'] {
-		opacity: 0.6;
-		pointer-events: none;
-		cursor: not-allowed;
-	}
+	/* Button visuals now owned by the Button atom. */
 
 	@media (max-width: 640px) {
 		.session-card {
@@ -455,7 +420,7 @@
 			width: 100%;
 		}
 
-		.session-actions .btn {
+		.session-actions :global(.btn) {
 			flex: 1;
 		}
 	}

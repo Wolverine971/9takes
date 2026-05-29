@@ -4,6 +4,7 @@
 	import { convertDateToReadable } from '../../../utils/conversions';
 	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
 
@@ -89,14 +90,10 @@
 
 	<div class="row">
 		<input type="text" bind:value={email} style="margin-bottom: auto" />
-		<button type="button" class="btn btn-primary" onclick={createCypher}
-			>Create unsubscribe link</button
-		>
+		<Button type="button" onclick={createCypher}>Create unsubscribe link</Button>
 	</div>
 	<div class="row">
-		<button type="button" class="btn btn-primary" onclick={refreshAllCyphersForAll}
-			>Refresh all cyphers</button
-		>
+		<Button type="button" onclick={refreshAllCyphersForAll}>Refresh all cyphers</Button>
 	</div>
 </div>
 

@@ -9,6 +9,7 @@
 	import { browser } from '$app/environment';
 	import { enhance } from '$app/forms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { Button } from '$lib/components/atoms';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import type { PageData } from './$types';
 
@@ -378,9 +379,7 @@
 							<div class="form-error" role="alert">{form.message}</div>
 						{/if}
 
-						<button type="submit" class="btn-pill-primary" disabled={loading} aria-busy={loading}>
-							{loading ? 'Processing...' : 'Join the Waitlist'}
-						</button>
+						<Button type="submit" fullWidth {loading}>Join the Waitlist</Button>
 
 						<div class="panel-footnotes">
 							<span>No payment today.</span>
@@ -417,7 +416,7 @@
 						</p>
 
 						<div class="success-actions">
-							<a href="/enneagram-corner" class="btn-pill-primary">Read the Guides</a>
+							<Button href="/enneagram-corner">Read the Guides</Button>
 							<a href="#proof" class="text-link">See why this fits</a>
 						</div>
 					</div>
@@ -630,7 +629,7 @@
 			</div>
 
 			<div class="final-actions">
-				<a href="#top" class="btn-pill-primary">Join the Waitlist</a>
+				<Button href="#top">Join the Waitlist</Button>
 				<a href="/personality-analysis" class="text-link">Read Personality Analysis</a>
 			</div>
 		</section>
@@ -1429,11 +1428,6 @@
 		flex: 0 0 auto;
 	}
 
-	.success-actions .btn-pill-primary,
-	.final-actions .btn-pill-primary {
-		white-space: nowrap;
-	}
-
 	/* ── Responsive ── */
 
 	@media (min-width: 640px) {
@@ -1478,8 +1472,6 @@
 			flex-wrap: wrap;
 		}
 
-		.success-actions .btn-pill-primary,
-		.final-actions .btn-pill-primary,
 		.success-actions .text-link,
 		.final-actions .text-link {
 			width: auto;

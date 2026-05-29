@@ -1,7 +1,7 @@
 <!-- src/routes/account/+page.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { supabase } from '$lib/supabase';
 	import type { PageData } from './$types';
@@ -231,16 +231,15 @@
 				{/if}
 
 				<form action="/logout" method="POST" use:enhance={submitLogout}>
-					<LoadingButton
+					<Button
 						type="submit"
 						variant="secondary"
 						size="md"
 						loading={loggingOut}
-						loadingText="Signing out..."
-						className="account-action signout-button"
+						class="account-action signout-button"
 					>
 						Sign out
-					</LoadingButton>
+					</Button>
 				</form>
 			</div>
 		</header>
@@ -317,18 +316,17 @@
 				</p>
 
 				<div class="form-actions">
-					<LoadingButton
+					<Button
 						type="button"
 						variant="primary"
 						size="md"
 						loading={saving}
 						disabled={!formChanged}
-						loadingText="Saving..."
 						onclick={save}
-						className="account-action save-button"
+						class="account-action save-button"
 					>
 						Save changes
-					</LoadingButton>
+					</Button>
 
 					<p class="action-note" role="status">
 						{formChanged ? 'Save to commit the current edits.' : 'All fields are in sync.'}

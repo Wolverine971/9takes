@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
+	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 	import type { EmailRecipient } from '$lib/types/email';
@@ -212,7 +213,7 @@
 		</div>
 		<div class="header-actions">
 			{#if !isEditing}
-				<button class="btn btn-secondary" onclick={() => (isEditing = true)}> Edit </button>
+				<Button variant="secondary" onclick={() => (isEditing = true)}>Edit</Button>
 			{/if}
 		</div>
 	</div>
@@ -226,15 +227,16 @@
 					<h2>Client Information</h2>
 					{#if isEditing}
 						<div class="edit-actions">
-							<button
-								class="btn btn-sm btn-secondary"
+							<Button
+								variant="secondary"
+								size="sm"
 								onclick={() => {
 									isEditing = false;
 									editData = { ...client };
 								}}
 							>
 								Cancel
-							</button>
+							</Button>
 						</div>
 					{/if}
 				</div>
@@ -328,7 +330,7 @@
 							</div>
 						</div>
 						<div class="form-footer">
-							<button type="submit" class="btn btn-primary">Save Changes</button>
+							<Button type="submit">Save Changes</Button>
 						</div>
 					</form>
 				{:else}
@@ -397,9 +399,9 @@
 				<div class="section-header">
 					<h2>Intake Form</h2>
 					{#if !client.intake?.length}
-						<button class="btn btn-sm btn-primary" onclick={openIntakeEmailModal}>
+						<Button size="sm" onclick={openIntakeEmailModal}>
 							{isGettingIntakeLink ? 'Creating...' : 'Send Intake'}
-						</button>
+						</Button>
 					{/if}
 				</div>
 				{#if client.intake?.length}
@@ -418,8 +420,9 @@
 								<p class="intake-link-label">Intake Form Link:</p>
 								<div class="intake-link-row">
 									<code class="intake-link">/intake/{intake.id}</code>
-									<button
-										class="btn btn-sm btn-secondary"
+									<Button
+										variant="secondary"
+										size="sm"
 										onclick={() => {
 											const url = `${window.location.origin}/intake/${intake.id}`;
 											navigator.clipboard.writeText(url);
@@ -427,7 +430,7 @@
 										}}
 									>
 										Copy
-									</button>
+									</Button>
 								</div>
 							</div>
 						{/if}
@@ -471,9 +474,7 @@
 			<section class="section-card" id="sessions">
 				<div class="section-header">
 					<h2>Sessions</h2>
-					<button class="btn btn-sm btn-primary" onclick={() => (showSessionModal = true)}>
-						+ Schedule
-					</button>
+					<Button size="sm" onclick={() => (showSessionModal = true)}>+ Schedule</Button>
 				</div>
 
 				{#if upcomingSessions.length > 0}
@@ -506,12 +507,12 @@
 								</div>
 								<div class="session-actions">
 									{#if session.meeting_link}
-										<a href={session.meeting_link} target="_blank" class="btn btn-sm btn-primary"
-											>Join</a
-										>
+										<Button href={session.meeting_link} target="_blank" size="sm">Join</Button>
 									{/if}
-									<a href="/admin/consulting/sessions/{session.id}" class="btn btn-sm btn-secondary"
-										>Prep</a
+									<Button
+										href="/admin/consulting/sessions/{session.id}"
+										variant="secondary"
+										size="sm">Prep</Button
 									>
 								</div>
 							</div>
@@ -546,9 +547,9 @@
 			<section class="section-card" id="notes">
 				<div class="section-header">
 					<h2>Notes</h2>
-					<button class="btn btn-sm btn-secondary" onclick={() => (showNoteModal = true)}>
+					<Button variant="secondary" size="sm" onclick={() => (showNoteModal = true)}>
 						+ Add Note
-					</button>
+					</Button>
 				</div>
 				{#if client.notes?.length}
 					<div class="notes-list">
@@ -655,7 +656,7 @@
 						};
 					}}
 				>
-					<button type="submit" class="btn btn-danger btn-sm">Delete Client</button>
+					<Button type="submit" variant="danger" size="sm">Delete Client</Button>
 				</form>
 			</section>
 		</div>
@@ -709,8 +710,8 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" onclick={closeNoteModal}>Cancel</button>
-					<button type="submit" class="btn btn-primary">Add Note</button>
+					<Button type="button" variant="secondary" onclick={closeNoteModal}>Cancel</Button>
+					<Button type="submit">Add Note</Button>
 				</div>
 			</form>
 		</div>
@@ -786,9 +787,8 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" onclick={closeSessionModal}>Cancel</button
-					>
-					<button type="submit" class="btn btn-primary">Schedule</button>
+					<Button type="button" variant="secondary" onclick={closeSessionModal}>Cancel</Button>
+					<Button type="submit">Schedule</Button>
 				</div>
 			</form>
 		</div>
@@ -1344,40 +1344,7 @@
 		gap: 1rem;
 	}
 
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: 12px;
-		font-size: 0.875rem;
-		font-weight: 500;
-		cursor: pointer;
-		text-decoration: none;
-	}
-
-	.btn-sm {
-		padding: 0.25rem 0.5rem;
-		font-size: 0.75rem;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-secondary {
-		background: var(--night-deep);
-		border: 1px solid var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-danger {
-		background: var(--error);
-		color: white;
-	}
+	/* Button visuals now owned by the Button atom. */
 
 	/* Modal */
 	.modal-overlay {

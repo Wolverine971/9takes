@@ -6,6 +6,7 @@
 	import MarkdownEditor from './MarkdownEditor.svelte';
 	import MetadataSidebar from './MetadataSidebar.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { Button } from '$lib/components/atoms';
 
 	interface HistoryItem {
 		id: number;
@@ -281,25 +282,8 @@
 
 			<div class="header-right">
 				{#if isEditable}
-					<button class="btn btn-secondary" onclick={save} disabled={!isDirty || saving}>
-						{#if saving}
-							<svg class="h-4 w-4 animate-spin" viewBox="0 0 24 24">
-								<circle
-									class="opacity-25"
-									cx="12"
-									cy="12"
-									r="10"
-									stroke="currentColor"
-									stroke-width="4"
-									fill="none"
-								/>
-								<path
-									class="opacity-75"
-									fill="currentColor"
-									d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-								/>
-							</svg>
-						{:else}
+					<Button variant="secondary" onclick={save} disabled={!isDirty} loading={saving}>
+						{#snippet icon()}
 							<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path
 									stroke-linecap="round"
@@ -308,21 +292,23 @@
 									d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"
 								/>
 							</svg>
-						{/if}
+						{/snippet}
 						Save
-					</button>
+					</Button>
 				{/if}
-				<button class="btn btn-primary" onclick={saveAndClose}>
-					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M5 13l4 4L19 7"
-						/>
-					</svg>
+				<Button onclick={saveAndClose}>
+					{#snippet icon()}
+						<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M5 13l4 4L19 7"
+							/>
+						</svg>
+					{/snippet}
 					Done
-				</button>
+				</Button>
 			</div>
 		</header>
 
@@ -399,11 +385,9 @@
 				<h3 class="warning-title">Unsaved Changes</h3>
 				<p class="warning-message">You have unsaved changes. What would you like to do?</p>
 				<div class="warning-actions">
-					<button class="btn btn-secondary" onclick={() => (showUnsavedWarning = false)}>
-						Cancel
-					</button>
-					<button class="btn btn-danger" onclick={discardAndClose}> Discard Changes </button>
-					<button class="btn btn-primary" onclick={saveAndClose}> Save & Close </button>
+					<Button variant="secondary" onclick={() => (showUnsavedWarning = false)}>Cancel</Button>
+					<Button variant="danger" onclick={discardAndClose}>Discard Changes</Button>
+					<Button onclick={saveAndClose}>Save &amp; Close</Button>
 				</div>
 			</div>
 		</div>
@@ -540,78 +524,6 @@
 
 		@media (max-width: 768px) {
 			gap: 6px;
-		}
-	}
-
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 6px;
-		padding: 8px 14px;
-		border: none;
-		border-radius: 6px;
-		font-size: 13px;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.15s ease;
-
-		&:disabled {
-			opacity: 0.5;
-			cursor: not-allowed;
-		}
-
-		@media (max-width: 768px) {
-			padding: 10px 14px;
-			font-size: 14px;
-			min-height: 44px;
-
-			svg {
-				display: none;
-			}
-		}
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		border: 1px solid var(--lamp-glow);
-		box-shadow: var(--glow-sm);
-
-		&:hover:not(:disabled) {
-			background: var(--lamp-glow);
-			box-shadow: var(--glow-md);
-		}
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-		border: 1px solid var(--stone-warm);
-
-		&:hover:not(:disabled) {
-			background: var(--stone-warm);
-			border-color: var(--primary-glow);
-		}
-
-		@media (max-width: 768px) {
-			// Hide save button text on mobile, show only icon
-			span {
-				display: none;
-			}
-			svg {
-				display: block !important;
-			}
-			padding: 10px;
-		}
-	}
-
-	.btn-danger {
-		background: var(--error-light);
-		color: var(--error);
-		border: 1px solid transparent;
-
-		&:hover:not(:disabled) {
-			border-color: var(--error);
 		}
 	}
 
@@ -755,9 +667,8 @@
 		@media (max-width: 480px) {
 			flex-direction: column;
 
-			.btn {
+			:global(.btn) {
 				width: 100%;
-				justify-content: center;
 			}
 		}
 	}

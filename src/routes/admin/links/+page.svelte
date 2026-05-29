@@ -4,6 +4,7 @@
 	import type { PageData } from './$types';
 	import QRCode from 'qrcode';
 	import LinkMap from '$lib/components/molecules/LinkMap.svelte';
+	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
 
@@ -74,10 +75,10 @@
 				<span>Count:</span>
 				<input type="number" bind:value={numberOfQRCodes} min="1" max="50" />
 			</label>
-			<button class="btn btn-secondary" onclick={regenerateQRCodes}>Regenerate</button>
-			<button class="btn btn-primary" onclick={() => (showPrintView = !showPrintView)}>
+			<Button variant="secondary" onclick={regenerateQRCodes}>Regenerate</Button>
+			<Button onclick={() => (showPrintView = !showPrintView)}>
 				{showPrintView ? 'Grid View' : 'Print View'}
-			</button>
+			</Button>
 		</div>
 	</div>
 
@@ -220,34 +221,6 @@
 			font-size: 0.8rem;
 			background: var(--night-deep);
 			color: var(--ink-bright);
-		}
-	}
-
-	.btn {
-		padding: 0.4rem 0.875rem;
-		font-size: 0.8rem;
-		font-weight: 500;
-		border: none;
-		border-radius: 8px;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-
-		&:hover {
-			opacity: 0.85;
-		}
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-
-		&:hover {
-			background: var(--night-deep);
 		}
 	}
 

@@ -3,6 +3,7 @@
 	import type { PageData } from './$types';
 	import type { FAQItem } from '$lib/types/faq';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { Button } from '$lib/components/atoms';
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 	import { buildFAQSchema } from '$lib/utils/schema';
 
@@ -398,11 +399,10 @@
 					Pick the angle that fits your pattern.
 				</p>
 				<div class="cta-buttons">
-					<a
-						href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
-						class="btn-hub-primary">Read the Anxiety Guide</a
+					<Button href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
+						>Read the Anxiety Guide</Button
 					>
-					<a href="/questions" class="btn-hub-secondary">Find Your Type</a>
+					<Button href="/questions" variant="secondary">Find Your Type</Button>
 				</div>
 			</div>
 		</section>
@@ -1057,12 +1057,8 @@
 			gap: 0.75rem;
 		}
 
-		.btn-hub-primary,
-		.btn-hub-secondary {
-			padding: 0.75rem 1.25rem;
-			font-size: 0.85rem;
+		.cta-buttons :global(.btn) {
 			width: 100%;
-			justify-content: center;
 		}
 	}
 

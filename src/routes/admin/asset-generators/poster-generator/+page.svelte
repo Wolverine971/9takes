@@ -11,6 +11,7 @@
 		getPosterQuestionBounds,
 		type PosterQuestionTextLayout
 	} from '$lib/posters/posterQuestionTextLayout';
+	import { Button } from '$lib/components/atoms';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -287,36 +288,27 @@
 			<p>Create shareable images for social media</p>
 		</div>
 		<div class="header-actions">
-			<button class="btn btn-secondary" onclick={copyToClipboard} disabled={exporting}>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="18"
-					height="18"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					><rect width="14" height="14" x="8" y="8" rx="2" ry="2" /><path
-						d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
-					/></svg
-				>
-				Copy
-			</button>
-			<button class="btn btn-primary" onclick={exportAsPNG} disabled={exporting}>
-				{#if exporting}
+			<Button variant="secondary" onclick={copyToClipboard} disabled={exporting}>
+				{#snippet icon()}
 					<svg
-						class="animate-spin"
 						xmlns="http://www.w3.org/2000/svg"
 						width="18"
 						height="18"
 						viewBox="0 0 24 24"
 						fill="none"
 						stroke="currentColor"
-						stroke-width="2"><path d="M21 12a9 9 0 1 1-6.219-8.56" /></svg
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						><rect width="14" height="14" x="8" y="8" rx="2" ry="2" /><path
+							d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+						/></svg
 					>
-				{:else}
+				{/snippet}
+				Copy
+			</Button>
+			<Button onclick={exportAsPNG} loading={exporting}>
+				{#snippet icon()}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="18"
@@ -331,9 +323,9 @@
 							points="7 10 12 15 17 10"
 						/><line x1="12" x2="12" y1="15" y2="3" /></svg
 					>
-				{/if}
+				{/snippet}
 				Download PNG
-			</button>
+			</Button>
 		</div>
 	</div>
 
@@ -440,21 +432,25 @@
 						></textarea>
 
 						{#if data.questions && data.questions.length > 0}
-							<button
-								class="btn btn-ghost mt-2"
+							<Button
+								variant="ghost"
+								class="mt-2"
 								onclick={() => (showQuestionPicker = !showQuestionPicker)}
 							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg
-								>
+								{#snippet icon()}
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg
+									>
+								{/snippet}
 								{showQuestionPicker ? 'Hide' : 'Pick from recent questions'}
-							</button>
+							</Button>
 
 							{#if showQuestionPicker}
 								<div class="question-picker">
@@ -777,62 +773,6 @@
 	.header-actions {
 		display: flex;
 		gap: 0.75rem;
-	}
-
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.5rem;
-		padding: 0.625rem 1rem;
-		border-radius: 0.5rem;
-		font-size: 0.875rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.2s;
-		border: none;
-
-		&:disabled {
-			opacity: 0.6;
-			cursor: not-allowed;
-		}
-
-		svg {
-			flex-shrink: 0;
-		}
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		border: 1px solid var(--lamp-glow);
-		box-shadow: var(--glow-sm);
-
-		&:hover:not(:disabled) {
-			background: var(--lamp-glow);
-			box-shadow: var(--glow-md);
-			transform: translateY(-1px);
-		}
-	}
-
-	.btn-secondary {
-		background: transparent;
-		color: var(--lamp-glow);
-		border: 1px solid var(--lamp-glow);
-
-		&:hover:not(:disabled) {
-			background: var(--primary-subtle);
-			box-shadow: var(--glow-sm);
-		}
-	}
-
-	.btn-ghost {
-		background: transparent;
-		color: var(--lamp-glow);
-		padding: 0.5rem;
-
-		&:hover {
-			background: var(--primary-subtle);
-		}
 	}
 
 	.main-grid {

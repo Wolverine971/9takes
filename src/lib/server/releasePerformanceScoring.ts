@@ -165,7 +165,12 @@ function sourceBucket(visit: ReleaseVisitSignal): string {
 		.trim()
 		.toLowerCase();
 
-	if (source === 'internal' || referrer.includes('9takes.com') || referrer === 'localhost') {
+	if (
+		source === 'internal' ||
+		referrer.includes('9takes.com') ||
+		referrer === 'localhost' ||
+		referrer === '127.0.0.1'
+	) {
 		return 'internal';
 	}
 	if (source.startsWith('search/')) return 'search';

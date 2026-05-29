@@ -233,6 +233,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'kacey-musgraves', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Country\'s Disciplined Mystic', contentGrade: null, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'lily-allen', link: false, hasImage: false, lastmod: '2026-04-29', personaTitle: 'Pop\'s Honest Witness', contentGrade: 9, types: ['musician'] },
 		{ name: 'maddie-phillips', link: false, hasImage: false, lastmod: '2026-04-20', personaTitle: 'Streaming\'s Tender Shapeshifter', contentGrade: 8.7, types: ['newMovieStar', 'celebrity', 'rising-star'] },
+		{ name: 'nicholas-galitzine', link: false, hasImage: false, lastmod: '2026-05-29', personaTitle: 'Hollywood\'s Reluctant Adonis', contentGrade: 8.7, types: ['movieStar', 'newMovieStar'] },
 		{ name: 'noah-kahan', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Folk-Pop\'s Reluctant Survivor', contentGrade: 9, types: ['musician'] },
 		{ name: 'odessa-azion', link: false, hasImage: false, lastmod: '2026-04-18', personaTitle: 'Hollywood\'s Inherited Runaway', contentGrade: 8.9, types: ['newMovieStar', 'musician', 'rising-star'] },
 		{ name: 'oscar-isaac', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Cinema\'s Grief Alchemist', contentGrade: 8.6, types: ['movieStar', 'screen-icon'] }
@@ -272,6 +273,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'jerry-seinfeld', link: false, hasImage: false, lastmod: '2026-05-17', personaTitle: 'Comedy\'s Monastic Craftsman', contentGrade: 8.7, types: ['comedian', 'celebrity'] },
 		{ name: 'john-d-rockefeller', link: false, hasImage: false, lastmod: '2026-04-24', personaTitle: 'The Ledger\'s First Billionaire', contentGrade: 9, types: ['entrepreneur', 'historical', 'historical-artist', 'business-operator'] },
 		{ name: 'marie-curie', link: false, hasImage: false, lastmod: '2026-05-04', personaTitle: 'Science\'s Patient Excavator', contentGrade: 8.9, types: ['historical', 'historical-scientist'] },
+		{ name: 'pinkpantheress', link: false, hasImage: false, lastmod: '2026-05-29', personaTitle: 'Pop\'s Faceless Recluse', contentGrade: 8.8, types: ['musician'] },
 		{ name: 'stephen-king', link: false, hasImage: false, lastmod: '2026-04-01', personaTitle: 'The Fortress That Writes Nightmares', contentGrade: 8.8, types: ['author'] },
 		{ name: 'warren-buffett', link: false, hasImage: false, lastmod: '2026-04-10', personaTitle: 'Omaha\'s Quiet Fortress', contentGrade: 8.8, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'zach-king', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] }
@@ -389,7 +391,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'florence-pugh', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['newMovieStar'] },
 		{ name: 'frank-lloyd-wright', link: false, hasImage: false, lastmod: '2026-05-13', personaTitle: 'The Architect Who Designed Himself', contentGrade: 9.3, types: ['historical', 'other', 'historical-artist'] },
 		{ name: 'jacksepticeye', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
-		{ name: 'julia-roberts', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
+		{ name: 'julia-roberts', link: false, hasImage: false, lastmod: '2026-05-29', personaTitle: 'Hollywood\'s Sunlit Escape Artist', contentGrade: null, types: ['movieStar'] },
 		{ name: 'kate-beckinsale', link: false, hasImage: false, lastmod: '2026-05-13', personaTitle: 'Hollywood\'s Quick-Witted Escapist', contentGrade: 8.9, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'ksi', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
 		{ name: 'lele-pons', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },

@@ -9,7 +9,7 @@
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import type { ActionData } from './$types';
-	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import { Button } from '$lib/components/atoms';
 
 	let { form }: { form: ActionData } = $props();
 
@@ -121,18 +121,17 @@
 				</div>
 			{/if}
 
-			<LoadingButton
+			<Button
 				type="submit"
 				variant="primary"
 				size="lg"
 				fullWidth
 				{loading}
 				disabled={!canSubmit}
-				loadingText="Resetting Password..."
-				className="mt-2"
+				class="mt-2"
 			>
 				Reset Password
-			</LoadingButton>
+			</Button>
 		</form>
 	{/if}
 

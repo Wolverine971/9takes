@@ -15,6 +15,7 @@
 	} from '$lib/types/email';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
+	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
 
@@ -680,17 +681,13 @@
 					aria-label="Start date"
 				/>
 				<input type="date" bind:value={analyticsTo} class="filter-select" aria-label="End date" />
-				<button class="btn btn-secondary btn-sm" onclick={applyAnalyticsRange}> Apply </button>
+				<Button variant="secondary" size="sm" onclick={applyAnalyticsRange}>Apply</Button>
 			</div>
 		{/if}
 
-		<button
-			class="btn btn-secondary btn-sm"
-			onclick={applyAnalyticsRange}
-			disabled={analyticsLoading}
-		>
-			{analyticsLoading ? 'Updating...' : 'Refresh'}
-		</button>
+		<Button variant="secondary" size="sm" onclick={applyAnalyticsRange} loading={analyticsLoading}>
+			Refresh
+		</Button>
 	</div>
 
 	<!-- Analytics Summary -->
@@ -901,9 +898,9 @@
 				</div>
 				<div class="toolbar-right">
 					{#if selectedUsers.size > 0}
-						<button class="btn btn-primary" onclick={openComposeWithSelected}>
+						<Button onclick={openComposeWithSelected}>
 							Email {selectedUsers.size} Selected
-						</button>
+						</Button>
 					{/if}
 				</div>
 			</div>
@@ -927,24 +924,20 @@
 						{/each}
 					</div>
 					<div class="batch-compose-actions">
-						<button class="btn btn-secondary btn-sm" onclick={selectAllBatchSources}>
+						<Button variant="secondary" size="sm" onclick={selectAllBatchSources}>
 							Select All
-						</button>
-						<button class="btn btn-secondary btn-sm" onclick={clearBatchSources}>Clear</button>
-						<button
-							class="btn btn-secondary"
+						</Button>
+						<Button variant="secondary" size="sm" onclick={clearBatchSources}>Clear</Button>
+						<Button
+							variant="secondary"
 							onclick={openComposeWithSelectedBatches}
-							disabled={loadingBatchRecipients}
+							loading={loadingBatchRecipients}
 						>
-							{loadingBatchRecipients ? 'Loading...' : 'Email Selected Sources'}
-						</button>
-						<button
-							class="btn btn-primary"
-							onclick={openComposeWithEveryone}
-							disabled={loadingBatchRecipients}
-						>
-							{loadingBatchRecipients ? 'Loading...' : 'Email Everyone'}
-						</button>
+							Email Selected Sources
+						</Button>
+						<Button onclick={openComposeWithEveryone} loading={loadingBatchRecipients}>
+							Email Everyone
+						</Button>
 					</div>
 				</div>
 			</div>
@@ -1009,8 +1002,8 @@
 			<!-- Pagination -->
 			{#if totalUsers > usersPerPage}
 				<div class="pagination">
-					<button
-						class="btn btn-secondary"
+					<Button
+						variant="secondary"
 						disabled={currentPage === 1}
 						onclick={() => {
 							currentPage--;
@@ -1018,12 +1011,12 @@
 						}}
 					>
 						Previous
-					</button>
+					</Button>
 					<span class="page-info">
 						Page {currentPage} of {Math.ceil(totalUsers / usersPerPage)}
 					</span>
-					<button
-						class="btn btn-secondary"
+					<Button
+						variant="secondary"
 						disabled={currentPage >= Math.ceil(totalUsers / usersPerPage)}
 						onclick={() => {
 							currentPage++;
@@ -1031,7 +1024,7 @@
 						}}
 					>
 						Next
-					</button>
+					</Button>
 				</div>
 			{/if}
 		</div>
@@ -1055,9 +1048,7 @@
 								<span class="draft-date">Updated {formatDate(draft.updated_at)}</span>
 							</div>
 							<div class="draft-actions">
-								<button class="btn btn-secondary" onclick={() => openDraftForEdit(draft)}>
-									Edit
-								</button>
+								<Button variant="secondary" onclick={() => openDraftForEdit(draft)}>Edit</Button>
 							</div>
 						</div>
 					{/each}
@@ -1180,15 +1171,16 @@
 										{email.unsubscribed_at ? formatDate(email.unsubscribed_at) : '-'}
 									</td>
 									<td class="actions-cell" data-label="Actions">
-										<button class="btn btn-secondary btn-sm" onclick={() => openSentDetail(email)}>
+										<Button variant="secondary" size="sm" onclick={() => openSentDetail(email)}>
 											View
-										</button>
-										<button
-											class="btn btn-secondary btn-sm"
+										</Button>
+										<Button
+											variant="secondary"
+											size="sm"
 											onclick={() => copyTrackingId(email.tracking_id)}
 										>
 											Copy ID
-										</button>
+										</Button>
 									</td>
 								</tr>
 							{:else}
@@ -1203,8 +1195,8 @@
 
 			{#if sentTotal > sentLimit}
 				<div class="pagination">
-					<button
-						class="btn btn-secondary"
+					<Button
+						variant="secondary"
 						disabled={sentPage === 1}
 						onclick={() => {
 							sentPage--;
@@ -1212,12 +1204,12 @@
 						}}
 					>
 						Previous
-					</button>
+					</Button>
 					<span class="page-info">
 						Page {sentPage} of {Math.ceil(sentTotal / sentLimit)}
 					</span>
-					<button
-						class="btn btn-secondary"
+					<Button
+						variant="secondary"
 						disabled={sentPage >= Math.ceil(sentTotal / sentLimit)}
 						onclick={() => {
 							sentPage++;
@@ -1225,7 +1217,7 @@
 						}}
 					>
 						Next
-					</button>
+					</Button>
 				</div>
 			{/if}
 		</div>
@@ -1286,8 +1278,8 @@
 
 			{#if unsubTotal > unsubLimit}
 				<div class="pagination">
-					<button
-						class="btn btn-secondary"
+					<Button
+						variant="secondary"
 						disabled={unsubPage === 1}
 						onclick={() => {
 							unsubPage--;
@@ -1295,12 +1287,12 @@
 						}}
 					>
 						Previous
-					</button>
+					</Button>
 					<span class="page-info">
 						Page {unsubPage} of {Math.ceil(unsubTotal / unsubLimit)}
 					</span>
-					<button
-						class="btn btn-secondary"
+					<Button
+						variant="secondary"
 						disabled={unsubPage >= Math.ceil(unsubTotal / unsubLimit)}
 						onclick={() => {
 							unsubPage++;
@@ -1308,7 +1300,7 @@
 						}}
 					>
 						Next
-					</button>
+					</Button>
 				</div>
 			{/if}
 		</div>
@@ -1371,12 +1363,13 @@
 							<div class="detail-row">
 								<span class="detail-label">Tracking ID</span>
 								<span class="detail-value">{sentDetailEmail.tracking_id}</span>
-								<button
-									class="btn btn-secondary btn-sm"
+								<Button
+									variant="secondary"
+									size="sm"
 									onclick={() => sentDetailEmail && copyTrackingId(sentDetailEmail.tracking_id)}
 								>
 									Copy
-								</button>
+								</Button>
 							</div>
 						</div>
 					</div>
@@ -1384,12 +1377,13 @@
 					<div class="sent-detail-section">
 						<div class="detail-header">
 							<h3>Content</h3>
-							<button
-								class="btn btn-secondary btn-sm"
+							<Button
+								variant="secondary"
+								size="sm"
 								onclick={() => (sentDetailRaw = !sentDetailRaw)}
 							>
 								{sentDetailRaw ? 'Preview' : 'Raw'}
-							</button>
+							</Button>
 						</div>
 						{#if sentDetailRaw}
 							<pre class="raw-html">{sentDetailEmail.html_content}</pre>
@@ -1934,46 +1928,6 @@
 	.page-info {
 		color: var(--ink-mid);
 		font-size: 0.875rem;
-	}
-
-	/* Buttons */
-	.btn {
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: 12px;
-		font-size: 0.875rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.2s;
-	}
-
-	.btn:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover:not(:disabled) {
-		opacity: 0.85;
-	}
-
-	.btn-secondary {
-		background: var(--night-deep);
-		border: 1px solid var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-secondary:hover:not(:disabled) {
-		background: var(--stone-warm);
-	}
-
-	.btn-sm {
-		padding: 0.375rem 0.75rem;
-		font-size: 0.8125rem;
 	}
 
 	/* Empty State */

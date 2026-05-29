@@ -45,11 +45,12 @@ Total qualifying quotes: 4
 H2 1: "What Is Julia Roberts's Personality Type?" — search-intent
 H2 2: "The Georgia Childhood Julia Roberts Learned to Outrun" — hybrid
 H2 3: "Why Julia Roberts Always Knows Where the Exit Is" — hybrid (strong search-intent)
-H2 4: "The Pretty Woman Laugh Was an Accident" — signature
-H2 5: "What Happens When Julia Roberts Can't Reframe It" — hybrid
-H2 6: "How Julia Roberts Finally Stopped Running" — hybrid (strong search-intent)
-H2 7: "The Woman Who Won't Be Held" — signature
-Search-intent + strong-hybrid count: 5
+H2 4: "Why Julia Roberts Keeps Playing Women Who Bolt" — hybrid (strong search-intent)
+H2 5: "The Pretty Woman Laugh Was an Accident" — signature
+H2 6: "What Happens When Julia Roberts Can't Reframe It" — hybrid
+H2 7: "How Julia Roberts Finally Stopped Running" — hybrid (strong search-intent)
+H2 8: "The Woman Who Won't Be Held" — signature
+Search-intent + strong-hybrid count: 6
 -->
 
 <!-- DISTRIBUTION LEDGER
@@ -60,7 +61,7 @@ Locations: "Why Julia Roberts Always Knows Where the Exit Is" (1 bridge-heavy pa
 <!-- FORMULA FINGERPRINT LEDGER
 Contrast-pair sentence engines: 2 — intro ("the laugh and the exit are the same reflex"), diagnosis ("She wasn't running toward freedom; she was running from the trap") — kept deliberately, both load-bearing
 Counter-typing ladders in main body: 0 — the 6w7 case is quarantined in the Rabbit Hole
-Critic-pressure anchor: Nick Nolte's 1994 "she's not a nice person" + the documented early-90s "difficult" reputation, conceded in "What Happens When Julia Roberts Can't Reframe It"
+Critic-pressure anchor: Nick Nolte's 1994 "she's not a nice person" + the documented early-90s "difficult" reputation, conceded in "What Happens When Julia Roberts Can't Reframe It"; plus the Danny Moder / Vera Steimberg affair faced directly in "How Julia Roberts Finally Stopped Running" (the one chapter that dented the brand, conceded before the integration read)
 Current-tense anchor: After the Hunt (2025, Guadagnino) press cycle + SmartLess Oct 2025 appearance
 Ending swap-test: pass — the exit/door image and the 23-year-old callback belong only to Roberts
 -->
@@ -97,9 +98,9 @@ Most people see America's Sweetheart and read the obvious thing: warmth, optimis
 
 Type Sevens are wired to escape pain. Not to face it, not to sit in it, but to convert it — into possibility, into motion, into the next bright thing. The fear underneath a Seven isn't failure. It's entrapment: being caught, held down, stuck inside something that hurts with no way out. So they keep the options open and the mood up, and they get very, very good at the door.
 
-Watch Roberts's life with that lens and the pattern is almost too clean. She wasn't running toward freedom; she was running from the trap. The jilted wedding. The whirlwind marriage to Lyle Lovett weeks after they met. The two-year vanishing act at the height of her fame. Even her gift — that laugh — is a reframe machine, taking the weight out of a room before the room can land on her.
+Watch Roberts's life with that lens and the pattern is almost too clean. She wasn't running toward freedom; she was running from the trap. The jilted wedding. The two-year vanishing act at the height of her fame. Even her gift — that laugh — is a reframe machine, taking the weight out of a room before the room can land on her.
 
-She is, by the numbers, the most successful version of this type Hollywood has produced. In 2000, _Erin Brockovich_ made her the first woman ever paid $20 million for a single film. Of the 49 Type Sevens mapped in the [9takes corpus](/corpus-stats), the largest single cluster works in film and television — the Enthusiast's instinct for charm and momentum is practically a job description for a movie star. Roberts just ran it further than anyone.
+She is, by the numbers, the most successful version of this type Hollywood has produced. Of the 49 Type Sevens mapped in the [9takes corpus](/corpus-stats), the largest single cluster works in film and television; the Enthusiast's instinct for charm and momentum is practically a job description for a movie star. Roberts just ran it further than anyone.
 
 The wing matters here. There's a bluntness in her that pure sunshine can't explain — the willingness to cut a person off cold, to stand in a fight without blinking. That's the Eight wing. The [Type 7](/enneagram-corner/enneagram-type-7) gives her the lightness. The Eight gives her the spine to walk out and never look back.
 
@@ -109,7 +110,7 @@ Smyrna, Georgia. Her parents ran a children's acting and writing school — the 
 
 Then the ground moved. Her parents divorced when she was around four. Her father, Walter, died of cancer when she was ten.
 
-Decades later, on the _SmartLess_ podcast in 2025, she compressed the whole thing into one line: "My dad left when I was five or six." The dates don't match the record — the divorce came earlier, the death later — but the emotional math is exact. To a child, both events read the same way: the man was here, and then the man was gone, and no amount of being charming could fix it.
+Decades later, on the _SmartLess_ podcast in 2025, Roberts compressed the whole thing into one line: "My dad left when I was five or six." The dates don't match the record — the divorce came earlier, the death later — but the emotional math is exact. To a child, both events read the same way: the man was here, and then the man was gone, and no amount of being charming could fix it.
 
 Sit with what that teaches a naturally buoyant kid. Heaviness arrives without warning. Grief can't be negotiated with. The one move that reliably works — the only one — is to stay light enough that nothing can hold you down when the floor drops out. You learn to read the exits in every room before you take your coat off.
 
@@ -124,6 +125,18 @@ When the early-'90s pressure peaked, she didn't push through — she left, takin
 Read that again. The default assumption inside the sentence is that marriage _is_ a ball and chain — that commitment is, by nature, a trap. She was pleasantly surprised to find a version that wasn't. That's not cynicism. It's the operating system of someone for whom every door that closes feels like a door that locks.
 
 And when the press came for her during that turbulent stretch, she didn't explain, didn't soothe, didn't manage the story. She refused it. "I don't feel compelled to defend myself," she told _Rolling Stone_ in 1994. "My job is to act, not to clear things up, not to fill in the dotted lines." It reads as confidence. Underneath, it's the same instinct as the jilted wedding: do not let them pin you down. Do not get cornered into the role of the person who owes the room an answer.
+
+## Why Julia Roberts Keeps Playing Women Who Bolt
+
+The pattern isn't only in her life. It's in the parts she chose.
+
+In 1999 she made _Runaway Bride_, playing a woman who keeps fleeing men at the altar. She was eight years removed from doing exactly that to Kiefer Sutherland. A decade later came _Eat Pray Love_, where she anchored a film about a woman who walks out of a marriage and crosses three continents chasing pleasure and meaning. It is the Seven's escape engine rendered as a two-hour feature: when the life you built starts to feel like a box, you leave it and go looking for the next bright thing.
+
+Then there's the exception, and it's the one that won.
+
+_Erin Brockovich_ made Roberts the first woman ever paid $20 million for a single film, and in 2001 it won her the Academy Award for Best Actress. The character is everything the Seven is built to flee: a woman who plants herself in front of a power company and refuses to be deflected, charmed off, or moved. No reframe. No way out. Just relentless, unglamorous pursuit. The most practiced escape artist in Hollywood took her only competitive Oscar for the one role with nowhere to run.
+
+She accepted it like a Seven, too. Handed the standard 45 seconds, she talked for nearly four minutes and waved off the conductor trying to play her offstage. "Sir, you're so quick with that stick. So why don't you sit, 'cause I may never be here again." For once she refused to be hurried toward the exit, because for once she didn't want to take it.
 
 ## The Pretty Woman Laugh Was an Accident
 
@@ -149,8 +162,6 @@ The early-1990s "difficult" reputation lived right here. A 1994 _Premiere_ profi
 The estrangements run deep, too. Her older brother, the actor Eric Roberts, spent years on the outs with her. "If it wasn't for me, there would be no Julia Roberts and no Emma Roberts as celebrities," he told _Vanity Fair_ in 2018 — the kind of line that tends to keep a door shut. She has summarized the relationship in two words: "We don't speak."
 
 Concede the obvious: that is not America's Sweetheart. That's a woman with a blade. The point isn't to excuse it — it's that the same person produces both the laugh and the cut, and the [stress slide](/enneagram-corner/enneagram-types-in-stress) explains why. When the reframe fails and she feels cornered, the Eight-winged Seven doesn't get sad. She gets sharp.
-
-You can see it years later, too, in miniature. Asked on Oprah's show about the infamous hand-lettered "A Low Vera" T-shirt she'd worn to needle her husband's ex-wife, she didn't apologize or soften. "I stand by my shirt," she said. Cornered, she planted her feet. That's not the sweetheart. That's the wing.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Julia Roberts</summary>
@@ -178,11 +189,15 @@ The popular online typing is **6w7**, and it isn't crazy. Her ferocious loyalty 
 
 ## How Julia Roberts Finally Stopped Running
 
-In 2002, she married Danny Moder, a cameraman she met on a film set. As of 2025 they've been together twenty-three years — an eternity by Hollywood's clock, and a near-impossibility for the woman who couldn't make it to the church in 1991.
+In 2002, she married Danny Moder, and the anchor that finally held her did not arrive clean. She met him on the set of _The Mexican_ in 2000, when he was a cameraman married to a makeup artist named Vera Steimberg and she was dating Benjamin Bratt. Both relationships came apart in the wake of it. The most beloved woman in America had, in the plainest terms, helped end someone else's marriage to start her own.
+
+It is the one chapter that genuinely dented the sweetheart brand, and she has never performed remorse about it. Asked years later on Oprah's show about the hand-lettered "A Low Vera" T-shirt she'd worn to needle Steimberg, she didn't soften. "I stand by my shirt," she said. The redemption arc has a complicated root: the exit she finally stopped using was one she'd walked through someone else's marriage to reach.
+
+And then she stopped. As of 2025 she and Moder have been together twenty-three years, an eternity by Hollywood's clock, and a near-impossibility for the woman who couldn't make it to the church in 1991.
 
 What changed wasn't the wiring. It was what she found. On _SmartLess_ in 2025 she put it plainly: "My life could have gone off the rails a hundred different ways in the last 25 years, were it not for finding my person." Moder, she said, is her best friend "but also the only person I want to make out with." This is a Seven describing the thing the type almost never gets: a commitment that reads as freedom rather than confinement. The anchor that doesn't feel like a chain.
 
-The integration shows up everywhere once you look. The drift from breadth toward depth. The willingness to disappear into family life on a New Mexico ranch and a San Francisco home, sharing only throwback photos of her twins because she won't, in her words, infringe on their privacy. The Seven who once kept every exit open chose, deliberately, to build one room she'd never want to leave.
+The integration shows up everywhere once you look. The drift from breadth toward depth. The willingness to disappear into family life on a New Mexico ranch and a San Francisco home, sharing only throwback photos of her twins because she won't, in her words, infringe on their privacy. The Seven who once kept every exit open chose, deliberately, to stop checking for them.
 
 She didn't stop being who she is. She's still the woman who calls modern fame "exhausting," who told British _Vogue_ in 2024 that she credits her contentment to "good genes, leading a life that is fulfilling, and the love of a good man." The lightness is intact. She just stopped needing it as a weapon against being trapped — because, for once, she wasn't.
 
@@ -220,5 +235,21 @@ What's already working:
 - The "She was not to be held" After the Hunt close is a real ending, not a formula ending — the swap test holds, the line belongs only to her.
 - The 23-year-old / 23-years-married callback is a clean device that pays off without being announced.
 - The Coretta Scott King birth detail is the kind of specific, unexpected fact that makes a reader trust the writer.
+-->
+
+<!-- SECOND PASS NOTES (2026-05-29)
+Addressed:
+- Landed the Oscar as a thesis beat. New H2 "Why Julia Roberts Keeps Playing Women Who Bolt" maps her filmography onto the escape pattern (Runaway Bride echoing her own jilted 1991 altar-bolt; Eat Pray Love as the Seven escape engine rendered as a feature) and then turns on the inversion: Erin Brockovich, the $20M first, and the 2001 Best Actress Oscar all came for the one role with no exit. Folded in the 4-minute speech ("I may never be here again") as the Seven refusing to be hustled offstage. Verified via Oscars speech DB + Erin Brockovich coverage.
+- Faced the Moder affair directly in "How Julia Roberts Finally Stopped Running": met Moder on The Mexican (2000) while he was married to Vera Steimberg and she was with Benjamin Bratt, both relationships ended, redemption anchor has a complicated root. Relocated the "A Low Vera" / "I stand by my shirt" beat here (out of the stress section) so it reads as unrepentance about the affair rather than generic wing-sharpness. Verified the Moder/Steimberg/Bratt meeting.
+- De-duplicated: cut Lyle Lovett from the diagnosis-section list so the "ball and chain" quote debuts fresh in section 3; moved the $20M salary stat out of diagnosis into the new films beat so Brockovich isn't spent twice.
+- Light metaphor trim: section 7's "build one room she'd never want to leave" -> "stop checking for them" so it stops pre-spending the ending's door payoff.
+
+Kept as-is:
+- The Pretty Woman laugh-as-accident section and the After the Hunt "She was not to be held" ending (strongest beats; ending swap-test still passes).
+- The 23-year-old / 23-years-married callback and the Coretta Scott King birth detail.
+
+Still open:
+- lastmod intentionally not modified (user-managed).
+- Did not pull in Steel Magnolias / My Best Friend's Wedding / Notting Hill / Ocean's Eleven; the three films in the new beat carry the pattern without bloating the piece. An editor wanting fuller filmography can graft them in.
 -->
 

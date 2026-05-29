@@ -8,6 +8,7 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { onMount } from 'svelte';
+	import { Button } from '$lib/components/atoms';
 	import type { PageData, ActionData } from './$types';
 
 	let { data, form }: { data: PageData; form: ActionData } = $props();
@@ -127,7 +128,7 @@
 				<strong>What's next?</strong><br />
 				We'll reach out soon to confirm your session time and share any preparation materials.
 			</p>
-			<a href="https://9takes.com" class="btn btn-primary">Visit 9takes</a>
+			<Button href="https://9takes.com">Visit 9takes</Button>
 		</div>
 	{:else}
 		<!-- Header -->
@@ -512,22 +513,20 @@
 					<p class="privacy-note">
 						Your responses are private and will only be used to prepare for your coaching sessions.
 					</p>
-					<button type="submit" class="btn btn-primary btn-large" disabled={isSubmitting}>
-						{isSubmitting ? 'Submitting...' : 'Submit Intake Form'}
-					</button>
+					<Button type="submit" size="lg" loading={isSubmitting}>Submit Intake Form</Button>
 				</div>
 			</section>
 
 			<!-- Navigation -->
 			<div class="form-navigation">
 				{#if currentSection > 1}
-					<button type="button" class="btn btn-secondary" onclick={prevSection}> Previous </button>
+					<Button type="button" variant="secondary" onclick={prevSection}>Previous</Button>
 				{:else}
 					<div></div>
 				{/if}
 
 				{#if currentSection < totalSections}
-					<button type="button" class="btn btn-primary" onclick={nextSection}> Next </button>
+					<Button type="button" onclick={nextSection}>Next</Button>
 				{/if}
 			</div>
 		</form>
@@ -756,59 +755,6 @@
 		display: flex;
 		justify-content: space-between;
 		margin-top: 1rem;
-	}
-
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.75rem 1.5rem;
-		border: 1px solid transparent;
-		border-radius: 8px;
-		font-size: 0.95rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition:
-			background-color 0.2s ease,
-			border-color 0.2s ease,
-			box-shadow 0.2s ease,
-			transform 0.2s ease;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--night-deep);
-	}
-
-	.btn-primary:hover {
-		background: color-mix(in srgb, var(--lamp-glow) 88%, var(--ink-bright));
-		box-shadow: var(--glow-sm);
-		transform: translateY(-1px);
-	}
-
-	.btn-primary:disabled {
-		background: color-mix(in srgb, var(--lamp-glow) 45%, var(--stone-warm));
-		color: var(--ink-mid);
-		cursor: not-allowed;
-		box-shadow: none;
-		transform: none;
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		border-color: var(--stone-edge);
-		color: var(--ink-mid);
-	}
-
-	.btn-secondary:hover {
-		background: var(--night-deep);
-		color: var(--ink-bright);
-	}
-
-	.btn-large {
-		padding: 1rem 2rem;
-		font-size: 1rem;
 	}
 
 	/* Submit Section */

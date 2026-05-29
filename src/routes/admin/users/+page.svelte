@@ -7,6 +7,7 @@
 	import { convertDateToReadable } from '../../../utils/conversions';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
+	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
 
@@ -729,16 +730,8 @@
 		</div>
 
 		<div class="modal-actions">
-			<button
-				type="button"
-				class="btn btn-secondary"
-				onclick={() => getModal('user-modal').close()}
-			>
-				Cancel
-			</button>
-			<button type="button" class="btn btn-primary" onclick={saveUserAdminChanges}>
-				Save Changes
-			</button>
+			<Button variant="secondary" onclick={() => getModal('user-modal').close()}>Cancel</Button>
+			<Button onclick={saveUserAdminChanges}>Save Changes</Button>
 		</div>
 	</div>
 </Modal>
@@ -1281,35 +1274,6 @@
 		gap: 10px;
 	}
 
-	.btn {
-		padding: 10px 18px;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		border-radius: 6px;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-		border: 1px solid var(--stone-warm);
-	}
-
-	.btn-secondary:hover {
-		background: var(--night-deep);
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		border: none;
-	}
-
-	.btn-primary:hover {
-		opacity: 0.85;
-	}
-
 	/* Mobile */
 	@media (max-width: 768px) {
 		.page-header {
@@ -1406,15 +1370,15 @@
 
 		.data-table td {
 			display: grid;
-			grid-template-columns: minmax(84px, 0.85fr) minmax(0, 1fr);
-			gap: 0.75rem;
+			grid-template-columns: minmax(70px, 0.55fr) minmax(0, 1fr);
+			gap: 0.4rem 0.75rem;
 			padding: 0;
 			border-bottom: none;
-			align-items: start;
+			align-items: center;
 		}
 
 		.data-table td + td {
-			margin-top: 0.7rem;
+			margin-top: 0.55rem;
 		}
 
 		.data-table td::before {
@@ -1426,8 +1390,14 @@
 			color: var(--ink-mid);
 		}
 
+		/* Badges and values hug their content instead of stretching across the cell */
+		.data-table td > :not(.action-buttons) {
+			justify-self: start;
+		}
+
 		.data-table td[data-label='Actions'] {
 			grid-template-columns: 1fr;
+			align-items: start;
 		}
 
 		.data-table td[data-label='Actions']::before {
@@ -1443,7 +1413,7 @@
 
 		.email-link {
 			overflow-wrap: anywhere;
-			word-break: break-word;
+			font-weight: 600;
 		}
 
 		.date-cell {

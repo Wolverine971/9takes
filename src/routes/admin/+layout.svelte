@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
+	import { Button } from '$lib/components/atoms';
 	import type { LayoutData } from './$types';
 
 	let { data }: { data: LayoutData } = $props();
@@ -105,7 +106,7 @@
 		<div class="error-container">
 			<h1>Access Denied</h1>
 			<p>You don't have permission to access this area.</p>
-			<a href="/" class="btn btn-primary">Go to Home</a>
+			<Button href="/">Go to Home</Button>
 		</div>
 	</div>
 {/if}

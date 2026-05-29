@@ -5,10 +5,8 @@
 	// Canonical Button atom — locked 2026-05-04 per docs/design-system.md §11.
 	// Visual spec is rendered at /styleguide §11.
 	//
-	// Replaces:
-	//   - inline `bg-gradient-to-r from-[var(--lamp-glow)]...` button strings
-	//   - LoadingButton.svelte (kept around until callers migrate; do not import
-	//     LoadingButton in new code)
+	// The single button system. Replaces the old inline gradient button strings,
+	// the global `.btn`/`.btn-*` classes, and LoadingButton (all removed 2026-05-29).
 	//
 	// Variants:
 	//   primary    — solid lamp-glow bg, dark text. Default brand action.

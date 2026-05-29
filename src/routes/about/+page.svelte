@@ -1,6 +1,7 @@
 <!-- src/routes/about/+page.svelte -->
 
 <script lang="ts">
+	import { Button } from '$lib/components/atoms';
 	import twitter from '$lib/images/twitter.svg';
 
 	let showEmail = $state(false);
@@ -120,8 +121,8 @@
 			compare how other Enneagram types read the same situation.
 		</p>
 		<div class="hero-actions">
-			<a href="/questions" class="btn-primary">Browse Questions</a>
-			<a href="/enneagram-corner" class="btn-secondary">Learn the System</a>
+			<Button href="/questions">Browse Questions</Button>
+			<Button href="/enneagram-corner" variant="secondary">Learn the System</Button>
 		</div>
 	</section>
 
@@ -299,12 +300,12 @@
 			<article class="cta-card primary">
 				<h3>See the 9 perspectives</h3>
 				<p>Answer real questions and compare how different types respond.</p>
-				<a href="/questions" class="btn-primary">Browse Questions</a>
+				<Button href="/questions">Browse Questions</Button>
 			</article>
 			<article class="cta-card">
 				<h3>Learn the patterns</h3>
 				<p>Understand the types, centers, instincts, and blind spots.</p>
-				<a href="/enneagram-corner" class="btn-secondary">Read the Guides</a>
+				<Button href="/enneagram-corner" variant="secondary">Read the Guides</Button>
 			</article>
 		</div>
 		<p class="coaching-hint">
@@ -319,9 +320,7 @@
 		<p>Reach out. I read everything.</p>
 
 		{#if !showEmail}
-			<button type="button" class="contact-btn" onclick={() => (showEmail = true)}>
-				Get in Touch
-			</button>
+			<Button type="button" onclick={() => (showEmail = true)}>Get in Touch</Button>
 		{:else}
 			<div class="email-info">
 				<p>
@@ -356,8 +355,7 @@
 		margin-bottom: 4rem;
 	}
 
-	.about-page a,
-	.about-page button {
+	.about-page a {
 		&:focus-visible {
 			outline: 2px solid var(--lamp-glow);
 			outline-offset: 3px;
@@ -445,59 +443,6 @@
 
 	.hero-actions {
 		margin-top: 1.35rem;
-	}
-
-	.btn-primary,
-	.btn-secondary,
-	.contact-btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		min-height: 2.9rem;
-		padding: 0.85rem 1.35rem;
-		border-radius: 8px;
-		font-family: var(--font-display);
-		font-size: 1rem;
-		font-weight: 700;
-		text-decoration: none;
-		cursor: pointer;
-		transition:
-			transform 180ms ease,
-			border-color 180ms ease,
-			background 180ms ease,
-			box-shadow 180ms ease;
-	}
-
-	.btn-primary,
-	.contact-btn {
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		color: var(--text-on-primary);
-		box-shadow: 0 10px 24px color-mix(in srgb, var(--lamp-glow) 16%, transparent);
-	}
-
-	.btn-secondary {
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 25%, transparent);
-		background: color-mix(in srgb, var(--night-deep) 86%, transparent);
-		color: var(--ink-mid);
-	}
-
-	.btn-primary:hover,
-	.btn-secondary:hover,
-	.contact-btn:hover {
-		transform: translateY(-2px);
-	}
-
-	.btn-primary:hover,
-	.contact-btn:hover {
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		box-shadow: 0 14px 30px color-mix(in srgb, var(--lamp-glow) 22%, transparent);
-	}
-
-	.btn-secondary:hover {
-		border-color: color-mix(in srgb, var(--lamp-glow) 38%, transparent);
-		background: var(--primary-subtle);
-		color: var(--lamp-glow);
 	}
 
 	.opening-grid {
@@ -968,10 +913,7 @@
 			align-items: stretch;
 		}
 
-		.hero-actions .btn-primary,
-		.hero-actions .btn-secondary,
-		.social-btn,
-		.contact-btn {
+		.social-btn {
 			width: 100%;
 		}
 

@@ -695,41 +695,11 @@ figure {
 }
 
 /*==============================================
-  BUTTONS
+  BUTTONS — global `.btn` removed 2026-05-29.
+  All buttons use the <Button> atom (atoms/Button.svelte), which owns its
+  own scoped `.btn` styling. The old global `.btn` (with a white-shimmer
+  `::after`) was leaking onto atom buttons; removing it makes them match spec.
 ==============================================*/
-.btn {
-	display: inline-block;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 0.625rem; /* 10px — matches Button atom */
-	font-size: 16px;
-	cursor: pointer;
-	transition: var(--transition-glow);
-	position: relative;
-	overflow: hidden;
-
-	&::after {
-		content: '';
-		position: absolute;
-		width: 0;
-		height: 100%;
-		top: 0;
-		right: 0;
-		background-color: rgba(255, 255, 255, 0.1);
-		transition: all 0.3s ease;
-	}
-
-	&:hover::after {
-		left: 0;
-		width: 100%;
-	}
-
-	&:focus-visible {
-		outline: 2px solid var(--primary);
-		outline-offset: 2px;
-	}
-}
-
 .disabled {
 	background-color: var(--bg-elevated);
 	color: var(--text-muted);

@@ -1,6 +1,7 @@
 <!-- src/lib/components/marketing/ContentEditor.svelte -->
 <script lang="ts">
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
+	import { Button } from '$lib/components/atoms';
 
 	let {
 		contentItem = null,
@@ -320,7 +321,7 @@
 					</div>
 				</div>
 			{/each}
-			<button type="button" class="btn btn-secondary" onclick={addThreadBlock}>Add Tweet</button>
+			<Button variant="secondary" onclick={addThreadBlock}>Add Tweet</Button>
 		{:else}
 			<textarea
 				name="content_text"
@@ -334,10 +335,10 @@
 	</div>
 
 	<div class="form-actions">
-		<button type="submit" class="btn btn-primary">
+		<Button type="submit">
 			{contentItem ? 'Update' : 'Create'} Content
-		</button>
-		<button type="button" class="btn btn-secondary" onclick={() => oncancel?.()}>Cancel</button>
+		</Button>
+		<Button variant="secondary" onclick={() => oncancel?.()}>Cancel</Button>
 	</div>
 </form>
 
@@ -346,12 +347,12 @@
 		<div class="modal-dialog" onclick={(e) => e.stopPropagation()} role="dialog">
 			<h3 class="modal-title">Are you sure you want to delete this tweet?</h3>
 			<div class="modal-actions">
-				<button class="btn btn-danger" onclick={() => deleteThreadBlock(blockToDelete!)}>
+				<Button variant="danger" onclick={() => deleteThreadBlock(blockToDelete!)}>
 					Yes, I'm sure
-				</button>
-				<button class="btn btn-secondary" onclick={() => (showDeleteConfirmation = false)}>
+				</Button>
+				<Button variant="secondary" onclick={() => (showDeleteConfirmation = false)}>
 					No, cancel
-				</button>
+				</Button>
 			</div>
 		</div>
 	</div>
@@ -550,44 +551,6 @@
 		display: flex;
 		justify-content: flex-end;
 		gap: 1rem;
-	}
-
-	.btn {
-		padding: 0.5rem 1.5rem;
-		font-size: 0.875rem;
-		font-weight: 500;
-		border-radius: 8px;
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover {
-		filter: brightness(1.1);
-		box-shadow: var(--glow-sm);
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-secondary:hover {
-		background: var(--stone-warm);
-	}
-
-	.btn-danger {
-		background: #ef4444;
-		color: white;
-	}
-
-	.btn-danger:hover {
-		background: #dc2626;
 	}
 
 	/* Modal */

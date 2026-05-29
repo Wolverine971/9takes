@@ -7,153 +7,12 @@
 @use 'mixins' as *;
 
 /*==============================================
-  BUTTON COMPONENTS - Warm Tech Style
+  BUTTON COMPONENTS — removed 2026-05-29
+  The global `.btn-*` system was fully migrated to the <Button> atom
+  (src/lib/components/atoms/Button.svelte). All button markup now uses
+  the atom; these shared classes are gone to keep ONE button system.
+  Responsive/layout tweaks on atom buttons use `.parent :global(.btn) { … }`.
 ==============================================*/
-.btn-base {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding: 0.75rem 1.25rem;
-	border: none;
-	border-radius: 0.625rem; /* 10px — matches Button atom (rounded-md) */
-	font-size: 1rem;
-	font-weight: 600; /* matches Button atom */
-	cursor: pointer;
-	transition: var(--transition-glow);
-	text-decoration: none;
-	position: relative;
-	overflow: hidden;
-
-	&:focus-visible {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-	}
-
-	&:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
-		transform: none !important;
-		box-shadow: none !important;
-	}
-}
-
-.btn-primary {
-	@extend .btn-base !optional;
-	/* Solid amber, dark text — matches Button atom. No fake gradient, no resting glow. */
-	background: var(--lamp-glow);
-	color: var(--cta-text, var(--night-deep));
-	border: 1px solid var(--lamp-glow);
-
-	&:hover:not(:disabled) {
-		background: var(--lamp-deep);
-		border-color: var(--lamp-deep);
-	}
-}
-
-.btn-secondary {
-	@extend .btn-base !optional;
-	background: transparent;
-	color: var(--lamp-glow);
-	border: 1px solid var(--lamp-glow);
-
-	&:hover:not(:disabled) {
-		background: var(--primary-subtle);
-		transform: translateY(-2px);
-		box-shadow: var(--glow-sm);
-	}
-}
-
-.btn-hub-primary {
-	@extend .btn-base !optional;
-	padding: 0.75rem 1.5rem;
-	border-radius: 0.625rem;
-	/* Solid amber, dark text — was light --ink-bright on amber (failed contrast). */
-	background: var(--lamp-glow);
-	font-size: 0.875rem;
-	font-weight: 600;
-	color: var(--cta-text, var(--night-deep));
-
-	&:hover:not(:disabled) {
-		background: var(--lamp-deep);
-		transform: translateY(-2px);
-	}
-}
-
-.btn-hub-secondary {
-	@extend .btn-base !optional;
-	padding: 0.75rem 1.5rem;
-	border-radius: 0.5rem;
-	background: color-mix(in srgb, var(--primary-subtle) 62%, transparent);
-	border: 1px solid color-mix(in srgb, var(--lamp-glow) 25%, transparent);
-	font-size: 0.875rem;
-	font-weight: 600;
-	color: var(--ink-mid);
-
-	&:hover:not(:disabled) {
-		background: var(--primary-subtle);
-		border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
-		color: var(--lamp-glow);
-		transform: translateY(-2px);
-	}
-}
-
-.btn-pill-primary {
-	@extend .btn-base !optional;
-	width: 100%;
-	border-radius: 999px;
-	background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-	box-shadow:
-		var(--shadow-md),
-		0 0 20px color-mix(in srgb, var(--lamp-glow) 14%, transparent);
-	padding: 0.9rem 1.75rem;
-	font-size: 1rem;
-	font-weight: 700;
-	/* dark text on amber — was light --text-on-dark on amber (failed contrast). */
-	color: var(--cta-text, var(--night-deep));
-
-	&:hover:not(:disabled) {
-		transform: translateY(-1px);
-		box-shadow:
-			var(--shadow-lg),
-			0 0 28px color-mix(in srgb, var(--lamp-glow) 22%, transparent);
-		filter: brightness(1.06);
-	}
-}
-
-.btn-outline {
-	@extend .btn-base !optional;
-	background-color: transparent;
-	color: var(--lamp-glow);
-	border: 1px solid var(--lamp-glow);
-
-	&:hover:not(:disabled) {
-		background: var(--primary-subtle);
-		color: var(--text-on-primary);
-		transform: translateY(-2px);
-		box-shadow: var(--glow-sm);
-	}
-}
-
-.btn-ghost {
-	@extend .btn-base !optional;
-	background-color: transparent;
-	color: var(--ink-bright);
-
-	&:hover:not(:disabled) {
-		background-color: var(--stone-warm);
-		color: var(--lamp-glow);
-	}
-}
-
-.btn-sm {
-	padding: 0.5rem 1rem;
-	font-size: 0.875rem;
-}
-
-.btn-lg {
-	padding: 1rem 2rem;
-	font-size: 1.125rem;
-}
 
 /*==============================================
   CARD COMPONENTS - Warm Tech Style
@@ -1104,16 +963,10 @@
 	.card-hover-effect:hover {
 		transform: none;
 	}
-
-	.btn-primary:hover,
-	.btn-secondary:hover {
-		transform: none;
-	}
 }
 
 /* High contrast mode support */
 @media (prefers-contrast: high) {
-	.btn-base,
 	.form-input,
 	.card-base {
 		border-width: 2px;

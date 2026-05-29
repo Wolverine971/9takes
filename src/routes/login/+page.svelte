@@ -14,7 +14,7 @@
 	import { invalidateAll } from '$app/navigation';
 	import type { SubmitFunction } from '@sveltejs/kit';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
-	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import { Button } from '$lib/components/atoms';
 	import {
 		ensureRecaptchaLoaded,
 		reloadRecaptchaWidget,
@@ -147,17 +147,9 @@
 		{#if captchaRequired}
 			<div bind:this={captchaContainer}></div>
 		{/if}
-		<LoadingButton
-			type="submit"
-			variant="primary"
-			size="lg"
-			fullWidth
-			{loading}
-			loadingText="Logging in..."
-			className="mt-4"
-		>
+		<Button type="submit" variant="primary" size="lg" fullWidth {loading} class="mt-4">
 			Login
-		</LoadingButton>
+		</Button>
 	</form>
 	<div class="forgot-password" in:fly={{ y: 20, duration: 300, delay: 450 }}>
 		<a href="/forgotPassword">Forgot Password?</a>

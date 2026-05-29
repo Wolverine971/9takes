@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { formatDurationMs } from '$lib/analytics/pageAnalytics';
+	import { Button } from '$lib/components/atoms';
 	import {
 		buildAcquisitionMixChart,
 		formatAcquisitionSourceLabel,
@@ -495,12 +496,12 @@
 		</label>
 	</div>
 	<div class="filter-actions">
-		<button class="btn btn-primary" onclick={applyFilters} disabled={loading}>Apply</button>
-		<button class="btn btn-secondary" onclick={resetFilters} disabled={loading}>Reset</button>
+		<Button onclick={applyFilters} disabled={loading}>Apply</Button>
+		<Button variant="secondary" onclick={resetFilters} disabled={loading}>Reset</Button>
 		{#if selectedSurface || selectedSource}
-			<button class="btn btn-secondary" onclick={clearDrilldown} disabled={loading}>
+			<Button variant="secondary" onclick={clearDrilldown} disabled={loading}>
 				Clear drill-down
-			</button>
+			</Button>
 		{/if}
 	</div>
 	<p class="cohort-note">
@@ -1123,30 +1124,10 @@
 		margin-top: 10px;
 	}
 
-	.btn {
-		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
-		padding: 8px 12px;
-		font-weight: 600;
-		cursor: pointer;
-	}
-
-	.btn:disabled,
 	.table-action:disabled,
 	.acquisition-source-row:disabled {
 		opacity: 0.5;
 		cursor: not-allowed;
-	}
-
-	.btn-primary {
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		color: #fff;
-		border-color: var(--lamp-glow);
-	}
-
-	.btn-secondary {
-		background: var(--night-deep);
-		color: var(--ink-bright);
 	}
 
 	.cohort-note {

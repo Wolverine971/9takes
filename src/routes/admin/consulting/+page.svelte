@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
+	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 	import type { EmailRecipient } from '$lib/types/email';
@@ -323,39 +324,43 @@
 			<p class="subtitle">Your coaching practice at a glance</p>
 		</div>
 		<div class="header-actions">
-			<a href="/admin/consulting/clients" class="btn btn-secondary">
-				<svg
-					aria-hidden="true"
-					width="16"
-					height="16"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-				>
-					<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-					<circle cx="9" cy="7" r="4" />
-					<path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
-				</svg>
+			<Button href="/admin/consulting/clients" variant="secondary">
+				{#snippet icon()}
+					<svg
+						aria-hidden="true"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+						<circle cx="9" cy="7" r="4" />
+						<path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+					</svg>
+				{/snippet}
 				<span>All Clients</span>
-			</a>
-			<a href="/admin/consulting/sessions" class="btn btn-primary">
-				<svg
-					aria-hidden="true"
-					width="16"
-					height="16"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-				>
-					<rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-					<line x1="16" y1="2" x2="16" y2="6" />
-					<line x1="8" y1="2" x2="8" y2="6" />
-					<line x1="3" y1="10" x2="21" y2="10" />
-				</svg>
+			</Button>
+			<Button href="/admin/consulting/sessions">
+				{#snippet icon()}
+					<svg
+						aria-hidden="true"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+						<line x1="16" y1="2" x2="16" y2="6" />
+						<line x1="8" y1="2" x2="8" y2="6" />
+						<line x1="3" y1="10" x2="21" y2="10" />
+					</svg>
+				{/snippet}
 				<span>Schedule Session</span>
-			</a>
+			</Button>
 		</div>
 	</header>
 
@@ -564,21 +569,23 @@
 						</div>
 						<p>No upcoming sessions scheduled</p>
 						<p class="empty-hint">Schedule your next client session to see it here</p>
-						<a href="/admin/consulting/sessions" class="btn btn-primary">
-							<svg
-								aria-hidden="true"
-								width="16"
-								height="16"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="2"
-							>
-								<line x1="12" y1="5" x2="12" y2="19" />
-								<line x1="5" y1="12" x2="19" y2="12" />
-							</svg>
+						<Button href="/admin/consulting/sessions">
+							{#snippet icon()}
+								<svg
+									aria-hidden="true"
+									width="16"
+									height="16"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<line x1="12" y1="5" x2="12" y2="19" />
+									<line x1="5" y1="12" x2="19" y2="12" />
+								</svg>
+							{/snippet}
 							Schedule Session
-						</a>
+						</Button>
 					</div>
 				{:else}
 					<ul class="session-list" aria-label="Upcoming sessions">
@@ -616,30 +623,33 @@
 										</span>
 									{/if}
 								</div>
-								<a
+								<Button
 									href={session.client?.id
 										? `/admin/consulting/clients/${session.client.id}#notes`
 										: '#'}
-									class="btn btn-sm btn-secondary"
+									variant="secondary"
+									size="sm"
 									aria-label="View notes for {session.client?.name || 'client'}"
 									aria-disabled={!session.client?.id}
 								>
-									<svg
-										aria-hidden="true"
-										width="14"
-										height="14"
-										viewBox="0 0 24 24"
-										fill="none"
-										stroke="currentColor"
-										stroke-width="2"
-									>
-										<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-										<polyline points="14 2 14 8 20 8" />
-										<line x1="16" y1="13" x2="8" y2="13" />
-										<line x1="16" y1="17" x2="8" y2="17" />
-									</svg>
+									{#snippet icon()}
+										<svg
+											aria-hidden="true"
+											width="14"
+											height="14"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+										>
+											<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+											<polyline points="14 2 14 8 20 8" />
+											<line x1="16" y1="13" x2="8" y2="13" />
+											<line x1="16" y1="17" x2="8" y2="17" />
+										</svg>
+									{/snippet}
 									Notes
-								</a>
+								</Button>
 							</li>
 						{/each}
 					</ul>
@@ -749,16 +759,16 @@
 				{:else if filteredWaitlist.length === 0}
 					<div class="empty-state" role="status">
 						<p>No results match your search</p>
-						<button
-							type="button"
-							class="btn btn-secondary btn-sm"
+						<Button
+							variant="secondary"
+							size="sm"
 							onclick={() => {
 								waitlistSearch = '';
 								showConvertedOnly = false;
 							}}
 						>
 							Clear filters
-						</button>
+						</Button>
 					</div>
 				{:else}
 					<div class="waitlist-table-wrapper" role="region" aria-label="Waitlist entries">
@@ -862,35 +872,40 @@
 										</td>
 										<td class="action-cell" data-label="Actions">
 											<div class="action-buttons">
-												<button
-													type="button"
-													class="btn btn-sm btn-secondary btn-action"
+												<Button
+													variant="secondary"
+													size="sm"
+													class="btn-action"
 													onclick={() => openEmailForWaitlist(entry)}
 												>
-													<svg
-														aria-hidden="true"
-														width="14"
-														height="14"
-														viewBox="0 0 24 24"
-														fill="none"
-														stroke="currentColor"
-														stroke-width="2"
-													>
-														<path
-															d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-														/>
-														<polyline points="22,6 12,13 2,6" />
-													</svg>
+													{#snippet icon()}
+														<svg
+															aria-hidden="true"
+															width="14"
+															height="14"
+															viewBox="0 0 24 24"
+															fill="none"
+															stroke="currentColor"
+															stroke-width="2"
+														>
+															<path
+																d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+															/>
+															<polyline points="22,6 12,13 2,6" />
+														</svg>
+													{/snippet}
 													Email
-												</button>
+												</Button>
 												{#if entry.isConverted && entry.clientId}
-													<a
+													<Button
 														href="/admin/consulting/clients/{entry.clientId}"
-														class="btn btn-sm btn-secondary btn-action"
+														variant="secondary"
+														size="sm"
+														class="btn-action"
 														aria-label="View {entry.name}'s client profile"
 													>
 														View Client
-													</a>
+													</Button>
 												{:else}
 													<form
 														method="POST"
@@ -912,16 +927,14 @@
 														}}
 													>
 														<input type="hidden" name="waitlistId" value={entry.id} />
-														<button
+														<Button
 															type="submit"
-															class="btn btn-sm btn-primary btn-convert btn-action"
-															disabled={promotingId === String(entry.id)}
+															size="sm"
+															class="btn-convert btn-action"
+															loading={promotingId === String(entry.id)}
 															aria-label="Convert {entry.name} to client"
 														>
-															{#if promotingId === String(entry.id)}
-																<span class="loading-spinner" aria-hidden="true"></span>
-																Converting...
-															{:else}
+															{#snippet icon()}
 																<svg
 																	aria-hidden="true"
 																	width="14"
@@ -936,9 +949,9 @@
 																	<line x1="20" y1="8" x2="20" y2="14" />
 																	<line x1="23" y1="11" x2="17" y2="11" />
 																</svg>
-																Convert
-															{/if}
-														</button>
+															{/snippet}
+															{promotingId === String(entry.id) ? 'Converting...' : 'Convert'}
+														</Button>
 													</form>
 												{/if}
 											</div>
@@ -1415,14 +1428,12 @@
 
 			<div class="person-modal-footer">
 				{#if selectedPerson.isConverted && selectedPerson.clientId}
-					<a href="/admin/consulting/clients/{selectedPerson.clientId}" class="btn btn-secondary">
+					<Button href="/admin/consulting/clients/{selectedPerson.clientId}" variant="secondary">
 						Open Client Page
-					</a>
+					</Button>
 				{/if}
-				<button type="button" class="btn btn-secondary" onclick={emailSelectedPerson}>
-					Email Person
-				</button>
-				<button type="button" class="btn btn-primary" onclick={closePersonDetails}>Close</button>
+				<Button variant="secondary" onclick={emailSelectedPerson}>Email Person</Button>
+				<Button onclick={closePersonDetails}>Close</Button>
 			</div>
 		</div>
 	</div>
@@ -2493,64 +2504,9 @@
 	/* ==========================================
 	   BUTTONS
 	   ========================================== */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: 8px;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		cursor: pointer;
-		text-decoration: none;
-		transition: all 0.2s ease;
-	}
-
-	.btn:focus {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-	}
-
-	.btn-sm {
-		padding: 0.375rem 0.75rem;
-		font-size: 0.75rem;
-		gap: 0.375rem;
-	}
-
+	/* Button visuals now owned by the Button atom; only layout helpers remain. */
 	.btn-action {
 		min-width: 5.5rem;
-	}
-
-	.btn-icon {
-		padding: 0.375rem;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover:not(:disabled) {
-		background: var(--lamp-deep);
-	}
-
-	.btn-secondary {
-		background: var(--stone-mid);
-		color: var(--ink-bright);
-		border: 1px solid var(--stone-edge);
-	}
-
-	.btn-secondary:hover {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		border-color: var(--lamp-glow);
-	}
-
-	.btn:disabled {
-		opacity: 0.6;
-		cursor: not-allowed;
 	}
 
 	/* ==========================================
@@ -2809,7 +2765,7 @@
 			justify-content: stretch;
 		}
 
-		.header-actions .btn {
+		.header-actions :global(.btn) {
 			flex: 1;
 		}
 
@@ -3030,7 +2986,7 @@
 			font-size: 1.125rem;
 		}
 
-		.person-modal-footer .btn {
+		.person-modal-footer :global(.btn) {
 			width: 100%;
 		}
 	}

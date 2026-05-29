@@ -1,6 +1,7 @@
 <!-- src/lib/components/blog/BlogInteract.svelte -->
 <script lang="ts">
 	import { deserialize } from '$app/forms';
+	import { Button } from '$lib/components/atoms';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { formatPersonalityDisplayName } from '$lib/utils/personalityAnalysis';
@@ -99,25 +100,25 @@
 </div>
 
 <div class="interaction-div-display">
-	<button
-		class="btn btn-primary flex"
+	{#snippet submitIcon()}
+		<RightIcon
+			iconStyle={'margin-left: .5rem; padding: 0 0.25rem;'}
+			height={'1.5rem'}
+			fill={'var(--lamp-glow)'}
+		/>
+	{/snippet}
+	<Button
 		type="button"
-		style="{comment?.length > 1
+		style={comment?.length > 1
 			? 'color: var(--lamp-glow); border: 1px solid var(--lamp-glow);'
-			: ''} display: flex;"
+			: ''}
 		title="You only YOLO once"
-		on:click={createComment}
+		onclick={createComment}
 		disabled={comment?.length < 1}
+		iconRight={comment?.length >= 1 ? submitIcon : undefined}
 	>
 		Submit Comment
-		{#if comment?.length >= 1}
-			<RightIcon
-				iconStyle={'margin-left: .5rem; padding: 0 0.25rem;'}
-				height={'1.5rem'}
-				fill={'var(--lamp-glow)'}
-			/>
-		{/if}
-	</button>
+	</Button>
 </div>
 
 <style lang="scss">

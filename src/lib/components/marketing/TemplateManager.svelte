@@ -3,6 +3,7 @@
 	import { enhance } from '$app/forms';
 	import { fade, slide } from 'svelte/transition';
 	import type { Template } from '$lib/types/marketing';
+	import { Button } from '$lib/components/atoms';
 
 	let { templates }: { templates: Template[] } = $props();
 
@@ -126,21 +127,23 @@
 					class="search-input"
 				/>
 			</div>
-			<button class="btn btn-primary" onclick={openCreateModal}>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="16"
-					height="16"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-				>
-					<path d="M5 12h14" />
-					<path d="M12 5v14" />
-				</svg>
+			<Button onclick={openCreateModal}>
+				{#snippet icon()}
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<path d="M5 12h14" />
+						<path d="M12 5v14" />
+					</svg>
+				{/snippet}
 				New Template
-			</button>
+			</Button>
 		</div>
 	</div>
 
@@ -228,25 +231,27 @@
 			{#if searchTerm}
 				<h3>No templates match your search</h3>
 				<p>Try a different search term</p>
-				<button class="btn btn-secondary" onclick={() => (searchTerm = '')}>Clear Search</button>
+				<Button variant="secondary" onclick={() => (searchTerm = '')}>Clear Search</Button>
 			{:else}
 				<h3>No templates yet</h3>
 				<p>Create reusable content templates to speed up your workflow</p>
-				<button class="btn btn-primary" onclick={openCreateModal}>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="16"
-						height="16"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-					>
-						<path d="M5 12h14" />
-						<path d="M12 5v14" />
-					</svg>
+				<Button onclick={openCreateModal}>
+					{#snippet icon()}
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path d="M5 12h14" />
+							<path d="M12 5v14" />
+						</svg>
+					{/snippet}
 					Create Template
-				</button>
+				</Button>
 			{/if}
 		</div>
 	{/if}
@@ -294,8 +299,8 @@
 					></textarea>
 				</label>
 				<div class="modal-actions">
-					<button type="button" class="btn btn-secondary" onclick={closeCreateModal}>Cancel</button>
-					<button type="submit" class="btn btn-primary">Create Template</button>
+					<Button variant="secondary" onclick={closeCreateModal}>Cancel</Button>
+					<Button type="submit">Create Template</Button>
 				</div>
 			</form>
 		</div>
@@ -345,8 +350,8 @@
 					></textarea>
 				</label>
 				<div class="modal-actions">
-					<button type="button" class="btn btn-secondary" onclick={closeEditModal}>Cancel</button>
-					<button type="submit" class="btn btn-primary">Save Changes</button>
+					<Button variant="secondary" onclick={closeEditModal}>Cancel</Button>
+					<Button type="submit">Save Changes</Button>
 				</div>
 			</form>
 		</div>
@@ -380,7 +385,7 @@
 					This will permanently delete "{templateToDelete.type}". This action cannot be undone.
 				</p>
 				<div class="modal-actions modal-actions-center">
-					<button class="btn btn-secondary" onclick={cancelDelete}>Cancel</button>
+					<Button variant="secondary" onclick={cancelDelete}>Cancel</Button>
 					<form
 						action="?/deleteTemplate"
 						method="POST"
@@ -393,7 +398,7 @@
 						}}
 					>
 						<input type="hidden" name="id" value={templateToDelete.id} />
-						<button type="submit" class="btn btn-danger">Delete</button>
+						<Button type="submit" variant="danger">Delete</Button>
 					</form>
 				</div>
 			</div>
@@ -619,48 +624,6 @@
 		margin: 0 0 1rem 0;
 		font-size: 0.875rem;
 		color: var(--ink-mid);
-	}
-
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.375rem;
-		padding: 0.5rem 1rem;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		border-radius: 8px;
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover {
-		filter: brightness(1.1);
-		box-shadow: var(--glow-sm);
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-secondary:hover {
-		background: var(--stone-warm);
-	}
-
-	.btn-danger {
-		background: #ef4444;
-		color: white;
-	}
-
-	.btn-danger:hover {
-		background: #dc2626;
 	}
 
 	/* Modals */

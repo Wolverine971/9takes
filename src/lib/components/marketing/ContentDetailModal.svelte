@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { fade, slide } from 'svelte/transition';
 	import type { ContentItem, Campaign } from '$lib/types/marketing';
+	import { Button } from '$lib/components/atoms';
 
 	let {
 		open = $bindable(false),
@@ -286,31 +287,28 @@
 								<path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
 							</svg>
 						</button>
-						<button class="btn btn-primary btn-sm" onclick={enterEditMode}>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="16"
-								height="16"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="2"
-							>
-								<path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
-								<path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
-							</svg>
+						<Button size="sm" onclick={enterEditMode}>
+							{#snippet icon()}
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+									<path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+								</svg>
+							{/snippet}
 							Edit
-						</button>
+						</Button>
 					{:else}
-						<button class="btn btn-secondary btn-sm" onclick={cancelEdit}>Cancel</button>
-						<button class="btn btn-primary btn-sm" onclick={saveChanges} disabled={isSaving}>
-							{#if isSaving}
-								<span class="spinner"></span>
-								Saving...
-							{:else}
-								Save Changes
-							{/if}
-						</button>
+						<Button variant="secondary" size="sm" onclick={cancelEdit}>Cancel</Button>
+						<Button size="sm" onclick={saveChanges} loading={isSaving}>
+							{isSaving ? 'Saving...' : 'Save Changes'}
+						</Button>
 					{/if}
 					<button class="icon-btn" onclick={closeModal} title="Close">
 						<svg
@@ -709,65 +707,6 @@
 
 	.modal-body {
 		padding: 1.25rem;
-	}
-
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.375rem;
-		padding: 0.5rem 1rem;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		border-radius: 8px;
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-sm {
-		padding: 0.375rem 0.75rem;
-		font-size: 0.75rem;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover {
-		filter: brightness(1.1);
-	}
-
-	.btn-primary:disabled {
-		opacity: 0.6;
-		cursor: not-allowed;
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-secondary:hover {
-		background: var(--stone-warm);
-	}
-
-	/* Spinner */
-	.spinner {
-		display: inline-block;
-		width: 14px;
-		height: 14px;
-		border: 2px solid rgba(255, 255, 255, 0.3);
-		border-top-color: white;
-		border-radius: 50%;
-		animation: spin 0.6s linear infinite;
-	}
-
-	@keyframes spin {
-		to {
-			transform: rotate(360deg);
-		}
 	}
 
 	/* View Mode Styles */

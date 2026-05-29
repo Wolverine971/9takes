@@ -12,7 +12,7 @@
 	import { browser } from '$app/environment';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
-	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import { Button } from '$lib/components/atoms';
 	import {
 		ensureRecaptchaLoaded,
 		reloadRecaptchaWidget,
@@ -171,17 +171,9 @@
 			<div bind:this={captchaContainer}></div>
 		{/if}
 
-		<LoadingButton
-			type="submit"
-			variant="primary"
-			size="lg"
-			fullWidth
-			{loading}
-			loadingText="Creating account..."
-			className="mt-2"
-		>
+		<Button type="submit" variant="primary" size="lg" fullWidth {loading} class="mt-2">
 			Register
-		</LoadingButton>
+		</Button>
 	</form>
 	<div class="forgot-link" in:fly={{ y: 20, duration: 300, delay: 450 }}>
 		<a href="/forgotPassword">Forgot Password?</a>

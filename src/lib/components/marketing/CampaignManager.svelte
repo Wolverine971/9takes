@@ -4,6 +4,7 @@
 	import type { Campaign } from '$lib/types/marketing';
 	import { onMount } from 'svelte';
 	import { fade, slide } from 'svelte/transition';
+	import { Button } from '$lib/components/atoms';
 
 	let {
 		campaigns,
@@ -478,44 +479,47 @@
 				</div>
 			</div>
 
-			<button class="btn btn-primary btn-sm" onclick={() => (activeTab = 'create')}>
-				<svg
-					width="16"
-					height="16"
-					fill="none"
-					stroke="currentColor"
-					viewBox="0 0 24 24"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-					></path>
-				</svg>
+			<Button size="sm" onclick={() => (activeTab = 'create')}>
+				{#snippet icon()}
+					<svg
+						width="16"
+						height="16"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+						></path>
+					</svg>
+				{/snippet}
 				Create Campaign
-			</button>
+			</Button>
 		</div>
 
 		{#if filteredCampaigns.length === 0}
 			<div class="empty-state">
 				{#if searchTerm || campaignFilter !== 'all'}
 					<p>No campaigns match your filters. Try changing your search or filter criteria.</p>
-					<button
-						class="btn btn-secondary btn-sm"
+					<Button
+						variant="secondary"
+						size="sm"
 						onclick={() => {
 							searchTerm = '';
 							campaignFilter = 'all';
 						}}
 					>
 						Clear Filters
-					</button>
+					</Button>
 				{:else}
 					<p>No campaigns have been created yet.</p>
-					<button class="btn btn-primary btn-sm" onclick={() => (activeTab = 'create')}>
+					<Button size="sm" onclick={() => (activeTab = 'create')}>
 						Create Your First Campaign
-					</button>
+					</Button>
 				{/if}
 			</div>
 		{:else}
@@ -534,9 +538,7 @@
 								<input type="hidden" name="id" value={campaign.id} />
 								<div class="edit-form-header">
 									<h3>Edit Campaign</h3>
-									<button type="button" class="btn btn-danger btn-xs" onclick={cancelEditing}
-										>Cancel</button
-									>
+									<Button variant="danger" size="sm" onclick={cancelEditing}>Cancel</Button>
 								</div>
 
 								<label class="field">
@@ -680,18 +682,9 @@
 									</div>
 								{/if}
 
-								<button
-									type="submit"
-									class="btn btn-primary"
-									disabled={isSubmitting}
-									style="width: 100%;"
-								>
-									{#if isSubmitting}
-										<span class="spinner"></span> Saving...
-									{:else}
-										Save Changes
-									{/if}
-								</button>
+								<Button type="submit" fullWidth loading={isSubmitting}>
+									{isSubmitting ? 'Saving...' : 'Save Changes'}
+								</Button>
 							</form>
 						{:else}
 							<div class="card-body">
@@ -749,45 +742,46 @@
 								{/if}
 
 								<div class="card-actions">
-									<button class="btn btn-secondary btn-xs" onclick={() => startEditing(campaign)}>
-										<svg
-											width="14"
-											height="14"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-											></path>
-										</svg>
+									<Button variant="secondary" size="sm" onclick={() => startEditing(campaign)}>
+										{#snippet icon()}
+											<svg
+												width="14"
+												height="14"
+												fill="none"
+												stroke="currentColor"
+												viewBox="0 0 24 24"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+												></path>
+											</svg>
+										{/snippet}
 										Edit
-									</button>
-									<button
-										class="btn btn-secondary btn-xs"
-										onclick={() => duplicateCampaign(campaign)}
-									>
-										<svg
-											width="14"
-											height="14"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-											></path>
-										</svg>
+									</Button>
+									<Button variant="secondary" size="sm" onclick={() => duplicateCampaign(campaign)}>
+										{#snippet icon()}
+											<svg
+												width="14"
+												height="14"
+												fill="none"
+												stroke="currentColor"
+												viewBox="0 0 24 24"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+												></path>
+											</svg>
+										{/snippet}
 										Duplicate
-									</button>
+									</Button>
 								</div>
 							</div>
 						{/if}
@@ -990,16 +984,10 @@
 				{/if}
 
 				<div class="form-actions">
-					<button type="button" class="btn btn-secondary" onclick={() => (activeTab = 'list')}
-						>Cancel</button
-					>
-					<button type="submit" class="btn btn-primary" disabled={isSubmitting}>
-						{#if isSubmitting}
-							<span class="spinner"></span> Creating Campaign...
-						{:else}
-							Create Campaign
-						{/if}
-					</button>
+					<Button variant="secondary" onclick={() => (activeTab = 'list')}>Cancel</Button>
+					<Button type="submit" loading={isSubmitting}>
+						{isSubmitting ? 'Creating Campaign...' : 'Create Campaign'}
+					</Button>
 				</div>
 			</form>
 		</div>
@@ -1305,80 +1293,6 @@
 	.badge-gray {
 		background: var(--stone-warm);
 		color: var(--ink-mid);
-	}
-
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.375rem;
-		padding: 0.5rem 1rem;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		border-radius: 8px;
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-sm {
-		padding: 0.375rem 0.75rem;
-		font-size: 0.75rem;
-	}
-
-	.btn-xs {
-		padding: 0.25rem 0.5rem;
-		font-size: 0.6875rem;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover {
-		filter: brightness(1.1);
-		box-shadow: var(--glow-sm);
-	}
-
-	.btn-primary:disabled {
-		opacity: 0.6;
-		cursor: not-allowed;
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-secondary:hover {
-		background: var(--stone-warm);
-	}
-
-	.btn-danger {
-		background: #ef4444;
-		color: white;
-	}
-
-	.btn-danger:hover {
-		background: #dc2626;
-	}
-
-	/* Spinner */
-	.spinner {
-		display: inline-block;
-		width: 14px;
-		height: 14px;
-		border: 2px solid rgba(255, 255, 255, 0.3);
-		border-top-color: white;
-		border-radius: 50%;
-		animation: spin 0.6s linear infinite;
-	}
-
-	@keyframes spin {
-		to {
-			transform: rotate(360deg);
-		}
 	}
 
 	/* Edit Form */

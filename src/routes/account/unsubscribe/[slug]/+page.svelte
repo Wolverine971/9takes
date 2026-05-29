@@ -4,6 +4,7 @@
 	import { goto } from '$app/navigation';
 	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
 
@@ -34,10 +35,8 @@
 			<p>Are you sure you want to unsubscribe?</p>
 
 			<div class="row" style="gap: 2rem;">
-				<button class="btn btn-secondary" type="button" onclick={() => goto(`/questions`, {})}>
-					No
-				</button>
-				<button class="btn btn-primary" type="button" onclick={confirmUnsubscribe}> Yes </button>
+				<Button variant="secondary" type="button" onclick={() => goto(`/questions`, {})}>No</Button>
+				<Button type="button" onclick={confirmUnsubscribe}>Yes</Button>
 			</div>
 		</div>
 	{/if}

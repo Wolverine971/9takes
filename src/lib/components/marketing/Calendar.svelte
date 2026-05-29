@@ -5,6 +5,7 @@
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
+	import { Button } from '$lib/components/atoms';
 
 	let {
 		contentItems,
@@ -271,7 +272,7 @@
 			{#if isLoading}
 				<div class="nav-loading"><span class="spinner"></span></div>
 			{:else}
-				<button class="btn btn-secondary btn-sm" onclick={goToToday}>Today</button>
+				<Button variant="secondary" size="sm" onclick={goToToday}>Today</Button>
 				<span class="period-label">
 					{#if viewMode === 'month'}
 						{currentDate.toLocaleString('default', { month: 'long', year: 'numeric' })}
@@ -301,9 +302,9 @@
 				</svg>
 			</button>
 
-			<button class="btn btn-secondary btn-xs" onclick={toggleViewMode}>
+			<Button variant="secondary" size="sm" onclick={toggleViewMode}>
 				{viewMode === 'month' ? 'Week View' : 'Month View'}
-			</button>
+			</Button>
 		</div>
 
 		<div class="filter-controls">
@@ -447,12 +448,14 @@
 							{#if day.toDateString() === todayDate.toDateString()}
 								<span class="today-badge">Today</span>
 							{/if}
-							<button
-								class="btn btn-secondary btn-xs week-add-btn"
+							<Button
+								variant="secondary"
+								size="sm"
+								class="week-add-btn"
 								onclick={() => openCreateModal(day)}
 							>
 								Add
-							</button>
+							</Button>
 						</div>
 
 						{#if dayContent.length > 0}
@@ -721,40 +724,6 @@
 	.search-input:focus {
 		outline: none;
 		border-color: var(--lamp-glow);
-	}
-
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.375rem;
-		padding: 0.5rem 1rem;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		border-radius: 8px;
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-sm {
-		padding: 0.375rem 0.75rem;
-		font-size: 0.75rem;
-	}
-
-	.btn-xs {
-		padding: 0.25rem 0.5rem;
-		font-size: 0.6875rem;
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-		font-weight: 600;
-	}
-
-	.btn-secondary:hover {
-		background: var(--stone-warm);
 	}
 
 	/* Spinner */

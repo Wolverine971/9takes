@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { goto, invalidateAll } from '$app/navigation';
+	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import type { PageData } from './$types';
 
@@ -95,7 +96,7 @@
 			<h1>Clients</h1>
 			<p class="subtitle">{data.totalClients} total clients</p>
 		</div>
-		<button class="btn btn-primary" onclick={() => (showCreateModal = true)}> + New Client </button>
+		<Button onclick={() => (showCreateModal = true)}>+ New Client</Button>
 	</div>
 
 	<!-- Filters -->
@@ -143,9 +144,7 @@
 		{#if data.clients.length === 0}
 			<div class="empty-state">
 				<p>No clients found</p>
-				<button class="btn btn-primary" onclick={() => (showCreateModal = true)}>
-					Create your first client
-				</button>
+				<Button onclick={() => (showCreateModal = true)}>Create your first client</Button>
 			</div>
 		{:else}
 			<table class="clients-table">
@@ -317,10 +316,10 @@
 				</div>
 
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" onclick={closeModal}> Cancel </button>
-					<button type="submit" class="btn btn-primary" disabled={isCreating}>
+					<Button type="button" variant="secondary" onclick={closeModal}>Cancel</Button>
+					<Button type="submit" loading={isCreating}>
 						{isCreating ? 'Creating...' : 'Create Client'}
-					</button>
+					</Button>
 				</div>
 			</form>
 		</div>
@@ -631,35 +630,7 @@
 		border-top: 1px solid var(--stone-warm);
 	}
 
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: 12px;
-		font-size: 0.875rem;
-		font-weight: 500;
-		cursor: pointer;
-		text-decoration: none;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-secondary {
-		background: var(--night-deep);
-		border: 1px solid var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
-	}
+	/* Button visuals now owned by the Button atom. */
 
 	@media (max-width: 768px) {
 		.form-grid {

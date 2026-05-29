@@ -1,6 +1,7 @@
 <!-- src/routes/admin/+page.svelte -->
 <script lang="ts">
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
+	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import LineChart from '$lib/components/charts/LineChart.svelte';
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
@@ -735,22 +736,16 @@
 		</p>
 
 		<div class="modal-actions">
-			<button
-				type="button"
-				class="btn btn-secondary"
+			<Button
+				variant="secondary"
 				onclick={() => getModal('confirmReindex').close()}
 				disabled={isReindexing}
 			>
 				Cancel
-			</button>
-			<button
-				type="button"
-				class="btn btn-primary"
-				onclick={reindexEverything}
-				disabled={isReindexing}
-			>
+			</Button>
+			<Button onclick={reindexEverything} loading={isReindexing}>
 				{isReindexing ? 'Reindexing...' : 'Start reindex'}
-			</button>
+			</Button>
 		</div>
 	</div>
 </Modal>
@@ -1395,46 +1390,6 @@
 		justify-content: flex-end;
 	}
 
-	.btn {
-		padding: 12px 20px;
-		font-size: 0.88rem;
-		font-weight: 600;
-		border-radius: 10px;
-		cursor: pointer;
-		transition:
-			background 0.2s ease,
-			border-color 0.2s ease,
-			box-shadow 0.2s ease,
-			opacity 0.2s ease;
-	}
-
-	.btn:disabled {
-		opacity: 0.6;
-		cursor: not-allowed;
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-		border: 1px solid var(--stone-warm);
-	}
-
-	.btn-secondary:hover:not(:disabled) {
-		background: var(--stone-warm);
-		border-color: var(--stone-warm);
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		border: 1px solid var(--lamp-glow);
-		box-shadow: var(--glow-sm);
-	}
-
-	.btn-primary:hover:not(:disabled) {
-		box-shadow: var(--glow-md);
-	}
-
 	@media (max-width: 1200px) {
 		.queue-grid,
 		.insights-grid,
@@ -1492,10 +1447,66 @@
 
 		.trend-item {
 			grid-template-columns: 1fr;
+			gap: 9px;
+			padding: 15px 18px;
+		}
+
+		/* Full, readable paths — no truncation on mobile */
+		.trend-path,
+		.trend-subtitle {
+			white-space: normal;
+			overflow: visible;
+			text-overflow: clip;
+		}
+
+		.trend-path {
+			overflow-wrap: anywhere;
+			word-break: break-word;
+			font-size: 0.95rem;
+			line-height: 1.3;
+		}
+
+		.trend-subtitle {
+			line-height: 1.4;
+		}
+
+		/* Side metrics collapse into a single inline row, divided from the path */
+		.trend-side {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: baseline;
+			gap: 4px 12px;
+			margin-top: 2px;
+			padding-top: 10px;
+			border-top: 1px dashed color-mix(in srgb, var(--stone-mid) 80%, transparent);
+		}
+
+		.trend-side strong {
+			font-size: 1.25rem;
+		}
+
+		.trend-side strong::after {
+			content: ' visits';
+			margin-left: 2px;
+			font-size: 0.7rem;
+			font-weight: 500;
+			color: var(--ink-mid);
+		}
+
+		.trend-side span {
+			font-size: 0.78rem;
+		}
+
+		.trend-side small {
+			margin-left: auto;
+			padding: 2px 9px;
+			border-radius: 999px;
+			font-weight: 700;
+			background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
+			color: var(--lamp-glow);
 		}
 
 		.detail-side,
-		.trend-side,
 		.list-card-meta {
 			align-items: flex-start;
 			justify-items: start;
@@ -1504,10 +1515,6 @@
 
 		.modal-actions {
 			flex-direction: column-reverse;
-		}
-
-		.btn {
-			width: 100%;
 		}
 	}
 

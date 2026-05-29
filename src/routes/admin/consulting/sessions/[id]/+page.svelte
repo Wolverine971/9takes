@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
+	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import type { PageData } from './$types';
 
@@ -139,7 +140,7 @@
 
 			<div class="header-actions">
 				{#if session.meeting_link}
-					<a href={session.meeting_link} target="_blank" class="btn btn-primary"> Join Meeting </a>
+					<Button href={session.meeting_link} target="_blank">Join Meeting</Button>
 				{/if}
 
 				{#if session.status === 'scheduled' || session.status === 'confirmed'}
@@ -156,14 +157,12 @@
 						}}
 					>
 						<input type="hidden" name="status" value="in_progress" />
-						<button type="submit" class="btn btn-success">Start Session</button>
+						<Button type="submit">Start Session</Button>
 					</form>
 				{/if}
 
 				{#if session.status === 'in_progress'}
-					<button class="btn btn-primary" onclick={() => (showCompleteModal = true)}>
-						Complete Session
-					</button>
+					<Button onclick={() => (showCompleteModal = true)}>Complete Session</Button>
 				{/if}
 			</div>
 		</div>
@@ -342,9 +341,7 @@
 						class="note-content-input"
 					></textarea>
 
-					<button type="submit" class="btn btn-primary" disabled={!noteContent.trim()}>
-						Add Note
-					</button>
+					<Button type="submit" disabled={!noteContent.trim()}>Add Note</Button>
 				</form>
 
 				<!-- Existing Notes -->
@@ -591,16 +588,10 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button
-						type="button"
-						class="btn btn-secondary"
-						onclick={() => (showCompleteModal = false)}
-					>
+					<Button type="button" variant="secondary" onclick={() => (showCompleteModal = false)}>
 						Cancel
-					</button>
-					<button type="submit" class="btn btn-success" disabled={!sessionSummary.trim()}>
-						Complete Session
-					</button>
+					</Button>
+					<Button type="submit" disabled={!sessionSummary.trim()}>Complete Session</Button>
 				</div>
 			</form>
 		</div>
@@ -1210,41 +1201,7 @@
 		color: var(--lamp-glow);
 	}
 
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: 12px;
-		font-size: 0.875rem;
-		font-weight: 500;
-		cursor: pointer;
-		text-decoration: none;
-		transition: all 0.2s;
-	}
-
-	.btn:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-success {
-		background: var(--success);
-		color: white;
-	}
-
-	.btn-secondary {
-		background: var(--night-deep);
-		border: 1px solid var(--stone-warm);
-		color: var(--ink-bright);
-	}
+	/* Button visuals now owned by the Button atom. */
 
 	/* Modal */
 	.modal-overlay {

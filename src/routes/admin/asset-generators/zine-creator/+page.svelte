@@ -20,6 +20,7 @@
 		type ZineFormatId,
 		type ZineSection
 	} from './zine-utils';
+	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
 
@@ -728,12 +729,10 @@
 			<p>Import a blog post, format pages, and export print-ready zines.</p>
 		</div>
 		<div class="header-actions">
-			<button class="btn btn-secondary" onclick={exportInstructionSheet} disabled={!canExport()}>
+			<Button variant="secondary" onclick={exportInstructionSheet} disabled={!canExport()}>
 				Instruction Sheet
-			</button>
-			<button class="btn btn-primary" onclick={exportPrintReadyPdf} disabled={!canExport()}>
-				Print-Ready PDF
-			</button>
+			</Button>
+			<Button onclick={exportPrintReadyPdf} disabled={!canExport()}>Print-Ready PDF</Button>
 		</div>
 	</div>
 
@@ -782,9 +781,7 @@
 								bind:value={blogUrl}
 								placeholder="https://9takes.com/enneagram-corner/..."
 							/>
-							<button class="btn btn-primary" onclick={importBlog} disabled={loadingBlog}>
-								{loadingBlog ? 'Loading...' : 'Load Blog'}
-							</button>
+							<Button onclick={importBlog} loading={loadingBlog}>Load Blog</Button>
 						</div>
 						<p class="hint">
 							Supports main Enneagram posts, mental-health posts, and personality-analysis posts.
@@ -848,8 +845,8 @@
 						<p class="hint">
 							Estimated content: {estimatedPageCount} pages. Recommended: {recommendedPageCount}.
 						</p>
-						<button class="btn btn-ghost" onclick={applyRecommendedPageCount}
-							>Use recommended count</button
+						<Button variant="ghost" onclick={applyRecommendedPageCount}
+							>Use recommended count</Button
 						>
 						{#if wouldTruncate}
 							<p class="error">
@@ -1722,27 +1719,6 @@
 		right: 0.18in;
 	}
 
-	.btn {
-		border: 1px solid var(--stone-warm);
-		padding: 0.58rem 0.75rem;
-		border-radius: 0.5rem;
-		font-weight: 700;
-		cursor: pointer;
-		background: var(--night-deep);
-		color: var(--ink-bright);
-	}
-
-	.btn-primary {
-		background: linear-gradient(130deg, #2563eb, #1d4ed8);
-		border-color: #1d4ed8;
-		color: white;
-	}
-
-	.btn-secondary {
-		background: color-mix(in srgb, var(--night-deep) 80%, #020617);
-	}
-
-	.btn-ghost,
 	.mini-btn {
 		border: 1px solid var(--stone-warm);
 		background: transparent;

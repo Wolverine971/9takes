@@ -8,6 +8,7 @@
 	import Modal from '$lib/components/atoms/Modal.svelte';
 	import { getModal } from '$lib/components/atoms/Modal.svelte';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
+	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
 
@@ -277,24 +278,25 @@
 								</div>
 								<div class="comment-footer">
 									<div class="comment-actions">
-										<button
-											class="btn btn-success"
+										<Button
+											size="sm"
 											onclick={() => {
 												if (comment?.comments?.id) confirmAction(comment.comments.id, 'unflag');
 											}}
 											disabled={loading || !comment?.comments?.id}
 										>
 											Approve
-										</button>
-										<button
-											class="btn btn-danger"
+										</Button>
+										<Button
+											size="sm"
+											variant="danger"
 											onclick={() => {
 												if (comment?.comments?.id) confirmAction(comment.comments.id, 'remove');
 											}}
 											disabled={loading || !comment?.comments?.id}
 										>
 											Remove
-										</button>
+										</Button>
 									</div>
 									<span class="comment-date">
 										{convertDateToReadable(comment.created_at ?? '')}
@@ -418,13 +420,10 @@
 				{/if}
 			</p>
 			<div class="modal-actions">
-				<button class="btn btn-secondary" onclick={cancelAction}> Cancel </button>
-				<button
-					class="btn {actionType === 'remove' ? 'btn-danger' : 'btn-success'}"
-					onclick={executeAction}
-				>
+				<Button variant="secondary" onclick={cancelAction}>Cancel</Button>
+				<Button variant={actionType === 'remove' ? 'danger' : 'primary'} onclick={executeAction}>
 					{actionType === 'remove' ? 'Remove' : 'Approve'}
-				</button>
+				</Button>
 			</div>
 		</div>
 	</Modal>
@@ -693,52 +692,6 @@
 		color: var(--ink-mid);
 	}
 
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 5px;
-		padding: 6px 12px;
-		border: none;
-		border-radius: 5px;
-		font-size: 0.75rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.15s;
-	}
-
-	.btn:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
-	}
-
-	.btn-success {
-		background: var(--success);
-		color: white;
-	}
-
-	.btn-success:hover:not(:disabled) {
-		background: color-mix(in srgb, var(--success) 80%, black);
-	}
-
-	.btn-danger {
-		background: var(--error);
-		color: white;
-	}
-
-	.btn-danger:hover:not(:disabled) {
-		background: var(--error-700);
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-secondary:hover:not(:disabled) {
-		background: var(--night-deep);
-	}
-
 	/* Empty State */
 	.empty-state {
 		display: flex;
@@ -871,11 +824,6 @@
 			padding: 6px 8px;
 			font-size: 0.6875rem;
 		}
-
-		.btn {
-			padding: 6px 10px;
-			font-size: 0.6875rem;
-		}
 	}
 
 	/* Extra small screens */
@@ -902,11 +850,6 @@
 
 		.comment-actions {
 			width: 100%;
-		}
-
-		.btn {
-			flex: 1;
-			justify-content: center;
 		}
 
 		.card-content {

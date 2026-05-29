@@ -7,6 +7,7 @@
 	import { page } from '$app/stores';
 	import type { RealtimeChannel } from '@supabase/supabase-js';
 	import { supabase } from '$lib/supabase';
+	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
 
@@ -187,18 +188,13 @@
 				/>
 			</div>
 
-			<button
-				type="button"
-				class="btn btn-primary"
-				onclick={broadcastServerMessage}
-				disabled={!serverMessage}
-			>
+			<Button onclick={broadcastServerMessage} disabled={!serverMessage}>
 				{#if userid}
 					Send Direct Message
 				{:else}
 					Broadcast to All
 				{/if}
-			</button>
+			</Button>
 		</div>
 
 		<div class="panel">
@@ -259,14 +255,9 @@
 				/>
 			</div>
 
-			<button
-				type="button"
-				class="btn btn-primary"
-				onclick={sendUserMessage}
-				disabled={!userMessage || !userid}
-			>
+			<Button onclick={sendUserMessage} disabled={!userMessage || !userid}>
 				Send Direct Message
-			</button>
+			</Button>
 
 			{#if !userid && userMessage}
 				<p class="warning-text">Please enter a user ID to send a direct message</p>
@@ -503,36 +494,6 @@
 	.field-input::placeholder {
 		color: var(--ink-mid);
 		opacity: 0.6;
-	}
-
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 6px;
-		padding: 9px 18px;
-		border-radius: 8px;
-		font-size: 0.8rem;
-		font-weight: 600;
-		cursor: pointer;
-		transition: all 0.15s ease;
-		border: none;
-	}
-
-	.btn:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		box-shadow: var(--glow-sm);
-	}
-
-	.btn-primary:hover:not(:disabled) {
-		box-shadow: var(--glow-md);
 	}
 
 	/* Warning */

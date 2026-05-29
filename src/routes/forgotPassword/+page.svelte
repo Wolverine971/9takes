@@ -11,7 +11,7 @@
 	import { browser } from '$app/environment';
 	import type { ActionData } from './$types';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
-	import LoadingButton from '$lib/components/atoms/LoadingButton.svelte';
+	import { Button } from '$lib/components/atoms';
 	import {
 		ensureRecaptchaLoaded,
 		reloadRecaptchaWidget,
@@ -145,17 +145,9 @@
 
 			<div bind:this={captchaContainer}></div>
 
-			<LoadingButton
-				type="submit"
-				variant="primary"
-				size="lg"
-				fullWidth
-				{loading}
-				loadingText="Sending..."
-				className="mt-2"
-			>
+			<Button type="submit" variant="primary" size="lg" fullWidth {loading} class="mt-2">
 				Reset Password
-			</LoadingButton>
+			</Button>
 		</form>
 	{/if}
 

@@ -4,6 +4,7 @@
 	import ContentDetailModal from './ContentDetailModal.svelte';
 	import CreateContent from './CreateContent.svelte';
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
+	import { Button } from '$lib/components/atoms';
 
 	let {
 		contentItems,
@@ -204,40 +205,41 @@
 			{/if}
 		</div>
 
-		<button
-			class="btn {showNewContentForm ? 'btn-secondary' : 'btn-primary'}"
+		<Button
+			variant={showNewContentForm ? 'secondary' : 'primary'}
 			onclick={() => (showNewContentForm = !showNewContentForm)}
 		>
-			{#if showNewContentForm}
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="16"
-					height="16"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-				>
-					<path d="M18 6 6 18" />
-					<path d="m6 6 12 12" />
-				</svg>
-				Cancel
-			{:else}
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="16"
-					height="16"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-				>
-					<path d="M5 12h14" />
-					<path d="M12 5v14" />
-				</svg>
-				New Content
-			{/if}
-		</button>
+			{#snippet icon()}
+				{#if showNewContentForm}
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<path d="M18 6 6 18" />
+						<path d="m6 6 12 12" />
+					</svg>
+				{:else}
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<path d="M5 12h14" />
+						<path d="M12 5v14" />
+					</svg>
+				{/if}
+			{/snippet}
+			{showNewContentForm ? 'Cancel' : 'New Content'}
+		</Button>
 	</div>
 
 	<!-- Create Form -->
@@ -340,25 +342,27 @@
 			{#if hasActiveFilters}
 				<h3>No content matches your filters</h3>
 				<p>Try adjusting your search or filter criteria</p>
-				<button class="btn btn-secondary" onclick={clearFilters}>Clear Filters</button>
+				<Button variant="secondary" onclick={clearFilters}>Clear Filters</Button>
 			{:else}
 				<h3>No content yet</h3>
 				<p>Create your first piece of content to get started</p>
-				<button class="btn btn-primary" onclick={() => (showNewContentForm = true)}>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="16"
-						height="16"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-					>
-						<path d="M5 12h14" />
-						<path d="M12 5v14" />
-					</svg>
+				<Button onclick={() => (showNewContentForm = true)}>
+					{#snippet icon()}
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path d="M5 12h14" />
+							<path d="M12 5v14" />
+						</svg>
+					{/snippet}
 					Create Content
-				</button>
+				</Button>
 			{/if}
 		</div>
 	{/if}
@@ -461,39 +465,6 @@
 	.clear-filters-btn:hover {
 		color: #ef4444;
 		border-color: #ef4444;
-	}
-
-	/* Buttons */
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.375rem;
-		padding: 0.5rem 1rem;
-		font-size: 0.8125rem;
-		font-weight: 500;
-		border-radius: 8px;
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover {
-		filter: brightness(1.1);
-		box-shadow: var(--glow-sm);
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-secondary:hover {
-		background: var(--stone-warm);
 	}
 
 	/* Create Form */

@@ -58,7 +58,12 @@ function bucketOf(visit: ReleaseVisitSignal): string {
 	const referrer = String(visit.referrer_host || '')
 		.trim()
 		.toLowerCase();
-	if (source === 'internal' || referrer.includes('9takes.com') || referrer === 'localhost')
+	if (
+		source === 'internal' ||
+		referrer.includes('9takes.com') ||
+		referrer === 'localhost' ||
+		referrer === '127.0.0.1'
+	)
 		return 'internal';
 	if (source.startsWith('search/')) return 'search';
 	if (source.startsWith('ai/')) return 'ai';

@@ -7,6 +7,7 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import LinkMap from '$lib/components/molecules/LinkMap.svelte';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
+	import { Button } from '$lib/components/atoms';
 	import QuestionSearch from '$lib/components/molecules/QuestionSearch.svelte'; // Adjust path as needed
 
 	// ADMIN only page
@@ -242,9 +243,9 @@
 
 				<!-- LOCATION REQUEST BUTTON -->
 				<div class="location-request">
-					<button type="button" class="btn btn-secondary" on:click={requestLocation}>
+					<Button variant="secondary" type="button" onclick={requestLocation}>
 						Share My Location
-					</button>
+					</Button>
 					{#if location}
 						<p class="info-message">Location shared: {location.latitude}, {location.longitude}</p>
 					{:else}
@@ -270,18 +271,14 @@
 				{/if}
 
 				<div class="action-buttons">
-					<button
+					<Button
 						type="button"
-						class="btn btn-primary"
-						on:click={saveLinkDrop}
-						disabled={!selectedQuestion || !location || isSubmitting}
+						onclick={saveLinkDrop}
+						loading={isSubmitting}
+						disabled={!selectedQuestion || !location}
 					>
-						{#if isSubmitting}
-							Saving...
-						{:else}
-							Save Link Drop
-						{/if}
-					</button>
+						Save Link Drop
+					</Button>
 				</div>
 			</section>
 		{:else}
@@ -308,13 +305,9 @@
 				</div>
 
 				<div class="action-buttons">
-					<button
-						type="button"
-						class="btn btn-primary"
-						on:click={() => getModal('edit-link').open()}
-					>
+					<Button type="button" onclick={() => getModal('edit-link').open()}>
 						Change Question
-					</button>
+					</Button>
 				</div>
 
 				<div class="map-container">
@@ -348,25 +341,17 @@
 		{/if}
 
 		<div class="modal-actions">
-			<button
-				type="button"
-				class="btn btn-secondary"
-				on:click={() => getModal('edit-link').close()}
-			>
+			<Button variant="secondary" type="button" onclick={() => getModal('edit-link').close()}>
 				Cancel
-			</button>
-			<button
+			</Button>
+			<Button
 				type="button"
-				class="btn btn-primary"
-				on:click={updateLinkDrop}
-				disabled={!selectedQuestion || isSubmitting}
+				onclick={updateLinkDrop}
+				loading={isSubmitting}
+				disabled={!selectedQuestion}
 			>
-				{#if isSubmitting}
-					Saving...
-				{:else}
-					Save Changes
-				{/if}
-			</button>
+				Save Changes
+			</Button>
 		</div>
 	</div>
 </Modal>
@@ -497,41 +482,6 @@
 		justify-content: flex-end;
 		gap: 0.75rem;
 		margin-top: 1.5rem;
-	}
-
-	.btn {
-		padding: 0.5rem 1rem;
-		border-radius: 4px;
-		font-weight: 500;
-		cursor: pointer;
-		transition:
-			background-color 0.2s,
-			opacity 0.2s;
-
-		&:disabled {
-			opacity: 0.6;
-			cursor: not-allowed;
-		}
-	}
-
-	.btn-primary {
-		background: var(--primary-700);
-		color: white;
-		border: none;
-
-		&:hover:not(:disabled) {
-			background: var(--primary-800);
-		}
-	}
-
-	.btn-secondary {
-		background: var(--neutral-100);
-		color: var(--neutral-800);
-		border: 1px solid var(--neutral-300);
-
-		&:hover:not(:disabled) {
-			background: var(--neutral-200);
-		}
 	}
 
 	@media (max-width: 768px) {

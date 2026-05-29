@@ -6,6 +6,7 @@
 	import MarkdownEditor from '../../MarkdownEditor.svelte';
 	import MetadataSidebar from '../../MetadataSidebar.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { Button } from '$lib/components/atoms';
 	import type { PageData } from './$types';
 
 	interface HistoryItem {
@@ -171,25 +172,8 @@
 		</div>
 
 		<div class="header-right">
-			<button class="btn btn-secondary" onclick={save} disabled={!isDirty || saving}>
-				{#if saving}
-					<svg class="h-4 w-4 animate-spin" viewBox="0 0 24 24">
-						<circle
-							class="opacity-25"
-							cx="12"
-							cy="12"
-							r="10"
-							stroke="currentColor"
-							stroke-width="4"
-							fill="none"
-						/>
-						<path
-							class="opacity-75"
-							fill="currentColor"
-							d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-						/>
-					</svg>
-				{:else}
+			<Button variant="secondary" onclick={save} disabled={!isDirty} loading={saving}>
+				{#snippet icon()}
 					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path
 							stroke-linecap="round"
@@ -198,20 +182,22 @@
 							d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"
 						/>
 					</svg>
-				{/if}
-				<span class="btn-text">Save</span>
-			</button>
-			<button class="btn btn-primary" onclick={saveAndClose}>
-				<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M5 13l4 4L19 7"
-					/>
-				</svg>
-				<span class="btn-text">Done</span>
-			</button>
+				{/snippet}
+				Save
+			</Button>
+			<Button onclick={saveAndClose}>
+				{#snippet icon()}
+					<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M5 13l4 4L19 7"
+						/>
+					</svg>
+				{/snippet}
+				Done
+			</Button>
 		</div>
 	</header>
 
@@ -266,11 +252,9 @@
 			<h3 class="warning-title">Unsaved Changes</h3>
 			<p class="warning-message">You have unsaved changes. What would you like to do?</p>
 			<div class="warning-actions">
-				<button class="btn btn-secondary" onclick={() => (showUnsavedWarning = false)}>
-					Cancel
-				</button>
-				<button class="btn btn-danger" onclick={discardAndClose}> Discard Changes </button>
-				<button class="btn btn-primary" onclick={saveAndClose}> Save & Close </button>
+				<Button variant="secondary" onclick={() => (showUnsavedWarning = false)}>Cancel</Button>
+				<Button variant="danger" onclick={discardAndClose}>Discard Changes</Button>
+				<Button onclick={saveAndClose}>Save &amp; Close</Button>
 			</div>
 		</div>
 	</div>
@@ -408,76 +392,6 @@
 
 		@media (max-width: 768px) {
 			gap: 8px;
-		}
-	}
-
-	.btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 8px;
-		padding: 10px 18px;
-		border: none;
-		border-radius: 8px;
-		font-size: 14px;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.2s ease;
-
-		&:disabled {
-			opacity: 0.4;
-			cursor: not-allowed;
-		}
-
-		@media (max-width: 768px) {
-			padding: 12px 16px;
-			font-size: 14px;
-			min-height: 44px;
-			min-width: 44px;
-
-			.btn-text {
-				display: none;
-			}
-		}
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		border: 1px solid var(--lamp-glow);
-		box-shadow: var(--glow-sm);
-
-		&:hover:not(:disabled) {
-			background: var(--lamp-glow);
-			box-shadow: var(--glow-md);
-			transform: translateY(-1px);
-		}
-
-		&:active:not(:disabled) {
-			transform: translateY(0);
-		}
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-		border: 1px solid var(--stone-warm);
-
-		&:hover:not(:disabled) {
-			background: var(--stone-warm);
-			border-color: var(--primary-glow);
-			box-shadow: var(--glow-sm);
-		}
-	}
-
-	.btn-danger {
-		background: color-mix(in srgb, var(--error) 12%, transparent);
-		color: var(--error-text);
-		border: 1px solid color-mix(in srgb, var(--error) 32%, transparent);
-
-		&:hover:not(:disabled) {
-			background: color-mix(in srgb, var(--error) 22%, transparent);
-			border-color: var(--error);
 		}
 	}
 
@@ -619,9 +533,8 @@
 		@media (max-width: 480px) {
 			flex-direction: column-reverse;
 
-			.btn {
+			:global(.btn) {
 				width: 100%;
-				justify-content: center;
 			}
 		}
 	}

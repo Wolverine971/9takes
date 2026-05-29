@@ -3,6 +3,7 @@
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import ArrowLeftIcon from '$lib/components/icons/leftIcon.svelte';
+	import { Button } from '$lib/components/atoms';
 
 	export let data: PageData;
 
@@ -86,8 +87,8 @@
 		</div>
 
 		<div class="draft-actions">
-			<button class="btn btn-secondary" type="button"> Edit Draft </button>
-			<button class="btn btn-primary" type="button"> Publish to Database </button>
+			<Button variant="secondary" type="button" class="draft-action-btn">Edit Draft</Button>
+			<Button type="button" class="draft-action-btn">Publish to Database</Button>
 		</div>
 	</div>
 
@@ -227,37 +228,6 @@
 		gap: 1rem;
 		justify-content: flex-end;
 		flex-wrap: wrap;
-
-		.btn {
-			padding: 0.75rem 1.5rem;
-			border-radius: 10px;
-			font-weight: 600;
-			text-decoration: none;
-			border: none;
-			cursor: pointer;
-			transition: all 0.2s ease;
-			font-size: 0.875rem;
-
-			&.btn-primary {
-				background: var(--lamp-glow);
-				color: var(--cta-text, var(--night-deep));
-
-				&:hover {
-					background: var(--lamp-deep);
-					box-shadow: var(--glow-sm);
-				}
-			}
-
-			&.btn-secondary {
-				background: var(--stone-mid);
-				color: var(--ink-bright);
-				border: 1px solid var(--stone-edge);
-
-				&:hover {
-					background: var(--stone-edge);
-				}
-			}
-		}
 	}
 
 	.draft-content {
@@ -385,7 +355,7 @@
 		.draft-actions {
 			justify-content: stretch;
 
-			.btn {
+			:global(.draft-action-btn) {
 				flex: 1;
 				text-align: center;
 			}

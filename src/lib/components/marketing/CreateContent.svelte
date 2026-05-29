@@ -3,6 +3,7 @@
 	import { enhance } from '$app/forms';
 	import type { Campaign, Template } from '$lib/types/marketing';
 	import { invalidateAll } from '$app/navigation';
+	import { Button } from '$lib/components/atoms';
 
 	let {
 		campaigns,
@@ -148,8 +149,8 @@
 	</label>
 
 	<div class="form-actions">
-		<button type="submit" class="btn btn-primary">Create Content</button>
-		<button type="button" class="btn btn-secondary" onclick={() => oncancel?.()}>Cancel</button>
+		<Button type="submit">Create Content</Button>
+		<Button variant="secondary" onclick={() => oncancel?.()}>Cancel</Button>
 	</div>
 </form>
 
@@ -213,35 +214,6 @@
 		display: flex;
 		justify-content: flex-end;
 		gap: 1rem;
-	}
-
-	.btn {
-		padding: 0.5rem 1.5rem;
-		font-size: 0.875rem;
-		font-weight: 500;
-		border-radius: 8px;
-		border: none;
-		cursor: pointer;
-		transition: all 0.15s ease;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover {
-		filter: brightness(1.1);
-		box-shadow: var(--glow-sm);
-	}
-
-	.btn-secondary {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.btn-secondary:hover {
-		background: var(--stone-warm);
 	}
 
 	@media (max-width: 768px) {

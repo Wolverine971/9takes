@@ -6,6 +6,7 @@
 	import LineChart from '$lib/components/charts/LineChart.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import RetentionAnalyticsPanel from '$lib/components/admin/RetentionAnalyticsPanel.svelte';
+	import { Button } from '$lib/components/atoms';
 	import {
 		ANALYTICS_SCOPES,
 		formatDurationMs,
@@ -2351,12 +2352,10 @@
 				</label>
 			</div>
 			<div class="filter-actions">
-				<button class="btn btn-primary" onclick={applyFilters} disabled={loading || tableLoading}>
-					Apply
-				</button>
-				<button class="btn btn-secondary" onclick={resetFilters} disabled={loading || tableLoading}>
+				<Button onclick={applyFilters} disabled={loading || tableLoading}>Apply</Button>
+				<Button variant="secondary" onclick={resetFilters} disabled={loading || tableLoading}>
 					Reset
-				</button>
+				</Button>
 			</div>
 		</section>
 
@@ -2416,13 +2415,9 @@
 							<option value={8}>8</option>
 						</select>
 					</label>
-					<button
-						class="btn btn-secondary"
-						onclick={fetchTrendingAnalytics}
-						disabled={trendingLoading}
-					>
+					<Button variant="secondary" onclick={fetchTrendingAnalytics} loading={trendingLoading}>
 						{trendingLoading ? 'Refreshing...' : 'Refresh'}
-					</button>
+					</Button>
 				</div>
 			</div>
 
@@ -2848,13 +2843,13 @@
 				</table>
 			</div>
 			<div class="pagination">
-				<button class="btn btn-secondary" onclick={() => goToPage(page - 1)} disabled={!canPrev}>
+				<Button variant="secondary" onclick={() => goToPage(page - 1)} disabled={!canPrev}>
 					Previous
-				</button>
+				</Button>
 				<span>Page {page} of {totalPages}</span>
-				<button class="btn btn-secondary" onclick={() => goToPage(page + 1)} disabled={!canNext}>
+				<Button variant="secondary" onclick={() => goToPage(page + 1)} disabled={!canNext}>
 					Next
-				</button>
+				</Button>
 			</div>
 		</section>
 	</div>
@@ -2871,9 +2866,9 @@
 							)?.label ?? 'All Pages'}
 						</p>
 					</div>
-					<button class="btn btn-secondary" onclick={fetchTimingAnalytics} disabled={timingLoading}>
+					<Button variant="secondary" onclick={fetchTimingAnalytics} loading={timingLoading}>
 						{timingLoading ? 'Refreshing...' : 'Refresh'}
-					</button>
+					</Button>
 				</div>
 
 				{#if timingLoading && !timingLoaded}
@@ -2956,20 +2951,16 @@
 						</p>
 					</div>
 					<div class="release-header-actions">
-						<button
-							class="btn btn-secondary"
+						<Button
+							variant="secondary"
 							onclick={exportReleaseAnalysisCsv}
 							disabled={releasesLoading || releaseVisibleRows.length === 0}
 						>
 							Export CSV
-						</button>
-						<button
-							class="btn btn-secondary"
-							onclick={fetchReleaseAnalytics}
-							disabled={releasesLoading}
-						>
+						</Button>
+						<Button variant="secondary" onclick={fetchReleaseAnalytics} loading={releasesLoading}>
 							{releasesLoading ? 'Refreshing...' : 'Refresh'}
-						</button>
+						</Button>
 					</div>
 				</div>
 
@@ -2997,20 +2988,10 @@
 						</div>
 					</div>
 					<div class="release-range-actions">
-						<button
-							class="btn btn-primary"
-							onclick={applyReleaseFilters}
-							disabled={releasesLoading}
-						>
-							Apply range
-						</button>
-						<button
-							class="btn btn-secondary"
-							onclick={resetReleaseFilters}
-							disabled={releasesLoading}
-						>
+						<Button onclick={applyReleaseFilters} disabled={releasesLoading}>Apply range</Button>
+						<Button variant="secondary" onclick={resetReleaseFilters} disabled={releasesLoading}>
 							Reset range
-						</button>
+						</Button>
 					</div>
 				</div>
 
@@ -3048,9 +3029,9 @@
 									{/each}
 								</select>
 							</label>
-							<button type="button" class="btn btn-secondary" onclick={toggleReleaseSortDirection}>
+							<Button variant="secondary" onclick={toggleReleaseSortDirection}>
 								{releaseSortDir === 'desc' ? 'High to low' : 'Low to high'}
-							</button>
+							</Button>
 						</div>
 					</div>
 
@@ -3234,14 +3215,13 @@
 											<h4>Event Impact</h4>
 											<p>Compare 7 days before and after each release event.</p>
 										</div>
-										<button
-											type="button"
-											class="btn btn-secondary"
+										<Button
+											variant="secondary"
 											onclick={() => void fetchReleaseEvents(selectedRelease.slug, true)}
-											disabled={releaseEventsLoading}
+											loading={releaseEventsLoading}
 										>
 											{releaseEventsLoading ? 'Refreshing...' : 'Refresh'}
-										</button>
+										</Button>
 									</div>
 
 									<form
@@ -3271,9 +3251,9 @@
 											<span>When</span>
 											<input type="datetime-local" bind:value={releaseEventAt} />
 										</label>
-										<button type="submit" class="btn btn-primary" disabled={releaseEventSubmitting}>
+										<Button type="submit" loading={releaseEventSubmitting}>
 											{releaseEventSubmitting ? 'Saving...' : 'Record'}
-										</button>
+										</Button>
 									</form>
 
 									{#if releaseEventsLoading && releaseEventRows.length === 0}
@@ -3448,20 +3428,16 @@
 						<p>{getInsightModeDescription(activeBlogInsightMode)}</p>
 					</div>
 					<div class="release-header-actions">
-						<button
-							class="btn btn-secondary"
+						<Button
+							variant="secondary"
 							onclick={() => void fetchBlogDiagnostics(true)}
-							disabled={blogDiagnosticsLoading}
+							loading={blogDiagnosticsLoading}
 						>
 							{blogDiagnosticsLoading ? 'Refreshing...' : 'Refresh diagnostics'}
-						</button>
-						<button
-							class="btn btn-secondary"
-							onclick={fetchReleaseAnalytics}
-							disabled={releasesLoading}
-						>
+						</Button>
+						<Button variant="secondary" onclick={fetchReleaseAnalytics} loading={releasesLoading}>
 							{releasesLoading ? 'Refreshing...' : 'Refresh performance'}
-						</button>
+						</Button>
 					</div>
 				</div>
 
@@ -3489,20 +3465,10 @@
 						</div>
 					</div>
 					<div class="release-range-actions">
-						<button
-							class="btn btn-primary"
-							onclick={applyReleaseFilters}
-							disabled={releasesLoading}
-						>
-							Apply range
-						</button>
-						<button
-							class="btn btn-secondary"
-							onclick={resetReleaseFilters}
-							disabled={releasesLoading}
-						>
+						<Button onclick={applyReleaseFilters} disabled={releasesLoading}>Apply range</Button>
+						<Button variant="secondary" onclick={resetReleaseFilters} disabled={releasesLoading}>
 							Reset range
-						</button>
+						</Button>
 					</div>
 				</div>
 
@@ -3965,30 +3931,6 @@
 		display: flex;
 		gap: 8px;
 		margin-top: 10px;
-	}
-
-	.btn {
-		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
-		padding: 8px 12px;
-		font-weight: 600;
-		cursor: pointer;
-	}
-
-	.btn:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		border-color: var(--lamp-glow);
-	}
-
-	.btn-secondary {
-		background: var(--night-deep);
-		color: var(--ink-bright);
 	}
 
 	.metrics-grid {

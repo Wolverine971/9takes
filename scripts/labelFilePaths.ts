@@ -308,17 +308,53 @@ function processDirectory(
 	return { processed, updated };
 }
 
+function processFiles(files: string[], rootDir: string): { processed: number; updated: number } {
+	let processed = 0;
+	let updated = 0;
+
+	for (const file of files) {
+		const fullPath = path.resolve(rootDir, file);
+
+		// Skip files that no longer exist (e.g. deleted/renamed away).
+		if (!fs.existsSync(fullPath) || !fs.statSync(fullPath).isFile()) {
+			continue;
+		}
+
+		if (!shouldProcessFile(fullPath)) {
+			continue;
+		}
+
+		processed++;
+		const wasUpdated = addOrUpdatePathComment(fullPath, rootDir);
+		if (wasUpdated) {
+			updated++;
+			console.log(`Updated: ${getRelativePath(fullPath, rootDir)}`);
+		}
+	}
+
+	return { processed, updated };
+}
+
 function main() {
 	const args = process.argv.slice(2);
-	const targetDir = args[0] || process.cwd();
-	const rootDir = path.resolve(targetDir);
+	const rootDir = process.cwd();
+
+	// `--files file1 file2 ...` labels only the given files (used by the
+	// incremental gen:all). Without it, walk the whole directory tree.
+	const filesFlagIndex = args.indexOf('--files');
+	const fileList = filesFlagIndex === -1 ? null : args.slice(filesFlagIndex + 1);
 
 	console.log(`Starting file path labeling in: ${rootDir}`);
 	console.log('Supported file types:', Object.keys(COMMENT_PATTERNS).join(', '));
+	if (fileList) {
+		console.log(`Labeling ${fileList.length} changed file(s)`);
+	}
 	console.log('');
 
 	const startTime = Date.now();
-	const result = processDirectory(rootDir, rootDir);
+	const result = fileList
+		? processFiles(fileList, rootDir)
+		: processDirectory(path.resolve(args[0] || rootDir), path.resolve(args[0] || rootDir));
 	const endTime = Date.now();
 
 	console.log('');

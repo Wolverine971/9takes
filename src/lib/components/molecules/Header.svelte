@@ -5,6 +5,7 @@
 	import MobileNav from './MobileNavNew.svelte';
 	import HeaderSearch from './HeaderSearch.svelte';
 	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
+	import { Button } from '$lib/components/atoms';
 	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
 	// Phase 3 (2026-05-04): inline SVGs migrated to lucide-svelte per design-system.md
 	// rollout-plan Phase 3. Stroke widths normalized to Lucide defaults (1.5).
@@ -166,7 +167,7 @@
 						<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-					<a href="/login" class="btn btn-primary desktop-login">Log in</a>
+					<Button href="/login" class="desktop-login">Log in</Button>
 				{/if}
 			</div>
 		</nav>

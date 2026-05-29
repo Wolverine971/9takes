@@ -6,6 +6,7 @@
 	import { getModal } from '$lib/components/atoms/Modal.svelte';
 	import Rubix from '$lib/components/icons/rubix.svelte';
 	import Scribble from '$lib/components/atoms/scribble.svelte';
+	import { Button } from '$lib/components/atoms';
 	import {
 		QUESTION_PRINT_BACKGROUND_PRESETS,
 		getQuestionPrintBackgroundPreset,
@@ -575,8 +576,8 @@
 		</div>
 
 		<div class="hero-actions">
-			<button class="btn btn-primary" type="button" onclick={openPreview}>Open Preview</button>
-			<button class="btn btn-secondary" type="button" onclick={printPoster}>Print Question</button>
+			<Button type="button" onclick={openPreview}>Open Preview</Button>
+			<Button variant="secondary" type="button" onclick={printPoster}>Print Question</Button>
 		</div>
 	</header>
 
@@ -722,7 +723,7 @@
 						<h2>{activeBackgroundLabel}</h2>
 					</div>
 
-					<button class="btn btn-tertiary" type="button" onclick={openPreview}>Expand</button>
+					<Button variant="secondary" type="button" onclick={openPreview}>Expand</Button>
 				</div>
 
 				<div class="preview-shell__meta">
@@ -742,7 +743,7 @@
 		<h2 class="modal-preview__title">Question preview</h2>
 		<div class="modal-preview__toolbar">
 			<p>Full-size preview for checking spacing, contrast, and QR placement before printing.</p>
-			<button class="btn btn-primary" type="button" onclick={printPoster}>Print Question</button>
+			<Button type="button" onclick={printPoster}>Print Question</Button>
 		</div>
 
 		<div class="modal-preview__poster">
@@ -954,7 +955,6 @@
 	}
 
 	.upload-button,
-	.btn,
 	.text-button {
 		display: inline-flex;
 		align-items: center;
@@ -965,8 +965,7 @@
 		font: inherit;
 	}
 
-	.upload-button,
-	.btn {
+	.upload-button {
 		padding: 0.78rem 1.05rem;
 		border-radius: 999px;
 		font-weight: 700;
@@ -974,43 +973,13 @@
 			transform 0.2s ease,
 			box-shadow 0.2s ease,
 			background 0.2s ease;
-	}
-
-	.upload-button {
 		background: color-mix(in srgb, var(--stone-warm) 82%, white 18%);
 		color: var(--ink-bright);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
 	}
 
-	.upload-button:hover,
-	.btn:hover {
+	.upload-button:hover {
 		transform: translateY(-1px);
-	}
-
-	.btn-primary {
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--lamp-glow) 78%, white 22%),
-			color-mix(in srgb, var(--lamp-glow) 88%, black 12%)
-		);
-		color: var(--cta-text, var(--night-deep));
-		box-shadow: 0 14px 28px color-mix(in srgb, var(--lamp-glow) 26%, transparent);
-	}
-
-	.btn-secondary {
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--secondary, #3b82f6) 78%, white 22%),
-			color-mix(in srgb, var(--secondary-dark, #2563eb) 88%, black 12%)
-		);
-		color: var(--text-on-primary, #ffffff);
-		box-shadow: 0 14px 28px color-mix(in srgb, var(--secondary, #3b82f6) 24%, transparent);
-	}
-
-	.btn-tertiary {
-		background: color-mix(in srgb, var(--stone-warm) 78%, white 22%);
-		color: var(--ink-bright);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
 	}
 
 	.text-button {

@@ -5,6 +5,7 @@
 	import { cubicOut } from 'svelte/easing';
 	import type { EmailRecipient } from '$lib/types/email';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { Button } from '$lib/components/atoms';
 
 	// Props
 	export let open = false;
@@ -360,15 +361,12 @@
 					<div class="content-header">
 						<label for="compose-content">Content (HTML)</label>
 						<div class="content-actions">
-							<button class="btn btn-secondary btn-sm" on:click={() => (showGenerate = true)}>
+							<Button variant="secondary" size="sm" onclick={() => (showGenerate = true)}>
 								Generate with AI
-							</button>
-							<button
-								class="btn btn-secondary btn-sm"
-								on:click={() => (showPreview = !showPreview)}
-							>
+							</Button>
+							<Button variant="secondary" size="sm" onclick={() => (showPreview = !showPreview)}>
 								{showPreview ? 'Edit' : 'Preview'}
-							</button>
+							</Button>
 						</div>
 					</div>
 
@@ -406,8 +404,8 @@
 			</div>
 
 			<div class="compose-footer">
-				<button class="btn btn-secondary" on:click={saveDraft}>Save Draft</button>
-				<button class="btn btn-primary" on:click={sendEmails} disabled={isSending}>
+				<Button variant="secondary" onclick={saveDraft}>Save Draft</Button>
+				<Button onclick={sendEmails} loading={isSending}>
 					{#if isSending}
 						Sending...
 					{:else if scheduledFor}
@@ -415,7 +413,7 @@
 					{:else}
 						Send Now
 					{/if}
-				</button>
+				</Button>
 			</div>
 		</div>
 	</div>
@@ -473,10 +471,10 @@
 				</div>
 
 				<div class="compose-footer">
-					<button class="btn btn-secondary" on:click={() => (showGenerate = false)}>Cancel</button>
-					<button class="btn btn-primary" on:click={generateEmail} disabled={isGenerating}>
+					<Button variant="secondary" onclick={() => (showGenerate = false)}>Cancel</Button>
+					<Button onclick={generateEmail} loading={isGenerating}>
 						{isGenerating ? 'Generating...' : 'Generate'}
-					</button>
+					</Button>
 				</div>
 			</div>
 		</div>
@@ -678,46 +676,6 @@
 		color: var(--ink-bright, #1f2937);
 	}
 
-	/* Buttons */
-	.btn {
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: var(--border-radius, 8px);
-		font-size: 0.875rem;
-		font-weight: 500;
-		cursor: pointer;
-		transition: all 0.2s;
-	}
-
-	.btn:disabled {
-		opacity: 0.5;
-		cursor: not-allowed;
-	}
-
-	.btn-primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-	}
-
-	.btn-primary:hover:not(:disabled) {
-		background: var(--primary-dark, #5b4cdb);
-	}
-
-	.btn-secondary {
-		background: var(--background, #ffffff);
-		border: 1px solid var(--border-color, #e5e7eb);
-		color: var(--ink-bright, #1f2937);
-	}
-
-	.btn-secondary:hover:not(:disabled) {
-		background: var(--hover-background, #f3f4f6);
-	}
-
-	.btn-sm {
-		padding: 0.375rem 0.75rem;
-		font-size: 0.8125rem;
-	}
-
 	/* Responsive */
 	@media (max-width: 640px) {
 		.compose-modal {
@@ -739,7 +697,7 @@
 			flex-direction: column-reverse;
 		}
 
-		.compose-footer .btn {
+		.compose-footer :global(.btn) {
 			width: 100%;
 		}
 	}
