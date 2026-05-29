@@ -1,0 +1,48 @@
+[2026-05-27 02:02:06] [INFO] Starting daily blog creator (non-interactive)
+[2026-05-27 02:02:06] [INFO] override.json: pause=false, currentWeekCount=1/5
+[2026-05-27 02:02:06] [WARN] Stale inProgress detected: judge-judy (44h elapsed)
+[2026-05-27 02:02:06] [INFO] judge-judy.md draft exists (35.6KB) - reclassifying as completed instead of skipped
+[2026-05-27 02:02:58] [INFO] STALE INPROGRESS CLEARED: judge-judy after 44 hours (moved to completed since draft exists)
+[2026-05-27 02:02:58] [INFO] Rate limit now: 2/5 this week
+[2026-05-27 02:02:58] [INFO] SELECTED: daniel-radcliffe (Type 6, Priority: 73)
+[2026-05-27 02:02:58] [INFO] Reason: Harry Potter fame, openly-discussed anxiety, 6w5 angle
+[2026-05-27 02:11:56] [INFO] Draft created: src/blog/people/drafts/Daniel-Radcliffe.md (   22909 bytes)
+[2026-05-27 02:11:56] [INFO] Gates: 1✓ 2✓ 4✓ 5✓ 6✓ — production_pretext.status=draft, needsReview=true (grade deferred to /grade_blog)
+[2026-05-27 02:11:56] [SUCCESS] Blog completed - Daniel Radcliffe, Type 6, awaiting grade
+[2026-05-27 02:11:56] [INFO] Rate limit now: 3/5 this week
+[2026-05-27 02:11:56] [INFO] Daily blog creator complete
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-27
+Status: SUCCESS (with stale recovery)
+Blog: Daniel Radcliffe (Type 6 — Harry Potter's Loyal Worrier)
+Grade: deferred (run /grade_blog daniel-radcliffe separately)
+Duration: ~25 min
+Next blog in queue: julia-roberts (Type 7, priority 72)
+===================================
+```
+
+**Stale recovery:** `judge-judy` (44h stale inProgress) — draft existed from 2026-05-25, so moved to `completed` rather than `skipped` with a `recoveryNote`. Rate limit bumped to reflect both completions.
+
+**Draft details:**
+- **MODE:** non-interactive
+- **DRAFT:** `/src/blog/people/drafts/Daniel-Radcliffe.md` (22.9KB, 3,828 words)
+- **STATUS:** `production_pretext.status = draft`, `needsReview: true`
+- **BLOCKERS:** none
+- **GATES:** Gate 1: pass (3 testimony quotes — Kwan, Scheinert, Felperin) · Gate 2: pass (5 search-intent/hybrid H2s of 8) · Gate 3: pass (no self-loop) · Gate 4: pass (no anaphora ending) · Gate 5: pass (4 type-theory paragraphs in body) · Gate 6: pass (Rowling rift as critic-pressure anchor, 2024 Tony + 2023 fatherhood + David Holmes doc as current anchors)
+- **Internal links:** 5 (`/enneagram-corner/anxiety-and-enneagram-types-guide`, `/personality-analysis/j.k.-rowling`, `/enneagram-corner/enneagram-types-in-stress`, `/enneagram-corner/enneagram-relationship-guide`, `/enneagram-corner/`) + 1 external (Trevor Project)
+
+**Core thesis:** The world saw a child star who survived. The Type 6 in him built Hollywood's strangest career out of the loyalty patterns underneath the anxiety — counterphobic risks (Swiss Army Man, Horns, Imperium, Merrily) paired with loyalty (Erin Darke since 2012, David Holmes since age 11, Trevor Project for a decade, the rift with Rowling).
+
+**Queue state:** `inProgress: null`, 28 in queue, rate limit `3/5` this week, week ends ~2026-05-29. Next up: julia-roberts.
+
+**Recommended follow-up:** run `/grade_blog daniel-radcliffe` to apply the numeric rubric and populate the `content_quality` block before publishing.
+
+Sources:
+- [Sunrise Recovery: Radcliffe Recovery](https://www.sunriserecoverycare.com/daniel-radcliffe-recovery-journey/)
+- [HELLO Magazine: Radcliffe health profile](https://www.hellomagazine.com/healthandbeauty/health-and-fitness/20221102155874/daniel-radcliffe-health-dyspraxia-ocd-alcoholism/)
+- [Rolling Stone: David Holmes documentary](https://www.rollingstone.com/tv-movies/tv-movie-reviews/david-holmes-the-boy-who-lived-hbo-daniel-radcliffe-harry-potter-stunt-double-1234879091/)
+- [Trevor Project: Radcliffe statement on Rowling](https://www.thetrevorproject.org/blog/daniel-radcliffe-responds-to-j-k-rowlings-tweets-on-gender-identity/)
+- [Variety: Radcliffe Tony win](https://variety.com/2024/theater/news/daniel-radcliffe-tony-award-first-1236039646/)
+- [MuggleNet: The Daniels on Radcliffe in Swiss Army Man](https://mugglenet.com/2016/01/daniel-radcliffe-discusses-swiss-army-man-and-his-penchant-for-strange-roles/)
+- [JTA: Radcliffe OCD interview](https://www.jta.org/2012/03/13/culture/daniel-radcliffe-talks-about-his-childhood-ocd-and-about-being-a-celebrity)

@@ -3,12 +3,11 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { analyticsDateSchema } from '$lib/validation/analyticsSchemas';
-import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import {
-	computeReleasePerformanceScoreFields,
+	computeReleasePerformanceScoreFieldsFromWindows,
+	type ReleaseDemandWindowRow,
 	type ReleasePerformanceScoreFields,
-	type ReleaseScoreBaseRow,
-	type ReleaseVisitSignal
+	type ReleaseScoreBaseRow
 } from '$lib/server/releasePerformanceScoring';
 
 interface ReleasePerformanceRow {
@@ -51,9 +50,6 @@ const querySchema = z.object({
 const RPC_RELEASE_LIMIT = 200;
 const MAX_RELEASE_FETCH_PAGES = 10;
 const DEMAND_BASELINE_LIMIT = 1000;
-const RAW_VISIT_PAGE_SIZE = 1000;
-const RAW_VISIT_MAX_PAGES_PER_CHUNK = 25;
-const RAW_VISIT_SLUG_CHUNK_SIZE = 75;
 const RAW_VISIT_REFRESH_WINDOW_DAYS = 90;
 const RELEASE_ANALYTICS_WINDOW_DAYS = 30;
 const analyticsDateFormatter = new Intl.DateTimeFormat('en-CA', {
@@ -92,12 +88,6 @@ function addDaysString(value: string, days: number): string | null {
 	if (Number.isNaN(date.getTime())) return null;
 	date.setUTCDate(date.getUTCDate() + days);
 	return date.toISOString().slice(0, 10);
-}
-
-function addDays(value: Date, days: number): Date {
-	const next = new Date(value);
-	next.setUTCDate(next.getUTCDate() + days);
-	return next;
 }
 
 function getFreshnessRefreshRange(): { from: string; to: string } {
@@ -223,14 +213,6 @@ function toNullableNumber(value: unknown): number | null {
 	if (value === null || value === undefined) return null;
 	const numeric = Number(value);
 	return Number.isFinite(numeric) ? numeric : null;
-}
-
-function chunkArray<T>(items: T[], size: number): T[][] {
-	const chunks: T[][] = [];
-	for (let i = 0; i < items.length; i += size) {
-		chunks.push(items.slice(i, i + size));
-	}
-	return chunks;
 }
 
 function getLaunchBand(score: number | null): string {
@@ -360,64 +342,12 @@ function toReleaseScoreBaseRow(
 	};
 }
 
-function getVisitFetchRange(rows: Array<ReturnType<typeof normalizeReleasePerformanceRow>>): {
-	from: string;
-	to: string;
-} | null {
-	const publishedDates = rows
-		.map((row) => (row.published_at ? new Date(row.published_at) : null))
-		.filter((date): date is Date => date !== null && !Number.isNaN(date.getTime()));
-
-	if (publishedDates.length === 0) return null;
-
-	const minPublished = new Date(Math.min(...publishedDates.map((date) => date.getTime())));
-	const maxPublished = new Date(Math.max(...publishedDates.map((date) => date.getTime())));
-	const maxWindowEnd = addDays(maxPublished, RELEASE_ANALYTICS_WINDOW_DAYS);
-	const now = new Date();
-
-	return {
-		from: minPublished.toISOString(),
-		to: (maxWindowEnd < now ? maxWindowEnd : now).toISOString()
-	};
-}
-
-async function fetchReleaseVisitSignals(
-	supabaseAdminAny: any,
-	rows: Array<ReturnType<typeof normalizeReleasePerformanceRow>>
-): Promise<ReleaseVisitSignal[]> {
-	const slugs = [...new Set(rows.map((row) => row.slug).filter(Boolean))];
-	const range = getVisitFetchRange(rows);
-	if (slugs.length === 0 || !range) return [];
-
-	const visits: ReleaseVisitSignal[] = [];
-	for (const slugChunk of chunkArray(slugs, RAW_VISIT_SLUG_CHUNK_SIZE)) {
-		for (let page = 0; page < RAW_VISIT_MAX_PAGES_PER_CHUNK; page += 1) {
-			const from = page * RAW_VISIT_PAGE_SIZE;
-			const to = from + RAW_VISIT_PAGE_SIZE - 1;
-			const { data, error: visitError } = await supabaseAdminAny
-				.from('page_analytics_visits')
-				.select(
-					'id,content_slug,started_at,fingerprint,acquisition_source,referrer_host,engaged_ms,max_scroll_pct,path'
-				)
-				.eq('content_type', 'people')
-				.in('content_slug', slugChunk)
-				.gte('started_at', range.from)
-				.lte('started_at', range.to)
-				.range(from, to)
-				.order('started_at', { ascending: true })
-				.order('id', { ascending: true });
-
-			if (visitError) {
-				throw new Error(visitError.message || 'Failed to load raw release visits');
-			}
-
-			const batch = (data ?? []) as ReleaseVisitSignal[];
-			visits.push(...batch);
-			if (batch.length < RAW_VISIT_PAGE_SIZE) break;
-		}
+async function fetchReleaseDemandWindows(supabaseAny: any): Promise<ReleaseDemandWindowRow[]> {
+	const { data, error: rpcError } = await supabaseAny.rpc('get_content_release_demand_metrics');
+	if (rpcError) {
+		throw new Error(rpcError.message || 'Failed to load release demand metrics');
 	}
-
-	return visits;
+	return (data ?? []) as ReleaseDemandWindowRow[];
 }
 
 async function buildDemandScoreFields(
@@ -428,6 +358,7 @@ async function buildDemandScoreFields(
 ): Promise<Map<string, ReleasePerformanceScoreFields>> {
 	if (selectedRows.length === 0) return new Map();
 
+	// Score percentiles need the full release population as a baseline, not just the selected slice.
 	let baselineRows = selectedRows;
 	if (fromDate || toDate) {
 		const { data: baselineData, error: baselineError } = await fetchReleasePerformanceRows(
@@ -454,11 +385,12 @@ async function buildDemandScoreFields(
 		...selectedRows.filter((row) => !baselineSlugSet.has(row.slug))
 	];
 
-	const supabaseAdmin = getSupabaseAdminClient() as any;
-	const visits = await fetchReleaseVisitSignals(supabaseAdmin, rowsForScoring);
-	const scoreFields = computeReleasePerformanceScoreFields(
+	// Pre-aggregated per-(slug, window) demand metrics computed set-based in SQL. This replaces fetching
+	// every raw page_analytics_visits row for every slug on each request (the old performance bottleneck).
+	const windowRows = await fetchReleaseDemandWindows(supabaseAny);
+	const scoreFields = computeReleasePerformanceScoreFieldsFromWindows(
 		rowsForScoring.map(toReleaseScoreBaseRow),
-		visits
+		windowRows
 	);
 
 	return new Map([...scoreFields.entries()].filter(([slug]) => selectedSlugSet.has(slug)));

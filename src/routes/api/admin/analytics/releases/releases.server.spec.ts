@@ -1,85 +1,79 @@
 // src/routes/api/admin/analytics/releases/releases.server.spec.ts
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 
-vi.mock('$lib/server/supabaseAdmin', () => ({
-	getSupabaseAdminClient: vi.fn()
-}));
-
-import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { GET } from './+server';
 
-describe('/api/admin/analytics/releases', () => {
-	beforeEach(() => {
-		vi.mocked(getSupabaseAdminClient).mockReturnValue(createAdminClientMock() as any);
+interface SupabaseMockOptions {
+	refreshRows?: number;
+	// One array per sequential get_content_release_performance call (page fetch + optional baseline).
+	perfBatches?: Array<Array<Record<string, unknown>>>;
+	demand?: Array<Record<string, unknown>>;
+	admin?: boolean;
+}
+
+/**
+ * Builds a Supabase mock whose `.rpc()` dispatches by function name so call ordering is robust to the
+ * endpoint's internal sequencing (refresh → performance pages → demand metrics).
+ */
+function createSupabase({
+	refreshRows = 0,
+	perfBatches = [[]],
+	demand = [],
+	admin = true
+}: SupabaseMockOptions = {}) {
+	let perfIndex = 0;
+	const rpc = vi.fn((name: string) => {
+		if (name === 'refresh_content_analytics_daily') {
+			return Promise.resolve({ data: refreshRows, error: null });
+		}
+		if (name === 'get_content_release_performance') {
+			const batch = perfBatches[perfIndex] ?? [];
+			perfIndex += 1;
+			return Promise.resolve({ data: batch, error: null });
+		}
+		if (name === 'get_content_release_demand_metrics') {
+			return Promise.resolve({ data: demand, error: null });
+		}
+		return Promise.resolve({ data: null, error: null });
 	});
 
+	const profilesSingle = vi.fn().mockResolvedValue({
+		data: { admin },
+		error: null
+	});
+	const supabase = {
+		from: vi.fn(() => ({
+			select: vi.fn(() => ({
+				eq: vi.fn(() => ({
+					single: profilesSingle
+				}))
+			}))
+		})),
+		rpc
+	};
+	return { supabase, rpc };
+}
+
+function callGet(supabase: unknown, url: string) {
+	return GET({
+		url: new URL(url),
+		locals: {
+			session: { user: { id: 'admin-user' } },
+			supabase
+		}
+	} as any);
+}
+
+describe('/api/admin/analytics/releases', () => {
 	afterEach(() => {
 		vi.useRealTimers();
 		vi.clearAllMocks();
 	});
 
-	function createAdminClientMock(visits: Array<Record<string, unknown>> = []) {
-		let rangeFrom = 0;
-		let rangeTo = visits.length - 1;
-		const query: Record<string, any> = {};
-		query.select = vi.fn(() => query);
-		query.eq = vi.fn(() => query);
-		query.in = vi.fn(() => query);
-		query.gte = vi.fn(() => query);
-		query.lte = vi.fn(() => query);
-		query.range = vi.fn((from: number, to: number) => {
-			rangeFrom = from;
-			rangeTo = to;
-			return query;
-		});
-		let orderCalls = 0;
-		query.order = vi.fn(() => {
-			orderCalls += 1;
-			if (orderCalls < 2) return query;
-			orderCalls = 0;
-			return Promise.resolve({
-				data: visits.slice(rangeFrom, rangeTo + 1),
-				error: null
-			});
-		});
-		return {
-			from: vi.fn(() => query)
-		};
-	}
-
 	it('uses the raised default release limit when no explicit limit is provided', async () => {
-		const rpc = vi
-			.fn()
-			.mockResolvedValueOnce({
-				data: 12,
-				error: null
-			})
-			.mockResolvedValueOnce({
-				data: [],
-				error: null
-			});
-		const profilesSingle = vi.fn().mockResolvedValue({
-			data: { admin: true },
-			error: null
-		});
-		const supabase = {
-			from: vi.fn(() => ({
-				select: vi.fn(() => ({
-					eq: vi.fn(() => ({
-						single: profilesSingle
-					}))
-				}))
-			})),
-			rpc
-		};
+		const { supabase, rpc } = createSupabase({ refreshRows: 12, perfBatches: [[]] });
 
-		const response = await GET({
-			url: new URL('https://9takes.test/api/admin/analytics/releases'),
-			locals: {
-				session: { user: { id: 'admin-user' } },
-				supabase
-			}
-		} as any);
+		const response = await callGet(supabase, 'https://9takes.test/api/admin/analytics/releases');
 
 		expect(response.status).toBe(200);
 		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
@@ -89,7 +83,7 @@ describe('/api/admin/analytics/releases', () => {
 		});
 	});
 
-	it('normalizes expanded release benchmark fields', async () => {
+	it('normalizes expanded release benchmark fields and queries demand metrics', async () => {
 		const expandedRow = {
 			id: '11',
 			slug: 'sample-person',
@@ -123,42 +117,17 @@ describe('/api/admin/analytics/releases', () => {
 			growth_slope_7d: '1.25',
 			decay_rate_after_spike: null
 		};
-		const rpc = vi
-			.fn()
-			.mockResolvedValueOnce({
-				data: 12,
-				error: null
-			})
-			.mockResolvedValueOnce({
-				data: [expandedRow],
-				error: null
-			})
-			.mockResolvedValueOnce({
-				data: [expandedRow],
-				error: null
-			});
-		const profilesSingle = vi.fn().mockResolvedValue({
-			data: { admin: true },
-			error: null
+		// fromDate is set, so buildDemandScoreFields fetches a baseline page too (second perf batch).
+		const { supabase, rpc } = createSupabase({
+			refreshRows: 12,
+			perfBatches: [[expandedRow], [expandedRow]],
+			demand: []
 		});
-		const supabase = {
-			from: vi.fn(() => ({
-				select: vi.fn(() => ({
-					eq: vi.fn(() => ({
-						single: profilesSingle
-					}))
-				}))
-			})),
-			rpc
-		};
 
-		const response = await GET({
-			url: new URL('https://9takes.test/api/admin/analytics/releases?from=2026-04-01&limit=10'),
-			locals: {
-				session: { user: { id: 'admin-user' } },
-				supabase
-			}
-		} as any);
+		const response = await callGet(
+			supabase,
+			'https://9takes.test/api/admin/analytics/releases?from=2026-04-01&limit=10'
+		);
 		const body = await response.json();
 
 		expect(rpc).toHaveBeenNthCalledWith(1, 'refresh_content_analytics_daily', {
@@ -171,6 +140,8 @@ describe('/api/admin/analytics/releases', () => {
 			p_to_date: undefined,
 			p_limit: 10
 		});
+		// Demand metrics are read once from the RPC instead of fetching raw visits.
+		expect(rpc).toHaveBeenCalledWith('get_content_release_demand_metrics');
 		expect(body.rows[0]).toMatchObject({
 			id: 11,
 			views_24h_percentile: 82,
@@ -179,6 +150,7 @@ describe('/api/admin/analytics/releases', () => {
 			benchmark_score: 79.5,
 			launch_score: 82,
 			launch_band: 'above_norm',
+			// Single-release baseline → percentile sample too small → demand/overall stays unscored.
 			overall_score: null,
 			overall_performance_band: 'collecting',
 			benchmark_sample_size: 24,
@@ -194,65 +166,42 @@ describe('/api/admin/analytics/releases', () => {
 	});
 
 	it('quarantines legacy 7-day benchmark rows instead of trusting stale bands', async () => {
-		const rpc = vi
-			.fn()
-			.mockResolvedValueOnce({
-				data: 12,
-				error: null
-			})
-			.mockResolvedValueOnce({
-				data: [
-					{
-						id: '12',
-						slug: 'legacy-person',
-						path: '/personality-analysis/legacy-person',
-						title: 'Legacy Person',
-						published_at: '2026-03-15T12:00:00.000Z',
-						first_view_at: '2026-03-15T12:05:00.000Z',
-						minutes_to_first_view: '5',
-						views_1h: '1',
-						views_6h: '3',
-						views_24h: '5',
-						unique_24h: '4',
-						views_7d: '25',
-						unique_7d: '20',
-						views_30d: '40',
-						unique_30d: '30',
-						total_views: '45',
-						total_unique_visitors: '33',
-						avg_time_on_page_ms: '22000',
-						median_time_on_page_ms: '18000',
-						avg_scroll_pct: '61',
-						bounce_rate: '31',
-						views_7d_percentile: '67.5',
-						performance_band: 'below_norm',
-						release_stage: 'mature'
-					}
-				],
-				error: null
-			});
-		const profilesSingle = vi.fn().mockResolvedValue({
-			data: { admin: true },
-			error: null
-		});
-		const supabase = {
-			from: vi.fn(() => ({
-				select: vi.fn(() => ({
-					eq: vi.fn(() => ({
-						single: profilesSingle
-					}))
-				}))
-			})),
-			rpc
+		const legacyRow = {
+			id: '12',
+			slug: 'legacy-person',
+			path: '/personality-analysis/legacy-person',
+			title: 'Legacy Person',
+			published_at: '2026-03-15T12:00:00.000Z',
+			first_view_at: '2026-03-15T12:05:00.000Z',
+			minutes_to_first_view: '5',
+			views_1h: '1',
+			views_6h: '3',
+			views_24h: '5',
+			unique_24h: '4',
+			views_7d: '25',
+			unique_7d: '20',
+			views_30d: '40',
+			unique_30d: '30',
+			total_views: '45',
+			total_unique_visitors: '33',
+			avg_time_on_page_ms: '22000',
+			median_time_on_page_ms: '18000',
+			avg_scroll_pct: '61',
+			bounce_rate: '31',
+			views_7d_percentile: '67.5',
+			performance_band: 'below_norm',
+			release_stage: 'mature'
 		};
+		const { supabase } = createSupabase({
+			refreshRows: 12,
+			perfBatches: [[legacyRow]],
+			demand: []
+		});
 
-		const response = await GET({
-			url: new URL('https://9takes.test/api/admin/analytics/releases?limit=10'),
-			locals: {
-				session: { user: { id: 'admin-user' } },
-				supabase
-			}
-		} as any);
+		const response = await callGet(
+			supabase,
+			'https://9takes.test/api/admin/analytics/releases?limit=10'
+		);
 		const body = await response.json();
 
 		expect(body.rows[0]).toMatchObject({
@@ -312,42 +261,16 @@ describe('/api/admin/analytics/releases', () => {
 			)
 		);
 		const secondBatch = [makeRow(201, '2025-12-31T12:00:00.000Z')];
-		const rpc = vi
-			.fn()
-			.mockResolvedValueOnce({
-				data: 12,
-				error: null
-			})
-			.mockResolvedValueOnce({
-				data: firstBatch,
-				error: null
-			})
-			.mockResolvedValueOnce({
-				data: secondBatch,
-				error: null
-			});
-		const profilesSingle = vi.fn().mockResolvedValue({
-			data: { admin: true },
-			error: null
+		const { supabase, rpc } = createSupabase({
+			refreshRows: 12,
+			perfBatches: [firstBatch, secondBatch],
+			demand: []
 		});
-		const supabase = {
-			from: vi.fn(() => ({
-				select: vi.fn(() => ({
-					eq: vi.fn(() => ({
-						single: profilesSingle
-					}))
-				}))
-			})),
-			rpc
-		};
 
-		const response = await GET({
-			url: new URL('https://9takes.test/api/admin/analytics/releases?limit=500'),
-			locals: {
-				session: { user: { id: 'admin-user' } },
-				supabase
-			}
-		} as any);
+		const response = await callGet(
+			supabase,
+			'https://9takes.test/api/admin/analytics/releases?limit=500'
+		);
 		const body = await response.json();
 
 		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
@@ -367,40 +290,12 @@ describe('/api/admin/analytics/releases', () => {
 		vi.useFakeTimers();
 		vi.setSystemTime(new Date(2026, 3, 24, 12, 0, 0));
 
-		const rpc = vi
-			.fn()
-			.mockResolvedValueOnce({
-				data: 8,
-				error: null
-			})
-			.mockResolvedValueOnce({
-				data: [],
-				error: null
-			});
-		const profilesSingle = vi.fn().mockResolvedValue({
-			data: { admin: true },
-			error: null
-		});
-		const supabase = {
-			from: vi.fn(() => ({
-				select: vi.fn(() => ({
-					eq: vi.fn(() => ({
-						single: profilesSingle
-					}))
-				}))
-			})),
-			rpc
-		};
+		const { supabase, rpc } = createSupabase({ refreshRows: 8, perfBatches: [[]] });
 
-		const response = await GET({
-			url: new URL(
-				'https://9takes.test/api/admin/analytics/releases?from=2026-01-10&to=2026-02-10&limit=10'
-			),
-			locals: {
-				session: { user: { id: 'admin-user' } },
-				supabase
-			}
-		} as any);
+		const response = await callGet(
+			supabase,
+			'https://9takes.test/api/admin/analytics/releases?from=2026-01-10&to=2026-02-10&limit=10'
+		);
 		const body = await response.json();
 
 		expect(rpc).toHaveBeenNthCalledWith(1, 'refresh_content_analytics_daily', {

@@ -4,12 +4,12 @@ meta_title: "Why Austin Butler Can't Stop Disappearing Into Roles"
 persona_title: "Hollywood's Borrowed Voice"
 description: "Why did Austin Butler's voice stay Elvis after filming ended? The Enneagram Type 9 pattern explains the actor who keeps misplacing himself between roles."
 author: 'DJ Wayne'
-date: '2026-04-29'
+date: '2026-05-28'
 loc: 'https://9takes.com/personality-analysis/austin-butler'
-lastmod: '2026-04-30'
+lastmod: '2026-05-28'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['movieStar', 'screen-icon']
 person: 'austin-butler'

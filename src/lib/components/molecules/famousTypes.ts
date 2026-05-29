@@ -460,7 +460,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'adam-sandler', link: false, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Comedy\'s Gentle Fortress', contentGrade: 8.7, types: ['comedian', 'movieStar', 'screen-icon'] },
 		{ name: 'alexis-bledel', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Television\'s Deliberate Ghost', contentGrade: 9, types: ['celebrity', 'screen-icon'] },
 		{ name: 'alix-earle', link: true, hasImage: true, lastmod: '2026-05-14', personaTitle: 'TikTok\'s Sleeping Empire', contentGrade: 9, types: ['influencer', 'creator', 'lifestyle-builder'] },
-		{ name: 'austin-butler', link: false, hasImage: true, lastmod: '2026-04-30', personaTitle: 'Hollywood\'s Borrowed Voice', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
+		{ name: 'austin-butler', link: true, hasImage: true, lastmod: '2026-05-28', personaTitle: 'Hollywood\'s Borrowed Voice', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'barack-obama', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'America\'s Composed Colossus', contentGrade: 8.9, types: ['politician', 'modern-leader'] },
 		{ name: 'bella-poarch', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'TikTok\'s Silent Survivor', contentGrade: 8.9, types: ['creator', 'tiktoker', 'lifestyle-builder'] },
 		{ name: 'brad-pitt', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'Hollywood\'s Peacekeeping Chameleon', contentGrade: 8.8, types: ['movieStar', 'screen-icon'] },

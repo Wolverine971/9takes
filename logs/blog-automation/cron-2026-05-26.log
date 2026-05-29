@@ -1,0 +1,21 @@
+Pre-flight check: judge-judy is marked inProgress (started 2026-05-25T06:00:44Z, 20 hours ago — not stale per the 24-hour rule). Draft file exists but queue wasn't updated to mark it completed.
+
+Per the workflow rules, I must stop when `inProgress` is set and not stale.
+
+**BLOG IN PROGRESS: judge-judy - skipping today's run**
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-05-26
+Status: SKIPPED (inProgress lock held)
+Blog: judge-judy (held since 2026-05-25T06:00:44Z, 20h elapsed)
+Note: Draft exists at src/blog/people/drafts/judge-judy.md (35645 bytes, modified 2026-05-25 22:16) but queue entry was never moved from inProgress → completed
+Stale threshold: 24h (4h until auto-clear)
+Rate limit: 1/5 this week (week started 2026-05-23)
+Next Run: Tomorrow 2:00 AM (will auto-clear stale lock and proceed)
+===================================
+```
+
+The previous run created the judge-judy draft successfully but didn't clear `inProgress` (likely timed out or crashed during grading/post-processing). The next scheduled run will see the lock as stale (>24h) and auto-clear it, then proceed with the next queue item.
+
+If you want to unblock now, you can manually move `judge-judy` from `inProgress` → `completed` in `docs/blog-automation/backlog-queue.json`. I'm not doing that automatically since the workflow only auto-clears at the 24h staleness threshold.

@@ -1,0 +1,17 @@
+```text
+Published people blog.
+
+Person: jamie-dimon
+Draft: src/blog/people/drafts/Jamie-Dimon.md
+Date/lastmod: 2026-05-27
+Supabase: published=true (row id=1015)
+Images: full + thumbnail present (static/types/8s/Jamie-Dimon.webp, s-Jamie-Dimon.webp)
+Content grade: 8.9 (4446 words)
+Generated files: pnpm gen:all completed
+  - Draft frontmatter: published=true, date/lastmod=2026-05-27
+  - famousTypes.ts: link=true, hasImage=true, lastmod=2026-05-27
+  - sitemap.xml: /personality-analysis/jamie-dimon present
+
+Blockers:
+- none
+```

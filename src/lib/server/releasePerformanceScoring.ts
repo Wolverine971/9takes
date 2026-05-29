@@ -99,6 +99,32 @@ const BELOW_THRESHOLD = 25;
 const MIN_DIRECTIONAL_EXTERNAL_UNIQUE = 3;
 const MIN_STABLE_EXTERNAL_UNIQUE = 5;
 
+// Demand + engagement formulas live here so the raw-visit path (computeWindowMetrics) and the
+// pre-aggregated path (windowMetricsFromAggregate) can never drift apart.
+function computeDemandPoints(
+	externalUnique: number,
+	searchUnique: number,
+	directUnique: number,
+	engagedExternalUnique: number
+): number {
+	return externalUnique + searchUnique * 0.75 + directUnique * 0.25 + engagedExternalUnique * 0.75;
+}
+
+// Scroll depth is a weak/biased signal on these long, lazy-loading pages (related posts + comments
+// load below the article and inflate document scrollHeight after the reader passed the content), so
+// it is down-weighted to 15; the freed weight moves to engaged time (55) and engaged-visit share (30).
+function computeEngagementValue(
+	avgEngagedMs: number,
+	avgScrollPct: number,
+	engagedExternalVisitShare: number
+): number {
+	return (
+		Math.min(avgEngagedMs / 60_000, 1) * 55 +
+		Math.min(avgScrollPct / 60, 1) * 15 +
+		engagedExternalVisitShare * 30
+	);
+}
+
 function toNumber(value: unknown): number {
 	const numeric = Number(value ?? 0);
 	return Number.isFinite(numeric) ? numeric : 0;
@@ -148,10 +174,27 @@ function sourceBucket(visit: ReleaseVisitSignal): string {
 	if (source.startsWith('email')) return 'email';
 	if (source === 'direct' || referrer === 'direct' || (!source && !referrer)) return 'direct';
 	if (source && source !== 'unknown' && source !== 'other') return source;
-	if (referrer.includes('google.')) return 'search';
-	if (referrer.includes('bing.')) return 'search';
-	if (referrer.includes('duckduckgo.')) return 'search';
-	if (referrer.includes('ecosia.')) return 'search';
+	// Referrer fallback when acquisition_source is missing/unknown. AI engines first so they aren't
+	// swallowed by generic search matching (e.g. gemini.google.* must not read as search/google).
+	if (
+		/(chatgpt|openai|perplexity|claude\.ai|anthropic|gemini\.google|bard\.google|copilot\.microsoft|grok\.|x\.ai|poe\.com|you\.com|phind\.com|meta\.ai|mistral\.ai)/.test(
+			referrer
+		)
+	) {
+		return 'ai';
+	}
+	if (
+		referrer.includes('google.') ||
+		referrer.includes('bing.') ||
+		referrer.includes('duckduckgo.') ||
+		referrer.includes('ecosia.') ||
+		referrer.includes('yahoo.') ||
+		referrer.includes('yandex.') ||
+		referrer.includes('brave.') ||
+		referrer.includes('googlequicksearch')
+	) {
+		return 'search';
+	}
 	if (referrer === 'direct') return 'direct';
 	return source || 'other';
 }
@@ -256,15 +299,17 @@ function computeWindowMetrics(
 	const avgEngagedMs = engagedMsTotal / windowVisits.length;
 	const avgScrollPct = scrollTotal / windowVisits.length;
 	const engagedExternalVisitShare = externalViews > 0 ? engagedExternalVisits / externalViews : 0;
-	const demandPoints =
-		externalUnique.size +
-		searchUnique.size * 0.75 +
-		directUnique.size * 0.25 +
-		engagedExternalUnique.size * 0.75;
-	const engagementValue =
-		Math.min(avgEngagedMs / 60_000, 1) * 45 +
-		Math.min(avgScrollPct / 60, 1) * 35 +
-		engagedExternalVisitShare * 20;
+	const demandPoints = computeDemandPoints(
+		externalUnique.size,
+		searchUnique.size,
+		directUnique.size,
+		engagedExternalUnique.size
+	);
+	const engagementValue = computeEngagementValue(
+		avgEngagedMs,
+		avgScrollPct,
+		engagedExternalVisitShare
+	);
 
 	return {
 		views: windowVisits.length,
@@ -356,51 +401,105 @@ function buildNotes(metrics: RowMetrics): string[] {
 	return notes.slice(0, 4);
 }
 
-export function computeReleasePerformanceScoreFields(
-	rows: ReleaseScoreBaseRow[],
-	visits: ReleaseVisitSignal[],
-	referenceDate = new Date()
-): Map<string, ReleasePerformanceScoreFields> {
-	const visitsBySlug = new Map<string, ReleaseVisitSignal[]>();
-	for (const visit of visits) {
-		const slug = String(visit.content_slug || '').trim();
-		if (!slug) continue;
-		if (!visitsBySlug.has(slug)) visitsBySlug.set(slug, []);
-		visitsBySlug.get(slug)?.push(visit);
+/**
+ * Pre-aggregated window row as returned by the `get_content_release_demand_metrics` RPC — one row per
+ * (release slug, window_days). This is the SQL-side replacement for fetching every raw visit: the
+ * heavy COUNT(DISTINCT fingerprint) per source bucket happens set-based in Postgres, and the scorer
+ * rebuilds WindowMetrics from these aggregates instead of from raw visit rows.
+ */
+export interface ReleaseDemandWindowRow {
+	slug: string;
+	window_days: number | string;
+	views: number | string;
+	unique_visitors: number | string;
+	internal_views: number | string;
+	external_views: number | string;
+	external_unique: number | string;
+	search_unique: number | string;
+	direct_unique: number | string;
+	engaged_external_unique: number | string;
+	engaged_external_visits: number | string;
+	engaged_ms_sum: number | string;
+	scroll_sum: number | string;
+	source_counts: Record<string, number | string> | null;
+}
+
+function windowMetricsFromAggregate(agg: ReleaseDemandWindowRow | undefined): WindowMetrics {
+	if (!agg || toNumber(agg.views) <= 0) return emptyWindowMetrics();
+
+	const views = toNumber(agg.views);
+	const externalViews = toNumber(agg.external_views);
+	const externalUnique = toNumber(agg.external_unique);
+	const searchUnique = toNumber(agg.search_unique);
+	const directUnique = toNumber(agg.direct_unique);
+	const engagedExternalUnique = toNumber(agg.engaged_external_unique);
+	const engagedExternalVisits = toNumber(agg.engaged_external_visits);
+	const avgEngagedMs = views > 0 ? toNumber(agg.engaged_ms_sum) / views : 0;
+	const avgScrollPct = views > 0 ? toNumber(agg.scroll_sum) / views : 0;
+	const engagedExternalVisitShare = externalViews > 0 ? engagedExternalVisits / externalViews : 0;
+
+	const sourceCounts = new Map<string, number>();
+	for (const [source, value] of Object.entries(agg.source_counts ?? {})) {
+		sourceCounts.set(source, toNumber(value));
 	}
 
-	const rowMetrics: RowMetrics[] = rows.map((row) => {
-		const slugVisits = visitsBySlug.get(row.slug) ?? [];
-		const ageDays = daysSince(row.published_at, referenceDate);
-		const window7d = computeWindowMetrics(row, slugVisits, 7);
-		const window30d = computeWindowMetrics(row, slugVisits, 30);
-		const window24h = computeWindowMetrics(row, slugVisits, 1);
-		const basis = ageDays === null || ageDays < 7 ? null : ageDays >= 30 ? '30d' : '7d';
-		const activeWindow = basis === '30d' ? window30d : basis === '7d' ? window7d : null;
-		const hasMatureRawVisitCoverage =
-			!basis ||
-			!activeWindow ||
-			activeWindow.views > 0 ||
-			getAggregateViewsForBasis(row, basis) === 0;
+	return {
+		views,
+		unique: toNumber(agg.unique_visitors),
+		internalViews: toNumber(agg.internal_views),
+		externalViews,
+		externalUnique,
+		engagedExternalUnique,
+		searchUnique,
+		directUnique,
+		avgEngagedMs,
+		avgScrollPct,
+		engagedExternalVisitShare,
+		demandPoints: round(
+			computeDemandPoints(externalUnique, searchUnique, directUnique, engagedExternalUnique)
+		),
+		engagementValue: round(
+			computeEngagementValue(avgEngagedMs, avgScrollPct, engagedExternalVisitShare)
+		),
+		topSources: sourceSummary(sourceCounts)
+	};
+}
 
-		return {
-			row,
-			ageDays,
-			repeatViewShare24h: computeRepeatShare(row),
-			window24h,
-			window7d,
-			window30d,
-			basis,
-			activeWindow,
-			hasMatureRawVisitCoverage,
-			demandPercentile: null,
-			engagementPercentile: null,
-			qualityDemandScore: null,
-			qualityDemandBand: 'collecting',
-			qualityDemandSampleSize: 0
-		};
-	});
+function buildRowMetrics(
+	row: ReleaseScoreBaseRow,
+	window24h: WindowMetrics,
+	window7d: WindowMetrics,
+	window30d: WindowMetrics,
+	referenceDate: Date
+): RowMetrics {
+	const ageDays = daysSince(row.published_at, referenceDate);
+	const basis = ageDays === null || ageDays < 7 ? null : ageDays >= 30 ? '30d' : '7d';
+	const activeWindow = basis === '30d' ? window30d : basis === '7d' ? window7d : null;
+	const hasMatureRawVisitCoverage =
+		!basis ||
+		!activeWindow ||
+		activeWindow.views > 0 ||
+		getAggregateViewsForBasis(row, basis) === 0;
 
+	return {
+		row,
+		ageDays,
+		repeatViewShare24h: computeRepeatShare(row),
+		window24h,
+		window7d,
+		window30d,
+		basis,
+		activeWindow,
+		hasMatureRawVisitCoverage,
+		demandPercentile: null,
+		engagementPercentile: null,
+		qualityDemandScore: null,
+		qualityDemandBand: 'collecting',
+		qualityDemandSampleSize: 0
+	};
+}
+
+function finalizeScoreFields(rowMetrics: RowMetrics[]): Map<string, ReleasePerformanceScoreFields> {
 	for (const basis of ['7d', '30d'] as const) {
 		const eligible = rowMetrics.filter(
 			(metrics) =>
@@ -488,4 +587,67 @@ export function computeReleasePerformanceScoreFields(
 	}
 
 	return fieldsBySlug;
+}
+
+/**
+ * Raw-visit path: compute score fields directly from individual visit signals. Retained for tests and
+ * as a fallback. Production reads pre-aggregated windows via computeReleasePerformanceScoreFieldsFromWindows.
+ */
+export function computeReleasePerformanceScoreFields(
+	rows: ReleaseScoreBaseRow[],
+	visits: ReleaseVisitSignal[],
+	referenceDate = new Date()
+): Map<string, ReleasePerformanceScoreFields> {
+	const visitsBySlug = new Map<string, ReleaseVisitSignal[]>();
+	for (const visit of visits) {
+		const slug = String(visit.content_slug || '').trim();
+		if (!slug) continue;
+		if (!visitsBySlug.has(slug)) visitsBySlug.set(slug, []);
+		visitsBySlug.get(slug)?.push(visit);
+	}
+
+	const rowMetrics = rows.map((row) => {
+		const slugVisits = visitsBySlug.get(row.slug) ?? [];
+		return buildRowMetrics(
+			row,
+			computeWindowMetrics(row, slugVisits, 1),
+			computeWindowMetrics(row, slugVisits, 7),
+			computeWindowMetrics(row, slugVisits, 30),
+			referenceDate
+		);
+	});
+
+	return finalizeScoreFields(rowMetrics);
+}
+
+/**
+ * Pre-aggregated path (production): build score fields from per-(slug, window) aggregate rows returned
+ * by the get_content_release_demand_metrics RPC. Same scoring/percentile logic as the raw path, but the
+ * heavy distinct-fingerprint windowing is done set-based in SQL instead of fetched as raw visits.
+ */
+export function computeReleasePerformanceScoreFieldsFromWindows(
+	rows: ReleaseScoreBaseRow[],
+	windowRows: ReleaseDemandWindowRow[],
+	referenceDate = new Date()
+): Map<string, ReleasePerformanceScoreFields> {
+	const windowsBySlug = new Map<string, Map<number, ReleaseDemandWindowRow>>();
+	for (const windowRow of windowRows) {
+		const slug = String(windowRow.slug || '').trim();
+		if (!slug) continue;
+		if (!windowsBySlug.has(slug)) windowsBySlug.set(slug, new Map());
+		windowsBySlug.get(slug)?.set(toNumber(windowRow.window_days), windowRow);
+	}
+
+	const rowMetrics = rows.map((row) => {
+		const windows = windowsBySlug.get(row.slug);
+		return buildRowMetrics(
+			row,
+			windowMetricsFromAggregate(windows?.get(1)),
+			windowMetricsFromAggregate(windows?.get(7)),
+			windowMetricsFromAggregate(windows?.get(30)),
+			referenceDate
+		);
+	});
+
+	return finalizeScoreFields(rowMetrics);
 }
