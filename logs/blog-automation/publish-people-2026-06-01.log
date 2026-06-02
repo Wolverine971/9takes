@@ -1,0 +1,22 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: teyana-taylor
+Draft: src/blog/people/drafts/Teyana-Taylor.md
+Date/lastmod: 2026-06-01
+Supabase: published=true (row id 1011)
+Images: full + thumbnail present (static/types/3s/Teyana-Taylor.webp + s-Teyana-Taylor.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verification confirmed:
+- **Draft** `Teyana-Taylor.md` → `published: true`, `date`/`lastmod` = `2026-06-01`
+- **famousTypes.ts** → `link: true`, `hasImage: true`, `lastmod: '2026-06-01'`
+- **sitemap.xml** → includes `https://9takes.com/personality-analysis/teyana-taylor` with image loc
+
+Content grade 8.8 (≥8.5 gate), 2393 words. Type 3 — "Harlem's Insatiable Performer."

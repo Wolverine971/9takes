@@ -4,12 +4,12 @@ meta_title: "The Recluse Behind Ella Langley's Wandering Country Songs"
 persona_title: "Alabama's Stubborn Wildflower"
 description: "Why Ella Langley sings about wandering but lives like a recluse. An Enneagram Type 8 analysis of country's stubborn wildflower from Hope Hull, Alabama."
 author: 'DJ Wayne'
-date: '2026-05-08'
+date: '2026-06-01'
 loc: 'https://9takes.com/personality-analysis/ella-langley'
-lastmod: '2026-05-08'
+lastmod: '2026-06-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '8'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'ella-langley'

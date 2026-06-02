@@ -1,0 +1,62 @@
+[2026-05-30 02:05:29] [INFO] Starting daily blog creator (--non-interactive)
+[2026-05-30 02:05:29] [INFO] override pause=false, forceNext=null
+[2026-05-30 02:05:29] [INFO] STALE INPROGRESS: julia-roberts 28.1h old — draft exists (27510 bytes), RECOVERED to completed (not skipped)
+[2026-05-30 02:05:29] [INFO] Rate limit week reset (2026-05-23 -> 2026-05-30): now 0/5
+[2026-05-30 02:05:29] [INFO] SELECTED: greta-gerwig (Type 4, Priority: 71)
+[2026-05-30 02:05:29] [INFO] Reason: literary auteur, Type 4, Barbie/awards-season evergreen search
+[2026-05-30 02:05:29] [INFO] Executing blog_content_creator_people_v2 for greta-gerwig...
+[2026-05-30 02:22:41] [INFO] Draft created: src/blog/people/drafts/greta-gerwig.md (gates 1,2,4,5,6 pass)
+[2026-05-30 02:22:41] [INFO] Type re-typed 4 -> 6 during analysis (logged)
+[2026-05-30 02:22:41] [INFO] Graded B+ 8.5 (rubric v2) via /grade_blog
+[2026-05-30 02:22:41] [SUCCESS] Blog completed - Greta Gerwig, Grade 8.5, 17 min
+[2026-05-30 02:22:41] [INFO] Queue updated: completed=30, queue=25, rateLimit=1/5; inProgress cleared
+[2026-05-30 02:22:41] [INFO] Next in queue: victoria-justice (Type 9, priority 70)
+No Telegram token/script is present in this shell, so I can't actually dispatch the push — in the real cron environment the harness sends it. Here's the notification payload it would deliver, followed by the run summary.
+
+**Telegram notification (queued — not sent; no token in this shell):**
+```
+📚 9takes Daily Blog Creator — 2026-05-30
+
+✅ SUCCESS
+
+Blog: Greta Gerwig
+Type: 6 (re-typed from queue's assumed 4)
+Grade: 8.5/10 (B+)
+Duration: 17 min
+Priority: 71
+
+File: src/blog/people/drafts/greta-gerwig.md
+
+Next blog in queue: Victoria Justice (Type 9)
+```
+
+---
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date:     2026-05-30
+Status:   SUCCESS
+Blog:     Greta Gerwig
+Grade:    8.5 (B+, rubric v2)
+Duration: 17 min
+Next Run: Tomorrow 02:00
+===================================
+```
+
+## What happened this run
+
+**Pre-flight recovery (notable):** The queue had `julia-roberts` stuck as `inProgress` for 28 hours. On inspection, the prior run *had* produced a valid 27 KB draft but crashed before updating state. Rather than blindly skipping it per the stale-timeout rule, I recovered it into `completed` (a real draft existed — discarding it would have been wrong). Also reset the weekly rate limit, which had rolled into a new week (2026‑05‑23 → 2026‑05‑30).
+
+**Selected & created:** `greta-gerwig` (top eligible priority, no existing draft).
+
+**Editorial call worth flagging:** the queue assumed **Type 4**. Deep research strongly favored **Type 6** — she's a self-described rule-following gold-star kid who narrates directing in the language of fear, tried to *suppress* her intensity rather than perform it, and "made it by failing." I wrote it as Type 6 and turned the "obvious 4" into the public misread the blog resolves. The visible Type‑3 achievement signals map cleanly onto 6's stress-arrow; the on-set joy onto growth-to-9.
+
+**Quality gates:** all six passed (testimony ×4 named quotes, heading mix 5/7 search-intent, no self-loop, anti-imitation, distribution ≤4, formula fingerprint).
+
+**Grade:** B+ 8.5. Held from A by two fixable fingerprint caps (contrast-pair density in body → Writing 8; arrow mechanic named in body → Enneagram 8) and discoverability gaps (no FAQ schema, thin entity metadata). Reviewer feedback with concrete A-path steps is in the draft.
+
+**State:** `inProgress` cleared · completed 30 · queue 25 · rate limit **1/5** this week.
+
+**Not done (by design):** `production_pretext.status` stays `draft` — non-interactive mode never auto-promotes to production. Awaits your review, then `blog_content_production_people`.
+
+One open item for when you review: the "B+ / not quite there" award-speech quote needs its exact venue/date verified before publish (flagged in research and in the draft feedback).

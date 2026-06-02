@@ -4,12 +4,12 @@ meta_title: "Why Teyana Taylor Can't Stop Even When Her Body Begs Her To"
 persona_title: "Harlem's Insatiable Performer"
 description: "Teyana Taylor's Enneagram Type 3 wiring explains the polyp surgery, the bathroom birth, the retirement threat, and why she keeps performing through every shutdown."
 author: 'DJ Wayne'
-date: '2026-04-29'
+date: '2026-06-01'
 loc: 'https://9takes.com/personality-analysis/teyana-taylor'
-lastmod: '2026-04-29'
+lastmod: '2026-06-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['musician', 'movieStar', 'screen-icon']
 person: 'teyana-taylor'

@@ -1,0 +1,21 @@
+All verifications pass.
+
+```text
+Published people blog.
+
+Person: david-goggins
+Draft: src/blog/people/drafts/David-Goggins.md
+Date/lastmod: 2026-05-30
+Supabase: published=true (row id 691)
+Images: full + thumbnail present (static/types/6s/David-Goggins.webp + s-David-Goggins.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Confirmed changes:
+- **Draft frontmatter** (`David-Goggins.md`): `published: true`, `date`/`lastmod` set to 2026-05-30
+- **famousTypes.ts**: `link: true`, `hasImage: true`, `lastmod: '2026-05-30'`
+- **sitemap.xml**: includes `https://9takes.com/personality-analysis/david-goggins` with image entry
+- **Type 6** analysis, content grade 8.8 (above the 8.5 gate)
