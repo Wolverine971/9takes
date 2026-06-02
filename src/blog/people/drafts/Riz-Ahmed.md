@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['movieStar', 'musician', 'screen-icon']
 person: 'riz-ahmed'
-suggestions: ['Dev-Patel', 'Mahershala-Ali', 'Hasan-Minhaj', 'Kumail-Nanjiani']
+suggestions: []
 wikipedia: 'https://en.wikipedia.org/wiki/Riz_Ahmed'
 wikidata_qid: 'Q1861917'
 imdb_id: 'nm1981893'
@@ -85,6 +85,8 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Riz-Ahmed.md
 ---
+
+<!-- Parked unpublished related profiles: Dev-Patel, Mahershala-Ali, Hasan-Minhaj, Kumail-Nanjiani. -->
 
 <!-- TESTIMONY LEDGER
 1. Darius Marder (director, Sound of Metal): "Riz is a shape-shifter." — Backstage / Variety, 2021

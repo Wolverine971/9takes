@@ -284,7 +284,6 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'aubrey-plaza', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Comedy\'s Deadpan Skeptic', contentGrade: 9, types: ['comedian', 'movieStar', 'tv-comedy-crossover', 'sketch-comic'] },
 		{ name: 'ben-horowitz', link: true, hasImage: true, lastmod: '2026-04-25', personaTitle: 'Silicon Valley\'s Wartime Watchman', contentGrade: 9.1, types: ['techie', 'entrepreneur', 'author', 'business-operator'] },
 		{ name: 'dalton-caldwell', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Silicon Valley\'s Devoted Skeptic', contentGrade: 8.8, types: ['techie'] },
-		{ name: 'david-goggins', link: true, hasImage: true, lastmod: '2026-05-30', personaTitle: 'Fear\'s Most Loyal Soldier', contentGrade: 8.8, types: ['celebrity', 'author', 'celebrity-image'] },
 		{ name: 'david-sacks', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Vigilant Architect', contentGrade: 8.9, types: ['techie', 'investor'] },
 		{ name: 'ellen-degeneres', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Daytime\'s Fallen Sweetheart', contentGrade: null, types: ['celebrity'] },
 		{ name: 'eminem', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Detroit\'s Anxious Assassin', contentGrade: 9.1, types: ['musician', 'rapper'] },
@@ -303,7 +302,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'meghan-trainor', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Pop\'s Bubblegum Sentinel', contentGrade: 8.9, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'olivia-munn', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Counterphobic Sentinel', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'pedro-pascal', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s Anxious Guardian', contentGrade: 9.4, types: ['movieStar', 'screen-icon'] },
-		{ name: 'penelope-cruz', link: false, hasImage: true, lastmod: '2026-05-15', personaTitle: 'Cinema\'s Trembling Loyalist', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
+		{ name: 'penelope-cruz', link: true, hasImage: true, lastmod: '2026-06-02', personaTitle: 'Cinema\'s Trembling Loyalist', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'peter-thiel', link: true, hasImage: true, lastmod: '2026-03-02', personaTitle: 'Silicon Valley\'s Vigilant Contrarian', contentGrade: 9.7, types: ['techie', 'investor'] },
 		{ name: 'pokimane', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Streaming\'s Fortress Builder', contentGrade: 9, types: ['creator', 'streamer'] },
 		{ name: 'prince-harry', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'The Spare Who Burned the Manual', contentGrade: 7.6, types: ['politician', 'royalty'] },
@@ -413,10 +412,11 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'chelsea-handler', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Comedy\'s Armored Softie', contentGrade: 8.9, types: ['comedian'] },
 		{ name: 'conor-mcgregor', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'Combat\'s Self-Made Wrecking Ball', contentGrade: 8.6, types: ['celebrity', 'celebrity-image'] },
 		{ name: 'dave-portnoy', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Media\'s Unapologetic Brawler', contentGrade: 9.7, types: ['creator', 'viral-entertainer'] },
+		{ name: 'david-goggins', link: true, hasImage: true, lastmod: '2026-06-01', personaTitle: 'Anger, Forged Into Armor', contentGrade: 8.8, types: ['celebrity', 'author', 'celebrity-image'] },
 		{ name: 'denzel-washington', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'The Preacher Who Chose a Different Pulpit', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'dr-phil', link: true, hasImage: true, lastmod: '2026-03-29', personaTitle: 'Television\'s Tough-Love Patriarch', contentGrade: 8.8, types: ['other'] },
 		{ name: 'druski', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Comedy\'s Self-Appointed CEO', contentGrade: 8.4, types: ['comedian', 'creator', 'viral-entertainer', 'internet-comic'] },
-		{ name: 'ella-langley', link: false, hasImage: true, lastmod: '2026-05-08', personaTitle: 'Alabama\'s Stubborn Wildflower', contentGrade: 8.9, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
+		{ name: 'ella-langley', link: true, hasImage: true, lastmod: '2026-06-01', personaTitle: 'Alabama\'s Stubborn Wildflower', contentGrade: 8.9, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'emily-ratajkowski', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'The Intellectual Provocateur', contentGrade: 9, types: ['celebrity', 'celebrity-image'] },
 		{ name: 'ernest-hemingway', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Literature\'s Armored Iceberg', contentGrade: 9, types: ['historical', 'author', 'historical-artist'] },
 		{ name: 'halsey', link: true, hasImage: true, lastmod: '2026-03-15', personaTitle: 'Pop\'s Armored Heart', contentGrade: 8.9, types: ['musician', 'alternative-artist'] },
@@ -507,6 +507,6 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'ron-desantis', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'sandra-bullock', link: false, hasImage: false, lastmod: '2026-04-27', personaTitle: 'America\'s Most Beloved Hider', contentGrade: 8.8, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'shawn-mendes', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] },
-		{ name: 'victoria-justice', link: false, hasImage: false, lastmod: '2026-06-01', personaTitle: 'Hollywood\'s Reluctant Headliner', contentGrade: 8.5, types: ['celebrity', 'movieStar', 'musician'] }
+		{ name: 'victoria-justice', link: false, hasImage: false, lastmod: '2026-06-01', personaTitle: 'Hollywood\'s Reluctant Headliner', contentGrade: 9, types: ['celebrity', 'movieStar', 'musician'] }
 	]
 };

@@ -12,7 +12,7 @@ published: true
 enneagram: 9
 type: ['movieStar', 'screen-icon']
 person: 'robert-de-niro'
-suggestions: ['Al-Pacino', 'Martin-Scorsese', 'Leonardo-DiCaprio', 'Meryl-Streep']
+suggestions: ['Leonardo-DiCaprio', 'Meryl-Streep']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_De_Niro'
 twitter: ''
 instagram: ''
@@ -86,6 +86,8 @@ production_pretext:
     - image_check
   blockers: []
 ---
+
+<!-- Parked unpublished related profiles: Al-Pacino, Martin-Scorsese. -->
 
 <!-- TESTIMONY LEDGER
 1. Martin Scorsese: "He's the only one who really knows where I come from." — Variety, 2024 (Scorsese describing his 50-year bond with De Niro)
@@ -392,5 +394,4 @@ PRIORITY FIXES:
 3. Address one critic-level counter-argument (late career decline OR political-shouting cultural cost) — the piece is so generous to its subject that a fan would feel it's protecting him.
 
 ============================================================ -->
-
 

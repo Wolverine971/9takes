@@ -217,7 +217,7 @@ Under [stress](/enneagram-corner/enneagram-types-in-stress), Type 6 moves toward
 
 His wing tells the rest of the story. In builder-mode — Posthaven, gstack, the engineering-as-AI-roles design — Tan runs 6w5: introverted, system-obsessed, building scaffolding for himself and others. In political-mode — Garry's List, the donor network, the 10x rhetoric — he flips to 6w7: louder, more public, more willing to risk the relationship to make the point. The whiplash people feel between "thoughtful YC president" and "1 AM brawler" is the same Six oscillating between his two wings.
 
-And in [security](/enneagram-corner/enneagram-types-in-security), a healthy Six moves toward [Type 9](/enneagram-corner/enneagram-type-9) — the quiet, settled, present mode. You see it in the parts of his life he doesn't perform: the Noe Valley house, the monthly checks home, the sober father, the two sons. The years of therapy look like that integration when they're working. The 1 AM tweets look like what happens when they're not.
+And in security, a healthy Six moves toward [Type 9](/enneagram-corner/enneagram-type-9) — the quiet, settled, present mode. You see it in the parts of his life he doesn't perform: the Noe Valley house, the monthly checks home, the sober father, the two sons. The years of therapy look like that integration when they're working. The 1 AM tweets look like what happens when they're not.
 
 ---
 
@@ -451,4 +451,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Cut or rewrite the "Most people see Garry Tan and think..." opening of the type-reveal — it's the only section that contradicts the piece's diagnose-then-prescribe register.
 
 ============================================================ -->
-

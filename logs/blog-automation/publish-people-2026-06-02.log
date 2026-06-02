@@ -1,0 +1,21 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: penelope-cruz
+Draft: src/blog/people/drafts/Penelope-Cruz.md
+Date/lastmod: 2026-06-02
+Supabase: published=true (row id 1056)
+Images: full + thumbnail present (static/types/6s/Penelope-Cruz.webp, s-Penelope-Cruz.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verification details:
+- **Draft frontmatter**: `published: true`, `date`/`lastmod` set to `2026-06-02` (quote style, field order, and inline arrays preserved)
+- **famousTypes.ts**: entry now `link: true, hasImage: true, lastmod: '2026-06-02'`, contentGrade 9.3
+- **sitemap.xml**: includes the `penelope-cruz` personality-analysis URL
+- Content grade 9.3 (≥8.5 gate), 5,146 words, Type 6

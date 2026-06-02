@@ -13,7 +13,7 @@ published: true
 enneagram: '8'
 type: ['entrepreneur', 'business-operator']
 person: 'jamie-dimon'
-suggestions: ['Jeff-Bezos', 'Alex-Karp', 'Reed-Hastings', 'Andrew-Ross-Sorkin']
+suggestions: ['Jeff-Bezos', 'Alex-Karp', 'Reed-Hastings']
 wikipedia: 'https://en.wikipedia.org/wiki/Jamie_Dimon'
 wikidata_qid: 'Q922169'
 imdb_id: 'nm5038401'
@@ -99,6 +99,8 @@ content_quality:
   graded_at: '2026-05-27'
 path: src/blog/people/drafts/Jamie-Dimon.md
 ---
+
+<!-- Parked unpublished related profile: Andrew-Ross-Sorkin. -->
 
 <!-- TESTIMONY LEDGER
 1. Alan Schwartz (CEO of Bear Stearns, March 13, 2008, phone call to Dimon at a Greek restaurant): "Jamie, I need $30 billion tonight, otherwise we're going to go bankrupt in Asia in the morning." — recounted in Andrew Ross Sorkin's "Too Big to Fail" (2009) and FCIC testimony, 2010 (named third party, direct quote, attribution, speaker addressing Dimon directly about the deal that defined his career)

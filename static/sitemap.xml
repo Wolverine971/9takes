@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1345,7 +1345,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1517,9 +1517,9 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/david-goggins</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <image:image>
-      <image:loc>https://9takes.com/types/6s/David-Goggins.webp</image:loc>
+      <image:loc>https://9takes.com/types/8s/David-Goggins.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -1639,6 +1639,13 @@
     <lastmod>2026-05-07</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Elizabeth-Holmes.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/ella-langley</loc>
+    <lastmod>2026-06-01</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/8s/Ella-Langley.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2734,6 +2741,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/penelope-cruz</loc>
+    <lastmod>2026-06-02</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Penelope-Cruz.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/pete-davidson</loc>
     <lastmod>2026-02-10</lastmod>
     <image:image>
@@ -3371,7 +3385,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
@@ -3379,7 +3393,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-06-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>

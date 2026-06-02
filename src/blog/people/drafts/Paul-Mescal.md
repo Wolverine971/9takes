@@ -13,7 +13,7 @@ published: true
 enneagram: '4'
 type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'paul-mescal'
-suggestions: ['Jacob-Elordi', 'Saoirse-Ronan', 'Robert-Pattinson', 'Oscar-Isaac']
+suggestions: ['Jacob-Elordi', 'Saoirse-Ronan', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Mescal'
 twitter: ''
 instagram: ''
@@ -80,6 +80,8 @@ faqs:
     anchor: 'how-paul-mescal-turned-grief-into-his-range'
 path: src/blog/people/drafts/Paul-Mescal.md
 ---
+
+<!-- Parked unpublished related profile: Oscar-Isaac. -->
 
 <!-- TESTIMONY LEDGER
 1. Ridley Scott (director, Gladiator II): "Your nerves are no fucking good to me." — Variety / IMDb News, 2024. Commenting directly on Mescal's pre-production nerves.

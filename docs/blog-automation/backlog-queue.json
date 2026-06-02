@@ -1,50 +1,11 @@
 {
-	"lastUpdated": "2026-05-29T02:00:47Z",
+	"lastUpdated": "2026-06-02T06:06:27Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "greta-gerwig",
-			"displayName": "Greta Gerwig",
-			"type": 4,
-			"priority": 71,
-			"priorityReason": "Director-auteur with major name recognition, Barbie halo, and a 4w5 individualist-artist angle (was Type 8 \u2014 corrected during audit; warm collaborative auteur, not 8-core dominance)",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-10",
-			"retryCount": 0,
-			"strategicValue": "director-auteur-cluster"
-		},
-		{
-			"name": "victoria-justice",
-			"displayName": "Victoria Justice",
-			"type": 9,
-			"priority": 70,
-			"priorityReason": "Ranker/Instagram beauty-list spike, Nickelodeon nostalgia, and a low-friction Type 9 girl-next-door analysis angle (was Type 3 \u2014 corrected during audit; no real image-climbing signal)",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-05-06",
-			"retryCount": 0,
-			"strategicValue": "viral-beauty-list-nostalgia-cluster"
-		},
-		{
-			"name": "tate-mcrae",
-			"displayName": "Tate McRae",
-			"type": 3,
-			"priority": 70,
-			"priorityReason": "Fast-rising Gen Z pop star, strong current momentum, and clear Type 3 performance angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-10",
-			"retryCount": 0,
-			"strategicValue": "gen-z-pop-cluster"
-		},
 		{
 			"name": "carina-zavline",
 			"displayName": "Carina Zavline",
@@ -63,7 +24,7 @@
 			"displayName": "Ayo Edebiri",
 			"type": 9,
 			"priority": 69,
-			"priorityReason": "Breakout actor-writer-director with critical heat, deadpan dry comedic register, and a 9w1 mediator-with-quiet-edge angle (was Type 7 \u2014 corrected during audit; tone is dry/observational, not enthusiast-scattered)",
+			"priorityReason": "Breakout actor-writer-director with critical heat, deadpan dry comedic register, and a 9w1 mediator-with-quiet-edge angle (was Type 7 — corrected during audit; tone is dry/observational, not enthusiast-scattered)",
 			"estimatedTraffic": "high",
 			"searchVolume": "high",
 			"personaTitle": null,
@@ -76,7 +37,7 @@
 			"displayName": "Andrew Garfield",
 			"type": 4,
 			"priority": 67,
-			"priorityReason": "Mainstream star with broad appeal, emotionally expressive grief register (Colbert mother interview, tick\u2026BOOM!), and a 4w5 romantic-artist angle (was Type 9 \u2014 corrected during audit)",
+			"priorityReason": "Mainstream star with broad appeal, emotionally expressive grief register (Colbert mother interview, tick…BOOM!), and a 4w5 romantic-artist angle (was Type 9 — corrected during audit)",
 			"estimatedTraffic": "high",
 			"searchVolume": "high",
 			"personaTitle": null,
@@ -141,7 +102,7 @@
 			"displayName": "Nick Offerman",
 			"type": 5,
 			"priority": 60,
-			"priorityReason": "Parks and Recreation favorite with evergreen search, deep woodworking/whisky/craft specialty, and a 5w4 craftsman-intellectual angle (was Type 9 \u2014 corrected during audit; Ron Swanson is 8w9, the actor is a 5)",
+			"priorityReason": "Parks and Recreation favorite with evergreen search, deep woodworking/whisky/craft specialty, and a 5w4 craftsman-intellectual angle (was Type 9 — corrected during audit; Ron Swanson is 8w9, the actor is a 5)",
 			"estimatedTraffic": "high",
 			"searchVolume": "high",
 			"personaTitle": null,
@@ -180,7 +141,7 @@
 			"displayName": "Brendan Fraser",
 			"type": 4,
 			"priority": 57,
-			"priorityReason": "Beloved comeback story with high goodwill, The Whale emotional vulnerability, and a 4w5 sensitive-artist comeback angle (was Type 9 \u2014 corrected during audit; tears-on-press-tour intensity reads 4, not 9)",
+			"priorityReason": "Beloved comeback story with high goodwill, The Whale emotional vulnerability, and a 4w5 sensitive-artist comeback angle (was Type 9 — corrected during audit; tears-on-press-tour intensity reads 4, not 9)",
 			"estimatedTraffic": "high",
 			"searchVolume": "high",
 			"personaTitle": null,
@@ -297,7 +258,7 @@
 			"displayName": "Kaia Gerber",
 			"type": 4,
 			"priority": 47,
-			"priorityReason": "Model-actor with literary book club platform, introspective public persona, and a 4w5 sensitive-artist angle (was Type 5 \u2014 corrected during audit; public literary curation \u2260 Type 5 withdrawn-observer core)",
+			"priorityReason": "Model-actor with literary book club platform, introspective public persona, and a 4w5 sensitive-artist angle (was Type 5 — corrected during audit; public literary curation ≠ Type 5 withdrawn-observer core)",
 			"estimatedTraffic": "high",
 			"searchVolume": "high",
 			"personaTitle": null,
@@ -347,6 +308,44 @@
 	],
 	"completed": [
 		{
+			"name": "victoria-justice",
+			"displayName": "Victoria Justice",
+			"type": 9,
+			"priority": 70,
+			"priorityReason": "Ranker/Instagram beauty-list spike, Nickelodeon nostalgia, and a low-friction Type 9 girl-next-door analysis angle (was Type 3 — corrected during audit; no real image-climbing signal)",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": "Hollywood's Reluctant Headliner",
+			"addedToQueue": "2026-05-06",
+			"retryCount": 0,
+			"strategicValue": "viral-beauty-list-nostalgia-cluster",
+			"startedAt": "2026-06-01T06:00:58Z",
+			"completedAt": "2026-06-01T06:30:00Z",
+			"contentGrade": 8.5,
+			"letterGrade": "B+",
+			"durationMinutes": 29,
+			"status": "draft",
+			"needsReview": false,
+			"draftPath": "src/blog/people/drafts/victoria-justice.md",
+			"coreTension": "Centrality vs. self-erasure — the title star of Victorious who kept letting others (the label, Schneider, the feud narrative) write her story, and watched supporting-player Ariana Grande become the icon. The 'I didn't even want to record Gold' decision is the Type 9 self-forgetting in one datum.",
+			"gatesPassed": [
+				"Gate 1: pass",
+				"Gate 2: pass",
+				"Gate 4: pass",
+				"Gate 5: pass",
+				"Gate 6: pass"
+			],
+			"contentRubric": {
+				"hook": 9.0,
+				"enneagram": 9.0,
+				"evidence": 8.5,
+				"writing": 8.5,
+				"originality": 9.0,
+				"discoverability": 7.5
+			},
+			"note": "non-interactive draft from /daily-blog-creator; graded B+ 8.5 (rubric v2) by /grade_blog. Discoverability held at 7.5 by missing faqs schema — easy A-grade lever for production."
+		},
+		{
 			"name": "kate-beckinsale",
 			"displayName": "Kate Beckinsale",
 			"type": 7,
@@ -366,7 +365,7 @@
 			"draftPath": "src/blog/people/drafts/Kate-Beckinsale.md",
 			"draftSize": 27163,
 			"needsReview": false,
-			"coreTension": "Wit as armor vs. grief as wound \u2014 the Type 7 escape system that built a comedic operating system around outrunning pain, until her mother's death burned a literal hole through her esophagus and the strategy met its limit.",
+			"coreTension": "Wit as armor vs. grief as wound — the Type 7 escape system that built a comedic operating system around outrunning pain, until her mother's death burned a literal hole through her esophagus and the strategy met its limit.",
 			"contentRubric": {
 				"hook": 9.0,
 				"enneagram": 9.0,
@@ -395,7 +394,7 @@
 			"draftPath": "src/blog/people/drafts/Mila-Kunis.md",
 			"draftSize": 21063,
 			"needsReview": false,
-			"coreTension": "Constructed chill vs. native vigilance \u2014 the refugee kid built loyalty contracts to outrun fear; the Masterson letter is the same engine misfiring."
+			"coreTension": "Constructed chill vs. native vigilance — the refugee kid built loyalty contracts to outrun fear; the Masterson letter is the same engine misfiring."
 		},
 		{
 			"name": "marie-curie",
@@ -415,7 +414,7 @@
 			"letterGrade": "B+",
 			"duration": 11,
 			"needsReview": false,
-			"coreTension": "The mind that decided not to fear couldn't fear what was killing the body \u2014 knowledge as the elemental fortress that quietly absorbed her.",
+			"coreTension": "The mind that decided not to fear couldn't fear what was killing the body — knowledge as the elemental fortress that quietly absorbed her.",
 			"contentRubric": {
 				"hook": 9.0,
 				"enneagram": 9.0,
@@ -442,7 +441,7 @@
 			"letterGrade": "B+",
 			"duration": 10,
 			"needsReview": false,
-			"coreTension": "The toughest man alive is also the most fearful man alive \u2014 and he refuses to ever stop being either.",
+			"coreTension": "The toughest man alive is also the most fearful man alive — and he refuses to ever stop being either.",
 			"contentRubric": {
 				"hook": 9.0,
 				"enneagram": 9.0,
@@ -484,7 +483,7 @@
 			"duration": 40,
 			"needsReview": false,
 			"personaTitle": "Pop's Restless She-Wolf",
-			"coreTension": "Joy as armor \u2014 keeping motion when stillness would break her"
+			"coreTension": "Joy as armor — keeping motion when stillness would break her"
 		},
 		{
 			"name": "sandra-bullock",
@@ -692,7 +691,7 @@
 		},
 		{
 			"name": "penelope-cruz",
-			"displayName": "Pen\u00e9lope Cruz",
+			"displayName": "Penélope Cruz",
 			"type": 4,
 			"priority": 79,
 			"priorityReason": "Ranker/Instagram beauty-list spike, Oscar-winning international prestige, and an expressive Type 4 artist analysis angle",
@@ -753,7 +752,7 @@
 			"displayName": "Lizzo",
 			"type": 7,
 			"priority": 75,
-			"priorityReason": "Pop star, body positivity, exuberant flute-and-joy register reads 7w8 (was Type 8 \u2014 corrected during audit; dominant tone is joyful expression with 8-wing edge, not 8-core)",
+			"priorityReason": "Pop star, body positivity, exuberant flute-and-joy register reads 7w8 (was Type 8 — corrected during audit; dominant tone is joyful expression with 8-wing edge, not 8-core)",
 			"estimatedTraffic": "high",
 			"searchVolume": "high",
 			"personaTitle": null,
@@ -815,7 +814,7 @@
 			"displayName": "Daniel Radcliffe",
 			"type": 6,
 			"priority": 73,
-			"priorityReason": "Harry Potter fame, openly-discussed anxiety, post-Potter loyalty-to-weird-projects pattern reads 6w5 (was Type 9 \u2014 corrected during audit)",
+			"priorityReason": "Harry Potter fame, openly-discussed anxiety, post-Potter loyalty-to-weird-projects pattern reads 6w5 (was Type 9 — corrected during audit)",
 			"estimatedTraffic": "high",
 			"searchVolume": "high",
 			"personaTitle": null,
@@ -836,21 +835,69 @@
 				"Gate 6: pass"
 			],
 			"note": "non-interactive draft from /daily-blog-creator; awaiting /grade_blog"
+		},
+		{
+			"name": "julia-roberts",
+			"displayName": "Julia Roberts",
+			"type": 7,
+			"priority": 72,
+			"priorityReason": "Hollywood A-lister, Type 7, America's sweetheart, evergreen search",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-03",
+			"retryCount": 0,
+			"strategicValue": "hollywood-royalty-cluster",
+			"startedAt": "2026-05-29T02:00:47Z",
+			"completedAt": "2026-05-29T15:17:51Z",
+			"contentGrade": null,
+			"status": "draft",
+			"durationMinutes": null,
+			"needsReview": true,
+			"note": "recovered by /daily-blog-creator: draft was created 2026-05-29 but queue never updated (stale inProgress); moved to completed instead of skipped since draft is valid"
+		},
+		{
+			"name": "greta-gerwig",
+			"displayName": "Greta Gerwig",
+			"type": 4,
+			"priority": 71,
+			"priorityReason": "Director-auteur with major name recognition, Barbie halo, and a 4w5 individualist-artist angle (was Type 8 — corrected during audit; warm collaborative auteur, not 8-core dominance)",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "director-auteur-cluster",
+			"startedAt": "2026-05-30T06:05:19Z",
+			"completedAt": "2026-05-30T06:22:30Z",
+			"contentGrade": 8.5,
+			"status": "draft",
+			"durationMinutes": 17,
+			"needsReview": false,
+			"gatesPassed": [
+				"Gate 1: pass",
+				"Gate 2: pass",
+				"Gate 4: pass",
+				"Gate 5: pass",
+				"Gate 6: pass"
+			],
+			"typeNote": "Queue assumed Type 4; deep research + analysis re-typed to Type 6 (anxious rule-follower). The 'obvious 4' is the public misread the blog resolves.",
+			"note": "non-interactive draft from /daily-blog-creator; graded B+ 8.5 (rubric v2) by /grade_blog"
 		}
 	],
 	"inProgress": {
-		"name": "julia-roberts",
-		"displayName": "Julia Roberts",
-		"type": 7,
-		"priority": 72,
-		"priorityReason": "Hollywood A-lister, Type 7, America's sweetheart, evergreen search",
+		"name": "tate-mcrae",
+		"displayName": "Tate McRae",
+		"type": 3,
+		"priority": 70,
+		"priorityReason": "Fast-rising Gen Z pop star, strong current momentum, and clear Type 3 performance angle",
 		"estimatedTraffic": "high",
 		"searchVolume": "high",
 		"personaTitle": null,
-		"addedToQueue": "2026-04-03",
+		"addedToQueue": "2026-04-10",
 		"retryCount": 0,
-		"strategicValue": "hollywood-royalty-cluster",
-		"startedAt": "2026-05-29T02:00:47Z"
+		"strategicValue": "gen-z-pop-cluster",
+		"startedAt": "2026-06-02T06:06:27Z"
 	},
 	"skipped": [
 		{
@@ -952,13 +999,13 @@
 		},
 		{
 			"name": "brene-brown",
-			"displayName": "Bren\u00e9 Brown",
+			"displayName": "Brené Brown",
 			"type": 2,
 			"priority": 98,
 			"startedAt": "2026-04-18T00:00:00Z",
 			"skippedAt": "2026-04-22T18:15:00Z",
 			"skipReason": "stale inProgress - draft exists",
-			"skipDetail": "Draft exists at src/blog/people/drafts/Brene-Brown.md (30KB, 5048 words, frontmatter published=false). NOTE: queue.type=2 but draft frontmatter enneagram=1 \u2014 verify before publish."
+			"skipDetail": "Draft exists at src/blog/people/drafts/Brene-Brown.md (30KB, 5048 words, frontmatter published=false). NOTE: queue.type=2 but draft frontmatter enneagram=1 — verify before publish."
 		},
 		{
 			"name": "the-weeknd",

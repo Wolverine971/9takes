@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'adele'
-suggestions: ['Billie-Eilish', 'Taylor-Swift', 'Lana-Del-Rey', 'Beyonce']
+suggestions: ['Billie-Eilish', 'Taylor-Swift', 'Lana-Del-Rey', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Adele'
 wikidata_qid: 'Q23215'
 imdb_id: 'nm2233157'

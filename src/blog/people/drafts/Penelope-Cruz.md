@@ -4,12 +4,12 @@ meta_title: "Why Penélope Cruz Calls Almodóvar Her Safety Net"
 persona_title: "Cinema's Trembling Loyalist"
 description: "Penélope Cruz looks fearless on screen and admits to worrying about everything off it. Inside the Type 6 system she built to keep working scared."
 author: 'DJ Wayne'
-date: '2026-05-15'
+date: '2026-06-02'
 loc: 'https://9takes.com/personality-analysis/penelope-cruz'
-lastmod: '2026-05-15'
+lastmod: '2026-06-02'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'penelope-cruz'

@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['author', 'creator']
 person: 'neil-strauss'
-suggestions: ['Marilyn-Manson', 'Lana-Del-Rey', 'Edgar-Allan-Poe', 'Adele']
+suggestions: ['Lana-Del-Rey', 'Adele']
 wikipedia: 'https://en.wikipedia.org/wiki/Neil_Strauss'
 wikidata_qid: 'Q519984'
 birth_date: '1973-10-13'
@@ -80,6 +80,8 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Neil-Strauss.md
 ---
+
+<!-- Parked unpublished related profiles: Marilyn-Manson, Edgar-Allan-Poe. -->
 
 <!-- TESTIMONY LEDGER
 1. Jon Pareles (former New York Times colleague, on Neil): "He was funny, smart, insightful and perpetually curious." — Hollywood Reporter, 2015

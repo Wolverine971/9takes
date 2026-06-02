@@ -13,7 +13,7 @@ published: true
 enneagram: 9
 type: ['celebrity', 'celebrity-image']
 person: 'lionel-messi'
-suggestions: ['Cristiano-Ronaldo', 'David-Beckham', 'Kobe-Bryant', 'Michael-Jordan']
+suggestions: ['Cristiano-Ronaldo']
 wikipedia: 'https://en.wikipedia.org/wiki/Lionel_Messi'
 wikidata_qid: 'Q615'
 imdb_id: 'nm2177779'
@@ -82,6 +82,8 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Lionel-Messi.md
 ---
+
+<!-- Parked unpublished related profiles: David-Beckham, Kobe-Bryant, Michael-Jordan. -->
 
 > "I do this because I dedicate my goals to my grandmother. She took me to football, but she can't see how far I've come."
 

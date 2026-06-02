@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['musician', 'historical', 'historical-artist']
 person: 'john-lennon'
-suggestions: ['bob-marley', 'prince', 'billie-eilish', 'johnny-depp']
+suggestions: ['prince', 'billie-eilish', 'johnny-depp']
 wikipedia: 'https://en.wikipedia.org/wiki/John_Lennon'
 wikidata_qid: 'Q1203'
 imdb_id: 'nm0006168'
@@ -73,6 +73,8 @@ content_quality:
   letter: A
   graded_at: '2026-04-03'
 ---
+
+<!-- Parked unpublished related profile: bob-marley. -->
 
 <!-- QUALITY GRADE: A (9.0)
 Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
