@@ -203,7 +203,7 @@ Under stress, Nine moves toward Six: anxiety, worst-case scanning, self-doubt. Y
 
 ### Counterarguments: Why Victoria Justice Might Not Be Type 9
 
-The strongest alternate case is Type 2 (the image-conscious, well-liked helper) or even a wing-quiet Type 6 (the anxiety, the loyalty to the group, the slow-to-confront caution). The self-described insecurity could be read as Six fear rather than Nine self-forgetting. What tips it back to Nine: Twos actively pursue connection and want to be needed, while Justice's pattern is receding, not reaching; and Sixes test and question authority, while Justice deferred to authority (the label, Schneider) for years without the probing skepticism a Six brings. The defining datum is the "Gold" decision — not anxiety about a choice, but the quiet disappearance of her own preference inside someone else's. That's Nine, not Six.</p>
+The strongest alternate case is Type 2 (the image-conscious, well-liked helper) or even a wing-quiet Type 6 (the anxiety, the loyalty to the group, the slow-to-confront caution). The self-described insecurity could be read as Six fear rather than Nine self-forgetting. What tips it back to Nine: Twos actively pursue connection and want to be needed, while Justice's pattern is receding, not reaching; and Sixes test and question authority, while Justice deferred to authority (the label, Schneider) for years without the probing skepticism a Six brings. The defining datum is the "Gold" decision — not anxiety about a choice, but the quiet disappearance of her own preference inside someone else's. That's Nine, not Six.
 </div>
 </details>
 
@@ -261,4 +261,3 @@ Rejected:
 Still open:
 - None blocking. Optional: a single accurate sentence on the low-drama Carney relationship could add a personal-life dimension, but the piece reads complete without it.
 -->
-
