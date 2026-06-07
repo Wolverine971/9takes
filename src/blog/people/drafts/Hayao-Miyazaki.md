@@ -13,7 +13,7 @@ published: true
 enneagram: '1'
 type: ['other']
 person: 'hayao-miyazaki'
-suggestions: ['Steve-Jobs', 'J.K.-Rowling', 'Greta-Thunberg', 'Jordan-Peterson']
+suggestions: ['Steve-Jobs', 'J.K.-Rowling', 'George-RR-Martin', 'Stephen-King']
 wikipedia: 'https://en.wikipedia.org/wiki/Hayao_Miyazaki'
 wikidata_qid: 'Q55400'
 imdb_id: 'nm0594503'

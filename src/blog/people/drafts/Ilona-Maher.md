@@ -13,7 +13,7 @@ published: true
 enneagram: '8'
 type: ['celebrity', 'influencer', 'celebrity-image', 'lifestyle-builder']
 person: 'ilona-maher'
-suggestions: ['Chappell-Roan', 'Halsey', 'Beyonce-Knowles', 'Cardi-B']
+suggestions: ['Chappell-Roan', 'Halsey', 'Beyonce-Knowles', 'Cardi-B', 'Naomi-Osaka', 'Alysa-Liu']
 wikipedia: 'https://en.wikipedia.org/wiki/Ilona_Maher'
 wikidata_qid: 'Q106086464'
 imdb_id: 'nm14911129'
@@ -304,6 +304,4 @@ PRIORITY FIXES:
 3. Trim the 8w7 wing assertion. State it once in the diagnostic section, then let the metastasis (DWTS + skincare + podcast) prove it. Right now the wing gets named three times.
 
 ============================================================ -->
-
-
 

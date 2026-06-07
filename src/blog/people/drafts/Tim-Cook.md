@@ -360,7 +360,7 @@ He has not taken the office for fifteen years. He is not going to take it now.
 
 ## Why He Cannot Stop
 
-Cook turned 65 in November 2025. By Apple's stated retirement age guidance for executives, he is past the point where most of his leadership team has gone home. The board is reportedly preparing for a transition. John Ternus, who runs hardware engineering and now also oversees design, has begun appearing at product launches and on morning TV in the slots Cook has always taken himself. Everyone in the building can see what is coming. Cook can see it more clearly than anyone, because seeing things more clearly than anyone has been his job since 1998.
+Cook turned 65 in November 2025. By Apple's stated retirement age guidance for executives, he is past the point where most of his leadership team has gone home. The board is reportedly preparing for a transition. [John Ternus](/personality-analysis/john-ternus), who runs hardware engineering and now also oversees design, has begun appearing at product launches and on morning TV in the slots Cook has always taken himself. Everyone in the building can see what is coming. Cook can see it more clearly than anyone, because seeing things more clearly than anyone has been his job since 1998.
 
 And yet he has not gone.
 

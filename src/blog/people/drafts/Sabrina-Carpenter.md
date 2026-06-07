@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['musician', 'pop-star']
 person: 'sabrina-carpenter'
-suggestions: ['Taylor-Swift', 'Chappell-Roan', 'Ariana-Grande', 'Olivia-Rodrigo', 'Madison-Beer']
+suggestions: ['Taylor-Swift', 'Chappell-Roan', 'Ariana-Grande', 'Olivia-Rodrigo', 'Madison-Beer', 'Gracie-Abrams']
 wikipedia: 'https://en.wikipedia.org/wiki/Sabrina_Carpenter'
 wikidata_qid: 'Q7396400'
 imdb_id: 'nm4248775'
@@ -171,6 +171,8 @@ The song that changed everything came from rest. For an Achiever, doing nothing 
 ## The Music: What Sabrina Actually Made
 
 Pop discourse has a hard time taking pop on its own terms. Carpenter's songs keep getting framed as vehicles — for personality, for thirst, for marketing — when the more honest question is whether the music itself is good. It is. And the architecture is more deliberate than the takes around it usually credit.
+
+Where Olivia Rodrigo turns heartbreak into catharsis and [Gracie Abrams](/personality-analysis/gracie-abrams) often keeps it intimate, Carpenter puts the wound through comic timing before she lets it have reverence.
 
 The hooks are simple. The craft sits in the layering.
 

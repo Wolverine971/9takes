@@ -4,16 +4,16 @@ meta_title: 'Why Alysa Liu Quit Skating to Win the Olympic Gold'
 persona_title: 'The Champion Who Quit'
 description: "She quit skating at 16 because it felt like a burden. She came back to win Olympic gold. The Enneagram Type 7 logic behind Alysa Liu's comeback."
 author: 'DJ Wayne'
-date: '2026-05-05'
+date: '2026-06-03'
 loc: 'https://9takes.com/personality-analysis/alysa-liu'
-lastmod: '2026-05-05'
+lastmod: '2026-06-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['celebrity', 'celebrity-image']
 person: 'alysa-liu'
-suggestions: ['Brittany-Broski', 'Benson-Boone', 'Doja-Cat', 'Bad-Bunny']
+suggestions: ['Naomi-Osaka', 'Ilona-Maher', 'Cristiano-Ronaldo', 'Chappell-Roan']
 wikipedia: 'https://en.wikipedia.org/wiki/Alysa_Liu'
 wikidata_qid: 'Q55356854'
 imdb_id: 'nm10438384'
@@ -357,5 +357,3 @@ NOT ADDED (low ROI):
 - Sister/triplets as support system: she does not talk about siblings publicly in a way that would carry the autonomy thesis. Skipped.
 
 -->
-
-

@@ -13,7 +13,7 @@ published: true
 enneagram: '9'
 type: ['celebrity', 'celebrity-image']
 person: 'naomi-osaka'
-suggestions: ['Beyonce-Knowles', 'Taylor-Swift', 'Ariana-Grande', 'Emma-Chamberlain']
+suggestions: ['Alysa-Liu', 'Ilona-Maher', 'Taylor-Swift', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Naomi_Osaka'
 twitter: 'naomiosaka'
 instagram: 'naomiosaka'
@@ -252,6 +252,8 @@ She didn't fight the fine. She didn't argue with the Grand Slams. She wrote a TI
 
 A 9 had to learn that lesson and write an essay about it. Other people learn it in middle school.
 
+That is what makes Osaka's pressure pattern distinct from other young athletes under public scrutiny. [Alysa Liu](/personality-analysis/alysa-liu) turned pressure into play; [Ilona Maher](/personality-analysis/ilona-maher) turned scrutiny into territory. Osaka did the quieter thing: she turned refusal into a public language.
+
 ## The Olympic Torch She Could Not Drop
 
 Six weeks after she withdrew from Roland Garros, Naomi Osaka walked up the steps inside an empty Tokyo stadium, took the Olympic flame from Japanese baseball legends Sadaharu Oh and Shigeo Nagashima, and lit the cauldron to open the Tokyo Games. She had been the IOC's surprise final torchbearer. The country that had spent five years debating whether she was Japanese enough had just put her on the highest stage it had to offer.
@@ -354,4 +356,3 @@ TOP-LINE:
 Strong piece. The opener and the thesis are excellent. Add Tokyo + the citizenship choice + Indian Wells 2022 and you go from a great Naomi profile to the definitive one. Trim the closing apology list and the second "load-bearing" metaphor. Give one section to the actual tennis or the endorsement empire so the reader sees the OTHER paradox of a 9 — that the world made her one of its loudest faces while she was busy disappearing.
 
 -->
-

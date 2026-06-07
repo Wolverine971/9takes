@@ -156,7 +156,7 @@ The greatest hits are by now a genre. Jack Harlow, slow-burning his way through 
 
 This is _Chicken Shop Date_ without the chicken shop. Same forward lean. Same withering eyebrow. Same two-second pause that forces the other person to fill the silence by flirting back. The fluorescent light and the plastic table got swapped for black-tie and step-and-repeat. Everything else is identical.
 
-The closest peer is American. Sean Evans on _Hot Ones_ cracked a parallel code — a controlled-discomfort truth serum, in his case hot sauce, in hers flirtation — and when the two of them did a 2023 crossover episode, the internet correctly read it as a summit. The difference is gender and geography. Hot Ones asks male celebrities to perform pain. Chicken Shop Date asks them to perform attraction to a woman who will not return it. Dimoldenberg is the UK-and-red-carpet wing of the same revolution in celebrity promotion.
+The American version is [Sean Evans](/personality-analysis/sean-evans) on _Hot Ones_: a controlled-discomfort truth serum, in his case hot sauce, in hers flirtation. When the two of them did a 2023 crossover episode, the internet correctly read it as a summit. The difference is gender and geography. Hot Ones asks male celebrities to perform pain. Chicken Shop Date asks them to perform attraction to a woman who will not return it. Dimoldenberg is the UK-and-red-carpet version of a related shift in celebrity promotion.
 
 ## The Ridiculous Goal That Got Drake to Text Her
 

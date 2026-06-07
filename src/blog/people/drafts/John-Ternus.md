@@ -4,12 +4,12 @@ meta_title: "Why John Ternus Said No to Apple's Two Biggest Bets"
 persona_title: "Cupertino's Vigilant Craftsman"
 description: "John Ternus refused Apple's private offices and said no to its moonshots. Now he's CEO. A Type 6 Enneagram read on the engineer Tim Cook picked."
 author: 'DJ Wayne'
-date: '2026-04-21'
+date: '2026-06-05'
 loc: 'https://9takes.com/personality-analysis/john-ternus'
-lastmod: '2026-04-21'
+lastmod: '2026-06-05'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['techie']
 person: 'john-ternus'
@@ -209,7 +209,7 @@ _"I was using a magnifying glass to count the number of grooves on the head of t
 
 </div>
 
-Compare this to the Steve Jobs story Ternus himself loves to repeat — Jobs pulling a chest of drawers away from the wall to examine the unfinished back side and noticing the carpenter had made it beautiful anyway. _"I think about that all the time,"_ Ternus has said, _"because I think that perfectly exemplifies what we do here."_ Jobs saw craft as an aesthetic inheritance. Ternus sees it as a loyalty contract. Both end up in the same place. The difference is motive.
+Compare this to the [Steve Jobs](/personality-analysis/steve-jobs) story Ternus himself loves to repeat — Jobs pulling a chest of drawers away from the wall to examine the unfinished back side and noticing the carpenter had made it beautiful anyway. _"I think about that all the time,"_ Ternus has said, _"because I think that perfectly exemplifies what we do here."_ Jobs saw craft as an aesthetic inheritance. Ternus sees it as a loyalty contract. Both end up in the same place. The difference is motive.
 
 ## What John Ternus has actually shipped
 

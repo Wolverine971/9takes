@@ -220,7 +220,7 @@ The question the prep narrative dodges is whether any of it shows up on screen. 
 
 *Boys in the Boat* hit a quieter wall. Critics who liked the film called Clooney's direction "out of step with contemporary tastes." Critics who didn't said Turner was "doing what he can with an underwritten role." His American accent was again called "solid." The film grossed $55 million worldwide on an RT 58 / audience 97 split — a near-total inversion that names the problem. Turner did the work. The script around him didn't reward it.
 
-His co-star Austin Butler put it in friendship terms. "Their friendship is really the thing that drew me to this," Butler told *Collider*, "seeing how much they cared for each other even though they were so different." Bucky Egan is louder, brasher, more reckless than Turner is in life. Turner has said playing him felt like a "soul connection." A Type 7 will often type their own most repressed traits into the characters they get to play — the larger life, lived loudly, with permission.
+His co-star [Austin Butler](/personality-analysis/austin-butler) put it in friendship terms. "Their friendship is really the thing that drew me to this," Butler told *Collider*, "seeing how much they cared for each other even though they were so different." Bucky Egan is louder, brasher, more reckless than Turner is in life. Turner has said playing him felt like a "soul connection." A Type 7 will often type their own most repressed traits into the characters they get to play — the larger life, lived loudly, with permission.
 
 The performance Butler describes as a partnership, Turner describes as joy. "Some days, I was going into work just to make Austin laugh. It gave me such joy."
 
@@ -292,4 +292,3 @@ Known remaining gaps:
 - Joe Rantz parallel is drawn by us, not by Turner or any journalist on record. Owned as inference in the prose.
 - No verified primary source on the father's name — left unnamed in the prose.
 -->
-

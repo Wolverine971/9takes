@@ -225,7 +225,7 @@ He's still with Macaiyla after a decade, engaged since a Hawaii trip in 2019. Th
 
 He plays chess in the top 0.6% of Chess.com players, peaked at 1960 Elo, and won Best Chess Streamer at the 2023 Streamer Awards. He hosts the Tyler1 All-Stars 1v1 invitational under his own name. The earlier Tyler1 Championship Series, which he founded as a parody tournament in 2017, paid out $100,000 across two seasons.
 
-In late 2024 he joined Sodapoppin's OnlyFangs WoW Classic Hardcore guild, then took the guild-master title off Sodapoppin in a 1v1 duel in front of 430,000 viewers, and forced Sodapoppin to dye his hair pink as forfeit. A few weeks later Tyler's own raid character died on a Baron Geddon pull. He raged at the guild on stream — *"these WoW players are all pussies"* — took four days off, came back and apologized. Asmongold publicly blamed him for the wipe. He's already talking about coming back for the next iteration.
+In late 2024 he joined Sodapoppin's OnlyFangs WoW Classic Hardcore guild, then took the guild-master title off Sodapoppin in a 1v1 duel in front of 430,000 viewers, and forced Sodapoppin to dye his hair pink as forfeit. A few weeks later Tyler's own raid character died on a Baron Geddon pull. He raged at the guild on stream — *"these WoW players are all pussies"* — took four days off, came back and apologized. [Asmongold](/personality-analysis/asmongold) publicly blamed him for the wipe. He's already talking about coming back for the next iteration.
 
 He still lives in New London, Missouri. The billboard is still there. His mother still brings dinner.
 
@@ -381,5 +381,4 @@ WHAT I LEFT ALONE:
 - The 613-day frame and the closing arc.
 - All the existing pull quotes (Riot 2016, Phreak, Macaiyla "white knights"). Added two new pull-style quotes: Macaiyla recovery line and Tyler's ESPN "douchebag" line.
 -->
-
 

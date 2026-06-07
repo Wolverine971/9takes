@@ -200,7 +200,7 @@ Sit with that timing for a moment. The SPAC king whose retail followers were abo
 
 For nearly two decades, Chamath donated approximately $1.3 million to Democratic candidates and causes. Then something shifted.
 
-In 2023, he hosted a $50,000-per-plate fundraiser for Vivek Ramaswamy. In June 2024, he co-hosted a $12 million fundraiser for Donald Trump alongside his All-In co-host [David Sacks](/personality-analysis/david-sacks), held in the Democratic stronghold of San Francisco.
+In 2023, he hosted a $50,000-per-plate fundraiser for [Vivek Ramaswamy](/personality-analysis/vivek-ramaswamy). In June 2024, he co-hosted a $12 million fundraiser for Donald Trump alongside his All-In co-host [David Sacks](/personality-analysis/david-sacks), held in the Democratic stronghold of San Francisco.
 
 He gave $300,000 directly to Trump's campaign.
 
@@ -341,4 +341,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Add a Brigette Lau / Social Capital partner-exodus beat. The 2018 divorce + the simultaneous departure of Hamid/Maidenberg/Sethi is the highest-stakes operational failure of his career and gets ducked. That's the missing 3-stress beat.
 
 ============================================================ -->
-

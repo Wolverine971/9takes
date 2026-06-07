@@ -109,7 +109,7 @@ Sections fully free of explicit type theory: "The Mineola Childhood"; "'Follow Y
 1. /enneagram-corner/enneagram-type-4 — Type 4 explainer (in diagnosis section)
 2. /enneagram-corner/enneagram-wings-complete-guide — Wings primer (in diagnosis section)
 3. /personality-analysis/lana-del-rey — peer Type 4 musician
-4. /personality-analysis/bob-dylan — peer Type 4 reinventor
+4. /personality-analysis/dolly-parton — country image-builder contrast
 Total: 4 internal links. No self-loops.
 -->
 
@@ -235,7 +235,7 @@ Country music in the early twenty-tens was glitter pageantry, snap tracks, party
 > "I made a conscious choice to pivot from that."
 > — On moving out of "bumper-sticker songwriter" mode.
 
-<em>Golden Hour</em> won Album of the Year at the Grammys. She kept going — into <em>Star-Crossed</em>, into the witchy-cottagecore of <em>Deeper Well</em>, into the spare, dust-blown <em>Middle of Nowhere</em> in 2026. Each pivot was framed as authenticity reclaimed. Each was also a meticulously planned aesthetic relaunch. [Lana Del Rey](/personality-analysis/lana-del-rey) has done this. [Bob Dylan](/personality-analysis/bob-dylan) made a religion of it. The trend gets announced as the thing she's leaving, and the leaving is the brand.
+<em>Golden Hour</em> won Album of the Year at the Grammys. She kept going — into <em>Star-Crossed</em>, into the witchy-cottagecore of <em>Deeper Well</em>, into the spare, dust-blown <em>Middle of Nowhere</em> in 2026. Each pivot was framed as authenticity reclaimed. Each was also a meticulously planned aesthetic relaunch. [Lana Del Rey](/personality-analysis/lana-del-rey) has done this. [Dolly Parton](/personality-analysis/dolly-parton) has done the country version in a sunnier key. The trend gets announced as the thing she's leaving, and the leaving is the brand.
 
 The longest-running cold front of her career was with Miranda Lambert. Years before Kacey was famous, she co-wrote a song with Shane McAnally and Brandy Clark called "Mama's Broken Heart." Lambert recorded it. By Kacey's later telling, Lambert recorded it without asking. The song hit #2 on Billboard's country chart in 2013 — the same fall "Follow Your Arrow" came out — and became one of Lambert's signature singles. The two women never traded a public swipe, but they did not speak for thirteen years. Two East Texas singers, both taught guitar by the same John DeFoore, both Type-4-inflected songwriters in a format that did not have room for two of them, sharing a town, a teacher, a publisher, and a #2 country song neither would discuss.
 

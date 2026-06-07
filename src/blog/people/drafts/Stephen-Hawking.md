@@ -13,7 +13,7 @@ published: true
 enneagram: '5'
 type: ['historical', 'author', 'historical-scientist']
 person: 'stephen-hawking'
-suggestions: ['Bill-Gates', 'Elon-Musk', 'Friedrich-Nietzsche', 'Noam-Chomsky']
+suggestions: ['Bill-Gates', 'Elon-Musk', 'Albert-Einstein', 'Noam-Chomsky']
 wikipedia: 'https://en.wikipedia.org/wiki/Stephen_Hawking'
 wikidata_qid: 'Q17714'
 imdb_id: 'nm0370071'
@@ -146,7 +146,7 @@ The story we tell about Stephen Hawking is mind triumphing over body — pure co
 <summary class="accordion">TL;DR: Why Stephen Hawking is an Enneagram Type 5w6</summary>
 <div class="panel">
 <ul>
-<li><b>Core type:</b> Type 5, the Investigator. Wing 6 (the Problem Solver) — same wing as Albert Einstein.</li>
+<li><b>Core type:</b> Type 5, the Investigator. Wing 6 (the Problem Solver) — same wing as [Albert Einstein](/personality-analysis/albert-einstein).</li>
 <li><b>Central contradiction:</b> The world saw mind triumphing over body. The family saw a mind that had always been the room nobody else could enter.</li>
 <li><b>Childhood pattern:</b> An eccentric Oxford household where dinners were spent reading silently. The ground rule of the family was that minds, not bodies, were the unit of contact.</li>
 <li><b>Stress (5→7):</b> Reckless. Daredevil rowing courses. Strip-club outings. Public warnings about AI and aliens. Leaving Jane by announcement.</li>
@@ -230,7 +230,7 @@ His daughter Lucy described living with him as "a strange combination of the ext
 
 ## What Hawking left behind
 
-He was born on January 8, 1942 — three hundred years to the day after Galileo died — and he died on March 14, 2018: Einstein's birthday and Pi Day. He noticed these symmetries; biographers always have. The cosmos had typecast him.
+He was born on January 8, 1942 — three hundred years to the day after Galileo died — and he died on March 14, 2018: [Einstein](/personality-analysis/albert-einstein)'s birthday and Pi Day. He noticed these symmetries; biographers always have. The cosmos had typecast him.
 
 The obituaries reached for the same sentence: he was a mind set free. That is the line his iconography demands. It is also the line that misreads him.
 
@@ -434,4 +434,3 @@ OVERALL
 
 The 2026-05-06 revisions closed the biggest gap (no science) and added the second-most-important one (the voice). What's left is mostly the public-facing artifacts most readers will have actually encountered: the book on their shelf, the synth in their ear, the Simpsons cameos, the eye-twitch typing. The personality reading is currently sharper than the public-life reading. Tighten the "fortress" repetition, give A Brief History of Time and the communication mechanics each one real beat, and balance the children — and this stops being a strong portrait and starts being the one readers will send each other.
 -->
-

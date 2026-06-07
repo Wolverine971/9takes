@@ -435,7 +435,7 @@ She saw creators getting exploited by bad deals and built the support system she
 
 Critics noticed a nearly identical product at Costco for a fraction of the price.
 
-Then the clip happened. A viewer challenged the pricing on stream, and Pokimane fired back: "If you're a broke boy, just say so." In context, the line landed as a joking deflection — the kind of self-aware quip she'd done a hundred times before. Outside of context, on a r/LiveStreamFail clip, it read as a millionaire mocking her own audience. MoistCr1TiKaL called it a "sh\*\*ty thing to say." Asmongold piled on. The counterphobic edge, the same impulse that made her confront Leafy and call out Twitch, had cut the wrong direction at the wrong time.
+Then the clip happened. A viewer challenged the pricing on stream, and Pokimane fired back: "If you're a broke boy, just say so." In context, the line landed as a joking deflection — the kind of self-aware quip she'd done a hundred times before. Outside of context, on a r/LiveStreamFail clip, it read as a millionaire mocking her own audience. MoistCr1TiKaL called it a "sh\*\*ty thing to say." [Asmongold](/personality-analysis/asmongold) piled on. The counterphobic edge, the same impulse that made her confront Leafy and call out Twitch, had cut the wrong direction at the wrong time.
 
 She apologized the same day. But the real response came later, and it was more revealing:
 

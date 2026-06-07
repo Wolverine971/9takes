@@ -184,7 +184,7 @@ These aren't just collaborators. "I talk to Ern every day and I talk to Morgan e
 
 Hardy's description of the dynamic is more revealing: "If Ern wins, I win. And if I win, Morgan wins. We all had nothing at the same time and then had something at the same time, and there's just something cool about, like, coming up together."
 
-Morgan took Hardy on tour. Then brought them both back. Ernest has joked, "I'd be broke if it wasn't for Morgan Wallen." It's funny because it's half true, and it's loyal because nobody cares.
+Morgan took Hardy on tour. Then brought them both back. Ernest has joked, "I'd be broke if it wasn't for Morgan Wallen." It's funny because it's half true, and it's loyal because nobody cares. By the mid-2020s, the same working circle had opened to [Ella Langley](/personality-analysis/ella-langley), whose Wallen co-writes and stadium support slot put her inside the current country machine rather than just adjacent to it.
 
 And then there's <a href="/personality-analysis/theo-von">Theo Von</a>, the comedian who somehow became one of Morgan's closest confidants. They do Bible study together. Not casually. They have a prayer list. When a fan's mother was facing brain surgery, Morgan FaceTimed her and told her she'd been added to the group's list. A comedian and a country star, praying together over people they've never met. Eric Church said this about him: **"I would trust him with my kids."**
 

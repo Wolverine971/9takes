@@ -13,7 +13,7 @@ published: true
 enneagram: 9
 type: ['movieStar', 'screen-icon']
 person: 'harrison-ford'
-suggestions: ['Matt-Damon', 'Meryl-Streep', 'Hugh-Jackman', 'Morgan-Freeman']
+suggestions: ['Matt-Damon', 'Meryl-Streep', 'Hugh-Jackman', 'Austin-Butler']
 wikipedia: 'https://en.wikipedia.org/wiki/Harrison_Ford'
 wikidata_qid: 'Q81328'
 imdb_id: 'nm0000148'
@@ -171,6 +171,8 @@ But listen to how he describes himself, consistently, across six decades:
 That last one is a 9 koan. An empty mind is a mind that isn't asserting anything. It's how he approaches a scene, an interview, a takeoff. He wants the space to fill him, not the other way around.
 
 Read our [Type 9 profile](/enneagram-corner/enneagram-type-9), the Peacemaker, for the full architecture. Ford is the version where the peacemaker has hands. A carpenter, specifically.
+
+His screen authority has less to do with the swagger people project onto Han Solo than with the quiet receptivity you see in [Matt Damon](/personality-analysis/matt-damon) and [Austin Butler](/personality-analysis/austin-butler): absorbing the room, not conquering it.
 
 ## Growing up half-Irish, half-Jewish, fully neither
 
@@ -516,4 +518,3 @@ PRIORITY FIXES:
 3. Engage one counter-evidence beat: either the on-set difficulty stories or the political silence. The piece is too friendly to its subject; a single grain of friction would harden the diagnosis.
 
 ============================================================ -->
-

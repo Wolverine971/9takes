@@ -4,12 +4,12 @@ meta_title: "Why Alex Lieberman Can't Stop Building (Even After $75M)"
 persona_title: "Media's Anxious Optimist"
 description: "Alex Lieberman sold Morning Brew for $75M at 28 and felt worse. Inside the Type 7 founder's panic attacks, OCD, and the grief he kept burying in the next project."
 author: 'DJ Wayne'
-date: '2026-05-11'
+date: '2026-06-06'
 loc: 'https://9takes.com/personality-analysis/alex-lieberman'
-lastmod: '2026-05-11'
+lastmod: '2026-06-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['entrepreneur', 'creator', 'business-creator', 'business-operator']
 person: 'alex-lieberman'
@@ -164,6 +164,8 @@ For this wiring, a parent's sudden death does not produce collapse. It produces 
 ## How Alex Lieberman built Morning Brew on his Morgan Stanley desk
 
 By 2015 he was a senior at the University of Michigan with a Morgan Stanley offer in his pocket. He had time on his hands. He started a PDF business newsletter for his finance-major friends because the Wall Street Journal was dry and dense and boring. He called it Market Corner. Then Morning Brew. Two semesters in, he emailed his reader list — by then about 300 people — and asked if anyone wanted to help. A sophomore in his fraternity who he had never actually met named Austin Rief emailed back. They sat down in the Winter Garden at Ross before BPL — beer pong league — and Alex walked away with a co-founder. Austin's recall of the origin in 2024: _"My co-founder, Alex Lieberman, noticed that our friends found business news from outlets like The Wall Street Journal to be dry, dense, and boring."_ Pattern-recognition for stale incumbents and a refusal to take seriously the assumption that things have to stay the way they are — that's the 7's actual product superpower.
+
+His peers in founder media were solving the same stale-business-coverage problem from different angles: [Sam Parr](/personality-analysis/sam-parr) built The Hustle out of boredom with business writing, while [Shaan Puri](/personality-analysis/shaan-puri) turned the same audience into podcast-native idea flow. Lieberman's version stayed newsletter-first, systems-minded, and more openly anxious about what happens after the exit.
 
 Alex took the Morgan Stanley job in June 2015 anyway. He spent two hours a day on Morning Brew at his trading desk. He kept the safety net taut. _"I feel like I'm inadequate in my job at Morgan Stanley, because my head and heart are not in it,"_ he said about that period — but he did not quit. Not for sixteen months. The 6-wing always wants the backup.
 

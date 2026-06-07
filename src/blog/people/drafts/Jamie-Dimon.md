@@ -13,7 +13,7 @@ published: true
 enneagram: '8'
 type: ['entrepreneur', 'business-operator']
 person: 'jamie-dimon'
-suggestions: ['Jeff-Bezos', 'Alex-Karp', 'Reed-Hastings']
+suggestions: ['Jeff-Bezos', 'Alex-Karp', 'Reed-Hastings', 'Ray-Dalio', 'Warren-Buffett']
 wikipedia: 'https://en.wikipedia.org/wiki/Jamie_Dimon'
 wikidata_qid: 'Q922169'
 imdb_id: 'nm5038401'
@@ -261,7 +261,7 @@ On Wednesday, September 12, 2018, at a JPMorgan event in midtown Manhattan, Dimo
 
 That sentence is a window into the only office he has ever flinched from.
 
-The door has opened, by my count, six times. In 2016 he told an interviewer he would _"love to be president"_ but called the campaign _"too hard and too late."_ In November 2016 his name surfaced around Trump's Treasury search; he did not take the job. In 2018, the line above. In May 2023 Bill Ackman publicly called for him to run in 2024. In 2024 both Trump and Harris's inner circle had him on Treasury Secretary shortlists. On November 14, 2024, Trump posted on Truth Social: _"I respect Jamie Dimon, of JPMorgan Chase, greatly, but he will not be invited to be a part of the Trump Administration."_ The door closed for him that time.
+The door has opened, by my count, six times. In 2016 he told an interviewer he would _"love to be president"_ but called the campaign _"too hard and too late."_ In November 2016 his name surfaced around Trump's Treasury search; he did not take the job. In 2018, the line above. In May 2023 Bill Ackman publicly called for him to run in 2024. In 2024 both Trump and Harris's inner circle had him on Treasury Secretary shortlists. On November 14, 2024, [Trump](/personality-analysis/donald-trump) posted on Truth Social: _"I respect Jamie Dimon, of JPMorgan Chase, greatly, but he will not be invited to be a part of the Trump Administration."_ The door closed for him that time.
 
 The cleanest explanation he has given is from a podcast in February 2025: _"Had I run and won, when I was walking into that White House I'd be waving goodbye to my family for four years."_ Read straight, it's a family-first decision. Through the type, it is the same gesture as the balance sheet, only inverted. The 8 will not take a job he can be voted out of. The presidency is the one position in American life where the chain still pulls, and the firing happens in public, and the protector is — by design — answerable.
 
@@ -281,7 +281,9 @@ The casual reading is that Dimon is paranoid. The corrected reading is that he i
 
 The line that gives the engine away is in his testimony: _"A Bear Stearns bankruptcy could well have touched off a chain reaction at other major financial institutions. That would have shaken confidence in credit markets that already have been battered."_ He is talking about why he had to do the deal. He is also, structurally, talking about the only world he can stand. A world where the storm has been named and the buyer of the wreckage has been pre-positioned.
 
-This is also why his close friendship with Warren Buffett is so revealing. Buffett, the patron saint of patient capital, called Dimon when JPMorgan poached his lieutenant Todd Combs in late 2025: _"If he's going anywhere, at least he's going to you."_ Read closely it is a frame for the whole career. Buffett's reported line works because it casts Dimon's bank as an acceptable home for a trusted lieutenant. That is what twenty years of naming the storm has actually bought.
+This is the Type 8 mirror image of [Ray Dalio](/personality-analysis/ray-dalio)'s Type 5 system-building: Dalio writes rules so the storm can be modeled; Dimon names the storm so he can move first when it breaks.
+
+This is also why his close friendship with [Warren Buffett](/personality-analysis/warren-buffett) is so revealing. Buffett, the patron saint of patient capital, called Dimon when JPMorgan poached his lieutenant Todd Combs in late 2025: _"If he's going anywhere, at least he's going to you."_ Read closely it is a frame for the whole career. Buffett's reported line works because it casts Dimon's bank as an acceptable home for a trusted lieutenant. That is what twenty years of naming the storm has actually bought.
 
 ## The fortress is the wound
 

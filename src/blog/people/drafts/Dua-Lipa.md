@@ -239,7 +239,7 @@ Going through chaos _gracefully_. Not avoiding it. Not fighting it. Not building
 
 That distinction matters, because it marks a real evolution from the Dua Lipa who at nine found a new teacher after rejection, and at fifteen moved to London alone, and at twenty-two wrote a three-rule protocol for surviving heartbreak. Those were all responses to chaos through structure. _Radical Optimism_ is about what happens when you run out of rules to write.
 
-She met Callum Turner at The River Cafe in London, introduced by the restaurant's co-founder. They lost touch. They ran into each other again in Los Angeles. By chance — or by something — they had both been reading the same book: Hernan Diaz's _Trust_. She said it made her feel "1,000 percent" they were destined to be together.
+She met [Callum Turner](/personality-analysis/callum-turner) at The River Cafe in London, introduced by the restaurant's co-founder. They lost touch. They ran into each other again in Los Angeles. By chance — or by something — they had both been reading the same book: Hernan Diaz's _Trust_. She said it made her feel "1,000 percent" they were destined to be together.
 
 She confirmed their engagement in June 2025. "It's a really special feeling," she told British Vogue. She had designed a ring, with input from her closest friends and her sister. She wanted to finish her tour before talking about weddings. She was, as always, building something — just something different this time.
 

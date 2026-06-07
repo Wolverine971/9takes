@@ -13,7 +13,7 @@ published: true
 enneagram: '4'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'gracie-abrams'
-suggestions: ['Lana-Del-Rey', 'Olivia-Rodrigo', 'Taylor-Swift', 'Paul-Mescal']
+suggestions: ['Lana-Del-Rey', 'Olivia-Rodrigo', 'Taylor-Swift', 'Paul-Mescal', 'Sabrina-Carpenter']
 wikipedia: 'https://en.wikipedia.org/wiki/Gracie_Abrams'
 wikidata_qid: 'Q106301562'
 imdb_id: 'nm10956454'
@@ -264,7 +264,7 @@ The Four tells you everything, and then narrates the part of herself she's not r
 
 In the songs, she tells you everything. In life, she chose a partner who tells reporters nothing.
 
-She has been seeing Paul Mescal since June 2024, first photographed together in London, made Instagram-official with a Glastonbury carousel in July 2025, red-carpet debut at the BAFTAs.
+She has been seeing [Paul Mescal](/personality-analysis/paul-mescal) since June 2024, first photographed together in London, made Instagram-official with a Glastonbury carousel in July 2025, red-carpet debut at the BAFTAs.
 
 This is what Mescal said about the relationship in _Rolling Stone_ in September 2025, asked directly:
 
@@ -359,5 +359,3 @@ TRIMMED:
 3. Cut one "A Four" bridge sentence ("A Four's safest space is wherever no one can attribute the work to anyone else") from section 2 — its job was already done by the surrounding paragraphs.
 4. Consolidated the journal references — three mentions instead of four.
 -->
-
-

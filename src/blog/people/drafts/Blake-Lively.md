@@ -252,7 +252,7 @@ Chace Crawford is the only original cast member who currently follows Blake on I
 
 Zoom out and the pattern clicks. The common denominator across her work isn't the product. It's the camera, and who gets to point it.
 
-**The roles she picks.** _The Shallows_ (2016) is a $17 million survival thriller that grossed $119 million. Blake carries the entire film — alone on screen for most of the runtime, her face the only performance between the audience and a great white shark. A film that only works if the lead never breaks. _A Simple Favor_ (2018), her most critically acclaimed adult role (84% on Rotten Tomatoes), is a woman with an immaculate surface hiding chaos underneath, dressed in menswear suits that Blake herself proposed as "armor." Costume designer Renée Ehrlich Kalfus built the entire wardrobe — Ralph Lauren archives, Roland Mouret plaid, pinstripe Zimmermann — from an actor's branding instinct. Emily Nelson, the character, was the Type 1 operating room Blake had been living in for a decade.
+**The roles she picks.** _The Shallows_ (2016) is a $17 million survival thriller that grossed $119 million. Blake carries the entire film — alone on screen for most of the runtime, her face the only performance between the audience and a great white shark. A film that only works if the lead never breaks. _A Simple Favor_ (2018), her most critically acclaimed adult role (84% on Rotten Tomatoes), pairs her with [Anna Kendrick](/personality-analysis/anna-kendrick) and casts Blake as a woman with an immaculate surface hiding chaos underneath, dressed in menswear suits that Blake herself proposed as "armor." Costume designer Renée Ehrlich Kalfus built the entire wardrobe — Ralph Lauren archives, Roland Mouret plaid, pinstripe Zimmermann — from an actor's branding instinct. Emily Nelson, the character, was the Type 1 operating room Blake had been living in for a decade.
 
 The sequel, _Another Simple Favor_ (2025), dropped straight to Amazon Prime in the middle of the Baldoni fallout. 58% on Rotten Tomatoes. Director Paul Feig insisted the streaming release had nothing to do with the lawsuit. Make of that what you will.
 
@@ -470,4 +470,3 @@ PRIORITY FIXES:
 3. Engage one Baldoni-sympathetic data point before the texts hit, even briefly. The "both stories can be true" frame is the piece's intellectual signature and currently it's only doing one direction of the work.
 
 ============================================================ -->
-

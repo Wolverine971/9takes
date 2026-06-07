@@ -20,6 +20,19 @@
 			"strategicValue": "viral-beauty-list-model-cluster"
 		},
 		{
+			"name": "ayo-edebiri",
+			"displayName": "Ayo Edebiri",
+			"type": 9,
+			"priority": 69,
+			"priorityReason": "Breakout actor-writer-director with critical heat, deadpan dry comedic register, and a 9w1 mediator-with-quiet-edge angle (was Type 7 — corrected during audit; tone is dry/observational, not enthusiast-scattered)",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "hollywood-rising-star-cluster"
+		},
+		{
 			"name": "andrew-garfield",
 			"displayName": "Andrew Garfield",
 			"type": 4,
@@ -873,18 +886,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "ayo-edebiri",
-		"displayName": "Ayo Edebiri",
-		"type": 9,
-		"priority": 69,
-		"priorityReason": "Breakout actor-writer-director with critical heat, deadpan dry comedic register, and a 9w1 mediator-with-quiet-edge angle (was Type 7 — corrected during audit; tone is dry/observational, not enthusiast-scattered)",
+		"name": "tate-mcrae",
+		"displayName": "Tate McRae",
+		"type": 3,
+		"priority": 70,
+		"priorityReason": "Fast-rising Gen Z pop star, strong current momentum, and clear Type 3 performance angle",
 		"estimatedTraffic": "high",
 		"searchVolume": "high",
 		"personaTitle": null,
 		"addedToQueue": "2026-04-10",
 		"retryCount": 0,
-		"strategicValue": "hollywood-rising-star-cluster",
-		"startedAt": "2026-06-06T00:00:00Z"
+		"strategicValue": "gen-z-pop-cluster",
+		"startedAt": "2026-06-02T06:06:27Z"
 	},
 	"skipped": [
 		{
@@ -1060,23 +1073,6 @@
 			"skippedAt": "2026-05-29T02:00:47Z",
 			"skipReason": "draft already exists",
 			"skipDetail": "src/blog/people/drafts/gracie-abrams.md (27124 bytes)"
-		},
-		{
-			"name": "tate-mcrae",
-			"displayName": "Tate McRae",
-			"type": 3,
-			"priority": 70,
-			"priorityReason": "Fast-rising Gen Z pop star, strong current momentum, and clear Type 3 performance angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-10",
-			"retryCount": 0,
-			"strategicValue": "gen-z-pop-cluster",
-			"startedAt": "2026-06-02T06:06:27Z",
-			"skippedAt": "2026-06-06T00:00:00Z",
-			"skipReason": "stale inProgress - timeout",
-			"skipDetail": "no draft produced; cleared after ~96h"
 		}
 	],
 	"failed": [],

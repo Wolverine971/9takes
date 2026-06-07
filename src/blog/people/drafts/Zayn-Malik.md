@@ -110,7 +110,7 @@ His parents explained racism to him not as an aberration but as an unavoidable f
 
 Online, the racism intensified. In 2012, he spoke out about being called a terrorist on social media: **"How can you justify that? How can you call me that and get away with it?"**
 
-Being told you don't belong — by enough people, for long enough — does one of two things. It either makes you desperate to assimilate, or it pushes you toward building something entirely your own. Zayn went the second direction. That's not nobility. That's survival that happened to produce art.
+Being told you don't belong — by enough people, for long enough — does one of two things. It either makes you desperate to assimilate, or it pushes you toward building something entirely your own. Zayn went the second direction. That's not nobility. That's survival that happened to produce art. [Riz Ahmed](/personality-analysis/riz-ahmed), a generation older and working in film and rap instead of pop, works a related British Pakistani question through different grammar: what happens when identity has to be translated for rooms that keep misreading it.
 
 Despite the hard years, Zayn carries real pride in his Northern roots. In 2024:
 

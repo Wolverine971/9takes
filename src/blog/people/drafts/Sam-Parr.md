@@ -210,6 +210,8 @@ Sam had The Hustle's two-million-person newsletter. Shaan had the ideas and the 
 
 They ground it out. Two to three episodes a week for two years before the show broke through. Sam has called growing the podcast "one of the hardest challenges he's faced." It now has over 800 episodes, nearly 500,000 YouTube subscribers, and over 200 million YouTube views.
 
+Morning Brew matters here because [Alex Lieberman](/personality-analysis/alex-lieberman) solved the same stale-business-news problem from the newsletter side, with a more anxious Seven engine underneath the growth.
+
 What makes the show work is what makes the two of them work: precise opposites who amplify each other. Sam is a [Type 8](/enneagram-corner/enneagram-type-8), blunt and grounded in execution. Shaan is a [Type 7](/enneagram-corner/enneagram-type-7), enthusiastic, always scanning the horizon. Where Sam says "that's dumb," Shaan says "but what if." When Shaan's enthusiasm drifts into abstraction, Sam yanks it back to earth. When Sam's intensity gets heavy, Shaan cracks a joke.
 
 They prepare differently. Sam picks up the phone: "I'll get on the phone with someone and I'll say, tell me everything." Shaan watches: "I'm constantly going around observing things and then go down the rabbit hole."

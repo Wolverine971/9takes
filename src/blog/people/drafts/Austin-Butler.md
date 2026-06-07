@@ -13,7 +13,7 @@ published: true
 enneagram: '9'
 type: ['movieStar', 'screen-icon']
 person: 'austin-butler'
-suggestions: ['Keanu-Reeves', 'Ryan-Gosling', 'Mikey-Madison', 'Brad-Pitt']
+suggestions: ['Harrison-Ford', 'Callum-Turner', 'Ryan-Gosling', 'Brad-Pitt']
 wikipedia: 'https://en.wikipedia.org/wiki/Austin_Butler'
 wikidata_qid: 'Q469954'
 imdb_id: 'nm2581521'
@@ -216,9 +216,9 @@ The voice never came all the way back. He hired a dialect coach not to learn an 
 
 That sentence — _I don't know the difference_ — is the entire diagnosis. You could read it as publicist coaching. But he keeps saying it, year after year, in exactly the same tone, and a coached line gets refined. His doesn't. The line is just true. The merger went all the way down to where the words start.
 
-After the hospital, [Tom Hanks](/personality-analysis/tom-hanks) — widely read as a 9 himself — pulled him aside with advice no other actor on the project was qualified to give. _You have immersed yourself so deeply in Elvis that, for your mental health, it would be wise to go straight into something else._ The kindest possible warning. Hanks was not telling him to rest. He was telling him that for a person built like Butler, rest is the dangerous part. Rest is when the silence comes back. The silence is what the merger was protecting him from. Same-to-same.
+After the hospital, Tom Hanks pulled him aside with advice no other actor on the project was qualified to give. _You have immersed yourself so deeply in Elvis that, for your mental health, it would be wise to go straight into something else._ The kindest possible warning. Hanks was not telling him to rest. He was telling him that for a person built like Butler, rest is the dangerous part. Rest is when the silence comes back. The silence is what the merger was protecting him from.
 
-Butler took the advice. He went straight into _Masters of the Air_, and then _Dune: Part Two_, and then _The Bikeriders_, and then _Eddington_, and then _Caught Stealing_. The release valve for a man who almost dissolved into one role turned out to be more roles. Different shapes. Just don't stop shaping.
+Butler took the advice. He went straight into _Masters of the Air_ with [Callum Turner](/personality-analysis/callum-turner), and then _Dune: Part Two_, and then _The Bikeriders_, and then _Eddington_, and then _Caught Stealing_. The release valve for a man who almost dissolved into one role turned out to be more roles. Different shapes. Just don't stop shaping.
 
 The directors he keeps saying yes to share one trait. Luhrmann, Villeneuve, Nichols, Ari Aster, Darren Aronofsky — five auteurs in five years, every one of them a filmmaker with a fully-formed vision who needs an actor to step inside it. There is no franchise tentpole on the list. There is no "show up and be Austin Butler" job. He keeps choosing rooms with strong gravity. A 9 needs that pull.
 
@@ -232,7 +232,7 @@ Watch Butler's timeline and the pattern is almost too tidy. Three years of total
 
 This is the part of the method-acting argument the discourse keeps missing. When Brian Cox went after Jeremy Strong for staying in character on _Succession_, the complaint was that the merger created hostility on set — Strong's process pushed outward, and the room had to absorb it. Butler's process is the opposite. He pushes inward. The cost lands inside his own body, in private, in the form of symptoms a doctor cannot name. Method acting does not have one personality type. It has at least two. The 8-ish version makes the room pay; the 9-ish version makes the actor pay.
 
-Aronofsky figured this out before anyone else on the _Caught Stealing_ set. His biggest note to Butler, in his own words, was to stop. _I often asked him to work a little less hard and to relax a little bit._ A director asking an actor to do less is not a normal note. It is a direct read on the kind of merger Butler runs. The 9 will hand you the entire body if you let him. A good director takes only what the part needs.
+Aronofsky figured this out before anyone else on the _Caught Stealing_ set. His biggest note to Butler, in his own words, was to stop. _I often asked him to work a little less hard and to relax a little bit._ A director asking an actor to do less is not a normal note. It is a direct read on the kind of merger Butler runs. The 9 will hand you the entire body if you let him. A good director takes only what the part needs. It is the younger-actor version of [Harrison Ford](/personality-analysis/harrison-ford)'s old refusal to over-explain the work: let the body do the job, then stop talking before the self gets turned into copy.
 
 The thing that snaps Butler out of the post-role collapse is the same thing that triggered it. Another role.
 
@@ -381,4 +381,3 @@ Updated:
 - TESTIMONY LEDGER: 6 → 8 quotes (Aronofsky "work less hard" + Hudgens "grateful")
 - DISTRIBUTION LEDGER below should be re-counted; type-theory paragraphs outside diagnosis grew to ~5 (added: 9-to-3 growth para, 9-pure stress reframe, Cox/Strong/Aronofsky method-acting critique, auteur-pattern para)
 -->
-

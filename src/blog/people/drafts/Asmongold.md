@@ -225,7 +225,7 @@ That was it. That was the machine.
 
 The reaction format Asmongold built was so clean it shaped half the streamers who came after him. He sits, usually in the same hoodie, and watches. Reddit posts. Patch notes. Other streamers. News clips. Political videos. The audience watches him watch. The second-order observation, for the viewer, feels like being inside his mind.
 
-What makes him different from a [Pokimane](/personality-analysis/pokimane) or a Kai Cenat or an xQc is how unconcealed the inner world is. He is not performing for the camera. He is barely addressing the camera. He is thinking — out loud — about what he just saw. The camera is incidental.
+What makes him different from a [Pokimane](/personality-analysis/pokimane) or a [Kai Cenat](/personality-analysis/kai-cenat) or an [xQc](/personality-analysis/xqc) is how unconcealed the inner world is. He is not performing for the camera. He is barely addressing the camera. He is thinking — out loud — about what he just saw. The camera is incidental.
 
 Two years after founding it, the partnership split open. In September 2022, Trainwreckstv publicly accused Mizkif — Asmongold's closest OTK partner — of helping cover up a 2020 sexual assault allegedly committed by Mizkif's roommate, CrazySlick. Asmongold went on stream within hours and said he would stop speaking to Mizkif unless Mizkif cut ties with CrazySlick (Dexerto, 2022). OTK's outside counsel eventually cleared Mizkif of having minimized the incident, but the room had already moved. The two never fully came back.
 

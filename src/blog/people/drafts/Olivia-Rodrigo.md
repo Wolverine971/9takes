@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['musician', 'pop-star']
 person: 'olivia-rodrigo'
-suggestions: ['Taylor Swift', 'Billie Eilish', 'Sabrina Carpenter', 'Chappell Roan']
+suggestions: ['Taylor Swift', 'Billie Eilish', 'Sabrina Carpenter', 'Chappell Roan', 'Gracie Abrams']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Rodrigo'
 wikidata_qid: 'Q63243883'
 imdb_id: 'nm7111120'
@@ -276,7 +276,7 @@ On a trip to Hawaii with her best friend Madison Hu, she refused to take any pho
 
 And here's the detail that sits underneath all of it: **"We both write a lot of sad music,"** she told Conan Gray, **"but I think maybe one misconception about us is that we're actually very optimistic people. And super happy. Never a day without giggling, laughing. About the dumbest thing you've ever heard."**
 
-The girl who wrote "drivers license" and "vampire" and "traitor" and "enough for you" — four of the saddest pop songs of the 2020s — is, in person, an optimist who giggles about nothing and carries cheese in her purse. It's a gap that would surprise fans who assume she's as devastated as her music, similar to how [Billie Eilish](/personality-analysis/billie-eilish) confounds expectations off stage.
+The girl who wrote "drivers license" and "vampire" and "traitor" and "enough for you" — four of the saddest pop songs of the 2020s — is, in person, an optimist who giggles about nothing and carries cheese in her purse. Fans make the same mistake with [Billie Eilish](/personality-analysis/billie-eilish), whose off-stage warmth complicates the gothic iconography, and [Gracie Abrams](/personality-analysis/gracie-abrams), whose bedroom melancholy became a public genre without making every private room feel tragic.
 
 That isn't a contradiction. It's the whole point. The sadness goes into the music so that the rest of her life can be light. The songs are the container for everything she can't hold in person. Every wound becomes a track. Every betrayal becomes a gift for someone else who's hurting.
 
@@ -364,4 +364,3 @@ PRIORITY FIXES:
 3. Add one scene from her current third-album rollout or current relationship. The file ends with "the question her third album has to answer" — but the album is being made now, and the file has no anchor in 2026.
 
 ============================================================ -->
-

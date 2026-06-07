@@ -13,7 +13,7 @@ published: true
 enneagram: '5'
 type: ['entrepreneur', 'author', 'business-operator']
 person: 'ray-dalio'
-suggestions: ['Bill-Gates', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg']
+suggestions: ['Bill-Gates', 'Peter-Thiel', 'Warren-Buffett', 'Jamie-Dimon']
 wikipedia: 'https://en.wikipedia.org/wiki/Ray_Dalio'
 wikidata_qid: 'Q7297378'
 imdb_id: 'nm4734656'
@@ -133,7 +133,7 @@ The man you know as the philosopher of finance, dispensing rules like a stoic sa
 
 He is a textbook [Type 5](/enneagram-corner/enneagram-type-5) with a strong [6 wing](/enneagram-corner/enneagram-wings-complete-guide) — the Investigator who builds systems against future helplessness. The 5 is the head-center type whose core fear is being depleted, overwhelmed, or rendered incompetent. Their answer is to retreat, observe, and accumulate enough understanding to never be caught off-guard. Dalio gives this away in almost every sentence he writes about decision-making.
 
-His most-quoted concept isn't "trust your gut." It's the opposite. _"There are two yous inside you,"_ he tells Tim Ferriss. _"There is the thoughtful you, prefrontal cortex-type of thoughtful you. Then there's the subliminal, emotional you."_ The thoughtful one is the real one. The other one is a problem to be debugged. That is not a Type 8's voice, or a Type 3's, or a Type 1's. That is a Type 5 describing his own life as a piece of software with a faulty subroutine.
+His most-quoted concept isn't "trust your gut." It's the opposite. _"There are two yous inside you,"_ he tells [Tim Ferriss](/personality-analysis/tim-ferriss). _"There is the thoughtful you, prefrontal cortex-type of thoughtful you. Then there's the subliminal, emotional you."_ The thoughtful one is the real one. The other one is a problem to be debugged. That is not a Type 8's voice, or a Type 3's, or a Type 1's. That is a Type 5 describing his own life as a piece of software with a faulty subroutine.
 
 The 6 wing shows up in what he watches for. Mexico's debt default in 1982. The 1987 crash. The 2008 financial crisis. _How Countries Go Broke_, his 2025 bestseller. A man who believes the machine is always one shock away from breaking, and that the only thing standing between him and ruin is whether he saw it coming.
 
@@ -184,7 +184,7 @@ But the real lesson he took from 1982 isn't humility. It's instrumentation.
 
 After the loss, he started writing things down. He wrote down what he had thought, what he had missed, and what rule he should have followed. He started doing it after every trade, then after every decision, then after every meeting. The rules accreted. By the time he published _Principles_ in 2017, there were 210 of them.
 
-A Type 4 would have made art out of the pain. A Type 8 would have come back angrier. A Type 3 would have rebranded. Ray Dalio turned a personal collapse into a documentation system, because for a Type 5, the worst feeling in the world is being inside a moment you don't understand. The principles aren't a memoir. They are a fence built around 1982.
+A Type 4 would have made art out of the pain. A Type 8 in the Wall Street register, like [Jamie Dimon](/personality-analysis/jamie-dimon), would have come back angrier. A Type 3 would have rebranded. Ray Dalio turned a personal collapse into a documentation system, because for a Type 5, the worst feeling in the world is being inside a moment you don't understand. The principles aren't a memoir. They are a fence built around 1982.
 
 That is what makes the opening epigraph harder than it sounds. He calls himself a _professional_ mistake maker — not a man who makes mistakes, but a man who has industrialized the relationship. The open question is whether industrializing error is how you befriend it, or how you guarantee you will never have to feel it raw again. Dalio insists on the first reading. The 210 rules are evidence for the second.
 
@@ -196,7 +196,7 @@ That last sentence is worth holding for a moment. The founder of the world's lar
 
 If the system is good enough, _you_ don't have to be reliable. That is the line that organizes Dalio's whole fortress. _Idea meritocracy_, his term for it, is calibrated: it's not a meritocracy of people but of _ideas_, evaluated by their track record, weighted against the speaker's. The ego barrier — his term for the defense system that makes you cling to bad ideas — is the enemy. The cameras and the dotting tablets are antibodies against it.
 
-The same instinct shaped the funds. In 1996, Dalio designed a portfolio called All Weather for his own family trust because, by his own admission, he could not trust his future trustees to allocate well after he was gone. The fund pioneered what the industry now calls _risk parity_: balance the portfolio so each asset class contributes equal risk rather than equal capital, and the result should hold up across any economic surprise — inflation, deflation, growth, contraction. It is the financial expression of the same logic. The Type 5 doesn't want to predict the next regime. He wants a structure that doesn't need him to.
+The same instinct shaped the funds. In 1996, Dalio designed a portfolio called All Weather for his own family trust because, by his own admission, he could not trust his future trustees to allocate well after he was gone. The fund pioneered what the industry now calls _risk parity_: balance the portfolio so each asset class contributes equal risk rather than equal capital, and the result should hold up across any economic surprise — inflation, deflation, growth, contraction. It is the financial expression of the same logic. The Type 5 doesn't want to predict the next regime. He wants a structure that doesn't need him to. That is why the comparison to [Warren Buffett](/personality-analysis/warren-buffett) matters: Buffett trusts patient judgment; Dalio trusts the machine that keeps judgment from being alone in the room.
 
 > "Ray sometimes says or does things to employees which makes them feel incompetent, unnecessary, humiliated, overwhelmed, belittled, pressed or otherwise bad."
 > — Bob Prince, Giselle Wagner, and Dan Bernstein, internal memo to Ray Dalio, 1993
@@ -298,4 +298,3 @@ What's already working:
 - Specific numbers anchor every section ($4,000, 210 rules, two 20-min sessions, 1982, 50 years of TM). The draft never floats.
 - The Greg Jensen quote read as "the disagreement isn't human; it's a process" is a clinical insight that earns the Type 5 diagnosis without lecturing.
 -->
-

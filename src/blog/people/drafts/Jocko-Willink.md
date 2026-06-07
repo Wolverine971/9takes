@@ -279,6 +279,8 @@ Type 8s fear losing control, especially control over themselves. The early morni
 
 For a Type 8, discipline isn't motivated by external rewards or approval. It's an expression of their fundamental identity: **I am strong. I am in control. No one can break me because I've already pushed myself harder than anyone else could.**
 
+The natural public comparison is [David Goggins](/personality-analysis/david-goggins), another SEAL-world intensity figure. The difference is motive: Goggins turns anger into punishment; Jocko turns control into responsibility.
+
 ### The "Good" in Conflict
 
 In a revealing moment on [Joe Rogan's](/personality-analysis/joe-rogan) podcast, Jocko admitted something that disturbed some listeners:

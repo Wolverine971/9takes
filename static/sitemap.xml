@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1022,6 +1022,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/alex-lieberman</loc>
+    <lastmod>2026-06-06</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Alex-Lieberman.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/alexandria-ocasio-cortez</loc>
     <lastmod>2026-03-27</lastmod>
     <image:image>
@@ -1047,6 +1054,13 @@
     <lastmod>2026-05-14</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/9s/Alix-Earle.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/alysa-liu</loc>
+    <lastmod>2026-06-03</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Alysa-Liu.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -1345,7 +1359,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2129,6 +2143,13 @@
     <lastmod>2026-05-09</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/7s/John-McAfee.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/john-ternus</loc>
+    <lastmod>2026-06-05</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/John-Ternus.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3042,6 +3063,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/sean-evans</loc>
+    <lastmod>2026-06-04</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Sean-Evans.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/selena-gomez</loc>
     <lastmod>2025-12-03</lastmod>
     <image:image>
@@ -3385,11 +3413,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-05</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-06-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>

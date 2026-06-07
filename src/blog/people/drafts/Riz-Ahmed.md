@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['movieStar', 'musician', 'screen-icon']
 person: 'riz-ahmed'
-suggestions: []
+suggestions: ['Zayn-Malik', 'Oscar-Isaac', 'Pedro-Pascal', 'Denzel-Washington']
 wikipedia: 'https://en.wikipedia.org/wiki/Riz_Ahmed'
 wikidata_qid: 'Q1861917'
 imdb_id: 'nm1981893'

@@ -13,7 +13,7 @@ published: true
 enneagram: '5'
 type: ['historical', 'historical-scientist']
 person: 'albert-einstein'
-suggestions: ['Bill-Gates', 'Nikola-Tesla', 'Friedrich-Nietzsche', 'Robert-Oppenheimer']
+suggestions: ['Bill-Gates', 'Stephen-Hawking', 'Noam-Chomsky', 'Robert-Oppenheimer']
 wikipedia: 'https://en.wikipedia.org/wiki/Albert_Einstein'
 wikidata_qid: 'Q937'
 imdb_id: 'nm0251868'
@@ -170,7 +170,7 @@ Einstein is the textbook 5, and unusually, he is also the textbook 5 in his own 
 
 This is not loneliness as suffering. This is loneliness as currency. He paid in connection. He bought independence.
 
-The [wing](/enneagram-corner/enneagram-wings-complete-guide) is **5w4**. The 4 wing is what gave him the romantic pull toward Mozart, the daydreaming-through-music, the line about "thinking in pictures, not in words." A pure 5w6 looks like [Bill Gates](/personality-analysis/bill-gates): systematic, security-oriented, allergic to drama. Einstein has a gauzy aesthetic streak the 5w6 lacks. He wrote about music the way a poet would: "I see my life in terms of music. I get most joy in life out of music." He was a 5 with the heart of a 4, and he kept both at arm's length from anyone who wanted to be loved by him.
+The [wing](/enneagram-corner/enneagram-wings-complete-guide) is **5w4**. The 4 wing is what gave him the romantic pull toward Mozart, the daydreaming-through-music, the line about "thinking in pictures, not in words." A pure 5w6 looks like [Bill Gates](/personality-analysis/bill-gates): systematic, security-oriented, allergic to drama. [Stephen Hawking](/personality-analysis/stephen-hawking) is the useful public-scientist contrast: another mind that retreated into physics, but with a harder problem-solver texture than Einstein's romantic streak. Einstein wrote about music the way a poet would: "I see my life in terms of music. I get most joy in life out of music." He was a 5 with the heart of a 4, and he kept both at arm's length from anyone who wanted to be loved by him.
 
 You will see the 5 most clearly in three places: the patent office where his greatest physics happened, the marriages where his greatest cruelty happened, and the deathbed where his deepest preference finally won.
 
@@ -406,4 +406,3 @@ OVERALL TAKE:
 
 The piece is sharp on the interior Einstein but light on the public Einstein. A reader expecting a personality analysis still wants the bomb, general relativity / 1919 fame, and Israel-presidency-declined to be in the room — those are the moments where the public legend and the private 5 collide most visibly, and they would strengthen, not weaken, the thesis. Right now the article reads like it's about a brilliant recluse who happened to be famous; the missing pieces are the ones that show why he was famous and how the fame interacted with the type. Add 2-3 of those, trim one of the repetitions, and this gets meaningfully better.
 -->
-

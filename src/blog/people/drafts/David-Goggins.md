@@ -154,7 +154,7 @@ The real Type 8 mechanism is quieter and more specific. As the [Type 8 profile](
 
 Read his most famous line as the machine spec it is. *"I saw myself as the weakest person that God ever created. I wanted to change that into being the hardest man ever created."* He looks at his own weakness, and instead of comforting it or planning around it, he gets furious and goes to war with it. Feel soft, get mad, move. That loop is what makes him an Eight. The volume and the cussing are just exhaust.
 
-A quick word on why he is not a Six, since this site once argued the opposite. A Six runs on anxiety and manages it by preparing for what could go wrong, aiming for safety. Goggins runs on anger and manages it by attacking what already went wrong, aiming to never feel powerless again. He is not scanning the horizon for threats; he is hunting for something to break himself against. *"I had developed a lot of anger,"* he told Andrew Huberman. *"And it will never go away."* A Six wants the fear to stop. Goggins keeps the anger on purpose, because the anger is what moves him.
+A quick word on why he is not a Six, since this site once argued the opposite. A Six runs on anxiety and manages it by preparing for what could go wrong, aiming for safety. Goggins runs on anger and manages it by attacking what already went wrong, aiming to never feel powerless again. He is not scanning the horizon for threats; he is hunting for something to break himself against. *"I had developed a lot of anger,"* he told [Andrew Huberman](/personality-analysis/andrew-huberman). *"And it will never go away."* A Six wants the fear to stop. Goggins keeps the anger on purpose, because the anger is what moves him.
 
 The evidence stacks up the same way every time you look:
 
@@ -225,7 +225,7 @@ He went on to deploy to Iraq with SEAL Team 5. He has rarely talked about combat
 
 In December 2010, the entrepreneur Jesse Itzler ran a 24-hour relay in San Diego and noticed one man on a rival team who never stopped, never sat down, and barely spoke. Itzler asked his name, then asked him to come live in his Manhattan apartment for a month. Goggins said yes. Itzler turned it into *Living with a SEAL* (2015), the bestseller that introduced a quiet operator to a million people who had never heard his name.
 
-That book did the work the SEAL community could not. It put Goggins on Joe Rogan and every long-form podcast that mattered. *Can't Hurt Me* came out in 2018 and has sold millions of copies. *Never Finished* followed in 2022. He keeps both in print himself through his own imprint, so he never has to negotiate with a publisher about how hard he is allowed to talk — control, again, held at the source.
+That book did the work the SEAL community could not. It put Goggins on [Joe Rogan](/personality-analysis/joe-rogan) and every long-form podcast that mattered. *Can't Hurt Me* came out in 2018 and has sold millions of copies. *Never Finished* followed in 2022. He keeps both in print himself through his own imprint, so he never has to negotiate with a publisher about how hard he is allowed to talk — control, again, held at the source.
 
 The brand runs on two words: *stay hard.* It sounds like macho posturing until you hear what softness actually means to him. For the Challenger, soft is the exact condition under which he once got hurt. Soft is the boy on the couch at Skateland. Soft is the medical exit. *Stay hard* is a man standing permanent guard over the one door he swore would never open again.
 
@@ -376,4 +376,3 @@ Still open:
   Not flagged by the review; left to avoid over-editing a graded draft. Easy cleanup if wanted.
 - If Goggins ever publicly explains the reenlistment, update the closer + FAQ #3.
 -->
-
