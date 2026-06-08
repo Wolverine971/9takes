@@ -72,8 +72,8 @@ GATE 2 RESULT: PASS (>= 2).
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 1
-Locations: "What Carina Zavline Did the Day the Plan Broke" (one short bridge paragraph)
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: 2
+Locations: "How Carina Zavline Became Her Own Manager" (one bridge paragraph); "What Carina Zavline Did the Day the Plan Broke" (one short bridge paragraph)
 GATE 5 RESULT: PASS (<= 4).
 -->
 
@@ -124,16 +124,14 @@ Everything visible about her — the polish, the self-management, the refusal to
 
 ## Why Carina Zavline Lost Germany's Next Top Model and Won Anyway
 
-She was, by most accounts, the one to beat from the first episode. And the single biggest external job of the season — the Opel face — went to her *while she was still competing.* In the economy of a modeling show, that is the actual prize. The trophy is television; the contract is the career.
+She wasn't just a front-runner; she was Heidi Klum's pick — the contestant a season gets quietly built around. And the single biggest external job on offer, the face of an Opel campaign, went to her *while she was still competing.* In the economy of a modeling show, that is the actual prize. The trophy is television; the contract is the career.
 
-So when the judges cut her in the quarterfinals, the numbers had already inverted. She left holding the season's best real-world deal and none of the season's risk. The show's verdict — too ready, too finished — was the kind of rejection a Type 3 can bank.
+So the quarter-final cut landed on numbers that had already inverted. She left holding the season's best real-world deal and none of the season's remaining risk. "Too ready, too finished" is the rare rejection a Type 3 can deposit at face value.
 
 <div class="contrast-panel">
-<p><b>What the elimination looked like:</b> the front-runner, stunningly, sent home before the finale.</p>
-<p><b>What it actually was:</b> the one contestant who walked out with the biggest commercial contract and a head start on going independent.</p>
+<p><b>What the judges measured:</b> a contestant with nothing left for the show to teach.</p>
+<p><b>What that bought her:</b> the Opel contract, a follower base she already called the "#Carinaarmy," and a head start on going independent before the finale even aired.</p>
 </div>
-
-The "#Carinaarmy / just the beginning" post wasn't damage control. It was a Three doing what Threes do with a loss — re-narrating it, fast, into momentum.
 
 ---
 
@@ -151,8 +149,10 @@ The reflex of most newly-famous twenty-year-olds is to sign with someone — an 
 
 For a Type 3, this is the revealing choice. Control over the image isn't a logistics preference; it's the whole point. Hand the brand to a manager and you've outsourced the one thing your identity is built on. Keep it, and every post stays exactly as calibrated as you need it to look.
 
+And the brand kept compounding. Opel rolled into Guess, then a Maybelline runway in New York, then KILLIAN Paris and Supernova; the feed shaded from runway work into the glossy travel-and-fragrance content that is now its own product. The follower count crossed 1.3 million. Around 2021 she relocated to Los Angeles and, by several secondhand accounts, started chasing acting — the next surface for the same instinct, though she's left no on-record interview to confirm where that went. The throughline isn't any single deal. It's that nine years on, the self-run brand the show pronounced finished is still running, still hers, still expanding.
+
 <div class="key-stat">
-<p><b>1M+</b> — Instagram followers built and managed by Zavline herself, with no agency running the account.</p>
+<p><b>1.3M+</b> — Instagram followers built and managed by Zavline herself, with no agency running the account.</p>
 </div>
 
 It's an unglamorous kind of ambition: not the diva demanding a team, but the operator who quietly refuses to let anyone else hold the controls.
@@ -184,7 +184,9 @@ Type 3 disintegrates toward Type 9 (disengagement, going flat, vanishing into ro
 
 ### Counterarguments: Why Carina Zavline Might Not Be Type 3
 
-The strongest alternate case is that we're typing a marketing surface, not a person — that *any* successful influencer will look like a Three because the job rewards Three behavior. Fair. A disciplined Type 1 (the perfectionist who self-manages out of standards) or a security-seeking Type 6 (the loyalist who trusts no manager but herself) could produce a similar public record. The honest answer: the Type 3 read rests on the *reframing-loss-as-launch* move and the identity-through-image pattern, both visible in public behavior. But with no interior testimony, confidence stays moderate, not high. This is a behavioral inference, not a confession.</div>
+The strongest alternate case is that we're typing a marketing surface, not a person — that *any* successful influencer will look like a Three because the job rewards Three behavior. Fair. A disciplined Type 1 (the perfectionist who self-manages out of standards) or a security-seeking Type 6 (the loyalist who trusts no manager but herself) could produce a similar public record. The honest answer: the Type 3 read rests on the *reframing-loss-as-launch* move and the identity-through-image pattern, both visible in public behavior. But with no interior testimony, confidence stays moderate, not high. This is a behavioral inference, not a confession.
+
+</div>
 </details>
 
 ## The Contestant Who Didn't Need the Contest
@@ -240,3 +242,30 @@ What's already working:
   trail") instead of a defensive disclaimer. That's the best paragraph in the draft.
 -->
 
+<!-- SECOND PASS NOTES (2026-06-08)
+Addressed:
+- Cut the worst repetition: removed the "#Carinaarmy post wasn't damage control / re-narrating
+  into momentum" line from the "Won Anyway" section (the reframe-as-Type-3 point now lives only
+  in "Plan Broke" and the ending), and rewrote the contrast-panel so it stops restating the intro
+  verbatim — it now carries the prize-inversion + head-start specifics instead.
+- Unfroze the piece from 2017: added a current throughline to the self-manager section — Opel ->
+  Guess -> Maybelline -> KILLIAN Paris -> Supernova, the shift into travel/fragrance content, and
+  the ~1.3M follower count (verified, HypeAuditor Apr 2026). Updated key-stat 1M -> 1.3M.
+- Grounded "front-runner": named her as Heidi Klum's pick (maedchen.de, a real German outlet),
+  replacing the unsupported "by most accounts" phrasing.
+- Acting claim: addressed honestly in one line — the ~2021 LA move / acting pivot is bio-farm
+  sourced only, so framed as "by several secondhand accounts ... no on-record interview to confirm."
+
+Kept as-is:
+- Ending (swap-test-proof "did it look like I did") and the "different Carina won nine years later"
+  anchor — both flagged as working; untouched.
+- Pull-quote + intro: reviewer flagged mild overlap, but the quote (the reason) and the firstLetter
+  (the Opel scene) do different work, so kept both.
+- Diagnosis "a Four would / a Six would" beat: brief and earns its place in the diagnosis section;
+  not trimmed.
+
+Still open:
+- Zero qualifying third-party direct quotes remain (Gate 1 still FAILs); production_pretext stays
+  blocked. Publishable only if German-language interview transcripts surface.
+- lastmod intentionally NOT modified (user-managed).
+-->
