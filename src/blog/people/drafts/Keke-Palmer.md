@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['celebrity', 'musician', 'tv-comedy-crossover', 'music-crossover']
 person: 'keke-palmer'
-suggestions: ['Zendaya', 'Tyler-Perry', 'Eddie-Murphy', 'Jake-Shane', 'Ariana-Grande']
+suggestions: ['Sean-Evans', 'Zendaya', 'Tyler-Perry', 'Eddie-Murphy', 'Ariana-Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Keke_Palmer'
 wikidata_qid: 'Q273044'
 imdb_id: 'nm1551130'
@@ -52,6 +52,8 @@ citations:
   - 'https://www.wikidata.org/wiki/Q273044'
   - 'https://www.imdb.com/name/nm1551130/'
   - 'https://kekepalmer.com'
+  - 'https://www.eonline.com/news/1432401/keke-palmer-hot-ones-sean-evans-spark-romance-rumors-after-podcast'
+  - 'https://podcasts.apple.com/us/podcast/baby-this-is-keke-palmer/id1668446854'
 faqs:
   - question: 'What is Keke Palmer''s Personality Type?'
     answer: 'People who share Palmer''s core pattern, Enneagram Threes, carry a specific wound: the belief that they are only as valuable as what they produce. This belief usually forms early. A child who is praised for performance, rewarded for achievement, and taught, explicitly or implicitly, that love is conditional on output. The child learns to build a self that wins. The self that doesn''t win gets buried.'
@@ -173,6 +175,8 @@ The lie detector confirmed she was telling the truth. The clip got 5.4 million v
 This is the dimension the serious portrait of Palmer often misses: she is one of the funniest people in entertainment. And her humor is not incidental to the persona; it is the persona's most sophisticated tool.
 
 On _Strahan, Sara and Keke_, when _Bachelorette_ alum Mike Johnson tried to ask her out on-air, she stared into the camera with wide eyes and announced: "I'm at work!" Then she made her own memes from the clip. She created Lady Miss Jacqueline, a southern belle alter ego who delivers devastating shade with impeccable manners, and the character got popular enough that Amazon commissioned a short story collection based on it.
+
+The [Sean Evans](/personality-analysis/sean-evans) thread works for the same reason. Their _Hot Ones_ chemistry turned into a 2025 on-camera kiss, then a May 2026 _Baby, This Is Keke Palmer_ episode where they joked through the fan-shipping instead of pretending it did not exist. The point is not whether they are dating. Publicly, that remains speculation. The point is that Palmer can take a moment that would make most celebrities stiffen and turn it into a live-format joke where she keeps the timing, the charm, and the frame.
 
 Black Twitter dubbed her "Keke 'Keep a Job' Palmer." As Essence noted: "While everyone was focused on her being booked and busy, Palmer was focused on building and buying."
 

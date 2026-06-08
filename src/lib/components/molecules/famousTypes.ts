@@ -171,7 +171,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	4: [
 		{ name: 'adele', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Music\'s Rawest Nerve', contentGrade: 8.7, types: ['musician'] },
 		{ name: 'alex-karp', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9, types: ['techie', 'entrepreneur', 'frontier-builder'] },
-		{ name: 'ana-de-armas', link: false, hasImage: true, lastmod: '2026-05-09', personaTitle: 'Hollywood\'s Beautiful Stranger', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
+		{ name: 'ana-de-armas', link: true, hasImage: true, lastmod: '2026-06-08', personaTitle: 'Hollywood\'s Beautiful Stranger', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'anya-taylor-joy', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Cinema\'s Beautiful Exile', contentGrade: null, types: ['newMovieStar', 'rising-star'] },
 		{ name: 'bella-hadid', link: true, hasImage: true, lastmod: '2026-04-30', personaTitle: 'Fashion\'s Erased Daughter', contentGrade: 9, types: ['lifestyleInfluencer', 'lifestyle-builder'] },
 		{ name: 'billie-eilish', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Gen Z\'s Beautiful Wound', contentGrade: 9.1, types: ['musician', 'pop-star'] },

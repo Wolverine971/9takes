@@ -13,7 +13,7 @@ published: true
 enneagram: '6'
 type: ['creator', 'viral-entertainer']
 person: 'sean-evans'
-suggestions: ['Conan-OBrien', 'Joe-Rogan', 'Amelia-Dimoldenberg', 'Logan-Paul']
+suggestions: ['Keke-Palmer', 'Conan-OBrien', 'Amelia-Dimoldenberg', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'
 wikidata_qid: 'Q27917256'
 imdb_id: 'nm8797195'
@@ -46,6 +46,8 @@ citations:
   - 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'
   - 'https://www.wikidata.org/wiki/Q27917256'
   - 'https://www.imdb.com/name/nm8797195/'
+  - 'https://www.eonline.com/news/1432401/keke-palmer-hot-ones-sean-evans-spark-romance-rumors-after-podcast'
+  - 'https://podcasts.apple.com/us/podcast/baby-this-is-keke-palmer/id1668446854'
 faqs:
   - question: 'What is Sean Evans''s personality type?'
     answer: 'Type 6s are wired around a question: what could go wrong, and am I ready for it? They prepare. They vet. They build relationships that hold under pressure, because the pressure is coming. They distrust their own footing more than anyone else does. Their best version is steady, loyal, and unusually competent under fire. Their worst version cannot put the worry down.'
@@ -229,6 +231,8 @@ Late-night TV before Hot Ones operated on a contract: the host asks the question
 The hot sauce is a Trojan horse. It's a physical state — pain, watering eyes, capsaicin sweat — that makes it socially acceptable for a guest to drop the press persona. The talking points get harder to recite when your tongue is on fire. The mask slips. The guest becomes interestingly themselves. Evans, who has done his ten days of research, is waiting with the question that pulls the slipped mask further.
 
 The reason the format works is that the host is the constant. Evans does not break. The guest knows he is on the same wing. The guest also knows he has read the obscure profile, watched the deleted scene, heard the bootleg podcast. Pain plus competence equals confession. The show ran on this equation for a decade before anyone built a real competitor that came close.
+
+The exception is when the guest makes Evans part of the interview. [Keke Palmer](/personality-analysis/keke-palmer) has done that better than almost anyone: first as a repeat _Hot Ones_ guest, then with the 2025 kiss after his public crush comment, then with the May 2026 podcast reunion where both of them joked through the internet wanting them together. It is not a confirmed relationship. It is a very specific kind of host-to-host chemistry: Palmer turns the flirtation into performance, and Evans, usually the controlled variable, has to become part of the bit.
 
 The Pedro Pascal episode is the case study. In March 2023, at the peak of his Last of Us moment, Pascal sat across from Evans and steadily lost. By the back half of the wing run he was drinking milk despite hating milk, gargling it on camera, then describing in real time a gap between his back molar and his front tooth where the sauce had wedged itself and would not stop burning. Evans, eating the same wings, asks the next question. The asymmetry is the show. One man performs competence under physical duress; the other is in chemically-induced honesty, which turns out to look a lot like a real conversation.
 

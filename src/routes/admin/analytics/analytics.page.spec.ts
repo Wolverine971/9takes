@@ -173,6 +173,74 @@ describe('/admin/analytics page', () => {
 		});
 	});
 
+	it('renders actionable timing synthesis and standard deviation outliers', async () => {
+		const timingRows = [
+			{
+				local_dow: 2,
+				local_hour: 14,
+				visits: 120,
+				unique_visitors: 82,
+				avg_time_on_page_ms: 91000
+			},
+			{
+				local_dow: 2,
+				local_hour: 15,
+				visits: 54,
+				unique_visitors: 40,
+				avg_time_on_page_ms: 62000
+			},
+			{
+				local_dow: 3,
+				local_hour: 14,
+				visits: 44,
+				unique_visitors: 31,
+				avg_time_on_page_ms: 57000
+			},
+			{
+				local_dow: 0,
+				local_hour: 4,
+				visits: 2,
+				unique_visitors: 2,
+				avg_time_on_page_ms: 12000
+			}
+		];
+
+		vi.stubGlobal(
+			'fetch',
+			vi.fn(async (input: RequestInfo | URL) => {
+				const url = String(input);
+				if (url.startsWith('/api/admin/analytics/timing?')) {
+					return {
+						ok: true,
+						json: vi.fn().mockResolvedValue({ rows: timingRows })
+					};
+				}
+				return {
+					ok: true,
+					json: vi.fn().mockResolvedValue({})
+				};
+			})
+		);
+
+		render(AnalyticsPage, {
+			data: pageData as any
+		});
+
+		await fireEvent.click(screen.getByRole('tab', { name: 'Traffic Timing' }));
+
+		await waitFor(() => {
+			expect(screen.getByText('Timing Synthesis')).toBeTruthy();
+		});
+
+		expect(screen.getByText('Standard Deviation Outliers')).toBeTruthy();
+		expect(screen.getByText('Most traffic')).toBeTruthy();
+		expect(screen.getAllByText('Tue 2PM').length).toBeGreaterThan(0);
+		expect(screen.getByText(/Tue 2PM is the strongest slot/)).toBeTruthy();
+		expect(screen.getByText(/Use Tue 2PM as the first promotion window/)).toBeTruthy();
+		expect(screen.getByText(/Put maintenance, low-risk experiments/)).toBeTruthy();
+		expect(screen.getByText('High Traffic Outliers')).toBeTruthy();
+	});
+
 	it('lets the release tab apply a wider date range directly', async () => {
 		render(AnalyticsPage, {
 			data: pageData as any

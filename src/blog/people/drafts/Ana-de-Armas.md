@@ -4,12 +4,12 @@ meta_title: "Why Ana de Armas Keeps Running From the Spotlight She Chased"
 persona_title: "Hollywood's Beautiful Stranger"
 description: "Ana de Armas left Cuba to be seen and Hollywood to be invisible. Inside the Type 4w5 longing that explains both leaps — and the Vermont cocoon she built last."
 author: 'DJ Wayne'
-date: '2026-05-09'
+date: '2026-06-08'
 loc: 'https://9takes.com/personality-analysis/ana-de-armas'
-lastmod: '2026-05-09'
+lastmod: '2026-06-08'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['movieStar', 'screen-icon']
 person: 'ana-de-armas'

@@ -221,6 +221,46 @@
 		avg_time_on_page_ms: number;
 	}
 
+	interface TimingSlotAnalysis extends TimingHeatmapRow {
+		label: string;
+		z_score: number;
+		share_pct: number;
+	}
+
+	interface TimingSummaryGroup {
+		key: string;
+		label: string;
+		visits: number;
+		unique_visitors: number;
+		active_slots: number;
+		avg_slot_visits: number;
+		z_score: number;
+	}
+
+	interface TimingAnalysis {
+		total_visits: number;
+		active_slots: number;
+		active_slot_pct: number;
+		mean_slot_visits: number;
+		std_dev_slot_visits: number;
+		peak_slot: TimingSlotAnalysis | null;
+		quiet_slot: TimingSlotAnalysis | null;
+		high_outliers: TimingSlotAnalysis[];
+		low_outliers: TimingSlotAnalysis[];
+		busiest_day: TimingSummaryGroup | null;
+		quietest_day: TimingSummaryGroup | null;
+		busiest_hour: TimingSummaryGroup | null;
+		quietest_hour: TimingSummaryGroup | null;
+		weekday_visits: number;
+		weekend_visits: number;
+		weekday_avg_slot_visits: number;
+		weekend_avg_slot_visits: number;
+		weekday_share_pct: number;
+		weekend_share_pct: number;
+		primary_trend: string;
+		recommendations: string[];
+	}
+
 	interface ReleasePerformanceRow {
 		id: number;
 		slug: string;
@@ -718,6 +758,307 @@
 		);
 	}
 
+	function getTimingSlotSortValue(row: TimingHeatmapRow): number {
+		return row.local_dow * 24 + row.local_hour;
+	}
+
+	function calculatePopulationStdDev(values: number[], mean: number): number {
+		if (values.length === 0) return 0;
+		const variance =
+			values.reduce((sum, value) => sum + Math.pow(value - mean, 2), 0) / values.length;
+		return Math.sqrt(variance);
+	}
+
+	function buildTimingGroups(
+		slots: TimingSlotAnalysis[],
+		kind: 'day' | 'hour'
+	): TimingSummaryGroup[] {
+		const groups = new Map<string, Omit<TimingSummaryGroup, 'z_score'>>();
+
+		for (const slot of slots) {
+			const key = kind === 'day' ? String(slot.local_dow) : String(slot.local_hour);
+			const label =
+				kind === 'day'
+					? (timingDayLabels[slot.local_dow] ?? 'Day')
+					: formatHourLabel(slot.local_hour);
+			const existing = groups.get(key);
+
+			if (existing) {
+				existing.visits += slot.visits;
+				existing.unique_visitors += slot.unique_visitors;
+				existing.active_slots += slot.visits > 0 ? 1 : 0;
+				continue;
+			}
+
+			groups.set(key, {
+				key,
+				label,
+				visits: slot.visits,
+				unique_visitors: slot.unique_visitors,
+				active_slots: slot.visits > 0 ? 1 : 0,
+				avg_slot_visits: 0
+			});
+		}
+
+		const groupList = [...groups.values()].map((group) => ({
+			...group,
+			avg_slot_visits: group.visits / (kind === 'day' ? 24 : 7)
+		}));
+		const mean =
+			groupList.length > 0
+				? groupList.reduce((sum, group) => sum + group.visits, 0) / groupList.length
+				: 0;
+		const stdDev = calculatePopulationStdDev(
+			groupList.map((group) => group.visits),
+			mean
+		);
+
+		return groupList.map((group) => ({
+			...group,
+			z_score: stdDev > 0 ? (group.visits - mean) / stdDev : 0
+		}));
+	}
+
+	function sortTimingSlotsByVisits(
+		rows: TimingSlotAnalysis[],
+		direction: 'asc' | 'desc'
+	): TimingSlotAnalysis[] {
+		return [...rows].sort((a, b) => {
+			const visitComparison = direction === 'desc' ? b.visits - a.visits : a.visits - b.visits;
+			return visitComparison || getTimingSlotSortValue(a) - getTimingSlotSortValue(b);
+		});
+	}
+
+	function sortTimingGroupsByVisits(
+		rows: TimingSummaryGroup[],
+		direction: 'asc' | 'desc'
+	): TimingSummaryGroup[] {
+		return [...rows].sort((a, b) => {
+			const visitComparison = direction === 'desc' ? b.visits - a.visits : a.visits - b.visits;
+			return visitComparison || a.label.localeCompare(b.label);
+		});
+	}
+
+	function describeTimingTrend(
+		analysis: Pick<
+			TimingAnalysis,
+			| 'total_visits'
+			| 'peak_slot'
+			| 'busiest_day'
+			| 'busiest_hour'
+			| 'weekday_avg_slot_visits'
+			| 'weekend_avg_slot_visits'
+			| 'std_dev_slot_visits'
+			| 'mean_slot_visits'
+		>
+	): string {
+		if (analysis.total_visits === 0) {
+			return 'No traffic landed in this timing window.';
+		}
+
+		const peak = analysis.peak_slot;
+		const busiestDay = analysis.busiest_day;
+		const busiestHour = analysis.busiest_hour;
+		const parts: string[] = [];
+
+		if (peak) {
+			const outlierText = peak.z_score >= 2 ? `, ${formatZScore(peak.z_score)} above average` : '';
+			parts.push(`${peak.label} is the strongest slot${outlierText}`);
+		}
+		if (busiestDay && busiestHour) {
+			parts.push(`${busiestDay.label} and ${busiestHour.label} are the strongest rollups`);
+		}
+
+		const weekdayAvg = analysis.weekday_avg_slot_visits;
+		const weekendAvg = analysis.weekend_avg_slot_visits;
+		if (weekdayAvg > 0 || weekendAvg > 0) {
+			if (weekdayAvg >= weekendAvg * 1.25) {
+				parts.push(
+					`weekday slots run ${formatRatio(weekdayAvg / Math.max(weekendAvg, 0.01))}x weekend slots`
+				);
+			} else if (weekendAvg >= weekdayAvg * 1.25) {
+				parts.push(
+					`weekend slots run ${formatRatio(weekendAvg / Math.max(weekdayAvg, 0.01))}x weekday slots`
+				);
+			}
+		}
+
+		if (
+			analysis.mean_slot_visits > 0 &&
+			analysis.std_dev_slot_visits / analysis.mean_slot_visits < 0.75
+		) {
+			parts.push('traffic is relatively even across the week');
+		}
+
+		return parts.length > 0
+			? `${parts.join('. ')}.`
+			: 'Traffic is too thin to show a stable timing trend.';
+	}
+
+	function buildTimingRecommendations(
+		analysis: Omit<TimingAnalysis, 'primary_trend' | 'recommendations'>
+	): string[] {
+		if (analysis.total_visits === 0) {
+			return ['Wait for more visits before using timing as a planning signal.'];
+		}
+
+		const recommendations: string[] = [];
+		const peak = analysis.peak_slot;
+		const quiet = analysis.quiet_slot;
+		const busiestDay = analysis.busiest_day;
+		const busiestHour = analysis.busiest_hour;
+		const highOutlier = analysis.high_outliers[0];
+		const weekdayAvg = analysis.weekday_avg_slot_visits;
+		const weekendAvg = analysis.weekend_avg_slot_visits;
+
+		if (analysis.total_visits < 30) {
+			recommendations.push(
+				`Treat this as directional only: the filter has ${analysis.total_visits.toLocaleString()} visits across ${analysis.active_slots} active slots.`
+			);
+		}
+
+		if (peak) {
+			const zText = analysis.std_dev_slot_visits > 0 ? ` (${formatZScore(peak.z_score)})` : '';
+			recommendations.push(
+				`Use ${peak.label} as the first promotion window; it has ${peak.visits.toLocaleString()} visits${zText} and ${peak.unique_visitors.toLocaleString()} slot uniques.`
+			);
+		}
+
+		if (busiestDay && busiestHour) {
+			recommendations.push(
+				`Publish or share important content 30-60 minutes before ${busiestHour.label} on ${busiestDay.label}; that is the strongest day/hour pattern in this range.`
+			);
+		}
+
+		if (quiet) {
+			recommendations.push(
+				`Put maintenance, low-risk experiments, and background updates near ${quiet.label}; it is the quietest slot with ${quiet.visits.toLocaleString()} visits.`
+			);
+		}
+
+		if (weekdayAvg > 0 || weekendAvg > 0) {
+			if (weekdayAvg >= weekendAvg * 1.25) {
+				recommendations.push(
+					`Favor weekday launches: weekday slots average ${formatCompactNumber(weekdayAvg, 1)} visits versus ${formatCompactNumber(weekendAvg, 1)} on weekends.`
+				);
+			} else if (weekendAvg >= weekdayAvg * 1.25) {
+				recommendations.push(
+					`Do not ignore weekends: weekend slots average ${formatCompactNumber(weekendAvg, 1)} visits versus ${formatCompactNumber(weekdayAvg, 1)} on weekdays.`
+				);
+			}
+		}
+
+		if (highOutlier) {
+			recommendations.push(
+				`Investigate ${highOutlier.label} in Pageviews/top pages before repeating it; the spike is ${formatZScore(highOutlier.z_score)} from the slot average.`
+			);
+		} else if (
+			analysis.mean_slot_visits > 0 &&
+			analysis.std_dev_slot_visits / analysis.mean_slot_visits < 0.75
+		) {
+			recommendations.push(
+				'Timing is not the main lever yet; traffic is spread evenly enough that source mix, page quality, and internal links should matter more than exact posting time.'
+			);
+		}
+
+		return [...new Set(recommendations)].slice(0, 5);
+	}
+
+	function buildTimingAnalysis(rows: TimingHeatmapRow[]): TimingAnalysis {
+		const rowMap = new Map(
+			rows.map((row) => [
+				`${row.local_dow}:${row.local_hour}`,
+				{
+					local_dow: row.local_dow,
+					local_hour: row.local_hour,
+					visits: Number(row.visits || 0),
+					unique_visitors: Number(row.unique_visitors || 0),
+					avg_time_on_page_ms: Number(row.avg_time_on_page_ms || 0)
+				}
+			])
+		);
+		const slots = timingDayLabels.flatMap((_dayLabel, day) =>
+			timingHours.map((hour) => {
+				const row =
+					rowMap.get(`${day}:${hour}`) ??
+					({
+						local_dow: day,
+						local_hour: hour,
+						visits: 0,
+						unique_visitors: 0,
+						avg_time_on_page_ms: 0
+					} satisfies TimingHeatmapRow);
+				return row;
+			})
+		);
+		const totalVisits = slots.reduce((sum, row) => sum + row.visits, 0);
+		const activeSlots = slots.filter((row) => row.visits > 0).length;
+		const meanSlotVisits = slots.length > 0 ? totalVisits / slots.length : 0;
+		const stdDevSlotVisits = calculatePopulationStdDev(
+			slots.map((row) => row.visits),
+			meanSlotVisits
+		);
+		const analyzedSlots: TimingSlotAnalysis[] = slots.map((row) => ({
+			...row,
+			label: getTimingSlotLabel(row),
+			z_score: stdDevSlotVisits > 0 ? (row.visits - meanSlotVisits) / stdDevSlotVisits : 0,
+			share_pct: totalVisits > 0 ? (row.visits / totalVisits) * 100 : 0
+		}));
+		const peakSlot = sortTimingSlotsByVisits(analyzedSlots, 'desc')[0] ?? null;
+		const quietSlot = sortTimingSlotsByVisits(analyzedSlots, 'asc')[0] ?? null;
+		const highOutliers = analyzedSlots
+			.filter((slot) => slot.visits > 0 && slot.z_score >= 2)
+			.sort(
+				(a, b) => b.z_score - a.z_score || getTimingSlotSortValue(a) - getTimingSlotSortValue(b)
+			)
+			.slice(0, 6);
+		const lowOutliers = analyzedSlots
+			.filter((slot) => slot.z_score <= -1)
+			.sort(
+				(a, b) => a.z_score - b.z_score || getTimingSlotSortValue(a) - getTimingSlotSortValue(b)
+			)
+			.slice(0, 6);
+		const dayGroups = buildTimingGroups(analyzedSlots, 'day');
+		const hourGroups = buildTimingGroups(analyzedSlots, 'hour');
+		const busiestDay = sortTimingGroupsByVisits(dayGroups, 'desc')[0] ?? null;
+		const quietestDay = sortTimingGroupsByVisits(dayGroups, 'asc')[0] ?? null;
+		const busiestHour = sortTimingGroupsByVisits(hourGroups, 'desc')[0] ?? null;
+		const quietestHour = sortTimingGroupsByVisits(hourGroups, 'asc')[0] ?? null;
+		const weekdayVisits = dayGroups
+			.filter((group) => Number(group.key) >= 1 && Number(group.key) <= 5)
+			.reduce((sum, group) => sum + group.visits, 0);
+		const weekendVisits = totalVisits - weekdayVisits;
+		const weekdayAvgSlotVisits = weekdayVisits / (5 * 24);
+		const weekendAvgSlotVisits = weekendVisits / (2 * 24);
+		const baseAnalysis = {
+			total_visits: totalVisits,
+			active_slots: activeSlots,
+			active_slot_pct: slots.length > 0 ? (activeSlots / slots.length) * 100 : 0,
+			mean_slot_visits: meanSlotVisits,
+			std_dev_slot_visits: stdDevSlotVisits,
+			peak_slot: peakSlot,
+			quiet_slot: quietSlot,
+			high_outliers: highOutliers,
+			low_outliers: lowOutliers,
+			busiest_day: busiestDay,
+			quietest_day: quietestDay,
+			busiest_hour: busiestHour,
+			quietest_hour: quietestHour,
+			weekday_visits: weekdayVisits,
+			weekend_visits: weekendVisits,
+			weekday_avg_slot_visits: weekdayAvgSlotVisits,
+			weekend_avg_slot_visits: weekendAvgSlotVisits,
+			weekday_share_pct: totalVisits > 0 ? (weekdayVisits / totalVisits) * 100 : 0,
+			weekend_share_pct: totalVisits > 0 ? (weekendVisits / totalVisits) * 100 : 0
+		};
+
+		return {
+			...baseAnalysis,
+			primary_trend: describeTimingTrend(baseAnalysis),
+			recommendations: buildTimingRecommendations(baseAnalysis)
+		};
+	}
+
 	function getPageHref(path: string): string | null {
 		const trimmed = path.trim();
 		return trimmed.startsWith('/') && !trimmed.startsWith('//') ? trimmed : null;
@@ -1177,6 +1518,22 @@
 		});
 	}
 
+	function formatRatio(value: number): string {
+		if (!Number.isFinite(value)) return '0.0';
+		return value.toFixed(value >= 10 ? 0 : 1);
+	}
+
+	function formatPercent(value: number, digits = 0): string {
+		if (!Number.isFinite(value)) return '0%';
+		return `${value.toFixed(digits)}%`;
+	}
+
+	function formatZScore(value: number): string {
+		if (!Number.isFinite(value)) return '0.0 SD';
+		const prefix = value > 0 ? '+' : '';
+		return `${prefix}${value.toFixed(1)} SD`;
+	}
+
 	function formatFrontmatterValue(value: boolean | string | null): string {
 		if (value === true) return 'true';
 		if (value === false) return 'false';
@@ -1314,6 +1671,7 @@
 			)
 			.slice(0, 8)
 	);
+	let timingAnalysis = $derived(buildTimingAnalysis(timingRows));
 	let selectedRelease = $derived(
 		releaseRows.find((row) => row.slug === selectedReleaseSlug) ?? null
 	);
@@ -2863,7 +3221,7 @@
 						<p>
 							{formatDateWindow(fromDate, toDate)} | {scopeOptions.find(
 								(option) => option.value === scope
-							)?.label ?? 'All Pages'}
+							)?.label ?? 'All Pages'} | New York local time
 						</p>
 					</div>
 					<Button variant="secondary" onclick={fetchTimingAnalytics} loading={timingLoading}>
@@ -2879,17 +3237,148 @@
 					<div class="timing-overview">
 						<div class="timing-stat">
 							<span>Total visits</span>
-							<strong
-								>{timingRows.reduce((sum, row) => sum + row.visits, 0).toLocaleString()}</strong
+							<strong>{timingAnalysis.total_visits.toLocaleString()}</strong>
+							<small>{timingAnalysis.active_slots} active slots</small>
+						</div>
+						<div class="timing-stat">
+							<span>Slot average</span>
+							<strong>{formatCompactNumber(timingAnalysis.mean_slot_visits, 1)}</strong>
+							<small>Across all 168 slots</small>
+						</div>
+						<div class="timing-stat">
+							<span>Std dev</span>
+							<strong>{formatCompactNumber(timingAnalysis.std_dev_slot_visits, 1)}</strong>
+							<small>Visits per slot</small>
+						</div>
+						<div class="timing-stat">
+							<span>Slot coverage</span>
+							<strong>{formatPercent(timingAnalysis.active_slot_pct, 0)}</strong>
+							<small>{timingAnalysis.active_slots} of 168 had traffic</small>
+						</div>
+						<div class="timing-stat">
+							<span>Most traffic</span>
+							<strong>{timingAnalysis.peak_slot?.label ?? '—'}</strong>
+							<small
+								>{(timingAnalysis.peak_slot?.visits ?? 0).toLocaleString()} visits · {formatZScore(
+									timingAnalysis.peak_slot?.z_score ?? 0
+								)}</small
 							>
 						</div>
 						<div class="timing-stat">
-							<span>Peak slot</span>
-							<strong>{topTimingSlots[0] ? getTimingSlotLabel(topTimingSlots[0]) : '—'}</strong>
+							<span>Least traffic</span>
+							<strong>{timingAnalysis.quiet_slot?.label ?? '—'}</strong>
+							<small
+								>{(timingAnalysis.quiet_slot?.visits ?? 0).toLocaleString()} visits · {formatZScore(
+									timingAnalysis.quiet_slot?.z_score ?? 0
+								)}</small
+							>
 						</div>
 						<div class="timing-stat">
-							<span>Peak visits</span>
-							<strong>{(topTimingSlots[0]?.visits ?? 0).toLocaleString()}</strong>
+							<span>Busiest hour</span>
+							<strong>{timingAnalysis.busiest_hour?.label ?? '—'}</strong>
+							<small
+								>{(timingAnalysis.busiest_hour?.visits ?? 0).toLocaleString()} visits · {formatZScore(
+									timingAnalysis.busiest_hour?.z_score ?? 0
+								)}</small
+							>
+						</div>
+						<div class="timing-stat">
+							<span>Quietest hour</span>
+							<strong>{timingAnalysis.quietest_hour?.label ?? '—'}</strong>
+							<small
+								>{(timingAnalysis.quietest_hour?.visits ?? 0).toLocaleString()} visits · {formatZScore(
+									timingAnalysis.quietest_hour?.z_score ?? 0
+								)}</small
+							>
+						</div>
+					</div>
+
+					<div class="timing-synthesis-grid">
+						<section class="timing-panel">
+							<h3>Timing Synthesis</h3>
+							<p class="timing-lede">{timingAnalysis.primary_trend}</p>
+							<div class="timing-rollup-grid">
+								<div>
+									<span>Busiest day</span>
+									<strong>{timingAnalysis.busiest_day?.label ?? '—'}</strong>
+									<small>{(timingAnalysis.busiest_day?.visits ?? 0).toLocaleString()} visits</small>
+								</div>
+								<div>
+									<span>Quietest day</span>
+									<strong>{timingAnalysis.quietest_day?.label ?? '—'}</strong>
+									<small>{(timingAnalysis.quietest_day?.visits ?? 0).toLocaleString()} visits</small
+									>
+								</div>
+								<div>
+									<span>Weekday share</span>
+									<strong>{formatPercent(timingAnalysis.weekday_share_pct, 0)}</strong>
+									<small
+										>{formatCompactNumber(timingAnalysis.weekday_avg_slot_visits, 1)} visits/slot</small
+									>
+								</div>
+								<div>
+									<span>Weekend share</span>
+									<strong>{formatPercent(timingAnalysis.weekend_share_pct, 0)}</strong>
+									<small
+										>{formatCompactNumber(timingAnalysis.weekend_avg_slot_visits, 1)} visits/slot</small
+									>
+								</div>
+							</div>
+						</section>
+
+						<section class="timing-panel">
+							<h3>Recommendations</h3>
+							<ol class="timing-recommendations">
+								{#each timingAnalysis.recommendations as recommendation}
+									<li>{recommendation}</li>
+								{/each}
+							</ol>
+						</section>
+					</div>
+
+					<div class="timing-outliers">
+						<div class="timing-outlier-header">
+							<div>
+								<h3>Standard Deviation Outliers</h3>
+								<p>
+									High outliers are slots at +2 SD or more. Low outliers are slots at -1 SD or
+									lower.
+								</p>
+							</div>
+						</div>
+						<div class="timing-outlier-grid">
+							<section class="timing-outlier-list">
+								<h4>High Traffic Outliers</h4>
+								{#if timingAnalysis.high_outliers.length === 0}
+									<p>No slot is +2 SD above the slot average.</p>
+								{:else}
+									{#each timingAnalysis.high_outliers as row}
+										<div class="timing-outlier-item">
+											<span>{row.label}</span>
+											<strong>{row.visits.toLocaleString()} visits</strong>
+											<small
+												>{formatZScore(row.z_score)} · {formatPercent(row.share_pct, 1)} of traffic</small
+											>
+										</div>
+									{/each}
+								{/if}
+							</section>
+							<section class="timing-outlier-list">
+								<h4>Low Traffic Outliers</h4>
+								{#if timingAnalysis.low_outliers.length === 0}
+									<p>No slot is -1 SD below the slot average.</p>
+								{:else}
+									{#each timingAnalysis.low_outliers as row}
+										<div class="timing-outlier-item low">
+											<span>{row.label}</span>
+											<strong>{row.visits.toLocaleString()} visits</strong>
+											<small
+												>{formatZScore(row.z_score)} · {formatPercent(row.share_pct, 1)} of traffic</small
+											>
+										</div>
+									{/each}
+								{/if}
+							</section>
 						</div>
 					</div>
 
@@ -4378,6 +4867,168 @@
 		white-space: nowrap;
 	}
 
+	.timing-stat small {
+		color: var(--ink-mid);
+		font-size: 0.72rem;
+		line-height: 1.25;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.timing-synthesis-grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+		gap: 12px;
+		margin-bottom: 12px;
+	}
+
+	.timing-panel,
+	.timing-outliers {
+		border: 1px solid var(--stone-warm);
+		background: color-mix(in srgb, var(--night-deep) 88%, transparent);
+		border-radius: 8px;
+		padding: 12px;
+		min-width: 0;
+	}
+
+	.timing-panel h3,
+	.timing-outlier-header h3 {
+		margin: 0;
+		color: var(--ink-bright);
+		font-size: 0.95rem;
+	}
+
+	.timing-lede {
+		margin: 8px 0 10px;
+		color: var(--ink-bright);
+		font-size: 0.9rem;
+		line-height: 1.45;
+	}
+
+	.timing-rollup-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 8px;
+	}
+
+	.timing-rollup-grid div {
+		border: 1px solid var(--stone-edge);
+		background: color-mix(in srgb, var(--ink-dim) 8%, transparent);
+		border-radius: 8px;
+		padding: 9px;
+		display: grid;
+		gap: 3px;
+		min-width: 0;
+	}
+
+	.timing-rollup-grid span,
+	.timing-rollup-grid small,
+	.timing-outlier-header p,
+	.timing-outlier-list p,
+	.timing-outlier-item small {
+		color: var(--ink-mid);
+	}
+
+	.timing-rollup-grid span {
+		font-size: 0.72rem;
+	}
+
+	.timing-rollup-grid strong {
+		color: var(--ink-bright);
+		font-size: 0.95rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.timing-rollup-grid small {
+		font-size: 0.72rem;
+	}
+
+	.timing-recommendations {
+		margin: 8px 0 0;
+		padding-left: 20px;
+		color: var(--ink-bright);
+		font-size: 0.86rem;
+		line-height: 1.45;
+	}
+
+	.timing-recommendations li + li {
+		margin-top: 6px;
+	}
+
+	.timing-outliers {
+		margin-bottom: 12px;
+	}
+
+	.timing-outlier-header {
+		margin-bottom: 10px;
+	}
+
+	.timing-outlier-header p {
+		margin: 4px 0 0;
+		font-size: 0.78rem;
+	}
+
+	.timing-outlier-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 10px;
+	}
+
+	.timing-outlier-list {
+		display: grid;
+		gap: 7px;
+		min-width: 0;
+	}
+
+	.timing-outlier-list h4 {
+		margin: 0;
+		color: var(--ink-bright);
+		font-size: 0.82rem;
+	}
+
+	.timing-outlier-list p {
+		margin: 0;
+		font-size: 0.8rem;
+	}
+
+	.timing-outlier-item {
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 52%, var(--stone-edge));
+		background: color-mix(in srgb, var(--lamp-glow) 10%, transparent);
+		border-radius: 8px;
+		padding: 8px;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 2px 8px;
+		align-items: baseline;
+	}
+
+	.timing-outlier-item.low {
+		border-color: color-mix(in srgb, var(--data-cyan) 48%, var(--stone-edge));
+		background: color-mix(in srgb, var(--data-cyan) 8%, transparent);
+	}
+
+	.timing-outlier-item span {
+		color: var(--ink-bright);
+		font-weight: 700;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.timing-outlier-item strong {
+		color: var(--ink-bright);
+		font-size: 0.82rem;
+		white-space: nowrap;
+	}
+
+	.timing-outlier-item small {
+		grid-column: 1 / -1;
+		font-size: 0.72rem;
+	}
+
 	.heatmap-wrapper {
 		overflow-x: auto;
 		border: 1px solid var(--stone-warm);
@@ -5541,8 +6192,10 @@
 		}
 
 		.timing-overview,
+		.timing-synthesis-grid,
 		.release-summary-grid,
 		.timing-top-list,
+		.timing-outlier-grid,
 		.release-detail-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
@@ -5749,8 +6402,11 @@
 		}
 
 		.timing-overview,
+		.timing-synthesis-grid,
 		.release-summary-grid,
 		.timing-top-list,
+		.timing-outlier-grid,
+		.timing-rollup-grid,
 		.release-detail-grid {
 			grid-template-columns: 1fr;
 		}
