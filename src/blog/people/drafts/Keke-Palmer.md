@@ -180,7 +180,7 @@ The [Sean Evans](/personality-analysis/sean-evans) thread works for the same rea
 
 Black Twitter dubbed her "Keke 'Keep a Job' Palmer." As Essence noted: "While everyone was focused on her being booked and busy, Palmer was focused on building and buying."
 
-That same year, she held her own next to Jennifer Lopez, Constance Wu, Lizzo, and Cardi B in _Hustlers_, playing Mercedes — the softest member of a crew of strippers running a credit-card scheme on Wall Street men. It was the first film that forced the industry to stop treating her as a former Nickelodeon kid. She had already been an adult for years; _Hustlers_ just caught everyone else up.
+That same year, she held her own next to Jennifer Lopez, Constance Wu, Lizzo, and [Cardi B](/personality-analysis/cardi-b) in _Hustlers_, playing Mercedes — the softest member of a crew of strippers running a credit-card scheme on Wall Street men. It was the first film that forced the industry to stop treating her as a former Nickelodeon kid. She had already been an adult for years; _Hustlers_ just caught everyone else up.
 
 The humor reads as spontaneous. It is also strategic. Every viral moment becomes a potential product, brand deal, or content franchise. The woman who looks like she's just being herself is also, always, working. For a Type Three, comedy is the perfect cover. It looks effortless, it generates love, and it keeps the audience watching the performance instead of the performer.
 
@@ -303,7 +303,7 @@ She is not rejecting performance. She is rejecting being reduced to it.
 
 In the Breakfast Club interview, she asked a question that reveals where she's heading: "How can I build an infrastructure where I ain't got to be Mickey Mouse all the time?"
 
-She's bankrolling KeyTV with $500,000 of her own money: nine original series, developed by emerging creators, pairing underrepresented voices with industry experts. She's not endorsing products; she's Chief Brand Officer of Creme of Nature, with an executive role, not a spokesperson contract. She's studying Eddie Murphy's craft choices, improvisation discipline, and how to scale beyond performer identity. On Wondery she launched _Baby, This Is Keke Palmer_ in 2022 — a podcast where she is, finally, the person holding the microphone rather than the one on the other end of it.
+She's bankrolling KeyTV with $500,000 of her own money: nine original series, developed by emerging creators, pairing underrepresented voices with industry experts. She's not endorsing products; she's Chief Brand Officer of Creme of Nature, with an executive role, not a spokesperson contract. She's studying [Eddie Murphy](/personality-analysis/eddie-murphy)'s craft choices, improvisation discipline, and how to scale beyond performer identity. On Wondery she launched _Baby, This Is Keke Palmer_ in 2022 — a podcast where she is, finally, the person holding the microphone rather than the one on the other end of it.
 
 In January 2025 she opened _One of Them Days_ with SZA, the Issa Rae–produced comedy about two LA roommates scrambling to cover stolen rent. It grossed roughly $51 million on a $14 million budget, hit 97% on Rotten Tomatoes, and made her the rare Black comedy lead who can open a theatrical release on her name alone. A sequel was announced almost immediately. For the first time in her career, a film carried by Keke Palmer was not also a film about Keke Palmer. She just got to be funny.
 

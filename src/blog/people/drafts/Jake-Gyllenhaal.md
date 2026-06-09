@@ -175,7 +175,7 @@ Gilroy saw it too. The strange energy emanating from Gyllenhaal in every frame. 
 
 Then there was the mirror. During a scene where Lou confronts his reflection, Gyllenhaal punched real glass. His hand split open. Blood. Hospital. Stitches. He came back and kept shooting.
 
-This isn't method acting in the traditional sense. Christian Bale loses weight for characters. Daniel Day-Lewis stays in character between takes. What Gyllenhaal does is different. He creates conditions of genuine physiological distress so that his nervous system produces authentic responses on camera. He doesn't pretend to be afraid or hungry or desperate. He makes himself afraid, hungry, and desperate, and then points a camera at the result.
+This isn't method acting in the traditional sense. [Christian Bale](/personality-analysis/christian-bale) loses weight for characters. Daniel Day-Lewis stays in character between takes. What Gyllenhaal does is different. He creates conditions of genuine physiological distress so that his nervous system produces authentic responses on camera. He doesn't pretend to be afraid or hungry or desperate. He makes himself afraid, hungry, and desperate, and then points a camera at the result.
 
 That's a counterphobic Six who has discovered that art is the one place where his anxiety isn't a liability. It's the product.
 

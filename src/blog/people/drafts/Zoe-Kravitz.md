@@ -288,7 +288,7 @@ Angela in Kimi, a woman with agoraphobia, trapped in her apartment, surrounded b
 
 For a Four, existing without a distinct perspective is worse than existing in pain. She'd rather play a woman drowning in anxiety than a woman who's merely decorative.
 
-Her friendships follow the same logic. Shailene Woodley, who she met on the Divergent set, described them as having "grown up together in a lot of ways." Naomi Ackie clicked with her so deeply on Blink Twice that communication became almost telepathic. The people she keeps close are the ones who see past the exterior, and who have their own interior weather to match.
+Her friendships follow the same logic. [Shailene Woodley](/personality-analysis/shailene-woodley), who she met on the Divergent set, described them as having "grown up together in a lot of ways." Naomi Ackie clicked with her so deeply on Blink Twice that communication became almost telepathic. The people she keeps close are the ones who see past the exterior, and who have their own interior weather to match.
 
 ---
 

@@ -13,7 +13,7 @@ published: true
 enneagram: '4'
 type: ['musician', 'creator', 'music-crossover']
 person: 'rick-rubin'
-suggestions: ['Adele', 'Kanye', 'Malcolm-Gladwell', 'Andrew-Huberman']
+suggestions: ['Neil-Strauss', 'Tim-Ferriss', 'Adele', 'Kanye', 'Malcolm-Gladwell']
 wikipedia: 'https://en.wikipedia.org/wiki/Rick_Rubin'
 twitter: 'RickRubin'
 instagram: 'rickrubin'
@@ -228,7 +228,7 @@ Around the same period, he lost 130 pounds. *Men's Journal* covered it in 2013 �
 
 His mother Linda — the woman who had made him her full-time job — died in 2016. Rubin has spoken about her only sparingly since. A 4w5 doesn't process grief in interviews. He metabolizes it through what he listens to. The decade after she died was the most contemplative public stretch of his life: Showtime's four-part *Shangri-La* docuseries with Morgan Neville (2019), the Hulu series *McCartney 3, 2, 1* (2021) — six episodes of him standing at a mixing desk asking Paul McCartney to pull up the Beatles' multitracks, then listening — and finally the book.
 
-*The Creative Act: A Way of Being* came out in January 2023. A #1 New York Times bestseller, written across years of conversations with the journalist Neil Strauss. Rubin couldn't write it alone. A 4w5 whose entire vocation has been pre-verbal needed a co-writer to translate the silence into prose. If you have read it, you already know it is not a production manual. It reads like a Four's inheritance document: art as spiritual practice, the artist as someone who *notices what others can't afford to feel*, authenticity as the only thing that survives the noise. He had been holding the posture for forty years. Strauss helped him hand it down.
+*The Creative Act: A Way of Being* came out in January 2023. A #1 New York Times bestseller, written across years of conversations with the journalist [Neil Strauss](/personality-analysis/neil-strauss). Rubin couldn't write it alone. A 4w5 whose entire vocation has been pre-verbal needed a co-writer to translate the silence into prose. If you have read it, you already know it is not a production manual. It reads like a Four's inheritance document: art as spiritual practice, the artist as someone who *notices what others can't afford to feel*, authenticity as the only thing that survives the noise. He had been holding the posture for forty years. Strauss helped him hand it down.
 
 ## What Rick Rubin sounds like under stress
 

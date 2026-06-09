@@ -195,7 +195,7 @@ She moved in 2019. Her stated goal was simple: _"When I moved here, my goal was 
 
 > "I was kinda in as soon as I heard her voice and her twang and how country she sounded, and also that she loved what I would call traditional country music."
 
-[Morgan Wallen](/personality-analysis/morgan-wallen), who has watched her grind since she was 17, said it the cleanest way anyone has, in 2025:
+[Morgan Wallen](/personality-analysis/morgan-wallen), who has watched her grind since she was 17, said it the cleanest way anyone has, on his SiriusXM radio show in 2025:
 
 > "I know how much of a sacrifice she's made to get to this point, and it makes me extremely happy to see all the good things coming her way."
 
@@ -209,7 +209,7 @@ The breakthrough was "You Look Like You Love Me" with Riley Green — a 2024 due
 
 A duet that big, with chemistry that loud, generates the obvious question — and reporters have been asking it for two years. Riley, on Nick Viall's podcast: _"Ella's probably too smart to date me anyway."_ Ella, every time it comes up: _"We're just friends."_ Watch the 8 in that. The magnetism is the sx instinct the subtype predicts — intensity loud enough on a single duet to keep reporters asking for two years. Most artists with a co-star this magnetic would feed the rumor; it sells records and tickets. But the sp 8 decides where the heat goes: into the song, not her own front yard. She lets the duet do the work and keeps her life sealed off.
 
-Her second hit, "Choosin' Texas" (co-written with Miranda Lambert, Luke Dick, and Joybeth Taylor), held #1 on Hot Country Songs for over twenty consecutive weeks and crossed to the top of the all-genre Hot 100 on February 9, 2026 — one of fewer than three dozen songs since 1958 to top both charts. Two months later, in April 2026, she headlined Stagecoach for the first time. The crowd had a clear expectation: Morgan Wallen would walk out for "I Can't Love You Anymore." Instead Ella announced "story time," walked the audience through the setup of a lonely night meeting a cowboy on the road, and brought out comedian [Theo Von](/personality-analysis/theo-von) in a denim shirt and a straw cowboy hat to sing Riley Green's verse on "You Look Like You Love Me." Afterward she told the crowd: _"Bet you didn't expect that. Keep 'em guessin'."_
+Her second hit, "Choosin' Texas" (co-written with Miranda Lambert, Luke Dick, and Joybeth Taylor), is a gracious heartbreak song built on the line _"He's choosin' Texas, I can tell"_ — she watches a man get pulled back to another woman and reads the ending before he says it. It held #1 on Hot Country Songs for over twenty consecutive weeks and crossed to the top of the all-genre Hot 100 on February 9, 2026 — one of fewer than three dozen songs since 1958 to top both charts. Two months later, in April 2026, she headlined Stagecoach for the first time. The crowd had a clear expectation: Morgan Wallen would walk out for "I Can't Love You Anymore." Instead Ella announced "story time," walked the audience through the setup of a lonely night meeting a cowboy on the road, and brought out comedian [Theo Von](/personality-analysis/theo-von) in a denim shirt and a straw cowboy hat to sing Riley Green's verse on "You Look Like You Love Me." Afterward she told the crowd: _"Bet you didn't expect that. Keep 'em guessin'."_
 
 That move is what an 8 looks like in front of an 80,000-person field. The expected play was the safe one. She made the unsafe one because she could.
 
@@ -418,8 +418,11 @@ MUSIC PROFILE
 OVERDONE
 - (9) Public/private gap: trimmed one restatement — cut "They have always been the same person" from the close so the resolution lands once, cleanly.
 
+SECOND FACT-CHECK PASS — 2026-06-09 (re-verified the two items I'd hedged on)
+- "Choosin' Texas" lyric: RESOLVED. The hedge was wrong — the real recorded hook is "He's choosin' Texas, I can tell" (confirmed via Billboard, Holler, Taste of Country). The earlier "She's from Texas..." transcription was garbled. Added the verified line to the music section as a second real lyric; it also lands an 8 beat (she reads the ending before he says it).
+- Morgan Wallen praise quote: RESOLVED. The hedge was wrong — the quote IS from SiriusXM (Morgan Wallen Radio). Confirmed verbatim via Holler ("I know how much of a sacrifice she's made to get to this point... extremely happy to see all the good things coming her way," plus "since she was 17 or 18"). Restored the "on his SiriusXM radio show in 2025" attribution. The testimony ledger was right all along.
+
 NOT CHANGED (intentional)
-- "Choosin' Texas" lyric: sources disagree on the exact recorded hook line; skipped quoting it rather than print a shaky lyric. The real-lyric ask is covered by "You Look Like You Love Me."
 - lastmod / date / grade frontmatter: left as-is (user-managed).
 
 -->

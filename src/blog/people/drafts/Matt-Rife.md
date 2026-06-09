@@ -13,7 +13,7 @@ published: true
 enneagram: '3'
 type: ['comedian']
 person: 'matt-rife'
-suggestions: ['Andrew-Schulz', 'Theo-Von', 'Shane-Gillis', 'Pete-Davidson']
+suggestions: ['Andrew-Schulz', 'Theo-Von', 'Shane-Gillis', 'Kevin-Hart', 'Chelsea-Handler']
 wikipedia: 'https://en.wikipedia.org/wiki/Matt_Rife'
 instagram: 'mattrife'
 tiktok: 'matt_rife'

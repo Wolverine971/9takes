@@ -233,7 +233,7 @@ By his early thirties, the Posse had quietly dissolved into adult life. Maguire 
 
 ## The Scorsese Education
 
-Robert De Niro made the introduction. After working with eighteen-year-old DiCaprio on _This Boy's Life_, he called Scorsese: "He's very good, you gotta do work with him someday." Scorsese noted that De Niro rarely made such recommendations.
+[Robert De Niro](/personality-analysis/robert-de-niro) made the introduction. After working with eighteen-year-old DiCaprio on _This Boy's Life_, he called Scorsese: "He's very good, you gotta do work with him someday." Scorsese noted that De Niro rarely made such recommendations.
 
 Seven films and two decades later, the partnership defines both their careers.
 

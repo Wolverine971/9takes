@@ -139,7 +139,7 @@ This is the thing people can't figure out. A man who preaches responsibility, to
 
 It happens often. Especially when he discusses what his followers mean to him.
 
-**"I was in contact with thousands of people and they talked to me, and I could see this demoralization,"** he told Piers Morgan in 2025, his voice breaking. **"It's a great privilege to serve that role... but it's also overwhelming."** When Morgan suggested Peterson had become "a surrogate dad" to millions, Peterson couldn't hold it together.
+**"I was in contact with thousands of people and they talked to me, and I could see this demoralization,"** he told [Piers Morgan](/personality-analysis/piers-morgan) in 2025, his voice breaking. **"It's a great privilege to serve that role... but it's also overwhelming."** When Morgan suggested Peterson had become "a surrogate dad" to millions, Peterson couldn't hold it together.
 
 He identified what triggers it: **"It's that paradoxical combination of depth of suffering and ease of rectification."** People are in pain. The solution is often simple. That gap between suffering and remedy undoes him.
 

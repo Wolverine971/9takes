@@ -125,7 +125,7 @@ You can see the engine in every chapter of her life: Broadway at twelve, an Osca
 
 ### Anna Kendrick's Wing: 7w6
 
-Kendrick is not the loud, commanding 7w8 flavor — the Robin Williams, the Anthony Bourdain, the 7 who bulldozes the room with charisma. Her Seven has a worried undertow. She describes herself as awkward, small, "barely holding it together." Her humor punches at her own nerves first. She second-guesses. She re-reads her contracts. She is loyal to a fault to directors and writers who helped her early.
+Kendrick is not the loud, commanding 7w8 flavor — the [Robin Williams](/personality-analysis/robin-williams), the [Anthony Bourdain](/personality-analysis/anthony-bourdain), the 7 who bulldozes the room with charisma. Her Seven has a worried undertow. She describes herself as awkward, small, "barely holding it together." Her humor punches at her own nerves first. She second-guesses. She re-reads her contracts. She is loyal to a fault to directors and writers who helped her early.
 
 That loyalty and that anxious edge are the 6 wing doing what the 6 wing does — adding doubt and attachment to a type that otherwise floats. Her most exposed comic voice is essentially an anxious Seven narrating the inside of her own head while the rest of her body carries her to the next set. See: <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a>.
 
@@ -290,4 +290,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Engage at least one named co-star/collaborator on what working with her looks like — the piece is structurally Anna-on-Anna, with Wunmi Mosaku as the only outside voice.
 
 ============================================================ -->
-

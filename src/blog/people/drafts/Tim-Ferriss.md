@@ -436,7 +436,7 @@ It shows. The man who wrote "Scientific Speed Reading: How to Read 300% Faster i
 
 ### Publishing Unfinished on Purpose
 
-Then there's THE NO BOOK, his first book in over seven years, co-written with Neil Strauss, announced in January 2025. Five hundred pages about saying no. But the truly un-Ferriss detail: he's releasing it serially, chapter by chapter, publicly, before the whole thing is finished. The man who A/B tested his first book title with Google AdWords to find the optimal headline is now publishing unfinished work on purpose. His audience noticed. Some loved it (_"the diligence required to implement actions meaningfully benefits from the small portions"_) and others pushed back: _"I'd rather just have the whole book in my hands now in one shot."_ The tension between the old Ferriss and the new one was playing out in his own comment section.
+Then there's THE NO BOOK, his first book in over seven years, co-written with [Neil Strauss](/personality-analysis/neil-strauss), announced in January 2025. Five hundred pages about saying no. But the truly un-Ferriss detail: he's releasing it serially, chapter by chapter, publicly, before the whole thing is finished. The man who A/B tested his first book title with Google AdWords to find the optimal headline is now publishing unfinished work on purpose. His audience noticed. Some loved it (_"the diligence required to implement actions meaningfully benefits from the small portions"_) and others pushed back: _"I'd rather just have the whole book in my hands now in one shot."_ The tension between the old Ferriss and the new one was playing out in his own comment section.
 
 ### The Reformer Reforms His Own Reform
 
@@ -629,4 +629,3 @@ NOTES ON CONTESTED CLAIMS
 - Kickboxing 1999 USA Nationals: Ferriss's own retellings are the primary source; weight figures (28 lb cut, 165 weigh-in, 193 fight weight) and the lei tai three-falls rule are consistent across his accounts.
 
 ============================================================ -->
-

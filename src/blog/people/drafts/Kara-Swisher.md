@@ -148,7 +148,7 @@ It has been an issue for every powerful person she has ever interviewed.
 
 ## Why Kara Swisher Seems So Confrontational
 
-Swisher joined The Wall Street Journal in 1997 and began covering the internet. She co-founded AllThingsD with Walt Mossberg, then launched Recode, then launched the podcast _On with Kara Swisher_. Each move was away from institutional control and toward platforms she owned outright. But the career arc is less interesting than the method.
+Swisher joined The Wall Street Journal in 1997 and began covering the internet. She co-founded AllThingsD with Walt Mossberg, then launched Recode, co-hosted _Pivot_ with [Scott Galloway](/personality-analysis/scott-galloway), then launched the podcast _On with Kara Swisher_. Each move was away from institutional control and toward platforms she owned outright. But the career arc is less interesting than the method.
 
 She doesn't prepare questions for interviews. She thinks having a list makes her miss things. Instead, she interviews everyone _around_ her subject first, colleagues, rivals, friends, enemies, so by the time she sits down with the person, she already knows more about them than they expect anyone to know. Marc Andreessen, describing the AllThingsD era to _New York Magazine_: "She would sit on instant messenger all day and harass the shit out of people."
 

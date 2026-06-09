@@ -153,7 +153,7 @@ In 1979, Constance married Carl Leto, an ophthalmologist who adopted both boys a
 
 The [Personality Database](https://www.personality-database.com/profile/1371/jared-leto-actors-and-actresses-usa-mbti-personality-type) shows consensus on Type 4 with a Three wing (4w3). The Three wing adds ambition, polish, and a need for the world to witness the transformation — not just experience it privately.
 
-The typing explains something non-obvious: why Leto's approach to transformation differs from, say, Christian Bale's. Bale's weight loss for The Machinist and weight gain for Vice are acts of discipline in service of craft. The performance is the point. When Bale finishes a role, he goes home.
+The typing explains something non-obvious: why Leto's approach to transformation differs from, say, [Christian Bale](/personality-analysis/christian-bale)'s. Bale's weight loss for The Machinist and weight gain for Vice are acts of discipline in service of craft. The performance is the point. When Bale finishes a role, he goes home.
 
 Leto doesn't go home. He told [Collider in October 2013](https://collider.com/jared-leto-dallas-buyers-club-interview/): "A better actor might have been able to let go of the voice, dialect, behavior, movement, and emotional condition and recall them at a moment's notice, but I had to stay as close as possible just so I could do a good job." Read that again. He's not staying in character because he's disciplined. He's staying in character because he can't find his way back.
 

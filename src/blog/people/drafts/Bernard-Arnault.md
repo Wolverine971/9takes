@@ -13,7 +13,7 @@ published: true
 enneagram: '3'
 type: ['entrepreneur', 'business-operator']
 person: 'bernard-arnault'
-suggestions: ['Donald-Trump', 'Hailey-Bieber', 'Cristiano-Ronaldo', 'Jennifer-Lopez']
+suggestions: ['Anna-Wintour', 'Donald-Trump', 'Hailey-Bieber', 'Cristiano-Ronaldo', 'Jennifer-Lopez']
 wikipedia: 'https://en.wikipedia.org/wiki/Bernard_Arnault'
 twitter: ''
 instagram: ''
@@ -314,4 +314,3 @@ Items addressed:
 - Closer list of 5+ items: trimmed; Hélène contradiction is the single closing image
 - Type 8 steel-man: expanded slightly in diagnosis (added Racamier line + "the obvious read most journalists make")
 -->
-

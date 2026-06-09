@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'katy-perry'
-suggestions: ['Doja-Cat', 'Taylor-Swift', 'Alex-Cooper', 'Benson-Boone']
+suggestions: ['Justin-Trudeau', 'Doja-Cat', 'Taylor-Swift', 'Alex-Cooper', 'Benson-Boone']
 wikipedia: 'https://en.wikipedia.org/wiki/Katy_Perry'
 wikidata_qid: 'Q42493'
 imdb_id: 'nm2953537'
@@ -279,7 +279,7 @@ She left _American Idol_ after seven seasons to focus on touring. The Lifetimes 
 
 Then, in July 2025, she and Bloom split after nearly ten years together. "Orlando and Katy have been shifting their relationship over the past many months to focus on co-parenting," their representatives said. The statement was measured. The reality was that the anchor had let go.
 
-What happened next was pure Seven velocity. By late July — weeks, not months — she was spotted at a private dinner with Justin Trudeau, Canada's recently resigned Prime Minister, at a Montreal restaurant before her concert there. By October, paparazzi caught them on a yacht off Santa Barbara. On her forty-first birthday, they walked into Crazy Horse Paris hand-in-hand. By December, she posted photos with him from her Tokyo tour stop, making it Instagram-official. By spring 2026, they were joking publicly about their thirteen-year age gap.
+What happened next was pure Seven velocity. By late July — weeks, not months — she was spotted at a private dinner with [Justin Trudeau](/personality-analysis/justin-trudeau), Canada's recently resigned Prime Minister, at a Montreal restaurant before her concert there. By October, paparazzi caught them on a yacht off Santa Barbara. On her forty-first birthday, they walked into Crazy Horse Paris hand-in-hand. By December, she posted photos with him from her Tokyo tour stop, making it Instagram-official. By spring 2026, they were joking publicly about their thirteen-year age gap.
 
 The relationship is still new enough that drawing conclusions from it would be premature. But the tempo tells its own story. The old relationship hadn't finished cooling before the new one was airborne. For a Seven, an empty space is not a pause — it's a vacuum that demands filling.
 

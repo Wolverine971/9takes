@@ -158,7 +158,7 @@ She didn't soften the process. She understood it. SNL, she explained, "is built 
 
 "I'm not a person who thrives on chaos," she told David Letterman. "I thrive on structure."
 
-Amy Poehler understood what others missed about Fey: "She's a finisher. Look, if she sets her mind to it, it gets done. Tina is not the kind of artist who makes people wait around and misses her deadlines."
+[Amy Poehler](/personality-analysis/amy-poehler) understood what others missed about Fey: "She's a finisher. Look, if she sets her mind to it, it gets done. Tina is not the kind of artist who makes people wait around and misses her deadlines."
 
 She received the Mark Twain Prize for American Humor in 2010 — the youngest recipient ever — and used her acceptance speech to deliver a line that captured decades of navigating rooms that weren't built for her: "Only in comedy is an obedient white girl from the suburbs a diversity candidate."
 

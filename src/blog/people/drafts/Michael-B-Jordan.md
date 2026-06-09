@@ -183,7 +183,7 @@ Coogler saw something else entirely: "I don't think this guy knows who he is. I 
 
 That perception — _you don't know who you are yet_ — may be the most meaningful thing anyone has ever said to Michael B. Jordan. Because for a Type 3, whose identity is built on achievements, someone seeing past the achievements to the person is transformative.
 
-_Fruitvale Station_ (2013) won both the Grand Jury Prize and Audience Award at Sundance. Critics compared Jordan to "a young Denzel Washington." The partnership was born.
+_Fruitvale Station_ (2013) won both the Grand Jury Prize and Audience Award at Sundance. Critics compared Jordan to "a young [Denzel Washington](/personality-analysis/denzel-washington)." The partnership was born.
 
 Over twelve years and five theatrical films, their dynamic deepened into something Coogler compares to Michael Jordan and Scottie Pippen. Jordan calls Coogler "unapologetically who he is," someone who "gives actors the space to breathe and to take creative swings in a safe space." Coogler calls Jordan "a gifted actor, a very sharp technician" whose instincts "disrupt the original plan in the best way possible."
 

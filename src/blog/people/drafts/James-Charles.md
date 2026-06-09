@@ -212,7 +212,7 @@ He described reaching for his usual defenses and finding nothing there: "I've al
 
 His brother Ian — who had been one of his closest relationships, who had appeared in dozens of videos, who had launched his own modeling career partly through James's platform — stopped speaking to him. For two years, nothing. Complete silence from the person who knew him before the brand existed.
 
-His wider circle tells a similar story. James's known friendships — Emma Chamberlain, <a href="/personality-analysis/charli-d'Amelio">Charli D'Amelio</a>, Larray — are almost entirely professional, forged through collaborations and content rather than the kind of slow intimacy most people build in their twenties. He once defended Charli publicly during a backlash; Larray and he trade barbs on Twitter. But when the 2021 crisis hit, "I wasn't talking to anybody." The network built on content couldn't hold the weight of a person in freefall.
+His wider circle tells a similar story. James's known friendships — [Emma Chamberlain](/personality-analysis/emma-chamberlain), <a href="/personality-analysis/charli-d'Amelio">Charli D'Amelio</a>, Larray — are almost entirely professional, forged through collaborations and content rather than the kind of slow intimacy most people build in their twenties. He once defended Charli publicly during a backlash; Larray and he trade barbs on Twitter. But when the 2021 crisis hit, "I wasn't talking to anybody." The network built on content couldn't hold the weight of a person in freefall.
 
 In the wreckage, James did something unusual for someone who had spent his entire life constructing images. He sat with the destruction.
 

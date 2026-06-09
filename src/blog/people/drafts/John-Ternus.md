@@ -51,7 +51,7 @@ citations:
   - 'https://www.famousbirthdays.com/people/john-ternus.html'
 faqs:
   - question: 'What is John Ternus''s personality type?'
-    answer: 'Ternus runs on one engine: trust built through verification. Every major move in his career traces the same pattern — check the work, stay close to the people doing it, commit only when the case is airtight. The 25-vs-35-grooves argument is not an anecdote about obsession. It is the Type 6 mind refusing to accept a surface "yes" when a closer look might reveal a "no."'
+    answer: 'Ternus runs on one engine: trust built through verification. Every major move in his career traces the same pattern — check the work, stay close to the people doing it, commit only when the case is airtight. His skepticism toward Apple''s two biggest moonshots was not caution for its own sake. It is the Type 6 mind refusing to accept a surface "yes" when a closer look might reveal a "no."'
     anchor: 'what-is-john-ternuss-personality-type'
   - question: 'Why is John Ternus typed as an Enneagram Type 6?'
     answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Business Executive, Manager.'
@@ -128,7 +128,7 @@ The question almost nobody is asking: why did Apple hand the top job to the exec
 <summary class="accordion">TL;DR: Why John Ternus is an Enneagram Type 6</summary>
 <div class="panel">
 <ul>
-<li><b>Trust through verification:</b> The screw-groove argument is not an outlier. It is his whole operating system.</li>
+<li><b>Trust through verification:</b> He commits only after checking the work himself — and he checks further than anyone asked him to.</li>
 <li><b>Loyalty as survival strategy:</b> 25 years at one company. Declined the private office, twice. Stayed on the open-plan floor with his team.</li>
 <li><b>Sentinel, not salesman:</b> Reportedly opposed both the Apple Car and Vision Pro — Apple's two biggest bets of the 2020s. One was cancelled after ~$10 billion. The other launched and stalled.</li>
 <li><b>Phobic-counterphobic blend:</b> Described by colleagues as "risk-averse" and simultaneously as the guy who "will make decisions." Both are true — the decisiveness arrives once the data is solid.</li>
@@ -141,7 +141,7 @@ The question almost nobody is asking: why did Apple hand the top job to the exec
 
 ### John Ternus is an Enneagram Type 6
 
-Ternus runs on one engine: trust built through verification. Every major move in his career traces the same pattern — check the work, stay close to the people doing it, commit only when the case is airtight. The 25-vs-35-grooves argument is not an anecdote about obsession. It is the <a href="/enneagram-corner/enneagram-type-6">Type 6</a> mind refusing to accept a surface "yes" when a closer look might reveal a "no."
+Ternus runs on one engine: trust built through verification. Every major move in his career traces the same pattern — check the work, stay close to the people doing it, commit only when the case is airtight. His skepticism toward Apple's two biggest moonshots was not caution for its own sake. It is the <a href="/enneagram-corner/enneagram-type-6">Type 6</a> mind refusing to accept a surface "yes" when a closer look might reveal a "no."
 
 At Apple's 2001 product design team, when skeptics doubted the Cinema Display approach, Ternus was the one making the case — not from the head of the table, but from the open-plan floor where he sat with the engineers. He was not performing authority. He was distributing it. That is a Type 6 protecting the tribe by staying inside it.
 
@@ -256,6 +256,8 @@ Tony Blevins, Apple's former procurement chief, described the grown-up version o
 
 The steward's dilemma, basically. The same trait that made him loved by his floor is the trait that makes the outside world question whether he will blow something up when he needs to.
 
+Rogers' doubt deserves a real answer, not a deflection, because it is the strongest case against the promotion. The honest version: Ternus's biggest calls have so far been verification calls, not vision calls. Killing the Apple Car and doubting the Vision Pro were acts of subtraction — being right about what _not_ to do. His largest yes, the Apple Silicon transition, was an execution triumph more than a strategic gamble; the bet was already on the table, and Ternus made it land ahead of schedule. So the question stands partly unanswered. We have not yet watched him stake a billion-dollar bet of his own authorship and own the outcome in public. The Type 6 frame does not dissolve that worry — it sharpens it. A Six rarely originates the moonshot; a Six decides which moonshot survives contact with reality. Whether that instinct is enough to lead Apple through the AI decade is the one genuinely open question of his tenure, and no amount of pattern-matching closes it.
+
 ## How John Ternus presents on the WWDC stage
 
 Watch any Ternus keynote segment — the M1 reveal, the M4 iPad Pro, the completely redesigned 2019 Mac Pro. Notice what he does with his hands. Notice his pacing. It is the opposite of a Jobs reality distortion field.
@@ -288,16 +290,11 @@ Worth naming what the market is not yet pricing in: the more of Apple's AI stack
 
 The fair question raised about any engineer running Apple: can he handle the non-engineering surface area? Services revenue. App Store antitrust. China. the EU's Digital Markets Act. Wall Street. He has never run any of it.
 
-The answer, visible in the April 2026 reshuffle, is that he is not going to have to — not alone.
+The answer, visible in the April 2026 reshuffle, is that he is not going to have to — not alone. The most load-bearing move is the one closest to him: Johny Srouji, the M-series architect, was handed the new title of Chief Hardware Officer the same week Ternus was named CEO. He inherits the hardware engineering Ternus is vacating and keeps the silicon group. In other words, the chair Ternus is leaving is being filled by the one person in Cupertino who shares his skepticism bias and his depth. The engineer-CEO kept an engineer's veto in the room.
 
-- **Chief Hardware Officer: Johny Srouji.** New title, announced the same week as Ternus's promotion. Srouji takes over the hardware engineering Ternus is vacating and keeps the silicon group. The M-series architect becomes Ternus's engineering counterweight. Load-bearing: the chair Ternus is leaving is being filled by someone who shares his skepticism bias and his depth.
-- **COO: Sabih Khan.** Took over from Jeff Williams in July 2025. A 30-year Apple supply-chain veteran. This is the Cook-equivalent operator — the logistics brain that keeps iPhone launch math working.
-- **CFO: Kevan Parekh.** In the seat since January 2025, replacing Luca Maestri. Wall Street's new point of contact.
-- **General Counsel: Jennifer Newstead.** Came over from Meta; starts March 2026. Consolidates legal and government affairs at a moment of maximum antitrust and regulatory pressure. She helped Meta navigate the TikTok fights. She now handles the App Store ones.
-- **Software + AI: Craig Federighi.** Unchanged, but the AI organization now rolls up under him — Amar Subramanya runs it as SVP after John Giannandrea's retirement. That reporting line is itself a signal. AI as integration, not moonshot.
-- **Services: Eddy Cue.** Still running the $100 billion revenue line.
+Around the rest of the table sit operators, not visionaries. Sabih Khan took the COO seat from Jeff Williams in July 2025 — a 30-year supply-chain veteran, the Cook-equivalent logistics brain that keeps the iPhone launch math working. Kevan Parekh has been CFO since January 2025, Wall Street's new point of contact in place of Luca Maestri. Jennifer Newstead arrived from Meta in March 2026 to run a consolidated legal and government-affairs function at the moment of maximum antitrust pressure; she helped Meta through the TikTok fights and now inherits the App Store ones. Craig Federighi keeps software, but the AI organization now rolls up under him — run day-to-day by Amar Subramanya as SVP after John Giannandrea's retirement — and that reporting line is the thesis in miniature: AI as integration, not moonshot. Eddy Cue still runs the $100 billion services line.
 
-The read: Ternus has stacked the non-engineering seats with deep operators and kept himself for the product-integrity seat. That is classic Type 6 delegation. You verify the competence of everyone around you, then trust them to run their domain while you run yours.
+The read is classic Type 6 delegation. Ternus has stacked the non-engineering seats with deep operators, kept an engineering counterweight one office away, and reserved himself for the product-integrity seat. You verify the competence of everyone around you, then trust them to run their domain while you run yours.
 
 ## Why John Ternus keeps his personal life invisible
 

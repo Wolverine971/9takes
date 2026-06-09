@@ -243,7 +243,7 @@ She picks her music. She helps build the choreography. She dyes her hair multico
 <p><b>After the comeback:</b> "I'm so intentional now. I'm so grounded. Everything I do has a reason. I have such a different team and I treat myself differently."</p>
 </div>
 
-The cleanest test of the autonomy came at the start of the 2025–26 Olympic season. She and Scali had built a new free skate to a Lady Gaga track. Music rights ran into trouble days before the Cup of China. Most teams in that situation would scramble for something safe. Liu's team did the opposite — they went back to a program she had built herself the season before, a Donna Summer "MacArthur Park Suite" set on her own choreographic instincts.
+The cleanest test of the autonomy came at the start of the 2025–26 Olympic season. She and Scali had built a new free skate to a [Lady Gaga](/personality-analysis/lady-gaga) track. Music rights ran into trouble days before the Cup of China. Most teams in that situation would scramble for something safe. Liu's team did the opposite — they went back to a program she had built herself the season before, a Donna Summer "MacArthur Park Suite" set on her own choreographic instincts.
 
 She had used that program in March 2025 to win Worlds in Boston, beating three-time defending champion Kaori Sakamoto and becoming the first American woman to win the world title since Kimmie Meissner in 2006 — a 19-year drought. The home crowd in Boston was the first audience to see what the comeback actually looked like at full strength. Eleven months later, she would use the same program to win the Olympics.
 

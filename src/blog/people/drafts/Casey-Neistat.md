@@ -260,7 +260,7 @@ The concept was radical: users captured unedited four-second videos by holding t
 
 "Truth is so much more interesting than the fiction we're used to," Casey said.
 
-In November 2016, CNN acquired Beme for a reported $25 million. The cable network envisioned Casey as a digital Anthony Bourdain, someone who could bring a new generation of news consumers into their fold.
+In November 2016, CNN acquired Beme for a reported $25 million. The cable network envisioned Casey as a digital [Anthony Bourdain](/personality-analysis/anthony-bourdain), someone who could bring a new generation of news consumers into their fold.
 
 It was a marriage doomed from the start. CNN wanted a media brand that fit their infrastructure. Casey wanted a technology company that disrupted it.
 
@@ -416,4 +416,3 @@ PRIORITY FIXES:
 3. Pressure the Dobrik / creator-economy implication. Either Casey was complicit or he wasn't. "He's said enough" lets both Casey and the writer off the hook.
 
 ============================================================ -->
-

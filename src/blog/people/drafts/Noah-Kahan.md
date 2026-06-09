@@ -4,12 +4,12 @@ meta_title: 'Why Noah Kahan Was Afraid to Stop Hating Himself'
 persona_title: "Folk-Pop's Reluctant Survivor"
 description: 'Noah Kahan got famous singing about anxiety. Then he got diagnosed with OCD and had to choose between healing and his career. A Type 4 analysis.'
 author: 'DJ Wayne'
-date: '2026-05-06'
+date: '2026-06-09'
 loc: 'https://9takes.com/personality-analysis/noah-kahan'
-lastmod: '2026-05-06'
+lastmod: '2026-06-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['musician']
 person: 'noah-kahan'

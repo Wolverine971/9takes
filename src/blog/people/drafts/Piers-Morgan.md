@@ -120,7 +120,7 @@ He studied journalism at Harlow College, got his first job at the South London N
 
 Even in his twenties, he was performing a character. Not a journalist finding his voice. A man trying on voices to see which one fit the room.
 
-Rupert Murdoch noticed. In 1994, at twenty-nine, Morgan was named editor of the News of the World, the youngest editor of a British national newspaper in more than half a century. The appointment was itself a performance: Murdoch didn't hire a journalist. He hired ambition in human form.
+[Rupert Murdoch](/personality-analysis/rupert-murdoch) noticed. In 1994, at twenty-nine, Morgan was named editor of the News of the World, the youngest editor of a British national newspaper in more than half a century. The appointment was itself a performance: Murdoch didn't hire a journalist. He hired ambition in human form.
 
 Morgan's tenure at the News of the World lasted barely over a year. He pushed boundaries so aggressively that even Murdoch decided it was too much: breaching royal family privacy during the Diana-Charles divorce, directing staff to infiltrate rival newspaper offices. He moved Morgan to the Daily Mirror, a calmer posting. Or so everyone thought.
 
@@ -493,4 +493,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Trim the "performance" word count by half. The motif is the spine of the piece; keep 7-8 mentions, cut the rest. Substitute "calibrating," "reading the room," "adopting a posture" — the prior review suggested this exact substitution and it didn't happen.
 
 ============================================================ -->
-

@@ -248,7 +248,7 @@ The evolution Type 4s are capable of — when the wound heals not by closing but
 
 In May 2020, Lana Del Rey posted something that broke her carefully maintained remove.
 
-She named Beyoncé, Doja Cat, Ariana Grande, Camila Cabello, Cardi B, Kehlani, and Nicki Minaj — artists she said were celebrated for "overtly sexual" material while she was labeled as glamorizing abuse. Her framing: a double standard. She had been uniquely singled out while others were given a pass she was denied.
+She named Beyoncé, Doja Cat, Ariana Grande, Camila Cabello, [Cardi B](/personality-analysis/cardi-b), Kehlani, and Nicki Minaj — artists she said were celebrated for "overtly sexual" material while she was labeled as glamorizing abuse. Her framing: a double standard. She had been uniquely singled out while others were given a pass she was denied.
 
 The internet reacted immediately. The artists she named were overwhelmingly women of color. Critics argued the real subtext wasn't about artistic fairness — it was about whose emotional complexity gets taken seriously and whose doesn't. She doubled down, writing "This is sad to make it about a [women of color] issue when I'm talking about my favorite singers." The follow-up only sharpened the criticism.
 
@@ -366,4 +366,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Don't let "Tunnel" function as moral resolution to the 2020 episode — say what changed in her thinking, not just in her sound.
 
 ============================================================ -->
-

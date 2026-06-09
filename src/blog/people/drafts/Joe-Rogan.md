@@ -222,7 +222,7 @@ His instinct with Phil Hartman wasn't to listen sympathetically and stay out of 
 
 That's Type 8 grief talking — not the sadness of loss but the specific agony of _I saw it coming, I said it out loud, and it wasn't enough._
 
-Twenty years later, the pattern repeated. Anthony Bourdain became a close friend. When Bourdain took his own life in 2018, Joe was gutted: **"When he died, I was f\*\*ked up for a while."**
+Twenty years later, the pattern repeated. [Anthony Bourdain](/personality-analysis/anthony-bourdain) became a close friend. When Bourdain took his own life in 2018, Joe was gutted: **"When he died, I was f\*\*ked up for a while."**
 
 Then the detail that says everything.
 
@@ -563,4 +563,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Trim bolded mid-paragraph thesis lines by half. The prose carries the diagnosis; the bolds are overprescribing.
 
 ============================================================ -->
-

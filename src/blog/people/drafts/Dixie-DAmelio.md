@@ -269,7 +269,7 @@ She wasn't defending the behavior. She was trying to explain the internal state 
 
 ### The Trisha Paytas Fallout
 
-During the dinner fallout, Trisha Paytas (a controversial YouTuber) piled on with criticism of the D'Amelio family. Dixie's response backfired spectacularly.
+During the dinner fallout, [Trisha Paytas](/personality-analysis/trisha-paytas) (a controversial YouTuber) piled on with criticism of the D'Amelio family. Dixie's response backfired spectacularly.
 
 She posted a TikTok of herself dancing to a resurfaced audio clip of Trisha rapping the N-word, essentially using Trisha's past racism to deflect from her own criticism.
 

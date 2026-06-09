@@ -297,7 +297,7 @@ That Theo Von episode is worth noting as a crossover moment. Over two hours, the
 
 Brittany has built her brand on being genuinely weird. Not calculated weird. Actually weird.
 
-Her friends Drew Afualo and Caleb Hearon share this orientation. The trio has become a defining feature of her social world. Drew appeared on Royal Court and was knighted as a "Knight of the Realm of Broski Nation." They've collaborated across multiple podcasts.
+Her friends Drew Afualo and [Caleb Hearon](/personality-analysis/caleb-hearon) share this orientation. The trio has become a defining feature of her social world. Drew appeared on Royal Court and was knighted as a "Knight of the Realm of Broski Nation." They've collaborated across multiple podcasts.
 
 Caleb has said: **"If Drew and Brittany left the internet forever tomorrow, I'd still want to hang out with them every week... They are just two of the most lovely, brilliant, down-to-earth people. I could honestly cry talking about how lucky I am to have met them and to be their friend."**
 

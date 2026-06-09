@@ -269,7 +269,7 @@ What followed the Grammy was not a victory lap. It was an avalanche.
 
 "Anxiety" — a song she'd originally self-released on YouTube in 2019, sampling Gotye's "Somebody That I Used to Know" — hit number 9 on the Billboard Hot 100. Her first top-10 single. It spawned a TikTok dance challenge that generated 2.8 million videos. She launched a mental health resource hub called "Anxiety Is Watching Me," turning her biggest vulnerability into infrastructure.
 
-Billboard named her Woman of the Year — only the second female rapper to receive the honor, after Cardi B. She beat out [Doja Cat](/personality-analysis/doja-cat), Nicki Minaj, Megan Thee Stallion, and others for Best Female Hip Hop Artist at the BET Awards, then used her acceptance speech to do something no one else at the ceremony did: call out the President.
+Billboard named her Woman of the Year — only the second female rapper to receive the honor, after [Cardi B](/personality-analysis/cardi-b). She beat out [Doja Cat](/personality-analysis/doja-cat), Nicki Minaj, Megan Thee Stallion, and others for Best Female Hip Hop Artist at the BET Awards, then used her acceptance speech to do something no one else at the ceremony did: call out the President.
 
 "There are ruthless attacks that are creating fear and chaos in our communities in the name of law and order. Trump is using military forces to stop a protest." She asked the audience to consider "what kind of government it appears to be when every time we exercise our democratic right to protest, the military is deployed against us." She called for support for "all oppressed people, for Black people, for Latino people, for trans people, for the people in Gaza."
 

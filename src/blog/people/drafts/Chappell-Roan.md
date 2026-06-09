@@ -215,7 +215,7 @@ An explosive Coachella set in April 2024 and a viral Tiny Desk Concert followed.
 
 ## How the Music Actually Sounds
 
-Chappell Roan's sound is a campy, theatrical, synth-drenched maximalism pulled from '80s pop, drag culture, and Midwest yearning. Cyndi Lauper's synth-pop energy. Kate Bush's vocal drama. The unapologetic excess of RuPaul's Drag Race. The ache of Patsy Cline. She's cited Madonna, Lady Gaga, and Beyonce as touchstones. When she accepted her first Grammy, she credited "Madonna, Rihanna, and Nicki Minaj, women who made queer music mainstream."
+Chappell Roan's sound is a campy, theatrical, synth-drenched maximalism pulled from '80s pop, drag culture, and Midwest yearning. Cyndi Lauper's synth-pop energy. Kate Bush's vocal drama. The unapologetic excess of RuPaul's Drag Race. The ache of Patsy Cline. She's cited Madonna, [Lady Gaga](/personality-analysis/lady-gaga), and Beyonce as touchstones. When she accepted her first Grammy, she credited "Madonna, Rihanna, and Nicki Minaj, women who made queer music mainstream."
 
 ### The Dan Nigro Partnership
 

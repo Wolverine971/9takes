@@ -13,7 +13,7 @@ published: true
 enneagram: 8
 type: ['comedian']
 person: 'chelsea-handler'
-suggestions: ['Amy-Poehler', 'Joe-Rogan', 'Kara-Swisher', 'Dave-Portnoy']
+suggestions: ['Amy-Poehler', 'Kevin-Hart', 'Shane-Gillis', 'Matt-Rife']
 wikipedia: 'https://en.wikipedia.org/wiki/Chelsea_Handler'
 wikidata_qid: 'Q262502'
 imdb_id: 'nm1314546'

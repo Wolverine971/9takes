@@ -13,7 +13,7 @@ published: true
 enneagram: '1'
 type: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator']
 person: 'anna-wintour'
-suggestions: ['Blake-Lively', 'Hillary-Clinton', 'Tim-Cook', 'Hailey-Bieber']
+suggestions: ['Bernard-Arnault', 'Blake-Lively', 'Hillary-Clinton', 'Tim-Cook']
 wikipedia: 'https://en.wikipedia.org/wiki/Anna_Wintour'
 wikidata_qid: 'Q230744'
 imdb_id: 'nm1659661'

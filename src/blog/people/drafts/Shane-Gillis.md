@@ -155,7 +155,7 @@ Then he did something that doesn't fit the story of a small-town jock who can't 
 
 At 24, Shane moved to Madrid.
 
-**"I got really, really into Ernest Hemingway,"** he told Ari Shaffir on _You Be Trippin'_. **"And I was like, I should live in Spain."**
+**"I got really, really into [Ernest Hemingway](/personality-analysis/ernest-hemingway),"** he told Ari Shaffir on _You Be Trippin'_. **"And I was like, I should live in Spain."**
 
 When pressed for a more sophisticated explanation, he offered: **"I'm gay and like Ernest Hemingway."**
 

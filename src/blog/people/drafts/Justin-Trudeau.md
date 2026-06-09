@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['politician', 'modern-leader']
 person: 'justin-trudeau'
-suggestions: ['Gavin-Newsom', 'Kamala-Harris', 'Donald-Trump', 'Joe-Biden']
+suggestions: ['Katy-Perry', 'Gavin-Newsom', 'Kamala-Harris', 'Donald-Trump', 'Joe-Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Justin_Trudeau'
 twitter: 'JustinTrudeau'
 instagram: 'justinpjtrudeau'
@@ -441,4 +441,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Add one 2025 Trump-Trudeau beat (51st-state / tariff threat) before the Curtain Call — the resignation context is missing without it.
 
 ============================================================ -->
-

@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['author', 'creator']
 person: 'neil-strauss'
-suggestions: ['Lana-Del-Rey', 'Adele']
+suggestions: ['Rick-Rubin', 'Tim-Ferriss', 'Lana-Del-Rey', 'Adele']
 wikipedia: 'https://en.wikipedia.org/wiki/Neil_Strauss'
 wikidata_qid: 'Q519984'
 birth_date: '1973-10-13'
@@ -119,7 +119,7 @@ All other Type 4 references are single bridging sentences inside narrative parag
 
 The world's most famous seduction manual was written by that kid.
 
-Neil Strauss has published seven New York Times bestsellers. Three under his own name — _The Game_, _Emergency_, _The Truth_ — and four in collaboration: Marilyn Manson's memoir, Mötley Crüe's _The Dirt_, Jenna Jameson's autobiography, Kevin Hart's _I Can't Make This Up_. In 2023 he co-wrote _The Creative Act_ with Rick Rubin. Seven different worlds. Seven different costumes. Each time, he moved inside a life he was never born into, stayed long enough to pass as a local, and walked back out with the manual.
+Neil Strauss has published seven New York Times bestsellers. Three under his own name — _The Game_, _Emergency_, _The Truth_ — and four in collaboration: Marilyn Manson's memoir, Mötley Crüe's _The Dirt_, Jenna Jameson's autobiography, [Kevin Hart](/personality-analysis/kevin-hart)'s _I Can't Make This Up_. In 2023 he co-wrote _The Creative Act_ with [Rick Rubin](/personality-analysis/rick-rubin). Seven different worlds. Seven different costumes. Each time, he moved inside a life he was never born into, stayed long enough to pass as a local, and walked back out with the manual.
 
 Most people know him as the pickup artist who wrote the playbook that launched a generation of openers, negs, and routines. Or, later, as the reformed pickup artist who checked into sex rehab and wrote a five-hundred-page confession about it.
 
@@ -260,7 +260,7 @@ This is the Four's recursive trap. The method that gave him his living — discl
 
 ## Everyone Loves You When You're Dead
 
-In 2011, between _The Game_ and _Emergency_, Strauss published a book almost everyone forgets: _Everyone Loves You When You're Dead: Journeys Into Fame and Madness_. A compilation of his interview outtakes — the material that didn't make it into the published profiles of Kurt Cobain, Madonna, Springsteen, Lady Gaga, Johnny Cash. The leftover sentences. The asides. The fragments.
+In 2011, between _The Game_ and _Emergency_, Strauss published a book almost everyone forgets: _Everyone Loves You When You're Dead: Journeys Into Fame and Madness_. A compilation of his interview outtakes — the material that didn't make it into the published profiles of Kurt Cobain, Madonna, Springsteen, [Lady Gaga](/personality-analysis/lady-gaga), Johnny Cash. The leftover sentences. The asides. The fragments.
 
 Stop on the title for a second.
 

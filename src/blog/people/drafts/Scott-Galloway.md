@@ -76,7 +76,7 @@ That line, delivered with the flatness of someone reading a grocery list, tells 
 
 But here's the thing most people miss about the NYU professor who built a media empire on being the angriest man in the room: **the anger isn't the engine. The anger is the exhaust.**
 
-Underneath the profanity-laced TED talks and the "No Mercy / No Malice" newsletter that reaches millions, underneath the nine companies and the Davos appearances and the relentless data-driven tirades about wealth inequality, there's a boy who absorbed his mother's financial stress because he was the only male in the house. A boy whose father's primary vehicle for affection was messing up his hair. A boy who walked into a stockbroker's office at thirteen because no one else was going to teach him how the world worked.
+Underneath the profanity-laced TED talks, the "No Mercy / No Malice" newsletter that reaches millions, and _Pivot_ with [Kara Swisher](/personality-analysis/kara-swisher), underneath the nine companies and the Davos appearances and the relentless data-driven tirades about wealth inequality, there's a boy who absorbed his mother's financial stress because he was the only male in the house. A boy whose father's primary vehicle for affection was messing up his hair. A boy who walked into a stockbroker's office at thirteen because no one else was going to teach him how the world worked.
 
 That tension, between the man who fights for everyone and the boy who had no one fighting for him, is what makes Scott Galloway one of the most psychologically interesting public intellectuals alive.
 
