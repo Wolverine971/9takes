@@ -44,7 +44,22 @@
 	const PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
 	const PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS =
 		String(import.meta.env.PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS || '').toLowerCase() === 'true';
-	const MAX_WIDTH_PAGES = ['/', '/content-board', '/book-session', '/search'];
+	// Routes that opt OUT of the max-w-4xl clamp and manage their own width.
+	// Content listing pages define their own 1280px inner max-widths + full-bleed
+	// alternating bands in SCSS — clamping them collapsed the 4-col case grids
+	// to 2 cols and broke the band rhythm (design audit 2026-06-09).
+	// Detail/article pages stay clamped: they need the reading measure.
+	const FULL_WIDTH_PAGES = [
+		'/',
+		'/content-board',
+		'/book-session',
+		'/search',
+		'/community',
+		'/enneagram-corner',
+		'/pop-culture',
+		'/how-to-guides',
+		'/personality-analysis'
+	];
 	const ANALYTICS_SESSION_STORAGE_KEY = '9t_analytics_session_key';
 	const ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY = '9t_analytics_session_last_seen';
 
@@ -389,7 +404,7 @@
 			/^\/questions\/[^/]+$/.test(pathname) &&
 			pathname !== '/questions/create' &&
 			pathname !== '/questions/categories';
-		shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes(pathname) && !isAdminPage;
+		shouldShowMaxWidth = !FULL_WIDTH_PAGES.includes(pathname) && !isAdminPage;
 		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage;
 	}
 

@@ -142,7 +142,7 @@
 </script>
 
 <div
-	class="question-display-card bg-[var(--stone-warm)]/70 relative overflow-hidden rounded-xl border border-[var(--primary-subtle)] px-4 py-6 shadow-[var(--glow-sm)] backdrop-blur-md sm:p-6"
+	class="question-display-card relative overflow-hidden rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] px-4 py-6 sm:p-6"
 >
 	<h1
 		class="relative m-0 w-full text-center font-bold leading-snug text-[var(--ink-bright)]"
@@ -153,14 +153,3 @@
 		{#if !question.question_formatted && addQuestionMark}?{/if}
 	</h1>
 </div>
-
-<style>
-	.question-display-card::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		border-radius: inherit;
-		background: radial-gradient(ellipse at 50% 0%, rgba(45, 212, 191, 0.08) 0%, transparent 60%);
-		pointer-events: none;
-	}
-</style>

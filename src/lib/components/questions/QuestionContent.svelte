@@ -171,7 +171,10 @@
 
 											<div class="public-perspective-preview__grid">
 												{#each publicAiPreviewComments as comment}
-													<article class="public-perspective-card">
+													<article
+														class="public-perspective-card"
+														style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
+													>
 														<div class="public-perspective-card__eyebrow">
 															Type {comment.enneagram_type}
 														</div>
@@ -340,32 +343,15 @@
 </div>
 
 <style>
+	/* V5 Streetlamp pass 2026-06-09: flattened the legacy glass-morphism shell
+	   (1.35rem radius, backdrop blur, gradient washes, static shadow) to the
+	   locked system — 1px stone-edge border does the elevation work. */
 	.question-content-shell {
 		position: relative;
 		overflow: hidden;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
-		border-radius: 1.35rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--primary-subtle) 36%, transparent) 0%,
-				transparent 18%
-			),
-			color-mix(in srgb, var(--stone-warm) 96%, transparent);
-		box-shadow: var(--shadow-md);
-		backdrop-filter: blur(14px);
-	}
-
-	.question-content-shell::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		background: radial-gradient(
-			circle at top center,
-			color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
-			transparent 42%
-		);
-		pointer-events: none;
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--stone-warm);
 	}
 
 	.question-content-nav {
@@ -374,9 +360,8 @@
 		display: flex;
 		overflow-x: auto;
 		padding: 0.45rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
-		background: color-mix(in srgb, var(--night-deep) 78%, transparent);
-		backdrop-filter: blur(14px);
+		border-bottom: 1px solid var(--stone-edge);
+		background: var(--night-mid);
 	}
 
 	.question-tab {
@@ -385,7 +370,7 @@
 		min-width: fit-content;
 		padding: 0.9rem 1.15rem;
 		border: 0;
-		border-radius: 0.95rem;
+		border-radius: 0.625rem;
 		background: transparent;
 		color: var(--ink-mid);
 		font-size: 0.9rem;
@@ -399,22 +384,19 @@
 
 	.question-tab:hover {
 		color: var(--ink-bright);
-		background: color-mix(in srgb, var(--primary-subtle) 32%, transparent);
+		background: var(--lamp-soft);
 	}
 
 	.question-tab.is-active {
 		color: var(--ink-bright);
-		background: color-mix(in srgb, var(--primary-subtle) 52%, transparent);
-		box-shadow:
-			inset 0 -2px 0 var(--lamp-glow),
-			var(--shadow-sm);
+		background: var(--lamp-soft);
+		box-shadow: inset 0 -2px 0 var(--lamp-glow);
 	}
 
 	.question-content-body {
 		position: relative;
 		z-index: 1;
 		min-height: 22rem;
-		background: color-mix(in srgb, var(--stone-warm) 82%, transparent);
 	}
 
 	.question-content-section {
@@ -441,16 +423,9 @@
 
 	.public-perspective-preview {
 		padding: 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
-		border-radius: 1.15rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--primary-subtle) 32%, transparent) 0%,
-				transparent 100%
-			),
-			color-mix(in srgb, var(--stone-warm) 94%, transparent);
-		box-shadow: var(--shadow-sm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--night-mid);
 	}
 
 	.public-perspective-preview__head {
@@ -478,9 +453,11 @@
 
 	.public-perspective-card {
 		padding: 0.95rem 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--stone-warm) 88%, transparent);
+		border: 1px solid var(--stone-edge);
+		/* Type-colored stripe — same attribution language as Comment.svelte. */
+		border-left: 3px solid var(--comment-type-color, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: var(--stone-warm);
 	}
 
 	.public-perspective-card__eyebrow {
@@ -489,7 +466,11 @@
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--lamp-glow);
+		color: color-mix(in srgb, var(--comment-type-color, var(--lamp-glow)) 65%, white);
+	}
+
+	:global(:root.light) .public-perspective-card__eyebrow {
+		color: color-mix(in srgb, var(--comment-type-color, var(--lamp-glow)) 72%, black);
 	}
 
 	.public-perspective-card__body {
@@ -508,46 +489,39 @@
 		max-width: 34rem;
 		margin: 0 auto;
 		padding: 2.8rem 1.25rem;
-		border-radius: 1.2rem;
+		border-radius: 1rem;
 		text-align: center;
 	}
 
 	.question-state-locked {
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, transparent);
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--primary-subtle) 54%, transparent) 0%,
-				transparent 100%
-			),
-			color-mix(in srgb, var(--stone-warm) 90%, transparent);
-		box-shadow: var(--shadow-sm);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
+		background: var(--lamp-soft);
 	}
 
 	.question-state-empty {
-		border: 1px dashed color-mix(in srgb, var(--ink-dim) 35%, transparent);
-		background: color-mix(in srgb, var(--stone-warm) 76%, transparent);
+		border: 1px dashed var(--stone-edge);
+		background: transparent;
 	}
 
 	.state-icon {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: 1.15rem;
+		border-radius: 0.625rem;
 	}
 
 	.state-icon-locked {
 		width: 4rem;
 		height: 4rem;
 		margin-bottom: 0.55rem;
-		background: color-mix(in srgb, var(--primary-subtle) 62%, transparent);
+		background: var(--lamp-soft);
 	}
 
 	.state-icon-muted {
 		width: 3.4rem;
 		height: 3.4rem;
 		margin-bottom: 0.55rem;
-		background: color-mix(in srgb, var(--stone-warm) 68%, transparent);
+		background: var(--stone-mid);
 	}
 
 	.state-title {
@@ -581,7 +555,7 @@
 
 	@media (max-width: 640px) {
 		.question-content-shell {
-			border-radius: 1.1rem;
+			border-radius: 1rem;
 		}
 
 		.question-content-nav {

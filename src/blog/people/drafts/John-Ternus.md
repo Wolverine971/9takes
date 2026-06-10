@@ -120,7 +120,7 @@ Locations: "Why John Ternus keeps saying no to Apple's biggest bets", "The AI pr
 
 He argues the point anyway.
 
-Twenty-five years later, Apple announced the man with the magnifying glass will run the company. On September 1, 2026, John Ternus becomes CEO. Tim Cook steps up to executive chairman. The most visible corporate job in technology is going to the most private engineer in Cupertino — a 51-year-old who has never held a solo keynote, never courted the spotlight, and whose public digital footprint is smaller than most mid-level product managers in the Bay Area.
+Twenty-five years later, Apple announced the man with the magnifying glass will run the company. On September 1, 2026, John Ternus becomes CEO. Tim Cook steps up to executive chair. The most visible corporate job in technology is going to the most private engineer in Cupertino — a 51-year-old who has never held a solo keynote, never courted the spotlight, and whose public digital footprint is smaller than most mid-level product managers in the Bay Area.
 
 The question almost nobody is asking: why did Apple hand the top job to the executive who said _no_ to its two biggest bets of the last decade?
 

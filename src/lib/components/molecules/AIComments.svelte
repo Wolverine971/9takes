@@ -80,7 +80,8 @@
 						>
 							<div class="flex items-center gap-3" in:fade={{ duration: 200, delay: 50 }}>
 								<span
-									class="shrink-0 rounded-md bg-[var(--primary-subtle)] px-2 py-1 text-xs font-semibold text-[var(--lamp-glow)]"
+									class="ai-type-badge shrink-0 rounded-md px-2 py-1 text-xs font-semibold"
+									style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
 								>
 									Type {comment.enneagram_type}
 								</span>
@@ -108,8 +109,9 @@
 				<button
 					class="h-1.5 w-1.5 cursor-pointer rounded-full border-none p-0 transition-all duration-200 {active ===
 					index
-						? 'bg-[var(--lamp-glow)]'
-						: 'bg-[var(--stone-warm)] hover:bg-[var(--stone-warm)]'}"
+						? 'bg-[var(--comment-type-color)]'
+						: 'bg-[var(--stone-mid)] hover:bg-[var(--ink-dim)]'}"
+					style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
 					on:click={() => {
 						direction = index > active ? 'right' : 'left';
 						active = index;
@@ -126,3 +128,17 @@
 		</div>
 	</section>
 {/if}
+
+<style>
+	/* Type-tinted badge — mirrors .comment-type-badge in Comment.svelte so
+	   AI takes and user takes share one type-attribution language. */
+	.ai-type-badge {
+		background: color-mix(in srgb, var(--comment-type-color) 16%, transparent);
+		border: 1px solid color-mix(in srgb, var(--comment-type-color) 38%, transparent);
+		color: color-mix(in srgb, var(--comment-type-color) 65%, white);
+	}
+
+	:global(:root.light) .ai-type-badge {
+		color: color-mix(in srgb, var(--comment-type-color) 72%, black);
+	}
+</style>

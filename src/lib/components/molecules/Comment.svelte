@@ -369,8 +369,13 @@
 </script>
 
 {#if _commentComment}
+	<!-- The type-colored left stripe is the "9 takes" payoff: each comment is
+	     visually attributed to its Enneagram type via --type-N-color (data-only
+	     palette). Anonymous comments fall back to the neutral stone edge. -->
 	<div
-		class="group relative rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] transition-all duration-200 hover:border-[var(--lamp-soft)] hover:shadow-[var(--glow-sm)]"
+		class="comment-card group relative rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] transition-all duration-200 hover:border-[var(--lamp-soft)] hover:shadow-[var(--glow-sm)]"
+		style="--comment-type-color: var(--type-{_commentComment?.profiles?.enneagram ??
+			0}-color, var(--stone-edge))"
 	>
 		<div class="flex flex-col">
 			<div class="flex w-full flex-col">
@@ -382,7 +387,7 @@
 							{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 								<a
 									title="View profile"
-									class="inline-flex h-7 items-center justify-center rounded-md bg-[var(--lamp-glow)] px-2.5 text-xs font-semibold text-white transition-colors duration-200 hover:bg-[var(--lamp-deep)]"
+									class="comment-type-badge inline-flex h-7 items-center justify-center rounded-md px-2.5 text-xs font-semibold transition-colors duration-200"
 									href={`/users/${_commentComment.profiles.external_id}`}
 								>
 									Type {_commentComment?.profiles?.enneagram}
@@ -496,7 +501,7 @@
 
 										<button
 											type="button"
-											class="w-full rounded-md px-3 py-2 text-left text-sm text-red-400 transition-colors duration-200 hover:bg-red-500/20 hover:text-red-300"
+											class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--error-text)] transition-colors duration-200 hover:bg-error-500/20"
 											on:click={openFlagModal}
 										>
 											Flag Comment
@@ -536,14 +541,14 @@
 						Cancel
 					</button>
 					<button
-						class="flex items-center justify-center gap-2 rounded-md bg-[var(--lamp-glow)] px-3 py-1.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-[var(--lamp-deep)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
+						class="flex items-center justify-center gap-2 rounded-md bg-[var(--lamp-glow)] px-3 py-1.5 text-sm font-semibold text-[var(--night-deep)] transition-colors duration-200 hover:bg-[var(--lamp-light)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40"
 						type="button"
 						on:click={createReply}
 						disabled={loading || !newcomment?.trim()}
 					>
 						{#if loading}
 							<div
-								class="h-4 w-4 animate-spin rounded-full border-2 border-white/30 border-t-white"
+								class="h-4 w-4 animate-spin rounded-full border-2 border-[color-mix(in_srgb,var(--night-deep)_30%,transparent)] border-t-[var(--night-deep)]"
 							></div>
 						{:else}
 							Reply
@@ -660,14 +665,14 @@
 				Cancel
 			</button>
 			<button
-				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-[var(--lamp-glow)] px-6 py-3 text-base font-semibold text-white transition-colors duration-200 hover:bg-[var(--lamp-deep)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+				class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-[var(--lamp-glow)] px-6 py-3 text-base font-semibold text-[var(--night-deep)] transition-colors duration-200 hover:bg-[var(--lamp-light)] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 				type="button"
 				on:click={saveEdit}
 				disabled={loading || !commentEdit.trim()}
 			>
 				{#if loading}
 					<div
-						class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white"
+						class="h-5 w-5 animate-spin rounded-full border-2 border-[color-mix(in_srgb,var(--night-deep)_30%,transparent)] border-t-[var(--night-deep)]"
 					></div>
 				{:else}
 					Save Changes
@@ -696,7 +701,7 @@
 			<fieldset disabled={loading} class="m-0 border-0 p-0">
 				{#if flagError}
 					<div
-						class="mb-6 flex items-center gap-3 rounded-xl border border-red-500/30 bg-red-500/10 p-4 text-red-400"
+						class="mb-6 flex items-center gap-3 rounded-xl border border-error-500/30 bg-error-500/10 p-4 text-[var(--error-text)]"
 						role="alert"
 					>
 						<svg
@@ -722,7 +727,7 @@
 							for={`flag-reason-${_commentComment?.id}`}
 							class="mb-3 block text-sm font-medium text-[var(--ink-mid)]"
 						>
-							Reason for flagging <span class="text-red-400" aria-hidden="true">*</span>
+							Reason for flagging <span class="text-[var(--error-text)]" aria-hidden="true">*</span>
 							<span class="sr-only">(required)</span>
 						</label>
 						<select
@@ -736,7 +741,7 @@
 								: undefined}
 							class="w-full cursor-pointer rounded-md border bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)] {flagError &&
 							!flaggingReasonId
-								? 'border-red-500'
+								? 'border-error-500'
 								: 'border-[var(--stone-edge)] focus:border-[var(--lamp-glow)]'}"
 						>
 							<option value="" disabled selected>Select a reason...</option>
@@ -747,7 +752,7 @@
 						{#if flagError && !flaggingReasonId}
 							<div
 								id={`flag-reason-error-${_commentComment?.id}`}
-								class="mt-2 text-sm text-red-400"
+								class="mt-2 text-sm text-[var(--error-text)]"
 								role="alert"
 							>
 								Please select a reason
@@ -756,7 +761,7 @@
 					</div>
 				{:else}
 					<div
-						class="mb-6 flex items-center gap-3 rounded-xl border border-blue-500/30 bg-blue-500/10 p-4 text-blue-400"
+						class="mb-6 flex items-center gap-3 rounded-xl border border-[var(--lamp-soft)] bg-[var(--lamp-soft)] p-4 text-[var(--lamp-light)]"
 						role="status"
 					>
 						<svg
@@ -802,14 +807,14 @@
 					Cancel
 				</button>
 				<button
-					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-red-600 px-6 py-3 text-base font-medium text-white transition-colors duration-200 hover:bg-red-700 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+					class="flex w-full cursor-pointer items-center justify-center gap-2 rounded-md border-none bg-error-700 px-6 py-3 text-base font-medium text-white transition-colors duration-200 hover:bg-error-500 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
 					type="submit"
 					disabled={loading || !flaggingReasonId || !flagReasons.length}
 					aria-busy={loading}
 				>
 					{#if loading}
 						<div
-							class="h-5 w-5 animate-spin rounded-full border-2 border-red-300/30 border-t-white"
+							class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white"
 							aria-hidden="true"
 						></div>
 						<span class="sr-only">Submitting...</span>
@@ -821,3 +826,30 @@
 		</form>
 	</div>
 </Modal>
+
+<style>
+	/* Type-colored stripe: makes the Enneagram type visible per take.
+	   --comment-type-color is set inline from --type-N-color (data palette);
+	   anonymous comments fall back to the neutral stone edge. */
+	.comment-card {
+		border-left: 3px solid var(--comment-type-color, var(--stone-edge));
+	}
+
+	/* Type badge: tinted chip in the comment's type color. Text is mixed
+	   toward white (dark mode) / black (light mode) so every type color
+	   stays legible on the card surface. */
+	.comment-type-badge {
+		background: color-mix(in srgb, var(--comment-type-color) 16%, transparent);
+		border: 1px solid color-mix(in srgb, var(--comment-type-color) 38%, transparent);
+		color: color-mix(in srgb, var(--comment-type-color) 65%, white);
+	}
+
+	.comment-type-badge:hover {
+		background: color-mix(in srgb, var(--comment-type-color) 28%, transparent);
+		border-color: color-mix(in srgb, var(--comment-type-color) 55%, transparent);
+	}
+
+	:global(:root.light) .comment-type-badge {
+		color: color-mix(in srgb, var(--comment-type-color) 72%, black);
+	}
+</style>
