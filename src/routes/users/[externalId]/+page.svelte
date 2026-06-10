@@ -455,7 +455,7 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background: rgba(45, 212, 191, 0.3);
+			background: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 			border-radius: 2px;
 		}
 	}

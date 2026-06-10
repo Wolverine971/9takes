@@ -22,13 +22,13 @@
 <div class="category-item mb-2">
 	<div
 		role="button"
-		class="flex cursor-pointer items-center rounded-md p-2 hover:bg-gray-100"
+		class="flex cursor-pointer items-center rounded-md p-2 hover:bg-[var(--stone-mid)]"
 		on:click={toggleExpand}
 		on:keydown={(e) => e.key === 'Enter' && toggleExpand()}
 		tabindex="0"
 	>
 		{#if category.children && category.children.length > 0}
-			<span class="mr-2 text-gray-500">
+			<span class="mr-2 text-[var(--ink-mid)]">
 				{expanded ? '▼' : '►'}
 			</span>
 		{/if}

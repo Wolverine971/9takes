@@ -143,36 +143,36 @@
 	function getLineClass(type: string): string {
 		switch (type) {
 			case 'added':
-				return 'bg-green-50 border-l-4 border-green-500';
+				return 'bg-success-50 border-l-4 border-success-500';
 			case 'removed':
-				return 'bg-red-50 border-l-4 border-red-500';
+				return 'bg-error-50 border-l-4 border-error-500';
 			case 'modified':
-				return 'bg-yellow-50 border-l-4 border-yellow-500';
+				return 'bg-warning-50 border-l-4 border-warning-500';
 			default:
-				return 'bg-white border-l-4 border-gray-200';
+				return 'bg-white border-l-4 border-neutral-200';
 		}
 	}
 
 	function getTextClass(type: string): string {
 		switch (type) {
 			case 'added':
-				return 'text-green-800';
+				return 'text-success-700';
 			case 'removed':
-				return 'text-red-800';
+				return 'text-error-700';
 			case 'modified':
-				return 'text-yellow-800';
+				return 'text-warning-700';
 			default:
-				return 'text-gray-700';
+				return 'text-neutral-700';
 		}
 	}
 </script>
 
 <div class="diff-viewer overflow-hidden rounded-xl border">
 	<!-- Header -->
-	<div class="border-b bg-gray-100 px-4 py-2">
+	<div class="border-b bg-neutral-100 px-4 py-2">
 		<div class="grid grid-cols-2 gap-4">
-			<div class="font-medium text-gray-800">{leftTitle}</div>
-			<div class="font-medium text-gray-800">{rightTitle}</div>
+			<div class="font-medium text-neutral-800">{leftTitle}</div>
+			<div class="font-medium text-neutral-800">{rightTitle}</div>
 		</div>
 	</div>
 
@@ -184,12 +184,12 @@
 				<div class="flex">
 					{#if line.leftLineNumber}
 						<div
-							class="w-12 flex-shrink-0 border-r bg-gray-50 px-2 py-1 text-right text-xs text-gray-500"
+							class="w-12 flex-shrink-0 border-r bg-neutral-50 px-2 py-1 text-right text-xs text-neutral-500"
 						>
 							{line.leftLineNumber}
 						</div>
 					{:else}
-						<div class="w-12 flex-shrink-0 border-r bg-gray-100"></div>
+						<div class="w-12 flex-shrink-0 border-r bg-neutral-100"></div>
 					{/if}
 					<div
 						class="flex-1 px-3 py-1 {getTextClass(line.type)} whitespace-pre-wrap font-mono text-sm"
@@ -202,12 +202,12 @@
 				<div class="flex border-l">
 					{#if line.rightLineNumber}
 						<div
-							class="w-12 flex-shrink-0 border-r bg-gray-50 px-2 py-1 text-right text-xs text-gray-500"
+							class="w-12 flex-shrink-0 border-r bg-neutral-50 px-2 py-1 text-right text-xs text-neutral-500"
 						>
 							{line.rightLineNumber}
 						</div>
 					{:else}
-						<div class="w-12 flex-shrink-0 border-r bg-gray-100"></div>
+						<div class="w-12 flex-shrink-0 border-r bg-neutral-100"></div>
 					{/if}
 					<div
 						class="flex-1 px-3 py-1 {getTextClass(line.type)} whitespace-pre-wrap font-mono text-sm"

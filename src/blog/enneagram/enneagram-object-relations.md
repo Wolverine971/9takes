@@ -10,7 +10,7 @@ priority: '0.9'
 published: true
 type: ['enneagram', 'psychology']
 blog: true
-pic: 'nine_greek_statues_facing_their_shadows_on_the_wall'
+pic: 'greek-statues-object-relations'
 pic_alt: 'Nine Greek statues each facing its own shadow on the wall, illustrating how each Enneagram type relates to a different internalized object — the unconscious shadow of an early caregiver that each type unconsciously casts onto adult relationships'
 midjourney_prompt: 'three overlapping triangles inside an enneagram symbol, each triangle a distinct relational pattern - one triangle merging into a glowing central object (attachment), one triangle reaching toward a receding ideal that fragments on contact (frustration), one triangle holding a single bright gift while turning a shoulder (rejection), psychoanalytic visualization, internalized objects rendered as ghostly figures behind each greek-marble face, deep navy background with rose gold and teal highlights, ethereal psychology aesthetic, visible energy patterns connecting child-self to inner object, Unreal Engine, Cinematic, Color Grading, Shot on 50mm lens, Depth of Field, hyper-detailed, beautifully color graded, Editorial Photography, Studio Lighting, Soft Lighting, Volumetric, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6'
 path: src/blog/enneagram/enneagram-object-relations.md
@@ -359,7 +359,7 @@ The pattern, not the type, is the hinge. Attachment types: locate desire that do
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/enneagram-corner/nine_greek_statues_facing_their_shadows_on_the_wall.webp",
+        "url": "https://9takes.com/blogs/greek-statues-object-relations.webp",
         "width": 1600
       },
       "mainEntityOfPage": {

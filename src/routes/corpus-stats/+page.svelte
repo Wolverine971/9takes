@@ -404,8 +404,8 @@
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.35rem 0.75rem;
-		background: rgba(45, 212, 191, 0.08);
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		background: color-mix(in srgb, var(--data-teal) 8%, transparent);
+		border: 1px solid color-mix(in srgb, var(--data-teal) 20%, transparent);
 		border-radius: 4px;
 		margin-bottom: 1.25rem;
 		font-family: var(--font-mono);
@@ -482,7 +482,7 @@
 	.tldr-list li {
 		padding: 1rem 1.15rem;
 		background: linear-gradient(180deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.18);
+		border: 1px solid var(--data-teal-rgba);
 		border-left: 3px solid var(--shadow-flame, var(--lamp-glow));
 		border-radius: 10px;
 		line-height: 1.55;
@@ -501,7 +501,7 @@
 		background: var(--stone-warm);
 	}
 	.total-tile.accent {
-		border-color: rgba(45, 212, 191, 0.35);
+		border-color: color-mix(in srgb, var(--data-teal) 35%, transparent);
 		background: linear-gradient(
 			180deg,
 			color-mix(in srgb, var(--lamp-glow) 4%, var(--stone-warm)) 0%,
@@ -688,7 +688,7 @@
 	.download-link {
 		display: inline-block;
 		padding: 0.55rem 0.95rem;
-		border: 1px solid rgba(45, 212, 191, 0.35);
+		border: 1px solid color-mix(in srgb, var(--data-teal) 35%, transparent);
 		border-radius: 8px;
 		font-family: var(--font-mono);
 		font-size: 0.9rem;

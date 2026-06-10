@@ -112,8 +112,12 @@
 
 	/* Color variants */
 	.stat-primary {
-		background: linear-gradient(135deg, rgba(45, 212, 191, 0.15) 0%, rgba(45, 212, 191, 0.05) 100%);
-		border-color: rgba(45, 212, 191, 0.3);
+		background: linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--data-teal) 15%, transparent) 0%,
+			color-mix(in srgb, var(--data-teal) 5%, transparent) 100%
+		);
+		border-color: color-mix(in srgb, var(--data-teal) 30%, transparent);
 	}
 
 	.stat-primary:hover {

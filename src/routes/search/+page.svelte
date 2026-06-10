@@ -400,7 +400,11 @@
 
 		min-height: 100vh;
 		background:
-			radial-gradient(circle at top, rgba(45, 212, 191, 0.1), transparent 32%),
+			radial-gradient(
+				circle at top,
+				color-mix(in srgb, var(--lamp-glow) 10%, transparent),
+				transparent 32%
+			),
 			linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
 		padding: 1.5rem 1rem 4rem;
 	}

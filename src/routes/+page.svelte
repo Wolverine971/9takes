@@ -1500,7 +1500,7 @@
 		margin-bottom: 18px;
 		padding: 14px;
 		border: 1px dashed var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: rgba(0, 0, 0, 0);
 	}
 
@@ -1575,7 +1575,7 @@
 		max-width: 980px;
 		margin: 0 auto;
 		border: 1px solid var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 1rem;
 		overflow: hidden;
 		background: var(--stone-warm);
 	}
@@ -1853,7 +1853,7 @@
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
 		border-left: 3px solid var(--type-stripe);
-		border-radius: 8px;
+		border-radius: 1rem;
 		padding: 22px 26px;
 		display: flex;
 		flex-direction: column;
@@ -1979,7 +1979,7 @@
 		--type-stripe: var(--lamp-glow);
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 1rem;
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
@@ -2078,7 +2078,7 @@
 		}
 
 		.library-card {
-			border-radius: 8px;
+			border-radius: 1rem;
 
 			&:hover {
 				transform: none;

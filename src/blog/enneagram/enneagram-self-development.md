@@ -11,7 +11,7 @@ published: true
 type: ['development']
 blog: true
 previewHtml: ''
-pic: 'female-greek-statue-reading-about-self-development'
+pic: 'greek-statue-type-8-self-development'
 path: src/blog/enneagram/enneagram-self-development.md
 quality_grade: 'A'
 quality_score: 9.3
@@ -409,7 +409,7 @@ If you found these insights valuable, join the 9takes community below ⬇️ whe
   "image": {
     "@type": "ImageObject",
     "height": 900,
-    "url": "https://9takes.com/blogs/female-greek-statue-reading-about-self-development.webp",
+    "url": "https://9takes.com/blogs/greek-statue-type-8-self-development.webp",
     "width": 900
   },
   "mainEntityOfPage": {

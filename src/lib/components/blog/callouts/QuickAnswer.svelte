@@ -69,17 +69,14 @@
 		position: relative;
 		margin: 1.5rem 0 2rem;
 		padding: 1.25rem 1.5rem;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		background: linear-gradient(
 			135deg,
 			var(--stone-warm) 0%,
 			var(--night-deep) 50%,
 			var(--night-deep) 100%
 		);
-		border: 1px solid rgba(45, 212, 191, 0.25);
-		box-shadow:
-			0 4px 20px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(45, 212, 191, 0.1);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 
 		// Purple accent line on left
 		&::before {
@@ -90,15 +87,12 @@
 			bottom: 0;
 			width: 4px;
 			background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-			border-radius: 12px 0 0 12px;
+			border-radius: 0.625rem 0 0 0.625rem;
 		}
 
 		&--subtle {
 			background: linear-gradient(135deg, var(--night-deep) 0%, var(--night-deep) 100%);
 			border-color: color-mix(in srgb, var(--ink-dim) 20%, transparent);
-			box-shadow:
-				0 2px 12px rgba(0, 0, 0, 0.25),
-				0 1px 3px rgba(0, 0, 0, 0.15);
 
 			&::before {
 				background: linear-gradient(180deg, var(--ink-dim) 0%, var(--ink-mid) 100%);
@@ -190,7 +184,7 @@
 		.quick-answer {
 			padding: 1rem 1.25rem;
 			margin: 1rem 0 1.5rem;
-			border-radius: 10px;
+			border-radius: 0.625rem;
 		}
 
 		.quick-answer__question {

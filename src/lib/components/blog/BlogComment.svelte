@@ -174,7 +174,7 @@
 
 			&:hover {
 				transform: translateY(-2px);
-				box-shadow: 0 0 15px rgba(45, 212, 191, 0.4);
+				box-shadow: var(--glow-sm);
 			}
 		}
 
@@ -208,7 +208,7 @@
 		margin-left: 1.5rem;
 		padding-left: 1rem;
 		padding-bottom: 0.5rem;
-		border-left: 2px solid rgba(45, 212, 191, 0.3);
+		border-left: 2px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 
 		@media (max-width: 576px) {
 			margin-left: 0.75rem;
@@ -233,7 +233,7 @@
 		border-radius: 0 0 12px 12px;
 
 		&:hover {
-			background: rgba(45, 212, 191, 0.15);
+			background: var(--lamp-soft);
 			color: var(--ink-bright);
 		}
 
@@ -247,7 +247,7 @@
 	.loader {
 		width: 1.25rem;
 		height: 1.25rem;
-		border: 3px solid rgba(45, 212, 191, 0.3);
+		border: 3px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 		border-radius: 50%;
 		border-top: 3px solid var(--lamp-glow);
 		animation: spin 0.8s linear infinite;

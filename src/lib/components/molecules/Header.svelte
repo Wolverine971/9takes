@@ -25,6 +25,8 @@
 		{ href: '/about', label: 'About' }
 	];
 
+	// One label per destination, shared with Footer (design audit 2026-06-09:
+	// header and footer named the same routes differently).
 	const libraryItems: NavigationItem[] = [
 		{
 			href: '/questions',
@@ -39,25 +41,28 @@
 		},
 		{
 			href: '/pop-culture',
-			label: 'Pop Culture Analysis',
+			label: 'Pop Culture',
 			description: 'Media, celebrity, and culture reads'
 		},
 		{
 			href: '/enneagram-corner',
-			label: 'Enneagram Deep Dives',
+			label: 'Enneagram Corner',
 			description: 'Theory, instincts, and growth patterns'
 		},
 		{
+			href: '/how-to-guides',
+			label: 'How-to Guides',
+			description: 'Practical playbooks for real situations'
+		},
+		{
 			href: '/community',
-			label: '9takes Opinions',
+			label: 'The Takes of 9takes',
 			description: 'Essay-style takes from the 9takes perspective'
 		}
 	];
 
-	let innerWidth = 1200;
 	let isLibraryOpen = false;
 
-	$: isMobile = innerWidth < 900;
 	$: isLibraryActive = libraryItems.some((item) =>
 		item.href === '/' ? $page.url.pathname === item.href : $page.url.pathname.startsWith(item.href)
 	);
@@ -79,99 +84,98 @@
 	}
 </script>
 
-<svelte:window bind:innerWidth />
-
+<!-- Both layouts render; CSS media queries pick one (design audit 2026-06-09).
+     The old JS branch (innerWidth < 900, SSR default 1200) served desktop markup
+     to mobile users, which swapped after hydration — layout shift on every load. -->
 <header class="nav-main header-shell" aria-label="Site header">
-	{#if isMobile}
-		<div class="mobile-shell">
-			<div class="mobile-top-row">
-				<MobileNav navItems={mobileNavItems} {libraryItems} />
+	<div class="mobile-shell">
+		<div class="mobile-top-row">
+			<MobileNav navItems={mobileNavItems} {libraryItems} />
 
-				<a href="/" class="logo-link" aria-label="Go to homepage">
-					<span class="logo-text">9takes</span>
-				</a>
-
-				<div class="header-actions mobile-actions">
-					<ThemeToggle />
-					{#if data?.user}
-						<a href="/account" class="account-button" aria-label="Go to account" title="Account">
-							<CircleUserRound size={24} strokeWidth={1.5} class="account-icon" />
-						</a>
-					{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-						<a href="/login" class="mobile-login">Log in</a>
-					{/if}
-				</div>
-			</div>
-
-			<div class="mobile-search-row">
-				<div class="search-slot">
-					<HeaderSearch mobile={true} placeholder="Search 9takes" />
-				</div>
-			</div>
-		</div>
-	{:else}
-		<nav class="header-frame" aria-label="Main navigation">
 			<a href="/" class="logo-link" aria-label="Go to homepage">
 				<span class="logo-text">9takes</span>
 			</a>
 
-			<div class="header-middle">
-				<div class="search-slot">
-					<HeaderSearch />
-				</div>
-
-				<div class="library-control" use:onClickOutside={closeLibrary}>
-					<button
-						type="button"
-						class="library-button"
-						class:is-active={isLibraryActive || isLibraryOpen}
-						aria-haspopup="true"
-						aria-expanded={isLibraryOpen}
-						aria-controls="desktop-library-menu"
-						on:click={toggleLibrary}
-					>
-						<span class="library-button-spacer" aria-hidden="true"></span>
-						<span class="library-button-label">Library</span>
-						<ChevronDown
-							class={`dropdown-arrow ${isLibraryOpen ? 'rotated' : ''}`}
-							size={24}
-							strokeWidth={1.8}
-						/>
-					</button>
-
-					{#if isLibraryOpen}
-						<div id="desktop-library-menu" class="library-menu">
-							{#each libraryItems as item}
-								<a
-									href={item.href}
-									class="library-item"
-									class:is-current={isActive(item.href)}
-									class:is-featured={item.featured}
-									on:click={closeLibrary}
-								>
-									<span class="library-label">{item.label}</span>
-									{#if item.description}
-										<span class="library-description">{item.description}</span>
-									{/if}
-								</a>
-							{/each}
-						</div>
-					{/if}
-				</div>
-			</div>
-
-			<div class="header-actions">
+			<div class="header-actions mobile-actions">
 				<ThemeToggle />
 				{#if data?.user}
 					<a href="/account" class="account-button" aria-label="Go to account" title="Account">
-						<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
+						<CircleUserRound size={24} strokeWidth={1.5} class="account-icon" />
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-					<Button href="/login" class="desktop-login">Log in</Button>
+					<a href="/login" class="mobile-login">Log in</a>
 				{/if}
 			</div>
-		</nav>
-	{/if}
+		</div>
+
+		<div class="mobile-search-row">
+			<div class="search-slot">
+				<HeaderSearch mobile={true} placeholder="Search 9takes" />
+			</div>
+		</div>
+	</div>
+
+	<nav class="header-frame" aria-label="Main navigation">
+		<a href="/" class="logo-link" aria-label="Go to homepage">
+			<span class="logo-text">9takes</span>
+		</a>
+
+		<div class="header-middle">
+			<div class="search-slot">
+				<HeaderSearch />
+			</div>
+
+			<div class="library-control" use:onClickOutside={closeLibrary}>
+				<button
+					type="button"
+					class="library-button"
+					class:is-active={isLibraryActive || isLibraryOpen}
+					aria-haspopup="true"
+					aria-expanded={isLibraryOpen}
+					aria-controls="desktop-library-menu"
+					on:click={toggleLibrary}
+				>
+					<span class="library-button-spacer" aria-hidden="true"></span>
+					<span class="library-button-label">Library</span>
+					<ChevronDown
+						class={`dropdown-arrow ${isLibraryOpen ? 'rotated' : ''}`}
+						size={24}
+						strokeWidth={1.8}
+					/>
+				</button>
+
+				{#if isLibraryOpen}
+					<div id="desktop-library-menu" class="library-menu">
+						{#each libraryItems as item}
+							<a
+								href={item.href}
+								class="library-item"
+								class:is-current={isActive(item.href)}
+								class:is-featured={item.featured}
+								on:click={closeLibrary}
+							>
+								<span class="library-label">{item.label}</span>
+								{#if item.description}
+									<span class="library-description">{item.description}</span>
+								{/if}
+							</a>
+						{/each}
+					</div>
+				{/if}
+			</div>
+		</div>
+
+		<div class="header-actions">
+			<ThemeToggle />
+			{#if data?.user}
+				<a href="/account" class="account-button" aria-label="Go to account" title="Account">
+					<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
+				</a>
+			{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
+				<Button href="/login" class="desktop-login">Log in</Button>
+			{/if}
+		</div>
+	</nav>
 </header>
 
 <style lang="scss">
@@ -180,6 +184,12 @@
 		max-width: 1240px;
 		margin: 0 auto;
 		padding: 0.8rem 1.25rem;
+	}
+
+	/* Responsive switch lives in CSS so SSR HTML is correct at every width
+	   (no hydration swap). Desktop default; mobile under 900px. */
+	.mobile-shell {
+		display: none;
 	}
 
 	.header-frame {
@@ -214,7 +224,7 @@
 		justify-content: center;
 		width: 2.75rem;
 		height: 2.75rem;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		color: var(--ink-mid);
 		text-decoration: none;
 		transition: color 0.2s ease;
@@ -234,6 +244,10 @@
 		flex-shrink: 0;
 	}
 
+	/* V5 pass 2026-06-10: static nav chrome carries no shadow or hover lift —
+	   borders do the work (design-system.md §9). Pill radius dropped to the
+	   locked 10px (buttons are rounded-md; pills are for avatars/spinners),
+	   and the button now sits visually below the Log in CTA in weight. */
 	.library-button {
 		display: inline-grid;
 		grid-template-columns: 0.95rem auto 0.95rem;
@@ -243,15 +257,9 @@
 		height: 3rem;
 		min-width: 8.1rem;
 		padding: 0 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--glass-border));
-		border-radius: 999px;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--stone-warm) 94%, transparent),
-				var(--stone-warm)
-			),
-			var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		background: var(--stone-warm);
 		color: var(--ink-mid);
 		font-family: var(--font-mono);
 		font-size: 0.82rem;
@@ -262,15 +270,10 @@
 		text-align: center;
 		white-space: nowrap;
 		cursor: pointer;
-		box-shadow:
-			0 10px 24px color-mix(in srgb, var(--night-deep) 18%, transparent),
-			inset 0 1px 0 color-mix(in srgb, white 5%, transparent);
 		transition:
 			background-color 0.18s ease,
 			border-color 0.18s ease,
-			color 0.18s ease,
-			transform 0.18s ease,
-			box-shadow 0.18s ease;
+			color 0.18s ease;
 	}
 
 	.library-button-label {
@@ -291,9 +294,8 @@
 	.library-button:hover,
 	.library-button.is-active {
 		color: var(--lamp-glow);
-		border-color: color-mix(in srgb, var(--lamp-glow) 42%, var(--glass-border));
-		box-shadow: 0 14px 30px color-mix(in srgb, var(--lamp-glow) 10%, transparent);
-		transform: translateY(-1px);
+		border-color: color-mix(in srgb, var(--lamp-glow) 42%, var(--stone-edge));
+		background: var(--stone-mid);
 	}
 
 	.library-button:focus {
@@ -301,25 +303,17 @@
 		outline-offset: 2px;
 	}
 
+	/* Floating UI — system shadow allowed, solid V5 surface, locked 16px radius. */
 	.library-menu {
 		position: absolute;
 		top: calc(100% + 0.7rem);
 		right: 0;
 		width: min(26rem, 82vw);
 		padding: 0.55rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--glass-border));
-		border-radius: 1.2rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--stone-warm) 98%, transparent),
-				color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep))
-			),
-			var(--stone-warm);
-		box-shadow:
-			0 26px 54px color-mix(in srgb, var(--night-deep) 26%, transparent),
-			0 0 0 1px color-mix(in srgb, var(--lamp-glow) 6%, transparent);
-		backdrop-filter: blur(18px);
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--stone-warm);
+		box-shadow: var(--shadow-lg);
 	}
 
 	.library-item {
@@ -328,7 +322,7 @@
 		flex-direction: column;
 		gap: 0.28rem;
 		padding: 0.9rem 0.95rem;
-		border-radius: 0.95rem;
+		border-radius: 0.625rem;
 		box-shadow: inset 0 0 0 1px transparent;
 		color: var(--ink-mid);
 		text-decoration: none;
@@ -417,7 +411,7 @@
 		align-items: center;
 		min-height: 2.75rem;
 		padding: 0 1rem;
-		border-radius: 999px;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
 		color: var(--lamp-glow);
 		font-size: 0.875rem;
@@ -441,7 +435,12 @@
 	}
 
 	@media (max-width: 899px) {
+		.header-frame {
+			display: none;
+		}
+
 		.mobile-shell {
+			display: block;
 			padding-top: 0.7rem;
 			padding-bottom: 0.8rem;
 		}

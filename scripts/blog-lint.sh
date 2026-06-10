@@ -187,12 +187,25 @@ if grep -qE "^published: true" <<<"$FM" && grep -qE "^[[:space:]]+status: draft"
   warn "published: true while production_pretext.status: draft — states disagree"
 fi
 
-# --- em-dashes (policy unresolved — see audit 2026-06-10 §2.5) ----------------
-EMDASH_COUNT=$(grep -o '—' <<<"$BODY" | wc -l | tr -d ' ')
-if (( EMDASH_COUNT > 0 )); then
-  warn "$EMDASH_COUNT em-dashes in body (editor-pass ban currently unenforced; policy TBD)"
+# --- em-dashes (policy resolved 2026-06-10: banned in prose) ------------------
+# Exemptions: HTML comments (ledgers, review notes) and quote-attribution lines
+# ("…" — Person, source, year  /  lines that begin with an em-dash attribution).
+BODY_PROSE="$(awk 'BEGIN{inc=0} /<!--/{inc=1} inc{if (/-->/) inc=0; next} {print}' <<<"$BODY")"
+PROSE_EMDASH_COUNT=$(awk '
+  {
+    line = $0
+    # strip em-dashes immediately after a closing quote (attribution style)
+    gsub(/["\xe2\x80\x9d'\''’][[:space:]]*—/, "", line)
+    # strip a leading attribution em-dash (optionally inside blockquote/italics)
+    sub(/^[>[:space:]]*[_*]*—/, "", line)
+    n += gsub(/—/, "", line)
+  }
+  END { print n + 0 }
+' <<<"$BODY_PROSE")
+if (( PROSE_EMDASH_COUNT > 0 )); then
+  fail "$PROSE_EMDASH_COUNT prose em-dashes in body (banned; quote attributions are exempt) — rewrite with periods, commas, or colons"
 else
-  pass "no em-dashes"
+  pass "no prose em-dashes (quote attributions exempt)"
 fi
 
 # --- banned AI phrases (warn: may appear inside quotes) -----------------------
@@ -203,7 +216,7 @@ BANNED_PHRASES=(
 )
 HITS=""
 for phrase in "${BANNED_PHRASES[@]}"; do
-  N=$(grep -oiF "$phrase" <<<"$BODY" | wc -l | tr -d ' ')
+  N=$(grep -oiF "$phrase" <<<"$BODY_PROSE" | wc -l | tr -d ' ')
   if (( N > 0 )); then HITS+="'$phrase'×$N "; fi
 done
 if [[ -n "$HITS" ]]; then

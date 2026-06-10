@@ -4,10 +4,11 @@
 	import instagram from '$lib/images/instagram.svg';
 	import twitter from '$lib/images/twitter.svg';
 
-	// Main navigation links (matching navbar)
+	// Main navigation links — one label per destination, shared with Header
+	// (design audit 2026-06-09: header and footer named the same routes differently).
 	const mainLinks = [
 		{ href: '/', label: 'Home' },
-		{ href: '/questions', label: 'Question List' },
+		{ href: '/questions', label: 'Questions' },
 		{ href: '/about', label: 'About' },
 		{ href: '/corpus-stats', label: 'Corpus Stats' }
 	];
@@ -54,9 +55,10 @@
 					<img src="/brand/aero.webp" alt="9takes Logo" height="48" width="48" loading="lazy" />
 					<span class="brand-name">9takes</span>
 				</div>
+				<!-- Locked brand one-liner (brand-positioning.md) — the previous blurb
+				     was the generic-SaaS voice the brand doc bans. -->
 				<p class="brand-description">
-					Explore personality insights through engaging questions and discover what makes each
-					person unique.
+					See the emotions behind every take. One situation, nine ways to see it.
 				</p>
 
 				<!-- Social Links -->
@@ -218,7 +220,7 @@
 		height: 2.5rem;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		transition: all 0.2s ease;
 
 		img {

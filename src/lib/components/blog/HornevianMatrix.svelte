@@ -104,10 +104,10 @@
 			var(--night-deep) 50%,
 			var(--night-deep) 100%
 		);
-		border: 1px solid rgba(45, 212, 191, 0.25);
+		border: 1px solid color-mix(in srgb, var(--data-teal) 25%, transparent);
 		box-shadow:
 			0 8px 28px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(45, 212, 191, 0.1);
+			0 0 0 1px color-mix(in srgb, var(--data-teal) 10%, transparent);
 	}
 
 	.hornevian__legend {
@@ -150,8 +150,8 @@
 		padding: 0.6rem 0.4rem;
 		text-align: center;
 		border-radius: 8px;
-		background: rgba(45, 212, 191, 0.08);
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		background: color-mix(in srgb, var(--data-teal) 8%, transparent);
+		border: 1px solid color-mix(in srgb, var(--data-teal) 20%, transparent);
 	}
 
 	.hornevian__want {
@@ -176,8 +176,12 @@
 		align-items: flex-start;
 		padding: 0.75rem 0.85rem;
 		border-radius: 8px;
-		background: linear-gradient(90deg, rgba(45, 212, 191, 0.12) 0%, rgba(45, 212, 191, 0.04) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		background: linear-gradient(
+			90deg,
+			color-mix(in srgb, var(--data-teal) 12%, transparent) 0%,
+			color-mix(in srgb, var(--data-teal) 4%, transparent) 100%
+		);
+		border: 1px solid color-mix(in srgb, var(--data-teal) 20%, transparent);
 		border-left: 4px solid var(--lamp-glow);
 	}
 
@@ -212,8 +216,8 @@
 			transform 0.18s ease;
 
 		&:hover {
-			background: rgba(45, 212, 191, 0.1);
-			border-color: rgba(45, 212, 191, 0.35);
+			background: color-mix(in srgb, var(--data-teal) 10%, transparent);
+			border-color: color-mix(in srgb, var(--data-teal) 35%, transparent);
 			transform: translateY(-1px);
 		}
 

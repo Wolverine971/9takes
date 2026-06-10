@@ -399,7 +399,7 @@
 		margin: 1rem;
 		max-width: 92%;
 		text-align: left;
-		border: 1px solid rgba(45, 212, 191, 0.4);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 40%, transparent);
 		background: rgba(12, 10, 9, 0.5);
 
 		// Corner bracket accents
@@ -407,7 +407,7 @@
 			position: absolute;
 			width: 12px;
 			height: 12px;
-			border-color: rgba(45, 212, 191, 0.8);
+			border-color: color-mix(in srgb, var(--lamp-glow) 80%, transparent);
 			border-style: solid;
 
 			&--tl {
@@ -438,7 +438,7 @@
 			align-items: center;
 			margin-bottom: 0.75rem;
 			padding-bottom: 0.5rem;
-			border-bottom: 1px solid rgba(45, 212, 191, 0.3);
+			border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 		}
 
 		&__label {
@@ -452,7 +452,7 @@
 			font-size: clamp(0.6rem, 1.8vw, 0.7rem);
 			letter-spacing: 0.1em;
 			color: var(--lamp-glow);
-			border: 1px solid rgba(45, 212, 191, 0.5);
+			border: 1px solid color-mix(in srgb, var(--lamp-glow) 50%, transparent);
 			padding: 0.15rem 0.5rem;
 			font-weight: 700;
 		}
@@ -462,8 +462,8 @@
 			background: linear-gradient(
 				90deg,
 				transparent,
-				rgba(45, 212, 191, 0.3) 20%,
-				rgba(45, 212, 191, 0.3) 80%,
+				color-mix(in srgb, var(--lamp-glow) 30%, transparent) 20%,
+				color-mix(in srgb, var(--lamp-glow) 30%, transparent) 80%,
 				transparent
 			);
 			margin: 0.4rem 0;

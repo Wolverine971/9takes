@@ -46,13 +46,9 @@
 		position: relative;
 		margin: 2.5rem 0 2rem;
 		padding: 1.75rem 2rem 2rem 2.25rem;
-		border-radius: 14px;
+		border-radius: 1rem;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border: 1px solid var(--primary-subtle);
-		box-shadow:
-			0 8px 28px rgba(0, 0, 0, 0.32),
-			0 0 0 1px var(--primary-subtle),
-			0 0 36px var(--primary-glow);
 		overflow: hidden;
 	}
 
@@ -63,7 +59,7 @@
 		bottom: 0;
 		width: 5px;
 		background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		border-radius: 14px 0 0 14px;
+		border-radius: 1rem 0 0 1rem;
 	}
 
 	.session-cta__content {
@@ -101,10 +97,9 @@
 		color: var(--night-deep);
 		font-weight: 600;
 		font-size: 1rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		text-decoration: none;
 		transition: all 0.2s ease;
-		box-shadow: 0 4px 14px var(--primary-glow);
 
 		&:hover {
 			background: var(--lamp-glow);
@@ -122,7 +117,7 @@
 		.session-cta {
 			margin: 2rem 0 1.5rem;
 			padding: 1.25rem 1.25rem 1.5rem 1.5rem;
-			border-radius: 12px;
+			border-radius: 1rem;
 		}
 
 		.session-cta__title {

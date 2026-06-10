@@ -11,7 +11,7 @@ published: true
 type: ['development']
 blog: true
 previewHtml: ''
-pic: 'greek-statues-who-are-stressed'
+pic: 'greek-statue-stress-paradox'
 path: src/blog/enneagram/situations-change-emotions-dont.md
 quality_grade: 'B+'
 quality_score: 8.5
@@ -207,7 +207,7 @@ The Eightfold Fence is presented as a tool for maintaining sanity and composure 
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-who-are-stressed.webp",
+        "url": "https://9takes.com/blogs/greek-statue-stress-paradox.webp",
         "width": 900
       },
       "mainEntityOfPage": {

@@ -412,7 +412,7 @@
 								<span class="suggestion-pill">{suggestion.replace(/-/g, ' ')}</span>
 							{/each}
 						{:else}
-							<span class="text-xs text-gray-400">None</span>
+							<span class="text-xs text-[var(--ink-mid)]">None</span>
 						{/if}
 					</div>
 				</div>

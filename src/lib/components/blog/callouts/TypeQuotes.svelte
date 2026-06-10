@@ -95,30 +95,23 @@
 	.type-quotes {
 		margin: 1.5rem 0;
 		padding: 1.25rem 1.5rem;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		background: linear-gradient(
 			135deg,
 			var(--stone-warm) 0%,
 			var(--night-deep) 50%,
 			var(--night-deep) 100%
 		);
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		box-shadow:
-			0 4px 20px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(45, 212, 191, 0.1);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 
 		&--subtle {
 			background: linear-gradient(135deg, var(--night-deep) 0%, var(--night-deep) 100%);
 			border-color: color-mix(in srgb, var(--ink-dim) 20%, transparent);
-			box-shadow:
-				0 2px 12px rgba(0, 0, 0, 0.25),
-				0 1px 3px rgba(0, 0, 0, 0.15);
 		}
 
 		&--minimal {
 			background: transparent;
 			border: none;
-			box-shadow: none;
 			padding: 0.5rem 0;
 		}
 	}
@@ -129,7 +122,7 @@
 		color: var(--ink-bright);
 		margin: 0 0 1rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid rgba(45, 212, 191, 0.2);
+		border-bottom: 1px solid var(--stone-edge);
 	}
 
 	.type-quotes__list {
@@ -145,9 +138,8 @@
 		gap: 0.5rem;
 		padding: 0.75rem 1rem;
 		background: rgba(255, 255, 255, 0.03);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border-left: 4px solid var(--type-border);
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 		transition:
 			transform 0.2s ease,
 			box-shadow 0.2s ease,
@@ -170,7 +162,7 @@
 		color: var(--type-text);
 		background: var(--type-bg);
 		border: 1px solid var(--type-border);
-		border-radius: 6px;
+		border-radius: 0.25rem;
 		white-space: nowrap;
 		flex-shrink: 0;
 	}

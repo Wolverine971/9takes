@@ -183,23 +183,48 @@
 
 	// §03 — Legacy tokens (deprecated, bridge only — Phase 7 cleanup)
 	const legacyPrimary: SwatchRow[] = [
-		{ token: '--primary', dark: '#2DD4BF', light: '#0D9488', use: 'legacy teal primary' },
-		{ token: '--primary-dark', dark: '#14B8A6', light: '#0F766E', use: 'legacy hover' },
-		{ token: '--primary-darker', dark: '#0D9488', light: '#115E59', use: 'legacy pressed' },
-		{ token: '--primary-light', dark: '#5EEAD4', light: '#14B8A6', use: 'legacy soft' },
-		{ token: '--primary-lighter', dark: '#99F6E4', light: '#2DD4BF', use: 'legacy lighter tint' },
-		{ token: '--primary-lightest', dark: '#CCFBF1', light: '#5EEAD4', use: 'legacy lightest tint' },
+		{ token: '--primary', dark: '#F59E0B', light: '#B45309', use: 'legacy alias → --lamp-glow' },
+		{
+			token: '--primary-dark',
+			dark: '#F59E0B',
+			light: '#B45309',
+			use: 'legacy hover → --lamp-glow'
+		},
+		{
+			token: '--primary-darker',
+			dark: '#F59E0B',
+			light: '#B45309',
+			use: 'legacy pressed → --lamp-glow'
+		},
+		{
+			token: '--primary-light',
+			dark: '#F59E0B',
+			light: '#B45309',
+			use: 'legacy soft → --lamp-glow'
+		},
+		{
+			token: '--primary-lighter',
+			dark: '#F59E0B',
+			light: '#B45309',
+			use: 'legacy lighter tint → --lamp-glow'
+		},
+		{
+			token: '--primary-lightest',
+			dark: '#F59E0B',
+			light: '#B45309',
+			use: 'legacy lightest tint → --lamp-glow'
+		},
 		{
 			token: '--primary-glow',
-			dark: 'rgba(45,212,191,0.40)',
-			light: 'rgba(13,148,136,0.25)',
-			use: 'legacy glow alpha'
+			dark: 'rgba(245,158,11,0.40)',
+			light: 'rgba(217,119,6,0.18)',
+			use: 'legacy glow alpha → --lamp-glow-rgba'
 		},
 		{
 			token: '--primary-subtle',
-			dark: 'rgba(45,212,191,0.12)',
-			light: 'rgba(13,148,136,0.08)',
-			use: 'legacy subtle bg'
+			dark: 'rgba(245,158,11,0.14)',
+			light: 'rgba(180,83,9,0.10)',
+			use: 'legacy subtle bg → --lamp-soft'
 		}
 	];
 

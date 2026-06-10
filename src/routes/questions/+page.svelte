@@ -1043,7 +1043,7 @@
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
 		border-left: 3px solid var(--lamp-glow);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.signup-step-num {

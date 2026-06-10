@@ -64,7 +64,7 @@
 
 		&--card {
 			border-radius: 12px;
-			box-shadow: 0 0 15px rgba(45, 212, 191, 0.1);
+			box-shadow: 0 0 15px color-mix(in srgb, var(--lamp-glow) 10%, transparent);
 		}
 
 		&--pulse {
@@ -79,7 +79,12 @@
 			bottom: 0;
 			left: 0;
 			transform: translateX(-100%);
-			background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.2), transparent);
+			background: linear-gradient(
+				90deg,
+				transparent,
+				color-mix(in srgb, var(--lamp-glow) 20%, transparent),
+				transparent
+			);
 			animation: skeleton-wave 1.5s ease-in-out infinite;
 		}
 	}

@@ -230,7 +230,8 @@
 		type: 'image/png' as const,
 		margin: 1,
 		color: {
-			dark: '#2DD4BF',
+			// Brand amber (--lamp-glow) on night-deep — was the retired teal.
+			dark: '#F59E0B',
 			light: '#0C0A09'
 		}
 	};
@@ -1142,7 +1143,7 @@
 		margin-top: 24px;
 		padding: 20px;
 		border: 1px solid var(--stone-edge);
-		border-radius: 12px;
+		border-radius: 1rem;
 		background: var(--stone-warm);
 	}
 
@@ -1428,7 +1429,7 @@
 
 		.open-case-display :global(.question-display-card) {
 			padding: 24px 18px;
-			border-radius: 12px;
+			border-radius: 1rem;
 		}
 	}
 </style>

@@ -645,10 +645,7 @@
 			radial-gradient(ellipse 70% 60% at 50% 35%, var(--tf-pool) 0%, transparent 60%),
 			linear-gradient(180deg, var(--tf-night-mid) 0%, var(--tf-night) 100%);
 		border: 1px solid var(--tf-edge);
-		border-radius: 14px;
-		box-shadow:
-			0 12px 40px var(--tf-card-shadow),
-			0 0 0 1px var(--tf-card-ring);
+		border-radius: 1rem;
 
 		font-family: var(--tf-body);
 		color: var(--tf-ink);

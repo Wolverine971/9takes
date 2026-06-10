@@ -71,7 +71,7 @@
 		background: radial-gradient(
 			circle,
 			rgba(94, 234, 212, 0.95) 0%,
-			rgba(45, 212, 191, 0.7) 40%,
+			color-mix(in srgb, var(--data-cyan) 70%, transparent) 40%,
 			transparent 70%
 		);
 		border-radius: 50%;
@@ -82,7 +82,7 @@
 		animation-delay: var(--delay);
 		filter: blur(0.5px);
 		box-shadow:
-			0 0 14px rgba(45, 212, 191, 0.5),
+			0 0 14px color-mix(in srgb, var(--data-cyan) 50%, transparent),
 			0 0 5px rgba(94, 234, 212, 0.75);
 	}
 
@@ -128,7 +128,7 @@
 	.glow-1 {
 		width: 500px;
 		height: 500px;
-		background: rgba(45, 212, 191, 0.06);
+		background: color-mix(in srgb, var(--data-cyan) 6%, transparent);
 		top: 5%;
 		left: -150px;
 		animation-delay: 0s;

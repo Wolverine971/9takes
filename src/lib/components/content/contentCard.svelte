@@ -276,7 +276,7 @@
 			color: var(--ink-dim, var(--ink-dim));
 
 			&:hover {
-				background: rgba(45, 212, 191, 0.15);
+				background: var(--lamp-soft);
 				color: var(--ink-mid, var(--ink-mid));
 			}
 		}

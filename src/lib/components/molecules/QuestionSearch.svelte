@@ -157,7 +157,7 @@
 		&:focus {
 			outline: none;
 			border-color: var(--lamp-glow, var(--lamp-glow));
-			box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.2);
+			box-shadow: 0 0 0 2px color-mix(in srgb, var(--lamp-glow) 20%, transparent);
 		}
 	}
 

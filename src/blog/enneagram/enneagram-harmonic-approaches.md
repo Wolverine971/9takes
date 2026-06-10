@@ -12,7 +12,7 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'greek-council-disagreeing'
+pic: 'greek-statues-harmonic-conflict-styles'
 path: src/blog/enneagram/enneagram-harmonic-approaches.md
 ---
 
@@ -331,7 +331,7 @@ Most of the time, the people you fight with aren't actually wrong about the prob
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/greek-council-disagreeing.webp",
+        "url": "https://9takes.com/blogs/greek-statues-harmonic-conflict-styles.webp",
         "width": 900
       },
       "keywords": ["enneagram harmonic approaches", "enneagram harmonics", "enneagram conflict styles", "reactive positive outlook competency", "riso hudson harmonics", "enneagram coping styles", "enneagram conflict resolution"],

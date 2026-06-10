@@ -123,7 +123,7 @@
 		position: relative;
 		margin: 1.5rem 0 2rem;
 		padding: 1rem 1.25rem 1.05rem 1.5rem;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		background: linear-gradient(
 			135deg,
 			color-mix(in srgb, var(--shadow-flame, #f97316) 6%, var(--stone-warm)) 0%,
@@ -131,9 +131,6 @@
 			var(--night-deep) 100%
 		);
 		border: 1px solid color-mix(in srgb, var(--shadow-flame, #f97316) 28%, transparent);
-		box-shadow:
-			0 4px 18px rgba(0, 0, 0, 0.28),
-			0 0 0 1px color-mix(in srgb, var(--shadow-flame, #f97316) 8%, transparent);
 
 		&::before {
 			content: '';
@@ -147,7 +144,7 @@
 				var(--shadow-flame, #f97316) 0%,
 				color-mix(in srgb, var(--shadow-flame, #f97316) 60%, var(--lamp-glow)) 100%
 			);
-			border-radius: 12px 0 0 12px;
+			border-radius: 0.625rem 0 0 0.625rem;
 		}
 	}
 

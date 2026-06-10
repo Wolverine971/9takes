@@ -17,9 +17,15 @@
 
 	// Solo Leveling dark theme accent colors for each tone
 	const toneConfig: Record<Tone, { accent: string; glow: string }> = {
-		success: { accent: '#22c55e', glow: 'rgba(34, 197, 94, 0.15)' },
-		info: { accent: 'var(--lamp-glow)', glow: 'rgba(45, 212, 191, 0.15)' },
-		warning: { accent: '#f59e0b', glow: 'rgba(245, 158, 11, 0.15)' },
+		success: {
+			accent: 'var(--success)',
+			glow: 'color-mix(in srgb, var(--success) 15%, transparent)'
+		},
+		info: { accent: 'var(--lamp-glow)', glow: 'var(--lamp-soft)' },
+		warning: {
+			accent: 'var(--warning)',
+			glow: 'color-mix(in srgb, var(--warning) 15%, transparent)'
+		},
 		neutral: {
 			accent: 'var(--ink-dim)',
 			glow: 'color-mix(in srgb, var(--ink-dim) 15%, transparent)'
@@ -59,20 +65,17 @@
 			var(--night-deep) 100%
 		);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
-		box-shadow:
-			0 4px 16px rgba(0, 0, 0, 0.25),
-			0 0 0 1px var(--glow-color);
 
 		&--success {
-			border-color: rgba(34, 197, 94, 0.25);
+			border-color: color-mix(in srgb, var(--success) 25%, transparent);
 		}
 
 		&--info {
-			border-color: rgba(45, 212, 191, 0.25);
+			border-color: color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 		}
 
 		&--warning {
-			border-color: rgba(245, 158, 11, 0.25);
+			border-color: color-mix(in srgb, var(--warning) 25%, transparent);
 		}
 
 		&--neutral {

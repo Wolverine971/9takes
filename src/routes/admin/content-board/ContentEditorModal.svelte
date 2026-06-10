@@ -334,7 +334,7 @@
 		<div class="modal-content">
 			{#if loading}
 				<div class="loading-state">
-					<svg class="h-8 w-8 animate-spin text-blue-600" viewBox="0 0 24 24">
+					<svg class="h-8 w-8 animate-spin text-[var(--lamp-glow)]" viewBox="0 0 24 24">
 						<circle
 							class="opacity-25"
 							cx="12"

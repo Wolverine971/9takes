@@ -149,7 +149,7 @@
 			<div class="space-y-4 py-4">
 				{#each Array(3) as _, i}
 					<div
-						class="rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-5"
+						class="rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-lg"
 						in:fade={{ duration: 300, delay: i * 50 }}
 					>
 						<div class="flex gap-4">

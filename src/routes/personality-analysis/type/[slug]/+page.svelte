@@ -564,7 +564,11 @@
 		transform: translateX(-50%);
 		width: 400px;
 		height: 200px;
-		background: radial-gradient(ellipse, rgba(45, 212, 191, 0.15) 0%, transparent 70%);
+		background: radial-gradient(
+			ellipse,
+			color-mix(in srgb, var(--lamp-glow) 15%, transparent) 0%,
+			transparent 70%
+		);
 		pointer-events: none;
 	}
 
@@ -577,7 +581,7 @@
 		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		border-radius: 1rem;
 		margin-bottom: 1rem;
-		box-shadow: 0 0 30px rgba(45, 212, 191, 0.4);
+		box-shadow: 0 0 30px var(--primary-glow);
 		position: relative;
 
 		&::after {
@@ -687,7 +691,11 @@
 			position: absolute;
 			inset: 0.45rem;
 			border-radius: 0.6rem;
-			background: linear-gradient(135deg, rgba(45, 212, 191, 0.1) 0%, transparent 50%);
+			background: linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
+				transparent 50%
+			);
 			opacity: 0;
 			transition: opacity 0.25s ease;
 			z-index: 1;
@@ -695,10 +703,10 @@
 
 		&:hover {
 			transform: translateY(-4px);
-			border-color: rgba(45, 212, 191, 0.4);
+			border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
 			box-shadow:
 				var(--shadow-lg),
-				0 0 0 1px rgba(45, 212, 191, 0.1);
+				0 0 0 1px color-mix(in srgb, var(--lamp-glow) 10%, transparent);
 
 			&::before {
 				opacity: 1;
@@ -795,13 +803,17 @@
 			}
 
 			a:hover {
-				border-color: rgba(45, 212, 191, 0.4);
+				border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
 				color: var(--ink-bright);
 			}
 
 			&.current {
-				background: linear-gradient(135deg, rgba(45, 212, 191, 0.18), rgba(167, 139, 250, 0.12));
-				border-color: rgba(45, 212, 191, 0.5);
+				background: linear-gradient(
+					135deg,
+					color-mix(in srgb, var(--lamp-glow) 18%, transparent),
+					rgba(167, 139, 250, 0.12)
+				);
+				border-color: color-mix(in srgb, var(--lamp-glow) 50%, transparent);
 				color: var(--ink-bright);
 				font-weight: 600;
 			}
@@ -834,7 +846,7 @@
 		padding: 2.5rem 2rem;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border-radius: 1rem;
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, transparent);
 		color: var(--ink-bright);
 		position: relative;
 		overflow: hidden;
@@ -847,7 +859,11 @@
 			transform: translateX(-50%);
 			width: 300px;
 			height: 150px;
-			background: radial-gradient(ellipse, rgba(45, 212, 191, 0.08) 0%, transparent 70%);
+			background: radial-gradient(
+				ellipse,
+				color-mix(in srgb, var(--lamp-glow) 8%, transparent) 0%,
+				transparent 70%
+			);
 			pointer-events: none;
 		}
 	}

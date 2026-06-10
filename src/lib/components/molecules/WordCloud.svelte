@@ -106,6 +106,6 @@
 	}
 </script>
 
-<div class="h-full w-full rounded-xl bg-gray-100">
+<div class="h-full w-full rounded-xl bg-[var(--stone-mid)]">
 	<svg bind:this={svg} />
 </div>

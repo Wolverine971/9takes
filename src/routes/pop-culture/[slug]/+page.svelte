@@ -228,8 +228,8 @@
 		&.dark-theme {
 			padding: 2rem;
 			background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-			border-radius: 16px;
-			border: 1px solid rgba(45, 212, 191, 0.2);
+			border-radius: 1rem;
+			border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 			color: var(--ink-bright);
 
 			:global(h1) {
@@ -245,7 +245,7 @@
 	.content-warning {
 		background: rgba(239, 68, 68, 0.15);
 		border: 2px solid #ef4444;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 1rem;
 		margin-bottom: 1.5rem;
 		color: #f87171;
@@ -265,12 +265,12 @@
 		.tag {
 			display: inline-block;
 			padding: 0.25rem 0.75rem;
-			background: rgba(45, 212, 191, 0.15);
+			background: var(--lamp-soft);
 			color: var(--lamp-glow);
-			border-radius: 20px;
+			border-radius: 9999px;
 			font-size: 0.85rem;
 			font-weight: 500;
-			border: 1px solid rgba(45, 212, 191, 0.3);
+			border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
 		}
 	}
 
@@ -362,7 +362,7 @@
 			background-color: var(--stone-warm);
 			font-style: italic;
 			color: var(--ink-mid);
-			border-radius: 0 8px 8px 0;
+			border-radius: 0 0.625rem 0.625rem 0;
 		}
 
 		:global(blockquote p) {
@@ -386,7 +386,7 @@
 		:global(pre) {
 			background-color: var(--night-deep);
 			border: 1px solid var(--stone-edge);
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			padding: 1rem;
 			overflow-x: auto;
 
@@ -401,8 +401,8 @@
 		margin-top: 3rem;
 		padding: 2.5rem;
 		background: var(--stone-warm);
-		border-radius: 16px;
-		border: 1px solid rgba(45, 212, 191, 0.25);
+		border-radius: 1rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 
 		.related-eyebrow {
 			text-transform: uppercase;
@@ -432,9 +432,9 @@
 			display: flex;
 			flex-direction: column;
 			padding: 1.5rem;
-			background: rgba(45, 212, 191, 0.08);
-			border-radius: 12px;
-			border: 1px solid rgba(45, 212, 191, 0.15);
+			background: var(--lamp-soft);
+			border-radius: 0.625rem;
+			border: 1px solid var(--stone-edge);
 			text-decoration: none;
 			color: inherit;
 			transition:
@@ -443,8 +443,8 @@
 				transform 0.2s ease;
 
 			&:hover {
-				border-color: rgba(45, 212, 191, 0.5);
-				background: rgba(45, 212, 191, 0.14);
+				border-color: color-mix(in srgb, var(--lamp-glow) 50%, var(--stone-edge));
+				background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 				transform: translateY(-2px);
 
 				.card-link {
@@ -492,7 +492,7 @@
 		padding: 2rem;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border-radius: 1rem;
-		border: 1px solid rgba(45, 212, 191, 0.2);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 	}
 
 	/* Mobile-specific styles */

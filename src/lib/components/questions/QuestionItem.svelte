@@ -98,7 +98,7 @@
 		@apply relative overflow-hidden;
 		background-color: var(--stone-warm);
 		backdrop-filter: blur(4px);
-		border-left: 3px solid rgba(45, 212, 191, 0.6);
+		border-left: 3px solid color-mix(in srgb, var(--lamp-glow) 60%, transparent);
 		border-radius: 0.375rem;
 		color: var(--ink-bright);
 	}

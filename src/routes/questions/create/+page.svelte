@@ -297,7 +297,7 @@
 		Your question could lead to fascinating insights. What would you like to explore today?
 	</p>
 	<div
-		class="mt-6 rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-5 shadow-[var(--shadow-md)] transition hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] sm:p-8"
+		class="mt-6 rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-lg shadow-[var(--shadow-md)] transition hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] sm:p-8"
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
 		<textarea
@@ -310,7 +310,7 @@
 			maxlength={MAX_CHAR_COUNT}
 		></textarea>
 		<div
-			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT || (questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT) ? 'text-red-400' : 'text-[var(--ink-dim)]'}`}
+			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT || (questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT) ? 'text-[var(--error-text)]' : 'text-[var(--ink-dim)]'}`}
 		>
 			{questionCharCount}/{MAX_CHAR_COUNT} characters
 			{#if questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT}

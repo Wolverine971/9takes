@@ -49,8 +49,10 @@
 	--accent-glow: var(--lamp-glow-rgba);
 	--accent-subtle: var(--lamp-soft);
 
-	/* Legacy aliases — used by some components */
-	--accent-rgb: 45, 212, 191;
+	/* Legacy aliases — used by some components.
+	   2026-06-10: --accent-rgb was the retired teal (45,212,191); now amber
+	   to match --accent → --lamp-glow. */
+	--accent-rgb: 245, 158, 11;
 	--color-theme-purple: var(--primary);
 	--color-theme-purple-dark: var(--primary-dark);
 	--color-theme-purple-light: var(--primary-light);
@@ -163,10 +165,14 @@
 	/* ========================================
 	   LAYOUT
 	   ======================================== */
-	--border-radius: 0.5rem;
+	/* Radius tokens aligned to the locked scale (design-system.md §8:
+	   4px / 10px / 16px / full). 2026-06-10: --border-radius was 0.5rem (8px,
+	   off-scale) and --border-radius-lg was 0.75rem (12px, deprecated) — the
+	   source of the "8px card language" drift. Now 10px / 16px. */
+	--border-radius: 0.625rem;
 	--border-radius-md: var(--border-radius);
 	--base-border-radius: var(--border-radius);
-	--border-radius-lg: 0.75rem;
+	--border-radius-lg: 1rem;
 	--border-radius-sm: 0.25rem;
 	--card-padding: 1.25rem;
 	--card-margin: 1rem;
@@ -231,7 +237,9 @@
 	   MISC
 	   ======================================== */
 	--glass-color: rgba(28, 25, 23, 0.85);
-	--glass-border: rgba(45, 212, 191, 0.15);
+	/* 2026-06-10: was the retired teal rgba(45,212,191,0.15) — it tinted the
+	   site header's bottom border teal. Now a stone-edge tint. */
+	--glass-border: rgba(92, 79, 71, 0.45);
 	--base-white-outline: #fafaf9;
 	--classic-border: 1px solid var(--bg-elevated);
 	--image-overlay-strong: rgba(12, 10, 9, 0.97);
@@ -377,7 +385,8 @@
 	/* --glow-lg removed 2026-05-04 — see design-system.md §5. */
 
 	--glass-color: rgba(255, 255, 255, 0.85);
-	--glass-border: rgba(13, 148, 136, 0.12);
+	/* 2026-06-10: was a teal tint; now stone-edge (light) to match dark mode. */
+	--glass-border: rgba(214, 204, 184, 0.7);
 
 	--off-white: #fafaf9;
 	--dark-gray: #57534e;

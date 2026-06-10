@@ -64,17 +64,14 @@
 	.checklist {
 		margin: 1.5rem 0;
 		padding: 1.25rem 1.5rem;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		background: linear-gradient(
 			135deg,
 			var(--stone-warm) 0%,
 			var(--night-deep) 50%,
 			var(--night-deep) 100%
 		);
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		box-shadow:
-			0 4px 20px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(45, 212, 191, 0.1);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 	}
 
 	.checklist__title {
@@ -84,7 +81,7 @@
 		text-align: center;
 		margin: 0 0 1rem;
 		padding-bottom: 0.75rem;
-		border-bottom: 1px solid rgba(45, 212, 191, 0.2);
+		border-bottom: 1px solid var(--stone-edge);
 	}
 
 	.checklist__items {
@@ -100,12 +97,12 @@
 		padding: 0.75rem 1rem;
 		background: rgba(255, 255, 255, 0.03);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		transition: all 0.2s ease;
 
 		&:hover {
-			background: rgba(45, 212, 191, 0.08);
-			border-color: rgba(45, 212, 191, 0.25);
+			background: var(--lamp-soft);
+			border-color: color-mix(in srgb, var(--lamp-glow) 25%, var(--stone-edge));
 		}
 	}
 
@@ -140,7 +137,7 @@
 
 		&:focus {
 			outline: none;
-			box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.3);
+			box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 		}
 	}
 
@@ -168,8 +165,8 @@
 
 	// Checked state styling for the whole item
 	.checklist__item--checked {
-		background: rgba(34, 197, 94, 0.08);
-		border-color: rgba(34, 197, 94, 0.2);
+		background: color-mix(in srgb, var(--success) 8%, transparent);
+		border-color: color-mix(in srgb, var(--success) 20%, transparent);
 
 		.checklist__label {
 			color: var(--ink-mid);

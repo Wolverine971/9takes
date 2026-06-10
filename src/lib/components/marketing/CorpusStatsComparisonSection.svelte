@@ -350,7 +350,7 @@
 
 	/* ===== Caveat box ===== */
 	.caveat-box {
-		border: 1px solid rgba(45, 212, 191, 0.25);
+		border: 1px solid color-mix(in srgb, var(--data-teal) 25%, transparent);
 		border-left: 3px solid var(--shadow-flame, var(--lamp-glow));
 		background: var(--stone-warm);
 		border-radius: 10px;

@@ -70,7 +70,7 @@ blockquote {
 	background-color: var(--stone-warm);
 	font-style: italic;
 	color: var(--ink-mid);
-	border-radius: 0 8px 8px 0;
+	border-radius: 0 0.625rem 0.625rem 0;
 
 	p {
 		margin: 0;
@@ -101,7 +101,7 @@ blockquote {
 /* Image styling */
 .arrow-img {
 	border: 1px solid var(--glass-border);
-	border-radius: 8px;
+	border-radius: 0.625rem;
 }
 
 /* Iframe container */
@@ -110,7 +110,7 @@ blockquote {
 	margin: 2rem 0;
 	min-height: 400px;
 	width: 100%;
-	border-radius: 12px;
+	border-radius: 0.625rem;
 	border: 1px solid var(--glass-border);
 	overflow: hidden;
 	background: var(--night-deep);
@@ -130,7 +130,6 @@ blockquote {
 	.blog {
 		background-color: var(--night-deep);
 		border-radius: 1rem;
-		box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
 		margin-top: 0 !important;
 		padding: 2rem !important;
@@ -212,7 +211,7 @@ blockquote {
 	padding: 15px 20px;
 	background-color: var(--primary-subtle);
 	border-left: 4px solid var(--lamp-glow);
-	border-radius: 0 8px 8px 0;
+	border-radius: 0 0.625rem 0.625rem 0;
 	margin: 20px 0;
 	font-size: 1.05em;
 	color: var(--ink-mid);
@@ -224,7 +223,7 @@ blockquote {
 	padding: 1rem 1.25rem;
 	background-color: rgba(251, 191, 36, 0.08);
 	border-left: 4px solid var(--warning);
-	border-radius: 0 8px 8px 0;
+	border-radius: 0 0.625rem 0.625rem 0;
 	font-size: 0.9rem;
 	color: var(--ink-mid);
 
@@ -262,7 +261,7 @@ blockquote {
 	color: var(--ink-bright);
 	border-top: 2px solid var(--lamp-glow);
 	border-bottom: 2px solid var(--lamp-glow);
-	background: linear-gradient(135deg, rgba(45, 212, 191, 0.06) 0%, transparent 100%);
+	background: linear-gradient(135deg, var(--lamp-soft) 0%, transparent 100%);
 
 	&::before {
 		content: '\201C';
@@ -301,7 +300,7 @@ blockquote {
 	padding: 1.25rem 1.5rem;
 	border-radius: 10px;
 	background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-	border: 1px solid rgba(45, 212, 191, 0.2);
+	border: 1px solid var(--data-teal-rgba);
 
 	&__number {
 		font-size: 2.5rem;
@@ -473,7 +472,7 @@ blockquote {
 		}
 
 		&--right {
-			background: linear-gradient(135deg, rgba(45, 212, 191, 0.08) 0%, var(--night-deep) 100%);
+			background: linear-gradient(135deg, var(--lamp-soft) 0%, var(--night-deep) 100%);
 		}
 	}
 
@@ -576,7 +575,7 @@ blockquote {
 		align-items: baseline;
 		gap: 0.75rem;
 		padding: 0.625rem 1rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: rgba(255, 255, 255, 0.02);
 		border-left: 3px solid var(--stone-warm);
 	}
@@ -600,10 +599,10 @@ blockquote {
 
 	/* Alternate speaker gets a different accent */
 	&__line:nth-child(even) {
-		border-left-color: var(--secondary-subtle);
+		border-left-color: var(--data-teal-rgba);
 
 		.dialogue__speaker {
-			color: var(--secondary-light);
+			color: var(--data-cyan);
 		}
 	}
 
@@ -661,7 +660,7 @@ blockquote {
  * ============================================ */
 .enneagram-rabbit-hole {
 	margin: 2.5rem 0;
-	border-radius: 12px;
+	border-radius: 0.625rem;
 	background: linear-gradient(
 		180deg,
 		color-mix(in srgb, var(--lamp-glow) 6%, var(--stone-warm)) 0%,
@@ -962,7 +961,7 @@ blockquote {
 	pre {
 		background-color: var(--night-deep);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 1rem;
 		margin: 1.5rem 0;
 		overflow-x: auto;
@@ -999,7 +998,7 @@ blockquote {
 		}
 
 		tr:nth-child(even) {
-			background-color: rgba(45, 212, 191, 0.05);
+			background-color: color-mix(in srgb, var(--stone-mid) 40%, transparent);
 		}
 	}
 }
@@ -1016,7 +1015,7 @@ blockquote {
 		margin: 1.75rem 0 !important;
 		padding: 1.25rem !important;
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 38%, transparent);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--night-mid) 46%, var(--stone-warm));
 		color: var(--ink-bright);
 		overflow: hidden;
@@ -1134,7 +1133,7 @@ blockquote {
 			display: block;
 			max-width: 100%;
 			height: auto;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 		}
 
 		> table {
@@ -1146,7 +1145,7 @@ blockquote {
 		> details {
 			padding: 0.85rem 1rem;
 			border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			background: color-mix(in srgb, var(--night-deep) 36%, transparent);
 
 			summary {
@@ -1233,7 +1232,7 @@ blockquote {
 		.section-content {
 			margin: 1.5rem -0.25rem !important;
 			padding: 1rem !important;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 
 			> * + * {
 				margin-top: 0.8rem;

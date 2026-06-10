@@ -1,7 +1,5 @@
 <!-- src/lib/components/questions/QuestionDisplay.svelte -->
 <script lang="ts">
-	import { viewportWidth } from '$lib/stores/viewport';
-
 	interface Props {
 		question: {
 			id: string;
@@ -14,130 +12,32 @@
 
 	let { question, addQuestionMark = false }: Props = $props();
 
-	// Use shared viewport store
-	let innerWidth = $derived($viewportWidth);
 	let fontSize = $derived(question.question ? calculateFontSize(question.question) : '2rem');
 
-	type Question = {
-		id: string;
-		url: string;
-		question: string;
-		question_formatted?: string;
-	};
+	// Tier by text length (known at SSR time); viewport scaling is pure CSS via
+	// clamp(), so the server renders the correct size at every width. Replaces
+	// a JS innerWidth-driven table that SSR'd the desktop size for everyone and
+	// swapped after hydration (design audit 2026-06-09).
+	// clamp ranges preserve the old table's mobile (≤500px) and desktop (>1024px)
+	// endpoints, interpolating between ~400px and ~1100px viewports.
+	const SIZE_TIERS: Array<{ maxLength: number; size: string }> = [
+		{ maxLength: 45, size: 'clamp(1.5rem, 1.07rem + 1.71vw, 2.25rem)' },
+		{ maxLength: 60, size: 'clamp(1.375rem, 1.02rem + 1.43vw, 2rem)' },
+		{ maxLength: 80, size: 'clamp(1.25rem, 0.89rem + 1.43vw, 1.875rem)' },
+		{ maxLength: 105, size: 'clamp(1.125rem, 0.77rem + 1.43vw, 1.75rem)' },
+		{ maxLength: 130, size: 'clamp(1rem, 0.64rem + 1.43vw, 1.625rem)' },
+		{ maxLength: 150, size: 'clamp(0.9375rem, 0.62rem + 1.29vw, 1.5rem)' },
+		{ maxLength: 200, size: 'clamp(0.875rem, 0.59rem + 1.14vw, 1.375rem)' },
+		{ maxLength: 250, size: 'clamp(0.875rem, 0.66rem + 0.86vw, 1.25rem)' },
+		{ maxLength: 300, size: 'clamp(0.8125rem, 0.63rem + 0.71vw, 1.125rem)' }
+	];
 
-	function calculateFontSize(text: Question['question']): string {
-		// Optimized breakpoints for better desktop readability
-		const breakpoints = {
-			xs: {
-				length: 45,
-				size:
-					innerWidth > 1024
-						? '2.25rem'
-						: innerWidth > 768
-							? '2rem'
-							: innerWidth > 500
-								? '1.75rem'
-								: '1.5rem'
-			},
-			sm: {
-				length: 60,
-				size:
-					innerWidth > 1024
-						? '2rem'
-						: innerWidth > 768
-							? '1.875rem'
-							: innerWidth > 500
-								? '1.625rem'
-								: '1.375rem'
-			},
-			md: {
-				length: 80,
-				size:
-					innerWidth > 1024
-						? '1.875rem'
-						: innerWidth > 768
-							? '1.75rem'
-							: innerWidth > 500
-								? '1.5rem'
-								: '1.25rem'
-			},
-			lg: {
-				length: 105,
-				size:
-					innerWidth > 1024
-						? '1.75rem'
-						: innerWidth > 768
-							? '1.625rem'
-							: innerWidth > 500
-								? '1.375rem'
-								: '1.125rem'
-			},
-			xl: {
-				length: 130,
-				size:
-					innerWidth > 1024
-						? '1.625rem'
-						: innerWidth > 768
-							? '1.5rem'
-							: innerWidth > 500
-								? '1.25rem'
-								: '1rem'
-			},
-			xxl: {
-				length: 150,
-				size:
-					innerWidth > 1024
-						? '1.5rem'
-						: innerWidth > 768
-							? '1.375rem'
-							: innerWidth > 500
-								? '1.125rem'
-								: '0.9375rem'
-			},
-			xxxl: {
-				length: 200,
-				size:
-					innerWidth > 1024
-						? '1.375rem'
-						: innerWidth > 768
-							? '1.25rem'
-							: innerWidth > 500
-								? '1rem'
-								: '0.875rem'
-			},
-			huge: {
-				length: 250,
-				size:
-					innerWidth > 1024
-						? '1.25rem'
-						: innerWidth > 768
-							? '1.125rem'
-							: innerWidth > 500
-								? '0.9375rem'
-								: '0.875rem'
-			},
-			massive: {
-				length: 300,
-				size:
-					innerWidth > 1024
-						? '1.125rem'
-						: innerWidth > 768
-							? '1rem'
-							: innerWidth > 500
-								? '0.875rem'
-								: '0.8125rem'
-			}
-		};
-
-		// Find the appropriate size
-		for (const [key, value] of Object.entries(breakpoints)) {
-			if (text.length < value.length) {
-				return value.size;
-			}
+	function calculateFontSize(text: string): string {
+		for (const tier of SIZE_TIERS) {
+			if (text.length < tier.maxLength) return tier.size;
 		}
-
-		// Default size for very long text
-		return innerWidth > 500 ? '1rem' : '0.8rem';
+		// Very long text
+		return 'clamp(0.8rem, 0.66rem + 0.5vw, 1rem)';
 	}
 </script>
 

@@ -108,7 +108,7 @@
 		color: var(--ink-mid);
 	}
 	.date.updated {
-		color: #22c55e;
+		color: var(--success);
 		font-weight: 500;
 	}
 

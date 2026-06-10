@@ -708,7 +708,7 @@
 
 // Spinner color variants - Warm Tech theme
 .spinner--primary {
-	border-color: rgba(45, 212, 191, 0.3);
+	border-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 	border-top-color: var(--lamp-glow);
 }
 

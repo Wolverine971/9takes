@@ -12,7 +12,7 @@ published: true
 type: ['relationships']
 blog: true
 previewHtml: ''
-pic: 'greek-statues-on-a-date'
+pic: 'greek-statues-in-relationships'
 path: src/blog/enneagram/enneagram-types-in-relationships.md
 quality_grade: 'B+'
 quality_score: 8.6
@@ -712,7 +712,7 @@ Strong piece. The voice carries it. Main opportunity is breaking out of the temp
          "image":{
             "@type":"ImageObject",
             "height":900,
-            "url": "https://9takes.com/blogs/greek-statues-on-a-date.webp",
+            "url": "https://9takes.com/blogs/greek-statues-in-relationships.webp",
             "width":900
          },
          "description":"How each Enneagram type behaves in relationships — love patterns, compatibility, conflict styles, and what to say to each type. The guide that actually helps your relationship.",

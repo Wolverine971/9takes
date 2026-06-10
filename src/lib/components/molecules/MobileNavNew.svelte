@@ -253,7 +253,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		transition: background-color 0.2s ease;
 
 		&:hover {
@@ -348,7 +348,7 @@
 		cursor: pointer;
 		padding: 8px;
 		color: var(--ink-mid);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		transition: all 0.2s ease;
 
 		&:hover {
@@ -509,7 +509,7 @@
 		text-align: center;
 		text-decoration: none;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-weight: 600;
 		font-size: 1rem;
 		transition: all 0.2s ease;
@@ -534,7 +534,7 @@
 		color: var(--text-on-primary);
 		text-align: center;
 		text-decoration: none;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-weight: 600;
 		font-size: 1rem;
 		transition: all 0.2s ease;

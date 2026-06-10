@@ -15,6 +15,13 @@
 #   6. enrich_frontmatter - /blog_content_frontmatter_enrich_people
 #   6.5 lint              - scripts/blog-lint.sh (deterministic checks, no LLM)
 #   7. grade              - /grade_blog
+#   8. revise             - /blog_content_revision_pass_people  (CONDITIONAL — only if
+#                           overall < 8.5, discoverability < 7, or lint failed)
+#   8.5 lint (re-run)     - scripts/blog-lint.sh
+#   9. regrade            - /grade_blog (after stripping the stage-7 grade)
+#
+# The revise loop runs AT MOST ONCE. If the re-grade still lands below the bar,
+# the draft stays below the bar and a human decides — no infinite polishing.
 #
 # Usage:
 #   ./scripts/run-blog-pipeline.sh <Person-Name>
@@ -24,8 +31,8 @@
 #   - Run-all-then-report: if a stage errors, the pipeline keeps going.
 #     Check the per-stage log files for failures.
 #   - Re-running on an already-graded blog: the pipeline strips any existing
-#     `content_quality:` block from the draft frontmatter just before stage 6
-#     (grade), so re-runs always produce a fresh score with no prompt collision.
+#     `content_quality:` block from the draft frontmatter just before each grade
+#     stage, so re-runs always produce a fresh score with no prompt collision.
 #
 
 set -uo pipefail
@@ -100,22 +107,61 @@ clear_grading_frontmatter() {
 }
 
 run_lint() {
-  local log_file="$LOG_DIR/6.5_lint.log"
+  local stage_label="${1:-6.5}"
+  local log_file="$LOG_DIR/${stage_label}_lint.log"
   echo "─────────────────────────────────────────────────────"
-  echo "[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)"
+  echo "[Stage $stage_label] lint (deterministic checks — scripts/blog-lint.sh)"
   echo "Log:     $log_file"
   echo "─────────────────────────────────────────────────────"
   "$REPO_ROOT/scripts/blog-lint.sh" "$PERSON" 2>&1 | tee "$log_file"
   LINT_EXIT="${PIPESTATUS[0]}"
   if [[ "$LINT_EXIT" -ne 0 ]]; then
-    echo "[Stage 6.5] lint FAILED (exit=$LINT_EXIT) — failures listed above; pipeline continues (run-all-then-report)"
+    echo "[Stage $stage_label] lint FAILED (exit=$LINT_EXIT) — failures listed above; pipeline continues (run-all-then-report)"
   else
-    echo "[Stage 6.5] lint passed"
+    echo "[Stage $stage_label] lint passed"
   fi
   echo
 }
 
+# Pull a numeric score out of the draft's content_quality block ("" if absent).
+read_quality_field() {
+  local field="$1"
+  local file="$REPO_ROOT/$DRAFT_PATH"
+  [[ -f "$file" ]] || { echo ""; return 0; }
+  awk -v key="$field" '
+    /^---$/ { fm++; next }
+    fm == 1 && /^content_quality:/ { in_cq = 1; next }
+    fm == 1 && in_cq && $0 !~ /^[[:space:]]/ { in_cq = 0 }
+    fm == 1 && in_cq && $1 == key":" { gsub(/[^0-9.]/, "", $2); print $2; exit }
+  ' "$file"
+}
+
+# Decide whether the revise loop should fire. Prints the reason(s), returns 0 if needed.
+revision_needed() {
+  REVISION_REASONS=""
+  local overall disc
+  overall="$(read_quality_field overall)"
+  disc="$(read_quality_field discoverability)"
+
+  if [[ -z "$overall" ]]; then
+    REVISION_REASONS="no grade found (grade stage may have failed)"
+    return 1  # nothing to revise against — skip the loop rather than revise blind
+  fi
+  if awk -v o="$overall" 'BEGIN { exit !(o < 8.5) }'; then
+    REVISION_REASONS+="overall $overall < 8.5; "
+  fi
+  if [[ -n "$disc" ]] && awk -v d="$disc" 'BEGIN { exit !(d < 7) }'; then
+    REVISION_REASONS+="discoverability $disc < 7; "
+  fi
+  if [[ "$LINT_EXIT" -ne 0 ]]; then
+    REVISION_REASONS+="lint failures; "
+  fi
+  [[ -n "$REVISION_REASONS" ]]
+}
+
 LINT_EXIT=0
+REVISION_REASONS=""
+REVISED=0
 
 run_stage 1 create             "/blog_content_creator_people_v2 $PERSON --non-interactive"
 run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $PERSON"
@@ -123,18 +169,48 @@ run_stage 3 second_pass        "/blog_content_second_pass_people $PERSON"
 run_stage 4 cohesion           "/cohesion-check $DRAFT_PATH"
 run_stage 5 editor_pass        "/blog_content_editor_pass_people $PERSON"
 run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $PERSON"
-run_lint
+run_lint 6.5
 clear_grading_frontmatter
 run_stage 7 grade              "/grade_blog $PERSON"
+
+# ── Stage 8/9: revise-and-regrade loop (at most once) ─────────────────────
+FIRST_OVERALL="$(read_quality_field overall)"
+FIRST_DISC="$(read_quality_field discoverability)"
+
+if revision_needed; then
+  REVISED=1
+  echo "[Stage 8] Revision loop triggered: ${REVISION_REASONS}"
+  run_stage 8 revise           "/blog_content_revision_pass_people $PERSON"
+  run_lint 8.5
+  clear_grading_frontmatter
+  run_stage 9 regrade          "/grade_blog $PERSON"
+else
+  if [[ -n "$REVISION_REASONS" ]]; then
+    echo "[Stage 8] Skipped revision loop: ${REVISION_REASONS}"
+  else
+    echo "[Stage 8] No revision needed (overall ${FIRST_OVERALL:-?} >= 8.5, discoverability ${FIRST_DISC:-?} >= 7, lint clean)"
+  fi
+  echo
+fi
 
 echo "═════════════════════════════════════════════════════"
 echo "Pipeline complete for: $PERSON"
 echo "Finished: $(date)"
 echo "All logs: $LOG_DIR"
 if [[ "$LINT_EXIT" -ne 0 ]]; then
-  echo "LINT: FAILED — see $LOG_DIR/6.5_lint.log (deterministic rule violations need fixing before publish)"
+  echo "LINT: FAILED — see the latest lint log in $LOG_DIR (deterministic rule violations need fixing before publish)"
 else
   echo "LINT: passed"
+fi
+if [[ "$REVISED" -eq 1 ]]; then
+  FINAL_OVERALL="$(read_quality_field overall)"
+  echo "REVISION LOOP: ran once (trigger: ${REVISION_REASONS%; })"
+  echo "GRADE: ${FIRST_OVERALL:-?} → ${FINAL_OVERALL:-?} (first grade → after revision)"
+  if [[ -n "$FINAL_OVERALL" ]] && awk -v o="$FINAL_OVERALL" 'BEGIN { exit !(o < 8.5) }'; then
+    echo "STILL BELOW BAR after one revision — human review needed; the loop does not repeat."
+  fi
+else
+  echo "REVISION LOOP: not needed"
 fi
 echo
 

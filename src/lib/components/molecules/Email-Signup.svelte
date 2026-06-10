@@ -82,7 +82,7 @@
 		padding: 2rem;
 		border-radius: 12px;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		box-shadow: 0 0 20px rgba(45, 212, 191, 0.1);
+		box-shadow: 0 0 20px color-mix(in srgb, var(--lamp-glow) 10%, transparent);
 	}
 	.waitlist-section h2 {
 		margin-top: 0;
@@ -113,7 +113,7 @@
 	.waitlist-form input:focus {
 		outline: none;
 		border-color: var(--lamp-glow);
-		box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
+		box-shadow: var(--glow-sm);
 	}
 	.waitlist-form button {
 		padding: 10px 20px;
@@ -126,7 +126,7 @@
 		width: 155px;
 		font-weight: 600;
 		transition: all 0.2s ease;
-		box-shadow: 0 0 15px rgba(45, 212, 191, 0.3);
+		box-shadow: 0 0 15px color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 	}
 	.waitlist-form button:disabled {
 		cursor: not-allowed;
@@ -135,7 +135,7 @@
 	}
 	.waitlist-form button:hover {
 		background-color: var(--lamp-glow);
-		box-shadow: 0 0 25px rgba(45, 212, 191, 0.4);
+		box-shadow: var(--glow-md);
 		transform: translateY(-2px);
 	}
 	.waitlist-form button:disabled:hover {

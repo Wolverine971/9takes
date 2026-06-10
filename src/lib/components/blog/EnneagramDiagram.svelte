@@ -213,7 +213,10 @@
 
 				<!-- Gradient for main circle -->
 				<radialGradient id="voidGradient" cx="50%" cy="50%" r="50%">
-					<stop offset="0%" stop-color="rgba(45, 212, 191, 0.08)" />
+					<stop
+						offset="0%"
+						style="stop-color: color-mix(in srgb, var(--data-teal) 8%, transparent)"
+					/>
 					<stop offset="100%" stop-color="rgba(10, 10, 15, 0.5)" />
 				</radialGradient>
 			</defs>

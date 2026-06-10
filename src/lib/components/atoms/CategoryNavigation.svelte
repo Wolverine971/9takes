@@ -194,7 +194,7 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: rgba(45, 212, 191, 0.1);
+			background-color: color-mix(in srgb, var(--lamp-glow) 10%, transparent);
 			color: var(--lamp-glow);
 		}
 

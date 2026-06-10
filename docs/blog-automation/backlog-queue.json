@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-06-09T06:12:53Z",
+	"lastUpdated": "2026-06-10T06:00:46Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "jony-ive",
-			"displayName": "Jony Ive",
-			"type": 5,
-			"priority": 65,
-			"priorityReason": "Major Apple design figure who deepens the tech cluster and fills the quieter Type 5 lane",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-10",
-			"retryCount": 0,
-			"strategicValue": "tech-design-cluster"
-		},
 		{
 			"name": "keira-knightley",
 			"displayName": "Keira Knightley",
@@ -886,7 +873,20 @@
 			"needsReview": false
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "jony-ive",
+		"displayName": "Jony Ive",
+		"type": 5,
+		"priority": 65,
+		"priorityReason": "Major Apple design figure who deepens the tech cluster and fills the quieter Type 5 lane",
+		"estimatedTraffic": "medium",
+		"searchVolume": "medium",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-10",
+		"retryCount": 0,
+		"strategicValue": "tech-design-cluster",
+		"startedAt": "2026-06-10T06:00:46Z"
+	},
 	"skipped": [
 		{
 			"name": "anna-wintour",

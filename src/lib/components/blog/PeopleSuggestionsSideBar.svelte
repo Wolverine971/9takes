@@ -247,7 +247,7 @@
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--night-deep);
 		border-radius: 12px;
-		box-shadow: 0 0 20px rgba(45, 212, 191, 0.15);
+		box-shadow: 0 0 20px color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
 		position: fixed;
@@ -275,11 +275,11 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: rgba(45, 212, 191, 0.3);
+			background-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 			border-radius: 3px;
 
 			&:hover {
-				background-color: rgba(45, 212, 191, 0.5);
+				background-color: color-mix(in srgb, var(--lamp-glow) 50%, transparent);
 			}
 		}
 	}
@@ -370,7 +370,7 @@
 
 		&:hover {
 			color: var(--lamp-glow);
-			background-color: rgba(45, 212, 191, 0.15);
+			background-color: var(--lamp-soft);
 			text-decoration: none;
 		}
 

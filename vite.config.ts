@@ -8,6 +8,30 @@ import { fileURLToPath } from 'url';
 import { createLogger } from 'vite';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const scssMixinsPath = path.resolve(__dirname, 'src/scss/_mixins.scss').replace(/\\/g, '/');
+const scssMixinsUse = `@use '${scssMixinsPath}' as *;`;
+
+function normalizeScssFilename(filename?: string): string {
+	if (!filename) return '';
+
+	let normalized = filename.split(/[?#]/)[0].replace(/\\/g, '/');
+	if (normalized.startsWith('/@fs/')) {
+		normalized = normalized.replace(/^\/@fs\/+/, '/');
+	}
+
+	return (path.isAbsolute(normalized) ? normalized : path.resolve(__dirname, normalized)).replace(
+		/\\/g,
+		'/'
+	);
+}
+
+function injectGlobalScssMixins(source: string, filename?: string): string {
+	if (normalizeScssFilename(filename) === scssMixinsPath) {
+		return source;
+	}
+
+	return `${scssMixinsUse}\n${source}`;
+}
 
 const logger = createLogger();
 const originalWarn = logger.warn.bind(logger);
@@ -46,7 +70,7 @@ const config = {
 		preprocessorOptions: {
 			scss: {
 				api: 'modern',
-				additionalData: `@use '${path.resolve(__dirname, 'src/scss/_mixins.scss').replace(/\\/g, '/')}' as *;`
+				additionalData: injectGlobalScssMixins
 			}
 		}
 	}

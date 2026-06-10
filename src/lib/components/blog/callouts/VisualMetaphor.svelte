@@ -46,17 +46,14 @@
 		position: relative;
 		margin: 1.5rem 0;
 		padding: 1.25rem 1.5rem;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		background: linear-gradient(
 			135deg,
 			var(--stone-warm) 0%,
 			var(--night-deep) 50%,
 			var(--night-deep) 100%
 		);
-		border: 1px solid rgba(45, 212, 191, 0.2);
-		box-shadow:
-			0 4px 20px rgba(0, 0, 0, 0.3),
-			0 0 0 1px rgba(45, 212, 191, 0.1);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
 
 		// Primary accent line on left
 		&::before {
@@ -67,7 +64,7 @@
 			bottom: 0;
 			width: 4px;
 			background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-			border-radius: 12px 0 0 12px;
+			border-radius: 0.625rem 0 0 0.625rem;
 		}
 	}
 
@@ -78,7 +75,7 @@
 		width: 28px;
 		height: 28px;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		border: 1px solid rgba(45, 212, 191, 0.3);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
 		border-radius: 50%;
 		display: flex;
 		align-items: center;

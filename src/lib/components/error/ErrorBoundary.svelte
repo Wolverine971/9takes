@@ -60,10 +60,10 @@
 {#if hasError}
 	{#if fallback === 'minimal'}
 		<div class="flex min-h-[200px] items-center justify-center p-8">
-			<div class="rounded-xl border border-red-500/30 bg-red-900/20 p-6 text-center shadow-sm">
-				<p class="mb-4 text-red-300">Something went wrong. Please try again.</p>
+			<div class="rounded-xl border border-error-500/30 bg-error-500/10 p-6 text-center shadow-sm">
+				<p class="mb-4 text-[var(--error-text)]">Something went wrong. Please try again.</p>
 				<button
-					class="rounded-md bg-red-600 px-4 py-2 text-white transition-colors hover:bg-red-700 hover:shadow-[0_0_15px_rgba(239,68,68,0.3)]"
+					class="rounded-md border border-error-500/30 bg-error-700 px-4 py-2 text-white transition-colors hover:border-error-500/60 hover:bg-error-500"
 					on:click={retry}
 				>
 					Retry
@@ -80,7 +80,7 @@
 				<div class="flex flex-col items-center text-center">
 					<!-- Error Icon -->
 					<div
-						class="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red-900/30 text-red-400"
+						class="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-error-500/10 text-[var(--error-text)]"
 					>
 						<svg
 							class="h-8 w-8"
@@ -132,7 +132,8 @@
 							<div
 								class="mt-3 rounded-xl border border-[var(--stone-edge)] bg-[var(--night-deep)] p-4"
 							>
-								<pre class="overflow-x-auto text-left text-xs text-red-400">{errorStack}</pre>
+								<pre
+									class="overflow-x-auto text-left text-xs text-[var(--error-text)]">{errorStack}</pre>
 							</div>
 						</details>
 					{/if}

@@ -632,7 +632,7 @@
 	.field input:focus {
 		outline: none;
 		border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
-		box-shadow: 0 0 0 4px rgba(45, 212, 191, 0.12);
+		box-shadow: 0 0 0 4px color-mix(in srgb, var(--lamp-glow) 12%, transparent);
 	}
 
 	.type-section {
