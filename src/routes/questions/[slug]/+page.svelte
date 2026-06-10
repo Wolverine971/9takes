@@ -961,16 +961,7 @@
 		position: relative;
 	}
 
-	/* ---------- shared utilities ---------- */
-	.question-page :global(.mono),
-	.question-page .mono {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink-dim);
-	}
+	/* .mono is a global utility in index.scss (promoted 2026-06-10). */
 
 	/* =========================================================
 	  Question hero + thread — one continuous flow.

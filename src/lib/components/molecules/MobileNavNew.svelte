@@ -316,7 +316,7 @@
 
 	/* Navigation Panel */
 	.mobile-nav-panel {
-		background-color: var(--card-background);
+		background-color: var(--stone-warm);
 		width: 320px;
 		max-width: 85vw;
 		height: 100vh;
@@ -352,7 +352,7 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: var(--light-gray);
+			background-color: var(--stone-mid);
 			color: var(--ink-bright);
 		}
 
@@ -393,7 +393,7 @@
 		border-left: 3px solid transparent;
 
 		&:hover {
-			background-color: var(--light-gray);
+			background-color: var(--stone-mid);
 			color: var(--lamp-glow);
 		}
 
@@ -431,7 +431,7 @@
 		text-align: left;
 
 		&:hover {
-			background-color: var(--light-gray);
+			background-color: var(--stone-mid);
 			color: var(--lamp-glow);
 		}
 
@@ -454,7 +454,7 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		background-color: var(--lightest-gray);
+		background-color: var(--night-mid);
 		border-top: 1px solid var(--stone-edge);
 	}
 
@@ -474,7 +474,7 @@
 		border-left: 3px solid transparent;
 
 		&:hover {
-			background-color: var(--light-gray);
+			background-color: var(--stone-mid);
 			color: var(--lamp-glow);
 		}
 

@@ -20,7 +20,9 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		}
 
 		const result = await searchUniversalTypeahead(locals.supabase, query, { scope, limit });
-		return json(result);
+		return json(result, {
+			headers: { 'Cache-Control': 'private, max-age=60' }
+		});
 	} catch (error) {
 		console.error('Universal typeahead error:', error);
 		return json(

@@ -521,6 +521,40 @@ figcaption {
 	font-style: italic;
 }
 
+/* ----------------------------------------------------------------
+   V5 type utilities — design-system.md §6 type scale.
+   Promoted from identical per-route copies (home, questions index,
+   question detail) on 2026-06-10; routes may still override locally.
+   ---------------------------------------------------------------- */
+.display-xl {
+	font-family: var(--font-display);
+	font-weight: 800;
+	font-size: clamp(40px, 7.4vw, 72px);
+	line-height: 1.02;
+	letter-spacing: -0.04em;
+	color: var(--ink-bright);
+	margin: 0;
+}
+
+.display-md {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: clamp(28px, 4vw, 40px);
+	line-height: 1.1;
+	letter-spacing: -0.02em;
+	color: var(--ink-bright);
+	margin: 0;
+}
+
+.mono {
+	font-family: var(--font-mono);
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ink-dim);
+}
+
 .highlight {
 	color: var(--primary-dark);
 	font-weight: 700;

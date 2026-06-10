@@ -1034,34 +1034,8 @@
 	}
 
 	/* ---------- shared utilities ---------- */
-	.home :global(.mono) {
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink-dim);
-	}
-
-	.display-xl {
-		font-family: var(--font-display);
-		font-weight: 800;
-		font-size: clamp(40px, 7.4vw, 72px);
-		line-height: 1.02;
-		letter-spacing: -0.04em;
-		color: var(--ink-bright);
-		margin: 0;
-	}
-
-	.display-md {
-		font-family: var(--font-display);
-		font-weight: 700;
-		font-size: clamp(28px, 4vw, 40px);
-		line-height: 1.1;
-		letter-spacing: -0.02em;
-		color: var(--ink-bright);
-		margin: 0;
-	}
+	/* .mono / .display-xl / .display-md are global utilities in index.scss
+	   (promoted 2026-06-10 — identical copies lived in three route files). */
 
 	.home :global(.section-tag) {
 		display: inline-block;
@@ -1315,7 +1289,6 @@
 				height: 14px;
 				background: linear-gradient(180deg, transparent, var(--lamp-glow));
 				border-radius: 1px;
-				box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
 			}
 
 			&::after {
@@ -1333,7 +1306,6 @@
 					transparent 100%
 				);
 				border-radius: 1px;
-				box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
 			}
 		}
 	}
@@ -1366,7 +1338,6 @@
 				height: 14px;
 				background: linear-gradient(180deg, var(--lamp-glow), transparent);
 				border-radius: 1px;
-				box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
 			}
 		}
 
@@ -1970,8 +1941,10 @@
 		}
 
 		@media (max-width: 640px) {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-			gap: 8px;
+			/* 2-across (was 3) — 3-across forced 12.5px names below legibility
+			   on small phones. Design audit 2026-06-10. */
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 12px;
 		}
 	}
 
@@ -2132,8 +2105,8 @@
 		.library-name {
 			display: -webkit-box;
 			overflow: hidden;
-			font-size: 12.5px;
-			line-height: 1.15;
+			font-size: 15px;
+			line-height: 1.2;
 			letter-spacing: 0;
 			-webkit-box-orient: vertical;
 			-webkit-line-clamp: 2;
@@ -2142,8 +2115,8 @@
 
 		.library-subtitle {
 			overflow: hidden;
-			font-size: 10.5px;
-			line-height: 1.25;
+			font-size: 12px;
+			line-height: 1.3;
 			text-overflow: ellipsis;
 			white-space: nowrap;
 		}
@@ -2226,13 +2199,6 @@
 		flex-direction: column;
 		gap: 12px;
 		text-align: left;
-		transition:
-			border-color 0.2s ease,
-			background 0.2s ease;
-
-		&:hover {
-			border-color: var(--lamp-glow);
-		}
 	}
 
 	.compiled-stat-label {

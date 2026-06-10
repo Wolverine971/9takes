@@ -76,7 +76,7 @@
 </script>
 
 <article class="blog" id="blogA">
-	<div style="align-items: inherit;">
+	<div>
 		<BlogPageHead data={data.frontmatter} slug={`community/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
 		<!-- <ArticleDescription description={data.frontmatter.description} /> -->
@@ -103,7 +103,7 @@
 	<AuthorBio author={data.frontmatter.author} />
 </article>
 
-<hr style="margin: 5rem;" />
+<hr class="section-divider" />
 
 <SuggestionsBlog posts={data?.posts} blogType={'Community'} slugPrefix={'community'} />
 
@@ -114,6 +114,13 @@
 </div>
 
 <style lang="scss">
+	.section-divider {
+		max-width: var(--prose-measure);
+		margin: 3rem auto;
+		border: none;
+		border-top: 1px solid var(--stone-edge);
+	}
+
 	/* Streetlamp Symposium — Community article reading layout.
 	   Body reads in --ink-bright (ratified 2026-06-09, design-system.md §6);
 	   --ink-mid is for captions/secondary voice only. */

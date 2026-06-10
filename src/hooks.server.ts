@@ -113,6 +113,16 @@ export const handle: Handle = async ({ event, resolve }) => {
 		return { session, user };
 	};
 
+	// Hot path: header typeahead fires on every keystroke and never reads the
+	// session, so skip the remote JWT validation (auth.getUser network call).
+	if (event.url.pathname === '/api/search/typeahead') {
+		event.locals.session = null;
+		event.locals.user = null;
+		const typeaheadResponse = await resolve(event);
+		applySecurityHeaders(typeaheadResponse.headers);
+		return typeaheadResponse;
+	}
+
 	const { session } = await event.locals.safeGetSession();
 	event.locals.session = session;
 	event.locals.user = session?.user ?? null;

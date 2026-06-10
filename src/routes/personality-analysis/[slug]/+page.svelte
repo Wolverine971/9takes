@@ -29,6 +29,8 @@
 	} from '$lib/utils/personalityAnalysis';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 	import { SectionKicker } from '$lib/components/atoms';
+	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
+	import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
 
 	// Only import critical components for initial render
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
@@ -179,6 +181,10 @@
 	// ------------------------------------------------------------------
 	$: typeNum = toEnneagramNumber(postMeta.enneagram);
 	$: typeMeta = typeNum ? ENNEAGRAM_TYPE_COLORS[typeNum] : null;
+	// Type dossier panel — the densest dossier component used to ship only on
+	// enneagram-corner type pillars while this (the actual dossier surface)
+	// was generic prose. Design audit 2026-06-10. CTA bridges to the pillar.
+	$: typeDossier = typeNum ? enneagramTypeProfiles[typeNum] : null;
 	$: typeName = typeMeta?.name ?? '';
 	$: typeNameUpper = typeName ? typeName.toUpperCase() : '';
 	$: personaTitle = toStringValue(postMeta.persona_title).trim();
@@ -561,6 +567,21 @@
 			<div class="article-body">
 				{@html post.content}
 			</div>
+
+			{#if typeDossier}
+				<div class="type-dossier-block">
+					<SectionKicker
+						tone="data"
+						label={`TYPE DOSSIER · ${typeNameUpper || `TYPE ${typeNum}`}`}
+					/>
+					<EnneagramTypeDossier
+						{...typeDossier}
+						showCta={true}
+						ctaHref={`/enneagram-corner/enneagram-type-${typeNum}`}
+						ctaLabel={`Read the full Type ${typeNum} breakdown`}
+					/>
+				</div>
+			{/if}
 
 			{#if postFaqs.length >= 2}
 				<FAQSection faqs={postFaqs} title={`${postDisplayName} FAQ`} />
@@ -1028,6 +1049,13 @@
 		margin: 0 auto;
 		min-width: 0;
 		overflow-x: hidden;
+	}
+
+	.type-dossier-block {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		margin: 3rem 0 1.5rem;
 	}
 
 	.article-body {

@@ -503,6 +503,30 @@
 		color: var(--ink-bright);
 		font-size: max(16px, 0.98rem);
 		line-height: 1.2;
+		appearance: none;
+		-webkit-appearance: none;
+	}
+
+	/* The global input[type='search'] rules in scss/index.scss add a background,
+	   border-radius, and an amber focus glow to the inner input, which renders as
+	   a boxed shadow inside the pill. Higher-specificity reset so only the pill
+	   (.search-field) carries the visual treatment. */
+	.search-field input,
+	.search-field input:focus {
+		background: transparent;
+		border: 0;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	/* Kill native search-field chrome (inner border/shadow + built-in clear button)
+	   so only our custom icon and clear button render. */
+	input::-webkit-search-decoration,
+	input::-webkit-search-cancel-button,
+	input::-webkit-search-results-button,
+	input::-webkit-search-results-decoration {
+		-webkit-appearance: none;
+		display: none;
 	}
 
 	input::placeholder {

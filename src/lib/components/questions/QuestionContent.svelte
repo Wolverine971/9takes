@@ -2,9 +2,7 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import CameraIcon from '$lib/components/icons/cameraIcon.svelte';
 	import PostIcon from '$lib/components/icons/postIcon.svelte';
-	import CommentXMarkIcon from '$lib/components/icons/CommentXMarkIcon.svelte';
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
@@ -30,12 +28,13 @@
 	// Create a deep copy of data to avoid mutation issues
 	let _data = $derived(JSON.parse(JSON.stringify(data)) as QuestionPageData);
 
-	// Define tabs and their associated icons
-	const tabs = ['Comments', 'Removed Comments', 'Visuals', 'Articles'];
+	// Define tabs and their associated icons.
+	// 2026-06-10 (design audit): the permanently-empty "Visuals" tab is cut and
+	// "Removed Comments" is demoted from equal-billing tab to a quiet disclosure
+	// at the bottom of the thread — the main conversation is the product.
+	const tabs = ['Comments', 'Articles'];
 	const iconComponents: Record<string, typeof MasterCommentIcon> = {
 		Comments: MasterCommentIcon,
-		'Removed Comments': CommentXMarkIcon,
-		Visuals: CameraIcon,
 		Articles: PostIcon
 	};
 
@@ -80,21 +79,10 @@
 					count: displayCommentCount || 0,
 					label: displayCommentCount === 1 ? 'Comment' : 'Comments'
 				};
-			case 'Removed Comments':
-				return {
-					count: _data.removed_comment_count || 0,
-					label: _data.removed_comment_count === 1 ? 'Removed Comment' : 'Removed Comments'
-				};
 			case 'Articles':
 				return {
 					count: _data.links_count || 0,
 					label: _data.links_count === 1 ? 'Article' : 'Articles'
-				};
-			case 'Visuals':
-				// Visuals feature not yet implemented
-				return {
-					count: 0,
-					label: 'Visuals'
 				};
 			default:
 				return { count: 0, label: '' };
@@ -119,14 +107,10 @@
 				}}
 			>
 				{#if innerWidth > 575}
-					{#if tab === 'Comments' || tab === 'Removed Comments' || tab === 'Articles' || tab === 'Visuals'}
-						<span class="flex items-center justify-center gap-2">
-							<span class="font-semibold">{getContentCount(tab).count}</span>
-							<span>{getContentCount(tab).label}</span>
-						</span>
-					{:else}
-						<span>{tab}</span>
-					{/if}
+					<span class="flex items-center justify-center gap-2">
+						<span class="font-semibold">{getContentCount(tab).count}</span>
+						<span>{getContentCount(tab).label}</span>
+					</span>
 				{:else}
 					<!-- Show icons on mobile -->
 					<div class="flex flex-col items-center gap-1">
@@ -235,97 +219,26 @@
 									key={displayCommentCount}
 									on:commentAdded={handleCommentAdded}
 								/>
-							{/if}
-						{:else if section === 'Removed Comments'}
-							{#if data?.flags?.userHasAnswered}
-								{#if _data?.removedComments?.length > 0}
-									<Comments
-										questionId={_data.question.id}
-										parentData={_data}
-										comment_count={_data.removed_comment_count}
-										comments={_data.removedComments}
-										parentType={'question'}
-										{user}
-									/>
-								{:else}
-									<div class="question-state question-state-empty">
-										<div class="state-icon state-icon-muted">
-											<svg
-												class="h-7 w-7 text-[var(--ink-mid)]"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-												/>
-											</svg>
-										</div>
-										<p class="state-title state-title-muted">No removed comments</p>
-									</div>
+
+								<!-- Removed comments: quiet disclosure, not a top-level tab -->
+								{#if _data?.removed_comment_count > 0}
+									<details class="removed-comments-disclosure">
+										<summary>
+											{_data.removed_comment_count} removed
+											{_data.removed_comment_count === 1 ? 'comment' : 'comments'}
+										</summary>
+										{#if _data?.removedComments?.length > 0}
+											<Comments
+												questionId={_data.question.id}
+												parentData={_data}
+												comment_count={_data.removed_comment_count}
+												comments={_data.removedComments}
+												parentType={'question'}
+												{user}
+											/>
+										{/if}
+									</details>
 								{/if}
-							{:else}
-								<div class="question-state question-state-locked">
-									<div class="state-icon state-icon-locked">
-										<svg
-											class="h-8 w-8 text-[var(--lamp-glow)]"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-											/>
-										</svg>
-									</div>
-									<p class="state-title">Share your perspective to unlock content</p>
-								</div>
-							{/if}
-						{:else if section === 'Visuals'}
-							{#if data?.flags?.userHasAnswered}
-								<div class="question-state question-state-empty">
-									<div class="state-icon state-icon-muted">
-										<svg
-											class="h-7 w-7 text-[var(--ink-mid)]"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-											/>
-										</svg>
-									</div>
-									<p class="state-title state-title-muted">No visuals available</p>
-								</div>
-							{:else}
-								<div class="question-state question-state-locked">
-									<div class="state-icon state-icon-locked">
-										<svg
-											class="h-8 w-8 text-[var(--lamp-glow)]"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-											/>
-										</svg>
-									</div>
-									<p class="state-title">Share your perspective to unlock content</p>
-								</div>
 							{/if}
 						{:else if section === 'Articles'}
 							<ArticleLinks
@@ -415,6 +328,26 @@
 		padding: 0 1rem;
 	}
 
+	.removed-comments-disclosure {
+		margin: 1.25rem 1rem 0;
+		border: none;
+		border-top: 1px solid var(--stone-edge);
+		border-radius: 0;
+		background: transparent;
+		padding: 0.75rem 0 0;
+
+		summary {
+			cursor: pointer;
+			font-size: 0.85rem;
+			color: var(--ink-dim);
+			padding: 0.25rem 0;
+
+			&:hover {
+				color: var(--ink-mid);
+			}
+		}
+	}
+
 	.locked-comments-shell {
 		display: grid;
 		gap: 1rem;
@@ -498,11 +431,6 @@
 		background: var(--lamp-soft);
 	}
 
-	.question-state-empty {
-		border: 1px dashed var(--stone-edge);
-		background: transparent;
-	}
-
 	.state-icon {
 		display: flex;
 		align-items: center;
@@ -517,23 +445,12 @@
 		background: var(--lamp-soft);
 	}
 
-	.state-icon-muted {
-		width: 3.4rem;
-		height: 3.4rem;
-		margin-bottom: 0.55rem;
-		background: var(--stone-mid);
-	}
-
 	.state-title {
 		margin: 0;
 		font-size: 1.12rem;
 		font-weight: 600;
 		line-height: 1.35;
 		color: var(--ink-bright);
-	}
-
-	.state-title-muted {
-		color: var(--ink-mid);
 	}
 
 	.state-copy {
