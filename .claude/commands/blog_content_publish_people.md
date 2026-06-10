@@ -1,3 +1,4 @@
+<!-- .claude/commands/blog_content_publish_people.md -->
 # Blog Content Publisher
 
 You are tasked with publishing one ready celebrity personality analysis draft for 9takes. This command is intentionally operational: it does not rewrite the article, re-type the person, or fix substantive editorial gaps.
@@ -42,6 +43,8 @@ This command owns the final release step:
 - Pick one eligible unpublished people draft
 - Require complete frontmatter
 - Require `content_quality.overall >= 8.5`
+- Require `content_quality.rubric_version: 2` — v1 grades were inflated and discoverability-blind; a v1-graded draft must be re-graded with `/grade_blog` before it can publish
+- Require `content_quality.discoverability >= 7` (the v2 discoverability gate, enforced at publish, not just at grading)
 - Require the draft to look like a real article, not a skeleton or outline
 - Require both personality image files:
   - `static/types/[type]s/[Person].webp`
@@ -91,6 +94,8 @@ The script rejects candidates with:
 - Missing required frontmatter
 - Missing or invalid `content_quality`
 - `content_quality.overall < 8.5`
+- Stale grade: `rubric_version` missing or < 2 (blocker says `stale_grade_rubric_v1:re-run /grade_blog`)
+- `discoverability` missing or < 7
 - Too little article body content
 - Too few `##` sections
 - TODO/placeholder/outline markers

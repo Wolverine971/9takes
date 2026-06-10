@@ -1,3 +1,4 @@
+<!-- .claude/commands/daily-blog-creator.md -->
 # Daily Blog Creator - Automated Workflow
 
 You are the automated blog creation orchestrator for 9takes. Your job is to run daily, select the next blog from the queue, execute the content creation workflow, and handle the results.
@@ -147,25 +148,31 @@ Reason: ${priorityReason}
 SKIPPED: ${name} - draft already exists at src/blog/people/drafts/${name}.md
 ```
 
-### Step 2: Execute Content Creation
+### Step 2: Execute the Full Pipeline
 
-Run the blog content creator command:
+Run the **full 7-stage pipeline** — not just the creator. This is the same path as a manual run:
+create → fresh_eyes → second_pass → cohesion → editor_pass → enrich_frontmatter → grade.
+Skipping the refinement stages was the audit finding of 2026-06-10: cron-created blogs were
+shipping without fresh eyes, editor polish, or frontmatter enrichment (no `faqs`, no
+`wikidata_qid` — direct discoverability loss).
 
 ```bash
-cd /Users/djwayne/9takes && claude --chrome --dangerously-skip-permissions "/blog_content_creator_people ${selectedName}" 2>&1 | tee -a /Users/djwayne/9takes/logs/blog-automation/cron-$(date +%Y-%m-%d).log
+cd /Users/djwayne/9takes && ./scripts/run-blog-pipeline.sh ${selectedName} 2>&1 | tee -a /Users/djwayne/9takes/logs/blog-automation/cron-$(date +%Y-%m-%d).log
 ```
 
-**Timeout:** 30 minutes (1800 seconds)
+**Timeout:** 120 minutes total (the pipeline runs 7 separate `claude -p` stages; recent full
+runs take ~30–60 minutes).
 
 **Monitor for:**
 
-- Draft file creation: `/src/blog/people/drafts/${name}.md`
-- Completion message
-- Error messages
+- Draft file creation: `/src/blog/people/drafts/${name}.md` (after stage 1)
+- Per-stage logs in `docs/content-analysis/pipeline-logs/<timestamp>_${name}/`
+- The pipeline's final "grade summary" block
+- Error messages (the pipeline is run-all-then-report; a stage failure does not stop it)
 
 ### Step 3: Verify Results
 
-After command completes:
+After the pipeline completes:
 
 1. **Check if draft was created:**
 
@@ -174,24 +181,26 @@ ls -la /Users/djwayne/9takes/src/blog/people/drafts/${name}.md 2>/dev/null
 ```
 
 2. **If draft exists:**
-   - Read the frontmatter to get `contentGrade`
    - Log success
-   - Proceed to post-processing
+   - Proceed to grade capture (Step 4)
 
 3. **If draft does not exist:**
    - Mark as failed
    - Log error
    - Update retry count
 
-### Step 4: Grade the Blog (if created)
+### Step 4: Capture the Grade
 
-If draft was created, run the grade command:
+The pipeline already graded the blog in stage 7 — do **not** run `/grade_blog` again. Read the
+grade from the draft frontmatter:
 
 ```bash
-cd /Users/djwayne/9takes && claude --chrome --dangerously-skip-permissions "/grade_blog ${name}" 2>&1 | tee -a /Users/djwayne/9takes/logs/blog-automation/grade-$(date +%Y-%m-%d).log
+awk '/^content_quality:/,/graded_at/' /Users/djwayne/9takes/src/blog/people/drafts/${name}.md
 ```
 
-Capture the grade from output.
+Capture `overall`, `letter`, and `discoverability`. Also check `production_pretext.status` —
+if `blocked`, record the blocker (e.g. `thin_collaborator_testimony`, `missing_empathy_turn`)
+and set `needsReview: true`.
 
 ### Step 5: Update Queue Status
 
@@ -276,12 +285,14 @@ Will retry tomorrow.
 
 ## Error Handling
 
-### Timeout (30 min exceeded)
+### Timeout (120 min exceeded)
 
-- Kill the claude process
-- Mark as failed
-- Log: "TIMEOUT after 30 minutes"
-- Retry tomorrow
+- Kill the pipeline process
+- If a draft was already created by stage 1, treat as PARTIAL: keep the draft, set
+  `needsReview: true`, log which stages completed (check the per-stage logs)
+- If no draft exists, mark as failed
+- Log: "TIMEOUT after 120 minutes"
+- Retry tomorrow only if no draft was created
 
 ### No Draft Created
 
@@ -308,8 +319,8 @@ Will retry tomorrow.
 
 All activity logged to:
 
-- `/Users/djwayne/9takes/logs/blog-automation/cron-YYYY-MM-DD.log`
-- `/Users/djwayne/9takes/logs/blog-automation/grade-YYYY-MM-DD.log`
+- `/Users/djwayne/9takes/logs/blog-automation/cron-YYYY-MM-DD.log` (orchestrator + pipeline stdout)
+- `docs/content-analysis/pipeline-logs/<timestamp>_<Person>/` (per-stage logs, written by the pipeline script)
 
 Log format:
 
@@ -364,7 +375,7 @@ Next Run: Tomorrow 2:00 AM
 6. **ALWAYS** update queue file after selection
 7. **ALWAYS** clear `inProgress` after completion (success or failure)
 8. **ALWAYS** move skipped items to `skipped` array, not `completed`
-9. **NEVER** exceed 30 minute timeout
+9. **NEVER** exceed 120 minute timeout
 10. **ALWAYS** log everything
 
 ---
@@ -377,11 +388,11 @@ Next Run: Tomorrow 2:00 AM
 [2026-04-03 02:00:17] [INFO] Checking inProgress - null (good)
 [2026-04-03 02:00:18] [INFO] Rate limit: 0/5 this week
 [2026-04-03 02:00:19] [INFO] Selected: james-clear (Type 1, Priority: 98)
-[2026-04-03 02:00:20] [INFO] Executing blog_content_creator_people...
-[2026-04-03 02:25:45] [INFO] Draft created successfully
-[2026-04-03 02:25:46] [INFO] Running grade_blog...
-[2026-04-03 02:28:12] [INFO] Grade: 8.7/10
-[2026-04-03 02:28:13] [SUCCESS] Blog completed - James Clear, Grade 8.7
+[2026-04-03 02:00:20] [INFO] Executing scripts/run-blog-pipeline.sh james-clear (7 stages)...
+[2026-04-03 02:25:45] [INFO] Stage 1 complete — draft created
+[2026-04-03 03:05:46] [INFO] Stages 2-7 complete (fresh_eyes, second_pass, cohesion, editor, enrich, grade)
+[2026-04-03 03:05:50] [INFO] Grade from frontmatter: 8.7/10 (B+), discoverability 8, rubric v2
+[2026-04-03 03:05:51] [SUCCESS] Blog completed - James Clear, Grade 8.7
 [2026-04-03 02:28:14] [INFO] Sending notification...
 [2026-04-03 02:28:15] [INFO] Daily blog creator complete
 ```

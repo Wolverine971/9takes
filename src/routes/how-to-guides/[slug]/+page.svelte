@@ -156,9 +156,11 @@
 </div>
 
 <style lang="scss">
-	/* Streetlamp Symposium — How-To Guide reading layout. */
+	/* Streetlamp Symposium — How-To Guide reading layout.
+	   Body reads in --ink-bright (ratified 2026-06-09, design-system.md §6);
+	   --ink-mid is for captions/secondary voice only. */
 	:global(.blog) {
-		color: var(--ink-mid);
+		color: var(--ink-bright);
 	}
 
 	.join {

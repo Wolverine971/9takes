@@ -181,6 +181,14 @@
 	--space-xl: 1.5rem; /* 24px — section gaps inside a card */
 	--space-2xl: 2rem; /* 32px — section gaps on a page */
 	--space-3xl: 3rem; /* 48px — major section breaks, hero padding */
+
+	/* Reading measure — caps prose columns at a comfortable line length
+	   (~675px at 18px Inter; top of the 45–75ch comfort range — 68ch felt
+	   too tight on desktop). Applied to article bodies (.blog, dossier
+	   .article-body, pop-culture .article-content). Mobile is unaffected:
+	   viewports are narrower than the cap. design-system.md §6 body-lg.
+	   2026-06-09 design audit. */
+	--prose-measure: 75ch;
 	--font-size: var(--font-size-base);
 	--tag: none;
 	--num-images: 1;

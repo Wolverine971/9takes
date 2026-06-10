@@ -6,6 +6,20 @@
 @use 'mixins' as *;
 
 .blog {
+	/* Reading measure + body size (2026-06-09 design audit).
+	   Before: the article filled the layout's 896px column at 16px → ~100ch
+	   lines. Now: 68ch centered column at 18px — publication-grade measure. */
+	max-width: var(--prose-measure);
+	margin-inline: auto;
+	font-size: 1.125rem; /* 18px reading body — design-system.md §6 body-lg */
+	line-height: 1.6;
+
+	/* index.scss sets a global `p { font-size: 1rem }`; inherit the 18px
+	   reading size inside articles instead. */
+	p {
+		font-size: inherit;
+	}
+
 	/* Link styling for blog content - Warm Tech theme */
 	--blog-link-color: var(--lamp-glow);
 	--blog-link-hover-color: var(--primary-lightest);
@@ -1161,9 +1175,11 @@ blockquote {
 		padding: 0.5rem 0.25rem !important;
 		margin: 0 !important;
 
+		/* Body stays at the inherited 18px reading size — the old 0.95rem
+		   (15.2px) override put the platform's primary content below the
+		   16px floor on mobile. 2026-06-09 design audit. */
 		p {
 			margin-bottom: 0.9rem;
-			font-size: 0.95rem;
 		}
 
 		pre {
@@ -1256,7 +1272,6 @@ blockquote {
 		padding: 0.25rem 0 !important;
 
 		p {
-			font-size: 0.9rem;
 			margin-bottom: 0.8rem;
 		}
 

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-06-08T12:05:54Z",
+	"lastUpdated": "2026-06-09T06:12:53Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "andrew-garfield",
-			"displayName": "Andrew Garfield",
-			"type": 4,
-			"priority": 67,
-			"priorityReason": "Mainstream star with broad appeal, emotionally expressive grief register (Colbert mother interview, tick…BOOM!), and a 4w5 romantic-artist angle (was Type 9 — corrected during audit)",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-10",
-			"retryCount": 0,
-			"strategicValue": "hollywood-heartthrob-cluster"
-		},
 		{
 			"name": "jony-ive",
 			"displayName": "Jony Ive",
@@ -878,6 +865,25 @@
 			"note": "Draft created but blocked: no primary sources / zero third-party testimony. Honest fact-bounded draft saved; do not publish without German-language transcripts. Recommend deprioritize.",
 			"durationMinutes": 119,
 			"draftPath": "src/blog/people/drafts/carina-zavline.md"
+		},
+		{
+			"name": "andrew-garfield",
+			"displayName": "Andrew Garfield",
+			"type": 4,
+			"priority": 67,
+			"priorityReason": "Mainstream star with broad appeal, emotionally expressive grief register (Colbert mother interview, tick…BOOM!), and a 4w5 romantic-artist angle (was Type 9 — corrected during audit)",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "hollywood-heartthrob-cluster",
+			"startedAt": "2026-06-09T06:00:42Z",
+			"completedAt": "2026-06-09T06:12:53Z",
+			"contentGrade": 8.7,
+			"gradeLetter": "B+",
+			"duration": 12,
+			"needsReview": false
 		}
 	],
 	"inProgress": null,

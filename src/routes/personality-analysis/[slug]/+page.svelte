@@ -1032,7 +1032,11 @@
 
 	.article-body {
 		width: 100%;
-		max-width: 100%;
+		/* Reading measure (2026-06-09 design audit): 18px was right but the
+		   880px container ran ~90ch lines. Prose caps at 68ch, centered;
+		   the dossier header/stat furniture keeps the full 880px frame. */
+		max-width: var(--prose-measure);
+		margin-inline: auto;
 		min-width: 0;
 		margin-bottom: 2rem;
 		overflow-x: hidden;
@@ -1077,6 +1081,9 @@
 		}
 
 		:global(p) {
+			/* inherit the 18px reading size — the global `p { font-size: 1rem }`
+			   in index.scss would otherwise pin paragraphs to 16px. */
+			font-size: inherit;
 			margin-bottom: 1.4rem;
 			color: var(--ink-bright);
 		}

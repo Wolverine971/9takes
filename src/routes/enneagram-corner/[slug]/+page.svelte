@@ -161,7 +161,8 @@
 	.article-body {
 		margin-bottom: 2rem;
 		line-height: 1.7;
-		color: var(--ink-mid);
+		/* Body reads in --ink-bright (ratified 2026-06-09, design-system.md §6). */
+		color: var(--ink-bright);
 
 		/* Header styles for injected content */
 		:global(h2) {

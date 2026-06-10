@@ -11,7 +11,7 @@ published: true
 type: ['resources']
 blog: true
 previewHtml: ''
-pic: 'greek-statues-two-females-on-phones'
+pic: 'greek-statue-finding-enneagram-type'
 path: src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
 quality_grade: 'A'
 quality_score: 9
@@ -484,7 +484,7 @@ _P.S. Still uncertain? That's normal. Some people take months to find their true
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-two-females-on-phones.webp",
+        "url": "https://9takes.com/blogs/greek-statue-finding-enneagram-type.webp",
         "width": 900
       },
       "publisher": {

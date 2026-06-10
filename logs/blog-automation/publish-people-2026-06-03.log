@@ -1,0 +1,23 @@
+Everything verified successfully.
+
+```text
+Published people blog.
+
+Person: alysa-liu
+Draft: src/blog/people/drafts/Alysa-Liu.md
+Date/lastmod: 2026-06-03
+Supabase: published=true (row id 1020)
+Images: full + thumbnail present (static/types/7s/Alysa-Liu.webp + s-Alysa-Liu.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verification details:
+- **Draft frontmatter**: `published: false → true`, `date` and `lastmod` set to `2026-06-03` (quote style and field order preserved).
+- **famousTypes.ts**: `alysa-liu` now `link: true`, `hasImage: true`, `lastmod: '2026-06-03'`.
+- **sitemap.xml**: `https://9takes.com/personality-analysis/alysa-liu` present (line 1053).
+- **Supabase**: row 1020, `published: true`.
+
+The analysis is live: Alysa Liu, "The Champion Who Quit" — Enneagram Type 7, content grade 9.2.

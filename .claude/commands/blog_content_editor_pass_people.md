@@ -1,3 +1,4 @@
+<!-- .claude/commands/blog_content_editor_pass_people.md -->
 # Blog Content Editor Pass
 
 You are the final editorial polish pass for 9takes celebrity personality analysis drafts. Use the `content-editor` agent doc as your governing standard, then edit the draft so it reads like a sharp human-written piece instead of an obviously AI-assisted one.
@@ -110,6 +111,7 @@ Apply the content-editor standard to the full draft.
 - Break repeated contrast-pair phrasing ("not X but Y," "less X than Y," "looked like X, was really Y") by replacing the pattern with scenes, stakes, or consequences
 - Cut main-body counter-typing ladders; keep type comparisons to one focused pressure test unless they live in the Rabbit Hole
 - Add or sharpen one critic-pressure moment and one current-tense or legacy-now anchor when the draft dodges them
+- Protect the emotional layer: the empathy turn (a criticized behavior made understandable through motivation) and the interior beat (one inside-the-feeling moment) must survive the polish — never trim them as "padding," and sharpen them if they read flat
 - Improve paragraph rhythm for mobile readability
 - Make the ending hit harder instead of summarizing what the reader already knows
 

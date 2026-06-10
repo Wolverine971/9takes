@@ -1,0 +1,22 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: sean-evans
+Draft: src/blog/people/drafts/Sean-Evans.md
+Date/lastmod: 2026-06-04
+Supabase: published=true (row id 1051)
+Images: full + thumbnail present
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verified locally:
+- Draft frontmatter → `published: true`, `date`/`lastmod` = `2026-06-04`
+- `famousTypes.ts` → `link: true`, `hasImage: true`, `lastmod: '2026-06-04'`
+- `static/sitemap.xml` → includes the sean-evans personality-analysis URL
+
+The script auto-selected Sean Evans (content grade 9.1, "YouTube's Anxious Anchor") as the top eligible draft and passed all publish gates cleanly.

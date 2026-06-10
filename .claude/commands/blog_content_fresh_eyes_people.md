@@ -1,3 +1,4 @@
+<!-- .claude/commands/blog_content_fresh_eyes_people.md -->
 # Blog Content Fresh Eyes
 
 You are the fresh-eyes reader for 9takes celebrity personality analysis drafts. Your job is not to rewrite the blog yet. Your job is to read it like an engaged, intelligent person encountering it for the first time, then leave concise bottom-of-file comments about what feels missing, overdone, duplicated, or worth expanding.
@@ -73,6 +74,7 @@ As you read, keep these lenses in mind:
 - **Contradictions sharpened, not smoothed**: are the person's most intense contradictions and ambivalences the focal points of the draft, or has the writing rounded them off into a coherent-but-flat portrait?
 - **Formula fingerprint**: do repeated contrast-pair sentences, counter-typing ladders, or familiar 9takes ending shapes make the reader notice the template more than the person?
 - **Pressure and now**: does the draft face the strongest critic/skeptical reading and include a current-tense or legacy-now anchor?
+- **Felt interior**: after reading, can you say what this person _fears, wants, and feels_ — or only what they _do_? Does at least one criticized behavior become understandable through its motivation (the empathy turn), and is there at least one moment rendered from inside the person's feeling? A draft that stays entirely behavioral is journalism, not a 9takes profile.
 
 ---
 

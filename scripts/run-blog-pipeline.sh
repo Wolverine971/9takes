@@ -13,6 +13,7 @@
 #   4. cohesion           - /cohesion-check
 #   5. editor_pass        - /blog_content_editor_pass_people
 #   6. enrich_frontmatter - /blog_content_frontmatter_enrich_people
+#   6.5 lint              - scripts/blog-lint.sh (deterministic checks, no LLM)
 #   7. grade              - /grade_blog
 #
 # Usage:
@@ -98,12 +99,31 @@ clear_grading_frontmatter() {
   ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
 }
 
+run_lint() {
+  local log_file="$LOG_DIR/6.5_lint.log"
+  echo "─────────────────────────────────────────────────────"
+  echo "[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)"
+  echo "Log:     $log_file"
+  echo "─────────────────────────────────────────────────────"
+  "$REPO_ROOT/scripts/blog-lint.sh" "$PERSON" 2>&1 | tee "$log_file"
+  LINT_EXIT="${PIPESTATUS[0]}"
+  if [[ "$LINT_EXIT" -ne 0 ]]; then
+    echo "[Stage 6.5] lint FAILED (exit=$LINT_EXIT) — failures listed above; pipeline continues (run-all-then-report)"
+  else
+    echo "[Stage 6.5] lint passed"
+  fi
+  echo
+}
+
+LINT_EXIT=0
+
 run_stage 1 create             "/blog_content_creator_people_v2 $PERSON --non-interactive"
 run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $PERSON"
 run_stage 3 second_pass        "/blog_content_second_pass_people $PERSON"
 run_stage 4 cohesion           "/cohesion-check $DRAFT_PATH"
 run_stage 5 editor_pass        "/blog_content_editor_pass_people $PERSON"
 run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $PERSON"
+run_lint
 clear_grading_frontmatter
 run_stage 7 grade              "/grade_blog $PERSON"
 
@@ -111,12 +131,17 @@ echo "════════════════════════�
 echo "Pipeline complete for: $PERSON"
 echo "Finished: $(date)"
 echo "All logs: $LOG_DIR"
+if [[ "$LINT_EXIT" -ne 0 ]]; then
+  echo "LINT: FAILED — see $LOG_DIR/6.5_lint.log (deterministic rule violations need fixing before publish)"
+else
+  echo "LINT: passed"
+fi
 echo
 
 FULL_DRAFT="$REPO_ROOT/$DRAFT_PATH"
 if [[ -f "$FULL_DRAFT" ]]; then
   echo "Final draft frontmatter (grade summary):"
-  awk '/^---$/{c++; next} c==1' "$FULL_DRAFT" | grep -E "^\s*(hook|enneagram|evidence|writing|originality|overall|letter|graded_at):" || \
+  awk '/^---$/{c++; next} c==1' "$FULL_DRAFT" | grep -E "^\s*(hook|enneagram|evidence|writing|originality|discoverability|overall|letter|rubric_version|graded_at):" || \
     echo "  (no content_quality block found — grade stage may have failed)"
 fi
 

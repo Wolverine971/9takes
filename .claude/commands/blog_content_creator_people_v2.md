@@ -1,3 +1,4 @@
+<!-- .claude/commands/blog_content_creator_people_v2.md -->
 # Blog Content Creator (v2)
 
 You are tasked with researching, drafting, and refining celebrity personality analysis blogs for the 9takes platform. This command owns the writing-side workflow: research synthesis, Enneagram analysis, draft, revision, frontmatter, and internal linking.
@@ -47,7 +48,7 @@ Apply these at every step that would normally wait for a user reply:
 
 1. **Type ambiguity (Step 2)** — pick the leading hypothesis and proceed. Log the unresolved ambiguity in working notes (HTML comment in the draft). Do not pause to ask.
 2. **Transcript gather (Step 3, Substep 3b)** — default to **Option B** (fetch transcripts yourself). Invoke the `/youtube-transcript` skill (or `yt-dlp` + `youtube-transcript-api` directly) on 2-4 shortlisted URLs. If every fetch fails, fall back to Option C, log `research_limitation: no_transcripts` in working notes, and continue. Never present the A/B/C prompt to the user in non-interactive mode.
-3. **Hard gates (Gates 1, 2, 4, 5, 6 in Step 5)** — enforce normally. If a gate blocks the draft, do **not** prompt. Save the draft anyway with `production_pretext.status: blocked` and the appropriate blocker (`thin_collaborator_testimony`, `heading_mix_violation`, `anti_imitation_violation`, `distribution_rule_violation`, `formula_fingerprint_violation`) in the `blockers` list. Include the gate failure in the final output.
+3. **Hard gates (Gates 1, 2, 4, 5, 6 in Step 5)** — enforce normally. If a gate blocks the draft, do **not** prompt. Save the draft anyway with `production_pretext.status: blocked` and the appropriate blocker (`thin_collaborator_testimony`, `heading_mix_violation`, `anti_imitation_violation`, `distribution_rule_violation`, `formula_fingerprint_violation`, `missing_empathy_turn`) in the `blockers` list. Include the gate failure in the final output.
 4. **Draft save (Step 8)** — always save with `production_pretext.status: draft` (or `blocked` if a gate failed). Never auto-promote to `ready` in non-interactive mode; human review before production is still required.
 5. **Post-save options menu (Step 8)** — skip the numbered-options menu. Report draft location, internal-link summary, and gate status, then exit. Do not grade — grading is owned by `/grade_blog`.
 6. **Review and refinement (Step 9)** — not applicable. There is no user-in-the-loop iteration in non-interactive mode. A single full pass, gated by the Quality Checklist and the hard gates, is the entire run.
@@ -694,6 +695,13 @@ Determine the likely Enneagram type from Step 1 research. Then analyze across di
 1. The **core tension** in one phrase: `[X] vs. [Y]`
 2. The **psychological question** their life is answering
 3. **3–5 small moments** from research that crack this tension open
+4. The **emotional thesis** — the core fear and core desire _as this person experiences them_,
+   in their own vocabulary, sourced from their own quotes — never the textbook type description.
+   Not "Sixes fear being without support" but the specific shape that fear takes in this life
+   (e.g., a man who thought _"I wasn't sure I belonged there"_ on day one and spent 25 years
+   making sure no one could prove he didn't). The core tension is the behavior pattern; the
+   emotional thesis is the feeling driving it. If you can state the pattern but not the feeling,
+   the research isn't done.
 
 **If research is ambiguous about the type:** present the leading hypothesis plus the key unresolved ambiguity in plain language and wait for a decision. Do not frame this as an extended candidate-type showdown in the draft.
 
@@ -757,6 +765,12 @@ If nothing surfaces after a reasonable search, name the specific gap in working 
 **Apply the stat guidance where it earns its weight** — see "Statistical Claims & Cited Sources" in Part 1. Strongly encouraged, not required. 1–2 sourced, falsifiable numbers placed in the hook, type diagnosis, or a single accomplishment line beat zero stats; zero stats beat invented stats.
 
 **Every section has conflict.** If a section is just listing traits, benefits, or accomplishments with no tension, inject contrast: before/after, public vs. private, what fans think vs. what's actually true, Type X reaction vs. Type Y reaction, stress vs. security. A flat section is a section that gets skimmed. Apply this even to "upbringing" and "accomplishments" — find the tension inside the material.
+
+**The emotional layer (required — this is the 9takes promise).** "See the emotions behind every take." A draft that nails the behavior pattern but never renders the feeling is journalism, not a 9takes profile. Three requirements:
+
+1. **Thread the emotional thesis.** The core fear and core desire from Step 2 must surface in the body in felt terms — what the pattern is protecting the person _from_, what it costs them, what the pursuit of the desire feels like from inside. Use the person's own emotional vocabulary, not type-theory labels.
+2. **The empathy turn.** Take the person's most criticized or mocked behavior and show the motivation that makes it make sense — without excusing it. This pairs with the critic-pressure anchor (Gate 6): the critic brings the judgment; the empathy turn resolves it through motivation. The reader should finish that passage understanding a behavior they used to just judge. This is the moment the Enneagram earns its place in the piece.
+3. **One interior beat.** At least one moment rendered from _inside_ the person's feeling — the reader briefly being them, not observing them. The `<p class="inner-thought">` furniture (Step 6) is built for this, but well-written interior prose also qualifies. One is enough; more than two starts to feel like fiction.
 
 **Tailor structure to the person:**
 
@@ -863,7 +877,9 @@ Before saving, produce a **Formula Fingerprint Ledger** as an HTML comment. Enum
 Contrast-pair sentence engines: [N] — [locations or "none"]
 Counter-typing ladders in main body: [N] — [locations or "none"]
 Critic-pressure anchor: [named critic / skeptical reading / controversy / review + section]
+Empathy turn: [criticized/mocked behavior + the motivation that reframes it + section]
 Current-tense or legacy-now anchor: [recent project/event/interview OR present legacy debate]
+Interior beat: [the inside-the-feeling moment + section]
 Ending swap-test: [pass/fail + one sentence]
 -->
 ```
@@ -873,8 +889,11 @@ Ending swap-test: [pass/fail + one sentence]
 - More than 2 contrast-pair sentence engines drive the main body.
 - Any main-body counter-typing ladder compares 3+ types in sequence outside the diagnosis section or Rabbit Hole.
 - The draft has no critic-pressure anchor.
+- The draft has no empathy turn — a criticized or mocked behavior made understandable through its motivation. (Blocker name: `missing_empathy_turn`.)
 - The draft has no current-tense anchor for a living/current figure, or no legacy-now anchor for a historical/deceased figure.
 - The ending fails the swap test.
+
+(The interior beat is ledger-enumerated but is a checklist item, not a blocker — fix it before saving rather than blocking on it.)
 
 ---
 
@@ -1131,6 +1150,9 @@ Before finalizing any blog (new or updated). Every item must pass. Items marked 
 ### Depth & uniqueness
 
 - [ ] **Core tension identified?** Can you state the central contradiction in one phrase (`[X] vs. [Y]`)? Threaded through intro, body, ending?
+- [ ] **Emotional thesis threaded?** The core fear and core desire appear in the body in felt terms, in the person's own vocabulary — not textbook type language. A reader can answer: what does this person fear, want, and feel?
+- [ ] **Empathy turn present (hard gate — Gate 6)** — the person's most criticized or mocked behavior becomes understandable through its motivation, without being excused. The critic brings the judgment; this resolves it.
+- [ ] **One interior beat** — at least one moment rendered from inside the person's feeling (the reader briefly _is_ them). `<p class="inner-thought">` or equivalent interior prose.
 - [ ] **At least 3 signature details** — small, specific moments, not headline accomplishments.
 - [ ] **At least 1 aha moment** where the Enneagram makes something click that wouldn't click otherwise.
 - [ ] **Public/private gap explored** — the reader sees who this person is when the performance stops.

@@ -8,7 +8,7 @@ lastmod: '2026-03-29'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
-pic: 'greek-statue-being-ghosted'
+pic: 'greek-statue-fighting-depression'
 path: src/blog/guides/guide-to-fighting-depression.md
 ---
 
@@ -73,7 +73,7 @@ path: src/blog/guides/guide-to-fighting-depression.md
       "url": "https://9takes.com/how-to-guides/guide-to-fighting-depression",
       "image": {
         "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/greek-statue-being-ghosted.webp",
+        "url": "https://9takes.com/blogs/greek-statue-fighting-depression.webp",
         "width": 900,
         "height": 900
       },

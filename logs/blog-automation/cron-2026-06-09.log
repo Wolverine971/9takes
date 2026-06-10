@@ -1,0 +1,46 @@
+[2026-06-09 02:00:52] [INFO] Daily blog creator: selected andrew-garfield (Type 4, Priority 67). Starting content creation.
+[2026-06-09 02:11:12] [SUCCESS] Draft created: Andrew-Garfield.md. All gates pass. Proceeding to grade.
+[2026-06-09 02:12:53] [SUCCESS] Blog completed - Andrew Garfield, Grade B+ (8.7), -227 min. Rate limit now 2/5.
+--- NOTIFICATION (for wrapper delivery) ---
+📚 9takes Daily Blog Creator - 2026-06-09
+
+✅ SUCCESS
+
+Blog: Andrew Garfield
+Type: 4 (Individualist, 4w5)
+Grade: 8.7/10 (B+)
+Duration: 12 min
+Priority: 67
+
+File: src/blog/people/drafts/Andrew-Garfield.md
+Status: draft (awaiting human review before production)
+
+Next blog in queue: Jony Ive (Type 5, Priority 65)
+--- END NOTIFICATION ---
+Done. Here's the run summary.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date:     2026-06-09
+Status:   SUCCESS
+Blog:     Andrew Garfield (Type 4 / 4w5)
+Grade:    8.7/10 (B+) — publication threshold met
+Duration: 12 min
+Rate:     2/5 this week
+Next:     Jony Ive (Type 5, Priority 65)
+===================================
+```
+
+**What happened:**
+
+1. **Pre-flight** — `pause:false`, no `forceNext`, `inProgress:null`, rate limit 1/5. All clear.
+2. **Selected** `andrew-garfield` (priority 67, highest with no existing draft).
+3. **Researched** via two parallel agents — deep bio/quotes + named-third-party testimony. Confirmed the 4w5 call (corrected from the old Type 9).
+4. **Drafted** `src/blog/people/drafts/Andrew-Garfield.md` (3.3k words). Core thesis: *grief as the Four's proof-of-love — he hopes it never heals.* Opens on the Elmo/dead-mother scene; ends cut-to-black.
+5. **Gates** — all 6 pass: 5 named testimony quotes (Stone, Scorsese, Miranda, Holland, Pugh), 5 search-intent/hybrid headings, no self-loop, anti-imitation clean, distribution ≤4, formula fingerprint clean. 5 internal links, 535-word Rabbit Hole.
+6. **Graded** B+ (8.7) under rubric v2. Ceiling is discoverability (no FAQ schema / thin entity metadata) — fixable at publish time.
+7. **Queue updated** — moved to `completed`, rate limit incremented to 2/5, `inProgress` cleared.
+
+**Held deliberately:** production was **not** auto-triggered. The draft stays `status: draft` — the non-interactive workflow requires human review before any DB write. To publish: review `/admin/drafts/Andrew-Garfield`, set `production_pretext.status: ready`, then run `/blog_content_production_people andrew-garfield`.
+
+One note: the queue's `duration` field needed a UTC-parsing fix (it first computed negative); corrected to 12 min. Worth checking whether the cron wrapper's duration math has the same local-vs-UTC bug.

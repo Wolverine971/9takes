@@ -1,0 +1,21 @@
+Confirmed: **no draft exists** for tate-mcrae. The `inProgress` entry is genuinely stuck — the previous run started 23h54m ago, never produced a draft, and never cleared `inProgress`.
+
+I'm holding to the rule and stopping (it's not yet stale by 6 minutes), but here's the honest state of things:
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date:      2026-06-03
+Status:    SKIPPED (inProgress lock held)
+Blog:      tate-mcrae (stuck, no draft, 23h54m old)
+Rate:      2/5 this week
+Next Run:  Will auto-clear stale lock (>24h) and select fresh
+===================================
+```
+
+**What happened:** The 2026-06-02 run claimed tate-mcrae, started it, then died without writing a draft or clearing the lock. It now sits 6 minutes shy of the 24h stale cutoff, so this run correctly defers rather than risk colliding with a still-live process.
+
+**Your options:**
+- **Do nothing** — the next scheduled run (any time after ~00:07 MDT) will see it as stale, move tate-mcrae to `skipped` with reason "stale inProgress - timeout", clear the lock, and select the top queue candidate (carina-zavline or ayo-edebiri at priority 69).
+- **Unstick it now** — I can clear the `inProgress` lock and either re-queue tate-mcrae or proceed with selection immediately. Just say the word.
+
+I didn't modify any files, since the rules require stopping when the lock is held and not yet stale.

@@ -215,8 +215,11 @@
 
 <style lang="scss">
 	/* 9takes Warm Tech Theme - Pop Culture Article */
+	/* Body reads in --ink-bright (ratified 2026-06-09, design-system.md §6) —
+	   this page previously used legacy --neutral-700, one of three different
+	   body colors shipping across the blog sections. */
 	.pop-culture-article {
-		color: var(--neutral-700);
+		color: var(--ink-bright);
 	}
 
 	.article-header {
@@ -284,9 +287,14 @@
 	}
 
 	.article-content {
+		/* Reading measure + 18px body (2026-06-09 design audit) — matches
+		   .blog and the dossier .article-body. */
+		max-width: var(--prose-measure);
+		margin-inline: auto;
+		font-size: 1.125rem;
 		margin-bottom: 2rem;
 		line-height: 1.7;
-		color: var(--neutral-700);
+		color: var(--ink-bright);
 
 		:global(h2) {
 			font-size: 1.75rem;
@@ -317,15 +325,18 @@
 		}
 
 		:global(p) {
+			/* inherit the 18px reading size — the global `p { font-size: 1rem }`
+			   in index.scss would otherwise pin paragraphs to 16px. */
+			font-size: inherit;
 			margin-bottom: 1.2rem;
-			color: var(--neutral-700);
+			color: var(--ink-bright);
 		}
 
 		:global(ul),
 		:global(ol) {
 			margin: 1rem 0;
 			padding-left: 1.5rem;
-			color: var(--neutral-700);
+			color: var(--ink-bright);
 		}
 
 		:global(li) {
@@ -516,7 +527,8 @@
 			}
 
 			:global(p) {
-				font-size: 0.95rem;
+				/* was 0.95rem (15.2px) — below the 16px mobile floor.
+				   Inherits the 18px reading size like .blog on mobile. */
 				margin-bottom: 1rem;
 			}
 

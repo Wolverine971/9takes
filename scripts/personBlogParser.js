@@ -38,8 +38,10 @@ dotenv.config();
  *   evidence?: number,
  *   writing?: number,
  *   originality?: number,
+ *   discoverability?: number,
  *   overall?: number,
  *   letter?: string,
+ *   rubric_version?: number,
  *   graded_at?: string
  * }} ContentQuality
  */
@@ -133,6 +135,10 @@ const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 const BLOG_HISTORY_SIGNATURE_SENTINEL_ID = 2147483648;
 const PEOPLE_DRAFTS_DIR = 'src/blog/people/drafts';
 const PUBLISH_MIN_CONTENT_GRADE = 8.5;
+// Audit 2026-06-10: v1 grades clustered 8.5-9.4 and were discoverability-blind. Publishing
+// requires a rubric-v2 grade and the v2 discoverability gate (>=7). Re-grade with /grade_blog.
+const PUBLISH_REQUIRED_RUBRIC_VERSION = 2;
+const PUBLISH_MIN_DISCOVERABILITY = 7;
 const PUBLISH_MIN_WORD_COUNT = 1200;
 const PUBLISH_MIN_SECTION_COUNT = 4;
 const EXCLUDED_FILE_BASENAMES = new Set([
@@ -264,6 +270,10 @@ export function normalizeContentQuality(raw) {
 	const evidence = normalizeScore(qualityInput.evidence);
 	const writing = normalizeScore(qualityInput.writing);
 	const originality = normalizeScore(qualityInput.originality);
+	const discoverability = normalizeScore(qualityInput.discoverability);
+	const rubricVersionRaw = Number(qualityInput.rubric_version);
+	const rubricVersion =
+		Number.isInteger(rubricVersionRaw) && rubricVersionRaw > 0 ? rubricVersionRaw : null;
 	const overall = normalizeScore(qualityInput.overall);
 	const letter =
 		typeof qualityInput.letter === 'string' && qualityInput.letter.trim() !== ''
@@ -283,6 +293,8 @@ export function normalizeContentQuality(raw) {
 	if (evidence !== null) normalized.evidence = evidence;
 	if (writing !== null) normalized.writing = writing;
 	if (originality !== null) normalized.originality = originality;
+	if (discoverability !== null) normalized.discoverability = discoverability;
+	if (rubricVersion !== null) normalized.rubric_version = rubricVersion;
 	if (overall !== null) normalized.overall = overall;
 	if (letter !== null) normalized.letter = letter;
 	if (gradedAt !== null) normalized.graded_at = gradedAt;
@@ -894,6 +906,16 @@ export async function readPublishCandidate(filePath) {
 		blockers.push('invalid_content_quality');
 	} else if (qualityOverall < PUBLISH_MIN_CONTENT_GRADE) {
 		blockers.push(`content_quality_below_${PUBLISH_MIN_CONTENT_GRADE}:${qualityOverall}`);
+	} else {
+		const rubricVersion = entry.content_quality?.rubric_version ?? null;
+		const discoverability = normalizeScore(entry.content_quality?.discoverability);
+		if (rubricVersion === null || rubricVersion < PUBLISH_REQUIRED_RUBRIC_VERSION) {
+			blockers.push(`stale_grade_rubric_v${rubricVersion ?? 1}:re-run /grade_blog`);
+		} else if (discoverability === null) {
+			blockers.push('missing_discoverability_score:re-run /grade_blog');
+		} else if (discoverability < PUBLISH_MIN_DISCOVERABILITY) {
+			blockers.push(`discoverability_below_${PUBLISH_MIN_DISCOVERABILITY}:${discoverability}`);
+		}
 	}
 	if (wordCount < PUBLISH_MIN_WORD_COUNT) {
 		blockers.push(`too_short:${wordCount}_words`);

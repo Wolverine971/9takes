@@ -1,0 +1,35 @@
+[2026-06-08 02:06:49] [INFO] Starting daily blog creator (--non-interactive)
+[2026-06-08 02:06:49] [INFO] override.json pause=false, forceNext=null, rateLimit 0/5
+[2026-06-08 02:06:49] [WARN] STALE INPROGRESS CLEARED: ayo-edebiri after 50 hours (no draft)
+[2026-06-08 02:06:49] [INFO] SELECTED: carina-zavline (Type 3, Priority: 69)
+[2026-06-08 08:05:54] [INFO] Draft created (BLOCKED): carina-zavline -> src/blog/people/drafts/carina-zavline.md (119 min)
+[2026-06-08 08:05:54] [WARN] BLOCKED on Gate 1 (thin_collaborator_testimony): no primary sources / no third-party testimony. needsReview=true. No fabrication.
+[2026-06-08 08:05:54] [INFO] Queue updated: inProgress cleared, carina-zavline -> completed(status=blocked). Rate limit now 1/5.
+Workflow complete. Here's the run summary.
+
+## Daily Blog Creator — 2026-06-08
+
+**Pre-flight:** pause `false`, no `forceNext`, rate limit 0/5. Cleared a **stale `inProgress`** (`ayo-edebiri`, 50h old, no draft) → moved to `skipped` as "stale inProgress - timeout". Selected the top no-draft candidate: **carina-zavline** (Type 3, priority 69).
+
+**Outcome: draft created but `BLOCKED` — and this is the honest call, not a failure of effort.**
+
+Carina Zavline is a *Germany's Next Top Model* S12 (2017) quarter-finalist turned self-managed model (~1M+ IG). After exhaustive research there are **no long-form interviews, no attributable quotes in her own voice, and zero third-party testimony** — only SEO bio-farm pages (pure paraphrase) and GNTM clips; the one real German news article is now HTTP 410. Writing a full psychological profile would have required fabricating quotes and testimony, which the workflow forbids. So I wrote a tight, **strictly fact-bounded** draft (real arc only: front-runner who won the Opel campaign, got cut as "too ready," then self-managed the brand) and let the testimony gate fail honestly.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/carina-zavline.md
+STATUS: production_pretext.status = blocked
+BLOCKERS: thin_collaborator_testimony
+GATES: Gate 1: FAIL (0 third-party quotes, need ≥2) | Gate 2: pass (3 search/hybrid H2s) | Gate 4: pass | Gate 5: pass (1 type-theory para) | Gate 6: pass
+LIMITATIONS: no_primary_sources — no interviews/testimony exist; type call is behavioral inference only (moderate confidence)
+```
+
+**Internal links (4):** Gigi Hadid · Enneagram Type 3 · Wings guide · Instinctual subtypes — all targets validated, no self-loop.
+
+**Queue updated:** `inProgress` cleared; `carina-zavline` → `completed` with `status: blocked`, `needsReview: true`. Weekly rate limit now **1/5**. Logged to `logs/blog-automation/cron-2026-06-08.log`. (Telegram notification couldn't be sent — no channel tool available in this session.)
+
+**Recommendation for you (human review):** Carina Zavline is genuinely under-resourced for the 9takes bar. Either (a) supply German-language interview transcripts to make her publishable, or (b) **deprioritize/drop her from the queue** — her #1 priority was always flagged "pending deeper research," and the research now confirms the material isn't there. Next clean candidate is **andrew-garfield** (Type 4, priority 67), who has abundant primary sources.
+
+One bug to flag: the `durationMinutes: 119` in the queue entry is a timezone-math artifact (real runtime was a few minutes) — cosmetic, left as-is.
+
+Want me to drop `carina-zavline` to the bottom of the queue (or to `skipped`) so tomorrow's run picks up Andrew Garfield instead?

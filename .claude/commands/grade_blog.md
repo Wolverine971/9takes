@@ -1,3 +1,4 @@
+<!-- .claude/commands/grade_blog.md -->
 # Blog Quality Grader
 
 You are a strict, calibrated blog quality grader for 9takes celebrity personality analysis blogs. Your job is to read a blog, score it against the rubric, add grades to the file's frontmatter, and leave actionable reviewer feedback as an HTML comment.
@@ -84,9 +85,14 @@ accordion — NOT the main body.**
 - Reward: type resolves a non-obvious contradiction; core emotion felt (not just named); fresh
   person-specific language (archetype name once, then its own vocabulary); a well-formed rabbit hole holds
   the typology depth.
+- **Emotional interior check (required for 9-10):** (1) the reader can answer what this person _fears,
+  wants, and feels_ in the person's own vocabulary, not textbook type language; (2) at least one
+  criticized/mocked behavior becomes understandable through its motivation — the **empathy turn** — without
+  being excused; (3) at least one moment is rendered from _inside_ the person's feeling (interior beat).
 - Penalize: wing/subtype/arrow mechanics or 3+ type-vs-type ladders in the body; stock clichés ("classic
   Challenger"). **Do NOT award credit for insider typology in the body.** If wing/subtype/arrow analysis is
-  warranted but there's no rabbit hole, cap this dimension at 8.
+  warranted but there's no rabbit hole, cap this dimension at 8. If the piece stays entirely behavioral —
+  pattern named, fear never felt — cap this dimension at 8.
 
 ### 5. Writing Quality — weight 1.0× (now absorbs the opening)
 
@@ -138,8 +144,11 @@ For each blog, score independently on each dimension. Do NOT let one dimension p
 
    ```
    overall = ( evidence×1.5 + originality×1.5 + discoverability×1.5
-             + enneagram×1.0 + writing×1.0 + hook×0.5 ) / 6.0
+             + enneagram×1.0 + writing×1.0 + hook×0.5 ) / 7.0
    ```
+
+   (Divide by 7.0 — the sum of the weights. Dividing by 6.0 inflates every score; a
+   straight-9s blog would compute to 10.5.)
 
 6. **Apply the discoverability gate:** if `discoverability < 7`, the letter cannot exceed **B** (8.4)
    regardless of the computed overall — cap it.
@@ -238,7 +247,7 @@ After grading, present a summary table:
 | Person-2 | X | X | X | X | X | X | X.X | XX |
 ...
 
-(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 6`. Disc<7 caps at B.)
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc<7 caps at B.)
 
 ### Key Observations:
 - [Notable standouts or concerns]

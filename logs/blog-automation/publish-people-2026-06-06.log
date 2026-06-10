@@ -1,0 +1,17 @@
+```text
+Published people blog.
+
+Person: Alex Lieberman (alex-lieberman, Type 7, "Media's Anxious Optimist")
+Draft: src/blog/people/drafts/Alex-Lieberman.md
+Date/lastmod: 2026-06-06
+Supabase: published=true (synced; confirmed via gen:famous-types pulling the live row → link:true, contentGrade:9)
+Images: full + thumbnail present (static/types/7s/Alex-Lieberman.webp + s-Alex-Lieberman.webp)
+Generated files: pnpm gen:all completed
+  - famousTypes.ts: link:true, hasImage:true, lastmod:2026-06-06
+  - sitemap.xml: includes https://9takes.com/personality-analysis/alex-lieberman
+
+Blockers:
+- none
+```
+
+Note: the run hit two transient Supabase `fetch failed` network errors mid-way (once in the initial publish, once during `gen:all` at `gen:famous-types`). I retried each time; the publish gate itself passed cleanly and all artifacts are now consistent. No bypass was used.

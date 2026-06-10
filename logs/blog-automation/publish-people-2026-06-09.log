@@ -1,0 +1,21 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: noah-kahan
+Draft: src/blog/people/drafts/Noah-Kahan.md
+Date/lastmod: 2026-06-09
+Supabase: published=true (row id 1030)
+Images: full + thumbnail present (4s/Noah-Kahan.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verified:
+- Draft frontmatter: `published: true`, `date: '2026-06-09'`, `lastmod: '2026-06-09'`
+- `famousTypes.ts`: noah-kahan flipped to `link: true`, `hasImage: true`, `lastmod: '2026-06-09'`
+- `static/sitemap.xml`: includes `/personality-analysis/noah-kahan` with image
+- Quality grade 9 (≥ 8.5 gate)
