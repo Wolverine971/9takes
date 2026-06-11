@@ -19,6 +19,7 @@
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 
@@ -109,6 +110,7 @@
 
 <div class="join">
 	{#if !data?.user}
+		<EnneagramCTASidebar />
 		<EmailSignup cta={'Get the next community take from 9takes'} />
 	{/if}
 </div>

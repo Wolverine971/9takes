@@ -10,9 +10,10 @@
 	export let navItems: Array<{ href: string; label: string }> = [];
 	export let libraryItems: Array<{ href: string; label: string }> = [];
 
-	// State management
+	// State management. Library starts expanded — it holds the core product
+	// links (Questions, the blog sections) and the drawer has the room.
 	let isMenuOpen = false;
-	let isDropdownOpen = false;
+	let isDropdownOpen = true;
 
 	// Close menu when page changes
 	afterNavigate(() => {
@@ -34,7 +35,8 @@
 		isMenuOpen = nextMenuOpen;
 
 		if (!nextMenuOpen) {
-			isDropdownOpen = false;
+			// Reset to expanded so the next open shows the Library again
+			isDropdownOpen = true;
 		}
 
 		// Prevent body scrolling when menu is open
@@ -48,7 +50,8 @@
 	 */
 	function closeMenu() {
 		isMenuOpen = false;
-		isDropdownOpen = false;
+		// Reset to expanded so the next open shows the Library again
+		isDropdownOpen = true;
 
 		if (typeof document !== 'undefined') {
 			document.body.style.overflow = '';
@@ -83,6 +86,21 @@
 	function isActive(href: string): boolean {
 		return href === '/' ? $page.url.pathname === '/' : $page.url.pathname.startsWith(href);
 	}
+
+	/**
+	 * Portal the overlay to <body>. Inside the header it was trapped by two
+	 * containing-block/stacking bugs (2026-06-11 mobile audit): .nav-main's
+	 * backdrop-filter sizes fixed descendants to the header strip, and the
+	 * layout's sticky z-50 context capped the drawer's z-index.
+	 */
+	function portalToBody(node: HTMLElement) {
+		document.body.appendChild(node);
+		return {
+			destroy() {
+				node.remove();
+			}
+		};
+	}
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
@@ -107,6 +125,7 @@
 	{#if isMenuOpen}
 		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 		<div
+			use:portalToBody
 			class="mobile-nav-overlay"
 			role="dialog"
 			tabindex="-1"
@@ -319,8 +338,13 @@
 		background-color: var(--stone-warm);
 		width: 320px;
 		max-width: 85vw;
+		/* dvh: with 100vh the bottom actions (Login/Register) sat behind the
+		   iOS toolbar (2026-06-11 mobile audit) */
 		height: 100vh;
+		height: 100dvh;
 		overflow-y: auto;
+		/* iOS ignores body overflow locks; keep panel scroll from chaining */
+		overscroll-behavior: contain;
 		box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15);
 		display: flex;
 		flex-direction: column;
@@ -494,6 +518,7 @@
 	/* Action Buttons */
 	.nav-actions {
 		padding: 1rem 1.25rem;
+		padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
 		border-top: 1px solid var(--stone-edge);
 		display: flex;
 		flex-direction: column;
@@ -578,6 +603,7 @@
 
 		.nav-actions {
 			padding: 0.75rem 1rem;
+			padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
 		}
 
 		.login-button {

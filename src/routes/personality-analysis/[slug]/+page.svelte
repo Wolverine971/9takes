@@ -18,7 +18,7 @@
 -->
 <script lang="ts">
 	import { onMount, tick, afterUpdate } from 'svelte';
-	import { mount, unmount } from 'svelte';
+	import { mount, unmount, type Component } from 'svelte';
 	import { writable } from 'svelte/store';
 	import type { PageData } from './$types';
 	import { browser } from '$app/environment';
@@ -133,9 +133,9 @@
 		};
 	}
 
-	const componentTypes = [
+	const componentTypes: { tag: string; component: Component<Record<string, any>> }[] = [
 		{ tag: 'PopCard', component: PopCard },
-		{ tag: 'BlogPurpose', component: BlogPurpose },
+		{ tag: 'BlogPurpose', component: BlogPurpose as Component<Record<string, any>> },
 		{ tag: 'QuickAnswer', component: QuickAnswer }
 	];
 	const mountedPlaceholders = new Map<string, ReturnType<typeof mount>>();

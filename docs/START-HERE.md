@@ -196,7 +196,7 @@ See [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md) for
 | X/Twitter strategy           | [`/docs/twitter/strategy/master-strategy.md`](./twitter/strategy/master-strategy.md)                                                       |
 | AI & SEO optimization        | [`/docs/content-analysis/ai-search-optimization-guide.md`](./content-analysis/ai-search-optimization-guide.md)                             |
 | Celebrity optimization       | [`/docs/content-generation/celebrity-page-optimization-instructions.md`](./content-generation/celebrity-page-optimization-instructions.md) |
-| Domain gaps                  | [`/docs/domain-authority/00-master-index.md`](./domain-authority/00-master-index.md)                                                       |
+| Domain gaps                  | [`/docs/archives/domain-authority-feb-2026/00-master-index.md`](./archives/domain-authority-feb-2026/00-master-index.md)                   |
 | Brand voice                  | [`/docs/brand/brand-style-guide-v2.md`](./brand/brand-style-guide-v2.md)                                                                   |
 | DJ communication style       | [`/docs/brand/dj-communication-guide.md`](./brand/dj-communication-guide.md)                                                               |
 | Supabase celebrity CRUD      | [`/docs/blogs-famous-people/mcp-blogs-famous-people.md`](./blogs-famous-people/mcp-blogs-famous-people.md)                                 |
@@ -484,7 +484,7 @@ Use `TypeQuotes` to display characteristic quotes/statements from different Enne
 ### Analysis & Optimization
 
 - `content-analysis/` - AI search optimization, traffic analysis
-- `domain-authority/` - Content gaps and opportunities
+- `archives/domain-authority-feb-2026/` - Content gaps and opportunities
 
 ### Brand & Voice
 

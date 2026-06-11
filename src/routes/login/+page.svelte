@@ -138,11 +138,25 @@
 	>
 		<div class="form-group">
 			<label for="email">Email</label>
-			<input type="email" id="email" name="email" bind:value={email} required />
+			<input
+				type="email"
+				id="email"
+				name="email"
+				bind:value={email}
+				required
+				autocomplete="email"
+			/>
 		</div>
 		<div class="form-group">
 			<label for="password">Password</label>
-			<input type="password" id="password" name="password" bind:value={password} required />
+			<input
+				type="password"
+				id="password"
+				name="password"
+				bind:value={password}
+				required
+				autocomplete="current-password"
+			/>
 		</div>
 		{#if captchaRequired}
 			<div bind:this={captchaContainer}></div>

@@ -12,8 +12,6 @@
 
 	let { question, addQuestionMark = false }: Props = $props();
 
-	let fontSize = $derived(question.question ? calculateFontSize(question.question) : '2rem');
-
 	// Tier by text length (known at SSR time); viewport scaling is pure CSS via
 	// clamp(), so the server renders the correct size at every width. Replaces
 	// a JS innerWidth-driven table that SSR'd the desktop size for everyone and
@@ -39,6 +37,11 @@
 		// Very long text
 		return 'clamp(0.8rem, 0.66rem + 0.5vw, 1rem)';
 	}
+
+	// Must come after SIZE_TIERS: $derived evaluates eagerly during SSR, and a
+	// const referenced before its declaration throws (took down every question
+	// detail page; caught in the 2026-06-11 mobile audit).
+	let fontSize = $derived(question.question ? calculateFontSize(question.question) : '2rem');
 </script>
 
 <div

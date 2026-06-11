@@ -1,0 +1,14 @@
+{
+	"runDate": "2026-06-11",
+	"site": "sc-domain:9takes.com",
+	"window": {
+		"startDate": "2026-05-12",
+		"endDate": "2026-06-09",
+		"days": 28
+	},
+	"files": {
+		"queries": "2026-06-11-queries.csv",
+		"pages": "2026-06-11-pages.csv",
+		"pageQuery": "2026-06-11-page-query.csv"
+	}
+}

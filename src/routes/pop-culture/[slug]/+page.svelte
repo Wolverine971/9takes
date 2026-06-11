@@ -14,6 +14,7 @@
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
+	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
 	import { getPopCultureBridges } from '$lib/data/popCultureBridges';
 	import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
 	let { data }: { data: PageData } = $props();
@@ -208,6 +209,7 @@
 <SuggestionsBlog posts={data?.posts} blogType={'Pop Culture'} slugPrefix={'pop-culture'} />
 
 {#if !data?.user}
+	<EnneagramCTASidebar />
 	<div class="join">
 		<EmailSignup />
 	</div>

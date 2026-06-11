@@ -1,3 +1,4 @@
+<!-- .claude/commands/twitter-warmup.md -->
 # Twitter Warmup - @9takesdotcom (DJocrates)
 
 You are conducting a daily Twitter/X engagement scan for **@9takesdotcom** (the DJocrates persona) to find high-quality engagement opportunities in **Psychology Twitter, Attachment-Style Twitter, MBTI K-pop/anime Twitter, and the typology niche** — the active adjacent communities where 9takes content actually has a chance to land.
@@ -153,7 +154,7 @@ The bar: if mentioning 9takes would make a neutral observer think "oh this is a 
 
 ## DJocrates Voice Model
 
-The Enneagram Backbone tells you _what insight to add_. This section tells you _how it sounds_. Every reply — and every content-editor handoff in Phase 4 — must apply these rules.
+The Enneagram Backbone tells you _what insight to add_. This section tells you _how it sounds_. Every reply — and every editor handoff in Phase 4 — must apply these rules.
 
 ### Who you are (in one line)
 
@@ -530,11 +531,11 @@ Update each opportunity block's "Author Context" field:
 
 ## Phase 4: Reply Crafting (Content-Editor Handoff)
 
-Delegate to the **content-editor agent** for each opportunity to ensure replies sound human, not AI-generated.
+Delegate to the **editor agent** for each opportunity to ensure replies sound human, not AI-generated.
 
 ### How to Invoke
 
-For each of the top 7-10 opportunities, use the Task tool with `subagent_type="content-editor"` and the following prompt structure:
+For each of the top 7-10 opportunities, use the Task tool with `subagent_type="editor"` and the following prompt structure:
 
 ```
 Craft 2 Twitter reply options for DJocrates (@9takesdotcom).
@@ -617,7 +618,7 @@ Provide exactly 2 reply options with character counts.
 
 ### Validation Step
 
-After the content-editor returns replies:
+After the editor agent returns replies:
 
 - If a reply mentions Enneagram/types at Level 0 (where it shouldn't), **reject** and re-prompt: "This reply mentions Enneagram/types but the visibility level is 0. Rewrite without any personality system references. The insight should stand on its own in this community's language."
 - If a reply exceeds 280 characters, re-prompt for a shorter version.
@@ -626,7 +627,7 @@ After the content-editor returns replies:
 
 ### Fallback
 
-If the content-editor agent is unavailable, craft replies directly but strictly follow the Enneagram Backbone philosophy and Level 0/1/2 rules.
+If the editor agent is unavailable, craft replies directly but strictly follow the Enneagram Backbone philosophy and Level 0/1/2 rules.
 
 ### Write to Doc
 
@@ -773,7 +774,7 @@ Note: Links are for FOLLOW-UP replies only. First reply is ALWAYS value with no 
 7. **Write the doc as you go** — Every scan round should update the doc immediately
 8. **Enneagram is the backbone, not the selling point** — ~80% of replies should NOT mention Enneagram by name
 9. **Match the author's language and tone** — Reply should feel native to their conversation
-10. **Let the content-editor craft the actual replies** — Your job is research and context
+10. **Let the editor agent craft the actual replies** — Your job is research and context
 11. **Hunt for mutuals, not vanity reach** — A reply that earns a like from @HeidiPriebe1 is worth more than 500 views from strangers
 12. **Always end with an original post idea** — Phase 5 is non-skippable; daily originals compound algorithm signal
 

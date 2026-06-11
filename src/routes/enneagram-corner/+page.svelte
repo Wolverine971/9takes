@@ -382,7 +382,7 @@
 		title="The Enneagram, decoded."
 		line1="9 emotional types. Each one leads with a different read of the same situation. Here's what each one sees first — and what every type misses."
 		line2={`${publishedCount} reads. Decoded the way a real psychologist would — centers, wings, stress lines, growth lines, and the moments those patterns show up.`}
-		imageSrc="/greek_distorted_statue_face.png"
+		imageSrc="/greek_distorted_statue_face.webp"
 		imageMono="9TAKES · CASE FILES · ENNEAGRAM CORNER"
 	>
 		{#snippet meta()}

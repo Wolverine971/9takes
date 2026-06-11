@@ -71,14 +71,9 @@
 	const triadName = $derived(TRIAD_NAMES[coreEmotion]);
 </script>
 
-<svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
-		rel="stylesheet"
-	/>
-</svelte:head>
+<!-- No font <svelte:head> here: Inter + JetBrains Mono are self-hosted via
+     Fontsource in the root layout; the Google Fonts copy was a duplicate
+     download + two extra connections per dossier (2026-06-11 mobile audit). -->
 
 <section class="type-dossier">
 	<article class="dossier-card">

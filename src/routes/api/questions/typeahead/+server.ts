@@ -1,29 +1,34 @@
 // src/routes/api/questions/typeahead/+server.ts
-import { searchQuestionsTypeahead } from '$lib/server/questionSearch';
+import { searchCategoriesTypeahead, searchQuestionsTypeahead } from '$lib/server/questionSearch';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
 async function handleTypeahead(locals: App.Locals, searchString: string | null): Promise<Response> {
-	if (!locals.session?.user?.id) {
-		return json({ error: 'Unauthorized' }, { status: 401 });
-	}
-
 	const normalizedQuery = searchString?.trim() || '';
 
 	if (normalizedQuery.length < 2) {
-		return json({ results: [] });
+		return json({ results: [], categories: [] });
 	}
 
 	if (normalizedQuery.length > 200) {
-		return json({ results: [], error: 'Search query too long' }, { status: 400 });
+		return json({ results: [], categories: [], error: 'Search query too long' }, { status: 400 });
 	}
 
+	// Question search stays signed-in only; category suggestions are public
+	// (category names are already visible on the questions page).
+	const isAuthenticated = Boolean(locals.session?.user?.id);
+
 	try {
-		const results = await searchQuestionsTypeahead(locals.supabase, normalizedQuery, 10);
-		return json({ results });
+		const [results, categories] = await Promise.all([
+			isAuthenticated
+				? searchQuestionsTypeahead(locals.supabase, normalizedQuery, 10)
+				: Promise.resolve([]),
+			searchCategoriesTypeahead(locals.supabase, normalizedQuery, 3)
+		]);
+		return json({ results, categories });
 	} catch (error) {
 		console.error('Question typeahead search error:', error);
-		return json({ results: [], error: 'Search failed' }, { status: 500 });
+		return json({ results: [], categories: [], error: 'Search failed' }, { status: 500 });
 	}
 }
 

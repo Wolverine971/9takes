@@ -1,3 +1,4 @@
+<!-- .claude/commands/blog_content_publish_pop_culture.md -->
 # Blog Content Publisher (Pop-Culture)
 
 You are tasked with publishing one ready pop-culture personality analysis draft for 9takes. This command is intentionally operational: it does not rewrite the article, re-research the topic, or fix substantive editorial gaps.
@@ -62,7 +63,7 @@ This command owns the final release step for one pop-culture draft:
 This command does NOT own:
 
 - New research
-- Editorial rewrites (call `/blog_content_editor_pass_people` is not applicable — use `content-editor` or `content-polish` for pop-culture too)
+- Editorial rewrites (call `/blog_content_editor_pass_people` is not applicable — use `editor` for pop-culture too)
 - Image generation
 - Manual Supabase patches outside `index-blogs-to-supabase.js`
 - Firing distribution / social posts (DJ runs distribution commands)
@@ -225,7 +226,7 @@ If a distribution packet exists matching the slug, name it explicitly. Do not fi
 
 | Blocker                   | Fix recipe                                                                                                                                  |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Body < 1000 words         | Call `content-editor` or `/blog_content_fresh_eyes_people` (pop-culture adaptation) to expand                                               |
+| Body < 1000 words         | Call the `editor` agent or `/blog_content_fresh_eyes_people` (pop-culture adaptation) to expand                                             |
 | < 5 `##` sections         | Add structural headers; this is usually a thin outline, not a real article                                                                  |
 | `picGroup` image missing  | Either generate the asset, swap to an existing portrait under `static/types/`, or remove the entry                                          |
 | `loc` slug mismatch       | Edit `loc` to match the file's basename; never rename the file just to fit the URL                                                          |

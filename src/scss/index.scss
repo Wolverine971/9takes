@@ -723,8 +723,11 @@ input[type='search'],
 input[type='url'],
 input[type='tel'],
 select {
-	background-color: var(--stone-warm);
-	border: 1px solid var(--stone-warm);
+	/* Phase-7 regression fix: --bg-elevated/--bg-highlight both collapsed to
+	   --stone-warm, making inputs invisible on stone-warm cards (login page).
+	   Elevated fill + edge border is the V5 equivalent of the old pair. */
+	background-color: var(--stone-mid);
+	border: 1px solid var(--stone-edge);
 	border-radius: var(--border-radius-sm);
 	padding: 8px 12px;
 	font-size: 16px;
@@ -1013,7 +1016,9 @@ body::-webkit-scrollbar-thumb,
 	h5,
 	h6 {
 		font-weight: 700;
-		line-height: 1;
+		/* 1.15 not 1: wrapped two-line headings collide at line-height 1
+		   (2026-06-11 mobile audit) */
+		line-height: 1.15;
 		text-wrap: balance;
 		padding: 1rem 0 0;
 	}
@@ -1034,7 +1039,9 @@ body::-webkit-scrollbar-thumb,
 	p {
 		margin-top: 0;
 		margin-bottom: 0.5rem;
-		font-size: 0.8rem;
+		/* No font-size here: 0.8rem (12.8px) dropped every non-article
+		   paragraph below the 16px readability floor on phones
+		   (2026-06-11 mobile audit). Routes opt down deliberately. */
 	}
 
 	figure {
@@ -1065,7 +1072,9 @@ body::-webkit-scrollbar-thumb,
 
 		textarea {
 			padding: 0.5rem;
-			font-size: 0.875rem;
+			/* No font-size: 0.875rem (14px) re-triggered iOS focus-zoom on the
+			   comment composer; the global :where() 16px guard applies
+			   (2026-06-11 mobile audit). */
 		}
 	}
 }

@@ -14,6 +14,10 @@
 -->
 <script lang="ts">
 	import Callout from './Callout.svelte';
+	import {
+		buildCorpusDatasetReference,
+		NINE_TAKES_ORGANIZATION
+	} from '$lib/utils/corpusDatasetJsonLd';
 
 	type Props = {
 		/** Plain-English claim sentence — drops straight into Quotation/text. */
@@ -51,7 +55,6 @@
 		emitJsonLd = true
 	}: Props = $props();
 
-	const datasetUrl = 'https://9takes.com/corpus-stats';
 	const datasetAbsoluteAnchor = $derived(
 		corpusAnchorUrl.startsWith('http') ? corpusAnchorUrl : `https://9takes.com${corpusAnchorUrl}`
 	);
@@ -68,17 +71,8 @@
 			'@type': 'Thing',
 			name: `Enneagram type distribution among ${domainLabel}`
 		},
-		isBasedOn: {
-			'@type': 'Dataset',
-			name: '9takes Corpus Stats',
-			url: datasetUrl,
-			dateModified: generatedAt
-		},
-		creator: {
-			'@type': 'Organization',
-			name: '9takes',
-			url: 'https://9takes.com'
-		},
+		isBasedOn: buildCorpusDatasetReference(generatedAt),
+		creator: NINE_TAKES_ORGANIZATION,
 		citation: datasetAbsoluteAnchor
 	});
 </script>

@@ -78,7 +78,16 @@
 
 		<div class="hero-subject" aria-hidden="true">
 			<div class="subject-frame">
-				<img src={imageSrc} alt={imageAlt} class="statue" loading="eager" decoding="async" />
+				<!-- .hero-subject is display:none ≤968px; the media-gated source keeps
+				     phones from downloading the hero image at all (2026-06-11 audit) -->
+				<picture>
+					<source media="(min-width: 969px)" srcset={imageSrc} />
+					<source
+						media="(max-width: 968px)"
+						srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+					/>
+					<img src={imageSrc} alt={imageAlt} class="statue" loading="eager" decoding="async" />
+				</picture>
 				<div class="subject-vignette"></div>
 				{#if imageMono}
 					<div class="subject-mono">

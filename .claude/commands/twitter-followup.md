@@ -1,3 +1,4 @@
+<!-- .claude/commands/twitter-followup.md -->
 # Twitter Followup — @9takesdotcom
 
 Walk DJ through the next batch of follow/unfollow actions for the Psychology Twitter repositioning project. Each session: 5–10 actions, takes ~15 minutes.
@@ -77,7 +78,7 @@ The follow itself does nothing for engagement. **The follow + a thoughtful reply
 For each newly-followed P0 or P1 account this session:
 
 1. Find their best recent post (>200 views in the last 48 hours).
-2. Hand it to the `/tweet-reply` workflow (or invoke the `content-editor` subagent directly) with DJocrates voice + Level 0 visibility unless the tweet explicitly mentions personality/enneagram.
+2. Hand it to the `/tweet-reply` workflow (or invoke the `editor` subagent directly) with DJocrates voice + Level 0 visibility unless the tweet explicitly mentions personality/enneagram.
 3. Log the reply target in the tracker under "ENGAGEMENT NOTES" with status `Reply queued`.
 
 This is the only step that makes the follow load-bearing. Don't skip it.

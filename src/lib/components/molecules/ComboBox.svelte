@@ -15,6 +15,8 @@
 		error?: string;
 		id?: string;
 		label?: string;
+		/** Accessible name used when no visible `label` is rendered. */
+		ariaLabel?: string;
 		loading?: boolean;
 		name?: string;
 		options?: ComboBoxOption[];
@@ -36,6 +38,7 @@
 		error,
 		id = crypto.randomUUID(),
 		label = '',
+		ariaLabel,
 		loading = false,
 		name,
 		options = [],
@@ -334,7 +337,8 @@
 			role="combobox"
 			aria-autocomplete="list"
 			aria-expanded={isListOpen}
-			aria-controls="combobox-list-{id}"
+			aria-controls={isListOpen ? `combobox-list-${id}` : undefined}
+			aria-label={!label && ariaLabel ? ariaLabel : undefined}
 			aria-describedby={error ? `${id}-error` : undefined}
 		/>
 

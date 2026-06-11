@@ -411,6 +411,8 @@
 		font-size: 0.95rem;
 		line-height: 1.65;
 		color: var(--ink-bright);
+		/* Pasted URLs/long strings must wrap, not force page scroll (mobile audit) */
+		overflow-wrap: anywhere;
 	}
 
 	.question-state {

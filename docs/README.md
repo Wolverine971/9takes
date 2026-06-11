@@ -71,11 +71,11 @@ path: docs/README.md
 
 ### Content Strategy & Gaps
 
-| Task                      | Go To                                                                                                  |
-| ------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Current strategy overview | [`START-HERE.md`](./START-HERE.md)                                                                     |
-| Content gap analysis      | [`domain-authority/00-master-index.md`](./domain-authority/00-master-index.md)                         |
-| Blog ideas December 2025  | [`content-generation/blog-suggestions-dec-2025.md`](./content-generation/blog-suggestions-dec-2025.md) |
+| Task                      | Go To                                                                                                              |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Current strategy overview | [`START-HERE.md`](./START-HERE.md)                                                                                 |
+| Content gap analysis      | [`archives/domain-authority-feb-2026/00-master-index.md`](./archives/domain-authority-feb-2026/00-master-index.md) |
+| Blog ideas December 2025  | [`content-generation/blog-suggestions-dec-2025.md`](./content-generation/blog-suggestions-dec-2025.md)             |
 
 ### Marketing & Social
 
@@ -90,23 +90,23 @@ path: docs/README.md
 
 ## Folder Reference
 
-| Folder                 | Purpose                         | Key Files                                     |
-| ---------------------- | ------------------------------- | --------------------------------------------- |
-| `templates/` ⭐ NEW    | Reusable workflow templates     | Weekly audit, content checklist, monthly plan |
-| `brand/`               | Voice, tone, visual identity    | `brand-style-guide-v2.md`                     |
-| `writing-system/`      | Content creation workflows      | `01-content-creation-workflow.md`             |
-| `content-generation/`  | Content creation resources      | Midjourney prompts, image templates           |
-| `content-analysis/`    | SEO, optimization, traffic data | `ai-search-optimization-guide.md`             |
-| `content-research/`    | Active research for blog posts  | Per-topic research files                      |
-| `domain-authority/`    | Content gaps & opportunities    | `00-master-index.md`                          |
-| `blogs-famous-people/` | Celebrity blog management       | Supabase CRUD, prompts                        |
-| `twitter/`             | Twitter/X strategy & content    | `README.md`, `strategy/`, `execution/`        |
-| `marketing/`           | Marketing frameworks & plans    | `viral-coach-framework-reference.md`          |
-| `development/`         | Technical docs & specs          | CSS guide, component docs                     |
-| `project-docs/`        | Platform overview & context     | `00-project-overview.md`                      |
-| `research/`            | Competitor analysis, audits     | Dated research files                          |
-| `security/`            | Security & credentials          | `CREDENTIAL_ROTATION_GUIDE.md`                |
-| `archives/`            | Historical reference only       | Old audits, daily progress, legacy docs       |
+| Folder                                | Purpose                         | Key Files                                     |
+| ------------------------------------- | ------------------------------- | --------------------------------------------- |
+| `templates/` ⭐ NEW                   | Reusable workflow templates     | Weekly audit, content checklist, monthly plan |
+| `brand/`                              | Voice, tone, visual identity    | `brand-style-guide-v2.md`                     |
+| `writing-system/`                     | Content creation workflows      | `01-content-creation-workflow.md`             |
+| `content-generation/`                 | Content creation resources      | Midjourney prompts, image templates           |
+| `content-analysis/`                   | SEO, optimization, traffic data | `ai-search-optimization-guide.md`             |
+| `content-research/`                   | Active research for blog posts  | Per-topic research files                      |
+| `archives/domain-authority-feb-2026/` | Content gaps & opportunities    | `00-master-index.md`                          |
+| `blogs-famous-people/`                | Celebrity blog management       | Supabase CRUD, prompts                        |
+| `twitter/`                            | Twitter/X strategy & content    | `README.md`, `strategy/`, `execution/`        |
+| `marketing/`                          | Marketing frameworks & plans    | `viral-coach-framework-reference.md`          |
+| `development/`                        | Technical docs & specs          | CSS guide, component docs                     |
+| `project-docs/`                       | Platform overview & context     | `00-project-overview.md`                      |
+| `research/`                           | Competitor analysis, audits     | Dated research files                          |
+| `security/`                           | Security & credentials          | `CREDENTIAL_ROTATION_GUIDE.md`                |
+| `archives/`                           | Historical reference only       | Old audits, daily progress, legacy docs       |
 
 ---
 
@@ -181,7 +181,7 @@ related:
 ### "I don't know what to write"
 
 1. Check `content-generation/blog-suggestions-dec-2025.md`
-2. Review `domain-authority/00-master-index.md` for gaps
+2. Review `archives/domain-authority-feb-2026/00-master-index.md` for gaps
 3. Look at GSC data for high-impression/low-click pages
 
 ### "I don't know the brand voice"

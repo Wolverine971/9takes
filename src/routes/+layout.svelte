@@ -75,7 +75,9 @@
 
 	// Track swipe gestures for mobile
 	let touchStartX = 0;
+	let touchStartY = 0;
 	let touchEndX = 0;
+	let touchEndY = 0;
 
 	// In-house page analytics state
 	let analyticsInitialized = false;
@@ -442,24 +444,39 @@
 		}
 	};
 
-	// Handle swipe gestures for navigation with passive event options
+	// Handle swipe gestures for navigation with passive event options.
+	// Guards (2026-06-11 mobile audit): only an edge-originated, mostly-horizontal
+	// swipe navigates — otherwise drags inside horizontal scrollers (tables, chip
+	// rows) and sloppy diagonal scrolls fired history.back().
 	const handleTouchStart = (e: TouchEvent) => {
-		touchStartX = e.changedTouches[0].screenX;
+		touchStartX = e.changedTouches[0].clientX;
+		touchStartY = e.changedTouches[0].clientY;
 	};
 
 	const handleTouchEnd = (e: TouchEvent) => {
-		touchEndX = e.changedTouches[0].screenX;
-		handleSwipe();
+		touchEndX = e.changedTouches[0].clientX;
+		touchEndY = e.changedTouches[0].clientY;
+		handleSwipe(e);
 	};
 
-	const handleSwipe = () => {
+	const handleSwipe = (e: TouchEvent) => {
 		// Only process swipe on mobile
 		if (!isMobile) return;
 
+		// Must start at the left edge, like the OS back gesture
+		const edgeWidth = 24;
+		if (touchStartX > edgeWidth) return;
+
+		// Never hijack drags that begin inside a horizontal scroller
+		const target = e.target as Element | null;
+		if (target?.closest?.('.scroll-table, [data-swipe-ignore]')) return;
+
 		const swipeThreshold = 100; // Minimum swipe distance
 		const swipeDistance = touchEndX - touchStartX;
+		const verticalDrift = Math.abs(touchEndY - touchStartY);
 
-		if (swipeDistance > swipeThreshold) {
+		// Mostly-horizontal only: a diagonal scroll is not a back gesture
+		if (swipeDistance > swipeThreshold && verticalDrift < swipeDistance / 2) {
 			// Swipe right - go back
 			window.history.back();
 		}
@@ -597,7 +614,17 @@
 				description:
 					'An Enneagram site for personality analysis, emotional intelligence, and understanding social dynamics.',
 				publisher: { '@id': 'https://9takes.com/#organization' },
-				inLanguage: 'en-US'
+				inLanguage: 'en-US',
+				// Eligibility for Google's Sitelinks Search Box. Targets the
+				// crawlable GET results page the header search already submits to.
+				potentialAction: {
+					'@type': 'SearchAction',
+					target: {
+						'@type': 'EntryPoint',
+						urlTemplate: 'https://9takes.com/search?q={search_term_string}'
+					},
+					'query-input': 'required name=search_term_string'
+				}
 			}
 		]
 	})}</script>`}

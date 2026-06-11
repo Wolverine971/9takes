@@ -1,3 +1,5 @@
+<!-- .claude/commands/council.md -->
+
 # Council
 
 Convene DJ's council. Each person on the roster gives counsel on a personal situation. Each response is written in complete isolation.
@@ -19,7 +21,8 @@ Do not paraphrase or tighten. The participants see the question as written.
 
 - Today's date: `YYYY-MM-DD`
 - Slug the question: lowercase, kebab-case, strip punctuation, collapse whitespace, max 60 chars, trim to word boundary
-- Folder: `docs/council/YYYY-MM-DD_<slug>/`
+- Folder: `docs/council/sessions/YYYY-MM-DD_<slug>/`
+- If the question is about a venture other than 9takes (e.g., BuildOS, rifle shooting), use `docs/council/sessions/other-ventures/YYYY-MM-DD_<slug>/` instead — keeps 9takes strategy sessions separable from everything else
 
 ### 2. Write `question.md`
 
@@ -69,7 +72,7 @@ Write your response to:
 Follow the council flow's response structure and rules exactly. When finished, report back a single line: "{NAME} council response written to {OUTPUT_PATH}."
 ```
 
-**Output path**: `docs/council/<session>/{NAME_KEBAB}.md`
+**Output path**: `docs/council/sessions/<session>/{NAME_KEBAB}.md`
 
 ### 5. Wait for all to finish, then report back to DJ
 
@@ -97,7 +100,7 @@ Do not summarize the full responses. DJ reads them himself.
 ## Example session structure
 
 ```
-docs/council/2026-04-24_should-i-rebuild-the-blog-engine/
+docs/council/sessions/2026-04-24_should-i-rebuild-the-blog-engine/
 ├── question.md
 ├── Tim-Ferriss.md
 ├── Robert-Greene.md

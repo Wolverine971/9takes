@@ -417,7 +417,7 @@
 						<div
 							class="block {isExpanded
 								? ''
-								: 'max-h-[4.5em] overflow-hidden'} relative whitespace-pre-line text-sm leading-relaxed text-[var(--ink-bright)] transition-all duration-200"
+								: 'max-h-[4.5em] overflow-hidden'} relative whitespace-pre-line break-words text-sm leading-relaxed text-[var(--ink-bright)] transition-all duration-200"
 							itemprop="text"
 						>
 							{_commentComment.comment}

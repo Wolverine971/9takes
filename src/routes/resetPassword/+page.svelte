@@ -20,9 +20,16 @@
 
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 
-	// Handle password validation
+	// Handle password validation — same policy as registration (8+ chars with
+	// upper/lower/number); reset previously accepted 6-char passwords that
+	// registration would reject (2026-06-11 mobile audit).
 	let passwordsMatch = $derived(!confirmPassword || password === confirmPassword);
-	let isValidPassword = $derived(password.length >= 6);
+	let isValidPassword = $derived(
+		password.length >= 8 &&
+			/[A-Z]/.test(password) &&
+			/[a-z]/.test(password) &&
+			/[0-9]/.test(password)
+	);
 	let canSubmit = $derived(
 		!!password && !!confirmPassword && passwordsMatch && isValidPassword && !loading
 	);
@@ -93,11 +100,14 @@
 					name="password"
 					bind:value={password}
 					required
-					minlength="6"
+					minlength="8"
+					autocomplete="new-password"
 					class="form-input"
 				/>
 				{#if password && !isValidPassword}
-					<div class="error-hint">Password must be at least 6 characters</div>
+					<div class="error-hint">
+						8+ characters with an uppercase letter, a lowercase letter, and a number
+					</div>
 				{/if}
 			</div>
 
@@ -106,8 +116,10 @@
 				<input
 					type="password"
 					id="confirmPassword"
+					name="confirmPassword"
 					bind:value={confirmPassword}
 					required
+					autocomplete="new-password"
 					class="form-input"
 				/>
 				{#if confirmPassword && !passwordsMatch}

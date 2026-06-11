@@ -6,7 +6,7 @@
 	import { createEventDispatcher, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
 	import type { User } from '$lib/types/questions';
-	import type { ComboBoxSelectableOption } from '$lib/types/combobox';
+	import type { ComboBoxOption, ComboBoxSelectableOption } from '$lib/types/combobox';
 
 	// Type for search result item from API
 	interface SearchResultItem {
@@ -15,6 +15,15 @@
 		url: string;
 		id?: number;
 		comment_count?: number;
+	}
+
+	// Type for category suggestion from API
+	interface CategoryResultItem {
+		id: number;
+		name: string;
+		slug: string | null;
+		url: string;
+		highlighted?: string;
 	}
 
 	// Type for the page data prop
@@ -27,7 +36,7 @@
 	let { data }: { data: SearchQuestionData } = $props();
 
 	let question = $state('');
-	let options = $state<ComboBoxSelectableOption[]>([]);
+	let options = $state<ComboBoxOption[]>([]);
 	let timer: ReturnType<typeof setTimeout> | null = null;
 	let isSearching = $state(false);
 	let abortController: AbortController | null = null;
@@ -70,12 +79,6 @@
 	const searchES = async (searchString: string) => {
 		searchError = '';
 
-		if (!data?.user?.id) {
-			options = [];
-			isSearching = false;
-			return;
-		}
-
 		if (!searchString.trim() || searchString.length < 2) {
 			options = [];
 			isSearching = false;
@@ -112,16 +115,53 @@
 
 			// Handle the JSON response
 			const searchResults = data.results || [];
+			const categoryResults = data.categories || [];
 
-			options = searchResults
+			const questionItems = searchResults
 				.map((item: SearchResultItem) => {
 					return {
 						text: item.question, // Use plain text for the text property
 						displayText: item.highlighted || item.question, // HTML for display
-						value: item.url // Use URL as the value for simpler handling
+						value: `/questions/${item.url}`, // Full path so navigation is uniform
+						commentCount: item.comment_count ?? 0
 					};
 				})
 				.filter((opt: ComboBoxSelectableOption) => opt.text && opt.value);
+
+			// Partition: questions whose text contains the query are direct
+			// matches; the rest matched via their category names or context.
+			const lowerQuery = searchString.trim().toLowerCase();
+			const directMatches = questionItems.filter((opt: ComboBoxSelectableOption) =>
+				opt.text.toLowerCase().includes(lowerQuery)
+			);
+			const categoryMatches = questionItems.filter(
+				(opt: ComboBoxSelectableOption) => !opt.text.toLowerCase().includes(lowerQuery)
+			);
+
+			const categoryItems = categoryResults
+				.map((item: CategoryResultItem) => {
+					return {
+						text: item.name,
+						displayText: item.highlighted || item.name,
+						value: item.url,
+						isCategory: true
+					};
+				})
+				.filter((opt: ComboBoxSelectableOption) => opt.text && opt.value);
+
+			// Priority: direct question matches, then category pages, then
+			// questions that belong to a matching category.
+			const groups: ComboBoxOption[] = [];
+			if (directMatches.length) {
+				groups.push({ text: 'Matching questions', options: directMatches.slice(0, 5) });
+			}
+			if (categoryItems.length) {
+				groups.push({ text: 'Categories', options: categoryItems });
+			}
+			if (categoryMatches.length) {
+				groups.push({ text: 'In matching categories', options: categoryMatches.slice(0, 3) });
+			}
+			options = groups;
 		} catch (error) {
 			// Only show error for real failures, not aborted requests
 			if (!(error instanceof DOMException && error.name === 'AbortError')) {
@@ -163,11 +203,9 @@
 	let placeholder = $derived(
 		data?.user?.id
 			? isMobile
-				? 'Ask a question...'
-				: 'Ask a question here'
-			: isMobile
-				? 'Search...'
-				: 'Search questions...'
+				? 'Search questions...'
+				: 'Search questions — or ask a new one'
+			: 'Search questions...'
 	);
 
 	function getButtonText(pageData: SearchQuestionData, mobile: boolean): string {
@@ -181,30 +219,31 @@
 				: 'Limit reached';
 	}
 
-	// Handle question selection
+	// Handle suggestion selection (question or category page)
 	async function handleQuestionSelected(detail: string | null) {
 		question = '';
 		options = [];
 
-		// Detail is now the URL directly
 		if (detail) {
+			const path = detail.startsWith('/') ? detail : `/questions/${detail}`;
 			try {
-				await goto(`/questions/${detail}`);
+				await goto(path);
 			} catch (error) {
 				console.error('Navigation error:', error);
 				// For backward compatibility, wrap in object
-				dispatch('questionSelected', { url: detail });
+				dispatch('questionSelected', { url: path });
 			}
 		}
 	}
 </script>
 
-<form class="search-form" onsubmit={handleSubmit}>
+<form class="search-form" role="search" aria-label="Search questions and categories" onsubmit={handleSubmit}>
 	<div class="search-wrapper">
 		<div class="search-container" class:is-searching={isSearching}>
 			<Context>
 				<ComboBox
 					label=""
+					ariaLabel="Search questions and categories"
 					name="question"
 					{placeholder}
 					onInputChange={({ text }) => debounce(text)}
@@ -216,7 +255,19 @@
 					filter={() => options}
 				>
 					{#snippet option(option)}
-						{@html option.displayText || option.text}
+						<!-- Single wrapper keeps the highlighted HTML as one flex item;
+						     without it the <mark> splits the text into scattered columns. -->
+						<span class="result-option">
+							<span class="result-question">{@html option.displayText || option.text}</span>
+							{#if option.isCategory}
+								<span class="result-meta result-meta--category">BROWSE CATEGORY →</span>
+							{:else}
+								<span class="result-meta">
+									{Number(option.commentCount ?? 0)}
+									{Number(option.commentCount ?? 0) === 1 ? 'TAKE' : 'TAKES'}
+								</span>
+							{/if}
+						</span>
 					{/snippet}
 				</ComboBox>
 			</Context>
@@ -446,8 +497,8 @@
 	}
 
 	/* Highlighted text in search results */
-	:global(.search-container .combo-list em),
-	:global(.search-container .combo-list mark) {
+	:global(.search-container .combobox__list em),
+	:global(.search-container .combobox__list mark) {
 		font-style: normal;
 		font-weight: 600;
 		color: var(--lamp-glow);
@@ -471,8 +522,8 @@
 		backdrop-filter: blur(12px);
 	}
 
-	:global(.search-container .combobox__list li) {
-		padding: 0.75rem 1rem !important;
+	:global(.search-container .combobox__list li.combobox__option) {
+		padding: 0.625rem 1rem !important;
 		transition: background-color $transition-fast !important;
 		cursor: pointer;
 		border-bottom: 1px solid var(--lamp-soft);
@@ -490,6 +541,45 @@
 			background-color: var(--lamp-soft) !important;
 			outline: none;
 		}
+	}
+
+	/* "Matching questions" scope label at the top of the dropdown */
+	:global(.search-container .combobox__list li.combobox__group-heading) {
+		padding: 0.625rem 1rem 0.375rem !important;
+		font-family: var(--font-mono);
+		font-size: 0.6875rem !important;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--lamp-glow) !important;
+		border-bottom: 1px solid var(--lamp-soft);
+		cursor: default;
+	}
+
+	/* Structured result rows */
+	.result-option {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+		min-width: 0;
+		width: 100%;
+	}
+
+	.result-question {
+		font-size: 0.9375rem;
+		line-height: 1.4;
+		color: var(--ink-bright);
+		overflow-wrap: anywhere;
+	}
+
+	.result-meta {
+		font-family: var(--font-mono);
+		font-size: 0.6875rem;
+		letter-spacing: 0.06em;
+		color: var(--ink-dim);
+	}
+
+	.result-meta--category {
+		color: var(--lamp-glow);
 	}
 
 	/* Mobile styles */

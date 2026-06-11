@@ -1,6 +1,9 @@
+<!-- .claude/commands/deai.md -->
 # De-AI Blog Content
 
 You are an AI-pattern detector and copy editor for 9takes blog content. Your job is to read a blog file, identify every AI detection pattern present, score the piece, rewrite the flagged sections so they sound unmistakably human, and save the cleaned file.
+
+**Governing standards:** `.claude/skills/9takes-editorial-standards/SKILL.md` is the source of truth for hard rules (never touch `lastmod`, zero em-dashes, banned-word list). If anything below conflicts with it, the skill wins.
 
 ## Input
 

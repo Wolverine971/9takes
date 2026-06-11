@@ -233,20 +233,19 @@ _Consolidated from existing brand materials - January 2026_
 
 ## Visual Identity (Summary)
 
-**Aesthetic:** Solo Leveling-inspired dark void with system UI feel
+**Aesthetic:** Streetlamp Symposium — warm-tech, dark stone with sodium-amber illumination. Greek-statue + tech-spec contrast. (Locked 2026-05-04; V5 token set.)
 
-| Element         | Value                |
-| --------------- | -------------------- |
-| Primary Color   | #7c3aed (Purple)     |
-| Secondary Color | #3b82f6 (Blue)       |
-| Accent Color    | #06b6d4 (Cyan)       |
-| Background      | #0a0a0f (Dark void)  |
-| Primary Font    | Noticia Text (Serif) |
+| Element     | Value                                                       |
+| ----------- | ----------------------------------------------------------- |
+| Primary     | `--lamp-glow` #F59E0B sodium-amber (light mode: #B45309)    |
+| Data accent | `--data-teal` #0D9488 — tech-spec/dossier annotations only  |
+| Surfaces    | Warm stone: `--night-deep` #0a0807 → `--stone-warm` #241D17 |
+| Text        | `--ink-bright` #FAF8F4 (dark) / #1C1917 (light)             |
+| Typography  | Inter (all weights) + JetBrains Mono                        |
 
-**Visual Feel:** Dark, immersive backgrounds. Glowing borders and accents. System/UI interface aesthetic. Scholarly but modern.
+**Visual Feel:** Dark warm stone, sodium-amber glow (never neon, never gradient-drenched). Amber CTAs carry dark text. Teal/rose and the old purple "Solo Leveling" palette are retired.
 
-_Full visual guide: `docs/brand/solo-leveling-visual-guide-unified.md`_
-_Brand assets: `docs/brand/BRAND-KIT.md`_
+_Source of truth: `docs/design-system.md` (living doc). Old guides (`BRAND-KIT.md`, solo-leveling-\* files) are archived historical reference only._
 
 ---
 

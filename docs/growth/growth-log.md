@@ -39,6 +39,18 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-06-11 - Funnel-bug re-verification (status check, no code changes)
+
+- Area: Activation funnel / measurement infrastructure
+- Status: verified against current code
+- Evidence: Code re-audit on 2026-06-11 against the three bugs logged in April.
+- Result:
+  - **Visitor identity split: FIXED** (commit `be23162c`, 2026-04-08). Single canonical `getOrCreateVisitorId()` in `src/lib/analytics/visitorIdentity.ts` sets the `9tfingerprint` cookie; both `+layout.svelte` and `Interact.svelte` use it. The `anon-*` fallback and FingerprintJS split are gone; legacy storage key is cleaned up on first read. Phase 0 of the retention plan is effectively shipped.
+  - **Blog footer waitlist copy: FIXED** (same April 8 refactor). Community/how-to/enneagram-corner footers now use current product copy via `Email-Signup.svelte`; no "waitlist" strings remain.
+  - **EnneagramCTASidebar: STILL BROKEN.** `src/lib/components/blog/EnneagramCTASidebar.svelte` is fully implemented but imported by zero files since its creation on 2026-04-08. Personality-analysis and enneagram-corner routes render no CTA sidebar.
+  - **Experiment A (email capture at first anonymous comment): NOT IMPLEMENTED.** No `comment_email_capture` table, no email field in the comment flow, migration named in the April plan was never created. Identity prerequisite (Phase 0) is now met, so the experiment is unblocked.
+- Next step: (1) Wire EnneagramCTASidebar into the blog layouts or delete it and place the CTA differently. (2) Decide go/no-go on Experiment A now that its hard prerequisite shipped. (3) Retention rollups (Phase 1) still pending — welcome-sequence D7 numbers remain understated until then.
+
 ### 2026-04-08 - Audit: full-stack growth audit (activation, retention, content-to-signup, onboarding, give-first, email, instrumentation)
 
 - Area: Cross-cutting

@@ -127,6 +127,7 @@
 					name="email"
 					bind:value={email}
 					required
+					autocomplete="email"
 					class="form-input"
 				/>
 			</div>

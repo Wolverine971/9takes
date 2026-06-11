@@ -23,6 +23,7 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
+	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
 
 	let { data }: { data: PageData } = $props();
 	type C = Component;
@@ -138,6 +139,7 @@
 <SuggestionsBlog posts={data?.posts} blogType={'Enneagram'} slugPrefix={'enneagram-corner'} />
 
 {#if !data?.user}
+	<EnneagramCTASidebar />
 	<div class="join">
 		<EmailSignup />
 	</div>
@@ -300,7 +302,9 @@
 			}
 
 			:global(p) {
-				font-size: 0.95rem;
+				/* No font-size: 0.95rem out-specified `.blog p { font-size: inherit }`
+				   and dropped article bodies to 15.2px while community/pop-culture
+				   read at 18px (2026-06-11 mobile audit; same fix as pop-culture). */
 				margin-bottom: 1rem;
 			}
 

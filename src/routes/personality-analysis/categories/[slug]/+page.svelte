@@ -10,6 +10,11 @@
 		buildPersonalityImageUrl
 	} from '$lib/utils/personalityAnalysis';
 	import { formatPersonalityRawType, formatPersonName } from '$lib/personalityCategories';
+	import {
+		CORPUS_DATASET_LICENSE,
+		CORPUS_DATA_DOWNLOAD,
+		NINE_TAKES_ORGANIZATION
+	} from '$lib/utils/corpusDatasetJsonLd';
 
 	let { data }: { data: PageData } = $props();
 
@@ -252,22 +257,19 @@
 							'@id': `${canonicalUrl}#corpus-slice`,
 							name: `Enneagram type distribution among ${corpusStats.domainLabel} (9takes corpus slice)`,
 							description: corpusStats.headlineClaim,
-							url: corpusStats.datasetUrl,
+							url: `${corpusStats.datasetUrl}#domain-${data.category.slug}`,
 							isBasedOn: { '@id': 'https://9takes.com/corpus-stats#dataset' },
 							dateModified: corpusStats.generatedAt,
+							license: CORPUS_DATASET_LICENSE,
+							isAccessibleForFree: true,
 							variableMeasured: [
 								'enneagram_type_share',
 								'over_representation_vs_baseline',
 								'domain_total'
 							],
-							creator: { '@id': ORG_ID },
-							distribution: [
-								{
-									'@type': 'DataDownload',
-									encodingFormat: 'application/json',
-									contentUrl: 'https://9takes.com/corpus-stats.json'
-								}
-							]
+							creator: NINE_TAKES_ORGANIZATION,
+							publisher: NINE_TAKES_ORGANIZATION,
+							distribution: [CORPUS_DATA_DOWNLOAD]
 						},
 						{
 							'@type': 'Quotation',

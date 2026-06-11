@@ -2,7 +2,7 @@
 
 # Blog Content Editor Pass
 
-You are the final editorial polish pass for 9takes celebrity personality analysis drafts. Use the `content-editor` agent doc as your governing standard, then edit the draft so it reads like a sharp human-written piece instead of an obviously AI-assisted one.
+You are the final editorial polish pass for 9takes celebrity personality analysis drafts. Use the `9takes-editorial-standards` skill as your governing standard, then edit the draft so it reads like a sharp human-written piece instead of an obviously AI-assisted one.
 
 ## Input
 
@@ -61,11 +61,11 @@ If they gave a slug or person name:
 
 ---
 
-## Step 2: Read the Content-Editor Agent Doc First
+## Step 2: Read the Editorial Standards First
 
 Before editing the blog, read:
 
-- `.claude/agents/content-editor.md`
+- `.claude/skills/9takes-editorial-standards/SKILL.md`
 
 Use that document as the editorial rubric for this pass.
 
@@ -99,7 +99,7 @@ If the draft has a deeper structural problem, fix that too, but do not reopen th
 
 ## Step 4: Edit the Draft Directly
 
-Apply the content-editor standard to the full draft.
+Apply the 9takes-editorial-standards rulebook to the full draft.
 
 ### Priority Fixes
 

@@ -5,6 +5,7 @@ argument-hint: '<keyword, person, file path, or URL path>'
 context: fork
 agent: general-purpose
 disable-model-invocation: true
+path: .claude/skills/seo-content-gap-analysis/SKILL.md
 ---
 
 # SEO Content Gap Analysis
@@ -36,10 +37,12 @@ Load these references before analyzing:
 - `docs/content-analysis/ai-search-optimization-guide.md`
 - `docs/brand/README.md`
 
+**Real Search Console data** — check `docs/data/gsc/latest.json` (see `docs/data/gsc/README.md`). When present, pull the target's actual queries, impressions, CTR, and positions from the dated CSVs and rank recommendations by measured opportunity (striking-distance positions 8–20 first, then low-CTR titles at positions 1–5, then true gaps). When absent or stale (>45 days), say so and label conclusions as inference.
+
 If the target is a recent people draft, also load:
 
 - `docs/content-analysis/recent-people-drafts-seo-audit-2026-04-03.md`
-- `.claude/commands/blog_content_creator_people.md`
+- `.claude/commands/blog_content_creator_people_v2.md`
 
 For the exact output shape, use:
 

@@ -25,6 +25,16 @@
 	let email = $state('');
 	let password = $state('');
 	let loading = $state(false);
+	let formError = $state('');
+
+	// Mirror the server's zod schema so requirements are visible up front
+	// instead of being discovered one toast at a time (2026-06-11 mobile audit).
+	let passwordChecks = $derived({
+		length: password.length >= 8,
+		upper: /[A-Z]/.test(password),
+		lower: /[a-z]/.test(password),
+		number: /[0-9]/.test(password)
+	});
 	let captchaRequired = $state(data.captchaRequired ?? false);
 	let recaptchaTheme = $state<'light' | 'dark'>('dark');
 	let captchaContainer = $state<HTMLDivElement | null>(null);
@@ -80,6 +90,7 @@
 
 	function handleSubmit() {
 		loading = true;
+		formError = '';
 		return async ({
 			result
 		}: {
@@ -96,9 +107,13 @@
 
 			if (result.type === 'failure') {
 				captchaRequired = !!result.data?.captchaRequired || captchaRequired;
-				notifications.danger(result.data?.error || 'An error occurred', 3000);
+				// Inline (persistent) + toast: a 3s toast alone is too easy to
+				// miss on mobile for the highest-value form on the site.
+				formError = result.data?.error || 'An error occurred';
+				notifications.danger(formError, 3000);
 			} else if (result.type === 'error') {
-				notifications.danger('An unexpected error occurred. Please try again.', 3000);
+				formError = 'An unexpected error occurred. Please try again.';
+				notifications.danger(formError, 3000);
 			}
 
 			if (captchaRequired) {
@@ -147,7 +162,15 @@
 	>
 		<div class="form-group">
 			<label for="email" class="form-label">Email</label>
-			<input type="email" id="email" name="email" bind:value={email} required class="form-input" />
+			<input
+				type="email"
+				id="email"
+				name="email"
+				bind:value={email}
+				required
+				autocomplete="email"
+				class="form-input"
+			/>
 		</div>
 		<div class="form-group">
 			<label for="password" class="form-label">Password</label>
@@ -157,9 +180,21 @@
 				name="password"
 				bind:value={password}
 				required
+				minlength="8"
+				autocomplete="new-password"
 				class="form-input"
 			/>
+			<ul class="password-hints" aria-label="Password requirements">
+				<li class:met={passwordChecks.length}>8+ characters</li>
+				<li class:met={passwordChecks.upper}>uppercase</li>
+				<li class:met={passwordChecks.lower}>lowercase</li>
+				<li class:met={passwordChecks.number}>number</li>
+			</ul>
 		</div>
+
+		{#if formError}
+			<div class="error-message" role="alert">{formError}</div>
+		{/if}
 
 		<!-- Honeypot field - hidden from real users, bots will fill it -->
 		<div class="absolute -left-[9999px] opacity-0" aria-hidden="true">
@@ -255,6 +290,38 @@
 			box-shadow: var(--glow-sm);
 			background: var(--stone-warm);
 		}
+	}
+
+	.password-hints {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.75rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 0.75rem;
+		color: var(--ink-dim);
+
+		li::before {
+			content: '○ ';
+		}
+
+		li.met {
+			color: var(--success);
+
+			&::before {
+				content: '● ';
+			}
+		}
+	}
+
+	.error-message {
+		padding: 0.75rem 0.9rem;
+		font-size: 0.9rem;
+		color: var(--error);
+		background: color-mix(in srgb, var(--error) 10%, transparent);
+		border: 1px solid color-mix(in srgb, var(--error) 28%, transparent);
+		border-radius: 0.625rem;
 	}
 
 	.forgot-link {

@@ -27,7 +27,25 @@
 		}
 	});
 
+	/**
+	 * Validate the visible section's controls before moving on. Without this,
+	 * a required field skipped in a hidden section blocked the final submit
+	 * with no visible feedback — the form silently did nothing
+	 * (2026-06-11 mobile audit).
+	 */
+	function validateActiveSection(): boolean {
+		const section = document.querySelector('.form-section.active');
+		if (!section) return true;
+		const invalid = section.querySelector<HTMLInputElement>(':invalid');
+		if (invalid) {
+			invalid.reportValidity();
+			return false;
+		}
+		return true;
+	}
+
 	function nextSection() {
+		if (!validateActiveSection()) return;
 		if (currentSection < totalSections) {
 			currentSection++;
 			scrollToTop();
@@ -38,6 +56,39 @@
 		if (currentSection > 1) {
 			currentSection--;
 			scrollToTop();
+		}
+	}
+
+	/** Enter in a text input advances (validated) instead of submitting the whole form. */
+	function handleFormKeydown(event: KeyboardEvent) {
+		if (event.key !== 'Enter') return;
+		const target = event.target as HTMLElement;
+		if (target instanceof HTMLTextAreaElement || target instanceof HTMLButtonElement) return;
+		if (currentSection < totalSections) {
+			event.preventDefault();
+			nextSection();
+		}
+	}
+
+	/**
+	 * Final-submit guard, attached to the submit BUTTON's click — when an
+	 * invalid required control lives in a hidden section, the browser aborts
+	 * submission before the submit event ever fires (its only output is a
+	 * console warning), so an onsubmit handler can't catch this. Click runs
+	 * first: jump to the offending section and show the native bubble.
+	 */
+	function handleSubmitClick(event: MouseEvent) {
+		const formEl = (event.currentTarget as HTMLElement).closest('form');
+		if (!formEl || formEl.checkValidity()) return; // valid → native flow + enhance
+		event.preventDefault();
+		const invalid = formEl.querySelector<HTMLInputElement>(':invalid');
+		const section = invalid?.closest('.form-section');
+		if (invalid && section && !section.classList.contains('active')) {
+			currentSection = Array.from(formEl.querySelectorAll('.form-section')).indexOf(section) + 1;
+			scrollToTop();
+			setTimeout(() => invalid.reportValidity(), 50);
+		} else {
+			invalid?.reportValidity();
 		}
 	}
 
@@ -158,10 +209,13 @@
 			</div>
 		{/if}
 
-		<!-- Form -->
+		<!-- Form: keydown only redirects Enter-in-input to the validated Next
+		     step (wizard pattern), not an interaction handler -->
+		<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 		<form
 			method="POST"
 			action="?/submit"
+			onkeydown={handleFormKeydown}
 			use:enhance={() => {
 				isSubmitting = true;
 				return async ({ result, update }) => {
@@ -513,7 +567,9 @@
 					<p class="privacy-note">
 						Your responses are private and will only be used to prepare for your coaching sessions.
 					</p>
-					<Button type="submit" size="lg" loading={isSubmitting}>Submit Intake Form</Button>
+					<Button type="submit" size="lg" loading={isSubmitting} onclick={handleSubmitClick}
+						>Submit Intake Form</Button
+					>
 				</div>
 			</section>
 

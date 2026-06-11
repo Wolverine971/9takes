@@ -21,6 +21,7 @@ export const actions: Actions = {
 	resetPass: async ({ request, locals }) => {
 		const body = Object.fromEntries(await request.formData());
 		const password = String(body.password ?? '');
+		const confirmPassword = String(body.confirmPassword ?? '');
 
 		if (!password) {
 			return fail(400, {
@@ -28,9 +29,25 @@ export const actions: Actions = {
 			});
 		}
 
-		if (password.length < 6) {
+		// Same policy as registration — reset previously accepted 6-char
+		// passwords that the register schema would reject.
+		if (
+			password.length < 8 ||
+			!/[A-Z]/.test(password) ||
+			!/[a-z]/.test(password) ||
+			!/[0-9]/.test(password)
+		) {
 			return fail(400, {
-				error: 'Password must be at least 6 characters long'
+				error:
+					'Password must be at least 8 characters with an uppercase letter, a lowercase letter, and a number'
+			});
+		}
+
+		// The confirm field previously had no name attribute, so no-JS submits
+		// skipped the match check entirely.
+		if (confirmPassword && password !== confirmPassword) {
+			return fail(400, {
+				error: 'Passwords do not match'
 			});
 		}
 

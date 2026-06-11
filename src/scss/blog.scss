@@ -1002,8 +1002,14 @@ blockquote {
 		border-radius: 4px;
 		font-size: 0.9em;
 	}
+}
 
-	/* Table styling for MDSvex */
+/* Table styling for MDsvex AND the DB-driven article shells. The dossier and
+ * pop-culture wrappers previously had no table rules at all — wide tables were
+ * silently clipped by their overflow-x:hidden (2026-06-11 mobile audit). */
+.blog,
+.dossier-page .article-body,
+.pop-culture-article .article-content {
 	table {
 		width: 100%;
 		border-collapse: collapse;
@@ -1247,7 +1253,42 @@ blockquote {
 			th,
 			td {
 				padding: 0.4rem 0.5rem;
+			}
+
+			/* nowrap on headers keeps columns scannable; cells wrap so a
+			   sentence-length cell doesn't force a 3000px-wide row */
+			th {
 				white-space: nowrap;
+			}
+
+			td {
+				min-width: 9rem;
+			}
+		}
+	}
+
+	/* Same mobile scroll treatment for the DB-driven article shells
+	   (no edge-bleed: their padding scheme differs from .blog) */
+	.dossier-page .article-body,
+	.pop-culture-article .article-content {
+		table {
+			display: block;
+			width: 100%;
+			overflow-x: auto;
+			font-size: 0.85rem;
+			-webkit-overflow-scrolling: touch;
+
+			th,
+			td {
+				padding: 0.4rem 0.5rem;
+			}
+
+			th {
+				white-space: nowrap;
+			}
+
+			td {
+				min-width: 9rem;
 			}
 		}
 	}

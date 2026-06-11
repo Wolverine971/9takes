@@ -20,6 +20,7 @@
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
 	import { buildHowToSchema } from '$lib/utils/schema';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 
@@ -151,6 +152,7 @@
 
 <div class="join">
 	{#if !data?.user}
+		<EnneagramCTASidebar />
 		<EmailSignup cta={'Get the next practical guide from 9takes'} />
 	{/if}
 </div>

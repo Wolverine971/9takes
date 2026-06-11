@@ -22,6 +22,9 @@
 	let context = $state('');
 	let url = $state('');
 	let loading = $state(false);
+	// Social-card preview scales from its measured width (card art is 1200×630).
+	// Fixed 320px tiers clipped inside the modal at ≤390px (2026-06-11 audit).
+	let previewWidth = $state(0);
 	type CreateProgressStage = 'saving' | 'generatingImage' | 'redirecting';
 	let createProgressStage = $state<CreateProgressStage>('saving');
 	let createProgressMessage = $derived.by(() => {
@@ -382,9 +385,14 @@
 
 			<div class="mt-4 rounded-xl border border-[var(--lamp-soft)] bg-[var(--stone-warm)] p-4">
 				<div
-					class="mx-auto h-[168px] w-[320px] overflow-hidden rounded-xl sm:h-[209px] sm:w-[400px] md:h-[251px] md:w-[480px]"
+					class="mx-auto w-full max-w-[480px] overflow-hidden rounded-xl"
+					bind:clientWidth={previewWidth}
+					style="height: {previewWidth ? Math.round((previewWidth * 630) / 1200) : 168}px"
 				>
-					<div class="origin-top-left scale-[0.2667] sm:scale-[0.3334] md:scale-[0.4]">
+					<div
+						class="origin-top-left"
+						style="transform: scale({previewWidth ? previewWidth / 1200 : 0.2667})"
+					>
 						<QuestionSocialCardTemplate questionText={question} questionUrl={questionPublicUrl} />
 					</div>
 				</div>

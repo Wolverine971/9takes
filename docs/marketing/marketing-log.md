@@ -133,6 +133,14 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Decisions
 
+### 2026-06-11 — Agent overhaul: merged editors, merged growth analysts, weekly automation, GSC + DB data access
+
+- **`editor` agent** replaces `content-editor` + `content-polish` (both archived at `docs/archives/agents/`). One editor with three depths: diagnose / line edit / developmental edit. Calibrates first; honors an explicit depth as a hard ceiling. Shared rulebook extracted to `.claude/skills/9takes-editorial-standards/SKILL.md` (also now governs `/deai`, `/copywriting-pass`, `/blog_content_editor_pass_people`); hard rules codified: never touch `lastmod`, zero em-dashes, 8.5 grade gate.
+- **`growth-analyst`** is the single growth agent (v1 + v2 merged; originals archived). New capability: read-only SQL via `scripts/db-query.sh` — needs DJ to add `SUPABASE_DB_URL` to `.env.local` (Supabase dashboard → Connect → Session pooler URI).
+- **Weekly automation**: `/weekly-growth-audit` (growth-analyst → growth-log) and `/weekly-marketing-brief` (marketing-pm → dated brief + this log), via `scripts/run-weekly-*.sh`, cron Mondays 6:00/7:00 AM. DJ must run `./scripts/install-weekly-cron.sh` once (macOS blocks programmatic crontab edits).
+- **GSC data feed**: `scripts/fetch-gsc-data.mjs` pulls Search Console queries/pages into `docs/data/gsc/` for the `seo-content-strategist`. One-time setup in `docs/data/gsc/README.md` (enable API + add service account to the GSC property).
+- All slash-command references to retired agent names updated.
+
 ### 2026-05-11 — Created `/blog_content_publish_pop_culture` slash command
 
 - Resolves the blocker flagged in the 2026-05-09 brief.

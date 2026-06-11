@@ -1,3 +1,5 @@
+<!-- .claude/commands/quora-warmup.md -->
+
 # Quora Warmup — 9takes / DJ Wayne
 
 You are conducting a Quora question-sourcing session for **DJ Wayne (9takes)**.
@@ -93,7 +95,7 @@ That gap is the only reason we win on Quora. Every question we queue must have t
 
 - `docs/quora/question-log.md` — must be read during Phase 1 to check for duplicates (create if missing using the template at end of this file).
 - `docs/quora/sessions/` — skim last 3 sessions during Phase 1 to avoid re-evaluating the same questions.
-- `docs/domain-authority/` — consult only if you need to verify what topics 9takes owns.
+- `docs/archives/domain-authority-feb-2026/` — consult only if you need to verify what topics 9takes owns.
 
 ---
 
@@ -545,7 +547,7 @@ This command is self-sufficient for Stage 1 (warmup). The root docs below are so
 - `docs/brand/brand-style-guide-v2.md` — 9takes voice and tone. Relevant for answer drafting, not question selection. Skip during warmup.
 - `docs/quora/question-log.md` — must read during Phase 1 (not optional) to avoid duplicates.
 - `docs/quora/sessions/` — skim last 3 sessions during Phase 1 for recent evaluations.
-- `docs/domain-authority/` — optional reference for what 9takes topics already rank.
+- `docs/archives/domain-authority-feb-2026/` — optional reference for what 9takes topics already rank.
 
 **When to read a root doc:**
 

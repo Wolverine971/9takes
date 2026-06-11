@@ -131,9 +131,10 @@ function mapQuestionTypeaheadRow(
 		question,
 		url,
 		comment_count: row.comment_count ?? 0,
-		highlighted: row.headline
-			? sanitizeHighlightedHtml(row.headline)
-			: highlightQuestionSnippet(query, row.question_formatted, row.question, row.context)
+		// Always highlight within the question text itself. The RPC headline is
+		// built from question + category names + context concatenated, so its
+		// snippet can land mid-category-blob and read as nonsense in the dropdown.
+		highlighted: highlightQuestionSnippet(query, row.question_formatted, row.question)
 	};
 }
 
@@ -315,6 +316,81 @@ export async function searchQuestions(
 		console.warn('Question search RPC threw, using fallback search', error);
 		return fallbackQuestionSearch(supabase, normalized, limit, offset);
 	}
+}
+
+export interface CategoryTypeaheadResult {
+	id: number;
+	name: string;
+	slug: string | null;
+	url: string;
+	highlighted: string;
+}
+
+interface CategoryRow {
+	id: number;
+	category_name: string | null;
+	slug: string | null;
+}
+
+export async function searchCategoriesTypeahead(
+	supabase: any,
+	query: string,
+	limit = 3
+): Promise<CategoryTypeaheadResult[]> {
+	const normalized = query.trim();
+	// Strip ILIKE wildcards so user input can't widen the pattern
+	const sanitized = normalized.replace(/[%_]/g, ' ').replace(/\s+/g, ' ').trim();
+	if (sanitized.length < 2) {
+		return [];
+	}
+
+	const { data, error } = await supabase
+		.from('question_categories')
+		.select('id, category_name, slug')
+		.ilike('category_name', `%${sanitized}%`)
+		.limit(12);
+
+	if (error) {
+		throw error;
+	}
+
+	const candidates = (data || []).filter((row: CategoryRow) => row.category_name);
+	if (!candidates.length) {
+		return [];
+	}
+
+	// Only suggest categories that actually contain questions, mirroring the
+	// browse chips (which use question_category_tags).
+	const { data: tagRows, error: tagError } = await supabase
+		.from('question_category_tags')
+		.select('tag_id')
+		.in(
+			'tag_id',
+			candidates.map((row: CategoryRow) => row.id)
+		);
+
+	if (tagError) {
+		throw tagError;
+	}
+
+	const taggedIds = new Set((tagRows || []).map((row: { tag_id: number }) => row.tag_id));
+	const lowerQuery = sanitized.toLowerCase();
+
+	return candidates
+		.filter((row: CategoryRow) => taggedIds.has(row.id))
+		.sort((a: CategoryRow, b: CategoryRow) => {
+			const aPrefix = (a.category_name || '').toLowerCase().startsWith(lowerQuery) ? 0 : 1;
+			const bPrefix = (b.category_name || '').toLowerCase().startsWith(lowerQuery) ? 0 : 1;
+			return aPrefix - bPrefix || (a.category_name || '').localeCompare(b.category_name || '');
+		})
+		.slice(0, Math.max(limit, 1))
+		.map((row: CategoryRow) => ({
+			id: row.id,
+			name: row.category_name as string,
+			slug: row.slug ?? null,
+			url: `/questions/categories/${row.slug ?? row.id}`,
+			highlighted: highlightQuestionSnippet(normalized, row.category_name)
+		}));
 }
 
 export function buildUniqueQuestionUrl(baseUrl: string, existingUrls: string[]): string {

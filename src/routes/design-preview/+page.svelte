@@ -122,7 +122,7 @@
 			<div class="hero-subject" aria-hidden="true">
 				<div class="subject-frame">
 					<img
-						src="/greek_distorted_statue_face.png"
+						src="/greek_distorted_statue_face.webp"
 						alt=""
 						class="statue"
 						loading="eager"

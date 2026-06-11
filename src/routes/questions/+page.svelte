@@ -214,6 +214,18 @@
 		return categoryPath.display_path?.length ? categoryPath.display_path : categoryPath.path;
 	}
 
+	// Category chips collapse to one compact block; expand on demand.
+	const VISIBLE_CHIP_COUNT = 14;
+	let showAllCategories = $state(false);
+	let visibleCategories = $derived(
+		showAllCategories
+			? (data.subcategoryTags ?? [])
+			: (data.subcategoryTags ?? []).slice(0, VISIBLE_CHIP_COUNT)
+	);
+	let hiddenCategoryCount = $derived(
+		Math.max((data.subcategoryTags ?? []).length - VISIBLE_CHIP_COUNT, 0)
+	);
+
 	// Search component dispatches createQuestion + questionSelected events.
 	function goToCreateQuestionPage(detail: string) {
 		if (!data?.user?.id) {
@@ -297,48 +309,13 @@
 	</section>
 
 	<!-- =====================================================================
-	  §02 BROWSE BY CATEGORY — chip nav + search
-	  ===================================================================== -->
-	<section id="categories" class="categories">
-		<header class="section-header">
-			<SectionKicker class="section-tag" num="02" label="BROWSE BY CATEGORY" />
-			<h2 class="display-md">Browse by category.</h2>
-			<p class="section-sub">
-				Pick the lane you&rsquo;re circling — or scan everything that&rsquo;s open right now.
-			</p>
-		</header>
-
-		<div class="search-wrap">
-			<SearchQuestion
-				{data}
-				on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
-				on:questionSelected={({ detail }) => {
-					if (detail?.url) {
-						void goto(`/questions/${detail.url}`);
-					}
-				}}
-			/>
-		</div>
-
-		<div class="category-chips" role="navigation" aria-label="Question categories">
-			<a href="/questions" class="category-chip category-chip--active">ALL</a>
-			{#each data.subcategoryTags ?? [] as cat (cat.id)}
-				<a href={categoryHref(cat)} class="category-chip">
-					{cat.category_name.toUpperCase()}
-				</a>
-			{/each}
-			<a href="/questions/categories" class="category-chip category-chip--more"> FULL TREE → </a>
-		</div>
-	</section>
-
-	<!-- =====================================================================
-	  §03 OPEN FLOOR — question list (real data)
+	  §02 OPEN FLOOR — search + category filter + question list
 	  ===================================================================== -->
 	<section id="open-floor" class="open-floor">
 		<div class="open-floor-pool" aria-hidden="true"></div>
 
 		<header class="open-floor-header">
-			<SectionKicker class="section-tag" num="03" label="QUESTIONS" />
+			<SectionKicker class="section-tag" num="02" label="QUESTIONS" />
 			<h2 class="display-md">Open questions.</h2>
 			<p class="mono open-floor-kicker">
 				{data.totalQuestions ?? 0} QUESTIONS · {data.totalAnswers ?? 0} TAKES
@@ -348,6 +325,52 @@
 				takes.
 			</p>
 		</header>
+
+		<div class="open-floor-toolbar">
+			<div class="search-wrap">
+				<SearchQuestion
+					{data}
+					on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
+					on:questionSelected={({ detail }) => {
+						if (detail?.url) {
+							void goto(`/questions/${detail.url}`);
+						}
+					}}
+				/>
+			</div>
+
+			<div
+				id="categories"
+				class="category-chips"
+				role="navigation"
+				aria-label="Filter questions by category"
+			>
+				<a href="/questions" class="category-chip category-chip--active">ALL</a>
+				{#each visibleCategories as cat (cat.id)}
+					<a href={categoryHref(cat)} class="category-chip">
+						{cat.category_name.toUpperCase()}
+					</a>
+				{/each}
+				{#if hiddenCategoryCount > 0 && !showAllCategories}
+					<button
+						type="button"
+						class="category-chip category-chip--toggle"
+						onclick={() => (showAllCategories = true)}
+					>
+						+{hiddenCategoryCount} MORE
+					</button>
+				{:else if showAllCategories && hiddenCategoryCount > 0}
+					<button
+						type="button"
+						class="category-chip category-chip--toggle"
+						onclick={() => (showAllCategories = false)}
+					>
+						SHOW FEWER ↑
+					</button>
+				{/if}
+				<a href="/questions/categories" class="category-chip category-chip--more"> FULL TREE → </a>
+			</div>
+		</div>
 
 		{#if questionsList.length === 0}
 			<div class="empty-state">
@@ -424,12 +447,12 @@
 	</section>
 
 	<!-- =====================================================================
-	  §04 — quiet sign-up nudge for unauthenticated visitors only
+	  §03 — quiet sign-up nudge for unauthenticated visitors only
 	  ===================================================================== -->
 	{#if !data?.user?.id}
 		<section class="signup-nudge">
 			<div class="signup-inner">
-				<SectionKicker class="section-tag" num="04" label="HOW IT WORKS" />
+				<SectionKicker class="section-tag" num="03" label="HOW IT WORKS" />
 				<h2 class="display-md">Give first. Then see how the room reads it.</h2>
 				<ol class="signup-steps">
 					<li>
@@ -523,24 +546,6 @@
 		text-decoration: none;
 	}
 
-	.section-header {
-		max-width: 820px;
-		margin: 0 auto 36px;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 12px;
-	}
-
-	.section-sub {
-		font-family: var(--font-display);
-		font-size: 16px;
-		line-height: 1.55;
-		color: var(--ink-mid);
-		max-width: 580px;
-	}
-
 	/* ---------- subtle paper grain ---------- */
 	.grain {
 		position: absolute;
@@ -557,12 +562,12 @@
 	  ========================================================= */
 	.hero {
 		position: relative;
-		padding: 96px 48px 72px;
+		padding: 56px 48px 44px;
 		background: var(--night-deep);
 		overflow: hidden;
 
 		@media (max-width: 768px) {
-			padding: 64px 20px 56px;
+			padding: 40px 20px 36px;
 		}
 	}
 
@@ -606,7 +611,7 @@
 	}
 
 	.hero-eyebrow {
-		margin-bottom: 22px;
+		margin-bottom: 14px;
 	}
 
 	.hero-subhead {
@@ -626,7 +631,7 @@
 	.hero-subhead--meta {
 		color: var(--ink-dim);
 		font-size: 16px;
-		margin-bottom: 28px;
+		margin-bottom: 20px;
 
 		@media (max-width: 540px) {
 			font-size: 14px;
@@ -651,7 +656,7 @@
 	.statue-frame {
 		position: relative;
 		aspect-ratio: 4 / 5;
-		max-height: 460px;
+		max-height: 380px;
 		margin-left: auto;
 		overflow: hidden;
 	}
@@ -697,40 +702,38 @@
 	}
 
 	/* =========================================================
-	  §02 CATEGORIES
+	  §02 OPEN FLOOR — toolbar (search + category filter)
 	  ========================================================= */
-	.categories {
+	.open-floor-toolbar {
 		position: relative;
-		padding: 96px 48px;
-		background: var(--night-mid);
-		border-top: 1px solid var(--stone-edge);
-
-		@media (max-width: 768px) {
-			padding: 64px 20px;
-		}
+		z-index: 5;
+		max-width: 880px;
+		margin: 0 auto 28px;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
 
 	.search-wrap {
 		max-width: 720px;
-		margin: 0 auto 28px;
+		width: 100%;
+		margin: 0 auto;
 		position: relative;
 		z-index: 5;
 	}
 
 	.category-chips {
-		max-width: 1100px;
-		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		gap: 10px;
+		gap: 8px;
 	}
 
 	.category-chip {
 		font-family: var(--font-mono);
-		font-size: 12px;
+		font-size: 11px;
 		letter-spacing: 0.06em;
-		padding: 8px 14px;
+		padding: 6px 12px;
 		border: 1px solid var(--stone-edge);
 		border-radius: 10px;
 		color: var(--ink-mid);
@@ -766,19 +769,26 @@
 		}
 	}
 
-	/* =========================================================
-	  §03 OPEN FLOOR
-	  ========================================================= */
+	.category-chip--toggle {
+		cursor: pointer;
+		color: var(--ink-mid);
+		border-style: dashed;
+
+		&:hover {
+			color: var(--ink-bright);
+		}
+	}
+
 	.open-floor {
 		position: relative;
-		padding: 96px 48px;
+		padding: 56px 48px 80px;
 		background: var(--night-deep);
 		border-top: 1px solid var(--stone-edge);
 		overflow: hidden;
 		scroll-margin-top: 72px;
 
 		@media (max-width: 768px) {
-			padding: 64px 20px;
+			padding: 40px 20px 56px;
 		}
 	}
 
@@ -797,12 +807,12 @@
 		position: relative;
 		z-index: 1;
 		max-width: 820px;
-		margin: 0 auto 48px;
+		margin: 0 auto 24px;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 12px;
+		gap: 10px;
 	}
 
 	.open-floor-kicker {
@@ -977,7 +987,7 @@
 	}
 
 	/* =========================================================
-	  §04 SIGNUP NUDGE
+	  §03 SIGNUP NUDGE
 	  ========================================================= */
 	.signup-nudge {
 		position: relative;

@@ -13,10 +13,17 @@
 import type { PageServerLoad } from './$types';
 import corpusStats from '$lib/data/corpus-stats.json';
 import externalStats from '$lib/data/corpus-stats-external.json';
+import {
+	CORPUS_DATASET_ID,
+	CORPUS_DATASET_LICENSE,
+	CORPUS_DATASET_URL,
+	CORPUS_DATA_DOWNLOAD,
+	NINE_TAKES_ORGANIZATION,
+	SITE_URL
+} from '$lib/utils/corpusDatasetJsonLd';
 
-const SITE_URL = 'https://9takes.com';
-const PAGE_URL = `${SITE_URL}/corpus-stats`;
-const DATASET_ID = `${PAGE_URL}#dataset`;
+const PAGE_URL = CORPUS_DATASET_URL;
+const DATASET_ID = CORPUS_DATASET_ID;
 const WEBPAGE_ID = `${PAGE_URL}#webpage`;
 const FAQ_ID = `${PAGE_URL}#faq`;
 // First public deploy of /corpus-stats. Used as datePublished + lower bound
@@ -154,22 +161,17 @@ export const load: PageServerLoad = async () => {
 		a: `Yes. The full dataset is licensed under Creative Commons Attribution 4.0 (CC BY 4.0) and downloadable as machine-readable JSON at ${SITE_URL}/corpus-stats.json. Cite the generation date and link back to ${PAGE_URL}.`
 	});
 
-	// ----- isBasedOn: external Datasets we explicitly compare against. -----
+	// ----- isBasedOn: external source pages we explicitly compare against. -----
 	const isBasedOn = external.sources.map((s) => ({
-		'@type': 'Dataset',
+		'@type': 'CreativeWork',
 		name: s.name,
 		url: s.url,
 		description: `${s.methodology} Sample size: ${s.sample_size.toLocaleString()} (${s.date_range}).`,
-		creator: { '@type': 'Organization', name: s.name, url: s.url }
+		publisher: { '@type': 'Organization', name: s.name, url: s.url }
 	}));
 
 	// ----- citation: peer-reviewed validity references (separate from comparison data). -----
-	const academicCitations = external.credibility_references.map((r) => ({
-		'@type': 'ScholarlyArticle',
-		name: r.name,
-		url: r.url,
-		description: r.citation
-	}));
+	const academicCitations = external.credibility_references.map((r) => `${r.citation} ${r.url}`);
 
 	// ----- 1. Dataset (the SEO target) -----
 	const datasetJsonLd = {
@@ -182,11 +184,11 @@ export const load: PageServerLoad = async () => {
 		url: PAGE_URL,
 		mainEntityOfPage: { '@id': WEBPAGE_ID },
 		identifier: PAGE_URL,
-		creator: { '@type': 'Organization', name: '9takes', url: SITE_URL },
-		publisher: { '@type': 'Organization', name: '9takes', url: SITE_URL },
+		creator: NINE_TAKES_ORGANIZATION,
+		publisher: NINE_TAKES_ORGANIZATION,
 		datePublished: PAGE_FIRST_PUBLISHED,
 		dateModified: generatedAt,
-		license: 'https://creativecommons.org/licenses/by/4.0/',
+		license: CORPUS_DATASET_LICENSE,
 		isAccessibleForFree: true,
 		inLanguage: 'en',
 		temporalCoverage: `${PAGE_FIRST_PUBLISHED.slice(0, 10)}/${generatedAt.slice(0, 10)}`,
@@ -230,14 +232,7 @@ export const load: PageServerLoad = async () => {
 					'Per-type percentage-point delta between the 9takes corpus and published Enneagram test-taker datasets.'
 			}
 		],
-		distribution: [
-			{
-				'@type': 'DataDownload',
-				name: '9takes Corpus Stats — raw JSON',
-				encodingFormat: 'application/json',
-				contentUrl: `${SITE_URL}/corpus-stats.json`
-			}
-		],
+		distribution: [CORPUS_DATA_DOWNLOAD],
 		isBasedOn,
 		citation: academicCitations
 	};

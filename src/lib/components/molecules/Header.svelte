@@ -22,7 +22,9 @@
 
 	const mobileNavItems: NavigationItem[] = [
 		{ href: '/', label: 'Home' },
-		{ href: '/about', label: 'About' }
+		{ href: '/about', label: 'About' },
+		{ href: '/book-session', label: 'Book a Session' },
+		{ href: '/corpus-stats', label: 'Corpus Stats' }
 	];
 
 	// One label per destination, shared with Footer (design audit 2026-06-09:

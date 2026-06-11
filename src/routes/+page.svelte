@@ -396,13 +396,22 @@
 
 				<div class="anatomy-subject" aria-hidden="true">
 					<div class="subject-frame">
-						<img
-							src="/greek_distorted_statue_face.png"
-							alt=""
-							class="statue"
-							loading="eager"
-							decoding="async"
-						/>
+						<!-- .anatomy-subject is display:none ≤968px; media-gated so phones
+						     never download the statue (2026-06-11 audit) -->
+						<picture>
+							<source media="(min-width: 969px)" srcset="/greek_distorted_statue_face.webp" />
+							<source
+								media="(max-width: 968px)"
+								srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+							/>
+							<img
+								src="/greek_distorted_statue_face.webp"
+								alt=""
+								class="statue"
+								loading="eager"
+								decoding="async"
+							/>
+						</picture>
 						<div class="subject-vignette"></div>
 						<div class="subject-mono">
 							<span class="mono">9TAKES · ONE SUBJECT · NINE READS</span>

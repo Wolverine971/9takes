@@ -5,9 +5,34 @@ import {
 	buildUniqueQuestionUrl,
 	findAvailableQuestionUrl,
 	highlightQuestionSnippet,
+	searchCategoriesTypeahead,
 	searchQuestions,
 	searchQuestionsTypeahead
 } from './questionSearch';
+
+function buildCategorySupabaseMock(
+	categories: Array<{ id: number; category_name: string; slug: string | null }>,
+	tagRows: Array<{ tag_id: number }>
+) {
+	return {
+		from: vi.fn((table: string) => {
+			if (table === 'question_categories') {
+				return {
+					select: () => ({
+						ilike: () => ({
+							limit: () => Promise.resolve({ data: categories, error: null })
+						})
+					})
+				};
+			}
+			return {
+				select: () => ({
+					in: () => Promise.resolve({ data: tagRows, error: null })
+				})
+			};
+		})
+	};
+}
 
 describe('questionSearch helpers', () => {
 	it('returns the base url when it is unused', () => {
@@ -62,6 +87,29 @@ describe('questionSearch helpers', () => {
 		]);
 	});
 
+	it('ignores headline fragments from the category blob and highlights the question text', async () => {
+		const rpc = vi.fn().mockResolvedValue({
+			data: [
+				{
+					id: 11,
+					url: 'what-tech-skills-are-worth-knowing',
+					question: 'What technical skills are worth knowing other than programming?',
+					question_formatted: 'What technical skills are worth knowing other than programming?',
+					comment_count: 3,
+					// ts_headline can land mid category-names blob — must never surface raw
+					headline: '<mark>Emerging</mark> Technologies Hardware and Devices Health and Wellness'
+				}
+			],
+			error: null
+		});
+
+		const results = await searchQuestionsTypeahead({ rpc } as any, 'emerging', 10);
+
+		expect(results[0].highlighted).toBe(
+			'What technical skills are worth knowing other than programming?'
+		);
+	});
+
 	it('builds full search results from the rpc response', async () => {
 		const rpc = vi.fn().mockResolvedValue({
 			data: [
@@ -109,6 +157,51 @@ describe('questionSearch helpers', () => {
 			],
 			total: 1
 		});
+	});
+
+	it('suggests matching categories with question pages, prefix matches first', async () => {
+		const supabase = buildCategorySupabaseMock(
+			[
+				{ id: 1, category_name: 'Hardware and Emerging Devices', slug: 'hardware-devices' },
+				{ id: 2, category_name: 'Emerging Technologies', slug: 'emerging-technologies' },
+				{ id: 3, category_name: 'Emerging Markets', slug: null }
+			],
+			[{ tag_id: 1 }, { tag_id: 2 }, { tag_id: 3 }]
+		);
+
+		const results = await searchCategoriesTypeahead(supabase as any, 'emerging', 3);
+
+		expect(results.map((r) => r.name)).toEqual([
+			'Emerging Markets',
+			'Emerging Technologies',
+			'Hardware and Emerging Devices'
+		]);
+		expect(results[1].url).toBe('/questions/categories/emerging-technologies');
+		// Falls back to the id when the category has no slug
+		expect(results[0].url).toBe('/questions/categories/3');
+		expect(results[1].highlighted).toBe('<mark>Emerging</mark> Technologies');
+	});
+
+	it('omits categories that have no tagged questions', async () => {
+		const supabase = buildCategorySupabaseMock(
+			[
+				{ id: 1, category_name: 'Emerging Technologies', slug: 'emerging-technologies' },
+				{ id: 2, category_name: 'Emerging Markets', slug: 'emerging-markets' }
+			],
+			[{ tag_id: 1 }]
+		);
+
+		const results = await searchCategoriesTypeahead(supabase as any, 'emerging', 3);
+
+		expect(results.map((r) => r.name)).toEqual(['Emerging Technologies']);
+	});
+
+	it('returns no category suggestions for wildcard-only or short queries', async () => {
+		const supabase = buildCategorySupabaseMock([], []);
+
+		expect(await searchCategoriesTypeahead(supabase as any, '%_', 3)).toEqual([]);
+		expect(await searchCategoriesTypeahead(supabase as any, 'a', 3)).toEqual([]);
+		expect(supabase.from).not.toHaveBeenCalled();
 	});
 
 	it('queries Supabase for url collisions when generating a new question url', async () => {

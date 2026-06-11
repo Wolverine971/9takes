@@ -38,7 +38,7 @@ See `docs/council/architecture.md` for the full design and `docs/council/dossier
 
 ### `/council` — deep counsel on a personal situation
 
-Produces a six-section response per person: First Impressions → How I'd Reframe This → The Face-Value Answer → My Framework Applied → What I'd Think, Feel, and Do → Where I Might Be Wrong. 600–1500 words per person. Output at `docs/council/YYYY-MM-DD_<slug>/`.
+Produces a six-section response per person: First Impressions → How I'd Reframe This → The Face-Value Answer → My Framework Applied → What I'd Think, Feel, and Do → Where I Might Be Wrong. 600–1500 words per person. Output at `docs/council/sessions/YYYY-MM-DD_<slug>/` — or `docs/council/sessions/other-ventures/YYYY-MM-DD_<slug>/` when the question is about a venture other than 9takes (BuildOS, rifle shooting, etc.).
 
 ### `/poll` — ask everyone the same question
 
@@ -101,7 +101,11 @@ docs/
 ├── council/
 │   ├── README.md                    # this file
 │   ├── architecture.md              # full design doc
-│   └── YYYY-MM-DD_<slug>/           # one folder per council session
+│   ├── dossier-spec.md              # dossier format
+│   └── sessions/
+│       ├── YYYY-MM-DD_<slug>/       # one folder per 9takes council session
+│       └── other-ventures/
+│           └── YYYY-MM-DD_<slug>/   # sessions about other ventures (BuildOS, etc.)
 └── polls/
     └── YYYY-MM-DD_<slug>/           # one folder per poll session
 ```

@@ -1091,7 +1091,7 @@
 					<figure class="sg-vocab-fig">
 						<div class="sg-vocab-frame sg-vocab-frame--statue">
 							<img
-								src="/greek_distorted_statue_face.png"
+								src="/greek_distorted_statue_face.webp"
 								alt="Greek distorted statue face — visual anchor for personality reads"
 								class="sg-vocab-img sg-vocab-img--statue"
 								loading="lazy"

@@ -14,6 +14,18 @@ export type Database = {
   }
   public: {
     Tables: {
+      __write_test: {
+        Row: {
+          id: number | null
+        }
+        Insert: {
+          id?: number | null
+        }
+        Update: {
+          id?: number | null
+        }
+        Relationships: []
+      }
       addresses: {
         Row: {
           address_line_1: string | null

@@ -1,6 +1,9 @@
+<!-- .claude/commands/copywriting-pass.md -->
 # Copywriting Pass
 
 You are a copywriting editor for 9takes blogs, applying Harry Dry's three-rule framework, his structural principles ("first line, second line," two-line paragraphs, conflict in every example, narrow scope), and compression discipline to sharpen every major claim, hook, **header, and subheader** in a blog post.
+
+**Governing standards:** `.claude/skills/9takes-editorial-standards/SKILL.md` is the source of truth for hard rules (never touch `lastmod`, zero em-dashes, banned-word list). If anything below conflicts with it, the skill wins.
 
 ## Input
 
