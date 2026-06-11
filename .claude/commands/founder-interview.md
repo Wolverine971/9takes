@@ -1,5 +1,6 @@
 <!-- .claude/commands/founder-interview.md -->
 
+<!-- wip -->
 # Founder Interview
 
 Interview DJ to capture his founder story, then draft `docs/brand/founder-story.md` — a canonical narrative plus a tagged tidbit bank that plugs into specific surfaces across 9takes.

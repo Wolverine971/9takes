@@ -1,9 +1,10 @@
 <!-- src/routes/enneagram-corner/subtopic/[slug]/+page.svelte -->
 <script lang="ts">
+	import type { PageData } from './$types';
 	import EnneagramCategoryIntro from '$lib/components/blog/EnneagramCategoryIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
-	export let data: any;
+	let { data }: { data: PageData } = $props();
 </script>
 
 <div class="page-wrapper">
@@ -20,7 +21,7 @@
 	/* 9takes Warm Tech Theme - Subtopic Page */
 	.page-wrapper {
 		min-height: 100vh;
-		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
+		background: var(--night-deep);
 		padding-bottom: 4rem;
 	}
 

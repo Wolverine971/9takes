@@ -49,7 +49,14 @@
 
 <style lang="scss">
 	.faq-section {
-		margin-bottom: 3.5rem;
+		/* Self-contained max-width + horizontal padding: index-page wrappers
+		   (enneagram-corner, community, how-to-guides) zero out their own
+		   side padding and delegate centering to this component. Without it
+		   the FAQ ran edge-to-edge and hugged the left (design audit
+		   2026-06-11). */
+		max-width: 820px;
+		margin: 0 auto 3.5rem;
+		padding: 0 1.5rem;
 		scroll-margin-top: 80px;
 	}
 
@@ -108,21 +115,29 @@
 	}
 
 	.faq-item {
-		background: var(--night-deep);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
+		/* --stone-warm is the canonical raised-card surface (white in light
+		   mode, warm-brown in dark). Using --night-deep made cards collapse
+		   into the section background in light mode — see design audit
+		   2026-06-11. */
+		background: var(--stone-warm);
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		border-radius: 0.625rem;
 		overflow: hidden;
-		transition: all 0.2s ease;
+		box-shadow: 0 1px 2px color-mix(in srgb, var(--ink-bright) 6%, transparent);
+		transition:
+			border-color 0.2s ease,
+			box-shadow 0.2s ease;
 
 		&:hover {
 			border-color: var(--lamp-glow-rgba);
+			box-shadow: 0 2px 8px color-mix(in srgb, var(--ink-bright) 9%, transparent);
 		}
 
 		&[open] {
 			border-color: var(--lamp-glow-rgba);
 
 			.faq-question {
-				border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
+				border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
 			}
 
 			.toggle-icon::after {
@@ -178,7 +193,9 @@
 
 	.faq-answer {
 		padding: 1rem 1.25rem 1.25rem;
-		background: var(--stone-warm);
+		/* Inherit the card surface; the open-state divider on .faq-question
+		   separates question from answer. */
+		background: transparent;
 
 		p {
 			font-size: 0.9375rem;
@@ -192,6 +209,7 @@
 	@media (max-width: 640px) {
 		.faq-section {
 			margin-bottom: 2.5rem;
+			padding: 0 1.25rem;
 			scroll-margin-top: 70px;
 		}
 

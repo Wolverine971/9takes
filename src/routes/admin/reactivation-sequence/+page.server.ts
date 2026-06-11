@@ -13,7 +13,10 @@ import {
 	type ReactivationSequenceKey,
 	type SequenceSendRow
 } from '$lib/email/sequences';
-import { getReactivationStep } from '$lib/email/reactivation-sequence-content';
+import {
+	getReactivationStep,
+	REACTIVATION_STEP_2_FINAL
+} from '$lib/email/reactivation-sequence-content';
 import { sendEmail } from '$lib/email/sender';
 import { normalizeEmail } from '$lib/email/suppression';
 import { enrollDormantCandidatesInReactivationSequence } from '$lib/server/emailSequences';
@@ -608,7 +611,11 @@ export const load: PageServerLoad = async ({ locals }) => {
 	};
 	const step2Items = editorItems.filter((step) => step.step_number === 2);
 	const copyReadiness = {
-		step2Saved: step2Items.length > 0 && step2Items.every((step) => step.overrides.htmlContent)
+		// Ready when the code-managed step 2 copy is final, or every bucket has a
+		// saved DB override (the original pre-finalization path).
+		step2Saved:
+			REACTIVATION_STEP_2_FINAL ||
+			(step2Items.length > 0 && step2Items.every((step) => step.overrides.htmlContent))
 	};
 
 	return {
@@ -716,7 +723,7 @@ export const actions: Actions = {
 			return fail(400, { error: 'Type ACTIVE to activate the reactivation sequences' });
 		}
 
-		if (status === 'active') {
+		if (status === 'active' && !REACTIVATION_STEP_2_FINAL) {
 			const sequenceIds = await getSequenceIdsForUpdate(supabase, REACTIVATION_DORMANT_KEY, 2);
 			const { data: step2Rows, error: step2Error } = await supabase
 				.from('email_sequence_steps')

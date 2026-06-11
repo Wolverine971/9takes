@@ -48,8 +48,8 @@ Closing copy.`);
 			type: 'BlogPurpose',
 			props: {}
 		});
-		expect(first.content).toContain('Want to understand your own pattern?');
-		expect(first.content.indexOf('Want to understand your own pattern?')).toBeLessThan(
+		expect(first.content).toContain('The fight that started 9takes');
+		expect(first.content.indexOf('The fight that started 9takes')).toBeLessThan(
 			first.content.indexOf('<h2 id="last">Last</h2>')
 		);
 	});
@@ -68,7 +68,7 @@ Closing copy.`);
 				props: {}
 			}
 		]);
-		expect(result.content.match(/Want to understand your own pattern\\?/g)).toHaveLength(1);
+		expect(result.content.match(/The fight that started 9takes/g)).toHaveLength(1);
 	});
 
 	it('keeps PopCard content visible as an SSR figure fallback', async () => {

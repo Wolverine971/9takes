@@ -53,9 +53,11 @@ describe('prepareSequenceSend', () => {
 
 		expect(prepared.subject).toBe("If 9takes isn't useful in these 3 moments, unsubscribe.");
 		expect(prepared.preheader).toBe("I'd rather lose you than waste your inbox.");
-		expect(prepared.htmlContent).toContain('The whole product is one loop');
+		expect(prepared.htmlContent).toContain('Before you send a text you might regret');
 		expect(prepared.htmlContent).not.toContain('Old DB body');
-		expect(prepared.plainText).toContain('Run the loop once more');
+		expect(prepared.plainText).toContain(
+			'Post it as a question: https://9takes.com/questions/create'
+		);
 		expect(prepared.plainText).not.toContain('Old DB text');
 	});
 

@@ -27,6 +27,17 @@ export type ReactivationSequenceContent = {
 export const REACTIVATION_HERO_URL =
 	'https://9takes.com/enneagram-corner/enneagram-and-mental-illness';
 
+// Live question featured in step 3. If it's ever removed or flagged, swap in
+// another high-engagement relationship question.
+const PARTNER_QUESTION_URL =
+	'https://9takes.com/questions/what-are-you-afraid-to-tell-to-your-partner';
+
+// Step 2's personal story (the activation blocker) is final as of 2026-06-11.
+// Source: docs/brand/founder-story.md (synthesized) + founder-story-brief.md (raw).
+// Uses only tidbits cleared for public surfaces (no [needs-ruling] items).
+// The admin activation gate accepts this flag in place of a DB copy override.
+export const REACTIVATION_STEP_2_FINAL = true;
+
 const YES_URL = '{{re_permission_yes_url}}';
 const NO_URL = '{{re_permission_no_url}}';
 
@@ -78,8 +89,8 @@ DJocrates
 			'{{first_name}}, you signed up for 9takes in {{signup_month_year}}. Quick re-introduction.',
 		preheader: "It's been a while. Here's what it's become.",
 		htmlContent: `<p>Hi {{first_name}},</p>
-<p>You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. Here's the short version of what changed.</p>
-<p>Here's the loop the whole platform runs on:</p>
+<p>You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. Since then: a much bigger question board, a library of celebrity Enneagram breakdowns, and an Enneagram test built around real situations instead of quiz cliches.</p>
+<p>The core is still one loop:</p>
 <ol>
   <li>Pick a question that feels real.</li>
   <li>Answer before seeing what anyone else thinks.</li>
@@ -92,9 +103,9 @@ DJocrates
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
-You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. Here's the short version of what changed.
+You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. Since then: a much bigger question board, a library of celebrity Enneagram breakdowns, and an Enneagram test built around real situations instead of quiz cliches.
 
-Here's the loop the whole platform runs on:
+The core is still one loop:
 
 1. Pick a question that feels real.
 2. Answer before seeing what anyone else thinks.
@@ -157,30 +168,31 @@ const SHARED_STEPS: Array<
 		stepNumber: 2 | 3 | 4 | 5;
 	}
 > = [
-	// TODO(DJ): add the concrete story paragraph (replacing the generic "I spent years
-	// watching people I loved..." paragraph) before this campaign is activated.
 	{
 		stepNumber: 2,
 		subject: "9takes wasn't a product idea. it was a pattern.",
 		preheader: 'A personal note. 200 words, one reply button.',
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>Quick personal note.</p>
-<p>The reason 9takes exists is pattern-recognition, not a product idea. I spent years watching people I loved - friends, family, myself - misread each other with total confidence. Same moment, two completely different internal movies playing. Both people certain they saw it clearly. Both wrong about the other's read.</p>
-<p>The Enneagram is the first lens I found that actually decoded the pattern. Not "what personality are you." More like: what are you protecting, what are you scanning for, what assumption are you making about the other person's motive that isn't true.</p>
+<p>9takes started with a fight. My wife and I were newlyweds, having the same argument again, and everything I tried made it worse. When things finally cooled down she said: "DJ, you need to take a personality test." I was humbled enough to actually do it.</p>
+<p>Here's what I believed before that: people are the way they are, there's right and wrong, and if you disagree with me, either you don't know the truth or I don't - or you're not being a good person. Simple. And wrong.</p>
+<p>The test cracked the door. The Enneagram kicked it open. I'm an 8. My wife is a 7. Our whole problem in one sentence: I didn't fully understand her fear, and she didn't fully understand my anger. I was waving off the thing that runs her ("don't worry about that"), and she was trying to shut down the thing that runs me, which only made it worse. Same fight, two different alarm systems, no map.</p>
 <p>I don't need you to believe in the Enneagram. I just want you to notice the pattern once. That's the whole pitch.</p>
-<p>If any of that resonates - or disagrees with how you see things - hit reply. I read every response.</p>
+<p>If any of that resonates - or you think I'm wrong - hit reply. I read every response.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
 Quick personal note.
 
-The reason 9takes exists is pattern-recognition, not a product idea. I spent years watching people I loved - friends, family, myself - misread each other with total confidence. Same moment, two completely different internal movies playing. Both people certain they saw it clearly. Both wrong about the other's read.
+9takes started with a fight. My wife and I were newlyweds, having the same argument again, and everything I tried made it worse. When things finally cooled down she said: "DJ, you need to take a personality test." I was humbled enough to actually do it.
 
-The Enneagram is the first lens I found that actually decoded the pattern. Not "what personality are you." More like: what are you protecting, what are you scanning for, what assumption are you making about the other person's motive that isn't true.
+Here's what I believed before that: people are the way they are, there's right and wrong, and if you disagree with me, either you don't know the truth or I don't - or you're not being a good person. Simple. And wrong.
+
+The test cracked the door. The Enneagram kicked it open. I'm an 8. My wife is a 7. Our whole problem in one sentence: I didn't fully understand her fear, and she didn't fully understand my anger. I was waving off the thing that runs her ("don't worry about that"), and she was trying to shut down the thing that runs me, which only made it worse. Same fight, two different alarm systems, no map.
 
 I don't need you to believe in the Enneagram. I just want you to notice the pattern once. That's the whole pitch.
 
-If any of that resonates - or disagrees with how you see things - hit reply. I read every response.
+If any of that resonates - or you think I'm wrong - hit reply. I read every response.
 
 DJocrates
 9takes.com`
@@ -195,7 +207,8 @@ DJocrates
 <p>Both of them are doing the thing they think is considerate. Both of them are sure the other person started it.</p>
 <p>This is the shape of 80% of relationship conflict. Not malice. Not even bad communication. Two different internal rulebooks, neither one labeled.</p>
 <p>The 9takes move here isn't "who's right." It's: what were each of them scanning for, and what did they assume the other person meant?</p>
-<p><a class="button" href="{{questions_url}}">Read the full thread and add your take</a></p>
+<p>There's a live question in the same lane: <strong>"What are you afraid to tell your partner?"</strong> Answer first, then see everyone else's.</p>
+<p><a class="button" href="${PARTNER_QUESTION_URL}">Add your take</a></p>
 <p>If you've ever been on either side of this one, your read is useful.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
@@ -210,7 +223,9 @@ This is the shape of 80% of relationship conflict. Not malice. Not even bad comm
 
 The 9takes move here isn't "who's right." It's: what were each of them scanning for, and what did they assume the other person meant?
 
-Read the full thread and add your take: {{questions_url}}
+There's a live question in the same lane: "What are you afraid to tell your partner?" Answer first, then see everyone else's.
+
+Add your take: ${PARTNER_QUESTION_URL}
 
 If you've ever been on either side of this one, your read is useful.
 

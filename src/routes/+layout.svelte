@@ -397,7 +397,12 @@
 			/^\/questions\/[^/]+$/.test(pathname) &&
 			pathname !== '/questions/create' &&
 			pathname !== '/questions/categories';
-		shouldShowMaxWidth = !FULL_WIDTH_PAGES.includes(pathname) && !isAdminPage;
+		// Personality-analysis dossier pages manage their own widths (1280px
+		// case-file header + 880px reading measure in-page), so the max-w-4xl
+		// clamp only squeezes the header design — exempt them like listings.
+		const isPersonalityDossierPage = $page.route.id === '/personality-analysis/[slug]';
+		shouldShowMaxWidth =
+			!FULL_WIDTH_PAGES.includes(pathname) && !isAdminPage && !isPersonalityDossierPage;
 		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage;
 	}
 

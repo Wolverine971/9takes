@@ -8,7 +8,7 @@ lastmod: '2026-05-04'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
-type: ['enneagram', 'psychology']
+type: ['overview', 'psychology']
 blog: true
 pic: 'greek-statues-object-relations'
 pic_alt: 'Nine Greek statues each facing its own shadow on the wall, illustrating how each Enneagram type relates to a different internalized object — the unconscious shadow of an early caregiver that each type unconsciously casts onto adult relationships'

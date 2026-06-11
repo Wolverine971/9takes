@@ -8,7 +8,7 @@ lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.9'
 published: true
-type: ['shadow-work', 'personal-growth']
+type: ['development', 'shadow-work', 'personal-growth']
 blog: true
 pic: 'nine_greek_statues_facing_their_shadows_on_the_wall'
 pic_alt: 'Nine Greek statues standing before a wall where their shadows reveal their hidden dark traits and fears'

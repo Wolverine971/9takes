@@ -2,11 +2,8 @@
 <script lang="ts">
 	import EnneagramDiagram from './EnneagramDiagram.svelte';
 	import { notifications } from '../molecules/notifications';
-	import { getEnneagramSidebarCopy } from './enneagramSidebarCopy';
 
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
-
-	const ctaCopy = getEnneagramSidebarCopy('/personality-analysis');
 
 	let email = $state('');
 	let error = $state('');
@@ -76,8 +73,14 @@
 			</div>
 
 			<div class="cta-text">
-				<h3>{ctaCopy.title}</h3>
-				<p>{ctaCopy.copy}</p>
+				<h3>The fight that started 9takes</h3>
+				<p>
+					My wife and I were newlyweds having the same fight on repeat, until she said,
+					&ldquo;DJ, you need to take a personality test.&rdquo; Turns out I didn&rsquo;t
+					understand her fear and she didn&rsquo;t understand my anger. 9takes is the site I
+					wish we&rsquo;d had: one situation, nine takes.
+				</p>
+				<p class="cta-subtext">Get the next personality breakdown in your inbox.</p>
 			</div>
 
 			{#if submitted}
@@ -102,7 +105,7 @@
 						class="signup-input"
 					/>
 					<button type="submit" class="signup-button" disabled={loading}>
-						{loading ? 'Submitting...' : ctaCopy.buttonLabel}
+						{loading ? 'Submitting...' : 'Send it to me'}
 					</button>
 				</form>
 				{#if error}
@@ -224,6 +227,12 @@
 			font-size: 0.875rem;
 			line-height: 1.5;
 			margin: 0;
+		}
+
+		.cta-subtext {
+			margin-top: 0.6rem;
+			font-weight: 700;
+			opacity: 1;
 		}
 	}
 

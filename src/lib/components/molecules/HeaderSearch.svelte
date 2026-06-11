@@ -57,6 +57,20 @@
 		query = routeQuery;
 	}
 
+	// ARIA combobox wiring: stable ids tie the input to its listbox + active
+	// option so screen readers announce arrow-key navigation.
+	$: inputId = mobile ? 'mobile-header-search' : 'desktop-header-search';
+	$: listboxId = `${inputId}-listbox`;
+	$: activeDescendantId =
+		showResultList && activeIndex >= 0 ? `${inputId}-option-${activeIndex}` : undefined;
+	$: searchStatusMessage = !showResultsPanel
+		? ''
+		: isLoading
+			? 'Searching…'
+			: showResultList
+				? `${results.length} ${results.length === 1 ? 'result' : 'results'} available.`
+				: 'No results found.';
+
 	afterNavigate(() => {
 		isFocused = false;
 		isOpen = false;
@@ -372,19 +386,21 @@
 			</svg>
 		</span>
 
-		<label class="sr-only" for={mobile ? 'mobile-header-search' : 'desktop-header-search'}>
-			Search
-		</label>
+		<label class="sr-only" for={inputId}> Search </label>
 		<input
-			id={mobile ? 'mobile-header-search' : 'desktop-header-search'}
+			id={inputId}
 			type="search"
 			name="q"
 			bind:value={query}
 			{placeholder}
 			autocomplete="off"
 			enterkeyhint="search"
+			role="combobox"
 			aria-label="Search 9takes"
 			aria-autocomplete="list"
+			aria-expanded={showResultsPanel}
+			aria-controls={showResultList ? listboxId : undefined}
+			aria-activedescendant={activeDescendantId}
 			on:input={handleInput}
 			on:focus={handleFocus}
 			on:blur={() => (isFocused = false)}
@@ -401,13 +417,20 @@
 	</div>
 
 	{#if showResultsPanel}
-		<div class="results-panel" role="listbox" aria-label="Search suggestions">
+		<div class="results-panel">
 			{#if showResultList}
-				<ul class="results-list" aria-busy={isLoading}>
+				<ul
+					id={listboxId}
+					class="results-list"
+					role="listbox"
+					aria-label="Search suggestions"
+					aria-busy={isLoading}
+				>
 					{#each results as result, index}
-						<li>
+						<li role="presentation">
 							<button
 								type="button"
+								id={`${inputId}-option-${index}`}
 								class="result-item"
 								class:is-active={index === activeIndex}
 								role="option"
@@ -440,6 +463,10 @@
 			{/if}
 		</div>
 	{/if}
+
+	<!-- Persistent live region: announces result counts / state to screen
+	     readers as the user types and arrows through suggestions. -->
+	<div class="sr-only" role="status" aria-live="polite">{searchStatusMessage}</div>
 </form>
 
 <style lang="scss">

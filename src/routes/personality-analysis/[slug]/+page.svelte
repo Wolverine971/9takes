@@ -886,8 +886,11 @@
 		max-width: 100%;
 
 		@media (max-width: 968px) {
-			width: min(100%, 360px);
-			max-width: 360px;
+			/* Single-column: lead with the face so it lands above the fold,
+			   sized so the title still peeks in on a standard phone viewport. */
+			order: -1;
+			width: min(100%, 320px);
+			max-width: 320px;
 			margin: 0 auto;
 			justify-self: center;
 		}

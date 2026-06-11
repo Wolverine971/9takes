@@ -192,11 +192,11 @@ function renderQuickAnswerFallback(props: Record<string, any>, children: string)
 }
 
 function renderBlogPurposeFallback(): string {
-	return `<aside class="blog-purpose blog-purpose--ssr" aria-label="Explore the Enneagram types">
+	return `<aside class="blog-purpose blog-purpose--ssr" aria-label="Why 9takes exists">
 	<div class="blog-purpose__summary">
-		<h3>Want to understand your own pattern?</h3>
-		<p>Start with the Enneagram fundamentals and see how the 9 types actually differ.</p>
-		<p><a href="/enneagram-corner">Explore the 9 Types</a></p>
+		<h3>The fight that started 9takes</h3>
+		<p>My wife and I were newlyweds having the same fight on repeat, until she said, &ldquo;DJ, you need to take a personality test.&rdquo; Turns out I didn&rsquo;t understand her fear and she didn&rsquo;t understand my anger. 9takes is the site I wish we&rsquo;d had: one situation, nine takes.</p>
+		<p><a href="/community/inspiration-for-9takes">Read the origin story</a></p>
 	</div>
 	<div class="blog-purpose__summary">
 		<h3>Explore the 9 Enneagram Types</h3>

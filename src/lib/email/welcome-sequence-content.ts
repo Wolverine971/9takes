@@ -1,7 +1,19 @@
 // src/lib/email/welcome-sequence-content.ts
 // Canonical copy for the registered-user welcome sequence.
+//
+// Each step has one job:
+//   1 (day 0):  get the first answer - lowest-friction live question, direct link
+//   2 (day 2):  give a portable tool they can use off-platform
+//   3 (day 5):  show real divergence on one question - the Enneagram hook
+//   4 (day 10): ask for their question + honest unsubscribe close
 
 export const WELCOME_SEQUENCE_KEY = 'welcome_sequence';
+
+// Live question threads featured in the sequence. If one of these is ever
+// removed or flagged, swap in another high-engagement evergreen question.
+const KID_QUESTION_URL = 'https://9takes.com/questions/what-were-you-like-as-a-kid-in-3-words';
+const FEAR_QUESTION_URL = 'https://9takes.com/questions/whats-your-biggest-fear';
+const ENNEAGRAM_TEST_URL = 'https://9takes.com/enneagram-test';
 
 export type WelcomeSequenceContent = {
 	stepNumber: number;
@@ -14,44 +26,35 @@ export type WelcomeSequenceContent = {
 export const WELCOME_SEQUENCE_CONTENT: WelcomeSequenceContent[] = [
 	{
 		stepNumber: 1,
-		subject: '{{first_name}}, you answer before you read. The order is the whole product.',
-		preheader: 'Most apps train you to read the room first. 9takes flips the order.',
+		subject: '{{first_name}}, what were you like as a kid? Three words.',
+		preheader: "Answer first. Then see what everyone else said. That's the whole platform.",
 		htmlContent: `<p>Hi {{first_name}},</p>
-<p>You just signed up for 9takes. Here's what you actually opted into:</p>
-<p>Reading the room feels like wisdom. Most of the time it is mimicry with extra steps. 9takes inverts that on purpose.</p>
-<p>Pick any question that feels real, then run the loop:</p>
-<ol>
-  <li>Answer before reading.</li>
-  <li>Compare what others saw.</li>
-  <li>Name one assumption you were carrying.</li>
-</ol>
-<p>The value is the gap: what you noticed, what other people noticed, and what everyone assumed too quickly.</p>
-<p><a class="button" href="{{questions_url}}">Answer one question</a></p>
-<p>Start with the one that gives you an instant opinion. That reaction is usually where the signal is.</p>
-<p>Want the longer version of why I built it this way? <a href="https://9takes.com/community/introducing-9takes">Read "Introducing 9takes: Answer First, Then Compare Perspectives"</a>.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>Welcome to 9takes. One rule here: you answer first, then you see everyone else's takes. No lurking, no reading the room before you commit.</p>
+<p>So let's skip the tour and start with a live one:</p>
+<p><strong>"What were you like as a kid? Three words."</strong></p>
+<p>A few dozen people have answered so far. One borrowed their grandma's line: "never a child." Another went "cute, weird, crazy." Same question, completely different people looking back at you.</p>
+<p><a class="button" href="${KID_QUESTION_URL}">Drop your three words</a></p>
+<p>Takes about two minutes. The moment you answer, every other take unlocks.</p>
+<p>DJocrates<br />9takes.com</p>
+<p>P.S. If your three words feel a little too honest, you're doing it right.</p>`,
 		plainText: `Hi {{first_name}},
 
-You just signed up for 9takes. Here's what you actually opted into:
+Welcome to 9takes. One rule here: you answer first, then you see everyone else's takes. No lurking, no reading the room before you commit.
 
-Reading the room feels like wisdom. Most of the time it is mimicry with extra steps. 9takes inverts that on purpose.
+So let's skip the tour and start with a live one:
 
-Pick any question that feels real, then run the loop:
+"What were you like as a kid? Three words."
 
-1. Answer before reading.
-2. Compare what others saw.
-3. Name one assumption you were carrying.
+A few dozen people have answered so far. One borrowed their grandma's line: "never a child." Another went "cute, weird, crazy." Same question, completely different people looking back at you.
 
-The value is the gap: what you noticed, what other people noticed, and what everyone assumed too quickly.
+Drop your three words: ${KID_QUESTION_URL}
 
-Answer one question: {{questions_url}}
-
-Start with the one that gives you an instant opinion. That reaction is usually where the signal is.
-
-Want the longer version of why I built it this way? Read "Introducing 9takes: Answer First, Then Compare Perspectives": https://9takes.com/community/introducing-9takes
+Takes about two minutes. The moment you answer, every other take unlocks.
 
 DJocrates
-9takes.com`
+9takes.com
+
+P.S. If your three words feel a little too honest, you're doing it right.`
 	},
 	{
 		stepNumber: 2,
@@ -93,34 +96,39 @@ DJocrates
 	},
 	{
 		stepNumber: 3,
-		subject: '"Why are people so fake?" is the wrong question.',
-		preheader: 'The shape of the question decides the quality of the answers.',
+		subject: 'Three people answered "What\'s your biggest fear." Zero overlap.',
+		preheader: 'Public embarrassment. The group chat dying. Never finding out. Which is yours?',
 		htmlContent: `<p>Hi {{first_name}},</p>
-<p>A good 9takes question is specific, tense, and not already solved.</p>
-<p>Weak question: <em>Why are people so fake?</em></p>
-<p>Better question: <em>My friend is warm in person but takes days to reply. What might be going on?</em></p>
-<p>The second one gives people something real to work with. They can name different motives, fears, habits, and blind spots without pretending one answer explains everyone.</p>
-<p>If there is a situation you keep replaying in your head, that is the one to post. You will get reads you did not think of.</p>
-<p><a class="button" href="{{ask_question_url}}">Ask your own question</a></p>
-<p><a href="{{questions_url}}">Or answer a current one first</a></p>
-<p>This same shift — stop trying to win, start asking questions that can actually be answered — is how online arguments turn into real conversations. <a href="https://9takes.com/community/what-winning-online-arguments-looks-like">Read "What Winning Online Arguments Looks Like"</a>.</p>
+<p>There's a question on 9takes that proves the whole premise: <strong>"What's your biggest fear?"</strong></p>
+<p>Real answers, side by side:</p>
+<ul>
+  <li>"Public embarrassment."</li>
+  <li>"Losing my friends and the group chat dying."</li>
+  <li>"Never achieving/discovering what I am capable of."</li>
+</ul>
+<p>None of these people are wrong. They're just running different alarm systems. That's the Enneagram in one screenshot: nine types, nine different core fears, and you can usually spot yours in a list like this faster than in any quiz.</p>
+<p>Add yours first. Then see where it lands next to everyone else's.</p>
+<p><a class="button" href="${FEAR_QUESTION_URL}">Answer "What's your biggest fear?"</a></p>
+<p>Want to know which of the nine fears is driving you? <a href="${ENNEAGRAM_TEST_URL}">Take the test</a> after you answer. Your gut response to this question is half the typing work already.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
-A good 9takes question is specific, tense, and not already solved.
+There's a question on 9takes that proves the whole premise: "What's your biggest fear?"
 
-Weak question: Why are people so fake?
+Real answers, side by side:
 
-Better question: My friend is warm in person but takes days to reply. What might be going on?
+- "Public embarrassment."
+- "Losing my friends and the group chat dying."
+- "Never achieving/discovering what I am capable of."
 
-The second one gives people something real to work with. They can name different motives, fears, habits, and blind spots without pretending one answer explains everyone.
+None of these people are wrong. They're just running different alarm systems. That's the Enneagram in one screenshot: nine types, nine different core fears, and you can usually spot yours in a list like this faster than in any quiz.
 
-If there is a situation you keep replaying in your head, that is the one to post. You will get reads you did not think of.
+Add yours first. Then see where it lands next to everyone else's.
 
-Ask your own question: {{ask_question_url}}
-Or answer a current one first: {{questions_url}}
+Answer "What's your biggest fear?": ${FEAR_QUESTION_URL}
 
-This same shift — stop trying to win, start asking questions that can actually be answered — is how online arguments turn into real conversations. Read "What Winning Online Arguments Looks Like": https://9takes.com/community/what-winning-online-arguments-looks-like
+Want to know which of the nine fears is driving you? Take the test after you answer: ${ENNEAGRAM_TEST_URL}
+Your gut response to this question is half the typing work already.
 
 DJocrates
 9takes.com`
@@ -136,15 +144,10 @@ DJocrates
   <li>After a conflict when your version of events feels too clean.</li>
   <li>When you want to see what other people notice before you decide what something means.</li>
 </ul>
-<p>The whole product is one loop:</p>
-<ol>
-  <li>Answer before reading.</li>
-  <li>Compare what others saw.</li>
-  <li>Name one assumption you were carrying.</li>
-</ol>
-<p>If that loop helps, run it once more today. If it does not, the unsubscribe link below works immediately. I mean that.</p>
-<p><a class="button" href="{{questions_url}}">Run the loop once more</a></p>
-<p>Why am I this direct? Because facts alone do not change minds — conversation design does. <a href="https://9takes.com/community/how-minds-change-on-9takes">Read "How Minds Actually Change"</a> for the thinking behind the whole platform.</p>
+<p>And here's the move most people miss: if there's a situation you keep replaying in your head - a text, a fight, a weird interaction that won't settle - that's not a sign to ruminate. That's a question.</p>
+<p><a class="button" href="{{ask_question_url}}">Post it as a question</a></p>
+<p>You'll get reads on it you did not think of. That's the entire point of nine takes.</p>
+<p>If none of this is useful, the unsubscribe link below works immediately. I mean that.</p>
 <p>DJocrates<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
@@ -154,17 +157,13 @@ DJocrates
 - After a conflict when your version of events feels too clean.
 - When you want to see what other people notice before you decide what something means.
 
-The whole product is one loop:
+And here's the move most people miss: if there's a situation you keep replaying in your head - a text, a fight, a weird interaction that won't settle - that's not a sign to ruminate. That's a question.
 
-1. Answer before reading.
-2. Compare what others saw.
-3. Name one assumption you were carrying.
+Post it as a question: {{ask_question_url}}
 
-If that loop helps, run it once more today. If it does not, the unsubscribe link below works immediately. I mean that.
+You'll get reads on it you did not think of. That's the entire point of nine takes.
 
-Run the loop once more: {{questions_url}}
-
-Why am I this direct? Because facts alone do not change minds — conversation design does. Read "How Minds Actually Change" for the thinking behind the whole platform: https://9takes.com/community/how-minds-change-on-9takes
+If none of this is useful, the unsubscribe link below works immediately. I mean that.
 
 DJocrates
 9takes.com`
