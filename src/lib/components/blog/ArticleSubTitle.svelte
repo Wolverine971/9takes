@@ -80,7 +80,7 @@
 	.article-meta {
 		margin: 0;
 		margin-bottom: calc(var(--spacing-unit) * 4);
-		color: var(--neutral-700);
+		color: var(--ink-mid);
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;

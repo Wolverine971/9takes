@@ -48,7 +48,7 @@
 		padding: 1.75rem 2rem 2rem 2.25rem;
 		border-radius: 1rem;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		border: 1px solid var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
 		overflow: hidden;
 	}
 
@@ -104,7 +104,7 @@
 		&:hover {
 			background: var(--lamp-glow);
 			transform: translateY(-1px);
-			box-shadow: 0 6px 20px var(--primary-glow);
+			box-shadow: 0 6px 20px var(--lamp-glow-rgba);
 		}
 
 		&:focus-visible {

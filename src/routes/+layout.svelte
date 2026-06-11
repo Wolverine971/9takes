@@ -34,7 +34,6 @@
 	import Toast from '$lib/components/molecules/Toast.svelte';
 	import Footer from '$lib/components/molecules/Footer.svelte';
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
-	import CategoryNavigation from '$lib/components/atoms/CategoryNavigation.svelte';
 	import FloatingParticles from '$lib/components/atoms/FloatingParticles.svelte';
 
 	export let data: PageData;
@@ -95,14 +94,6 @@
 		requestIdleCallback?: (callback: () => void, options?: { timeout?: number }) => number;
 		cancelIdleCallback?: (handle: number) => void;
 	};
-
-	// Type for category structure passed to CategoryNavigation
-	interface CategoryStep {
-		id: number;
-		category_name: string;
-		slug?: string | null;
-		level: number;
-	}
 
 	preparePageTransition();
 
@@ -536,8 +527,6 @@
 			setUserIdentity(null);
 		}
 	}
-
-	$: parents = data?.parents ? ([...data.parents].slice(0, -1) as CategoryStep[]) : [];
 </script>
 
 <svelte:head>
@@ -627,7 +616,7 @@
 		<!-- Skip link for accessibility (WCAG 2.4.1) -->
 		<a
 			href="#main-content"
-			class="skip-link sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-teal-500 focus:px-4 focus:py-2 focus:text-white focus:outline-none focus:ring-2 focus:ring-teal-400"
+			class="skip-link sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-[var(--lamp-glow)] focus:px-4 focus:py-2 focus:text-[var(--text-on-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 		>
 			Skip to main content
 		</a>
@@ -639,10 +628,6 @@
 
 		{#if showBackButton}
 			<BackNavigation />
-		{/if}
-
-		{#if isCategoryPage}
-			<CategoryNavigation categoryStructure={parents} />
 		{/if}
 
 		<main

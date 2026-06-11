@@ -346,7 +346,7 @@
 		background:
 			radial-gradient(
 				ellipse at top,
-				color-mix(in srgb, var(--primary-subtle) 120%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-soft) 120%, transparent) 0%,
 				transparent 45%
 			),
 			linear-gradient(

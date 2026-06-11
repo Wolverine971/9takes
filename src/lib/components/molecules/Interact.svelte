@@ -475,7 +475,7 @@
 		<h2 class="mb-1 text-xl font-semibold text-[var(--ink-bright)]">Share This Question</h2>
 		<p class="mb-5 text-sm text-[var(--ink-mid)]">Scan the QR code to share with others</p>
 
-		<div class="mb-5 rounded-xl border border-[var(--primary-subtle)] bg-[var(--night-deep)] p-4">
+		<div class="mb-5 rounded-xl border border-[var(--lamp-soft)] bg-[var(--night-deep)] p-4">
 			<img src={qrCodeUrl} alt="Share question QR code" class="h-[180px] w-[180px]" />
 		</div>
 
@@ -497,7 +497,7 @@
 		background:
 			linear-gradient(
 				180deg,
-				color-mix(in srgb, var(--primary-subtle) 32%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-soft) 32%, transparent) 0%,
 				transparent 100%
 			),
 			color-mix(in srgb, var(--stone-warm) 92%, transparent);
@@ -554,12 +554,12 @@
 	.interaction-button-muted:hover:not(:disabled) {
 		border-color: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
 		color: var(--lamp-glow);
-		background: color-mix(in srgb, var(--primary-subtle) 50%, transparent);
+		background: color-mix(in srgb, var(--lamp-soft) 50%, transparent);
 	}
 
 	.interaction-button-active {
 		border-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		color: var(--lamp-glow);
 	}
 
@@ -578,7 +578,7 @@
 		background:
 			linear-gradient(
 				180deg,
-				color-mix(in srgb, var(--primary-subtle) 36%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-soft) 36%, transparent) 0%,
 				transparent 30%
 			),
 			color-mix(in srgb, var(--stone-warm) 94%, transparent);
@@ -595,7 +595,7 @@
 		padding: 0.6rem 0.8rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--primary-subtle) 42%, transparent);
+		background: color-mix(in srgb, var(--lamp-soft) 42%, transparent);
 		color: color-mix(in srgb, var(--lamp-glow) 72%, var(--ink-mid));
 		font-size: 0.78rem;
 		line-height: 1.5;

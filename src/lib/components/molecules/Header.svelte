@@ -335,7 +335,7 @@
 
 	.library-item:hover,
 	.library-item.is-current {
-		background: color-mix(in srgb, var(--primary-subtle) 84%, transparent);
+		background: color-mix(in srgb, var(--lamp-soft) 84%, transparent);
 		box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--lamp-glow) 12%, transparent);
 		color: var(--ink-bright);
 	}

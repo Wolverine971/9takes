@@ -22,7 +22,7 @@
 
 	/* Link styling for blog content - Warm Tech theme */
 	--blog-link-color: var(--lamp-glow);
-	--blog-link-hover-color: var(--primary-lightest);
+	--blog-link-hover-color: var(--lamp-glow);
 
 	a:not(.toc-link):not([class*='text-']):not([class*='bg-']):not([class*='border-']) {
 		color: var(--blog-link-color);
@@ -59,7 +59,7 @@
 
 :root.light .blog {
 	--blog-link-color: var(--lamp-glow);
-	--blog-link-hover-color: var(--accent-dark);
+	--blog-link-hover-color: var(--lamp-glow);
 }
 
 /* Quote styling - Warm Tech theme */
@@ -209,7 +209,7 @@ blockquote {
 .quote-box {
 	font-style: italic;
 	padding: 15px 20px;
-	background-color: var(--primary-subtle);
+	background-color: var(--lamp-soft);
 	border-left: 4px solid var(--lamp-glow);
 	border-radius: 0 0.625rem 0.625rem 0;
 	margin: 20px 0;
@@ -396,7 +396,7 @@ blockquote {
 		top: 0.5rem;
 		bottom: 0.5rem;
 		width: 2px;
-		background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--primary-subtle) 100%);
+		background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-soft) 100%);
 	}
 
 	&__item,
@@ -418,7 +418,7 @@ blockquote {
 			border-radius: 50%;
 			background: var(--lamp-glow);
 			border: 2px solid var(--night-deep);
-			box-shadow: 0 0 0 2px var(--primary-subtle);
+			box-shadow: 0 0 0 2px var(--lamp-soft);
 		}
 
 		/* Highlight a key moment */
@@ -427,7 +427,7 @@ blockquote {
 			height: 12px;
 			left: 1.0625rem;
 			background: var(--lamp-glow);
-			box-shadow: 0 0 8px var(--primary-glow);
+			box-shadow: 0 0 8px var(--lamp-glow-rgba);
 		}
 	}
 
@@ -503,7 +503,7 @@ blockquote {
 
 	&__side--right &__label {
 		color: var(--lamp-glow);
-		border-color: var(--primary-subtle);
+		border-color: var(--lamp-soft);
 	}
 
 	p {
@@ -533,7 +533,7 @@ blockquote {
 		box-shadow 0.2s ease;
 
 	&:hover {
-		border-color: var(--primary-subtle);
+		border-color: var(--lamp-soft);
 		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	}
 

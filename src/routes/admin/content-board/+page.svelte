@@ -991,7 +991,7 @@
 
 	.type-btn:hover {
 		border-color: var(--lamp-glow);
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		color: var(--ink-bright);
 	}
 
@@ -1120,7 +1120,7 @@
 		transition: all 0.2s ease;
 
 		&.active {
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			border-color: var(--lamp-glow);
 			color: var(--lamp-glow);
 		}
@@ -1213,7 +1213,7 @@
 		font-size: 14px;
 		font-weight: 500;
 		color: var(--lamp-glow);
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		border: 1px solid var(--lamp-glow);
 		border-radius: 0.625rem;
 		cursor: pointer;
@@ -1298,7 +1298,7 @@
 
 	.sort-btn:hover {
 		border-color: var(--lamp-glow);
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 	}
 
 	.view-toggle {
@@ -1509,7 +1509,7 @@
 	}
 
 	.kanban-column.dragging-active {
-		border-color: var(--primary-glow);
+		border-color: var(--lamp-glow-rgba);
 	}
 
 	/* Stage Colors */
@@ -1730,7 +1730,7 @@
 
 	.table-row:active {
 		@media (max-width: 768px) {
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 		}
 	}
 
@@ -1815,7 +1815,7 @@
 		@media (max-width: 768px) {
 			padding: 10px 14px;
 			font-size: 13px;
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			border: 1px solid var(--lamp-glow);
 			border-radius: 0.625rem;
 		}
@@ -1959,7 +1959,7 @@
 
 	/* Drag over styles */
 	:global(.drag-over) {
-		background-color: var(--primary-subtle) !important;
+		background-color: var(--lamp-soft) !important;
 		box-shadow: inset 0 0 0 2px var(--lamp-glow);
 	}
 

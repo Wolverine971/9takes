@@ -84,7 +84,7 @@
 				/>
 			</span>
 			<span
-				class="xs:min-w-14 xs:px-2 bg-[var(--night-deep)]/60 flex min-w-12 justify-center rounded-md border border-[var(--primary-subtle)] px-1.5 py-0.5 text-center text-xs text-[var(--ink-mid)] sm:min-w-16 sm:text-sm"
+				class="xs:min-w-14 xs:px-2 bg-[var(--night-deep)]/60 flex min-w-12 justify-center rounded-md border border-[var(--lamp-soft)] px-1.5 py-0.5 text-center text-xs text-[var(--ink-mid)] sm:min-w-16 sm:text-sm"
 			>
 				{formattedDate}
 			</span>
@@ -105,7 +105,7 @@
 
 	:global(.greek-question-card:hover) {
 		border-left: 3px solid var(--lamp-glow);
-		background: linear-gradient(to right, var(--primary-subtle), var(--stone-warm));
+		background: linear-gradient(to right, var(--lamp-soft), var(--stone-warm));
 		box-shadow: var(--glow-sm);
 	}
 
@@ -193,6 +193,6 @@
 	}
 
 	:global(.greek-question-card:hover .greek-circle) {
-		background-color: var(--primary-subtle) !important;
+		background-color: var(--lamp-soft) !important;
 	}
 </style>

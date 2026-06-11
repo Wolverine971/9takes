@@ -204,7 +204,7 @@
 
 		&:hover {
 			box-shadow: var(--glow-sm);
-			border-color: var(--primary-glow);
+			border-color: var(--lamp-glow-rgba);
 		}
 
 		&:focus-visible {
@@ -225,7 +225,7 @@
 			border-radius: 0.625rem;
 
 			&:active {
-				background: var(--primary-subtle);
+				background: var(--lamp-soft);
 				border-color: var(--lamp-glow);
 			}
 		}
@@ -314,7 +314,7 @@
 
 		&:hover {
 			color: var(--lamp-glow);
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 		}
 
 		@media (max-width: 768px) {

@@ -109,7 +109,7 @@
 		font-weight: 700;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
-		color: var(--text-primary, #1f2937);
+		color: var(--ink-bright);
 	}
 
 	.famous-types__list {

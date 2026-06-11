@@ -80,9 +80,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		border-radius: 0.625rem;
-		border: 1px solid var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
 		color: var(--lamp-glow);
 		font-weight: 700;
 	}
@@ -115,11 +115,11 @@
 		transition: all 0.2s ease;
 
 		&:hover {
-			border-color: var(--primary-glow);
+			border-color: var(--lamp-glow-rgba);
 		}
 
 		&[open] {
-			border-color: var(--primary-glow);
+			border-color: var(--lamp-glow-rgba);
 
 			.faq-question {
 				border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);

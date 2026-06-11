@@ -1,0 +1,27 @@
+[2026-06-11 02:01:11] [INFO] Starting daily blog creator (--non-interactive)
+[2026-06-11 02:01:11] [INFO] override.json - pause: false, forceNext: null
+[2026-06-11 02:01:11] [INFO] Rate limit: 2/5 this week (weekStartDate 2026-06-06)
+[2026-06-11 02:01:11] [WARN] inProgress not null: jony-ive (startedAt 2026-06-10T06:00:46Z, ~23h59m elapsed, < 24h threshold, no draft yet)
+[2026-06-11 02:01:11] [INFO] BLOG IN PROGRESS: jony-ive - skipping today's run
+**BLOG IN PROGRESS: Jony Ive — skipping today's run.**
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-06-11
+Status: SKIPPED (inProgress not stale)
+Blog: jony-ive (Type 5, Priority 65)
+Grade: n/a
+Duration: <1 min (pre-flight only)
+Next Run: Tomorrow 2:00 AM
+===================================
+```
+
+What happened, in order:
+
+1. **Pause check** — `pause: false`, no `forceNext`. Clear to proceed.
+2. **Rate limit** — 2/5 blogs this week (week of 2026-06-06, still current). Clear.
+3. **In-progress check** — `inProgress` holds **jony-ive**, started 2026-06-10T06:00:46Z. Current time is 2026-06-11T06:00:44Z, so elapsed is 23h 59m 58s — **two seconds short of the 24-hour staleness threshold**. The rules are explicit: under 24 hours means stop immediately, so I made no queue changes and ran no pipeline.
+
+One thing worth flagging for tomorrow's run: no `jony-ive.md` draft exists in `src/blog/people/drafts/`, and the pipeline's own timeout is 120 minutes — so the 2026-06-10 run almost certainly died without producing anything. Tomorrow's run will see ~48h elapsed, auto-clear it to `skipped` ("stale inProgress - timeout"), and proceed to the next candidate, **Keira Knightley** (priority 64, no existing draft — I verified). This mirrors the prior Tate McRae and Ayo Edebiri timeouts already in the skipped array; jony-ive would be the third pipeline-died-without-a-draft case in two weeks, which may be worth a look at the cron host itself.
+
+Everything is logged to `logs/blog-automation/cron-2026-06-11.log`. No notification sent — this is a clean skip per the spec, not a success or failure.

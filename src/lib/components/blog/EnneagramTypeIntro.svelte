@@ -448,14 +448,14 @@
 	}
 
 	p {
-		color: var(--neutral-700);
+		color: var(--ink-bright);
 		line-height: 1.75;
 		margin-bottom: 1rem;
 		font-size: 1.1rem;
 	}
 
 	ul {
-		color: var(--neutral-700);
+		color: var(--ink-bright);
 		margin: 1rem 0;
 		padding-left: 1.5rem;
 	}

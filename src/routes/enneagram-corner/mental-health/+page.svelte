@@ -517,7 +517,7 @@
 		border: 1px solid var(--accent-border);
 
 		&:hover {
-			background: color-mix(in srgb, var(--primary-subtle) 62%, transparent);
+			background: color-mix(in srgb, var(--lamp-soft) 62%, transparent);
 			color: var(--lamp-glow);
 			border-color: color-mix(in srgb, var(--lamp-glow) 28%, transparent);
 			transform: translateY(-1px);
@@ -599,7 +599,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: color-mix(in srgb, var(--primary-subtle) 56%, transparent);
+		background: color-mix(in srgb, var(--lamp-soft) 56%, transparent);
 		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 	}
@@ -695,7 +695,7 @@
 			inset: 0;
 			background: linear-gradient(
 				135deg,
-				color-mix(in srgb, var(--primary-subtle) 42%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-soft) 42%, transparent) 0%,
 				transparent 50%
 			);
 			opacity: 0;

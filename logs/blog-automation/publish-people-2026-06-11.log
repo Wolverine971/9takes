@@ -1,0 +1,18 @@
+```text
+Publish blocked — no eligible draft.
+
+Person: none selected
+Script: node scripts/personBlogParser.js --publish (exit 1, checked 424 candidates)
+Generated files: unchanged (no publish ran)
+
+Blockers:
+- Most of the 87 unpublished drafts: stale_grade_rubric_v1 (need /grade_blog re-grade) or missing content_quality
+- 5 drafts pass the v2 grade gates (overall ≥ 8.5, discoverability ≥ 7) but ALL are missing both image files:
+  - Andrew-Garfield (Type 4, overall 8.7) — needs static/types/4s/Andrew-Garfield.webp + s-Andrew-Garfield.webp
+  - Nicholas-Galitzine (Type 4, overall 8.7) — needs static/types/4s/ images
+  - victoria-justice (Type 9, overall 9.0) — needs static/types/9s/ images
+  - PinkPantheress (Type 5, overall 8.8) — needs static/types/5s/ images
+  - greta-gerwig (Type 6, overall 8.5) — needs static/types/6s/ images
+```
+
+The nearest path to a publish: type images are manual Canva work on your side. Once you drop in the full + `s-` thumbnail webp for any of those five (victoria-justice has the highest grade at 9.0), rerun `/blog_content_publish_people` and it will go through. Stopping here per the gate — not bypassing.

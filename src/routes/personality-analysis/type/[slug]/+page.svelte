@@ -583,7 +583,7 @@
 		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		border-radius: 1rem;
 		margin-bottom: 1rem;
-		box-shadow: 0 0 30px var(--primary-glow);
+		box-shadow: 0 0 30px var(--lamp-glow-rgba);
 		position: relative;
 
 		&::after {
@@ -665,7 +665,7 @@
 		color: var(--lamp-glow);
 		font-weight: 500;
 		padding: 0.375rem 0.75rem;
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		border-radius: 9999px;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 	}

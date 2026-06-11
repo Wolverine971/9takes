@@ -82,7 +82,9 @@
 		margin: 1em;
 	}
 	a {
-		color: var(--primary-700);
+		/* Phase 7 (2026-06-10): was var(--primary-700), a token that was never
+		   defined in index.scss — now the V5 amber link color. */
+		color: var(--lamp-glow);
 		align-items: center;
 		overflow: hidden;
 

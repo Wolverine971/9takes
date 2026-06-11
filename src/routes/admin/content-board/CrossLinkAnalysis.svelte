@@ -367,7 +367,7 @@
 
 		&:hover:not(:disabled) {
 			color: var(--lamp-glow);
-			border-color: var(--primary-glow);
+			border-color: var(--lamp-glow-rgba);
 		}
 
 		&:disabled {
@@ -449,7 +449,7 @@
 		cursor: pointer;
 
 		&:hover {
-			border-color: var(--primary-glow);
+			border-color: var(--lamp-glow-rgba);
 		}
 	}
 

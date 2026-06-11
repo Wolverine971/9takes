@@ -184,7 +184,7 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 1rem 2rem;
-		color: var(--neutral-700);
+		color: var(--ink-mid);
 		text-transform: uppercase;
 		font-size: 1.2rem;
 		font-weight: bold;

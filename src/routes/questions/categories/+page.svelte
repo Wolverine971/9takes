@@ -112,16 +112,16 @@
 		<div class="hero-pool" aria-hidden="true"></div>
 
 		<div class="hero-inner">
-			<SectionKicker class="section-tag" num="01" label="LIBRARY" />
-			<h1 class="display-xl">The question library.</h1>
+			<SectionKicker class="section-tag" num="01" label="CATEGORIES" />
+			<h1 class="display-xl">Browse by category.</h1>
 			<p class="hero-sub">
-				Every live category, sorted by shelf. Empty branches stay closed &mdash; what you see has
-				questions waiting underneath.
+				Every category with questions waiting underneath. Empty ones stay hidden &mdash; what you
+				see has takes to unlock.
 			</p>
 			<p class="mono hero-meta">
-				OPEN · {totalVisibleCategories}
+				{totalVisibleCategories}
 				{totalVisibleCategories === 1 ? 'CATEGORY' : 'CATEGORIES'} · {totalVisibleRoots}
-				{totalVisibleRoots === 1 ? 'SHELF' : 'SHELVES'}
+				{totalVisibleRoots === 1 ? 'PARENT' : 'PARENTS'}
 			</p>
 			<div class="hero-ctas">
 				<Button size="md" variant="primary" href="/questions">Browse open questions →</Button>
@@ -135,18 +135,18 @@
 	  ===================================================================== -->
 	<section class="shelves">
 		<header class="shelves-header">
-			<SectionKicker class="section-tag" num="02" label="THE STACKS" />
-			<h2 class="display-md">Browse by shelf.</h2>
+			<SectionKicker class="section-tag" num="02" label="ALL CATEGORIES" />
+			<h2 class="display-md">Every category.</h2>
 			<p class="shelves-sub">
-				Counts include every live question nested underneath. Drill in until you find the question
-				you're circling.
+				Counts include every question nested underneath. Drill in until you find the one you're
+				circling.
 			</p>
 		</header>
 
 		<div class="shelves-body">
 			{#if categoryTree.length === 0}
 				<div class="empty-state">
-					<p class="mono empty-state-label">SHELVES · EMPTY</p>
+					<p class="mono empty-state-label">NO CATEGORIES YET</p>
 					<p class="empty-state-body">
 						Once questions are tagged into the new category tree, they will appear here
 						automatically.

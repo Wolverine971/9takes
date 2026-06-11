@@ -117,7 +117,7 @@
 		&:hover,
 		&:focus {
 			border-color: var(--lamp-glow);
-			box-shadow: 0 0 25px var(--primary-glow);
+			box-shadow: 0 0 25px var(--lamp-glow-rgba);
 			outline: none;
 			transform: translateY(-3px);
 		}

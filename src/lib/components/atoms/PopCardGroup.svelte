@@ -79,7 +79,7 @@
 		width: clamp(300px, 100%, 700px);
 		margin: 1.5rem auto;
 		overflow: hidden;
-		border: 2px solid var(--primary, #2d1b69);
+		border: 2px solid var(--lamp-glow);
 		border-radius: var(--border-radius, 0.75rem);
 		background: linear-gradient(135deg, var(--night-deep), var(--night-deep));
 	}

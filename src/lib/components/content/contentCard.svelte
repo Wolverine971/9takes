@@ -245,7 +245,7 @@
 		transition: all 0.15s ease;
 
 		&.primary {
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			color: var(--lamp-glow);
 
 			&:hover {

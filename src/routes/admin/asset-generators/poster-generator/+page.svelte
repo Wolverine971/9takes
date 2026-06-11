@@ -829,7 +829,7 @@
 		&.active {
 			color: var(--lamp-glow);
 			border-bottom-color: var(--lamp-glow);
-			box-shadow: 0 0 10px var(--primary-glow);
+			box-shadow: 0 0 10px var(--lamp-glow-rgba);
 		}
 
 		svg {
@@ -989,7 +989,7 @@
 
 		&.active {
 			border-color: var(--lamp-glow);
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			box-shadow: var(--glow-sm);
 		}
 
@@ -1066,7 +1066,7 @@
 
 		&:hover:not(:disabled) {
 			border-color: var(--lamp-glow);
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			box-shadow: var(--glow-sm);
 			transform: translateY(-2px);
 		}
@@ -1167,7 +1167,7 @@
 		overflow: hidden;
 		box-shadow:
 			0 10px 40px -10px rgba(0, 0, 0, 0.5),
-			0 0 20px var(--primary-glow);
+			0 0 20px var(--lamp-glow-rgba);
 		width: 100%;
 		max-width: 500px;
 		max-height: 70vh;

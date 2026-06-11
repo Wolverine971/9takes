@@ -34,7 +34,7 @@
 	<section class="shelf">
 		<header class="shelf-head">
 			<span class="shelf-kicker mono">
-				SHELF · {category.subtreeQuestionCount}
+				SUBCATEGORY · {category.subtreeQuestionCount}
 				{category.subtreeQuestionCount === 1 ? 'QUESTION' : 'QUESTIONS'}
 			</span>
 			<h2 class="shelf-title">

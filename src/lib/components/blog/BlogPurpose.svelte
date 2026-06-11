@@ -69,7 +69,7 @@
 		box-shadow:
 			0 8px 30px -10px rgba(0, 0, 0, 0.15),
 			0 2px 4px -2px rgba(0, 0, 0, 0.08);
-		border: 1px solid var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
 
 		@media (min-width: 768px) {
 			display: flex;

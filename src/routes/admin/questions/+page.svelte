@@ -448,7 +448,7 @@
 		padding: 6px 10px;
 		margin-bottom: 12px;
 		border-radius: 999px;
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		color: var(--lamp-glow);
 		font-size: 0.72rem;
 		font-weight: 700;
@@ -587,7 +587,7 @@
 		justify-content: center;
 		padding: 8px 12px;
 		border-radius: 999px;
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		color: var(--lamp-glow);
 		font-size: 0.78rem;
 		font-weight: 700;
@@ -696,7 +696,7 @@
 
 	.sort-tab.active {
 		border-color: color-mix(in srgb, var(--lamp-glow) 35%, transparent);
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		color: var(--lamp-glow);
 	}
 

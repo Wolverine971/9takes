@@ -103,7 +103,7 @@
 			<button
 				on:click={closeIfAllowed}
 				aria-label="Close dialog"
-				class="absolute right-3 top-3 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-[var(--night-deep)] p-0 transition-all duration-200 hover:rotate-90 hover:bg-[var(--primary-subtle)]"
+				class="absolute right-3 top-3 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-[var(--night-deep)] p-0 transition-all duration-200 hover:rotate-90 hover:bg-[var(--lamp-soft)]"
 			>
 				<svg
 					width="16"

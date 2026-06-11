@@ -373,7 +373,7 @@
 
 		h2 {
 			font-size: 1.25rem;
-			color: var(--neutral-600);
+			color: var(--ink-mid);
 		}
 	}
 
@@ -395,16 +395,16 @@
 	}
 
 	.selected-question {
-		background: var(--neutral-50);
+		background: var(--night-deep);
 		padding: 1rem;
 		border-radius: 4px;
-		border: 1px solid var(--neutral-200);
+		border: 1px solid var(--stone-edge);
 		margin-bottom: 1.5rem;
 
 		h3 {
 			margin-bottom: 0.5rem;
 			font-size: 1rem;
-			color: var(--neutral-600);
+			color: var(--ink-mid);
 		}
 
 		p {
@@ -418,10 +418,10 @@
 	}
 
 	.statistics {
-		background: var(--neutral-50);
+		background: var(--night-deep);
 		padding: 1rem;
 		border-radius: 4px;
-		border: 1px solid var(--neutral-200);
+		border: 1px solid var(--stone-edge);
 		margin-bottom: 1.5rem;
 
 		h2 {
@@ -441,7 +441,7 @@
 
 			.stat-label {
 				font-weight: 500;
-				color: var(--neutral-600);
+				color: var(--ink-mid);
 				margin-bottom: 0.25rem;
 			}
 
@@ -461,7 +461,7 @@
 	}
 
 	.info-message {
-		color: var(--neutral-600);
+		color: var(--ink-mid);
 		font-style: italic;
 		margin: 0.5rem 0 0;
 	}

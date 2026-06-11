@@ -230,10 +230,10 @@
 		}
 
 		&:hover {
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			border-color: var(--lamp-glow);
 			transform: translateY(-2px);
-			box-shadow: 0 0 15px var(--primary-glow);
+			box-shadow: 0 0 15px var(--lamp-glow-rgba);
 
 			img {
 				opacity: 1;

@@ -297,14 +297,14 @@
 		Your question could lead to fascinating insights. What would you like to explore today?
 	</p>
 	<div
-		class="mt-6 rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-lg shadow-[var(--shadow-md)] transition hover:border-[var(--primary-subtle)] hover:shadow-[var(--glow-sm)] sm:p-8"
+		class="mt-6 rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-lg shadow-[var(--shadow-md)] transition hover:border-[var(--lamp-soft)] hover:shadow-[var(--glow-sm)] sm:p-8"
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
 		<textarea
 			rows="4"
 			name="question"
 			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
-			class="noticia-text-regular w-full rounded-md border-2 border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-lg text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+			class="font-body w-full rounded-md border-2 border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-lg text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 			bind:value={question}
 			oninput={handleInput}
 			maxlength={MAX_CHAR_COUNT}
@@ -332,7 +332,7 @@
 				rows="3"
 				name="context"
 				placeholder="Optional: share the situation, what prompted the question, or any relevant background..."
-				class="w-full rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--primary-subtle)]"
+				class="w-full rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 				bind:value={context}
 				oninput={handleInput}
 				maxlength={MAX_CONTEXT_CHAR_COUNT}
@@ -380,7 +380,7 @@
 		<div class={loading ? 'pointer-events-none select-none opacity-40' : ''}>
 			<h2 class="mt-0 text-2xl font-semibold text-[var(--lamp-glow)]">Create Question</h2>
 
-			<div class="mt-4 rounded-xl border border-[var(--primary-subtle)] bg-[var(--stone-warm)] p-4">
+			<div class="mt-4 rounded-xl border border-[var(--lamp-soft)] bg-[var(--stone-warm)] p-4">
 				<div
 					class="mx-auto h-[168px] w-[320px] overflow-hidden rounded-xl sm:h-[209px] sm:w-[400px] md:h-[251px] md:w-[480px]"
 				>

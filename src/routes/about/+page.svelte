@@ -377,7 +377,7 @@
 
 	.section-badge {
 		padding: 0.35rem 0.75rem;
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 		border-radius: 4px;
 	}
@@ -705,7 +705,7 @@
 	.social-btn:hover {
 		transform: translateY(-2px);
 		border-color: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 	}
 
 	.enneagram-explainer {

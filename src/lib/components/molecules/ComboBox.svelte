@@ -445,11 +445,11 @@
 	$breakpoint-sm: 576px;
 
 	// Colors with fallbacks
-	$text-color: var(--primary, #333);
+	$text-color: var(--lamp-glow);
 	$background-color: var(--background-light, #f9f9f9);
 	$border-color: var(--secondary, #ccc);
 	$hover-color: var(--background-dark, #f0f0f0);
-	$selected-color: var(--accent, #6200ee);
+	$selected-color: var(--lamp-glow);
 	$disabled-color: var(--secondary-dark, #999);
 	$error-color: var(--error, #ff6b6b);
 

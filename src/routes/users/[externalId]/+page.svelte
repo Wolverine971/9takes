@@ -298,7 +298,7 @@
 		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		border: 1px solid color-mix(in srgb, var(--stone-warm) 65%, transparent);
 		border-radius: 0.625rem;
-		box-shadow: 0 18px 36px color-mix(in srgb, var(--primary-glow) 45%, transparent);
+		box-shadow: 0 18px 36px color-mix(in srgb, var(--lamp-glow-rgba) 45%, transparent);
 		display: flex;
 		align-items: center;
 		justify-content: center;

@@ -305,7 +305,7 @@
 		flex-shrink: 0;
 
 		&:hover {
-			background: color-mix(in srgb, var(--primary-subtle) 56%, transparent);
+			background: color-mix(in srgb, var(--lamp-soft) 56%, transparent);
 			color: var(--lamp-glow);
 			border-color: color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 			transform: translateY(-1px);
@@ -382,7 +382,7 @@
 
 		&:hover {
 			color: var(--lamp-glow);
-			background: color-mix(in srgb, var(--primary-subtle) 54%, transparent);
+			background: color-mix(in srgb, var(--lamp-soft) 54%, transparent);
 			border-color: color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 		}
 	}

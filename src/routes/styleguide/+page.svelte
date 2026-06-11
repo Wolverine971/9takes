@@ -589,11 +589,11 @@
 				<span class="mono sg-kicker">§03 · COLOR · LEGACY</span>
 				<h2 class="sg-h2">Legacy tokens</h2>
 				<div class="sg-deprecated">
-					<p class="mono sg-deprecated-tag">⚠️ DEPRECATED · PHASE 7 CLEANUP</p>
+					<p class="mono sg-deprecated-tag">⚠️ DELETED · PHASE 7 COMPLETE (2026-06-10)</p>
 					<p class="sg-deprecated-body">
-						These tokens still live in <code>src/scss/index.scss</code> for the bridge migration.
-						New code should use V5 tokens from §02. They get removed in Phase 7 of
-						<code>docs/design/2026-05-04-rollout-plan.md</code>.
+						These tokens were deleted from <code>src/scss/index.scss</code> in Phase 7 of
+						<code>docs/design/2026-05-04-rollout-plan.md</code>. This section is a historical record
+						of what they were — all live code now uses the V5 tokens from §02.
 					</p>
 
 					<div class="sg-deprecated-body-wrap">

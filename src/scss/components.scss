@@ -30,7 +30,7 @@
 
 	&:hover {
 		transform: translateY(-5px);
-		border-color: var(--primary-glow);
+		border-color: var(--lamp-glow-rgba);
 		box-shadow: var(--glow-sm);
 	}
 }
@@ -343,7 +343,7 @@
 	margin: 1rem auto;
 	max-width: 100%;
 	border: 2px solid var(--lamp-glow);
-	background-color: var(--primary-subtle);
+	background-color: var(--lamp-soft);
 
 	&:hover {
 		transform: translateY(-5px);
@@ -358,8 +358,8 @@
 
 .image-card__overlay {
 	background: linear-gradient(
-		var(--primary-subtle),
-		var(--primary-subtle) 3px,
+		var(--lamp-soft),
+		var(--lamp-soft) 3px,
 		transparent 3px,
 		transparent 9px
 	);
@@ -408,7 +408,7 @@
 	position: relative;
 	z-index: 3;
 	margin: 1rem;
-	border: 1px solid var(--primary-glow);
+	border: 1px solid var(--lamp-glow-rgba);
 	border-radius: calc(var(--border-radius) - 0.4rem);
 	background-color: rgba(12, 10, 9, 0.6);
 	box-shadow: var(--shadow-md);
@@ -793,7 +793,7 @@
 	transition: var(--transition-glow);
 
 	&:hover {
-		border-color: var(--primary-glow);
+		border-color: var(--lamp-glow-rgba);
 		color: var(--ink-bright);
 	}
 }
@@ -926,7 +926,7 @@
 	transition: all 0.2s ease;
 
 	&:hover {
-		background-color: var(--primary-subtle);
+		background-color: var(--lamp-soft);
 	}
 
 	&:focus-visible {

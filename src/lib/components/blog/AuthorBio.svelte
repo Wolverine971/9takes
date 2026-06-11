@@ -82,7 +82,7 @@
 		padding: 1.25rem;
 		margin: 2rem 0;
 		background-color: var(--stone-warm);
-		border: 1px solid var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
 		border-radius: 1rem;
 		max-width: 48rem;
 
@@ -127,7 +127,7 @@
 		height: 72px;
 		border-radius: 50%;
 		object-fit: cover;
-		border: 2px solid var(--primary-glow);
+		border: 2px solid var(--lamp-glow-rgba);
 	}
 
 	.author-info {
@@ -155,7 +155,7 @@
 			transition: color 0.2s ease;
 
 			&:hover {
-				color: var(--primary-lightest, var(--lamp-glow));
+				color: var(--lamp-glow);
 			}
 
 			/* Override blog link arrow */
@@ -199,7 +199,7 @@
 
 		&:hover {
 			color: var(--ink-bright);
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 		}
 
 		/* Override blog link arrow */

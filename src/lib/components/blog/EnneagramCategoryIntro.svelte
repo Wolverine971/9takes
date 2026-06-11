@@ -1121,7 +1121,7 @@
 		padding: 2rem;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border-radius: 1rem;
-		border: 1px solid var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
 		max-width: 800px;
 		position: relative;
 		overflow: hidden;
@@ -1133,7 +1133,7 @@
 			right: -20%;
 			width: 200px;
 			height: 200px;
-			background: radial-gradient(ellipse, var(--primary-subtle) 0%, transparent 70%);
+			background: radial-gradient(ellipse, var(--lamp-soft) 0%, transparent 70%);
 			pointer-events: none;
 		}
 
@@ -1149,7 +1149,7 @@
 			}
 
 			em {
-				color: var(--neutral-700);
+				color: var(--ink-mid);
 			}
 		}
 
@@ -1184,7 +1184,7 @@
 			content: '';
 			position: absolute;
 			inset: 0;
-			background: linear-gradient(135deg, var(--primary-subtle) 0%, transparent 50%);
+			background: linear-gradient(135deg, var(--lamp-soft) 0%, transparent 50%);
 			opacity: 0;
 			transition: opacity 0.25s ease;
 			z-index: 1;
@@ -1195,7 +1195,7 @@
 			border-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 			box-shadow:
 				var(--shadow-lg),
-				0 0 0 1px var(--primary-subtle);
+				0 0 0 1px var(--lamp-soft);
 
 			&::before {
 				opacity: 1;
@@ -1314,8 +1314,8 @@
 		transition: all 0.25s ease;
 
 		&:hover {
-			background: var(--primary-subtle);
-			border-color: var(--primary-glow);
+			background: var(--lamp-soft);
+			border-color: var(--lamp-glow-rgba);
 			transform: translateY(-2px);
 
 			.related-label {

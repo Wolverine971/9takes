@@ -846,7 +846,7 @@
 
 		&:hover {
 			background: var(--stone-warm);
-			border-color: var(--primary-glow);
+			border-color: var(--lamp-glow-rgba);
 			box-shadow: var(--glow-sm);
 		}
 
@@ -857,7 +857,7 @@
 			gap: 8px;
 
 			&:active {
-				background: var(--primary-subtle);
+				background: var(--lamp-soft);
 				border-color: var(--lamp-glow);
 			}
 		}

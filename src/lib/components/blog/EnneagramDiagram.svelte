@@ -360,7 +360,6 @@
 		--text-pale: var(--ink-bright);
 		--text-mist: var(--ink-mid);
 		--text-faded: var(--ink-dim);
-		--primary: var(--lamp-glow);
 		--shadow-flame: var(--lamp-glow);
 		--shadow-ethereal: var(--lamp-glow);
 		--secondary: var(--secondary);
@@ -468,7 +467,7 @@
 	   ========================================== */
 	.main-circle {
 		fill: url(#voidGradient);
-		stroke: var(--primary-glow);
+		stroke: var(--lamp-glow-rgba);
 		stroke-width: 0.4;
 	}
 
@@ -523,7 +522,7 @@
 		justify-content: center;
 		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		border-radius: 50%;
-		box-shadow: 0 0 20px var(--primary-glow);
+		box-shadow: 0 0 20px var(--lamp-glow-rgba);
 		z-index: 5;
 	}
 
@@ -601,7 +600,7 @@
 	.type-node:focus {
 		outline: none;
 		box-shadow:
-			0 0 0 3px var(--primary-glow),
+			0 0 0 3px var(--lamp-glow-rgba),
 			0 0 20px color-mix(in srgb, var(--node-color) 50%, transparent);
 	}
 
@@ -683,12 +682,12 @@
 		top: 50%;
 		transform: translate(-50%, -50%);
 		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
-		border: 1px solid var(--primary-glow);
+		border: 1px solid var(--lamp-glow-rgba);
 		border-radius: 0.625rem;
 		padding: 1rem;
 		max-width: min(280px, 85%);
 		box-shadow:
-			0 0 30px var(--primary-subtle),
+			0 0 30px var(--lamp-soft),
 			0 8px 24px rgba(0, 0, 0, 0.15);
 		z-index: 100;
 		pointer-events: none;
@@ -759,7 +758,7 @@
 	.tooltip-stance-detail {
 		margin-top: 0.5rem;
 		padding-top: 0.5rem;
-		border-top: 1px solid var(--primary-subtle);
+		border-top: 1px solid var(--lamp-soft);
 		font-size: 0.75rem;
 		font-style: italic;
 		color: var(--text-mist);

@@ -29,7 +29,7 @@
 
 // Text glow — single brand glow only (primary-amber).
 @mixin text-glow($color: 'primary') {
-	text-shadow: 0 0 20px var(--primary-glow);
+	text-shadow: 0 0 20px var(--lamp-glow-rgba);
 }
 
 // Card with glow on hover
@@ -38,8 +38,8 @@
 
 	&:hover {
 		transform: translateY(-4px);
-		box-shadow: 0 0 30px var(--primary-glow);
-		border-color: var(--primary-glow);
+		box-shadow: 0 0 30px var(--lamp-glow-rgba);
+		border-color: var(--lamp-glow-rgba);
 	}
 }
 

@@ -114,7 +114,7 @@
 							Try Again
 						</button>
 						<button
-							class="rounded-md border border-[var(--stone-edge)] bg-[var(--night-deep)] px-6 py-2.5 font-semibold text-[var(--ink-mid)] transition-all hover:border-[var(--primary-subtle)] hover:bg-[var(--stone-warm)] hover:text-[var(--ink-bright)]"
+							class="rounded-md border border-[var(--stone-edge)] bg-[var(--night-deep)] px-6 py-2.5 font-semibold text-[var(--ink-mid)] transition-all hover:border-[var(--lamp-soft)] hover:bg-[var(--stone-warm)] hover:text-[var(--ink-bright)]"
 							on:click={() => (window.location.href = '/')}
 						>
 							Go Home

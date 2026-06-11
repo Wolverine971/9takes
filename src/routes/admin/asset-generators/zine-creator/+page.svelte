@@ -1285,8 +1285,8 @@
 	}
 
 	.tab.active {
-		background: color-mix(in srgb, var(--nebula-primary) 22%, transparent);
-		border-color: color-mix(in srgb, var(--nebula-primary) 55%, var(--stone-warm));
+		background: color-mix(in srgb, var(--lamp-glow) 22%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-warm));
 		color: var(--ink-bright);
 	}
 
@@ -1413,8 +1413,8 @@
 
 	.section-item.dragging {
 		opacity: 0.65;
-		border-color: color-mix(in srgb, var(--nebula-primary) 60%, var(--stone-warm));
-		background: color-mix(in srgb, var(--nebula-primary) 12%, transparent);
+		border-color: color-mix(in srgb, var(--lamp-glow) 60%, var(--stone-warm));
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
 	}
 
 	.section-item label {
@@ -1542,7 +1542,7 @@
 	}
 
 	.thumb.active {
-		background: color-mix(in srgb, var(--nebula-primary) 24%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 		color: var(--ink-bright);
 	}
 

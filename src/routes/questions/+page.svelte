@@ -289,7 +289,7 @@
 					/>
 					<div class="statue-vignette"></div>
 					<div class="statue-mono">
-						<span class="mono">9TAKES · OPEN FLOOR · DROP YOURS FIRST</span>
+						<span class="mono">9TAKES · ANSWER FIRST · SEE ALL 9 TAKES</span>
 					</div>
 				</div>
 			</div>
@@ -338,13 +338,14 @@
 		<div class="open-floor-pool" aria-hidden="true"></div>
 
 		<header class="open-floor-header">
-			<SectionKicker class="section-tag" num="03" label="OPEN FLOOR" />
-			<h2 class="display-md">The floor is open.</h2>
+			<SectionKicker class="section-tag" num="03" label="QUESTIONS" />
+			<h2 class="display-md">Open questions.</h2>
 			<p class="mono open-floor-kicker">
-				OPEN · {data.totalQuestions ?? 0} QUESTIONS · {data.totalAnswers ?? 0} TAKES GATHERED
+				{data.totalQuestions ?? 0} QUESTIONS · {data.totalAnswers ?? 0} TAKES
 			</p>
 			<p class="open-floor-sub">
-				Each question is read by all 9 personality types. Drop your take to unlock the room.
+				Every question is read by all 9 personality types. Answer first to unlock everyone else's
+				takes.
 			</p>
 		</header>
 

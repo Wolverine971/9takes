@@ -21,7 +21,7 @@ export default {
 			colors: {
 				// Amber primary palette — sodium-amber illumination (V5 --lamp-*).
 				// 2026-05-29: was teal. Teal was off-brand vs the shipped V5 amber theme,
-				// so `bg-primary-500` (teal) disagreed with `var(--primary)` (amber).
+				// so `bg-primary-500` (teal) disagreed with the legacy `--primary` token (amber).
 				// primary-500 = #F59E0B = --lamp-glow; 400 = --lamp-light; 700 = --lamp-deep.
 				primary: {
 					50: '#FFFBEB',
@@ -165,7 +165,7 @@ export default {
 			typography: (theme) => ({
 				DEFAULT: {
 					css: {
-						color: 'var(--text-primary)',
+						color: 'var(--ink-bright)',
 						fontSize: '1rem',
 						lineHeight: '1.5',
 						maxWidth: '68ch',
@@ -174,36 +174,36 @@ export default {
 							marginBottom: '0.75em'
 						},
 						a: {
-							color: 'var(--primary)',
+							color: 'var(--lamp-glow)',
 							fontWeight: 600,
 							textDecoration: 'none',
 							'&:hover': {
-								color: 'var(--primary-light)',
+								color: 'var(--lamp-glow)',
 								textDecoration: 'underline'
 							}
 						},
 						h1: {
-							color: 'var(--text-primary)',
+							color: 'var(--ink-bright)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '2.25rem',
 							lineHeight: '1.2',
 							marginBottom: '0.75em'
 						},
 						h2: {
-							color: 'var(--text-primary)',
+							color: 'var(--ink-bright)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '1.75rem',
 							lineHeight: '1.25',
 							marginTop: '1.5em'
 						},
 						h3: {
-							color: 'var(--text-primary)',
+							color: 'var(--ink-bright)',
 							fontFamily: theme('fontFamily.heading').join(','),
 							fontSize: '1.375rem',
 							lineHeight: '1.3'
 						},
 						h4: {
-							color: 'var(--text-primary)',
+							color: 'var(--ink-bright)',
 							fontWeight: 600
 						},
 						p: {
@@ -211,13 +211,13 @@ export default {
 							marginBottom: '0.5em'
 						},
 						strong: {
-							color: 'var(--text-primary)'
+							color: 'var(--ink-bright)'
 						},
 						blockquote: {
-							borderLeftColor: 'var(--primary)',
+							borderLeftColor: 'var(--lamp-glow)',
 							fontStyle: 'normal',
 							paddingLeft: '1rem',
-							color: 'var(--text-secondary)'
+							color: 'var(--ink-mid)'
 						},
 						ul: {
 							marginTop: '0.5em',
@@ -233,7 +233,7 @@ export default {
 							fontFamily: theme('fontFamily.mono').join(','),
 							padding: '0.1rem 0.25rem',
 							borderRadius: theme('borderRadius.sm'),
-							backgroundColor: 'var(--bg-elevated)'
+							backgroundColor: 'var(--stone-warm)'
 						}
 					}
 				},

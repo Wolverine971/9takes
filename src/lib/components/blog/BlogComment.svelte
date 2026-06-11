@@ -226,7 +226,7 @@
 		background: var(--stone-warm);
 		border: none;
 		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
-		color: var(--neutral-700);
+		color: var(--ink-mid);
 		font-size: 0.9rem;
 		cursor: pointer;
 		transition: all 0.2s ease;

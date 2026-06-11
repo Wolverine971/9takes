@@ -377,8 +377,8 @@
 		align-items: center;
 		gap: 0.5rem;
 		cursor: pointer;
-		border: 1px solid var(--primary-subtle);
-		background: var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
+		background: var(--lamp-soft);
 		border-radius: 0.625rem;
 		font-weight: 500;
 		transition: all 0.2s ease;
@@ -387,8 +387,8 @@
 
 		&:hover {
 			background: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
-			border-color: var(--primary-glow);
-			box-shadow: 0 0 20px var(--primary-subtle);
+			border-color: var(--lamp-glow-rgba);
+			box-shadow: 0 0 20px var(--lamp-soft);
 		}
 
 		&:focus-visible {
@@ -431,7 +431,7 @@
 		font-size: 0.75rem;
 		font-weight: 600;
 		border-radius: 9999px;
-		box-shadow: 0 2px 8px var(--primary-glow);
+		box-shadow: 0 2px 8px var(--lamp-glow-rgba);
 	}
 
 	.filter-btn__dot {
@@ -443,7 +443,7 @@
 		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		border-radius: 9999px;
 		border: 2px solid var(--stone-warm);
-		box-shadow: 0 0 8px var(--primary-glow);
+		box-shadow: 0 0 8px var(--lamp-glow-rgba);
 	}
 
 	/* Modal Styles - Dark Purple Theme */
@@ -451,10 +451,10 @@
 		width: 100%;
 		background: var(--night-deep);
 		border-radius: 1rem;
-		border: 1px solid var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
 		box-shadow:
 			0 25px 50px -12px rgba(0, 0, 0, 0.2),
-			0 0 40px var(--primary-subtle);
+			0 0 40px var(--lamp-soft);
 		overflow: hidden;
 	}
 
@@ -463,7 +463,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 1.125rem 1.25rem;
-		border-bottom: 1px solid var(--primary-subtle);
+		border-bottom: 1px solid var(--lamp-soft);
 		background: linear-gradient(to bottom, var(--stone-warm), var(--night-deep));
 	}
 
@@ -482,7 +482,7 @@
 		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
 		color: var(--text-on-primary);
 		border-radius: 0.625rem;
-		box-shadow: 0 4px 12px var(--primary-glow);
+		box-shadow: 0 4px 12px var(--lamp-glow-rgba);
 	}
 
 	.filter-modal__title {
@@ -507,7 +507,7 @@
 		transition: all 0.15s ease;
 
 		&:hover {
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			color: var(--lamp-glow);
 		}
 	}
@@ -559,7 +559,7 @@
 		transition: all 0.15s ease;
 
 		&:hover {
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			color: var(--lamp-glow);
 		}
 	}
@@ -686,8 +686,8 @@
 		}
 
 		&:hover {
-			border-color: var(--primary-glow);
-			background: var(--primary-subtle);
+			border-color: var(--lamp-glow-rgba);
+			background: var(--lamp-soft);
 		}
 
 		&:focus-visible {
@@ -700,11 +700,11 @@
 		background: linear-gradient(
 			135deg,
 			color-mix(in srgb, var(--lamp-glow) 25%, transparent),
-			var(--accent-subtle)
+			var(--lamp-soft)
 		);
 		border-color: var(--lamp-glow);
 		box-shadow:
-			0 0 20px var(--primary-subtle),
+			0 0 20px var(--lamp-soft),
 			inset 0 1px 0 rgba(255, 255, 255, 0.05);
 
 		.sort-option__icon {
@@ -733,7 +733,7 @@
 		display: flex;
 		gap: 0.75rem;
 		padding: 1rem 1.25rem;
-		border-top: 1px solid var(--primary-subtle);
+		border-top: 1px solid var(--lamp-soft);
 		background: var(--night-deep);
 	}
 
@@ -762,8 +762,8 @@
 		color: var(--ink-mid);
 
 		&:hover:not(:disabled) {
-			background: var(--primary-subtle);
-			border-color: var(--primary-subtle);
+			background: var(--lamp-soft);
+			border-color: var(--lamp-soft);
 			color: var(--lamp-glow);
 		}
 	}
@@ -773,13 +773,13 @@
 		border: none;
 		color: var(--text-on-primary);
 		box-shadow:
-			0 4px 14px var(--primary-glow),
+			0 4px 14px var(--lamp-glow-rgba),
 			inset 0 1px 0 rgba(255, 255, 255, 0.15);
 
 		&:hover:not(:disabled) {
 			transform: translateY(-2px);
 			box-shadow:
-				0 6px 20px var(--primary-glow),
+				0 6px 20px var(--lamp-glow-rgba),
 				inset 0 1px 0 rgba(255, 255, 255, 0.15);
 		}
 

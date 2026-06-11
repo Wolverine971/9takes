@@ -257,7 +257,7 @@
 		transition: background-color 0.2s ease;
 
 		&:hover {
-			background-color: var(--primary-subtle);
+			background-color: var(--lamp-soft);
 		}
 
 		&:focus {
@@ -398,7 +398,7 @@
 		}
 
 		&.active {
-			background-color: var(--primary-subtle);
+			background-color: var(--lamp-soft);
 			color: var(--lamp-glow);
 			border-left-color: var(--lamp-glow);
 			font-weight: 600;
@@ -479,7 +479,7 @@
 		}
 
 		&.active {
-			background-color: var(--primary-subtle);
+			background-color: var(--lamp-soft);
 			color: var(--lamp-glow);
 			border-left-color: var(--lamp-glow);
 			font-weight: 500;

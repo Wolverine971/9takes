@@ -1,6 +1,6 @@
 <!-- src/routes/questions/categories/[slug]/+page.svelte -->
 <!--
-  /questions/categories/[slug] — Streetlamp Symposium V5 shelf detail.
+  /questions/categories/[slug] — Streetlamp Symposium V5 category detail.
   Visual ground truth: /questions, /questions/categories.
   Tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-rgb)
   live globally in src/scss/index.scss.
@@ -152,7 +152,7 @@
 
 <div class="category-page">
 	<!-- =====================================================================
-	  HERO — shelf header
+	  HERO — category header
 	  ===================================================================== -->
 	<section class="hero">
 		<div class="grain" aria-hidden="true"></div>
@@ -165,31 +165,25 @@
 				</div>
 			{/if}
 
-			<SectionKicker class="section-tag" label="SHELF" />
+			<SectionKicker class="section-tag" label="CATEGORY" />
 			<h1 class="display-xl" id="question-box" itemprop="name">
 				{categoryName}
 			</h1>
 
 			{#if subtreeCount > 0}
 				<p class="hero-meta mono">
-					OPEN ·
 					{#if directCount > 0}
 						{directCount}
-						{directCount === 1 ? 'QUESTION' : 'QUESTIONS'} HERE
+						{directCount === 1 ? 'QUESTION' : 'QUESTIONS'}
 					{:else}
-						0 QUESTIONS HERE
+						0 QUESTIONS
 					{/if}
 					{#if nestedCount > 0}
 						<span class="hero-meta-sep" aria-hidden="true">·</span>
-						{nestedCount} NESTED BELOW
+						{nestedCount} IN SUBCATEGORIES
 					{/if}
 				</p>
 			{/if}
-
-			<div class="hero-ctas">
-				<Button size="md" variant="primary" href="/questions/create">Ask a question →</Button>
-				<Button size="md" variant="ghost" href="/questions/categories">All shelves</Button>
-			</div>
 
 			<div class="hero-search">
 				<SearchQuestion
@@ -201,6 +195,8 @@
 					}}
 				/>
 			</div>
+
+			<a class="hero-browse mono" href="/questions/categories">← Browse all categories</a>
 		</div>
 	</section>
 
@@ -210,7 +206,7 @@
 	{#if hasIntro}
 		<section class="intro">
 			<div class="intro-inner">
-				<SectionKicker class="section-tag" label="ABOUT THIS SHELF" />
+				<SectionKicker class="section-tag" label="ABOUT THIS CATEGORY" />
 				<div class="intro-copy" data-category-intro>
 					{@html categoryIntroHtml}
 				</div>
@@ -225,9 +221,9 @@
 		<section class="branches">
 			<div class="section-inner">
 				<header class="section-header">
-					<SectionKicker class="section-tag" label="BRANCHES" />
-					<h2 class="display-md">Drill into subcategories.</h2>
-					<p class="section-sub">Numbers count every live question nested underneath.</p>
+					<SectionKicker class="section-tag" label="SUBCATEGORIES" />
+					<h2 class="display-md">Browse subcategories.</h2>
+					<p class="section-sub">Counts include every question nested inside each subcategory.</p>
 				</header>
 
 				<div class="branch-grid">
@@ -240,30 +236,30 @@
 	{/if}
 
 	<!-- =====================================================================
-	  OPEN FLOOR — questions in this category
+	  QUESTIONS — questions in this category
 	  ===================================================================== -->
 	<section class="open-floor">
 		<div class="open-floor-pool" aria-hidden="true"></div>
 
 		<div class="section-inner">
 			<header class="section-header">
-				<SectionKicker class="section-tag" label="OPEN FLOOR" />
-				<h2 class="display-md">Questions on this shelf.</h2>
+				<SectionKicker class="section-tag" label="QUESTIONS" />
+				<h2 class="display-md">Questions in this category.</h2>
 				<p class="mono open-floor-kicker">
-					OPEN · {questions.length}
-					{questions.length === 1 ? 'QUESTION' : 'QUESTIONS'} TAGGED HERE
+					{questions.length}
+					{questions.length === 1 ? 'QUESTION' : 'QUESTIONS'} HERE
 				</p>
 				<p class="section-sub">
-					Each question is read by all 9 personality types. Drop your take to unlock the room.
+					Every question is read by all 9 personality types. Answer first to unlock everyone else's
+					takes.
 				</p>
 			</header>
 
 			{#if questions.length === 0}
 				<div class="empty-state">
-					<p class="mono empty-state-label">SHELF · QUIET</p>
+					<p class="mono empty-state-label">NOTHING HERE YET</p>
 					<p class="empty-state-body">
-						Nothing tagged directly here yet. Try a branch above, or be the first to drop a
-						question.
+						No questions in this category yet. Try a subcategory above, or be the first to ask one.
 					</p>
 					<Button size="md" variant="primary" href="/questions/create">Ask a question →</Button>
 				</div>
@@ -464,19 +460,26 @@
 		margin: 0 4px;
 	}
 
-	.hero-ctas {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 12px;
-		margin-top: 4px;
-	}
-
 	.hero-search {
 		width: 100%;
 		max-width: 720px;
-		margin-top: 12px;
+		margin-top: 6px;
 		position: relative;
 		z-index: 5;
+	}
+
+	.hero-browse {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		margin-top: 2px;
+		color: var(--ink-dim);
+		text-decoration: none;
+		transition: color 0.15s ease;
+
+		&:hover {
+			color: var(--lamp-glow);
+		}
 	}
 
 	/* =========================================================

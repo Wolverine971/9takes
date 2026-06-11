@@ -757,7 +757,7 @@
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--night-deep);
 		border-radius: 1rem;
-		box-shadow: 0 0 20px var(--primary-subtle);
+		box-shadow: 0 0 20px var(--lamp-soft);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
 		position: fixed;
@@ -782,7 +782,7 @@
 		}
 
 		&::-webkit-scrollbar-thumb {
-			background-color: var(--primary-glow);
+			background-color: var(--lamp-glow-rgba);
 			border-radius: 9999px;
 
 			&:hover {
@@ -831,7 +831,7 @@
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--night-deep);
 		border-radius: 1rem;
-		box-shadow: 0 0 15px var(--primary-subtle);
+		box-shadow: 0 0 15px var(--lamp-soft);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
 		margin: 1rem 0;
@@ -870,7 +870,7 @@
 
 		&:hover {
 			color: var(--lamp-glow);
-			background-color: var(--primary-subtle);
+			background-color: var(--lamp-soft);
 		}
 	}
 
@@ -903,7 +903,7 @@
 		width: auto;
 		padding-left: 0.75rem;
 		margin-top: 0.125rem;
-		border-left: 2px solid var(--primary-glow);
+		border-left: 2px solid var(--lamp-glow-rgba);
 		margin-left: 0.35rem;
 	}
 
@@ -995,7 +995,7 @@
 	:global(.toc-link.active) {
 		font-weight: 600;
 		color: var(--ink-bright);
-		background-color: var(--primary-subtle);
+		background-color: var(--lamp-soft);
 	}
 
 	:global(:root.light) .toc-sidebar,

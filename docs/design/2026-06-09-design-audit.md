@@ -171,6 +171,29 @@ One grep-driven sweep fixes all of it.
 
 ---
 
+## Re-verification — 2026-06-11
+
+Independent sweep re-checking every ✅ claim against the working tree. **All seven priority items verify.** Spot checks: `FULL_WIDTH_PAGES` carries all five listing routes; question thread has zero `backdrop-filter`/off-scale radii and comments carry `--comment-type-color: var(--type-N)` stripes; `--prose-measure: 75ch` consumed by `.blog` + all four article slug routes; both ratified rules live in `design-system.md` §5/§6 + changelog; `<Callout>` base consumed by all six converted callouts + styleguide; CaseCard/CaseGrid/IndexHero exist and render on `/styleguide`; FAQSection `num="05"` on all three pages; header/footer labels in parity; PA slug renders the type dossier; radius ratchet at 0 and `pnpm lint:radius` green; `pnpm check` 0 errors; `pnpm lint` green.
+
+Gaps found in claimed-complete sweeps (fixed same day):
+
+- ~~Skip link wore raw `bg-teal-500`/`ring-teal-400` + white-on-color~~ ✅ 2026-06-11 — the one survivor of the 47-class sweep (`+layout.svelte:630`); now `--lamp-glow` bg + `--text-on-primary` + `--lamp-soft` ring, per the dark-on-amber CTA rule.
+- ~~`var(--nebula-primary)` consumed but defined nowhere~~ ✅ 2026-06-11 — 7 `color-mix()` declarations across the asset-generators hub + zine-creator have been silently invalid since Feb 2026 (the token never existed in any commit). All hover/active accents → `var(--lamp-glow)`.
+- ~~`design-system.md` §typography said Noticia files were unreferenced, "delete in Phase 7"~~ ✅ 2026-06-11 — false: `renderQuestionSocialCard.ts` loads the TTFs at runtime and print/social templates use the family. Note amended to "kept intentionally, exempt asset skin."
+
+Known-and-accepted (no action):
+
+- `#2dd4bf` at `src/blog/enneagram/enneagram-books-websites-podcasts.md:966` — content-embedded tag-category color inside that post's self-contained theme (alongside purple/orange tags); categorical use in content, not UI chrome. Left deliberately.
+- Exempt asset skins still carry old palette by design: `questionPrintBackgrounds.ts`, poster-generator, social-card fonts.
+
+Follow-up backlog (future work, in rough priority order):
+
+1. ~~**The `--neutral-*` ramp**~~ ✅ 2026-06-11 ("Phase 8") — all 20 `var(--neutral-N)` consumers migrated by role per the ratified §6 rules: article-body prose (`EnneagramTypeIntro`/`EnneagramTypeBottom` p+ul), headings (`RelatedPosts` section title), primary control text (`SearchQuestion` list items, `AdminMessageReceiver` content/buttons) → `--ink-bright`; metadata/secondary voice (`ArticleSubTitle` meta, `BlogComment` toggle, `MarqueeHorizontal`, `EnneagramCategoryIntro` em, `admin/links` labels) → `--ink-mid`; `admin/links` panel bg → `--night-deep`, panel borders → `--stone-edge`. Both theme blocks' ramps deleted, plus the zero-consumer `--neutral-light/-border/-text/-divider`. Tailwind's `neutral` classes are independent hex — unaffected.
+2. ~~Rename the stale `.noticia-text-regular` utility~~ ✅ 2026-06-11 — now `.font-body` (no Tailwind collision; config only generates `font-sans/heading/display/mono`); the one consumer (`questions/create` textarea) updated.
+3. **The gray-name token family is the actual last bridge** (discovered while closing #1): `--dark-gray` ×65 consumers, `--white` ×3, `--black` ×3, `--medium-gray` ×1 still defined in `index.scss` (remapped to V5 values, nothing broken); `--off-white`/`--lightest-gray`/`--light-gray`/`--darkest-gray` have zero consumers and can be deleted any time. `--dark-gray`'s 65 sites deserve their own role-based pass ("Phase 9").
+4. Aspirational items from "Do more of," never scoped as tasks: mono dossier vocabulary in the thread (`TAKE №04 · TYPE 8`), an `Icon` atom, denser stat panels on dossier bodies, `BookSessionCTA`/`EnneagramTypingFlow` conversion-banner consolidation, ESLint rule for raw color classes (§5 note says "to follow in Phase 3").
+5. `pnpm check` reports 136 warnings (a11y + unused CSS selectors) in 42 files — preexisting noise worth a dedicated burn-down pass.
+
 ## Priority order
 
 1. ~~Un-letterbox the content routes (`+layout.svelte:47`)~~ ✅ 2026-06-09
@@ -178,4 +201,5 @@ One grep-driven sweep fixes all of it.
 3. ~~Prose measure: `--prose-measure: 68ch` token → `.blog`, `.article-body`, pop-culture `.article-content`; lift bodies to 18px; kill sub-16px mobile paragraphs~~ ✅ 2026-06-09
 4. ~~Ratify the two contested rules (h1 amber, body color) in `design-system.md`, then sweep~~ ✅ 2026-06-09
 5. ~~Grep sweep: 107 retired-teal refs + 47 raw color classes + 3 arbitrary shadows~~ ✅ 2026-06-10
-6. ~~Callout zoo visual alignment; `lint:radius` extended to scoped styles (ratchet at 527)~~ ✅ 2026-06-10 — _remaining_: structural `<Callout>` base component, emoji→SVG icons, burn down the 527 radius backlog.
+6. ~~Callout zoo visual alignment; `lint:radius` extended to scoped styles (ratchet at 527)~~ ✅ 2026-06-10 — _remaining items closed 2026-06-11_: ~~structural `<Callout>` base component~~ ✅ (6 callouts render through it), ~~emoji→SVG icons~~ ✅ (CSS masks), ~~burn down the 527 radius backlog~~ ✅ (527→0, ratchet now hard-enforcing at 0).
+7. ~~Phase-7 legacy token deletion + new atoms on `/styleguide`~~ — see §11 styleguide additions (Callout, CaseCard, CaseGrid, IndexHero rendered live) and the Phase-7 entry in `design-system.md` changelog. ✅ 2026-06-11

@@ -315,7 +315,7 @@
 		flex-shrink: 0;
 
 		&:hover {
-			background: var(--primary-subtle);
+			background: var(--lamp-soft);
 			border-color: var(--lamp-glow);
 			color: var(--lamp-glow);
 			box-shadow: var(--glow-sm);

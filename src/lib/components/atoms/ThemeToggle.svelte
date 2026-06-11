@@ -112,6 +112,6 @@
 	.theme-toggle:hover {
 		color: var(--lamp-glow);
 		border-color: var(--lamp-glow);
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 	}
 </style>

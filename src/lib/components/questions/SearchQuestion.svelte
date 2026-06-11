@@ -302,7 +302,7 @@
 		display: block;
 		width: 20px;
 		height: 20px;
-		border: 2px solid var(--primary-subtle);
+		border: 2px solid var(--lamp-soft);
 		border-top-color: var(--lamp-glow);
 		border-radius: 50%;
 		animation: spin 0.8s linear infinite;
@@ -386,7 +386,7 @@
 		&:hover:not(:disabled) {
 			background-color: var(--lamp-glow);
 			transform: translateY(-2px);
-			box-shadow: 0 0 20px var(--primary-glow);
+			box-shadow: 0 0 20px var(--lamp-glow-rgba);
 
 			&::before {
 				left: 100%;
@@ -429,7 +429,7 @@
 		font-size: 1rem !important;
 		height: 2.75rem !important;
 		border-radius: var(--border-radius-lg) !important;
-		border: 1px solid var(--primary-subtle) !important;
+		border: 1px solid var(--lamp-soft) !important;
 		background-color: var(--stone-warm) !important;
 		backdrop-filter: blur(8px);
 		color: var(--ink-bright) !important;
@@ -437,7 +437,7 @@
 
 		&:focus {
 			border-color: var(--lamp-glow) !important;
-			box-shadow: 0 0 0 3px var(--primary-subtle) !important;
+			box-shadow: 0 0 0 3px var(--lamp-soft) !important;
 		}
 
 		&::placeholder {
@@ -451,7 +451,7 @@
 		font-style: normal;
 		font-weight: 600;
 		color: var(--lamp-glow);
-		background-color: var(--primary-subtle);
+		background-color: var(--lamp-soft);
 		padding: 0 2px;
 		border-radius: 0.25rem;
 	}
@@ -462,8 +462,8 @@
 		border-radius: var(--border-radius-lg) !important;
 		box-shadow:
 			0 4px 24px rgba(0, 0, 0, 0.15),
-			0 0 20px var(--primary-subtle) !important;
-		border: 1px solid var(--primary-subtle) !important;
+			0 0 20px var(--lamp-soft) !important;
+		border: 1px solid var(--lamp-soft) !important;
 		max-height: 320px !important;
 		overflow-y: auto !important;
 		z-index: 1000 !important;
@@ -475,19 +475,19 @@
 		padding: 0.75rem 1rem !important;
 		transition: background-color $transition-fast !important;
 		cursor: pointer;
-		border-bottom: 1px solid var(--primary-subtle);
-		color: var(--neutral-800) !important;
+		border-bottom: 1px solid var(--lamp-soft);
+		color: var(--ink-bright) !important;
 
 		&:last-child {
 			border-bottom: none;
 		}
 
 		&:hover {
-			background-color: var(--primary-subtle) !important;
+			background-color: var(--lamp-soft) !important;
 		}
 
 		&:focus {
-			background-color: var(--primary-subtle) !important;
+			background-color: var(--lamp-soft) !important;
 			outline: none;
 		}
 	}

@@ -84,7 +84,7 @@
 
 	.card:hover {
 		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--nebula-primary) 50%, var(--stone-warm));
+		border-color: color-mix(in srgb, var(--lamp-glow) 50%, var(--stone-warm));
 	}
 
 	.card h2 {
@@ -103,7 +103,7 @@
 		margin-top: auto;
 		font-size: 0.85rem;
 		font-weight: 700;
-		color: color-mix(in srgb, var(--nebula-primary) 65%, white);
+		color: color-mix(in srgb, var(--lamp-glow) 65%, white);
 	}
 
 	@media (max-width: 1040px) {

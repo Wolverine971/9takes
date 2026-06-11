@@ -128,7 +128,7 @@
 		padding: 1.1rem;
 		border: 1px dashed color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		border-radius: 1rem;
-		background: color-mix(in srgb, var(--primary-subtle) 36%, transparent);
+		background: color-mix(in srgb, var(--lamp-soft) 36%, transparent);
 		color: var(--ink-mid);
 		font-size: 0.95rem;
 		font-weight: 600;

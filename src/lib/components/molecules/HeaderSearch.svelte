@@ -575,7 +575,7 @@
 	}
 
 	.clear-button:hover {
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		color: var(--lamp-glow);
 	}
 
@@ -635,7 +635,7 @@
 
 	.result-item:hover,
 	.result-item.is-active {
-		background: color-mix(in srgb, var(--primary-subtle) 82%, transparent);
+		background: color-mix(in srgb, var(--lamp-soft) 82%, transparent);
 	}
 
 	.result-meta {
@@ -686,7 +686,7 @@
 
 	.state-button:hover,
 	.results-footer:hover {
-		background: color-mix(in srgb, var(--primary-subtle) 78%, transparent);
+		background: color-mix(in srgb, var(--lamp-soft) 78%, transparent);
 		color: var(--lamp-glow);
 	}
 

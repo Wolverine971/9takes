@@ -202,7 +202,7 @@
 		padding: 0.5rem;
 		margin-bottom: 1rem;
 		font-size: 1.5rem;
-		color: var(--neutral-700);
+		color: var(--ink-bright);
 	}
 
 	.people-grid {
@@ -226,7 +226,7 @@
 
 		&:hover {
 			transform: translateY(-5px);
-			box-shadow: 0 0 25px var(--primary-glow);
+			box-shadow: 0 0 25px var(--lamp-glow-rgba);
 			border-color: var(--lamp-glow);
 
 			.grid-img {
@@ -300,7 +300,7 @@
 		border-radius: 50%;
 		margin: 0 auto 1rem;
 		animation: spin 1s linear infinite;
-		box-shadow: 0 0 15px var(--primary-glow);
+		box-shadow: 0 0 15px var(--lamp-glow-rgba);
 	}
 
 	@keyframes spin {

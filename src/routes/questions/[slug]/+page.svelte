@@ -309,6 +309,11 @@
 	let postedDate = $derived(formatPostedDate(data.question?.created_at));
 	let totalTakes = $derived(Math.max(data.comment_count || 0, mergedComments.length));
 
+	// Comments are gated until the user shares their own perspective (the
+	// "give-first" mechanic). Mirror the same flag QuestionContent uses so the
+	// meta badge tells the truth once comments are revealed.
+	let commentsUnlocked = $derived(data.flags?.userHasAnswered || optimisticUserHasAnswered);
+
 	function normalizeText(value?: string | null): string {
 		return String(value ?? '')
 			.replace(/\s+/g, ' ')
@@ -726,7 +731,7 @@
 				{totalTakes}
 				{totalTakes === 1 ? 'TAKE' : 'TAKES'} SO FAR
 				<span class="open-case-coord-sep">·</span>
-				GIVE-FIRST LOCKED
+				{commentsUnlocked ? 'COMMENTS UNLOCKED' : 'COMMENTS HIDDEN UNTIL YOU ANSWER'}
 			</div>
 
 			{#if questionContext}

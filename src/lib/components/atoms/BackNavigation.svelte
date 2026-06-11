@@ -47,7 +47,7 @@
 {#if navSteps.length}
 	<div class="xs:px-1 mx-auto w-full max-w-4xl px-2">
 		<div
-			class="flex min-h-12 items-center border-b border-[var(--stone-edge)] transition-transform hover:-translate-x-0.5 hover:bg-[var(--primary-subtle)] active:-translate-x-1"
+			class="flex min-h-12 items-center border-b border-[var(--stone-edge)] transition-transform hover:-translate-x-0.5 hover:bg-[var(--lamp-soft)] active:-translate-x-1"
 		>
 			<button
 				class="mr-1 flex min-h-11 min-w-11 cursor-pointer items-center justify-center rounded-md border-0 bg-transparent p-2 text-[var(--ink-mid)] transition-colors duration-200 hover:text-[var(--lamp-glow)]"

@@ -12,29 +12,8 @@
   VARIABLES - THEME TOKENS
 ==============================================*/
 :root {
-	/* ========================================
-	   LEGACY BRIDGE ALIASES (Phase 7c — 2026-05-05)
-	   Phase 7b migration is complete: no svelte/scss/svg/ts file
-	   in src/ references these names directly anymore. They remain
-	   only because internal derived tokens below (--neutral-*,
-	   --lightest-gray, --card-background, etc.) reference them.
-	   These now alias V5 tokens defined further down in this block,
-	   making V5 the single source of truth.
-	   ======================================== */
-	--bg-base: var(--night-deep);
-	--bg-deep: var(--night-deep);
-	--bg-surface: var(--stone-warm);
-	--bg-elevated: var(--stone-warm);
-	--bg-highlight: var(--stone-warm);
-
-	--primary: var(--lamp-glow);
-	--primary-light: var(--lamp-glow);
-	--primary-lighter: var(--lamp-glow);
-	--primary-lightest: var(--lamp-glow);
-	--primary-dark: var(--lamp-glow);
-	--primary-darker: var(--lamp-glow);
-	--primary-glow: var(--lamp-glow-rgba);
-	--primary-subtle: var(--lamp-soft);
+	/* Phase 7 complete 2026-06-10: legacy bridge aliases deleted; V5 tokens
+	   (--lamp-*, --night-*, --stone-*, --ink-*) are the only color source of truth. */
 
 	/* Secondary — kept as standalone rose accent, no V5 equivalent. */
 	--secondary: #fb7185;
@@ -43,43 +22,20 @@
 	--secondary-glow: rgba(251, 113, 133, 0.4);
 	--secondary-subtle: rgba(251, 113, 133, 0.12);
 
-	--accent: var(--lamp-glow);
-	--accent-light: var(--lamp-glow);
-	--accent-dark: var(--lamp-glow);
-	--accent-glow: var(--lamp-glow-rgba);
-	--accent-subtle: var(--lamp-soft);
-
-	/* Legacy aliases — used by some components.
-	   2026-06-10: --accent-rgb was the retired teal (45,212,191); now amber
-	   to match --accent → --lamp-glow. */
-	--accent-rgb: 245, 158, 11;
-	--color-theme-purple: var(--primary);
-	--color-theme-purple-dark: var(--primary-dark);
-	--color-theme-purple-light: var(--primary-light);
-	--color-theme-purple-lighter: var(--primary-lighter);
-
 	/* ========================================
-	   NEUTRALS — Warm stone scale
+	   NEUTRALS
+	   Phase 8 (2026-06-11): the numbered --neutral-* ramp deleted; consumers
+	   migrated to --ink-* / --night-* / --stone-* directly. (Tailwind's
+	   `neutral` classes are hex in tailwind.config.ts — unaffected.)
 	   ======================================== */
-	--neutral-50: var(--bg-base);
-	--neutral-100: var(--bg-deep);
-	--neutral-200: var(--bg-surface);
-	--neutral-300: var(--bg-elevated);
-	--neutral-400: #57534e;
-	--neutral-500: #78716c;
-	--neutral-600: #a8a29e;
-	--neutral-700: #d6d3d1;
-	--neutral-800: #e7e5e4;
-	--neutral-900: #fafaf9;
-
 	--white: #ffffff;
 	--off-white: #fafaf9;
-	--lightest-gray: var(--bg-surface);
-	--light-gray: var(--bg-elevated);
+	--lightest-gray: var(--stone-warm);
+	--light-gray: var(--stone-warm);
 	--medium-gray: #57534e;
 	--dark-gray: #a8a29e;
 	--darkest-gray: #e7e5e4;
-	--black: var(--bg-base);
+	--black: var(--night-deep);
 
 	/* ========================================
 	   FUNCTIONAL / STATUS COLORS
@@ -95,18 +51,16 @@
 	--error: #ef4444;
 	--error-light: rgba(239, 68, 68, 0.15);
 	--error-700: #dc2626;
-	--info: var(--accent);
-	--info-light: var(--accent-subtle);
-	--info-border: var(--accent);
-	--info-text: var(--accent-light);
+	--info: var(--lamp-glow);
+	--info-light: var(--lamp-soft);
+	--info-border: var(--lamp-glow);
+	--info-text: var(--lamp-glow);
 
 	/* ========================================
-	   TEXT COLORS — legacy bridge aliases to V5 ink scale
+	   TEXT COLORS — on-color text only.
+	   Phase 7 complete 2026-06-10: the --text-primary/-secondary/-tertiary/-muted
+	   bridge aliases were deleted; use --ink-* directly.
 	   ======================================== */
-	--text-primary: var(--ink-bright);
-	--text-secondary: var(--ink-mid);
-	--text-tertiary: var(--ink-dim);
-	--text-muted: var(--ink-dim);
 	--text-on-primary: #0c0a09;
 	--text-on-dark: #fafaf9;
 	--text-on-secondary: #ffffff;
@@ -116,35 +70,35 @@
 	/* ========================================
 	   COMPONENT SPECIFIC
 	   ======================================== */
-	--card-background: var(--bg-surface);
-	--body-background: var(--bg-base);
-	--comment-hover-bg: var(--bg-elevated);
-	--border-color: var(--bg-elevated);
-	--button-hover: var(--primary-dark);
-	--hover-background: var(--bg-elevated);
-	--message-background: var(--bg-deep);
-	--button-background: var(--primary-subtle);
-	--background: var(--bg-surface);
+	--card-background: var(--stone-warm);
+	--body-background: var(--night-deep);
+	--comment-hover-bg: var(--stone-warm);
+	--border-color: var(--stone-warm);
+	--button-hover: var(--lamp-glow);
+	--hover-background: var(--stone-warm);
+	--message-background: var(--night-deep);
+	--button-background: var(--lamp-soft);
+	--background: var(--stone-warm);
 	--color-border: var(--border-color);
-	--color-text: var(--text-primary);
-	--color-text-secondary: var(--text-secondary);
-	--color-text-muted: var(--text-tertiary);
-	--color-primary: var(--primary);
+	--color-text: var(--ink-bright);
+	--color-text-secondary: var(--ink-mid);
+	--color-text-muted: var(--ink-dim);
+	--color-primary: var(--lamp-glow);
 	--color-warning: var(--warning);
-	--color-bg-secondary: var(--bg-deep);
-	--color-bg-muted: var(--bg-surface);
-	--color-icon: var(--text-secondary);
-	--accent-color: var(--primary-light);
-	--text-color-secondary: var(--text-secondary);
-	--card-bg-color: var(--bg-surface);
-	--item-background: var(--bg-surface);
-	--title-background: var(--bg-elevated);
-	--title-color: var(--text-primary);
-	--link-background: var(--bg-deep);
-	--link-hover-background: var(--bg-elevated);
-	--link-color: var(--primary-light);
-	--background-light: var(--bg-deep);
-	--background-dark: var(--bg-base);
+	--color-bg-secondary: var(--night-deep);
+	--color-bg-muted: var(--stone-warm);
+	--color-icon: var(--ink-mid);
+	--accent-color: var(--lamp-glow);
+	--text-color-secondary: var(--ink-mid);
+	--card-bg-color: var(--stone-warm);
+	--item-background: var(--stone-warm);
+	--title-background: var(--stone-warm);
+	--title-color: var(--ink-bright);
+	--link-background: var(--night-deep);
+	--link-hover-background: var(--stone-warm);
+	--link-color: var(--lamp-glow);
+	--background-light: var(--night-deep);
+	--background-dark: var(--night-deep);
 
 	/* ========================================
 	   SHADOWS & GLOWS
@@ -159,8 +113,8 @@
 
 	/* Glow Effects — locked 2026-05-04 (cut from 6 → 2 per design-system.md §5).
 	   --glow-lg, --glow-secondary, --glow-accent, --glow-subtle removed. */
-	--glow-sm: 0 0 10px var(--primary-glow);
-	--glow-md: 0 0 20px var(--primary-glow);
+	--glow-sm: 0 0 10px var(--lamp-glow-rgba);
+	--glow-md: 0 0 20px var(--lamp-glow-rgba);
 
 	/* ========================================
 	   LAYOUT
@@ -241,7 +195,7 @@
 	   site header's bottom border teal. Now a stone-edge tint. */
 	--glass-border: rgba(92, 79, 71, 0.45);
 	--base-white-outline: #fafaf9;
-	--classic-border: 1px solid var(--bg-elevated);
+	--classic-border: 1px solid var(--stone-warm);
 	--image-overlay-strong: rgba(12, 10, 9, 0.97);
 	--image-overlay-medium: rgba(12, 10, 9, 0.72);
 	--image-overlay-soft: rgba(12, 10, 9, 0.2);
@@ -263,20 +217,18 @@
 	--pillar-gut: #dc2626;
 	--pillar-heart: #a855f7;
 
-	/* Blog-specific overrides for dark theme */
-	--neutral-light: var(--bg-deep);
-	--neutral-border: var(--bg-elevated);
-	--neutral-text: var(--text-secondary);
-	--neutral-divider: var(--bg-elevated);
-	--muted-text: var(--text-tertiary);
+	/* Blog-specific overrides for dark theme.
+	   Phase 8 (2026-06-11): --neutral-light/-border/-text/-divider deleted
+	   (zero consumers). */
+	--muted-text: var(--ink-dim);
 
 	/* ========================================
-	   V5 STREETLAMP SYMPOSIUM TOKENS (BRIDGE)
+	   V5 STREETLAMP SYMPOSIUM TOKENS
 	   Locked 2026-05-04 in docs/design-system.md §4–§6.
-	   These coexist with the legacy --bg-, --text-, --primary- tokens
-	   above during the bridge migration. Pages get migrated one at a time.
-	   Legacy tokens are removed in Phase 7 of the rollout plan
-	   (docs/design/2026-05-04-rollout-plan.md).
+	   Phase 7 complete 2026-06-10: the legacy bridge aliases
+	   (--bg-*, --text-*, --primary-*, --accent, --color-theme-purple*)
+	   are deleted per docs/design/2026-05-04-rollout-plan.md.
+	   These V5 tokens are the only color source of truth.
 	   ======================================== */
 
 	/* Surfaces — deep-night stone */
@@ -324,21 +276,8 @@
   LIGHT MODE OVERRIDES
 ==============================================*/
 :root.light {
-	/* Legacy bridge aliases — V5 light tokens are defined below. */
-	--bg-base: var(--night-deep);
-	--bg-deep: var(--night-deep);
-	--bg-surface: var(--stone-warm);
-	--bg-elevated: var(--stone-warm);
-	--bg-highlight: var(--stone-warm);
-
-	--primary: var(--lamp-glow);
-	--primary-light: var(--lamp-glow);
-	--primary-lighter: var(--lamp-glow);
-	--primary-lightest: var(--lamp-glow);
-	--primary-dark: var(--lamp-glow);
-	--primary-darker: var(--lamp-glow);
-	--primary-glow: var(--lamp-glow-rgba);
-	--primary-subtle: var(--lamp-soft);
+	/* Phase 7 complete 2026-06-10: legacy bridge aliases deleted; V5 tokens
+	   (--lamp-*, --night-*, --stone-*, --ink-*) are the only color source of truth. */
 
 	/* Secondary — standalone rose accent. */
 	--secondary: #e11d48;
@@ -347,32 +286,14 @@
 	--secondary-glow: rgba(225, 29, 72, 0.25);
 	--secondary-subtle: rgba(225, 29, 72, 0.08);
 
-	--accent: var(--lamp-glow);
-	--accent-light: var(--lamp-glow);
-	--accent-dark: var(--lamp-glow);
-	--accent-glow: var(--lamp-glow-rgba);
-	--accent-subtle: var(--lamp-soft);
-
-	--text-primary: var(--ink-bright);
-	--text-secondary: var(--ink-mid);
-	--text-tertiary: var(--ink-dim);
-	--text-muted: var(--ink-dim);
 	--text-on-primary: #ffffff;
 	--text-on-dark: #fafaf9;
 	--text-on-image: #fafaf9;
 	--text-on-image-muted: rgba(250, 250, 249, 0.82);
 	--error-text: #b91c1c;
 
-	--neutral-50: #fafaf9;
-	--neutral-100: #f5f5f4;
-	--neutral-200: #e7e5e4;
-	--neutral-300: #d6d3d1;
-	--neutral-400: #a8a29e;
-	--neutral-500: #78716c;
-	--neutral-600: #57534e;
-	--neutral-700: #44403c;
-	--neutral-800: #292524;
-	--neutral-900: #1c1917;
+	/* Phase 8 (2026-06-11): light-theme --neutral-* ramp deleted with the
+	   dark one; consumers use --ink-* / --night-* / --stone-* directly. */
 
 	--shadow-sm: 0 1px 3px rgba(12, 10, 9, 0.08);
 	--shadow-md: 0 4px 6px rgba(12, 10, 9, 0.1);
@@ -380,8 +301,8 @@
 	--shadow-xl: 0 20px 25px rgba(12, 10, 9, 0.12);
 	--shadow-color: rgba(12, 10, 9, 0.1);
 
-	--glow-sm: 0 1px 4px var(--primary-glow);
-	--glow-md: 0 2px 8px var(--primary-glow);
+	--glow-sm: 0 1px 4px var(--lamp-glow-rgba);
+	--glow-md: 0 2px 8px var(--lamp-glow-rgba);
 	/* --glow-lg removed 2026-05-04 — see design-system.md §5. */
 
 	--glass-color: rgba(255, 255, 255, 0.85);
@@ -398,7 +319,7 @@
 	color-scheme: light;
 
 	/* ========================================
-	   V5 STREETLAMP SYMPOSIUM TOKENS — LIGHT MODE (BRIDGE)
+	   V5 STREETLAMP SYMPOSIUM TOKENS — LIGHT MODE
 	   See dark-mode block above for context.
 	   ======================================== */
 
@@ -556,7 +477,7 @@ figcaption {
 }
 
 .highlight {
-	color: var(--primary-dark);
+	color: var(--lamp-glow);
 	font-weight: 700;
 }
 
@@ -567,10 +488,13 @@ figcaption {
 
 .txt-dark {
 	color: var(--dark-gray);
-	text-shadow: 1px 1px 1px var(--color-theme-purple-light);
+	text-shadow: 1px 1px 1px var(--lamp-glow);
 }
 
-.noticia-text-regular {
+/* Forces the body font stack on elements that don't inherit it (textareas).
+   Renamed from .noticia-text-regular 2026-06-11 — Noticia was retired from UI
+   chrome long ago; the class had pointed at var(--font-family) since. */
+.font-body {
 	font-family: var(--font-family) !important;
 	font-weight: 400;
 	font-style: normal;
@@ -580,17 +504,17 @@ figcaption {
   LINKS
 ==============================================*/
 a {
-	color: var(--primary-light);
+	color: var(--lamp-glow);
 	text-decoration: none;
 	transition: var(--transition-glow);
 
 	&:hover {
-		color: var(--accent-light);
+		color: var(--lamp-glow);
 		text-shadow: var(--glow-sm);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--primary);
+		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
 		border-radius: var(--border-radius-sm);
 	}
@@ -598,12 +522,12 @@ a {
 	&.disabled {
 		cursor: default;
 		text-decoration: line-through;
-		color: var(--text-muted) !important;
+		color: var(--ink-dim) !important;
 	}
 }
 
 .main a {
-	color: var(--primary-light);
+	color: var(--lamp-glow);
 }
 
 .external-link::after {
@@ -703,8 +627,8 @@ figure {
   CARDS & CONTAINERS
 ==============================================*/
 .card {
-	background-color: var(--bg-surface);
-	border: 1px solid var(--bg-elevated);
+	background-color: var(--stone-warm);
+	border: 1px solid var(--stone-warm);
 	border-radius: var(--border-radius);
 	box-shadow: var(--shadow-md);
 	padding: var(--card-padding);
@@ -712,7 +636,7 @@ figure {
 	transition: var(--transition-glow);
 
 	&:hover {
-		border-color: var(--primary-glow);
+		border-color: var(--lamp-glow-rgba);
 		box-shadow: var(--glow-sm);
 	}
 }
@@ -733,8 +657,8 @@ figure {
 }
 
 .panel {
-	background-color: var(--bg-elevated);
-	border: 1px solid var(--bg-highlight);
+	background-color: var(--stone-warm);
+	border: 1px solid var(--stone-warm);
 	border-radius: 0.625rem;
 	padding: 1rem;
 	overflow: hidden;
@@ -752,8 +676,8 @@ figure {
   `::after`) was leaking onto atom buttons; removing it makes them match spec.
 ==============================================*/
 .disabled {
-	background-color: var(--bg-elevated);
-	color: var(--text-muted);
+	background-color: var(--stone-warm);
+	color: var(--ink-dim);
 	cursor: not-allowed;
 }
 
@@ -771,22 +695,22 @@ figure {
 
 textarea {
 	margin-bottom: 20px;
-	background-color: var(--bg-elevated);
-	border: 1px solid var(--bg-highlight);
+	background-color: var(--stone-warm);
+	border: 1px solid var(--stone-warm);
 	border-radius: var(--base-border-radius);
 	padding: 10px 20px;
 	width: 100%;
-	color: var(--text-primary);
+	color: var(--ink-bright);
 	font-size: 16px;
 	transition: var(--transition-glow);
 
 	&::placeholder {
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	&:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 }
@@ -799,29 +723,29 @@ input[type='search'],
 input[type='url'],
 input[type='tel'],
 select {
-	background-color: var(--bg-elevated);
-	border: 1px solid var(--bg-highlight);
+	background-color: var(--stone-warm);
+	border: 1px solid var(--stone-warm);
 	border-radius: var(--border-radius-sm);
 	padding: 8px 12px;
 	font-size: 16px;
-	color: var(--text-primary);
+	color: var(--ink-bright);
 	transition: var(--transition-glow);
 
 	&::placeholder {
-		color: var(--text-muted);
+		color: var(--ink-dim);
 	}
 
 	&:focus {
 		outline: none;
-		border-color: var(--primary);
+		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
 }
 
 select {
 	option {
-		background-color: var(--bg-surface);
-		color: var(--text-primary);
+		background-color: var(--stone-warm);
+		color: var(--ink-bright);
 	}
 }
 
@@ -836,39 +760,39 @@ select {
 	cursor: pointer;
 	padding: 0.5rem;
 	text-align: left;
-	color: var(--text-primary);
+	color: var(--ink-bright);
 	background-color: transparent;
 	font-size: 15px;
 
 	&:hover {
-		background-color: var(--primary-subtle);
-		color: var(--primary-light);
+		background-color: var(--lamp-soft);
+		color: var(--lamp-glow);
 	}
 
 	&:focus-visible {
-		outline: 2px solid var(--primary);
+		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
 		border-radius: var(--border-radius-sm);
 	}
 }
 
 details {
-	border: 1px solid var(--bg-elevated);
+	border: 1px solid var(--stone-warm);
 	border-radius: var(--border-radius-sm);
-	background-color: var(--bg-surface);
+	background-color: var(--stone-warm);
 	padding: 0.5rem;
 
 	&:hover {
-		border-color: var(--primary-subtle);
+		border-color: var(--lamp-soft);
 	}
 
 	summary {
 		cursor: pointer;
-		color: var(--text-primary);
+		color: var(--ink-bright);
 		padding: 0.5rem;
 
 		&:hover {
-			color: var(--primary-light);
+			color: var(--lamp-glow);
 		}
 	}
 }
@@ -902,27 +826,27 @@ ul {
 tr,
 td,
 th {
-	border: 1px solid var(--bg-elevated);
+	border: 1px solid var(--stone-warm);
 	text-align: center;
 	vertical-align: baseline;
-	color: var(--text-primary);
+	color: var(--ink-bright);
 }
 
 th {
 	padding: 0.5rem;
-	background-color: var(--bg-surface);
-	color: var(--text-primary);
+	background-color: var(--stone-warm);
+	color: var(--ink-bright);
 	font-weight: var(--font-weight-semibold);
 }
 
 td {
 	padding: 0.5rem;
-	background-color: var(--bg-deep);
+	background-color: var(--night-deep);
 }
 
 table {
 	border-collapse: collapse;
-	border: 1px solid var(--bg-elevated);
+	border: 1px solid var(--stone-warm);
 }
 
 .scrollable-div {
@@ -1032,26 +956,26 @@ body::-webkit-scrollbar,
 body::-webkit-scrollbar-track,
 .scroll-table::-webkit-scrollbar-track,
 .scrollable-div::-webkit-scrollbar-track {
-	background-color: var(--bg-deep);
+	background-color: var(--night-deep);
 	border-radius: var(--base-border-radius);
 }
 
 body::-webkit-scrollbar-thumb,
 .scroll-table::-webkit-scrollbar-thumb,
 .scrollable-div::-webkit-scrollbar-thumb {
-	background-color: var(--primary);
+	background-color: var(--lamp-glow);
 	border-radius: var(--base-border-radius);
-	border: 2px solid var(--bg-deep);
+	border: 2px solid var(--night-deep);
 
 	&:hover {
-		background-color: var(--primary-light);
+		background-color: var(--lamp-glow);
 	}
 }
 
 /* Firefox scrollbar */
 * {
 	scrollbar-width: thin;
-	scrollbar-color: var(--primary) var(--bg-deep);
+	scrollbar-color: var(--lamp-glow) var(--night-deep);
 }
 
 /*==============================================

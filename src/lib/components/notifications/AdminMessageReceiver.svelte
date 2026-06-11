@@ -239,11 +239,11 @@
 		width: 340px;
 		max-height: 450px;
 		background: var(--night-deep);
-		border: 1px solid var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
 		border-radius: 0.625rem;
 		box-shadow:
 			0 20px 25px -5px rgba(0, 0, 0, 0.2),
-			0 0 30px var(--primary-subtle);
+			0 0 30px var(--lamp-soft);
 		z-index: 1000;
 		overflow: hidden;
 		transform: translateY(-8px);
@@ -260,7 +260,7 @@
 
 	.notification-header {
 		padding: 1rem 1.25rem;
-		border-bottom: 1px solid var(--primary-subtle);
+		border-bottom: 1px solid var(--lamp-soft);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -308,7 +308,7 @@
 		max-height: 300px;
 		overflow-y: auto;
 		scrollbar-width: thin;
-		scrollbar-color: var(--primary-glow) transparent;
+		scrollbar-color: var(--lamp-glow-rgba) transparent;
 	}
 
 	.notification-content::-webkit-scrollbar {
@@ -320,7 +320,7 @@
 	}
 
 	.notification-content::-webkit-scrollbar-thumb {
-		background-color: var(--primary-glow);
+		background-color: var(--lamp-glow-rgba);
 		border-radius: 9999px;
 	}
 
@@ -359,8 +359,8 @@
 	}
 
 	.message-item:hover {
-		background: var(--primary-subtle);
-		border-color: var(--primary-subtle);
+		background: var(--lamp-soft);
+		border-color: var(--lamp-soft);
 	}
 
 	.message-item::before {
@@ -406,14 +406,14 @@
 
 	.message-content {
 		font-size: 0.8125rem;
-		color: var(--neutral-700);
+		color: var(--ink-bright);
 		line-height: 1.5;
 		word-wrap: break-word;
 	}
 
 	.notification-actions {
 		padding: 0.75rem 1rem;
-		border-top: 1px solid var(--primary-subtle);
+		border-top: 1px solid var(--lamp-soft);
 		display: flex;
 		gap: 0.5rem;
 		background: var(--stone-warm);
@@ -424,10 +424,10 @@
 		flex: 1;
 		padding: 0.5rem 0.75rem;
 		min-height: 2.25rem;
-		border: 1px solid var(--primary-subtle);
+		border: 1px solid var(--lamp-soft);
 		border-radius: 0.625rem;
-		background: var(--primary-subtle);
-		color: var(--neutral-700);
+		background: var(--lamp-soft);
+		color: var(--ink-bright);
 		font-size: 0.75rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -444,13 +444,13 @@
 	}
 
 	.clear-btn:hover {
-		background: var(--primary-subtle);
-		border-color: var(--primary-glow);
+		background: var(--lamp-soft);
+		border-color: var(--lamp-glow-rgba);
 	}
 
 	.permission-btn:hover {
 		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		box-shadow: 0 0 15px var(--primary-glow);
+		box-shadow: 0 0 15px var(--lamp-glow-rgba);
 	}
 
 	@keyframes shake {

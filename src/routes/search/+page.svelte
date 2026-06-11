@@ -390,7 +390,7 @@
 
 	.search-page {
 		--search-panel-bg: color-mix(in srgb, var(--stone-warm) 90%, transparent);
-		--search-panel-hover-bg: color-mix(in srgb, var(--stone-warm) 94%, var(--primary-subtle));
+		--search-panel-hover-bg: color-mix(in srgb, var(--stone-warm) 94%, var(--lamp-soft));
 		--search-panel-border: color-mix(in srgb, var(--lamp-glow) 16%, var(--glass-border));
 		--search-control-bg: color-mix(in srgb, var(--night-deep) 72%, transparent);
 		--search-control-border: color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
@@ -501,7 +501,7 @@
 	.scope-pill.is-active {
 		transform: translateY(-1px);
 		border-color: var(--search-control-focus);
-		background: color-mix(in srgb, var(--primary-subtle) 70%, var(--search-control-bg));
+		background: color-mix(in srgb, var(--lamp-soft) 70%, var(--search-control-bg));
 	}
 
 	.search-form {
@@ -745,7 +745,7 @@
 	}
 
 	.result-headline :global(mark) {
-		background: var(--primary-subtle);
+		background: var(--lamp-soft);
 		color: var(--ink-bright);
 		padding: 0.05rem 0.22rem;
 		border-radius: 0.25rem;
