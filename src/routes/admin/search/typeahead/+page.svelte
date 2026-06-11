@@ -310,7 +310,7 @@
 		text-decoration: none;
 		color: var(--ink-mid);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--stone-warm);
 		transition: all 0.15s ease;
 
@@ -354,7 +354,7 @@
 		padding: 0.875rem 1rem;
 		background: var(--stone-warm);
 		border: 2px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		transition: all 0.15s ease;
 
 		&:focus-within {
@@ -430,7 +430,7 @@
 		right: 0;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		box-shadow: var(--glow-md);
 		max-height: 480px;
 		overflow-y: auto;
@@ -527,7 +527,7 @@
 			background: rgba(245, 158, 11, 0.3);
 			color: var(--ink-bright);
 			padding: 0 2px;
-			border-radius: 2px;
+			border-radius: 0.25rem;
 			font-weight: 500;
 		}
 
@@ -543,7 +543,7 @@
 		:global(code) {
 			background: var(--stone-warm);
 			padding: 0.125rem 0.25rem;
-			border-radius: 3px;
+			border-radius: 0.25rem;
 			font-family: var(--font-mono);
 			font-size: 0.8em;
 		}
@@ -652,7 +652,7 @@
 
 	.results-dropdown::-webkit-scrollbar-track {
 		background: var(--night-deep);
-		border-radius: 0 12px 12px 0;
+		border-radius: 0 0.625rem 0.625rem 0;
 	}
 
 	.results-dropdown::-webkit-scrollbar-thumb {

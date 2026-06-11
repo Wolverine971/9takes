@@ -56,7 +56,7 @@
 @mixin dark-card {
 	background-color: var(--stone-warm);
 	border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-	border-radius: 12px;
+	border-radius: 1rem;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -64,7 +64,7 @@
 @mixin dark-input {
 	background-color: var(--stone-warm);
 	border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-	border-radius: 8px;
+	border-radius: 0.625rem;
 	color: var(--ink-bright);
 
 	&::placeholder {

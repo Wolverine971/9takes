@@ -28,12 +28,11 @@ occupation:
   - 'Stage Actor'
   - 'Composer'
 knows_about:
-  - 'Acting'
-  - 'Film production'
-  - 'Modeling'
-  - 'Film acting'
-  - 'Singing'
-  - 'Television acting'
+  - 'Auteur-driven role selection'
+  - 'Extreme physical transformation for roles'
+  - 'Character study and immersion'
+  - 'Ambient electronic music production'
+  - 'Guitar and piano composition'
 keywords:
   - 'Robert Pattinson enneagram'
   - 'Robert Pattinson type 4'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q36767'
   - 'https://www.imdb.com/name/nm1500155/'
 faqs:
-  - question: 'What is Robert Pattinson''s Personality Type?'
-    answer: 'Enneagram Fours carry a core wound around identity. Something essential feels missing from the self. Other people seem to possess an innate sense of belonging that Fours can never quite access. This drives a lifelong search for authenticity and a deep allergy to anything manufactured or false.'
+  - question: "What is Robert Pattinson's personality type?"
+    answer: "Robert Pattinson is an Enneagram Type 4 (The Individualist). The pattern shows in his self-described feeling of being '90 percent vapor' at the height of fame, the systematic dismantling of his Edward Cullen identity to play 'only strange things' for auteur directors, the compulsive fabrications in interviews, the rock he put in his shoe to manufacture misery on The Lighthouse, and the ambient beats he made in full Batman costume and refuses to release."
     anchor: 'what-is-robert-pattinsons-personality-type'
-  - question: 'Why is Robert Pattinson typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film production, Modeling.'
-    anchor: 'why-is-robert-pattinson-typed-as-an-enneagram-type-4'
+  - question: 'Why does Robert Pattinson lie in interviews?'
+    answer: "He has fabricated stories since 2009 — witnessing a clown die at the circus, taking a stalker to dinner, a career as a hand model his own mother debunked from the audience. He blames a 'little gremlin' and the 'fugue state' of promotional interviews, but the deeper logic is structural: he can't be genuine in a fake environment, so he becomes honestly fake instead. The Ringer argued the self-proclaimed liar may be one of the most honest celebrities for admitting the whole ritual is a performance."
+    anchor: 'the-liar-who-cant-stop-telling-the-truth'
+  - question: 'Why did Robert Pattinson agree to play Batman after avoiding blockbusters?'
+    answer: "When his agents asked, 'I thought you only wanted to play total freaks?', he answered, 'He is a freak.' Matt Reeves pitched a reclusive Kurt Cobain-inspired Bruce Wayne, and Pattinson framed the character as 'a really, really, really bad self-therapy' — a psychological study wearing a cape. Batman let him stay weird inside the most mainstream thing imaginable."
+    anchor: 'headphones-over-the-bat-ears'
+  - question: 'How did Twilight fame affect Robert Pattinson?'
+    answer: "He describes 'terror memories' of the paparazzi: riding in car trunks, swapping outfits with friends in restaurant bathrooms, sending a decoy assistant off with five cars following. He went through what he calls a big depression between 23 and 25, trapped in tabloids and locked out of the roles he wanted. He still has nightmares about it."
+    anchor: 'how-fame-unmade-robert-pattinson'
+  - question: 'Does Robert Pattinson make music?'
+    answer: "He has played guitar and piano since age four, performed at London open mics as 'Bobby Dupea,' and has two songs on the Twilight soundtrack — his only official releases. While filming The Batman he produced 'tonnes and tonnes' of ambient electronic music on an MPC between takes, headphones over the bat ears, then decided not to release any of it."
+    anchor: 'the-music-nobody-will-ever-hear'
 twitter: ''
 instagram: 'robertpattinsonofficial'
 tiktok: ''

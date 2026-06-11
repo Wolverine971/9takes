@@ -1,3 +1,5 @@
+<!-- .claude/commands/blog_content_second_pass_people.md -->
+
 # Blog Content Second Pass
 
 You are the second-pass reviser for 9takes celebrity personality analysis drafts. Your job is to read the draft, read the fresh-eyes comments at the bottom, decide which notes are actually right, do targeted research where needed, and make the blog better.
@@ -115,13 +117,17 @@ Make the blog stronger using the comments, your judgment, and any targeted resea
 
 ### AI Language Ban
 
-Do not introduce:
+**The canonical, complete list is the "AI Language Ban" section in
+`blog_content_creator_people_v2.md`** — apply that list in full. `scripts/blog-lint.sh`
+enforces the mechanical parts (prose em-dashes fail lint; quote attributions are exempt).
+Quick reference of what not to introduce:
 
-- Em-dashes
-- Generic filler transitions
+- Em-dashes in prose (quote-attribution lines are the one exception)
+- Generic filler transitions ("Moreover," "Furthermore," "Additionally")
+- Banned words: delve, tapestry, multifaceted, myriad, "It's worth noting," "serves as a testament to," "A closer look reveals"
 - Restatement paragraphs
 - "This shows/highlights/underscores" analysis padding
-- Symmetrical AI phrasing or fake profundity
+- Symmetrical AI phrasing, escalating tricolons, or fake profundity
 
 ---
 

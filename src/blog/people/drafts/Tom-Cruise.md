@@ -36,12 +36,11 @@ occupation:
   - 'Aircraft Pilot'
   - 'Stunt Performer'
 knows_about:
-  - 'Film acting'
-  - 'Film production'
-  - 'Film directing'
-  - 'Screenwriting'
-  - 'Writing'
-  - 'Acting'
+  - 'Practical stunt performance'
+  - 'Aviation and aerobatic flying'
+  - 'Film franchise production'
+  - 'Backend profit dealmaking'
+  - 'Scientology'
 keywords:
   - 'Tom Cruise enneagram'
   - 'Tom Cruise type 3'
@@ -61,12 +60,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000129/'
   - 'https://www.tomcruise.com'
 faqs:
-  - question: 'What is Tom Cruise''s Personality Type?'
-    answer: 'Tom Cruise is an Enneagram Type 3 — "The Achiever." But the label undersells what''s actually happening.'
+  - question: "What is Tom Cruise's personality type?"
+    answer: "Tom Cruise is an Enneagram Type 3 (The Achiever) in its most extreme form: identification AS achievement. The pattern shows in an abusive father and fifteen schools in fourteen years that taught him worth comes from performance, the shedding of the Mapother family name to become 'Tom Cruise,' the stunts performed at 62 as proof the persona is physically real, and his own creed: 'I can't do something halfway, three-quarters, nine-tenths.'"
     anchor: 'what-is-tom-cruises-personality-type'
-  - question: 'Why is Tom Cruise typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Film production, Film directing.'
-    anchor: 'why-is-tom-cruise-typed-as-an-enneagram-type-3'
+  - question: 'Why did Tom Cruise change his name from Thomas Mapother?'
+    answer: "It was more than a stage name — the analysis reads it as identity replacement. He shed the surname of the father who beat him, kept his middle name, and left the Mapother line behind. The abused kid with dyslexia and no friends ceased to exist; in his place, a character maintained with military discipline for four decades. He has been Tom Cruise longer than he was ever Thomas Mapother."
+    anchor: 'why-thomas-mapother-had-to-disappear'
+  - question: 'Why does Tom Cruise run in every movie?'
+    answer: "He has sprinted 295 times across 44 films, been clocked at 17 mph, outpaced a camera rig built to follow him, and maintains an unofficial rule that no co-star runs alongside him on camera. He runs more as he gets older — five of his top ten running films came after 2010. The running is the persona in purest visual form: always at maximum effort, always alone, never slowing down."
+    anchor: 'why-the-running-never-stops'
+  - question: 'Why is Tom Cruise so committed to Scientology?'
+    answer: "The analysis argues the church's structure confirms his core wiring: the 'Bridge to Total Freedom' is a hierarchy of earned advancement — performance reviews for your psyche — that tells a Type 3 exactly what his childhood taught him: you ARE what you achieve. Introduced by first wife Mimi Rogers in 1986, he rose to become one of its most prominent figures; Leah Remini has called him 'essentially second in command.'"
+    anchor: 'why-scientology-fits-the-need-for-control'
+  - question: "What happened between Tom Cruise and his daughter Suri?"
+    answer: "They are estranged. When Suri graduated from LaGuardia High School in June 2024, Cruise was photographed at a Taylor Swift concert in London. Upon turning 18, she dropped 'Cruise' from her name, using her mother's middle name 'Noelle' instead — a sharp contrast with the man who has sent Dakota Fanning birthday shoes every year for nearly twenty years."
+    anchor: 'the-warmest-thing-about-tom-is-also-the-weirdest'
 twitter: 'TomCruise'
 instagram: 'tomcruise'
 tiktok: ''

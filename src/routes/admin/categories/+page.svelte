@@ -513,7 +513,7 @@
 	.stat-card {
 		border: 1px solid var(--stone-warm);
 		background: var(--stone-warm);
-		border-radius: 18px;
+		border-radius: 1rem;
 	}
 
 	.page-header {
@@ -696,7 +696,7 @@
 	.search-field input,
 	.batch-field input {
 		padding: 0.85rem 0.95rem;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 		background: var(--night-deep);
 		color: var(--ink-bright);

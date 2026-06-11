@@ -27,10 +27,11 @@ occupation:
   - 'Twitch Streamer'
   - 'Kick Streamer'
 knows_about:
-  - 'YouTube content creation'
-  - 'Livestreaming'
-  - 'Football'
-  - 'Digital media'
+  - 'Variety livestreaming'
+  - 'Professional Overwatch (main tank)'
+  - 'GTA roleplay (NoPixel co-owner)'
+  - 'Reaction and commentary content'
+  - 'Streaming platform contracts'
 keywords:
   - 'xQc enneagram'
   - 'xQc type 7'
@@ -46,12 +47,21 @@ citations:
   - 'https://en.wikipedia.org/wiki/XQc'
   - 'https://www.wikidata.org/wiki/Q50716407'
 faqs:
-  - question: 'What is xQc''s personality type?'
-    answer: 'xQc is analyzed as an Enneagram Type 7 (Enthusiast). The profile connects that type pattern to xQc''s Type 7 personality explains everything: the $100M Kick deal, 200-hour streaming months, gambling addiction, and why he can''t sit still. Here''s the psychology.'
+  - question: "What is xQc's personality type?"
+    answer: "xQc is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in 24,500+ streaming hours with only 85 days off in five years, streaming through ear infections and night terrors, a $1.85 million monthly gambling loss reframed as 'peanuts,' the will he prepared at 27 on which he wrote 'single' while living with his girlfriend, and his admission that getting fired from Dallas Fuel felt 'almost excited... exhilarating.'"
     anchor: 'what-is-xqcs-personality-type'
-  - question: 'Why is xQc typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Livestreaming, Football.'
-    anchor: 'why-is-xqc-typed-as-an-enneagram-type-7'
+  - question: 'Why did xQc prepare a will at 27?'
+    answer: "In 2023 he told viewers he believed he was going to die: 'I felt like I wasn't going to live very long. My goal was to make some money and leave some money for people around me, before checking out.' On the paperwork he listed his status as 'single' — while living with Samantha 'Adept' Lopez. When she asked what she'd get if he died, 'things went crazy' and he 'lost trust in everybody.' The episode ended the relationship and triggered years of litigation."
+    anchor: 'the-relationships-pursuit-flight-and-the-will'
+  - question: 'Is xQc addicted to gambling?'
+    answer: "By his own admission, yes. 'Yeah, I'm addicted. I lost $1.85 million this month,' he told Pokimane in May 2022, adding on another stream: 'That's an illness... but I can afford to be ill.' The cycle has repeated — a 2021 apology and pledge to stop, a 2023 reversal after signing with Stake-backed Kick, a 2024 on-stream warning not to gamble, then calling a $700,000 election-bet loss 'peanuts stuck in the sofa.'"
+    anchor: 'the-gambling-spiral-when-stimulation-becomes-addiction'
+  - question: "How much was xQc's Kick deal worth?"
+    answer: "On June 16, 2023, he signed a two-year, non-exclusive contract with Kick worth a reported $100 million — $70 million guaranteed plus $30 million in incentives — certified by Guinness World Records as the largest individual streaming deal ever. The telling detail is the non-exclusivity: maximum money with an escape route, the thrill-seeker's hedge."
+    anchor: 'the-100-million-bet'
+  - question: 'Why was xQc removed from the Overwatch League?'
+    answer: "Within months of joining Dallas Fuel for the inaugural OWL season in 2017, he racked up two suspensions — homophobic remarks on stream after a loss, then a fine for racially disparaging emote use and trashing broadcasters — and the team released him. He later admitted the firing thrilled him: 'I was almost excited. It's a very weird self-destructive feeling that I sometimes will enjoy.'"
+    anchor: 'the-overwatch-league-glory-and-self-destruction'
 twitter: 'xQc'
 instagram: ''
 tiktok: ''

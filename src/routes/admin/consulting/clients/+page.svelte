@@ -367,7 +367,7 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 	}
 
@@ -385,7 +385,7 @@
 	.filter-group select {
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		background: var(--stone-warm);
 	}
@@ -394,7 +394,7 @@
 	.clients-table-wrapper {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow-x: auto;
 	}
 
@@ -557,7 +557,7 @@
 
 	.modal {
 		background: var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		width: 100%;
 		max-width: 500px;
 		max-height: 90vh;
@@ -613,7 +613,7 @@
 	.form-group textarea {
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		font-family: inherit;
 	}

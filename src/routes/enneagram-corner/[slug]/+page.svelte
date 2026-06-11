@@ -224,7 +224,7 @@
 			background-color: var(--stone-warm);
 			font-style: italic;
 			color: var(--ink-mid);
-			border-radius: 0 8px 8px 0;
+			border-radius: 0 0.625rem 0.625rem 0;
 		}
 
 		:global(blockquote p) {
@@ -251,7 +251,7 @@
 		:global(pre) {
 			background-color: var(--night-deep);
 			border: 1px solid var(--stone-edge);
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			padding: 1rem;
 			overflow-x: auto;
 

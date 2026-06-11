@@ -93,7 +93,7 @@
 			z-index: 1;
 			background-color: rgba(0, 0, 0, 0.7);
 			padding: 1rem;
-			border-radius: 5px;
+			border-radius: 0.625rem;
 			color: var(--lamp-glow);
 		}
 

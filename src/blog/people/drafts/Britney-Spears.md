@@ -28,12 +28,12 @@ occupation:
   - 'Composer'
   - 'Pop Musician'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Acting'
-  - 'Music'
-  - 'Pop Music'
-  - 'Popular Music'
+  - 'Pop vocal performance'
+  - 'Stage dance and choreography'
+  - 'Las Vegas residency shows'
+  - 'Conservatorship reform'
+  - 'Memoir writing'
+  - 'Pop stardom'
 keywords:
   - 'Britney Spears enneagram'
   - 'Britney Spears type 9'
@@ -55,15 +55,21 @@ citations:
   - 'https://www.newyorker.com/news/american-chronicles/britney-spears-conservatorship-nightmare'
   - 'https://britneyspears.com'
 faqs:
-  - question: 'What Is Britney Spears’s Personality Type?'
-    answer: 'Britney is a Type 9 — the Peacemaker — most plausibly with an 8 wing. Read the diagnostic markers in plain language: a child who learned the cost of conflict and chose flexibility instead. An adult who reads rooms before she speaks, then often doesn''t speak. A career built on doing what was asked, very well, very fast, without complaint. A nervous system that fawns and freezes long before it fights. And then, when the fight finally comes, it comes through the floor — head shaved, umbrella swinging, twenty-four minutes of court testimony delivered without a script.'
+  - question: "What is Britney Spears's personality type?"
+    answer: "Britney Spears is an Enneagram Type 9 (The Peacemaker), most plausibly a 9w8. The pattern shows in the child who walked into the Kentwood woods and sang until the family fight blew out, the twenty-five years of yes — to the producers, the schoolgirl outfit, the abortion, the father — the freeze-then-fawn nervous system visible on the Diane Sawyer couch, and the 8 wing that finally surfaced in a shaved head, a swinging umbrella, and twenty-four minutes of unscripted court testimony."
     anchor: 'what-is-britney-spearss-personality-type'
-  - question: 'What is Britney Spears''s personality type?'
-    answer: 'Britney Spears is analyzed as an Enneagram Type 9 (Peacemaker). The profile connects that type pattern to Britney Spears built a billion-dollar career by saying yes to everyone except herself — and "crazy" was never the word for what was actually happening.'
-    anchor: 'what-is-britney-spearss-personality-type'
-  - question: 'Why is Britney Spears typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Acting.'
-    anchor: 'why-is-britney-spears-typed-as-an-enneagram-type-9'
+  - question: 'How did Britney Spears earn $137 million while under a conservatorship?'
+    answer: "Between December 2013 and December 2017, while a Los Angeles court held that she could not manage her own bank account, she performed 248 sold-out Las Vegas shows, sold 916,184 tickets, and grossed $137.7 million per Billboard's final tally. Her own dry verdict in The Woman in Me: 'I accomplished a lot during that time when I was supposedly incapable of taking care of myself.' The contradiction is the entire story."
+    anchor: 'the-vegas-math-how-britney-earned-137-million-while-the-court-said-she-couldnt'
+  - question: "Was Britney Spears's 2007 head-shaving a breakdown?"
+    answer: "The article argues the opposite: it was authorship. In her own words: 'I'd been eyeballed so much growing up... Shaving my head and acting out were my ways of pushing back.' It was the only act in a decade that came from her — not a label, a manager, a husband, or a father. Within the year, the same body was placed under permanent legal control by the man it had spent its life trying to keep calm."
+    anchor: 'the-2007-break-wasnt-the-break'
+  - question: 'What did Britney Spears say in her 2021 conservatorship testimony?'
+    answer: "On June 23, 2021, she addressed Judge Brenda Penny by phone for twenty-four minutes — no script, no lawyer-prepared remarks. 'I just want my life back. It's been thirteen years and it's enough. I truly believe this conservatorship is abusive.' She testified she was being kept on an IUD she didn't want and forced to perform. The conservatorship was terminated on November 12, 2021. Those twenty-four minutes were the longest she had been permitted to speak publicly on her own behalf since 1992."
+    anchor: 'what-britney-spears-sounds-like-when-she-speaks-for-herself'
+  - question: 'How is Britney Spears doing since the conservatorship ended?'
+    answer: "Not the packaged triumph: her marriage to Sam Asghari lasted fourteen months, she has fallen out and partially back in with her mother, and she has not reconciled with her sister. The article reads this as the actual work — freedom is the daily practice of making her own choices, including bad ones. Her own memoir names the next task: 'It's important to learn to say no.'"
+    anchor: 'after-britney-spears-got-free'
 twitter: 'britneyspears'
 instagram: 'britneyspears'
 production_pretext:

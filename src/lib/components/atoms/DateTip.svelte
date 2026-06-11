@@ -16,7 +16,7 @@
 		border-left: 4px solid var(--lamp-glow);
 		padding: 1rem;
 		margin: 1.5rem 0;
-		border-radius: 0 8px 8px 0;
+		border-radius: 0 0.625rem 0.625rem 0;
 		position: relative;
 		font-size: 0.95rem;
 		line-height: 1.5;

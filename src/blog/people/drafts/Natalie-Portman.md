@@ -30,12 +30,12 @@ occupation:
   - 'Stage Actor'
   - 'Television Actor'
 knows_about:
-  - 'Film acting'
-  - 'Film production'
-  - 'Film directing'
-  - 'Screenwriting'
-  - 'Television acting'
-  - 'Acting'
+  - 'Film directing (A Tale of Love and Darkness)'
+  - 'Psychology (Harvard degree)'
+  - 'Veganism and animal rights advocacy'
+  - 'Film production (MountainA)'
+  - "Women's sports ownership (Angel City FC)"
+  - 'Hebrew language and Israeli culture'
 keywords:
   - 'Natalie Portman enneagram'
   - 'Natalie Portman type 1'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q37876'
   - 'https://www.imdb.com/name/nm0000204/'
 faqs:
-  - question: 'What is Natalie Portman''s Personality Type?'
-    answer: 'There''s a quote that reveals the architecture of her mind more clearly than any interview about her craft:'
+  - question: "What is Natalie Portman's personality type?"
+    answer: "Natalie Portman is an Enneagram Type 1 (The Reformer), specifically a 1w9. The pattern shows in the armor of seriousness she engineered at thirteen to survive sexualization, her own distinction — 'I'm obedient, but I'm not a perfectionist' — the moral commitment to vegetarianism she made at nine and never broke, the year of monastic Black Swan discipline that dislocated a rib, and the Genesis Prize ceremony she walked away from on principle."
     anchor: 'what-is-natalie-portmans-personality-type'
-  - question: 'Why is Natalie Portman typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Film production, Film directing.'
-    anchor: 'why-is-natalie-portman-typed-as-an-enneagram-type-1'
+  - question: 'Why did Natalie Portman build her serious, bookish persona?'
+    answer: "Her first piece of fan mail, at thirteen, was a rape fantasy written by a man; a radio station ran a countdown to her eighteenth birthday and critics described her body in published reviews. 'I understood very quickly, even as a 13-year-old, that if I were to express myself sexually I would feel unsafe,' she said. So she rejected every script with a kissing scene and became 'the kind of girl you don't attack' — armor she later admitted she couldn't take off."
+    anchor: 'i-was-really-sexualized'
+  - question: 'Did Natalie Portman write the last line of Black Swan?'
+    answer: "Yes — Aronofsky confirmed it: 'She even wrote the last line in the movie.' Nina's dying words, 'I felt it. Perfect. It was perfect,' came from the actress who trained five hours a day for a year, lost twenty pounds, and dislocated a rib for the role. The article reads the line as the purest distillation of the Type 1 drive ever put on screen — authored by someone who understood it from the inside."
+    anchor: 'black-swan-and-the-perfectionists-mirror'
+  - question: 'Why did Natalie Portman refuse the Genesis Prize ceremony?'
+    answer: "In 2018 she was awarded the Genesis Prize — Israel's equivalent of a Nobel for Jewish achievement — and declined to attend because Benjamin Netanyahu was scheduled to speak: 'I did not want to appear as endorsing Benjamin Netanyahu.' Accused of supporting BDS, she explicitly denied it: 'I can be critical of the leadership in Israel without wanting to boycott the entire nation.' She held the middle ground that offered the least applause."
+    anchor: 'the-moral-compass-that-doesnt-switch-off'
+  - question: 'Why did Natalie Portman go to Harvard at the height of her fame?'
+    answer: "To prove she wasn't 'just a dumb actress.' She enrolled right after Star Wars: Episode I, afraid people would assume she got in for being famous, graduated with a psychology degree, and published a research paper on frontal lobe activity. She later admitted the years included 'some pretty dark moments' and that 'seriousness for seriousness' sake was its own kind of trophy, and a dubious one.'"
+    anchor: 'harvard-and-the-fortress-that-worked-too-well'
 twitter: 'natalieportman'
 instagram: 'natalieportman'
 tiktok: ''

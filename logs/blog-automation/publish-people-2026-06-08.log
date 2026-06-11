@@ -1,0 +1,21 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: ana-de-armas
+Draft: src/blog/people/drafts/Ana-de-Armas.md
+Date/lastmod: 2026-06-08
+Supabase: published=true (row id 1047)
+Images: full + thumbnail present
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verified:
+- Draft now has `published: true`, `date`/`lastmod` set to 2026-06-08
+- `famousTypes.ts` entry: `link: true`, `hasImage: true`, `lastmod: '2026-06-08'`
+- Sitemap includes `https://9takes.com/personality-analysis/ana-de-armas` with its image
+- Supabase synced (row 1047, published, content grade 9)

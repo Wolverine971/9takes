@@ -461,7 +461,7 @@
 	}
 
 	.search-shell {
-		border-radius: 28px;
+		border-radius: 1rem;
 		padding: 1.15rem;
 	}
 
@@ -477,7 +477,7 @@
 		flex-direction: column;
 		gap: 0.25rem;
 		padding: 0.9rem 1rem;
-		border-radius: 18px;
+		border-radius: 1rem;
 		text-decoration: none;
 		background: var(--search-control-bg);
 		border: 1px solid transparent;
@@ -603,7 +603,7 @@
 	}
 
 	.message-card {
-		border-radius: 24px;
+		border-radius: 1rem;
 		padding: 1.5rem;
 	}
 
@@ -670,7 +670,7 @@
 		display: grid;
 		gap: 0.9rem;
 		padding: 1.35rem 1.4rem;
-		border-radius: 22px;
+		border-radius: 1rem;
 		text-decoration: none;
 		transition:
 			transform 180ms ease,
@@ -748,7 +748,7 @@
 		background: var(--primary-subtle);
 		color: var(--ink-bright);
 		padding: 0.05rem 0.22rem;
-		border-radius: 0.3rem;
+		border-radius: 0.25rem;
 	}
 
 	.pagination {
@@ -762,7 +762,7 @@
 	.page-link,
 	.page-status {
 		padding: 0.85rem 1rem;
-		border-radius: 14px;
+		border-radius: 0.625rem;
 	}
 
 	.page-link {
@@ -812,7 +812,7 @@
 		.search-shell,
 		.message-card,
 		.result-card {
-			border-radius: 22px;
+			border-radius: 1rem;
 		}
 
 		.hero-copy h1,

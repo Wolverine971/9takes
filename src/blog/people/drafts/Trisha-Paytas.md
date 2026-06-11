@@ -27,11 +27,11 @@ occupation:
   - 'Television Actor'
   - 'Reality Television Participant'
 knows_about:
-  - 'YouTube content creation'
-  - 'Singing'
-  - 'Podcasting'
-  - 'Television acting'
-  - 'Digital media'
+  - 'Mukbang content'
+  - 'Internet persona reinvention'
+  - 'Confessional vlogging'
+  - 'Pop-punk music (Sadboy2005)'
+  - 'Musical theater (Beetlejuice: The Musical)'
 keywords:
   - 'Trisha Paytas enneagram'
   - 'Trisha Paytas type 4'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.imdb.com/name/nm2705535/'
   - 'https://www.onlytrish.com'
 faqs:
-  - question: 'What is Trisha Paytas''s personality type?'
-    answer: 'Most people see Trisha Paytas as a shameless attention-seeker who will do anything for views. A chaos agent. A professional troll. But if you understand the Enneagram''s Type 4 — the Individualist — the real driver comes into focus. It was never about attention. It was about identity.'
+  - question: "What is Trisha Paytas's personality type?"
+    answer: "Trisha Paytas is an Enneagram Type 4 (The Individualist) with a 3 wing. The pattern shows in a first internet identity that was a shrine to Quentin Tarantino, seventeen years of cycling through personas and self-diagnoses, her own admission that 'I never really formed my own personality,' a borderline personality disorder diagnosis whose hallmark is identity disturbance, and the contradiction at her center: she overshares everything, and nobody knows her."
     anchor: 'what-is-trisha-paytass-personality-type'
-  - question: 'Why is Trisha Paytas typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Singing, Podcasting.'
-    anchor: 'why-is-trisha-paytas-typed-as-an-enneagram-type-4'
+  - question: 'Why did Trisha Paytas leave the Frenemies podcast?'
+    answer: "The final episode in June 2021 descended into a fight about creative contribution — Ethan Klein said 'You just show up. We do all the work.' Trisha's exit line carried the weight of a learned pattern: 'I'm leaving to ease the tension everywhere. I don't want to be the toxicity in their machine.' The Kleins cut ties, every past controversy resurfaced at once, and it became, by most accounts, her lowest point."
+    anchor: 'frenemies'
+  - question: 'Does Trisha Paytas actually have Dissociative Identity Disorder?'
+    answer: "Her 2020 'MEET MY ALTERS' video was criticized by mental health professionals as misinformation, and the analysis agrees the DID claim was wrong — but the feeling behind it was real. She has been diagnosed with borderline personality disorder, whose hallmark is identity disturbance, and described psychotic breaks in 2007, 2018, and 2021. Her own line cut through the noise: 'I never really formed my own personality.'"
+    anchor: 'when-the-costumes-became-claims'
+  - question: 'How did motherhood change Trisha Paytas?'
+    answer: "After Malibu Barbie's birth in 2022 she went through postpartum depression — intrusive thoughts, hours locked in a bathroom, a year before she felt comfortable holding her daughter. But it gave her a reason to stop searching and start building: she began dialectical behavior therapy for her BPD, 'real therapy, not content.' Elvis followed in 2024 and Aquaman in 2025. 'I couldn't embarrass them anymore,' she said. 'I couldn't put them in the line of fire.'"
+    anchor: 'i-need-to-get-this-fixed'
+  - question: 'Is Trisha Paytas on Broadway?'
+    answer: "Yes. By November 2025 she was performing eight shows a week as Maxine Dean in Beetlejuice: The Musical at The Palace Theatre, after an SNL appearance, a benefit show at the St. James alongside Sutton Foster and Ben Platt, and signing with CAA. On opening night the audience brought the show to a standstill with entrance applause — a rare honor for a Broadway debut."
+    anchor: 'from-blndsundoll4mj-to-beetlejuice'
 twitter: 'taborsgonewild'
 instagram: 'trishapaytas'
 tiktok: '@taborsgonewild'

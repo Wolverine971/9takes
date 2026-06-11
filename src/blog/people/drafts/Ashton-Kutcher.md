@@ -28,12 +28,12 @@ occupation:
   - 'Model'
   - 'Actor'
 knows_about:
-  - 'Television acting'
-  - 'Film acting'
-  - 'Comedy'
-  - 'Modeling'
-  - 'Acting'
-  - 'Television production'
+  - 'Venture capital investing'
+  - 'Early-stage consumer technology'
+  - 'Anti-child-trafficking advocacy'
+  - 'Sitcom acting'
+  - 'Reality television producing'
+  - 'Thorn'
 keywords:
   - 'Ashton Kutcher enneagram'
   - 'Ashton Kutcher type 7'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q164782'
   - 'https://www.imdb.com/name/nm0005110/'
 faqs:
-  - question: 'What is Ashton Kutcher''s personality type?'
-    answer: 'The Seven is "The Enthusiast." Core fear: being trapped in pain, deprivation, or limitation. Core desire: to be satisfied, content, and free. The engine is gluttony — not for food, but for experience, possibility, novelty. Sevens stay one step ahead of the question they don''t want to sit with by moving toward the next thing.'
+  - question: "What is Ashton Kutcher's personality type?"
+    answer: "Ashton Kutcher is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in the hospital-balcony math he ran at thirteen when his twin flatlined, the fruitarian Steve Jobs preparation that put him in the hospital, the willingness to take Charlie Sheen's still-burning seat at $700,000 an episode, the 219-company venture portfolio built on trusting his own appetite over pitch decks, and the Masterson character letter — 6-wing loyalty bolted onto an engine that reroutes around pain."
     anchor: 'what-is-ashton-kutchers-personality-type'
-  - question: 'Why is Ashton Kutcher typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Television acting, Film acting, Comedy.'
-    anchor: 'why-is-ashton-kutcher-typed-as-an-enneagram-type-7'
+  - question: 'How did Ashton Kutcher become a successful tech investor?'
+    answer: "His A-Grade Investments turned $30 million into $250 million in six years, and by 2023 Sound Ventures crossed $1 billion under management with 219 portfolio companies and 25 unicorns. The method is experiential: he passed on Uber's pitch deck at SXSW, then wired Travis Kalanick $500,000 days after actually using the app. His $2.5 million Airbnb Series A stake — made after staying in strangers' homes during his divorce — grew to about $90 million by the 2020 IPO."
+    anchor: 'how-ashton-kutcher-out-invested-silicon-valley'
+  - question: 'Why did Ashton Kutcher write the Danny Masterson letter?'
+    answer: "After Masterson's May 2023 conviction for two counts of forcible rape, Kutcher and Mila Kunis wrote character letters asking the judge for leniency, describing a 25-year friend — by the most honest read, without reading the trial transcripts. When the letters became public, the apology video had no floor, and nine days later Kutcher resigned as chairman of Thorn, the anti-child-exploitation nonprofit he had spent a decade building. His resignation letter admitted the statement was 'yet another painful instance of questioning victims.'"
+    anchor: 'why-ashton-kutcher-wrote-the-masterson-letter'
+  - question: 'What disease did Ashton Kutcher have?'
+    answer: "In 2019 a rare form of vasculitis — an autoimmune disorder that attacks the blood vessels — took his sight, his hearing, and his ability to walk for nearly a year. In his words: 'Suddenly, you can't see. Suddenly, you can't hear. Suddenly, you can't walk. And you don't know if you ever will again.' He emerged thinner, quieter, and did his first long-form post-recovery interview jointly with his twin brother Michael in late 2022."
+    anchor: 'the-disease-that-finally-made-him-stop'
+  - question: 'What happened the night Ashley Ellerin was murdered?'
+    answer: "On February 21, 2001, Kutcher was running late to pick up his friend Ashley Ellerin for a Grammys after-party. He knocked at around 10:45 p.m., saw what he thought were red wine stains through a window, assumed she had left without him, and walked away. She had been stabbed 47 times by Michael Gargiulo, the 'Hollywood Ripper.' Kutcher testified at the 2019 trial that he was terrified when he learned his fingerprints were on the doorknob."
+    anchor: 'the-night-ashley-ellerin-was-murdered'
 twitter: 'aplusk'
 instagram: 'aplusk'
 production_pretext:

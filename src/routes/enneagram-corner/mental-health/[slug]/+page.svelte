@@ -163,7 +163,7 @@
 		border: 2px solid #f66;
 		padding: 1rem;
 		margin: 1rem auto 2rem;
-		border-radius: 8px;
+		border-radius: 1rem;
 		color: #d00;
 		text-align: center;
 		max-width: 800px;
@@ -228,7 +228,7 @@
 			.resource-card {
 				background: var(--color-bg-secondary);
 				padding: 1.5rem;
-				border-radius: 8px;
+				border-radius: 1rem;
 				text-align: center;
 				transition:
 					transform 0.3s ease,

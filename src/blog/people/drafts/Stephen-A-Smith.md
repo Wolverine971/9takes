@@ -28,12 +28,12 @@ occupation:
   - 'Television Actor'
   - 'Television Writer'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Television production'
-  - 'Television acting'
-  - 'Voice acting'
-  - 'Digital media'
+  - 'Sports debate television'
+  - 'NBA commentary'
+  - 'Sports journalism'
+  - 'Sports radio and podcasting'
+  - 'Media contract negotiation'
+  - 'Political commentary'
 keywords:
   - 'Stephen A. Smith enneagram'
   - 'Stephen A. Smith type 3'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q7608548'
   - 'https://www.imdb.com/name/nm1946567/'
 faqs:
-  - question: 'What is Stephen A. Smith''s personality type?'
-    answer: 'Enneagram Threes are called "The Achiever" — but that word undersells the pattern. Threes don''t just pursue success. They fuse their identity with it. Without the wins, the titles, the visible proof of value, they experience something closer to existential disappearance than mere disappointment.'
+  - question: "What is Stephen A. Smith's personality type?"
+    answer: "Stephen A. Smith is an Enneagram Type 3 (The Achiever). The pattern shows in the boy who overheard his father say 'the boy just ain't smart' and spent fifty years answering it, the eleven-year refusal to visit his brother's grave until he'd been hired by ESPN, the $100 million contract he treated as validation rather than money, and the reinvention after his 2009 firing — coming back not just employed but as the highest-paid personality in ESPN history."
     anchor: 'what-is-stephen-a-smiths-personality-type'
-  - question: 'Why is Stephen A. Smith typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Television production.'
-    anchor: 'why-is-stephen-a-smith-typed-as-an-enneagram-type-3'
+  - question: 'Why was Stephen A. Smith fired from ESPN in 2009?'
+    answer: "He overplayed his hand in contract negotiations, demanding more money than the network would pay. 'They said, We don't think so. Good luck trying to prove otherwise. They were right, I was wrong,' he later admitted. He spent ten and a half months unemployed — 'essentially banned, blackballed' — before a different ESPN management group brought him back in 2011, setting up the First Take relaunch that made him the franchise."
+    anchor: 'how-stephen-a-smith-went-from-fired-to-100-million'
+  - question: 'Why has Stephen A. Smith never married?'
+    answer: "By his own account in Straight Shooter: 'mainly because I've never wanted to dishonor my marital vows, as my father did so flagrantly.' At seventeen, his father made him cover for an affair, and Stephen came home to the only time he ever saw his mother cry. He was engaged once but has never named the woman, saying only, 'The relationship did not work out.'"
+    anchor: 'the-loudest-silence'
+  - question: "How did Stephen A. Smith handle his mother's death?"
+    answer: "After Janet Smith died of cancer in June 2017, he said that for two years, every single day, he wished he was dead. 'There were literally times I would sit across from someone on air and didn't hear them. All I saw was my mom's casket being lowered into the ground.' He went to therapy and later spoke about it publicly on World Mental Health Day, despite the stigma he acknowledged directly."
+    anchor: 'the-two-years-he-wished-he-was-dead'
+  - question: 'Is Stephen A. Smith running for president?'
+    answer: "He has publicly entertained it since late 2024 — by April 2025 he told ABC that elected officials, pundits, billionaires, and his own pastor had urged him to consider it, and Donald Trump endorsed the idea. He has promised stakeholders he won't make anything final before 2027. He positions himself as a 'proud capitalist' independent willing to challenge both parties."
+    anchor: 'the-empire-thats-never-enough'
 twitter: 'https://twitter.com/stephenasmith'
 instagram: 'https://instagram.com/stephenasmith'
 tiktok: ''

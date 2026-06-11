@@ -28,12 +28,13 @@ occupation:
   - 'Voice Actor'
   - 'Actor'
 knows_about:
-  - 'Film acting'
-  - 'Screenwriting'
-  - 'Film production'
-  - 'Writing'
-  - 'Voice acting'
-  - 'Acting'
+  - 'Physical transformation for film roles'
+  - 'Screenwriting (Good Will Hunting)'
+  - 'Character-driven screen acting'
+  - 'Water access microfinance (Water.org)'
+  - 'Impact investing (WaterEquity)'
+  - 'Public education advocacy'
+  - 'Independent film production (Artists Equity)'
 keywords:
   - 'Matt Damon enneagram'
   - 'Matt Damon type 1'
@@ -51,12 +52,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q175535'
   - 'https://www.imdb.com/name/nm0000354/'
 faqs:
-  - question: 'What is Matt Damon''s Personality Type?'
-    answer: 'Enneagram Ones live with a voice that never stops auditing. The standard moves. The effort increases. The gap never fully closes.'
+  - question: "What is Matt Damon's personality type?"
+    answer: "Matt Damon is an Enneagram Type 1 (The Reformer), specifically a 1w2. The pattern shows in the 51-pound weight cut for Courage Under Fire that caused adrenal failure at twenty-five, his self-described 'weird obsessive thing' about wondering if he did everything he possibly could, the principled anger of his Save Our Schools speech and refusal of an NEA award, the deliberately boring private life he maintains like a system, and the Two-wing helping impulse behind Water.org."
     anchor: 'what-is-matt-damons-personality-type'
-  - question: 'Why is Matt Damon typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Screenwriting, Film production.'
-    anchor: 'why-is-matt-damon-typed-as-an-enneagram-type-1'
+  - question: 'Why did Matt Damon lose 51 pounds for Courage Under Fire?'
+    answer: "In 1996, for a supporting role with maybe eight minutes of screen time, Damon ate nothing but chicken breast for three months and ran thirteen miles a day, dropping to 139 pounds until his adrenal gland failed. He needed eighteen months of medication to repair the damage. His own explanation was not ambition but proof: 'nobody's ever going to tell me that there's anybody out here with more discipline.'"
+    anchor: 'the-body-as-a-moral-instrument'
+  - question: 'Why did Matt Damon start Water.org?'
+    answer: "In 2006, Damon walked with a fourteen-year-old Zambian girl carrying water to a borewell and realized her dream of becoming a nurse depended on clean water being within walking distance. He founded H2O Africa, then merged with engineer Gary White in 2009 to create Water.org and its WaterCredit microfinance model — small loans, 90% to women, with 98-99% repayment rates. By 2025 the organizations had reached over 80 million people and mobilized $7 billion in capital."
+    anchor: 'the-water-engineer'
+  - question: 'How does Matt Damon stay out of the tabloids?'
+    answer: "By engineering a story too boring to sell. He married Luciana Barroso, a bartender he met in Miami in 2003, keeps a never-more-than-two-weeks-apart rule, and walks his kids to school. As he told Esquire: paparazzi can stake him out, but they will always get the same story — middle-aged married guy with four kids — so there is no appetite for it."
+    anchor: 'i-fell-in-love-with-a-civilian'
+  - question: 'What controversies has Matt Damon faced?'
+    answer: "Three stand out: interrupting producer Effie Brown on Project Greenlight in 2015 to argue diversity mattered in casting but not directing, his 2017 'spectrum of behavior' comments during #MeToo, and his 2021 admission that he had only recently retired a homophobic slur after his daughter challenged him. Each followed the same arc — initial defensiveness rooted in principled reasoning, then genuine reflection and course correction."
+    anchor: 'the-missteps-that-reveal-the-machinery'
 twitter: ''
 instagram: ''
 tiktok: ''

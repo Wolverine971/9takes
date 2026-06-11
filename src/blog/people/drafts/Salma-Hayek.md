@@ -31,12 +31,11 @@ occupation:
   - 'Actor'
   - 'Singer'
 knows_about:
-  - 'Film acting'
-  - 'Film directing'
-  - 'Film production'
-  - 'Television acting'
-  - 'Acting'
-  - 'Singing'
+  - 'Film and television producing (Ventanarosa)'
+  - 'Latina representation in Hollywood'
+  - 'Frida Kahlo'
+  - 'Domestic violence advocacy (Kering Foundation)'
+  - 'Telenovela adaptation (Ugly Betty)'
 keywords:
   - 'Salma Hayek enneagram'
   - 'Salma Hayek type 8'
@@ -55,12 +54,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000161/'
   - 'https://en.wikipedia.org/wiki/Antonio_Banderas'
 faqs:
-  - question: 'What is Salma Hayek''s personality type?'
-    answer: 'Hayek presents as a Type 8 with a 7 wing — the Challenger archetype, softened and brightened by the appetite, humor, and quick movement of the Enthusiast.'
+  - question: "What is Salma Hayek's personality type?"
+    answer: "Salma Hayek is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the boarding-school expulsion she engineered at twelve by setting the nuns' clocks back three hours, the eight-year fight to get Frida made, the breach-of-contract lawsuit she filed against Harvey Weinstein while finishing his film anyway, the Latino buying-power data she used to pre-sell Ugly Betty to advertisers, and the marriage she nearly fled on the wedding day because autonomy is her deepest non-negotiable."
     anchor: 'what-is-salma-hayeks-personality-type'
-  - question: 'Why is Salma Hayek typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Film directing, Film production.'
-    anchor: 'why-is-salma-hayek-typed-as-an-enneagram-type-8'
+  - question: 'What did Salma Hayek go through to make Frida?'
+    answer: "Eight years of fighting: studios passed, Madonna and Jennifer Lopez were attached and detached, and Harvey Weinstein — by her 2017 New York Times account — harassed her relentlessly and told her 'I will kill you, don't think I can't.' She sued him for breach of contract, met every demand he set to kill the project, glued on prosthetic eyebrows and shaved her upper lip to play Kahlo, and became the first Mexican woman ever nominated for the Best Actress Oscar. She waited fifteen years to tell the Weinstein story — publishing only when the witness statement would make the collapse permanent."
+    anchor: 'the-eight-year-fight-to-make-frida--and-the-fifteen-year-wait-to-tell-on-weinstein'
+  - question: 'How did Salma Hayek break into Hollywood?'
+    answer: "In 1991 she walked away from the title role in Teresa, one of Mexico's most successful telenovelas, to learn English in Los Angeles — where casting directors told her a Latina would never be a leading lady. Her break came because she refused to stay quiet: she named the typecasting system on Paul Rodriguez's Spanish-language late-night show, Robert Rodriguez happened to be watching, and he cast her opposite Antonio Banderas in Desperado — the start of a 27-year, five-film partnership."
+    anchor: 'how-a-mexican-telenovela-star-learned-english-and-broke-hollywood-open'
+  - question: 'What has Salma Hayek produced?'
+    answer: "Her company Ventanarosa ('pink window,' after the bedroom window she invented stories at as a child) has accumulated 96 award wins from 259 nominations. The signature move was Ugly Betty: in 2006 she bought the rights to the Colombian telenovela Yo soy Betty, la fea and sold ABC on Latino buying-power data rather than a cultural argument. The pilot drew over sixteen million viewers, the show won a Golden Globe for Best Comedy, and it made America Ferrera a star."
+    anchor: 'how-salma-hayek-built-the-next-latina-blockbuster-after-frida'
+  - question: "Why did Salma Hayek breastfeed a stranger's baby in Sierra Leone?"
+    answer: "On a 2008 UNICEF trip, she met a malnourished one-week-old whose mother could not produce milk; still nursing her own daughter, she breastfed the baby on camera. When the footage aired and the internet erupted, she did not apologize — she had explained on tape that she wanted to break the regional taboo against nursing strangers' children in a country with one of the world's highest infant-mortality rates, and later approved UNICEF reusing the image."
+    anchor: 'how-salma-hayeks-protector-instinct-shows-up-off-screen'
 twitter: 'salmahayek'
 instagram: 'salmahayek'
 production_pretext:

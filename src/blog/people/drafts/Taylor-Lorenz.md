@@ -23,9 +23,11 @@ nationality: 'American'
 occupation:
   - 'Journalist'
 knows_about:
-  - 'Journalism'
-  - 'Digital media'
-  - 'Journalist'
+  - 'Internet culture reporting'
+  - 'Creator economy'
+  - 'Social platform trends'
+  - 'Online harassment dynamics'
+  - 'Independent media'
 keywords:
   - 'Taylor Lorenz enneagram'
   - 'Taylor Lorenz type 6'
@@ -45,12 +47,21 @@ citations:
   - 'https://www.imdb.com/name/nm11381011/'
   - 'https://www.taylorlorenz.com/'
 faqs:
-  - question: 'What is Taylor Lorenz''s Personality Type?'
-    answer: 'Enneagram Sixes are driven by a core fear of being without support, guidance, or security. Not just physical safety. Existential stability. The sense that the ground beneath you could shift at any moment, that the people and institutions you depend on could fail without warning, and that you might not survive it alone.'
+  - question: "What is Taylor Lorenz's personality type?"
+    answer: "Taylor Lorenz is an Enneagram Type 6 (The Loyalist), specifically a counterphobic 6w7. The pattern shows in her own words — 'the stress and fear of missing a deadline or disappointing others are what fuel me into action' — the week she cried about PTSD on MSNBC and then published the Libs of TikTok investigation four days later, the seven newsrooms in thirteen years she tested and found wanting, and the three to four horror movies a week she watches because controlled fear is 'very anxiety-reducing.'"
     anchor: 'what-is-taylor-lorenzs-personality-type'
-  - question: 'Why is Taylor Lorenz typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Digital media, Journalist.'
-    anchor: 'why-is-taylor-lorenz-typed-as-an-enneagram-type-6'
+  - question: 'Is Taylor Lorenz a Type 7?'
+    answer: "She's commonly read that way — the career-hopping, the scattered energy, the ADHD all look Seven on the surface. But Sevens repress fear; Lorenz names hers on national television and publishes anyway. Sevens leave jobs because they're bored; Lorenz leaves because trust was broken. The mechanism underneath is a counterphobic Six who extended trust, watched it get weaponized, and adjusted her defenses."
+    anchor: 'what-is-taylor-lorenzs-personality-type'
+  - question: 'Why did Taylor Lorenz leave the Washington Post?'
+    answer: "The breaking point was the Biden Instagram story: at a White House event she posted a story with Biden in the background captioned 'war criminal,' first denied it, then told editors someone else added the caption — four people confirmed to NPR it was hers, and three editors said she'd 'lost the trust of the newsroom's leadership.' Her own framing: 'It's increasingly difficult to communicate the urgency or importance of certain stories to bosses who have zero understanding of the world I cover.' She left for independent media: 'No company, no matter how benevolent you believe them to be, will ever have your best interests at heart.'"
+    anchor: 'no-company-will-ever-have-your-best-interests-at-heart'
+  - question: 'Why does Taylor Lorenz watch so many horror movies?'
+    answer: "She watches three to four a week and finds being scared 'very anxiety-reducing' — she got deeper into horror during the heaviest harassment periods of her life. For someone living with a stalker, death threats, deepfakes, and a swatted family, a movie monster is soothing: it follows rules, it has a script, the credits roll. It's a fear she chose, a threat with an ending."
+    anchor: 'the-body-that-keeps-score'
+  - question: 'What has online harassment cost Taylor Lorenz?'
+    answer: "She has severe PTSD and said on MSNBC that she contemplated suicide. Her family has been swatted at their homes, a stalker hired people to follow and photograph her and runs hundreds of dedicated accounts, and she lives with dermatillomania and trichotillomania — compulsive skin picking and hair pulling linked to chronic anxiety. 'I wasn't being hyperbolic when I said it's destroyed my life,' she wrote."
+    anchor: 'the-body-that-keeps-score'
 twitter: 'TaylorLorenz'
 instagram: 'taylorlorenz'
 tiktok: 'taylorlorenz'

@@ -26,10 +26,11 @@ occupation:
   - 'Screenwriter'
   - 'Comedian'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Screenwriting'
-  - 'Comedy'
+  - 'Sketch comedy writing'
+  - 'Cringe comedy'
+  - 'I Think You Should Leave'
+  - 'Second City improv'
+  - 'Skateboarding'
 keywords:
   - 'Tim Robinson enneagram'
   - 'Tim Robinson type 4'
@@ -47,12 +48,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q7804181'
   - 'https://www.imdb.com/name/nm4200503/'
 faqs:
-  - question: 'What is Tim Robinson''s Personality Type?'
-    answer: 'Most people see a comedian who likes cringe humor. But if you understand Type 4 — "The Individualist" — the real driver becomes visible: Tim Robinson''s comedy is a systematic exploration of what happens when identity collapses.'
+  - question: "What is Tim Robinson's personality type?"
+    answer: "Tim Robinson is an Enneagram Type 4 (The Individualist). The pattern shows in the gap between his self-described 'crippling' anxiety and the absolute conviction of his characters, his habit of replaying every interaction convinced he 'sounded like a jerk,' the SNL demotion he converted into three Emmys for 'I Think You Should Leave,' and a body of work that obsessively dissects one question: what happens when a performed identity falls apart in public."
     anchor: 'what-is-tim-robinsons-personality-type'
-  - question: 'Why is Tim Robinson typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Screenwriting.'
-    anchor: 'why-is-tim-robinson-typed-as-an-enneagram-type-4'
+  - question: 'Is Tim Robinson a Type 6 instead of a Type 4?'
+    answer: "His constant anxiety raises the Type 6 question, but the content of the anxiety settles it. He isn't running worst-case scenarios about danger — he's replaying conversations worried he sounded like a jerk. His characters don't fear punishment; they fear the humiliation of being seen. That's shame (Heart Center, Type 4), not fear (Head Center, Type 6)."
+    anchor: 'what-is-tim-robinsons-personality-type'
+  - question: 'Why was Tim Robinson removed from the SNL cast?'
+    answer: "After one rocky season as a featured player, SNL moved him to the writing staff — the first performer hired solely as a cast member to make that transition, and not by his choice. He called it the most his confidence has ever been shaken, then spent four more seasons writing sketches the show deemed too weird. When he left in 2016, those rejected ideas became 'I Think You Should Leave.'"
+    anchor: 'what-saturday-night-live-did-to-his-confidence'
+  - question: "Why do Tim Robinson's characters never admit they're wrong?"
+    answer: "Robinson has said the theme is always the same: people who can't admit a small mistake 'taking it so far that it becomes a much bigger problem,' as long as they can win on the small one. The hot dog guy insisting 'we're all trying to find the guy who did this' would rather sustain an absurd fiction than absorb five seconds of embarrassment — losing the lie means losing the identity built around it."
+    anchor: 'the-characters-who-cant-admit-it'
+  - question: 'What is The Chair Company about?'
+    answer: "Co-created with longtime SNL collaborator Zach Kanin, The Chair Company follows Ron Trosper, a man whose embarrassing workplace incident with a faulty chair leads him into a corporate conspiracy. It premiered on HBO in October 2025 to 1.4 million viewers — HBO's biggest comedy debut in over five years — and was renewed for a second season within weeks."
+    anchor: 'the-chair-company-his-magnum-opus'
 twitter: ''
 instagram: 'tsrobinson23'
 tiktok: ''

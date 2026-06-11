@@ -25,12 +25,11 @@ occupation:
   - 'Television Actor'
   - 'Dub Actor'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Music'
-  - 'Actor'
-  - 'Television Actor'
-  - 'Dub Actor'
+  - 'Screen acting'
+  - 'Horror and drama lead roles'
+  - 'Songwriting'
+  - 'Piano, guitar, ukulele, and drums'
+  - 'Independent music releases'
 keywords:
   - 'Odessa A''zion enneagram'
   - 'Odessa A''zion type 4'
@@ -51,12 +50,21 @@ citations:
   - 'https://en.wikipedia.org/wiki/Odessa_A%27zion'
   - 'https://en.wikipedia.org/wiki/Gideon_Adlon'
 faqs:
-  - question: 'What is Odessa A''zion''s personality type?'
-    answer: 'The Type 4 case for Odessa A''zion is the kind of case that doesn''t need to be argued — it needs to be organized. The evidence piles up faster than the analysis can keep it sorted.'
+  - question: "What is Odessa A'zion's personality type?"
+    answer: "Odessa A'zion is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in the stage name she engineered from her famous mother's surname, running away from home at 15 to couch-surf across LA, her 'work with me, not on me' doctrine with directors, the secret SoundCloud alias bugzbee, and the beta-blocker prescription she refuses to fill because she's more afraid of altering her own interior than of the anxiety itself."
     anchor: 'what-is-odessa-azions-personality-type'
-  - question: 'Why is Odessa A''zion typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Music.'
-    anchor: 'why-is-odessa-azion-typed-as-an-enneagram-type-4'
+  - question: "Why did Odessa A'zion change her name from Adlon?"
+    answer: "In 2020, Odessa Zion Segall Adlon became Odessa A'zion — a portmanteau welding a single 'A' from her mother Pamela Adlon's surname to her middle name Zion, which comes from her Jewish maternal grandfather Don Segall. She didn't erase the inheritance; she contracted it until it fit on her own terms. It also answers the industry-plant accusation she keeps facing: 'I didn't book anything for a really long time.'"
+    anchor: 'the-name-she-made-from-the-one-she-was-given'
+  - question: "Why did Odessa A'zion run away from home at 15?"
+    answer: "Her family didn't want her to act, so she got her own agent at 15 without their permission and left home the same year, couch-surfing across Los Angeles. Her parents had divorced and her father was living in Germany. Asked about her relationship with her mother, she said it was 'really hard to answer' and declined to say more."
+    anchor: 'why-odessa-azion-ran-away-from-home-at-15'
+  - question: "Who is Odessa A'zion's sister?"
+    answer: "Gideon Adlon, who kept the family surname and built a quieter indie career (Blockers, The Mustang, The Craft: Legacy, Sick), debuting in 2011 on Louie with the family's blessing. The article reads Gideon as the control condition: one Adlon daughter walked through the inherited door, while Odessa stopped being an Adlon and constructed a public self she could believably call hers."
+    anchor: 'the-sister-who-kept-the-name'
+  - question: "What did Odessa A'zion say to Josh Safdie on the Marty Supreme set?"
+    answer: "When Safdie tried to give her notes mid-take, she told him: 'Shut the fuck up, because that doesn't work on me. Let's just do it when you say Action.' A 25-year-old junior actor pushing back on a Cannes darling shouldn't have been survivable — instead she ended up with a BAFTA nomination for the film."
+    anchor: 'why-odessa-azion-needs-directors-to-work-with-me-not-on-me'
 instagram: 'odessaazion'
 content_quality:
   hook: 9.0

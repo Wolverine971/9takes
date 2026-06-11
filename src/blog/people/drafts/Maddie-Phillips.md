@@ -23,8 +23,10 @@ nationality: 'Canadian'
 occupation:
   - 'Actor'
 knows_about:
-  - 'Acting'
-  - 'Actor'
+  - 'Streaming-series character acting'
+  - 'Gen V (Cate Dunlap)'
+  - 'Teenage Bounty Hunters (Sterling Wesley)'
+  - 'LAMDA classical training'
 keywords:
   - 'Maddie Phillips enneagram'
   - 'Maddie Phillips type 4'
@@ -42,12 +44,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q98408279'
   - 'https://www.imdb.com/name/nm5828485/'
 faqs:
-  - question: 'What is Maddie Phillips''s personality type?'
-    answer: 'The evidence is in how she narrates her inner world — and whose inner worlds she chooses to inhabit.'
+  - question: "What is Maddie Phillips's personality type?"
+    answer: "Maddie Phillips is an Enneagram Type 4 (The Individualist) with a 5 wing. The pattern shows in her career-long pull toward girls who don't know who they are — Sterling Wesley in Teenage Bounty Hunters, Cate Dunlap in Gen V — fainting the night she learned she'd booked her breakout role, the somatic precision of her interview language ('a thing with skin,' 'your brain stops'), and the throwaway tenderness of wanting to hook her fictional character up with her own therapist."
     anchor: 'what-is-maddie-phillipss-personality-type'
-  - question: 'Why is Maddie Phillips typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Actor.'
-    anchor: 'why-is-maddie-phillips-typed-as-an-enneagram-type-4'
+  - question: 'Who does Maddie Phillips play in Gen V?'
+    answer: "Cate Dunlap, whose power is 'coercion via touch' — she can plant an idea in anyone's head and make them believe it's their own. In season one Cate turns out to be a plant and a villain; in season two she has lost her arm, her hair, and her certainty about which side she was ever on. Phillips plays the whole arc as one wounded, unresolved consciousness rather than a series of clean pivots."
+    anchor: 'why-maddie-phillips-plays-girls-who-dont-know-who-they-are'
+  - question: 'What happened after Teenage Bounty Hunters was canceled?'
+    answer: "Netflix canceled the show in October 2020, two months after it aired. The largely queer fandom fought back: a Change.org petition crossed thirty thousand signatures and fans mailed boxes of Sour Patch Kids to Netflix headquarters, a reference to the finale's title. Phillips, co-star Anjelica Bette Fellini, and showrunner Kathleen Jordan had gotten matching tattoos on the last day of filming — the ink stayed."
+    anchor: 'sterling-april-and-the-fans-who-refused-to-let-it-end'
+  - question: 'Where is Maddie Phillips from?'
+    answer: "She was born in Vancouver in 1994 to a Canadian father and an Australian mother, moved to Perth, Western Australia at ten, and spent seven years at Penrhos College, where she earned a High Distinction from LAMDA. At seventeen she moved back to Vancouver alone, was accepted into Capilano University's conservatory acting program, then skipped it to sign with an agency and chase auditions instead."
+    anchor: 'a-childhood-already-shapeshifting'
+  - question: "What did Maddie Phillips say about filming Gen V's medical-exam scenes?"
+    answer: "Describing the season-two scenes where Cate is stripped and medically examined, she told Variety: 'I do remember feeling not like a woman, not like a person, which was quite jarring. You just sort of become a thing with skin.' She described the experience as flipping between two states — 'panic and feeling vulnerable in survival mode' on one side, 'desensitized and numb' on the other — with nothing in between."
+    anchor: 'a-thing-with-skin-what-the-work-actually-costs-her'
 instagram: 'themaddiep'
 production_pretext:
   status: draft

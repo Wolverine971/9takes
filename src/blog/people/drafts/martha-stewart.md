@@ -30,12 +30,11 @@ occupation:
   - 'Businessperson'
   - 'Model'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Writing'
-  - 'Business'
-  - 'Modeling'
-  - 'Journalism'
-  - 'Television production'
+  - 'Martha Stewart Living'
+  - 'Homemaking and entertaining'
+  - 'Cooking and gardening'
+  - "Martha and Snoop's Potluck Dinner Party"
+  - 'Brand licensing'
 keywords:
   - 'Martha Stewart enneagram'
   - 'Martha Stewart type 1'
@@ -55,12 +54,21 @@ citations:
   - 'https://www.imdb.com/name/nm0829644/'
   - 'https://www.marthastewart.com/'
 faqs:
-  - question: 'What is Martha Stewart''s personality type?'
-    answer: 'Type 1 is the Reformer, sometimes called the Perfectionist. The core wound is the early belief that you yourself are not quite right and have to earn the verdict of "good" through correctness — of folding, of phrasing, of moral conduct, of dinner. The internal experience is a courtroom that never adjourns. Every choice is on trial. Every verdict is not quite. (See the full Type 1 profile.)'
+  - question: "What is Martha Stewart's personality type?"
+    answer: "Martha Stewart is an Enneagram Type 1 (The Reformer), specifically a 1w2. Her own opening line in the 2024 Netflix documentary is the confession: 'I am a perfectionist. And it runs in the family. And it started with my father.' The pattern shows in 'It's a good thing' functioning as a verdict rather than a compliment, in running her prison stay like a campus — taking notes, learning ceramics, planting a vegetable bed — and in a conviction that stung less for the money than for the line on the permanent record: she should have known better."
     anchor: 'what-is-martha-stewarts-personality-type'
-  - question: 'Why is Martha Stewart typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Writing, Business.'
-    anchor: 'why-is-martha-stewart-typed-as-an-enneagram-type-1'
+  - question: 'Why did Martha Stewart go to prison?'
+    answer: "On December 27, 2001, she sold roughly 4,000 shares of ImClone stock one day before a negative FDA decision, saving about $45,000, after a tip from her broker. In March 2004 she was convicted not of insider trading itself but of obstruction, conspiracy, and lying to federal investigators about why she sold. She served five months at Alderson Federal Prison Camp, then five months of home confinement."
+    anchor: 'why-martha-stewarts-prison-sentence-cut-deeper-than-the-crime'
+  - question: 'How did Martha Stewart and Snoop Dogg become friends?'
+    answer: "Snoop first appeared on her cooking show in 2008, but the friendship formally began at the 2015 Comedy Central Roast of Justin Bieber. Snoop's account: 'She sat next to me, and she stole the show. She was the funniest roaster that night. In that moment I knew I wanted to be alongside this lady for the rest of my life.' It became Martha and Snoop's Potluck Dinner Party, joint Paris Olympics coverage, and the first guest slot on her podcast."
+    anchor: 'martha-stewart-and-snoop-dogg-the-friendship-that-shouldnt-work'
+  - question: "What is Martha Stewart's relationship with her daughter Alexis like?"
+    answer: "Alexis built a TV show, Whatever, Martha!, around roasting her mother's old episodes, and her 2011 memoir Whateverland included the line 'I grew up with a glue gun pointed at my head' — Martha used to hand her gifts pre-wrap with the instruction 'Now wrap these but don't look inside.' Martha publicly called the memoir 'hilarious.' The 2024 documentary shows them in the same room again, not agreeing about much."
+    anchor: 'the-daughter-who-got-the-same-file'
+  - question: 'Was Martha Stewart the first self-made female billionaire?'
+    answer: "Yes — through the public offering of Martha Stewart Living Omnimedia, she became the first self-made female billionaire in American history. The mass-market foundation was laid earlier: a $200,000 lifestyle-consultant deal with Kmart in 1987, the first time a perfectionist's domestic aesthetic was sold on discount-store shelves."
+    anchor: 'how-martha-stewart-built-an-empire-on-correction'
 twitter: 'MarthaStewart'
 instagram: 'marthastewart48'
 production_pretext:

@@ -28,12 +28,12 @@ occupation:
   - 'Record Producer'
   - 'Actor'
 knows_about:
-  - 'Music'
-  - 'Hip-hop music'
-  - 'Singing'
-  - 'Songwriting'
-  - 'Music production'
-  - 'Acting'
+  - 'Genre-blending songwriting'
+  - 'Hip-hop and country crossover'
+  - 'Stadium tour performance'
+  - 'Guitar playing'
+  - 'Magic: The Gathering collecting'
+  - 'Sword forging'
 keywords:
   - 'Post Malone enneagram'
   - 'Post Malone type 9'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm8203589/'
   - 'https://www.postmalone.com/'
 faqs:
-  - question: 'What is Post Malone''s personality type?'
-    answer: 'Enneagram Type 9s are called The Peacemakers, but the name is misleading. The peace they keep isn''t the heroic kind. It''s the survival kind. Nines learn early that the safest way to exist is to not take up too much space. They merge. They accommodate. They become whatever the room needs them to be. And over time, they can lose track of who they actually are underneath all that accommodation.'
+  - question: "What is Post Malone's personality type?"
+    answer: "Post Malone is an Enneagram Type 9 (The Peacemaker). The pattern shows in the face tattoos he admits cover a face he can't stand to look at, the career built on absorbing every genre that would have him — from an eighth-grade metalcore cover of Rihanna's 'Umbrella' to a Nashville country album — the passive 'White Iverson' breakthrough he released against everyone's advice without ever fighting about it, the years of numbing himself with daily drinking, and the buried anger that only erupts sideways."
     anchor: 'what-is-post-malones-personality-type'
-  - question: 'Why is Post Malone typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Music, Hip-hop music, Singing.'
-    anchor: 'why-is-post-malone-typed-as-an-enneagram-type-9'
+  - question: 'Why does Post Malone have face tattoos?'
+    answer: "By his own account, insecurity, not swagger. 'My face tattoos maybe come from a place of insecurity, to where I don't like how I look, so I'm going to put something cool on there so I can look at myself and say, You look cool, kid, and have a modicum of self-confidence,' he told GQ. The piece reads them as Nine armor: they make him stand out while functioning as a place to hide. His daughter's initials are now tattooed on his forehead."
+    anchor: 'the-face-he-couldnt-look-at'
+  - question: 'Is Post Malone sober?'
+    answer: "No, and he doesn't claim to be. After a doctor warned him about his liver, he lost 55 pounds — from 240 to 185 — mostly by cutting out soda, and the daily crying-and-drinking cycle is behind him. But as he told Call Her Daddy: 'I used to drink because I was sad. Now I drink for shows and because I'm happy... I just drink a little bit to cope with that and get my liquid courage.' He calls his drinking a work in progress."
+    anchor: 'the-daughter-on-the-floor'
+  - question: 'What was the Post Malone culture vulture controversy?'
+    answer: "In a 2017 'beer-tasting interview' in Poland, Post said: 'If you're looking for lyrics, if you're looking to cry, if you're looking to think about life, don't listen to hip-hop.' Complex ran 'Here's Why Post Malone Is a Problem,' and long-simmering culture-vulture accusations went nuclear. His raw Twitter eruption was followed by a conciliatory video and a return to the chill persona — and in 2024 he admitted to CBS News the wound was still there: 'It sucked. I was a kid.'"
+    anchor: 'the-culture-vulture-and-where-the-anger-lives'
+  - question: 'Did Post Malone really sleep in Texas Stadium as a kid?'
+    answer: "Yes. After his father took a job managing concessions for the Dallas Cowboys, nine-year-old Austin Post slept on a cot at Texas Stadium while his dad worked late. Jerry Jones remembered it: 'He used to come over every night and sleep in Texas Stadium. Probably four or five years.' In November 2025, Post headlined the Cowboys' Thanksgiving halftime show at AT&T Stadium — the building that replaced the one with the cot — with his father in the stands."
+    anchor: 'the-cot-at-texas-stadium'
 twitter: 'PostMalone'
 instagram: 'postmalone'
 tiktok: 'postmalone'

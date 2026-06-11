@@ -593,7 +593,7 @@
 
 	.status-badge {
 		padding: 4px 12px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 0.75rem;
 		font-weight: 600;
 		text-transform: uppercase;
@@ -637,7 +637,7 @@
 		gap: 20px;
 		padding: 16px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 1rem;
 		background: var(--stone-warm);
 	}
 
@@ -677,7 +677,7 @@
 		width: 100%;
 		min-height: 38px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		font-size: 0.875rem;
@@ -698,7 +698,7 @@
 
 	.button-row button {
 		border: 1px solid var(--lamp-glow);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: var(--lamp-glow);
 		color: white;
 		padding: 8px 14px;
@@ -737,7 +737,7 @@
 	.funnel-bar {
 		height: 32px;
 		background: linear-gradient(90deg, var(--lamp-glow) 0%, var(--lamp-deep) 100%);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		display: flex;
 		align-items: center;
 		padding: 0 12px;
@@ -789,7 +789,7 @@
 
 	.summary-tile {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 1rem;
 		background: var(--stone-warm);
 		padding: 12px;
 	}
@@ -832,7 +832,7 @@
 
 	.copy-source {
 		display: inline-block;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: var(--stone-warm);
 		color: var(--ink-mid);
 		font-size: 0.6875rem;
@@ -851,7 +851,7 @@
 	.step-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 1rem;
 		padding: 16px;
 	}
 
@@ -874,13 +874,13 @@
 		color: var(--ink-mid);
 		background: var(--stone-warm);
 		padding: 2px 8px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.managed-badge {
 		display: inline-block;
 		margin-bottom: 8px;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: rgba(15, 118, 110, 0.12);
 		color: var(--data-teal);
 		font-size: 0.6875rem;
@@ -933,7 +933,7 @@
 		border: 1px solid var(--stone-warm);
 		color: var(--lamp-glow);
 		padding: 6px 12px;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-size: 0.75rem;
 		cursor: pointer;
 		width: 100%;
@@ -947,7 +947,7 @@
 		margin-top: 12px;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 
@@ -976,7 +976,7 @@
 		display: flex;
 		flex-direction: column;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 1rem;
 		background: var(--night-deep);
 		box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
 		overflow: hidden;
@@ -1015,7 +1015,7 @@
 	.modal-close-button {
 		flex: 0 0 auto;
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		font-size: 0.8125rem;
@@ -1038,7 +1038,7 @@
 	}
 
 	.email-modal-meta span {
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: var(--stone-warm);
 		color: var(--ink-mid);
 		font-size: 0.75rem;
@@ -1064,7 +1064,7 @@
 	.table-wrapper {
 		overflow-x: auto;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 1rem;
 	}
 
 	.enrollments-table {
@@ -1124,7 +1124,7 @@
 	.badge {
 		display: inline-block;
 		padding: 2px 8px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 0.6875rem;
 		font-weight: 600;
 	}
@@ -1150,7 +1150,7 @@
 		padding: 8px 20px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		color: var(--ink-bright);
 		font-size: 0.8125rem;
 		cursor: pointer;
@@ -1210,7 +1210,7 @@
 
 		.enrollments-table tr {
 			border: 1px solid var(--stone-warm);
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			background: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
 			padding: 0.95rem;
 		}

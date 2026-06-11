@@ -28,12 +28,11 @@ occupation:
   - 'Television Actor'
   - 'Actor'
 knows_about:
-  - 'Film acting'
-  - 'Television acting'
-  - 'Acting'
-  - 'Stage Actor'
-  - 'Film Actor'
-  - 'Television Actor'
+  - 'Character-driven screen acting'
+  - 'Shakespearean stage performance'
+  - 'Live musical performance on camera'
+  - 'Guitar and folk music'
+  - 'Punk and ska bands'
 keywords:
   - 'Oscar Isaac enneagram'
   - 'Oscar Isaac type 4'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q336788'
   - 'https://www.imdb.com/name/nm1209966/'
 faqs:
-  - question: 'What is Oscar Isaac''s Personality Type?'
-    answer: 'Enneagram Fours carry a core wound of feeling fundamentally different from everyone around them — not because they chose to be outsiders, but because the world simply registered differently in them from the beginning. They feel things at a depth that others find uncomfortable, and they build their identity around the conviction that authenticity is survival.'
+  - question: "What is Oscar Isaac's personality type?"
+    answer: "Oscar Isaac is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in channeling his mother's death directly into his 2017 Hamlet ('the play is the only salvation that I could find'), the confessed desperation 'I got to be great. I need to be seen,' a rootless evangelical childhood spent expecting the apocalypse, and the insistence on smuggling his own identity into roles — like making Moon Knight's third alter speak Spanish."
     anchor: 'what-is-oscar-isaacs-personality-type'
-  - question: 'Why is Oscar Isaac typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, Acting.'
-    anchor: 'why-is-oscar-isaac-typed-as-an-enneagram-type-4'
+  - question: 'What happened to Oscar Isaac in 2017?'
+    answer: "His mother María Eugenia died in February — he had been reading her Hamlet as she declined. He married Elvira Lind in March, their son Eugene, named after his mother, was born in April, and that summer he played Hamlet at the Public Theater while still grieving. Lind filmed the process, which became the documentary King Hamlet. 'On a cellular level, you're a completely different person,' he said of that year."
+    anchor: 'the-year-everything-happened'
+  - question: "Why was Inside Llewyn Davis Oscar Isaac's turning point?"
+    answer: "The Coen brothers considered the screenplay unfilmable until they met Isaac, because the lead had to act, sing, and play guitar at professional level live in single takes. T-Bone Burnett taught him Travis picking and he mastered eight to ten songs for live performance on camera. He described Llewyn as an artist 'isolated because the things he has to say — no one is interested in hearing them' — a man he didn't have to imagine, because after years of being typecast as terrorists and thugs, he'd been that man."
+    anchor: 'the-llewyn-davis-turning-point'
+  - question: 'Why did Oscar Isaac almost turn down Moon Knight?'
+    answer: "He had just gotten out of the Star Wars universe and was wary of franchise machinery and roles where 'you set it up for the main people and then you die spectacularly.' He agreed once he could make the character his own: an English accent for the alter Steven Grant, Spanish for the alter Jake Lockley, and his younger brother Michael hired as an on-set double so he had a real person to act against when playing opposite himself."
+    anchor: 'the-roles-he-chooses-and-the-ones-he-walks-away-from'
+  - question: 'What happened between Oscar Isaac and Jessica Chastain?'
+    answer: "They've been friends since Juilliard — more than half their lives. Performing the slow destruction of a marriage in HBO's Scenes from a Marriage, in long takes with no cuts to hide behind, demanded so much emotional honesty that Chastain said afterward: 'Our friendship has never quite been the same.' Not broken — changed."
+    anchor: 'our-friendship-has-never-been-the-same'
 twitter: '@OscarIsaac'
 instagram: 'oscarisaac'
 tiktok: ''

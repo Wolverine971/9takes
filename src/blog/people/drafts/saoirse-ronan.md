@@ -38,12 +38,11 @@ occupation:
   - 'Actor'
   - 'Executive Producer'
 knows_about:
-  - 'Film acting'
-  - 'Television acting'
-  - 'Acting'
-  - 'Film Actor'
-  - 'Stage Actor'
-  - 'Television Actor'
+  - 'Dialect and accent work'
+  - 'Film producing (The Outrun)'
+  - 'Short film directing (Paper Plane)'
+  - 'Irish identity and emigration stories'
+  - 'On-screen singing (Blitz)'
 keywords:
   - 'Saoirse Ronan enneagram'
   - 'Saoirse Ronan type 4'
@@ -61,12 +60,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q228603'
   - 'https://www.imdb.com/name/nm1519680/'
 faqs:
-  - question: 'What is Saoirse Ronan''s Personality Type?'
-    answer: 'The Enneagram Four — "The Individualist" — is defined by the search for identity and authentic self-expression. Their core fear is having no identity or personal significance. Their core desire is to be uniquely themselves. They process the world through feeling first, and they carry an almost gravitational sensitivity to what''s missing — in themselves, in others, in any room they walk into.'
+  - question: "What is Saoirse Ronan's personality type?"
+    answer: "Saoirse Ronan is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in the migratory identity she's never resolved ('I don't know where I am from. I'm just Irish'), a career built entirely on displaced women — Eilis, Lady Bird, Jo March, Rona — the 'monster in the corner' of a loved one's alcoholism she finally faced by producing The Outrun, and the fierce curation of a private life with no social media and a wedding the public learned about after the fact."
     anchor: 'what-is-saoirse-ronans-personality-type'
-  - question: 'Why is Saoirse Ronan typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, Acting.'
-    anchor: 'why-is-saoirse-ronan-typed-as-an-enneagram-type-4'
+  - question: 'Why did Saoirse Ronan produce The Outrun?'
+    answer: "During the 2020 lockdown her husband Jack Lowden handed her Amy Liptrot's memoir about alcoholism and recovery on Orkney and said, 'This should be your next role.' She produced it as well as starred — her first time behind the camera — because a loved one's alcoholism had been 'the monster in the corner that I hadn't dealt with for a very long time.' She has never named who, and says the film let her humanize the experience instead of demonizing it."
+    anchor: 'the-addiction-wound-she-finally-faced'
+  - question: "What happened in Saoirse Ronan's viral Graham Norton moment?"
+    answer: "In October 2024, as Eddie Redmayne described being taught to use a phone as a self-defense weapon and Paul Mescal joked that no one would ever think of that, Ronan said: 'That's what girls have to think about all the time. Am I right ladies?' The laughter stopped, then the audience erupted. She said afterward she 'didn't necessarily set out to make a splash' — the article reads it as emotional honesty overriding the social contract of keeping it light."
+    anchor: 'the-graham-norton-moment-that-changed-the-room'
+  - question: 'Why is Saoirse Ronan not on social media?'
+    answer: "'Self-promotion has always made me feel really uncomfortable... I don't need to know what everyone thinks of me all the time. It wouldn't be healthy.' She's been told the lack of followers could cost her roles and doesn't care. She married Jack Lowden in a small Edinburgh ceremony the public learned about afterward, welcomed their first child quietly in September 2025, and plans to raise her kids in Ireland — 'I need to be around normal people who'll tell me if I'm being an eejit.'"
+    anchor: 'why-she-disappears-between-roles'
+  - question: "What is Saoirse Ronan's relationship with Greta Gerwig?"
+    answer: "Gerwig calls her 'an author of Lady Bird' and her 'filmmaking partner/wizard/genius.' For Little Women, Ronan proposed that Jo wrote 'like a military campaign' and asked to wear a military jacket in the writing scenes. Most revealing: Ronan says Gerwig is the only director with whom she loses 'that crippling fear that I would usually have' — meaning fear is her default state with everyone else."
+    anchor: 'why-acting-costs-something-real'
 twitter: ''
 instagram: ''
 tiktok: ''

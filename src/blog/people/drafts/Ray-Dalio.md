@@ -25,12 +25,12 @@ occupation:
   - 'Investor'
   - 'Financier'
 knows_about:
-  - 'Investing'
-  - 'Investment'
-  - 'Success In Business'
-  - 'Principles: Life & Work'
-  - 'Entrepreneurship'
-  - 'Writing'
+  - 'Global macro investing'
+  - 'Risk parity portfolio design'
+  - 'Debt cycle analysis'
+  - 'Radical transparency management'
+  - 'Transcendental Meditation practice'
+  - 'Economic history writing'
 keywords:
   - 'Ray Dalio enneagram'
   - 'Ray Dalio type 5'
@@ -48,12 +48,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q7297378'
   - 'https://www.imdb.com/name/nm4734656/'
 faqs:
-  - question: 'What is Ray Dalio''s personality type?'
-    answer: 'He is a textbook Type 5 with a strong 6 wing — the Investigator who builds systems against future helplessness. The 5 is the head-center type whose core fear is being depleted, overwhelmed, or rendered incompetent. Their answer is to retreat, observe, and accumulate enough understanding to never be caught off-guard. Dalio gives this away in almost every sentence he writes about decision-making.'
+  - question: "What is Ray Dalio's personality type?"
+    answer: "Ray Dalio is an Enneagram Type 5 (The Investigator), specifically a 5w6. The pattern shows in the 210 written Principles he built after his 1982 wipeout, the recorded meetings and believability-weighted votes that run Bridgewater, the twice-daily Transcendental Meditation he has practiced since 1969, his description of emotion as a faulty subroutine ('there are two yous inside you'), and the 1974 punch at his boss that started it all — the one event he never wrote a principle for."
     anchor: 'what-is-ray-dalios-personality-type'
-  - question: 'Why is Ray Dalio typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Investing, Investment, Success In Business.'
-    anchor: 'why-is-ray-dalio-typed-as-an-enneagram-type-5'
+  - question: 'Why did Ray Dalio write 210 principles?'
+    answer: "After Mexico's 1982 default, Dalio bet everything on a depression that never came, laid off everyone at Bridgewater, and borrowed $4,000 from his father to make rent. He responded by writing down what he had thought, what he had missed, and what rule he should have followed — after every trade, then every decision, then every meeting. By the time Principles was published in 2017 there were 210 of them. As the piece puts it, the principles aren't a memoir; they are a fence built around 1982."
+    anchor: 'the-1982-bet-that-broke-ray-dalio'
+  - question: "How does Bridgewater's radical transparency actually work?"
+    answer: "Every meeting has been audio- or video-recorded for decades, employees rate each other in real time on iPad apps in a system called 'dotting,' and a 'believability score' weights each person's input. Dalio claims he hasn't made a decision contrary to a believability-weighted vote in forty years. The firm had its own vocabulary — investigations were 'probings,' being pushed out was 'sorting' — and roughly a third of new hires didn't last eighteen months."
+    anchor: 'inside-bridgewater-the-family-that-records-itself'
+  - question: 'Does Ray Dalio really meditate twice a day?'
+    answer: "Yes. He learned Transcendental Meditation in 1969, six years before founding Bridgewater, and has done two twenty-minute sessions a day almost every day for over fifty years. 'It's the single most important reason for whatever success I've had,' he told CNBC in 2018 — the most rule-bound man in finance credits his success not to the rules but to withdrawing from them twice daily."
+    anchor: 'why-ray-dalio-meditates-twice-a-day'
+  - question: 'What did Ray Dalio say about China?'
+    answer: "On November 30, 2021, on CNBC's Squawk Box, Dalio compared the Chinese state's treatment of dissidents to a 'strict parent.' Mitt Romney called it 'a sad moral lapse,' and Dalio went on LinkedIn the next day to say he had been 'sloppy' — the strict-parent line was something a Chinese leader had told him about Confucian governance. The piece reads the episode as a 5w6 tell: treating a regime as a system to be analyzed while keeping hands clean of the moral question."
+    anchor: 'what-ray-dalio-gets-wrong-about-china'
 twitter: 'RayDalio'
 instagram: 'raydalio'
 production_pretext:

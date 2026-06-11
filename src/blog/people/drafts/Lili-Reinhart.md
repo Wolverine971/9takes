@@ -25,10 +25,11 @@ occupation:
   - 'Television Actor'
   - 'Film Actor'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Writing'
+  - 'Poetry (Swimming Lessons)'
+  - 'Mental health advocacy'
+  - 'Body dysmorphia and eating disorder awareness'
+  - 'Skincare entrepreneurship (Personal Day)'
+  - 'Chronic illness self-advocacy'
 keywords:
   - 'Lili Reinhart enneagram'
   - 'Lili Reinhart type 4'
@@ -46,12 +47,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q28653501'
   - 'https://www.imdb.com/name/nm3929887/'
 faqs:
-  - question: 'What is Lili Reinhart''s Personality Type?'
-    answer: 'Most Enneagram Fours do not publish books. They write the poems, but they rarely let the world see them. Reinhart is an unusual Four because she has turned the private inner experience — the one Fours guard like a religion — into a public career. The depth, the melancholy, the obsession with authenticity, the sense of being different from everyone around her: these are the currency she trades in.'
+  - question: "What is Lili Reinhart's personality type?"
+    answer: "Lili Reinhart is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in the New York Times-bestselling poetry collection about her depression she published at 23, the grief poems she brought to film sets to access the right feelings, her insistence that 'I am not Betty Cooper' even as the role made her famous, and the eighth-grade panic attacks she rode out hiding in school bathrooms with a brown paper bag."
     anchor: 'what-is-lili-reinharts-personality-type'
-  - question: 'Why is Lili Reinhart typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
-    anchor: 'why-is-lili-reinhart-typed-as-an-enneagram-type-4'
+  - question: 'What chronic illnesses does Lili Reinhart have?'
+    answer: "After months of hospital visits across multiple countries, she was diagnosed with interstitial cystitis, a chronic bladder-wall inflammation, in October 2024 — a year she called the hardest of her life. In December 2025 a urogynecologist confirmed a second diagnosis, endometriosis, which she said not one doctor had seriously considered as the underlying cause. Her public response: 'Do not let a doctor gaslight you or diminish your pain.'"
+    anchor: 'how-lili-reinharts-body-keeps-breaking'
+  - question: 'Why did Lili Reinhart call out Kim Kardashian?'
+    answer: "In May 2022, after Kardashian told Vogue she lost 16 pounds in three weeks to fit into Marilyn Monroe's dress for the Met Gala, Reinhart posted that openly admitting to starving yourself for a dress was 'so f---ed on 100s of levels' and called the ignorance 'other-worldly disgusting.' She clarified the next day that she wasn't chasing attention: 'I don't see enough people with large platforms calling out toxic behavior in our industry.'"
+    anchor: 'why-lili-reinhart-keeps-speaking-when-others-stay-silent'
+  - question: 'Did Lili Reinhart have an eating disorder while filming Riverdale?'
+    answer: "Yes — during the show's sixth season in 2022 she developed an eating disorder and told Self magazine that '99 percent of my thoughts were about my body,' describing herself as dissociated for most of the season. During that run a male director leaned over and told her to 'just suck in your stomach a little bit.' Her co-stars intervened in real time; Reinhart never named him and even defended his intentions."
+    anchor: 'the-season-she-disappeared-inside-betty-cooper'
+  - question: "What is Personal Day, Lili Reinhart's skincare brand?"
+    answer: "Launched in October 2024, Personal Day is an acne-focused skincare line of five products — including a salicylic acid treatment called Doing The Work — all formulated to be compatible with Accutane and Spironolactone, the prescription acne drugs most beauty brands ignore. She built it for the user her seventh-grade self was: already on the pills, already hiding her face."
+    anchor: 'the-brand-she-built-out-of-her-own-face'
 twitter: 'https://twitter.com/lilireinhart'
 instagram: 'https://www.instagram.com/lilireinhart'
 tiktok: ''

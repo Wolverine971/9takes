@@ -28,12 +28,12 @@ occupation:
   - 'Film Producer'
   - 'Songwriter'
 knows_about:
-  - 'Acting'
-  - 'Film directing'
-  - 'Screenwriting'
-  - 'Film production'
-  - 'Songwriting'
-  - 'Fiction writing'
+  - 'Madea stage plays and film franchise'
+  - 'Independent studio ownership (Tyler Perry Studios)'
+  - 'Chitlin circuit theater touring'
+  - 'Faith-based storytelling'
+  - 'Serving Black church-going audiences Hollywood ignored'
+  - 'Content ownership and licensing-free production'
 keywords:
   - 'Tyler Perry enneagram'
   - 'Tyler Perry type 3'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm1347153/'
   - 'https://www.tylerperry.com'
 faqs:
-  - question: 'What is Tyler Perry''s personality type?'
-    answer: 'The Enneagram describes nine core personality structures, each organized around a fundamental emotional wound. For Type 3 — the Achiever — that wound is shame. Not the garden-variety embarrassment everyone feels. A structural shame that says: without my accomplishments, I don''t exist.'
+  - question: "What is Tyler Perry's personality type?"
+    answer: "Tyler Perry is an Enneagram Type 3 (The Achiever). The pattern shows in changing his name from Emmitt Perry Jr. at sixteen to escape his abusive father, six years of staging the same play to empty rooms while sleeping in a car, more than 1,200 TV episodes and 22 films of near-compulsive output, his insistence on owning 100% of everything he creates, and fifteen years of pouring himself into work rather than grieving his mother."
     anchor: 'what-is-tyler-perrys-personality-type'
-  - question: 'Why is Tyler Perry typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film directing, Screenwriting.'
-    anchor: 'why-is-tyler-perry-typed-as-an-enneagram-type-3'
+  - question: 'How did Tyler Perry create Madea?'
+    answer: "Madea was written as a five-minute cameo in an early stage play, but when the lead actress didn't show up, Perry put on the wig and dress himself and stayed onstage the whole time. He calls her 'exactly the PG version of my mother and my aunt.' Psychologically, Madea is the anti-Tyler: she says whatever she thinks and expresses every emotion immediately — everything the man who survived by performing trained himself not to do."
+    anchor: 'the-accidental-grandmother'
+  - question: "How did his mother's death affect Tyler Perry?"
+    answer: "When Willie Maxine Perry died in 2009, Perry lost 'the purpose to keep working and grinding that hard' — he says all the work was about her. Instead of grieving, he produced more shows and films for fifteen years. He only admitted the avoidance out loud to Anderson Cooper in December 2024: 'I poured myself into work to avoid facing grief and the trauma of my past.'"
+    anchor: 'maxines-baby'
+  - question: 'Why does Tyler Perry own everything he creates?'
+    answer: "Perry took Oprah's lesson — 'write your own checks and be in full control' — and fused it with a childhood defined by powerlessness: beatings with a vacuum cord and sexual abuse by four adults. His answer was to become someone no one could control again. He doesn't license content or share equity: 'I own the lights. I own the sets,' he told Forbes, and built his $250 million studio on a former Confederate army base."
+    anchor: 'while-youre-fighting-for-a-seat-at-the-table-ill-be-down-in-atlanta-building-my-own'
+  - question: 'Did Tyler Perry forgive his father?'
+    answer: "Yes — after learning as an adult that Emmitt Perry Sr. wasn't his biological father, Perry researched the man's childhood and found a story worse than his own: abandoned, found in a drainage canal, raised by a fourteen-year-old who beat children. 'I had an opportunity to either carry that on into another generation or dig it up and cut it at its root,' he said. They have no relationship, but Perry still supports him financially because 'we were never hungry, he never left the family.'"
+    anchor: 'breaking-the-cord'
 twitter: 'https://twitter.com/tylerperry'
 instagram: 'https://instagram.com/tylerperry'
 tiktok: ''

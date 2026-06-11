@@ -24,12 +24,11 @@ occupation:
   - 'YouTuber'
   - 'Entrepreneur'
 knows_about:
-  - 'YouTube content creation'
-  - 'Entrepreneurship'
-  - 'Philanthropy'
-  - 'TikTok'
-  - 'X'
-  - 'Stunt Philanthropism'
+  - 'YouTube algorithm analysis'
+  - 'Viral video production'
+  - 'Stunt philanthropy'
+  - 'Consumer brand building (Feastables)'
+  - 'Large-scale content production'
 keywords:
   - 'MrBeast enneagram'
   - 'MrBeast type 8'
@@ -47,12 +46,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q57618112'
   - 'https://www.imdb.com/name/nm10055663/'
 faqs:
-  - question: 'What is MrBeast''s personality type?'
-    answer: 'MrBeast is analyzed as an Enneagram Type 8 (Challenger). The profile connects that type pattern to Jimmy Donaldson turned isolation, illness, and defiance into the loudest machine on YouTube, then got trapped inside the empire he built.'
+  - question: "What is MrBeast's personality type?"
+    answer: "MrBeast (Jimmy Donaldson) is an Enneagram Type 8 (The Challenger), specifically a Self-Preservation 8 with a 7 wing. The pattern shows in his defiance reflex — 'Everything in my body just wants to go, F*** you. I obviously can' — the thousand consecutive days studying the YouTube algorithm, keeping less than $1 million in the bank while reinvesting everything into the machine, the A/B/C-player manual with no room for mediocrity, and the Crohn's-driven need to fight helplessness wherever he sees it."
     anchor: 'what-is-mrbeasts-personality-type'
-  - question: 'Why is MrBeast typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Entrepreneurship, Philanthropy.'
-    anchor: 'why-is-mrbeast-typed-as-an-enneagram-type-8'
+  - question: "What was MrBeast's childhood like?"
+    answer: "A teacher once asked if Jimmy was mute — that's how little he spoke. He claims no vivid memories before age 11, his father left after an abusive relationship when Jimmy was about ten, and Crohn's disease dropped him from 190 to 139 pounds at fifteen, ending his baseball career. He went to East Carolina University for two weeks, dropped out to do YouTube full time, and his mother kicked him out of the house."
+    anchor: 'the-silent-kid-who-couldnt-relate-to-anyone'
+  - question: 'Why does MrBeast keep less than $1 million in his bank account?'
+    answer: "Despite a company valued in the billions, every dollar goes back into the machine — average main-channel videos cost $3-4 million, and one required 400 days and 11,000 hours of footage. As he puts it: 'That's net worth. I have negative money right now.' For someone whose childhood taught him nothing is stable, reinvesting everything is the only way to feel in control — he's even borrowing money from his mother for his wedding."
+    anchor: 'how-mrbeast-became-a-machine-that-couldnt-slow-down'
+  - question: "How does Crohn's disease affect MrBeast?"
+    answer: "Diagnosed at 15, it forces him to eat the same foods every week of every year, take immune-suppressing Remicade infusions every eight weeks, and endure constant illness — COVID six times, shingles, random rashes. The article argues it's the engine of his pattern: a body that betrayed him taught him helplessness, which is why his philanthropy targets it in others — 2,000 people helped to walk, 1,000 given sight, 1,000 enabled to hear."
+    anchor: 'how-crohns-disease-became-the-engine'
+  - question: "Is MrBeast's philanthropy genuine?"
+    answer: "He has raised $20 million for trees, $33 million for ocean cleanup, and $40 million for clean water, and runs a food pantry distributing 100,000 meals monthly — while critics call videos like '1,000 Blind People See For the First Time' poverty porn. His own response: 'If you're trying to be liked, I actually don't recommend you help people. The ironic part is the more I help people, the more shit I get.' Whether it's integration or another form of control is the question the article leaves open."
+    anchor: 'why-philanthropy-complicates-the-need-for-control'
 twitter: 'MrBeast'
 instagram: 'mrbeast'
 tiktok: 'mrbeast'

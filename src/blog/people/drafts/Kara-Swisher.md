@@ -25,11 +25,11 @@ occupation:
   - 'Journalist'
   - 'Podcaster'
 knows_about:
-  - 'Journalism'
-  - 'Podcasting'
-  - 'Technological Change'
-  - 'Entrepreneurship'
-  - 'Writing'
+  - 'Technology journalism'
+  - 'Tech CEO interviews'
+  - 'Media company founding'
+  - 'Podcast hosting'
+  - 'Silicon Valley power dynamics'
 keywords:
   - 'Kara Swisher enneagram'
   - 'Kara Swisher type 8'
@@ -47,12 +47,21 @@ citations:
   - 'https://www.imdb.com/name/nm2425576/'
   - 'https://www.imdb.com/name/nm2425576/bio/'
 faqs:
-  - question: 'What is Kara Swisher''s personality type?'
-    answer: 'Kara Swisher is analyzed as an Enneagram Type 8 (Challenger). The profile connects that type pattern to Why does Kara Swisher intimidate Silicon Valley''s most powerful men? We decode the Type 8 drive behind the interviews, bluntness, and refusal to defer.'
+  - question: "What is Kara Swisher's personality type?"
+    answer: "Kara Swisher is an Enneagram Type 8 (The Challenger). The pattern shows in the family nickname Tempesta (storm), the interview method built on knowing more than subjects expect and refusing to perform deference, making Mark Zuckerberg sweat through his hoodie on stage in 2010, telling Obama 'Yes, I am' when he'd heard she was obnoxious, and a fear list that ends with 'not being scared enough' — an Eight who knows her own wiring."
     anchor: 'what-is-kara-swishers-personality-type'
-  - question: 'Why is Kara Swisher typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Podcasting, Technological Change.'
-    anchor: 'why-is-kara-swisher-typed-as-an-enneagram-type-8'
+  - question: "Why didn't Kara Swisher join the military or the CIA?"
+    answer: "She wanted to — 'I wanted to be in the military. I would have been an admiral' — and dreamed of CIA military intelligence analysis. But under Don't Ask, Don't Tell, her identity was disqualifying: 'I was gay. And at the time, you could not be gay in the military.' So she went to Columbia journalism school and built the same career — sorting signal from noise and interrogating power — in another institution."
+    anchor: 'why-kara-swisher-had-to-build-her-own-career'
+  - question: 'What happened between Kara Swisher and Elon Musk?'
+    answer: "She initially admired him for thinking big, writing off the juvenile humor as ten percent of who he was. In September 2020, pressed on COVID worker safety, he answered 'Everybody dies' and threatened to end the interview. After he bought Twitter she sent him strategic advice; weeks later he emailed her a single word — 'Asshole' — and she replied, 'If I did something assholish, I'd say so and I didn't, so fuck you.' In Burn Book she calls Zuckerberg the most damaging man in tech and Musk the most disappointing."
+    anchor: 'how-kara-swisher-interviews-powerful-men'
+  - question: "What happened during Kara Swisher's stroke?"
+    answer: "In 2011, on a 14-hour flight to Hong Kong, a clot traveled through an undetected hole in her heart to her brain. She was 49 with no typical risk factors and recovered completely. Her father died of a cerebral hemorrhage when she was five; she nearly died of a cerebral clot — the same organ, the same mechanism, one generation apart. The fear that stayed was leaving her children the way her father left her."
+    anchor: 'kara-swishers-stroke-and-mortality-shift'
+  - question: "What does Kara Swisher mean by 'man-boys'?"
+    answer: "It's her term for the tech founders who accumulated world-altering power without the emotional development to wield it: 'What I hate is persistent puerile behavior and lack of care about the pain it causes, qualities too often tinged with odd personal grievance and deep-seated insecurity.' Her 2024 memoir Burn Book reads as a love story turned grief — she believed the world-changing promises, and the book hurts because she was right about the change and wrong about its shape."
+    anchor: 'kara-swishers-love-life-and-her-problem-with-man-boys'
 twitter: '@karaswisher'
 instagram: '@karaswisher'
 tiktok: ''

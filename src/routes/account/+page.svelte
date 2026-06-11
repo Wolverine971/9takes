@@ -420,7 +420,7 @@
 	.panel {
 		position: relative;
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 16%, transparent);
-		border-radius: 0.95rem;
+		border-radius: 1rem;
 		background: color-mix(in srgb, var(--stone-warm) 96%, transparent);
 		box-shadow: 0 16px 36px rgba(12, 10, 9, 0.16);
 	}
@@ -512,7 +512,7 @@
 		justify-content: center;
 		min-height: 2.5rem;
 		padding: 0.65rem 0.9rem;
-		border-radius: 0.7rem;
+		border-radius: 0.625rem;
 		text-decoration: none;
 		font-weight: 600;
 		transition:
@@ -615,7 +615,7 @@
 	.field input {
 		width: 100%;
 		padding: 0.75rem 0.85rem;
-		border-radius: 0.7rem;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 16%, transparent);
 		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
 		color: var(--ink-bright);
@@ -669,7 +669,7 @@
 		align-items: center;
 		padding: 0.7rem 0.8rem;
 		border: 1px solid color-mix(in srgb, var(--type-accent) 18%, var(--ink-dim));
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
 		color: inherit;
 		text-align: left;
@@ -723,7 +723,7 @@
 		gap: 0.15rem;
 		margin: 0.8rem 0 0;
 		padding: 0.8rem 0.9rem;
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--type-accent, var(--lamp-glow)) 18%, transparent);
 		background: color-mix(in srgb, var(--type-accent, var(--lamp-glow)) 8%, var(--night-deep));
 		color: var(--ink-mid);
@@ -764,7 +764,7 @@
 
 	.subscription-row {
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 14%, transparent);
-		border-radius: 0.8rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
 	}
 
@@ -779,7 +779,7 @@
 		gap: 0.5rem;
 		padding: 0.9rem;
 		border: 1px dashed color-mix(in srgb, var(--ink-dim) 22%, transparent);
-		border-radius: 0.8rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
 	}
 

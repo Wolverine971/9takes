@@ -25,12 +25,12 @@ occupation:
   - 'Presenter'
   - 'Comedian'
 knows_about:
-  - 'Acting'
-  - 'Comedy'
-  - 'Stand-Up Comedy'
-  - 'Film Industry'
-  - 'Television'
-  - 'Observational Comedy'
+  - 'Stand-up storytelling'
+  - 'Arena comedy touring'
+  - 'Comedy podcasting'
+  - 'The Machine story'
+  - 'Comedy festival production'
+  - 'Travel television hosting'
 keywords:
   - 'Bert Kreischer enneagram'
   - 'Bert Kreischer type 7'
@@ -51,12 +51,21 @@ citations:
   - 'https://en.wikipedia.org/wiki/Bill_Burr'
   - 'https://www.bertbertbert.com'
 faqs:
-  - question: 'What is Bert Kreischer''s Personality Type?'
-    answer: 'The short answer: Type 7, the Enthusiast, with a 6-wing. The longer answer is that Bert is a clinical-grade Seven — not the charming fantasy version, the one running the treadmill at 2 a.m. to beat back the thoughts.'
+  - question: "What is Bert Kreischer's personality type?"
+    answer: "Bert Kreischer is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in his self-description as 'a shark, finding relief in continuous movement,' the OCD health-checklists that loop every morning until he hits the gym or the stage, the no-crying rule his father enforced that Bert converted into turning every ache into a bit, and the 6-wing loyalty visible in a 22-year marriage and the rotating comedy collective he built instead of a solo brand."
     anchor: 'what-is-bert-kreischers-personality-type'
-  - question: 'Why is Bert Kreischer typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Comedy, Stand-Up Comedy.'
-    anchor: 'why-is-bert-kreischer-typed-as-an-enneagram-type-7'
+  - question: "Is Bert Kreischer's Machine story real?"
+    answer: "Yes, by his account and his classmates' photos. In 1995, a sixth-year FSU student who had accidentally signed up for Russian was on a semester abroad in St. Petersburg when the trip's mafia handlers, Igor and Sasha, took to him after he drunkenly mangled the Russian word for 'man' — muzhchina — as 'machina.' By the time the overnight train reached Moscow, he had helped rob the bar car and his own classmates' compartments. Some classmates later posted photos of the robbery; he still has them."
+    anchor: 'how-a-sixth-year-senior-became-the-machine'
+  - question: 'Does Bert Kreischer have OCD?'
+    answer: "Yes — he has named it himself, on Dumb Blonde in January 2026 and Jay Shetty's On Purpose in May 2025, walking through the rituals, exposure therapy, and medication. He wakes every morning to looping health checks: is the back pain a tumor, did last night's drinking wreck his liver, is the headache a stroke. The relief is movement — gym, sauna, podcast, stage — each one a thought-suppressant."
+    anchor: 'why-bert-kreischer-cant-sit-still'
+  - question: 'Is Bert Kreischer sober?'
+    answer: "No, and he says he never will be: 'I will never quit drinking,' he told Joe Rogan. 'I will always make sure I keep my body healthy enough so I can always drink.' His pattern is cyclical — in October 2023 he posted that he was 83 days without alcohol or sugar and 40 pounds down, and that it all ended in four hours when the Fully Loaded Cruise set sail. On the Sober Bert podcast episode, Tom Segura quietly poured himself another drink while Bert was still selling the plan."
+    anchor: 'what-2-bears-1-cave-reveals-about-bert-kreischer'
+  - question: "What did Bert Kreischer's dad finally tell him?"
+    answer: "During an Easter where father and son took edibles together, Bert asked the question he could never ask sober: 'Why don't you like me?' Al Kreischer — the man who would not cry at his own mother's funeral — answered: 'I love you. But I'm afraid you're going to die. I lost my dad when I was young, and I am terrified to lose you.' Al later walked back his own 'eat shit, cash checks' life advice, telling Bert it was for men without talent, and Bert didn't need it."
+    anchor: 'why-al-kreischer-couldnt-cry'
 twitter: 'bertkreischer'
 instagram: 'bertkreischer'
 tiktok: 'bertkreischer'

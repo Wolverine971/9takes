@@ -28,12 +28,11 @@ occupation:
   - 'Banjoist'
   - 'Autobiographer'
 knows_about:
-  - 'Acting'
-  - 'Songwriting'
-  - 'Business'
-  - 'Television acting'
-  - 'Music production'
-  - 'Voice acting'
+  - 'Country songwriting'
+  - 'Music publishing ownership'
+  - 'Childhood literacy philanthropy'
+  - 'Theme park business'
+  - 'Appalachian culture'
 keywords:
   - 'Dolly Parton enneagram'
   - 'Dolly Parton type 2'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000573/'
   - 'https://www.dollyparton.com'
 faqs:
-  - question: 'What is Dolly Parton''s Personality Type?'
-    answer: 'Enneagram Type 2s, called "The Helper," are driven by a deep need to be loved through being needed. They remember who cried at what party, who needed a ride home, who didn''t get a birthday call. Connection isn''t a nice thing to them. It''s urgent.'
+  - question: "What is Dolly Parton's personality type?"
+    answer: "Dolly Parton is an Enneagram Type 2 (The Helper), specifically a 2w3. The pattern shows in the Imagination Library she built around her father's illiteracy, the night she cried and still told Elvis no on her publishing rights, the goodbye to Porter Wagoner she wrote as 'I Will Always Love You,' the Buddy Program that cut her county's dropout rate from 35% to 6%, and a 59-year marriage to a man who wanted nothing to do with fame."
     anchor: 'what-is-dolly-partons-personality-type'
-  - question: 'Why is Dolly Parton typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Songwriting, Business.'
-    anchor: 'why-is-dolly-parton-typed-as-an-enneagram-type-2'
+  - question: "Why did Dolly Parton refuse to let Elvis record 'I Will Always Love You'?"
+    answer: "Colonel Tom Parker told her Elvis would only record the song if she gave up half the publishing rights. She cried all night, then said no: 'I wanted to hear Elvis sing it so bad. But I had to keep that copyright in my pocket.' The decision earned her an estimated $20 million when Whitney Houston covered it decades later."
+    anchor: 'from-the-grand-ole-opry-to-national-treasure'
+  - question: 'Why did Dolly Parton start the Imagination Library?'
+    answer: "Her father, Robert Lee Parton, was a sharecropper who couldn't read one word and signed contracts without knowing what they said. In 1995 she started mailing one free book a month to every child under five in Sevier County, Tennessee; today the program reaches over 3 million children monthly across five countries — more than 224 million books. She says she loves the title 'Book Lady' more than any Grammy."
+    anchor: 'the-imagination-library-a-wound-given-back-as-a-gift'
+  - question: "Who was Dolly Parton's husband, Carl Dean?"
+    answer: "Carl Dean avoided fame so completely he would only be photographed at Dollywood's opening with a bag over his head, and told reporters staking out their home that he was the gardener. Their nearly 59-year marriage worked because he gave her freedom without abandonment. He died on March 3, 2025, at 82, and days later Dolly released 'If You Hadn't Been There.'"
+    anchor: 'the-love-story-that-made-no-sense'
+  - question: 'Did Dolly Parton help fund the Moderna vaccine?'
+    answer: "Yes — in April 2020 she donated $1 million to Vanderbilt University for coronavirus research, money that helped fund development of the Moderna vaccine. She waited her turn for the shot, then filmed herself getting vaccinated and told the hesitant, 'don't be such a chicken squat.'"
+    anchor: 'funding-moderna-the-1-million-that-changed-everything'
 twitter: 'DollyParton'
 instagram: 'dollyparton'
 tiktok: 'dollyparton'

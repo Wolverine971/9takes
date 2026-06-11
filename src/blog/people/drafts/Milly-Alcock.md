@@ -24,11 +24,11 @@ occupation:
   - 'Film Actor'
   - 'Television Actor'
 knows_about:
-  - 'Film acting'
-  - 'Television acting'
-  - 'House of the Dragon'
-  - 'Film Actor'
-  - 'Television Actor'
+  - 'Dialect and accent work'
+  - 'Fantasy television drama (House of the Dragon)'
+  - 'Dark comedy (Sirens)'
+  - 'Superhero franchise leads (Supergirl)'
+  - 'Australian stage and screen training'
 keywords:
   - 'Milly Alcock enneagram'
   - 'Milly Alcock type 6'
@@ -49,12 +49,21 @@ citations:
   - 'https://www.youtube.com/watch?v=D2w8rcYm0Ys'
   - 'https://www.youtube.com/watch?v=Cth26PIfQUU'
 faqs:
-  - question: 'What is Milly Alcock''s personality type?'
-    answer: 'Type 6 lives in the space between action and doubt. They act, then second-guess. They trust, then verify. They commit, then scan for the exit. The engine that drives them is a single question running in the background of every interaction: Is the ground under me actually solid, or am I about to fall?'
+  - question: "What is Milly Alcock's personality type?"
+    answer: "Milly Alcock is an Enneagram Type 6 (The Loyalist), specifically a 6w7. The pattern shows in the thirteen-year-old who cold-called her own agent because 'no one's going to do it for me,' the day-two acting coach she took as confirmation she didn't belong, the 'I'm not very good at my job' line she delivers as a pre-emptive defense, and the call to her Supergirl director confessing 'I don't know how to be that person. I'm just me.' The 7 wing supplies the giggles and the humor that contain the anxiety."
     anchor: 'what-is-milly-alcocks-personality-type'
-  - question: 'Why is Milly Alcock typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, House of the Dragon.'
-    anchor: 'why-is-milly-alcock-typed-as-an-enneagram-type-6'
+  - question: 'How did Milly Alcock get cast in House of the Dragon?'
+    answer: "She was washing dishes in a Petersham restaurant and living in her mum's attic when HBO sent a self-tape for an unnamed project with the names blacked out — a friend recognized it as a Game of Thrones scene, which Milly had never watched. She shot it on a phone, and six months later landed Princess Rhaenyra Targaryen. Her reaction: 'This doesn't happen to people like me.'"
+    anchor: 'the-day-two-acting-coach'
+  - question: 'Why did Milly Alcock think her life was over at 22?'
+    answer: "House of the Dragon's timeline jump handed Rhaenyra to Emma D'Arcy — a replacement written into Alcock's contract from day one. She wasn't in the edit or the marketing, and the structure that said 'you are allowed to be here' was gone. She later described the fear plainly: maybe twenty-two was the peak. Then Netflix offered her the lead in Sirens and James Gunn offered her Supergirl."
+    anchor: 'why-milly-alcock-thought-her-life-was-over-at-22'
+  - question: 'Why did Milly Alcock take Sirens after House of the Dragon?'
+    answer: "Instead of chasing another franchise, she took a five-episode Netflix character study opposite Julianne Moore and Meghann Fahy, playing Simone DeWitt — the photographic negative of Rhaenyra, a personal assistant who clawed into someone else's status. The article reads it as a classic Six hedge: build a second tower in case the first one falls. Critics singled her out by name, proving audiences would follow her into a different show."
+    anchor: 'the-sirens-detour'
+  - question: 'How is Milly Alcock handling the Supergirl backlash?'
+    answer: "By pre-empting the verdict. She told Vanity Fair she was 'utterly terrified,' conceded Scorsese and Scott's old anti-superhero arguments rather than fighting them ('Not every film is for everyone'), and has spent years drilling a flat Midwestern accent with the same repetition that built Rhaenyra's English vowels. Her summary: 'Of course I'm scared... But ultimately, it's out of my control.'"
+    anchor: 'how-milly-alcock-handles-the-supergirl-backlash'
 instagram: 'millyalcock'
 production_pretext:
   status: draft

@@ -28,12 +28,11 @@ occupation:
   - 'Presenter'
   - 'Recording Artist'
 knows_about:
-  - 'Songwriting'
-  - 'Acting'
-  - 'Film acting'
-  - 'Music Composing'
-  - 'Singer'
-  - 'Songwriter'
+  - 'Confessional pop songwriting'
+  - 'Memoir writing (My Thoughts Exactly)'
+  - 'West End stage acting'
+  - 'Podcasting (Miss Me?)'
+  - 'Sobriety and recovery advocacy'
 keywords:
   - 'Lily Allen enneagram'
   - 'Lily Allen type 4'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0020770/'
   - 'https://lilyallenmusic.com/'
 faqs:
-  - question: 'What is Lily Allen''s Personality Type?'
-    answer: 'Enneagram Fours — "The Individualists" — are organized around a single fear: that they have no fixed identity, and that if they don''t carve one out themselves, the world will hand them a wrong one. The wound shows up early, usually in childhood, as a feeling of being separate, abandoned, or fundamentally different. The defense the Four builds against that wound is identity-by-contrast: I am the one who feels what others won''t admit. I am the one who says what others won''t.'
+  - question: "What is Lily Allen's personality type?"
+    answer: "Lily Allen is an Enneagram Type 4 (The Individualist) with a strong 3 wing. The pattern shows in her telling a US immigration officer the truth about drugs and losing her tour for it, the MySpace end-run she built around a label that was ignoring her, a memoir more brutal about herself than about anyone who hurt her, and a divorce album written in roughly two weeks so she could own the version before anyone else wrote it."
     anchor: 'what-is-lily-allens-personality-type'
-  - question: 'Why is Lily Allen typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Songwriting, Acting, Film acting.'
-    anchor: 'why-is-lily-allen-typed-as-an-enneagram-type-4'
+  - question: 'Why was Lily Allen banned from the US in 2009?'
+    answer: "A US immigration officer asked if she had ever taken drugs and she told the truth. Her entry was blocked, the tour was cancelled, EMI pulled the American promotional budget, and her climbing album stalled. She has never narrated the story as a regret: 'I get myself into a lot of trouble, but I don't care. I'm vocal and honest.'"
+    anchor: 'why-lily-allen-tells-the-truth-even-when-it-wrecks-her'
+  - question: "What is Lily Allen's album West End Girl about?"
+    answer: "It's a song-by-song chronology of her marriage to Stranger Things actor David Harbour falling apart — an open marriage that, in her account, became something she did not consent to. She walked into a studio in December 2024 with eighteen song titles on day one and finished the record in roughly two weeks. Released in October 2025, it climbed to UK number two — her highest-charting album in over a decade — while Harbour's only public comment was 'Oh boy.'"
+    anchor: 'what-lily-allen-sounds-like-on-west-end-girl'
+  - question: "Who is Madeline in Lily Allen's song?"
+    answer: "'Madeline' is Allen interrogating the other woman in tango tempo, with what sound like real voice-note responses cut in. Allen told The Times the character was fictional, but in late October 2025 a 34-year-old New Orleans costume designer named Natalie Tippett came forward saying the song was about her, claiming her relationship with Harbour began on the set of We Have A Ghost in 2021. The album hit number two with her name attached to it."
+    anchor: 'what-lily-allen-sounds-like-on-west-end-girl'
+  - question: 'How did Lily Allen get sober?'
+    answer: "She got sober in 2019, naming as her trigger a moment in an LA hotel room when she found herself contemplating heroin: 'I actually don't even know if I'd be alive, if I'm honest, if I hadn't got sober.' Her own reading of the addiction is genealogical — 'addiction runs deep in my family, so self-medicating was going to be on the cards.' She has been sober through the memoir, her Olivier-nominated West End debut, and West End Girl."
+    anchor: 'the-stillbirth-the-sobriety-and-the-cost-of-staying-honest'
 twitter: '@lilyallen'
 instagram: '@lilyallen'
 tiktok: ''

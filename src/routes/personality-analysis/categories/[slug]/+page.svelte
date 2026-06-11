@@ -809,7 +809,7 @@
 
 	.distribution-card {
 		padding: 1.1rem;
-		border-radius: 1.15rem;
+		border-radius: 1rem;
 		background:
 			linear-gradient(
 				180deg,
@@ -829,7 +829,7 @@
 	.cluster-nav {
 		margin-top: 1.25rem;
 		padding: 1.1rem;
-		border-radius: 1.15rem;
+		border-radius: 1rem;
 		background: linear-gradient(
 			180deg,
 			color-mix(in srgb, var(--accent-soft) 26%, transparent) 0%,
@@ -871,7 +871,7 @@
 		justify-content: space-between;
 		gap: 0.75rem;
 		padding: 0.8rem 0.9rem;
-		border-radius: 0.9rem;
+		border-radius: 0.625rem;
 		text-decoration: none;
 		background: var(--surface-card);
 		border: 1px solid var(--accent-border);
@@ -910,7 +910,7 @@
 		justify-content: space-between;
 		gap: 0.5rem;
 		padding: 0.7rem 0.8rem;
-		border-radius: 0.8rem;
+		border-radius: 0.625rem;
 		background: var(--surface-card);
 		border: 1px solid var(--accent-border);
 		text-decoration: none;
@@ -988,7 +988,7 @@
 	.person-image {
 		position: absolute;
 		inset: 0.5rem;
-		border-radius: 0.8rem;
+		border-radius: 0.625rem;
 		overflow: hidden;
 
 		img {
@@ -1002,7 +1002,7 @@
 	.person-overlay {
 		position: absolute;
 		inset: 0.5rem;
-		border-radius: 0.8rem;
+		border-radius: 0.625rem;
 		background: linear-gradient(
 			to top,
 			var(--image-overlay-strong) 0%,
@@ -1067,7 +1067,7 @@
 
 	.group-card {
 		padding: 1.2rem;
-		border-radius: 1.25rem;
+		border-radius: 1rem;
 		background: var(--surface-card-strong);
 		border: 1px solid var(--accent-border);
 		box-shadow: var(--shadow-sm);

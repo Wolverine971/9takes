@@ -80,7 +80,7 @@
 		text-align: center;
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		padding: 2rem;
-		border-radius: 12px;
+		border-radius: 1rem;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		box-shadow: 0 0 20px color-mix(in srgb, var(--lamp-glow) 10%, transparent);
 	}
@@ -105,7 +105,7 @@
 		max-width: 300px;
 		margin-bottom: 10px;
 		padding: 10px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		background-color: var(--stone-warm);
 		color: var(--ink-bright);
@@ -117,7 +117,7 @@
 	}
 	.waitlist-form button {
 		padding: 10px 20px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border: none;
 		cursor: pointer;
 		color: white;

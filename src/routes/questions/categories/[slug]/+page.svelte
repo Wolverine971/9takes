@@ -675,7 +675,7 @@
 		padding: 40px 28px;
 		text-align: center;
 		border: 1px dashed var(--stone-edge);
-		border-radius: 12px;
+		border-radius: 1rem;
 		background: var(--stone-warm);
 		display: flex;
 		flex-direction: column;

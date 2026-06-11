@@ -50,7 +50,7 @@ const BANNED = new RegExp(
 // the existing backlog is RATCHETED: the build fails only if the violation
 // count RISES above CSS_RATCHET_BASELINE. Lower the baseline as you fix files.
 // ---------------------------------------------------------------------------
-const CSS_RATCHET_BASELINE = 527; // measured 2026-06-10 — lower as files get fixed
+const CSS_RATCHET_BASELINE = 0; // burned down 2026-06-10 (was 527) — now fully enforcing
 const CSS_DECL = /border-radius\s*:\s*([^;}{\n]+)/g;
 // Allowed per-token values: the locked scale (4/10/16px + rem twins), 0,
 // pills (50%, 100%, ≥999px), keywords, and anything token-derived
@@ -68,15 +68,29 @@ const CSS_IGNORE_PATHS = [
 	'src/routes/admin/asset-generators'
 ];
 
+// Split a declaration value on TOP-LEVEL whitespace only — spaces inside
+// parens (e.g. `calc(var(--r) - 0.4rem)`, incl. nesting) stay in their token.
+function splitTopLevelTokens(value) {
+	const tokens = [];
+	let depth = 0;
+	let cur = '';
+	for (const ch of value) {
+		if (ch === '(') depth++;
+		else if (ch === ')') depth = Math.max(0, depth - 1);
+		if (/\s/.test(ch) && depth === 0) {
+			if (cur) tokens.push(cur);
+			cur = '';
+		} else {
+			cur += ch;
+		}
+	}
+	if (cur) tokens.push(cur);
+	return tokens;
+}
+
 function cssTokensViolate(value) {
-	// Strip trailing comments, split shorthand into tokens; a declaration is a
-	// violation if ANY token is off-scale. Parenthesized functions may contain
-	// spaces — collapse them before splitting.
-	const collapsed = value.replace(/\([^)]*\)/g, (m) => m.replace(/\s+/g, ''));
-	return collapsed
-		.trim()
-		.split(/\s+/)
-		.some((tok) => tok && !ALLOWED_CSS_TOKEN.test(tok));
+	// A declaration is a violation if ANY top-level token is off-scale.
+	return splitTopLevelTokens(value.trim()).some((tok) => tok && !ALLOWED_CSS_TOKEN.test(tok));
 }
 
 function walk(dir, out) {

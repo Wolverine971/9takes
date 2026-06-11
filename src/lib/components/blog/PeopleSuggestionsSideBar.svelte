@@ -246,7 +246,7 @@
 	.sidebar {
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--night-deep);
-		border-radius: 12px;
+		border-radius: 1rem;
 		box-shadow: 0 0 20px color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
@@ -276,7 +276,7 @@
 
 		&::-webkit-scrollbar-thumb {
 			background-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
-			border-radius: 3px;
+			border-radius: 9999px;
 
 			&:hover {
 				background-color: color-mix(in srgb, var(--lamp-glow) 50%, transparent);

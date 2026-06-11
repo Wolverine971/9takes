@@ -26,12 +26,11 @@ occupation:
   - 'Composer'
   - 'Guitarist'
 knows_about:
-  - 'Singing'
-  - 'Country Music'
-  - 'Ballade'
-  - 'Country Pop'
-  - 'Bro-Country'
-  - 'Music'
+  - 'Country songwriting'
+  - 'Country-rap crossover'
+  - 'Self-taught guitar'
+  - 'Genre-blending record production'
+  - 'Stadium country touring'
 keywords:
   - 'Morgan Wallen enneagram'
   - 'Morgan Wallen type 6'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm9147070/'
   - 'https://morganwallen.com/'
 faqs:
-  - question: 'What is Morgan Wallen''s Personality Type?'
-    answer: 'The Enneagram Six is called the Loyalist, but that name only captures half the picture. The deeper truth is that Sixes are the type most fundamentally organized around the question: Who can I trust?'
+  - question: "What is Morgan Wallen's personality type?"
+    answer: "Morgan Wallen is an Enneagram Type 6 (The Loyalist), specifically a counterphobic Six. The pattern shows in his admission that he assumes 'the worst in everyone pretty much,' the preacher's son who compulsively tested every structure meant to keep him safe, the fortress inner circle of Hardy, Ernest, and Theo Von — complete with a shared prayer list — the counterphobic charges at what scares him, and an album literally titled I'm the Problem."
     anchor: 'what-is-morgan-wallens-personality-type'
-  - question: 'Why is Morgan Wallen typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Country Music, Ballade.'
-    anchor: 'why-is-morgan-wallen-typed-as-an-enneagram-type-6'
+  - question: 'What happened with the Morgan Wallen racial slur video?'
+    answer: "In February 2021, a neighbor's doorbell camera caught Wallen shouting a racial slur at a friend — 'hour 72 of a 72-hour bender,' as he described it. His label suspended him, radio pulled his music, and award shows shut him out. He spent 30 days in rehab in San Diego asking 'why I was acting that way,' and has maintained: 'There's no excuse. I've never made an excuse. I never will make an excuse.'"
+    anchor: 'hour-72'
+  - question: 'Why did Morgan Wallen stop drinking?'
+    answer: "The turn started with rehab in 2021 and a mostly sober 75-show Dangerous Tour in 2022, which he treated 'like an athlete would a season.' The final line came on April 7, 2024, when he threw a chair off the rooftop of Eric Church's Nashville bar that landed three feet from two police officers. He pleaded guilty to reckless endangerment, apologized to the staff the next day, and hasn't set foot in a bar since."
+    anchor: 'the-man-who-threw-the-chair'
+  - question: "What ended Morgan Wallen's baseball career?"
+    answer: "He was a pitcher and shortstop at Gibbs High School with college scouts calling — until he tore his ulnar collateral ligament his senior year and the calls stopped. He responded by buying guitar chord charts at Walmart, taping them to his bedroom wall, and teaching himself to play, followed by three years of landscaping work in Knoxville before The Voice opened the door."
+    anchor: 'a-pitchers-arm-and-a-walmart-guitar'
+  - question: "Did the 2021 controversy hurt Morgan Wallen's album sales?"
+    answer: "The opposite. In the two days after the video surfaced, digital sales of Dangerous: The Double Album surged 1,220 percent, and the album moved 149,000 units that week — a 14 percent increase. It spent ten total weeks at No. 1 and became the best-selling album of 2021 with over 4.1 million units, as his fans held while the industry pulled away."
+    anchor: 'the-fans-who-wouldnt-leave'
 twitter: 'MorganWallen'
 instagram: 'morganwallen'
 tiktok: 'morganwallen'

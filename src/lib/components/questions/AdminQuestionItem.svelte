@@ -643,7 +643,7 @@
 		overflow: hidden;
 		width: 100%;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 12%, var(--stone-edge));
-		border-radius: 24px;
+		border-radius: 1rem;
 		background: linear-gradient(
 			180deg,
 			var(--stone-warm) 0%,
@@ -754,7 +754,7 @@
 		min-width: 0;
 		padding: 20px;
 		border: 1px solid var(--stone-edge);
-		border-radius: 18px;
+		border-radius: 1rem;
 		background: linear-gradient(
 			180deg,
 			color-mix(in srgb, var(--night-deep) 88%, black) 0%,
@@ -819,7 +819,7 @@
 		min-height: 48px;
 		padding: 12px 14px;
 		border: 1px solid var(--stone-edge);
-		border-radius: 14px;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--stone-warm) 74%, var(--night-deep));
 		color: var(--ink-mid);
 		font-size: 0.85rem;
@@ -1037,7 +1037,7 @@
 		justify-content: center;
 		min-height: 42px;
 		padding: 0 16px;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		border: 1px solid transparent;
 		font-size: 0.84rem;
 		font-weight: 700;

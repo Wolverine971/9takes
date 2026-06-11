@@ -26,10 +26,11 @@ occupation:
   - 'Erotic Photography Model'
   - 'Podcaster'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Podcasting'
-  - 'Pornographic Film'
-  - 'Digital media'
+  - 'Adult-industry reform advocacy'
+  - 'Podcast hosting (3 Girls 1 Kitchen)'
+  - 'Social media audience building'
+  - 'Personal brand reinvention'
+  - 'Industry-related PTSD awareness'
 keywords:
   - 'Lana Rhoades enneagram'
   - 'Lana Rhoades type 3'
@@ -47,12 +48,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q28132520'
   - 'https://www.imdb.com/name/nm8407559/'
 faqs:
-  - question: 'What is Lana Rhoades''s personality type?'
-    answer: 'The Enneagram places Type 3 in the "heart triad," the group whose core emotional engine is shame. Type 2s manage shame by becoming indispensable. Type 4s transform shame into art. Type 3s do something more dangerous: they outrun it.'
+  - question: "What is Lana Rhoades's personality type?"
+    answer: "Lana Rhoades is an Enneagram Type 3 (The Achiever), specifically the Sexual Three subtype that achieves through being desired rather than through status. The pattern shows in her serial reinventions — neglected child, gang-affiliated teen, most-searched performer on PornHub, influencer, podcaster, advocate — her declaration at 14 that she would be 'the number one porn star,' and her later admission that she would give up everything to have her dignity back."
     anchor: 'what-is-lana-rhoadess-personality-type'
-  - question: 'Why is Lana Rhoades typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Podcasting, Pornographic Film.'
-    anchor: 'why-is-lana-rhoades-typed-as-an-enneagram-type-3'
+  - question: 'Why did Lana Rhoades leave the adult industry?'
+    answer: "She has been precise about it: 'three to five' specific scenes she calls 'really traumatic' — being sent to a set with someone way too old, or pressured into something too extreme — which she names as 'the 100% contributor to why I left.' She later developed PTSD, panic attacks, depression, and substance issues, and became one of the first former adult stars to discuss industry-related PTSD publicly."
+    anchor: 'the-three-scenes-that-ended-everything'
+  - question: 'What happened with the Lana Rhoades NFT project?'
+    answer: "In January 2022 she launched CryptoSis, 6,069 cartoon NFTs of herself minted at 0.1 ETH each and pitched as an investment. Within a week she vanished from the project's Discord, roughly $1.5 million in ETH was transferred out, and YouTuber Coffeezilla released an investigation calling it a rug pull. The floor price collapsed from 0.1 ETH to 0.01, and she never returned the money."
+    anchor: 'the-entrepreneur-who-vanished'
+  - question: "Who is the father of Lana Rhoades's son?"
+    answer: "She has never confirmed it. She dropped clues on her podcast — the father played for the Brooklyn Nets and was a Libra — which sent fans guessing Kevin Durant, then Blake Griffin, then Bruce Brown Jr. She has never shown her son Milo's full face on social media and accepts no child support, saying she doesn't want to involve her child in the situation."
+    anchor: 'the-narrative-she-couldnt-control'
+  - question: 'Does Lana Rhoades regret her adult film career?'
+    answer: "Yes, in unusually stark terms: 'If I could go back, I would give up everything to have my dignity and respect back.' She has said she is ashamed of the work and would delete all roughly 400 scenes if she held the rights, which she doesn't. She now describes herself as against pornography based on her own experience, while framing her critique at the industry's pressure systems rather than at performers."
+    anchor: 'i-would-give-up-everything'
 twitter: ''
 instagram: 'https://instagram.com/lanarhoades'
 tiktok: ''

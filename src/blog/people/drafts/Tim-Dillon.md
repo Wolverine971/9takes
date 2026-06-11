@@ -86,7 +86,7 @@ FEEDBACK (2026-05-19, re-grade after pass-6):
 - CRITIC PRESSURE HELD: Benjamin Y. Fong's "vile without remainder" argument is reconstructed cleanly, and the Lynch/Coetzee comparison gives the piece a critic it sits with instead of dismisses.
 
 TO REACH A+ (9.5+):
-1. Pin the Vulture 2016 URL (Wayback Machine) and the Hot Ones exact upload date. The two remaining hedged citations are the only sourcing soft spots that still hold Evidence at 8.5.
+1. [RESOLVED 2026-06-10] Vulture cite pinned: Philip Stamato, "Tim Dillon Just Wants the Truth," Vulture, Oct 25 2016 (vulture.com/2016/10/tim-dillon-just-wants-the-truth.html; conspiracies quote confirmed in piece). Hot Ones cite pinned: June 5, 2025 (Salon coverage June 9, 2025).
 2. The Bari Weiss / Hasidic-costume paragraph names the bit but the satire's actual content stays abstract. One concrete moment from the bit working (or visibly failing) would push Originality from 9 to 9.5.
 3. The "Sobriety Question" section's Death-by-Boomers diagnosis is the place where the public/private gap could go deeper. One additional private-Tim moment beyond the singleness-by-design beat would close the last gap.
 
@@ -163,7 +163,7 @@ And:
 
 > "I watched people make and lose millions, economies crumble, worlds emerge and disappear. By 22 I was mired in the type of debt it generally takes a lifetime to accrue. I watched a friend go from making 50K a month to delivering pizzas. And then 6 months later I was at his funeral."
 
-In 2007, Tim bought a house with a subprime mortgage, a two-year fixed rate. When the refinancing market collapsed, so did his ownership. The house was foreclosed in 2010.
+In 2007, Tim bought a house in Baldwin, New York, with a subprime mortgage he had [sold to himself](https://timdillontalks.tumblr.com/post/127866374563/when-i-was-22-i-bought-a-house-with-a-subprime), a two-year fixed rate. When the refinancing market collapsed, so did his ownership. The house was foreclosed in 2010, ["right before I started stand-up."](https://www.timeout.com/newyork/comedy/tim-dillon-on-his-bus-tour)
 
 The man who would become comedy's sharpest critic of American excess was literally selling the American Dream that foreclosed on him.
 
@@ -203,7 +203,7 @@ The looseness terrifies most comedians. They want to know where every laugh will
 
 COVID-19 turned Tim Dillon from a comedian podcasters knew into a million-views-a-week phenomenon.
 
-His Patreon earnings trace the arc: $14,000 a month at the end of 2020 grew to $180,000 a month by the end of 2021. His YouTube channel, launched in 2016, crossed 315,000 subscribers during the pandemic and now sits above a million.
+His [Patreon earnings](https://web.archive.org/web/20221016064506/https://graphtreon.com/creator/thetimdillonshow) trace the arc: roughly $16,000 a month in March 2020 grew to $79,000 by the end of that year, and to nearly $200,000 a month by the end of 2021. His YouTube channel, launched in 2016, crossed 315,000 subscribers during the pandemic and now sits above a million.
 
 Tim occupied a lane nobody else could. He wasn't anti-vax or pro-lockdown. He was anti-institutional-bullshit, which is a Type 7 position dressed as political commentary. While the culture war demanded you pick a side, Tim treated both sides as content.
 
@@ -245,7 +245,7 @@ The granularity shows up in his riffs. When the Thiel/Palantir bit names Joe Lon
 
 The "schizophrenic style" delivery critics note is associative cognition under analytical focus — the Seven's natural mental pattern, channeled. His mind connects ideas that seem unrelated until suddenly they're profound. Or profane. Usually both.
 
-The podcast now averages a million viewers a week. Tim's Patreon generates $200,000-$250,000 per month, making him one of the platform's highest earners. He's appeared on Joe Rogan's podcast 17 times, more than almost any other guest.
+The podcast now averages a million viewers a week. The last Patreon figure the public ever saw, before Tim made the numbers private in October 2022, was about $210,000 a month, which put him among the platform's highest earners. He's appeared on Joe Rogan's podcast seventeen times, one of Rogan's most frequent guests of the post-2019 era.
 
 > "My entire career shifted at that moment, because of his generosity. He gave me that platform and he kept having me on."
 > <cite>Damian Reilly, _The Spectator World_, June 2021</cite>
@@ -261,7 +261,7 @@ His signature catchphrase works the same way. "Life in the Big City," borrowed f
 The food material runs deeper than bit work. Tim's relationship with eating is the most visible ongoing manifestation of the same pattern that drove the cocaine years.
 
 > "You get a bacon egg and cheese... It coats your stomach and absorbs that anxiety that would either push you to the gym or to a job or into a good relationship or on a jog. That anxiety would push you to become a better person. You actually can absorb all of that with the sandwich and then go right back into bed."
-> <cite>Hot Ones (First We Feast), 2025</cite>
+> <cite>Hot Ones (First We Feast), June 5, 2025</cite>
 
 Long Island, in Tim's telling on the same Hot Ones appearance, is a place where food replaces culture entirely: "a vacant landscape of nothing, a suburban emptiness that closets you until you finally fill yourself with bagels, gnocchi or fentanyl."
 
@@ -295,7 +295,7 @@ The 8 wing gives Tim direct access to anger that pure Sevens typically avoid. Wh
 
 ### The Saudi Arabia Incident
 
-Tim was set to perform at the Riyadh Comedy Festival for a reported $375,000 fee. On his August 30, 2025 podcast episode, he joked about alleged slavery and forced labor in Saudi Arabia. Three weeks later, he announced he'd been fired. His manager relayed the message: the festival organizers "heard what you said about them having slaves" and "didn't like that."
+Tim was set to perform at the Riyadh Comedy Festival for a $375,000 fee, by his own account. On his August 30, 2025 podcast episode, he joked about alleged slavery and forced labor in Saudi Arabia. Three weeks later, he announced he'd been fired. His manager relayed the message: the festival organizers "heard what you said about them having slaves" and "didn't like that."
 
 Tim's defense: he insisted he had been "defending them for having slaves" in a "funny" way. He also lost a warm-up gig in Dubai after mixing up Dubai with Abu Dhabi.
 
@@ -325,7 +325,7 @@ Tim doesn't just push boundaries with individual jokes. He lives in the space be
 The Whitney Webb run (covered above) is one half of the institutional-skepticism beat. The other half is the satire that crosses into territory most comedians won't touch. His "Free Ghislaine" bit — an extended satirical defense of Ghislaine Maxwell that commits so completely to "wrongfully accused" that the moral position collapses on contact with reality — became iconic enough to spawn merchandise.
 
 > "I would much rather talk about what's generally called 'conspiracies,' because I find them to be closer to the actual truth of what's going on."
-> <cite>Vulture interview, 2016</cite>
+> <cite>Philip Stamato, "Tim Dillon Just Wants the Truth," Vulture, October 25, 2016</cite>
 
 This is the place where a careful counter-typist would push back. The conspiracy obsession, the institutional distrust, the refusal to be claimed by either tribe — those patterns sit squarely in [Type 6](/enneagram-corner/enneagram-type-6) territory too, and the counter-phobic Six can look uncannily like a 7w8 from the outside. The difference is the affect underneath. A Six audits the system because the world feels dangerous. A Seven audits it because the world feels absurd. Six fear hardens into vigilance; Seven gluttony hardens into content. Tim's delivery on the Epstein material sounds amused. He's decoding the con before it consumes him, which is the gluttony move: keep stimulation flowing, keep entrapment at bay. The conspiracy fascination runs on the same instinct that produced "Fake Business" — if everything is a scam, the person who names it holds the only real power.
 
@@ -355,7 +355,7 @@ Looking back from his first real breakthrough year, he told an interviewer in 20
 Tim remains single, and it's intentional.
 
 > "I think if I found love it would harm the person I found it with. I don't know if it would harm my comedy. I think it would harm them. I think I'm a very difficult person to be with."
-> <cite>Vulture interview, 2016</cite>
+> <cite>Philip Stamato, "Tim Dillon Just Wants the Truth," Vulture, October 25, 2016</cite>
 
 "I think I'm a very difficult person to be with" is unusual self-awareness for a type that typically reframes difficulty as adventure. The Enneagram virtue for Type 7 is called Sobriety, and it means more than abstaining from substances. Teachers call it "spiritual steadiness": the ability to sit with what the present moment holds without needing to escape. Tim got sober from cocaine at 25. Whether he's achieved sobriety in this deeper sense — the ability to hold pain, commitment, and intimacy without transforming them into material — is the question his comedy keeps asking and keeps refusing to answer.
 
@@ -502,10 +502,12 @@ QUOTES CUT / REPHRASED (unverified):
 - CUT: "Finding peace outside comedy is essential for sustainability." Pass research turned up no source — likely AI-generated paraphrase. Removed from the Alchemy section; replaced with the verified father quote alone.
 - REPHRASED: "My talent comes from being a closeted gay cocaine addict" (was framed as direct Diary of a CEO quote). Research suggests this is a paraphrase/headline summary rather than verbatim — reworded as paraphrase ("Tim framed it as the source of the improv: when you're a closeted gay cocaine addict from 13 to 25, you have to be able to lie and filibuster on demand").
 
-STILL OUTSTANDING (for a future pass):
-1. Vulture 2016 URLs (for the "conspiracies" and "found love would harm" quotes) — both attributed to a 2016 Vulture profile; primary URL not recovered. Could verify via Wayback Machine search before final publish.
-2. Exact Hot Ones episode date for the bacon-egg-cheese and Long Island quotes — currently cited as "Hot Ones (First We Feast), 2025." Salon coverage was June 9, 2025; pinning the upload date would tighten the cite.
-3. If a verbatim "my talent comes from..." Diary of a CEO clip is found, restore as direct quote.
+STILL OUTSTANDING — RESOLVED 2026-06-10:
+1. [DONE] Vulture URL pinned: Philip Stamato, "Tim Dillon Just Wants the Truth," Oct 25 2016.
+   Both quotes now cited to it inline.
+2. [DONE] Hot Ones date pinned: June 5, 2025. Cite updated inline.
+3. [STAYS AS-IS] DOAC "talent" line remains a paraphrase by design; restore only if a
+   verbatim clip surfaces. Not a loose end.
 
 GRADE IMPACT: Pass-4 noted Evidence at 8 with sourcing as the ceiling-blocker. This pass closes that gap. Critic-engagement was the other ceiling-blocker (Fong added). Equal Opportunity Offender was the weakest section (now rebuilt around a concrete incident). 7→5 was the analytical spine that rested on format alone (now rested on Webb / Grim / Quigley / Lonsdale / SVB).
 ============================================================ -->
@@ -555,5 +557,37 @@ EXPECTED GRADE LIFT:
 - Writing: 8 → 9 (contrast-pair cap removed; voice intact).
 - Enneagram: 9 → 9.5 (6 counter-typing now defended against).
 - Overall: 8.8 → ~9.1 (A range).
+============================================================ -->
+
+<!-- ============================================================
+INDEPENDENT VERIFICATION PASS — 2026-06-10 (closes the 2026-05-19 review doc)
+============================================================
+Fresh research agent re-verified the deep-pass "numbers verified" claims.
+Three were wrong or unverifiable; corrected in body:
+1. ROGAN: "17 times" holds ONLY counting the Nov 4 2020 election special
+   (16 numbered eps through #2375, Sept 2025, per jrepodcast.com). But
+   "more than almost any other guest" was FALSE (Schaub 97, Callen 91,
+   Bravo 90, Shaffir 72 per jrelibrary.com stats) — reworded to "one of
+   Rogan's most frequent guests of the post-2019 era." "Five in 2020" is
+   correct under the same counting convention (4 numbered + special).
+2. PATREON: "$14K end of 2020 → $180K end of 2021" was wrong. Graphtreon
+   archive: ~$16K/mo March 2020 → $79K/mo Dec 2020 → ~$199.5K/mo Dec 2021.
+   "$200-250K/mo now" unverifiable — he made earnings private Oct 2022;
+   last public figure ~$210K/mo. Body now uses archived-Graphtreon numbers
+   with link, past tense for the $210K.
+3. SAUDI: $375K fee is self-reported (Billboard/CBS repeat his number) —
+   now "by his own account." Confirmed: fired ~Sept 20 2025, never
+   reinstated, did not perform, also lost the Dubai warm-up gig.
+4. SUBPRIME: fully verified — Time Out NY (Oct 31, 2017) has exact quotes
+   (bought 2007, foreclosed 2010 "right before I started stand-up");
+   Tumblr has the stronger detail that he sold the mortgage TO HIMSELF
+   (Baldwin, NY). Both now cited inline.
+Also closed earlier this pass: Vulture 2016 cite pinned (Stamato, Oct 25
+2016), Hot Ones cite pinned (June 5, 2025).
+Bonus for future use: the verified equal-opportunity arc is the Riyadh
+window itself — Humorism's "Tim Dillon, Sociopath" (left, Sept 2) →
+fired by the Saudis (Sept 20) → OutKick free-speech-hero embrace +
+"I'm now with Iran" (right, Sept 22). No documented Shapiro feud exists;
+never add one.
 ============================================================ -->
 

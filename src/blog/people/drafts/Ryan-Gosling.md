@@ -28,12 +28,12 @@ occupation:
   - 'Film Producer'
   - 'Film Director'
 knows_about:
-  - 'Television acting'
-  - 'Film acting'
-  - 'Acting'
-  - 'Film production'
-  - 'Film directing'
-  - 'Screenwriting'
+  - 'Immersive role preparation'
+  - 'Sketch and improvisational comedy'
+  - 'Piano and cello performance'
+  - 'Indie music (Dead Man''s Bones)'
+  - 'Restaurant ownership (Tagine)'
+  - 'Knitting'
 keywords:
   - 'Ryan Gosling''s Personality Type enneagram'
   - 'Ryan Gosling''s Personality Type type 9'
@@ -51,15 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q193815'
   - 'https://www.imdb.com/name/nm0331516/'
 faqs:
-  - question: 'What is Ryan Gosling''s personality type?'
-    answer: 'Most people see a naturally cool, effortlessly charming movie star. But the real driver is something quieter and sadder: a man who learned as a child that his own presence caused problems, and spent the rest of his life becoming someone everyone could project onto without ever having to reveal himself.'
+  - question: "What is Ryan Gosling's personality type?"
+    answer: "Ryan Gosling is an Enneagram Type 9 (The Peacemaker). The pattern shows in his total merging with roles — building The Notebook's kitchen table by hand, practicing piano two hours a day for three months for La La Land, gaining sixty pounds for The Lovely Bones — plus the quiet stubbornness of picks like Half Nelson and Blue Valentine, the 'Hey Girl' and 'Literally Me' projections he never corrected, and his five-word life summary: 'Run it by Eva first.'"
     anchor: 'what-is-ryan-goslings-personality-type'
-  - question: 'What is Ryan Gosling''s Personality Type''s personality type?'
-    answer: 'Ryan Gosling''s Personality Type is analyzed as an Enneagram Type 9 (Peacemaker). The profile connects that type pattern to Inside Ryan Gosling''s psychology: how a bullied kid who couldn''t read became the blank screen the internet projected its fantasies onto.'
-    anchor: 'what-is-ryan-goslings-personality-types-personality-type'
-  - question: 'Why is Ryan Gosling''s Personality Type typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Television acting, Film acting, Acting.'
-    anchor: 'why-is-ryan-goslings-personality-type-typed-as-an-enneagram-type-9'
+  - question: 'Why did Ryan Gosling take a four-year break from acting?'
+    answer: "After his daughters Esmeralda (2014) and Amada (2016) were born, Gosling stopped acting for four years — no nannies, then a maximum of one film per year. He never announced it; in classic Nine fashion he just quietly stopped showing up until people noticed. He routes career decisions through Eva Mendes, who was the first person he told about the Barbie offer."
+    anchor: 'eva-mendes-family-and-i-live-with-angels'
+  - question: 'Was Ryan Gosling fired from The Lovely Bones?'
+    answer: "Yes. Gosling gained sixty pounds for the role — 'drinking Häagen-Dazs for five months' — and was fired before filming, replaced by Mark Wahlberg. His response was pure absorption rather than fight: he called Wahlberg 'a better choice' and asked, 'Who was I kidding?'"
+    anchor: 'the-man-who-becomes-the-role'
+  - question: 'Why did Ryan Gosling stop directing after Lost River?'
+    answer: "Lost River (2014), his only film as director, was booed at Cannes and holds a 30% on Rotten Tomatoes. He had described it as 'a visualisation of my emotions' about his parents' divorce and demolished childhood — his most personal work, savaged in public. Unlike acting, directing gave him no character to disappear into, and he never directed again."
+    anchor: 'the-one-time-he-told-his-own-story'
+  - question: 'How did Ryan Gosling decide to play Ken in Barbie?'
+    answer: "When Greta Gerwig offered him the role, Gosling found a Ken doll facedown in the mud next to a squished lemon in his backyard. He texted her the photo with the message 'I shall be your Ken, for his story must be told.' Eva Mendes was the first person he told about the offer, and her reaction decided it."
+    anchor: 'why-gosling-said-yes-to-ken'
 twitter: ''
 instagram: ''
 tiktok: ''

@@ -1494,7 +1494,7 @@
 	.stat-chip {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 0.75rem 1rem;
 		display: flex;
 		align-items: center;
@@ -1564,7 +1564,7 @@
 	.sequence-panel {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1rem;
 		margin-bottom: 1.25rem;
 	}
@@ -1600,7 +1600,7 @@
 		min-height: 2rem;
 		padding: 0 0.75rem;
 		border: 1px solid var(--lamp-glow);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		color: var(--lamp-glow);
 		font-size: 0.8rem;
 		font-weight: 700;
@@ -1617,7 +1617,7 @@
 	.sequence-stat {
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 0.75rem;
 		display: flex;
 		flex-direction: column;
@@ -1690,7 +1690,7 @@
 	.section-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1rem;
 	}
 
@@ -1723,7 +1723,7 @@
 	.search-input {
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		background: var(--night-deep);
 	}
@@ -1734,7 +1734,7 @@
 
 	.batch-compose-card {
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 0.875rem;
 		margin-bottom: 1rem;
 		background: var(--night-deep);
@@ -2009,7 +2009,7 @@
 		align-items: center;
 		padding: 1rem;
 		background: var(--night-deep);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 	}
 
@@ -2049,7 +2049,7 @@
 		max-height: 90vh;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		box-shadow: var(--glow-md);
 		display: flex;
 		flex-direction: column;
@@ -2119,7 +2119,7 @@
 
 	.email-preview {
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1rem;
 		background: #ffffff;
 		color: #111111;
@@ -2146,7 +2146,7 @@
 	.raw-html {
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1rem;
 		font-size: 0.75rem;
 		font-family: var(--font-mono);
@@ -2165,7 +2165,7 @@
 	.event-item {
 		padding: 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		display: flex;
 		flex-direction: column;
@@ -2274,7 +2274,7 @@
 
 		.data-table tr {
 			border: 1px solid var(--stone-warm);
-			border-radius: 12px;
+			border-radius: 0.625rem;
 			background: color-mix(in srgb, var(--night-deep) 58%, var(--stone-warm));
 			padding: 0.9rem;
 		}

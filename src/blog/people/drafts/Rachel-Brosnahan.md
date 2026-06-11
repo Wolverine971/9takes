@@ -27,12 +27,11 @@ occupation:
   - 'Stage Actor'
   - 'Executive Producer'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Television acting'
-  - 'The Marvelous Mrs. Maisel'
-  - 'The Unborn'
-  - 'The Blacklist'
+  - 'Period comedy acting'
+  - 'Stand-up comedy craft research'
+  - 'Investigative journalist portrayal'
+  - 'Gun safety advocacy'
+  - 'Fashion brand stewardship'
 keywords:
   - 'Rachel Brosnahan enneagram'
   - 'Rachel Brosnahan type 3'
@@ -52,12 +51,21 @@ citations:
   - 'https://www.imdb.com/name/nm3014031/'
   - 'https://rachel-brosnahan.org/'
 faqs:
-  - question: 'What is Rachel Brosnahan''s personality type?'
-    answer: 'Enneagram Threes, called "The Achiever," carry a core wound most of them can''t name: early on, they learned that what they do matters more than who they are. Achievement became the language of love. Success became the proof of worth. And so they became extraordinary at succeeding. Not because they love the spotlight, but because without the accomplishment, they fear there''s nothing underneath.'
+  - question: "What is Rachel Brosnahan's personality type?"
+    answer: "Rachel Brosnahan is an Enneagram Type 3 (The Achiever), specifically the self-preservation counter-type that hates looking like a show-off. The pattern shows in the years of being told she wasn't funny converted into an Emmy and two Golden Globes for comedy, the research obsession — comedy clubs all over New York for Midge, months interviewing investigative journalists for Lois Lane — the marriage to Jason Ralph she kept secret for years, and her own admission that, like Lois, she is motivated by the word 'no.'"
     anchor: 'what-is-rachel-brosnahans-personality-type'
-  - question: 'Why is Rachel Brosnahan typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Television acting.'
-    anchor: 'why-is-rachel-brosnahan-typed-as-an-enneagram-type-3'
+  - question: "Was Rachel Brosnahan really told she wasn't funny?"
+    answer: "Repeatedly, by industry veterans. 'I spent most of my life being told I wasn't funny,' she said in January 2019, after winning her second consecutive Golden Globe. 'I lost many jobs because people would say, We really liked her, but she's just not funny.' Instead of redirecting her career, she studied — frequenting comedy clubs across New York to watch how comedians delivered punchlines, held the microphone, and recovered when a bit didn't land — then won the Emmy and back-to-back Golden Globes for The Marvelous Mrs. Maisel."
+    anchor: 'the-rejection-that-became-the-reel'
+  - question: 'Is Rachel Brosnahan related to Kate Spade?'
+    answer: "Yes — Kate Spade, born Katherine Noel Brosnahan, was her aunt, her father's sister. Kate let Rachel crash in her extra bedroom during her 2013 Broadway debut and included her in nightly family dinners. In June 2018 Kate died by suicide; Rachel lost her grandfather fifteen days later. She later became the face of Frances Valentine, Kate's accessories line: 'When you lose someone you love very, very much, you spend a lot of time trying to think about how to keep their spirit alive.'"
+    anchor: 'the-kate-spade-years'
+  - question: 'Why did Rachel Brosnahan keep her marriage secret?'
+    answer: "She and actor Jason Ralph had been quietly married for years before the press confirmed it in 2019 — they'd even worn matching wedding bands at the 2018 Emmys. Her reason was a double standard she called 'problematic and frustrating': both were leads of successful TV series, yet Ralph was almost never asked about the relationship while she was asked on nearly every red carpet. So they opted out, keeping the personal life a private fact rather than a public currency."
+    anchor: 'the-marriage-she-kept-private'
+  - question: 'How did Rachel Brosnahan prepare to play Lois Lane?'
+    answer: "She spent months interviewing real investigative journalists — women who had chased stories into hostile territory — looking for the psychology of someone who refuses to compromise 'even for somebody that she loves.' She has said Lois feels most like her true self of any character she's played: 'obsessive,' 'intense,' motivated by the word 'no.' When Superman opened in July 2025, Nerdly called her 'the best screen iteration of Lois Lane since Margot Kidder.'"
+    anchor: 'the-lois-lane-arrival'
 twitter: 'rachelbrosnahan'
 instagram: 'rachelbrosnahan'
 production_pretext:

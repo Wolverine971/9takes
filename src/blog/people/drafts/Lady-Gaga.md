@@ -28,12 +28,12 @@ occupation:
   - 'Television Actor'
   - 'Voice Actor'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Film acting'
-  - 'Television acting'
-  - 'Voice acting'
-  - 'Film directing'
+  - 'Pop songwriting'
+  - 'Performance art and stage spectacle'
+  - 'Jazz vocal collaboration'
+  - 'Dramatic film acting'
+  - 'Mental health advocacy'
+  - 'Avant-garde fashion'
 keywords:
   - 'Lady Gaga enneagram'
   - 'Lady Gaga type 4'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm3078932/'
   - 'https://ladygaga.com'
 faqs:
-  - question: 'What is Lady Gaga''s Personality Type?'
-    answer: 'Lady Gaga is an Enneagram Type 4, the Individualist — more specifically, a 4w3: the Four with the Achiever wing. This is perhaps the most performative variation of the type, one that bridges the interior world of intense, private feeling with the exterior world of achievement and recognition.'
+  - question: "What is Lady Gaga's personality type?"
+    answer: "Lady Gaga is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in her credo that 'pain is a microphone,' the meat dress and Grammy egg built as armor around a wound she hadn't processed, her confession 'I was never the winner. I was always the loser. And that still stays with me,' the Little Monsters army she built for everyone who felt fundamentally different, and the fibromyalgia she describes as a cyclone of trauma sending her nervous system into overdrive."
     anchor: 'what-is-lady-gagas-personality-type'
-  - question: 'Why is Lady Gaga typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Film acting.'
-    anchor: 'why-is-lady-gaga-typed-as-an-enneagram-type-4'
+  - question: 'Why did Lady Gaga wear the meat dress and extreme costumes?'
+    answer: "The piece argues the spectacle was a force field: the more extreme the image, the less anyone could see Stefani Germanotta beneath it. The 4w3 logic runs: if the world is watching Lady Gaga, they're not seeing Stefani — and if they're not seeing Stefani, Stefani is safe. The costumes arrived in 2008 with The Fame, three years after the trauma she had told no one about."
+    anchor: 'building-the-monster'
+  - question: 'What happened to Lady Gaga at nineteen?'
+    answer: "A music producer raped her after she refused to take her clothes off, then dropped her off pregnant on a street corner because she was 'vomiting and sick.' She told no one — no parent, therapist, or doctor — and later said, 'I had a total psychotic break. For a couple years, I was not the same girl.' She disclosed the full account in 2021 on Oprah and Prince Harry's series The Me You Can't See."
+    anchor: 'age-19-the-girl-nobody-saw'
+  - question: "What caused Lady Gaga's fibromyalgia?"
+    answer: "In her own words: 'it's really a cyclone of anxiety, depression, PTSD, trauma, and panic disorder, all of which sends the nervous system into overdrive, and then you have nerve pain as a result.' The piece reads the chronic pain, diagnosed around 2015, as the bill for everything unprocessed since nineteen — held alone inside a persona that couldn't acknowledge weakness."
+    anchor: 'what-her-body-tried-to-tell-her'
+  - question: 'How did A Star Is Born change Lady Gaga?'
+    answer: "At their first meeting, Bradley Cooper wiped the makeup off her face without asking and said, 'I want no makeup on your face.' Playing Ally required a decade of armor to come off — 'taking off all my makeup, taking off wigs, being naked in a way that I've never felt before' — and the exposure didn't destroy her. When they performed 'Shallow' at the Oscars, audiences who had watched Lady Gaga for a decade were seeing Stefani for the first time."
+    anchor: 'without-the-makeup'
 twitter: 'ladygaga'
 instagram: 'ladygaga'
 tiktok: 'ladygaga'

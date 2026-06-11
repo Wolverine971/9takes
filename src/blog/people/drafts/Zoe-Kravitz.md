@@ -28,12 +28,11 @@ occupation:
   - 'Film Actor'
   - 'Singer'
 knows_about:
-  - 'Acting'
-  - 'Modeling'
-  - 'Television acting'
-  - 'Voice acting'
-  - 'Film acting'
-  - 'Singing'
+  - 'Film directing (Blink Twice)'
+  - 'Psychologically complex role selection'
+  - 'Music (Lolawolf, Electric Lady sessions)'
+  - 'Fashion (Saint Laurent ambassador)'
+  - 'Playing Catwoman (The Batman)'
 keywords:
   - 'Zoë Kravitz enneagram'
   - 'Zoë Kravitz type 4'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q227129'
   - 'https://www.imdb.com/name/nm2368789/'
 faqs:
-  - question: 'What is Zoë Kravitz''s Personality Type?'
-    answer: 'The Enneagram framework calls Type 4 "The Individualist," the type organized around a core fear of having no identity, no personal significance, of being fundamentally defective in some way that others are not.'
+  - question: "What is Zoë Kravitz's personality type?"
+    answer: "Zoë Kravitz is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in a childhood split between two worlds she belonged to in neither, telling Miami classmates 'I'm just as white as y'all' before spending years un-brainwashing herself, a decade-long eating disorder as the one thing she could control, the hypervigilant people-reading she built to protect her father, and her confession about directing: 'I feel like my brain is being exposed to the world.'"
     anchor: 'what-is-zo-kravitzs-personality-type'
-  - question: 'Why is Zoë Kravitz typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Modeling, Television acting.'
-    anchor: 'why-is-zo-kravitz-typed-as-an-enneagram-type-4'
+  - question: "Why can't Zoë Kravitz say 'Action' on set?"
+    answer: "Directing Blink Twice, the word itself — a command, a declaration of authority — triggered so much anxiety that she replaced it with 'Let's go.' She co-wrote the script starting in 2017, seven years before release, and shot it in twenty-six days in Mexico with cast and crew living in the mansion where they filmed. Co-stars saw the opposite of her anxiety: 'Zoe is not your average first-time director at all. She knows exactly what she's doing.'"
+    anchor: 'lets-go-how-she-directs'
+  - question: 'What happened when Zoë Kravitz moved to Miami at eleven?'
+    answer: "She left Lisa Bonet's protective Topanga Canyon world to live with Lenny Kravitz — and found his absence instead: 'when you're that age, and someone comes and goes, it feels like Santa Claus.' At her wealthy white prep school she felt 'super alienated' and tried to erase her Black identity to fit in. The eating disorder started at thirteen and lasted roughly a decade; filming The Road Within in 2013, she shrank to ninety pounds."
+    anchor: 'the-rupture-at-eleven'
+  - question: 'Why did Zoë Kravitz and Karl Glusman divorce?'
+    answer: "She filed eighteen months after their June 2019 wedding at her father's Paris mansion, and took the blame entirely: 'It really is less about him and more about me learning how to ask myself questions about who I am... I was a mess. I wasn't making choices based on what felt good to me.' The essay reads it as the Four's pattern — idealize, merge, discover the relationship doesn't match the fantasy, withdraw — later echoed when her engagement to Channing Tatum ended just after their shared film's press tour."
+    anchor: 'the-marriage-that-lasted-eighteen-months'
+  - question: "Was Zoë Kravitz rejected from The Dark Knight Rises?"
+    answer: "Yes — in 2012 she was told she was 'too urban' to even read for a small role. 'Being told at that time that I wasn't able to read because of the color of my skin... that was what was really hard about that moment.' Ten years later she played Catwoman in The Batman, interpreting Selina Kyle as bisexual and as a woman whose entire identity is constructed around survival."
+    anchor: 'the-name-she-didnt-earn'
 twitter: 'ZoeKravitz'
 instagram: 'zoeisabellakravitz'
 tiktok: ''

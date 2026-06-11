@@ -28,12 +28,11 @@ occupation:
   - 'Musician'
   - 'Screenwriter'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Film production'
-  - 'Singing'
-  - 'Music'
-  - 'Screenwriting'
+  - 'Character-transformation acting'
+  - 'Wing Chun martial arts'
+  - 'Addiction recovery'
+  - 'Superhero franchise filmmaking'
+  - 'Film producing'
 keywords:
   - 'Robert Downey Jr. enneagram'
   - 'Robert Downey Jr. type 7'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q165219'
   - 'https://www.imdb.com/name/nm0000375/'
 faqs:
-  - question: 'What is Robert Downey Jr.''s Personality Type?'
-    answer: 'Enneagram Sevens, the Enthusiasts, are driven by a core fear of being trapped in pain. They are possibility engines, minds that automatically generate alternatives, exits, silver linings, and next moves. When healthy, this makes them the most electrifying people in any room: creative, quick, charismatic, able to metabolize setbacks faster than anyone. When unhealthy, the same engine becomes a getaway car.'
+  - question: "What is Robert Downey Jr.'s personality type?"
+    answer: "Robert Downey Jr. is an Enneagram Type 7 (The Enthusiast) — the possibility engine whose core fear is being trapped in pain. The pattern shows in the father who handed him marijuana at six as the family language of love, three decades of escape through substances and arrests, the reflex that converts pain into humor before anyone can feel it ('I'd like to thank my terrible childhood and the Academy, in that order'), and a mind that, even in Corcoran State Prison, asked 'What am I going to read today?'"
     anchor: 'what-is-robert-downey-jr-s-personality-type'
-  - question: 'Why is Robert Downey Jr. typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film production.'
-    anchor: 'why-is-robert-downey-jr-typed-as-an-enneagram-type-7'
+  - question: "Did Robert Downey Jr.'s father really give him drugs as a child?"
+    answer: "Yes. Robert Downey Sr., an underground filmmaker and addict, handed his son marijuana at age six. 'When my dad and I would do drugs together, it was like him trying to express his love for me in the only way he knew how,' Downey has said. By eight he was drinking. In the 2022 documentary Sr., shot as Parkinson's ravaged his dying father, Downey Sr. expressed regret — and when his son pushed gently to discuss its effect on him, replied: 'I would sure love to miss that discussion.'"
+    anchor: 'the-education-of-an-escape-artist'
+  - question: 'Did Robert Downey Jr. go to prison?'
+    answer: "Yes. In 1999 a judge sentenced him to three years; he served fifteen months at California's Corcoran State Prison, the same facility that held Charles Manson. He worked kitchen duty at eight cents an hour and shared a cell with men named Figueroa Slim, Timmons, Sugar Bear, and Big Al. He called it 'arguably the most dangerous place I've ever been in my life' — and admitted incarceration didn't deter him at all."
+    anchor: 'corcoran'
+  - question: 'How did Robert Downey Jr. get sober?'
+    answer: "Three forces converged in 2003. A disgusting Burger King burger on the Pacific Coast Highway made him throw every drug in his car into the ocean. Susan Levin, whom he met on Gothika, gave an absolute ultimatum — give up drugs completely or she walks — and he answered, 'You make me ready.' And Wing Chun under Sifu Eric Oram became what Downey calls 'the architectural rebar' of his life, the discipline that demanded the one thing his personality resisted most: presence."
+    anchor: 'the-burger-the-ultimatum-and-the-rebar'
+  - question: 'Why is Robert Downey Jr. playing Doctor Doom?'
+    answer: "Kevin Feige had been thinking about casting Downey as Doom since 2005. At the 2024 Comic-Con reveal Downey summed it up as 'New mask, same task,' and when pressed on playing a villain: 'What can I tell you? I like playing complicated characters.' The piece reads it as deliberate — after Lewis Strauss in Oppenheimer, the man who spent three decades avoiding darkness is now choosing to inhabit it, because he's no longer afraid of what he'll find there."
+    anchor: 'the-roles-that-chart-the-arc'
 twitter: '@RobertDowneyJr'
 instagram: 'robertdowneyjr'
 tiktok: ''

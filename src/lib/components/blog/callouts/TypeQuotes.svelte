@@ -1,49 +1,45 @@
 <!-- src/lib/components/blog/callouts/TypeQuotes.svelte -->
 <!--
-  9takes Warm Tech Theme - Displays characteristic quotes/statements from Enneagram types
-  Perfect for showing how different types express themselves
+  Displays characteristic quotes/statements from Enneagram types.
+  Shell renders through the shared <Callout> base (2026-06-10 consolidation);
+  the title becomes the base's mono kicker label. The 'minimal' variant
+  (no shell) keeps its bare rendering. Public props unchanged.
 
   Usage:
   <TypeQuotes
     title="The Body Types: Anger Deniers"
     quotes={[
       { type: 8, quote: "I'm not angry, I'm just passionate." },
-      { type: 9, quote: "I never get angry.", note: "Narrator: They're seething inside" },
-      { type: 1, quote: "I'm not angry, I'm just frustrated things aren't done correctly." }
+      { type: 9, quote: "I never get angry.", note: "Narrator: They're seething inside" }
     ]}
   />
 -->
 <script lang="ts">
+	import Callout from './Callout.svelte';
+	import { getTypeColorSet, ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+
 	interface TypeQuote {
 		type: number;
 		quote: string;
 		note?: string;
 	}
 
-	/**
-	 * Optional title/heading for the quote group
-	 */
+	/** Optional title/heading for the quote group */
 	export let title: string = '';
 
-	/**
-	 * Array of quotes with type, quote text, and optional note
-	 */
+	/** Array of quotes with type, quote text, and optional note */
 	export let quotes: TypeQuote[] = [];
 
 	/**
 	 * Visual style variant
-	 * - 'default': Purple accent (matches 9takes brand)
-	 * - 'subtle': Neutral gray accent
-	 * - 'minimal': No background, just styled quotes
+	 * - 'default': brand amber accent
+	 * - 'subtle': neutral ink accent
+	 * - 'minimal': no shell, just styled quotes
 	 */
 	export let variant: 'default' | 'subtle' | 'minimal' = 'default';
 
-	/**
-	 * Optional children content (used when dynamically mounted from Supabase content)
-	 */
+	/** Optional children content (used when dynamically mounted from Supabase content) */
 	export let children: string | ((...args: unknown[]) => unknown) = '';
-
-	import { getTypeColorSet, ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
 	const typeNames: Record<number, string> = Object.fromEntries(
 		Object.entries(ENNEAGRAM_TYPE_COLORS).map(([k, v]) => [Number(k), v.name])
@@ -54,66 +50,61 @@
 	}
 </script>
 
-<aside
-	class="type-quotes"
-	class:type-quotes--subtle={variant === 'subtle'}
-	class:type-quotes--minimal={variant === 'minimal'}
->
-	{#if title}
-		<h4 class="type-quotes__title">{title}</h4>
-	{/if}
-
-	<div class="type-quotes__list">
-		{#each quotes as { type, quote, note }}
-			{@const colors = getTypeColor(type)}
-			<div
-				class="type-quote"
-				style="--type-bg: {colors.bg}; --type-text: {colors.text}; --type-border: {colors.border};"
-			>
-				<span class="type-quote__badge" title={typeNames[type]}>
-					Type {type}
-				</span>
-				<span class="type-quote__text">"{quote}"</span>
-				{#if note}
-					<span class="type-quote__note">({note})</span>
-				{/if}
-			</div>
-		{/each}
-	</div>
-
-	{#if typeof children === 'string' && children.trim() !== ''}
-		<div class="type-quotes__content">
-			{@html children}
+{#if variant === 'minimal'}
+	<aside class="type-quotes--minimal">
+		{#if title}
+			<h4 class="type-quotes__title">{title}</h4>
+		{/if}
+		<div class="type-quotes__list">
+			{#each quotes as { type, quote, note }}
+				{@const colors = getTypeColor(type)}
+				<div
+					class="type-quote"
+					style="--type-bg: {colors.bg}; --type-text: {colors.text}; --type-border: {colors.border};"
+				>
+					<span class="type-quote__badge" title={typeNames[type]}>Type {type}</span>
+					<span class="type-quote__text">"{quote}"</span>
+					{#if note}
+						<span class="type-quote__note">({note})</span>
+					{/if}
+				</div>
+			{/each}
 		</div>
-	{:else}
-		<slot />
-	{/if}
-</aside>
+		{#if typeof children === 'string' && children.trim() !== ''}
+			<div class="type-quotes__content">{@html children}</div>
+		{:else}
+			<slot />
+		{/if}
+	</aside>
+{:else}
+	<Callout tone={variant === 'subtle' ? 'neutral' : 'lamp'} label={title}>
+		<div class="type-quotes__list">
+			{#each quotes as { type, quote, note }}
+				{@const colors = getTypeColor(type)}
+				<div
+					class="type-quote"
+					style="--type-bg: {colors.bg}; --type-text: {colors.text}; --type-border: {colors.border};"
+				>
+					<span class="type-quote__badge" title={typeNames[type]}>Type {type}</span>
+					<span class="type-quote__text">"{quote}"</span>
+					{#if note}
+						<span class="type-quote__note">({note})</span>
+					{/if}
+				</div>
+			{/each}
+		</div>
+		{#if typeof children === 'string' && children.trim() !== ''}
+			<div class="type-quotes__content">{@html children}</div>
+		{:else}
+			<slot />
+		{/if}
+	</Callout>
+{/if}
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme */
-	.type-quotes {
+	.type-quotes--minimal {
 		margin: 1.5rem 0;
-		padding: 1.25rem 1.5rem;
-		border-radius: 0.625rem;
-		background: linear-gradient(
-			135deg,
-			var(--stone-warm) 0%,
-			var(--night-deep) 50%,
-			var(--night-deep) 100%
-		);
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
-
-		&--subtle {
-			background: linear-gradient(135deg, var(--night-deep) 0%, var(--night-deep) 100%);
-			border-color: color-mix(in srgb, var(--ink-dim) 20%, transparent);
-		}
-
-		&--minimal {
-			background: transparent;
-			border: none;
-			padding: 0.5rem 0;
-		}
+		padding: 0.5rem 0;
 	}
 
 	.type-quotes__title {
@@ -184,18 +175,9 @@
 
 	.type-quotes__content {
 		margin-top: 1rem;
-		font-size: 0.9rem;
-		line-height: 1.6;
-		color: var(--ink-mid);
 	}
 
-	// Mobile adjustments
 	@media (max-width: 640px) {
-		.type-quotes {
-			padding: 1rem;
-			margin: 1rem 0;
-		}
-
 		.type-quote {
 			padding: 0.625rem 0.875rem;
 		}

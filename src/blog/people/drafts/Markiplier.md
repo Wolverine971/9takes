@@ -26,10 +26,12 @@ occupation:
   - 'Filmmaker'
   - 'Actor'
 knows_about:
-  - 'YouTube content creation'
-  - 'Acting'
-  - 'YouTuber'
-  - 'Digital media'
+  - 'YouTube interactive specials'
+  - "Horror game Let's Plays"
+  - 'Iron Lung (film)'
+  - 'Unus Annus'
+  - 'Charity fundraising'
+  - 'Cloak clothing brand'
 keywords:
   - 'Markiplier enneagram'
   - 'Markiplier type 7'
@@ -47,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q16729001'
   - 'https://www.imdb.com/name/nm6290555/'
 faqs:
-  - question: 'What is Markiplier''s Personality Type?'
-    answer: 'Enneagram Sevens are called "The Enthusiast" — but that label undersells the mechanism. The Seven''s operating system isn''t about chasing fun. It''s about transforming pain into possibility. When something devastating happens, the Seven''s mind performs a kind of cognitive alchemy: the loss becomes a lesson, the dead end becomes a door, the catastrophe becomes a clean slate.'
+  - question: "What is Markiplier's personality type?"
+    answer: "Markiplier is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in how every catastrophe became fuel — his father's death at 18 turned into millions raised for cancer research, the 2012 year of being fired, kicked out, and hospitalized turned into the YouTube channel itself — and in the escalation from a rented-house murder mystery to an Emmy-nominated sci-fi epic to Iron Lung, a $52 million feature film he financed with $3 million of his own money. The growth line shows too: three years of solitary, focused depth spent making art about being trapped with no exit."
     anchor: 'what-is-markipliers-personality-type'
-  - question: 'Why is Markiplier typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Acting, YouTuber.'
-    anchor: 'why-is-markiplier-typed-as-an-enneagram-type-7'
+  - question: 'What was Unus Annus and why was it deleted?'
+    answer: "Unus Annus ('one year' in Latin) was a channel where Markiplier and Ethan Nestor uploaded a video every day for exactly one year, then permanently deleted everything — 4.56 million people subscribed knowing it would all disappear, and the deletion livestream peaked at 1.5 million concurrent viewers watching a countdown to nothing. The motto was 'memento mori' — remember you will die. Built four years after his collaborator Daniel Kyre's suicide and twelve after his father's death, it reads as a machine for rehearsing loss."
+    anchor: 'the-entertainers-art-about-death'
+  - question: 'What happened to Markiplier in 2012?'
+    answer: "Everything collapsed at once: he broke up with his girlfriend, got fired, was kicked out by his mother, had an emergency appendectomy, and doctors found a fist-sized tumor on his adrenal gland. He created the Markiplier channel that March, got his AdSense account banned within a year, started over on a new channel, and dropped out of the University of Cincinnati two semesters short of a biomedical engineering degree — some days uploading ten videos."
+    anchor: 'the-year-everything-collapsed'
+  - question: 'Why does Markiplier give his merch profits to charity?'
+    answer: "He's open about wealth guilt: 'I wrestled with this a lot over the years — just how much money I suddenly fell into. It messed with me.' Since 2019 all merchandise profits go to charity, he's raised over $11 million across his career for causes like Cincinnati Children's Hospital and the World Food Program, and his OnlyFans stunt — which crashed the entire platform — split every dollar between charities."
+    anchor: 'i-make-an-ungodly-amount-of-money-and-it-feels-unfair'
+  - question: "Why doesn't Markiplier drink alcohol?"
+    answer: "He has ALDH2 deficiency — the 'Asian flush' common among people of East Asian descent — but in his case three beers triggered a magnesium deficiency severe enough to cause two separate heart attacks. It joined a running list of health incidents he jokes about as 'the Annual Markiplier Hospital Update.'"
+    anchor: 'three-beers-and-two-heart-attacks'
 twitter: 'markiplier'
 instagram: 'markiplier'
 tiktok: '@markiplier'

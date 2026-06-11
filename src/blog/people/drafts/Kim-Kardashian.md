@@ -29,12 +29,12 @@ occupation:
   - 'Entrepreneur'
   - 'Actor'
 knows_about:
-  - 'Modeling'
-  - 'Entrepreneurship'
-  - 'Acting'
-  - 'Television production'
-  - 'Voice acting'
-  - 'Celebrity'
+  - 'Shapewear and apparel (SKIMS)'
+  - 'Beauty brand building'
+  - 'Reality television production'
+  - 'Criminal justice reform advocacy'
+  - 'Law study and the California bar'
+  - 'Personal image management'
 keywords:
   - 'Kim Kardashian enneagram'
   - 'Kim Kardashian type 3'
@@ -56,12 +56,21 @@ citations:
   - 'https://www.kkwbeauty.com/'
   - 'https://www.kimkardashianwest.com/'
 faqs:
-  - question: 'What Is Kim Kardashian''s Personality Type?'
-    answer: 'Enneagram Type 3s are driven by a need to succeed and be seen as valuable. They adapt, perform, and optimize until the gap between who they are and who they need to be becomes invisible. Sometimes even to themselves.'
+  - question: "What is Kim Kardashian's personality type?"
+    answer: "Kim Kardashian is an Enneagram Type 3 (The Achiever). The pattern shows in the White House meeting where she masked her embarrassment so completely nobody noticed, the Kimono-to-SKIMS pivot executed with a million garments already printed, her first instinct about divorce being 'will people think I'm a failure?', and a description of her own spiritual growth as 'getting to the next level in the video game.'"
     anchor: 'what-is-kim-kardashians-personality-type'
-  - question: 'Why is Kim Kardashian typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Modeling, Entrepreneurship, Acting.'
-    anchor: 'why-is-kim-kardashian-typed-as-an-enneagram-type-3'
+  - question: 'Why did Kim Kardashian decide to become a lawyer?'
+    answer: "A meeting in the Roosevelt Room of the White House, where everyone used legal abbreviations she didn't understand and she faked competence perfectly: 'I never wanted to feel that way again.' She then spent six years studying law through an unconventional path without a bachelor's degree, failing the baby bar multiple times while her kids watched her open the results, before passing. Asked what she'd do if she lost everything, she answered: be an attorney full-time."
+    anchor: 'what-the-roosevelt-room-taught-her'
+  - question: 'How did the 2016 Paris robbery change Kim Kardashian?'
+    answer: "Five men dressed as police bound her with zip ties, held a gun to her head, and took over $6 million in jewelry, including her 18.8-carat engagement ring — using her own geotagged, diamond-lit feed to find her. She went dark on social media for months, stopped posting locations in real time, stripped luxury items from her feed, and quit wearing jewelry. The minimalism and 'quiet luxury' aesthetic she's credited with popularizing traces back to that night."
+    anchor: 'when-the-showroom-became-a-crime-scene'
+  - question: 'Why did Kim Kardashian leave Kanye West?'
+    answer: "She has described 'not feeling safe — not even physically, just like maybe emotionally or even financially,' coming home to five new Lamborghinis that would vanish and reappear, and becoming dissociated and quiet. She framed leaving as necessity: 'I had to save myself in order to be a better mom for everyone.' Even then, her stated fear wasn't safety but perception: 'Am I a failure?'"
+    anchor: 'when-control-met-chaos'
+  - question: "Why is everything in Kim Kardashian's office beige?"
+    answer: "She gives employees a cream-and-beige color palette to dress from and keeps the walls and furniture monochrome — a deliberate strategy to reduce external variance in a life that generates constant chaos. The same logic governs her mornings: an early workout she calls her 'mental health check' and a 20-minute silent drive home that is the only unmanaged time in her day."
+    anchor: 'the-architecture-of-calm'
 twitter: 'https://twitter.com/KimKardashian'
 instagram: 'https://www.instagram.com/kimkardashian'
 tiktok: 'https://www.tiktok.com/@kimkardashian'

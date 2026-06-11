@@ -28,12 +28,12 @@ occupation:
   - 'Fashion Designer'
   - 'Director'
 knows_about:
-  - 'Hip-hop music'
-  - 'Music production'
-  - 'Singing'
-  - 'Songwriting'
-  - 'Music'
-  - 'Hip-Hop'
+  - 'Hip-hop production'
+  - 'Soul sampling'
+  - 'Sneaker design'
+  - 'Fashion design'
+  - 'Gospel music production'
+  - 'Architectural design projects'
 keywords:
   - 'Kanye West enneagram'
   - 'Kanye West type 7'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm1577190/'
   - 'https://yeezy.com/'
 faqs:
-  - question: 'What is Kanye West''s Personality Type?'
-    answer: 'The Enneagram framework calls Type 7 "The Enthusiast," the personality driven by an insatiable hunger for new experience, a terror of being trapped or limited, and a remarkable ability to reframe pain into possibility.'
+  - question: "What is Kanye West's personality type?"
+    answer: "Kanye West is an Enneagram Type 7 (The Enthusiast) with an 8 wing. The pattern shows in recording 'Through the Wire' two weeks after a near-fatal crash with his jaw wired shut, twelve studio albums that never repeat a sound, the serial pivots into fashion, architecture, religion, and politics, and the stress collapse into rigid moral absolutism — the most flexible mind in music gripping fixed points when the reframing engine stalls."
     anchor: 'what-is-kanye-wests-personality-type'
-  - question: 'Why is Kanye West typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Hip-hop music, Music production, Singing.'
-    anchor: 'why-is-kanye-west-typed-as-an-enneagram-type-7'
+  - question: "How did the 2002 car crash shape Kanye West's career?"
+    answer: "He fell asleep at the wheel after a late Roc-A-Fella session and shattered his jaw. Within three days of nearly dying he was writing 'Through the Wire,' and within two weeks he recorded it through the metal holding his mouth together. In his January 2026 Wall Street Journal apology, he revealed the crash also injured his right frontal lobe — a possibility never raised at the time and not properly diagnosed until 2023."
+    anchor: 'the-wire-that-never-came-off'
+  - question: 'Why did Adidas drop Kanye West?'
+    answer: "In October 2022 he wore a 'White Lives Matter' shirt at Paris Fashion Week, posted he was going 'death con 3 on JEWISH PEOPLE,' praised Hitler on Alex Jones's show, and denied the Holocaust. Adidas, Gap, Balenciaga, Vogue, Universal, and CAA all severed ties, and Forbes estimated his net worth fell from roughly $2 billion to $400 million. For a man whose identity is built on the next creation, losing the platform to create was amputation, not just bankruptcy."
+    anchor: 'the-year-everything-burned'
+  - question: 'What happened to Sunday Service?'
+    answer: "Launched in January 2019 with an eighty-person gospel choir, it grew to a three-hour Easter set at Coachella, and Jesus Is King won the Grammy for Best Contemporary Christian Music Album. Then the cycle completed: choir members filed a class action over flat $250 payments and no meals or breaks (settled for $1.35 million), the organization lost its tax-exempt status in 2024, and by mid-2024 the choir was performing without him."
+    anchor: 'we-all-will-live-in-turrell-spaces'
+  - question: "What did Kanye West's 2026 apology say?"
+    answer: "It ran as a full-page Wall Street Journal ad titled 'To Those I've Hurt' in January 2026. He attributed his behavior to the undiagnosed frontal-lobe injury from the 2002 crash and a 'four-month-long manic episode of psychotic, paranoid and impulsive behavior that destroyed my life,' and committed to 'accountability, treatment, and meaningful change.' Two months later he announced his twelfth album, Bully, and a world tour."
+    anchor: 'tokyo-bianca-and-the-next-world'
 twitter: 'kanyewest'
 instagram: 'kanyewest'
 tiktok: ''

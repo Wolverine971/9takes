@@ -28,12 +28,12 @@ occupation:
   - 'Businessperson'
   - 'Songwriter'
 knows_about:
-  - 'Singing'
-  - 'Acting'
-  - 'Voice acting'
-  - 'Business'
-  - 'Songwriting'
-  - 'Entrepreneurship'
+  - 'Pop songwriting'
+  - 'Stadium tour production'
+  - 'Pop persona reinvention'
+  - 'Television talent judging'
+  - 'Consumer brand ownership'
+  - 'UNICEF humanitarian work'
 keywords:
   - 'Katy Perry enneagram'
   - 'Katy Perry type 7'
@@ -54,12 +54,21 @@ citations:
   - 'https://www.instagram.com/katyperry/p/BQMb2LCAURu/'
   - 'https://www.katyperry.com'
 faqs:
-  - question: 'What is Katy Perry''s personality type?'
-    answer: 'You can see the Seven in Perry before you ever read a personality framework. It''s in the velocity — the way she moves through identities the way other people move through outfits.'
+  - question: "What is Katy Perry's personality type?"
+    answer: "Katy Perry is an Enneagram Type 7 (The Enthusiast) with a 6 wing. The pattern shows in a deprivation childhood — food banks, forbidden Lucky Charms — converted into an identity built on excess, seven albums across seven torched-and-replaced eras, the instant reframe that turned a divorce-by-text into the number-one single 'Part of Me,' the 2017 collapse when the reframing engine finally failed, and the ultimate Seven move: flying to space on a Blue Origin rocket."
     anchor: 'what-is-katy-perrys-personality-type'
-  - question: 'Why is Katy Perry typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Acting, Voice acting.'
-    anchor: 'why-is-katy-perry-typed-as-an-enneagram-type-7'
+  - question: "What was Katy Perry's childhood like?"
+    answer: "Both parents were Pentecostal pastors. She wasn't allowed Lucky Charms (luck was 'derivative from Lucifer'), couldn't trick-or-treat, read Harry Potter, or say 'deviled eggs,' and the family ate from food banks. She got her GED at fifteen, dropped out to chase music, and released a gospel album at sixteen under her birth name, Katy Hudson — it sold roughly 200 copies before the label folded."
+    anchor: 'the-cage-she-was-born-into'
+  - question: 'What happened to Katy Perry in 2017?'
+    answer: "When the public rejected the Witness era, her coping mechanism stopped working: 'I just couldn't get out of bed for weeks and became clinically depressed and had to get on medication for the first time in my life.' That June she livestreamed a therapy session to 49 million people, admitting suicidal thoughts and saying, 'I so badly want to be Katheryn Hudson that I don't even want to look like Katy Perry anymore.'"
+    anchor: 'when-the-possibility-engine-failed'
+  - question: "How did Katy Perry's marriage to Russell Brand end?"
+    answer: "After fourteen months, Brand ended it via text message — on New Year's Eve, moments before Perry was due on stage. Her Part of Me documentary captured her collapsing backstage, sobbing until she couldn't breathe, then going on with the show. She wrote 'Part of Me,' a song about surviving, and it went to number one."
+    anchor: 'the-fairytale-that-went-up-in-flames'
+  - question: 'Why was Katy Perry criticized for the album 143?'
+    answer: "The 2024 album reunited her with Dr. Luke, the producer Kesha had accused of sexual assault, and the lead single 'Woman's World' — intended as a female empowerment anthem — was produced almost entirely by men. Perry deflected ('He was one of many collaborators... it comes from me') and never addressed Kesha by name. The reframe didn't work: 143 became her worst-reviewed album."
+    anchor: 'the-anchor-and-the-astronaut'
 twitter: '@katyperry'
 instagram: '@katyperry'
 tiktok: '@katyperry'

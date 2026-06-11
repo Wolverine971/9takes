@@ -24,7 +24,11 @@ occupation:
   - 'Figure Skater'
 knows_about:
   - 'Figure skating'
-  - 'Figure Skater'
+  - 'Triple axel and quadruple lutz technique'
+  - 'Olympic competition'
+  - 'Competitive comebacks'
+  - 'ADHD in elite sport'
+  - 'Skating choreography'
 keywords:
   - 'Alysa Liu enneagram'
   - 'Alysa Liu type 7'
@@ -44,12 +48,21 @@ citations:
   - 'https://www.imdb.com/name/nm10438384/'
   - 'https://alysaliu.figureskatersonline.com/'
 faqs:
-  - question: 'What is Alysa Liu''s Personality Type?'
-    answer: 'Type 7s — Enthusiasts in classical Enneagram language — are wired to convert limitation into possibility. Their minds run a constant scan for what is fun, what is next, what is interesting, what could be. Their core fear is being trapped in pain or deprivation. Their core defense is to keep moving, keep planning, keep finding the next thing.'
+  - question: "What is Alysa Liu's personality type?"
+    answer: "Alysa Liu is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in the Instagram retirement post that opened with 'Heyyyyy' at 16, the comeback she launched because skiing reminded her she loved going fast, the ADHD 'dopamine rush' she gets from mid-program mistakes, the complete creative freedom her coaches say is non-negotiable, and her question to reporters before Milan: 'You're going to have to explain to me what Olympic pressure is.'"
     anchor: 'what-is-alysa-lius-personality-type'
-  - question: 'Why is Alysa Liu typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Figure skating, Figure Skater.'
-    anchor: 'why-is-alysa-liu-typed-as-an-enneagram-type-7'
+  - question: 'Why did Alysa Liu quit figure skating at 16?'
+    answer: "She has said she 'never made a single decision' — not the music, the choreography, the dresses, or the training facilities — and used the word 'puppet' for how it felt. She told the Dying To Ask podcast she was done a year before she actually quit, skated through the 2022 Beijing Olympics anyway, finished seventh, and announced her retirement on Instagram the next month."
+    anchor: 'why-alysa-liu-quit-skating-at-sixteen'
+  - question: 'Why did Alysa Liu come back to skating?'
+    answer: "A January 2024 skiing trip reminded her what she had loved at age five: the speed. 'I need to find a way to satisfy this urge to go fast,' she said. At a public skating session with her best friend days later, the thought arrived: 'Why don't I just skate? I need to not be so stubborn.' She called coach Phillip DiGuglielmo, countered every argument he made against the comeback, and rebuilt her career on her own terms near UCLA."
+    anchor: 'the-skiing-trip-that-pulled-alysa-liu-back-to-the-ice'
+  - question: 'Does Alysa Liu have ADHD?'
+    answer: "Yes — she was diagnosed during her retirement, after discovering 145 unfinished homework assignments on her school portal in her senior year. She now frames it as a competitive advantage: 'I have ADHD, and I love situations that I'm not expecting. It gives me a dopamine rush.' When a triple lutz landing collapsed at the 2024 Cup of China, she rerouted the program in real time, added combos, and finished grinning."
+    anchor: 'alysa-lius-adhd-and-the-dopamine-rush-of-going-wrong'
+  - question: 'How did Alysa Liu win Olympic gold in Milan?'
+    answer: "She scored 226.79 in the free skate to become the first American woman to win singles figure skating gold since Sarah Hughes in 2002, skating the same Donna Summer 'MacArthur Park Suite' program she used to win the 2025 World Championship in Boston. Her coach Massimo Scali said the team came to Milan with 'zero, absolutely zero' expectations — the detachment was the strategy."
+    anchor: 'how-alysa-liu-won-olympic-gold-by-refusing-to-compete-for-it'
 instagram: 'alysaliu'
 production_pretext:
   status: draft

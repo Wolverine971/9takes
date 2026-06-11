@@ -80,7 +80,7 @@
 	.enneagram-chart {
 		width: 100%;
 		background: var(--card-background, #fff);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 16px;
 	}
 
@@ -125,7 +125,7 @@
 
 	.top-type {
 		padding: 2px 8px;
-		border-radius: 12px;
+		border-radius: 9999px;
 		font-weight: 500;
 		background: color-mix(in srgb, var(--type-color) 15%, transparent);
 		color: var(--type-color);
@@ -181,7 +181,7 @@
 		justify-content: center;
 		width: 24px;
 		height: 24px;
-		border-radius: 6px;
+		border-radius: 0.25rem;
 		font-size: 0.75rem;
 		font-weight: 700;
 		color: white;
@@ -204,7 +204,7 @@
 	.bar-track {
 		height: 24px;
 		background: var(--hover-background, var(--ink-bright));
-		border-radius: 6px;
+		border-radius: 0.25rem;
 		overflow: hidden;
 		position: relative;
 	}
@@ -218,7 +218,7 @@
 		height: 100%;
 		width: 0;
 		background: linear-gradient(90deg, var(--color), color-mix(in srgb, var(--color) 80%, white));
-		border-radius: 6px;
+		border-radius: 0.25rem;
 		transition: width 0s;
 		position: relative;
 	}

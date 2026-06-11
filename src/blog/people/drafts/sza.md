@@ -27,9 +27,7 @@ occupation:
   - 'Singer-Songwriter'
   - 'Lyricist'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Music'
+  - 'Confessional songwriting'
   - 'Contemporary R&B'
   - 'Alternative R&B'
   - 'Neo Soul'
@@ -50,12 +48,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q16210722'
   - 'https://www.imdb.com/name/nm6855916/'
 faqs:
-  - question: 'What is SZA''s personality type?'
-    answer: 'Her voice sounds like it was left outside overnight: smoky, slightly worn, always reaching just past where you expect it to stop. Musically, CTRL sits between lo-fi R&B and jazz-adjacent hymns: half-whispered confessions over production that feels like lying awake at 3 a.m. SOS went wider and stranger. Orchestral swells, trap percussion, a Kill Bill sample, twenty-three tracks threading revenge fantasy through profound loneliness. The through-line across both albums is rawness that doesn''t feel staged. You get the sense she would sound exactly like this even if nobody was listening.'
+  - question: "What is SZA's personality type?"
+    answer: "SZA is an Enneagram Type 4 (The Individualist). The pattern shows in CTRL being driven explicitly by jealousy of an ex's former partners, the label having to physically take away her hard drive to make her release the album, her own words — 'It's hard not to fall into that weird hole of self-loathing' — the BBL she got and immediately regretted ('I succumbed to my own eyes in the mirror'), and a childhood spent Black, Muslim, and bookish in a white New Jersey suburb, belonging fully to neither world."
     anchor: 'what-is-szas-personality-type'
-  - question: 'Why is SZA typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Music.'
-    anchor: 'why-is-sza-typed-as-an-enneagram-type-4'
+  - question: 'Why was CTRL delayed for two years?'
+    answer: "The delay wasn't strategic — it was SZA. Originally scheduled for late 2015, she kept writing, recording, scrapping, and starting over, describing the period as 'more anxiety than I've ever felt, more unrest, more dizzy, than I've ever felt in my entire life.' The president of Top Dawg Entertainment finally had her hard drive taken away because otherwise she would never have released it. She wrote the album because she 'wanted therapy really bad, and just couldn't get any.'"
+    anchor: 'the-album-she-couldnt-let-go'
+  - question: "What does SZA's name mean?"
+    answer: "It's drawn from the Supreme Alphabet of Five-Percent Nation theology: S for Sovereign or Self, Z for Zig-Zag-Zig (enlightenment), A for Allah, with cues from Wu-Tang's RZA and GZA. The girl who had her hijab torn off in a New Jersey hallway — and was later told she wasn't Muslim enough to start covering again — built a stage name from the same Black Islamic intellectual tradition she'd been told she wasn't enough for."
+    anchor: 'she-dropped-out-in-her-last-semester'
+  - question: 'Does SZA regret her BBL?'
+    answer: "Yes, loudly. 'I'm so mad I did that shit,' she told British Vogue in December 2024. She was explicit that it wasn't industry pressure: 'I succumbed to my own eyes in the mirror.' She also had breast implants that developed fibrosis and had to be surgically removed, and concluded: 'I need to get my fucking mental health together... wherever you go, there you'll be.'"
+    anchor: 'the-body-that-never-quite-felt-like-hers'
+  - question: "Who is SZA's song 'Nobody Gets Me' about?"
+    answer: "Her ex-fiancé, a fashion designer she was with for eleven years — the longest relationship of her life, with a five-year engagement. 'I just felt like I was gonna be doomed to be in hell for the rest of my life, because nobody understood me the way he did, and nobody motivated me the way he did,' she explained. On Hot Ones in September 2024, in bug prosthetics, she added: 'My ex-fiancé hates me so much, and it's so unfortunate.'"
+    anchor: 'nobody-gets-me'
 twitter: 'thereal_sza'
 instagram: 'sza'
 tiktok: 'sza'

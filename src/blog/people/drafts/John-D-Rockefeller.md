@@ -26,11 +26,11 @@ occupation:
   - 'Banker'
   - 'Philanthropist'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Riverside Church'
-  - 'Kykuit'
-  - 'Historical influence'
-  - 'Music'
+  - 'Oil refining'
+  - 'Monopoly and trust structures'
+  - 'Cost accounting'
+  - 'Industrial philanthropy'
+  - 'Baptist stewardship and tithing'
 keywords:
   - 'John D. Rockefeller enneagram'
   - 'John D. Rockefeller type 5'
@@ -48,12 +48,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q160278'
   - 'https://www.imdb.com/name/nm1377260/'
 faqs:
-  - question: 'What is John D. Rockefeller''s personality type?'
-    answer: 'The reason Rockefeller confuses people is that two diagnoses seem to fit. The Reformer (Type 1) makes sense because of his Baptist piety, his daily ledger, his sense that commerce without order was a moral offense. The Investigator (Type 5) makes sense because of his compulsive knowledge-gathering, his emotional opacity, his long private withdrawal.'
+  - question: "What is John D. Rockefeller's personality type?"
+    answer: "John D. Rockefeller is an Enneagram Type 5 (The Investigator) with a 6 wing. The pattern shows in Ledger A, the notebook he started at sixteen recording every cent earned and given, in Standard Oil's signature move of knowing rivals' books better than they did, in his total silence through Ida Tarbell's two-year exposé, and in retiring at 58 to spend forty years reading, golfing, and giving the fortune away through a small circle of trusted allies."
     anchor: 'what-is-john-d-rockefellers-personality-type'
-  - question: 'Why is John D. Rockefeller typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Riverside Church, Kykuit.'
-    anchor: 'why-is-john-d-rockefeller-typed-as-an-enneagram-type-5'
+  - question: 'How did Standard Oil eliminate its competition?'
+    answer: "Through information asymmetry: secret railroad rebates plus 'drawbacks' paid to Standard on every barrel its competitors shipped, informants inside rival refineries, and purchased cost sheets. In the 1872 'Cleveland Massacre,' twenty-two of Cleveland's twenty-six independent refiners sold out within about three months, often after Rockefeller calmly showed them their own books. By 1880 Standard controlled roughly 90 percent of American oil refining."
+    anchor: 'how-standard-oil-made-competition-disappear'
+  - question: "Why did Rockefeller never respond to Ida Tarbell's exposé?"
+    answer: "Between 1902 and 1904 Tarbell published nineteen installments of The History of the Standard Oil Company, which helped trigger the 1911 Supreme Court dissolution of Standard Oil. Rockefeller never answered — not a speech, rebuttal, or interview — despite his son and advisors begging him to. His strategy was his mother's response to his father's scandals: 'let the world wag.'"
+    anchor: 'why-rockefeller-never-answered-ida-tarbell'
+  - question: 'Why did John D. Rockefeller hand out dimes?'
+    answer: 'For the last twenty years of his life he carried dimes in one pocket and nickels in the other, handing out an estimated 20,000 to 30,000 to caddies, strangers, and children — he disliked autographs and preferred giving a small, countable object instead of a piece of himself. After the 1914 Ludlow Massacre, PR man Ivy Lee turned the private habit into the signature public image of the benign old man.'
+    anchor: 'the-dimes-one-more-time'
+  - question: 'How much money did Rockefeller give away?'
+    answer: 'By his death in 1937 he had given away roughly $540 million — around $12 billion today — funding the University of Chicago, the Rockefeller Institute for Medical Research, the Rockefeller Foundation, the eradication of hookworm across the American South, and the school that became Spelman College. He had tithed ten percent since boyhood; the philanthropy was that habit at industrial scale.'
+    anchor: 'the-cold-man-who-gave-more-than-anyone-had-before-him'
 content_quality:
   hook: 9
   enneagram: 9

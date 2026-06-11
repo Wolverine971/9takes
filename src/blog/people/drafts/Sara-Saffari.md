@@ -23,9 +23,11 @@ occupation:
   - 'Influencer'
   - 'Personal Trainer'
 knows_about:
-  - 'Digital media'
-  - 'Influencer'
-  - 'Personal Trainer'
+  - 'Fitness content creation'
+  - 'Strength training'
+  - 'Gym comedy sketches'
+  - 'Subscription fitness apps (Saffari Club)'
+  - 'Cross-platform posting strategy'
 keywords:
   - 'Sara Saffari enneagram'
   - 'Sara Saffari type 3'
@@ -41,12 +43,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q125814190'
   - 'https://hoo.be/sarasaffari'
 faqs:
-  - question: 'What is Sara Saffari''s Personality Type?'
-    answer: 'Enneagram Threes carry a core belief that was installed early: your worth is what you produce. Love came after the good report card, the winning performance, the visible proof that you mattered. At some point, the child stops distinguishing between "I did something valuable" and "I am valuable" — the doing becomes the being.'
+  - question: "What is Sara Saffari's personality type?"
+    answer: "Sara Saffari is an Enneagram Type 3 (The Achiever), specifically the Self-Preservation Three counter-type. The pattern shows in her seven-day training split with no designated rest days, the MBA she completed in 2023 while building a content empire and barely mentioned, the way she turned her depression recovery into a brand within three years, and the deadpan 'I'm not performing' persona — what Enneagram teachers call vanity for having no vanity."
     anchor: 'what-is-sara-saffaris-personality-type'
-  - question: 'Why is Sara Saffari typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Influencer, Personal Trainer.'
-    anchor: 'why-is-sara-saffari-typed-as-an-enneagram-type-3'
+  - question: 'How did Sara Saffari get into fitness?'
+    answer: "She started training in April 2021 after seeing girls' physiques on TikTok and 'wishing that I had their physique.' Before that, she battled anorexia at around 100 pounds, ate a McDonald's dollar menu burger and a large Coke as her only meal of the day, and spent 'literally every hour in bed.' By December 2021 she went viral for deadpan situational comedy, and within roughly eighteen months she had over a million followers."
+    anchor: 'the-machine-turns-on-april-2021'
+  - question: 'What happened between Sara Saffari and Sneako?'
+    answer: "In 2023, after they had appeared on streams and gone on dates together, Sneako slapped Saffari live on an IRL stream in front of roughly 100,000 viewers. She told him directly, 'Bro, I felt violated'; he refused to apologize, and she cut contact. She addressed it once on RAWTALK alongside Mike Majlak, then redirected back to her brand."
+    anchor: 'navigating-the-chaos-drama-dating-and-the-sneako-orbit'
+  - question: 'Are Sara Saffari and Bradley Martyn dating?'
+    answer: "Dating rumors persist because they co-host the 'Mommy And Daddy Talk' podcast and she trains at his gym, Zoo Culture, but their dynamic reads more like sparring partners — she holds her own, fires back, doesn't defer. Her actual stance: 'Being single right now for me is perfect,' and she wants a partner who is 'dependable, confident, and has clear goals.'"
+    anchor: 'navigating-the-chaos-drama-dating-and-the-sneako-orbit'
+  - question: 'Does Sara Saffari have an MBA?'
+    answer: "Yes — she completed an MBA at California Lutheran University in 2023 while simultaneously running her full-time content career, and barely talked about it. When she mentioned the graduation on her podcast, she revealed that UFC president Dana White gave her $10,000 as a graduation gift."
+    anchor: 'sara-saffaris-mba-dana-white-and-the-empire-nobody-expected'
 twitter: ''
 instagram: 'https://www.instagram.com/sara_saffari'
 tiktok: 'https://www.tiktok.com/@sara_saffari'

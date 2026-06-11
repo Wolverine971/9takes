@@ -261,7 +261,7 @@ Group blogs by niche/friend circles to trigger cross-curiosity virality. When so
 
 ---
 
-### 9. TIKTOK/SHORT-FORM CREATORS (Types 2, 3, 7)
+### 9. TIKTOK/SHORT-FORM CREATORS (Types 2, 3, 4, 7, 9)
 
 **Members:**
 
@@ -270,7 +270,7 @@ Group blogs by niche/friend circles to trigger cross-curiosity virality. When so
 - Addison Rae (Type 3) - Grade 8.5
 - Bella Poarch (Type 9) - Grade 8.9
 - Brittany Broski (Type 7) - "The Internet's Enthusiastic Chaos Agent"
-- Alix Earle (Type 3) - Grade 8.5
+- Alix Earle (Type 9) - Grade 8.5
 - Tara Yummy (Type 2) - "The Internet's Warm-Hearted Party Girl"
 
 **Status:** All published

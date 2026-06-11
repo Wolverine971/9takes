@@ -22,8 +22,12 @@ occupation:
   - 'Content Creator'
   - 'Entrepreneur'
 knows_about:
-  - 'Digital media'
-  - 'Entrepreneurship'
+  - 'My First Million podcast'
+  - 'Newsletter growth'
+  - 'Startup pivots and exits'
+  - 'Viral business writing'
+  - 'Rolling-fund angel investing'
+  - 'Emotional reframing frameworks'
 keywords:
   - 'Shaan Puri enneagram'
   - 'Shaan Puri type 7'
@@ -38,12 +42,21 @@ citations:
   - 'https://twitter.com/ShaanVP'
   - 'https://www.capitalism.com/shaan-puri-crypto-copywriting-and-podcasting-his-way-to-millions/'
 faqs:
-  - question: 'What is Shaan Puri''s Personality Type?'
-    answer: 'The pattern hides in plain sight. Not in the exits or the follower count, but in the way Shaan has structured his entire life around one principle: never get trapped.'
+  - question: "What is Shaan Puri's personality type?"
+    answer: "Shaan Puri is an Enneagram Type 7 (The Enthusiast). The pattern shows in his 'safety is a serial killer' philosophy, a life built as rotating chapters — sushi restaurant, live-streaming app, crypto newsletter, venture fund — the 90-second timer he sets on negative emotions, his 'work like a lion' sprint-rest rhythm, and a childhood spent across nine countries that made movement his only tempo."
     anchor: 'what-is-shaan-puris-personality-type'
-  - question: 'Why is Shaan Puri typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Entrepreneurship.'
-    anchor: 'why-is-shaan-puri-typed-as-an-enneagram-type-7'
+  - question: "What is Shaan Puri's 90-second rule?"
+    answer: "When Shaan gets upset, he sets a 90-second timer: feel the negative emotion fully, then redirect — by 40 seconds the intensity usually fades. He pairs it with reframes like saying 'I'm choosing to feel anxious' instead of 'I feel anxious.' Before building these systems, he admitted on-air to Tony Robbins that his emotional home was 'stressed and anxious'; afterward it moved to 'joy and curiosity.'"
+    anchor: 'shaan-puris-90-second-rule-for-suffering'
+  - question: 'Why did Shaan Puri sell the Milk Road after one year?'
+    answer: "He designed it that way. The crypto newsletter he co-founded with Ben Levy in early 2022 hit 250,000 subscribers in ten months — helped by a $1 million public crypto wallet readers could watch — and he sold it to Bitfo in January 2023 for a reported eight figures. 'The Milk Road was a one-year project,' he said. Build, extract, exit: the lion ate and went back to rest."
+    anchor: 'how-shaan-puri-built-milk-road-and-bums--roses'
+  - question: "Why doesn't Shaan Puri talk about Bums & Roses?"
+    answer: "Bums & Roses, the premium bamboo baby clothing brand his wife Sonia started, does $25 million in annual revenue, and Shaan is a co-founder on the LLC filings — yet he has never named it on My First Million. He says he kept it separate to maintain clean data on whether the business worked on its own merits. The man who shares his net worth and emotional breakdowns publicly protects the one slow-growth business that requires steady daily execution."
+    anchor: 'how-shaan-puri-built-milk-road-and-bums--roses'
+  - question: 'How do Shaan Puri and Sam Parr work together on My First Million?'
+    answer: "Their partnership runs on opposite engines: Shaan, the Type 7, generates ideas at machine-gun speed ('what if someone built...'), while Sam Parr, an Enneagram 8, pressure-tests them with blunt force ('What would that actually cost? Who's the customer?'). The original deal was Shaan handling content and production while Sam brought The Hustle's audience, split 50/50. Seven years and 200 million YouTube views later, it remains the longest commitment of Shaan's career."
+    anchor: 'why-my-first-million-is-the-partnership-that-should-be-impossible'
 twitter: 'https://twitter.com/ShaanVP'
 instagram: ''
 tiktok: ''

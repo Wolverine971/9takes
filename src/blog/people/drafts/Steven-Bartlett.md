@@ -27,12 +27,12 @@ occupation:
   - 'Entrepreneur'
   - 'Consultant'
 knows_about:
-  - 'Business'
-  - 'Podcasting'
-  - 'Journalism'
-  - 'Writing'
-  - 'Entrepreneurship'
-  - 'Marketing'
+  - 'The Diary of a CEO podcast'
+  - 'Long-form interviewing'
+  - 'Social media marketing'
+  - 'Personal brand construction'
+  - 'Creator-economy investing'
+  - 'Startup scaling'
 keywords:
   - 'Steven Bartlett enneagram'
   - 'Steven Bartlett type 3'
@@ -54,12 +54,21 @@ citations:
   - 'https://podcastrex.com/news/spotify-wrapped-2025-reveals-the-years-biggest-podcasts-and-a-new-no-1-in-the-uk'
   - 'https://x.com/StevenBartlett/status/1996504762997756394'
 faqs:
-  - question: 'What is Steven Bartlett''s Personality Type?'
-    answer: 'Enneagram Type 3s are called "The Achievers." The core drive isn''t ambition for its own sake — it''s a need to feel valuable, usually because no one taught them they were valuable without earning it first.'
+  - question: "What is Steven Bartlett's personality type?"
+    answer: "Steven Bartlett is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in his own confession that 'my ambitions were fake... they were insecurity,' the shame-driven hustle that started at 14 because he didn't have what his friends had, the engineered image — same all-black outfit every day, therapist's-office set design — the color-coded calendar where even time with his fiancée is a scheduled event, and the anti-climax of the millionaire moment that felt worse than finding 13 pounds in a chicken shop."
     anchor: 'what-is-steven-bartletts-personality-type'
-  - question: 'Why is Steven Bartlett typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Podcasting, Journalism.'
-    anchor: 'why-is-steven-bartlett-typed-as-an-enneagram-type-3'
+  - question: "What is Steven Bartlett's chicken shop story?"
+    answer: "At eighteen — broke, estranged from his parents after dropping out — his last 20p slipped into the crack of a chicken shop seat. Reaching for it, he found a pound coin, realized the cracks never get cleaned, and worked the whole diner for a total of 13 pounds and 40 pence. That day produced more genuine happiness than the day he became a multimillionaire: 'One was euphoria and one was anti-climax.' The inversion became the spine of his book Happy Sexy Millionaire."
+    anchor: 'the-13-pounds-that-beat-millions'
+  - question: 'How does Steven Bartlett get such big guests on The Diary of a CEO?'
+    answer: "His company FlightStory built a proprietary tool called Guest Radar that ranks potential guests by engagement data rather than follower count, and once legitimacy anchors like Simon Sinek, Esther Perel, and Gabor Maté agreed, the booking conversation changed shape. The interview method is the other half: as Sinek put it, 'He asks one question and shuts up.' By December 2025, Spotify Wrapped named DOAC the most-listened-to podcast in the UK and second-largest in the world."
+    anchor: 'how-the-diary-of-a-ceo-actually-works'
+  - question: 'Why was The Diary of a CEO investigated by the BBC?'
+    answer: "In December 2024, the BBC World Service examined 23 health-related episodes and found fifteen contained 'potentially harmful claims' — an average of 14 misleading statements per episode, including anti-vaccine conspiracies and claims that the ketogenic diet can treat cancer. It compounded earlier issues: Bartlett was an undisclosed investor in Huel and Zoe, both advertised on the show. His quiet response was to push fact-check labels onto YouTube versions of contentious episodes without conceding the critique."
+    anchor: 'the-misinformation-case'
+  - question: 'Who is Steven Bartlett engaged to?'
+    answer: "Melanie Vaz Lopes, a French entrepreneur from Bordeaux who founded Bali Breathwork. They met on Instagram in 2016; he ended it after a year because he couldn't commit while working 7am to 9pm. In February 2022 he flew 22 hours to Bali to apologize and win her back — arriving to find her in another relationship — and on Christmas Day 2025, in Morocco, he proposed with an oval-cut diamond designed off a Pinterest board he'd been saving for years."
+    anchor: 'the-bali-flight'
 twitter: 'StevenBartlett'
 instagram: 'steven'
 tiktok: 'steven'

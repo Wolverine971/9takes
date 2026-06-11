@@ -30,12 +30,12 @@ occupation:
   - 'Singer'
   - 'Composer'
 knows_about:
-  - 'Acting'
-  - 'Songwriting'
-  - 'YouTube content creation'
-  - 'Film acting'
-  - 'Singing'
-  - 'Music'
+  - 'Confessional pop songwriting'
+  - 'Queer representation in pop music'
+  - 'YouTube vlogging and coming-out culture'
+  - 'Fragrance and lifestyle branding (Tsu Lange Yor)'
+  - 'Fashion as identity expression'
+  - 'Concept album storytelling'
 keywords:
   - 'Troye Sivan enneagram'
   - 'Troye Sivan type 4'
@@ -55,12 +55,21 @@ citations:
   - 'https://www.imdb.com/name/nm2931989/'
   - 'https://troyesivan.com'
 faqs:
-  - question: 'What is Troye Sivan''s Personality Type?'
-    answer: 'Enneagram Type 4, "The Individualist," organizes around a core feeling of being fundamentally different from everyone else. Not different in the way everyone feels occasionally different. Structurally different. Missing something essential that others seem to have been born with.'
+  - question: "What is Troye Sivan's personality type?"
+    answer: "Troye Sivan is an Enneagram Type 4 (The Individualist). The pattern shows in his layered outsiderness — gay, Jewish, South African-born, raised in isolated Perth — the childhood inability to even imagine a love song with flipped pronouns, the trick of writing songs as a diary that 'never has to come out' before releasing them anyway, a fragrance brand organized by emotional state, and the fact that he still runs to the bathroom when his own song plays at a party."
     anchor: 'what-is-troye-sivans-personality-type'
-  - question: 'Why is Troye Sivan typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Songwriting, YouTube content creation.'
-    anchor: 'why-is-troye-sivan-typed-as-an-enneagram-type-4'
+  - question: 'Why does Troye Sivan seem shy in real life despite his confessional music?'
+    answer: "Sivan describes himself as 'pretty quiet in real life' with 'imposter syndrome at the best of times' — he's confident at work but gets embarrassed when his song plays at a party. After the Sweat Tour with Charli XCX, his Substack post opened with 'I think I'm exhausted,' not triumph. He keeps migrating to platforms like Substack that give him more control over the exposure, then uses that control to share more."
+    anchor: 'why-troye-sivan-seems-shy-in-real-life'
+  - question: 'How did Troye Sivan come out?'
+    answer: "He first told his best friend at fourteen, then ran home crying and promised never to speak of it again. He came out to his Orthodox Jewish father after asking what he'd change about Judaism — his father said its approach to homosexuality. On August 7, 2013, at eighteen, he uploaded the YouTube video 'Coming Out' to nearly a million subscribers, which became a landmark of queer internet culture."
+    anchor: 'how-troye-sivan-came-out-on-youtube'
+  - question: 'Is Troye Sivan a Type 4 or a Type 9?'
+    answer: "Some databases type him a Nine because he hates confrontation and gets avoidant about inviting people to things. But Nines merge with others and stall in inertia, while Sivan calls himself 'addicted to working' and has one of the most intensely cultivated senses of self in pop — a home designed as autobiography, a wardrobe that functions as identity, a fragrance line organized by mood. His art runs on fundamental difference, which is the Four."
+    anchor: 'why-troye-sivan-is-type-4-not-type-9'
+  - question: 'What does Tsu Lange Yor mean and why did Troye Sivan choose the name?'
+    answer: "Tsu Lange Yor — Yiddish for 'to long years' — is named after his great-grandmother, a Holocaust survivor who escaped Lithuania for Johannesburg and spoke only Yiddish. Sivan launched the fragrance and lifestyle brand with his brother Steele in 2023, organizing the scents around 'some of my most common moods.' He calls it ancestry made tangible, not a vanity project."
+    anchor: 'why-troye-sivan-named-his-brand-after-his-great-grandmother'
 twitter: 'traborjam'
 instagram: 'troyesivan'
 tiktok: 'troyesivan'

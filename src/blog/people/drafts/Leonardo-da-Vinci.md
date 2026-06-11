@@ -28,12 +28,12 @@ occupation:
   - 'Anatomist'
   - 'Mathematician'
 knows_about:
-  - 'Writing'
-  - 'Renaissance Architecture'
-  - 'Scenography'
-  - 'Engineering'
-  - 'Physiology'
-  - 'Painting'
+  - 'Human anatomy dissection'
+  - 'Sfumato painting technique'
+  - 'Bird flight and ornithopter design'
+  - 'Fluid dynamics and water studies'
+  - 'Military engineering design'
+  - 'Mirror-script notebooks'
 keywords:
   - 'Leonardo da Vinci enneagram'
   - 'Leonardo da Vinci type 5'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm1827914/'
   - 'https://leonardodavinci.rf.gd/'
 faqs:
-  - question: 'What is Leonardo da Vinci''s personality type?'
-    answer: 'Leonardo da Vinci is analyzed as an Enneagram Type 5 (Investigator). The profile connects that type pattern to Leonardo da Vinci understood more than anyone alive. So why did he leave almost everything unfinished? The Enneagram explains the paradox.'
+  - question: "What is Leonardo da Vinci's personality type?"
+    answer: "Leonardo da Vinci is an Enneagram Type 5 (The Investigator), specifically a 5w4. The pattern shows in the 13,000 pages of mirror-script notebooks he never published, the commissions he treated as cover for deeper investigations, the Mona Lisa he carried unfinished for twenty years, the letter that sold him to Milan as a military engineer with painting listed last, and the thirty human corpses he dissected by candlelight purely to understand."
     anchor: 'what-is-leonardo-da-vincis-personality-type'
-  - question: 'Why is Leonardo da Vinci typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Renaissance Architecture, Scenography.'
-    anchor: 'why-is-leonardo-da-vinci-typed-as-an-enneagram-type-5'
+  - question: 'Why did Leonardo da Vinci never finish anything?'
+    answer: "Because for him completion meant the investigation was over. The Virgin of the Rocks was commissioned with a seven-month deadline and finished twenty-five years later; Isabella d'Este pursued him for six years and never got her painting. Her agent's 1501 diagnosis still stands: his 'mathematical experiments have absorbed his thoughts so entirely that he cannot bear the sight of a paintbrush.' As Leonardo put it, 'Art is never finished, only abandoned.'"
+    anchor: 'he-begins-by-thinking-of-the-end-before-the-beginning'
+  - question: 'Why did Leonardo da Vinci write backwards?'
+    answer: "The practical reason: he was left-handed, and writing right-to-left in mirror script kept his hand from smearing the ink — he wrote normally in letters to patrons. But the privacy effect was real too: a man accused of a capital crime for his private life, who never published his findings, wrote his life's work in a script no one could casually read over his shoulder."
+    anchor: 'the-7200-pages-no-one-was-meant-to-read'
+  - question: 'Was Leonardo da Vinci accused of a crime?'
+    answer: "Yes. In April 1476, an anonymous denunciation in Florence's public letter box accused the 24-year-old Leonardo and three other men of sodomy — a capital offense. The charges were dismissed because Florentine law required signed accusations, but the aftermath shows in his work: he abandoned both paintings he started in the following years, stopped accepting portrait commissions, and within six years left Florence entirely."
+    anchor: '1476-the-year-everything-almost-ended'
+  - question: 'Who was Salaì?'
+    answer: "Gian Giacomo Caprotti, a ten-year-old who entered Leonardo's Milan household in 1490 and started stealing within days — Leonardo's notebook entry reads 'thief, liar, obstinate, glutton.' Leonardo kept him for twenty-five years anyway, cataloguing his thefts and buying him silk doublets on the same notebook pages. Salaì modeled for St. John the Baptist and Bacchus, and Leonardo left him half a vineyard in his will."
+    anchor: 'the-man-who-kept-a-thief-for-twenty-five-years'
 twitter: ''
 instagram: ''
 tiktok: ''

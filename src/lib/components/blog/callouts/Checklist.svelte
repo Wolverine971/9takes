@@ -1,9 +1,12 @@
 <!-- src/lib/components/blog/callouts/Checklist.svelte -->
 <!--
-  9takes Warm Tech Theme - Interactive checklist for blog content
-  Used for action items, to-do lists, or step-by-step guides
+  Interactive checklist for blog content — action items, to-do lists, steps.
+  Shell renders through the shared <Callout> base (2026-06-10 consolidation);
+  the title becomes the base's mono kicker label. Public props unchanged.
 -->
 <script lang="ts">
+	import Callout from './Callout.svelte';
+
 	export let title = '';
 	export let items: string[] = [];
 	export let note = '';
@@ -25,11 +28,7 @@
 	let checkedStates: boolean[] = items.map(() => false);
 </script>
 
-<section class="checklist">
-	{#if title}
-		<h3 class="checklist__title">{title}</h3>
-	{/if}
-
+<Callout label={title}>
 	<div class="checklist__items">
 		{#each items as item, index}
 			{@const itemId = `${listId}-${index}`}
@@ -58,32 +57,9 @@
 	{:else}
 		<slot />
 	{/if}
-</section>
+</Callout>
 
 <style lang="scss">
-	.checklist {
-		margin: 1.5rem 0;
-		padding: 1.25rem 1.5rem;
-		border-radius: 0.625rem;
-		background: linear-gradient(
-			135deg,
-			var(--stone-warm) 0%,
-			var(--night-deep) 50%,
-			var(--night-deep) 100%
-		);
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
-	}
-
-	.checklist__title {
-		font-size: 1.1rem;
-		font-weight: 700;
-		color: var(--ink-bright);
-		text-align: center;
-		margin: 0 0 1rem;
-		padding-bottom: 0.75rem;
-		border-bottom: 1px solid var(--stone-edge);
-	}
-
 	.checklist__items {
 		display: flex;
 		flex-direction: column;
@@ -120,16 +96,16 @@
 		transition: all 0.2s ease;
 
 		&:checked {
-			background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
+			background: var(--lamp-glow);
 			border-color: var(--lamp-glow);
 
-			// Checkmark
+			// Checkmark — dark on amber per the locked CTA contrast rule
 			&::after {
 				content: '✓';
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				color: white;
+				color: var(--night-deep);
 				font-size: 12px;
 				font-weight: bold;
 			}
@@ -156,10 +132,6 @@
 
 		:global(a) {
 			color: var(--lamp-glow);
-
-			&:hover {
-				color: var(--lamp-glow);
-			}
 		}
 	}
 
@@ -187,22 +159,9 @@
 
 	.checklist__content {
 		margin-top: 1rem;
-		font-size: 0.9rem;
-		line-height: 1.6;
-		color: var(--ink-mid);
 	}
 
-	// Mobile adjustments
 	@media (max-width: 640px) {
-		.checklist {
-			padding: 1rem 1.25rem;
-			margin: 1rem 0;
-		}
-
-		.checklist__title {
-			font-size: 1rem;
-		}
-
 		.checklist__item {
 			padding: 0.625rem 0.875rem;
 		}

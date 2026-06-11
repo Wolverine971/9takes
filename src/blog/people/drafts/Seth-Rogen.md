@@ -30,12 +30,11 @@ occupation:
   - 'Screenwriter'
   - 'Film Actor'
 knows_about:
-  - 'Acting'
-  - 'Film production'
-  - 'Writing'
-  - 'Voice acting'
-  - 'Screenwriting'
-  - 'Film acting'
+  - 'Comedy screenwriting'
+  - 'Film producing (Point Grey Pictures)'
+  - 'Ceramics and pottery'
+  - 'Cannabis lifestyle branding (Houseplant)'
+  - "Alzheimer's caregiving advocacy"
 keywords:
   - 'Seth Rogen enneagram'
   - 'Seth Rogen type 9'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q220308'
   - 'https://www.imdb.com/name/nm0736622/'
 faqs:
-  - question: 'What is Seth Rogen''s Personality Type?'
-    answer: 'Enneagram Nines are called the Peacemakers, but that label undersells what''s actually happening. Nines don''t just keep the peace. They create environments where peace is the default. They merge with their surroundings so naturally that their own ambitions, desires, and even their anger become invisible to everyone, sometimes including themselves.'
+  - question: "What is Seth Rogen's personality type?"
+    answer: "Seth Rogen is an Enneagram Type 9 (The Peacemaker) with an 8 wing. The pattern shows in thirty years of collaboration with Evan Goldberg without a single fight, a twenty-year friendship with James Franco that ended without one confrontation, a $2.8 billion box-office empire built by a man everyone calls 'chill' before they say 'ambitious,' and the famous laugh that dissolves tension in every room he enters. The 8 wing surfaced when he called out the empty chamber while testifying before the Senate on Alzheimer's."
     anchor: 'what-is-seth-rogens-personality-type'
-  - question: 'Why is Seth Rogen typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film production, Writing.'
-    anchor: 'why-is-seth-rogen-typed-as-an-enneagram-type-9'
+  - question: 'Why did Seth Rogen and James Franco stop working together?'
+    answer: "After multiple women accused Franco of inappropriate sexual behavior in 2018 — allegations he initially denied before settling a lawsuit for $2.2 million — Rogen never denounced him publicly. The friendship simply faded; Rogen said it was 'not a coincidence' their relationship changed, and an insider told Variety there is 'no world' in which they reconnect. When told Franco said he'd been trying to reach him, Rogen replied, 'I absorb so little media that it really wasn't on my radar.'"
+    anchor: 'the-friendship-that-ended-without-a-fight'
+  - question: "Why doesn't Seth Rogen have kids?"
+    answer: "He and Lauren Miller Rogen chose not to: 'It just doesn't seem that fun to me,' he said, noting most of his friends with kids talk about how much they don't like having them. He says the older they get, the more reaffirmed they are in the choice — 'the moment where we were like \"Let's do it!\" just kept not happening.'"
+    anchor: 'the-proposal-in-the-closet'
+  - question: 'Why did Seth Rogen testify before the Senate?'
+    answer: "His mother-in-law Adele was diagnosed with early-onset Alzheimer's at fifty-five, and in 2012 Rogen and Lauren founded Hilarity for Charity, which has awarded nearly 200,000 hours of in-home care and raised more than $7 million. In February 2014 he testified before a Senate subcommittee and pointedly noted how many senators had left the hearing room."
+    anchor: 'laurens-mother-and-what-rogen-fights-for'
+  - question: 'What is The Studio, and why does it matter for Seth Rogen?'
+    answer: "The Studio, which premiered on Apple TV+ in March 2025, stars Rogen as Matt Remick, an anxious studio head torn between corporate demands and his love of cinema. It won thirteen Emmys from twenty-three nominations — the most awarded comedy debut in Emmy history — and Rogen won Outstanding Lead Actor for the most anxious, least easygoing character he has ever played."
+    anchor: 'the-studio-and-the-quiet-confession'
 twitter: 'Sethrogen'
 instagram: 'sethrogen'
 tiktok: ''

@@ -28,12 +28,11 @@ occupation:
   - 'Dancer'
   - 'Choreographer'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Modeling'
-  - 'Acting'
-  - 'Hip-hop music'
+  - 'Choreography'
   - 'Contemporary R&B'
+  - 'Hip-hop music'
+  - 'Dramatic film acting'
+  - 'Live performance'
 keywords:
   - 'Teyana Taylor enneagram'
   - 'Teyana Taylor type 3'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm3692520/'
   - 'https://teyanataylor.com'
 faqs:
-  - question: 'What is Teyana Taylor''s personality type?'
-    answer: 'Type 3 is the Achiever. The core wound forms around a single early lesson: love comes from output. Approval comes from being impressive. The self gets organized around whatever performance the world rewards, and the engine never quite turns off — because if it does, the question underneath might surface, and that question is am I anything if I''m not producing.'
+  - question: "What is Teyana Taylor's personality type?"
+    answer: "Teyana Taylor is an Enneagram Type 3 (The Achiever). The pattern shows in a child who was 'hood famous' at seven and choreographing Beyoncé's 'Ring the Alarm' video at fifteen, a mother who founded a management company to run her daughter's career, a 2020 retirement post built from a Spotify-analytics screenshot that she later admitted was 'a warning to my label,' and a body that keeps shutting down — exhaustion collapse, vocal-cord polyps, postpartum depression — with each break converted into the next album cycle instead of a stop."
     anchor: 'what-is-teyana-taylors-personality-type'
-  - question: 'Why is Teyana Taylor typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Modeling.'
-    anchor: 'why-is-teyana-taylor-typed-as-an-enneagram-type-3'
+  - question: 'Why did Teyana Taylor have vocal cord surgery?'
+    answer: "In August 2025, two weeks before her fifth album dropped, a surgeon removed a polyp she described as 'looking like a pearl sitting on my vocal cords.' The polyps were preventing her vocal cords from closing properly, and she had been pushing through them for some time. She released the 22-track Escape Room on schedule anyway."
+    anchor: 'why-teyana-taylors-body-keeps-shutting-down'
+  - question: 'Why did Teyana Taylor announce her retirement from music?'
+    answer: "In December 2020 she posted her year-end Spotify analytics and announced she was quitting, saying she felt 'super under appreciated as an artist, receiving little to no real push from the machine.' She walked it back within weeks and told NME the post was 'a warning to my label' — Def Jam. The pressure tactic worked: she got out of the deal, made the next album elsewhere, and reset her career with film."
+    anchor: 'why-teyana-taylor-threatened-to-quit-music'
+  - question: 'Why did Teyana Taylor and Iman Shumpert divorce?'
+    answer: "Taylor filed in January 2023. The public statement was tidy — best friends, business partners, no infidelity — but court documents accused Iman of emotional and mental abuse, resenting her career, infidelity, and being under the influence around their daughters. The divorce finalized in July 2024, and she later called the $70,000 in legal fees 'the best money she's ever spent.'"
+    anchor: 'teyana-taylor-and-iman-shumpert-the-divorce-that-became-a-strategy'
+  - question: 'What films earned Teyana Taylor her acclaim as an actress?'
+    answer: "Two mother roles in two years: Inez de la Paz in A.V. Rockwell's A Thousand and One (2023), the Sundance Grand Jury winner, and Perfidia Beverly Hills in Paul Thomas Anderson's One Battle After Another (2025), which earned her an Academy Award nomination. Rockwell said of her casting: 'I could feel how much Taylor understood this woman because either she was her or she knew her.'"
+    anchor: 'inez-and-perfidia-the-two-mothers-teyana-taylor-played-in-two-years'
 twitter: 'TEYANATAYLOR'
 instagram: 'teyanataylor'
 tiktok: 'teyanataylor'

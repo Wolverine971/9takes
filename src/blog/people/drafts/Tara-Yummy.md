@@ -21,7 +21,11 @@ nationality: 'American'
 occupation:
   - 'Content Creator'
 knows_about:
-  - 'Digital media'
+  - 'YouTube vlogging'
+  - 'Casual celebrity interviews'
+  - 'DJing'
+  - 'Stand-up comedy'
+  - 'Creator collaborations'
 keywords:
   - 'Tara Yummy enneagram'
   - 'Tara Yummy type 2'
@@ -39,12 +43,21 @@ citations:
   - 'https://www.kadhal.net/tara-yummy-biography/'
   - 'https://www.thefamousmagazine.com/tara-yummy/'
 faqs:
-  - question: 'What is Tara Yummy''s Personality Type?'
-    answer: 'Enneagram Twos carry a core belief that runs deeper than any philosophy: to be loved, you must be useful. You must give. You must be the person who makes the room better.'
+  - question: "What is Tara Yummy's personality type?"
+    answer: "Tara Yummy is an Enneagram Type 2 (The Helper), specifically a 2w3. The pattern shows in a career that started with walking into LA parties where she knew no one and making strangers feel like friends, her success metric of 'changing even a minute' of someone's day rather than views or revenue, the high school classmates who called her fake because they couldn't believe someone was genuinely that nice, and her own admission that DJing is about wanting 'to control the music in any room I'm in' — making a hundred strangers feel what she's feeling."
     anchor: 'what-is-tara-yummys-personality-type'
-  - question: 'Why is Tara Yummy typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media.'
-    anchor: 'why-is-tara-yummy-typed-as-an-enneagram-type-2'
+  - question: 'How did Tara Yummy get famous?'
+    answer: "She moved to LA after high school in 2018 with no college and no plan beyond content, and a photographer friend brought her to parties where she knew nobody — she'd talk to everyone, get their numbers, and come back the next week. 'I partied my way to making YouTube videos. I'm not even kidding.' The 2024 explosion from ~200K to over 2 million YouTube subscribers came, by her account, not from a content pivot but from finally learning to stand up for herself."
+    anchor: 'how-she-built-it-one-room-at-a-time'
+  - question: 'Why did Tara Yummy leave the Dropouts podcast?'
+    answer: "The hot-take game format forced her to share opinions that could alienate the audience she'd spent years nurturing, and she left in mid-2024. She chose intimacy over reach — the same instinct behind her 'Stuck in a Car' series, where there's no studio, no crew, and no formal questions: 'We're not going to do an interview. We're just yapping.'"
+    anchor: 'ambition-hiding-inside-warmth'
+  - question: 'What is the Tara Yummy Mindset?'
+    answer: "In her words: 'It's not giving a f--- about what people think. It's confidence, and it's not really caring.' It's become a brand — a national DJ tour hitting Brooklyn, Chicago, DC, and back-to-back sold-out nights at The Roxy in LA. But the article argues it's only half the story: the other half is someone who cared so much it nearly consumed her, whose hardest lesson at 24 was 'stop being nice to people who aren't nice to you.'"
+    anchor: 'the-mindset-and-what-its-protecting'
+  - question: 'Is Tara Yummy Persian?'
+    answer: "Yes — her real name is Tara Mirshokraei, born to Iranian immigrant parents; Farsi was her first language and she didn't learn English until age four. She speaks Farsi with her parents, calls her grandparents in Iran every week, and names Freddie Mercury as her role model: 'He's Persian like me and is incredibly inspirational by being unapologetically himself.' Her stand-up inspirations are Iranian-American comedians Maz Jobrani and Max Amini."
+    anchor: 'the-persian-girl-behind-the-brand'
 twitter: 'tarayummy'
 instagram: 'tarayummyy'
 tiktok: 'tarayummy'

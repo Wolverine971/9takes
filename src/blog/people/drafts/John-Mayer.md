@@ -28,12 +28,11 @@ occupation:
   - 'Composer'
   - 'Record Producer'
 knows_about:
-  - 'Songwriting'
-  - 'Singing'
-  - 'Music production'
-  - 'Acting'
-  - 'Music'
-  - 'Alternative Rock'
+  - 'Blues guitar'
+  - 'Singer-songwriter craft'
+  - 'Grateful Dead repertoire'
+  - 'Live improvisation'
+  - 'Watch collecting'
 keywords:
   - 'John Mayer enneagram'
   - 'John Mayer type 4'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm1243604/'
   - 'https://www.johnmayer.com'
 faqs:
-  - question: 'What is John Mayer''s personality type?'
-    answer: 'The Enneagram resolves the contradiction no amount of tabloid psychology can: how is the man who writes with the most emotional precision in popular music the same man who blew up his career through emotional recklessness?'
+  - question: "What is John Mayer's personality type?"
+    answer: "John Mayer is an Enneagram Type 4 (The Individualist) with a strong 3 wing. The pattern shows in his '64 color box' self-description, the lifelong panic disorder hidden under the cocky interview persona (he carried Xanax everywhere), the Playboy implosion as a botched bid to be seen, the total withdrawal that followed, and the way he converted anxiety into songs: 'When I would have an anxious moment, I'd be like, well, here comes a song.'"
     anchor: 'what-is-john-mayers-personality-type'
-  - question: 'Why is John Mayer typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Songwriting, Singing, Music production.'
-    anchor: 'why-is-john-mayer-typed-as-an-enneagram-type-4'
+  - question: "What happened in John Mayer's Playboy interview?"
+    answer: "In February 2010 he called his relationship with Jessica Simpson 'sexual napalm,' used a racial slur while intellectualizing a question about having a 'hood pass,' and publicly dissected his relationship with Jennifer Aniston. Shortly after, he broke down crying mid-concert in Nashville and admitted 'I've created somewhat of a monster' — then withdrew from interviews almost entirely."
+    anchor: 'the-playboy-implosion'
+  - question: 'Why did John Mayer quit drinking?'
+    answer: "After getting spectacularly drunk at Drake's 30th birthday party on October 23, 2016, he had a six-day hangover and asked himself what percentage of his potential he wanted — and answered 100. He never drank again, calling drinking 'a fucking con' and estimating the total time he ever actually craved a drink at about eighteen minutes."
+    anchor: 'the-night-john-mayer-quit-drinking-for-good'
+  - question: "What happened to John Mayer's voice?"
+    answer: 'In September 2011 a granuloma formed on his vocal cords, requiring surgery and then Botox injections that paralyzed his throat — for months he communicated by typing on an iPad. The forced silence stripped away the interview persona and produced the stripped-down Born and Raised; his voice came back permanently changed, and he still travels with a medical vocal scope.'
+    anchor: 'losing-his-voice-forced-john-mayer-to-stop-performing'
+  - question: 'How did John Mayer end up in Dead & Company?'
+    answer: "He heard 'Althea' on Pandora in 2011 and got out of his pool dripping wet to find out what it was. Bob Weir invited him to join Dead & Company in 2015, where early fan shirts read 'John Mayer Is Dead to Me' — by 2023 they read 'He is my Jerry,' after more than 235 shows. When Weir died in January 2026, Mayer gave the eulogy at the San Francisco memorial and performed 'Ripple.'"
+    anchor: 'how-dead--company-changed-john-mayers-life'
 twitter: '@JohnMayer'
 instagram: '@johnmayer'
 tiktok: ''

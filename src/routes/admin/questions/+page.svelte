@@ -428,7 +428,7 @@
 		gap: 20px;
 		padding: 24px;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
-		border-radius: 24px;
+		border-radius: 1rem;
 		background: linear-gradient(
 			145deg,
 			color-mix(in srgb, var(--lamp-glow) 9%, var(--stone-warm)) 0%,
@@ -509,7 +509,7 @@
 		align-items: center;
 		justify-content: center;
 		padding: 10px 16px;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 		background: var(--lamp-glow);
 		color: white;
@@ -537,7 +537,7 @@
 	.questions-card {
 		overflow: hidden;
 		border: 1px solid var(--stone-edge);
-		border-radius: 24px;
+		border-radius: 1rem;
 		background: linear-gradient(
 			180deg,
 			var(--stone-warm) 0%,
@@ -625,7 +625,7 @@
 		height: 44px;
 		padding: 0 14px;
 		border: 1px solid var(--stone-edge);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--stone-warm) 82%, var(--night-deep));
 		color: var(--ink-bright);
 		font-size: 0.9rem;
@@ -713,7 +713,7 @@
 		align-items: start;
 		padding: 18px;
 		border: 1px solid var(--stone-edge);
-		border-radius: 20px;
+		border-radius: 1rem;
 		background: linear-gradient(
 			180deg,
 			color-mix(in srgb, var(--stone-warm) 86%, var(--night-deep)) 0%,
@@ -873,7 +873,7 @@
 		width: 100%;
 		min-height: 42px;
 		padding: 0 12px;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.82rem;
 		font-weight: 700;
 		text-decoration: none;

@@ -157,7 +157,7 @@
 		background: transparent;
 		border: none;
 		cursor: pointer;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		transition: all 0.2s ease;
 	}
 
@@ -180,7 +180,7 @@
 		width: 100%;
 		height: 2px;
 		background: var(--ink-bright);
-		border-radius: 1px;
+		border-radius: 0.25rem;
 		transition: all 0.3s ease;
 		position: absolute;
 	}
@@ -241,7 +241,7 @@
 		text-decoration: none;
 		font-weight: 500;
 		font-size: 0.8125rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		transition: all 0.2s ease;
 		white-space: nowrap;
 		border: 1px solid transparent;

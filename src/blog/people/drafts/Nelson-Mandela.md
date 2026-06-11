@@ -28,10 +28,12 @@ occupation:
   - 'Political Prisoner'
   - 'Screenwriter'
 knows_about:
-  - 'Politics'
-  - 'Screenwriting'
+  - 'Anti-apartheid resistance'
+  - 'Negotiated political transition'
+  - 'The Truth and Reconciliation Commission'
   - 'Long Walk to Freedom'
-  - 'Historical influence'
+  - 'Reconciliation through sport'
+  - 'Boxing'
 keywords:
   - 'Nelson Mandela enneagram'
   - 'Nelson Mandela type 9'
@@ -51,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm0541691/'
   - 'https://www.nelsonmandela.org'
 faqs:
-  - question: 'What is Nelson Mandela''s personality type?'
-    answer: 'Mandela is the kind of Type 9 that confuses the cliché.'
+  - question: "What is Nelson Mandela's personality type?"
+    answer: "Nelson Mandela is an Enneagram Type 9 (The Peacemaker) with an 8 wing. The pattern shows in the lead-from-behind instinct he learned watching the Thembu regent's court at twelve, the inflexible cell routine that held him intact through 27 years on Robben Island, teaching himself Afrikaans to speak to his warders, absorbing his enemies through a Truth and Reconciliation Commission instead of purges, and the admission in divorce court that the loneliest period of his life was his marriage, not his imprisonment."
     anchor: 'what-is-nelson-mandelas-personality-type'
-  - question: 'Why is Nelson Mandela typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Politics, Screenwriting, Long Walk to Freedom.'
-    anchor: 'why-is-nelson-mandela-typed-as-an-enneagram-type-9'
+  - question: 'Why did Nelson Mandela turn to armed struggle?'
+    answer: "In March 1960, police killed 69 peaceful protesters at Sharpeville, most shot in the back, and the government banned the ANC. After fifteen months running the underground as the 'Black Pimpernel,' Mandela concluded in June 1961 that nonviolence could not survive a government that answered it with bullets. As he said at Rivonia: 'I do not, however, deny that I planned sabotage. I did not plan it in a spirit of recklessness, nor because I have any love of violence.'"
+    anchor: 'why-nelson-mandela-chose-sabotage-over-surrender'
+  - question: 'How did Nelson Mandela survive 27 years in prison?'
+    answer: "Through an inflexible routine: a 5 a.m. wake, forty-five minutes running in place, a hundred fingertip push-ups, two hundred sit-ups, Monday through Thursday, for most of 27 years. He grew tomatoes in a courtyard garden, kept Tolstoy and Steinbeck under his bunk, and taught himself Afrikaans, turning 19-year-old warder Christo Brand into his pronunciation tutor and eventual friend. 'Exercise dissipates tension,' he wrote, 'and tension is the enemy of serenity.'"
+    anchor: 'how-nelson-mandela-survived-27-years-on-robben-island'
+  - question: 'Why did Nelson Mandela wear the Springbok jersey?'
+    answer: "Before the 1995 Rugby World Cup final, Mandela walked into the Springbok locker room wearing the green-and-gold jersey — for most black South Africans, the uniform of apartheid sport — which he had carried in a plastic shopping bag, and asked captain Francois Pienaar's permission to wear his number 6. After the win, sixty thousand mostly-white spectators chanted his name. Pienaar's verdict: 'We didn't have sixty thousand South Africans here today. We had forty-three million.'"
+    anchor: 'how-a-springbok-jersey-held-a-country-together'
+  - question: 'Why did Nelson Mandela divorce Winnie?'
+    answer: "The Winnie he returned to in 1990 was not the woman he left in 1962: her Mandela United Football Club had been implicated in the murder of 14-year-old Stompie Seipei, and she was conducting a public affair with her lawyer. Mandela's stubborn loyalty kept him from adjusting the picture for years — Tutu said 'his sense of loyalty sometimes was a weakness.' In the 1996 divorce hearing he testified, 'I was the loneliest man during the period I stayed with her' — the only time the word lonely appears in his public record."
+    anchor: 'the-loneliest-man-at-his-own-dinner-table'
 twitter: ''
 instagram: ''
 tiktok: ''

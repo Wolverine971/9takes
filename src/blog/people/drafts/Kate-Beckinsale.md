@@ -26,12 +26,11 @@ occupation:
   - 'Stage Actor'
   - 'Model'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Modeling'
-  - 'Actor'
-  - 'Film Actor'
-  - 'Stage Actor'
+  - 'Action film franchises'
+  - 'French and Russian literature'
+  - 'Comedic social media writing'
+  - 'Stage and screen acting'
+  - 'Stunt and weapons training'
 keywords:
   - 'Kate Beckinsale enneagram'
   - 'Kate Beckinsale type 7'
@@ -49,12 +48,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q179414'
   - 'https://www.imdb.com/name/nm0000295/'
 faqs:
-  - question: 'What is Kate Beckinsale''s Personality Type?'
-    answer: 'Type Sevens are the Enneagram''s Enthusiasts. Their core fear is being trapped in pain, and their survival strategy is to keep moving — toward the next plan, the next idea, the next reframe — fast enough that the pain never quite catches them. They are often brilliant, articulate, charming, and superficially fine in a way that can fool everyone, including themselves. We can see evidence of this pattern in Beckinsale''s life from the moment her father died, when a five-year-old started building a coping system she would carry for the next half-century.'
+  - question: "What is Kate Beckinsale's personality type?"
+    answer: "Kate Beckinsale is an Enneagram Type 7 (The Enthusiast) with a 6 wing. The pattern shows in the wit that finds the funny angle on her own catastrophes before anyone can pity her, leaving Oxford because she 'wasn't enjoying either thing enough,' the pivot from Russian literature to a leather-clad vampire franchise, the vigilance she names herself ('I started expecting bad things to happen'), and the body-level cost — anorexia at fifteen, and grief that burned a literal hole in her esophagus at fifty-one."
     anchor: 'what-is-kate-beckinsales-personality-type'
-  - question: 'Why is Kate Beckinsale typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Modeling.'
-    anchor: 'why-is-kate-beckinsale-typed-as-an-enneagram-type-7'
+  - question: 'Why did Kate Beckinsale leave Oxford?'
+    answer: "She was studying French and Russian literature at New College and left during her third year abroad in Paris as her acting career took off. Her own explanation: 'It was getting to the point where I wasn't enjoying either thing enough because both were very high pressure.' She left the institution, not the love — she still speaks both French and Russian."
+    anchor: 'why-kate-beckinsale-left-oxford'
+  - question: 'What happened to Kate Beckinsale after her mother died?'
+    answer: "Her mother Judy Loe — whom she called 'the compass of my life' — died of stage four cancer in July 2025, in Beckinsale's arms. Then her body broke: 'I was in the hospital for six weeks because the grief had burned a hole in my oesophagus which made me vomit copious amounts of blood.' Not a metaphor — a documented, tissue-level injury from a feeling she couldn't outrun."
+    anchor: 'the-grief-that-burned-through'
+  - question: 'How did Kate Beckinsale get cast in Underworld?'
+    answer: "She turned director Len Wiseman down at first — then he sent the artwork, and the designs for Selene, drawn before she was cast, looked uncannily like her. By her own account she had 'never held a gun before, never thrown a punch before, can't catch a ball.' Four films later, Selene is one of the most recognizable action heroines of the 21st century."
+    anchor: 'how-kate-beckinsale-built-underworld-out-of-i-cant-catch-a-ball'
+  - question: 'What did Michael Bay say about casting Kate Beckinsale in Pearl Harbor?'
+    answer: "Bay told the press he picked her because 'Kate wasn't so attractive that she would alienate the female audience,' and she was told she'd have to work out — she had just had a baby. Beckinsale later said, 'I think he was baffled by me because my boobs weren't bigger than my head and I wasn't blonde.' The reviews savaged her, the leading-lady door closed, and the next room she found was made of leather."
+    anchor: 'pearl-harbor-and-the-year-hollywood-told-her-no'
 instagram: 'katebeckinsale'
 content_quality:
   hook: 9.0

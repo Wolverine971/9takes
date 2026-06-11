@@ -27,12 +27,12 @@ occupation:
   - 'Podcaster'
   - 'Writer'
 knows_about:
-  - 'Podcasting'
-  - 'Writing'
-  - 'Digital media'
-  - 'Essayist'
-  - 'Social Worker'
-  - 'Scientist'
+  - 'Shame and vulnerability research'
+  - 'Qualitative social work research'
+  - 'Courage and leadership development'
+  - 'Dare to Lead curriculum'
+  - 'Wholehearted living'
+  - 'Addiction recovery'
 keywords:
   - 'Brené Brown enneagram'
   - 'Brené Brown type 1'
@@ -52,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm5280918/'
   - 'https://brenebrown.com'
 faqs:
-  - question: 'What is Brené Brown''s personality type?'
-    answer: 'Ones believe worthiness is earned. They believe they are born with something slightly wrong inside of them — some private defect — and that if they can just get good enough at things, get principled enough, get right enough, they can finally lay the inner judge to rest. They never do. The judge doesn''t retire. The judge only changes the subject.'
+  - question: "What is Brené Brown's personality type?"
+    answer: "Brené Brown is an Enneagram Type 1 (The Reformer) — and a self-identified one, confirmed in her own interviews and tweets. The pattern shows in the 2007 breakdown when she realized her own Wholehearted research data excluded her, the 'knock discomfort upside the head and get all A's' survival instinct, the sobriety date she can still recite thirty years later, and the principled exits — pulling her foreword from Chris Heuertz's book and pausing her Spotify podcasts over the Rogan controversy, at real cost both times."
     anchor: 'what-is-bren-browns-personality-type'
-  - question: 'Why is Brené Brown typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Podcasting, Writing, Digital media.'
-    anchor: 'why-is-bren-brown-typed-as-an-enneagram-type-1'
+  - question: "What was Brené Brown's 2007 breakdown?"
+    answer: "Six years into her shame research, she sorted her data on the 'Wholehearted' — the minority who embraced vulnerability — made a list of how they lived, and realized she had described herself nowhere on it. She stopped writing the book, walked into the office of a therapist named Diana, and asked to become one of 'these people.' Her own framing at TEDxHouston: 'It was a yearlong street fight. It was a slugfest.' The morning after that 2010 talk, she woke up so exposed she considered going into hiding."
+    anchor: 'the-breakdown-that-built-everything'
+  - question: 'Why did Brené Brown pull her podcasts from Spotify?'
+    answer: "In January 2022 she paused Unlocking Us and Dare to Lead — the centerpiece of a multi-million-dollar exclusive deal — in response to the Joe Rogan COVID-misinformation controversy, calling Rogan's comments on the trans community 'dehumanizing.' Spotify did not renew her contract at the end of 2022. It was her second such exit: in June 2020 she had her Chris Heuertz podcast episode removed and her foreword pulled from his book after spiritual-abuse accusations, stating the behaviors were 'in direct conflict with my ethics and values.'"
+    anchor: 'why-bren-brown-pulled-a-spotify-deal-and-a-foreword'
+  - question: 'Is Brené Brown sober?'
+    answer: "Yes — since May 12, 1996. She walked into her first AA meeting the day after her master's graduation, having described her twenties partying as ranging from 'she's fun and wild' to 'self-destructive.' Asked the secret of her success right after her Netflix special launched, the first thing she named was not the TED talk but her sobriety: 'Sobriety isn't a limitation. It's a superpower.'"
+    anchor: 'how-bren-brown-drank-and-smoked-her-way-out-of-the-pressure-cooker-until-she-didnt'
+  - question: 'How does Brené Brown apply her research to parenting?'
+    answer: "Her daughter Ellen, told 'you're so messy' by a kindergarten teacher, replied: 'I may be making a mess, but I'm not messy' — a five-year-old distinguishing behavior from identity, the exact distinction Brown was never allowed to draw as a child. When Ellen lost a middle-school swim race badly, lapped by every other swimmer, she climbed out and told her mother: 'But I was brave, and I won.' Brown also told her carsick daughter, 'You deserve to ask for what you need' — the sentence her own high-maintenance-shaming childhood never offered."
+    anchor: 'why-her-kids-got-a-different-childhood'
 twitter: 'BreneBrown'
 instagram: 'brenebrown'
 production_pretext:

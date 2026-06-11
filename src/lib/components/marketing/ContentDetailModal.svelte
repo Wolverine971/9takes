@@ -601,7 +601,7 @@
 	.modal-dialog {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		max-width: 900px;
 		width: 100%;
 		max-height: 90vh;
@@ -629,7 +629,7 @@
 		justify-content: center;
 		width: 36px;
 		height: 36px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		color: white;
 	}
 
@@ -692,7 +692,7 @@
 		justify-content: center;
 		width: 36px;
 		height: 36px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 		background: var(--stone-warm);
 		color: var(--ink-mid);
@@ -723,7 +723,7 @@
 		padding: 1rem;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 	}
 
 	.schedule-icon {
@@ -734,7 +734,7 @@
 		height: 44px;
 		background: var(--lamp-glow);
 		color: white;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.schedule-details {
@@ -766,7 +766,7 @@
 		padding: 1rem;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 	}
 
 	.content-preview-section h4 {
@@ -795,7 +795,7 @@
 		padding-left: 2.5rem;
 		margin-bottom: 0.75rem;
 		background: var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border-left: 3px solid var(--lamp-glow);
 	}
 
@@ -832,7 +832,7 @@
 	.metadata-item {
 		padding: 0.75rem 1rem;
 		background: var(--night-deep);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.metadata-label {
@@ -883,7 +883,7 @@
 		gap: 0.875rem;
 		padding: 1rem;
 		background: var(--night-deep);
-		border-radius: 12px;
+		border-radius: 1rem;
 	}
 
 	.edit-label {
@@ -921,7 +921,7 @@
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
@@ -1003,7 +1003,7 @@
 		padding: 0.75rem;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.thread-edit-header {
@@ -1062,7 +1062,7 @@
 		color: var(--lamp-glow);
 		background: transparent;
 		border: 1px dashed var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}

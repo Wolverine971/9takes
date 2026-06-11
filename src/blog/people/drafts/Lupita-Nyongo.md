@@ -30,12 +30,12 @@ occupation:
   - 'Actor'
   - 'Film Director'
 knows_about:
-  - 'Film acting'
-  - 'Television acting'
-  - 'Acting'
-  - 'Film directing'
-  - 'Film Direction'
-  - 'Sulwe'
+  - "Sulwe (children's book)"
+  - 'Colorism advocacy'
+  - 'Uterine fibroids advocacy'
+  - 'Documentary filmmaking'
+  - 'Black Panther franchise'
+  - "Mind Your Own podcast"
 keywords:
   - 'Lupita Nyong''o enneagram'
   - 'Lupita Nyong''o type 2'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q3840847'
   - 'https://www.imdb.com/name/nm2143282/'
 faqs:
-  - question: 'What is Lupita Nyong''o''s Personality Type?'
-    answer: 'The pattern is unmistakable once you see it.'
+  - question: "What is Lupita Nyong'o's personality type?"
+    answer: "Lupita Nyong'o is an Enneagram Type 2 (The Helper). The pattern shows in how every cause she champions began as a private wound turned outward: childhood colorism became the bestselling children's book Sulwe, a decade of silent suffering with fibroids became the U-FIGHT Act, and her Weinstein essay was written because 'my silence felt uncomfortable' while other women suffered. She describes her inner life as a tug-of-war between two voices — the one who knows she can and the one who's scared she can't."
     anchor: 'what-is-lupita-nyongos-personality-type'
-  - question: 'Why is Lupita Nyong''o typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, Acting.'
-    anchor: 'why-is-lupita-nyongo-typed-as-an-enneagram-type-2'
+  - question: "Why did Lupita Nyong'o turn down movie roles after winning her Oscar?"
+    answer: "After winning Best Supporting Actress for 12 Years a Slave, Hollywood offered her more slave narratives and suffering roles. She turned them all down and chose Broadway's Eclipsed instead — the first production with an all-Black, female cast and creative team. Her line: 'If that means that I work one job less a year to ensure that I'm not perpetuating the stereotypes, then let me do that.'"
+    anchor: 'i-thought-i-was-seeing-things'
+  - question: "Why did Lupita Nyong'o stay silent about her fibroids for a decade?"
+    answer: "She was diagnosed with uterine fibroids in 2014, the same year she won her Oscar, and originally had 23 removed before more than 50 returned. Her first instinct was self-blame and shame, so she said nothing for over ten years. In 2025 she went public — not with a memoir but with legislation, joining lawmakers to introduce the U-FIGHT Act for $150 million in fibroids research."
+    anchor: 'the-joyful-warrior'
+  - question: "What did Lupita Nyong'o say about Harvey Weinstein?"
+    answer: "In October 2017 she published a 3,000-word New York Times essay detailing his harassment — the alcohol, the attempted massage, the proposition. Weinstein's camp disputed her account specifically, something they hadn't done with any other accuser, and she didn't flinch."
+    anchor: 'when-the-grace-cracks'
+  - question: "What is Lupita Nyong'o's book Sulwe about?"
+    answer: "Sulwe is a children's book about a girl 'the color of midnight' learning to love herself — the story Lupita needed as the child in Nairobi who prayed nightly to wake up lighter-skinned. It became a New York Times bestseller. She could have written a memoir about colorism; she wrote a picture book for other children instead."
+    anchor: 'the-color-of-midnight'
 twitter: 'Lupaborgnino'
 instagram: 'lupitanyongo'
 tiktok: ''

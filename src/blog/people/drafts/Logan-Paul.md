@@ -28,12 +28,12 @@ occupation:
   - 'Television Actor'
   - 'Film Actor'
 knows_about:
-  - 'Acting'
-  - 'YouTube content creation'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Television production'
-  - 'Screenwriting'
+  - 'Prime Hydration (beverage brand)'
+  - 'WWE professional wrestling'
+  - 'Impaulsive podcast'
+  - 'Influencer boxing'
+  - 'Viral content creation'
+  - 'Creator-brand entrepreneurship'
 keywords:
   - 'Logan Paul enneagram'
   - 'Logan Paul type 3'
@@ -55,12 +55,21 @@ citations:
   - 'https://www.bloomberg.com/news/articles/2023-11-08/prime-drinks-from-logan-paul-and-ksi-set-to-pass-1-2-billion-in-sales'
   - 'https://www.accio.com/business/prime-drink-2025-sales-trend'
 faqs:
-  - question: 'What is Logan Paul''s personality type?'
-    answer: 'Before he was "Logan Paul," he was a kid in Westlake, Ohio, one who later described himself in a way most fans wouldn''t expect: "I was the isolated kid. I was the weird kid."'
+  - question: "What is Logan Paul's personality type?"
+    answer: "Logan Paul is an Enneagram Type 3 (The Achiever). The pattern shows in him finishing a 26-minute match against Roman Reigns on a torn MCL and meniscus while filming himself, the serial pivots from Vine to YouTube to boxing to WWE to Prime, his stated willingness 'to suffer an immense amount to achieve my goal, which is to be the greatest entertainer in the world,' and his philosophy that 'every day, I craft a better version of myself.'"
     anchor: 'what-is-logan-pauls-personality-type'
-  - question: 'Why is Logan Paul typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, YouTube content creation, Television acting.'
-    anchor: 'why-is-logan-paul-typed-as-an-enneagram-type-3'
+  - question: 'How did Logan Paul come back from the Japan forest video?'
+    answer: "After the January 2018 Aokigahara video, he apologized, pledged $1 million to suicide prevention, then went looking for arenas with stricter rules: boxing, WWE, and the Prime beverage business. Years later he called it 'the biggest blessing of my life. I needed a reset. I needed life to check me, and it did,' admitting he'd been chasing 'clout, money, fame, wealth, which is all just superficial bullsh*t.'"
+    anchor: 'the-comeback-instinct'
+  - question: 'What happened with Logan Paul and CryptoZoo?'
+    answer: "When investigative YouTuber Coffeezilla published a series calling his CryptoZoo project a scam, the fallout cut deeper than PR damage — Paul later said 'for the first time in my life, I was having suicidal thoughts,' describing a breakdown in Denmark. He responded by announcing a buyback program for NFT holders, fighting the allegations in court, and suing Coffeezilla for defamation."
+    anchor: 'when-the-business-becomes-the-controversy'
+  - question: 'Is Logan Paul a full-time WWE wrestler?'
+    answer: "Yes — in January 2025 he signed a long-term full-time WWE contract, announcing it with visible relief: 'Feels good to have a job.' He has called WWE 'the perfect concoction for everything I've ever done,' and veterans have vouched for him: Randy Orton called him 'one in a million' and Triple H said 'I don't see him as an outside celebrity that came in to do what we do anymore.'"
+    anchor: 'earning-it-prime-wwe-and-the-legitimacy-test'
+  - question: "What happened to Logan Paul's Prime drink?"
+    answer: "Prime, co-founded with former rival KSI, surpassed $1.2 billion in annual sales at its 2023 peak. Then Prime Energy's 200mg of caffeine per can drew an FDA investigation and bans in multiple countries, the 2024 Lunchly kids' lunch kit drew nutritionist backlash, and by mid-2024 US Prime sales had fallen 40%. The brand built to prove he was a real businessman became the thing critics used to call him a scammer."
+    anchor: 'earning-it-prime-wwe-and-the-legitimacy-test'
 twitter: 'LoganPaul'
 instagram: 'loganpaul'
 tiktok: 'loganpaul'

@@ -476,7 +476,7 @@
 		gap: 1rem;
 		padding: 1.5rem;
 		border: 1px solid var(--resource-surface-border);
-		border-radius: 20px;
+		border-radius: 1rem;
 		background:
 			radial-gradient(
 				circle at top right,
@@ -612,7 +612,7 @@
 	.sidebar-card {
 		background: var(--resource-surface);
 		border: 1px solid var(--resource-surface-border);
-		border-radius: 18px;
+		border-radius: 1rem;
 		box-shadow: var(--resource-shadow);
 	}
 
@@ -725,7 +725,7 @@
 	select {
 		width: 100%;
 		border: 1px solid var(--resource-surface-border);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		background: var(--resource-surface-muted);
 		color: var(--ink-bright);
 		padding: 0.85rem 0.95rem;
@@ -756,7 +756,7 @@
 		height: clamp(38rem, 72vh, 56rem);
 		min-height: 38rem;
 		display: flex;
-		border-radius: 14px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 
@@ -781,7 +781,7 @@
 		gap: 0.75rem;
 		padding: 0.9rem;
 		border: 1px solid var(--resource-surface-border);
-		border-radius: 14px;
+		border-radius: 0.625rem;
 		background: var(--resource-surface-muted);
 
 		input {
@@ -823,7 +823,7 @@
 		justify-content: space-between;
 		gap: 0.8rem;
 		padding: 0.9rem;
-		border-radius: 14px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--resource-surface-border);
 		background: var(--resource-surface-muted);
 		text-decoration: none;
@@ -930,13 +930,13 @@
 		:global(code) {
 			background: color-mix(in srgb, var(--night-deep) 72%, var(--stone-warm));
 			padding: 0.14rem 0.34rem;
-			border-radius: 6px;
+			border-radius: 0.25rem;
 		}
 
 		:global(pre) {
 			background: color-mix(in srgb, var(--night-deep) 82%, var(--stone-warm));
 			padding: 1rem;
-			border-radius: 12px;
+			border-radius: 0.625rem;
 			overflow-x: auto;
 		}
 

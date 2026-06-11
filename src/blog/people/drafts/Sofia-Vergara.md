@@ -30,12 +30,12 @@ occupation:
   - 'Television Producer'
   - 'Voice Actor'
 knows_about:
-  - 'Modeling'
-  - 'Film acting'
-  - 'Television acting'
-  - 'Television production'
-  - 'Voice acting'
-  - 'Acting'
+  - 'Sitcom comedy'
+  - 'Brand licensing and revenue-share deals'
+  - 'Talent management'
+  - 'Consumer product lines'
+  - 'Spanish-language television'
+  - 'Self-branding'
 keywords:
   - 'Sofia Vergara enneagram'
   - 'Sofia Vergara type 3'
@@ -57,12 +57,21 @@ citations:
   - 'https://time.com/4650846/sofia-vergara-stereotype-modern-family/'
   - 'https://www.complex.com/pop-culture/a/jaelaniturnerwilliams/sofia-vergara-brother-murdered-by-colombian-cartel'
 faqs:
-  - question: 'What is Sofia Vergara''s personality type?'
-    answer: 'Type 3s — the Achievers — build identity through external success and calibrated self-presentation. They read the room, find the version of themselves the room rewards, and make that version undeniable. Not every Type 3 makes it this explicit. Vergara does.'
+  - question: "What is Sofia Vergara's personality type?"
+    answer: "Sofia Vergara is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in the natural blonde who dyed her hair black because 'they really believed I was a hot Latina,' the management company she co-founded in 1994 before she had a career to manage, the revenue-share deals that made three-quarters of her peak income come from outside acting, and the thyroid cancer she kept secret for eleven years because the brand could not survive the leak."
     anchor: 'what-is-sofia-vergaras-personality-type'
-  - question: 'Why is Sofia Vergara typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Modeling, Film acting, Television acting.'
-    anchor: 'why-is-sofia-vergara-typed-as-an-enneagram-type-3'
+  - question: 'Why does Sofia Vergara refuse to apologize for playing Gloria?'
+    answer: "When critics called Gloria Pritchett a regressive Latina stereotype — 'an updated version of Charo' — Vergara printed 'What's wrong with being a stereotype?' in Time magazine and kept cashing the checks. She points out she created Gloria from her own mother and aunt: 'All the Latinas I know are loud, they dress sexy, and are really involved with their families. That's Gloria!' She doesn't win the representation argument by arguing; she wins it by owning the representation outright."
+    anchor: 'why-sofia-vergara-refuses-to-apologize-for-gloria'
+  - question: 'Why did Sofia Vergara hide her thyroid cancer for eleven years?'
+    answer: "Diagnosed at 28 in 2000 after a routine physical, she told no one outside her closest circle for over a decade — she had the surgery and went right back to work. 'When you have a responsibility, like a kid or like a family, you cannot give yourself the luxury of getting depressed,' she said. By the time she spoke publicly, she was already the highest-paid actress on television and the bombshell persona had stayed perfectly intact."
+    anchor: 'the-cancer-she-hid-for-eleven-years'
+  - question: 'Why did Sofia Vergara transform her face to play Griselda?'
+    answer: "She wore a prosthetic nose, bucked teeth, a flattening wig, and a chest binder — deliberately undoing every visual asset that had earned her hundreds of millions — because 'I needed to disappear.' The deeper reason is her brother Rafael, murdered in 1996 by exactly the Colombian cartel violence Griselda Blanco industrialized. Playing Blanco meant climbing inside the system that killed him; the series hit number one on Netflix and earned Vergara her first lead-drama Emmy nomination."
+    anchor: 'why-she-buried-her-own-face-for-griselda'
+  - question: 'How did Sofia Vergara make her money?'
+    answer: "Mostly not from acting. Only about a quarter of her $41.5 million peak year came from Modern Family; the rest was Pepsi, CoverGirl, a Walmart clothing line with percentage-of-revenue clauses, and consumer lines she co-founded rather than endorsed. She co-founded Latin World Entertainment in 1994, at 22, and her stated philosophy is explicit: 'I save way more than I spend. I invest. I plan for the future.'"
+    anchor: 'what-sofia-vergara-sounds-like-in-a-business-meeting'
 instagram: 'sofiavergara'
 production_pretext:
   status: draft

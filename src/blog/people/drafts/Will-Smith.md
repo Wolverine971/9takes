@@ -28,12 +28,11 @@ occupation:
   - 'Singer'
   - 'Rapper'
 knows_about:
-  - 'Television acting'
-  - 'Film acting'
-  - 'Acting'
-  - 'Film directing'
-  - 'Singing'
-  - 'Hip-hop music'
+  - 'Blockbuster franchise acting (Men in Black, Bad Boys)'
+  - 'Clean-lyric hip-hop (DJ Jazzy Jeff & The Fresh Prince)'
+  - 'Box-office reverse engineering'
+  - 'Sitcom acting (The Fresh Prince of Bel-Air)'
+  - 'Memoir writing (Will, 2021)'
 keywords:
   - 'Will Smith enneagram'
   - 'Will Smith type 3'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000226/'
   - 'https://willsmith.com'
 faqs:
-  - question: 'What is Will Smith''s personality type?'
-    answer: 'Will Smith is a textbook Enneagram Type Three — the Achiever — with a Four wing and a Sexual (Charisma) instinct. That is the short answer. The long answer is that he is also one of the rare celebrities who has explicitly, publicly, and correctly diagnosed himself.'
+  - question: "What is Will Smith's personality type?"
+    answer: "Will Smith is an Enneagram Type 3 (The Achiever), specifically a 3w4 with a Sexual (one-on-one) instinct. The pattern shows in a persona he says was built 'to be the opposite' of the nine-year-old who watched his father beat his mother, the 'almost delusional level of confidence' he admits he cultivated, the spreadsheet he used to reverse-engineer the biggest movie career in the world, and an Oscar-night slap that played out like a script written in 1977."
     anchor: 'what-is-will-smiths-personality-type'
-  - question: 'Why is Will Smith typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Television acting, Film acting, Acting.'
-    anchor: 'why-is-will-smith-typed-as-an-enneagram-type-3'
+  - question: 'Why did Will Smith slap Chris Rock?'
+    answer: "The essay argues it wasn't rage — it was a script. Smith was about to win an Oscar for playing Richard Williams, a father who protects his daughters from disrespect, in front of twenty million people, after a memoir and an ayahuasca vision that told him he couldn't protect his family. When Rock joked about Jada's alopecia, the hero machine did the thing the nine-year-old in the dining room never could. He was banned from the Oscars for ten years and his films were shelved."
+    anchor: 'why-will-smith-slapped-chris-rock'
+  - question: "What does Will Smith's 'brick by brick' philosophy really mean?"
+    answer: "His father made nine-year-old Will and his brother spend a year and a half building a wall, telling him: 'There is no wall. There are only bricks.' Motivational speakers quote it as focus wisdom, but the essay reads it darker — the man teaching relentless, unfeeling execution was the same man who beat Will's mother. The real lesson was that feeling is a liability and survival means becoming a machine that lays bricks and doesn't look up."
+    anchor: 'the-nine-year-old-who-built-will-smith'
+  - question: 'Why did Will Smith take The Fresh Prince of Bel-Air?'
+    answer: "Because he was broke. By 1990 he had blown through roughly $2.8 million from his rap career and owed the IRS, which garnished about 25% of his Fresh Prince paycheck for the first three seasons. The character itself was older than the sitcom — built from the day his grandmother Gigi found his lyric book and wrote, 'Please show the world that you're as smart as we think you are.' He never cursed in his music again."
+    anchor: 'how-an-irs-garnishment-built-the-fresh-prince'
+  - question: "What happened between Will Smith and Jada's 'entanglement'?"
+    answer: "In summer 2020, singer August Alsina said publicly that he and Jada had been romantically involved. On July 10, the Smiths addressed it on Jada's Red Table Talk, where she called it 'an entanglement' and Will's 'bad marriage for life' line became a meme. He has said the revelation sent him into months of depression and nearly ended the marriage — and it's what sent him to Peru for fourteen ayahuasca ceremonies before the Oscars."
+    anchor: 'the-summer-jada-used-the-word-entanglement'
 twitter: 'willsmith'
 instagram: 'willsmith'
 tiktok: 'willsmith'

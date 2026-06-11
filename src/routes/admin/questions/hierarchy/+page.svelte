@@ -91,7 +91,7 @@
 		padding: 0.625rem 1rem;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		min-width: 90px;
 	}
 
@@ -112,7 +112,7 @@
 	.hierarchy-container {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 

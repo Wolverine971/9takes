@@ -117,35 +117,71 @@ Top 5–10 candidates is enough to drive the next comment-drafting cycle. Don't 
 3. **Do not post the Trump/Margaret Cho link.** If replying at all, keep it comment-only and empathetic.
 4. **Watch Marilyn for movement.** If it crosses ~50 comments, the Monroe analysis can work as a concise "persona as armor" receipt.
 
+## Pre-post checklist (run before each comment)
+
+- [ ] **Reddit account confirmed.** Which account is posting? Designated 9takes/DJ account, not a personal-mixed one (playbook step 3 — account hygiene).
+- [ ] **Karma check.** Does the account have any prior r/popculturechat karma? <30d old or 0 PCC karma → link will read as spam; comment-only.
+- [ ] **Guest List Only check** (Taylor/Kelce specifically). Is the account approved to comment? If not, skip.
+- [ ] **Score-trajectory delta.** Recheck thread score right before posting. If halved since scan time (Cooper was 13/14 at 13h — could go either way), drop the link and use Option B / no-link.
+- [ ] **Page-state verification** for Taylor and Marilyn (see ⚠ notes inline in drafts).
+- [ ] **Pick one option per thread.** Don't post both A and B back-to-back; reads as astroturf.
+- [ ] **Log the post** (see §Posted below).
+
+## Posted
+
+Append after each comment ships. Used to prevent double-posting on tomorrow's scan and to attribute referral traffic in GSC.
+
+| Date         | Thread URL | Draft used | Account | Score at post | Score now | Notes |
+| ------------ | ---------- | ---------- | ------- | ------------: | --------: | ----- |
+| _(none yet)_ |            |            |         |               |           |       |
+
 ## Draft comments
 
 ### 1. Alex Cooper thread — best link opportunity
 
-**Option A: link as receipt**
+**Thread:** https://www.reddit.com/r/popculturechat/comments/1tcpo7j/alex_cooper_says_she_deleted_tiktok_after_getting/
 
-> I think the platform is gasoline, not the match. The Type 7 read on Cooper is useful here: when pressure builds, the pattern is movement, reframing, and keeping options open rather than sitting inside one unresolved conflict. That is why "TikTok pits women against women" can be true and still feel evasive. The Sofia split and the Alix/Unwell fallout have the same structure: intense partnership, business tension, public reframing, then forward motion. More breakdown here if useful: https://9takes.com/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis
+**Verified:** Cooper Type 7, Earle Type 9, Sofia Franklyn pattern all in the live article. Hook is the 7+9 dynamic, not Cooper alone — drafts lead with that.
+
+**Voice rules for drafts below:** Reddit comment, not brand voice. Lowercase ok. No em-dashes. No "our read." No "more breakdown here if useful." Mix sentence lengths. Sound like someone smart who happens to know typology, not a content team.
+
+**Option A: link as receipt (recommended)**
+
+> the tiktok framing is doing a lot of work here. cooper's a 7 — built for forward motion, doesn't sit in unresolved conflict, always reframing toward the next thing. earle reads as a 9 to me. she drifts when the room changes, and notice it was her dad who mobilized the exit, not her. that's the same structural shape as the sofia franklyn split in 2020. only thing that changed is cooper went from being the talent to being the boss. wrote it up if anyone wants more: https://9takes.com/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis
 
 **Option B: no-link warmer**
 
-> The algorithm definitely rewards women-vs-women conflict, but it also rewards the conflict pattern that is already there. With Cooper, the recurring thing is less "people hate women" and more "high-intensity partnership becomes a brand asset, then the split gets reframed once the business tension surfaces." TikTok did not invent that dynamic; it just made it louder.
+> the tiktok thing is doing a lot of work in this framing. yeah the algorithm rewards women vs women conflict, but it also rewards conflict that's already there. with cooper there's a repeating pattern: intense partnership, big success, business tension surfaces, public reframing, forward motion. same shape as the sofia franklyn split in 2020, except this time cooper's the boss. the platform didn't invent it, it just made it louder.
+
+**Pick one — do not post both.**
 
 ### 2. Taylor/Kelce thread — use no link by default
 
+**Thread:** https://www.reddit.com/r/popculturechat/comments/1tc6h12/colin_jost_travis_kelce_jason_kelce_bond_over/
+
+**Status:** DJ confirms blog is live as of 2026-05-14. Guest List Only is still the blocker — confirm account approval before posting Option B.
+
 **Option A: comment-only**
 
-> This is why the "happy to be the +1" thing lands. With someone as achievement-coded as Taylor, the secure move is not trying to compete with the scoreboard. It is treating her success as something to celebrate instead of something that shrinks you. Travis reads well in this clip because he makes the support role look like loyalty, not demotion.
+> the reason this lands is most guys can't actually sit comfortably in the +1 role when their partner has a bigger scoreboard. travis can. you can tell from how he says it — he's not pretending he's the bigger deal, he's not minimizing her, he just thinks it's cool. that's rarer than it should be.
 
-**Option B: link only if the account is established in PCC**
+**Option B: link only if account is approved for Guest List Only**
 
-> This is why the "happy to be the +1" thing lands. Taylor reads like a classic Type 3 in the sense that the mission, the output, and the public story are all tied together. A partner who does not experience that as a scoreboard he has to beat is emotionally useful. Longer Taylor read here if useful: https://9takes.com/personality-analysis/Taylor-Swift
+> the reason this lands is most guys can't sit comfortably in the +1 spot when their partner has a bigger scoreboard. taylor's the type whose whole identity is tied to mission and output, so a partner who isn't quietly competing with that is actually useful, not just nice. travis reads like he genuinely doesn't need to be the bigger one. if anyone's curious i wrote about her here: https://9takes.com/personality-analysis/Taylor-Swift
 
 ### 3. Margaret Cho / Trump thread — comment-only, no link
 
-> This is one of those posts where the celebrity-news wrapper is not really the story. The story is people quietly making career and travel decisions around state uncertainty. Cho is just giving a public version of what a lot of commenters are describing privately: even status does not make border crossing feel low-risk right now.
+**Thread:** https://www.reddit.com/r/popculturechat/comments/1tcb97x/margaret_cho_reveals_she_turned_down_the_role_of/
+
+> this one isn't really about cho. she's just saying out loud what a lot of people are quietly already doing — making travel and career calls around state risk. even being well-known doesn't make crossing the border feel low-stakes right now. that's the actual story under it.
 
 ### 4. Marilyn thread — only if it starts moving
 
-> The interesting Marilyn read is that the persona was not emptiness; it was armor. She could switch "Marilyn" on and off, which is part of what made her threatening to older Hollywood. She exposed the fact that the industry rewarded performance while pretending it was authenticity. More breakdown here if useful: https://9takes.com/personality-analysis/Marilyn-Monroe
+**Thread:** https://www.reddit.com/r/popculturechat/comments/1td5xaz/why_joan_crawford_was_disgusted_by_marilyn_monroe/
+
+**Status:** DJ confirms blog is live as of 2026-05-14. Hold until thread crosses ~50 comments.
+
+> the interesting thing about marilyn is the persona wasn't emptiness, it was armor. she could switch "marilyn" on and off, which is part of what scared old hollywood. she made it visible that the industry was rewarding performance while pretending it was authenticity. crawford was reacting to that, not to her. wrote more here: https://9takes.com/personality-analysis/Marilyn-Monroe
 
 ---
 
@@ -162,5 +198,6 @@ Top 5–10 candidates is enough to drive the next comment-drafting cycle. Don't 
 ## Open questions for next pass
 
 - Worth running this scan against r/Fauxmoi too? Playbook treats them as parallel — different tone (smart gossip vs. earnest gossip). Add to handoff if yes.
-- Should we maintain a running "threads we've commented on" log to avoid double-posting and to track which comments converted? Could live at `docs/reddit/comment-log.md`.
+- ~~Should we maintain a running "threads we've commented on" log~~ → resolved: added §Posted above.
 - The retrofit doc has a 2-week CTR measurement gate (Elon baseline). Reddit comments dropping during that window may contaminate the signal — note thread-drop dates against the GSC snapshot so attribution stays clean.
+- Today's scan had **no Tier A hits in hot top 25**. Is that because (a) no Tier A celebs trended today, (b) PCC's algorithm buries personality-coded content, or (c) the priority list is too narrow? Worth re-running the scan in 24h and comparing — if 2/2 scans miss, the priority list needs to widen or we need a `/new` sweep by default.

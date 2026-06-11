@@ -216,7 +216,7 @@
 	.grid-item {
 		position: relative;
 		overflow: hidden;
-		border-radius: 12px;
+		border-radius: 1rem;
 		box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		transition:

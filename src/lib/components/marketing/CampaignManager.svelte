@@ -1005,7 +1005,7 @@
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.75rem 1rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		margin-bottom: 1rem;
 	}
@@ -1106,7 +1106,7 @@
 		padding: 0.375rem 2rem 0.375rem 0.75rem;
 		font-size: 0.8125rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		appearance: none;
@@ -1133,7 +1133,7 @@
 		padding: 0.375rem 0.75rem 0.375rem 2rem;
 		font-size: 0.8125rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		width: 200px;
@@ -1154,7 +1154,7 @@
 	.campaign-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 		transition: box-shadow 0.15s ease;
 	}
@@ -1336,7 +1336,7 @@
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
@@ -1368,7 +1368,7 @@
 		width: 40px;
 		height: 40px;
 		border: none;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 	}
 
@@ -1378,7 +1378,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		font-weight: 500;
 	}
@@ -1394,7 +1394,7 @@
 		color: var(--ink-bright);
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		width: 100%;
 		text-align: left;
@@ -1415,14 +1415,14 @@
 		gap: 0.75rem;
 		padding: 0.75rem;
 		background: var(--night-deep);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	/* Create Panel */
 	.create-panel {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1.5rem;
 		max-width: 56rem;
 		margin: 0 auto;
@@ -1462,7 +1462,7 @@
 		text-align: left;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}
@@ -1518,7 +1518,7 @@
 		text-align: center;
 		color: var(--ink-mid);
 		border: 1px dashed var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 	}
 
 	.empty-state p {

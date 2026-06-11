@@ -360,7 +360,7 @@
 		margin-bottom: 20px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 	}
 
 	.info-icon {
@@ -399,7 +399,7 @@
 	.section-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 20px;
 		margin-bottom: 20px;
 	}
@@ -476,7 +476,7 @@
 		width: 100%;
 		padding: 9px 12px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		font-size: 0.85rem;
@@ -517,7 +517,7 @@
 		padding: 10px 12px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		margin-bottom: 8px;
 		transition: border-color 0.15s ease;
 	}
@@ -569,7 +569,7 @@
 		padding: 1px 8px;
 		background: var(--stone-warm);
 		color: var(--ink-mid);
-		border-radius: 12px;
+		border-radius: 9999px;
 		font-size: 0.7rem;
 		font-weight: 600;
 	}
@@ -596,7 +596,7 @@
 		padding: 8px 10px;
 		background: transparent;
 		border: none;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		text-align: left;
 		font-family: inherit;

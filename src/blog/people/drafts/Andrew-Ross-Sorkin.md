@@ -26,12 +26,13 @@ occupation:
   - 'Screenwriter'
   - 'Television Producer'
 knows_about:
-  - 'Journalism'
-  - 'Writing'
-  - 'Screenwriting'
-  - 'Television production'
+  - 'Financial journalism'
   - 'Too Big to Fail'
-  - 'Digital media'
+  - 'DealBook'
+  - '2008 financial crisis reporting'
+  - 'Mergers and acquisitions coverage'
+  - 'Live business interviewing'
+  - '1929 Wall Street crash history'
 keywords:
   - 'Andrew Ross Sorkin enneagram'
   - 'Andrew Ross Sorkin type 6'
@@ -51,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm3376444/'
   - 'https://www.andrewrosssorkin.com/'
 faqs:
-  - question: 'What is Andrew Ross Sorkin''s personality type?'
-    answer: 'The Enneagram Type 6 — the Loyalist, sometimes called the Skeptic — is the personality wired around one central question: what can I trust here? Sixes manage their lives by preparing for what could go wrong. They build safety through verification, loyalty to institutions that have proven reliable, and a constant background scan for hidden danger.'
+  - question: "What is Andrew Ross Sorkin's personality type?"
+    answer: "Andrew Ross Sorkin is an Enneagram Type 6 (The Loyalist), with the cerebral 6w5 tilt. The pattern shows in the 4:25 a.m. phone-under-the-covers routine, the two-three-four-source verification he runs before ever calling a company, the twenty-five-plus years at one institution he joined at sixteen, the eight years he spent researching his book on the 1929 crash, and his answer when asked his greatest fear: 'Complacency. People stop questioning assumptions when times are good.'"
     anchor: 'what-is-andrew-ross-sorkins-personality-type'
-  - question: 'Why is Andrew Ross Sorkin typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Writing, Screenwriting.'
-    anchor: 'why-is-andrew-ross-sorkin-typed-as-an-enneagram-type-6'
+  - question: 'How did Andrew Ross Sorkin become a New York Times reporter at 16?'
+    answer: "At 15 he launched a small magazine called The Sports Page and had his playwright mother drive him to Manhattan ad agencies to pitch ad space in person. At 18 he overheard adults at a party discussing the internet, turned it into a pitch, and The New York Times ran his first story. By college graduation he had filed 71 articles for the paper. His own explanation: 'Because I didn't know any better... Somehow, magically, they let me in the building.'"
+    anchor: 'how-andrew-ross-sorkin-became-a-new-york-times-reporter-at-16'
+  - question: 'How did Sorkin handle the Sam Bankman-Fried and Elon Musk interviews?'
+    answer: "By depersonalizing the accusation — he reads documents instead of making charges himself. With SBF on the 2022 DealBook stage, he read aloud a customer email with the subject line 'Sam Bankman-Fried stole $2 million from me.' When Musk told advertisers to 'go fuck yourself' a year later, Sorkin calmly noted that Musk's own ad-sales CEO, Linda Yaccarino, was sitting in the audience — and kept asking questions. He preps fifteen to thirty hours per interview and calls it 'plotting a flight path.'"
+    anchor: 'how-andrew-ross-sorkin-makes-elon-musk-and-sbf-stay-in-the-chair'
+  - question: 'Why do critics call Andrew Ross Sorkin a Wall Street apologist?'
+    answer: "Matt Taibbi called him 'the single most credulously slobbering financial reporter on the planet,' and Dean Starkman labeled Too Big to Fail 'an example of access journalism par excellence' — partly because DealBook signed sponsorship deals in 2010 with the very banks it covered. The article's read: he can be the most rigorous financial reporter of his generation and a journalist whose access requires he never go fully scorched-earth on the system that grants it. Both are true at once."
+    anchor: 'why-critics-call-andrew-ross-sorkin-a-wall-street-apologist'
+  - question: 'Why did Andrew Ross Sorkin spend eight years writing 1929?'
+    answer: "His October 2025 book on the 1929 crash runs roughly 600 pages plus 100 pages of notes, built from non-obvious sources: weather reports from October 1929, private diaries, New York Federal Reserve board notes. He wrote it while running DealBook, hosting Squawk Box, and executive-producing Billions. The book answers the same question he asks every morning at 4:25 a.m.: what is going to break, and which signal told us it would?"
+    anchor: 'why-andrew-ross-sorkin-spent-eight-years-writing-one-book'
 twitter: 'andrewrsorkin'
 instagram: 'sorkinsays'
 production_pretext:

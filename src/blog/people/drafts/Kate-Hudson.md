@@ -28,12 +28,11 @@ occupation:
   - 'Singer'
   - 'Television Actor'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Film production'
-  - 'Screenwriting'
-  - 'Singing'
-  - 'Television acting'
+  - 'Romantic comedy film acting'
+  - 'Activewear entrepreneurship'
+  - 'Singer-songwriting'
+  - 'Wellness and supplement brands'
+  - 'Podcasting'
 keywords:
   - 'Kate Hudson enneagram'
   - 'Kate Hudson type 7'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q169946'
   - 'https://www.imdb.com/name/nm0005028/'
 faqs:
-  - question: 'What is Kate Hudson''s personality type?'
-    answer: 'The evidence isn''t in her smile. It''s in what the smile is designed to outrun.'
+  - question: "What is Kate Hudson's personality type?"
+    answer: "Kate Hudson is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in her calling her own optimism 'a survival mechanism,' hiding an entire musical identity for twenty-five years out of perfectionist terror, the breadth instinct that produced acting, Fabletics, InBloom supplements, a podcast, a book, and an album, and a morning routine that builds happiness from raw materials — barefoot sun-staring, lemon water, meditation — before her children see her face."
     anchor: 'what-is-kate-hudsons-personality-type'
-  - question: 'Why is Kate Hudson typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Film production.'
-    anchor: 'why-is-kate-hudson-typed-as-an-enneagram-type-7'
+  - question: 'Why did Kate Hudson hide her music for 25 years?'
+    answer: "Music was the art of Bill Hudson, the father who left when she was eighteen months old — 'That's my dad. That's all dad.' She told CBS News: 'If I put that out in the world and people didn't like it, it would destroy me. If that one connection that I had to him, I failed miserably at, would be devastating.' It took Linda Perry overhearing her sing Katy Perry's 'Firework' during a pandemic Zoom class to push her into a studio; the album Glorious arrived in May 2024."
+    anchor: 'the-song-she-wrote-at-nineteen-and-sang-at-forty-five'
+  - question: 'Why does Kate Hudson keep dating musicians?'
+    answer: "She has three children with three musicians — Chris Robinson of The Black Crowes, Matt Bellamy of Muse, and Danny Fujikawa — after rejecting music as a career because it belonged to the musician father who abandoned her. She knows the pattern: 'Anybody who has had an experience with a parent that is absent, it's going to manifest.' After Bellamy, her therapist ordered a complete dating break, and the rewiring led her to Fujikawa — the musician who stayed."
+    anchor: 'three-musicians-three-children-one-pattern'
+  - question: "What is Kate Hudson's relationship with her father Bill Hudson?"
+    answer: "Bill Hudson was essentially absent after divorcing Goldie Hawn when Kate was a baby, and in 2015 he publicly 'disowned' Kate and Oliver on Instagram after Oliver's 'Happy Abandonment Day' post. Kurt Russell — 'Pa' — became the father who stayed, though the kids declined his adoption offer: 'We don't need it. The love is right there.' Kate later described the relationship with Bill as 'warming up,' adding, 'I have no expectation of that with my father. I just want him to be happy.'"
+    anchor: 'the-father-she-chose-and-the-one-who-left'
+  - question: 'How involved is Kate Hudson in Fabletics?'
+    answer: "Far beyond a celebrity licensing deal: she co-founded the activewear company in 2013 and wear-tests products, reviews weekly sales numbers, sits in design meetings, once shot a 30-second commercial on her iPhone, and pushed the team to design from XXS to 3X. By the time her album came out, Fabletics had crossed $1 billion in annual revenue with over 120 stores — thirteen years of proof that the woman built for motion could commit and stay."
+    anchor: 'the-business-that-proved-she-could-stay'
 twitter: 'https://twitter.com/katehudson'
 instagram: 'https://instagram.com/katehudson'
 tiktok: ''

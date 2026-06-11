@@ -25,10 +25,11 @@ occupation:
   - 'Film Actor'
   - 'Television Actor'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Television acting'
-  - 'Film'
+  - 'Jazz drumming'
+  - 'Method acting (Lee Strasberg Institute)'
+  - 'Fighter-jet flight training for film'
+  - 'Portraying real-life figures'
+  - 'Grateful Dead fandom'
 keywords:
   - 'Miles Teller''s Enneagram Type 3 Personality enneagram'
   - 'Miles Teller''s Enneagram Type 3 Personality type 3'
@@ -46,15 +47,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q267330'
   - 'https://www.imdb.com/name/nm1886602/'
 faqs:
-  - question: 'What is Miles Teller''s personality type?'
-    answer: 'The evidence is already in the stories: the competitive engine that never shuts off, the humor deflecting vulnerability before it arrives, the effortless ability to become whoever the room requires. What the Enneagram Type 3 framework adds isn''t a label. It''s a map of where the pattern leads.'
+  - question: "What is Miles Teller's personality type?"
+    answer: "Miles Teller is an Enneagram Type 3 (The Achiever). The pattern shows in the performed confidence the world misread as arrogance, his admission that 'I absolutely do care what people think about me,' the wilderness years of quiet withdrawal after the 2015 Esquire profile — a Three disintegrating toward Nine — and a recalibration built on playing real men of endurance rather than charm. His ideal eternity isn't an award; it's a cul-de-sac where everyone he loves can pop by."
     anchor: 'what-is-miles-tellers-personality-type'
-  - question: 'What is Miles Teller''s Enneagram Type 3 Personality''s personality type?'
-    answer: 'Miles Teller''s Enneagram Type 3 Personality is analyzed as an Enneagram Type 3 (Achiever). The profile connects that type pattern to He almost died at 20. Then a magazine called him ''a dick'' and that hurt worse. Inside Miles Teller''s Type 3 personality and the mask he couldn''t take off.'
-    anchor: 'what-is-miles-tellers-enneagram-type-3-personalitys-personality-type'
-  - question: 'Why is Miles Teller''s Enneagram Type 3 Personality typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Television acting.'
-    anchor: 'why-is-miles-tellers-enneagram-type-3-personality-typed-as-an-enneagram-type-3'
+  - question: 'How did Miles Teller get the scars on his face?'
+    answer: "At twenty, riding passenger in his own car, his friend lost control at 80 mph; the car flipped eight times and Teller was ejected through the window, landing fifty feet away covered in blood. He suffered a broken wrist, two fractured shoulders, a punctured lung, and needed more than twenty stitches in his face. Two pieces of gravel remain lodged in his cheekbone and jaw — doctors said removing them would scar worse than leaving them in."
+    anchor: '80-miles-per-hour-on-a-two-lane-road'
+  - question: "What did the Esquire 'dick' profile do to Miles Teller's career?"
+    answer: "Anna Peele's August 2015 Esquire profile opened by asking whether Teller was 'a dick' and concluded he was 'kind of' one. It went viral the same summer Fantastic Four bombed, the 'difficult' label stuck, studios pulled back, and the actor compared to Brando six months earlier spent years fighting for auditions. His response to The Wrap gave the game away: 'I absolutely do care what people think about me.'"
+    anchor: 'the-biggest-douchebag-too'
+  - question: 'Did Miles Teller really play the drums in Whiplash?'
+    answer: "Yes. Teller had drummed since fifteen and trained four hours a day on top of rehearsals for months to reach jazz level. The blood on the drums is real — he filmed the movie in 19 days with bloody, bandaged blisters, and when Damien Chazelle asked if he wanted to stop, he refused because stopping would have broken the emotional spell."
+    anchor: 'bloody-blisters-and-the-emotional-spell'
+  - question: 'How did Miles Teller end up in Top Gun: Maverick?'
+    answer: "He almost said no — after Fantastic Four, blockbusters felt like the enemy. Tom Cruise personally couriered a script to him on vacation in Hawaii, then flew to Florida to meet him. The role demanded four months of training, from underwater Dunker escapes to F/A-18 flights pulling 7.5 Gs, after which blood work found jet fuel in Teller's bloodstream — to which Cruise replied, 'Yeah, I was born with it, kid.'"
+    anchor: 'rooster'
 twitter: 'Miles_Teller'
 instagram: 'milesteller'
 tiktok: ''

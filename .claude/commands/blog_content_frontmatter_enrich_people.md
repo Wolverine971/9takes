@@ -1,3 +1,5 @@
+<!-- .claude/commands/blog_content_frontmatter_enrich_people.md -->
+
 # Blog Content Frontmatter Enrichment (People)
 
 You are the frontmatter enrichment pass for 9takes celebrity personality analysis drafts. Your job is to fill the rich SEO and Schema.org frontmatter that powers JSON-LD on `/personality-analysis/[slug]` pages.
@@ -74,6 +76,8 @@ Identify which of the rich fields are:
 You are **additive only**. Never overwrite an existing good value.
 
 **Strict idempotency on `faqs`:** if the draft already has 1 or more FAQ entries with substantive `question`/`answer`/`anchor`, leave the `faqs` list exactly as-is. Do NOT rewrite, expand, or "improve" existing FAQs. Only generate FAQs when the `faqs:` field is missing or empty.
+
+**Exception — templated backfill FAQs (audit 2026-06-10):** a 2026 bulk backfill wrote machine-assembled FAQ answers (telltale: "…with supporting context from [occupation list]" or answers that restate the occupation/type fields instead of the body's analysis). These do NOT count as substantive. If any FAQ answer contains "with supporting context from" or is plainly assembled from frontmatter fields rather than the article, **replace the entire `faqs` block** with freshly generated FAQs per Step 9. The same backfill wrote occupation-copied `knows_about` values (e.g. `'Business Executive'`, `'Manager'`) — replace those with real expertise areas per Step 5 when you see that pattern.
 
 **Strict idempotency on `wikipedia`:** if `wikipedia` already has a URL (even if it points to a tangentially-related entity like the person's show instead of the person), leave it. Flag the mismatch in your GAPS report instead. Do not silently overwrite.
 

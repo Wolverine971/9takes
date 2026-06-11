@@ -27,12 +27,11 @@ occupation:
   - 'Model'
   - 'Voice Actor'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Television acting'
-  - 'Modeling'
-  - 'Voice acting'
-  - 'Transformers'
+  - 'Transformers franchise'
+  - "Jennifer's Body"
+  - 'Pretty Boys Are Poisonous (poetry collection)'
+  - 'Body dysmorphia awareness'
+  - 'Spiritual seeking and plant medicine'
 keywords:
   - 'Megan Fox enneagram'
   - 'Megan Fox type 4'
@@ -50,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q80069'
   - 'https://www.imdb.com/name/nm1083271/'
 faqs:
-  - question: 'What is Megan Fox''s personality type?'
-    answer: '"I identify as being an outcast or being so incredibly unique that no one could ever understand me," Fox said on Call Her Daddy.'
+  - question: "What is Megan Fox's personality type?"
+    answer: "Megan Fox is an Enneagram Type 4 (The Individualist) with a 3 wing. The pattern shows in her own words — 'I identify as being an outcast or being so incredibly unique that no one could ever understand me' — in the body dysmorphia she has carried since age five, in the decoy caricature she admits feeding the press to keep the real person hidden, and in poetry written 'to excise the illness' rather than for applause, which still became a New York Times bestseller."
     anchor: 'what-is-megan-foxs-personality-type'
-  - question: 'Why is Megan Fox typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Television acting.'
-    anchor: 'why-is-megan-fox-typed-as-an-enneagram-type-4'
+  - question: 'Why was Megan Fox blacklisted by Hollywood?'
+    answer: "In a 2009 Wonderland interview, the 23-year-old Fox compared Michael Bay to Hitler on his sets. Steven Spielberg's response, according to Bay, was 'Fire her right now,' and Bay's crew published an open letter calling her 'dumb-as-a-rock' and an 'unfriendly bitch.' The roles dried up — and Jennifer's Body, the feminist horror film she made right before the blacklisting, was dismissed as a flop until the #MeToo era rediscovered it as a cult classic."
+    anchor: 'how-hollywood-turned-megan-fox-into-someone-she-never-recognized'
+  - question: 'Does Megan Fox have body dysmorphia?'
+    answer: "Yes — she told Call Her Daddy in 2024: 'I don't ever see myself the way other people see me. There's never a point in my life where I loved my body. Never, ever.' Her first coherent memory about her body, at age five, was 'I have such fat thighs.' An eating disorder hospitalized her twice, and no amount of being named the sexiest woman alive ever touched the condition."
+    anchor: 'a-wet-blanket-draped-over-a-couch'
+  - question: 'What is Pretty Boys Are Poisonous about?'
+    answer: "Fox's 2023 collection of more than seventy poems covers abuse, a miscarriage, and the cost of keeping men's secrets: 'I've spent my entire life keeping the secrets of men, my body aches from carrying the weight of their sins.' It revealed at least one physically abusive relationship and became a New York Times bestseller. At readings she told audiences: 'You're never going to cancel me.'"
+    anchor: 'these-poems-were-written-to-excise-the-illness'
+  - question: 'What happened between Megan Fox and Machine Gun Kelly?'
+    answer: "She called him 'my twin soul' — the relationship featured an engagement ring designed to draw blood if removed, drinking each other's blood 'for ritual purposes only,' and an ayahuasca ceremony Fox described as going to 'hell for eternity.' Within eighteen months came a miscarriage, a broken engagement, a pregnancy announcement, and a confirmed breakup. Their daughter, Saga Blade, was born March 27, 2025, and they co-parent separately."
+    anchor: 'why-megan-foxs-relationships-keep-following-the-same-pattern'
 twitter: 'meabornsept1986'
 instagram: 'meganfox'
 tiktok: ''

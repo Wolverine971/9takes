@@ -28,11 +28,11 @@ occupation:
   - 'Film Producer'
   - 'Stage Actor'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Screenwriting'
-  - 'Television acting'
-  - 'Film production'
+  - 'Immersive character preparation'
+  - 'Climate change advocacy'
+  - 'Environmental philanthropy'
+  - 'Wildlife conservation'
+  - 'Art collecting'
 keywords:
   - 'Leonardo DiCaprio enneagram'
   - 'Leonardo DiCaprio type 7'
@@ -50,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q38111'
   - 'https://www.imdb.com/name/nm0000138/'
 faqs:
-  - question: 'What is Leonardo DiCaprio''s personality type?'
-    answer: 'Enneagram Type 7, sometimes called "The Enthusiast," runs on a core fear of being trapped in pain, deprivation, or limitation. Sevens learned early, usually from a childhood experience of loss or confinement, that the world can take away what you love without warning. They responded by becoming insatiable: seeking variety, experience, freedom, and stimulation as a hedge against suffering. The underlying logic: if I keep moving, the pain can''t catch me.'
+  - question: "What is Leonardo DiCaprio's personality type?"
+    answer: "Leonardo DiCaprio is an Enneagram Type 7 (The Enthusiast). The pattern shows in his refusal of every franchise — Batman, Spider-Man, Star Wars — to protect his freedom of movement, his deliberate disappearance after Titanic made him the most famous person on earth, the near-death adventures that earned him friends' vote as 'the person they least want to do extreme adventures with,' and his own admission: 'I don't have emotions about a lot of things... I guess I do get excited a lot.'"
     anchor: 'what-is-leonardo-dicaprios-personality-type'
-  - question: 'Why is Leonardo DiCaprio typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Screenwriting.'
-    anchor: 'why-is-leonardo-dicaprio-typed-as-an-enneagram-type-7'
+  - question: 'Why did Leonardo DiCaprio turn down Spider-Man and other franchises?'
+    answer: "He turned down Batman, Spider-Man, and Star Wars, each time saying 'I didn't feel ready,' and chose Gangs of New York with Scorsese over Spider-Man — then recommended his friend Tobey Maguire for the role instead. The through-line isn't quality but freedom: multi-picture deals lock an actor in, and every career decision DiCaprio makes protects his ability to move."
+    anchor: 'why-leonardo-dicaprio-turned-down-every-franchise'
+  - question: 'Does Leonardo DiCaprio have OCD?'
+    answer: "Yes — he was diagnosed with obsessive-compulsive disorder as a child, with compulsions like stepping on sidewalk cracks and walking through doorways multiple times. 'Sometimes it took me 10 minutes to get to the set because I'd be pacing back and forth, stepping on gum stains,' he has said, describing how he'd talk himself down: 'OK, you're being ridiculous. Nothing bad is going to happen.'"
+    anchor: 'does-leonardo-dicaprio-have-ocd'
+  - question: 'Why does Leonardo DiCaprio only date younger women?'
+    answer: "He has never publicly addressed the pattern, though the data is public: Gisele Bündchen, Bar Refaeli, Toni Garrn, and Camila Morrone all began dating him around age 20, and nearly every relationship ended as the woman approached her mid-twenties. The analysis maps it to the Type 7 fear of limitation — each new relationship is a clean slate, each ending prevents being locked in. His current partner, Vittoria Ceretti, is the oldest known partner he's dated."
+    anchor: 'emotionally-thirty-two'
+  - question: "Is Leonardo DiCaprio's environmental activism contradictory?"
+    answer: "Both sides of the contradiction are real. His foundation has distributed over $100 million across 46 countries, and researchers at San Diego State found his 2016 Oscar climate speech produced the largest measured increase in public climate engagement ever recorded. He has also taken six roundtrip private jet flights in six weeks and chartered a mega-yacht from a UAE oil tycoon — prompting Brazil's president Bolsonaro to tell him to give up the yacht before lecturing the world."
+    anchor: 'the-third-panel'
 twitter: ''
 instagram: 'leonardodicaprio'
 tiktok: ''

@@ -467,7 +467,7 @@
 		width: 100%;
 		min-width: 0;
 		background: var(--card-background, #fff);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 
@@ -499,7 +499,7 @@
 		gap: 4px;
 		max-width: 100%;
 		padding: 4px 10px;
-		border-radius: 20px;
+		border-radius: 9999px;
 		font-size: 11px;
 		font-weight: 500;
 	}

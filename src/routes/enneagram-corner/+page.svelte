@@ -762,7 +762,7 @@
 			height: 2px;
 			background: var(--data-teal);
 			transform: translateX(-50%);
-			border-radius: 1px;
+			border-radius: 9999px;
 		}
 	}
 

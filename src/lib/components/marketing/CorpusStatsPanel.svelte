@@ -151,7 +151,7 @@
 		padding: 1.5rem 1.25rem;
 		background: linear-gradient(180deg, var(--void-shadow) 0%, var(--void-umbra) 100%);
 		border: 1px solid var(--data-teal-rgba);
-		border-radius: 8px;
+		border-radius: 1rem;
 		text-align: left;
 		box-shadow: var(--card-shadow-soft), var(--card-highlight);
 	}

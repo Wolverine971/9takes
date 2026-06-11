@@ -28,12 +28,11 @@ occupation:
   - 'Actor'
   - 'Film Producer'
 knows_about:
-  - 'Film acting'
-  - 'Television acting'
-  - 'Voice acting'
-  - 'Acting'
-  - 'Film production'
-  - 'Television production'
+  - 'The Devil Wears Prada'
+  - "Sophie's Choice"
+  - 'Accent and dialect work'
+  - 'Only Murders in the Building'
+  - 'Character immersion'
 keywords:
   - 'Meryl Streep enneagram'
   - 'Meryl Streep type 2'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q873'
   - 'https://www.imdb.com/name/nm0000658/'
 faqs:
-  - question: 'What is Meryl Streep''s personality type?'
-    answer: 'The Enneagram Type 2 — often called "The Helper" — carries a core wound that forms early: the belief that love must be earned through service. That being needed equals being loved. That having needs of your own makes you a burden.'
+  - question: "What is Meryl Streep's personality type?"
+    answer: "Meryl Streep is an Enneagram Type 2 (The Helper). The pattern shows in the fourteen-year-old who erased herself to become what her ecosystem needed — cheerleader, homecoming queen — in performing cheerfulness for the dying John Cazale ('more exhausting mentally, physically, emotionally than any work I've ever done'), in describing her craft as service ('a translator... a conduit of mutual emotional understanding'), and in performing a stable marriage for six years after it had privately ended."
     anchor: 'what-is-meryl-streeps-personality-type'
-  - question: 'Why is Meryl Streep typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, Voice acting.'
-    anchor: 'why-is-meryl-streep-typed-as-an-enneagram-type-2'
+  - question: 'Why did Meryl Streep stop Method acting?'
+    answer: "She tried it once, staying in character as the cold Miranda Priestly off-camera for The Devil Wears Prada: 'It was horrible! I was miserable in my trailer. I could hear them all rocking and laughing. I was so depressed!' She abandoned the Method permanently — the woman who can become anyone could not sustain being cold, because warmth is her operating system. Even then, Anne Hathaway said: 'I always felt cared for.'"
+    anchor: 'the-devil-wears-prada-and-the-one-character-she-couldnt-play'
+  - question: 'What happened between Meryl Streep and John Cazale?'
+    answer: "They met in 1976 during a Central Park production of Measure for Measure and moved in together; in 1977 he was diagnosed with terminal lung cancer. She stayed at his side at Memorial Sloan Kettering for five months while shooting The Deer Hunter, threatened to quit when the studio wanted to drop the dying Cazale, and Robert De Niro reportedly covered the insurance to keep him on. Cazale died on March 13, 1978, with Streep lying on his chest, crying for him to wake up."
+    anchor: 'more-exhausting-than-any-work-ive-ever-done'
+  - question: 'Why did Meryl Streep and Don Gummer separate?'
+    answer: "The October 2023 statement revealed they had already 'been separated for more than 6 years' — meaning her famous 2012 Oscar speech thanking Don first was delivered five years before they privately parted. They married in September 1978, six months after Cazale's death, and raised four children. The marriage that proved you could have it all had been quietly ending while the world was still applauding it."
+    anchor: 'the-forty-five-year-performance'
+  - question: 'Does Meryl Streep have impostor syndrome?'
+    answer: "By her own account, yes — despite 21 Academy Award nominations, more than any human in history, she has said repeatedly: 'I say to myself, I don't know how to act — and why does anybody want to look at me on-screen anymore?' She gets cold feet starting every new film and describes 'varying degrees of confidence and self-loathing.'"
+    anchor: 'i-dont-know-how-to-act'
 twitter: ''
 instagram: ''
 tiktok: ''

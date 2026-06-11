@@ -635,7 +635,7 @@
 
 	.chip {
 		padding: 0.3rem 0.6rem;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--night-deep) 55%, transparent);
 		border: 1px solid var(--stone-edge);
 		color: var(--ink-bright);

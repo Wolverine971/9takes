@@ -294,7 +294,7 @@
 		align-items: center;
 		padding: 0.5rem 1rem;
 		background: var(--stone-warm);
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
 		color: var(--ink-mid);
@@ -349,7 +349,7 @@
 				width: 3px;
 				height: 1.25rem;
 				background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-				border-radius: 2px;
+				border-radius: 0.25rem;
 			}
 		}
 	}
@@ -375,7 +375,7 @@
 		text-decoration: none;
 		transition: all 0.2s ease;
 		padding: 0.375rem 0.75rem;
-		border-radius: 0.375rem;
+		border-radius: 0.625rem;
 		border: 1px solid transparent;
 		white-space: nowrap;
 		margin-top: 0.25rem;
@@ -398,7 +398,7 @@
 	.blog-card {
 		position: relative;
 		aspect-ratio: 4 / 3;
-		border-radius: 0.75rem;
+		border-radius: 1rem;
 		overflow: hidden;
 		background: var(--stone-warm);
 		text-decoration: none;
@@ -587,7 +587,7 @@
 
 		.blog-card {
 			aspect-ratio: 1;
-			border-radius: 0.5rem;
+			border-radius: 0.625rem;
 		}
 
 		.card-content {

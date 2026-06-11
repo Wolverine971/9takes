@@ -36,7 +36,7 @@
 		},
 		'2': {
 			name: 'The Helper',
-			tagline: 'Generous, demonstrative, people-pleasing',
+			tagline: 'Generous, demonstrative, deeply caring',
 			archetype: 'The Caregiver',
 			coreFear: 'being unloved or unwanted',
 			coreDesire: 'to be loved and appreciated',
@@ -54,7 +54,7 @@
 		},
 		'4': {
 			name: 'The Individualist',
-			tagline: 'Expressive, dramatic, self-absorbed',
+			tagline: 'Expressive, dramatic, introspective',
 			archetype: 'The Romantic',
 			coreFear: 'having no identity or significance',
 			coreDesire: 'to find themselves and their meaning',
@@ -63,7 +63,7 @@
 		},
 		'5': {
 			name: 'The Investigator',
-			tagline: 'Perceptive, innovative, secretive',
+			tagline: 'Perceptive, innovative, private',
 			archetype: 'The Observer',
 			coreFear: 'being helpless, useless, or incapable',
 			coreDesire: 'to be capable and competent',
@@ -72,7 +72,7 @@
 		},
 		'6': {
 			name: 'The Loyalist',
-			tagline: 'Engaging, responsible, anxious',
+			tagline: 'Engaging, responsible, vigilant',
 			archetype: 'The Skeptic',
 			coreFear: 'being without support or guidance',
 			coreDesire: 'security and trustworthy support',
@@ -81,7 +81,7 @@
 		},
 		'7': {
 			name: 'The Enthusiast',
-			tagline: 'Spontaneous, versatile, scattered',
+			tagline: 'Spontaneous, versatile, optimistic',
 			archetype: 'The Adventurer',
 			coreFear: 'being trapped in pain or deprivation',
 			coreDesire: 'to be satisfied and stimulated',
@@ -90,7 +90,7 @@
 		},
 		'8': {
 			name: 'The Challenger',
-			tagline: 'Self-confident, decisive, confrontational',
+			tagline: 'Self-confident, decisive, protective',
 			archetype: 'The Protector',
 			coreFear: 'being controlled or harmed by others',
 			coreDesire: 'to protect themselves and stay in control',
@@ -99,7 +99,7 @@
 		},
 		'9': {
 			name: 'The Peacemaker',
-			tagline: 'Receptive, reassuring, complacent',
+			tagline: 'Receptive, reassuring, easygoing',
 			archetype: 'The Mediator',
 			coreFear: 'loss of connection and fragmentation',
 			coreDesire: 'inner stability and peace of mind',
@@ -440,7 +440,9 @@
 							/>
 						{/if}
 						<div class="person-name">
-							<h3 style:--tag={`h-blog-${person.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
+							<h3
+								style:--tag={`h-blog-${(person.title ?? person.slug).toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
+							>
 								{formatPersonalityDisplayName(person.slug)}
 							</h3>
 						</div>
@@ -588,8 +590,12 @@
 			content: '';
 			position: absolute;
 			inset: -2px;
-			border-radius: 1.125rem;
-			background: linear-gradient(135deg, rgba(167, 139, 250, 0.4) 0%, transparent 50%);
+			border-radius: 1rem;
+			background: linear-gradient(
+				135deg,
+				color-mix(in srgb, var(--lamp-glow) 40%, transparent) 0%,
+				transparent 50%
+			);
 			z-index: -1;
 		}
 	}
@@ -597,8 +603,7 @@
 	.type-num {
 		font-size: 2rem;
 		font-weight: 700;
-		color: var(--ink-bright);
-		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+		color: var(--night-deep);
 	}
 
 	.hero h1 {
@@ -661,7 +666,7 @@
 		font-weight: 500;
 		padding: 0.375rem 0.75rem;
 		background: var(--primary-subtle);
-		border-radius: 2rem;
+		border-radius: 9999px;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
 	}
 
@@ -677,7 +682,7 @@
 
 	.grid-item {
 		position: relative;
-		border-radius: 0.75rem;
+		border-radius: 1rem;
 		overflow: hidden;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
@@ -690,7 +695,7 @@
 			content: '';
 			position: absolute;
 			inset: 0.45rem;
-			border-radius: 0.6rem;
+			border-radius: 0.625rem;
 			background: linear-gradient(
 				135deg,
 				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
@@ -717,7 +722,12 @@
 			}
 
 			.person-name {
-				background: linear-gradient(to top, rgba(12, 10, 9, 0.98) 0%, rgba(12, 10, 9, 0.84) 100%);
+				background: linear-gradient(
+					to top,
+					rgba(12, 10, 9, 0.85) 0%,
+					rgba(12, 10, 9, 0.5) 50%,
+					transparent 100%
+				);
 
 				h3 {
 					color: #fff;
@@ -732,7 +742,7 @@
 		aspect-ratio: 1;
 		object-fit: cover;
 		transition: transform 0.4s ease;
-		border-radius: 0.6rem;
+		border-radius: 0.625rem;
 		display: block;
 	}
 
@@ -741,10 +751,14 @@
 		bottom: 0.45rem;
 		left: 0.45rem;
 		right: 0.45rem;
-		border-radius: 0 0 0.6rem 0.6rem;
-		background: linear-gradient(to top, rgba(12, 10, 9, 0.96) 0%, rgba(12, 10, 9, 0.64) 100%);
-		backdrop-filter: blur(10px);
-		padding: 0.75rem 0.5rem;
+		border-radius: 0 0 0.625rem 0.625rem;
+		background: linear-gradient(
+			to top,
+			rgba(12, 10, 9, 0.72) 0%,
+			rgba(12, 10, 9, 0.38) 50%,
+			transparent 100%
+		);
+		padding: 1.75rem 0.5rem 0.5rem;
 		text-align: center;
 		transition: background 0.25s ease;
 		z-index: 2;
@@ -757,6 +771,7 @@
 			text-transform: capitalize;
 			transition: color 0.25s ease;
 			line-height: 1.3;
+			text-shadow: 0 1px 6px rgba(12, 10, 9, 0.9);
 		}
 	}
 
@@ -792,7 +807,7 @@
 				align-items: center;
 				gap: 0.625rem;
 				padding: 0.625rem 0.75rem;
-				border-radius: 0.5rem;
+				border-radius: 0.625rem;
 				width: 100%;
 				border: 1px solid var(--stone-edge);
 				background: var(--night-deep);
@@ -811,7 +826,7 @@
 				background: linear-gradient(
 					135deg,
 					color-mix(in srgb, var(--lamp-glow) 18%, transparent),
-					rgba(167, 139, 250, 0.12)
+					color-mix(in srgb, var(--lamp-glow) 8%, transparent)
 				);
 				border-color: color-mix(in srgb, var(--lamp-glow) 50%, transparent);
 				color: var(--ink-bright);
@@ -826,8 +841,8 @@
 			align-items: center;
 			justify-content: center;
 			background: var(--lamp-glow);
-			color: var(--ink-bright);
-			border-radius: 0.375rem;
+			color: var(--night-deep);
+			border-radius: 0.25rem;
 			font-weight: 700;
 			font-size: 0.75rem;
 			flex-shrink: 0;
@@ -942,7 +957,7 @@
 
 		footer {
 			padding: 2rem 1.5rem;
-			border-radius: 0.75rem;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -954,7 +969,7 @@
 		.type-badge {
 			width: 3rem;
 			height: 3rem;
-			border-radius: 0.75rem;
+			border-radius: 0.625rem;
 		}
 
 		.type-num {
@@ -976,7 +991,7 @@
 		}
 
 		.grid-item {
-			border-radius: 0.5rem;
+			border-radius: 0.625rem;
 		}
 
 		.person-name {

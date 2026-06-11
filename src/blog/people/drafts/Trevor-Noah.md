@@ -28,12 +28,11 @@ occupation:
   - 'Disc Jockey'
   - 'Presenter'
 knows_about:
-  - 'Acting'
-  - 'Writing'
-  - 'Film production'
-  - 'Film acting'
-  - 'Stand-up comedy'
-  - 'Television acting'
+  - 'Multilingual stand-up comedy'
+  - 'Political satire (The Daily Show)'
+  - 'Accent and impression work'
+  - 'South African apartheid history'
+  - 'Memoir writing (Born a Crime)'
 keywords:
   - 'Trevor Noah enneagram'
   - 'Trevor Noah type 6'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm3696388/'
   - 'https://www.trevornoah.com/'
 faqs:
-  - question: 'What is Trevor Noah''s personality type?'
-    answer: 'The Enneagram calls Type 6 "The Loyal Skeptic." The organizing question is simple and lifelong: Who can I trust? Everything else — the threat-scanning, the contingency planning, the room-reading, the deference paired with private skepticism — is downstream of that one ask.'
+  - question: "What is Trevor Noah's personality type?"
+    answer: "Trevor Noah is an Enneagram Type 6 (The Loyal Skeptic), specifically a 6w7. The pattern shows in a childhood where the government legislated him out of existence and his mother had to pretend he wasn't her son, the seven languages learned as a survival kit, leaving The Daily Show at peak success without telling anyone until live broadcast, and his admission that he's 'perpetually terrified' of being broke again despite a roughly $100 million fortune. The charm, the analysis argues, is a surveillance system."
     anchor: 'what-is-trevor-noahs-personality-type'
-  - question: 'Why is Trevor Noah typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Writing, Film production.'
-    anchor: 'why-is-trevor-noah-typed-as-an-enneagram-type-6'
+  - question: 'Why did Trevor Noah leave The Daily Show?'
+    answer: "On September 29, 2022, during a routine taping, he told his live studio audience — before his producers, network, or staff — that 'after the seven years, my time is up.' He kept it secret because 'I didn't want anybody to be the person who then tells somebody else.' Jon Stewart had advised him years earlier: 'Make sure you leave before you become cynical.' He left the way he leaves everything — at peak, before the institution becomes the identity."
+    anchor: 'seven-years-at-the-desk'
+  - question: 'Does Trevor Noah have ADHD?'
+    answer: "Yes — and he connects it directly to his depression. On Diary of a CEO in October 2024 he said: 'My depression is created by a severe level of ADHD.' Doctors found he 'would either be hyperfocused on something that I shouldn't be, or I would have no focus for the thing that I should.' It reframed years of what he'd interpreted as purely psychological wounds as partly neurological wiring."
+    anchor: 'happy-and-depressed'
+  - question: "What happened to Trevor Noah's mother?"
+    answer: "Patricia Noah survived being shot by her abusive ex-husband Abel Shingange — one bullet entered the back of her skull and exited through her nose, missing her brain by millimeters. Abel received probation. In the hospital, barely able to speak, she joked to her son: 'Look on the bright side. Now you're officially the best-looking person in the family.'"
+    anchor: 'patricia-noahs-one-goal'
+  - question: 'How many languages does Trevor Noah speak?'
+    answer: "Seven: Zulu, Xhosa, Sotho, Tswana, Tsonga, Afrikaans, and English — a survival kit dressed up as a curriculum. When Zulu boys cornered him in Soweto and plotted to mug him in Zulu, he replied in their language and suggested they all go mug someone else together. 'Maybe I didn't look like them, but if I spoke like them, I was them.'"
+    anchor: 'the-chameleons-toolkit'
 twitter: 'Trevornoah'
 instagram: 'trevornoah'
 tiktok: ''

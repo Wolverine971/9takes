@@ -28,12 +28,11 @@ occupation:
   - 'Singer'
   - 'Television Actor'
 knows_about:
-  - 'Acting'
-  - 'Songwriting'
-  - 'Music'
-  - 'Voice acting'
-  - 'Singing'
-  - 'Television acting'
+  - 'Indie folk music (She & Him)'
+  - 'Sitcom acting (New Girl)'
+  - 'Media entrepreneurship (HelloGiggles)'
+  - 'Hydroponic home farming (Lettuce Grow)'
+  - 'Retro pop and ukulele performance'
 keywords:
   - 'Zooey Deschanel enneagram'
   - 'Zooey Deschanel type 6'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0221046/'
   - 'https://zooey-deschanel.com'
 faqs:
-  - question: 'What Is Zooey Deschanel''s Personality Type?'
-    answer: 'Type 6 is the Loyalist. The Six''s core question is can I trust this? — the situation, the person, the praise, the criticism, the offer, the audition, the script, the future. The Six''s anxiety isn''t theatrical despair. It''s a low, constant scan for what could go wrong, paired with an enormous appetite for evidence that something probably will.'
+  - question: "What is Zooey Deschanel's personality type?"
+    answer: "Zooey Deschanel is an Enneagram Type 6 (The Loyalist), specifically a counterphobic 6w7. The pattern shows in submitting her She & Him debut to critics anonymously before claiming it, lying awake at forty-six replaying things she said when she was eight, building two extra hours into every morning so she isn't 'running back in the house like 40 times,' fifteen years of on-the-record war against the manic pixie dream girl label, and three companies in three industries as insurance against the acting pipeline drying up."
     anchor: 'what-is-zooey-deschanels-personality-type'
-  - question: 'Why is Zooey Deschanel typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Songwriting, Music.'
-    anchor: 'why-is-zooey-deschanel-typed-as-an-enneagram-type-6'
+  - question: 'Why does Zooey Deschanel reject the manic pixie dream girl label?'
+    answer: "Critic Nathan Rabin coined the phrase in 2007 partly using her Elizabethtown character, and (500) Days of Summer fused it to her face — even though Summer Finn is written as the trope's refutation. She has been rebutting it ever since: 'It's a way of making a woman one-dimensional, and I'm not one-dimensional,' and 'I want to be a fucking feminist and wear a fucking Peter Pan collar.' The essay reads the fifteen-year fight as counterphobic Six behavior — answering the threat instead of shrugging it off."
+    anchor: 'why-zooey-deschanel-will-not-stop-fighting-the-manic-pixie-label'
+  - question: 'Why did She & Him release music anonymously?'
+    answer: "When Volume One went to critics in 2008, the promotional copy deliberately omitted that 'She' was a famous actress. 'We talked about liking the idea of a name that's sort of anonymous and sort of humble,' she explained — the move of someone who had already imagined the review reading 'the actress tries her hand at music.' She has now made seven-plus albums with the same partner, M. Ward, who first heard her sing in Elf and was 'amazed to find out that she didn't have any records.'"
+    anchor: 'how-she--him-got-reviewed-without-anyone-knowing-it-was-zooey-deschanel'
+  - question: 'How did Zooey Deschanel and Jonathan Scott meet?'
+    answer: "On camera, in summer 2019, when Apple TV+ paired the Deschanel sisters with the Property Brothers for Carpool Karaoke. The essay notes it was the most controlled environment imaginable to meet a stranger — witnesses, cameras, a pre-vetted producer, a sibling on each side. Scott called it 'simultaneous sparks... unlike anything I've ever experienced.' They got engaged in 2023."
+    anchor: 'how-zooey-deschanel-and-jonathan-scott-met'
+  - question: 'What businesses does Zooey Deschanel own?'
+    answer: "Three, in three industries: HelloGiggles, the women's media site she co-founded in 2011 and sold to Time Inc. for a reported $30 million; Lettuce Grow, the hydroponic Farmstand company co-founded in 2019 with then-husband Jacob Pechenik (the marriage ended, the venture didn't); and Merryfield, a grocery-rewards app where she became Chief Creative Officer in 2021. The essay reads the diversification as Six-style insurance, not Three-style optics."
+    anchor: 'three-companies-is-a-lot-of-companies-for-an-actress'
 twitter: 'ZooeyDeschanel'
 instagram: 'zooeydeschanel'
 production_pretext:

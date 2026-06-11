@@ -28,12 +28,12 @@ occupation:
   - 'Television Actor'
   - 'Screenwriter'
 knows_about:
-  - 'Film production'
-  - 'Writing'
-  - 'Film acting'
-  - 'Television acting'
-  - 'Screenwriting'
-  - 'Comedy'
+  - 'Improvisational comedy'
+  - 'Ensemble screen acting'
+  - 'Late-night running bits'
+  - 'Superhero franchise screenwriting'
+  - 'Charity fundraising'
+  - 'Stuttering advocacy'
 keywords:
   - 'Paul Rudd enneagram'
   - 'Paul Rudd type 9'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q276525'
   - 'https://www.imdb.com/name/nm0748620/'
 faqs:
-  - question: 'What is Paul Rudd''s Personality Type?'
-    answer: 'Enneagram Type 9s, known as "The Peacemaker," crave harmony, see all perspectives naturally, and flow rather than force. At their best, they''re grounded, accepting, and bring people together without trying.'
+  - question: "What is Paul Rudd's personality type?"
+    answer: "Paul Rudd is an Enneagram Type 9 (The Peacemaker) with a 1 wing. The pattern shows in the twenty-year Mac and Me prank he built to avoid promoting his own films, spending a year in theatre after Clueless instead of cashing in, a career philosophy of 'tell me where to stand and I'll leave at the end of the day,' zero public feuds or social media, and the 1-wing civic streak behind Big Slick, the charity event that's raised over $21 million for Kansas City's Children's Mercy Hospital."
     anchor: 'what-is-paul-rudds-personality-type'
-  - question: 'Why is Paul Rudd typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Film production, Writing, Film acting.'
-    anchor: 'why-is-paul-rudd-typed-as-an-enneagram-type-9'
+  - question: 'What is the Paul Rudd Mac and Me prank?'
+    answer: "Since 2004, every time Rudd appears with Conan O'Brien he promises an exclusive clip from his new project, then rolls the same scene from the notoriously bad 1988 film Mac and Me — a boy in a wheelchair tumbling into a quarry. It started because 'I never felt comfortable promoting my own films.' O'Brien has said he wants Rudd to play it for him on his deathbed."
+    anchor: 'the-mac-and-me-defense-system'
+  - question: "Why doesn't Paul Rudd age?"
+    answer: "His serious answer is eight hours of sleep, cardio, weights, and healthy eating. The article's deeper answer: no public feuds, no scandals, no tabloid drama, married to the same woman since 2003, and a life deliberately structured to minimize stress. As the piece puts it, his face hasn't spent thirty years clenched in ego defense — when People named him Sexiest Man Alive he answered, 'I'm 80 years old on the inside.'"
+    anchor: 'the-ageless-phenomenon-and-sexiest-man-alive'
+  - question: "Who is Paul Rudd's wife?"
+    answer: "Julie Yaeger, a publicist's-office worker he met in the mid-1990s right after Clueless, when she offered to drop off his luggage after he showed up late to an audition. They married in 2003 and have two kids, Jack and Darby. The family lives in Rhinebeck, New York, where they co-own Samuel's Sweet Shop with neighbors Jeffrey Dean Morgan and Hilarie Burton, and Rudd has no social media: 'I don't have much of an interest in being an open book.'"
+    anchor: 'how-paul-rudd-handles-family-life'
+  - question: 'Why does Paul Rudd play dark characters like The Shrink Next Door?'
+    answer: "He's drawn to quietly broken people, not range-proving villainy: 'I was more interested in why people do the things they do and getting to the root cause of that.' Critics noted his natural likability made the manipulative Dr. Ike more unsettling — the peacemaker's gift for making people comfortable, turned inside out. He rejects the deliberate-pivot framing: 'I never had that thing where, after Anchorman, I was okay, now I want to play a serial killer.'"
+    anchor: 'when-the-peacemaker-goes-dark'
 twitter: ''
 instagram: ''
 tiktok: ''

@@ -30,12 +30,11 @@ occupation:
   - 'Singer'
   - 'Model'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Film production'
-  - 'Writing'
-  - 'Singing'
-  - 'Modeling'
+  - 'Animal rescue and veterinary care'
+  - 'Beauty entrepreneurship (Florence by Mills)'
+  - 'UNICEF child advocacy'
+  - 'Novel writing (Nineteen Steps)'
+  - 'Film production (Enola Holmes)'
 keywords:
   - 'Millie Bobby Brown enneagram'
   - 'Millie Bobby Brown type 2'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q25936414'
   - 'https://www.imdb.com/name/nm5611121/'
 faqs:
-  - question: 'What is Millie Bobby Brown''s personality type?'
-    answer: 'Most people see a young celebrity who grew up too fast — married at twenty, mother at twenty-one, owner of sixty-two rescue animals and a beauty empire. If you understand Type 2, the real driver comes into focus: a child who became her family''s salvation and absorbed the lesson that love must be earned through giving.'
+  - question: "What is Millie Bobby Brown's personality type?"
+    answer: "Millie Bobby Brown is an Enneagram Type 2 (The Helper). The pattern shows in the child who became her broke family's breadwinner at twelve, the twelve-year-old checking whether her adult co-stars had eaten, UNICEF's youngest-ever Goodwill Ambassador at fourteen, a beauty brand built to help girls feel good about their skin at fifteen, sixty-two rescue animals she personally tends with veterinary training, and adopting a child at twenty-one. The thread is one belief: love must be earned through giving."
     anchor: 'what-is-millie-bobby-browns-personality-type'
-  - question: 'Why is Millie Bobby Brown typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Film production.'
-    anchor: 'why-is-millie-bobby-brown-typed-as-an-enneagram-type-2'
+  - question: 'Why was Millie Bobby Brown almost rejected from acting?'
+    answer: "At ten, a casting director told her she was too mature to make it as a child actress — after her parents had sold their Bournemouth house, lived in one room, and neared bankruptcy chasing her career. Her parents allowed one last audition. The Duffer Brothers were looking for exactly the emotional weight that had disqualified her everywhere else, and cast her as Eleven in Stranger Things."
+    anchor: 'shed-belt-out-a-tune'
+  - question: "How did Millie Bobby Brown respond to the 2025 'aging badly' headlines?"
+    answer: "After the Daily Mail asked why Gen Zers like her were 'ageing so badly' and Matt Lucas compared her to his Vicky Pollard character, she was depressed and crying for days. Then she posted an Instagram video calling out the writers by name: 'This isn't journalism. This is bullying.' She refused to apologize for growing up — and framed the fight as being for 'every other girl,' not just herself. Matt Lucas apologized."
+    anchor: 'get-off-my-f---ing-case'
+  - question: 'Why did Millie Bobby Brown change her name?'
+    answer: "After marrying Jake Bongiovi in May 2024, she changed her legal name to Millie Bonnie Bongiovi, dropping both 'Bobby' and 'Brown.' Jake's role in her life explains it: 'When I met Jake I just felt I could be loud,' she said, and his own summary — 'She gives so much to everyone else. I just try to be the person who doesn't want anything from her' — is the inverse of everything the industry taught her."
+    anchor: 'why-do-you-love-me'
+  - question: 'Did Millie Bobby Brown adopt a child?'
+    answer: "Yes — in August 2025, she and Jake Bongiovi announced they had adopted a baby girl, with an Instagram post showing only a willow tree. No face, no name: 'It's not my place to purposefully put her in the spotlight unwillingly,' she said. Noah Schnapp, her friend since the Stranger Things set in 2015, is the godfather."
+    anchor: 'my-home-is-full-of-love-for-anyone-or-anything'
 twitter: ''
 instagram: ''
 tiktok: ''

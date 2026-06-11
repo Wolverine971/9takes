@@ -10,6 +10,14 @@ Use 9takes personality analysis blogs to start conversations with public figures
 
 The goal is not to provoke for its own sake. The goal is to help people understand themselves and others better through public personality analysis, using the Enneagram as the main lens.
 
+Related docs:
+
+- `docs/planning/personality-analysis-outreach-positioning-2026-05-11.md` for pitch framing, target selection logic, and customized email recipes.
+- `outreach-plan.md` for the generated profile priority list.
+- `docs/research/blog-distribution-research.md` for target clusters, contact paths, and communities.
+- `docs/brand/brand-positioning.md` for the 9takes voice and core promise.
+- `9takes-strat.md` for the broader distribution, entity authority, and LLM citation strategy.
+
 The desired outcomes are:
 
 - Direct replies from the person or their network

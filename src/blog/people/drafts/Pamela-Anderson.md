@@ -30,12 +30,12 @@ occupation:
   - 'Model'
   - 'Voice Actor'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Modeling'
-  - 'Voice acting'
-  - 'Film production'
+  - 'Animal rights activism'
+  - 'Vegan advocacy'
+  - 'Memoir and poetry writing'
+  - 'Gardening and preserving'
+  - 'Broadway performance'
+  - 'Dramatic screen acting'
 keywords:
   - 'Pamela Anderson enneagram'
   - 'Pamela Anderson type 7'
@@ -58,12 +58,21 @@ citations:
   - 'https://www.rollingstone.com/feature/pam-and-tommy-the-untold-story-of-the-worlds-most-infamous-sex-tape-194776/'
   - 'https://lareviewofbooks.org/article/mere-mythos-on-pamela-andersons-love-pamela/'
 faqs:
-  - question: 'What is Pamela Anderson''s personality type?'
-    answer: 'Enneagram Type 7s live in the head triad. Their core fear isn''t death or failure. It''s being trapped inside a feeling there is no exit from. They handle that fear by reframing pain into possibility, generating options, staying mobile. A Seven can sit on a beach the day after a divorce and tell you, sincerely, about the next great chapter of her life. She will mean it.'
+  - question: "What is Pamela Anderson's personality type?"
+    answer: "Pamela Anderson is an Enneagram Type 7 (The Enthusiast) with a 6 wing. The pattern shows in marrying Tommy Lee 96 hours after meeting him, five weddings to four men, refusing to watch Hulu's Pam & Tommy and answering it with her own documentary and memoir instead, the 6-wing loyalty of thirty-plus years as a PETA honorary director, and the late-life turn of going home to her grandmother's Vancouver Island land to garden and finally sit still."
     anchor: 'what-is-pamela-andersons-personality-type'
-  - question: 'Why is Pamela Anderson typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
-    anchor: 'why-is-pamela-anderson-typed-as-an-enneagram-type-7'
+  - question: 'Why did Pamela Anderson marry Tommy Lee after four days?'
+    answer: "They met on New Year's Eve 1994, took a trip to Cancún six weeks later, and married on the beach four days into it — she learned his last name on the flight home. 'It really was love at first sight,' she's said, and she still calls Tommy the only time she was ever truly in love. The article reads it as the Seven's logic: falling in love is the most reliable way to escape the room you're in."
+    anchor: 'why-pamela-anderson-married-tommy-lee-in-four-days'
+  - question: 'Why did Pamela Anderson stop wearing makeup?'
+    answer: "Her makeup artist of two decades, Alexis Vogel, died of breast cancer in 2023, and Pamela didn't want anyone else doing her face. Three months later she sat front row at Paris Fashion Week bare-faced, with no announcement and no campaign: 'I don't want to compete with the clothes. I'm not trying to be the prettiest girl in the room. I feel like it's just freedom.'"
+    anchor: 'why-pamela-anderson-stopped-wearing-makeup-in-paris'
+  - question: 'Did Pamela Anderson have hepatitis C?'
+    answer: "Yes. She contracted it around 1995 from a tattoo needle shared with Tommy Lee, who she says knew he had it and didn't tell her. The diagnosis went public in 2002 during the custody fight, doctors told her she had ten years to live, and in November 2015, after a twelve-week course of sofosbuvir, she announced she was cured: 'I feel like I got back twenty years of my life.'"
+    anchor: 'what-pamela-anderson-does-with-pain'
+  - question: "How did Pamela Anderson's acting comeback happen?"
+    answer: "At 54, with no formal training and no prior stage role, she made her Broadway debut as Roxie Hart in Chicago — opening night ended in a standing ovation and ticket sales rose nearly 9%. Then Gia Coppola cast her as a fading Las Vegas showgirl in The Last Showgirl opposite Jamie Lee Curtis, which earned her a Golden Globe nomination at 57. As Coppola put it, she found 'a person that was really hungry to show her talents.'"
+    anchor: 'pamela-andersons-hail-mary-broadway-gardens-and-the-last-showgirl'
 twitter: 'pamfoundation'
 instagram: 'pamelaanderson'
 tiktok: ''

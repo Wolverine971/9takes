@@ -28,12 +28,11 @@ occupation:
   - 'Film Actor'
   - 'Voice Actor'
 knows_about:
-  - 'Acting'
-  - 'Screenwriting'
-  - 'Comedy'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Voice acting'
+  - 'Television comedy writing'
+  - 'Showrunning'
+  - 'South Asian representation on screen'
+  - 'Comedic memoir writing'
+  - 'Sitcom character creation'
 keywords:
   - 'Mindy Kaling enneagram'
   - 'Mindy Kaling type 3'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q539917'
   - 'https://www.imdb.com/name/nm1411676/'
 faqs:
-  - question: 'What is Mindy Kaling''s personality type?'
-    answer: 'Enneagram Threes are called the Achievers, but that label undersells the mechanism. The Type 3 engine doesn''t run on ambition alone. It runs on a deeper fuel: the belief, often formed in childhood, that love is conditional on performance. That you are what you produce. That the moment you stop achieving, you stop mattering.'
+  - question: "What is Mindy Kaling's personality type?"
+    answer: "Mindy Kaling is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in texting production notes while in labor with her third child, writing 24 episodes of The Office as its youngest staffer, working 14-16 hour days through the anguish after her mother's death, calling delusion her 'superpower' at Dartmouth, and the iron grip she keeps on her narrative — including never naming her children's father. The Two wing is the Charmer who achieves through people."
     anchor: 'what-is-mindy-kalings-personality-type'
-  - question: 'Why is Mindy Kaling typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Screenwriting, Comedy.'
-    anchor: 'why-is-mindy-kaling-typed-as-an-enneagram-type-3'
+  - question: 'How did Mindy Kaling get hired on The Office?'
+    answer: "After Dartmouth, she and roommate Brenda Withers wrote Matt & Ben, an off-Broadway comedy in which Kaling played Ben Affleck; it won Best Overall Production at the 2002 New York Fringe Festival. Network executive Susanne Daniels saw it, and the next day Kaling's spec script landed on Greg Daniels' desk as he staffed The Office. At 24, she was the only woman and only person of color in the writers' room."
+    anchor: 'number-eleven-on-the-call-sheet'
+  - question: "What happened the day The Mindy Project was picked up?"
+    answer: "Her mother, Swati, died of pancreatic cancer in January 2012 — the same day Fox ordered The Mindy Project to series. Kaling described the years that followed as 'just anguish for two years' while working 14-16 hour days. It took eight years before she could process the grief creatively, through Never Have I Ever, where a teenager loses a parent suddenly."
+    anchor: 'the-day-the-show-was-picked-up'
+  - question: "What did Mindy Kaling mean by 'my superpower: delusion'?"
+    answer: "In her 2018 Dartmouth commencement speech she named her own mechanism: perform confidence until it becomes real. Her book Why Not Me? spells out the order of operations — 'Work hard, know your shit, show your shit, and then feel entitled.' For a dark-skinned Indian woman in a Hollywood that wanted neither her look nor her weight, the constructed confidence wasn't empowerment-poster material; it was survival."
+    anchor: 'my-superpower-delusion'
+  - question: "Who is the father of Mindy Kaling's children?"
+    answer: "She has never revealed it, and her answer is final: 'until I speak to my daughter about that, I'm not going to talk to anyone else about it.' Her three children's middle names honor her parents — Katherine 'Kit' Swati after her mother, Spencer Avu after her father — and BJ Novak, her former Office co-star and ex, is their godfather."
+    anchor: 'soup-snakes-and-middle-names'
 twitter: '@mindykaling'
 instagram: '@mindykaling'
 tiktok: '@mindykaling'

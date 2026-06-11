@@ -33,11 +33,11 @@ occupation:
   - 'Entertainer'
   - 'Actor'
 knows_about:
-  - 'Acting'
-  - 'Saturday Night Live'
-  - 'Comedy'
-  - 'Entertainer'
-  - 'Actor'
+  - 'Saturday Night Live sketch comedy'
+  - 'Stand-up comedy'
+  - "Only in Dade (TikTok show)"
+  - 'Cuban-Dominican Miami culture'
+  - "American Boy (Netflix special)"
 keywords:
   - 'Marcello Hernández enneagram'
   - 'Marcello Hernández type 7'
@@ -57,12 +57,21 @@ citations:
   - 'https://www.imdb.com/name/nm13575138/'
   - 'https://marcello.live/'
 faqs:
-  - question: 'What is Marcello Hernández''s Personality Type?'
-    answer: 'The Enneagram''s head center — Types 5, 6, and 7 — processes the world through an underlying current of fear. For Type 7s, the core fear is being trapped, deprived, or locked into pain with no escape. Their defense? Become a possibility engine. Transform limitation into launchpad. Reframe suffering as material.'
+  - question: "What is Marcello Hernández's personality type?"
+    answer: "Marcello Hernández is an Enneagram Type 7 (The Enthusiast). The pattern shows in how every wound gets converted into material — his mother's Cuban immigration trauma became his Netflix special ('It's how I give her her flowers'), his zero-laugh SNL audition became the 'Protective Mom' sketch, and a Weekend Update segment on male depression got deflected into a bit about being 'a proud Latina woman.' When COVID sealed every exit, he fell into a depressive episode — the classic Type 7 collapse when the motion stops."
     anchor: 'what-is-marcello-hern-ndezs-personality-type'
-  - question: 'Why is Marcello Hernández typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Saturday Night Live, Comedy.'
-    anchor: 'why-is-marcello-hern-ndez-typed-as-an-enneagram-type-7'
+  - question: 'Why did Marcello Hernández quit soccer?'
+    answer: "He was at John Carroll University on a soccer scholarship and training-pedigreed enough to have played with the U15 Dominican Republic National Team, but a single open-mic night changed everything — he performed two sets that same evening. He quit the team three games into the 2016 season, bawling, and described it like a divorce: 'I had spent 14 years with this woman, and I had to break up with her for a woman I had just met — and it wasn't going well!'"
+    anchor: 'leaving-his-first-wife'
+  - question: "What happened at Marcello Hernández's SNL audition?"
+    answer: "He performed his best stand-up material and got zero laughs. He got the job anyway, becoming the first Gen Z cast member in SNL history, and recycled the failed audition material into 'Protective Mom,' one of his breakout sketches — with Pedro Pascal requesting the role of his mother. Lorne Michaels later said: 'He's not yet who he'll be, but he's well on his way to becoming it.'"
+    anchor: 'the-zero-laugh-audition'
+  - question: 'How did Marcello Hernández get famous on TikTok?'
+    answer: "When COVID closed the clubs, he moved back to Miami, took a job selling home-delivery medicine, and fell into a depressive episode. With nowhere to perform, he created 'Only in Dade,' a weekly TikTok review show about Miami culture where he was host and creative director — the platform collected over 1.4 million Instagram followers and became his substitute stage."
+    anchor: 'the-room-that-went-quiet'
+  - question: "What is Marcello Hernández's Netflix special American Boy about?"
+    answer: "Filmed in front of a hometown Miami crowd, American Boy mines the paradox of being the first American in an immigrant family — contrasting Bob Saget's gentle Full House parenting with his Cuban mother's approach, including a household where she wouldn't let him be depressed or have ADD because she couldn't afford for her son to fall apart. The closing bit drops the comedy voice: he looks into the camera and says, 'We'll be back.'"
+    anchor: 'the-american-boy'
 twitter: 'marcaboricua'
 instagram: 'marcellohdz'
 tiktok: 'marcellohdz'

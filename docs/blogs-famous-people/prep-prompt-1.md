@@ -2,6 +2,13 @@
 
 # Prep Prompt 1: Deep Research for Personality Analysis
 
+> **Source of truth (2026-06-10):** The binding rules live in
+> `.claude/commands/blog_content_creator_people_v2.md`. This document adds research depth
+> only — where it disagrees with the command, **the command wins**. Note the testimony you
+> gather here feeds the command's hard Gate 1 (≥2 named third-party quotes with source +
+> year), and the emotional texture you find (what love, approval, or safety felt like)
+> feeds the emotional thesis in prep-prompt-2 — don't drop it between phases.
+
 ## Objective
 
 Research **{PERSON}** to find the material that makes a great personality analysis possible: the central contradiction, the signature details, the unguarded moments, and the testimony from people who know them. This is not a biography exercise. It is a hunt for psychological insight.

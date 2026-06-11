@@ -491,7 +491,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'ronald-reagan', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'America\'s Smiling Sphinx', contentGrade: 7, types: ['politician', 'modern-leader'] },
 		{ name: 'ryan-gosling', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Hollywood\'s Gentle Vanishing Man', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'scarlett-johansson', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Hollywood\'s Billion-Dollar Introvert', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
-		{ name: 'selena-gomez', link: true, hasImage: true, lastmod: '2025-12-03', personaTitle: 'Pop\'s Steady Presence', contentGrade: null, types: ['lifestyleInfluencer'] },
+		{ name: 'selena-gomez', link: true, hasImage: true, lastmod: '2026-06-11', personaTitle: 'Pop\'s Steady Presence', contentGrade: 8.6, types: ['musician', 'pop-star', 'screen-icon'] },
 		{ name: 'seth-rogen', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Comedy\'s Easygoing Empire Builder', contentGrade: 8.6, types: ['comedian'] },
 		{ name: 'shailene-woodley', link: true, hasImage: true, lastmod: '2026-04-13', personaTitle: 'Hollywood\'s Barefoot Vanishing Act', contentGrade: 8.9, types: ['movieStar', 'activist', 'screen-icon'] },
 		{ name: 'shane-gillis', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Comedy\'s Quiet Holdout', contentGrade: 9, types: ['comedian', 'stand-up'] },

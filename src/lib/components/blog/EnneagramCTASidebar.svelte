@@ -225,7 +225,7 @@
 		transform: translateY(-50%);
 		padding: 1rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--stone-warm) 94%, var(--night-deep));
 		box-shadow: var(--shadow-md);
 		backdrop-filter: blur(12px);
@@ -278,7 +278,7 @@
 	.sidebar-success {
 		padding: 0.7rem 0.75rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--lamp-glow) 8%, transparent);
 		color: var(--ink-bright);
 	}
@@ -299,7 +299,7 @@
 		min-height: 2.55rem;
 		padding: 0.7rem 0.75rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
 		color: var(--ink-bright);
 		font-size: 0.9rem;
@@ -338,7 +338,7 @@
 		min-height: 2.65rem;
 		padding: 0.75rem 0.85rem;
 		border: 1px solid transparent;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
 		font-size: 0.9rem;

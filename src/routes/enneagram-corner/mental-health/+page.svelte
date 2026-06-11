@@ -507,7 +507,7 @@
 		gap: 0.5rem;
 		padding: 0.5rem 1rem;
 		background: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		font-size: 0.8125rem;
 		font-weight: 500;
 		color: var(--ink-mid);
@@ -550,7 +550,7 @@
 		background: linear-gradient(135deg, var(--error) 0%, var(--error-700) 100%);
 		color: var(--text-on-dark);
 		padding: 1rem 1.5rem;
-		border-radius: 12px;
+		border-radius: 1rem;
 		margin-bottom: 2rem;
 		text-align: center;
 
@@ -600,7 +600,7 @@
 		align-items: center;
 		justify-content: center;
 		background: color-mix(in srgb, var(--primary-subtle) 56%, transparent);
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 	}
 
@@ -628,7 +628,7 @@
 	.benefit-card {
 		background: var(--surface-card);
 		border: 1px solid var(--accent-border);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1.25rem;
 		box-shadow: var(--shadow-sm);
 		transition: all 0.2s ease;
@@ -683,7 +683,7 @@
 		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
-		border-radius: 0.75rem;
+		border-radius: 1rem;
 		background: var(--surface-card-strong);
 		transition: all 0.25s ease;
 		border: 1px solid var(--accent-border);
@@ -782,7 +782,7 @@
 	.type-block {
 		background: var(--surface-card);
 		border: 1px solid var(--accent-border);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1.5rem;
 		margin-bottom: 1rem;
 		scroll-margin-top: 80px;
@@ -811,7 +811,7 @@
 		height: 2rem;
 		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-weight: 700;
 		font-size: 1rem;
 		box-shadow: var(--glow-sm);
@@ -1012,7 +1012,7 @@
 
 		.blog-card {
 			aspect-ratio: 1;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 		}
 
 		.card-content {
@@ -1039,7 +1039,7 @@
 
 		.cta-section {
 			padding: 1.5rem 1rem;
-			border-radius: 12px;
+			border-radius: 1rem;
 		}
 
 		.cta-content h2 {

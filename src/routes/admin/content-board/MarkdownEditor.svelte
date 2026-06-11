@@ -113,7 +113,7 @@
 		min-height: 0;
 		align-items: stretch;
 		background: var(--night-deep);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		overflow: hidden;
 		font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
 

@@ -54,24 +54,27 @@ Act like a normal person who is reading this article and tell me what i missed o
 
 Try to assess it with fresh eyes. Think about what this person is know for and what someone who knows about them would want to have insight into and what should be addressed.
 
-Ok so i added some comments at the bottom of the article Jane-Goodall, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
+Ok so i added some comments at the bottom of the article Ella Langley, please assess the comments and see if we should add some more or address some parts based on that feedback. Do more research as needed and make the blog better. Also trim things that are overdone or duplicated so that everything is fresh and well done.
 
 I want you to edit this blog on Noam-Chomsky and use the content-editor agent doc to guide you.
 
 Act like a normal person who is reading these articles and tell me what i missed or what i should expand on or what was overdone or duplicate info that could be trimmed. Review the blogs, read it and put your comments as a comment at the bottom of each article, also tell me how they fit together
 
------------
+path: docs/development/DevDocs.md
+---
+
+---
 
 <!-- Reaching out text -->
 
 ok i am working through a few personaliy analysis blogs and updateing them. What i am trying to do is
-  do into greater detail on people's lore and background so that the blog is and the analysis is deep and
-  rich.
+do into greater detail on people's lore and background so that the blog is and the analysis is deep and
+rich.
 
-  I'm going to be reaching out to these people, so I want to see how they're going to assess the blog and
-  what they would notice. I want to be fair, I want to be honest, I just want to portray them in the
-  right light and respect their lore. And I want to fairly, honestly, and insightfully do my Enneagram
-  analysis on them.
+I'm going to be reaching out to these people, so I want to see how they're going to assess the blog and
+what they would notice. I want to be fair, I want to be honest, I just want to portray them in the
+right light and respect their lore. And I want to fairly, honestly, and insightfully do my Enneagram
+analysis on them.
 
-  Right now I am looking at Tim Ferriss's blog. Please assess the blog and see what needs to be updated
-  and fixed. I want to make it better and more rich.
+Right now I am looking at Tim Ferriss's blog. Please assess the blog and see what needs to be updated
+and fixed. I want to make it better and more rich.

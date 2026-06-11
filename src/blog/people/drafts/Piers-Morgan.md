@@ -26,12 +26,11 @@ occupation:
   - 'Diarist'
   - 'Presenter'
 knows_about:
-  - 'Journalism'
-  - 'Digital media'
-  - 'Journalist'
-  - 'Television Presenter'
-  - 'Diarist'
-  - 'Presenter'
+  - 'Tabloid newspaper editing'
+  - 'Combative television interviewing'
+  - 'Celebrity diaries and memoir writing'
+  - 'YouTube media entrepreneurship'
+  - 'Culture-war commentary'
 keywords:
   - 'Piers Morgan enneagram'
   - 'Piers Morgan type 3'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm0604955/'
   - 'https://www.officialpiersmorgan.com/'
 faqs:
-  - question: 'What is Piers Morgan''s Personality Type?'
-    answer: 'Enneagram Threes experience a core wound around worthlessness. Early in life, they learn that love and attention come through achievement, through becoming whatever earns recognition. The performance begins not as deception, but as survival. Over time, the performance replaces the person. The role becomes the identity. And the hardest question a Three can face is: Who am I when I''m not winning?'
+  - question: "What is Piers Morgan's personality type?"
+    answer: "Piers Morgan is an Enneagram Type 3 (The Achiever), with the warmth of a 3w2. The pattern shows in the fourteen-year-old who sold his first article for 'the excitement of a byline,' the Celebrity Apprentice win he admitted came from behaving exactly how Trump wanted, the five complete reinventions from tabloid editor to CNN host to YouTube mogul, and the 2021 Good Morning Britain walkoff — a Three leaving the room rather than facing a public crack in the image."
     anchor: 'what-is-piers-morgans-personality-type'
-  - question: 'Why is Piers Morgan typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Digital media, Journalist.'
-    anchor: 'why-is-piers-morgan-typed-as-an-enneagram-type-3'
+  - question: 'Why was Piers Morgan fired from the Daily Mirror?'
+    answer: "In May 2004 the Mirror published photographs allegedly showing British soldiers abusing Iraqi prisoners, days after Abu Ghraib broke. Experts immediately flagged the wrong truck, rifle, and hat, the Queen's Lancashire Regiment confirmed the images couldn't be genuine, and the paper ran the headline 'Sorry... we were hoaxed.' Morgan was fired — and he has never admitted the photos were fake, insisting as late as 2016 that publishing them was 'a moral duty.'"
+    anchor: 'it-was-a-moral-duty'
+  - question: 'Why did Piers Morgan walk off Good Morning Britain?'
+    answer: "On March 9, 2021, the morning after Meghan and Harry's Oprah interview, Morgan called Meghan's claims about suicidal thoughts 'pathetic.' When co-host Alex Beresford pointed out that she was entitled to cut him off and had never said anything about him since, Morgan stood up and walked off the set — and quit the show by the end of the day. Ofcom received a record 58,000 complaints. The fixation traced back to 2016: Morgan had drinks with Markle, put her in a cab to the party where she met Prince Harry, and she never spoke to him again — he then mentioned her 834 times on air over the following years."
+    anchor: 'the-woman-who-stopped-calling'
+  - question: 'Did Jeremy Clarkson really punch Piers Morgan?'
+    answer: "Yes — three times, at the 2004 British Press Awards, after Morgan's Daily Mirror published photographs of Clarkson with a woman who wasn't his wife. Clarkson broke his finger; Morgan still carries a scar above his forehead. The feud lasted a decade until 2015, when Morgan reached out during Clarkson's divorce and the two reconciled over drinks."
+    anchor: 'the-fist-and-the-scar'
+  - question: 'What is Piers Morgan doing now?'
+    answer: "He runs Uncensored as an independent YouTube-first media business. He left TalkTV in February 2024, calling television 'an unnecessary straitjacket,' then exited Murdoch's News Corp entirely in January 2025, taking ownership of the brand through his company Wake Up Productions. The channel has 3.6 million subscribers and is already profitable, a weekly highlight show returned to TV via Channel 5 in September 2025, and Morgan envisions a Daily Wire-style empire with other hosts under the Uncensored banner."
+    anchor: 'the-uncensored-empire'
 twitter: '@piersmorgan'
 instagram: '@piersmorgan'
 tiktok: ''

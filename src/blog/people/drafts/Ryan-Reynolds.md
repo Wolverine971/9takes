@@ -30,12 +30,12 @@ occupation:
   - 'Voice Actor'
   - 'Television Actor'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Screenwriting'
-  - 'Film production'
-  - 'Voice acting'
-  - 'Television acting'
+  - 'Brand marketing (Maximum Effort)'
+  - 'Spirits entrepreneurship (Aviation Gin)'
+  - 'Telecom investing (Mint Mobile)'
+  - 'Football club ownership (Wrexham AFC)'
+  - 'Comedy writing and improvisation'
+  - 'Franchise producing (Deadpool)'
 keywords:
   - 'Ryan Reynolds enneagram'
   - 'Ryan Reynolds type 7'
@@ -53,15 +53,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q192682'
   - 'https://www.imdb.com/name/nm0005351/'
 faqs:
-  - question: 'What is Ryan Reynolds'' Personality Type?'
-    answer: 'Enneagram Sevens are the head triad''s escape artists. Their core fear isn''t failure or rejection — it''s being trapped in pain with no exit. When that fear activates, the Seven doesn''t freeze or fight. They reframe. They redirect. They find the joke, the opportunity, the next adventure, the way out. It''s not denial. It''s something more sophisticated: a mental reflexiveness that transforms suffering into fuel before the suffering can fully land.'
+  - question: "What is Ryan Reynolds' personality type?"
+    answer: "Ryan Reynolds is an Enneagram Type 7 (The Enthusiast) with a 6 wing. The pattern shows in the humor he built as a kid to defuse a father he called 'a full-time landmine,' the Deadpool persona he used to conduct interviews because his real self was too anxious, the eleven-year fight to get Deadpool made and the Green Lantern flop he converted into the franchise's best running joke, and a perpetual-motion empire spanning Aviation Gin, Mint Mobile, Maximum Effort, and Wrexham AFC."
     anchor: 'what-is-ryan-reynolds-personality-type'
-  - question: 'What is Ryan Reynolds''s personality type?'
-    answer: 'Ryan Reynolds is analyzed as an Enneagram Type 7 (Enthusiast). The profile connects that type pattern to Ryan Reynolds uses humor to outrun anxiety he''s carried since childhood. Inside the Type 7 psychology behind the jokes, the empire, and the father wound.'
-    anchor: 'what-is-ryan-reynoldss-personality-type'
-  - question: 'Why is Ryan Reynolds typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Screenwriting.'
-    anchor: 'why-is-ryan-reynolds-typed-as-an-enneagram-type-7'
+  - question: 'Does Ryan Reynolds have anxiety?'
+    answer: "Yes — 'I've always had anxiety,' he told the New York Times in 2018, 'and I've been to the depths of the darker end of the spectrum.' He experiences nausea before every talk show, lies awake 'wrapping and unwrapping every possible scenario,' and during the Deadpool 2 press tour conducted most interviews in character because the real Ryan Reynolds was too anxious to do them."
+    anchor: 'i-feel-like-i-have-two-parts-of-my-personality'
+  - question: 'How long did it take Ryan Reynolds to get Deadpool made?'
+    answer: "Eleven years from David Goyer handing him the comic on the Blade: Trinity set in 2004 — 'I kept rolling this rock up the hill every single day and it just didn't work.' When Fox finally greenlit it with a fraction of a normal superhero budget, Reynolds gave up part of his salary to pay co-writers Rhett Reese and Paul Wernick to be on set. He then turned his Green Lantern humiliation into Deadpool's best recurring gag."
+    anchor: 'i-spent-10-years-rolling-this-rock-up-a-hill'
+  - question: 'Why did Ryan Reynolds buy Wrexham AFC?'
+    answer: "In November 2020 he and Rob McElhenney pitched the fan-owned Wrexham Supporters Trust on buying the fifth-tier Welsh club for roughly $2.5 million; the Trust voted 98.6% in favor. Unlike Aviation Gin or Mint Mobile, it doesn't follow his buy-low-sell-high logic — he pockets a piece of the Racecourse Ground grass every visit and calls it 'in certain senses a holy ground.' The article frames it as the Seven finding a place he doesn't want an exit from."
+    anchor: 'i-wish-the-whole-world-could-visit-wrexham'
+  - question: "What happened between Ryan Reynolds and his father?"
+    answer: "James Chester Reynolds — 'a former cop, former boxer, and full-time landmine' — died in 2015 after twenty years with Parkinson's, a word he said maybe three times in his life. Ryan let the disease create distance and has said, 'I could have maybe been there with him toward the end, and I wasn't.' He credits Blake Lively with making him remember the good times before his father died, and describes parenting his four kids as the repair: 'I just weirdly didn't mean to, but I fixed something with my own dad.'"
+    anchor: 'i-just-fixed-something-with-my-own-dad'
 twitter: 'VancityReynolds'
 instagram: 'vancityreynolds'
 tiktok: ''

@@ -67,7 +67,7 @@
 	.question-social-card {
 		position: relative;
 		overflow: hidden;
-		border-radius: 24px;
+		border-radius: 1rem;
 		background: #10111f;
 		font-family: 'Noticia Text', 'Georgia', 'Times New Roman', serif;
 	}

@@ -28,12 +28,11 @@ occupation:
   - 'Media Personality'
   - 'Actor'
 knows_about:
-  - 'Modeling'
-  - 'Entrepreneurship'
-  - 'Business'
-  - 'Acting'
-  - 'Television acting'
-  - 'The Kardashians'
+  - 'Wellness curation'
+  - 'Supplement brand building'
+  - 'Reality television'
+  - 'Blended family parenting'
+  - 'Clean living and sobriety'
 keywords:
   - 'Kourtney Kardashian enneagram'
   - 'Kourtney Kardashian type 1'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm1966407/'
   - 'https://www.kourtneykardashian.com/'
 faqs:
-  - question: 'What Is Kourtney Kardashian''s Personality Type?'
-    answer: 'The evidence isn''t in the wellness brand or the organized pantry. Those are symptoms. The evidence is in the pattern that connects every major decision she''s ever made:'
+  - question: "What is Kourtney Kardashian's personality type?"
+    answer: "Kourtney Kardashian is an Enneagram Type 1 (The Reformer). The pattern shows in her tracing the family's toxic relationship cycle back three generations and naming it on camera, choosing three years of sobriety out of conviction rather than addiction, the obsessive personal vetting behind Poosh and Lemme, leaving the show because it 'became a toxic environment,' and seventeen years of repeating the same sentence to her family: 'I have boundaries and I'm going to stick to them.'"
     anchor: 'what-is-kourtney-kardashians-personality-type'
-  - question: 'Why is Kourtney Kardashian typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Modeling, Entrepreneurship, Business.'
-    anchor: 'why-is-kourtney-kardashian-typed-as-an-enneagram-type-1'
+  - question: 'Why did Kourtney Kardashian want to quit Keeping Up With the Kardashians?'
+    answer: "She was the first sister to threaten to quit, refuse to film during family time, and say on camera 'I need a break, and I don't want to film anymore' — because, in her words, the show 'became a toxic environment for me to continue to have it occupy as much of my life as it was.' The deeper war was with Kim, who called her 'the least exciting to look at,' while the family kept a group chat literally named 'Not Kourtney.'"
+    anchor: 'sometimes-i-just-wish-nobody-knew-who-i-was'
+  - question: "What happened with Kourtney Kardashian's IVF?"
+    answer: "She went through five failed IVF cycles and three egg retrievals trying to have a child with Travis Barker; the hormones put her into early menopause, triggered depression, and dismantled the bodily control her whole identity was built on. Rocky Thirteen Barker was conceived naturally and born November 1, 2023 — after she had given up on the clinical route entirely."
+    anchor: 'five-failed-ivf-cycles-and-the-body-she-couldnt-control'
+  - question: "Why didn't Kourtney Kardashian marry Scott Disick?"
+    answer: "After her father died when she was twenty-four, she remembered thinking 'I never want to get married because my dad isn't there to walk me down the aisle.' Through nearly a decade and three children with Scott — through the cheating, drinking, and rehab cycles — she couldn't commit to something she knew was wrong. With Travis Barker, sober over seventeen years, she said she finally felt her father's presence: 'Travis reminds me so much of my dad in the weirdest ways.'"
+    anchor: 'the-ten-year-trial-of-scott-disick'
+  - question: 'What does Kourtney Kardashian mean by breaking generational patterns?'
+    answer: "On camera she traced the family's habit of 'picking people we thought we could change' back to her grandmother Mary Jo Shannon, called her mother 'a massive control freak,' and then admitted the same controlling perfectionism lives in her too. Her conclusion — 'There are patterns to break if you don't want to pass them down to your kids' — was shut down by the family; she kept going to therapy anyway."
+    anchor: 'the-pattern-breaker'
 twitter: 'kourtneykardash'
 instagram: 'kourtneykardash'
 tiktok: '@kourtneykardashian'

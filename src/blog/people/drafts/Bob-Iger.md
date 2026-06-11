@@ -27,10 +27,12 @@ occupation:
   - 'Film Producer'
   - 'Television Producer'
 knows_about:
-  - 'Business'
-  - 'Entrepreneurship'
-  - 'Film production'
-  - 'Television production'
+  - 'Media mergers and acquisitions'
+  - 'The Walt Disney Company'
+  - 'Streaming strategy'
+  - 'Theme park development'
+  - 'CEO succession'
+  - 'Entertainment franchise management'
 keywords:
   - 'Bob Iger enneagram'
   - 'Bob Iger type 3'
@@ -51,12 +53,21 @@ citations:
   - 'https://www.rev.com/transcripts/dealbook-summit-2023-bob-iger-interview-transcript'
   - 'https://www.randomhousebooks.com/books/556683/'
 faqs:
-  - question: 'What is Bob Iger''s personality type?'
-    answer: 'Bob Iger is a Type 3, the Achiever, specifically a 3w2 with a social-dominant instinct. The type whose self-worth fuses with what they accomplish. The type that learned early that performance equals love and average equals invisible.'
+  - question: "What is Bob Iger's personality type?"
+    answer: "Bob Iger is an Enneagram Type 3 (The Achiever), specifically a social 3w2. The pattern shows in the childhood vow not to become his father Arthur — a bipolar ad man who saw his own life as a failure — the decade he spent outlasting Eisner's 'lacked stature' read without ever arguing it, the calibrated 'I've got a crazy idea' opener he used on Steve Jobs, the 4:30 a.m. VersaClimber ritual he does for 'health, vanity, and sanity,' and the retirement he could not stay inside."
     anchor: 'what-is-bob-igers-personality-type'
-  - question: 'Why is Bob Iger typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Entrepreneurship, Film production.'
-    anchor: 'why-is-bob-iger-typed-as-an-enneagram-type-3'
+  - question: 'Why did Bob Iger come back to Disney in 2022?'
+    answer: "Officially: successor Bob Chapek had alienated employees, posted $1.5 billion in streaming losses, and spooked Wall Street, so the board called. His wife Willow Bay told him 'you kind of owe it to the company.' The deeper read: a Type 3 whose identity is fused with the role cannot answer 'if I am not CEO, what am I?' At DealBook he came close to confessing it — 'I was disappointed in what I was seeing... while I was out.' Ten weeks after returning, he cut 7,000 jobs."
+    anchor: 'why-bob-iger-couldnt-stay-retired'
+  - question: 'How did Bob Iger convince Steve Jobs to sell Pixar?'
+    answer: "He opened the 2005 call with five engineered words — 'I've got a crazy idea' — knowing Jobs distrusted pitch-men. At Apple HQ, Jobs whiteboarded columns of cons; Iger offered one pro: 'Disney will be saved by Pixar and we'll all live happily ever after.' Jobs replied, 'A few solid pros are more powerful than dozens of cons.' Thirty minutes before announcing the $7.4 billion deal, Jobs privately told Iger his cancer had returned and offered to let him back out. Iger kept the secret and signed."
+    anchor: 'how-bob-iger-acquired-a-decade'
+  - question: "What is Bob Iger's morning routine?"
+    answer: "Up at 4:30 a.m., into a darkened room, onto a VersaClimber for forty-five minutes — television on, sound muted, no phone, a 'firewall with technology' he has kept for decades, on vacation and in hotel rooms from Shanghai to London. His own explanation: 'I exercise really for three reasons. One is health. The second is vanity. And the third is sanity.' The third word is the tell — sanity is what his father was never granted."
+    anchor: 'the-versaclimber-at-430'
+  - question: "What went wrong in Bob Iger's second act at Disney?"
+    answer: "The man famous for reading rooms misread several in a row: the DeSantis lawsuit was dismissed and settled, his Sun Valley comment that striking writers' demands were 'just not realistic' drew Fran Drescher's 'positively tone deaf' broadside, and he conceded on CNBC that 'quantity, in our case, diluted quality. Marvel has suffered greatly from that.' He survived Nelson Peltz's proxy fight 94 to 31 and handed the company to Josh D'Amaro in March 2026."
+    anchor: 'the-room-bob-iger-stopped-reading'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

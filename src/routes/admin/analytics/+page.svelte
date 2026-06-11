@@ -4382,7 +4382,7 @@
 	.list-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 14px;
 	}
 
@@ -4411,7 +4411,7 @@
 	.field select {
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 8px 10px;
 		color: var(--ink-bright);
 	}
@@ -4498,7 +4498,7 @@
 
 	.trending-controls select {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		padding: 8px;
@@ -4562,7 +4562,7 @@
 		gap: 5px 10px;
 		width: 100%;
 		border: 1px solid var(--stone-warm);
-		border-radius: 9px;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--night-deep) 88%, var(--stone-warm));
 		color: inherit;
 		text-align: left;
@@ -4661,7 +4661,7 @@
 		border: 1px solid var(--stone-warm);
 		color: var(--ink-bright);
 		padding: 9px 10px;
-		border-radius: 9px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		text-align: left;
 	}
@@ -4754,7 +4754,7 @@
 		text-align: left;
 		cursor: pointer;
 		background: var(--night-deep);
-		border-radius: 9px;
+		border-radius: 0.625rem;
 		padding: 9px;
 		display: flex;
 		flex-direction: column;
@@ -4844,7 +4844,7 @@
 	.timing-stat {
 		border: 1px solid var(--stone-warm);
 		background: var(--night-deep);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 10px;
 		display: flex;
 		flex-direction: column;
@@ -4887,7 +4887,7 @@
 	.timing-outliers {
 		border: 1px solid var(--stone-warm);
 		background: color-mix(in srgb, var(--night-deep) 88%, transparent);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 12px;
 		min-width: 0;
 	}
@@ -4915,7 +4915,7 @@
 	.timing-rollup-grid div {
 		border: 1px solid var(--stone-edge);
 		background: color-mix(in srgb, var(--ink-dim) 8%, transparent);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 9px;
 		display: grid;
 		gap: 3px;
@@ -4997,7 +4997,7 @@
 	.timing-outlier-item {
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 52%, var(--stone-edge));
 		background: color-mix(in srgb, var(--lamp-glow) 10%, transparent);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 8px;
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) auto;
@@ -5032,7 +5032,7 @@
 	.heatmap-wrapper {
 		overflow-x: auto;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.heatmap-table {
@@ -5076,7 +5076,7 @@
 	.timing-top-item {
 		border: 1px solid var(--stone-warm);
 		background: var(--night-deep);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 9px;
 		display: grid;
 		gap: 2px;
@@ -5108,7 +5108,7 @@
 
 	.release-range-panel {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		padding: 10px;
 		display: grid;
@@ -5136,7 +5136,7 @@
 		border: 1px solid var(--stone-warm);
 		background: var(--stone-warm);
 		color: var(--ink-bright);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 8px 10px;
 		cursor: pointer;
 		font-weight: 600;
@@ -5178,7 +5178,7 @@
 		border: 1px solid var(--stone-warm);
 		background: var(--night-deep);
 		color: var(--ink-bright);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 8px 9px;
 		display: flex;
 		align-items: center;
@@ -5222,7 +5222,7 @@
 
 	.release-sort-controls {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		padding: 8px;
 		display: flex;
@@ -5243,7 +5243,7 @@
 
 	.release-sort-controls select {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		padding: 8px;
@@ -5258,7 +5258,7 @@
 
 	.release-signal-panel {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		padding: 9px;
 		display: grid;
@@ -5520,7 +5520,7 @@
 
 	.release-detail-grid div {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 8px;
 		display: grid;
 		gap: 4px;
@@ -5529,7 +5529,7 @@
 	.release-demand-notes {
 		margin-top: 10px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 10px;
 		display: grid;
 		gap: 8px;
@@ -5606,7 +5606,7 @@
 		width: 100%;
 		min-width: 0;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		padding: 8px;
@@ -5620,7 +5620,7 @@
 
 	.release-event-item {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 9px;
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) auto;
@@ -5666,7 +5666,7 @@
 	.blog-insight-summary-grid div,
 	.blog-diagnostic-grid section {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		padding: 10px;
 		min-width: 0;
@@ -5710,7 +5710,7 @@
 
 	.blog-insight-list {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		max-height: 760px;
 		overflow: auto;
@@ -5721,7 +5721,7 @@
 
 	.blog-insight-list button {
 		border: 1px solid transparent;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: transparent;
 		color: var(--ink-bright);
 		text-align: left;
@@ -5788,7 +5788,7 @@
 
 	.blog-insight-metrics div {
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 9px;
 		min-width: 0;
 	}
@@ -5943,7 +5943,7 @@
 	.table-wrapper {
 		overflow-x: auto;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.data-table {
@@ -6349,7 +6349,7 @@
 
 		.data-table tr {
 			border: 1px solid var(--stone-warm);
-			border-radius: 12px;
+			border-radius: 0.625rem;
 			background: color-mix(in srgb, var(--stone-warm) 94%, var(--night-deep));
 			padding: 0.95rem;
 		}

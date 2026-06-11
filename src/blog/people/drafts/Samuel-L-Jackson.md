@@ -30,12 +30,12 @@ occupation:
   - 'Character Actor'
   - 'Television Actor'
 knows_about:
-  - 'Film acting'
-  - 'Acting'
-  - 'Film production'
-  - 'Voice acting'
-  - 'Television acting'
-  - 'Television production'
+  - 'Franchise film acting'
+  - 'Marvel Nick Fury role'
+  - 'Stage theater (August Wilson plays)'
+  - 'Civil rights activism'
+  - 'Addiction recovery'
+  - 'Golf'
 keywords:
   - 'Samuel L. Jackson enneagram'
   - 'Samuel L. Jackson type 8'
@@ -55,12 +55,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000168/'
   - 'https://www.samuelljackson.com/'
 faqs:
-  - question: 'What is Samuel L. Jackson''s personality type?'
-    answer: 'Enneagram Eights are driven by a core need to maintain control over their environment and avoid being vulnerable or at the mercy of others. This isn''t about dominance for its own sake. It''s a survival strategy — one forged when someone learns early that the world doesn''t protect the powerless. It eats them.'
+  - question: "What is Samuel L. Jackson's personality type?"
+    answer: "Samuel L. Jackson is an Enneagram Type 8 (The Challenger). The pattern shows in the golf clause he negotiates into every film contract, the 29-hour Morehouse standoff where he chained trustees inside a building to demand a Black studies program, the stutter he converted into cinema's most recognizable delivery, and the daily morning prayer of a man who controls every domain of his life except the one he surrenders on his knees."
     anchor: 'what-is-samuel-l-jacksons-personality-type'
-  - question: 'Why is Samuel L. Jackson typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Acting, Film production.'
-    anchor: 'why-is-samuel-l-jackson-typed-as-an-enneagram-type-8'
+  - question: 'How did Samuel L. Jackson overcome his drug addiction?'
+    answer: "Jackson was an addict through most of the 1980s — LSD, heroin, cocaine, then crack — while staying constantly employed and smoking crack behind the Broadway theater where he was understudying The Piano Lesson. In 1991 his wife LaTanya and eight-year-old daughter Zoe found him passed out on the kitchen floor, and LaTanya's ultimatum — rehab or she was gone — put him in the Hazelden Foundation within twenty-four hours. Two weeks out of rehab, Spike Lee cast him as crack addict Gator in Jungle Fever, a performance so searing Cannes revived a discontinued award to recognize it."
+    anchor: 'two-weeks-out-of-rehab'
+  - question: 'Why was Samuel L. Jackson expelled from Morehouse College?'
+    answer: "In 1969 Jackson and other students chained the doors of Harkness Hall, locking the board of trustees inside for 29 hours to demand a Black studies program — letting Martin Luther King Sr. out by ladder when he complained of chest pains. Jackson was expelled for two years, but the protest worked: Morehouse established an African American Studies program. He then joined the Black Power movement until the FBI warned his mother he would die within a year if she didn't get him out of Atlanta."
+    anchor: 'the-morehouse-radical-and-the-lost-decade'
+  - question: 'How did Samuel L. Jackson overcome his stutter?'
+    answer: "Jackson developed a severe stutter as a boy in segregated Chattanooga and stopped speaking for almost a year. His aunt, a performing-arts teacher, put him in school plays, where the stutter disappeared: 'I learned to pretend to be other people who didn't stutter.' It never fully left — he still has days when it returns without warning, and he finds another word, or he doesn't, and he keeps going."
+    anchor: 'the-boy-who-went-silent'
+  - question: 'How long has Samuel L. Jackson been married?'
+    answer: "Jackson married LaTanya Richardson on August 8, 1980 — they met during the 1969 Morehouse standoff, when she climbed in through a second-floor window to join the protest. They framed staying together as a political act: 'the most revolutionary thing that Black people could do was stay together.' The marriage survived his addiction because her ultimatum to leave wasn't a bluff, and he knew it."
+    anchor: 'the-revolutionary-act-of-staying'
 twitter: 'SamuelLJackson'
 instagram: 'samuelljackson'
 tiktok: ''

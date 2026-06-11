@@ -640,7 +640,7 @@
 		border-left: 3px solid var(--shadow-flame, var(--lamp-glow));
 		background: var(--stone-warm);
 		color: var(--ink-bright);
-		border-radius: 0 8px 8px 0;
+		border-radius: 0 0.625rem 0.625rem 0;
 		line-height: 1.55;
 		font-size: 0.98rem;
 	}
@@ -689,7 +689,7 @@
 		display: inline-block;
 		padding: 0.55rem 0.95rem;
 		border: 1px solid color-mix(in srgb, var(--data-teal) 35%, transparent);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-family: var(--font-mono);
 		font-size: 0.9rem;
 		color: var(--shadow-flame, var(--lamp-glow));

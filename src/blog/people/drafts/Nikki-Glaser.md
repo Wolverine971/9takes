@@ -26,12 +26,12 @@ occupation:
   - 'Podcaster'
   - 'Film Actor'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Podcasting'
-  - 'Film acting'
-  - 'Observational Comedy'
-  - 'Ribaldry'
+  - 'Roast comedy'
+  - 'Confessional stand-up'
+  - 'Award show hosting'
+  - 'Sex and dating comedy'
+  - 'Radio and podcast hosting'
+  - 'Eating disorder recovery advocacy'
 keywords:
   - 'Nikki Glaser enneagram'
   - 'Nikki Glaser type 3'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.imdb.com/name/nm3218751/'
   - 'https://nikkiglaser.com/'
 faqs:
-  - question: 'What is Nikki Glaser''s personality type?'
-    answer: 'Most people see the funniest woman in America: raw, unfiltered, fearless. The comedian who says what everyone else is thinking. The one who will tell you about her eating disorder, her sex life, her intrusive thoughts about death, and then make you laugh about it.'
+  - question: "What is Nikki Glaser's personality type?"
+    answer: "Nikki Glaser is an Enneagram Type 3 (The Achiever) with a strong 2 wing. The pattern shows in an anorexia triggered by classmates' compliments at 17, a roast process that A/B tests every joke in front of live audiences for months, her own admission that 'the obsession with work is just not wanting to feel,' and a career that colonized every format where winning is measurable — stand-up, hosting, podcasting, reality TV, and becoming the first woman to solo host the Golden Globes."
     anchor: 'what-is-nikki-glasers-personality-type'
-  - question: 'Why is Nikki Glaser typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Podcasting.'
-    anchor: 'why-is-nikki-glaser-typed-as-an-enneagram-type-3'
+  - question: "How did a compliment trigger Nikki Glaser's eating disorder?"
+    answer: "Senior year of high school in 2002, Glaser was too nervous to eat before a date, and classmates told her she looked great. She said it 'felt like getting an A on a test I didn't study for,' and not eating became a project with measurable feedback. She lost nearly 60 pounds in four months, was hospitalized before college, and the anorexia morphed into bulimia she hid for the next 18 years."
+    anchor: 'how-a-compliment-almost-killed-nikki-glaser'
+  - question: 'How did Nikki Glaser prepare for the Tom Brady roast?'
+    answer: "She started months in advance with writers Sean O'Conner and Jessica Dweck plus her partner Chris Convy, then tested every line in front of live audiences night after night, tracking what hit. Netflix roast producer Don Praw called her 'one of, if not the, best roaster I've ever seen.' Afterward she has to do 'a cleanse' because preparing means constantly hunting for the thing that will haunt someone the rest of their life."
+    anchor: 'the-best-roaster-on-the-planet-cries-before-every-show'
+  - question: 'Why did Nikki Glaser move back to St. Louis?'
+    answer: "When COVID hit in 2020 she moved into her parents' house in Des Peres, partly because she was afraid of being alone and bingeing, and enrolled in a 12-step eating disorder program the same month. After 10 months of life without constant hustling, she chose to stay, getting an apartment in the Central West End instead of returning to New York. Being a Three, she also turned the homecoming into an E! show, Welcome Home Nikki Glaser?"
+    anchor: 'why-nikki-glaser-went-home'
+  - question: "Who is Nikki Glaser's boyfriend?"
+    answer: "Chris Convy, a producer she met in 2013 on her MTV show Nikki & Sara Live. They've broken up and gotten back together about five times in 10 years, with breaks ranging from two days to three years, and he now produces and co-writes her specials. The article frames him as the answer to the question Threes fear most: whether someone would love her if she weren't impressive."
+    anchor: 'nikki-glaser-and-chris-convy'
 twitter: 'https://twitter.com/NikkiGlaser'
 instagram: 'https://instagram.com/nikkiglaser'
 tiktok: 'https://tiktok.com/@nikkiglaser'

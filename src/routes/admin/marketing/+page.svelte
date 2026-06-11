@@ -487,7 +487,7 @@
 		padding: 14px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		transition: all 0.15s ease;
 		font-family: inherit;
 		text-align: left;
@@ -584,7 +584,7 @@
 		margin-bottom: 20px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 
@@ -630,7 +630,7 @@
 		grid-template-columns: 100px 1fr auto;
 		gap: 12px;
 		padding: 10px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		transition: background 0.15s ease;
 		&:hover {
 			background: var(--night-deep);
@@ -669,7 +669,7 @@
 		font-size: 0.6rem;
 		font-weight: 600;
 		text-transform: uppercase;
-		border-radius: 12px;
+		border-radius: 9999px;
 		letter-spacing: 0.04em;
 
 		&.twitter {
@@ -705,7 +705,7 @@
 
 	.status-badge {
 		padding: 2px 10px;
-		border-radius: 12px;
+		border-radius: 9999px;
 		font-size: 0.7rem;
 		font-weight: 600;
 		text-transform: capitalize;
@@ -732,7 +732,7 @@
 		color: var(--lamp-glow);
 		background: transparent;
 		border: 1px dashed var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.15s ease;
 		margin-top: 6px;
@@ -746,7 +746,7 @@
 	.main-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 16px;
 		min-height: 500px;
 		overflow-x: auto;
@@ -811,14 +811,14 @@
 		&:focus-visible {
 			outline: 2px solid var(--lamp-glow);
 			outline-offset: -2px;
-			border-radius: 6px 6px 0 0;
+			border-radius: 0.625rem 0.625rem 0 0;
 		}
 
 		&.active {
 			color: var(--lamp-glow);
 			border-bottom-color: var(--lamp-glow);
 			background: rgba(139, 92, 246, 0.05);
-			border-radius: 6px 6px 0 0;
+			border-radius: 0.625rem 0.625rem 0 0;
 		}
 	}
 
@@ -837,7 +837,7 @@
 
 	.tab-badge {
 		padding: 1px 7px;
-		border-radius: 12px;
+		border-radius: 9999px;
 		font-size: 0.65rem;
 		font-weight: 600;
 		&.info {

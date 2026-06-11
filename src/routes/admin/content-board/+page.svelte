@@ -974,7 +974,7 @@
 		background: var(--stone-warm);
 		color: var(--ink-mid);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 		min-width: 0;
@@ -1008,7 +1008,7 @@
 		font-weight: 600;
 		background: var(--stone-warm);
 		color: var(--ink-mid);
-		border-radius: 12px;
+		border-radius: 9999px;
 
 		@media (max-width: 768px) {
 			padding: 2px 6px;
@@ -1025,13 +1025,13 @@
 	.controls-panel {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 16px;
 		margin-bottom: 16px;
 
 		@media (max-width: 768px) {
 			padding: 12px;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -1188,7 +1188,7 @@
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.sort-btn-mobile {
@@ -1201,7 +1201,7 @@
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 	}
 
@@ -1215,7 +1215,7 @@
 		color: var(--lamp-glow);
 		background: var(--primary-subtle);
 		border: 1px solid var(--lamp-glow);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 
 		@media (max-width: 768px) {
@@ -1247,7 +1247,7 @@
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		transition: all 0.2s ease;
 	}
 
@@ -1274,7 +1274,7 @@
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 	}
@@ -1291,7 +1291,7 @@
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 	}
@@ -1304,7 +1304,7 @@
 	.view-toggle {
 		display: flex;
 		overflow: hidden;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 
 		@media (max-width: 768px) {
@@ -1404,13 +1404,13 @@
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 
 		@media (max-width: 768px) {
 			padding: 12px;
 			font-size: 14px;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -1431,7 +1431,7 @@
 			padding: 12px;
 			background: var(--stone-warm);
 			border: 1px solid var(--stone-warm);
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			font-size: 14px;
 			gap: 10px;
 		}
@@ -1504,7 +1504,7 @@
 		@media (max-width: 768px) {
 			min-height: 300px;
 			max-height: calc(100vh - 240px);
-			border-radius: 12px;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -1613,7 +1613,7 @@
 
 	.kanban-cards::-webkit-scrollbar-thumb {
 		background-color: var(--lamp-glow);
-		border-radius: 3px;
+		border-radius: 0.25rem;
 	}
 
 	.empty-column {
@@ -1622,7 +1622,7 @@
 		justify-content: center;
 		padding: 16px;
 		border: 1px dashed var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--stone-warm);
 	}
 
@@ -1636,11 +1636,11 @@
 	.table-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 
 		@media (max-width: 768px) {
-			border-radius: 8px;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -1774,7 +1774,7 @@
 		font-weight: 500;
 		background: var(--stone-warm);
 		color: var(--ink-mid);
-		border-radius: 12px;
+		border-radius: 9999px;
 	}
 
 	.status-badge {
@@ -1784,7 +1784,7 @@
 		font-weight: 500;
 		background: var(--warning-light);
 		color: var(--warning);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.status-badge.published {
@@ -1817,7 +1817,7 @@
 			font-size: 13px;
 			background: var(--primary-subtle);
 			border: 1px solid var(--lamp-glow);
-			border-radius: 6px;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -1849,7 +1849,7 @@
 			font-size: 13px;
 			background: var(--stone-warm);
 			border: 1px solid var(--stone-warm);
-			border-radius: 6px;
+			border-radius: 0.625rem;
 		}
 	}
 

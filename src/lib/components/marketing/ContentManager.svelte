@@ -417,7 +417,7 @@
 		padding: 0.5rem 0.75rem 0.5rem 2.25rem;
 		font-size: 0.8125rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
@@ -432,7 +432,7 @@
 		padding: 0.5rem 2rem 0.5rem 0.75rem;
 		font-size: 0.8125rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		cursor: pointer;
@@ -457,7 +457,7 @@
 		color: var(--ink-mid);
 		background: transparent;
 		border: 1px dashed var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.15s ease;
 	}
@@ -471,7 +471,7 @@
 	.create-form-wrapper {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		margin-bottom: 1.25rem;
 		overflow: hidden;
 	}
@@ -516,7 +516,7 @@
 		flex-direction: column;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 		cursor: pointer;
 		transition: all 0.15s ease;
@@ -628,7 +628,7 @@
 		padding: 0.25rem 0.5rem;
 		font-size: 0.6875rem;
 		font-weight: 500;
-		border-radius: 0.375rem;
+		border-radius: 0.625rem;
 		border: 1px solid;
 	}
 

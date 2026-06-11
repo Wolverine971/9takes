@@ -28,12 +28,11 @@ occupation:
   - 'Musician'
   - 'Composer'
 knows_about:
-  - 'Songwriting'
-  - 'Singing'
-  - 'Music'
-  - 'Country Music'
-  - 'Electronic Dance Music'
-  - 'Pop Rock'
+  - 'Country songwriting'
+  - 'Record co-production'
+  - 'Album-era visual design'
+  - 'Yodeling'
+  - 'Country-pop crossover'
 keywords:
   - 'Kacey Musgraves enneagram'
   - 'Kacey Musgraves type 4'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm2527068/'
   - 'https://www.kaceymusgraves.com'
 faqs:
-  - question: 'What Is Kacey Musgraves''s Personality Type?'
-    answer: 'The 4 explains the songs. The 3-wing explains why you''ve heard them.'
+  - question: "What is Kacey Musgraves's personality type?"
+    answer: "Kacey Musgraves is an Enneagram Type 4 (The Individualist) with a 3 wing. The 4 shows in a song catalog built around what's missing — 'Merry Go 'Round,' 'Slow Burn,' 'Rainbow' — and the 3-wing shows in the execution: two Best Country Album Grammys, an Album of the Year, co-producing her own records, and designing every album cycle as a complete aesthetic era. She converts not-belonging into immaculate product."
     anchor: 'what-is-kacey-musgravess-personality-type'
-  - question: 'Why is Kacey Musgraves typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Songwriting, Singing, Music.'
-    anchor: 'why-is-kacey-musgraves-typed-as-an-enneagram-type-4'
+  - question: 'Is Kacey Musgraves a 3w4 or a 4w3?'
+    answer: "She has publicly self-typed as a 3w4, but the case for the flip is in the catalog: her songs are about what's absent, not what's achieved. As the analysis puts it, a 3 with a 4 wing writes Beyoncé; a 4 with a 3 wing writes Kacey. Either way the engine is the same — converting a feeling of slight not-belonging into disciplined, award-winning work."
+    anchor: 'kacey-musgraves-is-an-enneagram-type-4w3'
+  - question: "Was 'Follow Your Arrow' banned from country radio?"
+    answer: "Effectively, yes. In 2013 programmers balked at the 'kiss lots of girls' and 'roll up a joint' lyrics — the song hit #10 on Billboard's Hot Country Songs chart on consumer purchases but never cracked the top forty on Country Airplay, and Kacey later said flatly it had been 'banned by country radio.' The next fall, the CMA named it Song of the Year anyway."
+    anchor: 'follow-your-arrow-and-the-door-that-closed'
+  - question: 'What happened between Kacey Musgraves and Miranda Lambert?'
+    answer: "By Kacey's telling, Lambert recorded 'Mama's Broken Heart' — a song Kacey co-wrote — without asking. It hit #2 and became a Lambert signature, and the two East Texas singers, both taught guitar by the same teacher, John DeFoore, didn't speak for thirteen years. In May 2026 they released the duet 'Horses and Divorces' and sang it live for the first time at Kacey's Gruene Hall residency."
+    anchor: 'the-pivot-from-camp-and-the-miranda-lambert-cold-war'
+  - question: 'How did a psilocybin trip shape Star-Crossed?'
+    answer: "After her divorce from Ruston Kelly, Musgraves booked a doctor-supervised psilocybin session — seven hours and forty minutes, blindfolded, with the Johns Hopkins research playlist running. She called it 'like ten years of therapy in one sitting,' and said the trip gave her the album title, the song 'Star-Crossed,' and the concept that organized the whole record."
+    anchor: 'the-mushrooms-the-marriage-the-aftermath'
 twitter: 'KaceyMusgraves'
 instagram: 'spaceykacey'
 tiktok: 'kaceymusgraves'

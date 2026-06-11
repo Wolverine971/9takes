@@ -707,7 +707,7 @@
 	.faq-section,
 	.final-cta {
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
-		border-radius: 1.25rem;
+		border-radius: 1rem;
 		background: color-mix(in srgb, var(--stone-warm) 88%, transparent);
 		box-shadow: var(--shadow-lg);
 		backdrop-filter: blur(14px);
@@ -740,7 +740,7 @@
 		min-width: 0;
 		padding: clamp(1.5rem, 3vw, 2.5rem);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
-		border-radius: 1.75rem;
+		border-radius: 1rem;
 		background:
 			radial-gradient(
 				circle at top left,
@@ -796,7 +796,7 @@
 
 	.hero-truth,
 	.hero-mini-proof {
-		border-radius: 0.875rem;
+		border-radius: 1rem;
 		padding: 1.25rem 1.5rem;
 	}
 
@@ -1004,7 +1004,7 @@
 
 	.form-input {
 		width: 100%;
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
 		background: color-mix(in srgb, var(--stone-warm) 55%, transparent);
 		padding: 0.8rem 1rem;
@@ -1048,7 +1048,7 @@
 	}
 
 	.form-error {
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
 		background: var(--error-light);
 		padding: 0.75rem 1rem;
@@ -1188,7 +1188,7 @@
 	.signal-link {
 		display: grid;
 		gap: 0.25rem;
-		border-radius: 0.875rem;
+		border-radius: 1rem;
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
 		background: color-mix(in srgb, var(--stone-warm) 50%, transparent);
 		padding: 1.125rem 1.25rem;
@@ -1265,7 +1265,7 @@
 		display: block;
 		width: 100%;
 		max-width: 10rem;
-		border-radius: 0.875rem;
+		border-radius: 1rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 		background: color-mix(in srgb, var(--stone-warm) 70%, transparent);
 		box-shadow: var(--shadow-md);
@@ -1577,7 +1577,7 @@
 
 		.hero-copy {
 			padding: 1.2rem 1rem;
-			border-radius: 1.3rem;
+			border-radius: 1rem;
 		}
 
 		.hero-title {
@@ -1602,7 +1602,7 @@
 
 		.waitlist-panel {
 			padding: 1.25rem 1rem;
-			border-radius: 1.2rem;
+			border-radius: 1rem;
 		}
 
 		.waitlist-panel h2 {
@@ -1619,7 +1619,7 @@
 		.final-cta {
 			padding-left: 1rem;
 			padding-right: 1rem;
-			border-radius: 1.2rem;
+			border-radius: 1rem;
 		}
 
 		.hero-support-shell {

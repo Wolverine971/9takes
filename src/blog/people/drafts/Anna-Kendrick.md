@@ -28,12 +28,12 @@ occupation:
   - 'Voice Actor'
   - 'Autobiographer'
 knows_about:
-  - 'Film acting'
-  - 'Singing'
-  - 'Television acting'
-  - 'Voice acting'
-  - 'Acting'
+  - 'Musical film performance'
+  - 'Comedy acting'
   - 'Film directing'
+  - 'Broadway musical theatre'
+  - 'Animated voice acting'
+  - 'Memoir writing'
 keywords:
   - 'Anna Kendrick enneagram'
   - 'Anna Kendrick type 7'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q67701'
   - 'https://www.imdb.com/name/nm0447695/'
 faqs:
-  - question: 'What is Anna Kendrick''s personality type?'
-    answer: 'Type 7 — the Enthusiast, the Epicure — is the part of the Enneagram that survives by staying ahead of the pain. Sevens do not pretend hard things aren''t happening. They pivot. They reframe, they plan the next good thing, they crack the joke that makes the room (and themselves) laugh before the silence can land. The Type 7 engine is not denial. It is forward momentum.'
+  - question: "What is Anna Kendrick's personality type?"
+    answer: "Anna Kendrick is an Enneagram Type 7 (The Enthusiast), specifically a self-preservation 7w6. The pattern shows in the way she took George Clooney's invented on-set insecurity and ran with it, the anxiety-into-jokes Twitter voice that made her the internet's favorite actress, the six-year abusive relationship her reframe machine kept generating hope inside of, and the post-recovery turn to Al-Anon, two therapists a week, and directing one film for eighteen months."
     anchor: 'what-is-anna-kendricks-personality-type'
-  - question: 'Why is Anna Kendrick typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Singing, Television acting.'
-    anchor: 'why-is-anna-kendrick-typed-as-an-enneagram-type-7'
+  - question: 'What has Anna Kendrick said about her abusive relationship?'
+    answer: "On Armchair Expert in January 2023 she described a six-year relationship she calls psychologically abusive, without naming the partner. The line she finally said to her brother Michael: 'I'm living with a stranger now. Like, I don't know what's happening.' She told Dax Shepard it was easier to believe she was the crazy one than to believe her read of reality was correct — her reframing instinct kept generating just enough hope to justify one more week, for six years."
+    anchor: 'the-six-year-relationship-anna-kendrick-couldnt-joke-her-way-out-of'
+  - question: 'Why did Anna Kendrick direct Woman of the Hour?'
+    answer: "She was originally attached only as the lead — Sheryl Bradshaw, the real 1978 Dating Game contestant who picked serial killer Rodney Alcala and then trusted a backstage gut feeling and skipped the date. When producers could not find a director, Kendrick took the job herself. She has called it the most revealing thing she has ever made: a film about a woman who stops trying to be amused by a dangerous man and listens to her own signal, made directly after her own recovery."
+    anchor: 'how-woman-of-the-hour-became-anna-kendricks-integration-to-five'
+  - question: "Did Anna Kendrick really sing 'Cups'?"
+    answer: "Yes — 'Cups (When I'm Gone)' grew out of a near-throwaway percussion bit in Pitch Perfect (2012), recorded in essentially one take, and climbed to number six on the Billboard Hot 100, staying on the chart for forty-four weeks and going triple platinum. Kendrick has also said she hates watching the cup scene because she can see herself rushing the back half of the phrase — a half-beat early, every time."
+    anchor: 'the-other-reframe-technology-anna-kendrick-forgets-to-mention-she-sings'
+  - question: 'How did Anna Kendrick get her Oscar nomination?'
+    answer: "Jason Reitman saw her in Rocket Science and wrote her the part of Natalie Keener in Up in the Air — the 23-year-old consultant pitching firing-by-videochat opposite George Clooney. During shooting, Clooney invented a story about his own insecurity so she would stop white-knuckling her scenes; she ran with the borrowed permission and turned one month of filming into a 2010 Best Supporting Actress nomination at twenty-four."
+    anchor: 'what-jason-reitman-saw-in-anna-kendrick'
 twitter: 'AnnaKendrick47'
 instagram: 'annakendrick47'
 tiktok: ''

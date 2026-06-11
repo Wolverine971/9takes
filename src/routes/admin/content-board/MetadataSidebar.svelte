@@ -624,7 +624,7 @@
 		width: 100%;
 		padding: 6px 10px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-size: 13px;
 		color: var(--ink-bright);
 		background: var(--stone-warm);
@@ -645,7 +645,7 @@
 		@media (max-width: 768px) {
 			padding: 12px 14px;
 			font-size: 16px; // Prevent iOS zoom
-			border-radius: 8px;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -687,13 +687,13 @@
 			background: var(--night-deep);
 			border: 1px solid var(--stone-warm);
 			border-right: none;
-			border-radius: 6px 0 0 6px;
+			border-radius: 0.625rem 0 0 0.625rem;
 			font-size: 13px;
 			color: var(--ink-dim);
 		}
 
 		.field-input {
-			border-radius: 0 6px 6px 0;
+			border-radius: 0 0.625rem 0.625rem 0;
 		}
 	}
 
@@ -741,7 +741,7 @@
 		right: 0;
 		bottom: 0;
 		background: var(--stone-warm);
-		border-radius: 22px;
+		border-radius: 9999px;
 		transition: 0.2s;
 
 		&::before {
@@ -757,7 +757,7 @@
 		}
 
 		@media (max-width: 768px) {
-			border-radius: 28px;
+			border-radius: 9999px;
 
 			&::before {
 				height: 22px;
@@ -776,7 +776,7 @@
 		display: inline-flex;
 		padding: 2px 8px;
 		background: var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 9999px;
 		font-size: 11px;
 		color: var(--ink-mid);
 	}
@@ -837,7 +837,7 @@
 		padding: 8px 12px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-size: 12px;
 		font-weight: 500;
 		color: var(--ink-bright);
@@ -853,7 +853,7 @@
 		@media (max-width: 768px) {
 			padding: 14px 16px;
 			font-size: 14px;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			gap: 8px;
 
 			&:active {
@@ -894,7 +894,7 @@
 
 		&::-webkit-scrollbar-thumb {
 			background: var(--lamp-glow);
-			border-radius: 3px;
+			border-radius: 0.25rem;
 
 			&:hover {
 				background: var(--lamp-glow);

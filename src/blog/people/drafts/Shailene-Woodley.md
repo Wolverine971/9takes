@@ -27,12 +27,11 @@ occupation:
   - 'Film Producer'
   - 'Environmentalist'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Film production'
-  - 'The Divergent Series'
   - 'The Fault in Our Stars'
+  - 'The Divergent Series'
+  - 'Environmental activism'
+  - 'Foraging and natural living'
+  - 'Indigenous rights advocacy (Standing Rock)'
 keywords:
   - 'Shailene Woodley enneagram'
   - 'Shailene Woodley type 9'
@@ -50,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q231058'
   - 'https://www.imdb.com/name/nm0940362/'
 faqs:
-  - question: 'What is Shailene Woodley''s personality type?'
-    answer: 'Enneagram Nines are called Peacemakers, but the name undersells what''s actually happening inside them. (Here''s our full guide to Type 9.) Nines don''t just want peace. They need it the way other people need oxygen. And their primary strategy for achieving it is self-erasure. They become so flexible, so accommodating, so attuned to everyone else''s needs that their own preferences go quiet. Then dormant. Then missing entirely.'
+  - question: "What is Shailene Woodley's personality type?"
+    answer: "Shailene Woodley is an Enneagram Type 9 (The Peacemaker), specifically a 9w1. The pattern shows in the childhood where her psychologist father and counselor mother made her hug out conflicts for hours on the front lawn, the scoliosis brace she wore eighteen hours a day without making it her story, the mystery illness she has never publicly named, and the admission 'I fell in love over and over with unavailability.' The 1 wing is the blade — the moral fire that got her arrested at Standing Rock."
     anchor: 'what-is-shailene-woodleys-personality-type'
-  - question: 'Why is Shailene Woodley typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
-    anchor: 'why-is-shailene-woodley-typed-as-an-enneagram-type-9'
+  - question: 'Why was Shailene Woodley arrested at Standing Rock?'
+    answer: "On October 10, 2016 — Indigenous Peoples' Day — she stood among 200 water protectors at the Standing Rock Reservation protesting the Dakota Access Pipeline through sacred Sioux land. Her phone was livestreaming to 40,000 viewers when it was taken from her hands. She was charged with criminal trespassing and engaging in a riot, strip-searched in jail, and pled not guilty."
+    anchor: 'standing-rock-and-the-anger-that-couldnt-stay-buried'
+  - question: 'What illness did Shailene Woodley have?'
+    answer: "She has never publicly disclosed the diagnosis — 'that feels like a personal thing that I don't need to disclose.' In her early twenties, while filming the Divergent sequels, she was losing her hearing, couldn't walk longer than five minutes without lying down for hours, and everything she ate hurt her stomach. The fear of food became body dysmorphia before the illness, in her words, 'resolved itself.'"
+    anchor: 'the-body-that-kept-the-score'
+  - question: 'Why did Shailene Woodley walk away from Hollywood?'
+    answer: "At the peak of the Divergent franchise, studio executives told her to dress more cosmopolitan and play the game. Her response at nineteen: 'Bitch, I'm 19. I want lovers. I want to see the world.' She got rid of everything she owned and lived out of a carry-on suitcase for roughly a decade — sleeping on strangers' sofas, trading dishwashing for language lessons, some years earning $15,000."
+    anchor: 'bitch-im-19-how-shailene-woodley-rejected-hollywood'
+  - question: 'What happened between Shailene Woodley and Aaron Rodgers?'
+    answer: "They met in 2020, moved in together within months, and she confirmed the engagement on The Tonight Show in February 2021; by February 2022 it was over. She called the aftermath 'the darkest, hardest time in my life' and processed it while filming Three Women — 'a big pain bubble for eight months.' Her summary: 'It was not right. But it was beautiful.'"
+    anchor: 'i-fell-in-love-over-and-over-with-unavailability'
 twitter: 'shaborz'
 instagram: 'shailenewoodley'
 tiktok: ''

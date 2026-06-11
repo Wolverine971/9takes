@@ -28,12 +28,11 @@ occupation:
   - 'Comedian'
   - 'Film Producer'
 knows_about:
-  - 'Stand-up comedy'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Acting'
-  - 'Comedy'
-  - 'Film production'
+  - 'Improvisational stand-up comedy'
+  - 'Voice character work'
+  - 'Dramatic screen acting'
+  - 'USO tour performance'
+  - 'Comic Relief philanthropy'
 keywords:
   - 'Robin Williams enneagram'
   - 'Robin Williams type 7'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000245/'
   - 'https://www.robinwilliams.com'
 faqs:
-  - question: 'What is Robin Williams''s personality type?'
-    answer: 'Williams is a Type 7w8, the Enthusiast with an 8 wing, going to Type 1 in stress and Type 5 in growth. Read straight, that sounds like a personality-quiz tag. Read carefully, it explains almost everything about his life.'
+  - question: "What is Robin Williams's personality type?"
+    answer: "Robin Williams was an Enneagram Type 7 (The Enthusiast), specifically a 7w8 going to Type 1 in stress and Type 5 in growth. The pattern shows in the lonely only child voicing thousands of toy soldiers on a third floor so the room wouldn't be quiet, the stage he called 'the one salvation,' the cocaine he used as a sedative because his brain had no off-switch, the Mork & Mindy scripts left blank with 'Robin goes off here' — and the engine that finally broke when Lewy body dementia took the instrument apart."
     anchor: 'what-is-robin-williamss-personality-type'
-  - question: 'Why is Robin Williams typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Stand-up comedy, Television acting, Film acting.'
-    anchor: 'why-is-robin-williams-typed-as-an-enneagram-type-7'
+  - question: 'Why did Robin Williams say cocaine slowed him down?'
+    answer: "Because he was already operating at the ceiling of a brain that juggled seven channels at once. 'Cocaine for me was a place to hide. Most people get hyper on coke. It slowed me down,' he told biographer Dave Itzkoff — a stimulant used as a sedative by a man who couldn't find stillness on his own. He quit cocaine and alcohol cold turkey in 1982 after John Belushi's death and the news that his son Zak was on the way, and stayed sober roughly twenty years."
+    anchor: 'how-cocaine-slowed-robin-williams-down'
+  - question: 'Did Robin Williams have Lewy body dementia?'
+    answer: "Yes — and he never knew it. Three months before his death he was misdiagnosed with Parkinson's. The autopsy after his suicide on August 11, 2014, revealed diffuse Lewy body dementia with roughly 40% loss of dopamine neurons; pathologists called it one of the worst cases they had encountered. His widow Susan Schneider Williams later named it in the journal Neurology: 'the terrorist inside my husband's brain.'"
+    anchor: 'when-robin-williams-couldnt-remember-his-lines'
+  - question: 'What did Robin Williams do for Christopher Reeve?'
+    answer: "They were Juilliard roommates. After Reeve's 1995 riding accident left him paralyzed, he had told his wife it might be better to let him go. Williams walked into the hospital room in scrubs and a surgical mask, announced in a Russian accent that he was a proctologist there to perform an examination, and Reeve laughed for the first time since the accident — the moment, Reeve later said, he decided to live. Williams quietly paid the family's medical bills for years and never spoke about it publicly."
+    anchor: 'what-friends-saw-when-robin-williams-stopped-performing'
+  - question: 'How many USO tours did Robin Williams do?'
+    answer: "Six, between 2002 and 2013, performing for roughly 90,000 service members in Iraq, Afghanistan, and eleven other countries — no film crew, no press releases. In the most famous clip, from Camp Arifjan, Kuwait, in 2007, the Retreat bugle sounded mid-bit and every soldier stood and turned away to face the flag. Williams stopped, stepped back, and said quietly, 'All right. We can wait' — then picked up the bit exactly where he left it."
+    anchor: 'the-6-uso-tours-robin-williams-didnt-publicize'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

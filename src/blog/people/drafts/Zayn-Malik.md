@@ -26,12 +26,11 @@ occupation:
   - 'Musician'
   - 'Singer-Songwriter'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Music'
-  - 'Pop Music'
-  - 'Contemporary R&B'
-  - 'Dance-Pop'
+  - 'Alternative R&B (Mind of Mine)'
+  - 'Acoustic country songwriting (Room Under the Stairs)'
+  - 'Home-studio recording'
+  - 'British Pakistani identity in pop'
+  - 'Fashion as self-expression'
 keywords:
   - 'Zayn Malik enneagram'
   - 'Zayn Malik type 4'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm4098557/'
   - 'https://inzayn.com/'
 faqs:
-  - question: 'What is Zayn Malik''s Personality Type?'
-    answer: 'Type 4s are driven by a need to understand themselves and find their unique identity. They often feel fundamentally different from others and search for meaning through self-expression that actually matches what''s happening inside them. For Zayn, this shows up in his constant artistic reinvention, his comfort with emotional vulnerability, and his willingness to walk away from massive commercial success when the work stopped feeling like his own.'
+  - question: "What is Zayn Malik's personality type?"
+    answer: "Zayn Malik is an Enneagram Type 4 (The Individualist). The pattern shows in the mixed-race Bradford childhood where neither world claimed him cleanly, leaving One Direction at its commercial peak because 'I wasn't 100% behind the music — it wasn't me,' carrying the racism he experienced in the band for a decade before releasing it in 'Fuchsia Sea,' and abandoning pop entirely for a country-influenced album recorded alone in a Pennsylvania 'shoe cupboard.'"
     anchor: 'what-is-zayn-maliks-personality-type'
-  - question: 'Why is Zayn Malik typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Music.'
-    anchor: 'why-is-zayn-malik-typed-as-an-enneagram-type-4'
+  - question: 'Why did Zayn Malik leave One Direction?'
+    answer: "He left in 2015, at the peak of the band's commercial power, saying 'I wasn't 100% behind the music. It wasn't me.' The band had assigned him a persona without asking — 'They just said, oh yeah, you can be the mysterious one. That wasn't necessarily my personality, I'm just chill.' He framed the exit as taking control: being 'somebody who isn't afraid to do what he wants to do, no matter what other people might say.'"
+    anchor: 'the-decision-to-leave'
+  - question: "What did Zayn Malik say about Liam Payne's death?"
+    answer: "Hours after Liam Payne died in October 2024, Zayn posted: 'I lost a brother when you left us and can't explain to you what I'd give to just give you a hug one last time.' He wrote that he found himself 'talking out loud to you, hoping you can hear me,' postponed the US leg of his Stairway to the Sky tour, and later dedicated a show in Liam's hometown of Wolverhampton: 'This is for you, Liam.'"
+    anchor: 'tribute-to-liam-payne'
+  - question: 'Did Zayn Malik experience racism in One Direction?'
+    answer: "In 2024 he released a snippet of 'Fuchsia Sea' that addressed it directly: 'I worked hard in a white band / And they still laughed at the Asian.' The lyric had been sitting in him for a decade. It built on earlier experiences — school exclusion and fights in Bradford, and being called a terrorist on social media in 2012: 'How can you call me that and get away with it?'"
+    anchor: 'addressing-racism-in-the-band'
+  - question: 'What is Room Under the Stairs?'
+    answer: "Zayn's 2024 album — a genuine left turn that abandoned pop for acoustic, country-influenced sounds recorded alone at his Pennsylvania home in what he calls a 'shoe cupboard.' AllMusic called it 'the sound of an artist trying something brave and new,' and it reached #3 on the UK Albums Chart. It led to his first-ever headlining tour, which he credited to fatherhood: 'I want her to know that her dad can overcome his fears.'"
+    anchor: 'musical-evolution'
 twitter: 'zaaborsu'
 instagram: 'zayn'
 tiktok: 'zayn'

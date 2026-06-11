@@ -26,12 +26,11 @@ occupation:
   - 'Songwriter'
   - 'Record Producer'
 knows_about:
-  - 'Singing'
-  - 'Hip-hop music'
-  - 'Songwriting'
-  - 'Music production'
-  - 'Hip-Hop'
-  - 'Pop Music'
+  - 'Rap and vocal production'
+  - 'Genre-blending pop'
+  - 'Music video direction'
+  - 'Internet meme culture'
+  - 'Visual transformation and makeup artistry'
 keywords:
   - 'Doja Cat enneagram'
   - 'Doja Cat type 7'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm9798310/'
   - 'https://www.dojacat.com/'
 faqs:
-  - question: 'What is Doja Cat''s Personality Type?'
-    answer: 'Enneagram Type 7s are called "The Enthusiasts." They chase experience, possibility, and freedom with relentless energy. Their core fear? Being trapped in pain, boredom, or other people''s expectations.'
+  - question: "What is Doja Cat's personality type?"
+    answer: "Doja Cat is an Enneagram Type 7 (The Enthusiast), specifically a 7w8. The pattern shows in writing and filming 'Mooo!' in 12 hours as a joke, shaving her head and eyebrows on Instagram Live and answering concern with 'I'm rich, I'm fine,' celebrating the loss of 250,000 followers with 'I feel free,' and burning down each successful era — pop princess, demon queen, then the solo-written Vie — the moment it starts to feel like a cage."
     anchor: 'what-is-doja-cats-personality-type'
-  - question: 'Why is Doja Cat typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Hip-hop music, Songwriting.'
-    anchor: 'why-is-doja-cat-typed-as-an-enneagram-type-7'
+  - question: 'Why did Doja Cat tell her fans to get a job?'
+    answer: "In July 2023 she mocked fans on Threads for calling themselves 'Kittenz' and told them to 'get off your phone and get a job,' calling fan accounts using her real name 'creepy as fuck.' Over 250,000 people unfollowed her, and her response was 'I feel free.' Her stated theory: fans who have never met her take ownership of someone who isn't real to them."
+    anchor: 'the-kittenz-war-and-the-parasocial-problem'
+  - question: 'Why did Doja Cat shave her head and eyebrows?'
+    answer: "She shaved both on Instagram Live in August 2022, telling worried fans 'I'm rich, I'm fine.' She explained she never liked having hair and was exhausted by wigs sliding off mid-performance — 'I was more concerned with how I looked than what I was doing.' What looked like a breakdown was the deliberate teardown of the pop-princess image that preceded the Scarlet era."
+    anchor: 'the-transformation-from-pop-princess-to-demon-queen'
+  - question: 'What was the Doja Cat TinyChat controversy?'
+    answer: "In May 2020 she was accused of participating in a TinyChat room with white supremacists and incels, and a 2015 song called 'Dindu Nuffin' resurfaced, sending #DojaCatIsOverParty trending just as 'Say So' climbed to #1. She apologized for the song, denied the chat was white supremacist, and went on Instagram Live saying a diplomatic statement would be 'the biggest lie I can make to you.' 'Say So' still hit #1 and she earned eight Grammy nominations the next year."
+    anchor: 'the-tinychat-controversy-type-7-under-fire'
+  - question: 'Does Doja Cat still work with Dr. Luke?'
+    answer: "She signed to his Kemosabe Records in 2014, before Kesha's lawsuit, and told Rolling Stone in 2021 'I don't think I need to work with him in the future.' She kept her word: Scarlet contains zero Dr. Luke production credits, with Doja serving as executive producer herself."
+    anchor: 'the-dr-luke-question'
 twitter: 'DojaCat'
 instagram: 'dojacat'
 tiktok: 'dojacat'

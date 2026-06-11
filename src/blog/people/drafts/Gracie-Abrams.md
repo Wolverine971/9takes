@@ -25,10 +25,10 @@ occupation:
   - 'Singer-Songwriter'
   - 'Songwriter'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Bedroom Pop'
-  - 'Music'
+  - 'Bedroom pop'
+  - 'Confessional songwriting'
+  - 'Journaling as creative practice'
+  - 'Lyrical specificity'
 keywords:
   - 'Gracie Abrams enneagram'
   - 'Gracie Abrams type 4'
@@ -48,12 +48,21 @@ citations:
   - 'https://www.imdb.com/name/nm10956454/'
   - 'https://www.gracieabrams.com/'
 faqs:
-  - question: 'What is Gracie Abrams''s personality type?'
-    answer: 'Most people read Gracie Abrams as a sad-girl indie singer-songwriter. The shape is right. The motor is wrong.'
+  - question: "What is Gracie Abrams's personality type?"
+    answer: "Gracie Abrams is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in hiding that her dad directed Star Wars before she hid anything else, the locked journal she has kept since third grade, vomiting before shows after signing to Interscope, the Madison Square Garden set built as a replica of her childhood bedroom, and a catalog that keeps repeating the same confess-then-flinch sentence: 'I miss you, I'm sorry.'"
     anchor: 'what-is-gracie-abramss-personality-type'
-  - question: 'Why is Gracie Abrams typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Bedroom Pop.'
-    anchor: 'why-is-gracie-abrams-typed-as-an-enneagram-type-4'
+  - question: "Who are Gracie Abrams's parents?"
+    answer: "Her father is J.J. Abrams, director of Star Wars: The Force Awakens, and her mother is Katie McGrath, CEO of Bad Robot. When New York magazine put her on the December 2022 'Year of the Nepo Baby' cover, she answered in Rolling Stone: 'I know how hard I work, and I know how separate I've kept [my parents] from every conversation about anything career-wise.'"
+    anchor: 'gracie-abrams-hid-her-dad-before-she-hid-anything-else'
+  - question: 'Why did Gracie Abrams vomit before shows?'
+    answer: "She calls her stage fright 'real anxiety, like hard-core' and avoided performing 'at all costs' — signing to Interscope at twenty meant panicking over the stage her contract would eventually demand. Her workaround was letting the work travel without her: 'I miss you, I'm sorry' became a viral TikTok sound during lockdown, and by the time the Sour, Eras, and GUTS tours came calling, the songs had already done the leaving."
+    anchor: 'why-gracie-abrams-couldnt-stop-vomiting-before-shows'
+  - question: "What was the set at Gracie Abrams's Madison Square Garden shows?"
+    answer: 'Her two sold-out MSG nights on July 28 and 29, 2025 were performed on a replica of her childhood bedroom in Pacific Palisades — the same room where she recorded the Minor EP on a laptop during pandemic Zoom shows five years earlier. Twenty thousand people watched her perform from inside the room she originally wrote the songs to stay in.'
+    anchor: 'the-madison-square-garden-stage-was-her-childhood-bedroom'
+  - question: 'Are Gracie Abrams and Paul Mescal together?'
+    answer: "Yes — they have been seeing each other since June 2024, went Instagram-official with a Glastonbury carousel in July 2025, and made their red-carpet debut at the BAFTAs. Neither discusses the relationship; asked directly by Rolling Stone, Mescal managed five hesitations and one finished sentence: 'I want to protect those things fundamentally.'"
+    anchor: 'why-gracie-abrams-and-paul-mescal-wont-talk-about-each-other'
 twitter: 'gracieabrams'
 instagram: 'gracieabrams'
 tiktok: 'gracieabrams'

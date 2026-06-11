@@ -28,12 +28,11 @@ occupation:
   - 'Author'
   - 'Film Producer'
 knows_about:
-  - 'Comedy'
-  - 'Acting'
-  - 'Voice acting'
-  - 'Film acting'
-  - 'Writing'
-  - 'Film production'
+  - 'Stand-up comedy'
+  - 'Arena and stadium comedy tours'
+  - 'Comedy film franchises'
+  - 'Fitness and strength training'
+  - 'Memoir and self-help writing'
 keywords:
   - 'Kevin Hart enneagram'
   - 'Kevin Hart type 7'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm0366389/'
   - 'https://kevinhartnation.com'
 faqs:
-  - question: 'What is Kevin Hart''s Personality Type?'
-    answer: 'The Enneagram Type 7 is driven by a core fear of being trapped in pain — emotional pain, boredom, deprivation, limitation. The response isn''t to confront the pain. It''s to outrun it. Build something. Start something new. Stay in motion.'
+  - question: "What is Kevin Hart's personality type?"
+    answer: "Kevin Hart is an Enneagram Type 7 (The Enthusiast). The pattern shows in how he converts every wound into material — his father's crack addiction became a set, his divorce became Let Me Explain — in his confession that he didn't know whether to cry when his mother died, in the five 'monsters' he catalogued by name and still feeds, and in the rigid 4 AM discipline and total refusal of pain medication that mark a Seven's stress move toward Type 1."
     anchor: 'what-is-kevin-harts-personality-type'
-  - question: 'Why is Kevin Hart typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Comedy, Acting, Voice acting.'
-    anchor: 'why-is-kevin-hart-typed-as-an-enneagram-type-7'
+  - question: 'What did Kevin Hart say when his mother died?'
+    answer: "Nancy Hart hid her terminal ovarian cancer from Kevin so he would keep filming in Australia, and she died while he was on set in 2007. His reaction: 'I said, Am I supposed to be crying? I really didn't know what my emotions were supposed to be.' Cleaning out her house, he found a box where she had kept every clipping and video of his career — the woman who hid her death so he'd keep working had been watching every moment of the work."
+    anchor: 'am-i-supposed-to-be-crying'
+  - question: "What happened in Kevin Hart's 2019 car accident?"
+    answer: "On September 1, 2019, a crash in a Plymouth Barracuda on Mulholland Highway left him with three spinal fractures — a quarter-centimeter from paralysis — and a spine fused with eight screws. Pinned to a hospital bed, the man who couldn't sit still was forced into the first genuine pause of his life. He later said, 'the other version of myself died in that moment and this new version was born.'"
+    anchor: 'the-quiet-room'
+  - question: 'Why did Kevin Hart refuse pain medication after his accident?'
+    answer: "His father, Henry Witherspoon, was a crack addict who cycled through incarcerations, and Hart refused every single dose of painkillers rather than risk putting one in his body — 'Every night was a horrible night.' He even lied to hospital staff about his pain so they wouldn't stop his walking rehab. The 4 AM gym alarm is the same promise: that today, at least, he will not be his father."
+    anchor: '4-am'
+  - question: "What are Kevin Hart's 'monsters'?"
+    answer: "In his 2022 book Monsters and How to Tame Them, Hart catalogued his own psychological patterns by name: the Control Monster, the Approval Monster, the Comparison Monster, the 'Do It All' Monster, and the 'You Can't Go Backwards' Monster. He told Jay Shetty the biggest drug isn't cocaine or opioids — 'the biggest drug is fame.' He knows the monsters by name, and he gets up at 4 AM and feeds them anyway."
+    anchor: 'kevin-harts-monsters'
 twitter: ''
 instagram: ''
 tiktok: ''

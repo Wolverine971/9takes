@@ -28,11 +28,11 @@ occupation:
   - 'University Teacher'
   - 'Science Administrator'
 knows_about:
-  - 'Applied Physics'
-  - 'Theoretical Physics'
-  - 'Nuclear Physics'
-  - 'nuclear bomb'
-  - 'Historical influence'
+  - 'Quantum mechanics (Born-Oppenheimer approximation)'
+  - 'Gravitational collapse and black holes'
+  - 'Manhattan Project scientific leadership'
+  - 'Sanskrit and the Bhagavad Gita'
+  - 'Nuclear arms control advocacy'
 keywords:
   - 'Robert Oppenheimer enneagram'
   - 'Robert Oppenheimer type 4'
@@ -50,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q132537'
   - 'https://www.imdb.com/name/nm0649185/'
 faqs:
-  - question: 'What is Robert Oppenheimer''s personality type?'
-    answer: 'Enneagram Fours carry one question from childhood into old age: Why do I feel like I''m missing something that everyone else seems to have? Oppenheimer said it plainly at fourteen: "I''m the loneliest man in the world." Not the loneliest kid. The loneliest man. That''s not a diagnosis of shyness — it''s a Four''s specific ache: watching other people belong to the world naturally, as though they were issued a script yours never arrived. Fours compensate by going further — into feeling, into meaning, into art or physics or ancient texts — trying to build from intensity of inner life what they can''t find in ordinary belonging.'
+  - question: "What is Robert Oppenheimer's personality type?"
+    answer: "Robert Oppenheimer is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in the boy who told his teacher 'I'm the loneliest man in the world' at fourteen, the Cambridge crisis triggered by feeling deficient rather than unskilled, the Bhagavad Gita verse he carried for twenty years as a literal description of what changed in him at Trinity, the 'blood on my hands' confession to Truman, and the anguished inarticulacy at the 1954 hearing where he could not perform certainty about his own self."
     anchor: 'what-is-robert-oppenheimers-personality-type'
-  - question: 'Why is Robert Oppenheimer typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Applied Physics, Theoretical Physics, Nuclear Physics.'
-    anchor: 'why-is-robert-oppenheimer-typed-as-an-enneagram-type-4'
+  - question: "What did Oppenheimer mean by 'Now I am become Death'?"
+    answer: "His actual words at Trinity, per his brother Frank, were 'I guess it worked' — the Gita verse came later, when he had time to reach for a framework. The verse is spoken by Vishnu in his all-destroying cosmic form, persuading Arjuna to accept his role in a process larger than himself. After twelve years of reading the Gita, Oppenheimer chose it as the closest language he had for what he felt: I have become something I did not choose to become, and the change is permanent."
+    anchor: 'trinity-and-the-identity-that-replaced-everything-else'
+  - question: "What happened at Oppenheimer's 1954 security hearing?"
+    answer: "A nineteen-day hearing on twenty-four charges — twenty-three about 1930s-40s Communist associations, one about opposing the H-bomb — at which Edward Teller testified against him. The board explicitly found him loyal but revoked his clearance anyway, citing 'fundamental defects' of character. The Department of Energy formally vacated the revocation in 2022, fifty-five years after his death, calling the process flawed."
+    anchor: 'when-the-system-condemned-his-character'
+  - question: 'What did Oppenheimer say to Truman about the bomb?'
+    answer: "In an October 1945 Oval Office meeting he requested to advocate for international nuclear controls, Oppenheimer said, 'I have blood on my hands.' Truman was offended rather than moved — he reportedly called him a 'cry-baby scientist' and told staff he never wanted to see him again. The article reads the collision as architectural: Truman made a decision and moved on; Oppenheimer became someone and couldn't."
+    anchor: 'the-blood-on-his-hands'
+  - question: 'What did Oppenheimer contribute to physics besides the atomic bomb?'
+    answer: "The Born-Oppenheimer approximation (1927) remains a foundation of quantum chemistry, and his 1930 quantum electrodynamics paper effectively predicted the positron — though he failed to commit to his own result before Carl Anderson's Nobel-winning discovery. His 1939 paper with Hartland Snyder showed that massive stars undergo complete gravitational collapse, describing what John Wheeler would name black holes twenty-eight years later. Oppenheimer called them 'frozen stars' and never returned to the topic after Los Alamos."
+    anchor: 'physics-as-a-way-of-feeling'
 twitter: null
 instagram: null
 tiktok: null

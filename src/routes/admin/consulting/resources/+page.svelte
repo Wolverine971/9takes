@@ -413,7 +413,7 @@
 	.stat-card {
 		background: var(--resource-surface);
 		border: 1px solid var(--resource-border);
-		border-radius: 20px;
+		border-radius: 1rem;
 		box-shadow: var(--resource-shadow);
 	}
 
@@ -516,7 +516,7 @@
 	.search-shell input {
 		width: 100%;
 		border: 1px solid var(--resource-border);
-		border-radius: 14px;
+		border-radius: 0.625rem;
 		background: var(--resource-surface-muted);
 		color: var(--ink-bright);
 		padding: 0.95rem 1rem;

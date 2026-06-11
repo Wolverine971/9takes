@@ -28,12 +28,11 @@ occupation:
   - 'Writer'
   - 'Television Actor'
 knows_about:
-  - 'Comedy'
-  - 'Film production'
-  - 'Voice acting'
+  - 'Comedy acting'
   - 'Screenwriting'
-  - 'Writing'
-  - 'Television acting'
+  - 'Independent film directing'
+  - 'Documentary filmmaking'
+  - 'Skateboarding culture'
 keywords:
   - 'Jonah Hill enneagram'
   - 'Jonah Hill type 3'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q313388'
   - 'https://www.imdb.com/name/nm1706767/'
 faqs:
-  - question: 'What is Jonah Hill''s personality type?'
-    answer: 'The pattern isn''t hard to see once you know what to look for. Type 3s, the Achievers, don''t just pursue success. They become whatever success requires. The boardroom executive. The devoted parent. The serious actor. The healed man. Each version is total, each version is sincere, and each version is a performance so deep the performer forgets they''re performing.'
+  - question: "What is Jonah Hill's personality type?"
+    answer: "Jonah Hill is an Enneagram Type 3 (The Achiever) with a 4 wing. The evidence runs from the 'Jonah Goes Platinum' bar mitzvah theme at thirteen, through the Feldstein-to-Hill name change, the complete identity swaps from comedy sidekick to Oscar nominee to indie director to wellness advocate, the $60,000 he accepted to work with Scorsese, and body transformations that tracked every professional reinvention."
     anchor: 'what-is-jonah-hills-personality-type'
-  - question: 'Why is Jonah Hill typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Comedy, Film production, Voice acting.'
-    anchor: 'why-is-jonah-hill-typed-as-an-enneagram-type-3'
+  - question: 'Why did Jonah Hill stop doing press tours?'
+    answer: "In 2022 he released an open letter saying press tours 'exacerbate anxiety attacks' he had experienced for nearly 20 years. The same year he released Stutz, a Netflix documentary about his own therapy sessions — which he directed, produced, and midway through reveals was partly staged. For Hill, the only way to be vulnerable was to direct the vulnerability."
+    anchor: 'the-documentary-that-said-everything'
+  - question: 'Why did Jonah Hill take only $60,000 for The Wolf of Wall Street?'
+    answer: "He accepted the SAG minimum to work with Martin Scorsese, saying he would have 'sold my house and given Scorsese all my money' for the chance. The role earned him his second Oscar nomination, and years later Scorsese appeared in Outcome, the Apple TV+ film Hill wrote and directed."
+    anchor: 'the-shape-shift-to-serious'
+  - question: "What happened with Jonah Hill's 'boundaries' texts?"
+    answer: "In July 2023 his ex-girlfriend Sarah Brady posted screenshots of texts in which Hill told her she couldn't surf with men, post bathing-suit photos, or model — demands he framed as 'boundaries.' Therapists went on record calling them control mechanisms, not boundaries. The deeper pattern: a man who performed 'healed' so thoroughly he couldn't distinguish his own control patterns from genuine growth."
+    anchor: 'when-the-language-turned'
+  - question: "How did Jonah Hill's brother Jordan die?"
+    answer: "Jordan Feldstein, Maroon 5's manager and the eldest Feldstein sibling, called 911 on December 22, 2017, reporting shortness of breath and went into full cardiac arrest when paramedics arrived. He was 40. It was the one crisis Hill couldn't metabolize into content — his composure slips differently when he discusses Jordan in Stutz."
+    anchor: 'the-grief-he-couldnt-direct'
 twitter: ''
 instagram: ''
 tiktok: ''

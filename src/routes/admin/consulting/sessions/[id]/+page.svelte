@@ -687,7 +687,7 @@
 	.section-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -733,7 +733,7 @@
 		gap: 0.75rem;
 		padding: 0.5rem;
 		background: var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s;
 	}
@@ -771,7 +771,7 @@
 	.context-item {
 		padding: 0.5rem;
 		background: var(--night-deep);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.context-item.highlight {
@@ -804,7 +804,7 @@
 	.prev-session-item {
 		padding: 0.75rem;
 		background: var(--night-deep);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		border-left: 3px solid var(--stone-warm);
 	}
 
@@ -909,7 +909,7 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		font-family: inherit;
 		margin-bottom: 0.5rem;
@@ -929,7 +929,7 @@
 	.note-item {
 		padding: 0.75rem;
 		background: var(--night-deep);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		border-left: 3px solid var(--stone-warm);
 	}
 
@@ -1013,7 +1013,7 @@
 
 	.core-item {
 		padding: 0.5rem;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.core-item.fear {
@@ -1076,7 +1076,7 @@
 
 	.arrow-item {
 		padding: 0.5rem;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-size: 0.75rem;
 	}
 
@@ -1118,7 +1118,7 @@
 		padding: 0.625rem;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s;
 	}
@@ -1220,7 +1220,7 @@
 
 	.modal {
 		background: var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		width: 100%;
 		max-width: 550px;
 		max-height: 90vh;
@@ -1275,7 +1275,7 @@
 		width: 100%;
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		font-family: inherit;
 		resize: vertical;

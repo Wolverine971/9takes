@@ -463,7 +463,7 @@
 		padding: 0.5rem 0.75rem 0.5rem 2.25rem;
 		font-size: 0.8125rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 	}
@@ -515,7 +515,7 @@
 	.template-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 		transition: all 0.15s ease;
 	}
@@ -640,7 +640,7 @@
 	.modal-dialog {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1.5rem;
 		width: 90%;
 	}
@@ -694,7 +694,7 @@
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 	}

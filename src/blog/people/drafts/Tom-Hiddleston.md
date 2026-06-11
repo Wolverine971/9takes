@@ -28,12 +28,11 @@ occupation:
   - 'Television Actor'
   - 'Film Producer'
 knows_about:
-  - 'Film acting'
-  - 'Comedy'
-  - 'Music'
-  - 'Television acting'
-  - 'Film production'
-  - 'Acting'
+  - 'Shakespearean stage acting'
+  - 'Classics (Cambridge double first)'
+  - 'Loki and the Marvel Cinematic Universe'
+  - 'UNICEF humanitarian advocacy'
+  - 'Harold Pinter theatre'
 keywords:
   - 'Tom Hiddleston enneagram'
   - 'Tom Hiddleston type 2'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q295803'
   - 'https://www.imdb.com/name/nm1089991/'
 faqs:
-  - question: 'What is Tom Hiddleston''s Personality Type?'
-    answer: 'The Enneagram Type 2 — The Helper — is driven by a core need to be loved and a core fear of being unwanted. Twos earn connection through giving. They develop an almost supernatural radar for what others need while remaining genuinely blind to their own needs. Their childhood taught them a specific bargain: love flows when you''re useful. It dries up when you''re not.'
+  - question: "What is Tom Hiddleston's personality type?"
+    answer: "Tom Hiddleston is an Enneagram Type 2 (The Helper). The pattern shows in a boy who discovered acting as the only safe place to feel after his parents divorced while he was at Eton, the convention appearances where he stayed two hours past closing for every fan, the UNICEF trips to South Sudan he called 'a privilege' rather than a duty, and his hard-won 2019 admission: 'I'm protective about my internal world now... I didn't realize it needed protecting before.'"
     anchor: 'what-is-tom-hiddlestons-personality-type'
-  - question: 'Why is Tom Hiddleston typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Comedy, Music.'
-    anchor: 'why-is-tom-hiddleston-typed-as-an-enneagram-type-2'
+  - question: 'How did Tom Hiddleston get cast as Loki?'
+    answer: "He auditioned for Thor — trained three months, hit the gym, grew out his hair. Kenneth Branagh called him personally: 'You're not going to play Thor, but we would like you to play Loki.' The rejection became the role of a lifetime: 'I always saw Loki as a broken soul with a shattered heart,' Hiddleston said. 'Deeply damaged by the fact that he was unwanted.' He didn't need to research that psychology — he'd lived it."
+    anchor: 'how-rejection-built-the-perfect-loki'
+  - question: 'What happened between Tom Hiddleston and Taylor Swift?'
+    answer: "Their 2016 relationship became a three-month media circus, crystallized by the 'I ♥ T.S.' tank top photographed on the Fourth of July — which he later explained as borrowed sun protection after he slipped and grazed his back. Nobody believed him. Asked by GQ whether the relationship was genuine, he answered with five words that crack open his psychology: 'Of course it was real.'"
+    anchor: 'the-summer-everything-inverted'
+  - question: "Why was Tom Hiddleston's Golden Globes speech criticized?"
+    answer: "Accepting his 2017 award for The Night Manager, he told a story about MSF doctors in South Sudan binge-watching the show during a month of shelling. The wording came out self-referential, and the internet called it 'white savior' and 'self-indulgent.' He apologized on Facebook the next morning: 'I was very nervous, and my words just came out wrong' — a sequence the analysis reads as the Helper's nightmare: giving reframed as self-interest."
+    anchor: 'the-golden-globes-and-the-helpers-nightmare'
+  - question: 'Who is Tom Hiddleston married to?'
+    answer: "He is engaged to actress Zawe Ashton, whom he fell in love with while they starred in Harold Pinter's Betrayal in London and on Broadway. They kept the relationship private for two years, announced the engagement in March 2022, and have two children whose names and sexes they have never revealed. Accepting a 2024 People's Choice Award, he said: 'Zawe, none of this makes sense without you.'"
+    anchor: 'betrayal-love-and-the-play-that-changed-everything'
 twitter: 'twhiddleston'
 instagram: 'twhiddleston'
 tiktok: ''

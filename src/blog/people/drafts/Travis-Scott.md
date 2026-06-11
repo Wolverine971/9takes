@@ -28,12 +28,11 @@ occupation:
   - 'Voice Actor'
   - 'Television Actor'
 knows_about:
-  - 'Hip-hop music'
-  - 'Singing'
-  - 'Songwriting'
-  - 'Music production'
-  - 'Voice acting'
-  - 'Television acting'
+  - 'Psychedelic trap production'
+  - 'Immersive concert design'
+  - 'Brand collaboration (Nike, McDonald''s)'
+  - 'Architecture and brutalism'
+  - 'Houston chopped-and-screwed tradition'
 keywords:
   - 'Travis Scott enneagram'
   - 'Travis Scott type 9'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm6346805/'
   - 'https://www.travisscott.com/'
 faqs:
-  - question: 'What is Travis Scott''s Personality Type?'
-    answer: 'Most people see Travis Scott as a raging, anarchic performer. The guy who screams "It''s lit!" and tells fans to rush barricades. If you understand Type 9, the real driver is the opposite: a deeply introverted man who has spent his life disappearing into experiences so overwhelming that he doesn''t have to feel the stillness.'
+  - question: "What is Travis Scott's personality type?"
+    answer: "Travis Scott is an Enneagram Type 9 (The Peacemaker) — not despite the rage shows, but because of them. The pattern shows in the head-down camera shyness of the most photographed rapper alive, fifty studio sessions per song as a way of merging with the work, friendships maintained across every feuding camp in hip-hop (Drake and Kanye, both sides of the Drake-Kendrick war), and the engagement to Kylie Jenner he never refused but never said yes to."
     anchor: 'what-is-travis-scotts-personality-type'
-  - question: 'Why is Travis Scott typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Hip-hop music, Singing, Songwriting.'
-    anchor: 'why-is-travis-scott-typed-as-an-enneagram-type-9'
+  - question: 'Why did Travis Scott keep performing during the Astroworld tragedy?'
+    answer: "He performed for thirty-seven minutes after a mass casualty event was declared on November 5, 2021, and later told Charlamagne Tha God he didn't know exactly what happened 'until like minutes until the press conference.' Ten people died, the youngest nine years old. The analysis reads his much-mocked apology video not as cynical performance but as a man so habituated to disappearing into designed experiences that he had no idea how to show devastation. A Texas grand jury declined to indict him."
+    anchor: 'november-5-2021'
+  - question: 'Why is Travis Scott obsessed with architecture?'
+    answer: "'Architecture is my true passion,' he has said repeatedly — he plans to apply to Harvard's Graduate School of Design and cites brutalism and Zaha Hadid. The analysis treats it as the key to everything: every album is an architectural project, from Astroworld rebuilding a demolished Houston theme park as sound to concerts engineered so precisely that his 2024 Rome show registered as a 1.3 magnitude earthquake."
+    anchor: 'in-brutalist-architecture-i-find-comfort'
+  - question: 'Why did Travis Scott and Kylie Jenner break up?'
+    answer: "Not with an explosion — with inertia. In six years and two children they never lived together; their fights came from distance, not confrontation, and Kylie was always the one who closed the gap. Insiders said she wanted an engagement and he knew for years, but the ring never came: he didn't say no to marriage, he just never said yes. They split for good in early 2023 and co-parent Stormi and Aire."
+    anchor: 'you-cant-crash-out'
+  - question: "How did Travis Scott get his stage name?"
+    answer: "He erased his birth name, Jacques Webster, and rebuilt himself from two men who represented what his father hadn't been: 'Travis' came from his favorite uncle, and 'Scott' from Kid Cudi's real name, Scott Mescudi. 'In my whole career, all I wanted was acceptance from Kid Cudi,' he said. 'This dude saved my life.'"
+    anchor: 'the-book-money-the-plane-ticket-and-the-lie'
 twitter: 'trvisXX'
 instagram: 'travisscott'
 tiktok: ''

@@ -655,7 +655,7 @@
 		justify-content: center;
 		width: 32px;
 		height: 32px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 		background: var(--stone-warm);
 		color: var(--ink-bright);
@@ -687,7 +687,7 @@
 		padding: 0.375rem 2rem 0.375rem 0.75rem;
 		font-size: 0.8125rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		appearance: none;
@@ -716,7 +716,7 @@
 		padding: 0.375rem 0.75rem 0.375rem 2rem;
 		font-size: 0.8125rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 	}
@@ -767,7 +767,7 @@
 		position: relative;
 		min-height: 8rem;
 		overflow: hidden;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 		padding: 0.5rem;
 		background: var(--stone-warm);
@@ -906,7 +906,7 @@
 		flex-direction: column;
 		gap: 0.5rem;
 		padding: 0.5rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 		background: var(--stone-warm);
 	}
@@ -916,7 +916,7 @@
 		align-items: center;
 		gap: 0.75rem;
 		padding: 0.5rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		border: none;
 		text-align: left;
@@ -1009,7 +1009,7 @@
 		font-size: 0.875rem;
 		color: var(--ink-mid);
 		border: 1px dashed var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 	}
 
@@ -1028,7 +1028,7 @@
 	.modal-dialog {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1.5rem;
 		width: 90%;
 		max-height: 90vh;
@@ -1061,7 +1061,7 @@
 		align-items: center;
 		gap: 0.75rem;
 		padding: 0.75rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		border: none;
 		text-align: left;

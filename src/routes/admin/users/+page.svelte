@@ -833,7 +833,7 @@
 	.search-input {
 		padding: 8px 12px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-size: 0.75rem;
 		min-width: 160px;
 		background: var(--stone-warm);
@@ -848,7 +848,7 @@
 	.filter-select {
 		padding: 8px 12px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-size: 0.75rem;
 		background: var(--stone-warm);
 		color: var(--ink-bright);
@@ -939,7 +939,7 @@
 		justify-content: center;
 		width: 22px;
 		height: 22px;
-		border-radius: 5px;
+		border-radius: 0.625rem;
 		font-size: 0.6875rem;
 		font-weight: 700;
 		color: white;
@@ -979,7 +979,7 @@
 		background: var(--stone-warm);
 		color: var(--lamp-glow);
 		border: 1px solid var(--lamp-glow);
-		border-radius: 5px;
+		border-radius: 0.625rem;
 		font-size: 0.6875rem;
 		font-weight: 500;
 		cursor: pointer;
@@ -1020,7 +1020,7 @@
 		gap: 12px;
 		padding: 12px;
 		background: var(--night-deep);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		margin-bottom: 16px;
 	}
 
@@ -1038,7 +1038,7 @@
 		justify-content: center;
 		width: 40px;
 		height: 40px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 1.125rem;
 		font-weight: 700;
 		color: white;
@@ -1050,7 +1050,7 @@
 		justify-content: center;
 		width: 40px;
 		height: 40px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 1.125rem;
 		font-weight: 700;
 		background: var(--stone-warm);
@@ -1083,7 +1083,7 @@
 		padding: 14px;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		color: var(--ink-mid);
 		font-size: 0.8125rem;
 	}
@@ -1105,7 +1105,7 @@
 		padding: 12px;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		min-width: 0;
 	}
 
@@ -1166,7 +1166,7 @@
 		padding: 10px;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.detail-grid dt {
@@ -1207,7 +1207,7 @@
 		padding: 12px;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.activity-title {
@@ -1256,7 +1256,7 @@
 		width: 100%;
 		padding: 10px 12px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		font-size: 0.8125rem;
@@ -1298,7 +1298,7 @@
 
 		.distribution-card,
 		.table-card {
-			border-radius: 8px;
+			border-radius: 1rem;
 		}
 
 		.table-header {

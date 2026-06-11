@@ -459,7 +459,7 @@
 	.why-matters {
 		background: linear-gradient(180deg, var(--about-surface-strong) 0%, var(--about-surface) 100%);
 		border: 1px solid var(--about-border);
-		border-radius: 8px;
+		border-radius: 1rem;
 		box-shadow: var(--about-shadow);
 	}
 
@@ -515,7 +515,7 @@
 			height: 2rem;
 			background: color-mix(in srgb, var(--lamp-glow) 18%, var(--night-deep));
 			border: 1px solid color-mix(in srgb, var(--lamp-glow) 36%, transparent);
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			color: var(--lamp-glow);
 			font-family: var(--font-mono);
 			font-size: 0.85rem;
@@ -578,7 +578,7 @@
 		justify-content: center;
 		padding: 0.25rem 0.65rem;
 		border: 1px solid color-mix(in srgb, var(--type-color) 60%, transparent);
-		border-radius: 6px;
+		border-radius: 0.25rem;
 		color: var(--type-color);
 		font-family: var(--font-mono);
 		font-size: 0.74rem;
@@ -648,7 +648,7 @@
 		overflow: hidden;
 		background: var(--about-surface);
 		border: 1px solid var(--about-border);
-		border-radius: 8px;
+		border-radius: 1rem;
 		box-shadow: var(--about-shadow);
 
 		img {
@@ -680,7 +680,7 @@
 		padding: 0.65rem 1rem;
 		background: color-mix(in srgb, var(--stone-warm) 76%, transparent);
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		color: var(--ink-bright);
 		font-size: 0.9rem;
 		font-weight: 700;

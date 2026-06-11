@@ -137,7 +137,7 @@
 				padding: 0.75rem 1.25rem;
 				background: var(--stone-warm);
 				border: 1px solid var(--stone-warm);
-				border-radius: 12px;
+				border-radius: 1rem;
 				min-width: 100px;
 				color: var(--ink-mid);
 
@@ -154,7 +154,7 @@
 		text-align: center;
 		padding: 3rem 1.5rem;
 		background: var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		border: 1px solid var(--stone-warm);
 
 		h2 {
@@ -177,7 +177,7 @@
 
 	.draft-card {
 		background: var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		border: 1px solid var(--stone-warm);
 		overflow: hidden;
 		transition: all 0.15s ease;
@@ -228,7 +228,7 @@
 				background: var(--lamp-glow);
 				color: white;
 				padding: 0.2rem 0.625rem;
-				border-radius: 20px;
+				border-radius: 9999px;
 				font-size: 0.7rem;
 				font-weight: 600;
 			}
@@ -237,7 +237,7 @@
 				background: rgba(139, 92, 246, 0.1);
 				color: var(--lamp-glow);
 				padding: 0.2rem 0.625rem;
-				border-radius: 20px;
+				border-radius: 9999px;
 				font-size: 0.7rem;
 				font-weight: 600;
 			}

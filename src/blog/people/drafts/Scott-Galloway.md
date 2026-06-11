@@ -24,12 +24,12 @@ occupation:
   - 'Entrepreneur'
   - 'University Teacher'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Marketing'
-  - 'Digital Marketing'
-  - 'E-Commerce'
-  - 'Brand'
-  - 'Writing'
+  - 'Brand strategy'
+  - 'Big Tech criticism'
+  - 'Higher education economics'
+  - 'Young men and masculinity advocacy'
+  - 'Newsletter and podcast media'
+  - 'Stock investing'
 keywords:
   - 'Scott Galloway enneagram'
   - 'Scott Galloway type 8'
@@ -47,12 +47,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q29017701'
   - 'https://www.profgalloway.com/'
 faqs:
-  - question: 'What is Scott Galloway''s personality type?'
-    answer: 'The Enneagram describes Type 8, The Challenger, as driven by a core fear of being controlled, harmed, or rendered powerless. The response to that fear is to build strength, pursue autonomy, and protect the vulnerable. The deeper pattern: the person who felt unprotected becomes the person who protects everyone else.'
+  - question: "What is Scott Galloway's personality type?"
+    answer: "Scott Galloway is an Enneagram Type 8 (The Challenger). The pattern shows in the thirteen-year-old who walked into a Dean Witter office with $200 because no one else would teach him how money worked, the nine companies founded so no one could control him, the fifteen years he forgot how to cry, and the verdict 'It cost me my hair. It cost me my first marriage. And it was worth it.' The fight is always aimed at protecting someone — young men, priced-out students, workers."
     anchor: 'what-is-scott-galloways-personality-type'
-  - question: 'Why is Scott Galloway typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Marketing, Digital Marketing.'
-    anchor: 'why-is-scott-galloway-typed-as-an-enneagram-type-8'
+  - question: 'Why does Scott Galloway focus so much on young men?'
+    answer: "Because he was one: broke, fatherless, admitted to UCLA with a 2.23 GPA when admissions stood at 76%, and saved — by his own account — by a fraternity that gave him guardrails without which 'I likely would not have graduated.' His 2024 TED talk asked 'Do we love our children?' while pointing out UCLA now admits 9% and textbook prices rose 812% in thirty years. He's not scolding; he's coaching the kid he used to be."
+    anchor: 'why-galloway-fights-for-young-men'
+  - question: "Why didn't Scott Galloway cry for 15 years?"
+    answer: "He revealed on the TED Fixable podcast that he didn't cry from age 29 to 44 — not even when his mother died. 'I forgot how.' Two decades of working until 11 PM and treating vulnerability as structural weakness disconnected the circuitry, and the thaw came only after his first son was born when he was 42."
+    anchor: 'the-man-who-forgot-how-to-cry'
+  - question: "What is Scott Galloway's Resist and Unsubscribe campaign?"
+    answer: "Launched in 2025, it urges consumers to cancel Big Tech subscriptions as a form of democratic resistance, on the thesis that 'the most radical act in a capitalist society isn't marching, it's not spending.' It generated 1.5 million website visits in 21 days with no paid advertising."
+    anchor: 'the-most-radical-act-in-a-capitalist-society'
+  - question: 'How did Scott Galloway make his money?'
+    answer: "He credits one habit above all: investing in stocks since age 13, when he bought thirteen shares of Columbia Pictures and called his broker from a payphone every weekday for two years. He bought Amazon at $7 and held it for twelve years, founded nine companies including Prophet, Red Envelope, L2 (sold), and Section4 — and lost 70% of his net worth when Red Envelope cratered in 2008 before rebuilding past $100 million."
+    anchor: 'two-dimes-and-a-payphone'
 twitter: '@profgalloway'
 instagram: '@profgalloway'
 tiktok: '@profgalloway'

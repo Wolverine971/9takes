@@ -24,10 +24,12 @@ occupation:
   - 'Computer Scientist'
   - 'Engineer'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Entrepreneur'
-  - 'Computer Scientist'
-  - 'Engineer'
+  - 'Search engine architecture'
+  - 'PageRank algorithm'
+  - 'Moonshot R&D (Google X)'
+  - 'Autonomous vehicles (Waymo)'
+  - 'Electric aviation ventures'
+  - 'Corporate holding-company structure'
 keywords:
   - 'Larry Page enneagram'
   - 'Larry Page type 5'
@@ -47,15 +49,21 @@ citations:
   - 'https://achievement.org/achiever/larry-page/'
   - 'https://www.cnet.com/tech/services-and-apps/yahoo-buys-egroups-for-413-million/'
 faqs:
-  - question: 'What is Larry Page''s personality type?'
-    answer: 'The Type 5 — the Investigator, the Observer — runs on a single conviction: that understanding equals safety, and resources are limited. The world takes more than it gives, so you build a fortress of knowledge, ration your energy for the obsessions, and emerge only when you''ve mastered the ground.'
+  - question: "What is Larry Page's personality type?"
+    answer: "Larry Page is an Enneagram Type 5 (The Investigator), specifically a 5w6. The pattern shows in the secret flying-car factory where employees knew him only as 'GUS,' the dual-class stock structure that made Google immune to shareholder votes, the vocal-cord paralysis he kept private for fourteen years before funding research to fix it, and the five private islands where the most-Googled man on earth now lives unreachable."
     anchor: 'what-is-larry-pages-personality-type'
   - question: 'What is PageRank, and why is it named after Larry Page?'
-    answer: 'In March 1996, a Stanford graduate-student crawler began walking the web from a single starting point — Larry Page''s home page. The project was called BackRub. The thesis was simple and, at the time, almost no one''s idea: the importance of a webpage could be measured by counting the other webpages that linked to it. The same citation-analysis trick scholars had used for a century to rank academic papers, dropped onto the open chaos of the web.'
+    answer: "PageRank began in March 1996 as BackRub, a Stanford crawler that started walking the web from Page's own home page. Its thesis was that a webpage's importance could be measured by counting the other pages that linked to it — the citation-analysis trick scholars had used for a century to rank academic papers, applied to the open web. The ranking algorithm was named PageRank, putting Larry Page's name literally inside the machine that made him famous."
     anchor: 'what-is-pagerank-and-why-is-it-named-after-larry-page'
-  - question: 'Why is Larry Page typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Entrepreneur, Computer Scientist.'
-    anchor: 'why-is-larry-page-typed-as-an-enneagram-type-5'
+  - question: "Why did Larry Page hate being Google's CEO?"
+    answer: "Page liked engineering reviews, product strategy, and arguing whether a search result should load in 80 milliseconds or 60 — and disliked nearly everything else: earnings calls, journalist one-on-ones, townhalls that expected charisma. He killed Google Glass, sold Motorola, declared 'zero tolerance for fighting' in management meetings, then built Alphabet in 2015 so Sundar Pichai could take the cameras while Page took the moonshots."
+    anchor: 'why-larry-page-hated-being-googles-ceo'
+  - question: "What happened to Larry Page's voice?"
+    answer: "A cold in 1999 left Page with bilateral vocal cord paresis, a rare condition that had reduced his voice to a hoarse rasp by 2012. He told almost no one for fourteen years, disclosing it in a 2013 Google+ post only after skipping a shareholder meeting and an earnings call made silence impossible — and announced in the same note that he was funding research at the Voice Health Institute, reportedly in the tens of millions."
+    anchor: 'what-happened-to-larry-pages-voice'
+  - question: 'Where does Larry Page live now?'
+    answer: "Mostly on private islands — he owns at least five, including Cayo Norte in the Caribbean, bought for $32 million in 2018, and a compound on Tavarua in Fiji, where he reportedly entered during COVID through a program for the ultra-wealthy. He hasn't given a substantive press interview since around 2018, and though still on Alphabet's board, he almost never attends."
+    anchor: 'where-larry-page-lives-now'
 twitter: ''
 instagram: ''
 tiktok: ''

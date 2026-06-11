@@ -81,7 +81,7 @@
 		align-items: center;
 		justify-content: center;
 		background: var(--primary-subtle);
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		border: 1px solid var(--primary-subtle);
 		color: var(--lamp-glow);
 		font-weight: 700;
@@ -110,7 +110,7 @@
 	.faq-item {
 		background: var(--night-deep);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		overflow: hidden;
 		transition: all 0.2s ease;
 
@@ -215,7 +215,7 @@
 		}
 
 		.faq-item {
-			border-radius: 0.5rem;
+			border-radius: 0.625rem;
 		}
 
 		.faq-question {

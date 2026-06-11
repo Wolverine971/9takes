@@ -24,10 +24,11 @@ occupation:
   - 'Actor'
   - 'Model'
 knows_about:
-  - 'Acting'
-  - 'Modeling'
-  - 'Celebrity'
-  - 'Model'
+  - 'Runway and editorial modeling'
+  - 'Tequila brand building'
+  - 'Fashion campaigns'
+  - 'Equestrian riding'
+  - 'Anxiety management advocacy'
 keywords:
   - 'Kendall Jenner enneagram'
   - 'Kendall Jenner type 6'
@@ -47,12 +48,21 @@ citations:
   - 'https://www.imdb.com/name/nm2832525/'
   - 'https://www.kendallj.com'
 faqs:
-  - question: 'What is Kendall Jenner''s personality type?'
-    answer: 'Enneagram Sixes are driven by a core need for security in a world they''ve learned cannot be trusted to provide it. Their minds run constant calculations: Is this safe? Can I trust this person? What''s the backup plan if this falls apart? It''s not paranoia. It''s pattern recognition from someone who learned early that certainty is borrowed, never owned.'
+  - question: "What is Kendall Jenner's personality type?"
+    answer: "Kendall Jenner is an Enneagram Type 6 (The Loyalist). The pattern shows in anxiety so severe she couldn't board transatlantic flights without a family member beside her, stripping the Jenner name from her modeling cards to be taken seriously, banning her own family from fashion-show front rows, logging the fewest appearances of any sibling across 20 seasons of the family show, and the 'higher goddess' avatar her therapist built to help her ignore harmful comments."
     anchor: 'what-is-kendall-jenners-personality-type'
-  - question: 'Why is Kendall Jenner typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Modeling, Celebrity.'
-    anchor: 'why-is-kendall-jenner-typed-as-an-enneagram-type-6'
+  - question: 'Why did Kendall Jenner remove her last name from her modeling cards?'
+    answer: "In her words: 'I took my last name off of my name on like all of my modeling cards so that I was taken completely seriously.' She went further — Kris Jenner confirmed Kendall wouldn't allow the family to sit front row at her fashion shows. It worked: she dethroned Gisele Bundchen, who had held the title for fourteen years, to become the world's highest-paid model in 2017."
+    anchor: 'the-jenner-who-stripped-her-name'
+  - question: 'Does Kendall Jenner have panic attacks?'
+    answer: "Yes — she has described episodes where parts of her body go numb, sleep paralysis that left her scared to fall asleep, and feeling certain her heart was failing: 'Sometimes I think I'm dying.' She was hospitalized for exhaustion in 2015 and built a regimen of transcendental meditation, journaling, guarded sleep, and a childhood photo taped to her bathroom mirror. By 2024 she had been two years panic-attack-free."
+    anchor: 'the-girl-who-retreats-to-bathrooms'
+  - question: 'How did Kendall Jenner respond to the Pepsi ad backlash?'
+    answer: "After the 2017 ad was pulled within 24 hours, she went eight months without a public statement — Kim found her crying at home, and Kendall said 'it bothers me every single day.' Her recovery was a textbook Six-to-Three move: she launched 818 Tequila in 2021, which sold out its first year, won Best Reposado at the World Tequila Awards, and by 2024 operated in 34 countries, growing seven times faster than the industry average."
+    anchor: '818-and-the-armor-of-achievement'
+  - question: "What has Kendall Jenner said about Caitlyn Jenner's transition?"
+    answer: "She described it as 'kind of like mourning the loss of someone' — grief for a parent still alive but fundamentally changed. The most revealing line is 'She lets me call her dad — that's the last little piece of dad': the word 'lets' implies permission, a concession she asked for and was allowed to keep."
+    anchor: 'the-last-little-piece'
 twitter: '@KendallJenner'
 instagram: '@kendalljenner'
 tiktok: '@kendalljenner'

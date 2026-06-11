@@ -26,12 +26,11 @@ occupation:
   - 'Actor'
   - 'Dancer'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Acting'
-  - 'Dance-Pop'
-  - 'Pop Music'
-  - 'Electropop'
+  - 'Scandi-pop songwriting'
+  - 'Master recordings ownership'
+  - 'Independent label founding (Sommer House)'
+  - 'Feminist activism in pop'
+  - 'Self-taught vocal technique'
 keywords:
   - 'Zara Larsson enneagram'
   - 'Zara Larsson type 3'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm3706357/'
   - 'https://www.zaralarssonofficial.com/'
 faqs:
-  - question: 'What is Zara Larsson''s Personality Type?'
-    answer: 'The Enneagram describes nine core personality patterns, each driven by a fundamental motivation. Type 3, often called The Achiever, is driven by a deep need to feel valuable through accomplishment. The core fear is worthlessness: the terror that without the trophies, without the numbers, without the proof, there is nothing underneath.'
+  - question: "What is Zara Larsson's personality type?"
+    answer: "Zara Larsson is an Enneagram Type 3 (The Achiever) with a strong 2 wing. The pattern shows in refusing choir school at ten because she had to be a solo artist, winning Sweden's Talang that same year, writing 'The Ambition' about 3 AM scrolling through other women's success, deleting Twitter because she couldn't stop searching her own name, and her confession that hitting goals brings 'relief, not joy.'"
     anchor: 'what-is-zara-larssons-personality-type'
-  - question: 'Why is Zara Larsson typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Acting.'
-    anchor: 'why-is-zara-larsson-typed-as-an-enneagram-type-3'
+  - question: 'Why did Zara Larsson turn down Eurovision?'
+    answer: "When Eurovision 2024 came to Malmö in her home country, she was invited to perform the halftime show in front of over 100 million viewers — and said no. 'I didn't feel like I could go on that stage and stand for those who competed, Israel. It didn't feel right there and then,' she explained in her documentary Up Close. It's the same conviction that cost her a $3 million brand deal over an abortion comment she refused to walk back."
+    anchor: 'the-3-million-mouth'
+  - question: 'Does Zara Larsson own her music?'
+    answer: "Yes. She left TEN Music Group after eleven years and bought back her entire recording catalogue — nine billion streams' worth — partly catalyzed by Taylor Swift's masters battle. Label head Ola Håkansson told her, 'I don't want to be that person.' She then launched her own label, Sommer House, with Epic Records, calling the ownership 'such a safety net... I can be more free in my artistic choices.'"
+    anchor: 'the-machine-she-built-to-set-herself-free'
+  - question: 'How did Zara Larsson become famous?'
+    answer: "At ten she won Talang, Sweden's Got Talent, closing the final with Celine Dion's 'My Heart Will Go On' for a 500,000 kronor prize — with no vocal training, having taught herself by studying Beyoncé. After years of worrying her career was over, 'Lush Life' broke globally in 2015 with over a billion Spotify streams when she was seventeen."
+    anchor: 'the-girl-who-won-sweden-at-ten'
+  - question: "What is Zara Larsson's album Midnight Sun about?"
+    answer: "Midnight Sun (2025) pulls from trance, Brazilian funk, Eurodance, and ballroom, and is the first album where she co-wrote every track, made with a small circle including MNEK. It landed a Metacritic score of 89. Its emotional center is 'The Ambition,' a confessional about streaming numbers and self-worth — while 'Saturn's Return' carries her most radical line: 'It feels so good to know I don't know what I'm doing.'"
+    anchor: 'midnight-sun-and-the-sound-of-touching-grass'
 twitter: '@zaralarsson'
 instagram: '@zaralarsson'
 tiktok: '@zaralarsson'

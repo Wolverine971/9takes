@@ -28,12 +28,12 @@ occupation:
   - 'Voice Actor'
   - 'Businessperson'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Modeling'
-  - 'Film production'
-  - 'Voice acting'
-  - 'Business'
+  - 'Female-driven film and TV production'
+  - 'Media entrepreneurship (Hello Sunshine)'
+  - "Book curation (Reese's Book Club)"
+  - 'Fashion retail (Draper James)'
+  - 'Bestselling fiction co-writing'
+  - 'Brand building and storytelling'
 keywords:
   - 'Reese Witherspoon enneagram'
   - 'Reese Witherspoon type 3'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000702/'
   - 'https://reesesbookclub.com/'
 faqs:
-  - question: 'What is Reese Witherspoon''s Personality Type?'
-    answer: 'The Enneagram describes nine core personality patterns, each organized around a fundamental fear and desire. Type 3 — often called "The Achiever" — is organized around the fear of being worthless and the desire to feel valuable through accomplishment.'
+  - question: "What is Reese Witherspoon's personality type?"
+    answer: "Reese Witherspoon is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in the 'Little Miss Type A' nickname she earned at age seven, the seven months she cried through Walk the Line rehearsals while refusing to quit, the 'Oscar-induced paralysis' that followed her 2006 win, and the serial reinvention from actress to producer to CEO to bestselling author — capped by the roughly $900 million sale of Hello Sunshine."
     anchor: 'what-is-reese-witherspoons-personality-type'
-  - question: 'Why is Reese Witherspoon typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Modeling.'
-    anchor: 'why-is-reese-witherspoon-typed-as-an-enneagram-type-3'
+  - question: 'Why did Reese Witherspoon start Hello Sunshine?'
+    answer: "After years of being 'the second choice,' she stopped waiting for the phone to ring — co-founding Pacific Standard in 2012 to produce Wild, then formalizing Hello Sunshine in 2016 with the mission to 'change the narrative for women.' As she put it at Harvard Business School, 'Women were rarely the architects of their own stories.' Reese's Book Club doubled as a content pipeline, identifying women's stories and acquiring rights before anyone else saw their value."
+    anchor: 'from-actress-to-architect'
+  - question: "What happened during Reese Witherspoon's 2013 Atlanta arrest?"
+    answer: "When a state trooper pulled over Jim Toth for weaving between lanes, Reese got out of the car and asked, 'Do you know my name?' — then was arrested for disorderly conduct as the dashcam footage went viral. Two weeks later she went on Good Morning America and said, 'I have no idea what I was saying that night.' The article reads the question less as celebrity entitlement than as the existential question of a woman whose identity had been under construction since age seven."
+    anchor: 'do-you-know-my-name'
+  - question: 'Did Reese Witherspoon almost quit Walk the Line?'
+    answer: "Every day for seven months. She had terrible stage fright, had never sung professionally, and spent six months in voice lessons with Roger Love while learning the autoharp. She had panic attacks, cried through rehearsals daily, kept showing up anyway — and won the 2006 Academy Award for Best Actress."
+    anchor: 'six-months-of-crying-then-an-oscar'
+  - question: "Why did Reese Witherspoon's career collapse after her Oscar?"
+    answer: "She called it 'Oscar-induced paralysis': within months her marriage to Ryan Phillippe ended, and the next several years produced flops like Four Christmases and How Do You Know. 'You can't really be very creative when you feel like your brain is scrambled eggs,' she said. The article frames it as a textbook Type 3 stress collapse — the achiever becoming the avoider — that only ended when she rebuilt her identity as a producer."
+    anchor: 'the-shark-stopped-swimming'
 twitter: '@ReeseW'
 instagram: '@reesewitherspoon'
 tiktok: '@reesewitherspoon'

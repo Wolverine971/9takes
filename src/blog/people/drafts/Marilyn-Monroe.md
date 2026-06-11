@@ -28,12 +28,11 @@ occupation:
   - 'Autobiographer'
   - 'Playboy Playmate'
 knows_about:
-  - 'Film acting'
-  - 'Modeling'
-  - 'Film production'
-  - 'Singing'
-  - 'Acting'
   - 'Gentlemen Prefer Blondes'
+  - 'Some Like It Hot'
+  - 'Marilyn Monroe Productions'
+  - 'Actors Studio method acting'
+  - 'Studio contract negotiation'
 keywords:
   - 'Marilyn Monroe enneagram'
   - 'Marilyn Monroe type 6'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000054/'
   - 'https://marilynmonroe.com'
 faqs:
-  - question: 'What is Marilyn Monroe''s personality type?'
-    answer: 'The easy misread is Type 3 — The Achiever. The persona construction, the ambition, the business savvy, the relentless reinvention from factory girl to film icon. It looks like image-management. It looks like someone whose identity IS the performance.'
+  - question: "What is Marilyn Monroe's personality type?"
+    answer: "Marilyn Monroe is an Enneagram Type 6 (The Loyalist), specifically a 6w7. The pattern shows in the persona she wore as armor — 'Marilyn's like a veil I wear over Norma Jeane' — and could switch on and off at will on a New York street, in the loyalty tests she ran on DiMaggio, Miller, and the Strasbergs, in the stage fright that required 47 takes for a single line while she still became the biggest star alive, and in needing Paula Strasberg behind the director on every take for reassurance."
     anchor: 'what-is-marilyn-monroes-personality-type'
-  - question: 'Why is Marilyn Monroe typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Modeling, Film production.'
-    anchor: 'why-is-marilyn-monroe-typed-as-an-enneagram-type-6'
+  - question: 'Was Marilyn Monroe an Enneagram Type 3?'
+    answer: "Type 3 is the easy misread — the persona construction, the ambition, the reinvention from factory girl to film icon. But a Three builds an image and disappears behind it; Monroe always knew exactly where Norma Jeane ended and Marilyn began. Her own words separate the two: 'I never wanted to be Marilyn — it just happened. Marilyn's like a veil I wear over Norma Jeane.' The persona was a safety strategy, not an identity."
+    anchor: 'counterarguments-why-marilyn-monroe-might-not-be-type-6'
+  - question: 'Was Marilyn Monroe actually intelligent?'
+    answer: "Her personal library, auctioned by Christie's in 1999, held over 430 books — Dostoevsky, Tolstoy, Camus, a first-edition On the Road — many annotated in the margins. Photographer Eve Arnold caught her reading James Joyce's Ulysses on a Long Island playground bench in 1955 and defended the photo as unstaged. The poet Edith Sitwell, who discussed Rudolf Steiner with her, called her 'extremely intelligent' with 'great natural dignity.'"
+    anchor: '430-books-and-a-playground-in-long-island'
+  - question: 'How did Marilyn Monroe beat the Hollywood studio system?'
+    answer: "In 1954 Fox was paying her $1,500 a week while Jane Russell made $200,000 for Gentlemen Prefer Blondes, despite Monroe being the bigger draw. She founded Marilyn Monroe Productions with herself as president and 51% owner, survived suspension and personal threats from Darryl F. Zanuck, and held out for over a year. On New Year's Eve 1955, Fox submitted: $100,000 per film plus approval over directors and cinematographers."
+    anchor: 'the-shrewd-businesswoman'
+  - question: 'What happened to Marilyn Monroe at Payne Whitney?'
+    answer: "In February 1961, weeks after her divorce from Miller, her psychiatrist committed her to Payne Whitney Psychiatric Clinic under the pretense of a 'rest cure' — a locked ward with cement-block walls and barred windows. She smashed a chair through the glass, telling staff, 'If you are going to treat me like a nut I'll act like a nut.' Joe DiMaggio flew to New York, reportedly threatened to take the place apart 'piece of wood by piece of wood,' and secured her release."
+    anchor: 'cell-block-cement-glass'
 twitter: 'https://twitter.com/MarilynMonroe'
 instagram: 'https://www.instagram.com/marilynmonroe'
 tiktok: 'https://www.tiktok.com/@marilynmonroe'

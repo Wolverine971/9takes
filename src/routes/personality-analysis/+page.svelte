@@ -533,7 +533,7 @@
 			height: 2px;
 			background: var(--type-stripe);
 			transform: translateX(-50%);
-			border-radius: 1px;
+			border-radius: 9999px;
 		}
 	}
 

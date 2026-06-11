@@ -28,11 +28,11 @@ occupation:
   - 'Fashion Designer'
   - 'Film Producer'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Voice acting'
-  - 'Film production'
+  - 'Immersive character research'
+  - 'Psychology'
+  - 'Animal rights advocacy'
+  - 'Documentary producing'
+  - 'Veganism'
 keywords:
   - 'Rooney Mara enneagram'
   - 'Rooney Mara type 5'
@@ -50,12 +50,18 @@ citations:
   - 'https://www.wikidata.org/wiki/Q228766'
   - 'https://www.imdb.com/name/nm1913734/'
 faqs:
-  - question: 'What is Rooney Mara''s Personality Type?'
-    answer: 'At the core of Enneagram Type 5 is a scarcity economy — not of money, but of personal resources: time, energy, presence, emotional exposure. Fives learned early, in ways they often cannot fully articulate, that the world takes more than it gives. The response is systematic conservation: withdraw, observe, understand everything before engaging, release yourself only when you have fully prepared.'
+  - question: "What is Rooney Mara's personality type?"
+    answer: "Rooney Mara is an Enneagram Type 5 (The Investigator) — a type she has self-identified with. The pattern shows in the guardedness she traces back to age three in a thirty-person NFL-dynasty family, the nipple piercing she kept for years in case she played Lisbeth Salander again, the weeks she lived alone in Stockholm before Dragon Tattoo filming, the Bellevue psychiatric ward visits before Side Effects, and her total absence from social media."
     anchor: 'what-is-rooney-maras-personality-type'
-  - question: 'Why is Rooney Mara typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
-    anchor: 'why-is-rooney-mara-typed-as-an-enneagram-type-5'
+  - question: 'How did Rooney Mara prepare for The Girl with the Dragon Tattoo?'
+    answer: "Five days after accepting the role she was on a plane to Stockholm, where she trained in martial arts, skateboarding, and motorcycle riding, worked with a dialect coach, and lived alone for weeks absorbing the city before the 150-day shoot. Then came a single day of transformation: eyebrows bleached, hair chopped and dyed, and seven real piercings — one of which she kept for years because she intended to play Salander again."
+    anchor: 'what-understanding-everything-before-you-act-looks-like-in-practice'
+  - question: 'Is Rooney Mara related to the NFL Mara and Rooney families?'
+    answer: "Yes — her great-grandfathers founded both the New York Giants (Mara) and the Pittsburgh Steelers (Rooney), making her family the only one in NFL history positioned that way. The Mara children were required to attend every Sunday game for either franchise, and she traces her guardedness to that overload: 'Maybe it comes from going to Christmas and having 30 people all in your face at once.' Her sister Kate Mara, raised in the same house, built the opposite strategy."
+    anchor: 'the-family-she-was-born-into'
+  - question: 'Why is Rooney Mara so private?'
+    answer: "'The more people know about you, the less they can project who you are supposed to be,' she has said. She gives almost no interviews, avoids social media entirely, and describes a sensitivity so acute that her mood 'permeates the room' against her will — the wall exists because she feels too much, not too little. Even her most personal disclosure was quiet: she and Joaquin Phoenix named their son River after Joaquin's late brother, and married without announcement."
+    anchor: 'rooney-mara-off-the-screen'
 twitter: ''
 instagram: ''
 tiktok: ''

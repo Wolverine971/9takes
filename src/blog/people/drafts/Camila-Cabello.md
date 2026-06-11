@@ -31,12 +31,11 @@ occupation:
   - 'Women Composers'
   - 'Musician'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Acting'
-  - 'Music'
-  - 'Pop Music'
-  - 'Contemporary R&B'
+  - 'Pop songwriting'
+  - 'Latin pop'
+  - 'Hyperpop reinvention'
+  - 'Mental health and OCD advocacy'
+  - 'Immigrant rights advocacy'
 keywords:
   - 'Camila Cabello enneagram'
   - 'Camila Cabello type 6'
@@ -56,12 +55,21 @@ citations:
   - 'https://www.imdb.com/name/nm5305981/'
   - 'https://www.camilacabello.com/'
 faqs:
-  - question: 'What is Camila Cabello''s Personality Type?'
-    answer: 'Most personality typing communities call Camila a Type 4 (the emotional artist) or a Type 7 (the fun-loving adventurer). The reinventions look like Type 3 achievement. But none of these explain the engine.'
+  - question: "What is Camila Cabello's personality type?"
+    answer: 'Camila Cabello is an Enneagram Type 6 (The Loyalist), specifically counter-phobic. The pattern shows in the childhood OCD rituals she invented to keep her parents alive, the backstage rescue by authority figure Simon Cowell, the agonized exit from Fifth Harmony, the stack of frameworks she uses to contain anxiety (Stoicism, CBT, SSRIs, meditation), and reinventions like C,XOXO that run directly at what scares her.'
     anchor: 'what-is-camila-cabellos-personality-type'
-  - question: 'Why is Camila Cabello typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Acting.'
-    anchor: 'why-is-camila-cabello-typed-as-an-enneagram-type-6'
+  - question: 'Why did Camila Cabello leave Fifth Harmony?'
+    answer: "She was secretly writing her own songs on GarageBand in hotel rooms at 7 a.m. because she could no longer sing someone else's version of herself. The group gave her an ultimatum: solo work or the group, not both. She left in December 2016 saying 'I'm not happy here anymore, it doesn't feel aligned' — a messy departure she later attributed to having no conflict resolution skills."
+    anchor: 'waking-up-at-7-am-in-secret'
+  - question: 'Does Camila Cabello have OCD and anxiety?'
+    answer: "Yes — as a child she performed rituals like hugging her parents for exactly 11 seconds so they wouldn't die, and in a 2020 Wall Street Journal essay she described 'constant, unwavering, relentless anxiety' and OCD symptoms she hid out of shame. She now manages it with an SSRI, CBT, meditation, and Stoicism, and her therapist reframed the diagnosis as 'obsessionality' because the OCD label itself triggered her."
+    anchor: 'the-security-systems-of-a-seven-year-old'
+  - question: 'Why did Camila Cabello change her sound on C,XOXO?'
+    answer: "She felt typecast by 'Havana' and wanted to prove she could do more, so she bleached her hair, made hyperpop with childhood friend Jasper Harris and producer El Guincho, and released a record The Guardian called 'pretty radical to the point of being occasionally baffling.' She described the album as armor that is both vulnerability and bravado — doing the scary thing precisely because it scared her."
+    anchor: 'the-havana-girl-who-made-hyperpop'
+  - question: 'How did Camila Cabello come to the United States?'
+    answer: 'When she was six or seven, her mother packed a backpack with a Winnie the Pooh journal and a doll, told her they were going to Disney World, and crossed the Mexican border into the U.S. instead. Her mother went from architect in Cuba to working at Marshalls, and more than a year later her father swam the Rio Grande to reunite with the family.'
+    anchor: 'the-disney-world-lie'
 twitter: 'Camaborello'
 instagram: 'camaborello'
 tiktok: 'camilacabello'

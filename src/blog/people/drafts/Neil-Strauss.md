@@ -24,11 +24,12 @@ occupation:
   - 'Biographer'
   - 'Music Journalist'
 knows_about:
-  - 'Writing'
-  - 'Digital media'
-  - 'Writer'
-  - 'Biographer'
-  - 'Music Journalist'
+  - 'Celebrity memoir ghostwriting'
+  - 'Pickup artistry and its aftermath'
+  - 'Music journalism (Rolling Stone, New York Times)'
+  - 'True-crime podcasting'
+  - 'Survivalism and emergency preparedness'
+  - 'Book-writing instruction'
 keywords:
   - 'Neil Strauss enneagram'
   - 'Neil Strauss type 4'
@@ -49,12 +50,21 @@ citations:
   - 'https://www.hollywoodreporter.com/movies/movie-features/game-author-neil-strauss-how-881437/'
   - 'https://slate.com/human-interest/2015/10/neil-strauss-10-years-after-his-controversial-book-i-look-back-on-the-game-and-cringe.html'
 faqs:
-  - question: 'What is Neil Strauss''s personality type?'
-    answer: 'Enneagram Type 4, "The Individualist," organizes its entire life around a single conviction: something essential is missing inside me, and if I can find it, I will finally be real. Fours grow up believing that other people received a self at birth and they did not. Their lives become a hunt for the missing piece — through intensity, art, love, and the next experience that might finally feel authentic.'
+  - question: "What is Neil Strauss's personality type?"
+    answer: "Neil Strauss is an Enneagram Type 4 (The Individualist), specifically a 4w5 sexual subtype. The pattern shows in 'Style,' the alter ego he built to become someone who could be chosen, the way every book — rock stars, pickup artists, survivalists, sex addicts — was a candidate identity he tried on and shed, the St. Kitts passport as escape-hatch fantasy, the operatic intensity of cheating in a church parking lot, and a book literally titled Everyone Loves You When You're Dead."
     anchor: 'what-is-neil-strausss-personality-type'
-  - question: 'Why is Neil Strauss typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Digital media, Writer.'
-    anchor: 'why-is-neil-strauss-typed-as-an-enneagram-type-4'
+  - question: "What was Neil Strauss's childhood like?"
+    answer: "His mother refused to give him keys to his own house — as policy, not punishment — chased away girls he dated, and made him the nightly confidant of her marriage grievances; a therapist at The Meadows later named it emotional incest, telling him: 'Your mother wants to be in a relationship with you.' His father existed mostly as a secret — Neil discovered evidence of an amputee fetish in his closet — and his mother forbade him from ever raising it."
+    anchor: 'the-boy-who-wasnt-given-keys-to-his-own-house'
+  - question: 'Does Neil Strauss regret writing The Game?'
+    answer: "Ten years after publication he told Slate: 'Today, I look back on the book and cringe. I wouldn't write it now.' He left the seduction community while the men around him kept building — Mystery went to VH1, and Real Social Dynamics kept running even after its founders faced public allegations and country bans. His own framing: 'I look at the pickup-artist world like college. I went there and learned a lot and left.'"
+    anchor: 'how-neil-strauss-built-style-out-of-spare-parts'
+  - question: 'Why did Neil Strauss go to sex rehab?'
+    answer: "He repeatedly cheated on Ingrid De La O — at one point with her friends, in a car parked behind a church — and she gave him an ultimatum: treatment or it's over. At The Meadows, a therapist connected his mother's enmeshment to his inability to stay faithful, and the notes became The Truth. He married Ingrid in 2013, their son Tenn was born in 2015, and they divorced in October 2018: he wrote the recovery manual before he could live it."
+    anchor: 'why-neil-strauss-went-to-sex-rehab-to-learn-monogamy'
+  - question: 'What is Neil Strauss doing now?'
+    answer: "He co-wrote Rick Rubin's The Creative Act, which entered the New York Times bestseller list at number one in 2023, after his podcast To Live and Die in LA won Apple's Podcast of the Year in 2019 with over fifteen million first-season downloads. He runs The Society International mastermind and the Writers' Roundtable book-writing course, launched the Russian 'sexpionage' series To Die For in 2024, and has teased an unannounced book collaboration since January 2025."
+    anchor: 'he-turned-the-search-into-a-classroom'
 twitter: 'neilstrauss'
 instagram: 'neilstrauss'
 content_quality:

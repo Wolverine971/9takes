@@ -146,7 +146,7 @@
 		z-index: 3;
 		margin: 1rem;
 		border: 1px solid rgba(var(--primary-rgb), 0.5);
-		border-radius: 0.6rem;
+		border-radius: 0.625rem;
 		display: flex;
 		align-items: center;
 		width: 100%;

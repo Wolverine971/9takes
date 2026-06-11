@@ -1080,7 +1080,7 @@
 	.panel-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 14px;
 	}
 
@@ -1108,7 +1108,7 @@
 	.field select {
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 8px 10px;
 		color: var(--ink-bright);
 	}
@@ -1146,7 +1146,7 @@
 	.summary-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 14px;
 		display: flex;
 		flex-direction: column;
@@ -1207,7 +1207,7 @@
 	.table-wrapper {
 		overflow-x: auto;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.data-table {
@@ -1563,7 +1563,7 @@
 
 	.acquisition-source-row.is-selected {
 		background: color-mix(in srgb, var(--lamp-glow) 6%, transparent);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding-left: 8px;
 		padding-right: 8px;
 	}

@@ -287,7 +287,7 @@
 		}
 
 		.pop-card {
-			border-radius: 0.75rem;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -303,7 +303,7 @@
 		}
 
 		.pop-card {
-			border-radius: 0.5rem;
+			border-radius: 0.625rem;
 		}
 	}
 
@@ -318,7 +318,7 @@
 		}
 
 		.pop-card {
-			border-radius: 0.4rem;
+			border-radius: 0.25rem;
 		}
 	}
 </style>

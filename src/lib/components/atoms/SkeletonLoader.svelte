@@ -59,11 +59,11 @@
 		}
 
 		&--rectangular {
-			border-radius: 8px;
+			border-radius: 0.625rem;
 		}
 
 		&--card {
-			border-radius: 12px;
+			border-radius: 1rem;
 			box-shadow: 0 0 15px color-mix(in srgb, var(--lamp-glow) 10%, transparent);
 		}
 

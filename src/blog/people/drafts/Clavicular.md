@@ -24,11 +24,11 @@ occupation:
   - 'Online Streamer'
   - 'Influencer'
 knows_about:
-  - 'Incelosphere'
-  - 'Manosphere'
-  - 'Digital media'
-  - 'Online Streamer'
-  - 'Influencer'
+  - 'Looksmaxxing'
+  - 'Kick live streaming'
+  - 'Appearance-rating systems (PSL, SMV)'
+  - 'Steroid and peptide regimens'
+  - 'Blackpill forum culture'
 keywords:
   - 'Clavicular enneagram'
   - 'Clavicular type 4'
@@ -46,12 +46,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q138026713'
   - 'https://www.imdb.com/name/nm18224456/'
 faqs:
-  - question: 'What is Clavicular''s personality type?'
-    answer: 'The Enneagram''s Type 4 is the Individualist — the kid who looked across the dinner table at his own family and decided everyone else got a manual he didn''t. Type 4s build identity from the texture of their not-belonging. The wound becomes the self. Authenticity gets defined as whatever feels most uniquely broken.'
+  - question: "What is Clavicular's personality type?"
+    answer: "Clavicular is an Enneagram Type 4 (The Individualist), specifically a Sexual 4w3. The pattern shows in naming himself after the bone he believed determined his worth, envy aimed at faces rather than money or status, a podcast appearance he titled 'I Enjoy Nothing,' and the way he monetizes his own collapse — calling his substance use 'a cope trying to feel neurotypical while being in public' after overdosing on stream."
     anchor: 'what-is-claviculars-personality-type'
-  - question: 'Why is Clavicular typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Incelosphere, Manosphere, Digital media.'
-    anchor: 'why-is-clavicular-typed-as-an-enneagram-type-4'
+  - question: "What is Clavicular's real name and backstory?"
+    answer: 'Clavicular is Braden Peters, born in 2005 in Hoboken, New Jersey. He started ordering testosterone off the internet shortly before turning fifteen, was kicked out by his parents and moved in with his grandmother, was expelled from Sacred Heart University after three weeks when forum users reported the testosterone in his dorm, and now earns more than $100,000 a month streaming on Kick.'
+    anchor: 'the-boy-before-the-bone'
+  - question: 'What drugs does Clavicular take?'
+    answer: "His publicly disclosed stack includes testosterone cypionate (220mg weekly since age fourteen), Anavar, retatrutide at its maximum clinical-trial dose, the beta-blocker nebivolol, Melanotan II, Accutane, dutasteride, unprescribed Adderall, and — according to sources including Adin Ross — crystal methamphetamine as an appetite suppressant. He sells a branded 'Clavicular Ascension Stack' of twelve compounds through a peptide company."
+    anchor: 'every-drug-clavicular-takes-and-what-each-one-does-to-him'
+  - question: "Why doesn't Clavicular want sex anymore?"
+    answer: "Six years of testosterone injections that began at fourteen have rendered him infertile and, by his own account, cost him both sexual function and interest — he calls not having sex 'a big time saver.' On Impaulsive in May 2026 he said he would choose a full head of hair over functional genitals, because the real transaction in looksmaxxing is 'mogging' other men, with women functioning as scorecard entries rather than people."
+    anchor: 'why-clavicular-doesnt-want-sex-anymore'
+  - question: 'Why are parents worried about Clavicular?'
+    answer: "His audience is heavily Gen Alpha — analyst Chloe Combi called it 'a huge and growing Gen A boy following.' A Rolling Stone investigation of his $25,000-a-head coaching program found apparent sixteen- and seventeen-year-olds asking about bone smashing and how to fraudulently obtain ADHD medications, while course materials framed universities as hunting grounds and instructed members 'No resistance? Inch closer.'"
+    anchor: 'who-watches-clavicular-and-why-parents-should-worry'
 twitter: 'Clavicular0'
 instagram: 'clavicular0'
 tiktok: '@kingclavicular'

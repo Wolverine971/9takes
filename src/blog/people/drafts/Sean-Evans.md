@@ -26,10 +26,11 @@ occupation:
   - 'YouTuber'
   - 'Television Producer'
 knows_about:
-  - 'Podcasting'
-  - 'YouTube content creation'
-  - 'Television production'
-  - 'Digital media'
+  - 'Celebrity interviewing'
+  - 'Hot Ones'
+  - 'Interview research and preparation'
+  - 'Hot sauce and spicy food culture'
+  - 'YouTube show formats'
 keywords:
   - 'Sean Evans enneagram'
   - 'Sean Evans type 6'
@@ -49,12 +50,21 @@ citations:
   - 'https://www.eonline.com/news/1432401/keke-palmer-hot-ones-sean-evans-spark-romance-rumors-after-podcast'
   - 'https://podcasts.apple.com/us/podcast/baby-this-is-keke-palmer/id1668446854'
 faqs:
-  - question: 'What is Sean Evans''s personality type?'
-    answer: 'Type 6s are wired around a question: what could go wrong, and am I ready for it? They prepare. They vet. They build relationships that hold under pressure, because the pressure is coming. They distrust their own footing more than anyone else does. Their best version is steady, loyal, and unusually competent under fire. Their worst version cannot put the worry down.'
+  - question: "What is Sean Evans's personality type?"
+    answer: "Sean Evans is an Enneagram Type 6 (The Loyalist), specifically a 6w5 who runs counterphobic on camera. The pattern shows in the ten days of research behind every Hot Ones episode, the episodes he still can't watch back because 'there's a lack of refinement that is painful for me to watch,' the decade-plus loyalty to co-creator Chris Schonberger and his own brother Gavin on the research team, and his description of success as Fight Club's last scene — 'you wonder when your building's going to give way.'"
     anchor: 'what-is-sean-evanss-personality-type'
-  - question: 'Why is Sean Evans typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Podcasting, YouTube content creation, Television production.'
-    anchor: 'why-is-sean-evans-typed-as-an-enneagram-type-6'
+  - question: 'How does Sean Evans prepare for Hot Ones interviews?'
+    answer: "Three people read everything a guest has ever produced — Evans watches old video, Schonberger listens to podcasts, his brother Gavin reads print — then merge notes into ten topics, each a thesis question with three or four follow-ups. One episode takes ten days from greenlight to publish. His signature move: spotting the moment in a decade-old interview where a host moved past a question the guest wanted to keep talking about, and bringing it back."
+    anchor: 'how-sean-evans-prepares-for-every-hot-ones-interview'
+  - question: 'Does Sean Evans actually eat the wings on Hot Ones?'
+    answer: "Every wing, every episode, including The Last Dab — more than three thousand across the run. He describes his response to Carolina Reapers as Pavlovian: his body starts rejecting the sauce before he has tasted anything."
+    anchor: 'what-hot-ones-did-to-the-celebrity-interview'
+  - question: 'Who owns Hot Ones now?'
+    answer: "In December 2024, an $82.5 million all-cash acquisition led by Soros Fund Management spun First We Feast out of BuzzFeed — a deal Evans helped lead from the buy side. Co-creator Chris Schonberger took the CEO seat, Evans took a newly created chief creative officer title while staying on as host, and Mythical Entertainment and Crooked Media joined the cap table."
+    anchor: 'sean-evans-his-little-brother-and-the-friend-with-the-wing-idea'
+  - question: 'Are Sean Evans and Keke Palmer together?'
+    answer: "It is not a confirmed relationship. Palmer has been a repeat Hot Ones guest, kissed Evans in 2025 after his public crush comment, and reunited with him on her podcast in May 2026, where both joked about the internet wanting them together — a host-to-host chemistry where Palmer turns the flirtation into performance and Evans has to become part of the bit."
+    anchor: 'what-hot-ones-did-to-the-celebrity-interview'
 twitter: 'seanseaevans'
 instagram: 'seanseaevans'
 production_pretext:

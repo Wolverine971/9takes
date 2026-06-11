@@ -25,11 +25,11 @@ occupation:
   - 'Celebrity'
   - 'Entrepreneur'
 knows_about:
-  - 'Business'
-  - 'Entrepreneurship'
-  - 'Businessperson'
-  - 'Celebrity'
-  - 'Entrepreneur'
+  - 'Dating app design (Bumble)'
+  - 'Women-make-the-first-move product strategy'
+  - 'Early Tinder marketing and campus growth'
+  - 'Cyberflashing legislation advocacy'
+  - 'Founder-led brand storytelling'
 keywords:
   - 'Whitney Wolfe Herd enneagram'
   - 'Whitney Wolfe Herd type 3'
@@ -47,12 +47,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q19967707'
   - 'https://www.imdb.com/name/nm7617070/'
 faqs:
-  - question: 'What is Whitney Wolfe Herd''s personality type?'
-    answer: 'Every Type 3 child runs the same equation in the background. Achievement equals love. Average equals invisible. The 3 learns, early and without anyone explaining it, that the fastest way to be safe in a room is to be impressive in it. Over years, that adaptation hardens into an identity. The self becomes whatever version of you the world claps for.'
+  - question: "What is Whitney Wolfe Herd's personality type?"
+    answer: "Whitney Wolfe Herd is an Enneagram Type 3 (The Achiever), most likely a 3w2 with a social subtype. The pattern shows in her own thesis — 'my ambition comes from abusive relationships... I've never had this healthy male relationship until I created it' — in building Bumble as a product-shaped answer to her Tinder ouster, in staging the IPO bell-ringing with her toddler on her hip, in admitting she couldn't work for anybody else, and in the 'calm down' line she reached for when her layoff call filled with grief."
     anchor: 'what-is-whitney-wolfe-herds-personality-type'
-  - question: 'Why is Whitney Wolfe Herd typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Entrepreneurship, Businessperson.'
-    anchor: 'why-is-whitney-wolfe-herd-typed-as-an-enneagram-type-3'
+  - question: 'Why did Whitney Wolfe Herd sue Tinder?'
+    answer: "Her 2014 lawsuit quoted texts in which her ex and colleague Justin Mateen, Tinder's CMO, called her a 'slut' and a 'whore,' and alleged he and CEO Sean Rad stripped her co-founder title because a young woman 'made the company seem like a joke.' It settled with IAC for just over $1 million without admission of wrongdoing. The internet pile-on that followed — rape and death threats included — sent her into depression, insomnia, and drinking; her own word for it was 'broken.'"
+    anchor: 'why-whitney-wolfe-herd-sued-tinder--and-why-it-almost-killed-her'
+  - question: 'How did Whitney Wolfe Herd come up with Bumble?'
+    answer: "After the Tinder settlement she first considered a women-only social network, then turned down Badoo founder Andrey Andreev's offer to become his CMO — because she couldn't work for someone else. When he asked what she'd build instead, she pitched the idea from a private frustration: 'I always wanted a scenario where the guy didn't have my number but I had his. What if women make the first move?' Bumble launched in late 2014 and by 2021 was the youngest woman-led IPO in U.S. history."
+    anchor: 'the-make-the-first-move-engine'
+  - question: 'Why did Whitney Wolfe Herd return as Bumble CEO?'
+    answer: "She stepped down to executive chair at the end of 2023 as growth stalled; her successor Lidiane Jones lasted just over a year. In January 2025, with the stock down more than 90% from the IPO, Bumble announced her return. She framed it as having 'let go of her ego' — and within months announced layoffs of roughly 30% of the workforce, telling staff she worried Bumble might not survive 2026 if she didn't act."
+    anchor: 'why-whitney-wolfe-herd-came-back-as-bumble-ceo'
+  - question: "What was Whitney Wolfe Herd's 'calm down' moment?"
+    answer: "On a June 2025 company-wide video call announcing the 240-person layoff, the chat filled with thumbs-down emojis and she snapped: 'I see a lot of freaking-out emojis, y'all need to calm down.' The clip leaked and Inc. called it a master class in how not to deliver layoff news. The essay reads it as a Type 3 stress reflex — reaching for the script that resets the room instead of meeting the grief in it."
+    anchor: 'the-calm-down-moment-what-happens-when-a-type-3-is-cornered'
 twitter: 'WhitWolfeHerd'
 instagram: 'whitwolfeherd'
 production_pretext:

@@ -586,7 +586,7 @@
 	.progress-bar {
 		height: 6px;
 		background: var(--stone-warm);
-		border-radius: 3px;
+		border-radius: 9999px;
 		overflow: hidden;
 	}
 
@@ -610,7 +610,7 @@
 		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
 		color: var(--error);
 		padding: 0.75rem 1rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		margin-bottom: 1rem;
 		font-size: 0.875rem;
 	}
@@ -620,7 +620,7 @@
 		display: none;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
-		border-radius: 12px;
+		border-radius: 1rem;
 		box-shadow: var(--shadow-md);
 		padding: 1.5rem;
 		margin-bottom: 1rem;
@@ -663,7 +663,7 @@
 		width: 100%;
 		padding: 0.75rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 16px;
 		font-family: inherit;
 		transition:
@@ -720,7 +720,7 @@
 		gap: 0.5rem;
 		padding: 0.75rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s;
 		background: var(--night-deep);
@@ -776,7 +776,7 @@
 		text-align: center;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
-		border-radius: 12px;
+		border-radius: 1rem;
 		box-shadow: var(--shadow-md);
 		padding: 3rem 2rem;
 	}
@@ -804,7 +804,7 @@
 		background: var(--night-deep);
 		border: 1px solid var(--stone-edge);
 		padding: 1rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 0.9rem;
 		color: var(--ink-mid);
 		margin-bottom: 2rem;

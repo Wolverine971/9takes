@@ -35,12 +35,11 @@ occupation:
   - 'Entrepreneur'
   - 'Collector'
 knows_about:
-  - 'Modeling'
-  - 'Entrepreneurship'
-  - 'Model'
-  - 'Fashion Designer'
-  - 'Influencer'
-  - 'Entrepreneur'
+  - 'Cosmetics brand building'
+  - 'Beauty and lip products'
+  - 'Social media branding'
+  - 'Fashion designer collaborations'
+  - 'Skincare lines'
 keywords:
   - 'Kylie Jenner enneagram'
   - 'Kylie Jenner type 9'
@@ -62,12 +61,21 @@ citations:
   - 'https://time.com/5170990/kylie-jenner-snapchat-stock-value/'
   - 'https://www.refinery29.com/en-us/2017/08/166944/life-of-kylie-jenner-fake-snapchat-persona'
 faqs:
-  - question: 'What is Kylie Jenner''s personality type?'
-    answer: 'Kylie Jenner was nine years old when cameras moved into her house.'
+  - question: "What is Kylie Jenner's personality type?"
+    answer: "Kylie Jenner is an Enneagram Type 9 (The Peacemaker), specifically a 9w8. The pattern shows in hiding an entire pregnancy for nine months, going dark for seven weeks after Astroworld, skipping three consecutive Golden Globes red carpets so Timothée Chalamet could have the frame, telling a therapist on camera 'I've been putting on a different persona to the world' — and the 8-wing flashes, like the offhand tweet that wiped $1.3 billion off Snapchat's stock."
     anchor: 'what-is-kylie-jenners-personality-type'
-  - question: 'Why is Kylie Jenner typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Modeling, Entrepreneurship, Model.'
-    anchor: 'why-is-kylie-jenner-typed-as-an-enneagram-type-9'
+  - question: 'Why did Kylie Jenner hide her pregnancy with Stormi?'
+    answer: "Pregnant at 20, she hid it from KUWTK producers, posted old photos to fake normalcy, and stayed inside for months: 'it was just a lot for me personally... I think it was just something that I needed to go through by myself.' She announced only after the birth, on her own terms — the same total-shutdown mechanism that produced her seven-week silence after the Astroworld tragedy."
+    anchor: 'why-kylie-jenner-disappears-when-chaos-hits'
+  - question: 'Why is Kylie Jenner a Type 9 and not a Type 3 like Kim Kardashian?'
+    answer: "Look at conflict response: when the Forbes 'self-made billionaire' controversy erupted, Kylie acknowledged both sides and moved on; when the Jordyn Woods scandal exploded, Kim posted while Kylie went silent. Type 3s fight for their image — Kylie withdraws, smooths things over, and looks for exits. Her business success runs on steady consistency rather than aggressive reinvention: the same aesthetic evolved gradually across a decade."
+    anchor: 'why-kylie-jenner-is-type-9-not-type-3-or-type-4'
+  - question: 'Why does Kylie Jenner skip red carpets with Timothée Chalamet?'
+    answer: "Three consecutive Golden Globes she snuck in through side entrances and joined him inside — in 2025 because 'it was Timothee's moment of glory' and she didn't want to hog the limelight. She also wore his film's orange palette to the Marty Supreme premiere and visited his Dune set in Budapest. It's the Type 9 merging pattern pointed in a healthier direction: she enters his world, but this one is calm instead of chaos."
+    anchor: 'timothe-chalamet-and-kylie-jenner'
+  - question: 'Did Kylie Jenner have postpartum depression?'
+    answer: "Yes — after both pregnancies. The depression after Stormi lasted a full year, and Aire's was similarly prolonged; she described being 'on the phone with my mom all day, hysterically crying' while trying to name her son. Her advice to other mothers — 'Stay inside that moment, even if it is painful' — is striking from a woman whose lifelong pattern has been leaving painful moments."
+    anchor: 'motherhood-what-leaks-through'
 twitter: 'KylieJenner'
 instagram: 'kyliejenner'
 tiktok: 'kyliejenner'

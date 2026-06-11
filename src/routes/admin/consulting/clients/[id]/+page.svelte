@@ -74,7 +74,7 @@
 
 <p>Please take 10-15 minutes to complete this intake form:</p>
 
-<p><a href="${intakeUrl}" style="display: inline-block; background: #b45309; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500;">Complete Intake Form</a></p>
+<p><a href="${intakeUrl}" style="display: inline-block; background: #b45309; color: white; padding: 12px 24px; border-radius: 10px; text-decoration: none; font-weight: 500;">Complete Intake Form</a></p>
 
 <p>Your responses help me prepare for a more effective first session. Everything you share is confidential.</p>
 
@@ -851,7 +851,7 @@
 	.section-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -995,7 +995,7 @@
 		background: color-mix(in srgb, var(--success) 22%, transparent);
 		color: var(--success-text);
 		padding: 0.0625rem 0.25rem;
-		border-radius: 3px;
+		border-radius: 0.25rem;
 		font-size: 0.65rem;
 		margin-left: 0.25rem;
 	}
@@ -1047,7 +1047,7 @@
 		margin-top: 0.75rem;
 		padding: 0.75rem;
 		background: var(--night-deep);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.intake-link-label {
@@ -1105,7 +1105,7 @@
 		gap: 1rem;
 		padding: 0.5rem;
 		background: var(--night-deep);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.session-item.upcoming {
@@ -1149,7 +1149,7 @@
 	.session-status {
 		font-size: 0.7rem;
 		padding: 0.0625rem 0.375rem;
-		border-radius: 3px;
+		border-radius: 0.25rem;
 	}
 
 	.session-link {
@@ -1168,7 +1168,7 @@
 	.note-item {
 		padding: 0.75rem;
 		background: var(--night-deep);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		border-left: 3px solid var(--stone-warm);
 	}
 
@@ -1236,7 +1236,7 @@
 		text-align: center;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		color: var(--ink-bright);
 		text-decoration: none;
 		font-size: 0.8rem;
@@ -1327,7 +1327,7 @@
 	.form-group textarea {
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		font-family: inherit;
 	}
@@ -1363,7 +1363,7 @@
 
 	.modal {
 		background: var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		width: 100%;
 		max-width: 450px;
 	}

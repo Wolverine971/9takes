@@ -28,12 +28,11 @@ occupation:
   - 'Composer'
   - 'Television Personality'
 knows_about:
-  - 'Songwriting'
-  - 'Singing'
-  - 'Music production'
-  - 'Music'
-  - 'Pop Music'
-  - 'Popular Music'
+  - 'All About That Bass'
+  - 'Doo-wop pop songwriting'
+  - "Workin' On It podcast"
+  - 'Panic disorder advocacy'
+  - 'Songwriting for other artists'
 keywords:
   - 'Meghan Trainor enneagram'
   - 'Meghan Trainor type 6'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm6574838/'
   - 'https://www.meghan-trainor.com'
 faqs:
-  - question: 'What is Meghan Trainor''s Personality Type?'
-    answer: 'She''s a 6w7 — the core anxiety of the Loyalist softened by the Seven wing''s bright, upbeat affect. That combination is what produces the bubblegum sound on top of the panic disorder underneath. Sixes don''t fake happiness. They manufacture it, because the alternative — sitting with the buzzing nervous system and the "what if" loop — is unbearable. Writing a song called "Me Too" with finger-snaps and mouth pops is Trainor''s version of what the Type 6 mind does when it needs relief: produce a bright, rhythmic, reassuring object and put it on repeat.'
+  - question: "What is Meghan Trainor's personality type?"
+    answer: "Meghan Trainor is an Enneagram Type 6 (The Loyalist), specifically a 6w7. The pattern shows in the panic disorder diagnosed after her vocal cord surgeries, the compulsive public naming of her antidepressant and its exact dose, the Encino compound where both brothers live with her and her parents visit almost daily, saying 'I love you' six dates in to the man who passed the safety test, and 'All About That Bass' working as a spell — reassuring the writer, not the listener."
     anchor: 'what-is-meghan-trainors-personality-type'
-  - question: 'Why is Meghan Trainor typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Songwriting, Singing, Music production.'
-    anchor: 'why-is-meghan-trainor-typed-as-an-enneagram-type-6'
+  - question: 'Does Meghan Trainor have panic disorder?'
+    answer: "Yes. Her first panic attack hit backstage at CBS while announcing the 2017 Grammy nominations — her body 'vibrating nonstop' the week of her second vocal cord surgery. She was diagnosed with panic disorder and takes Citalopram, naming the drug and the twenty-milligram dose publicly: 'That medicine saved me, saved my life, saved my career.' She was later diagnosed with PTSD after her son Riley's NICU stay, and had another panic attack after her second child in 2023."
+    anchor: 'when-the-voice-gave-out'
+  - question: 'What is All About That Bass actually about?'
+    answer: "Less a body-positivity manifesto than a 22-year-old writing confidence into a hook and listening until her nervous system half-believed it — 'She is not reassuring the listener. She is reassuring the writer.' Every major label passed on the demo until Epic said yes, and co-writer Kevin Kadish refused to re-cut the doo-wop sound with synths. It spent eight weeks at number one in 2014 and went four times platinum."
+    anchor: 'all-about-that-bass-was-a-spell'
+  - question: 'Is Meghan Trainor on Ozempic?'
+    answer: "She named the medication herself in 2024: Mounjaro, a GLP-1 she started after her second son Barry was born in 2023, alongside a dietitian and trainer, losing roughly sixty pounds. Some fans who built their self-worth around 'All About That Bass' felt betrayed, and she cried publicly over the criticism — but the song was always a spell against her own body anxiety, and the medication was simply a better tool for the same fear."
+    anchor: 'why-meghan-trainors-weight-loss-broke-her-fans'
+  - question: 'Why does Meghan Trainor live with her brothers?'
+    answer: "After recovering from panic disorder, she bought a house in Encino and moved her older brother Ryan and younger brother Justin into it, with her parents a short visit away. Ryan co-hosts her podcast Workin' On It and Justin produces it — every creative collaborator of consequence is someone she has known since she could walk. It is a Type 6 pulling the exact handful of humans she trusts completely inside the same perimeter."
+    anchor: 'why-meghan-trainor-built-a-compound'
 twitter: 'Meghan_Trainor'
 instagram: 'meghantrainor'
 tiktok: 'meghantrainor'

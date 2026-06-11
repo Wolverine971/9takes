@@ -27,11 +27,12 @@ occupation:
   - 'Actor'
   - 'Model'
 knows_about:
-  - 'Acting'
-  - 'Modeling'
   - 'Film acting'
-  - 'Actor'
-  - 'Model'
+  - 'Character transformation'
+  - 'Dialect and accent work'
+  - 'Action and stunt training'
+  - 'Cuban conservatory acting tradition'
+  - 'Spanish television drama'
 keywords:
   - 'Ana de Armas enneagram'
   - 'Ana de Armas type 4'
@@ -49,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q698173'
   - 'https://www.imdb.com/name/nm1869101/'
 faqs:
-  - question: 'What is Ana de Armas''s personality type?'
-    answer: 'Type 4 is the Individualist — the type whose entire psychic architecture is organized around the belief that something essential is missing, and that the missing thing is what would finally let them feel whole. Fours are not chasing accomplishment for its own sake. They are chasing the feeling of being real, of being seen accurately, of finally arriving inside their own life.'
+  - question: "What is Ana de Armas's personality type?"
+    answer: "Ana de Armas is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in the €200 one-way leap to Madrid at eighteen, the 'something missing' language she uses about every city she leaves, the 700-photo bible and nine months of dialect coaching she poured into becoming Marilyn Monroe, the $7 million off-grid Vermont cocoon, and the total public silence she keeps on her marriage, her relationships, and her father's death."
     anchor: 'what-is-ana-de-armass-personality-type'
-  - question: 'Why is Ana de Armas typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Modeling, Film acting.'
-    anchor: 'why-is-ana-de-armas-typed-as-an-enneagram-type-4'
+  - question: 'Why did Ana de Armas leave Los Angeles?'
+    answer: "In her own words: 'It's always the feeling of something that you don't have, something missing. There's no escape. There's no way out. It's a city that keeps you anxious.' After the Affleck-era paparazzi circus made her a meme economy, she moved to a $7 million off-grid house in rural Vermont — a place where, she said, 'I can collect myself and only bring there who I want to be with.' Notably, 'no escape' is the same phrase she once used about Cuba."
+    anchor: 'why-ana-de-armas-left-los-angeles'
+  - question: 'Why did Ana de Armas almost turn down Knives Out?'
+    answer: "The casting breakdown described Marta as 'Latina, caretaker, pretty,' and she has said flatly: 'It put me off.' She asked for the full script, which revealed Marta as the moral center of the entire film — the one person whose body cannot lie — and said yes. The role earned her a Golden Globe nomination, and the film made $312 million on a $40 million budget."
+    anchor: 'how-ana-de-armas-almost-said-no-to-the-role-that-made-her'
+  - question: 'Why did Ana de Armas play Marilyn Monroe in Blonde?'
+    answer: "Because of the invisible half: 'Marilyn has been seen her whole life. Her entire life, Norma's been invisible. That was the part that resonated with me.' She prepared with nine months of dialect coaching and a 700-photo reference bible, and director Andrew Dominik kept two monitors on set — original Marilyn footage beside Ana's takes. The performance made her the first Cuban-born actress ever nominated for the Best Actress Oscar."
+    anchor: 'the-marilyn-role-she-had-been-auditioning-for-her-whole-life'
+  - question: 'Was Ana de Armas ever married?'
+    answer: "Yes — to Catalan actor Marc Clotet, whom she met at the Antena 3 offices in 2010 during her El Internado years. They married privately on the Costa Brava in summer 2011 and separated by February 2012; Clotet confirmed the amicable split at the 2013 Goya Awards. In the fourteen years since, de Armas has never publicly discussed the marriage in any interview, in either language."
+    anchor: 'the-madrid-years-she-will-not-talk-about'
 instagram: 'ana_d_armas'
 production_pretext:
   status: draft

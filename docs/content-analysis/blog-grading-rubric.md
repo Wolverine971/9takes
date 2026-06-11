@@ -1,113 +1,192 @@
 <!-- docs/content-analysis/blog-grading-rubric.md -->
 
-# Blog Quality Grading Rubric
+# Blog Quality Grading Rubric (v2)
 
-Standardized scoring system for all personality analysis blogs on 9takes. Every blog is scored on 5 dimensions (1-10 scale each), producing an overall score and letter grade. Use this rubric to ensure consistent, fair assessments across all content.
+Standardized scoring system for all personality-analysis blogs on 9takes. **Rubric v2 (2026-05-29)**
+reorients grading around what actually drives traffic, after a full-corpus analysis
+(`personality-analysis-performance-deep-dive-2026-05-29.md`) showed the old grade barely correlated with
+real traffic (r=0.11; hook sub-score r=0.02) while organic-search capture correlated 0.71.
 
 **JSONB column**: `content_quality` on `blogs_famous_people`
-**Shape**: `{ hook, enneagram, evidence, writing, originality, overall, letter, graded_at }`
+**Shape (v2)**: `{ hook, enneagram, evidence, writing, originality, discoverability, overall, letter, rubric_version, graded_at }`
+
+## What changed in v2 and why
+
+- **New dimension: Search & Discoverability.** The single biggest controllable on-page lever we were
+  not grading at all. This is the part of "quality" that maps to the next traffic wave (search + AI
+  answer engines).
+- **Weighted overall, not a flat average.** Evidence, Originality, and Discoverability are weighted
+  highest because they're what differentiate a blog that ranks from generic celebrity-profile filler.
+  **Hook is weighted lowest** (0.5×) — it had essentially zero correlation with traffic. A great hook
+  still helps the reader who lands; it just shouldn't dominate the score.
+- **Enneagram Integration is now about accessibility, not typology debate.** Wings, instinctual
+  subtypes, stress/growth _mechanics_, and counter-typing **belong in the `<details class="enneagram-rabbit-hole">`
+  accordion — not the main body.** The grader no longer rewards (and actively penalizes) insider
+  typology bleeding into the narrative, and it checks that the rabbit hole _exists_ and holds that depth.
+- **The grade is a floor + a differentiation signal, not a traffic prediction.** Subject search-demand
+  (handled upstream by `/find-surging-people`) and index age drive traffic more than craft. Grade for
+  publishability and discoverability; choose subjects for demand.
 
 ---
 
 ## Scoring Dimensions
 
-### 1. Hook (Weight: 1x)
+Each scored 1–10. Weights are applied in the overall calculation (see below).
 
-How effectively the opening grabs the reader and establishes the piece's central question.
+### 1. Evidence / Sourcing — **Weight: 1.5×**
 
-| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                                                   |
-| ----- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 9-10  | **Exceptional**   | Opens with a specific, surprising moment that reveals character _and_ creates a question the reader needs answered. The thesis is clear within 3-5 paragraphs. A reader who lands on this page from Google stays. _Examples: Peter Thiel's parachute after 9/11, Blake Lively's Taylor Swift court text, Mikey Madison's acid-trip painting for Tarantino_ |
-| 7-8   | **Good**          | Strong opening with a concrete scene or quote. Central tension is stated but may take a few extra paragraphs to crystallize. Reader is engaged but not riveted.                                                                                                                                                                                            |
-| 5-6   | **Average**       | Opens with a general observation about the person's fame or career. No specific moment anchors the reader. Central question is vague or absent.                                                                                                                                                                                                            |
-| 3-4   | **Below Average** | Generic biographical opening ("X is known for..."). No tension, no question, no scene. Reader could leave after the first paragraph without losing anything.                                                                                                                                                                                               |
-| 1-2   | **Poor**          | No hook whatsoever. Reads like a Wikipedia summary from sentence one.                                                                                                                                                                                                                                                                                      |
+The quality and specificity of quotes, anecdotes, testimony, and sourced material. Highest-weighted
+because specific, citable evidence is what separates us from AI-generated celebrity filler — and it's
+exactly what AI answer engines quote (the AEO bet).
 
-### 2. Enneagram Integration (Weight: 1x)
+| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                   |
+| ----- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 9-10  | **Exceptional**   | 90%+ is the subject's own words or testimony from people around them. Direct quotes are specific, dated, and sourced. Multiple sources (interviews, books, podcasts, collaborator testimony). Revenue/metrics sourced. The person's voice is _heard_, not summarized. _Examples: Paris Hilton, Pedro Pascal, Hasan Piker._ |
+| 7-8   | **Good**          | Solid mix of direct quotes and paraphrase. Key claims sourced. 3-5 specific, attributed quotes. Some collaborator testimony.                                                                                                                                                                                               |
+| 5-6   | **Average**       | Some quotes but heavy on paraphrase. Sources vague ("in an interview"). Key metrics unsourced.                                                                                                                                                                                                                             |
+| 3-4   | **Below Average** | Mostly paraphrase with 1-2 generic quotes. No sourced metrics.                                                                                                                                                                                                                                                             |
+| 1-2   | **Poor**          | No direct quotes. No sourced claims. Pure speculation.                                                                                                                                                                                                                                                                     |
 
-How deeply and naturally the Enneagram framework drives the analysis rather than being bolted on.
+### 2. Originality — **Weight: 1.5×**
 
-**Key elements (in order of importance):**
+How fresh the analysis feels — does it say something new, and does it pass the swap test? Highest-weighted
+because differentiation is what earns links, shares, and durable rankings.
 
-- **Core motivations**: What drives this person at the deepest level? The type's core fear and desire should explain behavior that otherwise seems contradictory.
-- **Core emotions**: Each Enneagram center carries a dominant emotion — anger (body/gut types: 8, 9, 1), shame (heart types: 2, 3, 4), and fear (head types: 5, 6, 7). The best blogs sit _inside_ that emotion and show the reader what it feels like. _Example: Greta Thunberg's steady burning anger at imperfection (Type 1), Dax Shepard's lifelong war with shame (Type 7), Chappell Roan's Catholic guilt beneath the strength (Type 8)._ Mention the core emotion only when it reveals something non-obvious — "this software engineer is intellectual" adds nothing; "this comedian's anger drives her comedy" does.
-- **Stress/growth arrows**: How the person behaves under pressure (disintegration) and in health (integration). These often produce the most surprising insights. _Example: Chappell Roan's Type 8 moving toward Type 2 people-pleasing in relationships, Doja Cat's Type 7 disintegrating toward Type 1 harsh self-criticism during the Paraguay meltdown._
-- **Instinctual variants**: Self-preservation, social, or sexual/one-to-one — woven in when they illuminate something specific, not as a checklist item.
-- **Fresh language over Enneagram clichés**: Avoid recycling the same stock phrases for each type. Don't write "that's such a Challenger thing to do" or lean on the archetype names ("the Enthusiast," "the Peacemaker") as descriptive shorthand throughout the piece. Mention the traditional name once for identification, then move on to _person-specific_ language that captures the same psychology in a way unique to this subject. The best blogs invent their own vocabulary for the type's patterns. _Examples of fresh language vs. clichés:_
-  - **Type 8 cliché**: "As a Challenger, Dave confronts everyone." → **Fresh** (Dave Portnoy): "The Combustion Engine" — "if I don't get it out, I just combust."
-  - **Type 3 cliché**: "She's such an Achiever, always performing." → **Fresh** (Charli XCX): "The sound of something fighting itself." The manifesto. The hamster wheel. The machinery behind the curtain.
-  - **Type 7 cliché**: "He's an Enthusiast who avoids pain." → **Fresh** (Dax Shepard): "The only meditation some people can access" (about riding at 140 mph). "The pain-to-motion pipeline."
-  - **Type 3 cliché**: "He adapts to every room like a typical Achiever." → **Fresh** (JD Vance): "Who you are depends on who's in the room." "Empathy arrived not as instinct but as intellectual achievement."
-  - **Type 9 cliché**: "She's so numb, she disappears, she loses herself." → **Fresh**: Find the specific _way_ this person goes numb, the particular thing they merge with, the unique cost of their disappearing act.
+| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ----- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 9-10  | **Exceptional**   | At least one insight the reader genuinely hasn't encountered. A "signature detail" — a small specific moment that makes the whole analysis click. Public/private gap explored. Childhood-to-adult thread visible. Faces a real critic/skeptical pressure point. Includes a current-tense or legacy-now anchor. Passes the swap test — replace the name and the analysis breaks. _Examples: Peter Thiel's Tolkien thread, Satya Nadella's pharmacy moment, Paris Hilton's nightmares stopping after the documentary._ |
+| 7-8   | **Good**          | Some original observations alongside known material. At least one surprising angle. Private details present but not deeply explored.                                                                                                                                                                                                                                                                                                                                                                                 |
+| 5-6   | **Average**       | Competent compilation of public knowledge through an Enneagram lens. No surprising insights. Mostly fails the swap test (too generic).                                                                                                                                                                                                                                                                                                                                                                               |
+| 3-4   | **Below Average** | Rehashes widely known info. No private details. No original framing.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 1-2   | **Poor**          | Pure regurgitation. Nothing beyond Wikipedia.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ----- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 9-10  | **Exceptional**   | The Enneagram _explains something non-obvious_ about the person. A driving contradiction is resolved through the type. Core motivations and core emotions are explored with depth — the reader _feels_ the emotion, not just reads about it. Stress/growth arrows are woven in naturally. Counter-typing is addressed. The language is fresh and person-specific — the traditional type name appears once for identification but the analysis uses its own vocabulary, not recycled Enneagram clichés. _Examples: Dax Shepard's "pain-to-motion pipeline" (not "Enthusiast avoidance"), Charli XCX's "the machinery behind the curtain" (not "Achiever performance"), Greta's "moral mathematics" (not "Reformer idealism")_ |
-| 7-8   | **Good**          | Type is clearly identified and supported with behavioral evidence. Some integration of stress/growth arrows. Core emotion is named but not deeply explored. Language mostly avoids clichés but may lean on archetype names or stock phrases occasionally. The analysis goes beyond surface labeling but doesn't achieve the "aha moment" where the framework cracks something open.                                                                                                                                                                                                                                                                                                                                          |
-| 5-6   | **Average**       | Type is stated and some behaviors are mapped to it, but the Enneagram feels descriptive rather than explanatory. Core emotions and motivations are absent or generic. Relies on stock Enneagram language ("as a typical Type X," "this is classic Challenger behavior"). Could swap the type label and the observations would still read similarly.                                                                                                                                                                                                                                                                                                                                                                          |
-| 3-4   | **Below Average** | Enneagram is mentioned but feels like an afterthought. Behaviors are listed then labeled ("this is very Type X") without deeper analysis. Heavy reliance on archetype names and clichéd descriptions. No counter-typing, no arrows, no exploration of core emotions.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 1-2   | **Poor**          | Type is stated once and never substantiated. Or the typing feels wrong and isn't defended.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+### 3. Search & Discoverability — **Weight: 1.5× — NEW in v2**
 
-### 3. Evidence / Sourcing (Weight: 1x)
+Is this blog built to be _found_ and to _answer the query_? This is the on-page lever that most directly
+feeds the 0.71-correlated search channel and the growing AI-answer channel. The grader assesses the
+frontmatter and structure, not just the prose.
 
-The quality and specificity of quotes, anecdotes, testimony, and sourced material.
+**What to check:**
 
-| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ----- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 9-10  | **Exceptional**   | 90%+ is the subject's own words or testimony from people around them. Direct quotes are specific, dated, and sourced. Multiple sources (interviews, books, podcasts, collaborator testimony). Revenue/metrics are sourced. The person's voice is _heard_, not summarized. _Examples: Paris Hilton (nearly all quotes), Pedro Pascal (NPR, Guardian, Esquire, Men's Health, Vanity Fair), Hasan Piker (direct quotes throughout)_ |
-| 7-8   | **Good**          | Solid mix of direct quotes and paraphrase. Key claims are sourced. At least 3-5 specific, attributed quotes. Some co-star/collaborator testimony present.                                                                                                                                                                                                                                                                        |
-| 5-6   | **Average**       | Some quotes but heavy on paraphrase. Sources are vague ("in an interview," "she once said"). Key metrics unsourced. Collaborator perspectives missing.                                                                                                                                                                                                                                                                           |
-| 3-4   | **Below Average** | Mostly paraphrase with 1-2 generic quotes. No sourced metrics. Reads like the author's interpretation without evidence.                                                                                                                                                                                                                                                                                                          |
-| 1-2   | **Poor**          | No direct quotes. No sourced claims. Entirely the author's speculation.                                                                                                                                                                                                                                                                                                                                                          |
+- **Search-intent titling.** Does `title` / `meta_title` / `persona_title` match how people actually
+  search this person (`[Person] enneagram`, `[Person] personality type`, `what type is [Person]`)? Is the
+  person's name early and exact? `meta_title` 35–65 chars; `description` 120–170 chars and CTR-worthy.
+- **The answer is clear, early, and extractable.** The "What is [Person]'s personality type?" section
+  gives a direct, skimmable answer a reader _or an AI engine_ can lift in one block. No burying the type.
+- **AEO structure.** Real FAQ schema (`faqs`) built from genuine search-intent questions; specific,
+  quotable, citable claims; `same_as` / entity metadata present. Headings use search-intent phrasing
+  where natural (not keyword-stuffed, but discoverable).
+- **Scannability for the landing reader.** A Google visitor can get the payoff without reading 4,000
+  words — TL;DR, clear H2s, the type answer up top.
 
-### 4. Writing Quality (Weight: 1x)
+| Score | Level             | Criteria                                                                                                                                                                                                                                                        |
+| ----- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 9-10  | **Exceptional**   | Title/meta/description nail search intent and are length-optimal. Type answer is direct, early, and quotable. Strong FAQ schema on real questions. Entity metadata complete. An AI engine could cite this cleanly; a Google visitor gets the answer in seconds. |
+| 7-8   | **Good**          | Solid search-intent titling and a clear answer. FAQ present. Minor length or phrasing misses.                                                                                                                                                                   |
+| 5-6   | **Average**       | Generic or clever-but-unsearchable title. Answer present but buried or vague. Thin/missing FAQ. Metadata gaps.                                                                                                                                                  |
+| 3-4   | **Below Average** | Title doesn't match how anyone searches the person. No clear extractable answer. No FAQ schema. Description missing or wrong length.                                                                                                                            |
+| 1-2   | **Poor**          | Undiscoverable. No search-intent signal anywhere; the type answer is absent or unfindable.                                                                                                                                                                      |
 
-Prose quality, structure, pacing, visual rhythm, and adherence to the 9takes voice (tactically direct, socially savvy, respectfully provocative).
+### 4. Enneagram Integration — **Weight: 1.0×**
 
-**Visual rhythm and readability** are critical. The reader's eye needs to glide down the page. Key principles:
+How deeply and naturally the Enneagram drives the analysis **while keeping the main body accessible to a
+general reader.** In v2 this dimension rewards _clarity and person-first insight_, not typology debate.
 
-- **Vary paragraph length.** Alternate short, punchy lines (1-2 sentences) with longer analytical paragraphs. You earn the right to a dense paragraph by warming the reader up with shorter ones first. _Example from Dave Portnoy: "He bought Barstool back for $1." then "One dollar." then the longer explanation._ _Example from Dax Shepard: "He was high on opioids the entire time." — one sentence, its own paragraph, devastating._
-- **Never stack dense paragraphs back-to-back.** Two thick blocks of text in a row exhausts the reader. Break them up with a short punchy line, a bold pull-quote, a bullet list, or a blockquote. The reader will skip a wall of text; they won't skip a sharp one-liner.
-- **Use formatting to guide the eye.** **Bold** the key insight in a longer paragraph so a skimmer still gets the point. _Italicize_ internal thoughts or paraphrased quotes. Use blockquotes for direct quotes that deserve to breathe. These aren't decorations — they're navigation aids.
-- **Emotional immersion over information delivery.** The best sections make the reader _feel_ something, not just learn something. Paint a scene. Put the reader in the room. _Example from Dax Shepard: "Two addicts who had never used together, sitting stoned in a living room, staring at the water."_ _Example from JD Vance: "A boy on the steps of Ford's Theatre, having screamed and run, waiting for someone to find him."_
+**Where the typology depth goes (important):** Wings, instinctual subtypes, stress/growth _mechanics_,
+and counter-typing cases belong **inside the `<details class="enneagram-rabbit-hole">` accordion**, not
+the main narrative. Casual readers scroll past; power readers and long-tail/AI queries
+(`[Person] 5w6`, `[Person] sx/so`, `[Person] integration to 8`) get served there.
 
-| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ----- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 9-10  | **Exceptional**   | Distinctive prose with memorable lines. Visual rhythm is excellent — short punchy sentences alternate with longer analytical passages, no back-to-back dense paragraphs. Bold, italics, and blockquotes guide the reader's eye naturally. Emotionally immersive scenes make the reader _feel_, not just understand. Sections flow as narrative, not encyclopedia entries. At least half the sections work as pure storytelling. Ending cuts to black at peak insight — no summary, no CTA. No quote or anecdote appears twice. Confident framing (no hedging). _Examples: "Empathy arrived for Vance not as instinct but as intellectual achievement," "the man who retreats into systems keeps getting pulled toward other people's pain"_ |
-| 7-8   | **Good**          | Clean, readable prose. Good section structure. Some memorable lines. Paragraph length varies but may occasionally stack dense blocks. Some use of bold/italics but not consistently guiding the eye. Ending is decent but may summarize slightly. Minor repetition or hedging present. The 9takes template is visible in places but not distracting.                                                                                                                                                                                                                                                                                                                                                                                        |
-| 5-6   | **Average**       | Competent but unremarkable prose. Dense paragraphs stack without breathing room. Little use of formatting to break up the text. Reads more like a report than a story. Sections feel like bullet points converted to paragraphs. Some hedging. Ending wraps up conventionally. Repeated contrast-pair phrasing or counter-typing structure is visible.                                                                                                                                                                                                                                                                                                                                                                                      |
-| 3-4   | **Below Average** | Flat or formulaic prose. Heavy repetition. Wall-of-text paragraphs throughout. Over-hedged ("it's possible that," "one could argue"). Sections are interchangeable. No narrative arc. No visual variety. The reader can see the template before the insight.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| 1-2   | **Poor**          | Reads like AI slop. Generic phrasing, no voice, no rhythm. Blocky, unformatted text with no visual relief.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+**Reward in the body:** core motivation/fear that resolves a real contradiction; the center's core
+emotion _felt_, not just named (anger/shame/fear), when it reveals something non-obvious; fresh,
+person-specific language (archetype name appears once for ID, then the piece invents its own vocabulary).
 
-### Formula Fingerprint Checks
+**Emotional interior check (required for 9-10).** The Enneagram's engine is emotion and motivation —
+"see the emotions behind every take." After reading, the answer to all three must be yes:
 
-Treat these as brand-level writing risks, not minor preferences:
+1. **Felt interior:** Can the reader answer _what this person fears, wants, and feels_ — in the
+   person's own vocabulary (sourced from their quotes), not the textbook type description?
+2. **Empathy turn:** Does at least one widely criticized or mocked behavior become _understandable_
+   through its motivation — without being excused? (The critic-pressure anchor brings the judgment;
+   the empathy turn resolves it.)
+3. **Interior beat:** Is at least one moment rendered from _inside_ the person's feeling — the reader
+   briefly being them, not observing them?
 
-- **Repeated contrast-pair engines**: more than two main-body uses of "not X but Y," "less X than Y," "looked like X, was really Y," or close variants should cap Writing Quality at 8; if the pattern drives the whole piece, cap it at 6.
-- **Counter-typing ladders**: three or more adjacent alternate-type comparisons in the main body should cap Enneagram Integration and Writing Quality at 8 unless the section is explicitly the diagnosis pressure test or Rabbit Hole.
-- **Ducked critic pressure**: if the subject has an obvious controversy, critique, review, fan objection, or skeptical reading and the draft avoids it, cap Originality at 8. If the avoidance makes the portrait feel sanitized, cap Originality at 7.
-- **Missing current-tense anchor**: for living/current figures, a draft with no recent project, interview, event, controversy, or public shift from the last 24 months should cap Originality at 8. For historical/deceased figures, require a present-day legacy stake instead.
-- **Ending swap-test failure**: if the final paragraph could close several other 9takes posts by swapping the name and type, cap Writing Quality at 8.
+**Penalize:** wing/subtype/arrow _mechanics_ in the body; 3+ adjacent type-vs-type comparisons outside
+the diagnosis section; stock clichés ("classic Challenger," "typical Enthusiast"); a type stated but
+never substantiated. **Do not award credit for insider typology in the body — that belongs in the rabbit
+hole.** A missing rabbit hole when wing/subtype/arrow analysis is warranted caps this dimension at 8.
+**A piece that stays entirely behavioral — pattern named, fear never felt — also caps this dimension
+at 8**, no matter how sharp the pattern analysis is.
 
-### 5. Originality (Weight: 1x)
+| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                |
+| ----- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 9-10  | **Exceptional**   | The Enneagram explains something non-obvious; a driving contradiction resolves through the type. Core motivation/emotion explored with depth — the reader _feels_ it. Language is fresh and person-specific. The body stays accessible; all wing/subtype/arrow/counter-typing depth lives in a well-formed rabbit hole. |
+| 7-8   | **Good**          | Type clearly identified with behavioral evidence; goes beyond labeling. Core emotion named. Body mostly accessible. Rabbit hole present but thin, OR slight typology bleed into the body.                                                                                                                               |
+| 5-6   | **Average**       | Type stated and mapped but descriptive, not explanatory. Stock language. Could swap the label and observations still read similarly. Typology mechanics scattered in the body instead of quarantined.                                                                                                                   |
+| 3-4   | **Below Average** | Enneagram feels bolted on; behaviors listed then labeled. Heavy cliché. Body bogged in type-vs-type debate. No rabbit hole.                                                                                                                                                                                             |
+| 1-2   | **Poor**          | Type stated once, never substantiated, or the typing feels wrong and undefended.                                                                                                                                                                                                                                        |
 
-How fresh the analysis feels — does it say something new, or does it repeat what everyone already knows?
+### 5. Writing Quality — **Weight: 1.0×**
 
-| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ----- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 9-10  | **Exceptional**   | Contains at least one insight the reader genuinely hasn't encountered before. Has a "signature detail" — a specific, small moment that makes the entire analysis click. Public/private gap is explored (who the person is when the performance stops). Childhood-to-adult thread is visible. Faces a real critic/skeptical pressure point and includes a current-tense or legacy-now anchor. Would pass the "swap test" — if you replaced the person's name, the analysis would break. _Examples: Peter Thiel's Tolkien naming thread, Satya Nadella's pharmacy moment, Paris Hilton's nightmares stopping after the documentary, Jacob Elordi correcting Wikipedia from "Spanish descent" to "Basque"_ |
-| 7-8   | **Good**          | Some original observations alongside well-known material. At least one surprising angle. Private life details present but not deeply explored.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| 5-6   | **Average**       | Competent compilation of public knowledge through an Enneagram lens. No surprising insights. Would mostly pass the swap test (too generic).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| 3-4   | **Below Average** | Rehashes what's already widely known. Could be found on any celebrity profile site. No private details. No original framing.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| 1-2   | **Poor**          | Pure regurgitation. Nothing a reader couldn't get from the person's Wikipedia page.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+Prose, structure, pacing, visual rhythm, and 9takes voice (tactically direct, socially savvy,
+respectfully provocative). **In v2 this dimension absorbs the opening/hook** as one component among many.
+
+**Visual rhythm matters:** vary paragraph length (short punchy lines between longer analysis); never
+stack dense paragraphs back-to-back; use **bold**, _italics_, and blockquotes to guide the eye;
+emotional immersion over information delivery (put the reader in the room).
+
+| Score | Level             | Criteria                                                                                                                                                                                                                                                                                                                                          |
+| ----- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 9-10  | **Exceptional**   | Distinctive prose, memorable lines. A strong specific opening that earns the read. Excellent visual rhythm; formatting guides the eye; emotionally immersive scenes. Sections flow as narrative. Ending cuts to black at peak insight — no summary, no CTA. No repeated quote/anecdote. Confident framing. No visible house-template fingerprint. |
+| 7-8   | **Good**          | Clean, readable, good structure, some memorable lines. Decent opening. Occasional dense stacking or mild hedging. Template visible but not distracting.                                                                                                                                                                                           |
+| 5-6   | **Average**       | Competent but unremarkable. Report-like. Dense paragraphs stack. Generic opening. Conventional ending. Visible contrast-pair / counter-typing architecture.                                                                                                                                                                                       |
+| 3-4   | **Below Average** | Flat or formulaic. Wall-of-text. Over-hedged. Generic "X is known for…" opening. Template shows before the insight.                                                                                                                                                                                                                               |
+| 1-2   | **Poor**          | AI slop. No voice, no rhythm, unformatted blocks.                                                                                                                                                                                                                                                                                                 |
+
+### 6. Hook — **Weight: 0.5×**
+
+How effectively the opening grabs the reader and frames the central question. **Weighted lowest in v2**
+(near-zero traffic correlation), but still scored: a good hook helps the landing reader stay.
+
+| Score | Level             | Criteria                                                                                                                                                                                                                                           |
+| ----- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 9-10  | **Exceptional**   | Opens on a specific, surprising moment that reveals character _and_ creates a question. Thesis clear within 3-5 paragraphs. A Google-landing reader stays. _Examples: Peter Thiel's parachute after 9/11, Blake Lively's Taylor Swift court text._ |
+| 7-8   | **Good**          | Strong concrete scene or quote; central tension stated within a few paragraphs.                                                                                                                                                                    |
+| 5-6   | **Average**       | General observation about fame/career. No specific moment. Vague central question.                                                                                                                                                                 |
+| 3-4   | **Below Average** | Generic biographical opening. No tension, no scene.                                                                                                                                                                                                |
+| 1-2   | **Poor**          | Wikipedia summary from sentence one.                                                                                                                                                                                                               |
+
+### Formula Fingerprint Checks (apply across Writing + Enneagram)
+
+Brand-level writing risks, not minor preferences:
+
+- **Repeated contrast-pair engines** ("not X but Y," "less X than Y," "looked like X, was really Y"):
+  > 2 main-body uses caps Writing at 8; if it drives the whole piece, cap at 6.
+- **Counter-typing ladders in the body**: 3+ adjacent alternate-type comparisons outside the diagnosis
+  section or rabbit hole caps Enneagram Integration and Writing at 8.
+- **Ducked critic pressure**: an obvious controversy/critique avoided caps Originality at 8 (7 if it
+  reads sanitized).
+- **Missing current-tense anchor**: a living figure with no event/project/shift from the last 24 months
+  caps Originality at 8. Historical figures need a present-day legacy stake instead.
+- **Ending swap-test failure**: if the final paragraph could close other 9takes posts by swapping the
+  name/type, cap Writing at 8.
 
 ---
 
-## Overall Score Calculation
+## Overall Score Calculation (v2 weighted)
 
-**Overall = (Hook + Enneagram + Evidence + Writing + Originality) / 5**
+```
+Overall = ( Evidence×1.5 + Originality×1.5 + Discoverability×1.5
+          + Enneagram×1.0 + Writing×1.0 + Hook×0.5 ) / 7.0
+```
 
-Rounded to one decimal place.
+Rounded to one decimal. (Total weight = 1.5+1.5+1.5+1.0+1.0+0.5 = 7.0 — divide by 7.0 so the
+result stays on the 1–10 scale. An earlier version of this doc said 6.0, which would inflate
+every score; a straight-9s blog would compute to 10.5.)
+
+> **Note:** v2 overalls are **not directly comparable** to v1 (flat-average) overalls. Always write
+> `rubric_version: 2` and `graded_at`. Treat a v1-graded blog as needing a re-grade before comparison.
 
 ### Letter Grade Mapping
 
@@ -121,103 +200,79 @@ Rounded to one decimal place.
 | **D**  | 6.0-6.9     | Below average. Major rewrite needed.                   |
 | **F**  | Below 6.0   | Not publishable. Start over or archive.                |
 
-**Publication threshold**: 8.5 (B+)
+**Publication threshold**: 8.5 (B+). A blog **cannot** reach B+ with Discoverability < 7 — discoverability
+is a gate, not just a weighted input. A beautifully written, undiscoverable blog is not publication-ready.
 
 ---
 
 ## Grading Process
 
-1. Read the blog in full without scoring
-2. Score each dimension independently (don't let one dimension pull the others)
-3. Calculate the overall score and letter grade
-4. Record the JSONB object:
+1. Read the blog in full without scoring.
+2. Score each of the 6 dimensions independently (don't let one pull the others).
+3. **Check the rabbit hole explicitly:** does typology depth (wings/subtypes/arrows/counter-typing) live
+   in `<details class="enneagram-rabbit-hole">` rather than the body? Adjust Enneagram Integration
+   accordingly.
+4. **Check discoverability against frontmatter:** title/meta_title/description lengths and search-intent
+   match, FAQ schema presence, clear early type answer.
+5. Compute the weighted overall and letter grade. Apply the Discoverability < 7 → can't-be-B+ gate.
+6. Record the JSONB object:
 
 ```json
 {
-	"hook": 8.5,
-	"enneagram": 9.0,
-	"evidence": 8.0,
+	"hook": 8.0,
+	"enneagram": 8.5,
+	"evidence": 9.0,
 	"writing": 8.5,
-	"originality": 8.0,
-	"overall": 8.4,
-	"letter": "B",
-	"graded_at": "2026-02-18"
+	"originality": 8.5,
+	"discoverability": 8.0,
+	"overall": 8.5,
+	"letter": "B+",
+	"rubric_version": 2,
+	"graded_at": "2026-05-29"
 }
 ```
 
-5. Push to `blogs_famous_people.content_quality` via one of:
+7. Push to `blogs_famous_people.content_quality` via:
    - `node scripts/personBlogParser.js --grades-only --changed` (recommended for graded drafts)
    - Seed script or admin UI (fallback/manual workflows)
 
 ---
 
-## Quick Reference: What Separates Each Tier
+## Quick Reference: What separates the tiers in v2
 
-### Gold Standard (A / A+) blogs have ALL of these:
+### Gold Standard (A / A+):
 
-- One driving thesis that resolves a public contradiction
-- The Enneagram explains something non-obvious
-- **Core emotions explored with depth** — the reader _feels_ the anger, shame, or fear, not just reads about it
-- Direct quotes as evidence, not decoration
-- A "signature detail" that makes the whole analysis click
-- An ending that cuts to black at peak insight
-- Private life details that reveal the person behind the persona
-- **Visual rhythm that glides** — short punchy lines alternate with longer analysis, bold/italics guide the eye, no back-to-back dense paragraphs
-- **At least one emotionally immersive scene** where the reader is _in the room_ (e.g., Dax's father's deathbed, Charli's SOPHIE grief, Dave Portnoy calling business owners)
-- **Stress/growth arrows woven naturally** into the narrative, not listed as theory
-- **Fresh, person-specific language** — the type's archetype name appears once; after that, the piece invents its own vocabulary for this person's patterns
-- **No visible formula fingerprint** — contrast-pair phrasing, counter-typing, critic pressure, current anchors, and endings feel specific to the subject rather than generated by the house template
+- One driving thesis that resolves a public contradiction (Originality + Enneagram).
+- **Discoverable:** search-intent title, clean extractable type answer, real FAQ schema, citable evidence.
+- Direct quotes as structural evidence, not decoration (Evidence).
+- A signature detail that makes the analysis click; passes the swap test (Originality).
+- Body stays accessible; **all wing/subtype/arrow depth lives in a well-formed rabbit hole** (Enneagram).
+- Visual rhythm that glides; an ending that cuts to black (Writing).
 
-### Strong (B+) blogs have MOST of these but may be missing:
+### Strong (B+): most of the above, may miss the sharpest aha, deepest emotional immersion, or perfect titling — but Discoverability ≥ 7.
 
-- The signature "aha" detail
-- Full private-life depth
-- The sharpest possible ending
-- Deep emotional immersion (moments that make the reader feel, not just understand)
-- Consistent visual rhythm (may stack a few dense paragraphs)
+### Average (C): labels rather than explains the type; paraphrase over quotes; clever-but-unsearchable title; typology scattered in the body; conventional ending.
 
-### Average (C) blogs typically:
-
-- Have a stated thesis but it doesn't drive the whole piece
-- Use the Enneagram to label rather than explain
-- Core emotions are named but not explored — no emotional immersion
-- Leans on stock Enneagram language ("classic Challenger," "typical Enthusiast") instead of person-specific descriptions
-- Reuses visible 9takes sentence architecture, especially contrast pairs and tidy type comparisons
-- Paraphrase more than they quote
-- Dense paragraphs stack without breathing room
-- End with a summary rather than a cut-to-black
-
-### Below threshold (D/F) blogs:
-
-- No central thesis or contradiction
-- Enneagram is cosmetic
-- Wikipedia-level sourcing
-- Flat prose, no voice, wall-of-text formatting
-- Nothing original
-- No emotional depth — reads like a report about a person, not a window into their psychology
+### Below threshold (D/F): no thesis, cosmetic Enneagram, Wikipedia sourcing, undiscoverable, flat prose.
 
 ---
 
-## Reference Examples by Score
+## Reference Examples (craft anchors — re-grade under v2 before trusting the overall)
 
-| Score | Blog            | Why                                                                                                                                                                                    |
-| ----- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 9.7   | Dave Portnoy    | Best hook in the collection (champagne bottles → voice cracking for strangers). Every section driven by Type 8 vulnerability/strength paradox. Exceptional visual rhythm and evidence. |
-| 9.7   | Greta Thunberg  | Selective mutism → global speaker paradox. Core emotion (anger) as both destroyer and engine. Exceptional counter-typing and stress/growth arrow integration.                          |
-| 9.6   | Charli XCX      | 50-page manifesto marketed as spontaneous. SOPHIE grief section is devastating emotional immersion. 3w4 analysis is the most sophisticated in the collection.                          |
-| 9.6   | Dax Shepard     | "Truth-teller who lies to himself." Father's deathbed scene is one of the most powerful emotional moments. Journal-as-leading-indicator is a structurally original insight.            |
-| 9.6   | JD Vance        | Cinematic opening. "Empathy arrived as intellectual achievement" — one of the best lines in any blog. Ford's Theatre ending cuts to black perfectly.                                   |
-| 9.5   | Chappell Roan   | Self-identified Type 8. "Force field" vs. "threw away my personality" contradiction. Catholic guilt as moral engine beneath the challenger. Grammy speech as action, not talk.         |
-| 9.4   | Blake Lively    | Taylor Swift court text hook. "Ryle You Wait" cocktail as signature detail. Holds "both stories can be true" tension without becoming hit piece or defense.                            |
-| 9.0   | Kylie Jenner    | "Built an Empire by Disappearing" thesis, Golden Globes opening, Snapchat crash, strong ending.                                                                                        |
-| 8.7   | Jordan Peterson | Comprehensive, strong counter-typing section, pharmacy moment, but less punchy than gold standard.                                                                                     |
-| 8.5   | Logan Paul      | At threshold — good "attention into legitimacy" thesis, faith arc, WWE detail, but fewer signature moments.                                                                            |
+| Craft level | Blog           | Why (dimension highlights)                                                                                    |
+| ----------- | -------------- | ------------------------------------------------------------------------------------------------------------- |
+| Top         | Dave Portnoy   | Best hook in collection; Type 8 paradox drives every section; exceptional evidence + rhythm.                  |
+| Top         | Greta Thunberg | Selective-mutism→global-speaker paradox; core emotion as engine; exceptional counter-typing (in rabbit hole). |
+| Top         | Charli XCX     | Manifesto-as-spontaneity thesis; SOPHIE grief immersion; sophisticated 3w4 depth (rabbit hole).               |
+| High        | JD Vance       | "Empathy as intellectual achievement"; Ford's Theatre cut-to-black ending.                                    |
+| Threshold   | Logan Paul     | Good thesis + faith arc but fewer signature moments.                                                          |
 
 ---
 
 ## When to Re-Grade
 
-- After any substantive content revision (not just typo fixes)
-- When new sourced material is added (interviews, quotes, events)
-- During periodic quality audits (quarterly recommended)
-- Always update `graded_at` when re-grading
+- After any substantive content revision (not just typos).
+- When new sourced material is added.
+- **When migrating a v1 grade to v2** (most of the corpus — v1 overalls are stale under the new weights).
+- During periodic quality audits (quarterly).
+- Always update `graded_at` and set `rubric_version: 2`.

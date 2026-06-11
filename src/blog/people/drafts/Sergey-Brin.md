@@ -29,12 +29,12 @@ occupation:
   - 'Technology Entrepreneur'
   - 'Author'
 knows_about:
-  - 'Writing'
-  - 'Information Technology'
-  - 'Economics'
-  - 'Computing'
-  - 'Tech Entrepreneurship'
-  - 'PageRank'
+  - 'PageRank algorithm'
+  - 'Web search engineering'
+  - 'AI development (Gemini)'
+  - "Parkinson's research funding"
+  - 'Airship engineering (LTA Research)'
+  - 'Google moonshot projects'
 keywords:
   - 'Sergey Brin enneagram'
   - 'Sergey Brin type 5'
@@ -52,12 +52,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q92764'
   - 'https://www.imdb.com/name/nm1962236/'
 faqs:
-  - question: 'What is Sergey Brin''s Personality Type?'
-    answer: 'The mathematician''s son who''d rather know.'
+  - question: "What is Sergey Brin's personality type?"
+    answer: "Sergey Brin is an Enneagram Type 5 (The Investigator), specifically a 5w7. The 5 engine shows in alpha-testing his own genome for Parkinson's risk and publishing the bad answer, driving Google's 2010 withdrawal from mainland China, and hiring by asking what a candidate can teach him. The 7 wing is the chassis: Rollerblades to meetings, walking hallways on his hands, trapeze weekends, elite Burning Man camps, and an airship company in a WWII hangar."
     anchor: 'what-is-sergey-brins-personality-type'
-  - question: 'Why is Sergey Brin typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Information Technology, Economics.'
-    anchor: 'why-is-sergey-brin-typed-as-an-enneagram-type-5'
+  - question: "What did Sergey Brin learn from his 23andMe genetic test?"
+    answer: "As an alpha tester of 23andMe — the startup co-founded by his then-wife Anne Wojcicki — Brin found a G2019S mutation in his LRRK2 gene, the same one his mother had, raising his lifetime Parkinson's odds from roughly one or two in a hundred to as high as eight in ten. Instead of keeping it private, he published a 2008 blog post titled 'LRRK2,' then wrote about $50 million in early grants and ultimately contributed a reported total exceeding a billion dollars to Parkinson's research."
+    anchor: 'the-50-million-question-sergey-brin-asked-about-his-own-body'
+  - question: 'Why did Sergey Brin pull Google out of China?'
+    answer: "After Google discovered the 2009 Operation Aurora intrusion into Gmail accounts of Chinese human-rights activists, Brin was the one who wouldn't let it go — Eric Schmidt reportedly wanted to stay and Larry Page was reluctant to leave. Brin kept saying he could not work for a company that did what the Soviet Union had done to his family, and in March 2010 Google rerouted mainland search to Hong Kong servers. As he told Der Spiegel, having come from a totalitarian country made him 'particularly sensitive to the stifling of individual liberties.'"
+    anchor: 'why-sergey-brin-pulled-google-out-of-china'
+  - question: 'Why did Sergey Brin come back to Google after retiring?'
+    answer: "He retired in 2019 to read physics in cafés and, by his own account, started 'spiraling… kind of not being sharp.' When ChatGPT shipped in November 2022, he began showing up at Google offices — eventually four days a week, working on Gemini beside engineers half his age, under Sundar Pichai, the executive he had hired in 2004. A leaked February 2025 memo in his name called 60 hours a week 'the sweet spot of productivity.'"
+    anchor: 'why-sergey-brin-couldnt-stay-retired'
+  - question: 'What does Sergey Brin consider his biggest mistake?'
+    answer: "Google Glass. He launched it with skydivers and stunt cyclists at Google I/O 2012, watched 'Glasshole' enter the dictionary by 2014, and saw the consumer version quietly shelved by January 2015. A decade later he admitted: 'I sort of jumped the gun and I thought, Oh, I'm the next Steve Jobs, I can make this thing.'"
+    anchor: 'why-sergey-brin-calls-google-glass-his-biggest-mistake'
 twitter: ''
 instagram: ''
 tiktok: ''

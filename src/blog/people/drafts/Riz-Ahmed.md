@@ -28,12 +28,12 @@ occupation:
   - 'Television Actor'
   - 'Voice Actor'
 knows_about:
-  - 'Acting'
-  - 'Hip-hop music'
-  - 'Film acting'
-  - 'Singing'
-  - 'Television acting'
-  - 'Voice acting'
+  - 'Rap songwriting (Riz MC, Swet Shop Boys)'
+  - 'British-Pakistani diaspora storytelling'
+  - 'Screenwriting and film producing'
+  - 'American Sign Language'
+  - 'Drumming'
+  - 'Muslim representation advocacy (Pillars Artist Fellowship)'
 keywords:
   - 'Riz Ahmed enneagram'
   - 'Riz Ahmed type 4'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm1981893/'
   - 'https://www.rizmc.com'
 faqs:
-  - question: 'What is Riz Ahmed''s personality type?'
-    answer: 'Type 4 — the Individualist — is built around a single conviction: something essential is missing from me, and I have to find it, name it, or make it visible before I can rest. Fours feel fundamentally different from other people. They do not experience this as a fact about the world. They experience it as a fact about themselves.'
+  - question: "What is Riz Ahmed's personality type?"
+    answer: "Riz Ahmed is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in a childhood spent code-switching between three worlds — Pakistani home, scholarship private school, Brit-Asian rude-boy scene — a concept album about being broken up with by England, a film (Mogul Mowgli) grown out of his own rap bar, and a 3 wing that built the case in Oxford PPE, the first acting Emmy for a South Asian, and an Oscar."
     anchor: 'what-is-riz-ahmeds-personality-type'
-  - question: 'Why is Riz Ahmed typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Hip-hop music, Film acting.'
-    anchor: 'why-is-riz-ahmed-typed-as-an-enneagram-type-4'
+  - question: "Why does Riz Ahmed keep making films about people who don't belong?"
+    answer: "Because the question is identity-shaped, not just political. The Long Goodbye is about being broken up with by England, Mogul Mowgli is about a rapper whose own body attacks itself, and his 2026 Hamlet transposes the prince onto a British-Asian family rotting from the inside. When BBC radio banned 'Post 9/11 Blues' in 2006, he founded Battered Records and self-released it — the system says the work isn't allowed in the building, so he builds his own building."
+    anchor: 'why-riz-ahmed-keeps-making-art-about-people-who-dont-belong'
+  - question: 'What happened to Riz Ahmed at Luton Airport?'
+    answer: "In 2006, returning from winning at the Berlin Film Festival for The Road to Guantánamo — a film about wrongful detention of Muslims — Ahmed and his castmates were detained by special branch officers he says insulted, threatened, and physically attacked him. An officer drew a 'P' on his immigration card and Ahmed instantly read it as a slur; it stood for 'Protocol.' He wrote 'Post 9/11 Blues' that summer, and says he still gets stopped at Heathrow every time he flies to the US."
+    anchor: 'riz-ahmed-and-the-audition-that-became-an-interrogation'
+  - question: 'How did Riz Ahmed prepare for Sound of Metal?'
+    answer: "He spent months learning American Sign Language and drumming before cameras rolled, on a film with no guaranteed distribution. Director Darius Marder called him 'a savant and a control freak' who 'likes to analyze and take things apart,' and co-star Paul Raci described watching him genuinely fall in love with the deaf community on set. Ahmed said the discipline brought him 'closer to stillness, pain, and big questions' — and he emerged describing himself as quieter."
+    anchor: 'what-sound-of-metal-cost-riz-ahmed'
+  - question: 'How did Riz Ahmed propose to Fatima Farheen Mirza?'
+    answer: "During a lockdown Scrabble game in a New York park, he stole the right letters and spelled out WILL YOU MARRY ME on the tiles. Her first reaction: 'You're joking.' They married in a tiny socially distanced backyard ceremony, and he revealed it months later only by letting 'my wife's family' slip mid-sentence on Louis Theroux's podcast."
+    anchor: 'the-scrabble-tiles-in-the-brooklyn-park'
 twitter: '@rizwanahmed'
 instagram: '@rizahmed'
 tiktok: ''

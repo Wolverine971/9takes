@@ -1536,7 +1536,7 @@
 	.stat-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1rem 1.25rem;
 		display: flex;
 		align-items: center;
@@ -1631,7 +1631,7 @@
 		right: 0;
 		height: 3px;
 		background: var(--stone-mid);
-		border-radius: 0 0 12px 12px;
+		border-radius: 0 0 1rem 1rem;
 		overflow: hidden;
 	}
 
@@ -1672,7 +1672,7 @@
 	.section-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1.25rem;
 		margin-bottom: 1rem;
 	}
@@ -1776,14 +1776,14 @@
 	.pipeline-stage:focus {
 		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.stage-bar {
 		background: var(--stage-color);
 		color: white;
 		padding: 0.625rem 0.5rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		margin-bottom: 0.375rem;
 		transition: box-shadow 0.2s ease;
 	}
@@ -1881,7 +1881,7 @@
 		color: var(--lamp-glow);
 		font-size: 0.6875rem;
 		padding: 0.1875rem 0.5rem;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-weight: 500;
 	}
 
@@ -1893,7 +1893,7 @@
 	.trust-badge {
 		font-size: 0.6875rem;
 		padding: 0.1875rem 0.5rem;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-weight: 500;
 		text-transform: capitalize;
 	}
@@ -1957,7 +1957,7 @@
 		width: 100%;
 		padding: 0.5rem 2rem 0.5rem 2.25rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 0.8125rem;
 		background: var(--stone-warm);
 		color: var(--ink-bright);
@@ -2015,7 +2015,7 @@
 
 	.waitlist-table-wrapper {
 		overflow-x: auto;
-		border-radius: 8px;
+		border-radius: 1rem;
 		border: 1px solid var(--stone-edge);
 	}
 
@@ -2241,7 +2241,7 @@
 
 	.type-cell {
 		background: var(--stone-mid);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		padding: 0.625rem;
 		text-align: center;
 		opacity: 0.5;
@@ -2293,7 +2293,7 @@
 		gap: 0.75rem;
 		padding: 0.75rem;
 		background: var(--stone-mid);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		text-decoration: none;
 		transition: all 0.2s ease;
 		border: 1px solid transparent;
@@ -2312,7 +2312,7 @@
 	.quick-link-icon {
 		width: 32px;
 		height: 32px;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
 		display: flex;
 		align-items: center;
@@ -2357,7 +2357,7 @@
 		padding: 0.625rem;
 		background: var(--lamp-glow);
 		color: var(--cta-text, var(--night-deep));
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		text-decoration: none;
 		font-size: 0.8125rem;
 		font-weight: 500;
@@ -2612,7 +2612,7 @@
 
 	.detail-card {
 		border: 1px solid var(--stone-edge);
-		border-radius: 14px;
+		border-radius: 1rem;
 		padding: 1rem;
 		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
 	}
@@ -2849,7 +2849,7 @@
 
 		.waitlist-table tbody tr {
 			border: 1px solid var(--stone-edge);
-			border-radius: 12px;
+			border-radius: 0.625rem;
 			background: color-mix(in srgb, var(--stone-warm) 84%, var(--night-deep));
 			padding: 0.9rem;
 		}
@@ -2878,7 +2878,7 @@
 
 		.person-modal {
 			max-height: calc(100vh - 1.5rem);
-			border-radius: 14px;
+			border-radius: 1rem;
 		}
 
 		.person-modal-header,

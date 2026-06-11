@@ -23,10 +23,11 @@ occupation:
   - 'Journalist'
   - 'Television Producer'
 knows_about:
-  - 'Journalism'
-  - 'Television production'
-  - 'Digital media'
-  - 'Writing'
+  - 'Political investigative reporting'
+  - 'Progressive movement history'
+  - 'Congressional and campaign-finance coverage'
+  - 'Drug policy'
+  - 'Independent newsroom building (Drop Site News)'
 keywords:
   - 'Ryan Grim enneagram'
   - 'Ryan Grim type 6'
@@ -45,12 +46,21 @@ citations:
   - 'https://yourcountryondrugs.com/'
   - 'https://badnews.substack.com/'
 faqs:
-  - question: 'What is Ryan Grim''s Personality Type?'
-    answer: 'Most people see Grim as a progressive advocate journalist, someone whose politics drive his reporting. But politics are the surface. Underneath, something older is running.'
+  - question: "What is Ryan Grim's personality type?"
+    answer: "Ryan Grim is an Enneagram Type 6 (The Loyalist), specifically a 6w5. The pattern shows in a career of stress-testing every institution he touches: breaking the Kavanaugh/Ford letter story, publishing the Tara Reade report despite a ferocious backlash from his own side, confronting Jesse Watters seven years after Watters ambushed his colleague, publicly apologizing to Nate Silver when his own analysis was wrong, and building three newsrooms — HuffPost DC, The Intercept DC, Drop Site News — then asking whether each one actually works."
     anchor: 'what-is-ryan-grims-personality-type'
-  - question: 'Why is Ryan Grim typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Television production, Digital media.'
-    anchor: 'why-is-ryan-grim-typed-as-an-enneagram-type-6'
+  - question: "What was Ryan Grim's role in the Kavanaugh story?"
+    answer: "In September 2018, Grim reported that Senator Dianne Feinstein was sitting on a letter related to Supreme Court nominee Brett Kavanaugh — a story no one else had. The letter turned out to be Christine Blasey Ford's assault allegation, and Grim's reporting helped force it into public view, contributing to Ford coming forward and the Senate hearings that followed."
+    anchor: 'the-letter-that-changed-a-supreme-court-nomination'
+  - question: 'Why did Ryan Grim publish the Tara Reade story?'
+    answer: "His 2020 report focused on why Time's Up declined to take Reade's case against Joe Biden because his candidacy made it 'too political.' The backlash came from the left, not the right — but Grim applied the same principle as his Kavanaugh reporting: if institutions suppress allegations based on political convenience, the system isn't working. The question was whether the stated rules applied equally."
+    anchor: 'the-tara-reade-story-and-the-cost-of-consistency'
+  - question: 'What happened between Ryan Grim and Jesse Watters?'
+    answer: "In 2009, Watters had followed Grim's colleague Amanda Terkel to a hotel and ambushed her on camera. Seven years later, at the 2016 White House Correspondents' Dinner after-party, Grim approached Watters with his phone recording and asked if he wanted to apologize. Watters refused, reportedly bragged about psychologically scarring her, then snatched Grim's phone — and the scuffle that followed knocked over a table before Sean Spicer separated them."
+    anchor: 'the-fight-at-the-msnbc-after-party'
+  - question: 'Why did Ryan Grim leave The Intercept and start Drop Site News?'
+    answer: "Grim and Jeremy Scahill first petitioned The Intercept's board to let them take over the struggling organization; the board rejected the offer. So in July 2024 they launched Drop Site News, an independent nonprofit newsroom — which by February 2025 had broken the 'Armored Tesla' procurement story, prompting the State Department to quietly rewrite its own spreadsheet hours after publication."
+    anchor: 'drop-site-and-the-institution-he-built-from-scratch'
 twitter: '@ryangrim'
 instagram: ''
 tiktok: ''

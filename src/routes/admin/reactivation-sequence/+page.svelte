@@ -556,7 +556,7 @@
 	.header-actions a {
 		padding: 0.55rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 0.375rem;
+		border-radius: 0.25rem;
 	}
 
 	.notice,
@@ -570,7 +570,7 @@
 	.section {
 		margin-bottom: 1.25rem;
 		padding: 1.25rem;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 	}
 
 	.notice.danger {
@@ -589,7 +589,7 @@
 		gap: 0.4rem;
 		min-height: 7rem;
 		padding: 1rem;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 	}
 
 	.status-tile strong {
@@ -640,7 +640,7 @@
 	textarea {
 		width: 100%;
 		border: 1px solid var(--stone-warm);
-		border-radius: 0.375rem;
+		border-radius: 0.25rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		font: inherit;
@@ -663,7 +663,7 @@
 		min-height: 2.45rem;
 		padding: 0 0.9rem;
 		border: 0;
-		border-radius: 0.375rem;
+		border-radius: 0.25rem;
 		background: var(--lamp-glow);
 		color: var(--text-on-primary);
 		font-weight: 700;
@@ -711,7 +711,7 @@
 		gap: 0.25rem;
 		padding: 0.85rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 0.375rem;
+		border-radius: 0.25rem;
 		background: var(--night-deep);
 	}
 
@@ -785,7 +785,7 @@
 		gap: 0.2rem;
 		padding: 0.8rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 0.375rem;
+		border-radius: 0.25rem;
 		background: var(--night-deep);
 	}
 

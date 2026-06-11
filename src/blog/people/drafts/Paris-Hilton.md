@@ -28,12 +28,12 @@ occupation:
   - 'Socialite'
   - 'Television Actor'
 knows_about:
-  - 'Acting'
-  - 'Singing'
-  - 'Modeling'
-  - 'Business'
-  - 'Television acting'
-  - 'Film acting'
+  - 'Celebrity brand licensing'
+  - 'Fragrance lines'
+  - 'Reality television'
+  - 'DJ performance'
+  - 'Media entrepreneurship'
+  - 'Youth treatment industry reform advocacy'
 keywords:
   - 'Paris Hilton enneagram'
   - 'Paris Hilton type 3'
@@ -54,12 +54,21 @@ citations:
   - 'https://www.prnewswire.com/news-releases/claires-and-paris-hiltons-11-11-media-team-up-to-bring-paris-signature-style-to-claires-consumers-worldwide-302264787.html'
   - 'https://11-11media.com/'
 faqs:
-  - question: 'What Is Paris Hilton''s Personality Type?'
-    answer: 'Enneagram Type 3s sit in the heart triad. Their core emotion isn''t anger. It isn''t fear. It''s shame — the belief that who you are, stripped of achievement and performance and reputation, is not enough.'
+  - question: "What is Paris Hilton's personality type?"
+    answer: "Paris Hilton is an Enneagram Type 3 (The Achiever). The pattern shows in the dumb-blonde character she built as a trauma response ('I made a big brand out of pretending to be a dumb blonde. I'm not'), the locked-room promise at 16 to become too successful for anyone to control her again, the $4 billion product empire that promise fueled, and the healthy-Three turn toward Type 6: converting her own story into federal law protecting institutionalized kids."
     anchor: 'what-is-paris-hiltons-personality-type'
-  - question: 'Why is Paris Hilton typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Singing, Modeling.'
-    anchor: 'why-is-paris-hilton-typed-as-an-enneagram-type-3'
+  - question: 'Is the Paris Hilton dumb blonde act real?'
+    answer: "No — she's said the character 'was all a trauma response to what I had been through.' Becoming the cartoon meant the mockery never reached her: 'They're making fun of the character that I created. So you still have some agency over it.' Underneath, she describes herself as 'a very shy person' who used the mask to function on camera, and she knew exactly what she was doing: people who underestimated her told her more than they realized."
+    anchor: 'how-the-dumb-blonde-became-armor'
+  - question: 'What happened to Paris Hilton at Provo Canyon School?'
+    answer: "At 16, two strangers her parents had hired carried her from her bed in the middle of the night to a series of 'emotional growth schools.' At Provo Canyon, where she spent 11 months, she describes no sunlight or fresh air the entire time, forced medication, invasive exams by staff who weren't doctors, and solitary confinement in a freezing room with blood on the walls. The schools cut off communication so anything she told her parents was framed as manipulation."
+    anchor: 'the-schools-that-made-the-character'
+  - question: 'What law did Paris Hilton help pass?'
+    answer: "The Stop Institutional Child Abuse Act. She testified before the House Ways and Means Committee on June 26, 2024 — 'I was violently restrained and dragged down hallways, stripped naked, and thrown into solitary confinement' — and the bill passed the House 373-33, becoming law on December 23, 2024. Her advocacy organization has also helped pass reform bills in eight states."
+    anchor: 'taking-the-story-to-congress'
+  - question: "Why did Paris Hilton's nightmares stop?"
+    answer: "She had severe nightmares every single night from age 16 until her 2020 documentary This Is Paris made the boarding-school abuse public. 'Just getting it out there and off my chest — the nightmares stopped. I never thought I would ever not have a nightmare.' She's said she now dreams about the future instead."
+    anchor: 'what-happened-when-the-mask-finally-dropped'
 twitter: ''
 instagram: ''
 tiktok: ''

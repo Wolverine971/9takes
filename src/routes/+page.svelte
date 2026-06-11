@@ -1288,7 +1288,7 @@
 				width: 2px;
 				height: 14px;
 				background: linear-gradient(180deg, transparent, var(--lamp-glow));
-				border-radius: 1px;
+				border-radius: 9999px;
 			}
 
 			&::after {
@@ -1305,7 +1305,7 @@
 					var(--lamp-glow) 88%,
 					transparent 100%
 				);
-				border-radius: 1px;
+				border-radius: 9999px;
 			}
 		}
 	}
@@ -1337,7 +1337,7 @@
 				width: 2px;
 				height: 14px;
 				background: linear-gradient(180deg, var(--lamp-glow), transparent);
-				border-radius: 1px;
+				border-radius: 9999px;
 			}
 		}
 

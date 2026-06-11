@@ -28,12 +28,11 @@ occupation:
   - 'Singer'
   - 'Actor'
 knows_about:
-  - 'Songwriting'
-  - 'Voice acting'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Singing'
-  - 'Acting'
+  - 'Pop songwriting'
+  - 'Genre reinvention'
+  - 'Visual album production'
+  - 'LGBTQ youth advocacy (Happy Hippie Foundation)'
+  - 'Sobriety and recovery advocacy'
 keywords:
   - 'Miley Cyrus enneagram'
   - 'Miley Cyrus type 4'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm1415323/'
   - 'https://www.mileycyrus.com/'
 faqs:
-  - question: 'What is Miley Cyrus''s personality type?'
-    answer: 'Enneagram Fours are called the Individualists, but the label undersells what drives them. The core experience of a Four isn''t a preference for uniqueness. It''s a persistent, gnawing sense that something essential is missing inside them. Other people seem to possess a solidity, a wholeness, an ease of being that the Four can see but can''t reach. The search for identity isn''t a hobby. It''s survival.'
+  - question: "What is Miley Cyrus's personality type?"
+    answer: "Miley Cyrus is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in the identity split Hannah Montana drilled into her at eleven, her admission that she envies 'people that know just exactly who they are,' her habit of mining pain into songs — the house fire she called 'the biggest blessing,' the divorce that became 'Flowers' — and Dead Petz, the free psychedelic album that sacrificed commercial viability for self-expression. The Three wing puts the identity crises on stadium stages."
     anchor: 'what-is-miley-cyruss-personality-type'
-  - question: 'Why is Miley Cyrus typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Songwriting, Voice acting, Television acting.'
-    anchor: 'why-is-miley-cyrus-typed-as-an-enneagram-type-4'
+  - question: 'How did Hannah Montana affect Miley Cyrus?'
+    answer: "The show's premise — a girl who is a superstar in a wig and a nobody without it — became an education in self-fragmentation. As she told Howard Stern, 'That was drilled into my head — without being Hannah Montana, no one cares about you.' She says being made to look like someone she wasn't probably caused body dysmorphia, leaving her asking at sixteen, 'Who the f--k am I?'"
+    anchor: 'the-show-that-taught-her-she-had-two-selves'
+  - question: 'What was Miley Cyrus really doing at the 2013 VMAs?'
+    answer: "Demolition, not provocation. The twerking, the latex bikini, and the foam finger were designed to make the gap between Hannah Montana and herself so wide no one could confuse them again — weeks later on SNL she declared Hannah 'has been murdered.' The cost was real: she lost everything in her personal life during that period, and her brother and sister were too humiliated to go to school."
+    anchor: 'shes-been-murdered'
+  - question: "How was 'Flowers' written?"
+    answer: "The chorus was originally a quiet admission of defeat: 'I can buy myself flowers... but I can't love me better than you can.' Miley and co-writer Greg Kurstin flipped one word — 'Yeah, I CAN love me better than you can' — and a stripped-back piano ballad became a disco anthem after a thirty-minute jam with Kid Harpoon and Tyler Johnson. The song won her first Grammys: Record of the Year and Best Pop Solo Performance."
+    anchor: 'i-want-to-sound-like-this-gucci-dress'
+  - question: "Why isn't Miley Cyrus touring?"
+    answer: "She has Reinke's edema, a rare vocal cord condition — a large polyp that creates her distinctive rasp — which makes performing feel like 'running a marathon with ankle weights on.' She refuses surgery because she will not risk waking up not sounding like herself, and she knows the road would threaten the sobriety she calls 'my God.'"
+    anchor: 'secrets-and-the-mosaic'
 twitter: 'MileyCyrus'
 instagram: 'mileycyrus'
 tiktok: 'mileycyrus'

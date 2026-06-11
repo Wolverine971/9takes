@@ -22,10 +22,12 @@ occupation:
   - 'Military Personnel'
   - 'Podcaster'
 knows_about:
-  - 'Podcasting'
-  - 'Digital media'
-  - 'Military Personnel'
-  - 'Podcaster'
+  - 'Long-form interviewing'
+  - 'Navy SEAL special operations'
+  - 'CIA contracting and threat assessment'
+  - 'Veteran mental health advocacy'
+  - 'Psychedelic-assisted therapy'
+  - 'Tactical training'
 keywords:
   - 'Shawn Ryan enneagram'
   - 'Shawn Ryan type 5'
@@ -41,12 +43,21 @@ citations:
   - 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'
   - 'https://www.wikidata.org/wiki/Q131919780'
 faqs:
-  - question: 'What is Shawn Ryan''s Personality Type?'
-    answer: 'Type 5s are the most internally-focused type in the Enneagram. Their core fear: being useless, overwhelmed, or incapable. Their response? Withdraw. Observe. Gather knowledge until you understand the world so thoroughly that nothing catches you off guard.'
+  - question: "What is Shawn Ryan's personality type?"
+    answer: "Shawn Ryan is an Enneagram Type 5 (The Investigator), specifically a 5w6. The pattern shows in his confession that 'I've hid my emotions for so long I don't even know how to access them anymore,' the interview style built on silence learned in therapy, the way he reconstructed his own suicide attempt from physical evidence like an incident report, the Colombia spiral where he mapped drug supply chains like an intelligence operation, and the off-grid Colorado property where he's happiest."
     anchor: 'what-is-shawn-ryans-personality-type'
-  - question: 'Why is Shawn Ryan typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Podcasting, Digital media, Military Personnel.'
-    anchor: 'why-is-shawn-ryan-typed-as-an-enneagram-type-5'
+  - question: 'How did the Shawn Ryan Show get so big?'
+    answer: "It launched Christmas 2019 in his attic, with his wife manually resetting 30-minute camera timers, and hit #2 on Spotify behind only Joe Rogan by late 2024. The secret weapon was three and a half years of twice-weekly therapy: his therapist Amy taught him that silence draws people out more than interrogation. He asks carefully chosen questions and gets out of the way — which is how DJ Shipley broke down on camera and Pete Scobell broke five years of silence about the Captain Phillips rescue."
+    anchor: 'the-podcast-how-therapy-built-an-empire'
+  - question: 'What happened to Shawn Ryan in Colombia?'
+    answer: "After leaving the CIA, he spiraled into alcohol, cocaine, and prescription pills — close to two fifths of vodka a day — then moved to Medellin, where he approached the drug trade like an intelligence operation: 'I would find dealers and then I would find their dealers and then I would find where their dealers get their stuff.' He overdosed multiple times and Colombian federal police began surveilling him. A Mother's Day call to his mom triggered an escape-and-evasion protocol out of the country."
+    anchor: 'the-colombia-spiral'
+  - question: 'How did Shawn Ryan get sober?'
+    answer: "Through ibogaine and 5-MeO-DMT treatments facilitated by VETS, an organization helping Special Operations veterans. During the 12-hour ibogaine session he had to 'concentrate on not trying to concentrate' — surrendering the mental control that defines him — and afterward his brain reclassified substances as 'poison': he quit alcohol, Adderall, Ambien, and sugar at once with no cravings. His stated reason for doing it: 'be a better dad.'"
+    anchor: 'the-surrender-a-type-5-fears-most'
+  - question: 'Why did Shawn Ryan turn against Trump?'
+    answer: "He hosted Trump in August 2024, called it 'the biggest interview of my career,' and supported his victory. Then he tracked results the way he once tracked threat patterns, and by late 2025 his assessment was blunt: 'Nothing I voted for happened' — citing the Ukraine war, the unreleased Epstein files, and new military engagements. It wasn't an ideological shift; he began hosting guests across the spectrum because limiting sources would compromise the investigation."
+    anchor: 'the-political-reckoning'
 twitter: 'ShawnRyan762'
 instagram: 'shawnryan762'
 tiktok: 'shawnryan762'

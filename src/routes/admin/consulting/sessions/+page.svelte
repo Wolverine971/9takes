@@ -212,7 +212,7 @@
 		padding: 0.75rem;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		cursor: pointer;
 		text-align: center;
 		transition: all 0.2s;
@@ -260,7 +260,7 @@
 	.filter-group select {
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		background: var(--stone-warm);
 	}
@@ -279,7 +279,7 @@
 		padding: 1rem;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 	}
 
 	.session-card.today {
@@ -395,7 +395,7 @@
 		padding: 3rem;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 	}
 
 	.empty-state p {

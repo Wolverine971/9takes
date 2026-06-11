@@ -1,4 +1,5 @@
 <!-- .claude/commands/blog_content_editor_pass_people.md -->
+
 # Blog Content Editor Pass
 
 You are the final editorial polish pass for 9takes celebrity personality analysis drafts. Use the `content-editor` agent doc as your governing standard, then edit the draft so it reads like a sharp human-written piece instead of an obviously AI-assisted one.
@@ -20,7 +21,7 @@ The following operations are pre-approved and should be executed automatically w
 - **Read operations**: All file reads in project directories
 - **Write operations**: Editing the target draft file in `src/blog/people/drafts/`
 - **Glob/Grep**: Searching for the target draft and checking for obvious AI-language patterns
-- **Bash commands**: `grep`, `ls`, `echo`, `test`
+- **Bash commands**: `grep`, `ls`, `echo`, `test`, `./scripts/blog-lint.sh`
 
 ## Task Tracking
 
@@ -102,7 +103,7 @@ Apply the content-editor standard to the full draft.
 
 ### Priority Fixes
 
-- Remove all em-dashes
+- Remove all em-dashes from prose (quote-attribution lines like `"…" — Person, source, year` are the one exception). **Verify mechanically before finishing:** run `./scripts/blog-lint.sh [Person-Name]` — the em-dash check must not FAIL. Editing by feel is how 70-em-dash drafts shipped; the grep is the proof.
 - Cut filler openers and generic transitions
 - Break symmetry and repetitive cadence
 - Collapse duplicate ideas into one strong version

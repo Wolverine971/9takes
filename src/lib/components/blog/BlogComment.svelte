@@ -106,7 +106,7 @@
 	.comment-card {
 		background-color: var(--stone-warm);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 0.5rem;
 
 		@media (max-width: 576px) {
@@ -165,7 +165,7 @@
 		font-weight: 600;
 		font-size: 0.875rem;
 		text-align: center;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		transition: all 0.2s ease;
 		flex-shrink: 0;
 
@@ -230,7 +230,7 @@
 		font-size: 0.9rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
-		border-radius: 0 0 12px 12px;
+		border-radius: 0 0 1rem 1rem;
 
 		&:hover {
 			background: var(--lamp-soft);

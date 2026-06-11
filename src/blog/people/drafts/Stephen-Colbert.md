@@ -28,12 +28,12 @@ occupation:
   - 'Television Producer'
   - 'Writer'
 knows_about:
-  - 'Acting'
-  - 'Comedy'
-  - 'Screenwriting'
-  - 'Television production'
-  - 'Writing'
-  - 'Satire'
+  - 'Political satire'
+  - 'Improvisational comedy'
+  - 'Late-night television hosting'
+  - 'Tolkien lore'
+  - 'Catholic faith and grief'
+  - 'Character-based comedy'
 keywords:
   - 'Stephen Colbert enneagram'
   - 'Stephen Colbert type 6'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q212886'
   - 'https://www.imdb.com/name/nm0170306/'
 faqs:
-  - question: 'What is Stephen Colbert''s Personality Type?'
-    answer: 'The evidence isn''t in the bravery. It''s in what the bravery is built on.'
+  - question: "What is Stephen Colbert's personality type?"
+    answer: "Stephen Colbert is an Enneagram Type 6 (The Loyalist), specifically a counterphobic 6w7. The pattern shows in the safety rupture of losing his father and two brothers in a plane crash at age ten, the panic attacks and 1993 nervous breakdown beneath the fearless persona, the Catholicism that functions as load-bearing architecture, the thirty-year marriage and four-decade Second City collaborations, and the way he charges directly at what scares him — from the 2006 White House Correspondents' Dinner speech to telling Trump off on air."
     anchor: 'what-is-stephen-colberts-personality-type'
-  - question: 'Why is Stephen Colbert typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Comedy, Screenwriting.'
-    anchor: 'why-is-stephen-colbert-typed-as-an-enneagram-type-6'
+  - question: "What happened to Stephen Colbert's father and brothers?"
+    answer: "On September 11, 1974, Eastern Air Lines Flight 212 crashed 3.3 miles short of the runway in Charlotte, North Carolina, killing 72 people — among them James Colbert Jr., an immunologist and medical school dean, and sons Peter and Paul, the brothers closest in age to ten-year-old Stephen. The crew had been engaged in non-essential conversation, and the crash eventually led to the FAA's 'sterile cockpit' rule. 'I was personally shattered,' Colbert told Anderson Cooper, describing the quiet, dark house that followed."
+    anchor: 'eastern-air-lines-flight-212'
+  - question: "What does Stephen Colbert mean by 'learn to love the bomb'?"
+    answer: "The phrase came from Second City director Del Close, where it means accepting failure onstage. Colbert applied it to catastrophic grief: 'Boy, did I have a bomb when I was 10. That was quite an explosion. And I learned to love it.' It's the root of his most famous sentence — 'I love the thing that I most wish had not happened' — gratitude for suffering as a daily practice, learned from his mother's example."
+    anchor: 'the-joy-machine-and-the-anxiety-machine-underneath'
+  - question: 'Why did CBS cancel The Late Show with Stephen Colbert?'
+    answer: "CBS cancelled the show in July 2025, days after Colbert called Paramount's settlement with Trump 'a big fat bribe' on air. When Trump gloated, Colbert told him to go fuck himself, and summarized the affair in six words: 'Don't trust billionaires.' Jon Stewart delivered an F-bomb-filled monologue defending him."
+    anchor: 'the-character-dies-the-man-has-to-live'
+  - question: 'How religious is Stephen Colbert?'
+    answer: "Deeply — Catholicism is the organizing principle of his life, not decoration. He teaches Sunday school at St. Cassian parish in Montclair, keeps a Teilhard de Chardin note taped to his computer ('Joy is the most infallible sign of the existence of God'), and anchors his philosophy in a Tolkien letter: 'What punishments of God are not gifts?' After meeting Pope Francis in 2024, he admitted he had 'spent a lot of my career wondering if the work that I do is compatible with my faith.'"
+    anchor: 'the-language-he-found-for-his-grief'
 twitter: '@StephenAtHome'
 instagram: 'colbertlateshow'
 tiktok: ''

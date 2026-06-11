@@ -411,7 +411,7 @@
 		bottom: 24px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		box-shadow:
 			0 25px 50px -12px rgba(0, 0, 0, 0.5),
 			var(--glow-sm);
@@ -466,7 +466,7 @@
 		height: 36px;
 		border: none;
 		background: none;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		color: var(--ink-mid);
 		cursor: pointer;
 		transition: all 0.15s ease;
@@ -637,7 +637,7 @@
 	.warning-dialog {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 24px;
 		max-width: 400px;
 		width: 100%;

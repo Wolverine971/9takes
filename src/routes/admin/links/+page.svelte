@@ -157,7 +157,7 @@
 		padding: 0.625rem 1rem;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		min-width: 90px;
 	}
 
@@ -178,7 +178,7 @@
 	.section-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1.25rem;
 		margin-bottom: 1.25rem;
 	}
@@ -217,7 +217,7 @@
 			width: 56px;
 			padding: 0.3rem 0.4rem;
 			border: 1px solid var(--stone-warm);
-			border-radius: 6px;
+			border-radius: 0.625rem;
 			font-size: 0.8rem;
 			background: var(--night-deep);
 			color: var(--ink-bright);
@@ -230,7 +230,7 @@
 		font-weight: 500;
 		background: rgba(139, 92, 246, 0.1);
 		color: var(--lamp-glow);
-		border-radius: 20px;
+		border-radius: 9999px;
 	}
 
 	.loading-state {
@@ -266,7 +266,7 @@
 	.qr-card {
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 0.875rem;
 		text-align: center;
 		transition: all 0.15s ease;
@@ -280,7 +280,7 @@
 			width: 100%;
 			max-width: 100px;
 			height: auto;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			margin-bottom: 0.375rem;
 		}
 	}
@@ -333,7 +333,7 @@
 
 	.map-container {
 		min-height: 400px;
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 

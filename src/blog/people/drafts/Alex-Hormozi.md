@@ -77,29 +77,34 @@ keywords:
 ---
 
 <!-- ============================================================
-PLANNED EDITS — 2026-05-19 (DJ + Claude review pass)
-Full analysis: docs/content-analysis/hormozi-profile-review-2026-05-19.md
+EDIT LOG — 2026-05-19 + 2026-06-10 review passes (all items closed)
 
-PRE-SEND FIXES (this session) — ALL COMPLETED 2026-05-19:
-[x] Verify Guinness number: confirmed 2,917,443 copies on Aug 17 2025
-[x] Cross-check Fortune article date: Jan 12 2026, confirmed
-[x] Fix father's escape story: now Iran → Paris → failed French med school twice → U.S.
-    + named father as a doctor. Updated body + FAQ.
-[x] Name the missing mother: added single-father-household beat. Updated body + FAQ.
-[x] Fix Leila-shaped hole: partnership section rewritten — operator/visionary framing,
-    bridge moment included, Executive Chair transition referenced. Updated body + FAQ.
-[x] Standardize $46.2M sale: now "majority stake" in both pieces (dropped 66% figure).
-[x] Standardize Acquisition.com revenue: $250M+ in both pieces.
-[x] Add launch timeframe: Alex piece now $82M in 24hrs / $106M over 3 days, matches Leila.
+2026-05-19 pre-send pass (before Hormozi outreach emails):
+- Verified Guinness number (2,917,443, Aug 17 2025) + Fortune date (Jan 12 2026).
+- Fixed father's escape story: Iran → Paris → failed French med school twice → U.S.;
+  named father as a doctor. Body + FAQ.
+- Named the missing mother (single-father household). Body + FAQ.
+- Fixed Leila-shaped hole: partnership rewritten with operator/visionary framing,
+  bridge moment, Executive Chair transition. Body + FAQ.
+- Standardized with Leila's piece: majority-stake sale, $250M+ revenue,
+  launch timeframes ($82M 24hr / $106M 3-day).
 
-LATER (post-send, not blocking):
-[ ] Cut/compress the "How Type 3 Thinks: The Frameworks" H2 — stalls after Tony peak.
-[ ] Replace stat-block "$100M Money Models Launch" section with a single launch-day scene.
-[ ] Vary the "Type 8s want X / Type 1s want Y" counter-typing structure (appears in both pieces).
-[ ] Drop the H2 "What is Alex Hormozi's Personality Type?" restatement (triple front-loading).
-[ ] LORE: develop the 26-year-old collapse beyond "data not shame" (personal cost).
-[ ] LORE: add one off-camera private-Alex detail (from Leila's podcast or similar).
-[ ] LORE: engage the mortality/memento mori angle as the deep version of "Grow or Die."
+2026-06-10 follow-up pass:
+- Compressed the "Frameworks" H2 into one paragraph (with the reduces-people-to-
+  inputs critique) folded into the Gym Launch section.
+- Rewrote the $100M Money Models launch section as a launch-day scene.
+- Restructured counter-typing (tell-first) so it no longer mirrors Leila's piece.
+- Trimmed the "What is..." section to fix triple front-loading (H2/H3 kept for anchors).
+- LORE: collapse expanded with Christmas Eve 2016 scene ($45,700 partner withdrawal,
+  $120K processor freeze, $22K commission wired, $1,036 left, chin-lift detail);
+  named "data" framing as explanation + defense. Dropped unsourced "futon" detail.
+- LORE: added "I hope I don't wake up" (Modern Wisdom) to the consulting period,
+  where it actually belongs chronologically.
+- LORE: added prenup-reversal story to partnership section (private-Alex beat).
+- LORE: added "The Death Math Behind Grow or Die" section (Modern Wisdom + X post;
+  note: he never literally says "memento mori," so it isn't quoted).
+- Sale phrasing now "all-cash deal pegged at $46.2M" with Threads citation
+  (matches Leila's piece; his own wording is "66% at $46.2M valuation").
 ============================================================ -->
 
 > "Volume negates luck."
@@ -108,7 +113,7 @@ LATER (post-send, not blocking):
 
 He works because he can't see himself doing anything else.
 
-This is a man who sold nearly 3 million copies of a book in a single day. Who wakes at 4am, eats the same meals every day, and wears the same black t-shirt in every video. Who left a government job with top-secret clearance because the achievement was capped. Who hit financial zero at 26, slept on a friend's futon, and built a $100M+ empire from the wreckage.
+This is a man who sold nearly 3 million copies of a book in a single day. Who wakes at 4am, eats the same meals every day, and wears the same black t-shirt in every video. Who left a government job with top-secret clearance because the achievement was capped. Who hit financial zero at 26, down to $1,036 in his account, and built a $100M+ empire from the wreckage.
 
 And in a quiet moment with the one person who might understand — a fellow achiever three decades further down the road — he confessed the engine never turns off.
 
@@ -132,27 +137,21 @@ Understanding Hormozi means understanding why some people can never feel like th
 
 ### Alex Hormozi is an Enneagram Type 3 (The Achiever)
 
-[Enneagram Type 3s](/enneagram-corner/enneagram-type-3) operate from a core fear: without achievements, they're worthless. Success isn't a nice-to-have. It's oxygen.
+[Enneagram Type 3s](/enneagram-corner/enneagram-type-3) operate from a core fear: without achievements, they're worthless. The childhood wound typically involves feeling loved for what they achieved rather than who they were, and the adult it produces can't fully separate identity from accomplishments.
 
-Type 3s read rooms. They understand what winning looks like in any context, then build a repeatable process to get there. Efficient. Image-conscious. Competitive, often with themselves more than others.
+Hormozi's brand is literally built on numbers: $100M Offers, $100M Leads, $100M Money Models. Even his personal habits are engineered around a single question: what produces more output per hour?
 
-The childhood wound typically involves feeling loved for what they achieved rather than who they were. This creates adults who can't fully separate identity from accomplishments.
-
-Hormozi shows all the hallmarks. His entire business philosophy centers on measurable results. His brand is literally built on numbers: $100M Offers, $100M Leads, $100M Money Models. Even his personal habits are engineered around a single question: what produces more output per hour?
-
-His particular expression of Type 3 includes a strong 8 wing, making him a 3w8. This adds aggression, directness, and a willingness to confront rather than charm his way to success. Compare him to [Taylor Swift](/personality-analysis/taylor-swift), another Type 3, who leans toward charm and adaptation. Same core drive, opposite tactics.
+His particular expression includes a strong 8 wing, making him a 3w8. The wing adds aggression, directness, and a willingness to confront rather than charm his way to success. Compare him to [Taylor Swift](/personality-analysis/taylor-swift), another Type 3 who leans on charm and adaptation. Same core drive, opposite tactics.
 
 ### Why Type 3 and Not Type 8 or Type 1?
 
-Hormozi's intensity makes some people see Type 8. His systems and discipline make others see Type 1. Both are reasonable guesses. Here's why he's still a 3.
+Hormozi's intensity makes some people see Type 8. His systems and discipline make others see Type 1. The fastest way to settle it is to watch what happens when he fails.
 
-Type 8s seek control and power for its own sake. They want to be strong enough that nobody can hurt them. Hormozi doesn't talk about power. He talks about being _valuable_. His entire philosophy centers on "become more valuable, get paid more." Type 8s want dominance. Alex wants to win the value game. Different scoreboard.
+An 8 gets angry and attacks the obstacle. A 1 turns the anger inward and self-criticizes. Alex gets _curious_. What broke? How do I improve the system? Failure isn't an insult to his strength or a verdict on his character. It's feedback on the path to achievement, and that response pattern is the Achiever's signature.
 
-Type 1s are driven by an internal standard of "right" and "wrong." They perfect things because imperfection feels morally uncomfortable. Hormozi doesn't seem bothered by imperfection. He's bothered by _inefficiency_. He'll ship a "good enough" product and iterate. Type 1s struggle with that. It violates their sense of correctness.
+The vocabulary settles the rest. Listen to a few hours of his content and you'll notice he almost never talks about power, the 8's native currency. He talks about being _valuable_: "become more valuable, get paid more." And for all the discipline, he ships "good enough" products and iterates, something a true 1 can't stomach because imperfection feels morally wrong. What bothers Hormozi isn't incorrectness. It's inefficiency.
 
-The tell is what happens when he fails. Type 8s get angry and attack. Type 1s feel shame and self-criticize. Alex gets _curious_. What can I learn? How do I improve the system? That's Type 3. Failure is just feedback on the path to achievement.
-
-His 8 wing gives him the directness and confrontational style. But the core motivation is pure Achiever.
+His 8 wing supplies the directness and the confrontational style. The core motivation is pure Achiever.
 
 ## The Iranian-American Drive: How His Father Shaped Everything
 
@@ -190,6 +189,8 @@ He hated it.
 
 Not the work itself. The ceiling. Government jobs have defined paths. You know exactly where you'll be in 5, 10, 20 years. For most people, that's security. For a Type 3, it's suffocation. The achievement is capped. The game has a maximum score.
 
+Years later, on [Modern Wisdom](https://podscripts.co/podcasts/modern-wisdom/670-alex-hormozi-23-controversial-truths-about-life), he described what that suffocation actually felt like: _"Every day, I was like, I hope I don't wake up."_ The thought that pulled him out ran on pure Hormozi logic: if you don't want to wake up, what have you got to lose? The despair became the permission slip.
+
 After two years, Hormozi made the leap that terrifies most people. He left guaranteed success for uncertain potential.
 
 "I left at 22, and I turned 23 two weeks after my gym opened," he's said. The traditional path would have been two to four more years of consulting, then back to an Ivy League for an MBA. He walked away from all of it.
@@ -202,13 +203,15 @@ Most success stories get sanitized. Hormozi's doesn't deserve that treatment.
 
 By 24, he'd scaled to six gym locations. By 26, he'd lost everything.
 
-Not a setback. A collapse. Closed his sixth gym. Hit financial zero. Slept on a friend's futon. Lived in motels. The systems that worked at small scale broke at larger scale.
+Not a setback. A collapse. Closed his sixth gym. Hit financial zero. Lived out of motels and a spare room at Leila's parents' house, working from their children's playroom. The systems that worked at small scale broke at larger scale.
 
 Then he rebuilt. And lost it again.
 
-The "made it, lost it, made it, lost it, made it again" story isn't motivational fluff. It's literal.
+The granular version is worse than the summary. A business partner withdrew $45,700 from their shared account and wiped out his savings. Then, on Christmas Eve 2016, sitting in a movie theater with Leila, he learned a payment processor was freezing $120,000 of his money for six months over "irregular activity." He had $23,036 left and owed a salesman a $22,000 commission. He wired the commission anyway. That left [$1,036 to his name](https://www.threads.com/@hormozi/post/DIcfSMtSORM), a number he can still quote to the dollar nearly a decade later. And in [his own telling](https://x.com/AlexHormozi/status/1532764279656443904) of the sinking-ship conversation with Leila, he wasn't making eye contact when he offered to let her leave. She had to lift his chin.
 
-This matters psychologically. Type 3s build identity on success. What happens when the success disappears? For many, it's devastating. For Alex, each failure became data. Not shame. Information. What broke? Why? How do we fix it?
+This matters psychologically. Type 3s build identity on success. What happens when the success disappears? Alex's answer: each failure became data. Not shame. Information. What broke? Why? How do we fix it?
+
+Believe the framing, because the results back it up. But notice what it is: the Type 3 explanation and the Type 3 defense in a single move. "Data" is what you call the worst year of your life after you've survived it. The man in that theater wasn't running a retrospective. He was watching the number that proved his worth drain to four digits and deciding that the people he owed got paid before he did.
 
 That's the difference between Type 3s who burn out and Type 3s who build empires. Alex didn't attach his identity to the outcome. He attached it to the process of winning.
 
@@ -226,33 +229,13 @@ At 27, the business did $3 million profit in six months. Then $17 million profit
 
 The Type 3 pattern is clear: find a winning formula, build a repeatable process around it, scale it, then move on to bigger challenges. Gym Launch eventually helped over 5,000 gyms across 13 countries acquire customers.
 
-In 2021, American Pacific Group purchased a majority stake in Gym Launch and Prestige Labs for $46.2 million cash.
+In 2021, American Pacific Group purchased a majority stake in Gym Launch and Prestige Labs in an all-cash deal [Hormozi has pegged at $46.2 million](https://www.threads.com/@hormozi/post/DMaaOoMgjBs/).
 
 Then came Acquisition.com, where Hormozi could invest in and scale multiple businesses at once. The portfolio now generates over $250 million in annual revenue.
 
 Eight years from floor mats to nine figures.
 
-## How Type 3 Thinks: The Frameworks That Reveal His Mind
-
-Hormozi's famous frameworks aren't just business advice. They're windows into how a high-achieving Type 3 processes reality. Every framework reveals the same instinct: make the abstract measurable, then improve the number.
-
-### The Value Equation
-
-His core teaching from $100M Offers breaks value into four variables:
-
-**Value = (Dream Outcome x Perceived Likelihood of Achievement) / (Time Delay x Effort & Sacrifice)**
-
-Notice the move: Hormozi reduces abstract concepts to measurable components. "Value" becomes a formula. "Success" becomes a score you can see and improve. This is how Type 3s make the world feel controllable. Quantify everything, then improve the numbers.
-
-"Make it so good they feel guilty not buying," he says. The goal isn't to manipulate. It's to create value so obvious that rejection becomes irrational. Classic Type 3: remove ambiguity, stack the odds, win.
-
-### Volume Negates Luck
-
-His most repeated phrase reveals the Type 3 relationship with uncertainty: "Bad luck on any single attempt gets overwhelmed by sheer quantity of attempts."
-
-Type 3s hate feeling at the mercy of chance. Volume is how they take control back. Post enough content, some percentage goes viral. Make enough offers, conversions become predictable. Launch enough products, winners emerge.
-
-It's anxiety management through action.
+The frameworks that made him famous run on the same instinct. The Value Equation from $100M Offers reduces "value" to four scoreable variables: (Dream Outcome x Perceived Likelihood of Achievement) / (Time Delay x Effort & Sacrifice). It reads as business advice. It functions as worldview. Quantify everything, improve the number, and the world stops being something that happens to you. The unexamined question, the one his sharpest critics keep circling, is what a man who reduces value to a formula does with the variables that are people.
 
 ## The Tony Robbins Conversation: When a Type 3 Confronts His Shadow
 
@@ -348,21 +331,15 @@ But something more significant is happening beneath the numbers. This represents
 
 This might be what the growth path looks like: achievement that serves something larger than yourself.
 
-## The $100M Money Models Launch: Type 3 Achievement in Its Purest Form
+## The $100M Money Models Launch: A Record Built Like a Machine
 
-On August 17, 2025, Hormozi broke a Guinness World Record.
+Picture August 17, 2025. A stage in Las Vegas. Hormozi is eight hours into a YouTube livestream that is half business school, half telethon: teach for a stretch, pitch for a few minutes, repeat. Over 100,000 people are watching live. Somewhere behind him, a sales counter is climbing past the number it took [Prince Harry](/personality-analysis/prince-harry)'s memoir Spare a full day to reach: 1.43 million copies, the standing Guinness record for fastest-selling nonfiction book. Hormozi's counter doesn't stop until 2,917,443.
 
-$100M Money Models sold 2,917,443 copies in a single day. The previous record holder? [Prince Harry](/personality-analysis/prince-harry)'s memoir Spare, at 1.43 million copies. Hormozi nearly doubled it within hours.
+Nearly double the old record, in one day. Only Harry Potter launches have sold more copies that fast.
 
-Only Harry Potter books have sold more copies on launch day.
+None of it was luck, and that's the psychological point. Four years of groundwork. Over $4 million in tested advertising, hundreds of ad iterations refined until the formula worked. At roughly $30 per book, day one alone grossed about $82 million, and by the end of the 72-hour launch weekend the total passed $106 million. He didn't hope the record would fall. He engineered a machine that made the record inevitable, then stood in front of it for eight hours while it ran.
 
-How? Four years of groundwork. Over $4 million in tested advertising. Hundreds of ad iterations refined until the formula worked. A marathon YouTube livestream that mixed eight hours of real teaching with sharp pitches, attracting over 100,000 viewers.
-
-At roughly $30 per book, that's approximately $82 million in revenue in the first 24 hours. By the end of the launch weekend, including Sunday and Monday events, total sales exceeded 3.28 million copies and gross revenue passed $106 million in 72 hours.
-
-The $100M series has now sold over 5 million copies total.
-
-Type 3 achievement in its purest form: set an audacious goal, build the machine to reach it, break the record, start planning the next one.
+And then, true to type, the goalpost moved. The record wasn't a destination. It was a data point on the way to the next one.
 
 ## The Controversies Worth Examining
 
@@ -404,11 +381,25 @@ The early years weren't romantic.
 
 They lived in motels. Ate at 7-Eleven. Personally launched 33 gyms while sleeping at Extended Stays with $1,000 saved after 19 months. The bridge moment — when Alex's first business partner drained his accounts and Alex told her he was a sinking ship — is the load-bearing event in the marriage. Leila grabbed his chin and said _"I'd sleep with you under a bridge if it came to that."_ Everything Acquisition.com is downstream of that sentence.
 
+There's a quieter story from the same marriage that almost nobody writes about. Alex asked Leila for a prenup. She agreed without argument. Then, [on the way to sign it](https://www.facebook.com/leilahormozi/posts/741890815366160/), he changed his mind, and they married without one. Hold that against the "assets to each other" framing Leila gives interviewers, and against the formula he turned value into. Off camera, with the one person who watched him sink, the man who measures everything deleted the instrument of measurement.
+
 What she actually does inside the company matters more than the spouse framing usually allows. Alex sees the end state. Leila sees all the steps to get there. He builds the audience and the frameworks. She builds the team, the systems, and the operational machinery that turns frameworks into a portfolio. She ran Acquisition.com as CEO for years, including the launch infrastructure for $100M Money Models — the Guinness day is hers as much as his. In early 2026, she stepped down as CEO and moved to Executive Chair, bringing in Sharran Srivatsaa to run the day-to-day so she could hold the strategic future instead. She has been more honest about the cost of all of this than Alex has — about layoffs, about burnout, about rest feeling uncomfortably close to quitting.
 
 "My wife is Leila Hormozi and she's been there through every collapse and every comeback," Alex has written. "The yin to my yang. Moderately successful on our own. And much stronger together."
 
 In Enneagram terms, the partnership is two Threes — same fear, different expression. His version manifests as charisma and content. Hers manifests as competence and systems. That's the integration Type 3s have to find: someone who will hold you accountable to the work without becoming an audience for the performance. They both push toward achievement. They both check each other when the performance starts running the person.
+
+## The Death Math Behind "Grow or Die"
+
+There's a deeper layer under the growth philosophy, and he names it more often than the business clips suggest: he thinks about dying.
+
+_"I think about death all the time,"_ he told [Modern Wisdom](https://podscripts.co/podcasts/modern-wisdom/670-alex-hormozi-23-controversial-truths-about-life), _"because it's probably the central theme."_ The most-shared version of the idea is an [X post](https://x.com/AlexHormozi/status/1755343009376592019) that reads like a eulogy for people-pleasing: _"You're going to die. And a few months later, no one will think about the risks you took or didn't take. What a waste to live your entire life to please people who will never think of you again."_
+
+He runs the death math in both directions. Backward: in three generations, everyone who knew you will be dead, including the people whose opinions stopped you. Forward: his self-described most powerful gratitude frame is imagining his 85-year-old self waking up one morning as his 30-year-old self. The body doesn't hurt. The energy is back. The decades are returned.
+
+Read that and "Grow or Die" stops being a slogan. The kid who grew up performing for his father's approval, the man who admits he struggled with the fear of people's opinions, found exactly one authority large enough to cancel the audience: death. If nobody will remember, nobody is keeping score, and for a Type 3 whose engine runs on the scoreboard, that thought isn't dark. It's the closest thing to freedom the type gets.
+
+Unless it's the opposite, and death is just the final scoreboard: finite time, measurable output, a deadline nobody renegotiates. Knowing Hormozi, both are true on the same day.
 
 ## The Billion Dollar Question
 

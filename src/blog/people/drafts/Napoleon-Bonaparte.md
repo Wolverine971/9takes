@@ -29,12 +29,12 @@ occupation:
   - 'Emperor'
   - 'Sovereign'
 knows_about:
-  - 'Politics'
-  - 'Historical influence'
-  - 'Politician'
-  - 'Statesperson'
-  - 'Military Officer'
-  - 'Art Collector'
+  - 'Military strategy'
+  - 'Artillery tactics'
+  - 'The Napoleonic Code'
+  - 'Imperial statecraft'
+  - 'Battlefield command'
+  - 'Self-mythology and propaganda'
 keywords:
   - 'Napoleon Bonaparte enneagram'
   - 'Napoleon Bonaparte type 8'
@@ -52,15 +52,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q517'
   - 'https://www.imdb.com/name/nm1927416/'
 faqs:
-  - question: 'What is Napoleon''s personality type?'
-    answer: 'Every era gets its Napoleon. Ridley Scott''s 2023 film, expanded in the 2024 director''s cut, made him a husband first and a conqueror second — Joaquin Phoenix playing him as a man who could only function with Josephine in the room. Andrew Roberts''s Napoleon: A Life (2014) made him the architect of modern Europe, a reformer in a soldier''s coat. Zamoyski made him a brilliant opportunist whose self-myth has eaten his record.'
+  - question: "What is Napoleon Bonaparte's personality type?"
+    answer: "Napoleon is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the bullied Corsican boy at Brienne who 'formulated my first opinions of mankind' at nine, the coronation where he took the crown from the Pope's hands and placed it on his own head, calling Talleyrand 'shit in a silk stocking' in front of the entire court, the compulsive expansion that demanded Russia after Tilsit, and the suicide attempt at Fontainebleau when the empire collapsed."
     anchor: 'what-is-napoleons-personality-type'
-  - question: 'What is Napoleon Bonaparte''s personality type?'
-    answer: 'Napoleon Bonaparte is analyzed as an Enneagram Type 8 (Challenger). The profile connects that type pattern to Inside Napoleon''s psychology: the Corsican outsider who conquered Europe but couldn''t conquer his need to be loved.'
-    anchor: 'what-is-napoleon-bonapartes-personality-type'
-  - question: 'Why is Napoleon Bonaparte typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Politics, Historical influence, Politician.'
-    anchor: 'why-is-napoleon-bonaparte-typed-as-an-enneagram-type-8'
+  - question: 'Why did Napoleon crown himself instead of letting the Pope do it?'
+    answer: "At the 1804 coronation in Notre-Dame, protocol demanded that Pius VII place the crown on the new Emperor's head. Napoleon turned, took the crown from the Pope's hands, and crowned himself. The gesture wasn't about glory or validation — it was sovereignty: he wanted everyone in the cathedral to understand that no one, not even God's representative on Earth, had authority over him."
+    anchor: 'napoleon-is-an-enneagram-type-8'
+  - question: 'Did Napoleon reinstate slavery?'
+    answer: "Yes. The Law of 20 May 1802 confirmed slavery and the slave trade in the French Caribbean, reversing the 1794 abolition, and a decree explicitly reinstated slavery in Guadeloupe. His expedition to Saint-Domingue lured Toussaint Louverture to a parley under safe-conduct, arrested him at the table, and shipped him to Fort de Joux, where he died untried in April 1803. The expedition collapsed, and Haiti declared independence on January 1, 1804 — the only successful slave revolt in history to found a state."
+    anchor: 'saint-domingue-1802'
+  - question: 'Why did Napoleon divorce Josephine?'
+    answer: "He needed an heir and she couldn't provide one. The proof arrived in 1809 when Marie Walewska, his Polish mistress, became pregnant — establishing the infertility wasn't his. He wept during the December 1809 divorce ceremony; Josephine fainted. He then married Marie Louise of Austria for dynastic legitimacy, telling his circle he had 'married a womb' — before falling genuinely in love with her."
+    anchor: 'after-josephine'
+  - question: "Why did Napoleon invade Russia against his advisors' warnings?"
+    answer: "His former ambassador Caulaincourt spent seven hours telling him the Russians would retreat into the vastness and the climate would destroy the Grande Armée. Napoleon was visibly moved, then dismissed it with 'Bah! A good battle will bring to reason the good determination of your friend Alexander.' Six hundred thousand men marched east in 1812; fewer than one hundred thousand came back."
+    anchor: 'the-campaign-that-couldnt-end'
 twitter: ''
 instagram: ''
 tiktok: ''

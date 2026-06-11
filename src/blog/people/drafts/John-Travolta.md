@@ -28,12 +28,11 @@ occupation:
   - 'Dancer'
   - 'Television Actor'
 knows_about:
-  - 'Acting'
-  - 'Singing'
-  - 'Film production'
-  - 'Writing'
-  - 'Television acting'
-  - 'Film acting'
+  - 'Character transformation acting'
+  - 'Dance and physical performance'
+  - 'Aviation and jet piloting'
+  - 'Scientology'
+  - 'Hollywood career reinvention'
 keywords:
   - 'John Travolta enneagram'
   - 'John Travolta type 3'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000237/'
   - 'https://travolta.com'
 faqs:
-  - question: 'What is John Travolta''s personality type?'
-    answer: 'The evidence doesn''t whisper. It screams.'
+  - question: "What is John Travolta's personality type?"
+    answer: "John Travolta is an Enneagram Type 3 (The Achiever) with a 2 wing. The pattern shows in his self-described 'neutral personality' that 'tunes in to characteristic traits of others' to perform, a childhood where drama reliably produced love, the survival instinct of staying employed through a decade as box office poison ('I always had a job'), and outsourcing every emotional crisis to Scientology's structured framework rather than his own interior."
     anchor: 'what-is-john-travoltas-personality-type'
-  - question: 'Why is John Travolta typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Singing, Film production.'
-    anchor: 'why-is-john-travolta-typed-as-an-enneagram-type-3'
+  - question: "How did Pulp Fiction revive John Travolta's career?"
+    answer: "Quentin Tarantino, a former video store clerk and Travolta obsessive, wrote Vincent Vega for him while he was essentially unemployable in serious films. The Jack Rabbit Slim's dance with Uma Thurman was a real actor being resurrected in front of the world, and it produced an Oscar nomination, Get Shorty, Face/Off, and a few years as Hollywood's biggest star again — until his $20,000,001 demand for Michael started the resentment."
+    anchor: 'the-phone-call-that-brought-him-back-to-life'
+  - question: "What role does Scientology play in John Travolta's life?"
+    answer: 'He joined at twenty-one after actress Joan Prather gave him Dianetics, and has been a member for over fifty years. When his son Jett died, the church provided daily grief support for two years — "Monday through Sunday" — and the same apparatus activated when Kelly Preston died. Every major emotional crisis of his adult life has been processed through its framework rather than therapy or independent grief work.'
+    anchor: 'the-sealed-room-scientology-and-the-self-travolta-wont-show'
+  - question: 'What tragedies has John Travolta lived through?'
+    answer: "He was holding Diana Hyland when she died of breast cancer in 1977, at twenty-three, while Saturday Night Fever was in production; his mother died of the same disease eighteen months later. His sixteen-year-old son Jett died from a seizure in 2009 ('I didn't want to wake up'), and his wife Kelly Preston died of breast cancer in 2020 — three of the most important women in his life taken by the same disease."
+    anchor: 'jett-kelly-and-the-breast-cancer-thread'
+  - question: 'Why is aviation so important to John Travolta?'
+    answer: "He started flying lessons at fifteen, holds eight jet licenses, has owned a Boeing 707, and built his Ocala, Florida home with its own private runway. 'Aviation has always bailed me out of anything in my mind that is blue,' he says — the cockpit is total control in a sealed environment. His directorial debut, Propeller, premiering at Cannes in 2026, is based on a children's book about planes he wrote for his late son Jett."
+    anchor: 'aviation-the-cockpit-where-grief-cant-follow'
 twitter: ''
 instagram: 'https://instagram.com/johntravolta'
 tiktok: ''

@@ -26,12 +26,11 @@ occupation:
   - 'Singer'
   - 'Lyricist'
 knows_about:
-  - 'Songwriting'
-  - 'Singing'
-  - 'Pop Music'
-  - 'Country Music'
-  - 'Music'
-  - 'Entrepreneurship'
+  - 'Confessional songwriting'
+  - 'Country-to-pop reinvention'
+  - "Master recording ownership (Taylor's Version)"
+  - 'Stadium tour production'
+  - 'Fan community building'
 keywords:
   - 'Taylor Swift enneagram'
   - 'Taylor Swift type 3'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm2357847/'
   - 'https://taylorswift.com'
 faqs:
-  - question: 'What is Taylor Swift''s personality type?'
-    answer: 'Taylor Swift is analyzed as an Enneagram Type 3 (Achiever). The profile connects that type pattern to Taylor Swift built a career on loyalty, reinvention, and public alchemy, turning humiliation, heartbreak, and betrayal into precision, power, and control.'
+  - question: "What is Taylor Swift's personality type?"
+    answer: "Taylor Swift is an Enneagram Type 3 (The Achiever), specifically a 3w4 with a social-dominant instinct. The pattern shows in convincing her family to move to Nashville at 14, the year-long disappearance after Kim Kardashian's snake attack followed by a 63-foot inflatable cobra named Karyn, the re-recording of her entire catalog after losing her masters, and the Apple Music open letter that changed industry payment policy in 24 hours."
     anchor: 'what-is-taylor-swifts-personality-type'
-  - question: 'Why is Taylor Swift typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Songwriting, Singing, Pop Music.'
-    anchor: 'why-is-taylor-swift-typed-as-an-enneagram-type-3'
+  - question: 'Is Taylor Swift a 3w2 or a 3w4?'
+    answer: "The analysis argues 3w4. A 3w2 achiever wins by being warm and useful; Swift wins by being the author — 'All Too Well' levels of introspective detail belong to someone whose identity hinges on artistic authenticity. The re-recordings are the cleanest proof: a 3w2 would have moved on to the next chart cycle, but the 3w4 had to reclaim the catalogue because the work itself is identity."
+    anchor: 'taylor-swifts-wing-3w4'
+  - question: 'Could Taylor Swift be a Type 4 instead of a Type 3?'
+    answer: "The Type 4 case looks tempting because the songwriting is so introspective, but 4s court melancholy as identity — they stay in the wound. Swift's instinct is always forward motion: snake emoji becomes 63-foot cobra, stolen masters get re-recorded, heartbreak becomes chart-topper. 4s marinate; 3s metabolize and ship."
+    anchor: 'counterarguments-why-taylor-swift-might-not-be-type-3'
+  - question: 'How did Taylor Swift respond to the Kim Kardashian and Kanye West feud?'
+    answer: "After the edited 'Famous' call clips dropped in 2016 and #TaylorSwiftIsOverParty trended worldwide, Swift disappeared — she moved abroad and didn't leave a rental house for a year. She returned in 2017 with Reputation, swallowing the snake label whole. In 2020 the full 25-minute call leaked and proved she'd been telling the truth for four years; her response was to redirect attention to feeding hungry children."
+    anchor: 'turning-the-kim-and-kanye-feud-into-fuel'
+  - question: 'Why did Taylor Swift re-record her albums?'
+    answer: "Scooter Braun acquired her masters in 2019 without her consent, so she re-recorded the catalog as 'Taylor's Version' — and 1989 (Taylor's Version) outperformed the original's streaming numbers. In August 2025 she revealed she'd also bought back the originals from Shamrock Capital, sending her mother and brother, not lawyers, to negotiate. Her framing: 'these are my handwritten diary entries from my whole life.'"
+    anchor: 'turning-the-masters-heist-into-leverage'
 twitter: 'taylorswift13'
 instagram: 'taylorswift'
 tiktok: 'taylorswift'

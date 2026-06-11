@@ -28,12 +28,11 @@ occupation:
   - 'Film Producer'
   - 'Poet'
 knows_about:
-  - 'Writing'
-  - 'Acting'
-  - 'Songwriting'
-  - 'Film production'
-  - 'Film acting'
-  - 'Singing'
+  - 'Confessional songwriting'
+  - 'Rock and roll'
+  - 'Peace activism'
+  - 'Primal therapy'
+  - 'Avant-garde art collaboration'
 keywords:
   - 'John Lennon enneagram'
   - 'John Lennon type 4'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0006168/'
   - 'https://www.johnlennon.com/'
 faqs:
-  - question: 'What is John Lennon''s Personality Type?'
-    answer: 'The public narrative about Lennon has always struggled with the contradictions. How do you reconcile "Imagine" with domestic violence? "All You Need Is Love" with abandoning your son? The peace prophet with the private rage?'
+  - question: "What is John Lennon's personality type?"
+    answer: "John Lennon is an Enneagram Type 4 (The Individualist). The pattern shows in losing his mother twice — once at five, once at seventeen — and turning the wound into 'Mother' and 'Strawberry Fields Forever,' his envy of 'this normal thing' he confessed to Rolling Stone, George Martin's observation that John wrote to please himself while Paul wrote to be liked, and the total merging with Yoko Ono that erased the Beatles, Cynthia, and Julian."
     anchor: 'what-is-john-lennons-personality-type'
-  - question: 'Why is John Lennon typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Acting, Songwriting.'
-    anchor: 'why-is-john-lennon-typed-as-an-enneagram-type-4'
+  - question: 'Was John Lennon violent?'
+    answer: "Yes, by his own confession. Two days before his murder he told Playboy: 'I used to be cruel to my woman, and physically... any woman. I was a hitter.' He was verbally and physically abusive to his first wife Cynthia, and his own explanation is the key to his public life: 'It is the most violent people who go for love and peace.' The peace movement wasn't despite the violence — it was because of it."
+    anchor: 'the-mask-that-hit-back'
+  - question: "Why did John Lennon call Yoko Ono 'Mother'?"
+    answer: "He described finding someone he could drink with, argue with, create with, sleep with — 'and it could also be Mother.' From a man whose defining wound was losing his mother twice, the sentence explains why the merging consumed everything: he reduced his biography to 'Born, lived and met Yoko' and said that once he found her, 'the boys became of no interest whatsoever.'"
+    anchor: 'it-could-also-be-mother'
+  - question: 'What happened between John Lennon and his son Julian?'
+    answer: "When Lennon left Cynthia for Yoko in 1968, Julian was five — the same age John was when his own mother handed him to Aunt Mimi. Julian later said 'that peace and love never came home to me' and that he never really knew the man. The happiest time Julian remembers with his father was the Lost Weekend period with May Pang — the stretch Lennon later erased from his official narrative."
+    anchor: 'the-son-he-left-behind'
+  - question: "What was John Lennon's Lost Weekend?"
+    answer: "An eighteen-month separation from Yoko starting in 1973, spent mostly in Los Angeles with May Pang — at Yoko's own suggestion. Lennon called it 'god-awful' and said 'I just fell apart,' but Pang insists the label erased a productive stretch: the #1 album Walls and Bridges, the Elton John collaboration, and a genuine reconnection with Julian."
+    anchor: 'the-lost-weekend'
 twitter: ''
 instagram: ''
 tiktok: ''

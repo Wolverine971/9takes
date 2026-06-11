@@ -28,12 +28,11 @@ occupation:
   - 'Dancer'
   - 'Model'
 knows_about:
-  - 'Singing'
-  - 'Acting'
-  - 'Songwriting'
-  - 'Modeling'
-  - 'Pop Music'
+  - 'Pop songwriting'
   - 'Contemporary R&B'
+  - "Memoir writing (The Half of It)"
+  - 'Mental health advocacy'
+  - 'Independent artist career-building'
 keywords:
   - 'Madison Beer enneagram'
   - 'Madison Beer type 4'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm5451507/'
   - 'https://madisonbeer.com'
 faqs:
-  - question: 'What is Madison Beer''s Personality Type?'
-    answer: 'Enneagram Type 4s carry a core fear that cuts deeper than most: the terror of having no identity, no significance, nothing that makes them irreplaceably them. They process life through an intensely personal lens, turning every experience into material for self-understanding. Their dominant emotion is shame — the quiet conviction that something about them is fundamentally defective, and that everyone else got a manual for living that they never received.'
+  - question: "What is Madison Beer's personality type?"
+    answer: "Madison Beer is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in the memoir she published at 24, therapy three times a week as structured identity excavation, the relief she felt at her BPD diagnosis ('the diagnosis gave me a lot of actual insight'), the antique lockets she collected on tour and named her third album after, and her admission that she felt like 'a failure' watching peers sell out arenas even as fans told her they wanted to be her."
     anchor: 'what-is-madison-beers-personality-type'
-  - question: 'Why is Madison Beer typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Acting, Songwriting.'
-    anchor: 'why-is-madison-beer-typed-as-an-enneagram-type-4'
+  - question: 'Why was Madison Beer dropped by her label at 16?'
+    answer: "Her manager, lawyer, and label all dropped her within the same twelve hours, with the stated reason that she was 'too sexy' — a conversation grown men had been having about her since she was 14. 'I felt like I was a dollar sign to them and when I didn't bring enough money, they didn't care about me anymore.' In her memoir she also suspects a leaked intimate video she'd sent to a boy she liked was part of why they cut her loose."
+    anchor: 'twelve-hours'
+  - question: 'Is Madison Beer an industry plant?'
+    answer: "The accusation has followed her since Justin Bieber tweeted her cover of 'At Last' when she was 13, but from 16 to 21 she worked in industry limbo with no major label — at one point the only female solo artist on the Billboard Mainstream Top 40 chart without one. Even after signing with Epic, she says she got 'almost zero support' and paid for the 'Reckless' music video herself. Her actual comeback came through the TikTok algorithm, not an executive's decision."
+    anchor: 'the-wilderness-made-her'
+  - question: "Why is Madison Beer's album called Locket?"
+    answer: "On tour she developed a habit of hunting antique stores in every city for old lockets — forgotten containers of other people's intimacy — and put photos of her cats inside her favorite one. She conceived the album title before writing any songs: 'After writing the album, it feels like each song lives within this metaphorical locket for safekeeping.' Locket debuted at number 10 on the Billboard 200, her first top-ten album."
+    anchor: 'locket-the-album-that-named-the-pattern'
+  - question: 'What has Madison Beer said about her BPD diagnosis?'
+    answer: "Her 2019 borderline personality disorder diagnosis brought relief, not devastation: 'I felt a weird sense of relief because, for a long time, I was like, am I crazy?' She attends therapy three times a week and refuses to use the diagnosis as an excuse — 'You have to try to be better, always.'"
+    anchor: 'the-discipline-nobody-sees'
 twitter: 'madisonbeer'
 instagram: 'madisonbeer'
 tiktok: 'madisonbeer'

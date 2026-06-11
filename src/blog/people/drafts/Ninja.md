@@ -27,10 +27,12 @@ occupation:
   - 'YouTuber'
   - 'Television Producer'
 knows_about:
-  - 'Digital media'
   - 'Livestreaming'
-  - 'YouTube content creation'
-  - 'Television production'
+  - 'Fortnite'
+  - 'Competitive Halo'
+  - 'Multi-platform streaming strategy'
+  - 'Esports brand sponsorships'
+  - 'Skin cancer awareness'
 keywords:
   - 'Ninja enneagram'
   - 'Ninja type 6'
@@ -50,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm8181333/'
   - 'https://teamninja.com/'
 faqs:
-  - question: 'What is Ninja''s personality type?'
-    answer: 'The case for Six is built almost entirely from his own mouth. "Streaming makes you super self-conscious. You have to be the most sure person on the planet if you''re going to get into this and not be completely torn apart," he told the New York Times Magazine in 2021. Read that twice. The most successful streamer of his generation describes his job as a contest of performed certainty. The performed part is the giveaway. A person who actually felt sure wouldn''t need to mention it.'
+  - question: "What is Ninja's personality type?"
+    answer: "Tyler 'Ninja' Blevins is an Enneagram Type 6 (The Loyalist) with a counterphobic 7 wing. The pattern shows in his own description of streaming as performed certainty ('you have to be the most sure person on the planet'), the pre-emptive rules he built for every imagined threat — no cursing, no streaming with women — the multi-platform hedging after Mixer collapsed, and a safety system so outsourced that his wife Jessica scheduled the dermatologist appointment that caught his melanoma."
     anchor: 'what-is-ninjas-personality-type'
-  - question: 'Why is Ninja typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Livestreaming, YouTube content creation.'
-    anchor: 'why-is-ninja-typed-as-an-enneagram-type-6'
+  - question: "How was Ninja's skin cancer found?"
+    answer: "Not by his own vigilance. On March 26, 2024, he announced melanoma on the bottom of his foot, caught at an annual skin check 'that Jess proactively scheduled' for him. Two weeks later he had clear margins. In late 2025 he announced a second melanoma, on his thigh, and turned it into a 24-hour Fortnite charity stream with La Roche-Posay aimed at raising a million dollars for skin cancer awareness."
+    anchor: 'jessica-scheduled-the-appointment'
+  - question: 'Why did Ninja refuse to stream with women?'
+    answer: "His 2018 explanation to Polygon: 'If I have one conversation with one female streamer where we're playing with one another, and even if there's a hint of flirting, that is going to be taken and put on every single video and be clickbait forever.' The article reads the rule as a Six's contingency against an attack imagined in granular detail — and notes he quietly stopped enforcing it by 2020 without ever directly recanting it."
+    anchor: 'why-ninja-built-rules-for-everything-that-wasnt-a-mole'
+  - question: 'What happened with Ninja and Mixer?'
+    answer: "In August 2019, Microsoft signed him to a Mixer-exclusive deal reportedly worth $20-30 million. When Mixer shut down in July 2020, his viewership had fallen by an order of magnitude from his Twitch peak. 'I wanted the platform to succeed so much, and I believed in it,' he said — and his response was the most Six move possible: he came back hedged, eventually simulcasting across multiple platforms instead of trusting any single one again."
+    anchor: 'ninjas-mixer-collapse'
+  - question: "Was Ninja's 2022 walk-off staged?"
+    answer: "In September 2022 he quit mid-stream — 'I'm done streaming. I don't know when I'm going to be live' — then returned eight days later simulcasting on six platforms. xQc said 'I think he's acting' and reporter Jacob Wolf called it 'a disgusting use of mental health and burnout signs as a marketing ploy.' The article's answer: both reads can be right — the frustration was real, and the six-platform return was strategic image management."
+    anchor: 'the-2022-walk-off-ninja-never-quite-explained'
 twitter: 'https://twitter.com/Ninja'
 instagram: 'https://instagram.com/ninja'
 tiktok: 'https://tiktok.com/@ninja'

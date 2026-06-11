@@ -21,7 +21,11 @@ nationality: 'American'
 occupation:
   - 'Entrepreneur'
 knows_about:
-  - 'Entrepreneurship'
+  - 'Business operations and scaling'
+  - 'Talent acquisition and team building'
+  - 'Behavioral psychology in leadership'
+  - 'Fitness industry business models'
+  - 'Private equity portfolio operations'
 keywords:
   - 'Leila Hormozi enneagram'
   - 'Leila Hormozi type 3'
@@ -41,12 +45,21 @@ citations:
   - 'https://hormozi.blog/doing-my-own-hair-and-makeup/'
   - 'https://www.famousbirthdays.com/people/leila-hormozi.html'
 faqs:
-  - question: 'What is Leila Hormozi''s Personality Type?'
-    answer: 'Type 3s are called "The Achiever," but that label flattens what''s actually happening inside them. The engine isn''t ambition. It''s shame.'
+  - question: "What is Leila Hormozi's personality type?"
+    answer: "Leila Hormozi is an Enneagram Type 3 (The Achiever). The pattern shows in her own equation — 'I have to make all of this worth something. My life has to be worth this pain' — in performing composure ('can be nervous, scared, anxious, and still act like I'm not'), in the 5-minute rule that schedules emotions like meetings, in reframing shame itself as a performance problem, and in converting six arrests and a childhood spent keeping her mother alive into a $100 million net worth by 28."
     anchor: 'what-is-leila-hormozis-personality-type'
-  - question: 'Why is Leila Hormozi typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship.'
-    anchor: 'why-is-leila-hormozi-typed-as-an-enneagram-type-3'
+  - question: "What was Leila Hormozi's childhood like?"
+    answer: "After her parents' divorce, her mother spiraled into alcoholism and Leila became the caretaker at ten — hiding bottles and checking that her mother was still alive. At 15 she witnessed her mother's suicide attempt and went emotionally flat for four years, then racked up six alcohol-related arrests in eighteen months in college. Her father's intervention flipped the switch: a 'friend audit,' an 85-pound weight loss, and what she calls 'complete self-development mode.'"
+    anchor: 'leila-hormozis-childhood-trauma-and-emotional-shutdown'
+  - question: 'How did Leila Hormozi meet Alex Hormozi?'
+    answer: "On Bumble, after roughly sixty dates she ran like a sales funnel — lunch-break swiping, one date per week. Their first date at a frozen yogurt shop lasted four and a half hours, mostly about business, and two weeks later they made a handshake deal to build the business together regardless of romance. As she put it: 'It wasn't romantic at all for the first two years.'"
+    anchor: 'how-leila-hormozi-met-alex-hormozi'
+  - question: 'Why did Leila Hormozi stay with Alex when he went broke?'
+    answer: "Nine months in, Alex's business partner drained the accounts and Alex told her to leave — 'I'm a sinking ship.' She grabbed his chin and said, 'I'd sleep with you under a bridge if it came to that.' What followed: launching 33 gyms in person, eating at 7-Eleven, $1,000 saved after 19 months — and then Gym Launch going from zero to $50 million in revenue in 20 months."
+    anchor: 'why-leila-stayed-when-alex-lost-everything'
+  - question: "What is Leila Hormozi's 5-minute rule?"
+    answer: "Built from studying behavioral psychologists Albert Ellis and Stephen Hayes: when a negative emotion hits, she feels it fully for exactly five minutes — no distraction, no suppression — then dismisses the thought as 'a mere sentence' and refocuses on value-aligned action. Emotions aren't denied; they're scheduled. She architects her inner world the same way she architects businesses."
+    anchor: 'how-leila-hormozi-performs-composure'
 twitter: 'LeilaHormozi'
 instagram: 'leilahormozi'
 tiktok: 'leilahormozi'
@@ -63,34 +76,25 @@ content_quality:
 ---
 
 <!-- ============================================================
-PLANNED EDITS — 2026-05-19 (DJ + Claude review pass)
-Full analysis: docs/content-analysis/hormozi-profile-review-2026-05-19.md
+EDIT LOG — 2026-05-19 + 2026-06-10 review passes (all items closed)
 
-PRE-SEND FIXES (this session) — ALL COMPLETED 2026-05-19:
-[x] Verify Fortune article date: Jan 12 2026, confirmed
-[x] Verify CEO transition: Sharran Srivatsaa confirmed
-[x] Standardize Acquisition.com revenue: now $250M+ to match Alex's piece.
-[x] Standardize $46.2M sale phrasing: now "majority stake in Gym Launch and Prestige
-    Labs for $46.2 million cash" in both pieces.
-[x] Standardize $100M Money Models numbers: 2,917,443 day one + $82M in 24hrs +
-    $106M over 3 days, consistent across both pieces.
-[x] Added new "The Outer Architecture" subsection in "How Leila Hormozi Performs
-    Composure" — engages plastic surgery in her own words, framed as Type 3 image
-    architecture (matching the existing inner-architecture thesis). Stuck to what she
-    has confirmed publicly: rhinoplasty + makeup-routine changes. No "facial
-    reconstruction" language.
-[x] Added critical layoff paragraph in "Leila Hormozi's Role Inside Acquisition.com":
-    HR leak + Glassdoor 4.9 → 2.2 crash + her own framing of swinging too far trying
-    to be liked. Names the cost that falls on the team, not the leader.
+2026-05-19 pre-send pass (before Hormozi outreach emails):
+- Verified Fortune date (Jan 12 2026) + Sharran Srivatsaa CEO transition.
+- Standardized across both Hormozi pieces: $250M+ revenue, $46.2M majority-stake
+  sale, $100M Money Models numbers (2,917,443 day one / $82M 24hr / $106M 3-day).
+- Added "The Outer Architecture" (plastic surgery in her own words, Type 3 image
+  architecture; confirmed facts only, no speculation).
+- Added critical layoff paragraph (HR leak, Glassdoor 4.9 → 2.2, cost paid by team).
 
-LATER (post-send, not blocking):
-[ ] Pull the mother's-absence paragraph (lines 156-157) out as its own short beat.
-[ ] Pay off the uncle's 8-year-prison setup — currently dropped at line 135.
-[ ] Connect the four flat years (15-19) explicitly to the "rest feels like quitting" close.
-[ ] Rotate the triplet tic ("Humiliating. Effective." + "Not butterflies. Not chemistry.
-    Recognition." in adjacent sections).
-[ ] Source the $50M / 4,000+ locations / $46.2M / $100M-by-28 financials inline.
-[ ] Source the 85-lb weight loss or soften.
+2026-06-10 follow-up pass:
+- Pulled mother's absence into its own beat ("The Mother Who Never Appears Again").
+- Paid off the uncle/family-blueprint setup at the close (rest converted to material).
+- Confirmed four-flat-years → "rest feels like quitting" connection already explicit.
+- Reworked "Humiliating. Effective." triplet; kept "Not butterflies. Not chemistry."
+- Sourced financials inline: $50M/20 months (PushPress podcast), 4,000+ locations
+  (YAP E202), $46.2M all-cash deal (Alex's Threads post), $100M-by-28 (YAP E202).
+- Sourced 85-lb weight loss to her LinkedIn + YAP quotes; dropped the 18-month
+  timeframe (unverifiable — the 18 months belongs to the arrests, not the loss).
 ============================================================ -->
 
 
@@ -185,8 +189,6 @@ At 3 AM one night, unable to reach her mother, she made a decision. She told the
 
 She moved to her father's house. She told [Goss Magazine](https://gossclub.com/leila-hormozi-interview/) about leaving: _"Leaving her was physically painful. I loved her so much."_
 
-Her mother never appears in Leila's public narrative again. Not in podcasts, not on social media, not in interviews. Leila talks openly about her father, her uncle, her grandmother. But her mother exists only in the backstory, frozen at the moment of the suicide attempt. Whether there's been reconciliation, contact, or silence — Leila has never said. The omission is its own kind of answer.
-
 But she'd already internalized the chaos.
 
 Six arrests in eighteen months during college. All alcohol-related: underage drinking that escalated into blackouts. One night, police found her passed out on a stranger's deck and brought her to her father's house. He came downstairs, nearly in tears, and said:
@@ -197,13 +199,21 @@ She'd heard versions of this before. But something about her father, the man who
 
 She snapped out of it. Not gradually. Immediately. She conducted what she calls a "friend audit," severed ties with everyone in her destructive circles, replaced Netflix with Tony Robbins and Jim Rohn, and went into what she described as "complete self-development mode."
 
-Over the next 18 months, she lost approximately 85 pounds. Overcame body dysmorphia and an eating disorder through strength training. Found, as she put it, "newfound stability and self-acceptance" in the gym.
+She lost 85 pounds. The number is hers: _"You know what got me to lose 85 pounds? Not wanting to be 500 pounds,"_ she [wrote on LinkedIn](https://www.linkedin.com/posts/leilahormozi_you-know-what-got-me-to-lose-85-pounds-activity-7120797008423968771-h08T). On the [YAP podcast](https://podscripts.co/podcasts/young-and-profiting-with-hala-taha/leila-hormozi-from-six-arrests-to-100m-net-worth-how-leila-changed-her-mind-and-built-an-empire-by-age-28-e202) she named the fuel: _"I use that anger to fuel myself to lose 85 pounds, to get good grades in college."_ She overcame body dysmorphia and an eating disorder through strength training. Found, as she put it, "newfound stability and self-acceptance" in the gym.
 
 The day after graduating from Western Michigan University with a degree in kinesiology, she drove to Orange County with $5,000, signed a lease without a job, and started over.
 
 Her first sales approach (offering free gym passes and protein cookies door-to-door) ended with a woman telling her to fuck off.
 
 Within a year, she was the top-selling personal trainer in the region.
+
+### The Mother Who Never Appears Again
+
+One person is missing from everything you just read about the comeback.
+
+Leila talks openly about her father, the engineer who escaped a revolution. About her uncle, the prisoner who built an empire. About her grandmother, the professor. Her mother never appears in Leila's public narrative again. Not in podcasts. Not on social media. Not in interviews. She exists only in the backstory, frozen at the moment of the suicide attempt, the way a photograph stays the age it was taken.
+
+Whether there's been reconciliation, contact, or silence, Leila has never said. For a woman who teaches from nearly every other wound in her biography, the arrests, the layoffs, the burnout, the one relationship she won't narrate is the one that built the engine. The omission is its own kind of answer.
 
 ## How Leila Hormozi Met Alex Hormozi
 
@@ -253,9 +263,9 @@ In Enneagram terms, a Three moving toward health takes on the positive qualities
 
 What followed was the hardest period of their lives, and the most clarifying. They flew out and personally launched 33 gyms. They ate at 7-Eleven. They slept in Extended Stay motels. They had $1,000 saved after 19 months. Leila [posted on X](https://x.com/LeilaHormozi/status/1498002009705705474): _"Before Gym Launch — @AlexHormozi and I flew out and launched 33 gyms ourselves. Eating at 7-Eleven, sleeping in Extended Stay & barely 1k saved after 19 months."_
 
-They recorded each other on iPhones doing cartwheels and backflips for gym marketing materials. Humiliating. Effective.
+They recorded each other on iPhones doing cartwheels and backflips for gym marketing materials. It was humiliating, and it worked.
 
-Within two years, Gym Launch went from zero to $50 million in revenue. They scaled to 4,000+ locations. They founded three companies across four industries (software, service, e-commerce, brick and mortar) without outside capital. In 2021, American Pacific Group bought a majority stake in Gym Launch and Prestige Labs for $46.2 million cash. By 28, Leila's net worth hit $100 million.
+In 20 months, Gym Launch went [from zero to $50 million in revenue](https://www.pushpress.com/podcast-v1/going-from-0-to-50-million-in-revenue-in-20-months-with-leila-hormozi-gym-launch). They scaled to [4,000+ locations](https://podscripts.co/podcasts/young-and-profiting-with-hala-taha/leila-hormozi-from-six-arrests-to-100m-net-worth-how-leila-changed-her-mind-and-built-an-empire-by-age-28-e202). They founded three companies across four industries (software, service, e-commerce, brick and mortar) without outside capital. In 2021, American Pacific Group bought a majority stake in Gym Launch and Prestige Labs in an all-cash deal [Alex has pegged at $46.2 million](https://www.threads.com/@hormozi/post/DMaaOoMgjBs/). By 28, her net worth hit [$100 million](https://youngandprofiting.com/leila-hormozi-from-six-arrests-to-100m-net-worth-how-leila-changed-her-mind-and-built-an-empire-by-age-28-e202/), the number the Young and Profiting podcast built its episode title around.
 
 All of it built on a frozen yogurt date and a promise made in a spare bedroom.
 
@@ -372,6 +382,8 @@ That's the Three's deepest terror, put plainly. If she stops doing, she stops be
 She's learning to sit with it anyway. _"Protecting cognitive bandwidth is no longer optional,"_ she wrote, _"because decision quality now carries more weight than raw output for me as CEO."_
 
 A Three reframing rest as a performance strategy. Even her surrender has a business case.
+
+Remember the uncle. Eight years in an Iranian prison, then an empire, and the aura Leila said you can only have _"if you've really gone through some shit."_ That was the family blueprint: suffering is the raw material, and what you build from it is the proof. Watch what she does with rest and you can see the blueprint still running. The hardest year of her life becomes a podcast episode, a published distinction between resting and quitting, a lesson taught. She isn't just recovering. She's converting the suffering into material, exactly the way the family playbook says to.
 
 Leila Hormozi is still in the middle of this story. She stepped down as CEO but not from the work. She's learning to rest without calling it quitting. She's still performing composure over chaos, still running the equation that says her life has to be worth the suffering. She hasn't resolved it. She's building inside it: one 5-minute emotion at a time, one 4 AM morning at a time, one system at a time.
 

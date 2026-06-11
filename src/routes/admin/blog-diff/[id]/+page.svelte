@@ -305,7 +305,7 @@
 		margin-bottom: 12px;
 		background: transparent;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		color: var(--lamp-glow);
 		font-size: 0.8rem;
 		font-weight: 500;
@@ -339,7 +339,7 @@
 	.section-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 20px;
 		margin-bottom: 16px;
 	}
@@ -374,7 +374,7 @@
 		width: 100%;
 		padding: 9px 12px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		font-size: 0.8rem;
@@ -394,7 +394,7 @@
 		padding: 14px 16px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		margin-bottom: 16px;
 	}
 
@@ -417,7 +417,7 @@
 		margin-left: 8px;
 		background: color-mix(in srgb, var(--success) 18%, transparent);
 		color: var(--success-text);
-		border-radius: 12px;
+		border-radius: 9999px;
 		font-size: 0.7rem;
 		font-weight: 600;
 	}
@@ -456,7 +456,7 @@
 	.content-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 
@@ -503,7 +503,7 @@
 	.source-badge {
 		display: inline-block;
 		padding: 3px 10px;
-		border-radius: 12px;
+		border-radius: 9999px;
 		font-size: 0.7rem;
 		font-weight: 600;
 		flex-shrink: 0;
@@ -544,7 +544,7 @@
 		padding: 48px 24px;
 		text-align: center;
 		border: 2px dashed var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		background: var(--night-deep);
 	}
 
@@ -573,7 +573,7 @@
 	.legend-card {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 16px;
 		margin-top: 16px;
 	}
@@ -602,7 +602,7 @@
 	.legend-swatch {
 		width: 16px;
 		height: 16px;
-		border-radius: 3px;
+		border-radius: 0.25rem;
 	}
 
 	.legend-swatch.added {
@@ -686,13 +686,13 @@
 			font-style: italic;
 			color: var(--ink-mid);
 			background: var(--stone-warm);
-			border-radius: 0 8px 8px 0;
+			border-radius: 0 0.625rem 0.625rem 0;
 		}
 
 		:global(img) {
 			max-width: 100%;
 			height: auto;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			margin: 1.5rem 0;
 		}
 
@@ -776,7 +776,7 @@
 		padding: 2px 8px;
 		background: var(--stone-warm);
 		color: var(--ink-mid);
-		border-radius: 12px;
+		border-radius: 9999px;
 		font-size: 0.6rem;
 		font-weight: 600;
 	}
@@ -785,7 +785,7 @@
 		margin: 1.5rem 0;
 		padding: 16px;
 		border: 2px dashed var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		background: var(--night-deep);
 		text-align: center;
 

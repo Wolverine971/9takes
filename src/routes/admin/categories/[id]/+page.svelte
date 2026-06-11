@@ -371,7 +371,7 @@
 	.preview-card {
 		border: 1px solid var(--stone-warm);
 		background: var(--stone-warm);
-		border-radius: 18px;
+		border-radius: 1rem;
 	}
 
 	.page-header {
@@ -497,7 +497,7 @@
 	.description-field textarea {
 		width: 100%;
 		padding: 0.9rem;
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 		background: var(--night-deep);
 		color: var(--ink-bright);
@@ -506,7 +506,7 @@
 
 	.markdown-shell {
 		min-height: 460px;
-		border-radius: 14px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 

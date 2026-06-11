@@ -466,7 +466,7 @@
 		align-items: center;
 		padding: 8px 4px;
 		background: var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		border: 1px solid var(--stone-warm);
 
 		&.warning .stat-value {
@@ -501,7 +501,7 @@
 
 	.subsection {
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		margin-bottom: 8px;
 		overflow: hidden;
 

@@ -13,9 +13,9 @@
 {#if browser && mounted}
 	<!-- Ambient glow spots (background layer) -->
 	<div class="glow-container" aria-hidden="true">
-		<div class="glow glow-1" />
-		<div class="glow glow-2" />
-		<div class="glow glow-3" />
+		<div class="glow glow-1"></div>
+		<div class="glow glow-2"></div>
+		<div class="glow glow-3"></div>
 	</div>
 
 	<!-- Floating particles (foreground layer) -->
@@ -31,7 +31,7 @@
 					--size: {5 + Math.random() * 5}px;
 					--opacity: {0.55 + Math.random() * 0.3};
 				"
-			/>
+			></div>
 		{/each}
 	</div>
 {/if}
@@ -70,7 +70,7 @@
 		height: var(--size);
 		background: radial-gradient(
 			circle,
-			rgba(94, 234, 212, 0.95) 0%,
+			color-mix(in srgb, var(--data-cyan) 95%, transparent) 0%,
 			color-mix(in srgb, var(--data-cyan) 70%, transparent) 40%,
 			transparent 70%
 		);
@@ -83,20 +83,7 @@
 		filter: blur(0.5px);
 		box-shadow:
 			0 0 14px color-mix(in srgb, var(--data-cyan) 50%, transparent),
-			0 0 5px rgba(94, 234, 212, 0.75);
-	}
-
-	/* Light mode: darker teal core for contrast against cream backgrounds */
-	:global(.light) .particle {
-		background: radial-gradient(
-			circle,
-			rgba(20, 184, 166, 0.9) 0%,
-			rgba(13, 148, 136, 0.7) 40%,
-			transparent 70%
-		);
-		box-shadow:
-			0 0 14px rgba(13, 148, 136, 0.4),
-			0 0 5px rgba(20, 184, 166, 0.6);
+			0 0 5px color-mix(in srgb, var(--data-cyan) 75%, transparent);
 	}
 
 	@keyframes float-up {
@@ -137,7 +124,7 @@
 	.glow-2 {
 		width: 400px;
 		height: 400px;
-		background: rgba(251, 113, 133, 0.04);
+		background: color-mix(in srgb, var(--lamp-glow) 6%, transparent);
 		top: 40%;
 		right: -100px;
 		animation-delay: 3s;
@@ -146,7 +133,7 @@
 	.glow-3 {
 		width: 450px;
 		height: 450px;
-		background: rgba(167, 139, 250, 0.04);
+		background: color-mix(in srgb, var(--lamp-glow) 4%, transparent);
 		bottom: 5%;
 		left: 20%;
 		animation-delay: 6s;
@@ -164,16 +151,16 @@
 		}
 	}
 
-	/* Light mode: bump the ambient glow blobs since they're 0.04-0.06 alpha
-	   and disappear against light backgrounds. Particles handle themselves. */
+	/* Light mode: bump the ambient glow blobs since 4-6% alpha disappears
+	   against cream backgrounds. Hue comes from the theme-flipped tokens. */
 	:global(.light) .glow-1 {
-		background: rgba(20, 184, 166, 0.07);
+		background: color-mix(in srgb, var(--data-cyan) 9%, transparent);
 	}
 	:global(.light) .glow-2 {
-		background: rgba(225, 29, 72, 0.05);
+		background: color-mix(in srgb, var(--lamp-glow) 8%, transparent);
 	}
 	:global(.light) .glow-3 {
-		background: rgba(124, 58, 237, 0.05);
+		background: color-mix(in srgb, var(--lamp-glow) 6%, transparent);
 	}
 
 	/* Reduce motion for accessibility */

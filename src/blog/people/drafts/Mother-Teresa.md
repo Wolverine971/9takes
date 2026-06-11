@@ -30,10 +30,11 @@ occupation:
   - 'Missionary'
   - 'Nun'
 knows_about:
-  - 'Historical influence'
-  - 'Religious Sister'
-  - 'Missionary'
-  - 'Nun'
+  - 'Care for the dying (Nirmal Hriday)'
+  - 'Founding the Missionaries of Charity'
+  - 'Leprosy and destitute care'
+  - 'Catholic religious life'
+  - 'Global charitable fundraising'
 keywords:
   - 'Mother Teresa enneagram'
   - 'Mother Teresa type 2'
@@ -53,12 +54,21 @@ citations:
   - 'https://www.imdb.com/name/nm0609336/'
   - 'https://motherteresa.org'
 faqs:
-  - question: 'What is Mother Teresa''s personality type?'
-    answer: 'Mother Teresa was an Enneagram Type 2, wing 1 — the Helper, with the moral exactness of a Reformer pulled in alongside.'
+  - question: "What is Mother Teresa's personality type?"
+    answer: "Mother Teresa was an Enneagram Type 2 (The Helper), specifically a 2w1. The pattern shows in the private fourth vow she took at 31 — never to refuse Jesus anything — the words 'I THIRST' she had painted in every chapel her order built, a childhood spent at her widowed mother's side feeding people poorer than they were, and fifty years of private letters describing 'the pain of longing, of not being wanted.' The wing 1 shows in the two saris, the unbending rules, and the moral exactness of the order."
     anchor: 'what-is-mother-teresas-personality-type'
-  - question: 'Why is Mother Teresa typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Historical influence, Religious Sister, Missionary.'
-    anchor: 'why-is-mother-teresa-typed-as-an-enneagram-type-2'
+  - question: 'Did Mother Teresa lose her faith?'
+    answer: "Starting around 1949, she stopped feeling God's presence and went nearly fifty years in what she called darkness, writing to her confessors: 'In my heart there is no faith — no love — no trust — there is so much pain — the pain of longing, of not being wanted.' She begged for the letters to be burned; they were archived instead and published in 2007 as Come Be My Light. She kept serving anyway, eventually writing that she had 'come to love the darkness' as a share in Christ's own abandonment."
+    anchor: 'the-fifty-years-mother-teresa-told-no-one-she-couldnt-feel-god'
+  - question: 'Why did Christopher Hitchens call Mother Teresa a fraud?'
+    answer: "In The Missionary Position (1995), Hitchens charged that she was indifferent to outcomes: 'She was not a friend of the poor. She was a friend of poverty.' Lancet editor Dr. Robin Fox found her Home for the Dying stocked no strong painkillers, former sister Susan Shields alleged secret deathbed baptisms, and Hitchens documented money from the Duvaliers and fraudster Charles Keating. The article argues the critique describes the Type 2 helper compulsion at institutional scale, untethered from outcomes."
+    anchor: 'why-christopher-hitchens-called-mother-teresa-a-fraud'
+  - question: "What happened to Mother Teresa's father?"
+    answer: "Nikollë Bojaxhiu, a businessman involved in Albanian nationalist politics, came home gravely ill from a political meeting in Belgrade in 1919 and died within days; the family believed he was poisoned by Serbian agents. Anjezë was eight. Her mother Drana responded by opening the family table to people poorer than they were, teaching her: 'When you do good, do it quietly, as if you were throwing a stone into the sea.'"
+    anchor: 'mother-teresas-father-was-poisoned-when-she-was-eight'
+  - question: "What was Mother Teresa's relationship with Princess Diana?"
+    answer: "They first met in Rome in 1992, and in June 1997 — three months before both their deaths — they walked hand in hand for forty minutes outside the Missionaries of Charity convent in the South Bronx, where Mother Teresa blessed her. Diana was killed on 31 August; Mother Teresa died on 5 September. Diana was buried holding the rosary Mother Teresa had given her in the Bronx."
+    anchor: 'she-walked-through-the-bronx-hand-in-hand-with-diana'
 twitter: ''
 instagram: ''
 tiktok: ''

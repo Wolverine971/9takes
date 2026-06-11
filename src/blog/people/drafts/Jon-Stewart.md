@@ -28,12 +28,12 @@ occupation:
   - 'Screenwriter'
   - 'Writer'
 knows_about:
-  - 'Comedy'
-  - 'Film acting'
-  - 'Film directing'
-  - 'Screenwriting'
-  - 'Writing'
-  - 'Television acting'
+  - 'Political satire'
+  - 'Late-night television hosting'
+  - 'Stand-up comedy'
+  - 'Veterans advocacy'
+  - '9/11 first responder advocacy'
+  - 'Animal sanctuary rescue'
 keywords:
   - 'Jon Stewart enneagram'
   - 'Jon Stewart type 7'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q211987'
   - 'https://www.imdb.com/name/nm0829537/'
 faqs:
-  - question: 'What is Jon Stewart''s personality type?'
-    answer: 'The case for Stewart as a Type 7 — the Enthusiast — doesn''t rest on his humor or his varied career. It rests on the machinery underneath.'
+  - question: "What is Jon Stewart's personality type?"
+    answer: "Jon Stewart is an Enneagram Type 7 (The Enthusiast) with a 6 wing. The pattern shows in the pain-to-comedy reframe reflex built by a nine-year-old whose father left and never came back, the name change from Leibowitz to Stewart, the drug-heavy drift years before stand-up, sixteen years at The Daily Show as the 'right container' for a restless brain, and the moral rigidity that erupts when the jokes stop — Crossfire, the congressional testimony, the PACT Act fury."
     anchor: 'what-is-jon-stewarts-personality-type'
-  - question: 'Why is Jon Stewart typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Comedy, Film acting, Film directing.'
-    anchor: 'why-is-jon-stewart-typed-as-an-enneagram-type-7'
+  - question: 'Why did Jon Stewart change his name from Leibowitz?'
+    answer: "He dropped his father's surname a year after his first stand-up set, going with his middle name; he considered his mother's maiden name but said that would be 'just too big a fuck you to my dad.' He and his wife Tracey both legally changed their surnames in 2001. It's the reframe reflex applied to identity itself — take the father who left and the name that got you bullied, and become someone new."
+    anchor: 'why-the-last-name-changed'
+  - question: 'Why did Jon Stewart leave The Daily Show in 2015?'
+    answer: "He described the job as turd mining — 'I put on my helmet, I go and mine turds' — and admitted 'It's working, but I'm not getting the same satisfaction.' He retreated to a 45-acre farm in Colts Neck, New Jersey, with his wife Tracey, converted it into an animal sanctuary, and took up drumming, woodworking, and reading for pleasure."
+    anchor: 'why-political-comedy-became-turd-mining'
+  - question: 'What happened between Jon Stewart and Wyatt Cenac?'
+    answer: "Cenac, then the only Black writer on The Daily Show staff, raised concerns about a Herman Cain impression he felt was racially insensitive. Stewart's response in front of the entire staff was 'Fuck off. I'm done with you' — an argument so intense the office dogs were reportedly shaking. Cenac stayed a tense year, then quit, later saying Stewart 'often chooses to close ranks the way cops do.'"
+    anchor: 'where-the-empathy-still-breaks-down'
+  - question: 'Why did Jon Stewart return to The Daily Show in 2024?'
+    answer: "He came back in February 2024 for Monday nights, and the show scored its highest quarterly rating in four years. After Paramount cancelled Colbert's Late Show in July 2025, Stewart delivered his most unfiltered response in years and declared 'I'm not going anywhere, I think.' He signed through December 2026."
+    anchor: 'why-the-return-happened-in-2024'
 twitter: 'https://twitter.com/JonStewart'
 instagram: 'https://www.instagram.com/jonstewart/'
 tiktok: ''

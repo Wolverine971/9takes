@@ -26,12 +26,11 @@ occupation:
   - 'Singer'
   - 'Television Actor'
 knows_about:
-  - 'Songwriting'
-  - 'Acting'
-  - 'Singing'
-  - 'Television acting'
-  - 'Pop Music'
-  - 'Popular Music'
+  - 'Confessional pop songwriting'
+  - 'Lyric-focused composition'
+  - 'Pop-punk and ballad crossover'
+  - 'Arena touring'
+  - 'Reproductive rights advocacy'
 keywords:
   - 'Olivia Rodrigo enneagram'
   - 'Olivia Rodrigo type 2'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm7111120/'
   - 'https://oliviarodrigo.com'
 faqs:
-  - question: 'What is Olivia Rodrigo''s personality type?'
-    answer: 'The Enneagram Type 2 is driven by a core need to be loved — and a buried terror that without something to give, they might not matter at all. The Two''s gift is radical attunement to other people''s emotional states. The Two''s trap is losing themselves inside that attunement.'
+  - question: "What is Olivia Rodrigo's personality type?"
+    answer: "Olivia Rodrigo is an Enneagram Type 2 (The Helper) with a 3 wing. The pattern shows in her self-described people-pleasing ('that's the kiss of death in music'), tailoring her personality to whoever she dated, arranging free therapy for her entire touring crew, and the asymmetry at the center of her career: she pours her feelings into songs for millions but says she'd 'curl up into a ball and die' if she watched someone karaoke one back at her."
     anchor: 'what-is-olivia-rodrigos-personality-type'
-  - question: 'Why is Olivia Rodrigo typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Songwriting, Acting, Singing.'
-    anchor: 'why-is-olivia-rodrigo-typed-as-an-enneagram-type-2'
+  - question: 'Why does Olivia Rodrigo call herself a people-pleaser?'
+    answer: "She's said it directly: 'Back in the day, me and my friends would tailor our personalities to whatever person we liked at the time. It just never works out.' Her song 'enough for you' is the blueprint — wearing the makeup a partner liked, reading his books, remembering his coffee order. After SOUR, she admitted the pressure to be 'this girl that I thought everyone expected me to be' led her to date people she shouldn't have."
+    anchor: 'enough-for-you-and-the-shape-shifting-problem'
+  - question: "Who are Olivia Rodrigo's parents?"
+    answer: "Her father, Chris Rodrigo, is a family and marriage therapist; her mother, Jennifer, is a school teacher. She's their only child, grew up in Temecula fluent in emotional vocabulary, and says she needs her mom's approval on everything — even though when she first played 'drivers license' for her, her mother's verdict on the bridge was 'It's too much; it doesn't fit with the rest of the song.' She kept the bridge."
+    anchor: 'the-therapists-daughter'
+  - question: "What does 'I scream inside to deal with it' mean?"
+    answer: "The line from 'all-american bitch' had been building since she was fifteen on a Disney set, where she internalized that she could 'never admit' her rage: 'be so grateful all the time, so many people want this position.' When she started writing GUTS, the same wiring produced what she nicknamed 'the dread' — sitting at the piano pretending other people were already listening, paralyzed by the pressure to please everyone with the music."
+    anchor: 'i-scream-inside-to-deal-with-it'
+  - question: "Who is in Olivia Rodrigo's inner circle?"
+    answer: "Four friends and her mom: 'that's really the only people I talk to, ever.' The insularity dates to the 'drivers license' era, when the internet turned her seventeen-year-old heartbreak into a spectator sport and she 'felt so ill-equipped.' She says the experience taught her 'to be a little wary of people around me and be protective of my energy' — and she now sends songs to their subjects before releasing them."
+    anchor: 'the-education-in-powerlessness'
 twitter: 'oliviarodrigo'
 instagram: 'oliviarodrigo'
 tiktok: 'liv'

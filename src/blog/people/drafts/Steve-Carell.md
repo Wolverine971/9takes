@@ -28,12 +28,12 @@ occupation:
   - 'Character Actor'
   - 'Screenwriter'
 knows_about:
-  - 'Acting'
-  - 'Comedy'
-  - 'Television production'
-  - 'Screenwriting'
-  - 'Film acting'
-  - 'Television acting'
+  - 'Improvisational comedy'
+  - 'Sitcom acting'
+  - 'Deadpan satire'
+  - 'Dramatic character transformation'
+  - 'Second City improv'
+  - 'Voice acting'
 keywords:
   - 'Steve Carell enneagram'
   - 'Steve Carell type 9'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q216221'
   - 'https://www.imdb.com/name/nm0136797/'
 faqs:
-  - question: 'What is Steve Carell''s personality type?'
-    answer: 'Every Enneagram read is an educated guess. This one is built from Carell''s own words across two decades of interviews, plus the testimony of the people who have worked with him, plus the remarkable consistency of a single pattern repeating itself across childhood, athletics, romance, comedy, drama, and fatherhood.'
+  - question: "What is Steve Carell's personality type?"
+    answer: "Steve Carell is an Enneagram Type 9 (The Peacemaker), specifically a 9w1. The pattern shows in his own words — 'I aggressively homogenized myself' as a kid — plus the tour-bus wave that ended with him shrinking 'into a little ball,' the quiet exit from The Office when NBC never made an offer, and director Bennett Miller's observation that when something goes wrong, Carell 'would just kind of push it down and do something which he considered normal, that nobody else does.'"
     anchor: 'what-is-steve-carells-personality-type'
-  - question: 'Why is Steve Carell typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Comedy, Television production.'
-    anchor: 'why-is-steve-carell-typed-as-an-enneagram-type-9'
+  - question: 'Why did Steve Carell leave The Office in 2011?'
+    answer: "The public story was family and an expiring contract, and that was true. But the inside story, reported in Andy Greene's oral history, is that Carell and his agent were open to signing for two more years and NBC simply never made a definitive offer. Faced with demanding a seat at the table or walking out quietly, he walked out quietly — while the show was still one of the top sitcoms on television."
+    anchor: 'the-most-type-9-exit-in-sitcom-history'
+  - question: 'How did Steve Carell meet his wife Nancy Walls?'
+    answer: "Nancy was a student in his improv class at Second City in the early 1990s. 'She kind of checked all the boxes in my head, but I thought she hated me because she was very quiet around me' — while Nancy thought Steve hated her, for the same reason. Too afraid to ask her out directly, he kept visiting the bar where she worked until one of them finally disturbed the peace. They married in 1995 and are still married."
+    anchor: 'why-nancy-walls-thought-steve-carell-hated-her'
+  - question: "Was 'I love lamp' improvised?"
+    answer: "Yes. Director Adam McKay told Carell there were no lines written for Brick Tamland in that Anchorman scene and to just say something. Carell stared at the set, saw a lamp, and said 'I love lamp' — because he was literally looking at it. The line became one of the most quoted comedic lines of the 2000s."
+    anchor: 'the-improv-trick-that-explains-his-whole-career-i-love-lamp'
+  - question: 'Does Steve Carell actually enjoy comedy?'
+    answer: "By his own admission, no. On Amy Poehler's Good Hang podcast in 2026 he said plainly: 'I don't enjoy comedy. No, I never have, especially with me.' He has consistently described himself as an actor who happens to be good at comedy — he studied George Carlin and Steve Martin routines the way a kid studies tapes of goalies, learned the moves, and performed them so well America assumed the performance was the person."
+    anchor: 'greg-russo-shows-up-for-his-daughter'
 twitter: 'https://twitter.com/SteveCarell'
 instagram: 'https://instagram.com/stevecarell'
 tiktok: ''

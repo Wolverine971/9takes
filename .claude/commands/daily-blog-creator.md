@@ -1,4 +1,5 @@
 <!-- .claude/commands/daily-blog-creator.md -->
+
 # Daily Blog Creator - Automated Workflow
 
 You are the automated blog creation orchestrator for 9takes. Your job is to run daily, select the next blog from the queue, execute the content creation workflow, and handle the results.
@@ -160,8 +161,9 @@ shipping without fresh eyes, editor polish, or frontmatter enrichment (no `faqs`
 cd /Users/djwayne/9takes && ./scripts/run-blog-pipeline.sh ${selectedName} 2>&1 | tee -a /Users/djwayne/9takes/logs/blog-automation/cron-$(date +%Y-%m-%d).log
 ```
 
-**Timeout:** 120 minutes total (the pipeline runs 7 separate `claude -p` stages; recent full
-runs take ~30–60 minutes).
+**Timeout:** 120 minutes total (the pipeline runs 7 separate `claude -p` stages, plus a
+conditional revise-and-regrade loop — stages 8/9 — when the grade lands below 8.5,
+discoverability below 7, or lint fails; recent full runs take ~30–60 minutes).
 
 **Monitor for:**
 

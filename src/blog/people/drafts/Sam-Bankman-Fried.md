@@ -27,12 +27,11 @@ occupation:
   - 'Political Donor'
   - 'Convict'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Investing'
-  - 'Business Executive'
-  - 'Entrepreneur'
-  - 'Investor'
-  - 'Political Donor'
+  - 'Quantitative trading and arbitrage'
+  - 'Cryptocurrency exchanges'
+  - 'Effective altruism'
+  - 'Expected-value decision theory'
+  - 'Political donations'
 keywords:
   - 'Sam Bankman-Fried enneagram'
   - 'Sam Bankman-Fried type 5'
@@ -50,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q106543540'
   - 'https://www.imdb.com/name/nm13060203/'
 faqs:
-  - question: 'What is Sam Bankman-Fried''s personality type?'
-    answer: 'Bankman-Fried is a clear Type 5 — the Investigator. Specifically, a 5w6 with a sexual/social subtype stack. The wiring is the head triad in its purest form: a mind that experiences the world from a distance, runs the world as a probability model, and protects itself by retreating further into analysis whenever feeling threatens to intrude.'
+  - question: "What is Sam Bankman-Fried's personality type?"
+    answer: "Sam Bankman-Fried is an Enneagram Type 5 (The Investigator), specifically a 5w6. The pattern shows in the League of Legends game he played through a $200M Sequoia pitch, the letter to a girlfriend saying he 'basically didn't have a soul,' the cheerful acceptance of Tyler Cowen's destroy-the-Earth coin flip as a math problem, the deliberately constructed anti-image of cargo shorts and beanbags, and the post-collapse DM admitting his ethics talk was 'what reputations are made of' — a framework he could describe better than he could feel."
     anchor: 'what-is-sam-bankman-frieds-personality-type'
-  - question: 'Why is Sam Bankman-Fried typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Investing, Business Executive.'
-    anchor: 'why-is-sam-bankman-fried-typed-as-an-enneagram-type-5'
+  - question: 'Did Sam Bankman-Fried actually believe in effective altruism?'
+    answer: "By his own words, no. Eight days after FTX's bankruptcy, he told Vox's Kelsey Piper in Twitter DMs that ethics was 'this dumb game we woke westerners play where we say all the right shibboleths and so everyone likes us,' and confirmed his regulatory positioning was 'yeah, just PR.' His walk-back was telling: he didn't say he hadn't meant it — he said he 'stupidly forgot' he was talking to a journalist."
+    anchor: 'the-effective-altruism-costume'
+  - question: 'How did the FTX fraud actually work?'
+    answer: "FTX was the exchange where customers parked dollars and Bitcoin; Alameda Research was Bankman-Fried's hedge fund, bleeding badly by mid-2022. He backstopped Alameda's losing bets with customer deposits through a hidden line of credit Gary Wang hard-coded into the system — first $1 billion, then $65 billion, 'a number we picked so high it would never be hit.' Ellison, Wang, and Singh all testified that he directed it: 'Sam directed me to commit these crimes.'"
+    anchor: 'why-ftx-imploded-twice--once-on-paper-once-in-dms'
+  - question: "Why did Sam Bankman-Fried keep giving interviews after FTX collapsed?"
+    answer: "Between the November 11, 2022 bankruptcy and his December 12 arrest, he did dozens of interviews against his own lawyers' public advice — DealBook, Good Morning America, Twitter Spaces, the Vox DMs. At trial his answers ran nearly 75% longer than his co-defendants'; the judge repeatedly told him to answer yes or no and he couldn't. The article argues it was never strategy: the mind that ran probability trees for breakfast could not let a proposition stand without operating on it."
+    anchor: 'why-sam-bankman-fried-couldnt-stop-talking-after-the-crash'
+  - question: "How long is Sam Bankman-Fried's prison sentence?"
+    answer: "Judge Lewis A. Kaplan sentenced him to 25 years on March 28, 2024, noting he had 'never said a word of remorse for the commission of terrible crimes.' In a twist, the bankruptcy estate later repaid creditors at 119 cents on the dollar — a windfall from recovering crypto prices — and Bankman-Fried cites that number from prison in nearly every interview, arguing he could have made everyone whole. He is, the article notes, still doing the math."
+    anchor: 'the-25-year-sentence-and-the-mother-who-wrote-it-first'
 twitter: 'SBF_FTX'
 production_pretext:
   status: draft

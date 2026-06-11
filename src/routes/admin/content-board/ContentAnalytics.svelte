@@ -964,7 +964,7 @@
 		background: transparent;
 		color: var(--ink-mid);
 		border: none;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 	}
@@ -998,7 +998,7 @@
 	.table-wrapper {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 
@@ -1109,7 +1109,7 @@
 		font-weight: 600;
 		background: var(--stone-warm);
 		color: var(--lamp-glow);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.total-badge {
@@ -1119,7 +1119,7 @@
 		font-weight: 600;
 		background: var(--stone-warm);
 		color: var(--ink-bright);
-		border-radius: 12px;
+		border-radius: 9999px;
 	}
 
 	.total-badge.zero {
@@ -1132,7 +1132,7 @@
 		padding: 4px 10px;
 		font-size: 0.6875rem;
 		font-weight: 600;
-		border-radius: 12px;
+		border-radius: 9999px;
 		text-transform: capitalize;
 	}
 
@@ -1161,7 +1161,7 @@
 		padding: 4px 10px;
 		font-size: 0.6875rem;
 		font-weight: 600;
-		border-radius: 12px;
+		border-radius: 9999px;
 		text-transform: capitalize;
 	}
 
@@ -1289,7 +1289,7 @@
 		padding: 4px 10px;
 		font-size: 0.75rem;
 		font-weight: 600;
-		border-radius: 12px;
+		border-radius: 9999px;
 	}
 
 	.seo-badge.good {
@@ -1377,7 +1377,7 @@
 	.type-row {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		overflow: hidden;
 		transition: all 0.2s ease;
 	}
@@ -1571,7 +1571,7 @@
 		padding: 8px 12px;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.filter-checkbox {
@@ -1596,7 +1596,7 @@
 	/* Category Table */
 	.category-table {
 		background: var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		overflow: hidden;
 	}
 

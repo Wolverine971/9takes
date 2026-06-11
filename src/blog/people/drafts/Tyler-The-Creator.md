@@ -28,12 +28,12 @@ occupation:
   - 'Director'
   - 'Fashion Designer'
 knows_about:
-  - 'Hip-hop music'
-  - 'Music production'
-  - 'Singing'
-  - 'Songwriting'
-  - 'Acting'
-  - 'Music'
+  - 'Self-produced concept albums'
+  - 'Music video direction (as Wolf Haley)'
+  - 'Streetwear design (Golf Wang, Golf le Fleur)'
+  - 'Festival curation (Camp Flog Gnaw)'
+  - 'Alter-ego storytelling in hip-hop'
+  - 'Creative direction across music, fashion, and visuals'
 keywords:
   - 'Tyler, The Creator enneagram'
   - 'Tyler, The Creator type 4'
@@ -55,12 +55,21 @@ citations:
   - 'https://golfwang.com/'
   - 'https://golflefleur.com/'
 faqs:
-  - question: 'What is Tyler, The Creator''s personality type?'
-    answer: 'The Enneagram Type 4, known as "The Individualist," runs on one core desire: to be singular, irreducible, and significant. They fear being ordinary. They fear having no personal identity. They fear being fundamentally flawed in a way that makes them unworthy of love.'
+  - question: "What is Tyler, The Creator's personality type?"
+    answer: "Tyler, The Creator is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in the fake album covers he designed at seven before recording a note, the Wolf Haley alter ego he built to process rage at a safe distance, the identity organized around an absent Nigerian father, the 'spider web' insistence that music, fashion, and visuals all carry one signature, and a decade-long refusal to make his sexuality legible with a label."
     anchor: 'what-is-tyler-the-creators-personality-type'
-  - question: 'Why is Tyler, The Creator typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Hip-hop music, Music production, Singing.'
-    anchor: 'why-is-tyler-the-creator-typed-as-an-enneagram-type-4'
+  - question: "What did Tyler, The Creator's mother reveal on Chromakopia?"
+    answer: "On 'Like Him,' Tyler's mother Bonita Smith confesses: 'It was my fault. Not him, 'cause he always wanted to be there for you... He's a good guy.' Tyler had built his identity partly on the story of a father who chose not to be there — learning that his father wanted him cracked the foundation of the narrative he'd organized his psyche around."
+    anchor: 'what-tyler-learned-about-his-father'
+  - question: 'What is the relationship between Tyler, The Creator and Pharrell?'
+    answer: "Pharrell became the surrogate father figure: 'I didn't have a father. I didn't have a big brother... Pharrell is who I looked at.' Tyler posted an 800-word letter on the tenth anniversary of In My Mind thanking him for 'being the male figure I gravitated to.' A studio challenge from Pharrell — 'Make something undeniable... Why are you doing music?' — was the pivot Tyler credits for Flower Boy and everything after. By 2024 he was calling Pharrell his 'North Star.'"
+    anchor: 'the-pharrell-blueprint'
+  - question: 'Why was Tyler, The Creator banned from the UK?'
+    answer: "In 2015, then-Home Secretary Theresa May cited lyrics from Tyler's early horrorcore songs as threats to 'the public good.' Tyler called the ban racist and insisted the lyrics came from characters like Wolf Haley, not his actual worldview. The ban lasted years and marked a turning point — he began distancing himself from shock value and moving toward sincerity."
+    anchor: 'why-tyler-the-creator-was-banned-from-the-uk'
+  - question: 'Is Tyler, The Creator gay?'
+    answer: "He has refused to clarify for over a decade, calling his sexuality 'a grey area.' But the lyrics track an arc: 'gay as fuck' in Rolling Stone (2015), Flower Boy's 'Garden Shed' hints, 2023's 'Sorry Not Sorry' apologizing to the guys he had to hide, and Chromakopia's 'Balloon' stating he doesn't like girls. He never held a press conference — he let the art speak, because being made legible by a label feels like a cage to him."
+    anchor: 'the-sexuality-question'
 twitter: 'tylerthecreator'
 instagram: 'feliciathegoat'
 tiktok: ''

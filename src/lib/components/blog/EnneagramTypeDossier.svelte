@@ -296,7 +296,7 @@
 		aspect-ratio: 4 / 5;
 		background: var(--night-deep);
 		overflow: hidden;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.dossier-image {
@@ -391,7 +391,7 @@
 		padding: 14px 16px;
 		background: var(--night-mid);
 		border: 1px solid var(--stone-mid);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
@@ -531,7 +531,7 @@
 		height: 7px;
 		background: var(--night-mid);
 		border: 1px solid var(--stone-mid);
-		border-radius: 1px;
+		border-radius: 0;
 		overflow: hidden;
 	}
 
@@ -598,7 +598,7 @@
 		margin-top: auto;
 		background: var(--night-mid);
 		border: 1px solid var(--stone-mid);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.movement-row {

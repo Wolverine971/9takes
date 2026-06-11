@@ -25,9 +25,10 @@ nationality:
 occupation:
   - 'Actor'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Actor'
+  - 'Immersive role preparation'
+  - 'Live musical performance (Bob Dylan repertoire)'
+  - 'Competitive table tennis training'
+  - 'French-English bilingual performance'
 keywords:
   - 'Timothée Chalamet enneagram'
   - 'Timothée Chalamet type 6'
@@ -45,12 +46,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q19877770'
   - 'https://www.imdb.com/name/nm3154303/'
 faqs:
-  - question: 'What is Timothée Chalamet''s personality type?'
-    answer: 'The simplest version: Chalamet is not driven by certainty. He is driven by what happens when certainty is missing. The preparation, the authority-checking, the backup plans, the cautious relationship timeline, the public ambition followed by immediate qualification — all of it points to someone trying to make unstable ground hold.'
-    anchor: 'what-is-timoth-e-chalamets-personality-type'
-  - question: 'Why is Timothée Chalamet typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Actor.'
-    anchor: 'why-is-timoth-e-chalamet-typed-as-an-enneagram-type-6'
+  - question: "What is Timothée Chalamet's personality type?"
+    answer: "Timothée Chalamet is an Enneagram Type 6 (The Loyalist), specifically a 6w5. The pattern shows in Denis Villeneuve's observation that his Dune lead 'needed to be protected,' seven years of ping pong training for Marty Supreme, five years studying Bob Dylan, six figures of his own money spent on a single SNL performance, the Columbia backup plan, and a career built around directors he has decided to trust — Guadagnino, Gerwig, Villeneuve."
+    anchor: 'what-is-timothee-chalamets-personality-type'
+  - question: 'Why does Timothée Chalamet over-prepare for every role?'
+    answer: "His own words are the tell: 'I knew I wouldn't be able to live with myself if I remember that I was lazy on a day where something went wrong.' The fear is procedural — that a future disaster could be traced back to insufficient preparation. So he lost 18 pounds for Beautiful Boy against a 15-pound target, sang every Dylan song live on set, and wore vision-blurring contact lenses because Josh Safdie asked. Catastrophizing as craft."
+    anchor: 'how-timothée-chalamet-over-prepares-for-roles'
+  - question: "Is Timothée Chalamet a Type 3 instead of a Type 6?"
+    answer: "The Achiever case looks obvious — the SAG 'pursuit of greatness' speech, the 'top-level shit' self-assessment, a billion-dollar box office year. But the follow-up is the tell: he backpedals, worries about being misread ('Sometimes I feel like I've been misinterpreted in my quest'), and keeps exposing uncertainty. A core 3 commits to the image. Chalamet charges, then checks whether the charge was safe."
+    anchor: 'counterarguments-why-timothée-chalamet-might-not-be-type-6'
+  - question: 'What has Timothée Chalamet said about Armie Hammer?'
+    answer: "Almost nothing — and the analysis treats that silence as data. Asked in October 2021, he deflected: 'I don't want to give you a partial response.' Two years later in GQ, he offered one word: 'disorienting.' Luca Guadagnino publicly defended Hammer and said he'd cast him again; Chalamet never picked a side. He didn't denounce, didn't defend — he contained."
+    anchor: 'the-co-star-he-wouldnt-discuss'
+  - question: 'What did Tom Cruise tell Timothée Chalamet?'
+    answer: "After the first Dune, Cruise sent him an email with a list of stunt trainers, dance coaches, motorcycle instructors, and helicopter coaches — telling him Old Hollywood would have demanded that training and nobody holds actors to it today. Chalamet called it 'a war cry' and took it literally: within a year he was training across multiple disciplines simultaneously."
+    anchor: 'the-authority-question'
 twitter: 'RealChalamet'
 instagram: 'tchalamet'
 tiktok: ''

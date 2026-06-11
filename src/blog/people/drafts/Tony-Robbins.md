@@ -28,12 +28,12 @@ occupation:
   - 'Life Coach'
   - 'Businessperson'
 knows_about:
-  - 'Writing'
-  - 'Acting'
-  - 'Business'
   - 'Neuro-Linguistic Programming'
-  - 'Unlimited Power'
-  - 'Digital media'
+  - 'Strategic Intervention coaching'
+  - 'Live seminar interventions'
+  - 'Peak performance coaching'
+  - 'Firewalking events'
+  - 'Hunger relief philanthropy'
 keywords:
   - 'Tony Robbins enneagram'
   - 'Tony Robbins type 3'
@@ -59,18 +59,21 @@ citations:
   - 'https://about.netflix.com/en/news/netflix-premieres-new-joe-berlinger-documentary-tony-robbins-i-am-not-your-guru-exclusively-to-members-worldwide-on-july-15'
   - 'https://sports.jrank.org/pages/39/Agassi-Andre-New-Coach-New-Triumphs.html'
 faqs:
-  - question: 'What is Tony Robbins'' Personality Type?'
-    answer: 'Type 3s sit in the heart triad. Their core emotion isn''t anger. It isn''t fear.'
+  - question: "What is Tony Robbins's personality type?"
+    answer: "Tony Robbins is an Enneagram Type 3 (The Achiever), specifically a 3w2 — 'The Star.' The pattern shows in the elaborate backstage 'war dance' performed by a man who claims he doesn't get nervous, the childhood with four fathers and an abusive mother he fled at seventeen, the pituitary tumor he converted into his stadium-filling brand, and the deny-litigate-rebuild response whenever the image cracks."
     anchor: 'what-is-tony-robbins-personality-type'
-  - question: 'Why Not Type 8?'
-    answer: 'The obvious objection: isn''t Tony Robbins a Type 8?'
+  - question: 'Is Tony Robbins a Type 8 instead of a Type 3?'
+    answer: "He looks like a Challenger — 6'7\", commanding voice, total control of a room. But watch what happens when the image cracks: after pushing back on a woman at a 2018 seminar, he apologized and reframed the incident as a learning opportunity. Eights double down because their fuel is genuine anger; Robbins's anger is performative and strategic, and his constant is the need to be seen as someone worth following. That's shame-driven Three, not anger-driven Eight."
     anchor: 'why-not-type-8'
-  - question: 'What is Tony Robbins''s personality type?'
-    answer: 'Tony Robbins is analyzed as an Enneagram Type 3 (Achiever). The profile connects that type pattern to The world''s most confident speaker has the most elaborate pre-talk ritual in the business. Inside the Type 3 wound that built Tony Robbins'' empire.'
-    anchor: 'what-is-tony-robbinss-personality-type'
-  - question: 'Why is Tony Robbins typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Acting, Business.'
-    anchor: 'why-is-tony-robbins-typed-as-an-enneagram-type-3'
+  - question: "What was Tony Robbins's childhood like?"
+    answer: "Brutal. His mother drank, poured liquid dish soap down his throat until he vomited, and beat his head against a wall; the family ate saltine crackers and peanut butter for Thanksgiving. He cycled through four different fathers and became primary caregiver to his two younger siblings. At seventeen, his mother chased him through the house with a knife — he left that night and never went back."
+    anchor: 'the-wound-that-created-a-giant'
+  - question: 'Why is Tony Robbins so tall?'
+    answer: "A pituitary tumor. In high school he grew ten inches in a single year; at thirty-one he was diagnosed with acromegaly, a condition flooding his body with growth hormone. He refused the recommended brain surgery, the tumor stabilized, and he turned the medical condition into the message: the 6'7\" frame and commanding presence that fill stadiums."
+    anchor: 'the-body'
+  - question: "Do Tony Robbins's methods actually work long-term?"
+    answer: "Honestly unknown — no rigorous long-term studies exist. A Stanford study found short-term decreases in depression and anxiety, but colleagues questioned the methodology, and the longest documented follow-up ran about eleven months. Critics point to the 'seminar high' from rituals like firewalking, and a former mastery coach who worked with him for four years called the work helpful 'temporarily, but NOT a permanent solution.'"
+    anchor: 'the-effectiveness-question'
 twitter: 'TonyRobbins'
 instagram: 'tonyrobbins'
 tiktok: ''

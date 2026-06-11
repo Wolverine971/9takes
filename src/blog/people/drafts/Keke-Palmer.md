@@ -28,12 +28,12 @@ occupation:
   - 'Voice Actor'
   - 'Recording Artist'
 knows_about:
-  - 'Acting'
-  - 'Singing'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Voice acting'
-  - 'Music Composing'
+  - 'Talk show and game show hosting'
+  - 'Comedic improvisation'
+  - 'R&B music'
+  - 'Media entrepreneurship'
+  - 'Memoir writing'
+  - 'Podcasting'
 keywords:
   - 'Keke Palmer enneagram'
   - 'Keke Palmer type 3'
@@ -55,12 +55,21 @@ citations:
   - 'https://www.eonline.com/news/1432401/keke-palmer-hot-ones-sean-evans-spark-romance-rumors-after-podcast'
   - 'https://podcasts.apple.com/us/podcast/baby-this-is-keke-palmer/id1668446854'
 faqs:
-  - question: 'What is Keke Palmer''s Personality Type?'
-    answer: 'People who share Palmer''s core pattern, Enneagram Threes, carry a specific wound: the belief that they are only as valuable as what they produce. This belief usually forms early. A child who is praised for performance, rewarded for achievement, and taught, explicitly or implicitly, that love is conditional on output. The child learns to build a self that wins. The self that doesn''t win gets buried.'
+  - question: "What is Keke Palmer's personality type?"
+    answer: "Keke Palmer is an Enneagram Type 3 (The Achiever). The pattern shows in her own words — 'there's Lauren Palmer inside that created that persona to be able to survive' — in working since age nine with no vacation for fifteen years, becoming a millionaire at twelve and bankrupt at eighteen, writing two books about controlling your narrative, and using comedy as camouflage that keeps the audience watching the performance instead of the performer."
     anchor: 'what-is-keke-palmers-personality-type'
-  - question: 'Why is Keke Palmer typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Singing, Television acting.'
-    anchor: 'why-is-keke-palmer-typed-as-an-enneagram-type-3'
+  - question: 'Why did Keke Palmer file for bankruptcy at eighteen?'
+    answer: "From age twelve she was the financial engine for a family of six — parents who quit their jobs, three siblings, a cross-country move, and a full Hollywood support staff all running on a child's earnings. When True Jackson, VP ended and the checks slowed, the math collapsed. The lesson still governs her: she caps her rent at $1,500 a month, drives a Toyota, wears Zara, and invested $500,000 of her own money into KeyTV instead of luxury."
+    anchor: 'the-millionaire-who-filed-for-bankruptcy'
+  - question: "What is the story behind 'Sorry to this man'?"
+    answer: "In a September 2019 Vanity Fair lie detector test, Palmer was shown a photo of Dick Cheney and admitted, 'I don't know who this man is... Sorry to this man.' The clip got 5.4 million views in a week and became the meme of the fall. The piece argues her humor isn't incidental — for a Type 3, comedy is the perfect cover: effortless-looking, love-generating, and it keeps everyone watching the performance instead of the performer."
+    anchor: 'sorry-to-this-man'
+  - question: 'What happened between Keke Palmer and Darius Jackson?'
+    answer: "After Jackson publicly shamed her outfit at Usher's Las Vegas residency in July 2023 ('It's the outfit tho.. you a mom'), Palmer filed a restraining order that November alleging repeated physical attacks — and that he destroyed her personal diaries, the cruelest violation for a woman whose survival mechanism is authoring her own story. Six months later she dropped the order and reached joint custody, saying, 'I didn't want my son to think his father is a monster, because I don't.'"
+    anchor: 'when-the-suit-cracked-open'
+  - question: 'What is the difference between Lauren Palmer and Keke Palmer?'
+    answer: "Lauren Palmer, the girl from Robbins, Illinois, built 'Keke Palmer' at nine years old as armor to survive the entertainment industry — 'That's the name the world wanted. So, that's what they got.' Her 2025 visual album Just Keke marks what she calls her 'awareness era': 'I'm not the puppet. I'm the puppet master.' The suit is still there, but she designed it herself now and chooses when to put it on."
+    anchor: 'im-not-the-puppet-im-the-puppet-master'
 twitter: '@KekePalmer'
 instagram: '@kabornejakeke'
 tiktok: '@kabornejakeke'

@@ -28,12 +28,11 @@ occupation:
   - 'Flight Attendant'
   - 'Television Presenter'
 knows_about:
-  - 'Acting'
-  - 'Television production'
-  - 'Writing'
-  - 'Celebrity'
+  - 'Talent management'
+  - 'Reality television production'
+  - 'Brand equity negotiation'
+  - 'Family brand building'
   - 'Keeping Up with the Kardashians'
-  - 'Kris Jenner Show'
 keywords:
   - 'Kris Jenner enneagram'
   - 'Kris Jenner type 3'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q1138235'
   - 'https://www.imdb.com/name/nm1728539/'
 faqs:
-  - question: 'What is Kris Jenner''s personality type?'
-    answer: 'People who share this pattern organize their lives around one equation they learned young: achievement equals love. When the world rewards you for performing, you perform. When you''re applauded for winning, you win. And somewhere along the way, the performance becomes so convincing that you forget you''re performing at all.'
+  - question: "What is Kris Jenner's personality type?"
+    answer: "Kris Jenner is an Enneagram Type 3 (The Achiever) with a 2 wing. The pattern shows in her seamless shape-shifting from flight attendant to Beverly Hills wife to momager to media mogul, the 10% management cut she takes from her own children, coining the word 'momager' because no existing title fit, launching Kylie Lip Kits the same year her divorce from Bruce was finalized, and her own admission after Nicole Brown Simpson's murder that she 'latched onto the legal side of stuff, rather than deal with the emotional side.'"
     anchor: 'what-is-kris-jenners-personality-type'
-  - question: 'Why is Kris Jenner typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television production, Writing.'
-    anchor: 'why-is-kris-jenner-typed-as-an-enneagram-type-3'
+  - question: "Why is Kris Jenner called the 'momager'?"
+    answer: "She coined the term in 2007 because she fused the roles of mother and manager into one and no existing word captured it. At a time when reality stars were disposable talent, she negotiated creative control, ownership stakes, and profit participation for KUWTK — later a $150 million deal for the final five seasons and a $100 million Hulu contract — while taking a standard 10% cut from each of her six children's ventures."
+    anchor: 'the-word-she-had-to-invent'
+  - question: "What was Kris Jenner's connection to Nicole Brown Simpson?"
+    answer: "They were close friends for nearly two decades — the Kardashians and Simpsons vacationed together, and Kris spoke to Nicole hours before her murder on June 12, 1994. At the trial Kris sat on Nicole's side of the courtroom while her ex-husband Robert Kardashian sat at O.J.'s defense table. Thirty years later she admitted, 'I've latched onto the legal side of stuff, rather than deal with the emotional side of myself that just misses my girlfriend.'"
+    anchor: 'nicoles-side-of-the-courtroom'
+  - question: "What does Kris Jenner call her life's biggest regret?"
+    answer: "Her affair with Todd Waterman, the twenty-three-year-old soccer player, that ended her thirteen-year marriage to Robert Kardashian: 'He was such a great husband and such a great dad... That's like my life's biggest regret.' Robert died of esophageal cancer in 2003, eight weeks after diagnosis — the door closed the same way her father's had, suddenly and without her permission."
+    anchor: 'my-lifes-biggest-regret'
+  - question: "What is the story behind 'You're doing amazing, sweetie'?"
+    answer: "In a 2007 KUWTK episode, Kris stood on the set of Kim's Playboy shoot taking photos of her daughter and said, with total sincerity, 'Kim, you're doing amazing, sweetie.' She later trademarked the phrase for cosmetics, clothing, and home goods. The piece reads the moment as her life's thesis in five words: mother and manager, simultaneous, indistinguishable, and completely sincere."
+    anchor: 'youre-doing-amazing-sweetie'
 twitter: '@KrisJenner'
 instagram: '@krisjenner'
 tiktok: '@krisjenner'

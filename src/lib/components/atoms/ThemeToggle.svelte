@@ -103,7 +103,7 @@
 		padding: 0;
 		background: transparent;
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		color: var(--ink-mid);
 		cursor: pointer;
 		transition: all 0.2s ease;

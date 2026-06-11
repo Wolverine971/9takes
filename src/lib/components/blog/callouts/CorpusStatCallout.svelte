@@ -7,8 +7,14 @@
   Stats MUST be sourced from `$lib/data/corpus-stats.json` via a server-side
   helper (e.g. `getTypeCorpusInsight`). Never hand-key numbers into this
   component — it's a presentation layer, not a data source.
+
+  Shell renders through the shared <Callout> base with tone="data"
+  (2026-06-10 consolidation) — stats are data moments, so the accent is the
+  sanctioned --data-teal (was an off-palette orange). Public props unchanged.
 -->
 <script lang="ts">
+	import Callout from './Callout.svelte';
+
 	type Props = {
 		/** Plain-English claim sentence — drops straight into Quotation/text. */
 		claim: string;
@@ -83,139 +89,109 @@
 	{/if}
 </svelte:head>
 
-<aside
-	class="corpus-stat-callout"
+<Callout
+	tone="data"
 	itemscope
 	itemtype="https://schema.org/Quotation"
 	aria-label="9takes corpus statistic"
 >
-	<div class="corpus-stat-callout__header">
-		<span class="corpus-stat-callout__dot" aria-hidden="true"></span>
-		<span class="corpus-stat-callout__eyebrow">{eyebrow}</span>
-		<span class="corpus-stat-callout__meta">n={domainTotal}</span>
+	<div class="corpus-stat__header">
+		<span class="corpus-stat__dot" aria-hidden="true"></span>
+		<span class="corpus-stat__eyebrow">{eyebrow}</span>
+		<span class="corpus-stat__meta">n={domainTotal}</span>
 	</div>
 
-	<p class="corpus-stat-callout__claim" itemprop="text">
-		<strong class="corpus-stat-callout__share">{sharePct}</strong>
+	<p class="corpus-stat__claim" itemprop="text">
+		<strong class="corpus-stat__share">{sharePct}</strong>
 		{#if deltaPpFormatted}
-			<span class="corpus-stat-callout__delta">({deltaPpFormatted} pp vs baseline)</span>
+			<span class="corpus-stat__delta">({deltaPpFormatted} pp vs baseline)</span>
 		{/if}
-		<span class="corpus-stat-callout__sentence">{claim}</span>
+		<span class="corpus-stat__sentence">{claim}</span>
 	</p>
 
-	<p class="corpus-stat-callout__source">
+	<p class="corpus-stat__source">
 		Source:
-		<a href={corpusAnchorUrl} class="corpus-stat-callout__link">
+		<a href={corpusAnchorUrl} class="corpus-stat__link">
 			9takes Corpus Stats — {domainLabel}
 		</a>
 		·
-		<a href={domainUrl} class="corpus-stat-callout__link"> Browse {domainLabel} profiles</a>
+		<a href={domainUrl} class="corpus-stat__link"> Browse {domainLabel} profiles</a>
 	</p>
 
 	<meta itemprop="citation" content={datasetAbsoluteAnchor} />
-</aside>
+</Callout>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme — Corpus stat callout
-	   Visually distinct from QuickAnswer (teal lamp-glow) so a single page can
-	   stack a Quick Answer + Corpus Stat without colour collision. */
-	.corpus-stat-callout {
-		position: relative;
-		margin: 1.5rem 0 2rem;
-		padding: 1rem 1.25rem 1.05rem 1.5rem;
-		border-radius: 0.625rem;
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--shadow-flame, #f97316) 6%, var(--stone-warm)) 0%,
-			var(--night-deep) 70%,
-			var(--night-deep) 100%
-		);
-		border: 1px solid color-mix(in srgb, var(--shadow-flame, #f97316) 28%, transparent);
-
-		&::before {
-			content: '';
-			position: absolute;
-			left: 0;
-			top: 0;
-			bottom: 0;
-			width: 4px;
-			background: linear-gradient(
-				180deg,
-				var(--shadow-flame, #f97316) 0%,
-				color-mix(in srgb, var(--shadow-flame, #f97316) 60%, var(--lamp-glow)) 100%
-			);
-			border-radius: 0.625rem 0 0 0.625rem;
-		}
-	}
-
-	.corpus-stat-callout__header {
+	/* Custom mono header (dot · eyebrow · n=) — kept local; the base's plain
+	   label doesn't carry the right-aligned sample-size meta. */
+	.corpus-stat__header {
 		display: flex;
 		align-items: center;
 		gap: 0.55rem;
 		margin-bottom: 0.55rem;
 		font-size: 0.7rem;
-		font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+		font-family: var(--font-mono);
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 	}
 
-	.corpus-stat-callout__dot {
+	.corpus-stat__dot {
 		width: 6px;
 		height: 6px;
 		border-radius: 50%;
-		background: var(--shadow-flame, #f97316);
-		box-shadow: 0 0 8px color-mix(in srgb, var(--shadow-flame, #f97316) 60%, transparent);
+		background: var(--data-teal);
+		box-shadow: 0 0 8px color-mix(in srgb, var(--data-teal) 60%, transparent);
 		flex-shrink: 0;
 	}
 
-	.corpus-stat-callout__eyebrow {
+	.corpus-stat__eyebrow {
 		font-weight: 700;
-		color: var(--shadow-flame, #f97316);
+		color: var(--data-teal);
 	}
 
-	.corpus-stat-callout__meta {
+	.corpus-stat__meta {
 		margin-left: auto;
 		color: var(--ink-dim);
 		font-weight: 500;
 	}
 
-	.corpus-stat-callout__claim {
+	.corpus-stat__claim {
 		margin: 0 0 0.55rem;
 		line-height: 1.55;
 		color: var(--ink-bright);
 		font-size: 1rem;
 	}
 
-	.corpus-stat-callout__share {
+	.corpus-stat__share {
 		display: inline-block;
 		font-family: var(--font-display, inherit);
 		font-size: 1.45rem;
 		font-weight: 800;
-		color: var(--shadow-flame, #f97316);
+		color: var(--data-teal);
 		line-height: 1;
 		margin-right: 0.35rem;
 		vertical-align: -0.05em;
 	}
 
-	.corpus-stat-callout__delta {
-		font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+	.corpus-stat__delta {
+		font-family: var(--font-mono);
 		font-size: 0.82rem;
 		color: var(--ink-mid);
 		margin-right: 0.35rem;
 	}
 
-	.corpus-stat-callout__sentence {
+	.corpus-stat__sentence {
 		color: var(--ink-bright);
 	}
 
-	.corpus-stat-callout__source {
+	.corpus-stat__source {
 		margin: 0;
 		font-size: 0.82rem;
 		color: var(--ink-mid);
 		line-height: 1.5;
 	}
 
-	.corpus-stat-callout__link {
+	.corpus-stat__link {
 		color: var(--lamp-glow);
 		text-decoration: none;
 
@@ -225,21 +201,15 @@
 	}
 
 	@media (max-width: 640px) {
-		.corpus-stat-callout {
-			padding: 0.85rem 1rem 0.95rem 1.25rem;
-			margin: 1rem 0 1.5rem;
-			border-radius: 10px;
-		}
-
-		.corpus-stat-callout__share {
+		.corpus-stat__share {
 			font-size: 1.3rem;
 		}
 
-		.corpus-stat-callout__claim {
+		.corpus-stat__claim {
 			font-size: 0.95rem;
 		}
 
-		.corpus-stat-callout__source {
+		.corpus-stat__source {
 			font-size: 0.78rem;
 		}
 	}

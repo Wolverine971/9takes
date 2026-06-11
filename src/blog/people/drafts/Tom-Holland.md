@@ -28,11 +28,11 @@ occupation:
   - 'Dancer'
   - 'Television Actor'
 knows_about:
-  - 'Voice acting'
-  - 'Film acting'
-  - 'Acting'
-  - 'Television acting'
-  - 'Dance'
+  - 'Stunt work and gymnastics'
+  - 'West End musical theater (Billy Elliot)'
+  - 'Golf'
+  - 'Carpentry'
+  - 'Non-alcoholic beer brewing (Bero)'
 keywords:
   - 'Tom Holland enneagram'
   - 'Tom Holland type 7'
@@ -50,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q2023710'
   - 'https://www.imdb.com/name/nm4043618/'
 faqs:
-  - question: 'What is Tom Holland''s personality type?'
-    answer: 'The Enneagram has a name for the engine that runs Tom Holland. Type 7, sometimes called the Enthusiast, is driven by a core fear of being trapped in pain and a core desire for freedom and fulfillment. Sevens process the world through possibility. They reframe setbacks as opportunities. They fill silence with energy. They run.'
+  - question: "What is Tom Holland's personality type?"
+    answer: "Tom Holland is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in the 'Sick Note' nickname that still frustrates him 'to my core' and built an identity of limitless availability, the alcohol he used as social armor before getting sober in 2022, the Marvel spoilers he traded as approval currency while staying the most guarded person in the room, and a retirement fantasy of disappearing 'off the face of the earth.'"
     anchor: 'what-is-tom-hollands-personality-type'
-  - question: 'Why is Tom Holland typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Voice acting, Film acting, Acting.'
-    anchor: 'why-is-tom-holland-typed-as-an-enneagram-type-7'
+  - question: "What was Tom Holland's 'Sick Note' nickname?"
+    answer: "At twelve, performing three shows a week in Billy Elliot on the West End, he was the youngest cast member — underdeveloped, exhausted, constantly sick. The adults around him nicknamed him 'Sick Note.' He internalized it as a verdict: you are weak, you are a liability. 'Now as an actor I push through everything,' he told GQ, 'because I'm not going to be Sick Note.'"
+    anchor: 'what-sick-note-did-to-him'
+  - question: 'Why did Tom Holland quit drinking?'
+    answer: "After a 'very, very boozy' Christmas in 2021, he attempted Dry January and found all he could think about was having a drink: 'It really scared me.' He couldn't socialize without alcohol — it was armor, not recreation. By six months sober he called it 'the happiest I've ever been in my life,' and eventually said it plainly: 'I was definitely addicted to alcohol. I'm not shying away from that at all.' He has now been sober for over three years."
+    anchor: 'i-was-definitely-addicted-to-alcohol'
+  - question: 'Why does Tom Holland keep spoiling Marvel movies?'
+    answer: "The analysis argues the spoilers were never carelessness — they were currency. A self-described 'impossible people pleaser' performed transparency as a form of connection: sharing secrets got laughs, laughs meant approval, approval meant safety. He gave audiences Marvel's secrets so he wouldn't have to give them his own; Marvel responded by handing him incomplete scripts."
+    anchor: 'spider-man-and-the-performance-of-openness'
+  - question: 'Are Tom Holland and Zendaya engaged?'
+    answer: "Yes. He spoke to her father first, planned every detail, and proposed between Christmas and New Year's 2024 in one of her family's homes with no one else present. Zendaya revealed it by simply wearing the ring to the January 2025 Golden Globes. In February 2026 she swapped the engagement ring for a plain gold band; neither has said a word."
+    anchor: 'the-proposal-nobody-saw-coming'
 twitter: 'TomHolland1996'
 instagram: 'tomholland2013'
 tiktok: ''

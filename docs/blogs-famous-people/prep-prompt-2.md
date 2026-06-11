@@ -2,6 +2,13 @@
 
 # Prep Prompt 2: Enneagram Personality Analysis
 
+> **Source of truth (2026-06-10):** The binding rules live in
+> `.claude/commands/blog_content_creator_people_v2.md`. This document adds analysis depth
+> only — where it disagrees with the command, **the command wins**. Known delta: the
+> stress/security, wing, and counter-typing analysis you produce here feeds the **Rabbit
+> Hole `<details>` block** in the final blog — it never appears in the blog body. Validate
+> the typing in these research notes, not on the page.
+
 ## Objective
 
 Analyze **{PERSON}** as an Enneagram Type **{ENNEAGRAMTYPE}**, producing insights that are ready to drive a compelling narrative — not a clinical personality assessment.
@@ -94,6 +101,26 @@ Which wing is dominant, and what evidence supports this?
 - How does the wing shade their expression of the core type?
 - Where does the wing explain something the core type alone doesn't?
 
+> **Placement note:** wing, subtype, stress/growth-arrow, and counter-typing analysis from
+> this prompt is **Rabbit Hole material**. In the final blog it lives inside the single
+> `<details class="enneagram-rabbit-hole">` block (built in the creator command's Step 6),
+> never in the body prose.
+
+### The Emotional Thesis (required output — added 2026-06-10)
+
+The core tension is the behavior pattern; the emotional thesis is the feeling driving it.
+Produce, in **this person's own vocabulary** (sourced from their quotes, not the textbook
+type description):
+
+- The **core fear** as this person experiences it — the specific shape it takes in this life
+- The **core desire** as this person pursues it — what the chase feels like from inside
+- The **childhood message** they internalized about how to get their needs met
+
+If you can state the pattern but not the feeling, the analysis isn't done. This feeds the
+creator command's emotional thesis (Step 2, output #4), the empathy turn, and the interior
+beat. "See the emotions behind every take" is the product — this is where the emotions get
+found.
+
 ## Evidence Standards
 
 - **Every claim needs a specific example.** Not "they tend to be controlling" but "she presented a 17-point list of non-negotiable demands and told Sony to accept without revision or she'd walk."
@@ -106,10 +133,11 @@ Which wing is dominant, and what evidence supports this?
 Present as a structured analysis with:
 
 1. **The thesis** — One sentence: "Most people see [X]. But if you understand Type {ENNEAGRAMTYPE}, the real driver is [Y]."
-2. **The crystallizing sentence(s)** — 2-3 candidates for the "aha moment"
-3. **The surprise** — What a fan wouldn't expect
-4. **Biographical evidence** — Childhood → adult thread, career patterns, relationship patterns, crisis response
-5. **Stress/security analysis** — With specific examples
-6. **Wing analysis** — With evidence
-7. **Key quotes** — 5-10 quotes from the subject that illustrate the type pattern without them knowing it
-8. **The unresolved question** — What tension does this person carry that the Enneagram illuminates but doesn't resolve? (This often becomes the ending of the blog.)
+2. **The emotional thesis** — Core fear, core desire, and childhood message in the person's own vocabulary (see section above)
+3. **The crystallizing sentence(s)** — 2-3 candidates for the "aha moment"
+4. **The surprise** — What a fan wouldn't expect
+5. **Biographical evidence** — Childhood → adult thread, career patterns, relationship patterns, crisis response
+6. **Stress/security analysis** — With specific examples (Rabbit Hole material)
+7. **Wing analysis** — With evidence (Rabbit Hole material)
+8. **Key quotes** — 5-10 quotes from the subject that illustrate the type pattern without them knowing it
+9. **The unresolved question** — What tension does this person carry that the Enneagram illuminates but doesn't resolve? (This often becomes the ending of the blog.)

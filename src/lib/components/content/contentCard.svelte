@@ -310,7 +310,7 @@
 		gap: 0;
 		padding: 0.25rem;
 		background: var(--stone-warm, var(--stone-warm));
-		border-radius: 0.125rem;
+		border-radius: 0.25rem;
 		border: 1px solid var(--stone-warm, var(--stone-warm));
 	}
 
@@ -344,7 +344,7 @@
 
 		&::-webkit-scrollbar-thumb {
 			background-color: var(--stone-warm, var(--stone-warm));
-			border-radius: 3px;
+			border-radius: 9999px;
 		}
 	}
 </style>

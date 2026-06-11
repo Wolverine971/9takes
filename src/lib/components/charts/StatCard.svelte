@@ -227,7 +227,7 @@
 		font-size: 0.75rem;
 		font-weight: 600;
 		padding: 3px 6px;
-		border-radius: 6px;
+		border-radius: 0.25rem;
 	}
 
 	.stat-trend.up {
@@ -309,7 +309,7 @@
 		.stat-card {
 			padding: 12px;
 			gap: 8px;
-			border-radius: 8px;
+			border-radius: 0.625rem;
 		}
 
 		.stat-icon {

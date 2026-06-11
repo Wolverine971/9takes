@@ -26,10 +26,11 @@ occupation:
   - 'Writer'
   - 'Comedian'
 knows_about:
-  - 'Acting'
-  - 'Writing'
-  - 'Comedy'
-  - 'Shane Gillis: Beautiful Dogs'
+  - 'Stand-up comedy'
+  - "Podcasting (Matt and Shane's Secret Podcast)"
+  - 'TV comedy writing (Tires)'
+  - 'Arena comedy touring'
+  - 'Football and sports culture'
 keywords:
   - 'Shane Gillis enneagram'
   - 'Shane Gillis type 9'
@@ -49,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm5805772/'
   - 'https://shanemgillis.com/'
 faqs:
-  - question: 'What is Shane Gillis''s Personality Type?'
-    answer: 'Here''s what most people get wrong about Type 9s: they think the easygoing exterior means there''s nothing underneath. That the guy who says "I''m fine" is actually fine. That the comedian who shrugs off a national scandal genuinely doesn''t care.'
+  - question: "What is Shane Gillis's personality type?"
+    answer: "Shane Gillis is an Enneagram Type 9 (The Peacemaker), specifically a 9w8. The pattern shows in the string of quiet exits — West Point in two weeks, Elon, a Honda dealership, the State Theatre — followed by total immovability once he found comedy, the SNL apology he retracted two months later ('Saying that I felt fucking corny'), the arena-record empire built while insisting 'I don't think I had a goal. I just liked doing it,' and the night his girlfriend found him crying at Norm Macdonald clips saying 'Fine, I'm fine.'"
     anchor: 'what-is-shane-gilliss-personality-type'
-  - question: 'Why is Shane Gillis typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Writing, Comedy.'
-    anchor: 'why-is-shane-gillis-typed-as-an-enneagram-type-9'
+  - question: 'Why was Shane Gillis fired from SNL?'
+    answer: "Four days after his September 2019 casting announcement, clips surfaced from a 2018 podcast where he used ethnic slurs and mock accents — the same week SNL hired its first full-time Asian American cast member. NBC made the call over Lorne Michaels's objections. Gillis responded with 'I respect the decision they made,' then retracted the apology on his own podcast two months later: 'Saying that I felt fucking corny. I don't know if I really hurt too many people.'"
+    anchor: 'the-snl-saga'
+  - question: 'Did Shane Gillis ever go back to SNL?'
+    answer: "Yes — he hosted in February 2024, opening by telling the audience not to Google why he was there, then moving on without relitigating the firing. Lorne Michaels told the Wall Street Journal afterward: 'Oh right, he's really talented, and he would've been really good for us.'"
+    anchor: 'the-return'
+  - question: 'Why did Shane Gillis quit West Point?'
+    answer: "He lasted approximately two weeks inside a structure that demands hierarchy and obedience without question — he didn't storm out in protest, he simply couldn't breathe in it. It was the first of five quiet exits: West Point, Elon University (asked to leave), a Honda dealership, two years teaching English in Madrid, and a desk job at the State Theatre in Harrisburg that fired him."
+    anchor: 'the-man-who-quits'
+  - question: 'How big is Shane Gillis now?'
+    answer: "His special Beautiful Dogs hit Netflix's Top 10 in five countries; Tires, the show he co-created and self-funded before Netflix picked it up, has been renewed through season three; and Matt and Shane's Secret Podcast is the most subscribed-to podcast on Patreon. In 2024 he set all-time comedy ticket records at arenas in Toronto, Philadelphia, and San Antonio, and in July 2026 he plays Lincoln Financial Field for over 60,000 people — twenty minutes from where he used to bomb at open mics."
+    anchor: 'what-he-built'
 twitter: 'shaabornsale'
 instagram: 'shanemgillis'
 tiktok: ''

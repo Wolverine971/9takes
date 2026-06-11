@@ -10,6 +10,42 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-05-14 — Session close: outreach drafts handed off via pickup brief
+
+- Pickup brief: [`docs/daily-briefs/2026-05-14_pickup-brief.md`](../daily-briefs/2026-05-14_pickup-brief.md). Use it as the single starting point on next outreach session.
+- **#1 move on resume:** publish Bartlett — `/blog_content_publish_people Steven-Bartlett`. Grade 8.8 (above 8.5 gate); disk still `published: false`. Unblocks email #6 in the cluster.
+- **#2 move on resume:** tighten the 12 cluster emails against the new outreach doctrine (see next entry). Sample tightened email in pickup brief §3.
+- **#3 move on resume:** publish 3 remaining stale Dec 2025 / Jan 2025 pop-culture drafts (`world-leaders-enneagram-personality-dynamics`, `aoc-and-the-squad-enneagram-types`, `onlyfans-creators-enneagram-digital-intimacy`) via `/blog_content_publish_pop_culture`.
+- Long-Form Network campaign: 0/12 sent. Drafts in flight at `docs/outreach/2026-05-11_long-form-network-emails.md`. DJ has been iterating these — do not mass-edit without checking diffs.
+
+### 2026-05-14 — New cold-outreach doctrine codified (memories live)
+
+- DJ added three memory entries that change how all future cold outreach gets drafted:
+  - `feedback_cold_outreach_principles` — 50–125 words, **1 link max**, 5–7 day follow-up cadence (not 14), 1–3% realistic reply ceiling for cold-to-high-profile. Never ask for a call. Subject lines 4–7 words / 36–50 chars.
+  - `feedback_outreach_inevitability_voice` — "Already published" frame. "With or without you" energy. No supplication. Patterns: _"It's already up — felt strange to write N words about someone without telling them."_ / _"If you'd refine anything, I'd love that. If not, glad you saw it."_
+  - `reference_enneagram_type_3_outreach` — wing-specific (3w2/3w4/3w8) cold-outreach tuning. Applies to half the cluster (Williamson, Hormozi, Bartlett, Abdaal).
+- **Implication for existing 2026-05-11 drafts:** All 12 cluster emails violate all three new rules (150–220 words each, 3–4 links each, "would value the correction" supplication tone). Need a tightening pass before any send.
+- **For future agents and sessions:** Default to these constraints. DJ will reject supplication tone.
+
+### 2026-05-14 — Guerrilla marketing playbook drafted (STRATEGY, not yet executing)
+
+- New doc: [`guerrilla-marketing-playbook-2026-05-14.md`](./guerrilla-marketing-playbook-2026-05-14.md) captures the 80/20 frame, four high-leverage moves, Reddit thread archetypes, and channels-to-skip.
+- Core 30-day loop proposed: **5 celebrity newsjacks/week → 24-hr blog → 1 Reddit comment per blog into existing threads on r/popculturechat or r/Fauxmoi.**
+- Builds on existing [`docs/reddit/reddit-plan.md`](../reddit/reddit-plan.md) (which has the sub list) — this doc adds the strategic frame, archetypes, and what-to-skip.
+- **Status:** strategy captured; nothing executing yet. See "Work still to do" section in the playbook for the 7 concrete next actions.
+- **Owner:** DJ to decide cadence commitment + pick the first 5 newsjack targets. No automation built; loop is manual until proven.
+- **Open questions:** automate newsjack loop or stay manual? Referral-traffic attribution before running? Relationship to existing 1-on-1 personality-analysis outreach.
+
+### 2026-05-14 — Cancel Culture post (PUBLISHED after major rewrite)
+
+- **File:** `src/blog/pop-culture/cancel-culture-enneagram-type.md` — flipped to `published: true` with `date: 2026-05-11`.
+- **Rewrite shipped:** Addressed full reader-review punch-list in one pass — added Justine Sacco opener, real-name anchors (Hasan Minhaj, Roseanne, Joe Rogan), three new sections (Platform Mechanics, In-Group Cancellation, Past Peak Cancel), expanded cancelled-type coverage from 3 types to 6 (added 1/7/9), unpacked the Type 2 victimhood line, linked all 9 types internally, strengthened disclaimer.
+- **De-dup pass:** Killed the original's overlapping "What Each Type Thinks" + duplicate "How to Survive by Type" sections. Word count 2251 → 2122 despite adding three new sections.
+- **Image:** Reusing `twitter-toxic-psychology.webp` (best existing thematic match; shared hero with `twitter-x-personality-types-toxic.md`). Custom `mjPrompt` for a unique tribunal scene still preserved in frontmatter for a future render.
+- **Follow-ups doc:** [`docs/planning/cancel-culture-blog-followups-2026-05-14.md`](../planning/cancel-culture-blog-followups-2026-05-14.md) — distribution packets, cross-linking targets, optional unique-hero render, pipeline housekeeping check.
+- **Next:** confirm `/blog_content_publish_pop_culture` was run (would handle sitemap + FTS + crosslinks). If flipped manually, run `pnpm gen:sitemap && pnpm index:blogs && pnpm gen:crosslinks`. Then distribution packets (Instagram / Twitter thread / Quora / newsletter).
+- **Owner:** DJ.
+
 ### 2026-05-11 — Pop-culture publish queue (BOTTLENECK; unblocker shipped today)
 
 - Current state on disk: **26 published, 19 unpublished** (snapshot from `grep ^published: src/blog/pop-culture/*.md`)

@@ -28,10 +28,12 @@ occupation:
   - 'Voice Actor'
   - 'Photographer'
 knows_about:
-  - 'Film acting'
-  - 'Television acting'
-  - 'Voice acting'
-  - 'Film directing'
+  - 'Spanish cinema'
+  - 'Almodóvar film collaborations'
+  - 'Multilingual screen performance'
+  - 'Classical ballet training'
+  - 'Fashion design collaborations'
+  - 'Child sponsorship philanthropy in India'
 keywords:
   - 'Penélope Cruz enneagram'
   - 'Penélope Cruz type 6'
@@ -49,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q39666'
   - 'https://www.imdb.com/name/nm0004851/'
 faqs:
-  - question: 'What is Penélope Cruz''s Personality Type?'
-    answer: 'Enneagram Sixes do not lead with fear the way the diagnostic books describe. They lead with calculation. The Six is the type whose mind is always two steps ahead of the danger that may or may not arrive — the early-warning system, the one who notices the exit, the one who rehearses the catastrophe so it cannot ambush them. Cruz fits this pattern so cleanly that her own quotes practically grade themselves.'
+  - question: "What is Penélope Cruz's personality type?"
+    answer: "Penélope Cruz is an Enneagram Type 6 (The Loyalist), specifically a 6w7. The pattern shows in her lifelong self-described worry loop ('I have always worried about everything; it's in my nature'), the thirty-year anchor relationship with Pedro Almodóvar whom she calls 'my safety net,' the months of rehearsal she needs before her body will do a scary scene, the 2009 Oscar speech she opened by asking if anyone had ever fainted there, and the 'sacred' privacy fortress she built around her children."
     anchor: 'what-is-pen-lope-cruzs-personality-type'
-  - question: 'Why is Penélope Cruz typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Television acting, Voice acting.'
-    anchor: 'why-is-pen-lope-cruz-typed-as-an-enneagram-type-6'
+  - question: 'Why does Penélope Cruz call Pedro Almodóvar her safety net?'
+    answer: "On the Venice Film Festival stage in 2021 she said it directly: 'He's my safety net. He can ask me to do something that can really scare me, but I know he will be there to sustain me.' She has done her hardest scenes because Almodóvar agreed to stand two meters off-camera, close enough that she could hear him breathing. Seven films across twenty-eight years rest on that arrangement — as Almodóvar puts it, 'Penélope gets her confidence from rehearsal.'"
+    anchor: 'why-almod-var-is-the-load-bearing-wall'
+  - question: 'Did Penélope Cruz have postpartum depression?'
+    answer: "Yes. In June 2025, Javier Bardem revealed publicly that Cruz suffered depression after the birth of their first child and could not express it — her question at the time was 'Is it okay to share what's happening to me with my husband?' Bardem admitted he didn't initially understand its extent. The couple later rebuilt their marriage around protective rules: one parent always home, and no work contract that separates them for more than two weeks."
+    anchor: 'the-postpartum-depression-she-could-not-tell-her-husband'
+  - question: 'Why does Penélope Cruz never talk about her children?'
+    answer: "She calls the rule sacred: 'I never speak about the children in interviews. I don't care if people think I'm strange; that's sacred for me.' She and Bardem have never consistently confirmed their children's names, schools, or birth cities, and Cruz says her children will not be allowed on social media until they are at least sixteen. She is candid about her own anxiety and depression — the fortress is built only around the people the worry is for."
+    anchor: 'cruzs-sacred-rule-about-her-children'
+  - question: 'What did Mother Teresa tell Penélope Cruz?'
+    answer: "At twenty, Cruz spent a week working with Mother Teresa in Calcutta, part of it in a leprosy clinic. Mother Teresa pressed her forehead against Cruz's and said: 'Always try to be helpful to others. With whatever you have, even if it's something small, but always try to be helpful.' Cruz donated her salary from her first English-language film to the mission, personally sponsored two of the girls she met that week, and is still sponsoring them three decades later."
+    anchor: 'the-week-in-calcutta-that-never-ended'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people

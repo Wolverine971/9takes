@@ -28,12 +28,12 @@ occupation:
   - 'Voice Actor'
   - 'Recording Artist'
 knows_about:
-  - 'Film acting'
-  - 'Singing'
-  - 'Modeling'
-  - 'Voice acting'
+  - 'Character-immersion film acting'
+  - 'Marvel franchise leading roles'
+  - 'Voice performance'
   - 'Film directing'
-  - 'Acting'
+  - 'AI voice-likeness rights advocacy'
+  - 'Theatrical-release contract disputes'
 keywords:
   - 'Scarlett Johansson enneagram'
   - 'Scarlett Johansson type 9'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q34436'
   - 'https://www.imdb.com/name/nm0424060/'
 faqs:
-  - question: 'What Is Scarlett Johansson''s Personality Type?'
-    answer: 'Johansson reads as Enneagram Type 9, the Peacemaker. Not because she is passive. Because her first move is almost always to preserve inner calm, absorb the pressure, and keep the personal self protected while the work carries the emotion.'
+  - question: "What is Scarlett Johansson's personality type?"
+    answer: "Scarlett Johansson is an Enneagram Type 9 (The Peacemaker), specifically a 9w8. The pattern shows in the 'dark, cold shell' she says she crawled into at puberty, the three-day Instagram experiment she deleted, the Disney lawsuit she filed only after 'holding out hope' that the conflict would resolve itself, the first date with Colin Jost she fled at 9:36 PM, and the directing dream she carried for nearly thirty years before making Eleanor the Great."
     anchor: 'what-is-scarlett-johanssons-personality-type'
-  - question: 'Why is Scarlett Johansson typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Singing, Modeling.'
-    anchor: 'why-is-scarlett-johansson-typed-as-an-enneagram-type-9'
+  - question: 'Why did Scarlett Johansson sue Disney?'
+    answer: "In July 2021, Disney released Black Widow simultaneously on Disney+, allegedly breaching her contract's guarantee of an exclusive theatrical run. She held out hope it would resolve until her team told her 'You have to act,' then sued while days away from giving birth. The suit reportedly settled for over $40 million, and four years later she said she holds no grudge — 'just poor judgment and poor leadership at that time.'"
+    anchor: 'going-to-war-with-disney'
+  - question: 'What happened between Scarlett Johansson and OpenAI?'
+    answer: "Sam Altman asked Johansson twice to voice ChatGPT and she declined both times. In May 2024 OpenAI released a voice called 'Sky' that her closest friends could not tell apart from her voice in the film Her — and Altman posted the single word 'her.' She hired lawyers, OpenAI paused the voice, and she became an unexpected advocate for legal protections around AI and voice likeness."
+    anchor: 'fighting-only-when-the-line-is-crossed'
+  - question: 'Why is Scarlett Johansson not on social media?'
+    answer: "She says she is 'too fragile of a person to have social media' — she tried Instagram for three days, caught herself spending 20 minutes on a stranger's page, and deleted the app. When Universal asked her to join Instagram for the Jurassic World: Rebirth press tour, she concluded she couldn't do it and stay true to herself."
+    anchor: 'why-social-media-would-break-her'
+  - question: 'Why did Scarlett Johansson wait 30 years to direct a film?'
+    answer: "She formed the ambition at twelve, watching Robert Redford direct her on The Horse Whisperer set in 1997. Her debut, Eleanor the Great, premiered at Cannes in May 2025 to a five-minute standing ovation — twenty-eight years later. Her explanation: 'I don't think that I could have done it 10 years ago — I wouldn't have had the confidence.'"
+    anchor: 'the-directing-dream-held-for-30-years'
 twitter: ''
 instagram: ''
 tiktok: ''

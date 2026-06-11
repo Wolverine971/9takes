@@ -27,12 +27,12 @@ occupation:
   - 'Singer'
   - 'Model'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
+  - 'Method character immersion'
+  - 'Dialect and vocal transformation'
+  - 'Elvis Presley portrayal'
   - 'Film acting'
-  - 'Singing'
-  - 'Modeling'
-  - 'Modelling'
+  - 'Broadway theatre'
+  - 'Physical role transformation'
 keywords:
   - 'Austin Butler enneagram'
   - 'Austin Butler type 9'
@@ -50,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q469954'
   - 'https://www.imdb.com/name/nm2581521/'
 faqs:
-  - question: 'What is Austin Butler''s personality type?'
-    answer: 'Type 9s are the Peacemakers. Their core wound is the early lesson that their presence had to soften, dim, blur — that being big inside the room cost them love. So they learned to merge. To agree. To take on the emotional weather of whoever they were standing next to. Healthy 9s become unflappable presences who absorb other people''s edges. Unhealthy 9s lose track of where they end and the room begins.'
+  - question: "What is Austin Butler's personality type?"
+    answer: "Austin Butler is an Enneagram Type 9 (The Peacemaker), specifically a 9w1. The pattern shows in the three-year Elvis merger that rewired his vocal cords, the body that shut down with a 4 a.m. ambulance ride the day after filming wrapped, the run of auteur directors — Luhrmann, Villeneuve, Nichols, Aster, Aronofsky — whose gravity he keeps stepping into, the polite child of divorce who could not order food in restaurants, and the near-total silence he keeps about every relationship."
     anchor: 'what-is-austin-butlers-personality-type'
-  - question: 'Why is Austin Butler typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
-    anchor: 'why-is-austin-butler-typed-as-an-enneagram-type-9'
+  - question: 'Why does Austin Butler still sound like Elvis?'
+    answer: "He spent three years running Elvis tape until his mouth muscles, vocal cords, and rhythm of speech physically reorganized — and the voice never came all the way back. He hired a dialect coach not to learn an accent but to subtract one, and his voice coach Irene Bartlett told the press the change might be permanent. His own answer, repeated year after year: 'It's hard for me to talk about. I can't really reflect on it too much. I don't know the difference.'"
+    anchor: 'the-voice-that-didnt-come-back'
+  - question: 'What happened to Austin Butler after Elvis wrapped?'
+    answer: "The day after filming ended, he woke at four in the morning with pain like a burst appendix and was rushed to a hospital; doctors told him his body was 'shutting down,' with no clear medical name for it. A year later, on a flight to start The Bikeriders, a migraine so violent it left him temporarily blind. Tom Hanks advised him that for his mental health he should go straight into another role — and he did: Masters of the Air, Dune: Part Two, The Bikeriders, Eddington, Caught Stealing."
+    anchor: 'the-4-am-ambulance-and-the-body-that-finally-said-no'
+  - question: 'How did Austin Butler get the Elvis role?'
+    answer: "After deciding his first 'Love Me Tender' tape sounded like an impersonator and refusing to send it, he had a nightmare about his mother — who died of cancer when he was 23, the same age Elvis lost his — dying again. He sat down at the piano in a bathrobe and filmed himself singing 'Unchained Melody' to her, in tears the whole time. Baz Luhrmann wondered aloud whether it was an audition or a breakdown, and Denzel Washington cold-called Luhrmann to vouch: 'I've never seen a work ethic like it.'"
+    anchor: 'how-austin-butler-disappeared-into-elvis'
+  - question: 'Why did Austin Butler and Vanessa Hudgens break up?'
+    answer: "He has never publicly said. The nine-year relationship — which spanned the years he was caregiving his dying mother — ended in early 2020, a few months into his Elvis immersion. Hudgens has narrated her side, saying on the She Pivots podcast in 2024 that the split 'catapulted me into a very, very special place' and 'pushed me to the right person.' Butler has not said a word, the same asymmetry he keeps across all of his relationships."
+    anchor: 'austin-butlers-love-life-and-the-privacy-of-a-borrowed-self'
 instagram: 'austinbutler'
 production_pretext:
   status: draft

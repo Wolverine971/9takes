@@ -195,7 +195,7 @@
 		display: flex;
 		align-items: stretch;
 		background: var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 		border: 1px solid var(--stone-warm);
 		cursor: pointer;
@@ -222,7 +222,7 @@
 		}
 
 		@media (max-width: 768px) {
-			border-radius: 8px;
+			border-radius: 0.625rem;
 
 			&:active {
 				background: var(--primary-subtle);
@@ -309,7 +309,7 @@
 		flex-shrink: 0;
 		color: var(--ink-dim);
 		padding: 2px;
-		border-radius: 3px;
+		border-radius: 0.25rem;
 		transition: all 0.15s ease;
 
 		&:hover {
@@ -343,7 +343,7 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 1px 5px;
-		border-radius: 3px;
+		border-radius: 0.25rem;
 		font-size: 9px;
 		font-weight: 600;
 		line-height: 1.4;
@@ -399,7 +399,7 @@
 		display: inline-flex;
 		align-items: center;
 		padding: 1px 5px;
-		border-radius: 3px;
+		border-radius: 0.25rem;
 		font-size: 9px;
 		font-weight: 500;
 		background: var(--stone-warm);

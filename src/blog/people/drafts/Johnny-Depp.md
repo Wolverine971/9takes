@@ -28,12 +28,11 @@ occupation:
   - 'Voice Actor'
   - 'Nightclub Owner'
 knows_about:
+  - 'Character transformation acting'
+  - 'Tim Burton film collaborations'
+  - 'Rock guitar performance'
+  - 'Portrait painting'
   - 'Film directing'
-  - 'Film production'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Voice acting'
-  - 'Acting'
 keywords:
   - 'Johnny Depp enneagram'
   - 'Johnny Depp type 4'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q37175'
   - 'https://www.imdb.com/name/nm0000136/'
 faqs:
-  - question: 'What is Johnny Depp''s personality type?'
-    answer: 'Enneagram Type 4, "The Individualist," is built around identity. Fours sit in the heart triad, where the core emotion is shame — not guilt about what you''ve done, but a quieter conviction that something about what you are is broken. They carry a need to be authentic, to be seen for who they really are, and an equally deep fear that the real self, once exposed, won''t be enough.'
+  - question: "What is Johnny Depp's personality type?"
+    answer: "Johnny Depp is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in the locked bedroom where he taught himself guitar at twelve, the career built on disappearing into outsiders like Edward Scissorhands and Ed Wood, the WINONA FOREVER tattoo he edited to WINO FOREVER rather than erase, the fourteen anonymous years in the South of France he called the first time he felt he had a home, and the decision to face a six-week televised trial rather than let a false version of himself stand."
     anchor: 'what-is-johnny-depps-personality-type'
-  - question: 'Why is Johnny Depp typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Film directing, Film production, Television acting.'
-    anchor: 'why-is-johnny-depp-typed-as-an-enneagram-type-4'
+  - question: 'Why did Johnny Depp take the Amber Heard case to trial instead of settling?'
+    answer: "Depp said it himself: 'I knew I'd have to semi-eviscerate myself... If I don't try to represent the truth it will be like I've actually committed the acts I am accused of. And my kids will have to live with it.' For someone wired like Depp, being misrecognized isn't a PR problem but an existential one. The jury awarded him $10.35 million and Heard $2 million on her counterclaim."
+    anchor: 'i-knew-id-have-to-semi-eviscerate-myself'
+  - question: "What does Johnny Depp's WINO FOREVER tattoo mean?"
+    answer: "It originally read WINONA FOREVER — inked for Winona Ryder after they got engaged within five months of meeting in 1989. When the relationship ended in 1993, Depp didn't have it removed; he had it altered to WINO FOREVER. The grief wasn't deleted, it was edited — turned into a joke that still carries the wound."
+    anchor: 'winona-forever'
+  - question: 'Why did Johnny Depp live in France for fourteen years?'
+    answer: "He and Vanessa Paradis raised their two children on an estate near Saint-Tropez, where nobody recognized him at the market. For a man whose family moved more than twenty times in childhood, it was, in his words, 'the first time I felt I had a home' — the years when he was 'Papa' instead of 'Dad.'"
+    anchor: 'the-first-time-i-felt-i-had-a-home'
+  - question: 'Why did Tim Burton keep casting Johnny Depp?'
+    answer: "Burton said Depp 'didn't become an actor to be glamorous; he wanted to become characters... they kind of want to hide. He's more like Lon Chaney or Boris Karloff than he is Alan Ladd.' They made eight films together across two decades, starting with Edward Scissorhands, which Depp said went 'to the very core of whatever I am.'"
+    anchor: 'burton-and-the-permission-to-hide'
 twitter: ''
 instagram: 'johnnydepp'
 tiktok: 'johnnydepp'

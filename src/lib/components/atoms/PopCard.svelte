@@ -387,7 +387,7 @@
 		@include glass(0.5, 6px, 0.15);
 		padding: 0.5rem 1rem;
 		margin: 0;
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 	}
 
 	// Tech spec HUD panel

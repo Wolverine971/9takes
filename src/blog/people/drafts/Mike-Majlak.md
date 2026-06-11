@@ -23,11 +23,11 @@ occupation:
   - 'YouTuber'
   - 'Writer'
 knows_about:
-  - 'YouTube content creation'
-  - 'Writing'
-  - 'Digital media'
-  - 'YouTuber'
-  - 'Writer'
+  - 'Addiction recovery advocacy'
+  - 'Podcast hosting (Impaulsive)'
+  - 'Memoir writing (The Fifth Vital)'
+  - 'Opioid epidemic awareness'
+  - 'Influencer brand marketing'
 keywords:
   - 'Mike Majlak enneagram'
   - 'Mike Majlak type 7'
@@ -44,12 +44,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q131804181'
   - 'https://youtube.com/impaulsive'
 faqs:
-  - question: 'What is Mike Majlak''s personality type?'
-    answer: 'The Enneagram Seven is called "The Enthusiast," but that label undersells what''s actually happening inside. Sevens are wired with a possibility engine: a cognitive system that automatically generates alternatives, options, and escape routes whenever reality becomes painful. Something bad happens, and within milliseconds, the Seven''s mind has already reframed it, pivoted away from it, or replaced it with something more exciting.'
+  - question: "What is Mike Majlak's personality type?"
+    answer: "Mike Majlak is an Enneagram Type 7 (The Enthusiast) with an 8 wing. The pattern shows in the branching addictions — OxyContin, heroin, cocaine, crack, plus dealing — that kept him one step ahead of pain, the bucket list and 100-pound weight loss that immediately followed rehab, the literal pros-and-cons list he made to think his way out of feeling, and the teenage craving for a drug dealer's power that marks the Eight wing. His memoir was the Seven finally doing the hardest thing: staying."
     anchor: 'what-is-mike-majlaks-personality-type'
-  - question: 'Why is Mike Majlak typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Writing, Digital media.'
-    anchor: 'why-is-mike-majlak-typed-as-an-enneagram-type-7'
+  - question: 'How did Mike Majlak become addicted to drugs?'
+    answer: "At 16, a freak basketball accident shattered his femur and the hospital prescribed OxyContin — in 2001, just as Purdue Pharma was marketing pain as 'the fifth vital sign.' OxyContin led to heroin, then crack cocaine; he dealt to fund the habit, his mother kicked him out, and he was homeless for two years. The addiction consumed roughly a decade, from 18 to his mid-twenties."
+    anchor: 'a-decade-in-the-dark'
+  - question: 'How did Mike Majlak get sober?'
+    answer: "In 2010, his worst year — his grandfather dying of Parkinson's downstairs while he failed drug tests upstairs — his parole officer gave him an ultimatum: rehab or prison. He chose 90 days of detox, tapering off 80mg of daily methadone at 2mg per week. He walked out at 285 pounds, lost over 100 of them within a year, and is now fifteen years clean."
+    anchor: 'the-year-everything-screamed'
+  - question: 'How did Mike Majlak meet Logan Paul?'
+    answer: "In 2014, while working as a marketing coordinator at furniture company LoveSac, Majlak noticed Logan Paul racking up millions of views on Vine and recruited him for a promotion that sold over two million beanbags in a single day. He became part of Logan's inner circle, and in November 2018 they launched Impaulsive, which grew past 900 million YouTube views and joined the WWE and Fanatics network in 2025."
+    anchor: 'how-a-beanbag-salesman-built-a-podcast-empire'
+  - question: 'What happened between Mike Majlak and Lana Rhoades?'
+    answer: "They dated from 2020 after Logan Paul introduced them — two honeymoon months, then a toxic year. Majlak backed out of moving in with her twice, the exact same escape repeated, and during one split hooked up with Ava Louise. Rhoades later publicly posted his pros-and-cons list about her, which included 'dealbreakers' like wanting marriage, kids, and time alone together."
+    anchor: 'the-relationships-that-revealed-the-pattern'
 twitter: 'https://twitter.com/mikemajlak'
 instagram: 'https://instagram.com/mikemajlak'
 tiktok: 'https://tiktok.com/@mikemajlak'

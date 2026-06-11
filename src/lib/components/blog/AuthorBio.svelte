@@ -83,7 +83,7 @@
 		margin: 2rem 0;
 		background-color: var(--stone-warm);
 		border: 1px solid var(--primary-subtle);
-		border-radius: 12px;
+		border-radius: 1rem;
 		max-width: 48rem;
 
 		&.compact {
@@ -191,7 +191,7 @@
 		justify-content: center;
 		width: 32px;
 		height: 32px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		color: var(--ink-mid);
 		background: color-mix(in srgb, var(--ink-dim) 10%, transparent);
 		transition: all 0.2s ease;

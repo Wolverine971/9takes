@@ -28,12 +28,11 @@ occupation:
   - 'Songwriter'
   - 'Film Actor'
 knows_about:
-  - 'Hip-hop music'
-  - 'Singing'
-  - 'Acting'
-  - 'Songwriting'
-  - 'Film acting'
-  - 'West Coast Hip-Hop'
+  - 'West Coast rap'
+  - 'Streetwear branding (Last Kings)'
+  - 'Music video aesthetics'
+  - 'Creator platform ventures (Myystar)'
+  - 'Career reinvention'
 keywords:
   - 'Tyga enneagram'
   - 'Tyga type 3'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm2997492/'
   - 'https://tyga.net/'
 faqs:
-  - question: 'What Is Tyga''s Personality Type?'
-    answer: 'Type 3s learned early that being loved required becoming the kind of person people wanted to love. Not faking it. Something more disciplined than that. A lifelong calibration of image, voice, and self-presentation, all in service of one fused equation: achievement equals worth, and worth equals safety.'
+  - question: "What is Tyga's personality type?"
+    answer: "Tyga is an Enneagram Type 3 (The Achiever), specifically a 3w4. The pattern shows in the Egyptian-pharaoh Last Kings empire built before the song catalog could support it, the son he named King Cairo, the 'Dad' tweet aimed at Tupac while his real father served life without parole, the chameleon biography that shifted from a 'well-to-do' Valley home to Compton as the moment required, and his own self-diagnosis: 'I'll get success, gain momentum, then lose it, get it again, lose it.'"
     anchor: 'what-is-tygas-personality-type'
-  - question: 'Why is Tyga typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Hip-hop music, Singing, Acting.'
-    anchor: 'why-is-tyga-typed-as-an-enneagram-type-3'
+  - question: 'Why did Tyga call Tupac his dad?'
+    answer: "In March 2016 he posted a photo of Tupac captioned 'Dad' — then, after the internet mocked it, posted a handwritten prison letter from his real father, Stevie J. Stevenson, serving life without parole at Solano State Prison, captioned with the Tupac lyric 'Keep ya head up.' The analysis reads it as Type 3 revision: a Three won't narrate a story that makes them look unchosen, so they substitute a more prestigious, more controllable one. Tupac is a legend. Stevenson is an inmate."
+    anchor: 'the-father-tyga-wouldnt-name'
+  - question: "What does Tyga's name mean?"
+    answer: "It has two origin stories, both true. His Vietnamese mother nicknamed him 'Little Tiger Woods' as a kid — a name handed down like an instruction. And TYGA stands for 'Thank You God Always' — a prayer packaged as a brand. His birth name is Michael Ray Stevenson, born 1989 in Compton."
+    anchor: 'thank-you-god-always-the-name-tells-you-everything'
+  - question: 'What happened between Tyga and Kylie Jenner?'
+    answer: "When the relationship became public in 2015, Kylie was 17 and Tyga was 25 — they had first met when she was 14, at a party he was performing at while dating Blac Chyna. The analysis names the grooming discourse directly rather than ducking it, quotes his own Breakfast Club framing of her as a project he was 'put in that position to help,' and calls Kanye's 'he got in early' praise what it was. The public relationship was over by 2017."
+    anchor: 'access-as-belonging-kylie-chyna-and-the-image-machine'
+  - question: 'What is the Last Kings brand?'
+    answer: "Tyga's Egyptian-pharaoh streetwear label — he spent $120,000 decorating its Melrose flagship with imported Egyptian sand and a Sistine Chapel ceiling, four years before his first diamond single. The analysis reads it as theology, not fashion: pharaohs' legitimacy flowed down from the gods, not from a father — exactly the kind of inherited crown a child of an absent, imprisoned father would need to manufacture."
+    anchor: 'what-the-last-kings-brand-actually-is'
 twitter: 'Tyga'
 instagram: 'tyga'
 tiktok: 'tyga'

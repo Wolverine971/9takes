@@ -27,12 +27,11 @@ occupation:
   - 'Screenwriter'
   - 'Film Producer'
 knows_about:
-  - 'Acting'
-  - 'Stand-up comedy'
-  - 'Television acting'
-  - 'Screenwriting'
-  - 'Film production'
-  - 'Comedy'
+  - 'Self-deprecating stand-up comedy'
+  - 'SNL sketch and Weekend Update comedy'
+  - 'Semi-autobiographical screenwriting'
+  - 'BPD and addiction recovery advocacy'
+  - 'Celebrity podcast hosting'
 keywords:
   - 'Pete Davidson enneagram'
   - 'Pete Davidson type 9'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.youtube.com/watch?v=-M34WZSZA_M'
   - 'https://www.youtube.com/watch?v=NxI92Mxpb1s'
 faqs:
-  - question: 'What is Pete Davidson''s Personality Type?'
-    answer: 'Enneagram Nines are called The Peacemaker, and their core desire is deceptively simple: inner peace. Not fame. Not achievement. Not intensity. Quiet. Calm. The feeling that everything is okay and nothing is about to go wrong.'
+  - question: "What is Pete Davidson's personality type?"
+    answer: "Pete Davidson is an Enneagram Type 9 (The Peacemaker), specifically a 9w8. The pattern shows in his chameleon merging with partners — matching tattoos with Ariana Grande, bleached hair and Skims for Kim Kardashian — his 'I want everything to be smooth' text to Kanye West, the daily weed and ketamine he used to numb out for years, and the therapeutic goal he stated to Marc Maron: 'I would love to be okay, Marc. That would be incredible.'"
     anchor: 'what-is-pete-davidsons-personality-type'
-  - question: 'Why is Pete Davidson typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Stand-up comedy, Television acting.'
-    anchor: 'why-is-pete-davidson-typed-as-an-enneagram-type-9'
+  - question: "How did Pete Davidson's father die?"
+    answer: "Scott Davidson was a firefighter with Ladder Company 118 in Brooklyn Heights who died on September 11, 2001, evacuating the Marriott World Trade Center. His crew saved roughly 200 people before the North Tower collapsed onto the hotel; all six men in the truck died. Pete was seven — he learned his father was gone by turning on a TV he wasn't supposed to watch and seeing Scott's face on the news."
+    anchor: 'the-boy-who-lost-the-ground-beneath-him'
+  - question: 'How did Pete Davidson respond to Kanye West?'
+    answer: "For months Pete absorbed Kanye's public harassment — the 'Skete' nickname, a song threatening to beat him up, a music video depicting his burial — and responded by texting Kanye directly that he wanted 'everything to be smooth' and offering to talk privately. When Kanye asked where he was, Pete replied 'In your wife's bed' and warned, 'if you continue to press me like you have for the past 6 months I'm gonna stop being nice.' It's the 9w8 pattern in one exchange: absorb conflict for months, then cut clean through it in a single message."
+    anchor: 'the-furnace-beneath-the-floorboards'
+  - question: 'Why is Pete Davidson removing his tattoos?'
+    answer: "He has spent $200,000 so far, is about 30 percent done, and expects the process to take another decade. Many of the roughly 200 designs were a second skin layered over scars from cutting, and he ties the ink to a person he no longer is: 'I used to be a drug addict and I was a sad person, and I felt ugly and that I needed to be covered up.' The removal is the reverse move — uncovering instead of erasing."
+    anchor: 'why-is-pete-davidson-removing-his-tattoos'
+  - question: 'Is Pete Davidson sober?'
+    answer: "By September 2024 he was maintaining full sobriety after years of daily marijuana use that triggered psychosis and four years of daily ketamine. He checked into rehab proactively in 2023 for PTSD and borderline personality disorder, used DBT workbook techniques to replace self-harm, and attended recovery groups including SLAA. As he put it on The Breakfast Club: 'When you're doing drugs in your thirties, it's not cute.'"
+    anchor: 'the-long-road-back'
 twitter: ''
 instagram: ''
 tiktok: ''

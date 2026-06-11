@@ -1,9 +1,13 @@
 <!-- src/lib/components/blog/callouts/QuickAnswer.svelte -->
 <!--
-  SEO-optimized Quick Answer component for featured snippets
-  Used at the top of blog posts to provide direct answers to search queries
+  SEO-optimized Quick Answer component for featured snippets.
+  Used at the top of blog posts to provide direct answers to search queries.
+  Shell renders through the shared <Callout> base (2026-06-10 consolidation);
+  public props and the schema.org Question/Answer markup are unchanged.
 -->
 <script lang="ts">
+	import Callout from './Callout.svelte';
+
 	/**
 	 * Optional explicit question to display
 	 * If not provided, the slot content should include the question
@@ -12,8 +16,8 @@
 
 	/**
 	 * Visual style variant
-	 * - 'default': Purple gradient (matches 9takes brand)
-	 * - 'subtle': Light gray with accent
+	 * - 'default': brand amber accent
+	 * - 'subtle': neutral ink accent
 	 */
 	export let variant: 'default' | 'subtle' = 'default';
 
@@ -24,36 +28,19 @@
 	export let children: string | ((...args: unknown[]) => unknown) = '';
 </script>
 
-<aside
-	class="quick-answer"
-	class:quick-answer--subtle={variant === 'subtle'}
+<Callout
+	tone={variant === 'subtle' ? 'neutral' : 'lamp'}
+	label="Quick Answer"
+	icon="question"
 	itemscope
 	itemtype="https://schema.org/Question"
 >
-	<div class="quick-answer__header">
-		<svg
-			class="quick-answer__icon"
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			stroke-width="2"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-		>
-			<circle cx="12" cy="12" r="10"></circle>
-			<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-			<line x1="12" y1="17" x2="12.01" y2="17"></line>
-		</svg>
-		<span class="quick-answer__label">Quick Answer</span>
-	</div>
-
 	{#if question}
 		<p class="quick-answer__question" itemprop="name">{question}</p>
 	{/if}
 
 	<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-		<div class="quick-answer__content" itemprop="text">
+		<div itemprop="text">
 			{#if typeof children === 'string' && children.trim() !== ''}
 				{@html children}
 			{:else}
@@ -61,75 +48,9 @@
 			{/if}
 		</div>
 	</div>
-</aside>
+</Callout>
 
 <style lang="scss">
-	/* 9takes Warm Tech Theme */
-	.quick-answer {
-		position: relative;
-		margin: 1.5rem 0 2rem;
-		padding: 1.25rem 1.5rem;
-		border-radius: 0.625rem;
-		background: linear-gradient(
-			135deg,
-			var(--stone-warm) 0%,
-			var(--night-deep) 50%,
-			var(--night-deep) 100%
-		);
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 20%, var(--stone-edge));
-
-		// Purple accent line on left
-		&::before {
-			content: '';
-			position: absolute;
-			left: 0;
-			top: 0;
-			bottom: 0;
-			width: 4px;
-			background: linear-gradient(180deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-			border-radius: 0.625rem 0 0 0.625rem;
-		}
-
-		&--subtle {
-			background: linear-gradient(135deg, var(--night-deep) 0%, var(--night-deep) 100%);
-			border-color: color-mix(in srgb, var(--ink-dim) 20%, transparent);
-
-			&::before {
-				background: linear-gradient(180deg, var(--ink-dim) 0%, var(--ink-mid) 100%);
-			}
-
-			.quick-answer__label {
-				color: var(--ink-mid);
-			}
-
-			.quick-answer__icon {
-				color: var(--ink-dim);
-			}
-		}
-	}
-
-	.quick-answer__header {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		margin-bottom: 0.75rem;
-	}
-
-	.quick-answer__icon {
-		width: 20px;
-		height: 20px;
-		color: var(--lamp-glow);
-		flex-shrink: 0;
-	}
-
-	.quick-answer__label {
-		font-size: 0.75rem;
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-		color: var(--lamp-glow);
-	}
-
 	.quick-answer__question {
 		font-size: 1.1rem;
 		font-weight: 600;
@@ -138,61 +59,9 @@
 		line-height: 1.4;
 	}
 
-	.quick-answer__content {
-		font-size: 1rem;
-		line-height: 1.7;
-		color: var(--ink-mid);
-
-		// Style any bold text within the content
-		:global(strong),
-		:global(b) {
-			color: var(--ink-bright);
-			font-weight: 600;
-		}
-
-		// Handle paragraphs inside
-		:global(p) {
-			margin: 0;
-			color: var(--ink-mid);
-
-			& + :global(p) {
-				margin-top: 0.75rem;
-			}
-		}
-
-		// First paragraph with first letter styling shouldn't have it here
-		:global(p.firstLetter::first-letter) {
-			font-size: inherit;
-			float: none;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-		}
-
-		// Links
-		:global(a) {
-			color: var(--lamp-glow);
-
-			&:hover {
-				color: var(--lamp-glow);
-			}
-		}
-	}
-
-	// Mobile adjustments
 	@media (max-width: 640px) {
-		.quick-answer {
-			padding: 1rem 1.25rem;
-			margin: 1rem 0 1.5rem;
-			border-radius: 0.625rem;
-		}
-
 		.quick-answer__question {
 			font-size: 1rem;
-		}
-
-		.quick-answer__content {
-			font-size: 0.95rem;
 		}
 	}
 </style>

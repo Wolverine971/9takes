@@ -127,7 +127,7 @@
 		height: 48px;
 		background: rgba(255, 255, 255, 0.15);
 		backdrop-filter: blur(8px);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		flex-shrink: 0;
 		border: 1px solid rgba(255, 255, 255, 0.2);
 	}
@@ -172,7 +172,7 @@
 		background: rgba(255, 255, 255, 0.2);
 		color: #fff;
 		padding: 0.625rem 1.25rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-weight: 600;
 		font-size: 0.875rem;
 		text-decoration: none;

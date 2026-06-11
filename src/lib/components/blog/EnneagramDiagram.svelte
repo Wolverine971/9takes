@@ -684,7 +684,7 @@
 		transform: translate(-50%, -50%);
 		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
 		border: 1px solid var(--primary-glow);
-		border-radius: 12px;
+		border-radius: 0.625rem;
 		padding: 1rem;
 		max-width: min(280px, 85%);
 		box-shadow:

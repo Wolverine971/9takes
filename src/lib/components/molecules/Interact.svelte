@@ -511,7 +511,7 @@
 		justify-content: center;
 		gap: 0.5rem;
 		padding: 0.7rem 1rem;
-		border-radius: 0.9rem;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
 		font-size: 0.92rem;
 		font-weight: 600;
@@ -574,7 +574,7 @@
 
 	.composer-surface {
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
-		border-radius: 1.15rem;
+		border-radius: 1rem;
 		background:
 			linear-gradient(
 				180deg,
@@ -594,7 +594,7 @@
 		margin: 0 0 0.75rem;
 		padding: 0.6rem 0.8rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
-		border-radius: 0.85rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--primary-subtle) 42%, transparent);
 		color: color-mix(in srgb, var(--lamp-glow) 72%, var(--ink-mid));
 		font-size: 0.78rem;
@@ -608,7 +608,7 @@
 		gap: 0.75rem;
 		padding: 0.9rem 1rem;
 		border-top: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
-		border-radius: 0 0 1.15rem 1.15rem;
+		border-radius: 0 0 1rem 1rem;
 		background: color-mix(in srgb, var(--night-deep) 74%, transparent);
 	}
 

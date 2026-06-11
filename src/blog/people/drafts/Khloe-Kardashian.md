@@ -28,12 +28,11 @@ occupation:
   - 'Model'
   - 'Radio Personality'
 knows_about:
-  - 'Acting'
-  - 'Fiction writing'
-  - 'Entrepreneurship'
-  - 'Modeling'
-  - 'Writing'
-  - 'Television acting'
+  - 'Reality television'
+  - 'Fitness and body transformation'
+  - 'Home organization'
+  - 'Memoir writing'
+  - 'Podcasting'
 keywords:
   - 'Khloé Kardashian enneagram'
   - 'Khloé Kardashian type 2'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q231270'
   - 'https://www.imdb.com/name/nm2835957/'
 faqs:
-  - question: 'What is Khloé Kardashian''s personality type?'
-    answer: 'Most people see Khloé Kardashian as the "strong one" who keeps getting her heart broken by bad men. But that reading misses the engine underneath.'
+  - question: "What is Khloé Kardashian's personality type?"
+    answer: "Khloé Kardashian is an Enneagram Type 2 (The Helper). The pattern shows in her cleaning Lamar Odom's motel rooms before housekeeping could sell a story, pumping his stomach at home during overdoses, spending four months at his hospital bedside mid-divorce, forgiving Tristan Thompson through three public betrayals, and her own stated epitaph: 'I want to be remembered for giving second chances... and for loving selflessly.'"
     anchor: 'what-is-khlo-kardashians-personality-type'
-  - question: 'Why is Khloé Kardashian typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Fiction writing, Entrepreneurship.'
-    anchor: 'why-is-khlo-kardashian-typed-as-an-enneagram-type-2'
+  - question: 'Why did Khloé Kardashian stay with Lamar Odom through his addiction?'
+    answer: "From age twenty-four she made his survival her full-time job — searching alleys and motels, keeping his secret because he begged her to, building an at-home detox infrastructure with nurses and a private chef after his 2015 brothel overdose. The piece argues leaving would have meant admitting she wasn't enough to save him, and being enough was the only proof of love she trusted. It ended when she showed up, smelled crack, punched him in the face, and gave him until Monday to get out."
+    anchor: 'how-khlo-kardashian-lost-herself-saving-lamar-odom'
+  - question: 'Why did Khloé Kardashian keep forgiving Tristan Thompson?'
+    answer: "She let him in the delivery room two days after TMZ published the cheating videos, took him back after the Jordyn Woods kiss, and only left after learning from a published article that he'd fathered a child with Maralee Nichols while encouraging her to proceed with their embryo transfer. For a Two, forgiving is giving, and giving is the only currency she trusts — her own later question, 'Why wasn't I forgiving myself?', is the one the piece says matters."
+    anchor: 'why-khlo-kardashian-kept-forgiving-tristan-thompson'
+  - question: 'Why is Khloé Kardashian so obsessed with organizing?'
+    answer: "When an exposure therapist made her deliberately mess up her own home, she called it 'torture.' After a decade of relationships defined by chaos — motel rooms, alleys, infidelity — the color-coded pantry is the one space where nothing leaves and everything stays where she put it. Kris Jenner calls her 'the most organised, cleanest, most obsessive person I know.'"
+    anchor: 'why-khlo-kardashians-obsessive-organizing-isnt-about-tidiness'
+  - question: 'Did Khloé Kardashian struggle to bond with her son Tatum?'
+    answer: "Yes — she said publicly that bonding with True took days but with Tatum, born via surrogate in July 2022 after her relationship with Tristan ended, it took months. Her OB-GYN even offered to take the baby home until she was ready. She called the surrogacy experience 'transactional' and went public so other mothers would hear an honest account; Tatum is now, in her words, 'truly the best thing that has ever happened to me.'"
+    anchor: 'it-took-me-months-to-bond-with-my-own-son'
 twitter: 'khloekardashian'
 instagram: 'khloekardashian'
 tiktok: '@khloekardashian'

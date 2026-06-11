@@ -23,14 +23,15 @@
 
 ## Launch Order
 
-| Priority | Person                  | Blog URL                                 | Twitter Thread        | Instagram Assets          | Reddit (Enneagram)           | Reddit (Fan Sub)                          | Emails                                                                               |
-| -------- | ----------------------- | ---------------------------------------- | --------------------- | ------------------------- | ---------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------ |
-| 1        | Shawn Ryan              | `/personality-analysis/Shawn-Ryan`       | See distribution file | Carousel + Stories + Reel | r/Enneagram, r/ShawnRyanShow | r/Military, r/JoeRogan                    | Task & Purpose, SOFREP, Coffee or Die                                                |
-| 2        | Chris Williamson        | `/personality-analysis/Chris-Williamson` | See distribution file | Carousel + Stories + Reel | r/Enneagram                  | r/DecodingTheGurus, r/IntellectualDarkWeb | Jay Clouse, Aporia, Chris directly                                                   |
-| 3        | John Coogan             | `/personality-analysis/John-Coogan`      | See distribution file | Carousel + Stories + Reel | r/Enneagram                  | r/startups (with mod approval)            | Startup Spells, Cyber Patterns, HackerNoon, John directly                            |
-| 4        | Benson Boone            | `/personality-analysis/Benson-Boone`     | See distribution file | Carousel + Stories + Reel | r/Enneagram                  | r/bensonboone, r/popheads                 | Switched on Pop, Psychology Junkie, Honey POP, @BooneAccess                          |
-| 5        | Tech Titans: Disruptors | `/pop-culture/tech-titans-disruptors`    | See distribution file | Carousel + Stories + Reel | r/Enneagram                  | r/startups, r/technology, r/Entrepreneur  | The Diff, Not Boring, Eric Newcomer, Big Think, Farnam Street                        |
-| 6        | Justin Bieber           | `/personality-analysis/Justin-Bieber`    | See distribution file | Carousel + Stories + Reel | r/Enneagram                  | r/popheads, r/JUSTINBIEBER, r/Fauxmoi     | The Conversation, Andy Steiner, Vinyl by Mars, Psychology Junkie, Enneagram Universe |
+| Priority | Person                  | Blog URL                                 | Twitter Thread        | Instagram Assets                      | Reddit (Enneagram)           | Reddit (Fan Sub)                          | Emails                                                                               |
+| -------- | ----------------------- | ---------------------------------------- | --------------------- | ------------------------------------- | ---------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------ |
+| 1        | Shawn Ryan              | `/personality-analysis/Shawn-Ryan`       | See distribution file | Carousel + Stories + Reel             | r/Enneagram, r/ShawnRyanShow | r/Military, r/JoeRogan                    | Task & Purpose, SOFREP, Coffee or Die                                                |
+| 2        | Chris Williamson        | `/personality-analysis/Chris-Williamson` | See distribution file | Carousel + Stories + Reel             | r/Enneagram                  | r/DecodingTheGurus, r/IntellectualDarkWeb | Jay Clouse, Aporia, Chris directly                                                   |
+| 3        | John Coogan             | `/personality-analysis/John-Coogan`      | See distribution file | Carousel + Stories + Reel             | r/Enneagram                  | r/startups (with mod approval)            | Startup Spells, Cyber Patterns, HackerNoon, John directly                            |
+| 4        | Benson Boone            | `/personality-analysis/Benson-Boone`     | See distribution file | Carousel + Stories + Reel             | r/Enneagram                  | r/bensonboone, r/popheads                 | Switched on Pop, Psychology Junkie, Honey POP, @BooneAccess                          |
+| 5        | Tech Titans: Disruptors | `/pop-culture/tech-titans-disruptors`    | See distribution file | Carousel + Stories + Reel             | r/Enneagram                  | r/startups, r/technology, r/Entrepreneur  | The Diff, Not Boring, Eric Newcomer, Big Think, Farnam Street                        |
+| 6        | Justin Bieber           | `/personality-analysis/Justin-Bieber`    | See distribution file | Carousel + Stories + Reel             | r/Enneagram                  | r/popheads, r/JUSTINBIEBER, r/Fauxmoi     | The Conversation, Andy Steiner, Vinyl by Mars, Psychology Junkie, Enneagram Universe |
+| 7        | Tim Ferriss             | `/personality-analysis/tim-ferriss`      | See distribution file | Tidbits + Analytical + Stories + Reel | r/Enneagram                  | r/Tim_Ferriss, r/Stoicism                 | Daily Stoic, Podcast Notes, The Profile, Enneagram Universe, Tim directly            |
 
 ---
 
@@ -140,6 +141,15 @@ Week 5+: Secondary distribution for all (stories, reels, forums, Discord, guest 
 - Fan aggregators on X: @JBCrewdotcom, @jbtraacker, @yourbiebernews, @jbiebertraacker, @biebernovidade
 - Justin directly: Tier B — skip DM, distribute through fan ecosystem
 
+### Tim Ferriss Targets
+
+- Daily Stoic / Ryan Holiday: hello@dailystoic.com (close Tim orbit — highest-affinity outlet)
+- Podcast Notes: podcastnotes.org (use contact form — heavy Tim coverage)
+- The Profile (Polina Marinova Pompliano): readtheprofile.com (Substack reply)
+- Enneagram Universe: enneagramuniverse.com/celebrities
+- Tim directly: tim.blog/contact form, comment on most recent post, or @tferriss DM on X
+- Fan aggregators on X: @PodcastNotes, @DailyStoic
+
 ### Cross-Cutting (All Posts)
 
 - Enneagram Universe: enneagramuniverse.com/celebrities
@@ -161,5 +171,6 @@ docs/
     ├── john-coogan-distribution.md        # Twitter, Reddit, email, Instagram assets
     ├── benson-boone-distribution.md       # Twitter, Reddit, email, Instagram assets
     ├── tech-titans-disruptors-distribution.md # Twitter, Reddit, email, Instagram assets (group analysis)
-    └── justin-bieber-distribution.md      # Twitter, Reddit, email, Instagram assets (hot Coachella 2026 window)
+    ├── justin-bieber-distribution.md      # Twitter, Reddit, email, Instagram assets (hot Coachella 2026 window)
+    └── tim-ferriss-distribution.md        # Twitter, Reddit, email, Instagram assets (Type 1 — Reformer)
 ```

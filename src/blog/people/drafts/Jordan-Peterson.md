@@ -28,12 +28,12 @@ occupation:
   - 'Podcaster'
   - 'YouTuber'
 knows_about:
-  - 'Writing'
-  - 'Podcasting'
-  - 'YouTube content creation'
-  - 'Digital media'
-  - 'Psychology'
-  - 'Clinical Psychology'
+  - 'Clinical psychology'
+  - 'Big Five personality research'
+  - 'Mythology and belief systems'
+  - 'Biblical lecture analysis'
+  - 'Free speech advocacy'
+  - 'Online education'
 keywords:
   - 'Jordan Peterson enneagram'
   - 'Jordan Peterson type 1'
@@ -53,18 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm5266811/'
   - 'https://jordanbpeterson.com'
 faqs:
-  - question: 'What is Jordan Peterson''s Personality Type?'
-    answer: 'Type 1s carry an internal compass that won''t stop pointing toward what should be. They see the gap between reality and the ideal, and they cannot leave it alone.'
+  - question: "What is Jordan Peterson's personality type?"
+    answer: "Jordan Peterson is an Enneagram Type 1 (The Reformer). The evidence: his self-reported 99th percentile orderliness, a bestseller built as 12 numbered moral imperatives, the Bill C-16 eruption over compelled speech, fighting the College of Psychologists all the way to the Supreme Court of Canada, and an inner critic he voices himself — 'I'm a bit much... It's hard on people around me.'"
     anchor: 'what-is-jordan-petersons-personality-type'
-  - question: 'Why Type 1 and Not Type 5 or Type 8?'
-    answer: 'This deserves direct engagement because reasonable people disagree.'
+  - question: 'Why is Jordan Peterson a Type 1 and not a Type 5 or Type 8?'
+    answer: "Three things separate him from the Investigator and the Challenger: he frames everything as moral obligation ('you should do this because it's right'), not as interesting knowledge or a power move; he treats his own intensity as something to manage and correct, which an 8 never would; and his 99th percentile orderliness is the single most diagnostic trait for Type 1 — the same mind that wrote the sprawling Maps of Meaning translated it into 12 numbered rules."
     anchor: 'why-type-1-and-not-type-5-or-type-8'
-  - question: 'Why Young Men Specifically?'
-    answer: 'The data reveals a genuine crisis. Around 25% of American children grow up without a father in the home. Men reporting no close friends jumped from 3% in 1990 to 15% by 2021. Suicide rates among young men have climbed while college completion has dropped.'
+  - question: 'Why does Jordan Peterson cry in interviews?'
+    answer: "He identified the trigger himself: 'that paradoxical combination of depth of suffering and ease of rectification.' His 96th percentile compassion, plus the emotional-regulation aftermath of CIRS and his benzodiazepine crisis, converge with a deeper dynamic — a man who preaches holding it together failing his own impossible standards in real time, on camera."
+    anchor: 'the-man-who-cries-on-camera'
+  - question: "What happened during Jordan Peterson's benzodiazepine crisis?"
+    answer: "He developed severe dependence on anxiety medication prescribed in 2017, with a 'paradoxical reaction' that amplified his symptoms. After failed tapering attempts in North American hospitals, his daughter Mikhaila pushed for a medically induced coma in Russia. He spent four weeks in the ICU, nearly died, and had to relearn basic motor functions."
+    anchor: 'the-health-crises-and-the-all-meat-diet'
+  - question: 'Why do young men follow Jordan Peterson?'
+    answer: "He walked into a genuine vacuum: around 25% of American children grow up without a father at home, and men reporting no close friends jumped from 3% in 1990 to 15% by 2021. Research on his followers found recurring narratives like 'The Abandoned Son' — young men seeking paternal guidance. Where culture offers toxic masculinity or 'be yourself,' Peterson offers a third option: become competent, take responsibility, build something meaningful."
     anchor: 'why-young-men-specifically'
-  - question: 'Why is Jordan Peterson typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Podcasting, YouTube content creation.'
-    anchor: 'why-is-jordan-peterson-typed-as-an-enneagram-type-1'
 twitter: 'jordanbpeterson'
 instagram: 'jordan.b.peterson'
 tiktok: ''

@@ -28,12 +28,11 @@ occupation:
   - 'Entrepreneur'
   - 'Consultant'
 knows_about:
-  - 'Business'
-  - 'Podcasting'
-  - 'Writing'
-  - 'YouTube content creation'
-  - 'Entrepreneurship'
-  - 'Podcast Show'
+  - 'Life insurance sales'
+  - 'MLM agency building'
+  - 'Long-form political interviewing'
+  - 'Business strategy education'
+  - 'Independent media entrepreneurship'
 keywords:
   - 'Patrick Bet-David enneagram'
   - 'Patrick Bet-David type 3'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q16217194'
   - 'https://www.imdb.com/name/nm6102854/'
 faqs:
-  - question: 'What Is Patrick Bet-David''s Personality Type?'
-    answer: 'The pattern becomes visible once you see it: every chapter of Patrick''s life is a complete demolition of the one before.'
+  - question: "What is Patrick Bet-David's personality type?"
+    answer: "Patrick Bet-David is an Enneagram Type 3 (The Achiever), specifically a 3w2 with a heavy line to Eight. The pattern shows in the total reinventions — party kid to 101st Airborne paratrooper to insurance salesman to media mogul, each chapter a complete demolition of the one before — the shame-as-fuel doctrine he turned into books ('Don't underestimate the power of shame to motivate you'), the seventeen months he reorganized his life around a vow after his father's heart attack, and the way he hides behind polished confession rather than a polished image."
     anchor: 'what-is-patrick-bet-davids-personality-type'
-  - question: 'Why is Patrick Bet-David typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Podcasting, Writing.'
-    anchor: 'why-is-patrick-bet-david-typed-as-an-enneagram-type-3'
+  - question: 'How did Patrick Bet-David make his money?'
+    answer: 'After nearly eight years at Transamerica learning the insurance business, he convinced 66 agents to leave with him in 2009 and founded PHP Agency, which grew to 27,000 agents across 170 offices before Integrity Marketing Group acquired it in July 2022 for a reported sum in the hundreds of millions. He then built the Valuetainment media ecosystem — two YouTube channels that drew 258 million views in May-June 2024 — under Lion Holdings, a portfolio he values at half a billion dollars.'
+    anchor: 'nobody-threatens-me-the-insurance-empire'
+  - question: 'Is PHP Agency an MLM?'
+    answer: "Yes — Patrick has never disputed the multilevel marketing structure. In April 2021, YouTuber Coffeezilla confronted him in a three-hour live debate with income disclosures showing most PHP agents made virtually no money; Patrick argued the same model exists in real estate and traditional insurance. The Better Business Bureau gave PHP an A+ rating and a Memphis TV investigation concluded it was a lawful MLM, not a pyramid scheme. In the fifteen months after the debate, his subscriber counts grew by millions."
+    anchor: 'nobody-threatens-me-the-insurance-empire'
+  - question: "How did his father's heart attack change Patrick Bet-David?"
+    answer: "When Patrick was twenty-three, his father — a refugee who had ended up working a 99-cent store register in Inglewood — had a heart attack. 'I made a decision that night... nobody recognized me because my eyes changed,' he says. For seventeen months every decision was organized around one promise: this man would never worry about money again. The piece argues that vow fused his Type 3 achievement wound with genuine filial love, making the drive sacred and quitting feel like betrayal."
+    anchor: 'the-fathers-heart-attack-and-the-seventeen-months'
+  - question: 'Will Patrick Bet-David run for president?'
+    answer: "He can't — he was born in Tehran, and the Constitution bars foreign-born citizens from the presidency. He has admitted he 'wanted to be the next Arnold' Schwarzenegger and is running a strikingly similar playbook, but his stated plan is: 'I respect the Constitution. So I'm just gonna go on a forty-year run in media and business.' He reportedly turned down a Fox News deal worth $20 million a year to keep building his own platform."
+    anchor: 'the-man-who-would-be-arnold'
 twitter: 'patrickbetdavid'
 instagram: 'patrickbetdavid'
 tiktok: 'patrickbetdavid'

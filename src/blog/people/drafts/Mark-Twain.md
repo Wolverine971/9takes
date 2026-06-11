@@ -29,12 +29,12 @@ occupation:
   - 'Humorist'
   - 'Children''s Writer'
 knows_about:
-  - 'Journalism'
-  - 'Fiction writing'
-  - 'Writing'
-  - 'Historical Fiction'
   - 'Adventures of Huckleberry Finn'
   - 'The Adventures of Tom Sawyer'
+  - 'Mississippi River steamboat piloting'
+  - 'American satire'
+  - "A Connecticut Yankee in King Arthur's Court"
+  - 'Anti-imperialism'
 keywords:
   - 'Mark Twain enneagram'
   - 'Mark Twain type 6'
@@ -52,12 +52,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q7245'
   - 'https://www.imdb.com/name/nm0878494/'
 faqs:
-  - question: 'What is Mark Twain''s personality type?'
-    answer: 'The conventional portrait doesn''t survive contact with the details of his actual life. A man who rehearsed his own death and confessed to dreading solitude was not operating from confidence. He was operating from something more volatile.'
+  - question: "What is Mark Twain's personality type?"
+    answer: "Mark Twain is an Enneagram Type 6 (The Loyalist), specifically a counterphobic Six. The pattern shows in a pen name that literally means 'safe water,' the prediction of his own death by Halley's Comet, the dread of solitude biographers repeatedly noted, his 'trained Presbyterian conscience' that hunted him 'upon all pretexts and on all occasions,' and his insistence on repaying every creditor after bankruptcy even though he was no longer legally obligated."
     anchor: 'what-is-mark-twains-personality-type'
-  - question: 'Why is Mark Twain typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Fiction writing, Writing.'
-    anchor: 'why-is-mark-twain-typed-as-an-enneagram-type-6'
+  - question: 'What does the pen name Mark Twain mean?'
+    answer: "The phrase 'mark twain' was a Mississippi leadsman's cry meaning the water was two fathoms deep — twelve feet, safe to pass. When Samuel Clemens, a former steamboat pilot, needed a pen name, he chose one that meant safety. Not glory, not rebellion, not wit: the water won't kill you here."
+    anchor: 'the-name-that-meant-safe-water'
+  - question: 'Did Mark Twain really predict his own death?'
+    answer: "Yes. Born two weeks after Halley's Comet appeared in 1835, he declared in 1909 that he expected to 'go out with it' when it returned — 'It will be the greatest disappointment of my life if I don't.' He died of a heart attack on April 21, 1910, one day after the comet's closest approach to Earth."
+    anchor: 'the-comet-returns'
+  - question: 'Why did Mark Twain go bankrupt?'
+    answer: "He poured more than $7 million in today's dollars into the Paige Compositor, a four-ton typesetting machine that never worked reliably, plus failed bets on an engraving process, a watch company, and railroad stocks — while turning down a chance to invest in Alexander Graham Bell's telephone. He filed for bankruptcy in April 1894 owing $80,000, then took a grueling around-the-world lecture tour to repay every creditor in full despite having no legal obligation to do so."
+    anchor: 'the-man-who-went-bankrupt-chasing-security'
+  - question: "How did his brother Henry's death affect Mark Twain?"
+    answer: "Twain had encouraged Henry to work on the river, then left the steamboat Pennsylvania after an altercation with a pilot; Henry stayed aboard, and when the boiler exploded in June 1858 he was scalded so badly he died eight days later at twenty. Twain wrote, 'Men take me by the hand and call me lucky because I was not on the Pennsylvania when she blew up! May God forgive them.' Biographers say the guilt never lifted and became the first in a chain of tragedies he held himself responsible for."
+    anchor: 'the-explosion-that-haunted-him-forever'
 twitter: ''
 instagram: ''
 tiktok: ''

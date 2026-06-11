@@ -37,12 +37,11 @@ occupation:
   - 'Fashion Model'
   - 'Dancer'
 knows_about:
-  - 'Television acting'
-  - 'Film acting'
-  - 'Singing'
-  - 'Voice acting'
-  - 'Acting'
-  - 'Music'
+  - 'Method dressing and red carpet strategy'
+  - 'Film and television producing'
+  - 'Disney-to-prestige career transitions'
+  - 'Portraying addiction and recovery (Euphoria)'
+  - 'Mental health and anxiety advocacy'
 keywords:
   - 'Zendaya enneagram'
   - 'Zendaya type 6'
@@ -60,12 +59,21 @@ citations:
   - 'https://www.imdb.com/name/nm3918035/'
   - 'https://www.zendaya.com/'
 faqs:
-  - question: 'What is Zendaya''s Personality Type?'
-    answer: 'Type 6s are the Enneagram''s strategists. They scan for threats others miss. They prepare for scenarios that might never happen. They question authority while desperately wanting to find authority worth trusting.'
+  - question: "What is Zendaya's personality type?"
+    answer: "Zendaya is an Enneagram Type 6 (The Loyal Skeptic). The pattern shows in repeating kindergarten because anxiety made her too shy to function, negotiating producing credits on K.C. Undercover at 17 to control her Disney exit, walking away from a platinum music career over bad contracts, keeping the same stylist since age 14, and diversifying into Dune, Challengers, and five other projects so a collapse of Euphoria couldn't collapse her career."
     anchor: 'what-is-zendayas-personality-type'
-  - question: 'Why is Zendaya typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Television acting, Film acting, Singing.'
-    anchor: 'why-is-zendaya-typed-as-an-enneagram-type-6'
+  - question: 'Why did Zendaya quit music?'
+    answer: "Despite a platinum single ('Replay'), she walked away: 'I stepped away from music on purpose because of bad contracts, to be honest with you.' She also calculated that pop stardom costs the anonymity acting allows — 'As an actor, there's a level of anonymity that I get to have, which I really like.' The essay frames it not as quitting but strategic withdrawal; she didn't perform live again for eight years, until one song with Labrinth at Coachella in 2023."
+    anchor: 'the-music-pivot-when-a-type-6-cuts-her-losses'
+  - question: "What is Zendaya's method dressing?"
+    answer: "A practice she invented with stylist Law Roach: fashion as an extension of her film roles, every outfit researched and intentional. For the Dune: Part Two tour they bought archival pieces outright — 'We don't borrow, we buy' — including a 1995 Mugler robot suit. She made over 50 red carpet appearances in 2024, each one researched, curated, and controlled, including changing into a second custom gown mid-Met Gala."
+    anchor: 'method-dressing-how-zendaya-turns-fashion-into-type-6-armor'
+  - question: 'Why did Zendaya repeat kindergarten?'
+    answer: "Not for academics — her parents, both teachers, held her back because she was so shy and anxious in new situations that they wanted to build her confidence. 'I was described as energetic and outgoing at home but reserved and shy at school,' she has said. Childhood tests made her panic so badly a teacher had to walk her out of the room, and that anxiety still followed her to a 2024 Variety interview."
+    anchor: 'the-oakland-foundation-where-her-type-6-patterns-formed'
+  - question: 'Are Zendaya and Tom Holland engaged?'
+    answer: "Yes — they got engaged between Christmas and New Year's 2024, after more than three years together. The relationship runs on boundaries she needs: he doesn't walk her red carpets ('It's not my moment, it's her moment'), and when he deleted social media for his mental health, she later unfollowed everyone on Instagram. They're set to appear together in Spider-Man: Brand New Day and Christopher Nolan's The Odyssey."
+    anchor: 'the-tom-holland-dynamic-when-two-types-find-security-in-each-other'
 twitter: ''
 instagram: ''
 tiktok: ''

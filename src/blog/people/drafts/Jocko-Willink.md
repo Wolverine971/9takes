@@ -27,11 +27,11 @@ occupation:
   - 'Military Commander'
   - 'Adviser'
 knows_about:
-  - 'Podcasting'
-  - 'Writing'
-  - 'Navy'
-  - 'Counseling'
-  - 'Way of the Warrior Kid'
+  - 'Combat leadership'
+  - 'Extreme Ownership philosophy'
+  - 'Brazilian jiu-jitsu'
+  - 'Leadership consulting'
+  - 'Discipline and morning routines'
 keywords:
   - 'Jocko Willink enneagram'
   - 'Jocko Willink type 8'
@@ -49,18 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q22935809'
   - 'https://www.imdb.com/name/nm6163323/'
 faqs:
-  - question: 'What is Jocko Willink''s Personality Type?'
-    answer: 'Type 8s are known as "The Challenger" or "The Protector." They are driven by a deep need to be strong, to resist weakness, and to protect themselves and others from being controlled or harmed.'
+  - question: "What is Jocko Willink's personality type?"
+    answer: "Jocko Willink is an Enneagram Type 8 (The Challenger/Protector). The pattern shows in Extreme Ownership as a survival strategy made philosophy, the rebellious kid who beat authority by 'getting ahead of the power curve,' three wounded Task Unit Bruiser men begging to stay in his unit, the seven-day-a-week jiu-jitsu he imposed on his crying children, and the grief he 'camouflages' behind sunglasses."
     anchor: 'what-is-jocko-willinks-personality-type'
-  - question: 'What Drives It All?'
-    answer: 'Understanding Jocko through the Type 8 lens reveals that his relentless productivity isn''t about achievement or recognition. It''s about something more fundamental:'
-    anchor: 'what-drives-it-all'
-  - question: 'How does Jocko''s Type 8 personality show up in his daily life?'
-    answer: 'It shows up in the 4:30 AM watch photos, the daily proof that he commands his own existence before the world wakes up.'
-    anchor: 'how-does-jockos-type-8-personality-show-up-in-his-daily-life'
-  - question: 'Why is Jocko Willink typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Podcasting, Writing, Navy.'
-    anchor: 'why-is-jocko-willink-typed-as-an-enneagram-type-8'
+  - question: "What happened with Jocko Willink's daughter Rana?"
+    answer: "Jocko spent years calling Rana 'dense' and comparing her to a 'bowling ball' as his highest compliment — strength, solidity, power. Starting in 7th grade she developed a hidden eating disorder, counting calories on a gram scale and shaving grams off bread, which he had zero awareness of for over six years. When she finally called him from college crying, his response was 'Who is this?' — and his reflection afterward: 'The weight of your words as a parent is probably even heavier' than a leader's."
+    anchor: 'the-compliment-that-became-a-wound'
+  - question: 'Why does Jocko Willink wake up at 4:30 AM?'
+    answer: "The watch photos aren't about fitness — for a Type 8 who fears losing control, the pre-dawn workout is daily proof that he commands his own existence before the world wakes up. Jocko himself strips the mystique away: 'I don't have some mystical ritual that prepares me mentally for the morning rise. That's just what I do.'"
+    anchor: 'why-430-am-matters'
+  - question: 'Did Jocko Willink regret forcing his kids to do jiu-jitsu?'
+    answer: "He made his three older children train every single day with five-hour weekend sessions, deliberately bumping them up in weight class and age group so they lost constantly. All three hit a breaking point — crying, throwing water bottles at him from the minivan — before he backed off. His later admission is one of the most revealing things he has said: 'I would never impose things on my platoon... but I did it with my kids.'"
+    anchor: 'the-jiu-jitsu-rebellion'
+  - question: 'What did Jocko Willink confess on his 500th podcast episode?'
+    answer: "In front of a live audience at the Vic Theatre in Chicago, he admitted he tears up at the national anthem, hides it behind sunglasses, and sometimes thinks of his fallen men and 'cries like a child.' He asked 'Is there something wrong with me?' five times in the opening minutes — genuine self-interrogation from a man whose identity was built around being unbreakable."
+    anchor: 'is-there-something-wrong-with-me'
 twitter: 'jockowillink'
 instagram: 'jockowillink'
 tiktok: ''

@@ -1,6 +1,6 @@
 <!-- src/lib/components/blog/EnneagramTypeBottom.svelte -->
 <script lang="ts">
-	export let type: string;
+	let { type }: { type: string } = $props();
 </script>
 
 {#if type === '1'}

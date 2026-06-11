@@ -43,14 +43,14 @@ Detailed audit lives in `docs/design/2026-05-01-design-system-gap-analysis.md`. 
 | Light mode          | Full `:root.light` overrides + `ThemeToggle.svelte` shipped (Tier 2)                                                                                                         | ✅ Shipped           |
 | Typography          | Inter (variable, all weights) + JetBrains Mono. Rajdhani / Space Grotesk / Noticia Text retired in Phase 2.                                                                  | ✅ LOCKED 2026-05-04 |
 | Spacing             | Tailwind `xs/sm/md/lg/xl/2xl/3xl` tokens exist; arbitrary values still common                                                                                                | 🟡 Partial           |
-| Radius              | `sm 4px / md 10px / xl 16px / full` — Kole's recipe, **lint-enforced** (`pnpm lint:radius`)                                                                                  | ✅ LOCKED 2026-04-27 |
+| Radius              | `sm 4px / md 10px / xl 16px / full` — Kole's recipe, **lint-enforced** (`pnpm lint:radius`) for Tailwind classes AND raw CSS declarations (backlog burned 527→0 2026-06-11)  | ✅ LOCKED 2026-04-27 |
 | Shadow              | Soft, neutral, Kole's recipe (`rgba(0,0,0, 0.15–0.25)`, 2× blur) in dark mode; softer in light mode. CSS-var driven.                                                         | ✅ LOCKED 2026-04-27 |
 | Motion              | `--transition-base`, `--transition-glow`, `--animation-speed`. No documented duration scale. No `prefers-reduced-motion` global rule.                                        | ❌ Open              |
 | Glows               | 6 glow tokens to be cut to 2 (`--glow-sm`, `--glow-md`) in Phase 2. Tailwind `glow-teal`/`-rose` deleted entirely.                                                           | ✅ LOCKED 2026-05-04 |
-| Components          | `.btn-primary/.btn-secondary/.btn-outline/.btn-ghost` and `.card-base/-hover/-interactive` exist, but routes redefine locally. No shared atom.                               | ❌ Sprawl            |
+| Components          | Shared atoms: Button, SectionKicker, Callout (6 blog callouts render through it), CaseCard/CaseGrid/IndexHero (all 5 listing pages). Icon atom still open.                  | 🟡 Improving         |
 | Icons               | 27 hand-rolled SVGs in `src/lib/components/icons/`. Stroke widths vary (1.5/1.8/2/4). No library.                                                                            | ❌ Open              |
 | Imagery             | Logo (`aero.webp`), hero statues, philosopher photos, DJ portraits — solid asset library, well organized in `static/brand/`                                                  | ✅ Locked            |
-| `/styleguide` route | **Does not exist.** No visible source of truth for tokens.                                                                                                                   | ❌ Missing           |
+| `/styleguide` route | Shipped — §00–§12 (tokens, type, spacing, radius, shadow, components incl. Callout / CaseCard / CaseGrid / IndexHero as of 2026-06-11)                                       | ✅ Shipped           |
 
 **Verdict:** Strong token foundation, partial component canonicalization, no styleguide page, brand mood undeclared. **Biggest gap: there is no single document that says "here is what 9takes looks like" that matches the code.** This doc fixes that.
 
@@ -79,8 +79,8 @@ Same order as the walkthrough template — brand mood **first**, because every l
 | 9   | Shadow              | ✅ Locked            | Kole's recipe, theme-aware                                  |
 | 10  | Motion              | ❌ Open              | No documented scale yet                                     |
 | 11  | Token wiring        | 🟡 Partial           | CSS vars + Tailwind both exist; need single source of truth |
-| 12  | `/styleguide` route | ❌ Missing           | Build after sections 4–6 lock                               |
-| 13  | Component refactor  | 🟡 Partial           | Modal/radius/shadows done; Button/Icon atoms still missing  |
+| 12  | `/styleguide` route | ✅ Shipped           | §00–§12 live; new atoms added 2026-06-11                    |
+| 13  | Component refactor  | 🟡 Partial           | Modal/Button/Callout/CaseCard/CaseGrid/IndexHero done; Icon atom still missing |
 
 ---
 
@@ -201,23 +201,23 @@ The Streetlamp Symposium palette replaces the de-facto teal-primary palette as t
 
 #### V5 brand palette (canonical)
 
-| Role            | Token           | Dark      | Light     | Use                                              |
-| --------------- | --------------- | --------- | --------- | ------------------------------------------------ |
-| **Primary**     | `--lamp-glow`   | `#F59E0B` | `#B45309` | Sodium-amber illumination — CTAs, brand moments  |
-|                 | `--lamp-deep`   | `#B45309` | `#92400E` | Hover, pressed                                   |
-|                 | `--lamp-light`  | `#FBBF24` | `#D97706` | Highlights                                       |
-| **Data accent** | `--data-teal`   | `#0D9488` | `#0F766E` | Tech-spec annotations, dossier mode, stat panels |
-|                 | `--data-cyan`   | `#5EEAD4` | `#14B8A6` | Active data points                               |
-| **Surfaces**    | `--night-deep`  | `#0a0807` | `#FAF8F4` | Page background                                  |
-|                 | `--night-mid`   | `#16110d` | `#F2EBDD` | Secondary surface                                |
-|                 | `--stone-warm`  | `#241D17` | `#FFFFFF` | Cards, content containers                        |
-|                 | `--stone-mid`   | `#3a302a` | `#F5F0E8` | Elevated, hover                                  |
-|                 | `--stone-edge`  | `#5C4F47` | `#D6CCB8` | 1px hairline borders                             |
-| **Marble**      | `--marble-pure` | `#FAF8F4` | `#FFFFFF` | Statue lit faces, pure-light moments             |
-| **Ink**         | `--ink-bright`  | `#FAF8F4` | `#1C1917` | Primary text                                     |
-|                 | `--ink-mid`     | `#A8A095` | `#44403C` | Body                                             |
-|                 | `--ink-dim`     | `#5C4F47` | `#78716C` | Captions, mono labels                            |
-|                 | `--ink-muted`   | `#3A302A` | `#A8A29E` | Disabled, placeholders                           |
+| Role            | Token           | Dark      | Light     | Use                                               |
+| --------------- | --------------- | --------- | --------- | ------------------------------------------------- |
+| **Primary**     | `--lamp-glow`   | `#F59E0B` | `#B45309` | Sodium-amber illumination — CTAs, brand moments   |
+|                 | `--lamp-deep`   | `#B45309` | `#92400E` | Hover, pressed                                    |
+|                 | `--lamp-light`  | `#FBBF24` | `#D97706` | Highlights                                        |
+| **Data accent** | `--data-teal`   | `#0D9488` | `#0F766E` | Tech-spec annotations, dossier mode, stat panels  |
+|                 | `--data-cyan`   | `#5EEAD4` | `#14B8A6` | Active data points                                |
+| **Surfaces**    | `--night-deep`  | `#0a0807` | `#FAF8F4` | Page background                                   |
+|                 | `--night-mid`   | `#16110d` | `#F2EBDD` | Secondary surface                                 |
+|                 | `--stone-warm`  | `#241D17` | `#FFFFFF` | Cards, content containers                         |
+|                 | `--stone-mid`   | `#3a302a` | `#F5F0E8` | Elevated, hover                                   |
+|                 | `--stone-edge`  | `#5C4F47` | `#D6CCB8` | 1px hairline borders                              |
+| **Marble**      | `--marble-pure` | `#FAF8F4` | `#FFFFFF` | Statue lit faces, pure-light moments              |
+| **Ink**         | `--ink-bright`  | `#FAF8F4` | `#1C1917` | Primary text + article body (ratified 2026-06-09) |
+|                 | `--ink-mid`     | `#A8A095` | `#44403C` | Captions, metadata, secondary voice               |
+|                 | `--ink-dim`     | `#5C4F47` | `#78716C` | Captions, mono labels                             |
+|                 | `--ink-muted`   | `#3A302A` | `#A8A29E` | Disabled, placeholders                            |
 
 **Why amber instead of teal:** the Streetlamp Symposium mood requires a sodium-vapor warm-light primary. Teal is too cool to read as illumination. Teal survives as **`--data-teal`** — the secondary "system / data" accent for tech-spec dossier moments.
 
@@ -277,17 +277,30 @@ mono         12px  JetBrains 500  0.08em UPPERCASE     dossier-style labels
 mono-lg      14px  JetBrains 500  0.06em UPPERCASE     prominent annotations
 ```
 
-### Color rules (locked)
+### Color rules (locked, re-ratified 2026-06-09)
 
-| Element             | Color                                               |
-| ------------------- | --------------------------------------------------- |
-| `h1` / display-xl   | `var(--lamp-glow)` once per page (the brand moment) |
-| `h2`–`h4`           | `var(--ink-bright)`                                 |
-| Body                | `var(--ink-bright)`                                 |
-| Caption / metadata  | `var(--ink-mid)`                                    |
-| Mono section kicker | `var(--lamp-glow)`                                  |
-| Mono footnote       | `var(--ink-dim)`                                    |
-| Links               | `var(--lamp-glow)` with hover underline             |
+| Element             | Color                                   |
+| ------------------- | --------------------------------------- |
+| `h1` / display-xl   | `var(--ink-bright)`                     |
+| `h2`–`h4`           | `var(--ink-bright)`                     |
+| Body                | `var(--ink-bright)`                     |
+| Caption / metadata  | `var(--ink-mid)`                        |
+| Mono section kicker | `var(--lamp-glow)`                      |
+| Mono footnote       | `var(--ink-dim)`                        |
+| Links               | `var(--lamp-glow)` with hover underline |
+
+> **2026-06-09 ratification (design audit):** the original "h1 = `--lamp-glow`
+> once per page" rule was never implemented — every shipped surface renders h1
+> in `--ink-bright`, consistently. Ratified the code side: **the amber brand
+> moment lives in the mono section kicker** (which is amber everywhere), not
+> the h1. A full-amber h1 on dark stone reads louder than the Streetlamp mood
+> wants.
+>
+> Same audit also ratified **body = `--ink-bright`** (this table was already
+> right, but §5's ink table said body = `--ink-mid` and three blog sections
+> shipped three different body colors — `--ink-mid`, legacy `--neutral-700`,
+> and `--ink-bright`). Body text in a secondary gray reads as low-confidence.
+> `--ink-mid` is for captions, metadata, and secondary voice (e.g. blockquotes).
 
 ---
 
@@ -443,9 +456,10 @@ Things deferred — capture here so they're not lost.
 
 ## 14. Change log
 
-| Date       | Change                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-04-27 | Radius scale locked + lint-enforced (`pnpm lint:radius`); shadows softened to Kole's recipe; modals consolidated.                                                                                                                                                                                                                                                                                                                                                                                                 |
-| 2026-05-01 | Document created. Audit + gap-analysis complete. Brand mood, typography, spacing, motion sections opened for ratification.                                                                                                                                                                                                                                                                                                                                                                                        |
-| 2026-05-04 | §4 Brand mood locked (Streetlamp Symposium). §5 Color locked (V5 token set). §6 Typography locked (Inter + JetBrains Mono). Glow tokens locked (cut to 2). Rollout plan created at `docs/design/2026-05-04-rollout-plan.md`. Lock candidate prototype: `/design-preview/v5`.                                                                                                                                                                                                                                      |
-| 2026-05-05 | **Migration complete (Phases 1–7).** All page categories, asset generators, admin surface, and 47 components migrated to V5 tokens + Svelte 5 runes. Bridge demolition: legacy SCSS tokens redirected as one-line aliases to V5; V5 is now single source of truth for color values. `body` styles use V5 directly. `/design-preview/v2\|v3\|v4` deleted. `@fontsource/rajdhani` + `@fontsource/space-grotesk` removed. **0 legacy core token refs in `src/` code.** Tracker: `docs/design/migration-progress.md`. |
+| Date       | Change                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2026-04-27 | Radius scale locked + lint-enforced (`pnpm lint:radius`); shadows softened to Kole's recipe; modals consolidated.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 2026-05-01 | Document created. Audit + gap-analysis complete. Brand mood, typography, spacing, motion sections opened for ratification.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 2026-05-04 | §4 Brand mood locked (Streetlamp Symposium). §5 Color locked (V5 token set). §6 Typography locked (Inter + JetBrains Mono). Glow tokens locked (cut to 2). Rollout plan created at `docs/design/2026-05-04-rollout-plan.md`. Lock candidate prototype: `/design-preview/v5`.                                                                                                                                                                                                                                                                                                                     |
+| 2026-06-09 | **§6 color rules re-ratified** (design audit `docs/design/2026-06-09-design-audit.md`): h1 = `--ink-bright` (amber-h1-once-per-page rule retired — the amber brand moment is the mono kicker); article body = `--ink-bright` everywhere (`--ink-mid` reserved for captions/metadata/secondary voice). §5 ink table fixed to match. Code swept: community/how-to-guides/enneagram-corner bodies `--ink-mid` → `--ink-bright`; pop-culture legacy `--neutral-700` body → `--ink-bright`. Also: `--prose-measure: 75ch` reading-measure token added (§7 adjacent); blog bodies lifted to true 18px. |
+| 2026-05-05 | **Migration complete (Phases 1–7).** All page categories, asset generators, admin surface, and 47 components migrated to V5 tokens + Svelte 5 runes. Bridge demolition: legacy SCSS tokens redirected as one-line aliases to V5; V5 is now single source of truth for color values. `body` styles use V5 directly. `/design-preview/v2\|v3\|v4` deleted. `@fontsource/rajdhani` + `@fontsource/space-grotesk` removed. **0 legacy core token refs in `src/` code.** Tracker: `docs/design/migration-progress.md`.                                                                                |

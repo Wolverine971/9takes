@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q178882'
   - 'https://www.imdb.com/name/nm0068338/'
 faqs:
-  - question: 'What is Kristen Bell''s Personality Type?'
-    answer: 'The Enneagram Type 2 runs on a core need to be loved and appreciated, typically by making themselves indispensable. They show up with soup when you''re sick. They anticipate needs before they''re spoken. They read a room before they''ve sat down.'
+  - question: "What is Kristen Bell's personality type?"
+    answer: "Kristen Bell is an Enneagram Type 2 (The Helper). The pattern shows in her confession that she was 'a food truck for three years' for her kids, the literal remedy box of 100 regulation tools she built, co-founding Hello Bello with a mandatory give-back component in every business deal, seven years as a UN humanitarian advocate, and a codependency she didn't recognize until Dax Shepard told her 'You have an inability to say no... and that's not a compliment.'"
     anchor: 'what-is-kristen-bells-personality-type'
-  - question: 'Why is Kristen Bell typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Singing, Voice acting.'
-    anchor: 'why-is-kristen-bell-typed-as-an-enneagram-type-2'
+  - question: 'How does Kristen Bell manage her anxiety?'
+    answer: "She built a two-step system she calls 'What Do I Do With My Anxiety': first get the body out of emergency mode — music at 70 BPM, cold water exposure, and a pre-stocked 'remedy box' of practices tested while calm — then journal to interview the anxiety itself ('Why are you here? What do you want to say to me?'). Diagnosed with anxiety and depression at 18, she takes daily medication and compares denying it to denying a diabetic insulin."
+    anchor: 'the-anxiety-map-when-the-helper-mapped-her-own-nervous-system'
+  - question: 'What did Kristen Bell realize about her codependency?'
+    answer: "It cracked open in her mid-30s after having kids: 'I am very aware of what other people are feeling around me and I just want to make it better, at the expense of myself... I was a food truck for three years.' Dax Shepard named the pattern when she insisted she had to attend a charity gala — 'You are overworked. You don't prioritize yourself. And that's not a compliment.' She kept the instinct to check on people while learning not to let it erase her own needs."
+    anchor: 'i-was-a-food-truck-for-three-years-the-codependency-awakening'
+  - question: "Why didn't Kristen Bell apologize for her anniversary post?"
+    answer: "In October 2025 she posted a dark-humor anniversary tribute to Dax Shepard during Domestic Violence Awareness Month; the National Network to End Domestic Violence condemned it and she dropped a Today Show appearance — then offered no apology at all. The piece reads the refusal as hard-won Type 2 growth: a Helper finally believing she deserves love even when she isn't pleasing everyone."
+    anchor: 'the-anniversary-post-a-type-2-choosing-herself'
+  - question: 'Do Kristen Bell and Dax Shepard go to couples therapy?'
+    answer: "Yes — they started couples therapy within six months of dating, not because anything was broken but because, as Bell frames it, you don't wait for the engine to die to take the car in. They practice 'ultimate honesty' and a 'fierce moral inventory,' a term Dax borrowed from AA's twelve steps, and their Armchair Expert episode together opens with him admitting they'd been arguing for the previous twelve minutes."
+    anchor: 'dax-and-kristen-what-marriage-looks-like-when-two-people-do-the-work'
 twitter: 'KristenBell'
 instagram: 'kristenanniebell'
 tiktok: ''

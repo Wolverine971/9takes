@@ -49,12 +49,21 @@ citations:
   - 'https://www.imdb.com/name/nm3595501/'
   - 'https://www.justinbiebermusic.com/'
 faqs:
-  - question: 'What is Justin Bieber''s Personality Type?'
-    answer: 'The standard take on Justin Bieber''s crisis is that fame broke him. But Type 3s aren''t broken by fame. They''re built for it. They read the room, calibrate the performance, become whatever earns recognition. It''s not fakeness — it''s adaptation so deep it feels like instinct.'
+  - question: "What is Justin Bieber's personality type?"
+    answer: "Justin Bieber is an Enneagram Type 3 (The Achiever). The pattern shows in how each album era was a complete product reformulation designed to bury the one before, the 2025 Instagram confession that he has 'always felt unworthy, like I was a fraud,' the identity he admitted pouring into Selena Gomez, and the dark period when bodyguards checked his pulse at night — a textbook Type 3 collapse into numbing rather than rebellion."
     anchor: 'what-is-justin-biebers-personality-type'
-  - question: 'Why is Justin Bieber typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Music.'
-    anchor: 'why-is-justin-bieber-typed-as-an-enneagram-type-3'
+  - question: 'Why did Justin Bieber play YouTube videos of himself at Coachella 2026?'
+    answer: "Halfway through his headline set, Bieber sat on the stage, opened YouTube on a MacBook, and sang along to his own teenage music videos for roughly thirty minutes — no dancers, no pyro, just a hoodie and a laptop. Critics called it a $10 million karaoke set, but twenty-one of his songs re-entered Spotify's Global Top 200 afterward, more than any artist at the festival. For a Type 3 whose whole life was performance, refusing to perform was the performance — and sharing the stage with his thirteen-year-old self reversed the Three's instinct to bury every old version."
+    anchor: 'coachella-2026-the-laptop-the-hoodie-and-the-boy-on-youtube'
+  - question: "What happened during Justin Bieber's dark period?"
+    answer: "Between 2013 and 2016 he was waking up to pills and a blunt, got arrested for DUI in Miami, and said later, 'I don't know if I'd be alive, for sure.' His security came into his room at night to check his pulse. The piece reads it not as rebellion but as a Type 3 identity collapse — the performance stopped working and the person underneath had never been built."
+    anchor: 'the-unraveling'
+  - question: 'Why was Justin Bieber baptized in a bathtub at 3AM?'
+    answer: "During the worst of his crisis, he called pastor Carl Lentz and asked to be baptized that night — but paparazzi had already staked out four locations. Lentz called NBA player Tyson Chandler at 2AM, the rooftop pool was locked, and Chandler offered his custom-built bathtub instead. The most surveilled man in pop had to find the most absurd private space possible to do something real."
+    anchor: 'a-bathtub-at-3am'
+  - question: 'Why did Justin Bieber name his son Jack Blues?'
+    answer: "Jack is his father Jeremy Bieber's middle name, making three generations of Bieber men with the JB initials. Jeremy left when Justin was around four and stayed only sporadically present, yet Justin posts a tribute every Father's Day. The name could be forgiveness, a declaration the cycle stops, or a son still reaching for approval he could never earn — the piece leaves all three readings open."
+    anchor: 'jack-blues-bieber'
 twitter: 'justinbieber'
 instagram: 'justinbieber'
 tiktok: 'justinbieber'

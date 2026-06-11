@@ -117,7 +117,7 @@
 				--info: #74b9ff;
 				--text-primary: #2d3436;
 				--text-secondary: #636e72;
-				--border-radius: 0.5rem;
+				--border-radius: 0.625rem;
 			}
 
 			amp-story {

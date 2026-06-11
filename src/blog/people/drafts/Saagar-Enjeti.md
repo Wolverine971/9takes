@@ -24,12 +24,11 @@ occupation:
   - 'Television Presenter'
   - 'Writer'
 knows_about:
-  - 'Writing'
-  - 'Breaking Points with Krystal and Saagar'
-  - 'Digital media'
-  - 'Political Pundit'
-  - 'Television Presenter'
-  - 'Writer'
+  - 'Independent media (Breaking Points)'
+  - 'National security and foreign policy reporting'
+  - 'American political history'
+  - 'Populist realignment politics'
+  - 'Sports gambling policy criticism'
 keywords:
   - 'Saagar Enjeti enneagram'
   - 'Saagar Enjeti type 7'
@@ -45,12 +44,21 @@ citations:
   - 'https://en.wikipedia.org/wiki/Saagar_Enjeti'
   - 'https://www.wikidata.org/wiki/Q81703688'
 faqs:
-  - question: 'What is Saagar Enjeti''s Personality Type?'
-    answer: 'The core of a Type 7 is the fear of being trapped in pain — of being deprived, limited, stuck in suffering with no escape route. The response is forward motion. Consume. Experience. Expand. Reframe. Where other types build walls against the world, Sevens build runways out of it.'
+  - question: "What is Saagar Enjeti's personality type?"
+    answer: "Saagar Enjeti is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in the 1,000-page Hitler biography he handed Lex Fridman as a gift because he couldn't contain the excitement, the serial obsessions (the American West, Antarctic exploration, Percy Fawcett, Bobby Fischer — each consumed and replaced), the career where every move eliminated a constraint until he launched Breaking Points with zero corporate backing, and the multiplying crusades against sports betting, weed, and the Epstein cover-up."
     anchor: 'what-is-saagar-enjetis-personality-type'
-  - question: 'Why is Saagar Enjeti typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Breaking Points with Krystal and Saagar, Digital media.'
-    anchor: 'why-is-saagar-enjeti-typed-as-an-enneagram-type-7'
+  - question: 'Why did Saagar Enjeti leave The Hill and start Breaking Points?'
+    answer: "Every platform was too small: think tanks were too narrow, The Daily Caller had editorial limits, the White House press pool was 'utterly useless... a bunch of bullshit for their television packages,' and The Hill's Rising had corporate ownership. He and Krystal Ball announced their exit on May 28, 2021 and launched Breaking Points ten days later with no backing — 285,000 YouTube subscribers in four days, the #1 political podcast within a week."
+    anchor: 'every-platform-was-too-small-for-saagar'
+  - question: 'How did 9/11 shape Saagar Enjeti?'
+    answer: "He was nine, a brown kid in George W. Bush's College Station, Texas, whose Hindu temple community absorbed a new atmosphere of suspicion: 'The vast majority of the racism I experienced in my life was right when I was a kid after 9/11.' Then came the Iraq War and the disintegrating justification while his neighbors waved flags. 'The entire reason I am interested in politics is because of 9/11 and opposition to the war in Iraq. It is my North Star and always will be.'"
+    anchor: 'saagar-enjeti-at-nine-in-w-country'
+  - question: 'Why is Saagar Enjeti against sports betting?'
+    answer: "He cites research like the February 2024 Connecticut study finding that the 1.8% of residents who qualify as problem gamblers account for 51% of all sportsbook revenue, plus studies linking legal online betting to debt distress and intimate partner violence after upset NFL losses. On December 10, 2024 he dropped a 3,000-word Breaking Points monologue on it, tweeting: '3000 words. Filmed in 1 take. Why Online Sports Gambling Is Bad.'"
+    anchor: 'the-crusades-sports-betting-weed-epstein'
+  - question: 'How have Saagar Enjeti and Krystal Ball stayed partners despite disagreeing?'
+    answer: "They've survived three platform changes together — Rising, a co-authored 2020 book, and Breaking Points — while disagreeing openly on war, immigration, and the limits of anti-establishment politics. The article argues the disagreement is the point: each lets the other expose the weakness in the argument without turning it into contempt, and the 7w6's tested inner circle (Krystal, his wife Jill, Marshall Kosloff) stays stable while the obsessions rotate."
+    anchor: 'the-7w6-loyalty-exception'
 twitter: 'https://twitter.com/esaagar'
 instagram: 'https://www.instagram.com/esaagar'
 tiktok: ''

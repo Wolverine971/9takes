@@ -97,7 +97,7 @@
 	.hornevian {
 		margin: 2rem 0 2.5rem;
 		padding: 1.5rem 1.5rem 1.75rem;
-		border-radius: 14px;
+		border-radius: 1rem;
 		background: linear-gradient(
 			135deg,
 			var(--stone-warm) 0%,
@@ -149,7 +149,7 @@
 		align-items: center;
 		padding: 0.6rem 0.4rem;
 		text-align: center;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--data-teal) 8%, transparent);
 		border: 1px solid color-mix(in srgb, var(--data-teal) 20%, transparent);
 	}
@@ -175,7 +175,7 @@
 		justify-content: center;
 		align-items: flex-start;
 		padding: 0.75rem 0.85rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: linear-gradient(
 			90deg,
 			color-mix(in srgb, var(--data-teal) 12%, transparent) 0%,
@@ -207,7 +207,7 @@
 		padding: 0.85rem 0.5rem;
 		text-align: center;
 		text-decoration: none;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: rgba(255, 255, 255, 0.03);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
 		transition:

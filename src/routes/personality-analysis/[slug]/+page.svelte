@@ -1147,7 +1147,7 @@
 			background: var(--stone-warm);
 			color: var(--ink-bright);
 			font-style: italic;
-			border-radius: 0 8px 8px 0;
+			border-radius: 0 0.625rem 0.625rem 0;
 		}
 
 		:global(blockquote p) {

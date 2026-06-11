@@ -31,12 +31,11 @@ occupation:
   - 'Model'
   - 'Television Producer'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Voice acting'
-  - 'Modeling'
-  - 'Television production'
+  - 'Sitcom comedy acting'
+  - 'Voice acting (Meg Griffin on Family Guy)'
+  - 'Film production (Luckiest Girl Alive)'
+  - 'Humanitarian fundraising for Ukraine'
+  - 'Dramatic film acting (Black Swan)'
 keywords:
   - 'Mila Kunis enneagram'
   - 'Mila Kunis type 6'
@@ -56,12 +55,21 @@ citations:
   - 'https://www.imdb.com/name/nm0005109/'
   - 'https://milakunis.com/'
 faqs:
-  - question: 'What is Mila Kunis''s Personality Type?'
-    answer: 'Type 6 — the Loyalist, sometimes called the Skeptic — runs on a question most people don''t realize they''re asking: is this ground safe? Sixes scan for risk, plan for failure, build loyalty contracts with people and institutions they trust, and either lean into fear (phobic) or charge straight at it (counterphobic). Healthy Sixes look unshakeable because they have done the worrying for everybody else, in advance, on their own time.'
+  - question: "What is Mila Kunis's personality type?"
+    answer: "Mila Kunis is an Enneagram Type 6 (The Loyalist). The pattern shows in her admission that she is 'already worried about things. So worried,' the same manager since age nine, voicing Meg Griffin since she was fifteen, marrying the co-star she met at fourteen, the $35 million Ukraine fundraiser launched within forty-eight hours of the invasion — and the Danny Masterson character letter, the moment the same loyalty engine misfired."
     anchor: 'what-is-mila-kuniss-personality-type'
-  - question: 'Why is Mila Kunis typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
-    anchor: 'why-is-mila-kunis-typed-as-an-enneagram-type-6'
+  - question: "How did Mila Kunis's family come to America?"
+    answer: "They left Soviet Ukraine in 1991 on a religious-refugee visa — her grandparents had survived the Holocaust, and classmates were still finding swastikas scratched into school desks — arriving in Los Angeles with $250. By the time her mother, a former physics teacher working as a factory 'box lady,' had $900 left, the family spent $890 of it on acting classes for their nine-year-old daughter. Mila has been the working member of the family ever since."
+    anchor: 'the-890-that-bought-her-future'
+  - question: 'Why did Mila Kunis write a character letter for Danny Masterson?'
+    answer: "In September 2023, at the Masterson family's request, she and Ashton Kutcher submitted letters asking for leniency at his rape sentencing — hers praised his 'innate goodness' — eleven months after she produced and starred in Luckiest Girl Alive, a film about a rape survivor coming forward. The blowback forced an apology video within forty-eight hours, which one of Masterson's victims called 'incredibly insulting and hurtful.' The article reads it as the Type 6 loyalty engine running on a 25-year-old input."
+    anchor: 'the-masterson-letters-and-the-loyalty-engine-that-misfired'
+  - question: 'How did Mila Kunis and Ashton Kutcher get together?'
+    answer: "They met on That '70s Show when she was fourteen and he was nineteen — colleagues, never a couple. After both divorced, they ran into each other at a 2012 awards show and, as she told James Corden, decided to 'just hook up... Three months later we're living together.' Fourteen years of platonic trust had already pre-validated the decision; before proposing, Ashton flew to her father's house at Christmas to ask his blessing."
+    anchor: 'why-mila-kunis-stays-loyal-to-people-for-decades'
+  - question: 'How did Mila Kunis get cast in Black Swan?'
+    answer: "Natalie Portman spotted her at the Rose Bowl Flea Market and immediately called Darren Aronofsky: 'There was this amazing actress with ballet experience who would be perfect for Lily.' The training was brutal — 'a lot of dancing and very little eating,' twelve-hour dance days, broth-only stretches. Aronofsky's attempt to manufacture a rivalry between the two leads failed; they caught on quickly and made fun of him for it."
+    anchor: 'black-swan-and-the-darkness-mila-kunis-keeps-offstage'
 twitter: ''
 instagram: ''
 tiktok: ''

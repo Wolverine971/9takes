@@ -24,10 +24,11 @@ occupation:
   - 'Singer'
   - 'Composer'
 knows_about:
-  - 'Singing'
-  - 'Music'
-  - 'Singer'
-  - 'Composer'
+  - 'Folk-pop songwriting'
+  - 'Small-town New England storytelling'
+  - 'Mental health advocacy'
+  - 'The Busyhead Project'
+  - 'Confessional live performance'
 keywords:
   - 'Noah Kahan enneagram'
   - 'Noah Kahan type 4'
@@ -45,12 +46,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q53832755'
   - 'https://www.imdb.com/name/nm9664454/'
 faqs:
-  - question: 'What is Noah Kahan''s personality type?'
-    answer: 'Noah Kahan is a Type 4 with a 5 wing — the Individualist with an Investigator''s introversion. The Four is the romantic, the artist, the one who feels fundamentally different. The Four''s core wound is shame: there''s something defective at the center, and no amount of love or success can quite reach it.'
+  - question: "What is Noah Kahan's personality type?"
+    answer: "Noah Kahan is an Enneagram Type 4 (The Individualist) with a 5 wing. The pattern shows in body dysmorphia he describes as 'tied up in who you are,' writing Stick Season alone in his mom's Vermont bedroom from the perspective of the one who stayed behind, the fear that getting help would dull his creativity, and feeling jealous of horses standing in a flooded Vermont field because they had the ability to stay while he flew to LA."
     anchor: 'what-is-noah-kahans-personality-type'
-  - question: 'Why is Noah Kahan typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Music, Singer.'
-    anchor: 'why-is-noah-kahan-typed-as-an-enneagram-type-4'
+  - question: 'Does Noah Kahan have OCD?'
+    answer: "Yes — he was diagnosed at twenty-eight, after two decades of treatment that started with therapy at age eight and anxiety medication around thirteen. The diagnosis came around a severe intrusive-thought episode in March 2025, when he drove out of an all-glass Airbnb in Joshua Tree, convinced himself he had hit someone with his car, and drove the road backward scanning for a body."
+    anchor: 'the-glass-house-in-joshua-tree-how-noah-kahan-got-his-ocd-diagnosis'
+  - question: 'Why was Noah Kahan afraid to take antidepressants?'
+    answer: "He feared healing would erase the thing his career ran on: 'I don't want to get help because I'm worried that I'll be happy and I won't care about making something, and it won't be painful enough for my audience.' He subscribed to the van Gogh suffering-artist theory for twenty years. Then he took Lexapro, made The Great Divide on it, and the album debuted at No. 1 on the Billboard 200."
+    anchor: 'lexapro-and-i-fell-in-love-why-noah-kahan-was-afraid-to-get-better'
+  - question: 'What is the Busyhead Project?'
+    answer: "A 501(c)(3) Kahan founded in May 2023 that funnels concert revenue and a portion of merch sales into community-based mental health organizations. Two years in, it had raised over $6.6 million and supported 170 organizations worldwide. The article reads it as Type 4 integration to Type 1: the melancholy gets a job, the wound becomes a structure."
+    anchor: 'noah-kahan-and-the-busyhead-project-how-the-wound-became-the-work'
+  - question: 'What does stick season mean?'
+    answer: "It's the New England term for the few gray weeks between leaves-down and first snow — November at its barest in Vermont. Kahan named his breakthrough album after the most depressing fortnight of the year in the place he can't leave, writing it not from the perspective of someone who left a small town but of someone who stayed while everyone else did."
+    anchor: 'why-noah-kahan-cant-stop-writing-about-strafford-vermont'
 twitter: 'NoahKahan'
 instagram: 'noahkahanmusic'
 tiktok: 'noahkahanmusic'

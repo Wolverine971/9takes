@@ -28,12 +28,12 @@ occupation:
   - 'Pedagogue'
   - 'Science Writer'
 knows_about:
-  - 'Writing'
-  - 'Television acting'
+  - 'Black hole radiation'
   - 'General Relativity'
   - 'Quantum Gravity'
   - 'Theoretical Physics'
   - 'Cosmology'
+  - 'Popular science writing'
 keywords:
   - 'Stephen Hawking enneagram'
   - 'Stephen Hawking type 5'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm0370071/'
   - 'https://hawking.org.uk'
 faqs:
-  - question: 'What is Stephen Hawking''s personality type?'
-    answer: 'Stephen Hawking is an Enneagram Type 5. Type 5s are the Enneagram''s investigators. They retreat from the world to think about it, build private intellectual fortresses, and trade emotional bandwidth for analytical depth. The motivating fear is being overwhelmed by external demands; the motivating need is competence. They tend to ration their attention, their company, and their feelings — and to feel safest when they have more knowledge than anyone in the room.'
+  - question: "What is Stephen Hawking's personality type?"
+    answer: "Stephen Hawking is an Enneagram Type 5 (The Investigator), specifically a 5w6. The pattern shows in the childhood household where the family read silently at dinner, the Oxford years where he studied roughly a thousand hours in three years and coxed the rowing eight — stationary, calculating, steering force he wasn't producing — the small loyal circle of Thorne and Penrose he worked with for decades, and the DECtalk voice he refused to upgrade because it let him broadcast at the world's volume while keeping the body out of the signal."
     anchor: 'what-is-stephen-hawkings-personality-type'
-  - question: 'Why is Stephen Hawking typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Television acting, General Relativity.'
-    anchor: 'why-is-stephen-hawking-typed-as-an-enneagram-type-5'
+  - question: "How did ALS affect Stephen Hawking's personality?"
+    answer: "It concentrated rather than transformed it. Diagnosed at 21 and given two years, he fell into depression until his supervisor Dennis Sciama pushed him back to work — and the depression lifted as the work intensified, because the disease was clearing away everything except where he already most wanted to be. He lived 55 years past the prognosis. ALS didn't free his mind from his body; it removed the option of ever leaving it."
+    anchor: 'why-als-didnt-break-stephen-hawkings-mind-it-just-sealed-it-in'
+  - question: 'What did Stephen Hawking actually discover?'
+    answer: "With Roger Penrose he proved the singularity theorems — that under general relativity the universe began in a point of infinite density. In 1974 he fused quantum mechanics with general relativity at the event horizon and showed that black holes leak radiation, lose mass, and eventually evaporate, a result so strange the field took years to accept. With James Hartle he later proposed the universe has no boundary in time at all. He never won a Nobel because Hawking radiation remains beyond experimental reach."
+    anchor: 'why-als-didnt-break-stephen-hawkings-mind-it-just-sealed-it-in'
+  - question: 'What did Jane Hawking say about their marriage?'
+    answer: "'There were four partners in our marriage. Stephen and me, motor neurone disease and physics,' she told The Guardian in 2015. In her memoir Travelling to Infinity she described him as 'an all-powerful emperor' and 'a masterly puppeteer' — intellectually arrogant and absorbed in physics to the detriment of the family. In 1990 he announced, by message, that he was leaving her for one of his nurses, Elaine Mason."
+    anchor: 'stephen-hawkings-marriages-and-what-his-family-saw-the-world-didnt'
+  - question: "What were Stephen Hawking's famous bets?"
+    answer: "In 1974 he bet Kip Thorne that Cygnus X-1 was not a black hole — framed as an insurance policy, since if his life's work was right he'd lose. He lost in 1990 and paid the stake: a one-year Penthouse subscription. In 1997 he bet John Preskill on the black hole information paradox, lost in 2004, and paid in a baseball encyclopedia 'from which information can be recovered at will.'"
+    anchor: 'the-penthouse-bet-the-run-over-toes-and-other-hawking-mischief'
 twitter: ''
 instagram: ''
 tiktok: ''

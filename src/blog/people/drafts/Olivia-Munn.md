@@ -28,12 +28,12 @@ occupation:
   - 'Film Actor'
   - 'Voice Actor'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Comedy'
-  - 'Film acting'
-  - 'Voice acting'
-  - 'Writing'
+  - 'Breast cancer risk assessment advocacy'
+  - 'MeToo-era whistleblowing'
+  - 'Tech and gaming TV hosting'
+  - 'Comedic memoir writing'
+  - 'OCD and trichotillomania awareness'
+  - 'Asian American representation in Hollywood'
 keywords:
   - 'Olivia Munn enneagram'
   - 'Olivia Munn type 6'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q236475'
   - 'https://www.imdb.com/name/nm1601397/'
 faqs:
-  - question: 'What is Olivia Munn''s Personality Type?'
-    answer: 'Most people who grow up the way Munn did become cautious adults, alliance-builders who find stable institutions and trustworthy people to anchor to. The Enneagram calls this pattern the Six. But there''s a variant that looks nothing like caution: the counterphobic Six, who charges directly at the thing most people run from. The internal logic is simple. If danger is coming anyway, I''d rather meet it standing up.'
+  - question: "What is Olivia Munn's personality type?"
+    answer: "Olivia Munn is an Enneagram Type 6 (The Loyalist), specifically the counterphobic variant that charges at threats instead of retreating. The pattern shows in the girl who physically fought back against bullies at thirteen, the actress who refused a seven-figure NDA in the Brett Ratner case, the co-star who got a registered sex offender cut from The Predator, and the patient who pushed past two clean scans to the MRI that found her cancer. She described her childhood anxiety as 'a constant nine' — it never dropped, it learned to aim itself."
     anchor: 'what-is-olivia-munns-personality-type'
-  - question: 'Why is Olivia Munn typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Comedy.'
-    anchor: 'why-is-olivia-munn-typed-as-an-enneagram-type-6'
+  - question: 'Why did Olivia Munn sit alone at the Toronto International Film Festival?'
+    answer: 'A month before The Predator premiered in 2018, Munn discovered she had unknowingly shared a scene with Steven Wilder Striegel, a registered sex offender. She called Fox, and the scene was cut within twenty-four hours — but at TIFF her co-stars canceled interviews with her, one walked out, and she did press alone. Sterling K. Brown was the only colleague who publicly supported her, tweeting an apology that she had been the only one to speak up.'
+    anchor: 'the-woman-who-sat-alone-at-tiff'
+  - question: 'Why did Olivia Munn refuse to sign an NDA in the Brett Ratner case?'
+    answer: "In 2017 Munn was one of six women who publicly accused director Brett Ratner of sexual harassment and assault. The studio offered her a seven-figure settlement contingent on signing an NDA, and she turned it down flat: 'I just felt it was so wrong,' she told Monica Lewinsky, noting it was the beginning of #MeToo and people were targeting anyone who signed. Warner Bros. severed its production deal with Ratner; Munn carried the consequences."
+    anchor: 'the-woman-who-sat-alone-at-tiff'
+  - question: 'How did Olivia Munn discover she had breast cancer?'
+    answer: 'In April 2023 her mammogram and ultrasound both came back clean, but a free online breast cancer risk assessment calculated her lifetime risk at 37%. She pushed for an MRI, then a second ultrasound, then a biopsy, which found aggressive Luminal B cancer in both breasts. Five surgeries in ten months followed, including a double mastectomy and a hysterectomy. After she went public, use of the risk assessment tool rose 4,000 percent — and the same test later caught her own mother''s Stage 1 cancer.'
+    anchor: 'the-word-you-dont-want-to-hear'
+  - question: 'Does Olivia Munn have OCD?'
+    answer: "Yes. Munn has spoken openly about her Obsessive-Compulsive Disorder, telling Self in 2014 that 'OCD comes from a place of needing to feel safe' after a tumultuous upbringing. Its most visible symptom is trichotillomania — compulsively pulling out her own eyelashes — which she says was triggered by paparazzi scrutiny during her 2009-2010 relationship with Chris Pine. She later experienced postpartum panic attacks after her son Malcolm's birth in 2021."
+    anchor: 'olivia-munns-ocd-and-nervous-system-on-high-alert'
 twitter: '@oliviamunn'
 instagram: '@oliviamunn'
 tiktok: '@oliviamunn'

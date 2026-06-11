@@ -25,12 +25,11 @@ occupation:
   - 'Children''s Writer'
   - 'Novelist'
 knows_about:
-  - 'Writing'
-  - 'Fiction writing'
-  - 'Literature'
-  - 'Speculative Fiction Novel'
-  - 'Fantasy'
-  - 'Fantasy Literature'
+  - 'Fantasy romance (romantasy) fiction'
+  - 'Throne of Glass series'
+  - 'A Court of Thorns and Roses series'
+  - 'BookTok publishing phenomenon'
+  - 'Mental health themes in fiction'
 keywords:
   - 'Sarah J Maas enneagram'
   - 'Sarah J Maas type 4'
@@ -50,12 +49,21 @@ citations:
   - 'https://www.imdb.com/name/nm7733148/'
   - 'https://www.sarahjmaas.com/'
 faqs:
-  - question: 'What is Sarah J Maas''s personality type?'
-    answer: 'The core wound of Type 4 is a feeling of fundamental incompleteness: the sense that everyone else received something essential that somehow never reached you. They search for the missing piece through creative expression, emotional depth, and an almost painful commitment to authenticity.'
+  - question: "What is Sarah J Maas's personality type?"
+    answer: "Sarah J Maas is an Enneagram Type 4 (The Individualist), specifically a 4w3. The pattern shows in the full-length mirror behind her desk where she acts out every scene as she writes it, the completed manuscripts she scraps because she refuses to give the world her 'second grade work,' the 'orphan' headspace she needs to write honestly, and the fated-mate, found-family mythologies she builds — worlds where belonging is cosmically guaranteed rather than earned. The 3 wing is why she ships on schedule: two books a year before kids, a $436 million revenue year for Bloomsbury."
     anchor: 'what-is-sarah-j-maass-personality-type'
-  - question: 'Why is Sarah J Maas typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Fiction writing, Literature.'
-    anchor: 'why-is-sarah-j-maas-typed-as-an-enneagram-type-4'
+  - question: 'How did Sarah J Maas come up with Throne of Glass?'
+    answer: "At sixteen, listening to the score from Disney's Cinderella, she decided the music was too dark for a girl in a ballgown — it fit better if she imagined an assassin fleeing the palace. She posted chapters on FictionPress.com, where it became the most-reviewed story on the site with nearly 7,000 reviews. Her query manuscript was 240,000 words — three times industry standard — and it took ten years from first draft to publication."
+    anchor: 'the-girl-who-rewrote-cinderella'
+  - question: "Is A Court of Silver Flames based on Sarah J Maas's own life?"
+    answer: "Largely, yes. She wrote it during the earliest stages of her climb out of rampant anxiety and depression after her son's birth in 2019: 'I crawled out of that pit alongside Nesta.' Nesta's anxiety manifesting as cold water flooding her body came from Maas mapping her own somatic symptoms onto the page after therapy, and she cried while writing two-thirds of the book."
+    anchor: 'i-became-an-orphan'
+  - question: 'Why is Sarah J Maas so popular on BookTok?'
+    answer: "The #ACOTAR hashtag has over 8.5 billion views, and Maas is arguably the defining BookTok author because emotional extremity is the product — grief that levels cities, love that reshapes physics. BookTok rewards intensity and sincerity, the frequency her books already ran on. As she put it: 'I'm sitting here today because of social media.'"
+    anchor: 'why-booktok-chose-her'
+  - question: 'How does Sarah J Maas respond to criticism?'
+    answer: "Mostly with silence. When criticized for killing off Nehemia, for the scene where Mor is forced to out herself, and for mentioning Breonna Taylor in a book cover reveal post, she offered no defense, apology, or acknowledgment beyond one sentence: 'When I make a mistake, I learn from it.' Her fanbase filled the silence — a pattern BookTok critics named 'The SJM Effect.'"
+    anchor: 'the-gap-no-one-mentions'
 twitter: ''
 instagram: 'therealsjmaas'
 tiktok: ''

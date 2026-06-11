@@ -19,8 +19,11 @@ occupation:
   - 'Content Creator'
   - 'Entrepreneur'
 knows_about:
-  - 'Digital media'
-  - 'Entrepreneurship'
+  - 'Newsletter media (The Hustle)'
+  - 'Podcasting (My First Million)'
+  - 'Founder peer communities (Hampton)'
+  - 'Cold outreach'
+  - 'Event marketing (Hustle Con)'
 keywords:
   - 'Sam Parr enneagram'
   - 'Sam Parr type 8'
@@ -34,12 +37,21 @@ same_as:
 citations:
   - 'https://twitter.com/thesamparr'
 faqs:
-  - question: 'What is Sam Parr''s Personality Type?'
-    answer: 'The core wound of Type 8 is the belief that the world will exploit vulnerability. The response: become invulnerable, or at least look that way. Eights don''t charge forward because they''re fearless. They charge forward because standing still feels like death.'
+  - question: "What is Sam Parr's personality type?"
+    answer: "Sam Parr is an Enneagram Type 8 (The Challenger). The pattern shows in the 'aggressive, impulsive and brash' exterior covering a self-image he described as 'a pimpled faced, Jew-fro-having, 8th grade twerp,' the fifty cold emails he sent Pandora's founder over two years, the $800,000 raise he regretted because of the obligations it created, and the nights he spent lying on the floor telling his wife he was quitting while projecting calm to employees because 'that fear spreads.'"
     anchor: 'what-is-sam-parrs-personality-type'
-  - question: 'Why is Sam Parr typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Digital media, Entrepreneurship.'
-    anchor: 'why-is-sam-parr-typed-as-an-enneagram-type-8'
+  - question: 'How did Sam Parr build and sell The Hustle?'
+    answer: "It started with Hustle Con in 2014 — a conference he pulled together in six weeks by cold-emailing founders, spending $6,000 and making $50,000. He turned the attendee list into a daily newsletter on May 1, 2016, writing under fake personas like Steve Garcia and Sidd Finch to look bigger, and grew it past two million subscribers. In February 2021 he sold The Hustle to HubSpot for roughly $27 million."
+    anchor: 'follow-up-or-die-from-hustle-con-to-the-hustle'
+  - question: 'Why did Sam Parr quit drinking?'
+    answer: "A college DUI put him in jail for 24 hours, and lying about it on a background check cost him a job at Airbnb the Sunday before he was supposed to start. He quit alcohol entirely at 23 and hasn't had a drink since, crediting his pit bull Sid with saving him 'from being a degenerate.' To celebrate one year sober, he rode a motorcycle 9,000 miles from San Francisco to New York and back with Marcus Aurelius in the saddlebag."
+    anchor: 'the-airbnb-rejection-that-broke-him-open'
+  - question: 'What is Hampton, the company Sam Parr founded?'
+    answer: "Hampton, launched in 2023, is a vetted peer community for founders — acceptance rate under 8%, members must do at least $3 million in annual revenue or have a $10 million-plus exit. Members meet in facilitated core groups of about eight to discuss finances, net worth, and where they're stuck. It grew out of a Slack channel called 'Shit, I'm Fucked' and now does $8 million in annual recurring revenue with over 1,000 members, no outside investment."
+    anchor: 'hampton-8m-in-revenue-built-from-loneliness'
+  - question: 'Why do Sam Parr and Shaan Puri work so well together?'
+    answer: "They're precise opposites: Sam is a Type 8, blunt and grounded in execution; Shaan is a Type 7, always scanning the horizon. Where Sam says 'that's dumb,' Shaan says 'but what if.' In August 2024 they released an episode titled 'Is This The End Of The Pod?' dissecting an actual fight from the day before — Sam admitted the argument had made him physically sick."
+    anchor: 'why-my-first-million-works-sam-parr-and-shaan-puri'
 twitter: 'https://twitter.com/thesamparr'
 instagram: ''
 tiktok: ''

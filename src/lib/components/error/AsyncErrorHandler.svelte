@@ -71,7 +71,7 @@
 	.error-container {
 		background-color: rgba(239, 68, 68, 0.1);
 		border: 1px solid rgba(239, 68, 68, 0.3);
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		padding: 1rem;
 		margin: 1rem 0;
 		animation: slideIn 0.2s ease-out;
@@ -125,7 +125,7 @@
 		background-color: #ef4444;
 		color: white;
 		border: none;
-		border-radius: 0.375rem;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		font-weight: 600;
 		cursor: pointer;

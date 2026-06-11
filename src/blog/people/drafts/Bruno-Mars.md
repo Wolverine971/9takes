@@ -28,12 +28,11 @@ occupation:
   - 'Dancer'
   - 'Pop Musician'
 knows_about:
-  - 'Singing'
-  - 'Songwriting'
-  - 'Music production'
-  - 'Music'
-  - 'Pop Music'
-  - 'Contemporary R&B'
+  - 'Funk and R&B revivalism'
+  - 'Hit songwriting and production'
+  - 'Live stagecraft'
+  - 'Las Vegas residency shows'
+  - 'Retro pop arrangement'
 keywords:
   - 'Bruno Mars enneagram'
   - 'Bruno Mars type 3'
@@ -53,15 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm3960069/'
   - 'https://www.brunomars.com/'
 faqs:
-  - question: 'What is Bruno Mars'' personality type?'
-    answer: 'Enneagram Threes learn early that love comes through achievement. Not who they are, but what they do. Not their inner life, but their performance. They become the best version of what others value, shifting and calibrating until the role and the person fuse so completely that even they can''t tell the difference.'
+  - question: "What is Bruno Mars' personality type?"
+    answer: "Bruno Mars is an Enneagram Type 3 (The Achiever). The pattern shows in the four-year-old 'Little Elvis' performing five nights a week at Waikiki hotels, the pivot to writing hits with The Smeezingtons after Motown dropped him, the studio perfectionism that keeps him working until 8 a.m., the sealed-off private life behind an always-on stage persona, and the fact that his one unguarded song felt to him like 'bleeding.'"
     anchor: 'what-is-bruno-mars-personality-type'
-  - question: 'What is Bruno Mars''s personality type?'
-    answer: 'Bruno Mars is analyzed as an Enneagram Type 3 (Achiever). The profile connects that type pattern to Bruno Mars looks like the easiest thing in the world. His producer says otherwise. Inside the private anxiety behind pop''s most spectacular performer.'
-    anchor: 'what-is-bruno-marss-personality-type'
-  - question: 'Why is Bruno Mars typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Songwriting, Music production.'
-    anchor: 'why-is-bruno-mars-typed-as-an-enneagram-type-3'
+  - question: "Why is 'When I Was Your Man' Bruno Mars' most vulnerable song?"
+    answer: "He wrote it while afraid of losing his girlfriend Jessica Caban, and called it 'the most honest, real thing I've ever sang' — the one song where he's 'most naked,' stripped of the bravado of his explicit, confident material. Performing it night after night, he said, was 'just like bleeding.'"
+    anchor: 'the-most-naked-hes-ever-been'
+  - question: 'Why did Motown drop Bruno Mars?'
+    answer: 'Motown signed him at seventeen in 2004 and dropped him within a year because the label could not figure out how to market a multiracial Hawaiian kid who sang funk like he was born in 1965. He responded by forming The Smeezingtons with Ari Levine and Philip Lawrence and learning to write hits for other artists from the inside.'
+    anchor: 'the-record-label-that-couldnt-box-him-in'
+  - question: 'Did Bruno Mars really owe MGM $50 million in gambling debts?'
+    answer: "A 2024 report claimed Mars had run up roughly $50 million in gambling debts to MGM and that his extended Las Vegas residency was partly how he was paying them off. MGM flatly denied it as 'completely false,' and Mars responded with jokes, telling fans 'I love the lore that I am a Las Vegas lounge singer in debt to the mob.'"
+    anchor: 'las-vegas-and-the-long-run'
+  - question: "How did Bruno Mars respond to the 'culture vulture' accusation?"
+    answer: "When a commentator accused him in 2018 of profiting from Black musical traditions, Mars pointed to his constant crediting of James Brown, Prince, and Michael Jackson — 'that's the only reason why I'm here' — and told Latina magazine that 'Black music means everything.' Black artists he drew on, including Charlie Wilson, came to his defense for reviving the classic New Jack and R&B sound."
+    anchor: 'the-multicultural-machine'
 twitter: ''
 instagram: 'brunomars'
 tiktok: ''

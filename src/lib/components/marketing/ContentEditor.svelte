@@ -370,7 +370,7 @@
 
 	.accordion {
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 	}
 
@@ -436,7 +436,7 @@
 		padding: 0.5rem 0.75rem;
 		font-size: 0.875rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
@@ -567,7 +567,7 @@
 	.modal-dialog {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		padding: 1.5rem;
 		max-width: 400px;
 		width: 90%;

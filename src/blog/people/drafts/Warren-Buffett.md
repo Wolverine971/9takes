@@ -27,12 +27,12 @@ occupation:
   - 'Financier'
   - 'Economist'
 knows_about:
-  - 'Investing'
-  - 'Entrepreneurship'
-  - 'Investor'
-  - 'Entrepreneur'
-  - 'Shareholder'
-  - 'Financier'
+  - 'Value investing'
+  - 'Long-term capital allocation'
+  - 'Berkshire Hathaway conglomerate management'
+  - 'Annual shareholder letters'
+  - 'Philanthropy (the Giving Pledge)'
+  - 'Bridge'
 keywords:
   - 'Warren Buffett enneagram'
   - 'Warren Buffett type 5'
@@ -50,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q47213'
   - 'https://www.imdb.com/name/nm1104789/'
 faqs:
-  - question: 'What is Warren Buffett''s personality type?'
-    answer: 'Enneagram Fives are driven by a core belief that the world takes more than it gives. Resources (energy, time, attention, emotional capacity) feel scarce. So they conserve. They stockpile knowledge. They observe from protected distances. They become masters of understanding because understanding is the only thing that makes the world feel manageable.'
+  - question: "What is Warren Buffett's personality type?"
+    answer: "Warren Buffett is an Enneagram Type 5 (The Investigator) with a 6 wing. The pattern shows in the shuttered Omaha office with no computer or internet, the 500 pages he reads every day, the single email he has sent in his life, the same house he bought in 1958 for $31,500, and a marriage that collapsed because the man who could read every company in America couldn't read the woman sleeping next to him."
     anchor: 'what-is-warren-buffetts-personality-type'
-  - question: 'Why is Warren Buffett typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Investing, Entrepreneurship, Investor.'
-    anchor: 'why-is-warren-buffett-typed-as-an-enneagram-type-5'
+  - question: "Why did Warren Buffett's wife leave him?"
+    answer: "After twenty-five years of marriage, Susie Buffett moved to San Francisco in 1977 to pursue her own singing career and identity. She had described the arrangement as 'a parallel life that was connected when he was open to connecting.' Warren was blindsided and later called the separation 'definitely 95% my fault.' They never divorced — Susie introduced him to Astrid Menks, and the three signed holiday cards 'Warren, Susie, and Astrid' until Susie's death in 2004."
+    anchor: 'susie-put-me-together'
+  - question: "What is Warren Buffett's daily routine?"
+    answer: "He wakes in the house he bought in 1958, drives five minutes to McDonald's — two sausage patties for $2.61 on a bearish morning, bacon-egg-and-cheese for $3.17 when 'feeling prosperous' — then spends 80% of his working day reading newspapers, filings, and roughly 500 pages of reports at a desk with nothing digital on it. He plays bridge twelve hours a week and drinks five Coca-Colas a day."
+    anchor: 'the-shutters-are-always-closed'
+  - question: "How did a Dale Carnegie course change Warren Buffett's life?"
+    answer: "At twenty-one, public speaking made Buffett physically ill — he wrote a $100 check for a Dale Carnegie course, then stopped payment on it. Weeks later he went back and paid in cash so he couldn't back out. The course gave him the confidence to teach an investing class and to propose to Susie Thompson. His Dale Carnegie diploma hangs in his office; his Columbia MBA does not."
+    anchor: 'the-hundred-dollar-check-he-couldnt-cash'
+  - question: 'Is Warren Buffett giving away his fortune?'
+    answer: "Yes — in 2006 he announced he would give away 99% of his wealth during his lifetime, directing roughly $43 billion to the Gates Foundation and co-creating the Giving Pledge with Bill Gates in 2010. In November 2025 he admitted the original plans were 'not feasible' and shifted distribution to his three children, each empowered to give roughly $500 million per year through their own foundations."
+    anchor: 'the-five-who-gave-it-all-away'
 twitter: ''
 instagram: ''
 tiktok: ''

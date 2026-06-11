@@ -17,6 +17,12 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { Button, EmptyState, ErrorState } from '$lib/components/atoms';
+	// Listing + callout atoms (extracted 2026-06-10, design audit) — build rule:
+	// if it isn't on /styleguide, it doesn't exist.
+	import IndexHero from '$lib/components/marketing/IndexHero.svelte';
+	import CaseCard from '$lib/components/marketing/CaseCard.svelte';
+	import CaseGrid from '$lib/components/marketing/CaseGrid.svelte';
+	import Callout from '$lib/components/blog/callouts/Callout.svelte';
 
 	// ---------------------------------------------------------------------------
 	// Theme state — separate from production. Honors prefers-color-scheme on
@@ -424,6 +430,9 @@
 		{ num: '08', label: 'CASE FILES' },
 		{ num: '11', label: 'COMPONENTS' }
 	];
+
+	// §11 — Callout base tones
+	const calloutTones = ['lamp', 'success', 'warning', 'error', 'data', 'neutral'] as const;
 
 	// Greek pantheon enneagram positions for §12 inline SVG
 	const enneagramPositions: { cx: number; cy: number; type: number }[] = Array.from(
@@ -988,6 +997,82 @@
 					{#each sectionKickerExamples as k}
 						<span class="mono sg-kicker">§{k.num} · {k.label}</span>
 					{/each}
+				</div>
+
+				<!-- ----- Callout base (2026-06-10 consolidation) ----- -->
+				<h3 class="sg-h3">Callout</h3>
+				<p class="sg-section-lede">
+					The single shell for blog callout boxes: 10px radius, 1px tone border, 4px left accent,
+					mono kicker label. <code>QuickAnswer</code> / <code>InsightBox</code> /
+					<code>Checklist</code> / <code>TypeQuotes</code> / <code>VisualMetaphor</code> /
+					<code>CorpusStatCallout</code> all render through it. Tones map to the V5 palette;
+					<code>data</code> is reserved for stat moments.
+				</p>
+				{#each calloutTones as t}
+					<Callout tone={t} label={`${t} tone`} title="Title line (optional)">
+						<p>
+							Body copy. <strong>Strong text</strong> brightens; links read
+							<a href="#s11">amber</a>.
+						</p>
+					</Callout>
+				{/each}
+
+				<!-- ----- Case cards & grid (2026-06-10 extraction) ----- -->
+				<h3 class="sg-h3">CaseCard &amp; CaseGrid</h3>
+				<p class="sg-section-lede">
+					The canonical listing card + grid recipes used by all five content indexes.
+					<code>stripe</code> paints the 3px top edge + eyebrow (type colors on
+					personality-analysis); <code>featured</code> switches to the large 16/11 variant.
+					<code>CaseGrid</code> columns: 2 (featured pairs) · 3 (fixed, portrait grids) · 4 (auto-fit).
+				</p>
+				<CaseGrid columns={3}>
+					<CaseCard
+						href="#s11"
+						title="Standard card"
+						eyebrow="TOPIC"
+						description="Default treatment — amber eyebrow, no top stripe."
+						imageSrc="/philosopher-gathering.webp"
+						recency="THIS WEEK"
+					/>
+					<CaseCard
+						href="#s11"
+						title="Type-striped card"
+						eyebrow="TYPE 4 · INDIVIDUALIST"
+						stripe="var(--type-4-color)"
+						description="stripe paints the top edge + eyebrow — the 9-type data palette."
+						imageSrc="/greek_pantheon.webp"
+					/>
+					<CaseCard
+						href="#s11"
+						title="No-image stub"
+						eyebrow="TOPIC"
+						description="Falls back to the hatched stub with a mono label."
+						stubLabel="[ARTICLE]"
+						date="JUN 10, 2026"
+					/>
+				</CaseGrid>
+
+				<!-- ----- IndexHero (2026-06-10 extraction) ----- -->
+				<h3 class="sg-h3">IndexHero</h3>
+				<p class="sg-section-lede">
+					The §01 OBSERVATION hero for listing pages: grain, amber pool, scale-marker, statue frame
+					with vignette + mono caption. Snippets: <code>actions</code> (CTAs) and
+					<code>meta</code> (Published / Updated row). The statue column hides below 968px — at this
+					demo width it may render text-only.
+				</p>
+				<div class="sg-hero-demo">
+					<IndexHero
+						title="The hero, decoded."
+						line1="One reusable hero. Five listing pages used to carry identical copies."
+						line2="Pool-alpha and grain custom properties inherit from the page wrapper."
+						imageSrc="/greek_pantheon.webp"
+						imageMono="9TAKES · CASE FILES · STYLEGUIDE"
+					>
+						{#snippet actions()}
+							<Button size="md" variant="primary" href="#s11">Primary CTA</Button>
+							<Button size="md" variant="ghost" href="#s11">Ghost CTA</Button>
+						{/snippet}
+					</IndexHero>
 				</div>
 			</section>
 
@@ -1823,7 +1908,7 @@
 	.sg-space-bar {
 		height: 12px;
 		background: var(--lamp-glow);
-		border-radius: 2px;
+		border-radius: 0.25rem;
 	}
 
 	.sg-space-px {
@@ -2520,6 +2605,13 @@
 				text-decoration: underline;
 			}
 		}
+	}
+
+	/* ----- §11 hero demo frame ----- */
+	.sg-hero-demo {
+		border: 1px dashed var(--stone-edge);
+		border-radius: 1rem;
+		overflow: hidden;
 	}
 
 	/* =============================================================

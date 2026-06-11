@@ -28,12 +28,13 @@ occupation:
   - 'Film Director'
   - 'Singer'
 knows_about:
-  - 'Television acting'
-  - 'Film acting'
-  - 'Acting'
-  - 'Film production'
-  - 'Film directing'
-  - 'Singing'
+  - 'Action filmmaking and stunt work'
+  - 'Martial arts and tactical firearms training'
+  - 'Motorcycle design'
+  - 'Bass guitar'
+  - 'Comic book and novel writing'
+  - 'Motorsport racing'
+  - 'Stage acting'
 keywords:
   - 'Keanu Reeves enneagram'
   - 'Keanu Reeves type 9'
@@ -51,15 +52,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q43416'
   - 'https://www.imdb.com/name/nm0000206/'
 faqs:
-  - question: 'What is Keanu Reeves'' personality type?'
-    answer: 'The Enneagram''s body center holds three types that all orbit anger: Type 8 expresses it outwardly, Type 1 turns it inward as self-criticism, and Type 9 dissociates from it so completely that they forget it exists. The anger doesn''t vanish. It goes underground, and it expresses itself as something the world misreads as saintliness: a compulsive habit of putting everyone else''s needs ahead of his own.'
+  - question: "What is Keanu Reeves's personality type?"
+    answer: "Keanu Reeves is an Enneagram Type 9 (The Peacemaker). The pattern shows in his giving away roughly $75 million of his Matrix earnings to the effects and stunt teams, cutting his own salary so Al Pacino and Gene Hackman could be cast, the decade he spent as his sister Kim's primary caretaker during her leukemia treatment, the unnamed private foundation he refuses to attach his name to, and his self-description: 'I'm Mickey Mouse. They don't know who's inside the suit.'"
     anchor: 'what-is-keanu-reeves-personality-type'
-  - question: 'What is Keanu Reeves''s personality type?'
-    answer: 'Keanu Reeves is analyzed as an Enneagram Type 9 (Peacemaker). The profile connects that type pattern to Inside the psychology of Keanu Reeves: how a lifetime of loss, self-erasure, and quiet generosity created the most beloved man in Hollywood.'
-    anchor: 'what-is-keanu-reevess-personality-type'
-  - question: 'Why is Keanu Reeves typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Television acting, Film acting, Acting.'
-    anchor: 'why-is-keanu-reeves-typed-as-an-enneagram-type-9'
+  - question: 'Why did Keanu Reeves give away his Matrix money?'
+    answer: "He handed roughly $75 million of his Matrix earnings to the special effects and stunt teams because, in his words, 'These guys made the movie.' It wasn't a one-off: he took a 90% pay cut on The Replacements so Gene Hackman could be cast, gave a Matrix set builder a $20,000 Christmas bonus, and gifted the John Wick 4 stunt team engraved Rolex Submariners. The piece reads this as Type 9 self-erasure, not simple generosity — a man whose own claims on the world have been turned down to zero."
+    anchor: 'hes-a-listener-and-it-drives-people-crazy'
+  - question: 'What losses has Keanu Reeves experienced?'
+    answer: "His father left when he was three and vanished entirely after Keanu was thirteen. His best friend River Phoenix died outside the Viper Room in 1993. His daughter Ava was stillborn on December 24, 1999, and her mother, Jennifer Syme, died in a car accident eighteen months later. Through it all he was also his sister Kim's caretaker during her decade-long leukemia battle — and he processed each loss by becoming quieter, not louder."
+    anchor: 'the-losses-that-made-the-man'
+  - question: 'Why does Keanu Reeves barely speak in John Wick?'
+    answer: "He speaks just 484 words across 101 minutes in the first John Wick, and only 380 words in the 169-minute Chapter 4 — about 2.2 words per minute — after he and director Chad Stahelski deliberately cut half the written dialogue. The piece argues his silent-warrior roles aren't a limitation but a Type 9 signature: choosing characters where disappearing is the performance."
+    anchor: 'the-characters-he-chose'
+  - question: 'Why did Keanu Reeves refuse to insult Winona Ryder on the Dracula set?'
+    answer: "When Winona Ryder couldn't cry on cue during Bram Stoker's Dracula, Francis Ford Coppola ordered the male cast to hurl insults at her — and Keanu, then twenty-seven, refused. The refusal began a friendship with Ryder that has lasted over thirty years and shows the limit of the 'gentle peacemaker' frame: a Nine won't disturb the peace for his own sake, but will absolutely disturb it for someone else's."
+    anchor: 'the-dracula-moment'
 twitter: ''
 instagram: ''
 tiktok: ''

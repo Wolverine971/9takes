@@ -182,7 +182,7 @@
 		padding: 0.75rem;
 		background-color: var(--night-deep);
 		border: 1px solid var(--stone-edge);
-		border-radius: 0.9rem;
+		border-radius: 0.625rem;
 		font-size: 1rem;
 		color: var(--ink-bright);
 		transition: all 0.3s ease;
@@ -204,7 +204,7 @@
 		margin-bottom: 1rem;
 		background-color: color-mix(in srgb, var(--data-teal) 10%, var(--stone-warm));
 		border: 1px solid color-mix(in srgb, var(--data-teal) 35%, transparent);
-		border-radius: 0.9rem;
+		border-radius: 0.625rem;
 		color: var(--ink-bright);
 		text-align: center;
 
@@ -219,7 +219,7 @@
 		color: var(--error);
 		background: color-mix(in srgb, var(--error) 10%, transparent);
 		border: 1px solid color-mix(in srgb, var(--error) 28%, transparent);
-		border-radius: 0.85rem;
+		border-radius: 0.625rem;
 	}
 
 	.error-hint {

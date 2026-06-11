@@ -27,11 +27,13 @@ occupation:
   - 'Poet'
   - 'Ancient Roman Priest'
 knows_about:
-  - 'Politics'
-  - 'Writing'
+  - 'Military conquest of Gaul'
+  - 'Latin prose style'
+  - 'Julian calendar reform'
+  - 'Caesar cipher cryptography'
+  - 'Roman political strategy'
   - 'Commentarii de Bello Gallico'
   - 'Commentarii de Bello Civili'
-  - 'Historical influence'
 keywords:
   - 'Julius Caesar enneagram'
   - 'Julius Caesar type 3'
@@ -49,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q1048'
   - 'https://www.imdb.com/name/nm2471712/'
 faqs:
-  - question: 'What is Julius Caesar''s Personality Type?'
-    answer: 'The Enneagram Three is driven by a core need: to be valued for their accomplishments. Their deepest fear is worthlessness, not failure in the abstract, but the specific terror that without their achievements, they are nothing. They adapt, perform, and shape-shift to become whatever their environment rewards.'
+  - question: "What is Julius Caesar's personality type?"
+    answer: "Julius Caesar is an Enneagram Type 3 (The Achiever). The pattern shows in the 33-year-old weeping at Alexander's statue for not having accomplished enough, the 1,300 talents of engineered debt bet entirely on his own performance, the third-person Commentarii written as his own legend in real time, the laurel wreath he gladly wore to cover his baldness, and crossing the Rubicon rather than let the Senate strip his dignitas — which he called more important than his life."
     anchor: 'what-is-julius-caesars-personality-type'
-  - question: 'Why is Julius Caesar typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Politics, Writing, Commentarii de Bello Gallico.'
-    anchor: 'why-is-julius-caesar-typed-as-an-enneagram-type-3'
+  - question: 'Why did Julius Caesar cross the Rubicon?'
+    answer: "The Senate tried to strip his command in Gaul and recall him to Rome for prosecution — threatening not his freedom but his dignitas, his earned standing. On the night of January 10, 49 BC, after hesitating at the river and quoting Menander ('let the die be cast'), he waded across with a single legion of five thousand men against the entire Roman Republic. Pompey fled the capital without a fight."
+    anchor: 'how-caesar-turned-bankruptcy-into-an-empire'
+  - question: "Was Julius Caesar's mercy genuine?"
+    answer: "His famous clementia was a form of dominance: every pardoned enemy owed him their life and became his client, permanently subordinate — Rome even built a temple to his clemency. The same man claimed over one million enemy casualties in Gaul, destroyed entire tribes, and cut off the hands of defenders at Uxellodunum. The mercy wasn't moral consistency; it was image management adjusted for different audiences."
+    anchor: 'gaul-the-achievement-that-stains'
+  - question: 'What happened when pirates captured Julius Caesar?'
+    answer: "In 75 BC, Cilician pirates set the 25-year-old's ransom at 20 talents — Caesar laughed and insisted they demand 50. For 38 days he made them listen to his speeches, called them illiterates, and repeatedly promised to come back and crucify them. After the ransom was paid, he raised a naval force despite holding no military office, hunted them down, and crucified every one — ordering their throats cut first."
+    anchor: 'the-pirate-who-raised-his-own-ransom'
+  - question: 'How did Julius Caesar die?'
+    answer: "He was stabbed 23 times in the Senate on March 15, 44 BC, by conspirators led by Marcus Brutus and Gaius Cassius — both men he had personally pardoned after the civil war and promoted to high office. Calpurnia had begged him to stay home after dreaming of his death; a soothsayer had warned him. He was three days from departing to conquer Parthia with sixteen legions."
+    anchor: 'how-the-ides-found-him'
 twitter: ''
 instagram: ''
 tiktok: ''

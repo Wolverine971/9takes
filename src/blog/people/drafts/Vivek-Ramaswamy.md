@@ -26,11 +26,11 @@ occupation:
   - 'Podcaster'
   - 'Politician'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Podcasting'
-  - 'Politics'
-  - 'Politician'
-  - 'Political Analyst'
+  - 'Biotech company formation (Roivant, Axovant)'
+  - 'Anti-ESG asset management (Strive)'
+  - 'Pharmaceutical asset spin-offs'
+  - 'Political bestseller writing (Woke, Inc.)'
+  - 'Republican primary campaigning'
 keywords:
   - 'Vivek Ramaswamy enneagram'
   - 'Vivek Ramaswamy type 3'
@@ -50,12 +50,21 @@ citations:
   - 'https://www.imdb.com/name/nm11560780/'
   - 'https://www.vivekramaswamy.com/'
 faqs:
-  - question: 'What is Vivek Ramaswamy''s personality type?'
-    answer: 'The Three is the Achiever — the personality whose engine runs on becoming whatever the room rewards, then believing, sincerely, that this version is the real one. The core wound is without my achievements, I''m nothing. The defense is performance so seamless it stops registering as performance.'
+  - question: "What is Vivek Ramaswamy's personality type?"
+    answer: "Vivek Ramaswamy is an Enneagram Type 3 (The Achiever), specifically a 3w4. The pattern shows in the 'Da Vek' rap alter ego at Harvard, the Axovant IPO that hit $2.6 billion before the trial data came back, the Obama line he borrowed on a Republican debate stage, the serial reinventions — biotech CEO, libertarian author, presidential candidate, DOGE co-chair, Ohio governor candidate in fourteen months — and the Wikipedia editor his team paid to scrub his Soros Fellowship from the record."
     anchor: 'what-is-vivek-ramaswamys-personality-type'
-  - question: 'Why is Vivek Ramaswamy typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Podcasting, Politics.'
-    anchor: 'why-is-vivek-ramaswamy-typed-as-an-enneagram-type-3'
+  - question: 'What happened with Vivek Ramaswamy and Axovant?'
+    answer: "In 2014 Ramaswamy paid GlaxoSmithKline $5 million for intepirdine, an Alzheimer's compound that had already failed four trials, built Axovant Sciences around it, and took it public in 2015 in the largest biotech IPO in U.S. history — peaking at $2.6 billion. In September 2017 the Phase 3 trial missed its endpoints, the stock lost roughly 70% in a morning and eventually traded at 40 cents, while his stake in parent company Roivant stayed protected. He calls it 'the single greatest failure of my career.'"
+    anchor: 'vivek-ramaswamys-roivant-sciences-and-the-200-to-40-cents-lesson'
+  - question: 'Why did Vivek Ramaswamy leave DOGE?'
+    answer: "His co-chair role lasted seventy-one days. On December 26, mid-H-1B-visa fight, he posted that American culture 'venerated mediocrity over excellence' — the prom queen over the math olympiad champ — citing 90s sitcom characters as evidence. Laura Loomer and Nikki Haley attacked the post, multiple reports confirmed it upset Trump, and by the January 20 inauguration the White House confirmed he would not join DOGE. Within days he announced a run for governor of Ohio."
+    anchor: 'why-vivek-ramaswamy-got-pushed-out-of-doge'
+  - question: "Did Vivek Ramaswamy copy Obama's line?"
+    answer: "Yes. At the August 2023 GOP debate in Milwaukee he introduced himself as a 'skinny guy with a funny last name' — Barack Obama's self-description from the 2004 Democratic National Convention. Chris Christie spotted it on stage and accused him of cribbing Obama; Ramaswamy had no clean response. The most credentialed person in nearly every room he ever entered chose to introduce himself with another performer's introduction."
+    anchor: 'the-skinny-guy-with-obamas-line'
+  - question: 'Why did Vivek Ramaswamy endorse Trump after criticizing him?'
+    answer: "Days after January 6, 2021, Ramaswamy called the Capitol riot 'disgraceful' and tweeted that what Trump did was 'downright abhorrent'; his 2022 book Nation of Victims called Trump 'the loser of the last election.' By December 2023 he was calling January 6 'an inside job,' and on January 15, 2024 — the night he dropped out in Iowa — he endorsed Trump on the same stage. The essay reads the pivot as a Type 3 reading a new grader, not a considered change of mind."
+    anchor: 'why-vivek-ramaswamy-endorsed-trump'
 twitter: 'VivekGRamaswamy'
 instagram: 'vivekgramaswamy'
 tiktok: ''

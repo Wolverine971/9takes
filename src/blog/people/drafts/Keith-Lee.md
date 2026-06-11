@@ -22,9 +22,11 @@ nationality: 'American'
 occupation:
   - 'Writer'
 knows_about:
-  - 'Writing'
-  - 'Digital media'
-  - 'Writer'
+  - 'TikTok food criticism'
+  - 'Viral restaurant reviews'
+  - 'Mixed martial arts'
+  - 'Small-business amplification'
+  - 'Short-form video storytelling'
 keywords:
   - 'Keith Lee enneagram'
   - 'Keith Lee type 9'
@@ -44,12 +46,21 @@ citations:
   - 'https://sfstandard.com/2024/01/12/keith-lee-ends-bay-area-tour-hospital-safety-fears/'
   - 'https://www.rollingstone.com/culture/culture-features/keith-lee-food-critic-tiktok-1235030611/'
 faqs:
-  - question: 'What is Keith Lee''s personality type?'
-    answer: 'The popular misread of Keith Lee is "shy guy who got lucky on TikTok." It''s not a shy guy. It''s a Nine.'
+  - question: "What is Keith Lee's personality type?"
+    answer: "Keith Lee is an Enneagram Type 9 (The Peacemaker), specifically a 9w8. The pattern shows in the food reviews he films from his daughter's PAW Patrol folding chair in a rental car, the prosthetic nose his sister applies before he enters a restaurant, the family van full of mothers, sisters, and cousins he tours with, and the 8-wing iron that kept him filming in Atlanta after death threats."
     anchor: 'what-is-keith-lees-personality-type'
-  - question: 'Why is Keith Lee typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Digital media, Writer.'
-    anchor: 'why-is-keith-lee-typed-as-an-enneagram-type-9'
+  - question: 'Was Keith Lee an MMA fighter before TikTok?'
+    answer: "Yes — Keith Lee fought professionally for Bellator under the nickname Killa, in the shadow of his older brother Kevin Lee, who was already in the UFC before Keith finished high school. When Bellator didn't renew his contract in 2021, his wife Ronni was pregnant and he had no job, so he pointed the phone he'd been using to practice interviews at takeout containers instead."
+    anchor: 'detroit-kevin-lees-shadow-and-the-kid-who-got-kicked-out-at-16'
+  - question: 'What happened with Keith Lee in Atlanta?'
+    answer: "In November 2023, Atlanta restaurants snubbed his family tour — The Real Milk & Honey claimed a deep clean while serving other customers, and Old Lady Gang cut a 90-minute wait to five when staff recognized him. Keith posted the receipts, condemned the death threats his fans sent to similarly named restaurants, kept filming, and returned to the city in April 2024."
+    anchor: 'the-atlanta-stand-and-the-4000-he-couldnt-give-away'
+  - question: "Why won't Keith Lee accept free food from restaurants?"
+    answer: "He pays for every meal out of his own pocket, sent back a Cinnabon care package, and refuses sponsorship money from any restaurant he might review — accepting only corporate sponsors that can't be wounded by an honest take. Meanwhile he tips kitchen staff four figures and once tried to hand the owner of a barbecue spot $4,000 in cash after an unimpressed review."
+    anchor: 'what-keith-lee-protects-when-he-walks-into-a-grandmothers-restaurant'
+  - question: 'Why does Keith Lee film food reviews from his car?'
+    answer: "He started TikTok to get over social anxiety so severe he couldn't do post-fight MMA interviews, practicing alone in his Las Vegas condo for months before posting. The car, the paper bag, and the unannounced visits keep the reviews honest — restaurants can't perform for a critic they never see walk in."
+    anchor: 'why-keith-lees-food-reviews-sound-like-apologies'
 tiktok: 'keith_lee125'
 production_pretext:
   status: draft

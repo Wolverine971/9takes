@@ -27,12 +27,11 @@ occupation:
   - 'Screenwriter'
   - 'Film Producer'
 knows_about:
-  - 'Film acting'
-  - 'Acting'
-  - 'Television acting'
-  - 'Voice acting'
-  - 'Screenwriting'
-  - 'Film production'
+  - 'Greenlights (memoir)'
+  - 'Dallas Buyers Club'
+  - 'The McConaissance'
+  - 'Script to Screen (UT Austin course)'
+  - 'Solo travel walkabouts'
 keywords:
   - 'Matthew McConaughey enneagram'
   - 'Matthew McConaughey type 9'
@@ -50,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q188955'
   - 'https://www.imdb.com/name/nm0000190/'
 faqs:
-  - question: 'What is Matthew McConaughey''s Personality Type?'
-    answer: 'The popular read on McConaughey is that he''s a natural, effortlessly cool, inherently easygoing, a man born with his feet in the sand and a margarita in his hand. But that read is wrong, and he''s said so himself.'
+  - question: "What is Matthew McConaughey's personality type?"
+    answer: "Matthew McConaughey is an Enneagram Type 9 (The Peacemaker). The pattern shows in his own admission that the laid-back calm is 'a state of being that I work at, continuously, daily, and I break a sweat to get it,' in disappearing from Hollywood for twenty months rather than fighting it, in going quiet for an eight-year estrangement from his mother instead of confronting her, and in walkabouts to places where nobody speaks his language so he can 'hear the background signals' of his own mind."
     anchor: 'what-is-matthew-mcconaugheys-personality-type'
-  - question: 'Why is Matthew McConaughey typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Acting, Television acting.'
-    anchor: 'why-is-matthew-mcconaughey-typed-as-an-enneagram-type-9'
+  - question: 'Why did Matthew McConaughey turn down $14.5 million?'
+    answer: "In 2011 a romantic-comedy offer escalated from $8 million to $14.5 million — 'the same words that were in the $8 million offer I said no to, but it was better written' — and he turned it all down to 'unbrand' himself from the rom-com image. His phone went silent for twenty months and he considered becoming a teacher or wildlife guide. Then the dramatic offers arrived: The Lincoln Lawyer, Mud, Magic Mike, Killer Joe, and finally Dallas Buyers Club, for which he lost 47 pounds and won the 2014 Best Actor Oscar."
+    anchor: '145-million-to-keep-sleeping'
+  - question: "What are Matthew McConaughey's walkabouts?"
+    answer: "After A Time to Kill made him famous overnight in 1996, he flew to Peru and spent weeks on the Amazon instead of doing press. He later hitchhiked through Mali to find his favorite musician, Ali Farka Toure, then hiked the Bandiagara Escarpment for eighteen days — and returned five and a half years later to do it again. His explanation: 'We all need a walkabout. We need to put ourselves in places of decreased sensory input so we can hear the background signals of our psychological processes.'"
+    anchor: '21-days-where-nobody-speaks-his-language'
+  - question: 'What did Matthew McConaughey reveal in Greenlights?'
+    answer: "He disclosed that he was blackmailed into sex at fifteen and molested by a man at eighteen — experiences he'd carried privately for decades. He never sought therapy, relying instead on friends, mentors, and married couples, and frames it without a victim identity: 'I've never felt like a victim. I have a lot of proof that the world is conspiring to make me happy.'"
+    anchor: 'ive-never-felt-like-a-victim'
+  - question: 'Why did Matthew McConaughey decide not to run for Texas governor?'
+    answer: "He admitted being vague about policy 'on purpose,' arguing that taking sides 'precedes the discussion of something larger and much more important' — and ultimately decided a political arena built on division was incompatible with his instinct to listen rather than take sides. The exception was Uvalde: after the shooting in his hometown, he stood at the White House podium holding the green Converse shoes of a ten-year-old victim and called for raising the minimum age for assault rifle purchases."
+    anchor: 'vague-on-purpose'
 twitter: 'McConaughey'
 instagram: 'officiallymcconaughey'
 tiktok: ''

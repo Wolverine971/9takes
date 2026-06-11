@@ -27,12 +27,11 @@ occupation:
   - 'Television Actor'
   - 'Environmentalist'
 knows_about:
-  - 'Film acting'
-  - 'Acting'
-  - 'Television acting'
-  - 'Film Actor'
-  - 'Actor'
-  - 'Stage Actor'
+  - 'Character-immersion screen acting'
+  - 'Romantic drama film'
+  - 'Broadway stage performance'
+  - 'Environmental activism'
+  - 'Competitive figure skating'
 keywords:
   - 'Rachel McAdams enneagram'
   - 'Rachel McAdams type 9'
@@ -50,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q190386'
   - 'https://www.imdb.com/name/nm1046097/'
 faqs:
-  - question: 'What is Rachel McAdams''s personality type?'
-    answer: 'Enneagram Nines carry a core fear of loss and fragmentation — of being pulled apart by the demands and desires of the world until there''s nothing left of themselves. Their deepest desire is wholeness. Peace of mind. Not the absence of conflict, but the presence of an intact self.'
+  - question: "What is Rachel McAdams's personality type?"
+    answer: "Rachel McAdams is an Enneagram Type 9 (The Peacemaker). The pattern shows in the two-year vanishing act at peak fame when she turned down five blockbusters worth a combined $2.5 billion, the drama-free 'No, I'm not into that' refusal of a nude Vanity Fair shoot, her self-described 'split personality' of total immersion in one world at a time, the privacy fortress around her children, and the late-bloom growth arc — Broadway debut at forty-five, Tony nomination, Walk of Fame star at forty-seven."
     anchor: 'what-is-rachel-mcadamss-personality-type'
-  - question: 'Why is Rachel McAdams typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Film acting, Acting, Television acting.'
-    anchor: 'why-is-rachel-mcadams-typed-as-an-enneagram-type-9'
+  - question: 'Why did Rachel McAdams turn down Iron Man and The Devil Wears Prada?'
+    answer: "Between roughly 2006 and 2008 she turned down The Devil Wears Prada (offered three times by director David Frankel), Casino Royale, Mission: Impossible III, Iron Man, and Get Smart, and went home to St. Thomas, Ontario, to ride her bicycle and garden. Her explanation: the it-girl track 'wasn't quite jiving with my personality and what I needed to stay sane.' The piece argues it wasn't humility but self-preservation — she could feel herself fragmenting and chose wholeness over the biggest career in Hollywood."
+    anchor: 'five-blockbusters-and-a-bicycle'
+  - question: 'What happened at the 2006 Vanity Fair shoot?'
+    answer: "McAdams arrived for a Vanity Fair cover shoot and discovered Tom Ford wanted her nude alongside Scarlett Johansson and Keira Knightley. She said 'No, I'm not into that' — no yelling, no storming out — flew home to Canada, fired the publicist who had forgotten to mention the nude part, and didn't come back to Hollywood for two years."
+    anchor: 'the-vanity-fair-refusal'
+  - question: 'Did Rachel McAdams and Ryan Gosling get along on The Notebook?'
+    answer: "No — they clashed so badly that Gosling asked the director to replace her for a scene. 'We inspired the worst in each other,' he said. Sent to a room to work it out, they instead fell in love and dated for over two years before breaking up in 2007. Gosling later said: 'People do Rachel and me a disservice by assuming we were anything like the people in that movie. Rachel and my love story is a hell of a lot more romantic than that.'"
+    anchor: 'the-notebook-the-gosling-and-the-war-on-set'
+  - question: 'What is Rachel McAdams doing now?'
+    answer: "She made her Broadway debut in April 2024 in Mary Jane, never leaving the stage for the show's ninety-minute running time, and earned a Tony nomination — USA Today called it 'the best performance of the Broadway season.' Sam Raimi then cast her as the lead in Send Help, which opened in January 2026 to 93% on Rotten Tomatoes and $94 million worldwide. On January 20, 2026, she received the 2,833rd star on the Hollywood Walk of Fame."
+    anchor: 'ninety-minutes-never-leaving-the-stage'
 twitter: ''
 instagram: 'rachelmcadams'
 tiktok: ''

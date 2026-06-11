@@ -1,0 +1,15 @@
+[2026-06-10 02:01:15] [INFO] SELECTED: jony-ive (Type 5, Priority: 65) — Major Apple design figure who deepens the tech cluster and fills the quieter Type 5 lane
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  jony-ive
+Draft:   src/blog/people/drafts/jony-ive.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-10_020115_jony-ive
+Started: Wed Jun 10 02:01:15 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:01:15)
+Command: /blog_content_creator_people_v2 jony-ive --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-10_020115_jony-ive/1_create.log
+─────────────────────────────────────────────────────
+

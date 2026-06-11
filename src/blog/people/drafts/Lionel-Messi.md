@@ -26,9 +26,10 @@ nationality:
 occupation:
   - 'Association Football Player'
 knows_about:
-  - 'Football'
-  - 'Association Football'
-  - 'Association Football Player'
+  - 'Off-ball spatial analysis'
+  - 'Quiet dressing-room leadership'
+  - 'UNICEF Goodwill Ambassador work'
+  - 'Leo Messi Foundation philanthropy'
 keywords:
   - 'Lionel Messi enneagram'
   - 'Lionel Messi type 9'
@@ -50,12 +51,21 @@ citations:
   - 'https://www.leomessi.com'
   - 'https://messi.com'
 faqs:
-  - question: 'What is Lionel Messi''s Personality Type?'
-    answer: 'Most people see the greatest footballer alive — the records, the eight Ballon d''Ors, the World Cup. They see dominance. What they miss is that Messi''s entire operating system runs on the exact opposite impulse: disappearance. His core drive is peace — inner and outer — and every major pattern in his life flows from that single need.'
+  - question: "What is Lionel Messi's personality type?"
+    answer: "Lionel Messi is an Enneagram Type 9 (The Peacemaker). The pattern shows in the boy who hid behind a tree to avoid running drills, the youth teammates who called him 'El Mudo' — the mute one — the years of pre-match vomiting from internalized anxiety, his habit of texting coaches rather than confronting them, and the 2016 international retirement he reversed while admitting 'I was embarrassed to say I wanted to come back.'"
     anchor: 'what-is-lionel-messis-personality-type'
-  - question: 'Why is Lionel Messi typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Football, Association Football, Association Football Player.'
-    anchor: 'why-is-lionel-messi-typed-as-an-enneagram-type-9'
+  - question: 'Why does Messi walk so much during matches?'
+    answer: "The walking is reconnaissance, not rest. In a December 2017 El Clásico, tracking data showed he walked 83 percent of the roughly five miles he covered — while creating nine chances, scoring, and assisting. FiveThirtyEight found that in about 66 percent of the moments Messi won control of valuable space, he was walking, and Guardiola described it as building 'the map in his eyes and brain to know exactly where is the space.'"
+    anchor: 'the-mute-one-and-the-art-of-disappearing'
+  - question: 'Why did Messi retire from Argentina in 2016 and then come back?'
+    answer: "After missing a penalty in the Copa America final shootout against Chile — Argentina's fourth major final defeat in nine years — he announced 'it is evident that this is not for me' and retired at twenty-nine. He returned two months later with a confession that revealed more than any goal: 'It was a decision I made in the heat of the moment. But I was embarrassed to say I wanted to come back.'"
+    anchor: 'the-retirement-that-lasted-two-months'
+  - question: 'Why did Messi leave Barcelona?'
+    answer: "Not by choice. After twenty-one years at the club he had agreed to a 50% pay cut to stay, but La Liga's financial regulations made the deal impossible. At his August 2021 farewell press conference he cried before he could speak: 'I was not prepared. I was convinced I was staying, at home, that's what we wanted.'"
+    anchor: 'leaving-the-only-home-he-knew'
+  - question: 'Why did Messi vomit before big matches?'
+    answer: "For years in his twenties, Messi vomited before Champions League games, World Cup matches, and El Clásicos. Argentina coach Alejandro Sabella attributed it to anxiety, and Maradona was blunter: 'It was useless trying to make a leader out of a man who goes to the toilet twenty times before a game.' The vomiting stopped when Messi leaned into stillness — letting the opening minutes pass walking while his nervous system recalibrated."
+    anchor: 'how-messis-body-kept-score'
 twitter: '@TeamMessi'
 instagram: '@leomessi'
 tiktok: ''

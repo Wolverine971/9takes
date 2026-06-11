@@ -28,12 +28,11 @@ occupation:
   - 'Anthropologist'
   - 'Biologist'
 knows_about:
-  - 'Writing'
-  - 'Ethology'
-  - 'Activism'
-  - 'Biology'
-  - 'Nature Conservation'
-  - 'Pan'
+  - 'Chimpanzee behavior'
+  - 'Primatology fieldwork'
+  - 'Wildlife conservation'
+  - 'Community-centered conservation'
+  - 'Youth environmental education'
 keywords:
   - 'Jane Goodall enneagram'
   - 'Jane Goodall type 9'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm0328762/'
   - 'https://janegoodall.org/'
 faqs:
-  - question: 'What is Jane Goodall''s personality type?'
-    answer: 'Type Nines move through the world by lowering their own volume. Their gift is presence without imposition — the ability to sit beside something or someone long enough that the world stops performing and shows you what it actually is. Their wound is that this same ability can become disappearance. The Nine who never wakes up gets along with everyone, agrees with everything, and never makes anything happen.'
+  - question: "What is Jane Goodall's personality type?"
+    answer: 'Jane Goodall is an Enneagram Type 9 (The Peacemaker), specifically a self-preservation 9w1. The pattern shows in the months of motionless waiting until the Gombe chimps stopped running from her, the gentle but absolute refusal to renumber the chimps when Cambridge demanded it, twenty-six years of solitary fieldwork she called "an unparalleled period when aloneness was a way of life," and devastating critiques of factory farming and lab testing delivered at indoor-conversation volume.'
     anchor: 'what-is-jane-goodalls-personality-type'
-  - question: 'Why is Jane Goodall typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Ethology, Activism.'
-    anchor: 'why-is-jane-goodall-typed-as-an-enneagram-type-9'
+  - question: 'Why did Jane Goodall become an activist?'
+    answer: "At the November 1986 'Understanding Chimpanzees' conference in Chicago, she watched site after site report vanishing forests, poaching, and footage of laboratory chimps rocking themselves alone in metal boxes. Her own summary never changed: 'I went there as a scientist. I left as an activist.' For the next thirty-nine years she traveled roughly three hundred days a year."
+    anchor: 'how-a-1986-conference-broke-a-scientist-and-made-an-activist'
+  - question: 'How did Jane Goodall discover chimpanzee tool use?'
+    answer: "In October 1960, four months into the Gombe study, she watched David Greybeard strip the leaves from a stick and use it to fish termites from a mound — erasing the textbook definition of 'Man the Toolmaker.' Louis Leakey's telegram in response became famous: 'Now we must redefine man, redefine tool, or accept chimpanzees as human.'"
+    anchor: 'what-the-chimps-taught-her-about-being-still'
+  - question: 'What did Jane Goodall discover about violence in chimpanzees?'
+    answer: 'In the mid-1970s she watched Passion and her daughter Pom systematically kill and eat at least three infants of other Gombe females, and over four years the Kasakela faction hunted down and killed every adult male of the smaller Kahama group. She called it the most devastating intellectual moment of her life — the chimps were not gentler humans, they were like us, including the worst parts.'
+    anchor: 'the-dark-side-of-the-forest'
+  - question: 'How did Jane Goodall die?'
+    answer: 'She died in her sleep of cardiac arrest on October 1, 2025, at age ninety-one, at the home of a friend in Beverly Hills — mid speaking tour, two nights after a Los Angeles lecture, with the Hollywood Bowl as her next scheduled stop. Mr. H, the stuffed monkey she had carried to more than sixty-five countries, was with her.'
+    anchor: 'what-she-carried-to-beverly-hills'
 twitter: 'janegoodallinst'
 instagram: 'janegoodallinst'
 production_pretext:

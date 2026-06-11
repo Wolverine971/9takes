@@ -28,12 +28,11 @@ occupation:
   - 'Film Producer'
   - 'Voice Actor'
 knows_about:
-  - 'Screenwriting'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Writing'
-  - 'Film production'
-  - 'Voice acting'
+  - 'Sketch comedy writing'
+  - 'SNL Weekend Update anchoring'
+  - 'Sitcom creation (30 Rock)'
+  - 'Second City improv'
+  - 'Comedic memoir (Bossypants)'
 keywords:
   - 'Tina Fey enneagram'
   - 'Tina Fey type 3'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q14540'
   - 'https://www.imdb.com/name/nm0275486/'
 faqs:
-  - question: 'What is Tina Fey''s Personality Type?'
-    answer: 'The Enneagram''s heart triad — Types 2, 3, and 4 — are organized around the emotion of shame. Type 2 manages shame by becoming indispensable. Type 4 manages shame by being unique. Type 3 manages shame by becoming whatever the room values most.'
+  - question: "What is Tina Fey's personality type?"
+    answer: "Tina Fey is an Enneagram Type 3 (The Achiever) — specifically a Self-Preservation Three with a 2 wing. The pattern shows in her fifth-grade discovery that she could 'ingratiate myself to people by making them laugh,' the airtight goofy-nerd persona masking a shy, structured strategist, the self-deprecation that functions as armor, and going straight back to work after losing both parents — 'one more time, before they put me in the ground.'"
     anchor: 'what-is-tina-feys-personality-type'
-  - question: 'Why is Tina Fey typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Screenwriting, Television acting, Film acting.'
-    anchor: 'why-is-tina-fey-typed-as-an-enneagram-type-3'
+  - question: 'How did Tina Fey get the scar on her face?'
+    answer: "When she was five, a stranger walked into her front yard in Upper Darby, Pennsylvania, and slashed her face with a knife; the attacker was never identified. In Bossypants she dismantled her own narrative about it: the fuss people made over her as a child 'wasn't because I was some incredible beauty or genius' — it was compensation for being slashed. She converted even that realization into material."
+    anchor: 'the-childhood-knife-scar-that-shaped-tina-feys-persona'
+  - question: 'Is Liz Lemon based on Tina Fey?'
+    answer: "Loosely — Fey described Liz as 'myself five or six years ago' — but the analysis argues Liz Lemon is a product, not a self-portrait. The character is chaotic, romantically hopeless, and disorganized; the real Fey is structured, principled, married since 2001, and by her husband's account 'sticks to her principles more than anybody I've ever met.' The fictionalized mess is designed to make audiences feel closer to a woman who is the opposite of chaos."
+    anchor: 'the-woman-she-built-to-replace-herself'
+  - question: "What did Tina Fey mean by 'authenticity is dangerous and expensive'?"
+    answer: "It was advice she gave Bowen Yang on his podcast Las Culturistas, pushing back on his habit of sharing unfiltered opinions publicly — the internet, she reminded him, is 'written in permanent marker.' Yang told NPR he dwelled on it for months. It distills her lifelong philosophy: the world will mark you without your permission, so control the narrative yourself."
+    anchor: 'authenticity-is-dangerous-and-expensive'
+  - question: 'Was Tina Fey a mean girl in high school?'
+    answer: "By her own admission, yes: 'I was the mean girl. I admit it openly.' She has described her high school behaviors as 'futile, poisonous, bitter' and called the cruelty 'a disease that had to be conquered.' That insider knowledge is why Mean Girls reads so true — she wrote the definitive movie about image-as-weapon from inside the game."
+    anchor: 'the-type-3-who-wrote-the-definitive-movie-about-type-3-behavior'
 twitter: '@tinafey'
 instagram: ''
 tiktok: ''

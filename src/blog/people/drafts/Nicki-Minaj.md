@@ -28,12 +28,12 @@ occupation:
   - 'Women Composers'
   - 'Musician'
 knows_about:
-  - 'Hip-hop music'
-  - 'Singing'
-  - 'Songwriting'
-  - 'Music'
-  - 'Hip-Hop'
-  - 'Pop Music'
+  - 'Rap flow and accent switching'
+  - 'Alter ego performance'
+  - 'Guest verse craft'
+  - 'Billboard chart records'
+  - 'Fragrance and fashion lines'
+  - 'Student scholarship philanthropy'
 keywords:
   - 'Nicki Minaj enneagram'
   - 'Nicki Minaj type 8'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.britannica.com/biography/Nicki-Minaj'
   - 'https://www.nickiminajofficial.com/'
 faqs:
-  - question: 'What is Nicki Minaj''s personality type?'
-    answer: 'Eights don''t accumulate power because they want to dominate. They accumulate power because every domain they control is one less avenue for attack. Financial independence means no one can threaten your survival. Creative control means no one can corrupt your vision. Physical presence means no one enters your space uninvited.'
+  - question: "What is Nicki Minaj's personality type?"
+    answer: "Nicki Minaj is an Enneagram Type 8 (The Challenger). The pattern starts with the five-year-old who stood between her violent father and her mother with arms spread wide, runs through the prayer to be rich enough to rescue her mother, the Roman Zolanski alter ego built to house rage she couldn't express as Onika, the micromanaged creative empire, and feuds that function as loyalty tests: you're either with her completely or you're a threat."
     anchor: 'what-is-nicki-minajs-personality-type'
-  - question: 'Why is Nicki Minaj typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Hip-hop music, Singing, Songwriting.'
-    anchor: 'why-is-nicki-minaj-typed-as-an-enneagram-type-8'
+  - question: 'Why did Nicki Minaj create Roman Zolanski?'
+    answer: "Roman is a violent, explicitly gay alter ego from London who, in her words, 'says the things that I don't want to say.' She's admitted 'I ask him to leave, but he can't.' The article reads Roman as psychological architecture: a way to survive an industry that demands toughness from women while punishing them for showing it, by creating someone who can carry the rage for her."
+    anchor: 'the-invention-of-roman'
+  - question: 'Why did Nicki Minaj marry Kenneth Petty?'
+    answer: "Petty was convicted of attempted rape at sixteen, later pleaded guilty to first-degree manslaughter, and failed to register as a sex offender after moving to California with Minaj. The woman who vowed 'no man would ever abuse me' after watching her father terrorize her mother chose a man with a violent record. The article frames it as the Eight's trap: reading danger as familiarity and believing 'I am strong enough to manage this. I am not my mother.'"
+    anchor: 'the-wound-she-kept-repeating'
+  - question: 'What happened with Nicki Minaj and Turning Point USA?'
+    answer: "In December 2025, she appeared at TPUSA's AmericaFest in Phoenix, praised Trump, called JD Vance an 'assassin,' and read her own anti-trans tweets from the stage. She lost roughly 10 million Instagram followers and deactivated her account. For an artist whose signature alter ego is an explicitly gay man, the article reads it as the Eight's armor turning against the very people it was built to protect."
+    anchor: 'the-fortress-that-became-a-prison'
+  - question: "Did Nicki Minaj really pay off fans' student loans?"
+    answer: "Yes. In May 2017 she asked fans on Twitter to show her straight-A report cards and started writing checks for tuition and textbooks, eventually formalizing it into the Student of the Game scholarship that paid for 37 students' educations. The article reads this as the Eight in growth: the same fierce protective energy redirected into generosity that asks nothing in return."
+    anchor: 'the-student-loans-and-the-soft-side'
 twitter: '@NICKIMINAJ'
 instagram: '@nickiminaj'
 tiktok: '@nickiminaj'

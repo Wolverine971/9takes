@@ -45,7 +45,7 @@
 		justify-content: center;
 		min-height: 2.75rem;
 		padding: 0 1rem;
-		border-radius: 0.375rem;
+		border-radius: 0.625rem;
 		background: var(--ink-bright);
 		color: var(--night-deep);
 		font-weight: 650;

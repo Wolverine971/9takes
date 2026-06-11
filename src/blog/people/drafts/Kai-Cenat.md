@@ -26,12 +26,12 @@ occupation:
   - 'YouTuber'
   - 'Internet Celebrity'
 knows_about:
-  - 'Livestreaming'
-  - 'YouTube content creation'
-  - 'Digital media'
-  - 'Online Streamer'
-  - 'Twitch Streamer'
-  - 'YouTuber'
+  - 'Marathon livestreaming'
+  - 'Streaming event production'
+  - 'Internet slang culture'
+  - 'Creator collectives'
+  - 'Fashion design'
+  - 'Creator education'
 keywords:
   - 'Kai Cenat enneagram'
   - 'Kai Cenat type 7'
@@ -47,12 +47,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q113818347'
   - 'https://www.imdb.com/name/nm9411427/'
 faqs:
-  - question: 'What Is Kai Cenat''s Personality Type?'
-    answer: 'Kai Cenat is an Enneagram Type 7, and he reads like a 7w8 (more bold, more confrontational, more "we''re doing it anyway" energy).'
+  - question: "What is Kai Cenat's personality type?"
+    answer: "Kai Cenat is an Enneagram Type 7 (The Enthusiast) with an 8 wing. The pattern shows in the month-long Mafiathon marathons, his admission that 'things can slow down' registers as a threat, turning down a $60 million Kick deal because it would 'mess me up,' disappearing into Death Note and Naruto when streaming stopped, and describing love not as fun but as 'peaceful' — the perpetual motion machine reaching for stillness."
     anchor: 'what-is-kai-cenats-personality-type'
-  - question: 'Why is Kai Cenat typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Livestreaming, YouTube content creation, Digital media.'
-    anchor: 'why-is-kai-cenat-typed-as-an-enneagram-type-7'
+  - question: 'Why did Kai Cenat turn down the $60 million Kick deal?'
+    answer: "In 2023, Kick offered him $60 million to switch platforms. Kai prayed in a closet and said no because it would 'mess me up' and 'make me lose focus,' later explaining on Club Shay Shay: 'Not all money is good money. Some deals that you could sign would literally jeopardize and slow down everything that you built up for.' The fear wasn't losing status — it was losing himself."
+    anchor: 'why-kai-cenat-is-type-7-not-type-3'
+  - question: "What happened at Kai Cenat's Union Square giveaway?"
+    answer: "In August 2023 he announced an unpermitted PS5 and gift-card giveaway in Manhattan's Union Square Park. Thousands overwhelmed the area: seven people were injured, sixty-five were arrested, and Kai was charged with inciting a riot. He apologized directly, paid $55,000 in restitution, and the charges were dropped — every major event he produced afterward ran on permits and formal infrastructure."
+    anchor: 'union-square-august-2023'
+  - question: 'What records did Kai Cenat break with Mafiathon 3?'
+    answer: "Over 30 days in September 2025 he became the first streamer ever to hit 1.1 million Twitch subscribers, with over 82 million hours watched. Kevin Hart and Druski's appearance became the most-watched stream in Twitch history, and on September 30, LeBron James cut off Kai's locs — a promise Kai kept after pledging they'd come off at one million subscribers."
+    anchor: 'mafiathon-3-september-2025'
+  - question: "Why did Kai Cenat post the 'I Quit' video?"
+    answer: "The 23-minute January 2026 video wasn't retirement — he was quitting overthinking. He had spent weeks in Italian factories learning garment production, signed up for sewing classes, consulted Law Roach, and announced Vivet, a fashion brand whose Latin name means 'he will live forever.' He also launched 'Kai's Mind,' an unpolished second channel, and revealed he'd been reading every day."
+    anchor: 'i-quit-january-2026'
 twitter: ''
 instagram: ''
 tiktok: ''

@@ -26,12 +26,12 @@ occupation:
   - 'Television Actor'
   - 'Model'
 knows_about:
-  - 'Acting'
-  - 'Film directing'
-  - 'Television acting'
-  - 'Modeling'
-  - 'Cinematography'
-  - 'Modelling'
+  - 'Film and television acting'
+  - 'Immersive role preparation'
+  - 'Fashion modeling'
+  - 'Short film directing'
+  - 'British working-class drama'
+  - 'Period war drama'
 keywords:
   - 'Callum Turner enneagram'
   - 'Callum Turner type 7'
@@ -49,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q18162913'
   - 'https://www.imdb.com/name/nm4360085/'
 faqs:
-  - question: 'What is Callum Turner''s personality type?'
-    answer: 'Sevens are the people who chase momentum, options, and joy because slowing down hurts. They learn fast, charm easily, and suffer privately. They are usually further from "going with the flow" than they let on — the breeze is something they generate.'
+  - question: "What is Callum Turner's personality type?"
+    answer: "Callum Turner is an Enneagram Type 7 (The Enthusiast), specifically a 7w6. The pattern shows in the letters he wrote at twenty-two to every casting director in England 'lying about what I was doing,' the 'hungry for information' appetite that ran through football, modeling, acting, and directing, the eight years of daily weed he now calls self-medication for depression, and the loyalty streak — Chelsea season tickets, a four-year first love, a friendship with Austin Butler he doesn't want to shake off — that marks the 6 wing."
     anchor: 'what-is-callum-turners-personality-type'
-  - question: 'Why is Callum Turner typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film directing, Television acting.'
-    anchor: 'why-is-callum-turner-typed-as-an-enneagram-type-7'
+  - question: 'How did Callum Turner get into acting?'
+    answer: "Not by drifting — by paperwork. After quitting semi-pro football and landing a 2011 Burberry campaign shot by Mario Testino, he wrote letters to every casting director in England with an invented CV: 'I really engrossed myself in that world because I wanted it so much.' He calls his first three years of small jobs, ages twenty-two to twenty-five, his 'informal drama school.' By 2018 it had bought him the role of Theseus Scamander in the Fantastic Beasts franchise."
+    anchor: 'how-callum-turner-talked-his-way-into-acting'
+  - question: 'What has Callum Turner said about smoking weed?'
+    answer: "He has been unusually blunt: 'I was a big stoner... I was acting, doing films, and smoking weed every day. I never smoked on set but as soon as I got home I was like a real addict... I definitely missed four years of my life.' The habit ran from eighteen to twenty-six — the same window as his BAFTA Breakthrough nod and Burberry years — and he frames it as self-medication: 'I was dealing with a depression or a frustration... so I self-medicated for too long.'"
+    anchor: 'the-four-years-callum-turner-says-he-missed'
+  - question: 'Why does Callum Turner keep playing men carrying trauma?'
+    answer: "Once he could pick roles, he picked an ex-soldier doubting his own mind (The Capture), a bomber major who watches his friends die and ends up in Stalag Luft III (Masters of the Air), and Joe Rantz, the Depression-era boy whose father drove off and left him (The Boys in the Boat). Turner's own father stayed almost entirely out of his life — contact he describes as 'poor.' The closest he comes to drawing the line himself: 'It affected me a little for sure. You're tapping into your own experiences.'"
+    anchor: 'why-callum-turner-keeps-playing-men-carrying-trauma'
+  - question: 'How did Callum Turner meet Dua Lipa?'
+    answer: "At a mutual friend's birthday in Los Angeles in early 2024 — after what he counted as 'five near misses' — they discovered they were reading the same novel, Trust by Hernán Díaz. He had finished the first chapter that week; she had it in her bag. By June 2025 they were engaged, with an emerald-cut ring he reportedly designed with help from her sister and her best friend."
+    anchor: 'callum-turners-quiet-loyalty-problem'
 twitter: ''
 instagram: 'callumturner'
 tiktok: ''

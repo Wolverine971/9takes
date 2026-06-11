@@ -25,12 +25,11 @@ occupation:
   - 'Businessperson'
   - 'Actor'
 knows_about:
-  - 'Singing'
-  - 'Business'
-  - 'Acting'
-  - 'Pop Music'
-  - 'Dancehall'
+  - 'Pop and dancehall music'
   - 'Contemporary R&B'
+  - 'Inclusive cosmetics development'
+  - 'Lingerie and fashion brand building'
+  - 'Caribbean disaster philanthropy'
 keywords:
   - 'Rihanna enneagram'
   - 'Rihanna type 8'
@@ -50,12 +49,21 @@ citations:
   - 'https://www.imdb.com/name/nm1982597/'
   - 'https://www.rihanna.com'
 faqs:
-  - question: 'What is Rihanna''s Personality Type?'
-    answer: 'What sets Rihanna''s Eight-ness apart from other powerful celebrities: she genuinely doesn''t seem to need validation. She''s not performing detachment. She is detached.'
+  - question: "What is Rihanna's personality type?"
+    answer: "Rihanna is an Enneagram Type 8 (The Challenger). The pattern shows in detachment that isn't performed but genuine ('who am I trying to please? None of these motherf*ckers know me!'), the nine-year music hiatus taken at her commercial peak, the clapbacks she deploys as armor, the Super Bowl pregnancy reveal made entirely on her own schedule, and an empire built on trusting her own judgment over the room's consensus — 'Let's not listen to that.'"
     anchor: 'what-is-rihannas-personality-type'
-  - question: 'Why is Rihanna typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Business, Acting.'
-    anchor: 'why-is-rihanna-typed-as-an-enneagram-type-8'
+  - question: "Why hasn't Rihanna released an album since Anti?"
+    answer: "Because she walked away from music at her peak and only returns on her terms. 'Now it's like a carousel. I do fashion one day, lingerie the next, beauty the next, then music the next,' she told Interview. In 2025 she pulled the plug on six reportedly scheduled London Stadium shows days before the announcement. Her most candid update, to Harper's Bazaar: the new music is 'not going to be commercial or radio digestible. It's going to be where my artistry deserves to be right now. I feel like I've finally cracked it, girl!'"
+    anchor: 'the-nine-year-silence-what-the-music-hiatus-reveals'
+  - question: 'How did Rihanna announce her pregnancy at the Super Bowl?'
+    answer: "At the February 2023 halftime show — her first performance in seven years — she simply stopped hiding it. No press release, no magazine exclusive: just an all-red Alaia jumpsuit and a hand cradling her stomach in front of 118 million viewers, more people than watched the game. The reveal wasn't even planned; she had been hiding the bump under large coats and, in performance, just didn't."
+    anchor: 'the-super-bowl-power-move'
+  - question: 'What is the Fenty Effect?'
+    answer: "When Fenty Beauty launched in September 2017 with 40 foundation shades, it did $72 million in its first month and $570 million in its first year — and forced the entire beauty industry to scramble to expand shade ranges, a shift the industry itself named 'The Fenty Effect.' Together with Savage X Fenty's inclusive lingerie, the companies exceed $3 billion in valuation, making Rihanna the first Black woman to build two separate billion-dollar companies."
+    anchor: 'the-fenty-effect-business-as-mission'
+  - question: 'How many kids does Rihanna have?'
+    answer: "Three with A$AP Rocky: sons RZA and Riot Rose, and daughter Rocki Irish Mayers, born September 13, 2025. She guards their privacy fiercely while making her own reveals casually and on her schedule — and she may not be done. When an Instagram video about wanting to get pregnant in 2026 crossed her feed, she commented: 'Wait! So I'm not crazy then? Bet!'"
+    anchor: 'motherhood-three-kids-and-counting'
 twitter: 'https://twitter.com/rihanna'
 instagram: 'https://www.instagram.com/badgalriri/'
 tiktok: 'https://www.tiktok.com/@rihanna'

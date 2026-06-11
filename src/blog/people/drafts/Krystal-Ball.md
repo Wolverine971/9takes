@@ -28,11 +28,11 @@ occupation:
   - 'Certified Public Accountant'
   - 'Columnist'
 knows_about:
-  - 'Journalism'
-  - 'Politics'
-  - 'Business'
-  - 'Breaking Points with Krystal and Saagar'
-  - 'Digital media'
+  - 'Breaking Points (independent media)'
+  - 'Left populism'
+  - 'Democratic Party critique'
+  - "Working-class candidate recruitment (People's House Project)"
+  - 'Political commentary'
 keywords:
   - 'Krystal Ball enneagram'
   - 'Krystal Ball type 1'
@@ -52,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm4469231/'
   - 'https://breakingpoints.supercast.com'
 faqs:
-  - question: 'What is Krystal Ball''s Personality Type?'
-    answer: 'Enneagram Type 1s — "The Reformer" — carry an internal compass of right and wrong that never shuts off. They scan the world for what''s broken, what''s unjust, what falls short of how things should be. They feel physically compelled to fix it.'
+  - question: "What is Krystal Ball's personality type?"
+    answer: "Krystal Ball is an Enneagram Type 1 (The Reformer). The pattern shows in the 'Don't Run, Hillary' monologue she aired a year before Clinton declared, her walkout from corporate media to build Breaking Points, the on-air invitation to paying subscribers to cancel rather than be echoed, her credo of being 'totally, uncomfortably honest,' and her leading a vindication essay with 'I got this election dead wrong.'"
     anchor: 'what-is-krystal-balls-personality-type'
-  - question: 'Why is Krystal Ball typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Politics, Business.'
-    anchor: 'why-is-krystal-ball-typed-as-an-enneagram-type-1'
+  - question: 'Why did Krystal Ball leave MSNBC?'
+    answer: "After her February 2014 'Don't Run, Hillary' monologue, Ball was pulled into an office and told any future Clinton commentary needed approval from the president of the network. Her show The Cycle was canceled eighteen months later. She later said MSNBC 'in the Trump era, has done real damage to the left' by feeding its audience what it wanted to hear instead of the facts."
+    anchor: 'dont-run-hillary'
+  - question: 'What is Breaking Points?'
+    answer: "Breaking Points is the independent, direct-to-subscriber show Ball and conservative co-host Saagar Enjeti launched in May 2021 after walking away from The Hill's Rising with no corporate backing. It hit #1 on the political podcast charts within a week and by May 2026 had around two million YouTube subscribers and over a billion views. Ball has described rejecting a six-figure offer sent through the contact form to host a pre-selected guest on oil and Middle East energy topics."
+    anchor: 'building-the-thing-she-said-was-possible'
+  - question: "What happened in Krystal Ball's 2010 congressional campaign?"
+    answer: "Running at 28 as the Democratic nominee in Virginia's 1st District, Ball lost to Rob Wittman by twenty-nine points. A month before the vote, conservative blogs published photos from a Christmas party when she was 22. Instead of apologizing, she went on Fox News, compared the treatment to Scott Brown's consequence-free nude centerfold, and declared 'I will not be intimidated' — and the scandal designed to silence her made her cable-news famous."
+    anchor: 'the-twenty-nine-point-loss'
+  - question: 'Why does Krystal Ball criticize the Democratic Party?'
+    answer: "Moving to Louisville radicalized her: 'The way that a lot of Democratic elites talked about people in Kentucky shook me out of my Democrats-are-the-good-guys mentality.' Her 2017 book Reversing the Apocalypse argues Democrats betrayed New Deal principles and that forty years of economic abandonment produced Trump. She founded the People's House Project to recruit working-class candidates, and frames it morally: 'Populism means having respect for the people.'"
+    anchor: 'the-kentucky-conversion'
 twitter: 'https://twitter.com/krystalball'
 instagram: 'https://www.instagram.com/krystalmball'
 tiktok: ''

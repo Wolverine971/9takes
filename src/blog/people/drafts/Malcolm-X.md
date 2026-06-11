@@ -28,12 +28,11 @@ occupation:
   - 'Muslim Minister'
   - 'Imam'
 knows_about:
-  - 'Politics'
-  - 'Human Rights Protection'
-  - 'Historical influence'
-  - 'Politician'
-  - 'Autobiographer'
-  - 'Political Activist'
+  - 'Black liberation organizing'
+  - 'Public debate and oratory'
+  - 'Nation of Islam ministry'
+  - 'Human rights internationalism'
+  - 'Prison self-education'
 keywords:
   - 'Malcolm X enneagram'
   - 'Malcolm X type 8'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q43303'
   - 'https://www.imdb.com/name/nm0944318/'
 faqs:
-  - question: 'What is Malcolm X''s personality type?'
-    answer: 'Malcolm X is analyzed as an Enneagram Type 8 (Challenger). The profile connects that type pattern to Everyone remembers Malcolm X''s fire. The more remarkable thing was his flexibility. A Type 8 Enneagram analysis of the psychology behind both.'
+  - question: "What is Malcolm X's personality type?"
+    answer: "Malcolm X is analyzed as an Enneagram Type 8 (The Challenger). The pattern shows in the powerlessness vow formed after watching his father killed, his mother institutionalized, and his family scattered before he was thirteen; the press conference in the ruins of his firebombed house ('I have no fear whatsoever of anybody or anything'); the FBI's own surveillance file conceding his 'high moral character'; and the post-Mecca pivot where the armor expanded rather than cracked."
     anchor: 'what-is-malcolm-xs-personality-type'
-  - question: 'Why is Malcolm X typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Politics, Human Rights Protection, Historical influence.'
-    anchor: 'why-is-malcolm-x-typed-as-an-enneagram-type-8'
+  - question: 'How did Malcolm X change after Mecca?'
+    answer: "On hajj in April 1964 he prayed alongside white Muslims who treated him as a brother and wrote that he had met 'blonde-haired, blued-eyed men I could call my brother.' He didn't soften — his commitment to Black equality never wavered. What changed was his account of the enemy: systems of oppression rather than categories of people, and he came back fighting on a bigger stage with a broader coalition."
+    anchor: 'when-the-armor-had-to-expand'
+  - question: 'Why did Malcolm X leave the Nation of Islam?'
+    answer: "By early 1964 Malcolm knew Elijah Muhammad had been having affairs with young female secretaries in the organization, fathering children — a betrayal of everything the Nation claimed to stand for. For a man wired as a protector, discovering the protector above him was a predator left one option: he left, knowing what leaving meant. As he put it: 'The Nation of Islam taught me that the white man is the devil. Well, I found out that there are devils in all colors.'"
+    anchor: 'the-break'
+  - question: "What was Malcolm X's relationship with Martin Luther King Jr.?"
+    answer: "They met exactly once — a handshake at the U.S. Capitol on March 26, 1964. But in February 1965, Malcolm visited Selma while King was jailed and told Coretta King he had come so white people would understand the alternative and 'be more inclined to listen to your husband.' He deliberately positioned himself as the threat that made King's nonviolence the reasonable option, and said near the end: 'Dr. King wants the same thing I want: freedom.'"
+    anchor: 'malcolm-and-martin'
+  - question: 'How did Malcolm X educate himself in prison?'
+    answer: "At Norfolk Prison Colony in 1948, he copied every word of the dictionary, page by page, until he could read fluently — then read the entire prison library fifteen hours a day, continuing past lights-out by the strip of light through his cell door. The glasses he wore for the rest of his life were the price. Asked by a British writer about his alma mater, he answered: 'Books.'"
+    anchor: 'the-man-who-came-out-of-norfolk-prison'
 twitter: ''
 instagram: ''
 tiktok: ''

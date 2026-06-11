@@ -29,12 +29,11 @@ occupation:
   - 'Businessperson'
   - 'Media Proprietor'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Business'
-  - 'Publisher'
-  - 'Entrepreneur'
-  - 'Financier'
-  - 'Businessperson'
+  - 'Tabloid newspaper publishing'
+  - 'Satellite television (Sky)'
+  - 'Media acquisitions and dealmaking'
+  - 'Political influence through media'
+  - 'Family trust and succession structuring'
 keywords:
   - 'Rupert Murdoch enneagram'
   - 'Rupert Murdoch type 8'
@@ -52,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q53944'
   - 'https://www.imdb.com/name/nm0613770/'
 faqs:
-  - question: 'What Is Rupert Murdoch''s Personality Type?'
-    answer: 'The classic Type 8 — Riso and Hudson''s "Challenger" — has one core fear: being controlled, harmed, or made vulnerable again. The architecture is built backwards from a wound. Whatever made them feel powerless once, they spend their lives making sure it can never reach them.'
+  - question: "What is Rupert Murdoch's personality type?"
+    answer: "Rupert Murdoch is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the secret Wapping printing plant he built for two years under a fake company name to break the print unions overnight, the Australian citizenship he renounced at fifty-four to own a U.S. network, the 'Kill Whitlam' instruction to his Australian editors, the three-day amputation of News of the World, and Project Family Harmony — the attempt to break his own 1999 trust that a Nevada commissioner called 'a carefully crafted charade.'"
     anchor: 'what-is-rupert-murdochs-personality-type'
-  - question: 'Why is Rupert Murdoch typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Business, Publisher.'
-    anchor: 'why-is-rupert-murdoch-typed-as-an-enneagram-type-8'
+  - question: 'Was Rupert Murdoch really a socialist at Oxford?'
+    answer: "Yes — at Worcester College he kept a bust of Lenin on his mantelpiece, joined the Labour Club, and was nicknamed Red Rupert. The article reads the conversion not as ideology but as a search for the right enemy: at Oxford the establishment was the British upper class, so Lenin was the available counter-symbol. The ideology flipped after his father's death in 1952; the instinct — find who's on top, position against them, take the territory — never did."
+    anchor: 'why-young-rupert-murdoch-kept-a-lenin-bust'
+  - question: 'Why did Fox News settle the Dominion lawsuit for $787.5 million?'
+    answer: "Discovery had pulled Murdoch's private texts into open court — including 'really crazy stuff' about Giuliani's election-fraud strategy and a post-January 6 email saying 'We want to make Trump a non-person.' On the morning the trial was set to begin, Fox settled for the largest known defamation payout in American media history, with no on-air apology. The article calls it the cleanest violation of his Wapping principle: he paid three quarters of a billion dollars to avoid having his own words read back to him in front of a jury."
+    anchor: 'fox-news-trump-and-the-day-murdoch-blinked'
+  - question: 'What happened in the Murdoch family succession battle?'
+    answer: "Anna Murdoch's 1999 divorce settlement created an irrevocable trust giving all four children equal voting control after Rupert's death. In 2023 Murdoch tried to break it via 'Project Family Harmony,' shifting full control to Lachlan; the siblings sued, and in December 2024 Nevada commissioner Edmund Gorman Jr. ruled the plan was 'a carefully crafted charade.' The family settled in September 2025 — James, Elisabeth, and Prudence took $3.3 billion in Fox stock to walk away, and Lachlan got the empire."
+    anchor: 'a-carefully-crafted-charade-inside-the-murdoch-family-succession-battle'
+  - question: 'What was the Wapping dispute?'
+    answer: "When nearly six thousand print workers struck in January 1986, Murdoch's entire newspaper operation reappeared overnight at a secretly built plant in Wapping, ringed with razor wire and surveillance cameras — he had been constructing it for two years under a fake company name. The strikers were effectively fired the moment they walked out. Former Fox president Peter Chernin called it 'the most important dispute between labour and capital in the western world.'"
+    anchor: 'the-wapping-razor-wire-and-the-sky-bet'
 twitter: 'rupertmurdoch'
 production_pretext:
   status: draft

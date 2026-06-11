@@ -786,7 +786,7 @@
 		justify-content: space-between;
 		gap: 16px;
 		padding: 14px 18px;
-		border-radius: 14px;
+		border-radius: 1rem;
 		border: 1px solid var(--stone-warm);
 		background: color-mix(in srgb, var(--stone-warm) 94%, transparent);
 	}
@@ -1227,7 +1227,7 @@
 		justify-content: center;
 		width: 28px;
 		height: 28px;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 0.78rem;
 		font-weight: 700;
 		color: white;
@@ -1355,7 +1355,7 @@
 		margin: 0 0 16px;
 		padding: 16px;
 		background: var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		border: 1px solid var(--stone-warm);
 	}
 
@@ -1378,7 +1378,7 @@
 		padding: 14px;
 		background: var(--warning-light);
 		border: 1px solid var(--warning);
-		border-radius: 12px;
+		border-radius: 1rem;
 		color: var(--warning);
 		font-size: 0.82rem;
 		line-height: 1.5;
@@ -1430,7 +1430,7 @@
 		.metrics-grid :global(.stat-card) {
 			min-height: 0;
 			padding: 16px;
-			border-radius: 12px;
+			border-radius: 1rem;
 		}
 
 		.metrics-grid :global(.stat-value) {

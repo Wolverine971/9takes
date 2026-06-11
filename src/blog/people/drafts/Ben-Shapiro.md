@@ -28,12 +28,12 @@ occupation:
   - 'Writer'
   - 'Podcaster'
 knows_about:
-  - 'Journalism'
-  - 'Writing'
-  - 'Podcasting'
-  - 'Law'
-  - 'Politics'
-  - 'Commentary'
+  - 'Conservative political commentary'
+  - 'Constitutional originalism'
+  - 'The Daily Wire'
+  - 'Orthodox Judaism'
+  - 'Campus political debate'
+  - 'Political media entrepreneurship'
 keywords:
   - 'Ben Shapiro enneagram'
   - 'Ben Shapiro type 1'
@@ -55,12 +55,21 @@ citations:
   - 'https://www.dailywire.com/author/ben-shapiro'
   - 'https://feedlink.io/officialbenshapiro'
 faqs:
-  - question: 'What is Ben Shapiro''s personality type?'
-    answer: 'The Sabbath is the visible rule. The invisible one runs every other day of the week.'
+  - question: "What is Ben Shapiro's personality type?"
+    answer: "Ben Shapiro is an Enneagram Type 1 (The Reformer), specifically a 1w2. The pattern shows in the public list he keeps of every dumb thing he has ever said, the twenty-five-hour Sabbath hard stop he bent a billion-dollar company around, the public self-conviction he posted the day after losing composure with Andrew Neil ('It's Neil 1, Shapiro 0'), and the Breitbart resignation that cost him over 7,400 antisemitic tweets' worth of organized harassment rather than stay silent on a principle."
     anchor: 'what-is-ben-shapiros-personality-type'
-  - question: 'Why is Ben Shapiro typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Journalism, Writing, Podcasting.'
-    anchor: 'why-is-ben-shapiro-typed-as-an-enneagram-type-1'
+  - question: 'Why does Ben Shapiro talk so fast?'
+    answer: "The speed is trained, not tactical. For a Type 1, the worst case in any conversation is a bad argument landing uncorrected — so he names the error, names it again from another angle, and stacks a third frame on top. The form has a specific lineage: the Beit Midrash study hall of his yeshiva years, where paired students take Talmudic passages apart at speed, in voice, as a religious act. A Shapiro campus clip is recognizably that room exported into a theater."
+    anchor: 'the-real-reason-ben-shapiro-talks-so-fast'
+  - question: 'What happened in the Ben Shapiro BBC interview?'
+    answer: "In May 2019, Andrew Neil pressed Shapiro on past columns on Politics Live; Shapiro lost composure, said 'I'm popular and no one has ever heard of you,' and walked off. The more revealing moment came the next day: 'It's Neil 1, Shapiro 0. I broke my own rule,' he posted, conceding he had misread Neil's antagonism as leftism. The Type 1 put himself on trial, returned a guilty verdict, and published it."
+    anchor: 'the-bbc-interview-that-briefly-broke-him'
+  - question: 'Why did Ben Shapiro leave Breitbart?'
+    answer: "In March 2016, after Trump campaign manager Corey Lewandowski grabbed Breitbart reporter Michelle Fields and the site declined to defend her, Shapiro resigned as editor-at-large, calling Steve Bannon 'a bully' who had 'shaped the company into Trump's personal Pravda.' The cost: per the ADL's 2016 report, Shapiro became the single largest target of the alt-right's antisemitic harassment campaign — over 7,400 antisemitic tweets, roughly 38 percent of the tracked volume."
+    anchor: 'why-ben-shapiro-walks-away-from-his-closest-allies'
+  - question: 'Does Ben Shapiro work on the Sabbath?'
+    answer: "No. From Friday sundown to Saturday after dark he is fully offline — no travel, no technology, no tweets, no emergency calls. The Daily Wire, valued north of $1 billion by its 2023 raise, is structurally configured around its most valuable on-screen asset disappearing for twenty-five hours every week. The moral non-negotiable predates the company by twenty years."
+    anchor: 'how-ben-shapiro-built-the-daily-wire-around-his-sabbath'
 twitter: 'benshapiro'
 instagram: 'officialbenshapiro'
 production_pretext:

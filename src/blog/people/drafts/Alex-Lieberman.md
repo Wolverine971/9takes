@@ -19,8 +19,12 @@ occupation:
   - 'Entrepreneur'
   - 'Content Creator'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Digital media'
+  - 'Newsletter media'
+  - 'Audience building'
+  - 'Founder mental health'
+  - 'Business podcasting'
+  - 'B2B content marketing'
+  - 'Executive ghostwriting'
 keywords:
   - 'Alex Lieberman enneagram'
   - 'Alex Lieberman type 7'
@@ -38,12 +42,21 @@ citations:
   - 'https://www.instagram.com/businessbarista'
   - 'https://www.tiktok.com/@businessbarista'
 faqs:
-  - question: 'What is Alex Lieberman''s personality type?'
-    answer: 'Type 7s — the Enthusiast — are the head triad''s externalizers. The head triad is the anxiety triad. Sixes manage anxiety by scanning for danger. Fives manage it by withdrawing into the mind. Sevens manage it by going somewhere else — the next idea, the next project, the next possibility, the next plane ticket. The fear of being trapped in pain is the engine; the new thing is the exit.'
+  - question: "What is Alex Lieberman's personality type?"
+    answer: "Alex Lieberman is an Enneagram Type 7 (The Enthusiast), specifically a 7w6 social subtype. The pattern shows in the nightly panic attacks he hid while running Morning Brew, the regret-minimization calculation he ran before quitting Morgan Stanley, the $75M exit that made his happiness drop instead of rise, and the three podcasts he built so other anxious founders wouldn't sit alone with the feelings he spent years outrunning."
     anchor: 'what-is-alex-liebermans-personality-type'
-  - question: 'Why is Alex Lieberman typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Digital media.'
-    anchor: 'why-is-alex-lieberman-typed-as-an-enneagram-type-7'
+  - question: 'Why did Alex Lieberman feel like a failure after selling Morning Brew?'
+    answer: "After the $75M sale to Insider closed in October 2020, Lieberman stepped down as CEO at 28 and went from 70-hour weeks to an open calendar — the Type 7 disaster scenario. He wrote at the time: 'I didn't love myself. I felt lost. I felt self-conscious. I felt a lack of worth. I felt like a failure.' His identity was fused to being 'Alex, the CEO of Morning Brew,' and with the milestone reached, the grief his schedule had been hiding finally had room to walk in."
+    anchor: 'the-75m-exit-that-made-alex-lieberman-feel-like-a-failure'
+  - question: 'Does Alex Lieberman have anxiety and OCD?'
+    answer: "Yes — he has spoken openly about lifelong OCD that runs at a 'base level' and spikes under stress, plus a month of nightly panic attacks in 2018 while he was CEO of Morning Brew. The 2018 spike took the form of 'health OCD': weekly cardiologist visits and a fear of dying on the treadmill, a literal re-staging of his father's sudden ischemic stroke at 46. He has said managing the anxiety was at times 'absolutely my full-time job over running Morning Brew.'"
+    anchor: 'why-alex-lieberman-has-anxiety-ocd-and-panic-attacks'
+  - question: 'How did Alex Lieberman start Morning Brew?'
+    answer: "As a University of Michigan senior in 2015, he started a PDF newsletter called Market Corner for finance friends who found the Wall Street Journal dry and boring. A fraternity sophomore he'd never met, Austin Rief, answered his call for help and became co-founder. Lieberman worked on it two hours a day from his Morgan Stanley trading desk for sixteen months before quitting in 2016 — going from an $85,000 salary to $0, with his mother covering rent."
+    anchor: 'how-alex-lieberman-built-morning-brew-on-his-morgan-stanley-desk'
+  - question: 'What is Alex Lieberman doing now?'
+    answer: "He runs storyarb, a content agency he launched in 2023 that grew to an 18-person team at mid-seven-figure revenue, and hosts Founder's Journal, a podcast about the emotional rollercoaster of founding. He also created Imposters, a mental health interview show partnered with Project Healthy Minds. He married Carly in May 2023 and became a father in late 2024 — his stated north star is now 'to be a world-class family man & entrepreneur,' in that order."
+    anchor: 'imposters-founders-journal-storyarb-how-alex-lieberman-turned-the-grief-into-a-second-business'
 twitter: 'businessbarista'
 instagram: 'businessbarista'
 tiktok: 'businessbarista'

@@ -217,7 +217,7 @@
 		padding: 0.75rem;
 		background-color: var(--night-deep);
 		border: 1px solid var(--stone-edge);
-		border-radius: 0.9rem;
+		border-radius: 0.625rem;
 		font-size: 1rem;
 		color: var(--ink-bright);
 		transition: all 0.3s ease;

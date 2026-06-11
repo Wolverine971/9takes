@@ -501,7 +501,7 @@
 		height: 2.25rem;
 		background: transparent;
 		border: none;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		color: var(--ink-dim);
 		cursor: pointer;
 		transition: all 0.15s ease;
@@ -555,7 +555,7 @@
 		font-weight: 500;
 		color: var(--lamp-glow);
 		cursor: pointer;
-		border-radius: 0.375rem;
+		border-radius: 0.625rem;
 		transition: all 0.15s ease;
 
 		&:hover {
@@ -588,7 +588,7 @@
 		aspect-ratio: 1;
 		background: var(--stone-warm);
 		border: 2px solid var(--stone-warm);
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 
@@ -675,7 +675,7 @@
 		padding: 0.875rem 0.625rem;
 		background: var(--stone-warm);
 		border: 2px solid var(--stone-warm);
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 

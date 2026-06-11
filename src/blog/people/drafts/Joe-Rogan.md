@@ -37,12 +37,12 @@ occupation:
   - 'Taekwondo Athlete'
   - 'Kickboxer'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Podcasting'
+  - 'Long-form podcast interviewing'
   - 'Stand-up comedy'
-  - 'Television production'
-  - 'Fear Factor'
+  - 'MMA commentary'
+  - 'Brazilian jiu-jitsu'
+  - 'Bow hunting'
+  - 'Psychedelics and sensory deprivation'
 keywords:
   - 'Joe Rogan enneagram'
   - 'Joe Rogan type 8'
@@ -62,12 +62,21 @@ citations:
   - 'https://www.imdb.com/name/nm0736579/'
   - 'https://joerogan.com'
 faqs:
-  - question: 'What is Joe Rogan''s Personality Type?'
-    answer: 'Enneagram Eights are called "The Challenger." Their core fear: being controlled or harmed by others. Their core desire: protecting themselves and determining their own course.'
+  - question: "What is Joe Rogan's personality type?"
+    answer: "Joe Rogan is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the age-five 'don't ever cry' wiring he traces to his violent father, the four independent ventures (podcast, Onnit, UFC booth, Comedy Mothership) built so no one institution has leverage over him, trading Spotify exclusivity money for platform freedom, warning Phil Hartman five times to leave his wife, and going 'politically homeless' within eighteen months of endorsing Trump."
     anchor: 'what-is-joe-rogans-personality-type'
-  - question: 'Why is Joe Rogan typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Podcasting.'
-    anchor: 'why-is-joe-rogan-typed-as-an-enneagram-type-8'
+  - question: 'Why did Joe Rogan turn on Trump after endorsing him?'
+    answer: "After endorsing Trump days before the 2024 election, Joe began publicly torching the administration within months — calling ICE tactics 'the Gestapo,' deportations of non-criminals 'horrific,' Trump's Canada feud 'stupid,' and stating flatly that there was no evidence of 2020 election fraud. By April 2026 he declared himself 'politically homeless.' For an 8w7 that isn't flip-flopping — it's fierce loyalty to truth with no permanent loyalty to people."
+    anchor: 'joe-rogan-and-trump-why-he-wont-stay-loyal-to-any-tribe'
+  - question: 'Why did Joe Rogan give up his Spotify exclusivity?'
+    answer: 'In February 2024 he renegotiated his Spotify deal — up to $250 million, but without exclusivity, putting the show back on Apple Podcasts, YouTube, and Amazon Music simultaneously. He traded guaranteed exclusivity money for freedom across every platform, and by 2025 was #1 on Spotify for the sixth straight year while topping Apple and YouTube at the same time.'
+    anchor: 'the-spotify-standoff'
+  - question: 'What happened between Joe Rogan and Phil Hartman?'
+    answer: "As NewsRadio co-stars, Joe tried to persuade Hartman to divorce his wife Brynn five separate times, telling him directly the marriage wasn't safe. Hartman wouldn't leave because of his kids; in May 1998 Brynn shot him in their bed. Joe canceled a week of gigs and later said the death 'opened my eyes up to the actual real dangers of bad relationships.'"
+    anchor: 'why-other-peoples-pain-lands-so-hard'
+  - question: 'Why does Joe Rogan platform conspiracy theorists?'
+    answer: "He treats conversation like combat — 'mental jiu-jitsu' — and trusts himself to pressure-test wild ideas in real time, the way he's kept flat-earther Eddie Bravo and Alex Jones as friends while pushing back on air. He also names the limit himself: 'I'm not a doctor, I'm a f***ing moron... I'm not a respected source of information, even for me.'"
+    anchor: 'why-he-platforms-conspiracy-theorists'
 twitter: 'joerogan'
 instagram: 'joerogan'
 tiktok: ''

@@ -68,14 +68,21 @@ Marketing surfaces stripe everything by Enneagram type color, but actual comment
 Spec: 18px/1.55 at ~68ch. Reality:
 
 - MDsvex articles have **no max-width** in `blog.scss` → ~100ch at 16px; mobile paragraphs drop to 14.4px (`blog.scss:1165`).
-- Dossier body is 18px but ~90ch (`.breakdown-inner` 880px).
+- Dossier body is 18px but ~90ch (`.breakdown-inner` 880px). Worse: its paragraphs were actually **16px** — the global `p { font-size: 1rem }` in `index.scss` overrides the container's inherited 18px (direct rules beat inheritance). Same on pop-culture.
 
 68ch is the difference between "blog" and "publication." Highest-ROI typography fix remaining.
+
+**Status: ✅ FIXED 2026-06-09** — `--prose-measure` token added; applied to `.blog`, dossier `.article-body`, pop-culture `.article-content` (all centered). Bodies lifted to a true 18px (`font-size: inherit` on direct `p` rules to defeat the global pin); sub-16px mobile paragraph overrides removed. Tuned 68ch → 75ch after review: DJ found 68ch too tight on desktop.
 
 ### 🟠 High — Spec-vs-code schism on two locked rules
 
 - **Amber h1 never fires.** `design-system.md` §6 locks h1 = `--lamp-glow` once per page; every audited surface renders h1 in `--ink-bright`. Decide and ratify one side (ink-bright h1 + amber kickers may be the better look — if so, amend the doc).
 - **Body color is three values across four blog sections:** `--ink-mid` (community, guides), legacy `--neutral-700` (pop-culture), `--ink-bright` (dossier). The doc contradicts itself (§5 table: body = ink-mid; §6: body = ink-bright). Recommend `--ink-bright` body, `--ink-mid` captions.
+
+**Status: ✅ FIXED 2026-06-09** — both rules ratified in `design-system.md` (§5 ink table + §6 color rules + changelog):
+
+- **h1 = `--ink-bright`** (code side ratified, spec amended). The amber brand moment is the mono kicker, not the h1. No code change needed — production was already uniform.
+- **Body = `--ink-bright`** everywhere; `--ink-mid` reserved for captions/metadata/secondary voice (blockquotes keep `--ink-mid` deliberately). Swept: community + how-to-guides (`.blog` was `--ink-mid`), enneagram-corner (`.article-body` was `--ink-mid`), pop-culture (root, `.article-content`, `p`, `ul/ol` were legacy `--neutral-700`). Dossier was already correct. Mental-health resource-card captions stay `--ink-mid` (correct usage; top-traffic page kept light-touch).
 
 ### 🟡 Medium — Retired teal still haunts the codebase: 107 references
 
@@ -88,13 +95,31 @@ Spec: 18px/1.55 at ~68ch. Reality:
 
 One grep-driven sweep fixes all of it.
 
+**Status: ✅ FIXED 2026-06-10** — full sweep across ~35 files. Data/stat moments (key-stat, HornevianMatrix, StatCard, corpus-stats, EnneagramDiagram) tokenized to the sanctioned `--data-teal` family; everything decorative/brand (callout borders, pull-quote gradients, glows, hovers, scrollbars, search highlights, signup boxes, QR code, primary spinner, `--glass-border`, `--accent-rgb`) moved to lamp/stone tokens. Remaining matches in `src/`: zero, except the exempt print/poster asset skins (`questionPrintBackgrounds.ts`, poster-generator) and explanatory comments. Styleguide swatches updated to current token values.
+
 ### 🟡 Medium — The callout zoo (repetition)
 
 ~8 Svelte callouts + ~13 CSS-only furniture classes in `blog.scss` with radii of 4/6/8/10/12/14px (locked: 4/10/16), icons split between stroked SVG and raw emoji (💭 ℹ️ 🐇), static boxes carrying drop shadows. Three competing "related posts" patterns when listing pages already define the canonical card. Consolidate onto one `Callout` base (one radius, one left-accent, mono kicker label) + tone variants.
 
+**Status: ✅ ALIGNED 2026-06-10** — all callouts + furniture normalized to one visual language: radii on the locked scale (boxes 10px, large CTAs 16px, badges 4px, true pills full), static container shadows removed (borders are the elevation; hover/focus shadows kept on interactive elements), colors tokenized (teal→lamp or data-teal by role, greens→`--success`, dialogue rose→`--data-cyan`). _Structural_ consolidation into a single `<Callout>` base component remains future work (API refactor, not a style fix); emoji→SVG icon unification deferred with it.
+
+**Status: ✅ CONSOLIDATED 2026-06-11** — structural work done:
+
+- New base: `src/lib/components/blog/callouts/Callout.svelte` — one shell (10px radius, 1px tone border, 4px left accent, **mono kicker label** in the system voice, shared prose styles) with tones `lamp / success / warning / error / data / neutral` mapped to the V5 palette.
+- Six informational callouts now render through it with unchanged public props: `QuickAnswer` (keeps schema.org Question/Answer markup), `InsightBox` (tone map: info→lamp), `Checklist` (title→kicker label; checkmark now dark-on-amber per CTA contrast rule), `TypeQuotes` (title→kicker; bare `minimal` variant kept), `VisualMetaphor` (floating icon disc kept as signature), `CorpusStatCallout` (**tone=data** — was an off-palette orange `--shadow-flame`; stats are data moments, now `--data-teal`).
+- `BookSessionCTA` / `EnneagramTypingFlow` intentionally NOT converted — they're conversion banners, a different category.
+- Emoji→SVG: the three `blog.scss` furniture emoji (💭 inner-thought, ℹ️ aside-box, 🐇 rabbit-hole) replaced with stroked-SVG CSS masks tinted by tokens.
+
 ### 🟡 Medium — Radius drift hides in scoped SCSS
 
 `pnpm lint:radius` only catches Tailwind classes. Raw CSS carries 6/8/12px, 0.5rem, 0.95rem, 1.2rem, 1.35rem across Header, Footer, MobileNav, homepage cards, QuestionContent. Cards split between an 8px and the locked 16px language. Extend the lint to style blocks.
+
+**Status: ✅ FIXED 2026-06-10** — two-part fix:
+
+1. **Root cause**: the legacy `--border-radius` token was itself 8px and `--border-radius-lg` was 12px — every consumer was off-scale by inheritance. Retoken'd to 10px/16px (one edit fixed dozens of call sites). Named offenders hand-fixed: Header (Library button/menu/items, account button), Footer social buttons, MobileNav buttons/CTAs, homepage cards (8px→16px cards, take/library/primer), questions index note box, question slug panels (12px→16px).
+2. **Lint extended with a ratchet**: `lint-radius.js` now scans raw `border-radius:` declarations in svelte/scss/css (allowed: 4/10/16px + rem twins, 0, pills, `var()`/`calc()`-derived; print/email/social-asset dirs exempt). Backlog measured at **527** and ratcheted — the build fails if the count rises; lower `CSS_RATCHET_BASELINE` as files get fixed.
+
+**Status: ✅ BURNED DOWN 2026-06-11** — the full 527-declaration backlog is fixed: ~272 in admin routes, ~106 in user-facing routes, ~150 in `src/lib` + shared SCSS (incl. the widely-used `dark-card`/`dark-input` mixins), plus the styleguide/`index.scss` stragglers. Role-based mapping throughout (chips/inputs→10px, cards/panels→16px, pill-intent→9999px, hairlines→4px or sharp). Lint tokenizer fixed for nested `calc(var() - X)`. **`CSS_RATCHET_BASELINE` is now 0 — raw CSS radii are fully enforced**, same as the class lint.
 
 ### 🟡 Medium — Header cluster
 
@@ -102,31 +127,39 @@ One grep-driven sweep fixes all of it.
 - JS-driven responsive branching (`innerWidth < 900`, SSR default 1200) → mobile users get desktop markup that swaps after hydration (CLS). Same pattern in `QuestionDisplay`'s 9-breakpoint JS font-size table — should be `clamp()`.
 - Nav labels disagree with footer for same destinations ("Questions" vs "Question List", "9takes Opinions" vs "The Takes of 9takes"). Footer links `/blog`, absent from header.
 
+**Status: ✅ FIXED 2026-06-10** —
+
+- Library button flattened: no static shadow/inset/hover-lift, 1px stone-edge border, locked 10px radius, solid surface — it now sits below the Log in CTA in visual weight. Library menu is proper floating UI: solid `--stone-warm`, `var(--shadow-lg)`, 16px radius, no backdrop blur/gradients.
+- Header responsive switch moved from JS (`innerWidth < 900`, SSR default 1200) to CSS media queries — both layouts render, CSS picks one, so SSR HTML is correct at every width (no hydration swap/CLS). `QuestionDisplay`'s 9-breakpoint JS font table became length-tiered CSS `clamp()` — same endpoints, SSR-correct.
+- One label per destination, shared header/footer: "Questions", "The Takes of 9takes", "Enneagram Corner", "Pop Culture", "Personality Analysis"; header Library gained "How-to Guides" (was footer-only). Footer blurb swapped to the locked brand one-liner.
+
 ### 🟡 Medium — Token-drift sweep results (quantified)
 
-| Category | Count | Status |
-| --- | --- | --- |
-| V5 token references | 4,533 | ✅ excellent |
-| Raw hex in classes (`bg-[#…]`) | 0 | ✅ |
-| Banned Tailwind radii | 0 active | ✅ |
-| Raw color-name classes (gray/red/blue/…) | 47 | 🟡 worst: `BlogDiffViewer` (15), `Comment` (13), `ErrorBoundary` (8) |
-| Arbitrary shadows (`shadow-[0_0…]`) | 3 | 🟡 `SmallPopCard` ×2, `ErrorBoundary` |
-| Off-scale spacing (`p-5`) | 8 | 🟡 |
-| Retired fonts (Noticia) | 8 | 🟢 all in asset generators (intentional) |
-| Rose/purple as UI chrome | ~10 | ✅ confined to data viz / admin |
+| Category                                 | Count    | Status                                                               |
+| ---------------------------------------- | -------- | -------------------------------------------------------------------- |
+| V5 token references                      | 4,533    | ✅ excellent                                                         |
+| Raw hex in classes (`bg-[#…]`)           | 0        | ✅                                                                   |
+| Banned Tailwind radii                    | 0 active | ✅                                                                   |
+| Raw color-name classes (gray/red/blue/…) | 47       | 🟡 worst: `BlogDiffViewer` (15), `Comment` (13), `ErrorBoundary` (8) |
+| Arbitrary shadows (`shadow-[0_0…]`)      | 3        | 🟡 `SmallPopCard` ×2, `ErrorBoundary`                                |
+| Off-scale spacing (`p-5`)                | 8        | 🟡                                                                   |
+| Retired fonts (Noticia)                  | 8        | 🟢 all in asset generators (intentional)                             |
+| Rose/purple as UI chrome                 | ~10      | ✅ confined to data viz / admin                                      |
+
+**Status: ✅ FIXED 2026-06-10** — all 47 raw color-name classes mapped to semantic ramps/tokens (`BlogDiffViewer` → success/error/warning/neutral ramps; `ErrorBoundary` → error tokens, arbitrary glow removed; `CategoryTree`/`MetadataSidebar`/`ContentEditorModal`/`WordCloud`/enneagram-test → ink/lamp/stone vars). 3 arbitrary shadows → `var(--glow-sm/md)` or removed. `p-5` → `p-lg` (both sites). Verification greps clean.
 
 ### 🟢 Smaller items
 
-- § numbering skips §05 on listing pages — FAQ section has no kicker; in a numbered system a missing number reads as an error.
-- `EnneagramTypeDossier` (densest, best dossier component) ships on enneagram-corner, while `/personality-analysis` body is generic prose — the variant's strongest material is on the wrong surface.
-- Glows on static decorative connector lines; amber hover-borders on non-clickable stat blocks (false affordance) — homepage.
-- `.display-xl`/`.mono` type classes copy-pasted into three route files — promote to global utilities.
-- Footer brand blurb is the generic-SaaS voice the brand doc bans — swap for the locked one-liner.
-- `MobileNavNew.svelte` consumes legacy bridge tokens scheduled for Phase-7 deletion.
-- Junk markup in article templates: `<hr style="margin: 5rem;" />`, `style="align-items: inherit;"`.
-- Question detail: dead "Visuals" tab (permanently empty), "Removed Comments" gets equal billing with the thread — cut/demote.
-- Mobile library grid: 3-across under 640px at 12.5px names — 2-across would fix legibility.
-- Five listing pages are ~1,000-line near-clones; label drift already visible. Extract `CaseCard`/`CaseGrid`/`IndexHero`.
+- ~~§ numbering skips §05 on listing pages~~ ✅ 2026-06-10 — `FAQSection` gained a `num` prop rendering the standard `SectionKicker` (replaces its old "?" icon badge when set); community / how-to-guides / enneagram-corner pass `num="05"`. The §01–§06 sequence is now unbroken.
+- ~~`EnneagramTypeDossier` on the wrong surface~~ ✅ 2026-06-10 — `/personality-analysis/[slug]` now renders the type dossier panel (from `enneagramTypeProfiles`) after the article body, introduced by a `tone="data"` kicker (`TYPE DOSSIER · <TYPE NAME>`), with a CTA bridging to the enneagram-corner type pillar. The dossier surface finally has dossier density — and a new internal link to the pillar on every analysis.
+- ~~Glows on static connector lines; false-affordance stat hovers~~ ✅ 2026-06-10 — three `box-shadow: 0 0 1Npx amber` removed from decorative `::before/::after` lines; `.compiled-stat` hover border removed (non-clickable).
+- ~~`.display-xl`/`.display-md`/`.mono` copy-pasted~~ ✅ 2026-06-10 — promoted to global utilities in `index.scss` (V5 type scale); the three identical route copies removed. Other pages' local copies are redundant-but-identical and can be deleted opportunistically.
+- ~~Footer brand blurb~~ ✅ 2026-06-10 — swapped for the locked one-liner ("See the emotions behind every take. One situation, nine ways to see it.").
+- ~~`MobileNavNew.svelte` legacy bridge tokens~~ ✅ 2026-06-10 — `--card-background`→`--stone-warm`, `--light-gray`→`--stone-mid`, `--lightest-gray`→`--night-mid`. Phase-7 token deletion no longer breaks it.
+- ~~Junk markup in article templates~~ ✅ 2026-06-10 — `align-items: inherit` divs stripped; `<hr style="margin: 5rem;">` → a proper `.section-divider` (prose-width 1px stone-edge rule) in community + how-to-guides.
+- ~~Question detail: dead "Visuals" tab / "Removed Comments" equal billing~~ ✅ 2026-06-10 — Visuals tab deleted (was permanently empty); Removed Comments demoted from tab to a quiet `<details>` disclosure at the bottom of the thread (renders only when removed comments exist). Tabs are now Comments · Articles.
+- ~~Mobile library grid 3-across~~ ✅ 2026-06-10 — 2-across under 640px; names 12.5px→15px, subtitles 10.5px→12px.
+- ~~Five listing pages are ~1,000-line near-clones~~ ✅ 2026-06-10 — extracted `marketing/CaseCard.svelte`, `marketing/CaseGrid.svelte`, `marketing/IndexHero.svelte` (607 lines total, one source of truth) and converted all five pages: **−2,308 net lines** (343 added, 2,651 deleted). CaseCard carries the type-stripe hook (`stripe` prop → PA passes `var(--type-N-color)`), featured variant, recency/date meta, and the mobile tightening; IndexHero carries grain/pool/scale-marker/statue + optional `meta` snippet (enneagram-corner's Published/Updated row). Documented exceptions kept local: pop-culture + how-to-guides single-featured 880px wrappers (server returns 1 card; `columns={2}` would half-width it) and enneagram-corner's fixed 3×3 nine-types `.topic-grid`. PA grids use `columns={3}` (fixed 3-up, matching its original portrait layout).
 
 ---
 
@@ -142,7 +175,7 @@ One grep-driven sweep fixes all of it.
 
 1. ~~Un-letterbox the content routes (`+layout.svelte:47`)~~ ✅ 2026-06-09
 2. ~~V5 pass on the question thread + type-stripe comments~~ ✅ 2026-06-09
-3. Prose measure: `--prose-measure: 68ch` token → `.blog`, `.article-body`, `.breakdown-inner`; lift MDsvex body to 18px; kill sub-16px mobile paragraphs.
-4. Ratify the two contested rules (h1 amber, body color) in `design-system.md`, then sweep.
-5. Grep sweep: 107 retired-teal refs + 47 raw color classes + 3 arbitrary shadows (worst: `Comment.svelte`, `BlogDiffViewer.svelte`, `ErrorBoundary.svelte`, `blog.scss`, callouts).
-6. Consolidate the callout zoo; extend `lint:radius` to scoped styles.
+3. ~~Prose measure: `--prose-measure: 68ch` token → `.blog`, `.article-body`, pop-culture `.article-content`; lift bodies to 18px; kill sub-16px mobile paragraphs~~ ✅ 2026-06-09
+4. ~~Ratify the two contested rules (h1 amber, body color) in `design-system.md`, then sweep~~ ✅ 2026-06-09
+5. ~~Grep sweep: 107 retired-teal refs + 47 raw color classes + 3 arbitrary shadows~~ ✅ 2026-06-10
+6. ~~Callout zoo visual alignment; `lint:radius` extended to scoped styles (ratchet at 527)~~ ✅ 2026-06-10 — _remaining_: structural `<Callout>` base component, emoji→SVG icons, burn down the 527 radius backlog.

@@ -1,4 +1,5 @@
 <!-- .claude/commands/blog_content_creator_people_v2.md -->
+
 # Blog Content Creator (v2)
 
 You are tasked with researching, drafting, and refining celebrity personality analysis blogs for the 9takes platform. This command owns the writing-side workflow: research synthesis, Enneagram analysis, draft, revision, frontmatter, and internal linking.
@@ -157,6 +158,41 @@ Every word must do work. Long paragraphs hide weak thinking. Compression signals
 - **Narrow beats broad.** Strength of an idea is inversely proportional to its scope. "How Taylor Swift wrote a break-up album that outsold her break-ups" beats "How Taylor Swift processes emotion."
 
 **Where it applies:** every paragraph, every heading, every transition. Apply this principle last — after the story is in place — to tighten without gutting voice.
+
+---
+
+## AI Language Ban (canonical list)
+
+This list is **canonical** — `cohesion-check`, `second_pass`, and `editor_pass` enforce the same list downstream, and `scripts/blog-lint.sh` checks the mechanical parts of it. The cheapest place to comply is here, at generation time. Do not write these patterns in the first place.
+
+**Punctuation:**
+
+- **No em-dashes (—) in prose.** Use periods, commas, colons, or rewrite the sentence. The one exception is quote-attribution lines (`"…" — John Ternus, Penn commencement, 2024`), which are standard typography. `blog-lint.sh` fails the draft on any prose em-dash.
+
+**Words and phrases (cut on sight):**
+
+- "Moreover," "Furthermore," "Additionally," "Indeed,"
+- "It's worth noting" / "It bears mentioning" / "Notably,"
+- "Delve," "delve into"
+- "Tapestry," "landscape," "multifaceted," "myriad"
+- "In essence," "Essentially," "Fundamentally,"
+- "This underscores," "This highlights," "This speaks to"
+- "Resonates," "resonance" (metaphorical)
+- "Nuanced," "nuance" (as filler praise)
+- "Pivotal," "crucial" (when cuttable without loss)
+- "Navigate" (when not about physical movement)
+- "Robust," "comprehensive," "holistic"
+- "Serves as a testament to"
+- "A closer look reveals"
+
+**Structures:**
+
+- Consecutive sentences starting with vague "This..."
+- Escalating tricolons ("not just X, but Y, and ultimately Z")
+- Rhetorical questions answered immediately in the same breath
+- Restatement paragraphs and symmetrical fake-profundity phrasing
+
+**Exception:** direct quotes from sources are never altered. If the subject said "delve," keep it — it's evidence.
 
 ---
 
@@ -1180,6 +1216,7 @@ Before finalizing any blog (new or updated). Every item must pass. Items marked 
 
 - [ ] **[H] No meta-commentary openings** — no "In this post...", "Let's dive into...", "Before we get started...", "By the end of this article...". The opening drops into the insight or scene.
 - [ ] **[H] No filler phrases** — scrub "it's important to note that," "at the end of the day," "in many ways," "needless to say."
+- [ ] **AI Language Ban clean** — no prose em-dashes (quote attributions exempt), none of the banned words/phrases/structures from the canonical list above. Verify mechanically: `./scripts/blog-lint.sh [Person-Name]` must not fail on em-dash or banned-phrase checks.
 - [ ] **[H] Kaplan's Law check** — every sentence earns its place. Cut any sentence that could be deleted without loss.
 - [ ] **[H] Paragraph length** — no paragraph over ~4 lines unless the rhythm demands it. Dense blocks broken up.
 - [ ] **[H] First line sells second line** — the opening sentence creates enough pull that the reader wants the second. The second pulls into the third.

@@ -28,12 +28,11 @@ occupation:
   - 'Executive Producer'
   - 'Film Producer'
 knows_about:
-  - 'Screenwriting'
-  - 'Film acting'
-  - 'Modeling'
-  - 'Film production'
-  - 'Television acting'
-  - 'Acting'
+  - 'Physical transformation for roles'
+  - 'Character voice work'
+  - 'Brazilian jiu-jitsu'
+  - 'Dog rescue advocacy'
+  - 'Addiction recovery'
 keywords:
   - 'Tom Hardy enneagram'
   - 'Tom Hardy type 8'
@@ -49,12 +48,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q208026'
   - 'https://www.imdb.com/name/nm0362766/'
 faqs:
-  - question: 'What is Tom Hardy''s personality type?'
-    answer: 'Tom Hardy is analyzed as an Enneagram Type 8 (Challenger). The profile connects that type pattern to Tom Hardy has spent decades building armor around the frightened boy who once felt small, preyed on, and close to death.'
-    anchor: 'what-is-tom-hardys-personality-type'
-  - question: 'Why is Tom Hardy typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Screenwriting, Film acting, Modeling.'
-    anchor: 'why-is-tom-hardy-typed-as-an-enneagram-type-8'
+  - question: "What is Tom Hardy's personality type?"
+    answer: "Tom Hardy is an Enneagram Type 8 (The Challenger). The pattern shows in his own admission that 'everything that I play is what scared me' — the boy who felt small, skinny, and preyed upon built armor through 42 pounds of muscle for Bronson, voices engineered as psychological weapons, a crack addiction pushed to the limit before 20-plus years of sobriety, and a competitive Brazilian jiu-jitsu purple belt at 47."
+    anchor: 'the-type-8-pattern-fear-transformed-into-power'
+  - question: 'Why does Tom Hardy physically transform for every role?'
+    answer: "Hardy traced it to childhood fear: 'I remember being frightened a lot, of being small and skinny and vulnerable... everything that I play is what scared me.' Rebuilding his body — 42 pounds of muscle for Bronson, 30 for Bane, lean and sinewy for Warrior — constructs external armor, the psychological fortification made visible."
+    anchor: 'the-body-as-armor'
+  - question: 'Was Tom Hardy addicted to drugs?'
+    answer: "Yes. By 25 he had bottomed out on alcohol and crack cocaine — his own words: 'I would have sold my mother for a rock of crack.' His five-year first marriage to Sarah Ward collapsed during that period, ending the same year he got sober. He has been clean since 2003 and credits the battle for sobriety as the foundation for everything that followed."
+    anchor: 'the-crucible-addiction-destruction-and-sobriety'
+  - question: 'What happened between Tom Hardy and Charlize Theron on Mad Max: Fury Road?'
+    answer: "Hardy arrived three hours late to an 8 a.m. call; Theron confronted him publicly, demanded he be fined, and eventually asked a producer to shadow her on set, saying 'I didn't feel safe.' Years later both owned their part — Hardy apologized at Cannes and admitted 'I was in over my head in many ways,' while Theron acknowledged she lacked empathy for the pressure of stepping into Mel Gibson's shoes."
+    anchor: 'when-intensity-becomes-liability'
+  - question: 'Does Tom Hardy actually compete in jiu-jitsu?'
+    answer: "Yes — he holds a purple belt, awarded in June 2023 by Roger Gracie black belt Tomasz Rydzewski, and won gold medals at multiple REORG tournaments in 2022 and 2023. REORG, which helps military personnel and first responders use jiu-jitsu for rehabilitation, is also one of his main charitable commitments; he competes wearing their gear."
+    anchor: 'the-body-as-armor'
 twitter: ''
 instagram: ''
 tiktok: ''

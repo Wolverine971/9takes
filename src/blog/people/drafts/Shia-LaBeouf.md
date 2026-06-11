@@ -28,12 +28,11 @@ occupation:
   - 'Screenwriter'
   - 'Film Producer'
 knows_about:
-  - 'Film directing'
-  - 'Voice acting'
-  - 'Film acting'
-  - 'Television acting'
-  - 'Screenwriting'
-  - 'Film production'
+  - 'Method acting'
+  - 'Performance art'
+  - 'Autobiographical screenwriting (Honey Boy)'
+  - 'Community theater (Slauson Rec)'
+  - 'Addiction recovery'
 keywords:
   - 'Shia LaBeouf enneagram'
   - 'Shia LaBeouf type 8'
@@ -51,12 +50,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q180942'
   - 'https://www.imdb.com/name/nm0479471/'
 faqs:
-  - question: 'What is Shia LaBeouf''s personality type?'
-    answer: 'The surface read is chaos. But the pattern underneath is organized around a single axis: who controls the story.'
+  - question: "What is Shia LaBeouf's personality type?"
+    answer: "Shia LaBeouf is an Enneagram Type 8 (The Challenger), organized around a single axis: who controls the story. The pattern shows in confessions that are always louder than the offenses — the skywritten 'I'M SORRY DANIEL CLOWES,' the paper bag reading 'I AM NOT FAMOUS ANYMORE,' the podcast confessions that out-escalate every accusation — plus the tooth he pulled with pliers and the cheek he sliced open for Fury. The moment he senses he's about to be exposed, he exposes himself first, harder than anyone else could."
     anchor: 'what-is-shia-labeoufs-personality-type'
-  - question: 'Why is Shia LaBeouf typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Film directing, Voice acting, Film acting.'
-    anchor: 'why-is-shia-labeouf-typed-as-an-enneagram-type-8'
+  - question: 'Did Shia LaBeouf recant Honey Boy?'
+    answer: "Effectively, yes. He wrote the screenplay in court-ordered rehab after being diagnosed with PTSD, casting himself as his own father — the addict, clown, and acting coach. Then on the Real Ones podcast in August 2022 he reversed course, saying his father 'never was not loving and never was not there,' and that the film cast himself as 'this wounded, fractured child that you could root for': 'I wronged him. I was using him.'"
+    anchor: 'the-screenplay-he-wrote-in-rehab'
+  - question: "What happened with FKA Twigs' lawsuit against Shia LaBeouf?"
+    answer: "In December 2020 she sued him alleging relentless abuse — throwing her against a car, attempted strangulation, reckless-driving threats, knowingly transmitting an STD. LaBeouf did not contest the core allegations ('I hurt that woman... I'm going to owe for the rest of my life'), then reframed her as 'a saint in my life' who saved him. The lawsuit settled confidentially in July 2025 with terms never disclosed."
+    anchor: 'the-woman-he-calls-a-saint'
+  - question: 'Is Shia LaBeouf actually Catholic now?'
+    answer: "Yes. While preparing to play Padre Pio — a role he took for no salary — director Abel Ferrara sent him to live with Franciscan friars, and he stayed four months. Bishop Robert Barron confirmed him at Old Mission Santa Ines on New Year's Eve 2023, he ran a sixty-person daily AA group on Zoom, and his Capuchin spiritual guide said he spontaneously declared, 'I want to become a deacon.' The conversion came after a bottom he described as having 'a gun on the table.'"
+    anchor: 'the-gun-on-the-table'
+  - question: 'Why was Shia LaBeouf arrested at Mardi Gras in 2026?'
+    answer: "On February 17, 2026, ten days after being filmed talking to strangers about church on a New Orleans street, he was arrested outside R Bar at 12:45 AM for headbutting a man and punching bar patrons — two counts of simple battery, with reports he shouted homophobic slurs. After release he posted 'free me' on X, was spotted dancing on Bourbon Street with his jail paperwork in his teeth, and walked into a church the next morning."
+    anchor: 'mardi-gras'
 twitter: ''
 instagram: ''
 tiktok: ''

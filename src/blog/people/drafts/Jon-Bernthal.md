@@ -26,12 +26,12 @@ occupation:
   - 'Film Actor'
   - 'Stage Actor'
 knows_about:
-  - 'Acting'
-  - 'Television acting'
-  - 'Film acting'
-  - 'Actor'
-  - 'Television Actor'
-  - 'Film Actor'
+  - 'Antihero screen roles'
+  - 'Stanislavski acting technique'
+  - 'Boxing'
+  - 'Podcast interviewing'
+  - 'Community theater production'
+  - 'Foster care advocacy'
 keywords:
   - 'Jon Bernthal enneagram'
   - 'Jon Bernthal type 8'
@@ -49,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q362616'
   - 'https://www.imdb.com/name/nm1256532/'
 faqs:
-  - question: 'What is Jon Bernthal''s personality type?'
-    answer: 'The pattern running through Bernthal''s life isn''t random aggression. It''s the architecture of a man whose first instinct is to scan every environment for threats, protect anyone in his orbit, and convert vulnerability into forward motion.'
+  - question: "What is Jon Bernthal's personality type?"
+    answer: "Jon Bernthal is an Enneagram Type 8 (The Challenger). The pattern shows in the fourteen broken noses and jail at seventeen, the 2009 Venice Beach fight that pushed him into sobriety, confronting Kevin Spacey's bullying on the Baby Driver set, the anger journal he still keeps, and a filmography of protectors who crossed the line — Shane Walsh, Frank Castle, Wayne Jenkins."
     anchor: 'what-is-jon-bernthals-personality-type'
-  - question: 'Why is Jon Bernthal typed as an Enneagram Type 8?'
-    answer: 'The Type 8 Challenger case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television acting, Film acting.'
-    anchor: 'why-is-jon-bernthal-typed-as-an-enneagram-type-8'
+  - question: 'How did Jon Bernthal get sober?'
+    answer: "In 2009 on Venice Beach, Bernthal knocked out a drunk stranger who tried to steal his dog; a police officer told him, 'If that guy doesn't wake up, you're going away for life.' The man woke up, and Bernthal got sober on July 3, 2009. He went to anger management, started an anger journal he still maintains, and replaced bar fights with boxing."
+    anchor: 'what-sobriety-actually-cost-him'
+  - question: 'Why does Jon Bernthal always play violent protectors?'
+    answer: "Because they're the same story in different costumes — Shane Walsh's love curdling into possession, Frank Castle converting grief into endless war, Wayne Jenkins becoming the thing Baltimore needed protection from. 'I don't believe in monsters,' Bernthal says. He doesn't play bad men; he plays men whose goodness broke — versions of the man he almost became."
+    anchor: 'shane-frank-and-the-monsters-he-doesnt-believe-in'
+  - question: 'Why did Jon Bernthal drop out of First Man?'
+    answer: "In 2017 his two-year-old daughter Adeline had a seizure, fell into a three-day coma, and was diagnosed with encephalitis. Bernthal dropped out of Damien Chazelle's film immediately — no hesitation, no negotiation, no career math. Adeline made a full recovery."
+    anchor: 'when-adeline-fell-into-a-coma'
+  - question: 'Did Jon Bernthal really train at the Moscow Art Theatre?'
+    answer: "Yes. His first acting teacher, Alma Becker — whose name he has tattooed on his body — sent him to the Moscow Art Theatre School at twenty-three, where he trained under Oleg Tabakov in a program he called 'more rigorous than boxing... super unbelievably cut throat.' He even played catcher for a professional Russian baseball team to make extra rubles."
+    anchor: 'the-teacher-who-sent-him-to-russia'
 twitter: ''
 instagram: '@jonnybernthal'
 tiktok: ''

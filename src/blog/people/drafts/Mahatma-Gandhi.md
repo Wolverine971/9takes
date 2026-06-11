@@ -31,12 +31,11 @@ occupation:
   - 'Philosopher'
   - 'Autobiographer'
 knows_about:
-  - 'Politics'
-  - 'Journalism'
-  - 'Writing'
-  - 'Philosophy'
-  - 'Jurisprudence'
-  - 'Pacifism'
+  - 'Satyagraha (nonviolent resistance)'
+  - 'Civil disobedience campaigns'
+  - 'Political fasting'
+  - 'Ascetic self-discipline'
+  - 'Indian independence movement'
 keywords:
   - 'Mahatma Gandhi enneagram'
   - 'Mahatma Gandhi type 1'
@@ -54,12 +53,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q1001'
   - 'https://www.imdb.com/name/nm0003987/'
 faqs:
-  - question: 'What Is Mahatma Gandhi''s Personality Type?'
-    answer: 'Mahatma Gandhi mapped onto Enneagram Type 1, the Reformer. Not the gentle saint of the postcards — the moral perfectionist underneath, with an inner critic loud enough to drown out an empire.'
+  - question: "What is Mahatma Gandhi's personality type?"
+    answer: "Mahatma Gandhi maps onto Enneagram Type 1 (The Reformer). The pattern shows in an autobiography literally titled The Story of My Experiments with Truth, the teenage confession letter he handed his dying father after stealing gold, the ashram regime of 4 a.m. rising and audited spinning quotas, and his habit of reprinting his own early racist essays and correcting himself in public across decades — an inner critic that never stopped auditing the prior self."
     anchor: 'what-is-mahatma-gandhis-personality-type'
-  - question: 'Why is Mahatma Gandhi typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Politics, Journalism, Writing.'
-    anchor: 'why-is-mahatma-gandhi-typed-as-an-enneagram-type-1'
+  - question: 'Did Gandhi really refuse penicillin for his dying wife?'
+    answer: "Yes. In early 1944, with Kasturba dying at the Aga Khan Palace, their son Devadas pleaded for penicillin; Gandhi refused, saying it would be against his principles to inject something into her body, and approved Ganges water and traditional remedies instead. She died on 22 February 1944. Six weeks later Gandhi caught malaria, his doctors prescribed quinine, and he took it."
+    anchor: 'mahatma-gandhi-and-his-family-what-kasturba-and-harilal-paid'
+  - question: "What were Gandhi's brahmacharya experiments?"
+    answer: "In late 1946, at seventy-seven, Gandhi began sleeping naked beside young women in his entourage — including his grandnieces Manu and Abha — to test whether he could lie next to them without sexual response, believing his purity powered his nonviolence. His secretary Nirmal Kumar Bose protested in writing, observed 'emotional unbalance to the point of neurosis' in the women involved, failed to persuade him to stop, and resigned. Other long-time aides quit as well."
+    anchor: 'mahatma-gandhis-brahmacharya-experiments'
+  - question: 'Why did Ambedkar oppose Gandhi?'
+    answer: "When the 1932 Communal Award granted Dalits separate electorates — the largest constitutional gain they had ever won — Gandhi announced a fast unto death against it from Yerwada jail. Ambedkar signed the Poona Pact four days into the fast, trading separate electorates for reserved seats, and found Gandhi's 'Harijan' label patronizing. He spent the next twenty-four years arguing Gandhi was a moral obstacle, and in 1956 led roughly half a million Dalits out of Hinduism into Buddhism."
+    anchor: 'why-mahatma-gandhi-could-not-hear-ambedkar'
+  - question: 'Why was Gandhi assassinated?'
+    answer: "In mid-January 1948 Gandhi fasted for five days to force the Indian government to release ₹55 crore it was withholding from Pakistan during the Kashmir war; the cabinet capitulated in four days. On 30 January 1948, Hindu nationalist Nathuram Godse shot him three times at his evening prayer meeting at Birla House, naming that fast and what he called Gandhi's lifelong appeasement of Muslims as his motive in court."
+    anchor: 'how-mahatma-gandhi-broke-at-partition'
 twitter: ''
 instagram: ''
 tiktok: ''

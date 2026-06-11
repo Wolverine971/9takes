@@ -28,12 +28,11 @@ occupation:
   - 'Television Producer'
   - 'TikToker'
 knows_about:
-  - 'Acting'
-  - 'Television production'
-  - 'Influencer'
-  - 'Vlogger'
-  - 'Dancer'
-  - 'Actor'
+  - 'Competitive dance'
+  - 'TikTok content creation'
+  - 'Broadway musical performance'
+  - 'Reality television'
+  - 'Mental health advocacy'
 keywords:
   - 'Charli D''Amelio enneagram'
   - 'Charli D''Amelio type 9'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm11413612/'
   - 'https://www.charlidamelio.com/'
 faqs:
-  - question: 'What is Charli D''Amelio''s Personality Type?'
-    answer: 'Enneagram Type 9s fear loss and separation. That fear manifests as a deep need to keep things peaceful, both inside and out. They minimize their own importance. They merge with the identities and agendas of people around them. Under extreme stress, they dissociate. They literally lose themselves.'
+  - question: "What is Charli D'Amelio's personality type?"
+    answer: "Charli D'Amelio is an Enneagram Type 9 (The Peacemaker), specifically a 9w1. The pattern shows in her two-selves split ('I'm not even Charli anymore'), the merge with her family-run brand, stepping aside instead of defending herself in the Renegade credit controversy, dancing with bleeding feet on DWTS without complaining once, and her self-described cycle of quitting when she gets nervous and always coming back."
     anchor: 'what-is-charli-damelios-personality-type'
-  - question: 'Why is Charli D''Amelio typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Television production, Influencer.'
-    anchor: 'why-is-charli-damelio-typed-as-an-enneagram-type-9'
+  - question: "Why did Charli D'Amelio have 15 panic attacks a day?"
+    answer: 'At sixteen, just as she became the first creator to pass 100 million TikTok followers, she hit the lowest point of her life — fifteen panic attacks a day and telling Jay Shetty she did not even want to be here anymore. She went viral at fifteen, before she had formed a stable identity, so the fame did not interrupt her sense of self — it replaced it. She also lives with Pure O (purely obsessional OCD), ADHD, and trichotillomania, diagnosed around eighteen.'
+    anchor: 'the-disappearing-self'
+  - question: "What was Charli D'Amelio's anxiety pen confession?"
+    answer: "In 2020, fans invented an 'anxiety pen' story to explain a video of sixteen-year-old Charli appearing to blow vapor, and she let the lie stand for five years. During the January 2025 TikTok ban scare she confessed on her secondary account that it was a vape — then TikTok came back after fourteen hours. Her follow-up video, captioned 'Well this is awkward,' got sixty-eight million views, and she never deleted the confession."
+    anchor: 'when-the-peacemaker-fights'
+  - question: 'What was the Renegade credit controversy?'
+    answer: "The dance that made Charli famous was choreographed by fourteen-year-old Jalaiah Harmon, whose name got lost as the Renegade spread — a flashpoint for Black creators' work going uncredited. After the NBA invited Charli but not Jalaiah to All-Star Weekend, Charli posted a video with Jalaiah and credited her publicly rather than defending herself, though critics noted it came only after public pressure."
+    anchor: 'the-renegade-credit'
+  - question: "Is Charli D'Amelio on Broadway?"
+    answer: "Yes — she made her Broadway debut in October 2024 as Charmion in '& Juliet' at the Stephen Sondheim Theatre, and her run was extended twice through September 2025. In February 2025 a piece of descending set equipment hit her on the head mid-performance; she was checked by a medic, returned five minutes later, and finished the show."
+    anchor: 'broadway'
 twitter: 'https://twitter.com/charlidamelio'
 instagram: 'https://www.instagram.com/charlidamelio/'
 tiktok: 'https://www.tiktok.com/@charlidamelio'

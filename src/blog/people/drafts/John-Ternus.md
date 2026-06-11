@@ -25,10 +25,12 @@ occupation:
   - 'Manager'
   - 'Engineer'
 knows_about:
-  - 'Entrepreneurship'
-  - 'Business Executive'
-  - 'Manager'
-  - 'Engineer'
+  - 'Hardware engineering'
+  - 'Apple Silicon transition'
+  - 'iPhone product development'
+  - 'iPad product development'
+  - 'Mechanical engineering'
+  - 'VR headset hardware'
 keywords:
   - 'John Ternus enneagram'
   - 'John Ternus type 6'
@@ -50,12 +52,21 @@ citations:
   - 'https://www.apple.com/leadership/john-ternus/'
   - 'https://www.famousbirthdays.com/people/john-ternus.html'
 faqs:
-  - question: 'What is John Ternus''s personality type?'
-    answer: 'Ternus runs on one engine: trust built through verification. Every major move in his career traces the same pattern — check the work, stay close to the people doing it, commit only when the case is airtight. His skepticism toward Apple''s two biggest moonshots was not caution for its own sake. It is the Type 6 mind refusing to accept a surface "yes" when a closer look might reveal a "no."'
+  - question: "What is John Ternus's personality type?"
+    answer: "John Ternus is an Enneagram Type 6 (The Loyalist) with a 5 wing. The pattern shows in the midnight magnifying-glass inspection counting grooves on a screw nobody would ever see, the private office he refused twice to stay on the open-plan floor with his team, 25 years at one company, his reportedly prescient skepticism toward both the Apple Car and the Vision Pro, and the way he agonizes over uncertainty then decides fast once the data is verified."
     anchor: 'what-is-john-ternuss-personality-type'
-  - question: 'Why is John Ternus typed as an Enneagram Type 6?'
-    answer: 'The Type 6 Loyalist case is based on the behavioral pattern developed throughout the essay, with supporting context from Entrepreneurship, Business Executive, Manager.'
-    anchor: 'why-is-john-ternus-typed-as-an-enneagram-type-6'
+  - question: 'Why did Apple pick John Ternus as CEO?'
+    answer: "Because the last decade taught the board that the guy who says no has been right a lot. Per Bloomberg's Mark Gurman, Ternus pushed back against both the Apple Car (killed after roughly $10 billion) and the Vision Pro (launched and stalled), and unlike Tim Cook, colleagues say he 'will make decisions.' He takes over September 1, 2026, with Cook moving to executive chair."
+    anchor: 'the-job-john-ternus-spent-25-years-not-auditioning-for'
+  - question: 'Why was John Ternus skeptical of the Vision Pro?'
+    answer: "Before Apple, Ternus spent four years (1997-2001) at Virtual Research Systems, a now-defunct startup building VR headsets. Gurman connects the dots directly: his Vision Pro wariness drew on his experience trying to create a head-worn VR device in the 1990s. He remembered what it actually took to put a screen on a human face, and in 2018 he wasn't convinced Apple had the answer."
+    anchor: 'why-john-ternus-keeps-saying-no-to-apples-biggest-bets'
+  - question: 'What products has John Ternus shipped at Apple?'
+    answer: "The M-series Mac transition that ended 40 years of Intel, the first 5G iPhones, every generation of iPad, the 5.6-millimeter titanium iPhone Air, AirPods' crossing into FDA-certified hearing aids, and the 2019 Mac Pro. He also championed two real misfires — the Touch Bar and the butterfly keyboard — both later quietly walked back."
+    anchor: 'what-john-ternus-has-actually-shipped'
+  - question: "How will John Ternus handle Apple's AI problem?"
+    answer: "His reported framing is 'a marathon, not a sprint.' In January 2026 Apple announced Google's Gemini will power the next-generation Siri and Apple Intelligence — a custom 1.2-trillion-parameter model for roughly $1 billion a year. Renting the frontier model while building the privacy and on-device layer around it is the vigilant craftsman's move: slower, less swagger, but verified before Apple calls its own AI shot."
+    anchor: 'the-ai-problem-ternus-inherits'
 twitter: ''
 instagram: ''
 tiktok: ''

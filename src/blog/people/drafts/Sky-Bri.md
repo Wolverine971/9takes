@@ -24,10 +24,10 @@ occupation:
   - 'Pornographic Actor'
   - 'OnlyFans Model'
 knows_about:
-  - 'Pornographic Film'
-  - 'Digital media'
-  - 'Pornographic Actor'
-  - 'OnlyFans Model'
+  - 'OnlyFans content creation'
+  - 'Creator-economy podcasting'
+  - 'Twitch streaming'
+  - 'Personal brand management'
 keywords:
   - 'Sky Bri enneagram'
   - 'Sky Bri type 2'
@@ -43,12 +43,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q117225513'
   - 'https://www.imdb.com/name/nm13470580/'
 faqs:
-  - question: 'What is Sky Bri''s personality type?'
-    answer: 'The pattern that runs through every major decision in Sky Bri''s life is the pattern of the Enneagram Two: giving yourself away to earn love, and then discovering that what you gave away didn''t buy what you were looking for.'
+  - question: "What is Sky Bri's personality type?"
+    answer: "Sky Bri is an Enneagram Type 2 (The Helper), specifically a 2w3. The pattern shows in quitting a million-dollar-a-month OnlyFans career for eighteen months to prove devotion to a boyfriend, tattooing men's names on her body after weeks rather than years, accepting Jake Paul's for-clout arrangement because it was proximity to connection, and her own mission statement: 'My passion is making others feel good. I love seeing people smile.' The 3 wing is the brand savvy — breaking an NDA to control a narrative, booking Red Scare to reposition herself."
     anchor: 'what-is-sky-bris-personality-type'
-  - question: 'Why is Sky Bri typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Pornographic Film, Digital media, Pornographic Actor.'
-    anchor: 'why-is-sky-bri-typed-as-an-enneagram-type-2'
+  - question: 'Why did Sky Bri quit OnlyFans?'
+    answer: "In 2023 she retired entirely for eighteen months after starting to date YouTuber Nick Nayersina — walking away from roughly $1 million a month to prove the relationship mattered more than the career. The sacrifice wasn't reciprocated: 'He flirts with girls in videos and has girls in all his videos. I eliminated my own interactions with men in a work capacity, and he just kept going.' She ended it, came back, left again, and by September 2025 they were back together on a live stream."
+    anchor: 'the-eighteen-months-she-gave-away'
+  - question: "Was Sky Bri and Jake Paul's relationship real?"
+    answer: "No — by her own account it was orchestrated by Paul to make his ex Julia Rose jealous. 'The very first night, the first conversation we had, \"This is for clout. At the end of this, I want you to post it.\"' They still got each other's names tattooed — Paul's read 'SKYLER RARA,' her name plus her best friend's, on his inner thigh — and she later broke an NDA on No Jumper to tell the story herself."
+    anchor: 'permanent-marks-for-temporary-people'
+  - question: "Why did Sky Bri get Adin Ross's name tattooed?"
+    answer: "After a few weeks of public flirtation — streaming together and appearing in each other's content — she got his full name inked on her inner arm. Ross then publicly clarified they were never in a romantic relationship. She is now having the tattoo removed with laser treatments."
+    anchor: 'permanent-marks-for-temporary-people'
+  - question: 'What is Sky Bri like in real life?'
+    answer: "'People see me as this crazy f**king sex robot demon. But in my everyday life, I'm pretty normal.' She streams Fortnite on Twitch, collects Legos, lives in LA with two dogs and a cat, and hosts an OFTV show about things she loves. Before the persona, she was a Lancaster, Pennsylvania kid with social anxiety so severe she dropped out of high school and later worked the register at Target."
+    anchor: 'the-ordinary-life-hidden-behind-sky-bris-persona'
 twitter: '@skaborr'
 instagram: 'https://instagram.com/realskybri'
 tiktok: '@realskybri'

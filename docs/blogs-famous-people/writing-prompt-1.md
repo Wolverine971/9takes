@@ -2,6 +2,16 @@
 
 # Writing Prompt 1: Celebrity Personality Blog Creation
 
+> **Source of truth (2026-06-10):** The binding rules live in
+> `.claude/commands/blog_content_creator_people_v2.md` and
+> `docs/content-analysis/blog-grading-rubric.md`. This document adds craft depth and worked
+> examples only — where it disagrees with the command, **the command wins**. Known deltas:
+> (1) all wing/subtype/arrow/counter-typing content now lives in the Rabbit Hole `<details>`
+> block, never the body; (2) the "gold-standard endings" excerpted below are calibration
+> references whose _cadence_ is now banned by the command's anti-imitation gate (Gate 4);
+> (3) the command adds hard gates (Testimony, Heading Mix, Distribution, Formula
+> Fingerprint, empathy turn) and the canonical AI Language Ban this document predates.
+
 ## Article Objective
 
 Create a compelling, psychologically revealing profile of **{PERSON}** that uses Enneagram Type **{ENNEAGRAMTYPE}** as a quiet analytical lens. The blog should read like the best long-form magazine profile you've ever read — one that happens to illuminate personality patterns.
@@ -113,13 +123,15 @@ Do NOT write a conclusion section. No summary, no CTA, no "what does this mean f
 - Leave the thought reverberating — an unresolved tension, a haunting image, a question about the person
 - Create wanting, not closure — "I need to think about this more" beats "that was a nice read"
 
-**Gold-standard endings:**
+**Gold-standard endings (calibration only — do NOT copy the cadence):**
 
 > "Not a villain. Not a hero. A Six, doing what Sixes do. Watching. Preparing. Building. Fearing the worst. And hoping, against all the evidence his own mind generates, that the narrow path still exists."
 
 > "That version might be the most compelling one of all. But seeing it would require the one thing Blake Lively has spent her entire life avoiding: letting someone else hold the camera."
 
 Then nothing. No summary. No reader question. No CTA. Just silence after the sharpest line.
+
+⚠️ **Anti-imitation warning:** the first excerpt's `"A [Type], doing what [Type]s do"` + anaphora structure is now **prohibited** by the creator command's Gate 4 — once two blogs in the catalog share it, it becomes the house template. Use these to feel what a mic-drop ending does, then find a shape that fits only your person.
 
 **The test:** Does the ending feel like a mic drop or like a flight attendant thanking you for flying? If it's the latter, cut everything after your strongest line.
 
@@ -149,7 +161,10 @@ Then nothing. No summary. No reader question. No CTA. Just silence after the sha
 
 ## Prohibited Language
 
-Avoid these overused words entirely:
+**The canonical, complete list is the "AI Language Ban" section in
+`.claude/commands/blog_content_creator_people_v2.md`** (includes the prose em-dash ban and
+banned structures; `scripts/blog-lint.sh` enforces it mechanically). The short list below is
+a subset kept for quick reference:
 
 - Enigmatic, enigma
 - Delve, delving

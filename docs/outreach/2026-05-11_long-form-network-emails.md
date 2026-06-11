@@ -67,13 +67,14 @@ This is now applied to Chris (#1) and Steven (#6); needs to be back-propagated t
 
 ### Subject-line template (revised 2026-05-14 — kill the generic primary, kill the Enneagram jargon)
 
-**No generic template.** Each recipient gets three options pulled from THEIR piece. The earlier `[FirstName] — a personality analysis of you` template was killed: identical across 12 sends defeats the personalization signal, and "personality analysis" reads as clinical pop-psychology to recipients who don't speak Enneagram. Wing/type subjects (`3w4 read`, `Type 5 read`, `7w6 read`) are also killed — Hormozi doesn't know what 3w8 means, Theo definitely doesn't know 7w6, and even recipients who vaguely know Enneagram exists will read the jargon as cult-coded or "I'm about to box you."
+**No generic template.** Each recipient gets three options pulled from THEIR piece. The earlier `[FirstName] — a personality analysis of you` template was killed: identical across 12 sends defeats the personalization signal, and "personality analysis" reads as clinical pop-psychology to recipients who don't speak Enneagram. Wing/type subjects (`3w4 read`, `Type 5 read`, `7w6 read`) are also killed — Hormozi doesn't know what `3w2` means, Theo doesn't know `7w6`, and even recipients who vaguely know Enneagram exists will read the jargon as cult-coded or "I'm about to box you." (Side note: an earlier draft of this doc used `3w8` as an example — that's not even a valid wing combo. Type 3 wings are only 3w2 or 3w4, since wings must be adjacent on the circle. DJ flagged this 2026-05-18.)
 
-**The three levers, ranked by pull strength:**
+**The four levers, ranked by pull strength:**
 
 1. **Signature scene or image (primary for most).** One specific phrase or moment from the piece — `The Coriolis moment`, `The tic that became a career`, `The chicken shop coin`. Irresistibly specific to them; creates instant "wait, that's me" recognition. Proves you read past the surface before the email is even opened.
 2. **Their own line back at them.** They said or wrote it; they'll click to see it framed back. Ego-irresistible without supplication. (e.g., `Duty, not delight`, `"Don't ever cry"`, `Raise kids who never have to`.)
-3. **Status-neutral journalistic framing.** `[Name] — wrote a long read on you` or `[Name] — a profile of you`. No jargon, no fluff, no supplication. Same register a profile writer at The Atlantic or New Yorker would use. Use when the signature-image option doesn't fit the channel, or when the gatekeeper needs a clearer "this is personalized, not mass-blast" cue.
+3. **The "no ask, FYI" disarm (DJ-validated 2026-05-18).** `alex — no ask, just FYI I wrote 5,000 words on you`. Load-bearing moves: lowercase first name (peer-to-peer, not pitch); `no ask` disarms the transactional pre-read every high-status Three has running; the specific word count proves real effort; `on you` is the curiosity hook (every Three opens an email about themselves). DJ picked this format over wing-naming subjects after explicitly testing both. Use this when (a) you have no irresistible signature scene to lead with, (b) the recipient is inbound-saturated (Hormozi, Abdaal), or (c) the channel is IG/X DM where the subject IS the opener and the disarm has to do the entire job. Slightly longer (~50–60 chars) than the other levers — accepts mobile truncation tradeoff in exchange for the disarm.
+4. **Status-neutral journalistic framing.** `[Name] — wrote a long read on you` or `[Name] — a profile of you`. No jargon, no fluff, no supplication. Same register a profile writer at The Atlantic or New Yorker would use. Use when the signature-image option doesn't fit the channel, or when the gatekeeper needs a clearer "this is personalized, not mass-blast" cue.
 
 **The wing/type specificity now lives in the first sentence of the body**, where it lands as the payoff to the curiosity hook the subject opened — not buried, just earned.
 
@@ -104,20 +105,20 @@ This keeps total first-touch URLs at 1 (the recipient's own piece). Better deliv
 
 ## Status table
 
-| #   | Recipient        | Type  | Tier | Profile URL                            | Best channel (researched 2026-05-13)                                                                                                                                                                             | Priority                |
-| --- | ---------------- | ----- | ---- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| 1   | Chris Williamson | 3w4   | T1   | /personality-analysis/Chris-Williamson | **`jonathan@chriswillx.com`** (business partner / gatekeeper — triages and forwards)                                                                                                                             | **W1 Wed — first send** |
-| 2   | Alex Hormozi     | 3w8   | T2   | /personality-analysis/Alex-Hormozi     | Instagram DM `@hormozi` (primary — he reads IG); fallback: acquisition.com book-a-call form. No public email.                                                                                                    | W1 Mon                  |
-| 3   | Ali Abdaal       | 3w2   | T2   | /personality-analysis/Ali-Abdaal       | [aliabdaal.com/contact](https://aliabdaal.com/contact/) form. (The `ali.abdaal@gmail.com` floating online — don't use; unreliable.)                                                                              | W1 Fri                  |
-| 4   | Andrew Huberman  | 5     | T2   | /personality-analysis/Andrew-Huberman  | [hubermanlab.com/contact](https://www.hubermanlab.com/contact) form. Heavy gatekeeping; no public email.                                                                                                         | W2 Mon                  |
-| 5   | Tim Ferriss      | **1** | T2   | /personality-analysis/Tim-Ferriss      | [tim.blog/contact](https://tim.blog/contact/) form. (Paid-speaking-only path via `pjacobs@caa.com` — not relevant.)                                                                                              | W2 Tue                  |
-| 6   | Steven Bartlett  | 3w2   | T1   | /personality-analysis/Steven-Bartlett  | **`press@stevenbartlett.com`** (best fit for "you should see this piece"; alts: `bookings@`, `commercial@`). ⚠️ **Run `/blog_content_publish_people Steven-Bartlett` first** (8.8, above gate; disk still false) | W2 Thu                  |
-| 7   | Theo Von         | 7     | T2   | /personality-analysis/Theo-Von         | X DM `@TheoVon` (hotline form on his site is for fan clips, not direct outreach). Management gatekept.                                                                                                           | W2 Fri                  |
-| 8   | Jordan Peterson  | 1     | T1   | /personality-analysis/Jordan-Peterson  | **`media@jordanbpeterson.com`** (better fit than `business@` for DJ's framing). CAA path also exists.                                                                                                            | W3 Mon                  |
-| 9   | Lex Fridman      | 5     | T2   | /personality-analysis/Lex-Fridman      | [lexfridman.com/contact](https://lexfridman.com/contact/) — 7 specific forms. Use ONE only — multi-submit = spam-flag. Best fit: "General notes."                                                                | W3 Tue                  |
-| 10  | Joe Rogan        | 8     | T3   | /personality-analysis/Joe-Rogan        | **No public path.** Realistic only: X DM `@joerogan` (<0.1% reply odds) or warm intro via someone he respects. Skip until you have a warm path.                                                                  | W3 Wed                  |
-| 11  | Shawn Ryan       | 5     | T1   | /personality-analysis/Shawn-Ryan       | **`shawnryan@vigilanceelite.com`** (most direct of the bunch — least gatekept)                                                                                                                                   | W3 Thu                  |
-| 12  | Andrew Schulz    | 7     | T2   | /personality-analysis/Andrew-Schulz    | Pitch via Flagrant Media Group ([flagrantmediagroup.co](https://www.flagrantmediagroup.co/)) or X DM `@andrewschulz`. No personal email surfaced.                                                                | W3 Fri                  |
+| #   | Recipient        | Type  | Tier | Profile URL                            | Best channel (researched 2026-05-13)                                                                                                                                                                                                                                                                                                                                                                                                                            | Priority                |
+| --- | ---------------- | ----- | ---- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| 1   | Chris Williamson | 3w4   | T1   | /personality-analysis/Chris-Williamson | **`jonathan@chriswillx.com`** (business partner / gatekeeper — triages and forwards)                                                                                                                                                                                                                                                                                                                                                                            | **W1 Wed — first send** |
+| 2   | Alex Hormozi     | 3     | T2   | /personality-analysis/Alex-Hormozi     | Instagram DM `@hormozi` (primary — he reads IG); fallback: acquisition.com book-a-call form. No public email. (Wing left unassigned — `3w8` was an invalid combo; Type 3 wings are only 3w2 or 3w4. Energy reads 8-flavored but use stress-arrow framing inside the body, not a wing label.)                                                                                                                                                                    | W1 Mon                  |
+| 3   | Ali Abdaal       | 3w2   | T2   | /personality-analysis/Ali-Abdaal       | **Send to `ali@aliabdaal.com`** (likely working — RocketReach reports `first@aliabdaal.com` as the company format; not 100% verified) **AND** Instagram DM `@aliabdaal` in parallel (he reads IG; honestly the higher-signal path). Skip the floating `ali.abdaal@gmail.com` — likely his old med-student address; sending there looks scraped-list. Form at [aliabdaal.com/contact](https://aliabdaal.com/contact/) is the official channel but goes to staff. | W1 Fri                  |
+| 4   | Andrew Huberman  | 5     | T2   | /personality-analysis/Andrew-Huberman  | [hubermanlab.com/contact](https://www.hubermanlab.com/contact) form. Heavy gatekeeping; no public email.                                                                                                                                                                                                                                                                                                                                                        | W2 Mon                  |
+| 5   | Tim Ferriss      | **1** | T2   | /personality-analysis/Tim-Ferriss      | [tim.blog/contact](https://tim.blog/contact/) form. (Paid-speaking-only path via `pjacobs@caa.com` — not relevant.)                                                                                                                                                                                                                                                                                                                                             | W2 Tue                  |
+| 6   | Steven Bartlett  | 3w2   | T1   | /personality-analysis/Steven-Bartlett  | **`press@stevenbartlett.com`** (best fit for "you should see this piece"; alts: `bookings@`, `commercial@`). ⚠️ **Run `/blog_content_publish_people Steven-Bartlett` first** (8.8, above gate; disk still false)                                                                                                                                                                                                                                                | W2 Thu                  |
+| 7   | Theo Von         | 7     | T2   | /personality-analysis/Theo-Von         | X DM `@TheoVon` (hotline form on his site is for fan clips, not direct outreach). Management gatekept.                                                                                                                                                                                                                                                                                                                                                          | W2 Fri                  |
+| 8   | Jordan Peterson  | 1     | T1   | /personality-analysis/Jordan-Peterson  | **`media@jordanbpeterson.com`** (better fit than `business@` for DJ's framing). CAA path also exists.                                                                                                                                                                                                                                                                                                                                                           | W3 Mon                  |
+| 9   | Lex Fridman      | 5     | T2   | /personality-analysis/Lex-Fridman      | [lexfridman.com/contact](https://lexfridman.com/contact/) — 7 specific forms. Use ONE only — multi-submit = spam-flag. Best fit: "General notes."                                                                                                                                                                                                                                                                                                               | W3 Tue                  |
+| 10  | Joe Rogan        | 8     | T3   | /personality-analysis/Joe-Rogan        | **No public path.** Realistic only: X DM `@joerogan` (<0.1% reply odds) or warm intro via someone he respects. Skip until you have a warm path.                                                                                                                                                                                                                                                                                                                 | W3 Wed                  |
+| 11  | Shawn Ryan       | 5     | T1   | /personality-analysis/Shawn-Ryan       | **`shawnryan@vigilanceelite.com`** (most direct of the bunch — least gatekept)                                                                                                                                                                                                                                                                                                                                                                                  | W3 Thu                  |
+| 12  | Andrew Schulz    | 7     | T2   | /personality-analysis/Andrew-Schulz    | Pitch via Flagrant Media Group ([flagrantmediagroup.co](https://www.flagrantmediagroup.co/)) or X DM `@andrewschulz`. No personal email surfaced.                                                                                                                                                                                                                                                                                                               | W3 Fri                  |
 
 ### Tier legend & channel strategy
 
@@ -236,9 +237,10 @@ DJ
 
 **Subject options:**
 
-- `Duty, not delight` _(recommended — 18 chars, his own framing from the Tony Robbins moment; a 3w8 reads his own engine-admission back in 3 words and has to click — the line collapses the whole piece into a single hook)_
+- `alex — no ask, just FYI I wrote 5,000 words on you` _(recommended for IG DM — 51 chars, the "no ask FYI" disarm DJ validated 2026-05-18 over wing-naming subjects. Lowercase `alex` reads peer-to-peer, not pitch; "no ask" disarms the transactional pre-read every Three runs; "5,000 words" proves effort; "on you" is ego-irresistible. Slightly long — accepts mobile truncation in exchange for the disarm doing its job. Best for IG DM where the subject IS the opener and has to do the whole job.)_
+- `Duty, not delight` _(18 chars, his own framing from the Tony Robbins moment — a Three reads his own engine-admission back in 3 words and has to click; the line collapses the whole piece into a single hook. Use this if you're sending via a more formal channel where journalistic-register signals are more important than the disarm.)_
 - `The Tony Robbins moment` _(23 chars, signature scene; proves you saw the engine admission with the one person three decades further down the road, not the surface acquisition.com stuff)_
-- `Alex — wrote a long read on you` _(31 chars, status-neutral journalistic fallback; also works as the lead-in line for the `@hormozi` IG DM compressed version)_
+- `Alex — wrote a long read on you` _(31 chars, status-neutral journalistic fallback; works for the formal-form fallback channel)_
 
 **Body V1 (original — 4-layer template):**
 
@@ -266,7 +268,7 @@ P.S. Reply "no thanks" if you'd rather I stop.
 
 **Body V2 (revised 2026-05-18 — adds Leila, kills "love you to read" supplication, sharpens thesis, anchors Tony Robbins scene):**
 
-> _Changes from V1:_ (1) "would love you to read" → "wanted to tell you directly rather than hope it found you" (matches inevitability-voice rule, kills the only supplication tell). (2) "cleanest version" → "most uncompromising version" (3w8 register — he's been called clean before, never refuses-the-brakes). (3) "Duty, not delight." → "The Tony Robbins admission — duty, not delight." (anchors the phrase to the scene that birthed it, so the recognition payoff doubles). (4) Network proof line: Leila promoted to her own sentence ahead of the male-podcaster list — signals you read her as load-bearing, not accessory, mirrors his own "yin to my yang" framing.
+> _Changes from V1:_ (1) "would love you to read" → "wanted to tell you directly rather than hope it found you" (matches inevitability-voice rule, kills the only supplication tell). (2) "cleanest version" → "most uncompromising version" (Type-3-with-8-flavored-stress register — he's been called clean before, never refuses-the-brakes). (3) "Duty, not delight." → "The Tony Robbins admission — duty, not delight." (anchors the phrase to the scene that birthed it, so the recognition payoff doubles). (4) Network proof line: Leila promoted to her own sentence ahead of the male-podcaster list — signals you read her as load-bearing, not accessory, mirrors his own "yin to my yang" framing.
 
 Hi Alex,
 
@@ -294,11 +296,12 @@ P.S. Reply "no thanks" if you'd rather I stop.
 
 **Subject options:**
 
-- `A good reason and the real reason` _(recommended — 33 chars, his own framing; proves you read past the productivity-YouTuber surface into the reflective post-Burning Man Ali, which is where he actually lives now — a teacher's-heart Three will click to see how someone else handled his most-used phrase)_
+- `ali — no ask, just FYI I wrote 4,500 words on you` _(recommended for IG DM — 50 chars, the "no ask FYI" disarm DJ validated 2026-05-18. Lands harder on 3w2 (warmer, intimacy-as-craft) than on Alex's 8-flavored wing because Ali's entire business is inbound — every email he opens wants something. The disarm earns the second of attention you won't get otherwise. Lowercase `ali` reads peer-to-peer; "4,500 words" proves effort; "on you" is curiosity hook. Best for IG DM @aliabdaal where the subject IS the opener.)_
+- `A good reason and the real reason` _(33 chars, his own framing; proves you read past the productivity-YouTuber surface into the reflective post-Burning Man Ali, which is where he actually lives now — a teacher's-heart Three will click to see how someone else handled his most-used phrase. Use for the email-channel send to `ali@aliabdaal.com` where signature-image lands harder than the disarm.)_
 - `The "just" doing work` _(21 chars, names the load-bearing word in his "just a YouTuber" Prestige Calculator — signals you watched HOW he undersells himself, not just THAT he does)_
 - `Ali — wrote a long read on you` _(30 chars, status-neutral journalistic fallback — works inside the aliabdaal.com contact form where there's no recipient name field anyway)_
 
-**Body (4-layer template, send this):**
+**Body V1 (original — heavy 4-layer template, ~280 words):**
 
 Hi Ali,
 
@@ -315,6 +318,32 @@ https://9takes.com/personality-analysis/Ali-Abdaal
 If anything in here teaches better than what I wrote, I'd rather learn from you than be right. Teacher to teacher.
 
 For context, I've also written on Williamson, Ferriss, and Hormozi — same long-form discipline.
+
+Best,
+DJ Wayne
+9takes.com
+
+P.S. Reply "no thanks" if you'd rather I stop.
+
+---
+
+**Body V2 (revised 2026-05-18 — matches Hormozi V2 cadence; ~140 words):**
+
+> _Changes from V1:_ (1) Cut the "Here's the thinking" boilerplate paragraph — it doubled the length without adding personalization; the earned-connection opener + thesis already carry the post-publication-courtesy frame. (2) "wanted to tell you directly rather than hope it found you" + "No ask attached" moved up to the opener, matching the inevitability voice. (3) URL moved up from buried position to right after the opener — 3s scroll fast, primary CTA should be visible in first frame. (4) Swapped the abstract "just a YouTuber framing isn't modesty" thesis line for the **six-year-old/neurosurgeon scene** — DJ's own original framing in the blog, signature image, lands as recognition not abstraction. (5) Anchored to the **"hit publish vs hit delete" Pathless Path quote** — the blog's own FEEDBACK comment flags this as "the most honest Type 3 quote in the collection"; naming it proves you read past the productivity-YouTuber surface. (6) Kept **"teacher to teacher"** close — 3w2 wing-specific tell, this is the part that distinguishes Ali from a 3w8 like Hormozi.
+
+Hi Ali,
+
+I've been reading you for years — the "good reason and the real reason" framing, the post-Burning Man reflective turn. Wrote a 5,000-word piece on you. Wanted to tell you directly rather than hope it found you. No ask attached.
+
+https://9takes.com/personality-analysis/Ali-Abdaal
+
+What I respect most is the public introspection. You told Paul Millerd you wouldn't do the work if you couldn't hit publish — most creators at your scale go opaque. That's the line the piece pivots on.
+
+I'm DJ. I run 9takes.com. The piece is an argument, not a verdict — the six-year-old who said "neurosurgeon" because it sounded impressive is still running the show, just with better vocabulary. But the teacher's hand stays open because it's the part of the engine that isn't about you.
+
+If anything in there teaches better than what I wrote, I'd rather learn from you than be right. Teacher to teacher.
+
+Also written on Hormozi, Williamson, Ferriss.
 
 Best,
 DJ Wayne

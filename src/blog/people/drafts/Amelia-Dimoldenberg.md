@@ -24,11 +24,12 @@ occupation:
   - 'Television Producer'
   - 'YouTuber'
 knows_about:
-  - 'Television production'
-  - 'YouTube content creation'
-  - 'Digital media'
-  - 'Television Producer'
-  - 'YouTuber'
+  - 'Deadpan comedy interviewing'
+  - 'Chicken Shop Date'
+  - 'Red carpet hosting'
+  - 'UK grime culture journalism'
+  - 'Creator-owned production'
+  - 'Celebrity interview formats'
 keywords:
   - 'Amelia Dimoldenberg enneagram'
   - 'Amelia Dimoldenberg type 3'
@@ -46,15 +47,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q96186639'
   - 'https://www.imdb.com/name/nm9907615/'
 faqs:
-  - question: 'What is Amelia Dimoldenberg''s personality type?'
-    answer: 'Every Type 3 runs the same childhood equation in the background. Achievement equals love. Average equals invisible. The Type 3 child learns, early and without being told, that the fastest way to warmth in the room is to be impressive. Over time the equation hardens. The self becomes whatever version of you gets the applause.'
+  - question: "What is Amelia Dimoldenberg's personality type?"
+    answer: "Amelia Dimoldenberg is an Enneagram Type 3 (The Achiever), most likely a social 3w2. The pattern shows in her admission that she has 'just always wanted to impress people,' the childhood ambition to edit Vogue, the deadpan character she deliberately heightens in the edit room of a company she owns, the 'ridiculous goal' strategy that put Drake on her waitlist, and the precise scoreboard math of her TIME100 line: 'It has taken me 10 years to become a titan.'"
     anchor: 'what-is-amelia-dimoldenbergs-personality-type'
-  - question: 'Is the Deadpan Slipping?'
-    answer: 'Watch enough 2024 and 2025 clips in sequence and a second question opens up. She is warmer. The stares are shorter. She''s driving more of the conversation. The arctic twenty-year-old under the fluorescent light has started to melt, a little, at thirty-two.'
+  - question: 'How did Chicken Shop Date start?'
+    answer: "At sixteen, Dimoldenberg wrote a dating-advice column called The Cut for a zine run out of the Stowe Centre youth club on Harrow Road, embedded in the UK grime scene. In March 2014 she turned the column into a YouTube show, sitting down with Ghetts for the first episode — which pulled about a thousand views in two weeks. She built the audience inside the grime scene, with guests like Big Narstie, AJ Tracey, and Maya Jama, years before any A-lister walked in."
+    anchor: 'marylebone-harrow-road-and-the-origin-of-the-deadpan'
+  - question: "Is Amelia Dimoldenberg's awkwardness real or an act?"
+    answer: "It is engineered — and she says so. 'In the edit is where the character comes through. We chop and cut things. We make it more awkward,' she has explained, calling the on-screen Amelia 'an exaggerated version of myself.' The deadpan originated as a real teenage defense against boys at school, but the version on Chicken Shop Date is a character curated in post, in a cutting room inside a company she founded."
+    anchor: 'why-amelia-dimoldenberg-edits-herself'
+  - question: 'Is the deadpan slipping?'
+    answer: "She is visibly warmer in 2024 and 2025 clips — shorter stares, more steering of the conversation. Dimoldenberg has told on herself: 'I'm evolving the character because I'm evolving as a woman,' she said in 2025. She is not slipping; she is iterating. The early version was defensive, built to keep the room at arm's length; the current version is a chosen posture inside a business she runs."
     anchor: 'is-the-deadpan-slipping'
-  - question: 'Why is Amelia Dimoldenberg typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Television production, YouTube content creation, Digital media.'
-    anchor: 'why-is-amelia-dimoldenberg-typed-as-an-enneagram-type-3'
+  - question: 'Has Drake been on Chicken Shop Date?'
+    answer: "Not yet — but the chase has inverted. Dimoldenberg named Drake as her 'ridiculous goal' for years, and then he DM'd her unsolicited, left a flirty 'Chups' comment on her Instagram, and promised, in her telling, that 'he's going to make it happen this year.' She is now in the position of turning down A-list bookings the way studios once turned her down."
+    anchor: 'the-ridiculous-goal-that-got-drake-to-text-her'
 twitter: 'ameliadimz'
 instagram: 'ameliadimz'
 tiktok: 'ameliadimz'

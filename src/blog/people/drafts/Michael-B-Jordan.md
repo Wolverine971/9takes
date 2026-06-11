@@ -28,12 +28,12 @@ occupation:
   - 'Executive Producer'
   - 'Film Producer'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Television acting'
-  - 'Voice acting'
-  - 'Film production'
-  - 'Modeling'
+  - 'Creed franchise'
+  - 'Black Panther (Killmonger)'
+  - 'Sinners (Smoke and Stack)'
+  - 'Outlier Society Productions'
+  - 'Inclusion riders'
+  - 'Physical transformation for roles'
 keywords:
   - 'Michael B. Jordan enneagram'
   - 'Michael B. Jordan type 3'
@@ -51,15 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q3308007'
   - 'https://www.imdb.com/name/nm0430107/'
 faqs:
-  - question: 'What is Michael B. Jordan''s Personality Type?'
-    answer: 'Enneagram Type 3s are driven by a core need to feel valuable and worthwhile. They learned early, usually in childhood, that love and acceptance come through performance — through being impressive, successful, visible. At their best, they''re authentic leaders who inspire through genuine excellence. At their worst, they become shape-shifters who''ve performed so many versions of themselves that they''ve lost track of the original.'
+  - question: "What is Michael B. Jordan's personality type?"
+    answer: "Michael B. Jordan is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in the name wound — teased so relentlessly over sharing Michael Jordan's name that he 'wanted to be great at something... just to feel like I had my own identity' — in calling it 'the biggest compliment' that his own mother couldn't recognize him in Sinners, in wearing different shoe sizes to become each twin, in the depression that followed dissolving into Killmonger, and in the 2-wing that built Outlier Society around inclusion riders."
     anchor: 'what-is-michael-b-jordans-personality-type'
-  - question: 'But Could He Be a Different Type?'
-    answer: 'Some personality databases type Jordan as a Type 9, pointing to his emphasis on harmony and his laid-back off-screen demeanor. Others see Type 8 in his intensity. His twelve-year loyalty to Coogler could suggest Type 6 devotion.'
-    anchor: 'but-could-he-be-a-different-type'
-  - question: 'Why is Michael B. Jordan typed as an Enneagram Type 3?'
-    answer: 'The Type 3 Achiever case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Television acting.'
-    anchor: 'why-is-michael-b-jordan-typed-as-an-enneagram-type-3'
+  - question: 'How did playing Killmonger affect Michael B. Jordan?'
+    answer: "He isolated himself for months, cutting off family and friends to inhabit a character defined by abandonment and rage — and had no process for leaving the role behind. The result was depression: 'Readjusting to people caring about me, getting that love that I shut out — I shut out love. I didn't want love.' Recovery meant therapy, which he talks about openly, and he later called directing Creed III 'my therapy session.'"
+    anchor: 'i-shut-out-love'
+  - question: 'How did Michael B. Jordan play the twins in Sinners?'
+    answer: "He kept separate journals for Smoke and Stack, did chakra work to locate each twin's childhood trauma in the body, and wore a half-size-too-small shoe for Stack ('I wanted him to feel a bit uneasy') and a half-size-too-big shoe for Smoke ('planted and grounded'), plus gold caps and distinct vocal registers. Co-star Wunmi Mosaku said she could tell which twin he was from behind. The film earned 16 Oscar nominations — the most ever for a single film — and his mother couldn't recognize him in it."
+    anchor: 'two-sizes-of-shoes'
+  - question: 'How did Michael B. Jordan and Ryan Coogler meet?'
+    answer: "In 2012, at a Starbucks near Forest Whitaker's production office, the 27-year-old Coogler told him: 'I think you're a star. Let's do this project together and show the world.' Jordan, who had been acting since age twelve, said it was the first time any filmmaker had ever told him that. Fruitvale Station won both the Grand Jury Prize and Audience Award at Sundance, and the partnership has now run twelve years and five theatrical films."
+    anchor: 'i-dont-think-this-guy-knows-who-he-is'
+  - question: 'Is Michael B. Jordan related to Michael Jordan the basketball player?'
+    answer: "No — he was born Michael Bakari Jordan in 1987, the year the basketball Jordan won his first scoring title, and the shared name brought relentless teasing: 'I got teased so much, to the point where I almost changed my name.' He considered going by Bakari, his middle name, which means 'noble promise' in Swahili. Instead the name became fuel: 'I'm gonna be compared with Michael Jordan for the rest of my life? F--k that, I gotta figure this sh-t out!'"
+    anchor: 'noble-promise'
 twitter: 'michaelb4jordan'
 instagram: 'michaelbjordan'
 tiktok: ''

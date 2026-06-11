@@ -239,13 +239,45 @@ REMAINING UNVERIFIED (Theo's own claims, not independently confirmed):
   also not the kind of claim anyone disputes
 ============================================================ -->
 
+<!-- ============================================================
+INDEPENDENT VERIFICATION PASS — 2026-06-10 (closes the 2026-05-19 review doc)
+============================================================
+Fresh research agent re-verified the September 2025 cluster + Roland + numbers.
+Corrections applied:
+1. REMOVED false claim that Charlie Kirk "had appeared on Theo's podcast" —
+   no such episode exists; Theo's own tribute says "I didn't know Charlie Kirk
+   but I admired him." Replaced with that quote + "We all watched somebody get
+   murdered casually on our phones" (MovieMaker coverage of the TPW follow-up).
+2. Walkout fraction attributed: "a third walked out" originates from Reddit
+   attendee reports (Variety attributes to Reddit; no outlet verified it).
+   Now "Fan accounts from the room claimed as much as a third..." (opener) and
+   "The crowd thinned as people walked out" (Convergence).
+3. DHS removal: CNN notes it's unclear whether DHS or X pulled the video
+   (posted Sept 23, gone Sept 25). Dropped "They did." after "He demanded DHS
+   take it down" — the neutral "clip came down two days later" stands.
+4. Gina Capitani "36 years his junior" softened to "decades younger" — exact
+   gap only on low-quality bio aggregators. "Father was 67" (Wikipedia) carries
+   the age math.
+5. CIA/Contra: added timeline-strain note (Roland in his 70s in Louisiana
+   during the Contra war); still framed as Theo's own telling.
+6. Trump episode "drew" → "has drawn" 16M+ views (count is cumulative;
+   Tubefilter Oct 2025 says 17M).
+7. Challenge: "won twice" → "won two of them" (team wins, The Gauntlet +
+   Battle of the Sexes II, per Wikipedia).
+Verified as-is: Beacon Sept 27 2025 (Variety), suicide comment + clarification
+quotes (Variety/Rolling Stone), Kirk assassination specifics (Wikipedia/NPR),
+Spotify 4th-biggest 2024 (Spotify Wrapped/Variety), TIME100 Creators July 2025
+(TIME), Roland b. 1912 Bluefields + 67 at Theo's birth (Wikipedia/Find a Grave),
+Tipitina's = half-brother Roland Jr., never the father.
+============================================================ -->
+
 > "I wanted to have a little more emotion during it. I just wanted to have some more feelings."
 
 <p class="firstLetter">On September 27, 2025, Theo Von walked onto the stage at Manhattan's Beacon Theatre to tape his Netflix special. He'd spent a month weaning himself off antidepressants he'd been on for most of his adult life. He wanted to feel something real up there. Not the flattened, medicated version of himself, but the raw Theo who'd been making strangers laugh since he was a teenager in Louisiana.</p>
 
 He bombed.
 
-The set was disorganized. He abandoned bits mid-story, left the stage multiple times to consult production staff, couldn't remember punchlines. Around a third of the audience walked out. Afterward, he was caught on camera telling fans, "I'm having a long month. I'm trying not to take my own life" — a remark that sent followers spiraling with concern.
+The set was disorganized. He abandoned bits mid-story, left the stage multiple times to consult production staff, couldn't remember punchlines. Fan accounts from the room claimed as much as a third of the audience walked out. Afterward, he was caught on camera telling fans, "I'm having a long month. I'm trying not to take my own life" — a remark that sent followers spiraling with concern.
 
 "I eat failure for breakfast, brother," he said on his podcast a few days later, addressing the night directly. He admitted the show had been "choppy" and "messier" than previous ones, and that he'd been feeling "mildly manic" beforehand.
 
@@ -293,9 +325,9 @@ He walks one of the tightest lines in comedy when it comes to race. Growing up i
 
 Theo Von's full name is Theodor Capitani von Kurnatowski III. His father, Roland Theodor Achilles von Kurnatowski, was **67 years old** when Theo was born in March 1980 — though Theo himself usually rounds it up to 70 when he tells the story.
 
-Let that number sit. Roland was born in 1912 in Bluefields, Nicaragua, to a family with Polish aristocratic roots — Kurnatowski szlachta on his father's side. He farmed mahogany before moving to the United States. According to Theo, his father had connections to the CIA and the Nicaraguan Contras. Drugs. Weapons. None of that has been independently verified, but Theo has talked about it on his podcast with a mixture of bewilderment and dark pride.
+Let that number sit. Roland was born in 1912 in Bluefields, Nicaragua, to a family with Polish aristocratic roots — Kurnatowski szlachta on his father's side. He farmed mahogany before moving to the United States. According to Theo, his father had connections to the CIA and, in the family lore's least plausible stretch, the Nicaraguan Contras. Drugs. Weapons. None of that has been independently verified, and the timeline strains (Roland was in his seventies and living in Louisiana during the Contra war), but Theo tells it anyway, with a mixture of bewilderment and dark pride.
 
-Roland married Gina Capitani, of Irish-Italian descent and 36 years his junior. He had children from a previous marriage who were old enough to be Theo's parents — one of Theo's older half-siblings was 57 when Theo was eight. Theo grew up in Covington, Louisiana, with a brother two years older and two younger sisters. Most of his "frame of reference," he's said, came from "poor people."
+Roland married Gina Capitani, of Irish-Italian descent and decades younger. He had children from a previous marriage who were old enough to be Theo's parents — one of Theo's older half-siblings was 57 when Theo was eight. Theo grew up in Covington, Louisiana, with a brother two years older and two younger sisters. Most of his "frame of reference," he's said, came from "poor people."
 
 When Theo describes Roland, the picture isn't a stern patriarch. It's a confused old man trying to parent a kid who shouldn't have been his. "So he was 86 at that time," Theo told Pete Davidson, walking him through what it was like having an 80-something father. "It wasn't like I had this dad that had this energy. I had this kind of dad that was sleeping in the distance a lot. Or like, you know, inadvertently causing shit to happen, like falling asleep in the carpool. He'd come pick me up and he'd doze off out there."
 
@@ -339,7 +371,7 @@ They reconciled. Today he pays her rent. He calls her his first audience, the pe
 
 Before he was a comedian, Theo was a reality TV kid.
 
-In 2000, at 19, he auditioned at a bar while studying at LSU and landed a spot on MTV's _Road Rules: Maximum Velocity Tour_. Four seasons of _The Challenge_ followed; he won twice. Then came _Deal With It_, a hidden-camera prank show on TBS where Theo hosted three seasons of daring strangers via earpiece to pull pranks on their unsuspecting companions. From the outside it looked like a career. From inside, it was the same thing he'd been doing since 14: performing to stay in the room, on a bigger set, with cameras now paying for the couch.
+In 2000, at 19, he auditioned at a bar while studying at LSU and landed a spot on MTV's _Road Rules: Maximum Velocity Tour_. Four seasons of _The Challenge_ followed; he won two of them. Then came _Deal With It_, a hidden-camera prank show on TBS where Theo hosted three seasons of daring strangers via earpiece to pull pranks on their unsuspecting companions. From the outside it looked like a career. From inside, it was the same thing he'd been doing since 14: performing to stay in the room, on a bigger set, with cameras now paying for the couch.
 
 It's also exactly the format a 7 would build their twenties out of. Constant motion. New city every week. Stakes that reset every season. No one ever close enough to ask the harder question. The reward for winning is not having to sit still long enough to feel anything.
 
@@ -349,7 +381,7 @@ The breakthrough came at the Comedy Store in Los Angeles. Joe Rogan described th
 
 His 2021 Netflix special _Regular People_ drew mixed reviews. Fans said it felt over-rehearsed compared to his freeform podcast style, where his mind could roam.
 
-The podcast was the real engine. "This Past Weekend," which Theo launched in December 2016, let him do what he does best: think out loud, toggle between absurd and devastating, confess something embarrassing, then ask you something no one has ever asked you before. By 2024, Spotify announced it was the **4th-biggest podcast in the world**. His August 2024 episode with [Donald Trump](/personality-analysis/donald-trump) drew over **16 million YouTube views**. In July 2025, TIME named him to its inaugural "TIME100 Creators" list in the Leaders category.
+The podcast was the real engine. "This Past Weekend," which Theo launched in December 2016, let him do what he does best: think out loud, toggle between absurd and devastating, confess something embarrassing, then ask you something no one has ever asked you before. By 2024, Spotify announced it was the **4th-biggest podcast in the world**. His August 2024 episode with [Donald Trump](/personality-analysis/donald-trump) has drawn over **16 million YouTube views**. In July 2025, TIME named him to its inaugural "TIME100 Creators" list in the Leaders category.
 
 His fans call themselves **"Gang Gang"** — Theo's signature greeting turned into an identity. The Rat King nickname started on The Fighter and The Kid podcast with Brendan Schaub and took on a mythic dimension when Jordan Peterson appeared on Theo's show, noticed his rat-print shirt, and launched into a story about catching rats and throwing them in a pit until only one survived, the "rat king" you release to eliminate the others. The Rat King persona became central to his brand: merch, fan culture, and his 2024-2025 arena tour, "Return of the Rat." But "Gang Gang" is what the audience actually says to each other. The podcast's confessional format — voicemails from listeners, unscripted vulnerability, real-time processing of his own life — creates the unusual feeling that his millions of listeners are friends, not fans. For a man whose first audience was a mother who couldn't look at him, building a global audience that talks back may not be coincidence.
 
@@ -421,7 +453,7 @@ The late-night pattern tells you where the wound still lives. On the road, alone
 
 The Beacon Theatre disaster didn't happen in a vacuum. September 2025 hit Theo Von from every direction at once.
 
-On September 10, 2025, Charlie Kirk — the Turning Point USA founder, who had appeared on Theo's podcast — was assassinated while speaking at an outdoor campus debate at Utah Valley University. A sniper shot him in the neck from a rooftop roughly 142 yards away. The killing shook Theo and heightened his fear about his own public appearances.
+On September 10, 2025, Charlie Kirk — the Turning Point USA founder, a fixture of the same podcast ecosystem Theo orbits — was assassinated while speaking at an outdoor campus debate at Utah Valley University. A sniper shot him in the neck from a rooftop roughly 142 yards away. "I didn't know Charlie Kirk but I admired him," Theo posted afterward. The killing shook him and heightened his fear about his own public appearances. "We all watched somebody get murdered casually on our phones," he said on the podcast episode where he addressed the Beacon taping.
 
 On September 23rd, the Department of Homeland Security posted a video using a clip of Theo saying "Heard you got deported dude, bye," a joke originally recorded when a fan handed him their phone to send a message to a friend. DHS repurposed it as the punchline in a deportation propaganda video. The clip came down two days later.
 
@@ -429,13 +461,13 @@ For the son of a Nicaraguan immigrant whose father's journey from Bluefields to 
 
 "When it comes to immigration my thoughts and heart are a lot more nuanced than this video allows."
 
-He demanded DHS take it down. They did. Then a government official called offering him a security detail. Theo grew paranoid. He closed the curtains in his house.
+He demanded DHS take it down. Then a government official called offering him a security detail. Theo grew paranoid. He closed the curtains in his house.
 
 All of this while weaning himself off antidepressants he'd been on since his early twenties. The decision wasn't impulsive. A year earlier, he'd told Dax Shepard: "I got on antidepressants when I was 20 and I didn't realize that that kept so many of my feelings in a cage." He wanted to stand on the Beacon Theatre stage and feel something real. Not the medicated equilibrium where everything was just "okay." He needed the highs and the lows.
 
 This is the moment to name what a 7 normally does and what Theo was refusing to do. The 7's whole survival strategy is to keep moving fast enough that nothing painful catches up. Reframe, deflect, find the angle, transform the wound into material. Theo had been doing that for forty-five years. Walking into the Beacon Theatre off his meds, into a month of grief and paranoia and political weaponization, with no plan to spin it — he was attempting the one thing a 7 spends a lifetime avoiding. He was trying to sit inside the feeling.
 
-What he got was an unraveling. He described feeling "mildly manic," "like when you get too high and have to pretend to be yourself." He couldn't remember things. He left the stage more than once. Around a third of the audience walked out.
+What he got was an unraveling. He described feeling "mildly manic," "like when you get too high and have to pretend to be yourself." He couldn't remember things. He left the stage more than once. The crowd thinned as people walked out.
 
 And then he said the thing about not taking his own life.
 

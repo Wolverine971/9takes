@@ -323,7 +323,7 @@
 		background-color: color-mix(in srgb, var(--error) 15%, transparent);
 		color: var(--error);
 		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
-		border-radius: 0.375rem;
+		border-radius: 0.625rem;
 		font-size: 0.875rem;
 		animation: slideIn 0.2s ease-out;
 	}
@@ -362,7 +362,7 @@
 		background-color: var(--lamp-glow);
 		color: var(--text-on-primary);
 		border: none;
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		font-weight: 600;
 		font-size: 1rem;
 		white-space: nowrap;
@@ -453,7 +453,7 @@
 		color: var(--lamp-glow);
 		background-color: var(--primary-subtle);
 		padding: 0 2px;
-		border-radius: 2px;
+		border-radius: 0.25rem;
 	}
 
 	/* Dropdown styling - Ethereal dark theme */

@@ -355,7 +355,7 @@
 		padding: 0.625rem 0.875rem;
 		font-size: 0.95rem;
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		transition: border-color 0.15s ease;
@@ -373,7 +373,7 @@
 		background: var(--lamp-glow);
 		color: white;
 		border: none;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		cursor: pointer;
 		transition: opacity 0.15s ease;
 
@@ -396,7 +396,7 @@
 		padding: 0.875rem;
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 	}
 
 	.filter-group {
@@ -414,7 +414,7 @@
 			padding: 0.4rem 0.625rem;
 			font-size: 0.8rem;
 			border: 1px solid var(--stone-warm);
-			border-radius: 6px;
+			border-radius: 0.625rem;
 			background: var(--stone-warm);
 			color: var(--ink-bright);
 			min-width: 150px;
@@ -486,7 +486,7 @@
 		padding: 1.25rem;
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);
-		border-radius: 12px;
+		border-radius: 1rem;
 		text-decoration: none;
 		color: inherit;
 		transition: all 0.15s ease;
@@ -601,7 +601,7 @@
 		text-decoration: none;
 		color: var(--ink-mid);
 		border: 1px solid var(--stone-warm);
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		background: var(--stone-warm);
 		transition: all 0.15s ease;
 

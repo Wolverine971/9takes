@@ -23,10 +23,11 @@ nationality: 'American'
 occupation:
   - 'Writer'
 knows_about:
-  - 'Writing'
-  - 'Social Psychological Research'
-  - 'The 33 Strategies of War'
-  - 'The 48 Laws of Power'
+  - 'Power dynamics and strategy'
+  - 'Notecard research methodology'
+  - 'Classical history synthesis'
+  - 'Human nature psychology'
+  - 'Machiavellian literature'
 keywords:
   - 'Robert Greene enneagram'
   - 'Robert Greene type 5'
@@ -44,12 +45,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q1386992'
   - 'https://powerseductionandwar.com'
 faqs:
-  - question: 'What is Robert Greene''s Personality Type?'
-    answer: 'You''re six years old. Your mother''s anxiety fills the room like weather — you can''t see it, but your body registers every shift. "My mother''s a very anxious person, and she''ll admit it," Greene told Rick Rubin on Tetragrammaton. "And so you absorb the energy patterns of people you were around when you''re that young." Your father comes home from selling cleaning supplies. He doesn''t talk about what he wanted. Your sister makes you dinner. Nobody explains the rules.'
+  - question: "What is Robert Greene's personality type?"
+    answer: "Robert Greene is an Enneagram Type 5 (The Investigator), specifically a 5w4. The pattern shows in the 300-400 books and thousands of handwritten notecards he stockpiles per project, the eighty jobs before 38 that were reconnaissance rather than careers, the vow after a Hollywood humiliation to 'become a master observer of the game of power,' the routines he calls 'liberating' against unstructured time he calls 'like hell' — and the 2018 stroke that collapsed the fortress, leaving the world's most self-sufficient mind unable to make his own breakfast."
     anchor: 'what-is-robert-greenes-personality-type'
-  - question: 'Why is Robert Greene typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Social Psychological Research, The 33 Strategies of War.'
-    anchor: 'why-is-robert-greene-typed-as-an-enneagram-type-5'
+  - question: 'Why did Robert Greene write The 48 Laws of Power?'
+    answer: "Revenge, by his own account. After two decades on the wrong side of power — eighty dead-end jobs, Hollywood directors cutting his name from scripts, a boss who destroyed him for reacting emotionally — he decided to reverse-engineer the machinery that kept crushing him. 'It came from that kind of power of almost wanting revenge on that world,' he told Rick Rubin. He pitched the idea to book packager Joost Elffers at Fabrica in 1995 (Elffers chose the number 48), and the book was published in 1998 when Greene was 38."
+    anchor: 'eighty-jobs-and-a-revenge-fantasy'
+  - question: 'Is The 48 Laws of Power really banned in prisons?'
+    answer: "Yes — it's the second-most-banned book in US state prisons per PEN America's 2023 report (the first is a cookbook called Prison Ramen), and Greene is the most-banned author behind bars; Florida alone has banned eleven of his titles. But the piece notes the same prisons ban The New Jim Crow and The Color Purple, so the ban tracks carceral logic more than moral seriousness — and the harder critique, that the book is sold to be used as a weapon, is one Greene has never publicly regretted."
+    anchor: 'the-question-of-the-book-itself'
+  - question: 'What happened to Robert Greene in 2018?'
+    answer: "On August 17, 2018, Greene suffered a stroke while driving with his wife, Anna Biller — his neurologist theorized a wasp sting in the neck weeks earlier had released cholesterol that formed a blood clot. The entire left side of his body went dead. 'I still can't make my own breakfast,' he said three years later. He fought back with three-plus hours of daily physical therapy, and noted a paradox: 'Losing that half of my personality de-stressed me a lot.'"
+    anchor: 'a-wasp-sting-in-the-neck'
+  - question: "What is Robert Greene's next book?"
+    answer: "The Law of the Sublime (Towards the Sublime in the UK), out from Viking in November 2026 — seven years of work on a book he'd first meant to write in 2006. The final chapter is about death, which he calls 'the ultimate sublime.' Asked what the book had done for him, Greene was direct: 'Writing the book on the sublime is like, saved me.' The man who taught the world how to crush their enemies is closing his career writing about wonder."
+    anchor: 'the-sublime-from-a-chair'
 content_quality:
   hook: 9
   enneagram: 9.5

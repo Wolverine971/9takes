@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm0159008/'
   - 'https://chomsky.info/'
 faqs:
-  - question: 'What is Noam Chomsky''s personality type?'
-    answer: 'The Enneagram''s Type 1, sometimes called The Reformer or The Perfectionist, is driven by a core belief that the world is fundamentally flawed and that they bear a personal responsibility to correct it. Core fear: being corrupt, evil, or defective. Core desire: to be good, to have integrity, to be right.'
+  - question: "What is Noam Chomsky's personality type?"
+    answer: "Noam Chomsky is an Enneagram Type 1 (The Reformer), specifically a 1w9. The pattern shows in the 300 emails about human suffering he tried to answer every day, the same plain turkey sandwich for twenty years because food distracted from the work, feeling 'guilty most of the time' inside Pentagon-funded MIT, anger delivered as surgical precision rather than passion, and the left arm that still rises in protest at images of Gaza after a stroke took his speech."
     anchor: 'what-is-noam-chomskys-personality-type'
-  - question: 'Why is Noam Chomsky typed as an Enneagram Type 1?'
-    answer: 'The Type 1 Reformer case is based on the behavioral pattern developed throughout the essay, with supporting context from Writing, Linguistics, Philosophy Of Language.'
-    anchor: 'why-is-noam-chomsky-typed-as-an-enneagram-type-1'
+  - question: 'Was Noam Chomsky funded by the Pentagon?'
+    answer: "Yes. MIT was about 90% Pentagon-funded, his early linguistics research was backed by military grants in the Research Lab for Electronics, and between 1963 and 1965 he consulted for MITRE on Air Force projects. He considered resigning in 1967 as his anti-war activism escalated but never did — the contradiction an article later summarized as 'Why Chomsky Felt Guilty Most of the Time.'"
+    anchor: 'the-pentagons-linguist-who-opposed-the-pentagon'
+  - question: 'What was the Chomsky-Foucault debate about?'
+    answer: "In 1971 on Dutch television, they debated whether human nature exists. Chomsky argued innate mental structures prove humans come equipped with a drive for creative freedom and a real standard of justice; Foucault countered that 'one makes war to win, not because it is just' and saw no objection to a victorious proletariat exercising bloody power. Chomsky later called Foucault's position 'quite frankly, very frightening' — his entire moral architecture depends on right and wrong being features of reality."
+    anchor: 'the-man-who-needed-human-nature-to-be-real'
+  - question: 'What was the Chomsky Cambodia controversy?'
+    answer: "In the late 1970s, Chomsky and Edward Herman argued Western media exaggerated Khmer Rouge atrocity reports while ignoring comparable killing in East Timor done with American weapons. He questioned refugee testimony and dismissed a key book on the genocide as a 'third-rate propaganda tract'; when the 1.5 to 2 million dead became undeniable, critics accused him of covering for the regime. The article reads it as the Type 1 trap: applying a correct principle so rigidly that moral consistency overrides moral responsiveness."
+    anchor: 'the-cambodia-controversy'
+  - question: "What was Noam Chomsky's relationship with Jeffrey Epstein?"
+    answer: "Released emails documented meetings with Epstein in 2015 and 2016, and in 2019 Chomsky reportedly counseled Epstein on his public relations crisis. Asked if he regretted it, he wrote: 'I've met all sorts of people, including major war criminals. I don't regret having met any of them.' His wife Valeria later acknowledged 'serious errors in judgment,' and the article notes the interactions occurred in his late 80s, with signs of cognitive slowing before his 2023 stroke."
+    anchor: 'the-epstein-question'
 twitter: ''
 instagram: ''
 tiktok: ''

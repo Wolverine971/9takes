@@ -30,12 +30,11 @@ occupation:
   - 'Composer'
   - 'Philanthropist'
 knows_about:
-  - 'Singing'
-  - 'Acting'
-  - 'Voice acting'
-  - 'Pop Music'
-  - 'Latin Pop'
-  - 'Pop Rock'
+  - 'Latin pop songwriting'
+  - 'Multilingual crossover music'
+  - 'Belly dance performance'
+  - 'Music production'
+  - 'Education philanthropy (Pies Descalzos Foundation)'
 keywords:
   - 'Shakira enneagram'
   - 'Shakira type 7'
@@ -55,12 +54,21 @@ citations:
   - 'https://www.imdb.com/name/nm0787680/'
   - 'https://www.shakira.com'
 faqs:
-  - question: 'What is Shakira''s personality type?'
-    answer: 'Type 7 is the Enneagram''s Enthusiast — a personality wired to outrun limitation by generating possibilities. Sevens are not shallow. They are highly intelligent (Shakira''s IQ is reportedly 140, Mensa-eligible per HuffPost), often genuinely optimistic, and unusually good at metabolizing pain into creative fuel. The trap is that the same engine that turns disappointment into a song can also turn a marriage, a city, or a feeling into something to escape from.'
+  - question: "What is Shakira's personality type?"
+    answer: "Shakira is an Enneagram Type 7 (The Enthusiast), specifically a 7w8. The pattern shows in the eight-year-old who wrote 'Tus Gafas Oscuras' about her father's hidden grief, the career that refuses lanes — Colombian rock, English pop, World Cup anthems, a Super Bowl zaghrouta — the divorce-era Bizarrap session that turned humiliation into four Guinness World Records, and the album-promo schedule of going to sleep at 9 a.m. 'running on fumes.' Under stress she pulls toward Type 1 perfectionism: Bizarrap said 'she drove me crazy' in the studio."
     anchor: 'what-is-shakiras-personality-type'
-  - question: 'Why is Shakira typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Singing, Acting, Voice acting.'
-    anchor: 'why-is-shakira-typed-as-an-enneagram-type-7'
+  - question: 'How did Shakira respond to her divorce from Gerard Piqué?'
+    answer: "She turned it into music. The Bizarrap Vol. 53 session — with the 'you traded a Ferrari for a Twingo' line — broke four Guinness World Records; when her team wanted to soften the lyrics she refused: 'I'm not a U.N. representative. I'm an artist. And no one's going to tell me how I'm supposed to heal.' A month later came 'TQG' with Karol G, and in April 2023 she moved with her sons from Barcelona to Miami. Privately she described the period as feeling like 'someone had stabbed a hole in my chest.'"
+    anchor: 'how-a-type-7-survives-everything-falling-apart-at-once'
+  - question: "What happened with Shakira's Spanish tax case?"
+    answer: "Prosecutors alleged she failed to pay 14.5 million euros in taxes from 2012 to 2014, with conviction carrying up to eight years in prison. On November 20, 2023 — the morning her trial was scheduled to begin — she settled: a three-year suspended sentence, a fine of more than €7.3 million on top of back taxes already paid, and another €432,000 to keep the prison sentence suspended. A second tax case was dropped in May 2024."
+    anchor: 'how-a-type-7-survives-everything-falling-apart-at-once'
+  - question: 'Why did Shakira put her career on hold for Gerard Piqué?'
+    answer: "'For a long time I put my career on hold, to be next to Gerard, so he could play football,' she told The Sunday Times. 'There was a lot of sacrifice for love.' She moved to Barcelona, raised two sons, and released exactly one studio album — 2017's El Dorado — across eleven years, after averaging a record-breaking album every two years. On The Tonight Show she put it more bluntly: 'the husband was dragging me down.'"
+    anchor: 'why-shakira-gave-up-ten-years-for-gerard-piqué'
+  - question: 'What is the Pies Descalzos Foundation?'
+    answer: "Shakira founded the Barefoot Foundation in 1997, at barely nineteen, to build schools with real food and psychological support for Colombian children displaced by internal violence. Twenty-eight years later it has built nine schools and served more than 152,000 children, and she still funds it from her tours — the one thing the personality wired against staying has stayed with for almost three decades."
+    anchor: 'the-28-year-commitment-hidden-behind-all-the-reinvention'
 twitter: 'shakira'
 instagram: 'shakira'
 tiktok: 'shakira'

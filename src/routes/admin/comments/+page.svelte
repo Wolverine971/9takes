@@ -465,7 +465,7 @@
 		width: 100%;
 		padding: 8px 12px;
 		border: 1px solid var(--stone-warm);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-size: 0.8125rem;
 		background: var(--stone-warm);
 		transition:
@@ -484,7 +484,7 @@
 		gap: 2px;
 		background: var(--night-deep);
 		padding: 3px;
-		border-radius: 6px;
+		border-radius: 0.625rem;
 	}
 
 	.tab {
@@ -494,7 +494,7 @@
 		padding: 6px 12px;
 		border: none;
 		background: transparent;
-		border-radius: 5px;
+		border-radius: 0.625rem;
 		font-size: 0.75rem;
 		font-weight: 500;
 		color: var(--ink-mid);
@@ -515,7 +515,7 @@
 	.tab-badge {
 		font-size: 0.625rem;
 		padding: 1px 5px;
-		border-radius: 8px;
+		border-radius: 9999px;
 		background: var(--stone-warm);
 		color: var(--ink-mid);
 	}
@@ -637,7 +637,7 @@
 		margin-top: 8px;
 		padding: 8px 10px;
 		background: var(--night-deep);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		font-size: 0.75rem;
 	}
 
@@ -778,7 +778,7 @@
 			padding: 10px 12px;
 			margin-bottom: 16px;
 			gap: 10px;
-			border-radius: 8px;
+			border-radius: 1rem;
 		}
 
 		.search-input {
@@ -801,7 +801,7 @@
 		}
 
 		.content-card {
-			border-radius: 8px;
+			border-radius: 1rem;
 		}
 
 		.card-header {

@@ -103,7 +103,7 @@
 		margin-top: 1rem;
 		padding: 0.8rem 1.2rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
-		border-radius: 0.9rem;
+		border-radius: 0.625rem;
 		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
 		color: var(--text-on-primary);
 		font-weight: 600;

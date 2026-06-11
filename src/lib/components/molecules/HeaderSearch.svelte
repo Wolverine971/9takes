@@ -592,7 +592,7 @@
 		z-index: 80;
 		overflow: hidden;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--glass-border));
-		border-radius: 1.1rem;
+		border-radius: 1rem;
 		background:
 			linear-gradient(
 				180deg,

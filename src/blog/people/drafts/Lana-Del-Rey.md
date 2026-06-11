@@ -27,12 +27,11 @@ occupation:
   - 'Actor'
   - 'Musician'
 knows_about:
-  - 'Songwriting'
-  - 'Singing'
-  - 'Acting'
-  - 'Music'
-  - 'Music Composing'
-  - 'Indie Pop'
+  - 'Cinematic pop songwriting'
+  - 'Hollywood Sadcore aesthetic'
+  - 'Americana mythology'
+  - 'Confessional lyric writing'
+  - 'Country and folk crossover'
 keywords:
   - 'Lana Del Rey enneagram'
   - 'Lana Del Rey type 4'
@@ -52,12 +51,21 @@ citations:
   - 'https://www.imdb.com/name/nm4787894/'
   - 'https://lanadelrey.com/'
 faqs:
-  - question: 'What is Lana Del Rey''s Personality Type?'
-    answer: 'Enneagram Fours — "The Individualists" — are organized around a single, persistent ache: something essential is missing. Not missing from the world. Missing from them. They feel this absence so acutely that they build entire inner landscapes around it — art, music, fantasy, elaborate emotional cartography. They are drawn to what is absent, to what cannot be returned to, to the bittersweet awareness that beauty is always also loss.'
+  - question: "What is Lana Del Rey's personality type?"
+    answer: "Lana Del Rey is an Enneagram Type 4 (The Individualist) with a strong 3 wing. The pattern shows in the childhood 'philosophical crisis' where she was floored by mortality, the deliberate construction of 'Lana Del Rey' out of Elizabeth Grant, a fifteen-year catalog built on longing for what cannot be reached, and the 'Ride' monologue where she names herself — 'a chameleon soul, no moral compass pointing due north' — before the world can do it wrong."
     anchor: 'what-is-lana-del-reys-personality-type'
-  - question: 'Why is Lana Del Rey typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Songwriting, Singing, Acting.'
-    anchor: 'why-is-lana-del-rey-typed-as-an-enneagram-type-4'
+  - question: 'Why did Lana Del Rey change her name from Lizzy Grant?'
+    answer: "The name came from 'a series of managers and lawyers who wanted a name that they thought better fit the sound of the music' — she chose something cinematic and glamorous. After 'Video Games' went viral in 2011, an anonymous blogger exposed her as a 'manufactured' rebrand and her SNL performance was savaged. The irony took years to resolve: the DIY 'Video Games' video she made herself became the blueprint of authentic pop that Billie Eilish and Olivia Rodrigo grew up on."
+    anchor: 'the-invention-of-lana-del-rey'
+  - question: "What was Lana Del Rey's 2020 'Question for the Culture' controversy?"
+    answer: "In May 2020 she posted that Beyoncé, Doja Cat, Ariana Grande, Cardi B, and others were celebrated for 'overtly sexual' material while she was accused of glamorizing abuse. Critics noted the artists she named were overwhelmingly women of color, and her follow-up — 'this is sad to make it about a WOC issue' — only sharpened the backlash. It was the rare moment the self-styled misunderstood outsider became the one doing the misunderstanding."
+    anchor: 'the-question-for-the-culture'
+  - question: "Who is Lana Del Rey's husband?"
+    answer: "Jeremy Dufrene, an alligator tour guide who runs Arthur's Airboat Tours in Lafitte, Louisiana. She met him in 2019 when she took his swamp tour during a music festival, reconnected with him in 2024, and married him on September 26, 2024. She has called him 'the most impactful person in my life.'"
+    anchor: 'louisiana-what-arrival-looks-like'
+  - question: 'Was Lana Del Rey an alcoholic?'
+    answer: "By her own account she was drinking daily and alone by age 14 — 'I knew it was a problem when I liked it more than I liked doing anything else.' Her parents sent her to Kent School, a Connecticut boarding school, to get sober at 14. She was sober by 18 and has stayed sober since."
+    anchor: 'lake-placid-the-girl-who-watched-through-glass'
 twitter: '@LanaDelRey'
 instagram: '@lanadelrey'
 tiktok: ''

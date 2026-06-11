@@ -109,7 +109,7 @@
 		background-size: cover;
 		background-position: center;
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-		border-radius: 12px;
+		border-radius: 1rem;
 		overflow: hidden;
 		text-decoration: none;
 		transition: all 0.3s ease;

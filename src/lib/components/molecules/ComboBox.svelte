@@ -441,7 +441,7 @@
 	$base-spacing: 0.25rem;
 	$font-size-base: 1rem;
 	$transition-duration: 0.2s;
-	$border-radius: 0.375rem;
+	$border-radius: 0.625rem;
 	$breakpoint-sm: 576px;
 
 	// Colors with fallbacks

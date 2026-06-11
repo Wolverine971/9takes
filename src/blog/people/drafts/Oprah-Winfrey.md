@@ -28,12 +28,12 @@ occupation:
   - 'Businessperson'
   - 'Actor'
 knows_about:
-  - 'Television production'
-  - 'Film production'
-  - 'Business'
-  - 'Acting'
-  - 'Voice acting'
-  - 'Writing'
+  - 'Talk show interviewing'
+  - "Oprah's Book Club"
+  - 'Media empire ownership'
+  - 'Cable network leadership'
+  - 'Philanthropy and education'
+  - 'Spiritual self-help programming'
 keywords:
   - 'Oprah Winfrey enneagram'
   - 'Oprah Winfrey type 2'
@@ -53,15 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm0001856/'
   - 'https://oprah.com'
 faqs:
-  - question: 'What is Oprah''s Personality Type?'
-    answer: 'The insight she delivered at Harvard — that every person she ever interviewed wanted to know Was that okay? — is presented as universal. It is also deeply autobiographical.'
+  - question: "What is Oprah Winfrey's personality type?"
+    answer: "Oprah is an Enneagram Type 2 (The Helper). The pattern shows in the 'disease to please' she traces to childhood beatings ('when you don't do what people want, you get punished'), the Harvard insight that all 35,000 of her guests asked 'Was that okay?' — a question she needed answered herself, the South African girls' academy she built as 'everything in this school that I would have wanted for myself,' and the blind spot for anyone who presents as a helper, from Jenny McCarthy to John of God."
     anchor: 'what-is-oprahs-personality-type'
-  - question: 'What is Oprah Winfrey''s personality type?'
-    answer: 'Oprah Winfrey is analyzed as an Enneagram Type 2 (Helper). The profile connects that type pattern to Oprah Winfrey built an empire by giving people the thing she needed most as a child: to feel fully seen, safe, and worthy.'
-    anchor: 'what-is-oprah-winfreys-personality-type'
-  - question: 'Why is Oprah Winfrey typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Television production, Film production, Business.'
-    anchor: 'why-is-oprah-winfrey-typed-as-an-enneagram-type-2'
+  - question: 'Is Oprah a Type 3 or Type 8 instead of a Type 2?'
+    answer: "The objections are fair — she has Type 3 energy (twenty Emmys, strategic brand management) and Type 8 energy (a billion-dollar empire she controls outright). But the question is what she fears: Threes fear being worthless without achievement, Eights fear being controlled, and Oprah fears being unwanted. She was forty before she could say no, she sat inside shame for decades rather than performing past it, and her rare confrontations are extraordinary precisely because they're uncharacteristic."
+    anchor: 'oprah-is-an-enneagram-type-2'
+  - question: 'Why did Oprah never marry Stedman Graham?'
+    answer: "They got engaged in 1992 and never wed. Her own explanation: 'The moment after I said yes to his proposal, I had doubts. I realized I didn't actually want a marriage. I wanted to be asked.' When she later asked Stedman what would have happened if they had married, he answered, 'We wouldn't be together.' They call what they have instead a spiritual partnership, and she says she hasn't had one regret."
+    anchor: 'why-oprah-never-married-stedman'
+  - question: 'What happened between Oprah and James Frey?'
+    answer: "After The Smoking Gun exposed fabrications in her Book Club pick A Million Little Pieces, Oprah first defended Frey on Larry King, then brought him back on January 26, 2006 and dismantled the lies on live television: 'I feel really duped. But more importantly, I feel that you betrayed millions of readers.' Five years later she brought him back again and apologized — not for what she said, but for how: 'What people saw was my lack of compassion.'"
+    anchor: 'the-frey-confrontation-and-the-kingmakers-blind-spot'
+  - question: 'What has Oprah said about weight-loss medication?'
+    answer: "Taking a GLP-1 dissolved forty years of self-blame: she realized thin people 'are not even thinking about it. They're only eating when they're hungry, and they're stopping when they're full.' In 2024 she publicly apologized for being a 'major contributor' to diet culture, left the WeightWatchers board and donated her roughly $3 million in stock, and in January 2026 published Enough, co-authored with Yale's Dr. Ania Jastreboff."
+    anchor: 'stuart-weitzman-shoes-and-67-pounds-of-animal-fat'
 twitter: 'https://twitter.com/Oprah'
 instagram: 'https://www.instagram.com/oprah/'
 tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'

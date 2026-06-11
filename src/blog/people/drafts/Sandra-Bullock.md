@@ -31,12 +31,11 @@ occupation:
   - 'Screenwriter'
   - 'Television Actor'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Film production'
-  - 'Screenwriting'
-  - 'Television acting'
-  - 'Business'
+  - 'Film producing (Fortis Films)'
+  - 'German language and culture'
+  - 'Disaster-relief philanthropy'
+  - 'Adoptive parenting'
+  - 'Privacy and security in public life'
 keywords:
   - 'Sandra Bullock enneagram'
   - 'Sandra Bullock type 9'
@@ -54,12 +53,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q40791'
   - 'https://www.imdb.com/name/nm0000113/'
 faqs:
-  - question: 'What is Sandra Bullock''s personality type?'
-    answer: 'Type 9, the Peacemaker, is built around a single instinct: prioritize harmony, blend with what is in front of you, do not generate conflict, do not insist on being noticed. The cost of this strategy is that the person can lose track of their own preferences — sometimes for decades. The gift of it is that they become extraordinarily good at making other people feel safe.'
+  - question: "What is Sandra Bullock's personality type?"
+    answer: "Sandra Bullock is an Enneagram Type 9 (The Peacemaker), specifically a 9w1. The pattern shows in the Oscar speech she opened by asking 'Did I really earn this, or did I just wear you all down?', the Razzie she accepted in person the night before with a wagon of DVDs, the closet she whispered into during the 2014 home invasion, the total refusal to retaliate against Jesse James, and the three years she kept Bryan Randall's fatal ALS private from nearly everyone."
     anchor: 'what-is-sandra-bullocks-personality-type'
-  - question: 'Why is Sandra Bullock typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Film production.'
-    anchor: 'why-is-sandra-bullock-typed-as-an-enneagram-type-9'
+  - question: "Why did Sandra Bullock's Oscar speech sound like an apology?"
+    answer: "Her first sentence with the Best Actress trophy in hand was 'Did I really earn this, or did I just wear you all down?' — the moment of recognition turned into self-effacement. The night before, she had accepted Worst Actress at the Razzies in person, wheeling in a wagon of All About Steve DVDs — only the second A-list actress ever to show up, after Halle Berry. The article calls it the same Type 9 reflex in two different costumes: smaller than the joke on Saturday, smaller than the prize on Sunday."
+    anchor: 'why-sandra-bullocks-oscar-speech-was-an-apology'
+  - question: "What happened during the 2014 break-in at Sandra Bullock's home?"
+    answer: "On June 8, 2014, stalker Joshua Corbett — who owned eight registered firearms and kept a notebook of obsessive entries about her — got inside her Bel Air home while she hid in a closet whispering to 911. She never appeared in court; the 911 tape spoke for her. Ten years later she admitted, 'I wasn't the same after' — the vigilance, the panic room, and the tightened circle never relaxed."
+    anchor: 'the-closet-the-panic-room-and-the-cost-of-hiding'
+  - question: 'How did Sandra Bullock respond to the Jesse James cheating scandal?'
+    answer: "She gave zero retaliatory interviews — not at the time, not since. She filed for divorce in April 2010, finalized it in June, and weeks later was photographed with Louis, the son she had been quietly adopting from New Orleans since before the scandal broke. Faced with the most public humiliation of her life, she redirected the energy into the smallest, most private thing she could find: a child who needed a home."
+    anchor: 'what-sandra-bullock-did-when-jesse-james-broke-her-in-public'
+  - question: "What happened to Sandra Bullock's partner Bryan Randall?"
+    answer: "Randall, a photographer she met in 2015 when he shot her son's birthday party, was diagnosed with ALS around 2020. He and Bullock kept it private — no farewell appearances, no awareness interviews — until his death on August 5, 2023 at fifty-seven; the family statement thanked caregivers for their 'stoic discretion.' Bullock disappeared from public view for over a year, returning at CinemaCon in April 2026."
+    anchor: 'why-bryan-randalls-als-was-hers-alone'
 twitter: ''
 instagram: 'sandrabullock'
 tiktok: ''

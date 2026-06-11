@@ -555,7 +555,7 @@
 		display: inline-block;
 		padding: 0 0.35rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 3px;
+		border-radius: 0.25rem;
 		font-family: var(--font-mono);
 		font-size: 0.7rem;
 		text-transform: uppercase;

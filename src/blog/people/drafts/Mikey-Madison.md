@@ -26,10 +26,12 @@ occupation:
   - 'Actor'
   - 'Voice Actor'
 knows_about:
-  - 'Television acting'
-  - 'Film acting'
-  - 'Acting'
-  - 'Voice acting'
+  - 'Immersive role preparation'
+  - 'Russian language study'
+  - 'Brooklyn dialect work'
+  - 'Performing her own fight scenes'
+  - 'Equestrian riding'
+  - 'Pole dance performance'
 keywords:
   - 'Mikey Madison enneagram'
   - 'Mikey Madison type 9'
@@ -47,12 +49,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q26923245'
   - 'https://www.imdb.com/name/nm5700898/'
 faqs:
-  - question: 'What is Mikey Madison''s Personality Type?'
-    answer: 'Most people see a shy actress who got a lucky break. But a deeper pattern runs through everything she does.'
+  - question: "What is Mikey Madison's personality type?"
+    answer: "Mikey Madison is an Enneagram Type 9 (The Peacemaker). The pattern shows in the 'painfully shy' childhood she spent merging with horses at the barn, her admission that she avoids conflict 'like the plague' while channeling rage exclusively through characters, her total absence from social media, and her first instinct after winning Best Actress — going home to clean up after her puppies. The year of disciplined Anora preparation reveals a Nine tapping the growth line to Type 3."
     anchor: 'what-is-mikey-madisons-personality-type'
-  - question: 'Why is Mikey Madison typed as an Enneagram Type 9?'
-    answer: 'The Type 9 Peacemaker case is based on the behavioral pattern developed throughout the essay, with supporting context from Television acting, Film acting, Acting.'
-    anchor: 'why-is-mikey-madison-typed-as-an-enneagram-type-9'
+  - question: 'How did Mikey Madison prepare for Anora?'
+    answer: 'She trained for roughly a year: months of pole dancing classes, moving to Brighton Beach two months before filming, working with a dialect coach on a thick Brooklyn voice, and studying Russian for real rather than memorizing lines phonetically — she cried at the end of her first session. She shadowed dancers at strip clubs in LA and New York with Sean Baker and did every fight scene without a double, ending up covered head to toe in bruises.'
+    anchor: 'how-mikey-madison-prepared-for-anora'
+  - question: 'Why did Mikey Madison turn down Star Wars?'
+    answer: "A month after winning the Oscar, she walked away from the villain role in Star Wars: Starfighter opposite Ryan Gosling. Reports cited a salary dispute, but it also tracks with her self-description as 'an all-or-nothing person' — she left competitive horseback riding for the same reason. She chose instead to play Facebook whistleblower Frances Haugen in The Social Reckoning, a mermaid thriller with Kirsten Dunst, and an Edgar Allan Poe adaptation for A24."
+    anchor: 'why-mikey-madison-turned-down-star-wars'
+  - question: "Why doesn't Mikey Madison have social media?"
+    answer: "She has no Instagram, Twitter, or TikTok — she says it doesn't feel authentic or natural to her and describes herself as 'a very sensitive person' who shouldn't be reading what people say about her. When Dazed asked about ChatGPT, she replied: 'What the fuck is ChatGPT?' The roles are the public offering; everything else belongs to her."
+    anchor: 'why-mikey-madison-avoids-social-media'
+  - question: 'What voicemail did Mikey Madison play on the Anora set?'
+    answer: "Before filming the final car scene, Madison played the crew an old voicemail from her father — 'Very emotional. Very personal. Very embarrassing.' — to break through the emotional numbness that had bled from the character into her own body. They experienced it together, then filmed; Sean Baker watched her produce one single tear and said, 'Oh my god.'"
+    anchor: 'the-voicemail-that-changed-mikey-madisons-career'
 twitter: ''
 instagram: ''
 tiktok: ''

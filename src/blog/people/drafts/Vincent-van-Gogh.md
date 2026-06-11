@@ -28,12 +28,12 @@ occupation:
   - 'Architectural Draftsperson'
   - 'Etcher'
 knows_about:
-  - 'Painting'
-  - 'Landscape Painting'
-  - 'Still Life'
-  - 'Portrait'
-  - 'Cityscape'
-  - 'Interior View'
+  - 'Post-Impressionist painting'
+  - 'Complementary color theory'
+  - 'Japanese ukiyo-e print collecting'
+  - 'Peasant genre painting (The Potato Eaters)'
+  - 'Self-portraiture'
+  - 'Letter writing (903 surviving letters to Theo)'
 keywords:
   - 'Vincent van Gogh enneagram'
   - 'Vincent van Gogh type 4'
@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q5582'
   - 'https://www.imdb.com/name/nm0994883/'
 faqs:
-  - question: 'What is Vincent van Gogh''s personality type?'
-    answer: 'The core of Enneagram Type 4 is a feeling of fundamental incompleteness, the sense that something essential was given to everyone else and somehow withheld from you. Not a talent. Not a possession. Something closer to a birthright of belonging. (If you''ve read about Frida Kahlo, another Type 4 artist, you''ll recognize the frequency, but Van Gogh''s expression is rawer, less controlled, more self-destructive.) Fours don''t envy what others have. They envy what others are: at ease. Whole. Unquestioned in their right to exist.'
+  - question: "What is Vincent van Gogh's personality type?"
+    answer: "Vincent van Gogh is an Enneagram Type 4 (The Individualist) with a 5 wing. The pattern shows in a childhood spent walking past a gravestone bearing his own name — he was born exactly a year after a stillborn brother named Vincent — five careers abandoned for giving too much too literally, 2,100 artworks produced in a single decade, the ear delivered as a gift to a brothel cleaner, and letters declaring he would 'show what there is in the heart of such an oddity, such a nobody.'"
     anchor: 'what-is-vincent-van-goghs-personality-type'
-  - question: 'Why is Vincent van Gogh typed as an Enneagram Type 4?'
-    answer: 'The Type 4 Individualist case is based on the behavioral pattern developed throughout the essay, with supporting context from Painting, Landscape Painting, Still Life.'
-    anchor: 'why-is-vincent-van-gogh-typed-as-an-enneagram-type-4'
+  - question: 'Why did Van Gogh cut off his ear?'
+    answer: "On December 23, 1888, after a blazing argument with Paul Gauguin that ended the nine-week 'Studio of the South' experiment, Van Gogh sliced off most of his left ear and carried it to a woman named Gabrielle at a local brothel. Bernadette Murphy's 2016 archival work identified Gabrielle not as a sex worker but as the brothel's young cleaner, then recovering from a near-fatal rabies attack. Gauguin left for Paris and the dream of an artists' community had lasted sixty-three days."
+    anchor: 'the-yellow-house-van-goghs-dream-of-belonging'
+  - question: 'Did Van Gogh kill himself or was he shot?'
+    answer: "The conventional account is suicide, and the Van Gogh Museum and most scholars still favor it. But a 2011 biography by Steven Naifeh and Gregory White Smith proposed that René Secrétan, a teenager who had bullied Vincent that summer, accidentally shot him — the bullet's oblique angle and absence of powder burns support the theory. What's undisputed is Vincent's answer to police: 'Do not accuse anyone... it is I who wanted to kill myself.' He died two days later with Theo beside him."
+    anchor: 'the-last-seventy-days'
+  - question: 'What did Van Gogh do before becoming a painter?'
+    answer: "He failed out of five careers before picking up a pencil seriously at twenty-seven: art dealer at Goupil & Cie (fired after telling clients their purchases were ugly), unpaid teacher in England, bookseller in Dordrecht, theology student in Amsterdam, and lay preacher in Belgium's coal-mining Borinage — where he gave away his clothes, ripped his bedsheets into bandages for injured miners, and was fired for being too devoted."
+    anchor: 'five-lives-before-the-first-painting'
+  - question: 'How many paintings did Van Gogh sell in his lifetime?'
+    answer: "Perhaps one: The Red Vineyard, for 400 francs. He died believing himself a failure and a burden on Theo's finances. A century later, Portrait of Dr. Gachet sold for $82.5 million, The Starry Night hangs in MoMA, and the Van Gogh Museum draws over two million visitors a year."
+    anchor: 'the-fire-that-still-burns'
 twitter: ''
 instagram: ''
 tiktok: ''

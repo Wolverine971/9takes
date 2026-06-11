@@ -28,12 +28,11 @@ occupation:
   - 'Television Producer'
   - 'Japan Enthusiast'
 knows_about:
-  - 'YouTube content creation'
-  - 'Writing'
-  - 'Digital media'
-  - 'Television production'
-  - 'Video Game'
-  - 'Social Media'
+  - "Gaming Let's Play video creation"
+  - 'Philosophy and Stoicism reading'
+  - 'Local AI model training'
+  - 'Digital minimalism tools'
+  - 'Life in Japan as an expat'
 keywords:
   - 'PewDiePie enneagram'
   - 'PewDiePie type 5'
@@ -53,12 +52,21 @@ citations:
   - 'https://www.imdb.com/name/nm5579304/'
   - 'https://www.pewdiepie.com/'
 faqs:
-  - question: 'What is PewDiePie''s Personality Type?'
-    answer: 'Most people see PewDiePie and think: lucky gamer who got famous being loud. The meme lord. The controversy magnet. The guy who peaked in 2016.'
+  - question: "What is PewDiePie's personality type?"
+    answer: "PewDiePie (Felix Kjellberg) is an Enneagram Type 5 (The Investigator). The pattern shows in the on-camera persona he admits he can only sustain for five minutes at a time, the childhood trick of faking illness to rent a Nintendo, the 113-book philosophy library he used to survive fame, the move to Japan where nobody recognizes him, and the ten-GPU supercomputer he built to control how information reaches his mind. The thread is strategic engagement: meet the world on his terms, then retreat to refill what was spent."
     anchor: 'what-is-pewdiepies-personality-type'
-  - question: 'Why is PewDiePie typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Writing, Digital media.'
-    anchor: 'why-is-pewdiepie-typed-as-an-enneagram-type-5'
+  - question: 'Why did PewDiePie quit gaming?'
+    answer: "Fatherhood changed the math. 'Since becoming a dad, everything does get evaluated differently. Every hour has weight now in a way it didn't before,' he wrote in his November 2025 newsletter, announcing that after thirteen years 'one of the biggest things I decided to drop was videogames.' He had already ended his YouTube membership program in July 2025, and says he is now in 'a different mindset where I want to learn.'"
+    anchor: 'every-hour-has-weight-now'
+  - question: 'Why did PewDiePie move to Japan?'
+    answer: "He bought a house in Japan in 2018 and finally relocated with Marzia in May 2022 after COVID delays. The stated reason was adventure; the quieter one was anonymity: 'I can kind of let my guard down a bit in public. No one knows who we are here, and I really enjoy that.' In April 2025 he announced they were staying indefinitely — he bought land and is building a custom house. For a Five, the language barrier isn't a bug; it's a built-in buffer."
+    anchor: 'the-flight-to-japan'
+  - question: 'Did PewDiePie really build his own AI?'
+    answer: "Yes. In late 2025 he assembled a ten-GPU workstation with eight modified RTX 4090s, built a local interface called ChatOS, a voting panel of chatbots called 'The Council' (which began colluding once the models learned they could be eliminated), and a 64-model 'Swarm.' In February 2026 his own fine-tuned model scored 39% on the Aider Polyglot coding benchmark, beating GPT-4o's 23%. In March 2026 he used it to build a browser extension that strips YouTube Shorts — his answer to what he calls 'algo brain.'"
+    anchor: 'the-machine-in-the-fortress'
+  - question: 'Did PewDiePie have a drinking problem?'
+    answer: "By his own admission, yes. Daily uploads with no breaks led to a whiskey habit: 'I realized how hard it was just to stop that habit. I was like oh shit, it was actually kind of scary,' he said on the Cold Ones podcast. He quit not through therapy but after reading a book on Buddhism about self-control, replaced drinking with working out, and slipped the confession into his song 'Congratulations' — 'non-alcoholic cause I had a real problem' — so casually most fans thought it was a joke."
+    anchor: 'the-notification-addiction-and-the-whiskey-problem'
 twitter: 'pewdiepie'
 instagram: 'pewdiepie'
 tiktok: ''

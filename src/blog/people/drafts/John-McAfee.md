@@ -29,12 +29,12 @@ occupation:
   - 'Computer Scientist'
   - 'Politician'
 knows_about:
-  - 'Business'
-  - 'Politics'
-  - 'Entrepreneurship'
-  - 'Programmer'
-  - 'Engineer'
-  - 'Businessperson'
+  - 'Antivirus software'
+  - 'Computer security'
+  - 'Cryptocurrency promotion'
+  - 'Yoga and meditation writing'
+  - 'Libertarian presidential campaigns'
+  - 'Instant messaging software'
 keywords:
   - 'John McAfee enneagram'
   - 'John McAfee type 7'
@@ -53,12 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm2538937/'
   - 'https://www.sec.gov/news/press-release/2020-246'
 faqs:
-  - question: 'What is John McAfee''s personality type?'
-    answer: 'Type 7s are wired to convert pain into possibility in real time. Disappointment hits, and within milliseconds the mind reroutes: new direction, fresh start, what if instead. It''s not denial. It''s a genuine cognitive talent. Sevens see seventeen exits where most people see a wall.'
+  - question: "What is John McAfee's personality type?"
+    answer: "John McAfee is an Enneagram Type 7 (The Enthusiast) with an 8 wing. The pattern runs through his whole life: walking away from McAfee Associates after the 1994 IPO gave him '1000 bosses,' cycling from a Colorado yoga retreat to a Belize jungle compound to a crypto yacht, vowing to eat his own dick on national television if Bitcoin missed $500,000, and the $WHACKD tattoo that pre-wrote the headline of his own death — sixty years of motion to outrun his father's suicide when he was 15."
     anchor: 'what-is-john-mcafees-personality-type'
-  - question: 'Why is John McAfee typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from Business, Politics, Entrepreneurship.'
-    anchor: 'why-is-john-mcafee-typed-as-an-enneagram-type-7'
+  - question: 'Why did John McAfee leave his own antivirus company?'
+    answer: "He sold his stake in 1994 because the IPO turned the company into a cage. As he put it in a 2015 Reddit AMA, going public meant '1000 bosses, investors, FTC, SEC, all my time in meetings and interviews.' The product and the money were working — the problem was that Monday now had a shape."
+    anchor: 'why-john-mcafee-couldnt-sit-still'
+  - question: 'Was John McAfee ever charged in the death of Gregory Faull?'
+    answer: 'No. Belize police only wanted him for questioning after his neighbor Faull was found shot dead in November 2012, but McAfee fled the country before they arrived. In 2019 a U.S. federal court in Florida entered a $25 million default wrongful-death judgment against him — he never filed a response and told reporters he would not pay.'
+    anchor: 'from-yoga-retreat-to-belize-compound'
+  - question: "What does John McAfee's $WHACKD tattoo mean?"
+    answer: "In November 2019 McAfee tweeted that U.S. officials were threatening him and had '$WHACKD' inked on his right forearm, writing: 'If I suicide myself, I didn't. I was whackd.' The tattoo was a kind of insurance — a pre-written headline that filed any future death under a conspiracy he had already named, denying in advance that he was ever cornered."
+    anchor: 'john-mcafees-whackd-tattoo-and-the-prophecy-of-his-own-death'
+  - question: 'How did John McAfee die?'
+    answer: "On June 23, 2021, hours after Spain's National Court approved his extradition to the United States on tax-evasion charges, guards found him hanged in his cell at the Brians 2 prison outside Barcelona. His widow Janice does not believe he killed himself; the Spanish court dismissed the family's appeal in 2023 and confirmed the suicide ruling."
+    anchor: 'the-room-he-was-always-running-from'
 twitter: 'officialmcafee'
 production_pretext:
   status: draft

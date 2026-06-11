@@ -209,7 +209,7 @@
 		height: 40px;
 		padding: 10px;
 		border: none;
-		border-radius: 3px;
+		border-radius: 0.625rem;
 		font-size: 12px;
 		text-align: center;
 		color: #fff;

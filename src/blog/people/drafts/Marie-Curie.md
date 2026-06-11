@@ -51,12 +51,21 @@ citations:
   - 'https://www.wikidata.org/wiki/Q7186'
   - 'https://www.imdb.com/name/nm1792513/'
 faqs:
-  - question: 'What is Marie Curie''s personality type?'
-    answer: 'Type 5s — "The Observer" — are head-type personalities organized around one central anxiety: the world will demand more energy than I have. The Five''s response is to retreat, gather knowledge, and master a domain so completely that competence becomes a substitute for safety. If I cannot control the external world, I can master the internal one. For more on the head-type pattern, it''s worth knowing that Fives don''t avoid the world out of disinterest — they avoid it because they''ve learned, early, that engagement costs them disproportionately.'
+  - question: "What is Marie Curie's personality type?"
+    answer: "Marie Curie is an Enneagram Type 5 (The Observer), specifically a 5w6 with a strong growth move to Type 8. The pattern shows in the bread-and-tea attic years where she fainted in lectures rather than spend money on food, her refusal to patent the radium-isolation process as 'contrary to the scientific spirit,' the four years she spent stirring boiling pitchblende with an iron rod taller than she was, and her return to Pierre's syllabus — picking up at the exact sentence where his last lecture ended — after his death."
     anchor: 'what-is-marie-curies-personality-type'
-  - question: 'Why is Marie Curie typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Radioactivity, Chemistry, Physics.'
-    anchor: 'why-is-marie-curie-typed-as-an-enneagram-type-5'
+  - question: 'Why did Marie Curie carry radium in her pocket?'
+    answer: "She carried small glass vials of radium on her person to show colleagues, to run quick tests, and sometimes simply because she liked them — they glowed pale blue in the dark, and she kept them by her bedside as a night-light. She handled radium without gloves and noted the small burns it left on her fingers without ever naming them as warnings. For her the element was a companion, not a hazard: she had decided to understand it, which meant she could not fear it."
+    anchor: 'why-marie-curie-carried-radium-in-her-pocket'
+  - question: 'What did Marie Curie do in World War I?'
+    answer: "She left the lab, convinced wealthy Parisians to donate twenty cars, outfitted them as mobile X-ray units, and trained 150 young women — including her seventeen-year-old daughter Irène — to operate them, driving one to the front lines herself. Soldiers called the vehicles 'petites Curies.' By war's end, roughly one million Allied soldiers had received an X-ray through her 20 mobile units and about 200 fixed radiological stations."
+    anchor: 'the-petites-curies-marie-curie-at-the-front'
+  - question: 'How did Marie Curie die?'
+    answer: "She died on July 4, 1934, at the Sancellemoz sanatorium in France of aplastic anemia — her bone marrow had stopped making red blood cells after decades of unprotected work with radium, polonium, and X-rays. The cataracts, persistent anemia, and unhealing fingertip burns had been accumulating since the four years in the shed. She was sixty-six."
+    anchor: 'the-element-that-kept-her'
+  - question: "Why are Marie Curie's notebooks still radioactive?"
+    answer: "Her laboratory notebooks are contaminated with radium-226, which has a half-life of roughly 1,600 years — meaning they will keep emitting radiation for at least a thousand more. They are stored in lead-lined boxes at the Bibliothèque Nationale in Paris, and researchers must sign a liability waiver and wear protective gear to read them. Her cookbook and some of her chairs are radioactive too."
+    anchor: 'why-marie-curies-notebooks-are-still-radioactive'
 twitter: ''
 instagram: ''
 tiktok: ''

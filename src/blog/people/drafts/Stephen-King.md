@@ -28,12 +28,12 @@ occupation:
   - 'Screenwriter'
   - 'Journalist'
 knows_about:
-  - 'Television production'
-  - 'Acting'
-  - 'Screenwriting'
-  - 'Journalism'
-  - 'Fiction writing'
-  - 'Writing'
+  - 'Horror fiction'
+  - 'The craft of writing'
+  - 'Pseudonymous publishing'
+  - 'Addiction and recovery'
+  - 'Maine gothic storytelling'
+  - 'Film adaptations of his novels'
 keywords:
   - 'Stephen King''s Enneagram Type 5 personality enneagram'
   - 'Stephen King''s Enneagram Type 5 personality type 5'
@@ -53,15 +53,21 @@ citations:
   - 'https://www.imdb.com/name/nm0000175/'
   - 'https://stephenking.com/'
 faqs:
-  - question: 'What is Stephen King''s personality type?'
-    answer: 'Enneagram Fives operate from a core belief that the world takes more than it gives. They conserve energy, withdraw to recharge, and build internal fortresses where understanding equals safety and competence equals freedom. They wake each morning with a finite amount of capacity for human interaction. Use it up and they shut down. Not angry, not sad, just empty.'
+  - question: "What is Stephen King's personality type?"
+    answer: "Stephen King is an Enneagram Type 5 (The Investigator), specifically a 5w4. The pattern shows in the sealed morning ritual — same chair, same glass of water, same paper arrangement, every day for fifty years — the refusal to stop writing on page 13 or its multiples, the Richard Bachman pseudonym he created to test whether his success was talent or luck, and his admission that the scariest thing he fears is his own imagination."
     anchor: 'what-is-stephen-kings-personality-type'
-  - question: 'What is Stephen King''s Enneagram Type 5 personality''s personality type?'
-    answer: 'Stephen King''s Enneagram Type 5 personality is analyzed as an Enneagram Type 5 (Investigator). The profile connects that type pattern to Stephen King fears spiders, the dark, and the number 13. So why has he spent 50 years writing about what terrifies him? His Enneagram type explains the paradox.'
-    anchor: 'what-is-stephen-kings-enneagram-type-5-personalitys-personality-type'
-  - question: 'Why is Stephen King''s Enneagram Type 5 personality typed as an Enneagram Type 5?'
-    answer: 'The Type 5 Investigator case is based on the behavioral pattern developed throughout the essay, with supporting context from Television production, Acting, Screenwriting.'
-    anchor: 'why-is-stephen-kings-enneagram-type-5-personality-typed-as-an-enneagram-type-5'
+  - question: 'Why did Stephen King write as Richard Bachman?'
+    answer: "The cover story was practical — publishers believed an author could sustain only one book a year. The deeper reason was a question only he would think to run as an experiment: is my success talent, or luck? He released the Bachman books with minimal marketing and got his answer when a bookstore clerk traced Library of Congress records and exposed him after six years: Bachman sold respectably, but when the King name was revealed, sales exploded."
+    anchor: 'the-question-that-haunts-a-five'
+  - question: "How did Stephen King's wife save Carrie?"
+    answer: "King wrote three pages about a telekinetic girl in a high school locker room and threw them in the garbage — he couldn't understand the protagonist from the inside, so he abandoned her. Tabitha fished the pages out of the trash, told him to keep going, and filled in the details he couldn't access. Carrie was rejected thirty times before Doubleday accepted it, and the 1976 film made King a household name."
+    anchor: 'carrie-in-the-trash-can'
+  - question: "What happened at Stephen King's intervention?"
+    answer: "In 1987, Tabitha dumped his office trash bag onto the rug in front of friends and family: beer cans, cocaine in gram bottles, coke spoons, Valium, Xanax, NyQuil, mouthwash. 'The point of this intervention was that I was dying right in front of them,' King wrote. She gave him a choice — rehab or leave the house — and he chose his family, fully believing sobriety might destroy his gift. Since getting sober he has written roughly forty books."
+    anchor: 'the-garbage-bag'
+  - question: 'What happened when Stephen King was hit by a van?'
+    answer: "On June 19, 1999, Bryan Smith's Dodge Caravan hit King while he walked along Route 5 in Maine — collapsed lung, broken hip, multiple leg fractures, five operations in ten days; doctors considered amputation. During recovery King wrote On Writing and Dreamcatcher longhand, then bought the van that hit him for $1,500, initially planning to let people pay to take swings at it. Smith was later found dead of an accidental overdose — on King's fifty-third birthday."
+    anchor: 'the-van-on-route-5'
 twitter: '@StephenKing'
 instagram: ''
 tiktok: ''

@@ -27,12 +27,11 @@ occupation:
   - 'Voice Actor'
   - 'Television Actor'
 knows_about:
-  - 'Acting'
-  - 'Film acting'
-  - 'Modeling'
-  - 'Film production'
-  - 'Voice acting'
-  - 'Television acting'
+  - 'LuckyChap Entertainment'
+  - 'Film producing'
+  - 'Barbie (film)'
+  - 'Harley Quinn'
+  - 'I, Tonya'
 keywords:
   - 'Margot Robbie enneagram'
   - 'Margot Robbie type 2'
@@ -53,15 +52,21 @@ citations:
   - 'https://www.cnbc.com/2020/02/07/oscar-nominee-margot-robbie-shares-her-first-job.html'
   - 'https://tvtonight.com.au/2024/01/she-exuded-something-special-even-then-neighbours-casting-director-remembers-a-young-margot-robbie.html'
 faqs:
-  - question: 'What is Margot Robbie''s Personality Type?'
-    answer: 'Type 2 personalities run on a core belief: I am worthy of love when I am needed. At their best, they are catalytic — the person who makes everyone in the room better by being in it. Under strain, they over-give, over-function, and quietly build resentment when the giving is not returned.'
+  - question: "What is Margot Robbie's personality type?"
+    answer: "Margot Robbie is an Enneagram Type 2 (The Helper) with a strong 3 wing. The pattern shows in her confession that she couldn't find Barbie because 'Barbie doesn't have childhood trauma... and I couldn't get her' — she accesses characters through their wounds — plus the daily gifts she left in Ryan Gosling's dressing room, the tattoo parlour she ran to bind the Suicide Squad cast together, the LA compound she bought so her closest friends could live near her, and LuckyChap, a production company built to scale the helping."
     anchor: 'what-is-margot-robbies-personality-type'
-  - question: 'Why Not Type 3 or Type 7?'
-    answer: '- Type 3: She is polished, strategic, and fiercely ambitious. But her biggest moves — founding LuckyChap, championing first-time directors, fighting for pay equity on productions she doesn''t star in — center on collective outcomes, not personal image. A Three builds a brand. Robbie built an ecosystem. - Type 7: She has energy, humor, and obvious range. But her long-term pattern is not "keep options open." It is "commit fully, then carry it across the finish line whether or not it breaks you." The woman who trained to ice skate four hours a day for five months — weeping in her car after sessions — is not keeping her options open. - Why Type 2 fits: Her recurring signature is contribution thro'
+  - question: 'Is Margot Robbie a Type 3 instead of a Type 2?'
+    answer: "She looks like a Three from the outside — polished, strategic, fiercely ambitious. But her biggest moves center on collective outcomes, not personal image: founding LuckyChap, championing first-time directors, fighting for pay equity on productions she doesn't star in. A Three builds a brand. Robbie built an ecosystem."
     anchor: 'why-not-type-3-or-type-7'
-  - question: 'Why is Margot Robbie typed as an Enneagram Type 2?'
-    answer: 'The Type 2 Helper case is based on the behavioral pattern developed throughout the essay, with supporting context from Acting, Film acting, Modeling.'
-    anchor: 'why-is-margot-robbie-typed-as-an-enneagram-type-2'
+  - question: "What happened at Margot Robbie's Wolf of Wall Street audition?"
+    answer: "With thirty seconds left in the room and a scene that called for a kiss, she slapped Leonardo DiCaprio across the face instead. Her next thought: 'I'm going to get arrested. That's assault or battery.' Scorsese and DiCaprio burst out laughing, and she got the call a week later."
+    anchor: 'the-audition-30-seconds-to-read-the-room'
+  - question: 'Why did Margot Robbie start LuckyChap Entertainment?'
+    answer: "Her stated reason: 'Every time I pick up a script, I want to play the guy. Wouldn't it be so cool if people pick up scripts that we're making and always wanted to play the female role?' It was also strategic — producing put her in the conversations about who gets hired and how much they're paid. The company greenlights roughly 1% of submissions, and its slate includes I, Tonya, Promising Young Woman, Maid, Saltburn, and Barbie, which she pitched by comparing Gerwig-plus-Barbie to 'dinosaurs and Spielberg' and correctly predicting a billion dollars."
+    anchor: 'luckychap-the-system-she-built-to-scale-the-giving'
+  - question: 'Why is Margot Robbie playing Catherine Earnshaw in Wuthering Heights?'
+    answer: "She pitched herself for the role after reading Emerald Fennell's script. Catherine is the shadow side of every instinct her career is built on — a woman whose love is so consuming it annihilates everyone it touches. Robbie connected it to a self she learned to suppress: 'I feel like I felt things so potently and the tiniest thing could wound me and when I loved something it was everything... that's so Cathy to me.'"
+    anchor: 'wuthering-heights-facing-the-dark-mirror'
 twitter: ''
 instagram: ''
 tiktok: ''

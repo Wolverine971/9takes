@@ -1,0 +1,21 @@
+Not published — no eligible draft exists.
+
+```text
+Publish blocked.
+
+Person: none selected (auto-select, 423 candidates checked)
+Supabase: unchanged
+Generated files: unchanged (script exited before gen:all)
+
+Blockers:
+- Nearly all candidates: stale_grade_rubric_v1 (need /grade_blog re-grade) and/or already_published
+- Only 5 drafts have v2 grades that pass the quality gates, and every one is
+  missing BOTH personality images (full + s- thumbnail):
+  - Nicholas-Galitzine (overall 8.7, disc 9) — needs static/types/4s/
+  - Andrew-Garfield (overall 8.7, disc 8) — needs static/types/4s/
+  - Victoria-Justice (overall 9, disc 8.5) — needs static/types/9s/
+  - Greta-Gerwig (overall 8.5, disc 8) — needs static/types/6s/
+  - PinkPantheress (overall 8.8, disc 8.5) — needs static/types/5s/
+```
+
+The fastest path to a publish is generating images for **Victoria-Justice** (highest grade at 9/A-): `static/types/9s/Victoria-Justice.webp` and `s-Victoria-Justice.webp`. Your type-image pipeline memory says there's a local script that reproduces the Canva process (bg removal + B&W + purple eye-bar) if you want to run that. Per the command, I stopped without bypassing the gate.

@@ -34,7 +34,7 @@
 		margin: 2.5rem auto;
 		max-width: 720px;
 		padding: 1.5rem 1.75rem;
-		border-radius: 12px;
+		border-radius: 1rem;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 		box-shadow: 0 0 18px color-mix(in srgb, var(--lamp-glow) 12%, transparent);
@@ -70,7 +70,7 @@
 	.test-cta-primary {
 		display: inline-block;
 		padding: 0.55rem 1.05rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-weight: 600;
 		font-size: 0.92rem;
 		text-decoration: none;
@@ -90,7 +90,7 @@
 	.test-cta-secondary {
 		display: inline-block;
 		padding: 0.55rem 0.9rem;
-		border-radius: 8px;
+		border-radius: 0.625rem;
 		font-size: 0.9rem;
 		font-weight: 500;
 		color: var(--lamp-glow);

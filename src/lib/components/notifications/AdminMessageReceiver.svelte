@@ -178,7 +178,7 @@
 		font-size: 1.125rem;
 		cursor: pointer;
 		padding: 0.5rem;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		transition: all 0.2s ease;
 		position: relative;
 		display: flex;
@@ -240,7 +240,7 @@
 		max-height: 450px;
 		background: var(--night-deep);
 		border: 1px solid var(--primary-subtle);
-		border-radius: 0.75rem;
+		border-radius: 0.625rem;
 		box-shadow:
 			0 20px 25px -5px rgba(0, 0, 0, 0.2),
 			0 0 30px var(--primary-subtle);
@@ -282,7 +282,7 @@
 	.close-btn {
 		background: transparent;
 		border: none;
-		border-radius: 0.375rem;
+		border-radius: 0.625rem;
 		font-size: 1.25rem;
 		cursor: pointer;
 		color: var(--ink-dim);
@@ -321,7 +321,7 @@
 
 	.notification-content::-webkit-scrollbar-thumb {
 		background-color: var(--primary-glow);
-		border-radius: 3px;
+		border-radius: 9999px;
 	}
 
 	.notification-content::-webkit-scrollbar-thumb:hover {
@@ -343,7 +343,7 @@
 	.message-item {
 		padding: 0.875rem 1rem;
 		margin: 0.25rem 0;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--lamp-glow) 5%, transparent);
 		border: 1px solid transparent;
 		transition: all 0.15s ease;
@@ -372,7 +372,7 @@
 		height: 50%;
 		width: 2px;
 		background: var(--lamp-glow);
-		border-radius: 0 2px 2px 0;
+		border-radius: 0 9999px 9999px 0;
 		opacity: 0;
 		transition: opacity 0.15s ease;
 	}
@@ -425,7 +425,7 @@
 		padding: 0.5rem 0.75rem;
 		min-height: 2.25rem;
 		border: 1px solid var(--primary-subtle);
-		border-radius: 0.375rem;
+		border-radius: 0.625rem;
 		background: var(--primary-subtle);
 		color: var(--neutral-700);
 		font-size: 0.75rem;

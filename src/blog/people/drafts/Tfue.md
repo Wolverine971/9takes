@@ -24,11 +24,11 @@ occupation:
   - 'YouTuber'
   - 'Online Streamer'
 knows_about:
-  - 'YouTube content creation'
-  - 'Digital media'
-  - 'Professional Gamer'
-  - 'YouTuber'
-  - 'Online Streamer'
+  - 'Fortnite Battle Royale'
+  - 'Competitive esports'
+  - 'Twitch streaming'
+  - 'Skimboarding'
+  - 'Sport fishing content'
 keywords:
   - 'Tfue enneagram'
   - 'Tfue type 7'
@@ -44,12 +44,21 @@ citations:
   - 'https://en.wikipedia.org/wiki/Tfue'
   - 'https://www.wikidata.org/wiki/Q61609160'
 faqs:
-  - question: 'What is Tfue''s Personality Type?'
-    answer: 'The Enneagram Type 7, the Enthusiast, operates from a single relentless engine: the need to avoid being trapped, deprived, or in pain. Sevens are the possibility machines of the personality system. They see escape routes where others see walls. They transform disappointment into adventure, limitation into fuel, and "no" into "not yet, but what about this instead?"'
+  - question: "What is Tfue's personality type?"
+    answer: "Tfue (Turner Tenney) is an Enneagram Type 7 (The Enthusiast). The pattern shows in his one-week exit from middle school, the forbidden video games that became a world-best obsession, the two-year burnout cycle running through Destiny, H1Z1, PUBG, and Fortnite, the lawsuit that tore him out of his FaZe Clan contract, and a tearful retirement at 25 where the word he kept returning to was 'trapped.'"
     anchor: 'what-is-tfues-personality-type'
-  - question: 'Why is Tfue typed as an Enneagram Type 7?'
-    answer: 'The Type 7 Enthusiast case is based on the behavioral pattern developed throughout the essay, with supporting context from YouTube content creation, Digital media, Professional Gamer.'
-    anchor: 'why-is-tfue-typed-as-an-enneagram-type-7'
+  - question: 'Why did Tfue sue FaZe Clan?'
+    answer: "In May 2019 he filed suit calling his contract 'grossly oppressive, onerous, and one-sided,' alleging FaZe could collect up to 80% of his third-party revenue, blocked his own sponsorship deals, and pressured him to drink and gamble while underage. FaZe countersued, the case settled privately in 2021, and it became the first major employment dispute in esports history."
+    anchor: 'why-he-sued-faze-clan-and-broke-the-door-off-esports'
+  - question: 'Why did Tfue quit streaming?'
+    answer: "On June 20, 2023, he posted a forty-minute video crying through an explanation: streaming six to eight hours a day had left him feeling trapped, and at 25 he felt the majority of his life had been spent in front of a screen. Gaming had been his escape from a restricted childhood; once it became an obligation instead of a choice, it turned into the cage. He returned to streaming on Kick less than five months later."
+    anchor: 'when-gaming-stopped-being-an-escape-and-became-the-cage'
+  - question: 'Did Ninja try to get Tfue banned from Twitch?'
+    answer: "That's Tfue's claim. On the Impaulsive podcast in May 2025, he alleged Ninja contacted his partnership manager to push for a permanent termination of his account after his temporary 2018 ban, saying 'I was a threat to him in the space. He tried to eliminate me.' Ninja has denied wanting to harm Turner's career."
+    anchor: 'ninja-allegedly-tried-to-get-him-permanently-banned'
+  - question: 'What is Tfue doing now?'
+    answer: "As of early 2026 he streams ARC Raiders on Twitch to around 10,000 average viewers, on his own schedule — some weeks 30 hours, some weeks nothing. He runs a fishing channel called SeaFueFishing and paid $2.4 million for the former Woody's Waterfront restaurant in St. Pete Beach, which he reportedly plans to reopen."
+    anchor: 'where-turner-is-now'
 twitter: 'Tfue'
 instagram: 'tfue'
 tiktok: 'tfue'
