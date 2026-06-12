@@ -6,7 +6,6 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import BellIcon from '$lib/components/icons/bellIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import type {
 		User,
@@ -16,7 +15,6 @@
 		QuestionPageData
 	} from '$lib/types/questions';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
-	import { viewportWidth } from '$lib/stores/viewport';
 
 	// Component props
 	interface Props {
@@ -61,9 +59,6 @@
 	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
 		return 'question' in d && d.question !== undefined;
 	};
-
-	// Use shared viewport store
-	let innerWidth = $derived($viewportWidth);
 
 	// Derived flag for whether user has answered (only relevant for QuestionPageData)
 	let userHasAnswered = $derived(
@@ -185,10 +180,17 @@
 		return deserialize(await resp.text());
 	};
 
+	function getActionErrorMessage(result: any): string {
+		const candidate =
+			result?.error?.message ?? result?.data?.message ?? result?.data?.error ?? result?.error;
+
+		return typeof candidate === 'string' && candidate.trim() ? candidate : 'Error adding comment';
+	}
+
 	// Handle comment submission result
 	const handleCommentResult = (result: any) => {
 		if (result.error || result.type === 'error' || result.type === 'failure') {
-			notifications.danger('Error adding comment', 3000);
+			notifications.danger(getActionErrorMessage(result), 5000);
 			console.error(result.error || result.data);
 		} else {
 			notifications.success('Comment Added', 3000);
@@ -312,7 +314,7 @@
 
 <div class="interact-shell">
 	<div class="interaction-toolbar">
-		<div class="flex flex-wrap gap-2 sm:gap-3">
+		<div class="toolbar-buttons">
 			<button
 				title="Comment"
 				class="interaction-button interaction-button-primary"
@@ -325,7 +327,7 @@
 					fill={'currentColor'}
 					type={comment?.length ? 'full' : 'empty'}
 				/>
-				<span class="whitespace-nowrap">Comment</span>
+				<span class="button-label">Comment</span>
 			</button>
 
 			{#if parentType === 'question'}
@@ -348,7 +350,7 @@
 					{:else}
 						<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
 					{/if}
-					<span class="whitespace-nowrap">
+					<span class="button-label">
 						{subscriptions.some((e) => e.user_id === user?.id) ? 'Subscribed' : 'Subscribe'}
 					</span>
 				</button>
@@ -368,7 +370,7 @@
 								d="M18 8a3 3 0 100-6 3 3 0 000 6zM6 15a3 3 0 100-6 3 3 0 000 6zM18 22a3 3 0 100-6 3 3 0 000 6zM8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"
 							/>
 						</svg>
-						<span class="whitespace-nowrap">Share</span>
+						<span class="button-label">Share</span>
 					</button>
 				{/if}
 			{/if}
@@ -505,6 +507,18 @@
 		backdrop-filter: blur(12px);
 	}
 
+	.toolbar-buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	@media (min-width: 640px) {
+		.toolbar-buttons {
+			gap: 0.75rem;
+		}
+	}
+
 	.interaction-button {
 		display: inline-flex;
 		align-items: center;
@@ -521,6 +535,13 @@
 			border-color 0.2s ease,
 			background-color 0.2s ease,
 			color 0.2s ease;
+	}
+
+	.button-label {
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.interaction-button:hover:not(:disabled) {
@@ -645,9 +666,13 @@
 		}
 
 		.interaction-button {
-			flex: 1 1 0;
+			flex: 1 1 calc(50% - 0.5rem);
 			min-width: 0;
 			padding: 0.7rem 0.8rem;
+		}
+
+		.button-label {
+			max-width: 7rem;
 		}
 
 		.composer-footer {
@@ -661,6 +686,17 @@
 
 		.composer-footer > .flex > .interaction-button {
 			flex: 1 1 0;
+		}
+	}
+
+	@media (max-width: 380px) {
+		.interaction-button {
+			gap: 0.35rem;
+			padding-inline: 0.65rem;
+		}
+
+		.button-label {
+			max-width: 5.5rem;
 		}
 	}
 </style>

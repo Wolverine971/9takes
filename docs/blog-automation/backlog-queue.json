@@ -7,19 +7,6 @@
 	},
 	"queue": [
 		{
-			"name": "keira-knightley",
-			"displayName": "Keira Knightley",
-			"type": 4,
-			"priority": 64,
-			"priorityReason": "Prestige actor with strong name recognition and a clear introspective Type 4 analysis angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "hollywood-prestige-cluster"
-		},
-		{
 			"name": "hailee-steinfeld",
 			"displayName": "Hailee Steinfeld",
 			"type": 3,
@@ -874,18 +861,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "jony-ive",
-		"displayName": "Jony Ive",
-		"type": 5,
-		"priority": 65,
-		"priorityReason": "Major Apple design figure who deepens the tech cluster and fills the quieter Type 5 lane",
-		"estimatedTraffic": "medium",
-		"searchVolume": "medium",
+		"name": "keira-knightley",
+		"displayName": "Keira Knightley",
+		"type": 4,
+		"priority": 64,
+		"priorityReason": "Prestige actor with strong name recognition and a clear introspective Type 4 analysis angle",
+		"estimatedTraffic": "high",
+		"searchVolume": "high",
 		"personaTitle": null,
-		"addedToQueue": "2026-04-10",
+		"addedToQueue": "2026-04-12",
 		"retryCount": 0,
-		"strategicValue": "tech-design-cluster",
-		"startedAt": "2026-06-10T06:00:46Z"
+		"strategicValue": "hollywood-prestige-cluster",
+		"startedAt": "2026-06-12T06:01:11Z"
 	},
 	"skipped": [
 		{
@@ -1095,6 +1082,23 @@
 			"skippedAt": "2026-06-08T06:06:49Z",
 			"skipReason": "stale inProgress - timeout",
 			"skipDetail": "50h elapsed, no draft created"
+		},
+		{
+			"name": "jony-ive",
+			"displayName": "Jony Ive",
+			"type": 5,
+			"priority": 65,
+			"priorityReason": "Major Apple design figure who deepens the tech cluster and fills the quieter Type 5 lane",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-10",
+			"retryCount": 0,
+			"strategicValue": "tech-design-cluster",
+			"startedAt": "2026-06-10T06:00:46Z",
+			"skippedAt": "2026-06-12T06:01:11Z",
+			"skipReason": "stale inProgress - timeout",
+			"skipDetail": "Started 2026-06-10T06:00:46Z, no draft or pipeline logs ever created; cleared after ~48h"
 		}
 	],
 	"failed": [],

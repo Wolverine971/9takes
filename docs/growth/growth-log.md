@@ -39,6 +39,48 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-06-11 - Weekly growth audit: capture is broken before retention can compound
+
+- Area: Activation / retention / content-to-signup / email / coaching
+- Status: audit complete; signup RLS fix implemented; experiments queued
+- Observed numbers:
+
+| Week       | First-touch visitors | Signups | Profiles | Question comments |        D1 retained |       D7 retained |
+| ---------- | -------------------: | ------: | -------: | ----------------: | -----------------: | ----------------: |
+| 2026-06-08 |                2,141 |       0 |        1 |                 0 | 11 / 2,040 (0.54%) |        not mature |
+| 2026-06-01 |                2,958 |       0 |        2 |                 0 | 21 / 2,973 (0.71%) | 0 / 1,658 (0.00%) |
+| 2026-05-25 |                3,819 |       0 |        3 |                 2 | 17 / 3,816 (0.45%) | 1 / 3,816 (0.03%) |
+| 2026-05-18 |                3,310 |       0 |        1 |                 0 | 10 / 3,328 (0.30%) | 1 / 3,328 (0.03%) |
+| 2026-05-11 |                2,899 |       0 |        0 |                 1 |  9 / 2,912 (0.31%) | 5 / 2,912 (0.17%) |
+| 2026-05-04 |                2,986 |       0 |        1 |                 0 | 24 / 2,988 (0.80%) | 6 / 2,988 (0.20%) |
+| 2026-04-27 |                3,242 |       0 |        0 |                 2 | 22 / 3,218 (0.68%) | 1 / 3,218 (0.03%) |
+| 2026-04-20 |                4,131 |       0 |        2 |                 0 | 13 / 4,143 (0.31%) | 0 / 4,143 (0.00%) |
+
+- Evidence:
+  - `signups` has **zero rows in the last 8 weeks** and no rows after 2023-12-24, despite current blog CTA components posting to `/api/signups`.
+  - `app_error_events` has **8 recent "Failed to insert signup" errors**. Sanitized production error: `new row violates row-level security policy for table "signups"`.
+  - Current endpoint uses `locals.supabase` to insert into `signups`; production RLS only allows `email = auth.email()` or admin inserts, so anonymous public email capture fails. Code evidence: `src/routes/api/signups/+server.ts:49-63`.
+  - Signup CTAs are shipped: `Email-Signup.svelte` posts to `/api/signups`; `EnneagramCTASidebar.svelte` also posts to `/api/signups`; blog routes now render the sidebar and footer signup. Current code contradicts the earlier "sidebar imported by zero files" note.
+  - Question activation is weak: 466 eligible first question views in the last 8 weeks produced 5 first comments within 24h or 7d: **1.07% view-to-comment**.
+  - Contributor retention is absent: 5 new contributors in the last 8 weeks, **0 returned with a second contribution inside 7 days**.
+  - Welcome sequence is live and enrolling: 22 total enrollments, 19 completed, 3 active; all 10 new profiles in the last 8 weeks have an enrollment. Last-8-week sends: 39; opens: 10 (25.6%); clicks: 1 (2.6%). Direct profile D1/D7 return query found 0 returns among those 10 profiles.
+  - Coaching loop is not currently compounding: 0 coaching waitlist adds in the last 8 weeks; 1 add in the last 16 weeks. `/book-session` measurement is noisy: 37 measured visits in 8 weeks, but 187 page-analytics upsert errors for `/book-session`, mostly `case not found`.
+- Action taken:
+  - Fixed `/api/signups` to perform the `signups` duplicate lookup and insert through the server admin Supabase client, while keeping first-touch attachment on the existing `SECURITY DEFINER` RPC. Added a focused route test covering anonymous insert, normalized email storage, first-touch attachment, welcome email send, and duplicate suppression.
+- Observed / inferred / unverified:
+  - Observed: email capture is currently broken at insert time for anonymous users.
+  - Observed: measured D1/D7 retention and contribution return are near-zero.
+  - Inferred: true visitor denominators are probably understated because 912 of 931 recent app errors are analytics page-view/upsert failures.
+  - Unverified: whether CTA copy or placement would convert after the RLS bug is fixed. There is no clean post-fix data yet.
+- Recommended bets:
+  1. **Verify the public email capture fix before any acquisition work.** We believe the `/api/signups` admin insert path will restore email capture for anonymous content readers because 8 real attempts hit RLS and current CTAs already post to that endpoint. Success = 0 signup RLS errors and at least one successful `signups` row from production within 7 days; measurement window = 14 days; guardrail = no public update/delete exposure and no duplicate emails.
+  2. **Ship Experiment A as an always-on activation capture, not an A/B test.** We believe an optional "email me when someone replies / when other types answer" field after the first anonymous question comment will increase reachable activated users because current first commenters are rare and 0 / 5 returned inside 7 days. Success = >=10% email capture among anonymous first commenters and at least one D7 return from captured commenters over the first 30 days; guardrail = first-comment completion rate does not fall below the current 1.07% question-view-to-comment proxy.
+  3. **Make welcome email #1 drive one concrete contribution, then measure first contribution within 7 days.** We believe replacing broad education links with one hand-picked low-empty-state question CTA for new profiles will raise first contribution because welcome opens exist (25.6%) but clicks and returns do not. Success = profile first-contribution within 7 days rises from 0 / 10 to >=2 / next 20 profiles; guardrail = unsubscribe/bounce remains 0.
+- Repro SQL:
+  - Weekly totals: `SELECT date_trunc('week', first_visit_at)::date, count(DISTINCT fingerprint) FROM visitor_first_touch WHERE first_visit_at >= date_trunc('week', now()) - interval '7 weeks' GROUP BY 1;`
+  - Signup error check: `SELECT error_message, count(*) FROM app_error_events WHERE created_at >= date_trunc('week', now()) - interval '7 weeks' AND message = 'Failed to insert signup' GROUP BY 1;`
+  - Question activation proxy: join `page_analytics_visits.path = '/questions/' || questions.url` to first `comments` by `fingerprint,parent_id`, then count comments within 24h/7d of first question view.
+
 ### 2026-06-11 - Funnel-bug re-verification (status check, no code changes)
 
 - Area: Activation funnel / measurement infrastructure
@@ -48,8 +90,10 @@ Use this file as the persistent memory for growth work across audits, research p
   - **Visitor identity split: FIXED** (commit `be23162c`, 2026-04-08). Single canonical `getOrCreateVisitorId()` in `src/lib/analytics/visitorIdentity.ts` sets the `9tfingerprint` cookie; both `+layout.svelte` and `Interact.svelte` use it. The `anon-*` fallback and FingerprintJS split are gone; legacy storage key is cleaned up on first read. Phase 0 of the retention plan is effectively shipped.
   - **Blog footer waitlist copy: FIXED** (same April 8 refactor). Community/how-to/enneagram-corner footers now use current product copy via `Email-Signup.svelte`; no "waitlist" strings remain.
   - **EnneagramCTASidebar: STILL BROKEN.** `src/lib/components/blog/EnneagramCTASidebar.svelte` is fully implemented but imported by zero files since its creation on 2026-04-08. Personality-analysis and enneagram-corner routes render no CTA sidebar.
+    - Later 2026-06-11 audit update: superseded. Current code imports and renders `EnneagramCTASidebar` on community, how-to, pop-culture, and enneagram-corner article routes. The remaining email-capture problem is the `/api/signups` RLS insert failure, not missing sidebar wiring.
   - **Experiment A (email capture at first anonymous comment): NOT IMPLEMENTED.** No `comment_email_capture` table, no email field in the comment flow, migration named in the April plan was never created. Identity prerequisite (Phase 0) is now met, so the experiment is unblocked.
 - Next step: (1) Wire EnneagramCTASidebar into the blog layouts or delete it and place the CTA differently. (2) Decide go/no-go on Experiment A now that its hard prerequisite shipped. (3) Retention rollups (Phase 1) still pending — welcome-sequence D7 numbers remain understated until then.
+  - Later 2026-06-11 audit update: sidebar wiring and retention rollups are now shipped; update the next step to focus on signup RLS, Experiment A, and welcome-sequence contribution measurement.
 
 ### 2026-04-08 - Audit: full-stack growth audit (activation, retention, content-to-signup, onboarding, give-first, email, instrumentation)
 

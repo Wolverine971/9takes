@@ -1,4 +1,4 @@
-<!-- docs/brand/founder-story-brief.md -->
+<!-- /Users/djwayne/9takes/docs/brand/founder-story-brief.md -->
 
 # Founder Story — Brief & Question Bank
 

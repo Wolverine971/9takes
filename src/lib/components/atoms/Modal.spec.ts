@@ -39,4 +39,38 @@ describe('Modal', () => {
 		expect(document.body.style.overflow).toBe('');
 		expect(getModal('question-create')).toBeUndefined();
 	});
+
+	it('keeps body scroll locked until every open modal has closed', () => {
+		const firstRender = render(Modal, {
+			props: {
+				id: 'first-modal',
+				name: 'first modal'
+			}
+		});
+		const secondRender = render(Modal, {
+			props: {
+				id: 'second-modal',
+				name: 'second modal'
+			}
+		});
+
+		const firstModal = getModal('first-modal');
+		const secondModal = getModal('second-modal');
+
+		firstModal?.open();
+		secondModal?.open();
+
+		expect(document.body.style.overflow).toBe('hidden');
+
+		firstModal?.close(null);
+
+		expect(document.body.style.overflow).toBe('hidden');
+
+		secondModal?.close(null);
+
+		expect(document.body.style.overflow).toBe('');
+
+		firstRender.unmount();
+		secondRender.unmount();
+	});
 });

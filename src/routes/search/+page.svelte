@@ -389,14 +389,17 @@
 	}
 
 	.search-page {
-		--search-panel-bg: color-mix(in srgb, var(--stone-warm) 90%, transparent);
-		--search-panel-hover-bg: color-mix(in srgb, var(--stone-warm) 94%, var(--lamp-soft));
-		--search-panel-border: color-mix(in srgb, var(--lamp-glow) 16%, var(--glass-border));
-		--search-control-bg: color-mix(in srgb, var(--night-deep) 72%, transparent);
-		--search-control-border: color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
-		--search-control-focus: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
-		--search-chip-bg: color-mix(in srgb, var(--stone-warm) 42%, transparent);
-		--search-shadow: 0 20px 60px color-mix(in srgb, var(--night-deep) 18%, transparent);
+		--search-panel-bg: var(--stone-warm);
+		--search-panel-hover-bg: color-mix(in srgb, var(--stone-warm) 88%, var(--lamp-soft));
+		--search-panel-border: var(--stone-edge);
+		--search-control-bg: var(--night-deep);
+		--search-control-border: color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
+		--search-control-focus: color-mix(in srgb, var(--lamp-glow) 42%, var(--stone-edge));
+		--search-chip-bg: color-mix(in srgb, var(--stone-mid) 72%, var(--stone-warm));
+		--search-shadow: var(--shadow-sm);
+		--source-library: var(--lamp-glow);
+		--source-personality: var(--data-teal);
+		--source-question: var(--type-7-color);
 
 		min-height: 100vh;
 		background:
@@ -457,7 +460,6 @@
 		background: var(--search-panel-bg);
 		border: 1px solid var(--search-panel-border);
 		box-shadow: var(--search-shadow);
-		backdrop-filter: blur(18px);
 	}
 
 	.search-shell {
@@ -542,14 +544,19 @@
 	}
 
 	.query-row button {
-		border: none;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 35%, transparent);
 		border-radius: 16px;
 		padding: 0 1.2rem;
 		font: inherit;
 		font-weight: 700;
-		background: linear-gradient(135deg, var(--lamp-glow), #8be9d5);
-		color: #08202a;
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
+		box-shadow: var(--glow-sm);
 		cursor: pointer;
+	}
+
+	.query-row button:hover {
+		background: var(--lamp-light);
 	}
 
 	.filter-grid {
@@ -620,7 +627,7 @@
 	}
 
 	.message-error {
-		border-color: rgba(248, 113, 113, 0.18);
+		border-color: color-mix(in srgb, var(--error) 26%, var(--stone-edge));
 	}
 
 	.sample-query-row {
@@ -703,24 +710,21 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
+		background: color-mix(in srgb, var(--source-tone) 12%, var(--stone-warm));
+		color: color-mix(in srgb, var(--source-tone) 74%, var(--ink-bright));
+		border: 1px solid color-mix(in srgb, var(--source-tone) 30%, var(--stone-edge));
 	}
 
 	.badge-library {
-		background: rgba(59, 130, 246, 0.12);
-		color: #a5c8ff;
-		border: 1px solid rgba(59, 130, 246, 0.24);
+		--source-tone: var(--source-library);
 	}
 
 	.badge-personality {
-		background: rgba(244, 114, 182, 0.12);
-		color: #f9a8d4;
-		border: 1px solid rgba(244, 114, 182, 0.24);
+		--source-tone: var(--source-personality);
 	}
 
 	.badge-question {
-		background: rgba(250, 204, 21, 0.12);
-		color: #fde68a;
-		border: 1px solid rgba(250, 204, 21, 0.24);
+		--source-tone: var(--source-question);
 	}
 
 	.result-card h3 {
@@ -766,7 +770,7 @@
 	}
 
 	.page-link {
-		background: rgba(255, 255, 255, 0.05);
+		background: color-mix(in srgb, var(--stone-mid) 62%, var(--stone-warm));
 		color: var(--ink-bright);
 		font-weight: 600;
 	}

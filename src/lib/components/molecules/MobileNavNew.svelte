@@ -5,6 +5,7 @@
 	import { onDestroy } from 'svelte';
 	import { fly, fade } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
+	import { lockBodyScroll } from '$lib/utils/scrollLock';
 
 	// Props to receive navigation items
 	export let navItems: Array<{ href: string; label: string }> = [];
@@ -14,6 +15,16 @@
 	// links (Questions, the blog sections) and the drawer has the room.
 	let isMenuOpen = false;
 	let isDropdownOpen = true;
+	let releaseBodyScroll: (() => void) | null = null;
+
+	function lockMenuScroll() {
+		releaseBodyScroll ??= lockBodyScroll();
+	}
+
+	function unlockMenuScroll() {
+		releaseBodyScroll?.();
+		releaseBodyScroll = null;
+	}
 
 	// Close menu when page changes
 	afterNavigate(() => {
@@ -22,9 +33,7 @@
 
 	// Cleanup on component destroy
 	onDestroy(() => {
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = '';
-		}
+		unlockMenuScroll();
 	});
 
 	/**
@@ -39,10 +48,8 @@
 			isDropdownOpen = true;
 		}
 
-		// Prevent body scrolling when menu is open
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = isMenuOpen ? 'hidden' : '';
-		}
+		if (isMenuOpen) lockMenuScroll();
+		else unlockMenuScroll();
 	}
 
 	/**
@@ -53,9 +60,7 @@
 		// Reset to expanded so the next open shows the Library again
 		isDropdownOpen = true;
 
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = '';
-		}
+		unlockMenuScroll();
 	}
 
 	/**

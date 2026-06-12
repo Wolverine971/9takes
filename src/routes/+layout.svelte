@@ -382,10 +382,10 @@
 		})();
 	});
 
-	// Function to update all page-dependent values
+	// Function to update all page-dependent values. Reads only $page (no
+	// window APIs), so it runs during SSR too — otherwise full-width pages
+	// first paint with the max-w-4xl clamp and pop wider after hydration.
 	function updatePageDerivedValues() {
-		if (!browser) return;
-
 		const pathname = $page.url.pathname;
 		isHomePage = pathname === '/';
 		isSignupPage = pathname === '/signup';
@@ -526,8 +526,8 @@
 		if (browser) updateMobileStatus();
 	}
 
-	// Update page values when page changes
-	$: if (browser && $page) {
+	// Update page values when page changes (SSR + client navigations)
+	$: if ($page) {
 		updatePageDerivedValues();
 	}
 

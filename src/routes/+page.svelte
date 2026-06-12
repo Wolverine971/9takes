@@ -844,6 +844,51 @@
 					>
 				</g>
 			</svg>
+
+			<div class="flow-mobile-list" aria-label="9takes mechanism flow">
+				<article class="flow-mobile-card">
+					<p class="mono flow-mobile-kicker">01 · YOUR SITUATION</p>
+					<h3>A real moment from your life</h3>
+				</article>
+
+				<div class="flow-mobile-arrow" aria-hidden="true">&darr;</div>
+
+				<article class="flow-mobile-card">
+					<p class="mono flow-mobile-kicker">02 · GIVE-FIRST LOCK</p>
+					<h3>Your honest take, written before the room shapes it</h3>
+				</article>
+
+				<div class="flow-mobile-arrow" aria-hidden="true">&darr;</div>
+
+				<article class="flow-mobile-card flow-mobile-card--accent">
+					<p class="mono flow-mobile-kicker">03 · 9 READS UNLOCK</p>
+					<h3>Fan-out by type</h3>
+				</article>
+
+				<div class="flow-mobile-fan" aria-label="Example type reads">
+					<article class="flow-mobile-read" style="--type-stripe: var(--type-1-color);">
+						<p class="mono flow-mobile-kicker">T1 · THE PERFECTIONIST</p>
+						<h3>Leads with &ldquo;what&rsquo;s broken&rdquo;</h3>
+					</article>
+					<article class="flow-mobile-read" style="--type-stripe: var(--type-5-color);">
+						<p class="mono flow-mobile-kicker">T5 · THE INVESTIGATOR</p>
+						<h3>Leads with &ldquo;the system underneath&rdquo;</h3>
+					</article>
+					<article class="flow-mobile-read" style="--type-stripe: var(--type-9-color);">
+						<p class="mono flow-mobile-kicker">T9 · THE PEACEMAKER</p>
+						<h3>Leads with &ldquo;the harmony&rdquo;</h3>
+					</article>
+				</div>
+
+				<p class="mono flow-mobile-note">+ 6 more typed reads</p>
+
+				<div class="flow-mobile-arrow" aria-hidden="true">&darr;</div>
+
+				<article class="flow-mobile-card flow-mobile-card--output">
+					<p class="mono flow-mobile-kicker">04 · THE PATTERN</p>
+					<h3>You see what each type leads with, and what you have been missing</h3>
+				</article>
+			</div>
 		</div>
 	</section>
 
@@ -1724,6 +1769,10 @@
 		max-width: 100%;
 	}
 
+	.flow-mobile-list {
+		display: none;
+	}
+
 	.flow-svg :global(.flow-label) {
 		font-family: var(--font-mono);
 		font-size: 12px;
@@ -1758,6 +1807,98 @@
 		font-weight: 500;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
+	}
+
+	@media (max-width: 768px) {
+		.flow-diagram {
+			padding: 0;
+		}
+
+		.flow-svg {
+			display: none;
+		}
+
+		.flow-mobile-list {
+			display: grid;
+			gap: 12px;
+		}
+
+		.flow-mobile-card,
+		.flow-mobile-read {
+			position: relative;
+			overflow: hidden;
+			border: 1px solid var(--stone-edge);
+			border-radius: 8px;
+			background: var(--stone-warm);
+			box-shadow: var(--shadow-sm);
+		}
+
+		.flow-mobile-card {
+			padding: 18px;
+		}
+
+		.flow-mobile-card--accent {
+			border-color: color-mix(in srgb, var(--lamp-glow) 42%, var(--stone-edge));
+		}
+
+		.flow-mobile-card--output {
+			border-color: var(--lamp-glow);
+		}
+
+		.flow-mobile-read {
+			padding: 16px;
+		}
+
+		.flow-mobile-read::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 4px;
+			background: var(--type-stripe);
+		}
+
+		.flow-mobile-kicker {
+			margin: 0 0 8px;
+			color: var(--lamp-glow);
+			font-size: 12px;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+		}
+
+		.flow-mobile-card h3,
+		.flow-mobile-read h3 {
+			margin: 0;
+			color: var(--ink-bright);
+			font-family: var(--font-display);
+			font-size: 16px;
+			line-height: 1.35;
+			font-weight: 500;
+		}
+
+		.flow-mobile-fan {
+			display: grid;
+			gap: 10px;
+		}
+
+		.flow-mobile-arrow,
+		.flow-mobile-note {
+			justify-self: center;
+			color: var(--ink-dim);
+		}
+
+		.flow-mobile-arrow {
+			font-size: 20px;
+			line-height: 1;
+		}
+
+		.flow-mobile-note {
+			margin: 0;
+			font-size: 12px;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+		}
 	}
 
 	/* =========================================================

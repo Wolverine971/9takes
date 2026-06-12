@@ -34,8 +34,7 @@ async function readEmail(request: Request): Promise<string> {
 	return typeof raw === 'string' ? raw : '';
 }
 
-export const POST: RequestHandler = async ({ request, locals, cookies }) => {
-	const dbLocal = locals.supabase as any;
+export const POST: RequestHandler = async ({ request, cookies }) => {
 	const rawEmail = await readEmail(request);
 	const normalizedEmail = rawEmail ? normalizeEmail(rawEmail) : '';
 
@@ -46,17 +45,26 @@ export const POST: RequestHandler = async ({ request, locals, cookies }) => {
 		);
 	}
 
-	const { data: existing } = await dbLocal
+	const adminSupabase = getSupabaseAdminClient() as any;
+	const { data: existing, error: existingError } = await adminSupabase
 		.from('signups')
 		.select('id')
 		.eq('email', normalizedEmail)
-		.single();
+		.maybeSingle();
+
+	if (existingError) {
+		logger.error('Failed to check existing signup', existingError, { email: normalizedEmail });
+		return json(
+			{ ok: false, code: 'server_error', message: 'Failed to save signup' },
+			{ status: 500 }
+		);
+	}
 
 	if (existing) {
 		return json({ ok: false, code: 'already_exists', message: 'Email already exists' });
 	}
 
-	const { data: insertedSignup, error: insertError } = await dbLocal
+	const { data: insertedSignup, error: insertError } = await adminSupabase
 		.from('signups')
 		.insert([{ email: normalizedEmail }])
 		.select('id')
@@ -73,7 +81,9 @@ export const POST: RequestHandler = async ({ request, locals, cookies }) => {
 	try {
 		const fingerprint = cookies.get('9tfingerprint');
 		if (fingerprint && insertedSignup?.id) {
-			const { error: attachError } = await dbLocal.rpc('attach_signup_first_touch', {
+			// Admin client: the RPC is granted to `authenticated` only, but signups
+			// come from anonymous visitors — the anon role would fail silently here.
+			const { error: attachError } = await adminSupabase.rpc('attach_signup_first_touch', {
 				p_signup_id: insertedSignup.id,
 				p_fingerprint: fingerprint
 			});
@@ -93,7 +103,6 @@ export const POST: RequestHandler = async ({ request, locals, cookies }) => {
 	}
 
 	try {
-		const adminSupabase = getSupabaseAdminClient() as any;
 		const result = await sendEmailWithTracking(adminSupabase, {
 			recipient: toRecipient(normalizedEmail, String(insertedSignup.id)),
 			subject: 'You are in for 9takes updates',

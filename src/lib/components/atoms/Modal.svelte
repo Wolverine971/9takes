@@ -1,22 +1,36 @@
 <!-- src/lib/components/atoms/Modal.svelte -->
 <script context="module" lang="ts">
-	import { browser } from '$app/environment';
 	const modals: Record<string, { open: Function; close: Function }> = {};
-	let openModalCount = 0;
+	let modalStack: HTMLDivElement[] = [];
 
 	export function getModal(id = '') {
 		return modals[id];
 	}
+
+	function pushTopModal(node: HTMLDivElement) {
+		modalStack = modalStack.filter((modal) => modal !== node);
+		modalStack = [...modalStack, node];
+	}
+
+	function removeTopModal(node: HTMLDivElement) {
+		modalStack = modalStack.filter((modal) => modal !== node);
+	}
+
+	function isTopModal(node: HTMLDivElement) {
+		return modalStack[modalStack.length - 1] === node;
+	}
 </script>
 
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import { onDestroy } from 'svelte';
+	import { lockBodyScroll } from '$lib/utils/scrollLock';
 	import { portal } from '../../../utils/portal';
 
 	let topDiv: HTMLDivElement;
 	let visible = false;
-	let prevOnTop: HTMLDivElement | null = null;
 	let closeCallback: ((arg: any) => void) | null = null;
+	let releaseBodyScroll: (() => void) | null = null;
 
 	export let navTop = false;
 	export let name = 'modal';
@@ -25,10 +39,8 @@
 	export let maxWidth: string | null = null;
 	export let fullMobile = false;
 
-	let onTop: HTMLDivElement | null = null;
-
 	function keyPress(ev: KeyboardEvent) {
-		if (ev.key === 'Escape' && onTop === topDiv && !disableClose) close(ev);
+		if (ev.key === 'Escape' && isTopModal(topDiv) && !disableClose) close(ev);
 	}
 
 	function closeIfAllowed(retVal: any) {
@@ -39,13 +51,11 @@
 	function open(callback?: (arg: any) => void) {
 		if (visible) return;
 		closeCallback = callback || null;
-		prevOnTop = onTop;
-		onTop = topDiv;
 		if (browser) {
-			openModalCount += 1;
+			releaseBodyScroll = lockBodyScroll();
 			window.addEventListener('keydown', keyPress);
-			document.body.style.overflow = 'hidden';
 		}
+		pushTopModal(topDiv);
 		visible = true;
 		document.body.appendChild(topDiv);
 	}
@@ -53,11 +63,11 @@
 	function close(retVal: any) {
 		if (!visible) return;
 		if (browser) {
-			openModalCount = Math.max(0, openModalCount - 1);
 			window.removeEventListener('keydown', keyPress);
-			onTop = prevOnTop;
-			if (openModalCount === 0) document.body.style.overflow = '';
+			releaseBodyScroll?.();
+			releaseBodyScroll = null;
 		}
+		removeTopModal(topDiv);
 		visible = false;
 		if (closeCallback) closeCallback(retVal);
 	}
@@ -69,17 +79,16 @@
 		if (browser) {
 			window.removeEventListener('keydown', keyPress);
 			if (visible) {
-				openModalCount = Math.max(0, openModalCount - 1);
-			}
-			if (openModalCount === 0) {
-				document.body.style.overflow = '';
+				releaseBodyScroll?.();
+				releaseBodyScroll = null;
+				removeTopModal(topDiv);
 			}
 		}
 	});
 </script>
 
 <div
-	class="fixed inset-0 z-[23425343] flex items-center justify-center bg-black/70 backdrop-blur-sm transition-all duration-300 {visible
+	class="fixed inset-0 z-[300] flex items-center justify-center bg-black/70 backdrop-blur-sm transition-all duration-300 {visible
 		? 'opacity-100'
 		: 'invisible opacity-0'}"
 	bind:this={topDiv}
@@ -93,7 +102,7 @@
 >
 	<!-- Modal content container -->
 	<div
-		class="modal-container relative max-h-[90vh] w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] shadow-[var(--shadow-xl)] transition-all duration-300 sm:w-auto {visible
+		class="modal-container relative w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] shadow-[var(--shadow-xl)] transition-all duration-300 sm:w-auto {visible
 			? 'scale-100 opacity-100'
 			: 'scale-95 opacity-0'}"
 		class:full-mobile={fullMobile}
@@ -121,20 +130,50 @@
 				</svg>
 			</button>
 		{/if}
-		<div class="max-h-[85vh] overflow-y-auto p-6 sm:p-8">
+		<div class="modal-scroll-region">
 			<slot />
 		</div>
 	</div>
 </div>
 
 <style>
+	.modal-container {
+		max-height: calc(100vh - 2rem);
+		max-height: calc(100dvh - 2rem);
+	}
+
+	.modal-scroll-region {
+		max-height: calc(100vh - 2rem);
+		max-height: calc(100dvh - 2rem);
+		overflow-y: auto;
+		padding: 1.5rem;
+	}
+
+	@media (min-width: 640px) {
+		.modal-scroll-region {
+			max-height: min(85vh, calc(100vh - 2rem));
+			max-height: min(85dvh, calc(100dvh - 2rem));
+			padding: 2rem;
+		}
+	}
+
 	@media (max-width: 640px) {
 		:global(.modal-container.full-mobile) {
 			width: 100vw;
 			max-width: 100vw;
+			height: 100vh;
+			height: 100dvh;
 			max-height: 100vh;
+			max-height: 100dvh;
 			border-radius: 0;
 			border: none;
+		}
+
+		:global(.modal-container.full-mobile) .modal-scroll-region {
+			max-height: 100vh;
+			max-height: 100dvh;
+			min-height: 100%;
+			padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
 		}
 	}
 </style>
