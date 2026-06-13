@@ -1,5 +1,6 @@
 // src/lib/server/errorTracking.ts
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { logBestEffortTelemetryFailure } from '$lib/server/bestEffortTelemetry';
 
 type ErrorLevel = 'ERROR' | 'WARN';
 
@@ -73,9 +74,12 @@ export async function trackServerError(payload: ErrorTrackingPayload): Promise<v
 
 		const { error } = await supabaseAdmin.from('app_error_events').insert(record);
 		if (error) {
-			console.error('Failed to persist app error event', error);
+			logBestEffortTelemetryFailure('Failed to persist app error event', error, {
+				route: record.route,
+				method: record.method
+			});
 		}
 	} catch (trackingError) {
-		console.error('Failed to initialize app error tracking', trackingError);
+		logBestEffortTelemetryFailure('Failed to initialize app error tracking', trackingError);
 	}
 }

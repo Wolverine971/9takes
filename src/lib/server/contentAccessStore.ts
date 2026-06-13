@@ -5,6 +5,7 @@ import type {
 	ContentRequestKind,
 	TrackableContentRequester
 } from './contentAccessGuard';
+import { logBestEffortTelemetryFailure } from './bestEffortTelemetry';
 
 type ContentAccessRpcRow = ContentAccessCounters;
 
@@ -28,11 +29,10 @@ export async function recordSharedContentAccessEvent({
 		});
 
 		if (error) {
-			console.error('Failed to record shared content access event', {
+			logBestEffortTelemetryFailure('Failed to record shared content access event', error, {
 				requester: requester.name,
 				path,
-				requestKind,
-				error
+				requestKind
 			});
 			return null;
 		}
@@ -45,11 +45,10 @@ export async function recordSharedContentAccessEvent({
 
 		return row;
 	} catch (error) {
-		console.error('Failed to record shared content access event', {
+		logBestEffortTelemetryFailure('Failed to record shared content access event', error, {
 			requester: requester.name,
 			path,
-			requestKind,
-			error
+			requestKind
 		});
 		return null;
 	}

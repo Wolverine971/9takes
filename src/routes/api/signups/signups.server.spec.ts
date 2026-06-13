@@ -3,7 +3,8 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { adminSupabaseMock, sendEmailWithTrackingMock, loggerMocks } = vi.hoisted(() => ({
 	adminSupabaseMock: {
-		from: vi.fn()
+		from: vi.fn(),
+		rpc: vi.fn()
 	},
 	sendEmailWithTrackingMock: vi.fn(),
 	loggerMocks: {
@@ -82,25 +83,18 @@ function buildSignupTable(options?: {
 }
 
 function buildEvent(email = 'NewUser@Example.com') {
-	const rpc = vi.fn().mockResolvedValue({ data: true, error: null });
-
 	return {
 		request: buildRequest(email),
-		locals: {
-			supabase: {
-				rpc
-			}
-		},
 		cookies: {
 			get: vi.fn((name: string) => (name === '9tfingerprint' ? 'visitor-123' : undefined))
-		},
-		_rpc: rpc
+		}
 	};
 }
 
 describe('POST /api/signups', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
+		adminSupabaseMock.rpc.mockResolvedValue({ data: true, error: null });
 		sendEmailWithTrackingMock.mockResolvedValue({ success: true });
 	});
 
@@ -116,7 +110,7 @@ describe('POST /api/signups', () => {
 		expect(adminSupabaseMock.from).toHaveBeenCalledWith('signups');
 		expect(tableMocks.duplicateQuery.eq).toHaveBeenCalledWith('email', 'newuser@example.com');
 		expect(tableMocks.insertQuery.insert).toHaveBeenCalledWith([{ email: 'newuser@example.com' }]);
-		expect(event._rpc).toHaveBeenCalledWith('attach_signup_first_touch', {
+		expect(adminSupabaseMock.rpc).toHaveBeenCalledWith('attach_signup_first_touch', {
 			p_signup_id: 456,
 			p_fingerprint: 'visitor-123'
 		});
@@ -147,7 +141,7 @@ describe('POST /api/signups', () => {
 			message: 'Email already exists'
 		});
 		expect(tableMocks.insertQuery.insert).not.toHaveBeenCalled();
-		expect(event._rpc).not.toHaveBeenCalled();
+		expect(adminSupabaseMock.rpc).not.toHaveBeenCalled();
 		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
 	});
 });

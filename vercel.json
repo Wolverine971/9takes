@@ -52,6 +52,21 @@
 			"permanent": true
 		},
 		{
+			"source": "/apple-touch-icon-152x152.png",
+			"destination": "/brand/apple-touch-icon.png",
+			"permanent": true
+		},
+		{
+			"source": "/apple-touch-icon-152x152-precomposed.png",
+			"destination": "/brand/apple-touch-icon.png",
+			"permanent": true
+		},
+		{
+			"source": "/types/6s/David-Goggins.webp",
+			"destination": "/types/8s/David-Goggins.webp",
+			"permanent": true
+		},
+		{
 			"source": "/sitemap_index.xml",
 			"destination": "/sitemap.xml",
 			"permanent": true

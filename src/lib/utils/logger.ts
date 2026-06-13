@@ -195,12 +195,23 @@ export function withApiLogging<T extends (...args: any[]) => Promise<Response>>(
 			return response;
 		} catch (error) {
 			const duration = Date.now() - start;
-			logger.error('API handler error', error as Error, {
+			const status =
+				typeof (error as { status?: unknown })?.status === 'number'
+					? (error as { status: number }).status
+					: null;
+			const context = {
 				method,
 				route,
 				userId,
+				status,
 				duration: `${duration}ms`
-			});
+			};
+
+			if (status && status < 500) {
+				logger.warn('API handler rejected request', context);
+			} else {
+				logger.error('API handler error', error as Error, context);
+			}
 			throw error;
 		}
 	}) as T;

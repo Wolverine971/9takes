@@ -28,6 +28,11 @@ import type { Handle } from '@sveltejs/kit';
 // import { tagQuestions } from './utils/server/openai';
 
 export const handle: Handle = async ({ event, resolve }) => {
+	const probeResponse = createSensitiveProbeResponse(event.url.pathname);
+	if (probeResponse) {
+		return probeResponse;
+	}
+
 	event.locals.supabase = createServerClient<Database>(
 		PUBLIC_SUPABASE_URL,
 		PUBLIC_SUPABASE_PUBLISHABLE_KEY,
@@ -315,6 +320,47 @@ function getClientIp(event: Parameters<Handle>[0]['event']): string {
 	}
 }
 
+function isSensitiveProbePath(pathname: string): boolean {
+	const segments = pathname
+		.split('/')
+		.map((segment) => normalizeProbeSegment(segment))
+		.filter(Boolean);
+
+	return segments.some((segment) => {
+		return (
+			segment === '.git' ||
+			segment.startsWith('.env') ||
+			segment.endsWith('.php') ||
+			segment.includes('adminer') ||
+			segment.includes('phpmyadmin')
+		);
+	});
+}
+
+function normalizeProbeSegment(segment: string): string {
+	try {
+		return decodeURIComponent(segment).trim().toLowerCase();
+	} catch {
+		return segment.trim().toLowerCase();
+	}
+}
+
+function createSensitiveProbeResponse(pathname: string): Response | null {
+	if (!isSensitiveProbePath(pathname)) {
+		return null;
+	}
+
+	const headers = new Headers({
+		'Cache-Control': 'public, max-age=3600',
+		'Content-Type': 'text/plain; charset=utf-8',
+		'X-Robots-Tag': 'noindex, nofollow'
+	});
+
+	applySecurityHeaders(headers);
+
+	return new Response('Not found', { status: 404, headers });
+}
+
 function createContentGuardResponse({
 	event,
 	status,
@@ -360,6 +406,7 @@ function getAnonCookieOptions() {
 		path: '/',
 		httpOnly: true,
 		sameSite: 'lax' as const,
+		secure: !dev,
 		maxAge: CONTENT_ACCESS_ANON_COOKIE_MAX_AGE_SECONDS
 	};
 }

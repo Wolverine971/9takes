@@ -2386,6 +2386,36 @@ export type Database = {
           },
         ]
       }
+      give_first_funnel_events: {
+        Row: {
+          created_at: string
+          event_type: string
+          fingerprint: string
+          id: number
+          path: string | null
+          question_id: number
+          user_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          event_type: string
+          fingerprint: string
+          id?: number
+          path?: string | null
+          question_id: number
+          user_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          event_type?: string
+          fingerprint?: string
+          id?: number
+          path?: string | null
+          question_id?: number
+          user_id?: string | null
+        }
+        Relationships: []
+      }
       link_domain_owners: {
         Row: {
           created_at: string | null
@@ -4910,6 +4940,16 @@ export type Database = {
           p_source?: string
         }
         Returns: number
+      }
+      record_give_first_event: {
+        Args: {
+          p_event_type: string
+          p_fingerprint: string
+          p_path?: string
+          p_question_id: number
+          p_user_id?: string
+        }
+        Returns: undefined
       }
       record_page_analytics_ping: {
         Args: {

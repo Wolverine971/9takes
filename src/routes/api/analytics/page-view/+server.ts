@@ -4,6 +4,10 @@ import { z } from 'zod';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { pageViewSchema } from '$lib/validation/analyticsSchemas';
 import { classifyPath, shouldTrackPath } from '$lib/analytics/pageAnalytics';
+import {
+	logBestEffortTelemetryFailure,
+	runBestEffortTelemetry
+} from '$lib/server/bestEffortTelemetry';
 
 function getReferrerHost(request: Request, bodyHost: string | null | undefined): string | null {
 	const candidate = bodyHost?.trim();
@@ -21,7 +25,9 @@ function getReferrerHost(request: Request, bodyHost: string | null | undefined):
 	}
 }
 
-export const POST = withApiLogging(async ({ request, locals }) => {
+export const POST = withApiLogging(async (event) => {
+	const { request, locals } = event;
+
 	try {
 		const body = await request.json();
 		const validated = pageViewSchema.parse(body);
@@ -35,43 +41,46 @@ export const POST = withApiLogging(async ({ request, locals }) => {
 		const userId = locals.session?.user?.id ?? null;
 		const referrerHost = getReferrerHost(request, validated.referrer_host);
 
-		const { data: rpcData, error: rpcError } = await supabaseAny.rpc(
-			'upsert_page_analytics_visit',
-			{
-				p_visit_key: validated.visit_key,
-				p_session_key: validated.session_key,
-				p_fingerprint: validated.fingerprint,
-				p_user_id: userId,
-				p_path: classified.path,
-				p_route_id: classified.routeId,
-				p_path_group: classified.pathGroup,
-				p_content_type: classified.contentType,
-				p_content_slug: classified.contentSlug,
-				p_referrer_host: referrerHost,
-				p_landing_query: validated.landing_query ?? null,
-				p_utm_source: validated.utm_source ?? null,
-				p_utm_medium: validated.utm_medium ?? null,
-				p_utm_campaign: validated.utm_campaign ?? null,
-				p_utm_term: validated.utm_term ?? null,
-				p_utm_content: validated.utm_content ?? null,
-				p_click_id_type: validated.click_id_type ?? null,
-				p_click_id_value: validated.click_id_value ?? null
+		runBestEffortTelemetry(
+			event,
+			(async () => {
+				const { error: rpcError } = await supabaseAny.rpc('upsert_page_analytics_visit', {
+					p_visit_key: validated.visit_key,
+					p_session_key: validated.session_key,
+					p_fingerprint: validated.fingerprint,
+					p_user_id: userId,
+					p_path: classified.path,
+					p_route_id: classified.routeId,
+					p_path_group: classified.pathGroup,
+					p_content_type: classified.contentType,
+					p_content_slug: classified.contentSlug,
+					p_referrer_host: referrerHost,
+					p_landing_query: validated.landing_query ?? null,
+					p_utm_source: validated.utm_source ?? null,
+					p_utm_medium: validated.utm_medium ?? null,
+					p_utm_campaign: validated.utm_campaign ?? null,
+					p_utm_term: validated.utm_term ?? null,
+					p_utm_content: validated.utm_content ?? null,
+					p_click_id_type: validated.click_id_type ?? null,
+					p_click_id_value: validated.click_id_value ?? null
+				});
+
+				if (rpcError) {
+					throw rpcError;
+				}
+			})(),
+			(telemetryError) => {
+				logBestEffortTelemetryFailure('Failed to upsert page analytics visit', telemetryError, {
+					path: classified.path
+				});
 			}
 		);
 
-		if (rpcError) {
-			logger.error('Failed to upsert page analytics visit', rpcError, {
-				path: classified.path
-			});
-			throw error(500, 'Failed to track page view');
-		}
-
-		const row = Array.isArray(rpcData) ? rpcData[0] : rpcData;
-
 		return json({
 			ok: true,
-			session_id: row?.session_id ?? null,
-			visit_id: row?.visit_id ?? null
+			queued: true,
+			session_id: null,
+			visit_id: null
 		});
 	} catch (e) {
 		if (e instanceof z.ZodError) {

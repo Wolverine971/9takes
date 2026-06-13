@@ -4,6 +4,7 @@ import { supabase } from '$lib/supabase';
 import type { Actions, PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import { safelyExitWelcomeSequenceForCommentCreation } from '$lib/server/welcomeSequenceGuards';
+import { recordGiveFirstEvent } from '$lib/server/giveFirstFunnel';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
@@ -110,6 +111,18 @@ export const load: PageServerLoad = async (event) => {
 	const categoryEditor = canEditTags ? await getCategoryEditorData() : null;
 
 	if (!userHasAnswered) {
+		// Give-first wall is being shown to a not-yet-answered visitor. Log the
+		// gate hit (fingerprint-keyed) so we can measure wall-hit -> contribution.
+		if (!isDemoTime && cookie) {
+			await recordGiveFirstEvent({
+				fingerprint: cookie,
+				eventType: 'gate_shown',
+				questionId: question.id,
+				path: event.url.pathname,
+				userId: session?.user?.id ?? null
+			});
+		}
+
 		const commentCount = await getCommentCount(question.id, isDemoTime);
 		const aiComments = isDemoTime ? null : await getAIComments(question.id);
 		return createBaseResponse(
@@ -189,6 +202,17 @@ export const actions: Actions = {
 			commentInput.parent_type,
 			demo_time
 		);
+
+		// Give-first contribution: log it (fingerprint-keyed) so it joins to the
+		// gate_shown event for the wall-hit -> contribution funnel.
+		if (!demo_time && commentInput.parent_type === 'question' && commentInput.fingerprint) {
+			await recordGiveFirstEvent({
+				fingerprint: commentInput.fingerprint,
+				eventType: 'contribution',
+				questionId: Number(commentInput.parent_id),
+				userId: sessionUserId
+			});
+		}
 
 		if (!demo_time && commentData.author_id) {
 			await safelyExitWelcomeSequenceForCommentCreation({
