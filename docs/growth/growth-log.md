@@ -8,6 +8,59 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-06-13 - Weekly growth audit: traffic recovered, RLS errors gone — but the wall itself is uninstrumented
+
+- Area: Activation / retention / give-first instrumentation / signup funnel / email
+- Status: audit complete; all three prior bets still unshipped; new instrumentation gap surfaced
+- Observed numbers (week of 2026-06-08 vs prior weeks):
+
+| Cohort wk  | New visitors | Signups | New profiles | Comments | D1 return (abs) | D7 return (abs) |
+| ---------- | -----------: | ------: | -----------: | -------: | --------------: | --------------: |
+| 2026-06-08 |        3,267 |       0 |            1 |        0 |               7 |               0 |
+| 2026-06-01 |        2,964 |       0 |            2 |        0 |               9 |               2 |
+| 2026-05-25 |        3,822 |       0 |            3 |        2 |              11 |               2 |
+| 2026-05-18 |        3,317 |       0 |            1 |        0 |               2 |               1 |
+| 2026-05-11 |        2,903 |       0 |            0 |        1 |               8 |               1 |
+| 2026-05-04 |        3,001 |       0 |            1 |        0 |              13 |               6 |
+| 2026-04-27 |        3,258 |       0 |            0 |        2 |              12 |               1 |
+| 2026-04-20 |        4,175 |       0 |            2 |        0 |              14 |               3 |
+
+- D1 rate (2026-06-08 cohort): 7 / 3,267 = **0.21%** (vs 0.30% prior). D7 not yet mature for this cohort (0 so far; last mature week 2026-06-01 = 2/2,964 = 0.07%). Both remain effectively zero against Chen's 30% D7 / 15% D30 reference.
+- Signups: **still zero rows. Latest signup in DB is 2023-12-24; total 36 rows, none added.** Zero signup RLS errors this week AND zero last week — the error stream is fully clean now (last RLS error was 2026-06-01 week). Fix appears stable, but **still no confirmed capture from production.**
+- Email sends (last 8w): 40 sent, 12 opened (30.0%), 1 clicked (2.5%). Open rate ticked up from 27.5%; click rate unchanged at the floor.
+- Welcome sequence enrollments (8w): 10 — matches new profile count. Enrollment gate working.
+- Coaching waitlist: 0 adds in last 8w; 1 add in last 16w. No change.
+- Comments: 0 this week; 5 total in last 8w. No change.
+- Top errors this week: 81 unlabeled (blank message), 34 `case not found`, 20 statement timeouts. Zero signup RLS errors.
+
+- Direction changes vs 2026-06-12 audit:
+  - **Visitor volume recovered: 2,794 → 3,315 (+18.6%).** The 3-week decline reversed; back near the trailing-8-week mean. Traffic is not the problem.
+  - **Signup RLS errors: 0 → 0 (second clean week).** Green flag holds, but unconfirmed by an actual insert.
+  - **Email open rate: 27.5% → 30.0%.** Marginal up. Click rate flat at 2.5% (1 click).
+  - **D1/D7: flat single digits.** No movement.
+  - **Contributions: zero, third consecutive week.** The loop produces nothing from inbound traffic.
+
+- NEW finding this audit — **the give-first wall is not instrumented.** `content_access_events` has logged 13,684 rows ever, and `request_kind` is **`page` for 100% of them** — there is not a single `protected` row. The agent spec's signature diagnostic (wall-hit → first-contribution conversion, time-to-first-contribution, empty-state risk) is **currently unmeasurable** because the protected-comment moment never writes an event. We are flying blind on the single highest-leverage surface. 13,157 anonymous-human page views hit the wall surface in 8 weeks; we cannot tell how many reached the contribution gate, saw it, or bounced off it.
+
+- Biggest leak this week: **The give-first wall — the one mechanic that should convert lurkers to contributors — emits zero telemetry, so we cannot diagnose or fix the activation failure that is keeping contributions at zero.** Three straight weeks of zero contributions against ~3,000 weekly visitors is the symptom; the uninstrumented wall is why it stays unsolved. This now ranks above the signup-capture leak because the signup fix is plausibly working and merely unconfirmed, whereas the wall instrumentation gap blocks every activation experiment we would design.
+
+- Recommended bets (re-ranked):
+  1. **Instrument the give-first wall before running any activation experiment.** Emit a `content_access_events` row (or equivalent) with `request_kind = 'protected'` every time an anonymous user reaches the contribution gate, plus an event on first-comment submit, keyed to the same fingerprint. This is the prerequisite for measuring wall-hit → contribution conversion and time-to-first-contribution. Success = within 7 days, a queryable funnel from gate-shown → comment-submitted exists for at least one fingerprint. This is infrastructure, not an experiment — it unblocks bets 2 and 3.
+  2. **Confirm the signup RLS fix with a real production insert.** Two clean error-weeks is necessary but not sufficient. Trigger the live `/api/signups` path from production (or check Vercel function logs for POST attempts) and confirm one row lands with `created_at > 2026-06-11`. Success = ≥1 new `signups` row. If none appears within 7 days, the CTA is simply never being clicked — which redirects the fix toward CTA placement/copy, not RLS.
+  3. **Ship Experiment A (email pad at first anonymous comment) — now measurable once bet 1 lands.** Offer: "notify me when other types respond." We believe an optional email field below the first-comment textarea captures ≥10% email-to-commenter rate because it is value-matched to the exact action just taken. Success = ≥1 email per 10 anonymous first comments over 30 days; guardrail = first-comment completion does not fall below 1%. The welcome-email-#1 single-question swap (prior bet 3) stays queued behind this.
+
+- Observed / inferred / unverified:
+  - Observed: visitor recovery; two clean RLS-error weeks; `request_kind` is `page`-only across all 13,684 rows; zero contributions for 3 weeks.
+  - Inferred: the wall renders and is hit (13k page-surface events) but the protected-gate moment writes no event, so we cannot see the drop-off.
+  - Unverified: whether any production user has POSTed to `/api/signups` since the fix; whether the deployed build runs the admin-client insert path.
+
+- Repro SQL used this audit:
+  - Visitors / cohort returns: first-touch CTE on `page_analytics_visits.fingerprint`, D1 = visit in [first+1d, first+2d), D7 = [first+7d, first+8d).
+  - Signups: `SELECT max(created_at), count(*) FROM signups;` → 2023-12-24, 36 rows.
+  - RLS errors: `app_error_events WHERE error_message ILIKE '%signup%' OR ILIKE '%row-level security%'` grouped by week.
+  - Wall instrumentation gap: `SELECT request_kind, count(*) FROM content_access_events GROUP BY 1;` → only `page`.
+  - Email: `SELECT count(*), count(*) FILTER(WHERE open_count>0), count(*) FILTER(WHERE click_count>0) FROM email_sends WHERE created_at >= now() - interval '8 weeks';`
+
 ### 2026-06-12 - Weekly growth audit: signup RLS fix effective; visitor volume dips; retention still near-zero
 
 - Area: Activation / retention / email / signup funnel

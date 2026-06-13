@@ -11,7 +11,7 @@ published: false
 type: ['communication', 'growth']
 blog: true
 previewHtml: 'Each Enneagram type sabotages its own boundaries in a predictable way. Find your failure mode, then learn the three-step move that replaces it.'
-pic: 'bhusband-and-wife-arguing'
+pic: 'standing-up-for-yourself-boundary'
 path: src/blog/guides/how-to-stand-up-for-yourself.md
 totalTime: 'P30D'
 howToSteps:
@@ -370,7 +370,7 @@ Nine personalities hit nine different walls trying to say one small sentence. Th
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/bhusband-and-wife-arguing.webp",
+    "url": "https://9takes.com/blogs/standing-up-for-yourself-boundary.webp",
     "width": 1200,
     "height": 630
   },

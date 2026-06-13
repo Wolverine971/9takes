@@ -1,0 +1,37 @@
+No draft is publishable right now. Here's the full picture (I analyzed all 425 drafts against the publish gate):
+
+## Published people blog — BLOCKED
+
+**Nothing is eligible to auto-publish.** Of 425 drafts, 338 are already published in Supabase, leaving **87 unpublished**, and **0** currently pass the gate.
+
+### Why the 87 are blocked
+
+| Count | Blockers |
+|------:|----------|
+| 38 | missing images (full + thumb) **+** stale v1 grade |
+| 21 | **stale v1 grade only** ← closest to publishable |
+| 8 | missing content_quality + missing images |
+| 6 | missing images only |
+| 5 | missing content_quality |
+| 4 | skeleton drafts (missing frontmatter, too short, too few sections) |
+| 2 | below 8.5 + missing images |
+| 1 | images + stale grade + unfinished marker |
+| 1 | missing content_quality + skeleton |
+| 1 | below 8.5 |
+
+### The unblock path
+
+The 21 drafts blocked **only by a stale rubric-v1 grade** have complete frontmatter, both images present, and enough body — they just need a re-grade with `/grade_blog` (v1 grades were inflated/discoverability-blind, so the gate rejects them on principle). Re-grading on v2 must land `overall ≥ 8.5` **and** `discoverability ≥ 7` to clear.
+
+Best candidates (current overall, pre-regrade):
+
+```
+9.0  andrew-ross-sorkin   9.0  john-d-rockefeller
+9.0  keith-lee            9.0  lily-allen
+8.9  jennifer-coolidge    8.9  odessa-azion       8.9  paige-spiranac
+8.8  conan-obrien         8.8  corinna-kopf       8.8  leonardo-da-vinci
+```
+
+Per this command's scope, I stop at the gate and don't re-grade or bypass it. To actually get one published, the next step is a re-grade then re-run publish.
+
+Want me to run `/grade_blog` on one of the overall-9 drafts (e.g. `john-d-rockefeller` or `keith-lee`) and then publish it if it clears v2?

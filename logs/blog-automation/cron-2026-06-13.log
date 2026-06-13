@@ -1,0 +1,41 @@
+[2026-06-13 02:04:04] [INFO] Starting daily blog creator (non-interactive)
+[2026-06-13 02:04:04] [INFO] override.json: pause=false
+[2026-06-13 02:04:04] [INFO] RECONCILED: keira-knightley pipeline completed 2026-06-12 (grade 8.9 B+, faqs+wikidata, no blockers) but was left in inProgress; moved to completed.
+[2026-06-13 02:04:04] [INFO] Rate limit week rollover: week of 2026-06-06 closed; reset to 0/5 for week of 2026-06-13.
+[2026-06-13 02:04:04] [INFO] SELECTED: hailee-steinfeld (Type 3, Priority: 62)
+[2026-06-13 02:04:04] [INFO] Executing scripts/run-blog-pipeline.sh hailee-steinfeld (7 stages)...
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  hailee-steinfeld
+Draft:   src/blog/people/drafts/hailee-steinfeld.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-13_020416_hailee-steinfeld
+Started: Sat Jun 13 02:04:16 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:04:16)
+Command: /blog_content_creator_people_v2 hailee-steinfeld --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-13_020416_hailee-steinfeld/1_create.log
+─────────────────────────────────────────────────────
+Pipeline is running in the background (task `by9b7gijs`). It will notify me when complete. Here's the current state:
+
+## Daily Blog Creator — 2026-06-13 (in progress)
+
+**Pre-flight resolved a stuck state.** Yesterday's run finished its work but never recorded it:
+
+| Check | Result |
+|---|---|
+| Pause | `false` ✓ |
+| inProgress | `keira-knightley` (20h old) — but pipeline **not running** and draft **fully graded** |
+| Action | **Reconciled** keira → `completed` (8.9 B+, discoverability 9, faqs + wikidata, clean `production_pretext`) |
+| Rate limit | Week of 06-06 closed → **reset to 0/5** for week of 06-13 |
+
+Leaving keira in `inProgress` would have caused tomorrow's run to mark a genuinely successful blog as "stale timeout → skipped," so I recovered it instead of blindly stopping.
+
+**Today's selection:** `hailee-steinfeld` (Type 3, priority 62) — top of queue, no existing draft. Full 7-stage pipeline launched (create → fresh_eyes → second_pass → cohesion → editor → enrich → grade, plus conditional revise/regrade).
+
+- Queue: 17 remaining, 34 completed
+- Backups written: `backlog-queue.json.bak`, `override.json.bak`
+- Logs: `logs/blog-automation/cron-2026-06-13.log`
+
+I'll verify the draft, capture the grade from frontmatter, move hailee to `completed`, bump the rate limit to 1/5, and send the summary once the pipeline finishes (typically 30–60 min). I'll apply timeout/failure handling if it exceeds 120 minutes or produces no draft.

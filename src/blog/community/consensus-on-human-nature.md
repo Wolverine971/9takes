@@ -13,7 +13,49 @@ blog: true
 previewHtml: ''
 pic: 'greeks-debating-human-nature'
 path: src/blog/community/consensus-on-human-nature.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 8
+  writing: 9
+  originality: 8.5
+  discoverability: 7
+  overall: 8.0
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-13'
 ---
+
+<!-- QUALITY GRADE: B (8.0) — rubric v2 (ADAPTED: idea-essay, not a person analysis)
+Evidence: 8 | Originality: 8.5 | Discoverability: 7 | Enneagram: 8 | Writing: 9 | Hook: 8
+
+NOTE: This is a community idea-essay, not a celebrity personality blog. Person-specific
+dimensions (Hook-on-a-moment, Enneagram emotional-interior check) were adapted to the essay form.
+The `content_quality` block is inert for community blogs (the JSONB column lives on
+`blogs_famous_people`); it's recorded here as a quality marker only.
+
+FEEDBACK (2026-06-13):
+- STRONG WRITING (9): Confident open ("Everyone talks about 'human nature' like it's a settled
+  question. It isn't."), varied rhythm ("The charioteer is real. So are the horses."), and a
+  cut-to-black close that ties the three channels back to the product ("Someone will analyze it.
+  Someone will feel it. And someone will already be acting on it."). Memorable lines throughout:
+  "an engine with no wheels," "The other two dimensions don't take interview questions."
+- ORIGINAL SYNTHESIS (8.5): The "two systems is still one dimension" critique of Kahneman is the
+  sharpest original beat, and the MacLean caveat — "The map was wrong about the geography and right
+  about who lives there" — faces critic pressure head-on instead of ducking it (passes the
+  critic-pressure check). Evidence is specific and attributed (Hume's exact 1739 line, Damasio's
+  Elliot from Descartes' Error, named works throughout) — strong for a popular-philosophy essay.
+- NEEDS WORK — DISCOVERABILITY (7, the score's ceiling at 1.5x weight): title and every H2 are
+  editorial-clever, not search-shaped. "The philosopher who called the whole fight in 1739" reads
+  great but matches no query. No FAQ schema, no meta_title. The description and BlogPosting JSON-LD
+  are solid; the headings and title are not.
+- TO REACH B+ (8.5): (1) Add a `faqs` block on real queries — "Are humans rational or emotional?",
+  "What are the three parts of human nature?", "How does the Enneagram relate to Plato and Freud?"
+  (2) Add one search-intent H2 near the top with an extractable answer (e.g. "The three dimensions
+  of human nature: thinking, feeling, instinct"). (3) Consider a meta_title that front-loads a
+  searchable phrase. These three lift Discoverability from 7 to ~8.5 and clear B+ on weight alone —
+  the prose and synthesis are already there.
+-->
 
 <script>
 	const pinkerVideoUrl = "https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&clipt=EOjvARjzygM";
