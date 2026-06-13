@@ -1,0 +1,22 @@
+## Grading Complete — Keira-Knightley
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Keira-Knightley | 9 | 9 | 9 | 9 | 8 | 9 | **8.9** | **B+** |
+
+(Weighted: (9×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.9. Discoverability ≥ 7, so no gate applied.)
+
+### Key Observations
+
+- **The signature detail is excellent.** The cold open — happily signing Natalie Portman's autograph while flinching at her own name — pays off with the Sabé decoy fact ("the first role of her career, still running") and becomes the thesis of the piece. It passes the swap test cleanly.
+- **The critic-pressure anchor is a model for the corpus.** The Carney section concedes the criticism is real before reframing the guardedness as armor, and the BAFTA red-carpet inner-thought delivers the required interior beat. All three emotional-interior checks pass.
+- **The one cap: Writing held at 8** by the fingerprint rule. The body's own ledger counts 3 contrast-pair engines (intro, Carney "vanity/armor," ending bookend) — one over the limit. The piece would otherwise score 9 here; varying the Carney pair (the most template-shaped of the three) lifts the cap.
+- **Discoverability is near-textbook** — search-intent title, six genuine FAQs with anchors, complete entity metadata, early extractable type answer. Only nit: the meta_title is curiosity-phrased with no "enneagram"/"personality type" token, so the SERP headline doesn't match the query the page targets.
+
+### Publication Ready (B+ or above)
+
+- **Keira-Knightley (8.9, B+)** — meets the 8.5 threshold and the Discoverability gate. To reach A (9.0): (1) rework the Carney vanity/armor sentence pair to drop the body contrast-pair count to 2, (2) add a type-query token to the meta_title, (3) optionally upgrade the Awards Chatter quotes from secondary sourcing to raw audio.
+
+Grade block and reviewer comment written into `src/blog/people/drafts/Keira-Knightley.md` (frontmatter `content_quality` + HTML feedback comment after the closing `---`).
+
+**Total graded this session: 1**

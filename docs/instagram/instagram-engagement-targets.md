@@ -2,7 +2,7 @@
 
 # Instagram Engagement Targets — @9takesdotcom
 
-_Last Updated: 2026-06-11 midday (bridge healthy; account layer BLOCKED at `instagram_account_not_in_picker` Day 3 — live session rotated to @djwayne3, @9takesdotcom still absent from the Switch-accounts picker, and the picker itself shrank overnight (dj_pew_pew also dropped; 2 rows left: djwayne3 / build.os). DJ fix still requires the password-gated "Log into an Existing Account" re-add; structural rewire now strongly indicated since the shared profile is shedding sessions. Block window now 35 calendar days; only 1 posted-reply day (5/18 PM). See 2026-06-11 snapshot below.)_
+_Last Updated: 2026-06-12 midday (bridge healthy; account layer BLOCKED at `instagram_account_not_in_picker` Day 4 — state stable vs 6/11: @djwayne3 still the live session, picker still 2 rows (djwayne3 / build.os), @9takesdotcom and dj_pew_pew both still absent. First day of this variant with no overnight change — the profile has settled into a stable wrong-account state. DJ fix unchanged: password-gated "Log into an Existing Account" re-add (Step 1) + dedicated-profile rewire (Step 2, the only durable fix). Block window now 36 calendar days; only 1 posted-reply day (5/18 PM). See 2026-06-12 snapshot below.)_
 _Purpose: Living document tracking accounts to engage with, organized by tier and category._
 _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply` account history._
 
@@ -11,6 +11,17 @@ _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply`
 ---
 
 ## Outbound Activity Snapshots (append-only)
+
+### 2026-06-12 — Block CONTINUES: `instagram_account_not_in_picker` Day 4 (state STABLE — @djwayne3 still active, picker still 2 rows; no overnight change for the first time this variant)
+
+- **Window:** Daily scan following 6/11. Same failure variant; first day with zero state drift.
+- **Bridge ✅ (healthy):** `tabs_context_mcp` returned the MCP tab group (fresh group `249849902`, tab `528828098`), `navigate` to `https://www.instagram.com/` succeeded, `javascript_tool` DOM reads + `computer` screenshot executed normally. No extension drop.
+- **Account ❌ (blocked, Day 4):** Live, logged-in session is **@djwayne3** (verified two signals: avatar alt `djwayne3's profile picture` + top-right widget `djwayne3 / DJ Wayne / Switch`; personal/tactical feed — bmatt*198123, russian.r3d, arttherabee, rob_bundy*, ryanm2534, costa_ludus). Switch-accounts modal (opened via the visible top-right Switch link; sidebar Switch span still w=0/h=0 and Settings-gear click did not mint the popup) lists exactly `djwayne3` (active) / `build.os` + password-gated `Log into an Existing Account`. **No `9takesdotcom` row.** Did NOT enter a password (prohibited credential entry). Closed the modal via Escape without switching. No interaction with any post, story, profile, hashtag, DM, or notification. Phase 7 not reached.
+- **New signal — stability:** First day since this variant began (6/9) with **no overnight change**: same active account as 6/11, same 2-row picker. `dj_pew_pew` did not return after its 6/11 eviction. The profile appears to have settled into a stable wrong-account state rather than continuing to shed sessions — but @9takesdotcom still cannot return without DJ's password-gated re-add, and the dj_pew_pew non-return confirms evicted accounts stay evicted.
+- **Layer status:** Bridge ✅ · Account ❌ (`instagram_account_not_in_picker`). Trail: 6/4–6/5 logged-out (9takes in picker) → 6/6 bridge drop → 6/8 bridge recovered, logged-out (9takes in picker) → 6/9 live @dj_pew_pew session, 9takes evicted → 6/10 identical → 6/11 Day 3, active rotated to @djwayne3, picker down to 2 rows → **6/12 Day 4, stable.**
+- **Cumulative cost:** From 5/7 PM through today = **36 calendar days**, still only 1 posted-reply day (5/18 PM). Backlog ~8+ unposted items (5/22 + 5/23), all stale. Vanessa cover-up Anchor (`/p/DYDWMN_SB3a/`, ~Day 36) continues compounding alone.
+- **Resolution required (DJ):** Unchanged. **Step 1 (password-gated re-add):** Switch (top-right) → `Log into an Existing Account` → @9takesdotcom credentials → confirm purple-9takes avatar + `9takesdotcom / 9takes · Enneagram & Personality` widget + Enneagram story rail + `/notifications/` loads without redirect. **Step 2 (structural, the only durable fix):** Dedicated Chrome profile where @9takesdotcom is the only/primary session — the 6/11 dj_pew_pew eviction with no 6/12 return shows this shared profile does not retain re-added sessions.
+- **Doc:** `docs/instagram/daily-engagement/2026-06-12_instagram-warmup.md`
 
 ### 2026-06-11 — Block CONTINUES: `instagram_account_not_in_picker` Day 3 (active rotated to @djwayne3; picker SHRINKING — dj_pew_pew also evicted)
 

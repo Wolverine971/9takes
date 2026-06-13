@@ -1,0 +1,25 @@
+Frontmatter enrichment complete: **Keira-Knightley**
+
+This draft arrived already heavily enriched from the creator/second-pass pipeline, so this was a light additive pass.
+
+**Fields filled (2 edits):**
+- `wikidata_qid: 'Q42581'` — verified via [Wikidata Q42581](https://www.wikidata.org/wiki/Q42581); its P345 claim (`nm0461136`) confirms the existing `imdb_id` is correct
+- `same_as` — added the Wikidata URL and the [Britannica entry](https://www.britannica.com/biography/Keira-Knightley), bringing it from 2 to 4 authoritative links
+
+**Fields already present (preserved untouched):**
+- `wikipedia`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about` (8 real items), `keywords` (9), `citations` (14), `faqs`
+
+**FAQs preserved (6, substantive — strict idempotency applied):**
+1. What is Keira Knightley's personality type? → `#what-is-keira-knightleys-personality-type`
+2. Why did Keira Knightley sue the Daily Mail? → `#why-keira-knightley-fights-the-things-that-scare-her`
+3. What happened to Keira Knightley at 22? → `#the-breakdown-behind-the-pirate-money`
+4. Why does Keira Knightley refuse Photoshop retouching? → `#why-keira-knightley-fights-the-things-that-scare-her`
+5. Was Keira Knightley in Star Wars? → `#what-is-keira-knightleys-personality-type`
+6. Is Keira Knightley in Black Doves season 2? → `#the-black-doves-era-keira-knightley-in-her-forties`
+
+**Issues / notes:**
+- `occupation` has a single item (`'Actress'`); spec prefers 2–5, but Wikipedia's infobox also lists only "Actress" and the field was already filled, so I left it rather than pad it (her Chanel modeling work would be the only defensible addition if you want a second entry).
+- The draft has 6 FAQs vs. the spec's 3–5 cap — they're all substantive and body-derived, so idempotency wins; flagging only in case the publish gate cares.
+- Body, ledgers, review-note comment blocks, `lastmod`, and `production_pretext` untouched.
+
+Sources: [Keira Knightley — Wikidata](https://www.wikidata.org/wiki/Q42581), [Keira Knightley — Britannica](https://www.britannica.com/biography/Keira-Knightley)

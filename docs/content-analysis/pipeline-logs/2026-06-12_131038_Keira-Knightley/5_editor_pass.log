@@ -1,0 +1,10 @@
+Polished `src/blog/people/drafts/Keira-Knightley.md`. Lint is clean: 0 fail, 0 warn, including the em-dash check (`no prose em-dashes`).
+
+This draft came in strong — the second pass had already handled the big structural items — so this was a targeted cadence pass. What I cleaned up:
+
+- **Contrast-pair overload.** The piece leaned on the "looked like X, was really Y" engine in five places, not the three its ledger claimed. I cut the "fights look like ideology / engine is protection" closer (it restated the intro thesis), rewrote the Disney-ban pair as a direct claim ("The ban is threat assessment run on the bedtime queue, every story vetted for what it teaches a girl to wait for" — which now ties back to the Cinderella quote), and de-negated the entourage line so the Carney section runs one reframe instead of three stacked negations. The earned bookends (intro, dollhouse ending) and the "vanity/armor" centerpiece are untouched.
+- **One negative-parallelism fix** in the childhood section ("not a love of reading, but…" → direct statement).
+- **Trims:** cut the COVID parenthetical the second pass had flagged as the remaining trim target in the overlong fights section, and dropped "unflinching" (press cliché; the quotes that follow do that work).
+- **Protected per standards:** the empathy turn (Carney's criticism reframed as armor, with the concession intact) and the interior beat (the BAFTA red-carpet inner-thought) survive unchanged. `lastmod` untouched.
+
+The draft reads production-ready to me — no further substantive pass needed. The only open item carried forward in the notes is non-blocking: the Awards Chatter quotes are still sourced via secondary coverage rather than raw audio. Next step when you're ready would be `/grade_blog` or the publish flow.

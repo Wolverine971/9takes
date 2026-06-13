@@ -1,0 +1,25 @@
+Draft complete. Keira Knightley is typed as a **counterphobic Enneagram Type 6**, with the thesis: the woman everyone reads as fearless (suing the Daily Mail, the unretouched topless shoot, the Disney ban) is actually running *at* her fears because standing still with them is unbearable. The signature details carrying the piece: she exists because of a bet (her mother had to sell a play to afford a second child), the Pemberley dollhouse holding a miniature of the book she couldn't read, the deal that made acting conditional on grades, the BAFTA red carpet she could only face after hypnotherapy, and the autographs she cheerfully signs as Natalie Portman while flinching at her own name — which became both the hook and the ending.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Keira-Knightley.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (4 qualifying quotes — Joe Wright ×2, John Carney ×2),
+       Gate 2: pass (7 of 8 H2s search-intent/hybrid),
+       Gate 4: pass (no type-anaphora ending, non-object-reveal hook),
+       Gate 5: pass (2 type-theory paragraphs outside diagnosis/Rabbit Hole),
+       Gate 6: pass (critic anchor: Carney; empathy turn: the armor reframe;
+       current anchor: Black Doves S2 2026; interior beat: BAFTA inner-thought)
+LIMITATIONS: Awards Chatter podcast quoted via secondary coverage (THR/Refinery29),
+       not raw audio; wing call (6w7 vs 6w5) logged in working notes
+```
+
+Supporting details:
+
+- **Internal links (6 total):** Natalie Portman → `/personality-analysis/natalie-portman`, Johnny Depp → `/personality-analysis/johnny-depp`, Type 6 → `/enneagram-corner/enneagram-type-6`, anxiety guide → `/enneagram-corner/anxiety-and-enneagram-types-guide`, plus the two required Rabbit Hole pillar links (wings, instinctual subtypes). All targets verified against `famousTypes.ts` / the sitemap.
+- **Transcripts fetched (2):** the In Conversation career retrospective (source of the dollhouse, the "couldn't bear the rejection" admission, and the Wright "we hated each other" story) and the 2014 Graham Norton appearance (the autograph anecdote), saved in `youtube-transcripts/`.
+- **Verification:** `./scripts/blog-lint.sh Keira-Knightley` passes with 0 fail / 0 warn; frontmatter YAML parses, all four ledgers present, exactly one Rabbit Hole block, 5 structured-data FAQs, ~4,500 words.
+- **Current-tense anchor:** Black Doves season 2 (filmed late 2025, airing 2026) plus *The Woman in Cabin 10* (2025).
+
+Per non-interactive rules I did not grade the draft (that's `/grade_blog`) and did not promote it past `draft` — human review is required before `blog_content_production_people` runs.

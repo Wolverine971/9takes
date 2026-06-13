@@ -6,6 +6,59 @@ Newest updates should go at the top of each section.
 
 Use this file as the persistent memory for growth work across audits, research passes, and experiments.
 
+## Experiment Log
+
+### 2026-06-12 - Weekly growth audit: signup RLS fix effective; visitor volume dips; retention still near-zero
+
+- Area: Activation / retention / email / signup funnel
+- Status: audit complete; Experiment A and welcome-sequence bet remain unshipped
+- Observed numbers (week of 2026-06-08 vs prior weeks):
+
+| Week       | Visitors | Signups | New profiles | Q-comments | D1 return (abs) | D7 return (abs) |
+| ---------- | -------: | ------: | -----------: | ---------: | --------------: | --------------: |
+| 2026-06-08 |    2,794 |       0 |            1 |          0 |               8 |               2 |
+| 2026-06-01 |    2,958 |       0 |            2 |          0 |               9 |               2 |
+| 2026-05-25 |    3,819 |       0 |            3 |          2 |               8 |               1 |
+| 2026-05-18 |    3,310 |       0 |            1 |          0 |               2 |               1 |
+| 2026-05-11 |    2,899 |       0 |            0 |          1 |               9 |               4 |
+| 2026-05-04 |    2,986 |       0 |            1 |          0 |              13 |               1 |
+| 2026-04-27 |    3,242 |       0 |            0 |          2 |               9 |               1 |
+| 2026-04-20 |    4,131 |       0 |            2 |          0 |               9 |               5 |
+
+- D1 rate (2026-06-08 week): 8 / 2,794 = **0.29%** (down from 0.71% in 2026-06-01 week — but D1 denominator is all visitors, not just first-touch, so noisy)
+- D7 rate (2026-06-08 week): 2 / 2,794 = **0.07%** — effectively zero; well below the 15% D30 floor Andrew Chen cites for consumer products
+- Signups: **still zero rows.** Last signup in DB is 2023-12-24. Current week has 0 signup RLS errors (down from 3 last week and 4 the week before). The fix was logged as shipped on 2026-06-11 but the production deploy has not yet generated a single captured email. Status: **fix shipped, no conversion confirmed yet.**
+- Email sends (last 8 weeks): 40 sent, 11 opened (27.5%), 1 clicked (2.5%). No change from prior audit.
+- Coaching waitlist: zero adds in last 8 weeks. No change.
+- Question comments: zero in the current week; 5 total in the last 8 weeks. No change.
+- Welcome sequence enrollments match new profile count exactly (1 this week, 10 total last 8 weeks) — confirming the enrollment gate is working.
+- Top errors this week: 167 unlabeled errors, 78 `case not found`, 41 statement timeouts. Zero signup RLS errors.
+
+- Direction changes vs prior audit (2026-06-11):
+  - **Signup RLS errors: 3 last week → 0 this week.** Tentative green flag on the fix. Needs a successful insert to confirm.
+  - **Visitor volume: 2,794 this week vs 2,958 last week.** Down 5.6%. Two-week decline from a 3,819 peak on 2026-05-25. Not alarming at this scale but worth watching; traffic is SEO-driven so a dip here is a content or indexing signal, not a loop signal.
+  - **D1/D7 absolute returns: flat at single digits.** No improvement.
+  - **Contribution rate: zero for two consecutive weeks.** The product is not generating question comments from inbound traffic at any meaningful rate.
+
+- Biggest leak this week: **The RLS fix may be shipped in code but there is no confirmed email capture from production yet.** 2,794 visitors arrived this week; zero signed up. Until one signup row lands post-fix, the repair is theoretical. The second-biggest leak is unchanged: 2,794 visitors, effectively zero contributions, zero retention compound.
+
+- Recommended bets (same three, re-ranked by urgency):
+  1. **Confirm the signup RLS fix is live in production.** Verify the admin Supabase client path is actually executing in the deployed Vercel build, not just in local dev. Check Vercel function logs for `/api/signups` POST attempts. If no signups appear within 7 days of deploy, something else is blocking the insert. Success = at least 1 row in `signups` with `created_at` > 2026-06-11.
+  2. **Ship Experiment A (email pad at first anonymous comment).** All blockers are cleared: identity Phase 0 is shipped, sidebar wiring is shipped, RLS fix is shipped. The experiment itself has not been built. Every week without it is another 2,000+ visitors who could have left an email but didn't. We believe adding an optional email field below the first-comment textarea for anonymous contributors will capture >=10% email-to-commenter rate because the offer (notify me when other types respond) is value-matched to exactly what the user just did. Success = >=1 email captured per 10 anonymous first comments over 30 days; guardrail = first-comment completion rate does not drop below 1%.
+  3. **Replace welcome email #1 link with one hand-picked low-volume question.** 27.5% open rate on the welcome sequence is real signal. 2.5% click rate is the leak. Current email links to broad discovery; it should link to a single question with 5+ existing answers across multiple enneagram types so the new user lands in a room that isn't empty. We believe this will lift click rate from 2.5% to >=10% and produce at least one first contribution per 20 new profiles. Success = email #1 click rate >=10% and first-contribution rate >=5% over 30 days.
+
+- Observed / inferred / unverified:
+  - Observed: zero signup rows post-fix; zero RLS errors this week.
+  - Observed: visitor volume dipping over last 3 weeks.
+  - Inferred: the fix is deployed but either hasn't been triggered yet (low CTA click rate) or has a secondary failure.
+  - Unverified: whether Vercel production is running the updated admin-client insert path or a cached prior version.
+
+- Repro SQL used this audit:
+  - Visitors: `SELECT date_trunc('week', first_visit_at)::date, count(DISTINCT fingerprint) FROM visitor_first_touch WHERE first_visit_at >= date_trunc('week', now()) - interval '7 weeks' GROUP BY 1 ORDER BY 1 DESC;`
+  - Signup RLS errors by week: `SELECT date_trunc('week', created_at)::date, count(*) FROM app_error_events WHERE error_message ILIKE '%row-level security%signups%' GROUP BY 1 ORDER BY 1 DESC;`
+  - D1: join `page_analytics_visits` to `visitor_first_touch` on fingerprint, filter `started_at` between `first_visit_at + 1 day` and `first_visit_at + 2 days`.
+  - Email sends: `SELECT count(*), count(*) FILTER (WHERE open_count > 0), count(*) FILTER (WHERE click_count > 0) FROM email_sends WHERE created_at >= date_trunc('week', now()) - interval '7 weeks';`
+
 ## Research Tidbits
 
 ### 2026-04-08 - Casey Winters on loops vs funnels and "give-first" rules

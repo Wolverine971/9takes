@@ -1,0 +1,49 @@
+Running the cohesion check on the Keira Knightley draft. I've read the full file; here's the audit.
+
+## Cohesion Audit: Keira-Knightley.md
+
+### Central Thesis
+
+Keira Knightley's lifelong defiance (suing tabloids, banning retouching, vetting scripts) is not fearlessness but counterphobic Type 6 fear management, installed in childhood by a deal that made the thing she loved conditional on vigilance.
+
+### Thread Map
+
+1. **Intro (autograph cold open)** — She's relaxed being looked at as anyone but herself; the fights are real but the fearlessness is a misread. Sets the question: "where does the fear go?"
+2. **What is her personality type?** — Answers it: counterphobic 6. Reruns her record as one repeated maneuver (attack the threat), plus the trust signature (expensive to earn, permanent once purchased).
+3. **Childhood** — Origin story: the wager, the dyslexia deal ("hostage situation with homework") installs vigilance as the price of permission. Plants the dollhouse for the ending.
+4. **Why she fights** — The adult catalogue (King Arthur, Interview shoot, "The Weaker Sex," Daily Mail, Disney ban, corsets), synthesized at the end: vigilance promoted, engine is protection.
+5. **The breakdown** — What the vigilance cost and what justified it: PTSD at 22, then the hypnotherapy red carpet as the counterphobic move in miniature.
+6. **Carney** — The armor reframed: concession first, then architecture; Wright as the trust-purchase counterexample.
+7. **Stress and safety** — Stress-to-3 (perform harder), security-to-9 (scruff, board games).
+8. **Black Doves era** — Present tense: the type cast as a character; perimeter finally hers.
+9. **The girl in the dollhouse** — Bookend: dollhouse, agents, Portman autograph echo.
+
+The map reads coherently top to bottom. Every section serves the thesis; nothing is a detour.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 9/10  | 1      |
+| Section Transitions     | 8/10  | 3      |
+| Internal Paragraph Flow | 9/10  | 1      |
+
+**Overall Cohesion Score: 8.5/10**
+
+This piece is already cohesive. The title promise ("Why Keira Knightley Fights Everything That Scares Her") is delivered exactly; the intro's question ("where the fear goes") is answered by the diagnosis section directly; the dollhouse, dyslexia, and Portman threads are all planted and paid off. The strongest transitions are the last two: "loose and laughing" at the top of Black Doves picks up the security-to-9 ease from the previous section, and the ending's "Her mother still has the dollhouse" is a clean bookend callback.
+
+Per the command's edge-case rule for 8+ scores, I haven't edited the file. Here are the minor tightening opportunities I found:
+
+### Minor (Tightening) — not applied
+
+1. **Diagnosis → Childhood.** The diagnosis section ends on "bracing for the other shoe"; the childhood section opens cold with "Keira Knightley exists because of a wager." The genre convention carries it, but no keyword bridges the gap. A clause at the start of the wager paragraph tying the bracing to its origin (e.g., that the bracing was installed before she could read — language the section already uses) would make it explicit.
+2. **Childhood → Fights.** "Start the catalogue in 2004" reaches back two sections for its antecedent (the diagnosis section's "one repeated maneuver"). The childhood section ends on the tender dollhouse beat, then pivots abruptly to the King Arthur poster. One sentence carrying "vigilance" from the deal into the adult catalogue would close the seam.
+3. **Fights → Breakdown.** The fights section ends "The engine underneath is protection"; the breakdown section explains what made protection necessary but never says so. A half-sentence noting that the protection was earned, not theoretical, would convert an adequate transition into a strong one.
+4. **Internal, fights section.** The chronology jumps 2018 ("The Weaker Sex") back to 2007 (Daily Mail). It works thematically because "she keeps filing corrections" hands off to a literal lawsuit filing, but a reader tracking dates may bump. Lowest priority of the four.
+
+### Remaining Concerns (writer's judgment, not cohesion fixes)
+
+- The fights section is the longest in the piece (five fronts). The second-pass notes already flag the COVID parenthetical as a trim candidate; that's a length call, not a thread break.
+- The hypnotherapy anecdote appears in FAQ, diagnosis catalogue, and breakdown section. The second-pass notes mark this as deliberate (search intent + load-bearing clause), so I'm treating it as intentional, not duplication.
+
+Want me to apply the four minor bridges? Each is a single sentence or clause; nothing structural moves.

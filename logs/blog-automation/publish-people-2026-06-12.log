@@ -1,0 +1,16 @@
+**Publish blocked — no eligible draft.** The script checked 424 candidates and rejected all of them; nothing was published and no files changed.
+
+The pool breaks down like this:
+
+- **94 unpublished drafts** total. Of those, **89 are blocked on stale grades** — they have rubric v1 grades (or no `content_quality` at all) and need a `/grade_blog` re-run before they can publish.
+- **5 drafts have v2 grades and pass every quality gate** (overall ≥ 8.5, discoverability ≥ 7), but **all five are missing both image files** (`static/types/[type]s/[Person].webp` and `s-[Person].webp` — neither exists for any of them, confirmed with a case-insensitive sweep):
+
+| Person | Type | Overall | Graded |
+|---|---|---|---|
+| Victoria Justice | 9 | 9.0 (A-) | 2026-06-01 |
+| PinkPantheress | 5 | 8.8 (B+) | 2026-05-29 |
+| Andrew Garfield | 4 | 8.7 (B+) | 2026-06-09 |
+| Nicholas Galitzine | 4 | 8.7 (B+) | 2026-05-29 |
+| Greta Gerwig | 6 | 8.5 (B+) | 2026-05-30 |
+
+**Fastest path to a publish:** type images are manual (Canva) per your workflow, so creating the full + thumbnail webp pair for any one of these five — Victoria Justice is the strongest grade — unblocks it immediately. Re-running this command after that will publish it.

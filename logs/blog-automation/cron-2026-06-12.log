@@ -1,0 +1,25 @@
+[2026-06-12 02:01:22] [INFO] Starting daily blog creator (non-interactive)
+[2026-06-12 02:01:22] [INFO] override.json: pause=false, rateLimit=2/5 (week of 2026-06-06)
+[2026-06-12 02:01:22] [WARN] STALE INPROGRESS CLEARED: jony-ive after ~48 hours (no draft created) - moved to skipped
+[2026-06-12 02:01:22] [INFO] SELECTED: keira-knightley (Type 4, Priority: 64)
+[2026-06-12 02:01:22] [INFO] Executing scripts/run-blog-pipeline.sh keira-knightley (7 stages)...
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  keira-knightley
+Draft:   src/blog/people/drafts/keira-knightley.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-12_020127_keira-knightley
+Started: Fri Jun 12 02:01:27 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:01:27)
+Command: /blog_content_creator_people_v2 keira-knightley --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-12_020127_keira-knightley/1_create.log
+─────────────────────────────────────────────────────
+Everything is armed and running. Current state:
+
+- **Pipeline running** (background task `bccrjw08u`): full 7-stage run for keira-knightley, output appending to `logs/blog-automation/cron-2026-06-12.log`.
+- **Stage monitor** (`bq89swa5x`): notifies me as each stage finishes or if lint/errors appear.
+- **Timeout watchdog** (`bczr5n85t`): fires if the pipeline is still running after 120 minutes, at which point I'll kill it and apply the partial/failure handling.
+
+When the pipeline completes I'll verify the draft, read the grade from frontmatter, update `backlog-queue.json` (move to `completed`), bump the weekly rate-limit count to 3/5, and emit the summary.
