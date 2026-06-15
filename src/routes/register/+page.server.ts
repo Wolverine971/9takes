@@ -50,7 +50,7 @@ export const actions: Actions = {
 			normalizedEmail = rawEmail.trim().toLowerCase();
 
 			// Check honeypot field first (bots will fill this)
-			const honeypot = formData.get('website') as string | null;
+			const honeypot = formData.get('form_extra') as string | null;
 			if (isHoneypotTriggered(honeypot)) {
 				await recordAuthProtectionEvent({
 					flow: 'register',

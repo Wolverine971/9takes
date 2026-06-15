@@ -3,6 +3,7 @@
 
 import type { RequestHandler } from './$types';
 import { supabase } from '$lib/supabase';
+import { isUuid } from '$lib/utils/uuid';
 
 // 1x1 transparent GIF
 const TRANSPARENT_GIF = Buffer.from(
@@ -14,9 +15,11 @@ export const GET: RequestHandler = async ({ params, request }) => {
 	const { tracking_id } = params;
 
 	// Non-blocking update - don't wait for database
-	updateOpenTracking(tracking_id, request).catch((err) => {
-		console.error('Error updating open tracking:', err);
-	});
+	if (isUuid(tracking_id)) {
+		updateOpenTracking(tracking_id, request).catch((err) => {
+			console.error('Error updating open tracking:', err);
+		});
+	}
 
 	// Return tracking pixel immediately
 	return new Response(TRANSPARENT_GIF, {
@@ -31,6 +34,10 @@ export const GET: RequestHandler = async ({ params, request }) => {
 };
 
 async function updateOpenTracking(trackingId: string, request: Request): Promise<void> {
+	if (!isUuid(trackingId)) {
+		return;
+	}
+
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 	const userAgent = request.headers.get('user-agent') || 'unknown';
 

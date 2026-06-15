@@ -26,6 +26,7 @@ export type SearchPreviewBotName =
 	| 'YandexBot'
 	| 'Twitterbot'
 	| 'FacebookExternalHit'
+	| 'MetaExternalAgent'
 	| 'Slackbot'
 	| 'LinkedInBot'
 	| 'Discordbot'
@@ -124,6 +125,7 @@ const SEARCH_PREVIEW_BOTS: BotDefinition<SearchPreviewBotName>[] = [
 	{ name: 'YandexBot', pattern: /yandex(bot)?/i },
 	{ name: 'Twitterbot', pattern: /twitterbot/i },
 	{ name: 'FacebookExternalHit', pattern: /facebookexternalhit/i },
+	{ name: 'MetaExternalAgent', pattern: /meta-externalagent/i },
 	{ name: 'Slackbot', pattern: /slackbot/i },
 	{ name: 'LinkedInBot', pattern: /linkedinbot/i },
 	{ name: 'Discordbot', pattern: /discordbot/i },

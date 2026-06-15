@@ -21,6 +21,8 @@ import { recordSharedContentAccessEvent } from '$lib/server/contentAccessStore';
 
 import type { Handle } from '@sveltejs/kit';
 
+const SUPABASE_AUTH_COOKIE_NAME = getSupabaseAuthCookieName(PUBLIC_SUPABASE_URL);
+
 // import * as amp from '@sveltejs/amp';
 // import dropcss from 'dropcss';
 
@@ -94,15 +96,12 @@ export const handle: Handle = async ({ event, resolve }) => {
 	}
 
 	/**
-	 * Unlike `supabase.auth.getSession()`, which returns the session _without_
-	 * validating the JWT, this function also calls `getUser()` to validate the
-	 * JWT before returning the session.
+	 * Avoid `supabase.auth.getSession()` on the server. It reads the session
+	 * from cookies without authenticating the user object. Only call `getUser()`
+	 * when an auth cookie is present so Supabase validates the JWT first.
 	 */
 	event.locals.safeGetSession = async () => {
-		const {
-			data: { session }
-		} = await event.locals.supabase.auth.getSession();
-		if (!session) {
+		if (!hasSupabaseAuthCookie(event.cookies)) {
 			return { session: null, user: null };
 		}
 
@@ -110,12 +109,12 @@ export const handle: Handle = async ({ event, resolve }) => {
 			data: { user },
 			error
 		} = await event.locals.supabase.auth.getUser();
-		if (error) {
+		if (error || !user) {
 			// JWT validation has failed
 			return { session: null, user: null };
 		}
 
-		return { session, user };
+		return { session: { user }, user };
 	};
 
 	// Hot path: header typeahead fires on every keystroke and never reads the
@@ -128,9 +127,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 		return typeaheadResponse;
 	}
 
-	const { session } = await event.locals.safeGetSession();
+	const { session, user } = await event.locals.safeGetSession();
 	event.locals.session = session;
-	event.locals.user = session?.user ?? null;
+	event.locals.user = user;
 
 	const requester =
 		dev || !protectedContentPath
@@ -140,7 +139,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 					pathname: event.url.pathname,
 					userAgent,
 					clientIp,
-					isAuthenticated: !!session?.user,
+					isAuthenticated: !!user,
 					anonymousId: anonCookieValue ?? pendingAnonCookieValue
 				});
 
@@ -318,6 +317,22 @@ function getClientIp(event: Parameters<Handle>[0]['event']): string {
 	} catch {
 		return 'unknown';
 	}
+}
+
+function getSupabaseAuthCookieName(supabaseUrl: string): string {
+	try {
+		const hostname = new URL(supabaseUrl).hostname;
+		const projectRef = hostname.split('.')[0];
+		return `sb-${projectRef}-auth-token`;
+	} catch {
+		return 'supabase.auth.token';
+	}
+}
+
+function hasSupabaseAuthCookie(cookies: Parameters<Handle>[0]['event']['cookies']): boolean {
+	return cookies.getAll().some(({ name }) => {
+		return name === SUPABASE_AUTH_COOKIE_NAME || name.startsWith(`${SUPABASE_AUTH_COOKIE_NAME}.`);
+	});
 }
 
 function isSensitiveProbePath(pathname: string): boolean {

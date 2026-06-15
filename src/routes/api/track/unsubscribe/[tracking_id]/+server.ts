@@ -4,6 +4,7 @@
 import { error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { exitWelcomeSequenceForEmail } from '$lib/server/emailSequences';
+import { isUuid } from '$lib/utils/uuid';
 
 function escapeHtml(value: string): string {
 	return value.replace(/[&<>"']/g, (char) => {
@@ -132,12 +133,16 @@ async function getRecipientEmailByTrackingId(
 	supabaseClient: any,
 	trackingId: string
 ): Promise<string | null> {
+	if (!isUuid(trackingId)) {
+		return null;
+	}
+
 	const supabaseAny = supabaseClient as any;
 	const { data: emailSend, error: emailSendError } = await supabaseAny
 		.from('email_sends')
 		.select('recipient_email')
 		.eq('tracking_id', trackingId)
-		.single();
+		.maybeSingle();
 
 	if (emailSendError) {
 		console.error('Error loading recipient email for unsubscribe view:', emailSendError);
@@ -152,6 +157,10 @@ async function unsubscribeWithTrackingId(
 	trackingId: string,
 	request: Request
 ): Promise<{ recipientEmail: string | null; unsubscribeError: any }> {
+	if (!isUuid(trackingId)) {
+		return { recipientEmail: null, unsubscribeError: null };
+	}
+
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 	const userAgent = request.headers.get('user-agent') || 'unknown';
 

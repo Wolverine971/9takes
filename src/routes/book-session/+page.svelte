@@ -297,8 +297,14 @@
 						class="waitlist-form"
 					>
 						<div class="honeypot" aria-hidden="true">
-							<label for="website">Website</label>
-							<input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+							<label for="book-session-form-extra">Leave blank</label>
+							<input
+								type="text"
+								id="book-session-form-extra"
+								name="form_extra"
+								tabindex="-1"
+								autocomplete="new-password"
+							/>
 						</div>
 
 						<div class="field-group">

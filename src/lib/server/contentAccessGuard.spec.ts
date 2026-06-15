@@ -91,6 +91,33 @@ describe('contentAccessGuard', () => {
 		});
 	});
 
+	it('allows Meta external sharing crawler as a search preview bot', () => {
+		const userAgent =
+			'meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)';
+
+		expect(
+			getHardBlockedReason({
+				method: 'GET',
+				pathname: '/personality-analysis/jake-shane',
+				userAgent
+			})
+		).toBeNull();
+
+		const requester = getContentRequester({
+			method: 'GET',
+			pathname: '/personality-analysis/jake-shane',
+			userAgent,
+			clientIp: '57.141.0.15',
+			anonymousId: null,
+			isAuthenticated: false
+		});
+
+		expect(requester).toEqual({
+			kind: 'search_preview_bot',
+			name: 'MetaExternalAgent'
+		});
+	});
+
 	it('does not block HEAD requests used by audits and link checks', () => {
 		expect(
 			getHardBlockedReason({

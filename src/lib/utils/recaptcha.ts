@@ -77,5 +77,5 @@ export const verifyTurnstile = verifyRecaptcha;
  * @returns true if it's a bot (field was filled)
  */
 export function isHoneypotTriggered(value: string | null | undefined): boolean {
-	return !!value && value.length > 0;
+	return typeof value === 'string' && value.trim().length > 0;
 }

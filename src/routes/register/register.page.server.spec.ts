@@ -48,7 +48,7 @@ function buildRegisterRequest(overrides: Record<string, string> = {}) {
 	const formData = new FormData();
 	formData.append('email', overrides.email ?? 'user@example.com');
 	formData.append('password', overrides.password ?? 'Password1');
-	formData.append('website', overrides.website ?? '');
+	formData.append('form_extra', overrides.form_extra ?? '');
 	formData.append('g-recaptcha-response', overrides['g-recaptcha-response'] ?? 'token');
 
 	return new Request('http://localhost/register', {
@@ -57,7 +57,10 @@ function buildRegisterRequest(overrides: Record<string, string> = {}) {
 	});
 }
 
-function buildEvent(signUpResult?: { data?: { user?: { id: string } | null }; error?: unknown }) {
+function buildEvent(
+	signUpResult?: { data?: { user?: { id: string } | null }; error?: unknown },
+	requestOverrides: Record<string, string> = {}
+) {
 	const signUp = vi.fn().mockResolvedValue(
 		signUpResult ?? {
 			data: { user: { id: 'user-123' } },
@@ -66,7 +69,7 @@ function buildEvent(signUpResult?: { data?: { user?: { id: string } | null }; er
 	);
 
 	return {
-		request: buildRegisterRequest(),
+		request: buildRegisterRequest(requestOverrides),
 		locals: {
 			supabase: {
 				auth: {
@@ -158,5 +161,23 @@ describe('register action', () => {
 			})
 		});
 		expect(event._signUp).not.toHaveBeenCalled();
+	});
+
+	it('short-circuits registration when the honeypot field is filled', async () => {
+		isHoneypotTriggeredMock.mockImplementation((value: string | null) => Boolean(value?.trim()));
+		const event = buildEvent(undefined, { form_extra: 'bot filled this' });
+
+		const result = await actions.register(event as any);
+
+		expect(result).toEqual({ success: true });
+		expect(event._signUp).not.toHaveBeenCalled();
+		expect(verifyRecaptchaMock).not.toHaveBeenCalled();
+		expect(recordAuthProtectionEventMock).toHaveBeenCalledWith(
+			expect.objectContaining({
+				flow: 'register',
+				outcome: 'honeypot',
+				identifier: 'user@example.com'
+			})
+		);
 	});
 });

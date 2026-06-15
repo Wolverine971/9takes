@@ -18,8 +18,7 @@
 	let hoveredType: number | null = $state(null);
 	let mounted = $state(false);
 	let containerElement: HTMLElement | null = $state(null);
-	let isMobile = $state(false);
-	let showLabels = $state(true);
+	let showLabels = $derived(showLabelsProp);
 
 	// Type metadata (colors come from shared constants)
 	const typeMetadata: Record<
@@ -132,26 +131,6 @@
 		{ from: 6, to: 0 } // 7 → 1
 	];
 
-	// Get label positioning - placed just outside the node positions
-	function getLabelPosition(index: number) {
-		const pos = typePositions[index];
-		const type = enneagramTypes[index];
-
-		const positions: Record<number, { left: string; top: string; textAlign: string }> = {
-			1: { left: '74%', top: '20%', textAlign: 'left' },
-			2: { left: '82%', top: '40%', textAlign: 'left' },
-			3: { left: '74%', top: '64%', textAlign: 'left' },
-			4: { left: '60%', top: '80%', textAlign: 'center' },
-			5: { left: '40%', top: '80%', textAlign: 'center' },
-			6: { left: '26%', top: '64%', textAlign: 'right' },
-			7: { left: '18%', top: '40%', textAlign: 'right' },
-			8: { left: '26%', top: '20%', textAlign: 'right' },
-			9: { left: '50%', top: '6%', textAlign: 'center' }
-		};
-
-		return positions[type.id] || { left: '50%', top: '50%', textAlign: 'center' };
-	}
-
 	// Get URL for each Enneagram type
 	function getTypeUrl(typeId: number) {
 		return `/enneagram-corner/enneagram-type-${typeId}`;
@@ -163,23 +142,8 @@
 		}
 	}
 
-	function handleResize() {
-		if (typeof window !== 'undefined') {
-			isMobile = window.innerWidth < 768;
-			showLabels = showLabelsProp && window.innerWidth > 480;
-		}
-	}
-
 	onMount(() => {
 		mounted = true;
-		handleResize();
-
-		if (typeof window !== 'undefined') {
-			window.addEventListener('resize', handleResize);
-			return () => {
-				window.removeEventListener('resize', handleResize);
-			};
-		}
 	});
 </script>
 
@@ -288,31 +252,6 @@
 			{/if}
 		{/each}
 
-		<!-- Type Labels -->
-		{#each enneagramTypes as type, index}
-			{#if mounted && showLabels}
-				{@const labelPos = getLabelPosition(index)}
-				<div
-					class="type-label"
-					class:dimmed={hoveredType !== null && hoveredType !== type.id}
-					class:active={hoveredType === type.id}
-					style="
-						left: {labelPos.left};
-						top: {labelPos.top};
-						text-align: {labelPos.textAlign};
-						--label-color: {type.color};
-						transform: translate({labelPos.textAlign === 'center'
-						? '-50%'
-						: labelPos.textAlign === 'left'
-							? '0'
-							: '-100%'}, -50%);
-					"
-				>
-					<span class="label-name">{type.name}</span>
-				</div>
-			{/if}
-		{/each}
-
 		<!-- Tooltip -->
 		{#if hoveredType && mounted && interactive}
 			{@const currentType = enneagramTypes[hoveredType - 1]}
@@ -348,6 +287,33 @@
 			</div>
 		{/if}
 	</div>
+
+	<!-- Type Legend -->
+	{#if mounted && showLabels}
+		<ul class="type-legend">
+			{#each enneagramTypes as type}
+				<li>
+					<a
+						href={interactive ? getTypeUrl(type.id) : undefined}
+						class="legend-item"
+						class:dimmed={hoveredType !== null && hoveredType !== type.id}
+						class:active={hoveredType === type.id}
+						class:non-interactive={!interactive}
+						style="--node-color: {type.color};"
+						onmouseenter={() => (hoveredType = type.id)}
+						onmouseleave={() => (hoveredType = null)}
+						onfocus={() => (hoveredType = type.id)}
+						onblur={() => (hoveredType = null)}
+						tabindex={interactive ? 0 : -1}
+						aria-label={`Type ${type.id}: ${type.name}`}
+					>
+						<span class="legend-badge">{type.id}</span>
+						<span class="legend-name">{type.name}</span>
+					</a>
+				</li>
+			{/each}
+		</ul>
+	{/if}
 </div>
 
 <style>
@@ -379,6 +345,7 @@
 		padding-bottom: 1rem;
 		overflow: visible;
 		height: 100%;
+		container-type: inline-size;
 	}
 
 	.diagram-wrapper.size-sm {
@@ -625,52 +592,90 @@
 	}
 
 	/* ==========================================
-	   TYPE LABELS
+	   TYPE LEGEND
 	   ========================================== */
-	.type-label {
-		position: absolute;
-		pointer-events: none;
-		max-width: 100px;
-		transition: opacity 0.25s ease;
+	.type-legend {
+		list-style: none;
+		margin: 1.25rem 0 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0.375rem;
+	}
+
+	/* Respond to the diagram's own width, not the viewport, so the names
+	   never get squeezed into 3 cramped columns inside a narrow panel. */
+	@container (min-width: 30rem) {
+		.type-legend {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+	}
+
+	.type-legend li {
+		min-width: 0;
+	}
+
+	.legend-item {
 		display: flex;
-		flex-direction: column;
-		gap: 0.1rem;
-		z-index: 15;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.35rem 0.5rem;
+		border-radius: 0.5rem;
+		border: 1px solid transparent;
+		text-decoration: none;
+		transition:
+			background-color 0.2s ease,
+			border-color 0.2s ease,
+			opacity 0.2s ease;
 	}
 
-	.type-label.dimmed {
-		opacity: 0.3;
+	.legend-item:not(.non-interactive):hover,
+	.legend-item.active {
+		background: color-mix(in srgb, var(--node-color) 12%, transparent);
+		border-color: color-mix(in srgb, var(--node-color) 45%, transparent);
 	}
 
-	.type-label.active {
-		opacity: 1;
+	.legend-item:focus-visible {
+		outline: none;
+		border-color: var(--node-color);
+		box-shadow: 0 0 0 2px color-mix(in srgb, var(--node-color) 35%, transparent);
 	}
 
-	.label-name {
+	.legend-item.dimmed {
+		opacity: 0.45;
+	}
+
+	.legend-item.non-interactive {
+		cursor: default;
+	}
+
+	.legend-badge {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+		width: 1.4rem;
+		height: 1.4rem;
+		border-radius: 50%;
+		background: var(--night-deep);
+		border: 1.5px solid var(--node-color);
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: var(--node-color);
+	}
+
+	.legend-name {
 		font-family: var(--font-display);
-		font-size: 0.7rem;
+		font-size: 0.75rem;
 		font-weight: 600;
+		line-height: 1.15;
 		color: var(--text-pale);
-		line-height: 1.2;
+		min-width: 0;
 	}
 
-	.type-label.active .label-name {
-		color: var(--label-color);
-		text-shadow: 0 0 10px color-mix(in srgb, var(--label-color) 40%, transparent);
-	}
-
-	@media (min-width: 640px) {
-		.type-label {
-			max-width: 120px;
-		}
-
-		.label-title {
-			font-size: 0.6rem;
-		}
-
-		.label-name {
-			font-size: 0.8rem;
-		}
+	.legend-item.active .legend-name {
+		color: var(--node-color);
 	}
 
 	/* ==========================================

@@ -5,6 +5,7 @@ import { redirect } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { supabase } from '$lib/supabase';
 import { exitReactivationSequenceForTrackedClick } from '$lib/server/reactivationRepermission';
+import { isUuid } from '$lib/utils/uuid';
 
 export const GET: RequestHandler = async ({ params, request }) => {
 	const { tracking_id, encoded_url } = params;
@@ -30,16 +31,18 @@ export const GET: RequestHandler = async ({ params, request }) => {
 	}
 
 	// Keep redirect path fast; tracking side effects run asynchronously.
-	void Promise.allSettled([
-		updateClickTracking(tracking_id, targetUrl, request),
-		exitReactivationSequenceForTrackedClick(tracking_id)
-	]).then((trackingResults) => {
-		for (const result of trackingResults) {
-			if (result.status === 'rejected') {
-				console.error('Error updating click tracking:', result.reason);
+	if (isUuid(tracking_id)) {
+		void Promise.allSettled([
+			updateClickTracking(tracking_id, targetUrl, request),
+			exitReactivationSequenceForTrackedClick(tracking_id)
+		]).then((trackingResults) => {
+			for (const result of trackingResults) {
+				if (result.status === 'rejected') {
+					console.error('Error updating click tracking:', result.reason);
+				}
 			}
-		}
-	});
+		});
+	}
 
 	// Redirect to target URL
 	throw redirect(302, targetUrl);
@@ -50,6 +53,10 @@ async function updateClickTracking(
 	targetUrl: string,
 	request: Request
 ): Promise<void> {
+	if (!isUuid(trackingId)) {
+		return;
+	}
+
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 	const userAgent = request.headers.get('user-agent') || 'unknown';
 

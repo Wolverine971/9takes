@@ -1,7 +1,7 @@
 // src/routes/book-session/+page.server.ts
 import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
-import { verifyRecaptcha } from '$lib/utils/recaptcha';
+import { isHoneypotTriggered, verifyRecaptcha } from '$lib/utils/recaptcha';
 import { sendEmail } from '$lib/email/sender';
 import { PRIVATE_ADMIN_EMAIL } from '$env/static/private';
 
@@ -97,8 +97,8 @@ export const actions: Actions = {
 		// ============ BOT DETECTION CHECKS ============
 
 		// 1. Honeypot check - if the hidden field is filled, it's a bot
-		const honeypot = formData.get('website')?.toString() || '';
-		if (honeypot) {
+		const honeypot = formData.get('form_extra')?.toString() || '';
+		if (isHoneypotTriggered(honeypot)) {
 			console.log(`[BOT DETECTED] Honeypot triggered from IP: ${ipAddress}`);
 			// Return success to fool the bot, but don't actually save
 			return { success: true, message: 'You have been added to our waitlist!' };

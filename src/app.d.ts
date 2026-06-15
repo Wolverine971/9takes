@@ -8,7 +8,7 @@ declare namespace App {
 	// interface Platform {}
 }
 
-import type { Session, SupabaseClient, User } from '@supabase/supabase-js';
+import type { SupabaseClient, User } from '@supabase/supabase-js';
 import type { Database } from '../database.types';
 
 interface TakesUser extends User {
@@ -27,7 +27,10 @@ interface TakesUser extends User {
 	website?: string;
 	enneagram?: string;
 }
-interface SbSession extends Session {
+interface VerifiedSession {
+	user: User;
+}
+interface SbSession {
 	user?: TakesUser;
 }
 
@@ -91,8 +94,8 @@ declare global {
 		// interface Error {}
 		interface Locals {
 			supabase: SupabaseClient<Database>;
-			safeGetSession: () => Promise<{ session: Session | null; user: User | null }>;
-			session: Session | null;
+			safeGetSession: () => Promise<{ session: VerifiedSession | null; user: User | null }>;
+			session: VerifiedSession | null;
 			user: User | null;
 		}
 		interface PageData {

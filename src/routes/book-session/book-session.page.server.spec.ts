@@ -1,13 +1,15 @@
 // src/routes/book-session/book-session.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { verifyRecaptchaMock, sendEmailMock } = vi.hoisted(() => ({
+const { verifyRecaptchaMock, isHoneypotTriggeredMock, sendEmailMock } = vi.hoisted(() => ({
 	verifyRecaptchaMock: vi.fn(),
+	isHoneypotTriggeredMock: vi.fn(),
 	sendEmailMock: vi.fn()
 }));
 
 vi.mock('$lib/utils/recaptcha', () => ({
-	verifyRecaptcha: verifyRecaptchaMock
+	verifyRecaptcha: verifyRecaptchaMock,
+	isHoneypotTriggered: isHoneypotTriggeredMock
 }));
 
 vi.mock('$lib/email/sender', () => ({
@@ -26,7 +28,7 @@ function buildRequest(overrides: Record<string, string> = {}) {
 	formData.append('email', overrides.email ?? 'dj@example.com');
 	formData.append('enneagramType', overrides.enneagramType ?? '5');
 	formData.append('sessionGoal', overrides.sessionGoal ?? '');
-	formData.append('website', overrides.website ?? '');
+	formData.append('form_extra', overrides.form_extra ?? '');
 	formData.append('g-recaptcha-response', overrides['g-recaptcha-response'] ?? 'token');
 	formData.append('_timeToken', overrides._timeToken ?? '4000');
 
@@ -118,6 +120,7 @@ describe('book-session action', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
 		verifyRecaptchaMock.mockResolvedValue(true);
+		isHoneypotTriggeredMock.mockImplementation((value: string | null) => Boolean(value?.trim()));
 		sendEmailMock.mockResolvedValue(undefined);
 	});
 
@@ -153,6 +156,19 @@ describe('book-session action', () => {
 				message: 'Please keep your note under 600 characters'
 			})
 		});
+		expect(event._supabase.waitlistInsert).not.toHaveBeenCalled();
+	});
+
+	it('returns fake success when the honeypot field is filled', async () => {
+		const event = buildEvent({ form_extra: 'bot filled this' });
+
+		const result = await actions.coachSub(event as any);
+
+		expect(result).toEqual({
+			success: true,
+			message: 'You have been added to our waitlist!'
+		});
+		expect(verifyRecaptchaMock).not.toHaveBeenCalled();
 		expect(event._supabase.waitlistInsert).not.toHaveBeenCalled();
 	});
 });

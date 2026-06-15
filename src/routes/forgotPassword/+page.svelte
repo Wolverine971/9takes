@@ -140,8 +140,14 @@
 
 			<!-- Honeypot field - hidden from real users, bots will fill it -->
 			<div class="absolute -left-[9999px] opacity-0" aria-hidden="true">
-				<label for="company">Company</label>
-				<input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
+				<label for="forgot-password-form-extra">Leave blank</label>
+				<input
+					type="text"
+					id="forgot-password-form-extra"
+					name="form_extra"
+					tabindex="-1"
+					autocomplete="new-password"
+				/>
 			</div>
 
 			<div bind:this={captchaContainer}></div>

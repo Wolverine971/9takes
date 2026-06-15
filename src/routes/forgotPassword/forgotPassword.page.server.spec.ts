@@ -38,7 +38,7 @@ import { actions } from './+page.server';
 function buildForgotPasswordRequest(overrides: Record<string, string> = {}) {
 	const formData = new FormData();
 	formData.append('email', overrides.email ?? 'user@example.com');
-	formData.append('company', overrides.company ?? '');
+	formData.append('form_extra', overrides.form_extra ?? '');
 	formData.append('g-recaptcha-response', overrides['g-recaptcha-response'] ?? 'token');
 
 	return new Request('http://localhost/forgotPassword', {
@@ -47,7 +47,10 @@ function buildForgotPasswordRequest(overrides: Record<string, string> = {}) {
 	});
 }
 
-function buildEvent(resetResult?: { error?: unknown }) {
+function buildEvent(
+	resetResult?: { error?: unknown },
+	requestOverrides: Record<string, string> = {}
+) {
 	const resetPasswordForEmail = vi.fn().mockResolvedValue(
 		resetResult ?? {
 			error: null
@@ -55,7 +58,7 @@ function buildEvent(resetResult?: { error?: unknown }) {
 	);
 
 	return {
-		request: buildForgotPasswordRequest(),
+		request: buildForgotPasswordRequest(requestOverrides),
 		locals: {
 			supabase: {
 				auth: {
@@ -110,5 +113,26 @@ describe('forgot password action', () => {
 			})
 		});
 		expect(event._resetPasswordForEmail).not.toHaveBeenCalled();
+	});
+
+	it('short-circuits reset emails when the honeypot field is filled', async () => {
+		isHoneypotTriggeredMock.mockImplementation((value: string | null) => Boolean(value?.trim()));
+		const event = buildEvent(undefined, { form_extra: 'bot filled this' });
+
+		const result = await actions.forgotPass(event as any);
+
+		expect(result).toEqual({
+			success: true,
+			message: 'Password reset email sent. Please check your inbox.'
+		});
+		expect(event._resetPasswordForEmail).not.toHaveBeenCalled();
+		expect(verifyRecaptchaMock).not.toHaveBeenCalled();
+		expect(recordAuthProtectionEventMock).toHaveBeenCalledWith(
+			expect.objectContaining({
+				flow: 'forgot_password',
+				outcome: 'honeypot',
+				identifier: 'user@example.com'
+			})
+		);
 	});
 });
