@@ -1,0 +1,12 @@
+Polished `src/blog/people/drafts/Hailee-Steinfeld.md`.
+
+**What I found:** The draft was already structurally solid and had cleared two prior review passes. Lint was clean going in — zero em-dashes, no banned AI phrases, all required structure present. The only residual AI tell was rhythmic.
+
+**What I changed (surgical):**
+- Smoothed the intro's flat standalone contrast beat ("It is the opposite.") into the line after it.
+- Rewrote a passive, weak two-beat line in the skirt section ("The alienation did not get grieved. It got repurposed into fuel. That is a very Three way…") into one active sentence, folding in the flat analytical tag.
+- Tightened "a great deal of effort" → "enormous effort" in the Oscar-section closer.
+
+**What I deliberately left alone:** The recurring "X did not Y. It Z'd." cadence reads at first like an AI tic, but here it's the thesis structure — every win converting to debt — spread one-per-section, which the standards classify as keep-worthy deliberate parallelism. Thinning it further would have flattened the through-line. I kept the strongest instances (trophy/bill, "not a humblebrag," the ending), the Jo-Ann skirt spine, the strike-era interior beat, and the Sinners/heritage empathy turn. `lastmod` untouched per the hard rule.
+
+**Verdict:** Re-ran `./scripts/blog-lint.sh Hailee-Steinfeld` after editing — still 0 fail, 1 warn. The lone warning is "no faqs in frontmatter," which is the frontmatter-enrich stage, not an editorial issue. This draft reads production-ready from an editorial standpoint; it just needs the FAQ enrich pass (and then grade/publish) to move forward.

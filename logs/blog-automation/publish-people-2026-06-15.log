@@ -1,0 +1,19 @@
+Confirmed. Publish is blocked on missing images, which is out of scope for this command.
+
+```text
+Publish blocked.
+
+Person: Hailee-Steinfeld (Type 3, the Achiever)
+Draft: src/blog/people/drafts/Hailee-Steinfeld.md
+Grade: B+ (8.6), rubric_version 2, discoverability 8 — passes all editorial gates
+
+Blockers (from publish script):
+- missing_full_image:     static/types/3s/Hailee-Steinfeld.webp
+- missing_thumbnail_image: static/types/3s/s-Hailee-Steinfeld.webp
+```
+
+Auto-select (`--publish` with no arg) also found nothing eligible across 426 candidates — the rest are either already published or carry stale rubric-v1 grades.
+
+**What's needed:** This draft is editorially ready; it only needs the two type-3 images. Image generation is manual via Canva (out of this command's scope), so I'm stopping here rather than bypassing the gate. Once you drop `Hailee-Steinfeld.webp` and `s-Hailee-Steinfeld.webp` into `static/types/3s/`, re-run `/blog_content_publish_people Hailee-Steinfeld` and it'll go through.
+
+Want me to do anything else — e.g., the Canva image recipe, or batch-fix the stale v1 grades so the auto-publisher has eligible candidates?

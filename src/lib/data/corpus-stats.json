@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T05:45:28.605Z",
+  "generated_at": "2026-06-15T15:26:33.205Z",
   "totals": {
     "published": 358,
     "unpublished_drafts": 134
@@ -658,7 +658,7 @@
   },
   "pipeline": {
     "in_draft": 134,
-    "published_last_30_days": 21,
+    "published_last_30_days": 20,
     "published_last_90_days": 108,
     "avg_new_per_month": 36
   },

@@ -1,0 +1,270 @@
+[2026-06-15 02:00:41] [INFO] SELECTED: hailee-steinfeld (Type 3, Priority 62)
+[2026-06-15 02:00:45] [INFO] Executing run-blog-pipeline.sh hailee-steinfeld (7 stages)
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  hailee-steinfeld
+Draft:   src/blog/people/drafts/hailee-steinfeld.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld
+Started: Mon Jun 15 02:01:21 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:01:21)
+Command: /blog_content_creator_people_v2 hailee-steinfeld --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld/1_create.log
+─────────────────────────────────────────────────────
+The pipeline is running correctly — Stage 1 (create) is underway with `claude -p` actively working, and the process tree is healthy. The waiter (`bo1x0q1lg`) will notify me when all 7 stages finish and the exit code is written. I'll wait for that.
+Draft complete and all gates pass. Here is the non-interactive completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Hailee-Steinfeld.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: no raw YouTube transcripts pulled via skill (no clean URL surfaced quickly) — voice material is dense and sourced from named interviews instead; logged as research_limitation in working notes
+```
+
+**The take:** Hailee Steinfeld as Enneagram **Type 3 (3w2)**, persona *"The Prodigy Who Never Arrives."* Core tension: **effortless prodigy vs. never enough** — every win converts to a debt. Thesis resolves the public contradiction (the Oscar-nod golden girl who works like the trophy didn't count) through the heart-triad wound of conditional love.
+
+**Gate enumeration:**
+- **Gate 1 — Testimony:** 4 named third-party quotes (Coen brothers 2010, James L. Brooks 2016, Kelly Fremon Craig 2016, Travis Knight 2018). Needed ≥2.
+- **Gate 2 — Heading mix:** 5 of 7 H2s are search-intent/hybrid. Needed ≥2.
+- **Gate 4 — Anti-imitation:** hook is a Jo-Ann fabric-store scene (not a Thiel-style object-reveal); ending has zero "A [Type]" sentences.
+- **Gate 5 — Distribution:** 2 type-theory paragraphs outside the diagnosis section and Rabbit Hole. Limit 4.
+- **Gate 6 — Formula Fingerprint:** 1 contrast-pair engine; 0 body counter-typing ladders; critic anchor (Vulture); empathy turn (the "humblebrag" reframed); current anchor (Sinners 2025, Josh Allen marriage, the newsletter); interior beat (strike-era numbness); ending passes swap test.
+
+**Also verified:** `blog-lint.sh` clean (0 fail; the 1 warn is the downstream frontmatter-enrich stage, out of scope here). No prose em-dashes, no banned phrases. Stress arrow corrected to the canonical 9takes map (3→9 apathy under stress, 3→6 loyalty in growth). Rabbit Hole present, 455 words. Repetition scan done — the two load-bearing quotes ("100 times as hard," "no idea what I'm doing") each appear once in full, with only brief callbacks elsewhere.
+
+**Internal links (6):** `enneagram-type-3`, `enneagram-anxiety-management-guide`, plus Rabbit Hole pillars `enneagram-wings-complete-guide` and `enneagram-instinctual-subtypes`; celebrity cross-links to `Ariana-Grande` (fellow Type 3) and `Millie-Bobby-Brown` (child-star parallel).
+
+Next step is human review, then `blog_content_production_people` before anything touches the database. A few items flagged in the working-notes comment to verify before publish (the "True Blood cousin" detail was deliberately omitted; no on-record Coogler/Jordan quote about her was found).
+[Stage 1] create finished 02:15:32 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:15:32)
+Command: /blog_content_fresh_eyes_people hailee-steinfeld
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+I reviewed the **Hailee-Steinfeld** draft (`src/blog/people/drafts/Hailee-Steinfeld.md`) and appended a `FRESH EYES REVIEW` block at the bottom. No body edits made.
+
+**The two biggest issues I flagged:**
+
+1. **Three defining career items are missing entirely** — *Dickinson*, *Pitch Perfect*, and *Spider-Gwen*. The standout is **Dickinson**: she led three seasons playing a creative who wrote for herself and got zero recognition in her lifetime. For an article whose whole thesis is "the applause lands on the output, never the person," choosing to *be* the patron saint of unrecognized inner work is either the strongest evidence in the piece or its sharpest counter-case — and right now it's absent. A reader who knows her will notice immediately.
+
+2. **Her music's actual content is unused** — "Love Myself," "Most Girls," and "Starving" are explicitly self-worth songs. A Type 3 whose breakout single is literally titled *Love Myself* is a gift the draft leaves on the table; naming even one would make the worth-wound argument concrete instead of asserted. (Plus Pitch Perfect is the missing bridge from acting → music that the "vanishing/comes back in control" section is actually about.)
+
+I also noted the "Oscar nomination at 14" fact repeats 4 times (intro, TL;DR, diagnosis, key-stat box — the box is the cuttable one), and called out what to preserve: the Jo-Ann skirt spine, the "it landed as a bill" line, the empathy turn, and the strike-era interior beat.
+[Stage 2] fresh_eyes finished 02:16:33 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:16:33)
+Command: /blog_content_second_pass_people hailee-steinfeld
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld/3_second_pass.log
+─────────────────────────────────────────────────────
+Done. Updated `src/blog/people/drafts/Hailee-Steinfeld.md`.
+
+## What I changed
+
+The fresh-eyes review was right about the standout gap: three defining career pieces were missing. I verified the facts, then closed them.
+
+- **Dickinson (the big one)** — Added a paragraph to the worth-wound section. She spent three seasons playing Emily Dickinson, a poet who made her life's work for no audience and died unrecognized, while being a Type 3 who can't bank her own applause. The review called this "either the strongest evidence or the sharpest counter-case." I wrote it as both: *"Maybe the part drew her because it was the one thing she finds impossible to imagine... Maybe she was practicing. For a Three, those are not far apart."*
+- **Pitch Perfect + the music** — Named *Pitch Perfect 2* as the acting→music on-ramp and the singles "Love Myself" / "Starving" / "Most Girls." I leaned only "Love Myself" and "Most Girls" on the worth-wound point, since research showed "Starving" is actually a romance song — the review had lumped all three together.
+- **Spider-Gwen** — Folded in as a control-the-channel illustration: voice work where she gives up her face and keeps only the performance no editor can undercut.
+- **Sinners** — Expanded with the actual role. She plays Mary, a mixed-race woman passing as white, and Coogler coached her through being read as neither fully Black nor white — which maps directly onto her own heritage. Makes the interior turn hit harder.
+- **Trim** — Cut the key-stat "14" box; that fact already lands three times in prose.
+
+## What I deliberately kept
+
+The Jo-Ann skirt spine, "it landed as a bill," and the humblebrag empathy turn — all untouched, as the review advised. "100 times as hard" stays bookended only.
+
+## Still open
+
+Spider-Gwen and the song-irony beat both live in the "vanishing" section, which is now the densest part of the piece. If an editor pass finds it crowded, the Spider-Gwen sentence is the cleanest thing to cut. Otherwise the draft is in good shape — the thesis is now backed by concrete evidence instead of asserted.
+[Stage 3] second_pass finished 02:20:51 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:20:51)
+Command: /cohesion-check src/blog/people/drafts/hailee-steinfeld.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld/4_cohesion.log
+─────────────────────────────────────────────────────
+## Cohesion Check Complete: Hailee-Steinfeld.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+Hailee Steinfeld is an Enneagram Type 3 who converts every achievement into debt, because the applause always landed on her output and never the self underneath, so she can't read evidence she's arrived as proof she has.
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+- **"Why the Oscar Didn't Count" → "How She Keeps Vanishing"**: Added a forward bridge at the end of the prep section ("All of that is control over how the work looks. What she does with the work itself, when she keeps a lane and when she walks away from it, runs on the same need."). Carries the *control* keyword into the vanishing section and reframes "leaving" as control before the reader hits the cold open, without spoiling the section's own paragraph-4 reveal.
+- **"How She Keeps Vanishing" → "What She Sounds Like When She's Lost"**: Added a two-sentence bridge connecting the newsletter (built during the 2023 strike) to the shutdown that same strike caused ("She built that newsletter during the strike. What it does not show is the state she built it out of."). Turns the shared strike from an apparent repeat into clear cause-and-effect.
+
+### What Was Preserved
+- All frontmatter, working-note/ledger/review comments, the TL;DR and Rabbit Hole `<details>` blocks, pull-quote and inner-thought components, and all internal links
+- The Jo-Ann skirt spine, "landed as a bill," and the humblebrag empathy turn, untouched
+- "100 times as hard" still bookended only (no third instance)
+- 4 of 6 section transitions and all internal paragraph flow left as-is (already strong)
+- No em-dashes or banned AI phrasing introduced; bridges match the piece's short, declarative rhythm
+
+### Remaining Concerns
+None structural. The one thing a reader *might* notice is the diagnosis → skirt and skirt → Oscar boundaries lean on implicit "wound/pattern" links rather than explicit bridges, but both are adequate and the skirt is pre-seeded in the intro, so I left them. Your call if you want those tightened too, but I'd leave them; over-bridging would flatten the punchy section openers that are working.
+[Stage 4] cohesion finished 02:23:06 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:23:06)
+Command: /blog_content_editor_pass_people hailee-steinfeld
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld/5_editor_pass.log
+─────────────────────────────────────────────────────
+Polished `src/blog/people/drafts/Hailee-Steinfeld.md`.
+
+**What I found:** The draft was already structurally solid and had cleared two prior review passes. Lint was clean going in — zero em-dashes, no banned AI phrases, all required structure present. The only residual AI tell was rhythmic.
+
+**What I changed (surgical):**
+- Smoothed the intro's flat standalone contrast beat ("It is the opposite.") into the line after it.
+- Rewrote a passive, weak two-beat line in the skirt section ("The alienation did not get grieved. It got repurposed into fuel. That is a very Three way…") into one active sentence, folding in the flat analytical tag.
+- Tightened "a great deal of effort" → "enormous effort" in the Oscar-section closer.
+
+**What I deliberately left alone:** The recurring "X did not Y. It Z'd." cadence reads at first like an AI tic, but here it's the thesis structure — every win converting to debt — spread one-per-section, which the standards classify as keep-worthy deliberate parallelism. Thinning it further would have flattened the through-line. I kept the strongest instances (trophy/bill, "not a humblebrag," the ending), the Jo-Ann skirt spine, the strike-era interior beat, and the Sinners/heritage empathy turn. `lastmod` untouched per the hard rule.
+
+**Verdict:** Re-ran `./scripts/blog-lint.sh Hailee-Steinfeld` after editing — still 0 fail, 1 warn. The lone warning is "no faqs in frontmatter," which is the frontmatter-enrich stage, not an editorial issue. This draft reads production-ready from an editorial standpoint; it just needs the FAQ enrich pass (and then grade/publish) to move forward.
+[Stage 5] editor_pass finished 02:25:31 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:25:31)
+Command: /blog_content_frontmatter_enrich_people hailee-steinfeld
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Frontmatter enrichment complete. Verified all entity IDs against authoritative sources (Wikidata P345 cross-check confirms the IMDb ID; Wikipedia infobox confirms birthplace, resolving the Tarzana/Temecula discrepancy in Wikidata's favor of Wikipedia).
+
+```
+Frontmatter enrichment complete: Hailee-Steinfeld
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved, untouched):
+- wikipedia, twitter, instagram, tiktok
+- title, meta_title, persona_title, description, author, date, loc, lastmod,
+  changefreq, priority, published, enneagram, type, person, suggestions
+
+FAQs generated (4):
+1. What is Hailee Steinfeld's personality type? → #what-is-hailee-steinfelds-personality-type
+2. Why did Hailee Steinfeld say her Oscar nomination only made her want to work harder?
+   → #why-hailee-steinfeld-works-like-the-oscar-didnt-count
+3. Why does Hailee Steinfeld keep stepping away from acting and music?
+   → #how-hailee-steinfeld-keeps-vanishing-then-comes-back-in-control
+4. What does Hailee Steinfeld look like under stress?
+   → #what-hailee-steinfeld-sounds-like-when-shes-lost
+
+Verification:
+- wikidata_qid Q231726 and imdb_id nm2794962 cross-checked via Wikidata P345.
+- birth_place: Wikidata says "Temecula"; Wikipedia infobox says "Tarzana, Los Angeles."
+  Used Wikipedia (the canonical/authoritative source) → 'Tarzana, Los Angeles, California, United States'.
+- All 4 FAQ anchors map to real H2 headings in the body.
+
+Issues:
+- The body contains no inline external link URLs — it sources via named interviews
+  (Bustle 2025, THR 2018, Variety, Vulture, Stanford Daily, etc.) without hyperlinks.
+  Per the gold-standard pattern, `citations` was built from authoritative Wikipedia
+  pages for the subject and the works named in the body (True Grit, Edge of Seventeen,
+  Dickinson, Sinners). Flagging the thin inline sourcing as a content-quality note.
+- Body content, Svelte components, and all HTML comment blocks (Testimony Ledger,
+  Fresh Eyes / Second Pass / Editor Pass notes) left untouched. lastmod not modified.
+```
+
+Sources: [Wikidata Q231726](https://www.wikidata.org/wiki/Q231726), [IMDb nm2794962](https://www.imdb.com/name/nm2794962/bio), [Wikipedia](https://en.wikipedia.org/wiki/Hailee_Steinfeld)
+[Stage 6] enrich_frontmatter finished 02:27:30 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 156 chars
+ok    meta_title length 54 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 6
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: hailee-steinfeld — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+[pre-grade] No existing content_quality block on draft, nothing to clear
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:27:30)
+Command: /grade_blog hailee-steinfeld
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld/7_grade.log
+─────────────────────────────────────────────────────
+Graded and written to the file.
+
+## Grading Complete — Hailee Steinfeld
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Hailee-Steinfeld | 9 | 9 | 8 | 9 | 8 | 9 | **8.6** | **B+** |
+
+*(Overall weighted: (9×1.5 + 9×1.5 + 8×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5/7 = 8.6. Disc 8 ≥ 7 — gate passed.)*
+
+### Key Observations
+
+- **Publication-ready** — clears the 8.5 (B+) threshold and the Discoverability gate.
+- **The Dickinson contradiction is the standout** — playing the patron saint of unrecognized inner work while being a Type 3 who can't bank her own world-watched recognition. That's the originality anchor, and it's genuinely swap-proof.
+- **Two things hold it back from an A**, both fixable:
+  1. **Writing capped at 8** — the contrast-pair / "Not X. Y." engine recurs well past the 2-use ceiling. The trophy/bill instance is the thesis and earns it; trim ~half of the rest.
+  2. **`meta_title` carries no search keyword** ("Why Hailee Steinfeld Works Like Her Oscar Didn't Count") — CTR-strong but not keyword-matched. The title field and description already carry "enneagram / type 3," so this is the single lever between Discoverability 8 and 9.
+
+### To reach A (9.0+)
+Cut ~3 contrast-pair constructions, make `meta_title` keyword-forward, and optionally promote one unused collaborator quote from the testimony ledger (James L. Brooks's "if she hadn't walked in, we wouldn't make the movie") into the body.
+
+**Total graded this session: 1**
+[Stage 7] grade finished 02:30:19 (exit=0)
+
+[Stage 8] No revision needed (overall 8.6 >= 8.5, discoverability 8 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: hailee-steinfeld
+Finished: Mon Jun 15 02:30:19 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-15_020121_hailee-steinfeld
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '3'
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8
+  originality: 9
+  discoverability: 8
+  overall: 8.6
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-15'
+═════════════════════════════════════════════════════

@@ -1,0 +1,40 @@
+Frontmatter enrichment complete. Verified all entity IDs against authoritative sources (Wikidata P345 cross-check confirms the IMDb ID; Wikipedia infobox confirms birthplace, resolving the Tarzana/Temecula discrepancy in Wikidata's favor of Wikipedia).
+
+```
+Frontmatter enrichment complete: Hailee-Steinfeld
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved, untouched):
+- wikipedia, twitter, instagram, tiktok
+- title, meta_title, persona_title, description, author, date, loc, lastmod,
+  changefreq, priority, published, enneagram, type, person, suggestions
+
+FAQs generated (4):
+1. What is Hailee Steinfeld's personality type? → #what-is-hailee-steinfelds-personality-type
+2. Why did Hailee Steinfeld say her Oscar nomination only made her want to work harder?
+   → #why-hailee-steinfeld-works-like-the-oscar-didnt-count
+3. Why does Hailee Steinfeld keep stepping away from acting and music?
+   → #how-hailee-steinfeld-keeps-vanishing-then-comes-back-in-control
+4. What does Hailee Steinfeld look like under stress?
+   → #what-hailee-steinfeld-sounds-like-when-shes-lost
+
+Verification:
+- wikidata_qid Q231726 and imdb_id nm2794962 cross-checked via Wikidata P345.
+- birth_place: Wikidata says "Temecula"; Wikipedia infobox says "Tarzana, Los Angeles."
+  Used Wikipedia (the canonical/authoritative source) → 'Tarzana, Los Angeles, California, United States'.
+- All 4 FAQ anchors map to real H2 headings in the body.
+
+Issues:
+- The body contains no inline external link URLs — it sources via named interviews
+  (Bustle 2025, THR 2018, Variety, Vulture, Stanford Daily, etc.) without hyperlinks.
+  Per the gold-standard pattern, `citations` was built from authoritative Wikipedia
+  pages for the subject and the works named in the body (True Grit, Edge of Seventeen,
+  Dickinson, Sinners). Flagging the thin inline sourcing as a content-quality note.
+- Body content, Svelte components, and all HTML comment blocks (Testimony Ledger,
+  Fresh Eyes / Second Pass / Editor Pass notes) left untouched. lastmod not modified.
+```
+
+Sources: [Wikidata Q231726](https://www.wikidata.org/wiki/Q231726), [IMDb nm2794962](https://www.imdb.com/name/nm2794962/bio), [Wikipedia](https://en.wikipedia.org/wiki/Hailee_Steinfeld)

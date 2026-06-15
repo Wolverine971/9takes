@@ -38,7 +38,6 @@
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
-	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 	// Lazy-loaded RelatedPosts component
 	import RelatedPosts from '$lib/components/molecules/RelatedPosts.svelte';
 	// import MarkdownRenderer from '$lib/components/MarkdownRenderer.svelte';
@@ -46,7 +45,6 @@
 
 	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
-	import BookSessionCTA from '$lib/components/blog/callouts/BookSessionCTA.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 
 	export let data: PageData;
@@ -81,6 +79,27 @@
 				};
 			})
 			.filter((item): item is App.BlogPostFaq => Boolean(item));
+	}
+
+	// Split the rendered article HTML just before the Nth <h2> so the Type
+	// Dossier can be injected high in the read — typically right before the
+	// "What is <Person>'s Personality Type?" section. Falls back to the last
+	// available heading when fewer than `targetIndex` h2s exist, and to "no
+	// split" (dossier after the prose) when there are no h2s at all. Splitting
+	// at an h2 boundary keeps both halves as valid fragments and preserves the
+	// placeholder element IDs the page mounts components into.
+	function splitBeforeHeading(
+		html: string,
+		targetIndex: number
+	): { before: string; after: string } {
+		if (!html) return { before: '', after: '' };
+		const positions: number[] = [];
+		const re = /<h2[\s>]/gi;
+		let m: RegExpExecArray | null;
+		while ((m = re.exec(html)) !== null) positions.push(m.index);
+		if (positions.length === 0) return { before: html, after: '' };
+		const idx = positions[Math.min(targetIndex, positions.length) - 1];
+		return { before: html.slice(0, idx), after: html.slice(idx) };
 	}
 
 	function toEnneagramNumber(value: unknown): number | undefined {
@@ -165,7 +184,6 @@
 	$: postMeta = normalizePost(post);
 	$: postTypes = toStringArray(postMeta.type);
 	$: postSuggestions = postMeta.suggestions || [];
-	$: postFaqs = postMeta.faqs || [];
 	$: postDisplayName = formatPersonalityDisplayName(postMeta.person || postMeta.slug);
 	$: caseFileTitle = postMeta.title || postDisplayName;
 	$: postImagePath = buildPersonalityImagePath(
@@ -186,6 +204,11 @@
 	// enneagram-corner type pillars while this (the actual dossier surface)
 	// was generic prose. Design audit 2026-06-10. CTA bridges to the pillar.
 	$: typeDossier = typeNum ? enneagramTypeProfiles[typeNum] : null;
+	// When a dossier exists, lift it into the prose before the 3rd h2; otherwise
+	// render the full article uninterrupted.
+	$: dossierSplit = typeDossier
+		? splitBeforeHeading(post.content, 3)
+		: { before: post.content, after: '' };
 	$: typeName = typeMeta?.name ?? '';
 	$: typeNameUpper = typeName ? typeName.toUpperCase() : '';
 	$: personaTitle = toStringValue(postMeta.persona_title).trim();
@@ -565,8 +588,11 @@
 				renderMode="accordion-only"
 			/>
 
+			<!-- Prose, part 1 — runs up to the 3rd h2 (usually the personality-type
+			     section). The Type Dossier is lifted out of the article-body prose
+			     scope so the page's :global() typography never bleeds into it. -->
 			<div class="article-body">
-				{@html post.content}
+				{@html dossierSplit.before}
 			</div>
 
 			{#if typeDossier}
@@ -584,6 +610,15 @@
 				</div>
 			{/if}
 
+			{#if dossierSplit.after}
+				<div class="article-body article-body--cont">
+					{@html dossierSplit.after}
+				</div>
+			{/if}
+
+			<!-- ★ PRIMARY ACTION — the give-first Chorus is the one thing this page
+			     drives toward. Everything below is supporting content or quiet,
+			     demoted secondary asks; nothing should out-shout this block. -->
 			<NineChorus
 				subjectType="personality-analysis"
 				slug={post.slug}
@@ -591,12 +626,6 @@
 				questionUrl={(post as any).chorus_question_url ?? null}
 				personName={postDisplayName}
 			/>
-
-			{#if postFaqs.length >= 2}
-				<FAQSection faqs={postFaqs} title={`${postDisplayName} FAQ`} />
-			{/if}
-
-			<BookSessionCTA slug={post.slug} />
 
 			<AuthorBio />
 		</div>
@@ -609,24 +638,33 @@
 	sidePosition="right"
 	renderMode="sidebar-only"
 />
-<!-- Sidebar components - positioned absolutely -->
+
+<!-- Floating related-personalities rail (desktop only, auto-hides near the
+     top and bottom of the page). Inline list suppressed — the bottom
+     "Further analysis" section is the canonical related block. -->
 <div class="sidebar-container">
 	{#key post.slug}
 		{#if postSuggestions.length || (data.bridgeLinks?.length ?? 0)}
-			<PeopleSuggestionsSideBar links={postSuggestions} bridgeLinks={data.bridgeLinks ?? []} />
+			<PeopleSuggestionsSideBar
+				links={postSuggestions}
+				bridgeLinks={data.bridgeLinks ?? []}
+				showInline={false}
+			/>
 		{/if}
 	{/key}
 </div>
 
 <!-- =====================================================================
-  §03 DISCUSSION — comments section (lazy loaded)
+  §03 DISCUSSION — the human layer (lazy loaded). One feedback section with
+  two ways to weigh in: react to this analysis (comments), or tell us who to
+  cover next (suggest). Demoted beneath the Chorus, the give-first moment.
   ===================================================================== -->
 <section id="comments-section" class="discussion">
 	<div class="discussion-inner">
 		<div class="discussion-kicker">
 			<SectionKicker num="03" label="DISCUSSION" />
 		</div>
-		<h3 class="discussion-title" title="additional comments">What would you add?</h3>
+		<h3 class="discussion-title">Add your read on {postDisplayName}</h3>
 
 		{#if BlogComments && BlogInteract}
 			<div class="discussion-body">
@@ -649,16 +687,27 @@
 				<div class="loading-spinner"></div>
 			</div>
 		{/if}
+
+		<!-- Second way to weigh in — folded into the same feedback section. -->
+		{#key post.slug}
+			{#if !data?.user && SuggestFamousPerson}
+				<div class="discussion-suggest">
+					<SuggestFamousPerson />
+				</div>
+			{/if}
+		{/key}
 	</div>
 </section>
 
 <!-- =====================================================================
-  §04 RELATED CASE FILES — lazy loaded after main content
+  §04 FURTHER ANALYSIS — the single canonical related block (DB-driven case
+  files). The floating rail above surfaces the same graph mid-scroll; the
+  old duplicate inline link lists were removed as redundant.
   ===================================================================== -->
 <section id="related-content" class="related">
 	<div class="related-inner">
 		<div class="related-kicker">
-			<SectionKicker num="04" label="RELATED CASE FILES" />
+			<SectionKicker num="04" label="FURTHER ANALYSIS" />
 		</div>
 		{#key post.slug}
 			<RelatedPosts
@@ -671,14 +720,6 @@
 		{/key}
 	</div>
 </section>
-
-<div class="join">
-	{#key post.slug}
-		{#if !data?.user && SuggestFamousPerson}
-			<SuggestFamousPerson />
-		{/if}
-	{/key}
-</div>
 
 <style lang="scss">
 	/* =========================================================
@@ -1067,7 +1108,18 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
-		margin: 3rem 0 1.5rem;
+		margin: 2.5rem 0 1.5rem;
+	}
+
+	/* Prose resumes after the injected dossier — the dossier already supplies
+	   the separation, so drop the leading h2's extra top margin. */
+	.article-body--cont {
+		margin-top: 0;
+
+		:global(h2:first-child) {
+			margin-top: 0.5rem;
+			padding-top: 0;
+		}
 	}
 
 	.article-body {
@@ -1218,37 +1270,36 @@
 		display: contents; /* Pass through to let component handle positioning */
 	}
 
-	.join {
-		max-width: 880px;
-		margin: 2rem auto 0;
-		padding: 0 48px 64px;
-
-		@media (max-width: 768px) {
-			padding: 0 20px 48px;
-		}
-	}
-
 	/* =========================================================
 	  §03 DISCUSSION — comments section
 	  ========================================================= */
 	.discussion {
-		padding: 96px 48px;
+		/* Demoted beneath the Chorus: tighter padding + a quieter ground than
+		   the case-file/breakdown sections so it reads as secondary. */
+		box-sizing: border-box;
+		width: min(calc(100% - 32px), 880px);
+		margin-inline: auto;
+		padding: 64px clamp(24px, 4vw, 48px);
 		background: var(--night-mid);
 		border-top: 1px solid var(--stone-edge);
+		overflow-x: hidden;
 
 		@media (max-width: 768px) {
-			padding: 64px 20px;
+			width: 100%;
+			padding: 48px 20px;
 		}
 	}
 
 	.discussion-inner {
+		width: 100%;
 		max-width: 880px;
 		margin: 0 auto;
+		min-width: 0;
 	}
 
 	.discussion-kicker {
 		text-align: center;
-		margin-bottom: 16px;
+		margin-bottom: 12px;
 
 		:global(.kicker) {
 			color: var(--lamp-glow);
@@ -1257,19 +1308,42 @@
 
 	.discussion-title {
 		font-family: var(--font-display);
-		font-size: clamp(28px, 4vw, 40px);
+		font-size: clamp(22px, 3vw, 28px);
 		font-weight: 700;
 		letter-spacing: -0.02em;
 		color: var(--ink-bright);
 		text-align: center;
-		margin: 0 0 32px;
-		line-height: 1.1;
+		margin: 0 0 28px;
+		line-height: 1.15;
 	}
 
 	.discussion-body {
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
+	}
+
+	/* Second feedback ask ("who should we cover next?"), folded into the same
+	   section. A divider sets it apart; overrides flow the self-contained
+	   SuggestFamousPerson component into the section instead of letting it sit
+	   as a second bordered card, and demote its heading to a sub-block. */
+	.discussion-suggest {
+		margin-top: 3rem;
+		padding-top: 2rem;
+		border-top: 1px dashed var(--stone-edge);
+
+		:global(.waitlist-section) {
+			border: none;
+			padding: 0;
+			border-radius: 0;
+		}
+
+		:global(.waitlist-section h2) {
+			font-size: clamp(18px, 2.4vw, 22px);
+			font-weight: 700;
+			color: var(--ink-bright);
+			margin-bottom: 1rem;
+		}
 	}
 
 	.loading-placeholder {
@@ -1311,9 +1385,13 @@
 	  §04 RELATED CASE FILES
 	  ========================================================= */
 	.related {
-		padding: 96px 48px;
+		box-sizing: border-box;
+		width: min(100%, 880px);
+		margin-inline: auto;
+		padding: 96px 0;
 		background: var(--night-deep);
 		border-top: 1px solid var(--stone-edge);
+		overflow-x: hidden;
 
 		@media (max-width: 768px) {
 			padding: 64px 20px;
@@ -1321,8 +1399,10 @@
 	}
 
 	.related-inner {
-		max-width: 1280px;
+		width: 100%;
+		max-width: 880px;
 		margin: 0 auto;
+		min-width: 0;
 	}
 
 	.related-kicker {
@@ -1420,11 +1500,6 @@
 		.related {
 			padding: 56px 16px;
 		}
-
-		.join {
-			margin-top: 1rem;
-			padding: 0 16px 40px;
-		}
 	}
 
 	/* Tablet */
@@ -1439,7 +1514,9 @@
 
 	@supports (overflow-x: clip) {
 		.breakdown-inner,
-		.article-body {
+		.article-body,
+		.discussion,
+		.related {
 			overflow-x: clip;
 		}
 	}

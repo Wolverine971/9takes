@@ -1,0 +1,25 @@
+Draft complete and all gates pass. Here is the non-interactive completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Hailee-Steinfeld.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: no raw YouTube transcripts pulled via skill (no clean URL surfaced quickly) — voice material is dense and sourced from named interviews instead; logged as research_limitation in working notes
+```
+
+**The take:** Hailee Steinfeld as Enneagram **Type 3 (3w2)**, persona *"The Prodigy Who Never Arrives."* Core tension: **effortless prodigy vs. never enough** — every win converts to a debt. Thesis resolves the public contradiction (the Oscar-nod golden girl who works like the trophy didn't count) through the heart-triad wound of conditional love.
+
+**Gate enumeration:**
+- **Gate 1 — Testimony:** 4 named third-party quotes (Coen brothers 2010, James L. Brooks 2016, Kelly Fremon Craig 2016, Travis Knight 2018). Needed ≥2.
+- **Gate 2 — Heading mix:** 5 of 7 H2s are search-intent/hybrid. Needed ≥2.
+- **Gate 4 — Anti-imitation:** hook is a Jo-Ann fabric-store scene (not a Thiel-style object-reveal); ending has zero "A [Type]" sentences.
+- **Gate 5 — Distribution:** 2 type-theory paragraphs outside the diagnosis section and Rabbit Hole. Limit 4.
+- **Gate 6 — Formula Fingerprint:** 1 contrast-pair engine; 0 body counter-typing ladders; critic anchor (Vulture); empathy turn (the "humblebrag" reframed); current anchor (Sinners 2025, Josh Allen marriage, the newsletter); interior beat (strike-era numbness); ending passes swap test.
+
+**Also verified:** `blog-lint.sh` clean (0 fail; the 1 warn is the downstream frontmatter-enrich stage, out of scope here). No prose em-dashes, no banned phrases. Stress arrow corrected to the canonical 9takes map (3→9 apathy under stress, 3→6 loyalty in growth). Rabbit Hole present, 455 words. Repetition scan done — the two load-bearing quotes ("100 times as hard," "no idea what I'm doing") each appear once in full, with only brief callbacks elsewhere.
+
+**Internal links (6):** `enneagram-type-3`, `enneagram-anxiety-management-guide`, plus Rabbit Hole pillars `enneagram-wings-complete-guide` and `enneagram-instinctual-subtypes`; celebrity cross-links to `Ariana-Grande` (fellow Type 3) and `Millie-Bobby-Brown` (child-star parallel).
+
+Next step is human review, then `blog_content_production_people` before anything touches the database. A few items flagged in the working-notes comment to verify before publish (the "True Blood cousin" detail was deliberately omitted; no on-record Coogler/Jordan quote about her was found).

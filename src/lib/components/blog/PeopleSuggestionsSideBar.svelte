@@ -19,6 +19,15 @@
 	 */
 	export let bridgeLinks: { label: string; href: string }[] = [];
 
+	/**
+	 * When false, the inline static link block (rendered in the document flow
+	 * at the bottom of the page) is suppressed and only the floating desktop
+	 * rail is shown. Used on /personality-analysis, where the bottom "Further
+	 * analysis" section is the canonical related block and the inline list
+	 * would duplicate it.
+	 */
+	export let showInline: boolean = true;
+
 	// Configuration options with defaults
 	export let showAtScrollY: number = 1200;
 	export let hideBeforeBottom: number = 1500;
@@ -98,7 +107,7 @@
 	});
 </script>
 
-{#if links.length || bridgeLinks.length}
+{#if showInline && (links.length || bridgeLinks.length)}
 	<nav class="profile-links-static" aria-label="Related personality links">
 		{#if links.length}
 			<section class="profile-links-section" aria-labelledby="related-personalities-heading">

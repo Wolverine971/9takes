@@ -1,0 +1,22 @@
+Graded and written to the file.
+
+## Grading Complete — Hailee Steinfeld
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Hailee-Steinfeld | 9 | 9 | 8 | 9 | 8 | 9 | **8.6** | **B+** |
+
+*(Overall weighted: (9×1.5 + 9×1.5 + 8×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5/7 = 8.6. Disc 8 ≥ 7 — gate passed.)*
+
+### Key Observations
+
+- **Publication-ready** — clears the 8.5 (B+) threshold and the Discoverability gate.
+- **The Dickinson contradiction is the standout** — playing the patron saint of unrecognized inner work while being a Type 3 who can't bank her own world-watched recognition. That's the originality anchor, and it's genuinely swap-proof.
+- **Two things hold it back from an A**, both fixable:
+  1. **Writing capped at 8** — the contrast-pair / "Not X. Y." engine recurs well past the 2-use ceiling. The trophy/bill instance is the thesis and earns it; trim ~half of the rest.
+  2. **`meta_title` carries no search keyword** ("Why Hailee Steinfeld Works Like Her Oscar Didn't Count") — CTR-strong but not keyword-matched. The title field and description already carry "enneagram / type 3," so this is the single lever between Discoverability 8 and 9.
+
+### To reach A (9.0+)
+Cut ~3 contrast-pair constructions, make `meta_title` keyword-forward, and optionally promote one unused collaborator quote from the testimony ledger (James L. Brooks's "if she hadn't walked in, we wouldn't make the movie") into the body.
+
+**Total graded this session: 1**

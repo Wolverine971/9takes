@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-06-15T00:00:00Z",
+	"lastUpdated": "2026-06-15T06:00:41Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
 		"completionRate": "68.0%"
 	},
 	"queue": [
-		{
-			"name": "hailee-steinfeld",
-			"displayName": "Hailee Steinfeld",
-			"type": 3,
-			"priority": 62,
-			"priorityReason": "Actor-singer with Gen Z reach, franchise visibility, and a strong polished-performance Type 3 angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "gen-z-hollywood-pop-cluster"
-		},
 		{
 			"name": "kurt-russell",
 			"displayName": "Kurt Russell",
@@ -882,7 +869,20 @@
 			"reconcileNote": "Pipeline completed 2026-06-12 (draft graded 8.9 B+, faqs+wikidata, production_pretext clean) but orchestrator session ended before queue reconciliation. Recovered on 2026-06-13 run."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "hailee-steinfeld",
+		"displayName": "Hailee Steinfeld",
+		"type": 3,
+		"priority": 62,
+		"priorityReason": "Actor-singer with Gen Z reach, franchise visibility, and a strong polished-performance Type 3 angle",
+		"estimatedTraffic": "high",
+		"searchVolume": "high",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-12",
+		"retryCount": 0,
+		"strategicValue": "gen-z-hollywood-pop-cluster",
+		"startedAt": "2026-06-15T06:00:41Z"
+	},
 	"skipped": [
 		{
 			"name": "anna-wintour",
