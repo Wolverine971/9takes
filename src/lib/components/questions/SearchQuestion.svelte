@@ -237,7 +237,12 @@
 	}
 </script>
 
-<form class="search-form" role="search" aria-label="Search questions and categories" onsubmit={handleSubmit}>
+<form
+	class="search-form"
+	role="search"
+	aria-label="Search questions and categories"
+	onsubmit={handleSubmit}
+>
 	<div class="search-wrapper">
 		<div class="search-container" class:is-searching={isSearching}>
 			<Context>

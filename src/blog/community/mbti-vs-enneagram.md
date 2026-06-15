@@ -197,7 +197,7 @@ That's the core design flaw. MBTI forces binary categories onto continuous trait
 
 And there's no growth model baked in. Your type at 22 is your type at 52. MBTI describes preferences but doesn't map where you're stuck, what you're avoiding, or what development looks like. A snapshot that never updates.
 
-Academic psychology has largely moved toward the Big Five (OCEAN) model, which measures traits on spectrums and has far stronger psychometric backing. MBTI persists because it's been embedded in corporate culture since the 1960s, it's easy to administer, and an entire consulting industry depends on it staying relevant.
+Academic psychology has largely moved toward the Big Five (OCEAN) model, which measures traits on spectrums and has far stronger psychometric backing. But the Big Five and MBTI are both taxonomies of _traits_, not maps of the underlying machinery. That machinery is [the three forces, thinking, feeling, and instinct, that thinkers from Plato to modern neuroscience keep rediscovering](/community/consensus-on-human-nature). MBTI persists because it's been embedded in corporate culture since the 1960s, it's easy to administer, and an entire consulting industry depends on it staying relevant.
 
 ## What the Enneagram Gets Right
 

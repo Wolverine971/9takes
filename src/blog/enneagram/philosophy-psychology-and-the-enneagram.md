@@ -124,7 +124,7 @@ They'd realize within minutes that they've been describing the same architecture
 
 **The pattern repeats because it's true.**
 
-This isn't academic coincidence. It's convergent discovery — multiple brilliant minds arriving at the same fundamental insight about human nature through completely different methods.
+This isn't academic coincidence. It's convergent discovery — multiple brilliant minds arriving at the same fundamental insight about human nature through completely different methods. (For the longer version of that argument, tracing the [same three forces from Plato to modern neuroscience](/community/consensus-on-human-nature), read on.)
 
 The Enneagram isn't competing with philosophy or psychology. It's completing a conversation that's been ongoing for 2,400 years.
 

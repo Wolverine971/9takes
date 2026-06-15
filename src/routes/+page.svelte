@@ -259,7 +259,7 @@
 	// ------------------------------------------------------------------
 	type StatBlock = { label: string; value: string; annotation: string };
 	const numberFmt = new Intl.NumberFormat('en-US');
-	const corpusStats: StatBlock[] = [
+	const corpusStats: StatBlock[] = $derived.by(() => [
 		{
 			label: 'PERSONALITY BREAKDOWNS',
 			value: numberFmt.format(data.corpusStats.published),
@@ -272,7 +272,7 @@
 			value: numberFmt.format(data.corpusStats.publishedLast30Days),
 			annotation: `~${Math.round(data.corpusStats.avgNewPerMonth)}/mo avg`
 		}
-	];
+	]);
 
 	// ------------------------------------------------------------------
 	// V5 §05 — time-dynamic open-question kicker.

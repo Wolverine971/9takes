@@ -334,6 +334,8 @@
 			autocapitalize="none"
 			autocomplete="off"
 			spellcheck="false"
+			inputmode="search"
+			enterkeyhint="search"
 			role="combobox"
 			aria-autocomplete="list"
 			aria-expanded={isListOpen}

@@ -394,6 +394,7 @@
 			bind:value={query}
 			{placeholder}
 			autocomplete="off"
+			inputmode="search"
 			enterkeyhint="search"
 			role="combobox"
 			aria-label="Search 9takes"

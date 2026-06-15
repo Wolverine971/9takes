@@ -619,17 +619,7 @@
 				description:
 					'An Enneagram site for personality analysis, emotional intelligence, and understanding social dynamics.',
 				publisher: { '@id': 'https://9takes.com/#organization' },
-				inLanguage: 'en-US',
-				// Eligibility for Google's Sitelinks Search Box. Targets the
-				// crawlable GET results page the header search already submits to.
-				potentialAction: {
-					'@type': 'SearchAction',
-					target: {
-						'@type': 'EntryPoint',
-						urlTemplate: 'https://9takes.com/search?q={search_term_string}'
-					},
-					'query-input': 'required name=search_term_string'
-				}
+				inLanguage: 'en-US'
 			}
 		]
 	})}</script>`}

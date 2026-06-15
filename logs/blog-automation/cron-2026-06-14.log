@@ -1,0 +1,19 @@
+`inProgress` is hailee-steinfeld, started 2026-06-13T06:03:52Z — **19 hours ago**, which is under the 24-hour staleness threshold. Per the workflow's critical rule #2, I must not start a new run while a non-stale blog is in progress.
+
+No queue selection, no pipeline execution. Exiting cleanly without modifying any state.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-06-14
+Status: SKIPPED — blog in progress
+Blog: hailee-steinfeld (Type 3, Priority 62)
+In progress for: 19h (threshold: 24h)
+Draft exists: no
+Rate limit: 0/5 this week
+Action: none — left inProgress, override, and queue untouched
+===================================
+```
+
+**BLOG IN PROGRESS: hailee-steinfeld — skipping today's run**
+
+One thing worth flagging for tomorrow: hailee-steinfeld has been `inProgress` for 19h with **no draft on disk**. That usually means stage 1 of yesterday's pipeline died before writing the draft. It'll cross the 24h staleness line at ~2026-06-14 06:04 UTC (about 4 hours from now), so the next 2 AM run won't auto-clear it either — but the one after that will move it to `skipped` and proceed. If you want it unblocked sooner, I can clear the stale `inProgress` manually on your say-so.

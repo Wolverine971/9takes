@@ -4,6 +4,10 @@ import { supabase } from '$lib/supabase';
 import type { Actions, PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import { safelyExitWelcomeSequenceForCommentCreation } from '$lib/server/welcomeSequenceGuards';
+import {
+	logBestEffortTelemetryFailure,
+	runBestEffortTelemetry
+} from '$lib/server/bestEffortTelemetry';
 import { recordGiveFirstEvent } from '$lib/server/giveFirstFunnel';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
@@ -44,6 +48,18 @@ const TAGGABLE_LEAF_LEVEL = 3;
 const MAX_CATEGORIES_PER_QUESTION = 3;
 const NEW_CATEGORY_MIN_LENGTH = 2;
 const NEW_CATEGORY_MAX_LENGTH = 60;
+
+function queueGiveFirstEvent(
+	event: Parameters<typeof runBestEffortTelemetry>[0],
+	payload: Parameters<typeof recordGiveFirstEvent>[0]
+) {
+	runBestEffortTelemetry(event, recordGiveFirstEvent(payload), (telemetryError) => {
+		logBestEffortTelemetryFailure('Failed to record give-first funnel event', telemetryError, {
+			eventType: payload.eventType,
+			questionId: payload.questionId
+		});
+	});
+}
 
 const updateQuestionCategoriesSchema = z.object({
 	questionId: z
@@ -114,7 +130,7 @@ export const load: PageServerLoad = async (event) => {
 		// Give-first wall is being shown to a not-yet-answered visitor. Log the
 		// gate hit (fingerprint-keyed) so we can measure wall-hit -> contribution.
 		if (!isDemoTime && cookie) {
-			await recordGiveFirstEvent({
+			queueGiveFirstEvent(event, {
 				fingerprint: cookie,
 				eventType: 'gate_shown',
 				questionId: question.id,
@@ -170,7 +186,8 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	createComment: async ({ request, getClientAddress, locals }) => {
+	createComment: async (event) => {
+		const { request, getClientAddress, locals } = event;
 		const { body, demo_time } = await getRequestData(request);
 		const ip = getClientAddress();
 		const db = locals.supabase as any;
@@ -206,7 +223,7 @@ export const actions: Actions = {
 		// Give-first contribution: log it (fingerprint-keyed) so it joins to the
 		// gate_shown event for the wall-hit -> contribution funnel.
 		if (!demo_time && commentInput.parent_type === 'question' && commentInput.fingerprint) {
-			await recordGiveFirstEvent({
+			queueGiveFirstEvent(event, {
 				fingerprint: commentInput.fingerprint,
 				eventType: 'contribution',
 				questionId: Number(commentInput.parent_id),

@@ -303,6 +303,8 @@ export type Database = {
           birth_place: string | null
           category: string | null
           changefreq: string | null
+          chorus_question: string | null
+          chorus_question_url: string | null
           citations: string[] | null
           content: string | null
           content_quality: Json | null
@@ -345,6 +347,8 @@ export type Database = {
           birth_place?: string | null
           category?: string | null
           changefreq?: string | null
+          chorus_question?: string | null
+          chorus_question_url?: string | null
           citations?: string[] | null
           content?: string | null
           content_quality?: Json | null
@@ -387,6 +391,8 @@ export type Database = {
           birth_place?: string | null
           category?: string | null
           changefreq?: string | null
+          chorus_question?: string | null
+          chorus_question_url?: string | null
           citations?: string[] | null
           content?: string | null
           content_quality?: Json | null
@@ -2595,6 +2601,72 @@ export type Database = {
           id?: number
           stem?: string | null
           word?: string | null
+        }
+        Relationships: []
+      }
+      nine_takes: {
+        Row: {
+          created_at: string
+          id: number
+          model: string | null
+          situation: string
+          subject_slug: string
+          subject_type: string
+          takes: Json
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          model?: string | null
+          situation: string
+          subject_slug: string
+          subject_type: string
+          takes: Json
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          model?: string | null
+          situation?: string
+          subject_slug?: string
+          subject_type?: string
+          takes?: Json
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      nine_user_takes: {
+        Row: {
+          created_at: string
+          fingerprint: string | null
+          id: number
+          resonant_type: number | null
+          subject_slug: string
+          subject_type: string
+          take: string
+          user_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          fingerprint?: string | null
+          id?: number
+          resonant_type?: number | null
+          subject_slug: string
+          subject_type: string
+          take: string
+          user_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          fingerprint?: string | null
+          id?: number
+          resonant_type?: number | null
+          subject_slug?: string
+          subject_type?: string
+          take?: string
+          user_id?: string | null
         }
         Relationships: []
       }

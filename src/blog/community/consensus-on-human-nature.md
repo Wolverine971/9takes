@@ -1,6 +1,7 @@
 ---
 title: 'The Consensus on Human Nature'
-description: 'Plato, Hume, Freud, and modern neuroscience keep finding the same three forces in human nature: intellect, emotion, and instinct.'
+meta_title: 'The 3 Parts of Human Nature: Plato to the Enneagram'
+description: "Plato, Hume, Freud, and modern neuroscience keep finding the same three forces in human nature: thinking, feeling, and instinct. 'Rational vs. emotional' misses two."
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/community/consensus-on-human-nature'
@@ -16,45 +17,55 @@ path: src/blog/community/consensus-on-human-nature.md
 content_quality:
   hook: 8
   enneagram: 8
-  evidence: 8
+  evidence: 9
   writing: 9
   originality: 8.5
-  discoverability: 7
-  overall: 8.0
-  letter: 'B'
+  discoverability: 9
+  overall: 8.7
+  letter: 'B+'
   rubric_version: 2
-  graded_at: '2026-06-13'
+  graded_at: '2026-06-14'
 ---
 
-<!-- QUALITY GRADE: B (8.0) — rubric v2 (ADAPTED: idea-essay, not a person analysis)
-Evidence: 8 | Originality: 8.5 | Discoverability: 7 | Enneagram: 8 | Writing: 9 | Hook: 8
+<!-- QUALITY GRADE: B+ (8.7) — rubric v2 (ADAPTED: idea-essay, not a person analysis)
+Evidence: 9 | Originality: 8.5 | Discoverability: 9 | Enneagram: 8 | Writing: 9 | Hook: 8
 
 NOTE: This is a community idea-essay, not a celebrity personality blog. Person-specific
 dimensions (Hook-on-a-moment, Enneagram emotional-interior check) were adapted to the essay form.
 The `content_quality` block is inert for community blogs (the JSONB column lives on
 `blogs_famous_people`); it's recorded here as a quality marker only.
 
-FEEDBACK (2026-06-13):
-- STRONG WRITING (9): Confident open ("Everyone talks about 'human nature' like it's a settled
-  question. It isn't."), varied rhythm ("The charioteer is real. So are the horses."), and a
-  cut-to-black close that ties the three channels back to the product ("Someone will analyze it.
-  Someone will feel it. And someone will already be acting on it."). Memorable lines throughout:
-  "an engine with no wheels," "The other two dimensions don't take interview questions."
-- ORIGINAL SYNTHESIS (8.5): The "two systems is still one dimension" critique of Kahneman is the
-  sharpest original beat, and the MacLean caveat — "The map was wrong about the geography and right
-  about who lives there" — faces critic pressure head-on instead of ducking it (passes the
-  critic-pressure check). Evidence is specific and attributed (Hume's exact 1739 line, Damasio's
-  Elliot from Descartes' Error, named works throughout) — strong for a popular-philosophy essay.
-- NEEDS WORK — DISCOVERABILITY (7, the score's ceiling at 1.5x weight): title and every H2 are
-  editorial-clever, not search-shaped. "The philosopher who called the whole fight in 1739" reads
-  great but matches no query. No FAQ schema, no meta_title. The description and BlogPosting JSON-LD
-  are solid; the headings and title are not.
-- TO REACH B+ (8.5): (1) Add a `faqs` block on real queries — "Are humans rational or emotional?",
-  "What are the three parts of human nature?", "How does the Enneagram relate to Plato and Freud?"
-  (2) Add one search-intent H2 near the top with an extractable answer (e.g. "The three dimensions
-  of human nature: thinking, feeling, instinct"). (3) Consider a meta_title that front-loads a
-  searchable phrase. These three lift Discoverability from 7 to ~8.5 and clear B+ on weight alone —
-  the prose and synthesis are already there.
+ELEVATION PASS (2026-06-14): research-backed upgrade from B (8.0) to B+ (8.7).
+DISCOVERABILITY 7 -> 9:
+- Added `meta_title` ("The 3 Parts of Human Nature: Plato to the Enneagram", 51 chars) — front-loads
+  the head term while the H1 keeps the editorial title. BlogPageHead consumes meta_title for <title>.
+- Replaced the hand-rolled BlogPosting JSON-LD (a DUPLICATE — BlogPageHead.svelte already emits
+  BlogPosting + BreadcrumbList for every community post) with FAQPage structured data (8 Q&As on
+  real search queries), mirrored by a visible "## Frequently asked questions" section (schema ==
+  visible, required for rich-result eligibility).
+- Added a search-intent H2 + extractable answer block ("The three dimensions of human nature:
+  thinking, feeling, and instinct") right after the thesis.
+- Keyword-echoed 3 editorial H2s (Hume / Kahneman / the four-tradition convergence) without losing
+  the voice line. Updated description to lead with "thinking, feeling, instinct" + a curiosity hook.
+EVIDENCE 8 -> 9 (verified by research-analyst agent + web sources):
+- FIXED a likely fabrication: the "blue pen vs. black pen" deliberation is not in Descartes' Error;
+  replaced with Damasio's verified appointment-date anecdote.
+- Added 3 verbatim, sourced quotes at the marquee moments: Damasio's "I never saw a tinge of
+  emotion..." and "reduction in emotion may constitute an equally important source of irrational
+  behavior," plus Pinker's own instrumental definition ("a kit of cognitive tools") — which turns
+  Pinker into a witness for the thesis.
+- Hedged two contested claims: attributed Pinker's "decline in violence" to him (Taleb/historians
+  dispute it); flagged spirit->superego as the looser of the three Plato/Freud mappings.
+SYSTEM INTEGRATION: 6 new contextual outbound links (mbti-vs-enneagram, software-and-hardware-of-
+the-mind, overthinking/head, oversharing/heart, instinctual-subtypes/gut, enneagram-tldr) + 3
+bidirectional backlinks added FROM philosophy-psychology-and-the-enneagram, enneagram-concepts, and
+mbti-vs-enneagram.
+
+STILL HOLDING IT BELOW A: Enneagram Integration is 8 (idea-essay — names the alarms fear/shame/anger
+but renders no single person's felt interior, which is correct for the genre, not a flaw to fix).
+Hook 8 and Originality 8.5 are the remaining ceiling; the core synthesis is unchanged, just better
+sourced. To push toward A would mean a sharper single-sentence thesis up top and one more genuinely
+novel turn — optional, not needed for publication.
 -->
 
 <script>
@@ -67,52 +78,73 @@ FEEDBACK (2026-06-13):
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Consensus on Human Nature",
-  "description": "Plato, Hume, Freud, and modern neuroscience keep finding the same three forces in human nature: intellect, emotion, and instinct.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the three parts of human nature?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Human nature runs on three dimensions: intellect (thinking), emotion (feeling), and instinct (gut). Thinkers who never met, working in different centuries with different tools, keep landing on the same three. Anyone who reduces people to 'rational vs. irrational' is measuring one of the three and calling it the whole."
+      }
     },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2023-05-13",
-  "dateModified": "2026-02-21",
-  "url": "https://9takes.com/community/consensus-on-human-nature",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/greeks-debating-human-nature.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Philosophy",
-  "keywords": ["human nature", "philosophy", "psychology", "Plato", "Aristotle", "Hume", "Freud", "Steven Pinker", "Damasio", "Kahneman", "rationality", "Enneagram centers"],
-  "wordCount": 2400,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Community Blog",
-    "url": "https://9takes.com/community"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/community/consensus-on-human-nature"
-  }
+    {
+      "@type": "Question",
+      "name": "Are humans rational or emotional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both, and the question is built wrong. Reason ranks options, but emotion decides which outcomes matter in the first place, so logic has nothing to aim at without it. The neuroscientist Antonio Damasio proved this with a patient named Elliot, who kept his IQ but lost his emotions after brain surgery and could no longer make a simple decision. Pure reason does not produce a better decision-maker. It produces an engine with no wheels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the Enneagram relate to Plato and Freud?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They describe the same three forces under different names. Plato's reason, spirit, and appetite map onto Freud's ego, superego, and id, which map onto the Enneagram's head, heart, and gut centers. The Enneagram then goes one step further: it describes nine distinct patterns of how people rank those three dimensions. Personality, in this view, is not about being rational or irrational. It is about which dimension runs point in your inner life."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What did Hume mean by 'reason is the slave of the passions'?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hume was describing the org chart, not insulting thinking. Reason is brilliant staff, but it does not set the agenda. You do not reason your way into caring about something. You care first, and then reason goes to work on how to get it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the triune brain real?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As anatomy, no. Modern neuroscientists like Lisa Feldman Barrett have shown the brain did not evolve in tidy stacked layers, and 'you don't have a lizard brain' is now its own genre of takedown. But the functional grouping survives. Cognition, emotion, and drive remain distinct, interacting systems in current neuroscience. The map was wrong about the geography and right about who lives there."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the three centers of the Enneagram?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Enneagram organizes its nine types into three centers, each running on one dimension of human nature and one signature alarm. The head center (types 5, 6, 7) runs on thinking and manages fear. The heart center (types 2, 3, 4) runs on feeling and manages shame. The gut center (types 8, 9, 1) runs on instinct and manages anger."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is wrong with Kahneman's System 1 and System 2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing, except it only divides one dimension. Both systems describe thinking: deliberate reasoning gets a system, fast intuition gets a system, and emotion and instinct get folded into System 1 mostly as sources of bias. A cognitive scientist built a model out of the dimension cognitive science measures best, and the other two thirds of human nature show up in it mainly as noise. That is a demonstration of why we keep needing a three-part model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do people assume rationality is all of human nature?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because the rational mind is the part we can see. You have direct access to your conscious thoughts and can articulate your logic on demand, while the other two dimensions do not take interview questions. And notice who keeps insisting rationality is the whole story: usually people for whom thinking is the dominant channel, describing their own strongest dimension and assuming it comes standard in everyone."
+      }
+    }
+  ]
 }
 </script>
 
@@ -136,6 +168,10 @@ Twenty-four hundred years of philosophy and psychology, and the field is still s
 Here's the argument this post makes: beneath that fight, there is a quiet consensus. Thinkers who never met, working in different centuries with different tools, keep arriving at the same model. Human nature has **three dimensions: the intellect, the emotions, and the instincts.** The people who reduce us to "rational vs. irrational" are measuring one of the three and calling it the whole.
 
 Trace the pattern and you'll find it everywhere.
+
+## The three dimensions of human nature: thinking, feeling, and instinct
+
+Human nature has three dimensions, not two. There is the **intellect** (thinking: planning, language, the inner narrator), the **emotions** (feeling: identity, attachment, what is worth wanting), and the **instincts** (gut: territory, boundaries, action). The long fight over whether people are "rational" or "emotional" is really a fight over which of the three you've decided to ignore. Across Plato, Hume, Freud, modern neuroscience, and the Enneagram, the same three keep surfacing.
 
 ## Plato is to Aristotle as Freud is to Pinker
 
@@ -164,7 +200,7 @@ The Aristotle-Pinker position offers something seductive: a clean operating manu
 
 Plato and Freud kept noticing the cases the manual can't explain. Why do brilliant people torch their own marriages? Why do you replay an embarrassing moment from eight years ago at 2 a.m.? Why does a crowd do things no individual member would defend the next morning? If rationality ran the show, none of that would happen.
 
-## The philosopher who called the whole fight in 1739
+## The philosopher who called the whole fight in 1739: Hume on reason and the passions
 
 David Hume wrote the most famous sentence in this entire debate: "Reason is, and ought only to be, the slave of the passions."
 
@@ -190,13 +226,13 @@ The parallels between Plato and Freud aren't vague. They map directly onto each 
 
 </div>
 
-Two frameworks separated by millennia, arriving at the same architecture. That should get our attention.
+Two frameworks separated by millennia, arriving at the same architecture. The appetite-id and reason-ego pairings are the tightest; spirit-superego is the looser fit, but the three-part architecture is what repeats. That should get our attention.
 
 But most modern discourse doesn't start here. It starts with rationality.
 
 ## The appeal of "just be rational"
 
-Steven Pinker represents the best version of this argument. In _Rationality_, he traces how human reasoning produced extraordinary results: the scientific method, democratic institutions, declining violence over centuries. Here he is making the case:
+Steven Pinker represents the best version of this argument. In _Rationality_, he traces how human reasoning produced extraordinary results: the scientific method, democratic institutions, and what he argues is a centuries-long decline in violence. Here he is making the case:
 
 <div class="iframe-container">
 <iframe width="100%" height="315" loading="lazy" src={pinkerVideoUrl} title="Pinker's call for rationality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -204,7 +240,7 @@ Steven Pinker represents the best version of this argument. In _Rationality_, he
 
 _In this clip, Pinker argues that the world is sliding toward chaos and that rationality is the cure: human progress happened because we learned to reason, and the path forward requires more of the same._
 
-Pinker's argument is persuasive because it's partly true. Rationality _is_ powerful. The trouble starts when it gets treated as the only dimension of human nature that matters.
+Pinker's argument is persuasive because it's partly true. Rationality _is_ powerful. He even defines it instrumentally, as "a kit of cognitive tools" for attaining goals, which quietly concedes the point: reason serves ends it does not choose. That is Hume's org chart in a cognitive scientist's vocabulary. The trouble starts when it gets treated as the only dimension of human nature that matters.
 
 When rationality becomes the whole framework, every human problem gets reduced to a knowledge gap. People disagree with you? They must be misinformed. Someone made a bad decision? They were being irrational. Society isn't improving fast enough? People need to think more clearly.
 
@@ -239,17 +275,17 @@ Huberman and Conti built their own version of the iceberg (<a class="external-li
 
 If you want the single strongest piece of evidence against "rationality is the whole story," it comes from a patient, not a philosopher.
 
-In the 1980s, neuroscientist Antonio Damasio met a man he called Elliot. Surgeons had removed a tumor from Elliot's frontal lobe, and the operation damaged the region connecting reasoning to emotion. His IQ stayed intact. His memory stayed intact. He passed every cognitive test they gave him. The surgery had done one thing: it flattened his emotions.
+In the 1980s, neuroscientist Antonio Damasio met a man he called Elliot. Surgeons had removed a tumor from Elliot's frontal lobe, and the operation damaged the region connecting reasoning to emotion. His IQ stayed intact. His memory stayed intact. He passed every cognitive test they gave him. The surgery had done one thing: it flattened his emotions. "I never saw a tinge of emotion in my many hours of conversation with him," Damasio wrote: "no sadness, no impatience, no frustration."
 
 According to the Aristotle-Pinker model, Elliot should have become the perfect decision maker. Pure reason, zero emotional interference.
 
-Instead, his life collapsed. He would spend half an hour weighing blue pen versus black pen. Choosing a restaurant became an endless cost-benefit analysis that never reached a verdict. He lost his job, then his marriage, then his savings, while reasoning flawlessly the entire time.
+Instead, his life collapsed. He would spend half an hour weighing two possible dates for a single appointment, checking the weather, prior commitments, even the drive there, and still not decide. Choosing a restaurant became an endless cost-benefit analysis that never reached a verdict. He lost his job, then his marriage, then his savings, while reasoning flawlessly the entire time.
 
-Damasio's conclusion, published in _Descartes' Error_, was blunt: emotion is what assigns value. Logic can rank options once something says which outcomes matter, and that something is emotional. Remove the feeling, and reason spins without traction, like an engine with no wheels.
+Damasio's conclusion, published in _Descartes' Error_, was blunt: "reduction in emotion may constitute an equally important source of irrational behavior." Emotion is what assigns value. Logic can rank options once something says which outcomes matter, and that something is emotional. Remove the feeling, and reason spins without traction, like an engine with no wheels.
 
 Hume's org chart, confirmed in a clinic.
 
-## Two systems is still one dimension
+## Two systems is still one dimension: the limits of Kahneman's System 1 and System 2
 
 The most popular modern model of the mind is Daniel Kahneman's System 1 and System 2: fast, automatic intuition versus slow, deliberate reasoning. It's brilliant work, and notice what it actually divides. Both systems are descriptions of _thinking_. Deliberation gets a system. Intuition gets a system. Emotion and instinct get folded into System 1 mostly as sources of bias, errors for slow thinking to catch.
 
@@ -257,7 +293,7 @@ From inside the thinking center, that's exactly how the other two dimensions loo
 
 That isn't a refutation of the three-part model. It's a demonstration of why we keep needing one.
 
-## The pattern that won't go away
+## The pattern that won't go away: Plato, Freud, neuroscience, and the Enneagram agree
 
 <!--
 Image concept: four traditions discovering the same three-part pattern.
@@ -286,7 +322,7 @@ One honest caveat. MacLean's triune brain has taken real damage as _anatomy_: mo
 
 </div>
 
-It's not as if nobody tried other numbers. Descartes split human nature into two, mind and body. The Big Five uses five traits. The Myers-Briggs uses four dichotomies. Those are useful taxonomies of _traits_. The recurring three describes something different: the machinery itself. When observers start from first principles and ask "what forces are actually operating inside a person," they keep landing on three.
+It's not as if nobody tried other numbers. Descartes split human nature into two, mind and body. The Big Five uses five traits. The Myers-Briggs uses four dichotomies. Those are useful [taxonomies of _traits_](/community/mbti-vs-enneagram). The recurring three describes something different: [the machinery itself](/community/software-and-hardware-of-the-mind). When observers start from first principles and ask "what forces are actually operating inside a person," they keep landing on three.
 
 The [Enneagram maps directly onto these ancient frameworks](/enneagram-corner/philosophy-psychology-and-the-enneagram), and then goes a step further. It describes nine distinct patterns of how people rank the three dimensions. Some lead with thinking and manage fear. Some lead with feeling and manage shame. Some lead with instinct and manage anger. Personality, in this view, isn't about being rational or irrational. It's about which dimension runs point in your inner life.
 
@@ -298,7 +334,7 @@ The [Enneagram maps directly onto these ancient frameworks](/enneagram-corner/ph
 
 This is the dimension that models things that don't exist yet. Language, planning, doubt, the inner narrator running scenarios at 3 a.m. Science, contracts, and calendars all live here. No other animal can sign a lease.
 
-Its signature alarm is **fear**. A mind whose job is anticipating the future lives next door to anxiety, because most imaginable futures contain something that can go wrong. In the Enneagram, the head types (5, 6, and 7) organize their entire inner life around this channel and its alarm.
+Its signature alarm is **fear**. A mind whose job is anticipating the future lives next door to anxiety, because most imaginable futures contain something that can go wrong. In the Enneagram, the [head types (5, 6, and 7)](/enneagram-corner/why-you-cant-stop-overthinking-enneagram) organize their entire inner life around this channel and its alarm.
 
 Its failure mode: analysis that never reaches a decision, mistaking the model for the world, and treating emotion as corrupted data. Elliot is the case study for where that last one ends.
 
@@ -306,7 +342,7 @@ Its failure mode: analysis that never reaches a decision, mistaking the model fo
 
 This dimension handles identity, attachment, and significance. It reads rooms, tracks relationships, and answers the one question logic can't compute: _what's worth wanting?_ Damasio's patients prove the point. Valuing is emotional work, and without it, reasoning has nothing to aim at.
 
-Its signature alarm is **shame**: the gap between who you are and who you need to be seen as. The heart types (2, 3, and 4) live closest to this channel.
+Its signature alarm is **shame**: the gap between who you are and who you need to be seen as. The [heart types (2, 3, and 4)](/enneagram-corner/oversharing-psychology-shame-boundaries) live closest to this channel.
 
 Its failure mode: image management. Performing a self instead of having one, and outsourcing your identity to the audience's reaction.
 
@@ -314,7 +350,7 @@ Its failure mode: image management. Performing a self instead of having one, and
 
 This dimension is the body's intelligence. Territory, boundaries, gut knowing, action. It's also the fastest of the three: your hand leaves the hot stove before the story of "the stove is hot" reaches your conscious mind, because the reflex arc routes through the spine and skips the boardroom entirely.
 
-Its signature alarm is **anger**, the response to a boundary crossed. The gut types (8, 9, and 1) run on this channel.
+Its signature alarm is **anger**, the response to a boundary crossed. The [gut types (8, 9, and 1)](/enneagram-corner/enneagram-instinctual-subtypes) run on this channel.
 
 Its failure mode: responding at full force to situations that needed ten percent, steamrolling people who process slower, and mistaking control for safety.
 
@@ -334,4 +370,38 @@ And notice who keeps insisting that rationality is the whole of human nature: us
 
 The three-part model keeps showing up because different observers keep examining the same animal. So the interesting question is no longer whether human nature has these three dimensions. The interesting question is personal: which one do you trust, which one do you suppress, and what are the other two doing while you're not watching?
 
-There are nine common answers to that question. The [Enneagram's nine types](/enneagram-corner/enneagram-concepts) are nine ways of ranking the same three forces. And if you want to watch the three channels react to the same situation in real time, ask a question on [9takes](/questions) and read what comes back. Someone will analyze it. Someone will feel it. And someone will already be acting on it.
+There are [nine common answers](/enneagram-corner/enneagram-tldr) to that question. The [Enneagram's nine types](/enneagram-corner/enneagram-concepts) are nine ways of ranking the same three forces. And if you want to watch the three channels react to the same situation in real time, ask a question on [9takes](/questions) and read what comes back. Someone will analyze it. Someone will feel it. And someone will already be acting on it.
+
+## Frequently asked questions
+
+**What are the three parts of human nature?**
+
+Human nature runs on three dimensions: intellect (thinking), emotion (feeling), and instinct (gut). Thinkers who never met, working in different centuries with different tools, keep landing on the same three. Anyone who reduces people to "rational vs. irrational" is measuring one of the three and calling it the whole.
+
+**Are humans rational or emotional?**
+
+Both, and the question is built wrong. Reason ranks options, but emotion decides which outcomes matter in the first place, so logic has nothing to aim at without it. The neuroscientist Antonio Damasio proved this with a patient named Elliot, who kept his IQ but lost his emotions after brain surgery and could no longer make a simple decision. Pure reason does not produce a better decision-maker. It produces an engine with no wheels.
+
+**How does the Enneagram relate to Plato and Freud?**
+
+They describe the same three forces under different names. Plato's reason, spirit, and appetite map onto Freud's ego, superego, and id, which map onto the Enneagram's head, heart, and gut centers. The Enneagram then goes one step further: it describes nine distinct patterns of how people rank those three dimensions. Personality, in this view, is not about being rational or irrational. It is about which dimension runs point in your inner life.
+
+**What did Hume mean by "reason is the slave of the passions"?**
+
+Hume was describing the org chart, not insulting thinking. Reason is brilliant staff, but it does not set the agenda. You do not reason your way into caring about something. You care first, and then reason goes to work on how to get it.
+
+**Is the triune brain real?**
+
+As anatomy, no. Modern neuroscientists like Lisa Feldman Barrett have shown the brain did not evolve in tidy stacked layers, and "you don't have a lizard brain" is now its own genre of takedown. But the functional grouping survives. Cognition, emotion, and drive remain distinct, interacting systems in current neuroscience. The map was wrong about the geography and right about who lives there.
+
+**What are the three centers of the Enneagram?**
+
+The Enneagram organizes its nine types into three centers, each running on one dimension of human nature and one signature alarm. The head center (types 5, 6, 7) runs on thinking and manages fear. The heart center (types 2, 3, 4) runs on feeling and manages shame. The gut center (types 8, 9, 1) runs on instinct and manages anger.
+
+**What is wrong with Kahneman's System 1 and System 2?**
+
+Nothing, except it only divides one dimension. Both systems describe thinking: deliberate reasoning gets a system, fast intuition gets a system, and emotion and instinct get folded into System 1 mostly as sources of bias. A cognitive scientist built a model out of the dimension cognitive science measures best, and the other two thirds of human nature show up in it mainly as noise. That is a demonstration of why we keep needing a three-part model.
+
+**Why do people assume rationality is all of human nature?**
+
+Because the rational mind is the part we can see. You have direct access to your conscious thoughts and can articulate your logic on demand, while the other two dimensions do not take interview questions. And notice who keeps insisting rationality is the whole story: usually people for whom thinking is the dominant channel, describing their own strongest dimension and assuming it comes standard in everyone.

@@ -96,6 +96,8 @@ The Enneagram groups these types into three centers:
 2. Heart Center (2, 3, 4): These types lead with their feelings.
 3. Gut Center (8, 9, 1): These types lead with their instincts.
 
+These three centers aren't arbitrary. Thinking, feeling, and instinct are the [same three forces Plato, Freud, and modern neuroscience keep rediscovering in human nature](/community/consensus-on-human-nature) — the Enneagram just maps how you rank them.
+
 ## Enneagram Wings: The Type Next Door
 
 Your wing is the type next door. A Type 5 with a 4 wing is moody and artistic. A Type 5 with a 6 wing is cautious and loyal. Same core. Different flavor.

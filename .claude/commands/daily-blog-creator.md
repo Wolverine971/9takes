@@ -161,9 +161,22 @@ shipping without fresh eyes, editor polish, or frontmatter enrichment (no `faqs`
 cd /Users/djwayne/9takes && ./scripts/run-blog-pipeline.sh ${selectedName} 2>&1 | tee -a /Users/djwayne/9takes/logs/blog-automation/cron-$(date +%Y-%m-%d).log
 ```
 
+**RUN SYNCHRONOUSLY — DO NOT BACKGROUND THIS. (CRITICAL)**
+
+Run the pipeline in the **foreground** and **block until it exits**. Do **NOT** spawn it as a
+background task / `run_in_background` and then end your turn. If your turn ends while the
+pipeline is still running, the process is orphaned and killed by the scheduler — stage 1 never
+writes a draft, and `inProgress` is left set, which silently blocks every subsequent daily run.
+This is exactly the failure that lost 2026-06-13 (hailee-steinfeld: `inProgress` stuck, draft
+never created, `1_create.log` was 0 bytes). You MUST wait for the `run-blog-pipeline.sh` exit
+code, then proceed to Step 3 (verify draft) and Step 5 (update queue / clear `inProgress`) in
+the **same** run. Setting `inProgress` and exiting before the pipeline finishes is a defect.
+
 **Timeout:** 120 minutes total (the pipeline runs 7 separate `claude -p` stages, plus a
 conditional revise-and-regrade loop — stages 8/9 — when the grade lands below 8.5,
-discoverability below 7, or lint fails; recent full runs take ~30–60 minutes).
+discoverability below 7, or lint fails; recent full runs take ~30–60 minutes). The scheduler
+(OpenClaw) job timeout must be ≥ this budget, or it will kill the pipeline mid-run; the creator
+job's `timeoutSeconds` is set to 7800 (130 min) for this reason.
 
 **Monitor for:**
 
@@ -379,6 +392,9 @@ Next Run: Tomorrow 2:00 AM
 8. **ALWAYS** move skipped items to `skipped` array, not `completed`
 9. **NEVER** exceed 120 minute timeout
 10. **ALWAYS** log everything
+11. **NEVER** background the pipeline and end your turn — run `run-blog-pipeline.sh`
+    synchronously, wait for its exit code, then verify the draft and clear `inProgress` in the
+    SAME run. Spawning it as a background task orphans it (the 2026-06-13 hailee-steinfeld bug).
 
 ---
 

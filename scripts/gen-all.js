@@ -10,6 +10,7 @@
 // matching the old behavior. (Wired up as `pnpm gen:all:full`.)
 
 import { execFileSync, spawnSync } from 'child_process';
+import { existsSync } from 'fs';
 
 const FULL = process.argv.includes('--all') || process.argv.includes('--full');
 const MAIN_BRANCH = process.env.GEN_ALL_BASE_BRANCH || 'main';
@@ -91,7 +92,7 @@ function formatAndLabel() {
 		return;
 	}
 
-	const changed = getChangedFiles();
+	const changed = getChangedFiles().filter((file) => existsSync(file));
 	if (changed.length === 0) {
 		console.log('\n▶ No changed files detected — skipping format + label\n');
 		return;

@@ -1,0 +1,37 @@
+No draft can be published. Here's the situation:
+
+## Result: Blocked — nothing publishable
+
+Auto-select scanned **425 candidates** and rejected all of them. Breaking down why:
+
+- **Most drafts**: already published, or carry a **stale v1 grade** (`stale_grade_rubric_v1`) and would need `/grade_blog` re-run first.
+- **6 drafts pass the grade + discoverability gate** but every one is blocked on **missing personality images** (both the full `[Person].webp` and thumbnail `s-[Person].webp` in `static/types/[type]s/`):
+
+| Draft | Type | Overall | Discoverability | Blocker |
+|---|---|---|---|---|
+| victoria-justice | 9 | 9.0 | 8.5 | missing full + thumbnail image |
+| Keira-Knightley | 6 | 8.9 | 9 | missing full + thumbnail image |
+| PinkPantheress | 5 | 8.8 | 8.5 | missing full + thumbnail image |
+| Andrew-Garfield | 4 | 8.7 | 8 | missing full + thumbnail image |
+| Nicholas-Galitzine | 4 | 8.7 | 9 | missing full + thumbnail image |
+| greta-gerwig | 6 | 8.5 | 8 | missing full + thumbnail image |
+
+Image generation is **manual (Canva)** and explicitly outside this command's scope, so I'm stopping rather than bypassing the gate.
+
+```text
+Published people blog.
+
+Person: (none)
+Result: no eligible draft
+
+Blockers:
+- All grade-eligible drafts (6) are missing both personality images
+  (static/types/[type]s/[Person].webp and s-[Person].webp)
+- Remaining drafts are already published or carry stale v1 grades
+```
+
+**To unblock the strongest candidate** (victoria-justice, type 9), generate in Canva and drop in:
+- `static/types/9s/Victoria-Justice.webp`
+- `static/types/9s/s-Victoria-Justice.webp`
+
+Then re-run `/blog_content_publish_people victoria-justice`. Want me to confirm the exact expected filename casing for any specific person before you make the images?

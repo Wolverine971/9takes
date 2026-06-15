@@ -67,7 +67,7 @@ export const load: PageServerLoad = async (event) => {
 	const { data: personDataRaw } = await supabase
 		.from('blogs_famous_people')
 		.select(
-			'id, author, birth_date, birth_place, category, changefreq, citations, content, created_at, date, description, enneagram, faqs, first_published_at, imdb_id, instagram, keywords, knows_about, lastmod, loc, meta_title, nationality, occupation, person, persona_title, priority, published, published_at, same_as, suggestions, tags, tiktok, title, twitter, type, wikidata_qid, wikipedia'
+			'id, author, birth_date, birth_place, category, changefreq, chorus_question, chorus_question_url, citations, content, created_at, date, description, enneagram, faqs, first_published_at, imdb_id, instagram, keywords, knows_about, lastmod, loc, meta_title, nationality, occupation, person, persona_title, priority, published, published_at, same_as, suggestions, tags, tiktok, title, twitter, type, wikidata_qid, wikipedia'
 		)
 		.eq('person', canonicalSlugParam)
 		.maybeSingle();

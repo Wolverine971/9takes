@@ -30,6 +30,7 @@
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 	import { SectionKicker } from '$lib/components/atoms';
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
+	import NineChorus from '$lib/components/blog/NineChorus.svelte';
 	import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
 
 	// Only import critical components for initial render
@@ -582,6 +583,14 @@
 					/>
 				</div>
 			{/if}
+
+			<NineChorus
+				subjectType="personality-analysis"
+				slug={post.slug}
+				question={(post as any).chorus_question ?? null}
+				questionUrl={(post as any).chorus_question_url ?? null}
+				personName={postDisplayName}
+			/>
 
 			{#if postFaqs.length >= 2}
 				<FAQSection faqs={postFaqs} title={`${postDisplayName} FAQ`} />

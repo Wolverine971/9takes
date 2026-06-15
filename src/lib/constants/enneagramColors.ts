@@ -43,3 +43,27 @@ export function getTypeColorSet(type: number): { bg: string; text: string; borde
 		border: color
 	};
 }
+
+/** Primary + common-alternate archetype name for each type. */
+export interface EnneagramTypeLabel {
+	name: string;
+	alt: string;
+}
+
+export const ENNEAGRAM_TYPE_LABELS: Record<number, EnneagramTypeLabel> = {
+	1: { name: 'The Perfectionist', alt: 'The Reformer' },
+	2: { name: 'The Helper', alt: 'The Giver' },
+	3: { name: 'The Achiever', alt: 'The Performer' },
+	4: { name: 'The Individualist', alt: 'The Romantic' },
+	5: { name: 'The Investigator', alt: 'The Observer' },
+	6: { name: 'The Loyalist', alt: 'The Skeptic' },
+	7: { name: 'The Enthusiast', alt: 'The Epicure' },
+	8: { name: 'The Challenger', alt: 'The Protector' },
+	9: { name: 'The Peacemaker', alt: 'The Mediator' }
+};
+
+/** Display label like "Type 1 · The Perfectionist or Reformer". */
+export function formatTypeLabel(type: number): string {
+	const label = ENNEAGRAM_TYPE_LABELS[type];
+	return label ? `Type ${type} · ${label.name} or ${label.alt}` : `Type ${type}`;
+}
