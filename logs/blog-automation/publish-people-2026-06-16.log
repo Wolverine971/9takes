@@ -1,0 +1,31 @@
+No publishable draft exists right now — every candidate is blocked, and the auto-selector correctly refused.
+
+**What's blocking publish:**
+
+- **419 of 426** drafts are either already published, still on a **v1 grade** (`stale_grade_rubric_v1` → need `/grade_blog`), or **missing `content_quality`**.
+- **7 drafts** pass the score gates (overall ≥ 8.5, discoverability ≥ 7, rubric v2) but are **missing both image files** (`missing_full_image` + `missing_thumbnail_image`). I verified none exist anywhere under `static/types/`:
+
+| Draft | Type | Overall | Disc. | Needs |
+|---|---|---|---|---|
+| victoria-justice | 9 | 9.0 | 8.5 | `9s/Victoria-Justice.webp` + `s-` |
+| Keira-Knightley | 6 | 8.9 | 9 | `6s/keira-knightley.webp` + `s-` |
+| PinkPantheress | 5 | 8.8 | 8.5 | `5s/pinkpantheress.webp` + `s-` |
+| Andrew-Garfield | 4 | 8.7 | 8 | `4s/Andrew-Garfield.webp` + `s-` |
+| Nicholas-Galitzine | 4 | 8.7 | 9 | `4s/Nicholas-Galitzine.webp` + `s-` |
+| Hailee-Steinfeld | 3 | 8.6 | 8 | `3s/Hailee-Steinfeld.webp` + `s-` |
+| greta-gerwig | 6 | 8.5 | 8 | `6s/Greta-Gerwig.webp` + `s-` |
+
+**Why I'm stopping:** image generation is out of scope for this command, and type images are produced manually in Canva (no automated pipeline). Each of these 7 just needs its full + thumbnail `.webp` dropped into the matching `static/types/[type]s/` folder, then `/blog_content_publish_people <slug>` will sail through the gate.
+
+```text
+Published people blog.
+
+Person: none
+Result: BLOCKED — no eligible draft
+
+Blockers:
+- 7 grade-ready drafts missing full + thumbnail images (listed above)
+- remaining drafts: already published, stale v1 grade, or missing content_quality
+```
+
+Want me to publish one specific person the moment you add its images? If so, just give me the slug.

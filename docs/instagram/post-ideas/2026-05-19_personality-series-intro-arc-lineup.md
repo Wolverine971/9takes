@@ -54,49 +54,55 @@ Each person below is framed as: _"Here's the lore that makes you wonder what mak
 **Why he leads the arc:** DJ knows the world cold — the optimization/creator/longevity space — so first-hour comment authority is real. Audience overlap with 9takes is strong (self-improvement + personality readers).
 **Rebuilt 2026-06-09:** The original six tidbits were all canon facts from his own books/blog/podcast (Princeton library story, kickboxing weight cut, Uber stake, psilocybin retreat, TMS). A superfan's baseline IS his self-disclosures — every one failed the north star insider test for his audience. Replaced with deep cuts from [`docs/content-research/2026-06-09_tim-ferriss-deep-cuts.md`](../../content-research/2026-06-09_tim-ferriss-deep-cuts.md) (all sourced there).
 
+**Needle-thread pass 2026-06-16:** The deep-cut rebuild was all _outward_ lore (career, money, fame) — it generated "interesting guy" curiosity, but the blog pays off "what's the voice in his head doing to him." Mismatch. Swapped the two weakest-on-engine tidbits (Shopify dump, FBI stalker → demoted to Hold for stories) for the two quotes that ARE the Type 1 engine: the inner critic (#2, "two crappy pages") and the simmering anger (#4, "not a clean fuel"). Same north-star discipline — the quote carries the inner life, the slide never explains the Enneagram. Engine quotes sourced in the blog: Maté Ep #620 ("That's what happens to me"); Shawn Ryan #274, Jan 2026 ("a very angry human… not a clean fuel"); writing-quota line is canon from his books.
+
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
 
 ```
 1. At Princeton he earned $5 an hour as a lab rat in Daniel Kahneman's
    psychology experiments. (92 / shocker)
 
-2. The woman he expected to marry left him in 2004. Six months later:
-   the idea for The 4-Hour Workweek. (101 / deep)
+2. Four bestsellers. His daily writing quota: two "crappy pages," set
+   low so he's not too scared to start. (108 / deep)
 
 3. His first product was a cassette tape called How I Beat the Ivy
    League. It sold two copies — one to his mom. (108 / shocker)
 
-4. He killed a nearly finished book and returned the largest advance
-   of his career. (80 / deep)
+4. He calls himself "a very angry human" until ~2015. The rage: "not a
+   clean fuel... damage to the vessel." (104 / deep)
 
-5. He dumped his Shopify shares at about $2.50 the moment he could.
-   The stock later topped $150. (94 / shocker)
+5. He killed a nearly finished book and returned the largest advance
+   of his career. (80 / shocker)
 
-6. The FBI got involved when a fan flew to San Francisco convinced Tim
-   was messaging him through Facebook posts. (110 / deep)
+6. The woman he expected to marry left him in 2004. Six months later:
+   the idea for The 4-Hour Workweek. (101 / deep)
 ```
 
-**Rhythm:** 3 shockers + 3 deep, alternating S-D-S-D-S-D. Opens odd-and-light (Kahneman lab rat), closes heavy (the cost of fame).
+**Rhythm:** 3 shockers + 3 deep, alternating S-D-S-D-S-D. Opens odd-and-light (Kahneman lab rat), plants the engine in the middle two beats (inner critic + anger), closes on the origin wound. The reader leaves wondering about _him_, not his résumé.
+
+**Insider swap (optional):** For a less-circulated inner-critic beat, replace #2 with the "misbehave" systems quote — _He builds systems "to make it next to impossible to misbehave" — his word for skipping a workout. (110 / deep)_ The word _misbehave_ is the purest self-critical-voice tell in the blog.
 
 **Hold for stories:**
 
+- He dumped his Shopify shares at about $2.50 the moment he could. The stock later topped $150. (94)
+- The FBI got involved when a fan flew to San Francisco convinced Tim was messaging him through Facebook posts. (110)
 - He once argued on a parenting podcast that you should successfully train a chicken before having a kid. (101)
 - Anthony Bourdain's production company made his TV show. He spent 18 months and ~$200K buying it back. (98)
 - 700+ bookstores boycotted The 4-Hour Chef. He hit #1 anyway — via BitTorrent. (75)
 - He ran a $10,000-a-seat conference exactly once. It was trademarked: Opening the Kimono®. (88)
 
-**Do-not-use flags:** Never state the "$150M lost" figure (his tellings conflict — "nine figures on paper" only). No fatherhood/engagement claims (nothing verified through June 2026). No "bipolar diagnosis" framing (Wikipedia paraphrase, not his words).
+**Do-not-use flags:** Never state the "$150M lost" figure (his tellings conflict — "nine figures on paper" only). No fatherhood/engagement claims (nothing verified through June 2026). No "bipolar diagnosis" framing (Wikipedia paraphrase, not his words). OCD/ruminative-loops material stays in stories, not the slide — keep it to his own on-record words if used.
 
 ## Caption
 
 ```
-At Princeton, Tim Ferriss earned $5 an hour as a lab rat in Daniel Kahneman's psychology experiments.
+Tim Ferriss has four bestsellers. His daily writing quota is still two "crappy pages" — set deliberately low so he won't be too intimidated to start.
 
-His first product was a cassette tape called How I Beat the Ivy League. It sold two copies. One was to his mom.
+He's called himself "a very angry human" up until about 2015, and described the rage as fuel: "It's not a clean fuel. You do a lot of damage to the vessel."
 
-In 2004, the woman he expected to marry left him. Six months later came the idea that became The 4-Hour Workweek. Two decades after that, he killed a nearly finished book and returned the largest advance of his career.
+In 2004, the woman he expected to marry left him. Six months later came the idea that became The 4-Hour Workweek.
 
-What is all the optimization actually for?
+He's built a system for everything. So why does none of it ever feel good enough?
 
 Full read on 9takes — link in bio.
 

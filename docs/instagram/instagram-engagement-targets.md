@@ -2,7 +2,7 @@
 
 # Instagram Engagement Targets — @9takesdotcom
 
-_Last Updated: 2026-06-13 midday (bridge healthy; account layer BLOCKED at `instagram_account_not_in_picker` Day 5 — active account rotated back to @dj_pew_pew (was @djwayne3 on 6/11–6/12); picker grew back to 3 rows (dj_pew_pew / djwayne3 / build.os), @9takesdotcom still absent for the 5th straight day. The picker churns dj_pew_pew ⇄ djwayne3 but 9takes never returns on its own. DJ fix unchanged: password-gated "Log into an Existing Account" re-add (Step 1) + dedicated-profile rewire (Step 2, the only durable fix). Block window now 37 calendar days; only 1 posted-reply day (5/18 PM). See 2026-06-13 snapshot below.)_
+_Last Updated: 2026-06-16 morning (bridge healthy; account layer BLOCKED at `instagram_account_not_in_picker` Day 7 — active account rotated back to @djwayne3 (was @dj_pew_pew on 6/13–6/14); picker still 3 rows but third slot now a numeric `4109800852` in place of dj_pew_pew (djwayne3✓ / build.os / 4109800852), @9takesdotcom still absent for the 7th straight day. The picker keeps churning DJ's other accounts but 9takes never returns on its own. DJ fix unchanged: password-gated "Log into an Existing Account" re-add (Step 1) + dedicated-profile rewire (Step 2, the only durable fix). Block window now 40 calendar days; only 1 posted-reply day (5/18 PM). See 2026-06-16 snapshot below.)_
 _Purpose: Living document tracking accounts to engage with, organized by tier and category._
 _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply` account history._
 
@@ -11,6 +11,17 @@ _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply`
 ---
 
 ## Outbound Activity Snapshots (append-only)
+
+### 2026-06-16 — Block CONTINUES: `instagram_account_not_in_picker` Day 7 (active rotated back to @djwayne3; third picker slot now numeric `4109800852`; @9takesdotcom still absent)
+
+- **Window:** Daily scan following 6/14 (no warmup ran 6/15). Same failure variant; state drifted again (active account rotated, third picker row changed identity).
+- **Bridge ✅ (healthy):** `tabs_context_mcp` returned a fresh MCP tab group (group `1337762899`, tab `528829925`), `navigate` to `https://www.instagram.com/` succeeded, `computer` screenshot + click executed normally. No extension drop.
+- **Account ❌ (blocked, Day 7):** Live, logged-in session is **@djwayne3** (verified two signals: top-right widget `djwayne3 / DJ Wayne` + personal home feed — kaitlyn_pevytoe1224 balloon/pool post ~1d old; story rail glittrgrav… / joekent16… / chagen81… / ed_garne… / riickiiann / tbone_ro…; suggested-for-you Justin Hibbard / D Mooney / Sandy Fontz / Karen McClure / Valkyrie Ranch). Switch-accounts modal (opened via top-right Switch link at (1277,61)) lists exactly `djwayne3` (active ✓) / `build.os` / `4109800852` + password-gated `Log into an Existing Account`. **No `9takesdotcom` row.** Did NOT enter a password (prohibited credential entry). Closed the modal via the X without switching. No interaction with any post, story, profile, hashtag, DM, or notification. Phase 7 not reached.
+- **New signal — churn continues, new identity:** Active account rotated overnight from @dj_pew_pew (6/13–6/14) back to @djwayne3, and the third picker slot now renders as a **numeric `4109800852`** rather than `dj_pew_pew`. `build.os` remains the only constant. The shared profile keeps reshuffling DJ's other accounts; @9takesdotcom has not reappeared once since the 6/9 eviction.
+- **Layer status:** Bridge ✅ · Account ❌ (`instagram_account_not_in_picker`). Trail: 6/4–6/5 logged-out (9takes in picker) → 6/6 bridge drop → 6/8 bridge recovered, logged-out (9takes in picker) → 6/9 live @dj_pew_pew, 9takes evicted → 6/10 identical → 6/11 active→@djwayne3, picker 2 rows → 6/12 stable (@djwayne3, 2 rows) → 6/13 active→@dj_pew_pew, picker 3 rows → 6/14 identical → **6/16 Day 7, active→@djwayne3, picker 3 rows (third slot now `4109800852`).**
+- **Cumulative cost:** From 5/7 PM through today = **40 calendar days**, still only 1 posted-reply day (5/18 PM). Backlog ~8+ unposted items (5/22 + 5/23), all stale. Vanessa cover-up Anchor (`/p/DYDWMN_SB3a/`, ~Day 40) continues compounding alone.
+- **Resolution required (DJ):** Unchanged. **Step 1 (password-gated re-add):** Switch (top-right) → `Log into an Existing Account` → @9takesdotcom credentials → confirm purple-9takes avatar + `9takesdotcom / 9takes · Enneagram & Personality` widget + Enneagram story rail + `/notifications/` loads without redirect. **Step 2 (structural, the only durable fix):** Dedicated Chrome profile where @9takesdotcom is the only/primary session — 7 days of dj_pew_pew ⇄ djwayne3 churn (now with a numeric account surfacing) and no 9takes return proves this shared profile will not retain a re-added session.
+- **Doc:** `docs/instagram/daily-engagement/2026-06-16_instagram-warmup.md`
 
 ### 2026-06-13 — Block CONTINUES: `instagram_account_not_in_picker` Day 5 (active rotated back to @dj_pew_pew; picker back to 3 rows; @9takesdotcom still absent)
 

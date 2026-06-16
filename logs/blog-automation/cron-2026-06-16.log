@@ -1,0 +1,27 @@
+[2026-06-16 02:08:47] [INFO] Daily blog creator: reconciled hailee-steinfeld (8.6 B+) to completed; selected kurt-russell (Type 9, priority 61). Launching 7-stage pipeline.
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  kurt-russell
+Draft:   src/blog/people/drafts/kurt-russell.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-16_020851_kurt-russell
+Started: Tue Jun 16 02:08:51 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:08:51)
+Command: /blog_content_creator_people_v2 kurt-russell --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-16_020851_kurt-russell/1_create.log
+─────────────────────────────────────────────────────
+The pipeline is running (background ID `bqavqa2uk`). Here's the state so far:
+
+**Pre-flight + reconciliation (done):**
+- ✅ Override: not paused
+- ⚠️ Found stuck `inProgress`: **hailee-steinfeld** — but investigation showed its 2026-06-15 pipeline actually **completed fully** (all 7 stages, lint passed, graded **8.6 B+**, discoverability 8). The orchestrator had just died before bookkeeping (same failure pattern as keira-knightley on 06-13). Reconciled it to `completed` with a recovery note rather than letting it get mislabeled as a stale-timeout skip tomorrow.
+- ✅ Rate limit: incremented to **1/5** this week (for the recovered hailee completion)
+- ✅ Selected next: **kurt-russell** (Type 9, priority 61) — no existing draft; set as `inProgress` with fresh `startedAt`
+
+**Pipeline (running):** Full 7-stage path (`create → fresh_eyes → second_pass → cohesion → editor_pass → enrich_frontmatter → grade`, + conditional revise/regrade) for kurt-russell. Expected 30–60 min.
+
+I'm leaving it as a harness-tracked background process — it survives across turns and will re-invoke me on exit (this is *not* the orphaning failure the playbook warns about; that was the OpenClaw scheduler killing processes on turn-end). When it completes I'll verify the draft, capture the grade from frontmatter, move kurt-russell from `inProgress` to `completed`, bump the rate limit to 2/5, and send the notification.
+
+I'll report back when the pipeline finishes.

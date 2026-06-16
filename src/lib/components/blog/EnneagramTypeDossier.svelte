@@ -199,7 +199,11 @@
 		--data-cyan: #5eead4;
 		--ink-bright: #faf8f4;
 		--ink-mid: #a8a095;
-		--ink-dim: #5c4f47;
+		/* Mono labels (CORE FEAR, STANCE, stat labels…) ride on --ink-dim.
+		   #5c4f47 against the #241d17 card was <2:1 contrast — unreadable in
+		   dark mode (2026-06-16). Match the global dark dim (#948578) so the
+		   labels clear ~4.5:1 while staying quieter than --ink-mid/--ink-bright. */
+		--ink-dim: #948578;
 		--pool-rgb: 245, 158, 11;
 		--font-display: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 		--font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
