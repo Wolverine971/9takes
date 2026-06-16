@@ -39,7 +39,7 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	register: async ({ request, locals, getClientAddress }) => {
+	register: async ({ request, locals, getClientAddress, url }) => {
 		const clientIP = getClientAddress();
 		let normalizedEmail = '';
 
@@ -116,7 +116,9 @@ export const actions: Actions = {
 				email: normalizedEmail,
 				password,
 				options: {
-					emailRedirectTo: 'https://9takes.com/login'
+					// Route the confirmation link back to the origin that served the
+					// form so dev/preview confirmations don't bounce to production.
+					emailRedirectTo: `${url.origin}/login`
 				}
 			});
 
@@ -149,27 +151,36 @@ export const actions: Actions = {
 				});
 			}
 
-			const newUserId = signUpData.user?.id;
-			const enrollmentId = await safelyEnrollUserInWelcomeSequence({
-				userId: newUserId,
-				email: normalizedEmail,
-				onError: (sequenceError) => {
-					logger.error('Failed to enroll user in welcome sequence', sequenceError as Error, {
-						email: normalizedEmail,
-						userId: newUserId
-					});
-				}
-			});
-			await safelyProcessWelcomeSequenceEnrollmentNow({
-				enrollmentId,
-				onError: (sequenceError) => {
-					logger.error('Failed to send initial welcome sequence email', sequenceError as Error, {
-						email: normalizedEmail,
-						userId: newUserId,
-						enrollmentId
-					});
-				}
-			});
+			// Supabase returns a 200 with an obfuscated user (no error, empty
+			// `identities`) when the email already belongs to a confirmed account,
+			// to prevent enumeration. Don't re-enroll / re-email those users — just
+			// return the same generic success the genuine path returns.
+			const isExistingConfirmedUser =
+				Array.isArray(signUpData.user?.identities) && signUpData.user.identities.length === 0;
+
+			if (!isExistingConfirmedUser) {
+				const newUserId = signUpData.user?.id;
+				const enrollmentId = await safelyEnrollUserInWelcomeSequence({
+					userId: newUserId,
+					email: normalizedEmail,
+					onError: (sequenceError) => {
+						logger.error('Failed to enroll user in welcome sequence', sequenceError as Error, {
+							email: normalizedEmail,
+							userId: newUserId
+						});
+					}
+				});
+				await safelyProcessWelcomeSequenceEnrollmentNow({
+					enrollmentId,
+					onError: (sequenceError) => {
+						logger.error('Failed to send initial welcome sequence email', sequenceError as Error, {
+							email: normalizedEmail,
+							userId: newUserId,
+							enrollmentId
+						});
+					}
+				});
+			}
 
 			await recordAuthProtectionEvent({
 				flow: 'register',

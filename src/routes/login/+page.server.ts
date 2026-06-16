@@ -1,6 +1,7 @@
 // src/routes/login/+page.server.ts
 import { AuthApiError } from '@supabase/supabase-js';
 import { fail, redirect } from '@sveltejs/kit';
+import { establishSessionFromAuthRedirect } from '$lib/server/authCallback';
 import { getAuthProtectionState, recordAuthProtectionEvent } from '$lib/server/authProtection';
 import { logger } from '$lib/utils/logger';
 import { verifyRecaptcha } from '$lib/utils/recaptcha';
@@ -17,10 +18,21 @@ const loginSchema = z.object({
 });
 
 export const load: PageServerLoad = async (event) => {
-	// redirect user if logged in
-	const user = event.locals.user;
+	// Email confirmation links redirect here with a PKCE `?code=` (or
+	// `?token_hash=&type=signup`). Completing the exchange signs the new user in.
+	const redirectResult = await establishSessionFromAuthRedirect(event);
+
+	// locals.user was resolved in hooks before this load ran, so re-read after a
+	// successful exchange to catch the freshly confirmed user.
+	let user = event.locals.user;
+	if (!user && redirectResult.exchanged) {
+		const refreshed = await event.locals.safeGetSession();
+		user = refreshed.user;
+	}
+
+	// redirect user if logged in (also covers a just-confirmed signup)
 	if (user?.id) {
-		throw redirect(302, '/');
+		throw redirect(303, '/');
 	}
 
 	const protectionState = await getAuthProtectionState({
@@ -29,7 +41,8 @@ export const load: PageServerLoad = async (event) => {
 	});
 
 	return {
-		captchaRequired: protectionState.captchaRequired
+		captchaRequired: protectionState.captchaRequired,
+		confirmationError: redirectResult.failed
 	};
 };
 
@@ -105,9 +118,18 @@ export const actions: Actions = {
 						identifier: normalizedEmail
 					});
 
-					logger.warn('Login failed - invalid credentials', { email: normalizedEmail });
+					// Distinguish an unconfirmed account from wrong credentials so the
+					// user knows to check their inbox instead of retrying the password.
+					const emailNotConfirmed = err.code === 'email_not_confirmed';
+					if (emailNotConfirmed) {
+						logger.warn('Login failed - email not confirmed', { email: normalizedEmail });
+					} else {
+						logger.warn('Login failed - invalid credentials', { email: normalizedEmail });
+					}
 					return fail(400, {
-						error: 'Invalid credentials',
+						error: emailNotConfirmed
+							? 'Please confirm your email before logging in. Check your inbox for the confirmation link.'
+							: 'Invalid credentials',
 						captchaRequired: nextProtectionState.captchaRequired
 					});
 				}

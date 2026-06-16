@@ -58,7 +58,10 @@ function buildRegisterRequest(overrides: Record<string, string> = {}) {
 }
 
 function buildEvent(
-	signUpResult?: { data?: { user?: { id: string } | null }; error?: unknown },
+	signUpResult?: {
+		data?: { user?: { id: string; identities?: unknown[] } | null };
+		error?: unknown;
+	},
 	requestOverrides: Record<string, string> = {}
 ) {
 	const signUp = vi.fn().mockResolvedValue(
@@ -78,6 +81,7 @@ function buildEvent(
 			}
 		},
 		getClientAddress: () => '127.0.0.1',
+		url: new URL('http://localhost/register'),
 		_signUp: signUp
 	};
 }
@@ -129,6 +133,20 @@ describe('register action', () => {
 				enrollmentId: null
 			})
 		);
+	});
+
+	it('does not re-enroll an already-registered email (Supabase anti-enumeration response)', async () => {
+		const event = buildEvent({
+			data: { user: { id: 'existing-123', identities: [] } },
+			error: null
+		});
+
+		const result = await actions.register(event as any);
+
+		// Same generic success the genuine path returns, but no welcome email.
+		expect(result).toEqual({ success: true });
+		expect(safelyEnrollMock).not.toHaveBeenCalled();
+		expect(safelyProcessMock).not.toHaveBeenCalled();
 	});
 
 	it('only verifies reCAPTCHA after registration risk thresholds are hit', async () => {
