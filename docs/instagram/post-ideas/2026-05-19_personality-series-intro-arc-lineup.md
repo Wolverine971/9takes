@@ -95,26 +95,32 @@ Each person below is framed as: _"Here's the lore that makes you wonder what mak
 
 ## Caption
 
+**Strategy (2026-06-16): type-first, person-as-vessel.** The caption sells the Enneagram type, not the celebrity. Open with relatable symptoms of the type so a stranger self-identifies → name the type → use the person as living proof → pull the type's core struggle → send them to the full read. The tidbits stay as trivia on the slide; the caption turns them into evidence of the pattern. Engagement bait is type-oriented (self-ID + tag), which widens reach past the person's own fans and points everything back at the product.
+
 ```
-Tim Ferriss has four bestsellers. His daily writing quota is still two "crappy pages" — set deliberately low so he won't be too intimidated to start.
+Do you notice what's wrong in a room before you notice what's right? Re-read the same email three times? Live with a quiet hum of "this could be better" that never fully shuts off?
 
-He's called himself "a very angry human" up until about 2015, and described the rage as fuel: "It's not a clean fuel. You do a lot of damage to the vessel."
+That's Enneagram Type 1 — the Perfectionist. And Tim Ferriss has it in spades.
 
-In 2004, the woman he expected to marry left him. Six months later came the idea that became The 4-Hour Workweek.
+Four bestsellers, and his daily writing quota is still two "crappy pages" — set deliberately low so the inner critic won't scare him out of starting.
 
-He's built a system for everything. So why does none of it ever feel good enough?
+He's called himself "a very angry human" up until about 2015, and described the rage as fuel: "It's not a clean fuel. You do a lot of damage to the vessel." Type 1 anger rarely shows up as anger — it leaks out as criticism, discipline, control.
 
-Full read on 9takes — link in bio.
+The catch with Ones: no amount of success ever quiets the voice that says it's still not good enough.
 
-Which fact stayed with you? 👇
+Full breakdown of Tim — and the Type 1 pattern underneath the optimization — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #timferriss #4hourworkweek #optimization #productivity #personalitypsychology #patternrecognition #9takes #celebrityanalysis #selfimprovement
+Are you a Type 1? Tag one who is. 👇
+
+#enneagram #personalityanalysis #enneagramtype1 #perfectionist #timferriss #4hourworkweek #personalitypsychology #patternrecognition #9takes #celebrityanalysis #selfimprovement
 ```
+
+**Alt opener (simpler, blunter):** _"Are you a perfectionist? The real kind — where 'good enough' never quite is? Meet Enneagram Type 1. And meet its poster child: Tim Ferriss."_
 
 ## Pinned first comment
 
 ```
-Full read on Tim — what's underneath the optimization, what the system is actually for:
+The full Type 1 breakdown — where the inner critic comes from, why nothing ever feels finished, and how Tim runs on it:
 9takes.com/personality-analysis/tim-ferriss
 ```
 
@@ -155,25 +161,27 @@ Full read on Tim — what's underneath the optimization, what the system is actu
 ## Caption
 
 ```
-Sabrina Carpenter's dad turned the family's "Harry Potter closet" into a recording studio and painted it purple.
+Do you become whoever the room needs you to be? Measure your worth by the win? Quietly worry that if you stopped performing, there'd be no one underneath?
 
-Years later she wrote Espresso in Chailland, France — a ghost town with an empty church and one creperie five minutes away.
+That's Enneagram Type 3 — the Achiever. And Sabrina Carpenter has turned it into an art form.
 
-What sold her on her New York apartment was the fire escape — she liked that she could "watch the rats from above."
+The whole "hot girl" persona — the winking one-liners, the pink-handcuff bits, the constant reinventions — is a performance she controls down to the detail. Threes don't show you the person; they show you the version that wins the room.
 
-What does it actually take to write the song of the summer in a town with no one in it?
+She wrote "Espresso" in a French ghost town with one creperie — no audience, just the work that becomes the image.
 
-Full read on 9takes — link in bio.
+The catch with Threes: the performance gets so good that even they can lose track of who's behind it.
 
-Which one's the most "wait, really?" 👇
+Full breakdown of Sabrina — and the Type 3 engine under the wink — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #sabrinacarpenter #espresso #shortnsweet #popmusic #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 3? Tag one who is. 👇
+
+#enneagram #personalityanalysis #enneagramtype3 #theachiever #sabrinacarpenter #shortnsweet #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Sabrina — what's actually driving the work, why the "hot girl" persona is the bit and not the engine:
+The full Type 3 breakdown — why the image is the product, what "winning the room" quietly costs, and how Sabrina runs on it:
 9takes.com/personality-analysis/sabrina-carpenter
 ```
 
@@ -218,25 +226,27 @@ Full read on Sabrina — what's actually driving the work, why the "hot girl" pe
 ## Caption
 
 ```
-Kai Cenat turned down $60 million from Kick. The moment he hung up the phone, he dropped to his knees and prayed.
+Do you pack every gap in your calendar so there's no room to sit still? Chase the next thing before the last one's even over? Feel a crash the moment the fun stops?
 
-During Mafiathon 3, Kim Kardashian hurled a glass table at him on stream. LeBron James cut his locs when he hit a million subs — Kai's mom snipped the first one.
+That's Enneagram Type 7 — the Enthusiast. And Kai Cenat is the most extreme version on the internet.
 
-Then he went dark for two months. His explanation: "I realized that I was losing touch of reality."
+A billion-view career built on never stopping — bigger streams, bigger stunts, more. Sevens run on momentum because the motion keeps the hard stuff from catching up.
 
-What is the most-watched 24-year-old on the internet praying about?
+Then, after the biggest stream of his life, he went dark for two months: "I realized I was losing touch of reality." That's the Seven's hidden bill — what arrives when the perpetual motion finally stops.
 
-Full read on 9takes — link in bio.
+The catch with Sevens: the speed is the gift and the avoidance, at the exact same time.
 
-Which fact stayed with you? 👇
+Full breakdown of Kai — and the Type 7 pattern under the grind — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #kaicenat #twitch #mafiathon #streamer #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 7? Tag one who can't sit still. 👇
+
+#enneagram #personalityanalysis #enneagramtype7 #theenthusiast #kaicenat #twitch #streamer #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Kai — what the prayer, the grind, and the two-month vanishing act have in common:
+The full Type 7 breakdown — why Sevens keep moving, what the crash is really about, and how Kai runs on it:
 9takes.com/personality-analysis/kai-cenat
 ```
 
@@ -277,25 +287,27 @@ Full read on Kai — what the prayer, the grind, and the two-month vanishing act
 ## Caption
 
 ```
-Lana Del Rey was drinking daily and alone at 14. Her parents sent her to boarding school to get sober.
+Do you feel like something's missing that everyone else just… got? Romanticize your own sadness a little? Feel most yourself when you're the outsider looking in?
 
-She spent her first $10K record advance moving into a New Jersey trailer park — and majored in philosophy at Fordham because it "bridged the gap between God and science."
+That's Enneagram Type 4 — the Individualist. And Lana Del Rey built an entire aesthetic on it.
 
-In 2024 she married Jeremy Dufrene, an alligator-tour captain she met by taking his swamp tour.
+Fours turn longing into identity. She spent her first $10K advance moving into a New Jersey trailer park and majored in philosophy because it "bridged the gap between God and science" — the melancholy isn't a phase, it's the lens she sees through.
 
-Where does the music actually come from — the Hollywood Hills, or a swamp boat in Louisiana?
+Then the sad-glam queen of Hollywood married an alligator-tour captain she met on his swamp boat. Fours don't want the obvious life; they want the one that feels true.
 
-Full read on 9takes — link in bio.
+The catch with Fours: the longing that fuels the art is the same thing that makes ordinary happiness feel like a betrayal.
 
-Which one wants the most context? 👇
+Full breakdown of Lana — and the Type 4 engine under the glamour — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #lanadelrey #lizzygrant #popmusic #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 4? Tag one who feels everything. 👇
+
+#enneagram #personalityanalysis #enneagramtype4 #theindividualist #lanadelrey #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Lana — why the persona and the person keep trading places:
+The full Type 4 breakdown — where the longing comes from, why "different" feels safer than "happy," and how Lana runs on it:
 9takes.com/personality-analysis/lana-del-rey
 ```
 
@@ -337,25 +349,27 @@ Full read on Lana — why the persona and the person keep trading places:
 ## Caption
 
 ```
-Before a single Brat song was recorded, Charli XCX wrote a 20-page manifesto breaking down every element of the campaign.
+Do you make the calculated thing look effortless? Engineer the "messy and authentic" version because it lands harder? Quietly run the strategy while everyone thinks you're winging it?
 
-Her grandparents fled Idi Amin's Uganda with the family's money rolled up inside toothpaste tubes. At 14 she was playing illegal warehouse raves in east London while her mother chaperoned, terrified.
+That's Enneagram Type 3 — the Achiever — in its most cunning form. And Charli XCX is the proof.
 
-The day before Brat dropped, she sent Lorde a voice note about "Girl, so confusing." The remix took three days to make.
+"Brat" looked like pure chaos. But before a single song was recorded, she wrote a 20-page manifesto breaking down every element of the campaign. Threes don't stumble into the moment — they design it, then make the design invisible.
 
-How much of the chaos is instinct — and how much is project-managed?
+Even the spontaneity is staged: the day before Brat dropped she sent Lorde a voice note, and the "off-the-cuff" remix took three days to build.
 
-Full read on 9takes — link in bio.
+The catch with Threes: when even the rebellion is strategic, the scary question is whether anything you do is just for you.
 
-Which one wants the most context? 👇
+Full breakdown of Charli — and the Type 3 strategist under the chaos — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #charlixcx #brat #popmusic #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 3? Tag the one who's always three steps ahead. 👇
+
+#enneagram #personalityanalysis #enneagramtype3 #theachiever #charlixcx #brat #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Charli — the planner underneath the party girl, and why both are real:
+The full Type 3 breakdown — why the chaos is engineered, what gets lost when the image always wins, and how Charli runs on it:
 9takes.com/personality-analysis/charli-xcx
 ```
 
@@ -396,25 +410,27 @@ Full read on Charli — the planner underneath the party girl, and why both are 
 ## Caption
 
 ```
-Four years before she was reshaping pop, Chappell Roan was working the counter at a donut shop. Atlantic Records had just dropped her.
+Do you bristle the second someone tries to control you? Lead with armor so nobody reaches the soft part? Fight for the underdog because you remember being one?
 
-She grew up going to church three times a week in Willard, Missouri. Her uncle is a Republican state representative.
+That's Enneagram Type 8 — the Challenger. And Chappell Roan is a textbook case.
 
-The "call me hot, not pretty" lyric came from overhearing two girls in the school lunch line: "she's pretty but she's not like hot."
+Atlantic dropped her; she worked a donut counter and came back on her own terms — setting hard boundaries with fans and press that most new stars would never dare. Eights don't ask permission; they take the power back.
 
-What does it cost to build the persona that's currently reshaping pop?
+When an exec mocked her Grammy speech, she didn't sulk — she put up $25K for dropped artists, and Noah Kahan and Charli XCX matched her. That's the Eight move: turn a hit into a stand.
 
-Full read on 9takes — link in bio.
+The catch with Eights: the armor that protects the tender part also keeps people from reaching it.
 
-Tag someone who needs this read 👇
+Full breakdown of Chappell — and the Type 8 engine under the defiance — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #chappellroan #midwestprincess #popmusic #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 8? Tag one who refuses to be controlled. 👇
+
+#enneagram #personalityanalysis #enneagramtype8 #thechallenger #chappellroan #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Chappell — the church kid, the persona, and what the distance between them costs:
+The full Type 8 breakdown — what the armor protects, why control matters this much, and how Chappell runs on it:
 9takes.com/personality-analysis/chappell-roan
 ```
 
@@ -457,25 +473,27 @@ Full read on Chappell — the church kid, the persona, and what the distance bet
 ## Caption
 
 ```
-Robert Greene worked 80 jobs by his own count — construction in Greece, hotel reception in Paris, skip-tracing debtors in LA — and was having suicidal thoughts when he started The 48 Laws of Power at 38.
+Do you retreat into your head the moment things get intense? Feel safest observing instead of participating? Would rather understand a feeling than actually have it?
 
-Every book since: 300–400 complete works read, thousands of handwritten color-coded index cards, fountain pen.
+That's Enneagram Type 5 — the Investigator. And Robert Greene made a career of it.
 
-Ryan Holiday has worked beside him for almost two decades and has never once seen him yell.
+300–400 complete books read per project, thousands of handwritten color-coded index cards, the mechanics of power mapped more coldly than anyone alive. Fives replace feeling with understanding — they study the thing instead of living it.
 
-What kind of person studies power for a living and never once uses it in the room?
+Here's the tell: he's spent decades cataloguing power, and Ryan Holiday — beside him almost twenty years — has never once seen him use it. Never seen him yell. The man who decoded power doesn't reach for it.
 
-Full read on 9takes — link in bio.
+The catch with Fives: you can map every move on the board and still be watching the game from behind glass.
 
-Which fact stayed with you? 👇
+Full breakdown of Robert — and the Type 5 engine under the genius — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #robertgreene #48lawsofpower #stoicism #books #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 5? Tag the observer in your life. 👇
+
+#enneagram #personalityanalysis #enneagramtype5 #theinvestigator #robertgreene #48lawsofpower #books #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Robert — what 80 jobs and 4,000 index cards are actually protecting:
+The full Type 5 breakdown — why Fives watch from the edges, what the knowledge is really protecting, and how Robert runs on it:
 9takes.com/personality-analysis/robert-greene
 ```
 
@@ -516,25 +534,27 @@ Full read on Robert — what 80 jobs and 4,000 index cards are actually protecti
 ## Caption
 
 ```
-Pedro Pascal's parents hid from Pinochet's secret police for six months while he was a baby — then fled Chile through the Venezuelan embassy.
+Do you scan every room for what could go wrong? Stay fiercely loyal to the few people who are truly yours? Feel the anxiety in your body before your mind even names it?
 
-Before Game of Thrones, he was down to $7 to his name — until a residual check from one Buffy episode arrived. Sarah Paulson fed him out of her per diem.
+That's Enneagram Type 6 — the Loyalist. And Pedro Pascal wears it on his sleeve — literally.
 
-He's photographed on red carpets with his hand pressed to his chest. He told Bella Ramsey: "my anxiety is right here."
+On red carpets he presses his hand to his chest. He told Bella Ramsey what it means: "my anxiety is right here." Sixes don't hide the fear so much as move through it — that's exactly where the courage comes from.
 
-How does that résumé build the guy everyone on the internet wants to be hugged by?
+And the loyalty runs both ways: down to $7 before Game of Thrones, he was fed by Sarah Paulson out of her per diem — a friendship he's never stopped repaying. Sixes build found families and defend them for life.
 
-Full read on 9takes — link in bio.
+The catch with Sixes: the anxiety never fully leaves — but it's the same wiring that makes him the person everyone feels safe around.
 
-Which fact stayed with you? 👇
+Full breakdown of Pedro — and the Type 6 engine under the warmth — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #pedropascal #thelastofus #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis #emotionalintelligence
+Are you a Type 6? Tag your most loyal person. 👇
+
+#enneagram #personalityanalysis #enneagramtype6 #theloyalist #pedropascal #thelastofus #personalitypsychology #patternrecognition #9takes #celebrityanalysis #emotionalintelligence
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Pedro — what makes him tick, what the anxiety is doing, and why the warmth holds up under pressure:
+The full Type 6 breakdown — what the anxiety is doing, why the loyalty runs so deep, and how Pedro runs on it:
 9takes.com/personality-analysis/pedro-pascal
 ```
 

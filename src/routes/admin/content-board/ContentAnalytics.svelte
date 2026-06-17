@@ -1,5 +1,6 @@
 <!-- src/routes/admin/content-board/ContentAnalytics.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 
 	interface AnalyticsItem {
@@ -100,8 +101,8 @@
 	}
 
 	// Fetch on mount
-	$effect(() => {
-		fetchAnalytics();
+	onMount(() => {
+		void fetchAnalytics();
 	});
 
 	// Filter analytics data to match filtered blog list and draft filter
