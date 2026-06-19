@@ -1,26 +1,11 @@
 {
-	"lastUpdated": "2026-06-19T20:51:21Z",
+	"lastUpdated": "2026-06-19T21:17:13Z",
 	"stats": {
-		"totalUnpublished": 125,
+		"totalUnpublished": 126,
 		"totalPublished": 266,
-		"completionRate": "68.0%"
+		"completionRate": "67.8%"
 	},
 	"queue": [
-		{
-			"name": "nick-offerman",
-			"displayName": "Nick Offerman",
-			"type": 5,
-			"priority": 60,
-			"priorityReason": "Parks and Recreation favorite with evergreen search, deep woodworking/whisky/craft specialty, and a 5w4 craftsman-intellectual angle (was Type 9 — corrected during audit; Ron Swanson is 8w9, the actor is a 5)",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-21",
-			"retryCount": 2,
-			"strategicValue": "comedy-legacy-cluster",
-			"lastAttemptAt": "2026-06-19T20:49:23Z",
-			"lastAttemptResult": "daily creator wrapper exited during stage 1; stage 1 log was 0 bytes and no pipeline process remained"
-		},
 		{
 			"name": "john-goodman",
 			"displayName": "John Goodman",
@@ -898,6 +883,28 @@
 			"letter": "B+",
 			"discoverability": 8.5,
 			"duration": 30
+		},
+		{
+			"name": "nick-offerman",
+			"displayName": "Nick Offerman",
+			"type": 5,
+			"priority": 60,
+			"priorityReason": "Parks and Recreation favorite with evergreen search, deep woodworking/whisky/craft specialty, and a 5w4 craftsman-intellectual angle (was Type 9 — corrected during audit; Ron Swanson is 8w9, the actor is a 5)",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": "Hollywood's Tender Woodsman",
+			"addedToQueue": "2026-04-21",
+			"retryCount": 2,
+			"strategicValue": "comedy-legacy-cluster",
+			"startedAt": "2026-06-19T20:52:09Z",
+			"completedAt": "2026-06-19T21:17:13Z",
+			"contentGrade": 8.9,
+			"letter": "B+",
+			"discoverability": 9,
+			"duration": 25,
+			"needsReview": false,
+			"pipelineLog": "docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman",
+			"recoveryNote": "Daily creator wrapper failed twice during stage 1 with zero-byte logs and no draft; completed by direct run of scripts/run-blog-pipeline.sh."
 		}
 	],
 	"inProgress": null,

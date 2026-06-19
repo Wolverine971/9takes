@@ -62,12 +62,7 @@ type SignupRow = {
 	first_touch_fingerprint: string | null;
 };
 
-type SignupSecuritySignal =
-	| 'quarantined'
-	| 'high_risk'
-	| 'review'
-	| 'looks_real'
-	| 'normal';
+type SignupSecuritySignal = 'quarantined' | 'high_risk' | 'review' | 'looks_real' | 'normal';
 
 type SignupWithSignals = SignupRow & {
 	isSuppressed: boolean;
@@ -236,10 +231,7 @@ async function attachSignupSignals(signups: SignupRow[]): Promise<SignupWithSign
 			emailHash && signupTime
 				? (authEventsByHash.get(emailHash) ?? []).filter((event) => {
 						const eventTime = event.created_at ? new Date(event.created_at).getTime() : 0;
-						return (
-							eventTime > 0 &&
-							Math.abs(eventTime - signupTime) <= SIGNUP_AUTH_EVENT_WINDOW_MS
-						);
+						return eventTime > 0 && Math.abs(eventTime - signupTime) <= SIGNUP_AUTH_EVENT_WINDOW_MS;
 					})
 				: [];
 		const suppression = unsubscribeByEmail.get(normalizedEmail);

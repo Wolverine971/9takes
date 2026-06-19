@@ -157,6 +157,11 @@ export const load: PageServerLoad = async (event) => {
 		totalCommentsResult,
 		enneagramDistribution,
 		recentSignupsResult,
+		totalEmailSignupsResult,
+		newEmailSignupsTodayResult,
+		newEmailSignupsWeekResult,
+		newEmailSignupsMonthResult,
+		recentEmailSignupsResult,
 		questionsTodayResult,
 		commentsTodayResult,
 		retentionSummaryResult,
@@ -192,6 +197,26 @@ export const load: PageServerLoad = async (event) => {
 			.select('id, email, enneagram, created_at, external_id')
 			.order('created_at', { ascending: false })
 			.limit(8),
+		supabase.from('signups').select('id', { count: 'estimated', head: true }),
+		supabase
+			.from('signups')
+			.select('id', { count: 'exact', head: true })
+			.gte('created_at', today.toISOString()),
+		supabase
+			.from('signups')
+			.select('id', { count: 'exact', head: true })
+			.gte('created_at', sevenDaysAgo.toISOString()),
+		supabase
+			.from('signups')
+			.select('id', { count: 'exact', head: true })
+			.gte('created_at', thirtyDaysAgo.toISOString()),
+		supabase
+			.from('signups')
+			.select(
+				'id, email, name, created_at, first_landing_path, first_acquisition_source, unsubscribed_date'
+			)
+			.order('created_at', { ascending: false })
+			.limit(8),
 		supabase
 			.from('questions')
 			.select('id', { count: 'exact', head: true })
@@ -222,6 +247,24 @@ export const load: PageServerLoad = async (event) => {
 	}
 	if (dailyQuestionsResult.error) {
 		console.error('Failed to load admin daily question stats', dailyQuestionsResult.error);
+	}
+	if (totalEmailSignupsResult.error) {
+		console.error('Failed to load admin email signup total', totalEmailSignupsResult.error);
+	}
+	if (newEmailSignupsTodayResult.error) {
+		console.error('Failed to load admin email signups today', newEmailSignupsTodayResult.error);
+	}
+	if (newEmailSignupsWeekResult.error) {
+		console.error('Failed to load admin email signups this week', newEmailSignupsWeekResult.error);
+	}
+	if (newEmailSignupsMonthResult.error) {
+		console.error(
+			'Failed to load admin email signups this month',
+			newEmailSignupsMonthResult.error
+		);
+	}
+	if (recentEmailSignupsResult.error) {
+		console.error('Failed to load admin recent email signups', recentEmailSignupsResult.error);
 	}
 
 	const retentionSummary =
@@ -259,6 +302,11 @@ export const load: PageServerLoad = async (event) => {
 		activeContributors,
 		enneagramDistribution,
 		recentSignups: recentSignupsResult.data || [],
+		totalEmailSignups: totalEmailSignupsResult.count || 0,
+		newEmailSignupsToday: newEmailSignupsTodayResult.count || 0,
+		newEmailSignupsWeek: newEmailSignupsWeekResult.count || 0,
+		newEmailSignupsMonth: newEmailSignupsMonthResult.count || 0,
+		recentEmailSignups: recentEmailSignupsResult.data || [],
 		questionsToday: questionsTodayResult.count || 0,
 		commentsToday: commentsTodayResult.count || 0,
 		retentionSummary,

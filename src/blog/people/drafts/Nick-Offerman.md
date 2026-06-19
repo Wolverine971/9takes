@@ -2,7 +2,7 @@
 title: 'Nick Offerman: An Enneagram Type 9 Analysis'
 meta_title: 'Why Nick Offerman Cried for 30 Minutes Over Ron Swanson'
 persona_title: "Hollywood's Tender Woodsman"
-description: 'Why does the man who played TV\'s gruffest stoic cry so easily? Nick Offerman\'s Enneagram Type 9 explains the softie behind Ron Swanson\'s mustache.'
+description: "Why does the man who played TV's gruffest stoic cry so easily? Nick Offerman's Enneagram Type 9 explains the softie behind Ron Swanson's mustache."
 author: 'DJ Wayne'
 date: '2026-06-19'
 loc: 'https://9takes.com/personality-analysis/nick-offerman'
@@ -84,7 +84,31 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Nick-Offerman.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  discoverability: 9
+  overall: 8.9
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-19'
 ---
+
+<!-- QUALITY GRADE: B+ (8.9) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 9 | Writing: 8.5 | Hook: 9
+
+FEEDBACK (2026-06-19):
+- SIGNATURE INSIGHT: "He doesn't resent Ron. He curates him" reframes the whole Ron-vs-Nick question — a Nine who found his identity through a vessel so opposite he now spends real energy correcting the world about both of them. Genuinely fresh and passes the swap test.
+- STRONG EMPATHY TURN: The woodshop-founded-2001-in-poverty timeline ("eight years before anyone bought a ticket... The merging came first. The brand came after") cleanly defuses the monetized-folksy-brand skeptic without excusing it. Earned, well-placed.
+- DISCOVERABILITY NAILED: Search-intent title + keyword-rich description, real 5-question FAQ schema with extractable answers, early type answer + TL;DR, complete entity metadata (same_as, wikidata_qid, imdb_id). An AI engine could cite this cleanly.
+- TYPOLOGY QUARANTINED: Wing (9w1), social subtype, stress/growth arrows, and the core-1 counterargument all live in the rabbit hole; the body stays person-first. The 9w1-vs-core-1 anger distinction (cool/outward-into-advocacy vs. hot/inward self-criticism) is the sharpest type-craft.
+- NEEDS WORK: The "merging / dissolve / separate-wanting-self" motif still fires in intro, diagnosis, and ending — fresh-eyes flagged it at 5+, second pass trimmed to ~3, but the reader still starts to notice the framework. Trim one more middle instance so the closing image lands fresh.
+- NEEDS WORK: "This is the contrast panel made flesh" is a meta-reference to the page's own device — replace with a line that does the work the panel implies rather than naming the panel.
+- TO REACH A (9.0+): (1) Lock the two flagged Chicago Magazine 2013 quotes (Mullally #2, Schur #3) to verbatim source before publish — they're attributed but un-confirmed, the only soft spot in otherwise exceptional evidence. (2) Cut the last redundant merging-motif beat. (3) Find one more interior beat from inside the Last of Us / Bill performance — right now Bill is told from outside; a felt moment there would deepen the strongest piece of thesis evidence.
+-->
 
 <!-- TESTIMONY LEDGER
 1. Aubrey Plaza: "He scared me at first. He scared me a lot, in a good way." — Good Hang with Amy Poehler podcast, 2026
@@ -341,6 +365,5 @@ Still rough:
 - No faqs in frontmatter yet (enrich stage pending) — flagged by lint as a discoverability cost.
 - Testimony Ledger #2/#3 still need verbatim re-confirmation before publish.
 -->
-
 
 

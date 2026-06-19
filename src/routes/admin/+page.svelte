@@ -306,6 +306,14 @@
 			href: '/admin/analytics'
 		},
 		{
+			icon: '📧',
+			label: 'New Email Signups',
+			value: data.newEmailSignupsWeek,
+			subValue: `${formatCount(data.newEmailSignupsToday)} today | ${formatCount(data.totalEmailSignups)} total`,
+			color: data.newEmailSignupsToday > 0 ? 'warning' : 'default',
+			href: '/admin/users'
+		},
+		{
 			icon: '🪪',
 			label: 'Registered (7d)',
 			value: formatRateValue(data.retentionSummary?.registeredRateLastFullWeek),
@@ -359,7 +367,8 @@
 	]);
 
 	let waitlistEntries = $derived((data.coachingWaitlistUsers ?? []).slice(0, 6));
-	let recentSignups = $derived((data.recentSignups ?? []).slice(0, 8));
+	let recentUsers = $derived((data.recentSignups ?? []).slice(0, 8));
+	let recentEmailSignups = $derived((data.recentEmailSignups ?? []).slice(0, 8));
 	let questionActivity = $derived(
 		(data.dailyQuestions ?? []).slice(0, 10).map(
 			(question: QuestionDay): QuestionActivityItem => ({
@@ -380,6 +389,11 @@
 		((data.trending?.repeatRows ?? []) as TrendingPageRow[]).slice(0, 4)
 	);
 	let trendingAvailable = $derived(data.trending?.available === true);
+
+	const formatEmailSignupSource = (signup: NonNullable<PageData['recentEmailSignups']>[number]) => {
+		const source = signup.first_acquisition_source || 'unknown';
+		return signup.first_landing_path ? `${source} | ${signup.first_landing_path}` : source;
+	};
 </script>
 
 <div class="admin-dashboard">
@@ -629,7 +643,7 @@
 				<div class="list-card-header">
 					<div class="section-copy">
 						<span class="eyebrow">Users</span>
-						<h3 class="card-title">Recent signups</h3>
+						<h3 class="card-title">Recent registered users</h3>
 					</div>
 					<div class="list-card-meta">
 						<span class="count-pill">{formatCount(data.newUsersMonth)}</span>
@@ -637,9 +651,9 @@
 					</div>
 				</div>
 
-				{#if recentSignups.length > 0}
+				{#if recentUsers.length > 0}
 					<ul class="detail-list">
-						{#each recentSignups as signup}
+						{#each recentUsers as signup}
 							<li class="detail-item">
 								<div class="detail-main">
 									{#if signup.external_id}
@@ -662,7 +676,43 @@
 						{/each}
 					</ul>
 				{:else}
-					<p class="empty-state">No recent signups available.</p>
+					<p class="empty-state">No recent registered users available.</p>
+				{/if}
+			</article>
+
+			<article class="panel list-card">
+				<div class="list-card-header">
+					<div class="section-copy">
+						<span class="eyebrow">Email</span>
+						<h3 class="card-title">Recent email signups</h3>
+					</div>
+					<div class="list-card-meta">
+						<span class="count-pill">{formatCount(data.newEmailSignupsWeek)}</span>
+						<a href="/admin/users" class="inline-link">Open users</a>
+					</div>
+				</div>
+
+				{#if recentEmailSignups.length > 0}
+					<ul class="detail-list">
+						{#each recentEmailSignups as signup}
+							<li class="detail-item">
+								<div class="detail-main">
+									<a href={`mailto:${signup.email}`} class="detail-link">
+										{signup.email || 'Unknown email'}
+									</a>
+									<p class="detail-subtitle">{formatEmailSignupSource(signup)}</p>
+								</div>
+								<div class="detail-side">
+									<span class="detail-date">{formatDate(signup.created_at)}</span>
+									{#if signup.unsubscribed_date}
+										<span class="meta-pill warning">Suppressed</span>
+									{/if}
+								</div>
+							</li>
+						{/each}
+					</ul>
+				{:else}
+					<p class="empty-state">No recent email signups available.</p>
 				{/if}
 			</article>
 		</div>
@@ -995,7 +1045,7 @@
 
 	.queue-grid {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 		gap: 20px;
 	}
 
@@ -1291,6 +1341,11 @@
 	.meta-pill.neutral {
 		background: color-mix(in srgb, var(--stone-warm) 90%, transparent);
 		color: var(--ink-mid);
+	}
+
+	.meta-pill.warning {
+		background: color-mix(in srgb, var(--warning) 14%, transparent);
+		color: var(--warning);
 	}
 
 	.question-feed {

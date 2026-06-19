@@ -90,6 +90,14 @@
 			createdAt: s.created_at ? convertDateToReadable(s.created_at) : ''
 		})) || []
 	);
+	let quarantinedSignups = $derived(
+		formattedSignups.filter((signup) => signup.signupSignal === 'quarantined')
+	);
+	let reviewSignups = $derived(
+		formattedSignups.filter(
+			(signup) => signup.signupSignal === 'review' || signup.signupSignal === 'high_risk'
+		)
+	);
 
 	let formattedProfiles = $derived<Profile[]>(
 		data?.profiles?.map((p) => ({
@@ -257,6 +265,42 @@
 		return `/${blogLink}`;
 	}
 
+	function getSignupSignalLabel(signup: Signup): string {
+		switch (signup.signupSignal) {
+			case 'quarantined':
+				return 'Quarantined';
+			case 'high_risk':
+				return 'High risk';
+			case 'review':
+				return 'Review';
+			case 'looks_real':
+				return 'Looks real';
+			default:
+				return 'Normal';
+		}
+	}
+
+	function getSignupAuthSummary(signup: Signup): string {
+		if (!signup.authEventCount) return 'No nearby auth events';
+
+		const parts = [
+			signup.loginFailedCount ? `${signup.loginFailedCount} login failed` : '',
+			signup.registerHoneypotCount ? `${signup.registerHoneypotCount} register honeypot` : '',
+			signup.forgotBlockedCount ? `${signup.forgotBlockedCount} forgot blocked` : ''
+		].filter(Boolean);
+
+		return parts.length ? parts.join(' | ') : `${signup.authEventCount} auth events`;
+	}
+
+	function getSignupSource(signup: Signup): string {
+		return signup.first_acquisition_source || signup.first_entry_surface || 'unknown';
+	}
+
+	function getSignupLandingLabel(path: string | null | undefined): string {
+		if (!path) return 'No landing path';
+		return path;
+	}
+
 	async function openUserDetails(profile: Profile) {
 		detailProfile = { ...profile };
 		detailData = null;
@@ -322,6 +366,8 @@
 				color="success"
 			/>
 			<StatCard icon="📧" label="Email Signups" value={formattedSignups.length} />
+			<StatCard icon="🚧" label="Quarantined" value={quarantinedSignups.length} color="warning" />
+			<StatCard icon="🔎" label="Needs Review" value={reviewSignups.length} color="primary" />
 		</div>
 	</section>
 
@@ -487,6 +533,9 @@
 								<th>Email</th>
 								<th>Name</th>
 								<th>Created</th>
+								<th>Source</th>
+								<th>Signal</th>
+								<th>Suppression</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -497,6 +546,36 @@
 									</td>
 									<td class="name-cell" data-label="Name">{signup.name || '—'}</td>
 									<td class="date-cell" data-label="Created">{signup.createdAt}</td>
+									<td class="source-cell" data-label="Source">
+										<span class="source-main">{getSignupSource(signup)}</span>
+										{#if signup.first_landing_path}
+											<a href={signup.first_landing_path} class="source-path">
+												{getSignupLandingLabel(signup.first_landing_path)}
+											</a>
+										{:else}
+											<span class="source-path muted">No landing path</span>
+										{/if}
+										{#if signup.first_referrer_host}
+											<span class="source-referrer">{signup.first_referrer_host}</span>
+										{/if}
+									</td>
+									<td class="signal-cell" data-label="Signal">
+										<span class="signal-badge {signup.signupSignal}">
+											{getSignupSignalLabel(signup)}
+										</span>
+										<span class="signal-reason">{signup.signupSignalReason}</span>
+										<span class="signal-auth">{getSignupAuthSummary(signup)}</span>
+									</td>
+									<td class="suppression-cell" data-label="Suppression">
+										{#if signup.isSuppressed}
+											<span class="suppression-reason">
+												{signup.suppressionReason || 'suppressed'}
+											</span>
+											<span class="suppression-date">{formatDateTime(signup.suppressedAt)}</span>
+										{:else}
+											<span class="empty-badge">—</span>
+										{/if}
+									</td>
 								</tr>
 							{/each}
 						</tbody>
@@ -931,6 +1010,92 @@
 
 	.email-link:hover {
 		color: var(--lamp-glow);
+	}
+
+	.source-cell,
+	.signal-cell,
+	.suppression-cell {
+		min-width: 180px;
+	}
+
+	.source-main,
+	.source-path,
+	.source-referrer,
+	.signal-badge,
+	.signal-reason,
+	.signal-auth,
+	.suppression-reason,
+	.suppression-date {
+		display: block;
+	}
+
+	.source-main,
+	.suppression-reason {
+		color: var(--ink-bright);
+		font-weight: 700;
+		line-height: 1.35;
+	}
+
+	.source-path {
+		max-width: 260px;
+		margin-top: 3px;
+		color: var(--lamp-glow);
+		text-decoration: none;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.source-path:hover {
+		text-decoration: underline;
+	}
+
+	.source-path.muted,
+	.source-referrer,
+	.signal-reason,
+	.signal-auth,
+	.suppression-date {
+		color: var(--ink-mid);
+		font-size: 0.6875rem;
+		line-height: 1.45;
+	}
+
+	.source-referrer {
+		margin-top: 2px;
+	}
+
+	.signal-badge {
+		width: fit-content;
+		margin-bottom: 4px;
+		padding: 3px 8px;
+		border-radius: 999px;
+		background: var(--night-deep);
+		color: var(--ink-mid);
+		font-size: 0.625rem;
+		font-weight: 700;
+		line-height: 1;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+
+	.signal-badge.quarantined,
+	.signal-badge.high_risk {
+		background: color-mix(in srgb, var(--warning) 14%, transparent);
+		color: var(--warning);
+	}
+
+	.signal-badge.review {
+		background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
+		color: var(--lamp-glow);
+	}
+
+	.signal-badge.looks_real {
+		background: color-mix(in srgb, var(--success) 16%, transparent);
+		color: var(--success-text);
+	}
+
+	.signal-auth {
+		margin-top: 2px;
 	}
 
 	.type-badge {

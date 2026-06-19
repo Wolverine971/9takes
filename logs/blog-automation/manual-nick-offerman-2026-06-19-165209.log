@@ -216,3 +216,46 @@ blog-lint: nick-offerman — 0 fail, 0 warn
 Command: /grade_blog nick-offerman
 Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/7_grade.log
 ─────────────────────────────────────────────────────
+## Grading Complete — Nick Offerman
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Nick-Offerman | 9 | 9 | 9 | 9 | 8.5 | 9 | **8.9** | **B+** |
+
+*(Weighted: (9×1.5 + 9×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.9. Disc 9 ≥ 7, no gate cap.)*
+
+### Key Observations
+- **Publication-ready.** Clears the 8.5 threshold comfortably. This is a strong draft — the multi-pass pipeline (fresh-eyes → second-pass → editor) clearly paid off; the Last of Us beat that was buried got promoted into the body, the merging motif got trimmed, and the FAQ schema is now in place.
+- **Standout strengths:** the "he curates Ron, doesn't resent him" thesis, the woodshop-timeline empathy turn that defuses the brand skeptic, and genuinely exceptional discoverability (search-intent title, real FAQ, complete entity metadata).
+- **What holds it back from an A:** the lingering merging-motif repetition, one meta-signpost ("the contrast panel made flesh"), and two un-confirmed 2013 Chicago Magazine quotes still flagged in the testimony ledger.
+
+### To reach A (9.0+)
+1. Lock the Mullally (#2) and Schur (#3) quotes to verbatim source — the only soft spot in the evidence.
+2. Cut one more middle instance of the "separate, wanting self" motif.
+3. Add one interior beat from *inside* Bill / the Last of Us performance (currently narrated from outside).
+
+Grades and reviewer comment written to `src/blog/people/drafts/Nick-Offerman.md`.
+[Stage 7] grade finished 17:17:13 (exit=0)
+
+[Stage 8] No revision needed (overall 8.9 >= 8.5, discoverability 9 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: nick-offerman
+Finished: Fri Jun 19 17:17:13 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '9'
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  discoverability: 9
+  overall: 8.9
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-19'
+═════════════════════════════════════════════════════
