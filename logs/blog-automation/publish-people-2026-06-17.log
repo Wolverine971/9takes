@@ -1,0 +1,24 @@
+Confirmed — both required image files are missing, and image generation is outside this command's scope (type images are created manually in Canva). Stopping here per the gate.
+
+```text
+Publish BLOCKED.
+
+Person: Kurt Russell
+Draft: src/blog/people/drafts/Kurt-Russell.md
+Content gate: PASSES (overall 8.8, rubric v2, discoverability 8.5, complete article + FAQs)
+Supabase: not synced (publish aborted)
+
+Blockers:
+- missing_full_image:  static/types/9s/Kurt-Russell.webp
+- missing_thumbnail_image:  static/types/9s/s-Kurt-Russell.webp
+```
+
+**What I did along the way:** The draft initially couldn't even be parsed — three single-quoted FAQ `answer:` values contained literal apostrophes (`don't` ×3, `Hollywood's`), and in single-quoted YAML an internal `'` must be doubled or it closes the string early. I escaped them (doubled the quotes, preserving the single-quote style), which is the only change to the draft. That cleared the parse errors and surfaced the real blocker.
+
+**To unblock:** create the two Type-9 images in Canva and drop them at:
+- `static/types/9s/Kurt-Russell.webp` (full)
+- `static/types/9s/s-Kurt-Russell.webp` (thumbnail)
+
+Then re-run `/blog_content_publish_people Kurt-Russell` — everything else is ready to go.
+
+Want me to flag anything to whoever owns image generation, or leave it here?

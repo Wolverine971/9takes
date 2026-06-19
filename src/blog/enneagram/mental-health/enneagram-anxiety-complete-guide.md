@@ -352,43 +352,6 @@ Anxiety medications work on neurochemistry, not personality type. There's no evi
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "Comprehensive guide on how anxiety manifests differently in each Enneagram type, including specific triggers, patterns, and evidence-based coping strategies tailored to each personality type.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-02-22",
-      "datePublished": "2025-08-25",
-      "description": "Think anxiety is just a Type 6 thing? Wrong. Every Enneagram type has a unique anxiety pattern that sabotages them differently. Discover your type's hidden anxiety triggers and the exact coping strategies that actually work for your personality.",
-      "headline": "Why Type 6 Isn't the Only Anxious Type (Every Type's Hidden Anxiety Pattern)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-circle-of-anxiety.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-complete-guide",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "keywords": ["enneagram anxiety", "anxiety disorders", "personality types", "mental health", "coping strategies", "grounding exercises", "anxiety management"]
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -48,39 +48,15 @@ const querySchema = z.object({
 	limit: z.coerce.number().int().min(1).max(1000).default(200)
 });
 const RPC_RELEASE_LIMIT = 200;
-const MAX_RELEASE_FETCH_PAGES = 10;
-const DEMAND_BASELINE_LIMIT = 1000;
+const DEMAND_BASELINE_LIMIT = RPC_RELEASE_LIMIT;
 const RAW_VISIT_REFRESH_WINDOW_DAYS = 90;
 const RELEASE_ANALYTICS_WINDOW_DAYS = 30;
-const analyticsDateFormatter = new Intl.DateTimeFormat('en-CA', {
-	timeZone: 'America/New_York',
-	year: 'numeric',
-	month: '2-digit',
-	day: '2-digit'
-});
 
 function toDateString(date: Date): string {
 	const year = date.getFullYear();
 	const month = String(date.getMonth() + 1).padStart(2, '0');
 	const day = String(date.getDate()).padStart(2, '0');
 	return `${year}-${month}-${day}`;
-}
-
-function toAnalyticsLocalDateString(value: string): string | null {
-	const date = new Date(value);
-	if (Number.isNaN(date.getTime())) return null;
-	const parts = Object.fromEntries(
-		analyticsDateFormatter.formatToParts(date).map((part) => [part.type, part.value])
-	) as Record<string, string>;
-	if (!parts.year || !parts.month || !parts.day) return null;
-	return `${parts.year}-${parts.month}-${parts.day}`;
-}
-
-function previousDateString(value: string): string | null {
-	const date = new Date(`${value}T12:00:00Z`);
-	if (Number.isNaN(date.getTime())) return null;
-	date.setUTCDate(date.getUTCDate() - 1);
-	return date.toISOString().slice(0, 10);
 }
 
 function addDaysString(value: string, days: number): string | null {
@@ -166,47 +142,18 @@ async function fetchReleasePerformanceRows(
 	toDate: string | undefined,
 	requestedLimit: number
 ): Promise<{ data: ReleasePerformanceRow[]; error: { message?: string } | null }> {
-	const rows: ReleasePerformanceRow[] = [];
-	const seen = new Set<string>();
-	let pageToDate = toDate;
+	const pageLimit = Math.min(RPC_RELEASE_LIMIT, requestedLimit);
+	const { data, error: rpcError } = await supabaseAny.rpc('get_content_release_performance', {
+		p_from_date: fromDate,
+		p_to_date: toDate,
+		p_limit: pageLimit
+	});
 
-	for (let page = 0; page < MAX_RELEASE_FETCH_PAGES && rows.length < requestedLimit; page += 1) {
-		const pageLimit = Math.min(RPC_RELEASE_LIMIT, requestedLimit - rows.length);
-		const { data, error: rpcError } = await supabaseAny.rpc('get_content_release_performance', {
-			p_from_date: fromDate,
-			p_to_date: pageToDate,
-			p_limit: pageLimit
-		});
-
-		if (rpcError) {
-			return { data: [], error: rpcError };
-		}
-
-		const batch = (data ?? []) as ReleasePerformanceRow[];
-		if (batch.length === 0) break;
-
-		for (const row of batch) {
-			const key = String(row.id || `${row.slug}:${row.published_at ?? ''}`);
-			if (seen.has(key)) continue;
-			seen.add(key);
-			rows.push(row);
-			if (rows.length >= requestedLimit) break;
-		}
-
-		if (batch.length < pageLimit || rows.length >= requestedLimit) break;
-
-		const oldestPublishedAt = batch[batch.length - 1]?.published_at;
-		if (!oldestPublishedAt) break;
-
-		const oldestDate = toAnalyticsLocalDateString(String(oldestPublishedAt));
-		const nextToDate = oldestDate ? previousDateString(oldestDate) : null;
-		if (!nextToDate || (pageToDate && nextToDate >= pageToDate)) break;
-		if (fromDate && nextToDate < fromDate) break;
-
-		pageToDate = nextToDate;
+	if (rpcError) {
+		return { data: [], error: rpcError };
 	}
 
-	return { data: rows, error: null };
+	return { data: (data ?? []) as ReleasePerformanceRow[], error: null };
 }
 
 function toNullableNumber(value: unknown): number | null {

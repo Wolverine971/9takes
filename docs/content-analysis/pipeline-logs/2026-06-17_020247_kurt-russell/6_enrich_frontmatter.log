@@ -1,0 +1,30 @@
+Frontmatter enrichment complete. The body was untouched.
+
+```
+Frontmatter enrichment complete: Kurt-Russell
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Kurt_Russell)
+- instagram / twitter (empty creator social handles — not mine to touch)
+
+IDs verified:
+- Wikidata Q103157 (search-confirmed)
+- IMDb nm0000621 (cross-checked via Wikidata P345)
+- birth_date / birth_place / nationality confirmed via Wikidata P569 / P19 / P27
+
+FAQs generated (5):
+1. What is Kurt Russell's personality type? → #what-is-kurt-russells-personality-type
+2. Why does Kurt Russell say he's never worked a day in his life? → #why-kurt-russell-says-hes-never-worked-a-day-in-his-life
+3. Did Kurt Russell really direct Tombstone? → #how-a-disney-kid-became-snake-plissken
+4. Why did Kurt Russell and Goldie Hawn never marry? → #why-kurt-russell-and-goldie-hawn-never-married
+5. Did Kurt Russell waste his talent? → #did-kurt-russell-waste-his-talent
+
+Issues:
+- Thin inline sourcing: the body references real outlets by name (GQ, THR, NHPR, True West, People, Fox News, Esquire, Empire) but contains NO inline external citation URLs — only internal 9takes links. `citations` was therefore built from verifiable authoritative entity pages (Wikipedia, Britannica, IMDb, Wikidata) rather than fabricated article URLs. If you want article-level citations, the named interviews would need to be linked in the body first.
+```
+
+Sources used for verification: [Kurt Russell — Wikidata](https://www.wikidata.org/wiki/Q103157), [Kurt Russell — IMDb](https://www.imdb.com/name/nm0000621/)

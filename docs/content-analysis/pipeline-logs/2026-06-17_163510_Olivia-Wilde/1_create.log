@@ -1,0 +1,32 @@
+Draft complete. Summary of the run:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Olivia-Wilde.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass
+LIMITATIONS: no transcripts independently fetched — analysis rests on heavily-quoted secondary
+  reporting (Variety, Interview, the 6/17/26 Call Her Daddy interview, Booksmart press), so the
+  subject's own voice still carries the piece
+```
+
+**The angle:** Olivia Wilde as Enneagram Type 3 (3w2, social subtype). Core tension — **author vs. subject**: a journalism-dynasty daughter (Hitchens babysat her; mother produced *60 Minutes*) who did the opposite of the family trade by building and directing images, then watched the press she came from turn her into "fiction traded as fact" she couldn't edit. She literally renamed herself after a playwright at eighteen — the most Type 3 move in her biography, before her first credit.
+
+**Craft highlights:**
+- **Hook:** the CinemaCon stage — served custody papers in a manila envelope mid-trailer-presentation (concrete, falsifiable, names the tension).
+- **Empathy turn:** her mocked control-obsession and press-tour spin reframed as a Three's terror of being seen as the mess rather than the maker — without excusing the LaBeouf missteps.
+- **Current anchor:** today's (6/17/26) *Call Her Daddy* interview — being served onstage as "incredibly traumatizing," the years of silence and therapy (Three's stress→9 collapse, growth→6 repair).
+- **Testimony:** Kaitlyn Dever and Beanie Feldstein on directing her (Gate 1 ≥2).
+- **Stats:** Booksmart 96% RT, ~$25M on $6M, Independent Spirit Award.
+- Lint: **0 fail, 1 warn** (the warn is the downstream frontmatter-enrich `faqs` stage, not owned here).
+
+**Internal links added (6 total):**
+- Type 3 → `/enneagram-corner/enneagram-type-3`
+- Shia LaBeouf → `/personality-analysis/shia-labeouf`
+- Harry Styles → `/personality-analysis/harry-styles`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (rabbit hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (rabbit hole)
+- Connecting lines → `/enneagram-corner/enneagram-connecting-lines` (rabbit hole)
+
+Held `status: draft` per non-interactive rules — human review before production is still required. Next step when you approve: mark `production_pretext.status: ready` and run `blog_content_production_people`. Grading is owned separately by `/grade_blog`.

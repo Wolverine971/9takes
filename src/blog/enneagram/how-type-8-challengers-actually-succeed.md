@@ -299,50 +299,6 @@ The path starts with one crack in the armor. Not the whole suit coming off. Just
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "An analysis of 14 famous Enneagram Type 8 Challengers reveals that grinding alone is the Type 8 trap, not the path to success. The article identifies 6 patterns that produced actual breakthroughs: finding the right vehicle for their energy, stopping going alone (with insights on Type 8 integration toward Type 2), making work visible, connecting to a mission bigger than themselves, using failure as data (with insights on Type 8 stress movement toward Type 5), and being willing to be vulnerable in specific ways. The article also honestly addresses survivorship bias and provides actionable steps.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-04-02",
-      "datePublished": "2026-02-08",
-      "description": "Every famous Type 8 grinded. None of them broke through by grinding alone. The 6 patterns that actually produced their breakthroughs, from Bezos to MLK to Rihanna.",
-      "headline": "How Type 8 Challengers Actually Succeed (It's Not What You Think)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-type-8-success.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/how-type-8-challengers-actually-succeed",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["enneagram type 8", "type 8 success", "challenger personality", "enneagram breakthrough", "type 8 leadership", "enneagram growth", "how type 8s succeed", "challenger enneagram", "type 8 integration", "enneagram type 8 growth"],
-      "wordCount": 4200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/how-type-8-challengers-actually-succeed"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

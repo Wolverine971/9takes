@@ -19,63 +19,6 @@ path: src/blog/guides/5-tough-conversations-you-need-to-have-with-your-partner.m
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner"
-      },
-      "headline": "5 Conversations That Separate Thriving Couples From Everyone Else",
-      "description": "The specific conversations that build bulletproof relationships, backed by Gottman research and Enneagram insights for reading your partner",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/two-greek-statues-having-a-serious-conversation.webp",
-        "width": 900
-      },
-      "keywords": ["relationship communication", "Gottman method", "Enneagram relationships", "couples therapy", "healthy relationships", "conflict resolution", "intimacy", "relationship advice", "communication skills"],
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "mentions": [
-        {
-          "@type": "Thing",
-          "name": "Enneagram of Personality",
-          "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types.",
-          "SameAs": [
-            "https://www.wikidata.org/wiki/Q273047",
-            "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-          ]
-        },
-        {
-          "@type": "Organization",
-          "name": "The Gottman Institute",
-          "description": "Founded by Drs. John and Julie Gottman, the Gottman Institute applies leading-edge research on marriage in developing evidence-based approaches to improving relationships.",
-          "url": "https://www.gottman.com/"
-        }
-      ],
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      },
-      "datePublished": "2024-05-08",
-      "dateModified": "2025-05-03"
-    },
-    {
       "@type": "HowTo",
       "name": "How to Have 5 Conversations That Build Thriving Relationships",
       "description": "A practical guide to the conversations that separate thriving couples from those who drift apart, combining Gottman research with Enneagram personality insights",

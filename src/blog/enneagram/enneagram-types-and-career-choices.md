@@ -415,52 +415,6 @@ For more, read [how each Enneagram type works in a team](/enneagram-corner/ennea
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "A diagnostic guide to career fit by Enneagram type. Covers the dream-fit roles, the soul-crushing roles, the wing tilts, the stress and growth dynamics, and one type-specific interview hack for all nine types. Includes a 2026 reality check on how remote work, AI, and the gig economy are reshaping career fit by type.",
-      "keywords": ["enneagram careers", "personality types jobs", "career guidance", "enneagram type 1 careers", "enneagram type 2 careers", "enneagram type 3 careers", "enneagram type 4 careers", "enneagram type 5 careers", "enneagram type 6 careers", "enneagram type 7 careers", "enneagram type 8 careers", "enneagram type 9 careers", "career choices by personality", "professional development", "job matching", "wrong job signs", "remote work enneagram"],
-      "wordCount": 5400,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-types-and-career-choices",
-      "author": {
-          "@type": "Person",
-          "name": "DJ Wayne",
-          "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-            ]
-      },
-      "dateModified": "2026-04-08",
-      "datePublished": "2023-11-29",
-      "description": "This blog post explores the ideal career paths for each Enneagram type, providing insights into how personality influences career choices. It covers each Enneagram type and suggests professions that align with their unique strengths and preferences.",
-      "headline": "Why You Hate Your Job (It's Not the Boss, It's Your Enneagram Type)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 450,
-        "url": "https://9takes.com/blogs/female-greek-statues-of-different-professions.webp",
-        "width": 550
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-types-and-career-choices",
-        "@type": "WebPage"
-      },
-      "mentions": {
-                  "@type": "Thing",
-                  "name": "Enneagram of Personality",
-                  "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed, contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-                  "SameAs": [
-                      "https://www.wikidata.org/wiki/Q273047",
-                      "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-                  ]
-          },
-      "publisher": {
-            "@type": "Organization",
-            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://9takes.com/brand/aero.png"
-            },
-            "name": "9takes"
-          }
-    },
-    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [

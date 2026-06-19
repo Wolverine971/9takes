@@ -370,46 +370,9 @@ Yes. A 7w8 needs more physical intensity than 7w6. A 1w9 craves more solitude th
 <svelte:head>
 
 <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "articleBody": "Discover why generic relaxation advice fails and how your Enneagram type holds the key to effective stress reduction. This comprehensive guide provides personalized unwinding strategies for each type: Type 1 Perfectionists need deliberate imperfection, Type 2 Helpers require radical self-focus, Type 3 Achievers benefit from flow without goals, Type 4 Individualists need emotional rebalancing, Type 5 Investigators thrive with embodied knowledge, Type 6 Loyalists need secure spontaneity, Type 7 Enthusiasts benefit from depth immersion, Type 8 Challengers need vulnerable strength practices, and Type 9 Peacemakers require engaged simplicity.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-07-18",
-      "datePublished": "2023-12-08",
-      "keywords": ["Enneagram", "relaxation", "stress relief", "personality types", "self-care", "mindfulness", "unwinding", "mental health", "well-being", "Enneagram stress"],
-      "wordCount": 4500,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/how-each-enneagram-type-unwinds",
-      "description": "Discover the exact relaxation methods that work for your Enneagram type, backed by psychology and real-world examples to finally de-stress effectively.",
-      "headline": "How Each Enneagram Type Really Unwinds: Personalized Relaxation Strategies That Actually Work",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-at-the-beach.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/how-each-enneagram-type-unwinds",
-        "@type": "WebPage"
-      },
-      "publisher": {
-            "@type": "Organization",
-            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-            "logo": {
-               "@type": "ImageObject",
-               "url": "https://9takes.com/brand/aero.png"
-            },
-            "name": "9takes"
-         }
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

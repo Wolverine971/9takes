@@ -21,62 +21,6 @@ path: src/blog/community/why-the-greek-vibe.md
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Why the Greek vibe?",
-  "description": "9takes is what Socrates would have wanted",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2023-09-24",
-  "dateModified": "2026-03-12",
-  "url": "https://9takes.com/community/why-the-greek-vibe",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/neoclassical-metropolis.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Philosophy",
-  "keywords": ["Greek philosophy", "Socrates", "neoclassical", "ancient Greece", "philosophy", "discourse", "democracy"],
-  "wordCount": 1200,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Community Blog",
-    "url": "https://9takes.com/community"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/community/why-the-greek-vibe"
-  }
-}
-</script>
-
-</svelte:head>
-
 <QuickAnswer question="Why does 9takes use Greek-inspired design?">
 **Because the Greeks invented the technology for meaningful public discourse—and we've lost it.** The agora and academy weren't just places to gather; they were engineered for Socratic dialogue, where questions led to deeper questions, and multiple perspectives were expected. Modern social media optimizes for engagement, not understanding. 9takes brings back the Greek method: ask questions, hear multiple viewpoints (9 personality-based takes), and think through answers rather than react to them.
 </QuickAnswer>

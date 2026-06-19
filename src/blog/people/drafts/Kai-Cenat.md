@@ -62,6 +62,9 @@ faqs:
   - question: "Why did Kai Cenat post the 'I Quit' video?"
     answer: "The 23-minute January 2026 video wasn't retirement — he was quitting overthinking. He had spent weeks in Italian factories learning garment production, signed up for sewing classes, consulted Law Roach, and announced Vivet, a fashion brand whose Latin name means 'he will live forever.' He also launched 'Kai's Mind,' an unpolished second channel, and revealed he'd been reading every day."
     anchor: 'i-quit-january-2026'
+  - question: 'What is Streamer University 2026?'
+    answer: "Streamer University is Kai Cenat's real, self-funded school for aspiring creators. The first edition in 2025 took roughly 120 students from over a million applicants. In June 2026 he opened a second class with a Harry Potter-style trailer and an in-person audition tour through New York, Los Angeles, and Atlanta; the Atlanta tryout drew such a large crowd that police shut it down and it was postponed a day. It's the clearest proof of the Type 7 pattern — the same pull that once filled Union Square now fills a university."
+    anchor: 'how-he-changed-internet-culture'
 twitter: ''
 instagram: ''
 tiktok: ''
@@ -301,6 +304,8 @@ But the most revealing move was **Streamer University**: a three-day, in-person 
 
 He rejected offers from Netflix, Amazon, and Tubi to buy or license the concept. "With an idea like this so original, you gotta keep it where it's at."
 
+And in June 2026 he ran it back. The second Streamer University class opened with a _Harry Potter_-style trailer and an in-person audition tour through New York, Los Angeles, and Atlanta. The Atlanta tryout proved the point about Kai better than any stream could: the crowd grew so large that police shut it down and made arrests before it could even start, forcing a one-day postponement. The same pull that once filled Union Square now fills a university. For a Seven, the appetite for more doesn't retire. It just keeps finding bigger rooms to fill.
+
 The pattern reveals a business mind that's distinctly Type 7: diversification as freedom. Streaming, fashion, education, a **$5 million school project in Nigeria** after visiting a Lagos classroom where 300 students shared one room — each venture is another exit from being defined by a single identity. Options equal safety. Being boxed in, even by success, is the thing to avoid.
 
 ---
@@ -363,7 +368,7 @@ The announcement was **Vivet**, a fashion brand. Leather bags. Denim. Boots. Jou
 
 "I quit overthinking," he explained. "I quit staying in my head about the goals I have and if I pursue them, whether they are going to work or not. I want to push limits to see what I can truly create in life."
 
-He also revealed he'd been **reading every day** and launched a secondary YouTube channel called "Kai's Mind" — no edits, no polish, visible difficulty with some words. A Type 3 would never show incompetence publicly; Kai chose authentic growth over looking competent. Months later, when critics mocked the fashion pivot, he built a physical wall of printed hate tweets in his room. "I want to show you guys the power to embrace hate," he said. "I used to struggle with caring about what people thought."
+He also revealed he'd been **reading every day** and launched a secondary YouTube channel called "Kai's Mind" — no edits, no polish, visible difficulty with some words (a clip of him sounding out _spontaneity_ from _Atomic Habits_ drew both mockery and praise). He has been open about the wiring underneath, too. In clips that circulated in early 2026, Kai said he lives with ADHD, anxiety, and dyslexia, and that it hits hardest when he's out in public or trying to create. That reframes the reading videos entirely: the loudest man on the internet, filming himself sound out words he stumbles on, in public, on purpose. A Type 3 would never show incompetence publicly; Kai chose authentic growth over looking competent. Months later, when critics mocked the fashion pivot, he built a physical wall of printed hate tweets in his room. "I want to show you guys the power to embrace hate," he said. "I used to struggle with caring about what people thought."
 
 Sitting in an Italian factory learning how thread counts work is the opposite of every instinct that made Kai famous. Fewer distractions, more depth. A quieter mind. That's the exact direction growth points, and it's the hardest direction to walk.
 

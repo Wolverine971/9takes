@@ -22,53 +22,6 @@ path: src/blog/community/mbti-vs-enneagram.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "headline": "Why MBTI Failed and What to Use Instead",
-      "description": "MBTI gave you a label and a job suggestion. The Enneagram gives you a growth map. Here is why the switch matters for your career, relationships, and self-awareness.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "datePublished": "2025-07-07",
-      "dateModified": "2026-03-12",
-      "url": "https://9takes.com/community/mbti-vs-enneagram",
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/the-MBTI-sucks.webp",
-        "width": 900,
-        "height": 900
-      },
-      "articleSection": "Psychology",
-      "keywords": ["MBTI vs Enneagram", "MBTI critique", "Enneagram benefits", "personality systems", "personal growth", "Myers-Briggs alternative", "Enneagram types"],
-      "isPartOf": {
-        "@type": "Blog",
-        "name": "9takes Community Blog",
-        "url": "https://9takes.com/community"
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/community/mbti-vs-enneagram"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -172,7 +125,7 @@ That's the gap the Enneagram fills. (New to it? Start with our [quick Enneagram 
 </div>
 </div>
 
-For a detailed breakdown, see our [Enneagram vs Myers-Briggs comparison](/enneagram-corner/enneagram-vs-meyers-briggs).
+For a detailed breakdown, see our [Enneagram vs Myers-Briggs comparison](/enneagram-corner/enneagram-vs-meyers-briggs). And for the Enneagram measured against MBTI, Big Five, DISC, and more, see [how it compares to 14 personality frameworks](https://9takes.com/enneagram-corner/enneagram-vs-personality-frameworks-comparison).
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[

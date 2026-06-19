@@ -187,57 +187,9 @@ What type is your team missing?
 <svelte:head>
 
  <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "articleBody": "Teams self-select for similarity. It's comfortable. It's efficient. It's also why your brainstorms produce the same three ideas every time. The Enneagram reveals what your team is actually missing by showing how different types take up space, handle conflict, and connect with others. This guide covers proven type combinations, practical strategies for matching tasks to thinking styles, and questions that surface hidden perspectives from your quieter team members.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3",
-"https://www.linkedin.com/in/davidtwayne/",
-"https://twitter.com/djwayne3" ]
-      },
-      "dateModified": "2026-01-17",
-      "datePublished": "2024-08-12",
-      "description": "Stop hiring people you click with. Build teams that actually think differently using the Enneagram triads.",
-      "headline": "Why Your Team Keeps Having the Same Ideas (And How the Enneagram Fixes It)",
-      "keywords": ["Enneagram", "team diversity", "workplace dynamics", "team building", "communication styles", "leadership", "organizational psychology", "team effectiveness"],
-      "wordCount": 2100,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-team-diversity",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-team-diversity",
-        "@type": "WebPage"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/people-from-diverse-backgrounds.webp",
-        "width": 900
-      },
-      "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [
@@ -277,7 +229,7 @@ What type is your team missing?
     }
   ]
 }
-  </script>
+</script>
 
 </svelte:head>
 

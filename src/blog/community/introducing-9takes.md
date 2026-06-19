@@ -22,53 +22,6 @@ path: src/blog/community/introducing-9takes.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "headline": "Introducing 9takes: Answer First, Then Compare Perspectives",
-      "description": "A Q&A platform where you answer before you read, built to surface diverse perspectives with an optional Enneagram lens.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "datePublished": "2023-04-17",
-      "dateModified": "2026-03-12",
-      "url": "https://9takes.com/community/introducing-9takes",
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/greek-statue-introducing-9takes.webp",
-        "width": 900,
-        "height": 900
-      },
-      "articleSection": "Technology",
-      "keywords": ["9takes platform", "online conversations", "Enneagram", "Q&A platform", "anonymous discussions", "diverse perspectives", "personality types"],
-      "isPartOf": {
-        "@type": "Blog",
-        "name": "9takes Community Blog",
-        "url": "https://9takes.com/community"
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/community/introducing-9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

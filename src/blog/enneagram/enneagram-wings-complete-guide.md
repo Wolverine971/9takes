@@ -810,45 +810,6 @@ It's in the pattern of your stress responses. It's in why certain self-help advi
 Start with the observation steps above. Pay attention under stress — that's when the wing signal gets loudest. And if you want to see all 18 wing combinations in action, explore how different types actually respond to the same situations on [9takes](/questions).
 
 <svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Why You Don't Match Your Enneagram Description (It's Your Wing)",
-  "description": "Confused why you don't fit your type perfectly? Your wing explains everything. Find out if you're 4w3 or 4w5, 6w5 or 6w7, and why it changes everything about your personality.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
-  },
-  "datePublished": "2025-08-16",
-  "dateModified": "2026-04-02",
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/enneagram-wings-complete-guide"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/two_greek_statues_with_wings.webp",
-    "width": 1200,
-    "height": 630
-  },
-  "articleBody": "Your Enneagram type is just the beginning. Your wing is what makes you uniquely you. This comprehensive guide covers all 18 wing combinations, how to identify your true wing, and practical development strategies.",
-  "wordCount": 5800,
-  "keywords": "enneagram wings, wing theory, enneagram wing combinations, how to find your wing, enneagram development, personality types",
-  "articleSection": "Personality Development",
-  "inLanguage": "en-US"
-}
-</script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

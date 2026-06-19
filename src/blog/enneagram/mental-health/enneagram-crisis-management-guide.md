@@ -1305,43 +1305,6 @@ Set clear boundaries about what you can and can't provide. Stay calm and present
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "Comprehensive crisis management guide for each Enneagram type, including immediate interventions, suicide prevention strategies, building crisis plans, and how to help others based on their personality type.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-04",
-      "datePublished": "2025-08-25",
-      "description": "Learn immediate interventions for each Enneagram type in crisis, including suicide prevention strategies, emergency coping tools, and how to help others.",
-      "headline": "Crisis Management by Enneagram Type: Your Emergency Mental Health Toolkit",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/crisis-management.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-crisis-management-guide",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "keywords": ["enneagram crisis", "mental health emergency", "suicide prevention", "crisis management", "personality types", "mental health toolkit", "emergency intervention"]
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

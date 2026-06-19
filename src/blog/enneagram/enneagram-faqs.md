@@ -95,7 +95,7 @@ If you want to look at actual numbers, our [corpus stats page](/corpus-stats) sh
 
 Many people use both. They're measuring different things.
 
-<strong>Full comparison:</strong> <a href="/enneagram-corner/enneagram-vs-meyers-briggs">Enneagram vs MBTI detailed breakdown</a>
+<strong>Full comparison:</strong> <a href="/enneagram-corner/enneagram-vs-meyers-briggs">Enneagram vs MBTI detailed breakdown</a>. See also: <a href="/enneagram-corner/enneagram-vs-personality-frameworks-comparison">how the Enneagram compares to 14 personality frameworks</a>.
 
 <strong>More context:</strong> <a href="/community/mbti-vs-enneagram">MBTI Failed Us — Can the Enneagram Do Better?</a>
 
@@ -638,33 +638,6 @@ It's "How can understanding my patterns help me create the life I want?"
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "headline": "Is the Enneagram Real? 27 Questions Everyone Asks (Finally Answered)",
-      "description": "Get straight answers about the Enneagram personality system. From 'Is it scientific?' to 'Can my type change?' - everything skeptics and beginners need to know.",
-      "datePublished": "2023-02-10",
-      "dateModified": "2025-08-15",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/enneagram-faqs"
-      },
-      "articleBody": "Comprehensive FAQ addressing common questions and skepticism about the Enneagram personality system, including scientific validity, comparison to other personality tests, practical applications, and honest limitations.",
-      "wordCount": 2800,
-      "keywords": ["Enneagram FAQ", "is Enneagram real", "Enneagram vs MBTI", "Enneagram scientific", "personality types", "Enneagram questions", "find your type", "Enneagram criticism", "personality psychology"]
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

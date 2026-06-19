@@ -583,7 +583,7 @@
 		{ key: 'overall_score', label: 'Overall', numeric: true },
 		{ key: 'performance_band', label: 'Band' }
 	];
-	const releaseAnalyticsLimit = 500;
+	const releaseAnalyticsLimit = 200;
 	const releaseRangePresetOptions = [
 		{ label: 'Last 30 days', days: 30 },
 		{ label: 'Last 90 days', days: 90 },
@@ -1777,6 +1777,23 @@
 		return true;
 	}
 
+	async function readJsonResponse(
+		response: Response,
+		fallbackMessage: string
+	): Promise<Record<string, unknown>> {
+		try {
+			const body = await response.json();
+			return body && typeof body === 'object' ? body : {};
+		} catch (err) {
+			if (!response.ok) {
+				const status = response.status ? ` (${response.status})` : '';
+				const statusText = response.statusText ? `: ${response.statusText}` : '';
+				return { message: `${fallbackMessage}${status}${statusText}` };
+			}
+			throw err;
+		}
+	}
+
 	function setReleaseRangePreset(days: number) {
 		const anchor = releaseToDate ? parseDate(releaseToDate) : new Date();
 		const from = new Date(anchor);
@@ -2084,10 +2101,12 @@
 			const params = buildReleaseParams();
 			params.set('limit', String(releaseAnalyticsLimit));
 			const response = await fetch(`/api/admin/analytics/releases?${params.toString()}`);
-			const body = await response.json();
+			const body = await readJsonResponse(response, 'Failed to load release analytics');
 
 			if (!response.ok) {
-				throw new Error(body.message || 'Failed to load release analytics');
+				const message =
+					typeof body.message === 'string' ? body.message : 'Failed to load release analytics';
+				throw new Error(message);
 			}
 
 			releaseRows = (body.rows ?? []) as ReleasePerformanceRow[];

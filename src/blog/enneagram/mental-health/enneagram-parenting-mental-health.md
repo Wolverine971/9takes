@@ -578,43 +578,6 @@ This is where most conflict lives. A Type 8 parent struggles with a Type 9 child
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "Parent-to-parent exploration of how personality patterns in children can shape stress responses, emotional needs, and when to seek professional support.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-10",
-      "datePublished": "2025-08-25",
-      "description": "The withdrawn child might be processing — or spiraling. The 'perfect' child might be thriving — or one failure away from crisis. Same behavior, different meaning. Here is how each personality pattern shapes children's mental health, and the warning signs that matter.",
-      "headline": "When 'I'm Fine' Isn't: How to Read Your Child's Mental Health by Their Personality Pattern",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-struggling-to-parent.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-parenting-mental-health",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "keywords": ["enneagram parenting", "children's mental health", "child psychology", "personality types", "parenting strategies", "child development", "mental health warning signs"]
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -34,60 +34,6 @@ path: src/blog/pop-culture/hormozi-marriage-two-type-3s-enneagram.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of Alex and Leila Hormozi's marriage — a same-type pairing of two Achievers — examining how a Bumble date, a handshake business deal, and a bridge moment in a spare bedroom built Acquisition.com, and what the marriage between two Type 3s actually costs.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-05-19",
-      "datePublished": "2026-05-19",
-      "description": "She made him propose business before he proposed marriage. He worked alongside a thief she caught in one conversation. The most quoted line about their relationship horrifies normal couples — and is the most honest thing two Achievers can say to each other.",
-      "headline": "Alex and Leila Hormozi: What a Marriage Between Two Type 3s Actually Looks Like",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/hormozi-marriage-two-type-3s-enneagram.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/hormozi-marriage-two-type-3s-enneagram",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Alex Hormozi",
-        "Leila Hormozi",
-        "Hormozi marriage",
-        "Hormozi relationship",
-        "Enneagram Type 3",
-        "Achiever",
-        "same-type pairing",
-        "power couple psychology",
-        "Acquisition.com",
-        "business marriage"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 4800
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

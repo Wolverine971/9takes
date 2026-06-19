@@ -1,19 +1,26 @@
 // src/routes/resetPassword/+page.server.ts
 import { fail } from '@sveltejs/kit';
+import { establishSessionFromAuthRedirect } from '$lib/server/authCallback';
 import type { Actions, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
-	// Get the hash fragment from the URL (where the token is stored)
-	// We don't need to extract it server-side as it's handled client-side by Supabase
+	// The recovery link lands here with a PKCE `?code=` (or `?token_hash=&type=`).
+	// Exchange it for a session so the `resetPass` action can call `updateUser`.
+	await establishSessionFromAuthRedirect(event);
 
-	// Check if the user is already logged in (with a valid session)
-	const session = event.locals.session;
+	// Re-read the session after a potential exchange (locals.session was resolved
+	// in hooks before this load ran, so it predates the exchange).
+	const { session } = await event.locals.safeGetSession();
 
-	// We don't need to redirect here as the user might have a valid session
-	// but still needs to reset their password via the token
+	// Without a session the form can't do anything (no token to authorize the
+	// password change), so show the "request a new link" message instead of a
+	// form that will fail on submit. A re-run after the code was consumed still
+	// has the session from the first exchange, so this stays false then.
+	const linkError = !session;
 
 	return {
-		session
+		session,
+		linkError
 	};
 };
 
@@ -52,8 +59,8 @@ export const actions: Actions = {
 		}
 
 		try {
-			// The auth token is handled automatically by Supabase client
-			// when the user lands on this page from the reset email
+			// The recovery session was established in `load` (the recovery code/token
+			// was exchanged for a session there), so `updateUser` is authorized here.
 			const { data, error } = await locals.supabase.auth.updateUser({
 				password
 			});

@@ -235,25 +235,6 @@ It didn't trap them. It freed them.
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "headline": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
-      "description": "17 famous Type 7s studied. Every one chased the next thing. None of them found fulfillment until they stopped. The 7 patterns that actually unlocked what they were searching for.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne"
-      },
-      "datePublished": "2026-02-08",
-      "dateModified": "2026-02-09",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/why-the-next-thing-wont-fix-it-type-7"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

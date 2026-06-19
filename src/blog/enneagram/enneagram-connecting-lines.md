@@ -255,55 +255,9 @@ Wings don't change your connecting lines, but they color how you experience the 
 <svelte:head>
 
 <script type="application/ld+json">
-  {
+{
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "articleBody": "The article explores the dynamic transformation patterns of the nine Enneagram types through integration and disintegration lines, providing detailed examples of how each type's behavior, thought patterns, and emotional responses shift under different states of mental health and stress.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-26",
-      "datePublished": "2023-07-23",
-      "description": "Discover how the Enneagram's connecting lines reveal your transformation during growth and stress patterns. Learn specific examples of how each of the 9 personality types changes when integrating or disintegrating.",
-      "headline": "Enneagram Connecting Lines: The Hidden Dynamics of Growth and Stress Patterns",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-connecting-lines",
-        "@type": "WebPage"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-reading-a-book.webp",
-        "width": 900
-      },
-      "keywords": ["enneagram connecting lines", "enneagram growth patterns", "enneagram stress patterns", "enneagram integration", "enneagram disintegration", "enneagram transformation", "personality development", "enneagram types under stress", "enneagram personal growth"],
-      "wordCount": 2847,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-connecting-lines",
-      "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

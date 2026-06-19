@@ -52,7 +52,7 @@ The honest answer: it's complicated. The Enneagram lacks the extensive validatio
 
 <p class="firstLetter">"The Enneagram is just astrology for people who read." You've heard this dismissal. Maybe you've made it yourself. And you're not wrong to be skeptical—the personality industry is flooded with pseudoscience dressed up in therapeutic language.</p>
 
-But here's what the skeptics don't tell you: in the past decade, the Enneagram has been put under the same scientific microscope that validated the Big Five. Brain scans. Clinical trials. Longitudinal studies. And the results are... complicated.
+But here's what the skeptics don't tell you: in the past decade, the Enneagram has been put under the same scientific microscope that validated the Big Five, and it holds up far better than [the astrology comparison](https://9takes.com/enneagram-corner/astrology-and-the-enneagram) suggests. Brain scans. Clinical trials. Longitudinal studies. And the results are... complicated.
 
 **The honest answer isn't that the Enneagram is proven science. It's that it's _becoming_ science.** Stanford researchers have identified distinct neural signatures for each type. Clinical studies show type-specific treatment responses. Peer-reviewed journals are publishing Enneagram research at an accelerating rate.
 
@@ -870,43 +870,6 @@ Look for instruments with published psychometric data. The RHETI v2.5 has the st
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "ScholarlyArticle",
-      "articleBody": "Comprehensive review of scientific research linking Enneagram personality types to mental health patterns, including neuroscience findings, clinical studies, treatment outcomes, and evidence-based applications for personalized mental health care.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-04",
-      "datePublished": "2025-08-25",
-      "description": "Explore the scientific research linking Enneagram types to mental health patterns, including neuroscience findings, clinical studies, and evidence-based applications.",
-      "headline": "The Science Behind Enneagram and Mental Health: Research, Neuroscience, and Evidence",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-researcher.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-science-mental-health",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "keywords": ["enneagram research", "personality neuroscience", "mental health science", "clinical psychology", "evidence-based therapy", "personality assessment", "psychiatric research"]
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

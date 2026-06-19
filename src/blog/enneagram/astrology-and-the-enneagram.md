@@ -347,65 +347,6 @@ That's the only test that matters.
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "Astrology tells you what influences you. The Enneagram tells you why you respond. This article pairs all 9 Enneagram types with zodiac signs, ruling planets, and astrological houses; maps wings to planetary aspects; explains Taurus Type 8 and other 'mismatch' pairings through Beatrice Chestnut's countertype work; and connects Enneagram stress and growth arrows to Saturn, Pluto, and Jupiter transits. Includes Lynn Roulo's finding of no statistical correlation between type and sign, and Enneagram test-retest reliability of 70-85%.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-20",
-      "datePublished": "2024-08-23",
-      "description": "Your zodiac tells you when. Your Enneagram type tells you why. Complete chart pairing all 9 types with zodiac signs, ruling planets, and astrological houses.",
-      "headline": "Astrology and the Enneagram: How Zodiac Signs Connect to Your Personality Type",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/looking-up-at-the-night-sky.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/astrology-and-the-enneagram",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "astrology and the enneagram",
-        "enneagram zodiac signs",
-        "enneagram type zodiac sign",
-        "what enneagram type is my zodiac sign",
-        "enneagram vs astrology",
-        "enneagram planets",
-        "enneagram astrological houses",
-        "zodiac personality types",
-        "enneagram astrology chart",
-        "enneagram type 4 pisces",
-        "enneagram type 8 aries",
-        "enneagram type 7 sagittarius",
-        "personality types astrology",
-        "enneagram and astrology connection"
-      ],
-      "wordCount": 5200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/astrology-and-the-enneagram"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

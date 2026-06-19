@@ -345,38 +345,6 @@ The pattern, not the type, is the hinge. Attachment types: locate desire that do
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "Object Relations Theory holds that your earliest relationships shape every subsequent relationship. The Enneagram organizes the nine types into three Object Relations patterns: Attachment (Types 3, 6, 9), Frustration (Types 1, 4, 7), and Rejection (Types 2, 5, 8). This article explains the psychoanalytic origins of Object Relations theory, names the major theorists (Klein, Fairbairn, Winnicott, Mahler, Kohut), maps the 3x3 matrix of centers crossed with object relations, gives the internalized object for each of the nine types, distinguishes Object Relations from attachment theory, and provides a growth move per pattern.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2026-05-04",
-      "datePublished": "2026-05-04",
-      "description": "Object Relations Theory says your earliest bonds shape every relationship. The Enneagram sorts the nine types into three Object Relations patterns — Attachment, Frustration, Rejection. Here is the one running you and how to loosen its grip.",
-      "headline": "Attachment, Frustration, Rejection: The Object Relations Hidden in Your Enneagram Type",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-object-relations.webp",
-        "width": 1600
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-object-relations",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

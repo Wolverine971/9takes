@@ -34,60 +34,6 @@ path: src/blog/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of the Alex Cooper and Alix Earle feud examining how Cooper's Type 7 psychology and Earle's Type 9 psychology created an alliance destined to collapse — and why the structural pattern repeats across Cooper's empire, from Sofia Franklyn in 2020 to the 2026 Bloomberg and Boston Globe reporting on Unwell's workplace culture.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-05-14",
-      "datePublished": "2026-05-13",
-      "description": "A Type 7 who can't stop moving forward. A Type 9 who learned to leave the room. The Unwell Network breakup isn't drama — it's what happens when an Enthusiast tries to build an empire on a Peacemaker who never wanted to fight.",
-      "headline": "Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline Always Explodes",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/alex-cooper-alix-earle-beef-enneagram-analysis-composite.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Alex Cooper Alix Earle beef",
-        "Alex Cooper Alix Earle feud",
-        "Unwell Network drama",
-        "Call Her Daddy Alix Earle",
-        "Hot Mess podcast dropped",
-        "Alex Cooper personality type",
-        "Alix Earle personality type",
-        "Enneagram Type 7 Type 9",
-        "podcast drama analysis",
-        "Alex Cooper Sofia Franklyn pattern"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 4488
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

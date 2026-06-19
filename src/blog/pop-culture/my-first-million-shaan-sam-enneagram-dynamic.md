@@ -34,58 +34,6 @@ path: src/blog/pop-culture/my-first-million-shaan-sam-enneagram-dynamic.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of the My First Million dynamic — a Type 7 (Shaan Puri) and Type 8 (Sam Parr) partnership — examining why their chemistry produces a complete nervous system on air, how their opposite wounds both translate to 'freedom,' and why neither host works as well solo.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-05-19",
-      "datePublished": "2026-05-19",
-      "description": "Shaan Puri is a Type 7 idea machine. Sam Parr is a Type 8 reality check. The show isn't about businesses — it's a live personality experiment that's run for seven years.",
-      "headline": "My First Million's Real Engine: What Happens When a Type 7 and a Type 8 Build a Business Together",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/my-first-million-shaan-sam-enneagram-dynamic.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/my-first-million-shaan-sam-enneagram-dynamic",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Shaan Puri",
-        "Sam Parr",
-        "My First Million",
-        "MFM podcast",
-        "Enneagram Type 7",
-        "Enneagram Type 8",
-        "podcast co-host dynamic",
-        "business podcast psychology"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 3800
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

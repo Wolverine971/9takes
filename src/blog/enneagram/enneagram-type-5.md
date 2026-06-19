@@ -446,53 +446,6 @@ In this panel discussion, Type 5s offer glimpses into their internal experience:
       "name": "Enneagram type 5"
     },
     {
-      "@type": "BlogPosting",
-      "name": "Why You Withdraw From Everyone (Type 5 Isolation Patterns)",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "description": "Feel drained by people and crave constant alone time? That's Type 5. Learn why social interaction feels depleting, why you need to withdraw to recharge, and what you're really protecting.",
-      "dateModified": "2025-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram Type 5",
-        "why do I need alone time",
-        "social exhaustion introvert",
-        "introvert energy management",
-        "why do people drain my energy",
-        "Observer personality",
-        "Investigator type",
-        "introverted analytical personality"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-5",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 4200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-5",
-      "articleBody": "A comprehensive guide to Enneagram Type 5, known as 'The Observer.' This exploration reveals how childhood experiences of invasion and overwhelm create the Five's fortress mind. Discover the scarcity economy that governs their energy, why some topics energize them while social interaction depletes, and how they navigate relationships through careful boundary management. Learn about their stress patterns, friendship needs, and path to integration. Understand how Fives transform from isolated observers to engaged contributors when they discover that certain connections generate rather than deplete resources."
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -531,7 +484,6 @@ In this panel discussion, Type 5s offer glimpses into their internal experience:
     }
   ]
 }
-
 </script>
 
 </svelte:head>

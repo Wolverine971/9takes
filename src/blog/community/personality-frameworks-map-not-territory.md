@@ -25,43 +25,6 @@ path: src/blog/community/personality-frameworks-map-not-territory.md
   import MarqueeHorizontal from '$lib/components/atoms/MarqueeHorizontal.svelte';
 </script>
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "You Didn't Find Yourself in the Enneagram. You Found a Map.",
-  "description": "Personality type debates never end because people argue over maps, not territory. Here is the distinction that separates people who use frameworks from people who are trapped by them.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2026-04-15",
-  "dateModified": "2026-04-15"
-}
-</script>
-
-</svelte:head>
-
 <QuickAnswer question="Did you find yourself in the Enneagram — or did you find a map?">
 You found a map. A map is useful — it increases your predictive accuracy, names patterns you'd otherwise miss, opens conversations that wouldn't happen. But a map of Paris is not Paris. Your Enneagram type is not you. When people forget that, they stop observing the actual person and start defending a description. The distinction — map vs. territory — is the difference between a tool and a cage.
 </QuickAnswer>

@@ -408,42 +408,9 @@ Growth requires moving against your type's survival strategy. Type 6s trusting w
 <svelte:head>
 
 <script type="application/ld+json">
-  {
+{
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "articleBody": "Each of the nine Enneagram types has a specific growth formula. This guide covers the core pattern keeping each type stuck, a tactical shift and daily practices to interrupt it, environmental adjustments that reinforce change, regression warning signs, and a 90-day protocol for pattern recognition, interruption, and installation.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/","https://www.youtube.com/@djwayne3","https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-07-18",
-      "datePublished": "2023-03-10",
-      "description": "Self-help advice fails because it ignores type. Type 3s need to slow down. Type 9s need to act. Type 8s need vulnerability. Here's the specific growth formula for each Enneagram.",
-      "headline": "Enneagram Personal Growth: Why Type 3s Can't Grow Like Type 9s",
-      "keywords": ["Enneagram personal growth", "personality development", "type-specific growth", "Enneagram transformation", "personality maxing", "growth strategies", "self-improvement", "Enneagram types", "personal development", "growth formula"],
-      "wordCount": 3200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-personal-growth",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-personal-growth",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/","https://twitter.com/9takesdotcom"
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [
@@ -491,7 +458,6 @@ Growth requires moving against your type's survival strategy. Type 6s trusting w
     }
   ]
 }
-
 </script>
 
 </svelte:head>

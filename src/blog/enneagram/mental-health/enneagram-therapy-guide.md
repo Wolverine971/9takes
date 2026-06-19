@@ -507,59 +507,14 @@ Online works well for Head types (5, 6, 7) and anyone doing CBT or talk-based th
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "Article",
-	      "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide#article",
-	      "articleBody": "Comprehensive guide to finding the right therapy approach for each Enneagram type, including detailed analysis of various therapeutic modalities, what to expect in therapy, and how to find the right therapist for your personality type.",
-	      "inLanguage": "en",
-	      "author": {
-	        "@type": "Person",
-	        "name": "DJ Wayne",
-	        "sameAs": [
-	          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-	      "dateModified": "2026-03-10",
-	      "datePublished": "2025-09-09",
-	      "description": "Your personality patterns affect how you show up in therapy — and which approaches tend to resonate. Understand your tendencies so you can get more out of the process.",
-	      "headline": "How Your Enneagram Type Shapes Your Therapy Experience",
-	      "name": "How Your Enneagram Type Shapes Your Therapy Experience",
-	      "url": "https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide",
-	      "image": {
-	        "@type": "ImageObject",
-	        "height": 900,
-	        "url": "https://9takes.com/blogs/greek-statues-in-a-progression.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide",
-        "@type": "WebPage"
-	      },
-	      "publisher": {
-	        "@type": "Organization",
-	        "name": "9takes",
-	        "sameAs": [
-	          "https://www.instagram.com/9takesdotcom/",
-	          "https://twitter.com/9takesdotcom"
-	        ],
-	        "logo": {
-	          "@type": "ImageObject",
-	          "url": "https://9takes.com/brand/aero.png"
-	        }
-      },
-      "keywords": ["enneagram therapy", "CBT", "DBT", "psychodynamic therapy", "somatic therapy", "EMDR", "personality types", "mental health treatment", "therapy guide"]
-	    },
-	    {
-	      "@type": "FAQPage",
-	      "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide#faq",
-	      "mainEntity": [
-	        {
-	          "@type": "Question",
-	          "name": "How do I know if I'm in the wrong type of therapy?",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-guide#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if I'm in the wrong type of therapy?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Three signs you're in the wrong modality: you're comfortable every session (therapy should push you), you've had zero growth in three months, or your therapist reinforces your type's unhealthy patterns. The right therapy feels uncomfortable but productive."

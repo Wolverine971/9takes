@@ -5,7 +5,7 @@ import { GET } from './+server';
 
 interface SupabaseMockOptions {
 	refreshRows?: number;
-	// One array per sequential get_content_release_performance call (page fetch + optional baseline).
+	// One array per sequential get_content_release_performance call (selected fetch + optional baseline).
 	perfBatches?: Array<Array<Record<string, unknown>>>;
 	demand?: Array<Record<string, unknown>>;
 	admin?: boolean;
@@ -220,7 +220,7 @@ describe('/api/admin/analytics/releases', () => {
 		});
 	});
 
-	it('fetches multiple release batches when the requested limit exceeds the RPC page size', async () => {
+	it('caps oversized release requests to one RPC page', async () => {
 		const makeRow = (id: number, publishedAt: string) => ({
 			id,
 			slug: `person-${id}`,
@@ -278,12 +278,10 @@ describe('/api/admin/analytics/releases', () => {
 			p_to_date: undefined,
 			p_limit: 200
 		});
-		expect(rpc).toHaveBeenNthCalledWith(3, 'get_content_release_performance', {
-			p_from_date: undefined,
-			p_to_date: expect.any(String),
-			p_limit: 200
-		});
-		expect(body.rows).toHaveLength(201);
+		expect(
+			rpc.mock.calls.filter(([name]) => name === 'get_content_release_performance')
+		).toHaveLength(1);
+		expect(body.rows).toHaveLength(200);
 	});
 
 	it('refreshes the selected release window before reading older ranges', async () => {

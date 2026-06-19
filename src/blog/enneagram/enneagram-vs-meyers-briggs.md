@@ -56,7 +56,7 @@ But here's what most people get wrong: **these systems aren't competitors. They'
 
 It's like asking whether a thermometer or a blood pressure monitor is "better." They track different signals. MBTI and the Enneagram do the same thing for personality.
 
-Here's what each one actually measures, when to use which, and how they work together.
+Here's what each one actually measures, when to use which, and how they work together. And if you're comparing the Enneagram to more than just MBTI, here's [how it holds up against 14 personality frameworks](https://9takes.com/enneagram-corner/enneagram-vs-personality-frameworks-comparison).
 
 If you want the more opinionated version of this argument, read [MBTI Failed Us — Can the Enneagram Do Better?](/community/mbti-vs-enneagram).
 
@@ -238,102 +238,62 @@ Use both and you get a clearer read on yourself.
 
 <script type="application/ld+json">
 {
-   "@graph":[
-      {
-         "@type": "BlogPosting",
-         "articleBody": "MBTI explains how you tend to process information and make decisions. The Enneagram explains why you repeat certain emotional patterns, especially under stress. This guide shows what each system measures, what each one is best for, and how to use both without getting stuck in labels.",
-         "author": {
-            "@type": "Person",
-            "name": "DJ Wayne",
-            "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-            ]
-         },
-         "dateModified": "2026-01-18",
-         "datePublished": "2023-07-16",
-	         "description":"INTJ or Type 5? ENFP or Type 7? Here's the difference between MBTI and the Enneagram, and when each one gives you the insight you're actually looking for.",
-         "headline":"Enneagram vs Myers-Briggs: Which Actually Explains You Better?",
-         "keywords": ["Enneagram", "Myers-Briggs", "MBTI", "personality types", "personality systems", "psychology", "cognitive functions", "self-awareness", "personal development", "assessment tools"],
-	         "wordCount": 1551,
-         "articleSection": "Enneagram",
-         "url": "https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs",
-         "image":{
-            "@type":"ImageObject",
-            "height":810,
-            "url": "https://9takes.com/blogs/enneagram-vs-meyers-briggs.webp",
-            "width":1450
-         },
-         "mainEntityOfPage":{
-            "@id":"https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs",
-            "@type":"WebPage"
-         },
-         "mentions":{
-            "@type":"Thing",
-            "name":"Enneagram"
-         },
-         "publisher": {
-            "@type": "Organization",
-            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-            "logo": {
-               "@type": "ImageObject",
-               "url": "https://9takes.com/brand/aero.png"
-            },
-            "name": "9takes"
-         }
-      },
-      {
-         "@type":"FAQPage",
-         "mainEntity":[
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"Enneagram is a personality system that maps out nine fundamental personality types and provides insights into core motivations, desires, fears, and defenses. The Myers-Briggs Type Indicator (MBTI), on the other hand, focuses on how people perceive the world and make decisions. It identifies preferences across four dimensions: Extraversion or Introversion, Sensing or Intuition, Thinking or Feeling, and Judging or Perceiving."
-               },
-               "name":"What is the difference between the Enneagram and Myers-Briggs Type Indicator (MBTI)?"
-            },
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"Choosing between the Enneagram and MBTI depends on the aspect of personality you aim to explore. The Enneagram is useful for understanding motivations and emotional coping mechanisms and is often used in personal development and therapeutic contexts. MBTI emphasizes cognitive processes and is commonly used in career counseling, team building, and enhancing interpersonal communication."
-               },
-               "name":"How do I choose between using the Enneagram and the Myers-Briggs Type Indicator (MBTI)?"
-            },
-            {
-               "@type": "Question",
-               "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "While both the Enneagram and MBTI are personality systems, they differ in their focus. The Enneagram is centered around core fears, desires, and motivations, offering insights into why people behave the way they do. In contrast, MBTI focuses on cognitive functions, how people perceive the world, and make decisions, emphasizing cognitive processes rather than underlying motivations."
-               },
-               "name": "What are the main differences between the Enneagram and Myers-Briggs Type Indicator (MBTI)?"
-            },
-            {
-               "@type": "Question",
-               "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The Enneagram is an ancient personality system with debated origins, possibly tracing back to early Christianity, Sufism, and ancient philosophies. It consists of a nine-pointed geometric figure representing nine distinct personality types, each with specific patterns of thinking, feeling, and behaving."
-               },
-               "name": "What are the origins and key concepts of the Enneagram?"
-            },
-            {
-               "@type": "Question",
-               "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "MBTI categorizes personalities into 16 types based on four dichotomies: Extraversion vs. Introversion, Sensing vs. Intuition, Thinking vs. Feeling, and Judging vs. Perceiving. It also introduces eight cognitive functions, mental processes that each personality type prefers to use, combining a dichotomy from Sensing-Intuition and Thinking-Feeling with an orientation from Extraversion-Introversion."
-               },
-               "name": "How is the Myers-Briggs Type Indicator (MBTI) structured?"
-            },
-            {
-               "@type": "Question",
-               "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Although fundamentally different, the Enneagram and MBTI can intersect and complement each other for a richer understanding of personality. The Enneagram is useful in personal development and therapeutic contexts, focusing on motivations and emotional coping mechanisms. MBTI is often used in career counseling, team building, and enhancing interpersonal communication, with its emphasis on cognitive processes."
-               },
-               "name": "How do the Enneagram and MBTI complement each other?"
-            }
-         ]
-      }
-   ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enneagram is a personality system that maps out nine fundamental personality types and provides insights into core motivations, desires, fears, and defenses. The Myers-Briggs Type Indicator (MBTI), on the other hand, focuses on how people perceive the world and make decisions. It identifies preferences across four dimensions: Extraversion or Introversion, Sensing or Intuition, Thinking or Feeling, and Judging or Perceiving."
+          },
+          "name": "What is the difference between the Enneagram and Myers-Briggs Type Indicator (MBTI)?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choosing between the Enneagram and MBTI depends on the aspect of personality you aim to explore. The Enneagram is useful for understanding motivations and emotional coping mechanisms and is often used in personal development and therapeutic contexts. MBTI emphasizes cognitive processes and is commonly used in career counseling, team building, and enhancing interpersonal communication."
+          },
+          "name": "How do I choose between using the Enneagram and the Myers-Briggs Type Indicator (MBTI)?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While both the Enneagram and MBTI are personality systems, they differ in their focus. The Enneagram is centered around core fears, desires, and motivations, offering insights into why people behave the way they do. In contrast, MBTI focuses on cognitive functions, how people perceive the world, and make decisions, emphasizing cognitive processes rather than underlying motivations."
+          },
+          "name": "What are the main differences between the Enneagram and Myers-Briggs Type Indicator (MBTI)?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram is an ancient personality system with debated origins, possibly tracing back to early Christianity, Sufism, and ancient philosophies. It consists of a nine-pointed geometric figure representing nine distinct personality types, each with specific patterns of thinking, feeling, and behaving."
+          },
+          "name": "What are the origins and key concepts of the Enneagram?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MBTI categorizes personalities into 16 types based on four dichotomies: Extraversion vs. Introversion, Sensing vs. Intuition, Thinking vs. Feeling, and Judging vs. Perceiving. It also introduces eight cognitive functions, mental processes that each personality type prefers to use, combining a dichotomy from Sensing-Intuition and Thinking-Feeling with an orientation from Extraversion-Introversion."
+          },
+          "name": "How is the Myers-Briggs Type Indicator (MBTI) structured?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Although fundamentally different, the Enneagram and MBTI can intersect and complement each other for a richer understanding of personality. The Enneagram is useful in personal development and therapeutic contexts, focusing on motivations and emotional coping mechanisms. MBTI is often used in career counseling, team building, and enhancing interpersonal communication, with its emphasis on cognitive processes."
+          },
+          "name": "How do the Enneagram and MBTI complement each other?"
+        }
+      ]
+    }
+  ]
 }
 </script>
 

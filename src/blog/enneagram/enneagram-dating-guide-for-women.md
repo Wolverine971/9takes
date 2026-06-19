@@ -704,46 +704,10 @@ This often happens when you're in your own stress patterns. Type 2s attract narc
 
 <svelte:head>
 
-<script type="application/ld+json">  
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "articleBody": "This comprehensive dating guide examines how women of each Enneagram type can approach dating authentically in 2025. The guide provides personalized strategies for all nine types, with specific mindset shifts, first and second date strategies, and talking points tailored to each type's core motivations and growth areas. It also addresses modern dating challenges like situationships and love bombing through the lens of different Enneagram types.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2025-07-18",
-      "datePublished": "2025-02-25",
-      "description": "Stop dating the wrong way for your personality. Decode your Enneagram type's exact dating formula with tactical strategies that attract the right people.",
-      "headline": "Enneagram Dating Guide for Women: Decode Your Perfect Match Formula",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blog/enneagram/female-greek-statue-on-a-date.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-dating-guide-for-women",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      },
-      "keywords": ["enneagram dating", "women dating guide", "enneagram types dating", "slow dating", "dating trends 2025", "type 1 dating", "type 2 dating", "type 3 dating", "type 4 dating", "type 5 dating", "type 6 dating", "type 7 dating", "type 8 dating", "type 9 dating", "authentic dating", "situationships", "love bombing"],
-      "wordCount": 8931,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-dating-guide-for-women"
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

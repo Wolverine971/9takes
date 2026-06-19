@@ -444,50 +444,6 @@ That's someone worth building a life with.
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This comprehensive guide explores the relationship red flags for each Enneagram type, explaining why these patterns develop from childhood survival mechanisms and core fears. It provides specific warning signs to watch for, how to distinguish between healthy and unhealthy expressions of each type, and practical strategies for addressing red flag behaviors with different personality types.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-10",
-      "datePublished": "2025-12-03",
-      "description": "Is your partner's behavior a red flag or just their personality? Discover the warning signs for each Enneagram type, why they happen, and what to do about them.",
-      "headline": "Red Flags You Are Dating Each Enneagram Type (And What to Do)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-relationship-red-flags.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/red-flags-dating-each-enneagram-type",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["enneagram red flags", "relationship red flags", "dating warning signs", "enneagram relationships", "toxic relationships", "personality types dating", "unhealthy enneagram", "relationship patterns"],
-      "wordCount": 4016,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/red-flags-dating-each-enneagram-type"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

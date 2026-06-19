@@ -7,11 +7,10 @@
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
 	import { goto } from '$app/navigation';
-	import { onMount } from 'svelte';
-	import type { ActionData } from './$types';
+	import type { ActionData, PageData } from './$types';
 	import { Button } from '$lib/components/atoms';
 
-	let { form }: { form: ActionData } = $props();
+	let { form, data }: { form: ActionData; data: PageData } = $props();
 
 	let password = $state('');
 	let confirmPassword = $state('');
@@ -44,12 +43,6 @@
 			}, 3000);
 		}
 	});
-
-	// Check if we have the hash fragment in the URL
-	onMount(() => {
-		// The Supabase client will handle the hash fragment automatically
-		// We don't need to extract it manually
-	});
 </script>
 
 <svelte:head>
@@ -73,6 +66,13 @@
 		<div class="success-message">
 			<p>{form?.message || 'Password has been reset successfully!'}</p>
 			<p>Redirecting to login page...</p>
+		</div>
+	{:else if data.linkError}
+		<div class="error-message" role="alert">
+			This password reset link is invalid or has expired. Please request a new one.
+		</div>
+		<div class="back-link">
+			<a href="/forgotPassword">Request a new reset link</a>
 		</div>
 	{:else}
 		<form

@@ -35,74 +35,41 @@ QUALITY_FEEDBACK_END -->
 <svelte:head>
 
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "BlogPosting",
-          "headline": "Why You Keep Sabotaging New Relationships (Your Enneagram Knows)",
-          "description": "Discover the hidden patterns destroying your dating life. Type-specific strategies to stop self-sabotage and build authentic connections from the start.",
-          "datePublished": "2024-09-28",
-          "dateModified": "2026-02-02",
-          "author": {
-            "@type": "Person",
-            "name": "DJ Wayne",
-            "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "9takes",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://9takes.com/brand/aero.png"
-            }
-          },
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://9takes.com/enneagram-corner/how-to-navigate-early-relationship-stages"
-          },
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://9takes.com/blogs/young-couple-on-a-date.webp",
-            "width": 1200,
-            "height": 630
-          },
-          "articleBody": "Complete guide to understanding how each Enneagram type sabotages early relationships and how to break these patterns. Includes type-specific dating strategies, texting tips, vulnerability exercises, practical date ideas, guidance for dating each type, common pattern collisions between types, how to recover from sabotage, and connections to attachment theory.",
-          "wordCount": 6400,
-          "keywords": ["enneagram dating", "early relationships", "relationship self-sabotage", "dating patterns", "personality types dating", "relationship advice", "authentic connection", "vulnerability in dating"]
+          "@type": "Question",
+          "name": "How does my Enneagram type affect early dating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your Enneagram type reveals unconscious patterns that sabotage new relationships. Type 1s over-criticize, Type 2s lose themselves in giving, Type 3s perform instead of connect, Type 4s seek intensity over stability, Type 5s analyze instead of feel, Type 6s test trust obsessively, Type 7s avoid depth, Type 8s refuse vulnerability, and Type 9s erase their preferences."
+          }
         },
         {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How does my Enneagram type affect early dating?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Your Enneagram type reveals unconscious patterns that sabotage new relationships. Type 1s over-criticize, Type 2s lose themselves in giving, Type 3s perform instead of connect, Type 4s seek intensity over stability, Type 5s analyze instead of feel, Type 6s test trust obsessively, Type 7s avoid depth, Type 8s refuse vulnerability, and Type 9s erase their preferences."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What's the biggest early relationship mistake for each Enneagram type?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Type 1: Expecting perfection immediately. Type 2: Giving everything without boundaries. Type 3: Treating dates like job interviews. Type 4: Creating drama to feel connected. Type 5: Withdrawing when overwhelmed. Type 6: Testing loyalty until it breaks. Type 7: Avoiding emotional depth. Type 8: Dominating to avoid vulnerability. Type 9: Agreeing to everything to keep peace."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can knowing my Enneagram type improve my dating success?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Understanding your type helps you recognize self-sabotaging patterns before they destroy connections. You'll know why you text obsessively (Type 2), why you disappear emotionally (Type 5), or why you turn dates into debates (Type 8). This awareness lets you consciously choose different behaviors."
-              }
-            }
-          ]
+          "@type": "Question",
+          "name": "What's the biggest early relationship mistake for each Enneagram type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 1: Expecting perfection immediately. Type 2: Giving everything without boundaries. Type 3: Treating dates like job interviews. Type 4: Creating drama to feel connected. Type 5: Withdrawing when overwhelmed. Type 6: Testing loyalty until it breaks. Type 7: Avoiding emotional depth. Type 8: Dominating to avoid vulnerability. Type 9: Agreeing to everything to keep peace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can knowing my Enneagram type improve my dating success?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Understanding your type helps you recognize self-sabotaging patterns before they destroy connections. You'll know why you text obsessively (Type 2), why you disappear emotionally (Type 5), or why you turn dates into debates (Type 8). This awareness lets you consciously choose different behaviors."
+          }
         }
       ]
     }
-  </script>
+  ]
+}
+</script>
 
 </svelte:head>
 

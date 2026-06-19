@@ -442,50 +442,6 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This article explores the complex relationship between the Enneagram and various religious traditions, including Christianity, Judaism, Sufism, and New Age philosophies. It examines how different spiritual practices have adopted and adapted the Enneagram, the controversies surrounding its use in religious contexts, and its potential for personal and spiritual growth across various belief systems.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2024-08-23",
-      "datePublished": "2024-08-23",
-      "description": "Discover how the Enneagram intersects with Christianity, Judaism, Sufism, and New Age beliefs. Explore its spiritual applications and controversies across religions.",
-      "keywords": "Enneagram religion, Christianity Enneagram, Judaism Enneagram, Sufism Enneagram, New Age Enneagram, spiritual personality types, religious personality assessment, Enneagram spirituality, faith and personality, religious psychology",
-      "wordCount": 8500,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-and-religion",
-      "headline": "Exploring the Connections between the Enneagram and Religion",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/enneagram-religion-connections.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram-and-religion",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

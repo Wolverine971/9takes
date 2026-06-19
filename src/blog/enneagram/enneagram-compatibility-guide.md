@@ -479,58 +479,6 @@ For deeper exploration of the dynamics discussed here:
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "A research-backed analysis challenging traditional Enneagram compatibility charts. Drawing on a study of 457 married couples, this article reveals what actually predicts relationship success: health levels, childhood wound awareness, and growth orientation, not type matching percentages.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-01-06",
-      "datePublished": "2026-01-06",
-      "description": "Forget best/worst match lists. Research on 457 couples reveals what actually predicts relationship success, and it has nothing to do with type compatibility percentages.",
-      "headline": "Enneagram Compatibility: Why Charts Lie and What Actually Predicts Success",
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/greek-statues-examining-compatibility-chart.webp",
-        "height": 900,
-        "width": 900
-      },
-      "keywords": [
-        "enneagram compatibility",
-        "enneagram compatibility chart",
-        "enneagram relationship compatibility",
-        "which enneagram types are most compatible",
-        "best enneagram matches",
-        "enneagram dating",
-        "enneagram relationships",
-        "enneagram couples",
-        "enneagram love",
-        "personality compatibility"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-compatibility-guide",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

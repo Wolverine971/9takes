@@ -466,42 +466,6 @@ _P.S. Still uncertain? That's normal. Some people take months to find their true
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "A streamlined guide to discovering your Enneagram type through understanding core emotional drivers, childhood patterns, and motivation-based typing. This method focuses on the 'why' behind behaviors rather than surface-level personality traits, providing a clear path to accurate self-identification.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2025-12-10",
-      "datePublished": "2023-07-11",
-      "description": "Skip the confusion. Discover your true Enneagram type with this proven 4-step method that focuses on motivations, not behaviors.",
-      "headline": "Find Your Enneagram Type in 10 Minutes (4 Simple Steps)",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type",
-        "@type": "WebPage"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-finding-enneagram-type.webp",
-        "width": 900
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      },
-      "keywords": ["enneagram test", "find enneagram type", "enneagram types", "personality test", "enneagram for beginners", "how to find enneagram", "enneagram quiz", "discover enneagram type", "enneagram guide", "enneagram typing"],
-      "wordCount": 2200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

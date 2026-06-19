@@ -21,72 +21,6 @@ mjPrompt: 'Greek marble statue of young woman holding phone taking selfie, stand
 path: src/blog/pop-culture/influencer-enneagram-types-instagram.md
 ---
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "A psychology of influencer culture through the Enneagram lens, showing why Type 3s dominate Instagram and how each personality type approaches visibility, performance, attention, and online fame.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-04-07",
-      "datePublished": "2025-12-16",
-      "description": "The psychology behind why certain personality types thrive as influencers. Type 3 Achievers built Instagram culture—here's how each type approaches fame.",
-      "headline": "Influencer Enneagram Types: Why Type 3s Dominate Instagram",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/influencer-types-instagram.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/influencer-enneagram-types-instagram",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "influencers",
-        "Instagram",
-        "Enneagram",
-        "Type 3",
-        "social media psychology",
-        "internet fame",
-        "creator economy",
-        "personality types",
-        "attention economy",
-        "online identity"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 3450
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
@@ -126,7 +60,7 @@ When you scroll through top influencers, you're usually looking at Type 3s who'v
 
 These names show up over and over when you map influencer culture to Type 3 psychology:
 
-- **Kim Kardashian** turned image management into a multi-billion-dollar empire. The whole Kardashian dynasty is essentially a family business built on Type 3 instincts.
+- **Kim Kardashian** turned image management into a multi-billion-dollar empire. The whole [Kardashian dynasty](https://9takes.com/pop-culture/kardashian-family-enneagram-analysis) is essentially a family business built on Type 3 instincts.
 - **Kylie Jenner** built a cosmetics brand on photogenic discipline before she could legally drink.
 - **MrBeast** is Type 3 in a hoodie — every thumbnail A/B tested, every video benchmarked, every minute optimized for retention.
 - **Gary Vee** and **Alex Hormozi** are Type 3 hustle culture in human form. Hormozi himself appears in the online gurus pattern, and the pattern is unmistakable.

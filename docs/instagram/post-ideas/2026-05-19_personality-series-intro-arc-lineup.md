@@ -4,13 +4,17 @@
 
 **Date locked:** 2026-05-19
 **Account:** @9takesdotcom
-**North Star (governs everything below):** [`docs/instagram/personality-series-north-star.md`](../personality-series-north-star.md) — _Stack the lore. Don't explain the person. End on the question. Send them to 9takes for the answer._
+**North Star (voice/format):** [`docs/instagram/personality-series-north-star.md`](../personality-series-north-star.md) — _Stack the lore. End on the question. Send them to 9takes._
+**Engagement strategy (governs how this arc is worked):** [`docs/instagram/personality-series-engagement-strategy.md`](../personality-series-engagement-strategy.md) — _every post anchors a type; that type has a pond; work the pond the week the post runs._
+**Pond map:** [`docs/instagram/enneagram-engagement-clusters.md`](../enneagram-engagement-clusters.md) — vernacular, hashtags, and accounts per type.
+
+**Strategy evolution (2026-06-16 → 17): type-first / person-as-vessel.** The captions and tidbits below were reoriented after this doc was first locked. The post no longer just teases the person — it anchors the person's **Enneagram type** and uses them as living proof, so each post becomes a lure for that type's engagement pond. Tidbits now reveal the type's _wound_ (the thing the pond is searching for), not just the celebrity's résumé.
 
 **Format (per post):** 2-slide carousel + caption
 
-- **Slide 1:** Portrait of the person with name overlay (9takes brand styling)
-- **Slide 2:** 5–7 tidbits, each passing the five-test filter from the north star (insider, engine-revealing, specific, scroll-stopping, opens a question)
-- **Caption:** Stack 2–3 lore beats → the question the lore raises → CTA → engagement bait
+- **Slide 1:** Portrait of the person with name overlay (9takes brand styling). Bottom chips: type reveal (`Type N · The [Archetype]`) + `@9takesdotcom`. See label-system notes from the 2026-06-16 design pass.
+- **Slide 2:** 5–7 tidbits. Each passes the five-test filter (insider, engine-revealing, specific, scroll-stopping, opens a question) **plus the wound test: does it reveal the type's core struggle, not just trivia?** Pure trivia → "Hold for stories."
+- **Caption (type-first):** reader self-ID hook in the type's vernacular → name the type → person as proof → the type's core struggle → CTA → type-oriented bait ("Are you a Type N? Tag one").
   **Arc length:** 8 posts / 4 weeks
   **Cadence:** Tuesday + Friday (per saved-posts engagement analysis 2026-05-18)
   **Lane discipline:** No political/heavy figures in this arc. They get held for arc 2 when the account is warmer (Instagram throttles political content on cold accounts).
@@ -21,9 +25,26 @@
 
 ## Why these 8, in this order
 
-This arc isn't a theme on top of the north star — the north star _is_ the theme. These 8 are picked because their lore is the most curiosity-generating in the roster right now, with discipline on lane (no political figures on a cold account) and an alternating rhythm of energy (creator → music → thinker) so the feed doesn't read same-y.
+These 8 are picked because their lore is the most curiosity-generating in the roster right now, with discipline on lane (no political figures on a cold account) and an alternating rhythm of energy (creator → music → thinker) so the feed doesn't read same-y.
 
-Each person below is framed as: _"Here's the lore that makes you wonder what makes them tick."_ The post never explains. The blog does.
+Each person anchors an Enneagram **type**, and is framed as living proof of that type's pattern. The slide stacks the lore; the caption names the type and speaks to the people who live it. The blog goes deep.
+
+### Type → Pond coordination (work the pond the week the post runs)
+
+Per the [engagement strategy](../personality-series-engagement-strategy.md). Full vernacular + accounts in the [pond map](../enneagram-engagement-clusters.md).
+
+| #   | Person            | Type | Pond (their words)                               | Hashtags to work that week                  |
+| --- | ----------------- | ---- | ------------------------------------------------ | ------------------------------------------- |
+| 1   | Tim Ferriss       | 1    | perfectionism · eldest-daughter · inner critic   | #perfectionism #eldestdaughter #innercritic |
+| 2   | Sabrina Carpenter | 3    | imposter syndrome · hustle-burnout · "that girl" | #impostersyndrome #hustleculture #thatgirl  |
+| 3   | Kai Cenat         | 7    | ADHD · dopamine · "can't sit still"              | #adhd #dopamine #fomo                       |
+| 4   | Lana Del Rey      | 4    | sad-girl · main-character · HSP                  | #sadgirl #maincharacterenergy #hsp          |
+| 5   | Charli XCX        | 3    | imposter syndrome · hustle (same pond as #2)     | #impostersyndrome #hustleculture            |
+| 6   | Chappell Roan     | 8    | control · fierce boundaries · strong-woman       | #boundaries #controlissues #strongwoman     |
+| 7   | Robert Greene     | 5    | avoidant attachment · introvert · INTJ           | #introvert #avoidantattachment #intj        |
+| 8   | Pedro Pascal      | 6    | anxiety · anxious attachment · overthinking      | #anxiety #anxiousattachment #overthinking   |
+
+**Coverage gap:** Arc 1 hits types 1, 3, 3, 4, 5, 6, 7, 8 — **no Type 2 or Type 9.** Type 2 (people-pleasing / empath / narcissist-survivor) is one of the biggest ponds online and has no lure here. Prioritize a published Type 2 and Type 9 anchor for Arc 2 (no published analysis exists for either yet — upstream content blocker).
 
 ---
 
@@ -34,7 +55,7 @@ Each person below is framed as: _"Here's the lore that makes you wonder what mak
 | 0    | —   | 0   | **Intro 2-slide carousel** | Series framer                                                                                                      | Caption ready (2026-05-19 doc) |
 | 1    | Tue | 1   | **Tim Ferriss**            | Was a lab rat in Daniel Kahneman's experiments. His first product sold two copies — one to his mom.                | ✅ Built below                 |
 | 1    | Fri | 2   | **Sabrina Carpenter**      | Her dad turned the family's "Harry Potter closet" into her studio. Then she wrote Espresso in a French ghost town. | ✅ Built below                 |
-| 2    | Tue | 3   | **Kai Cenat**              | Dropped to his knees and prayed after turning down $60M. Went dark for two months after his biggest stream ever.   | ✅ Built below                 |
+| 2    | Tue | 3   | **Kai Cenat**              | Turned down $60M and prayed on his knees. Launching Streamer University now — while telling the world he has ADHD. | ✅ Rebuilt 2026-06-18          |
 | 2    | Fri | 4   | **Lana Del Rey**           | The sad-glam queen of Hollywood married a Louisiana alligator tour guide she met on his swamp boat.                | ✅ Built below                 |
 | 3    | Tue | 5   | **Charli XCX**             | "Brat" looked like pure chaos. There was a 20-page manifesto before a single song was recorded.                    | ✅ Built below                 |
 | 3    | Fri | 6   | **Chappell Roan**          | Was a donut shop cashier four years ago. Her uncle is a Republican state rep.                                      | ✅ Built below                 |
@@ -95,26 +116,32 @@ Each person below is framed as: _"Here's the lore that makes you wonder what mak
 
 ## Caption
 
+**Strategy (2026-06-16): type-first, person-as-vessel.** The caption sells the Enneagram type, not the celebrity. Open with relatable symptoms of the type so a stranger self-identifies → name the type → use the person as living proof → pull the type's core struggle → send them to the full read. The tidbits stay as trivia on the slide; the caption turns them into evidence of the pattern. Engagement bait is type-oriented (self-ID + tag), which widens reach past the person's own fans and points everything back at the product.
+
 ```
-Tim Ferriss has four bestsellers. His daily writing quota is still two "crappy pages" — set deliberately low so he won't be too intimidated to start.
+Do you notice what's wrong in a room before you notice what's right? Re-read the same email three times? Live with a quiet hum of "this could be better" that never fully shuts off?
 
-He's called himself "a very angry human" up until about 2015, and described the rage as fuel: "It's not a clean fuel. You do a lot of damage to the vessel."
+That's Enneagram Type 1 — the Perfectionist. And Tim Ferriss has it in spades.
 
-In 2004, the woman he expected to marry left him. Six months later came the idea that became The 4-Hour Workweek.
+Four bestsellers, and his daily writing quota is still two "crappy pages" — set deliberately low so the inner critic won't scare him out of starting.
 
-He's built a system for everything. So why does none of it ever feel good enough?
+He's called himself "a very angry human" up until about 2015, and described the rage as fuel: "It's not a clean fuel. You do a lot of damage to the vessel." Type 1 anger rarely shows up as anger — it leaks out as criticism, discipline, control.
 
-Full read on 9takes — link in bio.
+The catch with Ones: no amount of success ever quiets the voice that says it's still not good enough.
 
-Which fact stayed with you? 👇
+Full breakdown of Tim — and the Type 1 pattern underneath the optimization — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #timferriss #4hourworkweek #optimization #productivity #personalitypsychology #patternrecognition #9takes #celebrityanalysis #selfimprovement
+Are you a Type 1? Tag one who is. 👇
+
+#enneagram #personalityanalysis #enneagramtype1 #perfectionist #timferriss #4hourworkweek #personalitypsychology #patternrecognition #9takes #celebrityanalysis #selfimprovement
 ```
+
+**Alt opener (simpler, blunter):** _"Are you a perfectionist? The real kind — where 'good enough' never quite is? Meet Enneagram Type 1. And meet its poster child: Tim Ferriss."_
 
 ## Pinned first comment
 
 ```
-Full read on Tim — what's underneath the optimization, what the system is actually for:
+The full Type 1 breakdown — where the inner critic comes from, why nothing ever feels finished, and how Tim runs on it:
 9takes.com/personality-analysis/tim-ferriss
 ```
 
@@ -129,51 +156,64 @@ Full read on Tim — what's underneath the optimization, what the system is actu
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
 
 ```
-1. Her dad turned the family's "Harry Potter closet" into a recording
-   studio and painted it purple. (97 / deep)
+1. Her aunt is the voice of Bart Simpson — and got 8-year-old Sabrina
+   her first agent. (83 / shocker)
 
-2. She wrote "Espresso" in Chailland, France — a ghost town with an
-   empty church and one creperie. (95 / deep)
+2. She trained 6 days a week as a kid. "I wanted to be the best at
+   everything." (76 / deep)
 
-3. Her "Feather" video got the monsignor stripped of his duties — and
-   pulled the parish into a federal probe. (105 / deep)
+3. Before "Espresso," she dropped four albums in six years. One
+   debuted at #138. (77 / shocker)
 
-4. At Coachella she wore a "Jesus was a carpenter" shirt — fans read
-   it as a wink at the church scandal. (98 / shocker)
+4. Her method is title-first: she names the song, then writes to the
+   punchline. "Manchild" was "Manchild" first. (109 / deep)
 
-5. On tour she "arrests" a celebrity guest with pink handcuffs —
-   Nicole Kidman, Miss Piggy. (87 / shocker) [verify roster before use]
+5. Her viral "Nonsense" outros ran two years. She killed the bit —
+   once it's a brand, it's not hers. (97 / shocker)
 
-6. What sold her on her NYC apartment: the fire escape. "I could watch
-   the rats from above." (89 / shocker)
+6. "Anything I do and say has a little bit of a wink to it." The wink
+   is the tell. (79 / deep)
 ```
 
-**Rhythm:** 3 deep + 3 shockers. Opens charming (closet studio), heaviest beat in the middle (federal probe), closes light (rats).
+**Rhythm:** 3 shockers + 3 deep, alternating S-D-S-D-S-D. Opens light-and-surprising (the Bart Simpson aunt), then builds the Achiever arc — the lifelong drive → the grind nobody mentions → the title-first control → killing her own viral bit → the wink. Every beat reveals the Type 3, not just her résumé.
+
+**Reoriented 2026-06-17 (personality-first):** The old six were lore trivia (closet studio, church-video probe, pink handcuffs, fire-escape rats) — scroll-stopping but they revealed nothing about who she is. Swapped for tidbits that show the Type 3 Achiever engine. All sourced in `src/blog/people/drafts/Sabrina-Carpenter.md`.
+
+**Hold for stories (the old lore — still great, just not personality-revealing):**
+
+- Her dad turned the family's "Harry Potter closet" into a studio and painted it purple. (97)
+- She wrote "Espresso" in Chailland, France — a ghost town with an empty church and one creperie. (95)
+- Her "Feather" video got the monsignor stripped of his duties — and pulled the parish into a federal probe. (105)
+- At Coachella she wore a "Jesus was a carpenter" shirt — fans read it as a wink at the church scandal. (98)
+- On tour she "arrests" a celebrity guest with pink handcuffs — Nicole Kidman, Miss Piggy. (87) [verify roster before use]
+- What sold her on her NYC apartment: the fire escape. "I could watch the rats from above." (89) — the one genuine off-stage beat; swap it in as a closer if you'd rather end on the private her than the wink.
 
 **Cut 2026-06-09:** The "bumblebee to keep her humble" fact is UNVERIFIED — only sources are 9takes' own article and fan wikis (circular). Don't run it until re-sourced from a real interview. ⚠️ Also re-source or soften it in the 9takes Sabrina blog itself.
 
 ## Caption
 
 ```
-Sabrina Carpenter's dad turned the family's "Harry Potter closet" into a recording studio and painted it purple.
+Do you become whoever the room needs you to be? Measure your worth by the win? Quietly worry that if you stopped performing, there'd be no one underneath?
 
-Years later she wrote Espresso in Chailland, France — a ghost town with an empty church and one creperie five minutes away.
+That's Enneagram Type 3 — the Achiever. And Sabrina Carpenter has turned it into an art form.
 
-What sold her on her New York apartment was the fire escape — she liked that she could "watch the rats from above."
+The whole "hot girl" persona — the winking one-liners, the pink-handcuff bits, the constant reinventions — is a performance she controls down to the detail. Threes don't show you the person; they show you the version that wins the room.
 
-What does it actually take to write the song of the summer in a town with no one in it?
+She wrote "Espresso" in a French ghost town with one creperie — no audience, just the work that becomes the image.
 
-Full read on 9takes — link in bio.
+The catch with Threes: the performance gets so good that even they can lose track of who's behind it.
 
-Which one's the most "wait, really?" 👇
+Full breakdown of Sabrina — and the Type 3 engine under the wink — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #sabrinacarpenter #espresso #shortnsweet #popmusic #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 3? Tag one who is. 👇
+
+#enneagram #personalityanalysis #enneagramtype3 #theachiever #sabrinacarpenter #shortnsweet #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Sabrina — what's actually driving the work, why the "hot girl" persona is the bit and not the engine:
+The full Type 3 breakdown — why the image is the product, what "winning the room" quietly costs, and how Sabrina runs on it:
 9takes.com/personality-analysis/sabrina-carpenter
 ```
 
@@ -182,61 +222,73 @@ Full read on Sabrina — what's actually driving the work, why the "hot girl" pe
 # Post 3 — Kai Cenat
 
 **Schedule:** Week 2 Tuesday
-**Lore hook:** Dropped to his knees and prayed after turning down $60M. Went dark for two months after his biggest stream ever.
+**Lore hook:** Turned down $60M and prayed on his knees. Vanished into anime for weeks when his own life got too loud. Now launching Streamer University while telling the world he has ADHD.
 **Finalized 2026-06-09** with fact-check corrections (no closet — he prayed on his knees after hanging up; Kim hurled the table, not "over his head").
+**Leveled-up 2026-06-18 (psychology-first + timely peg).** The old slide was 4/6 spectacle (Kim's table, Rizz, LeBron's locs, $5M school) — résumé facts that fail the wound test. Rebuilt around the Type 7 engine the #adhd/#dopamine pond is actually searching for: momentum-as-medicine, the crash when it stops, escapism, the reach for stillness. Hooked to the live news peg — **Streamer University Season 2** (applications opened 2026-06-08 via a Harry Potter parody trailer; in-person rounds NYC 6/12, LA 6/14, ATL 6/16 — Atlanta shut down by police 6/16 over crowd chaos/arrests, rescheduled 6/17). New deep cuts sourced below; one carries a fact-check flag (⚠️).
 
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
 
 ```
 1. He turned down $60M from Kick — then dropped to his knees and
-   prayed the moment he hung up. (89 / deep)
+   prayed the second he hung up. (90 / shocker)
 
-2. Kim Kardashian hurled a glass table at him mid-stream. He was
-   helmeted. She later said "I take accountability." (110 / shocker)
+2. "People get comfortable, and things can slow down." His rule for
+   never letting a stream go quiet. (96 / deep)
 
-3. LeBron James cut his locs on stream when he hit 1M Twitch subs.
-   His mother snipped the first one. (97 / shocker)
+3. He's said he lives with ADHD, anxiety, and dyslexia — worst when
+   he's out in public or creating. (95 / deep) ⚠️
 
-4. "Rizz" — the word he popularized — was Oxford's 2023 Word of the
-   Year. (66 / shocker)
+4. Streamer University is a real school he funds himself. 2026
+   auditions drew crowds the police shut down. (101 / shocker)
 
-5. He pledged $5M to build a school in Nigeria after seeing 300
-   students share one Lagos classroom. (96 / deep)
+5. When his own life got too loud, he vanished into Naruto and Death
+   Note for weeks. (79 / shocker)
 
-6. After the biggest stream of his life, he went dark for two months:
-   "I was losing touch of reality." (100 / deep)
+6. After his biggest stream ever, he went dark for two months: "I was
+   losing touch of reality." (94 / deep)
 ```
 
-**Rhythm:** 3 shockers + 3 deep. Opens on the prayer (sets the engine question), closes on the vanishing act (heaviest beat).
+**Rhythm:** 3 shockers + 3 deep, alternating S-D-D-S-S-D. Opens on the prayer (why would saying no scare him into prayer?), mirrors the pond three times (momentum rule, the ADHD self-disclosure, the anime escape), lands on the crash. Every beat is the Type 7 engine — none is résumé.
 
-**Hold for stories:**
+**⚠️ Fact-check flag (tidbit 3):** Kai's ADHD / anxiety / dyslexia self-disclosure is widely reposted (TikTok/IG clips, 2026) but I have not traced it to a single primary interview. Before publishing, confirm the original clip and keep the framing as **"he's said"** (self-description), never "diagnosed." This is the highest-leverage tidbit on the slide — it's the literal pond mirror — so it's worth the 5-minute source check. If it can't be confirmed, swap in the reading beat from Hold (also a clean Type 7-in-growth mirror).
 
+**Swap option (growth beat over escape beat):** Replace #5 with — _His "secret" channel is just him reading aloud 10 min a day, trying to speak better. (87 / deep)_ Anti-Type-3 tell (a 3 would never film himself struggling). Already in the blog, fully sourced.
+
+**Hold for stories (the old spectacle — great trivia, fails the wound test):**
+
+- Kim Kardashian hurled a glass table at him mid-stream. He was helmeted. She later said "I take accountability." (110)
+- LeBron James cut his locs on stream at 1M subs; his mother snipped the first one. (82)
+- "Rizz," the word he popularized, was Oxford's 2023 Word of the Year. (66)
+- He pledged $5M to build a school in Nigeria after seeing 300 students share one Lagos classroom. (96)
 - The Chainsmokers DJed a 40-minute set in his bathroom during his shower routine. (78)
-- His riot charge from the Union Square giveaway was dropped after $55K restitution and a public apology. (101)
-- Streamer University at Akron: ~120 students picked from 1M+ applicants, all-expenses-paid out of his own pocket. (108) [say "reportedly $3M" if using the number — only aggregators carry it]
+- His Union Square riot charge was dropped after $55K restitution and a public apology. (87)
+- Streamer University at Akron (2025): ~120 students from 1M+ applicants, all-expenses-paid out of his own pocket. (110) [say "reportedly $3M" if using the number — only aggregators carry it]
+- He described being in love not as "fun" but "peaceful." (54) — the blog's payoff word; keep it OFF the slide (it's the answer, not the question) and use it in the pinned comment.
 
 ## Caption
 
 ```
-Kai Cenat turned down $60 million from Kick. The moment he hung up the phone, he dropped to his knees and prayed.
+Can't sit still? Pack every silence with noise? Chase the next thing before the last one even lands — then crash the second the fun stops?
 
-During Mafiathon 3, Kim Kardashian hurled a glass table at him on stream. LeBron James cut his locs when he hit a million subs — Kai's mom snipped the first one.
+That's Enneagram Type 7 — the Enthusiast. And Kai Cenat is the most extreme version alive.
 
-Then he went dark for two months. His explanation: "I realized that I was losing touch of reality."
+He's said he lives with ADHD and anxiety, and his whole career is one long refusal to let the room go quiet: "People get comfortable, and things can slow down." Right now he's launching Streamer University — auditions so packed the police shut them down. Sevens run on momentum because the motion keeps the heavy stuff from catching up.
 
-What is the most-watched 24-year-old on the internet praying about?
+Then it catches up. After the biggest stream of his life he went dark for two months — "I was losing touch of reality" — and disappeared into anime just to live inside a quieter story than his own.
 
-Full read on 9takes — link in bio.
+The catch with Sevens: the speed is the gift and the escape hatch at the exact same time. (The first time Kai called something "peaceful," he said it like a word in a foreign language.)
 
-Which fact stayed with you? 👇
+Full breakdown of Kai — and the Type 7 pattern under the grind — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #kaicenat #twitch #mafiathon #streamer #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 7? Tag one who can't sit still. 👇
+
+#enneagram #personalityanalysis #enneagramtype7 #theenthusiast #kaicenat #streameruniversity #adhd #dopamine #twitch #personalitypsychology #patternrecognition #9takes
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Kai — what the prayer, the grind, and the two-month vanishing act have in common:
+The full Type 7 breakdown — why Kai can't slow down, what the crash is really about, and the one word he used for love that explains everything:
 9takes.com/personality-analysis/kai-cenat
 ```
 
@@ -277,25 +329,27 @@ Full read on Kai — what the prayer, the grind, and the two-month vanishing act
 ## Caption
 
 ```
-Lana Del Rey was drinking daily and alone at 14. Her parents sent her to boarding school to get sober.
+Do you feel like something's missing that everyone else just… got? Romanticize your own sadness a little? Feel most yourself when you're the outsider looking in?
 
-She spent her first $10K record advance moving into a New Jersey trailer park — and majored in philosophy at Fordham because it "bridged the gap between God and science."
+That's Enneagram Type 4 — the Individualist. And Lana Del Rey built an entire aesthetic on it.
 
-In 2024 she married Jeremy Dufrene, an alligator-tour captain she met by taking his swamp tour.
+Fours turn longing into identity. She spent her first $10K advance moving into a New Jersey trailer park and majored in philosophy because it "bridged the gap between God and science" — the melancholy isn't a phase, it's the lens she sees through.
 
-Where does the music actually come from — the Hollywood Hills, or a swamp boat in Louisiana?
+Then the sad-glam queen of Hollywood married an alligator-tour captain she met on his swamp boat. Fours don't want the obvious life; they want the one that feels true.
 
-Full read on 9takes — link in bio.
+The catch with Fours: the longing that fuels the art is the same thing that makes ordinary happiness feel like a betrayal.
 
-Which one wants the most context? 👇
+Full breakdown of Lana — and the Type 4 engine under the glamour — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #lanadelrey #lizzygrant #popmusic #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 4? Tag one who feels everything. 👇
+
+#enneagram #personalityanalysis #enneagramtype4 #theindividualist #lanadelrey #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Lana — why the persona and the person keep trading places:
+The full Type 4 breakdown — where the longing comes from, why "different" feels safer than "happy," and how Lana runs on it:
 9takes.com/personality-analysis/lana-del-rey
 ```
 
@@ -337,25 +391,27 @@ Full read on Lana — why the persona and the person keep trading places:
 ## Caption
 
 ```
-Before a single Brat song was recorded, Charli XCX wrote a 20-page manifesto breaking down every element of the campaign.
+Do you make the calculated thing look effortless? Engineer the "messy and authentic" version because it lands harder? Quietly run the strategy while everyone thinks you're winging it?
 
-Her grandparents fled Idi Amin's Uganda with the family's money rolled up inside toothpaste tubes. At 14 she was playing illegal warehouse raves in east London while her mother chaperoned, terrified.
+That's Enneagram Type 3 — the Achiever — in its most cunning form. And Charli XCX is the proof.
 
-The day before Brat dropped, she sent Lorde a voice note about "Girl, so confusing." The remix took three days to make.
+"Brat" looked like pure chaos. But before a single song was recorded, she wrote a 20-page manifesto breaking down every element of the campaign. Threes don't stumble into the moment — they design it, then make the design invisible.
 
-How much of the chaos is instinct — and how much is project-managed?
+Even the spontaneity is staged: the day before Brat dropped she sent Lorde a voice note, and the "off-the-cuff" remix took three days to build.
 
-Full read on 9takes — link in bio.
+The catch with Threes: when even the rebellion is strategic, the scary question is whether anything you do is just for you.
 
-Which one wants the most context? 👇
+Full breakdown of Charli — and the Type 3 strategist under the chaos — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #charlixcx #brat #popmusic #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 3? Tag the one who's always three steps ahead. 👇
+
+#enneagram #personalityanalysis #enneagramtype3 #theachiever #charlixcx #brat #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Charli — the planner underneath the party girl, and why both are real:
+The full Type 3 breakdown — why the chaos is engineered, what gets lost when the image always wins, and how Charli runs on it:
 9takes.com/personality-analysis/charli-xcx
 ```
 
@@ -396,25 +452,27 @@ Full read on Charli — the planner underneath the party girl, and why both are 
 ## Caption
 
 ```
-Four years before she was reshaping pop, Chappell Roan was working the counter at a donut shop. Atlantic Records had just dropped her.
+Do you bristle the second someone tries to control you? Lead with armor so nobody reaches the soft part? Fight for the underdog because you remember being one?
 
-She grew up going to church three times a week in Willard, Missouri. Her uncle is a Republican state representative.
+That's Enneagram Type 8 — the Challenger. And Chappell Roan is a textbook case.
 
-The "call me hot, not pretty" lyric came from overhearing two girls in the school lunch line: "she's pretty but she's not like hot."
+Atlantic dropped her; she worked a donut counter and came back on her own terms — setting hard boundaries with fans and press that most new stars would never dare. Eights don't ask permission; they take the power back.
 
-What does it cost to build the persona that's currently reshaping pop?
+When an exec mocked her Grammy speech, she didn't sulk — she put up $25K for dropped artists, and Noah Kahan and Charli XCX matched her. That's the Eight move: turn a hit into a stand.
 
-Full read on 9takes — link in bio.
+The catch with Eights: the armor that protects the tender part also keeps people from reaching it.
 
-Tag someone who needs this read 👇
+Full breakdown of Chappell — and the Type 8 engine under the defiance — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #chappellroan #midwestprincess #popmusic #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 8? Tag one who refuses to be controlled. 👇
+
+#enneagram #personalityanalysis #enneagramtype8 #thechallenger #chappellroan #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Chappell — the church kid, the persona, and what the distance between them costs:
+The full Type 8 breakdown — what the armor protects, why control matters this much, and how Chappell runs on it:
 9takes.com/personality-analysis/chappell-roan
 ```
 
@@ -457,25 +515,27 @@ Full read on Chappell — the church kid, the persona, and what the distance bet
 ## Caption
 
 ```
-Robert Greene worked 80 jobs by his own count — construction in Greece, hotel reception in Paris, skip-tracing debtors in LA — and was having suicidal thoughts when he started The 48 Laws of Power at 38.
+Do you retreat into your head the moment things get intense? Feel safest observing instead of participating? Would rather understand a feeling than actually have it?
 
-Every book since: 300–400 complete works read, thousands of handwritten color-coded index cards, fountain pen.
+That's Enneagram Type 5 — the Investigator. And Robert Greene made a career of it.
 
-Ryan Holiday has worked beside him for almost two decades and has never once seen him yell.
+300–400 complete books read per project, thousands of handwritten color-coded index cards, the mechanics of power mapped more coldly than anyone alive. Fives replace feeling with understanding — they study the thing instead of living it.
 
-What kind of person studies power for a living and never once uses it in the room?
+Here's the tell: he's spent decades cataloguing power, and Ryan Holiday — beside him almost twenty years — has never once seen him use it. Never seen him yell. The man who decoded power doesn't reach for it.
 
-Full read on 9takes — link in bio.
+The catch with Fives: you can map every move on the board and still be watching the game from behind glass.
 
-Which fact stayed with you? 👇
+Full breakdown of Robert — and the Type 5 engine under the genius — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #robertgreene #48lawsofpower #stoicism #books #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+Are you a Type 5? Tag the observer in your life. 👇
+
+#enneagram #personalityanalysis #enneagramtype5 #theinvestigator #robertgreene #48lawsofpower #books #personalitypsychology #patternrecognition #9takes #celebrityanalysis
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Robert — what 80 jobs and 4,000 index cards are actually protecting:
+The full Type 5 breakdown — why Fives watch from the edges, what the knowledge is really protecting, and how Robert runs on it:
 9takes.com/personality-analysis/robert-greene
 ```
 
@@ -516,25 +576,27 @@ Full read on Robert — what 80 jobs and 4,000 index cards are actually protecti
 ## Caption
 
 ```
-Pedro Pascal's parents hid from Pinochet's secret police for six months while he was a baby — then fled Chile through the Venezuelan embassy.
+Do you scan every room for what could go wrong? Stay fiercely loyal to the few people who are truly yours? Feel the anxiety in your body before your mind even names it?
 
-Before Game of Thrones, he was down to $7 to his name — until a residual check from one Buffy episode arrived. Sarah Paulson fed him out of her per diem.
+That's Enneagram Type 6 — the Loyalist. And Pedro Pascal wears it on his sleeve — literally.
 
-He's photographed on red carpets with his hand pressed to his chest. He told Bella Ramsey: "my anxiety is right here."
+On red carpets he presses his hand to his chest. He told Bella Ramsey what it means: "my anxiety is right here." Sixes don't hide the fear so much as move through it — that's exactly where the courage comes from.
 
-How does that résumé build the guy everyone on the internet wants to be hugged by?
+And the loyalty runs both ways: down to $7 before Game of Thrones, he was fed by Sarah Paulson out of her per diem — a friendship he's never stopped repaying. Sixes build found families and defend them for life.
 
-Full read on 9takes — link in bio.
+The catch with Sixes: the anxiety never fully leaves — but it's the same wiring that makes him the person everyone feels safe around.
 
-Which fact stayed with you? 👇
+Full breakdown of Pedro — and the Type 6 engine under the warmth — on 9takes. Link in bio.
 
-#enneagram #personalityanalysis #pedropascal #thelastofus #personalitytypes #personalitypsychology #patternrecognition #9takes #celebrityanalysis #emotionalintelligence
+Are you a Type 6? Tag your most loyal person. 👇
+
+#enneagram #personalityanalysis #enneagramtype6 #theloyalist #pedropascal #thelastofus #personalitypsychology #patternrecognition #9takes #celebrityanalysis #emotionalintelligence
 ```
 
 ## Pinned first comment
 
 ```
-Full read on Pedro — what makes him tick, what the anxiety is doing, and why the warmth holds up under pressure:
+The full Type 6 breakdown — what the anxiety is doing, why the loyalty runs so deep, and how Pedro runs on it:
 9takes.com/personality-analysis/pedro-pascal
 ```
 

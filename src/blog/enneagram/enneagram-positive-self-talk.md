@@ -1479,57 +1479,6 @@ Work 1-on-1 to rewire decades of programming
 
 </div>
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "The Voice in Your Head: Master Positive Self-Talk for Your Enneagram Type",
-  "description": "Decode your inner critic's patterns and transform negative self-talk into type-specific affirmations that actually work.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
-  },
-  "datePublished": "2025-08-28",
-  "dateModified": "2025-08-28",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/enneagram-positive-self-talk"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    }
-  },
-  "keywords": "positive self-talk, enneagram self-talk, inner critic, self-compassion, mental health enneagram",
-  "articleSection": "Enneagram Development",
-  "wordCount": 8000,
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Positive Self-Talk",
-      "description": "Type-specific techniques for transforming inner dialogue"
-    },
-    {
-      "@type": "Thing",
-      "name": "Inner Critic Patterns",
-      "description": "How each Enneagram type's childhood wounds create specific self-talk patterns"
-    },
-    {
-      "@type": "Thing",
-      "name": "30-Day Rewiring Protocol",
-      "description": "A practical, science-based approach to changing neural pathways"
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
 <style>
   /* Additional styles can be added here if needed */
 </style>

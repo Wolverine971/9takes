@@ -36,6 +36,8 @@ Use the handle without `@` as the filename, preserving punctuation.
 
 Read these first:
 
+- `/docs/instagram/enneagram-engagement-clusters.md` — **THE FISHING MAP. Load-bearing.** This is the new core of warmup. People don't post "I'm an Enneagram 2"; they post "why do I abandon myself in every relationship." This doc maps that vernacular → type → hashtags → creator clusters. Phase 3 scans BY POND from this doc, not by Enneagram-account tier.
+- `/docs/instagram/personality-series-engagement-strategy.md` — **The loop. Load-bearing.** POST → POND → BRIDGE → CAPTURE. Tells you which type's pond is active this week (the "Current Arc" table) so warmup stays in sync with what's being posted.
 - `/docs/brand/brand-style-guide-v2.md`
 - `/docs/brand/brand-positioning.md`
 - `/docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md`
@@ -50,6 +52,16 @@ Cross-reference as needed:
 - `/docs/instagram/instagram-posting-plan-mar-apr-2026.md`
 - `/docs/instagram/daily-engagement/`
 - `/docs/instagram/account-profiles/`
+
+### The shift you must internalize (read before scanning)
+
+The old warmup looked for **Enneagram people** — accounts already in the personality/Enneagram niche. **Stop doing that as the primary move.** The new warmup fishes the **ponds**: people talking about the *ideas* of the Enneagram in pop-psych vernacular — perfectionism, anxiety, people-pleasing, ADHD, avoidant attachment, "main character energy" — who have **never said the word "Enneagram."** They are the strangers we mirror and route back to a personality-analysis post.
+
+Three rules carried from the cluster doc:
+
+1. **Lead with their language, not ours.** Validate the pattern first; the Enneagram is the deeper map we offer only after we've been useful.
+2. **Never diagnose a stranger.** Name the *pattern*, never "you're a Type X." (See [feedback: Instagram comment style].)
+3. **The Enneagram is the internal lens, not the public talking point.** (This is why visibility Level 0 is the default in these ponds.)
 
 If an Instagram browser automation skill exists at `/.claude/skills/instagram.skill.md`, read and follow it before interacting with Instagram.
 
@@ -307,6 +319,26 @@ Use the Stage 1 template in this file and keep it updated as you work.
 3. Scan relevant account profiles for repeat accounts you already know you may encounter.
 4. Build a seen-post list from recent warmup docs.
 
+### Phase 1b: Set This Week's Pond (do this before any scanning)
+
+This is the step that keeps warmup in sync with what's being posted. From `personality-series-engagement-strategy.md`:
+
+1. Open the **"Current Arc — Post → Type → Pond coordination"** table. Find the post running **this week** (cross-check against the posting cadence in `post-ideas/2026-05-19_personality-series-intro-arc-lineup.md` if the week is ambiguous).
+2. Read off the **active type**, its **pond (their words)**, and its **hashtags to work that week**.
+3. If you genuinely cannot determine which post is active this week, default the active pond to the three evergreen giants (below) and log `active_pond: undetermined — defaulted to evergreen` in the warmup doc.
+4. Record at the top of today's warmup doc:
+
+```markdown
+## This Week's Pond
+
+**Active post / type:** [e.g. Tim Ferriss / Type 1]
+**Pond (their words):** [perfectionism · eldest-daughter · inner critic]
+**Priority hashtags this week:** [#perfectionism #eldestdaughter #innercritic #recoveringperfectionist]
+**Evergreen ponds also worked:** Anxiety (6), People-pleasing/Narcissist-survivor (2), ADHD (7)
+```
+
+The **active pond is your first scanning priority in Phase 3.** Everything else is secondary.
+
 ## Phase 2: Check Real-Time Signals First
 
 Start on Instagram in this order:
@@ -325,24 +357,46 @@ Capture:
 
 If a real-time signal comes from an account with an existing profile, load that profile immediately and note the update in both the profile and the warmup doc.
 
-## Phase 3: Scan Priority Sources
+## Phase 3: Scan the Ponds (pond-first, not account-first)
 
-Scan in this order:
+**This is the revamped core.** Scan by **pond** (vernacular topic clusters), not by "Enneagram accounts." Your scanning map is now `enneagram-engagement-clusters.md`, not the account-tier list. The goal of every scan is to find people talking the *wound vernacular* and the creators whose comment sections those people live in.
 
-1. Tier 1 personality and Enneagram accounts
-2. Tier 2 psychology, therapy, relationships, and self-improvement accounts
-3. Peer-growth discovery
-4. MBTI bridge accounts
-5. Celebrity and pop-culture analysis accounts
-6. Hashtag pages
-7. Explore page
-8. Reels feed
+Scan in this priority order:
 
-Use `docs/instagram/instagram-engagement-targets.md` as the scanning map.
+1. **This Week's Pond first** (from Phase 1b). Work the active type's hashtags and the comment sections of the large creators in that type's "creator/community clusters." This is where the week's post will land, so these are the warmest contacts to surface.
+2. **The three evergreen giant ponds** — always worked, every scan, regardless of the active type:
+   - **Anxiety / overthinking (Type 6)** — the single largest, safest, highest-volume pond.
+   - **People-pleasing / boundaries / "empath vs narcissist" (Type 2)** — huge; fish the narcissist-*survivor* side, meet them as the over-giver.
+   - **ADHD / dopamine / "can't sit still" (Type 7)** — fun, low-risk, young, very online.
+3. **Back-door cross-type ponds** (each reaches multiple types at once — see the cluster doc's shortcuts):
+   - **Attachment-style** accounts (anxious → 2 & 6; avoidant → 5 & 8; disorganized → 4 & 6).
+   - **Trauma-response** accounts (fawn → 2 & 9; freeze → 9 & 5; fight → 8 & 1; flight → 7 & 6).
+   - **MBTI** accounts (INTJ/INTP → 5; back-door into the investigator pond).
+4. **Peer-growth discovery** (relationship-building, runs alongside the ponds — see below).
+5. Notifications/feed follow-ups already surfaced in Phase 2.
+6. Explore page + Reels feed, filtered through the pond lens (does this ride a pond's mega-trend?).
+
+### How to find rooms inside a pond
+
+For each pond you work, use the cluster doc's map for that type:
+
+- **Hashtags** — search the type's hashtag set; sort by recent, skim for fresh (<24h) posts with real comment threads.
+- **Big-creator comment sections** — the richest rooms. Open a large therapy/psych/ADHD/attachment creator from that pond's "creator/community clusters," then mine the *commenters* (Engagement Mode `comment-level`) — the strangers in there are the pool, not the creator.
+- **Trending "POV: you're the [pattern]" audios** — fast entry points; log which audios are trending per pond (cluster doc, Open gaps).
+
+### Pond engagement discipline (carry into the reply angle you write)
+
+- Match the pond's **engagement angle** from the cluster doc (e.g. Type 1: "the standard moved the second you hit it, didn't it?" — offer relief, not optimization).
+- **Visibility Level 0 is the default in ponds.** These strangers have not opted into Enneagram language. Level 1+ only when the post is *already* personality/typology-coded.
+- Never reply "that's Enneagram Type X." Validate their words → add one specific pattern insight → leave the door open.
+
+### Account tiers are now a SECONDARY map (not the primary scan)
+
+`docs/instagram/instagram-engagement-targets.md` is still the **relationship CRM and peer-growth universe** — use it to recognize known accounts, track tiers, and find peers. But it is **no longer the primary scanning map.** You are not "scanning Tier 1 Enneagram accounts" as the main move; you are working ponds and *noticing* when a Tier 1/2 account shows up in one.
 
 During peer-growth discovery, look for:
 
-- similar-size or slightly larger creators
+- similar-size or slightly larger creators **in the pond clusters** (boundary coaches, ADHD creators, attachment accounts, etc.)
 - adjacent creators whose commenters look like future 9takes followers
 - accounts with thoughtful recurring commenters instead of spammy engagement
 - creators who already use Collabs, Lives, Stories, or community prompts well
@@ -369,6 +423,7 @@ Capture:
 - Post link
 - Content type
 - Topic
+- **Pond / Type** — which pond this post/account belongs to and the type it codes for (e.g. `people-pleasing / Type 2`). Use `enneagram-engagement-clusters.md` to map the vernacular → type. This is the field that makes the post part of the loop; do not skip it.
 - Caption summary
 - Age
 - Likes/comments/saves if visible
@@ -390,14 +445,15 @@ Capture:
 
 Score using these factors:
 
-| Factor              | Weight | Criteria                                                                        |
-| ------------------- | ------ | ------------------------------------------------------------------------------- |
-| Freshness           | 3x     | Newer is better                                                                 |
-| Natural fit         | 3x     | Clear way to add value                                                          |
-| Tone match          | 2x     | You can sound native to the room                                                |
-| Comment competition | 2x     | Lower is better for `post` mode; stops being a penalty for `comment-level` mode |
-| Content bridge      | 1x     | Natural follow-up opportunity                                                   |
-| Relationship value  | 1x     | Worth building over time                                                        |
+| Factor              | Weight | Criteria                                                                            |
+| ------------------- | ------ | ----------------------------------------------------------------------------------- |
+| **Active-pond fit** | **3x** | **In this week's pond (Phase 1b) gets top weight; evergreen ponds (6/2/7) next.**   |
+| Freshness           | 3x     | Newer is better                                                                     |
+| Natural fit         | 3x     | Clear way to add value                                                              |
+| Tone match          | 2x     | You can sound native to the room (talk their vernacular, not Enneagram)             |
+| Comment competition | 2x     | Lower is better for `post` mode; stops being a penalty for `comment-level` mode     |
+| Content bridge      | 1x     | Natural follow-up — does it route to the active post / a published person analysis? |
+| Relationship value  | 1x     | Worth building over time                                                            |
 
 High-comment posts (100+) should not be dropped for comment competition alone. Re-score them as `comment-level` opportunities — they can be high-value even on a buried post, because you are amplifying existing voices, not competing with them.
 
@@ -523,10 +579,10 @@ Use this structure:
 
 ## Priority Summary
 
-| #   | Account | Topic         | Age | Comments | Mode          | Opp Type                | Level | Score | Profile | Queue  |
-| --- | ------- | ------------- | --- | -------- | ------------- | ----------------------- | ----- | ----- | ------- | ------ |
-| 1   | @handle | [brief topic] | 2h  | 3        | post          | Relationship/attachment | 0     | 98    | [path]  | Queued |
-| 2   | @handle | [brief topic] | 6h  | 312      | comment-level | Community amplification | 1     | 88    | [path]  | Queued |
+| #   | Account | Pond / Type        | Topic         | Age | Comments | Mode          | Opp Type                | Level | Score | Profile | Queue  |
+| --- | ------- | ------------------ | ------------- | --- | -------- | ------------- | ----------------------- | ----- | ----- | ------- | ------ |
+| 1   | @handle | people-pleasing/2  | [brief topic] | 2h  | 3        | post          | Relationship/attachment | 0     | 98    | [path]  | Queued |
+| 2   | @handle | anxiety/6          | [brief topic] | 6h  | 312      | comment-level | Community amplification | 1     | 88    | [path]  | Queued |
 
 ---
 
@@ -536,6 +592,7 @@ Use this structure:
 
 **Post Link:** [URL]
 **Content Type:** [Carousel / Reel / Post / Story]
+**Pond / Type:** [e.g. people-pleasing / Type 2 — or "active pond" / "evergreen 6" / "back-door: anxious attachment"]
 **Stats:** [likes/comments/saves if visible]
 **Opportunity Type:** [type]
 **Connected Content:** [link or None]
@@ -606,8 +663,8 @@ For each `Reply` action, paste the exact commenter text as a blockquote below th
 
 ## New Accounts Discovered
 
-| Account | Followers | Theme | Content Type | Suggested Tier | Why |
-| ------- | --------- | ----- | ------------ | -------------- | --- |
+| Account | Followers | Pond / Type | Theme | Content Type | Suggested Tier | Why |
+| ------- | --------- | ----------- | ----- | ------------ | -------------- | --- |
 
 ---
 
@@ -653,12 +710,13 @@ When you create or update `docs/instagram/account-profiles/<handle>.md`:
 
 ---
 
-## After Each Scan
+## After Each Scan (CAPTURE step of the loop)
 
-1. If you discovered new accounts, append them to `docs/instagram/instagram-engagement-targets.md` in the correct tier section.
+1. If you discovered new accounts, append them to `docs/instagram/instagram-engagement-targets.md` in the correct tier section — and **tag each with its pond / type** (e.g. `[pond: people-pleasing / Type 2]`) so the targets doc grows into a per-pond roster, not just a flat tier list. Append-only; never overwrite prior entries.
 2. If needed, also create `docs/instagram/daily-engagement/YYYY-MM-DD_new-targets.md`.
-3. Create or update account profiles for all queued accounts.
+3. Create or update account profiles for all queued accounts. Note the pond/type in the profile.
 4. Leave the warmup doc in a state that `/instagram-reply` can use immediately.
+5. **Close the loop:** the strangers surfaced from this week's active pond are the ones the post is meant to route. Make sure the warmup doc's "This Week's Pond" block and the reply queue point at the same type, so `/instagram-reply` mirrors them in their own vernacular and (only after warmth) bridges them to the richest live destination for that type — the week's celebrity person-analysis when one exists, otherwise the **type page** (`/personality-analysis/type/N`) or the **type educational blog**, both of which are live for all 9 types (including 2 and 9).
 
 ---
 
@@ -716,4 +774,5 @@ If Phase 7 produced zero saves, omit the "Top saves" block and the `/instagram-s
 
 ---
 
-_Last Updated: 2026-05-18 (v4 — Phase 7 Filter-B save bar; warmup now feeds docs/instagram/saves/inbox/)_
+_Last Updated: 2026-06-18 (v5 — pond-first revamp: warmup now scans BY POND from enneagram-engagement-clusters.md, syncs to this week's active type via personality-series-engagement-strategy.md, tags every opportunity/account with pond+type, and scores active-pond fit. The old "scan Enneagram-account tiers" model is demoted to a secondary CRM map.)_
+_v4 — 2026-05-18: Phase 7 Filter-B save bar; warmup feeds docs/instagram/saves/inbox/._

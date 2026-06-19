@@ -674,37 +674,6 @@ READER_FEEDBACK_END -->
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "headline": "Enneagram Dating Guide for Men: Type-Specific Strategies That Actually Work",
-      "description": "Discover how your Enneagram type shapes your dating style, blind spots, and path to authentic connection — with how to read her type, compatibility patterns, and what each of the 9 types does at every stage of dating.",
-      "datePublished": "2024-09-13",
-      "dateModified": "2026-04-07",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/enneagram-dating-guide-for-men"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/male-greek-statue-on-a-date.webp",
-        "width": 1200,
-        "height": 630
-      },
-      "keywords": ["Enneagram dating", "personality types dating", "dating advice for men", "Enneagram relationships", "authentic dating", "emotional intelligence dating", "Enneagram compatibility", "reading her Enneagram type", "Type 1 dating", "Type 2 dating", "Type 3 dating", "Type 4 dating", "Type 5 dating", "Type 6 dating", "Type 7 dating", "Type 8 dating", "Type 9 dating"]
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

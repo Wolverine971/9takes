@@ -160,7 +160,7 @@ After Princeton, he moved through the emerging deep learning world: Baidu's AI r
 
 ### Dario Amodei is an Enneagram Type 5
 
-Enneagram Fives operate from an [economy of scarcity](/enneagram-corner/enneagram-type-5): time, energy, and knowledge are finite resources that must be carefully managed. The world takes more than it gives, so mastery becomes a survival strategy. Understand completely before engaging. Map the territory before crossing it.
+[Enneagram Fives](/enneagram-corner/enneagram-type-5) operate from an economy of scarcity: time, energy, and knowledge are finite resources that must be carefully managed. The world takes more than it gives, so mastery becomes a survival strategy. Understand completely before engaging. Map the territory before crossing it.
 
 This pattern explains something about Dario that confuses most observers: how can the same person be one of the most aggressive AI accelerationists _and_ the most vocal AI safety advocate?
 

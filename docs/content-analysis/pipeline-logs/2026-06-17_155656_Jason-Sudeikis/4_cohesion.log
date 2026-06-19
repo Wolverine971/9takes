@@ -1,0 +1,25 @@
+## Cohesion Check Complete: Jason-Sudeikis.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Sudeikis is a Type 9 whose peace-keeping engine produces both the genuine kindness and the custody papers — the question the piece answers is how one person produces both.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- *"The straight man from Overland Park" → "The decade Jason Sudeikis played the jerk":* added a one-clause bridge ("His movie career ran the other way.") so the reader crosses from SNL-utility-player to the film roles instead of hitting a cold medium-switch. It carries the *direction* of the prior section (he ran toward supporting others) into the new one (the roles ran the opposite way), and preserves the strong "photo negative of Ted Lasso" line intact.
+
+### What Was Preserved
+- All frontmatter, ledgers, and review comments
+- All Svelte/HTML components (`firstLetter`, `inner-thought`, `details`/rabbit-hole, TL;DR)
+- All internal links and quote attributions
+- 8 of 9 section transitions (already Strong — especially 5→6 "which way he reaches" → "he built a machine," and 6→7 "what it is protecting" → "the bad play he could not forget")
+
+### Remaining Concerns (your judgment — I did not touch these)
+These are flow-adjacent but fall outside cohesion, so I left them:
+- **Diagnosis → Overland Park** has no explicit bridge ("does not work this hard to give it away" → "Daniel Jason Sudeikis grew up in…"). It reads fine because diagnosis-then-origins is the conventional pivot for these analyses, so I judged a bridge there as over-engineering. Flagging in case you want it tighter.
+- The **goldfish** and **"the floor"** motifs are intentional callbacks per your second-pass notes; they're a voice/repetition call, not a cohesion break, so they're out of scope for this pass.
+
+The piece was already highly cohesive — single through-line, promise delivered, no orphaned threads. One micro-fix was all it needed.

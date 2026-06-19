@@ -448,68 +448,13 @@ In this panel discussion moderated by Beatrice Chestnut, self-identified Type 8s
 <svelte:head>
 
 <script type="application/ld+json">
- {
+{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",
       "description": "Type 8, also known as The Challenger, is a personality type characterized by assertiveness, self-confidence, and need for control. Type 8s tend to be very direct and can come across as domineering, but they have a strong sense of justice and loyalty.",
       "name": "Enneagram type 8"
-    },
-    {
-      "@type": "BlogPosting",
-      "name": "Why You Push Everyone Away (Type 8 Control Issues)",
-      "description": "Can't let people close because vulnerability feels dangerous? That's Type 8. Learn why you need control, why softness feels like weakness, and what your armor is really protecting.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram",
-        "Type 8",
-        "The Challenger",
-        "Assertiveness",
-        "Self-confidence",
-        "Control",
-        "Justice",
-        "Loyalty",
-        "Strengths",
-        "Weaknesses",
-        "Growth and Development",
-        "Relationships",
-        "Workplace Traits",
-        "Emotional Intelligence",
-        "Vulnerability",
-        "Empathy"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-8",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 4200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-8",
-      "articleBody": "A comprehensive exploration of Enneagram Type 8, known as 'The Challenger.' This detailed guide examines the power, intensity, and leadership qualities of Type 8 personalities. Learn about their need for control, their desire to protect others, and their unique approach to strength and vulnerability. Discover how Challengers navigate relationships, work environments, and personal growth. Understand their psychological framework, including their focus on justice, direct communication, and the challenge of lust for intensity. Features insights from Type 8 individuals and famous examples of this powerful personality type."
     },
     {
       "@type": "FAQPage",
@@ -550,7 +495,6 @@ In this panel discussion moderated by Beatrice Chestnut, self-identified Type 8s
     }
   ]
 }
-
 </script>
 
 </svelte:head>

@@ -34,7 +34,7 @@ The Enneagram is neither pure pseudoscience nor fully established science. Resea
 
 <p class="firstLetter">"Is the Enneagram real?"</p>
 
-You've either asked this question or had someone ask it to you. The answers you get are usually one of two extremes: true believers who treat it like gospel, or skeptics who dismiss it as astrology with better branding.
+You've either asked this question or had someone ask it to you. The answers you get are usually one of two extremes: true believers who treat it like gospel, or skeptics who dismiss it as [astrology with better branding](https://9takes.com/enneagram-corner/astrology-and-the-enneagram).
 
 Both are wrong. And both are working from incomplete information.
 
@@ -242,26 +242,3 @@ The Enneagram doesn't need to be the best at everything. It needs to be the best
 - [Is the Enneagram Real? 27 Questions Everyone Asks](/enneagram-corner/enneagram-faqs) — the most common objections, answered
 - [Is the Enneagram Scientifically Valid?](/enneagram-corner/mental-health/enneagram-science-mental-health) — deeper dive on the research
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/enneagram-vs-personality-frameworks-comparison"
-  },
-  "headline": "The Enneagram's Place in Personality Science: What We Know, What We Don't, and What Surprised Us",
-  "description": "An honest, evidence-based assessment of where the Enneagram stands in psychology: 104 empirical studies, real gaps, and the ego development finding nobody talks about.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": ["https://www.instagram.com/djwaaborern/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidswayne/", "https://twitter.com/djwayne3"]
-  },
-  "datePublished": "2026-02-22",
-  "dateModified": "2026-02-22"
-}
-</script>
-
-</svelte:head>

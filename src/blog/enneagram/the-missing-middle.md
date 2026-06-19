@@ -455,49 +455,6 @@ Ask a Question on 9takes
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This article names the 'missing middle' — the gap between clinical neurodivergence and being 'totally fine' where most people actually live. It argues that the self-diagnosis trend on social media exists because people in this middle zone have no framework for understanding their struggles without pathologizing them. The Enneagram is positioned as the framework for this missing middle: it validates real experiences, explains the motivational WHY behind behavioral patterns, and offers a growth path that doesn't require a diagnosis.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-04-01",
-      "datePublished": "2026-04-01",
-      "keywords": ["missing middle", "neurodiversity", "Enneagram", "personality types", "self-diagnosis", "TikTok mental health", "ADHD", "personality framework", "self-awareness", "emotional intelligence"],
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/the-missing-middle",
-      "description": "There's a gap between 'clinically neurodivergent' and 'totally fine' where most people actually live. Nobody's talking about it — until now.",
-      "headline": "The Missing Middle: You're Not Broken, You're Just Not Fine Either",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-standing-in-fog.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/the-missing-middle",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -554,7 +511,6 @@ STATUS: Strong first draft. The "missing middle" concept is clearly named, the
 Option A / Option B framing is highly shareable, and the structure builds logically.
 Below is what would push this from a B+ to an A+.
 
-
 ═══════════════════════════════════════════════════════════════════
 1. ADD RESEARCH — THE ARTICLE IS ALMOST ENTIRELY ASSERTION-BASED
 ═══════════════════════════════════════════════════════════════════
@@ -593,7 +549,6 @@ at scale. The science is actually on your side — you just haven't cited it:
   average on autism-trait measures without meeting diagnostic criteria" — would
   transform the concept from opinion to documented reality.
 
-
 ═══════════════════════════════════════════════════════════════════
 2. ADD A REAL STORY — THE ARTICLE IS ALL ABSTRACT ARGUMENT
 ═══════════════════════════════════════════════════════════════════
@@ -618,7 +573,6 @@ concept. Something like:
 
 This could go after the "Gap Nobody's Talking About" section or before the
 Enneagram framework section. It makes the abstract argument viscerally real.
-
 
 ═══════════════════════════════════════════════════════════════════
 3. THE IDENTITY HUNGER ANGLE — WHY PEOPLE *WANT* CLINICAL LABELS
@@ -650,7 +604,6 @@ WHERE TO ADD: As a new section between "The Medicalization Trap" and "What the
 Missing Middle Actually Needs." Title: "Why We Crave Labels" or "The Identity
 Gap."
 
-
 ═══════════════════════════════════════════════════════════════════
 4. INOCULATE AGAINST THE BIGGEST COUNTERARGUMENT
 ═══════════════════════════════════════════════════════════════════
@@ -673,7 +626,6 @@ Fix: Add a brief inoculation paragraph early — either in the opening or in
 
 This takes the counterargument off the table in paragraph 2 instead of paragraph
 30. Readers who feel defensive will keep reading instead of rage-closing.
-
 
 ═══════════════════════════════════════════════════════════════════
 5. SECTION 6 OVERLAPS TOO MUCH WITH PART 1
@@ -706,7 +658,6 @@ For a Part 2, this section needs to go DEEPER than Part 1, not repeat it. Option
      the Type 6 thought their anxiety was a disorder. After: they recognized it
      as a safety strategy from childhood and learned to self-soothe differently."
 
-
 ═══════════════════════════════════════════════════════════════════
 6. THE CTA SECTION IS NEARLY IDENTICAL TO PART 1
 ═══════════════════════════════════════════════════════════════════
@@ -734,7 +685,6 @@ that assume they're further along:
   5. "Test it in real life." — Ask a question on 9takes, observe how other types
      respond, notice which responses trigger you (that's data about YOUR pattern).
 
-
 ═══════════════════════════════════════════════════════════════════
 7. THE COMPARISON TABLE IS MISSING 4 TYPES
 ═══════════════════════════════════════════════════════════════════
@@ -760,7 +710,6 @@ but the others are missing entirely:
 Adding these makes the table a complete reference. It also means EVERY reader
 can find their pattern in the table, which increases engagement and sharing.
 
-
 ═══════════════════════════════════════════════════════════════════
 8. ADD IMAGES — THE ARTICLE HAS ZERO VISUAL BREAKS
 ═══════════════════════════════════════════════════════════════════
@@ -779,7 +728,6 @@ image breaks to prevent scroll fatigue:
 
 The frontmatter already references 'greek-statue-standing-in-fog' as the pic —
 that image needs to be created and placed.
-
 
 ═══════════════════════════════════════════════════════════════════
 9. CROSS-LINKING OPPORTUNITIES
@@ -819,7 +767,6 @@ Currently links to 11 internal pages (good). Missing high-value links:
   - Why Therapy Doesn't Work the Same for Every Personality Type
   - Depression Patterns by Enneagram Type
 
-
 ═══════════════════════════════════════════════════════════════════
 10. SEO REFINEMENTS
 ═══════════════════════════════════════════════════════════════════
@@ -847,7 +794,6 @@ The current title and description are strong. Additional keyword opportunities:
   - "Why do I relate to ADHD symptoms but don't have ADHD?"
 
   These question-format queries are high-intent and ripe for featured snippets.
-
 
 ═══════════════════════════════════════════════════════════════════
 11. STRUCTURAL ISSUE: THE ARTICLE FRONT-LOADS PROBLEMS
@@ -881,7 +827,6 @@ That's FOUR problem sections before the reader gets to any solution. By Section
 Moving the solution earlier keeps readers engaged and makes the problem
 sections feel purposeful rather than exhausting.
 
-
 ═══════════════════════════════════════════════════════════════════
 12. MINOR POLISH
 ═══════════════════════════════════════════════════════════════════
@@ -902,7 +847,6 @@ c) The "Read Part 1" CTA button in the closing assumes linear reading. Some
 d) Consider adding a brief "Part 2 of [Neurodiversity vs. Personality]"
    subtitle or note in the opening to establish context for organic search
    visitors.
-
 
 ═══════════════════════════════════════════════════════════════════
 PRIORITY ORDER (if you can only do a few):

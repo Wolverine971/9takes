@@ -37,54 +37,6 @@ QUALITY_FEEDBACK_END -->
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "headline": "How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips",
-      "description": "Each Enneagram type skips a different part of the apology. See which components your type swallows, the one-line fix, and a script you can actually say out loud.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "datePublished": "2025-09-14",
-      "dateModified": "2026-02-22",
-      "url": "https://9takes.com/enneagram-corner/how-to-apologize-like-a-pro",
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/greek-statue-apology-reconciliation.webp",
-        "width": 900,
-        "height": 900
-      },
-      "articleSection": "Enneagram",
-      "inLanguage": "en-US",
-      "keywords": ["apology", "Enneagram", "personality types", "relationships", "communication", "conflict resolution", "emotional intelligence"],
-      "isPartOf": {
-        "@type": "Blog",
-        "name": "9takes Enneagram Corner",
-        "url": "https://9takes.com/enneagram-corner"
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/how-to-apologize-like-a-pro"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

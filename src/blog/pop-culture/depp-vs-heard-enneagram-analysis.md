@@ -34,60 +34,6 @@ path: src/blog/pop-culture/depp-vs-heard-enneagram-analysis.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of the Depp-Heard trial examining how Johnny Depp's Type 4 psychology and Amber Heard's Type 3 psychology created a relationship destined for collision — and why 100 million viewers responded based on their own personality wiring.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-21",
-      "datePublished": "2026-03-04",
-      "description": "A Type 4 who hides inside masks to feel real. A Type 3 who performs reality to feel worthy. The trial of the century wasn't about defamation — it was the most public personality collision in history.",
-      "headline": "Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destroy Each Other",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/depp-vs-heard-enneagram.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/depp-vs-heard-enneagram-analysis",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Johnny Depp",
-        "Amber Heard",
-        "Enneagram",
-        "Type 4",
-        "Type 3",
-        "Depp Heard trial",
-        "personality psychology",
-        "relationship dynamics",
-        "trial analysis",
-        "celebrity psychology"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 5200
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

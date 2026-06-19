@@ -574,43 +574,6 @@ Want to see how different types actually experience the same workplace situation
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This guide uses the Enneagram to map what each of the nine personality types actually needs at work — their core motivation, their conflict style, where they create friction, and what leaders can do differently. It covers four key moments where type awareness changes outcomes: team formation, conflict resolution, decision-making, and change management. It closes with a 5-step plan for bringing Enneagram awareness into a team without making it feel like a forced personality exercise.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-          ]
-      },
-      "dateModified": "2025-03-10",
-      "datePublished": "2023-03-27",
-      "description": "The behaviors that frustrate you at work follow predictable patterns. Here are all 9 Enneagram types mapped to their workplace triggers, blind spots, and exactly what they need from a leader.",
-      "headline": "Enneagram at Work: What Each Type Needs, Fears, and Brings to Your Team",
-      "keywords": ["Enneagram", "team building", "workplace", "leadership", "personality types", "team dynamics", "conflict resolution", "productivity", "collaboration", "management"],
-      "wordCount": 4500,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-workplace-team-building",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-workplace-team-building",
-        "@type": "WebPage"
-      },
-      "image":{
-        "@type":"ImageObject",
-        "height":900,
-        "url": "https://9takes.com/blogs/greek-statues-working-in-teams.webp",
-        "width":900
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

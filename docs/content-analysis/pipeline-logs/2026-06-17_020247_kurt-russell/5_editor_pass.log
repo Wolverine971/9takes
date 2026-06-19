@@ -1,0 +1,15 @@
+Done. Polished `src/blog/people/drafts/Kurt-Russell.md`.
+
+## What I found and fixed
+
+The draft was already structurally solid — it had been through fresh-eyes and second-pass edits, so the Tombstone counter-example, the Boston/first-marriage honesty beat, the empathy turn, and the interior beats were all in place. This was a light cleanup pass, not a rework.
+
+**Language fixes:**
+- **Last two contrast-pair engines.** The "not X, but Y" template was still showing in two spots. The Tombstone "wine label run in reverse: not keeping his name off… but keeping it off…" became two parallel declaratives ("On the bottle… On 'Tombstone'…"). The waste-talent "this is not a person who failed to reach. It is a person who decided…" became a direct statement.
+- **The "It is…" pointing tic.** That opener recurred ~10 times across the body. I broke the densest one by giving the Disney-memo sentence a concrete subject ("That misspelled memo is a perfect small artifact…"), which also reads sharper. The remaining instances are well-spaced and earn their emphasis, so I left them.
+
+**Preserved (the strong stuff):** wine-label opener, batting-cage spine, the "I just hope I haven't ruined it" rotator-cuff interior beat, the "shattering" Fox News moment, and the three-generation Monarch payoff.
+
+**Mechanical verification:** `./scripts/blog-lint.sh Kurt-Russell` → **0 fail**. Em-dash check passes (only quote-attribution dashes remain, which are exempt), no banned AI phrases. I did not touch `lastmod` (hard rule).
+
+**Verdict: production-ready.** The one lint WARN is "no faqs in frontmatter" — that's the frontmatter-enrich pipeline stage, not an editorial issue.

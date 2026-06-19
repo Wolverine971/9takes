@@ -368,61 +368,6 @@ But mapping the problem is only half the work. There are questions this piece ra
 
 If any of this landed close to home: you're not broken, and you're not alone. [988 Suicide & Crisis Lifeline](https://988lifeline.org/)—real people, no ideology, no algorithm. For ongoing support, therapy with someone who understands online radicalization and male loneliness can change the trajectory entirely. [Parents for Peace](https://parents4peace.org/) offers free guidance for families. And for those already past the crisis point and looking for healthier frameworks for connection, our [Enneagram dating guide for men](/enneagram-corner/enneagram-dating-guide-for-men) offers a starting point built on understanding rather than manipulation.
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "An analysis of incel radicalization through the Enneagram lens, examining how shame, rejection fear, and misdirected anger create a pipeline to the blackpill ideology. Based on 2024 University of Maryland research on self-reported radicalization narratives, this piece explores the emotional architecture underlying extremism and what it reveals about modern masculinity's crisis.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-02-26",
-      "datePublished": "2026-02-05",
-      "description": "Inside the psychology of incel radicalization through the Enneagram lens. Why the blackpill ideology spreads, what emotional patterns drive it, and what it reveals about modern masculinity's crisis.",
-      "headline": "The Blackpill Pipeline: How Shame, Rejection, and Anger Radicalize Young Men",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/shattered-mirror-dark.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/incel-blackpill-radicalization-enneagram",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["incel", "blackpill", "radicalization", "Enneagram", "masculinity", "loneliness", "online extremism", "psychology", "shame", "rejection", "mental health", "young men"],
-      "articleSection": "Pop Culture",
-      "wordCount": 5200
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
 <style lang="scss">
 
 </style>

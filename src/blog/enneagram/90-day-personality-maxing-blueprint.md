@@ -942,38 +942,6 @@ The understanding builds from there.
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "This comprehensive guide presents a 90-day approach to maxing your personality through perspective-taking (the mental equivalent of going to the gym), the Enneagram framework, and expert-backed protocols from Brené Brown, Andrew Huberman, and Carl Jung. Just as physical exercise builds physical strength, perspective-taking builds mental and emotional strength. This blueprint helps you understand your patterns, triggers, and superpowers: then exercise your capacity to understand others.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2025-12-04",
-      "datePublished": "2025-09-02",
-      "description": "A practical 90-day system to max your personality through perspective-taking, the Enneagram, and expert protocols from Brené Brown, Andrew Huberman, and Carl Jung. Physical exercise builds physical strength. Perspective-taking builds mental strength.",
-      "headline": "The 90-Day Personality Maxing Blueprint: Transform Your Mind Like You Train Your Body",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-thinking-about-transformation.webp",
-        "width": 1600
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/90-day-personality-maxing-blueprint",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -184,50 +184,6 @@ The Eightfold Fence is presented as a tool for maintaining sanity and composure 
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This article explores the stress paradox, explaining why our emotional responses remain consistent even as situations change. It examines how personality shapes our stress reactions, discusses the core emotions of anger, fear, and shame, and introduces the Enneagram as a tool for understanding stress responses. The article provides practical steps for breaking free from emotional patterns and mastering stress management.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-01-18",
-      "datePublished": "2024-09-14",
-      "keywords": ["stress management", "emotional patterns", "Enneagram", "personality types", "stress response", "emotional intelligence", "self-awareness", "coping strategies", "mental health", "psychology"],
-      "wordCount": 2200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/situations-change-emotions-dont",
-      "description": "Discover why your emotional responses to stress remain consistent despite changing situations. Learn to decode your stress reactions, understand your emotional patterns, and develop effective coping strategies for a more resilient life.",
-      "headline": "The Stress Paradox: Why Your Emotional Patterns Outlast Every Situation",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-stress-paradox.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/situations-change-emotions-dont",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

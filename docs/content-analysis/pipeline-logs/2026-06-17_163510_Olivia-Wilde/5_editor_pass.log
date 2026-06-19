@@ -1,0 +1,13 @@
+Polished `src/blog/people/drafts/Olivia-Wilde.md`.
+
+This draft was already structurally solid (it had been through fresh-eyes and a second pass), so this was a tight line-polish, not a rework. The journalist-dynasty frame, the self-renaming insight, the DWD empathy turn, the motherhood beat, and the inner-thought CinemaCon moment were all preserved.
+
+**What I cleaned up:**
+- **Contrast-pair tells** — the two remaining "not X but Y" constructions. "Not to expose reality but to build it" became "Where they spent careers exposing reality, she set out to build it." The integration line "not by winning the argument, but by sitting…" became a direct statement.
+- **Clunky tails** — two "which is" appendages tightened to colons, and the section-bridging "Which brings us to the film that proved she was right" cut down to "The next film proved her right" (which also killed a triple "Booksmart" in three consecutive lines).
+- **A category mismatch** — "The controlled set… was a person who knows what pressure does" rewritten so a set isn't literally a person.
+- **Heading consistency** — the lone title-case H2 ("The One Production She Couldn't Direct") was sentence-cased to match the other five; updated the ledger comment accordingly.
+
+**Verification:** `./scripts/blog-lint.sh Olivia-Wilde` passes — zero prose em-dashes, no banned AI phrases. I left `lastmod` untouched per the hard rule.
+
+**State:** Production-ready prose-wise. Two non-blocking items remain for you: the lint `WARN` that the frontmatter-enrich stage (faqs) hasn't run yet — a discoverability cost, not a prose issue — and the optional call on whether to keep the single-source tabloid salad-dressing detail.

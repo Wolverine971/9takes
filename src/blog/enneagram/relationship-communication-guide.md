@@ -537,137 +537,31 @@ If you want to go deeper, sign up and join 9takes below.
 <svelte:head>
 
  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://9takes.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Enneagram Corner",
-              "item": "https://9takes.com/enneagram-corner"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Relationship Communication Guide",
-              "item": "https://9takes.com/enneagram-corner/relationship-communication-guide"
-            }
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://9takes.com/"
         },
         {
-      "@type": "BlogPosting",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/relationship-communication-guide"
-      },
-      "headline": "Relationship Communication Guide: The Enneagram Key to Understanding Your Partner",
-      "alternativeHeadline": "How Each Enneagram Type Communicates in Relationships",
-      "description": "Learn how each Enneagram type communicates in relationships and discover practical strategies for deeper connection and fewer misunderstandings",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-having-an-intimate-conversation.webp",
-        "width": 900
-      },
-      "keywords": ["Enneagram communication", "relationship communication", "personality types", "conflict resolution", "Enneagram relationships", "effective communication", "personality compatibility", "communication styles", "relationship psychology", "couples communication", "Enneagram type compatibility", "how to communicate with partner", "relationship advice by personality type"],
-      "inLanguage": "en-US",
-      "timeRequired": "PT18M",
-      "isPartOf": {
-        "@type": "Blog",
-        "@id": "https://9takes.com/enneagram-corner",
-        "name": "Enneagram Corner",
-        "publisher": {
-          "@type": "Organization",
-          "name": "9takes"
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Enneagram Corner",
+          "item": "https://9takes.com/enneagram-corner"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Relationship Communication Guide",
+          "item": "https://9takes.com/enneagram-corner/relationship-communication-guide"
         }
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Interpersonal communication",
-          "sameAs": "https://en.wikipedia.org/wiki/Interpersonal_communication"
-        },
-        {
-          "@type": "Thing",
-          "name": "Intimate relationship",
-          "sameAs": "https://en.wikipedia.org/wiki/Intimate_relationship"
-        },
-        {
-          "@type": "Thing",
-          "name": "Enneagram of Personality",
-          "sameAs": "https://en.wikipedia.org/wiki/Enneagram_of_Personality"
-        }
-      ],
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "url": "https://9takes.com/enneagram-corner/authors/DJ-Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "mentions": [
-        {
-          "@type": "Thing",
-          "name": "Enneagram of Personality",
-          "description": "The Enneagram of Personality is a model of the human psyche principally understood as a typology of nine interconnected personality types.",
-          "sameAs": [
-            "https://www.wikidata.org/wiki/Q273047",
-            "https://en.wikipedia.org/wiki/Enneagram_of_Personality"
-          ]
-        },
-        {
-          "@type": "Thing",
-          "name": "Gottman Method",
-          "description": "A research-based approach to couples therapy developed by Drs. John and Julie Gottman.",
-          "sameAs": "https://en.wikipedia.org/wiki/John_Gottman"
-        },
-        {
-          "@type": "Thing",
-          "name": "Attachment theory",
-          "description": "A psychological model that describes the dynamics of long-term interpersonal relationships.",
-          "sameAs": "https://en.wikipedia.org/wiki/Attachment_theory"
-        },
-        {
-          "@type": "Thing",
-          "name": "The Five Love Languages",
-          "description": "A framework for understanding how people express and receive love, developed by Gary Chapman.",
-          "sameAs": "https://en.wikipedia.org/wiki/The_Five_Love_Languages"
-        }
-      ],
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "url": "https://9takes.com",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png",
-          "width": 512,
-          "height": 512
-        }
-      },
-      "datePublished": "2024-09-28",
-      "dateModified": "2026-01-23",
-      "wordCount": 4200,
-      "articleSection": "Enneagram Relationships",
-      "url": "https://9takes.com/enneagram-corner/relationship-communication-guide",
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": [".firstLetter", ".section-content h3", ".section-content p:first-of-type"]
-      }
+      ]
     },
     {
       "@type": "FAQPage",

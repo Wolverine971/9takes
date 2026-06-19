@@ -1,0 +1,31 @@
+Draft complete. Non-interactive run finished.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Jason-Sudeikis.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: none
+```
+
+**The blog at a glance**
+- **Type call:** Enneagram **9 (Peacekeeper), 9w1, social subtype** — argued against Type 2 (Helper) as the main counter-case, quarantined in the Rabbit Hole.
+- **Core tension:** The kindest man on television vs. the buried anger that leaks sideways (the CinemaCon custody-papers serving he "would never condone").
+- **Thesis:** A man whose deepest instinct is to keep the peace even when peace costs him the truth. "Be a goldfish" is a Nine's whole creed: forget rather than fight.
+- **Signature details:** Coach Campbell's "pastry on his game / didn't play the defense I wish he'd play"; uncle George Wendt as the genetic everyman; the GQ "book → chapter → paragraph → line → word → doodle" grief sentence; the Angry Birds "little toot of anger" line; the email to a grieving stranger.
+- **Empathy turn:** the custody-papers serving reframed as a conflict-avoider's failure to fight cleanly, not cruelty.
+
+**Gate ledgers (all in-file as HTML comments)**
+- Testimony: **3** qualifying named quotes (Hannah Waddingham ×1, Donnie Campbell ×2) — exceeds the ≥2 minimum.
+- Heading mix: **4** search-intent/hybrid H2s.
+- Distribution: **3** type-theory paragraphs in body (limit 4).
+- Stats: Emmy wins 2021 & 2022; nine SNL seasons (2005–2013); $27,500/mo 2023 settlement.
+
+**Internal links added (4 total):**
+- Enneagram Type 9 → `/enneagram-corner/enneagram-type-9`
+- Amy Poehler → `/personality-analysis/amy-poehler`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide`
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes`
+
+`blog-lint.sh` reports **0 fail, 1 warn** — the warn is missing `faqs` frontmatter, which the downstream frontmatter-enrich stage owns (out of scope for this command). Per non-interactive rules I left `status: draft` (no auto-promote to `ready`); human review precedes `blog_content_production_people`. No grade emitted — grading is `/grade_blog`'s job.

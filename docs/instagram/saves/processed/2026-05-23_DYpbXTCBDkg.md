@@ -1,6 +1,6 @@
 ---
 id: 'ig_DYpbXTCBDkg'
-status: 'new'
+status: 'kept'
 source: 'instagram'
 capture_method: 'warmup_assisted'
 captured_at: '2026-05-23T15:30:00-04:00'

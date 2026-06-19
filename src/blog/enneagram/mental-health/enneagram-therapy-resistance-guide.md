@@ -299,46 +299,6 @@ The frame is the relationship in miniature. How you respond to it reveals everyt
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "Your therapist can see your defense patterns playing out in real time. Each Enneagram type resists therapy differently, and the resistance itself is the most important material in the room. Type 1s turn healing into a performance review. Type 2s therapize the therapist. Type 3s deliver TED talks about their trauma. Type 4s compete for most tragic backstory. Type 5s bring research papers. Type 6s run background checks. Type 7s make sessions entertaining. Type 8s dare the therapist to try. Type 9s agree with everything. Understanding your resistance pattern is the first step to working with it rather than against it.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwaaborern/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-28",
-      "datePublished": "2026-03-28",
-      "description": "Your therapist can see your defense patterns playing out in real time. Here is how each Enneagram type gets stuck, resists, and accidentally sabotages their own healing.",
-      "headline": "How Each Enneagram Type Resists Therapy (What Your Therapist Actually Sees)",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-therapy-resistance-guide",
-        "@type": "WebPage"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-calling-you-out.webp",
-        "width": 900
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          "https://www.instagram.com/9teleads/",
-          "https://twitter.com/9teleads"
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

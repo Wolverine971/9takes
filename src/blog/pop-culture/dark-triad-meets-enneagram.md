@@ -539,61 +539,6 @@ For the constructive path forward: [how each type manipulates](/enneagram-corner
 
 If you recognize concerning patterns in yourself or others, seek professional help. Early intervention changes trajectories.
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "An in-depth exploration of how the Dark Triad personality traits (narcissism, psychopathy, and Machiavellianism) manifest through each of the nine Enneagram types. This article examines famous criminal cases, political scandals, and psychological patterns to understand how normal personality types can develop pathological expressions. From serial killers to corrupt politicians, we analyze the shadow side of human personality through the lens of the Enneagram.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-02-04",
-      "datePublished": "2025-09-07",
-      "description": "How narcissism, psychopathy, and Machiavellianism manifest through each Enneagram type. From Nixon's image-obsessed Type 3 to Dahmer's clinical Type 5 detachment.",
-      "headline": "Dark Triad Meets Enneagram: How Each Type Goes Wrong",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/dark-psychology-masks.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/dark-triad-meets-enneagram",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["Dark Triad", "Enneagram", "personality disorders", "psychopathy", "narcissism", "Machiavellianism", "criminal psychology", "Ted Bundy", "Richard Nixon", "mental health", "personality types", "shadow work", "forensic psychology"],
-      "articleSection": "Pop Culture",
-      "wordCount": 3500
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
 <style lang="scss">
 
 </style>

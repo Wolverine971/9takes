@@ -1,0 +1,45 @@
+YAML parses cleanly. Enrichment complete.
+
+```
+Frontmatter enrichment complete: Olivia-Wilde
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved, untouched):
+- wikipedia (https://en.wikipedia.org/wiki/Olivia_Wilde)
+- twitter (@oliviawilde), instagram (@oliviawilde)
+- all creator-owned fields (title, meta_title, persona_title, description,
+  enneagram, type, person, suggestions, production_pretext, etc.)
+
+Identifiers (cross-checked):
+- Wikidata Q200355 — verified via Special:EntityData (the obvious-looking
+  Q229220 is actually Maria Bello; rejected it)
+- IMDb nm1312575 — confirmed via Wikidata P345 + web search
+- birth 1984-03-10, New York City; dual American/Irish citizenship (P27: Q30+Q27)
+
+FAQs generated (5):
+1. What is Olivia Wilde's personality type? → #what-is-olivia-wildes-personality-type
+2. Why did Olivia Wilde change her surname from Cockburn to Wilde? → #how-olivia-wildes-journalist-family-taught-her-to-author-herself
+3. Why did the Don't Worry Darling press tour break Olivia Wilde? → #why-the-dont-worry-darling-press-tour-broke-olivia-wilde
+4. What is Olivia Wilde's Enneagram wing? → #olivia-wildes-wing-3w2
+5. Could Olivia Wilde be a Type 8 instead of a Type 3? → #counterarguments-why-olivia-wilde-might-not-be-type-3
+
+All FAQ answers are drawn from the actual body (diagnosis, journalist-dynasty,
+DWD press-tour, the 3w2 rabbit-hole, and the Type 8 counterargument).
+
+Issues:
+- Thin inline sourcing: the body contains zero external hyperlinks (only
+  internal /enneagram-corner and /personality-analysis links). It names sources
+  in prose — Interview magazine, Box Office Mojo, TheWrap, the June 2026 Call Her
+  Daddy interview — but never links them. Per the gold-standard pattern I built
+  `citations` from authoritative Wikipedia entity URLs for subjects the body
+  genuinely discusses (Olivia Wilde, Don't Worry Darling, Booksmart, Tao Ruspoli)
+  rather than inventing article URLs. Worth adding real source links in a future
+  body pass if zero-tabloid sourcing matters (see the open salad-dressing note in
+  the SECOND PASS / EDITOR PASS comments).
+- Body untouched; lastmod untouched; all HTML comment ledgers untouched.
+```
+
+Note: `published: false` — the draft still needs to go through grading and the publish gate before going live.

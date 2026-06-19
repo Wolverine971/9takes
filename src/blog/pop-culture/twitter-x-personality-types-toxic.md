@@ -28,60 +28,6 @@ path: src/blog/pop-culture/twitter-x-personality-types-toxic.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of Twitter/X, showing why conflict-driven personality styles dominate the platform and how its design amplifies outrage, moral certainty, and tribal escalation.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-23",
-      "datePublished": "2026-03-23",
-      "description": "The platform that amplifies conflict. Why Type 8s, Type 1s, and Type 6s dominate Twitter discourse—and why it makes everyone miserable.",
-      "headline": "Twitter/X Personality Types: Why It's So Toxic",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/twitter-x-toxic-arena-battle.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/twitter-x-personality-types-toxic",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Twitter",
-        "X",
-        "Enneagram",
-        "social media toxicity",
-        "online conflict",
-        "internet culture",
-        "political discourse",
-        "Type 8",
-        "Type 1",
-        "Type 6"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 3100
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

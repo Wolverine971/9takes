@@ -39,6 +39,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 		PUBLIC_SUPABASE_URL,
 		PUBLIC_SUPABASE_PUBLISHABLE_KEY,
 		{
+			global: {
+				fetch: event.fetch
+			},
 			cookies: {
 				get: (key) => event.cookies.get(key),
 				set: (key, value, options) => {

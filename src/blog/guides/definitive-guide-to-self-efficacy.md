@@ -20,39 +20,6 @@ path: src/blog/guides/definitive-guide-to-self-efficacy.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "Two people with identical skills can have wildly different outcomes — one acts, the other hesitates. Bandura called that gap self-efficacy: the belief you can do this specific thing, right now. This guide breaks down the four sources Bandura identified in 1977 (mastery, vicarious experience, social persuasion, physiological state), how each domain of life is affected, how to measure where you stand, and a 30-day plan to rebuild it.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-          ]
-      },
-      "dateModified": "2025-05-03",
-      "datePublished": "2023-08-31",
-      "description": "Two people with identical skills, different outcomes — one acts, the other doesn't. Bandura called the gap self-efficacy. Here's the 30-day plan to close yours.",
-      "headline": "Why You Don't Believe in Yourself (And How to Fix It in 30 Days)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/gandalf-statue.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

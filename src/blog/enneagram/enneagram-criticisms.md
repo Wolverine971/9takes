@@ -40,7 +40,7 @@ The strongest criticisms are that the Enneagram lacks enough scientific validati
 
 You've heard it. Maybe you've said it. Fair enough — let's actually address the criticisms instead of pretending they don't exist.
 
-Some of these objections are valid. Some miss the point entirely. Here's the honest breakdown.
+Some of these objections are valid. Some miss the point entirely. Here's the honest breakdown. On the astrology charge specifically, [here's how the Enneagram and astrology actually compare](https://9takes.com/enneagram-corner/astrology-and-the-enneagram).
 
 ## Common Criticisms of Personality Theory & The Enneagram
 
@@ -358,55 +358,9 @@ Which camp are you in?
 <svelte:head>
 
  <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "articleBody": "This article addresses common criticisms of the Enneagram personality system and the 9takes platform. It explores concerns about scientific validity, stereotyping risks, subjective typing, and potential echo chambers. Each criticism is examined thoughtfully with balanced responses that acknowledge limitations while highlighting the practical value many find in the Enneagram framework.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2024-02-26",
-      "datePublished": "2023-02-10",
-      "description": "Explore thoughtful responses to common Enneagram criticisms including questions about scientific validity, stereotyping concerns, and practical application challenges. Discover why many find value in this personality system despite its limitations.",
-      "headline": "The Enneagram Under Fire: Addressing Common Criticisms & Misconceptions",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-criticisms",
-        "@type": "WebPage"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-disagreeing.webp",
-        "width": 900
-      },
-      "keywords": ["enneagram criticisms", "enneagram scientific validity", "personality theory limitations", "enneagram stereotyping", "personality test accuracy", "enneagram pseudoscience", "personality framework limitations", "enneagram vs big five", "personality type criticism"],
-      "wordCount": 3254,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-criticisms",
-      "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

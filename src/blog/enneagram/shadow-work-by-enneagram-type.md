@@ -802,43 +802,6 @@ Find an Enneagram-aware therapist through the International Enneagram Associatio
 Not sure which therapeutic approach fits your personality? [Different types need different modalities](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)—the talking cure works beautifully for some types and systematically fails others. Understanding your processing style saves years of ineffective treatment.
 
 **This work takes courage. You already have everything you need, including your shadow.**
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Shadow Work by Enneagram Type: Your Dark Side Has a Pattern",
-  "description": "Your shadow is shaped by your Enneagram type. Discover type-specific shadow patterns, triggers, and integration practices that actually work for your personality.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
-  },
-  "datePublished": "2025-08-25",
-  "dateModified": "2026-01-18",
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/shadow-work-by-enneagram-type"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/nine_greek_statues_facing_their_shadows_on_the_wall.webp",
-    "width": 1200,
-    "height": 630
-  },
-  "articleSection": "Personal Growth",
-  "wordCount": 6000,
-  "keywords": ["shadow work", "enneagram shadow work", "shadow work exercises", "what is shadow work", "shadow integration", "dark side personality types", "carl jung shadow work", "shadow work by personality type"]
-}
-</script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

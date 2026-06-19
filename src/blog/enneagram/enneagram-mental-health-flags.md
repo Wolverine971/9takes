@@ -564,50 +564,6 @@ Your personality type isn't a prison—it's a map. Use it wisely, with compassio
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This article provides a comprehensive guide on identifying mental health red flags for each Enneagram type. It offers specific warning signs, practical steps to help, and tailored communication strategies for each type. The guide aims to promote early intervention and support for mental health challenges within the framework of the Enneagram personality system.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-08-24",
-      "datePublished": "2024-07-12",
-      "description": "Recognize mental health warning signs by Enneagram type. Learn type-specific red flags, somatic symptoms, and exactly when to seek help for yourself or loved ones.",
-      "headline": "Enneagram Mental Health Red Flags: Early Warning Signs for All 9 Types",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-of-athena-with-red.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-mental-health-flags",
-        "@type": "WebPage"
-      },
-      "keywords": ["enneagram mental health red flags", "mental health warning signs by personality type", "enneagram stress symptoms", "somatic trauma patterns", "mental health crisis intervention", "enneagram type mental health", "personality breakdown patterns", "enneagram psychology", "mental health support", "body-based trauma signs"],
-      "wordCount": 4127,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-mental-health-flags",
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

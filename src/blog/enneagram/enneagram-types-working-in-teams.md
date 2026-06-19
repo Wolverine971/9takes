@@ -426,61 +426,6 @@ The Enneagram doesn't excuse behavior. It explains it. Which means you can work 
 
 If this helped, join 9takes below. There's a lot more where this came from.
 
-<svelte:head>
-
-<script type="application/ld+json">
-  {
-   "@context":"http://schema.org",
-   "@type":"BlogPosting",
-   "articleBody":"What makes some teams crush it while others feel like slow-moving disasters? It's how people think, what they fear, and what they need to feel safe enough to do their best work. The Enneagram maps these patterns. Here's how each type shows up in teams—as bosses, peers, and subordinates—what drives them crazy, what NOT to do with them, and how to give feedback that actually lands.",
-   "keywords": ["enneagram teamwork", "personality types in teams", "team dynamics", "workplace communication", "enneagram leadership", "team collaboration", "type conflicts at work", "managing different personalities", "enneagram boss types", "giving feedback by type", "workplace psychology"],
-   "wordCount": 3200,
-   "articleSection": "Enneagram",
-   "url": "https://9takes.com/enneagram-corner/enneagram-types-working-in-teams",
-   "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-          ]
-      },
-   "dateModified":{
-      "@type":"Date",
-      "@value":"2026-04-16"
-   },
-   "datePublished":{
-      "@type":"Date",
-      "@value":"2023-03-25"
-   },
-   "description":"Each Enneagram type brings something specific to a team — and breaks down in a specific way under the wrong manager. Here's what they bring, what to never do with them, and the feedback that actually lands.",
-   "headline":"The 9 Coworker Types: How Each Enneagram Acts as a Boss, Peer, and Report",
-   "image":{
-      "@type":"ImageObject",
-      "height":"900",
-      "url":"https://9takes.com/blogs/greek-statues-building-a-boat.webp",
-      "width":"900"
-   },
-   "mainEntityOfPage":{
-      "@id":"https://9takes.com/enneagram-corner/enneagram-types-working-in-teams",
-      "@type":"WebPage"
-   },
-   "mentions":{
-      "@type":"Thing",
-      "name":"Enneagram"
-   },
-   "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-}
-</script>
-
-</svelte:head>
-
 <style lang="scss">
 
    h4 {

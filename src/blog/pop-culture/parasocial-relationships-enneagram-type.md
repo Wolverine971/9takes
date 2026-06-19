@@ -28,60 +28,6 @@ path: src/blog/pop-culture/parasocial-relationships-enneagram-type.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram guide to parasocial relationships, explaining why different personality types become attached to celebrities and influencers and what emotional needs those one-sided bonds are trying to meet.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-04-01",
-      "datePublished": "2026-02-02",
-      "description": "Why do you feel emotionally connected to someone who doesn't know you exist? Your Enneagram type explains your parasocial relationship patterns with celebrities and influencers.",
-      "headline": "Parasocial Relationships: Why Each Enneagram Type Forms Them",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/parasocial-relationships-psychology.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/parasocial-relationships-enneagram-type",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "parasocial relationships",
-        "Enneagram",
-        "celebrities",
-        "influencers",
-        "fan psychology",
-        "internet culture",
-        "attachment",
-        "social media",
-        "personality types",
-        "online intimacy"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 4100
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

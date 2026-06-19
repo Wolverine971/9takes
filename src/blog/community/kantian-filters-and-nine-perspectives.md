@@ -28,61 +28,6 @@ Concrete classroom experiment: one shared object, nine physical filters, nine di
 	const videoUrl = "https://www.youtube.com/embed/BtlWoqWLm9Q";
 </script>
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Kant Said You're Only Seeing a Filtered Reality. The Enneagram Shows You the Other 8 Filters.",
-  "description": "A viral lecture on evil, power, and philosophy accidentally made the best case for why perspective-taking matters more than ever.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2026-03-04",
-  "dateModified": "2026-03-04",
-  "url": "https://9takes.com/community/kantian-filters-and-nine-perspectives",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/kantian-filters-nine-perspectives.webp",
-    "width": 1600,
-    "height": 900
-  },
-  "articleSection": "Philosophy",
-  "keywords": ["Kant", "Enneagram", "perspective-taking", "filters", "Plato", "Dante", "Hegel", "Jiang Xueqin", "Predictive History", "Monad", "evil", "philosophy", "personality", "9takes"],
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Community Blog",
-    "url": "https://9takes.com/community"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/community/kantian-filters-and-nine-perspectives"
-  }
-}
-</script>
-
-</svelte:head>
-
 <p class="firstLetter">A lecture called <a class="external-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=BtlWoqWLm9Q">"Secret History #4: How Evil Triumphs"</a> has racked up nearly 2 million views on YouTube. It was delivered by Jiang Xueqin — a Yale-educated Chinese-Canadian educator who teaches Western Philosophy at Moonshot Academy in Beijing — and posted to his channel <a class="external-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/@PredictiveHistory">Predictive History</a>, which is approaching a million subscribers.</p>
 
 <div class="iframe-container">

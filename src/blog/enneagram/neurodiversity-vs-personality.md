@@ -330,49 +330,6 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This article examines the growing trend of social media self-diagnosis of neurodivergent conditions and argues that while clinical neurodivergence is real and diagnoses unlock important support, many people are confusing normal personality variation with clinical conditions. It positions the Enneagram as a complementary tool that explains the deeper 'why' behind behavioral patterns — childhood wounds, core fears, and emotional strategies — offering actionable self-understanding that diagnostic labels alone can't provide. The piece acknowledges that neurodiversity and personality frameworks work together, not in opposition.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-04-01",
-      "datePublished": "2025-05-22",
-      "keywords": ["neurodiversity", "Enneagram", "personality types", "ADHD", "autism", "self-awareness", "mental health", "psychology", "personality development", "emotional intelligence"],
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/neurodiversity-vs-personality",
-      "description": "Why TikTok self-diagnosis misses the point — and how the Enneagram gives you what diagnostic labels never will: a roadmap for actual change.",
-      "headline": "Neurodiversity vs. Personality: Stop Looking for Labels, Start Looking Inward",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/brain-vs-heart-dichotomy.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/neurodiversity-vs-personality",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -466,7 +423,6 @@ are the natural homes. Even one stat in the opening ("A 2025 survey found 50% of
 have self-diagnosed a mental health condition based on social media content") would
 immediately change the credibility of the whole piece.
 
-
 ═══════════════════════════════════════════════════════════════════
 2. ENGAGE WITH THE SPECTRUM MODEL — THE SCIENCE ISN'T BINARY
 ═══════════════════════════════════════════════════════════════════
@@ -502,7 +458,6 @@ spectrum leaves off."
 
 This would go in or after the "Both Can Be True" section.
 
-
 ═══════════════════════════════════════════════════════════════════
 3. ADDRESS THE TOP COMPETITOR HEAD-ON
 ═══════════════════════════════════════════════════════════════════
@@ -524,7 +479,6 @@ continuum models miss entirely."
 
 This positions your article as the next step in the conversation, not an
 alternative to it.
-
 
 ═══════════════════════════════════════════════════════════════════
 4. ADD MORE INTERNAL CROSS-LINKS — CONTENT ECOSYSTEM
@@ -556,7 +510,6 @@ to add 3-4 more that would boost both SEO and reader depth:
   - Shadow Work by Enneagram Type (thematic match)
   - Anxiety guide (symptom overlap angle)
 
-
 ═══════════════════════════════════════════════════════════════════
 5. NAME THE "MISSING MIDDLE" — THE ARTICLE'S UNSTATED THESIS
 ═══════════════════════════════════════════════════════════════════
@@ -581,7 +534,6 @@ a concept to latch onto. That's the kind of framing that gets shared.
 This could be a brief new paragraph in the opening, or in the "No One Is Normal"
 section.
 
-
 ═══════════════════════════════════════════════════════════════════
 6. ADD A CONCRETE EXAMPLE THAT SHOWS THE OVERLAP
 ═══════════════════════════════════════════════════════════════════
@@ -604,7 +556,6 @@ the most documented example (your ADHD article covers it), so it's defensible.
 Similarly: Type 5 social withdrawal being mistaken for autism spectrum traits.
 Type 4 emotional intensity being mistaken for mood disorders. These are all real
 patterns that show WHY the personality layer matters.
-
 
 ═══════════════════════════════════════════════════════════════════
 7. ACKNOWLEDGE WHAT THE TREND GOT RIGHT
@@ -630,7 +581,6 @@ as a brain condition."
 This inoculates against the biggest counterargument: "you're just dismissing people
 who are finally getting help."
 
-
 ═══════════════════════════════════════════════════════════════════
 8. ADD A COMPARISON TABLE FOR SCANNERS
 ═══════════════════════════════════════════════════════════════════
@@ -651,7 +601,6 @@ Then: "The best outcome? Both columns."
 
 This reinforces the "both/and" framing visually and gives something shareable.
 
-
 ═══════════════════════════════════════════════════════════════════
 9. SEO REFINEMENTS
 ═══════════════════════════════════════════════════════════════════
@@ -668,7 +617,6 @@ The H2s are solid for SEO. Could add one more FAQ to the JSON-LD:
   A: Brief answer pointing to both professional assessment AND Enneagram typing.
 
 This targets a high-intent question-format search.
-
 
 ═══════════════════════════════════════════════════════════════════
 10. MINOR POLISH
@@ -691,7 +639,6 @@ c) The Related Reading section could benefit from one more entry:
    - Shadow Work by Enneagram Type — for readers ready to "look inward"
    - Or the anxiety guide — for readers wondering "is my anxiety a condition or
      a personality pattern?"
-
 
 ═══════════════════════════════════════════════════════════════════
 PRIORITY ORDER (if you can only do a few):

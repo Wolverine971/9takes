@@ -47,66 +47,6 @@ path: src/blog/pop-culture/kardashian-family-enneagram-analysis.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of the Kardashian family, mapping how Kris Jenner and her children turned distinct personality patterns into branding power, public drama, and a billion-dollar celebrity machine.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-05-09",
-      "datePublished": "2026-05-09",
-      "description": "Kris the Type 3 Momager. Kim the Image Queen. Rob the one who disappeared. Why men who date Kardashians spiral. Decode the psychology behind the empire.",
-      "headline": "The Kardashian Family Enneagram: How Each Type Built a Billion Dollar Dynasty",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/kardashian-family-enneagram-analysis-composite.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/kardashian-family-enneagram-analysis",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Kardashians",
-        "Enneagram",
-        "Kris Jenner",
-        "Kim Kardashian",
-        "Kourtney Kardashian",
-        "Khloé Kardashian",
-        "Kendall Jenner",
-        "Kylie Jenner",
-        "Rob Kardashian",
-        "celebrity psychology",
-        "family dynamics",
-        "Kardashian curse",
-        "fame",
-        "reality TV",
-        "branding",
-        "pop culture"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 5362
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -391,45 +391,6 @@ Online tests measure behavior. You need to map your core emotional patterns. **F
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "Complete guide to all 9 Enneagram personality types with their core emotional patterns, motivations, fears, and blind spots. Learn to decode social dynamics, speak each type's emotional language, and transform difficult interactions. Includes the Three Centers framework for quick type identification, commonly confused types disambiguation, stress and growth arrows, and practical magic words for each personality.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2025-12-09",
-      "datePublished": "2023-02-10",
-      "description": "Skip the fluff. Decode all 9 Enneagram types with their core patterns, motivations, and blind spots. Your complete personality-maxing cheat sheet.",
-      "headline": "Enneagram Types Explained: Decode All 9 Personalities in 5 Minutes",
-      "keywords": ["Enneagram", "personality types", "decode social dynamics", "personality-maxing", "emotional patterns", "conflict resolution", "social advantage", "pattern recognition", "emotional intelligence", "nine types", "three centers", "stress patterns", "growth arrows"],
-      "wordCount": 3200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-tldr",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-tldr",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Thing",
-        "name": "Enneagram of Personality",
-        "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-        "SameAs": [
-          "https://www.wikidata.org/wiki/Q273047",
-          "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
