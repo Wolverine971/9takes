@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-18T17:31:01.932Z",
+  "generated_at": "2026-06-19T21:13:25.678Z",
   "totals": {
     "published": 358,
-    "unpublished_drafts": 137
+    "unpublished_drafts": 138
   },
   "enneagram_distribution": {
     "counts": {
@@ -657,15 +657,15 @@
     }
   },
   "pipeline": {
-    "in_draft": 137,
-    "published_last_30_days": 18,
-    "published_last_90_days": 108,
-    "avg_new_per_month": 36
+    "in_draft": 138,
+    "published_last_30_days": 17,
+    "published_last_90_days": 105,
+    "avg_new_per_month": 35
   },
   "freshness": {
-    "updated_last_30_days": 20,
-    "updated_last_90_days": 210,
-    "share_updated_last_90_days": 0.5866,
+    "updated_last_30_days": 19,
+    "updated_last_90_days": 204,
+    "share_updated_last_90_days": 0.5698,
     "missing_lastmod": 0
   },
   "min_domain_size": 10,
@@ -678,6 +678,6 @@
     "Among 64 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 21.9% — +13.77 percentage points above the corpus baseline.",
     "Among 26 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 42.3% — +28.06 percentage points above the corpus baseline.",
     "Among 19 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 31.6% — +23.48 percentage points above the corpus baseline.",
-    "137 additional profiles are in the review pipeline, with ~36 new profiles shipping per month."
+    "138 additional profiles are in the review pipeline, with ~35 new profiles shipping per month."
   ]
 }

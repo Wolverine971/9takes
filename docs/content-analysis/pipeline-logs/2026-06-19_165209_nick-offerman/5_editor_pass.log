@@ -1,0 +1,13 @@
+Polished `src/blog/people/drafts/Nick-Offerman.md`.
+
+This draft had already cleared fresh-eyes and second-pass review, so it was structurally clean coming in — no em-dashes in prose, no banned phrases, good rhythm. The polish pass was light and surgical. The three things I fixed:
+
+1. **Restated idea in the Mullally section** — the paragraph hit the "can't believe she married him" astonishment twice, both with near-identical "More than two decades later / More than twenty years in" timestamps. Collapsed to one clean version, kept the falsifiable Mel Brooks/John Cleese detail.
+2. **Mechanical signpost** — "His relationship to it is the next tell" in the Ron section was framework-narration, not story. Replaced with a line that points forward without naming the machinery.
+3. **Generalize-then-localize opener** — "An instinct that runs this deep usually traces back to childhood. Offerman's does." is a soft AI transition shape. Rewrote to lead concrete on Minooka.
+
+I left the strong stuff alone: the inner-thought sob beat, the empathy turn (woodshop founded 2001 in poverty, brand downstream of the living), the contrast panel, the 9w1-vs-core-1 anger distinction, and the closing image. `lastmod` untouched per the hard rule (skill overrides the command's "update lastmod" line).
+
+**Verification:** `./scripts/blog-lint.sh Nick-Offerman` → 0 fail, 1 warn. The lone warn is no `faqs` in frontmatter, which is the separate enrich stage's job, not this pass.
+
+**Status:** Production-ready prose-wise. Two things still gate publish, both pre-existing and out of scope for an editorial pass: the frontmatter-enrich stage (FAQs) hasn't run, and the Testimony Ledger flags the two Chicago Magazine 2013 quotes (Mullally, Schur) for verbatim re-confirmation before publish.

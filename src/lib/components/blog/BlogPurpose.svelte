@@ -1,5 +1,6 @@
 <!-- src/lib/components/blog/BlogPurpose.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import EnneagramDiagram from './EnneagramDiagram.svelte';
 	import { notifications } from '../molecules/notifications';
 
@@ -9,7 +10,13 @@
 	let error = $state('');
 	let loading = $state(false);
 	let submitted = $state(false);
+	let formExtra = $state('');
+	let formLoadTime = $state(Date.now());
 	const errorId = 'blog-purpose-signup-error';
+
+	onMount(() => {
+		formLoadTime = Date.now();
+	});
 
 	async function handleSubmit(event: SubmitEvent) {
 		event.preventDefault();
@@ -26,6 +33,8 @@
 
 		const body = new FormData();
 		body.append('email', normalizedEmail);
+		body.append('form_extra', formExtra);
+		body.append('_timeToken', String(Date.now() - formLoadTime));
 
 		try {
 			const response = await fetch('/api/signups', { method: 'POST', body });
@@ -75,10 +84,10 @@
 			<div class="cta-text">
 				<h3>The fight that started 9takes</h3>
 				<p>
-					My wife and I were newlyweds having the same fight on repeat, until she said,
-					&ldquo;DJ, you need to take a personality test.&rdquo; Turns out I didn&rsquo;t
-					understand her fear and she didn&rsquo;t understand my anger. 9takes is the site I
-					wish we&rsquo;d had: one situation, nine takes.
+					My wife and I were newlyweds having the same fight on repeat, until she said, &ldquo;DJ,
+					you need to take a personality test.&rdquo; Turns out I didn&rsquo;t understand her fear
+					and she didn&rsquo;t understand my anger. 9takes is the site I wish we&rsquo;d had: one
+					situation, nine takes.
 				</p>
 				<p class="cta-subtext">Get the next personality breakdown in your inbox.</p>
 			</div>
@@ -93,6 +102,17 @@
 					aria-busy={loading}
 					novalidate
 				>
+					<div class="signup-honeypot" aria-hidden="true">
+						<label for="blog-purpose-signup-extra">Leave blank</label>
+						<input
+							id="blog-purpose-signup-extra"
+							name="form_extra"
+							type="text"
+							bind:value={formExtra}
+							tabindex="-1"
+							autocomplete="new-password"
+						/>
+					</div>
 					<input
 						type="email"
 						bind:value={email}
@@ -240,6 +260,14 @@
 		display: grid;
 		gap: 0.6rem;
 		width: 100%;
+	}
+
+	.signup-honeypot {
+		position: absolute;
+		left: -10000px;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
 	}
 
 	.signup-input {

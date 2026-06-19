@@ -1,0 +1,26 @@
+Lint passes clean (0 fail, em-dash and banned-phrase checks pass). The one warning is a pre-existing frontmatter-enrich item, unrelated to cohesion.
+
+## Cohesion Check Complete: Nick-Offerman.md
+
+**Before score: 7.5/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Nick Offerman is an Enneagram Type 9 whose engine is dissolving himself into something bigger and calmer than his ego (a character, a marriage, a workbench), which explains the gap between gruff icon Ron Swanson and the tender man behind the mustache.
+
+### Changes Made (4 total)
+
+**Transition Fixes (4):**
+- **Diagnosis → Childhood**: Added "An instinct that runs this deep usually traces back to childhood. Offerman's does." Connects the just-named Nine pattern to the biography drop and primes the section's own "the lesson lands early for a Nine" payoff.
+- **Childhood → Ron**: Added "What finally ended the lean years was a role built to be everything he is not. His relationship to it is the next tell." Carries the "lean years" keyword forward and frames Ron as the inversion before the section makes that case.
+- **Last of Us → Mullally**: Added "Offerman did not have to imagine a love that reorganizes a life. He has lived inside one for over twenty years." Carries Bill-and-Frank's love-story thread directly into Offerman's real marriage (and pre-echoes the section's own "a love that reorganizes a whole life" line).
+- **Mullally → Workbench**: Added "The marriage was not the first place Offerman went looking for that kind of calm." Bridges marriage-sanctuary to workbench-sanctuary on the "calm" keyword without re-firing the overused "separate/wanting self" motif.
+
+### What Was Preserved
+- All frontmatter, ledgers, Svelte/HTML components (contrast panel, accordions, pull-quote, inner-thought), and the rabbit-hole block
+- All 6 internal links, untouched
+- The strong seams (intro → diagnosis, Ron → Last of Us, obscurity → correcting-the-world) left alone
+- No voice, word-choice, or argument changes; only connective sentences added
+
+### Remaining Concerns (writer's judgment, not cohesion-fixable by bridging)
+- The **obscurity section** and **correcting-the-world section** both re-circle the cry + the brand/merging theme. The second-pass notes already flag this and say it was compressed; it now reads as a deliberate callback rather than a repeat, so I left it. If you want it tighter, the move is to fold the obscurity payoff into the closing section, but that's a developmental cut, not a transition fix, and outside this pass's scope.

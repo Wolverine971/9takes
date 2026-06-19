@@ -9,9 +9,37 @@ import { signupWelcomeEmail } from '../../../emails';
 import { sendEmailWithTracking } from '$lib/email/sender';
 import { normalizeEmail } from '$lib/email/suppression';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import {
+	getNewsletterSignupProtectionState,
+	recordNewsletterSignupSecurityEvent,
+	type NewsletterSignupOutcome
+} from '$lib/server/newsletterSignupProtection';
 import { logger } from '$lib/utils/logger';
 
 const EMAIL_RE = /^\S+@\S+\.\S+$/;
+const MIN_FORM_TIME_MS = 2500;
+const BOT_USER_AGENT_PATTERNS = [
+	/bot/i,
+	/crawl/i,
+	/spider/i,
+	/scraper/i,
+	/curl/i,
+	/wget/i,
+	/python-requests/i,
+	/axios/i,
+	/node-fetch/i,
+	/headless/i,
+	/phantom/i,
+	/selenium/i,
+	/puppeteer/i,
+	/playwright/i
+];
+
+type SignupPayload = {
+	email: string;
+	honeypot: string;
+	timeToken: number | null;
+};
 
 function toRecipient(email: string, sourceId: string): EmailRecipient {
 	const normalized = normalizeEmail(email);
@@ -23,29 +51,188 @@ function toRecipient(email: string, sourceId: string): EmailRecipient {
 	};
 }
 
-async function readEmail(request: Request): Promise<string> {
+async function readSignupPayload(request: Request): Promise<SignupPayload> {
 	const contentType = request.headers.get('content-type') || '';
 	if (contentType.includes('application/json')) {
-		const body = (await request.json().catch(() => ({}))) as { email?: unknown };
-		return typeof body.email === 'string' ? body.email : '';
+		const body = (await request.json().catch(() => ({}))) as {
+			email?: unknown;
+			form_extra?: unknown;
+			_timeToken?: unknown;
+		};
+		return {
+			email: typeof body.email === 'string' ? body.email : '',
+			honeypot: typeof body.form_extra === 'string' ? body.form_extra : '',
+			timeToken:
+				typeof body._timeToken === 'number'
+					? body._timeToken
+					: typeof body._timeToken === 'string'
+						? parseInt(body._timeToken, 10)
+						: null
+		};
 	}
 	const form = await request.formData();
 	const raw = form.get('email');
-	return typeof raw === 'string' ? raw : '';
+	const honeypot = form.get('form_extra');
+	const timeTokenRaw = form.get('_timeToken');
+	const timeToken =
+		typeof timeTokenRaw === 'string' && timeTokenRaw.trim() ? parseInt(timeTokenRaw, 10) : null;
+
+	return {
+		email: typeof raw === 'string' ? raw : '',
+		honeypot: typeof honeypot === 'string' ? honeypot : '',
+		timeToken: Number.isFinite(timeToken) ? timeToken : null
+	};
 }
 
-export const POST: RequestHandler = async ({ request, cookies }) => {
-	const rawEmail = await readEmail(request);
+function isHoneypotTriggered(value: string): boolean {
+	return value.trim().length > 0;
+}
+
+function hasBlockedEmailPattern(email: string): boolean {
+	const [localPart] = email.split('@');
+	if (!localPart) return true;
+	return localPart.startsWith('.') || localPart.endsWith('.') || localPart.includes('..');
+}
+
+function hasSuspiciousUserAgent(userAgent: string): boolean {
+	if (!userAgent || userAgent.length < 20) return true;
+	return BOT_USER_AGENT_PATTERNS.some((pattern) => pattern.test(userAgent));
+}
+
+function fakeSuccess() {
+	return json({ ok: true });
+}
+
+async function recordSignupEvent(
+	adminSupabase: any,
+	outcome: NewsletterSignupOutcome,
+	context: {
+		ipAddress: string;
+		email?: string | null;
+		fingerprint?: string | null;
+		userAgent?: string | null;
+		details?: Record<string, unknown>;
+	}
+) {
+	await recordNewsletterSignupSecurityEvent({
+		supabase: adminSupabase,
+		outcome,
+		ipAddress: context.ipAddress,
+		identifier: context.email,
+		fingerprint: context.fingerprint,
+		userAgent: context.userAgent,
+		context: context.details
+	});
+}
+
+export const POST: RequestHandler = async ({ request, cookies, getClientAddress }) => {
+	const payload = await readSignupPayload(request);
+	const rawEmail = payload.email;
 	const normalizedEmail = rawEmail ? normalizeEmail(rawEmail) : '';
+	const ipAddress = getClientAddress();
+	const fingerprint = cookies.get('9tfingerprint') ?? null;
+	const userAgent = request.headers.get('user-agent') || '';
+	const adminSupabase = getSupabaseAdminClient() as any;
 
 	if (!normalizedEmail || !EMAIL_RE.test(normalizedEmail)) {
+		await recordSignupEvent(adminSupabase, 'invalid_email', {
+			ipAddress,
+			email: normalizedEmail || null,
+			fingerprint,
+			userAgent
+		});
 		return json(
 			{ ok: false, code: 'invalid_email', message: 'Invalid email address' },
 			{ status: 400 }
 		);
 	}
 
-	const adminSupabase = getSupabaseAdminClient() as any;
+	if (hasBlockedEmailPattern(normalizedEmail)) {
+		await recordSignupEvent(adminSupabase, 'blocked_email_pattern', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent
+		});
+		return json(
+			{ ok: false, code: 'invalid_email', message: 'Invalid email address' },
+			{ status: 400 }
+		);
+	}
+
+	if (isHoneypotTriggered(payload.honeypot)) {
+		await recordSignupEvent(adminSupabase, 'honeypot', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent
+		});
+		logger.warn('Newsletter signup honeypot triggered', { email: normalizedEmail });
+		return fakeSuccess();
+	}
+
+	if (payload.timeToken !== null && payload.timeToken > 0 && payload.timeToken < MIN_FORM_TIME_MS) {
+		await recordSignupEvent(adminSupabase, 'too_fast', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent,
+			details: { timeToken: payload.timeToken }
+		});
+		logger.warn('Newsletter signup submitted too fast', {
+			email: normalizedEmail,
+			timeToken: payload.timeToken
+		});
+		return fakeSuccess();
+	}
+
+	if (hasSuspiciousUserAgent(userAgent)) {
+		await recordSignupEvent(adminSupabase, 'bot_user_agent', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent
+		});
+		logger.warn('Newsletter signup suspicious user agent blocked', { email: normalizedEmail });
+		return fakeSuccess();
+	}
+
+	const protectionState = await getNewsletterSignupProtectionState({
+		supabase: adminSupabase,
+		ipAddress,
+		identifier: normalizedEmail
+	});
+
+	if (protectionState.authAbuse) {
+		await recordSignupEvent(adminSupabase, 'auth_abuse', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent,
+			details: { reason: protectionState.reason }
+		});
+		logger.warn('Newsletter signup blocked after recent auth abuse', {
+			email: normalizedEmail,
+			reason: protectionState.reason
+		});
+		return fakeSuccess();
+	}
+
+	if (protectionState.rateLimited) {
+		await recordSignupEvent(adminSupabase, 'rate_limited', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent,
+			details: { reason: protectionState.reason }
+		});
+		logger.warn('Newsletter signup rate limited', {
+			email: normalizedEmail,
+			reason: protectionState.reason
+		});
+		return fakeSuccess();
+	}
+
 	const { data: existing, error: existingError } = await adminSupabase
 		.from('signups')
 		.select('id')
@@ -61,6 +248,12 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 	}
 
 	if (existing) {
+		await recordSignupEvent(adminSupabase, 'already_exists', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent
+		});
 		return json({ ok: false, code: 'already_exists', message: 'Email already exists' });
 	}
 
@@ -71,6 +264,13 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 		.single();
 
 	if (insertError) {
+		await recordSignupEvent(adminSupabase, 'failed', {
+			ipAddress,
+			email: normalizedEmail,
+			fingerprint,
+			userAgent,
+			details: { phase: 'insert' }
+		});
 		logger.error('Failed to insert signup', insertError, { email: normalizedEmail });
 		return json(
 			{ ok: false, code: 'server_error', message: 'Failed to save signup' },
@@ -79,7 +279,6 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 	}
 
 	try {
-		const fingerprint = cookies.get('9tfingerprint');
 		if (fingerprint && insertedSignup?.id) {
 			// Admin client: the RPC is granted to `authenticated` only, but signups
 			// come from anonymous visitors — the anon role would fail silently here.
@@ -119,6 +318,13 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
 		logger.warn('Failed to send signup welcome email', { email: normalizedEmail, error: e });
 		// Don't fail the request - signup was saved
 	}
+
+	await recordSignupEvent(adminSupabase, 'success', {
+		ipAddress,
+		email: normalizedEmail,
+		fingerprint,
+		userAgent
+	});
 
 	logger.info('New signup submitted', { email: normalizedEmail });
 	return json({ ok: true });

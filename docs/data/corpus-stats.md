@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-06-18T17:31:01.932Z_
+_Generated: 2026-06-19T21:13:25.678Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -11,7 +11,7 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 ## Corpus Totals
 
 - **Published profiles:** 358
-- **Drafts in pipeline:** 137
+- **Drafts in pipeline:** 138
 
 > All stats below are computed against **published** profiles only.
 
@@ -173,15 +173,15 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Pipeline
 
-- **In the draft / review pipeline:** 137
-- **Published in the last 30 days:** 18
-- **Published in the last 90 days:** 108
-- **Average new profiles per month (trailing 90d):** 36
+- **In the draft / review pipeline:** 138
+- **Published in the last 30 days:** 17
+- **Published in the last 90 days:** 105
+- **Average new profiles per month (trailing 90d):** 35
 
 ## Freshness
 
-- **Updated in last 30 days:** 20
-- **Updated in last 90 days:** 210 (58.7%)
+- **Updated in last 30 days:** 19
+- **Updated in last 90 days:** 204 (57.0%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims
@@ -196,7 +196,7 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - Among 64 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 21.9% — +13.77 percentage points above the corpus baseline.
 - Among 26 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 42.3% — +28.06 percentage points above the corpus baseline.
 - Among 19 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 31.6% — +23.48 percentage points above the corpus baseline.
-- 137 additional profiles are in the review pipeline, with ~36 new profiles shipping per month.
+- 138 additional profiles are in the review pipeline, with ~35 new profiles shipping per month.
 
 ---
 

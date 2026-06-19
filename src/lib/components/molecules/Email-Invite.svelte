@@ -1,11 +1,18 @@
 <!-- src/lib/components/molecules/Email-Invite.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { notifications } from './notifications';
 	import Envelope from '$lib/components/icons/envelope.svelte';
 
 	export let cta: string = 'Who else needs to know about 9takes?';
 	let email: string = '';
 	let error: string = '';
+	let formExtra = '';
+	let formLoadTime = Date.now();
+
+	onMount(() => {
+		formLoadTime = Date.now();
+	});
 
 	const submit = async () => {
 		if (!/\S+@\S+\.\S+/.test(email)) {
@@ -18,6 +25,8 @@
 
 		const body = new FormData();
 		body.append('email', email);
+		body.append('form_extra', formExtra);
+		body.append('_timeToken', String(Date.now() - formLoadTime));
 
 		try {
 			const resp = await fetch('/api/signups', { method: 'POST', body });
@@ -40,6 +49,17 @@
 <div class="invite-section">
 	<h3 style="margin-top: 0; text-align:center">{cta}</h3>
 	<form class="invite-form">
+		<div class="signup-honeypot" aria-hidden="true">
+			<label for="email-invite-extra">Leave blank</label>
+			<input
+				id="email-invite-extra"
+				name="form_extra"
+				type="text"
+				bind:value={formExtra}
+				tabindex="-1"
+				autocomplete="new-password"
+			/>
+		</div>
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
 		<button
 			type="button"
@@ -68,6 +88,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.signup-honeypot {
+		position: absolute;
+		left: -10000px;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
 	}
 
 	.invite-form input {

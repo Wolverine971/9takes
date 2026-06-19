@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-06-17T06:32:58Z",
+	"lastUpdated": "2026-06-19T20:51:21Z",
 	"stats": {
 		"totalUnpublished": 125,
 		"totalPublished": 266,
@@ -16,8 +16,10 @@
 			"searchVolume": "high",
 			"personaTitle": null,
 			"addedToQueue": "2026-04-21",
-			"retryCount": 0,
-			"strategicValue": "comedy-legacy-cluster"
+			"retryCount": 2,
+			"strategicValue": "comedy-legacy-cluster",
+			"lastAttemptAt": "2026-06-19T20:49:23Z",
+			"lastAttemptResult": "daily creator wrapper exited during stage 1; stage 1 log was 0 bytes and no pipeline process remained"
 		},
 		{
 			"name": "john-goodman",

@@ -1,5 +1,6 @@
 <!-- src/lib/components/molecules/Email-Signup.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { notifications } from './notifications';
 
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
@@ -11,6 +12,12 @@
 	let email: string = '';
 	let error: string = '';
 	let loading: boolean = false;
+	let formExtra = '';
+	let formLoadTime = Date.now();
+
+	onMount(() => {
+		formLoadTime = Date.now();
+	});
 
 	const submit = async () => {
 		if (loading) return;
@@ -26,6 +33,8 @@
 
 		const body = new FormData();
 		body.append('email', normalizedEmail);
+		body.append('form_extra', formExtra);
+		body.append('_timeToken', String(Date.now() - formLoadTime));
 
 		try {
 			const resp = await fetch('/api/signups', { method: 'POST', body });
@@ -53,6 +62,17 @@
 	<p>{description}</p>
 
 	<form class="waitlist-form" on:submit|preventDefault={submit}>
+		<div class="signup-honeypot" aria-hidden="true">
+			<label for="email-signup-extra">Leave blank</label>
+			<input
+				id="email-signup-extra"
+				name="form_extra"
+				type="text"
+				bind:value={formExtra}
+				tabindex="-1"
+				autocomplete="new-password"
+			/>
+		</div>
 		<input
 			type="email"
 			id="email"
@@ -98,6 +118,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.signup-honeypot {
+		position: absolute;
+		left: -10000px;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
 	}
 
 	.waitlist-form input {

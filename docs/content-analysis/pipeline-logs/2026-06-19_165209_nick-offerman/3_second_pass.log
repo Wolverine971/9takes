@@ -1,0 +1,19 @@
+Done. Lint passes clean (0 fail; the lone warning is the downstream frontmatter-enrich stage, not this pass).
+
+## What I updated
+`src/blog/people/drafts/Nick-Offerman.md`
+
+## Main changes
+The fresh-eyes review was sharp, and I acted on its highest-value calls:
+
+- **Brought The Last of Us out of the footnote.** Added a new body section after the Ron beat — Bill in "Long, Long Time" (2023), the part he almost declined, his first-ever Emmy, "Without Frank, Bill ain't shit," and his on-record stand against the episode's homophobic backlash. Framed as "the contrast panel made flesh," it's now the dramatized proof of the whole thesis instead of one clause in the rabbit hole. Facts verified by search (Creative Arts Emmy, Outstanding Guest Actor; Frank = Murray Bartlett).
+- **Trimmed the overused merging motif** in the workbench section so the closing "separate, wanting, oversized self" image lands fresh rather than for the sixth time.
+- **Killed the duplicates:** the "jackass / most beautiful woman alive" quote now lives only in the pull-quote; the third "I negotiate with hugging" is gone (epigraph + contrast panel remain); the 30-minute cry is a callback in the obscurity section, not a re-narration.
+- **Cashed out the "author" tag** with a short beat on his ornate, mock-grandiose prose voice, placed right after the broom quote.
+- Updated the heading-mix ledger (8 H2s now) and trimmed the rabbit-hole homophobia line so it references the new body beat instead of repeating it.
+
+## Notes
+- I did **not** bump `lastmod` — your standing instruction is that you manage it manually, which overrides the command's default.
+- Still open (pre-existing, not mine to resolve): the Testimony Ledger flags the Mullally and Mike Schur Chicago Magazine 2013 quotes for verbatim re-confirmation against the raw source before publish.
+
+Sources for the verification: [IMDb — Offerman wins Emmy](https://www.imdb.com/news/ni64389154/), [ScreenRant — Emmy speech](https://screenrant.com/last-of-us-show-nick-offerman-speech-bill-frank/), [AOL — first Emmy](https://www.aol.com/nick-offerman-just-won-first-232735178.html).

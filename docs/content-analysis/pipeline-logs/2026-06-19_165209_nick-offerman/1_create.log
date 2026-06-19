@@ -1,0 +1,32 @@
+All gates clear. The draft is complete and saved. Here is the required completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Nick-Offerman.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1 Testimony: pass | Gate 2 Heading Mix: pass | Gate 4 Anti-imitation: pass | Gate 5 Distribution: pass | Gate 6 Formula Fingerprint: pass]
+LIMITATIONS: Two third-party quotes (Mullally, Schur, both Chicago Magazine 2013) reached research via fetch summaries, not raw article text — flagged in the Testimony Ledger for verbatim re-confirmation in production. No transcripts fetched (web research yielded sufficient direct-voice material; logged as research_limitation: none-blocking).
+```
+
+## Summary
+
+**Nick Offerman → Enneagram Type 9 (Peacemaker), 9w1, Social/one-to-one.**
+
+- **Core tension:** TV's most emotionally sealed icon (Ron Swanson) is, in life, a hugger and a weeper who disappears into things quieter than himself — a character, a marriage, a workbench.
+- **Hook:** the 30-minute sob when he got the Ron Swanson call ("years and years of repressed feeling from never getting the big shot").
+- **Empathy turn:** the "folksy craftsman is just a brand" skeptic, reframed by the timeline — Offerman Woodshop was founded in 2001, eight years before fame, in poverty. The sanctuary came first; the brand followed.
+- **Citation-grade stat:** Type 9s are 21 of 134 film/TV figures in the 9takes corpus (~16% vs ~10% catalog-wide).
+- **Furniture:** drop cap, TL;DR accordion, inner-thought (interior beat), contrast-panel (Ron vs Nick), pull-quote, and the required Enneagram Rabbit Hole (wing, subtype, arrows, counterarguments).
+
+**Internal links added (6 total):**
+- Type 9 → `/enneagram-corner/enneagram-type-9`
+- Aubrey Plaza → `/personality-analysis/aubrey-plaza` (testimony source)
+- Amy Poehler → `/personality-analysis/amy-poehler` (Parks co-creator)
+- Steve Carell → `/personality-analysis/steve-carell` (he name-drops Carell)
+- Wings guide → `/enneagram-corner/enneagram-wings-complete-guide` (rabbit hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (rabbit hole)
+
+**blog-lint:** 0 fail, 1 warn (`no faqs in frontmatter` — expected; frontmatter enrichment is a separate downstream stage).
+
+Next step (requires human review, per non-interactive policy): once approved, set `production_pretext.status: ready` and run `blog_content_production_people`. Grading is owned separately by `/grade_blog`.

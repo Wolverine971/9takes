@@ -1,0 +1,31 @@
+No publish happened — the gate blocked every candidate. Nothing was written (the script errored before the write step), so the working tree is unchanged.
+
+```text
+Publish blocked. No eligible draft found.
+
+Auto-select checked 429 processable drafts; 0 publishable.
+
+Blocker breakdown (local content/image/grade gates):
+- stale_grade_rubric_v1 (needs /grade_blog re-grade): 355
+- missing_full_image: 63
+- missing_thumbnail_image: 63
+- missing_content_quality: 40
+- content_quality_below_8.5: 23
+- missing_frontmatter: 7
+- too_few_sections: 5
+- too_short: 4
+- unfinished_marker: 2
+
+Only 1 draft is content-eligible: selena-gomez — but it is already published in Supabase (published=t), so auto-select correctly skips it.
+
+Parse error (separate from gating):
+- src/blog/people/drafts/Jason-Sudeikis.md — invalid YAML at line 59 ("anchor:" multiline key). The script skips this file entirely; needs a frontmatter fix before it can ever be evaluated.
+
+Generated files: unchanged (no publish ran).
+```
+
+The dominant blocker is the v1→v2 grade gate: **355 drafts** are graded on the inflated v1 rubric and need `/grade_blog` to be re-graded before they can publish. That's the bottleneck to clear if you want a draft to become publishable.
+
+Want me to:
+- Re-grade a specific person (or the freshest unpublished draft) via `/grade_blog` so it can pass the gate, or
+- Fix the `Jason-Sudeikis.md` YAML frontmatter error?

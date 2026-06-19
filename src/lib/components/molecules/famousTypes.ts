@@ -505,6 +505,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'britney-spears', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Pop’s Sleepwalking Giant', contentGrade: 9.2, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'clint-eastwood', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Cinema\'s Whispering Cowboy', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'jane-goodall', link: false, hasImage: false, lastmod: '2026-05-17', personaTitle: 'The Quiet Witness Who Wouldn\'t Stay Quiet', contentGrade: 9.1, types: ['activist', 'historical', 'author'] },
+		{ name: 'jason-sudeikis', link: false, hasImage: false, lastmod: '2026-06-17', personaTitle: 'Comedy\'s Reluctant Peacekeeper', contentGrade: 8.8, types: ['comedian', 'movieStar'] },
 		{ name: 'jennifer-aniston', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'America\'s Beloved Vanishing Act', contentGrade: 8.8, types: ['movieStar', 'screen-icon'] },
 		{ name: 'khaby-lame', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'kurt-russell', link: false, hasImage: false, lastmod: '2026-06-17', personaTitle: 'Hollywood\'s Unbothered Holdout', contentGrade: 8.8, types: ['movieStar'] },

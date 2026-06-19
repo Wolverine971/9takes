@@ -1,14 +1,18 @@
 // src/routes/admin/users/+page.server.ts
 import type { PageServerLoad } from './$types';
+import { createHash } from 'node:crypto';
 import { error, fail, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../../utils/api';
 import { tagQuestion } from '../../../utils/server/openai';
 import { mapDemoValues } from '../../../utils/demo';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { adminUserUpdateSchema, adminUpdateAdminStatusSchema } from '$lib/validation/schemas';
 import { z } from 'zod';
 import { logger } from '$lib/utils/logger';
 
 const USER_DETAIL_LIMIT = 10;
+const SIGNUP_AUTH_EVENT_WINDOW_MS = 10 * 60 * 1000;
+const SIGNUP_AUTH_EVENT_LOOKBACK_DAYS = 30;
 
 const adminUserDetailsSchema = z.object({
 	userId: z.string().min(1)
@@ -44,6 +48,39 @@ type UserActivityComment = {
 	} | null;
 };
 
+type SignupRow = {
+	id: number;
+	email: string | null;
+	name: string | null;
+	created_at: string | null;
+	unsubscribed_date: string | null;
+	first_visit_at: string | null;
+	first_landing_path: string | null;
+	first_acquisition_source: string | null;
+	first_referrer_host: string | null;
+	first_entry_surface: string | null;
+	first_touch_fingerprint: string | null;
+};
+
+type SignupSecuritySignal =
+	| 'quarantined'
+	| 'high_risk'
+	| 'review'
+	| 'looks_real'
+	| 'normal';
+
+type SignupWithSignals = SignupRow & {
+	isSuppressed: boolean;
+	suppressionReason: string | null;
+	suppressedAt: string | null;
+	authEventCount: number;
+	loginFailedCount: number;
+	registerHoneypotCount: number;
+	forgotBlockedCount: number;
+	signupSignal: SignupSecuritySignal;
+	signupSignalReason: string;
+};
+
 async function validateAdminAccess(
 	supabase: App.Locals['supabase'],
 	session: App.Locals['session'],
@@ -69,6 +106,179 @@ async function validateAdminAccess(
 	}
 
 	return user;
+}
+
+function normalizeEmailText(email?: string | null): string {
+	return email?.trim().toLowerCase() ?? '';
+}
+
+function hashEmail(email: string): string {
+	return createHash('sha256').update(email).digest('hex');
+}
+
+function getSignupSignal(signup: {
+	isSuppressed: boolean;
+	suppressionReason: string | null;
+	authEventCount: number;
+	loginFailedCount: number;
+	registerHoneypotCount: number;
+	forgotBlockedCount: number;
+	first_acquisition_source: string | null;
+	first_landing_path: string | null;
+}): { signal: SignupSecuritySignal; reason: string } {
+	if (signup.isSuppressed) {
+		return {
+			signal: 'quarantined',
+			reason: signup.suppressionReason || 'Suppressed from email sends'
+		};
+	}
+
+	if (
+		signup.registerHoneypotCount > 0 ||
+		(signup.loginFailedCount > 0 && signup.forgotBlockedCount > 0)
+	) {
+		return {
+			signal: 'high_risk',
+			reason: 'Strong nearby auth-abuse evidence'
+		};
+	}
+
+	if (signup.loginFailedCount >= 2 || signup.authEventCount > 0) {
+		return {
+			signal: 'review',
+			reason: 'Nearby auth failures'
+		};
+	}
+
+	if (signup.first_acquisition_source?.startsWith('search/') && signup.first_landing_path) {
+		return {
+			signal: 'looks_real',
+			reason: 'Search/content signup with no nearby auth abuse'
+		};
+	}
+
+	return {
+		signal: 'normal',
+		reason: signup.first_landing_path ? 'Content signup with no nearby auth abuse' : 'No signal'
+	};
+}
+
+async function attachSignupSignals(signups: SignupRow[]): Promise<SignupWithSignals[]> {
+	if (signups.length === 0) return [];
+
+	const normalizedEmails = [
+		...new Set(signups.map((signup) => normalizeEmailText(signup.email)).filter(Boolean))
+	];
+	const hashByEmail = new Map(normalizedEmails.map((email) => [email, hashEmail(email)]));
+	const hashSet = [...new Set([...hashByEmail.values()])];
+	const lookbackStart = new Date(
+		Date.now() - SIGNUP_AUTH_EVENT_LOOKBACK_DAYS * 24 * 60 * 60 * 1000
+	).toISOString();
+	const adminSupabase = getSupabaseAdminClient() as any;
+
+	const [unsubscribesResult, authEventsResult] = await Promise.all([
+		normalizedEmails.length
+			? adminSupabase
+					.from('email_unsubscribes')
+					.select('email, reason, source, source_id, unsubscribed_at')
+					.in('email', normalizedEmails)
+			: Promise.resolve({ data: [], error: null }),
+		hashSet.length
+			? adminSupabase
+					.from('auth_security_events')
+					.select('identifier_hash, flow, outcome, created_at')
+					.in('identifier_hash', hashSet)
+					.gte('created_at', lookbackStart)
+			: Promise.resolve({ data: [], error: null })
+	]);
+
+	if (unsubscribesResult.error) {
+		logger.warn('Failed to load signup unsubscribe signals', {
+			error: unsubscribesResult.error
+		});
+	}
+
+	if (authEventsResult.error) {
+		logger.warn('Failed to load signup auth-abuse signals', {
+			error: authEventsResult.error
+		});
+	}
+
+	const unsubscribeByEmail = new Map<
+		string,
+		{ reason: string | null; unsubscribed_at: string | null }
+	>();
+	for (const row of unsubscribesResult.data ?? []) {
+		const email = normalizeEmailText(row.email);
+		if (!email) continue;
+		unsubscribeByEmail.set(email, {
+			reason: row.reason ?? null,
+			unsubscribed_at: row.unsubscribed_at ?? null
+		});
+	}
+
+	const authEventsByHash = new Map<
+		string,
+		{ flow: string | null; outcome: string | null; created_at: string | null }[]
+	>();
+	for (const event of authEventsResult.data ?? []) {
+		if (!event.identifier_hash) continue;
+		const existing = authEventsByHash.get(event.identifier_hash) ?? [];
+		existing.push(event);
+		authEventsByHash.set(event.identifier_hash, existing);
+	}
+
+	return signups.map((signup) => {
+		const normalizedEmail = normalizeEmailText(signup.email);
+		const emailHash = hashByEmail.get(normalizedEmail);
+		const signupTime = signup.created_at ? new Date(signup.created_at).getTime() : 0;
+		const nearbyEvents =
+			emailHash && signupTime
+				? (authEventsByHash.get(emailHash) ?? []).filter((event) => {
+						const eventTime = event.created_at ? new Date(event.created_at).getTime() : 0;
+						return (
+							eventTime > 0 &&
+							Math.abs(eventTime - signupTime) <= SIGNUP_AUTH_EVENT_WINDOW_MS
+						);
+					})
+				: [];
+		const suppression = unsubscribeByEmail.get(normalizedEmail);
+		const isSuppressed = Boolean(signup.unsubscribed_date || suppression);
+		const loginFailedCount = nearbyEvents.filter(
+			(event) => event.flow === 'login' && event.outcome === 'failed'
+		).length;
+		const registerHoneypotCount = nearbyEvents.filter(
+			(event) => event.flow === 'register' && event.outcome === 'honeypot'
+		).length;
+		const forgotBlockedCount = nearbyEvents.filter(
+			(event) =>
+				event.flow === 'forgot_password' &&
+				['captcha_failed', 'honeypot', 'rate_limited'].includes(event.outcome ?? '')
+		).length;
+		const signal = getSignupSignal({
+			isSuppressed,
+			suppressionReason: suppression?.reason ?? null,
+			authEventCount: nearbyEvents.length,
+			loginFailedCount,
+			registerHoneypotCount,
+			forgotBlockedCount,
+			first_acquisition_source: signup.first_acquisition_source,
+			first_landing_path: signup.first_landing_path
+		});
+
+		return {
+			...signup,
+			isSuppressed,
+			suppressionReason: suppression?.reason ?? null,
+			suppressedAt: suppression?.unsubscribed_at ?? signup.unsubscribed_date,
+			authEventCount: nearbyEvents.length,
+			loginFailedCount,
+			registerHoneypotCount,
+			forgotBlockedCount,
+			signupSignal: signal.signal,
+			signupSignalReason: signal.reason
+		};
+	});
 }
 
 /** @type {import('./$types').PageLoad} */
@@ -97,17 +307,21 @@ export const load: PageServerLoad = async (event) => {
 	}
 	const { data: signups, error: signupsError } = await supabase
 		.from('signups')
-		.select('id, email, name, created_at')
+		.select(
+			'id, email, name, created_at, unsubscribed_date, first_visit_at, first_landing_path, first_acquisition_source, first_referrer_host, first_entry_surface, first_touch_fingerprint'
+		)
 		.order('created_at', { ascending: false });
 
 	if (signupsError) {
 		console.log(signupsError);
 	}
+	const signupsWithSignals = await attachSignupSignals((signups ?? []) as SignupRow[]);
+
 	if (!findUserError) {
 		return {
 			user: mapDemoValues(user),
 			profiles: mapDemoValues(profiles),
-			signups,
+			signups: signupsWithSignals,
 			demoTime: demo_time
 		};
 	} else {

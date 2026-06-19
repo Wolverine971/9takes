@@ -2604,6 +2604,39 @@ export type Database = {
         }
         Relationships: []
       }
+      newsletter_signup_security_events: {
+        Row: {
+          context: Json
+          created_at: string
+          fingerprint: string | null
+          id: string
+          identifier_hash: string | null
+          ip_hash: string
+          outcome: string
+          user_agent_hash: string | null
+        }
+        Insert: {
+          context?: Json
+          created_at?: string
+          fingerprint?: string | null
+          id?: string
+          identifier_hash?: string | null
+          ip_hash: string
+          outcome: string
+          user_agent_hash?: string | null
+        }
+        Update: {
+          context?: Json
+          created_at?: string
+          fingerprint?: string | null
+          id?: string
+          identifier_hash?: string | null
+          ip_hash?: string
+          outcome?: string
+          user_agent_hash?: string | null
+        }
+        Relationships: []
+      }
       nine_takes: {
         Row: {
           created_at: string

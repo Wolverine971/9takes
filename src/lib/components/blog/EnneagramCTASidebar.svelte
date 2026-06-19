@@ -24,6 +24,8 @@
 	let error = '';
 	let loading = false;
 	let submitted = false;
+	let formExtra = '';
+	let formLoadTime = Date.now();
 	let windowWidth: number;
 	let contentWidth: number = 64 * 16;
 	let mainElement: HTMLElement | null = null;
@@ -46,6 +48,8 @@
 
 		const body = new FormData();
 		body.append('email', normalizedEmail);
+		body.append('form_extra', formExtra);
+		body.append('_timeToken', String(Date.now() - formLoadTime));
 
 		try {
 			const response = await fetch('/api/signups', { method: 'POST', body });
@@ -148,6 +152,8 @@
 			: { x: sidePosition === 'left' ? -100 : 100, duration: 300 };
 
 	onMount(() => {
+		formLoadTime = Date.now();
+
 		if (variant === 'embedded') {
 			return;
 		}
@@ -192,6 +198,17 @@
 				aria-busy={loading}
 				novalidate
 			>
+				<div class="signup-honeypot" aria-hidden="true">
+					<label for="enneagram-sidebar-signup-extra">Leave blank</label>
+					<input
+						id="enneagram-sidebar-signup-extra"
+						name="form_extra"
+						type="text"
+						bind:value={formExtra}
+						tabindex="-1"
+						autocomplete="new-password"
+					/>
+				</div>
 				<div>
 					<input
 						type="email"
@@ -291,6 +308,14 @@
 	.sidebar-form {
 		display: grid;
 		gap: 0.6rem;
+	}
+
+	.signup-honeypot {
+		position: absolute;
+		left: -10000px;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
 	}
 
 	.sidebar-input {

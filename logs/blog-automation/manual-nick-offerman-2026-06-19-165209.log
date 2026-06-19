@@ -1,0 +1,218 @@
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  nick-offerman
+Draft:   src/blog/people/drafts/nick-offerman.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman
+Started: Fri Jun 19 16:52:09 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 16:52:09)
+Command: /blog_content_creator_people_v2 nick-offerman --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/1_create.log
+─────────────────────────────────────────────────────
+All gates clear. The draft is complete and saved. Here is the required completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Nick-Offerman.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1 Testimony: pass | Gate 2 Heading Mix: pass | Gate 4 Anti-imitation: pass | Gate 5 Distribution: pass | Gate 6 Formula Fingerprint: pass]
+LIMITATIONS: Two third-party quotes (Mullally, Schur, both Chicago Magazine 2013) reached research via fetch summaries, not raw article text — flagged in the Testimony Ledger for verbatim re-confirmation in production. No transcripts fetched (web research yielded sufficient direct-voice material; logged as research_limitation: none-blocking).
+```
+
+## Summary
+
+**Nick Offerman → Enneagram Type 9 (Peacemaker), 9w1, Social/one-to-one.**
+
+- **Core tension:** TV's most emotionally sealed icon (Ron Swanson) is, in life, a hugger and a weeper who disappears into things quieter than himself — a character, a marriage, a workbench.
+- **Hook:** the 30-minute sob when he got the Ron Swanson call ("years and years of repressed feeling from never getting the big shot").
+- **Empathy turn:** the "folksy craftsman is just a brand" skeptic, reframed by the timeline — Offerman Woodshop was founded in 2001, eight years before fame, in poverty. The sanctuary came first; the brand followed.
+- **Citation-grade stat:** Type 9s are 21 of 134 film/TV figures in the 9takes corpus (~16% vs ~10% catalog-wide).
+- **Furniture:** drop cap, TL;DR accordion, inner-thought (interior beat), contrast-panel (Ron vs Nick), pull-quote, and the required Enneagram Rabbit Hole (wing, subtype, arrows, counterarguments).
+
+**Internal links added (6 total):**
+- Type 9 → `/enneagram-corner/enneagram-type-9`
+- Aubrey Plaza → `/personality-analysis/aubrey-plaza` (testimony source)
+- Amy Poehler → `/personality-analysis/amy-poehler` (Parks co-creator)
+- Steve Carell → `/personality-analysis/steve-carell` (he name-drops Carell)
+- Wings guide → `/enneagram-corner/enneagram-wings-complete-guide` (rabbit hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (rabbit hole)
+
+**blog-lint:** 0 fail, 1 warn (`no faqs in frontmatter` — expected; frontmatter enrichment is a separate downstream stage).
+
+Next step (requires human review, per non-interactive policy): once approved, set `production_pretext.status: ready` and run `blog_content_production_people`. Grading is owned separately by `/grade_blog`.
+[Stage 1] create finished 17:03:22 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 17:03:22)
+Command: /blog_content_fresh_eyes_people nick-offerman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Done. Fresh-eyes notes added to the bottom of `src/blog/people/drafts/Nick-Offerman.md`.
+
+**What I reviewed:** the full Nick Offerman Type 9 draft, with a quick reality check against his recent public work.
+
+**The two biggest issues I flagged:**
+
+1. **The Last of Us is buried.** Offerman's Emmy-winning turn as Bill in "Long, Long Time" (2023) — a gruff survivalist loner who falls into a tender 20-year love story — is the strongest possible proof of this draft's entire thesis (the softie behind the mustache, the inversion of Ron Swanson). It currently appears only as one clause in the rabbit-hole counterargument. It should anchor a real body beat, ideally right after the "Why Nick Offerman isn't Ron Swanson" section.
+
+2. **The "merging / dissolve / separate wanting self" motif is overused** — it fires in five-plus sections, so the reader starts noticing the framework instead of the man before the (otherwise strong) ending lands.
+
+I also noted a duplicate quote (the "jackass like me" line appears in prose *and* as the pull-quote right below it), the "I negotiate with hugging" line running three times, and an underused "author" dimension despite the frontmatter tag. No body edits made, per the command.
+
+Sources: [Variety](https://variety.com/2023/tv/news/the-last-of-us-episode-3-bill-frank-nick-offerman-murray-bartlett-1235505272/), [Long, Long Time (Wikipedia)](https://en.wikipedia.org/wiki/Long,_Long_Time_(The_Last_of_Us)), [ScreenRant](https://screenrant.com/last-of-us-show-nick-offerman-speech-bill-frank/)
+[Stage 2] fresh_eyes finished 17:04:40 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 17:04:40)
+Command: /blog_content_second_pass_people nick-offerman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/3_second_pass.log
+─────────────────────────────────────────────────────
+Done. Lint passes clean (0 fail; the lone warning is the downstream frontmatter-enrich stage, not this pass).
+
+## What I updated
+`src/blog/people/drafts/Nick-Offerman.md`
+
+## Main changes
+The fresh-eyes review was sharp, and I acted on its highest-value calls:
+
+- **Brought The Last of Us out of the footnote.** Added a new body section after the Ron beat — Bill in "Long, Long Time" (2023), the part he almost declined, his first-ever Emmy, "Without Frank, Bill ain't shit," and his on-record stand against the episode's homophobic backlash. Framed as "the contrast panel made flesh," it's now the dramatized proof of the whole thesis instead of one clause in the rabbit hole. Facts verified by search (Creative Arts Emmy, Outstanding Guest Actor; Frank = Murray Bartlett).
+- **Trimmed the overused merging motif** in the workbench section so the closing "separate, wanting, oversized self" image lands fresh rather than for the sixth time.
+- **Killed the duplicates:** the "jackass / most beautiful woman alive" quote now lives only in the pull-quote; the third "I negotiate with hugging" is gone (epigraph + contrast panel remain); the 30-minute cry is a callback in the obscurity section, not a re-narration.
+- **Cashed out the "author" tag** with a short beat on his ornate, mock-grandiose prose voice, placed right after the broom quote.
+- Updated the heading-mix ledger (8 H2s now) and trimmed the rabbit-hole homophobia line so it references the new body beat instead of repeating it.
+
+## Notes
+- I did **not** bump `lastmod` — your standing instruction is that you manage it manually, which overrides the command's default.
+- Still open (pre-existing, not mine to resolve): the Testimony Ledger flags the Mullally and Mike Schur Chicago Magazine 2013 quotes for verbatim re-confirmation against the raw source before publish.
+
+Sources for the verification: [IMDb — Offerman wins Emmy](https://www.imdb.com/news/ni64389154/), [ScreenRant — Emmy speech](https://screenrant.com/last-of-us-show-nick-offerman-speech-bill-frank/), [AOL — first Emmy](https://www.aol.com/nick-offerman-just-won-first-232735178.html).
+[Stage 3] second_pass finished 17:08:57 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 17:08:57)
+Command: /cohesion-check src/blog/people/drafts/nick-offerman.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/4_cohesion.log
+─────────────────────────────────────────────────────
+Lint passes clean (0 fail, em-dash and banned-phrase checks pass). The one warning is a pre-existing frontmatter-enrich item, unrelated to cohesion.
+
+## Cohesion Check Complete: Nick-Offerman.md
+
+**Before score: 7.5/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Nick Offerman is an Enneagram Type 9 whose engine is dissolving himself into something bigger and calmer than his ego (a character, a marriage, a workbench), which explains the gap between gruff icon Ron Swanson and the tender man behind the mustache.
+
+### Changes Made (4 total)
+
+**Transition Fixes (4):**
+- **Diagnosis → Childhood**: Added "An instinct that runs this deep usually traces back to childhood. Offerman's does." Connects the just-named Nine pattern to the biography drop and primes the section's own "the lesson lands early for a Nine" payoff.
+- **Childhood → Ron**: Added "What finally ended the lean years was a role built to be everything he is not. His relationship to it is the next tell." Carries the "lean years" keyword forward and frames Ron as the inversion before the section makes that case.
+- **Last of Us → Mullally**: Added "Offerman did not have to imagine a love that reorganizes a life. He has lived inside one for over twenty years." Carries Bill-and-Frank's love-story thread directly into Offerman's real marriage (and pre-echoes the section's own "a love that reorganizes a whole life" line).
+- **Mullally → Workbench**: Added "The marriage was not the first place Offerman went looking for that kind of calm." Bridges marriage-sanctuary to workbench-sanctuary on the "calm" keyword without re-firing the overused "separate/wanting self" motif.
+
+### What Was Preserved
+- All frontmatter, ledgers, Svelte/HTML components (contrast panel, accordions, pull-quote, inner-thought), and the rabbit-hole block
+- All 6 internal links, untouched
+- The strong seams (intro → diagnosis, Ron → Last of Us, obscurity → correcting-the-world) left alone
+- No voice, word-choice, or argument changes; only connective sentences added
+
+### Remaining Concerns (writer's judgment, not cohesion-fixable by bridging)
+- The **obscurity section** and **correcting-the-world section** both re-circle the cry + the brand/merging theme. The second-pass notes already flag this and say it was compressed; it now reads as a deliberate callback rather than a repeat, so I left it. If you want it tighter, the move is to fold the obscurity payoff into the closing section, but that's a developmental cut, not a transition fix, and outside this pass's scope.
+[Stage 4] cohesion finished 17:11:19 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 17:11:19)
+Command: /blog_content_editor_pass_people nick-offerman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/5_editor_pass.log
+─────────────────────────────────────────────────────
+Polished `src/blog/people/drafts/Nick-Offerman.md`.
+
+This draft had already cleared fresh-eyes and second-pass review, so it was structurally clean coming in — no em-dashes in prose, no banned phrases, good rhythm. The polish pass was light and surgical. The three things I fixed:
+
+1. **Restated idea in the Mullally section** — the paragraph hit the "can't believe she married him" astonishment twice, both with near-identical "More than two decades later / More than twenty years in" timestamps. Collapsed to one clean version, kept the falsifiable Mel Brooks/John Cleese detail.
+2. **Mechanical signpost** — "His relationship to it is the next tell" in the Ron section was framework-narration, not story. Replaced with a line that points forward without naming the machinery.
+3. **Generalize-then-localize opener** — "An instinct that runs this deep usually traces back to childhood. Offerman's does." is a soft AI transition shape. Rewrote to lead concrete on Minooka.
+
+I left the strong stuff alone: the inner-thought sob beat, the empathy turn (woodshop founded 2001 in poverty, brand downstream of the living), the contrast panel, the 9w1-vs-core-1 anger distinction, and the closing image. `lastmod` untouched per the hard rule (skill overrides the command's "update lastmod" line).
+
+**Verification:** `./scripts/blog-lint.sh Nick-Offerman` → 0 fail, 1 warn. The lone warn is no `faqs` in frontmatter, which is the separate enrich stage's job, not this pass.
+
+**Status:** Production-ready prose-wise. Two things still gate publish, both pre-existing and out of scope for an editorial pass: the frontmatter-enrich stage (FAQs) hasn't run, and the Testimony Ledger flags the two Chicago Magazine 2013 quotes (Mullally, Schur) for verbatim re-confirmation before publish.
+[Stage 5] editor_pass finished 17:13:22 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 17:13:22)
+Command: /blog_content_frontmatter_enrich_people nick-offerman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Frontmatter enrichment complete: **Nick-Offerman**
+
+**Fields filled:**
+- `wikidata_qid` (Q1985488), `imdb_id` (nm0644406 — cross-checked via Wikidata P345), `birth_date` (1970-06-26), `birth_place` (Joliet, Illinois, United States), `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved untouched):**
+- `wikipedia` (already correct), `twitter`, `instagram` — plus all creator/system fields (`title`, `meta_title`, `persona_title`, `description`, `enneagram`, `type`, `person`, `suggestions`, `lastmod`, `production_pretext`, `path`)
+
+**FAQs generated (5):**
+1. What is Nick Offerman's personality type? → `#what-is-nick-offermans-personality-type`
+2. Is Nick Offerman like Ron Swanson? → `#why-nick-offerman-isnt-ron-swanson`
+3. Why did Nick Offerman cry for thirty minutes over the Ron Swanson role? → `#what-sixteen-years-of-obscurity-did-to-nick-offerman`
+4. What is Nick Offerman's Enneagram wing? → `#nick-offermans-wing-9w1`
+5. Why is Nick Offerman's role in The Last of Us so significant? → `#what-the-last-of-us-let-nick-offerman-finally-show`
+
+**Issues:**
+- **Citations are entity-Wikipedia pages, not body URLs.** The body cites its sources by name only (New York Times 2013, Variety 2026, Chicago Magazine 2013, the memoirs, the Good Hang podcast) and contains **zero external links** — every inline link is internal (`/personality-analysis/...`, `/enneagram-corner/...`). Following the Einstein gold-standard pattern, I built `citations` from authoritative Wikipedia pages for the entities the body actually discusses (Offerman, Ron Swanson, the "Long, Long Time" episode, Megan Mullally, Parks and Recreation) rather than inventing source URLs. If you want the named press sources as citations, those URLs would need to be located and added manually.
+- Pre-existing (not mine to fix): the Testimony Ledger flags the Mullally (#2) and Schur (#3) Chicago Magazine 2013 quotes for verbatim re-confirmation against the raw source before publish.
+
+Body, HTML comment blocks, `content_quality`, and `lastmod` were left exactly as found.
+
+Sources: [Wikidata Q1985488](https://www.wikidata.org/wiki/Q1985488), [IMDb nm0644406](https://www.imdb.com/name/nm0644406/), [Wikipedia: Nick Offerman](https://en.wikipedia.org/wiki/Nick_Offerman), [Wikipedia: Long, Long Time (The Last of Us)](https://en.wikipedia.org/wiki/Long,_Long_Time_(The_Last_of_Us))
+[Stage 6] enrich_frontmatter finished 17:15:43 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 149 chars
+ok    meta_title length 55 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 6
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: nick-offerman — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+[pre-grade] No existing content_quality block on draft, nothing to clear
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 17:15:43)
+Command: /grade_blog nick-offerman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman/7_grade.log
+─────────────────────────────────────────────────────
