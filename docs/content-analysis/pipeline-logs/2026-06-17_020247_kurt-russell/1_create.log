@@ -1,0 +1,25 @@
+Draft complete. Kurt Russell typed as **Enneagram 9w8** ("Hollywood's Unbothered Holdout"), built around the thesis that his unbothered cool is self-forgetting raised to a worldview: a star who refuses to be claimed by his own fame.
+
+**Spine of the piece:** the wine bottle with no name on it → batting-cage childhood and the flatly-absorbed career-ending injury → Disney/Carpenter rise → the critic-pressure section ("Did Kurt Russell Waste His Talent?") resolved by the empathy turn → the never-married Goldie devotion reframe → buried-feeling section hosting the Rabbit Hole → current-tense Monarch S2 (Kurt + Wyatt as the same man) → a callback ending on the unlabeled bottle.
+
+Research was evidence-first (verified quotes flagged; unverified "facts" like the Tarantino quote, hand-loaded ammo, and the "last words" legend deliberately excluded; Bing's minor-league career and the misspelled "Kirt" memo corrected).
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Kurt-Russell.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (4 testimony quotes) | Gate 2: pass (6 search/hybrid H2s) | Gate 4: pass | Gate 5: pass (3 type-theory paras) | Gate 6: pass]
+LIMITATIONS: none blocking. blog-lint: 0 fail, 1 warn (faqs frontmatter absent — owned by downstream frontmatter-enrich stage, out of scope here)
+```
+
+**Internal links added (5):**
+- Harrison Ford → `/personality-analysis/harrison-ford` (fellow Type 9 screen icon, craft-as-job parallel)
+- Kate Hudson → `/personality-analysis/kate-hudson` (stepdaughter)
+- Type 9 → `/enneagram-corner/enneagram-type-9`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (Rabbit Hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (Rabbit Hole)
+
+Human review is still required before production. Next step after approval: set `production_pretext.status: ready` and run `blog_content_production_people`. (Grading is owned separately by `/grade_blog`.)
+
+One research gap worth a human glance before publish: the opening "I don't work" GQ quote is widely relayed but only **medium**-confidence on exact wording — verify against the original GQ piece if you want it airtight.

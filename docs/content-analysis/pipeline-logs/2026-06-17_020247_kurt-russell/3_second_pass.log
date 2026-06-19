@@ -1,0 +1,15 @@
+Done. Updated `src/blog/people/drafts/Kurt-Russell.md`.
+
+## What I changed
+
+**Added the Tombstone beat (the review's biggest catch).** The reviewer was right that its absence read like the draft was dodging its best counter-example. I folded it into the Snake Plissken section as the *exception that proves the rule*: I first established the director-merge as a pattern (Carpenter, then Tarantino in one line), then hit Tombstone — where Russell, by his own True West account, ran the shoot and fed credited director George Cosmatos a nightly shot list, then refused the credit: *"I don't want to put my name on it. I don't want to be the guy."* That quote is the exact "keep my name off it" move, so it sharpens the thesis instead of breaking it. I flagged the castmate dispute (Kilmer, Biehn) honestly rather than overclaiming, and tied it back to the wine label "run in reverse."
+
+**Added the family gap.** The portrait was built on "raised kids who weren't his by blood" but never mentioned his own. Added the brief first marriage to Season Hubley and biological son Boston — and turned Boston's well-documented privacy into an on-thesis beat (the one kid who "inherited the family instinct for keeping his name off the label").
+
+**Trimmed the repetition.** Cut the reused "cage door" metaphor from the ending (it now lives only in the Goldie section, where it's Hawn's own); removed the third/fourth wine restatement in the close; dropped the "never worked" echo from the waste-talent opener; and recast two "not X / a Y" fragments to soften the contrast-engine template.
+
+**Rejected:** the Christmas Chronicles / Santa Claus suggestion — on-the-nose but the draft is already full, and it would dilute the tighter Tombstone-vs-Carpenter spine. Noted as available for an editor.
+
+Lint passes (0 fail; only the expected pre-enrich `faqs` warning). Both new factual claims were web-verified. I left `lastmod` untouched per your standing rule that you manage it manually.
+
+Still open: the FORMULA FINGERPRINT ledger's contrast-pair count is now cosmetically low after the addition — left for the creator pass.

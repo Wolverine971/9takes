@@ -40,7 +40,7 @@ The strongest criticisms are that the Enneagram lacks enough scientific validati
 
 You've heard it. Maybe you've said it. Fair enough — let's actually address the criticisms instead of pretending they don't exist.
 
-Some of these objections are valid. Some miss the point entirely. Here's the honest breakdown.
+Some of these objections are valid. Some miss the point entirely. Here's the honest breakdown. On the astrology charge specifically, [here's how the Enneagram and astrology actually compare](https://9takes.com/enneagram-corner/astrology-and-the-enneagram).
 
 ## Common Criticisms of Personality Theory & The Enneagram
 

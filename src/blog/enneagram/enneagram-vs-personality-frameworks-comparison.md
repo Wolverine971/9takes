@@ -34,7 +34,7 @@ The Enneagram is neither pure pseudoscience nor fully established science. Resea
 
 <p class="firstLetter">"Is the Enneagram real?"</p>
 
-You've either asked this question or had someone ask it to you. The answers you get are usually one of two extremes: true believers who treat it like gospel, or skeptics who dismiss it as astrology with better branding.
+You've either asked this question or had someone ask it to you. The answers you get are usually one of two extremes: true believers who treat it like gospel, or skeptics who dismiss it as [astrology with better branding](https://9takes.com/enneagram-corner/astrology-and-the-enneagram).
 
 Both are wrong. And both are working from incomplete information.
 

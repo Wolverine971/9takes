@@ -1,0 +1,14 @@
+Done. Polished `src/blog/people/drafts/Jason-Sudeikis.md`.
+
+**What I cleaned up.** This draft was already structurally strong (it had been through fresh-eyes and second-pass), so this was a true language polish, not a rework. The real problem was a recurring AI sentence-engine that earlier passes left in:
+
+- **Stacked negative parallelism** — line 126 packed three contrast engines into one paragraph ("That is not naivety. That is a choice…" immediately followed by "A Nine does not believe the darkness is absent. A Nine decides not to live there."). Collapsed into one direct statement that keeps the voice.
+- **The same engine reused** in the room section ("The Nine does not bark orders. The Nine simply…") — rewrote as plain prose while preserving the "control that never has to raise its voice" payoff.
+- **Image doubling** in the SNL beat — "foundation other people stood on" and "became the floor" repeated the same picture three sentences apart; cut the first so the "became the floor" line lands clean.
+- **Duplicate section opener** — "Here is the part…" was opening two different H2s; varied the first.
+
+**What I deliberately left alone.** The strongest material is intact: the CinemaCon custody-papers open, the "both things are true / how one person produces both" frame, "pastry on his game," the empathy turn, and the goldfish close. The two contrast engines the formula ledger flagged as deliberate are still there on purpose.
+
+**Verification.** `./scripts/blog-lint.sh Jason-Sudeikis` passes — 0 fails, zero prose em-dashes, no banned phrases. `lastmod` untouched per the hard rule.
+
+**Status:** production-ready. The only open item is the lint warning that `faqs` frontmatter hasn't been generated yet (that's the separate enrich stage / `/blog_content_frontmatter_enrich_people`), which costs discoverability but isn't an editorial blocker.

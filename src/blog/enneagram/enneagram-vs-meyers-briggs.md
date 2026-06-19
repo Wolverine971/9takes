@@ -56,7 +56,7 @@ But here's what most people get wrong: **these systems aren't competitors. They'
 
 It's like asking whether a thermometer or a blood pressure monitor is "better." They track different signals. MBTI and the Enneagram do the same thing for personality.
 
-Here's what each one actually measures, when to use which, and how they work together.
+Here's what each one actually measures, when to use which, and how they work together. And if you're comparing the Enneagram to more than just MBTI, here's [how it holds up against 14 personality frameworks](https://9takes.com/enneagram-corner/enneagram-vs-personality-frameworks-comparison).
 
 If you want the more opinionated version of this argument, read [MBTI Failed Us — Can the Enneagram Do Better?](/community/mbti-vs-enneagram).
 

@@ -1,0 +1,24 @@
+No answer came back, so I'll go with the sensible default: **leave it as-is.** At 8/10 with a clean payoff, the inner-thought flashback reads fine and any change risks the repetition the second pass deliberately trimmed.
+
+## Cohesion Check Complete: Olivia-Wilde.md
+
+**Before score: 8/10**
+**After score: 8/10 (no edits applied)**
+
+### Central Thesis
+Olivia Wilde is a Type 3 who authored her own image her whole life, and her defining crisis is that she could direct everything except how the world read her.
+
+### Changes Made (0 total)
+No edits. The piece is already cohesive: the reinvention spine holds top to bottom, the journalist-dynasty metaphor is load-bearing throughout, and the close ("the one document she will never get to edit") lands the exact thesis the intro opened. All five section transitions are strong or adequate, with no broken bridges, no orphaned threads, and no sections that fail to serve the thesis.
+
+### What Was Preserved
+- All frontmatter, ledgers, and the fresh-eyes/second-pass review comments
+- Both Svelte/HTML components (`details` accordions, `inner-thought`, `key-stat`)
+- All internal links
+- All prose untouched
+
+### Remaining Concerns (writer's judgment only)
+1. **Inner-thought placement** — sits right after "She disappeared." and flashes back to the CinemaCon envelope before the Call Her Daddy paragraph returns to the aftermath. Reads as a deliberate freeze-frame; only worth touching if the backward time-jump bothers you on a read-through.
+2. **Diagnosis → family cold start** — "The Cockburns are a journalism dynasty" opens cold off "she never built one." The H2 bridges it; I'd leave it, since any connective sentence would trip the AI-language ban.
+
+Net: this is a publish-ready piece on cohesion grounds. Nothing structural is blocking it.

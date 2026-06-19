@@ -2,7 +2,7 @@
 
 # Tim Ferriss - Distribution Assets
 
-> Enneagram Type: 1 (The Reformer) | Content Grade: 8.9 (B+) | Last Updated: 2026-05-24
+> Enneagram Type: 1 (The Reformer) | Content Grade: 9.0 (A) | Last Updated: 2026-06-17
 > Blog URL: /personality-analysis/tim-ferriss
 > Outreach Tier: C — Hybrid (large social audience, but he still publishes and replies on tim.blog. Use direct blog/comment outreach, then ecosystem distribution through Stoicism, podcast-notes, Enneagram, and psychedelic-science communities.)
 
@@ -17,6 +17,11 @@
 - **TMS:** Separate the 2024 and 2026 claims. In 2024, he said two rounds of accelerated TMS left him, three months later, no longer meeting diagnostic criteria for OCD/anxiety/depression. In 2026, he described a recent one-day accelerated TMS treatment with D-cycloserine in Northern California and a rumination drop from 8/10 to 1-2/10. Do not say "Acacia Clinics" unless separately verified.
 - **Psychedelic philanthropy:** Johns Hopkins's $17M center launch and Saisei/POPLAR/MAPS involvement are supported. Avoid "PSFC moved $50M" unless reverified; use the MAPS Capstone Challenge's $30M or broader "PSFC-supported work" instead.
 - **Audience counts:** Reddit membership and social follower counts move quickly. Verify live numbers before posting; this doc intentionally avoids hard counts where they are not needed.
+- **Ice cream parlor:** Supported by the 4-Hour Workweek timeline (reposted nearly verbatim on X, Dec 2025). Verified framing: first job in 1991 (age 14), minimum-wage cleaning, found a faster method, finished ~8 hours of work in one, fired in three days, parting line "Maybe someday you'll understand the value of hard work." The "invented the four-hour workweek" line is the analysis's commentary, **not** a Ferriss quote — keep it framed as observation.
+- **Kindergarten / "Disdain for authority":** Supported by the same 4HWW timeline. 1983, nearly failed kindergarten by refusing to learn the alphabet without a reason, sent to the "bad table," made to eat a bar of soap; timeline caption reads "Disdain for authority begins." The "legitimacy test, not disdain" read is the blog's interpretation — present it as analysis, not biography.
+- **Fear-setting / OCD:** From the Jan 2026 Shawn Ryan Show (#274) disclosure — "diagnosed OCD," purely ruminative loops, no physical compulsions. "Fear-setting is functionally a framework for managing his OCD" is the analysis's reframe, **not** Ferriss's words. Do not put it in his mouth.
+- **"Emotionally cauterized":** Direct Shawn Ryan #274 quote — "You end up being emotionally cauterized." Safe to quote verbatim.
+- **Premature birth / "tuna fish":** Supported by the Dec 2025 X timeline repost (six weeks premature, ~10% odds, eye-muscle imbalance, mother's "tuna fish" nickname). Previously flagged unverified; now primary-sourced via Ferriss's own words. Safe to use.
 
 Primary source trail:
 
@@ -47,23 +52,16 @@ The postcard went to his parents.
 
 A life saved by the kind of small failure he'd spend 25 years teaching people to eliminate. 🧵
 
-**Tweet 2 — 271 chars:**
-Ferriss grew up a "rat-tailed townie" in East Hampton, working restaurant shifts at the Lobster Roll and Maidstone Arms.
+**Tweet 2 — ~255 chars:**
+Tim Ferriss's first job, age 14: cleaning an ice cream parlor.
 
-For every celebrity who tipped well, there were tourists asking, "Do you know who I am?"
+He found a faster method, did 8 hours of work in 1, then read out back.
 
-He learned the rules by serving people who weaponized them.
+Fired in three days — "maybe someday you'll understand the value of hard work."
 
-**Tweet 3 — 273 chars:**
-At 15, he spent a year in Japan and panicked when "Japanese classes" meant normal high school classes.
+He'd just invented the four-hour workweek.
 
-Six months in, he found a 1,945-character jōyō kanji poster in Shinjuku.
-
-It still hung on his wall decades later.
-
-Material beats method. Standards become architecture.
-
-**Tweet 4 — 265 chars:**
+**Tweet 3 — 265 chars:**
 The word choice that gives him away:
 
 "Creating systems that make it next to impossible to misbehave is more reliable than self-control."
@@ -71,6 +69,13 @@ The word choice that gives him away:
 Misbehave. Not fail. Not underperform. Misbehave.
 
 The vocabulary of someone who experiences deviation as moral transgression.
+
+**Tweet 4 — ~250 chars:**
+His most famous productivity tool, fear-setting, has 10M+ TED views.
+
+In 2026 he disclosed the rest: diagnosed OCD, "endless ruminative loops."
+
+Fear-setting isn't a life hack. It's the system he built to quiet a mind that won't stop prosecuting him.
 
 **Tweet 5 — 233 chars:**
 At a 10-day Spirit Rock retreat, after earlier ayahuasca memories, he fasted and used escalating psilocybin doses (300 → 600 → 900mg).
@@ -132,15 +137,17 @@ The core thesis: Tim isn't just an optimizer. He's a Type 1 — the Reformer —
 
 A few things that stood out reading 20+ years of his work back-to-back:
 
-1. **The Princeton suicide near-miss + the postcard saved by an administrative failure** is one of the most haunting opens in the corpus. The kind of small failure he'd spend his career teaching people to eliminate was the one that saved his life.
+1. **He got fired at 14 for inventing the four-hour workweek.** First job, cleaning an ice cream parlor: he found a faster method, did 8 hours of work in 1, and got fired in three days — "maybe someday you'll understand the value of hard work." That timeline he reposted on X isn't an origin myth, it's a rap sheet. Every entry self-prosecuted and punch-lined. The inner critic was the ghostwriter; the comedy was the plea deal.
 
-2. **Spirit Rock → "Seventeen behaviors. One source."** Reading the retreat sequence (fasting, escalating psilocybin doses, earlier abuse memories replaying like a VR headset) and watching Tim trace 17 separate behaviors back to a single source is the most compressed personal-development arc I've ever seen in a public figure.
+2. **The Princeton suicide near-miss + the postcard saved by an administrative failure** is one of the most haunting things he's ever disclosed. The kind of small failure he'd spend his career teaching people to eliminate was the one that saved his life.
 
-3. **The Maté exchange (#620)** where Tim says "That's what happens to me" about expressed rage intensifying instead of passing through is the missing piece for understanding why the Stoicism reads as moral instruction, not productivity.
+3. **Fear-setting is OCD management dressed as a productivity tool.** On Shawn Ryan (Jan 2026) he disclosed diagnosed OCD — purely ruminative, "endless loops." His single most famous exercise (10M+ TED views) is, functionally, the system he built to quiet a mind that won't stop prosecuting him. Once you see it you can't unsee it.
 
-4. **The $150M loss disclosure on 20VC in October 2025** finally makes the angel-investing-as-tuition framing make sense. He'd already lived the thesis: money fixes money problems and nothing else.
+4. **Spirit Rock → "Seventeen behaviors. One source."** The retreat sequence (fasting, escalating psilocybin doses, earlier abuse memories replaying like a VR headset) and watching Tim trace 17 separate behaviors back to a single source is the most compressed personal-development arc I've ever seen in a public figure.
 
-5. **THE NO BOOK being released serially before final publication, and "The Self-Help Trap" essay from March 2026** are him reforming his own reform.
+5. **The $150M loss disclosure on 20VC (Oct 2025)** finally makes the angel-investing-as-tuition framing make sense. He'd already lived the thesis: money fixes money problems and nothing else.
+
+6. **THE NO BOOK released serially before it's finished, and "The Self-Help Trap" essay (March 2026)** are him reforming his own reform — the A/B-testing-his-book-title guy now publishing unfinished work on purpose.
 
 Full piece: [LINK]
 
@@ -167,6 +174,30 @@ What's striking is that he's said outright on Episode #620 with Gabor Maté that
 I wrote a full personality analysis of him here: [LINK]
 
 What I'm curious about for this sub: how many readers of Stoicism here would describe their relationship to it as moral instruction vs. emotional regulation vs. productivity? My read is that the answer probably correlates with personality structure more than philosophical interpretation.
+
+---
+
+### Post 4 (optional): r/getdisciplined or r/decidingtobebetter
+
+**Title:** Tim Ferriss spent 20 years teaching optimization. He just admitted the cure can be worse than the disease.
+
+**Body:**
+
+I went deep on Tim Ferriss's last two years of disclosures and the throughline reframes the entire self-help genre he helped build.
+
+The piece that started it: in March 2026 he published "The Self-Help Trap" — _"The older I get, the more I think that self-help can be a trap. Sometimes the cure is worse than the disease."_ This from the guy who A/B-tested his first book title with Google AdWords.
+
+Then the part that made me rethink fear-setting (his most famous tool — 10M+ TED views). On the Shawn Ryan show this January he disclosed diagnosed OCD: not compulsions, purely ruminative — _"endless loops"_ that cause insomnia, then fatigue, then depression. Read that against fear-setting (writing your worst-case scenarios down on paper) and it stops looking like a productivity hack and starts looking like the management system he built for his own mind. He's basically said as much.
+
+A few things that recontextualize the optimization for me:
+
+- He got **fired from his first job at 14** for finishing 8 hours of work in 1. The parting line: "maybe someday you'll understand the value of hard work."
+- He disclosed **accidentally losing ~$150M** on a single deal, and the takeaway he chose was "money fixes money problems — and nothing else."
+- After a one-week course of accelerated TMS in 2026 he says his ruminative "monkey mind" dropped from an 8/10 to a 1-2/10 — and the thing he credits with actually changing his life is _"investing in relationships,"_ not any protocol.
+
+The discipline was never the point. It was the container for something underneath it. I wrote the full breakdown through a personality-psychology lens here: [LINK]
+
+For this sub: where's the line for you between discipline that's building something and discipline that's just outrunning something? Genuinely curious how people tell the difference in their own lives.
 
 ---
 
@@ -467,6 +498,13 @@ Curious how you read him.
 - **Close (last 5-10s):** "I broke down the full pattern on 9takes. Link in bio."
 - **On-screen text cue:** "Saved by the kind of mistake he'd teach the world to fix"
 
+**Alternate Reel — the fear-setting reframe (30-45 sec):**
+
+- **Hook (0-2s):** "Tim Ferriss's most famous productivity tool isn't a productivity tool."
+- **Body (3-35s):** "Fear-setting. 10 million TED views. You write down your worst-case scenarios, then plan around them. Everyone calls it a life hack. In 2026, Tim disclosed the rest: diagnosed OCD. Not compulsions — purely ruminative. Endless loops that cause insomnia, then fatigue, then depression. Fear-setting isn't a hack. It's the system he built to quiet a mind that won't stop prosecuting him."
+- **Close (last 5-8s):** "The whole breakdown is on 9takes. Link in bio."
+- **On-screen text cue:** "A life hack, or a coping system?"
+
 ### Accounts to Tag
 
 - @timferriss
@@ -502,6 +540,7 @@ Curious how you read him.
 - [ ] Reddit r/Enneagram post (Day 2-3, Tue-Thu morning)
 - [ ] Reddit r/Tim_Ferriss post (Day 3-4)
 - [ ] Reddit r/Stoicism post (Day 4-5)
+- [ ] Reddit r/getdisciplined or r/decidingtobebetter post — "Self-Help Trap" / fear-setting-as-OCD angle (Day 4-6; check self-promo rules first)
 - [ ] Email pitches sent: Daily Stoic, Podcast Notes, The Profile, Enneagram Universe (Day 4-7)
 - [ ] Blog comment or short @tferriss note using the direct-outreach copy (Day 5-7)
 - [ ] Comment on most recent tim.blog post (Day 6-8)

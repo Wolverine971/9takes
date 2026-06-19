@@ -1,0 +1,58 @@
+I've read the full draft. This piece has already been through a fresh-eyes pass and a second pass (visible in the trailing comments), and it shows. Here's my cohesion-only audit.
+
+## Cohesion Audit: Kurt-Russell.md
+
+### Central Thesis
+Kurt Russell is a Type 9 organized around refusing to be claimed: he keeps his name off everything he builds and locates his worth off the resume, so the "laid-back" surface is actually the most deliberate thing about him.
+
+### Thread Map
+
+| Section | What it contributes | Links to thesis via |
+|---|---|---|
+| Intro (wine/GoGi) | The strange hook: famous since 11, name off his own bottle | Establishes "keeps his name off" |
+| §1 Type 9 diagnosis | Names the engine: self-forgetting + 8-wing sovereignty | Defines "refuses to be claimed" |
+| §2 Never worked / batting cage | Origin: Bing split love (baseball) from job (acting) | Explains *why* worth lives off the resume |
+| §3 Disney kid → Snake Plissken | The merge pattern (Carpenter) + Tombstone exception | "Hands over the wheel," refuses the credit |
+| §4 Did he waste his talent? | Critic pressure + empathy turn | Worth not on a resume, restated as choice |
+| §5 Goldie / never married | The merge in love + the family he raised | Refuses ownership in both directions |
+| §6 Feelings he doesn't show | The cost: buried anger, body-center muffling | The lid on the serenity |
+| Rabbit hole | Wing/subtype/arrows/counter-case | Deep layer, opt-in |
+| §7 Kurt & Wyatt / Monarch | Three-generation watch-from-the-stands payoff | Batting-cage spine pays off |
+| §8 Name off the label | Closing: nothing could put its name on him | Lands the opening mystery |
+
+Read top to bottom, that outline holds as one argument. The batting cage (§2) → watch-from-the-stands (§7) spine and the wine-label bookend (intro → §8) are doing real structural work, and the Tombstone beat in §3 is correctly placed as the exception that sharpens rather than breaks the thesis.
+
+### Scores
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 9/10 | 0 |
+| Section Transitions | 8/10 | 2 soft |
+| Internal Paragraph Flow | 9/10 | 0 |
+
+**Overall Cohesion Score: 9/10** — reads as one unified piece; every section earns its place.
+
+### The only two candidates worth touching
+
+Both are *soft*, not broken. The H2 headings carry most of the bridging load, so the piece never actually loses the reader.
+
+1. **§1 → §2 (Adequate).** §1 ends on the 8-wing and sovereignty ("let nothing own you"). §2 hard-cuts to "There was no pool in the backyard... There was a batting cage." The heading sets up the origin story, so it works as a punchy cut, but there's no concept carried across the seam. A one-clause bridge tying "where did this refusal come from" to the childhood would tighten it. (Also defensible to leave — hard-cut section openers are a deliberate device used elsewhere here.)
+
+2. **§5 → §6 (Adequate).** §5 ends warm (dependable father, "stable ground other people grow on"). §6 opens analytically: "The Nine sits in the Enneagram's body center, the cluster organized around anger." The phrase "which surprises people who only see the calm" *does* reach back to the calm portrait, so the bridge half-exists. Could be made explicit by carrying the "serene/present" image into the anger turn.
+
+### What's already strong (left untouched)
+- Intro → §1, §2 → §3 (name-blurry/myth thread), §3 → §4, §4 → §5 ("something a resume cannot measure"), §6 → §7 (father "shattering" → father-son Monarch), §7 → §8 — all strong, keyword-carrying transitions.
+- No orphaned threads: epigraph, wine label, Disney misspelling, batting cage, Tombstone, the "shattering" moment all get picked up or paid off.
+
+### My recommendation
+This file scores 9/10 on cohesion and has already had two structural passes. I did **not** apply edits, because at this level unrequested bridge sentences risk diluting punchy hard-cuts more than they help, and the two seams above are working through their headings.
+
+The two soft transitions are the only places light bridges could add anything. Want me to:
+
+- **Apply** one-clause bridges to §1→§2 and §5→§6, or
+- **Leave it** as-is (both seams are defensible), or
+- Apply just one of the two?
+
+I'll touch only the bridge sentences — no frontmatter, components, links, or voice changes.

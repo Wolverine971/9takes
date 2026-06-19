@@ -45,17 +45,18 @@ Never overwrite a different same-day replies doc just because the date matches.
 
 ## Required Reading
 
-Read these two things every pass — they are load-bearing:
+Read these three things every pass — they are load-bearing:
 
-1. The source warmup doc
+1. The source warmup doc — **including the `## This Week's Pond` block and each queued item's `Pond / Type` tag.** These tell you which wound vernacular the stranger speaks and which type they code for.
 2. The account profile for every queued account listed in that warmup doc
+3. **Only the active type's section** of `docs/instagram/enneagram-engagement-clusters.md` — the section(s) matching the `Pond / Type` tags in today's queue. Read the **self-ID vernacular** and the **engagement angle** for those types only. This is an operational drafting input (how the pond talks, what relief to offer), **not** a voice doc. Do not read the whole cluster doc; do not let it override **The 9takes Voice for IG Comments** below.
 
 **Optional reference** (read only if you need more texture, not every pass):
 
 - `docs/brand/brand-positioning.md` — the **Brand Personality** and **We Are / We Are Not** sections for DJ's voice
 - `docs/brand/brand-style-guide-v2.md` — the **Voice Attributes** table only
 
-**Do not** open the gen-z posting cheat sheet, peer growth strategy doc, account-profiles README, or any other brand/strategy doc during this pass.
+**Do not** open the gen-z posting cheat sheet, peer growth strategy doc, account-profiles README, or any other brand/strategy doc during this pass. (The cluster doc is the one operational exception above, and only the active-type slice of it.)
 
 **Why this framing:** Past versions of this command pulled in 5-6 brand docs and drafts came out as generic Enneagram-coach wisdom: abstract, sage, neutral, indistinguishable from any other personality account. Those docs are mostly about original _posting_ (carousels, reels, captions), not _commenting on other accounts' posts_. The voice rules below — embedded in **The 9takes Voice for IG Comments** — are tuned specifically for the comment context. Treat them as the canonical source of voice truth for this pass; the brand docs above are supplemental only.
 
@@ -177,6 +178,29 @@ Use Enneagram understanding internally to produce precise, human comments. This 
 Ask: _would 9 types run this situation in the same direction, or are they doing 9 different things under the same label?_
 
 If the post claims one behavior as universal when you can name at least two types who'd handle it in opposite directions, that's a **type-flat** post. It's the single most common failure mode in therapy-IG. Naming that variance (even without using type numbers out loud) is usually the sharpest 9takes move available.
+
+---
+
+## Pond Awareness & The Bridge
+
+The warmup now fishes **ponds** — strangers talking the *vernacular of a wound* (perfectionism, anxiety, people-pleasing, ADHD) who have **never heard of the Enneagram.** Every queued item carries a `Pond / Type` tag. Your job is to mirror them in their own language and, only after warmth, route them to the active personality-analysis post. This is the BRIDGE step of `personality-series-engagement-strategy.md`.
+
+### What the pond changes about your drafts
+
+1. **Speak their vernacular, not ours.** The pond's self-ID terms (from the active type's cluster section) are the *register* to write in — "the standard moves the second you hit it" for a perfectionism-pond post, not "as a Type 1 you…". The Enneagram is the internal lens; it almost never surfaces out loud here.
+2. **Visibility Level 0 is the default in ponds.** These strangers did not opt into typology. Use the warmup's per-item visibility level; if it's missing or ambiguous on a pond item, default to **Level 0**. Go Level 1+ only when the post is *already* personality/typology-coded.
+3. **Lead with the type's engagement angle.** Each type's cluster section names the relief to offer (e.g. Type 2: validate the cost of over-giving and the buried need — *"what do you need right now, and when did you last ask?"*). Let that shape the Diagnosis stance, especially for **Casual solidarity** and **Extend**.
+4. **Never diagnose the stranger.** Name the *pattern*, never "you're a Type X." This is the same rule as the cluster doc and [feedback: Instagram comment style].
+
+### The Bridge rule (when and whether to route to a post)
+
+- **The bridge is a relationship outcome, not an opener.** Comment value first — days of it — before any link. A first-touch pond comment never mentions 9takes.
+- **Every type always has a bridge destination.** Pick the richest one that fits, in this priority order:
+  1. **The week's celebrity person-analysis** for that type, when one is published and matches This Week's Pond (e.g. Tim Ferriss for Type 1). Most shareable — a person makes the wound concrete.
+  2. **The type page** — `https://9takes.com/personality-analysis/type/<N>`. Live for all 9 types.
+  3. **The type educational blog** — e.g. `https://9takes.com/enneagram-corner/enneagram-type-<N>`. Speaks the wound directly (Type 2: *"why you can't say no"*; Type 9: *"why you disappear to keep everyone comfortable"*), which often mirrors a pond stranger better than a celebrity does.
+- **Type 2 and Type 9 have no celebrity anchor yet, but they are NOT unbridgeable.** Route them to the type page or the type blog (tiers 2–3 above). Never treat 2/9 pond contacts as "value only because there's nothing to send" — that was a prior error. The only thing missing for 2/9 is the *celebrity* tier, not a destination.
+- **In this drafting pass we do not write links into comments.** The bridge is a downstream action. What you *can* do here: when a queued item is in a pond and the relationship is already warm, note `Bridge-ready: yes` and name the best destination (celebrity post / type page / type blog). Use `Bridge-ready: no — not warm yet` when the relationship needs more value first.
 
 ---
 
@@ -499,15 +523,16 @@ For each queued item, do this in order. Do not skip the Diagnosis — it's what 
 1. Read the account profile.
 2. Pull the relationship intel and past touchpoints.
 3. Note repetition risks (phrasings, angles, lanes already used).
-4. **Run the Post Diagnosis** (see the **Post Diagnosis** section above). Record all 4 outputs in the replies doc: the restated claim, the sharpness rating, the meta-narrative read, and the recommended Stance. This is the mental work that should take the most time per item. Rushed diagnosis produces flat drafts.
-5. **Pick the mode mix.** In a 3-option draft, no two options share a mode. The recommended Stance from the Diagnosis should be one of them. Pick the other 1-2 from modes that create genuine contrast (e.g., if Stance is Extend, consider Complicate + Casual solidarity for the other two — not three flavors of Extend).
-6. **If any option is Contrarian**, run the Contrarian Calibration Ladder before drafting. Pick Soft / Medium / Sharp explicitly. Default is Medium. Note the level in the draft label.
-7. Check the `Engagement Mode` set by the warmup. Draft accordingly:
+4. **Read the item's `Pond / Type` tag** and pull that type's **vernacular + engagement angle** from the cluster doc. Decide if this item is in **This Week's Pond** (active), an **evergreen pond** (6/2/7), or **off-pond**. Set `Bridge-ready` per the Bridge rule. This frames the register and visibility level before you diagnose.
+5. **Run the Post Diagnosis** (see the **Post Diagnosis** section above). Record all 4 outputs in the replies doc: the restated claim, the sharpness rating, the meta-narrative read, and the recommended Stance. This is the mental work that should take the most time per item. Rushed diagnosis produces flat drafts.
+6. **Pick the mode mix.** In a 3-option draft, no two options share a mode. The recommended Stance from the Diagnosis should be one of them. Pick the other 1-2 from modes that create genuine contrast (e.g., if Stance is Extend, consider Complicate + Casual solidarity for the other two — not three flavors of Extend).
+7. **If any option is Contrarian**, run the Contrarian Calibration Ladder before drafting. Pick Soft / Medium / Sharp explicitly. Default is Medium. Note the level in the draft label.
+8. Check the `Engagement Mode` set by the warmup. Draft accordingly:
    - **`post`**: 2-3 top-level comment options, each in a distinct mode. Label each draft with its mode (and Contrarian sharpness if applicable).
    - **`comment-level`**: For every `Action: Reply` target, quote the commenter's exact text and draft 1-2 options aimed at that commenter, not the post author. Same mode-mix rule — don't stack two Extends. For every `Action: Like only` target, add a `Planned Like` row — no draft needed.
    - **`mixed`**: Do both. Keep the post-level draft and the comment-level drafts clearly separated in the doc.
-8. Update the replies doc immediately.
-9. Add a `Drafted` (or `Planned Like`) row to the account profile history for the post, noting which commenter was targeted when applicable. One row per distinct action, so post-level drafts and comment-level drafts stay legible in the history.
+9. Update the replies doc immediately.
+10. Add a `Drafted` (or `Planned Like`) row to the account profile history for the post, noting which commenter was targeted when applicable. One row per distinct action, so post-level drafts and comment-level drafts stay legible in the history.
 
 ### Self-audit before finalizing the item
 
@@ -552,10 +577,10 @@ Use this structure:
 
 ## Queue Summary
 
-| #   | Account | Topic   | Mode          | Profile | Relationship Note | Status  |
-| --- | ------- | ------- | ------------- | ------- | ----------------- | ------- |
-| 1   | @handle | [topic] | post          | [path]  | [brief context]   | Drafted |
-| 2   | @handle | [topic] | comment-level | [path]  | [brief context]   | Drafted |
+| #   | Account | Pond / Type       | Topic   | Mode          | Profile | Relationship Note | Bridge-ready          | Status  |
+| --- | ------- | ----------------- | ------- | ------------- | ------- | ----------------- | --------------------- | ------- |
+| 1   | @handle | perfectionism/1   | [topic] | post          | [path]  | [brief context]   | yes → Ferriss post    | Drafted |
+| 2   | @handle | people-pleasing/2 | [topic] | comment-level | [path]  | [brief context]   | yes → type page /2    | Drafted |
 
 ---
 
@@ -565,7 +590,10 @@ Use this structure:
 
 **Post Link:** [URL]
 **Profile File:** [path]
-**Visibility Level:** [0/1/2]
+**Pond / Type:** [e.g. perfectionism / Type 1 — active pond | evergreen 6 | off-pond]
+**Pond angle (from cluster doc):** [the relief/engagement angle for this type, one line]
+**Bridge-ready:** [yes → destination: <celebrity post name | type page /type/N | type blog> | no — not warm yet]
+**Visibility Level:** [0/1/2 — default 0 in ponds unless the post is already typology-coded]
 
 **Relationship Intel:**
 
@@ -741,4 +769,5 @@ The voice embedded in **The 9takes Voice for IG Comments** above is the load-bea
 
 ---
 
-_Last Updated: 2026-04-20 (v5 — added Post Diagnosis step, expanded mode palette from 3 to 5 (Cheer / Extend / Complicate / Contrarian / Casual solidarity), added Contrarian Calibration Ladder with Soft/Medium/Sharp levels, expanded DJ+9takes voice with tactical-direct and pattern-impatient texture, added type-flat internal check, re-allowed optional reference reading of brand docs with inlined voice as canonical source)_
+_Last Updated: 2026-06-18 (v6 — pond-aware drafting + BRIDGE step: reply pass now reads each queued item's Pond/Type tag and the active type's vernacular + engagement angle from enneagram-engagement-clusters.md (active-type slice only, operational not voice), defaults pond items to Visibility Level 0, speaks the pond's vernacular instead of Enneagram language, and tracks Bridge-ready (route after warmth to the richest live destination: the week's celebrity post when one exists, else the type page /personality-analysis/type/N, else the type blog — every type including 2 and 9 always has a destination). Template carries Pond/Type, Pond angle, and Bridge-ready fields.)_
+_v5 — 2026-04-20: Post Diagnosis step, 5-mode palette, Contrarian Calibration Ladder, tactical-direct/pattern-impatient voice, type-flat internal check._

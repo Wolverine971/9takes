@@ -1,0 +1,336 @@
+[2026-06-17 02:02:40] [INFO] Reconciled orphaned kurt-russell, re-running pipeline
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  kurt-russell
+Draft:   src/blog/people/drafts/kurt-russell.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell
+Started: Wed Jun 17 02:02:47 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:02:47)
+Command: /blog_content_creator_people_v2 kurt-russell --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell/1_create.log
+─────────────────────────────────────────────────────
+Draft complete. Kurt Russell typed as **Enneagram 9w8** ("Hollywood's Unbothered Holdout"), built around the thesis that his unbothered cool is self-forgetting raised to a worldview: a star who refuses to be claimed by his own fame.
+
+**Spine of the piece:** the wine bottle with no name on it → batting-cage childhood and the flatly-absorbed career-ending injury → Disney/Carpenter rise → the critic-pressure section ("Did Kurt Russell Waste His Talent?") resolved by the empathy turn → the never-married Goldie devotion reframe → buried-feeling section hosting the Rabbit Hole → current-tense Monarch S2 (Kurt + Wyatt as the same man) → a callback ending on the unlabeled bottle.
+
+Research was evidence-first (verified quotes flagged; unverified "facts" like the Tarantino quote, hand-loaded ammo, and the "last words" legend deliberately excluded; Bing's minor-league career and the misspelled "Kirt" memo corrected).
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Kurt-Russell.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (4 testimony quotes) | Gate 2: pass (6 search/hybrid H2s) | Gate 4: pass | Gate 5: pass (3 type-theory paras) | Gate 6: pass]
+LIMITATIONS: none blocking. blog-lint: 0 fail, 1 warn (faqs frontmatter absent — owned by downstream frontmatter-enrich stage, out of scope here)
+```
+
+**Internal links added (5):**
+- Harrison Ford → `/personality-analysis/harrison-ford` (fellow Type 9 screen icon, craft-as-job parallel)
+- Kate Hudson → `/personality-analysis/kate-hudson` (stepdaughter)
+- Type 9 → `/enneagram-corner/enneagram-type-9`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (Rabbit Hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (Rabbit Hole)
+
+Human review is still required before production. Next step after approval: set `production_pretext.status: ready` and run `blog_content_production_people`. (Grading is owned separately by `/grade_blog`.)
+
+One research gap worth a human glance before publish: the opening "I don't work" GQ quote is widely relayed but only **medium**-confidence on exact wording — verify against the original GQ piece if you want it airtight.
+[Stage 1] create finished 02:20:33 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:20:33)
+Command: /blog_content_fresh_eyes_people kurt-russell
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Reviewed **`src/blog/people/drafts/Kurt-Russell.md`** — fresh-eyes notes appended in a `FRESH EYES REVIEW` block at the bottom (no body edits).
+
+The two biggest issues I flagged:
+
+1. **Tombstone is missing — and it's the most damaging gap.** Wyatt Earp is the most fan-quoted role of Russell's career, and the well-documented story is that he *ghost-directed* Tombstone (hiring Cosmatos as a front). That directly stress-tests the draft's central thesis that his signature move is *handing the wheel to a director*. It's the one time he grabbed the wheel — and still refused the credit. Confronting it would make the thesis sharper, not weaker; right now its absence reads like the draft dodged its best counter-example.
+
+2. **The family section omits his first marriage (Season Hubley) and biological son Boston.** The whole section is built on "the dependable father figure who raised kids who weren't his by blood" — but never mentions the child who *is* his by blood. A reader who knows this will feel the portrait was tidied.
+
+Also noted: the wine/"name off the label" motif and "I don't work" are over-repeated (especially in the closing section), the Tarantino and Christmas-Chronicles director-merges are unused, and the batting-cage spine + the rotator-cuff/"shattering" interior beats are the strongest things to preserve.
+[Stage 2] fresh_eyes finished 02:22:02 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:22:02)
+Command: /blog_content_second_pass_people kurt-russell
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell/3_second_pass.log
+─────────────────────────────────────────────────────
+Done. Updated `src/blog/people/drafts/Kurt-Russell.md`.
+
+## What I changed
+
+**Added the Tombstone beat (the review's biggest catch).** The reviewer was right that its absence read like the draft was dodging its best counter-example. I folded it into the Snake Plissken section as the *exception that proves the rule*: I first established the director-merge as a pattern (Carpenter, then Tarantino in one line), then hit Tombstone — where Russell, by his own True West account, ran the shoot and fed credited director George Cosmatos a nightly shot list, then refused the credit: *"I don't want to put my name on it. I don't want to be the guy."* That quote is the exact "keep my name off it" move, so it sharpens the thesis instead of breaking it. I flagged the castmate dispute (Kilmer, Biehn) honestly rather than overclaiming, and tied it back to the wine label "run in reverse."
+
+**Added the family gap.** The portrait was built on "raised kids who weren't his by blood" but never mentioned his own. Added the brief first marriage to Season Hubley and biological son Boston — and turned Boston's well-documented privacy into an on-thesis beat (the one kid who "inherited the family instinct for keeping his name off the label").
+
+**Trimmed the repetition.** Cut the reused "cage door" metaphor from the ending (it now lives only in the Goldie section, where it's Hawn's own); removed the third/fourth wine restatement in the close; dropped the "never worked" echo from the waste-talent opener; and recast two "not X / a Y" fragments to soften the contrast-engine template.
+
+**Rejected:** the Christmas Chronicles / Santa Claus suggestion — on-the-nose but the draft is already full, and it would dilute the tighter Tombstone-vs-Carpenter spine. Noted as available for an editor.
+
+Lint passes (0 fail; only the expected pre-enrich `faqs` warning). Both new factual claims were web-verified. I left `lastmod` untouched per your standing rule that you manage it manually.
+
+Still open: the FORMULA FINGERPRINT ledger's contrast-pair count is now cosmetically low after the addition — left for the creator pass.
+[Stage 3] second_pass finished 02:25:32 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:25:32)
+Command: /cohesion-check src/blog/people/drafts/kurt-russell.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell/4_cohesion.log
+─────────────────────────────────────────────────────
+I've read the full draft. This piece has already been through a fresh-eyes pass and a second pass (visible in the trailing comments), and it shows. Here's my cohesion-only audit.
+
+## Cohesion Audit: Kurt-Russell.md
+
+### Central Thesis
+Kurt Russell is a Type 9 organized around refusing to be claimed: he keeps his name off everything he builds and locates his worth off the resume, so the "laid-back" surface is actually the most deliberate thing about him.
+
+### Thread Map
+
+| Section | What it contributes | Links to thesis via |
+|---|---|---|
+| Intro (wine/GoGi) | The strange hook: famous since 11, name off his own bottle | Establishes "keeps his name off" |
+| §1 Type 9 diagnosis | Names the engine: self-forgetting + 8-wing sovereignty | Defines "refuses to be claimed" |
+| §2 Never worked / batting cage | Origin: Bing split love (baseball) from job (acting) | Explains *why* worth lives off the resume |
+| §3 Disney kid → Snake Plissken | The merge pattern (Carpenter) + Tombstone exception | "Hands over the wheel," refuses the credit |
+| §4 Did he waste his talent? | Critic pressure + empathy turn | Worth not on a resume, restated as choice |
+| §5 Goldie / never married | The merge in love + the family he raised | Refuses ownership in both directions |
+| §6 Feelings he doesn't show | The cost: buried anger, body-center muffling | The lid on the serenity |
+| Rabbit hole | Wing/subtype/arrows/counter-case | Deep layer, opt-in |
+| §7 Kurt & Wyatt / Monarch | Three-generation watch-from-the-stands payoff | Batting-cage spine pays off |
+| §8 Name off the label | Closing: nothing could put its name on him | Lands the opening mystery |
+
+Read top to bottom, that outline holds as one argument. The batting cage (§2) → watch-from-the-stands (§7) spine and the wine-label bookend (intro → §8) are doing real structural work, and the Tombstone beat in §3 is correctly placed as the exception that sharpens rather than breaks the thesis.
+
+### Scores
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 9/10 | 0 |
+| Section Transitions | 8/10 | 2 soft |
+| Internal Paragraph Flow | 9/10 | 0 |
+
+**Overall Cohesion Score: 9/10** — reads as one unified piece; every section earns its place.
+
+### The only two candidates worth touching
+
+Both are *soft*, not broken. The H2 headings carry most of the bridging load, so the piece never actually loses the reader.
+
+1. **§1 → §2 (Adequate).** §1 ends on the 8-wing and sovereignty ("let nothing own you"). §2 hard-cuts to "There was no pool in the backyard... There was a batting cage." The heading sets up the origin story, so it works as a punchy cut, but there's no concept carried across the seam. A one-clause bridge tying "where did this refusal come from" to the childhood would tighten it. (Also defensible to leave — hard-cut section openers are a deliberate device used elsewhere here.)
+
+2. **§5 → §6 (Adequate).** §5 ends warm (dependable father, "stable ground other people grow on"). §6 opens analytically: "The Nine sits in the Enneagram's body center, the cluster organized around anger." The phrase "which surprises people who only see the calm" *does* reach back to the calm portrait, so the bridge half-exists. Could be made explicit by carrying the "serene/present" image into the anger turn.
+
+### What's already strong (left untouched)
+- Intro → §1, §2 → §3 (name-blurry/myth thread), §3 → §4, §4 → §5 ("something a resume cannot measure"), §6 → §7 (father "shattering" → father-son Monarch), §7 → §8 — all strong, keyword-carrying transitions.
+- No orphaned threads: epigraph, wine label, Disney misspelling, batting cage, Tombstone, the "shattering" moment all get picked up or paid off.
+
+### My recommendation
+This file scores 9/10 on cohesion and has already had two structural passes. I did **not** apply edits, because at this level unrequested bridge sentences risk diluting punchy hard-cuts more than they help, and the two seams above are working through their headings.
+
+The two soft transitions are the only places light bridges could add anything. Want me to:
+
+- **Apply** one-clause bridges to §1→§2 and §5→§6, or
+- **Leave it** as-is (both seams are defensible), or
+- Apply just one of the two?
+
+I'll touch only the bridge sentences — no frontmatter, components, links, or voice changes.
+[Stage 4] cohesion finished 02:26:45 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:26:45)
+Command: /blog_content_editor_pass_people kurt-russell
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell/5_editor_pass.log
+─────────────────────────────────────────────────────
+Done. Polished `src/blog/people/drafts/Kurt-Russell.md`.
+
+## What I found and fixed
+
+The draft was already structurally solid — it had been through fresh-eyes and second-pass edits, so the Tombstone counter-example, the Boston/first-marriage honesty beat, the empathy turn, and the interior beats were all in place. This was a light cleanup pass, not a rework.
+
+**Language fixes:**
+- **Last two contrast-pair engines.** The "not X, but Y" template was still showing in two spots. The Tombstone "wine label run in reverse: not keeping his name off… but keeping it off…" became two parallel declaratives ("On the bottle… On 'Tombstone'…"). The waste-talent "this is not a person who failed to reach. It is a person who decided…" became a direct statement.
+- **The "It is…" pointing tic.** That opener recurred ~10 times across the body. I broke the densest one by giving the Disney-memo sentence a concrete subject ("That misspelled memo is a perfect small artifact…"), which also reads sharper. The remaining instances are well-spaced and earn their emphasis, so I left them.
+
+**Preserved (the strong stuff):** wine-label opener, batting-cage spine, the "I just hope I haven't ruined it" rotator-cuff interior beat, the "shattering" Fox News moment, and the three-generation Monarch payoff.
+
+**Mechanical verification:** `./scripts/blog-lint.sh Kurt-Russell` → **0 fail**. Em-dash check passes (only quote-attribution dashes remain, which are exempt), no banned AI phrases. I did not touch `lastmod` (hard rule).
+
+**Verdict: production-ready.** The one lint WARN is "no faqs in frontmatter" — that's the frontmatter-enrich pipeline stage, not an editorial issue.
+[Stage 5] editor_pass finished 02:28:43 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:28:43)
+Command: /blog_content_frontmatter_enrich_people kurt-russell
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Frontmatter enrichment complete. The body was untouched.
+
+```
+Frontmatter enrichment complete: Kurt-Russell
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Kurt_Russell)
+- instagram / twitter (empty creator social handles — not mine to touch)
+
+IDs verified:
+- Wikidata Q103157 (search-confirmed)
+- IMDb nm0000621 (cross-checked via Wikidata P345)
+- birth_date / birth_place / nationality confirmed via Wikidata P569 / P19 / P27
+
+FAQs generated (5):
+1. What is Kurt Russell's personality type? → #what-is-kurt-russells-personality-type
+2. Why does Kurt Russell say he's never worked a day in his life? → #why-kurt-russell-says-hes-never-worked-a-day-in-his-life
+3. Did Kurt Russell really direct Tombstone? → #how-a-disney-kid-became-snake-plissken
+4. Why did Kurt Russell and Goldie Hawn never marry? → #why-kurt-russell-and-goldie-hawn-never-married
+5. Did Kurt Russell waste his talent? → #did-kurt-russell-waste-his-talent
+
+Issues:
+- Thin inline sourcing: the body references real outlets by name (GQ, THR, NHPR, True West, People, Fox News, Esquire, Empire) but contains NO inline external citation URLs — only internal 9takes links. `citations` was therefore built from verifiable authoritative entity pages (Wikipedia, Britannica, IMDb, Wikidata) rather than fabricated article URLs. If you want article-level citations, the named interviews would need to be linked in the body first.
+```
+
+Sources used for verification: [Kurt Russell — Wikidata](https://www.wikidata.org/wiki/Q103157), [Kurt Russell — IMDb](https://www.imdb.com/name/nm0000621/)
+[Stage 6] enrich_frontmatter finished 02:30:39 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 154 chars
+ok    meta_title length 44 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: kurt-russell — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+[pre-grade] No existing content_quality block on draft, nothing to clear
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:30:39)
+Command: /grade_blog kurt-russell
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Kurt Russell
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Kurt-Russell | 9 | 9 | 8.5 | 9 | 8.5 | 9 | **8.8** | **B+** |
+
+*Overall = (9×1.5 + 9×1.5 + 8.5×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.8. Discoverability 8.5 ≥ 7, gate passed.*
+
+### Key Observations
+- **Genuinely strong draft, just under A.** The Tombstone ghost-directing beat ("on the bottle, off a thing he made for love; on Tombstone, off a thing he made by force") is the standout — it turns what would've been a glaring omission into the sharpest expression of the thesis. The second-pass and fresh-eyes notes in the file did real work.
+- **Evidence and originality are both 9s** — dated/sourced quotes used as structural material, a signature detail (name off the label, twice), a swap-test-proof thesis, and a current anchor (Monarch S2).
+- **All three emotional-interior checks pass**, which is rare; the rabbit hole is clean (no typology bleed into the body).
+
+### The two things holding it at B+ (not A)
+1. **`meta_title` drops the search keyword** — it's clever but captures none of "Kurt Russell enneagram / type 9 / personality." Easiest single win.
+2. **A couple of contrast-pair traces remain** and the closing section over-restates the wine motif.
+
+**Publication status:** ✅ Above the 8.5 threshold — publication-ready as graded. The "TO REACH A" steps in the reviewer comment are a clean path to 9.0+ if you want to push it.
+
+Grades and a full reviewer comment are written into `src/blog/people/drafts/Kurt-Russell.md`.
+[Stage 7] grade finished 02:32:13 (exit=0)
+
+[Stage 8] No revision needed (overall 8.8 >= 8.5, discoverability 8.5 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: kurt-russell
+Finished: Wed Jun 17 02:32:13 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-17_020247_kurt-russell
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '9'
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  discoverability: 8.5
+  overall: 8.8
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-17'
+═════════════════════════════════════════════════════
+[2026-06-17 02:32:58] [SUCCESS] kurt-russell completed, grade 8.8 B+, rate limit 2/5
+
+📚 9takes Daily Blog Creator - 2026-06-17
+✅ SUCCESS
+Blog: Kurt Russell
+Type: 9
+Grade: 8.8/10 (B+)
+Discoverability: 8.5
+Duration: 30 min
+Priority: 61
+File: src/blog/people/drafts/kurt-russell.md
+Next blog in queue: Nick Offerman (Type 5, priority 60)
+NOTE: prior 2026-06-16 run was orphaned (backgrounded + turn ended, no draft); reconciled and re-run this cycle.
+NOTE: Telegram not configured in repo — notification logged only.
+Done. Here's the run summary.
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date:      2026-06-17
+Status:    SUCCESS
+Blog:      Kurt Russell (Type 9, priority 61)
+Grade:     8.8/10 (B+), discoverability 8.5
+Duration:  ~30 min (02:02–02:32 ET)
+File:      src/blog/people/drafts/kurt-russell.md
+Rate limit: 2/5 this week
+Next up:   Nick Offerman (Type 5, priority 60)
+===================================
+```
+
+## What happened
+
+**Recovered an orphaned run, then completed today's blog.**
+
+1. **Pre-flight found a stuck `inProgress`: kurt-russell**, 19h old (technically <24h). But the evidence was conclusive that it was *dead*, not active: no pipeline process running, no draft ever written, and the log frozen at "Stage 1 started" ~19h ago — far past the 120-min pipeline budget. Yesterday's run had backgrounded the pipeline and ended its turn (the exact anti-pattern the playbook forbids), orphaning it.
+
+2. **Reconciled rather than blind-skipped.** Positive proof of death is stronger than the 24h staleness heuristic, and skipping would have perpetuated the silent block the playbook calls a defect. I refreshed kurt-russell's `startedAt`, bumped `retryCount` to 1, and re-ran it (rightful selection, no draft existed).
+
+3. **Ran the full 7-stage pipeline and held the turn open** through bounded polling windows until it exited — never yielding while it ran. All stages passed: create → fresh_eyes → second_pass → cohesion → editor_pass → enrich_frontmatter → lint (clean) → grade. **No revision loop needed** (8.8 ≥ 8.5, discoverability 8.5 ≥ 7).
+
+4. **Bookkeeping:** moved kurt-russell to `completed`, cleared `inProgress`, bumped rate limit to 2/5.
+
+## Notes for you
+
+- **Auto-production skipped by design.** `production_pretext` shows `ready_for_production: false`, `requires: db_sync` — and the DB re-sync is gated on your explicit go. The draft awaits review.
+- **Telegram isn't wired up** in the repo (no script/token), so the success notification was logged to `logs/blog-automation/cron-2026-06-17.log` only.
+- **The orphaning bug recurred** despite being marked "fixed 2026-06-15." The root cause is structural: the Bash tool caps foreground calls at 10 min but the pipeline runs 30–60 min, so a literal single-call "synchronous run" is impossible — agents keep falling back to backgrounding and ending the turn. I updated the project memory with the real rule (hold the turn open polling until exit). If you want this to stop recurring, the durable fix is in the harness/scheduler layer, not the command doc.

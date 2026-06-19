@@ -1,0 +1,20 @@
+## Second pass complete: `src/blog/people/drafts/Jason-Sudeikis.md`
+
+The fresh-eyes notes were unusually strong and specific. I verified each factual claim before acting, which caught one error in the review itself.
+
+**What I changed:**
+
+1. **Fixed the Wrexham factual risk** (the highest-value catch). Verified: Sudeikis is a longtime Man City fan and only *commented* on Wrexham ("Good timing with Ryan Reynolds"); he has no involvement. Rewrote it so the club's fairy tale is explicitly "someone else's to own," and named his City allegiance so no soccer-literate reader catches a conflation.
+
+2. **Added a new H2, "The decade Jason Sudeikis played the jerk,"** between the Overland Park and kindness-as-system sections. It covers the womanizer/cad/drug-dealer film run (Horrible Bosses, We're the Millers, Hall Pass, Sleeping with Other People) and uses it to *strengthen* the Nine read: he can reach the edge, but only inside a script where it belongs to a character. This fills the SNL→Ted Lasso gap the review flagged.
+   - **Caught a review error:** the note called Sudeikis's Horrible Bosses character a "coke-addled boss." That's Colin Farrell's role — Sudeikis plays Kurt the horndog. I did not propagate it.
+
+3. **Added the Kay Cannon marriage** (2004, separated 2008, divorced 2010, quietly) to the fights section. It deepens the ruptures-handled-quietly thesis and sets up why Wilde was different — he couldn't control the narrative this time.
+
+4. **Trimmed "be the floor"** from 4 hits to 2.
+
+**What I kept against the notes:** the goldfish/ten-second-memory motif. It's the spine of the piece and the closing payoff; the body's "when a Nine cannot be a goldfish" line earns the section-title callback. Trimming it would weaken more than it tightens.
+
+**Still open:** nothing blocking. The lone lint warning is that the frontmatter `faqs` enrich stage hasn't run yet — a separate pipeline step, not a content issue.
+
+Sources for the verifications: [Sudeikis is a Manchester City fan / Wrexham comment](https://fandomwire.com/ted-lasso-stars-and-their-favorite-football-clubs-jason-sudeikis-is-a-longtime-manchester-city-fan/), [Kay Cannon marriage and divorce](https://www.cheatsheet.com/news/jason-sudeikis-ex-wife-kay-cannon-divorce.html/), [film roles](https://en.wikipedia.org/wiki/Jason_Sudeikis).

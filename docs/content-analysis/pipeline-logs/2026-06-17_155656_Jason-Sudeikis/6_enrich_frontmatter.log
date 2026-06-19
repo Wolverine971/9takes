@@ -1,0 +1,19 @@
+Frontmatter enrichment complete: Jason-Sudeikis
+
+**Fields filled:**
+- `wikidata_qid` (Q14539), `imdb_id` (nm0837177, verified via Wikidata P345), `birth_date` (1975-09-18), `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):**
+- `wikipedia` (left untouched per idempotency)
+
+**FAQs generated (4):**
+1. What is Jason Sudeikis's personality type? → `#what-is-jason-sudeikis-s-personality-type`
+2. Why did Jason Sudeikis make Ted Lasso so kind? → `#why-jason-sudeikis-turned-kindness-into-a-system`
+3. Did Jason Sudeikis really serve Olivia Wilde custody papers on stage? → `#how-jason-sudeikis-fights-when-he-can-t-be-a-goldfish`
+4. Is Jason Sudeikis a Type 2 instead of a Type 9? → `#counterarguments-why-sudeikis-might-be-a-type-2`
+
+**Issues:**
+- **Thin inline sourcing:** the body contains zero external citation URLs — only internal links to `/enneagram-corner/` and `/personality-analysis/`. Named sources (GQ 2021, Interview Magazine, KSHB 2021, TODAY 2024) appear as text references but are not linked. I populated `citations` with the two verified authoritative entity sources (Wikipedia, Britannica) rather than fabricate article URLs. If you want the in-text references converted to real citation links, that's a body edit outside this stage's scope.
+- `birth_place`: born in Fairfax, Virginia; the body's "from Overland Park, Kansas" refers to where he was raised, not born — both are correct, no conflict.
+
+Sources: [Wikidata Q14539](https://www.wikidata.org/wiki/Q14539), [Wikipedia](https://en.wikipedia.org/wiki/Jason_Sudeikis), [IMDb nm0837177](https://www.imdb.com/name/nm0837177/), [Britannica](https://www.britannica.com/biography/Jason-Sudeikis)

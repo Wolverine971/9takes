@@ -95,7 +95,7 @@ If you want to look at actual numbers, our [corpus stats page](/corpus-stats) sh
 
 Many people use both. They're measuring different things.
 
-<strong>Full comparison:</strong> <a href="/enneagram-corner/enneagram-vs-meyers-briggs">Enneagram vs MBTI detailed breakdown</a>
+<strong>Full comparison:</strong> <a href="/enneagram-corner/enneagram-vs-meyers-briggs">Enneagram vs MBTI detailed breakdown</a>. See also: <a href="/enneagram-corner/enneagram-vs-personality-frameworks-comparison">how the Enneagram compares to 14 personality frameworks</a>.
 
 <strong>More context:</strong> <a href="/community/mbti-vs-enneagram">MBTI Failed Us — Can the Enneagram Do Better?</a>
 

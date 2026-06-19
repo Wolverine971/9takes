@@ -168,8 +168,48 @@ describe('/admin/analytics page', () => {
 
 		await waitFor(() => {
 			expect(fetchUrls()).toContain(
-				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=500'
+				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=200'
 			);
+		});
+	});
+
+	it('handles non-JSON release failures without surfacing JSON parse errors', async () => {
+		const parseError = new SyntaxError('Unexpected token A');
+		const consoleError = vi.spyOn(console, 'error').mockImplementation(() => {});
+
+		vi.stubGlobal(
+			'fetch',
+			vi.fn(async (input: RequestInfo | URL) => {
+				const url = String(input);
+				if (url.startsWith('/api/admin/analytics/releases?')) {
+					return {
+						ok: false,
+						status: 504,
+						statusText: '',
+						json: vi.fn().mockRejectedValue(parseError)
+					};
+				}
+				return {
+					ok: true,
+					json: vi.fn().mockResolvedValue({})
+				};
+			})
+		);
+
+		render(AnalyticsPage, {
+			data: pageData as any
+		});
+
+		await fireEvent.click(screen.getByRole('tab', { name: 'Release Performance' }));
+
+		await waitFor(() => {
+			const releaseError = consoleError.mock.calls.find(
+				([label]) => label === 'Release analytics fetch error:'
+			)?.[1] as Error | undefined;
+
+			expect(releaseError).toBeInstanceOf(Error);
+			expect(releaseError).not.toBe(parseError);
+			expect(releaseError?.message).toContain('Failed to load release analytics (504)');
 		});
 	});
 
@@ -250,7 +290,7 @@ describe('/admin/analytics page', () => {
 
 		await waitFor(() => {
 			expect(fetchUrls()).toContain(
-				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=500'
+				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=200'
 			);
 		});
 
@@ -258,7 +298,7 @@ describe('/admin/analytics page', () => {
 
 		await waitFor(() => {
 			expect(fetchUrls()).toContain(
-				'/api/admin/analytics/releases?from=2026-01-09&to=2026-04-08&scope=all&limit=500'
+				'/api/admin/analytics/releases?from=2026-01-09&to=2026-04-08&scope=all&limit=200'
 			);
 		});
 	});
@@ -280,7 +320,7 @@ describe('/admin/analytics page', () => {
 		await fireEvent.click(screen.getByRole('tab', { name: 'Release Performance' }));
 
 		await waitFor(() => {
-			expect(fetchUrls()).toContain('/api/admin/analytics/releases?scope=all&limit=500');
+			expect(fetchUrls()).toContain('/api/admin/analytics/releases?scope=all&limit=200');
 		});
 
 		await fireEvent.click(screen.getByRole('button', { name: 'Last 30 days' }));
@@ -293,7 +333,7 @@ describe('/admin/analytics page', () => {
 			expect(presetCall).toContain('from=');
 			expect(presetCall).toContain('&to=');
 			expect(presetCall).toContain('scope=all');
-			expect(presetCall).toContain('limit=500');
+			expect(presetCall).toContain('limit=200');
 		});
 
 		await fireEvent.click(screen.getByRole('button', { name: 'Reset range' }));
@@ -302,7 +342,7 @@ describe('/admin/analytics page', () => {
 			const releaseCalls = fetchUrls().filter((url) =>
 				url.startsWith('/api/admin/analytics/releases?')
 			);
-			expect(releaseCalls.at(-1)).toBe('/api/admin/analytics/releases?scope=all&limit=500');
+			expect(releaseCalls.at(-1)).toBe('/api/admin/analytics/releases?scope=all&limit=200');
 		});
 	});
 

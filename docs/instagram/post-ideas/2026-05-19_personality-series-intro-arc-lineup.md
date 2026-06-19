@@ -4,13 +4,17 @@
 
 **Date locked:** 2026-05-19
 **Account:** @9takesdotcom
-**North Star (governs everything below):** [`docs/instagram/personality-series-north-star.md`](../personality-series-north-star.md) — _Stack the lore. Don't explain the person. End on the question. Send them to 9takes for the answer._
+**North Star (voice/format):** [`docs/instagram/personality-series-north-star.md`](../personality-series-north-star.md) — _Stack the lore. End on the question. Send them to 9takes._
+**Engagement strategy (governs how this arc is worked):** [`docs/instagram/personality-series-engagement-strategy.md`](../personality-series-engagement-strategy.md) — _every post anchors a type; that type has a pond; work the pond the week the post runs._
+**Pond map:** [`docs/instagram/enneagram-engagement-clusters.md`](../enneagram-engagement-clusters.md) — vernacular, hashtags, and accounts per type.
+
+**Strategy evolution (2026-06-16 → 17): type-first / person-as-vessel.** The captions and tidbits below were reoriented after this doc was first locked. The post no longer just teases the person — it anchors the person's **Enneagram type** and uses them as living proof, so each post becomes a lure for that type's engagement pond. Tidbits now reveal the type's _wound_ (the thing the pond is searching for), not just the celebrity's résumé.
 
 **Format (per post):** 2-slide carousel + caption
 
-- **Slide 1:** Portrait of the person with name overlay (9takes brand styling)
-- **Slide 2:** 5–7 tidbits, each passing the five-test filter from the north star (insider, engine-revealing, specific, scroll-stopping, opens a question)
-- **Caption:** Stack 2–3 lore beats → the question the lore raises → CTA → engagement bait
+- **Slide 1:** Portrait of the person with name overlay (9takes brand styling). Bottom chips: type reveal (`Type N · The [Archetype]`) + `@9takesdotcom`. See label-system notes from the 2026-06-16 design pass.
+- **Slide 2:** 5–7 tidbits. Each passes the five-test filter (insider, engine-revealing, specific, scroll-stopping, opens a question) **plus the wound test: does it reveal the type's core struggle, not just trivia?** Pure trivia → "Hold for stories."
+- **Caption (type-first):** reader self-ID hook in the type's vernacular → name the type → person as proof → the type's core struggle → CTA → type-oriented bait ("Are you a Type N? Tag one").
   **Arc length:** 8 posts / 4 weeks
   **Cadence:** Tuesday + Friday (per saved-posts engagement analysis 2026-05-18)
   **Lane discipline:** No political/heavy figures in this arc. They get held for arc 2 when the account is warmer (Instagram throttles political content on cold accounts).
@@ -21,9 +25,26 @@
 
 ## Why these 8, in this order
 
-This arc isn't a theme on top of the north star — the north star _is_ the theme. These 8 are picked because their lore is the most curiosity-generating in the roster right now, with discipline on lane (no political figures on a cold account) and an alternating rhythm of energy (creator → music → thinker) so the feed doesn't read same-y.
+These 8 are picked because their lore is the most curiosity-generating in the roster right now, with discipline on lane (no political figures on a cold account) and an alternating rhythm of energy (creator → music → thinker) so the feed doesn't read same-y.
 
-Each person below is framed as: _"Here's the lore that makes you wonder what makes them tick."_ The post never explains. The blog does.
+Each person anchors an Enneagram **type**, and is framed as living proof of that type's pattern. The slide stacks the lore; the caption names the type and speaks to the people who live it. The blog goes deep.
+
+### Type → Pond coordination (work the pond the week the post runs)
+
+Per the [engagement strategy](../personality-series-engagement-strategy.md). Full vernacular + accounts in the [pond map](../enneagram-engagement-clusters.md).
+
+| #   | Person            | Type | Pond (their words)                               | Hashtags to work that week                  |
+| --- | ----------------- | ---- | ------------------------------------------------ | ------------------------------------------- |
+| 1   | Tim Ferriss       | 1    | perfectionism · eldest-daughter · inner critic   | #perfectionism #eldestdaughter #innercritic |
+| 2   | Sabrina Carpenter | 3    | imposter syndrome · hustle-burnout · "that girl" | #impostersyndrome #hustleculture #thatgirl  |
+| 3   | Kai Cenat         | 7    | ADHD · dopamine · "can't sit still"              | #adhd #dopamine #fomo                       |
+| 4   | Lana Del Rey      | 4    | sad-girl · main-character · HSP                  | #sadgirl #maincharacterenergy #hsp          |
+| 5   | Charli XCX        | 3    | imposter syndrome · hustle (same pond as #2)     | #impostersyndrome #hustleculture            |
+| 6   | Chappell Roan     | 8    | control · fierce boundaries · strong-woman       | #boundaries #controlissues #strongwoman     |
+| 7   | Robert Greene     | 5    | avoidant attachment · introvert · INTJ           | #introvert #avoidantattachment #intj        |
+| 8   | Pedro Pascal      | 6    | anxiety · anxious attachment · overthinking      | #anxiety #anxiousattachment #overthinking   |
+
+**Coverage gap:** Arc 1 hits types 1, 3, 3, 4, 5, 6, 7, 8 — **no Type 2 or Type 9.** Type 2 (people-pleasing / empath / narcissist-survivor) is one of the biggest ponds online and has no lure here. Prioritize a published Type 2 and Type 9 anchor for Arc 2 (no published analysis exists for either yet — upstream content blocker).
 
 ---
 
@@ -34,7 +55,7 @@ Each person below is framed as: _"Here's the lore that makes you wonder what mak
 | 0    | —   | 0   | **Intro 2-slide carousel** | Series framer                                                                                                      | Caption ready (2026-05-19 doc) |
 | 1    | Tue | 1   | **Tim Ferriss**            | Was a lab rat in Daniel Kahneman's experiments. His first product sold two copies — one to his mom.                | ✅ Built below                 |
 | 1    | Fri | 2   | **Sabrina Carpenter**      | Her dad turned the family's "Harry Potter closet" into her studio. Then she wrote Espresso in a French ghost town. | ✅ Built below                 |
-| 2    | Tue | 3   | **Kai Cenat**              | Dropped to his knees and prayed after turning down $60M. Went dark for two months after his biggest stream ever.   | ✅ Built below                 |
+| 2    | Tue | 3   | **Kai Cenat**              | Turned down $60M and prayed on his knees. Launching Streamer University now — while telling the world he has ADHD. | ✅ Rebuilt 2026-06-18          |
 | 2    | Fri | 4   | **Lana Del Rey**           | The sad-glam queen of Hollywood married a Louisiana alligator tour guide she met on his swamp boat.                | ✅ Built below                 |
 | 3    | Tue | 5   | **Charli XCX**             | "Brat" looked like pure chaos. There was a 20-page manifesto before a single song was recorded.                    | ✅ Built below                 |
 | 3    | Fri | 6   | **Chappell Roan**          | Was a donut shop cashier four years ago. Her uncle is a Republican state rep.                                      | ✅ Built below                 |
@@ -135,26 +156,37 @@ The full Type 1 breakdown — where the inner critic comes from, why nothing eve
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
 
 ```
-1. Her dad turned the family's "Harry Potter closet" into a recording
-   studio and painted it purple. (97 / deep)
+1. Her aunt is the voice of Bart Simpson — and got 8-year-old Sabrina
+   her first agent. (83 / shocker)
 
-2. She wrote "Espresso" in Chailland, France — a ghost town with an
-   empty church and one creperie. (95 / deep)
+2. She trained 6 days a week as a kid. "I wanted to be the best at
+   everything." (76 / deep)
 
-3. Her "Feather" video got the monsignor stripped of his duties — and
-   pulled the parish into a federal probe. (105 / deep)
+3. Before "Espresso," she dropped four albums in six years. One
+   debuted at #138. (77 / shocker)
 
-4. At Coachella she wore a "Jesus was a carpenter" shirt — fans read
-   it as a wink at the church scandal. (98 / shocker)
+4. Her method is title-first: she names the song, then writes to the
+   punchline. "Manchild" was "Manchild" first. (109 / deep)
 
-5. On tour she "arrests" a celebrity guest with pink handcuffs —
-   Nicole Kidman, Miss Piggy. (87 / shocker) [verify roster before use]
+5. Her viral "Nonsense" outros ran two years. She killed the bit —
+   once it's a brand, it's not hers. (97 / shocker)
 
-6. What sold her on her NYC apartment: the fire escape. "I could watch
-   the rats from above." (89 / shocker)
+6. "Anything I do and say has a little bit of a wink to it." The wink
+   is the tell. (79 / deep)
 ```
 
-**Rhythm:** 3 deep + 3 shockers. Opens charming (closet studio), heaviest beat in the middle (federal probe), closes light (rats).
+**Rhythm:** 3 shockers + 3 deep, alternating S-D-S-D-S-D. Opens light-and-surprising (the Bart Simpson aunt), then builds the Achiever arc — the lifelong drive → the grind nobody mentions → the title-first control → killing her own viral bit → the wink. Every beat reveals the Type 3, not just her résumé.
+
+**Reoriented 2026-06-17 (personality-first):** The old six were lore trivia (closet studio, church-video probe, pink handcuffs, fire-escape rats) — scroll-stopping but they revealed nothing about who she is. Swapped for tidbits that show the Type 3 Achiever engine. All sourced in `src/blog/people/drafts/Sabrina-Carpenter.md`.
+
+**Hold for stories (the old lore — still great, just not personality-revealing):**
+
+- Her dad turned the family's "Harry Potter closet" into a studio and painted it purple. (97)
+- She wrote "Espresso" in Chailland, France — a ghost town with an empty church and one creperie. (95)
+- Her "Feather" video got the monsignor stripped of his duties — and pulled the parish into a federal probe. (105)
+- At Coachella she wore a "Jesus was a carpenter" shirt — fans read it as a wink at the church scandal. (98)
+- On tour she "arrests" a celebrity guest with pink handcuffs — Nicole Kidman, Miss Piggy. (87) [verify roster before use]
+- What sold her on her NYC apartment: the fire escape. "I could watch the rats from above." (89) — the one genuine off-stage beat; swap it in as a closer if you'd rather end on the private her than the wink.
 
 **Cut 2026-06-09:** The "bumblebee to keep her humble" fact is UNVERIFIED — only sources are 9takes' own article and fan wikis (circular). Don't run it until re-sourced from a real interview. ⚠️ Also re-source or soften it in the 9takes Sabrina blog itself.
 
@@ -190,63 +222,73 @@ The full Type 3 breakdown — why the image is the product, what "winning the ro
 # Post 3 — Kai Cenat
 
 **Schedule:** Week 2 Tuesday
-**Lore hook:** Dropped to his knees and prayed after turning down $60M. Went dark for two months after his biggest stream ever.
+**Lore hook:** Turned down $60M and prayed on his knees. Vanished into anime for weeks when his own life got too loud. Now launching Streamer University while telling the world he has ADHD.
 **Finalized 2026-06-09** with fact-check corrections (no closet — he prayed on his knees after hanging up; Kim hurled the table, not "over his head").
+**Leveled-up 2026-06-18 (psychology-first + timely peg).** The old slide was 4/6 spectacle (Kim's table, Rizz, LeBron's locs, $5M school) — résumé facts that fail the wound test. Rebuilt around the Type 7 engine the #adhd/#dopamine pond is actually searching for: momentum-as-medicine, the crash when it stops, escapism, the reach for stillness. Hooked to the live news peg — **Streamer University Season 2** (applications opened 2026-06-08 via a Harry Potter parody trailer; in-person rounds NYC 6/12, LA 6/14, ATL 6/16 — Atlanta shut down by police 6/16 over crowd chaos/arrests, rescheduled 6/17). New deep cuts sourced below; one carries a fact-check flag (⚠️).
 
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
 
 ```
 1. He turned down $60M from Kick — then dropped to his knees and
-   prayed the moment he hung up. (89 / deep)
+   prayed the second he hung up. (90 / shocker)
 
-2. Kim Kardashian hurled a glass table at him mid-stream. He was
-   helmeted. She later said "I take accountability." (110 / shocker)
+2. "People get comfortable, and things can slow down." His rule for
+   never letting a stream go quiet. (96 / deep)
 
-3. LeBron James cut his locs on stream when he hit 1M Twitch subs.
-   His mother snipped the first one. (97 / shocker)
+3. He's said he lives with ADHD, anxiety, and dyslexia — worst when
+   he's out in public or creating. (95 / deep) ⚠️
 
-4. "Rizz" — the word he popularized — was Oxford's 2023 Word of the
-   Year. (66 / shocker)
+4. Streamer University is a real school he funds himself. 2026
+   auditions drew crowds the police shut down. (101 / shocker)
 
-5. He pledged $5M to build a school in Nigeria after seeing 300
-   students share one Lagos classroom. (96 / deep)
+5. When his own life got too loud, he vanished into Naruto and Death
+   Note for weeks. (79 / shocker)
 
-6. After the biggest stream of his life, he went dark for two months:
-   "I was losing touch of reality." (100 / deep)
+6. After his biggest stream ever, he went dark for two months: "I was
+   losing touch of reality." (94 / deep)
 ```
 
-**Rhythm:** 3 shockers + 3 deep. Opens on the prayer (sets the engine question), closes on the vanishing act (heaviest beat).
+**Rhythm:** 3 shockers + 3 deep, alternating S-D-D-S-S-D. Opens on the prayer (why would saying no scare him into prayer?), mirrors the pond three times (momentum rule, the ADHD self-disclosure, the anime escape), lands on the crash. Every beat is the Type 7 engine — none is résumé.
 
-**Hold for stories:**
+**⚠️ Fact-check flag (tidbit 3):** Kai's ADHD / anxiety / dyslexia self-disclosure is widely reposted (TikTok/IG clips, 2026) but I have not traced it to a single primary interview. Before publishing, confirm the original clip and keep the framing as **"he's said"** (self-description), never "diagnosed." This is the highest-leverage tidbit on the slide — it's the literal pond mirror — so it's worth the 5-minute source check. If it can't be confirmed, swap in the reading beat from Hold (also a clean Type 7-in-growth mirror).
 
+**Swap option (growth beat over escape beat):** Replace #5 with — _His "secret" channel is just him reading aloud 10 min a day, trying to speak better. (87 / deep)_ Anti-Type-3 tell (a 3 would never film himself struggling). Already in the blog, fully sourced.
+
+**Hold for stories (the old spectacle — great trivia, fails the wound test):**
+
+- Kim Kardashian hurled a glass table at him mid-stream. He was helmeted. She later said "I take accountability." (110)
+- LeBron James cut his locs on stream at 1M subs; his mother snipped the first one. (82)
+- "Rizz," the word he popularized, was Oxford's 2023 Word of the Year. (66)
+- He pledged $5M to build a school in Nigeria after seeing 300 students share one Lagos classroom. (96)
 - The Chainsmokers DJed a 40-minute set in his bathroom during his shower routine. (78)
-- His riot charge from the Union Square giveaway was dropped after $55K restitution and a public apology. (101)
-- Streamer University at Akron: ~120 students picked from 1M+ applicants, all-expenses-paid out of his own pocket. (108) [say "reportedly $3M" if using the number — only aggregators carry it]
+- His Union Square riot charge was dropped after $55K restitution and a public apology. (87)
+- Streamer University at Akron (2025): ~120 students from 1M+ applicants, all-expenses-paid out of his own pocket. (110) [say "reportedly $3M" if using the number — only aggregators carry it]
+- He described being in love not as "fun" but "peaceful." (54) — the blog's payoff word; keep it OFF the slide (it's the answer, not the question) and use it in the pinned comment.
 
 ## Caption
 
 ```
-Do you pack every gap in your calendar so there's no room to sit still? Chase the next thing before the last one's even over? Feel a crash the moment the fun stops?
+Can't sit still? Pack every silence with noise? Chase the next thing before the last one even lands — then crash the second the fun stops?
 
-That's Enneagram Type 7 — the Enthusiast. And Kai Cenat is the most extreme version on the internet.
+That's Enneagram Type 7 — the Enthusiast. And Kai Cenat is the most extreme version alive.
 
-A billion-view career built on never stopping — bigger streams, bigger stunts, more. Sevens run on momentum because the motion keeps the hard stuff from catching up.
+He's said he lives with ADHD and anxiety, and his whole career is one long refusal to let the room go quiet: "People get comfortable, and things can slow down." Right now he's launching Streamer University — auditions so packed the police shut them down. Sevens run on momentum because the motion keeps the heavy stuff from catching up.
 
-Then, after the biggest stream of his life, he went dark for two months: "I realized I was losing touch of reality." That's the Seven's hidden bill — what arrives when the perpetual motion finally stops.
+Then it catches up. After the biggest stream of his life he went dark for two months — "I was losing touch of reality" — and disappeared into anime just to live inside a quieter story than his own.
 
-The catch with Sevens: the speed is the gift and the avoidance, at the exact same time.
+The catch with Sevens: the speed is the gift and the escape hatch at the exact same time. (The first time Kai called something "peaceful," he said it like a word in a foreign language.)
 
 Full breakdown of Kai — and the Type 7 pattern under the grind — on 9takes. Link in bio.
 
 Are you a Type 7? Tag one who can't sit still. 👇
 
-#enneagram #personalityanalysis #enneagramtype7 #theenthusiast #kaicenat #twitch #streamer #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+#enneagram #personalityanalysis #enneagramtype7 #theenthusiast #kaicenat #streameruniversity #adhd #dopamine #twitch #personalitypsychology #patternrecognition #9takes
 ```
 
 ## Pinned first comment
 
 ```
-The full Type 7 breakdown — why Sevens keep moving, what the crash is really about, and how Kai runs on it:
+The full Type 7 breakdown — why Kai can't slow down, what the crash is really about, and the one word he used for love that explains everything:
 9takes.com/personality-analysis/kai-cenat
 ```
 

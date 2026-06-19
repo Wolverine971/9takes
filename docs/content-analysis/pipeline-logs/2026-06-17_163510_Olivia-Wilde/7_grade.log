@@ -1,0 +1,23 @@
+Graded and written to the file.
+
+## Grading Complete — Olivia-Wilde
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Olivia-Wilde | 8 | 9 | 9 | 9 | 9 | 9 | **8.8** | **B+** |
+
+Weighted: (8×1.5 + 9×1.5 + 9×1.5 + 9 + 9 + 9×0.5) / 7 = 8.8. Discoverability ≥ 7 → gate passes.
+
+### Key observations
+- **Above publication threshold (8.5).** This is a strong B+ knocking on A's door — the only thing under 9 is Evidence.
+- **The original frame carries it.** The journalist-dynasty thesis ("the family business turned the camera on her") and the self-renaming-before-her-first-credit insight are genuinely fresh and survive the swap test. The custody-petition-onstage hook is excellent.
+- **Textbook rabbit-hole discipline.** Every wing/subtype/arrow/counter-typing case (3w2, so/3, 9→6 arrows, the 8 and 1 alternatives) is quarantined to the accordion. Body stays accessible; empathy turn + interior beat + felt fear all land.
+- **One real weakness:** Evidence leans on Wikipedia with only 2 collaborator quotes, plus a single-tabloid salad-dressing line the draft's own SECOND PASS note already flags.
+
+### To reach A (9.0+)
+1. Add one more dated, attributed quote in her own voice (directing pivot or post-2022 rebuild) and cut the tabloid salad-dressing detail → Evidence to 9.
+2. Optional: fold a search-intent term into `meta_title` (currently the curiosity-gap "Why Olivia Wilde Couldn't Control Her Own Story" — `title` and `description` already carry "Enneagram Type 3," so this is minor).
+
+Also flagged inline: the existing EDITOR PASS comment claiming "no faqs in frontmatter" is **stale** — the frontmatter has 5 real FAQ-schema questions. I noted it in the grade so a future pass doesn't act on it.
+
+**Total graded this session: 1**

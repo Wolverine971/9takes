@@ -172,7 +172,7 @@ That's the gap the Enneagram fills. (New to it? Start with our [quick Enneagram 
 </div>
 </div>
 
-For a detailed breakdown, see our [Enneagram vs Myers-Briggs comparison](/enneagram-corner/enneagram-vs-meyers-briggs).
+For a detailed breakdown, see our [Enneagram vs Myers-Briggs comparison](/enneagram-corner/enneagram-vs-meyers-briggs). And for the Enneagram measured against MBTI, Big Five, DISC, and more, see [how it compares to 14 personality frameworks](https://9takes.com/enneagram-corner/enneagram-vs-personality-frameworks-comparison).
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[
