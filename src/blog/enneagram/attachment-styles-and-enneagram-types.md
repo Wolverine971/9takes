@@ -627,38 +627,6 @@ They work on different levels. Attachment tells you _what_ your pattern is. Enne
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "This article explores the deep connection between Enneagram personality types and attachment styles. It provides a comprehensive guide to understanding how each of the 9 Enneagram types develops specific attachment patterns (secure, anxious, avoidant, or disorganized) and offers practical strategies for healing attachment wounds based on personality type. The article covers all 36 combinations of Enneagram types and attachment styles, providing specific healing practices, compatibility insights, and a plan for earned secure attachment.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2026-01-18",
-      "datePublished": "2025-08-29",
-      "description": "Discover how your Enneagram type shapes your attachment style. Complete guide to all 36 personality + attachment combinations with healing strategies that actually work.",
-      "headline": "Attachment Styles and Enneagram Types: Why the Same Style Looks Different",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/enneagram-corner/attachment_styles_enneagram_types_psychology.webp",
-        "width": 1600
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/attachment-styles-and-enneagram-types",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

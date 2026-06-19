@@ -745,59 +745,6 @@ While stress takes you to your worst, growth takes you to your best. Each type a
 
 _Ready to master your patterns? Explore [the Enneagram types](/enneagram-corner) or discover [how to recognize stress in others](/enneagram-corner/enneagram-types-in-relationships)._
 
-<svelte:head>
-
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-  },
-  "dateModified": "2025-08-15",
-  "datePublished": "2023-02-17",
-  "description": "Discover your Enneagram stress number and learn how it affects your behavior and relationships. Knowing your stress number can help you manage your stress and develop healthy coping mechanisms. Find out how each Enneagram type reacts under stress and how to interact with them more effectively.",
-  "headline": "Your Dark Side Has a Number (And It's About to Ruin Your Day)",
-  "image": {
-    "@type": "ImageObject",
-    "height": 900,
-    "url": "https://9takes.com/blogs/feeling-tension.webp",
-    "width": 900
-  },
-  "keywords": ["enneagram stress number", "enneagram disintegration", "personality under stress", "stress patterns", "enneagram breakdown", "shadow personality", "stress response types", "path of disintegration", "emotional triggers", "personality collapse", "stress transformation", "enneagram crisis", "Type 1 stress", "Type 2 stress", "Type 3 stress", "Type 4 stress", "Type 5 stress", "Type 6 stress", "Type 7 stress", "Type 8 stress", "Type 9 stress", "anger fear shame", "psychological breakdown", "stress management enneagram"],
-  "wordCount": 4200,
-  "articleSection": "Enneagram",
-  "url": "https://9takes.com/enneagram-corner/enneagram-stress-number",
-  "articleBody": "Discover your predictable breakdown pattern through the Enneagram stress number system. Every personality type has a specific transformation under pressure - perfectionists become melodramatic, helpers turn aggressive, achievers check out completely. This guide reveals the mathematical predictability of personality collapse, the three core emotions (anger, shame, fear) that trigger breakdowns, and emergency recovery protocols for each type. Learn to recognize your warning signs before you snap and master the difference between disintegration and integration paths. Includes practical circuit breakers and prevention strategies for all nine types.",
-  "mainEntityOfPage": {
-    "@id": "https://9takes.com/enneagram-corner/enneagram-stress-number",
-    "@type": "WebPage"
-  },
-  "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
-      },
-  "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-}
-</script>
-
-</svelte:head>
-
 <style lang="scss">
   h4 {
     padding: 0;

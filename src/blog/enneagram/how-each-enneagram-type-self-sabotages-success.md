@@ -553,50 +553,6 @@ The pattern won't disappear overnight. But every time you catch it mid-fire and 
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This guide explores how each Enneagram type sabotages their own success through predictable patterns rooted in childhood protection mechanisms. It covers Type 1's paralysis by perfectionism, Type 2's martyrdom and burnout, Type 3's workaholism, Type 4's creative blocks, Type 5's analysis paralysis, Type 6's worst-case spiraling, Type 7's shiny object syndrome, Type 8's bridge burning, and Type 9's procrastination, with specific strategies to break each pattern.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-31",
-      "datePublished": "2025-12-04",
-      "description": "You can see the pattern happening and still can't stop it. Each Enneagram type has a specific self-sabotage loop wired in childhood. Here's yours, and how to interrupt it.",
-      "headline": "How Each Enneagram Type Self-Sabotages Success (And How to Stop)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-self-sabotage.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/how-each-enneagram-type-self-sabotages-success",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["self-sabotage", "enneagram success", "self-sabotaging behavior", "perfectionism", "procrastination", "workaholism", "fear of success", "personal growth enneagram"],
-      "wordCount": 3800,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/how-each-enneagram-type-self-sabotages-success"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

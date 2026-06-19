@@ -41,42 +41,6 @@ QUALITY_FEEDBACK_END -->
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This guide explores why dating apps systematically disadvantage certain personality types. It covers how the swipe-based, photo-first, algorithm-driven format of modern dating apps was designed by and for specific personality types and fails others. The article examines each Enneagram type's specific struggles with dating apps and offers type-appropriate strategies.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-01-06",
-      "datePublished": "2025-01-06",
-      "description": "Dating apps aren't designed for everyone. Discover how the swipe-based, algorithm-driven format systematically fails certain Enneagram types, and what to do about it.",
-      "headline": "Why Dating Apps Are Harder for Certain Personality Types",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-phone-dating-apps.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

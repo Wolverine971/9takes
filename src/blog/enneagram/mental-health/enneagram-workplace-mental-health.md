@@ -662,55 +662,6 @@ Not immediately. Burnout clouds judgment. First, recover enough to think clearly
 
 Ask three questions: "What drains your energy fastest?", "When do you do your best work?", and "What makes you want to quit?" Answers reveal type and needs without requiring formal typing. Then match assignments and environments to natural strengths. Type 5s need deep work blocks. Type 3s need visible impact. Type 9s need their opinions actively solicited. One-size-fits-all management guarantees some types will burn out.
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "Comprehensive guide exploring how each Enneagram type experiences workplace stress, burnout patterns, and mental health challenges. Includes type-specific strategies for employees, managers, and organizations to create mentally healthy work environments.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-04-16",
-      "datePublished": "2025-08-25",
-      "description": "Type 1s burn out fixing broken systems. Type 2s burn out as everyone's unpaid therapist. Type 5s burn out in open offices running meetings-about-meetings. Here's your type's specific burnout formula and the workplace conditions that quietly break you.",
-      "headline": "Why You're Burning Out at Work (Your Enneagram Type Reveals the Hidden Cause)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-on-laptop-stressed.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-workplace-mental-health",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "keywords": ["enneagram workplace", "burnout prevention", "workplace mental health", "personality types", "stress management", "employee wellbeing", "organizational psychology"]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
 <style lang="scss">
   .medical-disclaimer {
     background-color: #fff3cd;

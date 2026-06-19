@@ -461,55 +461,6 @@ In this panel moderated by Beatrice Chestnut, Type 2s share their inner experien
       "name": "Enneagram type 2"
     },
     {
-      "@type": "BlogPosting",
-      "name": "Why You Can't Say No (Type 2 People-Pleasing Exhaustion)",
-      "description": "Feel guilty every time you prioritize yourself? That's Type 2. Learn why you can't say no, why helping feels mandatory, and how to stop giving until you're empty.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram Type 2",
-        "The Helper",
-        "The Giver",
-        "Empathy",
-        "Relationships",
-        "People pleasing",
-        "Emotional intelligence",
-        "Caregiving",
-        "Pride",
-        "Humility"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-2",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 3800,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-2",
-      "articleBody": "A comprehensive guide to Enneagram Type 2, known as 'The Helper.' This exploration reveals how childhood experiences create a bargain where love becomes conditional on usefulness. Discover the one-way mirror that lets Twos see others' needs while remaining blind to their own, the pride that masquerades as humility, and their path to integration through learning to receive. Understand how Twos transform from compulsive givers to balanced individuals who understand that love exists independent of service."
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -548,7 +499,6 @@ In this panel moderated by Beatrice Chestnut, Type 2s share their inner experien
     }
   ]
 }
-
 </script>
 
 </svelte:head>

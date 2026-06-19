@@ -147,66 +147,9 @@ The Sufis used it to find God. Gurdjieff used it to wake people up. Naranjo used
 <svelte:head>
 
   <script type="application/ld+json">
-	{
+{
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "articleBody": "The Enneagram has no single creator, emerging from the collision of Sufi mysticism, Greek philosophy, and Western psychology. The Sufi tradition mapped the soul's relationship to God through nine points representing divine qualities. Gurdjieff brought the symbol West as a tool for waking up from mechanical patterns. Oscar Ichazo connected the nine points to specific personality patterns, while Claudio Naranjo married mystical insight with Western psychology to create the Enneagram of Personality. The system's core ideas echo Plato's tripartite soul and Freud's id, ego, and superego. Modern schools include the Narrative Tradition, where people learn types through stories, and the Integrative Tradition, which emphasizes growth and development.",
-      "author": {
-			"@type": "Person",
-			"name": "DJ Wayne",
-			"sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-		},
-      "dateModified": "2024-04-08",
-      "datePublished": "2023-03-02",
-      "description": "The Enneagram has no single creator. Trace its lineage from Sufi mystics to Chilean psychiatrists and discover why each tradition matters for how you use it today.",
-      "headline": "Who Built the Enneagram? The Mystics, Psychiatrists, and Philosophers Behind the System",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-influences",
-        "@type": "WebPage"
-      },
-      "mentions": [
-        {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
-        },
-        {
-          "@type": "Person",
-          "name": "George Gurdjieff",
-          "sameAs": ["https://cac.org/daily-meditations/gurdjieff-and-the-enneagram-2020-03-02/", "https://en.wikipedia.org/wiki/George_Gurdjieff"]
-        },
-        {
-          "@type": "Person",
-          "name": "Oscar Ichazo",
-          "sameAs": ["https://en.wikipedia.org/wiki/Oscar_Ichazo", "https://www.arica.org/oscar-ichazo"]
-        },
-        {
-          "@type": "Person",
-          "name": "Claudio Naranjo",
-		  "sameAs": ["https://en.wikipedia.org/wiki/Claudio_Naranjo", "https://www.claudionaranjo.net/home.html"]
-        }
-      ],
-      "keywords": ["enneagram influences", "enneagram history", "enneagram traditions", "sufi enneagram", "gurdjieff enneagram", "oscar ichazo", "claudio naranjo", "enneagram development", "enneagram schools", "enneagram origins"],
-      "wordCount": 1847,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-influences",
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

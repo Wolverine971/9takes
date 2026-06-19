@@ -634,54 +634,10 @@ Want to see how your personality plays out in real situations? Explore our <a hr
 <svelte:head>
 
 <script type="application/ld+json">
-  {
+{
   "@context": "https://schema.org",
   "@graph": [
-{
-  "@type": "BlogPosting",
-  "articleBody": "Your greatest strength often hides your greatest weakness—and the Enneagram reveals both. While traditional personality assessments focus on behaviors, the Enneagram goes deeper, uncovering the motivations and fears that shape how we show up in the world. This comprehensive guide explores each Enneagram type's natural strengths, shadow sides, energizers, and drainers, plus practical strategies for leveraging your unique wiring for personal and professional growth.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-  },
-  "dateModified": "2025-12-20",
-  "datePublished": "2023-05-10",
-  "description": "Every type has a fatal flaw that sabotages success and a hidden superpower others wish they had. Find out why Type 1s self-destruct through perfectionism, why Type 7s can't focus, and what your type's kryptonite really is.",
-  "headline": "Your Type's Fatal Flaw (And Secret Superpower) Based on Enneagram",
-  "keywords": [
-    "Enneagram strengths",
-    "Enneagram weaknesses",
-    "personality strengths and weaknesses",
-    "Enneagram types",
-    "energizers and drainers",
-    "leveraging strengths",
-    "personal growth",
-    "Enneagram self-awareness"
-  ],
-  "mainEntityOfPage": {
-    "@id": "https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses",
-    "@type": "WebPage"
-  },
-  "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/enneagram_of_Personality"
-              ]
-     },
-  "publisher": {
-    "@type": "Organization",
-    "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-    "name": "9takes",
-    "url": "https://9takes.com"
-  },
-  "url": "https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses"
-  },
-  {
+    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -744,7 +700,6 @@ Want to see how your personality plays out in real situations? Explore our <a hr
     }
   ]
 }
-
 </script>
 
 </svelte:head>

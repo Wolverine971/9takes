@@ -28,38 +28,6 @@ path: src/blog/community/software-and-hardware-of-the-mind.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "This article argues that modern psychology has mapped the brain's physical hardware in extraordinary detail while abandoning the study of its software—emotions, personality, and the patterns that actually govern our lives. It traces this gap from Jung's fall from favor through the rise of behaviorism and neuroimaging, then back to the ancient Greeks, who built a sophisticated system of emotional pattern recognition through their gods, theater, and philosophy. The article makes the case that the Enneagram, by organizing personality around three core emotions—anger, shame, and fear—goes deeper than trait-based models like the Big Five, which describe what you are but never why.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2026-02-21",
-      "datePublished": "2023-12-10",
-      "description": "Modern psychology mapped the brain's hardware but abandoned its software. The ancient Greeks understood emotions through archetypes. The Enneagram picks up where they left off.",
-      "headline": "The Hardware and Software of the Mind",
-      "image": {
-        "@type": "ImageObject",
-        "height": 800,
-        "url": "https://9takes.com/blogs/greek-mind.webp",
-        "width": 800
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/community/software-and-hardware-of-the-mind",
-        "@type": "WebPage"
-      },
-      "publisher": {
-            "@type": "Organization",
-            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-            "logo": {
-               "@type": "ImageObject",
-               "url": "https://9takes.com/brand/aero.png"
-            },
-            "name": "9takes"
-         }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

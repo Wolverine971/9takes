@@ -31,52 +31,6 @@ path: src/blog/pop-culture/the-office-enneagram-types.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of the main characters of NBC's The Office, mapping how Michael Scott, Jim Halpert, Pam Beesly, Dwight Schrute, Angela Martin, Stanley Hudson, Kelly Kapoor, and the rest of Dunder Mifflin Scranton represent distinct personality types — and why their forced proximity made the sitcom work for nine seasons.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-05-07",
-      "datePublished": "2026-05-07",
-      "description": "Michael Scott as a Type 2 explains everything. Dwight as a Type 6 explains the rest. Why The Office worked: nine personality types, one paper company, zero self-awareness.",
-      "headline": "The Office Enneagram Types: Why Dunder Mifflin Was a Personality Disaster Built to Last",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/the-office-enneagram-types",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "The Office Enneagram",
-        "Michael Scott Enneagram type",
-        "Dwight Schrute Enneagram",
-        "Jim Halpert personality type",
-        "Pam Beesly Enneagram",
-        "Angela Martin Type 1",
-        "Dunder Mifflin",
-        "NBC The Office",
-        "sitcom psychology"
-      ],
-      "articleSection": "Pop Culture"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

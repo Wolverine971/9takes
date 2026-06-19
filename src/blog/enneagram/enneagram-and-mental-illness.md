@@ -714,50 +714,6 @@ Explore these comprehensive guides for specific mental health topics by Enneagra
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This article provides an in-depth guide on each Enneagram type's predispositions to specific mental health challenges. It highlights the shadow side, or negative aspects, of each personality type and describes how these can lead to unique mental health risks. The article offers two detailed examples of unhealthy spirals for each type and discusses how their coping mechanisms can exacerbate these negative patterns, providing a comprehensive understanding of each type's mental health journey.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-20",
-      "datePublished": "2023-12-08",
-      "description": "Each Enneagram type shows specific vulnerabilities to certain mental health conditions. Type 1s commonly struggle with OCD, Type 4s with depression, Type 6s with anxiety. Understand your type's mental health risks.",
-      "headline": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-2-sided-mask.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-and-mental-illness",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["enneagram", "mental health", "personality types", "psychology", "mental illness", "shadow side", "personality disorders", "self-awareness", "emotional health", "enneagram types"],
-      "wordCount": 5000,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-and-mental-illness"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

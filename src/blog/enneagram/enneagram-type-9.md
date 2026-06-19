@@ -461,64 +461,13 @@ What do these people have in common? A grounding presence that puts others at ea
 <svelte:head>
 
 <script type="application/ld+json">
-  {
+{
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",
       "description": "Enneagram Type 9 personalities are known for maintaining harmony and avoiding conflict in their relationships. They are empathetic and optimistic and strongly desire to create a peaceful and comfortable environment for themselves and others.",
       "name": "Enneagram type 9"
-    },
-    {
-      "@type": "BlogPosting",
-      "name": "You're Not Lazy, You're Protecting Your Peace (Type 9 Explained)",
-      "description": "Feel like you disappear to keep everyone comfortable? You're not alone. Explore how Type 9s navigate the world, why harmony matters so deeply, and how to honor your own voice too.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram Type 9",
-        "The Peacemaker",
-        "Harmony",
-        "Avoiding conflict",
-        "Anger triad",
-        "Body type",
-        "Type 9 workplace",
-        "Type 9 relationships",
-        "Type 9 growth",
-        "Type 9 mistype",
-        "Passive aggressive",
-        "Integration Type 3"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-9",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 3800,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-9",
-      "articleBody": "A comprehensive guide to Enneagram Type 9, 'The Peacemaker.' Learn why Type 9 sits in the anger triad despite seeming calm, how buried anger manifests as passive resistance, and the body-based wisdom Nines often overlook. Explore how Nines navigate relationships and the workplace, common mistypes with Types 2, 4, 5, and 7, and concrete examples of what healthy integration looks like day-to-day. Understand how Nines can honor their peacemaking gifts while showing up fully as themselves."
     },
     {
       "@type": "FAQPage",
@@ -567,7 +516,6 @@ What do these people have in common? A grounding presence that puts others at ea
     }
   ]
 }
-
 </script>
 
 </svelte:head>

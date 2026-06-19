@@ -20,62 +20,6 @@ path: src/blog/community/why-im-selective-sharing-enneagram.md
 	import  QuickAnswer  from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Enneagram Changed My Life, But I Learned to Shut Up About It",
-  "description": "Why enthusiasm for the Enneagram backfires, and the tactical approach to sharing without becoming that person who psychoanalyzes everyone at parties.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2024-03-09",
-  "dateModified": "2026-03-12",
-  "url": "https://9takes.com/community/why-im-selective-sharing-enneagram",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/giving-a-speech.webp",
-    "width": 900,
-    "height": 900
-  },
-  "articleSection": "Psychology",
-  "keywords": ["Enneagram", "personality types", "self-development", "communication", "psychology", "personal growth"],
-  "wordCount": 2847,
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Community Blog",
-    "url": "https://9takes.com/community"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/community/why-im-selective-sharing-enneagram"
-  }
-}
-</script>
-
-</svelte:head>
-
 <QuickAnswer question="How do you share the Enneagram without being annoying?">
 **Share your own growth, not their diagnosis.** Talk about what you learned about yourself, not what you've figured out about them. Invite curiosity instead of assigning types. Be a beacon — people who need what you've found will come to it when they're ready.
 </QuickAnswer>

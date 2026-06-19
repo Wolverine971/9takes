@@ -230,45 +230,6 @@ For more on personality dynamics in social situations, see [how each Enneagram t
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "Learn how to get each Enneagram type to actually show up to your party with tailored invitation strategies and party setups that make everyone feel at home.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/","https://www.youtube.com/@djwayne3","https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-01-06",
-      "datePublished": "2023-12-09",
-      "description": "The secret to a great party? Knowing what makes each personality type say yes. Here are the exact invites and setups that work for all 9 types.",
-      "headline": "How to Throw a Party Everyone Actually Wants to Attend",
-      "keywords": ["Enneagram", "party planning", "personality types", "event planning", "social dynamics", "invitation strategies", "how to throw a party"],
-      "wordCount": 2100,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-party-planner",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-partying.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-party-planner",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/","https://twitter.com/9takesdotcom"
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -307,7 +268,6 @@ For more on personality dynamics in social situations, see [how each Enneagram t
     }
   ]
 }
-
 </script>
 
 </svelte:head>

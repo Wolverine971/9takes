@@ -575,55 +575,6 @@ note="If six or more of these resonate, you likely have strong Type 6 patterns. 
       "name": "Enneagram type 6"
     },
     {
-      "@type": "BlogPosting",
-      "name": "Why You Can't Stop Worrying (Type 6 Anxiety Patterns)",
-      "description": "Can't quiet the 'what if' spiral even when everything's fine? That's Type 6. Learn why your mind catastrophizes, why trust feels impossible, and how to stop worst-case thinking.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram Type 6",
-        "The Loyalist",
-        "The Skeptic",
-        "Security",
-        "Anxiety",
-        "Trust",
-        "Authority",
-        "Loyalty",
-        "Fear",
-        "Courage"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-6",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 4200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-6",
-      "articleBody": "A comprehensive guide to Enneagram Type 6, known as 'The Loyalist.' This exploration reveals how childhood betrayals create a lifelong search for solid ground and reliable authority. Discover how Sixes navigate the paradox of craving and questioning guidance, their complex relationship with fear and courage, and their path to integration through developing inner authority. Learn how vigilance becomes wisdom and anxiety transforms into genuine security."
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -678,7 +629,6 @@ note="If six or more of these resonate, you likely have strong Type 6 patterns. 
     }
   ]
 }
-
 </script>
 
 </svelte:head>

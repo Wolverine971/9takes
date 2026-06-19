@@ -252,61 +252,6 @@ Start with [finding your type](/enneagram-corner/enneagram-types-overview). Then
 
 The algorithm won't show you this path. You have to choose it.
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "Part 2 of the blackpill pipeline analysis. Explores what women actually select for in men through an evolutionary and psychological lens, why the blackpill's looks-only framework is incomplete, how pickup culture games the middle layer but misses the foundation, and what genuine masculine strength looks like for each Enneagram type.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-23",
-      "datePublished": "2026-03-23",
-      "description": "The blackpill says looks are everything. Pickup culture says game is everything. Both are wrong. Here's what the biology, psychology, and Enneagram reveal about what genuine masculine strength actually looks like.",
-      "headline": "What Women Actually Select For: Strength, Discipline, and the Masculinity No One Teaches",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/shattered-mirror-dark.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/masculinity-strength-and-the-enneagram",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["masculinity", "Enneagram", "dating", "strength", "emotional intelligence", "blackpill", "red pill", "attraction", "relationships", "men", "personal growth"],
-      "articleSection": "Pop Culture",
-      "wordCount": 3200
-    }
-  ]
-}
-</script>
-
-</svelte:head>
-
 <style lang="scss">
 
 </style>

@@ -28,60 +28,6 @@ path: src/blog/pop-culture/reddit-moderators-type-1-internet.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of Reddit moderators and other unpaid internet janitors, examining why Type 1-style psychology is drawn to rules, order, cleanup, and thankless digital governance.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-02-03",
-      "datePublished": "2025-12-19",
-      "description": "The thankless, unpaid, obsessive work of moderating Reddit and Wikipedia. Why certain personality types are psychologically compelled to govern the internet for free.",
-      "headline": "Reddit Moderators: Why Type 1s Run the Internet",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/reddit-mod-psychology.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/reddit-moderators-type-1-internet",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Reddit moderators",
-        "internet moderation",
-        "Enneagram",
-        "Type 1",
-        "Reddit",
-        "Wikipedia",
-        "online communities",
-        "digital governance",
-        "volunteer moderation",
-        "internet culture"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 2947
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

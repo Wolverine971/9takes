@@ -34,60 +34,6 @@ path: src/blog/pop-culture/trump-type-8-vs-biden-type-2.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "A political psychology analysis of Donald Trump and Joe Biden through the Enneagram lens, contrasting Type 8 challenger energy with Type 2 helper energy to explain why they misread each other so completely.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-02-26",
-      "datePublished": "2025-12-11",
-      "description": "The Challenger vs The Helper. Two presidents wired to think in opposite ways. This explains why American politics feels like two different realities.",
-      "headline": "Trump's Type 8 vs Biden's Type 2: Why They Could Never Understand Each Other",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/trump-biden-contrast.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/trump-type-8-vs-biden-type-2",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Trump",
-        "Biden",
-        "Enneagram",
-        "Type 8",
-        "Type 2",
-        "political psychology",
-        "American politics",
-        "presidential leadership",
-        "personality types",
-        "polarization"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 4293
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -136,43 +136,6 @@ The childhood pattern isn't the problem. It kept you safe when you needed it. Th
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This blog explores the childhood behaviors and characteristics of the nine Enneagram personality types. It discusses how each type may have manifested in childhood, offering insights into the early development of these distinct personality patterns.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2024-07-12",
-      "datePublished": "2023-12-16",
-      "description": "An exploration of the Enneagram personality types through the lens of childhood, examining the early traits and behaviors that correspond to each of the nine types.",
-      "keywords": "Enneagram childhood, personality types children, childhood behaviors, Enneagram kids, childhood development, personality formation, early personality traits, child psychology Enneagram, childhood stereotypes, developmental psychology",
-      "wordCount": 1800,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-childhood-stereotypes",
-      "headline": "9 Childhood Stereotypes Based on the Enneagram",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-babies.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-childhood-stereotypes",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-	{
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -195,7 +158,6 @@ The childhood pattern isn't the problem. It kept you safe when you needed it. Th
     }
   ]
 }
-
 </script>
 
 </svelte:head>

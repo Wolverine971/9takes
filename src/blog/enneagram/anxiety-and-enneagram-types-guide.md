@@ -560,31 +560,6 @@ You might find someone in the comments who gets it.
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "Your anxiety doesn't work like everyone else's. This comprehensive guide explores how anxiety manifests differently for each Enneagram type, from the body-based tension of Types 8, 9, and 1, to the identity-focused anxiety of Types 2, 3, and 4, to the fear-based patterns of Types 5, 6, and 7. Learn practical strategies tailored to your specific wiring.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2026-02-19",
-      "datePublished": "2026-02-01",
-      "description": "Your anxiety has a pattern. Discover how each Enneagram type experiences anxiety differently, and get practical strategies that actually work for your wiring.",
-      "headline": "Why Your Anxiety Is Different (And What Actually Works for Your Type)",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/anxiety-and-enneagram-types-guide",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -34,61 +34,6 @@ path: src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "A personality-psychology analysis of world leaders through the Enneagram lens, examining how different power styles shape conflict, alliance-building, and mutual misunderstanding on the global stage.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-01-20",
-      "datePublished": "2025-01-20",
-      "description": "Three strongmen. Two image-builders. One analyst. How personality psychology explains why world leaders clash, cooperate, and constantly misread each other.",
-      "headline": "Why World Leaders Can't Understand Each Other: The Psychology of Global Power",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/world-leaders-psychology.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/world-leaders-enneagram-personality-dynamics",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "world leaders",
-        "Enneagram",
-        "political psychology",
-        "Trump",
-        "Putin",
-        "Xi Jinping",
-        "Narendra Modi",
-        "Emmanuel Macron",
-        "Angela Merkel",
-        "global power",
-        "leadership styles"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 3679
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

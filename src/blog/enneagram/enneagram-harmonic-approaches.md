@@ -313,42 +313,6 @@ Most of the time, the people you fight with aren't actually wrong about the prob
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "An in-depth guide to the Enneagram Harmonic Approaches developed by Don Riso and Russ Hudson - three coping styles (Reactive, Positive Outlook, Competency) that explain how each Enneagram type handles conflict, adversity, and unmet needs. Includes type-by-type breakdowns, relational mismatches, growth moves, and a quick diagnostic.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2026-05-04",
-      "datePublished": "2026-05-04",
-      "description": "Every Enneagram type defaults to one of three conflict styles: react, reframe, or detach. Decode the Harmonic Approaches and you'll predict friction before it happens.",
-      "headline": "Enneagram Harmonic Approaches: How Each Type Handles Conflict",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-harmonic-approaches",
-        "@type": "WebPage"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-harmonic-conflict-styles.webp",
-        "width": 900
-      },
-      "keywords": ["enneagram harmonic approaches", "enneagram harmonics", "enneagram conflict styles", "reactive positive outlook competency", "riso hudson harmonics", "enneagram coping styles", "enneagram conflict resolution"],
-      "wordCount": 2900,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-harmonic-approaches",
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

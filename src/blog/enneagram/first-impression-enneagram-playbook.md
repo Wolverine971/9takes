@@ -697,39 +697,6 @@ Stop using generic approaches. Start speaking their emotional language.
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "headline": "Read Anyone in 30 Seconds: The Enneagram Body Language Cheat Sheet",
-      "description": "Stop guessing what people want. Learn the 9 personality tells that reveal exactly how to connect with anyone instantly—from job interviews to first dates.",
-      "datePublished": "2025-05-20",
-      "dateModified": "2025-08-15",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/first-impression-enneagram-playbook"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/greek-statues-getting-ready-to-approach.webp",
-        "width": 1200,
-        "height": 630
-      },
-      "articleBody": "Complete guide to reading personality types through body language and making powerful first impressions. Learn the specific tells, questions, and approaches that create instant rapport with each Enneagram type.",
-      "wordCount": 3500,
-      "keywords": ["first impressions", "body language", "Enneagram types", "personality assessment", "instant rapport", "reading people", "nonverbal communication", "personality tells", "connection strategies"]
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

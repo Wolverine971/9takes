@@ -31,51 +31,6 @@ path: src/blog/pop-culture/succession-roy-siblings-enneagram-types.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram analysis of HBO's Succession: how Logan Roy's Type 8 personality shaped each of his four children into a different malformed type — Kendall as a wounded Three, Shiv as an Eight in denial, Roman as a Seven hiding from intimacy, and Connor as a Nine who built a fantasy state to survive the family. Plus Tom, Greg, Gerri, and Willa as supporting type studies.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-05-07",
-      "datePublished": "2026-05-07",
-      "description": "Logan Roy is a Type 8. Each of his children is a different malformed response to that. Why Kendall is a broken Three, Shiv is an Eight in denial, Roman is a Seven hiding from himself, and Connor is a Nine who built a fantasy state.",
-      "headline": "Succession Enneagram: Why Logan Roy Bred Four Different Personality Disasters",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/succession-roy-siblings-enneagram-types",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "Succession Enneagram",
-        "Logan Roy Type 8",
-        "Kendall Roy Enneagram",
-        "Shiv Roy personality type",
-        "Roman Roy Enneagram",
-        "Tom Wambsgans",
-        "Greg Hirsch Type 6",
-        "HBO Succession psychology"
-      ],
-      "articleSection": "Pop Culture"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

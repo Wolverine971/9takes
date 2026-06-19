@@ -41,50 +41,6 @@ QUALITY_FEEDBACK_END -->
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This guide explores how each Enneagram type manipulates others, explaining manipulation as protection gone sideways rather than calculated evil. It covers Type 1's moral superiority, Type 2's guilt and obligation, Type 3's image crafting, Type 4's emotional drama, Type 5's withholding, Type 6's testing and accusation, Type 7's distraction, Type 8's intimidation, and Type 9's passive resistance, with how to recognize and respond to each pattern.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-31",
-      "datePublished": "2025-12-04",
-      "description": "Everyone manipulates sometimes. Your Enneagram type has a specific playbook. Learn to recognize manipulation, in others and in yourself. And what to do about it.",
-      "headline": "How Each Enneagram Type Manipulates (And How to Spot It)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-manipulation-tactics.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/how-each-enneagram-type-manipulates",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["enneagram manipulation", "manipulation tactics", "toxic enneagram", "emotional manipulation", "how to spot manipulation", "enneagram dark side", "manipulation patterns"],
-      "wordCount": 3800,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/how-each-enneagram-type-manipulates"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

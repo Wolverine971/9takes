@@ -28,61 +28,6 @@ A human confronted by something unseen — the weight of a question in a sacred 
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Bible Doesn't Start With Answers. It Starts With a Question.",
-  "description": "The first words God speaks to humanity after the Fall are a question. That pattern — questions before answers — is the engine of moral awakening in Genesis and the foundation of 9takes.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "datePublished": "2026-03-04",
-  "dateModified": "2026-03-04",
-  "url": "https://9takes.com/community/questions-are-the-engine-of-moral-awakening",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/questions-engine-moral-awakening.webp",
-    "width": 1600,
-    "height": 900
-  },
-  "articleSection": "Philosophy",
-  "keywords": ["questions", "Bible", "Genesis", "moral awakening", "perspective-taking", "9takes", "Enneagram", "curiosity", "vulnerability", "give-first"],
-  "isPartOf": {
-    "@type": "Blog",
-    "name": "9takes Community Blog",
-    "url": "https://9takes.com/community"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/community/questions-are-the-engine-of-moral-awakening"
-  }
-}
-</script>
-
-</svelte:head>
-
 <p class="firstLetter">Most people think the Bible starts with answers. God creates the heavens and the earth. Light. Land. Animals. Humans. It reads like a series of declarations — authoritative, top-down, settled.</p>
 
 But the moment the story gets interesting — the moment something goes wrong — God doesn't issue a verdict. He asks a question.

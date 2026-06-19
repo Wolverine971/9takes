@@ -70,62 +70,6 @@ REVISION NOTES (2026-03-27):
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "A documentary-style exploration of heartthrob culture—the psychology of fans who obsess, the private reality of the men they obsess over, and what personality type drives the whole machine.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-27",
-      "datePublished": "2026-03-04",
-      "description": "Stalkers at the door, disguises at the grocery store, and millions of strangers convinced they know you. Inside the psychology of Hollywood's most desired men—and the fans who can't look away.",
-      "headline": "Inside the Heartthrob Machine: What Fame Does to the Men Women Obsess Over",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/hollywood-heartthrobs-enneagram.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/hollywood-heartthrobs-enneagram-analysis",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "heartthrobs",
-        "Pedro Pascal",
-        "Jacob Elordi",
-        "Timothee Chalamet",
-        "Robert Pattinson",
-        "Tom Holland",
-        "Ryan Gosling",
-        "Enneagram",
-        "parasocial relationships",
-        "fandom psychology",
-        "celebrity worship",
-        "heartthrob psychology"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 7500
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -391,52 +391,6 @@ Nine personalities hit nine different walls trying to say one small sentence. Th
 </div>
 
 <svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "How to Stand Up for Yourself: Why Your Personality Type Makes It Worse",
-  "description": "Standing up for yourself usually backfires. Here is the behavioral science of why, and the exact way your Enneagram type sabotages its own boundaries.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": [
-      "https://www.instagram.com/djwayne3/",
-      "https://www.youtube.com/@djwayne3",
-      "https://www.linkedin.com/in/davidtwayne/",
-      "https://twitter.com/djwayne3"
-    ]
-  },
-  "datePublished": "2026-06-12",
-  "dateModified": "2026-06-12",
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    },
-    "sameAs": [
-      "https://www.instagram.com/9takesdotcom/",
-      "https://twitter.com/9takesdotcom"
-    ]
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/how-to-guides/how-to-stand-up-for-yourself"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/blogs/standing-up-for-yourself-boundary.webp",
-    "width": 1200,
-    "height": 630
-  },
-  "articleBody": "Standing up for yourself usually makes things worse, because explaining signals uncertainty, justifying signals negotiability, and emotional intensity signals lost control. A real boundary is stated, then paused, then moved past. Each Enneagram type fails at this in a predictable, fixable way.",
-  "keywords": "how to stand up for yourself, setting boundaries without arguing, boundary vs ultimatum, over-explaining psychology, how to set boundaries with a manipulator, enneagram boundaries"
-}
-</script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

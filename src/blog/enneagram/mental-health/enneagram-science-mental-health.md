@@ -871,43 +871,6 @@ Look for instruments with published psychometric data. The RHETI v2.5 has the st
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "ScholarlyArticle",
-      "articleBody": "Comprehensive review of scientific research linking Enneagram personality types to mental health patterns, including neuroscience findings, clinical studies, treatment outcomes, and evidence-based applications for personalized mental health care.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-04",
-      "datePublished": "2025-08-25",
-      "description": "Explore the scientific research linking Enneagram types to mental health patterns, including neuroscience findings, clinical studies, and evidence-based applications.",
-      "headline": "The Science Behind Enneagram and Mental Health: Research, Neuroscience, and Evidence",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-researcher.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-science-mental-health",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "keywords": ["enneagram research", "personality neuroscience", "mental health science", "clinical psychology", "evidence-based therapy", "personality assessment", "psychiatric research"]
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -28,60 +28,6 @@ path: src/blog/pop-culture/cancel-culture-enneagram-type.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "An Enneagram breakdown of cancel culture, anchored in real cases from Justine Sacco to Hasan Minhaj and Joe Rogan. Covers which personality types initiate online pile-ons, which types are most vulnerable to being cancelled, the platform mechanics that enable the dynamic, and why people are always cancelled hardest by their own side.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-05-11",
-      "datePublished": "2025-12-17",
-      "description": "Why do some people lead cancel campaigns while others get destroyed by them? Enneagram types reveal the psychology behind social media mob justice.",
-      "headline": "Cancel Culture by Enneagram Type: Who Cancels and Who Gets Cancelled",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/twitter-toxic-psychology.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/cancel-culture-enneagram-type",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "cancel culture",
-        "Enneagram",
-        "social media",
-        "mob psychology",
-        "online outrage",
-        "internet culture",
-        "callout culture",
-        "personality psychology",
-        "Twitter",
-        "public shaming"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 2122
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -788,63 +788,6 @@ Use type insights to frame accommodation requests effectively: Type 5s can ask f
 
 Your type helps you know how to ask for what your brain needs.
 
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "Article",
-	      "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide#article",
-	      "articleBody": "Comprehensive guide exploring how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type, including unique challenges, manifestations, strategies, and accommodations for each combination.",
-	      "inLanguage": "en",
-	      "author": {
-	        "@type": "Person",
-	        "name": "DJ Wayne",
-	        "sameAs": [
-	          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-	      "dateModified": "2026-03-10",
-	      "datePublished": "2025-08-25",
-	      "description": "Explore how ADHD, autism, and other neurodivergent conditions interact with each Enneagram type. Learn accommodations and strategies for thriving.",
-	      "headline": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",
-	      "name": "Enneagram and Neurodivergence: When Personality Meets Brain Wiring",
-	      "url": "https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide",
-	      "image": {
-	        "@type": "ImageObject",
-	        "height": 900,
-	        "url": "https://9takes.com/blogs/greek-statue-playing-with-toys.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide",
-        "@type": "WebPage"
-	      },
-	      "publisher": {
-	        "@type": "Organization",
-	        "name": "9takes",
-	        "sameAs": [
-	          "https://www.instagram.com/9takesdotcom/",
-	          "https://twitter.com/9takesdotcom"
-	        ],
-	        "logo": {
-	          "@type": "ImageObject",
-	          "url": "https://9takes.com/brand/aero.png"
-	        }
-      },
-      "keywords": ["enneagram neurodivergence", "ADHD enneagram", "autism enneagram", "personality types", "neurodiversity", "accommodations", "mental health"]
-	    }
-	  ]
-	}
-</script>
-
-</svelte:head>
-
 <style lang="scss">
   .medical-disclaimer {
     background-color: #fff3cd;

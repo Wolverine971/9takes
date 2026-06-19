@@ -887,54 +887,6 @@ Find professional support that understands your pattern
 </div>
 
 <svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Why Your Anxiety Doesn't Match Type 6 (Every Type Has Anxiety)",
-  "description": "Think only Type 6s deal with anxiety? Every Enneagram type has specific anxiety patterns. Discover why Type 1s panic about mistakes, Type 3s about failure, and why generic advice like 'just breathe' doesn't work for your type.",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
-  },
-  "datePublished": "2025-08-28",
-  "dateModified": "2026-03-26",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/enneagram-corner/enneagram-anxiety-management-guide"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/aero.png"
-    }
-  },
-  "keywords": "enneagram anxiety, anxiety by personality type, type-specific anxiety management, anxiety patterns, mental health enneagram",
-  "articleSection": "Mental Health",
-  "wordCount": 6200,
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Anxiety Management",
-      "description": "Type-specific techniques for understanding and managing anxiety"
-    },
-    {
-      "@type": "Thing",
-      "name": "Enneagram Centers",
-      "description": "How body, heart, and head centers experience anxiety differently"
-    },
-    {
-      "@type": "Thing",
-      "name": "Crisis Protocols",
-      "description": "Emergency interventions for overwhelming anxiety by type"
-    }
-  ]
-}
-</script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

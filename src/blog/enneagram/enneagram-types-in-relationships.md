@@ -690,131 +690,86 @@ Strong piece. The voice carries it. Main opportunity is breaking out of the temp
 
 <script type="application/ld+json">
 {
-   "@context":"http://schema.org",
-   "@graph":[
-      {
-         "@type":"Article",
-         "articleBody":"A comprehensive guide to how each Enneagram type behaves in relationships, covering love patterns, compatibility, conflict styles, attachment styles, love languages, and what to say to each type. From Type 1s perfecting love to Type 9s disappearing into it, discover why relationships follow predictable patterns and how to break free from self-sabotaging cycles. Includes compatibility charts, communication scripts, and daily growth practices for all nine types.",
-         "author": {
-            "@type": "Person",
-            "name": "DJ Wayne",
-            "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-            ]
-         },
-         "dateModified":{
-            "@type":"Date",
-            "@value":"2026-03-20"
-         },
-         "datePublished":{
-            "@type":"Date",
-            "@value":"2023-03-10"
-         },
-         "image":{
-            "@type":"ImageObject",
-            "height":900,
-            "url": "https://9takes.com/blogs/greek-statues-in-relationships.webp",
-            "width":900
-         },
-         "description":"How each Enneagram type behaves in relationships — love patterns, compatibility, conflict styles, and what to say to each type. The guide that actually helps your relationship.",
-         "headline":"Enneagram Types in Relationships: How Each Type Loves (And Why It Goes Wrong)",
-         "keywords": ["enneagram types in relationships", "enneagram relationship compatibility", "enneagram compatibility chart", "enneagram love patterns", "enneagram couples compatibility", "enneagram love language by type", "enneagram conflict styles in relationships", "enneagram attachment styles", "relationship dynamics", "enneagram dating", "enneagram marriage compatibility", "enneagram communication in relationships"],
-         "mainEntityOfPage":{
-            "@id":"https://9takes.com/enneagram-corner/enneagram-types-in-relationships",
-            "@type":"WebPage"
-         },
-         "mentions":{
-            "@type":"Thing",
-            "name":"Enneagram"
-         },
-         "publisher": {
-            "@type": "Organization",
-            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-            "logo": {
-               "@type": "ImageObject",
-               "url": "https://9takes.com/brand/aero.png"
-            },
-         "name": "9takes"
-      }
-      },
-      {
-         "@type":"FAQPage",
-         "mainEntity":[
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"Each Enneagram type brings unconscious patterns from childhood into relationships. Type 1s seek perfection, Type 2s give to earn love, Type 3s perform for worth, Type 4s fear abandonment, Type 5s protect through distance, Type 6s test trust, Type 7s avoid depth, Type 8s armor against vulnerability, and Type 9s erase themselves for harmony. Understanding these patterns helps break self-sabotaging cycles."
-               },
-               "name":"How do different Enneagram types interact in relationships?"
-            },
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"The Enneagram reveals the unconscious patterns driving relationship dynamics. Once you recognize your type's pattern (like Type 2s giving until resentful or Type 7s avoiding emotional depth), you can consciously choose different behaviors. This awareness transforms reactive patterns into conscious choices, allowing for healthier, more authentic connections."
-               },
-               "name":"How can the Enneagram improve my relationships?"
-            }
-         ,
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"Common patterns include: Type 1s mentally editing their partner's behavior, Type 2s losing themselves in giving, Type 3s being physically present but emotionally distant, Type 4s pushing partners away to test love, Type 5s withdrawing when overwhelmed, Type 6s creating instability through constant testing, Type 7s filling relationships with activity to avoid depth, Type 8s showing love through protection rather than vulnerability, and Type 9s agreeing to avoid conflict."
-               },
-               "name":"What are the most common relationship problems for each Enneagram type?"
-            },
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"While any types can have successful relationships, compatibility depends more on health levels than type pairing. However, some combinations face predictable challenges: Type 1 with 7 (structure vs spontaneity), Type 4 with 9 (intensity vs peace), Type 8 with 2 (control vs accommodation). Success comes from understanding and working with differences rather than finding a 'perfect' match."
-               },
-               "name":"Which Enneagram types are most compatible in relationships?"
-            },
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"Each type has a natural love language: Type 1 shows love through acts of service (improving and organizing), Type 2 through anticipating needs and physical touch, Type 3 through shared goals and quality time, Type 4 through deeply personal words and symbolic gifts, Type 5 through quiet parallel presence, Type 6 through building safety and reliability, Type 7 through adventures and new experiences, Type 8 through protection and providing, and Type 9 through adapting and accommodating. Problems arise when partners express love in their own language rather than the one their partner needs to receive."
-               },
-               "name":"How does each Enneagram type show love?"
-            },
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"Yes, two of the same Enneagram type can date successfully, but they will amplify each other's blind spots. Two Type 4s create incredible emotional depth but may spiral into shared melancholy. Two Type 8s either build an empire together or burn the house down. Two Type 9s create the most peaceful but least decisive household. The key is awareness — same-type couples must be especially vigilant about their shared growth edges since neither partner naturally compensates for the other's weaknesses."
-               },
-               "name":"Can two of the same Enneagram type be in a relationship?"
-            },
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"Enneagram types and attachment styles interact predictably: Types 2, 4, and 6 tend toward anxious attachment (seeking reassurance, fearing abandonment), while Types 5, 7, and 8 tend toward avoidant attachment (protecting independence, needing space). Types 1, 3, and 9 can lean either way depending on stress levels. The Enneagram adds depth to attachment theory by explaining why someone is anxious or avoidant — a Type 2's anxious attachment stems from 'I'm only lovable when useful,' while a Type 6's comes from 'I can't trust anyone to stay.' Same behavior, different root cause, different solution."
-               },
-               "name":"How do Enneagram types relate to attachment styles?"
-            },
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"Each Enneagram type handles conflict differently based on their core fear. Type 1s criticize and correct. Type 2s guilt-trip about sacrifices made. Type 3s deflect emotions and focus on solutions. Type 4s escalate emotional intensity to feel heard. Type 5s withdraw and shut down. Type 6s catastrophize and test loyalty. Type 7s deflect with humor or avoid entirely. Type 8s dominate and escalate. Type 9s go silent and suppress anger until an eventual explosion. The most effective approach is to never confirm their core fear — instead, say something that makes their deepest worry feel less true."
-               },
-               "name":"How does each Enneagram type handle conflict in relationships?"
-            },
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"The Enneagram can predict relationship patterns but not relationship outcomes. It reveals the unconscious dynamics each type brings to partnerships — how they love, fight, and self-sabotage. However, relationship success depends primarily on the health level of each partner, not their type pairing. Two healthy individuals of any type combination can build a thriving relationship, while two unhealthy people with 'perfect' compatibility scores will still struggle. The Enneagram's real value is as a tool for awareness and growth, not as a compatibility calculator."
-               },
-               "name":"Can the Enneagram predict relationship success?"
-            }
-         ]
-      }
-   ]
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each Enneagram type brings unconscious patterns from childhood into relationships. Type 1s seek perfection, Type 2s give to earn love, Type 3s perform for worth, Type 4s fear abandonment, Type 5s protect through distance, Type 6s test trust, Type 7s avoid depth, Type 8s armor against vulnerability, and Type 9s erase themselves for harmony. Understanding these patterns helps break self-sabotaging cycles."
+          },
+          "name": "How do different Enneagram types interact in relationships?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram reveals the unconscious patterns driving relationship dynamics. Once you recognize your type's pattern (like Type 2s giving until resentful or Type 7s avoiding emotional depth), you can consciously choose different behaviors. This awareness transforms reactive patterns into conscious choices, allowing for healthier, more authentic connections."
+          },
+          "name": "How can the Enneagram improve my relationships?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common patterns include: Type 1s mentally editing their partner's behavior, Type 2s losing themselves in giving, Type 3s being physically present but emotionally distant, Type 4s pushing partners away to test love, Type 5s withdrawing when overwhelmed, Type 6s creating instability through constant testing, Type 7s filling relationships with activity to avoid depth, Type 8s showing love through protection rather than vulnerability, and Type 9s agreeing to avoid conflict."
+          },
+          "name": "What are the most common relationship problems for each Enneagram type?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While any types can have successful relationships, compatibility depends more on health levels than type pairing. However, some combinations face predictable challenges: Type 1 with 7 (structure vs spontaneity), Type 4 with 9 (intensity vs peace), Type 8 with 2 (control vs accommodation). Success comes from understanding and working with differences rather than finding a 'perfect' match."
+          },
+          "name": "Which Enneagram types are most compatible in relationships?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each type has a natural love language: Type 1 shows love through acts of service (improving and organizing), Type 2 through anticipating needs and physical touch, Type 3 through shared goals and quality time, Type 4 through deeply personal words and symbolic gifts, Type 5 through quiet parallel presence, Type 6 through building safety and reliability, Type 7 through adventures and new experiences, Type 8 through protection and providing, and Type 9 through adapting and accommodating. Problems arise when partners express love in their own language rather than the one their partner needs to receive."
+          },
+          "name": "How does each Enneagram type show love?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, two of the same Enneagram type can date successfully, but they will amplify each other's blind spots. Two Type 4s create incredible emotional depth but may spiral into shared melancholy. Two Type 8s either build an empire together or burn the house down. Two Type 9s create the most peaceful but least decisive household. The key is awareness — same-type couples must be especially vigilant about their shared growth edges since neither partner naturally compensates for the other's weaknesses."
+          },
+          "name": "Can two of the same Enneagram type be in a relationship?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enneagram types and attachment styles interact predictably: Types 2, 4, and 6 tend toward anxious attachment (seeking reassurance, fearing abandonment), while Types 5, 7, and 8 tend toward avoidant attachment (protecting independence, needing space). Types 1, 3, and 9 can lean either way depending on stress levels. The Enneagram adds depth to attachment theory by explaining why someone is anxious or avoidant — a Type 2's anxious attachment stems from 'I'm only lovable when useful,' while a Type 6's comes from 'I can't trust anyone to stay.' Same behavior, different root cause, different solution."
+          },
+          "name": "How do Enneagram types relate to attachment styles?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each Enneagram type handles conflict differently based on their core fear. Type 1s criticize and correct. Type 2s guilt-trip about sacrifices made. Type 3s deflect emotions and focus on solutions. Type 4s escalate emotional intensity to feel heard. Type 5s withdraw and shut down. Type 6s catastrophize and test loyalty. Type 7s deflect with humor or avoid entirely. Type 8s dominate and escalate. Type 9s go silent and suppress anger until an eventual explosion. The most effective approach is to never confirm their core fear — instead, say something that makes their deepest worry feel less true."
+          },
+          "name": "How does each Enneagram type handle conflict in relationships?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram can predict relationship patterns but not relationship outcomes. It reveals the unconscious dynamics each type brings to partnerships — how they love, fight, and self-sabotage. However, relationship success depends primarily on the health level of each partner, not their type pairing. Two healthy individuals of any type combination can build a thriving relationship, while two unhealthy people with 'perfect' compatibility scores will still struggle. The Enneagram's real value is as a tool for awareness and growth, not as a compatibility calculator."
+          },
+          "name": "Can the Enneagram predict relationship success?"
+        }
+      ]
+    }
+  ]
 }
 </script>
 

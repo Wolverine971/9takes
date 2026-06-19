@@ -749,50 +749,6 @@ No type wins parenting. Every type has a gift and a trap. The best parent is the
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "This guide explains how each Enneagram type tends to show up in parenting, where those patterns often come from, how parent-child and co-parenting mismatches create friction, and how to repair after autopilot takes over.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-03-28",
-      "datePublished": "2026-01-06",
-      "description": "Your parenting struggles aren't random—they're rooted in your Enneagram type. Discover your parenting superpowers, triggers, and blind spots, plus practical tools to break the cycle.",
-      "headline": "Enneagram Parenting Styles: Why You Parent the Way You Do",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-parent-child.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-parenting-styles",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["enneagram parenting", "enneagram parenting styles", "parenting by personality type", "enneagram and parenting", "parenting triggers", "conscious parenting", "enneagram childhood wounds", "parenting blind spots"],
-      "wordCount": 4712,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-parenting-styles"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

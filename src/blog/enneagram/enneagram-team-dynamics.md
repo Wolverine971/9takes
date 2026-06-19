@@ -284,48 +284,9 @@ Want to dive deeper into how specific types work together? Check out our compreh
 <svelte:head>
 
  <script type="application/ld+json">
-    {
+{
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "BlogPosting",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-04-16",
-      "datePublished": "2023-04-01",
-      "description": "Some Enneagram pairs amplify each other. Others quietly destroy projects. Here are the high-synergy combinations and the volatile pairings that need conscious management.",
-      "headline": "Enneagram Team Dynamics: Which Type Combinations Click (and Which Implode)",
-      "keywords": ["Enneagram team dynamics", "workplace personality types", "team collaboration strategies", "workplace productivity", "team communication", "leadership development", "team effectiveness", "organizational behavior", "team building", "conflict resolution"],
-      "wordCount": 1400,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-team-dynamics",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-team-dynamics",
-        "@type": "WebPage"
-      },
-      "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

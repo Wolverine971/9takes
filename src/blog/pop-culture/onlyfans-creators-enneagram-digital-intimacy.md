@@ -28,60 +28,6 @@ path: src/blog/pop-culture/onlyfans-creators-enneagram-digital-intimacy.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "A psychological analysis of OnlyFans creators through the Enneagram lens, exploring which personality types thrive in monetized intimacy, which struggle with the emotional costs, and why digital closeness becomes a business model.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-21",
-      "datePublished": "2025-12-21",
-      "description": "Why certain personality types thrive on OnlyFans while others struggle. The Enneagram psychology behind selling intimacy—and the psychological costs involved.",
-      "headline": "OnlyFans Creators by Enneagram: The Psychology of Digital Intimacy",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/onlyfans-creator-psychology.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/onlyfans-creators-enneagram-digital-intimacy",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "OnlyFans",
-        "Enneagram",
-        "digital intimacy",
-        "creator economy",
-        "parasocial relationships",
-        "online sexuality",
-        "internet culture",
-        "personality psychology",
-        "subscription platforms",
-        "emotional labor"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 2225
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

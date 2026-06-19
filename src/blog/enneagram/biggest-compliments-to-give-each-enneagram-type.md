@@ -301,65 +301,23 @@ To explore more of the Enneagram world, sign up and join 9takes below ⬇️. Of
 
 <script type="application/ld+json">
 {
-   "@context":"http://schema.org",
-   "@graph":[
-      {
-         "@type":"BlogPosting",
-         "articleBody":"Ever wondered how to make someone's day with the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special.",
-         "author": {
-            "@type": "Person",
-            "name": "DJ Wayne",
-            "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-               ]
-            },
-         "dateModified":"2025-12-03",
-         "datePublished":"2023-08-09",
-         "description":"Generic compliments fall flat. Here's exactly what each Enneagram type secretly wants to hear—the words that make them feel truly seen and appreciated.",
-         "headline":"How to Compliment Each Enneagram Type (Words That Actually Land)",
-         "image":{
-            "@type":"ImageObject",
-            "height":900,
-            "url": "https://9takes.com/blogs/greek-statue-yeah-boi.webp",
-            "width":900
-         },
-         "mainEntityOfPage":{
-            "@id":"https://9takes.com/enneagram-corner/biggest-compliments-to-give-each-enneagram-type",
-            "@type":"WebPage"
-         },
-         "mentions":{
-            "@type":"Thing",
-            "name":"Enneagram"
-         },
-         "publisher": {
-            "@type": "Organization",
-            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-            "logo": {
-               "@type": "ImageObject",
-               "url": "https://9takes.com/brand/aero.png"
-            },
-            "name": "9takes"
-         },
-         "keywords": ["enneagram", "compliments", "personality types", "enneagram types", "appreciation", "validation", "interpersonal skills", "emotional intelligence", "relationship building", "communication"],
-         "wordCount": 1800,
-         "articleSection": "Enneagram",
-         "url": "https://9takes.com/enneagram-corner/biggest-compliments-to-give-each-enneagram-type"
-      },
-      {
-         "@type":"FAQPage",
-         "mainEntity":[
-            {
-               "@type":"Question",
-               "acceptedAnswer":{
-                  "@type":"Answer",
-                  "text":"The compliments provided in the article are crafted based on the essence and desires of each Enneagram type. It is designed to resonate deeply and acknowledge the strengths of each type."
-               },
-               "name":"How were the compliments for each Enneagram type determined?"
-            }
-         ]
-      }
-   ]
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The compliments provided in the article are crafted based on the essence and desires of each Enneagram type. It is designed to resonate deeply and acknowledge the strengths of each type."
+          },
+          "name": "How were the compliments for each Enneagram type determined?"
+        }
+      ]
+    }
+  ]
 }
-
 </script>
 
 </svelte:head>

@@ -544,61 +544,6 @@ Whether identifying yourself or recognizing others, these patterns are distincti
       "name": "Enneagram type 3"
     },
     {
-      "@type": "BlogPosting",
-      "name": "When Success Becomes Your Prison (Type 3 Achievement Addiction)",
-      "description": "Can't stop achieving even when you're exhausted? That's Type 3. Learn why success feels like a trap, why you can't slow down, and what you're really running from.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram Type 3",
-        "The Achiever",
-        "The Performer",
-        "Success",
-        "Achievement",
-        "Image consciousness",
-        "Efficiency",
-        "Adaptability",
-        "Deceit",
-        "Authenticity",
-        "3w2",
-        "3w4",
-        "Self-preservation 3",
-        "Social 3",
-        "Sexual 3",
-        "Type 3 subtypes"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-3",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 5200,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-3",
-      "articleBody": "A comprehensive guide to Enneagram Type 3, known as 'The Achiever.' This exploration reveals how childhood experiences create a fusion between achievement and identity. Discover how love became conditional on performance, creating shape-shifters who become whatever success requires. Learn about the achievement machine that produces impressive results while bypassing authentic emotion, and their path to integration through discovering inherent worth beyond accomplishment."
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -661,7 +606,6 @@ Whether identifying yourself or recognizing others, these patterns are distincti
     }
   ]
 }
-
 </script>
 
 </svelte:head>

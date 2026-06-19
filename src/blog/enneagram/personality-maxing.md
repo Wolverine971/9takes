@@ -468,47 +468,6 @@ The understanding builds from there.
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "Personality maxing is deliberate personality development through self-knowledge and understanding others. This guide presents a framework: first define what personality actually is (how you're similar and different from others), then discover your superpowers using the Enneagram, understand your thriving state (arrow of security) and struggling state (arrow of stress), and finally flip the script to understand others: the foundation of genuine charisma. The core insight: perspective-taking is the mental equivalent of going to the gym, and genuine curiosity about others is the destination of personality maxing.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-01-18",
-      "datePublished": "2025-05-22",
-      "keywords": ["personality maxing", "personality development", "charisma", "self-improvement", "Enneagram", "emotional intelligence", "perspective-taking", "social skills", "self-knowledge", "arrow of integration", "arrow of stress"],
-      "description": "Looksmaxxing optimizes what people see for three seconds. Personality maxing optimizes what they experience every day. Map your pattern, name your superpower and shadow with the Enneagram, then turn that self-knowledge into real charisma.",
-      "headline": "Personality Maxing: Looksmaxxing for the Part People Actually Experience",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-interested-in-personality-maxing.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/personality-maxing",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

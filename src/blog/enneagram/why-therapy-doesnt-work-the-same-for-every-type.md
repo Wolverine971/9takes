@@ -350,42 +350,6 @@ It depends on what "not working" means. If after 3-4 months of genuine engagemen
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "This article explores why therapy doesn't work equally for all personality types, examining how the 'talking cure' was designed for specific emotional processing styles and systematically fails others. It covers the three Enneagram emotional centers, why certain types avoid therapy, misdiagnosis patterns, and which therapeutic approaches actually work for each personality type.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-04-01",
-      "datePublished": "2026-01-30",
-      "description": "Therapy wasn't designed for everyone. The talking cure assumes you process emotions through words — but what if your brain works differently? Here's why the system fails certain types.",
-      "headline": "Why Therapy Doesn't Work the Same for Every Personality Type",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-therapy-couch.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

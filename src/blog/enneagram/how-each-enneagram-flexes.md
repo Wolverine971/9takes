@@ -332,65 +332,6 @@ That understanding builds bridges between types and reveals our shared humanity 
 
 If you want more Enneagram insights like this, you can join 9takes below ⬇️.
 
-<svelte:head>
-
-<script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "BlogPosting",
-            "articleBody": "We all want to be seen and valued in specific ways. Each Enneagram type has a unique signature 'flex' - their subtle (or not-so-subtle) way of showcasing their strengths to the world. From the Perfectionist's attention to detail to the Challenger's power moves, understanding how and why each type flexes reveals deep insights about human motivation and our universal need for recognition.",
-            "author": {
-                "@type": "Person",
-                "name": "DJ Wayne",
-                "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-                ]
-                },
-	            "dateModified": "2026-01-27",
-	            "datePublished": "2023-08-09",
-            "description": "Discover the unique ways each Enneagram type shows off their strengths and craves recognition in everyday interactions",
-            "headline": "How All 9 Enneagram Types Flex: Revealing Each Type's Secret Need for Recognition",
-            "keywords": ["Enneagram", "personality types", "recognition", "validation", "flexing", "showing off", "strengths", "human behavior", "psychology", "self-awareness"],
-	            "wordCount": 2000,
-            "articleSection": "Enneagram",
-            "url": "https://9takes.com/enneagram-corner/how-each-enneagram-flexes",
-            "image": {
-                "@type": "ImageObject",
-                "height": 900,
-                "url": "https://9takes.com/blogs/greek-statue-flex.webp",
-                "width": 900
-            },
-            "mainEntityOfPage": {
-                "@id": "https://9takes.com/enneagram-corner/how-each-enneagram-flexes",
-                "@type": "WebPage"
-            },
-            "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
-      },
-            "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-        }
-    ]
-}
-
-</script>
-
-</svelte:head>
-
 <style lang="scss">
 
 </style>

@@ -405,50 +405,6 @@ These accounts show how Sevens navigate their wiring in real life. The gifts, th
       "name": "Enneagram type 7"
     },
     {
-      "@type": "BlogPosting",
-      "name": "Why You Can't Stop Chasing the Next Thing (Type 7 Restlessness)",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "description": "Can't stop planning the next adventure before finishing this one? That's Type 7. Learn why stillness feels threatening, why you chase possibilities endlessly, and how to find depth in the present.",
-      "dateModified": "2026-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram",
-        "Type 7",
-        "Enthusiast",
-        "Epicure",
-        "Personality"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-7",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 3400,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-7",
-      "articleBody": "A guide to Enneagram Type 7, known as 'The Enthusiast.' This exploration reveals how your possibility engine works—including why planning feels as good as doing. Understand your strengths and tradeoffs at work and in relationships, learn what happens under stress, and discover how growing toward Type 5 adds depth to your natural breadth. Includes practical experiments for staying present without losing your edge."
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -487,7 +443,6 @@ These accounts show how Sevens navigate their wiring in real life. The gifts, th
     }
   ]
 }
-
 </script>
 
 </svelte:head>

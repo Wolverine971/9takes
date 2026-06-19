@@ -501,50 +501,6 @@ Learn more about [how to communicate effectively in relationships here.](/enneag
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This article explores the toxic traits associated with each Enneagram type in relationships, providing insights into early warning signs and underlying motivations. It offers specific examples of toxic behaviors in romantic partnerships, explains their emotional causes, and encourages readers to approach these traits with understanding and compassion. The article aims to foster self-awareness and improve relationships by shedding light on these challenging personality characteristics.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-03-10",
-      "datePublished": "2024-07-31",
-      "keywords": ["toxic relationships", "red flags", "Enneagram", "relationship warning signs", "toxic traits", "healthy relationships", "dating advice", "relationship psychology", "personality types", "emotional health"],
-      "wordCount": 4800,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs",
-      "description": "Discover how each Enneagram type shows toxic traits in relationships. Learn to identify warning signs early, understand the deeper motivations, and build healthier connections.",
-      "headline": "Toxic Traits in Relationships: Spot the Red Flags Using the Enneagram",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statues-in-a-tense-moment.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

@@ -28,62 +28,6 @@ path: src/blog/pop-culture/psychology-of-public-shame.md
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "articleBody": "A structural and psychological diagnosis of public shame as a cultural genre. Public shame is one of the oldest social technologies humans have invented — from the village pillory and the scarlet letter to McCarthyism and the Cultural Revolution. The internet did not invent it; it industrialized it by removing the three premodern features that limited the damage: proximity, time decay, and the possibility of repair. Five psychological mechanisms drive every shame ritual — parasocial mourning, splitting (Klein), identity laundering through condemnation, receipts as moral currency, and outsourced moral attention. The essay uses BuzzFeed''s May 12, 2026 listicle ''41 Celebs People Used To Love And Now Can''t Even Stand To Look At'' as a case study and closes with an Enneagram framing of why Type 1, 4, and 6 shadows engineer shame rituals — and why integration is the developmental escape.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-05-14",
-      "datePublished": "2026-05-14",
-      "description": "Public shame is older than the internet. The substrate changed, the mechanism didn't. Five psychological forces explain why we cancel strangers, why the rituals never produce justice, and what growing past them actually requires.",
-      "headline": "The Anatomy of Public Shame: What We're Actually Doing When We 'Cancel' Strangers",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/psychology-of-public-shame.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/pop-culture/psychology-of-public-shame",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": [
-        "psychology of public shame",
-        "anatomy of cancel culture",
-        "history of public shaming",
-        "why we cancel strangers",
-        "shame ritual vs accountability",
-        "parasocial mourning",
-        "splitting psychology",
-        "Klein splitting cancel culture",
-        "Enneagram cancel culture",
-        "moral signaling psychology",
-        "BuzzFeed 41 celebs",
-        "online shaming psychology"
-      ],
-      "articleSection": "Pop Culture",
-      "wordCount": 4400
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

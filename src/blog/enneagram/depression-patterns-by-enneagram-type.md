@@ -601,39 +601,6 @@ Yes, and it's increasingly common. A Type 1 might benefit from self-compassion-f
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "headline": "Depression Patterns by Enneagram Type: How Your Personality Shapes Your Mental Health",
-      "description": "How depression manifests differently across all 9 Enneagram types. Understand your unique patterns, triggers, and pathways to healing based on your personality type.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "datePublished": "2025-08-16",
-      "dateModified": "2026-04-01",
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/faces-of-depression.webp",
-        "width": 1200,
-        "height": 630
-      },
-      "wordCount": 7500,
-      "keywords": "depression by personality type, enneagram depression, mental health by type, depression patterns, personality and depression, type-specific therapy",
-      "articleSection": "Mental Health"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

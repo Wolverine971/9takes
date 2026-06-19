@@ -410,47 +410,6 @@ Neither is wrong.
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This article explores the psychology of oversharing, why people do it, what they're really seeking, and what it means when someone labels something as oversharing. It examines the connection between oversharing and shame processing, the search for safe spaces, and how each Enneagram type overshares differently. The article provides practical guidance for both oversharers and those on the receiving end.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-01-18",
-      "datePublished": "2025-12-09",
-      "description": "When someone overshares, they're processing shame out loud. When you label it 'oversharing,' you're drawing a boundary. Here's what's really happening on both sides.",
-      "headline": "Why People Overshare: The Psychology of Shame, Boundaries, and Safe Spaces",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/cafe-oversharing-conversation.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/oversharing-psychology-shame-boundaries",
-        "@type": "WebPage"
-      },
-      "keywords": ["oversharing", "oversharing psychology", "why do people overshare", "shame and oversharing", "emotional boundaries", "trauma dumping", "vulnerability hangover", "Enneagram", "safe spaces", "processing shame"],
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

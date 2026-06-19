@@ -41,50 +41,6 @@ QUALITY_FEEDBACK_END -->
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This comprehensive guide explores how ADHD affects each Enneagram type differently, which types are most commonly diagnosed, and type-specific coping strategies. It explains the overlap between Type 7 patterns and ADHD symptoms, the emotional dysregulation connection in Type 4s, and the anxiety-ADHD compound in Type 6s, providing practical strategies tailored to each type's core motivations.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2025-12-06",
-      "datePublished": "2025-12-06",
-      "description": "Do you have ADHD or is it just your personality? Discover how ADHD affects each Enneagram type differently, plus type-specific coping strategies that actually work.",
-      "headline": "Enneagram and ADHD: Which Types Struggle Most (And Why)",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-adhd-scattered-thoughts.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "keywords": ["enneagram ADHD", "ADHD personality types", "Type 7 ADHD", "ADHD coping strategies", "neurodivergence enneagram", "ADHD symptoms by type", "attention deficit enneagram"],
-      "wordCount": 4800,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-and-adhd-which-types-struggle-most"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

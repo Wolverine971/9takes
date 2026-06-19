@@ -429,55 +429,6 @@ The inner courtroom can finally close its session. The verdict was always wrong.
       "name": "Enneagram type 1"
     },
     {
-      "@type": "BlogPosting",
-      "name": "Why You Can't Stop Criticizing Everything (Type 1 Perfectionism)",
-      "description": "Can't shake the feeling that nothing (including you) is ever good enough? That's Type 1. Learn why you can't stop criticizing, where the inner judge came from, and how to finally silence it.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram Type 1",
-        "The Perfectionist",
-        "The Reformer",
-        "Integrity",
-        "Inner critic",
-        "High standards",
-        "Moral compass",
-        "Self-improvement",
-        "Anger",
-        "Resentment"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-1",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 2800,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-1",
-      "articleBody": "A comprehensive guide to Enneagram Type 1, known as 'The Perfectionist.' This exploration reveals how childhood criticism creates an internal courtroom where Ones perpetually prosecute themselves. Discover the anger they can't acknowledge, the perfection paradox that drives them, and their path to integration through acceptance of imperfection. Learn how Ones transform from rigid self-critics to serene individuals who understand that goodness doesn't require perfection."
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -516,7 +467,6 @@ The inner courtroom can finally close its session. The verdict was always wrong.
     }
   ]
 }
-
 </script>
 
 </svelte:head>

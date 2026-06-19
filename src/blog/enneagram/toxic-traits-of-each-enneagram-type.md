@@ -596,50 +596,6 @@ Which type description felt the most personal, and what is one change you're wil
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "This in-depth article explores the toxic traits associated with each Enneagram type, explaining their psychological origins and impact on relationships. It provides detailed examples of negative behaviors, connects the behaviors to the fears driving them, and offers guidance on recognizing and addressing these traits in yourself and others. The article aims to increase self-awareness and foster healthier relationships through understanding the shadow aspects of personality.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-01-18",
-      "datePublished": "2024-07-12",
-      "keywords": ["toxic traits", "Enneagram", "personality types", "shadow work", "self-awareness", "toxic behavior", "personal growth", "relationships", "psychology", "emotional patterns"],
-      "wordCount": 4500,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type",
-      "description": "Discover the hidden toxic traits of each Enneagram type. Learn why these shadow aspects emerge, how to spot them in yourself and others, and strategies to overcome them for healthier relationships.",
-      "headline": "9 Toxic Personality Traits: The Hidden Dark Side of Each Enneagram Type",
-      "image": {
-        "@type": "ImageObject",
-        "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-showing-cracks.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

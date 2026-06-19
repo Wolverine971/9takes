@@ -815,68 +815,6 @@ The Enneagram does not put you in a box. It shows you the box you are already op
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "headline": "Enneagram Leadership Styles: Why Your Natural Approach Keeps Backfiring",
-      "description": "Each Enneagram type has a leadership superpower that becomes their fatal flaw when overused. Find your blind spot and the specific fix that works for your type.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "datePublished": "2025-09-14",
-      "dateModified": "2026-01-23",
-      "url": "https://9takes.com/enneagram-corner/enneagram-leadership",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/enneagram-leadership"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/diverse-leaders-boardroom-enneagram.webp",
-        "width": 1200,
-        "height": 630
-      },
-      "articleSection": "Enneagram",
-      "wordCount": 4200,
-      "keywords": [
-        "enneagram leadership",
-        "leadership styles",
-        "enneagram type leader",
-        "leadership development",
-        "personality leadership",
-        "team management",
-        "enneagram workplace",
-        "leadership blind spots",
-        "management styles by personality"
-      ],
-      "mentions": {
-        "@type": "Thing",
-        "name": "Enneagram of Personality",
-        "description": "The Enneagram of Personality is a model of the human psyche principally understood as a typology of nine interconnected personality types.",
-        "sameAs": [
-          "https://www.wikidata.org/wiki/Q273047",
-          "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-        ]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

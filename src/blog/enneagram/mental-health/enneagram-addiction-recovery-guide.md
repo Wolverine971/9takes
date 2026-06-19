@@ -702,57 +702,14 @@ Look for licensed addiction counselors or therapists who mention the Enneagram i
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "Article",
-	      "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide#article",
-	      "articleBody": "Comprehensive guide exploring how each Enneagram type develops specific addictions and behavioral patterns, with detailed recovery strategies, relapse prevention plans, and type-specific resources for sustainable sobriety.",
-	      "inLanguage": "en",
-	      "author": {
-	        "@type": "Person",
-	        "name": "DJ Wayne",
-	        "sameAs": [
-	          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-	      "dateModified": "2026-04-16",
-	      "datePublished": "2025-09-01",
-	      "description": "The Type 1 attorney billing 80-hour weeks isn't dedicated. The Type 7 life of the party isn't fun-loving. Each Enneagram type tends to run from a different pain, which is why generic recovery programs miss most of them.",
-	      "headline": "Enneagram and Addiction: Why Type 1s Work Themselves to Death and Type 7s Stack Substances",
-	      "name": "Enneagram and Addiction: Understanding Each Type's Escape Patterns",
-	      "url": "https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide",
-	      "image": {
-	        "@type": "ImageObject",
-	        "height": 900,
-	        "url": "https://9takes.com/blogs/enneagram-addiction-recovery.webp",
-        "width": 900
-      },
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide",
-        "@type": "WebPage"
-	      },
-	      "publisher": {
-	        "@type": "Organization",
-	        "name": "9takes",
-	        "sameAs":[ "https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"
-	        ],
-	        "logo": {
-	          "@type": "ImageObject",
-	          "url": "https://9takes.com/brand/aero.png"
-	        }
-      },
-      "keywords": ["enneagram addiction", "personality types", "addiction recovery", "substance abuse", "behavioral addiction", "recovery strategies", "relapse prevention"]
-	    },
-	    {
-	      "@type": "FAQPage",
-	      "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide#faq",
-	      "mainEntity": [
-	        {
-	          "@type": "Question",
-	          "name": "Why do certain personality types become addicted to specific substances?",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do certain personality types become addicted to specific substances?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Each Enneagram type uses addiction to manage their core fear and emotional patterns. Type 7s seek stimulants and variety to escape pain and boredom. Type 1s use alcohol to silence their inner critic. Type 4s turn to substances to intensify or numb overwhelming emotions. The substance or behavior chosen directly addresses what that type is trying to avoid or achieve."

@@ -602,46 +602,6 @@ Explore each psychological pattern in detail
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "@id": "https://9takes.com/how-to-guides/how-to-psychoanalyze-people#article",
-      "headline": "How to Read People: The 4-Step Guide to Understanding Anyone (Including Yourself)",
-      "description": "Learn to decode what truly drives people through practical psychological observation techniques. Understand motivations, fears, and patterns that shape behavior.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "url": "https://9takes.com"
-      },
-      "datePublished": "2025-09-08",
-      "dateModified": "2026-03-29",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/how-to-guides/how-to-psychoanalyze-people"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "url": "https://9takes.com",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/greek_statue_reading_people.webp",
-        "width": 1200,
-        "height": 630
-      },
-      "keywords": "reading people, understanding personality, psychological observation, motivation patterns, behavior analysis, Enneagram, personality types, how to read body language, core fear, core motivation",
-      "articleSection": "Guides",
-      "inLanguage": "en",
-      "about": {
-        "@type": "Thing",
-        "name": "Enneagram of Personality",
-        "sameAs": "https://en.wikipedia.org/wiki/Enneagram_of_Personality"
-      }
-    },
-    {
       "@type": "HowTo",
       "@id": "https://9takes.com/how-to-guides/how-to-psychoanalyze-people#howto",
       "name": "How to Read People: A 4-Step Framework for Understanding Anyone",

@@ -808,53 +808,6 @@ Only if they're interested in personal growth. Focus on understanding their comm
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "BlogPosting",
-      "articleBody": "Have you ever walked away from a conversation feeling misunderstood or frustrated? Perhaps you've wondered why your well-intentioned words didn't land as expected. You're not alone. Communication is a complex dance, and understanding the Enneagram can be your guide to mastering its rhythms. This guide will take you on a journey through the Enneagram types, helping you understand not just your own communication style, but those of others around you. The Enneagram offers a window into our motivations, fears, and behaviors, helping us navigate the world more easily.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
-      },
-      "dateModified": "2025-12-04",
-      "datePublished": "2024-09-06",
-      "description": "Stop miscommunication disasters. Decode each Enneagram type's exact communication patterns and speak their emotional language for instant connection.",
-      "keywords": "Enneagram communication, decode personality types, communication patterns, emotional language, instant rapport, conflict resolution, team communication, relationship communication, communication strategies, workplace communication",
-      "wordCount": 10500,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-communication-guide",
-      "headline": "Enneagram Communication Guide: Decode Any Personality Type in Seconds",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "url": "https://9takes.com/enneagram-corner/enneagram-communication-guide"
-      },
-      "mentions": [
-        {
-          "@type": "Thing",
-          "name": "Enneagram of Personality",
-          "description": "A model of human personality which principally understands individuals as having one of nine personality types.",
-          "SameAs": [
-            "https://www.wikidata.org/wiki/Q273047",
-            "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-          ]
-        },
-        {
-          "@type": "Person",
-          "name": "Suzanne Stabile",
-          "description": "Internationally recognized Enneagram Master and author of 'The Path Between Us'.",
-          "sameAs": ["https://www.instagram.com/suzannestabile/", "https://twitter.com/SuzanneStabile", "https://suzannestabile.com/"]
-        }
-      ],
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {

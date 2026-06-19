@@ -543,57 +543,6 @@ If anything, you might find that your capacity for presence is just as profound 
       "name": "Enneagram type 4"
     },
     {
-      "@type": "BlogPosting",
-      "name": "Why You Feel Different From Everyone Else (The Missing Piece)",
-      "description": "You feel things others don't. You notice absences they never see. This isn't a flaw. This is the territory of Type 4, where depth is currency and authenticity is survival.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": "2026-01-29",
-      "datePublished": "2023-02-18",
-      "keywords": [
-        "Enneagram Type 4",
-        "The Individualist",
-        "The Romantic",
-        "Creativity",
-        "Emotional depth",
-        "Authenticity",
-        "Identity",
-        "Melancholy",
-        "Envy",
-        "Uniqueness",
-        "Feeling different",
-        "Missing piece"
-      ],
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/enneagram-corner/enneagram-type-4",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ]
-      },
-      "wordCount": 5400,
-      "articleSection": "Enneagram",
-      "url": "https://9takes.com/enneagram-corner/enneagram-type-4",
-      "articleBody": "A comprehensive guide written directly to Enneagram Type 4s, acknowledging their experience of feeling fundamentally different from others. This exploration covers the Four's emotional world, childhood origins, relationships, friendships, career challenges, and how they appear to others versus what they actually feel inside. Discover how your sensitivity is not a flaw but a gift, learn to distinguish yourself from Type 2, and find the path from chronic longing to self-acceptance."
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
@@ -624,7 +573,6 @@ If anything, you might find that your capacity for presence is just as profound 
     }
   ]
 }
-
 </script>
 
 </svelte:head>

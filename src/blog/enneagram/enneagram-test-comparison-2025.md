@@ -623,40 +623,6 @@ The Enneagram isn't about getting a number assigned to you. It's about recognizi
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "headline": "Best Free Enneagram Test (2025): Which One Actually Works?",
-      "description": "Most Enneagram tests are garbage—too short, outdated, or designed to sell you something. Here's an honest comparison of the best free and paid tests, ranked by accuracy and value.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne"
-      },
-      "datePublished": "2025-08-16",
-      "dateModified": "2025-12-21",
-      "publisher": {
-        "@type": "Organization",
-        "name": "9takes",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://9takes.com/enneagram-corner/enneagram-test-comparison-2025"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/greek-statue-comparing-enneagram-tests.webp",
-        "width": 1200,
-        "height": 630
-      },
-      "articleBody": "Most Enneagram tests online are garbage—too short, outdated, or designed to sell you something. This comprehensive review analyzes the best Enneagram tests for 2025, covering what makes each test effective and who it's best suited for.",
-      "wordCount": 2847,
-      "keywords": "enneagram test, best enneagram test, free enneagram test, accurate enneagram test, enneagram test with wings, enneagram personality test",
-      "articleSection": "Personality Assessment",
-      "inLanguage": "en-US"
-    },
-    {
       "@type": "FAQPage",
       "mainEntity": [
         {
