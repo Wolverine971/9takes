@@ -84,15 +84,30 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 8.5
-  enneagram: 9.0
+  enneagram: 8.0
   evidence: 8.0
-  writing: 9.0
+  writing: 8.5
   originality: 8.5
-  overall: 8.6
-  letter: B+
-  graded_at: '2026-04-10'
+  discoverability: 8.0
+  overall: 8.2
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Seth-Rogen.md
 ---
+
+<!-- QUALITY GRADE: B (8.2) — rubric v2
+Evidence: 8 | Originality: 8.5 | Discoverability: 8 | Enneagram: 8 | Writing: 8.5 | Hook: 8.5
+
+FEEDBACK (2026-06-20):
+- "Seth Rogen's Pottery and the Architecture of Peace" is the strongest section — it shows the Nine pattern (engineering peace in physical space) rather than arguing it, and the closet-proposal detail ("Even the biggest romantic gesture was stripped of performance") is a perfect, specific, well-analyzed moment.
+- The empire-disguised-as-ease thesis is a real, non-obvious reframe of a figure everyone reads as "chill stoner," and the Franco friendship-that-faded-without-a-fight is the empathy turn done well — "I absorb so little media that it really wasn't on my radar" carries the whole personality in one sentence.
+- Ending cuts to black cleanly ("That engine is still running. It just sounds like a laugh") — no CTA, no summary. The no-kids quote stack is the best interior beat in the piece.
+- Evidence is good: $2.8B box office and the 13-Emmy Studio record are sourced, and there's outside testimony (Goldberg, Franco, Segel, Apatow framing). Discoverability is solid — full entity metadata, real FAQ schema, extractable type answer; meta_title is name-forward but editorial, no "enneagram/type" search phrasing.
+- NEEDS WORK (Enneagram): the four-bullet "Rogen's life is a case study" evidence list is a typed-out argument that spoils sections it precedes (the Senate beat, the merge, the comfort architecture), and there is no rabbit-hole accordion to hold the 9w8 wing mechanics. Body bleed + missing rabbit hole caps this dimension at 8.
+- NEEDS WORK (Evidence/Originality): the editor notes still flag the comedic-voice-on-screen gap and one unverified epigraph concern from an earlier pass; the laugh is analyzed well but the Apatow filmography that MADE him is compressed.
+- TO REACH B+ (8.5): (1) Dissolve the case-study bullet list into the surrounding narrative and move the 9w8 wing analysis into a <details class="enneagram-rabbit-hole">. (2) Verify/attribute any remaining unsourced quote and add one in-voice line on what makes his on-screen comedy a Nine (everyman, vulnerability-as-raunch). (3) Add a search-intent meta_title/persona_title variant with "Seth Rogen enneagram/type 9."
+-->
 
 <p class="firstLetter">Seth Rogen co-wrote Superbad at thirteen years old. Not as a school project. Not as a joke. He and his friend Evan Goldberg spent the rest of high school polishing it into a shooting script. By sixteen he'd placed second in Vancouver's Amateur Comedy Contest, performing stand-up at bars his mother drove him to. By eighteen he was a staff writer on a network television show.</p>
 

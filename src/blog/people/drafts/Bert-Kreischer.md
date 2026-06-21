@@ -86,12 +86,26 @@ content_quality:
   enneagram: 8
   evidence: 9
   writing: 8.5
-  originality: 9
-  overall: 8.6
-  letter: B+
-  graded_at: '2026-04-23'
+  originality: 8.5
+  discoverability: 7.5
+  overall: 8.3
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Bert-Kreischer.md
 ---
+
+<!-- QUALITY GRADE: B (8.3) — rubric v2
+Evidence: 9 | Originality: 8.5 | Discoverability: 7.5 | Enneagram: 8 | Writing: 8.5 | Hook: 8.5
+
+FEEDBACK (2026-06-20):
+- The Easter-edibles payload — "I love you. But I'm afraid you're going to die... I am terrified to lose you" — landed straight with no italics is the emotional core, and "The original fear it was built to outrun was never Bert's fear to begin with. It was Al's. It arrived in the house before Bert did" is the line that earns the read.
+- Evidence is exceptional: the 1997 Rolling Stone quotes ("I just can't picture me doing anything," "I would make a good heir," Gege's and Al's lines), the Jay Shetty "shark, finding relief in continuous movement" self-diagnosis, the dated Oct 27 2023 sobriety tweet, the Sober Bert Ep 201 (Tom pours a drink while Bert sells the cruise) beat. Tour-rank stats sourced.
+- NEEDS WORK: No `<details class="enneagram-rabbit-hole">`. The 7→1 stress-arrow paragraph ("When a Seven disintegrates, they don't get more fun. They get harsher") and the 7→5 growth-arrow + 6-wing mechanics live in the body — the DISTRIBUTION LEDGER admits 2 type-theory paragraphs outside diagnosis. With arrow/wing analysis warranted and no rabbit hole, v2 caps Enneagram at 8. The 6-wing call is asserted (marriage longevity + friend list) and never tested against a 7w8 read.
+- NEEDS WORK: Originality eased to 8.5 — the first half is overstuffed with the Russia origin biography (~600 words where the type-read disappears), and the "same engine, different trick" negate-then-reframe contrast recurs.
+- NEEDS WORK: Discoverability — `meta_title` is decent but the FAQ anchors are vivid (good); the answer is clear. Ceiling is title search-intent and the missing rabbit hole's long-tail capture (`Bert Kreischer 7w6`, `7w8`).
+- TO REACH B+: (1) Add a rabbit-hole accordion holding the 6-wing-vs-7w8 case + 7→1 / 7→5 arrows, freeing the body. (2) Cut the Russia origin story ~30% (keep muzhchina/machina + the photos). (3) Surface one LeeAnn or daughter voice so the home environment is felt from outside Bert's head. (4) Vary the "same engine, different trick" construction.
+-->
 
 <!-- TESTIMONY LEDGER
 1. Professor Donofrio (FSU public-speaking teacher): "He's one of the brighter students I've taught and one of the most entertaining people I've ever met." — Rolling Stone, 1997

@@ -82,7 +82,29 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Brene-Brown.md
+content_quality:
+  hook: 8
+  enneagram: 8
+  evidence: 8
+  writing: 8
+  originality: 7
+  discoverability: 8
+  overall: 7.8
+  letter: C
+  rubric_version: 2
+  graded_at: '2026-06-20'
 ---
+
+<!-- QUALITY GRADE: C (7.8) — rubric v2
+Evidence: 8 | Originality: 7 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 8
+
+FEEDBACK (2026-06-20):
+- Strong cold open: a researcher realizing her own data excludes her is a genuinely compelling hook, and "The judge didn't die. It was put to better use." is a single-line thesis of unusual durability. The Diana / "It's neither good nor bad. It just is what it is." line is the honest center of the piece.
+- The Ellen parenting arc (Glitter Center, "I may be making a mess, but I'm not messy," carsickness, the swim-meet "But I was brave, and I won") is the emotional peak and the one place the Type 1 frame serves the story rather than stamping it. The Heuertz + Spotify pairing is concrete, dated, and refuses to grandstand.
+- NEEDS WORK: (1) ORIGINALITY CAP — the piece's own notes admit it cut its critics section ("I didn't want to fabricate a named critic"); the result is ZERO engagement with any living critic of Brown (academic methodology critics, the "vulnerability industrial complex" columnists, the both-sides Spotify criticism). Ducked critic pressure caps originality at 8; combined with no fresh 2024-26 anchor for a living figure, originality lands at 7. (2) DEFENSE-COUNSEL FRAMING — the corporate-keynote arc (Pixar/IBM/Air Force/Gates) is redescribed as moral evolution without one indictable sentence about whether $50K-keynote vulnerability is structurally compromised.
+- NEEDS WORK: (3) ENNEAGRAM — type-plural crutch fires repeatedly ("Ones believe...", "Ones can always tell you the date", "Ones do this") and the courtroom/judge metaphor runs five-plus times until it loses edge. No `<details class="enneagram-rabbit-hole">` accordion exists; the typology stays in the body. Caps Enneagram at 8.
+- TO REACH B+: (1) Research and name at least one real critic of her methodology or the vulnerability-empire and give it a genuine empathy turn — silence is not the only alternative to fabrication; this is the single biggest lift, moving Originality toward 8-9. (2) Add one 2024-26 current anchor (what Brown is doing now). (3) Add one indictable sentence to the Dare-to-Lead corporate arc. (4) Trim the courtroom/judge metaphor to one central use plus two callbacks and thin the "Ones do this" captions. (5) Move any wing/arrow depth into a rabbit-hole accordion.
+-->
 
 > "I call it a breakdown. My therapist calls it a spiritual awakening. A spiritual awakening sounds better than breakdown, but I assure you, it was a breakdown." — Brené Brown, TEDxHouston, 2010
 

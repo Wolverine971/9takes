@@ -58,10 +58,10 @@ citations:
   - 'https://en.wikipedia.org/wiki/Kendrick_Lamar%E2%80%93Drake_feud'
 faqs:
   - question: "What is Drake's personality type?"
-    answer: "Drake is an Enneagram Type 3 (The Achiever), most consistent with a 3w2. The pattern shows in the biracial outsider wound (\"the last kid to get the invite to the party\"), the Degrassi child-actor pivot that turned performance into family income at 15, the strategic vulnerability that powered \"Marvins Room\" and \"Look What You've Done,\" the chameleon flow that absorbs Houston, Atlanta, UK grime and Afrobeats, and the post-Kendrick refusal to concede — the UMG defamation suit, the bullet-hole sweatshirt, and the Iceman re-brand."
+    answer: "Drake is an Enneagram Type 3 (The Achiever), most consistent with a 3w2. The pattern shows in the biracial outsider wound (\"the last kid to get the invite to the party\"), the Degrassi child-actor pivot that turned performance into family income at 15, the strategic vulnerability that powered \"Marvins Room\" and \"Look What You've Done,\" the chameleon flow that absorbs Houston, Atlanta, UK grime and Afrobeats, and the post-Kendrick refusal to concede — the UMG defamation suit, the bullet-hole sweatshirt, and the triple-album Iceman drop that seized the top three Billboard 200 spots at once."
     anchor: 'what-is-drakes-personality-type'
   - question: "Why can't Drake accept losing to Kendrick Lamar?"
-    answer: "For a Type 3, public defeat doesn't just sting — it threatens the entire identity, because worth was wired to winning. Drake's response runs the predictable Type 3 playbook: sue UMG over \"Not Like Us,\" perform resilience in a smoking bullet-hole sweatshirt in Australia, ship a chart-topping PartyNextDoor album within a week of the Super Bowl halftime, and re-launch as Iceman. Acceptance would mean admitting worthlessness, so the Achiever reprices the loss instead of absorbing it."
+    answer: "For a Type 3, public defeat doesn't just sting — it threatens the entire identity, because worth was wired to winning. Drake's response runs the predictable Type 3 playbook: sue UMG over \"Not Like Us,\" perform resilience in a smoking bullet-hole sweatshirt in Australia, ship a chart-topping PartyNextDoor album within a week of the Super Bowl halftime, and then answer with three albums in a single night that debuted at one, two, and three on the Billboard 200. Acceptance would mean admitting worthlessness, so the Achiever reprices the loss instead of absorbing it."
     anchor: 'the-kendrick-challenge-when-achievers-lose'
   - question: 'Is Drake a culture vulture or a Type 3 chameleon?'
     answer: "Both readings can be true at once. The Kendrick \"Not Like Us\" charge — that Drake extracts from Houston, Atlanta, UK grime, dancehall and Afrobeats without belonging to any of them — names a real pattern. The Type 3 reading explains the engine: a biracial kid who grew up in a Jewish school basement learned early that every culture is a costume that almost fits, and fluency in being whatever the room needs becomes a survival skill, not a moral failing — even when the Quentin Miller reference-track scandal shows how thin the line gets."
@@ -108,7 +108,7 @@ PUBLICATION READY: Yes. Clears the 8.5 threshold comfortably.
 
 <p class="firstLetter">Most superstars hide this truth. Drake built a quarter-billion-dollar empire on it.</p>
 
-Ten months after losing the biggest rap battle of the decade, he's still touring, still suing Universal Music Group, and set to release his ninth studio album on May 15, 2026. A Type 3 Achiever does not accept defeat. He reprices it.
+Fifteen months after Kendrick Lamar performed "Not Like Us" for 133.5 million Super Bowl viewers, Drake answered the way only a Type 3 can — not with a concession, but with output. On May 15, 2026, he released three albums in a single night and watched them debut at one, two, and three on the Billboard 200, something no artist had ever done. He's still touring, still suing Universal Music Group, and now holds more number-one albums than any solo artist in history but Taylor Swift, his only equal. A Type 3 Achiever does not accept defeat. He reprices it.
 
 To understand why, go back to a basement apartment in Toronto, where a half-Jewish, half-Black kid who never fit anywhere learned that performance was the only reliable path to love.
 
@@ -121,7 +121,7 @@ To understand why, go back to a basement apartment in Toronto, where a half-Jewi
 <li><b>Vulnerability as Strategy:</b> Most Type 3s hide behind polished images. Drake weaponized emotional transparency instead.</li>
 <li><b>The Chameleon Problem:</b> Houston to Atlanta to UK grime to Afrobeats. Critics call it culture vulture; Type 3s call it knowing your audience.</li>
 <li><b>The Gambler's Flex:</b> $8M in monthly losses streamed to millions for Stake.com. Even losing becomes image management.</li>
-<li><b>Refusal to Accept Defeat:</b> A year after losing to Kendrick, Drake is still suing UMG and dropping Iceman. For Type 3s, accepting loss means accepting worthlessness.</li>
+<li><b>Refusal to Accept Defeat:</b> A year after losing to Kendrick, Drake is still suing UMG — and answered with three albums in one night that took the top three Billboard slots at once. For Type 3s, accepting loss means accepting worthlessness.</li>
 </ul>
 </div>
 </details>
@@ -308,19 +308,23 @@ Drake's response followed a predictable pattern:
 
 The lawsuits, the symbolic gestures, the continued touring: from the outside, it looks like denial. From inside the Type 3 mind, it's survival. Acceptance means admitting worthlessness. So Type 3s work obsessively to regain standing. They experience public humiliation as betrayal by everyone who stopped validating them.
 
-## Iceman: Building a New Persona
+## Iceman: Repricing the Loss at Maximum Scale
 
-Drake's ninth album, _Iceman_, arrives May 15, 2026, his first full-length solo project since 2023's _For All the Dogs_ and the first since the Kendrick battle.
+For a year the question hanging over Drake was whether he could survive being declared the loser. His answer landed on May 15, 2026, and it was excessive by design.
 
-The rollout has been theatrical. Three noir-style livestreamed video episodes. An ice-block installation outside Toronto's Bond Place Hotel that drew hundreds of fans with sledgehammers and blowtorches trying to crack it open, forcing police from three divisions to manage crowds. A streamer named Kishka eventually pulled the release-date announcement from a waterproof bag buried in the ice, and reportedly left Drake's house with $100,000.
+He didn't release the comeback album. He released three of them in a single night — _Iceman_, his ninth solo project and first since 2023's _For All the Dogs_, plus two surprise records, _Habibti_ and _Maid of Honour_. Forty-three songs across the three. When the charts settled, Drake held the entire podium of the Billboard 200: _Iceman_ at number one, _Habibti_ at two, _Maid of Honour_ at three. No artist in the chart's history had ever occupied all three spots at once. _Iceman_ became his fifteenth number-one album, breaking Michael Jackson's record for a male solo artist and tying Taylor Swift for the most by any solo act, on 463,000 first-week units.
 
-The persona Drake is constructing draws from two specific sources: Kimi Räikkönen, the Formula 1 champion nicknamed "The Iceman" for never flinching under pressure, and Val Kilmer's Tom "Iceman" Kazansky in _Top Gun_. Cold. Unaffected. Unreadable.
+Read that as a Type 3 thesis statement. A man the _New Yorker_ had called "as clear a loser as Drake" responded by seizing more of the chart in one night than anyone ever had. The point was never one perfect song; the point was a scale too large to argue with. You don't need approval, you need an audience — and Drake had just commandeered the top of the chart three times over.
 
-**The title tells you everything.** The vulnerability that defined his career became a weapon used against him. The bullet-hole sweatshirt was the first shell: _still standing_. Iceman is the full armor: _can't touch me_.
+The reviews were mixed. Metacritic settled at 51, critics praising the production while flagging the bloat and the grievance-logging. _Rolling Stone_ named the actual function of the thing: it "accomplishes the task of clearing the field after he'd been declared... dead." _The Guardian_ found "great moments adrift amid a lot of underwhelming stuff and filler." For a Type 3, that is an acceptable trade. Volume that proves you are still standing beats ten tight tracks that invite a head-to-head.
 
-This is the Type 3 move. When the old image cracks, you don't repair it. You ship a new one.
+The rollout was pure theater. Three noir livestream episodes. An ice-block installation outside Toronto's Bond Place Hotel that drew hundreds of fans with sledgehammers and blowtorches, forcing police from three divisions to manage the crowd, until a streamer named Kishka pulled the release-date announcement from a waterproof bag buried in the ice and reportedly left Drake's house with $100,000. The release was not an event because of the music. It was an event because Drake made the wait for it a performance.
 
-The gesture itself is the argument: a man who just lost the most public rap battle in a generation responds with noir iconography, Formula 1 stoicism, and a $100,000 ice-block stunt in downtown Toronto. The kid who learned in a basement that performance was the path to love is still performing. Still paying.
+The persona draws from two specific sources: Kimi Räikkönen, the Formula 1 champion nicknamed "The Iceman" for never flinching under pressure, and Val Kilmer's Tom "Iceman" Kazansky in _Top Gun_. Cold. Unaffected. Unreadable.
+
+The title tells you everything. The vulnerability that built his career became the weapon used against him, so he sealed it off. The bullet-hole sweatshirt he wore on stage in Australia was the first shell: _still standing_. The triple album is the full armor: _too big to touch_. Even the guest list carries the message — Future, whose verse on "Like That" opened the entire war, is back on the tracklist beside longtime ally 21 Savage. The circle reassembled around the win.
+
+This is the Type 3 move in its purest form. When the old image cracks, you don't repair it. You out-produce the doubt until the numbers become the only argument anyone remembers. The kid who learned in a basement that performance was the path to love is still performing. Still paying.
 
 Degrassi taught him that income and attention came from what he did on screen. His mother's illness and father's absence taught him that success meant survival. Being "the last kid to get the invite" taught him that belonging had to be earned, over and over again. Adonis taught him that vulnerability, once someone else leaks it, cannot be reclaimed — only spun.
 
@@ -348,4 +352,21 @@ STILL OFF:
 - 21 Savage / Future / Travis Scott collaboration history still invisible — circle-validates-worth needs the actual circle named.
 - Type 3 stress (3→9) and growth (3→6) arrows still not landed with explicit evidence.
 
+============================================================
+UPDATE — 2026-06-20 (album-release refresh, fresh web research)
+============================================================
+- Iceman section rewritten from future-tense ("arrives May 15, 2026") to the
+  actual event: Drake dropped THREE albums in one night (Iceman / Habibti /
+  Maid of Honour), debuting #1/#2/#3 — first artist ever to hold the top three
+  Billboard 200 spots concurrently. Iceman = 15th #1 (breaks Michael Jackson's
+  male-solo record, ties Taylor Swift overall), 463K first-week units.
+- Reviews added: Metacritic 51 (mixed); Rolling Stone "clearing the field after
+  he'd been declared... dead"; Guardian "great moments adrift amid... filler."
+- 21 Savage / Future collaboration history now named (audit item resolved) via
+  the Iceman tracklist — Future, who opened the war on "Like That," is back.
+- Section retitled "Repricing the Loss at Maximum Scale" to pay off the thesis.
+- Hook, TL;DR, and two FAQ answers updated to reflect the triple-album drop.
+- UMG appeal status re-verified: reply brief April 17 2026, Second Circuit has
+  not scheduled oral argument as of June 2026 — existing text still accurate.
+- lastmod left untouched (DJ-managed). Not re-graded.
 ============================================================ -->

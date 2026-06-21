@@ -67,14 +67,15 @@ faqs:
     anchor: 'what-is-channing-tatums-personality-type'
 content_quality:
   hook: 8.5
-  enneagram: 8.5
+  enneagram: 7.5
   evidence: 8.0
-  writing: 9.0
-  originality: 8.5
-  overall: 8.5
-  letter: B+
-  graded_at: '2026-04-10'
-  needs_regrade: true
+  writing: 8.5
+  originality: 8.0
+  discoverability: 7.0
+  overall: 7.8
+  letter: C
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -89,6 +90,19 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Channing-Tatum.md
 ---
+
+<!-- QUALITY GRADE: C (7.8) — rubric v2
+Evidence: 8 | Originality: 8 | Discoverability: 7 | Enneagram: 7.5 | Writing: 8.5 | Hook: 8.5
+
+FEEDBACK (2026-06-20):
+- "The kid who couldn't read wrote a bestselling book. For his daughter. About self-acceptance." is the emotional peak and lands perfectly. The "be a sponge" childhood thread and the "we told ourselves a story" marriage reflection are well-handled, earned-not-imposed analysis.
+- The NYT "I'll perform for love... just to love me?" opening quote is a strong, specific hook that frames the central question.
+- NEEDS WORK: The "performing for love / shapeshifting / reinvention" insight is restated 5-6 times (opening, TL;DR, career section, Roofman, relationships, closing) — the draft's own fresh-eyes note flags it. After the third pass each repetition dilutes rather than deepens, which is why Originality lands at 8 not higher.
+- NEEDS WORK: Evidence is the soft spot the v1 grade already flagged (`needs_regrade`). Second-pass notes admit the "traumatized" Gambit quote and others are publicly-reported-but-unverified; several beats are paraphrase. Not enough dated/sourced testimony from people around him to clear 8.
+- NEEDS WORK: Enneagram drops to 7.5 — 7w8 wing plus stress-to-1 and growth-to-5 arrows sit in the body with no `<details class="enneagram-rabbit-hole">`. v2 caps this at 8 and the in-body arrow/wing notes pull below.
+- NEEDS WORK: Discoverability sits at the gate floor (7). `meta_title` ("Why Channing Tatum Performs for Love (The Pattern Nobody Sees)") is clever-but-unsearchable and omits "Type 7"/"Enneagram." Bug: two FAQ entries point to the same anchor `what-is-channing-tatums-personality-type` ("Why does Channing Tatum keep reinventing himself?" should use `the-boy-who-was-nowhere`, and the mental-health FAQ has no unique anchor) — fix before publish so FAQ schema resolves cleanly.
+- TO REACH B+: (1) Verify or cut the unsourced quotes; add 2-3 dated, attributed sources (collaborator testimony). (2) Cut the reinvention thesis to ~3 placements. (3) Rework `meta_title` to lead with the search query + type. (4) Fix the duplicate FAQ anchors. (5) Move 7w8 + arrows into a rabbit hole.
+-->
 
 > "I'll perform for love, essentially: Who do you want me to be, what do you want me to be, just to love me?"
 

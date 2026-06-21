@@ -74,16 +74,29 @@ production_pretext:
     - image_check
   blockers: []
 content_quality:
-  hook: 9.0
-  enneagram: 9.0
-  evidence: 8.5
-  writing: 9.0
-  originality: 8.8
-  overall: 8.9
-  letter: 'B+'
-  graded_at: '2026-04-28'
+  hook: 9
+  enneagram: 8
+  evidence: 7.5
+  writing: 8
+  originality: 8
+  discoverability: 8
+  overall: 8.0
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Jennifer-Coolidge.md
 ---
+
+<!-- QUALITY GRADE: B (8.0) — rubric v2
+Evidence: 7.5 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The haunted-house-as-self-portrait section is the cleanest single Type 4 evidence in the batch — the 1867 New Orleans ruin bought weeks before Katrina, restored not modernized for 20 years, is original and passes the swap test. "Even being noticed turns out to be a betrayal" (the Tanya read) is the deepest emotional beat; the empathy turn and interior beats are genuinely present.
+- The "I sabotaged myself. I was a sure bet." hook lands the falsifiable claim by paragraph 5. The Tanya-as-Coolidge collapse is the rare case where the actor-character merge is the actual thesis and the piece earns it.
+- NEEDS WORK: Evidence has a real ceiling — the working notes themselves admit the load-bearing quotes ("obsessed with a man," the Maron WTF material) were sourced via secondary reporting, not transcript-verified. The entire 20-year-derailment thesis hangs on quotes the writer flags as unconfirmed. Lock the primary sourcing before publishing.
+- NEEDS WORK: Originality is capped at 8 by ducked critic pressure — the piece takes Coolidge's "unattainable man" self-explanation at face value and never engages the obvious counter (Hollywood ageism for a 40-something character actress). Naming and resolving that counter would raise the score. No `<details class="enneagram-rabbit-hole">` for the 4w5 subtype / integration-to-1 depth, which keeps Enneagram at 8.
+- TO REACH B+: (1) Source-verify the load-bearing quotes (Variety, WTF #790, Far Out/Page Six) to lift Evidence. (2) Add a beat engaging the ageism counter-explanation, then resolve it through the Type 4 longing. (3) Add a rabbit hole for the 4w5 Bohemian subtype + arrows. (4) Trim the "grieving a life she didn't have" parallel from the opening so it lands once in the Tanya section.
+-->
 
 <!-- COPYWRITING PASS COMPLETE
 Titles: passed (all three pass visualize/falsifiable/nobody-else tests; meta_title 56 chars)

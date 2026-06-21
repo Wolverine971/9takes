@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/milly-alcock'
 lastmod: '2026-04-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'milly-alcock'

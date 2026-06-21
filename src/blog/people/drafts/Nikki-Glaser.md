@@ -71,13 +71,15 @@ instagram: 'https://instagram.com/nikkiglaser'
 tiktok: 'https://tiktok.com/@nikkiglaser'
 content_quality:
   hook: 9
-  enneagram: 8.5
+  enneagram: 8
   evidence: 8
   writing: 9
-  originality: 8.5
-  overall: 8.6
-  letter: B+
-  graded_at: '2026-04-10'
+  originality: 8
+  discoverability: 8
+  overall: 8.2
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -92,6 +94,16 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Nikki-Glaser.md
 ---
+
+<!-- QUALITY GRADE: B (8.2) — rubric v2
+Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- Strong thesis and hook: "the eating disorder and the standing ovations share the same engine" is a genuine, falsifiable Type 3 frame, and the compliment-as-trigger origin ("felt like getting an A on a test I didn't study for") does diagnostic work. Signature beats land — the "cleanse" after every roast, "no one is as mean to me as me," and the closing "one good song before I die" / "sit alone with a guitar and sing something bad." Current anchors are load-bearing (2026 Globes return, Good Girl Hulu special). Evidence is good (Bensinger, Variety, CBS, manager Alex Murray, Lampanelli) with some paraphrase.
+- Discoverability is solid: title is name-first with "Enneagram Type 3," TL;DR gives an early extractable answer, FAQ schema is genuine search-intent, same_as complete.
+- NEEDS WORK: ENNEAGRAM CAPPED AT 8 — no `<details class="enneagram-rabbit-hole">`. The 3w2 wing, stress-to-9, and growth-to-6 arrow mechanics are explained in the body, and the diagnosis section runs as a bullet-list ("Format-shifting as dominance," "Collecting proof of existence"). ORIGINALITY held at 8: sharp but the "one addiction replaced another / the mechanism didn't change" move and the "same engine, different stage" refrain repeat the single insight several times.
+- TO REACH B+ (8.5): (1) Move 3w2 wing + arrow mechanics into an enneagram-rabbit-hole and convert the bullet-list diagnosis into narrative. (2) Trim one or two restatements of the "same mechanism, different substance" thesis. (3) Add one direct quote from the SNL monologue or Good Girl when transcripts are available to deepen the 2025-2026 evidence.
+-->
 
 > "It felt like getting an A on a test I didn't study for."
 

@@ -76,13 +76,15 @@ faqs:
     anchor: 'september-9-2003'
 content_quality:
   hook: 9
-  enneagram: 8.5
+  enneagram: 8
   evidence: 8.5
   writing: 9
   originality: 8.5
-  overall: 8.7
-  letter: 'B+'
-  graded_at: '2026-04-06'
+  discoverability: 7.5
+  overall: 8.3
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -97,6 +99,17 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Adam-Sandler.md
 ---
+
+<!-- QUALITY GRADE: B (8.3) — rubric v2
+Evidence: 8.5 | Originality: 8.5 | Discoverability: 7.5 | Enneagram: 8 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- "The peacekeeper's secret: the peace was never for him" is the signature thesis line, and the father-dying-on-his-own-birthday beat (September 9, 2003) is the kind of detail that passes the swap test cleanly.
+- Evidence is well-sourced: Blackbird Spyplane (the itchy bar-mitzvah suit), the ESPN basketball oral history, the Rogan "I ate it" beat, the on-screen 50 First Dates dedication text, and the Mark Twain acceptance line all carry attribution. Box-office and Netflix figures are concrete.
+- NEEDS WORK: No `<details class="enneagram-rabbit-hole">` accordion. The anger-triad mechanics ("their relationship with anger is the most repressed of any type") and the 7-vs-6-vs-9 counter-typing in the diagnosis section belong in a rabbit hole, not the body — this caps Enneagram at 8. The body stays behavioral about anger but rarely renders the repressed-anger interior from *inside*.
+- NEEDS WORK: Discoverability is the ceiling. `meta_title` ("Why Adam Sandler Avoids Everything Except What Matters") is clever-but-unsearchable and never says "Type 9" or "Enneagram"; the H2 "What is Adam Sandler's personality type?" sits ~line 207, deep in the piece. Strong keywords/FAQ/same_as save it, but the type answer is not early-and-extractable in the prose.
+- TO REACH B+: (1) Add a rabbit-hole accordion holding the 7/6/9 counter-typing + anger-triad mechanics, freeing the body. (2) Rework `meta_title` to lead with the search query (e.g. "Adam Sandler's Enneagram Type, Explained: The Type 9 Peacemaker") — 35-65 chars, name + type early. (3) Move a one-block extractable type answer higher (after the TL;DR) so a Google lander gets it in seconds. (4) Add one interior beat that puts the reader inside the repressed anger, not just naming it.
+-->
 
 > "Part of my father having a temper led to me developing a sense of humor to calm the old man down."
 

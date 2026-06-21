@@ -68,13 +68,15 @@ instagram: 'sza'
 tiktok: 'sza'
 content_quality:
   hook: 8.5
-  enneagram: 8.5
+  enneagram: 7.5
   evidence: 8.0
   writing: 8.5
   originality: 8.5
-  overall: 8.4
+  discoverability: 8.0
+  overall: 8.1
   letter: B
-  graded_at: '2026-04-12'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -89,6 +91,18 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/sza.md
 ---
+
+<!-- QUALITY GRADE: B (8.1) — rubric v2
+Evidence: 8 | Originality: 8.5 | Discoverability: 8 | Enneagram: 7.5 | Writing: 8.5 | Hook: 8.5
+
+FEEDBACK (2026-06-20):
+- The "wound, not craft" thesis ("She is not the finished portrait. She is the artist in the middle of painting it") is a genuine, non-obvious frame that passes the swap test — the hard-drive opening ("the only way SZA could let something go was for someone to take it from her") is the signature detail that makes the whole Type 4 read click.
+- Strong current-tense, dated evidence in the subject's own voice: the BBL regret ("I succumbed to my own eyes in the mirror," British Vogue Dec 2024), the Hot Ones breakup update in bug prosthetics (Sept 2024), "wherever you go, there you'll be." The empathy turn lands — the NPR Tiny Desk apology-hugging detail makes a self-flagellating behavior understandable through Type 4 stress without excusing it.
+- Discoverability is solid: full entity metadata (same_as, wikidata, imdb), real FAQ schema on genuine search questions, extractable type answer. meta_title is name-forward but editorial ("SZA's Secret...") with no "enneagram/type" search phrasing.
+- NEEDS WORK (Enneagram): "The evidence:" bulleted list is a typed-out argument and "Type 4s under stress slide toward..." brings type-plural framing into the body. There is no rabbit-hole accordion to hold the Type 4 mechanics. Body bleed + missing rabbit hole caps this dimension at 8; the list-driven framing pulls it to 7.5.
+- NEEDS WORK (Evidence): the analysis rests almost entirely on SZA's own words — the reviewer note flagging a missing collaborator/TDE testimony quote is correct, and it keeps Evidence at 8 (the "testimony from people around her" check is thin).
+- TO REACH B+ (8.5): (1) Dissolve the "The evidence:" list into narrative and move the Type 4 mechanics into a <details class="enneagram-rabbit-hole">. (2) Add one sourced collaborator/TDE quote (a producer or label-mate on what working with her is like) to satisfy the outside-testimony check. (3) Add a search-intent meta_title/persona_title variant with "SZA enneagram/type 4."
+-->
 
 > "When you make your discomfort available to everyone else, it allows everyone to deal with the discomfort."
 >

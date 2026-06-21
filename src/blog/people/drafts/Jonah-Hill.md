@@ -70,13 +70,15 @@ instagram: ''
 tiktok: ''
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 7
   evidence: 8
-  writing: 9
-  originality: 9
-  overall: 8.6
-  letter: B+
-  graded_at: '2026-04-10'
+  writing: 8
+  originality: 8.5
+  discoverability: 8
+  overall: 8.0
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -91,6 +93,17 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Jonah-Hill.md
 ---
+
+<!-- QUALITY GRADE: B (8.0) — rubric v2
+Evidence: 8 | Originality: 8.5 | Discoverability: 8 | Enneagram: 7 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The Stutz / press-release contradiction is an exceptional hook, and "It was also a press release" earns the reader's trust immediately. Strong originality: "he performed 'healed' so thoroughly he couldn't distinguish his own control patterns from genuine growth," the boundaries-texts read, and "unproduced" for the grief he couldn't metabolize. Faces real critic pressure (the Brady texts) head-on; current anchor (Outcome, the 2023 texts).
+- The Jordan Feldstein grief section is the emotional center and the one place the performance lens breaks down — that's the empathy turn and an interior beat working together.
+- NEEDS WORK: Enneagram Integration caps at 7. The 3w4 wing and both the stress-to-9 and integration-to-6 arrows are spelled out in the body, and there is NO `<details class="enneagram-rabbit-hole">`. v2 quarantines that mechanics in the rabbit hole and does not reward it in the narrative.
+- NEEDS WORK: The "is it performance or is it real?" refrain is overworked — fresh-eyes counts it ~6x (intro, TL;DR, evidence list, Stutz section, body, close). The bold-title-colon evidence bullets are a visible house-template fingerprint. Both pull Writing to 8.
+- TO REACH B+: (1) Build a rabbit hole and move the 3w4 wing + stress/integration arrows out of the body into it. (2) Cut the middle restatements of the performance/real refrain so it hits in the intro, once in Stutz, and the close only. (3) Convert the Type 3 evidence list out of the bold-colon template into prose to kill the fingerprint.
+-->
 
 > "I spent my whole 20s trying to be what people wanted me to be... and the past few years have been amazing in that I'm just going to be myself."
 

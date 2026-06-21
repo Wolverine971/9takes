@@ -76,15 +76,28 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 8
   evidence: 9
   writing: 9
   originality: 9
-  overall: 9.0
-  letter: A
-  graded_at: '2026-04-24'
+  discoverability: 8
+  overall: 8.6
+  letter: 'B+'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Keith-Lee.md
 ---
+
+<!-- QUALITY GRADE: B+ (8.6) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 8 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- Exceptional evidence and originality: the PAW Patrol chair + prosthetic-nose + family-van set carries the Type 9 thesis without exposition, and Kevin Lee's "All of a sudden I'm Keith's brother instead of the other way around" is a load-bearing, non-recycled quote. The ten-neckties scene and the $4,000-he-couldn't-give-away are real signature details; the piece passes the swap test cleanly and has a current anchor (Kardigan's Sept 2025 birth review).
+- Discoverability is solid but not perfect: title leads with "Keith Lee" + "Enneagram Type 9," the type answer is early and extractable, and the FAQ schema is genuine search-intent. The meta_title ("Inside Keith Lee's Mind: Why TikTok's Fighter Got Quiet") is curiosity-led rather than name-first, costing a point.
+- NEEDS WORK: ENNEAGRAM CAPPED AT 8 — there is no `<details class="enneagram-rabbit-hole">` accordion. The 9w8 wing mechanics, integration-to-3 line, and "the kind of figure Jelly Roll exemplifies" comparison live in the body and TL;DR. Move wing/arrow depth into a rabbit hole to lift this dimension.
+- TO REACH A (9.0+): (1) Add a well-formed enneagram-rabbit-hole holding the 9w8 / integration-to-3 / counter-typing depth and strip those mechanics from the body. (2) Tighten the "X is not Y. X is Z." cadence ("It's not a shy guy. It's a Nine.") used three times in the first half. (3) Cut the duplicate "negotiation between 'don't be an asshole' and 'still be honest'" (TL;DR echo vs. review-cadence section) — keep one.
+-->
+
 
 <!-- TESTIMONY LEDGER
 1. Kevin Lee (older brother, former UFC fighter): "All of a sudden I'm Keith's brother instead of the other way around." — MMA Fighting / Knuckle Cartel interview, 2023.

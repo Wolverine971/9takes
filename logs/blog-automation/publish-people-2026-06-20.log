@@ -1,0 +1,35 @@
+```text
+Publish blocked. No publishable draft found (430 candidates checked).
+
+Person: none selected
+Generated files: not run (script gated before any writes)
+Local diff: clean
+
+Why nothing published:
+Every unpublished draft fails the gate. Two buckets:
+
+1. Grade passes, but IMAGES MISSING (the real near-ready set)
+   These have rubric_version: 2, overall >= 8.5, discoverability >= 7 —
+   the ONLY blocker is missing_full_image + missing_thumbnail_image:
+   - Keira-Knightley   (type 6, 8.9 / disc 9)
+   - Nick-Offerman     (type 9, 8.9 / disc 9)
+   - Olivia-Wilde      (type 3, 8.8 / disc 9)
+   - Nicholas-Galitzine(type 4, 8.7 / disc 9)
+   - victoria-justice  (type 9, 9.0 / disc 8.5)
+   - Jason-Sudeikis    (type 9, 8.8 / disc 8)
+   - Kurt-Russell      (type 9, 8.8 / disc 8.5)
+   - PinkPantheress    (type 5, 8.8 / disc 8.5)
+   - Andrew-Garfield   (type 4, 8.7 / disc 8)
+   - Hailee-Steinfeld  (type 3, 8.6 / disc 8)
+   - greta-gerwig      (type 6, 8.5 / disc 8)
+   None have static/types/[type]s/[Person].webp or s-[Person].webp.
+
+2. Stale grade / already published (everything else)
+   - Most unpublished drafts (Britney-Spears, Clint-Eastwood, Ninja, etc.)
+     have NO rubric_version → blocked as stale_grade_rubric_v1 → need /grade_blog re-run.
+   - Many slugs are already published in Supabase.
+```
+
+The publish step is doing exactly what it should — it won't bypass the gate. To unblock, the path is **manual Canva images** for the grade-passing set above (the automated type-image pipeline was retired and shouldn't be rebuilt). Make the two `.webp` files for any one of them (full + `s-` thumbnail), then re-run `/blog_content_publish_people [Person]` and it'll go through.
+
+Want me to point you at the cwebp recipe for prepping those images, or re-run publish against a specific person once their images are in place?

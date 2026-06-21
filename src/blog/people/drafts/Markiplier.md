@@ -68,7 +68,29 @@ twitter: 'markiplier'
 instagram: 'markiplier'
 tiktok: '@markiplier'
 path: src/blog/people/drafts/Markiplier.md
+content_quality:
+  hook: 9
+  enneagram: 8
+  evidence: 9
+  writing: 9
+  originality: 9
+  discoverability: 8
+  overall: 8.6
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-20'
 ---
+
+<!-- QUALITY GRADE: B+ (8.6) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 8 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The opening is the rare cut-to-black-quality hook for a YouTuber: the July 4, 2008 deathbed ("I love you, so much"), then Iron Lung's $52M opening weekend where the man who built an empire on volume sits and weeps over the fact that "people showed up." The thesis — a Seven who converts every catastrophe into forward motion and keeps making art about endings — drives every section and passes the swap test cleanly.
+- Evidence is exceptional and citable: dated quotes (the 2017 "I feel lost" video, Seth Meyers on Amy, the Cancer Research Institute interview), sourced financials ($38M, $11M raised, $3M self-financed), and collaborator testimony (Nadeshot "incredibly awkward," Ethan Nestor). The Doom easter-egg signature detail ("How To Comb Your Moustache by Cliffton M. Fischbach") is the kind of small specific moment that makes the whole analysis click.
+- Originality is high — the Unus-Annus-as-machine-for-rehearsing-loss reading and the "he still doubts it after 14 years of evidence" close are genuinely fresh. The 2024 subreddit purge is engaged as a real, indictable stress beat rather than ducked, and currency is excellent (Dec 2024 purge, Sept 2025 marriage, Iron Lung). Writing has strong visual rhythm and an immersive, narrative flow.
+- NEEDS WORK: ENNEAGRAM CAP — the stress/growth arrow MECHANICS sit in the body ("A Seven under pressure moves toward Type 1," "a Seven in growth moves toward Type 5," with linked arrow pages) and there is no `<details class="enneagram-rabbit-hole">` accordion to quarantine them. Per v2 this caps the Enneagram dimension at 8 no matter how well the emotional interior lands (and it lands well). This is the only thing holding the piece back from a clean A.
+- TO REACH A: (1) Move the 7→1 and 7→5 arrow mechanics into a rabbit-hole accordion; keep the body's felt interior (the vault filling, the engine that idles but never stops) — this alone lifts Enneagram to 9 and the overall into A range. (2) Optional discoverability polish: the meta_title is strong but the body's type answer could be hoisted one beat earlier for AI-extractability. No structural rewrites needed; this is the strongest draft in the batch.
+-->
 
 > "YouTube is about putting yourself out there on the internet, but you eventually run out of 'self' to give."
 

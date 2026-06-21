@@ -84,15 +84,28 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 8
   evidence: 9
-  writing: 9
-  originality: 9
-  overall: 9.0
-  letter: A
-  graded_at: '2026-04-29'
+  writing: 8
+  originality: 8
+  discoverability: 8
+  overall: 8.3
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Lily-Allen.md
 ---
+
+<!-- QUALITY GRADE: B (8.3) — rubric v2
+Evidence: 9 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- Evidence and hook are excellent: the 2009 immigration-officer cold-open is causal rather than ornamental (it IS the founding pattern), and the sourced quotes are dense and dated (Balance, Times, Alison Owen, Mark Ronson). The wrong-Lily-picked-up-from-school anecdote is the single best origin-story image in the batch — it does diagnostic work no type-theory paragraph could. The "tells the unflattering ones first / that's an architecture" frame is a genuinely fresh Type 4 reading.
+- NEEDS WORK: ORIGINALITY CAPPED AT 8 (ducked critic pressure + missing beats) — the West End Girl section accepts Allen's account as fact and never names that we're inside one party's frame; David Harbour's side is reduced to "Oh boy." The "Madeline"-is-a-real-costume-designer tension is raised and dropped. Her two daughters (Ethel, Marnie) are never mentioned — a load-bearing hole in a 2026 portrait of a 39-year-old mother whose core image is a child being mistaken for someone else.
+- NEEDS WORK: WRITING CAPPED AT 8 — the italicized "It is not X. It is Y." contrast-pair construction runs 3-4 times (industry/outsider, kind/older, attention-seekers/Allen, hated-correctly/loved-by-mistake), and the single-syllable triplet ("She tells the truth. The truth costs her. She tells the next one anyway.") recurs near-identically in the closer. ENNEAGRAM CAPPED AT 8: no rabbit hole; the 4w3 wing and Type 8 counter-typing live in the body.
+- TO REACH B+ (8.5): (1) Add one beat naming that the West End Girl account is Allen's account, and engage the Harbour/Madeline cost-to-others question the thesis exists to interrogate. (2) Add the daughters. (3) Cut two of the contrast-pair italicized X/Y constructions and one thesis-triplet. (4) Move 4w3 + counter-typing into an enneagram-rabbit-hole.
+-->
+
 
 <!-- TESTIMONY LEDGER
 1. Mark Ronson (producer, longtime collaborator): "some of the best she's written" + "some of her most honest and heartbreaking music ever" — NME, on Allen's recent material

@@ -69,15 +69,29 @@ faqs:
     anchor: 'the-traffic-cops-grandson'
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 8
   evidence: 8
   writing: 9
   originality: 9
-  overall: 8.8
-  letter: 'B+'
-  graded_at: '2026-04-01'
+  discoverability: 8
+  overall: 8.4
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Conan-OBrien.md
 ---
+
+<!-- QUALITY GRADE: B (8.4) — rubric v2
+Evidence: 8 | Originality: 9 | Discoverability: 8 | Enneagram: 8 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- Best opening in the batch: Austria → van → plane → empty bed → Oscars-ten-weeks-later is devastating and economical, and "if I was having a good time, it would be good" frames the whole paradox. "Anxiety is forward-looking. Depression requires sitting in what already happened" is the thesis of the profile in two sentences.
+- Originality is high — the "smart and stupid" intersection as survival strategy (not comedy philosophy), the reframe reflex turning the worst year into "the most satisfying and fascinating year," and "he wants to remember it instead" all pass the swap test. Parents dying within three days in Dec 2024 + the 2025 Oscars supplies a sharp current anchor.
+- Discoverability is the batch high (8): keywords are genuinely search-shaped (anxiety/depression, Tonight Show, Oscars 2025, Needs a Friend podcast), the FAQ is built on real questions with distinct anchors, same_as is complete, and the type answer is clear. Ceiling is `meta_title` ("Why Conan O'Brien Can't Stop Reinventing Himself") leading with intrigue over the "Enneagram Type 7" query string.
+- NEEDS WORK: Enneagram capped at 8 — 7w6 wing plus the stress-to-1 ("Sevens move toward the rigid, principled qualities of Type 1") and growth-to-5 arrow paragraphs run in the body with no `<details class="enneagram-rabbit-hole">` to hold them. The felt interior is otherwise excellent (the anxiety-is-depression realization is the type engine rendered from inside).
+- NEEDS WORK: Evidence at 8 — strong but several key quotes (Dartmouth, NPR, monologue lines) are paraphrased or undated relative to the exceptional tier; the depression/medication beats lean on unattributed reconstruction.
+- TO REACH B+: (1) Move 7w6 + stress-1 + growth-5 mechanics into a rabbit-hole accordion. (2) Tighten the dual closers ("When the Running Slowed" + "The Running and the Standing Still") and the motion/velocity metaphor, which recurs past the point of meaning. (3) Date and attribute 3-4 of the load-bearing quotes. (4) Add the type+query to `meta_title`.
+-->
 
 > "I've devoted all of my adult life to pursuing this strange, phantom intersection between smart and stupid."
 

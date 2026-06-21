@@ -83,15 +83,29 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9.0
-  enneagram: 9.0
-  evidence: 9.2
-  writing: 8.8
-  originality: 9.0
-  overall: 9.0
-  letter: 'A'
-  graded_at: '2026-04-28'
+  enneagram: 7.0
+  evidence: 9.0
+  writing: 8.0
+  originality: 8.5
+  discoverability: 7.5
+  overall: 8.1
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Andrew-Ross-Sorkin.md
 ---
+
+<!-- QUALITY GRADE: B (8.1) — rubric v2
+Evidence: 9 | Originality: 8.5 | Discoverability: 7.5 | Enneagram: 7 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- "Strikeouts are exposure. Rallies are information." and the "depersonalize the accusation / it's not me, it's the document" frame are the most original Type 6 readings in the piece — the SBF-in-slippers + Musk-Yaccarino pair earns its placement.
+- Evidence is near-exceptional: Taibbi and Starkman quoted verbatim with attribution, the Cowen "magically, they let me in the building" line, the Boardroom complacency quote, the Acquired "it's not me saying this" line, the coloboma tweet. The 1929 book (Oct 2025) supplies a real current anchor.
+- NEEDS WORK: Enneagram drops to 7. The DISTRIBUTION LEDGER itself admits 4 type-theory paragraphs in the body ("This is what 6w5 looks like in its purest form," "The 6 manages confrontation by removing themselves," the access-preservation block) plus a counter-typing ladder ("A 3 would have brand-jumped. A 7 would have started a fund. A 5 would have stayed in the archives"). With no `<details class="enneagram-rabbit-hole">` to quarantine the 6w5/arrow/counter-typing mechanics, v2 caps this dimension at 8 and the in-body lecture pulls it below.
+- NEEDS WORK: Writing capped at 8 by two fingerprints — the "A 3/7/5 would have..." comparison template appears 3+ times, and "That's not strategic. That's a personality type." is the AI-flavored declarative tic (the piece's own fresh-eyes note flags it). The closing three paragraphs all restate "under-the-covers phone = 600-page book = printed letter."
+- NEEDS WORK: Discoverability — `meta_title` ("Why Andrew Ross Sorkin Doesn't Trust the People Who Trust Him") is clever-but-unsearchable and omits "Type 6"/"Enneagram"; keywords and FAQ carry the search-intent load.
+- TO REACH B+: (1) Move all 6w5 / stress-3 / growth-9 / counter-typing mechanics into a rabbit-hole accordion; keep the body person-first. (2) Cut the "A 3/7/5 would have" template to one instance and delete "That's a personality type." (3) Trim the closing to a single image. (4) Rework `meta_title` to lead with the search query and the type.
+-->
 
 <!-- TESTIMONY LEDGER
 1. Matt Taibbi: "the single most credulously slobbering financial reporter on the planet" — Rolling Stone / Taibblog, 2011 (also: "a shameless, ball-gargling prostitute for Wall Street")

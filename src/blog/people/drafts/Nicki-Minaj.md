@@ -73,13 +73,15 @@ instagram: '@nickiminaj'
 tiktok: '@nickiminaj'
 content_quality:
   hook: 9
-  enneagram: 8.5
+  enneagram: 8
   evidence: 8
   writing: 9
-  originality: 8.5
-  overall: 8.6
-  letter: 'B+'
-  graded_at: '2026-04-10'
+  originality: 8
+  discoverability: 8
+  overall: 8.2
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -94,6 +96,16 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Nicki-Minaj.md
 ---
+
+<!-- QUALITY GRADE: B (8.2) — rubric v2
+Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The arms-spread-wide opening image is genuinely powerful and threads cleanly to the close, and "Roman as architectural solution to an impossible problem" is the sharpest original beat — reading the alter ego as psychological structure rather than marketing. The piece earns its Originality by confronting the dark contradictions head-on (the Kenneth Petty marriage as the Eight's "I am strong enough to manage this" trap; the Dec 2025 TPUSA turn as the armor turning against the community Roman was built to protect). Current anchors are load-bearing (TPUSA, Jay-Z/Roc Nation 2026).
+- Discoverability is solid: title leads name-first with "Enneagram Type 8," the TL;DR gives an early extractable answer, and the FAQ schema is genuine search-intent. Evidence is good but leans on a few unsourced "she's said" paraphrases and Carol Maraj is the only childhood-witness voice.
+- NEEDS WORK: ENNEAGRAM CAPPED AT 8 — no `<details class="enneagram-rabbit-hole">`. The stress-to-5 and growth-to-2 arrow mechanics are explained in the body, and the diagnosis section uses a bullet-list ("Control everything," "Convert pain to fuel"). ORIGINALITY held at 8: the childhood origin (shield → vow → empire) is retold across the opener, TL;DR, "House That Burned Down," "Prayer at the Foot of the Bed," and the Enneagram section — four-plus passes of the same arc dilutes the freshness.
+- TO REACH B+ (8.5): (1) Move arrow mechanics (8→5 stress, 8→2 growth) into an enneagram-rabbit-hole and convert the bullet-list diagnosis to narrative. (2) Consolidate the childhood arc — let it land once at full force instead of four partial retellings. (3) Source the paraphrased quotes or attribute them.
+-->
 
 > "I remember when my mother would let my father be violent with her. And she always brings up this story — as a little girl I would stand in front of my mother and go like this." She reached her arms out in defense.
 

@@ -80,14 +80,28 @@ production_pretext:
 path: src/blog/people/drafts/Elizabeth-Holmes.md
 content_quality:
   hook: 9
-  enneagram: 9
-  evidence: 8.5
-  writing: 9
+  enneagram: 7
+  evidence: 9
+  writing: 8
   originality: 9
-  overall: 8.9
-  letter: 'B+'
-  graded_at: '2026-05-07'
+  discoverability: 8
+  overall: 8.4
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 ---
+
+<!-- QUALITY GRADE: B (8.4) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 7 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- Exceptional evidence: the testimony ledger delivers 7 dated, attributed quotes from 5 named speakers (Robertson's "another Bill Gates or Steve Jobs," Kissinger's "ethereal," Carreyrou's unblinking-stare line), plus sourced metrics ($700M, $4.5B). This is exactly the citable material AEO rewards.
+- Originality is high: "she reverse-engineered the artifact of having succeeded," the 600+ "I don't know" deposition beat, and the 31¢ reentry-clerk irony are signature details that pass the swap test. Strong current anchor (prison, clemency filing, AI-apocalypse posts). The age-9 letter hook is among the best openings in the corpus.
+- NEEDS WORK: Enneagram Integration is the weak dimension and it's a true v2 penalty. The distribution ledger itself admits 4 type-theory paragraphs in the body (the 3w2 helper-wing play, Type 3 deceit-as-assembly twice, the stress arrow to Type 9), and there is NO `<details class="enneagram-rabbit-hole">`. v2 quarantines wing/subtype/arrow mechanics in the rabbit hole and does not reward them in the body — this drops the dimension to 7.
+- NEEDS WORK: The "costume/wardrobe/role" metaphor and the "no Elizabeth underneath" thesis are load-bearing in nearly every section (fresh-eyes counts the thesis ~5x, the 31¢ stat 3x). Thin the middle so the closing line lands fresh.
+- TO REACH B+: (1) Build a rabbit hole and move the 3w2 wing, sx/so subtype, and the stress-to-9 arrow out of the body into it. (2) Cut two repetitions of the costume thesis and one of the 31¢ stat. (3) Optional but raises Originality further: add one grounded consequence beat (patient harm or the Tyler Shultz betrayal) so the analysis reads as "left wreckage," not sympathetic-by-omission.
+-->
+
 
 <!-- TESTIMONY LEDGER
 1. Channing Robertson (Stanford engineering dean, Holmes's thesis advisor and early Theranos board member): "You start to realize, you are looking in the eyes of another Bill Gates, or Steve Jobs." — Fortune profile, 2014. Holmes kept this quote on her desk before the company had a working device.

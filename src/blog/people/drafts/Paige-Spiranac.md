@@ -32,31 +32,28 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 8
   evidence: 8.5
-  writing: 9
+  writing: 8.5
   originality: 9
-  overall: 8.9
-  letter: B+
-  graded_at: '2026-05-23'
+  discoverability: 6.5
+  overall: 8.1
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Paige-Spiranac.md
 ---
 
-<!-- QUALITY GRADE: B+ (8.9)
-Hook: 9 | Enneagram: 9 | Evidence: 8.5 | Writing: 9 | Originality: 9
+<!-- QUALITY GRADE: B (8.1) — rubric v2
+Evidence: 8.5 | Originality: 9 | Discoverability: 6.5 | Enneagram: 8 | Writing: 8.5 | Hook: 9
 
-FEEDBACK (2026-05-23):
-- SIGNATURE DETAIL LANDS: The anonymous Beef Franke donation is the kind of small, sourced moment that makes the whole Type 3-to-6 growth arrow click. Francis Ellis's quote — "she just told that person, 'send it to Beef's family'" — is structural material, not decoration.
-- ENDING IS A+: The triple callback — eleven-year-old at the lunch table, "she doesn't perform for the people who love her... or hate her," and the closing line — is one of the cleanest cuts-to-black in the catalog. No CTA, no summary, no spoil. The TL;DR teases without giving it away.
-- OnlyPaige FRAMING ("The brand is the wink. The product is the wall.") and the divorce announcement section ("She did marketing for everything else. She did silence for that.") are the kinds of distilled lines a Type 3 analysis needs.
-- ENNEAGRAM AS ENGINE: The piece passes the swap test cleanly. The consolation-prize thesis — "she became golf's most-watched woman by accident" — is what makes the typing non-obvious. The 3-to-9 stress arrow (quiet 2025) and 3-to-6 growth arrow (Beef donation) are both anchored in dated specifics, not theory.
-- NEEDS WORK (Evidence): A handful of factual claims are unattributed in the prose — "seven hours a day" gymnastics training, the Pittsburgh Panthers 1976 detail, the Mountain West Conference win, the "fifteen-to-sixteen thousand dollars" Beef donation amount (the fuzzy range is the giveaway). These are likely defensible but should be sourced in-text or via a citation pass.
-- MINOR: The opening paragraph is a collage of facts rather than a single dramatic scene. It works, but the "girls spat in her drink / classmates threw rocks at her" details in the childhood section are sharper than what's leading the piece. Consider whether one of those should anchor the hook.
-
-TO REACH A (9.0+):
-(1) Source-pass the unattributed facts: confirm the "seven hours a day" gymnastics claim, the Pittsburgh Panthers detail, and the Mountain West win — add quick parentheticals or cite once at section open.
-(2) Tighten the donation amount: either commit to a number or name the source for the range ("according to Ellis's account, $15K-$16K").
-(3) Optional: test a hook rewrite that opens on a single concrete scene (the lunch table walkaway, or the recess rock-throwing) and lets the Maxim contrast land in paragraph 2. Current opening works, but a sharper scene-first hook would push Hook from 9 to 9.5.
+FEEDBACK (2026-06-20):
+- Originality is genuinely high: the consolation-prize thesis ("she became golf's most-watched woman by accident") makes the typing non-obvious and passes the swap test cleanly. The anonymous Beef Franke donation is a signature detail — Francis Ellis's "send it to Beef's family" is structural evidence, not decoration. Named critic pressure (Inkster, Spain) is engaged seriously rather than ducked, and the 2025-26 quiet-then-rebuild arc is a real current-tense anchor.
+- Evidence is strong: a testimony ledger of four named outside voices (Inkster, Spain, Ellis, Sorenstam) plus dense, dated subject quotes. The "send it to Beef's family" and the sexual-favors-rumor quote are in-voice and load-bearing.
+- Ending is one of the cleanest cuts-to-black in the catalog: the lunch-table callback delivers a third object ("She performs for the eleven-year-old at the lunch table") the TL;DR teased without spoiling.
+- GATE — DISCOVERABILITY FAILS (6.5 < 7), capping this blog at B regardless of craft. The frontmatter has NO `faqs` schema, NO `keywords`, NO `same_as`/`wikidata`/entity metadata — the AEO structure the other drafts in this batch all carry. The meta_title ("Why Paige Spiranac Can't Stop Performing for People Who Hate Her") is a clever editorial headline with no search-intent phrasing ("Paige Spiranac enneagram / personality type / what type is"). The in-body type answer is clear and early, which is the only thing keeping this above a 6. As written, an AI answer engine has no FAQ block to lift and a Google "Paige Spiranac enneagram" query has no titled target.
+- NEEDS WORK (Enneagram): no rabbit-hole accordion. The 3w2 wing material, the 3-to-9 stress arrow, and the 3-to-6 growth arrow live in the body. That depth belongs quarantined in <details class="enneagram-rabbit-hole">; its absence caps this dimension at 8.
+- TO REACH B+ (8.5) — DISCOVERABILITY IS THE BLOCKER: (1) Add a real `faqs` block on genuine search questions ("What is Paige Spiranac's personality type?", "Is Paige Spiranac a Type 3?", "Why did Paige Spiranac leave the LPGA?"). (2) Add `keywords`, `same_as`, `wikidata_qid`, and a search-intent `persona_title` or `meta_title` variant with her name + "enneagram/type." (3) Build the enneagram rabbit hole and move the wing/arrow mechanics into it. Until discoverability clears 7, no amount of prose polish lifts this past B.
 -->
 
 

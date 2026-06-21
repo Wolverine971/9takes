@@ -73,15 +73,28 @@ instagram: ''
 tiktok: ''
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 8
   evidence: 8
   writing: 9
   originality: 9
-  overall: 8.8
-  letter: 'B+'
-  graded_at: '2026-03-28'
+  discoverability: 7
+  overall: 8.2
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Leonardo-da-Vinci.md
 ---
+
+<!-- QUALITY GRADE: B (8.2) — rubric v2
+Evidence: 8 | Originality: 9 | Discoverability: 7 | Enneagram: 8 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- Originality and writing are top-tier: "completion felt like death" is a genuine thesis that resolves the unfinished-everything paradox, and signature details land (the woodpecker-tongue to-do list, the centenarian's "so sweet a death" dissection, Salaì kept twenty-five years, the legacy-now anchor "we are still finding things"). The 1482 military-resume cold-open is one of the better hooks in the corpus. Evidence is well-sourced for a historical figure (Pope Leo X, Novellara's "cannot bear the sight of a paintbrush," Bandello's eyewitness account) but is paraphrase-heavier than a living subject's own-words testimony.
+- NEEDS WORK: DISCOVERABILITY (7) — the meta_title and FAQs are excellent search-intent ("Why Leonardo da Vinci Never Finished Anything"), but the "What is Leonardo da Vinci's personality type?" section sits near the END of the piece (after ~10 sections), so the extractable type answer is buried for a Google/AI visitor who needs it up top. The TL;DR helps but doesn't fully answer the type question early.
+- NEEDS WORK: ENNEAGRAM CAPPED AT 8 — no `<details class="enneagram-rabbit-hole">`. The 5w4 "Iconoclast" wing analysis and stress/withdrawal mechanics sit in the body.
+- TO REACH B+ (8.5): (1) Move the type-answer section much earlier (right after the hook/TL;DR) so a landing reader gets the extractable answer fast — this is the single highest-leverage fix and lifts Discoverability past the gate comfortably. (2) Add an enneagram-rabbit-hole holding the 5w4 wing + stress-to-7 depth. (3) The contrast-panel "What Milan saw vs. What Leonardo was doing" is fine, but watch the repeated "The X was never the point. The Y was the point." cadence in the closing.
+-->
+
 
 > "I have offended God and mankind because my work did not reach the quality it should have."
 

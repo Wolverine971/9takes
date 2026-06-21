@@ -63,13 +63,15 @@ faqs:
     anchor: 'the-67-million-trap'
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 8
   evidence: 8
-  writing: 9
+  writing: 8
   originality: 9
-  overall: 8.8
-  letter: B+
-  graded_at: '2026-04-09'
+  discoverability: 8
+  overall: 8.3
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -84,6 +86,17 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Corinna-Kopf.md
 ---
+
+<!-- QUALITY GRADE: B (8.3) — rubric v2
+Evidence: 8 | Originality: 9 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The "moments between spins" reading ("the 30 seconds the reels spin is 30 seconds the past cannot land") is the signature insight — it reads gambling as psychology, not moral judgment, and it passes the swap test cleanly.
+- The father-teaches-distraction thread paid off by the closer ("She just got better microphones") is the strongest structural spine; the Logan Paul condemnation-then-relationship hook is genuinely startling. Real current-tense anchor (Oct 2024 OnlyFans walkback).
+- NEEDS WORK: No `<details class="enneagram-rabbit-hole">` accordion. The 7w8 wing is in the keywords/headlines but there's nowhere for wing/subtype/arrow depth to live — this caps Enneagram Integration at 8. The piece also stays mostly behavioral; the body names the running pattern more than it puts the reader inside the fear.
+- NEEDS WORK: Fresh-eyes-flagged repetition is real — the brother's suicide recurs ~5x, the "running" metaphor and $67M figure are overworked, and the contrast panel duplicates surrounding prose. Trust the reader; thin the middle restatements.
+- TO REACH B+: (1) Add a well-formed rabbit hole holding the 7w8 wing + sx/so subtype + stress/integration arrows, pulling that typology out of the body. (2) Add one interior beat that renders the fear from inside, not just describes the pattern. (3) Trim the third/fourth brother and $67M mentions and cut or earn the contrast panel.
+-->
 
 > "My anxieties have anxieties."
 

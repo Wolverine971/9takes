@@ -78,7 +78,29 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Amelia-Dimoldenberg.md
+content_quality:
+  hook: 9
+  enneagram: 8
+  evidence: 9
+  writing: 8
+  originality: 8
+  discoverability: 8
+  overall: 8.3
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-06-20'
 ---
+
+<!-- QUALITY GRADE: B (8.3) — rubric v2
+Evidence: 9 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The Garfield-in-gold-LaQuan-Smith opening is the strongest hook in the batch — a specific surprising moment ("I only ever want to see you") that reveals character and poses the armor-vs-brand question immediately. "She made refusal her charm. She made withholding her flirtation." is the best three-sentence run in the piece.
+- Evidence is exceptional: dated, sourced quotes (Gentlewoman AW25, Adweek 2025, Louis Theroux podcast, Metro) plus the "If you make a sibling laugh, you've hit the jackpot" dinner-table detail that does real diagnostic work. Currency is excellent (2026 Oscars third year, Oct 2025 Passenger Princess, Dimz Inc Academy, TIME100 Titan).
+- The "private love life as last unoptimized corner" reframe is genuinely original and the gendered-power-joke section names the show's mechanism most pieces miss.
+- NEEDS WORK: (1) ENNEAGRAM CAP — wing/subtype mechanics bleed into the body ("social subtype, most likely 3w2," "3w2 collapsing two jobs into one body," repeated 3w2 stamping). There is no `<details class="enneagram-rabbit-hole">` accordion to quarantine this depth; it caps the dimension at 8. (2) ORIGINALITY CAP — the piece celebrates the format's mechanism but ducks the obvious critic pressure (class/race optics of a Marylebone Jewish woman deadpanning Black male artists in chicken-shop set-pieces; whether the format is misogynist-coded). No named skeptic gets a counter-reading; this caps originality at 8.
+- TO REACH B+: (1) Move all 3w2 / social-subtype mechanics into a rabbit-hole accordion and let the body stay person-first — this alone lifts Enneagram to 9. (2) Add one engaged critic of the format (class, race, or gaze) with a genuine empathy turn, not a sanitized aside — lifts Originality to 9. (3) Cut 20-25% to kill the duplicate "scoreboard inverts" framings and the three thesis front-loads (Garfield scene + TL;DR + typing section). (4) Replace the "starting gun" closer — end on the Lambeth nineteen-year-old beat that already landed.
+-->
 
 > "I developed a strong sense of sarcasm to protect myself, and it worked." — Amelia Dimoldenberg, _The Gentlewoman_
 

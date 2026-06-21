@@ -81,15 +81,29 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 8.5
-  enneagram: 9
+  enneagram: 7.5
   evidence: 8.5
-  writing: 8.5
+  writing: 8
   originality: 9
-  overall: 8.7
-  letter: B+
-  graded_at: '2026-04-29'
+  discoverability: 7.5
+  overall: 8.2
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-06-20'
 path: src/blog/people/drafts/Cathie-Wood.md
 ---
+
+<!-- QUALITY GRADE: B (8.2) — rubric v2
+Evidence: 8.5 | Originality: 9 | Discoverability: 7.5 | Enneagram: 7.5 | Writing: 8 | Hook: 8.5
+
+FEEDBACK (2026-06-20):
+- Originality is the standout: "her religion IS her risk model" is a genuinely fresh thesis most finance writers skip, "Five years is the minimum future-distance at which a Seven can still feel free" is worth the whole H2, and "She is not really moralizing about ethics. She is moralizing about temporality" reframes the indexing-heresy line nobody else reads correctly. The eight-years-of-Bible-reading covenant detail passes the swap test. Current anchor present (Big Ideas 2026, Dec 2025 Tesla trims).
+- Evidence good: Laffer's "her horizon was forever" mentor quote, the Tuttle "un-American" counter-line that walks her into her own trap, her "I believe I am doing God's will" quote. The closing scene moves ("She knelt down. Then she went back upstairs and bought more").
+- NEEDS WORK: Enneagram drops to 7.5. The 7w8 wing is named in the H1 title and the body runs explicit wing mechanics ("the 8 wing absorbed the hit head-on"), stress arrow to 1, and growth arrow to 5 — all in the narrative with no `<details class="enneagram-rabbit-hole">` to quarantine them. v2 caps this at 8 and the in-body wing/arrow lecture pulls below.
+- NEEDS WORK: Writing capped at 8 — the "It is not X. It is Y" contrast-pair recurs 4-5 times (the piece's own fresh-eyes pass flags this against a 1-use cap), and the diagnosis triple-front-loads the 7w8 pulpit thesis across TL;DR + bolded intro + the type-answer section.
+- NEEDS WORK: Discoverability — `meta_title` ("Why Cathie Wood Can't Stop Doubling Down on Losers") is CTR-y but unsearchable for type intent; keywords (7w8, Tesla target, Bitcoin) and FAQ carry it.
+- TO REACH B+: (1) Move the 7w8 / stress-1 / growth-5 mechanics into a rabbit-hole accordion. (2) Cut "It is not X. It is Y" to one use. (3) Collapse the triple thesis front-load to a single statement. (4) Add a search-intent `meta_title` variant naming the type.
+-->
 
 <!-- TESTIMONY LEDGER
 1. Arthur Laffer (mentor, USC economist): "She is almost like a missionary on these topics. She's just full of enthusiasm and knowledge for it, and it's contagious." — quoted across multiple profiles, Bloomberg-era reporting circa 2021 (named mentor, direct quote, attribution, speaker commenting on Cathie)

@@ -172,6 +172,11 @@ never created, `1_create.log` was 0 bytes). You MUST wait for the `run-blog-pipe
 code, then proceed to Step 3 (verify draft) and Step 5 (update queue / clear `inProgress`) in
 the **same** run. Setting `inProgress` and exiting before the pipeline finishes is a defect.
 
+If the run exits or the session resumes and there is **no draft** plus a zero-byte
+`1_create.log`, treat it as a failed launch, not a live in-progress blog: immediately return the
+person to the queue with `retryCount + 1`, add a recovery note, and clear `inProgress` before
+ending the run. Do this cleanup the same day; do not wait for the 24-hour stale timeout.
+
 **Timeout:** 120 minutes total (the pipeline runs 7 separate `claude -p` stages, plus a
 conditional revise-and-regrade loop — stages 8/9 — when the grade lands below 8.5,
 discoverability below 7, or lint fails; recent full runs take ~30–60 minutes). The scheduler
@@ -395,6 +400,8 @@ Next Run: Tomorrow 2:00 AM
 11. **NEVER** background the pipeline and end your turn — run `run-blog-pipeline.sh`
     synchronously, wait for its exit code, then verify the draft and clear `inProgress` in the
     SAME run. Spawning it as a background task orphans it (the 2026-06-13 hailee-steinfeld bug).
+12. **ALWAYS** clear same-day failed launches when no draft exists and `1_create.log` is 0 bytes;
+    return the person to `queue` with `retryCount + 1` so tomorrow is not blocked.
 
 ---
 

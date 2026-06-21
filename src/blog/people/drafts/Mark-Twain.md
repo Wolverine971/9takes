@@ -83,7 +83,29 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Mark-Twain.md
+content_quality:
+  hook: 9
+  enneagram: 8
+  evidence: 8
+  writing: 8
+  originality: 8
+  discoverability: 8
+  overall: 8.1
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-06-20'
 ---
+
+<!-- QUALITY GRADE: B (8.1) — rubric v2
+Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The Halley's Comet bookend is excellent: "He predicted his own death. And he was right." opens on a specific, eerie, character-revealing fact and the closer pays it off. The "safe water" pen-name reading is a genuine signature detail — a man who charged at every fight built his identity on a word meaning "the water won't kill you here."
+- Evidence is solid for a historical subject: dated, sourced quotes (the Henry "May God forgive them" letter, the "trained Presbyterian conscience" line, Howells' "relentless rancor," the Eve's Diary graveside line). The Grant-memoirs loyalty story (70% royalty, financial risk, Julia Grant's windfall) is a clean Type 6 evidence point.
+- The counterphobic-Six thesis is well-argued and the "sound heart and a deformed conscience" section makes the typing feel earned. The Public Man / Private Man contrast panel (white suit vs. Letters from the Earth) is the sharpest structural device.
+- NEEDS WORK: (1) ENNEAGRAM CAP — wing/arrow mechanics sit in the body (the explicit "under stress, Sixes move toward unhealthy Type 3" paragraph; the authority-paradox "Classic Six" stamping) with no `<details class="enneagram-rabbit-hole">` accordion to hold them. Caps the dimension at 8. (2) The conscience motif over-repeats across nearly every section ("always the conscience," "the conscience spoke," "the conscience as engine") — the draft's own notes flag this; vary or thin it.
+- TO REACH B+: (1) Move the stress-arrow (6→3) mechanics and the "Classic Six" labels into a rabbit-hole accordion; keep the body person-first — biggest single lift, raising Enneagram to 9. (2) Engage one named modern critic of Twain's legacy or the Huck Finn reception debates with an empathy turn, rather than only the "pose vs. real" scholars, to push Originality past the cap. (3) Thin the conscience refrain to two or three deployments. (4) Trim the remaining duplicate "fearless but not fearless" reframes.
+-->
 
 > "I came in with Halley's Comet in 1835. It is coming again next year, and I expect to go out with it. It will be the greatest disappointment of my life if I don't go out with Halley's Comet. The Almighty has said, no doubt: 'Now here are these two unaccountable freaks; they came in together, they must go out together.'"
 

@@ -50,7 +50,7 @@ citations:
   - 'https://www.imdb.com/name/nm1083271/'
 faqs:
   - question: "What is Megan Fox's personality type?"
-    answer: "Megan Fox is an Enneagram Type 4 (The Individualist) with a 3 wing. The pattern shows in her own words — 'I identify as being an outcast or being so incredibly unique that no one could ever understand me' — in the body dysmorphia she has carried since age five, in the decoy caricature she admits feeding the press to keep the real person hidden, and in poetry written 'to excise the illness' rather than for applause, which still became a New York Times bestseller."
+    answer: "Megan Fox is an Enneagram Type 4 (The Individualist) with a 3 wing, and she has typed herself on the record. 'I'm a four, which is, they call it the romantic,' she told Call Her Daddy in 2025, describing it as 'being so incredibly unique and unusual that no one could ever understand me.' The pattern shows in the body dysmorphia she has carried since age five, in the decoy caricature she admits feeding the press to keep the real person hidden, and in poetry written 'to excise the illness' rather than for applause, which still became a New York Times bestseller."
     anchor: 'what-is-megan-foxs-personality-type'
   - question: 'Why was Megan Fox blacklisted by Hollywood?'
     answer: "In a 2009 Wonderland interview, the 23-year-old Fox compared Michael Bay to Hitler on his sets. Steven Spielberg's response, according to Bay, was 'Fire her right now,' and Bay's crew published an open letter calling her 'dumb-as-a-rock' and an 'unfriendly bitch.' The roles dried up — and Jennifer's Body, the feminist horror film she made right before the blacklisting, was dismissed as a flop until the #MeToo era rediscovered it as a cult classic."
@@ -69,13 +69,15 @@ instagram: 'meganfox'
 tiktok: ''
 content_quality:
   hook: 9
-  enneagram: 8
+  enneagram: 9
   evidence: 9
-  writing: 9
-  originality: 8
+  writing: 8
+  originality: 9
+  discoverability: 8
   overall: 8.6
   letter: 'B+'
-  graded_at: '2026-04-10'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -90,6 +92,21 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Megan-Fox.md
 ---
+
+<!-- QUALITY GRADE: B+ (8.6) — rubric v2 (independently re-graded 2026-06-20, confirms enrichment-pass scores)
+Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 9 | Writing: 8 | Hook: 9
+
+GRADE HISTORY: C (7.9) [pre-enrichment] -> B+ (8.6) [enrichment pass] -> B+ (8.6) [independent re-grade, this entry]. Weighted overall = (9×1.5 + 9×1.5 + 8×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5/7 = 8.6. Discoverability 8 ≥ 7, gate passed.
+
+RE-GRADE (2026-06-20):
+- EVIDENCE 9: Exceptional. 90%+ Fox's own words or testimony from people around her, dated and sourced — self-typing ("I'm a four, which is, they call it the romantic," Call Her Daddy 2025), body-dysmorphia quote (2024), "wet blanket" mother, CR Fashion Book 2021 ("being smart was the only thing"), Interview 2010 misinformation admission, plus external witnesses Simon Pegg, Diablo Cody ("mystique"), and S.K. Dale ("greatest photographic memory").
+- ORIGINALITY 9: Fresh thesis — the world worshipped the trait she disowned (beauty) and ignored the one she believed in (intellect). Jennifer's Body metaphor parallel is sharp; passes the swap test; faces real critic pressure (Bay/Hitler, "dumb-as-a-rock"); current anchor present (Saga Blade 2025, MGK "done for good" per People early 2026).
+- ENNEAGRAM 9: Type 4 drives the piece; body stays accessible; all wing/subtype/arrow/counter-typing depth quarantined in a well-formed <details class="enneagram-rabbit-hole">. All three emotional-interior checks pass — felt interior, empathy turn (the "unfriendly bitch" reputation reframed as a sexualized 23-year-old's rage), interior beat (the five-year-old at the mirror "with the seriousness of a coroner").
+- WRITING 8: Distinctive prose, strong visual rhythm, em-dashes cleaned from prose. Capped at 8 by the "Precipice" close, which still leans summary (recaps motherhood + cosmetic transparency).
+- DISCOVERABILITY 8: Type answer extractable and sits right after the hook; 5 real FAQ-schema questions; complete same_as/entity metadata; description 165 chars. One miss: meta_title is CTR-clever but omits "enneagram"/"personality type" — the search string lives only in the H1/keywords.
+- HOOK 9: Five-year-old "fat thighs" mirror against "sexiest woman alive" — among the best in the series.
+- TO REACH A (9.0+): (1) Rewrite meta_title to carry the search string (e.g. "Megan Fox's Enneagram Type (4): Why She's Never Felt Seen") — likely lifts Discoverability to 9, overall to ~8.9. (2) Re-land the "Precipice" close on a single rendered image instead of a motherhood + cosmetic-transparency recap, lifting Writing to 9. (3) Source one more post-blacklist co-star/director voice on the working relationship, not just talent.
+-->
 
 > "That's not me. That never felt like me. Nothing about that face, the hair, the skin color, the body."
 
@@ -116,6 +133,52 @@ This is the contradiction at the center of Megan Fox. The most looked-at woman i
 <li><b>The pattern:</b> Every major relationship, career crisis, and creative act in Fox's life traces back to the same ache: the longing to be truly understood, not just desired.</li>
 <li><b>The search:</b> From poetry to ayahuasca to blood rituals, Fox keeps looking for the thing that will make the longing stop.</li>
 </ul>
+</div>
+</details>
+
+## What is Megan Fox's personality type?
+
+### Megan Fox is an Enneagram Type 4, the Individualist
+
+Most celebrity type analyses are educated guesses. This one is not. Fox typed herself.
+
+"I'm a four, which is, they call it the romantic," she told Alexandra Cooper on _Call Her Daddy_ in 2025. "It's a personality that's been developed where I identify as being an outcast, or being so incredibly unique and unusual that no one could ever understand me."
+
+[Enneagram Type 4s](/enneagram-corner/enneagram-type-4), the Individualist, are built around a single conviction: that something essential is missing in them, that everyone else got instructions for belonging that never arrived. They don't want to be liked. They want to be understood completely, by one person who can finally see the real self under the surface. And they would rather be tragic than ordinary.
+
+Listen to the thing Fox names as her worst fear. "The worst insult you could give me is that I blend in with everyone else, or that I have a vanilla personality, or that I'm normal." That is the Four's terror said out loud. Not failure. Not rejection. Sameness.
+
+The loneliness is the other half of it. "I've been lonely my whole life," she said. "I do feel so alone." For a Four, that is not a passing mood. It's the baseline weather, the cost of feeling permanently different from everyone in the room.
+
+Here is the cruelty in Fox's particular version of it. The part of herself she actually believed in was never her face. "When I was growing up, being smart was the only thing that I felt was a strong suit for me," she told CR Fashion Book in 2021. "I never resonated with being pretty or being popular." The world built a $4.8 billion franchise around the one trait she did not identify with and ignored the one she did. A Four can survive being unseen. What breaks them is being seen as the wrong person entirely.
+
+That gap, between the worshipped surface and the unreachable interior, is the engine of everything that follows: the body she has never recognized, the decoy persona she fed the press, the poetry she wrote to survive, the relationships she dissolves into, the ceremonies she keeps walking toward. The feeling came first. The fame came second. And the fame, it turned out, could not touch the feeling.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Megan Fox</summary>
+<div class="panel">
+<p><em>For Enneagram readers going deep on Megan Fox. Skip if you're here for the story; the rest of the analysis stands on its own.</em></p>
+
+### Megan Fox's Wing: 4w3
+
+Fox reads as a 4w3, sometimes called the Aristocrat, rather than a 4w5. The Four core is identical either way: a sense of being fundamentally different, an identity built around an unhealed ache. But the <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> decides what she does with it. A 4w5 turns inward and disappears into private world-building. Fox turns the wound into a public-facing product. She didn't just write poems in a journal; she published a New York Times bestseller and read it on stage. She didn't just resent Hollywood; she built a narrative around it and made the narrative famous. The Three wing is the part of her that knows how to be watched, and uses it.
+
+### Megan Fox's Instinctual Subtype: sexual (sx)
+
+Her pattern reads as a sexual-dominant Four. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a> describe where a type aims its energy, and Fox aims hers at fusion. Her relationships are total immersion: "twin soul," shared blood, an engagement ring built to draw blood if removed. The sexual Four wants one other person to merge with so completely that the loneliness finally dissolves. It never quite does, which is why the search keeps repeating.
+
+### Stress and Growth Arrows
+
+Under stress, Type 4 moves toward the unhealthy side of Type 2 along its <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a>: caretaking, merging, soothing the very person who is hurting you. Fox described exactly this. "I fawned," she said of past abusive relationships. "Freezing and then also attempting to soothe the other person." That's the Four-to-Two stress move in a sentence.
+
+Growth runs the other way, toward Type 1: discipline, structure, doing the work instead of waiting on the feeling. You can see it when Fox stops performing the wound and starts organizing it, sitting down to actually finish the book, listing her cosmetic procedures in public to set a record straight rather than to confess.
+
+### Counterarguments: Why Megan Fox Might Not Be Type 4
+
+Type 2 has a case. The fawning, the lifelong absorption of other people's pain, the habit of keeping men's secrets at her own expense all look like the Helper's self-erasure. But for Fox these are stress behaviors, not the core. Her organizing question isn't "am I needed?" It's "does anyone see the real me?"
+
+Type 3 is the other alternate read, powered by that strong 3-wing: the image management, the bestseller, the constructed sex-symbol persona. But Fox's whole project is to tear the image down, not to win at it. A Three identifies with the polished surface. Fox spent twenty years insisting the surface was never her. That's Four to the core.
+
 </div>
 </details>
 
@@ -190,6 +253,8 @@ A story about a girl whose body is sacrificed by men for professional advancemen
 
 Nobody caught the metaphor in 2009 because nobody was looking at Megan Fox as a person capable of metaphor.
 
+Diablo Cody, who wrote the film, eventually put words to what the industry kept missing. "You have mystique," she told Fox on the movie's tenth anniversary in 2019, "which particularly now in this era of social media and people being completely accessible, is rare." The thing Hollywood read as aloofness was a person deliberately holding something back.
+
 ## The Fifteen Years Nobody Talks About
 
 Fox didn't disappear after Bay fired her. She kept working, but the roles she could get had narrowed, and the ones she wanted stayed out of reach.
@@ -198,30 +263,15 @@ She played April O'Neil in two _Teenage Mutant Ninja Turtles_ films. She joined 
 
 None of these projects got the cultural oxygen that _Transformers_ had. But they mattered, because they proved something Fox's critics had always denied: she was still here, still working, still choosing roles. The industry had tried to turn her blacklisting into an obituary. She refused to let it be one.
 
+S.K. Dale, who directed her in the thriller _Till Death_ and again in the 2024 sci-fi film _Subservience_, said the quiet part out loud: "She has the greatest photographic memory I've ever seen." It's the kind of detail that never survived a _Transformers_ press cycle, because nobody was casting Megan Fox for her mind.
+
 Meanwhile, Fox was running a quieter con. "I have sort of aided the media in printing these misconceptions, which I regret," she told _Interview_ magazine in 2010, barely a year after being fired. She had been feeding journalists exaggerated versions of herself, playing up the wildness, leaning into the sex-symbol caricature, to shield whatever was real underneath. By the time she stopped, most people had already decided who she was.
 
-## What is Megan Fox's personality type?
+## How Bisexuality Became Another Way of Being Different
 
-### Megan Fox is an Enneagram Type 4
+The outsider feeling has more than one axis. Fox came out as bisexual in 2009, telling interviewers "I have no question in my mind about being bisexual" at a moment when it cost her credibility rather than earning her any. She had dated a woman at eighteen. In 2021 she posted "Putting the B in #LGBTQIA for over two decades." For a Four, sexuality is not a label to try on. It's one more confirmation of the founding suspicion that she was running off a different script than everyone around her, and that the difference was permanent.
 
-"I identify as being an outcast or being so incredibly unique that no one could ever understand me," Fox said on _Call Her Daddy_.
-
-"I feel I don't belong to anything — even to the world."
-
-"I've been lonely my whole life. Old souls are lonely. Old souls are sad."
-
-These aren't complaints. They're coordinates: the specific psychological location that [Enneagram Type 4s](/enneagram-corner/enneagram-type-4) inhabit like a homeland they never chose. The persistent sense that something essential is missing, that everyone else got instructions for belonging that never arrived.
-
-The evidence runs deeper than self-identification:
-
-- **The body as a stranger.** The dysmorphia Fox has described since childhood isn't vanity. It's the Four's defining experience of alienation turned inward, a disconnect between self and reflection that no amount of external worship has ever closed. A pattern shared by other Fours like [Billie Eilish](/personality-analysis/billie-eilish), who has described a nearly identical rift between public image and private experience.
-- **Queerness as another axis of otherness.** Fox came out as bisexual in 2009, telling interviewers "I have no question in my mind about being bisexual," when it cost her credibility rather than earning her points. She'd dated a woman at eighteen. Posted "Putting the B in #LGBTQIA for over two decades" in 2021. For a Four, sexuality isn't a label to adopt. It's another dimension of feeling fundamentally different from the script everyone else seems to follow.
-- **Art as exorcism, not expression.** Fox didn't write poetry because she wanted to be a poet. She wrote it because the silence was killing her. "It was like a demon that I needed to have exercised from my body." Fours don't create for applause. They create because the alternative is suffocation.
-- **The construction of a false self.** Fox admitted to feeding the press false narratives for years, playing up a caricature to keep the real person hidden. This is the Four's survival instinct: if they're going to misunderstand me anyway, I'll hand them a decoy and keep what matters out of reach.
-- **The relentless search for transcendence.** Ayahuasca in Costa Rica. Blood rituals with a lover. Tarot, astrology, meditation, past-life beliefs. Fox isn't dabbling in spirituality. She's hunting for the thing that will make the longing stop, or at least prove it means something.
-- **The pattern of merging and disappearing in relationships.** From Brian Austin Green to Machine Gun Kelly, Fox describes the same cycle: total immersion, loss of self, desperate clinging, withdrawal. This is the Four's relationship signature: craving union so complete that boundaries dissolve, then terrified that being fully seen means being fully rejected.
-
-The 3-wing shows in her awareness of image and her ability to channel pain into public-facing achievement. She didn't just write poems in a journal. She published a New York Times bestseller. She didn't just criticize Hollywood. She built a narrative around it. The Aristocrat variant of Type 4 wants to be seen as unique _and_ successful, and Fox has spent her career navigating the tension between those two hungers.
+That same instinct, to feel unlike everyone else, is exactly what she has compared to other Fours in public life. [Billie Eilish](/personality-analysis/billie-eilish) has described a nearly identical rift between the image the public consumes and the private person underneath it. The wound is the same. Only the spotlight changes shape.
 
 ## Why Megan Fox's Relationships Keep Following the Same Pattern
 
@@ -247,7 +297,7 @@ The intensity was immediate and total. Instagram posts dripping with mysticism. 
 
 From the outside, it looked like chaos. From inside the [Four's relationship pattern](/enneagram-corner/enneagram-types-in-stress), it makes perfect sense. The idealization: _finally, someone who sees me_. The merging: boundaries dissolved in twin-flame mythology. The crisis: a miscarriage Fox described as grief she had "never experienced anything like." The unraveling: engagement off, pregnancy announced, breakup confirmed, baby born. All within eighteen months.
 
-Their daughter, Saga Blade, arrived on March 27, 2025. The parents are co-parenting separately.
+Their daughter, Saga Blade, arrived on March 27, 2025, months after the couple had quietly split over the previous Thanksgiving. By early 2026, _People_ reported the two were "done for good," co-parenting their daughter; the flirtier signals that surfaced that spring led nowhere. The merge ended the way the Four's merges tend to: not in a clean break but in a long, looping unwind.
 
 Fox's [relationship pattern](/enneagram-corner/attachment-styles-and-enneagram-types) isn't dysfunction for its own sake. It's a woman who keeps searching for the person who will finally make the missing piece click into place. The tragedy is that Fours carry the missing piece inside themselves, and no external love, no matter how intense, can fill a wound that was never about the other person.
 
@@ -275,17 +325,19 @@ The poems were the first time she stopped hiding.
 
 ## Megan Fox's Search for Something Real
 
-Fox believes she was burned at the stake in a past life.
+Fox was raised Pentecostal and spent twelve years in Catholic school. She did not land where that upbringing pointed her, but she never stopped looking. "I was actually raised like Pentecostal Christian," she told Cooper. "I'm not currently a part of the church, but I definitely identify with Christ consciousness." The vocabulary changed. The seeking didn't.
+
+She has worked her way through nearly every available door. "I've met every healer, every psychic," she said. Tarot. Astrology she has studied since at least her early twenties, reading interviewers' birth charts down to their planetary placements and tracking her own children's. Crystals, meditation, metaphysical books read by the fire. For a Four, this isn't a hobby. It's a hunt for the one framework that will finally explain why the ache has always been there.
+
+Then there is the past life. Fox believes she was burned at the stake.
 
 "I actually was burned at the stake for being a witch," she told Cooper. "That energy has been through lifetimes."
 
-For many people, this would be an eccentric aside. For Fox, it's a load-bearing belief, the idea that her pattern of being publicly punished for being herself didn't start in Hollywood. It started centuries ago. In another body. One that was also destroyed for refusing to be what others demanded.
+For most people this would be an eccentric aside. For Fox it's load-bearing. It means her pattern of being publicly punished for being herself didn't start in Hollywood. It started centuries ago, in another body, one that was also destroyed for refusing to be what others demanded. The belief gives a lifetime of feeling singled out a shape and a reason.
 
-The spiritual seeking runs deep. Tarot cards. Astrology. Crystal healing. Meditation. French and Mandarin. And then the ayahuasca.
+The furthest door she has walked through is ayahuasca, taken in a ceremony in Costa Rica. "It surpasses talk therapy or hypnotherapy," Fox said of the plant medicine, "because it just goes straight into your soul, and it takes you to the psychological prison that you hold yourself in."
 
-"It surpasses talk therapy or hypnotherapy," Fox said of the plant medicine ceremony, "because it just goes straight into your soul, and it takes you to the psychological prison that you hold yourself in."
-
-She described the experience as going to "her own version of hell for eternity." An ego death. The annihilation of the self, or at least the self that had been constructed by other people.
+She described the experience as going to her own version of hell for eternity. An ego death. The annihilation of the self, or at least the self that had been constructed by other people.
 
 Fox has tried every door Fours try. The art worked: the poetry book is genuine and raw. The love kept following the same pattern. The spiritual search continues, because the ache doesn't stop just because you can name where it comes from.
 
@@ -379,4 +431,32 @@ Cleaned up:
 Still rough:
 - Spiritual seeking section remains the thinnest part of the piece.
 - One more external voice from post-blacklist work would strengthen credibility.
+-->
+
+<!-- ENRICHMENT PASS (2026-06-20) — C (7.9) -> B+ (8.6)
+Goal: address the two NEEDS WORK flags (Enneagram 7, Discoverability 7) with deeper research, not just polish.
+
+Research added (sourced, dated):
+- Fox's on-the-record SELF-TYPING: "I'm a four, which is, they call it the romantic" (Call Her Daddy, 2025). This is the single strongest find and now anchors both the early type section and FAQ #1.
+- "The worst insult you could give me is that I... am normal" (Call Her Daddy, 2025) — the Four's fear of ordinariness, stated outright.
+- "Being smart was the only thing... I never resonated with being pretty or being popular" (CR Fashion Book, 2021) — fresh empathy-turn angle: the world worshipped the trait she disowned and ignored the one she believed in.
+- External witnesses: Diablo Cody on Fox's "mystique" (Jennifer's Body 10th anniversary, 2019); director S.K. Dale on her "greatest photographic memory" (Till Death / Subservience).
+- Spiritual section deepened: Pentecostal -> "Christ consciousness," "I've met every healer, every psychic," multi-year astrology practice (reads birth charts; tracks her kids').
+- Current-tense anchor refreshed: MGK split over Thanksgiving 2024, "done for good" per People (early 2026), co-parenting Saga Blade.
+
+Structural fixes:
+- Moved "What is Megan Fox's personality type?" to directly after the hook/TL;DR so the type answer is extractable up top (discoverability).
+- Converted the six-item bullet-list diagnosis into flowing narrative.
+- Added <details class="enneagram-rabbit-hole">: 4w3 wing, sexual (sx) subtype, 4->2 stress / 4->1 growth arrows, Type 2 / Type 3 counterarguments.
+- Preserved the bisexuality evidence as its own short section ("How Bisexuality Became Another Way of Being Different") rather than a buried bullet.
+- Refrain control: kept the thesis line (line ~123) and Fox's "Nobody can find me" quote; the bullet-list restatements are gone.
+
+Corrections / verification:
+- CUT "French and Mandarin" — research could not verify Fox studied any foreign language; flagged as an unsupported assumption.
+- "Burned at the stake" past-life quote dated correctly to Call Her Daddy (2025), not an earlier source.
+- MGK breakup framing uses the verified "co-parenting / fighting" angle; the tabloid "phone discovery" cause was rejected as unverified.
+
+Still open (to reach A):
+- One more post-blacklist co-star/director voice on the working relationship (not just talent).
+- The Precipice close still reads slightly summary; could end on a single rendered image.
 -->

@@ -8,6 +8,149 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-06-20 - STRATEGIC GROWTH REVIEW (deep full-funnel pass, not the weekly audit)
+
+> Distinct from the weekly audit above. This is a deeper structural read of the whole funnel. Builds on, does not replace, today's audit. Every claim labeled observed / inferred / unverified; repro SQL at the bottom.
+
+**One-line verdict:** Traffic is genuinely good and a few content surfaces are genuinely loved — but 9takes has built TWO give-first activation mechanics (the question wall, and the Chorus reveal on person pages) and **neither is wired to the surfaces where the traffic actually is.** ~26,700 unique visitors in 8 weeks produced 9 comments, 6 real signups, 10 profiles. The product converts ~0.03% of its audience to any action. This is not a traffic problem and not a PMF-of-content problem; it is a **conversion-path-doesn't-exist problem** on the pages people actually read.
+
+#### The funnel, in real numbers (observed, last 8 weeks)
+
+| Stage                                      |                        Value | Rate vs visitors |
+| ------------------------------------------ | ---------------------------: | ---------------: |
+| Unique visitors (fp)                       |                       26,722 |                — |
+| Total page visits                          |                       35,349 |                — |
+| Real signups (active, not same-day-unsub)  |                            6 |           0.022% |
+| New profiles (registered)                  |                           10 |           0.037% |
+| Comments / contributions                   | 9 (all on `question` parent) |           0.034% |
+| Coaching waitlist adds                     |                            0 |               0% |
+| Logged-in users generating ANY visit in 8w |                        **7** |                — |
+
+Consumed-to-contributed is roughly **2,969 : 1**. Healthy UGC communities sit at 99:1. We are ~30x worse than the lurker-heavy floor, and the contributors don't retain.
+
+#### 1. The content-to-signup loop — WHERE IT BREAKS (this is the lever)
+
+- **Traffic concentrates on two surfaces** (observed): person pages `/personality-analysis/[slug]` = **12,924 uniq fp** (avg 21.7s engaged), and `enneagram-corner` blogs = **7,321 uniq fp** (avg **56.3s** engaged, the most engaged surface on the site). Questions pages get only 1,863 fp.
+- **Person pages bounce at 97.9%** (15,366 sessions, 15,049 single-page; only 193 deep sessions). enneagram-corner is meaningfully better at 92.0% bounce / 348 deep sessions. (observed, `page_analytics_sessions`)
+- **The CTA exists but is buried and/or wrong-fit.** Person pages render `BlogPurpose` ("The fight that started 9takes" → email field → `/api/signups`) and a `NineChorus` give-first reveal, both far down the page (`+page.svelte:158` BlogPurpose, `:627` NineChorus, comments `:667`). With 97.9% one-page sessions at ~22s, almost nobody scrolls to them. (observed code + analytics)
+- **The break is mechanical, not motivational:** the reader arrives via Google on a celebrity analysis, reads for ~22s near the top, and leaves before ever seeing a reason to act. The signup capture and the give-first reveal are both real and both below the fold. (inferred from scroll avg = 6% on person pages + component line positions)
+- **enneagram-corner is the under-exploited goldmine:** highest engagement, lowest bounce, 2.5% any-return — yet it funnels to a sidebar CTA and book-session, not to the give-first loop. (observed)
+
+#### 2. What's actually WORKING (double down here)
+
+- **enneagram-corner content is the bright spot** (observed). `/enneagram-corner/enneagram-and-mental-illness` (390 fp, **69s** avg), `enneagram-compatibility-matrix` (293 fp, 54s), `enneagram-and-adhd` (259 fp, 71s), `enneagram-type-4` (172 fp, **98s**), `neurodivergence-guide` (191 fp, 92s). These are long-dwell, high-scroll pages — people genuinely read them. This is the surface with real attention to convert.
+- **Specific person pages punch above weight** (observed, min 30 fp): `alex-karp` (127 fp, 86s), `marilyn-monroe` (88 fp), `meghan-markle` (78 fp), `lex-fridman` (76 fp), `jordi-hays` (75 fp, 88s), `robert-greene` (66 fp, 87s), `brad-pitt` (66 fp), `tina-fey` (59 fp, 92s). Mix of evergreen + tech/creator niche. The tech/VC cluster (alex-karp, jordi-hays, robert-greene, lex-fridman, kara-swisher) over-indexes on dwell time — a high-intent audience worth a tailored CTA.
+- **SEO is the engine and it's healthy** (observed): 27,829 internal-referrer visits + 4,477 Google + 1,440 DuckDuckGo + 652 Bing. Effectively 100% organic search/direct. Notable: **claude.ai (30) + gemini.google.com (14) referrals** — AI engines are starting to cite 9takes. Worth tracking as an emerging GEO channel.
+- **enneagram-corner retention is the only non-trivial curve** (observed): 2.50% any-return / 0.73% D1 — ~3-6x better than person-pages (0.42% / 0.12%) and questions (0.19% / 0.00%). Still far below benchmark, but it's the only surface showing a pulse.
+
+#### 3. The give-first wall as an activation engine — IT'S NOT FIRING
+
+- **Two separate mechanics exist, neither is on the traffic:**
+  - The classic **question wall** (`/questions/[slug]/+page.server.ts:135`) emits `gate_shown`. But only **25 distinct fps** ever hit it across **1,673 question-detail visitors** (8w) — the gate fires only when a `9tfingerprint` cookie is present at SSR and the user hasn't answered. Most inbound visitors never reach a question page at all (1.06 pages/session, 98.4% bounce on questions entry). (observed)
+  - The **Chorus reveal** (`NineChorus.svelte` → `/api/nine/mirror` → `nine_user_takes` + `create_comment_atomic`) is mounted on **every person page** (the 12,924-fp surface) — and has been triggered **exactly ONCE in 8 weeks** (`nine_user_takes`: 1 row, ever). It is also **uninstrumented in `give_first_funnel_events`** (only `gate_shown` from the question wall is captured there). (observed)
+- **Net:** the single highest-leverage mechanic the product owns — give-first reveal — sits on its highest-traffic page and converts ~1 in 13,000. The reveal is below the fold, requires a scroll + a typed answer before any payoff, and competes with a 22-second attention budget. (inferred)
+- **Empty-state is NOT the primary blocker on top pages** (observed): 88.5% of all 418 questions have zero comments, BUT the high-traffic questions people actually land on are seeded (kid-in-3-words 34, voting 32, biggest-fear 17). The empty-room problem is a long-tail issue, not what's killing the loop today.
+
+#### 4. Retention reality (observed, fingerprint-stitched, 12w cohorts)
+
+| Entry surface        | Cohort | D1 % | Any-return % |
+| -------------------- | -----: | ---: | -----------: |
+| enneagram-corner     |  9,883 | 0.73 |     **2.50** |
+| homepage             |  1,306 | 0.46 |         1.45 |
+| personality-analysis | 21,220 | 0.12 |         0.42 |
+| questions            |  1,586 | 0.00 |         0.19 |
+
+D1/D7/D30 are effectively zero everywhere vs Chen's 30% D7 reference. **enneagram-corner is the only surface with a detectable return signal.** Only 7 logged-in users produced any visit in 8 weeks — there is essentially no logged-in product being used. Retention can't be "fixed" before activation exists; right now there is nothing to retain into.
+
+#### 5. Email as a growth channel
+
+- **The 81 sends were one broadcast** ("You are in for 9takes updates") sent to the `signups` source — and **75 of the 81 recipients were the same-day-unsub bot signups** (matched_signups=81, matched_unsubbed=75). So the 30.9% open / 16% click is **poisoned by bot opens**; treat it as non-signal. The 6 real recipients are the only meaningful data. (observed cross-join)
+- **Welcome sequence barely runs:** 23 enrollments ever, 11 in 8w — gated to new profiles, of which there were 10. It works but has almost no fuel. (observed)
+- **Real addressable list is tiny:** 42 active signup emails + 146 profiles, 111 ever emailed. There IS a small real list (the profile-targeted sends — "If 9takes isn't useful in these 3 moments" etc. — went to 6-13 real profiles with 2 opens). Re-engagement upside is real but capped by list size; the constraint is top-of-funnel capture, not email tactics. (observed)
+
+#### 6. HIGHEST-LEVERAGE MOVES (ranked, opinionated)
+
+**Quick wins — ship this week:**
+
+1. **Put an above-the-fold give-first hook on person pages + enneagram-corner.** The Chorus reveal and signup CTA are below a 22-second attention cliff. Move a single high-intent action above the fold: either the Chorus "answer first → see the nine takes" prompt, OR a one-field email capture matched to the page ("Get the next personality teardown"). Person pages are 13k fp/8w; even a 2% above-fold conversion = ~260 actions/8w vs today's ~1.
+   - _Mechanism:_ eliminate the scroll-depth tax that hides the only conversion path. _Success:_ ≥1% of person-page sessions trigger Chorus OR submit email within 30 days (vs ~0.01% today). _Guardrail:_ bounce rate doesn't worsen by >3pts.
+2. **Instrument the Chorus reveal end-to-end.** It writes to `nine_user_takes` and creates a comment but emits nothing to `give_first_funnel_events`. Add `reveal_shown` (on mount/scroll-into-view) and `contribution` (on submit) keyed to fingerprint, on BOTH the question wall and the Chorus. Without this we cannot tell if move #1 worked.
+   - _Mechanism:_ close the measurement loop on the actual activation surface. _Success:_ a native shown→contributed funnel exists for the person-page Chorus within 7 days.
+3. **Stop emailing the bot list; re-send the broadcast to the 6 real + 146 profiles only.** The 81-send metrics are garbage and the deliverability risk is real. Segment to verified humans before the next send.
+
+**Structural bets — 30/60/90 days:**
+
+4. **(30-60d) Make enneagram-corner the activation funnel, not a dead-end.** It's the most-read, best-retained surface and it currently funnels to a passive sidebar. Embed a give-first micro-action inline (mid-article): "Before you read the answer — what's YOUR take?" tied to a real question, with the reveal as payoff. This marries the proven-attention surface to the proven-mechanic.
+   - _Mechanism:_ convert dwell time (56s avg) into a contribution at the moment of peak engagement. _Success:_ enneagram-corner → contribution rate ≥0.5% (vs ~0% today); secondary: lift any-return above 2.5%.
+5. **(60-90d) Build a logged-in reason to return — the missing retention surface.** Only 7 logged-in users active in 8w means there is no product to retain into. The return loop ("someone replied to your take" / "a new type answered your question") requires (a) contributions to exist (moves 1+4) and (b) a notification+digest. Sequence this AFTER activation is non-zero; building retention machinery now would be optimizing an empty room.
+   - _Mechanism:_ create the reply→notification→return cycle that should compound. _Success:_ contributor 7-day return >10% once contribution volume is non-trivial.
+
+**Explicitly NOT recommended now:** paid acquisition (loop is unreadable/unconverting — would be a leaky bucket), and any A/B test on the questions surface (1,863 fp/8w is too low-traffic; MDE would exceed 20%). Fix the person-page + enneagram-corner conversion path on the traffic we already have first.
+
+#### Observed / inferred / unverified
+
+- **Observed:** all traffic/engagement/bounce/retention numbers; CTA + NineChorus + BlogComments component placement in code; `nine_user_takes` = 1 row ever; 81 sends = 1 broadcast to a list that was 75/81 bot signups; gate_shown only 25 fp; comments all `question` parent_type; enneagram-corner is highest-engagement + best-retained.
+- **Inferred:** the break is below-the-fold placement against a ~22s attention budget (from scroll avg 6% + component line positions); the tech/VC person-page cluster is a high-intent niche; the Chorus's "type before payoff" friction suppresses use.
+- **Unverified:** whether moving the hook above the fold actually lifts conversion (needs the experiment); whether `/api/nine/mirror` errors silently (1 take in 8w could be a bug, not just disuse — worth a manual smoke test); whether AI-engine referrals (claude.ai/gemini) are a growing trend or noise.
+
+#### Repro SQL (key queries)
+
+- Sections/engagement: `SELECT <section CASE>, count(*), count(DISTINCT fingerprint), avg(engaged_ms), avg(max_scroll_pct) FROM page_analytics_visits WHERE started_at >= now()-interval '8 weeks' GROUP BY 1;`
+- Bounce by entry: `SELECT <entry CASE>, count(*), avg(page_count), count(*) FILTER(WHERE page_count=1), count(*) FILTER(WHERE page_count>=3) FROM page_analytics_sessions WHERE started_at>=now()-interval '8 weeks' GROUP BY 1;`
+- Retention: first-touch CTE on `page_analytics_visits.fingerprint`, D1=[first+1d,+2d), D7=[+7d,+8d), any-return=visit after first+1d, segmented by entry_path.
+- Chorus usage: `SELECT count(*), min(created_at), max(created_at) FROM nine_user_takes;` → 1 row, 2026-06-15.
+- Email broadcast: `SELECT subject, recipient_source, count(*), ... FROM email_sends WHERE created_at>=now()-interval '2 weeks' GROUP BY 1,2;` + cross-join recipient_email to signups/profiles → 75/81 matched unsubbed bots.
+- Empty-state: `LEFT JOIN comments c ON c.parent_id=q.id AND c.parent_type='question' AND c.removed IS NOT TRUE` → 370/418 empty, but top-traffic questions seeded.
+- Logged-in: `count(*) FILTER (WHERE user_id IS NOT NULL), count(DISTINCT user_id) FROM page_analytics_visits` → 503 visits / 7 users.
+
+### 2026-06-20 - Weekly growth audit: signups + comments + email all came alive — but the signup spike is spam and the wall's submit side is still blind
+
+- Area: Activation / give-first instrumentation / signup funnel / email / spam exposure
+- Status: audit complete. Three dormant surfaces moved this week. One is a real win, one is poisoned, one is now half-instrumented.
+- Observed numbers (week of 2026-06-15 vs prior weeks):
+
+| Cohort wk  | New visitors | Signups | New profiles | Comments | gate_shown (fps) | D1 (abs) | D7 (abs) |
+| ---------- | -----------: | ------: | -----------: | -------: | ---------------: | -------: | -------: |
+| 2026-06-15 |        2,746 |  **79** |            0 |    **4** |          46 (22) |       11 |      0\* |
+| 2026-06-08 |        3,788 |       2 |            1 |        0 |            7 (3) |       11 |        2 |
+| 2026-06-01 |        2,959 |       0 |            2 |        0 |                — |        8 |        2 |
+| 2026-05-25 |        3,820 |       0 |            3 |        2 |                — |       10 |        2 |
+| 2026-05-18 |        3,311 |       0 |            1 |        0 |                — |        2 |        1 |
+| 2026-05-11 |        2,899 |       0 |            0 |        1 |                — |        7 |        1 |
+
+\*D7 immature for the 2026-06-15 cohort.
+
+- Direction changes vs 2026-06-13 audit:
+  - **Signups: 0 → 79 this week (81 total since the 2026-06-11 fix; table grew 36 → 117).** The RLS fix is CONFIRMED live and capturing — the prior three audits' "fix shipped, no conversion confirmed" question is now answered: it works.
+  - **Comments: 0 → 4, breaking a 3-week zero streak.** All 4 are anonymous (`author_id IS NULL`), from 3 distinct fingerprints.
+  - **Email sends: 10 → 81/week (8w total 40 → 123).** Opens 25/81 (30.9%), clicks 13/81 (16.0%) this week — click rate up sharply from the 2.5% floor. Likely a campaign/broadcast send, not just welcome drip (welcome enrollments still only 11/8w).
+  - **Visitors: 3,788 → 2,746.** Down, but the 2026-06-08 figure was an outlier high; 2,746 is near the trailing mean. Traffic is not the story.
+  - **give-first wall: now emitting telemetry.** `give_first_funnel_events` has 53 `gate_shown` rows (46 this week, 22 distinct fps). Prior audit's "wall is uninstrumented" gap is partially closed.
+
+- **Biggest leak this week: the 79-signup spike is almost entirely spam, and `/api/signups` still has no recaptcha.** Of 81 new signups, **only 6 are active — 75 unsubscribed the same day they signed up.** Domains are junk (`untyiowa.gov`, `uppfiore.com`, dotted/garbled gmail/yahoo locals). This is bot-stuffing of an unprotected public POST (the known no-recaptcha exposure from the signups-endpoint memory note, now being exploited). Net real capture is ~6 emails, not 79. Left unaddressed this pollutes every downstream email metric and burns sender reputation.
+
+- **First readable wall signal (caveat-heavy):** All 3 commenter fingerprints this week hit `gate_shown` before commenting. So this week: 22 gated fingerprints → 3 contributed ≈ **13.6% wall-hit → contribution** (rough; submit side is still uninstrumented so this is inferred by fingerprint join, not a logged funnel). First non-zero contribution signal in a month, and it routes through the give-first gate as designed.
+
+- **Still-open instrumentation gap:** `give_first_funnel_events` has only ONE event type — `gate_shown`. There is still no `contribution`/`comment_submitted` event. We can see the gate appear and we can join to `comments` by fingerprint, but we cannot measure time-to-first-contribution or in-funnel drop-off natively. `content_access_events.request_kind` is still 100% `page` (15,670 rows).
+
+- Recommended bets (re-ranked):
+  1. **Add bot protection to `/api/signups` immediately (recaptcha/honeypot/rate-limit by IP+fingerprint).** This is now an active exploit, not a theoretical gap. We believe gating the endpoint will drop spam signups from ~93% to near zero, restoring signal to the signups table and protecting email deliverability. Success = next week's new-signup same-day-unsub rate < 10% (vs 93% this week); guardrail = legitimate signups (the 6 real ones/wk baseline) do not fall to zero. This is infra, ranks first because it corrupts everything below it.
+     - **RESOLVED 2026-06-20 (shipped 2026-06-19, commit cd7dd460).** `/api/signups` is now layered-hardened in `+server.ts` + `src/lib/server/newsletterSignupProtection.ts`: honeypot (`form_extra`), 2.5s time-trap, suspicious-UA block (curl/wget/python-requests/axios/headless/selenium/puppeteer/playwright/etc.), malformed-local blocking (catches the `..`/dotted-gmail junk locals), dedup, plus DB-backed sliding-window rate limits (3/hr per IP, 2/hr per email) with an `auth_security_events` cross-check, and full outcome logging to `newsletter_signup_security_events` (spec-covered). No CAPTCHA by design — layered heuristics + per-IP/per-email caps chosen for lower friction. The Jun 15 spam predates the fix; **next week's same-day-unsub rate is the real test** — verify <10% and spot-check `newsletter_signup_security_events` for caught-bot volume.
+  2. **Emit the submit-side give-first event.** Add a `contribution` (or `comment_submitted`) row to `give_first_funnel_events` on first anonymous comment, keyed to the same fingerprint as `gate_shown`. We now have the gate-shown half live; one more event closes the funnel and makes wall-hit → contribution and time-to-first-contribution natively queryable instead of fingerprint-stitched. Success = within 7 days, a native gate_shown → contribution funnel exists for ≥1 fingerprint.
+  3. **Diagnose the email send before trusting the 16% click lift.** 81 sends with 13 clicks is real movement, but confirm what it was (broadcast vs welcome) and whether recipients overlap the spam signups. If the spike is sending TO scraped/spam addresses, the deliverability risk compounds bet 1. Success = a one-line attribution of the 81 sends (sequence/campaign + audience source). Then decide whether Experiment A (email pad at first anonymous comment) still leads, given organic-comment volume is now non-zero.
+
+- Observed / inferred / unverified:
+  - Observed: 79 signups this week, 75 same-day unsubs, junk domains; 4 anonymous comments from 3 fps; 46 gate_shown events (22 fps); email 81 sent / 25 open / 13 click.
+  - Inferred: signup spike is bot spam exploiting the no-recaptcha endpoint; ~13.6% wall→contribution (fingerprint-joined, not natively logged).
+  - Unverified: what the 81 email sends were (campaign vs drip) and whether they targeted the spam cohort; whether any of the 6 real signups convert to a profile or comment.
+
+- Repro SQL used this audit:
+  - Visitors: first-touch CTE on `page_analytics_visits.fingerprint`, `date_trunc('week', min(started_at))`.
+  - Signups by week + spam: `SELECT date_trunc('week',created_at), count(*) FROM signups ...`; `count(*) FILTER (WHERE unsubscribed_date IS NULL)` → 6 active / 75 unsubbed of 81 since 2026-06-11.
+  - Give-first: `SELECT event_type, date_trunc('week',created_at), count(*), count(DISTINCT fingerprint) FROM give_first_funnel_events GROUP BY 1,2;` → only `gate_shown`.
+  - Wall→contribution: join `comments.fingerprint` (last 2w) to `give_first_funnel_events.fingerprint` → all 3 commenters hit gate.
+  - Email: `SELECT date_trunc('week',created_at), count(*), count(*) FILTER(WHERE open_count>0), count(*) FILTER(WHERE click_count>0) FROM email_sends ...`.
+
 ### 2026-06-13 - Weekly growth audit: traffic recovered, RLS errors gone — but the wall itself is uninstrumented
 
 - Area: Activation / retention / give-first instrumentation / signup funnel / email

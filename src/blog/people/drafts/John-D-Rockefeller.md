@@ -69,9 +69,11 @@ content_quality:
   evidence: 9
   writing: 9
   originality: 9
-  overall: 9.0
-  letter: 'A'
-  graded_at: '2026-04-24'
+  discoverability: 8
+  overall: 8.8
+  letter: 'B+'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -86,6 +88,17 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/John-D-Rockefeller.md
 ---
+
+<!-- QUALITY GRADE: B+ (8.8) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 9 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The model of the batch on structure: a well-formed `<details class="enneagram-rabbit-hole">` quarantines the 5w6 wing, sp/so subtype, stress/growth arrows, and the Type 1/8/3 counterarguments — so the body stays accessible while long-tail/AI queries still get served. This is exactly what v2 rewards.
+- Exceptional evidence (Chernow-sourced throughout, the Gates avalanche letter, Flagler's "he would do me out of a dollar today," "I often tremble," the 90%/$540M/GDP-share metrics). Signature originality: the Devil Bill/Eliza parental binary as a returning structural anchor, "information-as-control," and the dimes-as-Ivy-Lee-theater historiographic correction. The closer cuts to black on the countable coin.
+- The empathy turn is clean — the coldness and silence are reframed as a con-man's-son's fortress without excusing the Cleveland Massacre, the drawbacks, or Ludlow. Interior beats are present (the trembling, the weeping at Cettie's death). Enneagram earns a 9.
+- NEEDS WORK: Discoverability is the one dimension holding this off an A. The title leads with the name (good) but "Why He Counted Every Penny" is softer than a pure search-intent phrasing; the FAQ set is strong on real queries. This is a frontmatter-tuning gap, not a content gap.
+- TO REACH A: Sharpen the search-intent surface — consider a meta_title that more directly matches "John D. Rockefeller personality type / enneagram type 5" while keeping the curiosity, and confirm description length sits in the 120–170 CTR band. The prose and analysis are already A-tier; discoverability is the only lever left.
+-->
 
 <!-- TESTIMONY LEDGER
 1. Frederick T. Gates: "Your fortune is rolling up, rolling up like an avalanche! You must keep up with it! You must distribute it faster than it grows! If you do not, it will crush you, and your children, and your children's children!" — letter to Rockefeller, 1906 (via PBS American Experience / Chernow, Titan)

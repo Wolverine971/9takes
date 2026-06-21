@@ -510,6 +510,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'khaby-lame', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'kurt-russell', link: false, hasImage: false, lastmod: '2026-06-17', personaTitle: 'Hollywood\'s Unbothered Holdout', contentGrade: 8.8, types: ['movieStar'] },
 		{ name: 'nelson-mandela', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Madiba\'s Quiet Eight Wing', contentGrade: 9, types: ['historical', 'politician', 'activist', 'movement-leader'] },
+		{ name: 'nick-offerman', link: false, hasImage: false, lastmod: '2026-06-19', personaTitle: 'Hollywood\'s Tender Woodsman', contentGrade: 8.9, types: ['comedian', 'movieStar', 'author'] },
 		{ name: 'robert-f-kennedy-jr', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'ron-desantis', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'sandra-bullock', link: false, hasImage: false, lastmod: '2026-04-27', personaTitle: 'America\'s Most Beloved Hider', contentGrade: 8.8, types: ['movieStar', 'celebrity', 'screen-icon'] },

@@ -52,6 +52,9 @@ citations:
   - 'https://en.wikipedia.org/wiki/Top_Gun:_Maverick'
   - 'https://en.wikipedia.org/wiki/Anyone_But_You'
   - 'https://en.wikipedia.org/wiki/Chad_Powers'
+  - 'https://www.hollywoodreporter.com/movies/movie-features/glen-powell-interview-hit-man-movie-texas-move-1235905159/'
+  - 'https://www.texasmonthly.com/arts-entertainment/glen-powell-parents-austin-family-profile/'
+  - 'https://www.avclub.com/how-to-make-a-killing-review'
 faqs:
   - question: "What is Glen Powell's personality type?"
     answer: "Glen Powell is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in the flask hidden in his boot during the lean years, the notebook where he records every lesson from every collaborator, the market-instinct bet on rom-coms when the genre was dead, the Hit Man and Chad Powers roles built around literal identity-shifting, and the opening admission that acting is 'an identity crisis on its own.'"
@@ -65,15 +68,20 @@ faqs:
   - question: 'Why does Glen Powell choose roles about people who become other people?'
     answer: "Powell co-wrote both Hit Man (a professor who adopts personas to entrap hit-buyers) and Chad Powers (a disgraced quarterback who puts on prosthetics to rejoin football). He has described Hit Man as being about 'my experience as an actor. Every role that Gary Johnson played was a piece of Gary Johnson.' These aren't random casting choices — they're a Type 3 dramatizing his own operating system."
     anchor: 'why-glen-powell-cant-slow-down'
+  - question: 'Is Glen Powell calculated or genuine?'
+    answer: "Both, and that tension is the whole story. Critics like the AV Club's Jacob Oller call his screen presence 'obviously calculated' and 'too smug to magnetize,' and Powell openly runs strategy on his career, from manufacturing his own scarcity to engineering rom-com marketing. But he also describes the private flip side: after working a room he drives home and 'hate[s] on myself.' The calculation reads as Type 3 vigilance, a man terrified of being sent back to nobody, not arrogance."
+    anchor: 'the-charge-that-hes-calculated'
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 8
-  writing: 9
+  evidence: 9
+  writing: 8
   originality: 8.5
-  overall: 8.7
+  discoverability: 8
+  overall: 8.5
   letter: 'B+'
-  graded_at: '2026-04-06'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -88,6 +96,35 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Glen-Powell.md
 ---
+
+<!-- QUALITY GRADE: C (7.9) — rubric v2
+Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 7 | Writing: 8 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The "Where's Glen?" Linklater cold-open is an exceptional hook — a specific, surprising moment that dramatizes the whole thesis (the shapeshifter so complete no one can find him). The flask-in-the-boot detail and the Cruise "turn down the noise" advice are well-chosen, mostly-his-own-words evidence.
+- Strong current anchor (Barnstorm 2025, the 2024 Austin move, finishing the UT degree on Zoom). The Hit Man / Chad Powers "roles about people who become other people" read is the cleanest original beat.
+- NEEDS WORK: Originality is more conventional than the v1 score implied — "Type 3 actor whose roles dramatize his shapeshifting" is a familiar frame, and the piece leans on it without a single insight a reader genuinely hasn't met. The empathy turn is soft: nothing he's criticized for is made understandable through motivation; the portrait is admiring throughout.
+- NEEDS WORK: Enneagram Integration caps at 7 — the 3w2 wing plus stress/growth-line language sit in the body and there is NO `<details class="enneagram-rabbit-hole">`. The fear is named more than felt; no interior beat puts the reader inside Powell.
+- TO REACH B+: (1) Add a rabbit hole holding the 3w2 wing, subtype, and the integration-to-6 / stress-to-9 arrows; strip that mechanics language from the body. (2) Find one genuinely surprising private detail or contradiction that isn't already in every Powell profile. (3) Add an empathy-turn beat — take the "calculated/desperate" reading critics have of him and resolve it through motivation. (4) Add an interior beat in the flask/famine years.
+
+REVISION (2026-06-20) — all four "TO REACH B+" items addressed; needs re-grade:
+- (1) Added `<details class="enneagram-rabbit-hole">` holding the 3w2 wing, social/self-pres subtype, growth-to-6 / stress-to-9 arrows, and Type 2 / Type 7 counter-typing. Stripped the "3w2 variant" tag and the "Growth Line" label out of the body/TL;DR.
+- (2) New originality beat: the "take supply out of it" UT-economics scarcity strategy (Anne Helen Petersen / Substack) — a manufactured-scarcity play that's sharper and far less circulated than the flask story. Surfaces his father "Coach" framing implicitly via the coached-self read.
+- (3) New empathy-turn section "The Charge That He's Calculated": runs Jacob Oller's AV Club "obviously calculated / too smug to magnetize" + the "manufactured in a lab" discourse, then resolves it through the Therapuss "Sunday Scaries" self-loathing quote (calculation = Type 3 vigilance/fear, not arrogance). Added matching FAQ.
+- (4) New interior beat in the famine years: the garage "you loser" thought, the mirror "you may not be an actor" verdict, and the Ed Limato collapse ("the jig was up" / "letting Ed down") — the felt bottom the flask story skips.
+- Added journalistic citations (THR Hit Man profile, Texas Monthly, AV Club) to support new claims.
+-->
+
+<!-- RE-GRADE: B+ (8.5) — rubric v2 — was C (7.9)
+Evidence: 9 | Originality: 8.5 | Discoverability: 8 | Enneagram: 9 | Writing: 8 | Hook: 9
+
+RE-GRADE (2026-06-20): The four-item revision worked — C (7.9) → B+ (8.5), publication threshold met.
+- Enneagram 7 → 9: both prior caps lifted. Rabbit hole now holds the 3w2 wing, social/self-pres subtype, growth-to-6 / stress-to-9 arrows, and Type 2/7 counter-typing; the body is clean of mechanics. All three interior checks now pass — the empathy turn ("The Charge That He's Calculated" → calculation reframed as Type 3 vigilance via the Therapuss self-loathing quote) and the famine-years interior beat (garage "you loser," the mirror verdict, the Ed Limato collapse) are the difference.
+- Evidence 8 → 9: the added named citations (GQ, Vanity Fair, Therapuss, AV Club, THR, Texas Monthly) push it to near-exceptional, quote-dense, multi-source, his-own-words.
+- Originality 8 → 8.5: the "take supply out of it" scarcity play and the deeply-explored private material clear a flat 8; held under 9 only because the shapeshifter-actor-as-Type-3 frame is itself recognizable.
+- TWO ceilings now hold it at B+ rather than A: (a) Writing capped at 8 by contrast-pair fingerprint — "open book / preaches authenticity," "isn't smugness, it's the opposite," "isn't the swagger… it's the vigilance," "not because he stopped… but because," plus the explicit Public/Private contrast-panel (>2 main-body uses). (b) Discoverability 8, not higher: title + meta_title are clever ("Shapeshifter in Search of a Self" / "Identity Crisis") rather than carrying "enneagram"/"personality type" search intent — the FAQ, keywords, and TL;DR carry the intent the title tag drops.
+- TO REACH A (9.0): (1) Thin the contrast-pair antithesis by ~half and drop or restyle the Public/Private contrast-panel to lift Writing off the 8 cap. (2) Optionally swap meta_title to a search-intent variant (e.g. "Glen Powell's Enneagram Type: The Role He Can't Quit") to lift Discoverability — keep the clever persona_title for the on-page hook.
+-->
 
 > "Being an actor is a little bit of an identity crisis on its own. You have to be everything to everybody. You have to occupy all these different identities to succeed."
 
@@ -106,7 +143,7 @@ The shapeshifter who insists he's an open book. The chameleon who preaches authe
 <li><b>The Performer's Instinct:</b> Powell spent two decades calibrating himself to what Hollywood needed at every stage, adapting his image from fraternity charmer to action star to leading man.</li>
 <li><b>Achievement as Identity:</b> His career reveals someone whose self-worth is inseparable from his work — broke in LA with a flask hidden in his boot, performing the social life even when he couldn't afford it.</li>
 <li><b>The Shapeshifter:</b> From the multiple personas in Hit Man to a prosthetic-wearing quarterback in Chad Powers, Powell's biggest roles are literally about people who adopt identities to succeed.</li>
-<li><b>The Growth Line:</b> His increasing emphasis on vulnerability and authenticity tracks with a Type 3 learning that the performance, no matter how good, isn't the same as the person.</li>
+<li><b>The Correction:</b> His growing insistence on vulnerability, and his move home to Austin, tracks with a man learning that the performance, however good, was never the same thing as the person giving it.</li>
 </ul>
 </div>
 </details>
@@ -143,7 +180,11 @@ Not nothing exactly. Small roles. Guest appearances. The kind of work that keeps
 
 He couldn't afford to eat out. He'd go to dinner with people but never order anything because he couldn't split the bill. When he went to bars, he hid a flask in his boot because he couldn't pay for drinks. He was performing the social life of a working actor while his bank account said otherwise.
 
-The rejections piled up in ways that felt personal. He auditioned for Friday Night Lights — probably four times. He was a Texas football player, from Austin, where they were shooting the show. He still couldn't get on it. Later, he was in the final round for the young Han Solo role in Solo: A Star Wars Story, competing against [Miles Teller](/personality-analysis/miles-teller) and Ansel Elgort. The part went to Alden Ehrenreich. Powell was devastated.
+The rejections piled up in ways that felt personal. He auditioned for Friday Night Lights — probably four times. He was a Texas football player, from Austin, where they were shooting the show. He still couldn't get on it. Later, he was in the final round for the young Han Solo role in Solo: A Star Wars Story, competing against [Miles Teller](/personality-analysis/miles-teller) and Ansel Elgort. The part went to Alden Ehrenreich. Powell was devastated. "I blew that final audition," he told GQ. "It's haunting when you blow those moments."
+
+The rejections were the public failures. The private ones were worse, because no one was there to see them. He would come home from a bad read, sit in his car, and the thought would arrive whole and finished: this is where you're going to live for the rest of your life, you loser. Some mornings the mirror handed him a verdict he half-believed. You love movies. You might even have good instincts. You may not be an actor.
+
+Then the floor gave out completely. Ed Limato, the agent who had bet on a seventeen-year-old at the premiere of The Great Debaters, died in the summer of 2010. He had been the lifeline, the one powerful man who said yes. "It was almost like once he passed away, the jig was up," Powell said. The agency dropped him. "I could just feel I was letting Ed down." The Texas kid who had crossed the country on a single promise was now, by Hollywood's own math, nothing. "Nobody gives a fuck about you in Hollywood if you can't offer them something," he said later. That is the part the flask story leaves out.
 
 "You sort of have to lie to yourself, at least a little bit," he told Vanity Fair about surviving those years. "And act like this is that chapter of the story where things just aren't going right... You have to believe in the Hollywood legends of those people that you admire, the people that you're chasing, that had those long stretches of famine as well."
 
@@ -200,6 +241,7 @@ These aren't random casting choices. Powell co-wrote both projects. He is drawn 
 The evidence goes deeper than the roles:
 
 - **The market instinct:** Powell saw that rom-coms were dead, that nobody was making them, and bet his career on filling the gap. He read the industry the way a Type 3 reads a room — identified what was missing, became the person who could deliver it, then reverse-engineered the marketing strategy to make it work. Anyone But You wasn't luck. It was pattern recognition.
+- **The scarcity play:** Powell has admitted to running an economics experiment on his own career. "I made a decision to use my old UT economics class, which is just supply and demand, and take supply out of it." Translation: he deliberately withheld himself from the easy roles that would typecast him, manufacturing his own scarcity, during the same stretch he was hiding a flask in his boot. Most broke actors take whatever work appears. Powell treated his own availability as a market to be managed.
 - **The notebook:** Powell keeps a physical notebook where he records every lesson learned from every collaborator. Not ideas for scripts. Lessons about how successful people operate. He's been building a playbook for his own career since his teens — studying mentors the way an athlete studies game tape.
 - **The strategic refusal:** When offered the lead in Jurassic World Rebirth — the franchise that started his childhood dream — he turned it down. "I read the script and I immediately was like, my presence in this movie doesn't help it." For a Type 3, saying no to a role that would validate your childhood self is the hardest possible move. It means you've shifted from chasing achievement to curating it.
 - **The identity confession:** That opening admission about acting being an "identity crisis" where "you have to be everything to everybody"? That's not a complaint. It's a description of his operating system.
@@ -212,7 +254,7 @@ He cited Margot Robbie as his model — someone involved "in the inception of a 
 
 This is the part of the Glen Powell story that most profiles underplay. He isn't just a charismatic actor riding a hot streak. He's building infrastructure. Co-writing an untitled romantic comedy with Judd Apatow. Developing a Broadway musical with Ryan Murphy. Acquiring spec scripts for Barnstorm to produce. The actor who spent a decade waiting for Hollywood to choose him decided to stop waiting and start choosing himself.
 
-Between takes on photo shoots, Powell is described as "loud, and hilarious, and ripped, and direct." He dances to himself between photos. At one point he started climbing a palm tree in swim trunks just to see if he could. The energy is relentless — the 3w2 variant that achieves through warmth rather than cold efficiency.
+Between takes on photo shoots, Powell is described as "loud, and hilarious, and ripped, and direct." He dances to himself between photos. At one point he started climbing a palm tree in swim trunks just to see if he could. The energy is relentless, and it runs on warmth instead of cold efficiency. He wins a room by making it like him, not by making it fear him.
 
 Which is exactly the Type 3 paradox. When does the performance stop? When does the real person begin?
 
@@ -221,6 +263,14 @@ Powell's answer is interesting: he believes you do find your way back.
 "What ends up happening is that you end up finding your way back to your truest self," he said. "If you have the fortune of getting to stick around long enough, I feel like your truest identity ends up becoming the identity people gravitate toward."
 
 If you stick around long enough. If the performance lasts so long that it eventually loops back to something true. That's not an actor talking about craft. That's someone describing their relationship with their own identity.
+
+## The Charge That He's Calculated
+
+The case against Glen Powell writes itself, and critics have written it. The AV Club's Jacob Oller called his screen presence "obviously calculated," a narrow band of "slick, square-jawed smarm" he labeled "self-typecasting," an actor "too unflappable to root for, too smug to magnetize." Online the read gets blunter: manufactured in a lab, an industry plant, stop trying to make Glen Powell happen. Even an eventual admirer started there. "I felt like Glen Powell had been manufactured in a lab to become the next Hollywood star," wrote Anne Helen Petersen, before she changed her mind.
+
+The charge is right about the behavior and wrong about the feeling underneath it. Powell does calculate. He runs supply and demand on himself. He keeps the notebook. He engineered the marketing on his own rom-com. But ask him what happens after he works a room, and he doesn't describe a man pleased with himself. He describes the drive home. "Why did you do that? Why did you say that?" he said on the Therapuss podcast. "I'll literally just like hate on myself, and that's one thing I'm trying to get better about."
+
+Sit with that. The man the internet reads as too in love with himself spends his Sundays replaying every line he delivered and marking it down. The polish isn't smugness. It's the opposite. It's a person who cannot stop auditing his own performance because he is never sure the version of him that showed up was good enough. The calculation isn't the swagger of someone who knows he is winning. It's the vigilance of someone who remembers being nobody, who sat in that car and heard "you loser," and who would do almost anything not to go back.
 
 ## The Vulnerability That Isn't Performance
 
@@ -246,6 +296,39 @@ That's not the polished answer. That's the real one. A man moving so fast that h
 </div>
 
 This is what growth looks like in a Type 3. Not abandoning the drive. Not slowing down the machine. But developing the ability to name what the machine takes from you. To say "I can't do this in a healthy way right now" instead of performing the perfect relationship alongside everything else.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Glen Powell</summary>
+<div class="panel">
+
+<p><em>For Enneagram readers who want the mechanics. Skip it if you're here for the story, which stands on its own.</em></p>
+
+### Glen Powell's Wing: 3w2
+
+Powell reads as 3w2, the Achiever with a Helper <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 3w4 would chase the same success but route it through art, moodiness, and a more private, introspective self-image. Powell goes the other direction. He calls himself a "people pleaser," reportedly says yes to three dinners in a single night, and frames the audience as a debt he owes: "I'm going to work my butt off to make sure they're entertained." The growth he describes is learning to disappoint people gently. "You have to give yourself grace for not responding to everybody right away," he told E! News, "and not having to be there at every single thing." That is a 2-wing problem, not a 4-wing one.
+
+The 3w4 case isn't nothing. He co-wrote Hit Man and co-created Chad Powers, and he wants work that's "really human, something really nuanced." But the authorship aims outward, at what an audience will love, not inward at what he needs to express. The melancholic, self-revealing core of a real 4-wing is thin. The warmth is the tell.
+
+### Glen Powell's Instinctual Subtype: social/self-preservation
+
+The cleanest read is a social 3 with a heavy self-preservation backup, and the sexual instinct last. The social 3 shows up in how he reads and works the industry: he has "met everybody in town," models Barnstorm on Margot Robbie's LuckyChap, and builds prestige by association with Cruise, Ryan Murphy, and J.J. Abrams. The self-preservation 3 shows up in the money story. The frugality, the flask, founding Barnstorm to own the process, and moving home to Austin near his aging parents are all about security, not status. See the full <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a> for how these stack.
+
+The sexual or one-to-one instinct is the weakest read, and it's worth naming why people reach for it. His on-screen "chemistry" looks like sexual-3 intensity, but that chemistry is the product, not the man. A self-preservation actor can manufacture heat on a screen as a craft decision, which is more or less what he admitted doing to sell Anyone But You.
+
+### Stress and Growth Arrows
+
+In growth, Type 3 moves toward Type 6, and this is the strongest typological evidence in Powell's whole profile. He builds deep, durable loyalties (Linklater is "one of my best friends on the planet"), keeps returning to the directors and the hometown that made him, and asks for help instead of performing self-sufficiency. He called Tom Cruise first before The Running Man. He took direction from Denzel as a teenager and never stopped citing it. The move from "I win alone" to "I commit to a team" runs all through the Barnstorm philosophy of assembling the best people and letting them be brilliant. The <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a> are doing real work here.
+
+Under stress, Type 3 moves toward Type 9, and the evidence is honestly thinner. The candidate is the Austin retreat, the language of needing "a spiritual place where I could hang my hat and truly be unplugged," LA as "the Matrix" that he switches off. But he frames it as a healthy boundary, not a collapse, and his baseline ("the happiest you'll ever see me is on a movie set") is the opposite of a Nine checking out. If there is a 3-to-9 thread, it's a man learning to power down on purpose, not one shutting down by default.
+
+### Counterarguments: Why Glen Powell Might Not Be Type 3
+
+The strongest alternate is [Type 2](/enneagram-corner/enneagram-type-2). He's a self-described people pleaser who measures himself by how much he gives an audience, and the parents-in-every-film tradition reads as relational devotion. But a 2 gives in order to be needed, while Powell gives in order to be admired, and the through-line of his life is achievement and image, not care. The Helper energy is a wing, not the engine.
+
+[Type 7](/enneagram-corner/enneagram-type-7) has a surface case too: the relentless motion, the palm-tree climbing, the appetite for new projects. But a 7 runs toward options to stay ahead of pain, while Powell narrows his choices on purpose, like turning down Jurassic World Rebirth, the franchise that started his childhood dream. That's a 3 protecting the brand, not a 7 keeping every door open.
+
+</div>
+</details>
 
 ## From "Long-Fingered Boy" to Leading Man
 

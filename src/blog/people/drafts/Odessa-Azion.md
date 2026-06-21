@@ -68,13 +68,15 @@ faqs:
 instagram: 'odessaazion'
 content_quality:
   hook: 9.0
-  enneagram: 9.0
+  enneagram: 7.5
   evidence: 8.5
-  writing: 8.8
-  originality: 9.0
-  overall: 8.9
-  letter: 'B+'
-  graded_at: '2026-04-18'
+  writing: 8.5
+  originality: 8.5
+  discoverability: 8.0
+  overall: 8.3
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -89,6 +91,19 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Odessa-Azion.md
 ---
+
+<!-- QUALITY GRADE: B (8.3) — rubric v2
+Evidence: 8.5 | Originality: 8.5 | Discoverability: 8.0 | Enneagram: 7.5 | Writing: 8.5 | Hook: 9.0
+
+FEEDBACK (2026-06-20):
+- The Adlon+Zion portmanteau analysis ("She didn't go from Adlon to something catchier. She constructed a portmanteau") is the freshest paragraph in the batch and the article's signature move — genuine originality, not Type-4-as-template.
+- Hook is exceptional: "Her character's name was Defiance" lands in two seconds, is fully falsifiable, and only belongs to her; the closing callback earns it.
+- Evidence is strong — dense, dated, sourced interview quotes (Highsnobiety, THR, TIME, W, Deadline, The Face) with the subject's own voice dominant. The "Shut the fuck up, because that doesn't work on me" quote is deployed once, in the right section.
+- Discoverability is solid: full entity metadata (same_as, wikidata, keywords), real FAQ schema on genuine search questions, type answer early and extractable. The meta_title ("Why Odessa A'zion Dropped Her Mother's Famous Name") is clever and name-forward but carries no "enneagram"/"personality type" search phrasing — costs it the top tier.
+- NEEDS WORK (Enneagram): typology bleeds into the body and there is no rabbit-hole accordion. "Type 4 identity is almost always sharpened against the sibling," "For a 4, partners are identity infrastructure," "For a 4, too much rehearsal is a slow-motion mugging" — the type-plural crutch fires repeatedly in the narrative where the casual reader is. Wing/sibling-differentiation depth belongs quarantined in a <details class="enneagram-rabbit-hole">. Missing rabbit hole + body bleed caps this dimension at 8; the saturation pulls it to 7.5.
+- NEEDS WORK (Originality): the "industry plant" critique is named but refuted via her own quote ("It took a really long time") rather than seriously engaged — her first TV role was on her mother's show. Ducked critic pressure holds Originality at 8.5.
+- TO REACH B+ (8.5): (1) Build a rabbit-hole accordion and move ALL "For a 4" / "Type 4 identity" framing into it; keep the body person-first — cut at least three type-plural labels. (2) Engage the industry-plant critique seriously for one paragraph (both can be true) to lift Originality. (3) Add a search-intent variant to meta_title or persona_title so an "Odessa A'zion enneagram/type" query has a clean target.
+-->
 
 > "I was always the creature."
 

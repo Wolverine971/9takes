@@ -10,6 +10,18 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-06-20 — Unattended status brief (42-day gap closed); two jammed gates + spam leak
+
+- Brief: [`docs/daily-briefs/2026-06-20_marketing-status.md`](../daily-briefs/2026-06-20_marketing-status.md). First status brief since 2026-05-09.
+- **#1 urgent (product, not marketing-pm scope):** `/api/signups` is being bot-stuffed — 75 of 79 weekly signups are spam, endpoint has no recaptcha. Poisoning email metrics + sender reputation. Needs DJ/eng to add recaptcha. Cross-ref growth-log 2026-06-20.
+- **#2 bottleneck:** publish gate fully jammed — 2026-06-19 run found 0/429 publishable; **355 drafts stuck on stale v1 grade rubric** needing `/grade_blog`. People pipeline writes daily but ships nothing. Unblock = re-grade freshest draft(s), then `/blog_content_publish_people`.
+- **#3 channel dead:** Quora dark ~32 days (last session + cron + question-log all stop 2026-05-19). Decision needed: revive or retire.
+- **Recovered:** Instagram back live 2026-06-17 after 40+ day block; 3 consecutive passes since.
+- **Healthy:** people blog cron running daily (06-19 nick-offerman, 437 drafts on disk).
+- **Unchanged:** pop-culture 22 unpublished (12 are 3+ months old); 9 distribution packets unfired; Long-Form Network cluster still 0/12 sent + Bartlett still unpublished.
+- **Note:** `Jason-Sudeikis.md` skipped by publish parser (`anchor:` key at line 59); body YAML reads valid on inspection — parser edge case, not the `\'` build-break class. Worth a parser check.
+- **Owner:** DJ. Open decisions in brief §"Open questions for DJ": signups recaptcha, publish re-grade plan, Quora revive/retire, Bartlett, distribution priority.
+
 ### 2026-05-14 — Session close: outreach drafts handed off via pickup brief
 
 - Pickup brief: [`docs/daily-briefs/2026-05-14_pickup-brief.md`](../daily-briefs/2026-05-14_pickup-brief.md). Use it as the single starting point on next outreach session.

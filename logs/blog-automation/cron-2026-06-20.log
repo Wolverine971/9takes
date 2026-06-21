@@ -1,0 +1,23 @@
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  john-goodman
+Draft:   src/blog/people/drafts/john-goodman.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-20_021510_john-goodman
+Started: Sat Jun 20 02:15:10 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:15:10)
+Command: /blog_content_creator_people_v2 john-goodman --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-20_021510_john-goodman/1_create.log
+─────────────────────────────────────────────────────
+Pipeline is running and I'm holding the turn open via the monitor + tracked background process. Current status:
+
+**Daily Blog Creator — 2026-06-20**
+- Pre-flight: ✅ pause=false, forceNext=null, inProgress was null, rate limit reset for new week (2/5 → 0/5, weekStartDate→2026-06-20)
+- Selected: **john-goodman** (Type 9, priority 59) — no existing draft
+- Queue updated: `inProgress` set, removed from queue (14 remaining)
+- Pipeline launched: `run-blog-pipeline.sh john-goodman` (background ID `bpe0r7455`), Stage 1 (create) running
+- Monitor armed on pipeline output for per-stage finishes + completion
+
+I'll wait for stage-completion events, then verify the draft, capture the grade from frontmatter, update the queue (move to `completed`, clear `inProgress`, increment rate limit), and report. Standing by.

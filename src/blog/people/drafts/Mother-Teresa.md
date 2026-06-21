@@ -85,7 +85,29 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Mother-Teresa.md
+content_quality:
+  hook: 9
+  enneagram: 8
+  evidence: 9
+  writing: 9
+  originality: 9
+  discoverability: 9
+  overall: 8.9
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-20'
 ---
+
+<!-- QUALITY GRADE: B+ (8.9) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 8 | Writing: 9 | Hook: 9
+
+FEEDBACK (2026-06-20):
+- The central image — "I THIRST" painted on every chapel wall set against the private letters ("the pain of longing, of not being wanted") marked for destruction — is a genuinely original, swap-test-proof thesis: the Type 2 reflex made architecture. The contrast panel (the wall vs. the letters, "Same hand. The same word. Pointed inward.") is the best structural device in the batch.
+- Evidence is exceptional and dated: primary correspondence from Come Be My Light (Périer 1953, Picachy 1959, Neuner 1961), the Lancet's Dr. Robin Fox, Susan Shields in Free Inquiry, the Muggeridge and Sister Nirmala testimony. The testimony ledger and heading-mix ledger show disciplined sourcing.
+- This is the rare draft that faces the critic head-on: the Hitchens section ("She was not a friend of the poor. She was a friend of poverty.") is engaged fully, and the empathy turn — the helper compulsion at institutional scale, "Type 2s do not measure success by outcomes; they measure it by whether they are still being used" — makes a widely mocked record understandable without excusing it. The rat-bitten woman whose relational wound is attended before her bites is a signature interior beat. Discoverability is excellent: hybrid search-intent headings, real FAQ schema, clear early answer, full entity metadata.
+- NEEDS WORK: ENNEAGRAM CAP — the 2w1 wing reasoning and the 2→8 stress-arrow MECHANICS live in the body (diagnosis section + the Hitchens stress-arrow paragraph) rather than a `<details class="enneagram-rabbit-hole">` accordion. The distribution ledger shows the author deliberately quarantined type-theory to 4 paragraphs, which is disciplined — but v2 still wants wing/arrow depth in a rabbit hole, so this caps the dimension at 8. It is the only thing between this draft and an A.
+- TO REACH A: (1) Lift the 2w1-vs-1w2 wing argument and the 2→8 stress-arrow mechanics out of the body into a rabbit-hole accordion; keep the body's felt interior (the externalized thirst, the love-as-something-you-make engine) — this single move raises Enneagram to 9 and the overall into A range. No other structural work needed; the prose, evidence, and critic engagement are already A-grade.
+-->
 
 <!-- WORKING NOTES (writer)
 - research_limitation: no_transcripts. Mother Teresa died 1997; no long-form podcast appearances exist. Substituted with published primary correspondence: "Mother Teresa: Come Be My Light" (Brian Kolodiejchuk, ed., 2007), the Nobel acceptance speech (1979), Malcolm Muggeridge's "Something Beautiful for God" (1971). These are richer primary sources than any modern transcript would be.

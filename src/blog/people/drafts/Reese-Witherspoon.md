@@ -72,14 +72,16 @@ twitter: '@ReeseW'
 instagram: '@reesewitherspoon'
 tiktok: '@reesewitherspoon'
 content_quality:
-  hook: 9
-  enneagram: 8.5
+  hook: 8.5
+  enneagram: 7.5
   evidence: 8
-  writing: 9
-  originality: 8.5
-  overall: 8.6
-  letter: 'B+'
-  graded_at: '2026-04-09'
+  writing: 8.5
+  originality: 8
+  discoverability: 8
+  overall: 8.0
+  letter: 'B'
+  rubric_version: 2
+  graded_at: '2026-06-20'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -94,6 +96,19 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Reese-Witherspoon.md
 ---
+
+<!-- QUALITY GRADE: B (8.0) — rubric v2
+Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 7.5 | Writing: 8.5 | Hook: 8.5
+
+FEEDBACK (2026-06-20):
+- The Atlanta arrest reinterpretation is the best move in the piece — reading "Do you know my name?" as the existential question of a woman whose identity has been under construction since age seven, not celebrity entitlement, is exactly the public-moment-through-the-type reframe the rubric rewards.
+- The Walk the Line section's distinction — she "performed through" the panic attacks rather than "overcame" them ("the hamster on the wheel doesn't run because it wants to... stopping feels like dying") — turns courage into compulsion and is the sharpest Type 3 insight here.
+- Discoverability is solid: full entity metadata (same_as, wikidata, imdb, keywords), real FAQ schema on genuine search questions, and an extractable type answer up top. The meta_title is name-forward but editorial ("Why Reese Witherspoon Can't Stop Building") with no "enneagram/type" phrasing — keeps it out of the top tier.
+- Evidence is good but uneven: strong, dated, sourced quotes in the first half (ReThinking, I Weigh, NYT The Interview, the $900M sale), but the business back-half thins into paraphrase and chronology.
+- NEEDS WORK (Enneagram): the "Here's the evidence" bulleted list is a typed-out argument, and type-plural framing runs through the body ("what Threes do," "the Three paradox," "Type 3 under extreme stress"). There is no rabbit-hole accordion to hold the 3w2 wing / stress-to-9 arrow mechanics. Body bleed plus missing rabbit hole caps this dimension at 8; the volume of label-work pulls it to 7.5.
+- NEEDS WORK (Originality/Writing): Type 3 Achiever is well-trodden territory and the "From Actress to Architect" / "Woman Behind the Machine" back half reads more like a résumé than the interior access of the first half. The closing tries to land ambition speech + Toth divorce + Draper James + final image at once.
+- TO REACH B+ (8.5): (1) Dissolve the evidence bullet list into narrative and move all wing/arrow mechanics into a <details class="enneagram-rabbit-hole">. (2) Give the business section ONE psychologically revealing anecdote (a rights acquisition, a deal moment) instead of the chronology, matching the Walk the Line granularity. (3) Add a search-intent variant to meta_title/persona_title carrying "Reese Witherspoon enneagram/type 3." (4) Tighten the closing to a single landing.
+-->
 
 > "My spirit had been diminished because I thought all those awful things that person said about me were true. And I had to rewire my brain."
 
