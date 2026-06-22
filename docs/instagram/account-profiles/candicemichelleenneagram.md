@@ -25,7 +25,7 @@
 
 ## Bio Snapshot
 
-- **Bio:** "Candice Michelle | Enneagram Coach for Annoyed People 🇨🇦 / I help you handle personality clashes 🏔 / So you're not annoyed as f*** all day 🚫 / We use Enneagram + TV as a mirror 🔮"
+- **Bio:** "Candice Michelle | Enneagram Coach for Annoyed People 🇨🇦 / I help you handle personality clashes 🏔 / So you're not annoyed as f\*\*\* all day 🚫 / We use Enneagram + TV as a mirror 🔮"
 - **Links:** stan.store/candicemichelleenneagram (+1 more); Threads @candicemichelleenneagram
 - **Self-typed:** **Type 2** (per 6/12 post: "I'm an Enneagram 2 — so I'll catch myself judging strangers...").
 - **Highlights:** Michael Scott, Coaching, Type 7, Type 5, Type 4 (type-specific + pop-culture organization).
@@ -48,6 +48,6 @@
 
 ## Relationship History
 
-| Date       | Surface | Topic                                                        | Post Link                                | Action   | Status  | What We Said / Planned                                                                                                                                  | Outcome | Source                                   |
-| ---------- | ------- | ------------------------------------------------------------ | ---------------------------------------- | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------- |
-| 2026-06-21 | Reel    | "POV: you're complaining to me about how Enneagram 8s are assholes" (Type 8, 4d) | https://www.instagram.com/p/DZqtAPEhfbo/ | Queued   | Pending | First-touch relationship-opening comment. Native, witty, peer-to-peer; Level 1–2 (Enneagram language fine). Don't lecture; match her humor. No link.    | Pending | 2026-06-21_instagram-warmup.md           |
+| Date       | Surface | Topic                                                                            | Post Link                                | Action | Status  | What We Said / Planned                                                                                                                               | Outcome | Source                         |
+| ---------- | ------- | -------------------------------------------------------------------------------- | ---------------------------------------- | ------ | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------ |
+| 2026-06-21 | Reel    | "POV: you're complaining to me about how Enneagram 8s are assholes" (Type 8, 4d) | https://www.instagram.com/p/DZqtAPEhfbo/ | Queued | Pending | First-touch relationship-opening comment. Native, witty, peer-to-peer; Level 1–2 (Enneagram language fine). Don't lecture; match her humor. No link. | Pending | 2026-06-21_instagram-warmup.md |

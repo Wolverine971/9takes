@@ -50,11 +50,11 @@
 
 ## Priority Summary
 
-| #   | Account                   | Pond / Type                  | Topic                                            | Age | Comments | Mode | Opp Type                  | Level | Score | Profile                                       | Queue               |
-| --- | ------------------------- | ---------------------------- | ------------------------------------------------ | --- | -------- | ---- | ------------------------- | ----- | ----- | --------------------------------------------- | ------------------- |
-| 1   | @enneagrampaths           | Enneagram peer (her T5)      | Candy thread — her warm reply (carry-fwd)        | 2d  | ~56      | post | Relationship deepening    | 1–2   | 95    | account-profiles/enneagrampaths.md            | **Verify-and-post** |
-| 2   | @candicemichelleenneagram | Peer / CRM (explicit Ennea)  | "POV: complaining about Enneagram 8s" humor reel | 4d  | ~3       | post | Peer first-touch          | 1–2   | 88    | account-profiles/candicemichelleenneagram.md  | **Queued**          |
-| 3   | @lifebyalissa             | HSP / **Type 4 (active)**    | "Unbothered…/overthinker" (carry-fwd, 6/20)      | 2d  | ~9–15    | mixed| Active-pond first-touch   | 0–1   | 84    | account-profiles/lifebyalissa.md              | **Carry-forward**   |
+| #   | Account                   | Pond / Type                 | Topic                                            | Age | Comments | Mode  | Opp Type                | Level | Score | Profile                                      | Queue               |
+| --- | ------------------------- | --------------------------- | ------------------------------------------------ | --- | -------- | ----- | ----------------------- | ----- | ----- | -------------------------------------------- | ------------------- |
+| 1   | @enneagrampaths           | Enneagram peer (her T5)     | Candy thread — her warm reply (carry-fwd)        | 2d  | ~56      | post  | Relationship deepening  | 1–2   | 95    | account-profiles/enneagrampaths.md           | **Verify-and-post** |
+| 2   | @candicemichelleenneagram | Peer / CRM (explicit Ennea) | "POV: complaining about Enneagram 8s" humor reel | 4d  | ~3       | post  | Peer first-touch        | 1–2   | 88    | account-profiles/candicemichelleenneagram.md | **Queued**          |
+| 3   | @lifebyalissa             | HSP / **Type 4 (active)**   | "Unbothered…/overthinker" (carry-fwd, 6/20)      | 2d  | ~9–15    | mixed | Active-pond first-touch | 0–1   | 84    | account-profiles/lifebyalissa.md             | **Carry-forward**   |
 
 _Honest-thin pass, consistent with 6/18–6/20: IG discovery surfaces (hashtag grids, creator grids, explore) all serve aged viral content; the active Type 4 post still isn't live; notifications produced no new external signal. The genuine win today is one strong new peer (candicemichelleenneagram) already inside our network, plus protecting the Melissa loop. Quality over a padded queue._
 
@@ -158,27 +158,27 @@ _Honest-thin pass, consistent with 6/18–6/20: IG discovery surfaces (hashtag g
 
 ## Reply Queue
 
-| Priority | Account                   | Post                                 | Profile                                      | Strategic Role     | Relationship Stage   | Mode | Reply Angle / Targets                                                  | Status          |
-| -------- | ------------------------- | ------------------------------------ | -------------------------------------------- | ------------------ | -------------------- | ---- | --------------------------------------------------------------------- | --------------- |
-| 1        | @enneagrampaths           | Candy thread (her warm reply)        | account-profiles/enneagrampaths.md           | Peer (Anchor)      | Warm / Active        | post | Verify 6/19 draft posted; if not, post cheer/extend                   | Verify-and-post |
-| 2        | @candicemichelleenneagram | "POV: complaining about 8s" reel     | account-profiles/candicemichelleenneagram.md | Peer / Adjacent    | Prospect (1st touch) | post | Witty, native, 8-aware peer line; no lecture, no link (Lvl 1–2)       | Queued          |
-| 3        | @lifebyalissa             | "Unbothered…/overthinker" carousel   | account-profiles/lifebyalissa.md             | Adjacent / Rising  | Prospect (1st touch) | mixed| Carry-forward 6/20: post-level reframe + reply @kimberdunk            | Carry-forward   |
+| Priority | Account                   | Post                               | Profile                                      | Strategic Role    | Relationship Stage   | Mode  | Reply Angle / Targets                                           | Status          |
+| -------- | ------------------------- | ---------------------------------- | -------------------------------------------- | ----------------- | -------------------- | ----- | --------------------------------------------------------------- | --------------- |
+| 1        | @enneagrampaths           | Candy thread (her warm reply)      | account-profiles/enneagrampaths.md           | Peer (Anchor)     | Warm / Active        | post  | Verify 6/19 draft posted; if not, post cheer/extend             | Verify-and-post |
+| 2        | @candicemichelleenneagram | "POV: complaining about 8s" reel   | account-profiles/candicemichelleenneagram.md | Peer / Adjacent   | Prospect (1st touch) | post  | Witty, native, 8-aware peer line; no lecture, no link (Lvl 1–2) | Queued          |
+| 3        | @lifebyalissa             | "Unbothered…/overthinker" carousel | account-profiles/lifebyalissa.md             | Adjacent / Rising | Prospect (1st touch) | mixed | Carry-forward 6/20: post-level reframe + reply @kimberdunk      | Carry-forward   |
 
 ---
 
 ## Profiles Created or Updated
 
-| Account                   | Profile                                       | Action  | Why                                                                 |
-| ------------------------- | --------------------------------------------- | ------- | ------------------------------------------------------------------- |
-| @candicemichelleenneagram | account-profiles/candicemichelleenneagram.md  | Created | New peer discovery; queued first-touch on Type 8 reel               |
-| @lifebyalissa             | account-profiles/lifebyalissa.md              | Updated | Re-reviewed; logged "no fresher post," carry-forward note           |
+| Account                   | Profile                                      | Action  | Why                                                       |
+| ------------------------- | -------------------------------------------- | ------- | --------------------------------------------------------- |
+| @candicemichelleenneagram | account-profiles/candicemichelleenneagram.md | Created | New peer discovery; queued first-touch on Type 8 reel     |
+| @lifebyalissa             | account-profiles/lifebyalissa.md             | Updated | Re-reviewed; logged "no fresher post," carry-forward note |
 
 ---
 
 ## New Accounts Discovered
 
-| Account                   | Followers | Pond / Type             | Theme                                        | Content Type                       | Suggested Tier | Why                                                                                          |
-| ------------------------- | --------- | ----------------------- | -------------------------------------------- | ---------------------------------- | -------------- | -------------------------------------------------------------------------------------------- |
+| Account                   | Followers | Pond / Type             | Theme                                                     | Content Type                       | Suggested Tier | Why                                                                                                                                         |
+| ------------------------- | --------- | ----------------------- | --------------------------------------------------------- | ---------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | @candicemichelleenneagram | 15K       | Peer / CRM (explicit 2) | "Enneagram Coach for Annoyed People"; TV-as-mirror typing | Pop-culture reels + type carousels | Tier 1         | In our peer network (followed by enneagrampaths + enneagramashton + 5); TV-as-mirror overlaps 9takes celebrity analysis. Profiled + queued. |
 
 ---
@@ -189,9 +189,9 @@ _No saves dropped this pass (0)._ Today's only candidates were Candice's pop-cul
 
 ### Saves Held (over cap / borderline)
 
-| Shortcode | Author                     | Why held                                                                                                  |
-| --------- | -------------------------- | --------------------------------------------------------------------------------------------------------- |
-| _(n/a)_   | @candicemichelleenneagram  | "TV-as-mirror" character-typing format is a remixable mechanic for 9takes BUT it's her brand signature; skip to avoid copying a peer. Noted as strategy observation instead. |
+| Shortcode | Author                    | Why held                                                                                                                                                                     |
+| --------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _(n/a)_   | @candicemichelleenneagram | "TV-as-mirror" character-typing format is a remixable mechanic for 9takes BUT it's her brand signature; skip to avoid copying a peer. Noted as strategy observation instead. |
 
 ---
 
@@ -207,9 +207,9 @@ _No saves dropped this pass (0)._ Today's only candidates were Candice's pop-cul
 
 ## Hashtag Performance
 
-| Hashtag                  | Posts Checked | Quality Posts Found | Notes                                                                                                          |
-| ------------------------ | ------------- | ------------------- | -------------------------------------------------------------------------------------------------------------- |
-| (Explore page, no tags)  | ~6 surfaced   | 1 account (candice) | Did not work raw hashtag grids this pass (aged-content learning). Explore surfaced the peer discovery instead.  |
+| Hashtag                 | Posts Checked | Quality Posts Found | Notes                                                                                                          |
+| ----------------------- | ------------- | ------------------- | -------------------------------------------------------------------------------------------------------------- |
+| (Explore page, no tags) | ~6 surfaced   | 1 account (candice) | Did not work raw hashtag grids this pass (aged-content learning). Explore surfaced the peer discovery instead. |
 
 ---
 
