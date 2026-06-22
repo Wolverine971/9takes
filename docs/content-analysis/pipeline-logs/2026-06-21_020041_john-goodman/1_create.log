@@ -1,0 +1,33 @@
+All gates pass and the draft lints clean (the one remaining warning, missing `faqs`, belongs to the separate frontmatter-enrich stage, not this command). Draft is saved at `status: draft` per non-interactive rules.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/John-Goodman.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: none material (faqs frontmatter not yet generated — separate enrich stage)
+```
+
+**What I built**
+
+- **Type call:** Enneagram **Type 9** (9w8, sp, stress-line to 6). The 6-vs-9 debate is quarantined in the Rabbit Hole, not the body.
+- **Core tension:** the warmest everyman in Hollywood vs. a man who for 30 years couldn't look at his own reflection.
+- **Thesis:** the "easygoing everyman" is self-erasure. A boy who lost a father before he could remember learned to treat himself as nothing, merged into every cast instead of competing for the frame, and drank to numb an anger that turned inward.
+- **Research path:** research-analyst brief + the WTF/Maron 2019 transcript for authentic voice. Corrected three premise errors from the original ask along the way: he was raised **Southern Baptist** (not Catholic), wife is **Anna Beth** (not Annette), and the Coen count is **5** films (not 6+). His father was a **postal worker**.
+
+**Hard-gate evidence**
+
+- **Testimony (Gate 1, ≥2):** Jeff Bridges (Time, 2017) + Roseanne Barr (*Your Welcome*, 2023). Both named, quoted, dated, about Goodman.
+- **Empathy turn (Gate 6):** the recliner-slob image and 30 years of drinking reframed as anesthesia, not partying, without excusing the damage.
+- **Critic-pressure (Gate 6):** the "reliable big lovable lug, not a serious actor" underestimation, plus the loud-onscreen objection to a self-erasing read, conceded in the diagnosis section.
+
+**Internal links added (4 total)**
+- Type 9 → `/enneagram-corner/enneagram-type-9`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (Rabbit Hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (Rabbit Hole)
+- Types in stress → `/enneagram-corner/enneagram-types-in-stress` (Rabbit Hole)
+
+Human review is required before production. After you approve, set `production_pretext.status: ready` and run `blog_content_production_people`. Grading is owned by `/grade_blog` and was intentionally not run here.
+
+One flag for your review: I quoted Goodman's verbatim "I don't bring anything to the fucking party" line because it's the sharpest single piece of low-self-worth evidence in the piece. If you'd rather keep the SEO page clean, say the word and I'll trim the expletive.

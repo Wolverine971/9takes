@@ -1,0 +1,21 @@
+Publish **blocked** — John-Goodman is the only candidate and it's not release-ready.
+
+```text
+Publish blocked.
+
+Person: John-Goodman (Type 9)
+Draft: src/blog/people/drafts/John-Goodman.md
+Supabase: not synced (gate failed)
+
+Blockers (from publish script):
+- missing_content_quality   → draft has no content_quality block; run /grade_blog (must hit overall ≥ 8.5, rubric_version 2, discoverability ≥ 7)
+- missing_full_image        → static/types/9s/John-Goodman.webp absent
+- missing_thumbnail_image   → static/types/9s/s-John-Goodman.webp absent
+```
+
+All three are outside this command's scope (no grading, no image generation). To get this draft publishable:
+
+1. **Grade it** — run `/grade_blog John-Goodman`. If it lands below 8.5 overall or below 7 discoverability, it needs a revision pass before it can clear the gate.
+2. **Add both images** — the full and thumbnail webp files (manual Canva pipeline per project convention).
+
+Once grade ≥ 8.5 / rubric v2 / discoverability ≥ 7 and both images exist, re-run `/blog_content_publish_people John-Goodman`. Nothing was written or synced. Want me to kick off the grade now?

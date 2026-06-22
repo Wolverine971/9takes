@@ -11,7 +11,8 @@
 **Relationship Status:** Prospect (not yet engaged)
 **Audience Quality:** High — engaged, confessional, self-reflective HSP community
 **Profile Created:** 2026-06-20
-**Last Reviewed:** 2026-06-20
+**Last Reviewed:** 2026-06-21 (re-confirmed; grid top-served an aged June 8 HSP post — nothing fresher than the 6/20 "Unbothered" post. The 6/20 queued comment is **still pending /instagram-reply**; carry it forward, do not re-queue a duplicate.)
+**Prior Reviewed:** 2026-06-20
 **Last Engaged:** Never
 **Source of First Discovery:** 2026-06-19 warmup (#highlysensitiveperson grid); second sighting + first post review 2026-06-20.
 
@@ -50,6 +51,7 @@
 | ---------- | ------- | -------------------------------------------------------- | ---------------------------------------- | -------- | ------ | ---------------------------------------------------------------------- | -------- | ------------------------------ |
 | 2026-06-19 | Hashtag | Discovered via #highlysensitiveperson grid (aged post)   | —                                        | Reviewed | Logged | Flagged as Type 4 pond anchor; monitor for 2nd sighting                | none yet | 2026-06-19_instagram-warmup.md |
 | 2026-06-20 | Post    | "Unbothered…/stopped making overthinking my personality" | https://www.instagram.com/p/DZxpIaXG747/ | Queued   | Queued | Top-level comment queued (post mode, Level 0–1); also saved (Filter B) | none yet | 2026-06-20_instagram-warmup.md |
+| 2026-06-21 | Profile | Re-review — no fresher post than 6/20 "Unbothered" (grid served June 8) | —                                        | Reviewed | Logged | 6/20 comment still pending; carry forward, no duplicate                | none yet | 2026-06-21_instagram-warmup.md |
 
 ## Open Loops
 
