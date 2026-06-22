@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -818,7 +818,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/situational</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/workplace</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1366,7 +1366,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2125,6 +2125,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/john-d-rockefeller</loc>
+    <lastmod>2026-06-22</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/5s/John-D-Rockefeller.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/john-f-kennedy</loc>
     <lastmod>2026-04-29</lastmod>
     <image:image>
@@ -2496,6 +2503,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/markiplier</loc>
+    <lastmod>2026-06-22</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Markiplier.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/martin-luther-king-jr</loc>
     <lastmod>2026-02-19</lastmod>
     <image:image>
@@ -2612,6 +2626,13 @@
     <lastmod>2025-12-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/1s/Morgan-Freeman.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/mother-teresa</loc>
+    <lastmod>2026-06-22</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/2s/Mother-Teresa.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3411,7 +3432,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
@@ -3423,7 +3444,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
@@ -3431,7 +3452,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
@@ -3527,7 +3548,7 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis</loc>
@@ -3730,6 +3751,13 @@
     <lastmod>2026-03-23</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/twitter-x-toxic-arena-battle.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/pop-culture/us-presidents-enneagram-analysis</loc>
+    <lastmod>2026-06-22</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/us-presidents-enneagram-analysis-composite.webp</image:loc>
     </image:image>
   </url>
   <url>

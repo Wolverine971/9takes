@@ -4,12 +4,12 @@ meta_title: 'Why Markiplier Keeps Creating Art About Death (The Pattern No One T
 persona_title: "YouTube's Loudest Mourner"
 description: "Inside Markiplier's psychology: how a shy kid who lost his father at 18 built a $38M empire on maximum volume — then kept making art about endings."
 author: 'DJ Wayne'
-date: '2026-03-27'
+date: '2026-06-22'
 loc: 'https://9takes.com/personality-analysis/markiplier'
-lastmod: '2026-03-28'
+lastmod: '2026-06-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['creator', 'viral-entertainer']
 person: 'markiplier'

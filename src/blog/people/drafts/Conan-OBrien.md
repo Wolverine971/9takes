@@ -69,28 +69,29 @@ faqs:
     anchor: 'the-traffic-cops-grandson'
 content_quality:
   hook: 9
-  enneagram: 8
+  enneagram: 9
   evidence: 8
   writing: 9
   originality: 9
   discoverability: 8
-  overall: 8.4
-  letter: 'B'
+  overall: 8.6
+  letter: 'B+'
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 path: src/blog/people/drafts/Conan-OBrien.md
 ---
 
-<!-- QUALITY GRADE: B (8.4) — rubric v2
-Evidence: 8 | Originality: 9 | Discoverability: 8 | Enneagram: 8 | Writing: 9 | Hook: 9
+<!-- QUALITY GRADE: B+ (8.6) — rubric v2
+Evidence: 8 | Originality: 9 | Discoverability: 8 | Enneagram: 9 | Writing: 9 | Hook: 9
 
-FEEDBACK (2026-06-20):
-- Best opening in the batch: Austria → van → plane → empty bed → Oscars-ten-weeks-later is devastating and economical, and "if I was having a good time, it would be good" frames the whole paradox. "Anxiety is forward-looking. Depression requires sitting in what already happened" is the thesis of the profile in two sentences.
+FEEDBACK (2026-06-22):
+- Enneagram lifts to 9: the revision worked. All wing/subtype/arrow/counter-typing depth now lives in a well-formed `<details class="enneagram-rabbit-hole">` (7w6 over 7w8, so/sp, stress-to-1, growth-to-5, plus a real Type 3 / Type 6 counter-case with a "what would change our mind" line). The body is now person-first and behavioral — the explicit "Sevens move toward the rigid qualities of Type 1" mechanic that used to clutter the Tonight Show section is gone, surviving only as the in-character image "the lightest man in the room goes rigid, principled, immovable." The emotional interior check passes all three: felt interior (the anxiety-is-depression realization in his own vocabulary), empathy turn (relentless reinvention reframed as survival, not vanity), and an interior beat ("motion is how he survives"; the stage as where he hides, not performs).
+- Best opening in the collection: Austria → van → plane → empty bed → Oscars-ten-weeks-later is devastating and economical, and "if I was having a good time, it would be good" frames the whole paradox. "Anxiety is forward-looking. Depression requires sitting in what already happened" is the thesis of the profile in two sentences.
 - Originality is high — the "smart and stupid" intersection as survival strategy (not comedy philosophy), the reframe reflex turning the worst year into "the most satisfying and fascinating year," and "he wants to remember it instead" all pass the swap test. Parents dying within three days in Dec 2024 + the 2025 Oscars supplies a sharp current anchor.
-- Discoverability is the batch high (8): keywords are genuinely search-shaped (anxiety/depression, Tonight Show, Oscars 2025, Needs a Friend podcast), the FAQ is built on real questions with distinct anchors, same_as is complete, and the type answer is clear. Ceiling is `meta_title` ("Why Conan O'Brien Can't Stop Reinventing Himself") leading with intrigue over the "Enneagram Type 7" query string.
-- NEEDS WORK: Enneagram capped at 8 — 7w6 wing plus the stress-to-1 ("Sevens move toward the rigid, principled qualities of Type 1") and growth-to-5 arrow paragraphs run in the body with no `<details class="enneagram-rabbit-hole">` to hold them. The felt interior is otherwise excellent (the anxiety-is-depression realization is the type engine rendered from inside).
-- NEEDS WORK: Evidence at 8 — strong but several key quotes (Dartmouth, NPR, monologue lines) are paraphrased or undated relative to the exceptional tier; the depression/medication beats lean on unattributed reconstruction.
-- TO REACH B+: (1) Move 7w6 + stress-1 + growth-5 mechanics into a rabbit-hole accordion. (2) Tighten the dual closers ("When the Running Slowed" + "The Running and the Standing Still") and the motion/velocity metaphor, which recurs past the point of meaning. (3) Date and attribute 3-4 of the load-bearing quotes. (4) Add the type+query to `meta_title`.
+- Discoverability (8): keywords are genuinely search-shaped (anxiety/depression, Tonight Show, Oscars 2025, Needs a Friend podcast), the FAQ is built on real questions with distinct anchors, same_as/entity metadata is complete, and the type answer is clear and early. Gate passes. Ceiling is `meta_title` ("Why Conan O'Brien Can't Stop Reinventing Himself") leading with intrigue over the "Enneagram Type 7" / "personality type" query string.
+- NEEDS WORK: Evidence at 8 — strong sourced quotes (Dartmouth, final TBS monologue, NPR, the smart/stupid bit inventory), but several load-bearing beats (depression/medication, "depression is anger turned inward") lean on undated, lightly attributed reconstruction relative to the 9-10 tier.
+- NEEDS WORK: residual type-mechanic phrasing in the body — "the exact pharmacology a Seven's brain craves" in the Type 7 evidence list is the one spot insider language leaks; rephrase to behavior. The motion/running metaphor still recurs across the close ("choosing to sit," "converting every feeling into forward motion") though it now does structural callback work.
+- TO REACH A (9.0): (1) Lift Evidence — date and attribute 3-4 of the depression/medication and Dartmouth quotes to specific sources. (2) Lift Discoverability to 9 — front-load the "personality type / Enneagram Type 7" string in `meta_title` so it nails the query, not just the intrigue. (3) De-mechanic the one "Seven's brain" phrase in the body.
 -->
 
 > "I've devoted all of my adult life to pursuing this strange, phantom intersection between smart and stupid."
@@ -171,7 +172,7 @@ In January 2010, NBC told Conan they were moving Jay Leno back to 11:35 p.m. and
 
 His public statement was precise and principled: "I will not participate in the destruction of The Tonight Show."
 
-That sentence is worth examining. Under extreme stress, Enneagram Sevens move toward the rigid, principled qualities of [Type 1](/enneagram-corner/enneagram-type-1). The man who'd built a career on flexibility, absurdity, and the refusal to take anything too seriously suddenly drew a line in the sand. It wasn't a negotiating tactic. It was what happens when a Seven can't outrun the situation — they become a different person entirely.
+That sentence is worth examining. The man who'd built a career on flexibility, absurdity, and the refusal to take anything too seriously suddenly drew a line in the sand and would not be moved off it. It wasn't a negotiating tactic. It was what happens when the exits close on someone whose whole life is exits: the lightest man in the room goes rigid, principled, immovable — a stranger to himself.
 
 He took $45 million to walk away. Within weeks, he announced a 42-city live show called _The Legally Prohibited from Being Funny on Television Tour_ — the title was the joke and the loophole, because his NBC exit deal barred him from television until September. He grew a beard. He recorded an album. He made a documentary, _Conan O'Brien Can't Stop_, that accidentally became one of the most honest portraits of a performer ever filmed. And then he delivered the Dartmouth speech that contained the most revealing thing he's ever said publicly:
 
@@ -199,7 +200,7 @@ That's where he lives. The Harvard Lampoon president needed the Masturbating Bea
 
 "At one of the lowest points in my life, when I was a 30-year-old national punchline, Dave — for reasons that I still don't understand — completely rescued me."
 
-That quote about [David Letterman](https://en.wikipedia.org/wiki/David_Letterman) reveals something Conan rarely lets show: genuine bewilderment at being helped. Sevens are superb at generating their own momentum. They are far less comfortable receiving it from others. The idea that someone would rescue you implies you needed rescuing, which implies you were stuck, which implies the motion stopped.
+That quote about [David Letterman](https://en.wikipedia.org/wiki/David_Letterman) reveals something Conan rarely lets show: genuine bewilderment at being helped. He is superb at generating his own momentum. He is far less comfortable receiving it from others. The idea that someone would rescue you implies you needed rescuing, which implies you were stuck, which implies the motion stopped.
 
 But people stayed anyway. The first was Andy Richter. Before _Late Night_ even aired, producer Robert Smigel watched the two of them run through a segment and told Lorne Michaels the sidekick was already sitting in the room. Andy was there on night one in 1993, the only other person on stage while the reviews were calling Conan a historic mistake. He stayed until 2000, when he left to try acting, and the goodbye genuinely hurt. Then, nine years later, when Conan finally got _The Tonight Show_, he called Andy back to announce it — the stage he'd waited seventeen years for felt incomplete without him. Andy came back again for the TBS show in 2010 and stayed until the final episode in 2021. He is still there, on the podcast, still interrupting. For a profile about a man who converts everything into motion, the most stable thing in Conan's professional life is a second chair with the same person in it for thirty-plus years.
 
@@ -231,7 +232,7 @@ Forty years later, Conan has an Emmy-winning travel show. The format is almost e
 
 In 2018, after Donald Trump reportedly used a slur to describe Haiti, Conan booked a flight and shot a Haiti special within weeks. It wasn't framed as a clapback. He walked with aid workers, sat with families, ate with them, let Haitians speak for Haiti while he played the bewildered tall man in the frame. In Armenia, he traveled with Sona to explore her heritage. Her grandmother asked Conan on camera to find her granddaughter an Armenian husband. The grandmother died a few months after the episode aired, making the footage an unintended last recording. In one scene, Sona breaks down in tears talking about her grandfather, and instead of making a joke, Conan lets the moment sit — the man who fills every silence just watching, present, still. "I don't want the joke to be on the people I'm talking to," he said of his travel philosophy. "I always like the joke to be on me."
 
-The loyalty underneath the specials is the same loyalty that held his crew up for thirty years. During the 2007 writers' strike, he paid roughly 75 staff salaries out of his own pocket. During the pandemic, he kept everyone on payroll. It's the [7w6](/enneagram-corner/enneagram-type-7) in full view — the wing that blends the Seven's restless energy with the Six's fierce protectiveness. He doesn't just want freedom. He wants freedom _and_ a safety net for the people he loves.
+The loyalty underneath the specials is the same loyalty that held his crew up for thirty years. During the 2007 writers' strike, he paid roughly 75 staff salaries out of his own pocket. During the pandemic, he kept everyone on payroll. The restless energy and the fierce protectiveness run on the same circuit: he doesn't just want freedom. He wants freedom _and_ a safety net for the people he loves.
 
 His mother gave him something different. "So many women have come up to me since my mom passed and said, 'Your mother counseled me. Your mother gave me the courage and the belief that yes, women can inhabit this space.'" Ruth O'Brien was a trailblazer who raised six children while becoming one of Boston's most respected attorneys. She was also the straight man — the one who said "sit up straight, now why would you say that."
 
@@ -247,7 +248,7 @@ In 2021, Conan ended his TBS show. Late night television — the format that def
 
 What he built afterward is the most interesting turn in the whole career. A podcast that earned a $150 million SiriusXM deal. A travel show that won two Emmys for vulnerability and authenticity, of all things. An Oscar hosting gig that drew 19 million viewers and a standing invitation to return. At 62, he says he's "more creatively engaged now than at any other point in his life."
 
-The internal Enneagram map for Sevens in growth points toward [Type 5](/enneagram-corner/enneagram-type-5) — the investigator, the one who goes deep instead of wide, who sits with a single idea until it yields everything it has. Late night was breadth: five shows a week, hundreds of guests a year, constantly generating. The podcast is depth — longer conversations, genuine curiosity, the willingness to follow a thread past the punchline. The travel show is something else entirely: sustained presence in unfamiliar places, vulnerability as the premise, the willingness to be the butt of the joke "if it means someone else gets to shine." The Seven who couldn't sit still is, for the first time, choosing to sit.
+Something changed in what he reached for. Late night was breadth: five shows a week, hundreds of guests a year, constantly generating. The podcast is depth — longer conversations, genuine curiosity, the willingness to follow a thread past the punchline. The travel show is something else entirely: sustained presence in unfamiliar places, vulnerability as the premise, the willingness to be the butt of the joke "if it means someone else gets to shine." The man who couldn't sit still is, for the first time, choosing to sit.
 
 "Your path at 22 will not necessarily be your path at 32 or 42," he told those Dartmouth graduates. "One's dream is constantly evolving, rising and falling, changing course."
 
@@ -258,6 +259,33 @@ He said that line to laughter. But Conan O'Brien has had his worst fears realize
 He's 62 now. Both parents gone. The late-night format that defined him, gone. And yet: the same marriage for twenty-four years. The same second chair next to Andy for thirty. The same assistant for seventeen. The medication he was afraid would dull him made him sharper. The therapy he resisted made the running quieter, if not slower.
 
 Somewhere in the vault at NBC, there's footage of a thirty-seven-year-old comedian falling in love with a woman across a room, and he won't rewatch it. He wants to remember it instead. For a man who has spent forty years converting every feeling into forward motion, that might be the most radical thing he's ever done — choosing to sit with something exactly as it was.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Conan O'Brien</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system: the rest of the analysis stands on its own.</em></p>
+
+<h3>Conan O'Brien's Wing: 7w6</h3>
+
+<p>The record leans 7w6 over 7w8. The 6 wing shows in the loyalty architecture and in the anxiety itself: paying roughly 75 staff salaries out of pocket during the 2007 strike, keeping the whole crew on payroll through the pandemic, the same second chair next to Andy Richter for thirty years, seventeen years with the same assistant. A 7w8 is more appetite-forward and confrontational, happy to bulldoze toward the next pleasure; Conan's instinct under pressure is to build a safety net and make the joke land on himself, not to dominate the room. The fourth-grade anxiety that never left is the 6 wing's worry humming under the Seven's motion. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Conan O'Brien's Instinctual Subtype: so/sp</h3>
+
+<p>He reads social-dominant. The social Seven is the Enneagram's counter-type: it mutes some of the Seven's raw gluttony in service of a group or an ideal, and wants to be seen as good rather than merely gratified. The Catholic guilt, the debt he feels to "generations of people before me who worked their tails off," the reflex to make the joke be on himself "if it means someone else gets to shine," and the literal financial sacrifice for the crew all point to the social instinct organizing the appetite. Self-preservation runs second (the practical family-of-allies he keeps close); the one-to-one instinct shows mainly in the on-camera moment he fell for Liza. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, Sevens move to Type 1: rigid, principled, self-critical. The Tonight Show standoff is the arrow in a single line — "I will not participate in the destruction of The Tonight Show" is not a negotiation, it is the lightest man in late night going immovable on principle. In growth, Sevens move to Type 5: depth over breadth, sitting with a single thread until it yields. The post-2021 turn — the long-form podcast, the travel show that won Emmys for vulnerability, the willingness to stay quiet in a room and let Sona's grief sit — is a slow walk down that arrow, the Seven choosing presence over the next hit of novelty.</p>
+
+<h3>Counterarguments: Why Conan O'Brien Might Not Be Type 7</h3>
+
+<p>The strongest alternate case is Type 3: the relentless reinvention, the performing, the Harvard-valedictorian achievement stack. But the 3 chases the win and curates the image, and Conan does the opposite — he torched his own dignity nightly for a man in a bear suit, walked away from the most coveted job in television on principle rather than optimizing the outcome, and reframed the loss as freedom instead of spinning it as a still-winning story. A Type 6 case rests on the lifelong anxiety, but the 6 manages fear by scanning for threat and reaching for security and authority; Conan manages the identical fear by motion and novelty — the Seven's signature escape from pain rather than the Six's vigilance toward it. What would change our mind: evidence that the constant reinvention is status-management for its own sake (3) rather than an escape from internal stillness.</p>
+</div>
+</details>
+
+---
+
+<p><em>This is an Enneagram-based interpretation of public interviews, performances, and the subject's own statements, not a clinical diagnosis. Confidence in the Type 7 reading: high. Wing call (7w6 over 7w8): moderate to high.</em></p>
 
 <!-- FRESH EYES REVIEW (2026-04-08)
 Biggest issues:

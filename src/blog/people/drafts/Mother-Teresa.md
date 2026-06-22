@@ -4,12 +4,12 @@ meta_title: "Mother Teresa's 50-Year Secret: The Saint Who Couldn't Feel God"
 persona_title: "Calcutta's Saint of Darkness"
 description: "Mother Teresa spent fifty years unable to feel the God she served. The Type 2 wound, lived inside the relationship she most depended on."
 author: 'DJ Wayne'
-date: '2026-05-06'
+date: '2026-06-22'
 loc: 'https://9takes.com/personality-analysis/mother-teresa'
-lastmod: '2026-05-06'
+lastmod: '2026-06-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '2'
 type: ['historical', 'activist', 'movement-leader']
 person: 'mother-teresa'

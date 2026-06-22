@@ -1,0 +1,27 @@
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  john-goodman
+Draft:   src/blog/people/drafts/john-goodman.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-22_020600_john-goodman
+Started: Mon Jun 22 02:06:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:06:00)
+Command: /blog_content_creator_people_v2 john-goodman --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-22_020600_john-goodman/1_create.log
+─────────────────────────────────────────────────────
+Pipeline launched cleanly — Stage 1 (`create`) is running, fresh log dir `2026-06-22_020600_john-goodman`. This confirms the launch succeeded (unlike the prior orphaned runs).
+
+**Status so far:**
+
+| Check | Result |
+|---|---|
+| Pause | `false` ✅ |
+| Rate limit | 0/5 this week (week of 2026-06-20) ✅ |
+| inProgress | was stuck on **john-goodman** — diagnosed as 06-21 run orphaned after stage 1 (draft created, `2_fresh_eyes.log` 0 bytes, ungraded/un-enriched) |
+| Action | Re-running full 7-stage pipeline to recover (not a fresh selection — john-goodman was already the in-progress person) |
+
+The pipeline (`bxpw17g8t`) is running all 7 stages (create → fresh_eyes → second_pass → cohesion → editor → enrich → grade, plus conditional revise/regrade). This takes 30–60+ min. I'm holding the loop open and **will not end the run mid-pipeline** — when it exits, the harness re-invokes me and I'll complete Steps 3–6 in the same run: verify the draft, capture the grade from frontmatter, move john-goodman from `inProgress` → `completed`, increment the rate limit, and send the notification.
+
+Waiting for the pipeline to finish.

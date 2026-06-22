@@ -4,12 +4,12 @@ meta_title: "Inside John D. Rockefeller: Why He Counted Every Penny"
 persona_title: "The Ledger's First Billionaire"
 description: 'The robber-baron story is true. It is also surface. The real John D. Rockefeller was an Enneagram Type 5 who turned the oil industry into one enormous ledger.'
 author: 'DJ Wayne'
-date: '2026-04-24'
+date: '2026-06-22'
 loc: 'https://9takes.com/personality-analysis/john-d-rockefeller'
-lastmod: '2026-06-12'
+lastmod: '2026-06-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type: ['entrepreneur', 'historical', 'historical-artist', 'business-operator']
 person: 'john-d-rockefeller'

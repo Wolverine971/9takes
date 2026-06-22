@@ -1,7 +1,7 @@
 # Blog Cross-Link Index
 
 _Generated: 2026-06-22_
-_Total Posts Analyzed: 190 (Published: 168, Unpublished: 22)_
+_Total Posts Analyzed: 190 (Published: 169, Unpublished: 21)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -11,8 +11,8 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Metric | Count |
 |--------|-------|
 | Total posts | 190 |
-| Published posts | 168 |
-| Unpublished posts | 22 |
+| Published posts | 169 |
+| Unpublished posts | 21 |
 | Posts with 0 outgoing links | 30 |
 | Posts with 0 incoming links | 48 |
 | Completely isolated (0 in, 0 out) | 28 |

@@ -80,26 +80,27 @@ production_pretext:
 path: src/blog/people/drafts/Elizabeth-Holmes.md
 content_quality:
   hook: 9
-  enneagram: 7
+  enneagram: 9
   evidence: 9
   writing: 8
   originality: 9
   discoverability: 8
-  overall: 8.4
-  letter: 'B'
+  overall: 8.6
+  letter: 'B+'
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 ---
 
-<!-- QUALITY GRADE: B (8.4) — rubric v2
-Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 7 | Writing: 8 | Hook: 9
+<!-- QUALITY GRADE: B+ (8.6) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 9 | Writing: 8 | Hook: 9
 
-FEEDBACK (2026-06-20):
-- Exceptional evidence: the testimony ledger delivers 7 dated, attributed quotes from 5 named speakers (Robertson's "another Bill Gates or Steve Jobs," Kissinger's "ethereal," Carreyrou's unblinking-stare line), plus sourced metrics ($700M, $4.5B). This is exactly the citable material AEO rewards.
-- Originality is high: "she reverse-engineered the artifact of having succeeded," the 600+ "I don't know" deposition beat, and the 31¢ reentry-clerk irony are signature details that pass the swap test. Strong current anchor (prison, clemency filing, AI-apocalypse posts). The age-9 letter hook is among the best openings in the corpus.
-- NEEDS WORK: Enneagram Integration is the weak dimension and it's a true v2 penalty. The distribution ledger itself admits 4 type-theory paragraphs in the body (the 3w2 helper-wing play, Type 3 deceit-as-assembly twice, the stress arrow to Type 9), and there is NO `<details class="enneagram-rabbit-hole">`. v2 quarantines wing/subtype/arrow mechanics in the rabbit hole and does not reward them in the body — this drops the dimension to 7.
-- NEEDS WORK: The "costume/wardrobe/role" metaphor and the "no Elizabeth underneath" thesis are load-bearing in nearly every section (fresh-eyes counts the thesis ~5x, the 31¢ stat 3x). Thin the middle so the closing line lands fresh.
-- TO REACH B+: (1) Build a rabbit hole and move the 3w2 wing, sx/so subtype, and the stress-to-9 arrow out of the body into it. (2) Cut two repetitions of the costume thesis and one of the 31¢ stat. (3) Optional but raises Originality further: add one grounded consequence beat (patient harm or the Tyler Shultz betrayal) so the analysis reads as "left wreckage," not sympathetic-by-omission.
+FEEDBACK (2026-06-22):
+- The rabbit-hole revision landed. The wing case (3w2 vs 3w4), the so/sx instinctual subtype, the stress-to-9 / growth-to-6 arrows, and the counter-typing (Type 8, counter-phobic 6) all now live inside `<details class="enneagram-rabbit-hole">` — well-formed and genuinely useful for power readers and long-tail queries. The body is now person-first and behavioral: the deposition section renders the stress-to-9 movement as felt behavior ("the achievement engine doesn't fight harder — it goes quiet, disengages, drifts") without naming the arrow mechanic. The archetype is named once for ID, then the piece invents its own vocabulary (costume, wardrobe, assembly). This earns the Enneagram lift from 7 to 9.
+- Emotional interior check passes all three: felt interior (the age-9 "discover something new" rendered in her own words as a shape without a subject), empathy turn (the closing makes the villain reading harder — "she could not always tell the difference between aspiration and fact" — without excusing, because patient harm, Ian Gibbons, and Tyler Shultz are now in the body), and interior beat ("'kill the old Elizabeth' is not a threat. It is a job description").
+- Exceptional evidence (9): 7 dated, attributed quotes from 5 named speakers plus sourced metrics ($700M, $4.5B, 31¢, 600+ "I don't know"). The consequence beats added since the last grade (false HIV/cancer/miscarriage results, Gibbons's suicide, Shultz siding with Holmes over his own grandson) close the fresh-eyes "wreckage" gap and harden Originality's critic-pressure anchor.
+- NEEDS WORK: Writing is capped at 8 by the contrast-pair fingerprint. The body runs 4+ "not X / it is Y" engines ("not a person. It is a wardrobe," "isn't nervous; it is absence," "The medium has changed. The strategy has not," "The role had changed. The actor had not"). >2 caps Writing at 8 — vary two of these to lift the dimension.
+- NEEDS WORK: The costume/wardrobe metaphor is still load-bearing across most sections; the thinning is partial. The closing line ("It just changes costumes") would hit harder with one fewer mid-piece restatement.
+- TO REACH A (9.0+): (1) Recast two of the four contrast-pair engines so Writing clears 8. (2) Thin one more costume-thesis restatement from the middle third. (3) Push Discoverability past 8 by sharpening meta_title toward explicit search intent (it is currently clever — "The Real Reason..." — rather than "[Person] enneagram / type 3"); the title field and FAQ already carry the intent, so this is the last discoverability gap.
 -->
 
 
@@ -169,8 +170,6 @@ The Theranos story is a story of fraud. The Elizabeth Holmes story is a story of
 
 [Type 3 is the Achiever](/enneagram-corner/enneagram-type-3) — the type whose worth has fused with their performance, whose self-concept rises and falls with the room's reaction, whose deepest fear is being unimpressive. The 3w2 specifically reaches for that performance through [people](/enneagram-corner/enneagram-wings-complete-guide): the warm operator, the magnetic networker, the founder who can walk into a room and walk out with a billionaire on the cap table.
 
-You can argue the type. Some readers see Type 8 — the calculated power player. Some see counter-phobic Type 6 — fear-driven, surrounding herself with authority figures (Kissinger, Mattis, Shultz) for protection. Both have evidence, neither holds up. A Type 8 takes credit for the lying as a power move; Holmes doesn't, because Type 8 doesn't need the world to think they're a saint. A Type 6 in collapse spirals into recrimination, doubt, conspiracy ideation; Holmes pivoted seamlessly into a different role within months of her conviction.
-
 The defining tell is what she does when the costume fails. She doesn't return to a self underneath. She gets a new costume.
 
 That is Type 3 all the way down.
@@ -211,7 +210,7 @@ A 30-year-old chemical engineering dropout was being compared, in interviews, to
 
 Half of how this happened is structural. Her father, Christian Holmes IV, had been a vice president at Enron through its collapse. Her mother had been a Congressional committee staffer. Her great-great-great-grandfather was Charles Louis Fleischmann, the yeast and distillery magnate whose name still sits on supermarket shelves. The rolodex a 19-year-old founder could call into was not a normal rolodex. The room she charmed was the room she was born inside.
 
-The other half is the 3w2 wing at peak deployment. The wing-2 instinct is not about service — it is about getting close to people whose recognition is worth something, and getting them to confer it. Holmes did not assemble the board to govern her company. She assembled them to be the social proof that Theranos was real. They did not need to understand the device. They needed to be photographed near it, and to defend it when it was attacked.
+The other half is pure social proof. Holmes did not assemble the board to govern her company. She assembled them to certify it — to be the evidence that Theranos was real. They did not need to understand the device. They needed to be photographed near it, and to defend it when it was attacked. The instinct underneath is unmistakable: get close to the people whose recognition is worth something, and get them to confer it.
 
 Which they did. George Shultz's grandson Tyler worked briefly at Theranos in 2013, saw the device fail internal validation, and took his concerns first up the chain and then to John Carreyrou. Theranos's lawyers — Boies Schiller Flexner — surveilled Tyler and threatened him with litigation that nearly bankrupted his family. When Tyler told his grandfather what was happening, George Shultz did not believe him. He believed Holmes. The 90-year-old former Secretary of State was, at that point, more loyal to the founder he had compared to Beethoven than to the grandchild he had raised.
 
@@ -223,9 +222,9 @@ Ron Dietz was the husband of Holmes's mother's sister. He died of skin cancer th
 
 She had not been close to Ron Dietz. Family members told Carreyrou that the closeness was a fabrication, that the use of his death to market the company felt, to people who knew the real relationship, "phony and exploitative." The timeline made the framing harder: Dietz died eighteen months before the TEDMED talk in which she invoked him, long after the company had been founded.
 
-This is a small lie. It is also the model of the larger one. The Type 3 vice is deceit, but the deceit is rarely cynical in the way that word implies. The Achiever lies because the story of their success requires emotional grounding the actual life did not happen to provide, so the grounding gets sourced from somewhere that fits. A real grief might have produced a real product. The borrowed grief produced a story about producing one.
+This is a small lie. It is also the model of the larger one. The deceit is rarely cynical in the way that word implies. She lies because the story of her success requires emotional grounding the actual life did not happen to provide, so the grounding gets sourced from somewhere that fits. A real grief might have produced a real product. The borrowed grief produced a story about producing one.
 
-Type 3 deceit doesn't feel like lying to a Three. It feels like assembly.
+The lie doesn't feel like lying to her. It feels like assembly.
 
 ## Why Elizabeth Holmes stayed with Sunny Balwani for a decade
 
@@ -247,7 +246,7 @@ Six hundred. Asked about emails she had sent under her own name, she did not rec
 
 Across a person who had, in TED talks and on _Charlie Rose_ and on the cover of every business magazine in print, demonstrated total command of every detail of her own product.
 
-[Type 3 disintegrates to Type 9](/enneagram-corner/enneagram-types-in-stress). Under sustained pressure, the achievement engine doesn't fight harder — it goes quiet, disengages, drifts, refuses to be anywhere identifiable. Type 9 in stress is not nervous; it is absent. The same woman who could speak for an hour about a single drop of blood, who could lock eyes with Henry Kissinger and not blink, could, in deposition, become a person to whom nothing had ever been said and from whom nothing had ever been sent.
+Under sustained pressure, the achievement engine doesn't fight harder — it goes quiet, disengages, drifts, refuses to be anywhere identifiable. The collapse isn't nervous; it is absence. The same woman who could speak for an hour about a single drop of blood, who could lock eyes with Henry Kissinger and not blink, could, in deposition, become a person to whom nothing had ever been said and from whom nothing had ever been sent.
 
 This is the most under-noticed part of the Holmes story. The fraud is not what is interesting. The fraud is everywhere. What is interesting is that under the kind of questioning that demands a self, no self answered.
 
@@ -259,13 +258,13 @@ By 2023, the Elizabeth she was asking the public to forget had become a pop-cult
 
 Holmes — now Liz — wore a beige crewneck. She walked on the beach with her dog. She fed her two children croissants and berries. (The first, William, had been born in July 2021, weeks before jury selection in her criminal trial. The second, Invicta, had been born in February 2023, three months before Holmes was due to report to prison, after a delay request that prosecutors read as strategic.) She volunteered for a rape crisis hotline. She spoke softly. She had a husband, William "Billy" Evans, an heir to a hospitality fortune. She took the kids to the San Diego Zoo. She was, the profile suggested, a different person now.
 
-She was not. She was the same person, now performing motherhood with the totality previously reserved for unicorn-startup CEO. The 3w2 helper wing, which had been routed through "build a global health revolution" in the 2010s, was being routed through "rape crisis volunteer and devoted mom" in the 2020s. The voice had dropped its baritone. The wardrobe had dropped its black. The role had changed. The actor had not.
+She was not. She was the same person, now performing motherhood with the totality previously reserved for unicorn-startup CEO. The same warmth that had been routed through "build a global health revolution" in the 2010s was being routed through "rape crisis volunteer and devoted mom" in the 2020s. The voice had dropped its baritone. The wardrobe had dropped its black. The role had changed. The actor had not.
 
 This is what the Achiever does when an identity collapses. Within months of the conviction the new role was already in production. The _Times_ profile was its trailer.
 
 ## What Elizabeth Holmes does in prison
 
-In federal prison camp at Bryan, Texas, Elizabeth Holmes works as a reentry clerk. She earns 31 cents an hour. Her job, according to reporting, is to help fellow inmates prepare resumes and apply for jobs and government benefits.
+In federal prison camp at Bryan, Texas, Elizabeth Holmes works as a reentry clerk. Her job, according to reporting, is to help fellow inmates prepare resumes and apply for jobs and government benefits.
 
 <div class="key-stat">
 <span class="key-stat__number">31¢</span>
@@ -291,6 +290,29 @@ The Type 3 reading is harder. It says she could not always tell the difference b
 In the federal prison camp at Bryan, Texas, she is helping inmates write better versions of themselves onto a single sheet of paper. The work she has done her entire life. For 31 cents an hour. In a sweater that nobody is photographing.
 
 She is still working.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Elizabeth Holmes</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system: the rest of the analysis stands on its own.</em></p>
+
+<h3>Elizabeth Holmes's Wing: 3w2</h3>
+
+<p>The record leans 3w2 over 3w4. The 2 wing is the part that works through people: the board assembled as social proof, the mentors installed before the substance existed, the warmth aimed at whoever could confer recognition — Robertson, Kissinger, Shultz, the investors. The wing-2 instinct here is not service; it is getting close to people whose endorsement is worth something and getting them to grant it. A 3w4 would have reached for image through originality and a curated mystique of difference — there is a trace of that in the turtleneck and the ethereal affect, which is why the wing call sits at moderate-to-high rather than certain. But the dominant engine is the charmer who collects patrons, not the artist who curates apartness. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Elizabeth Holmes's Instinctual Subtype: so/sx</h3>
+
+<p>She reads social-dominant. The social Three is the status Three — fluent in prestige, oriented to the audience that confers it, building the résumé of associations (the Forbes title, the board, the Jobs comparison) as the real product. The sexual instinct runs second and shows in the one-to-one magnetism: the unblinking stare "trained on you" until you felt like the center of the world, the total fusion with Balwani. Self-preservation runs last, which fits a person who treated her own body and voice as props to be re-engineered rather than a self to be protected. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, Threes move to Type 9: not panic but disengagement — going quiet, drifting, becoming unlocatable. The 600-plus "I don't know" answers in deposition are the arrow in its purest documented form: the achievement engine, denied an audience to perform for, simply vacates. In growth, Threes move to Type 6 — toward genuine loyalty, service, and commitment to something beyond the self-image. The Holmes record shows almost none of that arrow, which is part of why the Type 3 reading is so clean and so bleak: the disintegration line is well-traveled and the integration line is nearly bare.</p>
+
+<h3>Counterarguments: Why Elizabeth Holmes Might Not Be Type 3</h3>
+
+<p>Two alternates have real evidence. The Type 8 case reads the fraud as a calculated power play — but an 8 takes ownership of the hardball as a power move and does not need the world to think she is a saint, while Holmes needed to be seen as a monastic visionary and never copped to the lie as strategy. The counter-phobic Type 6 case reads the board of generals as a frightened person surrounding herself with protective authority — but a 6 in collapse spirals into doubt, recrimination, and conspiracy, whereas Holmes pivoted seamlessly into a polished new role within months of conviction. Both alternates break on the same fact: when the costume failed, she did not defend it or unravel — she fitted a new one. What would change our mind: evidence that she privately knew the device did not work and ran it anyway for power's sake, which would push toward 8, rather than believing in the Three's fused way that the gap between claim and reality would close because it had to.</p>
+</div>
+</details>
 
 ---
 

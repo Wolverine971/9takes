@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-06-21T06:00:36Z",
+	"lastUpdated": "2026-06-22T06:05:50Z",
 	"stats": {
 		"totalUnpublished": 126,
 		"totalPublished": 266,
@@ -906,8 +906,8 @@
 		"addedToQueue": "2026-04-12",
 		"retryCount": 1,
 		"strategicValue": "hollywood-legacy-cluster",
-		"recoveryNote": "Recovered from 2026-06-20 stale inProgress: pipeline was backgrounded/orphaned before stage 1 wrote a draft; 1_create.log was 0 bytes.",
-		"startedAt": "2026-06-21T06:00:36Z"
+		"recoveryNote": "Recovery run 2026-06-22: 06-21 run orphaned after stage 1 (draft created, 2_fresh_eyes.log 0 bytes, never graded/enriched). Re-running full 7-stage pipeline.",
+		"startedAt": "2026-06-22T06:05:50Z"
 	},
 	"skipped": [
 		{

@@ -1,0 +1,24 @@
+All verification complete. The publish succeeded.
+
+```text
+Published people blog.
+
+Person: mother-teresa
+Draft: src/blog/people/drafts/Mother-Teresa.md
+Date/lastmod: 2026-06-22
+Supabase: published=true (id=1028, synced)
+Images: full + thumbnail present (static/types/2s/Mother-Teresa.webp + s-Mother-Teresa.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Details verified:
+- **Draft frontmatter**: `published: false → true`, `date` and `lastmod` both set to `2026-06-22`. Existing quote style, inline arrays, and field order preserved.
+- **famousTypes.ts**: `mother-teresa` now `link: true`, `hasImage: true`, `lastmod: '2026-06-22'`.
+- **sitemap.xml**: includes `https://9takes.com/personality-analysis/mother-teresa` with its image entry.
+- **Supabase**: row `id=1028` updated and published.
+- **Corpus stats** regenerated — published count now 361.
+
+The draft passed all gates (grade 8.9 ≥ 8.5, rubric v2, discoverability ≥ 7, 3,822 words, real article body, both images present).
