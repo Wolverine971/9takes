@@ -1,15 +1,15 @@
 ---
 title: 'Amelia Dimoldenberg: An In-Depth Enneagram Type 3 Analysis'
-meta_title: "Why Amelia Dimoldenberg's Awkwardness Is Her Most Strategic Weapon"
+meta_title: "Amelia Dimoldenberg Enneagram Type 3: The Strategy Behind the Deadpan"
 persona_title: "YouTube's Self-Made Deadpan Empire"
 description: 'How did the awkward girl from Marylebone build a chicken-shop empire every A-lister wants in? Inside the Type 3 mind of Amelia Dimoldenberg.'
 author: 'DJ Wayne'
-date: '2026-04-18'
+date: '2026-06-22'
 loc: 'https://9takes.com/personality-analysis/amelia-dimoldenberg'
-lastmod: '2026-04-18'
+lastmod: '2026-06-22'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['creator', 'celebrity', 'celebrity-image']
 person: 'amelia-dimoldenberg'
@@ -80,26 +80,27 @@ production_pretext:
 path: src/blog/people/drafts/Amelia-Dimoldenberg.md
 content_quality:
   hook: 9
-  enneagram: 8
+  enneagram: 9
   evidence: 9
   writing: 8
-  originality: 8
-  discoverability: 8
-  overall: 8.3
-  letter: B
+  originality: 9
+  discoverability: 9
+  overall: 8.9
+  letter: B+
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 ---
 
-<!-- QUALITY GRADE: B (8.3) — rubric v2
-Evidence: 9 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 9
+<!-- QUALITY GRADE: B+ (8.9) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 9 | Writing: 8 | Hook: 9
 
-FEEDBACK (2026-06-20):
-- The Garfield-in-gold-LaQuan-Smith opening is the strongest hook in the batch — a specific surprising moment ("I only ever want to see you") that reveals character and poses the armor-vs-brand question immediately. "She made refusal her charm. She made withholding her flirtation." is the best three-sentence run in the piece.
-- Evidence is exceptional: dated, sourced quotes (Gentlewoman AW25, Adweek 2025, Louis Theroux podcast, Metro) plus the "If you make a sibling laugh, you've hit the jackpot" dinner-table detail that does real diagnostic work. Currency is excellent (2026 Oscars third year, Oct 2025 Passenger Princess, Dimz Inc Academy, TIME100 Titan).
-- The "private love life as last unoptimized corner" reframe is genuinely original and the gendered-power-joke section names the show's mechanism most pieces miss.
-- NEEDS WORK: (1) ENNEAGRAM CAP — wing/subtype mechanics bleed into the body ("social subtype, most likely 3w2," "3w2 collapsing two jobs into one body," repeated 3w2 stamping). There is no `<details class="enneagram-rabbit-hole">` accordion to quarantine this depth; it caps the dimension at 8. (2) ORIGINALITY CAP — the piece celebrates the format's mechanism but ducks the obvious critic pressure (class/race optics of a Marylebone Jewish woman deadpanning Black male artists in chicken-shop set-pieces; whether the format is misogynist-coded). No named skeptic gets a counter-reading; this caps originality at 8.
-- TO REACH B+: (1) Move all 3w2 / social-subtype mechanics into a rabbit-hole accordion and let the body stay person-first — this alone lifts Enneagram to 9. (2) Add one engaged critic of the format (class, race, or gaze) with a genuine empathy turn, not a sanitized aside — lifts Originality to 9. (3) Cut 20-25% to kill the duplicate "scoreboard inverts" framings and the three thesis front-loads (Garfield scene + TL;DR + typing section). (4) Replace the "starting gun" closer — end on the Lambeth nineteen-year-old beat that already landed.
+FEEDBACK (2026-06-22):
+- Clears the gate (8.9, B+). The revision fixed the two caps from the prior grade. Enneagram: wing/subtype mechanics are now fully quarantined in a well-formed `<details class="enneagram-rabbit-hole">` (3w2 vs 3w4, so/sp, 3→9 stress / 3→6 growth arrows, and an 8/5 counter-typing case). The body now reads person-first — type named for ID, then its own vocabulary ("Achievement equals love. Average equals invisible.") — and the emotional interior lands: fear felt, empathy turn on the guarded private life ("the last clean evidence that a private self still exists"), interior beat in the childhood equation. Enneagram lifts to 9.
+- Originality: the ducked critic pressure is now engaged in "The Gendered Power Joke Nobody Names" — a real class/race counter-reading ("whether the deadpan… played the outsider's distance for laughs at the guests' expense… whether that reads as solidarity or as appropriation depends a lot on who is watching"), unsanitized and unresolved on purpose. Combined with the "private love life as last unoptimized corner" reframe, originality lifts to 9.
+- Evidence stays exceptional: dated, sourced quotes (Gentlewoman AW25, Louis Theroux podcast, Adweek 2025, Metro, TIME100) plus the "If you make a sibling laugh, you've hit the jackpot" dinner-table detail. Currency excellent (2026 Oscars third year, Oct 2025 Passenger Princess, Dimz Inc Academy, TIME100 Titan). Discoverability is strong: meta_title nails search intent at optimal length, five real FAQ-schema entries with anchors, clean early extractable type answer, complete entity metadata.
+- Hook remains best-in-corpus (Garfield, gold LaQuan Smith, "I only ever want to see you"). The closer now cuts to black on the Lambeth nineteen-year-old beat — the prior "starting gun" epigram is gone, so the ending swap-test passes.
+- WRITING (holds at 8, the only sub-9): the piece is still long, and a few "scoreboard inverts" / edit-room-control formulations repeat across sections; a contrast-pair engine ("the costume said star, the face said I'm already bored") recurs but stays under the cap threshold.
+- TO REACH A (9.0+): trim 15-20% to kill the residual duplicate framings (the "scoreboard inverts" beat lands in both the Drake section and the closer; the edit-room-control thesis is stated three near-identical ways), tightening Writing to 9 — that single lift carries the overall to 9.0.
 -->
 
 > "I developed a strong sense of sarcasm to protect myself, and it worked." — Amelia Dimoldenberg, _The Gentlewoman_
@@ -118,7 +119,7 @@ This is the tension that makes her psychologically interesting. The deadpan buil
 <summary class="accordion">TL;DR: Why Amelia Dimoldenberg is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>Type 3, social subtype, most likely 3w2.</b> A self-made Achiever from a PR-fluent Jewish family in central London who learned image management as a first language.</li>
+<li><b>Type 3, The Achiever.</b> A self-made performer from a PR-fluent Jewish family in central London who learned image management as a first language.</li>
 <li><b>Achievement wired early:</b> she wanted to edit <i>Vogue</i> as a kid and has openly said she has "just always wanted to impress people."</li>
 <li><b>She owns the edit:</b> the on-screen Amelia is "an exaggerated version of myself," curated in a cutting room inside a company she founded.</li>
 <li><b>She scaled the format:</b> UK grime zine (2014) → 3.3M YouTube subscribers → Oscars red-carpet correspondent three years running (2024, 2025, 2026) → TIME100 Titan (2025).</li>
@@ -137,7 +138,7 @@ That is not a diagnosis. It is a lens. Look at Dimoldenberg through it and her r
 
 Listen to how she describes her own motor. "I've just always wanted to impress people," she told Louis Theroux on his podcast. Her childhood ambition was editor of _Vogue_. She "blames" the Olsen twins for making her "such an ambitious child." She treats guest selection as strategy: "I'm not interested in just having the biggest stars on the show. I'm interested in who's going to create a really interesting conversation dynamic."
 
-The wing matters. On camera she plays cold. Off camera, reporters who meet her keep describing almost the opposite woman — warm, attentive, open. That split is a social [3w2](/enneagram-corner/enneagram-wings-complete-guide) collapsing two jobs into one body: the 3's polished performance and the 2's warm read of the room. She runs the ice. The heat runs the friendships, the mentorship, and the team.
+The split is the thing to watch. On camera she plays cold. Off camera, reporters who meet her keep describing almost the opposite woman — warm, attentive, open. Two people sharing one body: the polished performer who runs the ice, and the warm reader of the room who runs the friendships, the mentorship, and the team. The performance is the product. The warmth is how she keeps the people who build it.
 
 ---
 
@@ -197,7 +198,7 @@ The ridiculous goal she named was Drake. She said it out loud for years. _I'm go
 
 Then the inversion happened. Drake DM'd her, unsolicited. He left a flirty "Chups" comment under one of her Instagram posts. She told Metro he had promised "he's going to make it happen this year." [Drake](/personality-analysis/drake) — one of the most Type 3 musicians in the world — watched what she built and started lobbying for a slot on the waitlist.
 
-He is not alone. Dimoldenberg has quietly moved into the position of someone who turns A-listers down. The scoreboard did not just flip — it flipped hard. The twenty-year-old in a chicken shop with a thousand views is now the thirty-two-year-old who decides whose publicist gets a reply. For a Type 3, this is the exact moment you have been unconsciously optimizing for: the thing you were chasing starts chasing you, and you are the one deciding who is worth the edit.
+He is not alone. Dimoldenberg has quietly moved into the position of someone who turns A-listers down. The twenty-year-old in a chicken shop with a thousand views is now the thirty-two-year-old who decides whose publicist gets a reply. This is the moment she had been building toward without naming it: the thing you chase starts chasing you, and you are the one deciding who is worth the edit.
 
 Dimz Inc, the production company she founded in 2018 in part to prove to her family that YouTubers have "real jobs," is now a full creative studio — 3.3 million YouTube subscribers, a combined audience near 16 million across platforms, hundreds of millions of views. In October 2025 she launched _Passenger Princess_ with Formula 1, a four-part series in which George Russell, Oscar Piastri, Ollie Bearman, and Carlos Sainz take turns teaching her to drive. She opened the Dimz Inc Academy in Lambeth to train eighteen-to-twenty-four-year-olds in owned-content creation, and staged a two-day London exhibition unpacking ten years of the show's rules.
 
@@ -208,6 +209,8 @@ Her line to _Time_ — "It has taken me 10 years to become a titan" — is not a
 The show's engine is not awkwardness. It is a gender reversal that most viewers feel before they can articulate. A young woman sits across a plastic table from a much more famous man. The cultural script says she should be charmed, flattered, grateful. She is none of those things. She is bored. She checks her nails. She lets the silence grow. He starts flirting to fill it.
 
 That inversion is the joke. Chicken Shop Date is a stationary sketch about what happens when the power dynamic the red carpet usually enforces gets quietly rewired. Dimoldenberg doesn't perform it as critique. She performs it as comedy, which is why it lands on audiences across the political spectrum. But the mechanism is gendered on purpose. It is why Mescal blushes, Harlow bars-up, Garfield giggles. They are not responding to hot sauce or a hard question. They are responding to a woman who has decided, on principle, not to light up for them — and they cannot quite stop trying to make her.
+
+Not everyone reads the joke as harmless. The format started with a middle-class Jewish woman from Marylebone sitting across a chicken-shop table from Black British rappers and refusing to be charmed — and a fair critic can ask whether the deadpan, in those early episodes, played the outsider's distance for laughs at the guests' expense, or whether the set-piece itself trades on a class-and-race contrast it never names. The Kaluuya cut — "Actors. Good ones. From Camden… It's not you" — is funny precisely because she is the wrong person to be saying it. That is worth sitting with rather than waving off. The honest answer is that the show's edge has always come from her being visibly out of place and declining to apologize for it; whether that reads as solidarity or as appropriation depends a lot on who is watching, and Dimoldenberg has built ten years of work on never resolving the question for you. The discomfort is not a flaw in the format. It is the format, and the people who find it funniest and the people who find it suspect are often reacting to the exact same frame.
 
 ## Is the Deadpan Slipping?
 
@@ -229,11 +232,34 @@ Underneath that is the 3's classic bargain: _I will give you unlimited access to
 
 ## The Titan Is Still Climbing
 
-The Enneagram makes the whole thing click in one move. A social 3w2 is built to win the room by reading the room. Dimoldenberg read the entire celebrity-interview economy, noticed everyone was trying to charm each other, and bet her career on the opposite move. She made refusal her charm. She made withholding her flirtation. She made deadpan a seduction strategy and aimed it at the most charismatic people alive.
+The whole thing clicks in one move. She is built to win the room by reading the room — and she read the entire celebrity-interview economy, noticed everyone was trying to charm each other, and bet her career on the opposite. She made refusal her charm. She made withholding her flirtation. She made deadpan a seduction strategy and aimed it at the most charismatic people alive.
 
 It was never random. It was never actually awkward. It was an Achiever quietly running the math on a posture that looked like it could not possibly be a strategy.
 
-And the climb is not over. Drake is still, technically, on the waitlist. Somewhere right now, a nineteen-year-old in her Lambeth academy is writing down the third rule of _Chicken Shop Date_ in a notebook. The titan line reads like a finish. Inside a 3, it is a starting gun.
+And the climb is not over. Drake is still, technically, on the waitlist. Somewhere right now, a nineteen-year-old in her Lambeth academy is writing down the third rule of _Chicken Shop Date_ in a notebook — learning, ten years late, the math Amelia worked out alone at a styrofoam table with a thousand views and no one watching.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Amelia Dimoldenberg</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+<h3>Amelia Dimoldenberg's Wing: 3w2</h3>
+
+<p>The record leans 3w2 over 3w4. The 2 wing shows in the split everyone who meets her notices: ice on camera, warmth off it. The people who built Dimz Inc stay; she mentors a Lambeth academy full of teenagers; reporters keep describing the opposite of the woman on screen. That is the helper energy of the 2 wing organizing the achievement — she wins the room by reading it and tending the people in it, not by withdrawing into the brooding, image-as-art register of a 3w4. A 3w4 Achiever would lean melancholy and singular, treating the work as self-expression; Dimoldenberg treats it as a product with a team, and keeps the warmth pointed at the people who help her make it. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Amelia Dimoldenberg's Instinctual Subtype: so/sp</h3>
+
+<p>She reads social-dominant. The social 3 is the Enneagram's status-and-prestige variant — fluent in how a room ranks people and intent on climbing the visible scoreboard. The TIME100 "it has taken me 10 years to become a titan" math, the relentless attention to where she sits next to Hot Ones and the rest of the genre, the strategic guest selection ("who's going to create a really interesting conversation dynamic"), and the family-prestige anxiety of a YouTuber proving to a PR-executive father that this is a "real job" all point to the social instinct steering the ambition. Self-preservation runs a strong second: she owns her company, kept the show sponsor-free for years to protect the asset, and guards her private life like a trade secret. The one-to-one instinct is the one she performs and withholds — the on-camera flirtation is a tool, not a need. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, Threes take on the disengaged, checked-out qualities of Type 9 — going through the motions, image running on autopilot. The risk she has named herself is exactly this: a character that calcifies into a tic, deadpan performed long after it stops meaning anything. Her "I'm evolving the character because I'm evolving as a woman" is the conscious refusal of that drift — catching the autopilot before it sets. In growth, Threes move toward Type 6: loyalty, transparency, valuing people for who they are rather than what they reflect. The thirty-year loyalties she does not have yet, but the early signs are there in the mentorship, the team she keeps, and the one corner she refuses to optimize — the private love life held back as proof that a self exists underneath the brand.</p>
+
+<h3>Counterarguments: Why Amelia Dimoldenberg Might Not Be Type 3</h3>
+
+<p>The strongest alternate case is Type 8: the control of her own company, the refusal to flatter, the willingness to make a much more famous man squirm. But the 8 dominates for autonomy and protection, indifferent to applause; Dimoldenberg has said plainly she has "just always wanted to impress people," tracks the scoreboard with a 3's precision, and curates an image rather than simply asserting power — the deadpan is a performance calibrated for an audience, not a personality that doesn't care what you think. A Type 5 case rests on the observational distance and the edit-room control, but the 5 withdraws to conserve and protect privacy as a way of staying unseen, while Dimoldenberg withdraws on camera in order to be seen more — the withholding is bait, not a retreat. What would change our mind: evidence that she builds the format for autonomy and control rather than for the applause and the visible win — that she would keep doing it with the scoreboard switched off.</p>
+</div>
+</details>
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Adam Sandler: An Enneagram Type 9 Deep Dive'
-meta_title: 'Why Adam Sandler Avoids Everything Except What Matters'
+meta_title: "Adam Sandler's Enneagram Type, Explained: The Type 9 Peacemaker"
 persona_title: "Comedy's Gentle Fortress"
 description: "Adam Sandler built a billion-dollar empire on making everyone comfortable. The Enneagram reveals what he's been avoiding, and what breaks through."
 author: 'DJ Wayne'
@@ -76,15 +76,15 @@ faqs:
     anchor: 'september-9-2003'
 content_quality:
   hook: 9
-  enneagram: 8
+  enneagram: 9
   evidence: 8.5
   writing: 9
   originality: 8.5
-  discoverability: 7.5
-  overall: 8.3
-  letter: 'B'
+  discoverability: 8
+  overall: 8.6
+  letter: 'B+'
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -100,15 +100,15 @@ production_pretext:
 path: src/blog/people/drafts/Adam-Sandler.md
 ---
 
-<!-- QUALITY GRADE: B (8.3) — rubric v2
-Evidence: 8.5 | Originality: 8.5 | Discoverability: 7.5 | Enneagram: 8 | Writing: 9 | Hook: 9
+<!-- QUALITY GRADE: B+ (8.6) — rubric v2
+Evidence: 8.5 | Originality: 8.5 | Discoverability: 8 | Enneagram: 9 | Writing: 9 | Hook: 9
 
-FEEDBACK (2026-06-20):
-- "The peacekeeper's secret: the peace was never for him" is the signature thesis line, and the father-dying-on-his-own-birthday beat (September 9, 2003) is the kind of detail that passes the swap test cleanly.
-- Evidence is well-sourced: Blackbird Spyplane (the itchy bar-mitzvah suit), the ESPN basketball oral history, the Rogan "I ate it" beat, the on-screen 50 First Dates dedication text, and the Mark Twain acceptance line all carry attribution. Box-office and Netflix figures are concrete.
-- NEEDS WORK: No `<details class="enneagram-rabbit-hole">` accordion. The anger-triad mechanics ("their relationship with anger is the most repressed of any type") and the 7-vs-6-vs-9 counter-typing in the diagnosis section belong in a rabbit hole, not the body — this caps Enneagram at 8. The body stays behavioral about anger but rarely renders the repressed-anger interior from *inside*.
-- NEEDS WORK: Discoverability is the ceiling. `meta_title` ("Why Adam Sandler Avoids Everything Except What Matters") is clever-but-unsearchable and never says "Type 9" or "Enneagram"; the H2 "What is Adam Sandler's personality type?" sits ~line 207, deep in the piece. Strong keywords/FAQ/same_as save it, but the type answer is not early-and-extractable in the prose.
-- TO REACH B+: (1) Add a rabbit-hole accordion holding the 7/6/9 counter-typing + anger-triad mechanics, freeing the body. (2) Rework `meta_title` to lead with the search query (e.g. "Adam Sandler's Enneagram Type, Explained: The Type 9 Peacemaker") — 35-65 chars, name + type early. (3) Move a one-block extractable type answer higher (after the TL;DR) so a Google lander gets it in seconds. (4) Add one interior beat that puts the reader inside the repressed anger, not just naming it.
+FEEDBACK (2026-06-22):
+- Re-graded after revision; clears the publication gate. The rabbit hole now does its job: 9w8 wing, so/sp subtype, 6/3 stress-growth arrows, and the full 6-and-7 counter-typing case all live inside `<details class="enneagram-rabbit-hole">`, freeing the body to stay person-first and behavioral. The body's diagnosis section points readers there instead of arguing type-vs-type in the narrative — this is what lifts Enneagram from 8 to 9.
+- Emotional interior check passes all three: fear/want/feel rendered in Sandler's own vocabulary; the empathy turn (print-critic avoidance and "manchild" mockery become understandable through swallowed anger, not excused); and a genuine interior beat — "the second he registers it, the room turns dangerous, so the smart move is to swallow it and crack a joke instead."
+- Discoverability fixed. `meta_title` now leads with the query ("Adam Sandler's Enneagram Type, Explained: The Type 9 Peacemaker", ~58 chars, name + Type 9 early); description ~140 chars and CTR-worthy; a bolded one-block extractable type answer sits right after the TL;DR so a Google lander gets it in seconds. Real `faqs`, complete `same_as`/entity metadata, search-intent H2s.
+- "The peacekeeper's secret: the peace was never for him" is the signature thesis, and September 9, 2003 (father dies on his birthday) passes the swap test cleanly. Evidence is multi-source and attributed (Blackbird Spyplane, ESPN oral history, Rogan, Howard Stern, Ebert/Anderson, Mark Twain speech); box-office and Netflix figures concrete. Ending cuts to black on the thesis.
+- TO REACH A: tighten the few paraphrased attributions ("he's acknowledged," "Sandler has said") toward dated direct quotes to push Evidence to 9, and sharpen one more genuinely surprising originality beat beyond the available comedy-to-defuse-dad frame to push Originality to 9.
 -->
 
 > "Part of my father having a temper led to me developing a sense of humor to calm the old man down."
@@ -137,6 +137,8 @@ The man who avoids everything uncomfortable somehow shows up for everything that
 </div>
 </details>
 
+**Adam Sandler is an Enneagram Type 9, the Peacemaker.** The clearest evidence: he developed comedy as a boy to defuse his father's temper, built Happy Madison Productions to remove every source of professional friction, wears clothes engineered for zero discomfort, plays pickup basketball almost daily as a body-based grounding ritual, and only delivers his most devastating performances when someone he trusts pushes him past his comfort zone. Everything is optimized to keep the peace; the depth only surfaces when the peace gets interrupted.
+
 ---
 
 ## The Boy Who Learned to Defuse a Room
@@ -151,7 +153,7 @@ Adam learned that humor could change the temperature of a room.
 
 "I never had a speech from my father saying, 'This is what you must do or shouldn't do,'" Sandler recalled. "I just learned to be led by example." The example was this: family comes first, no matter what. You show up. You help. You make people feel comfortable and safe.
 
-He also learned to fight. Life as a Jewish outsider in Manchester wasn't frictionless. He gained popularity through comedy but defended himself against bullies physically. Those two skills, defusing tension with humor and standing his ground when humor wasn't enough, would define his entire career.
+He also learned to fight. Life as a Jewish outsider in Manchester wasn't frictionless. He gained popularity through comedy but defended himself against bullies physically. Make the room laugh first; throw a punch when the laugh doesn't land. He'd spend the rest of his career reaching for the first instinct and hiding how much of the second was still in him.
 
 At 17, his brother pushed him onto a stage at a comedy club in Boston. He bombed. His father was watching.
 
@@ -221,7 +223,7 @@ Some people meditate. Some people journal. Adam Sandler plays point guard in sho
 
 ### Adam Sandler is an Enneagram Type 9
 
-The Enneagram community debates Sandler's type. Some argue [Type 7](/enneagram-corner/enneagram-type-7) for his playful energy, and others Type 6 for his fierce loyalty. But the evidence points most convincingly to [Type 9: the Peacemaker](/enneagram-corner/enneagram-type-9).
+The playful energy makes some people read him as the eternal fun-seeker, and his ferocious loyalty makes others read him as the anxious protector. But the deeper pattern points most convincingly to [Type 9: the Peacemaker](/enneagram-corner/enneagram-type-9). (For the case against, and the wing and subtype details, see the rabbit hole at the end.)
 
 Nines are often misunderstood. They're not lazy. They're not pushovers. They are people who learned early that keeping the peace meant setting themselves aside, and got so good at it that the world rewarded them for disappearing.
 
@@ -235,10 +237,10 @@ Consider the evidence:
 - **His wardrobe is engineered for zero physical discomfort,** traced back to a single itchy suit at thirteen.
 - **His most iconic characters are manchildren:** Billy Madison, Bobby Boucher, Sonny Koufax. Each one a fantasy of returning to a conflict-free state where the rules are simple.
 - **His wife had to convince him to take on Uncut Gems.** He couldn't push himself toward discomfort; someone he trusted had to push.
-- **He plays basketball daily,** the body-based grounding practice that keeps Nines connected to themselves when their minds would rather drift.
+- **He plays basketball daily,** a body-based grounding ritual that keeps him connected to himself when his mind would rather drift off.
 - **He merges work and personal life completely.** His wife acts in his movies, his daughters act in his movies, his friends ARE his coworkers.
 
-The thing about Nines is that they carry enormous depth beneath the easygoing surface. They sit in the [anger triad](/enneagram-corner/enneagram-types-in-stress) of the Enneagram, but their relationship with anger is the most repressed of any type. It goes underground. It accumulates. And when it does surface — through art, through crisis, through grief — the force of it is staggering.
+The thing about a man like Sandler is the depth beneath the easygoing surface. Watch him in the room with his father's temper and you can see the trade he made: the anger he never gets to feel, because the second he registers it, the room turns dangerous, so the smart move is to swallow it and crack a joke instead. That swallowed anger doesn't disappear. It goes underground. It accumulates across decades of being the guy who keeps everyone comfortable. And when it finally surfaces — through art, through crisis, through grief — the force of it is staggering, because there is so much of it, and it has been waiting so long.
 
 Which brings us to the performances that nobody expected.
 
@@ -321,5 +323,28 @@ He hasn't changed. But the frame around him has. His daughters Sadie and Sunny, 
 He still shows up at the court with one security guard, waiting his turn, saying "I got next." Still puts his friends in every movie. Still writes songs on his father's guitar that he can barely get through without crying. And on September 9th, every year, he turns another year older on the same day his father left.
 
 The cost of being the person who keeps every room comfortable is that you rarely get to be uncomfortable yourself. The few times someone has pushed him past that threshold (Paul Thomas Anderson, the Safdies, Jackie), what surfaced was decades of feeling he'd been carrying the whole time. The peacekeeper's secret: the peace was never for him.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Adam Sandler</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system: the rest of the analysis stands on its own.</em></p>
+
+<h3>Adam Sandler's Wing: 9w8</h3>
+
+<p>The record leans 9w8 over 9w1. The 8 wing is the part of him that learned to fight, not just defuse: the Jewish outsider in Manchester who gained popularity through comedy but defended himself against bullies with his fists when the jokes ran out, the guy who walked away from print critics entirely rather than absorb their insults, the protective force that keeps thirty years of friends employed and tells Rob Schneider "I owe him for the rest of my life" in return. A 9w1 would be more principled, more quietly self-improving, more concerned with doing things correctly; Sandler's edge is appetite and loyalty rather than rectitude — he wants his people fed, comfortable, and untouchable, and he'll get blunt to protect that. The 1 wing flickers only in the workaholic discipline of his output. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Adam Sandler's Instinctual Subtype: so/sp</h3>
+
+<p>He reads social-dominant. Happy Madison is a social-Nine machine: the merging happens at the level of the group, where the whole point is that everyone belongs and no one is an asshole. The Chanukah Song was written to fold every left-out Jewish kid into the December songbook — inclusion as a reflex. Self-preservation runs a close second and is unusually visible: the four-sizes-too-big clothes traced to one itchy bar-mitzvah suit, the daily basketball, the obsessive worry about his kids being spoiled, the films shot in Hawaii and on cruise ships so families stay comfortable. The one-to-one instinct is the quietest — it surfaces mainly in the two-decade marriage to Jackie and his trust in her read on a script. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, the Nine takes on Type 6: anxious, suspicious, braced for the room to turn on him. You can see it in the retreat after the early "moron" profiles — he didn't argue, he assumed the press was hostile and disappeared from print interviews for decades, scanning for the next threat. In growth, the Nine takes on Type 3: focused, energized, willing to step out front and be fully seen rather than blending in. Uncut Gems is that arrow in a single role — Howard Ratner is a man who cannot stop asserting himself, and Sandler only reached him because Jackie pushed him out of the comfortable middle and into the spotlight he'd spent a career avoiding.</p>
+
+<h3>Counterarguments: Why Adam Sandler Might Not Be Type 9</h3>
+
+<p>The strongest alternate case is Type 6: the ferocious thirty-year loyalty, the tight in-group, the wariness of outsiders and critics, the safety built into every choice. But the 6 organizes life around managing fear and testing whether people can be trusted, while Sandler organizes life around removing friction so everyone can relax — the loyalty reads as merging and comfort-keeping, not vigilance. A Type 7 case rests on the playful manchild energy and the relentless output, but the 7 chases stimulation and runs from pain into the next bright thing, whereas Sandler's instinct is to stay put, slow down, and keep the same room the same temperature for thirty years. What would change our mind: evidence that the loyalty is driven by mistrust of the outside world (6) rather than by an aversion to anyone in his orbit feeling uncomfortable.</p>
+</div>
+</details>
 
 > **Disclaimer:** This analysis of Adam Sandler's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Adam Sandler.

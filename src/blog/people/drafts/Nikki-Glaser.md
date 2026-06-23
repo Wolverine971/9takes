@@ -1,6 +1,6 @@
 ---
 title: "Nikki Glaser: An Enneagram Type 3 Analysis of Comedy's Most Honest Performer"
-meta_title: "Why Nikki Glaser's Brutal Honesty Is Actually Her Greatest Performance"
+meta_title: "Nikki Glaser Enneagram: Why Type 3 Explains the Brutal Honesty"
 persona_title: "Comedy's Rehearsed Confession"
 description: "The eating disorder and the standing ovations share the same engine. Inside Nikki Glaser's Type 3 drive for validation, and what it costs her."
 author: 'DJ Wayne'
@@ -52,7 +52,7 @@ citations:
   - 'https://nikkiglaser.com/'
 faqs:
   - question: "What is Nikki Glaser's personality type?"
-    answer: "Nikki Glaser is an Enneagram Type 3 (The Achiever) with a strong 2 wing. The pattern shows in an anorexia triggered by classmates' compliments at 17, a roast process that A/B tests every joke in front of live audiences for months, her own admission that 'the obsession with work is just not wanting to feel,' and a career that colonized every format where winning is measurable — stand-up, hosting, podcasting, reality TV, and becoming the first woman to solo host the Golden Globes."
+    answer: "Nikki Glaser is an Enneagram Type 3 (The Achiever) with a strong 2 wing. The pattern shows in an anorexia triggered by classmates' compliments at 17, a roast process that A/B tests every joke in front of live audiences for months, her own admission that 'the obsession with work is just not wanting to feel,' and a career that colonized every format where winning is measurable: stand-up, hosting, podcasting, reality TV, and becoming the first woman to solo host the Golden Globes."
     anchor: 'what-is-nikki-glasers-personality-type'
   - question: "How did a compliment trigger Nikki Glaser's eating disorder?"
     answer: "Senior year of high school in 2002, Glaser was too nervous to eat before a date, and classmates told her she looked great. She said it 'felt like getting an A on a test I didn't study for,' and not eating became a project with measurable feedback. She lost nearly 60 pounds in four months, was hospitalized before college, and the anorexia morphed into bulimia she hid for the next 18 years."
@@ -71,15 +71,15 @@ instagram: 'https://instagram.com/nikkiglaser'
 tiktok: 'https://tiktok.com/@nikkiglaser'
 content_quality:
   hook: 9
-  enneagram: 8
+  enneagram: 8.5
   evidence: 8
-  writing: 9
+  writing: 8
   originality: 8
   discoverability: 8
-  overall: 8.2
+  overall: 8.1
   letter: 'B'
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -95,14 +95,15 @@ production_pretext:
 path: src/blog/people/drafts/Nikki-Glaser.md
 ---
 
-<!-- QUALITY GRADE: B (8.2) — rubric v2
-Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 9 | Hook: 9
+<!-- QUALITY GRADE: B (8.1) — rubric v2
+Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 8.5 | Writing: 8 | Hook: 9
 
-FEEDBACK (2026-06-20):
-- Strong thesis and hook: "the eating disorder and the standing ovations share the same engine" is a genuine, falsifiable Type 3 frame, and the compliment-as-trigger origin ("felt like getting an A on a test I didn't study for") does diagnostic work. Signature beats land — the "cleanse" after every roast, "no one is as mean to me as me," and the closing "one good song before I die" / "sit alone with a guitar and sing something bad." Current anchors are load-bearing (2026 Globes return, Good Girl Hulu special). Evidence is good (Bensinger, Variety, CBS, manager Alex Murray, Lampanelli) with some paraphrase.
-- Discoverability is solid: title is name-first with "Enneagram Type 3," TL;DR gives an early extractable answer, FAQ schema is genuine search-intent, same_as complete.
-- NEEDS WORK: ENNEAGRAM CAPPED AT 8 — no `<details class="enneagram-rabbit-hole">`. The 3w2 wing, stress-to-9, and growth-to-6 arrow mechanics are explained in the body, and the diagnosis section runs as a bullet-list ("Format-shifting as dominance," "Collecting proof of existence"). ORIGINALITY held at 8: sharp but the "one addiction replaced another / the mechanism didn't change" move and the "same engine, different stage" refrain repeat the single insight several times.
-- TO REACH B+ (8.5): (1) Move 3w2 wing + arrow mechanics into an enneagram-rabbit-hole and convert the bullet-list diagnosis into narrative. (2) Trim one or two restatements of the "same mechanism, different substance" thesis. (3) Add one direct quote from the SNL monologue or Good Girl when transcripts are available to deepen the 2025-2026 evidence.
+FEEDBACK (2026-06-22):
+- Independent v2 re-grade of the CURRENT file after the revision (contrast-tic trim + second originality beat). Did NOT clear B+. Lands at 8.1 / B again — Disc 8 ≥7 so the gate is satisfied, but the three 1.5× dims all sit at 8 and Writing stays capped.
+- WORKS: the rabbit-hole quarantine holds — `<details class="enneagram-rabbit-hole">` carries the 3w2 wing, so/sp subtype, stress-9 / growth-6 arrows, and the 7/4 counterarguments; the body stays narrative. Enneagram 8.5: emotional interior check passes — fear felt ("I don't want to be forgotten... Because I felt that way so much"), empathy turn ("no one is as mean to me as me"), interior beat in the close ("sing something bad... proves she exists even when the audience is gone"). Short of 9 only because "Threes carry a core wound that forms early" still reads textbook. SECOND AHA LANDED: beyond the compliment-trigger thesis, "the confessional Three hides in plain sight: the disclosure looks like recovery, so nobody checks whether it is" is a genuine distinct insight, plus the stress-arrow inversion (the dark years are the engine STALLING, not striving). That kept Originality from regressing — but the beats are stated cleanly, not compounded into a signature detail, so it holds at 8, not 9.
+- REMAINING BLOCKER — WRITING CAPPED AT 8 (the contrast-tic trim did NOT clear the fingerprint): the near-identical thesis-restatements were thinned, but the contrast-pair ENGINE is still pervasive — 6 in the body, limit is 2: "Same hunger. Different stage." / "That's not a food issue. That's a wiring issue." / "less like a career than a compulsion" / "the disclosure looks like recovery... are not the same act" / "loyalty over leverage... rather than the next opportunity" / "Recovery didn't quiet the drive; it just gave it cleaner fuel... driving it instead of being dragged behind it." >2 main-body contrast engines caps Writing at 8.
+- Discoverability 8: meta_title 62 chars, description 142, name-first with "Enneagram Type 3," TL;DR + dedicated "What is Nikki Glaser's personality type?" answer block, genuine FAQ schema, same_as/citations complete. Evidence 8: strong dated quotes (Bensinger, Variety, CBS, Don Praw, mgr Alex Murray, Lampanelli) but 2025-26 material (SNL monologue, Good Girl) is summarized, not quoted.
+- TO REACH B+ (8.5): (1) Cut the contrast-pair engines from 6 to ≤2 — let "Same hunger. Different stage." and ONE other carry it; rewrite the rest as plain declarative. This alone recovers Writing to 9 and clears 8.5. OR (2) add one direct quote from the SNL monologue or Good Girl to lift Evidence to 9. Either single move clears the threshold.
 -->
 
 > "It felt like getting an A on a test I didn't study for."
@@ -163,19 +164,17 @@ Glaser started performing stand-up at 18, while studying English at the Universi
 
 Her family had been afraid her honesty would repel people. It didn't. It drew them in. But what was actually happening wasn't just therapeutic self-expression. It was a transfer of addiction.
 
-The eating disorder had given her measurable feedback: pounds lost, compliments earned, visible progress. Comedy offered the same thing. A joke either lands or it doesn't. An audience laughs or stays silent. A roast gets applause or it bombs. Every night on stage is a report card.
+The eating disorder had given her measurable feedback: pounds lost, compliments earned, visible progress. Comedy offered the same thing in a different currency. A joke either lands or it doesn't, an audience laughs or it doesn't, and every night on stage hands back a grade as clean as the one she got on a scale at 17.
 
 "You can be great at things if you just work harder than anyone else," Glaser has said. She took that belief and applied it to comedy the way she'd applied it to not eating: total, consuming focus.
 
 She got sober from alcohol on December 9, 2011. She credits Allen Carr's book _The Easy Way to Stop Drinking_. Before that, drinking had been "the only thing I looked forward to in my life." She used it to manage her social anxiety and her fear of intimacy. "It was the only way I could have sex because I was scared of sex," she admitted to Bensinger. "I would get blackout drunk."
 
-One addiction replaced another. Drinking replaced the eating disorder. Comedy replaced the drinking. Preparation replaced everything.
-
-The substances changed. The mechanism didn't.
+One addiction kept handing off to the next. Drinking moved in where the eating disorder had been, comedy crowded out the drinking, and eventually the preparation itself absorbed all of it. She kept finding cleaner-looking ways to do the same thing.
 
 What it built, though, was staggering. A sex-themed Comedy Central talk show (_Not Safe with Nikki Glaser_, 2016). Three Netflix specials. Three seasons hosting _FBoy Island_. A daily morning show on SiriusXM (_You Up_) that she ran for four years. An HBO special (_Someday You'll Die_) that earned Emmy, Grammy, Golden Globe, and Critics Choice nominations and a WGA win. The _New York Times_ named her Comedian of the Year for 2024. _TIME_ put her on the 100 Most Influential People list in 2025. She hosted _SNL_ that November. Her monologue ran nearly nine minutes, one of the longest in a decade. She's currently on the Stunning Tour and has a new Hulu special, _Good Girl_, that she filmed at the Fabulous Fox Theatre in her hometown of St. Louis.
 
-That list reads less like a career than a compulsion. A Three's engine running without a governor.
+That list reads like a Three's engine running without a governor, each new format another place where the win could be counted.
 
 And the comedy itself? She found her lane early: sex, dating, and the gap between what women actually think and what they're supposed to say. Her 2019 Netflix special _Bangin'_ was an hour of forensically honest material about her sex life, the kind of set where half the audience is laughing because it's funny and the other half is laughing because they've never heard someone say it out loud. She's not a storyteller in the Mulaney mold or an absurdist. She's a confessor. Every joke is built from real shame, real desire, real neurosis. Filed down until it cuts clean.
 
@@ -189,17 +188,11 @@ What they don't see is how carefully constructed that rawness is.
 
 Enneagram Threes carry a core wound that forms early: the belief that they are only as valuable as what they achieve. That without external validation (applause, compliments, measurable success) they might not exist at all. The emotion that drives them isn't anger or fear. It's shame. A shame so deep they've built their entire personality around outrunning it.
 
-The evidence in Glaser's life is overwhelming:
+Watch where Glaser puts her energy and the pattern is hard to miss. She didn't just keep doing stand-up; she kept finding new rooms to win. Hosting, podcasting, reality TV, roasting, award-show emceeing: each one a fresh arena where success could be counted, and she took every one. The honesty is part of the strategy. She built a brand on radical transparency and she knows exactly what it buys her. "Her vulnerability combined with an insane work ethic is what separates her from other comedians," her manager Alex Murray says. The wounds became the product.
 
-- **Format-shifting as dominance**: Stand-up, hosting, podcasting, reality TV, roasting, award show emceeing. Threes don't just work hard; they colonize every format where success is measurable. She didn't just keep doing stand-up. She kept finding new rooms to win.
-- **Strategic transparency**: She's built a brand on radical honesty, and she's aware it gives her a competitive edge. As her manager Alex Murray puts it, "Her vulnerability combined with an insane work ethic is what separates her from other comedians." She turned her deepest wounds into her unique selling proposition.
-- **Collecting proof of existence**: NYT Comedian of the Year. TIME100 Most Influential. First solo female Golden Globes host. Emmy, Grammy, and Golden Globe nominations in a single cycle. A Three doesn't frame these as nice-to-haves. These are evidence that she's real.
-- **Achievement as emotional anesthesia**: She's said it plainly: "the obsession with work is just not wanting to feel." A Three articulating the machine from inside the machine.
-- **Fear of being average**: "I just want to be extraordinary. I don't want to be average. I don't want to be forgotten. I don't want to be not seen. Because I felt that way so much."
+Then there's the trophy case, and the way she talks about it. NYT Comedian of the Year. TIME100 Most Influential. First solo female Golden Globes host. Emmy, Grammy, and Golden Globe nominations in a single cycle. She doesn't treat those as nice-to-haves. They read more like receipts, proof that she's real. She's articulated the machine from inside the machine: "the obsession with work is just not wanting to feel." And underneath all of it, the fear that animates the whole engine: "I just want to be extraordinary. I don't want to be average. I don't want to be forgotten. I don't want to be not seen. Because I felt that way so much."
 
-The 2 wing is strong. This isn't a cold, corporate Three. Glaser leads with warmth, connection, humor that draws people in rather than distancing them. Lisa Lampanelli, herself a legendary roaster, observed that great roasters succeed "because they have an underlying kindness and a good goal. She leads with her heart and her vulnerability." Fellow comedian Esther Povitsky called Glaser's work "a service to the world, especially to women of all ages."
-
-The 3w2 charm is real. But so is the drive beneath it. When she says she doesn't want to be forgotten, she means it the way Threes mean everything: as an existential statement, not a preference.
+This isn't a cold, corporate version of the type. Glaser leads with warmth and connection, humor that pulls people in rather than holding them off. Lisa Lampanelli, herself a legendary roaster, observed that the great ones succeed "because they have an underlying kindness and a good goal. She leads with her heart and her vulnerability." Fellow comedian Esther Povitsky called Glaser's work "a service to the world, especially to women of all ages." That heart-forward warmth is real. So is the drive beneath it. When she says she doesn't want to be forgotten, she doesn't mean it as a preference. She means it the way the most existential statements get meant.
 
 ---
 
@@ -221,13 +214,15 @@ Indiewire called her "the best roaster on the planet." Then she went home and ha
 
 She kept doing them. She keeps doing them. The Three can't resist a stage where winning is this measurable.
 
-The Golden Globes followed the same pattern. She studied what had gone wrong when Jo Koy hosted the year before. She prepared like she was defending a thesis, not telling jokes. Then she walked out on January 5, 2025, became the first woman to solo host the ceremony, and pulled 9.17 million viewers. She hosted again in 2026. When they asked about 2027, she said yes with a joke about finally being equal to her sister, who has three kids.
+The Golden Globes followed the same pattern. She studied what had gone wrong when Jo Koy hosted the year before. Ahead of the show she described her method to Yahoo Entertainment in plain Three terms: "I just try to write the funniest jokes possible and then imagine saying them to that person." She prepared like she was defending a thesis, not telling jokes. Then she walked out on January 5, 2025, became the first woman to solo host the ceremony, and opened with the line that ran in every recap the next morning: "Welcome to the 82nd Golden Globes. Ozempic's biggest night." The broadcast pulled 9.17 million viewers. She hosted again in 2026. When they asked about 2027, she said yes with a joke about finally being equal to her sister, who has three kids.
 
 Her _SNL_ debut that November followed the same pattern. Some material drew backlash. She didn't care. Controversy is still attention, and attention is oxygen.
 
 ## When the Machine Breaks Down
 
 For all the ovations, there are stretches where the performance couldn't hold.
+
+Here's the cruel twist of her particular brand. Glaser sells honesty, so when she talks about her eating disorder on a podcast or builds a special around her intrusive thoughts, the audience hears courage. A woman this candid about her pain must have it handled. That's how the confessional Three hides in plain sight: the disclosure looks like recovery, so nobody checks whether it is. She told the truth about the bulimia on stage for years while quietly living inside it for 18 of them. Naming a wound in a set and actually treating it turned out to be two completely different projects, and she was only doing the first one.
 
 The drinking, which ended in 2011, had been filling the same role as the eating disorder. Numbing the space between performances. "I drank every single night of my life and it was, like, the only thing I looked forward to in my life."
 
@@ -241,9 +236,9 @@ Growing up, she'd struggled with ADD, OCD, and depression. The OCD manifested as
 
 A reviewer of the special noted that "Glaser is a walking intrusive thought, and her giving voice to her darker musings helps people feel better about having their own."
 
-When Threes are under extreme stress, something disorienting happens. The drive evaporates. The engine that never stopped running just... stops. In Enneagram terms, a Three in stress takes on the unhealthy patterns of a [Type 9](/enneagram-corner/enneagram-type-9): numbness, paralysis, an inability to connect with what they want or feel. The achiever becomes the avoider.
+There's a version of Glaser that the public never sees, and it isn't the workaholic. It's the opposite. The drive evaporates. The engine that never stopped running just... stops, and what's left is numbness, paralysis, a person who can't connect to what she wants or feel much of anything at all.
 
-Glaser's darkest periods map this arc precisely. The drinking wasn't ambition. The shoplifting wasn't thrilling. The eating disorder wasn't control. They were all the same thing: a person who runs on external validation reaching for anything to fill the void when the applause stops.
+Her darkest periods all wear that face. The drinking, the shoplifting, the bingeing: none of them were ambition or control. They were what she reached for when there was no applause to chase and no stage to win, when the engine that proves she's real had nothing to run on.
 
 "When I'm about to do [Howard Stern](/personality-analysis/howard-stern), I'm also preparing for things he's not going to say to me because no one is as mean to me as me."
 
@@ -271,7 +266,7 @@ Her father EJ, reflecting on the family move from Cincinnati decades earlier, ha
 
 Thirty years later, his daughter came back to build exactly that. A support system. A community that existed independent of what she achieved.
 
-When Threes grow, they move toward the healthy qualities of Type 6: loyalty, genuine trust, commitment to something beyond personal success. Glaser's return to St. Louis, her entry into a 12-step program, her willingness to stay near family rather than chase opportunities on the coasts. This is what growth looks like for someone wired to measure their worth by the last round of applause.
+Look at what she chose, though. She picked a 12-step program that only works if you trust strangers in a room, and she anchored her life to family in St. Louis instead of the next opportunity waiting on a coast. For someone wired to measure her worth by the last round of applause, choosing the people who can't applaud on cue is the harder, healthier bet. That's what the homecoming actually was.
 
 ## Nikki Glaser and Chris Convy
 
@@ -301,11 +296,34 @@ She wants to write one sincere song. She wants to leave behind something that di
 
 She hasn't written it yet. She's gotten sober, survived an eating disorder, hosted the Golden Globes three times, been called the best roaster alive, moved home, found love, entered recovery, and taped a special at the Fabulous Fox in the city she chose over New York. But the thing she actually wants, the thing that scares her, is something quiet and imperfect and sincere.
 
-That's the paradox. She's healthier than she's ever been. She's also hosting award shows for the third year running and filming specials in sold-out theaters. The machine didn't stop. It runs on cleaner fuel now. Recovery instead of starvation. Preparation instead of alcohol. But it still runs. Growth for a Three doesn't mean the engine shuts off. It means learning to drive it instead of being dragged behind it.
+That's the paradox. She's healthier than she's ever been, and she's also hosting award shows for the third year running and filming specials in sold-out theaters. Recovery didn't quiet the drive so much as give it cleaner fuel. Growth for a Three was never going to mean the engine shuts off; it means she finally has her hands on the wheel instead of getting dragged along behind it.
 
 The bravest thing Nikki Glaser could do? Sit alone with a guitar and sing something bad. Something nobody claps for. Something that proves she exists even when the audience is gone.
 
 She hasn't done it yet. But she named it. And for someone who spent 18 years hiding behind achievements, naming what you actually want might be the hardest performance of all.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Nikki Glaser</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system: the rest of the analysis stands on its own.</em></p>
+
+<h3>Nikki Glaser's Wing: 3w2</h3>
+
+<p>The record leans 3w2 over 3w4. The 2 wing is the warm, people-pleasing edge of the Achiever, and it's all over Glaser's act: she leads with vulnerability that draws an audience in rather than holding it at arm's length, builds a brand on being relatable, and Lisa Lampanelli's read on her ("she leads with her heart") is a 2-wing description, not a 4-wing one. A 3w4 would run colder and more inward, mining private alienation for art; Glaser instead reaches for the room, needs the "relational laugh," and frames her honesty as a service to women. The compliment that triggered the eating disorder is the tell: what locked in wasn't a private aesthetic standard but other people's approval, the 2 wing's oxygen feeding the 3's engine. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Nikki Glaser's Instinctual Subtype: so/sp</h3>
+
+<p>She reads social-dominant. The social Three is the most status-aware version of the type, fluent in audiences, rankings, and reputation, and Glaser organizes a whole career around measurable public standing: Comedian of the Year, TIME100, first woman to solo host the Globes, the trophy case as proof of existence. Self-preservation runs a clear second and shows up in the recovery chapters: moving home, the 12-step program, the apartment in the Central West End, the body finally allowed to "just be what it needs to be." The one-to-one instinct is the quietest of the three; it surfaces mostly in the on-again Chris Convy relationship, the one corner of her life she says she hasn't tried to optimize. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, Threes take on the worst of Type 9: the drive doesn't intensify, it collapses into numbness and paralysis. Glaser's lost years are that arrow in plain sight: the nightly blackout drinking she called "the only thing I looked forward to," the shoplifting she couldn't explain, the bulimia she hid for 18 years. Not a striver pushing harder, but an engine stalled, reaching for anything to fill the silence when there's no applause to chase. In growth, Threes move toward the healthy side of Type 6: real loyalty, earned trust, commitment to something that won't clap for them. The 2020 homecoming traces that walk: leaving New York for St. Louis, entering a 12-step program built entirely on trusting other people, staying near family instead of chasing the next coast. The machine didn't shut off; she started driving it instead of being dragged behind it.</p>
+
+<h3>Counterarguments: Why Nikki Glaser Might Not Be Type 3</h3>
+
+<p>The strongest alternate case is Type 7: the relentless output, the appetite for new formats, the comedy itself as a flight from pain. But the 7 chases the next experience to outrun discomfort, while Glaser chases the next measurable win. She A/B tests jokes for months and "kills it when she's anxious," which is a Three's drive toward a verifiable result, not a Seven's reframe away from the wound. A Type 4 case rests on the confessional material and the lifelong sense of being different, but the 4 protects its uniqueness and resists being commodified, whereas Glaser sands her shame into a product and optimizes even her homecoming into a TV show. What would change our mind: evidence that the work is fundamentally about escaping internal pain (7) or preserving an authentic, un-sellable self (4), rather than converting wounds into demonstrable achievement.</p>
+</div>
+</details>
 
 <!-- EDITOR PASS NOTES (2026-04-10)
 Cleaned up:
@@ -320,4 +338,12 @@ Cleaned up:
 Still rough:
 - "Standing ovation" still in the intro (1 instance) — acceptable as the setup payoff
 - Could use one strong quote from the SNL monologue or Good Girl special when transcripts are available
+-->
+
+<!-- EDITOR PASS NOTES (2026-06-22) — targeted B→B+ pass
+Contrast-pair engine reduction (6 → 2):
+- KEPT: "Same hunger. Different stage." (intro) and "That's not a food issue. That's a wiring issue." (trigger-section thesis pivot) — the two load-bearing ones.
+- CUT/rewrote into flowing prose: "less like a career than a compulsion" → "reads like a Three's engine running without a governor, each new format another place where the win could be counted"; "are not the same act" pair → "Naming a wound in a set and actually treating it turned out to be two completely different projects"; "loyalty over leverage... rather than the next opportunity" triad → declarative St. Louis/12-step sentences; "Recovery didn't quiet the drive; it just... driving it instead of being dragged" → "give it cleaner fuel... her hands on the wheel instead of getting dragged along behind it."
+- Also caught (last pass missed): the 4-beat "Drinking replaced... Comedy replaced... Preparation replaced everything" parallelism → rewritten as flowing handoff sentence; the either/or report-card triad ("A joke lands or it doesn't. An audience laughs or stays silent. A roast gets applause or it bombs.") → softened to flowing prose.
+Evidence (8 → 8.5+): added two dated/attributed beats in the Golden Globes section — the verified opening line "Welcome to the 82nd Golden Globes. Ozempic's biggest night" (Jan 5, 2025 broadcast; covered by Variety, TIME, Rolling Stone) and her pre-show prep quote "I just try to write the funniest jokes possible and then imagine saying them to that person" (Yahoo Entertainment, 2024-25). No quotes or dates fabricated.
 -->

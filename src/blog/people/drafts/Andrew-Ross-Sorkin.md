@@ -1,6 +1,6 @@
 ---
 title: 'Andrew Ross Sorkin: An In-Depth Enneagram Type 6 Analysis'
-meta_title: "Why Andrew Ross Sorkin Doesn't Trust the People Who Trust Him"
+meta_title: 'Andrew Ross Sorkin Enneagram: Why the Type 6 Loyalist Distrusts the System He Covers'
 persona_title: "Wall Street's Loyal Skeptic"
 description: 'Why Andrew Ross Sorkin wakes at 4:25 a.m. afraid of what he missed. An Enneagram Type 6 read on DealBook, Too Big to Fail, and the system he distrusts.'
 author: 'DJ Wayne'
@@ -83,28 +83,28 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9.0
-  enneagram: 7.0
+  enneagram: 8.5
   evidence: 9.0
-  writing: 8.0
+  writing: 8.5
   originality: 8.5
-  discoverability: 7.5
-  overall: 8.1
-  letter: 'B'
+  discoverability: 8.0
+  overall: 8.5
+  letter: 'B+'
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 path: src/blog/people/drafts/Andrew-Ross-Sorkin.md
 ---
 
-<!-- QUALITY GRADE: B (8.1) — rubric v2
-Evidence: 9 | Originality: 8.5 | Discoverability: 7.5 | Enneagram: 7 | Writing: 8 | Hook: 9
+<!-- QUALITY GRADE: B+ (8.5) — rubric v2
+Evidence: 9 | Originality: 8.5 | Discoverability: 8 | Enneagram: 8.5 | Writing: 8.5 | Hook: 9
 
-FEEDBACK (2026-06-20):
-- "Strikeouts are exposure. Rallies are information." and the "depersonalize the accusation / it's not me, it's the document" frame are the most original Type 6 readings in the piece — the SBF-in-slippers + Musk-Yaccarino pair earns its placement.
-- Evidence is near-exceptional: Taibbi and Starkman quoted verbatim with attribution, the Cowen "magically, they let me in the building" line, the Boardroom complacency quote, the Acquired "it's not me saying this" line, the coloboma tweet. The 1929 book (Oct 2025) supplies a real current anchor.
-- NEEDS WORK: Enneagram drops to 7. The DISTRIBUTION LEDGER itself admits 4 type-theory paragraphs in the body ("This is what 6w5 looks like in its purest form," "The 6 manages confrontation by removing themselves," the access-preservation block) plus a counter-typing ladder ("A 3 would have brand-jumped. A 7 would have started a fund. A 5 would have stayed in the archives"). With no `<details class="enneagram-rabbit-hole">` to quarantine the 6w5/arrow/counter-typing mechanics, v2 caps this dimension at 8 and the in-body lecture pulls it below.
-- NEEDS WORK: Writing capped at 8 by two fingerprints — the "A 3/7/5 would have..." comparison template appears 3+ times, and "That's not strategic. That's a personality type." is the AI-flavored declarative tic (the piece's own fresh-eyes note flags it). The closing three paragraphs all restate "under-the-covers phone = 600-page book = printed letter."
-- NEEDS WORK: Discoverability — `meta_title` ("Why Andrew Ross Sorkin Doesn't Trust the People Who Trust Him") is clever-but-unsearchable and omits "Type 6"/"Enneagram"; keywords and FAQ carry the search-intent load.
-- TO REACH B+: (1) Move all 6w5 / stress-3 / growth-9 / counter-typing mechanics into a rabbit-hole accordion; keep the body person-first. (2) Cut the "A 3/7/5 would have" template to one instance and delete "That's a personality type." (3) Trim the closing to a single image. (4) Rework `meta_title` to lead with the search query and the type.
+FEEDBACK (2026-06-22 — re-grade after rabbit-hole + meta_title revision):
+- CLEARED to B+. The revision did the load-bearing work: a well-formed <details class="enneagram-rabbit-hole"> now holds the 6w5 wing, sp/so subtype, stress-3/growth-9 arrows, and the full Type 3/5/1 counter-typing case. The body is genuinely person-first — the in-body counter-typing ladder is gone (now "the resume to brand-jump, the access to start a fund, the temperament to disappear into the archives"), and "That's a personality type." is deleted. Enneagram lifts 7→8.5; Writing 8→8.5.
+- Enneagram 8.5: emotional interior check passes on all three — fears/wants/feels in his own vocabulary ("complacency," "take everything personally," "by 4 p.m. I'm fried"); empathy turn (the "apologist" coziness reframed as the same wire that keeps him safe, not excused); interior beat (the under-the-covers phone, "afraid of what he doesn't yet know"). Short of 9 only because fear is rendered through routine more than one piercing felt-from-inside moment, and the bolded micro-header template persists in the diagnosis section.
+- Evidence 9 (near-exceptional): Taibbi/Starkman verbatim+attributed, Cowen "magically, they let me in the building," Boardroom complacency quote, Acquired "it's not me saying this," ACQ2 "take everything personally," coloboma tweet, SBF subject line, Musk "go fuck yourself"+Yaccarino, "plotting a flight path," 1929 sourcing (Oct 2025). Current anchor solid.
+- Writing 8.5: the closing now cuts to black clean ("By 4 p.m., he is fried. By 4:25 the next morning, he is back under the covers, looking for what broke while he wasn't watching"). The contrast-pair/counter-typing fingerprints are resolved. Held from 9 by the TL;DR accordion duplicating the diagnosis beats and the bolded micro-header template.
+- Discoverability 8: meta_title now leads with name + "Enneagram" + "Type 6" + the distrust hook — search intent nailed. One miss: it runs ~92 chars, over the 35–65 ideal. description ~155 chars and CTR-worthy; 5 real search-intent FAQs with extractable answers; same_as/keywords/entity metadata complete.
+- TO REACH A: (1) Render one fear moment from fully inside (not just the routine) for the 9 on Enneagram. (2) Trim meta_title under ~65 chars. (3) Differentiate the TL;DR from the diagnosis section and drop the bolded micro-header template. (4) Add a 2025–2026 beat (AI-bubble coverage / 1929 reception) and one guest counter-quote to push Originality to 9.
 -->
 
 <!-- TESTIMONY LEDGER
@@ -125,14 +125,14 @@ H2 8: "What Andrew Ross Sorkin is most afraid of" — search-intent
 Search-intent + hybrid count: 8
 -->
 
-<!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 4
-Locations:
-1. "Why Andrew Ross Sorkin spent eight years writing one book" — block on 6w5 archive obsession ("This is what 6w5 looks like…")
-2. "How Andrew Ross Sorkin makes Elon Musk and SBF stay in the chair" — block on 6 confrontation management ("The 6 manages confrontation by removing themselves…")
-3. "Why critics call Andrew Ross Sorkin a Wall Street apologist" — block on 6 access preservation ("The 6 framing here matters…")
-4. "What Andrew Ross Sorkin is most afraid of" — closing block linking complacency-fear to the 6's experience of calm
-At limit (≤4). All other Type/6 references are single bridging sentences inside narrative paragraphs.
+<!-- DISTRIBUTION LEDGER (updated 2026-06-22 rescue pass)
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: 0
+All 6w5 wing mechanics, the "A 3/7/5 would have" counter-typing ladder, the
+confrontation-management and access-preservation type blocks, the stress-3 /
+growth-9 arrows, and the subtype stack now live in the
+<details class="enneagram-rabbit-hole"> accordion. Body is person-first behavioral;
+the only core call kept in-body is "He is a textbook 6" in the diagnosis section.
+All other Type/6 references are single bridging sentences inside narrative paragraphs.
 -->
 
 > "I think you have to take everything personally. I think the people that I know who are the most successful people in the world take everything personally."
@@ -171,7 +171,7 @@ Both descriptions are true. He is the reporter Goldman calls back. He is also th
 
 The contradiction isn't that he's secretly biased or secretly hostile. The contradiction is more interesting than that. He genuinely likes the people he covers. _And_ he genuinely believes none of them can be trusted to police themselves. Both at once.
 
-That's not strategic. That's a personality type.
+That isn't a strategy he chose. It's how he's wired.
 
 ## What is Andrew Ross Sorkin's personality type?
 
@@ -179,7 +179,7 @@ That's not strategic. That's a personality type.
 
 The Enneagram Type 6 — the Loyalist, sometimes called the Skeptic — is the personality wired around one central question: _what can I trust here?_ Sixes manage their lives by preparing for what could go wrong. They build safety through verification, loyalty to institutions that have proven reliable, and a constant background scan for hidden danger.
 
-Read that paragraph and read Sorkin's career back to back. He is a textbook 6, with the cerebral, head-in-the-archive tilt of a [Type 6 with a 5 wing](/enneagram-corner/enneagram-wings-complete-guide).
+Read that paragraph and read Sorkin's career back to back. He is a textbook 6.
 
 Three pieces of evidence. None of them require interpretation:
 
@@ -189,7 +189,7 @@ Three pieces of evidence. None of them require interpretation:
 
 3. **He has been at one institution since he was sixteen years old.** _The New York Times_ hired him as a high-school senior intern. He went to Cornell, kept publishing, came back to the paper full-time, and has never left. That isn't normal. That is the institutional loyalty 6s build around something they trust to protect them, while they look outward for everything else.
 
-A 3 would have brand-jumped. A 7 would have started a fund. A 5 would have stayed in the archives and skipped the TV. Sorkin built the morning show, _and_ the newsletter, _and_ the summit, _and_ the books, _and_ the cable show — but always inside the same institution, always as a journalist, never as the principal. The 6 wants the platform without the exposure of being the one whose name is on the building.
+He could have done it differently. He had the resume to brand-jump, the access to start a fund, the temperament to disappear into the archives and skip the cameras entirely. Instead he built the morning show, _and_ the newsletter, _and_ the summit, _and_ the books, _and_ the cable show — but always inside the same institution, always as a journalist, never as the principal. He wants the platform without the exposure of being the one whose name is on the building.
 
 ## How Andrew Ross Sorkin became a New York Times reporter at 16
 
@@ -243,7 +243,7 @@ He spent **eight years** on it.
 
 He wrote it while running DealBook, hosting _Squawk Box_, executive-producing _Billions_, and raising three children. To do this, he read the obvious sources — newspapers, congressional records, biographies — and then read the non-obvious ones: weather reports from October 1929, private diaries, board notes from the New York Federal Reserve, the architectural records of buildings the bankers walked through. He found documents that, per his publisher's framing, _"others have had to do without."_
 
-This is what 6w5 looks like in its purest form. The cerebral 5 wing buries itself in the archive. The 6 core is searching the archive for the specific thing it always wants to find — _what was the warning everyone missed?_ The book is, more than a history, an answer to the same question he asks every morning at 4:25 a.m.: _what is going to break, and which signal told us it would?_
+This is the under-the-covers phone scaled up to eight years. He buries himself in the archive and searches it for the one thing he always wants to find — _what was the warning everyone missed?_ The book is, more than a history, an answer to the same question he asks every morning at 4:25 a.m.: _what is going to break, and which signal told us it would?_
 
 He has been answering that question in different forms his whole career. He covered Bear Stearns. He covered Lehman. He wrote _Too Big to Fail_ in real time on the 2008 crisis, which was on _The New York Times_ Best Seller list for six months and won the Gerald Loeb Award. He confronted Bankman-Fried at DealBook in 2022 while FTX customers were still trying to find out where their money had gone. He wrote a book about 1929 the year crypto AI hybrid valuations hit new highs.
 
@@ -263,11 +263,11 @@ A year later, on the same stage, [Elon Musk](/personality-analysis/elon-musk) �
 
 This is not the behavior of a person trying to win an argument. It's the behavior of someone running a procedure he has rehearsed for fifteen to thirty hours per interview. He has called it _"plotting a flight path"_: he knows the start, he knows the destination, he expects weather.
 
-The 6 manages confrontation by removing themselves as the source of pressure. _It's not me saying this. The customer is. The boycott is. The transcript is. I am only reading what the document says._ It is, simultaneously, an act of journalistic integrity and an act of self-protection. A Type 8 reporter would relish the head-on attack. Sorkin does the opposite. He builds the case so airtight that the subject's response is the only remaining variable, and lets the room watch.
+He removes himself as the source of the pressure. _It's not me saying this. The customer is. The boycott is. The transcript is. I am only reading what the document says._ It is, simultaneously, an act of journalistic integrity and an act of self-protection. He doesn't relish the head-on attack — he builds the case so airtight that the subject's response is the only remaining variable, then lets the room watch.
 
 His own framing of why this works: _"I think the other person knows that I want them to hit the ball back. I'm not trying to strike 'em out."_
 
-That is a 6's worldview, perfectly stated. Strikeouts are exposure. Rallies are information.
+Strikeouts are exposure. Rallies are information.
 
 ## Why critics call Andrew Ross Sorkin a Wall Street apologist
 
@@ -275,7 +275,7 @@ This is where 9takes has to be honest about him. The same personality that makes
 
 Matt Taibbi's _"single most credulously slobbering"_ insult was the headline. The substance underneath it was a real concern: in 2010 DealBook signed sponsorship deals with the very banks it covered. Sorkin defended Lloyd Blankfein in print in a way Taibbi argued read _"like it was written by the bank's marketing department."_ Dean Starkman's "access journalism par excellence" line was gentler, and arguably worse — _Too Big to Fail_, he wrote, _"places vast amounts of new information into the public record"_ but doesn't deliver _"many warts"_ on the elites it portrays.
 
-The 6 framing here matters. Sixes maintain their access to powerful institutions by not burning bridges. They tell themselves they're being prudent — _if I trash Goldman today, I lose the next ten Goldman stories_ — and they are right, but they are also doing the thing the 6 most wants to do, which is preserve the relationship that makes them feel safe inside a powerful system.
+The thing critics name as coziness is also the thing that keeps the door open. Sorkin maintains his access by not burning bridges. He tells himself he's being prudent — _if I trash Goldman today, I lose the next ten Goldman stories_ — and he is right, but he is also preserving the relationship that lets him feel safe inside a powerful system. Both motives run on the same wire.
 
 Sorkin's defense, when pressed, is procedural. He cannot personally own individual stocks. His children cannot trade them. He pays close attention to disclosure. _"Everyone gets flattened into black and white characters,"_ he has said. _"But everything's gray."_
 
@@ -283,17 +283,36 @@ Both can be true. He can be the most rigorous financial reporter of his generati
 
 ## What Andrew Ross Sorkin is most afraid of
 
-Asked his greatest fear, Sorkin gave the answer a [Type 6](/enneagram-corner/enneagram-type-6) would give and that no other type would phrase quite this way.
+Asked his greatest fear, Sorkin gave an answer almost no one else would phrase quite this way.
 
 _"Complacency,"_ he said. _"People stop questioning assumptions when times are good."_
 
-That is not a moral statement. It is a description of how the 6 experiences calm — as the most dangerous condition there is. Every party has its 1929. Every functioning bank has its Lehman week. Every charismatic founder has his FTX. Sorkin's whole adult life has been a series of long preparations for whichever one is coming next.
+That is not a moral statement. It is a description of how he experiences calm — as the most dangerous condition there is. Every party has its 1929. Every functioning bank has its Lehman week. Every charismatic founder has his FTX. Sorkin's whole adult life has been a series of long preparations for whichever one is coming next.
 
-The under-the-covers phone is the same machinery as the 600-page book is the same machinery as the printed letter he reads to a man in slippers on a stage. He is checking. Then checking again. Then sleeping, briefly, and checking once more.
+By 4 p.m., he is fried. By 4:25 the next morning, he is back under the covers, looking for what broke while he wasn't watching.
 
-By 4 p.m., he is fried.
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Andrew Ross Sorkin</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system: the rest of the analysis stands on its own.</em></p>
 
-By 4:25 the next morning, he is back under the covers, looking for what broke while he wasn't watching.
+<h3>Andrew Ross Sorkin's Wing: 6w5</h3>
+
+<p>The record leans 6w5 over 6w7. The 5 wing shows in the cerebral, head-in-the-archive tilt that defines his work: the eight years and roughly 700 pages on <em>1929</em>, the non-obvious sources (October 1929 weather reports, private diaries, New York Fed board notes), the two-three-four-source verification he runs before he calls a company, the 80–90% certainty he wants before requesting comment. A 6w7 would be more outwardly anxious-energetic and scattered across enthusiasms; Sorkin's instinct under threat is to go quiet and bury himself in documents until the danger has a name. The 5 wing is the part that makes his vigilance look like scholarship instead of panic. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Andrew Ross Sorkin's Instinctual Subtype: sp/so</h3>
+
+<p>He reads self-preservation dominant. The self-preservation Six is the "warm," security-building variant — it manages fear by building a stable base and a tight circle of trusted allies, then over-prepares against everything outside it. The 25-plus years at one institution he joined as a teenager, the year-round notes app on every potential interview subject, the wife who reportedly capped him at "no more books until the kids are in college," the 4:25 a.m. confirm-nothing-came-undone routine — all self-preservation. The social instinct runs second: the DealBook Summit is a stage he controls, a way of belonging to and refereeing the powerful group at once. The one-to-one instinct shows least. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, Sixes move to Type 3: image management, output, proving worth through visible achievement. You can see the arrow in the five-jobs-at-once stretch — anchoring <em>Squawk Box</em>, writing the newsletter six days a week, running the summit, executive-producing <em>Billions</em>, and writing a 700-page book simultaneously. When a Six is anxious, the cure looks like doing more and being seen doing it. In growth, Sixes move to Type 9: trust, ease, the willingness to let a thing be fine without re-checking it. The flashes of that are rare and telling — the moments on stage where he lets a document do the work and simply waits, the "everything's gray" framing he reaches for when critics want a villain. The growth direction is the version of Sorkin who could believe the bank is solvent without reading the board notes first.</p>
+
+<h3>Counterarguments: Why Andrew Ross Sorkin Might Not Be Type 6</h3>
+
+<p>The strongest alternate case is Type 3: the magazine at 15, the <em>New York Times</em> byline at 18, the five simultaneous platforms, the relentless output. But the 3 chases the win and curates the image, and Sorkin does the opposite — he keeps his name off the building, stays a journalist rather than becoming the principal, and frames his own origin as luck ("magically, they let me in the building") rather than as a highlight reel. A Type 5 case rests on the archive obsession and the cerebral remove, but the 5 detaches to conserve energy and observe from a safe distance, while Sorkin runs toward the people he covers, takes everything personally, and needs the relationship and the institution around him to feel safe — that's a Six using a 5 wing, not a core Five. A Type 1 case could be made from the procedural rigor and the disclosure scruples, but his organizing emotion is anxiety about what's hidden, not anger about what's wrong. What would change our mind: evidence that the constant verification is reputation-management for its own sake (3), or that he'd rather observe from the archive than be in the room with power (5).</p>
+</div>
+</details>
 
 <!-- ============================================================
 FRESH-EYES ASSESSMENT — 2026-04-29 (Claude cold read)

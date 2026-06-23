@@ -1,6 +1,6 @@
 ---
 title: 'Cathie Wood: An In-Depth Enneagram Type 7w8 Analysis'
-meta_title: "Why Cathie Wood Can't Stop Doubling Down on Losers"
+meta_title: "Cathie Wood's Enneagram Type: Why 7w8 Explains the Doubling Down"
 persona_title: "Disruption's Pulpit Pioneer"
 description: 'Cathie Wood lost 67% in a single year and bought more. Here is what Enneagram Type 7w8 reveals about why she keeps the future open when the present collapses.'
 author: 'DJ Wayne'
@@ -81,28 +81,28 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 8.5
-  enneagram: 7.5
-  evidence: 8.5
+  enneagram: 8
+  evidence: 9
   writing: 8
   originality: 9
-  discoverability: 7.5
-  overall: 8.2
-  letter: B
+  discoverability: 8
+  overall: 8.5
+  letter: B+
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 path: src/blog/people/drafts/Cathie-Wood.md
 ---
 
-<!-- QUALITY GRADE: B (8.2) — rubric v2
-Evidence: 8.5 | Originality: 9 | Discoverability: 7.5 | Enneagram: 7.5 | Writing: 8 | Hook: 8.5
+<!-- QUALITY GRADE: B+ (8.5) — rubric v2
+Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 8.5
 
-FEEDBACK (2026-06-20):
-- Originality is the standout: "her religion IS her risk model" is a genuinely fresh thesis most finance writers skip, "Five years is the minimum future-distance at which a Seven can still feel free" is worth the whole H2, and "She is not really moralizing about ethics. She is moralizing about temporality" reframes the indexing-heresy line nobody else reads correctly. The eight-years-of-Bible-reading covenant detail passes the swap test. Current anchor present (Big Ideas 2026, Dec 2025 Tesla trims).
-- Evidence good: Laffer's "her horizon was forever" mentor quote, the Tuttle "un-American" counter-line that walks her into her own trap, her "I believe I am doing God's will" quote. The closing scene moves ("She knelt down. Then she went back upstairs and bought more").
-- NEEDS WORK: Enneagram drops to 7.5. The 7w8 wing is named in the H1 title and the body runs explicit wing mechanics ("the 8 wing absorbed the hit head-on"), stress arrow to 1, and growth arrow to 5 — all in the narrative with no `<details class="enneagram-rabbit-hole">` to quarantine them. v2 caps this at 8 and the in-body wing/arrow lecture pulls below.
-- NEEDS WORK: Writing capped at 8 — the "It is not X. It is Y" contrast-pair recurs 4-5 times (the piece's own fresh-eyes pass flags this against a 1-use cap), and the diagnosis triple-front-loads the 7w8 pulpit thesis across TL;DR + bolded intro + the type-answer section.
-- NEEDS WORK: Discoverability — `meta_title` ("Why Cathie Wood Can't Stop Doubling Down on Losers") is CTR-y but unsearchable for type intent; keywords (7w8, Tesla target, Bitcoin) and FAQ carry it.
-- TO REACH B+: (1) Move the 7w8 / stress-1 / growth-5 mechanics into a rabbit-hole accordion. (2) Cut "It is not X. It is Y" to one use. (3) Collapse the triple thesis front-load to a single statement. (4) Add a search-intent `meta_title` variant naming the type.
+FEEDBACK (2026-06-22):
+- Evidence is now exceptional (9): Wood's own voice carries the piece — "I believe I am doing God's will" (AI and Faith), "not in my hands" (Faith Driven Investor), "the new deep value," "highest and best use... bringing heaven to Earth" — plus Laffer's two named mentor quotes and Tuttle's "un-American" counter-line. Metrics are sourced (67% drawdown, 135k Roku shares, 98% Teladoc, 16% vs 13% ten-year, $68M Tesla trim, BTC $1.5M→$1.2M Nov 2025). Multiple independent sources; the person is heard, not summarized.
+- Originality holds at 9: "her religion IS her risk model," "she is moralizing about temporality, not ethics," "Five years is the minimum future-distance at which a Seven can still feel free," and the engine-vs-smoke reframe. The eight-year Ark-of-the-Covenant covenant passes the swap test. Critic pressure is now genuinely engaged — "What the ten-year number actually says" reckons with Morningstar's "wealth destroyer" label AND the duration-mismatch critique the prior fresh-eyes pass flagged as ducked. Current anchor present (Big Ideas 2026 "The Great Acceleration," Dec 2025 Tesla trims).
+- The revision worked on Enneagram (7.5→8): a well-formed `<details class="enneagram-rabbit-hole">` now holds the 7w8-vs-7w6 case, so/sx subtype, stress→1 / growth→5 arrows, and a full Type-1/Type-8 counter-typing case with a falsification clause. Emotional interior check passes (fear of the present, the empathy turn on doubling-down, the bathroom-tile interior beat). Capped at 8 — not Exceptional — because residual typology bleeds into the body: the TL;DR accordion still lists "Stress (7→1)" / "Growth (7→5)" arrow mechanics, and the "indexing is a heresy" H2 still runs a Type-7-vs-Type-1 counter-typing argument in the narrative rather than the rabbit hole.
+- NEEDS WORK: Writing capped at 8 — the "not X; it is Y" relocation contrast-pair still recurs 4-5 times in the body ("relocating it," "is not bravery — it is the only form," "not as competition but as the closing of the door," "not really moralizing about ethics. She is moralizing about temporality," "isn't a strategy. It's a place to put pain"). >2 uses triggers the fingerprint cap. Cut to one or two.
+- Discoverability lifts to 8: `meta_title` now reads "Cathie Wood's Enneagram Type: Why 7w8 Explains the Doubling Down" — names the person, "Enneagram Type," and the wing early and searchably. H2 1 gives a clean extractable type answer; five real search-intent FAQs; same_as / wikidata present. Minor: `description` runs ~177 chars (target 120-170).
+- TO REACH A: (1) Move the stress→1 / growth→5 arrow lines out of the body TL;DR and into the rabbit hole; recast the indexing H2 so the Type-1 contrast lives behavioral-first or in the accordion. (2) Cut the "not X; it is Y" engine to one use. (3) Trim `description` under 170 chars.
 -->
 
 <!-- TESTIMONY LEDGER
@@ -139,7 +139,7 @@ The CNBC anchors called it stubbornness. Michael Burry filed put options against
 
 She did not stop.
 
-The charlatan reading and the martyr reading are both available, and both are lazy. The reading worth doing is the one where Cathie Wood is a Seven who cannot live in a present she cannot reframe, and where the engine that built ARK Invest is the same one that, structurally, refuses to retreat.
+The charlatan reading and the martyr reading are both available, and both are lazy. The reading worth doing starts somewhere stranger: with the engine that built ARK Invest, and why that same engine cannot let her retreat.
 
 <details>
 <summary class="accordion">TL;DR: Why Cathie Wood is an Enneagram Type 7w8</summary>
@@ -160,13 +160,13 @@ The charlatan reading and the martyr reading are both available, and both are la
 
 [Sevens](/enneagram-corner/enneagram-type-7) are usually painted as scattered — bouncing across novelties, allergic to commitment. Cathie Wood is the corrected portrait: a Seven who has spent forty years narrowing onto a single thesis. What she shares with the textbook version is not the scattering but the engine underneath it — a structural inability to sit inside a present she cannot reframe.
 
-The [8 wing](/enneagram-corner/enneagram-wings-complete-guide) is what gives that inability a microphone. The wing is what fights Burry on TV, calls passive investing a heresy, walks out of AllianceBernstein after twelve years because they wouldn't bet on her thesis. Without it she would have been a softer evangelist. With it, she is a believer who throws elbows.
+There is a harder edge running through that evangelism. It is what fights Burry on TV, calls passive investing a heresy, walks out of AllianceBernstein after twelve years because they wouldn't bet on her thesis. A softer version of this woman would have been a gentle evangelist. Cathie Wood is a believer who throws elbows.
 
-The line that gives the typing away is hers: _"I believe I am doing God's will. As long as I am doing God's will, I can take as much pain as the markets and the media want to throw at me."_ She is not denying the pain — she is relocating it. Outside herself, inside a frame where pain becomes a credential rather than evidence. That is a Seven's escape hatch, and the 8 wing is what makes her say it into a camera.
+The line that gives the typing away is hers: _"I believe I am doing God's will. As long as I am doing God's will, I can take as much pain as the markets and the media want to throw at me."_ Read it closely. She is not denying the pain; she is relocating it — outside herself, inside a frame where pain becomes a credential rather than evidence. That is a Seven's escape hatch, and she says it into a camera without flinching.
 
-Her [stress arrow](/enneagram-corner/enneagram-types-in-stress) points to Type 1. When markets break against her, the language goes moralistic. The benchmark becomes a "holy altar." Index investing becomes "the most massive misallocation of capital in the history of mankind." The Seven who normally reframes loss into opportunity, under genuine pressure, reaches for the One's moral indictment of everyone who saw it differently.
+When markets break against her, the language goes moralistic. The benchmark becomes a "holy altar." Index investing becomes "the most massive misallocation of capital in the history of mankind." The woman who normally reframes loss into opportunity, under genuine pressure, reaches for moral indictment of everyone who saw it differently — she stops being interested and starts being right.
 
-Her growth arrow points to Type 5. The version of Cathie Wood that has now published a Big Ideas research report ten consecutive years — 100-plus pages of charts, projections, and footnotes — who has held the same disruptive-innovation thesis since the early eighties, who keynotes industry conferences with the patience of a methodologist: that is the rigorous research analyst beneath the evangelist. The Seven is what she sounds like. The Five is what she actually does between TV hits.
+But the version of Cathie Wood that has published a Big Ideas research report ten consecutive years — 100-plus pages of charts, projections, and footnotes — who has held the same disruptive-innovation thesis since the early eighties, who keynotes industry conferences with the patience of a methodologist, is something quieter than the evangelist. That is the rigorous research analyst she trained as for forty years. The enthusiast is what she sounds like. The analyst is what she actually does between TV hits.
 
 ## How a daughter of Irish immigrants learned to bet on tomorrow
 
@@ -210,7 +210,7 @@ Here is the data point that confused everyone in 2022: as her fund was collapsin
 
 The simplest reading is that this is bravery. That isn't quite it. The strategy of "I was wrong, let me sell and rebuild" requires sitting inside a present-tense loss long enough to metabolize it — and that is [the one move a Seven cannot make](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7).
 
-Listen to her language for what was happening. _"Innovation is the new deep value."_ The phrase takes a 67% loss and reclassifies it as a discount. It takes today and reroutes it to five years from now. It is not a slogan. It is the only form of loss a Seven can hold.
+Listen to her language for what was happening. _"Innovation is the new deep value."_ The phrase takes a 67% loss and reclassifies it as a discount. It takes today and reroutes it to five years from now. That phrase does real work for her — it is the only form of loss a Seven can hold.
 
 The same architecture is visible across her current calls. Tesla at $2,600 by 2030 — a 483% upside, with 90% of that target conditional on robotaxis Tesla has not yet launched at scale. Bitcoin at $1.2 million by 2030, a target she revised down from $1.5 million in November 2025 after stablecoins quietly ate part of the use case she had originally bet on. Five innovation platforms — artificial intelligence, public blockchains, robotics, energy storage, multi-omic sequencing — each one priced today as if the bet won't pay off, each one held as if it already has. Notice what the targets share. Every one of them lives at least four years out. Every one of them keeps tomorrow open.
 
@@ -222,17 +222,17 @@ In February 2022, with ARKK down 30% on the year, Cathie Wood went on CNBC's Hal
 
 > "They're not doing any research. They are simply shorting innovation."
 
-Notice the move. The accusation against her was empirical — _your bets are bad._ Her response was moral — _my critics are immoral._ This is the Seven's stress arrow to Type 1 lighting up: under pressure, the world stops being interesting and starts being _wrong._
+Notice the move. The accusation against her was empirical — _your bets are bad._ Her response was moral — _my critics are immoral._ This is what she does under pressure: the world stops being interesting and starts being _wrong._
 
 Matthew Tuttle, who runs the SARK ETF, fired back the next day: _"It is un-American to not have choices in the marketplace."_ He had walked her into her own trap. By moralizing his trade, she had made him the underdog defending a principle. The interview did not, as Fortune put it, go as planned.
 
-But watch what she did not do. She did not equivocate. She did not say _"we got some calls wrong."_ She did not throw analysts under the bus. The 8 wing absorbed the hit head-on, even though absorbing it was what was making the situation worse.
+But watch what she did not do. She did not equivocate. She did not say _"we got some calls wrong."_ She did not throw analysts under the bus. She took the hit head-on and threw an elbow back, even though throwing it was what was making the situation worse.
 
 By contrast, on the Faith Driven Investor podcast a year earlier, the same woman sounded entirely different:
 
 > "I never thought we were going to fail. Many days I would just go into the bathroom and just kneel down and pray and say, OK, not in my hands."
 
-Same belief, different room. The version on the podcast was slower, more reflective, willing to name the bathroom and the tile — that is the Seven's growth arrow to Type 5 doing its quiet work. The version on CNBC was the stress arrow taking over. The trick of reading her in any given week is figuring out which one is currently driving.
+Same belief, different room. The version on the podcast was slower, more reflective, willing to name the bathroom and the tile — the analyst doing her quiet work. The version on CNBC was the evangelist under fire, certain and indicting. The trick of reading her in any given week is figuring out which one is currently driving.
 
 ## Why Cathie Wood thinks indexing is a heresy
 
@@ -246,7 +246,7 @@ What does indexing do, in her telling? It allocates capital to the past. It rewa
 
 So she is not really moralizing about ethics. She is moralizing about temporality. _"I began to see our industry begin to worship at the holy altar called the benchmark. I thought that was wrong."_ The wrongness she's pointing at is short-termism. The fund managers who track quarterly index performance, the analysts who write 12-month price targets, the journalists who calculate one-year returns — all of them, in her frame, are eating the future to feed yesterday's metric.
 
-This is also why her "5-year time horizon" line, which sounds like marketing copy to most readers, is structurally important to her. _"Every day we look five years out. Every day."_ Five years is not an arbitrary number. It is the minimum future-distance at which a Seven can still feel free.
+This is also why her "5-year time horizon" line, which sounds like marketing copy to most readers, is structurally important to her. _"Every day we look five years out. Every day."_ Five years is the minimum future-distance at which a Seven can still feel free — close enough to plan, far enough that today never gets the final word.
 
 ## What the ten-year number actually says
 
@@ -269,6 +269,29 @@ This is also why no amount of being shorted can break her. The puts, the SARK ET
 In 2022, the bathroom tile was cold. The fund was down 67%. Wall Street was sure she would have to stop.
 
 She knelt down. Then she went back upstairs and bought more.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Cathie Wood</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system: the rest of the analysis stands on its own.</em></p>
+
+<h3>Cathie Wood's Wing: 7w8</h3>
+
+<p>The record leans 7w8 over 7w6. The 8 wing is the elbows: fighting Michael Burry on TV, branding passive investing "the most massive misallocation of capital in the history of mankind," mortgaging her house and walking out of AllianceBernstein at 57 because they wouldn't bet on her thesis. A 7w6 would be more anxious and consensus-seeking, building a safety net and reaching for authority's approval; Wood does the opposite — she concentrates into the drawdown, defends Teladoc after a 98% fall, and dares the room to short her. The 6-wing case rests on the religiosity reading as security-seeking, but her faith functions as fuel for confrontation ("I can take as much pain as the markets and the media want to throw at me"), not as a hedge against it. That is appetite plus aggression, not appetite plus worry. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Cathie Wood's Instinctual Subtype: so/sx</h3>
+
+<p>She reads social-dominant with a strong sexual (one-to-one) charge. The social instinct shows in the missionary posture Laffer named in her twenties — "almost like a missionary on these topics," evangelizing an idea to a crowd, publishing her models openly because she sees herself executing an instruction for everyone rather than competing for edge. The sexual instinct is the intensity she brings to a single thesis: the all-or-nothing concentration into Tesla and Bitcoin, the willingness to bind her whole identity to one bet on tomorrow. Self-preservation runs last — a self-pres Seven would have diversified to protect the downside in 2022; Wood sold her diversification and bought more conviction. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, the Seven goes rigid and moralizing (the move toward Type 1). The clearest beat is the February 2022 CNBC standoff: with ARKK down 30%, an empirical attack on her bets ("your returns are bad") came back out of her mouth as a moral indictment ("they're not doing any research, they are simply shorting innovation"). The benchmark becomes a "holy altar"; critics become heretics. In growth, the Seven slows into the focused researcher (the move toward Type 5): the ten consecutive Big Ideas reports, 100-plus pages of footnoted projections, the forty-year through-line on disruptive innovation, the bathroom-floor prayer where the certainty drops away — "OK, not in my hands." The enthusiast is what she sounds like on camera; the analyst is what she does between the TV hits.</p>
+
+<h3>Counterarguments: Why Cathie Wood Might Not Be Type 7</h3>
+
+<p>The strongest alternate case is Type 1: the moral vocabulary ("misallocation," "wrong," the "holy altar"), the missionary certainty, the reformer's posture against an industry she thinks has lost its way. But the One reforms toward an ideal of correctness and is governed by an inner critic; Wood is governed by an open future, and her moralizing is in service of keeping tomorrow available, not of fixing a flawed present — she is moralizing about temporality, not ethics. A Type 8 case rests on the aggression and the empire-building, but the Eight leads with control and confrontation as the main event, while Wood's combativeness is downstream of the appetite — she fights only when someone tries to close the door on the future she's chasing. What would change our mind: evidence that the doubling-down is disciplined contrarian conviction with a real exit plan and downside math (a different animal entirely), rather than a structural inability to sit inside a present-tense loss.</p>
+</div>
+</details>
 
 > _Disclaimer: this is a reading from public material, not a clinical assessment. People are more than the type they read as._
 

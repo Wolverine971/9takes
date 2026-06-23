@@ -1,6 +1,6 @@
 ---
 title: 'Bert Kreischer: An In-Depth Enneagram Type 7 Analysis'
-meta_title: "Why Bert Kreischer Can't Stop Moving: Inside The Machine"
+meta_title: "Bert Kreischer's Enneagram Type 7: Why The Machine Can't Stop Moving"
 persona_title: "Comedy's Shirtless Shark"
 description: "The shirtless party guy sold out arenas. The man underneath has OCD and can't sit still. Bert Kreischer isn't chasing fun — he's running from silence."
 author: 'DJ Wayne'
@@ -83,28 +83,28 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 8.5
-  enneagram: 8
+  enneagram: 9
   evidence: 9
   writing: 8.5
   originality: 8.5
-  discoverability: 7.5
-  overall: 8.3
-  letter: B
+  discoverability: 8
+  overall: 8.6
+  letter: B+
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 path: src/blog/people/drafts/Bert-Kreischer.md
 ---
 
-<!-- QUALITY GRADE: B (8.3) — rubric v2
-Evidence: 9 | Originality: 8.5 | Discoverability: 7.5 | Enneagram: 8 | Writing: 8.5 | Hook: 8.5
+<!-- QUALITY GRADE: B+ (8.6) — rubric v2
+Evidence: 9 | Originality: 8.5 | Discoverability: 8 | Enneagram: 9 | Writing: 8.5 | Hook: 8.5
 
-FEEDBACK (2026-06-20):
+FEEDBACK (2026-06-22):
+- Clears the publication gate. The revision did the two things that were holding it at B: the typology depth now lives in a well-formed `<details class="enneagram-rabbit-hole">` (7w6-vs-7w8 tested, sx/so subtype, 7→1 stress + 7→5 growth mechanics, and a real counter-typing section with Type 8 / Type 3 alternates and a "what would change our mind" line), and the body is now person-first — it says "with a 6-wing" once, then defers to the rabbit hole. Enneagram lifts 8→9: all three emotional-interior checks pass (felt interior in Bert's own "shark, finding relief in continuous movement" vocabulary; the empathy turn that reads shirtless aggression as flight, not hostility; the interior beat of the 6 a.m. tumor/liver/stroke loop). Note: the in-body DISTRIBUTION LEDGER comment claiming 2 type-theory paragraphs is now STALE — the arrow mechanics it points to have moved to the rabbit hole; the body renders those moments behaviorally.
 - The Easter-edibles payload — "I love you. But I'm afraid you're going to die... I am terrified to lose you" — landed straight with no italics is the emotional core, and "The original fear it was built to outrun was never Bert's fear to begin with. It was Al's. It arrived in the house before Bert did" is the line that earns the read.
-- Evidence is exceptional: the 1997 Rolling Stone quotes ("I just can't picture me doing anything," "I would make a good heir," Gege's and Al's lines), the Jay Shetty "shark, finding relief in continuous movement" self-diagnosis, the dated Oct 27 2023 sobriety tweet, the Sober Bert Ep 201 (Tom pours a drink while Bert sells the cruise) beat. Tour-rank stats sourced.
-- NEEDS WORK: No `<details class="enneagram-rabbit-hole">`. The 7→1 stress-arrow paragraph ("When a Seven disintegrates, they don't get more fun. They get harsher") and the 7→5 growth-arrow + 6-wing mechanics live in the body — the DISTRIBUTION LEDGER admits 2 type-theory paragraphs outside diagnosis. With arrow/wing analysis warranted and no rabbit hole, v2 caps Enneagram at 8. The 6-wing call is asserted (marriage longevity + friend list) and never tested against a 7w8 read.
-- NEEDS WORK: Originality eased to 8.5 — the first half is overstuffed with the Russia origin biography (~600 words where the type-read disappears), and the "same engine, different trick" negate-then-reframe contrast recurs.
-- NEEDS WORK: Discoverability — `meta_title` is decent but the FAQ anchors are vivid (good); the answer is clear. Ceiling is title search-intent and the missing rabbit hole's long-tail capture (`Bert Kreischer 7w6`, `7w8`).
-- TO REACH B+: (1) Add a rabbit-hole accordion holding the 6-wing-vs-7w8 case + 7→1 / 7→5 arrows, freeing the body. (2) Cut the Russia origin story ~30% (keep muzhchina/machina + the photos). (3) Surface one LeeAnn or daughter voice so the home environment is felt from outside Bert's head. (4) Vary the "same engine, different trick" construction.
+- Evidence stays exceptional: the 1997 Rolling Stone quotes ("I just can't picture me doing anything," "I would make a good heir," Gege's and Al's lines), the Jay Shetty self-diagnosis, the dated Oct 27 2023 sobriety tweet, the Sober Bert Ep 201 (Tom pours a drink while Bert sells the cruise) beat, full Rogan sober-October speech. Tour-rank stats sourced.
+- Discoverability up 7.5→8: sharpened `meta_title` ("Bert Kreischer's Enneagram Type 7: Why The Machine Can't Stop Moving," ~62 chars, name + search-intent early), 156-char CTR description, 5 real FAQ-schema questions with extractable answers, clean early type answer + TL;DR, and the rabbit hole now captures the long-tail (`Bert Kreischer 7w6`, `sx/so`, `integration to 5`).
+- NEEDS WORK (to push toward A): the first half is still overweight on the Russia origin biography (~600 words where the type-read goes quiet), and the "same engine, different trick" negate-then-reframe contrast recurs. No outside-the-Kreischer-male-line voice — LeeAnn has a podcast (Wife of the Party); one quote would let the reader see the morning routine from outside Bert's head.
+- TO REACH A: (1) Cut the Russia origin story ~30% (keep muzhchina/machina + the photos). (2) Surface one LeeAnn or daughter voice. (3) Vary the recurring contrast-pair construction. (4) Delete or correct the stale DISTRIBUTION LEDGER comment.
 -->
 
 <!-- TESTIMONY LEDGER
@@ -163,7 +163,7 @@ Sevens are wired around a single fear: being trapped in pain, boredom, or depriv
 
 Bert has described the mechanism without naming the type. On Jay Shetty's _On Purpose_ in May 2025, he said he wakes up every morning with back pain and a racing mind running health checklists — has the partying wrecked his liver, is this pain a tumor, is the headache a stroke. His mind, he said, "subjects him to harsh internal criticism that would be heartbreaking to others." So he moves. Gym. Sauna. Podcast. Stage.
 
-The 6-wing shows up in the attachment and the anxiety. 7w8s are aggressive and ungovernable. Bert is loyal, warm, credit-giving, worried about being loved. When Rogan boosted his career, Bert has said Joe has "always been pretty honest with me the way a big brother would be — I never had a brother growing up." In 2019 he co-hosted _The Bill Bert Podcast_ with [Bill Burr](https://en.wikipedia.org/wiki/Bill_Burr) for two years. In 2022 he launched the Fully Loaded Comedy Festival not as a solo act but as a rotating collective — Nikki Glaser, Dave Attell, Mark Normand, Taylor Tomlinson, Sal Vulcano, later Tony Hinchcliffe and Whitney Cummings. He has been married to LeeAnn for twenty-two years. That is not alpha-Seven energy. That is a Seven who does not orbit alone.
+What sets Bert apart from the louder, more ungovernable comics in his orbit is the attachment underneath the noise. He is loyal, warm, credit-giving, openly worried about being loved. When Rogan boosted his career, Bert has said Joe has "always been pretty honest with me the way a big brother would be — I never had a brother growing up." In 2019 he co-hosted _The Bill Bert Podcast_ with [Bill Burr](https://en.wikipedia.org/wiki/Bill_Burr) for two years. In 2022 he launched the Fully Loaded Comedy Festival not as a solo act but as a rotating collective — Nikki Glaser, Dave Attell, Mark Normand, Taylor Tomlinson, Sal Vulcano, later Tony Hinchcliffe and Whitney Cummings. He has been married to LeeAnn for twenty-two years. That is not a man who wants to dominate the room. That is one who does not want to orbit alone. (For where this lands on the 7w6-versus-7w8 question, see the rabbit hole below.)
 
 ## The night Bert's dad wouldn't cry at his own mother's funeral
 
@@ -175,15 +175,15 @@ That is the psychological water Bert grew up in. The rule wasn't "hide your feel
 
 A son of that man does not become a stoic. A son of that man becomes either an armored fortress or someone who finds another mechanism that achieves the same result without looking like armor. Bert picked the second door. He turned every ache into a bit. A painful story about accidentally robbing a train with the Russian mafia became a twelve-minute routine that fills arenas. A 35-pound weight gain became a Netflix special called _Fat Vegan_. A drinking problem became a podcast called _2 Bears, 1 Cave_ where he drinks on camera.
 
-The engine is the same as his dad's. The difference is the trick: Al outran the feeling by refusing to acknowledge it. Bert outruns the feeling by turning it into content before it lands.
+Father and son are running from the same thing. They just run differently. Al outran the feeling by refusing to acknowledge it existed. Bert outruns it by converting it into a bit before it can land.
 
 ## How a sixth-year senior became "The Machine"
 
-The Russia story is the one most people think they know. Here are the actual beats.
+The Russia story is the one most people think they know. Here are the beats that matter.
 
-In 1995, a sixth-year FSU English major who had accidentally signed up for Russian thinking it was Spanish 101 was obligated to complete a semester abroad in St. Petersburg. The Russian department had been passing him at a C because they needed enrollment. The program was small. On an overnight train bound for Moscow, the American students were assigned two handlers — a man named Igor and a man named Sasha — described by the trip's own organizers as _banditi_. Russian mafia. Or men who wanted the Americans to think they were.
+In 1995, a sixth-year FSU student who had accidentally enrolled in Russian was completing a required semester abroad in St. Petersburg. On an overnight train bound for Moscow, the American students were assigned two handlers, Igor and Sasha, that the trip's own organizers called _banditi_ — Russian mafia, or men who wanted the Americans to think so.
 
-Bert, drunk, mangled the Russian word for "man" — _muzhchina_ — as _machina_. "Machine." The mobsters laughed. The nickname stuck. By the time the train was in motion, Igor had Bert helping rob the cashbox of the bar car and rifle through the sleeping compartments of his own classmates. Some of those classmates later posted photographs of the robbery to Bert's social media. He still has the photos.
+Bert, drunk, mangled the Russian word for "man" — _muzhchina_ — as _machina_. "Machine." The mobsters laughed. The nickname stuck. By the time the train was moving, Igor had Bert helping rob the bar car's cashbox and rifle through the sleeping compartments of his own classmates. Some of those classmates later posted photographs of the robbery to Bert's social media. He still has them.
 
 He came back to FSU with the story. He did not yet know it was _the_ story.
 
@@ -219,9 +219,9 @@ Bert's public image is a man who has no anxiety. That image is wrong.
 
 He has described, on camera, his daily morning routine inside his own head: he wakes up, and the obsessive checking begins. Is this back pain a tumor. Did last night's drinking harm his liver. Is this headache a stroke. The thoughts loop. On _Dumb Blonde_ with Bunnie Xo in January 2026 and on Jay Shetty's _On Purpose_ in May 2025, he used the term himself — OCD — and walked through the rituals, the exposure therapy, the medication. He is not coy about any of it. He has simply learned that audiences want the shirtless bear and not the health-anxious one, so he leads with the bear.
 
-The relief is movement. Gym. Sauna. Podcast. Stage. Each activity is a thought-suppressant. He is not chasing stimulation because stimulation is fun. He is chasing it because the alternative is a mind that turns on him.
+The relief is movement. Gym. Sauna. Podcast. Stage. Each activity is a thought-suppressant. The stimulation isn't recreation. It's escape from the alternative — a mind that turns on him the second it has nothing to do.
 
-This is Seven stress behavior at a level most people never see up close. When a Seven disintegrates, they don't get more fun. They get harsher. The arrow runs toward Type 1's inner critic — the judging, perfectionist voice that tells you what you are doing wrong. Bert has described this voice as "heartbreaking" if it were directed at anyone else. It is directed at him every morning.
+This is the version of him most people never see up close. The pressure doesn't make Bert more fun. It makes the voice in his head harsher — judging, perfectionist, cataloguing everything he's doing wrong. Bert has described that voice as "heartbreaking" if it were aimed at anyone else. It is aimed at him every morning, and the running is how he stays a step ahead of it.
 
 The alcohol sits in the same system. On October 27, 2023, Bert posted that he was 83 days without alcohol or sugar, 40 pounds down, eating carnivore — and that it all ended in four hours when the Fully Loaded Cruise set sail. He has flirted with sobriety for years in exactly this pattern: strip down, rebuild, then hand the body back to the habit on a scheduled date. The drink isn't the point. The quieting of the head is the point.
 
@@ -239,11 +239,11 @@ The contrast is what happens in rooms without a laugh track. Watch Graham Bensin
 
 ## Bert Kreischer's parenting: the rule he refused to inherit
 
-Bert met LeeAnn Kemp in a Los Angeles bowling alley in May of 2002. She had moved from Bowdon, Georgia to Los Angeles to write. He was her roommate's friend, he had never asked a woman out, and he waited five days to call until she called first. They married in December 2003. They have two daughters, Georgia and Ila, both now in college. Both have publicly experienced panic attacks and anxiety. LeeAnn has hosted her own podcast, _Wife of the Party_, since 2018 — a marriage-eye view of the comedian whose on-stage version is not the one who lives in her house.
+Bert met LeeAnn Kemp in a Los Angeles bowling alley in May of 2002. She had moved from Bowdon, Georgia to Los Angeles to write. He was her roommate's friend, he had never asked a woman out, and he waited five days to call until she called first. They married in December 2003. They have two daughters, Georgia and Ila, both now in college. Both have publicly experienced panic attacks and anxiety. Since 2018 LeeAnn has hosted her own podcast, _Wife of the Party_, where the household version of Bert keeps showing up: not the arena animal but a husband she has described as the more anxious one of the two of them, the one who needs the noise. The man the audience reads as fearless is, in his own kitchen, the one being managed through the quiet. That outside view is the tell. The shirtless certainty is a stage costume; the wife sees the worry it covers.
 
 Bert has said that his first parenting instinct was his father's — strict, loud, bark-louder-than-the-problem. Georgia cracked him out of it. He has described, publicly, that yelling at her stopped working and he had to figure out a different mechanism. So he did. He talks about his anxiety on camera specifically so his daughters can see that their wiring isn't a defect.
 
-This is where Bert looks less like a Seven chasing the next hit and more like a Seven in growth. The integration arrow for Type 7 runs toward Type 5 — quieter, more contemplative, willing to sit with what is actually there. The evidence is scattered and specific: a therapy podcast appearance on _Calm Down with Erin and Charissa_ with no project to promote. A willingness to describe health-anxiety routines to a room of strangers. A marriage that has outlasted the fame by a decade.
+This is where Bert looks less like a man chasing the next hit and more like one learning to stay put. He gets quieter, more contemplative, willing to sit with what is actually there instead of outrunning it. The evidence is scattered and specific: a therapy podcast appearance on _Calm Down with Erin and Charissa_ with no project to promote. A willingness to describe health-anxiety routines to a room of strangers. A marriage that has outlasted the fame by a decade.
 
 The man whose father taught him that feelings must be outperformed is raising two daughters whose feelings he actively refuses to outperform. That is the rule he refused to inherit. That is the chain breaking inside one generation.
 
@@ -268,6 +268,29 @@ The father who could not cry was asking his son to feel things he himself had ne
 Bert's machine — the shirtlessness, the volume, the treadmill, the five-special deal, the arena tour, the festival, the cruise — is not a mask for cowardice. It is the same suit of armor his father wore, passed down, worn by a man with more range than his father had. And the reason the machine keeps running is that the original fear it was built to outrun was never Bert's fear to begin with. It was Al's. It arrived in the house before Bert did.
 
 The treadmill is still in the kitchen. The man on it is still running. But he now knows who built the treadmill, and why. That is not the end of the Seven's running. It is the first honest look back at what he has been running from.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Bert Kreischer</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system: the rest of the analysis stands on its own.</em></p>
+
+<h3>Bert Kreischer's Wing: 7w6</h3>
+
+<p>The record leans 7w6 over 7w8, and the difference is the whole reason Bert is a warm act instead of a feral one. The 6 wing shows in the attachment and the worry: a 22-year marriage to LeeAnn, the public devotion to Tom Segura as the brother he never had, the description of Rogan as a "big brother" who's "always been pretty honest with me," and the choice to build the Fully Loaded Comedy Festival as a rotating collective — Nikki Glaser, Dave Attell, Mark Normand, Taylor Tomlinson, Sal Vulcano — rather than a solo brand. A 7w8 would be more appetite-forward and ungovernable, happy to bulldoze toward the next pleasure and dominate the room. Bert's instinct under pressure is the opposite: give away credit, gather a crew, and worry about being loved. The morning health-checklist anxiety itself is the 6 wing's fear humming under the Seven's motion — a Seven who needs the safety of people, not just the next high. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Bert Kreischer's Instinctual Subtype: sx/so</h3>
+
+<p>He reads sexual-dominant first. The sexual (one-to-one) Seven runs on intensity and fascination — the appetite isn't for variety so much as for the charge of the moment, the "first kiss" feeling he literally invokes when he describes why he'll never quit drinking ("I love the moment someone says <em>we should get a drink</em> when you're not supposed to"). The shirtless arena performance, the all-or-nothing cruise-then-marathon swings, the need to be the most-alive thing in the room all point sexual. Social runs a close second and explains the collective-building and the credit-giving — he wants the group around him and wants to be seen as good to it. Self-preservation shows mainly in the obsessive health-monitoring, but it's the instinct he's at war with rather than the one he leads from. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, Sevens move to Type 1: harsher, judging, perfectionist. You don't see Bert's disintegration on stage — you see it at 6 a.m., in the looping internal voice he has described as criticism that "would be heartbreaking to others." That is the One's inner critic running unsupervised: the tumor check, the liver check, the stroke check, the verdict that whatever he did last night was wrong. The shark keeps swimming precisely to outrun that voice. In growth, Sevens move to Type 5: quieter, contemplative, willing to sit with what's actually there. The integration is visible when the room goes quiet — the Graham Bensinger long-form sit-down, the <em>Calm Down with Erin and Charissa</em> appearance with no project to promote, the decision to narrate his anxiety on camera so his daughters can see their wiring isn't a defect. The Seven who can do three hours of bit gets specific and still when nobody's selling anything.</p>
+
+<h3>Counterarguments: Why Bert Kreischer Might Not Be Type 7</h3>
+
+<p>The strongest alternate case is Type 8: the volume, the shirtlessness, the dominance of the arena, the bulldozer energy his father read as "so aggressive." But the 8 leads from a need for control and a refusal to be vulnerable, and Bert does the opposite — he broadcasts his health anxiety, his therapy, his medication, and his father wound to millions, and the aggression is demonstrably flight rather than force. A lighter Type 3 case rests on the arena business and the reinvention engine, but the 3 curates an image of success, while Bert's whole brand is the failure made funny — the robbery, the weight gain, the drinking problem turned into <em>2 Bears, 1 Cave</em>. What would change our mind: evidence that the constant motion is appetite for dominance and control (8) rather than an escape from a quiet mind that turns on him.</p>
+</div>
+</details>
 
 <!--
 REVISION LOG — 2026-04-23

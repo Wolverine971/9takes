@@ -1,6 +1,6 @@
 ---
 title: 'Leonardo da Vinci: The Mind That Could Not Stop'
-meta_title: 'Why Leonardo da Vinci Never Finished Anything (The Real Reason)'
+meta_title: 'Leonardo da Vinci Enneagram: Why the Type 5 Mind Never Finished Anything'
 persona_title: "History's Insatiable Observer"
 description: 'Leonardo da Vinci understood more than anyone alive. So why did he leave almost everything unfinished? The Enneagram explains the paradox.'
 author: 'DJ Wayne'
@@ -73,26 +73,26 @@ instagram: ''
 tiktok: ''
 content_quality:
   hook: 9
-  enneagram: 8
+  enneagram: 9
   evidence: 8
   writing: 9
   originality: 9
-  discoverability: 7
-  overall: 8.2
-  letter: 'B'
+  discoverability: 8
+  overall: 8.6
+  letter: 'B+'
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 path: src/blog/people/drafts/Leonardo-da-Vinci.md
 ---
 
-<!-- QUALITY GRADE: B (8.2) — rubric v2
-Evidence: 8 | Originality: 9 | Discoverability: 7 | Enneagram: 8 | Writing: 9 | Hook: 9
+<!-- QUALITY GRADE: B+ (8.6) — rubric v2
+Evidence: 8 | Originality: 9 | Discoverability: 8 | Enneagram: 9 | Writing: 9 | Hook: 9
 
-FEEDBACK (2026-06-20):
-- Originality and writing are top-tier: "completion felt like death" is a genuine thesis that resolves the unfinished-everything paradox, and signature details land (the woodpecker-tongue to-do list, the centenarian's "so sweet a death" dissection, Salaì kept twenty-five years, the legacy-now anchor "we are still finding things"). The 1482 military-resume cold-open is one of the better hooks in the corpus. Evidence is well-sourced for a historical figure (Pope Leo X, Novellara's "cannot bear the sight of a paintbrush," Bandello's eyewitness account) but is paraphrase-heavier than a living subject's own-words testimony.
-- NEEDS WORK: DISCOVERABILITY (7) — the meta_title and FAQs are excellent search-intent ("Why Leonardo da Vinci Never Finished Anything"), but the "What is Leonardo da Vinci's personality type?" section sits near the END of the piece (after ~10 sections), so the extractable type answer is buried for a Google/AI visitor who needs it up top. The TL;DR helps but doesn't fully answer the type question early.
-- NEEDS WORK: ENNEAGRAM CAPPED AT 8 — no `<details class="enneagram-rabbit-hole">`. The 5w4 "Iconoclast" wing analysis and stress/withdrawal mechanics sit in the body.
-- TO REACH B+ (8.5): (1) Move the type-answer section much earlier (right after the hook/TL;DR) so a landing reader gets the extractable answer fast — this is the single highest-leverage fix and lifts Discoverability past the gate comfortably. (2) Add an enneagram-rabbit-hole holding the 5w4 wing + stress-to-7 depth. (3) The contrast-panel "What Milan saw vs. What Leonardo was doing" is fine, but watch the repeated "The X was never the point. The Y was the point." cadence in the closing.
+FEEDBACK (2026-06-22):
+- CLEARS THRESHOLD. The revision fixed both prior blockers. Discoverability rises to 8: an extractable, bolded type answer now sits right after the TL;DR — "Leonardo da Vinci is an Enneagram Type 5, The Investigator (specifically a 5w4)" followed by a one-block evidence summary a Google/AI visitor can lift in seconds. meta_title and the 5 FAQ entries nail search intent; description is in range (~161 chars). Only ding: meta_title runs ~73 chars, slightly over the 35–65 ideal.
+- ENNEAGRAM RISES TO 9. A well-formed `<details class="enneagram-rabbit-hole">` now quarantines all the typology depth — 5w4 wing, sp/so subtype, stress-to-7 / growth-to-8 arrows, and the Type 4/9 counter-typing case. The body stays behavioral and person-first while clearing the emotional-interior check: felt interior (completion = death of inquiry), empathy turn (the "procrastinator" mockery reframed as investigation, not laziness), and interior beats (death "experienced as a question"; "from the interior of a Five").
+- Originality and writing remain top-tier: "completion felt like death" resolves the unfinished-everything paradox and passes the swap test; signature details land (woodpecker-tongue list, the centenarian's "so sweet a death" dissection, Salaì kept twenty-five years, David redrawn as Neptune, "we are still finding things"). The 1482 military-resume cold-open is one of the better hooks in the corpus. Evidence is well-sourced for a historical figure (Pope Leo X, Novellara, Bandello, Vasari, Corsali) but paraphrase-heavier than a living subject's own-words testimony — the path to a 9 on Evidence.
+- WATCH (not blocking): the "The X was never the point. The Y was the point." cadence recurs (type-answer bullets + closing); keep it under the contrast-pair cap. Trim meta_title toward ~65 chars on a future pass.
 -->
 
 
@@ -119,6 +119,8 @@ The mind that could do everything could not stop long enough to complete anythin
 </ul>
 </div>
 </details>
+
+**Leonardo da Vinci is an Enneagram Type 5, The Investigator (specifically a 5w4).** The whole paradox of the man resolves once you see it: he hoarded understanding the way other people hoard money, treated every commission as cover for a deeper investigation, and experienced finishing a painting as the end of the inquiry that kept him alive. Fifteen finished paintings in sixty-seven years, 13,000 pages of private mirror-script notebooks, the Mona Lisa carried unfinished for twenty years, thirty corpses dissected by candlelight purely to know — that is a Type 5 operating at the scale of genius. The rest of this piece is the evidence.
 
 ## The Bastard Son of Vinci
 
@@ -194,7 +196,7 @@ Leonardo knew exactly what he was doing. Milan was at war. The Duke needed engin
 
 But there's something deeper happening in that letter. Leonardo wasn't lying. He genuinely believed he could build these things. He had designed them in his notebooks. Bridges. Tanks. Machine guns. None of them had been built. None of them would be built in his lifetime. Several were centuries ahead of their time.
 
-This is the [Five's](/enneagram-corner/enneagram-type-5) relationship with knowledge in its purest form: the understanding is the product. Whether the bridge gets built is almost beside the point. Leonardo understood bridges. He understood them more deeply than anyone alive. That was enough for him, even if it wasn't enough for the Duke.
+For Leonardo, the understanding _was_ the product. Whether the bridge ever got built was almost beside the point. He understood bridges more deeply than anyone alive, and that was enough for him, even if it wasn't enough for the Duke. The patron wanted a weapon. Leonardo wanted to know how force travels through a span of timber. These are not the same hunger, and the gap between them is the story of his whole life.
 
 The letter worked. Ludovico brought Leonardo to Milan. He would stay for seventeen years.
 
@@ -257,23 +259,16 @@ He intended for the notebooks to be published. They never were. Not during his l
 
 ## What is Leonardo da Vinci's personality type?
 
-### Leonardo da Vinci is an Enneagram Type 5
+### Leonardo da Vinci is an Enneagram Type 5, The Investigator
 
-The evidence isn't subtle.
+The evidence isn't subtle. Across sixty-seven years, the same four behaviors repeat at the scale of genius.
 
-The core of Type 5 is an economy of scarcity, not of money, but of personal resources. Energy, time, attention. Fives wake each morning with a specific amount of capacity for the world, and they conserve it ruthlessly. They withdraw not because they're antisocial, but because they learned early that the world takes more than it gives.
+- **He treated his own attention as a scarce resource and guarded it.** From his retreat after the sodomy accusation, to his decades of working alone, to his final years in a French manor with only two companions, Leonardo consistently chose observation over participation. He gave the world contact in small, selective doses, then withdrew.
+- **He gathered understanding instead of sharing it.** The notebooks weren't communication. They were accumulation. He filled 13,000 pages with the most extraordinary range of inquiry ever produced by one person and organized none of it for anyone else to read.
+- **The task was never the task.** Every commission became cover for something deeper. The patron wanted a painting; Leonardo wanted to understand how a human face holds emotion at the moment of betrayal. The patron wanted a horse statue; Leonardo wanted the complete anatomy of the horse. He kept paying himself in comprehension while his clients went unpaid in product.
+- **He lived in his mind and forgot he had a body.** Vasari called him "lovable" and a "sparkling conversationalist" who could not deliver on commitments. The charm was real; so was the withdrawal. He forgot to eat. He kept a fractured sleep schedule of brief naps because sustained sleep felt like time stolen from thinking.
 
-Leonardo's entire life is this pattern expressed at the scale of genius:
-
-- **The withdrawal instinct.** From his post-sodomy-accusation retreat, to his decades of working alone, to his final years in a French manor with only two companions, Leonardo consistently chose observation over participation.
-- **Knowledge as fortress.** His notebooks weren't communication. They were accumulation. He gathered understanding the way a Five hoards provisions for an uncertain future.
-- **The investigation behind the investigation.** Every commission became something deeper. Patrons wanted products; Leonardo wanted comprehension. This is the Five's signature: the task is never the task. The task is what the task teaches you.
-- **The energy economy.** Vasari described him as "lovable" and a "sparkling conversationalist," but also noted his chronic inability to deliver on commitments. The charm was real. So was the withdrawal. Both are classic Five: engaging selectively, then retreating to recharge.
-- **The body problem.** Fives live so thoroughly in their minds that they forget they have bodies. Leonardo forgot to eat. He forgot to sleep on normal schedules. He adopted the polyphasic sleep pattern (fifteen-minute naps every four hours) not for productivity but because sustained sleep felt like time stolen from thinking.
-
-His 4-wing adds the artistic dimension that makes him more than a pure investigator. The 5w4 combination, sometimes called "The Iconoclast," produces people who don't just want to understand the world. They want to understand it _their way_, through a lens that is distinctively, stubbornly personal. Leonardo didn't just study anatomy. He drew it more beautifully than any anatomist ever had. He didn't just observe light. He painted it with a technique so subtle that modern scientists needed X-ray fluorescence to measure it.
-
-The [Type 4](/enneagram-corner/enneagram-type-4) wing gave Leonardo his aesthetic sense, his melancholy, and his conviction that his work had to be not just accurate but _original_. The Type 5 core gave him the discipline to pursue that originality across every field he touched.
+And the investigation was never neutral or detached. He didn't just study anatomy; he drew it more beautifully than any anatomist ever had. He didn't just observe light; he painted it with a technique so fine that modern scientists needed X-ray fluorescence to measure the layers. The understanding had to be accurate _and_ his own, original, unmistakably his — and that stubbornly personal streak is what kept the most knowledgeable man alive from ever being a mere cataloguer. (More on the wing that supplies that streak in the rabbit hole below.)
 
 ## The Man Who Kept a Thief for Twenty-Five Years
 
@@ -289,7 +284,7 @@ Salaì grew into a mediocre painter, a persistent thief, and Leonardo's most con
 
 The Salaì relationship reveals something the notebooks don't: the man who understood everything about the human body could not apply that understanding to his own emotional life. He kept a thief because the thief needed him. He catalogued the stealing with clinical precision and then paid for another pair of hose.
 
-This is the Five's great blind spot. They can analyze any system except the one running inside themselves. Leonardo could dissect a human heart and draw it more accurately than anyone for three centuries. He could not account for his own.
+He could analyze any system except the one running inside himself. He could dissect a human heart and draw it more accurately than anyone for three centuries. He could not account for his own.
 
 ---
 
@@ -385,3 +380,26 @@ He bought caged birds in the Florentine market and released them. Then he stood 
 The kindness was real. But so was the observation. He could never separate the two. He could never just set something free without studying how it moved through the air. He could never just love someone without cataloguing their flaws in a notebook. He could never just paint a woman's face without spending twenty years trying to capture the exact way a smile exists and doesn't exist simultaneously.
 
 He has been dead for five hundred years and we are still finding things in those notebooks. Did he leave them unfinished, or did he leave them open — knowing that the investigation, like the man, was never meant to end?
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Leonardo da Vinci</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system: the rest of the analysis stands on its own.</em></p>
+
+<h3>Leonardo da Vinci's Wing: 5w4</h3>
+
+<p>The record leans 5w4 over 5w6. A 5w6 ("The Problem Solver") tends to attach its hoarded knowledge to a discipline, an institution, or a body of authority — building a defensible position inside a known system. Leonardo did the opposite. He refused universities he was barred from anyway, never published, and rendered anatomy and light more beautifully than they had ever been rendered because accuracy alone never satisfied him; the work had to be unmistakably <em>his</em>. That fusion of investigation with a stubborn, melancholic aestheticism — the 4 wing's signature — is why he drew a dissected shoulder like a devotional object and chased the impossible smoothness of <em>sfumato</em> for twenty years. The flood drawings at the end of his life, scientific and grief-soaked at once, are the 4 wing speaking plainly. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Leonardo da Vinci's Instinctual Subtype: sp/so</h3>
+
+<p>He reads self-preservation-dominant. The self-pres Five guards a private fortress: a small, controlled habitat with minimal demands, where energy goes to the inner world rather than the social one. The mirror-script no one could read over his shoulder, the household kept to two or three companions, the polyphasic sleep that fenced off thinking time, the retreat into work after the 1476 accusation — all of it is the self-pres instinct minimizing intrusion. The social instinct runs second and shows in his court life: he charmed dukes and a king, staged pageants, played the "sparkling conversationalist." The one-to-one instinct is faintest, surfacing mainly in the few intense, asymmetrical bonds he kept for decades (Salaì, Melzi). Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, Fives take on the scattered, over-committed quality of Type 7 — chasing one fascinating thread after another without landing. This is Leonardo's "never finished anything" pattern read from the inside: a single page might run from jaw muscles to a grocery note to the physics of falling water to squaring the circle, each genuinely begun, none seen through. Isabella d'Este chasing one painting for six years, the Virgin of the Rocks finished twenty-five years late, the bronze horse studied for a decade and never cast — that is the 5-to-7 spread, appetite for the next question overrunning the discipline to close the last one. In growth, Fives move toward Type 8: stepping out of the head and into decisive, embodied action in the world. The rare moments Leonardo did this are telling — the 1482 letter that boldly sold him to Milan, the Romorantin city he designed at full scale for Francis I, the centenarian he dissected within hours of the man's death. When the fortress door opened outward, the understanding briefly became force.</p>
+
+<h3>Counterarguments: Why Leonardo da Vinci Might Not Be Type 5</h3>
+
+<p>The strongest alternate case is Type 4: the melancholy, the aestheticism, the deathbed lament that his work "did not reach the quality it should have," the conviction that everything had to be original. But the 4 organizes life around feeling and identity — who am I, why am I different — while Leonardo organized his around the impersonal question of how the world works; his emotion ran <em>through</em> investigation, not the reverse. A Type 9 case rests on the withdrawal and the avoidance of conflict, but the 9 merges and goes along to keep the peace, whereas Leonardo withdrew to <em>concentrate</em> — the fortress of a knower, not the numbing-out of a peacemaker. What would change our mind: evidence that the unfinished work stemmed from a 4's "it isn't beautiful or true to me yet" perfectionism rather than a 5's "the investigation taught me what I needed and moved on." The notebooks point to the second — he abandoned the painting precisely <em>because</em> the understanding behind it was complete.</p>
+</div>
+</details>

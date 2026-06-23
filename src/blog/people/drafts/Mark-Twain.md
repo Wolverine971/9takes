@@ -1,6 +1,6 @@
 ---
 title: "Mark Twain: The Enneagram Type 6 Behind America's Greatest Humorist"
-meta_title: "Why Mark Twain's Humor Was Really a Weapon Against Fear"
+meta_title: "Mark Twain Enneagram: The Type 6 Personality Behind the Wit"
 persona_title: "Literature's Counterphobic Prophet"
 description: "The man who made America laugh was a prisoner of his own conscience. How the Enneagram reveals the counterphobic fear driving Mark Twain's fearless wit."
 author: 'DJ Wayne'
@@ -85,26 +85,26 @@ production_pretext:
 path: src/blog/people/drafts/Mark-Twain.md
 content_quality:
   hook: 9
-  enneagram: 8
+  enneagram: 9
   evidence: 8
   writing: 8
   originality: 8
   discoverability: 8
-  overall: 8.1
+  overall: 8.2
   letter: B
   rubric_version: 2
-  graded_at: '2026-06-20'
+  graded_at: '2026-06-22'
 ---
 
-<!-- QUALITY GRADE: B (8.1) — rubric v2
-Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 9
+<!-- QUALITY GRADE: B (8.2) — rubric v2
+Evidence: 8 | Originality: 8 | Discoverability: 8 | Enneagram: 9 | Writing: 8 | Hook: 9
 
-FEEDBACK (2026-06-20):
-- The Halley's Comet bookend is excellent: "He predicted his own death. And he was right." opens on a specific, eerie, character-revealing fact and the closer pays it off. The "safe water" pen-name reading is a genuine signature detail — a man who charged at every fight built his identity on a word meaning "the water won't kill you here."
-- Evidence is solid for a historical subject: dated, sourced quotes (the Henry "May God forgive them" letter, the "trained Presbyterian conscience" line, Howells' "relentless rancor," the Eve's Diary graveside line). The Grant-memoirs loyalty story (70% royalty, financial risk, Julia Grant's windfall) is a clean Type 6 evidence point.
-- The counterphobic-Six thesis is well-argued and the "sound heart and a deformed conscience" section makes the typing feel earned. The Public Man / Private Man contrast panel (white suit vs. Letters from the Earth) is the sharpest structural device.
-- NEEDS WORK: (1) ENNEAGRAM CAP — wing/arrow mechanics sit in the body (the explicit "under stress, Sixes move toward unhealthy Type 3" paragraph; the authority-paradox "Classic Six" stamping) with no `<details class="enneagram-rabbit-hole">` accordion to hold them. Caps the dimension at 8. (2) The conscience motif over-repeats across nearly every section ("always the conscience," "the conscience spoke," "the conscience as engine") — the draft's own notes flag this; vary or thin it.
-- TO REACH B+: (1) Move the stress-arrow (6→3) mechanics and the "Classic Six" labels into a rabbit-hole accordion; keep the body person-first — biggest single lift, raising Enneagram to 9. (2) Engage one named modern critic of Twain's legacy or the Huck Finn reception debates with an empathy turn, rather than only the "pose vs. real" scholars, to push Originality past the cap. (3) Thin the conscience refrain to two or three deployments. (4) Trim the remaining duplicate "fearless but not fearless" reframes.
+FEEDBACK (2026-06-22):
+- The rabbit hole now exists and is well-formed: 6w7 wing, sp/so subtype, 6→3 stress / 6→9 growth arrows, and the Type 8 / Type 1 counterarguments all live inside `<details class="enneagram-rabbit-hole">`. The body stays person-first and behavioral-plus-felt — the stress-arrow mechanics have been relocated, so the dimension clears the rabbit-hole cap. Enneagram raised to 9: emotional interior check passes on all three counts — felt interior (dread of being alone with the silent "courtroom" in his own vocabulary), empathy turn (Smiley's charge becomes "the wish of a man who lived in dread," understandable without being excused), and an interior beat ("in the silence he could hear it all: Henry died because of him").
+- The relocated in-body typology and the new Smiley engagement both landed. "Say It Ain't So, Huck" is a real named modern critic with a genuine empathy turn, clearing the ducked-critic pressure.
+- The Halley's Comet bookend, the "safe water" pen-name reading, and the Public Man / Private Man contrast panel remain the structural highlights. Hook stays at 9.
+- NEEDS WORK: (1) The three 1.5×-weighted dimensions — Evidence, Originality, Discoverability — all sit at 8, which is what holds the weighted overall at 8.2, below the 8.5 threshold. None has a clear ceiling problem; each is a notch short of a 9. (2) The conscience motif, though thinned, still recurs across most sections; a couple of "isn't wrong / but isn't the whole story" contrast reframes linger.
+- TO REACH B+ (8.5): the lift must come from a 1.5× dimension, not Enneagram/Writing/Hook (already strong). Best single move: push ORIGINALITY to 9 — the analysis is fresh but the spine ("the fearless rebel was actually fear-driven") is a known counterphobic-6 frame; add one more genuinely non-obvious signature insight (e.g., the Connecticut Yankee / Paige Compositor self-parallel could be sharpened into a standalone aha rather than a passing note). Alternatively push EVIDENCE to 9 by attributing the "biographers say/note" claims to named biographers with dates, converting paraphrase to sourced testimony. Either single move clears 8.5.
 -->
 
 > "I came in with Halley's Comet in 1835. It is coming again next year, and I expect to go out with it. It will be the greatest disappointment of my life if I don't go out with Halley's Comet. The Almighty has said, no doubt: 'Now here are these two unaccountable freaks; they came in together, they must go out together.'"
@@ -117,7 +117,7 @@ Most people read that story and see cosmic poetry. A literary flourish from Amer
 
 The same kind that chose a pen name meaning "safe water." The same kind that wielded laughter the way other men wield swords — not for sport, but for survival. The same kind that told an entire nation the truth about itself while privately confessing that he was "a prisoner of his conscience" who feared being left alone with his own mind.
 
-The world remembers Mark Twain as the fearless rebel — the irreverent genius who attacked religion, racism, imperialism, and every other sacred cow with a smile and a cigar. That image isn't wrong. But it isn't the whole story. The fearlessness was real. It just wasn't fearlessness. It was something far more interesting.
+The world remembers Mark Twain as the fearless rebel — the irreverent genius who attacked religion, racism, imperialism, and every other sacred cow with a smile and a cigar. That image isn't wrong. But it isn't the whole story. The boldness was real. It just wasn't the absence of fear. It was something far more interesting: fear with nowhere to hide but forward.
 
 <details>
 <summary class="accordion">TL;DR: Why Mark Twain is an Enneagram Type 6</summary>
@@ -207,13 +207,13 @@ Enneagram Sixes are driven by a core fear of being without support, without guid
 
 Mark Twain was a counterphobic Six, and the pattern explains everything the conventional portrait misses:
 
-- **The authority paradox.** He married Olivia Langdon, daughter of one of the wealthiest families in Elmira, New York — seeking security through the establishment. He befriended Howells, the gatekeeper of American literature. Then he spent decades demolishing every institution he encountered: the church, the military, the government, the publishing industry, American imperialism itself. He craved legitimate authority and then destroyed it when it proved fallible. Classic Six.
+- **The authority paradox.** He married Olivia Langdon, daughter of one of the wealthiest families in Elmira, New York — seeking security through the establishment. He befriended Howells, the gatekeeper of American literature. Then he spent decades demolishing every institution he encountered: the church, the military, the government, the publishing industry, American imperialism itself. He went looking for solid authority to lean on, then turned on it the moment it proved fallible — the lifelong tension of a man who could neither trust the establishment nor stop seeking its approval.
 
-- **The loyalty that defined him.** His devotion to Livy was absolute — she was his editor, his moral compass, the foundation of his daily life. His friendship with Howells lasted forty years. When Ulysses S. Grant was dying of throat cancer and broke from bad investments, Twain offered him a 70% royalty on his memoirs — seven times what another publisher had proposed — and took on the financial risk himself. Grant's _Personal Memoirs_ became one of the bestselling books of the 19th century, earning his widow Julia more than $450,000 (over $11 million today). Twain did it out of loyalty to a man he admired, and it eventually helped bankrupt his own publishing company. When his own bankruptcy came, he paid off every creditor in full even though he was no longer legally obligated to do so, because breaking a commitment was unthinkable. Sixes build their security through bonds, and Twain's bonds were unbreakable.
+- **The loyalty that defined him.** His devotion to Livy was absolute — she was his editor, his moral compass, the foundation of his daily life. His friendship with Howells lasted forty years. When Ulysses S. Grant was dying of throat cancer and broke from bad investments, Twain offered him a 70% royalty on his memoirs — seven times what another publisher had proposed — and took on the financial risk himself. Grant's _Personal Memoirs_ became one of the bestselling books of the 19th century, earning his widow Julia more than $450,000 (over $11 million today). Twain did it out of loyalty to a man he admired, and it eventually helped bankrupt his own publishing company. When his own bankruptcy came, he paid off every creditor in full even though he was no longer legally obligated to do so, because breaking a commitment was unthinkable. He built his security out of people, not money — and the bonds he made, he refused to let break.
 
-- **The conscience as engine.** His "trained Presbyterian conscience," as he called it, "knew but the one duty — to hunt and harry its slave upon all pretexts and on all occasions, particularly when there was no sense nor reason in it." This is the Six's inner committee of doubts given voice — the relentless questioning that never lets up, that turns every decision into a moral trial.
+- **The conscience as engine.** His "trained Presbyterian conscience," as he called it, "knew but the one duty — to hunt and harry its slave upon all pretexts and on all occasions, particularly when there was no sense nor reason in it." He carried a courtroom in his head, and the verdict was always guilty. Every decision became a moral trial, every choice an occasion for the prosecution to rise.
 
-- **The dread of being alone with himself.** Biographers have noted his "frequently noted fear of solitude, that dread of being alone with himself." This [anxiety pattern](/enneagram-corner/enneagram-types-in-stress) is textbook Six under pressure. The humor, the performances, the constant company, the billiards marathons — all of it served a single purpose: noise. Without it, the conscience spoke. And what it said was unbearable.
+- **The dread of being alone with himself.** Biographers have noted his "frequently noted fear of solitude, that dread of being alone with himself." The humor, the performances, the constant company, the [billiards marathons](/enneagram-corner/enneagram-types-in-stress) — all of it served a single purpose: noise. Without it, the courtroom reconvened. And what it found was unbearable.
 
 ---
 
@@ -225,9 +225,11 @@ Twain later wrote that the novel's central conflict was between "a sound heart a
 
 This was Mark Twain's life philosophy, wrung from experience. He had been raised in a slave state. He had absorbed its morality. And then he had to spend decades un-learning what his society taught him, turning his guilt into the most devastating critique of American racism ever written.
 
+Not everyone reads it that way. In a 1996 Harper's essay, "Say It Ain't So, Huck," the novelist Jane Smiley argued that the book lets Huck — and by extension Twain, and by extension white America — off too easy: Huck agonizes over whether to free Jim, decides he'd rather go to hell, and is rewarded with the comfort of knowing Jim was legally free all along. Smiley's charge is that the moral crisis is staged, the stakes quietly defused. And she has a point that cuts closer to Twain's psychology than to his politics. A man who could not stop rehearsing catastrophe, who repaid debts he didn't legally owe to settle a verdict in his own head, would naturally write a hero who suffers the full weight of a decision and is then spared its cost. That isn't moral cowardice. It's the wish of a man who lived in dread that the ground would give way — that for once, you could do the brave thing and not be punished for it. Twain built Huck a safety net he never got to have himself.
+
 The moral crusading only intensified with age. In the last two decades of his life, Twain became an outspoken anti-imperialist, serving as vice president of the Anti-Imperialist League of New York. He published "To the Person Sitting in Darkness," a savage satire exposing American imperialism in the Philippines, the Boxer Rebellion, and the Boer War. He confronted his close friend Joseph Twichell: "If you teach your people — as you teach me — to hide their opinions when they believe the flag is being abused and dishonored, lest the utterance do them and a publisher damage, how do you answer for it to your conscience?"
 
-Always the conscience. Always the question of moral courage. Always the Six asking: _if I stay silent, can I live with myself?_
+It always came back to the same question of moral courage — _if I stay silent, can I live with myself?_
 
 The answer was always no.
 
@@ -253,7 +255,7 @@ For over a decade, he poured money into the Paige Compositor — a revolutionary
 
 In April 1894, he filed for bankruptcy. He owed $80,000 — over $2 million today — to authors, bookbinders, and a bank.
 
-Here is where the Six reveals itself most clearly. Under stress, Sixes move toward unhealthy [Type 3](/enneagram-corner/enneagram-type-3) patterns — image management, desperate performance, achievement as armor. After bankruptcy, Twain accepted a grueling around-the-world lecture tour to pay off every creditor in full. He was not legally obligated to repay a cent. But a Six who breaks a commitment ceases to be trustworthy, and trustworthiness is the only currency that matters.
+Here is where the man reveals himself most clearly. Broke and humiliated at fifty-eight, he did not retreat or renegotiate. He drove himself harder. He accepted a grueling around-the-world lecture tour to pay off every creditor in full — and he was not legally obligated to repay a cent. The bankruptcy court had discharged the debt. He paid it anyway, because owing money to people who had trusted him was a verdict on his character he could not live with. Being seen as a man who kept his word mattered more than the money, more than his health, more than the truth that he could simply have walked away.
 
 He toured for over a year. He paid back every dollar. And the performance nearly destroyed him.
 
@@ -294,11 +296,38 @@ Both were true. That was the point.
 
 "My temperament has never allowed my spirits to remain depressed long at a time," he wrote — and he wrote it shortly after his daughter died.
 
-This is the sentence that cracks open everything about Mark Twain. A man in the deepest grief of his life, claiming his temperament won't allow sustained depression. Not because the grief isn't real. Because the mind won't let itself sit in it. Because stillness is where the conscience lives, and the conscience is merciless, and the only escape is movement — another joke, another fight, another performance, another white suit, another prediction about a comet.
+This is the sentence that cracks open everything about Mark Twain. A man in the deepest grief of his life, claiming his temperament won't allow sustained depression. Not because the grief isn't real. Because the mind won't let itself sit in it. Because stillness is where the courtroom reconvenes, and the verdict is merciless, and the only escape is movement — another joke, another fight, another performance, another white suit, another prediction about a comet.
 
 He called laughter the one really effective weapon. He didn't say it was a joy. He said it was a weapon. And he used it for seventy-four years, against every enemy he could find, because the alternative was silence. And in the silence he could hear it all: Henry died because of him. Susy died while he was performing on the other side of an ocean. The human race was probably not worth the trouble. The ground had never been solid, not once, not ever.
 
 He went out with the comet. Exactly as he planned. Because a Six, in the end, cannot abide a story without a contingency plan — even the story of his own death.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Mark Twain</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+
+<h3>Mark Twain's Wing: 6w7</h3>
+
+<p>The record leans 6w7 over 6w5. The 7 wing is the comic engine — the restlessness, the appetite for tall tales and travel, the reflex to escape a dark thought by reaching for a brighter, funnier one. "My temperament has never allowed my spirits to remain depressed long at a time," he wrote, and that is the 7 wing talking: when the ground feels like it's giving way, find the next adventure, the next bit, the next pleasure that proves life is still worth the risk. A 6w5 would have turned more inward and scholarly under the same fear — closer to the recluse than the lecture-circuit showman Twain became. The case for 6w5 is real (the moral severity, the systematic pessimism of his late philosophy, <em>What Is Man?</em>), but the dominant note across his life is the Seven's flight into motion and humor rather than the Five's retreat into the study. More on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.</p>
+
+<h3>Mark Twain's Instinctual Subtype: sp/so</h3>
+
+<p>He reads self-preservation first. The self-preservation Six builds security through warmth, alliance, and the literal accumulation of safety nets — and Twain's whole financial life is a self-pres Six's nightmare and obsession: chasing the Paige Compositor for over a decade to lock down a fortune that would never fail, then repaying every creditor by hand to keep his good name solvent. The social instinct runs a close second and shows in his public roles — the Anti-Imperialist League vice presidency, the lifelong cultivation of a literary establishment whose approval he needed even as he attacked it. The one-to-one instinct concentrated almost entirely on Livy, the single bond he organized his entire interior around. Background on <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.</p>
+
+<h3>Stress and Growth Arrows</h3>
+
+<p>Under stress, Sixes move to Type 3: image management, frantic performance, achievement as armor. The bankruptcy is the arrow in one biographical line — broke and humiliated at fifty-eight, Twain did not retreat; he reinvented himself as a globe-trotting performer and worked himself half to death on a world lecture tour to rebuild both his fortune and his reputation. The white suit at the 1906 copyright hearing is the same arrow at rest: a man turning himself into a brand, a curated image so iconic it could do the persuading his arguments no longer could. In growth, Sixes move to Type 9: trusting peace, letting the inner committee fall quiet, accepting the ground as it is. Twain reached it only in flashes — the river years he called the most satisfying of his life, the stretches at the billiard table, Howells' portrait of "the warm, bright, mellow mood" that "invariably returned." The tragedy of his last decade is that those Type 9 moods stopped coming back. The conscience won.</p>
+
+<h3>Counterarguments: Why Mark Twain Might Not Be Type 6</h3>
+
+<p>The strongest alternate case is Type 8: the confrontational public voice, the appetite for a fight, the demolition of church and state and empire all read like a Challenger's lust for combat. But the 8 fights from a baseline of felt power and rarely doubts the ground beneath it, while Twain fought from dread — the private confession of a man "a prisoner of his conscience" who feared being left alone with his own mind, who rehearsed his own death and kept a contingency plan for everything. That is fear weaponized, not power expressed. A Type 1 case rests on the relentless conscience and the moral crusading, but the 1's inner critic enforces a fixed standard of rightness, while Twain's conscience was a scanning machine of doubt — questioning trust, mapping danger, reversing its own verdicts ("a sound heart and a deformed conscience"). What would change our mind: evidence that the combativeness came from genuine inner security rather than from outrunning fear (8), or that the moral severity was a settled conviction of correctness rather than an anxious, self-reversing tribunal (1).</p>
+</div>
+</details>
+
+---
+
+<p><em>This is an Enneagram-based interpretation of letters, autobiography, biographers' accounts, and the subject's own published statements, not a clinical diagnosis. Confidence in the counterphobic Type 6 reading: high. Wing call (6w7 over 6w5): moderate.</em></p>
 
 <!-- FRESH EYES REVIEW (2026-04-09)
 Biggest issues:
