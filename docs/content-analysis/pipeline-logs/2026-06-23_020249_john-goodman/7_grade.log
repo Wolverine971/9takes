@@ -1,0 +1,17 @@
+## Grading Complete — John Goodman
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| John-Goodman | 9 | 9 | 8 | 9 | 9 | 9 | **8.8** | **B+** |
+
+*(Overall weighted: (9×1.5 + 9×1.5 + 8×1.5 + 9 + 9 + 9×0.5) / 7 = 8.8. Discoverability 8 ≥ 7 → gate clears.)*
+
+### Key Observations
+- **Publication-ready.** This is a genuinely strong blog — five 9s and a single 8 keeping it just under A. The "volume is the cover" thesis is one of the better paradox-resolutions in the corpus, and the emotional interior (empathy turn + interior beats) is fully realized rather than behavioral.
+- **The one thing holding it back from A is a single frontmatter field.** `meta_title` is clever-but-unsearchable — it omits "enneagram"/"type 9." That's the rendered `<title>` and the cheapest possible fix. Rewrite it to lead with search intent and this likely tips into A (9.0+).
+- **Minor evidence note:** still leans on the Maron 2019 episode for most load-bearing *quotes*; the SNL/Oscar/2021 additions are facts, not quotes.
+
+### Publication Ready (B+ or above)
+- ✅ **John-Goodman (B+, 8.8)** — meets the 8.5 threshold and clears the Discoverability gate.
+
+Grades written to frontmatter (`content_quality`, rubric v2) and a reviewer comment with concrete to-A steps added after the closing `---`.

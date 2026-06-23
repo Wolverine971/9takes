@@ -1,0 +1,22 @@
+Done. Second pass complete on `src/blog/people/drafts/John-Goodman.md`.
+
+## What I changed
+
+I treated the Fresh Eyes notes as a strong but not-binding list, verified every new fact by web search, then made five edits:
+
+**Added substance (the high-value gaps):**
+- **SNL** — new paragraph in the cast section. Goodman hosted *Saturday Night Live* 13 times (1989–2013), third-most ever behind Steve Martin and Alec Baldwin, with the "Platinum Lounge" inside joke. This was the one real reader-expectation gap, and it's the cleanest proof of the thesis: a 9 returning year after year to a *family that was never even his show*, just to be useful in the room.
+- **No Oscar nomination, ever** — added to the "underestimated craftsman" beat. The everyman overlooked even by the people whose job is to notice. Thesis at its sharpest.
+- **Fatherhood payoff** — the fatherless boy became a present father, and his 2021 line crediting Molly's character to "her mother and her grandmother" is a perfect 9 deflection. It cashes the opening shaving-mirror wound.
+
+**Trimmed the tics:**
+- Cut the duplicate "nothing to the party" (kept the stronger diagnosis-section instance).
+- Varied one of three stacked "Not X. Not Y." negation beats so the rhythm doesn't read as a tic.
+
+**Rejected one note:** I left the 2018 Roseanne-tweet beat where it is. Fresh-eyes wanted "a hair more air," but it's already a full standalone paragraph; breaking it out further would over-weight a sub-beat against the drinking and SNL material.
+
+Lint passes clean (0 fail). Per your standing rule, I did **not** touch `lastmod`.
+
+**Still open:** no `faqs` frontmatter yet — that's the frontmatter-enrich stage, not this pass. Not a blocker.
+
+Sources: [Wikipedia – John Goodman](https://en.wikipedia.org/wiki/John_Goodman), [SNL Wiki – John Goodman](https://snl.fandom.com/wiki/John_Goodman), [Wikipedia – awards and nominations](https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_John_Goodman), [HollywoodLife – Molly Evangeline Goodman](https://hollywoodlife.com/feature/john-goodman-kids-5040712/)

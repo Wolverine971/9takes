@@ -465,7 +465,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	],
 	9: [
 		{ name: 'abraham-lincoln', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Melancholy Peacemaker', contentGrade: 9, types: ['historical', 'politician', 'historical-leader'] },
-		{ name: 'adam-sandler', link: false, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Comedy\'s Gentle Fortress', contentGrade: 8.6, types: ['comedian', 'movieStar', 'screen-icon'] },
+		{ name: 'adam-sandler', link: true, hasImage: true, lastmod: '2026-06-23', personaTitle: 'Comedy\'s Gentle Fortress', contentGrade: 8.6, types: ['comedian', 'movieStar', 'screen-icon'] },
 		{ name: 'alexis-bledel', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Television\'s Deliberate Ghost', contentGrade: 9, types: ['celebrity', 'screen-icon'] },
 		{ name: 'alix-earle', link: true, hasImage: true, lastmod: '2026-05-14', personaTitle: 'TikTok\'s Sleeping Empire', contentGrade: 9, types: ['influencer', 'creator', 'lifestyle-builder'] },
 		{ name: 'austin-butler', link: true, hasImage: true, lastmod: '2026-05-28', personaTitle: 'Hollywood\'s Borrowed Voice', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
@@ -507,7 +507,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'jane-goodall', link: false, hasImage: false, lastmod: '2026-05-17', personaTitle: 'The Quiet Witness Who Wouldn\'t Stay Quiet', contentGrade: 9.1, types: ['activist', 'historical', 'author'] },
 		{ name: 'jason-sudeikis', link: false, hasImage: false, lastmod: '2026-06-17', personaTitle: 'Comedy\'s Reluctant Peacekeeper', contentGrade: 8.8, types: ['comedian', 'movieStar'] },
 		{ name: 'jennifer-aniston', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'America\'s Beloved Vanishing Act', contentGrade: 8.8, types: ['movieStar', 'screen-icon'] },
-		{ name: 'john-goodman', link: false, hasImage: false, lastmod: '2026-06-21', personaTitle: 'Hollywood\'s Vanishing Everyman', contentGrade: null, types: ['movieStar', 'celebrity'] },
+		{ name: 'john-goodman', link: false, hasImage: false, lastmod: '2026-06-21', personaTitle: 'Hollywood\'s Vanishing Everyman', contentGrade: 8.8, types: ['movieStar', 'celebrity'] },
 		{ name: 'khaby-lame', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'kurt-russell', link: false, hasImage: false, lastmod: '2026-06-17', personaTitle: 'Hollywood\'s Unbothered Holdout', contentGrade: 8.8, types: ['movieStar'] },
 		{ name: 'nelson-mandela', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Madiba\'s Quiet Eight Wing', contentGrade: 9, types: ['historical', 'politician', 'activist', 'movement-leader'] },

@@ -1,0 +1,24 @@
+## Cohesion Check Complete: John-Goodman.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+John Goodman is a Type 9 whose warmth onscreen is the cover for a lifelong belief that he doesn't matter — a self-erasure that drove 30 years of self-punishing drinking, and which he's only late in life learning to undo.
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+- **Diagnosis → Childhood**: Added a two-sentence bridge after "the Type 9 gift, turned into a career." It carries the "treating himself as nothing" keyword forward and points the reader to the childhood origin, so the section no longer leaps cold from career-craft to the father's death. The strong cold open of the childhood section ("died of a heart attack a month before John turned two. He has no memory of him. None.") is preserved untouched.
+- **Cast → Drinking**: Added one bridging line after "belonging instead of erasure" — "But the home he built never reached the part of him that still believed he was nothing. That part he handled another way." This pivots from the gift's healthiest form to its darkest cost and sets up the drinking, instead of slamming pole-to-pole. The drinking section's strong opener ("The drinking did not start as a party. It started as a decision.") is preserved.
+
+Both additions use short, direct sentences matching the piece's existing rhythm, carry a keyword across the boundary (the "nothing" wound), and contain no banned AI language or em-dashes.
+
+### What Was Preserved
+- All frontmatter, ledger comments, revision logs, and the `<details>` TL;DR and Rabbit Hole blocks
+- All internal links and Svelte/HTML components (contrast-panel, inner-thought, etc.)
+- The two strongest section openers (childhood father-fact, drinking "decision")
+- 2 of 4 section transitions that were already strong (Childhood → Cast, Drinking → Final) and all internal paragraph flow
+
+### Remaining Concerns
+None structural. Two notes outside my remit (cohesion only), already tracked in the draft's own ledgers: the final section's opening sentence ("The numbers around John Goodman finally moving in the right direction tell a late story") reads a little awkwardly as written — a word-choice fix for the line editor, not a cohesion issue. And `faqs` frontmatter is still pending the enrich stage. The through-line itself is clean end to end.

@@ -1,0 +1,43 @@
+[2026-06-23 02:02:49] [INFO] Recovery re-run: launching full 7-stage pipeline for john-goodman
+[2026-06-23 02:22:39] [SUCCESS] john-goodman completed via recovery re-run — Grade 8.8 (B+), discoverability 8, duration ~19 min. inProgress cleared, rate limit 1/5.
+No Telegram bot/token is actually configured in this repo (the command spec describes the message format, but there's no send integration), so I'll surface the notification content here rather than fabricate a send.
+
+The recovery run is complete. Here's the summary:
+
+```
+📚 9takes Daily Blog Creator — 2026-06-23
+
+✅ SUCCESS (recovery re-run)
+
+Blog: John Goodman
+Type: 9
+Grade: 8.8/10 (B+)
+Discoverability: 8 (gate cleared)
+Duration: ~19 min
+File: src/blog/people/drafts/john-goodman.md
+
+Next blog in queue: Susan Sarandon (Type 8, priority 58)
+```
+
+```
+=== DAILY BLOG CREATOR SUMMARY ===
+Date: 2026-06-23
+Status: SUCCESS (recovered orphaned inProgress)
+Blog: john-goodman
+Grade: 8.8 (B+), discoverability 8
+Duration: ~19 min
+Rate limit: 1/5 this week
+Next Run: Tomorrow 2:00 AM
+===================================
+```
+
+**What happened — this was a recovery, not a normal run.** Pre-flight found `inProgress` stuck on **john-goodman** (19h old, so under the 24h stale cutoff). But it wasn't a live run: the 2026-06-22 recovery launch had **orphaned again** (its `1_create.log` was 0 bytes), leaving only a stage-1-only draft from 06-21 that was never graded or enriched. This is the recurring background/orphan failure. Rather than blindly skip on the "<24h" rule (which would have left the queue blocked another day on a dead run), I treated it as a failed launch and completed the recovery:
+
+1. **Ran the full 7-stage pipeline synchronously**, launched detached and **held my turn open polling until the process exited** (the rule that prevents the orphan recurrence) — never backgrounded-and-ended-turn.
+2. Pipeline ran clean through all stages; the grade cleared the bar on the first pass (**8.8 / B+**, discoverability 8), so no revise loop was needed.
+3. Verified the draft is fully enriched (`wikidata_qid: Q215072`, 5 FAQs, type/enneagram set) and `production_pretext.status: draft` (not blocked).
+4. Moved john-goodman to `completed`, **cleared `inProgress`**, and incremented the weekly rate limit to **1/5**.
+
+The queue is now unblocked. Tomorrow's run will pick up **Susan Sarandon** (next highest priority).
+
+One note worth flagging: this is now **two consecutive nights** (06-21, 06-22) where the *scheduled* launch orphaned after stage 1 and only got completed via manual/recovery intervention. The synchronous-hold-the-turn pattern works when I drive it, but the unattended OpenClaw launches keep dying mid-pipeline. That's a scheduler-side reliability problem worth digging into separately — want me to investigate the OpenClaw job config / how it invokes the pipeline so the nightly run stops orphaning?

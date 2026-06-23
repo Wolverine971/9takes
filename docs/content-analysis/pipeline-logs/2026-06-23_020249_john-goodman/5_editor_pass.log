@@ -1,0 +1,13 @@
+Polished. The draft was already structurally sound after its prior passes, so this was light line-level work, not a rebuild.
+
+**Draft:** `src/blog/people/drafts/John-Goodman.md`
+
+**What I cleaned up:**
+- **Broke the negation-tic cluster in the drinking section.** Three "not-X-it's-Y" rhythms were stacking within one section. Changed the section opener "The drinking did not start as a party. It started as a decision." → "The drinking started as a decision." That leaves the two strongest instances ("Not the loud, fun drinking…" and the recliner "was not comfort" line) doing the work without the pattern reading as a verbal tic.
+- **Split two wall-of-text paragraphs for mobile rhythm.** The underestimated-craftsman block (Barton Fink → Oscar snub → Broadway) and the Anna Beth marriage block were each dense back-to-back paragraphs. Split each at a natural beat so the Oscar-snub line and the 35-year-marriage line land on their own.
+
+**What I deliberately left alone:** the shaving-mirror open, the inner-thought block, the empathy turn in the drinking section, "the volume is the cover," and the "turning myself in to the Gestapo" detail — all the load-bearing emotional and interior beats. `lastmod` untouched per the hard rule.
+
+**Verification:** `./scripts/blog-lint.sh John-Goodman` → **0 fail, 1 warn**. Em-dash check passes (zero prose em-dashes), no banned AI phrases. The lone warning is `no faqs in frontmatter`, which is the frontmatter-enrich stage's job, not this pass.
+
+The draft reads production-ready on prose. The only open item before publish is the frontmatter FAQ enrichment (and the grade gate), both downstream of this editorial pass.

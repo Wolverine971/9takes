@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-06-22T06:05:50Z",
+	"lastUpdated": "2026-06-23T06:22:30Z",
 	"stats": {
 		"totalUnpublished": 126,
 		"totalPublished": 266,
@@ -190,6 +190,25 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "john-goodman",
+			"displayName": "John Goodman",
+			"type": 9,
+			"priority": 59,
+			"priorityReason": "Long-running screen presence, strong public affection, and a grounded Type 9 actor profile",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 1,
+			"strategicValue": "hollywood-legacy-cluster",
+			"recoveryNote": "Completed via 2026-06-23 synchronous recovery re-run after two prior orphaned launches (06-21, 06-22). Full 7-stage pipeline; grade cleared bar on first pass (no revise loop).",
+			"startedAt": "2026-06-23T06:02:15Z",
+			"completedAt": "2026-06-23T06:22:30Z",
+			"contentGrade": "8.8 (B+)",
+			"discoverability": 8,
+			"duration": "19 min"
+		},
 		{
 			"name": "victoria-justice",
 			"displayName": "Victoria Justice",
@@ -894,21 +913,7 @@
 			"recoveryNote": "Daily creator wrapper failed twice during stage 1 with zero-byte logs and no draft; completed by direct run of scripts/run-blog-pipeline.sh."
 		}
 	],
-	"inProgress": {
-		"name": "john-goodman",
-		"displayName": "John Goodman",
-		"type": 9,
-		"priority": 59,
-		"priorityReason": "Long-running screen presence, strong public affection, and a grounded Type 9 actor profile",
-		"estimatedTraffic": "high",
-		"searchVolume": "high",
-		"personaTitle": null,
-		"addedToQueue": "2026-04-12",
-		"retryCount": 1,
-		"strategicValue": "hollywood-legacy-cluster",
-		"recoveryNote": "Recovery run 2026-06-22: 06-21 run orphaned after stage 1 (draft created, 2_fresh_eyes.log 0 bytes, never graded/enriched). Re-running full 7-stage pipeline.",
-		"startedAt": "2026-06-22T06:05:50Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "anna-wintour",

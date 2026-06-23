@@ -4,12 +4,12 @@ meta_title: "Adam Sandler's Enneagram Type, Explained: The Type 9 Peacemaker"
 persona_title: "Comedy's Gentle Fortress"
 description: "Adam Sandler built a billion-dollar empire on making everyone comfortable. The Enneagram reveals what he's been avoiding, and what breaks through."
 author: 'DJ Wayne'
-date: '2026-04-06'
+date: '2026-06-23'
 loc: 'https://9takes.com/personality-analysis/adam-sandler'
-lastmod: '2026-05-19'
+lastmod: '2026-06-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['comedian', 'movieStar', 'screen-icon']
 person: 'adam-sandler'

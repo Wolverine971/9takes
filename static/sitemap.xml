@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -963,6 +963,13 @@
     <lastmod>2026-05-07</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Adam-Neumann.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/adam-sandler</loc>
+    <lastmod>2026-06-23</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Adam-Sandler.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -1373,7 +1380,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -3474,7 +3481,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vincent-van-gogh</loc>

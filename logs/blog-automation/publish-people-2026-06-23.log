@@ -1,0 +1,17 @@
+All checks pass.
+
+```
+Published people blog.
+
+Person: adam-sandler
+Draft: src/blog/people/drafts/Adam-Sandler.md
+Date/lastmod: 2026-06-23
+Supabase: published=true (row id 922)
+Images: full + thumbnail present (static/types/9s/Adam-Sandler.webp + s-Adam-Sandler.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Adam Sandler (Type 9, grade 8.6, 4,510 words) was auto-selected as the top eligible draft and published. Frontmatter dated 2026-06-23, `famousTypes.ts` shows `link: true, hasImage: true`, and the personality-analysis URL is in the sitemap.

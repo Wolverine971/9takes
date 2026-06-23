@@ -1,0 +1,20 @@
+A draft already existed (created 2026-06-21) with a Fresh Eyes review attached, so this ran as an **update**: I researched and integrated the flagged gaps, then re-verified the gates.
+
+**What changed**
+- **Marriage added** (the biggest blind spot): Anna Beth Hartzog — met at Tipitina's Halloween party 1987, married 1989, moved the family to New Orleans, daughter Molly. Placed in the cast section as the real-life proof of "attaches to families and stays," and the 2007 phone call now pays it off (she made the calls, found the treatment center; he says he'd be dead without her).
+- **2018 Roseanne implosion added**: defended Barr without defending the tweet, "brokenhearted," ~month of depression, returned to *The Conners* with her character killed off — the conflict-avoidant 9 refusing to pick a side.
+- **Dramatic range hardened**: Charlie Meadows / *Barton Fink* menace + Beckett and Mamet on Broadway, to back the "specific kind of craftsman" claim.
+- **Current-tense anchor strengthened**: 72, 16 years sober, ~200 lbs lost, *Conners* "hard breakup," the recent therapist "it purged out of me" breakthrough — more present than the 2019 Maron material.
+- **Trims**: reworded two of the three "not X, it was Y" contrast lines (kept the recliner one), tightened the close so the father-hole beat lands once.
+- **`lastmod` left untouched** per your standing rule (you manage it manually).
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/John-Goodman.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (2 testimony quotes) | Gate 2: pass (4 search-intent/hybrid H2s) | Gate 4: pass (no anaphora ending) | Gate 5: pass (3 type-theory paras ≤4) | Gate 6: pass (2 critic anchors, empathy turn, current anchor, interior beat, ending swap pass)]
+LIMITATIONS: faqs frontmatter not present (downstream enrich stage, out of scope)
+```
+
+Next step in the pipeline is human review, then `blog_content_production_people` before anything hits the database.

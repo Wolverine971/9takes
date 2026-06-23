@@ -1,0 +1,26 @@
+Frontmatter enrichment complete: John-Goodman
+
+**Fields filled:**
+- `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved untouched):**
+- `wikipedia` (`https://en.wikipedia.org/wiki/John_Goodman`), `instagram` (`johngoodman`)
+
+**Verification:**
+- Wikidata `Q215072` and IMDb `nm0000422` cross-checked against Wikidata P345 (they match)
+- Birth `1952-06-20`, Affton, Missouri — confirmed via Wikidata P569/P19
+
+**FAQs generated (5):**
+1. What is John Goodman's personality type? → `#what-is-john-goodmans-personality-type`
+2. How did losing his father shape John Goodman? → `#how-losing-his-father-before-his-second-birthday-shaped-john-goodman`
+3. Why does John Goodman keep returning to the same casts? → `#why-john-goodman-disappears-into-every-cast`
+4. Why did John Goodman drink for thirty years? → `#what-john-goodman-was-drinking-to-forget`
+5. How can a self-erasing man play the loudest character in every room? → `#what-is-john-goodmans-personality-type`
+
+All anchors match existing H2 slugs in the body. All FAQ answers are drawn from the actual analysis (the "I'm nothing" diagnosis, the father-hole formation, the Coens/Roseanne/SNL ensemble pattern, the Guardian "punishing myself" drinking beat, the "volume is the cover" paradox).
+
+**Issues:**
+- The body contains **no inline external URLs** (only internal `/enneagram-corner/` links). Per the no-invent rule, `citations` was built from the authoritative sources the body explicitly names and quotes — WTF/Maron ep. 1068 (the most-cited source), The Guardian 2015 interview (source of "punishing myself" and "could have gone under"), plus the canonical Wikipedia page and the on-screen-and-stage page (backing the SNL/Oscar/filmography facts). All four are real, verified URLs.
+- `lastmod` left exactly as found (DJ-managed). Body, comment blocks, and `production_pretext` untouched.
+
+Sources used for verification: [Wikidata Q215072](https://www.wikidata.org/wiki/Q215072), [IMDb nm0000422](https://www.imdb.com/name/nm0000422/), [WTF ep. 1068](https://www.wtfpod.com/podcast/episode-1068-john-goodman), [The Guardian 2015](https://www.theguardian.com/culture/2015/apr/05/john-goodman-many-times-i-could-have-gone-under-interview-american-buffalo).

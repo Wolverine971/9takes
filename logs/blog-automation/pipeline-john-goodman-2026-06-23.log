@@ -1,0 +1,250 @@
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  john-goodman
+Draft:   src/blog/people/drafts/john-goodman.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman
+Started: Tue Jun 23 02:02:49 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:02:49)
+Command: /blog_content_creator_people_v2 john-goodman --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman/1_create.log
+─────────────────────────────────────────────────────
+A draft already existed (created 2026-06-21) with a Fresh Eyes review attached, so this ran as an **update**: I researched and integrated the flagged gaps, then re-verified the gates.
+
+**What changed**
+- **Marriage added** (the biggest blind spot): Anna Beth Hartzog — met at Tipitina's Halloween party 1987, married 1989, moved the family to New Orleans, daughter Molly. Placed in the cast section as the real-life proof of "attaches to families and stays," and the 2007 phone call now pays it off (she made the calls, found the treatment center; he says he'd be dead without her).
+- **2018 Roseanne implosion added**: defended Barr without defending the tweet, "brokenhearted," ~month of depression, returned to *The Conners* with her character killed off — the conflict-avoidant 9 refusing to pick a side.
+- **Dramatic range hardened**: Charlie Meadows / *Barton Fink* menace + Beckett and Mamet on Broadway, to back the "specific kind of craftsman" claim.
+- **Current-tense anchor strengthened**: 72, 16 years sober, ~200 lbs lost, *Conners* "hard breakup," the recent therapist "it purged out of me" breakthrough — more present than the 2019 Maron material.
+- **Trims**: reworded two of the three "not X, it was Y" contrast lines (kept the recliner one), tightened the close so the father-hole beat lands once.
+- **`lastmod` left untouched** per your standing rule (you manage it manually).
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/John-Goodman.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (2 testimony quotes) | Gate 2: pass (4 search-intent/hybrid H2s) | Gate 4: pass (no anaphora ending) | Gate 5: pass (3 type-theory paras ≤4) | Gate 6: pass (2 critic anchors, empathy turn, current anchor, interior beat, ending swap pass)]
+LIMITATIONS: faqs frontmatter not present (downstream enrich stage, out of scope)
+```
+
+Next step in the pipeline is human review, then `blog_content_production_people` before anything hits the database.
+[Stage 1] create finished 02:09:24 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:09:24)
+Command: /blog_content_fresh_eyes_people john-goodman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Reviewed `src/blog/people/drafts/John-Goodman.md` and appended the fresh-eyes notes at the bottom (in a `FRESH EYES REVIEW` block, after the existing revision log — no prior fresh-eyes block to replace). No body edits made.
+
+The two biggest issues I flagged:
+
+1. **Missing the SNL dimension entirely** — Goodman has hosted *Saturday Night Live* 13 times, third-most ever (behind only Baldwin and Steve Martin). It's both one of his most defining public roles and the cleanest possible proof of the draft's thesis: a Type 9 who keeps returning to a "family" that isn't even his own show. Right now "attaches to families and stays" rests entirely on the Coens and *Roseanne*.
+
+2. **Single-source feel** — nearly every load-bearing quote comes from the one Maron 2019 WTF episode, so it starts to read like a podcast recap walked top to bottom. Worth leaning a bit more on the Guardian/Bridges/Barr material or varying how the Maron quotes are framed.
+
+Smaller notes cover the unpaid-off fatherhood mirror, the never-Oscar-nominated angle for the "underestimated" beat, a repeated "nothing to the party" phrase, and a recurring negation-then-assertion rhythm. Flagged the loud-onscreen/erased-offscreen spine and the "Gestapo" line as the things to preserve.
+
+Sources: [Five-Timers Club — SNL Wiki](https://snl.fandom.com/wiki/Five-Timers_Club), [SNL Five-Timers Club most frequent hosts — TheWrap](https://www.thewrap.com/snl-five-timers-club-most-frequent-hosts-baldwin-the-rock-jonah-hill-will-ferrell/)
+[Stage 2] fresh_eyes finished 02:11:03 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:11:03)
+Command: /blog_content_second_pass_people john-goodman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman/3_second_pass.log
+─────────────────────────────────────────────────────
+Done. Second pass complete on `src/blog/people/drafts/John-Goodman.md`.
+
+## What I changed
+
+I treated the Fresh Eyes notes as a strong but not-binding list, verified every new fact by web search, then made five edits:
+
+**Added substance (the high-value gaps):**
+- **SNL** — new paragraph in the cast section. Goodman hosted *Saturday Night Live* 13 times (1989–2013), third-most ever behind Steve Martin and Alec Baldwin, with the "Platinum Lounge" inside joke. This was the one real reader-expectation gap, and it's the cleanest proof of the thesis: a 9 returning year after year to a *family that was never even his show*, just to be useful in the room.
+- **No Oscar nomination, ever** — added to the "underestimated craftsman" beat. The everyman overlooked even by the people whose job is to notice. Thesis at its sharpest.
+- **Fatherhood payoff** — the fatherless boy became a present father, and his 2021 line crediting Molly's character to "her mother and her grandmother" is a perfect 9 deflection. It cashes the opening shaving-mirror wound.
+
+**Trimmed the tics:**
+- Cut the duplicate "nothing to the party" (kept the stronger diagnosis-section instance).
+- Varied one of three stacked "Not X. Not Y." negation beats so the rhythm doesn't read as a tic.
+
+**Rejected one note:** I left the 2018 Roseanne-tweet beat where it is. Fresh-eyes wanted "a hair more air," but it's already a full standalone paragraph; breaking it out further would over-weight a sub-beat against the drinking and SNL material.
+
+Lint passes clean (0 fail). Per your standing rule, I did **not** touch `lastmod`.
+
+**Still open:** no `faqs` frontmatter yet — that's the frontmatter-enrich stage, not this pass. Not a blocker.
+
+Sources: [Wikipedia – John Goodman](https://en.wikipedia.org/wiki/John_Goodman), [SNL Wiki – John Goodman](https://snl.fandom.com/wiki/John_Goodman), [Wikipedia – awards and nominations](https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_John_Goodman), [HollywoodLife – Molly Evangeline Goodman](https://hollywoodlife.com/feature/john-goodman-kids-5040712/)
+[Stage 3] second_pass finished 02:13:47 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:13:47)
+Command: /cohesion-check src/blog/people/drafts/john-goodman.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman/4_cohesion.log
+─────────────────────────────────────────────────────
+## Cohesion Check Complete: John-Goodman.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+John Goodman is a Type 9 whose warmth onscreen is the cover for a lifelong belief that he doesn't matter — a self-erasure that drove 30 years of self-punishing drinking, and which he's only late in life learning to undo.
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+- **Diagnosis → Childhood**: Added a two-sentence bridge after "the Type 9 gift, turned into a career." It carries the "treating himself as nothing" keyword forward and points the reader to the childhood origin, so the section no longer leaps cold from career-craft to the father's death. The strong cold open of the childhood section ("died of a heart attack a month before John turned two. He has no memory of him. None.") is preserved untouched.
+- **Cast → Drinking**: Added one bridging line after "belonging instead of erasure" — "But the home he built never reached the part of him that still believed he was nothing. That part he handled another way." This pivots from the gift's healthiest form to its darkest cost and sets up the drinking, instead of slamming pole-to-pole. The drinking section's strong opener ("The drinking did not start as a party. It started as a decision.") is preserved.
+
+Both additions use short, direct sentences matching the piece's existing rhythm, carry a keyword across the boundary (the "nothing" wound), and contain no banned AI language or em-dashes.
+
+### What Was Preserved
+- All frontmatter, ledger comments, revision logs, and the `<details>` TL;DR and Rabbit Hole blocks
+- All internal links and Svelte/HTML components (contrast-panel, inner-thought, etc.)
+- The two strongest section openers (childhood father-fact, drinking "decision")
+- 2 of 4 section transitions that were already strong (Childhood → Cast, Drinking → Final) and all internal paragraph flow
+
+### Remaining Concerns
+None structural. Two notes outside my remit (cohesion only), already tracked in the draft's own ledgers: the final section's opening sentence ("The numbers around John Goodman finally moving in the right direction tell a late story") reads a little awkwardly as written — a word-choice fix for the line editor, not a cohesion issue. And `faqs` frontmatter is still pending the enrich stage. The through-line itself is clean end to end.
+[Stage 4] cohesion finished 02:15:47 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:15:47)
+Command: /blog_content_editor_pass_people john-goodman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman/5_editor_pass.log
+─────────────────────────────────────────────────────
+Polished. The draft was already structurally sound after its prior passes, so this was light line-level work, not a rebuild.
+
+**Draft:** `src/blog/people/drafts/John-Goodman.md`
+
+**What I cleaned up:**
+- **Broke the negation-tic cluster in the drinking section.** Three "not-X-it's-Y" rhythms were stacking within one section. Changed the section opener "The drinking did not start as a party. It started as a decision." → "The drinking started as a decision." That leaves the two strongest instances ("Not the loud, fun drinking…" and the recliner "was not comfort" line) doing the work without the pattern reading as a verbal tic.
+- **Split two wall-of-text paragraphs for mobile rhythm.** The underestimated-craftsman block (Barton Fink → Oscar snub → Broadway) and the Anna Beth marriage block were each dense back-to-back paragraphs. Split each at a natural beat so the Oscar-snub line and the 35-year-marriage line land on their own.
+
+**What I deliberately left alone:** the shaving-mirror open, the inner-thought block, the empathy turn in the drinking section, "the volume is the cover," and the "turning myself in to the Gestapo" detail — all the load-bearing emotional and interior beats. `lastmod` untouched per the hard rule.
+
+**Verification:** `./scripts/blog-lint.sh John-Goodman` → **0 fail, 1 warn**. Em-dash check passes (zero prose em-dashes), no banned AI phrases. The lone warning is `no faqs in frontmatter`, which is the frontmatter-enrich stage's job, not this pass.
+
+The draft reads production-ready on prose. The only open item before publish is the frontmatter FAQ enrichment (and the grade gate), both downstream of this editorial pass.
+[Stage 5] editor_pass finished 02:17:19 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:17:19)
+Command: /blog_content_frontmatter_enrich_people john-goodman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Frontmatter enrichment complete: John-Goodman
+
+**Fields filled:**
+- `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved untouched):**
+- `wikipedia` (`https://en.wikipedia.org/wiki/John_Goodman`), `instagram` (`johngoodman`)
+
+**Verification:**
+- Wikidata `Q215072` and IMDb `nm0000422` cross-checked against Wikidata P345 (they match)
+- Birth `1952-06-20`, Affton, Missouri — confirmed via Wikidata P569/P19
+
+**FAQs generated (5):**
+1. What is John Goodman's personality type? → `#what-is-john-goodmans-personality-type`
+2. How did losing his father shape John Goodman? → `#how-losing-his-father-before-his-second-birthday-shaped-john-goodman`
+3. Why does John Goodman keep returning to the same casts? → `#why-john-goodman-disappears-into-every-cast`
+4. Why did John Goodman drink for thirty years? → `#what-john-goodman-was-drinking-to-forget`
+5. How can a self-erasing man play the loudest character in every room? → `#what-is-john-goodmans-personality-type`
+
+All anchors match existing H2 slugs in the body. All FAQ answers are drawn from the actual analysis (the "I'm nothing" diagnosis, the father-hole formation, the Coens/Roseanne/SNL ensemble pattern, the Guardian "punishing myself" drinking beat, the "volume is the cover" paradox).
+
+**Issues:**
+- The body contains **no inline external URLs** (only internal `/enneagram-corner/` links). Per the no-invent rule, `citations` was built from the authoritative sources the body explicitly names and quotes — WTF/Maron ep. 1068 (the most-cited source), The Guardian 2015 interview (source of "punishing myself" and "could have gone under"), plus the canonical Wikipedia page and the on-screen-and-stage page (backing the SNL/Oscar/filmography facts). All four are real, verified URLs.
+- `lastmod` left exactly as found (DJ-managed). Body, comment blocks, and `production_pretext` untouched.
+
+Sources used for verification: [Wikidata Q215072](https://www.wikidata.org/wiki/Q215072), [IMDb nm0000422](https://www.imdb.com/name/nm0000422/), [WTF ep. 1068](https://www.wtfpod.com/podcast/episode-1068-john-goodman), [The Guardian 2015](https://www.theguardian.com/culture/2015/apr/05/john-goodman-many-times-i-could-have-gone-under-interview-american-buffalo).
+[Stage 6] enrich_frontmatter finished 02:20:13 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 151 chars
+ok    meta_title length 50 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 4
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: john-goodman — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+[pre-grade] No existing content_quality block on draft, nothing to clear
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:20:13)
+Command: /grade_blog john-goodman
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — John Goodman
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| John-Goodman | 9 | 9 | 8 | 9 | 9 | 9 | **8.8** | **B+** |
+
+*(Overall weighted: (9×1.5 + 9×1.5 + 8×1.5 + 9 + 9 + 9×0.5) / 7 = 8.8. Discoverability 8 ≥ 7 → gate clears.)*
+
+### Key Observations
+- **Publication-ready.** This is a genuinely strong blog — five 9s and a single 8 keeping it just under A. The "volume is the cover" thesis is one of the better paradox-resolutions in the corpus, and the emotional interior (empathy turn + interior beats) is fully realized rather than behavioral.
+- **The one thing holding it back from A is a single frontmatter field.** `meta_title` is clever-but-unsearchable — it omits "enneagram"/"type 9." That's the rendered `<title>` and the cheapest possible fix. Rewrite it to lead with search intent and this likely tips into A (9.0+).
+- **Minor evidence note:** still leans on the Maron 2019 episode for most load-bearing *quotes*; the SNL/Oscar/2021 additions are facts, not quotes.
+
+### Publication Ready (B+ or above)
+- ✅ **John-Goodman (B+, 8.8)** — meets the 8.5 threshold and clears the Discoverability gate.
+
+Grades written to frontmatter (`content_quality`, rubric v2) and a reviewer comment with concrete to-A steps added after the closing `---`.
+[Stage 7] grade finished 02:21:47 (exit=0)
+
+[Stage 8] No revision needed (overall 8.8 >= 8.5, discoverability 8 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: john-goodman
+Finished: Tue Jun 23 02:21:47 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-23_020249_john-goodman
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '9'
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  discoverability: 8
+  overall: 8.8
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-23'
+═════════════════════════════════════════════════════
