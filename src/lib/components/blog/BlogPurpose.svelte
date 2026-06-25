@@ -147,14 +147,18 @@
 </div>
 
 <style lang="scss">
+	/* V5 Streetlamp: a single dark stone card. Both halves sit on the same
+	   deep-night surface as the rest of the page; amber is the ACCENT (icon,
+	   focus rings, the one CTA button) — never a full-bleed fill. */
 	.blog-purpose {
 		width: 100%;
 		max-width: 48rem;
-		margin: 2rem auto;
+		margin: 2.5rem auto;
 		border-radius: 16px;
 		overflow: hidden;
+		background: var(--stone-warm);
 		/* No static shadow: borders are the elevation (V5) */
-		border: 1px solid var(--lamp-soft);
+		border: 1px solid var(--stone-edge);
 
 		@media (min-width: 768px) {
 			display: flex;
@@ -164,20 +168,24 @@
 
 	.cta-section {
 		position: relative;
+		/* Warm amber whisper over the stone surface — differentiates the CTA
+		   half without the stark yellow block. */
 		background: linear-gradient(
 			135deg,
-			var(--lamp-glow) 0%,
-			var(--lamp-glow) 50%,
-			var(--lamp-glow) 100%
+			color-mix(in srgb, var(--lamp-glow) 10%, var(--stone-warm)) 0%,
+			var(--stone-warm) 70%
 		);
-		padding: 1.25rem;
+		padding: 1.5rem 1.25rem;
 		overflow: hidden;
+		border-bottom: 1px solid var(--stone-mid);
 
 		@media (min-width: 768px) {
-			flex: 0 0 44%;
-			padding: 2rem 1.5rem;
+			flex: 0 0 46%;
+			padding: 2rem 1.75rem;
 			display: flex;
 			align-items: center;
+			border-bottom: none;
+			border-right: 1px solid var(--stone-mid);
 		}
 	}
 
@@ -185,8 +193,16 @@
 		position: absolute;
 		inset: 0;
 		background-image:
-			radial-gradient(circle at 20% 80%, rgba(12, 10, 9, 0.1) 0%, transparent 50%),
-			radial-gradient(circle at 80% 20%, rgba(12, 10, 9, 0.07) 0%, transparent 40%);
+			radial-gradient(
+				circle at 20% 80%,
+				color-mix(in srgb, var(--lamp-glow) 14%, transparent) 0%,
+				transparent 55%
+			),
+			radial-gradient(
+				circle at 85% 15%,
+				color-mix(in srgb, var(--lamp-glow) 9%, transparent) 0%,
+				transparent 45%
+			);
 		pointer-events: none;
 	}
 
@@ -207,18 +223,18 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 48px;
-		height: 48px;
-		background: rgba(12, 10, 9, 0.12);
+		width: 44px;
+		height: 44px;
+		background: var(--lamp-soft);
 		border-radius: 0.625rem;
 		flex-shrink: 0;
-		border: 1px solid rgba(12, 10, 9, 0.18);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 	}
 
 	.cta-icon {
-		width: 24px;
-		height: 24px;
-		color: var(--text-on-primary);
+		width: 22px;
+		height: 22px;
+		color: var(--lamp-glow);
 	}
 
 	.cta-text {
@@ -229,12 +245,11 @@
 		}
 
 		h3 {
-			/* Dark-on-amber per the locked CTA contrast rule (was white ≈1.8:1) */
-			color: var(--text-on-primary);
+			color: var(--ink-bright);
 			font-size: 1.125rem;
 			font-weight: 700;
 			line-height: 1.3;
-			margin: 0 0 0.25rem;
+			margin: 0 0 0.4rem;
 
 			@media (min-width: 768px) {
 				font-size: 1.25rem;
@@ -242,17 +257,16 @@
 		}
 
 		p {
-			color: var(--text-on-primary) !important;
-			opacity: 0.88;
+			color: var(--ink-mid) !important;
 			font-size: 0.875rem;
-			line-height: 1.5;
+			line-height: 1.55;
 			margin: 0;
 		}
 
 		.cta-subtext {
-			margin-top: 0.6rem;
-			font-weight: 700;
-			opacity: 1;
+			margin-top: 0.75rem;
+			font-weight: 600;
+			color: var(--ink-bright) !important;
 		}
 	}
 
@@ -275,29 +289,29 @@
 		width: 100%;
 		min-height: 2.55rem;
 		padding: 0.7rem 0.75rem;
-		border: 1px solid rgba(12, 10, 9, 0.3);
+		border: 1px solid var(--stone-edge);
 		border-radius: 0.625rem;
-		background: rgba(12, 10, 9, 0.12);
-		color: var(--text-on-primary);
+		background: var(--night-deep);
+		color: var(--ink-bright);
 		font-size: 0.9rem;
 		line-height: 1.2;
 		transition:
 			border-color 0.2s ease,
+			box-shadow 0.2s ease,
 			background-color 0.2s ease;
 
 		&::placeholder {
-			color: var(--text-on-primary);
-			opacity: 0.55;
+			color: var(--ink-dim);
 		}
 
 		&:hover {
-			border-color: rgba(12, 10, 9, 0.5);
+			border-color: color-mix(in srgb, var(--lamp-glow) 40%, var(--stone-edge));
 		}
 
 		&:focus {
 			outline: none;
-			border-color: var(--night-deep);
-			background: rgba(12, 10, 9, 0.18);
+			border-color: var(--lamp-glow);
+			box-shadow: 0 0 0 3px var(--lamp-soft);
 		}
 
 		&[aria-invalid='true'] {
@@ -312,10 +326,10 @@
 		width: 100%;
 		min-height: 2.65rem;
 		padding: 0.7rem 1rem;
-		/* Dark chip on the amber panel — high contrast both themes */
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		border: 1px solid rgba(12, 10, 9, 0.3);
+		/* The single amber pop — dark text on amber, the locked CTA contrast rule */
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
+		border: 1px solid transparent;
 		border-radius: 0.625rem;
 		font-size: 0.9rem;
 		font-weight: 700;
@@ -333,9 +347,9 @@
 		}
 
 		&:not(:disabled):hover {
-			background: var(--stone-warm);
+			background: var(--lamp-light);
 			transform: translateY(-1px);
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+			box-shadow: 0 4px 14px var(--lamp-glow-rgba);
 		}
 
 		&:not(:disabled):active {
@@ -344,7 +358,7 @@
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--night-deep);
+			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
 		}
 	}
@@ -355,42 +369,46 @@
 		font-size: 0.85rem;
 		line-height: 1.45;
 		width: 100%;
-		color: var(--text-on-primary);
+		color: var(--ink-bright);
 	}
 
 	.signup-success {
 		padding: 0.7rem 0.75rem;
-		border: 1px solid rgba(12, 10, 9, 0.3);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
 		border-radius: 0.625rem;
-		background: rgba(12, 10, 9, 0.12);
+		background: var(--lamp-soft);
 	}
 
 	.signup-error {
 		font-weight: 600;
+		color: var(--error);
 	}
 
 	.secondary-link {
-		color: var(--text-on-primary);
-		opacity: 0.8;
+		color: var(--ink-mid);
 		font-size: 0.8rem;
 		text-decoration: underline;
 		text-underline-offset: 2px;
+		transition: color 0.2s ease;
 
 		&:hover {
-			opacity: 1;
+			color: var(--lamp-glow);
 		}
 	}
 
 	/* This component mounts INSIDE article bodies whose :global(h3)/:global(a)
-	   rules tie the scoped selectors above and win on source order (rendered
-	   the heading ink-bright and the link amber — on the amber panel).
-	   Anchoring on .cta-section adds a class of specificity to outrank them. */
+	   rules tie the scoped selectors above and win on source order. Anchoring
+	   on .cta-section adds a class of specificity to outrank them. */
 	.cta-section .cta-text h3 {
-		color: var(--text-on-primary);
+		color: var(--ink-bright);
 	}
 
 	.cta-section .secondary-link {
-		color: var(--text-on-primary);
+		color: var(--ink-mid);
+
+		&:hover {
+			color: var(--lamp-glow);
+		}
 	}
 
 	.explorer-section {
