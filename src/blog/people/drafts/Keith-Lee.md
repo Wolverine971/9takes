@@ -4,12 +4,12 @@ meta_title: "Inside Keith Lee's Mind: Why TikTok's Fighter Got Quiet"
 persona_title: 'The Quiet Killa'
 description: "Why does Keith Lee sound like he's apologizing on every review? An Enneagram Type 9 read on the fighter who became TikTok's quietest protector."
 author: 'DJ Wayne'
-date: '2026-04-24'
+date: '2026-06-25'
 loc: 'https://9takes.com/personality-analysis/keith-lee'
-lastmod: '2026-04-24'
+lastmod: '2026-06-25'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['creator', 'tiktoker', 'lifestyle-builder']
 person: 'keith-lee'

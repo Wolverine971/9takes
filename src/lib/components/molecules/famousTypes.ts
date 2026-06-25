@@ -479,7 +479,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'harrison-ford', link: true, hasImage: true, lastmod: '2026-05-29', personaTitle: 'Hollywood\'s Reluctant Carpenter', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'jelly-roll', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Nashville\'s Reluctant Giant', contentGrade: 8.8, types: ['musician', 'singer-songwriter'] },
 		{ name: 'keanu-reeves', link: true, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Gentle Vanishing Act', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
-		{ name: 'keith-lee', link: false, hasImage: true, lastmod: '2026-04-24', personaTitle: 'The Quiet Killa', contentGrade: 8.6, types: ['creator', 'tiktoker', 'lifestyle-builder'] },
+		{ name: 'keith-lee', link: true, hasImage: true, lastmod: '2026-06-25', personaTitle: 'The Quiet Killa', contentGrade: 8.6, types: ['creator', 'tiktoker', 'lifestyle-builder'] },
 		{ name: 'kylie-jenner', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Most Visible Ghost', contentGrade: 9, types: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder'] },
 		{ name: 'lionel-messi', link: true, hasImage: true, lastmod: '2026-04-14', personaTitle: 'Football\'s Quiet Volcano', contentGrade: 9, types: ['celebrity', 'celebrity-image'] },
 		{ name: 'matthew-mcconaughey', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Wide-Awake Philosopher', contentGrade: 8.7, types: ['movieStar', 'screen-icon'] },

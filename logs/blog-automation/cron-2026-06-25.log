@@ -1,0 +1,19 @@
+[2026-06-25 02:01:57] [INFO] Starting daily blog creator (--non-interactive)
+[2026-06-25 02:01:57] [INFO] Pre-flight: pause=false, forceNext=null, rateLimit=1/5 (week 2026-06-20)
+[2026-06-25 02:01:57] [WARN] RECOVERED stale/failed launch: susan-sarandon (2026-06-24 backgrounded+orphaned, 0-byte 1_create.log, no draft). Returned to queue retryCount=1, cleared inProgress.
+[2026-06-25 02:01:57] [INFO] SELECTED: susan-sarandon (Type 8, Priority 58, retry 1/3)
+[2026-06-25 02:01:57] [INFO] Launching scripts/run-blog-pipeline.sh susan-sarandon (7 stages) — foreground/blocking
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  susan-sarandon
+Draft:   src/blog/people/drafts/susan-sarandon.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-25_020200_susan-sarandon
+Started: Thu Jun 25 02:02:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:02:00)
+Command: /blog_content_creator_people_v2 susan-sarandon --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-25_020200_susan-sarandon/1_create.log
+─────────────────────────────────────────────────────
+Stage 1 (`create`) is running — `1_create.log` now present. Pipeline progressing normally. Continuing to hold; waiting for the next stage event.

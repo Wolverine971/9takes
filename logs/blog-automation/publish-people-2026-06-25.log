@@ -1,0 +1,17 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: keith-lee
+Draft: src/blog/people/drafts/Keith-Lee.md
+Date/lastmod: 2026-06-25
+Supabase: published=true (row id 997)
+Images: full + thumbnail present
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Keith Lee (Type 9, "The Quiet Killa", grade 8.6) is now live at `/personality-analysis/keith-lee`. The draft frontmatter, `famousTypes.ts` listing (`link: true, hasImage: true`), and sitemap all updated to today's date.

@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-06-23T06:22:30Z",
+	"lastUpdated": "2026-06-25T06:01:00Z",
 	"stats": {
 		"totalUnpublished": 126,
 		"totalPublished": 266,
@@ -910,9 +910,10 @@
 		"searchVolume": "high",
 		"personaTitle": null,
 		"addedToQueue": "2026-04-12",
-		"retryCount": 0,
+		"retryCount": 1,
 		"strategicValue": "hollywood-activist-cluster",
-		"startedAt": "2026-06-24T06:00:36Z"
+		"recoveryNote": "Failed launch 2026-06-24: pipeline backgrounded and orphaned (task b2ooh0v8z), no draft, 0-byte 1_create.log. Returned to queue 2026-06-25T06:00:34Z",
+		"startedAt": "2026-06-25T06:01:00Z"
 	},
 	"skipped": [
 		{
