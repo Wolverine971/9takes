@@ -1,0 +1,26 @@
+[2026-06-24 02:00:54] [INFO] Daily blog creator: selected susan-sarandon (Type 8, Priority 58)
+[2026-06-24 02:00:54] [INFO] Launching run-blog-pipeline.sh susan-sarandon (7 stages)
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  susan-sarandon
+Draft:   src/blog/people/drafts/susan-sarandon.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-24_020058_susan-sarandon
+Started: Wed Jun 24 02:00:58 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:58)
+Command: /blog_content_creator_people_v2 susan-sarandon --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-24_020058_susan-sarandon/1_create.log
+─────────────────────────────────────────────────────
+Pipeline launched cleanly — Stage 1 (`create`) is running, draft target `src/blog/people/drafts/susan-sarandon.md`, per-stage logs in `docs/content-analysis/pipeline-logs/2026-06-24_020058_susan-sarandon/`.
+
+The pipeline runs 7 stages (create → fresh_eyes → second_pass → cohesion → editor_pass → enrich_frontmatter → grade), plus a conditional revise-and-regrade loop — typically 30–60 minutes. The process is harness-tracked, so it keeps running and I'll be re-invoked automatically when it exits. I'm holding this turn open rather than ending it mid-run.
+
+**Status so far:**
+- ✅ Pre-flight: not paused, no forceNext, `inProgress` was null, rate limit 1/5 (week of 2026-06-20)
+- ✅ Selected: **susan-sarandon** (Type 8, Priority 58) — no existing draft
+- ✅ `inProgress` set with `startedAt`, removed from queue (13 remaining)
+- ⏳ Pipeline running (background `b2ooh0v8z`)
+
+I'll wait for the pipeline to finish, then verify the draft, capture the grade from frontmatter, update the queue (move to `completed`, clear `inProgress`, increment the weekly count), and send the notification. Waiting now.

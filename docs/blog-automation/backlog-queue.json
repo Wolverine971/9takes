@@ -7,19 +7,6 @@
 	},
 	"queue": [
 		{
-			"name": "susan-sarandon",
-			"displayName": "Susan Sarandon",
-			"type": 8,
-			"priority": 58,
-			"priorityReason": "Oscar-winning actor and activist with a forceful public persona suited to Type 8 analysis",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "hollywood-activist-cluster"
-		},
-		{
 			"name": "brendan-fraser",
 			"displayName": "Brendan Fraser",
 			"type": 4,
@@ -913,7 +900,20 @@
 			"recoveryNote": "Daily creator wrapper failed twice during stage 1 with zero-byte logs and no draft; completed by direct run of scripts/run-blog-pipeline.sh."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "susan-sarandon",
+		"displayName": "Susan Sarandon",
+		"type": 8,
+		"priority": 58,
+		"priorityReason": "Oscar-winning actor and activist with a forceful public persona suited to Type 8 analysis",
+		"estimatedTraffic": "high",
+		"searchVolume": "high",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-12",
+		"retryCount": 0,
+		"strategicValue": "hollywood-activist-cluster",
+		"startedAt": "2026-06-24T06:00:36Z"
+	},
 	"skipped": [
 		{
 			"name": "anna-wintour",

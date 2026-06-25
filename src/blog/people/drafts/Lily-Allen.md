@@ -4,12 +4,12 @@ meta_title: "Lily Allen Enneagram Type 4: Why She Tells the Truth That Wrecks He
 persona_title: "Pop's Honest Witness"
 description: "Lily Allen built a career, a sobriety, and a divorce album out of telling the truth that costs her. The Type 4 pattern behind why she keeps doing it."
 author: 'DJ Wayne'
-date: '2026-04-29'
+date: '2026-06-24'
 loc: 'https://9takes.com/personality-analysis/lily-allen'
-lastmod: '2026-04-29'
+lastmod: '2026-06-24'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician']
 person: 'lily-allen'

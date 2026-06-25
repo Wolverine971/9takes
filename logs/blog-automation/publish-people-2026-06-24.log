@@ -1,0 +1,17 @@
+All checks pass. Lily Allen published successfully.
+
+```text
+Published people blog.
+
+Person: lily-allen
+Draft: src/blog/people/drafts/Lily-Allen.md
+Date/lastmod: 2026-06-24
+Supabase: published=true (row id 1007)
+Images: full + thumbnail present (static/types/4s/Lily-Allen.webp)
+Generated files: pnpm gen:all completed (famousTypes.ts link:true/hasImage:true, sitemap updated)
+
+Blockers:
+- none
+```
+
+Type 4 musician, grade 8.6 ("Pop's Honest Witness"). Live at `/personality-analysis/lily-allen`.

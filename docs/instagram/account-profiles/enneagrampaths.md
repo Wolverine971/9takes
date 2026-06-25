@@ -11,7 +11,7 @@
 **Relationship Status:** Active
 **Audience Quality:** High (recurring real commenters, faith/coaching ecosystem)
 **Profile Created:** 2026-04-07
-**Last Reviewed:** 2026-06-23 — live thread re-verified AGAIN on DZkjlfNm-AF: our candy comment expanded, shows "Hide all replies" with exactly Melissa's one reply (4d) and **still no 9takesdotcom reply-to-reply**. **Reply-to-reply loop CONFIRMED STILL OPEN at 4d** (drafted 6/19 PM, never posted across 6/22). Aging — highest-priority touch, post before it cools. (Prior: 2026-06-22 evening re-verify; 2026-06-19 morning candy comment POSTED + Melissa liked/replied warmly.)
+**Last Reviewed:** 2026-06-24 — candy reply-to-reply loop **CONFIRMED STILL OPEN at 5d** via notifications (Melissa's "how dare you read me (5) and my 3 husband for filth" reply still standing, no 9takesdotcom reply-to-reply; drafted 6/19+6/22, never posted across 6/22–6/24). Aging — highest-priority touch, post before it cools. Also noted: Melissa active in @alignedsoulco's "what i bring to the table" thread (commented "You didn't even realize 🥹😉😉," 1d) — same Type-8 room as our 8 comment; tight peer-cluster density. (Prior: 2026-06-23 + 2026-06-22 evening re-verifies; 2026-06-19 morning candy comment POSTED + Melissa liked/replied warmly.)
 **Last Engaged:** **2026-04-13 Carl-thread 3-argument reply confirmed posted via Apr 20 Melissa like.** May 7 PM DYAI3KGm-od ENNEAPOEMS drafts NEVER posted (15-day silence); retired 2026-05-22. All Apr 23 PM DXb4upElHlQ drafts retired Apr 25. Apr 28 DXo6f1ym47n "Types as Vegetables" retired (silence window). Longings thread revive + Apr 19 expansion-vs-contraction drafts retired (too aged).
 **Source of First Discovery:** Engagement targets list (Tier 1: Enneagram & Personality)
 

@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-24</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-23</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-24</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1380,7 +1380,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-24</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2447,6 +2447,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/lily-allen</loc>
+    <lastmod>2026-06-24</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/4s/Lily-Allen.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/lionel-messi</loc>
     <lastmod>2026-04-14</lastmod>
     <image:image>
@@ -3461,7 +3468,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-24</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
