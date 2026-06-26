@@ -4,12 +4,12 @@ meta_title: "Bert Kreischer's Enneagram Type 7: Why The Machine Can't Stop Movin
 persona_title: "Comedy's Shirtless Shark"
 description: "The shirtless party guy sold out arenas. The man underneath has OCD and can't sit still. Bert Kreischer isn't chasing fun — he's running from silence."
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-06-26'
 loc: 'https://9takes.com/personality-analysis/bert-kreischer'
-lastmod: '2026-04-23'
+lastmod: '2026-06-26'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['comedian']
 person: 'bert-kreischer'

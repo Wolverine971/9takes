@@ -345,7 +345,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'ashby', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'The Internet\'s Character Escape Artist', contentGrade: 8.8, types: ['creator', 'lifestyle-builder'] },
 		{ name: 'bad-bunny', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'The Conejo Who Ate Every Cage', contentGrade: 8.8, types: ['musician', 'rapper'] },
 		{ name: 'benson-boone', link: true, hasImage: true, lastmod: '2026-04-08', personaTitle: 'Pop\'s Restless Daredevil', contentGrade: 8.5, types: ['musician', 'singer-songwriter'] },
-		{ name: 'bert-kreischer', link: false, hasImage: true, lastmod: '2026-04-23', personaTitle: 'Comedy\'s Shirtless Shark', contentGrade: 8.6, types: ['comedian'] },
+		{ name: 'bert-kreischer', link: true, hasImage: true, lastmod: '2026-06-26', personaTitle: 'Comedy\'s Shirtless Shark', contentGrade: 8.6, types: ['comedian'] },
 		{ name: 'bobby-lee', link: true, hasImage: true, lastmod: '2026-05-04', personaTitle: 'Comedy\'s Confessional Live Wire', contentGrade: 8.8, types: ['comedian', 'creator', 'podcaster'] },
 		{ name: 'brittany-broski', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'The Internet\'s Enthusiastic Chaos Agent', contentGrade: 8.7, types: ['creator', 'viral-entertainer'] },
 		{ name: 'caleb-hearon', link: true, hasImage: true, lastmod: '2026-03-10', personaTitle: 'Comedy\'s Desperate Connector', contentGrade: 8.7, types: ['comedian', 'creator', 'podcaster', 'internet-comic'] },

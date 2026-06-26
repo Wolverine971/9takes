@@ -1,0 +1,22 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: bert-kreischer
+Draft: src/blog/people/drafts/Bert-Kreischer.md
+Date/lastmod: 2026-06-26
+Supabase: published=true (row id 980)
+Images: full + thumbnail present (static/types/7s/Bert-Kreischer.webp + s-Bert-Kreischer.webp)
+Generated files: pnpm gen:all completed
+
+Verification:
+- Draft: published: true, date/lastmod = 2026-06-26 ✓
+- famousTypes.ts: link: true, hasImage: true, lastmod: '2026-06-26' ✓
+- sitemap.xml: includes /personality-analysis/bert-kreischer ✓
+
+Blockers:
+- none
+```
+
+Bert Kreischer (Type 7, grade 8.6, 3,829 words) is now live at `/personality-analysis/bert-kreischer`.
