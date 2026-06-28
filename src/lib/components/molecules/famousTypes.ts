@@ -210,7 +210,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'nicole-kidman', link: true, hasImage: true, lastmod: '2025-06-25', personaTitle: 'Hollywood\'s Ethereal Enigma', contentGrade: null, types: ['newMovieStar'] },
 		{ name: 'nikola-tesla', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Electricity\'s Tortured Genius', contentGrade: null, types: ['historical'] },
 		{ name: 'noah-kahan', link: true, hasImage: true, lastmod: '2026-06-09', personaTitle: 'Folk-Pop\'s Reluctant Survivor', contentGrade: 9, types: ['musician'] },
-		{ name: 'odessa-azion', link: false, hasImage: true, lastmod: '2026-04-18', personaTitle: 'Hollywood\'s Inherited Runaway', contentGrade: 8.6, types: ['newMovieStar', 'musician', 'rising-star'] },
+		{ name: 'odessa-azion', link: true, hasImage: true, lastmod: '2026-06-27', personaTitle: 'Hollywood\'s Inherited Runaway', contentGrade: 8.6, types: ['newMovieStar', 'musician', 'rising-star'] },
 		{ name: 'paul-mescal', link: true, hasImage: true, lastmod: '2026-05-02', personaTitle: 'Cinema\'s Guarded Romantic', contentGrade: 8.9, types: ['movieStar', 'newMovieStar', 'rising-star'] },
 		{ name: 'prince', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Funk\'s Purple Enigma', contentGrade: null, types: ['musician'] },
 		{ name: 'rick-rubin', link: true, hasImage: true, lastmod: '2026-04-25', personaTitle: 'The Producer of Missing Pieces', contentGrade: 9.1, types: ['musician', 'creator', 'music-crossover'] },

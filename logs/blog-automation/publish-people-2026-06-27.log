@@ -1,0 +1,22 @@
+All checks pass. The publish completed cleanly.
+
+```text
+Published people blog.
+
+Person: odessa-azion
+Draft: src/blog/people/drafts/Odessa-Azion.md
+Date/lastmod: 2026-06-27
+Supabase: published=true (row id 977)
+Images: full + thumbnail present (static/types/4s/Odessa-Azion.webp + s-Odessa-Azion.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verified:
+- **Draft** `Odessa-Azion.md` → `published: true`, `date`/`lastmod` set to `2026-06-27`, frontmatter style preserved
+- **famousTypes.ts** → `odessa-azion` now `link: true`, `hasImage: true`, `lastmod: '2026-06-27'`
+- **sitemap.xml** → includes `https://9takes.com/personality-analysis/odessa-azion` with the image entry
+
+Odessa A'zion (Type 4, "Hollywood's Inherited Runaway", grade 8.6) is live.

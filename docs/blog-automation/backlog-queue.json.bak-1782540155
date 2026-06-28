@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-06-27T06:02:19Z",
+	"lastUpdated": "2026-06-25T06:01:00Z",
 	"stats": {
 		"totalUnpublished": 126,
 		"totalPublished": 266,
@@ -910,10 +910,10 @@
 		"searchVolume": "high",
 		"personaTitle": null,
 		"addedToQueue": "2026-04-12",
-		"retryCount": 2,
+		"retryCount": 1,
 		"strategicValue": "hollywood-activist-cluster",
-		"recoveryNote": "Failed launch 2026-06-25: pipeline orphaned again (0-byte 1_create.log, no draft) — SECOND consecutive orphan. Re-selected 2026-06-27 retryCount=2. NOTE: both prior failures were launch-orphans (infra, NOT content); do not permanently fail on a 3rd infra orphan.",
-		"startedAt": "2026-06-27T06:02:19Z"
+		"recoveryNote": "Failed launch 2026-06-24: pipeline backgrounded and orphaned (task b2ooh0v8z), no draft, 0-byte 1_create.log. Returned to queue 2026-06-25T06:00:34Z",
+		"startedAt": "2026-06-25T06:01:00Z"
 	},
 	"skipped": [
 		{

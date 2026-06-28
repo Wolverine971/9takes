@@ -1,0 +1,31 @@
+[2026-06-27 02:02:43] [INFO] Starting daily blog creator (--non-interactive)
+[2026-06-27 02:02:43] [INFO] Pre-flight: pause=false, forceNext=null, rateLimit=1/5 (week 2026-06-20)
+[2026-06-27 02:02:43] [WARN] RECOVERED dead inProgress: susan-sarandon was orphaned AGAIN on 2026-06-25 (0-byte 1_create.log, no draft, no running process). 43h stale. Second consecutive orphan.
+[2026-06-27 02:02:43] [INFO] SELECTED: susan-sarandon (Type 8, Priority 58, retry 2/3) — both prior failures were launch-orphans (infra).
+[2026-06-27 02:02:43] [INFO] Launching scripts/run-blog-pipeline.sh susan-sarandon (7 stages) — harness-tracked background, holding turn open via polling until exit.
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  susan-sarandon
+Draft:   src/blog/people/drafts/susan-sarandon.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-27_020247_susan-sarandon
+Started: Sat Jun 27 02:02:47 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:02:47)
+Command: /blog_content_creator_people_v2 susan-sarandon --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-27_020247_susan-sarandon/1_create.log
+─────────────────────────────────────────────────────
+Both watchers are now armed and harness-tracked:
+
+- **`b3chbxij0`** — the full pipeline (will notify on completion, ~30–60 min)
+- **`bbiz8tftb`** — an early launch-alive check (will notify within ~4 min, confirming stage 1 is actually writing this time vs. the last two 0-byte orphans)
+
+I'm holding the turn open on these tracked background tasks — not ending it — so the run can't be orphaned. Status so far:
+
+- Pre-flight: `pause=false`, rate limit 1/5 ✓
+- Recovered the dead susan-sarandon `inProgress` (orphaned **again** Jun 25: 0-byte create log, no draft, no live process — 43h stale)
+- Re-selected susan-sarandon (Type 8, priority 58, retry 2/3 — both prior failures were infra orphans, not content)
+- Launched the full 7-stage pipeline correctly: harness-tracked background + active polling
+
+I'll report back as soon as the launch-alive check fires, then again when the pipeline finishes (verify draft → capture grade → update queue → notify).

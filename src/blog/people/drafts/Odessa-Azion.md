@@ -4,12 +4,12 @@ meta_title: "Odessa A'zion Enneagram Type 4: Why She Dropped the Adlon Name"
 persona_title: "Hollywood's Inherited Runaway"
 description: "Odessa A'zion ran away at 15, dropped the Adlon name, and keeps playing runaways on screen. Inside the Type 4 pattern that connects the dots."
 author: 'DJ Wayne'
-date: '2026-04-18'
+date: '2026-06-27'
 loc: 'https://9takes.com/personality-analysis/odessa-azion'
-lastmod: '2026-04-18'
+lastmod: '2026-06-27'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['newMovieStar', 'musician', 'rising-star']
 person: 'odessa-azion'
