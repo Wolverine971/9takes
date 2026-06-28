@@ -1,0 +1,20 @@
+Done. Second pass complete on `src/blog/people/drafts/Susan-Sarandon.md` (lint: 0 fail, 0 warn).
+
+## What I changed
+
+I worked the two highest-value fresh-eyes notes plus the trims, after verifying every new fact.
+
+**Added substance:**
+- **Tim Robbins as a partnership, not scenery.** New paragraph in "camera off": 23 years, met on the *Bull Durham* set, two sons, never married by choice. The non-marriage reasoning ("losing your identity… when you become a couple") is itself textbook Type 8 — refusing even marriage rather than let anyone set her terms — plus the 2009 split. This was the biggest gap and it's free type evidence.
+- **Dead Man Walking now pays off.** It was only an irony beat ("the town that muzzled her gave her its highest honor"). Now it lands the dropped work→activism point: playing Sister Helen Prejean bled off-screen into lifelong death-penalty abolition.
+- **Lorenzo's Oil, placed for maximum stakes.** She was a Best Actress nominee *that very night* in 1993 — for playing a mother waging war on doctors and a disease to save her dying son — and torched her own moment for the Haiti protest anyway. Sharpens the protector thesis and the "watch her pay it" frame.
+
+**Trimmed:**
+- Cut the "Her mother let her life be done to her" restatement in the Trump section so the closing invocation of that spine-line isn't pre-spent.
+- De-ticked "the folders" (was 3x) in the camera-off section.
+
+**One fresh-eyes quote rejected:** the "choosing to be with somebody" Robbins line traces only to quote-aggregators, so I used the verified "losing your identity" / "not authentic" quotes instead.
+
+**Still open (one item, judged optional):** Rocky Horror as an icon/sensuality role isn't in the body. The sensuality is already carried by the so/sx subtype note and the new Lorenzo's/Robbins material, and adding it risks filmography sprawl — flagging it in case you want an editor to weigh in, but I don't think it's needed.
+
+I did **not** touch `lastmod` (it's user-managed, and was already today's date).

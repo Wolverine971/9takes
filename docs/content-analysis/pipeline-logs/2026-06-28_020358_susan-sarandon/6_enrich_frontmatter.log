@@ -1,0 +1,25 @@
+Done. The Susan Sarandon draft was already mostly enriched by a prior pass — only three gaps remained, all now filled.
+
+```
+Frontmatter enrichment complete: Susan-Sarandon
+
+Fields filled (this pass):
+- wikidata_qid: 'Q133050' (verified against Wikipedia + Wikidata entity)
+- imdb_id: 'nm0000215' (cross-checked via Wikidata P345 — confirmed)
+- same_as: added 'https://www.wikidata.org/wiki/Q133050' (now 3 items: Wikipedia, Wikidata, IMDb)
+
+Fields already present (preserved, untouched):
+- wikipedia, birth_date, birth_place, nationality, occupation, knows_about,
+  keywords, citations, and the full faqs block
+
+FAQs (4, already present — substantive and body-derived, NOT templated backfill, so left exactly as-is per idempotency rule):
+1. What is Susan Sarandon's personality type? → #what-is-susan-sarandons-personality-type
+2. Why did the Academy ban Susan Sarandon from the Oscars? → #why-the-academy-banned-susan-sarandon-from-the-oscars
+3. Why do people blame Susan Sarandon for Trump? → #why-people-blame-susan-sarandon-for-trump
+4. Why was Susan Sarandon dropped by her talent agency? → #why-susan-sarandon-got-fired-for-a-ceasefire
+
+Issues:
+- birth_place is 'New York City, U.S.' — the writer's WORKING NOTES record she was born in Jackson Heights, Queens and raised in Edison, NJ. The existing value is correct (additive-only rule means I left it), but a more specific 'Jackson Heights, Queens, New York, U.S.' would match the Einstein gold-standard granularity if you want to tighten it later.
+- Body has only 3 distinct external citations (Wikipedia, AARP, Variety) — meets the 3-minimum floor but is on the thin side for sourcing depth.
+- No lastmod / body / comment blocks were touched.
+```

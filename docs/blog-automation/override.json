@@ -8,7 +8,7 @@
 	"rateLimit": {
 		"maxPerWeek": 5,
 		"currentWeekCount": 1,
-		"weekStartDate": "2026-06-20"
+		"weekStartDate": "2026-06-28"
 	},
 	"notifications": {
 		"enabled": true,

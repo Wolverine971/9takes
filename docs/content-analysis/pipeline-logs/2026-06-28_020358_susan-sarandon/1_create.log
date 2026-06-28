@@ -1,0 +1,30 @@
+The Susan Sarandon draft is complete, saved, and passes all gates and the lint check.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Susan-Sarandon.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: A handful of widely circulated body/sexuality quotes trace only to quote aggregators; deliberately excluded as load-bearing. Lifetime arrest tally not cleanly sourced (only the June 2018 #WomenDisobey arrest, ~575 arrested, asserted with a number).
+```
+
+**The analysis:** Susan Sarandon as Enneagram **Type 8 (The Challenger), 8w7**.
+
+- **Thesis:** The public files her as either warm earth-mother or self-righteous radical. Through Type 8, both collapse into one woman who refuses to let fear, an agency, or a party set the terms of her life.
+- **Emotional core:** She watched her mother feel her life "was done to her" (Podcrushed, 2025, in tears) and built her whole life around never being at anyone's mercy.
+- **Empathy turn:** the most-hated act (the 2016 Clinton non-endorsement) reframed through the 8's inability to be coerced by fear, with the consequences conceded, not excused.
+- **Current anchor:** the Feb 2026 Goya Award interview ("I was fired by my agency... for asking for a ceasefire").
+
+**Internal links added (5 total):**
+- Type 8 → /enneagram-corner/enneagram-type-8
+- Bernie Sanders → /personality-analysis/bernie-sanders
+- wings → /enneagram-corner/enneagram-wings-complete-guide (Rabbit Hole)
+- instinctual subtypes → /enneagram-corner/enneagram-instinctual-subtypes (Rabbit Hole)
+- stress arrow → /enneagram-corner/enneagram-types-in-stress (Rabbit Hole)
+
+**Ledgers:** Testimony (6 qualifying named-third-party quotes: Geena Davis, Ron Shelton, Stephen Chbosky, Chris Sarandon, Eva Amurri), Heading Mix (6 search-intent/hybrid H2s), Distribution (3 body type-theory paragraphs, cap 4), and Formula Fingerprint all present and within limits.
+
+Per non-interactive rules, the draft saved as `status: draft` and was **not** auto-promoted to `ready`. Human review is the next step before `blog_content_production_people`. Grading is owned by `/grade_blog`, so no numeric grade was emitted.
+
+One process note: the `research-analyst` subagent kept deferring to its own background children instead of returning a brief, so I ran the WebSearches directly. Its background sub-agents did eventually deliver excellent, well-sourced evidence (including the 2026 Goya anchor and the gate-passing testimony), which the draft is built on.

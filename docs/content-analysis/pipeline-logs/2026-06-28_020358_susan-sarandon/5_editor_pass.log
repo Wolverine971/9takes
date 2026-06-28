@@ -1,0 +1,17 @@
+Polish complete. Lint stays clean (0 fail, 0 warn, zero em-dashes).
+
+## What I polished
+
+**`src/blog/people/drafts/Susan-Sarandon.md`**
+
+The draft came in already strong — it had been through both a fresh-eyes pass and a second pass, and the lint was clean on arrival. The only AI tell still alive was **negative parallelism** ("X is not A. It is B"), the #1 tell in the standards:
+
+1. **Broke the negative-parallelism stack in the diagnosis paragraph.** It had three of them in a row ("core fear is not death or failure / It is…", "do not suppress anger / They use it", "not an abstract value / It is…"). Rewrote to direct statements, keeping one lighter idiomatic version ("Eights don't bury anger… They run on it") so the rhythm doesn't go flat.
+
+2. **Killed a doubled "That is…" cadence.** "That is the gut center pointed outward. That is an Eight." → "…pointed outward. An Eight, not a One." — sharper, and the "not a One" reinforces the Type 1 contrast that paragraph is making.
+
+**Left untouched** everything fresh-eyes flagged to protect: the 1993 inner-thought beat, the Trump empathy turn, the department-store-panic detail, and the apology dissection. I also did **not** touch `lastmod` — the editorial standards hard rule (DJ manages it manually) overrides the command's "update lastmod" note.
+
+## Verdict
+
+**Production-ready.** The piece scans well, the voice is consistent and human, the empathy turn and interior beat are intact, type-theory stays disciplined (heavy lifting confined to the diagnosis section and Rabbit Hole), and the close lands on the mother's "life was done to her" spine rather than summarizing. No further substantive pass needed.

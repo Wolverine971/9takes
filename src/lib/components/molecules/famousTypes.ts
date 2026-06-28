@@ -204,7 +204,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'lili-reinhart', link: true, hasImage: true, lastmod: '2026-05-15', personaTitle: 'Riverdale\'s Confessional Poet', contentGrade: 9.1, types: ['movieStar', 'author', 'screen-icon'] },
 		{ name: 'lily-allen', link: true, hasImage: true, lastmod: '2026-06-24', personaTitle: 'Pop\'s Honest Witness', contentGrade: 8.6, types: ['musician'] },
 		{ name: 'madison-beer', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Pop\'s Haunted Locket', contentGrade: 8.6, types: ['musician', 'lifestyleInfluencer', 'lifestyle-builder', 'music-crossover'] },
-		{ name: 'megan-fox', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Unseen Exile', contentGrade: 8.6, types: ['movieStar', 'celebrity', 'screen-icon'] },
+		{ name: 'megan-fox', link: true, hasImage: true, lastmod: '2026-06-28', personaTitle: 'Hollywood\'s Unseen Exile', contentGrade: 8.6, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'miley-cyrus', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Pop\'s Mosaic Provocateur', contentGrade: 8.9, types: ['musician', 'pop-star'] },
 		{ name: 'neil-strauss', link: true, hasImage: true, lastmod: '2026-04-25', personaTitle: 'Journalism\'s Method Actor', contentGrade: 9.3, types: ['author', 'creator'] },
 		{ name: 'nicole-kidman', link: true, hasImage: true, lastmod: '2025-06-25', personaTitle: 'Hollywood\'s Ethereal Enigma', contentGrade: null, types: ['newMovieStar'] },

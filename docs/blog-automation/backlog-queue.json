@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-06-27T06:02:19Z",
+	"lastUpdated": "2026-06-28T06:27:18Z",
 	"stats": {
 		"totalUnpublished": 126,
 		"totalPublished": 266,
@@ -177,6 +177,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "susan-sarandon",
+			"displayName": "Susan Sarandon",
+			"type": 8,
+			"priority": 58,
+			"priorityReason": "Oscar-winning actor and activist with a forceful public persona suited to Type 8 analysis",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 3,
+			"strategicValue": "hollywood-activist-cluster",
+			"recoveryNote": "3rd consecutive launch-orphan (06-21/06-22 era through 06-27) — all infra, not content. Root cause: prior agents ended the turn right after backgrounding the pipeline, killing stage 1 before it wrote (0-byte 1_create.log).",
+			"startedAt": "2026-06-28T06:03:58Z",
+			"completedAt": "2026-06-28T06:27:18Z",
+			"contentGrade": "8.8 (B+)",
+			"discoverability": 8,
+			"duration": "~21 min",
+			"completionNote": "Fixed 2026-06-28 by holding the turn open with blocking foreground polls until the pipeline process exited. Full 7-stage pipeline ran clean; grade cleared the 8.5 bar on first pass (no revise loop). faqs + wikidata_qid Q133050 present."
+		},
 		{
 			"name": "john-goodman",
 			"displayName": "John Goodman",
@@ -900,21 +920,7 @@
 			"recoveryNote": "Daily creator wrapper failed twice during stage 1 with zero-byte logs and no draft; completed by direct run of scripts/run-blog-pipeline.sh."
 		}
 	],
-	"inProgress": {
-		"name": "susan-sarandon",
-		"displayName": "Susan Sarandon",
-		"type": 8,
-		"priority": 58,
-		"priorityReason": "Oscar-winning actor and activist with a forceful public persona suited to Type 8 analysis",
-		"estimatedTraffic": "high",
-		"searchVolume": "high",
-		"personaTitle": null,
-		"addedToQueue": "2026-04-12",
-		"retryCount": 2,
-		"strategicValue": "hollywood-activist-cluster",
-		"recoveryNote": "Failed launch 2026-06-25: pipeline orphaned again (0-byte 1_create.log, no draft) — SECOND consecutive orphan. Re-selected 2026-06-27 retryCount=2. NOTE: both prior failures were launch-orphans (infra, NOT content); do not permanently fail on a 3rd infra orphan.",
-		"startedAt": "2026-06-27T06:02:19Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "anna-wintour",

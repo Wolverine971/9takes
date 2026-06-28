@@ -1,0 +1,23 @@
+## Grading Complete — Susan Sarandon
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Susan-Sarandon | 9 | 9 | 8 | 9 | 9 | 9 | **8.8** | **B+** |
+
+*(Weighted: (9×1.5 + 9×1.5 + 8×1.5 + 9 + 9 + 9×0.5) / 7 = 8.8. Discoverability 8 ≥ 7 — gate passes.)*
+
+### Key Observations
+
+- **Publication-ready.** This is one of the stronger drafts in the pipeline — it clears the 8.5 B+ threshold comfortably. The two prior review passes (fresh-eyes + second-pass) clearly paid off: the Tim Robbins gap was closed, the *Dead Man Walking* → death-penalty-abolition link now pays off, and the "done to her" repetition was trimmed.
+- **The evidence is the standout.** Dated, primary-sourced quotes do the structural work, and the writer deliberately benched aggregator-only quotes. That discipline is exactly what the v2 rubric rewards (AEO bet).
+- **One thing keeps it off an A:** Discoverability at 8. The `meta_title` and `persona_title` are pure curiosity hooks with no search term — the searchable load sits entirely on the `title` field.
+
+### The cheap path to A (9.0)
+
+This is a frontmatter fix, not a rewrite. Rework `meta_title` to pair the curiosity hook with the query, e.g.:
+
+> **"Susan Sarandon's Enneagram Type: Why She Won't Shut Up"**
+
+That keeps the CTR pull, adds the `[person] enneagram` intent, and likely lifts discoverability to 9 — pushing the weighted overall over 9.0. The prose is already at A-grade.
+
+**Grades written** to `content_quality` frontmatter and the reviewer comment block in `src/blog/people/drafts/Susan-Sarandon.md`.

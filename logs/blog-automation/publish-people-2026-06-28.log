@@ -1,0 +1,20 @@
+```text
+Published people blog.
+
+Person: megan-fox
+Draft: src/blog/people/drafts/Megan-Fox.md
+Date/lastmod: 2026-06-28
+Supabase: published=true (row id 959)
+Images: full + thumbnail present (static/types/4s/Megan-Fox.webp + s-Megan-Fox.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verification confirmed:
+- Draft frontmatter: `date: '2026-06-28'`, `lastmod: '2026-06-28'`, `published: true`
+- `famousTypes.ts`: `link: false → true`, `hasImage: true`, `lastmod → 2026-06-28`
+- `static/sitemap.xml` includes `https://9takes.com/personality-analysis/megan-fox`
+
+The auto-selector picked **Megan Fox** (Type 4, grade 8.6, 3,947 words) as the top eligible draft. The fresh Susan-Sarandon draft was not selected — it's likely not yet gate-eligible (still in pipeline / below thresholds). Let me know if you want it published specifically.
