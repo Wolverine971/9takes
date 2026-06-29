@@ -504,6 +504,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'steve-carell', link: true, hasImage: true, lastmod: '2026-04-14', personaTitle: 'Comedy\'s Invisible Lead', contentGrade: 9.1, types: ['celebrity', 'movieStar', 'comedian', 'screen-icon'] },
 		{ name: 'sundar-pichai', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Google\'s Quiet Shock Absorber', contentGrade: 8.8, types: ['techie', 'big-tech-founder'] },
 		{ name: 'travis-scott', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Hip-Hop\'s Quiet Architect', contentGrade: 9.3, types: ['musician', 'rapper'] },
+		{ name: 'brendan-fraser', link: false, hasImage: false, lastmod: '2026-06-29', personaTitle: 'The Giant Who Went Quiet', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'britney-spears', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Pop’s Sleepwalking Giant', contentGrade: 9.2, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'clint-eastwood', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Cinema\'s Whispering Cowboy', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'jane-goodall', link: false, hasImage: false, lastmod: '2026-05-17', personaTitle: 'The Quiet Witness Who Wouldn\'t Stay Quiet', contentGrade: 9.1, types: ['activist', 'historical', 'author'] },
