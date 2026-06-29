@@ -1,0 +1,32 @@
+YAML parses cleanly. Enrichment complete.
+
+```
+Frontmatter enrichment complete: Brendan-Fraser
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Brendan_Fraser)
+
+FAQs generated (4):
+1. What is Brendan Fraser's personality type? → #what-is-brendan-frasers-personality-type
+2. Why did Brendan Fraser disappear from Hollywood? → #the-summer-brendan-fraser-stopped-fighting-back
+3. What Enneagram wing is Brendan Fraser? → #what-is-brendan-frasers-personality-type
+4. How did Brendan Fraser make his comeback? → #why-the-internet-brought-brendan-fraser-back
+
+Verified identifiers:
+- Wikidata Q193555 (cross-checked: P345 = nm0000409, P569 = 1968-12-03, P19 = Indianapolis, P27 = United States + Canada)
+- IMDb nm0000409 (confirmed via Wikidata P345 and IMDb search result)
+
+Issues:
+- The body contains NO inline external citation URLs — only internal /enneagram-corner
+  and /personality-analysis links. Per the no-fabrication rule, citations were built from
+  authoritative URLs mapping to entities/sources the body actually discusses (the load-bearing
+  2018 GQ profile, plus Wikipedia entries for Fraser, The Whale, The Mummy, and Doom Patrol).
+  Flag for content quality: the draft cites sources by name (GQ, AARP, W, The Hollywood
+  Reporter, AnOther) but never as inline links.
+```
+
+Body, HTML comment blocks (Testimony/Heading/Distribution/Formula ledgers, Fresh Eyes, Second Pass, Editor Pass notes), `production_pretext`, and `lastmod` were all left untouched.

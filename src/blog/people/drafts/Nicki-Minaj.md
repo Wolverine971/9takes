@@ -4,12 +4,12 @@ meta_title: 'Nicki Minaj Enneagram Type 8: The Personality Pattern No One Talks 
 persona_title: "Rap's Armored Queen"
 description: 'The girl who shielded her mother from violence became rap royalty who shields everyone. Inside the Type 8 psychology driving Nicki Minaj.'
 author: 'DJ Wayne'
-date: '2026-04-10'
+date: '2026-06-29'
 loc: 'https://9takes.com/personality-analysis/nicki-minaj'
-lastmod: '2026-04-10'
+lastmod: '2026-06-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 8
 type: ['musician']
 person: 'nicki-minaj'

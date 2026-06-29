@@ -1,0 +1,15 @@
+Lint passes clean — 0 fails, no prose em-dashes, no banned AI phrases. The one warning (no `faqs` frontmatter) is expected at this stage; the frontmatter-enrich pass hasn't run yet, which is downstream of this revision.
+
+## Done — second-pass revision of `src/blog/people/drafts/Brendan-Fraser.md`
+
+I verified every load-bearing claim before leaning on it, then made four substantive changes:
+
+**Main changes**
+1. **Filled the fatherhood gap** (the biggest note, and a real one). The lost-decade paragraph now names his three young sons — eldest Griffin on the autism spectrum — and the 2013 Connecticut courtroom where he testified he could no longer make the support payments, tying the failing income to the failing body. The closer now pays off against a *real* family ("an actual father to three sons, the one role no studio cast him in and no company could rent out") before the *Rental Family* metaphor lands. The ending was secretly about his sons; now it has them.
+2. **Restored his dramatic range.** The Mummy section concedes *School Ties*, *Gods and Monsters*, *The Quiet American*, and the Best-Picture *Crash* ensemble — so "audiences only saw the body" becomes a sharper contradiction instead of rounding him into a himbo.
+3. **Complicated "he had been gone"** with *Doom Patrol* (Robotman, since 2019) as the unnoticed day job, and named the **Brendanaissance**.
+4. **Trims**: the second noose callback now does new work (a physical blow vs. a wound that left no bruise) rather than repeating the strangle-and-smile image; the contrast panel no longer reuses "like a little kid."
+
+I kept everything the review flagged as working — the Venice bookend, the empathy turn with the skeptic let in first, the *Killers of the Flower Moon* concession, the AARP now-anchor — untouched.
+
+**Still open (an editor could decide):** I deliberately left the fatherhood thread on the *collapse* side only. Fraser has said his autistic son helped him reach *The Whale*; folding that into the comeback would deepen the thread but risks overloading the closer. Noted in the SECOND PASS NOTES block at the bottom of the file.

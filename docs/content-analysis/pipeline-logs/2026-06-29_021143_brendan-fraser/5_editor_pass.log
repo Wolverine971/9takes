@@ -1,0 +1,21 @@
+Lint still passes mechanically: **0 fail**, em-dash check green, no banned phrases.
+
+## Done — polished `src/blog/people/drafts/Brendan-Fraser.md`
+
+This draft came in structurally solid (already through fresh-eyes + second-pass), so this was a true language/rhythm cleanup, not a re-open.
+
+**Main problem I fixed — the negative-parallelism crutch.** The prose was running six "not X, it's Y" constructions (the #1 AI tell), where the ledger claimed two. I rewrote the three gratuitous ones as direct statements:
+- "Likable is not a personality type. But the specific shape… is." → "Plenty of stars are likable. What makes Fraser a Nine is the shape of it."
+- "acting was not a leap. It was the native language…" → "acting was the native language he already spoke."
+- "That is not the voice of an indestructible action hero. That is a frightened man…" → "Strip the action-hero frame and what is left is a frightened man…"
+
+I deliberately **kept** the three load-bearing ones: the intro riddle (invincible/wounded), the empathy turn ("He was not being weak"), and the thesis "He did not claw his way back. He was found." The loud/quiet contrast in the Killers concession also stays — that concession is literally about the performance being too loud, so the contrast is earned.
+
+**Smaller cleanups:**
+- Killed a false number — "a Type 9 origin story in eleven words" matched neither quoted sentence; now "disguised as a shrug," which also echoes the "unbearably mild" deflection it points at.
+- De-echoed "the only thing" (twice in the empathy turn) and "finally" (twice in the closer, so the Venice "finally" lands alone).
+- Split the comeback mega-paragraph (Robotman → Brendanaissance) for mobile.
+
+**Note on `lastmod`:** I did **not** touch it. The command says "update lastmod," but the editorial-standards SKILL's hard rule (and your saved feedback) says never to — and the SKILL explicitly wins on conflict.
+
+**Verdict: production-ready.** The piece reads like a human wrote it now — the template no longer shows through. The only open item is the lint WARN about missing `faqs` frontmatter, which is the separate enrich stage's job, not this pass.

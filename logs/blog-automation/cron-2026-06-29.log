@@ -1,0 +1,280 @@
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  brendan-fraser
+Draft:   src/blog/people/drafts/brendan-fraser.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_020045_brendan-fraser
+Started: Mon Jun 29 02:00:45 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:45)
+Command: /blog_content_creator_people_v2 brendan-fraser --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_020045_brendan-fraser/1_create.log
+─────────────────────────────────────────────────────
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  brendan-fraser
+Draft:   src/blog/people/drafts/brendan-fraser.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser
+Started: Mon Jun 29 02:11:43 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:11:43)
+Command: /blog_content_creator_people_v2 brendan-fraser --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser/1_create.log
+─────────────────────────────────────────────────────
+The Brendan Fraser draft is already complete from a prior pipeline run today, and it passes all hard gates and lint. I verified rather than regenerating (regenerating would risk clobbering a clean, complete draft). Here's the verification summary:
+
+- **blog-lint:** 0 fail, 1 warn (the lone warning is `no faqs in frontmatter` — that belongs to the downstream `frontmatter_enrich` stage, out of scope for this command)
+- **Internal links:** all 5 valid; the two celebrity cross-links (`Keanu-Reeves`, `Matthew-McConaughey`) confirmed `link: true` in `famousTypes.ts`
+- **All gate ledgers present and passing** (testimony 8≥2, heading mix 6≥2, distribution 2≤4, no self-loops, anti-imitation ending clean, formula-fingerprint anchors all filled)
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Brendan-Fraser.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (8 qualifying quotes) | Gate 2: pass (6 search-intent/hybrid H2s) | Gate 4: pass (no type-anaphora ending) | Gate 5: pass (2 type-theory paragraphs) | Gate 6: pass (critic anchor, empathy turn, current-tense anchor, interior beat all present)]
+LIMITATIONS: none
+```
+
+The draft (Enneagram Type 9, "The Giant Who Went Quiet") is a clean, complete profile: thesis is the action hero who absorbs harm inward instead of fighting back, anchored by the Venice ovation, the 2003 HFPA account, the *Mummy* injuries, and the *Rental Family* (2025) current-tense close. It's saved as `status: draft` — human review is still required before production. Next step when approved: mark `production_pretext.status: ready` and run `blog_content_production_people`.
+[Stage 1] create finished 02:12:22 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:12:22)
+Command: /blog_content_fresh_eyes_people brendan-fraser
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Pipeline is running in the background (PID 60284, stage 1 started 02:11:43), and a harness-tracked watcher (`byounkumx`) will notify me the moment the pipeline process exits. I'll stay engaged and resume verification + queue update when it completes.
+
+**Status so far:**
+- ✅ Pre-flight: `pause: false`, `forceNext: null`, `inProgress: null`, rate limit 1/5 this week
+- ✅ Selected **brendan-fraser** (Type 4, priority 57) — no existing draft
+- ✅ Set as `inProgress` in queue
+- 🔄 Full 7-stage pipeline running in background (the initial foreground run hit the harness's hard 10-min Bash cap; relaunched detached so it survives, with a tracked watcher to catch completion)
+
+Waiting on the watcher notification before verifying the draft, capturing the grade, and clearing `inProgress`.
+Done. Fresh-eyes notes added to the bottom of `src/blog/people/drafts/Brendan-Fraser.md`.
+
+**Reviewed:** the Brendan Fraser Type 9 draft (a genuinely strong one — disciplined on formula, real critic pressure, a clean Venice bookend).
+
+**The two biggest issues I flagged:**
+
+1. **His real fatherhood is missing entirely** — and that's the exact hole the article is built to fill. The closer is the *Rental Family* metaphor ("a man hired to be someone's family"), but Fraser actually has three sons (eldest is autistic), and the lost-decade section names his divorce and his mother's death while leaving the kids out. A reader who knows him reads that as a dodge. Threading even one or two sentences about his sons into the back half would make the ending pay off against a real family instead of only a metaphorical one.
+
+2. **The dramatic-actor range is smoothed off** — the draft rounds pre-2003 Fraser into pure beefcake (*George of the Jungle*, biceps, golden-retriever charm), but he did *School Ties*, *Gods and Monsters*, and was in *Crash*. The "audiences only saw the body" point gets *sharper*, not weaker, if you concede he showed depth early and got typecast anyway.
+
+Smaller notes in the block: expand the *Doom Patrol*/"Brendanaissance" comeback bridge and the child-support/financial collapse; trim a light "noose" echo and a repeated "like a little kid." No body edits made, per the command.
+[Stage 2] fresh_eyes finished 02:13:40 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:13:40)
+Command: /blog_content_second_pass_people brendan-fraser
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser/3_second_pass.log
+─────────────────────────────────────────────────────
+Lint passes clean — 0 fails, no prose em-dashes, no banned AI phrases. The one warning (no `faqs` frontmatter) is expected at this stage; the frontmatter-enrich pass hasn't run yet, which is downstream of this revision.
+
+## Done — second-pass revision of `src/blog/people/drafts/Brendan-Fraser.md`
+
+I verified every load-bearing claim before leaning on it, then made four substantive changes:
+
+**Main changes**
+1. **Filled the fatherhood gap** (the biggest note, and a real one). The lost-decade paragraph now names his three young sons — eldest Griffin on the autism spectrum — and the 2013 Connecticut courtroom where he testified he could no longer make the support payments, tying the failing income to the failing body. The closer now pays off against a *real* family ("an actual father to three sons, the one role no studio cast him in and no company could rent out") before the *Rental Family* metaphor lands. The ending was secretly about his sons; now it has them.
+2. **Restored his dramatic range.** The Mummy section concedes *School Ties*, *Gods and Monsters*, *The Quiet American*, and the Best-Picture *Crash* ensemble — so "audiences only saw the body" becomes a sharper contradiction instead of rounding him into a himbo.
+3. **Complicated "he had been gone"** with *Doom Patrol* (Robotman, since 2019) as the unnoticed day job, and named the **Brendanaissance**.
+4. **Trims**: the second noose callback now does new work (a physical blow vs. a wound that left no bruise) rather than repeating the strangle-and-smile image; the contrast panel no longer reuses "like a little kid."
+
+I kept everything the review flagged as working — the Venice bookend, the empathy turn with the skeptic let in first, the *Killers of the Flower Moon* concession, the AARP now-anchor — untouched.
+
+**Still open (an editor could decide):** I deliberately left the fatherhood thread on the *collapse* side only. Fraser has said his autistic son helped him reach *The Whale*; folding that into the comeback would deepen the thread but risks overloading the closer. Noted in the SECOND PASS NOTES block at the bottom of the file.
+[Stage 3] second_pass finished 02:17:45 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:17:45)
+Command: /cohesion-check src/blog/people/drafts/brendan-fraser.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser/4_cohesion.log
+─────────────────────────────────────────────────────
+## Cohesion Check Complete: Brendan-Fraser.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Brendan Fraser is an Enneagram Type 9 whose one trained skill is absorption rather than fighting back, which is why he disappeared when wounded and why his comeback required being found rather than clawing his way back.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- **Section 6 "How He Falls Apart" → Section 7 "Why the Internet Brought Him Back":** Added one bridging sentence at the close of the falls-apart section: *"And the way back was not something a Nine this far down could do for himself. Someone had to come and find him."* This does three things at once — it finally delivers the second clause of that section's heading ("and How He Comes Back") in prose instead of stranding it inside the skippable Rabbit Hole, it carries the rescue-from-outside concept directly into the next section's opening ("Fraser did not engineer it. The audience did"), and it sets up the later breadcrumbs quote ("I was in the wilderness... but you found me"). It matches the section's short-declarative rhythm and uses no banned constructions or em-dashes.
+
+### What Was Preserved
+- All frontmatter, ledgers, and review-note comment blocks
+- All Svelte/HTML components (contrast-panel, key-stat, inner-thought, accordions, Rabbit Hole)
+- All internal links
+- Every other section boundary (all rated Strong and left untouched): childhood→Mummy carries "blending"; Mummy→assault sets up "when the pain stops being physical"; comeback→Rental Family carries "first leading role since the Oscar"
+
+### Remaining Concerns
+None structural. Two notes, both your call, neither a cohesion defect:
+
+1. **Section 6 carries a heavy load** (assault + retreat + empathy turn + the full cascade of divorce/sons/mother/money/courtroom). It holds together because the empathy turn anchors it, but it's the densest section in the piece. If anything ever needs to move, the compounding-losses paragraph could become its own beat. Not needed now.
+2. The "Still open" item in your own second-pass notes (folding a Griffin/*The Whale* connection into the comeback) is a content/expansion decision, not a cohesion one — the through-line is complete without it.
+[Stage 4] cohesion finished 02:19:38 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:19:38)
+Command: /blog_content_editor_pass_people brendan-fraser
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser/5_editor_pass.log
+─────────────────────────────────────────────────────
+Lint still passes mechanically: **0 fail**, em-dash check green, no banned phrases.
+
+## Done — polished `src/blog/people/drafts/Brendan-Fraser.md`
+
+This draft came in structurally solid (already through fresh-eyes + second-pass), so this was a true language/rhythm cleanup, not a re-open.
+
+**Main problem I fixed — the negative-parallelism crutch.** The prose was running six "not X, it's Y" constructions (the #1 AI tell), where the ledger claimed two. I rewrote the three gratuitous ones as direct statements:
+- "Likable is not a personality type. But the specific shape… is." → "Plenty of stars are likable. What makes Fraser a Nine is the shape of it."
+- "acting was not a leap. It was the native language…" → "acting was the native language he already spoke."
+- "That is not the voice of an indestructible action hero. That is a frightened man…" → "Strip the action-hero frame and what is left is a frightened man…"
+
+I deliberately **kept** the three load-bearing ones: the intro riddle (invincible/wounded), the empathy turn ("He was not being weak"), and the thesis "He did not claw his way back. He was found." The loud/quiet contrast in the Killers concession also stays — that concession is literally about the performance being too loud, so the contrast is earned.
+
+**Smaller cleanups:**
+- Killed a false number — "a Type 9 origin story in eleven words" matched neither quoted sentence; now "disguised as a shrug," which also echoes the "unbearably mild" deflection it points at.
+- De-echoed "the only thing" (twice in the empathy turn) and "finally" (twice in the closer, so the Venice "finally" lands alone).
+- Split the comeback mega-paragraph (Robotman → Brendanaissance) for mobile.
+
+**Note on `lastmod`:** I did **not** touch it. The command says "update lastmod," but the editorial-standards SKILL's hard rule (and your saved feedback) says never to — and the SKILL explicitly wins on conflict.
+
+**Verdict: production-ready.** The piece reads like a human wrote it now — the template no longer shows through. The only open item is the lint WARN about missing `faqs` frontmatter, which is the separate enrich stage's job, not this pass.
+[Stage 5] editor_pass finished 02:22:44 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:22:44)
+Command: /blog_content_frontmatter_enrich_people brendan-fraser
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+YAML parses cleanly. Enrichment complete.
+
+```
+Frontmatter enrichment complete: Brendan-Fraser
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Brendan_Fraser)
+
+FAQs generated (4):
+1. What is Brendan Fraser's personality type? → #what-is-brendan-frasers-personality-type
+2. Why did Brendan Fraser disappear from Hollywood? → #the-summer-brendan-fraser-stopped-fighting-back
+3. What Enneagram wing is Brendan Fraser? → #what-is-brendan-frasers-personality-type
+4. How did Brendan Fraser make his comeback? → #why-the-internet-brought-brendan-fraser-back
+
+Verified identifiers:
+- Wikidata Q193555 (cross-checked: P345 = nm0000409, P569 = 1968-12-03, P19 = Indianapolis, P27 = United States + Canada)
+- IMDb nm0000409 (confirmed via Wikidata P345 and IMDb search result)
+
+Issues:
+- The body contains NO inline external citation URLs — only internal /enneagram-corner
+  and /personality-analysis links. Per the no-fabrication rule, citations were built from
+  authoritative URLs mapping to entities/sources the body actually discusses (the load-bearing
+  2018 GQ profile, plus Wikipedia entries for Fraser, The Whale, The Mummy, and Doom Patrol).
+  Flag for content quality: the draft cites sources by name (GQ, AARP, W, The Hollywood
+  Reporter, AnOther) but never as inline links.
+```
+
+Body, HTML comment blocks (Testimony/Heading/Distribution/Formula ledgers, Fresh Eyes, Second Pass, Editor Pass notes), `production_pretext`, and `lastmod` were all left untouched.
+[Stage 6] enrich_frontmatter finished 02:24:47 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 154 chars
+ok    meta_title length 55 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: brendan-fraser — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+[pre-grade] No existing content_quality block on draft, nothing to clear
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:24:48)
+Command: /grade_blog brendan-fraser
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Brendan Fraser
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Brendan-Fraser | 9 | 9 | 9 | 9 | 9 | 8.5 | **9.0** | **A** |
+
+*Overall = (9×1.5 + 9×1.5 + 9×1.5 + 9 + 9 + 8.5×0.5) / 7 = 62.75/7 = 9.0. Discoverability 9 ≥ 7 — gate passes.*
+
+### Key Observations
+- **Publication-ready and well above threshold.** This draft has been through fresh-eyes + second-pass + editor passes, and it shows — the formula discipline is the cleanest I see in the corpus (ledgers confirm 2 contrast-pairs, 0 body-level counter-typing ladders, typology quarantined in the rabbit hole).
+- **Evidence is the standout dimension:** 8 dated/sourced collaborator quotes plus Fraser's own words carrying the argument. Quotes are structural, not decorative — exactly what AI answer engines lift.
+- **The "rental family" closer is a genuine aha** that maps the role onto his whole life and passes the swap test outright.
+- **Empathy turn is exemplary** — the skeptic is invited in before being answered.
+
+### Why not A+ (9.5)
+Two concrete moves, both already half-flagged in the draft's own notes:
+1. The still-open **Griffin / The Whale** thread — Fraser has said his autistic son helped him reach the role. Folding it in would make the fatherhood thread pay off against the *comeback*, not just the collapse, and detonate the rental-family ending.
+2. A **hook that isn't the ovation** — opening inside the tightened-noose Mummy moment would seed "absorb the impact, smile" from sentence one (hook is the only sub-9 dimension).
+
+**Publication status: A (9.0) — clears the 8.5 / B+ bar comfortably. Ready to publish.**
+
+The `content_quality` block and reviewer comment are written into `src/blog/people/drafts/Brendan-Fraser.md`.
+[Stage 7] grade finished 02:26:43 (exit=0)
+
+[Stage 8] No revision needed (overall 9.0 >= 8.5, discoverability 9 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: brendan-fraser
+Finished: Mon Jun 29 02:26:43 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '9'
+  hook: 8.5
+  enneagram: 9
+  evidence: 9
+  writing: 9
+  originality: 9
+  discoverability: 9
+  overall: 9.0
+  letter: A
+  rubric_version: 2
+  graded_at: '2026-06-29'
+═════════════════════════════════════════════════════

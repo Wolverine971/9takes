@@ -439,7 +439,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'martin-luther-king-jr', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Pastor Who Weaponized Love', contentGrade: 8.9, types: ['politician', 'movement-leader'] },
 		{ name: 'mr-beast', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Algorithm Monk Who Can\'t Stop Building', contentGrade: 9, types: ['creator', 'viral-entertainer'] },
 		{ name: 'napoleon-bonaparte', link: true, hasImage: true, lastmod: '2026-03-10', personaTitle: 'History\'s Restless Conqueror', contentGrade: 9.3, types: ['historical', 'historical-leader'] },
-		{ name: 'nicki-minaj', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Rap\'s Armored Queen', contentGrade: 8.6, types: ['musician'] },
+		{ name: 'nicki-minaj', link: true, hasImage: true, lastmod: '2026-06-29', personaTitle: 'Rap\'s Armored Queen', contentGrade: 8.6, types: ['musician'] },
 		{ name: 'reed-hastings', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Entertainment\'s Unapologetic Disruptor', contentGrade: 8.6, types: ['techie', 'big-tech-founder'] },
 		{ name: 'rihanna', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Pop\'s Unbothered Mogul', contentGrade: 8, types: ['musician', 'pop-star'] },
 		{ name: 'rupert-murdoch', link: true, hasImage: true, lastmod: '2026-05-14', personaTitle: 'Media\'s Unbreakable Patriarch', contentGrade: 9.1, types: ['entrepreneur', 'celebrity', 'celebrity-image', 'business-operator'] },

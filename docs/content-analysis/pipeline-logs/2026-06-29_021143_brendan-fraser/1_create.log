@@ -1,0 +1,16 @@
+The Brendan Fraser draft is already complete from a prior pipeline run today, and it passes all hard gates and lint. I verified rather than regenerating (regenerating would risk clobbering a clean, complete draft). Here's the verification summary:
+
+- **blog-lint:** 0 fail, 1 warn (the lone warning is `no faqs in frontmatter` — that belongs to the downstream `frontmatter_enrich` stage, out of scope for this command)
+- **Internal links:** all 5 valid; the two celebrity cross-links (`Keanu-Reeves`, `Matthew-McConaughey`) confirmed `link: true` in `famousTypes.ts`
+- **All gate ledgers present and passing** (testimony 8≥2, heading mix 6≥2, distribution 2≤4, no self-loops, anti-imitation ending clean, formula-fingerprint anchors all filled)
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Brendan-Fraser.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (8 qualifying quotes) | Gate 2: pass (6 search-intent/hybrid H2s) | Gate 4: pass (no type-anaphora ending) | Gate 5: pass (2 type-theory paragraphs) | Gate 6: pass (critic anchor, empathy turn, current-tense anchor, interior beat all present)]
+LIMITATIONS: none
+```
+
+The draft (Enneagram Type 9, "The Giant Who Went Quiet") is a clean, complete profile: thesis is the action hero who absorbs harm inward instead of fighting back, anchored by the Venice ovation, the 2003 HFPA account, the *Mummy* injuries, and the *Rental Family* (2025) current-tense close. It's saved as `status: draft` — human review is still required before production. Next step when approved: mark `production_pretext.status: ready` and run `blog_content_production_people`.

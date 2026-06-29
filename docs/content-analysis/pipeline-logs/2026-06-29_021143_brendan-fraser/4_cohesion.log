@@ -1,0 +1,24 @@
+## Cohesion Check Complete: Brendan-Fraser.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Brendan Fraser is an Enneagram Type 9 whose one trained skill is absorption rather than fighting back, which is why he disappeared when wounded and why his comeback required being found rather than clawing his way back.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- **Section 6 "How He Falls Apart" → Section 7 "Why the Internet Brought Him Back":** Added one bridging sentence at the close of the falls-apart section: *"And the way back was not something a Nine this far down could do for himself. Someone had to come and find him."* This does three things at once — it finally delivers the second clause of that section's heading ("and How He Comes Back") in prose instead of stranding it inside the skippable Rabbit Hole, it carries the rescue-from-outside concept directly into the next section's opening ("Fraser did not engineer it. The audience did"), and it sets up the later breadcrumbs quote ("I was in the wilderness... but you found me"). It matches the section's short-declarative rhythm and uses no banned constructions or em-dashes.
+
+### What Was Preserved
+- All frontmatter, ledgers, and review-note comment blocks
+- All Svelte/HTML components (contrast-panel, key-stat, inner-thought, accordions, Rabbit Hole)
+- All internal links
+- Every other section boundary (all rated Strong and left untouched): childhood→Mummy carries "blending"; Mummy→assault sets up "when the pain stops being physical"; comeback→Rental Family carries "first leading role since the Oscar"
+
+### Remaining Concerns
+None structural. Two notes, both your call, neither a cohesion defect:
+
+1. **Section 6 carries a heavy load** (assault + retreat + empathy turn + the full cascade of divorce/sons/mother/money/courtroom). It holds together because the empathy turn anchors it, but it's the densest section in the piece. If anything ever needs to move, the compounding-losses paragraph could become its own beat. Not needed now.
+2. The "Still open" item in your own second-pass notes (folding a Griffin/*The Whale* connection into the comeback) is a content/expansion decision, not a cohesion one — the through-line is complete without it.

@@ -7,19 +7,6 @@
 	},
 	"queue": [
 		{
-			"name": "brendan-fraser",
-			"displayName": "Brendan Fraser",
-			"type": 4,
-			"priority": 57,
-			"priorityReason": "Beloved comeback story with high goodwill, The Whale emotional vulnerability, and a 4w5 sensitive-artist comeback angle (was Type 9 — corrected during audit; tears-on-press-tour intensity reads 4, not 9)",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "hollywood-comeback-cluster"
-		},
-		{
 			"name": "jim-carrey",
 			"displayName": "Jim Carrey",
 			"type": 7,
@@ -918,6 +905,28 @@
 			"needsReview": false,
 			"pipelineLog": "docs/content-analysis/pipeline-logs/2026-06-19_165209_nick-offerman",
 			"recoveryNote": "Daily creator wrapper failed twice during stage 1 with zero-byte logs and no draft; completed by direct run of scripts/run-blog-pipeline.sh."
+		},
+		{
+			"name": "brendan-fraser",
+			"displayName": "Brendan Fraser",
+			"type": 9,
+			"priority": 57,
+			"priorityReason": "Beloved comeback story with high goodwill, The Whale emotional vulnerability, and a 4w5 sensitive-artist comeback angle (draft ultimately typed as Enneagram 9 during pipeline)",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": "The Giant Who Went Quiet",
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "hollywood-comeback-cluster",
+			"startedAt": "2026-06-29T06:00:37Z",
+			"completedAt": "2026-06-29T06:26:43Z",
+			"contentGrade": 9.0,
+			"letter": "A",
+			"discoverability": 9,
+			"duration": 26,
+			"needsReview": false,
+			"pipelineLog": "docs/content-analysis/pipeline-logs/2026-06-29_021143_brendan-fraser",
+			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
 	"inProgress": null,
