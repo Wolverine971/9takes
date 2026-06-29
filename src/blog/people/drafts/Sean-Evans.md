@@ -18,7 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Sean_Evans_(interviewer)'
 wikidata_qid: 'Q27917256'
 imdb_id: 'nm8797195'
 birth_date: '1986-04-26'
-birth_place: 'Chicago, Illinois, United States'
+birth_place: 'Evanston, Illinois, United States'
 nationality: 'American'
 occupation:
   - 'Vlogger'
@@ -49,6 +49,11 @@ citations:
   - 'https://www.imdb.com/name/nm8797195/'
   - 'https://www.eonline.com/news/1432401/keke-palmer-hot-ones-sean-evans-spark-romance-rumors-after-podcast'
   - 'https://podcasts.apple.com/us/podcast/baby-this-is-keke-palmer/id1668446854'
+  - 'https://en.wikipedia.org/wiki/Hot_Ones'
+  - 'https://www.youtube.com/watch?v=gWVHses2GCY'
+  - 'https://knowyourmeme.com/memes/hey-look-at-us'
+  - 'https://www.youtube.com/watch?v=6rXotBDLLyE'
+  - 'https://www.thethings.com/sean-evans-health-after-years-of-eating-spicy-wings-on-hot-ones/'
 faqs:
   - question: "What is Sean Evans's personality type?"
     answer: "Sean Evans is an Enneagram Type 6 (The Loyalist), specifically a 6w5 who runs counterphobic on camera. The pattern shows in the ten days of research behind every Hot Ones episode, the episodes he still can't watch back because 'there's a lack of refinement that is painful for me to watch,' the decade-plus loyalty to co-creator Chris Schonberger and his own brother Gavin on the research team, and his description of success as Fight Club's last scene — 'you wonder when your building's going to give way.'"
@@ -81,13 +86,13 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 9.5
   evidence: 9
   writing: 9
   originality: 9.5
-  overall: 9.1
+  overall: 9.2
   letter: A
-  graded_at: '2026-05-11'
+  graded_at: '2026-06-28'
 path: src/blog/people/drafts/Sean-Evans.md
 ---
 
@@ -117,6 +122,8 @@ Locations:
 - "Sean Evans, his little brother, and the friend with the wing idea" — one paragraph naming Type 6 loyalty as risk management (4 consecutive system-level sentences comparing types 3, 7, 6 in this position)
 
 Note: "How Sean Evans prepares for every Hot Ones interview" contains one single-sentence theory bridge ("Type 6 cognition runs on noticing what could be missed.") followed by three Evans-specific sentences — does not count under the 2+-consecutive rule.
+
+Note (2026-06-28 revision): A new arrows paragraph in the diagnosis section ("Why Sean Evans gets nervous") names the 6→3 disintegration and 6→9 integration lines, but each system-level sentence is immediately anchored to Evans (camera-calm = 9, buy-side acquisition = stress-3); no 2+ consecutive system sentences, so it does not count. The new rituals paragraph in "What Hot Ones did" is show-description with a single closing counterphobic sentence (Last Dab); also does not count.
 -->
 
 > "I don't think I'm, like, so handsome that they have to put me on TV, or so charismatic that my personality can cash the checks. I do think, on some level, I have to get in the mud and do the work." — Sean Evans, on his approach to Hot Ones
@@ -184,7 +191,7 @@ The number that matters is ten days. That's how long one episode takes from gree
 
 There's a specific tell in his research that gives away the type. When Evans watches an old interview of a future guest, he doesn't track the famous answers. He tracks the body. He looks for the moment a host asked a question the guest wanted to keep talking about, watches the guest lean in, and then watches the host move past it. That unanswered moment, sometimes a decade old, becomes a Hot Ones question. He picks up what other people put down.
 
-Type 6 cognition runs on noticing what could be missed. The watcher who has been catastrophizing in private — Fight Club buildings falling down — is the same watcher who catches the abandoned thread in a 2014 press junket. The anxiety isn't a flaw. It's the engine.
+Type 6 cognition runs on noticing what could be missed. The watcher who has been catastrophizing in private is the same watcher who catches the abandoned thread in a 2014 press junket. The anxiety isn't a flaw. It's the engine.
 
 The pattern is not new for him. Before Hot Ones, before Complex, before anything that paid, Evans was a 22-year-old copywriter for the Chicago tourism board doing a freelance five-minute video interview with 2 Chainz in New Orleans. He told one Reddit AMA: *"I remember studying note cards and being nervous as hell for, like, a five minute video interview with 2 Chainz."* Five minutes. Note cards. A rapper who would not have cared if Evans had improvised. The intensity was there before the stakes were.
 
@@ -202,13 +209,15 @@ The Fight Club image is the giveaway. He used it in a Variety interview about th
 
 He's also said: *"You have the impostor syndrome that takes over your whole life. Once you get on top, the biggest challenge then is staying up there."* The reframe is small but exact. For Evans, the top is not a destination. It's a position he might be evicted from.
 
+The lines a 6 travels fill in the rest. In security, a 6 borrows the steadiness of Type 9, and that is the Evans the camera sees: the level voice, the stillness while a guest comes apart, a calm so complete it can read as serene. Under stress, a 6 reaches for the worst of Type 3, competitive and image-managing, the line that shows in the buy-side acquisition and the new chief creative officer title, the man who swears charisma can't cash the checks now holding the checkbook. The on-camera 9 and the boardroom 3 are the same anxious 6, leaning whichever way the ground allows.
+
 ---
 
 ## The 10-day Rubik's Cube
 
 Evans calls each episode "a Rubik's Cube that just solves itself." It's a Type 6 metaphor in a tuxedo. The Rubik's Cube has a fixed number of moves, a knowable algorithm, a determinable solution. There is exactly the right amount of structure to make a vigilant mind feel safe. The puzzle terrifies a 4 and bores a 7. It is the dream object for a 6 who is afraid of formless time.
 
-Each episode is the same shape. Ten wings. Ten questions, then follow-ups. Two openings: who the guest is and why they're here. One closing: the wing of shame, the parting question, the credits. Within that shape, anything can happen. Lorde can sing a Caroline Polachek cover. Margaret Qualley can cry. [Pedro Pascal](/personality-analysis/pedro-pascal) can gargle milk. The shape holds them up.
+Each episode is the same shape. Ten wings. Ten questions, then follow-ups. Two openings: who the guest is and why they're here. One closing: The Last Dab, the parting question, the credits. Within that shape, anything can happen. Lorde can sing a Caroline Polachek cover. Margaret Qualley can cry. [Pedro Pascal](/personality-analysis/pedro-pascal) can gargle milk. The shape holds them up.
 
 The show is, in this sense, an externalization of how Sean Evans copes with the world. Build a structure that allows for chaos but never depends on improvisation to survive. Inside the structure, you can take the worst hot sauce on earth and still ask question seven. Outside the structure, you watch yourself for refinement and lose.
 
@@ -244,27 +253,55 @@ The reason the format works is that the host is the constant. Evans does not bre
 
 The exception is when the guest makes Evans part of the interview. [Keke Palmer](/personality-analysis/keke-palmer) has done that better than almost anyone: first as a repeat _Hot Ones_ guest, then with the 2025 kiss after his public crush comment, then with the May 2026 podcast reunion where both of them joked through the internet wanting them together. It is not a confirmed relationship. It is a very specific kind of host-to-host chemistry: Palmer turns the flirtation into performance, and Evans, usually the controlled variable, has to become part of the bit.
 
+There's one other way a guest beats the format, and Paul Rudd found it in a single 2019 episode. Mid-challenge, already mixing The Last Dab, Rudd narrated the shared ordeal out loud. "Look at us. Hey, look at us." Evans: "Who would've thought?" Rudd: "Not me." The clip became the most-quoted moment in the show's history, and it's the exception that proves the thesis. Rudd isn't dissolving under the structure. He's standing inside it with Evans, treating the host as a fellow survivor rather than the examiner across the table. Most guests crack and become themselves. Rudd stayed composed and let Evans in on the bit.
+
 The Pedro Pascal episode is the case study. In March 2023, at the peak of his Last of Us moment, Pascal sat across from Evans and steadily lost. By the back half of the wing run he was drinking milk despite hating milk, gargling it on camera, then describing in real time a gap between his back molar and his front tooth where the sauce had wedged itself and would not stop burning. Evans, eating the same wings, asks the next question. The asymmetry is the show. One man performs competence under physical duress; the other is in chemically-induced honesty, which turns out to look a lot like a real conversation.
 
 The format also breaks. In the show's first-season finale, October 2015, DJ Khaled tapped out at wing three of ten and called for ranch and milk on camera. It became the show's canonical flameout — the moment the rest of the catalog now gets measured against. A year later, Coolio finished his episode by pouring an entire bottle of the final sauce onto one wing, then passing out in the green room afterward for two hours. Evans's format is durable because it includes the failure mode. Sit down, eat the wings, do the work. Everyone has a wing where the work stops.
 
-Evans eats his. Every wing, every episode, including The Last Dab — more than three thousand of them across the run. He has described his response to Carolina Reapers as Pavlovian: his body starts rejecting the sauce before he has tasted anything. The show that cracks the guest's composure runs on the same nerve in the host. He is also in the mud.
+The rituals have names. Wing eight is Da Bomb, the sauce that wrecks spice veterans on chemistry rather than Scoville, the wall every guest braces for. Mid-interview comes Explain That Gram, where Evans pulls up a guest's own Instagram and makes them account for it. Then The Last Dab: on the final wing, Evans tells the guest it's tradition to add an extra dab of the hottest sauce, and that they don't have to. Most do it anyway, already in pain, handed a clean exit and refusing it. That voluntary extra suffering is the most counterphobic gesture the show offers, built into the format: choose more of the thing that hurts, on purpose, to prove it can't take you.
+
+Evans eats his. Every wing, every episode, including The Last Dab, more than three thousand of them across the run. He has described his response to Carolina Reapers as Pavlovian: his body starts rejecting the sauce before he has tasted anything. Off the clock he manages it like a tolerance, not a gift: salads and juice, TUMS within reach, no wings on his own time, and, as he told People, "I know exactly, physiologically, what's going to happen." The show that cracks the guest's composure runs on the same nerve in the host.
 
 Hot Ones now operates in territory most YouTube interview shows never touch. Politicians have begged to come on. In 2024, both major presidential campaigns reportedly tried to book the show; Evans and Schonberger turned them down to keep the format non-political. The show that thrives on cracking the press persona refuses to host the people who have made the persona itself the product. Lorde sang on it. The "Lorde on Hot Ones" tweet was the kind of cultural earthquake YouTube interview shows don't usually get.
 
-Evans has stayed almost weirdly the same. The voice is the voice. The posture is the posture. The shaved head, the quiet button-down, the level affect — the visual costume is exactly what a 6 narrows to when the cost of variance is too high. Whatever else is in the room, the host is a known quantity. He lives in Brooklyn and is famously private about the rest. He once described the job to the New York Times as eating scorching hot chicken wings with celebrities. He says it the way he says everything: as if the absurdity is not lost on him, but he has already moved on to the question.
+Evans has stayed almost weirdly the same. The voice is the voice. The posture is the posture. The open is the open: every episode begins with the same scripted greeting, word for word, "Hey, what's going on everybody? For First We Feast, I'm Sean Evans and you're watching Hot Ones. It's the show with hot questions and even hotter wings." Same words, every guest, every season, the 6 narrowing the start of each show to a known quantity before a stranger sits down. The shaved head, the quiet button-down, the level affect: the visual costume is exactly what a 6 narrows to when the cost of variance is too high. Whatever else is in the room, the host is a known quantity. He lives in Brooklyn and is famously private about the rest. He once described the job to the New York Times as eating scorching hot chicken wings with celebrities. He says it the way he says everything: as if the absurdity is not lost on him, but he has already moved on to the question.
 
 ---
 
 ## The interview the steady one is still doing
 
-In the Louis Theroux conversation, Evans returns to the memory of his mother's last day and says the same thing twice. He remembers the quiet of the house. He remembers the look on the nurse's face. And he remembers a feeling — that he was receiving support, and that he needed to be that too for other people. He was 17. The room was small. The future was about to get loud.
+In the Louis Theroux conversation, Evans returns to the memory of his mother's last day and says the same thing twice. He remembers the quiet of the house. He remembers the look on the nurse's face. And he remembers what the room taught him: how to be the steady one when someone across from you is coming apart. He was 17. The room was small. The future was about to get loud.
 
 Two decades later, he sits across from a stranger every Thursday. The stranger eats something painful. The stranger says something they didn't plan to say. The steady one in the chair does not flinch. He asks the next question. He picks up the slipped mask. He keeps the floor under both of them.
 
 His mother asked him, in her last conversation, where he was going to go.
 
 He has been answering her ever since.
+
+<!-- EDIT PASS LEDGER — 2026-06-28 (fan-gap revision; surgery on 9.1/A draft)
+
+ADDED:
+- Paul Rudd counter-example (single S10E5, Oct 17 2019 episode only — NOT a recurring tradition; the "look at us" meme is internet afterlife) in "What Hot Ones did," after the Keke Palmer beat. Framed as the guest who stays composed and stands inside the structure WITH Evans, the exception that proves the thesis.
+- Rituals paragraph in "What Hot Ones did": Da Bomb (wing 8), Explain That Gram, and The Last Dab framed as the show's most counterphobic gesture (voluntary extra suffering when Evans explicitly says you don't have to).
+- Scripted intro (verbatim greeting) in the final section as proof of "the voice is the voice, the posture is the posture" — identical-every-episode open = the 6 narrowing to a known quantity.
+- Arrows paragraph capping the diagnosis section: 6→9 integration (on-camera calm) and 6→3 disintegration (competitive/image-managing, the buy-side acquisition), kept Evans-anchored.
+- Health beat: one human line near the Pavlovian sentence (salads/juice, TUMS, no wings off-clock, "I know exactly, physiologically, what's going to happen"). Framed as managed tolerance, not injury. 2020 fainting NOT connected to wings.
+
+CORRECTED:
+- Frontmatter birth_place 'Chicago, Illinois' → 'Evanston, Illinois' to match the (correct) body. Body's born-Evanston / raised-Crystal-Lake distinction kept.
+- "the wing of shame" (not a real Hot Ones term) in the Rubik's Cube closing → "The Last Dab."
+
+TRIMMED (net-neutral against additions):
+- Third "in the mud" ("He is also in the mud") cut from the wing-eating paragraph; opening quote + diagnosis callback kept.
+- One Fight Club echo cut from the prep section; TL;DR mention + dedicated Variety-anniversary paragraph kept.
+- Closing no longer re-quotes the mother's "support / be that for others" line (kept as the verbatim pull-quote in the signature section); closing now pays off the "steady one" thesis instead.
+
+OTHER:
+- Citations added: Hot Ones Wikipedia, Rudd FWF episode, Know Your Meme, Emily Blunt intro episode, health (People via TheThings).
+- Em-dashes removed from the two changed paragraphs that still carried them; no em-dashes added. Remaining em-dashes in untouched prose left as-is (out of scope).
+- Regrade: enneagram 9 → 9.5, overall 9.1 → 9.2, graded_at 2026-06-28.
+-->
 
 <!-- EDIT PASS LEDGER — 2026-05-11
 
@@ -293,4 +330,66 @@ UNVERIFIED / FLAGS FOR FUTURE PASS:
 - "Hot Seat with Sean Evans" as a pre-Hot Ones show could not be primary-sourced; the bridge uses "Complex News anchor" instead.
 - Lorde / Caroline Polachek cover and Margaret Qualley crying are widely referenced but not primary-sourced in this pass; left in as decorative rhythm items.
 - The "visual costume is deliberate" framing is interpretation, not a stated quote from Evans.
+-->
+
+<!-- READER FRESH-EYES REVIEW — what a fan would notice
+
+Reading this cold, as someone who watches the show. The psychology is excellent and the
+preparation/anxiety thesis is the right spine. But there are a few things a Hot Ones fan would
+expect to see and a few things the piece says one too many times.
+
+WHAT'S MISSING (things a fan would look for and not find):
+
+1. PAUL RUDD "Hey, look at us." This is the single most-memed moment in Hot Ones history and
+   a running tradition — Rudd comes back, says the line, it's a fan ritual. For a piece that
+   leans on "the show that cracks the guest," leaving out its most beloved recurring bit is a
+   real gap. It also happens to be a perfect counter-example: the one guest who is in on the
+   structure with Evans rather than dissolving under it. Worth a sentence at minimum.
+
+2. THE RITUALS HAVE NAMES AND FANS LOVE THEM. The piece name-drops "the wing of shame" and
+   "The Last Dab" but treats them as scenery. Fans know these as signature beats:
+   - "Da Bomb" (wing 8) — the universally hated sauce that wrecks everyone; it's a cultural
+     in-joke. You mention it once in passing ("eating Da Bomb") without the lore.
+   - "The Last Dab" — the tradition of adding EXTRA sauce to the final wing voluntarily. That
+     voluntary extra-suffering is itself a Type 6 detail (do the hard thing on purpose to prove
+     it can't take you — pure counterphobic) and you're leaving free thematic money on the table.
+   - "Explain That Gram" — the social-media segment. Not mentioned at all.
+
+3. THE INTRO. "Hey, what's going on everybody... the show with hot questions and even hotter
+   wings." That scripted, identical-every-time open is iconic AND on-thesis: the 6 who narrows
+   to a known quantity, same words every episode. You gesture at "the voice is the voice, the
+   posture is the posture" but the actual catchphrase is the proof and it's absent.
+
+4. THE BODY COST / HEALTH. 3000+ extreme-capsaicin wings has consequences he's joked about
+   publicly. You have the Pavlovian line, which is great — but a human beat about what eating
+   this stuff for a decade actually does to him would land. Fans wonder about it.
+
+WHAT'S REPEATED (could trim):
+
+- "In the mud" appears three times (the opening quote, the diagnosis section, then again at the
+  end). Once as the thesis phrase, once as callback — the third is one too many.
+- The Fight Club / "building's going to give way" image shows up three times (TL;DR, prep
+  section, then the dedicated paragraph). It's a great image; using it three times spends it.
+  Keep the Variety-anniversary paragraph, cut one of the earlier echoes.
+- The mother's deathbed material runs in the intro setup, the full signature section, AND the
+  closing. The bookend is deliberate and mostly earns it — but the "support / be that for
+  others" quote appears nearly verbatim twice (pull-quote + closing). Pick the stronger spot.
+
+WHAT A TYPE-6 READER WOULD WANT THAT ISN'T HERE:
+
+- The ARROWS. You nail phobic/counterphobic and 6w5, but never name the lines: 6 disintegrates
+  to 3 (competitive, image-managing) and integrates to 9 (calm, settled). His on-camera
+  stillness reads almost 9-ish; the buy-side acquisition has a whiff of stress-3. One paragraph
+  connecting his calm-under-fire to the security point would deepen the read for Enneagram-literate
+  readers without adding length elsewhere.
+
+SMALL FACT FLAG:
+
+- Frontmatter birth_place says "Chicago, Illinois"; the body opens "born in Evanston, Illinois."
+  Reconcile these. (Evanston is the commonly cited one.)
+
+NET: It's an A-grade psychological profile that slightly under-serves the fan who clicked because
+they love the SHOW. Add Paul Rudd + one paragraph that actually honors the rituals (Last Dab as
+counterphobic), name the arrows, and trim one Fight Club and one "in the mud," and it's tighter
+and more complete at the same word count.
 -->

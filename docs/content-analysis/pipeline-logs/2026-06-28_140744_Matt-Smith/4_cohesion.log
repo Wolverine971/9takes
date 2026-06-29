@@ -1,0 +1,23 @@
+The bridge is in. Here's the wrap-up.
+
+## Cohesion Check Complete: Matt-Smith.md
+
+**Before score: 9/10**
+**After score: 9/10** (the piece was already strong; this sharpens the one soft spot)
+
+### Central Thesis
+Matt Smith is an Enneagram Type 7 because losing his only identity at 16 made him build a life structured so no single self can ever trap him again.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- *Doctor Who → Most Dangerous Man*: Added one bridging sentence at the section open — "If the Doctor was Smith's escape hatch, the roles after it are full of men who never find one." It carries the Doctor section's flight/escape keyword forward and names the contrast (free Doctor vs. trapped men) that the gallery then proves, so the jump from beloved hero to serial killers no longer lands cold. Voice-matched (short, concrete, contrast without a paired cadence to avoid tripping the formula ledger), no em-dash, no banned words. Hands straight into the existing "Look at the gallery" beat.
+
+### What Was Preserved
+- All frontmatter, ledgers, and review-note comment blocks
+- All Svelte/HTML components (`firstLetter`, `inner-thought`, `key-stat`, accordions, Rabbit Hole)
+- All internal links and quotes
+- 8 of 9 section transitions, untouched — the rest of the thread is genuinely tight (the diagnosis→football subversion of its own heading and the self-aware skeptic pivot in "When No One Wrote His Lines" are both excellent)
+
+### Remaining Concern (your judgment)
+**Rabbit Hole placement.** The off-screen-evidence section ("When No One Wrote His Lines") and the Morbius section are both "the man, not his roles" beats and would read best back-to-back. The Rabbit Hole currently splits them. Your own second-pass note already flagged testing a move of the Rabbit Hole to the very end. I left it in place because that's a structural reorder of a large optional block, not a cohesion break — but if you want the two real-life beats to run consecutively, moving the Rabbit Hole to sit just before (or after) "The Door That Never Reopened" is the clean way to do it. Say the word and I'll move it.

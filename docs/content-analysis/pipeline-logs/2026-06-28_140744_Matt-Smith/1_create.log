@@ -1,0 +1,36 @@
+Draft complete and saved. All hard gates pass, lint is clean (0 fail).
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Matt-Smith.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass, Gate 2: pass, Gate 4: pass, Gate 5: pass, Gate 6: pass]
+LIMITATIONS: none
+```
+
+**What I built**
+
+- **Type:** Enneagram Type 7 (7w8, sx-dominant) — the Enthusiast.
+- **Core tension:** The boy who lost his only identity in an afternoon vs. the man who now refuses to be any single self. He plays trapped men (Bateman, Philip, Daemon) beautifully and stays completely free himself.
+- **Thesis:** Most people see a charming eccentric who plays dangerous men. The real driver: a back injury ended his football career at 16 ("I was the footballer, and suddenly I wasn't that"), and he built a life out of exits so no door could ever close on him again.
+- **Signature detail:** The spondylosis never left — he still carries the closed door in his spine while leaping across stages and dragons.
+- **Empathy turn:** His flippant "it is what it is" Morbius shrug, read by critics as not caring, reframed as the scar tissue of a man who already let one failure break his heart completely and won't pay that price twice.
+- **Current anchor:** House of the Dragon S3 (Aug 2026 target), Caught Stealing (2025).
+- **Stat:** Youngest Doctor at 26; 1 of 54 Type 7s among 369 published 9takes profiles (corpus-stats).
+
+**Gate ledgers (in draft as HTML comments)**
+- **Testimony (Gate 1):** 3 qualifying quotes — Terry Hardingham (drama teacher), Steven Moffat (Doctor Who), Harry Collett (HOTD co-star).
+- **Heading mix (Gate 2):** 6 H2s, 5 search-intent/hybrid.
+- **Distribution (Gate 5):** 2 type-theory paragraphs outside diagnosis + rabbit hole.
+- **Formula fingerprint (Gate 6):** all anchors present, ending passes swap test.
+
+**Internal links added (4 total)**
+- Type 7 → /enneagram-corner/enneagram-type-7
+- Stress → /enneagram-corner/enneagram-types-in-stress
+- Wings → /enneagram-corner/enneagram-wings-complete-guide (rabbit hole)
+- Instinctual subtypes → /enneagram-corner/enneagram-instinctual-subtypes (rabbit hole)
+
+No celebrity cross-links — none of his co-stars (Tennant, Cumberbatch, Cooke, Foy) are published/linkable in `famousTypes.ts`.
+
+Remaining lint warn is the `faqs` frontmatter field, which is added later by the frontmatter-enrich stage — expected at creator stage. Draft saved as `status: draft`; human review required before `blog_content_production_people`.

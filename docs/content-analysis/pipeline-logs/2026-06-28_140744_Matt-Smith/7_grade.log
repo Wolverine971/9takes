@@ -1,0 +1,22 @@
+Grading complete.
+
+## Grading Complete — Matt-Smith
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Matt-Smith | 8 | 9 | 8 | 9 | 9 | 9 | **8.6** | **B+** |
+
+*(Overall weighted: (8×1.5 + 9×1.5 + 8×1.5 + 9 + 9 + 9×0.5) / 7 = 60.0 / 7 = 8.6. Discoverability 8 ≥ 7 — gate passes.)*
+
+### Key Observations
+- **Publication-ready (B+, threshold met).** This is a strong draft — the football-injury-at-16 origin wound is a genuine aha that explains the whole "plays trapped men, stays free himself" filmography, and it passes the swap test cleanly.
+- **Standout move:** the Morbius empathy turn ("It is what it is" → scar tissue, not indifference) is the single best beat — it converts a real criticism into motivation without excusing it.
+- **Structure is right:** physio-room cold open + the inner-thought at 16 carry the felt interior; all wing/subtype/arrow/counter-typing depth is correctly quarantined in the rabbit hole, keeping the body accessible.
+
+### What's holding it back from A (two specific, fixable things)
+1. **meta_title is clever-but-unsearchable** — "Why Matt Smith Can't Stop Disappearing Into Other Men" has no enneagram/type term, so the SERP title loses the query match. Fix this one line and Discoverability likely goes to 9.
+2. **Evidence leans on paraphrase** in a few load-bearing spots (the "still living with the back condition" claim, the "onstage gave him the same freedom as football" line, the Nottingham Forest/Leicester claim). Attach publications/dates and Evidence goes to 9.
+
+Both fixes are noted in the file's reviewer comment with a "TO REACH A" path. Doing both would put this at ~9.1 (A).
+
+The `content_quality` block and reviewer comment are written into `src/blog/people/drafts/Matt-Smith.md`.

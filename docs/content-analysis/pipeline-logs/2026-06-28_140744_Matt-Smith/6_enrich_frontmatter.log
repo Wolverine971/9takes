@@ -1,0 +1,34 @@
+Frontmatter enrichment complete. The build-break risk from the people pipeline (apostrophes in FAQ YAML) is avoided — every answer containing apostrophes uses double-quoted YAML strings, no `\'` escapes.
+
+```
+Frontmatter enrichment complete: Matt-Smith
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Matt_Smith) — left untouched per idempotency rule
+
+FAQs generated (5):
+1. What is Matt Smith's personality type? → #what-is-matt-smiths-personality-type
+2. Why does Matt Smith keep playing dangerous, trapped men? → #matt-smith-keeps-choosing-the-most-dangerous-man-in-the-room
+3. How did Matt Smith become an actor after his football injury? → #why-matt-smith-walked-away-from-the-one-thing-he-was
+4. Why was Matt Smith so calm about the Morbius flop? → #what-matt-smith-sounds-like-when-his-movie-bombs
+5. What is Matt Smith's Enneagram wing? → #matt-smiths-wing-7w8
+
+Verified identifiers:
+- Wikidata Q312385; IMDb nm1741002 (cross-confirmed via WebSearch returning IMDb pages for Matt Smith + the QID's external links)
+- birth_date 1982-10-28, Northampton, England
+
+Issues:
+- The body contains zero inline external links — only internal /enneagram-corner/ links.
+  Per the command, citations cannot be drawn from the body. I instead sourced real
+  URLs for the quotes named in the Testimony Ledger / Second Pass Notes (Rolling Stone UK
+  Morbius interview, TVLine Crown pay-gap, The Mary Sue Daemon-deflection) plus Wikipedia,
+  so the citations are genuine and substantiate the body rather than fabricated. Flagging
+  that this is a thin-sourcing content pattern: the article quotes are real but never linked in-body.
+- imdb_id included (actor — clearly applicable).
+```
+
+One note on FAQ 5's anchor: `matt-smiths-wing-7w8` targets the `### Matt Smith's Wing: 7w8` heading inside the Rabbit Hole accordion — rehype-slug still assigns it an id, so the deep link resolves.

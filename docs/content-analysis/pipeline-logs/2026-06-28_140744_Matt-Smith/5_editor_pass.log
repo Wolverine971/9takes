@@ -1,0 +1,20 @@
+Polished `src/blog/people/drafts/Matt-Smith.md`.
+
+## What I cleaned up
+
+This draft came in structurally solid (already through fresh-eyes and second-pass), so this was a light de-AI polish, not a rework. The real problems were cadence tells, not content:
+
+1. **Repeated "Here is X" section pivots** — four separate sections opened on the same construction ("Here is the detail," "And here is the move," "Here is the fair objection," "Here is what the criticism misses"). That's a template a reader starts to feel. Each now opens differently.
+2. **Statement-restatement** — "That is not a craft note. **That is** a man describing…" → "…**It is** a man…"
+3. **"next room" echo** — "the next room he has not seen yet" collided with the Morbius closer "The next room is always already waiting." Changed the first to "the next surprise he has not lived yet," which also ties back to his own word ("surprise").
+
+## What I deliberately left alone
+
+- The two **load-bearing negative-parallelism beats** (core fear "not death… It is being pinned"; "The detachment is not laziness. It is a man who learned…") — both earned and thesis-critical.
+- The emotional layer the piece runs on: the physio-room cold open, the 16-year-old inner-thought, the Morbius empathy turn, the Collett Daemon quote. All untouched.
+- `lastmod` — per the editorial hard rules, never modified (this overrides the command's "update lastmod" line).
+
+## Status
+
+- **Lint:** `./scripts/blog-lint.sh Matt-Smith` → **0 fail.** Em-dash check passes (the 26 raw `—` matches are all quote attributions and ledger comments, which are exempt).
+- **Production-ready on prose.** The one open item is the `faqs` frontmatter warning — that's the separate enrich stage, not an editor-pass concern. No further substantive editorial pass needed.

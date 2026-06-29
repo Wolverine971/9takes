@@ -6,7 +6,7 @@ description: "Ana de Armas left Cuba to be seen and Hollywood to be invisible. I
 author: 'DJ Wayne'
 date: '2026-06-08'
 loc: 'https://9takes.com/personality-analysis/ana-de-armas'
-lastmod: '2026-06-08'
+lastmod: '2026-06-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -80,15 +80,58 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9
-  enneagram: 9
+  enneagram: 8
   evidence: 9
-  writing: 9
+  writing: 8
   originality: 9
-  overall: 9.0
-  letter: A
-  graded_at: '2026-05-09'
+  discoverability: 8
+  overall: 8.5
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-28'
 path: src/blog/people/drafts/Ana-de-Armas.md
 ---
+
+<!-- QUALITY GRADE: B+ (8.5) — rubric v2 (re-grade after 2026-06-28 elevation pass)
+Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 8 | Writing: 8 | Hook: 9
+Weighted = (9×1.5 + 9×1.5 + 8×1.5 + 8 + 8 + 9×0.5) / 7 = 8.5
+
+NOTE ON THE NUMBER: this is LOWER than the prior 9.0 only because that was a v1 flat-average
+grade. Under v2 (weighted + formula caps + discoverability gate) the content is materially
+STRONGER than before — the drop is structural, not qualitative. See "TO REACH A" below.
+
+FEEDBACK (2026-06-28):
+- EVIDENCE (9): The elevation pass made sourcing the strongest dimension. Every new claim is
+  inline-attributed to a verified primary outlet (PR Newswire, WWD, IndieWire, Deadline/Samba TV,
+  ComingSoon, Remezcla, Hola, AnOther, Variety). The Blonde-paradox craft verdict now rests on a
+  structural argument across named critics (Dargis, Lane, Lawson, RT consensus) instead of a single
+  Gleiberman line. The Cuba factual error ("she has not lived in Cuba since") is fixed and replaced
+  with the sourced returns record (house ~2017, Wasp Network 2019, 2023 Havana birthday per Hola).
+- ORIGINALITY (9): "The Face She Sells and the Self She Keeps" converts the obvious counterexamples
+  (three luxury ambassadorships, the visible-brand contradiction) into the sharper thesis — performs
+  a public self so the private one stays unreachable. "Not Every Role Is a Norma" concedes Paloma and
+  the commercial run openly and narrows the claim to "refuses flat archetypes," which reads as MORE
+  credible. "She keeps leaving it from the inside" is the signature line of the Cuba fix. Faces critic
+  pressure head-on; passes the swap test; current-tense anchor present (Ballerina, Dec 2025 Variety).
+- HOOK (9): The three-line drop survives and the third beat is now TRUE and sharper: "She has gone
+  back many times since. She has never once stayed."
+- NEEDS WORK — MISSING RABBIT HOLE (caps Enneagram + Writing at 8): v2 requires wing/subtype/arrow
+  and counter-typing depth to live in a <details class="enneagram-rabbit-hole"> accordion. This draft
+  does 4w5-vs-4w3 wing analysis and Type 9/3/6 counter-typing in the BODY, with no rabbit hole. The
+  integration quality itself is A/A+ (the type resolves the central visibility/invisibility
+  contradiction, the empathy turns land), but the structural rule caps both dimensions.
+- NEEDS WORK — MISSING v2 STRUCTURAL BLOCKS: blog-lint also flags the four creator-v2 ledger comments
+  (TESTIMONY / HEADING MIX / DISTRIBUTION / FORMULA FINGERPRINT) and the Rabbit Hole block as absent.
+  This draft predates the v2 creator. Out of scope for the elevation pass; left for a structural pass.
+
+TO REACH A (9.0+):
+1. Add a <details class="enneagram-rabbit-hole"> accordion and MOVE the wing (4w5 vs 4w3) and the
+   Type 9/3/6 counter-typing out of the body into it. That lifts Enneagram 8→~9.5 and Writing 8→9.
+2. Add the four creator-v2 ledger comments so the draft clears blog-lint structurally.
+3. Optional evidence bump to 9.5: add inline outlet tags to the still-unattributed longing quotes
+   in the Type 4w5 section ("I always wanted something else" / "wanted more") and the ENA-years lines.
+-->
+
 
 <!-- QUALITY GRADE: A (9.0)
 Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
@@ -155,21 +198,21 @@ OPEN ITEMS:
 
 The money ran out in a week. She did not come home.
 
-She has not lived in Cuba since.
+She has gone back many times since. She has never once stayed.
 
-That single detail — the girl who said she'd be back, then never came back — tells you almost everything about how Ana de Armas moves through the world. She does not leave loudly. She leaves completely. By the time you notice she is gone, she has already built the next life somewhere else.
+That single detail, the girl who promised to return the week the money ran out and instead built a life she would only ever visit home from, tells you almost everything about how Ana de Armas moves through the world. She does not leave loudly. She leaves completely. By the time you notice she is gone, she has already built the next life somewhere else.
 
 Twenty years later, she would do it again. She would leave Madrid for Los Angeles. Then leave Los Angeles for the West Village. Then leave the West Village for a $7 million off-grid house in rural Vermont.
 
-The pattern looks restless. Underneath, it is the opposite of restless. It is a very specific kind of search. Each move is a small act of self-erasure followed by self-construction — the chronic Type 4 belief that the self you need is somewhere _else_, that there is always a missing piece, that wholeness lives one geography away from wherever you currently stand.
+The pattern looks restless. Underneath, it is the opposite of restless. It is a very specific kind of search. Each move is a small act of self-erasure followed by self-construction, the chronic Type 4 belief that the self you need is somewhere _else_, that there is always a missing piece, that wholeness lives one geography away from wherever you currently stand. The leaving was never political. Cuba was never the thing she was fleeing. The thing she was fleeing was the feeling that something was missing, and that feeling has no border.
 
 <details>
 <summary class="accordion">TL;DR: Why Ana de Armas reads as an Enneagram Type 4w5</summary>
 <div class="panel">
 <ul>
-<li><b>The "always wanted more" wound:</b> Her own words for why she keeps leaving — Cuba, Spain, Los Angeles — track Type 4's core belief that something essential is missing here, but maybe not there.</li>
+<li><b>The "always wanted more" wound:</b> Her own words for why she keeps leaving Cuba, Spain, and Los Angeles track Type 4's core belief that something essential is missing here, but maybe not there.</li>
 <li><b>Identity through transformation:</b> Nine months of dialect coaching for Marilyn. Four months of full-time English classes. Four months of jiu-jitsu, kickboxing, and weighted-vest treadmill running for <i>Ballerina</i>. She finds herself by becoming someone else, intensely and fully.</li>
-<li><b>The 5 wing — withdrawal and study:</b> A 700-photo "bible" to learn one woman. A rural Vermont cocoon to escape the world. Long, deliberate silences when other actresses would have given a press statement. The 4w5 retreats inward to do the deep, lonely work.</li>
+<li><b>The 5 wing, withdrawal and study:</b> A 700-photo "bible" to learn one woman. A rural Vermont cocoon to escape the world. Long, deliberate silences when other actresses would have given a press statement. The 4w5 retreats inward to do the deep, lonely work.</li>
 <li><b>Visibility/invisibility as a lifelong axis:</b> She fled Cuba to be seen. She fled Los Angeles to disappear. She picked the Marilyn role specifically because of Norma Jeane.</li>
 <li><b>Empathic identification, not impersonation:</b> She does not "play" Marilyn. She lets the wound be hers. Type 4s love subjects whose suffering matches their own internal weather.</li>
 </ul>
@@ -180,21 +223,21 @@ The pattern looks restless. Underneath, it is the opposite of restless. It is a 
 
 ### Ana de Armas is an Enneagram Type 4w5
 
-Type 4 is the Individualist — the type whose entire psychic architecture is organized around the belief that something essential is missing, and that the missing thing is what would finally let them feel whole. Fours are not chasing accomplishment for its own sake. They are chasing the feeling of being _real_, of being _seen accurately_, of finally arriving inside their own life.
+Type 4 is the Individualist, the type whose entire psychic architecture is organized around the belief that something essential is missing, and that the missing thing is what would finally let them feel whole. Fours are not chasing accomplishment for its own sake. They are chasing the feeling of being _real_, of being _seen accurately_, of finally arriving inside their own life.
 
-The 5 [wing](/enneagram-corner/enneagram-wings-complete-guide) pulls that longing inward. Where 4w3s perform the wound publicly and turn pain into stagecraft, the 4w5 disappears into research, solitude, and craft. The wing-five Four is a Bohemian — withdrawn, intellectual, allergic to small talk, more comfortable with a stack of reference photos than a press junket.
+The 5 [wing](/enneagram-corner/enneagram-wings-complete-guide) pulls that longing inward. Where 4w3s perform the wound publicly and turn pain into stagecraft, the 4w5 disappears into research, solitude, and craft. The wing-five Four is a Bohemian: withdrawn, intellectual, allergic to small talk, more comfortable with a stack of reference photos than a press junket.
 
 Almost every public-facing fact about Ana de Armas points there.
 
-The longing language is everywhere in her interviews. "I always wanted something else." "When I left Cuba, then again when I left Spain, it was always because I wanted more." On Los Angeles: "It's always the feeling of something that you don't have, something missing. It's a city that keeps you anxious." That is not a stress quote. That is a Type 4 self-description so precise it could be lifted from the diagnostic literature.
+The longing language is everywhere in her interviews. "I always wanted something else." "When I left Cuba, then again when I left Spain, it was always because I wanted more." That is not a stress quote. That is a Type 4 self-description so precise it could be lifted from the diagnostic literature.
 
-The transformation drive is everywhere too. She did not just learn English — she learned it phonetically, full-time, for four months, while already shooting English-language films in which, by her own admission, "I wasn't really sure what I was saying." She did not just play Marilyn — she studied a 700-photo bible for nine months and made the director weep on set. She did not just train for _Ballerina_ — she did 90 minutes of strength training, four-to-five hours of stunt coordination, firearms practice, and treadmill runs in a weighted vest, and reported, "My body, my back, everything hurts."
+The transformation drive is everywhere too. She did not just learn English. She learned it phonetically, full-time, for four months, while already shooting English-language films in which, by her own admission, "I wasn't really sure what I was saying." She did not just play Marilyn. She studied a 700-photo bible for nine months and made the director weep on set. She did not just train for _Ballerina_. She did 90 minutes of strength training, four-to-five hours of stunt coordination, firearms practice, and treadmill runs in a weighted vest, and reported, "My body, my back, everything hurts."
 
 Type 4s find themselves by becoming someone else, fully. The role is the workshop where the self gets built.
 
-The withdrawal is the wing 5. The 4w5 does not want a bigger platform — it wants a smaller, deeper, quieter life in which the work and the inner world get to be sovereign. _"If it were up to me, I would delete Instagram right now, but I can't,"_ she told _Vanity Fair_. She bought six bedrooms and eight bathrooms in Vermont so she could "collect myself and only bring there who I want to be with." None of her partners since LA — across the public Affleck era, the post-pandemic fade, and the brief Madrid relationship that drew international scrutiny — has been a story she narrated. None of that is a Type 3 strategy. None of that is a Type 7 strategy. That is a 4w5 building a cocoon.
+The withdrawal is the wing 5. The 4w5 does not want a bigger platform. It wants a smaller, deeper, quieter life in which the work and the inner world get to be sovereign. She bought six bedrooms and eight bathrooms in Vermont so she could "collect myself and only bring there who I want to be with." None of her partners since LA, across the public Affleck era, the post-pandemic fade, and the brief Madrid relationship that drew international scrutiny, has been a story she narrated. None of that is a Type 3 strategy. None of that is a Type 7 strategy. That is a 4w5 building a cocoon.
 
-The competing typings are not absurd, just thinner once you press on them. Type 9 (the easy on-set vibes, the unbothered Vermont neighbor) explains her surface but not her engine — Nines do not leave Cuba alone at eighteen with two hundred euros, and Nines do not describe a city as "keeps you anxious" with that level of personal precision. Type 3 explains the ambition, the relentless reinvention. But a Three is wired around image as accomplishment — the win is _being seen_ as the right thing. Ana picks Marilyn for Norma. She turns down "Latina, caretaker, pretty" because the role is smaller than her interior. The engine is "what is real about me," not "what looks impressive about me." That is Four, not Three. Type 6 (the anxiety, the loyalty to her people) is closest, but the language she uses for what is wrong is not "I'm afraid" — it is "something is missing." That is Four, not Six.
+The competing typings are not absurd, just thinner once you press on them. Type 9 (the easy on-set vibes, the unbothered Vermont neighbor) explains her surface but not her engine. Nines do not leave Cuba alone at eighteen with two hundred euros, and Nines do not describe a city as "keeps you anxious" with that level of personal precision. Type 3 explains the ambition, the relentless reinvention. But a Three is wired around image as accomplishment: the win is _being seen_ as the right thing. Ana picks Marilyn for Norma. She turns down "Latina, caretaker, pretty" because the role is smaller than her interior. The engine is "what is real about me," not "what looks impressive about me." That is Four, not Three. Type 6 (the anxiety, the loyalty to her people) is closest, but the language she uses for what is wrong is not "I'm afraid." It is "something is missing." That is Four, not Six.
 
 <div class="key-stat-row">
 <div class="key-stat"><strong>9</strong><br>months of dialect coaching to play Marilyn Monroe in <i>Blonde</i></div>
@@ -206,11 +249,11 @@ The competing typings are not absurd, just thinner once you press on them. Type 
 
 The first thing to know about Ana de Armas is that she grew up in a country where almost nothing was available, and she did not experience that as deprivation. She experienced it as plenty.
 
-She was born in Santa Cruz del Norte, a small coastal municipality in the Mayabeque province, during Cuba's Special Period — the brutal post-Soviet decade of food rationing, fuel shortages, and rolling blackouts. Her mother, Ana Caso, worked in human resources at the Ministry of Education. Her father, Ramón, had a string of jobs ranging from bank manager to school principal to deputy mayor, and once studied philosophy at a Soviet university. Her older brother Javier — Francisco Javier de Armas Caso, on the documents — would eventually move to Brooklyn and become a photographer. Javier would also, in 2020, be interrogated by Cuban State Security for his support of the artists protesting Decree 349. That detail will matter later.
+She was born in Santa Cruz del Norte, a small coastal municipality in the Mayabeque province, during Cuba's Special Period, the brutal post-Soviet decade of food rationing, fuel shortages, and rolling blackouts. Her mother, Ana Caso, worked in human resources at the Ministry of Education. Her father, Ramón, had a string of jobs ranging from bank manager to school principal to deputy mayor, and once studied philosophy at a Soviet university. Her older brother Javier, Francisco Javier de Armas Caso on the documents, would eventually move to Brooklyn and become a photographer. Javier would also, in 2020, be interrogated by Cuban State Security for his support of the artists protesting Decree 349. That detail will matter later.
 
 By her own description, she was happy. She ran barefoot on rocks by the beach. She climbed light poles and trees. She put on plays for the neighbors. She rescued every stray animal she could find, returning home with new ones daily and "driving her mother crazy."
 
-She was allowed twenty minutes of cartoons on Saturday and the matinee movie on Sunday. That was it. She wore her brother's hand-me-downs — "his old school uniform pants cut into play shorts."
+She was allowed twenty minutes of cartoons on Saturday and the matinee movie on Sunday. That was it. She wore her brother's hand-me-downs: "his old school uniform pants cut into play shorts."
 
 > "When you grow up in a country like Cuba, you grow up much faster and learn what's really important in life."
 
@@ -218,13 +261,13 @@ The instinct is already visible in the child. Not the deprivation. The animals. 
 
 What she also noticed, eventually, was the ceiling.
 
-> "I was always aware of the very low ceiling that Cuban artists and people in general unfortunately have. I knew I had more to do, more to learn."
+> "My heart belongs to Cuba but I knew I had to get out of there to grow. I was always aware of the very low ceiling that unfortunately Cuban artists and people in general have. I knew I had more to do, more to learn." (_AnOther_)
 
 That is the line that maps the rest of her life. She does not register limits as practical inconveniences. She registers them as existential. Wherever the ceiling is low, she feels like she is suffocating against it, and the only response her psyche generates is _go_.
 
 ## The 14-Year-Old Who Hitchhiked to Acting School
 
-At fourteen, she auditioned for the Escuela Nacional de Arte in Havana — Fidel Castro's grand experiment in free, world-class arts education for any Cuban child who could pass the bar. She got in. She started commuting from Santa Cruz del Norte to Havana every morning, often by hitchhiking.
+At fourteen, she auditioned for the Escuela Nacional de Arte in Havana, Fidel Castro's grand experiment in free, world-class arts education for any Cuban child who could pass the bar. She got in. She started commuting from Santa Cruz del Norte to Havana every morning, often by hitchhiking.
 
 The training was rigorous in the way Soviet-style arts conservatories tended to be rigorous: long hours, heavy classical foundations, no compromise. By her own account, ENA gave her "many good, incredible, unforgettable, beloved, and delicious times that filled her with experience and matured her." It also gave her "very difficult and painful moments."
 
@@ -234,7 +277,7 @@ After two years of obligatory post-graduation social service in Cuba, the prospe
 
 ## The €200 That Did Not Last a Week
 
-She had a Spanish passport through her maternal grandparents — one from Valverde de la Sierra in León, the other from Guardo in Palencia. She had no reliable contacts and no English. She told her parents she would come home the moment the money ran out.
+She had a Spanish passport through her maternal grandparents, one from Valverde de la Sierra in León, the other from Guardo in Palencia. She had no reliable contacts and no English. She told her parents she would come home the moment the money ran out.
 
 The money ran out in a week.
 
@@ -248,7 +291,7 @@ There is no bravado in the line. No "I knew I would make it." Just an admission 
 
 The next eight years are the part of the biography Ana de Armas almost never discusses in public.
 
-She enrolled in workshops with director Tomaz Pandur's Madrid theatre company. At sixteen, she was cast as Carolina Leal Solís in _El Internado_, the Antena 3 boarding-school thriller that drew over four million viewers a week and made her a Spanish household name before she had a Spanish driver's license. She stayed across six of the show's seven seasons — and then asked the writers to remove her. She has told producers, in the version of the story Wikipedia keeps but she does not amplify, that she felt typecast.
+She enrolled in workshops with director Tomaz Pandur's Madrid theatre company. At sixteen, she was cast as Carolina Leal Solís in _El Internado_, the Antena 3 boarding-school thriller that drew over four million viewers a week and made her a Spanish household name before she had a Spanish driver's license. She stayed across six of the show's seven seasons, and then asked the writers to remove her. She has told producers, in the version of the story Wikipedia keeps but she does not amplify, that she felt typecast.
 
 That detail is small and it is everything. A Type 3 would have stayed and re-leveraged a hit show into a launchpad. A Type 9 would have stayed because leaving creates conflict. The Four asks to be written out of her own success because the success is the wrong shape.
 
@@ -256,9 +299,9 @@ In 2010, she met the Catalan actor Marc Clotet at the Antena 3 offices, where he
 
 Ana de Armas has never publicly discussed the marriage. Not in any English-language interview, not in any Spanish-language interview, not in any first-person essay or social post in the fourteen years since the divorce. She has carried zero of it forward into press.
 
-That silence is not coincidence. It is the wing-five Four's signature — _what was painful is mine; what is mine does not become content._ The marriage is not the only thing she was metabolizing in those Madrid years, and it is not the only thing she has refused to translate into interviews. It is just the one with the public paper trail.
+That silence is not coincidence. It is the wing-five Four's signature: _what was painful is mine; what is mine does not become content._ The marriage is not the only thing she was metabolizing in those Madrid years, and it is not the only thing she has refused to translate into interviews. It is just the one with the public paper trail.
 
-When she felt the same closing-in feeling again in 2013, she did what she had done before. New York for a few months of English classes. Then Los Angeles, in 2014, with the same bet she had made in Madrid — that she could close a gap she did not yet know the size of, by sheer immersion.
+When she felt the same closing-in feeling again in 2013, she did what she had done before. New York for a few months of English classes. Then Los Angeles, in 2014, with the same bet she had made in Madrid, that she could close a gap she did not yet know the size of, by sheer immersion.
 
 ## How Ana de Armas Almost Said No to the Role That Made Her
 
@@ -268,7 +311,7 @@ The first stretch in Los Angeles was the kind of stretch the Hollywood mythology
 
 Read that twice. She was acting in scenes she could not understand semantically, in a language she did not yet speak, in a country she had been in for a matter of months.
 
-That is a kind of confidence most people misread. It looks like brashness. It is actually the opposite — it is the Type 4 willing to humiliate herself in service of becoming the person who would not be humiliated by this anymore. The shame is the price of the transformation. The Four pays it because the alternative — staying small, in the country where she had felt small — is unbearable.
+That is a kind of confidence most people misread. It looks like brashness. It is actually the opposite. It is the Type 4 willing to humiliate herself in service of becoming the person who would not be humiliated by this anymore. The shame is the price of the transformation. The Four pays it because the alternative, staying small in the country where she had felt small, is unbearable.
 
 _Blade Runner 2049_ in 2017 put her on the map as Joi, a holographic AI girlfriend whose entire being is a projection. The casting feels too on-the-nose to discuss. The breakthrough was Marta Cabrera in Rian Johnson's _Knives Out_ in 2019.
 
@@ -280,7 +323,7 @@ The character description in the breakdown sheet read, more or less: "Latina, ca
 
 She asked for the full script. The full script revealed that Marta is the moral center of the entire film, the one person whose body literally cannot lie, the witness whose testimony breaks the case. Ana said yes.
 
-That moment is the cleanest piece of evidence for her wiring that exists in the public record. Most people in her position would have read "Latina, caretaker, pretty" as an opportunity — a clear path, low resistance, name-cast costars. She read it as a small act of being unseen. Marta was more than that. _I_ am more than that. If the role is going to be smaller than I am, I'm not interested.
+That moment is the cleanest piece of evidence for her wiring that exists in the public record. Most people in her position would have read "Latina, caretaker, pretty" as an opportunity: a clear path, low resistance, name-cast costars. She read it as a small act of being unseen. Marta was more than that. _I_ am more than that. If the role is going to be smaller than I am, I'm not interested.
 
 She got a Golden Globe nomination. The film, per Variety, made $312 million on a $40 million budget. The "Latina, caretaker, pretty" line became a piece of trivia she could afford to laugh at.
 
@@ -294,19 +337,33 @@ He said: she had something in common with Marilyn.
 
 What he meant, and what Ana de Armas slowly confirmed in interviews, was the gap. Marilyn was the most-photographed woman of the twentieth century. Norma Jeane was a girl whose own mother had tried to kill her, who moved through twelve foster homes, who never quite believed she was loved by anyone who claimed to love her. The whole world saw Marilyn. Almost no one saw Norma.
 
-The line that sits at the top of this article — _that was the part that resonated with me_ — is almost shocking the second time you read it. The thing that resonated with her about the most-photographed woman in history was the part of her that was invisible. The other part — the visible part — Ana already had access to. She was, by 2020, a global movie star whose face was on every magazine in every airport. The visible part did not interest her. The Norma part did.
+The line that sits at the top of this article, _that was the part that resonated with me_, is almost shocking the second time you read it. The thing that resonated with her about the most-photographed woman in history was the part of her that was invisible. The other part, the visible part, Ana already had access to. She was, by 2020, a global movie star whose face was on every magazine in every airport. The visible part did not interest her. The Norma part did.
 
-The preparation was punishing. Nine months of dialect coaching. The 700-photo bible. Every audio recording of Marilyn she could find. Andrew Dominik told _Netflix Tudum_ he kept two monitors on set during shooting — one with the original Marilyn footage, one with Ana — and refused to move on if anything was off. The director said a teardrop hit his monitor when she first saw herself in the mirror as Marilyn. She had spent her whole life there.
+The preparation was punishing. Nine months of dialect coaching. The 700-photo bible. Every audio recording of Marilyn she could find. Andrew Dominik told _Netflix Tudum_ he kept two monitors on set during shooting, one with the original Marilyn footage, one with Ana, and refused to move on if anything was off. The director said a teardrop hit his monitor when she first saw herself in the mirror as Marilyn. She had spent her whole life there.
 
-The detail that gives the project away: Ana's own Maltese, Elvis — the dog she had taken with her from Madrid in 2009 — was cast as Marilyn's dog Mafia, the one Sinatra gave Norma in real life. The most personal animal she owned, walking through frame as evidence that the role was not a job. It was something more porous than that.
+The detail that gives the project away: Ana's own Maltese, Elvis, the dog she had taken with her from Madrid in 2009, was cast as Marilyn's dog Mafia, the one Sinatra gave Norma in real life. The most personal animal she owned, walking through frame as evidence that the role was not a job. It was something more porous than that.
 
 > "I felt the heaviness and sadness of it stay with me for a bit."
 
 The film was savaged by half its viewers and revered by the other half. The 14-minute standing ovation at Venice (per _The Hollywood Reporter_) made her cry on the red carpet. The leak of the film's nude scenes into the corners of the internet she had been worried about made her sick. _"It's upsetting just to think about it,"_ she told _Variety_. _"I can't control it; you can't really control what they do and how they take things out of context."_
 
-Critics noticed. _Blonde_ divided audiences, but her performance pulled rare consensus across hostile reviewers — _Variety_'s Owen Gleiberman wrote that _"de Armas nails it to an uncanny degree... she becomes Marilyn Monroe."_ She earned an Oscar nomination for Best Actress, the first Cuban-born actress ever nominated in the category. Three years later, on the press tour for _Ballerina_, she told _Variety_ that some people think the nomination _"was a fluke"_ — and she still feels she has to prove herself.
+Here is the paradox that settles whether she can actually act. _Blonde_ was, by consensus, a hard film to defend. It sits at 42% on Rotten Tomatoes across 318 reviews, and the site's own critics' consensus splits the verdict, conceding her "luminous performance" while flagging everything around it. Manohla Dargis in _The New York Times_ called the film "necrophiliac entertainment," a charge aimed squarely at director Andrew Dominik, not at her. Anthony Lane in _The New Yorker_ panned the film and praised the performance. Richard Lawson in _Vanity Fair_ called her _"fiercely, almost scarily committed to the role."_ Even _Variety_'s Owen Gleiberman, reviewing a movie he had reservations about, wrote that _"de Armas nails it to an uncanny degree... she becomes Marilyn Monroe."_ The pattern is unmistakable. Critics who could not stand the film went out of their way to exempt the actress. She earned an Oscar nomination for Best Actress, the first Cuban-born actress ever nominated in the category. Three years later, on the press tour for _Ballerina_, she told _Variety_ in December 2025 that some people think the nomination _"was a fluke,"_ and she still feels she has to prove herself.
 
 That is the line. The Four does not collect the trophy and rest. The Four uses the trophy as evidence she still has not been seen.
+
+## Not Every Role Is a Norma
+
+The thesis has a problem, and its name is Paloma.
+
+In _No Time to Die_ (2021), de Armas walks into one extended sequence as a giddy, lethal CIA agent in a plunging gown, steals the movie, and walks back out. Paloma is funny, weightless, a delight with no tragic interior at all. _The Guardian_'s Peter Bradshaw singled out her _"witty and unworldly turn."_ If you are arguing she only ever picks roles for the Norma underneath, Paloma is a counterexample sitting in plain sight.
+
+So narrow the claim. She does not only pick hidden-interior roles. She refuses flat archetypes. Even inside a Bond cameo she would not play an ornament. _"The Bond women have always been, for me at least, unrelatable,"_ she told _Vanity Fair_ in 2020. _"My character feels like a real woman."_ And she knew exactly what the part was worth on the open market: _"Even a tiny part in a James Bond film will make you known globally,"_ she told _Variety_. That is not a Four hiding from visibility. That is a Four using it on purpose.
+
+The streaming years make the same point louder. After _Blonde_ she became a bankable action lead in films nobody will mistake for excavations of the self. _The Gray Man_ (Netflix, 2022), where she played CIA agent Dani Miranda opposite Ryan Gosling, posted the fifth-best launch for a Netflix movie at the time, 88.55 million hours viewed in its first three days, per _IndieWire_. _Ghosted_ (Apple TV+, 2023), in which she stepped into a role Scarlett Johansson had vacated, became the most watched movie debut to date for Apple TV+, roughly 328,500 households in its first two days, per Samba TV via _Deadline_. Then _Eden_ (2024), Ron Howard's divisive survival ensemble, where she took a villain-coded swing against type and several critics flagged her as the most alive thing on screen.
+
+Not every one of those is a Norma. Some are just the job a movie star takes. The honest version of the thesis is not that every role is a wound. It is that even when the role is a paycheck, the Four cannot help reaching for texture, and she frames the work as self-invention rather than employment. _"I always tried to reinvent myself and try new things and approach different characters. That's what I think is fun about being an artist,"_ she told _ComingSoon_ in 2025. Or, more wryly, to _Remezcla_ the same month: _"It feels to me like I'm continuing in my lane."_
+
+The lane has limits. _Ballerina_ (2025), the _John Wick_ spin-off she trained months for, carried a budget around $90 million and grossed roughly $140 million worldwide, enough to call it a commercial underperformance once marketing is counted. She is a genuine draw. She is not yet bulletproof. The training, though, was pure Four: months of judo, jiu-jitsu, and firearms work for a role most stars would have handed to a stunt double, because the point was never the paycheck. The point was becoming someone who could do it.
 
 ## Why Ana de Armas Left Los Angeles
 
@@ -318,63 +375,63 @@ By January 2021, it was over.
 
 > "I knew I had to leave Los Angeles when it was always the feeling of something that you don't have, something missing. There's no escape. There's no way out. It's a city that keeps you anxious."
 
-That is the second time she has used the phrase "no escape" about a place. The first was Cuba. She does not appear to have noticed the symmetry — and noticing it would mean confronting the possibility that the longing was internal rather than geographic. That the next country was never going to be the answer.
+That is the second time she has used the phrase "no escape" about a place. The first was Cuba. She does not appear to have noticed the symmetry. Noticing it would mean confronting the possibility that the longing was internal rather than geographic. That the next country was never going to be the answer.
 
-She moved out. _Hello_ magazine pegged the Vermont property at $7 million — six bedrooms, eight bathrooms, mountains, forests, meadows. A house she described, in one of the rare interviews where she discussed it, as a place where "I can collect myself and only bring there who I want to be with."
+She moved out. _Hello_ magazine pegged the Vermont property at $7 million: six bedrooms, eight bathrooms, mountains, forests, meadows. A house she described, in one of the rare interviews where she discussed it, as a place where "I can collect myself and only bring there who I want to be with."
 
 The verb is _collect_. Not _hide_. Not _retreat_. She was scattered. Hollywood had scattered her. Vermont is where the pieces come back together.
 
-In November of that year, her father died.
+That same year, her father died.
 
-Ramón de Armas — the philosophy student turned bank manager turned school principal turned deputy mayor, the father who had given her her name and the work ethic that put her on a hitchhiking commute to Havana at fourteen — died of prostate cancer, in Cuba. He never visited the Vermont house. He never visited any of the cities his daughter had built lives in. Ana has not publicly described his death in any interview. She did not post about it. The only marks of it in the public record are the Wikipedia line and the small Cuban-press obituaries. The same year she finished building the cocoon, the man who had stayed behind in the country she could not stay in was buried there.
+Ramón de Armas, the philosophy student turned bank manager turned school principal turned deputy mayor, the father who had given her her name and the work ethic that put her on a hitchhiking commute to Havana at fourteen, died in 2021, when she was 32, in Cuba. He never visited the Vermont house. He never visited any of the cities his daughter had built lives in. She rarely speaks of it. When she did, to _Variety_ in 2022, the grief came out plainly: _"I had an incredible father for 32 years. And not having it now, I can only imagine what it would have been, not having it at all."_ The same year she finished building the cocoon, the man who had stayed behind in the country she had left was gone.
 
 That fact does not appear in the official Vermont story. It is, however, the emotional shape underneath it.
 
+She goes back. That is the part the exile framing always gets wrong. She bought a house in Cuba around 2017 and, after _Blade Runner 2049_, spent much of the following year on the island. She filmed _Wasp Network_ there in 2019. For her thirty-fifth birthday she flew home to Havana, landing on April 27, 2023, where, per _Hola_, she reunited with her family in tears and danced salsa at the restaurant El Cocinero. The door to Cuba was never locked from the outside. She keeps leaving it from the inside.
+
 > "I feel like nowadays, we all want to go away from the craziness of the world. We all want the chance to build your own safe space. I've made that decision myself. I found a home where I really feel off the grid."
 
-This is the part where the Vermont locals say she "blends right in beautifully" at the grocery store. The most-photographed Bond Girl of the _No Time to Die_ era, in line for the deli counter, blending in.
+This is the part where the Vermont locals say she "blends right in beautifully" at the grocery store. An Oscar-nominated movie star, in line for the deli counter, blending in.
 
 ## The Relationships She Will Not Confirm
 
 She does not announce who she is with, and the ones she has been with since LA have ended quietly. Paul Boukadakis, the Tinder executive she had been linked to since the pandemic, was last photographed with her at the 2022 Venice Film Festival. By the time the New York gossip columns moved on, so had she.
 
-In November 2024, _Hola_ published photographs of Ana de Armas kissing a 27-year-old Cuban lawyer named Manuel Anido Cuesta on a Madrid sidewalk. _People_, _ELLE_, _Daily Mail_, and _Page Six_ picked it up. Anido Cuesta is the lawyer-stepson of Cuban president Miguel Díaz-Canel — the same government whose State Security had interrogated her brother Javier in 2020 over Decree 349, the law restricting independent Cuban artists. The exile press did not let go: _"accomplice of dictators,"_ _"communist strutting on American soil,"_ _"with the son of a tyrant."_ Ana Margarita Martínez — the Cuban exile Ana had played without consent in _Wasp Network_ — told _Diario Las Américas_: _"The news of her romance with Díaz-Canel's stepson confirms what I already knew: Ana de Armas is one of them."_
+In November 2024, _Hola_ published photographs of Ana de Armas kissing a 27-year-old Cuban lawyer named Manuel Anido Cuesta on a Madrid sidewalk. _People_, _ELLE_, _Daily Mail_, and _Page Six_ picked it up. Anido Cuesta is the lawyer-stepson of Cuban president Miguel Díaz-Canel, the same government whose State Security had interrogated her brother Javier in 2020 over Decree 349, the law restricting independent Cuban artists. The exile press did not let go: _"accomplice of dictators,"_ _"communist strutting on American soil,"_ _"with the son of a tyrant."_ Ana Margarita Martínez, the Cuban exile Ana had played without consent in _Wasp Network_, told _Diario Las Américas_: _"The news of her romance with Díaz-Canel's stepson confirms what I already knew: Ana de Armas is one of them."_
 
 Ana said nothing.
 
-She said nothing through a Madrid restaurant confrontation in December. She said nothing through the 2025 Oscars-week coverage. By _People_'s reporting in July 2025, the relationship was over — roughly five months, end to end. She did not confirm that either. Eighteen months on, across every English-language interview and every Spanish-language interview and every account she controls, she has issued zero public statements on the relationship, on the regime, on the criticism, or on her brother. She has never signed any of the 2021 Cuban-artist letters around the Movimiento San Isidro arrests, the July 11 protests, or Decree 349 itself.
+She said nothing through a Madrid restaurant confrontation in December. She said nothing through the 2025 Oscars-week coverage. By _People_'s reporting in July 2025, the relationship was over. Roughly five months, end to end. She did not confirm that either. Eighteen months on, across every English-language interview and every Spanish-language interview and every account she controls, she has issued zero public statements on the relationship, on the regime, on the criticism, or on her brother. She has never signed any of the 2021 Cuban-artist letters around the Movimiento San Isidro arrests, the July 11 protests, or Decree 349 itself.
 
 The reading that fits the pattern is not that she agreed with the criticism, or disagreed with it. The reading that fits the pattern is that the wing-five Four does not enter public political fights, even when the fight shows up at her door with named witnesses and a woman she had impersonated on screen without permission. She withdraws. She lets the work be the record. The Norma underneath does not give interviews.
 
-That is the only ending she was ever going to write for the Hollywood chapter. The Hollywood chapter ended exactly the way the Cuba chapter ended — with her quietly walking out the door before anyone realized she had decided to leave.
+That is the only ending she was ever going to write for the Hollywood chapter. The Hollywood chapter ended exactly the way the Cuba chapter ended, with her quietly walking out the door before anyone realized she had decided to leave.
 
-## How Ana de Armas Disappears Inside Herself
+## The Face She Sells and the Self She Keeps
 
-There is a _Ballerina_-era version of Ana that the publicity rounds keep trying to sell — the action-star, the punching-and-shooting, the orphaned assassin who avenges her father. She trained for four months under elite stunt coordinators in judo, jiu-jitsu, and firearms. She came home wrecked. She also took the role the same way she took _Blonde_ — as a transformation problem with an interior to find.
+Here is the fact that should sink a "she just wants to vanish" reading. Ana de Armas is one of the most visible luxury faces alive. Estée Lauder named her a global brand ambassador in February 2021, per _PR Newswire_. The Natural Diamond Council made her its first-ever celebrity ambassador for a campaign that launched in September 2020. Louis Vuitton signed her as a house ambassador in June 2023, per _WWD_. Three concurrent contracts whose entire job is to put her face everywhere.
 
-When she is not working, by every credible report, she is quiet. She reads — though she does not name the books. She cooks. The comfort meal she returns to, she told _Elle_, is rice and beans with a fried egg on top. She has, per _Glamour_, made a non-negotiable nightly bath ritual — _"no phones in the bath!"_ She walks her dogs, the Maltese Elvis and the rescue she adopted in 2020, Salsa, through the Vermont woods.
+A woman who wanted to disappear would not take them. So she does not want to disappear, exactly. The sharper read is that she builds an elaborate public self precisely so the private one stays unreachable. The mask is the protection. She sells the face and keeps the self. The split she found in Marilyn is the one she lives, visible product and invisible person, and she has said so almost in those words. _"Fame is what made Marilyn the most visible person in the world, but it also made Norma the most invisible,"_ she said in a piece for _Natural Diamonds_. The venue is her own diamond partner's magazine, so read it as marketing if you like, but _AnOther_'s Hannah Lack heard the same idea from her independently in 2022: _"The more famous Marilyn became, the more invisible Norma Jeane became."_
 
-She has two settings: deeply alone, or deeply inside the work. Both are the same setting. Both are the place where she gets to be Norma instead of Marilyn.
+The tension she lives with sits in one line from the 2023 _Vanity Fair_ Hollywood Issue (via _Variety_): _"If it was up to me, I would delete Instagram right now, but I can't."_ The reason she can't is in the paragraph above. The contracts require the feed. In the same conversation, she made the larger point:
 
-## What Ana de Armas Is Quietly Saying About Fame
+> "The concept of a movie star is someone untouchable you only see onscreen. That mystery is gone. For the most part, we've done that to ourselves, nobody's keeping anything from anyone anymore."
 
-The most pointed public thing Ana de Armas has said about her industry, she said almost in passing in the 2023 _Vanity Fair_ Hollywood issue:
+That is not a soft "movie stars used to be cool" nostalgia bit. It is a thesis. She believes the thing that made the old movie stars magnetic was the gap between the public image and the inaccessibility of the private self, that the gap was load-bearing, and that it is gone because actors gave it away.
 
-> "I feel like the new generations don't have that concept, because of social media. There is so much information out there and oversharing. The concept of a movie star is someone untouchable you only see onscreen. That mystery is gone. For the most part, we've done that to ourselves — nobody's keeping anything from anyone anymore."
+She is trying to put it back. Quietly, as a personal practice. No social posts beyond the contractual ones. No relationship debuts. No memoir. No "day in the life" content. A Vermont farmhouse and an eighteen-month silence on a relationship the international press named for her.
 
-That is not a soft "movie stars used to be cool" nostalgia bit. That is a thesis statement. She believes that the thing that made the original movie stars magnetic was the gap between their public image and the inaccessibility of their private selves. She believes that gap was load-bearing. She believes it is gone, and she believes it is gone because actors gave it away.
-
-She is trying to put it back. Quietly, as a personal practice. No social posts. No relationship debuts. No memoir. No "day in the life" content. A Vermont farmhouse and an eighteen-month silence on a relationship the international press named for her.
-
-She is, in her own unannounced way, attempting to be the last movie star — or one of the last actors who still believes there is something inside her that deserves to be hidden, and that hiding it is part of the job. She has company in this. [Robert Pattinson](/personality-analysis/robert-pattinson) does the same thing. So does [Anya Taylor-Joy](/personality-analysis/anya-taylor-joy). Each of them, in slightly different keys, has decided that the gap between the public face and the private self is not a marketing problem to solve. It is the whole asset.
+She is, in her own unannounced way, attempting to be the last movie star, one of the last actors who still believes there is something inside her that deserves to be hidden, and that hiding it is part of the job. She has company in this. [Robert Pattinson](/personality-analysis/robert-pattinson) does the same thing. So does [Anya Taylor-Joy](/personality-analysis/anya-taylor-joy). Each of them, in slightly different keys, has decided that the gap between the public face and the private self is not a marketing problem to solve. It is the whole asset.
 
 ## The Norma Underneath
 
-It is evening at the Vermont house. There is rice and beans on the stove — the comfort meal she has told _Elle_ she always returns to. Elvis the Maltese is on the rug. The bathwater is running, and the phone is not in the bathroom — the rule she gave _Glamour_ when asked what she does to wind down. She is, by every available account, alone, or as close to alone as a movie star can get.
+It is evening at the Vermont house. There is rice and beans on the stove, the comfort meal she has told _Elle_ she always returns to. Elvis the Maltese is on the rug; Salsa, the rescue she adopted in 2020, is somewhere underfoot. The bathwater is running, and the phone is not in the bathroom, the rule she gave _Glamour_ when asked what she does to wind down. She is, by every available account, alone, or as close to alone as a movie star can get.
 
-The danger for any 4w5 is that the cocoon becomes a coffin. The withdrawal that protects the inner life can also calcify it. [Type 4s in stress](/enneagram-corner/enneagram-types-in-stress) do not get angrier or louder — they spiral into a private melancholy where the longing becomes its own form of identity, where the missing piece becomes something they cannot let themselves find, because finding it would mean having to live without it.
+She has two settings: deeply alone, or deeply inside the work. They are the same setting. Both are where she gets to be Norma instead of Marilyn.
 
-A reader paying attention will have noticed that Ana has used the phrase _"no escape"_ twice in interviews — once about Cuba, once about Los Angeles. The fair question is whether Vermont is the third one in waiting.
+The danger for any 4w5 is that the cocoon becomes a coffin. The withdrawal that protects the inner life can also calcify it. [Type 4s in stress](/enneagram-corner/enneagram-types-in-stress) do not get angrier or louder. They spiral into a private melancholy where the longing becomes its own form of identity, where the missing piece becomes something they cannot let themselves find, because finding it would mean having to live without it.
+
+A reader paying attention will have noticed that Ana has used the phrase _"no escape"_ twice in interviews, once about Cuba, once about Los Angeles. The fair question is whether Vermont is the third one in waiting.
 
 The honest answer is: maybe. The 2024 Madrid relationship briefly looked like the next departure being built. She had moved her romantic life back to the language she grew up speaking, into the social orbit of the country she had not lived in for two decades. Then it ended, and she came back. The Vermont house is still hers. There is no public statement, on this or anything else.
 
@@ -434,6 +491,140 @@ The key-stat row says "$170 life savings she carried to Madrid at eighteen." The
 ONE STRUCTURAL NOTE:
 
 "How Ana de Armas Disappears Inside Herself" reintroduces the transformation-as-excavation thesis that the Marilyn section already established. Could be trimmed by half, or merged into the Norma section, without losing anything.
+-->
+
+<!-- READER REVIEW PASS (2026-06-28) — FRESH EYES, NOT YET ADDRESSED
+
+Reading this cold as someone who actually follows Ana de Armas's career. The 4w5 thesis
+is convincing and the Marilyn/Norma frame is the real thing. Most of the May reader-review
+gaps are now closed (Clotet, father's death, brother, intro length, the €200/$170 fix). So
+this list is only what a fan would STILL notice is missing or off in the current draft.
+
+BIGGEST GAP — PALOMA / NO TIME TO DIE:
+This is the one that jumps out. Her single most *beloved* role — the one general audiences
+quote, the one that got spin-off talk — is reduced to a fame-marker phrase ("the
+most-photographed Bond Girl of the No Time to Die era"). She walks on for one sequence in
+2021 and walks off with the movie. For a piece whose whole engine is "she picks roles for
+the interior, the Norma underneath," Paloma is a problem the thesis has to account for and
+currently ignores: Paloma is funny, weightless, a scene-stealer with no tragic interior at
+all. Either it complicates the thesis (good — address it) or it's a counterexample left
+sitting in plain sight (bad — a sharp reader catches it). Right now the most famous thing
+she's known for besides Marilyn is invisible in her own analysis. Give it a beat.
+
+SECOND GAP — THE BEAUTY/BRAND IDENTITY:
+The frontmatter lists "Model" as an occupation and the body never touches it. She is one of
+the most visible beauty-and-luxury faces alive — Estée Lauder, Louis Vuitton, Natural
+Diamonds. For a thesis built on "if it were up to me I'd delete Instagram" and "wants to
+disappear," being a global cosmetics/luxury ambassador is a live contradiction. It's
+actually a GIFT to the argument if you use it: the visible/invisible split is literal here —
+she sells the face publicly and hides the self privately. Sell Marilyn, keep Norma. Right
+now that tension is unspoken and the piece is weaker for ducking it.
+
+THIRD GAP — THE 2022–2025 STAR-VEHICLE RUN:
+The piece jumps from Blonde (2022) straight to Ballerina (2025) and skips the phase where
+she became a bankable streaming action lead — The Gray Man (Netflix, with Gosling), Ghosted
+(Apple, with Evans), then Ballerina. A reader who follows her notices the hole. It also
+raises the obvious question the piece avoids: did she pick those for "interiority," or are
+they paycheck/star vehicles? You don't have to resolve it, but a 4w5-purist read that can't
+acknowledge she also takes big commercial swings looks like it's curating the evidence. One
+honest sentence ("not every role is a Norma — some are just the job a movie star takes")
+would inoculate the whole thesis.
+
+STILL UNANSWERED — DOES SHE GO BACK TO CUBA?
+The May review flagged this and the revision added the father's death and the brother, which
+helps a lot. But the simple human question is still open: does she return? Does her mother
+visit Vermont? After building the father's death into the cocoon section so well, the reader
+is left wanting the one line about whether the door to Cuba is open, closed, or grief-shut.
+
+CRAFT VERDICT IS THIN:
+The piece now has the Gleiberman "she becomes Marilyn Monroe" line, which is good, but the
+broader "is she actually a great actress" question still rests on that single quote. She's
+been panned in some films and revered in others — naming that arc (and that the Blonde
+performance pulled consensus even from people who hated the film) would settle it instead of
+leaving it to one critic.
+
+REMAINING DUPLICATION (the revision introduced one):
+- Rice-and-beans + Elvis-the-Maltese + no-phones-in-the-bath now appears TWICE, almost
+  verbatim — once in "How Ana de Armas Disappears Inside Herself" and again as the opening
+  tableau of "The Norma Underneath." Same three details, same two sources (Elle, Glamour),
+  two sections apart. Pick one home for them. The closing tableau is the stronger use, so
+  thin out the first.
+- The back third has three sections doing the same job — "Disappears Inside Herself," "What
+  She's Quietly Saying About Fame" / "Last Movie Star," and "The Norma Underneath" all
+  circle the same withdrawal-and-quiet-life ground. "Disappears Inside Herself" is the most
+  cuttable; the reader-review even said so last pass and it's still here at near-full length.
+- The core longing line ("something missing" / "wanted more") lands clean in the intro,
+  TL;DR, and the Type 4w5 section — three statements of the same quote-cluster before the LA
+  section pays it off. One of those three could go.
+
+NET: It's an A-grade piece that's missing the two things a fan most associates her with
+(Paloma and the beauty-brand visibility) and ducking the one tension that would make it
+sharper (visible commercial star vs. hide-the-self thesis). Close the Paloma and brand gaps
+and this goes from "great Enneagram read" to "the definitive Ana de Armas profile."
+-->
+
+<!-- ELEVATION PASS (2026-06-28) — addresses the 2026-06-28 reader review above.
+Single interdependent developmental pass. lastmod and content_quality left UNTOUCHED
+(re-grade pending). All new figures/quotes inline-attributed to verified outlets.
+
+2a. CUBA FACTUAL ERROR FIXED. Intro third beat "She has not lived in Cuba since" (FALSE)
+    replaced with "She has gone back many times since. She has never once stayed." Thesis
+    frame reworked to internal-not-political ("The leaving was never political... that
+    feeling has no border"). New Cuba-returns beat added in the Vermont section (house
+    bought ~2017, much of the following year on the island after Blade Runner 2049, Wasp
+    Network filmed there 2019, 35th-birthday return landing Havana Apr 27 2023 with tearful
+    family reunion + salsa at El Cocinero, per Hola). Also closes the May/June "does she go
+    back to Cuba" reader gap. Anido silence-as-wing-5 section left intact (neutral framing).
+
+2b. VISIBLE/INVISIBLE THESIS PROMOTED. Fame section rebuilt as "The Face She Sells and the
+    Self She Keeps." Brands woven in as EVIDENCE (Estée Lauder, Feb 2021, PR Newswire;
+    Natural Diamond Council first-ever celeb ambassador, campaign Sept 2020; Louis Vuitton
+    house ambassador, June 2023, WWD) — supports the frontmatter "Model" occupation the body
+    never previously touched. Sharper thesis stated: performs a public self so the private
+    self stays unreachable. Load-bearing quote added ("Fame is what made Marilyn the most
+    visible... Norma the most invisible," Natural Diamonds) with the brand-channel venue
+    flagged lightly and corroborated independently by AnOther (Hannah Lack, 2022). VF
+    delete-Instagram and "mystery is gone" quotes reconciled as ONE 2023 Vanity Fair
+    conversation (via Variety); delete-IG removed from the Type 4w5 section to kill the
+    same-quote-twice / two-occasions problem.
+
+2c. PALOMA CONCEDED. New section "Not Every Role Is a Norma." Thesis narrowed from "only
+    picks interior roles" to "refuses flat archetypes." Bradshaw/Guardian "witty and
+    unworldly turn" (3-word phrase only). VF 2020 "Bond women... unrelatable" / "real woman"
+    (using "women" not "girls"); Variety 2022 "tiny part... known globally." CUT the Sun
+    "no need for a female Bond" tabloid line and the Broccoli "Hamlet without Hamlet" HEDGE
+    (general anti-spin-off, not Paloma-specific; didn't earn its place).
+
+2d. 2022–2025 STAR-VEHICLE BRIDGE added in the same new section. Gray Man (Netflix 2022,
+    Dani Miranda, fifth-best Netflix launch, 88.55M hrs first three days, IndieWire);
+    Ghosted (Apple TV+ 2023, replaced Johansson, most-watched Apple TV+ debut, ~328,500
+    first two days, Samba TV via Deadline); Eden (Ron Howard 2024, against-type/villain-
+    coded). Reinvention quote (ComingSoon 2025); "continuing in my lane" re-attributed to
+    Remezcla 2025. Ballerina box office (~$90M budget / ~$140M ww, underperformance) + kept
+    training detail. CUT the ~$400K Gray Man pay-gap figure (no primary source).
+
+2e. CRAFT VERDICT BROADENED with the Blonde paradox. RT 42%/318 + consensus "luminous
+    performance"; Dargis "necrophiliac entertainment" (aimed at Dominik); Lane (NYer)
+    panned film/praised perf; Lawson (VF) "fiercely, almost scarily committed"; kept
+    Gleiberman. Oscar wording tightened to "first Cuban-born actress nominated for Best
+    Actress." "Fluke" quote attributed Variety December 2025. Chang NOT claimed to praise her
+    (omitted entirely to avoid the unverified-praise trap).
+
+2f. HYGIENE. Cut "How Ana de Armas Disappears Inside Herself" (verbatim rice-and-beans /
+    Elvis / no-phones duplicate + most-cuttable back-third overlap); salvaged the "two
+    settings" line and Salsa into the Norma tableau. Dropped the LA "something missing /
+    keeps you anxious" quote from the Type 4w5 section so the identical quote pays off cold
+    in "Why Ana de Armas Left Los Angeles." Bond-Girl fame-marker phrase at the deli-counter
+    line replaced (Paloma now has her own section).
+
+FACT FIX. Father's death: dropped the month ("November"), the cause ("prostate cancer"),
+    and the implied age; now "died in 2021, when she was 32, in Cuba" (her own Variety 2022
+    words contradict the content-farm date). Added the Variety 2022 grief quote. Low-ceiling
+    quote upgraded to the exact AnOther wording with attribution.
+
+PRESERVED: cold close ("Norma, for once, is allowed to be the only one in the room"); the
+    epigraph; the "no escape" twice-callback; the Anido/silence section. Em-dash ban applied
+    to all new/edited prose.
 -->
 
 <!-- COPYWRITING PASS COMPLETE

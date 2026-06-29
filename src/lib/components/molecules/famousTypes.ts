@@ -174,7 +174,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	4: [
 		{ name: 'adele', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Music\'s Rawest Nerve', contentGrade: 8.7, types: ['musician'] },
 		{ name: 'alex-karp', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Silicon Valley\'s Ornery Poet', contentGrade: 8.9, types: ['techie', 'entrepreneur', 'frontier-builder'] },
-		{ name: 'ana-de-armas', link: true, hasImage: true, lastmod: '2026-06-08', personaTitle: 'Hollywood\'s Beautiful Stranger', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
+		{ name: 'ana-de-armas', link: true, hasImage: true, lastmod: '2026-06-28', personaTitle: 'Hollywood\'s Beautiful Stranger', contentGrade: 8.5, types: ['movieStar', 'screen-icon'] },
 		{ name: 'anya-taylor-joy', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Cinema\'s Beautiful Exile', contentGrade: null, types: ['newMovieStar', 'rising-star'] },
 		{ name: 'bella-hadid', link: true, hasImage: true, lastmod: '2026-04-30', personaTitle: 'Fashion\'s Erased Daughter', contentGrade: 9, types: ['lifestyleInfluencer', 'lifestyle-builder'] },
 		{ name: 'billie-eilish', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Gen Z\'s Beautiful Wound', contentGrade: 9.1, types: ['musician', 'pop-star'] },
@@ -311,7 +311,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'pokimane', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Streaming\'s Fortress Builder', contentGrade: 9, types: ['creator', 'streamer'] },
 		{ name: 'prince-harry', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'The Spare Who Burned the Manual', contentGrade: 7.6, types: ['politician', 'royalty'] },
 		{ name: 'ryan-grim', link: true, hasImage: true, lastmod: '2026-04-16', personaTitle: 'Media\'s Loyal Insurgent', contentGrade: 9, types: ['creator', 'author', 'news-commentator'] },
-		{ name: 'sean-evans', link: true, hasImage: true, lastmod: '2026-06-04', personaTitle: 'YouTube\'s Anxious Anchor', contentGrade: 9.1, types: ['creator', 'viral-entertainer'] },
+		{ name: 'sean-evans', link: true, hasImage: true, lastmod: '2026-06-04', personaTitle: 'YouTube\'s Anxious Anchor', contentGrade: 9.2, types: ['creator', 'viral-entertainer'] },
 		{ name: 'stephen-colbert', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Late Night\'s Faithful Skeptic', contentGrade: 8.9, types: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host'] },
 		{ name: 'taylor-lorenz', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Media\'s Counterphobic Alarm System', contentGrade: 9, types: ['journalist', 'creator', 'news-commentator'] },
 		{ name: 'timothee-chalamet', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'The Prodigy Who Needs Protecting', contentGrade: 9.1, types: ['newMovieStar', 'movieStar', 'rising-star'] },
@@ -337,7 +337,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	7: [
 		{ name: 'alex-cooper', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Podcasting\'s Unfiltered Queen', contentGrade: 9.2, types: ['creator', 'podcaster'] },
 		{ name: 'alex-lieberman', link: true, hasImage: true, lastmod: '2026-06-06', personaTitle: 'Media\'s Anxious Optimist', contentGrade: 9, types: ['entrepreneur', 'creator', 'business-creator', 'business-operator'] },
-		{ name: 'alysa-liu', link: true, hasImage: true, lastmod: '2026-06-03', personaTitle: 'The Champion Who Quit', contentGrade: 9.2, types: ['celebrity', 'celebrity-image'] },
+		{ name: 'alysa-liu', link: true, hasImage: true, lastmod: '2026-06-28', personaTitle: 'The Champion Who Quit', contentGrade: 8.8, types: ['celebrity', 'celebrity-image'] },
 		{ name: 'andrew-callaghan', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Channel 5\'s Restless Truth-Seeker', contentGrade: 8.2, types: ['journalist', 'creator', 'news-commentator'] },
 		{ name: 'andrew-schulz', link: true, hasImage: true, lastmod: '2026-01-07', personaTitle: 'Comedy\'s Freedom Addict', contentGrade: 8, types: ['comedian', 'stand-up'] },
 		{ name: 'anna-kendrick', link: true, hasImage: true, lastmod: '2026-05-26', personaTitle: 'Hollywood\'s Scrappy Reframer', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
@@ -402,6 +402,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'lele-pons', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'lizzo', link: false, hasImage: false, lastmod: '2026-05-21', personaTitle: 'Pop\'s Joy Industrialist', contentGrade: 8.7, types: ['musician', 'celebrity'] },
 		{ name: 'marie-antoinette', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['historical'] },
+		{ name: 'matt-smith', link: false, hasImage: false, lastmod: '2026-06-28', personaTitle: 'TV\'s Restless Escape Artist', contentGrade: 9, types: ['movieStar', 'celebrity'] },
 		{ name: 'shakira', link: false, hasImage: false, lastmod: '2026-04-27', personaTitle: 'Pop\'s Restless She-Wolf', contentGrade: 9, types: ['musician'] },
 		{ name: 'spencer-x', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'steve-irwin', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
@@ -461,6 +462,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'salma-hayek', link: false, hasImage: false, lastmod: '2026-05-11', personaTitle: 'Hollywood\'s Velvet-Gloved Challenger', contentGrade: 8.8, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'sean-connery', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
 		{ name: 'sean-penn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
+		{ name: 'susan-sarandon', link: false, hasImage: false, lastmod: '2026-06-28', personaTitle: 'The Star They Couldn\'t Muzzle', contentGrade: 8.8, types: ['movieStar', 'activist', 'screen-icon'] },
 		{ name: 'tyler1', link: false, hasImage: false, lastmod: '2026-05-19', personaTitle: 'Streaming\'s Disciplined Brawler', contentGrade: null, types: ['creator', 'streamer'] }
 	],
 	9: [
