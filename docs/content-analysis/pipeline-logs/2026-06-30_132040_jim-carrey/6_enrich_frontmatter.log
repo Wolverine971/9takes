@@ -1,0 +1,34 @@
+Frontmatter enrichment complete.
+
+```
+Frontmatter enrichment complete: Jim-Carrey
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia, twitter, instagram (left untouched)
+
+Identifiers verified:
+- Wikidata Q40504 (confirmed via Special:EntityData JSON — label "Jim Carrey")
+- IMDb nm0000120 (cross-checked against Wikidata P345 — match)
+- Born 1962-01-17, Newmarket, Ontario, Canada (Wikidata P569/P19)
+- Dual citizenship Canadian + American (Wikidata P27: Q16, Q30)
+
+FAQs generated (4):
+1. What is Jim Carrey's personality type? → #what-is-jim-carreys-personality-type
+2. Why does Jim Carrey say he doesn't exist? → #why-jim-carrey-says-he-doesnt-exist
+3. Why did Jim Carrey bury a $10 million check with his father? → #the-10-million-check-jim-carrey-buried-with-his-father
+4. Why did Jim Carrey retire and then un-retire? → #the-last-trick-of-an-escape-artist
+
+Issues:
+- The body contains zero external inline links (only internal /enneagram-corner and
+  /personality-analysis links), so citations could not be sourced from the body text
+  per the literal Step 7 rule. Following the Einstein gold standard, I built citations
+  from authoritative Wikipedia URLs that cover the body's specific factual claims
+  (Truman Show, Man on the Moon, Eternal Sunshine, Sonic 3). Worth flagging as a
+  thin-sourcing content-quality note for the article itself.
+```
+
+Body, HTML comment blocks, `lastmod`, and creator-owned fields were left untouched. FAQ #2's question uses YAML-correct `''` apostrophe escaping; all answers are double-quoted so internal apostrophes are safe.

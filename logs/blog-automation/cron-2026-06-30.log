@@ -1,0 +1,14 @@
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  jim-carrey
+Draft:   src/blog/people/drafts/jim-carrey.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_020139_jim-carrey
+Started: Tue Jun 30 02:01:39 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:01:39)
+Command: /blog_content_creator_people_v2 jim-carrey --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_020139_jim-carrey/1_create.log
+─────────────────────────────────────────────────────
+Stage 1 (create) running. Waiting for completion.

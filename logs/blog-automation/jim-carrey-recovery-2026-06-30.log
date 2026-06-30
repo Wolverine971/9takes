@@ -1,0 +1,296 @@
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  jim-carrey
+Draft:   src/blog/people/drafts/jim-carrey.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey
+Started: Tue Jun 30 13:20:40 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 13:20:40)
+Command: /blog_content_creator_people_v2 jim-carrey --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey/1_create.log
+─────────────────────────────────────────────────────
+All gates pass, lint clean (0 fail). The one warning is the `faqs` frontmatter, which is added by the downstream enrich stage, not this command. Draft is complete.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Jim-Carrey.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (3 testimony quotes) | Gate 2: pass (5 search/hybrid headings) | Gate 4: pass (no anaphora ending, scene-driven hook) | Gate 5: pass (2 type-theory paras ≤4) | Gate 6: pass (critic anchor, empathy turn, current anchor, interior beat, ending swap-test)]
+LIMITATIONS: no_transcripts (built from long-form interview reporting + commencement transcript + documentary testimony rather than self-fetched transcripts)
+```
+
+**The blog: Jim Carrey as Enneagram Type 7 — "Comedy's Escape Artist"**
+
+The thesis resolves the public contradiction: the most physically alive performer alive announced he wanted to disappear, and casual fans called it a breakdown. The Type 7 lens reframes it — the mania was never joy, it was flight from the pain of a childhood spent in a van, and "I have enough" is what a Seven sounds like when they finally stop running. The internal Type 7 lens (`feel trapped` → `manic activity masking emptiness` → grow by `staying with stillness`) maps onto Carrey almost one-to-one.
+
+**Signature details anchoring it:** the $10M check buried in his father's casket; performing for his bedridden mother (the interior beat); refusing to repeat a single joke; vanishing into Andy Kaufman so completely he doesn't remember the shoot.
+
+**Internal links added (6 total):**
+- Robin Williams → `/personality-analysis/Robin-Williams` (same manic-comic engine)
+- Type 7 → `/enneagram-corner/enneagram-type-7`
+- Type 7 trap → `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7`
+- Depression patterns → `/enneagram-corner/depression-patterns-by-enneagram-type`
+- Wings (rabbit hole) → `/enneagram-corner/enneagram-wings-complete-guide`
+- Instinctual subtypes (rabbit hole) → `/enneagram-corner/enneagram-instinctual-subtypes`
+
+Saved as `draft` — non-interactive mode never auto-promotes to `ready`. Human review before `blog_content_production_people`. Key calls to sanity-check on review: the **7w8 vs 7w6** wing argument and the brief, deliberately restrained reference to **public loss/litigation** in the mid-2010s (kept dignified and non-graphic by design).
+
+Sources: [TIFF "I don't exist" 2017](https://fandomwire.com/despite-180m-fortune-jim-carrey-said-playing-himself-in-real-life-gave-him-depression-so-he-stopped-i-dont-exist/), [Maharishi commencement 2014](https://www.rev.com/transcripts/jim-carrey-commencement-speech-transcript-2014-at-maharishi-university-of-management), [$10M check / Mulholland ritual](https://www.cnbc.com/2026/01/13/jim-carrey-wrote-himself-a-10-million-check-before-he-could-cash-it.html), [Jim & Andy / Gondry + DeVito](https://www.theringer.com/2017/11/18/movies/jim-carrey-documentary-man-on-the-moon), [Apatow on Carrey's Improv sets](https://www.hollywoodreporter.com/movies/movie-news/judd-apatow-praises-jim-carreys-comedic-genius-hes-best-1025193/).
+[Stage 1] create finished 13:26:55 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 13:26:55)
+Command: /blog_content_fresh_eyes_people jim-carrey
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Done. Fresh-eyes notes are appended at the bottom of `src/blog/people/drafts/Jim-Carrey.md`.
+
+**Reviewed:** the Jim Carrey Type 7 draft — a strong, well-structured piece with a great cold open and a genuinely smart refusal to resolve the mysticism cleanly.
+
+**The two biggest issues I flagged:**
+
+1. **The Truman Show is missing entirely** — and it's the single most on-thesis film of his career. A man discovers his whole life is a staged performance and has to walk out to become real. That's literally the article's thesis, played in 1998, fifteen years before "Jim Carrey is a character I played." The body skips straight from Ace Ventura to Man on the Moon, leaving the one movie the reader is waiting for on the table.
+
+2. **The grief is named only in the abstract.** Section 5's "public loss and litigation he could not improvise his way out of" is gesturing at Cathriona White's 2015 death and the suits that followed — the most concrete real-world pain of the exact era the section is about, and the real test of whether the "stop running and feel it" turn is genuine or a bypass. The draft flinches from its own strongest evidence.
+
+I also noted the "running/escape" motif is repeated enough that the template starts showing, and the $10M check lands three times. No body edits made, per the command.
+[Stage 2] fresh_eyes finished 13:28:00 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 13:28:00)
+Command: /blog_content_second_pass_people jim-carrey
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey/3_second_pass.log
+─────────────────────────────────────────────────────
+Done. Updated `src/blog/people/drafts/Jim-Carrey.md`.
+
+## What I changed
+
+The fresh-eyes review nailed two real gaps, and both were worth fixing:
+
+1. **Added The Truman Show as the hinge.** The body jumped from manic comedy straight to the ego-death turn and skipped the one film a reader expects. New bridge paragraph closing the "Escape Into a Career" section lines up Truman / Andy Kaufman / *Eternal Sunshine* as three roles in a row about a man who can't find where the performance ends — and points out he played "Jim Carrey is a character I played" on screen in 1998, fifteen years before he said it on the red carpet. That's the eerie rhyme the piece is built to notice.
+
+2. **Named Cathriona White.** The grief was floating in the abstract ("public loss and litigation"). It's now the specific 2015 suicide, the casket in Ireland, and the wrongful-death suit (her mother + estranged husband, dismissed 2018) — used as the concrete test case for whether the "stop running and feel it" turn is real or a bypass. **I verified the facts by web search** before leaning on them.
+
+Two smaller trims the review flagged:
+
+3. **Cut the double-told casket beat** from the intro so section 3 owns it — which also tightens the praised cold-open diptych (check → red carpet).
+4. **Light running-motif trim** ("the running stopped" → "the motion stopped").
+
+## Notes
+
+- **Didn't touch `lastmod`** — it's user-managed per your standing rule (and already today's date anyway). This is the one place I diverged from the command's "update lastmod" instruction.
+- Lint is clean: no prose em-dashes, no banned phrases, 0 fails.
+
+## Still open (might justify an editor pass)
+
+- The running/escape motif is only lightly thinned. The thesis earns most of the repetition, but an editor could shave one or two more instances. I left them rather than risk weakening the spine.
+[Stage 3] second_pass finished 13:31:26 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 13:31:26)
+Command: /cohesion-check src/blog/people/drafts/jim-carrey.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey/4_cohesion.log
+─────────────────────────────────────────────────────
+I've read the full draft. This piece has already been through fresh-eyes and second-pass review, and it shows. Here's the cohesion audit.
+
+## Cohesion Audit: jim-carrey.md
+
+### Central Thesis
+Jim Carrey is a Type 7 whose engine is escape from pain rather than the pursuit of joy, and his late-period "I don't exist" turn is not a breakdown but the first time a man who spent fifty years running finally stopped.
+
+### Thread Map
+
+| Section | Contributes | Connects because |
+|---|---|---|
+| **Intro** (check → red carpet diptych) | Sets thesis: the most alive performer announced he wanted to disappear | Plants "a Seven reaching the end of the road he was running down" |
+| **What Is His Personality Type?** | Diagnosis: a 7 flees pain, doesn't chase fun | Pays off the intro's "Seven"; ends teasing "a tire factory, a tent, and a father" |
+| **Grew Up Performing in a Van** | Origin: performing to make pain *leave* (sick room + factory) | Delivers the tire factory/tent the prior section teased |
+| **The $10M Check** | Ambition as Seven psychology; victory and wound in one casket | The childhood "so run" finds its first big expression |
+| **Turned Escape Into a Career** | Comedy as the escape vehicle; the Truman/Kaufman/Eternal Sunshine trio | The mountain-top let-down pivots to *how* he ran |
+| **Says He Doesn't Exist** | The turn; depression-as-more; the White grief test | Trio ends "on a red carpet" → this IS that red carpet |
+| **Rabbit Hole** | Optional wing/subtype/arrows aside | Quarantined; main thread survives skipping it |
+| **What He Sounds Like When He Stops Running** | "I have enough" x3 = foot off the gas | Shares the exact pull-quote that closed the prior section |
+| **The Last Trick of an Escape Artist** | Un-retirement irony; keeps one foot on the gas | Complicates the stillness the prior section reached |
+
+Read top to bottom, that outline holds as a coherent argument. That is the test passing.
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 8/10 | 1 |
+| Section Transitions | 8/10 | 2 |
+| Internal Paragraph Flow | 9/10 | 0 |
+
+**Overall Cohesion Score: 9/10**
+
+This reads as one unified piece. The thesis (escape, not joy) threads through every section, the intro diptych earns it fast, and the un-retirement ending lands the same argument the intro opened. No thread breaks, no orphaned threads, no detours.
+
+## Minor Tightening Opportunities (3, all optional)
+
+Since this scores 8+, I'm flagging rather than auto-applying. None are thread breaks.
+
+**1. Van → Check handoff is implicit (Minor).** The van section ends "Safety is a lie. The walls close in either way. So run." The check section opens "The check on Mulholland Drive is usually told as a law-of-attraction parable." The connection (the check is the *first big act* of that running) is real but unstated. The reader carries the check from the intro, so it isn't broken, just a half-beat soft. A short bridge clause linking the childhood-wired "run" to its first expression would tighten it.
+
+**2. Check → Career chronological back-step (Minor).** The check section ends at the 1996 peak ($20M, top of the mountain). The career section then opens on *pre-fame* Apatow improv. The section is organized thematically (the escape vehicle), not chronologically, so it works, but the opening jumps backward in time without flagging it. One acknowledging clause ("Before any of that...") would smooth the time-shift.
+
+**3. Intro/Section-3 check overlap (already largely handled).** The second-pass notes say the intro's buried-casket beat was trimmed so Section 3 owns it. That worked. The remaining overlap (the check itself appears in intro + TL;DR + Section 3) is acceptable because each does different work. No action needed unless you want the intro's check description even leaner.
+
+## Recommendation
+
+This is publish-ready on cohesion grounds. The three items above are polish, not repair, and two of them are the kind of judgment call where a too-explicit bridge could actually flatten prose that currently trusts the reader.
+
+Want me to apply #1 and #2 (the two transition tightenings)? They'd be one short bridge sentence each, in the existing voice, no em-dashes, frontmatter and components untouched. Or I can leave it as-is.
+[Stage 4] cohesion finished 13:32:44 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 13:32:44)
+Command: /blog_content_editor_pass_people jim-carrey
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey/5_editor_pass.log
+─────────────────────────────────────────────────────
+Done. Here's the report.
+
+## Polished: `src/blog/people/drafts/Jim-Carrey.md`
+
+This draft arrived in strong shape — already through fresh-eyes and second-pass review, with clean lint (zero em-dashes, no banned phrases, full structure). So this was a true light polish, not a rebuild.
+
+**Main problem I cleaned up:**
+
+- **Negative-parallelism overuse** (the #1 AI tell). The "not X, it is Y" contrast engine fired about six times across the piece — but the FORMULA FINGERPRINT ledger only logged 2, so it had slipped past the prior passes. At that density the reader starts feeling the template. I kept the two that earn it (the canonical thesis "A Seven is not chasing fun. A Seven is fleeing pain." and the intro payoff "That is not a breakdown.") and neutralized two duplicates: the TL;DR engine line and the "rest was not surrender. It was the bravest possible move" line.
+- **One vague pronoun / flat rhythm**: "notice it is almost frightening" → "The energy is almost frightening," split into two beats.
+
+**Protected:** the intro diptych, the sick-room inner-thought beat, the "both Carreys are on tape" held tension, and the Cathriona White grounding — all the emotional-layer and empathy-turn material stayed untouched. `lastmod` not modified (per hard rule).
+
+**Verdict: production-ready.** Re-ran `./scripts/blog-lint.sh Jim-Carrey` — 0 fail. The only remaining flag is the `faqs` frontmatter warning, which is a discoverability/enrich-stage item, not an editorial one.
+[Stage 5] editor_pass finished 13:34:48 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 13:34:48)
+Command: /blog_content_frontmatter_enrich_people jim-carrey
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Frontmatter enrichment complete.
+
+```
+Frontmatter enrichment complete: Jim-Carrey
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia, twitter, instagram (left untouched)
+
+Identifiers verified:
+- Wikidata Q40504 (confirmed via Special:EntityData JSON — label "Jim Carrey")
+- IMDb nm0000120 (cross-checked against Wikidata P345 — match)
+- Born 1962-01-17, Newmarket, Ontario, Canada (Wikidata P569/P19)
+- Dual citizenship Canadian + American (Wikidata P27: Q16, Q30)
+
+FAQs generated (4):
+1. What is Jim Carrey's personality type? → #what-is-jim-carreys-personality-type
+2. Why does Jim Carrey say he doesn't exist? → #why-jim-carrey-says-he-doesnt-exist
+3. Why did Jim Carrey bury a $10 million check with his father? → #the-10-million-check-jim-carrey-buried-with-his-father
+4. Why did Jim Carrey retire and then un-retire? → #the-last-trick-of-an-escape-artist
+
+Issues:
+- The body contains zero external inline links (only internal /enneagram-corner and
+  /personality-analysis links), so citations could not be sourced from the body text
+  per the literal Step 7 rule. Following the Einstein gold standard, I built citations
+  from authoritative Wikipedia URLs that cover the body's specific factual claims
+  (Truman Show, Man on the Moon, Eternal Sunshine, Sonic 3). Worth flagging as a
+  thin-sourcing content-quality note for the article itself.
+```
+
+Body, HTML comment blocks, `lastmod`, and creator-owned fields were left untouched. FAQ #2's question uses YAML-correct `''` apostrophe escaping; all answers are double-quoted so internal apostrophes are safe.
+[Stage 6] enrich_frontmatter finished 13:36:49 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 145 chars
+ok    meta_title length 46 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 6
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: jim-carrey — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+[pre-grade] No existing content_quality block on draft, nothing to clear
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 13:36:49)
+Command: /grade_blog jim-carrey
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Jim Carrey
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jim-Carrey | 8.5 | 9 | 9 | 9 | 9 | 9 | **8.9** | **B+** |
+
+*(Weighted: (8.5×1.5 + 9×1.5 + 9×1.5 + 9 + 9 + 9×0.5) / 7 = 8.9. Discoverability 9 ≥ 7, gate passed.)*
+
+### Key Observations
+- **Top-of-band B+, just shy of A.** Strong in every dimension; what holds it under 9.0 is Evidence — the piece relies on authorial narration between its (genuinely good) sourced quotes rather than letting Carrey's own words carry more of the structural load.
+- **Originality and Discoverability are A-level.** The coffin-check signature detail, the Truman/Kaufman/Eternal Sunshine rhyme, the White-grounded "both Carreys are on tape" tension, plus clean search-intent frontmatter and real FAQ schema.
+- **Rabbit hole done right** — all wing (7w8), subtype (social Seven), arrow (1/5), and counter-typing (Type 4 case) depth is quarantined out of the body, which stays accessible.
+
+### Publication Ready (B+ or above)
+✅ **Jim-Carrey (8.9, B+)** — meets the 8.5 threshold with Discoverability ≥ 7. Ready to publish as-is.
+
+**To reach A:** convert 2–3 paraphrased structural beats (the Mulholland visualization, the "deep rest" depression framing) into sourced direct quotes to lift Evidence to 9, and thin one more running-motif instance.
+
+**Total graded this session: 1**
+[Stage 7] grade finished 13:38:06 (exit=0)
+
+[Stage 8] No revision needed (overall 8.9 >= 8.5, discoverability 9 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: jim-carrey
+Finished: Tue Jun 30 13:38:06 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '7'
+  hook: 9
+  enneagram: 9
+  evidence: 8.5
+  writing: 9
+  originality: 9
+  discoverability: 9
+  overall: 8.9
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-06-30'
+═════════════════════════════════════════════════════

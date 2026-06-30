@@ -32,6 +32,7 @@
 | 5        | Tech Titans: Disruptors | `/pop-culture/tech-titans-disruptors`    | See distribution file | Carousel + Stories + Reel             | r/Enneagram                  | r/startups, r/technology, r/Entrepreneur    | The Diff, Not Boring, Eric Newcomer, Big Think, Farnam Street                        |
 | 6        | Justin Bieber           | `/personality-analysis/Justin-Bieber`    | See distribution file | Carousel + Stories + Reel             | r/Enneagram                  | r/popheads, r/JUSTINBIEBER, r/Fauxmoi       | The Conversation, Andy Steiner, Vinyl by Mars, Psychology Junkie, Enneagram Universe |
 | 7        | Tim Ferriss             | `/personality-analysis/tim-ferriss`      | See distribution file | Tidbits + Analytical + Stories + Reel | r/Enneagram                  | r/Tim_Ferriss, r/Stoicism, r/getdisciplined | Daily Stoic, Podcast Notes, The Profile, Enneagram Universe, Tim directly            |
+| 8        | Steven Bartlett         | `/personality-analysis/steven-bartlett`  | See distribution file | Tidbits + Analytical + Stories + Reel | r/Enneagram                  | r/DiaryOfACEO, r/Entrepreneur               | Psychology Junkie, Truity, Enneagram Universe, Steven directly (see outreach doc)    |
 
 ---
 
@@ -147,8 +148,15 @@ Week 5+: Secondary distribution for all (stories, reels, forums, Discord, guest 
 - Podcast Notes: podcastnotes.org (use contact form — heavy Tim coverage)
 - The Profile (Polina Marinova Pompliano): readtheprofile.com (Substack reply)
 - Enneagram Universe: enneagramuniverse.com/celebrities
-- Tim directly: tim.blog/contact form, comment on most recent post, or @tferriss DM on X
+- Tim directly: staged email in `docs/outreach/2026-06-29_tim-ferriss-email.md`; tim.blog/contact form, comment on most recent post, or @tferriss DM on X
 - Fan aggregators on X: @PodcastNotes, @DailyStoic
+
+### Steven Bartlett Targets
+
+- Psychology Junkie: psychologyjunkie.com (use contact form)
+- Truity Blog: truity.com/blog
+- Enneagram Universe: enneagramuniverse.com/celebrities
+- Steven directly: staged email in `docs/outreach/2026-06-29_steven-bartlett-email.md`; stevenbartlett.com contact, or @StevenBartlett / LinkedIn DM (Tier C — business/creator content lands best)
 
 ### Cross-Cutting (All Posts)
 
@@ -172,5 +180,7 @@ docs/
     ├── benson-boone-distribution.md       # Twitter, Reddit, email, Instagram assets
     ├── tech-titans-disruptors-distribution.md # Twitter, Reddit, email, Instagram assets (group analysis)
     ├── justin-bieber-distribution.md      # Twitter, Reddit, email, Instagram assets (hot Coachella 2026 window)
-    └── tim-ferriss-distribution.md        # Twitter, Reddit, email, Instagram assets (Type 1 — Reformer)
+    ├── tim-ferriss-distribution.md        # Twitter, Reddit, email, Instagram assets (Type 1 — Reformer)
+    ├── steven-bartlett-distribution.md    # Twitter, Reddit, email, Instagram assets (Type 3 — Achiever)
+    └── steven-bartlett-instagram.md       # Instagram-specific Gen-Z cheat-sheet pack (Type 3)
 ```

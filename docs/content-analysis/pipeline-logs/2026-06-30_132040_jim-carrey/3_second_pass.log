@@ -1,0 +1,23 @@
+Done. Updated `src/blog/people/drafts/Jim-Carrey.md`.
+
+## What I changed
+
+The fresh-eyes review nailed two real gaps, and both were worth fixing:
+
+1. **Added The Truman Show as the hinge.** The body jumped from manic comedy straight to the ego-death turn and skipped the one film a reader expects. New bridge paragraph closing the "Escape Into a Career" section lines up Truman / Andy Kaufman / *Eternal Sunshine* as three roles in a row about a man who can't find where the performance ends — and points out he played "Jim Carrey is a character I played" on screen in 1998, fifteen years before he said it on the red carpet. That's the eerie rhyme the piece is built to notice.
+
+2. **Named Cathriona White.** The grief was floating in the abstract ("public loss and litigation"). It's now the specific 2015 suicide, the casket in Ireland, and the wrongful-death suit (her mother + estranged husband, dismissed 2018) — used as the concrete test case for whether the "stop running and feel it" turn is real or a bypass. **I verified the facts by web search** before leaning on them.
+
+Two smaller trims the review flagged:
+
+3. **Cut the double-told casket beat** from the intro so section 3 owns it — which also tightens the praised cold-open diptych (check → red carpet).
+4. **Light running-motif trim** ("the running stopped" → "the motion stopped").
+
+## Notes
+
+- **Didn't touch `lastmod`** — it's user-managed per your standing rule (and already today's date anyway). This is the one place I diverged from the command's "update lastmod" instruction.
+- Lint is clean: no prose em-dashes, no banned phrases, 0 fails.
+
+## Still open (might justify an editor pass)
+
+- The running/escape motif is only lightly thinned. The thesis earns most of the repetition, but an editor could shave one or two more instances. I left them rather than risk weakening the spine.

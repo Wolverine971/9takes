@@ -4,12 +4,12 @@ meta_title: "Why Conan O'Brien Can't Stop Reinventing Himself (It's Not Ambition
 persona_title: "Late Night's Restless Alchemist"
 description: "Inside Conan O'Brien's psychology: how childhood anxiety, the Tonight Show crisis, and a 40-year sprint reveal an Enneagram Type 7 running from stillness."
 author: 'DJ Wayne'
-date: '2026-04-08'
+date: '2026-06-30'
 loc: 'https://9takes.com/personality-analysis/conan-obrien'
-lastmod: '2026-04-08'
+lastmod: '2026-06-30'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['comedian', 'creator', 'podcaster']
 person: 'conan-obrien'

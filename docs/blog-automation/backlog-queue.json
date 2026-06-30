@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-06-28T06:27:18Z",
+	"lastUpdated": "2026-06-30T17:38:06Z",
 	"stats": {
-		"totalUnpublished": 126,
+		"totalUnpublished": 127,
 		"totalPublished": 266,
-		"completionRate": "67.8%"
+		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "jim-carrey",
-			"displayName": "Jim Carrey",
-			"type": 7,
-			"priority": 56,
-			"priorityReason": "Comedy icon with massive recognition, expressive range, and a strong Type 7 performer analysis angle",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "comedy-icon-cluster"
-		},
 		{
 			"name": "zac-efron",
 			"displayName": "Zac Efron",
@@ -164,6 +151,30 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "jim-carrey",
+			"displayName": "Jim Carrey",
+			"type": 7,
+			"priority": 56,
+			"priorityReason": "Comedy icon with massive recognition, expressive range, and a strong Type 7 performer analysis angle",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 1,
+			"strategicValue": "comedy-icon-cluster",
+			"startedAt": "2026-06-30T17:20:16Z",
+			"completedAt": "2026-06-30T17:38:06Z",
+			"contentGrade": "8.9 (B+)",
+			"letter": "B+",
+			"discoverability": 9,
+			"duration": "~18 min",
+			"needsReview": false,
+			"draftPath": "src/blog/people/drafts/Jim-Carrey.md",
+			"pipelineLog": "docs/content-analysis/pipeline-logs/2026-06-30_132040_jim-carrey",
+			"personaTitleFinal": "Why the Funniest Man Alive Wanted to Disappear",
+			"recoveryNote": "Recovered from a launch-orphan: the 06-30T06:00 run was backgrounded then the turn ended, killing stage 1 (0-byte 1_create.log, no draft). Re-ran synchronously 06-30T17:20 with the turn held open until the pipeline process exited. Full 7-stage pipeline ran clean; grade cleared the 8.5 bar on first pass (no revise loop). faqs (4) + wikidata_qid Q40504 present; production_pretext status draft."
+		},
 		{
 			"name": "susan-sarandon",
 			"displayName": "Susan Sarandon",

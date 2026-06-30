@@ -131,7 +131,7 @@ Full analysis here: [LINK]
 
 **Body:**
 
-Long-time listener, first-time deep dive. I wrote a personality psychology analysis of Tim through the Enneagram framework and wanted to share it with the people who'd push back hardest if I got it wrong.
+I've followed Tim's work for a while and finally wrote the personality-psychology analysis I'd been chewing on, through the Enneagram framework, and wanted to share it with the people who'd push back hardest if I got it wrong.
 
 The core thesis: Tim isn't just an optimizer. He's a Type 1 — the Reformer — and almost every move he's made (the systems, the "misbehave" word choice, the moral mission of the psychedelic philanthropy, walking away from draining commitments to free mental energy, ending his angel investing career while sitting on Uber stock) makes more sense once you see the inner critic underneath.
 
@@ -307,6 +307,8 @@ DJ Wayne
 
 ### To: Tim Ferriss directly (adapt as a blog comment or short @tferriss note; tim.blog/contact points readers to comments/tweets)
 
+> Cleaned, DJ-voiced versions (honest familiarity, no "long-time listener" overclaim) are staged in `docs/outreach/2026-06-29_tim-ferriss-email.md` — prefer those for the founder-direct send. The version below is the older draft, kept for reference.
+
 ```
 Subject: Wrote a personality analysis of you — wanted you to see it
 
@@ -357,7 +359,7 @@ No pressure to share. If anything reads off, my contact is on the site — I'd r
 (Drop on the most relevant recent post that's still receiving comments. Phrase it as a reader's note, not a pitch.)
 
 ```
-Tim — long-time reader. I wrote a long-form personality analysis of
+Tim — I've followed your work for a while. I wrote a long-form personality analysis of
 you through the Enneagram framework (Type 1, with the Princeton stress-
 to-4 and a recent integration-to-7 arc around relationships, acceptance,
 and the limits of optimization). It's built almost entirely from your own

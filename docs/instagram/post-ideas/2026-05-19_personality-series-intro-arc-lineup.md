@@ -50,17 +50,18 @@ Per the [engagement strategy](../personality-series-engagement-strategy.md). Ful
 
 ## The Lineup
 
-| Week | Day | #   | Person                     | The lore hook (one-line curiosity)                                                                                 | Status                         |
-| ---- | --- | --- | -------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
-| 0    | —   | 0   | **Intro 2-slide carousel** | Series framer                                                                                                      | Caption ready (2026-05-19 doc) |
-| 1    | Tue | 1   | **Tim Ferriss**            | Was a lab rat in Daniel Kahneman's experiments. His first product sold two copies — one to his mom.                | ✅ Built below                 |
-| 1    | Fri | 2   | **Sabrina Carpenter**      | Her dad turned the family's "Harry Potter closet" into her studio. Then she wrote Espresso in a French ghost town. | ✅ Built below                 |
-| 2    | Tue | 3   | **Kai Cenat**              | Turned down $60M and prayed on his knees. Launching Streamer University now — while telling the world he has ADHD. | ✅ Rebuilt 2026-06-18          |
-| 2    | Fri | 4   | **Lana Del Rey**           | The sad-glam queen of Hollywood married a Louisiana alligator tour guide she met on his swamp boat.                | ✅ Built below                 |
-| 3    | Tue | 5   | **Charli XCX**             | "Brat" looked like pure chaos. There was a 20-page manifesto before a single song was recorded.                    | ✅ Built below                 |
-| 3    | Fri | 6   | **Chappell Roan**          | Was a donut shop cashier four years ago. Her uncle is a Republican state rep.                                      | ✅ Built below                 |
-| 4    | Tue | 7   | **Robert Greene**          | Wrote _The 48 Laws of Power_ while suicidal. A wasp sting likely seeded the stroke that took his left side.        | ✅ Built below                 |
-| 4    | Fri | 8   | **Pedro Pascal**           | A refugee kid with $7 in the bank became the man everyone wants to be hugged by — how?                             | ✅ Built below                 |
+| Week | Day | #   | Person                     | The lore hook (one-line curiosity)                                                                                 | Status                                  |
+| ---- | --- | --- | -------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
+| 0    | —   | 0   | **Intro 2-slide carousel** | Series framer                                                                                                      | Caption ready (2026-05-19 doc)          |
+| 1    | Tue | 1   | **Tim Ferriss**            | Was a lab rat in Daniel Kahneman's experiments. His first product sold two copies — one to his mom.                | ✅ Built below                          |
+| 1    | Fri | 2   | **Sabrina Carpenter**      | Her dad turned the family's "Harry Potter closet" into her studio. Then she wrote Espresso in a French ghost town. | ✅ Built below                          |
+| 2    | Tue | 3   | **Kai Cenat**              | Turned down $60M and prayed on his knees. Launching Streamer University now — while telling the world he has ADHD. | ✅ Rebuilt 2026-06-18                   |
+| —    | —   | +   | **Steven Bartlett**        | £13 in a chicken shop made him happier than his first million. Built a $600M empire on "insecurity, not ambition." | 🟢 POSTED 2026-06-29 (unplanned insert) |
+| 2    | Fri | 4   | **Lana Del Rey**           | The sad-glam queen of Hollywood married a Louisiana alligator tour guide she met on his swamp boat.                | 🟢 POSTED (song: "Ride")                |
+| 3    | Tue | 5   | **Charli XCX**             | "Brat" looked like pure chaos. There was a 20-page manifesto before a single song was recorded.                    | ✅ Built below                          |
+| 3    | Fri | 6   | **Chappell Roan**          | Was a donut shop cashier four years ago. Her uncle is a Republican state rep.                                      | ✅ Built below                          |
+| 4    | Tue | 7   | **Robert Greene**          | Wrote _The 48 Laws of Power_ while suicidal. A wasp sting likely seeded the stroke that took his left side.        | ✅ Built below                          |
+| 4    | Fri | 8   | **Pedro Pascal**           | A refugee kid with $7 in the bank became the man everyone wants to be hugged by — how?                             | ✅ Built below                          |
 
 **Lead change rationale:** Post 1 sets the format AND drives first-hour engagement authority. Tim Ferriss is in DJ's wheelhouse — he can riff in the comments without hesitation, which Pedro (less personal familiarity) would have made harder. Pedro moves to the closer slot: highest-empathy ending, leaves the arc on a warm note, sets up arc 2 with momentum.
 
@@ -294,10 +295,78 @@ The full Type 7 breakdown — why Kai can't slow down, what the crash is really 
 
 ---
 
+# Post — Steven Bartlett (unplanned insert · 🟢 POSTED 2026-06-29)
+
+**Schedule:** Posted 2026-06-29 (inserted outside the locked 8-post arc).
+**Type:** 3 · The Achiever (same pond as Sabrina Carpenter #2 and Charli XCX #5 — imposter syndrome / hustle-burnout).
+**Lore hook:** Found £13 in a chicken shop and it beat the day he became a millionaire. Built a $600M empire on what he calls "insecurity, not ambition."
+**Source blog:** /personality-analysis/steven-bartlett (B+ / 8.8). Drafted from `src/blog/people/drafts/Steven-Bartlett.md`.
+
+## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
+
+```
+1. Found £13.40 in a chicken-shop seat at 18 — and says it made him
+   happier than becoming a millionaire. (99 / shocker)
+
+2. "My ambitions were fake," he says. "They weren't ambition — they
+   were insecurity." (84 / deep)
+
+3. He dropped out of university after exactly one lecture. (55 / shocker)
+
+4. His calendar is color-coded to the hour — time with his fiancée
+   goes in as a scheduled event. (96 / deep)
+
+5. Same all-black outfit every single day — gym, boardroom, home,
+   stage. (70 / shocker)
+
+6. He flew 22 hours to win back an ex who'd moved on. Stayed four days.
+   She chose him. (84 / deep)
+```
+
+**Rhythm:** 3 shockers + 3 deep, alternating S-D-S-D-S-D. Opens light-and-odd (the chicken shop), plants the engine in the middle (the insecurity quote + the calendar that schedules his fiancée), closes on the growth move (the Bali flight = 3→6 integration). Reader leaves wondering about him, not his résumé.
+
+**Hold for stories:**
+
+- His mother left school at 7 and never learned to read or write — he built an empire of words she can't read. (104) — strong, but heavier; better as a story beat than a slide line.
+- He reportedly turned down a $100M streaming offer to keep creative control. (74)
+- He wrote one check into chip startup Groq; Nvidia later moved to buy it for ~$20B. (80) [re-verify the Nvidia/Groq figure + date before use]
+
+## Caption
+
+```
+Does your self-worth quietly live or die by what you achieved this week? Do the wins feel flat the second you hit them — so you just set a bigger target?
+
+That's Enneagram Type 3 — the Achiever. And Steven Bartlett is living proof.
+
+He built a $600M empire and hosts the UK's #1 podcast. But he says finding £13 in a chicken shop at 18 made him happier than the day he became a millionaire. "One was euphoria. One was anti-climax."
+
+In his own words, the drive was never ambition: "They were insecurity."
+
+The catch with Threes: the win never fills the hole, because the hole was never about the win.
+
+Full breakdown of Steven — and the Type 3 pattern underneath the hustle — on 9takes. Link in bio.
+
+Are you a Type 3? Tag one who can't stop. 👇
+
+#enneagram #personalityanalysis #enneagramtype3 #theachiever #stevenbartlett #diaryofaceo #impostersyndrome #hustleculture #patternrecognition #9takes #burnout
+```
+
+## Pinned first comment
+
+```
+The full Type 3 breakdown — why the win never lands, where the hustle really comes from, and what finally made him slow down:
+9takes.com/personality-analysis/steven-bartlett
+```
+
+**Pond to work this week (Type 3):** #impostersyndrome #hustleculture #burnout — same pond as the Sabrina Carpenter and Charli XCX posts.
+
+---
+
 # Post 4 — Lana Del Rey
 
 **Schedule:** Week 2 Friday
 **Lore hook:** The sad-glam queen of Hollywood married a Louisiana alligator-tour captain she met on his swamp boat.
+**Song (personification):** "Ride" (2012), posted. The spoken monologue ("I had a chameleon soul... I am fucking crazy. But I am free.") is the Type 4 interior read aloud.
 **Finalized 2026-06-09** with fact-check corrections (Dufrene is a captain at Airboat Tours by Arthur, not the owner; they married in Des Allemands, not Lafitte; Brian Williams quote was a leaked private email; "Venice Bitch" is ~9:37, not 9:14).
 
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
@@ -359,6 +428,7 @@ The full Type 4 breakdown — where the longing comes from, why "different" feel
 
 **Schedule:** Week 3 Tuesday
 **Lore hook:** "Brat" looked like pure chaos. There was a 20-page manifesto before a single song was recorded.
+**Song (personification):** "Sympathy Is a Knife" (2024). The brat bravado cracks and the comparison-anxiety leaks out. The Type 3 wound: the image is armor over the fear that there's nothing underneath. (Recognizable-anthem backup: "360.")
 **Finalized 2026-06-09** with fact-check corrections (manifesto is 20 pages, not 50 — and the "she claimed instinct" contradiction is unverified, so the gotcha framing is dropped; raves were "east London," both parents chaperoned). "kamala IS brat" held — political-adjacent, violates the arc's lane discipline on a cold account.
 
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
@@ -391,27 +461,27 @@ The full Type 4 breakdown — where the longing comes from, why "different" feel
 ## Caption
 
 ```
-Do you make the calculated thing look effortless? Engineer the "messy and authentic" version because it lands harder? Quietly run the strategy while everyone thinks you're winging it?
+Do you make the hard thing look easy? Stage the "messy and real" version because it lands harder? Run the whole plan in your head while everyone thinks you're just vibing?
 
-That's Enneagram Type 3 — the Achiever — in its most cunning form. And Charli XCX is the proof.
+That's Enneagram Type 3, the Achiever, in its most calculated form. Charli XCX is the proof.
 
-"Brat" looked like pure chaos. But before a single song was recorded, she wrote a 20-page manifesto breaking down every element of the campaign. Threes don't stumble into the moment — they design it, then make the design invisible.
+"Brat" looked like pure chaos. But before she recorded a single song, she wrote a 20-page manifesto breaking down every piece of the campaign. Threes don't stumble into the moment. They design it, then hide the blueprint.
 
-Even the spontaneity is staged: the day before Brat dropped she sent Lorde a voice note, and the "off-the-cuff" remix took three days to build.
+Even the spontaneity is built. The day before "Brat" dropped she sent Lorde a voice note, and that "off the cuff" remix took three days to make.
 
-The catch with Threes: when even the rebellion is strategic, the scary question is whether anything you do is just for you.
+The catch with Threes: when even the rebellion is planned, the real question becomes whether anything you do is just for you.
 
-Full breakdown of Charli — and the Type 3 strategist under the chaos — on 9takes. Link in bio.
+Full breakdown of Charli, and the Type 3 strategist under the chaos, on 9takes. Link in bio.
 
 Are you a Type 3? Tag the one who's always three steps ahead. 👇
 
-#enneagram #personalityanalysis #enneagramtype3 #theachiever #charlixcx #brat #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+#charlixcx #brat #enneagram #enneagramtype3 #impostersyndrome
 ```
 
 ## Pinned first comment
 
 ```
-The full Type 3 breakdown — why the chaos is engineered, what gets lost when the image always wins, and how Charli runs on it:
+The full Type 3 breakdown: why the chaos is engineered, what gets lost when the image always wins, and how Charli runs on it.
 9takes.com/personality-analysis/charli-xcx
 ```
 
@@ -421,6 +491,7 @@ The full Type 3 breakdown — why the chaos is engineered, what gets lost when t
 
 **Schedule:** Week 3 Friday
 **Lore hook:** Was a donut shop cashier four years ago. Her uncle is a Republican state representative.
+**Song (personification):** "Pink Pony Club" (2020). Defiance and homesick ache in one song, the Eight's armor wrapped around the tender thing it guards. (Backup: "Good Luck, Babe!")
 **Finalized 2026-06-09** with fact-check corrections (the $25K story was incomplete — BOTH Noah Kahan and Charli XCX matched; nice cross-arc echo with post 5).
 
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
@@ -438,8 +509,8 @@ The full Type 3 breakdown — why the chaos is engineered, what gets lost when t
 4. At the 2024 VMAs she dressed as Joan of Arc and fired a flaming
    crossbow arrow. (79 / shocker)
 
-5. She was diagnosed bipolar II at 22 — the same year she was
-   dropped. (62 / deep)
+5. She was diagnosed bipolar II at 22, the same year she was
+   dropped. (66 / deep)
 
 6. When an exec mocked her Grammy speech, she put up $25K for dropped
    artists. Noah Kahan and Charli XCX matched. (110 / deep)
@@ -452,27 +523,27 @@ The full Type 3 breakdown — why the chaos is engineered, what gets lost when t
 ## Caption
 
 ```
-Do you bristle the second someone tries to control you? Lead with armor so nobody reaches the soft part? Fight for the underdog because you remember being one?
+Do you bristle the second someone tries to control you? Lead with armor so nobody reaches the soft part first? Fight for the underdog because you remember being one?
 
-That's Enneagram Type 8 — the Challenger. And Chappell Roan is a textbook case.
+That's Enneagram Type 8, the Challenger. Chappell Roan is a textbook case.
 
-Atlantic dropped her; she worked a donut counter and came back on her own terms — setting hard boundaries with fans and press that most new stars would never dare. Eights don't ask permission; they take the power back.
+Atlantic dropped her. She worked a donut counter, then came back on her own terms, setting boundaries with fans and press that most new stars would never risk. Eights don't ask permission. They take the power back.
 
-When an exec mocked her Grammy speech, she didn't sulk — she put up $25K for dropped artists, and Noah Kahan and Charli XCX matched her. That's the Eight move: turn a hit into a stand.
+When an exec mocked her Grammy speech, she didn't shrink. She put up $25K for dropped artists, and Noah Kahan and Charli XCX matched her. That's the Eight move. Turn a hit into a stand.
 
-The catch with Eights: the armor that protects the tender part also keeps people from reaching it.
+The catch with Eights: the armor that guards the tender part also keeps people from reaching it.
 
-Full breakdown of Chappell — and the Type 8 engine under the defiance — on 9takes. Link in bio.
+Full breakdown of Chappell, and the Type 8 engine under the defiance, on 9takes. Link in bio.
 
 Are you a Type 8? Tag one who refuses to be controlled. 👇
 
-#enneagram #personalityanalysis #enneagramtype8 #thechallenger #chappellroan #popmusic #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+#chappellroan #pinkponyclub #enneagram #enneagramtype8 #boundaries
 ```
 
 ## Pinned first comment
 
 ```
-The full Type 8 breakdown — what the armor protects, why control matters this much, and how Chappell runs on it:
+The full Type 8 breakdown: what the armor protects, why control matters this much, and how Chappell runs on it.
 9takes.com/personality-analysis/chappell-roan
 ```
 
@@ -482,20 +553,21 @@ The full Type 8 breakdown — what the armor protects, why control matters this 
 
 **Schedule:** Week 4 Tuesday
 **Lore hook:** Wrote _The 48 Laws of Power_ while suicidal. A wasp sting likely seeded the stroke that took his left side.
+**Song (personification):** "The Sound of Silence" (Simon & Garfunkel). The withdrawn observer who reads people and stays behind the glass. Pure Type 5. (Thematic-wink backup: "Everybody Wants to Rule the World," the anthem for the thing he mapped but never chased.)
 **Why he's in the arc:** First non-celebrity. Proves the lore-stack works on thinkers, not just entertainers.
 **Finalized 2026-06-09** with fact-check corrections (stroke happened weeks after the sting, in the car — wasp trigger is his neurologist's theory, so it's hedged; the "can't make breakfast" quote is from FIVE MONTHS post-stroke, not years — reframed; the father-journalist revelation is CUT — only traces to AI-generated aggregator pages).
 
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
 
 ```
-1. By his count, he worked 80 jobs by age 38 — construction in Greece,
-   skip-tracing debtors in LA. (95 / shocker)
+1. By his count, he worked 80 jobs by age 38. Construction in Greece,
+   skip-tracing debtors in LA. (94 / shocker)
 
 2. He was having suicidal thoughts when he started writing The 48 Laws
    of Power. (77 / deep)
 
-3. Per book: 300–400 complete works read, 3,000–4,000 handwritten
-   color-coded index cards, fountain pen. (102 / deep)
+3. Per book: 300 to 400 complete works read, 3,000 to 4,000 handwritten
+   color-coded index cards, fountain pen. (107 / deep)
 
 4. Ryan Holiday has worked beside him for ~20 years and has never once
    seen him yell. (81 / shocker)
@@ -515,27 +587,27 @@ The full Type 8 breakdown — what the armor protects, why control matters this 
 ## Caption
 
 ```
-Do you retreat into your head the moment things get intense? Feel safest observing instead of participating? Would rather understand a feeling than actually have it?
+Do you retreat into your head the moment things get intense? Feel safest watching instead of joining in? Would rather understand a feeling than actually sit in it?
 
-That's Enneagram Type 5 — the Investigator. And Robert Greene made a career of it.
+That's Enneagram Type 5, the Investigator. Robert Greene made a career of it.
 
-300–400 complete books read per project, thousands of handwritten color-coded index cards, the mechanics of power mapped more coldly than anyone alive. Fives replace feeling with understanding — they study the thing instead of living it.
+Three to four hundred books read per project. Thousands of handwritten, color-coded index cards. The mechanics of power mapped colder than anyone alive. Fives trade feeling for understanding. They study the thing instead of living it.
 
-Here's the tell: he's spent decades cataloguing power, and Ryan Holiday — beside him almost twenty years — has never once seen him use it. Never seen him yell. The man who decoded power doesn't reach for it.
+Here's the tell. He spent decades cataloguing power, and Ryan Holiday, beside him almost twenty years, has never once seen him use it. Never seen him raise his voice. The man who decoded power doesn't reach for it.
 
-The catch with Fives: you can map every move on the board and still be watching the game from behind glass.
+The catch with Fives: you can read every move on the board and still be watching the game from behind glass.
 
-Full breakdown of Robert — and the Type 5 engine under the genius — on 9takes. Link in bio.
+Full breakdown of Robert, and the Type 5 engine under the genius, on 9takes. Link in bio.
 
 Are you a Type 5? Tag the observer in your life. 👇
 
-#enneagram #personalityanalysis #enneagramtype5 #theinvestigator #robertgreene #48lawsofpower #books #personalitypsychology #patternrecognition #9takes #celebrityanalysis
+#robertgreene #48lawsofpower #enneagram #enneagramtype5 #introvert
 ```
 
 ## Pinned first comment
 
 ```
-The full Type 5 breakdown — why Fives watch from the edges, what the knowledge is really protecting, and how Robert runs on it:
+The full Type 5 breakdown: why Fives watch from the edges, what the knowledge is really protecting, and how Robert runs on it.
 9takes.com/personality-analysis/robert-greene
 ```
 
@@ -544,7 +616,8 @@ The full Type 5 breakdown — why Fives watch from the edges, what the knowledge
 # Post 8 — Pedro Pascal
 
 **Schedule:** Week 4 Friday
-**Lore hook:** A refugee kid with $7 in the bank became the man everyone wants to be hugged by — how?
+**Lore hook:** A refugee kid with $7 in the bank became the man everyone wants to be hugged by. How?
+**Song (personification):** "Stand By Me" (Ben E. King). "I won't be afraid, just as long as you stand by me." The Type 6 thesis: name the fear, borrow courage from the people you're loyal to. (Backup: "Lean on Me.")
 **Why he closes the arc:** Highest empathy-per-tidbit ratio in the roster. Pedro's lore is dense and warm — a strong closer that leaves the arc on a feeling and primes momentum into arc 2. Originally drafted as the lead; moved here once Tim Ferriss was locked in for first-hour engagement authority.
 
 ## Slide 2 — Tidbits (6 lines, 115-char max, varied rhythm)
@@ -552,11 +625,11 @@ The full Type 5 breakdown — why Fives watch from the edges, what the knowledge
 ```
 1. He's actually José Pedro Balmaceda Pascal. (45 / shocker)
 
-2. His parents hid from Pinochet's secret police for six months —
-   baby Pedro stayed with his aunt. (95 / deep)
+2. His parents hid from Pinochet's secret police for six months.
+   Baby Pedro stayed with his aunt. (94 / deep)
 
-3. Before Game of Thrones he was down to $7 — until a residual check
-   from one Buffy episode arrived. (97 / shocker)
+3. Before Game of Thrones he was down to $7, until a residual check
+   from one Buffy episode arrived. (96 / shocker)
 
 4. Sarah Paulson fed him out of her per diem during his broke years.
    (67 / shocker)
@@ -564,8 +637,8 @@ The full Type 5 breakdown — why Fives watch from the edges, what the knowledge
 5. He presses his hand to his chest on red carpets. He told Bella
    Ramsey: "my anxiety is right here." (99 / deep)
 
-6. The shirt he wore to his 50th birthday went viral — the campaign
-   raised $600K+ for Trans Lifeline. (98 / deep)
+6. The shirt he wore to his 50th birthday went viral. The campaign
+   raised $600K+ for Trans Lifeline. (97 / deep)
 ```
 
 **Rhythm:** 3 shockers + 3 deep. Opens with the name (instant intrigue), closes on the Trans Lifeline beat (warmest weight).
@@ -576,27 +649,27 @@ The full Type 5 breakdown — why Fives watch from the edges, what the knowledge
 ## Caption
 
 ```
-Do you scan every room for what could go wrong? Stay fiercely loyal to the few people who are truly yours? Feel the anxiety in your body before your mind even names it?
+Do you scan every room for what might go wrong? Stay fiercely loyal to the handful of people who are truly yours? Feel the anxiety in your body before your mind even names it?
 
-That's Enneagram Type 6 — the Loyalist. And Pedro Pascal wears it on his sleeve — literally.
+That's Enneagram Type 6, the Loyalist. Pedro Pascal wears it on his sleeve, literally.
 
-On red carpets he presses his hand to his chest. He told Bella Ramsey what it means: "my anxiety is right here." Sixes don't hide the fear so much as move through it — that's exactly where the courage comes from.
+On red carpets he presses his hand to his chest. He told Bella Ramsey what it means: "my anxiety is right here." Sixes don't bury the fear. They move through it, and that's exactly where the courage comes from.
 
-And the loyalty runs both ways: down to $7 before Game of Thrones, he was fed by Sarah Paulson out of her per diem — a friendship he's never stopped repaying. Sixes build found families and defend them for life.
+The loyalty runs both ways. Down to $7 before Game of Thrones, he was fed by Sarah Paulson out of her per diem, and he's never stopped repaying that kind of friendship. Sixes build found families and defend them for life.
 
-The catch with Sixes: the anxiety never fully leaves — but it's the same wiring that makes him the person everyone feels safe around.
+The catch with Sixes: the anxiety never fully leaves, but it's the same wiring that makes him the person everyone feels safe around.
 
-Full breakdown of Pedro — and the Type 6 engine under the warmth — on 9takes. Link in bio.
+Full breakdown of Pedro, and the Type 6 engine under the warmth, on 9takes. Link in bio.
 
 Are you a Type 6? Tag your most loyal person. 👇
 
-#enneagram #personalityanalysis #enneagramtype6 #theloyalist #pedropascal #thelastofus #personalitypsychology #patternrecognition #9takes #celebrityanalysis #emotionalintelligence
+#pedropascal #thelastofus #enneagram #enneagramtype6 #anxiety
 ```
 
 ## Pinned first comment
 
 ```
-The full Type 6 breakdown — what the anxiety is doing, why the loyalty runs so deep, and how Pedro runs on it:
+The full Type 6 breakdown: what the anxiety is doing, why the loyalty runs so deep, and how Pedro runs on it.
 9takes.com/personality-analysis/pedro-pascal
 ```
 

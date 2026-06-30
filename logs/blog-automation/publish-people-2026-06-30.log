@@ -1,0 +1,22 @@
+Published successfully. All generated files updated as expected.
+
+```text
+Published people blog.
+
+Person: conan-obrien
+Draft: src/blog/people/drafts/Conan-OBrien.md
+Date/lastmod: 2026-06-30
+Supabase: published=true (row id 837)
+Images: full + thumbnail present
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verification confirms:
+- Draft frontmatter: `published: true`, `date`/`lastmod` both `2026-06-30`
+- `famousTypes.ts`: Conan entry has `link: true`, `hasImage: true`, `lastmod: '2026-06-30'`, grade 8.6 (passes the 8.5 gate)
+- `sitemap.xml`: includes `https://9takes.com/personality-analysis/conan-obrien` with its image
+
+Conan O'Brien ("Late Night's Restless Alchemist," Type 7) is now live.

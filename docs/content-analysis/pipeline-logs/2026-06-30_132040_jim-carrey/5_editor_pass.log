@@ -1,0 +1,14 @@
+Done. Here's the report.
+
+## Polished: `src/blog/people/drafts/Jim-Carrey.md`
+
+This draft arrived in strong shape — already through fresh-eyes and second-pass review, with clean lint (zero em-dashes, no banned phrases, full structure). So this was a true light polish, not a rebuild.
+
+**Main problem I cleaned up:**
+
+- **Negative-parallelism overuse** (the #1 AI tell). The "not X, it is Y" contrast engine fired about six times across the piece — but the FORMULA FINGERPRINT ledger only logged 2, so it had slipped past the prior passes. At that density the reader starts feeling the template. I kept the two that earn it (the canonical thesis "A Seven is not chasing fun. A Seven is fleeing pain." and the intro payoff "That is not a breakdown.") and neutralized two duplicates: the TL;DR engine line and the "rest was not surrender. It was the bravest possible move" line.
+- **One vague pronoun / flat rhythm**: "notice it is almost frightening" → "The energy is almost frightening," split into two beats.
+
+**Protected:** the intro diptych, the sick-room inner-thought beat, the "both Carreys are on tape" held tension, and the Cathriona White grounding — all the emotional-layer and empathy-turn material stayed untouched. `lastmod` not modified (per hard rule).
+
+**Verdict: production-ready.** Re-ran `./scripts/blog-lint.sh Jim-Carrey` — 0 fail. The only remaining flag is the `faqs` frontmatter warning, which is a discoverability/enrich-stage item, not an editorial one.

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29T23:03:53.980Z",
+  "generated_at": "2026-06-30T21:45:04.014Z",
   "totals": {
-    "published": 370,
+    "published": 371,
     "unpublished_drafts": 131
   },
   "enneagram_distribution": {
@@ -12,20 +12,20 @@
       "4": 54,
       "5": 30,
       "6": 34,
-      "7": 54,
+      "7": 55,
       "8": 43,
       "9": 37
     },
     "shares": {
-      "1": 0.0649,
-      "2": 0.0703,
-      "3": 0.1838,
-      "4": 0.1459,
-      "5": 0.0811,
-      "6": 0.0919,
-      "7": 0.1459,
-      "8": 0.1162,
-      "9": 0.1
+      "1": 0.0647,
+      "2": 0.0701,
+      "3": 0.1833,
+      "4": 0.1456,
+      "5": 0.0809,
+      "6": 0.0916,
+      "7": 0.1482,
+      "8": 0.1159,
+      "9": 0.0997
     }
   },
   "domains": {
@@ -62,27 +62,27 @@
         "9": 0.1594
       },
       "diff_vs_baseline_pp": {
-        "1": -0.69,
-        "2": 3.12,
-        "3": -1.71,
-        "4": -2.28,
-        "5": -5.21,
-        "6": 2.41,
-        "7": -0.1,
-        "8": -1.48,
-        "9": 5.94
+        "1": -0.67,
+        "2": 3.14,
+        "3": -1.66,
+        "4": -2.24,
+        "5": -5.19,
+        "6": 2.43,
+        "7": -0.33,
+        "8": -1.45,
+        "9": 5.97
       },
       "top_over_represented": {
         "type": 9,
         "share": 0.1594,
         "count": 22,
-        "delta_pp": 5.94
+        "delta_pp": 5.97
       },
       "top_under_represented": {
         "type": 5,
         "share": 0.029,
         "count": 4,
-        "delta_pp": -5.21
+        "delta_pp": -5.19
       }
     },
     "creator-media": {
@@ -96,7 +96,7 @@
         "lifestyleInfluencer",
         "journalist"
       ],
-      "total": 80,
+      "total": 81,
       "counts_by_type": {
         "1": 3,
         "2": 3,
@@ -104,43 +104,43 @@
         "4": 10,
         "5": 5,
         "6": 5,
-        "7": 19,
+        "7": 20,
         "8": 10,
         "9": 5
       },
       "share_by_type": {
-        "1": 0.0375,
-        "2": 0.0375,
-        "3": 0.25,
-        "4": 0.125,
-        "5": 0.0625,
-        "6": 0.0625,
-        "7": 0.2375,
-        "8": 0.125,
-        "9": 0.0625
+        "1": 0.037,
+        "2": 0.037,
+        "3": 0.2469,
+        "4": 0.1235,
+        "5": 0.0617,
+        "6": 0.0617,
+        "7": 0.2469,
+        "8": 0.1235,
+        "9": 0.0617
       },
       "diff_vs_baseline_pp": {
-        "1": -2.74,
-        "2": -3.28,
-        "3": 6.62,
-        "4": -2.09,
-        "5": -1.86,
-        "6": -2.94,
-        "7": 9.16,
-        "8": 0.88,
-        "9": -3.75
+        "1": -2.77,
+        "2": -3.3,
+        "3": 6.36,
+        "4": -2.21,
+        "5": -1.91,
+        "6": -2.99,
+        "7": 9.87,
+        "8": 0.76,
+        "9": -3.8
       },
       "top_over_represented": {
         "type": 7,
-        "share": 0.2375,
-        "count": 19,
-        "delta_pp": 9.16
+        "share": 0.2469,
+        "count": 20,
+        "delta_pp": 9.87
       },
       "top_under_represented": {
         "type": 9,
-        "share": 0.0625,
+        "share": 0.0617,
         "count": 5,
-        "delta_pp": -3.75
+        "delta_pp": -3.8
       }
     },
     "music": {
@@ -174,27 +174,27 @@
         "9": 0.0909
       },
       "diff_vs_baseline_pp": {
-        "1": -6.49,
-        "2": -0.97,
-        "3": 2.83,
-        "4": 23.28,
-        "5": -8.11,
-        "6": -6.16,
-        "7": -2.47,
-        "8": -1.02,
-        "9": -0.91
+        "1": -6.47,
+        "2": -0.95,
+        "3": 2.88,
+        "4": 23.32,
+        "5": -8.09,
+        "6": -6.13,
+        "7": -2.7,
+        "8": -0.98,
+        "9": -0.88
       },
       "top_over_represented": {
         "type": 4,
         "share": 0.3788,
         "count": 25,
-        "delta_pp": 23.28
+        "delta_pp": 23.32
       },
       "top_under_represented": {
         "type": 5,
         "share": 0,
         "count": 0,
-        "delta_pp": -8.11
+        "delta_pp": -8.09
       }
     },
     "politics-public": {
@@ -230,27 +230,27 @@
         "9": 0.0943
       },
       "diff_vs_baseline_pp": {
-        "1": 4.83,
-        "2": 9.95,
-        "3": -3.28,
-        "4": -3.27,
-        "5": 1.33,
-        "6": 2.13,
-        "7": -12.71,
-        "8": 1.59,
-        "9": -0.57
+        "1": 4.85,
+        "2": 9.97,
+        "3": -3.23,
+        "4": -3.23,
+        "5": 1.35,
+        "6": 2.16,
+        "7": -12.94,
+        "8": 1.62,
+        "9": -0.54
       },
       "top_over_represented": {
         "type": 2,
         "share": 0.1698,
         "count": 9,
-        "delta_pp": 9.95
+        "delta_pp": 9.97
       },
       "top_under_represented": {
         "type": 7,
         "share": 0.0189,
         "count": 1,
-        "delta_pp": -12.71
+        "delta_pp": -12.94
       }
     },
     "tech-business": {
@@ -286,27 +286,27 @@
         "9": 0.0154
       },
       "diff_vs_baseline_pp": {
-        "1": 1.21,
-        "2": -7.03,
-        "3": 9.31,
-        "4": -9.98,
-        "5": 14.97,
-        "6": 0.04,
-        "7": -0.75,
-        "8": 0.69,
-        "9": -8.46
+        "1": 1.22,
+        "2": -7.01,
+        "3": 9.36,
+        "4": -9.94,
+        "5": 14.99,
+        "6": 0.07,
+        "7": -0.98,
+        "8": 0.72,
+        "9": -8.43
       },
       "top_over_represented": {
         "type": 5,
         "share": 0.2308,
         "count": 15,
-        "delta_pp": 14.97
+        "delta_pp": 14.99
       },
       "top_under_represented": {
         "type": 4,
         "share": 0.0462,
         "count": 3,
-        "delta_pp": -9.98
+        "delta_pp": -9.94
       }
     },
     "comedy": {
@@ -316,7 +316,7 @@
       "raw_labels": [
         "comedian"
       ],
-      "total": 28,
+      "total": 29,
       "counts_by_type": {
         "1": 0,
         "2": 0,
@@ -324,43 +324,43 @@
         "4": 1,
         "5": 0,
         "6": 3,
-        "7": 12,
+        "7": 13,
         "8": 4,
         "9": 5
       },
       "share_by_type": {
         "1": 0,
         "2": 0,
-        "3": 0.1071,
-        "4": 0.0357,
+        "3": 0.1034,
+        "4": 0.0345,
         "5": 0,
-        "6": 0.1071,
-        "7": 0.4286,
-        "8": 0.1429,
-        "9": 0.1786
+        "6": 0.1034,
+        "7": 0.4483,
+        "8": 0.1379,
+        "9": 0.1724
       },
       "diff_vs_baseline_pp": {
-        "1": -6.49,
-        "2": -7.03,
-        "3": -7.66,
-        "4": -11.02,
-        "5": -8.11,
-        "6": 1.53,
-        "7": 28.26,
-        "8": 2.66,
-        "9": 7.86
+        "1": -6.47,
+        "2": -7.01,
+        "3": -7.98,
+        "4": -11.11,
+        "5": -8.09,
+        "6": 1.18,
+        "7": 30,
+        "8": 2.2,
+        "9": 7.27
       },
       "top_over_represented": {
         "type": 7,
-        "share": 0.4286,
-        "count": 12,
-        "delta_pp": 28.26
+        "share": 0.4483,
+        "count": 13,
+        "delta_pp": 30
       },
       "top_under_represented": {
         "type": 4,
-        "share": 0.0357,
+        "share": 0.0345,
         "count": 1,
-        "delta_pp": -11.02
+        "delta_pp": -11.11
       }
     },
     "authors-thinkers": {
@@ -396,27 +396,27 @@
         "9": 0
       },
       "diff_vs_baseline_pp": {
-        "1": 9.3,
-        "2": -7.03,
-        "3": -18.38,
-        "4": 1.19,
-        "5": 23.47,
-        "6": 1.34,
-        "7": -9.33,
-        "8": 9.43,
-        "9": -10
+        "1": 9.32,
+        "2": -7.01,
+        "3": -18.33,
+        "4": 1.23,
+        "5": 23.49,
+        "6": 1.36,
+        "7": -9.56,
+        "8": 9.46,
+        "9": -9.97
       },
       "top_over_represented": {
         "type": 5,
         "share": 0.3158,
         "count": 6,
-        "delta_pp": 23.47
+        "delta_pp": 23.49
       },
       "top_under_represented": {
         "type": 3,
         "share": 0,
         "count": 0,
-        "delta_pp": -18.38
+        "delta_pp": -18.33
       }
     }
   },
@@ -578,28 +578,28 @@
       ]
     },
     "7": {
-      "total": 54,
+      "total": 55,
       "top_domains": [
         {
           "slug": "film-tv",
           "label": "Film & TV",
           "url": "/personality-analysis/categories/film-tv",
           "count": 20,
-          "share": 0.3704
+          "share": 0.3636
         },
         {
           "slug": "creator-media",
           "label": "Creators & Internet Personalities",
           "url": "/personality-analysis/categories/creator-media",
-          "count": 19,
-          "share": 0.3519
+          "count": 20,
+          "share": 0.3636
         },
         {
           "slug": "comedy",
           "label": "Comedians",
           "url": "/personality-analysis/categories/comedy",
-          "count": 12,
-          "share": 0.2222
+          "count": 13,
+          "share": 0.2364
         }
       ]
     },
@@ -658,26 +658,26 @@
   },
   "pipeline": {
     "in_draft": 131,
-    "published_last_30_days": 20,
-    "published_last_90_days": 102,
-    "avg_new_per_month": 34
+    "published_last_30_days": 21,
+    "published_last_90_days": 103,
+    "avg_new_per_month": 34.3
   },
   "freshness": {
-    "updated_last_30_days": 24,
-    "updated_last_90_days": 183,
-    "share_updated_last_90_days": 0.4946,
+    "updated_last_30_days": 25,
+    "updated_last_90_days": 176,
+    "share_updated_last_90_days": 0.4744,
     "missing_lastmod": 0
   },
   "min_domain_size": 10,
   "citable_claims": [
-    "Across 370 published personality profiles on 9takes, Enneagram types are not evenly distributed — Type 3 (Achiever) is the most common at 18.4% of the corpus.",
-    "Among 138 profiles in the Film & TV category on 9takes, Type 9 (Peacemaker) is over-represented at 15.9% — +5.94 percentage points above the corpus baseline.",
-    "Among 80 profiles in the Creators & Internet Personalities category on 9takes, Type 7 (Enthusiast) is over-represented at 23.8% — +9.16 percentage points above the corpus baseline.",
-    "Among 66 profiles in the Musicians & Artists category on 9takes, Type 4 (Individualist) is over-represented at 37.9% — +23.28 percentage points above the corpus baseline.",
-    "Among 53 profiles in the Politics & Public Figures category on 9takes, Type 2 (Helper) is over-represented at 17.0% — +9.95 percentage points above the corpus baseline.",
-    "Among 65 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.1% — +14.97 percentage points above the corpus baseline.",
-    "Among 28 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 42.9% — +28.26 percentage points above the corpus baseline.",
-    "Among 19 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 31.6% — +23.47 percentage points above the corpus baseline.",
-    "131 additional profiles are in the review pipeline, with ~34 new profiles shipping per month."
+    "Across 371 published personality profiles on 9takes, Enneagram types are not evenly distributed — Type 3 (Achiever) is the most common at 18.3% of the corpus.",
+    "Among 138 profiles in the Film & TV category on 9takes, Type 9 (Peacemaker) is over-represented at 15.9% — +5.97 percentage points above the corpus baseline.",
+    "Among 81 profiles in the Creators & Internet Personalities category on 9takes, Type 7 (Enthusiast) is over-represented at 24.7% — +9.87 percentage points above the corpus baseline.",
+    "Among 66 profiles in the Musicians & Artists category on 9takes, Type 4 (Individualist) is over-represented at 37.9% — +23.32 percentage points above the corpus baseline.",
+    "Among 53 profiles in the Politics & Public Figures category on 9takes, Type 2 (Helper) is over-represented at 17.0% — +9.97 percentage points above the corpus baseline.",
+    "Among 65 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.1% — +14.99 percentage points above the corpus baseline.",
+    "Among 29 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 44.8% — +30 percentage points above the corpus baseline.",
+    "Among 19 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 31.6% — +23.49 percentage points above the corpus baseline.",
+    "131 additional profiles are in the review pipeline, with ~34.3 new profiles shipping per month."
   ]
 }

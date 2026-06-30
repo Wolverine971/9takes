@@ -1,0 +1,28 @@
+All gates pass, lint clean (0 fail). The one warning is the `faqs` frontmatter, which is added by the downstream enrich stage, not this command. Draft is complete.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Jim-Carrey.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (3 testimony quotes) | Gate 2: pass (5 search/hybrid headings) | Gate 4: pass (no anaphora ending, scene-driven hook) | Gate 5: pass (2 type-theory paras ≤4) | Gate 6: pass (critic anchor, empathy turn, current anchor, interior beat, ending swap-test)]
+LIMITATIONS: no_transcripts (built from long-form interview reporting + commencement transcript + documentary testimony rather than self-fetched transcripts)
+```
+
+**The blog: Jim Carrey as Enneagram Type 7 — "Comedy's Escape Artist"**
+
+The thesis resolves the public contradiction: the most physically alive performer alive announced he wanted to disappear, and casual fans called it a breakdown. The Type 7 lens reframes it — the mania was never joy, it was flight from the pain of a childhood spent in a van, and "I have enough" is what a Seven sounds like when they finally stop running. The internal Type 7 lens (`feel trapped` → `manic activity masking emptiness` → grow by `staying with stillness`) maps onto Carrey almost one-to-one.
+
+**Signature details anchoring it:** the $10M check buried in his father's casket; performing for his bedridden mother (the interior beat); refusing to repeat a single joke; vanishing into Andy Kaufman so completely he doesn't remember the shoot.
+
+**Internal links added (6 total):**
+- Robin Williams → `/personality-analysis/Robin-Williams` (same manic-comic engine)
+- Type 7 → `/enneagram-corner/enneagram-type-7`
+- Type 7 trap → `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7`
+- Depression patterns → `/enneagram-corner/depression-patterns-by-enneagram-type`
+- Wings (rabbit hole) → `/enneagram-corner/enneagram-wings-complete-guide`
+- Instinctual subtypes (rabbit hole) → `/enneagram-corner/enneagram-instinctual-subtypes`
+
+Saved as `draft` — non-interactive mode never auto-promotes to `ready`. Human review before `blog_content_production_people`. Key calls to sanity-check on review: the **7w8 vs 7w6** wing argument and the brief, deliberately restrained reference to **public loss/litigation** in the mid-2010s (kept dignified and non-graphic by design).
+
+Sources: [TIFF "I don't exist" 2017](https://fandomwire.com/despite-180m-fortune-jim-carrey-said-playing-himself-in-real-life-gave-him-depression-so-he-stopped-i-dont-exist/), [Maharishi commencement 2014](https://www.rev.com/transcripts/jim-carrey-commencement-speech-transcript-2014-at-maharishi-university-of-management), [$10M check / Mulholland ritual](https://www.cnbc.com/2026/01/13/jim-carrey-wrote-himself-a-10-million-check-before-he-could-cash-it.html), [Jim & Andy / Gondry + DeVito](https://www.theringer.com/2017/11/18/movies/jim-carrey-documentary-man-on-the-moon), [Apatow on Carrey's Improv sets](https://www.hollywoodreporter.com/movies/movie-news/judd-apatow-praises-jim-carreys-comedic-genius-hes-best-1025193/).

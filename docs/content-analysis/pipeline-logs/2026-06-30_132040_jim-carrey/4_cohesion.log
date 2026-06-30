@@ -1,0 +1,50 @@
+I've read the full draft. This piece has already been through fresh-eyes and second-pass review, and it shows. Here's the cohesion audit.
+
+## Cohesion Audit: jim-carrey.md
+
+### Central Thesis
+Jim Carrey is a Type 7 whose engine is escape from pain rather than the pursuit of joy, and his late-period "I don't exist" turn is not a breakdown but the first time a man who spent fifty years running finally stopped.
+
+### Thread Map
+
+| Section | Contributes | Connects because |
+|---|---|---|
+| **Intro** (check → red carpet diptych) | Sets thesis: the most alive performer announced he wanted to disappear | Plants "a Seven reaching the end of the road he was running down" |
+| **What Is His Personality Type?** | Diagnosis: a 7 flees pain, doesn't chase fun | Pays off the intro's "Seven"; ends teasing "a tire factory, a tent, and a father" |
+| **Grew Up Performing in a Van** | Origin: performing to make pain *leave* (sick room + factory) | Delivers the tire factory/tent the prior section teased |
+| **The $10M Check** | Ambition as Seven psychology; victory and wound in one casket | The childhood "so run" finds its first big expression |
+| **Turned Escape Into a Career** | Comedy as the escape vehicle; the Truman/Kaufman/Eternal Sunshine trio | The mountain-top let-down pivots to *how* he ran |
+| **Says He Doesn't Exist** | The turn; depression-as-more; the White grief test | Trio ends "on a red carpet" → this IS that red carpet |
+| **Rabbit Hole** | Optional wing/subtype/arrows aside | Quarantined; main thread survives skipping it |
+| **What He Sounds Like When He Stops Running** | "I have enough" x3 = foot off the gas | Shares the exact pull-quote that closed the prior section |
+| **The Last Trick of an Escape Artist** | Un-retirement irony; keeps one foot on the gas | Complicates the stillness the prior section reached |
+
+Read top to bottom, that outline holds as a coherent argument. That is the test passing.
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 8/10 | 1 |
+| Section Transitions | 8/10 | 2 |
+| Internal Paragraph Flow | 9/10 | 0 |
+
+**Overall Cohesion Score: 9/10**
+
+This reads as one unified piece. The thesis (escape, not joy) threads through every section, the intro diptych earns it fast, and the un-retirement ending lands the same argument the intro opened. No thread breaks, no orphaned threads, no detours.
+
+## Minor Tightening Opportunities (3, all optional)
+
+Since this scores 8+, I'm flagging rather than auto-applying. None are thread breaks.
+
+**1. Van → Check handoff is implicit (Minor).** The van section ends "Safety is a lie. The walls close in either way. So run." The check section opens "The check on Mulholland Drive is usually told as a law-of-attraction parable." The connection (the check is the *first big act* of that running) is real but unstated. The reader carries the check from the intro, so it isn't broken, just a half-beat soft. A short bridge clause linking the childhood-wired "run" to its first expression would tighten it.
+
+**2. Check → Career chronological back-step (Minor).** The check section ends at the 1996 peak ($20M, top of the mountain). The career section then opens on *pre-fame* Apatow improv. The section is organized thematically (the escape vehicle), not chronologically, so it works, but the opening jumps backward in time without flagging it. One acknowledging clause ("Before any of that...") would smooth the time-shift.
+
+**3. Intro/Section-3 check overlap (already largely handled).** The second-pass notes say the intro's buried-casket beat was trimmed so Section 3 owns it. That worked. The remaining overlap (the check itself appears in intro + TL;DR + Section 3) is acceptable because each does different work. No action needed unless you want the intro's check description even leaner.
+
+## Recommendation
+
+This is publish-ready on cohesion grounds. The three items above are polish, not repair, and two of them are the kind of judgment call where a too-explicit bridge could actually flatten prose that currently trusts the reader.
+
+Want me to apply #1 and #2 (the two transition tightenings)? They'd be one short bridge sentence each, in the existing voice, no em-dashes, frontmatter and components untouched. Or I can leave it as-is.
