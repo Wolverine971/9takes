@@ -1,0 +1,49 @@
+I've read the full file. This is a mature draft that already carries a Fresh Eyes review and a Second Pass. My job here is narrow: through-line and transitions only. Here's the audit.
+
+## Cohesion Audit: Mira-Murati.md
+
+### Central Thesis
+Mira Murati's famous calm is a Type 9 peacemaker strategy that hides both fear and anger — the same instinct that made her the bridge everyone trusted is what kept her from planting flags, and now she has to hold together her own creation as it fragments around her.
+
+### Thread Map
+- **Intro (Sora non-answer)** — Opens on the three seconds that "reveal" her: going quiet exactly when a direct answer would create friction. Plants the thesis (calm = strategy hiding fear + edge).
+- **TL;DR** — States the type and the "bridge vs. builder" tension. → sets reader expectations.
+- **Diagnosis (Type 9)** — Names the Nine's fear (fragmentation/separation) and her matching vocabulary; flags buried anger "with nowhere to go." → *because* the fear is fragmentation, we go looking for where that fear was born.
+- **Childhood (Albania collapse)** — Origin of the peacemaker instinct: a country that literally came apart, math as the only stable structure, the outsider who learns to read rooms. → *because* room-reading became the whole job, we watch it become her superpower at OpenAI.
+- **Adult in the Room** — The mediator years: research-preview (builder beat), the Nine's mediation genius, the Swisher "feral… it's fine" quote, the gender frame, the Sora reframe. Ends on the inner-thought of the coup weekend. → the inner-thought bridges straight into the coup.
+- **The 72 Hours** — The complication: she armed the coup by indirection, then rushed to undo it; departure. → *because* the loyal-#2 pattern finally broke, she builds her own.
+- **What She Built** — Thinking Machines, the peacemaker taking control, the secrecy-as-tell. Ends "the fear she was born with came looking for her." → direct setup for the payoff.
+- **The Thing She Was Built to Prevent** — Her own lab fragments; the sworn "Not always." The fear from the childhood section arrives at full scale. Closes the loop.
+- **Rabbit Hole (coda)** — Correctly parked after the climax.
+
+Read top to bottom, that outline is coherent. The spine is intact.
+
+| Check                   | Score | Issues |
+|-------------------------|-------|--------|
+| Through-Line Clarity    | 10/10 | 0 |
+| Promise-Delivery Match  | 9/10  | 0 (builder half now paid by the research-preview beat) |
+| Reader Mental Model     | 9/10  | 0 |
+| Section Transitions     | 8/10  | 1 adequate-not-strong bridge + 1 micro chronology bump |
+| Internal Paragraph Flow | 9/10  | 0 |
+
+**Overall Cohesion Score: 9/10** — Reads as one unified piece. Every section earns its place and connects to the thesis. The fragmentation motif is the connective tissue and it pays off structurally (childhood fear → the fear arriving at her own lab).
+
+### Transition Ratings
+- Intro → TL;DR → Diagnosis: **Strong**
+- Diagnosis → Childhood: **Strong** (the heading itself carries the "fragmentation → country fell apart" keyword; the diagnosis pre-states the fear)
+- Childhood → Adult in the Room: **Adequate.** This is the one soft spot. The childhood section ends on her *passive* self-narration of "agency"; the next section hard-starts on "She joined OpenAI in 2018 and rose to CTO by 2022." It's chronological and the heading orients the reader, so no one gets lost, but the thematic thread (outsider who reads rooms / agency described passively) isn't carried by a keyword into the next paragraph. One bridging clause would upgrade it to Strong.
+- Adult in the Room → The 72 Hours: **Strong** (the inner-thought is *about* the coup weekend and pivots directly in)
+- 72 Hours → What She Built: **Strong** ("the pattern broke")
+- What She Built → The Thing She Was Built to Prevent: **Strong** ("the fear she was born with came looking for her" — best bridge in the piece)
+- The Thing… → Rabbit Hole: **Strong** (clean coda handoff)
+
+### One Micro-Bump (not a fix, just a note)
+The Sora reframe (March 2024) sits inside "Adult in the Room," after the Swisher quote (2024), then the section ends on the inner-thought jumping back to the coup (Nov 2023). The chronology folds back on itself once. It reads fine because the inner-thought functions as a *dramatic* bridge rather than a timeline entry, so I'd leave it — flagging only so you know it's deliberate, not an oversight.
+
+---
+
+Since this scores 9/10, I'm following the "already cohesive" rule and **not** editing without your go-ahead. There's exactly one change I'd propose:
+
+**Childhood → Adult in the Room:** add a single bridging sentence at the top of the "Adult in the Room" section (or a clause onto the current opener) that carries the room-reading / passive-agency thread forward — e.g. something that turns "reading the room was once the whole job" into "and at OpenAI it became the whole job again." Keeps it chronological, no new content, just connective tissue.
+
+Want me to apply that one bridge? Everything else is strong enough to leave untouched.

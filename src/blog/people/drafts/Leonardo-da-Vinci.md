@@ -4,12 +4,12 @@ meta_title: 'Leonardo da Vinci Enneagram: Why the Type 5 Mind Never Finished Any
 persona_title: "History's Insatiable Observer"
 description: 'Leonardo da Vinci understood more than anyone alive. So why did he leave almost everything unfinished? The Enneagram explains the paradox.'
 author: 'DJ Wayne'
-date: '2026-03-28'
+date: '2026-07-01'
 loc: 'https://9takes.com/personality-analysis/leonardo-da-vinci'
-lastmod: '2026-03-28'
+lastmod: '2026-07-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['historical', 'historical-scientist']
 person: 'leonardo-da-vinci'

@@ -1,0 +1,29 @@
+The Mira Murati draft is complete and passes every check. Here is the required non-interactive completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Mira-Murati.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: none
+```
+
+**Analysis shipped:** Mira Murati as **Enneagram Type 9 (Peacemaker), 9w1, social subtype.**
+
+- **Core tension:** the bridge vs. the builder — a decade making other people's visions real before she dared build her own.
+- **Thesis:** the calm everyone read as cold competence was the survival strategy of a peacemaker from a country that literally fell apart. The tell: she became the leader every faction could accept for the same reason she could rarely say what she wanted.
+- **The complication that makes it sing** (surfaced by the research agent): she quietly *armed* Ilya's memo against Altman, then rushed to bring him back, fired co-founder Barret Zoph the day he wavered, and said "feral and aggressive… not an issue for me" on stage in 2024 before testifying "Not always" candid under oath in 2026. All of it reads as the Nine's buried anger routed through indirection, never direct confrontation.
+
+**Gate verification:**
+- **Gate 1 (Testimony):** 4 quotes, **3 distinct named speakers** (Altman ×2, Brockman, Nadella).
+- **Gate 2 (Heading mix):** 5 of 6 H2s search-intent/hybrid.
+- **Gate 4 (Anti-imitation):** ending has zero "A [Type]" sentences; hook is not an object-reveal.
+- **Gate 5 (Distribution):** ~2 type-theory paragraphs in body (limit 4); all wing/subtype/arrow/counter-typing quarantined to the Rabbit Hole.
+- **Gate 6 (Formula):** two empathy turns, critic-pressure anchor, 2026 current-tense anchor, interior beat, ending passes swap test.
+
+**Also:** lint clean (0 fail; the 1 warn is the downstream frontmatter-enrich stage, out of scope here). No em-dashes, no banned phrases. Two factual corrections applied from the research brief (she was **8, not a teenager**, in 1997; the 1997 Vlorë collapse is framed as documented backdrop, not attributed to her). Citable stats used ($2B seed / $12B valuation, 3 of 6 co-founders gone, 372 profiles / 37 Type 9s).
+
+**Internal links (5):** Sam-Altman (celebrity cross-link) · enneagram-type-9 · wings-complete-guide · instinctual-subtypes · types-in-stress.
+
+Draft saved at `status: draft` — human review is still required before production. Next step when approved is `blog_content_production_people`. Grading is owned by `/grade_blog` and was intentionally not run here.

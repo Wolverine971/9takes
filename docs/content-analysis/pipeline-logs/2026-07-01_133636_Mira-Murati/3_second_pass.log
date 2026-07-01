@@ -1,0 +1,17 @@
+## Second-pass complete: `src/blog/people/drafts/Mira-Murati.md`
+
+The fresh-eyes review was sharp and correct throughout, so I addressed every note rather than rejecting any. Main changes:
+
+**Added the missing "builder" substance (the highest-value note).** The draft asserted she "ran the technology" but only ever showed her bridging. I researched and added one concrete technical-authority beat: Murati framing ChatGPT's Nov 2022 public debut as a deliberately low-key **"research preview"** rather than a product launch. It's sourced to her own account, and it does double duty — it grounds her engineering judgment *and* reads as pure Nine (lower the temperature, gather data, don't plant a flag). The bridge/builder tension now lands instead of being claimed.
+
+**Named the secrecy directly.** New beat in the Thinking Machines section: more than a year in, no one outside the lab can say what it's *for*. Framed the opacity as the tell, not glossed past it.
+
+**Paid off the gender frame.** One honest beat after the "feral and aggressive" quote — the calm had a gender to it, and "the adult in the room" is the role a company hands the woman. Cashes the meta_title and the two "calmest woman" headings that were otherwise unengaged.
+
+**Moved the Rabbit Hole to a true coda** after the final section, so the emotional arc (coup → her own lab → fragmentation → sworn testimony) now runs unbroken.
+
+**Trims:** cut the third Sora "I'm not sure" re-quote in the close; dropped the "not X, it's Y" template on the anger line (kept the two sharper instances); removed the duplicate "third thing" tag; thinned one redundant fragmentation line.
+
+**Kept exactly as-is** (per the review): both empathy turns, the Swisher/"Not always" rhyme, and the restrained Albanian-collapse childhood.
+
+**One thing still open for an editor:** the Rabbit Hole's stress section references "Microsoft and **Salesforce** as anchors," but Salesforce appears nowhere else in the body (only Microsoft/Nadella is established). I flagged it in the second-pass notes rather than silently cutting it — worth a verify. Also note `lastmod` was intentionally left untouched, since you manage that manually.

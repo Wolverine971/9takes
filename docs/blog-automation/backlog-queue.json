@@ -7,19 +7,6 @@
 	},
 	"queue": [
 		{
-			"name": "zac-efron",
-			"displayName": "Zac Efron",
-			"type": 3,
-			"priority": 55,
-			"priorityReason": "Mainstream star with strong search volume, reinvention arc, and a clear Type 3 image-performance angle",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "hollywood-heartthrob-cluster"
-		},
-		{
 			"name": "jeff-goldblum",
 			"displayName": "Jeff Goldblum",
 			"type": 7,
@@ -940,7 +927,20 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "zac-efron",
+		"displayName": "Zac Efron",
+		"type": 3,
+		"priority": 55,
+		"priorityReason": "Mainstream star with strong search volume, reinvention arc, and a clear Type 3 image-performance angle",
+		"estimatedTraffic": "very-high",
+		"searchVolume": "very-high",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-12",
+		"retryCount": 0,
+		"strategicValue": "hollywood-heartthrob-cluster",
+		"startedAt": "2026-07-01T06:08:41Z"
+	},
 	"skipped": [
 		{
 			"name": "anna-wintour",

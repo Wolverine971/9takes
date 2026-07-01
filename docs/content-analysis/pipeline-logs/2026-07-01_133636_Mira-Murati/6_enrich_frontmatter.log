@@ -1,0 +1,27 @@
+YAML parses cleanly, all 5 FAQ anchors match body heading slugs.
+
+```
+Frontmatter enrichment complete: Mira-Murati
+
+Fields filled:
+- wikidata_qid, birth_date, birth_place, nationality, occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Mira_Murati), twitter (miramurati)
+
+Fields intentionally omitted:
+- imdb_id — no IMDb presence (confirmed: no P345 claim on Wikidata Q116706551, no IMDb reference on Wikipedia)
+
+FAQs generated (5):
+1. What is Mira Murati's personality type? → #what-is-mira-muratis-personality-type
+2. Why did Mira Murati say "I'm actually not sure" about Sora's training data? → #why-everyone-at-openai-called-mira-murati-the-adult-in-the-room
+3. Did Mira Murati help get Sam Altman fired? → #the-72-hours-mira-murati-ran-openai
+4. What is Thinking Machines Lab and why did Mira Murati start it? → #what-mira-murati-built-when-she-finally-built-her-own
+5. What did Mira Murati say about Sam Altman under oath? → #the-thing-she-was-built-to-prevent
+
+Issues:
+- Body contains zero inline external URLs (only internal 9takes links). Per the Einstein gold-standard pattern, `citations` were built from the canonical Wikipedia sources for the entities/events the body actually discusses (Murati, the Altman removal, Thinking Machines Lab, Sora, the 1997 Albanian civil unrest, OpenAI) — not invented, but worth noting the article itself carries no source links.
+- Birthplace note: Wikidata's *preferred* P19 value is Tirana, but English Wikipedia, Fortune, and the draft body all state Vlorë. I used `Vlorë, People's Socialist Republic of Albania` (matching Wikipedia + body, with period-accurate political naming per the Einstein convention).
+```
+
+Body, HTML comment blocks, `production_pretext`, `content_quality`, and `lastmod` were all left untouched.

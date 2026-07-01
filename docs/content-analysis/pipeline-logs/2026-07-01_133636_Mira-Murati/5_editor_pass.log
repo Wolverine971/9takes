@@ -1,0 +1,15 @@
+Clean — 0 failures, em-dash check passes, no banned phrases. (The one warning, missing `faqs` frontmatter, belongs to the separate frontmatter-enrich stage, not this pass.) I left `lastmod` untouched per the hard rule.
+
+## What I polished — `src/blog/people/drafts/Mira-Murati.md`
+
+This draft was already in strong shape. It had been through both a fresh-eyes review and a second pass earlier today, and it lints clean: zero em-dashes, no banned AI words, all structural blocks present. Rather than manufacture edits and risk flattening a piece that reads genuinely human, I made two surgical fixes for authorial tics that survived both prior passes:
+
+1. **Broke a repeating sentence template.** "She did the third thing most people cannot access" (Adult-in-the-Room section) rhymed with "So she did the Nine thing" six lines later — the `did the [X] thing` construction becoming visible. Reworked the second to "So she did what a Nine does under threat: went soft, went vague…", which also tightens the rhythm.
+2. **Deduped a reader-directive tic.** `Sit with the choice` (ChatGPT research-preview beat) and `Sit with the cruelty of the symmetry` (fragmentation beat) used the same command-form device. Cut the weaker first one; the sentence after it already carries the weight, and "Sit with the cruelty of the symmetry" is the sharper of the two, so it keeps its punch.
+
+## What I deliberately left alone
+- **The two empathy turns** (the "I'm actually not sure" reframe and the memo-arming-as-indirect-anger reframe) and the **Swisher "feral… it's fine" / sworn "Not always" rhyme** — these are the best things in the piece and both hold up against sourcing. The prior reviews flagged them as untouchable and I agree.
+- **The fragmentation motif** (fall apart / blow up / come apart). It drums, but it's the deliberate through-line and the middle-section thinning was already done in the second pass. Cutting more would weaken the thesis callback, not help it.
+- **The two "calm = strategy/discipline" lines** (intro closer + diagnosis punch). They're separated by the TL;DR accordion and a heading, carry distinct dimensions (hiding fear+edge vs. detachment vs. discipline), and read as deliberate emphasis rather than an AI tell.
+
+**Verdict: production-ready.** No further substantive pass needed. The only remaining gate is the `faqs` frontmatter-enrich stage (discoverability), which is a separate step from this editorial polish.

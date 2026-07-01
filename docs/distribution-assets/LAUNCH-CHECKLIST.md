@@ -33,6 +33,7 @@
 | 6        | Justin Bieber           | `/personality-analysis/Justin-Bieber`    | See distribution file | Carousel + Stories + Reel             | r/Enneagram                  | r/popheads, r/JUSTINBIEBER, r/Fauxmoi       | The Conversation, Andy Steiner, Vinyl by Mars, Psychology Junkie, Enneagram Universe |
 | 7        | Tim Ferriss             | `/personality-analysis/tim-ferriss`      | See distribution file | Tidbits + Analytical + Stories + Reel | r/Enneagram                  | r/Tim_Ferriss, r/Stoicism, r/getdisciplined | Daily Stoic, Podcast Notes, The Profile, Enneagram Universe, Tim directly            |
 | 8        | Steven Bartlett         | `/personality-analysis/steven-bartlett`  | See distribution file | Tidbits + Analytical + Stories + Reel | r/Enneagram                  | r/DiaryOfACEO, r/Entrepreneur               | Psychology Junkie, Truity, Enneagram Universe, Steven directly (see outreach doc)    |
+| 9        | Lana Del Rey            | `/personality-analysis/lana-del-rey`     | See distribution file | Tidbits + Analytical + Stories + Reel | r/Enneagram                  | r/lanadelrey, r/popheads, LanaBoards        | Tigerbeat, Emma Christley, Write or Die, Psychology Junkie, Enneagram Universe       |
 
 ---
 
@@ -158,6 +159,15 @@ Week 5+: Secondary distribution for all (stories, reels, forums, Discord, guest 
 - Enneagram Universe: enneagramuniverse.com/celebrities
 - Steven directly: staged email in `docs/outreach/2026-06-29_steven-bartlett-email.md`; stevenbartlett.com contact, or @StevenBartlett / LinkedIn DM (Tier C — business/creator content lands best)
 
+### Lana Del Rey Targets
+
+- Tigerbeat / Dani Zev: tigerbeat.substack.com (Substack reply — wrote "Evolution of Lana Del Rey")
+- Emma Christley Writes: emmachristleywrites.substack.com (Substack reply — Lana songwriting piece)
+- Write or Die Magazine: writeordiemag.substack.com (Substack reply / submissions)
+- Psychology Junkie: psychologyjunkie.com (contact form)
+- Enneagram Universe: enneagramuniverse.com/celebrities
+- Fan ecosystem (Tier B — skip direct DM): r/lanadelrey, r/popheads, LanaBoards.com (25K+ members), @LDRHQ / @lana_update / @DelReyLatest on X, @lanadelreybr / @lanaboards on IG
+
 ### Cross-Cutting (All Posts)
 
 - Enneagram Universe: enneagramuniverse.com/celebrities
@@ -182,5 +192,6 @@ docs/
     ├── justin-bieber-distribution.md      # Twitter, Reddit, email, Instagram assets (hot Coachella 2026 window)
     ├── tim-ferriss-distribution.md        # Twitter, Reddit, email, Instagram assets (Type 1 — Reformer)
     ├── steven-bartlett-distribution.md    # Twitter, Reddit, email, Instagram assets (Type 3 — Achiever)
-    └── steven-bartlett-instagram.md       # Instagram-specific Gen-Z cheat-sheet pack (Type 3)
+    ├── steven-bartlett-instagram.md       # Instagram-specific Gen-Z cheat-sheet pack (Type 3)
+    └── lana-del-rey-distribution.md       # Twitter, Reddit, email, Instagram assets (Type 4 — Individualist)
 ```

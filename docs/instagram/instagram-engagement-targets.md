@@ -12,6 +12,21 @@ _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply`
 
 ## Outbound Activity Snapshots (append-only)
 
+### 2026-07-01 — ✅ SESSION RESTORED (yesterday 6/30 was blocked `instagram_account_not_in_picker`); full warmup ran
+
+- **Session ✅:** @9takesdotcom active on arrival (top-right widget `9takesdotcom / 9takes · Enneagram & Personality`; `/notifications/` no login redirect). Yesterday's block cleared on its own — DJ appears to have re-added the session.
+- **Active pond:** Type 3 (Steven Bartlett, posted 6/29, `/personality-analysis/steven-bartlett` — 2d fresh) + evergreen 6/2/7. Arc transitioning toward Type 4 (Lana) next.
+- **Notifications (live):** **@taylordass_counselling** (NEW — licensed couples therapist, 3.1K) liked our "needing space is sneaky" comment 17h ago → profiled, comment-only channel (DMs off). Warm loops still open: **@alignedsoulco** replied "You are just one person 😄" (6/23) + **@enneagrampaths** "how dare you read me (5)…" (6/18) — both still pending reply-post. (build.os/djwayne3/kylemellinger14 internal/minor.)
+- **Pond scan — carry-forward re-confirmed AGAIN:** hashtag Top grids (#impostersyndrome) + creator grids (enneagrampaths = all old pinned) serve aged content; IG web still has no "Recent" tab. Fresh + engageable lives in: notifications/warm replies, a creator's genuinely-newest post, and evergreen posts still pulling fresh comments. Best finds today came from following-feed + a warm creator's brand-new post + Explore.
+- **Output:** **4 opportunities queued** (2 `post`, 2 `comment-level`), **1 profile created** (taylordass_counselling), **2 updated** (alignedsoulco, thesecurerelationship), **2 new accounts discovered** (see below), **2 saves** dropped to `inbox/`.
+- **Standout:** @alignedsoulco "Little Miss Enneagram Nine" — 35 min fresh, 0 comments, warm account, Type-9 pond (a celebrity-gap pond). Near-first-mover `post`-mode item.
+- **Doc:** `docs/instagram/daily-engagement/2026-07-01_instagram-warmup.md`
+
+**New accounts discovered 2026-07-01 (append to tiers):**
+
+- **@taylordass_counselling** — Taylor Dass, BHSc/MACP/CCC, licensed individual & couples therapist, ~3.1K. `[pond: attachment / "needing space" → Type 2 (fawn) · Type 6 (anxious attachment) · Type 9 (conflict-avoidant)]` · Role: Adjacent Partner · **liked our comment 17h ago** (responsive). DM channel closed (bio: page not monitored) → comment-only. Profile: `account-profiles/taylordass_counselling.md`. Suggested tier: Tier 2 (Therapy/Mental Health).
+- **@discoatells** — London ADHD creator, ~1.5K likes/post. `[pond: ADHD / dopamine → Type 7]` · Role: Rising/Monitor · surfaced via Explore; "ADHD Translation Guide" post still pulling fresh comments a week out. First sighting — profile if it recurs. Suggested tier: Tier 4 (pond discovery, Type 7).
+
 ### 2026-06-21 — ✅ Session held (Sunday midday); 1 strong new peer discovery (candicemichelleenneagram)
 
 - **Session ✅:** Live account verified @9takesdotcom on arrival (top-right widget `9takesdotcom / 9takes · Enneagram & Personality`; purple-9takes sidebar avatar; `/notifications/` no login redirect). No switch needed. Healthy, no stale state or soft block.
