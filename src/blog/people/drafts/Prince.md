@@ -68,7 +68,7 @@ faqs:
   - question: "What is in Prince's vault?"
     answer: "Beneath Paisley Park, his complex in Chanhassen, Minnesota, Prince kept a bank vault holding thousands of unreleased recordings: finished albums, side projects, and songs he wrote and hid. His engineer Susan Rogers began cataloguing it in the 1980s. Nearly a decade after his death, the estate says only about 45 percent of it has been archived and digitized."
     anchor: 'the-vault-thousands-of-songs-nobody-was-allowed-to-hear'
-  - question: 'Was Prince a Jehovah's Witness?'
+  - question: "Was Prince a Jehovah's Witness?"
     answer: "Yes. Raised Seventh-day Adventist, Prince was introduced to the Witnesses by bassist Larry Graham and baptized in 2003. The turn toward faith followed the death of his infant son Amiir in 1996 and his divorce from Mayte Garcia. The man who wrote 'Darling Nikki' spent his last years knocking on suburban doors to talk about the Bible, which he saw as one continuous self rather than a contradiction."
     anchor: 'princes-faith-from-darling-nikki-to-knocking-on-doors'
 category: people
@@ -367,4 +367,3 @@ Cleaned up:
 - Split the dense Amiir grief paragraph into three for mobile; the emotional keystone (six days, the Oprah nursery, "Comeback") is preserved intact.
 Emotional layer, both interior beats, and the strongest original lines left untouched.
 -->
-

@@ -8,6 +8,46 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-07-01 - Weekly growth audit: signup spam is suppressed, but real activation went quiet again
+
+- Area: Activation / give-first instrumentation / signup quality / email
+- Status: audit complete. This is a make-up run for the skipped Monday 2026-06-29 audit; 2026-06-29 is week-to-date and immature.
+- Observed numbers (completed week of 2026-06-22 plus current WTD):
+
+| Cohort wk  | New visitors | Signups (active/unsub) | Profiles | Comments | gate_shown (fps) | Wall -> comment | Email sends / open / click |
+| ---------- | -----------: | ---------------------: | -------: | -------: | ---------------: | --------------: | -------------------------: |
+| 2026-06-29 |        1,622 |              1 (1 / 0) |        0 |        0 |            6 (2) |      0 / 2 = 0% |                  2 / 0 / 0 |
+| 2026-06-22 |        2,855 |              1 (1 / 0) |        0 |        1 |          14 (10) |    1 / 10 = 10% |                  2 / 1 / 0 |
+| 2026-06-15 |        5,256 |           83 (10 / 73) |        0 |        5 |          72 (30) |  4 / 30 = 13.3% |               86 / 28 / 14 |
+| 2026-06-08 |        4,344 |              2 (0 / 2) |        1 |        0 |            7 (3) |      0 / 3 = 0% |                 10 / 5 / 1 |
+
+- Direction changes vs 2026-06-20 audit:
+  - **Signup quality improved, but volume collapsed.** Since 2026-06-20, 7 signup rows are still active and 0 are unsubscribed; `newsletter_signup_security_events` logged 11 honeypot blocks and 2 successes. The 2026-06-15 spike now reads as 83 signups with 73 unsubscribed; the hardening appears to have stopped the obvious bot stuffing, but real capture is only ~1/wk.
+  - **Activation faded after the spike.** Comments moved 5 -> 1 -> 0 WTD; new profiles stayed 0 for both 2026-06-22 and 2026-06-29. Contributor 7-day return was 1 for the 2026-06-15 cohort and 0 after that.
+  - **The give-first funnel is still half-blind.** `give_first_funnel_events` still has only `gate_shown` (99 events ever); there is no native `contribution`/`comment_submitted` event, and `nine_user_takes` still has only 1 row in the last 8 weeks. Wall conversion remains fingerprint-inferred, not instrumented.
+  - **Traffic is still on the wrong surface.** In completed week 2026-06-22, personality-analysis pages had 1,537 fps and 98.3% bounce; enneagram-corner had 784 fps and 94.2% bounce; questions had only 21 fps and 100% bounce. Search/content attention exists, but the contribution loop barely receives it.
+  - **Email is starved again.** The 86-send week was a one-off. The only active sequence is `welcome_sequence`; it has 0 active enrollments now, 1 WTD latest-step send, 0 clicks, and no new profiles feeding it.
+  - **Coaching waitlist:** 0 adds in the last 8 weeks.
+
+- **Biggest leak this week: 9takes now has cleaner signup data, but it still converts thousands of organic/content visitors into almost no product action.** Completed week 2026-06-22 produced 2,855 new visitors -> 1 signup, 0 profiles, 1 comment, 0 waitlist adds. Current WTD is 1,622 -> 1 signup, 0 profiles, 0 comments. The spam leak stopped corrupting the signal; the underlying activation leak is now exposed.
+
+- Recommended bets:
+  1. **Move one high-intent action above the fold on personality-analysis + enneagram-corner.** We believe putting either the Chorus reveal prompt or a page-matched one-field email capture in the first viewport will lift visitor -> action because these surfaces have the traffic but current CTAs sit past a 16-56s attention window. Success = >=1% of sessions on those surfaces trigger email capture or reveal within 30 days; guardrail = bounce does not worsen by >3 pts.
+  2. **Ship submit-side give-first instrumentation before judging wall conversion.** Emit `reveal_shown` and `contribution`/`comment_submitted` keyed to the same fingerprint for question wall and Chorus. Success = a native shown -> contributed funnel exists for >=1 fingerprint within 7 days; current wall conversion can retire the fingerprint-join caveat.
+  3. **Quarantine the 2026-06-15 signup cohort before the next send.** We believe excluding unsubscribed/bot-era signup rows from broadcasts will protect deliverability and make email metrics readable again. Success = next broadcast is sent only to active post-hardening signups + profiles; guardrail = unsubscribe rate stays <2%.
+
+- Running experiment status:
+  - Welcome sequence remains `running`, but is starved: 0 active enrollments, no new profiles since 2026-06-15, 1 WTD send, 0 clicks. No win/loss call possible.
+  - Experiment A (email capture at first anonymous contribution) is still planned/unshipped; the submit-side event gap remains the prerequisite.
+  - Signup hardening early read is positive: 7/7 post-2026-06-20 signups still active, 11 honeypot blocks logged.
+
+- Repro SQL used this audit:
+  - Visitors/retention: first-touch CTE on `page_analytics_visits.fingerprint`, grouped by `date_trunc('week', min(started_at))`, with D1/D7 joins back to visits.
+  - Core counts: `signups`, `profiles`, `comments`, `give_first_funnel_events`, `coaching_waitlist`, and `email_sends` grouped by `date_trunc('week', created_at)`.
+  - Wall conversion: `gate_shown` fingerprints left-joined to comments within 7 days; contributor return = second comment within 7 days.
+  - Signup quality: `signups.created_at >= '2026-06-20'` active/unsubscribed plus `newsletter_signup_security_events` outcomes.
+  - Surfaces: `page_analytics_visits.path` and `page_analytics_sessions.entry_path` bucketed into personality-analysis / enneagram-corner / questions / homepage / other.
+
 ### 2026-06-20 - STRATEGIC GROWTH REVIEW (deep full-funnel pass, not the weekly audit)
 
 > Distinct from the weekly audit above. This is a deeper structural read of the whole funnel. Builds on, does not replace, today's audit. Every claim labeled observed / inferred / unverified; repro SQL at the bottom.

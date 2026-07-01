@@ -1,0 +1,22 @@
+Draft complete. Alex Warren, typed **Enneagram 3 (The Achiever)**, built on verified quotes from the Jay Shetty interview and named third-party testimony.
+
+**The thesis:** Fans see a grateful, faith-filled kid making feel-good anthems that tell everyone they'll be alright. The Type 3 lens reveals the opposite engine underneath. A boy who learned love had to be *earned* (pouring out his mother's bottles at nine, parenting his own siblings) now performs reassurance for millions because he can't feel it himself. The scoreboard hits #1 for ten weeks and never reaches the empty seat he's actually performing for: his dead parents' approval. He reads praise as gaslighting and hate as truth.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Alex-Warren.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (3 qualifying testimony quotes — Adam Yaron/Billboard, Thomas Petrou, Kouvr Annon/Today) | Gate 2: pass (4 of 6 H2s search-intent/hybrid) | Gate 4: pass (no "A [Type]" anaphora ending; original hook) | Gate 5: pass (~2 type-theory paragraphs outside diagnosis/rabbit hole) | Gate 6: pass (critic anchor = industry-plant/Hype House skepticism; empathy turn = mocked earnestness reframed as the sentence no adult said him; current anchor = Ordinary #1/Grammy nom/iHeart wins/Wildchild; interior beat present; ending passes swap test)]
+LIMITATIONS: none blocking. Research flagged minor unresolved items now handled in-text as contested (Hype House exit narrative) or omitted (unverified "age 11" variant). Faith framing anchored only to his on-record words. Frontmatter `faqs` not yet added (downstream enrich stage).
+```
+
+**Internal links added (4 total):**
+- Type 3 → `/enneagram-corner/enneagram-type-3` (diagnosis section)
+- Jelly Roll → `/personality-analysis/Jelly-Roll` (Bloodline / broke-the-bloodline pairing)
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (rabbit hole, 3w2 vs 3w4)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (rabbit hole, so/sp)
+
+**Notable craft choices:** epigraph is his most off-brand quote ("everyone who's being nice is just gaslighting me"); two sourced chart stats (Hot 100 10-week run, Pop Airplay/UK records); the "buy me a Ferrari" last-goodbye rendered as an interior beat; ending cuts to black on "He is still waiting to hear it back." Rabbit Hole honestly weighs the 3w4 and Type 6 counter-cases.
+
+Per non-interactive rules, saved as `draft` (not auto-promoted) and not graded — grading is owned by `/grade_blog`, and human review is required before `blog_content_production_people`.

@@ -10,6 +10,16 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-07-01 — Unattended status brief: publish gate UNJAMMED; IG healthy; signups leak + Quora still open
+
+- Brief: [`docs/daily-briefs/2026-07-01_marketing-status.md`](../daily-briefs/2026-07-01_marketing-status.md).
+- **Biggest swing:** the 06-20 publish-gate jam (0/429 publishable, 355 stuck on v1 rubric) is RESOLVED. Auto-publisher shipped a person nearly every day 06-21→07-01: John-Goodman, adam-sandler, lily-allen, keith-lee, bert-kreischer, odessa-azion, megan-fox, nicki-minaj, leonardo-da-vinci (07-01, grade 8.6). Create + publish both live. Drafts on disk 437 → 464.
+- **Instagram graduated to HEALTHY:** unbroken daily warmups through 07-01 + replies (06-29). Strongest channel now.
+- **Still open (carried from 06-20):** `/api/signups` still has NO recaptcha (bot-spam leak unfixed — confirmed zero recaptcha ref in server files); Quora still DEAD (~43 days, since 2026-05-19); Long-Form cluster still 0/12.
+- **New flag:** weekly growth audit did NOT run Monday 06-29 (growth-log newest entry still 2026-06-20). Growth numbers 11 days stale.
+- **New this period:** Tier-1 personality-analysis refresh plan (`docs/content-analysis/tier1-blog-refresh-plan-2026-07-01.md`, 6 stale blogs to rebuild) + candidate scout (`docs/blog-automation/personality-analysis-candidates-2026-07-01.md`, e.g. Lamine Yamal, Rosé). Both uncommitted. Distribution set now includes steven-bartlett + lana-del-rey packets (still 9 total, all unfired).
+- **Owner:** DJ. Open decisions in brief §"Open questions for DJ": signups recaptcha, fire distribution (gate now open → blogs landing silent), Quora revive/retire, rerun growth audit, green-light Tier-1 rebuild + new candidates.
+
 ### 2026-06-20 — Unattended status brief (42-day gap closed); two jammed gates + spam leak
 
 - Brief: [`docs/daily-briefs/2026-06-20_marketing-status.md`](../daily-briefs/2026-06-20_marketing-status.md). First status brief since 2026-05-09.
@@ -173,6 +183,8 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-07-01](../daily-briefs/2026-07-01_marketing-status.md) — publish gate unjammed (shipping daily again); IG healthy; signups leak + Quora + growth-audit-skip still open.
+- [2026-06-20](../daily-briefs/2026-06-20_marketing-status.md) — two jammed gates (publish + Quora) + signups spam leak.
 - [2026-05-09](../daily-briefs/2026-05-09_marketing-status.md) — first full marketing-state brief. Identified pop-culture queue as bottleneck.
 - [2026-04-17](../daily-briefs/2026-04-17_pickup-brief.md) — pickup brief.
 

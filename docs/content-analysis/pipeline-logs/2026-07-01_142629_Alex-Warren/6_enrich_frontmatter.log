@@ -1,0 +1,35 @@
+Frontmatter enrichment complete. Report:
+
+```
+Frontmatter enrichment complete: Alex-Warren
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (already had canonical EN URL)
+- twitter, instagram, tiktok (creator-written social handles)
+
+FAQs generated (5):
+1. What is Alex Warren's personality type? → #what-is-alex-warrens-personality-type
+2. Is Alex Warren an industry plant? → #is-alex-warren-an-industry-plant
+3. Why does Alex Warren believe the hate and not the compliments? → #why-alex-warren-hears-every-compliment-as-a-lie
+4. What happened in Alex Warren's childhood? → #the-kid-who-poured-his-mothers-bottles-down-the-sink
+5. What is Alex Warren's album You'll Be Alright, Kid about? → #the-album-he-wrote-to-a-kid-he-no-longer-believes
+
+All five anchors match existing H2 slugs in the body.
+
+Issues / notes:
+- Wikidata data error caught: entity Q121842162 lists P19 (place of birth) as
+  "Warren, Michigan" — contradicted by Wikipedia, Grammy, and multiple sources
+  that confirm Carlsbad, California. Used Carlsbad; did not trust the bad QID field.
+- imdb_id (nm10167571) cross-checked via Wikidata P345, not a guess.
+- Body has zero inline external links — all references (Jay Shetty's On Purpose
+  podcast, Billboard, Today, Stagecoach) appear as prose/testimony, not URLs.
+  citations was populated from authoritative sources that substantively back the
+  article (Wikipedia, Grammy bio, Variety, IBTimes), none invented. Thin inline
+  sourcing is a content-quality note for a future body pass, not a blocker.
+```
+
+Body, HTML comment blocks (Testimony/Heading/Distribution/Formula ledgers, Fresh Eyes, Second Pass, Editor Pass notes), `lastmod`, `content_quality`, and `production_pretext` were left untouched.

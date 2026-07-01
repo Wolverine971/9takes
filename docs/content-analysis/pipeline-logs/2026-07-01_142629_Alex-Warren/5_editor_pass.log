@@ -1,0 +1,25 @@
+Polished **`src/blog/people/drafts/Alex-Warren.md`**.
+
+## What I cleaned up
+
+The draft came in structurally solid (already through fresh-eyes + second-pass) and passing lint with zero em-dashes. The real problem was **cadence**: it leaned on roughly a dozen negative-parallelism constructions — the "X is not A. It is B." engine that the editorial standard flags as the #1 AI tell. In isolation each one works; stacked twelve deep, the prose starts to feel machined.
+
+I broke the four weakest instances into direct statements while protecting the strongest:
+
+- **"chasing approval / because he is vain"** → "He collects approval the way a defendant collects evidence" — removes the negation and pays off the piece's own verdict/scoreboard motif with a fresh image.
+- **"his art is not separate… a bad review is not feedback"** (a double) → collapsed into "the art and the self-worth are one asset… turns a bad review into something heavier than feedback," keeping "collateral" and the "referendum" payoff.
+- **"success makes it worse, not better… not one long exhale"** (a double) → "success sharpens the problem instead of solving it… buys him no exhale."
+- Varied one **imperative opener** ("Concede what the skeptics get right" → declarative) so the reader-command device doesn't stack with "Read that twice" / "Sit with" / "Return to the father."
+
+## What I deliberately left alone
+
+- The **"that is not a strategy / that is a homeless nineteen-year-old"** industry-plant collapse — the single strongest instance of the pattern, now reads as emphasis rather than tic.
+- The **empathy turn** and the **Ferrari / "See you tomorrow, Dad"** close — both protected per the standard.
+- **`lastmod`** — the editorial hard rule overrides the command's inline "update lastmod" note, and DJ manages it manually.
+
+## Verification & status
+
+- `./scripts/blog-lint.sh Alex-Warren` → **0 fail**; `no prose em-dashes` and `no banned AI phrases` both pass.
+- The one remaining WARN (`no faqs in frontmatter`) is the separate frontmatter-enrich stage, not this pass.
+
+**The draft now reads as production-ready** on the editorial dimension. Remaining before publish are pipeline steps, not prose: frontmatter enrich (faqs) and the standard `db_sync` / `image_check`.

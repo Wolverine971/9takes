@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-01T18:28:33.438Z",
+  "generated_at": "2026-07-01T19:39:57.923Z",
   "totals": {
     "published": 372,
-    "unpublished_drafts": 130
+    "unpublished_drafts": 131
   },
   "enneagram_distribution": {
     "counts": {
@@ -372,45 +372,45 @@
         "psychology",
         "essay"
       ],
-      "total": 19,
+      "total": 20,
       "counts_by_type": {
         "1": 3,
         "2": 0,
         "3": 0,
         "4": 3,
-        "5": 6,
+        "5": 7,
         "6": 2,
         "7": 1,
         "8": 4,
         "9": 0
       },
       "share_by_type": {
-        "1": 0.1579,
+        "1": 0.15,
         "2": 0,
         "3": 0,
-        "4": 0.1579,
-        "5": 0.3158,
-        "6": 0.1053,
-        "7": 0.0526,
-        "8": 0.2105,
+        "4": 0.15,
+        "5": 0.35,
+        "6": 0.1,
+        "7": 0.05,
+        "8": 0.2,
         "9": 0
       },
       "diff_vs_baseline_pp": {
-        "1": 9.34,
+        "1": 8.55,
         "2": -6.99,
         "3": -18.28,
-        "4": 1.27,
-        "5": 23.25,
-        "6": 1.39,
-        "7": -9.52,
-        "8": 9.49,
+        "4": 0.48,
+        "5": 26.67,
+        "6": 0.86,
+        "7": -9.78,
+        "8": 8.44,
         "9": -9.95
       },
       "top_over_represented": {
         "type": 5,
-        "share": 0.3158,
-        "count": 6,
-        "delta_pp": 23.25
+        "share": 0.35,
+        "count": 7,
+        "delta_pp": 26.67
       },
       "top_under_represented": {
         "type": 3,
@@ -536,16 +536,16 @@
           "share": 0.4839
         },
         {
-          "slug": "politics-public",
-          "label": "Politics & Public Figures",
-          "url": "/personality-analysis/categories/politics-public",
-          "count": 6,
-          "share": 0.1935
-        },
-        {
           "slug": "authors-thinkers",
           "label": "Authors & Thinkers",
           "url": "/personality-analysis/categories/authors-thinkers",
+          "count": 7,
+          "share": 0.2258
+        },
+        {
+          "slug": "politics-public",
+          "label": "Politics & Public Figures",
+          "url": "/personality-analysis/categories/politics-public",
           "count": 6,
           "share": 0.1935
         }
@@ -657,15 +657,15 @@
     }
   },
   "pipeline": {
-    "in_draft": 130,
+    "in_draft": 131,
     "published_last_30_days": 21,
     "published_last_90_days": 104,
     "avg_new_per_month": 34.7
   },
   "freshness": {
-    "updated_last_30_days": 23,
-    "updated_last_90_days": 176,
-    "share_updated_last_90_days": 0.4731,
+    "updated_last_30_days": 29,
+    "updated_last_90_days": 182,
+    "share_updated_last_90_days": 0.4892,
     "missing_lastmod": 0
   },
   "min_domain_size": 10,
@@ -677,7 +677,7 @@
     "Among 54 profiles in the Politics & Public Figures category on 9takes, Type 2 (Helper) is over-represented at 16.7% — +9.68 percentage points above the corpus baseline.",
     "Among 65 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.1% — +14.74 percentage points above the corpus baseline.",
     "Among 29 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 44.8% — +30.04 percentage points above the corpus baseline.",
-    "Among 19 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 31.6% — +23.25 percentage points above the corpus baseline.",
-    "130 additional profiles are in the review pipeline, with ~34.7 new profiles shipping per month."
+    "Among 20 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 35.0% — +26.67 percentage points above the corpus baseline.",
+    "131 additional profiles are in the review pipeline, with ~34.7 new profiles shipping per month."
   ]
 }
