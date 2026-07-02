@@ -92,8 +92,8 @@
 					datePublished: publishedAt,
 					dateModified: modifiedAt,
 					imageUrl: shareImageUrl,
-					imageWidth: 900,
-					imageHeight: 900,
+					imageWidth: 1080,
+					imageHeight: 1080,
 					keywords: data?.keywords ?? [],
 					sameAs: personSameAs,
 					identifiers: personIdentifiers,
@@ -104,10 +104,11 @@
 					hasOccupation: data?.occupation ?? [],
 					knowsAbout: data?.knows_about ?? [],
 					citations: data?.citations ?? [],
+					articleCitations: data?.article_citations ?? [],
 					wordCount: data?.word_count,
 					timeRequired: data?.time_required,
 					faqs: data?.faqs ?? [],
-					includeFaqPage: (data?.faqs?.length ?? 0) >= 2
+					includeFaqPage: data?.include_faq_schema === true
 				})
 			);
 		} catch (error) {

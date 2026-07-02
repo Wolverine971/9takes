@@ -283,10 +283,25 @@ Output:
 
 ---
 
+## Non-Interactive Mode (pipeline runs)
+
+When run headlessly (via `claude -p`, as stage 4 of `scripts/run-blog-pipeline.sh`) there is no
+user to answer questions — a question printed to stdout is a silent no-op and the stage's work is
+lost. In any run where you cannot get an answer:
+
+- **Never ask; decide and log.** Apply the edge-case defaults below and record what you did in the
+  pass summary instead of asking.
+- **Score 8+**: apply the minor tightening fixes yourself (don't withhold them pending approval).
+- **No clear thesis**: infer the most plausible through-line from the title, TL;DR, and diagnosis
+  section; evaluate cohesion against that inferred thesis and state the inference explicitly in
+  your report.
+- **Ambiguous file match**: take the exact-name match in `src/blog/people/drafts/`; if none, take
+  the closest match and say which file you chose.
+
 ## Edge Cases
 
 - **File not found**: Report clearly, list closest matches
-- **File is already cohesive (score 8+)**: Report the score, note any minor tightening opportunities, ask if user wants them applied
-- **File has no clear thesis**: Flag this immediately. Ask the user what the blog is trying to argue before proceeding. You cannot evaluate cohesion without a through-line to measure against.
+- **File is already cohesive (score 8+)**: Report the score, note any minor tightening opportunities, ask if user wants them applied (interactive runs only — in non-interactive runs, apply them)
+- **File has no clear thesis**: Flag this immediately. Ask the user what the blog is trying to argue before proceeding (interactive runs only — in non-interactive runs, infer the thesis as described above). You cannot evaluate cohesion without a through-line to measure against.
 - **File is a listicle or reference post**: These don't need a narrative through-line the same way. Evaluate whether items are in a logical order and whether the framing (intro + conclusion) holds them together. Score more leniently on through-line, more strictly on transitions between items.
 - **File is very short (<500 words)**: Apply the same process but note that short pieces have fewer transition points to evaluate

@@ -1,4 +1,5 @@
 <!-- .claude/commands/deai.md -->
+
 # De-AI Blog Content
 
 You are an AI-pattern detector and copy editor for 9takes blog content. Your job is to read a blog file, identify every AI detection pattern present, score the piece, rewrite the flagged sections so they sound unmistakably human, and save the cleaned file.
@@ -24,15 +25,16 @@ The user will provide one of:
 
 ---
 
-## Step 1: Load the Detection Reference
+## Step 1: Load the Detection References
 
-Before doing anything else, read the full detection guide:
+Before doing anything else, read BOTH:
 
-```
-docs/writing-system/ai-detection-patterns.md
-```
+1. `.claude/skills/9takes-editorial-standards/SKILL.md` — the governing rulebook (hard rules,
+   AI-tells list, banned words, formatting bar). Where the two disagree, this wins.
+2. `docs/writing-system/ai-detection-patterns.md` — the four vocabulary tiers, structural patterns,
+   semantic patterns, and quick checklist.
 
-Internalize all four vocabulary tiers, the structural patterns, the semantic patterns, and the quick checklist. This is your scoring rubric.
+Together these are your scoring rubric.
 
 ---
 
@@ -42,7 +44,9 @@ If the user provided a full path, read it directly.
 
 If they provided a slug or partial name:
 
-1. Search `src/blog/enneagram/`, `src/blog/community/`, `src/blog/guides/`, `src/blog/people/drafts/` using Glob
+1. Search all of `src/blog/**/*.md` using Glob (categories: enneagram, community, guides,
+   people/drafts, pop-culture, generational, historical, life-situations, life-style, overview,
+   situational, topical)
 2. Find the best match
 3. Confirm the file with the user before proceeding if ambiguous
 
@@ -60,6 +64,9 @@ Scan every sentence. Flag:
 - Any Tier 2 structural transition (furthermore, moreover, it is worth noting, in conclusion, etc.)
 - Any Tier 3 sentence cliché (at its core, in today's digital age, a testament to, etc.)
 - Any Tier 4 chatbot artifact
+- **Any em-dash** — zero allowed per the editorial standards (blog lint enforces this)
+- **Negative parallelism** — "It's not X, it's Y" dramatic contrast (the #1 tell per the skill)
+- Any word on the skill's banned/flag list not already covered by the tiers
 
 For each hit, record: the exact phrase, line number or section, and proposed replacement.
 

@@ -65,6 +65,10 @@ citations:
   - 'https://en.wikipedia.org/wiki/Sora_(text-to-video_model)'
   - 'https://en.wikipedia.org/wiki/1997_Albanian_civil_unrest'
   - 'https://en.wikipedia.org/wiki/OpenAI'
+  - 'https://www.forbes.com/sites/aliciapark/2026/05/06/ex-openai-cto-mira-murati-testifies-sam-altman-pit-openai-leaders-against-each-other-undermined-her/'
+  - 'https://www.detroitnews.com/story/business/2026/05/06/muskaltman-testimony-altman-sowed-chaos-distrust-among-top-execs/89964923007/'
+  - 'https://gizmodo.com/ex-openai-cto-mira-murati-testifies-about-sam-altman-allegedly-lying-to-her-2000755394'
+  - 'https://futurism.com/artificial-intelligence/perjury-openai-cto-murati-altman'
 faqs:
   - question: "What is Mira Murati's personality type?"
     answer: 'Mira Murati is an Enneagram Type 9 (The Peacemaker), specifically a 9w1. The pattern shows in her sworn-testimony vocabulary about OpenAI "completely blowing up" (the Nine''s fear of fragmentation), her becoming the leader every warring faction trusted precisely because no one feared her, the "I''m actually not sure" Sora non-answer that refused to plant a friction-creating flag, quietly arming the board against Sam Altman and then rushing to restore him, and founding Thinking Machines Lab as the Nine''s growth-move toward Type 3.'
@@ -79,7 +83,7 @@ faqs:
     answer: 'In February 2025 Murati launched Thinking Machines Lab and raised roughly $2 billion at a $12 billion valuation before shipping a product; backers were buying her, not a roadmap, and she structured her own vote to outweigh the board. For a Nine, putting your own name on the door is the hardest thing the type ever does, the integration line toward Type 3 made visible after a decade of making other people''s visions real.'
     anchor: 'what-mira-murati-built-when-she-finally-built-her-own'
   - question: 'What did Mira Murati say about Sam Altman under oath?'
-    answer: 'In sworn testimony in May 2026, asked whether Altman had been candid with her, Murati paused and answered "Not always" — a reversal from the 2024 stage where she had waved off his aggression as "not an issue for me." She testified that he undermined her as CTO, pitted OpenAI''s leaders against each other, and built "a very difficult and chaotic environment." For a Nine, it is the buried anger of a decade finally getting a name and a courtroom.'
+    answer: 'In sworn testimony played at the Musk v. OpenAI trial in May 2026, asked whether Altman had been candid with her, Murati paused and answered "Not always" — a reversal from the 2024 stage where she had waved off his aggression as "not an issue for me." She testified that he undermined her as CTO, pitted OpenAI''s leaders against each other, and built "a very difficult and chaotic environment." For a Nine, it is the buried anger of a decade finally getting a name and a courtroom.'
     anchor: 'the-thing-she-was-built-to-prevent'
 production_pretext:
   status: draft
@@ -280,7 +284,7 @@ Between October 2025 and January 2026, Thinking Machines Lab lost three of its s
 
 Sit with the cruelty of the symmetry. The man she would soon testify had undermined her was now pulling her people back to the company she left. The woman whose entire operating system exists to keep things from falling apart was watching her own creation fragment, from the outside, calmly, the way she watched everything.
 
-But something else broke that year too, and it is the most important beat in her whole story. In sworn testimony in May 2026, the peacemaker stopped keeping the peace. Two years earlier, on Kara Swisher's stage, she had called Altman "a visionary" and waved off his aggression as "not an issue for me." Now, under oath, asked whether he had been candid with her, the same woman paused for a long time and gave two words: "Not always." She testified that he undermined her as CTO, pitted OpenAI's leaders against each other, told different people different things, built "a very difficult and chaotic environment." For a decade she had absorbed all of it and named none of it. The Nine's buried anger, the thing the type dissociates from so fast it slips away like wind through the fingers, finally had a name and a courtroom.
+But something else broke that year too, and it is the most important beat in her whole story. In sworn testimony played at the Musk v. OpenAI trial in May 2026, the peacemaker stopped keeping the peace. Two years earlier, on Kara Swisher's stage, she had called Altman "a visionary" and waved off his aggression as "not an issue for me." Now, under oath, asked whether he had been candid with her, the same woman paused for a long time and gave two words: "Not always." She testified that he undermined her as CTO, pitted OpenAI's leaders against each other, told different people different things, built "a very difficult and chaotic environment." For a decade she had absorbed all of it and named none of it. The Nine's buried anger, the thing the type dissociates from so fast it slips away like wind through the fingers, finally had a name and a courtroom.
 
 That is what makes her worth understanding. Not the two billion dollars or the viral clips. The quiet woman from the country that fell apart spent her life making sure nothing else would, absorbing everyone's chaos so the center would hold, going quiet at exactly the moments a sharper answer might have blown something up. And the moment she finally built something that was only hers, it began to come apart, and the man who called her a source of "love during all the hard times" was pulling out the pieces.
 
@@ -352,5 +356,14 @@ Kept as-is:
 
 Still open:
 - The "Microsoft and Salesforce as anchors" line in the Rabbit Hole stress section: Salesforce isn't established anywhere else in the body (only Microsoft/Nadella is). Left as-is but an editor may want to verify or cut Salesforce.
+-->
+
+<!-- BLOCKER RESOLVED (2026-07-01)
+The "UNVERIFIED LEGAL CLAIM" blocker from the 2026-07-01 pipeline audit is cleared. The May 2026 sworn-testimony beats are real and now sourced: Murati testified via video deposition played at the Musk v. OpenAI trial on May 6, 2026. Verified against coverage and added to citations frontmatter:
+- Forbes (2026-05-06): "Ex-OpenAI CTO Mira Murati Testifies Sam Altman Pit OpenAI Leaders Against Each Other, Undermined Her" — confirms "not always" honest, undermined her as CTO, pitted leaders against each other, "very difficult and chaotic environment."
+- Detroit News (2026-05-06): confirms "sowed chaos"/distrust framing and the "catastrophic risk of falling apart" / "completely blowing up" pull quote.
+- Gizmodo: confirms the deposition format/date and the chaotic-environment quote.
+- Futurism: confirms she took "a very long pause" before answering "Not always" (the pause detail in the FAQ and body is sourced, not embellishment).
+Body/FAQ wording updated once each to name the Musk v. OpenAI trial for precision. production_pretext.status returned to draft, blockers emptied.
 -->
 

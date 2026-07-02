@@ -11,7 +11,7 @@ This is **not** the same as `/distribute-instagram` (that builds a per-person as
 The user provides: **$ARGUMENTS** — a source, plus an optional mode keyword.
 
 - Source: a person name (`Pedro Pascal`), an Enneagram type (`Type 8`), a situation (`getting passed over for a promotion`), or a blog path (`src/blog/enneagram/enneagram-type-5.md`, `/personality-analysis/Zendaya`).
-- Optional mode (last word): `generative` | `diagnostic` | `lookup` | `gallery`. If omitted, infer it (see §B decision rule).
+- Optional mode (last word): `story` | `generative` | `diagnostic` | `lookup` | `gallery`. If omitted, infer it (see §B decision rule).
 
 If no argument is provided, respond:
 
@@ -19,12 +19,12 @@ If no argument is provided, respond:
 Ready to build a 9takes carousel. Give me a source — and optionally a mode.
 
 Source can be:
-1. An Enneagram type (e.g., "Type 8")  → usually a Lookup deck
-2. A situation (e.g., "getting ghosted") → usually a Gallery deck
-3. A person (e.g., "Zendaya")           → usually Diagnostic/Generative
+1. A person (e.g., "Chappell Roan")     → Story deck if a moodboard exists
+2. An Enneagram type (e.g., "Type 8")  → usually a Lookup deck
+3. A situation (e.g., "getting ghosted") → usually a Gallery deck
 4. A blog path or URL
 
-Modes: generative | diagnostic | lookup | gallery (I'll pick one if you don't).
+Modes: story | generative | diagnostic | lookup | gallery (I'll pick one if you don't).
 
 Example: /carousel Type 8 lookup
 ```
@@ -64,23 +64,25 @@ Use TaskCreate/TaskUpdate. Create 6 tasks at the start, matching the pipeline:
 
 The revelation is never the topic. It's the reframe from **intuition → system**. 9takes' native territory: reading people feels like a gift, but it runs on nine repeatable lenses. Every deck proves that one sentence.
 
-## B. The four modes (pick exactly one)
+## B. The five modes (pick exactly one)
 
-| Mode           | Title shape                               | Lever                   | Body                | Formula shape               |
-| -------------- | ----------------------------------------- | ----------------------- | ------------------- | --------------------------- |
-| **Generative** | "Why [unexpected thing] **works**"        | Curiosity gap           | How to _build_ it   | Additive Venn (§D)          |
-| **Diagnostic** | "Why **your** [thing] is shallow/broken"  | Identity fear           | Spot flaw → fix     | Hierarchical pyramid (§D)   |
-| **Lookup**     | "The [X] cheat sheet — which X = which Y" | Save-bait               | Enumerated cards    | Recap table ("SAVE THIS")   |
-| **Gallery**    | "One moment, nine reactions"              | Pick-one identification | Wordless-ish scenes | (none — CTA is the payload) |
+| Mode           | Title shape                                 | Lever                   | Body                                        | Formula shape                               |
+| -------------- | ------------------------------------------- | ----------------------- | ------------------------------------------- | ------------------------------------------- |
+| **Story**      | "[PERSON NAME]" (cover; type revealed late) | Lore + becoming-them    | Cover → tidbits → POV arc → reveal → mirror | (none — the mirror question is the payload) |
+| **Generative** | "Why [unexpected thing] **works**"          | Curiosity gap           | How to _build_ it                           | Additive Venn (§D)                          |
+| **Diagnostic** | "Why **your** [thing] is shallow/broken"    | Identity fear           | Spot flaw → fix                             | Hierarchical pyramid (§D)                   |
+| **Lookup**     | "The [X] cheat sheet — which X = which Y"   | Save-bait               | Enumerated cards                            | Recap table ("SAVE THIS")                   |
+| **Gallery**    | "One moment, nine reactions"                | Pick-one identification | Wordless-ish scenes                         | (none — CTA is the payload)                 |
 
 **Decision rule (infer mode if not given):**
 
+- Source is a **person with a locked moodboard** (or a published analysis) → **Story** — the personality-series deck (§C4). This is the default for person sources; it supersedes the plain 2-slide series post.
 - Source is a **single type / any taxonomy** → **Lookup**.
 - Source is a **situation read multiple ways** → **Gallery**.
 - Source framed as a **mistake the viewer makes** → **Diagnostic**.
 - Source is a **craft/skill to teach** → **Generative**.
 
-Diagnostic hooks ~3× harder (felt accusation). Lookup wins saves. Gallery wins funnel fit. When genuinely torn, default to **Diagnostic** for people/skills and **Lookup** for types.
+Diagnostic hooks ~3× harder (felt accusation). Lookup wins saves. Gallery wins funnel fit. Story wins the person series (it's the moodboard's native consumer). When genuinely torn, default to **Story** for a person with a moodboard, **Diagnostic** for skills/mistakes, and **Lookup** for types.
 
 ## C. Beat structures (★ = mandatory, never skip)
 
@@ -117,6 +119,36 @@ N+2 CTA     participation question + comment-bait
 2..N SCENES one feeling/reaction per slide, IDENTICAL frame, only number + reaction change
 N+1 CTA     "Which one was you? Comment your number."
 ```
+
+### C4 — Story deck (personality-series person post), 9–11 slides
+
+The proven shape from the Chappell Roan build (`docs/ai-image-gen/moodboards/chappell-roan/carousel.md` — use it as the reference example). Requires a locked moodboard; the deck is its native consumer.
+
+```
+1    COVER    persona collage bg (per-person accent color) + face cutout from static/types/
+              + name + `[ PERSONALITY ANALYSIS ]` + `TYPE N · THE [ARCHETYPE]`.
+              ★ The face appears ONCE, here — then never again.
+2    TIDBITS  5–7 fact-checked lore lines (five-test + wound test, per the series north star)
+              + lead-in handoff: "But to understand [the pattern], you have to see what they saw →"
+3..N POV ARC  the moodboard's POV shots in story order — origin wound → private/love wound →
+              the grind → the armor/method → triumph → the cost. Each: full-bleed image,
+              face-free, + one overlay fact caption (bottom-third scrim, 1–2 lines).
+N+1  REVEAL   ★ the deck's single inverted/amber text slide: "That's Enneagram Type N —
+              The [Archetype]. [one-line thesis]."
+N+2  MIRROR ⚡ ★ the Mirror Moment (spec: docs/product/the-mirror-moment.md): the moodboard's
+              empty-frame mirror shot + bridge line + the mirror question, large-centered.
+              NO CTA on this slide — the silence is the mechanic. The CTA lives in the
+              caption + bio link → the 9takes QUESTION PAGE titled with the exact question
+              (not the analysis blog).
+```
+
+**Story-deck specifics (override the teaching-deck defaults):**
+
+- **Arc logic:** the cover is the glossy _persona_; the POV shots are the _real_ story underneath. Stylized → real is the emotional turn. POV runs chronological because slides 1–2 already did the hook.
+- **Chrome:** series chrome, not iklipse chrome (§G).
+- **Format:** 4:5 vertical (match the existing series slides). POV shots generate 1:1 top-weighted, then crop to 4:5.
+- **Caption:** type-first (self-ID hook in the type's vernacular → name the type → person as proof → the type's core struggle → CTA → "Are you a Type N? Tag one"). Pinned first comment carries the blog link.
+- The type reveal is withheld until N+1 — tidbits and POV shots build the mystery the reveal pays off.
 
 ## D. Formula-slide shapes (the peak slide — pick by relationship)
 
@@ -155,11 +187,13 @@ Always on an **inverted light/bright frame** — the one slide that pops against
 - **Type:** heavy condensed sans headlines + **serif italic** reserved for swipe/payoff/subhead only.
 - **The `X = Emotion` overlay becomes an amber pill `Type N = [Emotion]`.**
 - **Imagery proves the point:** every photo is itself an instance of the rule (a 9takes "emotion" slide shows a real, unguarded face). 1:1 square, text top-weighted to survive the feed crop.
+- **Story decks (§C4) use the SERIES chrome instead of the above:** mono name font + amber corner brackets · `9takes` · `THE FULL READ → 9takes.com` · `Analysis by DJ Wayne` — plus a **per-person accent color** locked in the moodboard (e.g. hot pink for Chappell, purple for Lana/Type 4) used for the eye-bar, the `TYPE N · THE [ARCHETYPE]` label, and the cover vibe. Amber stays primary; the person accent never takes over. Base = black. 4:5 vertical.
 
 ## H. Format → length
 
 | Format                 | Slides | Mode       | Use for                                  |
 | ---------------------- | ------ | ---------- | ---------------------------------------- |
+| Story deck (series)    | 9–11   | Story      | Person post with a locked moodboard      |
 | Flagship engine        | 12–13  | Generative | Core thesis decks                        |
 | Cheat sheet            | 15–20  | Lookup     | Evergreen save-bait (the 9-type decoder) |
 | Checklist (FAIL/PASS)  | 7      | Diagnostic | "Are you reading them right?" self-audit |
@@ -170,22 +204,29 @@ Always on an **inverted light/bright frame** — the one slide that pops against
 
 ## I. Image-prompt templates (emit one per photo slide)
 
-**Photo slides → Midjourney, Greek-statue-with-emotion motif** (the canonical 9takes look). Build each prompt as:
+**Photo slides → ChatGPT (GPT Image), labeled production briefs.** We generate in ChatGPT, not Midjourney — it follows a detailed brief far better than a keyword string. **Never use the render tails** (`Unreal Engine`, `Cinematic`, `32k`, `Super-Resolution`, `hyper realistic`, `Global Illumination`, `octane`) — those produce the exact generic glossy-CGI look the decoded engine mocks. Build each prompt in this skimmable brief shape, **inside a fenced code block** so it's copy-pasteable:
 
 ```
-[EMOTION] greek statue [POSE tied to the slide], [FACIAL_EXPRESSION], [SETTING],
-Unreal Engine, Cinematic, warm amber color scheme, portrait Photography, Shot on 50mm lens,
-Depth of Field, hyper-detailed, beautifully color graded, 32k, Super-Resolution,
-[LIGHTING], Global Illumination, hyper realistic, super detailed --ar 1:1
+Photorealistic [framing].
+Scene: [where + when + world detail].
+Subject: [who/what, doing what — anonymous, no real person's face].
+Details: [2–4 real props that carry feeling; crowds = "a blurred, undetailed mass"].
+Camera: [angle + distance + lens-mm — DIRECTED per slide off the angle→emotion sheet, never default eye-level].
+Light: [direction + quality + the single dominant source].
+Color & finish: [palette; where the amber accent lives; film grain, real photograph — NOT a 3D render, NOT CGI, NOT glossy].
+Constraints: [anti global warm/yellow cast on cold frames; keep shadow detail, not crushed black; no on-image text].
+Format: square 1:1 (1024×1024), composition top-weighted.
 ```
 
-Per-type pose anchors (use when the slide names a type):
+**Motif rules:**
 
-- T1 stern focused, meticulously ordering objects · T2 reaching out, warm caring, hands extended · T3 confident on a podium, proud determination · T4 contemplative melancholy, gazing at reflection · T5 hunched over texts, intense curiosity · T6 vigilant protective, scanning surroundings · T7 mid-leap ecstatic, arms wide · T8 commanding stance, fierce jaw · T9 serene meditation, calm acceptance
+- **Person/Story decks: never statues, never faces.** Use the moodboard's POV prompts (they're already directed). If a beat has no moodboard shot, write a fresh POV brief in the same style.
+- **Type/concept decks may use the Greek-statue-with-emotion motif** — but rendered as a **photographed real marble sculpture** (a museum photograph: true Carrara veining, hairline chips, fine stone dust, Kodak Portra film grain), never a CGI render. Per-type pose anchors:
+  - T1 stern focused, meticulously ordering objects · T2 reaching out, warm caring, hands extended · T3 confident on a podium, proud determination · T4 contemplative melancholy, gazing at reflection · T5 hunched over texts, intense curiosity · T6 vigilant protective, scanning surroundings · T7 mid-leap ecstatic, arms wide · T8 commanding stance, fierce jaw · T9 serene meditation, calm acceptance
+- **Vary the direction across slides:** every pair of photo prompts must differ on **at least two** of {angle, distance, lens, light, setting}. Nine identical eye-level 50mm frames = flat deck.
+- Midjourney remains a fallback only — refine with `/midjourney-prompt` if the user asks for MJ.
 
-For the brief: push **real texture, real feeling** (the anti-"plastic skin" — itself on-message). Note at the bottom of each prompt: _"Refine with `/midjourney-prompt` if needed."_
-
-**Text-bearing slides** (hook, diagram/taxonomy, formula peak, badges, CTA) → spec for **`gemini-imagegen` (Nano Banana Pro)**, which renders text-in-image cleanly. Give it: background (amber or inverted-light for the peak), the exact on-slide text, and the chrome positions. Or hand these to Canva as pure type+shape slides.
+**Text-bearing slides** (hook, diagram/taxonomy, formula peak, badges, CTA) → spec for **`gemini-imagegen` (Nano Banana Pro)**, which renders text-in-image cleanly. Give it: background (amber or inverted-light for the peak), the exact on-slide text, and the chrome positions. **Caveat:** `gemini-imagegen` needs `GEMINI_API_KEY` in the environment, which this project does not currently set — when it's absent, generate a **text-free background** in ChatGPT and set the type in **Canva** (this is the proven fallback). Photo-slide captions are always overlaid after generation — never ask the model to render them in-image.
 
 ## J. Quality gates (run before writing the file)
 
@@ -194,7 +235,8 @@ For the brief: push **real texture, real feeling** (the anti-"plastic skin" — 
 - **Hook passes the copy triad** (Harry Dry): can I visualize it? can I falsify it? could nobody else say this? — 2+ no's → rewrite.
 - **The taxonomy/word-bank slide is screenshot-able** — chips, not prose. This is the save-able payload; if it's weak, the deck is weak.
 - **Every photo slide proves its own point** (the image is an instance of the claim).
-- **CTA is forced-choice/participation**, not "what do you think?"
+- **CTA is forced-choice/participation**, not "what do you think?" **Exception — Story decks:** the mirror slide carries **no on-slide CTA** (the silence is the mechanic); the participation CTA lives in the caption + bio link to the question page. That passes this gate.
+- **Story decks only:** face appears exactly once (cover); every POV slide is face-free; the mirror question passes the 9takes-only test (`docs/product/the-mirror-moment.md`); the bio link targets the **question page**, not the analysis blog.
 - **Personality claims hedge** ("my read" / "suggests"); no mental-health diagnosis. Add the disclaimer line in the caption.
 
 ---
@@ -203,7 +245,7 @@ For the brief: push **real texture, real feeling** (the anti-"plastic skin" — 
 
 ## Step 1 — Resolve source + metadata
 
-**First, check for a locked moodboard.** If `docs/ai-image-gen/moodboards/<source-slug>-moodboard.md` exists, read it: its **Vision palette**, **POV shot list**, and **image prompts** are the art direction for this deck. Use those prompts for the photo slides in Step 4 (do **not** invent flat `type N greek statue ... 50mm` prompts), and map its **bright peak shot** to the deck's one inverted/high-key slide. If no moodboard exists and this is a person source, suggest running `/moodboard <Person>` first for non-flat imagery, then proceed.
+**First, check for a locked moodboard.** If `docs/ai-image-gen/moodboards/<source-slug>-moodboard.md` exists, read it: its **Vision palette**, **per-person accent**, **POV shot list**, and **image prompts** are the art direction for this deck. Use those prompts for the photo slides in Step 4 (do **not** invent flat `type N greek statue ... 50mm` prompts), map its **bright peak shot** to the deck's one inverted/high-key slide, and its **mirror shot** to the final Mirror Moment slide. Also check `docs/ai-image-gen/moodboards/<source-slug>/images/` — shots already generated and filed there are assets in hand, not prompts to re-emit. If no moodboard exists and this is a person source, suggest running `/moodboard <Person>` first for non-flat imagery, then proceed.
 
 Resolve `$ARGUMENTS` in this order:
 
@@ -226,7 +268,7 @@ Write **every slide** in the chosen mode's beat skeleton (§C). Hit all ★ beat
 
 **If a moodboard was found in Step 1:** pull the photo-slide prompts straight from its shot list — they're already directed (POV lens, camera, light, style) and non-flat. Match each beat to the moment whose feeling fits; the moodboard's bright peak shot becomes the deck's one inverted slide. Only write a fresh §I prompt for a beat the moodboard doesn't cover.
 
-**Otherwise (no moodboard):** for each photo slide, emit a Midjourney prompt (§I) tuned to that slide's named emotion/type — but vary the camera angle, distance, lens, and lighting across slides so the set isn't flat (don't repeat `50mm` + the same amber light on every frame). For each text-bearing slide, emit a `gemini-imagegen` brief or mark it "Canva (type+shape)." Every slide gets the fixed chrome (§G).
+**Otherwise (no moodboard):** for each photo slide, emit a ChatGPT production brief (§I) tuned to that slide's named emotion/type — and vary the camera angle, distance, lens, and lighting across slides so the set isn't flat (don't repeat `50mm` + the same amber light on every frame). For each text-bearing slide, emit a `gemini-imagegen` brief (if `GEMINI_API_KEY` is available) or mark it "ChatGPT background + Canva type" (§I caveat). Every slide gets the fixed chrome (§G — series chrome for Story decks).
 
 ## Step 5 — Assemble the deck
 
@@ -240,14 +282,17 @@ Add the posting + type-pond engagement plan. Write the file, then report.
 
 # Output Template
 
-Write to `docs/distribution-assets/[source-slug]-carousel.md` using this structure:
+**Where to write (by mode):**
+
+- **Story deck** → `docs/ai-image-gen/moodboards/<person-slug>/carousel.md`, beside the `images/` dir where the approved renders are filed. Follow the §C4 build-sheet shape (cover composite spec, tidbits block, POV slide table, mirror block, type-first caption, pinned comment) — the Chappell file is the canonical example.
+- **All other modes** → `docs/distribution-assets/[source-slug]-carousel.md` using the template below.
 
 ```markdown
 <!-- docs/distribution-assets/[source-slug]-carousel.md -->
 
 # [Source] — 9takes Carousel
 
-> Mode: [Generative/Diagnostic/Lookup/Gallery] | Format: [name, N slides] | Theme tag: [The Nine / Type Decoder / ...]
+> Mode: [Story/Generative/Diagnostic/Lookup/Gallery] | Format: [name, N slides] | Theme tag: [The Nine / Type Decoder / ...]
 > Source: [type / person / situation / blog path] | Anchors Enneagram Type: [N or n/a]
 > Formula shape: [Venn/Pyramid/Pipeline/Inequality/none]
 
@@ -273,11 +318,16 @@ Write to `docs/distribution-assets/[source-slug]-carousel.md` using this structu
 ## Image prompts
 
 **Slide [N] (Photo — [emotion/type]):**
-`[full Midjourney prompt, --ar 1:1]`
-_Refine with /midjourney-prompt if needed._
+```
+
+[full ChatGPT production brief per §I, ending "Format: square 1:1 (1024×1024), composition top-weighted."]
+
+```
+
+_Vary: [one axis]._ · _Kill rule: [keep only the frame where ...]._
 
 **Slide [N] (Text — formula peak):**
-gemini-imagegen brief: [background = inverted light; exact on-slide text; chrome positions].
+gemini-imagegen brief: [background = inverted light; exact on-slide text; chrome positions]. (No `GEMINI_API_KEY`? → ChatGPT text-free background + Canva type.)
 
 [...one block per slide...]
 
@@ -339,5 +389,8 @@ This command is self-sufficient. It's distilled from:
 - `docs/ai-image-gen/CAROUSEL-SPEC.md` — the canonical engine (modes, beats, formula shapes, brand swap, worked example, engagement log). Read for background or an edge case the inline spec doesn't cover.
 - `docs/ai-image-gen/WORKFLOWS.md` — the production-pipeline spec; this command is Workflow 1.
 - `docs/ai-image-gen/iklipse-*.md` — the decoded source posts (the evidence layer).
-- `midjourney-prompt` skill — full Greek-statue + other templates for the photo slides.
-- `gemini-imagegen` skill — text-in-image generation for badge/formula/CTA slides.
+- `docs/product/the-mirror-moment.md` — the Story deck's closing mechanic (final slide, no CTA, question-page landing).
+- `docs/ai-image-gen/moodboards/chappell-roan/carousel.md` — the reference Story-deck build sheet.
+- `docs/instagram/personality-series-north-star.md` + `docs/instagram/post-ideas/2026-05-19_personality-series-intro-arc-lineup.md` — the series voice, tidbit five-test + wound test, and type-pond coordination Story decks inherit.
+- `midjourney-prompt` skill — legacy templates (fallback only; photo slides target ChatGPT).
+- `gemini-imagegen` skill — text-in-image generation for badge/formula/CTA slides (needs `GEMINI_API_KEY`).

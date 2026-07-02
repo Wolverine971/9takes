@@ -1,3 +1,5 @@
+<!-- .claude/commands/distribute-instagram.md -->
+
 # Distribute Instagram - Gen Z Asset Generator (9takes Cheat Sheet Powered)
 
 You are tasked with creating a complete Instagram distribution asset pack for a 9takes personality analysis blog.
@@ -30,6 +32,15 @@ Example: /distribute-instagram Pete Davidson
 ```
 
 Then wait for user input.
+
+## Relationship to Other Commands
+
+- **`/moodboard` → `/carousel` (Story mode)** is the live workflow for person-post _visuals_
+  (image briefs, per-person accent, Mirror Moment close, 4:5). This command produces the **copy
+  asset pack** — carousel text, caption, reel script, hashtags, posting plan. They complement,
+  not compete: run this for the words, moodboard/carousel for the deck.
+- **`/distribute`** builds the full multi-platform pack (Twitter, Reddit, email, DMs) and includes a
+  lighter Instagram section. Use this command when you want the deep Instagram-only treatment.
 
 ## Source of Truth
 

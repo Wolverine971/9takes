@@ -231,7 +231,7 @@ function buildScores(
 		scoreRange(row.content_stats.meta_title_chars, 35, 65),
 		scoreRange(row.content_stats.description_chars, 120, 170),
 		row.frontmatter.keywords.length > 0 ? 100 : 35,
-		row.content_stats.has_faq_schema ? 100 : 65
+		row.frontmatter.citations.length > 0 || row.link_stats.external_link_count > 0 ? 100 : 55
 	];
 	const linkParts = [
 		Math.min(100, row.link_stats.outgoing_internal_count * 20),
@@ -298,8 +298,8 @@ function buildActionNotes(
 	if (!row.content_stats.has_tldr) {
 		notes.push('No TL;DR accordion detected.');
 	}
-	if (!row.content_stats.has_faq_schema) {
-		notes.push('No FAQ schema frontmatter detected.');
+	if (row.frontmatter.citations.length === 0 && row.link_stats.external_link_count === 0) {
+		notes.push('No visible external sourcing or citation URLs detected.');
 	}
 	if ((row.frontmatter.content_quality.overall ?? 0) < 8.5) {
 		notes.push('Content-quality grade is below the current strongest posts.');
@@ -483,7 +483,8 @@ export async function loadPeopleBlogPerformanceDiagnostics(
 				has_testimony_ledger: /TESTIMONY LEDGER/i.test(blog.content),
 				has_heading_mix_ledger: /HEADING MIX LEDGER/i.test(blog.content),
 				has_distribution_ledger: /DISTRIBUTION LEDGER/i.test(blog.content),
-				has_faq_schema: Array.isArray(data.faqs) && data.faqs.length > 0
+				has_faq_schema:
+					data.include_faq_schema === true && Array.isArray(data.faqs) && data.faqs.length >= 2
 			},
 			link_stats: {
 				outgoing_internal_count: blog.outgoingInternalHrefs.size,

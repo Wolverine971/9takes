@@ -18,6 +18,14 @@ export interface PersonJsonLdBreadcrumbItem {
 	url: string;
 }
 
+export interface PersonJsonLdCitation {
+	name: string;
+	author?: string;
+	datePublished?: string;
+	publisher?: string | { '@type'?: string; name?: string };
+	url?: string;
+}
+
 export interface PersonJsonLdInput {
 	personName: string;
 	canonicalUrl: string;
@@ -47,6 +55,7 @@ export interface PersonJsonLdInput {
 
 	// Article sourcing
 	citations?: string[] | null;
+	articleCitations?: PersonJsonLdCitation[] | null;
 	wordCount?: number | null;
 	timeRequired?: string | null;
 
@@ -103,7 +112,9 @@ function buildArticleNode(input: PersonJsonLdInput): JsonLdNode {
 	const node: JsonLdNode = {
 		'@type': 'Article',
 		'@id': `${input.canonicalUrl}#article`,
+		name: input.title,
 		headline: input.title,
+		url: input.canonicalUrl,
 		description: input.description
 	};
 
@@ -143,13 +154,17 @@ function buildArticleNode(input: PersonJsonLdInput): JsonLdNode {
 		if (typeof input.imageWidth === 'number') image.width = input.imageWidth;
 		if (typeof input.imageHeight === 'number') image.height = input.imageHeight;
 		node.image = image;
+		node.thumbnailUrl = input.imageUrl;
 	}
 
 	node.about = { '@id': `${input.canonicalUrl}#person` };
 	node.mentions = { '@id': `${input.canonicalUrl}#person` };
 
-	const citations = nonEmptyArray(input.citations);
-	if (citations) node.citation = citations;
+	const citations = [
+		...(nonEmptyArray(input.articleCitations)?.map(buildCitationNode) ?? []),
+		...(nonEmptyArray(input.citations) ?? [])
+	];
+	if (citations.length > 0) node.citation = citations;
 
 	const speakableSelectors = input.speakableSelectors;
 	if (speakableSelectors && speakableSelectors.length > 0) {
@@ -158,6 +173,30 @@ function buildArticleNode(input: PersonJsonLdInput): JsonLdNode {
 			cssSelector: speakableSelectors
 		};
 	}
+
+	return node;
+}
+
+function buildCitationNode(citation: PersonJsonLdCitation): JsonLdNode {
+	const node: JsonLdNode = {
+		'@type': 'CreativeWork',
+		name: citation.name
+	};
+
+	const author = trimmedOrUndefined(citation.author);
+	if (author) node.author = author;
+
+	const datePublished = trimmedOrUndefined(citation.datePublished);
+	if (datePublished) node.datePublished = datePublished;
+
+	const publisher =
+		typeof citation.publisher === 'string'
+			? trimmedOrUndefined(citation.publisher)
+			: citation.publisher;
+	if (publisher) node.publisher = publisher;
+
+	const url = trimmedOrUndefined(citation.url);
+	if (url) node.url = url;
 
 	return node;
 }
@@ -207,6 +246,10 @@ function buildAuthorNode(): JsonLdNode {
 		'@type': 'Person',
 		'@id': AUTHOR_DJ_WAYNE_ID,
 		name: 'DJ Wayne',
+		url: 'https://9takes.com/about',
+		jobTitle: 'Creator of 9takes',
+		image: 'https://9takes.com/brand/djface.webp',
+		knowsAbout: ['Enneagram', 'personality psychology', 'emotional intelligence'],
 		sameAs: DJ_WAYNE_SAME_AS
 	};
 }
@@ -219,7 +262,9 @@ function buildPublisherNode(): JsonLdNode {
 		url: 'https://9takes.com/',
 		logo: {
 			'@type': 'ImageObject',
-			url: 'https://9takes.com/brand/darkRubix.png'
+			url: 'https://9takes.com/brand/darkRubix.png',
+			width: 512,
+			height: 512
 		},
 		sameAs: PUBLISHER_SAME_AS
 	};

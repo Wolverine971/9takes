@@ -1,4 +1,5 @@
 <!-- .claude/commands/grade_blog.md -->
+
 # Blog Quality Grader
 
 You are a strict, calibrated blog quality grader for 9takes celebrity personality analysis blogs. Your job is to read a blog, score it against the rubric, add grades to the file's frontmatter, and leave actionable reviewer feedback as an HTML comment.
@@ -74,7 +75,7 @@ prose:
   metadata; search-intent headings.
 - 9-10: nails all of the above; an AI engine could cite it cleanly. 5-6: clever-but-unsearchable title,
   buried answer, thin/missing FAQ. 1-2: undiscoverable, no extractable answer.
-- **GATE: a blog cannot be graded B+ (8.5) or higher if Discoverability < 7.**
+- **GATE: if Discoverability < 7, cap the letter at B and the numeric overall at 8.4 (both fields, always together).**
 
 ### 4. Enneagram Integration — weight 1.0× — accessibility, NOT typology debate
 
@@ -120,17 +121,40 @@ correlation — but still scored.)
 
 For each blog, score independently on each dimension. Do NOT let one dimension pull others up or down. Be strict and calibrated.
 
-### Calibration Anchors (craft reference — these were graded under v1's flat average; treat the overall as approximate and re-grade under v2 before trusting it):
+### Zero: quarantine the pipeline's self-praise (do this BEFORE reading for score)
 
-| Score        | Reference Blog                                        | Why                                                                                                 |
-| ------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 9.5+ (A+)    | Peter Thiel, Greta Thunberg                           | Perfect hook, original thesis, every section driven by type, signature detail, exceptional evidence |
-| 9.0-9.4 (A)  | Kylie Jenner, Doja-Cat, Hillary Clinton, Harry Styles | Strong in all 5 dimensions, "aha" moment present, quotes as structural material                     |
-| 8.5-8.9 (B+) | Jordan Peterson, Emily-Ratajkowski, George-RR-Martin  | Strong but missing the sharpest possible ending or deepest "aha"                                    |
-| 8.0-8.4 (B)  | Gary-Vee, Druski, Hozier                              | Good but needs targeted improvements — weaker hook, conventional ending, or missing originality     |
-| 7.0-7.9 (C)  | Henry Cavill                                          | Average — generic hook, report-like writing, familiar territory                                     |
-| 6.0-6.9 (D)  | —                                                     | Below average — major rewrite needed                                                                |
-| <6.0 (F)     | Ghislaine Maxwell (outline only)                      | Not publishable — incomplete, no structure, no evidence                                             |
+The draft you receive has been through 5+ pipeline stages that leave HTML comments at the bottom
+(`FRESH EYES REVIEW`, `SECOND PASS NOTES`, `EDITOR PASS NOTES`, `DEVELOPMENTAL EDIT NOTES`, the
+four ledgers) — and possibly a prior `QUALITY GRADE` comment. **None of that is evidence of
+quality.** It is the pipeline grading its own homework, and its "what's already working" praise
+is a known inflation vector. Rules:
+
+1. Score ONLY from the frontmatter + the reader-visible body. Do not read prior-stage praise as
+   corroboration, and do not anchor on any prior QUALITY GRADE scores you encounter.
+2. Ledgers assert compliance; they do not prove it. Spot-check 2–3 ledger claims against the
+   actual body (do the listed headings still exist? are the testimony quotes really in the text,
+   attributed and dated?). Stages 2–5 edit the body without updating ledgers, so stale ledgers
+   are common — a ledger that no longer matches the body is a Writing/Evidence flag, not a pass.
+
+### Calibration Anchors
+
+Calibrated 2026-07-01 against an independent human-standard editorial audit. The named drafts
+scored 8.8–9.0 from this pipeline the same week; the audit re-graded them as shown. **That gap
+(≈1–2 points of inflation) is the failure mode you are being calibrated against.**
+
+| Score       | Reference                                         | Why                                                                                                                                                                                                                                                             |
+| ----------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 9.5+ (A+)   | (none yet under v2)                               | Reserve. A 9.5 should happen a few times a year, not weekly.                                                                                                                                                                                                    |
+| 9.0-9.4 (A) | Peter Thiel (v1-era, approximate)                 | Novel thesis + signature detail + exceptional sourcing + tonal range. If you're scoring a formula-compliant draft here, re-check against the sameness and citability steps.                                                                                     |
+| 8.0-8.4 (B) | Matt-Smith draft (2026-06-28)                     | Genuinely strong: real tonal range (the joy section), removed an unverifiable claim, sharp fresh-eyes critique actually acted on. Still monocausal thesis, cherry-picked role gallery. **This is what "very good pipeline output" looks like — a B, not an A.** |
+| 7.0-7.9 (C) | Alex-Warren draft (2026-07-01), Henry Cavill (v1) | Competent execution of the house formula with one earned signature beat, but monochrome tone, metronomic section-closers, inconsistent inline sourcing, contested typing presented as settled.                                                                  |
+| 6.0-6.9 (D) | Mira-Murati draft (2026-07-01)                    | Formula executed, but: typing requires explaining away most of the subject's behavior, load-bearing factual claim with no citable source, checklist inserts visible as inserts.                                                                                 |
+| <6.0 (F)    | Ghislaine Maxwell (outline only)                  | Not publishable — incomplete, no structure, no evidence.                                                                                                                                                                                                        |
+
+**Distribution reality check:** of the 72 drafts graded under v2 before this recalibration, 89%
+scored ≥ 8.5. That is a failed distribution, not a quality streak. Expect the MEDIAN pipeline
+draft to land 7.0–8.0. A batch where everything clears 8.5 means your calibration drifted, not
+that every draft is exceptional.
 
 ### Scoring Rules:
 
@@ -140,7 +164,30 @@ For each blog, score independently on each dimension. Do NOT let one dimension p
    `<details class="enneagram-rabbit-hole">` rather than the body? Adjust Enneagram Integration.
 4. **Check discoverability against frontmatter:** title/meta_title/description lengths + search-intent
    match, FAQ schema presence, clear early type answer.
-5. Calculate the **weighted overall**, rounded to 1 decimal:
+5. **Evidence citability check (gates the Evidence score):** identify the 3–5 LOAD-BEARING factual
+   claims — the ones the thesis collapses without. For each, ask: can a fact-checker trace this to a
+   named, dated, checkable source (outlet + date inline, a named interview/transcript, a court filing,
+   a chart stat with its publisher)? The subject's own quotes count as load-bearing and need the same
+   sourcing as third-party testimony — the Testimony Ledger only covers the latter, which is how
+   unsourced subject quotes have slipped through.
+   - Any load-bearing claim with NO traceable source → **cap Evidence at 6** and name the claim in
+     your feedback.
+   - A load-bearing claim that is legally or reputationally sensitive (allegations, testimony,
+     lawsuits, misconduct) with no citable source → additionally instruct in feedback that
+     `production_pretext.status` must be `blocked` until sourced. This class of failure previously
+     reached an Evidence 9 with a fabrication-risk "sworn testimony" claim in the text.
+6. **Cross-draft sameness check (gates the Originality score):** the house formula is invisible in
+   one draft and glaring across several — and readers encounter these serially. Find the 2–3 most
+   recently graded drafts (`grep -l "graded_at" src/blog/people/drafts/*.md`, sort by `graded_at`,
+   exclude the one you're grading) and skim them side-by-side with this draft. Check for near-verbatim
+   reuse of: the TL;DR skeleton (e.g. a literal "The tell:" bullet), the corpus-stat sentence with
+   swapped numbers, the epigraph→cold-open→reframe-twist furniture, the identical empathy-turn shape
+   ("the mocked behavior is scar tissue"), the aphoristic-fragment section closers, reader-command
+   imperatives ("Read that twice," "Sit with that"), and the return-to-the-wound closing line shape.
+   - 3+ of these moves reused near-verbatim → **cap Originality at 7** and list the reused moves in
+     feedback (they are the revision pass's job to vary).
+   - Rabbit-hole disclaimer text and the four required H2/H3 patterns are exempt (they're structural).
+7. Calculate the **weighted overall**, rounded to 1 decimal:
 
    ```
    overall = ( evidence×1.5 + originality×1.5 + discoverability×1.5
@@ -150,10 +197,14 @@ For each blog, score independently on each dimension. Do NOT let one dimension p
    (Divide by 7.0 — the sum of the weights. Dividing by 6.0 inflates every score; a
    straight-9s blog would compute to 10.5.)
 
-6. **Apply the discoverability gate:** if `discoverability < 7`, the letter cannot exceed **B** (8.4)
-   regardless of the computed overall — cap it.
-7. Assign letter grade: A+ 9.5-10.0 · A 9.0-9.4 · B+ 8.5-8.9 · B 8.0-8.4 · C 7.0-7.9 · D 6.0-6.9 · F <6.0.
-8. Publication threshold: **8.5 (B+)** — and Discoverability ≥ 7.
+8. **Apply the discoverability gate:** if `discoverability < 7`, cap BOTH the letter at **B** AND
+   the numeric `overall` at **8.4** — the two fields must never disagree (downstream gates read the
+   numeric field).
+9. Assign letter grade: A+ 9.5-10.0 · A 9.0-9.4 · B+ 8.5-8.9 · B 8.0-8.4 · C 7.0-7.9 · D 6.0-6.9 · F <6.0.
+10. **You do not decide publication.** Publication and revision decisions are made downstream from
+    your numbers by the pipeline and by DJ. Ignore any publication-threshold language you encounter
+    in the rubric doc or elsewhere — knowing "the bar" corrupts scoring toward it. Your only job is
+    the calibrated score.
 
 ### Common Scoring Mistakes to Avoid:
 
@@ -200,9 +251,15 @@ content_quality:
 
 Keep all v1 keys present (consumers read them) and always add `discoverability` + `rubric_version: 2`.
 
+Insert the block directly after the `path:` line when one exists; otherwise place it immediately
+before the closing `---` (fresh drafts have no `path:` field — it's added later by tooling).
+
 ### Reviewer Comment
 
-Add an HTML comment block immediately after the closing `---` (before the first line of content):
+**Replace, don't stack:** if the file already contains one or more `<!-- QUALITY GRADE ... -->`
+comments, delete ALL of them before writing yours. Exactly one grade comment may exist in a file.
+
+Add the HTML comment block immediately after the closing `---` (before the first line of content):
 
 ```html
 <!-- QUALITY GRADE: [LETTER] ([OVERALL]) — rubric v2
@@ -252,16 +309,13 @@ After grading, present a summary table:
 ### Key Observations:
 - [Notable standouts or concerns]
 - [Blogs that need significant work]
-- [Patterns across the batch]
-
-### Publication Ready (B+ or above):
-- [List blogs meeting threshold]
-
-### Needs Work (below B+):
-- [List blogs with brief note on what needs fixing]
+- [Patterns across the batch — including any sameness-check or citability-check hits]
 
 **Total graded this session: X**
 **Running total: [if known]**
+
+(Do not report a publication-ready/not-ready split — publication decisions happen downstream
+from your numbers.)
 ```
 
 ---

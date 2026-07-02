@@ -1,0 +1,89 @@
+[2026-07-02 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-02 02:00:00] [INFO] SELECTED: zac-efron (Type 3)
+[2026-07-02 02:00:00] [INFO] Launching pipeline for zac-efron
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  zac-efron
+Draft:   src/blog/people/drafts/zac-efron.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron
+Started: Thu Jul  2 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 zac-efron --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron/1_create.log
+─────────────────────────────────────────────────────
+You've hit your session limit · resets 3:10am (America/New_York)
+[Stage 1] create finished 02:04:29 (exit=1)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:04:29)
+Command: /blog_content_fresh_eyes_people zac-efron
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+You've hit your session limit · resets 3:10am (America/New_York)
+[Stage 2] fresh_eyes finished 02:04:30 (exit=1)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:04:30)
+Command: /blog_content_second_pass_people zac-efron
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron/3_second_pass.log
+─────────────────────────────────────────────────────
+You've hit your session limit · resets 3:10am (America/New_York)
+[Stage 3] second_pass finished 02:04:31 (exit=1)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:04:31)
+Command: /cohesion-check src/blog/people/drafts/zac-efron.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron/4_cohesion.log
+─────────────────────────────────────────────────────
+You've hit your session limit · resets 3:10am (America/New_York)
+[Stage 4] cohesion finished 02:04:32 (exit=1)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:04:32)
+Command: /blog_content_editor_pass_people zac-efron
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron/5_editor_pass.log
+─────────────────────────────────────────────────────
+You've hit your session limit · resets 3:10am (America/New_York)
+[Stage 5] editor_pass finished 02:04:34 (exit=1)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:04:34)
+Command: /blog_content_frontmatter_enrich_people zac-efron
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+You've hit your session limit · resets 3:10am (America/New_York)
+[Stage 6] enrich_frontmatter finished 02:04:35 (exit=1)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron/6.5_lint.log
+─────────────────────────────────────────────────────
+Draft not found: zac-efron
+[Stage 6.5] lint FAILED (exit=2) — failures listed above; pipeline continues (run-all-then-report)
+
+[pre-grade] Draft not found at /Users/djwayne/9takes/src/blog/people/drafts/zac-efron.md, skipping grade-block cleanup
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:04:35)
+Command: /grade_blog zac-efron
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron/7_grade.log
+─────────────────────────────────────────────────────
+You've hit your session limit · resets 3:10am (America/New_York)
+[Stage 7] grade finished 02:04:36 (exit=1)
+
+[Stage 8] Skipped revision loop: no grade found (grade stage may have failed)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: zac-efron
+Finished: Thu Jul  2 02:04:36 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron
+LINT: FAILED — see the latest lint log in /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-02_020000_zac-efron (deterministic rule violations need fixing before publish)
+REVISION LOOP: not needed
+
+═════════════════════════════════════════════════════
+[2026-07-02 02:04:36] [INFO] Pipeline exited code=0 after 4 min
+[2026-07-02 02:04:36] [ERROR] RETRY 2/3: zac-efron returned to queue (no draft)
+[2026-07-02 02:04:36] [INFO] NOTIFY: ⚠️ 9takes nightly blog: Zac Efron produced no draft (exit=0). Retry 2/3 tomorrow.
+[2026-07-02 02:04:37] [INFO] Nightly blog cron finished

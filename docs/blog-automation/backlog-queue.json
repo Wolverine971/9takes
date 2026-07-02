@@ -1,11 +1,25 @@
 {
-	"lastUpdated": "2026-06-30T17:38:06Z",
+	"lastUpdated": "2026-07-02T06:04:36Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
+		{
+			"name": "zac-efron",
+			"displayName": "Zac Efron",
+			"type": 3,
+			"priority": 55,
+			"priorityReason": "Mainstream star with strong search volume, reinvention arc, and a clear Type 3 image-performance angle",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 2,
+			"strategicValue": "hollywood-heartthrob-cluster",
+			"recoveryNote": "2026-07-01 audit: 07-01T06:08 launch was orphaned (OpenClaw error turn killed the pipeline before stage 1 wrote output; 0-byte 1_create.log, no draft). Returned to front of queue."
+		},
 		{
 			"name": "jeff-goldblum",
 			"displayName": "Jeff Goldblum",
@@ -927,20 +941,7 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": {
-		"name": "zac-efron",
-		"displayName": "Zac Efron",
-		"type": 3,
-		"priority": 55,
-		"priorityReason": "Mainstream star with strong search volume, reinvention arc, and a clear Type 3 image-performance angle",
-		"estimatedTraffic": "very-high",
-		"searchVolume": "very-high",
-		"personaTitle": null,
-		"addedToQueue": "2026-04-12",
-		"retryCount": 0,
-		"strategicValue": "hollywood-heartthrob-cluster",
-		"startedAt": "2026-07-01T06:08:41Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "anna-wintour",

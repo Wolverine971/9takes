@@ -2,7 +2,7 @@
 
 # Weekly Growth Audit
 
-Run the 9takes weekly growth audit. This command is fired by cron every Monday (see `scripts/run-weekly-growth-audit.sh`) and can also be run manually.
+Run the 9takes weekly growth audit. This command is fired every Monday 6:00 AM ET by the OpenClaw cron job "9takes Weekly Marketing Automation" (a command payload running `scripts/run-weekly-marketing-automation.sh` → `scripts/run-weekly-growth-audit.sh`; manage with `openclaw cron`) and can also be run manually. The wrapper script verifies that `docs/growth/growth-log.md` actually gained a `### YYYY-MM-DD` entry for today — that dated entry is the success signal, so always write it.
 
 ## What to do
 

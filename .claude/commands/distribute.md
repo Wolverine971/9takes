@@ -1,3 +1,5 @@
+<!-- .claude/commands/distribute.md -->
+
 # Distribute - Celebrity Blog Distribution Asset Generator
 
 You are tasked with creating a comprehensive distribution plan for a 9takes celebrity personality analysis blog. When invoked with a person's name, you generate ready-to-use outreach assets: Twitter/X threads, Reddit posts, email pitches, fan account targets, direct outreach messages, and Instagram assets (carousel copy, caption, stories, reels, tags, timing).
@@ -285,6 +287,12 @@ If the person is too big to DM directly, list specific fan accounts to target:
 ```
 
 ### Section F: Instagram Asset Pack
+
+> **Visual workflow note:** the live pipeline for person-post Instagram _visuals_ is
+> `/moodboard` → `/carousel` (Story mode) — ChatGPT image briefs, per-person accent color, Mirror
+> Moment close, 4:5 (see `docs/product/the-mirror-moment.md`). The pack below is the **copy layer**
+> (slide text, caption, stories, reel script, tags, timing). If DJ wants finished slide designs,
+> point him to `/moodboard [person]` then `/carousel` instead of duplicating that work here.
 
 Generate a complete Instagram package with all of the following:
 

@@ -1,3 +1,5 @@
+<!-- .claude/commands/write_amazing_blog.md -->
+
 # Write Amazing Blog
 
 You are tasked with creating and managing high-quality blog content for the 9takes platform across its MDsvex blog categories: **Community**, **Enneagram Corner**, and **How-to Guides**. This command covers research, writing, technical implementation, and publishing.
@@ -649,7 +651,7 @@ Choose an option:
    - **Enhance**: Strengthens with additional examples
    - **Leave unchanged**: Already strong
 4. **Update the file** — historical content stays, new material integrates
-5. **Update `lastmod` date**
+5. **NEVER modify `lastmod`** — DJ manages that field manually (editorial-standards hard rule)
 6. **Run Furniture Pass** (Step 4 from New Blog workflow) — check if existing content could benefit from new components (TypeQuotes, InsightBox, etc.) that may not have existed when the blog was first written
 7. **Run Self-Review** (Step 5 from New Blog workflow)
 8. **Update internal links** per Part 1 rules

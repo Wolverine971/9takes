@@ -53,13 +53,14 @@ This command is **self-sufficient** — every framework it needs (the directing 
 Create these tasks at the start (TaskCreate/TaskUpdate):
 
 1. Resolve source + mine biography
-2. **Gate A** — pitch + lock the Vision palette
+2. **Gate A** — pitch + lock the Vision palette (eras + signature + per-person accent)
 3. **Gate B** — pitch POV moments, user picks the strongest
 4. **Gate C** — direct camera/light/style per chosen shot
 5. Write prompts + variation/kill guidance
 6. **Enrichment pass** — composition-first, then props (§13)
 7. **Recognition litmus pass** — would the subject recognize the moment? (§14)
-8. Write moodboard doc + report
+8. **Mirror shot** — the empty frame + the question layer (§15)
+9. Write moodboard doc + report
 
 ---
 
@@ -162,10 +163,11 @@ Start the Vision pitch from the person's type, then bend it to _their_ specifics
 ## 8. Brand non-negotiables
 
 - **Amber (Streetlamp V5)** is the accent; dark text on amber fills. **Never red/teal/rose** for primary.
+- **Per-person accent (lock it at Gate A):** alongside amber, pick ONE secondary color that is _theirs_ (Chappell = hot pink, Lana/Type 4 = purple). The eventual deck uses it for the cover vibe, eye-bar, and `TYPE N` label. Amber stays primary; the person accent never takes over. Base = black.
 - **Real scenes, no statue overlay** (per §6). The subject is the moment the person lived, not a stylized stand-in.
 - **Fixed chrome** on any slide that becomes a deck panel: `9takes` top-left · theme tag top-right · `9takes.com` bottom-left.
 - **Exactly one bright/high-key slide** per eventual deck — the peak. Everything else is moody.
-- **1:1 square**, composition top-weighted to survive the feed crop.
+- **1:1 square**, composition top-weighted — the eventual story deck is **4:5 vertical**, so POV shots generate at 1:1 with the meaning in the upper 4/5 of the frame, then crop to 4:5. (A cover background, if requested, generates at 4:5 directly.)
 - **Real over rendered:** describe one believable frame in plain, sensory language. No 3D-render or "make it epic" tails — those produce the generic glossy AI look iklipse mocks.
 
 ## 9. Prompt skeletons (only after Gates A–C are locked)
@@ -270,6 +272,24 @@ For each shot, interrogate it as them:
 
 If a shot fails the test, name **why** (wrong era, wrong emotion, too staged, too generic, prop-stuffed) and fix the prompt — usually by correcting composition/era/emotion (per §13), not by adding props. Only ship the set once every shot would make the subject nod. State the verdict per shot in the report (e.g. "Shot 1 ✓ — she'd recognize the Willard pew; Shot 4 ✓ — her Lollapalooza 2024 lucha outfit + pink-cowboy-hat crowd, exactly the moment she opened with 'Femininomenon'").
 
+## 15. The mirror shot (the set's final frame — always include it)
+
+Every person set ships **one extra shot that is not about them**: the **Mirror Moment** (canonical spec: `docs/product/the-mirror-moment.md`). It becomes the deck's last slide, where the lens turns off the subject and onto the reader — their pattern becomes a question about **yours**. The recognition litmus (§14) does not apply to this shot; it's for the reader, not the subject.
+
+Rules for the frame:
+
+- **Empty of people.** The subject's space with the subject gone — the vacated vanity stool, the empty desk chair, the notecards with no hand. Absolutely no person, face, or human reflection.
+- **Rhyme it against one earlier shot.** Same room/setup as a shot the reader just lived through, now vacated and turned slightly toward the viewer — "this seat is for you."
+- **Generous negative space** — the frame carries large centered overlay text later; keep the center clean and uncluttered. Quiet and invitational, not sad or spooky.
+- Shared signature still applies (amber sliver, grain, 1:1, one dominant light source) — but **no fact caption** on this shot; the question is the only text.
+
+Rules for the question layer (written beside the prompt, added in Canva, never in-prompt):
+
+- **Bridge line** (small, on top): universal, no subject name — _"We all build something to survive. The hard part is remembering how to take it off."_
+- **The mirror question** (large, centered): must trace back to the through-line without needing the subject's story, and must be **near-verbatim to the 9takes question page** it will drive to.
+- **The 9takes-only test** — the question must be: non-binary · demands a narrative · about the reader, not the subject · too exposed to answer in public comments (so it drives to 9takes). Fails any one → rewrite.
+- **No CTA on this frame** — the silence after the question is the mechanic. Note the **caption bridge** for the deck (_"You just answered that in your head, didn't you? Write it down where it counts. 👇"_) and the landing: **bio link → the question page, not the analysis blog.**
+
 ## Step 0 — Resolve source + mine biography
 
 Resolve `$ARGUMENTS` to a person. Gather real material (do **not** invent biography):
@@ -288,8 +308,9 @@ Pitch (≤1 screen), seeded from §7 and §12:
 - **Person overview:** type (wing), persona, and 4–6 things worth highlighting about how they see the world.
 - **Eras:** 3–5 distinct life eras/facets, each with a one-line **mood** (these are the palettes the shots will draw from). Show the tonal range — include at least one tonal-outlier era (the "spicy"/warm one, the manic one, the broken one).
 - **Shared signature:** the thin constant across all shots (§12) — amber accent + bottom-right caption + film-grain finish + 1:1 POV.
+- **Per-person accent:** the one secondary color that is _theirs_ (§8), with a one-line why.
 
-Then **stop and ask**: _"Lock the eras + signature, or adjust?"_ Do not proceed until approved.
+Then **stop and ask**: _"Lock the eras + signature + accent, or adjust?"_ Do not proceed until approved.
 
 ## Step 2 — Gate B: Pitch POV moments (tagged by era)
 
@@ -327,9 +348,13 @@ Run §13 over every prompt just written, **in priority order**: composition & an
 
 Run §14: step into the **subject's** head and judge every shot against _"Would this person recognize this moment in time — is it how they'd remember or describe it?"_ Check each for right era/place, real emotional truth, an authentic self-in-frame, and the one tell only someone who lived it would include. Fix any shot that fails (usually by correcting composition/era/emotion, not adding props). Carry a one-line per-shot verdict into the report.
 
-## Step 7 — Write the moodboard doc + report
+## Step 7 — The mirror shot (do NOT skip)
 
-Write `docs/ai-image-gen/moodboards/<person-slug>-moodboard.md` (template below) using the **enriched, recognition-checked** prompts. Then report — include the per-shot recognition verdicts — and tell the user the next move: `/carousel <Person>` will consume this moodboard's locked vision + shot prompts for its image slides.
+Run §15: design the set's final frame — the subject's space, vacated, rhymed against one earlier shot — plus the question layer (bridge line + mirror question passing the 9takes-only test + caption bridge + question-page landing). Write its full prompt in the same §9 brief shape.
+
+## Step 8 — Write the moodboard doc + report
+
+Write `docs/ai-image-gen/moodboards/<person-slug>-moodboard.md` (template below) using the **enriched, recognition-checked** prompts. Then report — include the per-shot recognition verdicts — and tell the user the next move: `/carousel <Person>` will consume this moodboard's locked vision + shot prompts for its image slides (Story mode). As renders are approved, file them at `docs/ai-image-gen/moodboards/<person-slug>/images/shot-N-<name>.png`; the deck build sheet will live beside them at `<person-slug>/carousel.md`.
 
 ---
 
@@ -342,7 +367,12 @@ Write `docs/ai-image-gen/moodboards/<person-slug>-moodboard.md` (template below)
 
 > Enneagram: <N (wing)> · Persona: <persona_title> · Theme tag: <Reading People / The Nine / ...>
 > Source: <tidbits / draft / published analysis>
-> Status: ERAS + SIGNATURE LOCKED <date>
+> Per-person accent: <color + one-line why>
+
+## Status log
+
+- <date> — eras + signature + accent locked
+- (append one dated line per revision — never grow a single run-on Status line)
 
 ## The through-line
 
@@ -368,10 +398,11 @@ Write `docs/ai-image-gen/moodboards/<person-slug>-moodboard.md` (template below)
 
 ## Shot list
 
-| #   | Moment | Era   | POV lens  | Camera (angle · dist · lens) | Accentuates | Peak?               |
-| --- | ------ | ----- | --------- | ---------------------------- | ----------- | ------------------- |
-| 1   | <name> | <era> | <#/label> | <...>                        | <the point> | <bright peak ✓ / —> |
+| #   | Moment                  | Era   | POV lens       | Camera (angle · dist · lens) | Accentuates                    | Peak?               |
+| --- | ----------------------- | ----- | -------------- | ---------------------------- | ------------------------------ | ------------------- |
+| 1   | <name>                  | <era> | <#/label>      | <...>                        | <the point>                    | <bright peak ✓ / —> |
 | ... |
+| N   | The Mirror Moment (§15) | —     | — (the reader) | <...>                        | turns the lens onto the reader | mirror ⚡           |
 
 ## Shots (palette + story + caption + prompt)
 
@@ -396,12 +427,17 @@ _Vary: <the one axis to spin>._ · _Kill rule: <keep only the frame where ...>._
 
 [...one block per shot...]
 
-**Text panels (if any) → gemini-imagegen:** <briefs with exact text + chrome>
+### Shot N — The Mirror Moment (this seat is for you) · Era: none — this slide is not about them ⚡
+
+<per §15: the vacated frame rhymed against Shot <X>, palette, why-this-shot, the bridge line + mirror question (near-verbatim to the target question page), the 9takes-only test, the caption bridge, the landing (question page, not blog), and the full ChatGPT prompt in a fenced code block with variation + kill rule. No fact caption — the question is the only text.>
+
+**Text panels (if any) → gemini-imagegen** (requires `GEMINI_API_KEY`; else ChatGPT text-free background + Canva type): <briefs with exact text + chrome>
 
 ## Hand-off
 
-Feed to `/carousel <Person>` — it consumes these era-tuned shot prompts for the deck's image slides (no flat re-prompting). The bright peak shot maps to the deck's single inverted/high-key slide.
+Feed to `/carousel <Person>` (Story mode) — it consumes these era-tuned shot prompts for the deck's image slides (no flat re-prompting). The bright peak shot maps to the deck's single inverted/high-key slide; the mirror shot is the deck's final frame.
 Generate Shot 1 in ChatGPT first, approve it, then upload it as a style reference for the rest to lock the grain/amber/finish across the set.
+File approved renders at `docs/ai-image-gen/moodboards/<person-slug>/images/shot-N-<name>.png` — the deck build sheet lives beside them at `<person-slug>/carousel.md`.
 ````
 
 Then report to the user:
@@ -411,8 +447,8 @@ Then report to the user:
 
 **File:** docs/ai-image-gen/moodboards/<slug>-moodboard.md
 **Through-line:** <one line>
-**Shots:** <N> POV frames (<count by lens>), peak = shot <X>
-**Next:** /carousel <Person> — it'll use this vision instead of flat prompts.
+**Shots:** <N> POV frames (<count by lens>), peak = shot <X>, mirror = shot <Y> ("<the question>")
+**Next:** /carousel <Person> — Story mode; it'll use this vision instead of flat prompts.
 ```
 
 ---
@@ -425,6 +461,7 @@ Self-sufficient by design. Distilled from:
 - `docs/ai-image-gen/iklipse-only-ai-workflow.md` — "the prompt comes last" sequencing.
 - `docs/ai-image-gen/iklipse-camera-angle-cheat-sheet.md` — the angle→emotion table (§4).
 - `docs/ai-image-gen/iklipse-better-ai-results.md` — "lock the mood, lighting, camera" / the reference test.
-- `.claude/commands/carousel.md` — the deck engine this feeds.
-- `midjourney-prompt` skill — full Greek-statue + other photo templates.
-- `gemini-imagegen` skill — text-in-image panels.
+- `.claude/commands/carousel.md` — the deck engine this feeds (Story mode is the person-deck consumer).
+- `docs/product/the-mirror-moment.md` — the canonical mirror-shot / final-slide mechanic (§15).
+- `midjourney-prompt` skill — legacy Greek-statue + other photo templates (fallback only).
+- `gemini-imagegen` skill — text-in-image panels (needs `GEMINI_API_KEY`).

@@ -4,12 +4,12 @@ meta_title: "Cathie Wood's Enneagram Type: Why 7w8 Explains the Doubling Down"
 persona_title: "Disruption's Pulpit Pioneer"
 description: 'Cathie Wood lost 67% in a single year and bought more. Here is what Enneagram Type 7w8 reveals about why she keeps the future open when the present collapses.'
 author: 'DJ Wayne'
-date: '2026-04-29'
+date: '2026-07-02'
 loc: 'https://9takes.com/personality-analysis/cathie-wood'
-lastmod: '2026-04-30'
+lastmod: '2026-07-02'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['entrepreneur', 'techie', 'business-operator']
 person: 'cathie-wood'

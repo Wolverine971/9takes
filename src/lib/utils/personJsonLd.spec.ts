@@ -235,6 +235,70 @@ describe('buildPersonPageJsonLd', () => {
 		expect(article).not.toHaveProperty('image');
 	});
 
+	it('emits richer article, author, publisher, and citation metadata', () => {
+		const result = buildPersonPageJsonLd(
+			minimalInput({
+				imageUrl: 'https://9takes.com/social-image.png?path=%2Ftypes%2F3s%2FTaylor-Swift.webp',
+				imageWidth: 1080,
+				imageHeight: 1080,
+				articleCitations: [
+					{
+						name: 'Taylor Swift Vogue profile',
+						author: 'Vogue',
+						datePublished: '2019-08-08',
+						publisher: 'Vogue',
+						url: 'https://www.vogue.com/article/taylor-swift-cover-story-september-2019'
+					}
+				],
+				citations: ['https://en.wikipedia.org/wiki/Taylor_Swift']
+			})
+		);
+
+		const article = getGraphNode(result, 'Article') as Record<string, unknown>;
+		expect(article).toMatchObject({
+			name: 'Taylor Swift: The Psychology of Pop Reinvention',
+			url: CANONICAL_URL,
+			image: {
+				'@type': 'ImageObject',
+				url: 'https://9takes.com/social-image.png?path=%2Ftypes%2F3s%2FTaylor-Swift.webp',
+				width: 1080,
+				height: 1080
+			},
+			thumbnailUrl: 'https://9takes.com/social-image.png?path=%2Ftypes%2F3s%2FTaylor-Swift.webp',
+			citation: [
+				{
+					'@type': 'CreativeWork',
+					name: 'Taylor Swift Vogue profile',
+					author: 'Vogue',
+					datePublished: '2019-08-08',
+					publisher: 'Vogue',
+					url: 'https://www.vogue.com/article/taylor-swift-cover-story-september-2019'
+				},
+				'https://en.wikipedia.org/wiki/Taylor_Swift'
+			]
+		});
+
+		const author = result['@graph'].find((node) => node['@id'] === AUTHOR_DJ_WAYNE_ID);
+		expect(author).toMatchObject({
+			'@type': 'Person',
+			name: 'DJ Wayne',
+			url: 'https://9takes.com/about',
+			jobTitle: 'Creator of 9takes',
+			image: 'https://9takes.com/brand/djface.webp'
+		});
+
+		const publisher = result['@graph'].find((node) => node['@id'] === PUBLISHER_ID);
+		expect(publisher).toMatchObject({
+			'@type': 'Organization',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://9takes.com/brand/darkRubix.png',
+				width: 512,
+				height: 512
+			}
+		});
+	});
+
 	it('omits each Person attribute individually when its input is absent', () => {
 		const result = buildPersonPageJsonLd(
 			minimalInput({

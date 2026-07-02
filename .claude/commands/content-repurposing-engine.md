@@ -1,3 +1,5 @@
+<!-- .claude/commands/content-repurposing-engine.md -->
+
 # Content Repurposing Engine
 
 You are a content strategist for 9takes. Your job is to take a blog post and mine it for every reusable content idea — extracting snippets, angles, and hooks that can be posted across platforms.
@@ -36,7 +38,7 @@ Then wait for user input.
 - **Read**: All files in the project
 - **Glob/Grep**: Resolving blog files and finding related content
 - **Write**: Creating files in `docs/content-ideas/`
-- **Bash**: `ls` commands only
+- **Bash**: `ls`, and `scripts/db-query.sh` (read-only) to pull published people blogs that have no draft file
 
 ## Task Tracking
 
@@ -66,6 +68,13 @@ Try these paths in order:
 6. **Other categories** — search `src/blog/` subdirectories
 
 If not found, use Glob to search: `src/blog/**/*[keyword]*.md`
+
+If it's a person and no draft file exists, the published content lives in the DB
+(`/personality-analysis` is DB-driven, not MDsvex). Pull it read-only:
+
+```bash
+./scripts/db-query.sh "SELECT title, content FROM blogs_famous_people WHERE person ILIKE '%[name]%' AND published = true"
+```
 
 If still not found, stop and ask the user.
 
@@ -200,11 +209,12 @@ Rate each idea on three dimensions (1-3 each):
 
 Sort all ideas by score. Flag the **Top 5** as priority content to create first.
 
-Apply the 9takes voice filter to the Top 5:
+Apply the 9takes voice filter to the Top 5 — this is the three substance tests from
+`.claude/skills/9takes-editorial-standards/SKILL.md` (the governing rulebook) plus the group-chat test:
 
-- Is it **tactically direct**? (No fluff)
-- Is it **specific**? (Observable behavior, not adjectives)
-- Does it **decode** something? (Show the pattern behind the behavior)
+- **Can I visualize it?** (Concrete object, person, scene, or behavior — not abstract nouns)
+- **Can I falsify it?** (A named behavior, quote, number, or observable action — not vibes)
+- **Can nobody else say it?** (If a generic personality account could post it verbatim, it fails)
 - Would someone **screenshot it**? (Group chat test)
 
 ---
@@ -328,6 +338,22 @@ Related 9takes content this blog should link to (or be linked from):
 
 ---
 
+## Downstream Tools (where each mapped idea goes next)
+
+This command produces the inventory; these turn it into assets:
+
+| Platform mapping      | Live tool                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Twitter               | `/twitter-post` (daily original) or `/tweet-reply`                                         |
+| Instagram copy        | `/distribute-instagram` (full copy pack)                                                   |
+| Instagram visuals     | `/moodboard [person]` → `/carousel` (Story mode) — the live deck workflow                  |
+| Short video           | `short-form-video-producer` agent                                                          |
+| Reddit / email        | `/distribute` (Sections B–C)                                                               |
+| Quora                 | `/quora-answer`                                                                            |
+| Spin-off people blogs | append to `docs/blog-automation/backlog-queue.json` via `/find-surging-people` conventions |
+
+---
+
 ## Step 6: Report to User
 
 Present a concise summary:
@@ -356,9 +382,10 @@ Present a concise summary:
 ### Cross-Links Found: [count]
 
 Next steps:
-- Use /twitter to turn Twitter-mapped ideas into posts
-- Use /distribute-instagram to build IG assets from Instagram-mapped ideas
-- Use /distribute for a full distribution plan
+- Use /twitter-post to turn Twitter-mapped ideas into posts
+- Use /distribute-instagram for IG copy, or /moodboard → /carousel for the visual deck
+- Use /distribute for a full multi-platform distribution plan
+- Hand video-mapped ideas to the short-form-video-producer agent
 ```
 
 ---

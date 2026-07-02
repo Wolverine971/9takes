@@ -47,6 +47,34 @@ fi
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TIMESTAMP="$(date +%Y-%m-%d_%H%M%S)"
 LOG_DIR="$REPO_ROOT/docs/content-analysis/pipeline-logs/${TIMESTAMP}_${PERSON}"
+
+# ── Lock: one pipeline at a time (mkdir is atomic; macOS has no flock) ──────
+LOCK_DIR="$REPO_ROOT/docs/content-analysis/pipeline-logs/.pipeline.lock"
+if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+  LOCK_PID="$(cat "$LOCK_DIR/pid" 2>/dev/null || echo "")"
+  if [[ -n "$LOCK_PID" ]] && kill -0 "$LOCK_PID" 2>/dev/null; then
+    echo "Another pipeline run (pid $LOCK_PID, $(cat "$LOCK_DIR/person" 2>/dev/null)) is active. Exiting." >&2
+    exit 2
+  fi
+  echo "Stale lock found (pid ${LOCK_PID:-unknown} not running) — taking over." >&2
+  rm -rf "$LOCK_DIR"
+  mkdir "$LOCK_DIR" || { echo "Could not acquire lock after stale cleanup." >&2; exit 2; }
+fi
+echo $$ > "$LOCK_DIR/pid"
+echo "$PERSON" > "$LOCK_DIR/person"
+
+# ── Failure sentinel: if we exit before COMPLETED=1, record where we died ──
+CURRENT_STAGE="startup"
+PIPELINE_COMPLETED=0
+on_exit() {
+  local code=$?
+  if [[ "$PIPELINE_COMPLETED" -ne 1 ]]; then
+    echo "stage=$CURRENT_STAGE exit=$code died_at=$(date '+%Y-%m-%d %H:%M:%S')" > "$LOG_DIR/FAILED_AT_STAGE" 2>/dev/null
+  fi
+  rm -rf "$LOCK_DIR"
+}
+trap on_exit EXIT
+
 mkdir -p "$LOG_DIR"
 
 DRAFT_PATH="src/blog/people/drafts/${PERSON}.md"
@@ -58,6 +86,8 @@ run_stage() {
   local log_file="$LOG_DIR/${stage_num}_${stage_name}.log"
   local started_at
   started_at="$(date +%H:%M:%S)"
+
+  CURRENT_STAGE="${stage_num}_${stage_name}"
 
   echo "─────────────────────────────────────────────────────"
   echo "[Stage $stage_num] $stage_name  (started $started_at)"
@@ -92,18 +122,29 @@ clear_grading_frontmatter() {
     echo "[pre-grade] Draft not found at $file, skipping grade-block cleanup"
     return 0
   fi
-  if ! grep -q "^content_quality:" "$file"; then
-    echo "[pre-grade] No existing content_quality block on draft, nothing to clear"
-    return 0
+  if grep -q "^content_quality:" "$file"; then
+    echo "[pre-grade] Stripping existing content_quality block from $DRAFT_PATH for a clean re-grade"
+    awk '
+      /^---$/ { fm_boundary++; print; next }
+      fm_boundary == 1 && /^content_quality:[[:space:]]*$/ { in_block = 1; next }
+      fm_boundary == 1 && in_block && /^[[:space:]]/ { next }
+      fm_boundary == 1 && in_block { in_block = 0 }
+      { print }
+    ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+  else
+    echo "[pre-grade] No existing content_quality block on draft"
   fi
-  echo "[pre-grade] Stripping existing content_quality block from $DRAFT_PATH for a clean re-grade"
-  awk '
-    /^---$/ { fm_boundary++; print; next }
-    fm_boundary == 1 && /^content_quality:[[:space:]]*$/ { in_block = 1; next }
-    fm_boundary == 1 && in_block && /^[[:space:]]/ { next }
-    fm_boundary == 1 && in_block { in_block = 0 }
-    { print }
-  ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+  # Also strip prior QUALITY GRADE HTML comments so the re-grade is not
+  # anchored by the previous grader's scores (and stacked comments don't
+  # accumulate). Removes every such comment, wherever it sits in the body.
+  if grep -q "<!-- QUALITY GRADE" "$file"; then
+    echo "[pre-grade] Stripping prior QUALITY GRADE comment(s) from $DRAFT_PATH"
+    awk '
+      /^<!-- QUALITY GRADE/ { in_grade = 1 }
+      in_grade { if (/-->[[:space:]]*$/) in_grade = 0; next }
+      { print }
+    ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+  fi
 }
 
 run_lint() {

@@ -1,0 +1,16 @@
+## Editor pass complete — `Zac-Efron.md`
+
+This draft came in already strong (through fresh-eyes + second-pass, zero em-dashes, zero banned phrases), so this was a true final polish, not a rescue.
+
+**What I cleaned up:**
+- **The "Here is…" reveal tic** was the one real AI cadence left — used 5 times as a spotlight ("Here is the man…", "here is the sentence…", "Here is the detail that reframes everything:", "here is what it cost…", "Here is what the joke was actually laughing at."). At that frequency the reader feels the scaffolding. Cut to 2, keeping it only for the opening flourish and the jaw-accident empathy turn where it earns its drama; the other three now vary ("Then the sentence…", a folded-in real sentence, "And what it cost…").
+- **A near-duplicate reader-command** — "Read that as a Nine and it clicks" followed a few paragraphs later by "Read as a Nine it's the same pattern." Changed the second to "Underneath it's the same pattern" so it reads as a fresh observation, not a rerun.
+
+**What I deliberately left alone:**
+- The empathy turn and both interior beats (the inner-thought Baywatch block, the Byron Bay swim) — the emotional layer, protected per standards.
+- The Type-3-vs-Nine contrast pairs — those aren't filler symmetry, they're the analytical spine ("A Type 3 always knows whether they're winning" does real discriminating work).
+- The closing image, which lands rather than summarizes.
+
+**Verified mechanically:** `./scripts/blog-lint.sh Zac-Efron` → 0 fail. The single warn is the `faqs` frontmatter enrichment (discoverability-only, out of scope for the editor pass).
+
+**Verdict:** Production-ready prose. The only thing between it and publish is the `faqs` enrich stage, which is a separate discoverability step, not a language issue.

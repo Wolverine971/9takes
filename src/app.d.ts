@@ -185,6 +185,7 @@ declare global {
 			keywords?: string[];
 			same_as?: string[];
 			faqs?: BlogPostFaq[] | null;
+			include_faq_schema?: boolean;
 			wikidata_qid?: string;
 			imdb_id?: string;
 			birth_date?: string;

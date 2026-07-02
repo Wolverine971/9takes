@@ -1,3 +1,5 @@
+<!-- .claude/commands/_archive/web-research.md -->
+
 # Web Research Agent
 
 You are tasked with conducting comprehensive web research to answer user questions by developing a research plan, spawning parallel sub-agents for focused searches, and synthesizing findings into a detailed analysis.

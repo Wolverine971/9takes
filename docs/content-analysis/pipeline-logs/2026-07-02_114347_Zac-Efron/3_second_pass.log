@@ -1,0 +1,21 @@
+Done. Second pass complete on `src/blog/people/drafts/Zac-Efron.md`.
+
+## What I changed
+
+The fresh-eyes review was strong and mostly correct. I acted on all five substantive notes:
+
+1. **Added the Vanessa Hudgens beat** (the review's biggest catch). Worked a single line into "Why Zac Efron never really chose acting" — the HSM off-screen couple (2006–2010, verified) framed as the assigned role and the assigned life lining up. It's the cleanest real-life proof of the Nine merge thesis, and it was a conspicuous hole for anyone who lived through that era.
+
+2. **Cut the keystone quote from three uses to two.** "I don't know whether I was enjoying the process" now appears verbatim only at the epigraph and the closing payoff; the diagnosis section paraphrases it so the third hit no longer feels like scaffolding.
+
+3. **Added a craft beat.** The Greatest Showman (2017, verified) as the charm-is-real-skill answer to the "can't act" knock — opposite Zendaya (internal link, already in suggestions). Keeps the profile from reading as "damaged pretty guy" and gives the collaborator praise something concrete to point at.
+
+4. **Added interior to the Byron Bay swim** — phosphorescent water, no camera deciding what his body is for — so the felt interior survives into the back half.
+
+5. **Thinned the disappear/merge vocabulary**, cutting the weakest instances ("the disappearing act," "gone dark," "He was gone") while keeping the load-bearing ones.
+
+Lint passes clean (0 fail; the one warn is the separate frontmatter-enrich stage, out of scope). I left the jaw-accident empathy turn, the collaborator-consensus paragraph, and the quarantined 3-vs-9 counter-read untouched, since the review correctly flagged those as already working.
+
+**Still open:** nothing blocking. The only loose end is the frontmatter `faqs` enrich stage (discoverability), which is a later pipeline step, not an editor concern.
+
+Sources for the facts I added: [Distractify — Efron/Hudgens timeline](https://www.distractify.com/p/zac-efron-vanessa-hudgens-relationship-timeline), [CNN — Efron on The Greatest Showman](https://www.cnn.com/2017/12/21/entertainment/zac-efron-the-greatest-showman), [The Greatest Showman — Wikipedia](https://en.wikipedia.org/wiki/The_Greatest_Showman).

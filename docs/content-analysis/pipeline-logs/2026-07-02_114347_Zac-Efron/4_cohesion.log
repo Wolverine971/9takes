@@ -1,0 +1,25 @@
+The edit is applied. Here's the completion report.
+
+## Cohesion Check Complete: Zac-Efron.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Zac Efron is an Enneagram Type 9 who merges so completely with what's asked of him that he loses track of what he himself wants, and his body, fame, addiction, and retreat are the record of that self-forgetting and his slow attempt to find his own desires.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- **"Ran to Australia" section, jaw-accident empathy turn → craft material (para 4 → 5):** Replaced the weak, misattributed bridge *"The retreat also has to answer the oldest knock on him..."* with *"The face wasn't the only thing the public misread. The oldest knock on him... is that he's a pretty face who can't really act."* This carries the "misread" keyword from the preceding jaw-accident paragraph, fixes the subject (the *public* misreads his talent — his performances answer it, not "the retreat"), and surfaces the section's actual through-line (external misreading vs. Nine truth) at the exact seam that bumped.
+
+### What Was Preserved
+- All frontmatter fields, working notes, and ledgers
+- All Svelte/HTML blocks (`firstLetter`, TL;DR `<details>`, `inner-thought`, Rabbit Hole)
+- All internal links (Type 9, Dwayne Johnson, Zendaya, Nicole Kidman, wings/subtypes guides)
+- Every other transition — the diagnosis→childhood, childhood→Baywatch ("the pattern had a shape, and the shape had abs"), Baywatch→drinking ("the more dangerous version of the same instinct"), and Australia→Iron Claw ("where the whole pattern comes to a point") bridges were already strong and were left untouched
+- The verbatim quotes, empathy turn, and collaborator-consensus paragraph
+
+### Remaining Concerns (writer's judgment, no edit made)
+- The **"Ran to Australia and stayed" section is doing four jobs** under one heading (retreat, face-mockery/near-death, acting craft, collaborator testimony). Every beat serves the thesis and the bridge fix now holds them together as a "misread vs. truth" sequence, so it's cohesive as written. But if you ever want it tighter structurally, the craft + collaborator material (Greatest Showman, Bundy, Rogen/Farrelly/Durkin/Kidman) is really a *"can he actually act, and what do the people who know him say"* beat that could stand as its own short H2. That's a structural/developmental call, not a cohesion defect — flagging it, not touching it.
+- No orphaned threads found: agoraphobia (intro) resolves in the Rabbit Hole 6-arrow; "didn't deserve the attention" (intro) resolves across diagnosis and childhood; the Bundy disagreement is deliberately left open, which is the right call.

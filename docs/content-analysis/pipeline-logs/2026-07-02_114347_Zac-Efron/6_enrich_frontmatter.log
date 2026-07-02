@@ -1,0 +1,38 @@
+Enrichment written. All FAQ answers are double-quoted (internal quotes are single), so the YAML is valid.
+
+```
+Frontmatter enrichment complete: Zac-Efron
+
+Fields filled:
+- wikidata_qid (Q45229), imdb_id (nm1374980 — cross-checked against Wikidata P345),
+  birth_date, birth_place, nationality, occupation, knows_about, keywords,
+  same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia, twitter, instagram (social handles left untouched)
+- all creator fields (title, meta_title, persona_title, description, enneagram,
+  type, person, suggestions, production_pretext, etc.)
+
+FAQs generated (5):
+1. What is Zac Efron's personality type?              → #what-is-zac-efrons-personality-type
+2. Why did Zac Efron regret his Baywatch body?        → #why-zac-efron-hated-the-baywatch-body-everyone-wanted
+3. What happened to Zac Efron's face?                 → #why-zac-efron-ran-to-australia-and-stayed
+4. Why did Zac Efron move to Australia?               → #why-zac-efron-ran-to-australia-and-stayed
+5. Why did Zac Efron struggle with drinking and drugs? → #the-years-zac-efron-drank-to-disappear
+
+Issues:
+- The body contains NO inline external URLs — only internal /personality-analysis
+  and /enneagram-corner links. Per the "don't invent" rule, I built `citations`
+  from the real authoritative sources the body explicitly names and quotes
+  (NPR Iron Claw 2023, Variety Iron Claw/HSM 2023, Men's Health agoraphobia
+  reporting) plus Wikipedia — verified live, not fabricated. Still, the draft's
+  thin inline sourcing is a content-quality note: the writer names Hot Ones (2020),
+  The Rake (2023), Nielsen (2007) etc. without linking them.
+- Wikidata QID required a correction mid-research: the name-guessed Q170572 resolved
+  to Alec Baldwin. Correct entity is Q45229, re-verified via P345 = nm1374980.
+- FAQs 3 and 4 share the same anchor (Australia section) because the body covers
+  both the face accident and the move in that one H2 — intentional, both deep-link
+  to the right section.
+```
+
+Body, HTML comment blocks, `lastmod`, `production_pretext`, and social handles were all left untouched.

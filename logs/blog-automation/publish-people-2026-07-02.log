@@ -1,0 +1,21 @@
+Published people blog.
+
+```text
+Person: cathie-wood
+Draft: src/blog/people/drafts/Cathie-Wood.md
+Date/lastmod: 2026-07-02
+Supabase: published=true (row id 1004)
+Images: full + thumbnail present (static/types/7s/Cathie-Wood.webp, s-Cathie-Wood.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Verification details:
+
+- The draft now has `published: true` with `date` and `lastmod` set to 2026-07-02 (grade 8.5, 3,815 words).
+- `famousTypes.ts` flipped Cathie Wood to `link: true, hasImage: true, lastmod: '2026-07-02'`.
+- `static/sitemap.xml` includes `https://9takes.com/personality-analysis/cathie-wood` with today's lastmod.
+
+One incidental change worth knowing about: the regenerated `famousTypes.ts` also picked up an updated Jimmy Fallon row from the database (new persona title "Late Night's Grinning Escape Artist", grade 8.8). That came from DB state, not this publish — likely from parallel work on that entry, so I left it as-is.

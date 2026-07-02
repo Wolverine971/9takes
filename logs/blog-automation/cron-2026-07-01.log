@@ -22,3 +22,10 @@ Stage 1 (`create`) has launched cleanly — draft path and per-stage logs are be
 The full 7-stage pipeline (create → fresh_eyes → second_pass → cohesion → editor_pass → enrich_frontmatter → grade, plus conditional revise/regrade) typically takes 30–60 minutes. It's harness-tracked, so it stays alive across turns and will re-invoke me automatically when it exits — at which point I'll verify the draft, capture the grade from frontmatter, update the queue (move to `completed`, clear `inProgress`, increment the weekly rate-limit count), and send the notification.
 
 I'll hold here until the pipeline completes.
+[2026-07-01 18:37:15] [INFO] Nightly blog cron starting (dry-run=1)
+[2026-07-01 18:37:15] [INFO] SELECTED: zac-efron (Type 3)
+[2026-07-01 18:37:15] [INFO] DRY RUN complete — would run pipeline for zac-efron
+[2026-07-01 18:43:37] [INFO] Nightly blog cron starting (dry-run=1)
+[2026-07-01 18:43:37] [INFO] SELECTED: zac-efron (Type 3)
+[2026-07-01 18:43:37] [INFO] DRY RUN complete — would run pipeline for zac-efron
+[2026-07-01 18:43:37] [INFO] Nightly blog cron finished

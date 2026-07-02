@@ -123,7 +123,7 @@ Apply the 9takes-editorial-standards rulebook to the full draft.
 - Do not make the tone more corporate, more formal, or more generic
 - Do not add obvious AI phrases while trying to "improve" the prose
 - Keep the focus on the person, not on Enneagram jargon
-- Update `lastmod` if you make substantive changes
+- **NEVER modify `lastmod`** — DJ manages that field manually (editorial-standards hard rule)
 
 ---
 

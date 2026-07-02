@@ -990,33 +990,45 @@ The mechanism: a **single collapsed `<details>` block** dropped into the body ne
 
 **Required structure:**
 
+<!-- prettier-ignore-start -->
 ```html
 <details class="enneagram-rabbit-hole">
-	<summary class="accordion">
-		🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for [Person]
-	</summary>
-	<div class="panel">
-		<p>
-			<em
-				>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis
-				stands on its own.</em
-			>
-		</p>
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for [Person]</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system. The rest of the analysis stands on its own.</em></p>
 
-		### [Person]'s Wing: [X]w[Y] [2-3 paragraphs analyzing the wing call. What evidence supports it?
-		What does the wing add to the core type? Cite specific behaviors. Link the type explainer once:
-		<a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a>.] ### [Person]'s
-		Instinctual Subtype: [sp/so/sx — best guess] [2-3 paragraphs on the dominant instinct. Show
-		evidence from how they spend time, what they prioritize, what they fight for. Link:
-		<a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.] ### Stress
-		and Growth Arrows [1-2 paragraphs. When [Person] is under pressure, do we see Type [stress
-		arrow] patterns? When healthy, do we see Type [growth arrow] patterns? Cite specific moments.]
-		### Counterarguments: Why [Person] Might Not Be Type X [1-2 paragraphs. Honestly engage the
-		strongest alternate type case. What evidence weakens our typing? What would change our mind?
-		This is the intellectual-honesty signal LLMs reward.]
-	</div>
+### [Person]'s Wing: [X]w[Y]
+
+[2-3 paragraphs analyzing the wing call. What evidence supports it? What does the wing add to
+the core type? Cite specific behaviors. Link the explainer once:
+<a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a>.]
+
+### [Person]'s Instinctual Subtype: [sp/so/sx — best guess]
+
+[2-3 paragraphs on the dominant instinct. Show evidence from how they spend time, what they
+prioritize, what they fight for. Link:
+<a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.]
+
+### Stress and Growth Arrows
+
+[1-2 paragraphs. When [Person] is under pressure, do we see Type [stress arrow] patterns? When
+healthy, do we see Type [growth arrow] patterns? Cite specific moments.]
+
+### Counterarguments: Why [Person] Might Not Be Type X
+
+[1-2 paragraphs. Honestly engage the strongest alternate type case. What evidence weakens our
+typing? What would change our mind? This is the intellectual-honesty signal LLMs reward.]
+
+</div>
 </details>
 ```
+<!-- prettier-ignore-end -->
+
+**Formatting requirements for this block (MDsvex is strict here):** the HTML wrapper tags stay
+flush-left (no indentation — indented lines inside `<details>` can render as code blocks), each
+`###` heading sits on its own line with a blank line before and after, and the markdown headings
+must NOT be flowed into paragraph text. The `<!-- prettier-ignore -->` guards above exist because
+Prettier once reflowed this template and jammed the headings mid-line — do not remove them.
 
 **Rules for the rabbit hole:**
 
@@ -1151,7 +1163,7 @@ Pick the lightest weight update that solves the problem:
 - Prefer adding depth over deleting history.
 - Use new evidence to sharpen the thesis, not to start over.
 - Keep Enneagram framing limited and reader-accessible.
-- Update `lastmod` in the frontmatter after meaningful revisions.
+- **NEVER modify `lastmod`** on an existing draft — DJ manages that field manually. (Setting it once when CREATING a brand-new draft is fine.)
 
 ### Step 4: Re-research intelligently
 

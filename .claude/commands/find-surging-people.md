@@ -1,3 +1,5 @@
+<!-- .claude/commands/find-surging-people.md -->
+
 # Find Surging People — Personality-Analysis Intake Scout
 
 You are a content-intelligence scout for 9takes' `/personality-analysis` section. Your job: find
@@ -40,8 +42,9 @@ Bias toward strong niches and toward people whose attention is _rising_, not pea
 
 - **WebSearch / WebFetch**: research trending people, news cycles, releases, search interest
 - **Read / Glob / Grep**: inspect existing coverage in `src/blog/people/drafts/` and docs
-- **Bash**: `ls`, `node` read-only scripts to list existing people / query published status
+- **Bash**: `ls`, `scripts/db-query.sh` (forced read-only) to list existing people / query published status
 - **Write**: the dated intel brief in `docs/content-research/` only
+- **Edit**: `docs/blog-automation/backlog-queue.json` — append-only, and ONLY after DJ confirms (Step 5)
 
 Do NOT write or edit blog drafts. Do NOT touch the database (read-only queries are fine).
 
@@ -56,22 +59,19 @@ Build the "already covered" set so you can classify every surging name as NEW vs
 ls src/blog/people/drafts/*.md | sed 's#.*/##; s#\.md$##' | sort
 ```
 
-For published + freshness + current grade, query the DB read-only (service key is in `.env`):
+For published + freshness + current grade, query the DB read-only via the sanctioned runner
+(`SUPABASE_DB_URL` lives in `.env.local`; the script forces a read-only session):
 
 ```bash
-node -e '
-import("@supabase/supabase-js").then(async ({createClient})=>{
-  const d=await import("dotenv"); d.config();
-  const s=createClient(process.env.PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY,{auth:{persistSession:false}});
-  const {data}=await s.from("blogs_famous_people")
-    .select("person,title,enneagram,type,published,published_at,lastmod,content_quality")
-    .order("person");
-  console.log(JSON.stringify((data||[]).map(b=>({
-    person:b.person, published:b.published, enneagram:b.enneagram,
-    type:b.type, lastmod:b.lastmod, published_at:b.published_at,
-    grade:(b.content_quality||{}).overall ?? null
-  }))));
-});'
+./scripts/db-query.sh "SELECT person, published, enneagram, type, lastmod, published_at,
+  content_quality->>'overall' AS grade
+FROM blogs_famous_people ORDER BY person"
+```
+
+Also load the automation queue — anyone already queued is neither NEW nor forgotten:
+
+```bash
+cat docs/blog-automation/backlog-queue.json | jq '[.queue[] | {name, type, priority, searchVolume}]'
 ```
 
 Hold three facts per existing person: **covered?**, **published?**, **how old is the last update
@@ -116,6 +116,8 @@ harder signal than a single article. State your confidence honestly — directio
 For every surging person, decide one of:
 
 1. **CREATE (new blog)** — surging, strong/medium niche, enough public record, NOT already covered.
+   If the person is already in the backlog queue, classify as **QUEUE BUMP** instead — recommend a
+   priority raise with the new catalyst as the reason, don't duplicate the entry.
 2. **UPDATE (refresh existing)** — already covered, but re-surging (new catalyst) and/or the post is
    stale (old `lastmod`). Refresh leverages existing index age — often the best ROI.
 3. **CROSS-REFERENCE / LINK** — already covered and healthy; flag as an internal-link or distribution
@@ -169,6 +171,26 @@ Structure:
 - What's culturally hot right now in our niches, emerging clusters, anything DJ should know.
 - Any niche we're under-indexed on relative to where attention is going.
 
+## Queue-ready entries (for backlog-queue.json)
+
+For each CREATE pick, a ready-to-append entry in the queue's schema:
+
+\`\`\`json
+{
+"name": "kebab-case-slug",
+"displayName": "Person Name",
+"type": null,
+"priority": 50,
+"priorityReason": "one-line catalyst + demand signal",
+"estimatedTraffic": "high",
+"searchVolume": "high",
+"personaTitle": null,
+"addedToQueue": "YYYY-MM-DD",
+"retryCount": 0,
+"strategicValue": "cluster-tag"
+}
+\`\`\`
+
 ## Method / caveats
 
 - Searches run, dates, confidence notes. Flag anything you couldn't verify.
@@ -179,13 +201,21 @@ Enneagram angle is. A boring type on a high-demand subject still wins traffic.
 
 ---
 
-## Step 5: Report to DJ in chat
+## Step 5: Report to DJ in chat + feed the automation queue
 
 Give a tight summary: top 3–5 moves (create vs update), the single highest-ROI pick and why, and the
 path to the brief. Then offer to:
 
-- Kick off `/blog_content_creator_people_v2` on a chosen CREATE pick, or
+- **Append chosen CREATE picks to `docs/blog-automation/backlog-queue.json`** — this is the queue the
+  nightly OpenClaw pipeline actually writes from, so a scout run that skips this step doesn't change
+  what gets published. Rules: append-only; never remove or reorder existing entries; never touch
+  `inProgress`; set `priority` relative to the current top of the queue (a genuinely surging person
+  should outrank evergreen backlog names); update `lastUpdated`.
+- Bump priority on any QUEUE BUMP picks (edit `priority` + `priorityReason` in place, nothing else).
+- Kick off `/blog_content_creator_people_v2` on a CREATE pick if DJ wants it now instead of queued, or
 - Open the existing draft for a chosen UPDATE pick.
+
+Only edit the queue after DJ confirms which picks to add.
 
 ---
 
@@ -203,5 +233,6 @@ path to the brief. Then offer to:
 ## Go deeper
 
 - Traffic-driver analysis: `docs/content-analysis/personality-analysis-performance-deep-dive-2026-05-29.md`
+- Automation queue this feeds: `docs/blog-automation/backlog-queue.json` (consumed by `/daily-blog-creator` via the nightly OpenClaw job)
 - Blog creator: `.claude/commands/blog_content_creator_people_v2.md`
 - Valid niche `type` values + persona vocab: see "Valid Field Values Reference" in the creator command

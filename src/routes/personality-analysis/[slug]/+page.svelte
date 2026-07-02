@@ -46,6 +46,7 @@
 	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte';
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
+	import ArticleSources from '$lib/components/blog/ArticleSources.svelte';
 
 	export let data: PageData;
 
@@ -620,6 +621,11 @@
 					{@html dossierSplit.after}
 				</div>
 			{/if}
+
+			<ArticleSources
+				citations={postMeta.citations ?? []}
+				articleCitations={postMeta.article_citations ?? []}
+			/>
 
 			<!-- ★ PRIMARY ACTION — the give-first Chorus is the one thing this page
 			     drives toward. Everything below is supporting content or quiet,
@@ -1254,6 +1260,53 @@
 		:global(blockquote p) {
 			margin-bottom: 0;
 			color: var(--ink-bright);
+		}
+
+		:global(.source-card) {
+			display: grid;
+			grid-template-columns: auto 1fr;
+			gap: 0.85rem;
+			margin: 1.75rem 0;
+			padding: 1rem 1.1rem;
+			background: var(--night-mid);
+			border: 1px solid var(--stone-edge);
+			border-left: 3px solid var(--data-teal);
+			border-radius: 8px;
+			box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+		}
+
+		:global(.source-card__icon) {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 1.6rem;
+			min-width: 1.6rem;
+			height: 1.6rem;
+			font-size: 1rem;
+			line-height: 1;
+		}
+
+		:global(.source-card__title) {
+			margin-bottom: 0.18rem;
+			font-weight: 700;
+			font-size: 0.98rem;
+			line-height: 1.35;
+			color: var(--ink-bright);
+		}
+
+		:global(.source-card__meta) {
+			margin-bottom: 0.45rem;
+			font-family: var(--font-mono);
+			font-size: 0.72rem;
+			letter-spacing: 0.06em;
+			text-transform: uppercase;
+			color: var(--data-teal);
+		}
+
+		:global(.source-card__note) {
+			font-size: 0.95rem;
+			line-height: 1.55;
+			color: var(--ink-mid);
 		}
 
 		:global(strong) {

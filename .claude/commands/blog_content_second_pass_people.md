@@ -113,7 +113,7 @@ Make the blog stronger using the comments, your judgment, and any targeted resea
 - If a section makes the same point as another section, merge or cut
 - Preserve lines, stories, and sections that are already working
 - If a review note would make the draft worse, ignore it and note that in the pass summary
-- Update `lastmod` if you make substantive changes
+- **NEVER modify `lastmod`** — DJ manages that field manually (editorial-standards hard rule)
 
 ### AI Language Ban
 

@@ -1,0 +1,19 @@
+Revision pass complete on `src/blog/people/drafts/Zac-Efron.md`.
+
+## What triggered the loop
+Grade **C (7.9)** — under the 8.0 bar. Lint was already clean (0 fail). The single cause was the grader's **SAMENESS CAP** holding Originality at 7: three house-formula moves reused near-verbatim from the last people draft (Alex-Warren). Originality is 1.5× weighted, so it got the most attention.
+
+## Fixes applied (mapped to grader items)
+- **De-formula'd the TL;DR** (NEEDS WORK #1 + TO REACH #1) — swapped the generic `type / contradiction / childhood-engine / tell / growth-edge` skeleton for Efron-specific labels ("The body he fled", "The engineer's son on a stage", "The line that gives him away", "The way back"). Kills the specifically-flagged "The tell:" bullet.
+- **Cut both reader-command tics** (NEEDS WORK #1 + TO REACH #1) — "Sit with the machinery of it" → "The machinery had a cost"; "Read that as a Nine and it clicks" → "Filtered through the Nine, it clicks". Grader asked to vary ≥2 of 3 formula moves; TL;DR + reader-commands = two.
+- **meta_title now carries the keyword** (NEEDS WORK #2) — "Zac Efron, Enneagram Type 9: The Body He Fled" (45 chars, keeps curiosity).
+- **Face FAQ got its own landing** (NEEDS WORK #2, minor) — added search-intent H3 "What actually happened to Zac Efron's face" and repointed the anchor off the shared Australia anchor. Bonus: it matches a high-volume query.
+- **Thinned one back-half disappear/merge instance** (TO REACH #2, optional) — "the disappearing act" → "all that self-erasure".
+
+## Rejected
+- **Did not touch the epigraph→firstLetter cold-open** (formula move #3). The grader required varying at least two of three; TL;DR + reader-commands satisfy that, and the Hook scored 9 — reworking the strong opener risks a net loss.
+
+## Verification
+Lint **clean** (0 fail, 0 warn) after all edits. Revision note appended at the bottom.
+
+The pipeline will now strip the old grade and re-grade. I did not grade it myself — `/grade_blog` owns that.

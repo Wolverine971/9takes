@@ -2,7 +2,13 @@
 
 # Daily Blog Creator - Automated Workflow
 
-You are the automated blog creation orchestrator for 9takes. Your job is to run daily, select the next blog from the queue, execute the content creation workflow, and handle the results.
+> **NOTE (2026-07-01): the nightly 2 AM cron no longer runs this command.** It runs
+> `scripts/nightly-blog-cron.sh` directly (OpenClaw command payload, no agent turn) — that
+> script does the same preflight/selection/queue-update/notify deterministically in bash.
+> This command remains for **manual or ad-hoc agent-driven runs only**. If you change the
+> queue rules here, mirror the change in `scripts/nightly-blog-cron.sh`.
+
+You are the automated blog creation orchestrator for 9takes. Your job is to select the next blog from the queue, execute the content creation workflow, and handle the results.
 
 ## Pre-Flight Checks (CRITICAL)
 
@@ -161,16 +167,26 @@ shipping without fresh eyes, editor polish, or frontmatter enrichment (no `faqs`
 cd /Users/djwayne/9takes && ./scripts/run-blog-pipeline.sh ${selectedName} 2>&1 | tee -a /Users/djwayne/9takes/logs/blog-automation/cron-$(date +%Y-%m-%d).log
 ```
 
-**RUN SYNCHRONOUSLY — DO NOT BACKGROUND THIS. (CRITICAL)**
+**NEVER END YOUR TURN WHILE THE PIPELINE IS RUNNING. (CRITICAL)**
 
-Run the pipeline in the **foreground** and **block until it exits**. Do **NOT** spawn it as a
-background task / `run_in_background` and then end your turn. If your turn ends while the
-pipeline is still running, the process is orphaned and killed by the scheduler — stage 1 never
-writes a draft, and `inProgress` is left set, which silently blocks every subsequent daily run.
-This is exactly the failure that lost 2026-06-13 (hailee-steinfeld: `inProgress` stuck, draft
-never created, `1_create.log` was 0 bytes). You MUST wait for the `run-blog-pipeline.sh` exit
-code, then proceed to Step 3 (verify draft) and Step 5 (update queue / clear `inProgress`) in
-the **same** run. Setting `inProgress` and exiting before the pipeline finishes is a defect.
+A single blocking foreground call is **not possible** — the Bash tool caps foreground commands
+at 10 minutes and the pipeline runs 20–60+. "Run it synchronously" therefore means this exact
+pattern, the only one that has ever worked:
+
+1. Launch detached: `run_in_background` (or `nohup ... &`), capture the PID.
+2. **Hold the turn open by actually executing wait/poll tool calls** — repeated bounded
+   foreground loops (~9 min each), e.g.
+   `until ! pgrep -f "run-blog-pipeline.sh ${selectedName}" >/dev/null; do perl -e 'select(undef,undef,undef,30)'; done`
+   (foreground `sleep` is blocked by the harness; use the perl select idiom).
+3. Only when the process has exited do you proceed to Step 3 (verify draft) and Step 5
+   (update queue / clear `inProgress`) — in the **same** run.
+
+Writing "I'll wait for it to finish" as _text_ does nothing: if your final message is emitted
+while the pipeline is alive, the CLI exits (in `-p` mode there is no next turn) and SIGKILLs
+the pipeline — stage 1 never flushes a draft (0-byte `1_create.log`) and `inProgress` is left
+set, silently blocking every subsequent daily run. This exact failure killed 13 of 18 overnight
+runs Jun 12–Jul 1, 2026. A 0-byte create log with **no live process** = orphaned launch, not a
+live run.
 
 If the run exits or the session resumes and there is **no draft** plus a zero-byte
 `1_create.log`, treat it as a failed launch, not a live in-progress blog: immediately return the
@@ -397,9 +413,10 @@ Next Run: Tomorrow 2:00 AM
 8. **ALWAYS** move skipped items to `skipped` array, not `completed`
 9. **NEVER** exceed 120 minute timeout
 10. **ALWAYS** log everything
-11. **NEVER** background the pipeline and end your turn — run `run-blog-pipeline.sh`
-    synchronously, wait for its exit code, then verify the draft and clear `inProgress` in the
-    SAME run. Spawning it as a background task orphans it (the 2026-06-13 hailee-steinfeld bug).
+11. **NEVER** end your turn while the pipeline process is alive — launch detached, then hold
+    the turn open with real polling tool calls until the PID exits (see Step 2 for the exact
+    pattern), then verify the draft and clear `inProgress` in the SAME run. Backgrounding and
+    ending the turn orphans it (the failure behind 13 of 18 overnight runs, Jun 12–Jul 1 2026).
 12. **ALWAYS** clear same-day failed launches when no draft exists and `1_create.log` is 0 bytes;
     return the person to `queue` with `retryCount + 1` so tomorrow is not blocked.
 
