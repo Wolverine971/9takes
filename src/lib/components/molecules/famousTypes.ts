@@ -241,7 +241,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'kacey-musgraves', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Country\'s Disciplined Mystic', contentGrade: null, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'maddie-phillips', link: false, hasImage: false, lastmod: '2026-04-20', personaTitle: 'Streaming\'s Tender Shapeshifter', contentGrade: 8.7, types: ['newMovieStar', 'celebrity', 'rising-star'] },
 		{ name: 'nicholas-galitzine', link: false, hasImage: false, lastmod: '2026-05-29', personaTitle: 'Hollywood\'s Reluctant Adonis', contentGrade: 8.7, types: ['movieStar', 'newMovieStar'] },
-		{ name: 'oscar-isaac', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Cinema\'s Grief Alchemist', contentGrade: 8.6, types: ['movieStar', 'screen-icon'] }
+		{ name: 'oscar-isaac', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Cinema\'s Grief Alchemist', contentGrade: 8.6, types: ['movieStar', 'screen-icon'] },
+		{ name: 'rose-blackpink', link: false, hasImage: false, lastmod: '2026-07-02', personaTitle: 'K-Pop\'s Homesick Poet', contentGrade: 8.4, types: ['musician', 'celebrity'] }
 	],
 	5: [
 		{ name: 'agatha-christie', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Crime\'s Private Observer', contentGrade: 8.9, types: ['historical', 'author'] },

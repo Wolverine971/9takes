@@ -247,7 +247,7 @@
 				<p class="section-sub">Fresh insights, latest revisions.</p>
 			</header>
 
-			<CaseGrid columns={3}>
+			<CaseGrid columns={3} compactMobile>
 				{#each data.recentlyUpdated as person, i (person.slug)}
 					{@const typeNum = parseInt(person.enneagram ?? '0')}
 					{@const typeMeta = typeData[typeNum - 1]}
@@ -265,6 +265,7 @@
 						recency={getRecencyLabel(person.lastmod, person.date) ?? ''}
 						eager={i < 4}
 						stubLabel="[PORTRAIT]"
+						compactMobile={true}
 						ariaLabel={`Read analysis of ${displayName}`}
 					/>
 				{/each}
@@ -273,8 +274,8 @@
 	{/if}
 
 	<!-- =====================================================================
-	  §04 BY TYPE — 9 sub-sections, one per Enneagram type
-	  ===================================================================== -->
+		  §04 BY TYPE — 9 sub-sections, one per Enneagram type
+		  ===================================================================== -->
 	<section class="by-type">
 		<header class="section-head">
 			<SectionKicker class="section-tag" num="04" label="BY TYPE" />
@@ -284,6 +285,22 @@
 			</p>
 		</header>
 
+		{#if !data?.user}
+			<div class="type-signup">
+				<div class="type-signup-copy">
+					<SectionKicker label="CASE FILE DISPATCH" class="type-signup-kicker" />
+					<h3>Get the next famous-person read.</h3>
+					<p>
+						New public-figure breakdowns and pattern notes, sent only when there is a worthwhile
+						case file.
+					</p>
+				</div>
+				<div class="type-signup-form">
+					<EmailSignup embedded />
+				</div>
+			</div>
+		{/if}
+
 		{#each typeData as t}
 			{@const typePeople = peopleForType(t.num)}
 			{#if typePeople.length > 0}
@@ -292,7 +309,6 @@
 				<div class="type-block" id="type-{t.num}" style="--type-stripe: var(--type-{t.num}-color);">
 					<header class="type-block-head">
 						<SectionKicker
-							num={String(t.num).padStart(2, '0')}
 							label={`TYPE ${t.num} · THE ${t.name.toUpperCase()}`}
 							class="type-block-kicker"
 						/>
@@ -302,7 +318,7 @@
 						</p>
 					</header>
 
-					<CaseGrid columns={3}>
+					<CaseGrid columns={3} compactMobile>
 						{#each typePeople.slice(0, 6) as person (person.slug)}
 							{@const displayName = formatPersonalityDisplayName(person.slug)}
 							<CaseCard
@@ -317,6 +333,7 @@
 								stripe={`var(--type-${t.num}-color)`}
 								recency={getRecencyLabel(person.lastmod, person.date) ?? ''}
 								stubLabel="[PORTRAIT]"
+								compactMobile={true}
 								ariaLabel={`Read analysis of ${displayName}`}
 							/>
 						{/each}
@@ -338,26 +355,6 @@
 			{/if}
 		{/each}
 	</section>
-
-	<!-- =====================================================================
-	  §05 EMAIL SIGNUP — quiet V5-styled wrapper around the existing form
-	  (wired to /api/signups via Email-Signup component)
-	  ===================================================================== -->
-	{#if !data?.user}
-		<section class="signup">
-			<div class="signup-inner">
-				<SectionKicker class="section-tag" num="05" label="STAY IN THE LIBRARY" />
-				<h2 class="display-md">New reads, in your inbox.</h2>
-				<p class="section-sub">
-					Fresh personality breakdowns, community questions, and ideas worth stealing &mdash; sent
-					when there&rsquo;s something worth reading.
-				</p>
-				<div class="signup-form">
-					<EmailSignup />
-				</div>
-			</div>
-		</section>
-	{/if}
 </div>
 
 <style lang="scss">
@@ -463,8 +460,7 @@
 	  Section blocks — alternating night-deep / night-mid rhythm
 	  ========================================================= */
 	.featured,
-	.by-type,
-	.signup {
+	.by-type {
 		padding: 96px 48px;
 		background: var(--night-deep);
 		border-top: 1px solid var(--stone-edge);
@@ -493,7 +489,64 @@
 	  ========================================================= */
 	.by-type {
 		.section-head {
-			margin-bottom: 56px;
+			margin-bottom: 36px;
+		}
+	}
+
+	.type-signup {
+		max-width: 960px;
+		margin: 0 auto 56px;
+		padding: 24px;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+		gap: 24px;
+		align-items: center;
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+	}
+
+	.type-signup-copy {
+		text-align: left;
+
+		h3 {
+			margin: 8px 0 8px;
+			font-family: var(--font-display);
+			font-size: clamp(22px, 2.4vw, 28px);
+			line-height: 1.14;
+			letter-spacing: -0.015em;
+			color: var(--ink-bright);
+		}
+
+		p {
+			max-width: 520px;
+			font-size: 15px;
+			line-height: 1.55;
+			color: var(--ink-mid);
+		}
+	}
+
+	.library-index :global(.type-signup-kicker) {
+		color: var(--lamp-glow);
+	}
+
+	.type-signup-form {
+		min-width: 0;
+	}
+
+	@media (max-width: 768px) {
+		.type-signup {
+			grid-template-columns: 1fr;
+			margin-bottom: 44px;
+			padding: 20px;
+		}
+
+		.type-signup-copy {
+			text-align: center;
+
+			p {
+				margin-inline: auto;
+			}
 		}
 	}
 
@@ -572,8 +625,7 @@
 				background 0.18s ease,
 				border-color 0.18s ease,
 				color 0.18s ease,
-				box-shadow 0.18s ease,
-				transform 0.18s ease;
+				box-shadow 0.18s ease;
 		}
 
 		:global(.btn:hover) {
@@ -581,7 +633,21 @@
 			border-color: var(--type-stripe);
 			color: var(--ink-bright);
 			box-shadow: 0 0 0 4px rgba(var(--pool-rgb), 0.12);
-			transform: translateY(-1px);
+		}
+
+		@media (prefers-reduced-motion: no-preference) {
+			:global(.btn) {
+				transition:
+					background 0.18s ease,
+					border-color 0.18s ease,
+					color 0.18s ease,
+					box-shadow 0.18s ease,
+					transform 0.18s ease;
+			}
+
+			:global(.btn:hover) {
+				transform: translateY(-1px);
+			}
 		}
 
 		.cta-extra {
@@ -595,33 +661,6 @@
 				width: 100%;
 				justify-content: center;
 			}
-		}
-	}
-
-	/* =========================================================
-	  §05 SIGNUP — quiet wrapper around <EmailSignup>
-	  ========================================================= */
-	.signup-inner {
-		max-width: 720px;
-		margin: 0 auto;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 16px;
-	}
-
-	.signup-form {
-		width: 100%;
-		max-width: 560px;
-		margin-top: 16px;
-		padding: 24px;
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 16px;
-
-		@media (max-width: 540px) {
-			padding: 18px;
 		}
 	}
 

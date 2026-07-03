@@ -8,27 +8,30 @@ import type { Database } from '../../../../database.types';
 
 import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
-import { getCommentParents } from '../../../utils/conversions';
 
 type CommentRow = Database['public']['Tables']['comments']['Row'];
 type CommentDemoRow = Database['public']['Tables']['comments_demo']['Row'];
 type FlaggedCommentRow = Database['public']['Tables']['flagged_comments']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
 type ProfileRow = Database['public']['Tables']['profiles']['Row'];
-type QuestionRow = Database['public']['Tables']['questions']['Row'];
 type AppSupabase = SupabaseClient<Database>;
 type CommentParentData = Pick<CommentRow | CommentDemoRow, 'parent_type' | 'parent_id'>;
 type CommentsQueryTable = 'comments' | 'comments_demo' | 'flagged_comments' | 'blog_comments';
 type ProfileSummary = Pick<ProfileRow, 'email' | 'external_id'>;
+type ParentQuestionSummary = Pick<
+	Database['public']['Tables']['questions']['Row'],
+	'id' | 'question' | 'question_formatted' | 'url'
+>;
+type ParentCommentSummary = Pick<CommentRow, 'id' | 'comment'>;
 type AdminComment = (CommentRow | CommentDemoRow) & {
 	removed?: boolean;
 	profiles?: ProfileSummary | null;
 	profiles_demo?: ProfileSummary | null;
-	parentQuestion?: QuestionRow;
-	parentComment?: CommentRow;
+	parentQuestion?: ParentQuestionSummary;
+	parentComment?: ParentCommentSummary;
 };
 type FlaggedComment = FlaggedCommentRow & {
-	comments: CommentRow | null;
+	comments: Pick<CommentRow, 'id' | 'comment'> | null;
 	profiles: ProfileSummary | null;
 };
 type AdminBlogComment = BlogCommentRow & {
@@ -198,6 +201,77 @@ async function getPaginatedComments(
 	}
 }
 
+async function attachCommentParents(
+	comments: AdminComment[],
+	isDemo: boolean,
+	supabase: AppSupabase
+): Promise<AdminComment[]> {
+	const questionParentIds = [
+		...new Set(
+			comments
+				.filter(
+					(comment): comment is AdminComment & { parent_id: number } =>
+						comment.parent_id !== null && comment.parent_type === 'question'
+				)
+				.map((comment) => comment.parent_id)
+		)
+	];
+	const commentParentIds = [
+		...new Set(
+			comments
+				.filter(
+					(comment): comment is AdminComment & { parent_id: number } =>
+						comment.parent_id !== null && comment.parent_type !== 'question'
+				)
+				.map((comment) => comment.parent_id)
+		)
+	];
+
+	const db = supabase as any;
+	const [questionsResult, commentsResult] = await Promise.all([
+		questionParentIds.length
+			? db
+					.from(isDemo ? 'questions_demo' : 'questions')
+					.select('id, question, question_formatted, url')
+					.in('id', questionParentIds)
+			: Promise.resolve({ data: [], error: null }),
+		commentParentIds.length
+			? db
+					.from(isDemo ? 'comments_demo' : 'comments')
+					.select('id, comment')
+					.in('id', commentParentIds)
+			: Promise.resolve({ data: [], error: null })
+	]);
+
+	if (questionsResult.error) {
+		throw new Error(`Failed to get parent questions ${JSON.stringify(questionsResult.error)}`);
+	}
+	if (commentsResult.error) {
+		throw new Error(`Failed to get parent comments ${JSON.stringify(commentsResult.error)}`);
+	}
+
+	const questionMap = new Map<number, ParentQuestionSummary>(
+		((questionsResult.data ?? []) as ParentQuestionSummary[]).map((question) => [
+			question.id,
+			question
+		])
+	);
+	const commentMap = new Map<number, ParentCommentSummary>(
+		((commentsResult.data ?? []) as ParentCommentSummary[]).map((comment) => [comment.id, comment])
+	);
+
+	for (const comment of comments) {
+		if (comment.parent_id === null) continue;
+		if (comment.parent_type === 'question') {
+			comment.parentQuestion = questionMap.get(comment.parent_id);
+		} else {
+			comment.parentComment = commentMap.get(comment.parent_id);
+		}
+	}
+
+	return comments;
+}
+
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	try {
@@ -224,7 +298,7 @@ export const load: PageServerLoad = async (event) => {
 					commentsTable,
 					page,
 					{
-						selectionFields: `*, ${profileSelection}`,
+						selectionFields: `id, comment, created_at, parent_id, parent_type, removed, ${profileSelection}`,
 						limit: PAGE_SIZE,
 						orderField: 'created_at',
 						orderDirection: { ascending: false }
@@ -236,7 +310,7 @@ export const load: PageServerLoad = async (event) => {
 					'flagged_comments',
 					page,
 					{
-						selectionFields: `*, comments (*), profiles (*)`,
+						selectionFields: `id, comment_id, profile_id, description, created_at, removed_at, cleared_at, comments (id, comment), profiles (email, external_id)`,
 						limit: PAGE_SIZE,
 						filters: {
 							removed_at: null,
@@ -250,7 +324,7 @@ export const load: PageServerLoad = async (event) => {
 					'blog_comments',
 					page,
 					{
-						selectionFields: `*, profiles (*)`,
+						selectionFields: `id, comment, created_at, blog_link, blog_type, profiles (email, external_id)`,
 						limit: PAGE_SIZE
 					},
 					locals.supabase
@@ -259,7 +333,9 @@ export const load: PageServerLoad = async (event) => {
 
 		// Process comments to include parent questions
 		const recentComments = (comments ?? []) as unknown as AdminComment[];
-		const processedComments = recentComments.length ? await getCommentParents(recentComments) : [];
+		const processedComments = recentComments.length
+			? await attachCommentParents(recentComments, isDemo, locals.supabase)
+			: [];
 
 		return {
 			user,

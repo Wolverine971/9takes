@@ -1,10 +1,10 @@
 <!-- src/lib/components/questions/SearchQuestion.svelte -->
 <script lang="ts">
+	import { Button } from '$lib/components/atoms';
 	import { goto } from '$app/navigation';
 	import ComboBox from '$lib/components/molecules/ComboBox.svelte';
 	import Context from '$lib/components/molecules/Context.svelte';
 	import { createEventDispatcher, onDestroy } from 'svelte';
-	import { browser } from '$app/environment';
 	import type { User } from '$lib/types/questions';
 	import type { ComboBoxOption, ComboBoxSelectableOption } from '$lib/types/combobox';
 
@@ -41,12 +41,6 @@
 	let isSearching = $state(false);
 	let abortController: AbortController | null = null;
 	let searchError = $state('');
-	let isMobile = $state(false);
-
-	$effect(() => {
-		if (!browser) return;
-		isMobile = window.innerWidth < 768;
-	});
 
 	// Clean up resources on component destruction
 	onDestroy(() => {
@@ -187,36 +181,26 @@
 		if (timer) clearTimeout(timer);
 
 		// For empty searches, clear immediately without delay
-		if (!value.trim()) {
+		if (!value.trim() || value.trim().length < 2) {
 			options = [];
 			searchError = '';
+			isSearching = false;
 			return;
 		}
 
 		// Slightly longer delay to reduce server load
+		isSearching = true;
 		timer = setTimeout(() => searchES(value), 400);
 	};
 
 	// Memoized button properties
-	let buttonText = $derived(getButtonText(data, isMobile));
+	let buttonText = $derived(getButtonText(data));
 	let buttonDisabled = $derived(Boolean(!data?.canAskQuestion && data?.user?.id));
-	let placeholder = $derived(
-		data?.user?.id
-			? isMobile
-				? 'Search questions...'
-				: 'Search questions — or ask a new one'
-			: 'Search questions...'
-	);
+	let placeholder = $derived('Search questions...');
 
-	function getButtonText(pageData: SearchQuestionData, mobile: boolean): string {
-		if (!pageData?.user?.id) return mobile ? 'Sign up' : 'Sign up to ask';
-		return pageData?.canAskQuestion
-			? mobile
-				? 'Ask'
-				: 'Ask question'
-			: mobile
-				? 'Limit'
-				: 'Limit reached';
+	function getButtonText(pageData: SearchQuestionData): string {
+		if (!pageData?.user?.id) return 'Sign up to ask';
+		return pageData?.canAskQuestion ? 'Ask question' : 'Limit reached';
 	}
 
 	// Handle suggestion selection (question or category page)
@@ -276,11 +260,6 @@
 					{/snippet}
 				</ComboBox>
 			</Context>
-			{#if isSearching}
-				<div class="search-indicator" aria-hidden="true">
-					<span class="spinner"></span>
-				</div>
-			{/if}
 		</div>
 
 		{#if searchError}
@@ -291,36 +270,19 @@
 		{/if}
 	</div>
 
-	<button
-		class="search-button"
-		type="submit"
-		title={buttonText}
-		disabled={buttonDisabled}
-		aria-label={buttonText}
-	>
-		<span class="button-text">{buttonText}</span>
-		{#if !data?.user?.id}
-			<svg
-				class="button-icon"
-				width="16"
-				height="16"
-				viewBox="0 0 24 24"
-				fill="none"
-				stroke="currentColor"
-				stroke-width="2"
-			>
-				<path d="M18 8L22 12L18 16" />
-				<path d="M2 12H22" />
-			</svg>
-		{/if}
-	</button>
+	<div class="search-action">
+		<Button type="submit" size="lg" disabled={buttonDisabled} aria-label={buttonText}>
+			<span class="button-text">{buttonText}</span>
+			{#if !data?.user?.id}
+				<span class="button-arrow" aria-hidden="true">→</span>
+			{/if}
+		</Button>
+	</div>
 </form>
 
 <style lang="scss">
 	/* Variables for consistent styling */
 	$breakpoint-mobile: 640px;
-	$transition-fast: 0.2s ease;
-	$transition-standard: 0.3s ease;
 
 	.search-form {
 		display: flex;
@@ -343,31 +305,6 @@
 		position: relative;
 		width: 100%;
 		z-index: 10;
-	}
-
-	.search-indicator {
-		position: absolute;
-		top: 50%;
-		right: 1rem;
-		transform: translateY(-50%);
-		pointer-events: none;
-		z-index: 10;
-	}
-
-	.spinner {
-		display: block;
-		width: 20px;
-		height: 20px;
-		border: 2px solid var(--lamp-soft);
-		border-top-color: var(--lamp-glow);
-		border-radius: 50%;
-		animation: spin 0.8s linear infinite;
-	}
-
-	@keyframes spin {
-		to {
-			transform: rotate(360deg);
-		}
 	}
 
 	.search-error {
@@ -409,96 +346,21 @@
 		}
 	}
 
-	.search-button {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		padding: 0.75rem 1.5rem;
-		background-color: var(--lamp-glow);
-		color: var(--text-on-primary);
-		border: none;
-		border-radius: 0.625rem;
-		font-weight: 600;
-		font-size: 1rem;
-		white-space: nowrap;
-		cursor: pointer;
-		transition: all $transition-standard;
-		position: relative;
-		overflow: hidden;
+	.search-action {
 		flex-shrink: 0;
+	}
 
-		&::before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: -100%;
-			width: 100%;
-			height: 100%;
-			background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-			transition: left 0.5s ease;
-		}
-
-		&:hover:not(:disabled) {
-			background-color: var(--lamp-glow);
-			transform: translateY(-2px);
-			box-shadow: 0 0 20px var(--lamp-glow-rgba);
-
-			&::before {
-				left: 100%;
-			}
-		}
-
-		&:active:not(:disabled) {
-			transform: translateY(0);
-		}
-
-		&:disabled {
-			opacity: 0.6;
-			cursor: not-allowed;
-		}
-
-		&:focus {
-			outline: 2px solid var(--lamp-glow);
-			outline-offset: 2px;
-		}
+	.search-action :global(.btn) {
+		min-height: 2.75rem;
+		padding-inline: 1.5rem;
 	}
 
 	.button-text {
 		font-weight: 600;
 	}
 
-	.button-icon {
-		width: 16px;
-		height: 16px;
-		transition: transform $transition-fast;
-	}
-
-	.search-button:hover:not(:disabled) .button-icon {
-		transform: translateX(2px);
-	}
-
-	/* Custom input styling - Ethereal dark theme
-	   Note: !important needed to override Flowbite ComboBox internal styles */
-	:global(.search-container input) {
-		padding-right: 3rem !important;
-		font-size: 1rem !important;
-		height: 2.75rem !important;
-		border-radius: var(--border-radius-lg) !important;
-		border: 1px solid var(--lamp-soft) !important;
-		background-color: var(--stone-warm) !important;
-		backdrop-filter: blur(8px);
-		color: var(--ink-bright) !important;
-		transition: all $transition-fast !important;
-
-		&:focus {
-			border-color: var(--lamp-glow) !important;
-			box-shadow: 0 0 0 3px var(--lamp-soft) !important;
-		}
-
-		&::placeholder {
-			color: var(--ink-dim) !important;
-		}
+	.button-arrow {
+		margin-left: 0.25rem;
 	}
 
 	/* Highlighted text in search results */
@@ -512,50 +374,14 @@
 		border-radius: 0.25rem;
 	}
 
-	/* Dropdown styling - Ethereal dark theme */
-	:global(.search-container .combobox__list) {
-		margin-top: 0.5rem !important;
-		border-radius: var(--border-radius-lg) !important;
-		box-shadow:
-			0 4px 24px rgba(0, 0, 0, 0.15),
-			0 0 20px var(--lamp-soft) !important;
-		border: 1px solid var(--lamp-soft) !important;
-		max-height: 320px !important;
-		overflow-y: auto !important;
-		z-index: 1000 !important;
-		background-color: var(--night-deep) !important;
-		backdrop-filter: blur(12px);
-	}
-
-	:global(.search-container .combobox__list li.combobox__option) {
-		padding: 0.625rem 1rem !important;
-		transition: background-color $transition-fast !important;
-		cursor: pointer;
-		border-bottom: 1px solid var(--lamp-soft);
-		color: var(--ink-bright) !important;
-
-		&:last-child {
-			border-bottom: none;
-		}
-
-		&:hover {
-			background-color: var(--lamp-soft) !important;
-		}
-
-		&:focus {
-			background-color: var(--lamp-soft) !important;
-			outline: none;
-		}
-	}
-
 	/* "Matching questions" scope label at the top of the dropdown */
 	:global(.search-container .combobox__list li.combobox__group-heading) {
-		padding: 0.625rem 1rem 0.375rem !important;
+		padding: 0.625rem 1rem 0.375rem;
 		font-family: var(--font-mono);
-		font-size: 0.6875rem !important;
+		font-size: 0.6875rem;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--lamp-glow) !important;
+		color: var(--lamp-glow);
 		border-bottom: 1px solid var(--lamp-soft);
 		cursor: default;
 	}
@@ -594,14 +420,9 @@
 			gap: 0.5rem;
 		}
 
-		.search-button {
+		.search-action,
+		.search-action :global(.btn) {
 			width: 100%;
-			padding: 0.75rem 1rem;
-			font-size: 0.9375rem;
-		}
-
-		:global(.search-container input) {
-			font-size: 16px !important; // Prevent zoom on iOS
 		}
 
 		.search-error {
@@ -611,16 +432,9 @@
 
 	/* Reduced motion */
 	@media (prefers-reduced-motion: reduce) {
-		.search-button,
-		.button-icon,
-		.spinner,
 		.search-error {
-			animation: none !important;
-			transition: none !important;
-		}
-
-		.search-button::before {
-			display: none;
+			animation: none;
+			transition: none;
 		}
 	}
 </style>

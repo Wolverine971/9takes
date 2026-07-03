@@ -11,7 +11,10 @@ type AdminProfile = Pick<
 	Database['public']['Tables']['profiles']['Row'],
 	'id' | 'admin' | 'external_id'
 >;
-type QuestionKeywordRow = Database['public']['Tables']['question_keywords']['Row'];
+type QuestionKeywordRow = Pick<
+	Database['public']['Tables']['question_keywords']['Row'],
+	'question_id' | 'keywords'
+>;
 type AdminTagOption = {
 	tag_id: number;
 	tag_name: string;
@@ -93,10 +96,13 @@ export const load: PageServerLoad = async (event) => {
 					tag_name: category.category_name
 				})) ?? [];
 
-		// Get keywords for questions
-		const { data: questionKeywords, error: questionKeywordsError } = await supabase
-			.from(`question_keywords`)
-			.select('*');
+		const questionIds = ((questions ?? []) as Array<{ id: number }>).map((question) => question.id);
+		const { data: questionKeywords, error: questionKeywordsError } = questionIds.length
+			? await supabase
+					.from(`question_keywords`)
+					.select('question_id, keywords')
+					.in('question_id', questionIds)
+			: { data: [], error: null };
 
 		if (questionKeywordsError) {
 			console.error('Error fetching keywords:', questionKeywordsError);

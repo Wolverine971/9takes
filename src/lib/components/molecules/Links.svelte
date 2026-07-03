@@ -1,6 +1,7 @@
 <!-- src/lib/components/molecules/Links.svelte -->
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import { Button } from '$lib/components/atoms';
 	import Link from './Link.svelte';
 
 	interface Props {
@@ -80,47 +81,20 @@
 	</div>
 
 	{#if links.length < linksCount}
-		<button class="links-load-more" onclick={loadMore} disabled={loading}>
-			{#if loading}
-				<div
-					class="h-5 w-5 animate-spin rounded-full border-2 border-white/30 border-t-white"
-				></div>
-			{:else}
-				Load More
-			{/if}
-		</button>
+		<div class="links-load-more">
+			<Button onclick={loadMore} disabled={loading} {loading}>Load more articles</Button>
+		</div>
 	{/if}
 {:else if !links.length}
-	<div class="links-empty-state">No linked articles yet.</div>
+	<div class="links-empty-state">
+		No linked articles yet. Sources and follow-up reading will appear here when the thread has them.
+	</div>
 {/if}
 
 <style>
 	.links-load-more {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
 		margin-top: 1rem;
-		padding: 0.8rem 1.2rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, transparent);
-		border-radius: 0.625rem;
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		color: var(--text-on-primary);
-		font-weight: 600;
-		transition:
-			transform 0.2s ease,
-			box-shadow 0.2s ease,
-			background-color 0.2s ease;
-	}
-
-	.links-load-more:hover:not(:disabled) {
-		transform: translateY(-1px);
-		box-shadow: var(--glow-md);
-	}
-
-	.links-load-more:disabled {
-		cursor: not-allowed;
-		opacity: 0.6;
+		text-align: center;
 	}
 
 	.links-empty-state {

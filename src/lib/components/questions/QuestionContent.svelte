@@ -1,5 +1,6 @@
 <!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import PostIcon from '$lib/components/icons/postIcon.svelte';
@@ -8,7 +9,6 @@
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import ArticleLinks from '$lib/components/molecules/Links.svelte';
 	import type { User, Comment as CommentType, QuestionPageData } from '$lib/types/questions';
-	import { viewportWidth } from '$lib/stores/viewport';
 
 	interface Props {
 		data: QuestionPageData;
@@ -21,9 +21,7 @@
 	// Local state
 	let selectedTab = $state('Comments');
 	let showAiComments = $state(true);
-
-	// Use shared viewport store
-	let innerWidth = $derived($viewportWidth);
+	let reduceMotion = $state(false);
 
 	// Create a deep copy of data to avoid mutation issues
 	let _data = $derived(JSON.parse(JSON.stringify(data)) as QuestionPageData);
@@ -52,12 +50,16 @@
 	let displayCommentCount = $derived(sortedComments?.length ?? _data.comment_count);
 	let publicAiPreviewComments = $derived.by(() => (_data.aiComments ?? []).slice(0, 3));
 
+	onMount(() => {
+		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	});
+
 	// Smooth scroll to section when tab is clicked
 	function scrollToSection(sectionId: string) {
 		const element = document.getElementById(sectionId);
 		if (element) {
 			element.scrollIntoView({
-				behavior: 'smooth',
+				behavior: reduceMotion ? 'auto' : 'smooth',
 				block: 'center',
 				inline: 'start'
 			});
@@ -88,55 +90,61 @@
 				return { count: 0, label: '' };
 		}
 	}
+
+	function getTabId(tab: string): string {
+		return `${tab.toLowerCase()}-tab`;
+	}
+
+	function getPanelId(tab: string): string {
+		return `${tab.toLowerCase()}-panel`;
+	}
 </script>
 
 <div class="question-content-shell">
 	<!-- Tabs Navigation -->
-	<nav class="question-content-nav scrollbar-hide">
+	<div class="question-content-nav scrollbar-hide" role="tablist" aria-label="Question sections">
 		{#each tabs as tab}
 			{@const IconComponent = iconComponents[tab]}
+			{@const contentCount = getContentCount(tab)}
 			<button
+				id={getTabId(tab)}
 				role="tab"
 				aria-selected={selectedTab === tab}
-				aria-controls={tab}
+				aria-controls={getPanelId(tab)}
 				class="question-tab"
 				class:is-active={selectedTab === tab}
 				onclick={() => {
 					selectedTab = tab;
-					scrollToSection(tab);
+					scrollToSection(getPanelId(tab));
 				}}
 			>
-				{#if innerWidth > 575}
-					<span class="flex items-center justify-center gap-2">
-						<span class="font-semibold">{getContentCount(tab).count}</span>
-						<span>{getContentCount(tab).label}</span>
-					</span>
-				{:else}
-					<!-- Show icons on mobile -->
-					<div class="flex flex-col items-center gap-1">
-						<IconComponent
-							iconStyle={''}
-							height={'1.25rem'}
-							fill={'currentColor'}
-							type={tab === 'Comments' ? 'multiple' : undefined}
-						/>
-						<span class="text-[10px]">{getContentCount(tab).count}</span>
-					</div>
-				{/if}
+				<span class="question-tab__icon" aria-hidden="true">
+					<IconComponent
+						iconStyle={''}
+						height={'1.25rem'}
+						fill={'currentColor'}
+						type={tab === 'Comments' ? 'multiple' : undefined}
+					/>
+				</span>
+				<span class="question-tab__copy">
+					<span class="question-tab__count">{contentCount.count}</span>
+					<span class="question-tab__label">{contentCount.label}</span>
+				</span>
 			</button>
 		{/each}
-	</nav>
+	</div>
 
 	<!-- Tab Content -->
 	<div class="question-content-body">
 		{#each tabs as section}
 			{#if selectedTab === section}
-				<section
-					in:fade={{ duration: 200 }}
-					id={section}
+				<div
+					in:fade={{ duration: reduceMotion ? 0 : 200 }}
+					id={getPanelId(section)}
+					role="tabpanel"
 					class:selected={selectedTab === section}
 					class="question-content-section"
-					aria-labelledby={`${section}-tab`}
+					aria-labelledby={getTabId(section)}
 				>
 					<div class="question-content-section-inner">
 						{#if section === 'Comments'}
@@ -249,7 +257,7 @@
 							/>
 						{/if}
 					</div>
-				</section>
+				</div>
 			{/if}
 		{/each}
 	</div>
@@ -279,8 +287,12 @@
 
 	.question-tab {
 		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
 		flex: 1 1 0;
-		min-width: fit-content;
+		min-width: 0;
 		padding: 0.9rem 1.15rem;
 		border: 0;
 		border-radius: 0.625rem;
@@ -293,6 +305,36 @@
 			color 0.2s ease,
 			background-color 0.2s ease,
 			box-shadow 0.2s ease;
+	}
+
+	.question-tab:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
+	.question-tab__icon {
+		display: inline-flex;
+		flex: 0 0 auto;
+		color: currentColor;
+	}
+
+	.question-tab__copy {
+		display: inline-flex;
+		align-items: baseline;
+		justify-content: center;
+		gap: 0.35rem;
+		min-width: 0;
+	}
+
+	.question-tab__count {
+		font-weight: 700;
+	}
+
+	.question-tab__label {
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.question-tab:hover {
@@ -482,7 +524,14 @@
 		}
 
 		.question-tab {
-			padding: 0.8rem 0.95rem;
+			flex-direction: column;
+			gap: 0.3rem;
+			padding: 0.75rem 0.5rem;
+			font-size: 0.78rem;
+		}
+
+		.question-tab__copy {
+			gap: 0.25rem;
 		}
 
 		.question-content-section-inner {

@@ -4359,6 +4359,17 @@ export type Database = {
           new_visitors: number
         }[]
       }
+      get_admin_consulting_dashboard_summary: {
+        Args: never
+        Returns: {
+          active_clients: number
+          pending_intakes: number
+          status_counts: Json
+          total_clients: number
+          type_distribution: Json
+          waitlist_count: number
+        }[]
+      }
       get_admin_enneagram_distribution: {
         Args: { p_demo_time?: boolean }
         Returns: {

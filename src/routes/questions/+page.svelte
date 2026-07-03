@@ -214,17 +214,14 @@
 		return categoryPath.display_path?.length ? categoryPath.display_path : categoryPath.path;
 	}
 
-	// Category chips collapse to one compact block; expand on demand.
-	const VISIBLE_CHIP_COUNT = 14;
-	let showAllCategories = $state(false);
-	let visibleCategories = $derived(
-		showAllCategories
-			? (data.subcategoryTags ?? [])
-			: (data.subcategoryTags ?? []).slice(0, VISIBLE_CHIP_COUNT)
-	);
-	let hiddenCategoryCount = $derived(
-		Math.max((data.subcategoryTags ?? []).length - VISIBLE_CHIP_COUNT, 0)
-	);
+	let filtersOpen = $state(false);
+	let categoryCount = $derived((data.subcategoryTags ?? []).length);
+	let filterButtonLabel = $derived(categoryCount ? `Filters (${categoryCount})` : 'Filters');
+
+	function questionCategoryLeafLabel(categoryPath: QuestionCategoryPath): string {
+		const path = questionCategoryDisplayPath(categoryPath);
+		return path.at(-1)?.category_name ?? categoryPath.category_name;
+	}
 
 	// Search component dispatches createQuestion + questionSelected events.
 	function goToCreateQuestionPage(detail: string) {
@@ -285,6 +282,8 @@
 				<div class="hero-ctas">
 					{#if data.canAskQuestion}
 						<Button size="lg" variant="primary" href="/questions/create">Drop a question →</Button>
+					{:else if !data?.user?.id}
+						<Button size="lg" variant="primary" href="/register">Sign up to ask →</Button>
 					{/if}
 					<Button size="lg" variant="ghost" href="#open-floor">Browse open questions ↓</Button>
 				</div>
@@ -341,34 +340,49 @@
 
 			<div
 				id="categories"
-				class="category-chips"
+				class="filter-shell"
 				role="navigation"
 				aria-label="Filter questions by category"
 			>
-				<a href="/questions" class="category-chip category-chip--active">ALL</a>
-				{#each visibleCategories as cat (cat.id)}
-					<a href={categoryHref(cat)} class="category-chip">
-						{cat.category_name.toUpperCase()}
-					</a>
-				{/each}
-				{#if hiddenCategoryCount > 0 && !showAllCategories}
-					<button
+				<div class="filter-bar">
+					<Button
+						size="sm"
+						variant="secondary"
 						type="button"
-						class="category-chip category-chip--toggle"
-						onclick={() => (showAllCategories = true)}
+						class="filter-toggle"
+						aria-expanded={filtersOpen}
+						aria-controls="category-filter-panel"
+						onclick={() => (filtersOpen = !filtersOpen)}
 					>
-						+{hiddenCategoryCount} MORE
-					</button>
-				{:else if showAllCategories && hiddenCategoryCount > 0}
-					<button
-						type="button"
-						class="category-chip category-chip--toggle"
-						onclick={() => (showAllCategories = false)}
-					>
-						SHOW FEWER ↑
-					</button>
+						{filterButtonLabel}
+					</Button>
+					<div class="selected-filters" aria-label="Current question filter">
+						<a href="/questions" class="category-chip category-chip--active">ALL QUESTIONS</a>
+					</div>
+					<a href="/questions/categories" class="category-chip category-chip--more">FULL TREE →</a>
+				</div>
+
+				{#if filtersOpen}
+					<div id="category-filter-panel" class="category-panel">
+						<div class="category-panel-header">
+							<p class="mono category-panel-label">BROWSE CATEGORIES</p>
+							<button
+								type="button"
+								class="category-panel-close"
+								onclick={() => (filtersOpen = false)}
+							>
+								Close
+							</button>
+						</div>
+						<div class="category-chips">
+							{#each data.subcategoryTags ?? [] as cat (cat.id)}
+								<a href={categoryHref(cat)} class="category-chip">
+									{cat.category_name.toUpperCase()}
+								</a>
+							{/each}
+						</div>
+					</div>
 				{/if}
-				<a href="/questions/categories" class="category-chip category-chip--more"> FULL TREE → </a>
 			</div>
 		</div>
 
@@ -392,19 +406,14 @@
 								{#if q.category_paths?.length}
 									<span class="question-row-cats">
 										{#each q.category_paths.slice(0, 1) as categoryPath (`${categoryPath.id}-${categoryPath.path_label}`)}
-											<span class="question-row-cat-path">
-												{#each questionCategoryDisplayPath(categoryPath) as pathCategory, index (`${categoryPath.id}-${pathCategory.id}`)}
-													<span
-														class="question-row-cat-part"
-														class:question-row-cat-part--leaf={index ===
-															questionCategoryDisplayPath(categoryPath).length - 1}
-													>
-														{pathCategory.category_name}
-													</span>
-													{#if index < questionCategoryDisplayPath(categoryPath).length - 1}
-														<span class="question-row-cat-divider" aria-hidden="true">/</span>
-													{/if}
-												{/each}
+											<span
+												class="question-row-cat-path"
+												title={categoryPath.path_label}
+												aria-label={categoryPath.path_label}
+											>
+												<span class="question-row-cat-part question-row-cat-part--leaf">
+													{questionCategoryLeafLabel(categoryPath)}
+												</span>
 											</span>
 										{/each}
 										{#if q.category_paths.length > 1}
@@ -527,21 +536,17 @@
 		color: var(--lamp-glow);
 	}
 
-	.questions-index :global(p),
-	.questions-index :global(h1),
-	.questions-index :global(h2),
-	.questions-index :global(h3) {
+	.questions-index :global(:where(p, h1, h2, h3)) {
 		margin: 0;
 	}
 
-	.questions-index :global(ul),
-	.questions-index :global(ol) {
+	.questions-index :global(:where(ul, ol)) {
 		list-style: none;
 		padding: 0;
 		margin: 0;
 	}
 
-	.questions-index :global(a) {
+	.questions-index :global(:where(a)) {
 		color: inherit;
 		text-decoration: none;
 	}
@@ -687,7 +692,8 @@
 	:global(:root.light) .questions-index .statue-vignette {
 		background:
 			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.08) 0%, transparent 55%),
-			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.06) 100%);
+			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.06) 100%),
+			linear-gradient(180deg, transparent 58%, rgba(10, 8, 7, 0.78) 100%);
 	}
 
 	.statue-mono {
@@ -699,6 +705,11 @@
 		.mono {
 			color: var(--ink-mid);
 		}
+	}
+
+	:global(:root.light) .questions-index .statue-mono,
+	:global(:root.light) .questions-index .statue-mono .mono {
+		color: var(--marble-pure);
 	}
 
 	/* =========================================================
@@ -722,11 +733,77 @@
 		z-index: 5;
 	}
 
+	.filter-shell {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.filter-bar {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+	}
+
+	.filter-bar :global(.filter-toggle) {
+		min-height: 32px;
+		font-family: var(--font-mono);
+		font-size: 11px;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	.selected-filters,
 	.category-chips {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 8px;
+	}
+
+	.category-panel {
+		width: min(100%, 760px);
+		padding: 14px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--stone-warm) 92%, transparent);
+	}
+
+	.category-panel-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		margin-bottom: 10px;
+	}
+
+	.category-panel-label {
+		color: var(--lamp-glow);
+		font-size: 11px;
+	}
+
+	.category-panel-close {
+		border: 0;
+		background: transparent;
+		color: var(--ink-mid);
+		cursor: pointer;
+		font-family: var(--font-mono);
+		font-size: 11px;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+
+		&:hover {
+			color: var(--lamp-glow);
+		}
+	}
+
+	:global(.category-panel-close:focus-visible) {
+		color: var(--lamp-glow);
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 
 	.category-chip {
@@ -766,16 +843,6 @@
 			background: var(--lamp-soft);
 			color: var(--lamp-glow);
 			border-color: var(--lamp-glow);
-		}
-	}
-
-	.category-chip--toggle {
-		cursor: pointer;
-		color: var(--ink-mid);
-		border-style: dashed;
-
-		&:hover {
-			color: var(--ink-bright);
 		}
 	}
 
@@ -830,6 +897,7 @@
 	.question-list {
 		position: relative;
 		z-index: 1;
+		width: min(100%, 880px);
 		max-width: 880px;
 		margin: 0 auto;
 		display: flex;
@@ -850,7 +918,8 @@
 	.question-row-link {
 		display: flex;
 		flex-direction: column;
-		gap: 4px;
+		gap: 6px;
+		min-width: 0;
 		padding: 12px 14px;
 		text-decoration: none;
 		color: inherit;
@@ -865,6 +934,7 @@
 	}
 
 	.question-row-text {
+		min-width: 0;
 		font-family: var(--font-display);
 		font-weight: 500;
 		font-size: 16px;
@@ -880,6 +950,7 @@
 
 	.question-row-meta {
 		display: flex;
+		min-width: 0;
 		align-items: center;
 		gap: 6px;
 		font-size: 11px;
@@ -905,7 +976,7 @@
 	}
 
 	.question-row-cat-path {
-		max-width: min(100%, 58rem);
+		max-width: min(100%, 24ch);
 		color: var(--ink-dim);
 		text-transform: uppercase;
 	}
@@ -923,11 +994,6 @@
 		color: var(--ink-mid);
 	}
 
-	.question-row-cat-divider {
-		color: var(--ink-dim);
-		opacity: 0.55;
-	}
-
 	.question-row-cat-more {
 		color: var(--data-teal);
 	}
@@ -942,6 +1008,35 @@
 
 	.question-row-sep {
 		opacity: 0.5;
+	}
+
+	@media (max-width: 540px) {
+		.filter-shell {
+			align-items: stretch;
+		}
+
+		.filter-bar,
+		.selected-filters,
+		.category-chips {
+			justify-content: flex-start;
+		}
+
+		.filter-bar :global(.filter-toggle) {
+			flex: 1 1 auto;
+		}
+
+		.category-panel {
+			padding: 12px;
+		}
+
+		.question-row-meta {
+			gap: 4px;
+			font-size: 11px;
+		}
+
+		.question-row-cat-path {
+			max-width: 18ch;
+		}
 	}
 
 	.empty-state {

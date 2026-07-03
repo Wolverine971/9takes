@@ -5,10 +5,11 @@
   copies of this markup + ~120 lines of CSS each. One source of truth now.
 
   - `stripe` paints the 3px top edge + eyebrow (e.g. a --type-N-color for
-    personality-analysis, --lamp-glow for featured cards). Omit for the plain
-    card (no top stripe, amber eyebrow).
-  - `featured` switches to the large 16/11 variant used in §02 sections.
-  - `.mono` / global type utilities come from src/scss/index.scss.
+	    personality-analysis, --lamp-glow for featured cards). Omit for the plain
+	    card (no top stripe, amber eyebrow).
+	  - `featured` switches to the large 16/11 variant used in §02 sections.
+	  - `compactMobile` tightens card typography/images for 2-up mobile libraries.
+	  - `.mono` / global type utilities come from src/scss/index.scss.
 -->
 <script lang="ts">
 	type Props = {
@@ -22,6 +23,7 @@
 		/** CSS color for the top stripe + eyebrow. Omit for no stripe. */
 		stripe?: string | null;
 		featured?: boolean;
+		compactMobile?: boolean;
 		/** Pre-formatted date string (renders in the meta row). */
 		date?: string;
 		/** Recency label, e.g. "UPDATED THIS WEEK". */
@@ -43,6 +45,7 @@
 		imageAlt = '',
 		stripe = null,
 		featured = false,
+		compactMobile = false,
 		date = '',
 		recency = '',
 		eager = false,
@@ -58,6 +61,7 @@
 	{href}
 	class="case-card"
 	class:case-card--featured={featured}
+	class:case-card--compact-mobile={compactMobile}
 	class:has-stripe={Boolean(stripe) || featured}
 	style={stripeStyle}
 	aria-label={ariaLabel || `Read ${title}`}
@@ -113,17 +117,28 @@
 		text-decoration: none;
 		transition:
 			background 0.2s ease,
-			border-color 0.2s ease,
-			transform 0.2s ease;
+			border-color 0.2s ease;
 
 		&:hover {
 			background: var(--stone-mid);
 			border-color: var(--ink-dim);
-			transform: translateY(-2px);
 		}
 
 		&.has-stripe:hover {
 			border-color: var(--case-stripe);
+		}
+
+		@media (prefers-reduced-motion: no-preference) {
+			.case-card {
+				transition:
+					background 0.2s ease,
+					border-color 0.2s ease,
+					transform 0.2s ease;
+
+				&:hover {
+					transform: translateY(-2px);
+				}
+			}
 		}
 	}
 
@@ -265,6 +280,45 @@
 
 		.case-subtitle {
 			font-size: 13px;
+		}
+
+		.case-card--compact-mobile {
+			.case-image,
+			.case-image-stub {
+				aspect-ratio: 3 / 4;
+			}
+
+			.case-card-body {
+				gap: 5px;
+				padding: 10px 10px 12px;
+			}
+
+			.case-id,
+			.case-date,
+			.case-recency {
+				font-size: 9.5px;
+				line-height: 1.25;
+			}
+
+			.case-name {
+				font-size: 14px;
+				line-height: 1.18;
+				letter-spacing: 0;
+				-webkit-line-clamp: 2;
+				line-clamp: 2;
+			}
+
+			.case-subtitle {
+				font-size: 11.5px;
+				line-height: 1.35;
+				-webkit-line-clamp: 1;
+				line-clamp: 1;
+			}
+
+			.case-meta {
+				gap: 6px;
+				margin-top: 2px;
+			}
 		}
 	}
 </style>

@@ -53,6 +53,7 @@
 		'/content-board',
 		'/book-session',
 		'/search',
+		'/questions',
 		'/community',
 		'/enneagram-corner',
 		'/pop-culture',
@@ -71,6 +72,7 @@
 	let isCategoryPage = false;
 	let isAdminPage = false;
 	let shouldShowMaxWidth = true;
+	let shouldUseOwnedShell = false;
 	let showBackButton = false;
 
 	// Track swipe gestures for mobile
@@ -403,6 +405,7 @@
 		const isPersonalityDossierPage = $page.route.id === '/personality-analysis/[slug]';
 		shouldShowMaxWidth =
 			!FULL_WIDTH_PAGES.includes(pathname) && !isAdminPage && !isPersonalityDossierPage;
+		shouldUseOwnedShell = pathname === '/questions' || $page.route.id === '/personality-analysis';
 		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage;
 	}
 
@@ -659,7 +662,11 @@
 				: 'overflow-visible p-2 md:p-4'}"
 			class:max-w-4xl={shouldShowMaxWidth}
 			class:mx-auto={shouldShowMaxWidth}
-			style={isAdminPage ? 'overflow-x: clip;' : ''}
+			style={shouldUseOwnedShell
+				? 'max-width: none; margin: 0; padding: 0; overflow-x: clip;'
+				: isAdminPage
+					? 'overflow-x: clip;'
+					: ''}
 			aria-label="Main content"
 		>
 			<slot />

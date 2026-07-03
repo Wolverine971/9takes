@@ -20,6 +20,16 @@ type ConsultingIntakeRow = Database['public']['Tables']['consulting_intake_forms
 type ConsultingClientWithIntake = ConsultingClientRow & {
 	intake: ConsultingIntakeRow[] | null;
 };
+type ConsultingDashboardSummary = {
+	stats: {
+		totalClients: number;
+		activeClients: number;
+		pendingIntakes: number;
+		waitlistCount: number;
+	};
+	statusCounts: Record<string, number>;
+	typeDistribution: Record<number, number>;
+};
 
 const EMPTY_COMMENT_SUMMARY = {
 	hasCommented: false,
@@ -45,87 +55,181 @@ function pickEarlierDate(...dates: Array<string | null | undefined>): string | n
 	}, null);
 }
 
-export const load: PageServerLoad = async ({ locals }) => {
-	const supabase = locals.supabase;
+function normalizeCountMap(value: unknown): Record<string, number> {
+	if (!value || typeof value !== 'object' || Array.isArray(value)) {
+		return {};
+	}
 
-	// Get overview stats in parallel
+	return Object.fromEntries(
+		Object.entries(value as Record<string, unknown>).map(([key, count]) => [
+			key,
+			Number(count) || 0
+		])
+	);
+}
+
+function normalizeTypeDistribution(value: unknown): Record<number, number> {
+	return Object.fromEntries(
+		Object.entries(normalizeCountMap(value)).map(([key, count]) => [Number(key), count])
+	) as Record<number, number>;
+}
+
+async function loadConsultingDashboardSummary(
+	supabase: App.Locals['supabase']
+): Promise<ConsultingDashboardSummary> {
+	const db = supabase as any;
+	const { data, error } = await db.rpc('get_admin_consulting_dashboard_summary');
+	const summary = Array.isArray(data) ? data[0] : data;
+
+	if (!error && summary) {
+		return {
+			stats: {
+				totalClients: Number(summary.total_clients) || 0,
+				activeClients: Number(summary.active_clients) || 0,
+				pendingIntakes: Number(summary.pending_intakes) || 0,
+				waitlistCount: Number(summary.waitlist_count) || 0
+			},
+			statusCounts: normalizeCountMap(summary.status_counts),
+			typeDistribution: normalizeTypeDistribution(summary.type_distribution)
+		};
+	}
+
+	console.error('Falling back to consulting dashboard summary queries', error);
+
 	const [
 		{ count: totalClients },
 		{ count: activeClients },
 		{ count: pendingIntakes },
-		{ data: upcomingSessions },
-		{ data: recentWaitlist },
-		{ data: existingClients },
 		{ count: waitlistCount },
 		{ data: clientsByStatus },
 		{ data: clientsByType }
 	] = await Promise.all([
-		// Total clients
-		supabase.from('consulting_clients').select('*', { count: 'exact', head: true }),
-		// Active clients
+		supabase.from('consulting_clients').select('id', { count: 'exact', head: true }),
 		supabase
 			.from('consulting_clients')
-			.select('*', { count: 'exact', head: true })
+			.select('id', { count: 'exact', head: true })
 			.eq('status', 'active'),
-		// Pending intakes
 		supabase
 			.from('consulting_intake_forms')
-			.select('*', { count: 'exact', head: true })
+			.select('id', { count: 'exact', head: true })
 			.in('status', ['pending', 'sent']),
+		supabase.from('coaching_waitlist').select('id', { count: 'exact', head: true }),
+		supabase.from('consulting_clients').select('status'),
+		supabase.from('consulting_clients').select('enneagram_type')
+	]);
+
+	return {
+		stats: {
+			totalClients: totalClients || 0,
+			activeClients: activeClients || 0,
+			pendingIntakes: pendingIntakes || 0,
+			waitlistCount: waitlistCount || 0
+		},
+		statusCounts: ((clientsByStatus || []) as StatusRow[]).reduce(
+			(acc: Record<string, number>, client) => {
+				const status = client.status ?? 'unknown';
+				acc[status] = (acc[status] || 0) + 1;
+				return acc;
+			},
+			{}
+		),
+		typeDistribution: ((clientsByType || []) as TypeRow[]).reduce(
+			(acc: Record<number, number>, client) => {
+				if (client.enneagram_type) {
+					acc[client.enneagram_type] = (acc[client.enneagram_type] || 0) + 1;
+				}
+				return acc;
+			},
+			{}
+		)
+	};
+}
+
+async function loadClientIdentitiesForWaitlist(
+	supabase: App.Locals['supabase'],
+	waitlistIds: string[],
+	emailVariants: string[]
+): Promise<ClientIdentity[]> {
+	const [clientsByWaitlistResult, clientsByEmailResult] = await Promise.all([
+		waitlistIds.length
+			? supabase
+					.from('consulting_clients')
+					.select('email, id, waitlist_id')
+					.in('waitlist_id', waitlistIds)
+			: Promise.resolve({ data: [] as ClientIdentity[] }),
+		emailVariants.length
+			? supabase
+					.from('consulting_clients')
+					.select('email, id, waitlist_id')
+					.in('email', emailVariants)
+			: Promise.resolve({ data: [] as ClientIdentity[] })
+	]);
+
+	const clientsById = new Map<string, ClientIdentity>();
+	for (const client of [
+		...((clientsByWaitlistResult.data || []) as ClientIdentity[]),
+		...((clientsByEmailResult.data || []) as ClientIdentity[])
+	]) {
+		clientsById.set(client.id, client);
+	}
+
+	return [...clientsById.values()];
+}
+
+export const load: PageServerLoad = async ({ locals }) => {
+	const supabase = locals.supabase;
+
+	const now = new Date();
+	const nextWeek = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
+
+	const [summary, { data: upcomingSessions }, { data: recentWaitlist }] = await Promise.all([
+		loadConsultingDashboardSummary(supabase),
 		// Upcoming sessions (next 7 days)
 		supabase
 			.from('consulting_sessions')
 			.select(
 				`
-				*,
+				id,
+				scheduled_at,
+				session_type,
+				status,
 				client:consulting_clients(id, name, email, enneagram_type, trust_layer)
 			`
 			)
-			.gte('scheduled_at', new Date().toISOString())
-			.lte('scheduled_at', new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString())
+			.gte('scheduled_at', now.toISOString())
+			.lte('scheduled_at', nextWeek.toISOString())
 			.in('status', ['scheduled', 'confirmed'])
 			.order('scheduled_at', { ascending: true })
 			.limit(5),
 		// Recent waitlist entries
 		supabase
 			.from('coaching_waitlist')
-			.select('*, metadata:coaching_waitlist_metadata(*)')
+			.select(
+				'id, name, email, session_goal, enneagram_type, created_at, metadata:coaching_waitlist_metadata(source, utm_medium, utm_campaign, utm_content, ip_address, user_agent)'
+			)
 			.order('created_at', { ascending: false })
-			.limit(10),
-		// Get existing clients to check which waitlist entries have been converted
-		supabase.from('consulting_clients').select('email, id, waitlist_id'),
-		// Total waitlist count
-		supabase.from('coaching_waitlist').select('*', { count: 'exact', head: true }),
-		// Clients by status for pipeline view
-		supabase.from('consulting_clients').select('status'),
-		// Clients by type for distribution
-		supabase.from('consulting_clients').select('enneagram_type')
+			.limit(10)
 	]);
 
-	// Process status counts
-	const statusCounts = (clientsByStatus || []).reduce(
-		(acc: Record<string, number>, client: StatusRow) => {
-			const status = client.status ?? 'unknown';
-			acc[status] = (acc[status] || 0) + 1;
-			return acc;
-		},
-		{}
-	);
-
-	// Process type distribution
-	const typeDistribution = (clientsByType || []).reduce(
-		(acc: Record<number, number>, client: TypeRow) => {
-			if (client.enneagram_type) {
-				acc[client.enneagram_type] = (acc[client.enneagram_type] || 0) + 1;
-			}
-			return acc;
-		},
-		{}
+	const waitlistEntries = (recentWaitlist || []) as WaitlistWithMetadata[];
+	const waitlistRawEmails = [
+		...new Set(waitlistEntries.map((entry) => entry.email?.trim()))
+	].filter((email): email is string => Boolean(email));
+	const waitlistEmails = [
+		...new Set(waitlistRawEmails.map((email) => normalizeEmail(email)))
+	].filter(Boolean);
+	// Query both raw and normalized variants so we don't miss mixed-case historical rows.
+	const waitlistEmailVariants = [...new Set([...waitlistRawEmails, ...waitlistEmails])];
+	const waitlistIds = [...new Set(waitlistEntries.map((entry) => String(entry.id)))];
+	const existingClients = await loadClientIdentitiesForWaitlist(
+		supabase,
+		waitlistIds,
+		waitlistEmailVariants
 	);
 
 	// Create lookup maps for converted clients
 	const clientsByEmail = new Map(
-		((existingClients || []) as ClientIdentity[]).map((c) => [c.email, c.id])
+		((existingClients || []) as ClientIdentity[]).map((c) => [normalizeEmail(c.email), c.id])
 	);
 	const clientsByWaitlistId = new Map(
 		((existingClients || []) as ClientIdentity[])
@@ -133,11 +237,10 @@ export const load: PageServerLoad = async ({ locals }) => {
 			.map((c) => [c.waitlist_id as string, c.id])
 	);
 
-	const waitlistEntries = (recentWaitlist || []) as WaitlistWithMetadata[];
-
 	// Enrich waitlist entries with conversion status
 	const waitlistWithClientLinks = waitlistEntries.map((entry) => {
-		const clientId = clientsByWaitlistId.get(entry.id) || clientsByEmail.get(entry.email) || null;
+		const clientId =
+			clientsByWaitlistId.get(entry.id) || clientsByEmail.get(normalizeEmail(entry.email)) || null;
 		return {
 			...entry,
 			isConverted: !!clientId,
@@ -145,14 +248,6 @@ export const load: PageServerLoad = async ({ locals }) => {
 		};
 	});
 
-	const waitlistRawEmails = [
-		...new Set(waitlistWithClientLinks.map((entry) => entry.email?.trim()))
-	].filter((email): email is string => Boolean(email));
-	const waitlistEmails = [
-		...new Set(waitlistRawEmails.map((email) => normalizeEmail(email)))
-	].filter(Boolean);
-	// Query both raw and normalized variants so we don't miss mixed-case historical rows.
-	const waitlistEmailVariants = [...new Set([...waitlistRawEmails, ...waitlistEmails])];
 	const waitlistClientIds = [
 		...new Set(
 			waitlistWithClientLinks
@@ -295,16 +390,11 @@ export const load: PageServerLoad = async ({ locals }) => {
 	});
 
 	return {
-		stats: {
-			totalClients: totalClients || 0,
-			activeClients: activeClients || 0,
-			pendingIntakes: pendingIntakes || 0,
-			waitlistCount: waitlistCount || 0
-		},
+		stats: summary.stats,
 		upcomingSessions: upcomingSessions || [],
 		recentWaitlist: enrichedWaitlist,
-		statusCounts,
-		typeDistribution
+		statusCounts: summary.statusCounts,
+		typeDistribution: summary.typeDistribution
 	};
 };
 

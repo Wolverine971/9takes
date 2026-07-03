@@ -1,6 +1,7 @@
 <!-- src/lib/components/molecules/Email-Signup.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { Button } from '$lib/components/atoms';
 	import { notifications } from './notifications';
 
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
@@ -8,6 +9,7 @@
 	export let cta: string = 'Get 9takes updates in your inbox';
 	export let description: string =
 		'New personality guides, community questions, and ideas worth stealing.';
+	export let embedded: boolean = false;
 
 	let email: string = '';
 	let error: string = '';
@@ -57,9 +59,11 @@
 	};
 </script>
 
-<div class="waitlist-section">
-	<h2>{cta}</h2>
-	<p>{description}</p>
+<div class={`waitlist-section${embedded ? ' waitlist-section--embedded' : ''}`}>
+	{#if !embedded}
+		<h2>{cta}</h2>
+		<p>{description}</p>
+	{/if}
 
 	<form class="waitlist-form" on:submit|preventDefault={submit}>
 		<div class="signup-honeypot" aria-hidden="true">
@@ -81,13 +85,14 @@
 			placeholder="you@example.com"
 			autocomplete="email"
 		/>
-		<button type="submit" disabled={loading || !email.trim().length}>
-			{#if loading}
-				<div class="loader"></div>
-			{:else}
-				Subscribe
-			{/if}
-		</button>
+		<Button
+			type="submit"
+			{loading}
+			disabled={loading || !email.trim().length}
+			class="waitlist-submit"
+		>
+			Subscribe
+		</Button>
 	</form>
 
 	{#if error}
@@ -103,6 +108,11 @@
 		border-radius: 1rem;
 		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 		/* No static glow: borders are the elevation (V5) */
+	}
+	.waitlist-section--embedded {
+		border: 0;
+		padding: 0;
+		background: transparent;
 	}
 	.waitlist-section h2 {
 		margin-top: 0;
@@ -143,32 +153,8 @@
 		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
-	.waitlist-form button {
-		padding: 10px 20px;
-		border-radius: 0.625rem;
-		cursor: pointer;
-		/* Dark-on-amber per the locked CTA contrast rule (was white ≈2.2:1) */
-		color: var(--text-on-primary);
-		background-color: var(--lamp-glow);
-		border: 1px solid var(--lamp-glow);
+	.waitlist-form :global(.waitlist-submit) {
 		width: 155px;
-		font-weight: 600;
-		transition: all 0.2s ease;
-	}
-	.waitlist-form button:disabled {
-		cursor: not-allowed;
-		opacity: 0.65;
-		box-shadow: none;
-	}
-	.waitlist-form button:hover {
-		background-color: var(--lamp-deep);
-		box-shadow: var(--glow-md);
-		transform: translateY(-2px);
-	}
-	.waitlist-form button:disabled:hover {
-		background-color: var(--lamp-glow);
-		box-shadow: none;
-		transform: none;
 	}
 	.error {
 		margin: 0.75rem 0 0;
@@ -201,6 +187,13 @@
 		.waitlist-form input {
 			margin-right: 10px;
 			margin-bottom: 0;
+		}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.waitlist-form :global(.waitlist-submit) {
+			width: 100%;
+			max-width: 300px;
 		}
 	}
 	::placeholder {

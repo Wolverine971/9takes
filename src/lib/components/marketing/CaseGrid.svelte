@@ -2,7 +2,8 @@
 <!--
   Grid wrapper for CaseCard rows. Extracted 2026-06-10 (design audit).
   columns=2 → featured pairs (28px gap, stacks at 768px)
-  columns=3 → fixed 3-up (2 at 968px, 1 at 540px) — portrait-image grids (PA)
+  columns=3 → fixed 3-up (2 at 968px, 1 at 540px by default)
+  compactMobile keeps columns=3 grids 2-up below 540px for dense portrait libraries.
   columns=4 → auto-fit minmax(260px, 1fr) (the "case-grid--four" recipe)
 -->
 <script lang="ts">
@@ -10,14 +11,16 @@
 
 	let {
 		columns = 4,
+		compactMobile = false,
 		children
 	}: {
 		columns?: 2 | 3 | 4;
+		compactMobile?: boolean;
 		children: Snippet;
 	} = $props();
 </script>
 
-<div class="case-grid case-grid--{columns}">
+<div class="case-grid case-grid--{columns}" class:case-grid--compact-mobile={compactMobile}>
 	{@render children()}
 </div>
 
@@ -48,6 +51,13 @@
 
 		@media (max-width: 540px) {
 			grid-template-columns: 1fr;
+		}
+	}
+
+	.case-grid--3.case-grid--compact-mobile {
+		@media (max-width: 540px) {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 14px;
 		}
 	}
 

@@ -253,6 +253,20 @@
 			.map((tag: QuestionTag) => normalizeText(tag?.question_categories?.category_name))
 			.filter(Boolean)
 	);
+	let displayQuestionTags = $derived.by(() =>
+		[...((data.questionTags || []) as QuestionTag[])]
+			.filter((tag) => normalizeText(tag?.question_categories?.category_name))
+			.sort((a, b) => {
+				const levelDelta =
+					Number(b.question_categories?.level ?? 0) - Number(a.question_categories?.level ?? 0);
+				if (levelDelta !== 0) return levelDelta;
+				return normalizeText(a.question_categories?.category_name).localeCompare(
+					normalizeText(b.question_categories?.category_name)
+				);
+			})
+	);
+	let primaryQuestionTag = $derived(displayQuestionTags[0] ?? null);
+	let overflowQuestionTags = $derived(displayQuestionTags.slice(1));
 	let deepestCategory = $derived.by(() => {
 		const tags = (data.questionTags || []) as QuestionTag[];
 		let best: QuestionTag['question_categories'] | null = null;
@@ -690,23 +704,44 @@
 				</div>
 			{/if}
 
-			{#if data.questionTags && data.questionTags.length > 0}
+			{#if primaryQuestionTag}
 				<div class="open-case-category mono">
-					<span class="open-case-category__label">CATEGORY:</span>
-					{#each data.questionTags as tag, i (tag.tag_id ?? i)}
-						<a
-							href={buildQuestionCategoryPath(
-								tag.question_categories.slug || tag.question_categories.category_name
-							)}
-							class="open-case-category__link"
-							rel="tag"
-						>
-							{tag.question_categories.category_name.toUpperCase()}
-						</a>{#if i < data.questionTags.length - 1}<span
-								class="open-case-category__sep"
-								aria-hidden="true">·</span
-							>{/if}
-					{/each}
+					<span class="open-case-category__label">TOPIC:</span>
+					<a
+						href={buildQuestionCategoryPath(
+							primaryQuestionTag.question_categories.slug ||
+								primaryQuestionTag.question_categories.category_name
+						)}
+						class="open-case-category__link"
+						rel="tag"
+					>
+						{primaryQuestionTag.question_categories.category_name.toUpperCase()}
+					</a>
+					{#if overflowQuestionTags.length}
+						<details class="open-case-category-more">
+							<summary
+								class="open-case-category-more__summary"
+								aria-label={`${overflowQuestionTags.length} more question ${
+									overflowQuestionTags.length === 1 ? 'category' : 'categories'
+								}`}
+							>
+								+{overflowQuestionTags.length}
+							</summary>
+							<div class="open-case-category-more__panel" aria-label="Additional categories">
+								{#each overflowQuestionTags as tag, i (tag.tag_id ?? i)}
+									<a
+										href={buildQuestionCategoryPath(
+											tag.question_categories.slug || tag.question_categories.category_name
+										)}
+										class="open-case-category-more__link"
+										rel="tag"
+									>
+										{tag.question_categories.category_name}
+									</a>
+								{/each}
+							</div>
+						</details>
+					{/if}
 				</div>
 			{/if}
 
@@ -958,12 +993,18 @@
 	  (QuestionDisplay, Interact, QuestionContent) keep their own styles.
 	  ========================================================= */
 	.question-page {
+		--cta-text: var(--night-deep);
+
 		display: block;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		font-family: var(--font-display);
 		min-height: 100vh;
 		position: relative;
+	}
+
+	:global(:root.light) .question-page {
+		--cta-text: var(--ink-bright);
 	}
 
 	/* .mono is a global utility in index.scss (promoted 2026-06-10). */
@@ -1040,14 +1081,21 @@
 		gap: 6px;
 		color: var(--data-teal);
 		margin: 0;
-		word-break: break-word;
+		min-width: 0;
 	}
 
 	.open-case-category__label {
+		flex: 0 0 auto;
 		color: var(--ink-dim);
 	}
 
 	.open-case-category__link {
+		flex: 1 1 0;
+		min-width: 0;
+		max-width: min(100%, 42rem);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 		color: var(--data-teal);
 		text-decoration: none;
 		border-bottom: 1px solid transparent;
@@ -1061,9 +1109,80 @@
 		}
 	}
 
-	.open-case-category__sep {
-		color: var(--ink-dim);
-		opacity: 0.6;
+	.open-case-category-more {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		flex: 0 0 auto;
+		padding: 0;
+	}
+
+	.open-case-category-more__summary {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 1.55rem;
+		padding: 0.15rem 0.55rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 9999px;
+		background: var(--night-mid);
+		color: var(--ink-mid);
+		cursor: pointer;
+		list-style: none;
+		transition:
+			border-color 0.15s ease,
+			color 0.15s ease,
+			background 0.15s ease;
+
+		&::-webkit-details-marker {
+			display: none;
+		}
+
+		&:hover {
+			border-color: var(--lamp-glow);
+			color: var(--lamp-glow);
+			background: var(--stone-warm);
+		}
+	}
+
+	:global(.open-case-category-more__summary:focus-visible) {
+		border-color: var(--lamp-glow);
+		color: var(--lamp-glow);
+		background: var(--stone-warm);
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
+	.open-case-category-more__panel {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+		margin-top: 8px;
+		padding: 10px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--stone-warm);
+	}
+
+	.open-case-category-more:not([open]) .open-case-category-more__panel {
+		display: none;
+	}
+
+	.open-case-category-more__link {
+		display: inline-flex;
+		max-width: 100%;
+		padding: 4px 8px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 9999px;
+		background: var(--night-mid);
+		color: var(--ink-mid);
+		text-decoration: none;
+		white-space: nowrap;
+
+		&:hover {
+			border-color: var(--lamp-glow);
+			color: var(--lamp-glow);
+		}
 	}
 
 	.open-case-display {

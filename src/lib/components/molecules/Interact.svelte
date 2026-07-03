@@ -6,6 +6,7 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import BellIcon from '$lib/components/icons/bellIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
+	import { Button } from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import type {
 		User,
@@ -28,6 +29,11 @@
 
 	let { parentType, data, user, questionId, qrCodeUrl, oncommentAdded }: Props = $props();
 
+	// Type guard to check if data is QuestionPageData
+	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
+		return 'question' in d && d.question !== undefined;
+	};
+
 	// State variables
 	let likes = $state<CommentLike[]>([]);
 	let subscriptions = $state<Subscription[]>([]);
@@ -39,6 +45,7 @@
 	let textareaHeight = $state('auto');
 	let shortAnswerNudge = $state(false);
 	let confirmShortSubmit = $state(false);
+	let reduceMotion = $state(false);
 
 	const SHORT_ANSWER_THRESHOLD = 100;
 
@@ -55,29 +62,32 @@
 	// Cached visitor id - loaded once on mount
 	let cachedFingerprint = $state<string | null>(null);
 
-	// Type guard to check if data is QuestionPageData
-	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
-		return 'question' in d && d.question !== undefined;
-	};
-
 	// Derived flag for whether user has answered (only relevant for QuestionPageData)
 	let userHasAnswered = $derived(
 		isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false
 	);
+	let isSubscribed = $derived(subscriptions.some((e) => e.user_id === user?.id));
+	let questionCommentActionLabel = $derived(userHasAnswered ? 'Comment' : 'Answer to unlock');
+	let questionCommentActionAria = $derived(
+		userHasAnswered ? 'Write a comment' : 'Answer this question to unlock comments'
+	);
+	let commentActionLabel = $derived(
+		parentType === 'question' ? questionCommentActionLabel : 'Reply'
+	);
+	let commentActionAria = $derived(
+		parentType === 'question' ? questionCommentActionAria : 'Write a reply'
+	);
+	let shareReady = $derived(Boolean(qrCodeUrl));
 
 	// Update likes and subscription state from data
 	$effect(() => {
 		likes = isQuestionPageData(data) ? [] : (data as CommentType)?.comment_like || [];
 		subscriptions = isQuestionPageData(data) ? data?.question?.subscriptions || [] : [];
-
-		// Auto-show comment box for first-time answerers
-		if (isQuestionPageData(data) && !data?.flags?.userHasAnswered && parentType === 'question') {
-			commenting = true;
-		}
 	});
 
 	// Handle QR code modal opening
 	const openQRModal = () => {
+		if (!shareReady) return;
 		getModal('qr-modal').open();
 	};
 
@@ -303,6 +313,8 @@
 
 	// Initialize on mount
 	onMount(() => {
+		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
 		// Parse any escaped newlines in placeholders
 		document.querySelectorAll('textarea').forEach((elem) => {
 			elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
@@ -312,73 +324,82 @@
 	});
 </script>
 
+{#snippet commentIcon()}
+	<MasterCommentIcon
+		iconStyle={'padding: 0;'}
+		height={'1.25rem'}
+		fill={'currentColor'}
+		type={comment?.length ? 'full' : 'empty'}
+	/>
+{/snippet}
+
+{#snippet subscriptionIcon()}
+	<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
+{/snippet}
+
+{#snippet shareIcon()}
+	<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+		<path
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			stroke-width="2"
+			d="M18 8a3 3 0 100-6 3 3 0 000 6zM6 15a3 3 0 100-6 3 3 0 000 6zM18 22a3 3 0 100-6 3 3 0 000 6zM8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"
+		/>
+	</svg>
+{/snippet}
+
 <div class="interact-shell">
 	<div class="interaction-toolbar">
 		<div class="toolbar-buttons">
-			<button
-				title="Comment"
-				class="interaction-button interaction-button-primary"
+			<Button
+				title={commentActionLabel}
+				class="interaction-toolbar-button"
+				variant="primary"
+				size="md"
 				onclick={() => (commenting = !commenting)}
-				aria-label={commenting ? 'Hide comment box' : 'Write a comment'}
+				aria-label={commenting ? 'Hide comment box' : commentActionAria}
+				icon={commentIcon}
 			>
-				<MasterCommentIcon
-					iconStyle={'padding: 0;'}
-					height={'1.25rem'}
-					fill={'currentColor'}
-					type={comment?.length ? 'full' : 'empty'}
-				/>
-				<span class="button-label">Comment</span>
-			</button>
+				{commenting ? 'Hide answer' : commentActionLabel}
+			</Button>
 
 			{#if parentType === 'question'}
-				<button
-					title={subscriptions.some((e) => e.user_id === user?.id) ? 'Unsubscribe' : 'Subscribe'}
-					class="interaction-button {subscriptions.some((e) => e.user_id === user?.id)
-						? 'interaction-button-active'
-						: 'interaction-button-secondary'}"
+				<Button
+					title={isSubscribed ? 'Unsubscribe' : 'Subscribe'}
+					class="interaction-toolbar-button"
+					variant={isSubscribed ? 'ghost' : 'secondary'}
+					size="md"
 					onclick={toggleSubscription}
 					disabled={subscriptionLoading}
-					aria-label={subscriptions.some((e) => e.user_id === user?.id)
+					loading={subscriptionLoading}
+					aria-label={isSubscribed
 						? 'Unsubscribe from this question'
 						: 'Subscribe to this question'}
 					aria-busy={subscriptionLoading}
+					icon={subscriptionIcon}
 				>
-					{#if subscriptionLoading}
-						<div
-							class="border-current/30 h-5 w-5 animate-spin rounded-full border-2 border-t-current"
-						></div>
-					{:else}
-						<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
-					{/if}
-					<span class="button-label">
-						{subscriptions.some((e) => e.user_id === user?.id) ? 'Subscribed' : 'Subscribe'}
-					</span>
-				</button>
+					{isSubscribed ? 'Subscribed' : 'Subscribe'}
+				</Button>
 
-				{#if qrCodeUrl}
-					<button
-						title="Share via QR Code"
-						class="interaction-button interaction-button-secondary"
-						onclick={openQRModal}
-						aria-label="Share via QR Code"
-					>
-						<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M18 8a3 3 0 100-6 3 3 0 000 6zM6 15a3 3 0 100-6 3 3 0 000 6zM18 22a3 3 0 100-6 3 3 0 000 6zM8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"
-							/>
-						</svg>
-						<span class="button-label">Share</span>
-					</button>
-				{/if}
+				<Button
+					title={shareReady ? 'Share via QR Code' : 'Preparing share code'}
+					class="interaction-toolbar-button"
+					variant="secondary"
+					size="md"
+					onclick={openQRModal}
+					disabled={!shareReady}
+					aria-label={shareReady ? 'Share via QR Code' : 'Preparing share QR code'}
+					aria-busy={!shareReady || undefined}
+					icon={shareIcon}
+				>
+					Share
+				</Button>
 			{/if}
 		</div>
 	</div>
 
 	{#if commenting}
-		<div class="composer-surface" in:slide={{ duration: 300 }}>
+		<div class="composer-surface" in:slide={{ duration: reduceMotion ? 0 : 300 }}>
 			<div class="composer-body">
 				{#if parentType === 'question' && comment.length === 0}
 					<p class="depth-prompt">
@@ -404,19 +425,12 @@
 					></textarea>
 				</div>
 				{#if shortAnswerNudge}
-					<div
-						class="mt-2 flex items-start gap-2 rounded-md border border-amber-500/20 bg-amber-500/5 px-3 py-2"
-						in:slide={{ duration: 200 }}
-					>
-						<span class="mt-0.5 text-amber-400">&#9997;</span>
-						<p class="text-xs leading-relaxed text-amber-300/90">
+					<div class="short-answer-nudge" in:slide={{ duration: reduceMotion ? 0 : 200 }}>
+						<span class="short-answer-nudge__icon">&#9997;</span>
+						<p class="short-answer-nudge__copy">
 							<span class="font-medium">Your take could go deeper.</span> Try adding a personal
 							story, a specific example, or what shaped your perspective. You can still
-							<button
-								class="inline font-medium text-amber-200 underline underline-offset-2 hover:text-amber-100"
-								type="button"
-								onclick={createComment}
-							>
+							<button class="short-answer-nudge__action" type="button" onclick={createComment}>
 								post as-is
 							</button>.
 						</p>
@@ -426,7 +440,7 @@
 			<div class="composer-footer">
 				<span class="text-xs text-[var(--ink-dim)]">
 					{#if parentType === 'question' && comment.length > 0 && comment.length < SHORT_ANSWER_THRESHOLD}
-						<span class="text-amber-500/80"
+						<span class="comment-length-warning"
 							>{comment.length} chars. Keep going and add some detail.</span
 						>
 					{:else if comment.length > 0}
@@ -437,8 +451,10 @@
 				</span>
 				<div class="flex gap-2">
 					{#if userHasAnswered}
-						<button
-							class="interaction-button interaction-button-muted"
+						<Button
+							class="composer-action-button"
+							variant="secondary"
+							size="md"
 							type="button"
 							onclick={() => {
 								commenting = false;
@@ -446,25 +462,24 @@
 							}}
 						>
 							Cancel
-						</button>
+						</Button>
 					{/if}
-					<button
-						class="interaction-button interaction-button-primary interaction-button-submit"
+					<Button
+						class="composer-action-button composer-action-button--submit"
+						variant="primary"
+						size="md"
 						type="button"
 						onclick={createComment}
 						disabled={!comment.trim() || loading}
+						{loading}
 						id="comment-button"
 					>
-						{#if loading}
-							<div
-								class="h-3.5 w-3.5 animate-spin rounded-full border-2 border-white/30 border-t-white"
-							></div>
-						{:else if confirmShortSubmit}
+						{#if confirmShortSubmit}
 							Post Anyway
 						{:else}
 							{parentType === 'question' ? 'Post Comment' : 'Reply'}
 						{/if}
-					</button>
+					</Button>
 				</div>
 			</div>
 		</div>
@@ -519,78 +534,17 @@
 		}
 	}
 
-	.interaction-button {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		padding: 0.7rem 1rem;
-		border-radius: 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-edge));
-		font-size: 0.92rem;
-		font-weight: 600;
-		transition:
-			transform 0.2s ease,
-			box-shadow 0.2s ease,
-			border-color 0.2s ease,
-			background-color 0.2s ease,
-			color 0.2s ease;
+	:global(.interaction-toolbar-button) {
+		flex: 1 1 11rem;
+		min-width: 0;
 	}
 
-	.button-label {
+	:global(.interaction-toolbar-button .btn-label),
+	:global(.composer-action-button .btn-label) {
 		min-width: 0;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-	}
-
-	.interaction-button:hover:not(:disabled) {
-		transform: translateY(-1px);
-		box-shadow: var(--shadow-sm);
-	}
-
-	.interaction-button:disabled {
-		cursor: not-allowed;
-		opacity: 0.55;
-	}
-
-	.interaction-button-primary {
-		border-color: color-mix(in srgb, var(--lamp-glow) 26%, transparent);
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		color: var(--text-on-primary);
-		box-shadow: var(--glow-sm);
-	}
-
-	.interaction-button-primary:hover:not(:disabled) {
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		box-shadow: var(--glow-md);
-	}
-
-	.interaction-button-secondary {
-		background: color-mix(in srgb, var(--stone-warm) 92%, transparent);
-		color: var(--ink-mid);
-	}
-
-	.interaction-button-secondary:hover:not(:disabled),
-	.interaction-button-muted:hover:not(:disabled) {
-		border-color: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
-		color: var(--lamp-glow);
-		background: color-mix(in srgb, var(--lamp-soft) 50%, transparent);
-	}
-
-	.interaction-button-active {
-		border-color: color-mix(in srgb, var(--lamp-glow) 30%, transparent);
-		background: var(--lamp-soft);
-		color: var(--lamp-glow);
-	}
-
-	.interaction-button-muted {
-		background: color-mix(in srgb, var(--stone-warm) 92%, transparent);
-		color: var(--ink-mid);
-	}
-
-	.interaction-button-submit {
-		min-width: 9.5rem;
 	}
 
 	.composer-surface {
@@ -660,19 +614,61 @@
 		opacity: 1;
 	}
 
+	.short-answer-nudge {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.5rem;
+		margin-top: 0.5rem;
+		padding: 0.5rem 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: var(--lamp-soft);
+	}
+
+	.short-answer-nudge__icon {
+		margin-top: 0.125rem;
+		color: var(--lamp-glow);
+	}
+
+	.short-answer-nudge__copy {
+		margin: 0;
+		font-size: 0.75rem;
+		line-height: 1.55;
+		color: var(--ink-mid);
+	}
+
+	.short-answer-nudge__action {
+		display: inline;
+		padding: 0;
+		border: 0;
+		background: transparent;
+		color: var(--lamp-glow);
+		font: inherit;
+		font-weight: 600;
+		text-decoration: underline;
+		text-underline-offset: 2px;
+		cursor: pointer;
+	}
+
+	.short-answer-nudge__action:hover,
+	:global(.short-answer-nudge__action:focus-visible) {
+		color: var(--lamp-light);
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
+	.comment-length-warning {
+		color: var(--lamp-glow);
+	}
+
 	@media (max-width: 640px) {
 		.interaction-toolbar {
 			padding: 0.7rem;
 		}
 
-		.interaction-button {
+		:global(.interaction-toolbar-button) {
 			flex: 1 1 calc(50% - 0.5rem);
 			min-width: 0;
-			padding: 0.7rem 0.8rem;
-		}
-
-		.button-label {
-			max-width: 7rem;
 		}
 
 		.composer-footer {
@@ -684,19 +680,15 @@
 			justify-content: stretch;
 		}
 
-		.composer-footer > .flex > .interaction-button {
+		:global(.composer-action-button) {
 			flex: 1 1 0;
+			min-width: 0;
 		}
 	}
 
 	@media (max-width: 380px) {
-		.interaction-button {
-			gap: 0.35rem;
-			padding-inline: 0.65rem;
-		}
-
-		.button-label {
-			max-width: 5.5rem;
+		:global(.interaction-toolbar-button) {
+			font-size: 0.85rem;
 		}
 	}
 </style>

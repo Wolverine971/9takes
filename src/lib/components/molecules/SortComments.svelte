@@ -1,10 +1,12 @@
 <!-- src/lib/components/molecules/SortComments.svelte -->
 <script lang="ts">
-	import { fly, fade, scale } from 'svelte/transition';
+	import { onMount } from 'svelte';
+	import { fly, scale } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 	import { deserialize } from '$app/forms';
 	import SlidersIcon from '$lib/components/icons/slidersIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { Button } from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import type { Comment as CommentType, QuestionPageData } from '$lib/types/questions';
 
@@ -18,6 +20,7 @@
 
 	// State variables
 	let sortLoading = $state(false);
+	let reduceMotion = $state(false);
 
 	type EnneagramTypeOption =
 		| '1'
@@ -88,6 +91,10 @@
 	// Derived state for filter status
 	let hasActiveFilters = $derived(selected.length !== typeOptions.length || sortBy !== 'newest');
 
+	onMount(() => {
+		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	});
+
 	// Apply sorting and filtering
 	const applyFilters = async () => {
 		if (!canSort()) return;
@@ -151,22 +158,34 @@
 	}
 </script>
 
+{#snippet filterIcon()}
+	<SlidersIcon className="h-4 w-4" />
+{/snippet}
+
+{#snippet applyIcon()}
+	<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+	</svg>
+{/snippet}
+
 <!-- Filter Button -->
-{#if size === 'large'}
-	<button
-		type="button"
-		class="filter-btn filter-btn--large group"
-		onclick={() => getModal('sorter').open()}
-		in:fade={{ duration: 200 }}
-		aria-label="Filter and sort comments"
-		title="Filter and sort comments"
-	>
-		<span class="filter-btn__icon">
-			<SlidersIcon className="h-4 w-4" />
-		</span>
-		<span class="filter-btn__text">Filter</span>
-		{#if hasActiveFilters}
-			<span class="filter-btn__badge" in:scale={{ duration: 150, easing: cubicOut }}>
+<Button
+	type="button"
+	variant="ghost"
+	size={size === 'large' ? 'md' : 'sm'}
+	class={`filter-btn-atom ${size === 'large' ? 'filter-btn-atom--large' : 'filter-btn-atom--compact'}`}
+	onclick={() => getModal('sorter').open()}
+	aria-label="Filter and sort comments"
+	title="Filter and sort comments"
+	icon={filterIcon}
+>
+	Filter
+	{#if hasActiveFilters}
+		{#if size === 'large'}
+			<span
+				class="filter-btn__badge"
+				in:scale={{ duration: reduceMotion ? 0 : 150, easing: cubicOut }}
+			>
 				{#if selected.length !== typeOptions.length}
 					{selected.length}
 				{:else}
@@ -180,27 +199,21 @@
 					</svg>
 				{/if}
 			</span>
+		{:else}
+			<span
+				class="filter-btn__dot"
+				in:scale={{ duration: reduceMotion ? 0 : 150, easing: cubicOut }}
+			></span>
 		{/if}
-	</button>
-{:else}
-	<button
-		type="button"
-		class="filter-btn filter-btn--compact"
-		onclick={() => getModal('sorter').open()}
-		aria-label="Filter and sort comments"
-		title="Filter and sort comments"
-	>
-		<SlidersIcon className="h-4 w-4" />
-		<span class="filter-btn__label">Filter</span>
-		{#if hasActiveFilters}
-			<span class="filter-btn__dot" in:scale={{ duration: 150, easing: cubicOut }}></span>
-		{/if}
-	</button>
-{/if}
+	{/if}
+</Button>
 
 <!-- Filter Modal -->
 <Modal id="sorter" maxWidth="420px">
-	<div class="filter-modal" in:fly={{ y: -20, duration: 300, easing: cubicOut }}>
+	<div
+		class="filter-modal"
+		in:fly={{ y: reduceMotion ? 0 : -20, duration: reduceMotion ? 0 : 300, easing: cubicOut }}
+	>
 		<!-- Header -->
 		<div class="filter-modal__header">
 			<div class="filter-modal__title-group">
@@ -335,33 +348,27 @@
 
 		<!-- Action Buttons -->
 		<div class="filter-modal__footer">
-			<button
+			<Button
 				type="button"
-				class="action-btn action-btn--secondary"
+				variant="secondary"
+				size="md"
+				fullWidth
 				onclick={() => getModal('sorter').close()}
 			>
 				Cancel
-			</button>
-			<button
+			</Button>
+			<Button
 				type="button"
-				class="action-btn action-btn--primary"
+				variant="primary"
+				size="md"
+				fullWidth
 				onclick={applyFilters}
 				disabled={sortLoading || !data?.flags?.userHasAnswered}
+				loading={sortLoading}
+				icon={applyIcon}
 			>
-				{#if sortLoading}
-					<span class="action-btn__spinner"></span>
-				{:else}
-					<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M5 13l4 4L19 7"
-						/>
-					</svg>
-				{/if}
-				<span>Apply</span>
-			</button>
+				Apply
+			</Button>
 		</div>
 
 		{#if !data?.flags?.userHasAnswered}
@@ -372,51 +379,17 @@
 
 <style lang="scss">
 	/* Filter Button Styles */
-	.filter-btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.5rem;
-		cursor: pointer;
-		border: 1px solid var(--lamp-soft);
-		background: var(--lamp-soft);
-		border-radius: 0.625rem;
-		font-weight: 500;
-		transition: all 0.2s ease;
+	:global(.filter-btn-atom) {
 		position: relative;
 		color: var(--lamp-glow);
-
-		&:hover {
-			background: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
-			border-color: var(--lamp-glow-rgba);
-			box-shadow: 0 0 20px var(--lamp-soft);
-		}
-
-		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
-			outline-offset: 2px;
-		}
+		border-color: color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
+		background: var(--lamp-soft);
 	}
 
-	.filter-btn--large {
-		padding: 0.625rem 1.125rem;
-		font-size: 0.875rem;
-	}
-
-	.filter-btn--compact {
-		padding: 0.5rem 0.875rem;
-		font-size: 0.8125rem;
-		gap: 0.375rem;
-	}
-
-	.filter-btn__icon {
-		display: flex;
+	:global(.filter-btn-atom:hover:not(:disabled):not([aria-disabled='true'])) {
+		border-color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 		color: var(--lamp-glow);
-	}
-
-	.filter-btn__text,
-	.filter-btn__label {
-		color: var(--lamp-glow);
-		font-weight: 500;
 	}
 
 	.filter-btn__badge {
@@ -504,7 +477,9 @@
 		border-radius: 0.625rem;
 		color: var(--ink-dim);
 		cursor: pointer;
-		transition: all 0.15s ease;
+		transition:
+			background-color 0.15s ease,
+			color 0.15s ease;
 
 		&:hover {
 			background: var(--lamp-soft);
@@ -556,7 +531,9 @@
 		color: var(--lamp-glow);
 		cursor: pointer;
 		border-radius: 0.625rem;
-		transition: all 0.15s ease;
+		transition:
+			background-color 0.15s ease,
+			color 0.15s ease;
 
 		&:hover {
 			background: var(--lamp-soft);
@@ -590,7 +567,10 @@
 		border: 2px solid var(--stone-warm);
 		border-radius: 0.625rem;
 		cursor: pointer;
-		transition: all 0.2s ease;
+		transition:
+			transform 0.2s ease,
+			border-color 0.2s ease,
+			background-color 0.2s ease;
 
 		&:hover {
 			border-color: var(--type-color);
@@ -677,7 +657,9 @@
 		border: 2px solid var(--stone-warm);
 		border-radius: 0.625rem;
 		cursor: pointer;
-		transition: all 0.2s ease;
+		transition:
+			border-color 0.2s ease,
+			background-color 0.2s ease;
 
 		@media (max-width: 380px) {
 			flex-direction: row;
@@ -737,70 +719,9 @@
 		background: var(--night-deep);
 	}
 
-	.action-btn {
+	.filter-modal__footer :global(.btn) {
 		flex: 1;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		padding: 0.875rem 1rem;
-		font-size: 0.875rem;
-		font-weight: 600;
-		border-radius: 0.625rem;
-		cursor: pointer;
-		transition: all 0.2s ease;
-
-		&:disabled {
-			opacity: 0.4;
-			cursor: not-allowed;
-		}
-	}
-
-	.action-btn--secondary {
-		background: transparent;
-		border: 1px solid var(--stone-warm);
-		color: var(--ink-mid);
-
-		&:hover:not(:disabled) {
-			background: var(--lamp-soft);
-			border-color: var(--lamp-soft);
-			color: var(--lamp-glow);
-		}
-	}
-
-	.action-btn--primary {
-		background: linear-gradient(135deg, var(--lamp-glow), var(--lamp-glow));
-		border: none;
-		color: var(--text-on-primary);
-		box-shadow:
-			0 4px 14px var(--lamp-glow-rgba),
-			inset 0 1px 0 rgba(255, 255, 255, 0.15);
-
-		&:hover:not(:disabled) {
-			transform: translateY(-2px);
-			box-shadow:
-				0 6px 20px var(--lamp-glow-rgba),
-				inset 0 1px 0 rgba(255, 255, 255, 0.15);
-		}
-
-		&:active:not(:disabled) {
-			transform: translateY(0);
-		}
-	}
-
-	.action-btn__spinner {
-		width: 1rem;
-		height: 1rem;
-		border: 2px solid rgba(255, 255, 255, 0.3);
-		border-top-color: white;
-		border-radius: 50%;
-		animation: spin 0.8s linear infinite;
-	}
-
-	@keyframes spin {
-		to {
-			transform: rotate(360deg);
-		}
+		min-width: 0;
 	}
 
 	/* Hint */
@@ -812,5 +733,21 @@
 		color: var(--warning);
 		font-size: 0.8125rem;
 		text-align: center;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.filter-modal__close,
+		.text-btn,
+		.type-chip,
+		.type-chip__number,
+		.sort-option,
+		.sort-option__icon,
+		.sort-option__label {
+			transition: none;
+		}
+
+		.type-chip:hover {
+			transform: none;
+		}
 	}
 </style>

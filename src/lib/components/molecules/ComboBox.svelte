@@ -427,7 +427,11 @@
 						</li>
 					{/if}
 				{:else}
-					<li class="combobox__no-results" role="alert">No results available</li>
+					{#if isLoading}
+						<li class="combobox__no-results" role="status">Searching...</li>
+					{:else}
+						<li class="combobox__no-results" role="alert">No results available</li>
+					{/if}
 				{/each}
 			</ul>
 		{/if}
@@ -450,14 +454,14 @@
 	$border-radius: 0.625rem;
 	$breakpoint-sm: 576px;
 
-	// Colors with fallbacks
-	$text-color: var(--lamp-glow);
-	$background-color: var(--background-light, #f9f9f9);
-	$border-color: var(--secondary, #ccc);
-	$hover-color: var(--background-dark, #f0f0f0);
+	// V5 defaults. Route-specific consumers can still style option snippets.
+	$text-color: var(--ink-bright);
+	$background-color: var(--stone-warm);
+	$border-color: var(--stone-edge);
+	$hover-color: var(--stone-mid);
 	$selected-color: var(--lamp-glow);
-	$disabled-color: var(--secondary-dark, #999);
-	$error-color: var(--error, #ff6b6b);
+	$disabled-color: var(--ink-dim);
+	$error-color: var(--error);
 
 	// Component layout
 	.combobox {
@@ -511,11 +515,12 @@
 			&:focus {
 				outline: none;
 				border-color: $selected-color;
-				box-shadow: 0 0 0 3px rgba($selected-color, 0.1);
+				box-shadow: 0 0 0 3px var(--lamp-soft);
 			}
 
 			&:disabled {
-				background-color: rgba($disabled-color, 0.1);
+				background-color: var(--stone-mid);
+				color: $disabled-color;
 				cursor: not-allowed;
 			}
 
@@ -585,8 +590,8 @@
 			}
 
 			&.selected {
-				background-color: rgba($selected-color, 0.1);
-				color: $selected-color;
+				background-color: var(--lamp-soft);
+				color: var(--ink-bright);
 				font-weight: 500;
 			}
 
@@ -619,7 +624,7 @@
 			border-color: $error-color;
 
 			&:focus {
-				box-shadow: 0 0 0 3px rgba($error-color, 0.1);
+				box-shadow: 0 0 0 3px color-mix(in srgb, var(--error) 20%, transparent);
 			}
 		}
 	}
@@ -653,11 +658,11 @@
 	}
 
 	.combobox__list::-webkit-scrollbar-track {
-		background: rgba($background-color, 0.5);
+		background: color-mix(in srgb, var(--stone-warm) 50%, transparent);
 	}
 
 	.combobox__list::-webkit-scrollbar-thumb {
-		background-color: rgba($selected-color, 0.5);
+		background-color: color-mix(in srgb, var(--lamp-glow) 45%, transparent);
 		border-radius: 4px;
 		border: 2px solid $background-color;
 
@@ -671,7 +676,7 @@
 		.combobox {
 			&__input {
 				padding: $base-spacing * 2 $base-spacing * 3;
-				font-size: $font-size-base * 0.9;
+				font-size: $font-size-base;
 			}
 
 			&__list {
