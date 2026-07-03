@@ -1,0 +1,18 @@
+Done. Second-pass revision of `src/blog/people/drafts/Jeff-Goldblum.md` is complete.
+
+## What I changed
+
+**Added a full section on The Fly (1986)** — the review's #1 note, and it was right. Seated it right after the brother's-death beat so the two reinforce each other. It's framed as the counter-evidence the thesis needed: a Seven who converts grief into "spiritual enhancement" gave his defining dramatic performance *as a man trapped in irreversible bodily decay with no reframe available*. That contradiction sharpens the piece instead of letting it off easy, and it doubles as the empathy payoff — grief he dodged in life, poured into a role.
+
+**Landed the orphaned Geena Davis quote** inside that section and added the prior-marriage history (Patricia Gaul, then Davis). The "magical chapter" quote now pays off, and the fatherhood-at-62 beat carries more weight with two finished marriages behind it (added a callback there).
+
+**Sharpened the "culture caught up" claim** — added his 90s A-list run (Jurassic Park '93, Independence Day '96) and the self-chosen 2000s quiet, so the renaissance reads as "drifted off and circled back," not "fame arrived late."
+
+**Trimmed the jazz/Royal Albert Hall repeat** in the aging section — kept the emotionally loaded RAH mention in the brother section and the unique Cynthia Erivo "If I Only Had a Brain" payoff.
+
+**Held the line** on the shower-glass motif (didn't add a callback, per the review's own caution) and kept the discipline thesis + persona empathy turn fully intact.
+
+Ledgers and second-pass note updated; `blog-lint.sh` passes (0 fail).
+
+## Still open (one item for an editor)
+Davis marriage/divorce dates vary across sources (married 1987 vs 1989; divorced 1990 vs 1991). I used the most commonly cited 1987–1990 and flagged it in the notes. If you have a hard source, that one line can be tightened — otherwise it's ready for the frontmatter-enrich stage (the only lint warning is that FAQs haven't been added yet, which is that downstream step).

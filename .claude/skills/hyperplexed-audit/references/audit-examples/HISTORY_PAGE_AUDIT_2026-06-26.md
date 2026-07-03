@@ -2,7 +2,7 @@
 
 # History Page — Hyperplexed Design Audit
 
-> Second live application of the [Hyperplexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md),
+> Second live application of the [Hyperplexed Design Playbook](../playbook.md),
 > following the [Project Page audit](./PROJECT_PAGE_AUDIT_2026-06-26.md).
 > Surface: **History** — `apps/web/src/routes/history/+page.svelte` and its skeleton child
 > `lib/components/history/HistoryListSkeleton.svelte`.

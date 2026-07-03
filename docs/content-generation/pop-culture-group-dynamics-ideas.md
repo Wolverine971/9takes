@@ -3,7 +3,7 @@
 # Pop Culture Group Dynamics Blog Ideas
 
 _Last Modified: 2026-01-21_
-_Related: [Pop Culture Content Strategy](./pop-culture-content-strategy.md) | [Domain Authority: Pop Culture](../domain-authority/07-pop-culture-celebrities.md)_
+_Related: [Pop Culture Content Strategy](./pop-culture-content-strategy.md) | [Domain Authority: Pop Culture](../archives/domain-authority-feb-2026/07-pop-culture-celebrities.md)_
 
 ## Overview
 

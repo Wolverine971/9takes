@@ -1,0 +1,26 @@
+One disciplined revision iteration done on `src/blog/people/drafts/Tobey-Maguire.md`.
+
+## What triggered the loop
+Grade **B (8.3)**, below the B+ bar. Lint was already clean (0 fail), so all work came from the grader's `NEEDS WORK` / `TO REACH B+` lists.
+
+## Fixes applied (mapped to grader items)
+
+**Evidence (held at 8 → inline-sourced all four flagged claims):**
+- **"ambition was to make money"** — now attributed inline to *The Guardian* (web-confirmed as the same interview as the food-stamps quote, presented as one continuous passage).
+- **Ruderman Ponzi clawback** — added year and outlet ("a bankruptcy trustee sued in 2011… As CNN reported that November"). [CNN](https://www.cnn.com/2011/11/28/showbiz/maguire-poker-suit) confirms $311k won, $80k settled, disputed wrongdoing.
+- **Spider-Man 2 standoff** — added year (2003), the injury's origin (*Seabiscuit*), and a "reported" hedge on the $17M figure.
+- **$200/night shuffling machine** — now "By Bloom's account in that same memoir," tying it to her named 2014 source like the rest of the poker material.
+
+**Enneagram (held at 8.5):** Collapsed the diagnosis-body arrow mechanics into one person-first sentence that points to the rabbit hole; the rabbit hole still carries the full 6→3 / 6→9 machinery.
+
+**Originality / sameness flag:** Cut the diagnosis-section restatement of the two-temperatures thesis (intro and close already own it) and rewrote the templated "Among the 138 figures… 15.9%" corpus-stat sentence off the Goldblum/Efron house pattern.
+
+## Rejected (one item)
+I did **not** re-cite the precise `138 / 15.9%` corpus stat. The grader flagged the raw count itself as a corpus-wide data bug (138 vs 373 across drafts) and I can't verify the right value from here — so the reworded sentence keeps the qualitative claim (Type 9 = most common) plus the corpus link but drops the unverifiable numbers. Fixing the number is a corpus-wide job, out of scope for this pass.
+
+## Verification
+- `blog-lint.sh Tobey-Maguire` → **0 fail, 0 warn** (no prose em-dashes introduced, no banned phrases).
+- Protected moves left untouched: empathy turn, "concede the point" paragraph, inner-thought block, cut-to-black close.
+- `REVISION PASS NOTES (2026-07-03)` block appended; `lastmod` and `content_quality` untouched.
+
+The pipeline will now strip the old grade and re-grade. I did not grade it myself.

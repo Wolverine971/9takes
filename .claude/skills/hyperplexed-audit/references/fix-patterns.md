@@ -2,7 +2,7 @@
 
 # Hyperplexed Fix Patterns - 9takes Recipes
 
-> The fix side of the [HyperPlexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md). The playbook
+> The fix side of the [HyperPlexed Design Playbook](./playbook.md). The playbook
 > tells you what's wrong; this doc tells you the 9takes-native fix, so each audit links a finding to
 > a pattern number instead of re-deriving the recipe.
 >

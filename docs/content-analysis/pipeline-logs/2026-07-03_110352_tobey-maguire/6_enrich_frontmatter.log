@@ -1,0 +1,39 @@
+```
+Frontmatter enrichment complete: Tobey-Maguire
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (kept as-is)
+
+Entity IDs (all cross-verified):
+- Wikidata Q165524; IMDb nm0001497 confirmed via Wikidata P345 (not a guess)
+- Born 1975-06-27, Santa Monica, California, United States (Wikipedia + Wikidata)
+
+FAQs generated (5):
+1. What is Tobey Maguire's personality type? → #what-is-tobey-maguires-personality-type
+2. Why is Tobey Maguire so ruthless at the poker table? → #why-tobey-maguire-turns-cold-when-the-stakes-are-real
+3. How did Tobey Maguire's childhood shape his personality? → #why-tobey-maguire-grew-up-afraid-of-losing-everything
+4. Why did Tobey Maguire stop making movies? → #why-tobey-maguire-walked-away-from-being-a-movie-star
+5. Why has Tobey Maguire kept the same friends for thirty years? → #the-friends-tobey-maguire-has-kept-for-thirty-years
+
+All answers drawn from the actual body (Molly Bloom's account, the food-stamp
+childhood, the Material Pictures retreat, the DiCaprio/Garfield loyalty). Anchors
+match existing H2 slugs in the draft.
+
+Issues:
+- The body contains no inline external citation hyperlinks — only named sources
+  (The Guardian, Esquire, Molly's Game memoir, Entertainment Weekly, V Magazine).
+  Per the gold-standard pattern, citations were built from the canonical Wikipedia
+  pages of subjects the body actually discusses (Maguire, Molly Bloom, Pawn
+  Sacrifice, The Great Gatsby, Babylon) rather than invented. Worth adding real
+  inline source links in a future content pass, but not a frontmatter gap.
+- Caught and fixed a YAML trap: FAQ 3's question originally used a backslash-
+  escaped apostrophe (`\'`) inside single quotes, which YAML parses literally and
+  would risk breaking the bundled build. Switched to double quotes. Full
+  frontmatter now validates.
+```
+
+Body, comment blocks, `lastmod`, and all creator-owned fields were left untouched. Draft is frontmatter-ready for grading and DB sync.

@@ -11,9 +11,12 @@
 
 ## 1. Audited Surfaces
 
-| Surface       | Audit doc                                                        | Audited    | Fix status                                                                   | Live verify                                             |
-| ------------- | ---------------------------------------------------------------- | ---------- | ---------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Home page `/` | [`HOME_PAGE_AUDIT_2026-07-03.md`](HOME_PAGE_AUDIT_2026-07-03.md) | 2026-07-03 | Tier 1, Tier 2, and Tier 3 homepage findings shipped: P2, P3, P8+P1, P8, P11 | Pass, mock slow-Supabase browser check plus screenshots |
+| Surface                       | Audit doc                                                                                  | Audited    | Fix status                                                                                                                    | Live verify                                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------------------ | ---------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Home page `/`                 | [`HOME_PAGE_AUDIT_2026-07-03.md`](HOME_PAGE_AUDIT_2026-07-03.md)                           | 2026-07-03 | Tier 1, Tier 2, and Tier 3 homepage findings shipped: P2, P3, P8+P1, P8, P11                                                  | Pass, mock slow-Supabase browser check plus screenshots                                             |
+| `/personality-analysis` index | [`PERSONALITY_ANALYSIS_AUDIT_2026-07-03.md`](PERSONALITY_ANALYSIS_AUDIT_2026-07-03.md)     | 2026-07-03 | Tier 1, Tier 2, and Tier 3 PA index fixes shipped: P3, P8+P1, P5+P6, P2+P13, P6+P8, P11                                       | Pass, desktop/mobile light+dark/reduced-motion browser checks plus screenshots                      |
+| `/questions` index            | [`QUESTIONS_INDEX_AUDIT_2026-07-03.md`](QUESTIONS_INDEX_AUDIT_2026-07-03.md)               | 2026-07-03 | Shipped: P3, P7+P6, P6+P4+P1, P8+P6, P13+P6, P10; deferred typeahead service/index: P13                                       | Pass, desktop/mobile dark, desktop light, filters, and search-state captures                        |
+| `/questions/[slug]` thread    | [`QUESTION_DETAIL_THREAD_AUDIT_2026-07-03.md`](QUESTION_DETAIL_THREAD_AUDIT_2026-07-03.md) | 2026-07-03 | Tier 1 shipped: P6+P4+P1, P8+P13+P11, P6+P13, P13; deferred Tier 2/3: P4+P6+P8, P8+P11, P7+P13+P11, P4+P9+P13, P6+P10+P1, P11 | Pass, post-fix desktop dark, mobile dark, composer open, Articles tab, and mobile light screenshots |
 
 ## 2. Prior Audits To Stack With
 
@@ -43,19 +46,17 @@ fresh before/after screenshots. For HyperPlexed audits, track whether the live p
 
 Roughly ordered by user exposure and leverage:
 
-| Surface                                | Notes                                                                                          |
-| -------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| `/questions` index                     | Core product entry point; filters/search/category navigation need HyperPlexed pass             |
-| Question detail thread                 | Core "one situation, 9 ways to see it" surface; check comments, sorting, reply/edit/flag flows |
-| Home page `/`                          | First impression; verify hero, content hierarchy, CTA clarity, and signature effects           |
-| Header + mobile nav + footer           | Global chrome; stack with existing header/footer design work                                   |
-| Blog article template                  | Reading measure, callouts, related posts, TOC, imagery scrims                                  |
-| Blog index pages                       | Card grids, filters/categories, metadata hierarchy, responsive behavior                        |
-| `/personality-analysis` index and slug | Dossier mode; type colors as data, portrait/card treatment, database-driven content states     |
-| Admin dashboard and content-board      | High-density operational UI; tables, filters, modals, destructive actions                      |
-| Email/dashboard admin flows            | Forms, previews, scheduling states, empty/error/success states                                 |
-| Auth, waitlist, and coaching flows     | Small surfaces every user or lead sees                                                         |
-| Asset generators/poster tools          | Canvas-like UI where one signature interaction might be earned                                 |
+| Surface                                          | Notes                                                                                      |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| Home page `/`                                    | First impression; verify hero, content hierarchy, CTA clarity, and signature effects       |
+| Header + mobile nav + footer                     | Global chrome; stack with existing header/footer design work                               |
+| Blog article template                            | Reading measure, callouts, related posts, TOC, imagery scrims                              |
+| Blog index pages                                 | Card grids, filters/categories, metadata hierarchy, responsive behavior                    |
+| `/personality-analysis` slug/type/category pages | Dossier mode; type colors as data, portrait/card treatment, database-driven content states |
+| Admin dashboard and content-board                | High-density operational UI; tables, filters, modals, destructive actions                  |
+| Email/dashboard admin flows                      | Forms, previews, scheduling states, empty/error/success states                             |
+| Auth, waitlist, and coaching flows               | Small surfaces every user or lead sees                                                     |
+| Asset generators/poster tools                    | Canvas-like UI where one signature interaction might be earned                             |
 
 ## 5. In-Repo Reference Bar
 

@@ -1,0 +1,35 @@
+Revision pass complete. All three items from the grader's TO REACH B+ list are addressed, and lint is clean.
+
+## What I revised
+
+**Draft:** `src/blog/people/drafts/Jeff-Goldblum.md`
+**Trigger:** Grade **B (8.4)**, one point under the B+ (8.5) bar. Lint was already clean, so this was a grader-feedback loop, not a lint loop.
+
+### Fixes applied (mapped to grader items)
+
+**1. Evidence 8→9 (the single dimension the grader said clears the threshold, weighted 1.5×)** — inline-tagged all 5 load-bearing subject quotes with outlet + date, verified by web search:
+- "I'm nothing if not disciplined and conscientious" → **Rolling Stone**, Last Word, 2021
+- The "not-good" daily-practice quote → **New Statesman**, 2020. The source ties "not-good" to his whole 5am regimen (cardio + "workload of piano"), not strictly piano — so I reframed that sentence to attribute it honestly rather than overclaim it as piano-specific.
+- Brother-death shock quotes + "education and spiritual enhancement" → **The Guardian**, 2024 (tagged once at the section head; same interview)
+- Wes Anderson "the"/"and" anecdote → **IndieWire**, 2023
+- Added the three new source URLs to the `citations` block (Rolling Stone Last Word, New Statesman, IndieWire), answering the "4 URLs vs. a dozen+ quotes" note.
+
+**2. De-formula pass** — cut the reader-command tic "Sit with that picture"; varied the templated corpus-stat sentence to lead with Goldblum instead of the house "Of the N people we have profiled…" construction; thinned one aphoristic-fragment closer ("His restlessness is the raw material. The discipline is what makes it usable." → one sentence).
+
+**3. Dissolved the two-column contrast-panel** ("What the meme sees / What is actually there") into a single prose sentence, without swapping in a new stark contrast-pair engine (the adjacent tell the grader flagged).
+
+### Rejected
+- A second inline tag on "education and spiritual enhancement" — it sits two paragraphs under the Guardian-tagged quote in the same section from the same interview; repeating the tag would read as filler.
+- Adding "enneagram/type 7" to `meta_title` — the grader already ruled this a defensible CTR choice.
+
+### Verification
+- `blog-lint.sh Jeff-Goldblum` → **0 fail, 0 warn** (no prose em-dashes, no banned phrases introduced).
+- Did **not** touch `content_quality` or `lastmod`.
+
+The pipeline will now strip the old B grade and re-grade. I did not grade the blog myself — `/grade_blog` owns that.
+
+Sources used for attribution:
+- [Rolling Stone – The Last Word (2021)](https://www.rollingstone.com/tv-movies/tv-movie-features/jeff-goldblum-interview-jurassic-park-fly-big-chill-1244335/)
+- [New Statesman – A day in the life of Jeff Goldblum (2020)](https://www.newstatesman.com/long-reads/2020/01/jeff-goldblum-interview)
+- [IndieWire – Wes Anderson script anecdote (2023)](https://www.indiewire.com/news/breaking-news/jeff-goldblum-wes-anderson-particular-script-1234872730/)
+- [The Guardian "looks back" (Aug 2024), via mirror](https://www.yahoo.com/entertainment/articles/jeff-goldblum-looks-back-brother-130037736.html)

@@ -8,7 +8,7 @@ related:
   - ./draft-blog-quality-assessment.md
   - ../content-generation/celebrity-page-optimization-instructions.md
   - ../writing-system/02-blog-optimization-framework.md
-  - ../30-DAY-ACTION-PLAN-DEC-2025.md
+  - ../archives/30-DAY-ACTION-PLAN-DEC-2025.md
 path: docs/content-analysis/draft-blog-priority-fixes.md
 ---
 
@@ -28,7 +28,7 @@ This document provides a prioritized action plan for fixing quality gaps in the 
 - [Quality Assessment](./draft-blog-quality-assessment.md) — Full audit data
 - [Celebrity Page Optimization Instructions](../content-generation/celebrity-page-optimization-instructions.md) — Optimization protocol
 - [Blog Optimization Framework](../writing-system/02-blog-optimization-framework.md) — General optimization guide
-- [30-Day Action Plan](../30-DAY-ACTION-PLAN-DEC-2025.md) — Current execution plan
+- [30-Day Action Plan](../archives/30-DAY-ACTION-PLAN-DEC-2025.md) — Archived execution plan
 
 ---
 

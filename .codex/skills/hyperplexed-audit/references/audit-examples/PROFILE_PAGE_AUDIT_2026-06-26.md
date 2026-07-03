@@ -2,7 +2,7 @@
 
 # Profile & Settings Page — Hyperplexed Design Audit
 
-> Second live application of the [Hyperplexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md),
+> Second live application of the [Hyperplexed Design Playbook](../playbook.md),
 > following the [Project Page audit](./PROJECT_PAGE_AUDIT_2026-06-26.md).
 > Surface: **Profile & Settings** — `apps/web/src/routes/profile/+page.svelte` (a shell) and its
 > eight tab components plus the shared `ui/TabNav.svelte`.

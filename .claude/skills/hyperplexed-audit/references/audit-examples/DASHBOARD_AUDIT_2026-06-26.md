@@ -2,7 +2,7 @@
 
 # Home Dashboard — Hyperplexed Design Audit
 
-> Second live application of the [Hyperplexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md),
+> Second live application of the [Hyperplexed Design Playbook](../playbook.md),
 > stacked on the method proven in the [Project Page Audit](./PROJECT_PAGE_AUDIT_2026-06-26.md).
 > Surface: **the authenticated home dashboard** — what a logged-in user sees at `/`.
 > Entry: `apps/web/src/routes/+page.svelte:141` renders `AnalyticsDashboard.svelte` for authed users.

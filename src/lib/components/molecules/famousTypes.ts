@@ -333,6 +333,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'milly-alcock', link: false, hasImage: false, lastmod: '2026-04-23', personaTitle: 'The Understudy Who Cast Herself', contentGrade: 9, types: ['movieStar', 'newMovieStar', 'rising-star'] },
 		{ name: 'morgan-wallen', link: false, hasImage: false, lastmod: '2026-03-27', personaTitle: 'Nashville\'s Counterphobic Watchdog', contentGrade: 8.8, types: ['musician'] },
 		{ name: 'ninja', link: false, hasImage: false, lastmod: '2026-05-03', personaTitle: 'Gaming\'s Anxious Hype-Man', contentGrade: 9.2, types: ['creator', 'celebrity', 'celebrity-image'] },
+		{ name: 'tobey-maguire', link: false, hasImage: false, lastmod: '2026-07-03', personaTitle: 'Hollywood\'s Guarded Everyman', contentGrade: 8.2, types: ['movieStar', 'screen-icon'] },
 		{ name: 'volodymyr-zelensky', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'zooey-deschanel', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Indie\'s Vigilant Romantic', contentGrade: 8.9, types: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover'] }
 	],
@@ -398,6 +399,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'florence-pugh', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['newMovieStar'] },
 		{ name: 'frank-lloyd-wright', link: false, hasImage: false, lastmod: '2026-05-13', personaTitle: 'The Architect Who Designed Himself', contentGrade: 9.3, types: ['historical', 'other', 'historical-artist'] },
 		{ name: 'jacksepticeye', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
+		{ name: 'jeff-goldblum', link: false, hasImage: false, lastmod: '2026-07-03', personaTitle: 'Hollywood\'s Disciplined Live Wire', contentGrade: 8.4, types: ['movieStar', 'musician'] },
 		{ name: 'jim-carrey', link: false, hasImage: false, lastmod: '2026-06-30', personaTitle: 'Comedy\'s Escape Artist', contentGrade: 8.9, types: ['comedian', 'movieStar'] },
 		{ name: 'julia-roberts', link: false, hasImage: false, lastmod: '2026-05-29', personaTitle: 'Hollywood\'s Sunlit Escape Artist', contentGrade: null, types: ['movieStar'] },
 		{ name: 'kate-beckinsale', link: false, hasImage: false, lastmod: '2026-05-13', personaTitle: 'Hollywood\'s Quick-Witted Escapist', contentGrade: 8.9, types: ['movieStar', 'celebrity', 'screen-icon'] },

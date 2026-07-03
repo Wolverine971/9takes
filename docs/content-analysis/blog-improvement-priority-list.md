@@ -143,7 +143,7 @@ These posts have weak content that doesn't meet the 9takes quality standards.
 
 **Differentiation achieved:** `communication-styles.md` = understanding WHY each type communicates differently. `communication-tips.md` = tactical scripts for WHAT to say in specific scenarios.
 
-See full case study: [`/docs/writing-system/README.md#case-study-communication-tips-rewrite`](./writing-system/README.md#case-study-communication-tips-rewrite)
+See full case study: [`/docs/writing-system/README.md#case-study-communication-tips-rewrite`](../writing-system/README.md#case-study-communication-tips-rewrite)
 
 ---
 

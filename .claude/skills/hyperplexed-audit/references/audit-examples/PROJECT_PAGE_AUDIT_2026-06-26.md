@@ -2,7 +2,7 @@
 
 # Project Page — Hyperplexed Design Audit (Worked Example)
 
-> First live application of the [Hyperplexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md).
+> First live application of the [Hyperplexed Design Playbook](../playbook.md).
 > Surface: **Project Detail v2** — `apps/web/src/routes/projects/[id]/+page.svelte` and its
 > seven visual child components.
 > Method: audited Hyperplexed-style — **one surface at a time, region by region** — grading the

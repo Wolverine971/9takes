@@ -1,0 +1,14 @@
+## Editor pass complete — `src/blog/people/drafts/Jeff-Goldblum.md`
+
+**What I found:** This draft was already in strong shape. It had been through fresh-eyes and second-pass rounds, so structure, sourcing, and the emotional layer were solid. My job was a light polish, not a rework.
+
+**What I cleaned up (3 surgical fixes):**
+- **Killed a meta device-name** — "Watch what he does with the loss, though, *because this is the aha moment*" → cut the tell. The reader doesn't need to be told they've hit the insight.
+- **Rewrote the one negative-parallelism tell** (the #1 AI pattern) — "The Type 7 pattern *is not that* Goldblum is playful. *It is that* the playfulness is doing a job" → a direct statement: "The Type 7 tell is buried under the playfulness. The delight is doing a job, and it always has."
+- **De-meta'd a transition** — "Then there is the film *that argues against everything above*" → "Then came the role that breaks the pattern." Concrete, no spatial-essay reference.
+
+**What I protected:** the discipline-behind-the-chaos thesis, the empathy turn in the persona section, the inner-thought shower beat, and the deliberate parallel beats ("The wanting was total. So was the hiding.") — those are earned rhetoric, not filler.
+
+**Verification:** `./scripts/blog-lint.sh Jeff-Goldblum` → **0 fail**. Both "no prose em-dashes" and "no banned AI phrases" pass. All em-dashes in the file live in ledger comments and quote-attribution lines (exempt). One WARN remains — no `faqs` in frontmatter — which is the separate enrich stage, not this pass.
+
+**Verdict:** Production-ready on prose and voice. It still needs the frontmatter-enrich stage (faqs) and the DB-sync/publish steps in `production_pretext`, but from an editorial standpoint it reads like a sharp human piece and doesn't need another substantive pass.

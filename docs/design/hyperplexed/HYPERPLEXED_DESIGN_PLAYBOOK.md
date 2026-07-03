@@ -296,8 +296,7 @@ surfaces, and one intentional signature moment when earned.
   `mouse-trailer-intelligent` (context-aware cursor trailer),
   `explosive-hover-effect` (per-letter scatter + `:has()` spotlight dimming),
   `effect-shouldnt-be-possible` (Linear magic gradient text: one timing owner, DOM-reflow restart).
-  _Pulled 2026-07-01; nothing remains deferred._ (Optional watchlist of 4 further effect videos lives in
-  [`TRANSCRIPT_BACKLOG_TASK_2026-07-01.md`](./TRANSCRIPT_BACKLOG_TASK_2026-07-01.md) §1.)
+  _Pulled 2026-07-01; nothing remains deferred._
 
 The 1hr polyrhythm visualizers, particle-art, AI-tracker, and parody videos were intentionally skipped
 (entertainment, not design lessons).

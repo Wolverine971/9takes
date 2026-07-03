@@ -3,8 +3,8 @@
 # HyperPlexed Audit Tracker
 
 > Rollup for the audit program driven by the
-> [HyperPlexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md) and
-> [HyperPlexed Fix Patterns](./HYPERPLEXED_FIX_PATTERNS.md).
+> [HyperPlexed Design Playbook](./playbook.md) and
+> [HyperPlexed Fix Patterns](./fix-patterns.md).
 >
 > One row per surface: what was audited, what shipped, what was deferred, and whether live visual
 > verification has run. Every new `/hyperplexed-audit <surface>` pass should update this file.
@@ -20,13 +20,13 @@
 These are not HyperPlexed-format audits, but they define important baseline work. Read them before
 re-reporting the same findings.
 
-| Doc                                                                                 | Notes                                                                                       |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [`docs/design/2026-06-09-design-audit.md`](../2026-06-09-design-audit.md)           | V5 execution audit: tokens, radius, callouts, header/footer, question thread, prose measure |
-| [`docs/design/2026-06-11-mobile-audit.md`](../2026-06-11-mobile-audit.md)           | Mobile-specific design findings and follow-up work                                          |
-| [`docs/admin-style-audit.md`](../../admin-style-audit.md)                           | Admin styling baseline where relevant                                                       |
-| [`docs/development/STYLE_AUDIT_REPORT.md`](../../development/STYLE_AUDIT_REPORT.md) | Older style migration context                                                               |
-| [`docs/development/css-audit-findings.md`](../../development/css-audit-findings.md) | CSS/token drift context                                                                     |
+| Doc                                                                                            | Notes                                                                                       |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [`docs/design/2026-06-09-design-audit.md`](../../../../docs/design/2026-06-09-design-audit.md) | V5 execution audit: tokens, radius, callouts, header/footer, question thread, prose measure |
+| [`docs/design/2026-06-11-mobile-audit.md`](../../../../docs/design/2026-06-11-mobile-audit.md) | Mobile-specific design findings and follow-up work                                          |
+| [`docs/admin-style-audit.md`](../../../../docs/admin-style-audit.md)                           | Admin styling baseline where relevant                                                       |
+| [`docs/development/STYLE_AUDIT_REPORT.md`](../../../../docs/development/STYLE_AUDIT_REPORT.md) | Older style migration context                                                               |
+| [`docs/development/css-audit-findings.md`](../../../../docs/development/css-audit-findings.md) | CSS/token drift context                                                                     |
 
 ## 3. Open Verification Gap
 

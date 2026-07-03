@@ -1,0 +1,26 @@
+## Cohesion Check Complete: Tobey-Maguire.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Tobey Maguire is a Type 6 whose warmth and coldness are one fear of losing everything, running at two temperatures.
+
+### Changes Made (2 total)
+
+**Transition Fixes (1):**
+- **Section 4 (marriage) → Section 5 (turns cold):** Added a bridge that carries the "pack + ex-wife" thread from the warm sections into the cold pivot: *"Every relationship so far has caught Maguire at his warmest: the thirty-year pack, the ex-wife who became his best friend."* This names the temperature flip the reader is about to cross without re-stating the "same man, two temperatures" motif (which the fresh-eyes review already flagged as over-repeated).
+
+**Internal Flow Fixes (1):**
+- **"Turns cold" section, poker paragraph:** Split the Charlize Theron testimony out of the poker paragraph into its own beat with a bridge (*"The coldness reaches past the card table."*), replacing the abrupt "And the co-stars back up the temperature." The poker paragraph now closes clean on the Ruderman lawsuit; Theron corroborates that the coldness isn't poker-specific, which sets up the Spider-Man 2 escalation that follows.
+
+### What Was Preserved
+- All frontmatter, ledger comments, `<details>` blocks, `<p class>` components, and internal links
+- The empathy turn, "concede the point" paragraph, and inner-thought block (all flagged as the piece's strongest moves)
+- The Rabbit Hole quarantine of counter-typing
+- Section transitions 3→4, 5→7, and 7→8, which were already strong
+- No em-dashes or banned AI phrasing introduced (both additions clear blog-lint)
+
+### Remaining Concerns
+- **The "turns cold" section is the longest in the piece** (the second-pass notes already flag this after the Ruderman add). It's still earning its length after the Theron split, but if you ever trim, the card-shuffling-machine equipment detail is the most expendable line without hurting the thread.
+- **Section 1 → 2 transition** (diagnosis "the same man, cold" → "He was born to teenagers") leans on the H2 header to do the bridging work. It's adequate as-is; I left it alone because adding a bridge sentence there risks front-loading the childhood before the header earns it. Your call if you want it tighter.

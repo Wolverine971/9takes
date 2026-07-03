@@ -8,8 +8,8 @@
 
 > Self-contained pickup doc. Goal: finish the Hyperplexed source corpus by transcribing the 7
 > deferred Tier-2 effect tutorials, fold what they teach into the
-> [playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md) §2 and
-> [`HYPERPLEXED_FIX_PATTERNS.md`](./HYPERPLEXED_FIX_PATTERNS.md), **then** build the
+> [playbook](./playbook.md) §2 and
+> [`HYPERPLEXED_FIX_PATTERNS.md`](./fix-patterns.md), **then** build the
 > `/hyperplexed-audit` command (step 4 — deliberately blocked until the corpus is complete so the
 > command's rubric isn't missing material). Created 2026-07-01.
 
@@ -79,7 +79,7 @@ not a skill — `.claude/commands/hyperplexed-audit.md`. Requirements agreed:
   same method as the existing audits); (2) present findings tiered by leverage, each citing its
   fix pattern (`→ P#`); (3) **stop and wait for DJ's approval/input** on which fixes to apply;
   (4) apply approved fixes using the P-recipes; (5) verify (`svelte-check` + Prettier); (6) update
-  [`HYPERPLEXED_AUDIT_TRACKER.md`](./HYPERPLEXED_AUDIT_TRACKER.md) — add/update the surface's row,
+  [`HYPERPLEXED_AUDIT_TRACKER.md`](./audit-tracker.md) — add/update the surface's row,
   note deferred items — and write/update the audit doc if the surface warrants one.
 - **Wired to:** the playbook (rubric), fix patterns (recipes, and add new P-numbers when a fix
   doesn't match), tracker (row per surface + backlog + in-repo exemplar list), and the existing

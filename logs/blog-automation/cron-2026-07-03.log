@@ -1,0 +1,388 @@
+[2026-07-03 02:11:18] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-03 02:11:18] [INFO] SKIPPED: zac-efron — draft already exists
+[2026-07-03 02:11:18] [INFO] SELECTED: jeff-goldblum (Type 7)
+[2026-07-03 02:11:18] [INFO] Launching pipeline for jeff-goldblum
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  jeff-goldblum
+Draft:   src/blog/people/drafts/jeff-goldblum.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum
+Started: Fri Jul  3 02:11:18 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:11:18)
+Command: /blog_content_creator_people_v2 jeff-goldblum --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/1_create.log
+─────────────────────────────────────────────────────
+The draft is complete and passes all structural gates. Here's the completion report:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Jeff-Goldblum.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass, Gate 2: pass, Gate 4: pass, Gate 5: pass, Gate 6: pass]
+LIMITATIONS: no faqs in frontmatter (downstream enrich stage, out of scope); some testimony sourced via aggregators — verify exact punctuation before publish; "wilderness-years slump" premise deliberately NOT asserted (research showed it's undocumented; anchored the low point in grief instead)
+```
+
+**What I built**
+
+- **Type call:** Enneagram Type 7 (Enthusiast), 7w6, social subtype — validated in research notes, argued in the Rabbit Hole (with the honest Type 3 / Type 9 counter-cases).
+- **Thesis / core tension:** *the effortless eccentric vs. the relentless disciplinarian.* The looseness everyone loves is the most trained thing about him. The Enneagram does real work: it reframes his appetite as a survival instrument, not a party trick.
+- **Signature detail / hook:** the boy writing "Please God, let me be an actor" in the shower steam and wiping it away — used as the hook, threaded through the interior beat, and closed on in the ending ("exactly what to keep behind the glass").
+- **Empathy turn + critic pressure:** the "always-on Goldblum bit" skeptics call a put-on, reframed through the 19-year-old who lost his brother Rick and learned aliveness is how you keep from drowning. Concedes the reframe-as-avoidance reading before the type lens resolves it.
+- **Current-tense anchors:** *Wicked: For Good* (Nov 2025), going vegetarian, the *Night Blooms* tour + Royal Albert Hall (June 30, 2026), the Cynthia Erivo duet.
+
+**Testimony ledger:** 5 named-third-party quotes (Chu, Arnett, Bateman, Bailey, Geena Davis) — clears the ≥2 requirement.
+
+**Internal links (5):** Type 7 explainer, wings guide, instinctual subtypes, Chris Hemsworth (*Thor: Ragnarok* co-star), Robin Williams (fellow Seven), plus a corpus-stat citation to `/corpus-stats`.
+
+**Lint:** 0 fail, 1 warn (FAQ enrich — a later stage). No prose em-dashes, no banned phrases, no self-loops, exactly one Rabbit Hole.
+
+Per non-interactive rules I left it at `status: draft` — human review is still required before production. Next step when you approve: mark `production_pretext.status: ready` and run `blog_content_production_people`. Grading is owned separately by `/grade_blog`.
+[Stage 1] create finished 02:26:49 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:26:49)
+Command: /blog_content_fresh_eyes_people jeff-goldblum
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Reviewed `src/blog/people/drafts/Jeff-Goldblum.md` and appended a `FRESH EYES REVIEW (2026-07-03)` block at the bottom. No body edits.
+
+**The two biggest issues I flagged:**
+
+1. **The Fly (1986) is completely missing** — and it's not just a gap, it's the strongest counter-evidence to the whole thesis. The draft argues Goldblum is a Seven who reframes pain and never lets himself simply hurt, yet his defining dramatic role is a performance *about* bodily horror, decay, and disintegration. Cashing that contradiction out would sharpen the piece a lot; omitting it lets the argument off easy, and any reader who knows him will notice.
+
+2. **Geena Davis is quoted in the testimony ledger but never appears in the body** — a collected quote left dangling. His actual marital history (Patricia Gaul, then Davis, whom he met on *The Fly*) is skipped in favor of only the current marriage. Defining context a reader expects.
+
+Also noted: the piece over-relies on the "late renaissance" and underserves his 90s peak-fame era (Independence Day, original Jurassic Park), and the jazz/Royal Albert Hall beat repeats ~three times. The discipline-behind-the-chaos thesis and the empathy turn are the parts working best — flagged those to preserve.
+[Stage 2] fresh_eyes finished 02:28:14 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:28:14)
+Command: /blog_content_second_pass_people jeff-goldblum
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/3_second_pass.log
+─────────────────────────────────────────────────────
+Done. Second-pass revision of `src/blog/people/drafts/Jeff-Goldblum.md` is complete.
+
+## What I changed
+
+**Added a full section on The Fly (1986)** — the review's #1 note, and it was right. Seated it right after the brother's-death beat so the two reinforce each other. It's framed as the counter-evidence the thesis needed: a Seven who converts grief into "spiritual enhancement" gave his defining dramatic performance *as a man trapped in irreversible bodily decay with no reframe available*. That contradiction sharpens the piece instead of letting it off easy, and it doubles as the empathy payoff — grief he dodged in life, poured into a role.
+
+**Landed the orphaned Geena Davis quote** inside that section and added the prior-marriage history (Patricia Gaul, then Davis). The "magical chapter" quote now pays off, and the fatherhood-at-62 beat carries more weight with two finished marriages behind it (added a callback there).
+
+**Sharpened the "culture caught up" claim** — added his 90s A-list run (Jurassic Park '93, Independence Day '96) and the self-chosen 2000s quiet, so the renaissance reads as "drifted off and circled back," not "fame arrived late."
+
+**Trimmed the jazz/Royal Albert Hall repeat** in the aging section — kept the emotionally loaded RAH mention in the brother section and the unique Cynthia Erivo "If I Only Had a Brain" payoff.
+
+**Held the line** on the shower-glass motif (didn't add a callback, per the review's own caution) and kept the discipline thesis + persona empathy turn fully intact.
+
+Ledgers and second-pass note updated; `blog-lint.sh` passes (0 fail).
+
+## Still open (one item for an editor)
+Davis marriage/divorce dates vary across sources (married 1987 vs 1989; divorced 1990 vs 1991). I used the most commonly cited 1987–1990 and flagged it in the notes. If you have a hard source, that one line can be tightened — otherwise it's ready for the frontmatter-enrich stage (the only lint warning is that FAQs haven't been added yet, which is that downstream step).
+[Stage 3] second_pass finished 02:31:29 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:31:29)
+Command: /cohesion-check src/blog/people/drafts/jeff-goldblum.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/4_cohesion.log
+─────────────────────────────────────────────────────
+Applied. Now the report.
+
+## Cohesion Check Complete: Jeff-Goldblum.md
+
+**Before score: 8/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Goldblum's famous looseness is manufactured discipline: a survival strategy a grieving boy built so pain could never corner him.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- **Piano → Brother:** Added a four-word bridge, "The restlessness has a source." It carries the closing keyword of the piano section ("His restlessness is the raw material") straight into the brother's-death section, which is the origin of that restlessness. Turns a cold cut from *craft* to *death* into a cause-and-effect step. Matches the surrounding short-declarative rhythm; no em-dashes or banned words.
+
+### What Was Preserved
+- All frontmatter fields (including `lastmod`, untouched)
+- All Svelte/HTML components, the TL;DR accordion, contrast panel, Rabbit Hole, and all ledger/review comments
+- All internal links
+- 6 of the 8 section transitions (already strong: Diagnosis→Childhood, Brother→The Fly, Fly→Persona, Persona close, Aging→Close)
+
+### Remaining Concerns (two minor bumps — your call, I did not apply them)
+
+These are adequate as-is, so I held off rather than over-engineer strong prose. Flagging for your judgment:
+
+1. **Childhood → Piano.** The childhood section ends on belonging ("the one place where being unlike everyone was the whole point"), then piano opens on "Here is the fact that breaks the meme." The meme-breaking hook is a deliberate, strong opener, so I'd leave it. The only softness is that the childhood section established ritual as "the first structure of his life" and the piano section never explicitly picks that "structure" thread back up. Optional one-clause callback would tighten it, but it risks burying a good hook. My recommendation: leave it.
+
+2. **Persona → Aging.** Persona closes on "what the avoidance is protecting"; aging opens on a new subject ("Most stars fight time with denial"). It connects thematically (aging is another arena of the reframe-into-adventure pattern), and "Goldblum does the Seven thing and reframes it" is a serviceable self-bridge. A reader won't get lost. Leaving it.
+
+Want me to add the optional Childhood→Piano callback, or is the piece good to hand back to the pipeline here?
+[Stage 4] cohesion finished 02:33:10 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:33:10)
+Command: /blog_content_editor_pass_people jeff-goldblum
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/5_editor_pass.log
+─────────────────────────────────────────────────────
+## Editor pass complete — `src/blog/people/drafts/Jeff-Goldblum.md`
+
+**What I found:** This draft was already in strong shape. It had been through fresh-eyes and second-pass rounds, so structure, sourcing, and the emotional layer were solid. My job was a light polish, not a rework.
+
+**What I cleaned up (3 surgical fixes):**
+- **Killed a meta device-name** — "Watch what he does with the loss, though, *because this is the aha moment*" → cut the tell. The reader doesn't need to be told they've hit the insight.
+- **Rewrote the one negative-parallelism tell** (the #1 AI pattern) — "The Type 7 pattern *is not that* Goldblum is playful. *It is that* the playfulness is doing a job" → a direct statement: "The Type 7 tell is buried under the playfulness. The delight is doing a job, and it always has."
+- **De-meta'd a transition** — "Then there is the film *that argues against everything above*" → "Then came the role that breaks the pattern." Concrete, no spatial-essay reference.
+
+**What I protected:** the discipline-behind-the-chaos thesis, the empathy turn in the persona section, the inner-thought shower beat, and the deliberate parallel beats ("The wanting was total. So was the hiding.") — those are earned rhetoric, not filler.
+
+**Verification:** `./scripts/blog-lint.sh Jeff-Goldblum` → **0 fail**. Both "no prose em-dashes" and "no banned AI phrases" pass. All em-dashes in the file live in ledger comments and quote-attribution lines (exempt). One WARN remains — no `faqs` in frontmatter — which is the separate enrich stage, not this pass.
+
+**Verdict:** Production-ready on prose and voice. It still needs the frontmatter-enrich stage (faqs) and the DB-sync/publish steps in `production_pretext`, but from an editorial standpoint it reads like a sharp human piece and doesn't need another substantive pass.
+[Stage 5] editor_pass finished 02:35:22 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:35:22)
+Command: /blog_content_frontmatter_enrich_people jeff-goldblum
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Enrichment complete. Here's the report:
+
+```
+Frontmatter enrichment complete: Jeff-Goldblum
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved, untouched):
+- wikipedia (verified correct — canonical EN Wikipedia URL)
+- twitter, instagram (creator social handles)
+
+Entity IDs (cross-checked):
+- Wikidata QID: Q106706  ← corrected; a first-guess Q131324 turned out to be Janet Jackson, verified against P345/P569/P19
+- IMDb: nm0000156 (confirmed via Wikidata P345 + IMDb search)
+- birth_date: 1952-10-22 · birth_place: West Homestead, Pennsylvania, United States (Wikipedia infobox; Wikidata lists Pittsburgh, but the body and infobox agree on West Homestead)
+
+FAQs generated (5):
+1. What is Jeff Goldblum's personality type? → #what-is-jeff-goldblums-personality-type
+2. Why does Jeff Goldblum call himself disciplined when he seems so spontaneous? → #why-jeff-goldblum-treats-piano-practice-like-a-moral-duty
+3. How did his brother's death shape Jeff Goldblum? → #the-brother-whose-records-became-jeff-goldblums-second-act
+4. Why is The Fly the exception to Jeff Goldblum's personality? → #the-one-role-jeff-goldblum-couldnt-turn-into-an-adventure
+5. Is the Jeff Goldblum persona just an act? → #is-the-jeff-goldblum-persona-just-an-act
+   (All anchors map to real H2 headings in the body.)
+
+Issues:
+- The body contains ZERO inline external URLs — every link in it is an internal
+  9takes link (/corpus-stats, /enneagram-corner/*, /personality-analysis/*).
+  Per the "do not invent citations" rule, I did NOT fabricate any. Instead I
+  resolved the body's *named* sources (Wikipedia, The Fly, Rolling Stone jazz/Erivo
+  interview, Variety SmartLess piece) to verified authoritative URLs for `citations`.
+  Flagging the underlying content-quality gap: the draft cites publications by name
+  (The Guardian 2024, People, TODAY, SmartLess) without linking them in-body.
+- The body/frontmatter is otherwise strong; no other gaps.
+```
+
+I stayed strictly additive and did not touch the body, HTML comment blocks, `production_pretext`, `content_quality`, `lastmod`, or any creator-owned fields. YAML strings with apostrophes are double-quoted to avoid the known people-pipeline `\'`-vs-`''` build break.
+[Stage 6] enrich_frontmatter finished 02:39:14 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 150 chars
+ok    meta_title length 51 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: jeff-goldblum — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:39:14)
+Command: /grade_blog jeff-goldblum
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Jeff Goldblum (single)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jeff-Goldblum | 8 | 8 | 9 | 8.5 | 8 | 9 | **8.4** | **B** |
+
+*(Overall weighted: `(8×1.5 + 8×1.5 + 9×1.5 + 8.5 + 8 + 9×0.5) / 7 = 58.5/7 = 8.36 → 8.4`. Discoverability 9 ≥ 7, no gate cap. Lands at the top of B, just under the 8.5 B+ line.)*
+
+### Key Observations
+
+- **What's genuinely strong:** The discipline-behind-the-chaos thesis is one of the freshest in the recent batch and passes the swap test cleanly. The Fly section (a Second-Pass addition) is a real structural coup — it turns his defining dramatic role into the counter-evidence to his own type instead of ducking it. All three emotional-interior checks land, and the rabbit hole is properly quarantined. Discoverability is near-best-in-corpus (5 real FAQs, full entity metadata, extractable answer).
+
+- **What holds it to B (three separate ceilings, each worth ~0.1–0.2):**
+  - **Evidence 8:** heavy on the subject's own voice but the inline sourcing discipline is inconsistent — the citations block has 4 URLs against a dozen-plus body quotes, and the load-bearing ones ("nothing if not disciplined," the "not-good" piano tell, "spiritual enhancement," the brother details, the Wes Anderson anecdote) aren't outlet+date-tagged the way the epigraph is. All traceable, none fabrication-risk.
+  - **Originality 8 / Writing 8:** the **de-formula revision pass has not run** (the notes stop at editor-pass). So the corpus-stat sentence, the "Sit with that picture" reader-command tic, the aphoristic-fragment closers, and the two-column contrast-panel + 3 contrast-pair sentences are all still showing. Writing is capped at 8 by that contrast architecture.
+
+- **Sameness-check result:** Consistent with how Efron and Rosé were handled (8, furniture noted, no hard cap) — but those two were explicitly de-formula'd by their revision pass and Goldblum wasn't. Only two moves are genuinely *near-verbatim* (corpus-stat template, reader-command tic), so the hard Originality-cap-at-7 doesn't strictly trigger; I held it at 8 and flagged the furniture as the clear path to B+.
+
+The single highest-leverage fix is inline-tagging the five load-bearing quotes — that alone lifts Evidence to 9 and clears the 8.5 threshold.
+
+**Total graded this session: 1**
+[Stage 7] grade finished 02:42:26 (exit=0)
+
+[Stage 8] Revision loop triggered: overall 8.4 < 8.5; 
+─────────────────────────────────────────────────────
+[Stage 8] revise  (started 02:42:26)
+Command: /blog_content_revision_pass_people jeff-goldblum
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/8_revise.log
+─────────────────────────────────────────────────────
+Revision pass complete. All three items from the grader's TO REACH B+ list are addressed, and lint is clean.
+
+## What I revised
+
+**Draft:** `src/blog/people/drafts/Jeff-Goldblum.md`
+**Trigger:** Grade **B (8.4)**, one point under the B+ (8.5) bar. Lint was already clean, so this was a grader-feedback loop, not a lint loop.
+
+### Fixes applied (mapped to grader items)
+
+**1. Evidence 8→9 (the single dimension the grader said clears the threshold, weighted 1.5×)** — inline-tagged all 5 load-bearing subject quotes with outlet + date, verified by web search:
+- "I'm nothing if not disciplined and conscientious" → **Rolling Stone**, Last Word, 2021
+- The "not-good" daily-practice quote → **New Statesman**, 2020. The source ties "not-good" to his whole 5am regimen (cardio + "workload of piano"), not strictly piano — so I reframed that sentence to attribute it honestly rather than overclaim it as piano-specific.
+- Brother-death shock quotes + "education and spiritual enhancement" → **The Guardian**, 2024 (tagged once at the section head; same interview)
+- Wes Anderson "the"/"and" anecdote → **IndieWire**, 2023
+- Added the three new source URLs to the `citations` block (Rolling Stone Last Word, New Statesman, IndieWire), answering the "4 URLs vs. a dozen+ quotes" note.
+
+**2. De-formula pass** — cut the reader-command tic "Sit with that picture"; varied the templated corpus-stat sentence to lead with Goldblum instead of the house "Of the N people we have profiled…" construction; thinned one aphoristic-fragment closer ("His restlessness is the raw material. The discipline is what makes it usable." → one sentence).
+
+**3. Dissolved the two-column contrast-panel** ("What the meme sees / What is actually there") into a single prose sentence, without swapping in a new stark contrast-pair engine (the adjacent tell the grader flagged).
+
+### Rejected
+- A second inline tag on "education and spiritual enhancement" — it sits two paragraphs under the Guardian-tagged quote in the same section from the same interview; repeating the tag would read as filler.
+- Adding "enneagram/type 7" to `meta_title` — the grader already ruled this a defensible CTR choice.
+
+### Verification
+- `blog-lint.sh Jeff-Goldblum` → **0 fail, 0 warn** (no prose em-dashes, no banned phrases introduced).
+- Did **not** touch `content_quality` or `lastmod`.
+
+The pipeline will now strip the old B grade and re-grade. I did not grade the blog myself — `/grade_blog` owns that.
+
+Sources used for attribution:
+- [Rolling Stone – The Last Word (2021)](https://www.rollingstone.com/tv-movies/tv-movie-features/jeff-goldblum-interview-jurassic-park-fly-big-chill-1244335/)
+- [New Statesman – A day in the life of Jeff Goldblum (2020)](https://www.newstatesman.com/long-reads/2020/01/jeff-goldblum-interview)
+- [IndieWire – Wes Anderson script anecdote (2023)](https://www.indiewire.com/news/breaking-news/jeff-goldblum-wes-anderson-particular-script-1234872730/)
+- [The Guardian "looks back" (Aug 2024), via mirror](https://www.yahoo.com/entertainment/articles/jeff-goldblum-looks-back-brother-130037736.html)
+[Stage 8] revise finished 02:47:28 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 8.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/8.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 150 chars
+ok    meta_title length 51 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: jeff-goldblum — 0 fail, 0 warn
+[Stage 8.5] lint passed
+
+[pre-grade] Stripping existing content_quality block from src/blog/people/drafts/jeff-goldblum.md for a clean re-grade
+[pre-grade] Stripping prior QUALITY GRADE comment(s) from src/blog/people/drafts/jeff-goldblum.md
+─────────────────────────────────────────────────────
+[Stage 9] regrade  (started 02:47:28)
+Command: /grade_blog jeff-goldblum
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum/9_regrade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Jeff Goldblum
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jeff-Goldblum | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+*(Overall weighted: (8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4. Discoverability 9 — well above the gate.)*
+
+### Key Observations
+
+- **The pivotal dimension is Evidence.** The draft already went through a revision pass (triggered at B/8.4) that tried to lift Evidence 8→9 to clear B+. My independent grade lands at the same 8.4 for a concrete, nameable reason: the revision tagged five load-bearing quotes but left the **most** load-bearing one untagged — the shower-glass "Please God, let me be an actor" spine that opens, threads, and closes the whole piece. Source that one quote inline and the draft is a B+.
+- **Genuinely strong where it counts.** Enneagram integration and Hook are the standouts (both 9). The Fly section — using the type to predict the one role a Seven couldn't reframe, then showing him step into it — is the best single move in the piece. The rabbit hole is exemplary (all wing/subtype/arrow/counter-typing quarantined).
+- **Sameness check (vs. Zac-Efron, Rosé, both graded 2026-07-02):** shared house furniture is visible — TL;DR skeleton, corpus-stat sentence, epigraph→cold-open template, empathy-turn shape — but not near-verbatim, and Goldblum's signature-detail density (shower glass + The Fly + Rick's records) is fresh. No Originality cap applied; held at 8 for the monocausal thesis and visible template, consistent with both siblings.
+
+The grade is a robust B — Enneagram would have to drop two full points or Evidence rise one to change the letter.
+
+**Total graded this session: 1**
+[Stage 9] regrade finished 02:50:54 (exit=0)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: jeff-goldblum
+Finished: Fri Jul  3 02:50:54 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-03_021118_jeff-goldblum
+LINT: passed
+REVISION LOOP: ran once (trigger: overall 8.4 < 8.5)
+GRADE: 8.4 → 8.4 (first grade → after revision)
+STILL BELOW BAR after one revision — human review needed; the loop does not repeat.
+
+Final draft frontmatter (grade summary):
+enneagram: '7'
+  hook: 9
+  enneagram: 9
+  evidence: 8
+  writing: 8
+  originality: 8
+  discoverability: 9
+  overall: 8.4
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-07-03'
+═════════════════════════════════════════════════════
+[2026-07-03 02:50:54] [INFO] Pipeline exited code=0 after 39 min
+[2026-07-03 02:50:54] [WARN] Pipeline left a FAILED_AT_STAGE sentinel: stage=9_regrade exit=0 died_at=2026-07-03 02:50:54
+[2026-07-03 02:50:54] [SUCCESS] Completed: Jeff Goldblum — grade 8.4 (B)
+[2026-07-03 02:50:54] [INFO] NOTIFY: ✅ 9takes nightly blog: Jeff Goldblum (Type 7) — grade 8.4 (B), disc 9, 39 min. needsReview=true
+[2026-07-03 02:50:54] [INFO] Nightly blog cron finished

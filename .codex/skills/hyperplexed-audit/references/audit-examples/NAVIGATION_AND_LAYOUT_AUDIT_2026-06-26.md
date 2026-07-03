@@ -2,7 +2,7 @@
 
 # App Shell — Navigation & Layout — Hyperplexed Design Audit
 
-> Live application of the [Hyperplexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md) to the
+> Live application of the [Hyperplexed Design Playbook](../playbook.md) to the
 > **global app shell**: the top navigation, the root layout (page frame + banners), and the footer —
 > on **desktop and mobile**. This is the surface every page inherits, so findings here propagate app-wide.
 >

@@ -1,0 +1,11 @@
+## Editorial polish pass complete — `src/blog/people/drafts/Tobey-Maguire.md`
+
+**What I found:** This draft was already in strong shape. It had cleared two prior passes (fresh-eyes and second-pass), and the lint came back clean on arrival — **0 fails, no prose em-dashes, no banned AI phrases**. So this was a true line-level polish, not a rescue. I deliberately kept the footprint small to avoid flattening a piece that's working.
+
+**What I cleaned up:**
+- **Mobile rhythm.** Two paragraphs were reading as walls on a phone. Split the DiCaprio friendship block so the *Great Gatsby* / Nick Carraway payoff stands on its own, and split the poker "turns cold" block so the Ruderman Ponzi clawback lands as a separate beat instead of getting buried mid-paragraph.
+- **A phrasing echo.** "A Six **spends his life managing** the suspicion..." (Pawn Sacrifice) and "A man who **spends his life managing** how he is seen..." (Babylon) sat two paragraphs apart. Reworked the Babylon opener to break the repeat.
+
+**What I deliberately left alone:** the empathy turn (food-stamps reframe of the seal/bark cruelty), the "concede the point" critic anchor, and the inner-thought block — all previously flagged as the piece's best moves. The two-temperatures thesis restatements were already thinned in the second pass and now read as intentional callbacks, not template.
+
+**Verdict:** Production-ready as prose. The only open item is the `faqs` frontmatter enrich stage (the lint's one WARN) plus the standard DB sync — both downstream of editing, not editorial problems. No further substantive pass needed.

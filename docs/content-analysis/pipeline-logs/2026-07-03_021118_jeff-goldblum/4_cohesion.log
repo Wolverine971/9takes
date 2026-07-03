@@ -1,0 +1,30 @@
+Applied. Now the report.
+
+## Cohesion Check Complete: Jeff-Goldblum.md
+
+**Before score: 8/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Goldblum's famous looseness is manufactured discipline: a survival strategy a grieving boy built so pain could never corner him.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- **Piano → Brother:** Added a four-word bridge, "The restlessness has a source." It carries the closing keyword of the piano section ("His restlessness is the raw material") straight into the brother's-death section, which is the origin of that restlessness. Turns a cold cut from *craft* to *death* into a cause-and-effect step. Matches the surrounding short-declarative rhythm; no em-dashes or banned words.
+
+### What Was Preserved
+- All frontmatter fields (including `lastmod`, untouched)
+- All Svelte/HTML components, the TL;DR accordion, contrast panel, Rabbit Hole, and all ledger/review comments
+- All internal links
+- 6 of the 8 section transitions (already strong: Diagnosis→Childhood, Brother→The Fly, Fly→Persona, Persona close, Aging→Close)
+
+### Remaining Concerns (two minor bumps — your call, I did not apply them)
+
+These are adequate as-is, so I held off rather than over-engineer strong prose. Flagging for your judgment:
+
+1. **Childhood → Piano.** The childhood section ends on belonging ("the one place where being unlike everyone was the whole point"), then piano opens on "Here is the fact that breaks the meme." The meme-breaking hook is a deliberate, strong opener, so I'd leave it. The only softness is that the childhood section established ritual as "the first structure of his life" and the piano section never explicitly picks that "structure" thread back up. Optional one-clause callback would tighten it, but it risks burying a good hook. My recommendation: leave it.
+
+2. **Persona → Aging.** Persona closes on "what the avoidance is protecting"; aging opens on a new subject ("Most stars fight time with denial"). It connects thematically (aging is another arena of the reframe-into-adventure pattern), and "Goldblum does the Seven thing and reframes it" is a serviceable self-bridge. A reader won't get lost. Leaving it.
+
+Want me to add the optional Childhood→Piano callback, or is the piece good to hand back to the pipeline here?

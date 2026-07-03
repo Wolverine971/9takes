@@ -262,10 +262,10 @@ surfaces, and one intentional signature moment when earned.
   Runs the whole loop: locate + prior art → region-by-region static audit → tiered findings with
   `→ P#` citations → **stop for DJ's approval** → apply approved fixes → verify → update the
   tracker and audit doc. Prefer invoking this over running an audit ad hoc.
-- **[`HYPERPLEXED_AUDIT_TRACKER.md`](./HYPERPLEXED_AUDIT_TRACKER.md)** — the rollup: which surfaces are
+- **[`HYPERPLEXED_AUDIT_TRACKER.md`](./audit-tracker.md)** — the rollup: which surfaces are
   audited, what shipped, what's still unaudited, and the verification (before/after screenshot) status.
   Start there to pick the next surface; every new audit gets a row.
-- **[`HYPERPLEXED_FIX_PATTERNS.md`](./HYPERPLEXED_FIX_PATTERNS.md)** — the fix side of the rubric: each
+- **[`HYPERPLEXED_FIX_PATTERNS.md`](./fix-patterns.md)** — the fix side of the rubric: each
   recurring finding mapped to its 9takes-native recipe (V5 tokens, local atoms, Svelte 5), so
   audits link to a pattern instead of re-deriving the fix.
 - **Audit method:** grade the rendered markup region by region against §1–§2 (static pass), then confirm
@@ -296,8 +296,7 @@ surfaces, and one intentional signature moment when earned.
   `mouse-trailer-intelligent` (context-aware cursor trailer),
   `explosive-hover-effect` (per-letter scatter + `:has()` spotlight dimming),
   `effect-shouldnt-be-possible` (Linear magic gradient text: one timing owner, DOM-reflow restart).
-  _Pulled 2026-07-01; nothing remains deferred._ (Optional watchlist of 4 further effect videos lives in
-  [`TRANSCRIPT_BACKLOG_TASK_2026-07-01.md`](./TRANSCRIPT_BACKLOG_TASK_2026-07-01.md) §1.)
+  _Pulled 2026-07-01; nothing remains deferred._
 
 The 1hr polyrhythm visualizers, particle-art, AI-tracker, and parody videos were intentionally skipped
 (entertainment, not design lessons).

@@ -1,0 +1,38 @@
+Enrichment complete. Here's the report:
+
+```
+Frontmatter enrichment complete: Jeff-Goldblum
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved, untouched):
+- wikipedia (verified correct — canonical EN Wikipedia URL)
+- twitter, instagram (creator social handles)
+
+Entity IDs (cross-checked):
+- Wikidata QID: Q106706  ← corrected; a first-guess Q131324 turned out to be Janet Jackson, verified against P345/P569/P19
+- IMDb: nm0000156 (confirmed via Wikidata P345 + IMDb search)
+- birth_date: 1952-10-22 · birth_place: West Homestead, Pennsylvania, United States (Wikipedia infobox; Wikidata lists Pittsburgh, but the body and infobox agree on West Homestead)
+
+FAQs generated (5):
+1. What is Jeff Goldblum's personality type? → #what-is-jeff-goldblums-personality-type
+2. Why does Jeff Goldblum call himself disciplined when he seems so spontaneous? → #why-jeff-goldblum-treats-piano-practice-like-a-moral-duty
+3. How did his brother's death shape Jeff Goldblum? → #the-brother-whose-records-became-jeff-goldblums-second-act
+4. Why is The Fly the exception to Jeff Goldblum's personality? → #the-one-role-jeff-goldblum-couldnt-turn-into-an-adventure
+5. Is the Jeff Goldblum persona just an act? → #is-the-jeff-goldblum-persona-just-an-act
+   (All anchors map to real H2 headings in the body.)
+
+Issues:
+- The body contains ZERO inline external URLs — every link in it is an internal
+  9takes link (/corpus-stats, /enneagram-corner/*, /personality-analysis/*).
+  Per the "do not invent citations" rule, I did NOT fabricate any. Instead I
+  resolved the body's *named* sources (Wikipedia, The Fly, Rolling Stone jazz/Erivo
+  interview, Variety SmartLess piece) to verified authoritative URLs for `citations`.
+  Flagging the underlying content-quality gap: the draft cites publications by name
+  (The Guardian 2024, People, TODAY, SmartLess) without linking them in-body.
+- The body/frontmatter is otherwise strong; no other gaps.
+```
+
+I stayed strictly additive and did not touch the body, HTML comment blocks, `production_pretext`, `content_quality`, `lastmod`, or any creator-owned fields. YAML strings with apostrophes are double-quoted to avoid the known people-pipeline `\'`-vs-`''` build break.

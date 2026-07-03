@@ -2,7 +2,7 @@
 
 # Projects **List** Page — Hyperplexed Design Audit
 
-> Second live application of the [Hyperplexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md).
+> Second live application of the [Hyperplexed Design Playbook](../playbook.md).
 > Surface: **Projects index** — `apps/web/src/routes/projects/+page.svelte` and its list/filter child
 > components. (Companion to [`PROJECT_PAGE_AUDIT_2026-06-26.md`](./PROJECT_PAGE_AUDIT_2026-06-26.md),
 > which covered the project **detail** page.)

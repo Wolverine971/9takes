@@ -1,0 +1,21 @@
+## Grading Complete — Jeff Goldblum (single)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jeff-Goldblum | 8 | 8 | 9 | 8.5 | 8 | 9 | **8.4** | **B** |
+
+*(Overall weighted: `(8×1.5 + 8×1.5 + 9×1.5 + 8.5 + 8 + 9×0.5) / 7 = 58.5/7 = 8.36 → 8.4`. Discoverability 9 ≥ 7, no gate cap. Lands at the top of B, just under the 8.5 B+ line.)*
+
+### Key Observations
+
+- **What's genuinely strong:** The discipline-behind-the-chaos thesis is one of the freshest in the recent batch and passes the swap test cleanly. The Fly section (a Second-Pass addition) is a real structural coup — it turns his defining dramatic role into the counter-evidence to his own type instead of ducking it. All three emotional-interior checks land, and the rabbit hole is properly quarantined. Discoverability is near-best-in-corpus (5 real FAQs, full entity metadata, extractable answer).
+
+- **What holds it to B (three separate ceilings, each worth ~0.1–0.2):**
+  - **Evidence 8:** heavy on the subject's own voice but the inline sourcing discipline is inconsistent — the citations block has 4 URLs against a dozen-plus body quotes, and the load-bearing ones ("nothing if not disciplined," the "not-good" piano tell, "spiritual enhancement," the brother details, the Wes Anderson anecdote) aren't outlet+date-tagged the way the epigraph is. All traceable, none fabrication-risk.
+  - **Originality 8 / Writing 8:** the **de-formula revision pass has not run** (the notes stop at editor-pass). So the corpus-stat sentence, the "Sit with that picture" reader-command tic, the aphoristic-fragment closers, and the two-column contrast-panel + 3 contrast-pair sentences are all still showing. Writing is capped at 8 by that contrast architecture.
+
+- **Sameness-check result:** Consistent with how Efron and Rosé were handled (8, furniture noted, no hard cap) — but those two were explicitly de-formula'd by their revision pass and Goldblum wasn't. Only two moves are genuinely *near-verbatim* (corpus-stat template, reader-command tic), so the hard Originality-cap-at-7 doesn't strictly trigger; I held it at 8 and flagged the furniture as the clear path to B+.
+
+The single highest-leverage fix is inline-tagging the five load-bearing quotes — that alone lifts Evidence to 9 and clears the 8.5 threshold.
+
+**Total graded this session: 1**

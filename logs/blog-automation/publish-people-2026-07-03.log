@@ -1,0 +1,22 @@
+All checks pass.
+
+```text
+Published people blog.
+
+Person: andrew-ross-sorkin
+Draft: src/blog/people/drafts/Andrew-Ross-Sorkin.md
+Date/lastmod: 2026-07-03
+Supabase: published=true (row id 1001)
+Images: full + thumbnail present (static/types/6s/Andrew-Ross-Sorkin.webp + s-Andrew-Ross-Sorkin.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+Details verified against the diff:
+- Draft `Andrew-Ross-Sorkin.md`: `date` and `lastmod` → `2026-07-03`, `published: true`
+- `famousTypes.ts`: `link: true`, `hasImage: true`, `lastmod: '2026-07-03'`
+- `static/sitemap.xml`: includes the `andrew-ross-sorkin` personality-analysis URL
+
+Andrew Ross Sorkin (Type 6, grade 8.5, "Wall Street's Loyal Skeptic") is now live.

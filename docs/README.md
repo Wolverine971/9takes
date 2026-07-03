@@ -11,9 +11,9 @@ path: docs/README.md
 
 **Start Here:** [`START-HERE.md`](./START-HERE.md) — Current strategy and priorities
 
-**For AI Agents:** [`AGENT-PROMPT-FOR-CONTENT-STRATEGY.md`](./AGENT-PROMPT-FOR-CONTENT-STRATEGY.md) — Condensed instructions
+**For AI Agents:** [`AGENT-PROMPT-FOR-CONTEXT-STRATEGY.md`](./content-generation/AGENT-PROMPT-FOR-CONTEXT-STRATEGY.md) — Condensed instructions
 
-**Active Plan:** [`30-DAY-ACTION-PLAN-DEC-2025.md`](./30-DAY-ACTION-PLAN-DEC-2025.md)
+**Active Plan:** [`2026-annual-strategy.md`](./planning/2026-annual-strategy.md)
 
 ---
 
@@ -35,7 +35,7 @@ path: docs/README.md
 | ------------------------ | --------------------------------------------------------------------------------- |
 | **Weekly content audit** | [`templates/weekly-content-audit.md`](./templates/weekly-content-audit.md) ⭐ NEW |
 | **Monthly content plan** | [`templates/monthly-content-plan.md`](./templates/monthly-content-plan.md) ⭐ NEW |
-| Current 30-day plan      | [`30-DAY-ACTION-PLAN-DEC-2025.md`](./30-DAY-ACTION-PLAN-DEC-2025.md)              |
+| Current annual strategy  | [`2026-annual-strategy.md`](./planning/2026-annual-strategy.md)                   |
 
 ### Optimizing Existing Pages
 
@@ -146,7 +146,7 @@ related:
 
 ### Linking
 
-- Use **relative links** for internal docs: `[text](./folder/file.md)`
+- Use **relative links** for internal docs, e.g. `./folder/file.md`
 - Use **absolute paths** in descriptions: `/docs/folder/file.md`
 - Update links when moving files
 

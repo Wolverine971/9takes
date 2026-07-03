@@ -1,0 +1,27 @@
+Draft complete. Here is the non-interactive completion report.
+
+---
+
+**The angle:** Tobey Maguire types as an Enneagram **Type 6 (6w5, self-pres)**, and the analysis resolves his central contradiction with the type's two arrows: the gentle Peter Parker everyman is a Six in *security* (6→9), and the "bark like a seal" poker shark is a Six in *stress* (6→3). Same anxious man, two temperatures. The thread runs from a food-stamps-and-shelters childhood to an adult life with the uncertainty deliberately engineered out (sobriety at 19, controlled vegan diet, a 30-year loyal pack, a poker game whose rules he owns, a managed retreat from stardom). The on-thesis stat: Type 9 is the *most common* type among the 138 Film & TV figures 9takes profiles — the everyman is Hollywood's default face, and Maguire only looks like one when he feels safe.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Tobey-Maguire.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1 Testimony: pass (6 qualifying named quotes) | Gate 2 Heading Mix: pass (5 search-intent/hybrid H2s) | Gate 4 Anti-imitation: pass | Gate 5 Distribution: pass (2 type-theory paras outside diagnosis/rabbit-hole, ≤4) | Gate 6 Formula Fingerprint: pass (critic anchor, empathy turn, current anchor, interior beat, ending swap-test all present)]
+LIMITATIONS: no long-form SOLO Tobey interview exists (his interview-avoidance is itself treated as Type-6 evidence, not just a research gap); Molly Bloom's poker material attributed as her allegation, never confirmed by Maguire; a few aggregator-sourced quotes were excluded as unverifiable and are NOT load-bearing in the draft.
+```
+
+**Internal links added (6 total):**
+- Leonardo DiCaprio → `/personality-analysis/leonardo-dicaprio`
+- Jake Gyllenhaal → `/personality-analysis/jake-gyllenhaal`
+- Tom Holland → `/personality-analysis/tom-holland`
+- Type 6 (subject's own type) → `/enneagram-corner/enneagram-type-6`
+- Wings pillar → `/enneagram-corner/enneagram-wings-complete-guide` (rabbit hole)
+- Instinctual subtypes pillar → `/enneagram-corner/enneagram-instinctual-subtypes` (rabbit hole)
+- Plus the corpus-stats citation → `https://9takes.com/corpus-stats`
+
+**Craft notes:** `blog-lint.sh` passes 0-fail (no prose em-dashes, no banned AI phrases); meta_title 53 chars, description 150 chars. Furniture: firstLetter intro, TL;DR accordion, one interior-thought beat, and the required Enneagram Rabbit Hole (wing/subtype/arrows/counter-argument-vs-5-and-9 all quarantined there). Testimony gate is over-cleared with seven named third-party quotes (Bloom, DiCaprio, Chazelle, Theron, Garfield, Raimi).
+
+Per non-interactive mode, the draft is saved as `status: draft` (not auto-promoted). Next steps when you're ready: human review → set `production_pretext.status: ready` → `blog_content_production_people`. Grading is owned separately by `/grade_blog`.

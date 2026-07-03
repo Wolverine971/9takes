@@ -3,7 +3,7 @@
 # AgentChatModal — Hyperplexed Design Audit
 
 > Region-by-region audit of the agentic-chat modal surface against the
-> [Hyperplexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md). Captured 2026-06-28.
+> [Hyperplexed Design Playbook](../playbook.md). Captured 2026-06-28.
 >
 > **Method (playbook §0.1):** enumerate surfaces, then go region by region. `AgentChatModal.svelte`
 > is an _orchestrator_ — the visible surface is rendered by its children. This audit grades the full

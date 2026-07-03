@@ -1,0 +1,26 @@
+The draft is complete and passes all structural gates. Here's the completion report:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Jeff-Goldblum.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass, Gate 2: pass, Gate 4: pass, Gate 5: pass, Gate 6: pass]
+LIMITATIONS: no faqs in frontmatter (downstream enrich stage, out of scope); some testimony sourced via aggregators — verify exact punctuation before publish; "wilderness-years slump" premise deliberately NOT asserted (research showed it's undocumented; anchored the low point in grief instead)
+```
+
+**What I built**
+
+- **Type call:** Enneagram Type 7 (Enthusiast), 7w6, social subtype — validated in research notes, argued in the Rabbit Hole (with the honest Type 3 / Type 9 counter-cases).
+- **Thesis / core tension:** *the effortless eccentric vs. the relentless disciplinarian.* The looseness everyone loves is the most trained thing about him. The Enneagram does real work: it reframes his appetite as a survival instrument, not a party trick.
+- **Signature detail / hook:** the boy writing "Please God, let me be an actor" in the shower steam and wiping it away — used as the hook, threaded through the interior beat, and closed on in the ending ("exactly what to keep behind the glass").
+- **Empathy turn + critic pressure:** the "always-on Goldblum bit" skeptics call a put-on, reframed through the 19-year-old who lost his brother Rick and learned aliveness is how you keep from drowning. Concedes the reframe-as-avoidance reading before the type lens resolves it.
+- **Current-tense anchors:** *Wicked: For Good* (Nov 2025), going vegetarian, the *Night Blooms* tour + Royal Albert Hall (June 30, 2026), the Cynthia Erivo duet.
+
+**Testimony ledger:** 5 named-third-party quotes (Chu, Arnett, Bateman, Bailey, Geena Davis) — clears the ≥2 requirement.
+
+**Internal links (5):** Type 7 explainer, wings guide, instinctual subtypes, Chris Hemsworth (*Thor: Ragnarok* co-star), Robin Williams (fellow Seven), plus a corpus-stat citation to `/corpus-stats`.
+
+**Lint:** 0 fail, 1 warn (FAQ enrich — a later stage). No prose em-dashes, no banned phrases, no self-loops, exactly one Rabbit Hole.
+
+Per non-interactive rules I left it at `status: draft` — human review is still required before production. Next step when you approve: mark `production_pretext.status: ready` and run `blog_content_production_people`. Grading is owned separately by `/grade_blog`.

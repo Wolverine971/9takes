@@ -2,7 +2,7 @@
 
 # Admin Console — Hyperplexed Design Audit
 
-> Fourth live application of the [Hyperplexed Design Playbook](./HYPERPLEXED_DESIGN_PLAYBOOK.md),
+> Fourth live application of the [Hyperplexed Design Playbook](../playbook.md),
 > following the Project Page, [Profile](./PROFILE_PAGE_AUDIT_2026-06-26.md), and
 > [Projects-List](./PROJECTS_LIST_PAGE_AUDIT_2026-06-26.md) / [History](./HISTORY_PAGE_AUDIT_2026-06-26.md) audits.
 > Surface: the **entire `/admin` console** — ~30 page surfaces across 6 nav clusters plus the shared

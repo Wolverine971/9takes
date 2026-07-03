@@ -87,7 +87,7 @@ Blog Post → X Thread → Standalone Tweets → Engagement → New Blog Ideas
 ```
 
 See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full flywheel checklist.
-See [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md) for the full distribution playbook.
+See [`/docs/marketing/blog-distribution-strategy.md`](./marketing/blog-distribution-strategy.md) for the full distribution playbook.
 
 ---
 
@@ -132,7 +132,7 @@ See [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md) for
 
 ## 📅 CURRENT ACTION PLAN
 
-**Completed Plan:** `/docs/30-DAY-ACTION-PLAN-DEC-2025.md` ✅
+**Completed Plan:** [`/docs/archives/30-DAY-ACTION-PLAN-DEC-2025.md`](./archives/30-DAY-ACTION-PLAN-DEC-2025.md) ✅
 **Next Plan:** Q1 2026 (see `/docs/planning/q1-2026-content-pipeline.md`)
 
 ### December 2025 Results ✅
@@ -189,7 +189,7 @@ See [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md) for
 | Purpose                      | Location                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Full doc index**           | [`/docs/README.md`](./README.md)                                                                                                           |
-| 🆕 **Distribution Playbook** | [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md)                                                                   |
+| 🆕 **Distribution Playbook** | [`/docs/marketing/blog-distribution-strategy.md`](./marketing/blog-distribution-strategy.md)                                               |
 | 🆕 **2026 Annual Strategy**  | [`/docs/planning/2026-annual-strategy.md`](./planning/2026-annual-strategy.md)                                                             |
 | 🆕 **Q1 2026 Pipeline**      | [`/docs/planning/q1-2026-content-pipeline.md`](./planning/q1-2026-content-pipeline.md)                                                     |
 | Content workflow             | [`/docs/writing-system/01-content-creation-workflow.md`](./writing-system/01-content-creation-workflow.md)                                 |
@@ -230,7 +230,7 @@ See [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md) for
 
 SEO alone is passive. Distribution creates buzz, backlinks, and brand awareness for 9takes. The distribution strategy doc has the full playbook -- this section is the quick-reference checklist.
 
-> **Full playbook:** [`/docs/blog-distribution-strategy.md`](./blog-distribution-strategy.md) -- Person-specific channels, email templates, Instagram carousel system, Reddit/Twitter playbooks
+> **Full playbook:** [`/docs/marketing/blog-distribution-strategy.md`](./marketing/blog-distribution-strategy.md) -- Person-specific channels, email templates, Instagram carousel system, Reddit/Twitter playbooks
 
 ### Post-Publish Checklist (Per Blog)
 
@@ -472,7 +472,7 @@ Use `TypeQuotes` to display characteristic quotes/statements from different Enne
 
 ### Active Plans
 
-- **[`30-DAY-ACTION-PLAN-DEC-2025.md`](./30-DAY-ACTION-PLAN-DEC-2025.md)** - Current execution plan (Dec 4 - Jan 3)
+- **[`30-DAY-ACTION-PLAN-DEC-2025.md`](./archives/30-DAY-ACTION-PLAN-DEC-2025.md)** - Archived execution plan (Dec 4 - Jan 3)
 
 ### Content Generation Resources
 
