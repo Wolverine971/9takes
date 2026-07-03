@@ -220,7 +220,7 @@
 						eyebrow={`TYPE ${typeNum} · ${typeMeta?.name?.toUpperCase() ?? 'TYPE'}`}
 						description={`The ${typeMeta?.name ?? ''} — leads with ${typeMeta?.read ?? ''}.`}
 						imageSrc={person.enneagram && person.slug
-							? buildPersonalityImagePath(person.enneagram, person.slug)
+							? buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')
 							: null}
 						imageAlt={displayName}
 						stripe={`var(--type-${typeNum}-color)`}
@@ -248,7 +248,7 @@
 			</header>
 
 			<CaseGrid columns={3} compactMobile>
-				{#each data.recentlyUpdated as person, i (person.slug)}
+				{#each data.recentlyUpdated as person (person.slug)}
 					{@const typeNum = parseInt(person.enneagram ?? '0')}
 					{@const typeMeta = typeData[typeNum - 1]}
 					{@const displayName = formatPersonalityDisplayName(person.slug)}
@@ -263,7 +263,6 @@
 						imageAlt={displayName}
 						stripe={`var(--type-${typeNum}-color)`}
 						recency={getRecencyLabel(person.lastmod, person.date) ?? ''}
-						eager={i < 4}
 						stubLabel="[PORTRAIT]"
 						compactMobile={true}
 						ariaLabel={`Read analysis of ${displayName}`}

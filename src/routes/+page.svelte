@@ -955,7 +955,7 @@
 		</header>
 
 		<div class="library-grid">
-			{#each data.typeRepresentatives as person, i}
+			{#each data.typeRepresentatives as person}
 				{@const typeNum = person.type}
 				{@const info = ENNEAGRAM_TYPE_COLORS[typeNum]}
 				{@const displayName = formatPersonalityDisplayName(person.name)}
@@ -971,8 +971,8 @@
 								src={buildPersonalityImagePath(typeNum, person.name, 'thumbnail')}
 								alt={displayName}
 								class="library-image"
-								loading={i < 3 ? 'eager' : 'lazy'}
-								fetchpriority={i < 3 ? 'high' : 'low'}
+								loading="lazy"
+								fetchpriority="low"
 								width="320"
 								height="240"
 								decoding="async"

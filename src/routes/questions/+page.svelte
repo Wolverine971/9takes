@@ -291,13 +291,23 @@
 
 			<div class="hero-statue" aria-hidden="true">
 				<div class="statue-frame">
-					<img
-						src="/philosopher-gathering.webp"
-						alt=""
-						class="statue"
-						loading="eager"
-						decoding="async"
-					/>
+					<!-- .hero-statue is display:none <=968px; media-gate the source so phones
+					     do not download the desktop-only artwork. -->
+					<picture>
+						<source media="(min-width: 969px)" srcset="/philosopher-gathering.webp" />
+						<source
+							media="(max-width: 968px)"
+							srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+						/>
+						<img
+							src="/philosopher-gathering.webp"
+							alt=""
+							class="statue"
+							loading="eager"
+							fetchpriority="high"
+							decoding="async"
+						/>
+					</picture>
 					<div class="statue-vignette"></div>
 					<div class="statue-mono">
 						<span class="mono">9TAKES · ANSWER FIRST · SEE ALL 9 TAKES</span>

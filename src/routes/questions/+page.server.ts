@@ -7,7 +7,6 @@ import {
 import {
 	buildQuestionCategoryPathRows,
 	buildVisibleQuestionCategoryTree,
-	listQuestionCategoriesWithDirectQuestions,
 	type QuestionCategoryRow,
 	type QuestionCategoryTagRow,
 	type QuestionCategoryTreeNode
@@ -125,22 +124,14 @@ export const load: PageServerLoad = async (event) => {
 			}
 		}
 
-		const categoryContextPromise =
-			demo_time === true
-				? Promise.resolve<QuestionCategoryContext | null>(null)
-				: loadQuestionCategoryContext(supabase, 'questions', { includeTree: true });
-
-		const [pageDataResult, categoryContext] = await Promise.all([
-			// Use optimized RPC function that combines all queries
-			// eslint-disable-next-line @typescript-eslint/no-explicit-any
-			(supabase.rpc as any)('get_questions_page_data', {
-				p_user_id: session?.user?.id ?? undefined,
-				p_limit: QUESTIONS_PER_PAGE,
-				p_offset: (page - 1) * QUESTIONS_PER_PAGE,
-				p_category_id: undefined
-			}),
-			categoryContextPromise
-		]);
+		// Use optimized RPC function that combines the question list + high-level counts.
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		const pageDataResult = await (supabase.rpc as any)('get_questions_page_data', {
+			p_user_id: session?.user?.id ?? undefined,
+			p_limit: QUESTIONS_PER_PAGE,
+			p_offset: (page - 1) * QUESTIONS_PER_PAGE,
+			p_category_id: undefined
+		});
 
 		const { data: rawPageData, error: pageDataError } = pageDataResult;
 
@@ -152,22 +143,23 @@ export const load: PageServerLoad = async (event) => {
 		}
 
 		const pageData = rawPageData as QuestionsPageData | null;
-		const visibleBrowseCategories = categoryContext?.categoryTree.length
-			? listQuestionCategoriesWithDirectQuestions(categoryContext.categoryTree).map((category) => ({
-					id: category.id,
-					category_name: category.category_name,
-					slug: category.slug ?? null
-				}))
-			: (pageData?.categories ?? []);
+		const pageQuestions = pageData?.questions ?? [];
+		const categoryContext =
+			demo_time === true
+				? null
+				: await loadQuestionCategoryContext(supabase, 'questions', {
+						questionIds: pageQuestions.map((question) => question.id)
+					});
+		const visibleBrowseCategories = pageData?.categories ?? [];
 		const questions = demo_time
-			? mapDemoValues(pageData?.questions || [])
-			: decorateQuestionsWithCategoryPaths(pageData?.questions || [], categoryContext);
+			? mapDemoValues(pageQuestions)
+			: decorateQuestionsWithCategoryPaths(pageQuestions, categoryContext);
 
 		// Process the data
 		const processedData = {
 			user: session?.user,
 			canAskQuestion: pageData?.canAskQuestion || false,
-			categoryTree: categoryContext?.categoryTree ?? [],
+			categoryTree: [],
 			subcategoryTags: visibleBrowseCategories,
 			questionsAndTags: questions,
 			totalQuestions: pageData?.totalQuestions || 0,

@@ -428,7 +428,7 @@
 						title={post.title}
 						eyebrow={topic}
 						description={post.description}
-						imageSrc={post.pic ? picUrl(post.pic) : null}
+						imageSrc={post.pic ? picUrl(post.pic, true) : null}
 						featured={true}
 						date={post.date ? formatDate(post.lastmod ?? post.date) : ''}
 						recency={getRecencyLabel(post.lastmod, post.date) ?? ''}
@@ -452,7 +452,7 @@
 			</header>
 
 			<CaseGrid columns={4}>
-				{#each data.recentlyUpdated as post, i (post.slug)}
+				{#each data.recentlyUpdated as post (post.slug)}
 					{@const topic = (post.type?.[0] ?? 'ENNEAGRAM')
 						.toString()
 						.replace(/-/g, ' ')
@@ -464,7 +464,6 @@
 						description={post.description}
 						imageSrc={post.pic ? picUrl(post.pic, true) : null}
 						recency={getRecencyLabel(post.lastmod, post.date) ?? ''}
-						eager={i < 4}
 					/>
 				{/each}
 			</CaseGrid>
