@@ -1,0 +1,27 @@
+## Cohesion Check Complete: Rose-Blackpink.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Rosé is a Type 4 whose decade of perfectionism was survival, not ambition — her real hunger is to be understood as her unpolished, homesick self, not admired as the flawless one.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- **$70 Guitar → Childhood:** Added a keyword-carry bridge. The guitar section closes on "waiting for permission to be the one in charge"; the childhood section now opens "The waiting started early." before the biography. This ties the origin of the good-girl/permission-seeking habit back to the previous section instead of hard-cutting into "Roseanne Park was born in New Zealand…" Written in the piece's own fragment-forward voice, no banned patterns.
+
+### What Was Preserved
+- All frontmatter, ledgers (testimony, heading-mix, distribution, formula fingerprint), and the fresh-eyes / second-pass review comments
+- All Svelte/HTML components (`details`, `contrast-panel`, `key-stat`, `pull-quote`, `inner-thought`)
+- All internal links (Type 4, parasocial, Taylor Swift, wings, subtypes)
+- The cold open, the "Approval was not ego. It was proof of life" turn, the guitar payoff, and the Taylor Swift "held by mum" beat — all left exactly as written
+- 7 of 8 section boundaries untouched (already strong)
+
+### Remaining Concerns
+None structural. The piece is genuinely cohesive — the 5 a.m. / vampirehollie / secret-self thread opens, threads the middle, and lands the ending; "the machine" motif is introduced and paid off consistently; the empathy turn sits at the right pivot. Two boundaries I considered and deliberately left alone:
+
+- **Reading the Comments → drowning/rosie** carries a small time jump ("I hated that about myself" → "fell apart quietly"), but the self-hatred causally sets up the breakdown, so it reads as clear-implicit, not a break.
+- **When the Mask Slips** (section 8) could look redundant with the vampirehollie cold open, but it adds new material (Call Her Daddy recoil, derealization) and specifically seeds the ending's "does the real one count as the same person" question — it earns its slot.
+
+Note: this was a scoped cohesion pass only. I did not touch the one open item the second-pass ledger itself flags — only three qualifying testimony quotes (Bruno x2, Amy Allen). A fourth outside voice on the group/comparison dynamic is a content gap, not a cohesion one, so it's out of scope here but worth flagging for whoever does the next content pass.

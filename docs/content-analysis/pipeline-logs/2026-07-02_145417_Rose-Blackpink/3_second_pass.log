@@ -1,0 +1,23 @@
+Lint passes clean (0 fail; the single warn is the frontmatter-enrich stage, which runs later in the pipeline). Done.
+
+## Summary
+
+Updated `src/blog/people/drafts/Rose-Blackpink.md`. The fresh-eyes review was strong and mostly correct — I acted on all of it, verified the disputed facts first, and preserved everything the review flagged as working.
+
+**Main changes:**
+
+1. **BLACKPINK is no longer absent.** Added a group paragraph to the childhood section: she's the main vocalist, one of four faces the internet ranked daily ("the soft one" vs. Jennie/Lisa/Jisoo). This grounds the social-Four comparison wound the piece kept reaching for. Moved the "comparing myself to everyone" quote here and cut it from the Rabbit Hole so it isn't said twice.
+
+2. **The APT. contradiction is now in play** — the sharpest tension in the review, previously unused. Her most confessional era produced her *least* confessional hit (a bouncy drinking-game duet), and the confession lives in the album cuts nobody put on the radio. Slotted in right after the No. 5 stat.
+
+3. **Factual precision fixed.** rosie is now framed as her *first full album*, with a one-line nod to the 2021 "On The Ground" single, so a fan isn't told this is her first solo work.
+
+4. **Rabbit Hole 3-vs-4 de-duped.** Compressed the repeated failure-tiebreaker to one line pointing back to the body, then expanded the Type 9 case (agreeableness, "watching my life on TV," numbing-vs-over-feeling) as the section's genuinely new material.
+
+5. **Motif trims.** Cut "5 a.m." from the TL;DR and contrast panel (kept intro + ending bookends); cut "disgustingly vulnerable/me" from the TL;DR and diagnosis.
+
+**Fact-check note:** The No. 5 Hot 100 stat is correct — I verified APT. re-entered the top five in Jan 2025, the first for a female K-pop soloist, so I left it.
+
+**Still open (would justify an editor pass):** only three qualifying testimony quotes (Bruno ×2, Amy Allen); a fourth outside voice on the group dynamic would help if one surfaces. Frontmatter-enrich stage hasn't run yet (no `faqs` — a later pipeline step).
+
+Sources for the verification: [Rosé — Wikipedia](https://en.wikipedia.org/wiki/Ros%C3%A9_(singer)), [On the Ground — Wikipedia](https://en.wikipedia.org/wiki/On_the_Ground), [APT. — Wikipedia](https://en.wikipedia.org/wiki/Apt._(song)), [Deccan Chronicle on APT. top-10 Hot 100](https://www.deccanchronicle.com/entertainment/ros-bruno-mars-apt-returns-to-top-10-on-billboard-hot-100-1871108).

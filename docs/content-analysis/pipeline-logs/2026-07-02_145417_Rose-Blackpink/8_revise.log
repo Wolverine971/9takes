@@ -1,0 +1,27 @@
+Lint is clean. Here's the report.
+
+## Revision pass complete — `Rose-Blackpink`
+
+**Triggered by:** Grade **C (7.9)**, with Originality capped at 7 for cross-draft sameness, plus a lint FAIL.
+
+### Fixes applied (mapped to grader/lint items)
+
+**Lint FAIL — "multiple rabbit-hole blocks (2)"** → This was a false positive: `blog-lint.sh` greps the whole body *including HTML comments*, and the QUALITY GRADE comment quoted the `enneagram-rabbit-hole` class string literally, counting as a second block. Reworded that reference. There's exactly one real rabbit-hole block. **Flagged as a rule concern** (see below).
+
+**TO REACH B+ #1 — kill "The tell:" bullet, re-cut TL;DR** → Removed the templated bullet and relabeled every TL;DR item with Rosé-specific hooks: *vampirehollie / the plane at fifteen / "Number One Girl" / the APT. paradox*.
+
+**TO REACH B+ #2 — vary two of the four sameness moves** → (1) The TL;DR re-cut varies the "The tell:" move. (2) Rebuilt the closing off the "And somewhere… a fifteen-year-old is still…" template it shared with the last Type 4 draft — kept the 5 a.m. bookend, the closed-door thread, and the "disgusting" payoff, but changed the sentence architecture.
+
+**TO REACH B+ #3 — source the vampirehollie quotes** → Traced them to Rosé's **PAPER cover interview (Nov 2024)** (the online-hate cover Rolling Stone drew from). Tagged inline ("she told PAPER in 2024") and added the URL to `citations`.
+
+**TO REACH B+ #4 + Writing — thin "disgustingly"** → Cut from 5 body uses to **3** (epigraph, "Number One Girl," close). Removed the diagnosis repeat of "purely, disgustingly me" — which also fixed a creator-v2 **quote-appears-once** violation — and reworded the critic anchor to "The confession is also a product." Updated the Formula Fingerprint ledger to match.
+
+Also fixed 2 prose em-dashes I introduced in the diagnosis rewrite (caught on re-lint).
+
+### Rejected
+- **Deleting the epigraph** to vary the cold-open furniture (grader's sameness move #2): creator v2 mandates an opening blockquote, so I varied the two lowest-risk moves (TL;DR + closing) instead. Praised elements left untouched: the vampirehollie cold open, "Approval was not ego. It was proof of life," the $70 guitar, and the Taylor Swift beat.
+
+### Rule concern
+`blog-lint.sh` line 106 counts the rabbit-hole class string across the full body, so any grade/review comment that quotes the class name trips the "multiple blocks" check. Consider restricting that count to non-comment content.
+
+**Lint: clean (0 fail, 0 warn).** Not grading this myself — the pipeline will strip the old grade and re-grade.

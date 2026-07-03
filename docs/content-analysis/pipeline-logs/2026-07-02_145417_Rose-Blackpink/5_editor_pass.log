@@ -1,0 +1,18 @@
+Lint clean, em-dash check passes. Done.
+
+## What I polished — `src/blog/people/drafts/Rose-Blackpink.md`
+
+This draft came in unusually strong. It had already been through a fresh-eyes review and a substantive second pass, and both did the heavy lifting (BLACKPINK grounding, the APT.-contradiction beat, motif trims, the 3-vs-4 de-dupe). So this was a genuine polish pass, not a rescue. I made two surgical edits and left the rest alone:
+
+1. **Killed a fourth-wall / essay-about-essay tell.** The "Reading the Comments" section had *"That is the one place the theory earns a full paragraph, because Rosé lives it more nakedly than almost any star will admit to."* That's the writer narrating their own structure, a subtle AI/writerly tic. Rewrote to point at Rosé, not the paragraph: *"Rosé lives that wiring more nakedly than almost any star will admit to."*
+
+2. **Fixed a clunky trailing preposition.** *"the most social-Four environment a person could be built inside of"* → *"...a person could be dropped into."*
+
+## What I deliberately left untouched
+
+- The `vampirehollie` cold open, *"Approval was not ego. It was proof of life,"* the $70-guitar section, and the Taylor Swift "held by mum" beat — the piece's best assets. The empathy turn and the dorm-door interior beat both survive intact and read sharp.
+- The `5 a.m.` and `disgustingly` motifs. They recur, but as deliberate refrains anchored to the thesis ("purely, disgustingly me"), not accidental repetition. Second pass already thinned the middle occurrences; the bookend still lands.
+
+## Verdict
+
+**Production-ready as prose.** Zero em-dashes (mechanically verified), no banned phrases, headings tell a story, rhythm varies, AI tells cleared. The one remaining lint WARN is `no faqs in frontmatter` — that's the frontmatter-enrich stage, not an editorial issue, and it's a separate pre-publish step. No further substantive editorial pass needed.

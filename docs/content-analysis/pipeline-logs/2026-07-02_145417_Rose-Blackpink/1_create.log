@@ -1,0 +1,33 @@
+Draft complete. All hard gates cleared and `blog-lint.sh` passes with 0 failures.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Rose-Blackpink.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: none (Gate 3 self-loop: pass, confirmed by lint)
+```
+
+**The call:** Rosé is an **Enneagram Type 4 (Individualist), 4w3, social subtype.**
+
+**Thesis:** Fans see a delicate, agreeable K-pop flower. Type 4 explains the engine underneath: a decade-long fear that only the *perfect* version was lovable, and a solo era spent testing whether the real, flawed one counts as the same person. Core tension: **manufactured perfection vs. the craving to be seen as real.**
+
+**What carries it:**
+- **Hook** — the secret "vampirehollie" finsta + the 5 a.m. doom-scroll (concrete, falsifiable, off-brand).
+- **Signature details** — the $70 self-taught guitar from Melbourne; the dorm door clicking shut at 15; "I don't remember from 16 to 20."
+- **Testimony (Gate 1, 3 quotes)** — Bruno Mars ("She was very hungry" / "Big Bad Rosie…") and Amy Allen (songwriting vulnerability).
+- **Stat anchor** — "APT." hit No. 5 on the Hot 100, first female K-pop soloist top five (Billboard, 2025).
+- **Empathy turn** — the validation-neediness (reads as vain) reframed through a kid whose only proof of existence was strangers' approval.
+- **Critic pressure** — concedes the "sad-girl vulnerability is just a smarter product" read, then answers it.
+
+**Internal links added (5):**
+- Taylor Swift → `/personality-analysis/taylor-swift`
+- Type 4 → `/enneagram-corner/enneagram-type-4`
+- Parasocial → `/pop-culture/parasocial-relationships-enneagram-type`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (rabbit hole)
+- Subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (rabbit hole)
+
+Saved as `status: draft` (human review required before production; no auto-promote in non-interactive mode). Not graded — grading is owned by `/grade_blog`. Next step after your review: mark `production_pretext.status: ready` and run `blog_content_production_people`.
+
+One note: the lint WARN is expected (`faqs` frontmatter gets added later by the frontmatter-enrich stage, which is out of scope for this command).

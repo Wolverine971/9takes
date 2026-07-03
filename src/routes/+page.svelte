@@ -1482,6 +1482,10 @@
 			transform: translateY(1px);
 		}
 
+		@media (max-width: 768px) {
+			margin-top: 0;
+		}
+
 		@media (max-width: 480px) {
 			grid-template-columns: minmax(0, 1fr) auto;
 			gap: 10px;
@@ -1828,7 +1832,7 @@
 			position: relative;
 			overflow: hidden;
 			border: 1px solid var(--stone-edge);
-			border-radius: 8px;
+			border-radius: 1rem;
 			background: var(--stone-warm);
 			box-shadow: var(--shadow-sm);
 		}
@@ -2109,13 +2113,22 @@
 		min-width: 0;
 		transition:
 			background 0.2s ease,
-			border-color 0.2s ease,
-			transform 0.2s ease;
+			border-color 0.2s ease;
 
 		&:hover {
 			background: var(--stone-mid);
 			border-color: var(--type-stripe);
-			transform: translateY(-2px);
+		}
+
+		@media (prefers-reduced-motion: no-preference) {
+			transition:
+				background 0.2s ease,
+				border-color 0.2s ease,
+				transform 0.2s ease;
+
+			&:hover {
+				transform: translateY(-2px);
+			}
 		}
 	}
 

@@ -1,0 +1,5 @@
+# .codex/skills/hyperplexed-audit/agents/openai.yaml
+interface:
+  display_name: 'Hyperplexed UI Audit'
+  short_description: 'Audit UI with the Hyperplexed playbook'
+  default_prompt: 'Use $hyperplexed-audit to audit a 9takes surface and propose tiered UI fixes.'

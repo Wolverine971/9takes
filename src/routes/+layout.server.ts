@@ -13,7 +13,7 @@ type ParentCategory = Pick<QuestionCategoryRow, 'id' | 'category_name' | 'slug' 
 export const load: LayoutServerLoad = async (event) => {
 	let demoTimeValue: unknown = undefined;
 	try {
-		demoTimeValue = await checkDemoTime(event.locals.supabase);
+		demoTimeValue = await checkDemoTime(event.locals.supabase, { timeoutMs: 1200 });
 	} catch (adminSettingsError) {
 		logger.warn('Failed to load admin_settings in layout', {
 			error:

@@ -1,0 +1,42 @@
+```
+Frontmatter enrichment complete: Rosé (BLACKPINK)
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia ('https://en.wikipedia.org/wiki/Ros%C3%A9_(singer)') — verified correct, left untouched
+- instagram ('roses_are_rosie') — social handle, not mine to touch
+
+Verification notes:
+- Wikidata QID Q27655344 confirmed (New Zealand + South Korean singer, b. 11 Feb 1997).
+- IMDb nm7986558 cross-checked against Wikidata P345 — exact match, safe to write.
+- birth_date / birth_place / nationality pulled from Wikidata (P569 1997-02-11, P19 Auckland Q37100, P27 Q664 New Zealand + Q884 South Korea).
+
+FAQs generated (5):
+1. What is Rosé's personality type? → #rose-personality-type
+2. Is Rosé a Type 3 or a Type 4? → #rose-type-3-or-4
+3. What is Rosé's Enneagram wing and subtype? → #rose-wing-subtype
+4. Why does Rosé care so much about online comments? → #rose-online-comments
+5. What is Rosé's song 'Number One Girl' about? → #number-one-girl-meaning
+
+Issues:
+- The body contains NO inline external URLs — every link in the body is internal
+  (/enneagram-corner, /personality-analysis, /pop-culture). It names its sources in prose
+  (Rolling Stone, i-D, Guitar World, The Hollywood Reporter, Billboard) but never links them.
+  I built `citations` by finding the real published URLs backing quotes that actually appear
+  in the body (not invented) — Rolling Stone "disgustingly vulnerable" / online-hate piece,
+  i-D 2024 solo interview, Guitar World $70-guitar interview, THR Rosé profile, Billboard
+  APT. cover story, and the APT. Wikipedia entry for the No. 5 Hot 100 stat. Flagging that the
+  body's own sourcing is prose-only; consider adding inline links in a future body pass.
+- FAQ anchors use clean kebab-case slugs rather than the é-bearing rehype-slug anchors the H2s
+  generate (e.g. "what-is-rosés-personality-type"), since the accented auto-anchors are brittle.
+- imdb_id was applicable and included (musician with confirmed film/TV credits: APT., On the
+  Ground, Toxic Till the End).
+- Body untouched; production_pretext, content_quality, lastmod, and all creator fields untouched.
+```
+
+**Sources used for verification:** [Wikidata Q27655344](https://www.wikidata.org/wiki/Q27655344) · [IMDb nm7986558](https://www.imdb.com/name/nm7986558/) · [Rolling Stone](https://www.rollingstone.com/music/music-news/blackpinks-rose-wrote-vulnerable-song-about-online-hate-1235153684/) · [i-D](https://i-d.co/article/rose-blackpink-interview-2024-rosie-apt-bruno-mars/) · [Guitar World](https://www.guitarworld.com/artists/guitarists/blackpink-rose-on-the-acoustic-guitar-she-used-for-the-most-important-audition-of-her-life) · [The Hollywood Reporter](https://www.hollywoodreporter.com/music/music-features/rose-interview-fame-music-blackpink-1236388288/) · [Billboard](https://www.billboard.com/music/pop/rose-bruno-mars-apt-number-ones-interview-cover-story-1236133466/)
+
+The draft's frontmatter is now fully enriched and ready for the grader/publish gate. One thing worth passing along: the body cites its sources only in prose — if you want the E-E-A-T lift, a future body pass could convert those named mentions into inline links (I've captured the real URLs in `citations` either way).

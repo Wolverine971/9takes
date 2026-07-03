@@ -23,21 +23,190 @@ interface TopQuestion {
 	comment_count: number | null;
 }
 
+interface RecentPerson {
+	person: string;
+	enneagram: string | number;
+	persona_title: string | null;
+}
+
+const HOMEPAGE_DB_TIMEOUT_MS = 1800;
+
+const LOCKED_TYPE_REPRESENTATIVES = new Map<number, FamousPerson>([
+	[
+		3,
+		{
+			name: 'alex-hormozi',
+			type: 3,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: 'The Acquisition Architect'
+		}
+	],
+	[
+		7,
+		{
+			name: 'shaan-puri',
+			type: 7,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: 'The Restless Showman'
+		}
+	],
+	[
+		8,
+		{
+			name: 'sam-parr',
+			type: 8,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: "Media's Brute-Force Builder"
+		}
+	]
+]);
+
+const FALLBACK_TYPE_REPRESENTATIVES = new Map<number, FamousPerson>([
+	[
+		1,
+		{
+			name: 'tim-ferriss',
+			type: 1,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: 'The Methodical Optimizer'
+		}
+	],
+	[
+		2,
+		{
+			name: 'oprah-winfrey',
+			type: 2,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: 'The Empathic Broadcaster'
+		}
+	],
+	[
+		4,
+		{
+			name: 'anya-taylor-joy',
+			type: 4,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: 'The Haunted Original'
+		}
+	],
+	[
+		5,
+		{
+			name: 'elon-musk',
+			type: 5,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: 'The Systems Engineer'
+		}
+	],
+	[
+		6,
+		{
+			name: 'zendaya',
+			type: 6,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: 'The Composed Sentinel'
+		}
+	],
+	[
+		9,
+		{
+			name: 'barack-obama',
+			type: 9,
+			hasImage: true,
+			hasLink: true,
+			personaTitle: 'The Consensus Architect'
+		}
+	]
+]);
+
+function getErrorMessage(error: unknown): string {
+	if (error instanceof Error) {
+		return error.message;
+	}
+
+	if (typeof error === 'object' && error && 'message' in error) {
+		return String(error.message);
+	}
+
+	return String(error);
+}
+
+function isAbortLikeError(error: unknown): boolean {
+	const message = getErrorMessage(error).toLowerCase();
+	const code =
+		typeof error === 'object' && error && 'code' in error ? String(error.code) : undefined;
+
+	return (
+		(error instanceof Error && error.name === 'AbortError') ||
+		message.includes('aborterror') ||
+		message.includes('aborted') ||
+		code === '20'
+	);
+}
+
+async function runTimedHomepageQuery<T>(
+	label: string,
+	query: (signal: AbortSignal) => Promise<{ data: T | null; error: unknown }>
+): Promise<T | null> {
+	const controller = new AbortController();
+	const timeout = setTimeout(() => controller.abort(), HOMEPAGE_DB_TIMEOUT_MS);
+
+	try {
+		const { data, error } = await query(controller.signal);
+		if (error) {
+			if (isAbortLikeError(error)) {
+				console.warn(`Timed out fetching homepage ${label}`);
+			} else {
+				console.error(`Error fetching homepage ${label}:`, error);
+			}
+			return null;
+		}
+
+		return data;
+	} catch (error) {
+		if (isAbortLikeError(error)) {
+			console.warn(`Timed out fetching homepage ${label}`);
+		} else {
+			console.error(`Error fetching homepage ${label}:`, error);
+		}
+		return null;
+	} finally {
+		clearTimeout(timeout);
+	}
+}
+
 export const load: PageServerLoad = async ({ locals }) => {
 	const { session } = await locals.safeGetSession();
 
-	// Get top questions for daily quest rotation
-	const { data: topQuestions, error: topQuestionsError } = await locals.supabase
-		.from('questions')
-		.select('url,question_formatted,comment_count')
-		.order('comment_count', { ascending: false })
-		.eq('removed', false)
-		.neq('id', 168)
-		.limit(9);
+	const [topQuestions, recentByType] = await Promise.all([
+		runTimedHomepageQuery<TopQuestion[]>('top questions', async (signal) => {
+			const { data, error } = await locals.supabase
+				.from('questions')
+				.select('url,question_formatted,comment_count')
+				.order('comment_count', { ascending: false })
+				.eq('removed', false)
+				.neq('id', 168)
+				.limit(9)
+				.abortSignal(signal);
 
-	if (topQuestionsError) {
-		console.error('Error fetching questions:', topQuestionsError);
-	}
+			return { data: (data ?? null) as TopQuestion[] | null, error };
+		}),
+		runTimedHomepageQuery<RecentPerson[]>('recent people by type', async (signal) => {
+			const { data, error } = await locals.supabase
+				.rpc('get_recent_people_by_type', { people_per_type: 6 })
+				.abortSignal(signal);
+
+			return { data: (data ?? null) as RecentPerson[] | null, error };
+		})
+	]);
 
 	// Rotate question of the day based on date
 	const today = new Date();
@@ -47,62 +216,26 @@ export const load: PageServerLoad = async ({ locals }) => {
 		typedTopQuestions.length > 0 ? daysSinceEpoch % typedTopQuestions.length : 0;
 	const questionOfTheDay = typedTopQuestions.length > 0 ? typedTopQuestions[questionIndex] : null;
 
-	// Get the 6 most recently modified people per type using RPC (efficient window function)
-	const { data: recentByType, error: recentByTypeError } = await locals.supabase.rpc(
-		'get_recent_people_by_type',
-		{ people_per_type: 6 }
-	);
-
-	if (recentByTypeError) {
-		console.error('Error fetching recent people by type:', recentByTypeError);
-	}
-
 	// Group by type and pick one random person from each type's recent 6
 	const typeRepresentatives: FamousPerson[] = [];
-	const peopleByType: Map<string, typeof recentByType> = new Map();
+	const peopleByType: Map<string, RecentPerson[]> = new Map();
 
 	// Group the RPC results by enneagram type
 	if (recentByType) {
 		for (const person of recentByType) {
-			if (!peopleByType.has(person.enneagram)) {
-				peopleByType.set(person.enneagram, []);
+			const typeKey = String(person.enneagram);
+			if (!peopleByType.has(typeKey)) {
+				peopleByType.set(typeKey, []);
 			}
-			peopleByType.get(person.enneagram)!.push(person);
+			peopleByType.get(typeKey)!.push(person);
 		}
 	}
 
 	// Pick one random person from each type's recent 6
 	for (let type = 1; type <= 9; type++) {
-		if (type === 3) {
-			typeRepresentatives.push({
-				name: 'alex-hormozi',
-				type: 3,
-				hasImage: true,
-				hasLink: true,
-				personaTitle: 'The Acquisition Architect'
-			});
-			continue;
-		}
-
-		if (type === 7) {
-			typeRepresentatives.push({
-				name: 'shaan-puri',
-				type: 7,
-				hasImage: true,
-				hasLink: true,
-				personaTitle: 'The Restless Showman'
-			});
-			continue;
-		}
-
-		if (type === 8) {
-			typeRepresentatives.push({
-				name: 'sam-parr',
-				type: 8,
-				hasImage: true,
-				hasLink: true,
-				personaTitle: "Media's Brute-Force Builder"
-			});
+		const lockedRepresentative = LOCKED_TYPE_REPRESENTATIVES.get(type);
+		if (lockedRepresentative) {
+			typeRepresentatives.push(lockedRepresentative);
 			continue;
 		}
 
@@ -118,6 +251,11 @@ export const load: PageServerLoad = async ({ locals }) => {
 				hasLink: true,
 				personaTitle: person.persona_title ?? null
 			});
+		} else {
+			const fallback = FALLBACK_TYPE_REPRESENTATIVES.get(type);
+			if (fallback) {
+				typeRepresentatives.push(fallback);
+			}
 		}
 	}
 
