@@ -4,12 +4,12 @@ meta_title: "Matt Smith's Enneagram Type: TV's Restless Escape Artist"
 persona_title: "TV's Restless Escape Artist"
 description: 'Why does Matt Smith keep vanishing into volatile, dangerous men? Lose your only identity at 16, and you spend a lifetime ensuring no self can trap you.'
 author: 'DJ Wayne'
-date: '2026-06-28'
+date: '2026-07-03'
 loc: 'https://9takes.com/personality-analysis/Matt-Smith'
-lastmod: '2026-06-28'
+lastmod: '2026-07-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['movieStar', 'celebrity']
 person: 'Matt-Smith'

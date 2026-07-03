@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/Tobey-Maguire'
 lastmod: '2026-07-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['movieStar', 'screen-icon']
 person: 'Tobey-Maguire'
