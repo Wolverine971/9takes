@@ -4,12 +4,12 @@ meta_title: "Seth Rogen Enneagram: Why Type 9 Explains His Easygoing Empire"
 persona_title: "Comedy's Easygoing Empire Builder"
 description: 'How did Seth Rogen build a Hollywood empire while seeming like the chillest guy alive? The gap between his massive output and laid-back persona reveals a pattern.'
 author: 'DJ Wayne'
-date: '2026-04-10'
+date: '2026-07-04'
 loc: 'https://9takes.com/personality-analysis/seth-rogen'
-lastmod: '2026-04-10'
+lastmod: '2026-07-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['comedian']
 person: 'seth-rogen'

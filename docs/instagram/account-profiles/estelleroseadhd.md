@@ -47,9 +47,9 @@
 
 ## Relationship History
 
-| Date       | Surface | Topic                                   | Post Link                                  | Action   | Status   | What We Said / Planned                                                                                                                            | Outcome | Source                          |
-| ---------- | ------- | --------------------------------------- | ------------------------------------------ | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | ------------------------------- |
-| 2026-06-18 | Grid    | Discovery — "Girls who grew up undiagnosed ADHD become women who…" + "The ADHD & rest Paradox" | https://www.instagram.com/estelleroseadhd/ | Reviewed | Prospect | First scan. Active-pond (Type 7) anchor. No fresh (<48h) post confirmed this pass (only dated post May 18). Profile created; engage when a fresh post lands. | n/a     | 2026-06-18_instagram-warmup.md  |
+| Date       | Surface | Topic                                                                                          | Post Link                                  | Action   | Status   | What We Said / Planned                                                                                                                                       | Outcome | Source                         |
+| ---------- | ------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------ | -------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | ------------------------------ |
+| 2026-06-18 | Grid    | Discovery — "Girls who grew up undiagnosed ADHD become women who…" + "The ADHD & rest Paradox" | https://www.instagram.com/estelleroseadhd/ | Reviewed | Prospect | First scan. Active-pond (Type 7) anchor. No fresh (<48h) post confirmed this pass (only dated post May 18). Profile created; engage when a fresh post lands. | n/a     | 2026-06-18_instagram-warmup.md |
 
 ## Open Loops
 

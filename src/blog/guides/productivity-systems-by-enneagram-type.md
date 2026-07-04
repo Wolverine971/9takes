@@ -573,4 +573,3 @@ All Midjourney Prompts have been added as HTML comments throughout the article a
 Each prompt is placed right before the section it should illustrate.
 Generate these images and add them to the blog where the comments are located.
 -->
-

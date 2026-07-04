@@ -1,4 +1,5 @@
 <!-- .claude/commands/blog_content_publish_people.md -->
+
 # Blog Content Publisher
 
 You are tasked with publishing one ready celebrity personality analysis draft for 9takes. This command is intentionally operational: it does not rewrite the article, re-type the person, or fix substantive editorial gaps.

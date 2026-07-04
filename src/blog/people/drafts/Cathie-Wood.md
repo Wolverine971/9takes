@@ -6,7 +6,7 @@ description: 'Cathie Wood lost 67% in a single year and bought more. Here is wha
 author: 'DJ Wayne'
 date: '2026-07-02'
 loc: 'https://9takes.com/personality-analysis/cathie-wood'
-lastmod: '2026-07-02'
+lastmod: '2026-07-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -213,6 +213,8 @@ The simplest reading is that this is bravery. That isn't quite it. The strategy 
 Listen to her language for what was happening. _"Innovation is the new deep value."_ The phrase takes a 67% loss and reclassifies it as a discount. It takes today and reroutes it to five years from now. That phrase does real work for her — it is the only form of loss a Seven can hold.
 
 The same architecture is visible across her current calls. Tesla at $2,600 by 2030 — a 483% upside, with 90% of that target conditional on robotaxis Tesla has not yet launched at scale. Bitcoin at $1.2 million by 2030, a target she revised down from $1.5 million in November 2025 after stablecoins quietly ate part of the use case she had originally bet on. Five innovation platforms — artificial intelligence, public blockchains, robotics, energy storage, multi-omic sequencing — each one priced today as if the bet won't pay off, each one held as if it already has. Notice what the targets share. Every one of them lives at least four years out. Every one of them keeps tomorrow open.
+
+That puts Wood in the same future-tense investor ecosystem as [Reid Hoffman](/personality-analysis/reid-hoffman), [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya), [Ben Horowitz](/personality-analysis/ben-horowitz), and [David Sacks](/personality-analysis/david-sacks). The difference is that they usually argue from networks, founders, or policy; Wood argues from covenant.
 
 She has never publicly admitted being wrong about Teladoc, either. The stock fell from $307 to $7 — a 98% drawdown — and she has not sold all of it. She rotated some, defended the rest, folded the position into newer themes. To a Wall Street auditor this looks evasive. From inside Cathie Wood's mind, it does the same work the morning Bible reading does — _keep the door open. Don't let today decide what tomorrow gets to be._
 

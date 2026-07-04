@@ -816,4 +816,3 @@ The patterns end here. The transformation starts now.
 ---
 
 _Based on observable patterns in how each Enneagram type approaches dating, we've created the most comprehensive personality-based dating guide available. But knowledge without action turns into sophisticated suffering. Your transformation starts with the first step. Take it today._
-

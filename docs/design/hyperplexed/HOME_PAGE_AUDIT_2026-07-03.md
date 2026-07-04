@@ -1,4 +1,5 @@
 <!-- docs/design/hyperplexed/HOME_PAGE_AUDIT_2026-07-03.md -->
+
 # Home Page HyperPlexed Audit - 2026-07-03
 
 Target: `/`, covering `src/routes/+page.svelte`, `src/routes/+page.server.ts`, shared root layout data, and the homepage library/open-question sections.

@@ -241,4 +241,3 @@ The Enneagram doesn't need to be the best at everything. It needs to be the best
 - [Why MBTI Failed and What to Use Instead](/community/mbti-vs-enneagram) — the case for switching
 - [Is the Enneagram Real? 27 Questions Everyone Asks](/enneagram-corner/enneagram-faqs) — the most common objections, answered
 - [Is the Enneagram Scientifically Valid?](/enneagram-corner/mental-health/enneagram-science-mental-health) — deeper dive on the research
-

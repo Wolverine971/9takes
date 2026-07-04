@@ -6,14 +6,14 @@ description: 'Theo Von spent most of his adult life on antidepressants, then qui
 author: 'DJ Wayne'
 date: '2025-12-09'
 loc: 'https://9takes.com/personality-analysis/theo-von'
-lastmod: '2026-04-06'
+lastmod: '2026-07-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['comedian', 'stand-up']
 person: 'theo-von'
-suggestions: ['Joe-Rogan', 'Shane-Gillis', 'Kevin-Hart', 'Tim-Dillon']
+suggestions: ['Joe-Rogan', 'Shane-Gillis', 'Kevin-Hart', 'Tim-Dillon', 'Ella-Langley']
 wikipedia: 'https://en.wikipedia.org/wiki/Theo_Von'
 wikidata_qid: 'Q7781503'
 imdb_id: 'nm0961918'
@@ -484,6 +484,8 @@ LA had become the room he could no longer leave. Comedy Store every night, podca
 He's careful about what he expects from it. "I don't want to have too high hopes about Nashville," he told Dax Shepard, just before pricing in the recovery wisdom that's done more for him than any therapist: "Expectations are resentments under construction." A 7 who has learned that the next place won't fix what the last place didn't, and is moving anyway — not to chase, but to settle.
 
 The Bible study with Morgan Wallen is the part of the new life that signals the deepest shift. "I'm gonna see him tomorrow, Bible study, actually," Theo casually mentioned on his podcast — then, when asked what they were studying: "I'm not sure what chapter we're on. I shouldn't have said that." So perfectly Theo — even his faith has an exit door; he keeps the tone light, undercuts the sincerity before it can land too hard. But he keeps showing up. For a man whose survival strategy has always been to leave before he can be left, the act of returning, week after week, to the same room, with the same people, for something he can't spin into a punchline, may be the most quietly radical thing he does. It's exactly the kind of slow, repetitive, depth-over-novelty practice that a 7 integrating toward 5 has to learn.
+
+The same Nashville orbit is why [Ella Langley](/personality-analysis/ella-langley) bringing him out at Stagecoach did not feel random. Country's current generation had already made room for Theo's mix of local color, sincerity, and mischief.
 
 He pays his mother's rent. He tells stories that somehow keep getting better even as the source material gets darker.
 

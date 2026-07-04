@@ -887,6 +887,7 @@ Find professional support that understands your pattern
 </div>
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

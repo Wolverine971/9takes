@@ -1,0 +1,50 @@
+# Cohesion Audit: Steve-Martin.md
+
+I read the full draft and mapped it against its own through-line. This piece has already been through a fresh-eyes and second-pass revision (both visible in the trailing comments), and it shows. It reads as one unified argument. Below is the map, the scores, and the one genuine bump worth fixing.
+
+### Central Thesis
+Steve Martin's central contradiction (the loosest performer of his generation was also its most guarded man) dissolves once you read him as an Enneagram Type 5: an analytical mind that engineers everything, masters a domain and then walks away, with the whole engine routing back to a father who withheld approval.
+
+### Thread Map
+- **Intro** — states the puzzle (wild man / most controlled man in the building) and hands off to Type 5. ✓ sets the contract.
+- **The Father Who Said He Was No Charlie Chaplin** — the origin wound; ends "That is the engine." Establishes *why* before *what*. ✓
+- **What Is Steve Martin's Personality Type?** — picks up "the engine" and names the type; runs the honest Type 3 counter-case. ✓ tight handoff.
+- **How Steve Martin Engineered the Biggest Laugh** — elaborates a claim the diagnosis already planted ("the manic persona was the analytical mind's product"). ✓
+- **The Panic Attacks Nobody in the Arena Could See** — the involuntary interior beneath the engineered surface; payoff line ("not taking turns") ties both to one body. ✓
+- **Why Steve Martin Walked Away From Stand-Up** — mastery-then-exit, cashed out with Roxanne / L.A. Story. ✓ (but see the one bump below).
+- **Rabbit Hole** — wings/subtypes/arrows + full Type 3 case. ✓ correctly quarantined.
+- **The Art of Plaintive Isolation** — the withholding made visible in what he collects and in *Shopgirl*; pursuit > possession echoes mastery-then-exit. ✓
+- **The Wild and Crazy Guy Finally Let Someone In** — the thaw; documentary, *Only Murders*, father's deathbed. ✓
+- **Alone in the Biggest Room in America** — returns to the arena image, lands the intro's contract. ✓ strong close.
+
+Read top to bottom, the outline is coherent. That is itself a pass.
+
+| Check                   | Score | Issues |
+|-------------------------|-------|--------|
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 8/10  | 1      |
+| Section Transitions     | 8/10  | 1      |
+| Internal Paragraph Flow | 9/10  | 0      |
+
+**Overall Cohesion Score: 8.5/10** — Reads as one unified piece. Every section earns its place and the arena image bookends the whole thing.
+
+---
+
+## Fixes Required (1 real, 2 negligible)
+
+### Major (Weak Transition) — the one worth fixing
+**Panic Attacks → Why Steve Martin Walked Away.** The panic section ends on "the whole architecture of the man in one image." The next section opens: **"By 1981 he had solved it."** Coming directly off a section about panic attacks, "it" reads on first pass as *solved the panic* — but he means *solved stand-up*. That's a momentary referent slip right at a section seam.
+
+- **Fix:** change "By 1981 he had **solved it**." → "By 1981 he had **solved stand-up**." One word, disambiguates cleanly, and "solves something" in the very next sentence still lands.
+
+### Minor (negligible — flagging, not recommending)
+1. **Engineering → Panic Attacks** opens "The first one hit around 1967..." leaning entirely on the H2 ("The Panic Attacks") to supply the noun. It works because the heading does the setup, and the delayed reveal is arguably a deliberate hook. I'd leave it.
+2. **Intro → Father.** The intro promises "understand the Type 5," then the next section gives childhood *before* the type. Defensible on purpose (wound = the engine the type-lens later explains), and the diagnosis section explicitly reconnects father to the Type 5 core fear. No change.
+
+### Orphaned Threads
+None. The "went quiet / set it down and moved on" motif is planted, varied (per the second-pass note), and paid off in the final line. The intro's "get his own father to say I'm proud of you" is closed by the deathbed scene.
+
+---
+
+Since this scores well above the 8 bar, I'm holding off on editing until you confirm. My recommendation: **apply only the one-word "solved it" → "solved stand-up" fix** and leave everything else untouched. Want me to make that change?

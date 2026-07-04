@@ -12,18 +12,18 @@
 
 ## Queue Summary
 
-| #   | Account                | Pond / Type                  | Topic                          | Mode          | Profile                                       | Relationship Note                                  | Bridge-ready                          | Status  |
-| --- | ---------------------- | ---------------------------- | ------------------------------ | ------------- | --------------------------------------------- | -------------------------------------------------- | ------------------------------------- | ------- |
-| 1   | @enneagrampaths        | Enneagram-niche / peer (5)   | Types as Candy (modern picks)  | post          | account-profiles/enneagrampaths.md            | Strongest 2-way peer; liked our WARHEADS comment   | n/a — peer creator (not a pond)       | Drafted |
-| 1b  | @enneagrampaths        | Enneagram-niche / peer (5)   | The Nine Countertypes (ALT)    | post          | account-profiles/enneagrampaths.md            | Same account — DO NOT double-touch; held alternate | n/a — peer creator                    | Held (alternate) |
-| 2   | @narrativeenneagram    | Enneagram-niche / Type 3     | Type 3 Performer growth        | post          | account-profiles/narrativeenneagram.md        | First touch; org/adjacent; 0 comments / fresh      | n/a — peer org (not a pond)           | Drafted |
-| 3   | @enneagramashton       | Enneagram-niche / Type 1     | Warning label by type          | comment-level | account-profiles/enneagramashton.md           | Anchor 544K; first real engagement                 | n/a — peer creator                    | Drafted |
-| 4   | @alignedsoulco         | Enneagram-niche / depth      | Highest Levels / Liberation    | post          | account-profiles/alignedsoulco.md             | First touch; peer/rising; low comment              | n/a — peer creator                    | Drafted |
-| 5   | @enneagramwithjb       | Enneagram-niche / peer       | "The moment right before"      | post          | account-profiles/enneagramwithjb.md           | Warm peer (liked our comments); 0 comments / fresh  | n/a — peer creator                    | Drafted |
-| 6   | @mindfulmft            | Anxiety/conflict (6) — L0    | Intrapsychic vs interpersonal  | post          | account-profiles/mindfulmft.md                | Anchor 724K; first substantive touch               | no — not warm yet (→ type blog /6)    | Drafted |
-| 7   | @thesecurerelationship | People-pleasing/anxiety (2/6)| Anxious/Avoidant conflict cycle| comment-level | account-profiles/thesecurerelationship.md     | Anchor 1.3M; warm but no posted top-level confirmed | no — not warm yet (→ type page /2,/6) | Drafted |
+| #   | Account                | Pond / Type                   | Topic                           | Mode          | Profile                                   | Relationship Note                                   | Bridge-ready                          | Status           |
+| --- | ---------------------- | ----------------------------- | ------------------------------- | ------------- | ----------------------------------------- | --------------------------------------------------- | ------------------------------------- | ---------------- |
+| 1   | @enneagrampaths        | Enneagram-niche / peer (5)    | Types as Candy (modern picks)   | post          | account-profiles/enneagrampaths.md        | Strongest 2-way peer; liked our WARHEADS comment    | n/a — peer creator (not a pond)       | Drafted          |
+| 1b  | @enneagrampaths        | Enneagram-niche / peer (5)    | The Nine Countertypes (ALT)     | post          | account-profiles/enneagrampaths.md        | Same account — DO NOT double-touch; held alternate  | n/a — peer creator                    | Held (alternate) |
+| 2   | @narrativeenneagram    | Enneagram-niche / Type 3      | Type 3 Performer growth         | post          | account-profiles/narrativeenneagram.md    | First touch; org/adjacent; 0 comments / fresh       | n/a — peer org (not a pond)           | Drafted          |
+| 3   | @enneagramashton       | Enneagram-niche / Type 1      | Warning label by type           | comment-level | account-profiles/enneagramashton.md       | Anchor 544K; first real engagement                  | n/a — peer creator                    | Drafted          |
+| 4   | @alignedsoulco         | Enneagram-niche / depth       | Highest Levels / Liberation     | post          | account-profiles/alignedsoulco.md         | First touch; peer/rising; low comment               | n/a — peer creator                    | Drafted          |
+| 5   | @enneagramwithjb       | Enneagram-niche / peer        | "The moment right before"       | post          | account-profiles/enneagramwithjb.md       | Warm peer (liked our comments); 0 comments / fresh  | n/a — peer creator                    | Drafted          |
+| 6   | @mindfulmft            | Anxiety/conflict (6) — L0     | Intrapsychic vs interpersonal   | post          | account-profiles/mindfulmft.md            | Anchor 724K; first substantive touch                | no — not warm yet (→ type blog /6)    | Drafted          |
+| 7   | @thesecurerelationship | People-pleasing/anxiety (2/6) | Anxious/Avoidant conflict cycle | comment-level | account-profiles/thesecurerelationship.md | Anchor 1.3M; warm but no posted top-level confirmed | no — not warm yet (→ type page /2,/6) | Drafted          |
 
-**Pond note:** This week's *active* pond is Type 7 (Kai Cenat / ADHD). **None of today's queued items are Type 7** — they are all carry-forward niche-peer relationship touches (items 1–5) plus two Level-0 therapy anchors whose commenters sit in the anxiety/people-pleasing ponds (items 6–7). So pond-vernacular register only governs items 6–7 (keep Enneagram invisible there). Items 1–5 are peer creators where Level 1–2 typology language is native. No bridge links are written in this pass regardless.
+**Pond note:** This week's _active_ pond is Type 7 (Kai Cenat / ADHD). **None of today's queued items are Type 7** — they are all carry-forward niche-peer relationship touches (items 1–5) plus two Level-0 therapy anchors whose commenters sit in the anxiety/people-pleasing ponds (items 6–7). So pond-vernacular register only governs items 6–7 (keep Enneagram invisible there). Items 1–5 are peer creators where Level 1–2 typology language is native. No bridge links are written in this pass regardless.
 
 ---
 
@@ -46,14 +46,14 @@
 
 **Do Not Repeat:**
 
-- "WARHEADS" (already said, she liked it). Advance to a *reasoned modern* pick.
+- "WARHEADS" (already said, she liked it). Advance to a _reasoned modern_ pick.
 - Don't list all 9 (too much). 1–2 sharp picks land better.
 - Carl-as-4 frame, longings thread, salty/viral-trends, vegetables, kitchen utensils — all reserved/retired.
 - No em dashes.
 
 **Post Diagnosis:**
 
-- **Restated claim:** Playful prompt — name a *modern/contemporary* candy for each type and "take it seriously," i.e. give the behavioral reasoning.
+- **Restated claim:** Playful prompt — name a _modern/contemporary_ candy for each type and "take it seriously," i.e. give the behavioral reasoning.
 - **Sharpness rating:** Standard — it's a fun prompt, not a claim. The value is in answering the question almost no one in the thread actually answered.
 - **Meta-narrative:** Commenters are reacting to her classic picks instead of proposing modern ones with reasoning. Melissa is in playful-peer mode, inviting a volley. She's hunting for people who'll match her specificity and play.
 - **Recommended Stance:** Extend (answer the real question with reasoning) — paired with one Complicate and one Cheer so it isn't three flavors of the same.
@@ -147,7 +147,7 @@
 **Profile File:** docs/instagram/account-profiles/enneagramashton.md
 **Why comment-level:** 7,293 likes / 200+ comments → a new top-level comment is buried. Ashton planted a deliberate error on the Type 1 slide; the thread is self-aware 1s compulsively correcting it (a live demonstration of the pattern). Amplify the commenters already nailing it, in our voice, where the Type-1 audience is concentrated.
 **Pond / Type:** Enneagram-niche / Type 1 content — peer creator amplification
-**Pond angle (from cluster doc, Type 1):** name the inner critic as a *separate voice*, not a fact; the standard moved the second they hit it. Offer recognition, not more optimization.
+**Pond angle (from cluster doc, Type 1):** name the inner critic as a _separate voice_, not a fact; the standard moved the second they hit it. Offer recognition, not more optimization.
 **Bridge-ready:** n/a — peer creator amplification, not a pond conversion.
 
 **Relationship Intel:**
@@ -256,7 +256,7 @@
 - **Restated claim:** The top 3 Riso-Hudson Levels of Development are where the type structure loosens and we become most present.
 - **Sharpness rating:** Standard — accurate, aspirational depth content; abstract by nature.
 - **Meta-narrative:** Low comments, depth-seeking audience, reflective posture. She's hunting for self-examined peers who can hold nuance.
-- **Recommended Stance:** Complicate (the paradox: the type goes *quiet* at the top) — paired with one Extend (the felt shift) and one Cheer (what an honest read of "the top" looks like).
+- **Recommended Stance:** Complicate (the paradox: the type goes _quiet_ at the top) — paired with one Extend (the felt shift) and one Cheer (what an honest read of "the top" looks like).
 
 **Suggested Comment Option 1 (mode: complicate — the type goes quiet at the top):**
 
@@ -304,7 +304,7 @@
 - **Restated claim:** There's a "moment right before" a stress behavior; the behavior makes sense; awareness doesn't eliminate the pattern but creates space to choose differently.
 - **Sharpness rating:** Standard — it's the 9takes thesis stated well, but it's a known idea in her register.
 - **Meta-narrative:** 0 comments, fresh, education-first faith-Enneagram audience, high trust. She's hunting for reflective depth, not cheerleading. Posture: teaching.
-- **Recommended Stance:** Extend (name what's actually *in* the beat) — paired with one Complicate (per-type variance in the beat) and one Cheer (the honest part of her claim).
+- **Recommended Stance:** Extend (name what's actually _in_ the beat) — paired with one Complicate (per-type variance in the beat) and one Cheer (the honest part of her claim).
 
 **Suggested Comment Option 1 (mode: extend — name what's inside the half-second):**
 
@@ -316,7 +316,7 @@
 
 **Suggested Comment Option 3 (mode: cheer — names the honest part most skip):**
 
-> "awareness doesn't eliminate the pattern" thinking or knowing isnt the same as doing the thing you know you should do 
+> "awareness doesn't eliminate the pattern" thinking or knowing isnt the same as doing the thing you know you should do
 
 is the line most people skip. the win was never deleting it. the win is that it stops getting the only vote.
 
@@ -351,7 +351,7 @@ is the line most people skip. the win was never deleting it. the win is that it 
 **Post Diagnosis:**
 
 - **Restated claim:** In conflict, something unseen (intrapsychic) is always present and runs more of the show than the visible (interpersonal) layer; if you only work the visible part you miss the driver.
-- **Sharpness rating:** Standard — strong and on-thesis, but it names the unseen without naming that it's *patterned and predictable*. That's the open beat.
+- **Sharpness rating:** Standard — strong and on-thesis, but it names the unseen without naming that it's _patterned and predictable_. That's the open beat.
 - **Meta-narrative:** Earnest agreement + personal disclosures in the comments. Posture: teaching/reflecting. She's hunting for therapy-literate people doing real work.
 - **Recommended Stance:** Extend (the unseen is stable/patterned, not random fog) — paired with one Complicate (the two people's unseen are different shapes) and one Cheer (the quiet weight of her "you only focus on what you can see" line). All Level 0.
 
@@ -458,7 +458,7 @@ is the line most people skip. the win was never deleting it. the win is that it 
 
 **Recommended order** (clear the live, warm, and first-slot surfaces first; spread across a session to avoid a burst pattern):
 
-1. **@enneagrampaths Candy (Item 1)** — live + warm; she just liked our comment. Highest relationship value. Post ONE of the three options. *(Do NOT also post Countertypes 1b — pick one Melissa touch this week.)*
+1. **@enneagrampaths Candy (Item 1)** — live + warm; she just liked our comment. Highest relationship value. Post ONE of the three options. _(Do NOT also post Countertypes 1b — pick one Melissa touch this week.)_
 2. **@enneagramwithjb (Item 5)** — fresh, 0 comments, first-slot, warm peer. Layup.
 3. **@narrativeenneagram (Item 2)** — fresh, 0 comments, clean algorithm signal.
 4. **@alignedsoulco (Item 4)** — fresh, low-comment, cheap relationship-one.
@@ -482,46 +482,46 @@ is the line most people skip. the win was never deleting it. the win is that it 
 
 ## Planned Likes
 
-| #   | Account                | Post                        | Commenter                 | Commenter Quote (trimmed)                              | Status                 |
-| --- | ---------------------- | --------------------------- | ------------------------- | ------------------------------------------------------ | ---------------------- |
-| 1   | @enneagramashton       | Warning label by type       | @manisha.williams         | "came here to see my fellow 1s comments"               | Planned Like - Pending |
-| 2   | @enneagramashton       | Warning label by type       | @courtneybrillhart        | "As a 1 I noticed the mistake immediately"             | Planned Like - Pending |
-| 3   | @enneagramashton       | Warning label by type       | @devonc.rtez              | "There's literally a typo on type 1 🤪"                | Planned Like - Pending |
-| 4   | @thesecurerelationship | Anxious/Avoidant cycle      | @lisa_identityshift       | "putting the baby to sleep and you come in with…"      | Planned Like - Pending |
+| #   | Account                | Post                          | Commenter                 | Commenter Quote (trimmed)                                   | Status                            |
+| --- | ---------------------- | ----------------------------- | ------------------------- | ----------------------------------------------------------- | --------------------------------- |
+| 1   | @enneagramashton       | Warning label by type         | @manisha.williams         | "came here to see my fellow 1s comments"                    | Planned Like - Pending            |
+| 2   | @enneagramashton       | Warning label by type         | @courtneybrillhart        | "As a 1 I noticed the mistake immediately"                  | Planned Like - Pending            |
+| 3   | @enneagramashton       | Warning label by type         | @devonc.rtez              | "There's literally a typo on type 1 🤪"                     | Planned Like - Pending            |
+| 4   | @thesecurerelationship | Anxious/Avoidant cycle        | @lisa_identityshift       | "putting the baby to sleep and you come in with…"           | Planned Like - Pending            |
 | 5   | @mindfulmft            | Intrapsychic vs interpersonal | @santosh.livingintheheart | "I stopped focusing only on what was happening between us…" | Planned Like - Pending (optional) |
 
 ---
 
 ## Reconciliation Needed
 
-| Account                | Post                          | Target                       | Current State             | Next Update Needed                    |
-| ---------------------- | ----------------------------- | ---------------------------- | ------------------------- | ------------------------------------- |
-| @enneagrampaths        | Types as Candy                | Post                         | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @enneagrampaths        | The Nine Countertypes (ALT)   | Post                         | Held (alternate)          | Post ONLY if Candy substituted out    |
-| @narrativeenneagram    | Type 3 Performer growth       | Post                         | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @enneagramashton       | Warning label by type         | Reply @kristnmllr            | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @enneagramashton       | Warning label by type         | Reply @linpulsehuff          | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @enneagramashton       | Warning label by type         | Likes (3)                    | Planned Like - Pending    | Mark Liked / Skipped / Still pending  |
-| @alignedsoulco         | Highest Levels / Liberation   | Post                         | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @enneagramwithjb       | "The moment right before"     | Post                         | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @mindfulmft            | Intrapsychic vs interpersonal | Post + like @santosh         | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @thesecurerelationship | Anxious/Avoidant cycle        | Reply @santosh               | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @thesecurerelationship | Anxious/Avoidant cycle        | Reply @sarahzbooksanonymous  | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
-| @thesecurerelationship | Anxious/Avoidant cycle        | Like @lisa_identityshift     | Planned Like - Pending    | Mark Liked / Skipped / Still pending  |
+| Account                | Post                          | Target                      | Current State             | Next Update Needed                    |
+| ---------------------- | ----------------------------- | --------------------------- | ------------------------- | ------------------------------------- |
+| @enneagrampaths        | Types as Candy                | Post                        | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @enneagrampaths        | The Nine Countertypes (ALT)   | Post                        | Held (alternate)          | Post ONLY if Candy substituted out    |
+| @narrativeenneagram    | Type 3 Performer growth       | Post                        | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @enneagramashton       | Warning label by type         | Reply @kristnmllr           | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @enneagramashton       | Warning label by type         | Reply @linpulsehuff         | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @enneagramashton       | Warning label by type         | Likes (3)                   | Planned Like - Pending    | Mark Liked / Skipped / Still pending  |
+| @alignedsoulco         | Highest Levels / Liberation   | Post                        | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @enneagramwithjb       | "The moment right before"     | Post                        | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @mindfulmft            | Intrapsychic vs interpersonal | Post + like @santosh        | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @thesecurerelationship | Anxious/Avoidant cycle        | Reply @santosh              | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @thesecurerelationship | Anxious/Avoidant cycle        | Reply @sarahzbooksanonymous | Drafted - Pending Posting | Mark Posted / Skipped / Still pending |
+| @thesecurerelationship | Anxious/Avoidant cycle        | Like @lisa_identityshift    | Planned Like - Pending    | Mark Liked / Skipped / Still pending  |
 
 ---
 
 ## CRM Updates
 
-| Account                | Profile                                       | Update                                                            |
-| ---------------------- | --------------------------------------------- | ---------------------------------------------------------------- |
-| @enneagrampaths        | account-profiles/enneagrampaths.md            | Added drafted Candy reply record (primary); Countertypes held    |
-| @narrativeenneagram    | account-profiles/narrativeenneagram.md        | Added drafted Type 3 growth reply record                         |
-| @enneagramashton       | account-profiles/enneagramashton.md           | Added drafted comment-level replies (2) + planned likes (3)      |
-| @alignedsoulco         | account-profiles/alignedsoulco.md             | Added drafted Highest Levels reply record                        |
-| @enneagramwithjb       | account-profiles/enneagramwithjb.md           | Added drafted "moment right before" reply record                 |
-| @mindfulmft            | account-profiles/mindfulmft.md                | Added drafted post-mode reply + optional like @santosh           |
-| @thesecurerelationship | account-profiles/thesecurerelationship.md     | Added drafted comment-level replies (2) + planned like           |
+| Account                | Profile                                   | Update                                                        |
+| ---------------------- | ----------------------------------------- | ------------------------------------------------------------- |
+| @enneagrampaths        | account-profiles/enneagrampaths.md        | Added drafted Candy reply record (primary); Countertypes held |
+| @narrativeenneagram    | account-profiles/narrativeenneagram.md    | Added drafted Type 3 growth reply record                      |
+| @enneagramashton       | account-profiles/enneagramashton.md       | Added drafted comment-level replies (2) + planned likes (3)   |
+| @alignedsoulco         | account-profiles/alignedsoulco.md         | Added drafted Highest Levels reply record                     |
+| @enneagramwithjb       | account-profiles/enneagramwithjb.md       | Added drafted "moment right before" reply record              |
+| @mindfulmft            | account-profiles/mindfulmft.md            | Added drafted post-mode reply + optional like @santosh        |
+| @thesecurerelationship | account-profiles/thesecurerelationship.md | Added drafted comment-level replies (2) + planned like        |
 
 ---
 

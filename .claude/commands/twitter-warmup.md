@@ -1,4 +1,5 @@
 <!-- .claude/commands/twitter-warmup.md -->
+
 # Twitter Warmup - @9takesdotcom (DJocrates)
 
 You are conducting a daily Twitter/X engagement scan for **@9takesdotcom** (the DJocrates persona) to find high-quality engagement opportunities in **Psychology Twitter, Attachment-Style Twitter, MBTI K-pop/anime Twitter, and the typology niche** — the active adjacent communities where 9takes content actually has a chance to land.

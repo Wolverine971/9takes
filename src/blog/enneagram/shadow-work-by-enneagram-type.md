@@ -802,6 +802,7 @@ Find an Enneagram-aware therapist through the International Enneagram Associatio
 Not sure which therapeutic approach fits your personality? [Different types need different modalities](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)—the talking cure works beautifully for some types and systematically fails others. Understanding your processing style saves years of ineffective treatment.
 
 **This work takes courage. You already have everything you need, including your shadow.**
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

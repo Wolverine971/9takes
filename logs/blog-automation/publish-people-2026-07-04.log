@@ -1,0 +1,19 @@
+Everything is now in the correct state.
+
+```text
+Published people blog.
+
+Person: seth-rogen (Seth Rogen)
+Draft: src/blog/people/drafts/Seth-Rogen.md
+Date/lastmod: 2026-07-04
+Supabase: published=true (id=963)
+Images: full (static/types/9s/Seth-Rogen.webp) + thumbnail (s-Seth-Rogen.webp) present
+Generated files: famousTypes.ts (link:true, lastmod 2026-07-04) + sitemap.xml (URL added) regenerated
+
+Blockers:
+- none (publish gate passed: overall 8.5, discoverability 8.5, Type 9)
+```
+
+**One note worth flagging:** The publish script's own `pnpm gen:all` step failed at its *first* sub-step, `pnpm gen:types`, because the `supabase` CLI binary is missing from `node_modules` (`node_modules/supabase/bin/supabase: No such file or directory`). That's a pre-existing environment issue, not a content problem — the Seth Rogen publish (draft frontmatter + Supabase row) had already committed before that point. I ran the two generators that `gen:all` skipped (`gen:famous-types`, `gen:sitemap`) manually, and both succeeded, so the release is complete.
+
+`database.types.ts` was *not* regenerated (that's what `gen:types` produces), but no schema changed during this publish, so it doesn't need to be. If you want `pnpm gen:all` to work end-to-end for future publishes, the `supabase` package needs reinstalling (`pnpm install` / re-add the `supabase` dev dependency).

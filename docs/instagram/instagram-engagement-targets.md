@@ -12,6 +12,23 @@ _Updated by: `/instagram-warmup` scans and reviewed alongside `/instagram-reply`
 
 ## Outbound Activity Snapshots (append-only)
 
+### 2026-07-04 — ✅ SESSION HEALTHY (first clean session since 6/30; 7/01–7/03 all blocked before scanning); full warmup ran
+
+- **Session ✅:** @9takesdotcom active on arrival (top-right widget confirmed; `/notifications/` no login redirect). No recovery needed all session.
+- **Active pond LOCKED = Type 8:** **Chappell Roan / Type 8 is now LIVE** (newest post on the grid, ahead of Lana/Bartlett/Kai) → bridge `/personality-analysis/chappell-roan`. The 7/03 "imminent" note resolved. Worked Type 8 hard + a Level-0 evergreen 6/2 room.
+- **Notifications (live):** 🔥 our comment on a "how people cover up their real feelings" post got **85+ likes** (chels_cazza, fatgryphon + 85 others, 1d) — highest-performing comment to date; the cover-up/armor angle is our best lever. @taylordass_counselling liked our comment (3d). build.os/djwayne3 liked our Lana + Bartlett posts.
+- **Pond scan — carry-forward re-confirmed:** hashtag Top grids (#boundaries) + algorithmic feed both stale. Best finds came from warm-creator profiles' newest posts + mining their comment threads for pond strangers.
+- **Output:** **4 opportunities queued** (1 mixed, 3 comment-level) + 1 carry-forward OWED reply; **0 profiles created, 4 updated** (candicemichelleenneagram, enneagrampaths, alignedsoulco, thesecurerelationship); **9 new accounts (commenters) surfaced**; **2 saves** dropped to `inbox/`.
+- **Standout:** @candicemichelleenneagram "Enneagram 8: sh\*t that annoys me" — 11h fresh, active Type 8 pond, low competition, `mixed` mode. TOP pick.
+- **⚠️ OWED loop still open ~2wk:** @enneagrampaths "how dare you read me (5)…" reply-to-reply never posted across 4+ sessions. Flagged priority 0 for `/instagram-reply`.
+- **Doc:** `docs/instagram/daily-engagement/2026-07-04_instagram-warmup.md`
+
+**New pond strangers surfaced 2026-07-04 (commenters — Monitor unless they recur):**
+
+- **@savannahjean_xo** — `[pond: Type 8]` · **appeared in 2 Type-8 rooms same day** (candicemichelleenneagram + alignedsoulco). Recurring active 8 → highest-value pond stranger; first substantive touch queued. Suggested tier: Tier 4 (Type 8 pond, watch to promote).
+- **@livingunpatterned** — `[pond: anxious attachment → Type 6/2]` · thoughtful attachment voice ("security = surviving honesty/disappointment/repair") with real 9takes overlap. Suggested tier: Tier 4 (evergreen pond, watch).
+- Others (one-off Type-8 self-IDers, monitor): @michelemariemacintosh, @themagicformorgan, @bethaneezer\_, @cnslider, @thechercaruso; @ludastina (Type 9), @danaep23 (Type 4). Full context in the warmup doc's New Accounts table.
+
 ### 2026-07-01 — ✅ SESSION RESTORED (yesterday 6/30 was blocked `instagram_account_not_in_picker`); full warmup ran
 
 - **Session ✅:** @9takesdotcom active on arrival (top-right widget `9takesdotcom / 9takes · Enneagram & Personality`; `/notifications/` no login redirect). Yesterday's block cleared on its own — DJ appears to have re-added the session.

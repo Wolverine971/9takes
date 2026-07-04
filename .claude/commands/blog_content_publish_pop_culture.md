@@ -1,4 +1,5 @@
 <!-- .claude/commands/blog_content_publish_pop_culture.md -->
+
 # Blog Content Publisher (Pop-Culture)
 
 You are tasked with publishing one ready pop-culture personality analysis draft for 9takes. This command is intentionally operational: it does not rewrite the article, re-research the topic, or fix substantive editorial gaps.

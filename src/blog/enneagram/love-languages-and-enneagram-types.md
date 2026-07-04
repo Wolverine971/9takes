@@ -583,6 +583,7 @@ Together, they tell you which gestures land and which ones slide off.
 The most meaningful relationships happen when two people understand not just how to love each other, but _why_ they need to be loved the way they do.
 
 So: **what's the mismatch pattern that feels most like yours?** Post it as "Type X gives **_, Type Y needs _**"—the one specific gap you've been bumping into. Naming the shape is the first real step toward closing it.
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

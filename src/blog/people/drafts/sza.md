@@ -4,12 +4,12 @@ meta_title: 'SZA Enneagram: Why the Type 4 Individualist Keeps Making Music That
 persona_title: "R&B's Unfinished Wound (Enneagram Type 4)"
 description: "SZA built a career on radical vulnerability, but it's not a craft she mastered. It's still the wound. A Type 4 Enneagram analysis of Solána Rowe."
 author: 'DJ Wayne'
-date: '2026-04-12'
+date: '2026-07-04'
 loc: 'https://9takes.com/personality-analysis/sza'
-lastmod: '2026-04-12'
+lastmod: '2026-07-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician']
 person: 'sza'

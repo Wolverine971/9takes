@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-03T06:50:54Z",
+	"lastUpdated": "2026-07-04T06:38:52Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "steve-martin",
-			"displayName": "Steve Martin",
-			"type": 5,
-			"priority": 53,
-			"priorityReason": "Comedy legend, writer, and musician with an intellectual creative persona suited to Type 5 analysis",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "comedy-icon-cluster"
-		},
 		{
 			"name": "jerry-seinfeld",
 			"displayName": "Jerry Seinfeld",
@@ -125,6 +112,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "steve-martin",
+			"displayName": "Steve Martin",
+			"type": 5,
+			"priority": 53,
+			"priorityReason": "Comedy legend, writer, and musician with an intellectual creative persona suited to Type 5 analysis",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "comedy-icon-cluster",
+			"startedAt": "2026-07-04T06:00:00Z",
+			"completedAt": "2026-07-04T06:38:52Z",
+			"contentGrade": "8.5",
+			"letter": "B+",
+			"discoverability": "8",
+			"duration": "~38 min",
+			"needsReview": true
+		},
 		{
 			"name": "jeff-goldblum",
 			"displayName": "Jeff Goldblum",

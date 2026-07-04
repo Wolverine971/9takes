@@ -1,0 +1,26 @@
+All checks pass. Internal link count is now 5 (celebrity cross-link + Enneagram links). All hard gates clear. Here is the completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Steve-Martin.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: none
+```
+
+**What I built**
+
+Steve Martin as **Enneagram Type 5w4** (self-preservation), "Comedy's Analytical Recluse." The thesis: the flailing "wild and crazy guy" wasn't the opposite of the analytical man, it was his *product* — an anxious introvert who engineered laughter like a physics problem, performed through two decades of private panic attacks, mastered stand-up and abandoned it whole at the peak, and spent fifty years chasing the approval of a father who reviewed his breakout with "Well, he's no Charlie Chaplin."
+
+**Gate detail**
+- **Gate 1 (testimony):** 5 qualifying third-party quotes — Martin Short ("a real prick"), Morgan Neville, Adam Gopnik, Martin Mull, Glenn Martin — all named, attributed, dated.
+- **Gate 6:** critic-pressure anchor (industry aloofness reputation + the *Rolling Stone* "never drops his guard" read), empathy turn (coldness reframed through the belt-beating boy who learned "only the most formal relationship" was safe), current-tense anchor (2024 Neville documentary *STEVE!*), interior beat (`inner-thought` in the panic section).
+
+**Internal links (5):** Robin Williams (celebrity cross-link, as a manic-improv foil) → `/personality-analysis/robin-williams`; Type 5 → `/enneagram-corner/enneagram-type-5`; panic/anxiety → `/enneagram-corner/anxiety-and-enneagram-types-guide`; wings + instinctual subtypes (in the Rabbit Hole).
+
+**Notes for the human review pass**
+- Two research quotes were flagged MEDIUM-confidence by the researcher and are worth a verbatim check before production: the "What if there were no punch lines?" passage and the deathbed lines ("You did everything I wanted to do" / "For all the love I received and couldn't return"). Both are well-documented from *Born Standing Up* / the 2002 New Yorker essay, but confirm exact strings.
+- The `faqs` frontmatter is intentionally absent — that's the separate `blog_content_frontmatter_enrich_people` stage. Grading is owned by `/grade_blog`. Per non-interactive rules, I did **not** auto-promote to `ready`; human review before `blog_content_production_people` is still required.
+
+Per this repo's parallel-work safety norms, I only created the new draft file and touched nothing else.

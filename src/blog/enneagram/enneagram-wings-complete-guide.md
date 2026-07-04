@@ -810,6 +810,7 @@ It's in the pattern of your stress responses. It's in why certain self-help advi
 Start with the observation steps above. Pay attention under stress — that's when the wing signal gets loudest. And if you want to see all 18 wing combinations in action, explore how different types actually respond to the same situations on [9takes](/questions).
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

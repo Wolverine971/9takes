@@ -1,0 +1,21 @@
+Done. Second pass complete on `src/blog/people/drafts/Steve-Martin.md`.
+
+## What I changed
+
+The fresh-eyes review was sharp and mostly correct — its central complaint was right: the comedy was dramatized, the reinvention (the *stronger* Five evidence) was only listed. I fixed that and the smaller notes:
+
+**Substance added (verified by research first):**
+- **Cashed out the second act.** The walk-away section now dramatizes the reinvention instead of enumerating it — **Roxanne** (25 drafts over 3 years rebuilding *Cyrano de Bergerac* so the man with the nose finally gets the girl; a Five's move made literal, and a WGA win the stand-up never got) and **L.A. Story** (7 years, his most personal film, ode to then-wife Victoria Tennant).
+- **Added *Only Murders in the Building*** as the current-tense anchor in the thaw section — a guarded older man in a huge building who finally lets two people in, one of them Martin Short. It literally stages the section's argument.
+- **Added *Shopgirl*** to "The Art of Plaintive Isolation" — Ray Porter as a self-portrait of his own emotional withholding, the same confession as the paintings but in his own hand. Kept the Pollock story (it makes a different point).
+- **Closed the adulthood-cost loop** with one line on the Victoria Tennant marriage ending in his most-guarded years.
+
+**Trims:**
+- Compressed the in-body Type 3 counter-case to its sharpest sentence (the walk-away tiebreaker); the full case now lives only in the Rabbit Hole.
+- Cut a redundant "hold it in mind" signpost and varied the third "went quiet" so the motif reads as pattern, not repetition.
+
+**Preserved** the panic-attack inner-thought beat, the "armor forged too early" empathy turn, and the father-deathbed close — all flagged as working.
+
+Lint passes (0 fail, no prose em-dashes, no banned phrases). Nothing structural left unresolved. The one open item is the `faqs` frontmatter enrichment, which is a separate downstream stage, not an editor pass.
+
+Sources: [Roxanne](https://en.wikipedia.org/wiki/Roxanne_(film)) · [Shopgirl (novella)](https://en.wikipedia.org/wiki/Shopgirl_(novella)) · [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building) · [L.A. Story](https://en.wikipedia.org/wiki/L.A._Story)

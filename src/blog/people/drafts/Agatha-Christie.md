@@ -6,7 +6,7 @@ persona_title: Crime's Private Observer
 author: DJ Wayne
 date: '2025-04-10'
 loc: 'https://9takes.com/personality-analysis/agatha-christie'
-lastmod: '2026-07-01'
+lastmod: '2026-07-03'
 changefreq: monthly
 priority: '0.6'
 published: true
@@ -201,6 +201,8 @@ The result was _The Mysterious Affair at Styles_, which killed its victim with s
 
 There is a colder truth inside that skill. Christie was not squeamish about death. She could describe exactly how a body fails under a given compound because she had studied it the way you study a system, from the outside, with the feeling turned down. Two decades later, during the Second World War, she returned to a hospital pharmacy while writing in her off hours, and produced the book many consider her best.
 
+That is the smaller, domestic cousin of the dangerous-knowledge pattern that makes [Robert Oppenheimer](/personality-analysis/robert-oppenheimer) compelling: private technical competence becoming morally loaded the moment it leaves the laboratory.
+
 That book was _And Then There Were None_, which has sold roughly 100 million copies and stands among the best-selling titles in publishing history (Guinness World Records). Ten strangers on an island, picked off one by one, judged by a killer who watches and waits. She wrote the most claustrophobic thriller of her life from inside a dispensary during a war. The distance was the point.
 
 ## Why Agatha Christie disappeared for 11 days
@@ -284,6 +286,8 @@ She is, by the count Guinness World Records keeps, the best-selling novelist of 
 
 And we keep re-opening her. Kenneth Branagh's _Murder on the Orient Express_ grossed $352.8 million in 2017 and launched a film trilogy that ran through _Death on the Nile_ and 2023's _A Haunting in Venice_. Every few years a new generation stages the same murders, as if the puzzles still owe us something.
 
+That puts Christie closer to [J.K. Rowling](/personality-analysis/j.k.-rowling) than a simple genre label suggests: both built fictional machinery durable enough to outgrow the author. The stranger neighbors are [Stephen Hawking](/personality-analysis/stephen-hawking) and [Friedrich Nietzsche](/personality-analysis/friedrich-nietzsche), private minds whose public myths became puzzles readers keep trying to solve.
+
 The reason her plots endure is the reason her disappearance does. Christie understood, better than almost any writer alive, that people are systems with hidden logic, that the quiet observer in the corner sees what the loud ones miss, and that the truth is usually held back by whoever is watching most and saying least. She built that principle into two detectives and sixty-six novels. Then she lived it out, one night in December, and left no solution.
 
 She solved every murder she ever invented. The one she lived, she took to Harrogate and never explained. A century and a hundred adaptations later, we are still standing in the lobby of the Swan Hydropathic Hotel, reading the room she walked out of.
@@ -336,4 +340,3 @@ Cleaned up:
 - Sharpened the final beat: "invented / the one she lived" now parallels cleanly; ending still cuts to black on the Swan Hydropathic lobby callback.
 - Preserved untouched: the Harrogate hook, the registration-desk interior beat, and the disappearance empathy turn (three losses overloading a mind whose only tool was retreat).
 -->
-

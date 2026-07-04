@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -995,7 +995,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/agatha-christie</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/5s/Agatha-Christie.webp</image:loc>
     </image:image>
@@ -1394,7 +1394,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1426,7 +1426,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/cathie-wood</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/7s/Cathie-Wood.webp</image:loc>
     </image:image>
@@ -1510,7 +1510,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/conan-obrien</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/7s/Conan-Obrien.webp</image:loc>
     </image:image>
@@ -1713,7 +1713,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/ella-langley</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Ella-Langley.webp</image:loc>
     </image:image>
@@ -1797,7 +1797,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/friedrich-nietzsche</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/5s/Friedrich-Nietzsche.webp</image:loc>
     </image:image>
@@ -2462,7 +2462,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/leonardo-da-vinci</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/5s/Leonardo-Da-Vinci.webp</image:loc>
     </image:image>
@@ -2490,7 +2490,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/lily-allen</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/4s/Lily-Allen.webp</image:loc>
     </image:image>
@@ -2598,6 +2598,13 @@
     <lastmod>2026-04-27</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Matt-Rife.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/matt-smith</loc>
+    <lastmod>2026-07-03</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Matt-Smith.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2938,7 +2945,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/prince</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/4s/Prince.webp</image:loc>
     </image:image>
@@ -3210,6 +3217,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/seth-rogen</loc>
+    <lastmod>2026-07-04</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Seth-Rogen.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/shaan-puri</loc>
     <lastmod>2026-04-03</lastmod>
     <image:image>
@@ -3322,6 +3336,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/sza</loc>
+    <lastmod>2026-07-04</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/4s/SZA.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/tara-yummy</loc>
     <lastmod>2026-02-22</lastmod>
     <image:image>
@@ -3365,7 +3386,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/theo-von</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/7s/Theo-Von.webp</image:loc>
     </image:image>
@@ -3410,6 +3431,13 @@
     <lastmod>2026-04-01</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Tina-Fey.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/tobey-maguire</loc>
+    <lastmod>2026-07-03</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Tobey-Maguire.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3531,11 +3559,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-03</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
@@ -3543,15 +3571,15 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-03</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-07-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vincent-van-gogh</loc>

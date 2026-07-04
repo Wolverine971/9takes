@@ -55,6 +55,7 @@ These prompts are written for **ChatGPT image generation (GPT Image)**, not Midj
 | 4   | "Play the fucking beat" — Lollapalooza 2024 (Femininomenon) | E4  | 2 their-eyes (from stage) | first-person · medium-wide · 35mm | the kid too scared to dance now commands the room          | bright peak ✓ |
 | 5   | Becoming Chappell (vanity, no face)                         | E4  | 1 over-shoulder           | over-shoulder · close · 50mm      | two selves via wardrobe — persona as armor (NO face shown) | —             |
 | 6   | Airport-gate force field                                    | E5  | 2 their-eyes              | first-person · wide · 24–28mm     | the wall closing in — fame as a cage                       | —             |
+| 7   | The Mirror Moment (empty vanity, seat for you)              | —   | — (the reader)            | straight-on · centered · 50mm     | turns the lens off her and onto you — armor as a question  | mirror ⚡     |
 
 ## Recognition litmus — would Chappell recognize each moment?
 
@@ -199,6 +200,45 @@ Format: square 1:1 (1024×1024).
 ```
 
 _Vary: the distance — also try a tighter crush of phones and a half-step back that shows more terminal._ · _Kill rule: keep only the frame where the phones/strangers feel like they are closing in, not lined up posing._ · _Refine conversationally in ChatGPT (regenerate; don't overload)._
+
+### Shot 7 — The Mirror Moment (this seat is for you) · Era: none — this slide is not about her ⚡
+
+**Palette:** Mood _quiet, invitational, the room after the show_ · World/palette _the same backstage vanity as Shot 5, now emptied_ · Time _after the set, everyone gone_ · Styling/props _an empty stool turned slightly toward the viewer, the makeup wiped away, a single lipstick-blotted tissue, the two wardrobes gone from their stands_ · Light _the vanity bulbs dimmed to a low subdued pink-amber, half of them dark_ · Finish _still, intimate, grain_
+**Why this shot:** Every Mirror Moment carousel ends by turning the lens off the subject and onto the reader (per `docs/product/the-mirror-moment.md`). We deliberately rhyme it against **Shot 5** — the vanity where _she_ became the persona — but now the stool is empty and turned toward _you_. No face, no her: the armor she built (and what it cost her) becomes a question about the armor **you** built. The silence is the strategy — no CTA on this frame; the reader answers in their head before they're asked to do anything.
+
+**The Mirror question (Slide 6 / final on-slide text — must be near-verbatim to the 9takes question page):**
+
+> **"What's the armor that once protected you — and now keeps people out?"**
+
+- **Bridge line (universal, no subject name — sits above the question):** _"We all build something to survive. The hard part is remembering how to take it off."_
+- **9takes-only test:** non-binary, demands a narrative, about the reader not Chappell, would feel too exposed to answer in public comments — so it drives to 9takes. Traces straight back to the Type 8 through-line ("the armor that guards the tender part also keeps people from reaching it") without needing to know her story.
+- **Landing-page mirror:** link in bio → a 9takes **question page** whose title is this exact question. Not the analysis blog — the question first; the analysis is the optional follow-up read after they write their take.
+- **Caption bridge (names the tension, does NOT answer it):** _"You just answered that in your head, didn't you? Write it down where it counts. 👇"_
+
+**Overlay text** (this is the one slide where text IS the point — bridge line small on top, question large-centered, no fact caption, no CTA):
+
+```
+We all build something to survive.
+The hard part is remembering how to take it off.
+
+What's the armor that once protected you —
+and now keeps people out?
+```
+
+**ChatGPT prompt** (photorealistic, square — the empty mirror; text added after in Canva):
+
+```
+Photorealistic intimate still of an EMPTY backstage vanity after the show — the same dressing room as a getting-ready shot, but now abandoned and quiet. NO people, NO face, NO reflection of any person.
+Composition (the point — this space is for you): a round Hollywood-bulb vanity mirror at center, but half the bulbs are dark and the rest glow low; an empty stool is pulled out and turned slightly toward the camera, as if just vacated and waiting for whoever looks next. The mirror reflects only the dim empty room and the viewer's negative space — never a person.
+Details: the counter is wiped down — a single tissue blotted with bold lipstick, one loose rhinestone, an empty glitter pot, a powder smudge; the costume stands to either side are now BARE (the clothes gone). Real texture, dust, fingerprints on the mirror.
+Camera: straight-on, eye-level, 50mm, centered and symmetrical so the empty stool and mirror invite the viewer in.
+Light: the dimmed vanity bulbs as the only source, a low subdued pink-amber glow, most of the room in soft shadow — keep shadow detail, not crushed black.
+Color & finish: muted, desaturated pink-amber against near-dark; calm and still; visible film grain, real photographic texture, NOT glossy.
+Constraints: absolutely NO person, NO face, NO human reflection anywhere; leave generous empty/negative space (the dark center and the mirror) clean and uncluttered for large overlay text added later; the mood is quiet and invitational, not sad or spooky; no on-image text; no specific celebrity.
+Format: square 1:1 (1024×1024).
+```
+
+_Vary: also try a straight-on shot of just the mirror with the viewer's implied empty space reflected, and a version with the stool fully facing camera._ · _Kill rule: keep only the frame that reads as an empty seat waiting for the viewer — discard anything with a person, a face, or a reflection, and anything too cluttered to drop a big question on top._ · _Refine conversationally in ChatGPT (regenerate; don't overload)._
 
 **Text panels:** none in this set — all six captions are real-fact overlays added after generation (bottom-right, small; Canva type or any overlay tool), not in-prompt text. If the eventual deck needs a hook / formula / CTA panel rendered with text-in-image, that's `/carousel`'s job (→ `gemini-imagegen`).
 

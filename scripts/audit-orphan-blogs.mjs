@@ -50,7 +50,11 @@ function inboundCount(slug, selfFile) {
 }
 
 const scored = posts
-	.map((p) => ({ ...p, inbound: inboundCount(p.slug, p.file), impressions: imp.get(p.loc.replace(/\/$/, '')) ?? 0 }))
+	.map((p) => ({
+		...p,
+		inbound: inboundCount(p.slug, p.file),
+		impressions: imp.get(p.loc.replace(/\/$/, '')) ?? 0
+	}))
 	.sort((a, b) => a.inbound - b.inbound || b.impressions - a.impressions);
 
 const orphans = scored.filter((p) => p.inbound === 0);

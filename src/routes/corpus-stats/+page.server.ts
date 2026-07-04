@@ -175,7 +175,6 @@ export const load: PageServerLoad = async () => {
 
 	// ----- 1. Dataset (the SEO target) -----
 	const datasetJsonLd = {
-		'@context': 'https://schema.org',
 		'@type': 'Dataset',
 		'@id': DATASET_ID,
 		name: '9takes Enneagram Personality Type Distribution Corpus',
@@ -239,7 +238,6 @@ export const load: PageServerLoad = async () => {
 
 	// ----- 2. WebPage wrapper -----
 	const webPageJsonLd = {
-		'@context': 'https://schema.org',
 		'@type': 'WebPage',
 		'@id': WEBPAGE_ID,
 		url: PAGE_URL,
@@ -265,7 +263,6 @@ export const load: PageServerLoad = async () => {
 
 	// ----- 3. FAQPage -----
 	const faqJsonLd = {
-		'@context': 'https://schema.org',
 		'@type': 'FAQPage',
 		'@id': FAQ_ID,
 		isPartOf: { '@id': WEBPAGE_ID },
@@ -281,7 +278,6 @@ export const load: PageServerLoad = async () => {
 
 	// ----- 4. Breadcrumbs -----
 	const breadcrumbJsonLd = {
-		'@context': 'https://schema.org',
 		'@type': 'BreadcrumbList',
 		'@id': `${PAGE_URL}#breadcrumbs`,
 		itemListElement: [
@@ -301,6 +297,9 @@ export const load: PageServerLoad = async () => {
 			externalSampleTotal,
 			faqs
 		},
-		jsonLd: { '@graph': [webPageJsonLd, datasetJsonLd, faqJsonLd, breadcrumbJsonLd] }
+		jsonLd: {
+			'@context': 'https://schema.org',
+			'@graph': [webPageJsonLd, datasetJsonLd, faqJsonLd, breadcrumbJsonLd]
+		}
 	};
 };

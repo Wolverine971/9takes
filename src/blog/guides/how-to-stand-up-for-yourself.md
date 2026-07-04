@@ -391,6 +391,7 @@ Nine personalities hit nine different walls trying to say one small sentence. Th
 </div>
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

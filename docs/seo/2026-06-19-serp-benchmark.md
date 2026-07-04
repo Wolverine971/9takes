@@ -16,9 +16,9 @@ feedback loops.
 
 ## Section performance (28d, page-level)
 
-| Section              | Impressions | Clicks | CTR   | Read |
-| -------------------- | ----------- | ------ | ----- | ---- |
-| enneagram-corner     | 75,340      | 494    | 0.66% | Educational hub. Best positions (many pos 5–12). Most movable. |
+| Section              | Impressions | Clicks | CTR   | Read                                                                              |
+| -------------------- | ----------- | ------ | ----- | --------------------------------------------------------------------------------- |
+| enneagram-corner     | 75,340      | 494    | 0.66% | Educational hub. Best positions (many pos 5–12). Most movable.                    |
 | personality-analysis | 59,073      | 294    | 0.50% | Big impression base but a ranking ceiling at pos 6–15 vs. entrenched competitors. |
 
 ## Ranked gaps (by realistic leverage)
@@ -28,15 +28,15 @@ feedback loops.
 File-based MDsvex pages sitting at the **top of page 2** with thousands of impressions.
 These are the most movable (pos 8–15 → page 1) and editable directly.
 
-| Page | Imp | Pos | CTR | Clicks |
-| ---- | --- | --- | --- | ------ |
-| enneagram-and-mental-illness | 4,283 | 8.3 | 2.36% | 101 |
-| enneagram-compatibility-matrix | 3,799 | 11.5 | 0.76% | 29 |
-| astrology-and-the-enneagram | 3,236 | 8.5 | 0.65% | 21 |
-| enneagram-wings-complete-guide | 3,080 | 14.9 | 0.16% | 5 |
-| enneagram-instinctual-subtypes | 2,806 | 14.5 | 0.25% | 7 |
-| enneagram-test-comparison-2025 | 2,766 | 14.4 | 0.22% | 6 |
-| enneagram-vs-personality-frameworks-comparison | 1,631 | 8.6 | 0.06% | 1 |
+| Page                                           | Imp   | Pos  | CTR   | Clicks |
+| ---------------------------------------------- | ----- | ---- | ----- | ------ |
+| enneagram-and-mental-illness                   | 4,283 | 8.3  | 2.36% | 101    |
+| enneagram-compatibility-matrix                 | 3,799 | 11.5 | 0.76% | 29     |
+| astrology-and-the-enneagram                    | 3,236 | 8.5  | 0.65% | 21     |
+| enneagram-wings-complete-guide                 | 3,080 | 14.9 | 0.16% | 5      |
+| enneagram-instinctual-subtypes                 | 2,806 | 14.5 | 0.25% | 7      |
+| enneagram-test-comparison-2025                 | 2,766 | 14.4 | 0.22% | 6      |
+| enneagram-vs-personality-frameworks-comparison | 1,631 | 8.6  | 0.06% | 1      |
 
 Levers: content depth, answer-first H2 blocks for the exact query, internal links with
 exact-match anchor text, freshness. Note: `enneagram-and-mental-illness` is the

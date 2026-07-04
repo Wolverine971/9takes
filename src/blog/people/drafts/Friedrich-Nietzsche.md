@@ -6,10 +6,10 @@ persona_title: The Hermit Who Killed God
 author: DJ Wayne
 date: '2023-07-25'
 loc: 'https://9takes.com/personality-analysis/friedrich-nietzsche'
-lastmod: '2026-07-01'
+lastmod: '2026-07-03'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type:
   - historical
@@ -222,6 +222,8 @@ In _The Gay Science_ (1882), a madman runs into a marketplace with a lantern in 
 
 Nietzsche was not celebrating atheism. He was diagnosing a civilization that had quietly stopped believing its own foundation and had not yet noticed the ground was gone. For centuries, God had anchored meaning, morality, and value. Take that away, as science and philosophy had already done, and you are left standing over a void with no floor. The madman's crowd laughs at him because they do not understand what they have done. That is the whole horror of the passage. Someone has to look directly at the emptiness and describe it, and Nietzsche appointed himself that someone.
 
+Where [Robert Oppenheimer](/personality-analysis/robert-oppenheimer) became tragic because knowledge made the abyss physical, Nietzsche became tragic because he saw what belief had stopped holding before most people were ready to admit the floor was gone.
+
 Everything else follows from staring into that void without blinking. **Eternal recurrence:** imagine that you must live this exact life, every pain and boredom and joy, over and over forever, unchanged. Could you bear it? Could you want it? **Amor fati,** the love of fate, was his answer, the discipline of saying yes to your existence so completely that you would will its infinite repetition. **The will to power** was his name for the drive underneath all life, the push to overcome and master oneself. And the **Übermensch,** the overman of _Zarathustra_, was the figure who could do all of it: a person who obeys no law except the one he gives himself, who creates his own values in a universe that hands out none.
 
 Notice what these ideas have in common. Every one of them is a solitary confrontation with a truth too heavy for company. Eternal recurrence is a test you take alone at midnight. Amor fati is a private act of will. The Übermensch has no herd. This is the philosophy of a man for whom being alone with a hard thought was the most natural state in the world, because it was the only one he had ever fully trusted.
@@ -282,6 +284,8 @@ It is also a small betrayal. Nietzsche wrote it in _Twilight of the Idols_ as "w
 
 That is the strange afterlife of the hermit who killed God. He arranged his whole existence to be left alone with the hardest thoughts a person could think, and the reward for all that solitude is a crowd that quotes him constantly and reads him almost never. The manosphere claims him. Self-help defangs him. Every side finds the sentence it wants and skips the man who paid for it in migraines and madness and forty unsold copies.
 
+The internet has done to Nietzsche what it also did to [Nikola Tesla](/personality-analysis/nikola-tesla) and [Albert Einstein](/personality-analysis/albert-einstein): flattened a strange, difficult mind into a clean poster for genius. Even [Elon Musk](/personality-analysis/elon-musk) borrows from that mythology of the lone future-seer, usually without the loneliness that made Nietzsche's version so dangerous.
+
 He gazed into the abyss on purpose, so the rest of us would not have to. Now his face is on the poster, and the abyss is nowhere in the caption.
 
 <!-- FRESH EYES REVIEW (2026-07-01)
@@ -328,4 +332,3 @@ Cleaned up:
 Left intact:
 - Horse in Turin (empathy turn + interior beat), the mich-vs-dich ending, ledgers. Lint: 0 fail.
 -->
-

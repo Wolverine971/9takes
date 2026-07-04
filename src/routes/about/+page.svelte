@@ -51,16 +51,23 @@
 		{
 			"@context": "https://schema.org",
 			"@type": "Person",
+			"@id": "https://9takes.com/#dj-wayne",
 			"name": "DJ Wayne",
 			"givenName": "DJ",
 			"familyName": "Wayne",
 			"jobTitle": "Founder",
 			"worksFor": {
 				"@type": "Organization",
+				"@id": "https://9takes.com/#organization",
 				"name": "9takes",
 				"url": "https://9takes.com",
-				"logo": "https://9takes.com/brand/aero.png",
-				"sameAs": ["https://twitter.com/djwayne3"]
+				"logo": {
+					"@type": "ImageObject",
+					"url": "https://9takes.com/brand/aero.png",
+					"width": 512,
+					"height": 512
+				},
+				"sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"]
 			},
 			"alumniOf": [
 				{
@@ -82,7 +89,12 @@
 			"description": "From USMC infantry to tech entrepreneur. Meet DJ Wayne, creator of 9takes, helping people build emotional intelligence through personality psychology.",
 			"image": "https://9takes.com/brand/djface.webp",
 			"url": "https://9takes.com/about",
-			"sameAs": ["https://twitter.com/djwayne3", "https://www.linkedin.com/in/djwayne3"]
+			"sameAs": [
+				"https://www.instagram.com/djwayne3/",
+				"https://www.youtube.com/@djwayne3",
+				"https://www.linkedin.com/in/davidtwayne/",
+				"https://twitter.com/djwayne3"
+			]
 		}
 	</script>
 
@@ -96,9 +108,11 @@
 			"url": "https://9takes.com/about",
 			"mainEntity": {
 				"@type": "Organization",
+				"@id": "https://9takes.com/#organization",
 				"name": "9takes",
 				"founder": {
 					"@type": "Person",
+					"@id": "https://9takes.com/#dj-wayne",
 					"name": "DJ Wayne"
 				},
 				"foundingDate": "2022",

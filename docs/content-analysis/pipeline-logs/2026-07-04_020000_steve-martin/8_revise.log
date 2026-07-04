@@ -1,0 +1,28 @@
+Lint is clean (0 fail, 0 warn). Revision pass complete.
+
+## What I revised and why
+
+**Draft:** `src/blog/people/drafts/Steve-Martin.md`
+**Triggered by:** grade **B (8.0)** — Writing capped at 8, Evidence flagged for missing inline attribution. Lint was already clean, so the work list was purely grader feedback.
+
+### Fixes applied
+
+**Writing cap (contrast-pair engine + stale ledger)**
+- Converted the two weaker contrast-pairs, both in the Pollock/collecting paragraph — "*pursuit was the point / possession went inert*" and "*what a Five wants is rarely the object / it is the understanding*" — into direct statements. Kept the three load-bearing ones the grader protected (thesis, empathy turn, panic beat).
+- Updated the **Formula Fingerprint Ledger** from a stale "2" to an accurate "3 kept + 2 converted."
+
+**Evidence (inline attribution) — plus a factual fix**
+- Quit-quote "*You can only be new once*" now attributed to **NPR's *Fresh Air*, 2008** (was floating on "he has said").
+- The CBS Pollock "five minutes" line: verification surfaced a real **misattribution** — the draft presented it as Martin's own experience, but the CBS *Sunday Morning* transcript (Rita Braver, Dec 5, 2010) shows Martin recounting a **collector friend's** story and deflecting ("it comes and it goes") when asked if it was his. I reframed the paragraph to match the source and added outlet+date. The Five insight (pursuit > possession) survives, now honestly grounded.
+
+**TO REACH B+ #4 (multi-causal thesis)**
+- Added a non-Glenn causal thread to the diagnosis: the Investigator temperament reads as native and predates the father wound, so the thesis no longer routes entirely to Glenn. Reinforces the Type 5 read without re-listing evidence already on the page.
+
+### Rejected
+- **TO REACH B+ #3 (vary the cold-open furniture):** the grader itself notes "no Originality cap" from the sameness and calls the arena scene strong; the *Born Standing Up* epigraph is load-bearing (recalled in the panic beat and the close). Rewriting a working, Hook-graded opening is a developmental change outside a targeted pass and risks regressing Hook for no scored gain.
+
+**Lint:** clean (0 fail, 0 warn). I left a `REVISION PASS NOTES` block at the bottom and did **not** touch `content_quality`, `lastmod`, or the ledgers beyond the fingerprint update. The pipeline will now strip the old grade and re-grade — I did not grade it myself.
+
+Sources used for verification:
+- [NPR *Fresh Air* — Steve Martin on *Born Standing Up* (2008)](https://www.npr.org/transcripts/95973456)
+- [CBS News — Steve Martin on objects of beauty (Dec 5, 2010)](https://www.cbsnews.com/news/steve-martin-on-objects-of-beauty/)

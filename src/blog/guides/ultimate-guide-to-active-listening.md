@@ -430,4 +430,3 @@ The conversation starts now. More important, the listening does.
 ---
 
 **Ready to go deeper?** Discover your complete personality profile and communication style with our [comprehensive Enneagram guide](/enneagram-corner).
-

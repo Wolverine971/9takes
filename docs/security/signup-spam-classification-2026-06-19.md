@@ -1,4 +1,5 @@
 <!-- docs/security/signup-spam-classification-2026-06-19.md -->
+
 # Newsletter Signup Spam Classification - 2026-06-19
 
 Scope: `signups.created_at >= 2026-06-14`.

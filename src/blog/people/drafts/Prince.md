@@ -6,7 +6,7 @@ persona_title: The Purple Individualist
 author: DJ Wayne
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/prince'
-lastmod: '2026-07-01'
+lastmod: '2026-07-03'
 changefreq: monthly
 priority: '0.6'
 published: true
@@ -187,6 +187,8 @@ The "SLAVE" scrawled on his cheek is the part people found hardest to forgive. A
 The fear underneath it was real. A name is usually a label your parents hand you and you carry it without thinking. For a [Type 4](/enneagram-corner/enneagram-type-4), the individualist of the Enneagram, identity is the one thing you build yourself, from scratch, because you never felt like you belonged to the ordinary world in the first place. So when Prince learned that a corporation legally owned the word that meant "him," it read to him like someone else holding the pen on his own self.
 
 He was defending the one thing a Type 4 believes is truly his to author.
+
+The family resemblance is less genre than self-authorship: [Bob Dylan](/personality-analysis/bob-dylan) kept changing masks, [Elton John](/personality-analysis/elton-john) built a new name into a shelter, [Lady Gaga](/personality-analysis/lady-gaga) made the persona part of the body, and [Lana Del Rey](/personality-analysis/lana-del-rey) turned longing into mythology.
 
 In 2014, twenty-one years later, Prince quietly re-signed with Warner Bros. The deal gave him ownership of his master recordings at last. He had outlasted them. The line he gave Rolling Stone about masters owning you was not a slogan. It was the whole war stated in one breath.
 

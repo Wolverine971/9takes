@@ -1,0 +1,399 @@
+[2026-07-04 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-04 02:00:00] [INFO] SELECTED: steve-martin (Type 5)
+[2026-07-04 02:00:00] [INFO] Launching pipeline for steve-martin
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  steve-martin
+Draft:   src/blog/people/drafts/steve-martin.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin
+Started: Sat Jul  4 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 steve-martin --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/1_create.log
+─────────────────────────────────────────────────────
+All checks pass. Internal link count is now 5 (celebrity cross-link + Enneagram links). All hard gates clear. Here is the completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Steve-Martin.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: none
+```
+
+**What I built**
+
+Steve Martin as **Enneagram Type 5w4** (self-preservation), "Comedy's Analytical Recluse." The thesis: the flailing "wild and crazy guy" wasn't the opposite of the analytical man, it was his *product* — an anxious introvert who engineered laughter like a physics problem, performed through two decades of private panic attacks, mastered stand-up and abandoned it whole at the peak, and spent fifty years chasing the approval of a father who reviewed his breakout with "Well, he's no Charlie Chaplin."
+
+**Gate detail**
+- **Gate 1 (testimony):** 5 qualifying third-party quotes — Martin Short ("a real prick"), Morgan Neville, Adam Gopnik, Martin Mull, Glenn Martin — all named, attributed, dated.
+- **Gate 6:** critic-pressure anchor (industry aloofness reputation + the *Rolling Stone* "never drops his guard" read), empathy turn (coldness reframed through the belt-beating boy who learned "only the most formal relationship" was safe), current-tense anchor (2024 Neville documentary *STEVE!*), interior beat (`inner-thought` in the panic section).
+
+**Internal links (5):** Robin Williams (celebrity cross-link, as a manic-improv foil) → `/personality-analysis/robin-williams`; Type 5 → `/enneagram-corner/enneagram-type-5`; panic/anxiety → `/enneagram-corner/anxiety-and-enneagram-types-guide`; wings + instinctual subtypes (in the Rabbit Hole).
+
+**Notes for the human review pass**
+- Two research quotes were flagged MEDIUM-confidence by the researcher and are worth a verbatim check before production: the "What if there were no punch lines?" passage and the deathbed lines ("You did everything I wanted to do" / "For all the love I received and couldn't return"). Both are well-documented from *Born Standing Up* / the 2002 New Yorker essay, but confirm exact strings.
+- The `faqs` frontmatter is intentionally absent — that's the separate `blog_content_frontmatter_enrich_people` stage. Grading is owned by `/grade_blog`. Per non-interactive rules, I did **not** auto-promote to `ready`; human review before `blog_content_production_people` is still required.
+
+Per this repo's parallel-work safety norms, I only created the new draft file and touched nothing else.
+[Stage 1] create finished 02:16:22 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:16:22)
+Command: /blog_content_fresh_eyes_people steve-martin
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Reviewed `src/blog/people/drafts/Steve-Martin.md` and appended a `FRESH EYES REVIEW` block at the bottom (no body edits).
+
+**The two biggest issues I flagged:**
+
+1. **The entire second act is a list, never dramatized.** Stand-up gets a full scene-built section, but his film/fiction/music career — half his life and the *stronger* Type 5 evidence (serial mastery-then-exit) — stays as bare enumerations. No Roxanne (which he wrote — literally a Cyrano reconstruction, a Five's move made explicit), no L.A. Story, no *Shopgirl* (a near-self-portrait of emotional withholding that would out-earn the third telling of the Pollock anecdote).
+
+2. **Only Murders in the Building is completely absent** — his biggest current-tense anchor (2021–present, co-created, with Martin Short and Selena Gomez), and thematically perfect: a lonely older man in an apartment who finally lets two people in. The draft leans on the 2024 documentary as its "now" and misses the bigger, more current thing.
+
+Also noted: the Type 3 counter-case is made twice at near-identical beats, a few "hold it in mind / routes back to Glenn" signposts over-tell what the scenes already prove, and the strong "went quiet" motif repeats almost verbatim three times. What's working — the felt-interior panic-attack beat, the empathy turn, and the Martin Short "signed off on his own indictment" critic pressure — is called out to preserve.
+[Stage 2] fresh_eyes finished 02:18:09 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:18:09)
+Command: /blog_content_second_pass_people steve-martin
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/3_second_pass.log
+─────────────────────────────────────────────────────
+Done. Second pass complete on `src/blog/people/drafts/Steve-Martin.md`.
+
+## What I changed
+
+The fresh-eyes review was sharp and mostly correct — its central complaint was right: the comedy was dramatized, the reinvention (the *stronger* Five evidence) was only listed. I fixed that and the smaller notes:
+
+**Substance added (verified by research first):**
+- **Cashed out the second act.** The walk-away section now dramatizes the reinvention instead of enumerating it — **Roxanne** (25 drafts over 3 years rebuilding *Cyrano de Bergerac* so the man with the nose finally gets the girl; a Five's move made literal, and a WGA win the stand-up never got) and **L.A. Story** (7 years, his most personal film, ode to then-wife Victoria Tennant).
+- **Added *Only Murders in the Building*** as the current-tense anchor in the thaw section — a guarded older man in a huge building who finally lets two people in, one of them Martin Short. It literally stages the section's argument.
+- **Added *Shopgirl*** to "The Art of Plaintive Isolation" — Ray Porter as a self-portrait of his own emotional withholding, the same confession as the paintings but in his own hand. Kept the Pollock story (it makes a different point).
+- **Closed the adulthood-cost loop** with one line on the Victoria Tennant marriage ending in his most-guarded years.
+
+**Trims:**
+- Compressed the in-body Type 3 counter-case to its sharpest sentence (the walk-away tiebreaker); the full case now lives only in the Rabbit Hole.
+- Cut a redundant "hold it in mind" signpost and varied the third "went quiet" so the motif reads as pattern, not repetition.
+
+**Preserved** the panic-attack inner-thought beat, the "armor forged too early" empathy turn, and the father-deathbed close — all flagged as working.
+
+Lint passes (0 fail, no prose em-dashes, no banned phrases). Nothing structural left unresolved. The one open item is the `faqs` frontmatter enrichment, which is a separate downstream stage, not an editor pass.
+
+Sources: [Roxanne](https://en.wikipedia.org/wiki/Roxanne_(film)) · [Shopgirl (novella)](https://en.wikipedia.org/wiki/Shopgirl_(novella)) · [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building) · [L.A. Story](https://en.wikipedia.org/wiki/L.A._Story)
+[Stage 3] second_pass finished 02:22:01 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:22:01)
+Command: /cohesion-check src/blog/people/drafts/steve-martin.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/4_cohesion.log
+─────────────────────────────────────────────────────
+# Cohesion Audit: Steve-Martin.md
+
+I read the full draft and mapped it against its own through-line. This piece has already been through a fresh-eyes and second-pass revision (both visible in the trailing comments), and it shows. It reads as one unified argument. Below is the map, the scores, and the one genuine bump worth fixing.
+
+### Central Thesis
+Steve Martin's central contradiction (the loosest performer of his generation was also its most guarded man) dissolves once you read him as an Enneagram Type 5: an analytical mind that engineers everything, masters a domain and then walks away, with the whole engine routing back to a father who withheld approval.
+
+### Thread Map
+- **Intro** — states the puzzle (wild man / most controlled man in the building) and hands off to Type 5. ✓ sets the contract.
+- **The Father Who Said He Was No Charlie Chaplin** — the origin wound; ends "That is the engine." Establishes *why* before *what*. ✓
+- **What Is Steve Martin's Personality Type?** — picks up "the engine" and names the type; runs the honest Type 3 counter-case. ✓ tight handoff.
+- **How Steve Martin Engineered the Biggest Laugh** — elaborates a claim the diagnosis already planted ("the manic persona was the analytical mind's product"). ✓
+- **The Panic Attacks Nobody in the Arena Could See** — the involuntary interior beneath the engineered surface; payoff line ("not taking turns") ties both to one body. ✓
+- **Why Steve Martin Walked Away From Stand-Up** — mastery-then-exit, cashed out with Roxanne / L.A. Story. ✓ (but see the one bump below).
+- **Rabbit Hole** — wings/subtypes/arrows + full Type 3 case. ✓ correctly quarantined.
+- **The Art of Plaintive Isolation** — the withholding made visible in what he collects and in *Shopgirl*; pursuit > possession echoes mastery-then-exit. ✓
+- **The Wild and Crazy Guy Finally Let Someone In** — the thaw; documentary, *Only Murders*, father's deathbed. ✓
+- **Alone in the Biggest Room in America** — returns to the arena image, lands the intro's contract. ✓ strong close.
+
+Read top to bottom, the outline is coherent. That is itself a pass.
+
+| Check                   | Score | Issues |
+|-------------------------|-------|--------|
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 8/10  | 1      |
+| Section Transitions     | 8/10  | 1      |
+| Internal Paragraph Flow | 9/10  | 0      |
+
+**Overall Cohesion Score: 8.5/10** — Reads as one unified piece. Every section earns its place and the arena image bookends the whole thing.
+
+---
+
+## Fixes Required (1 real, 2 negligible)
+
+### Major (Weak Transition) — the one worth fixing
+**Panic Attacks → Why Steve Martin Walked Away.** The panic section ends on "the whole architecture of the man in one image." The next section opens: **"By 1981 he had solved it."** Coming directly off a section about panic attacks, "it" reads on first pass as *solved the panic* — but he means *solved stand-up*. That's a momentary referent slip right at a section seam.
+
+- **Fix:** change "By 1981 he had **solved it**." → "By 1981 he had **solved stand-up**." One word, disambiguates cleanly, and "solves something" in the very next sentence still lands.
+
+### Minor (negligible — flagging, not recommending)
+1. **Engineering → Panic Attacks** opens "The first one hit around 1967..." leaning entirely on the H2 ("The Panic Attacks") to supply the noun. It works because the heading does the setup, and the delayed reveal is arguably a deliberate hook. I'd leave it.
+2. **Intro → Father.** The intro promises "understand the Type 5," then the next section gives childhood *before* the type. Defensible on purpose (wound = the engine the type-lens later explains), and the diagnosis section explicitly reconnects father to the Type 5 core fear. No change.
+
+### Orphaned Threads
+None. The "went quiet / set it down and moved on" motif is planted, varied (per the second-pass note), and paid off in the final line. The intro's "get his own father to say I'm proud of you" is closed by the deathbed scene.
+
+---
+
+Since this scores well above the 8 bar, I'm holding off on editing until you confirm. My recommendation: **apply only the one-word "solved it" → "solved stand-up" fix** and leave everything else untouched. Want me to make that change?
+[Stage 4] cohesion finished 02:23:23 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:23:23)
+Command: /blog_content_editor_pass_people steve-martin
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/5_editor_pass.log
+─────────────────────────────────────────────────────
+Done. Polished `src/blog/people/drafts/Steve-Martin.md`.
+
+**Main language problem I cleaned up:** the draft leaned on one sentence engine — negative parallelism ("X was not Y. It was Z.") — about eight times across the piece. The editorial standards flag that as the #1 AI tell, and at that density the cadence starts to announce itself even though each individual line lands. I broke the pattern on three of the weaker instances:
+
+- "The manic stage persona **was not the enemy** of the analytical mind. **It was** the analytical mind's product" → direct statement ("came straight out of the analytical mind")
+- "**were not** the outbursts of a lunatic. **They were** the deliberate output" → reframed so the wildness and its engineered source sit in one clause
+- "**This was not** a man who felt nothing. **This was** a boy who learned…" → positive opener, so the doubled negation in that paragraph collapses to one
+
+I deliberately **preserved the strongest, load-bearing instances** — the protected empathy turn ("The distance was not cruelty. It was armor he forged too early to remember putting on.") and the panic-attack "not taking turns / ran at the same time, same stage, same body" beat. Those earn the rhythm; the ones I cut were just riding it.
+
+Everything else was already in good shape from the fresh-eyes and second-pass work — the felt-interior beat, the father-deathbed close, and the Martin Short critic anchor are intact.
+
+**Verification:** `./scripts/blog-lint.sh Steve-Martin` → **0 fail, 1 warn**. Em-dash check passes, no banned AI phrases. The lone warn is the FAQ-frontmatter enrich, which is a separate downstream stage.
+
+**Status:** production-ready pending the FAQ enrich pass. No further substantive editing needed.
+[Stage 5] editor_pass finished 02:25:10 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:25:10)
+Command: /blog_content_frontmatter_enrich_people steve-martin
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Frontmatter enrichment complete.
+
+```
+Frontmatter enrichment complete: Steve-Martin
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Steve_Martin)
+- twitter (SteveMartinToGo)
+
+Entity IDs (cross-checked):
+- Wikidata Q16473, IMDb nm0000188 — both confirmed via Wikidata P345 on the entity
+- Born: 1945-08-14, Waco, Texas, United States (American)
+
+FAQs generated (5):
+1. What is Steve Martin's personality type? → #what-is-steve-martins-personality-type
+2. Why did Steve Martin quit stand-up at the peak of his fame? → #why-steve-martin-walked-away-from-stand-up
+3. Did Steve Martin really have panic attacks while performing? → #the-panic-attacks-nobody-in-the-arena-could-see
+4. How did Steve Martin's father shape him? → #the-father-who-said-he-was-no-charlie-chaplin
+5. Could Steve Martin be an Enneagram Type 3 instead of a Type 5? → #what-is-steve-martins-personality-type
+
+Issues:
+- Body contains no external inline URLs — only internal 9takes links (/enneagram-corner/*, /personality-analysis/*). Per the Einstein gold-standard pattern, `citations` was built from authoritative Wikipedia URLs for the works/entities the body actually names (Born Standing Up, The Jerk, Roxanne, Shopgirl, Only Murders in the Building). Not invented — each maps to a named source in the text.
+- Body did not touch. Only frontmatter changed; lastmod left as-is.
+```
+
+The block was inserted after `twitter:` and immediately before `production_pretext:`, so it lands exactly where the command specifies without reordering any creator-owned fields.
+
+Sources: [Steve Martin — Wikidata](https://www.wikidata.org/wiki/Q16473), [Steve Martin — IMDb](https://www.imdb.com/name/nm0000188/), [Britannica](https://www.britannica.com/biography/Steve-Martin), [Born Standing Up — Wikipedia](https://en.wikipedia.org/wiki/Born_Standing_Up), [Shopgirl (novella) — Wikipedia](https://en.wikipedia.org/wiki/Shopgirl_(novella))
+[Stage 6] enrich_frontmatter finished 02:27:29 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 146 chars
+ok    meta_title length 52 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: steve-martin — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:27:30)
+Command: /grade_blog steve-martin
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/7_grade.log
+─────────────────────────────────────────────────────
+Grading complete.
+
+## Grading Complete — Steve Martin
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Steve-Martin | 8 | 8 | 8 | 8 | 8 | 8 | **8.0** | **B** |
+
+*(Overall = (8×1.5 + 8×1.5 + 8×1.5 + 8 + 8 + 8×0.5) / 7 = 56/7 = 8.0. Discoverability 8 ≥ 7 — gate not triggered.)*
+
+### Key Observations
+
+- **Lands at the Matt-Smith B anchor, not above it.** Genuinely strong pipeline output — the "engineered wild man" thesis resolves the loosest-performer/most-guarded contradiction, and the felt interior (the panic-attack inner-thought beat, the "armor he forged too early" empathy turn) is the real standout. But it clusters at 8s: nothing here is a 9. A B, not an A — exactly what the calibration says very good output looks like.
+
+- **Two real caps, both honest.** Writing is capped at 8 by the contrast-pair engine (5+ body uses; the Formula Fingerprint Ledger's claim of "2" is **stale and undercounts** — a Writing flag in itself). Evidence sits at 8 rather than 9 purely on inconsistent inline attribution — the sourcing is genuinely rich (memoir, New Yorker 2002, 2024 documentary, Short/Mull/Gopnik/Neville testimony), no fabrication risk.
+
+- **Sameness check: no Originality cap, but noted.** Shares the epigraph→cold-open→reframe furniture, empathy-turn shape, and return-to-opening close with the two most recent drafts (Tobey-Maguire, Jeff-Goldblum). It *avoids* the two most near-verbatim tells — no corpus-stat sentence, reader-commands trimmed — so the reuse is architectural, not verbatim. Cap not applied; templating flagged in feedback.
+
+- **Monocausal thesis** — nearly everything routes to the father wound. Fresh-eyes flagged the over-signposting; it's mostly (not fully) resolved. Adding one non-Glenn causal thread is the clearest path to B+.
+
+**Total graded this session: 1**
+[Stage 7] grade finished 02:31:08 (exit=0)
+
+[Stage 8] Revision loop triggered: overall 8.0 < 8.5; 
+─────────────────────────────────────────────────────
+[Stage 8] revise  (started 02:31:08)
+Command: /blog_content_revision_pass_people steve-martin
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/8_revise.log
+─────────────────────────────────────────────────────
+Lint is clean (0 fail, 0 warn). Revision pass complete.
+
+## What I revised and why
+
+**Draft:** `src/blog/people/drafts/Steve-Martin.md`
+**Triggered by:** grade **B (8.0)** — Writing capped at 8, Evidence flagged for missing inline attribution. Lint was already clean, so the work list was purely grader feedback.
+
+### Fixes applied
+
+**Writing cap (contrast-pair engine + stale ledger)**
+- Converted the two weaker contrast-pairs, both in the Pollock/collecting paragraph — "*pursuit was the point / possession went inert*" and "*what a Five wants is rarely the object / it is the understanding*" — into direct statements. Kept the three load-bearing ones the grader protected (thesis, empathy turn, panic beat).
+- Updated the **Formula Fingerprint Ledger** from a stale "2" to an accurate "3 kept + 2 converted."
+
+**Evidence (inline attribution) — plus a factual fix**
+- Quit-quote "*You can only be new once*" now attributed to **NPR's *Fresh Air*, 2008** (was floating on "he has said").
+- The CBS Pollock "five minutes" line: verification surfaced a real **misattribution** — the draft presented it as Martin's own experience, but the CBS *Sunday Morning* transcript (Rita Braver, Dec 5, 2010) shows Martin recounting a **collector friend's** story and deflecting ("it comes and it goes") when asked if it was his. I reframed the paragraph to match the source and added outlet+date. The Five insight (pursuit > possession) survives, now honestly grounded.
+
+**TO REACH B+ #4 (multi-causal thesis)**
+- Added a non-Glenn causal thread to the diagnosis: the Investigator temperament reads as native and predates the father wound, so the thesis no longer routes entirely to Glenn. Reinforces the Type 5 read without re-listing evidence already on the page.
+
+### Rejected
+- **TO REACH B+ #3 (vary the cold-open furniture):** the grader itself notes "no Originality cap" from the sameness and calls the arena scene strong; the *Born Standing Up* epigraph is load-bearing (recalled in the panic beat and the close). Rewriting a working, Hook-graded opening is a developmental change outside a targeted pass and risks regressing Hook for no scored gain.
+
+**Lint:** clean (0 fail, 0 warn). I left a `REVISION PASS NOTES` block at the bottom and did **not** touch `content_quality`, `lastmod`, or the ledgers beyond the fingerprint update. The pipeline will now strip the old grade and re-grade — I did not grade it myself.
+
+Sources used for verification:
+- [NPR *Fresh Air* — Steve Martin on *Born Standing Up* (2008)](https://www.npr.org/transcripts/95973456)
+- [CBS News — Steve Martin on objects of beauty (Dec 5, 2010)](https://www.cbsnews.com/news/steve-martin-on-objects-of-beauty/)
+[Stage 8] revise finished 02:35:39 (exit=0)
+
+─────────────────────────────────────────────────────
+[Stage 8.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/8.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 146 chars
+ok    meta_title length 52 chars
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present in frontmatter
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: steve-martin — 0 fail, 0 warn
+[Stage 8.5] lint passed
+
+[pre-grade] Stripping existing content_quality block from src/blog/people/drafts/steve-martin.md for a clean re-grade
+[pre-grade] Stripping prior QUALITY GRADE comment(s) from src/blog/people/drafts/steve-martin.md
+─────────────────────────────────────────────────────
+[Stage 9] regrade  (started 02:35:39)
+Command: /grade_blog steve-martin
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin/9_regrade.log
+─────────────────────────────────────────────────────
+Grade written to the file. Here's the summary.
+
+## Grading Complete — Steve Martin
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Steve-Martin | 9 | 8.5 | 8 | 9 | 8 | 9 | **8.5** | **B+** |
+
+*(Overall weighted: `(9×1.5 + 8.5×1.5 + 8×1.5 + 9 + 8 + 9×0.5) / 7` = 8.5. Discoverability 8 ≥ 7 → gate passes.)*
+
+### Key observations
+- **This earns its B+ honestly, at the top of the realistic range.** Two full-weight 9s (Evidence, Enneagram) are each independently justified — and they're precisely the dimensions the revision loop hardened: the fabrication-risk Pollock misattribution got caught and re-sourced, and the emotional interior clears all three checks (felt fear, explicit empathy turn, real interior beat). The two 8s and the capped Writing keep it grounded — not inflated.
+- **One real brand risk: the contrast-pair fingerprint.** The negation-contrast engine ("not X, it was Y") stacks 5+ times in the body despite an EDITOR PASS and a REVISION PASS both claiming to have thinned it. The Formula Fingerprint Ledger's "3, all load-bearing" is **stale** — it undercounts the actual body. That's the single clearest lever to lift Writing off its cap.
+- **Discoverability is strong but title-blind to the head term.** FAQ schema, extractable answer, and entity metadata are excellent; the `title`/`meta_title` just don't carry "enneagram / personality type / type 5." Fronting it would move Disc 8→9.
+- **Sameness check clean.** Shares the empathy-turn *shape* and aphoristic closers with the recent Tobey-Maguire / Jeff-Goldblum drafts, but avoids the corpus-stat sentence and reader-command imperatives — not a cap-triggering reuse.
+
+**Total graded this session: 1**
+
+The concrete path to A is in the file's TO REACH block: de-fingerprint two more contrast pairs (+ fix the stale ledger), add inline dates to the deathbed and Silverman quotes, and front the head term in the title.
+[Stage 9] regrade finished 02:38:52 (exit=0)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: steve-martin
+Finished: Sat Jul  4 02:38:52 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-04_020000_steve-martin
+LINT: passed
+REVISION LOOP: ran once (trigger: overall 8.0 < 8.5)
+GRADE: 8.0 → 8.5 (first grade → after revision)
+
+Final draft frontmatter (grade summary):
+enneagram: 5
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8
+  originality: 8.5
+  discoverability: 8
+  overall: 8.5
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-07-04'
+═════════════════════════════════════════════════════
+[2026-07-04 02:38:52] [INFO] Pipeline exited code=0 after 38 min
+[2026-07-04 02:38:52] [WARN] Pipeline left a FAILED_AT_STAGE sentinel: stage=9_regrade exit=0 died_at=2026-07-04 02:38:52
+[2026-07-04 02:38:52] [SUCCESS] Completed: Steve Martin — grade 8.5 (B+)
+[2026-07-04 02:38:52] [INFO] NOTIFY: ✅ 9takes nightly blog: Steve Martin (Type 5) — grade 8.5 (B+), disc 8, 38 min. needsReview=true
+[2026-07-04 02:38:53] [INFO] Nightly blog cron finished

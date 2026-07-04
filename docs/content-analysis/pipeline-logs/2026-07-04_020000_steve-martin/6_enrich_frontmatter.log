@@ -1,0 +1,32 @@
+Frontmatter enrichment complete.
+
+```
+Frontmatter enrichment complete: Steve-Martin
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Steve_Martin)
+- twitter (SteveMartinToGo)
+
+Entity IDs (cross-checked):
+- Wikidata Q16473, IMDb nm0000188 — both confirmed via Wikidata P345 on the entity
+- Born: 1945-08-14, Waco, Texas, United States (American)
+
+FAQs generated (5):
+1. What is Steve Martin's personality type? → #what-is-steve-martins-personality-type
+2. Why did Steve Martin quit stand-up at the peak of his fame? → #why-steve-martin-walked-away-from-stand-up
+3. Did Steve Martin really have panic attacks while performing? → #the-panic-attacks-nobody-in-the-arena-could-see
+4. How did Steve Martin's father shape him? → #the-father-who-said-he-was-no-charlie-chaplin
+5. Could Steve Martin be an Enneagram Type 3 instead of a Type 5? → #what-is-steve-martins-personality-type
+
+Issues:
+- Body contains no external inline URLs — only internal 9takes links (/enneagram-corner/*, /personality-analysis/*). Per the Einstein gold-standard pattern, `citations` was built from authoritative Wikipedia URLs for the works/entities the body actually names (Born Standing Up, The Jerk, Roxanne, Shopgirl, Only Murders in the Building). Not invented — each maps to a named source in the text.
+- Body did not touch. Only frontmatter changed; lastmod left as-is.
+```
+
+The block was inserted after `twitter:` and immediately before `production_pretext:`, so it lands exactly where the command specifies without reordering any creator-owned fields.
+
+Sources: [Steve Martin — Wikidata](https://www.wikidata.org/wiki/Q16473), [Steve Martin — IMDb](https://www.imdb.com/name/nm0000188/), [Britannica](https://www.britannica.com/biography/Steve-Martin), [Born Standing Up — Wikipedia](https://en.wikipedia.org/wiki/Born_Standing_Up), [Shopgirl (novella) — Wikipedia](https://en.wikipedia.org/wiki/Shopgirl_(novella))

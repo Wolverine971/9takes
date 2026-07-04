@@ -6,7 +6,7 @@ description: 'Leonardo da Vinci understood more than anyone alive. So why did he
 author: 'DJ Wayne'
 date: '2026-07-01'
 loc: 'https://9takes.com/personality-analysis/leonardo-da-vinci'
-lastmod: '2026-07-01'
+lastmod: '2026-07-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -108,6 +108,8 @@ Fifteen paintings in sixty-seven years. Treatises planned but never published. F
 
 The mind that could do everything could not stop long enough to complete anything.
 
+The modern heirs split the pattern apart: [Nikola Tesla](/personality-analysis/nikola-tesla) shares the private visionary-machine mind, [Bill Gates](/personality-analysis/bill-gates) the systems appetite, and [Elon Musk](/personality-analysis/elon-musk) the need to drag impossible engineering into public view. Leonardo kept all three urges inside one unfinished life.
+
 <details>
 <summary class="accordion">TL;DR: Why Leonardo da Vinci is an Enneagram Type 5</summary>
 <div class="panel">
@@ -197,6 +199,8 @@ Leonardo knew exactly what he was doing. Milan was at war. The Duke needed engin
 But there's something deeper happening in that letter. Leonardo wasn't lying. He genuinely believed he could build these things. He had designed them in his notebooks. Bridges. Tanks. Machine guns. None of them had been built. None of them would be built in his lifetime. Several were centuries ahead of their time.
 
 For Leonardo, the understanding _was_ the product. Whether the bridge ever got built was almost beside the point. He understood bridges more deeply than anyone alive, and that was enough for him, even if it wasn't enough for the Duke. The patron wanted a weapon. Leonardo wanted to know how force travels through a span of timber. These are not the same hunger, and the gap between them is the story of his whole life.
+
+That private-as-product logic is why he also belongs beside [Friedrich Nietzsche](/personality-analysis/friedrich-nietzsche): both men left later generations with a mythology built from work they never fully made usable while they were alive.
 
 The letter worked. Ludovico brought Leonardo to Milan. He would stay for seventeen years.
 

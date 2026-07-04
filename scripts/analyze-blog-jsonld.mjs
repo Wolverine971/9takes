@@ -74,23 +74,40 @@ for (const r of rows) {
 	for (const t of r.types) typeTally[t] = (typeTally[t] || 0) + 1;
 }
 
-console.log(`\n=== Blog JSON-LD analysis: ${rows.length} ld+json blocks across ${files.length} files ===`);
-console.log(`In <svelte:head>: ${rows.filter((r) => r.inHead).length} | in body: ${rows.filter((r) => !r.inHead).length}`);
+console.log(
+	`\n=== Blog JSON-LD analysis: ${rows.length} ld+json blocks across ${files.length} files ===`
+);
+console.log(
+	`In <svelte:head>: ${rows.filter((r) => r.inHead).length} | in body: ${rows.filter((r) => !r.inHead).length}`
+);
 console.log(`Invalid JSON (cannot auto-edit safely): ${invalidCount}`);
 console.log(`Blocks with duplicate BlogPosting/Article: ${dupCount}`);
 console.log(`Blocks containing a unique FAQPage (must preserve): ${hasFaq}`);
 console.log(`\n@type tally:`);
-for (const [t, n] of Object.entries(typeTally).sort((a, b) => b[1] - a[1])) console.log(`  ${n.toString().padStart(3)}  ${t}`);
+for (const [t, n] of Object.entries(typeTally).sort((a, b) => b[1] - a[1]))
+	console.log(`  ${n.toString().padStart(3)}  ${t}`);
 
 console.log(`\n=== Invalid-JSON blocks (need manual handling) ===`);
 const bad = rows.filter((r) => !r.valid);
 if (bad.length === 0) console.log('  (none — all blocks parse cleanly)');
 else for (const r of bad) console.log(`  ${r.file}`);
 
-console.log(`\n=== Blocks that are BlogPosting/Article ONLY (no FAQPage to preserve → whole script can be removed) ===`);
+console.log(
+	`\n=== Blocks that are BlogPosting/Article ONLY (no FAQPage to preserve → whole script can be removed) ===`
+);
 const dupOnly = rows.filter(
-	(r) => r.valid && r.types.length > 0 && r.types.every((t) => t.split('+').some((x) => dupTypes.has(x)) || t === 'Person' || t === 'Organization' || t === 'ImageObject' || t === 'WebPage')
-		&& !r.types.some((t) => t.includes('FAQPage'))
+	(r) =>
+		r.valid &&
+		r.types.length > 0 &&
+		r.types.every(
+			(t) =>
+				t.split('+').some((x) => dupTypes.has(x)) ||
+				t === 'Person' ||
+				t === 'Organization' ||
+				t === 'ImageObject' ||
+				t === 'WebPage'
+		) &&
+		!r.types.some((t) => t.includes('FAQPage'))
 );
 console.log(`  count: ${dupOnly.length}`);
 for (const r of dupOnly.slice(0, 50)) console.log(`  ${r.file}  [${r.types.join(', ')}]`);

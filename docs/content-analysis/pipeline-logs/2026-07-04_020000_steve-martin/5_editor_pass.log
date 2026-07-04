@@ -1,0 +1,15 @@
+Done. Polished `src/blog/people/drafts/Steve-Martin.md`.
+
+**Main language problem I cleaned up:** the draft leaned on one sentence engine — negative parallelism ("X was not Y. It was Z.") — about eight times across the piece. The editorial standards flag that as the #1 AI tell, and at that density the cadence starts to announce itself even though each individual line lands. I broke the pattern on three of the weaker instances:
+
+- "The manic stage persona **was not the enemy** of the analytical mind. **It was** the analytical mind's product" → direct statement ("came straight out of the analytical mind")
+- "**were not** the outbursts of a lunatic. **They were** the deliberate output" → reframed so the wildness and its engineered source sit in one clause
+- "**This was not** a man who felt nothing. **This was** a boy who learned…" → positive opener, so the doubled negation in that paragraph collapses to one
+
+I deliberately **preserved the strongest, load-bearing instances** — the protected empathy turn ("The distance was not cruelty. It was armor he forged too early to remember putting on.") and the panic-attack "not taking turns / ran at the same time, same stage, same body" beat. Those earn the rhythm; the ones I cut were just riding it.
+
+Everything else was already in good shape from the fresh-eyes and second-pass work — the felt-interior beat, the father-deathbed close, and the Martin Short critic anchor are intact.
+
+**Verification:** `./scripts/blog-lint.sh Steve-Martin` → **0 fail, 1 warn**. Em-dash check passes, no banned AI phrases. The lone warn is the FAQ-frontmatter enrich, which is a separate downstream stage.
+
+**Status:** production-ready pending the FAQ enrich pass. No further substantive editing needed.

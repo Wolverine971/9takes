@@ -61,7 +61,7 @@ Reusable templates to systematize content creation and optimization workflows.
 | ------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Writing system hub        | [`/docs/writing-system/README.md`](../writing-system/README.md)                                             |
 | Content creation workflow | [`/docs/writing-system/01-content-creation-workflow.md`](../writing-system/01-content-creation-workflow.md) |
-| Archived Dec 2025 plan    | [`/docs/archives/30-DAY-ACTION-PLAN-DEC-2025.md`](../archives/30-DAY-ACTION-PLAN-DEC-2025.md)                 |
+| Archived Dec 2025 plan    | [`/docs/archives/30-DAY-ACTION-PLAN-DEC-2025.md`](../archives/30-DAY-ACTION-PLAN-DEC-2025.md)               |
 | Strategy overview         | [`/docs/START-HERE.md`](../START-HERE.md)                                                                   |
 
 ---

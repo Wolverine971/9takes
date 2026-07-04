@@ -91,7 +91,7 @@ Fragments are DJ's words, lightly trimmed. Tags = destination(s). `[needs-ruling
 28. "9takes will never shove a type down your throat. Self-discovery or nothing." `[vision]` `[about-page]` `[blog-purpose]`
 29. "I want 'get everyone's take on it' to mean 'put it on 9takes.'" `[vision]` `[bio]`
 30. "Learning the Enneagram made me extremely curious and a really good listener. I'm picking up on things as people talk." `[book-session]`
-30a. "No ads. And we will never sell user data. This is deeply personal data, and I won't let it be used for nefarious purposes." `[vision]` `[about-page]` (added 2026-06-11 follow-up)
+    30a. "No ads. And we will never sell user data. This is deeply personal data, and I won't let it be used for nefarious purposes." `[vision]` `[about-page]` (added 2026-06-11 follow-up)
 
 ### Sensitive (rulings from DJ, 2026-06-11)
 

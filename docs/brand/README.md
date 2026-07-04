@@ -18,14 +18,14 @@ _Last Updated: 2025-12-04_
 
 ## Files in This Folder
 
-| File                                                                                   | Purpose                                                 | When to Use                          |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------ |
-| [`brand-positioning.md`](./brand-positioning.md)                                       | **Strategic foundation** - purpose, values, positioning | Strategy, new initiatives, alignment |
-| [`brand-style-guide-v2.md`](./brand-style-guide-v2.md)                                 | Complete brand voice, tone, style                       | Writing any content                  |
-| [`BRAND-KIT.md`](./BRAND-KIT.md)                                                       | Complete asset library (colors, fonts, logos)           | Canva, design tools, implementation  |
+| File                                                                                           | Purpose                                                 | When to Use                          |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------ |
+| [`brand-positioning.md`](./brand-positioning.md)                                               | **Strategic foundation** - purpose, values, positioning | Strategy, new initiatives, alignment |
+| [`brand-style-guide-v2.md`](./brand-style-guide-v2.md)                                         | Complete brand voice, tone, style                       | Writing any content                  |
+| [`BRAND-KIT.md`](./BRAND-KIT.md)                                                               | Complete asset library (colors, fonts, logos)           | Canva, design tools, implementation  |
 | [`solo-leveling-visual-guide-unified.md`](../design/solo-leveling-visual-guide-unified.md)     | Visual identity, UI components                          | Design work, UI implementation       |
 | [`solo-leveling-9takes-brand-direction.md`](../design/solo-leveling-9takes-brand-direction.md) | Brand direction & gamification decisions                | Strategy, planning, iteration        |
-| [`dj-communication-guide.md`](./dj-communication-guide.md)                             | Personal communication preferences                      | AI assistants working with DJ        |
+| [`dj-communication-guide.md`](./dj-communication-guide.md)                                     | Personal communication preferences                      | AI assistants working with DJ        |
 
 ---
 

@@ -1,3 +1,5 @@
+<!-- .claude/commands/instagram-warmup.md -->
+
 # Instagram Warmup - @9takesdotcom Daily Engagement Sourcing
 
 You are conducting a daily Instagram warmup for **@9takesdotcom**.
@@ -55,12 +57,12 @@ Cross-reference as needed:
 
 ### The shift you must internalize (read before scanning)
 
-The old warmup looked for **Enneagram people** — accounts already in the personality/Enneagram niche. **Stop doing that as the primary move.** The new warmup fishes the **ponds**: people talking about the *ideas* of the Enneagram in pop-psych vernacular — perfectionism, anxiety, people-pleasing, ADHD, avoidant attachment, "main character energy" — who have **never said the word "Enneagram."** They are the strangers we mirror and route back to a personality-analysis post.
+The old warmup looked for **Enneagram people** — accounts already in the personality/Enneagram niche. **Stop doing that as the primary move.** The new warmup fishes the **ponds**: people talking about the _ideas_ of the Enneagram in pop-psych vernacular — perfectionism, anxiety, people-pleasing, ADHD, avoidant attachment, "main character energy" — who have **never said the word "Enneagram."** They are the strangers we mirror and route back to a personality-analysis post.
 
 Three rules carried from the cluster doc:
 
 1. **Lead with their language, not ours.** Validate the pattern first; the Enneagram is the deeper map we offer only after we've been useful.
-2. **Never diagnose a stranger.** Name the *pattern*, never "you're a Type X." (See [feedback: Instagram comment style].)
+2. **Never diagnose a stranger.** Name the _pattern_, never "you're a Type X." (See [feedback: Instagram comment style].)
 3. **The Enneagram is the internal lens, not the public talking point.** (This is why visibility Level 0 is the default in these ponds.)
 
 If an Instagram browser automation skill exists at `/.claude/skills/instagram.skill.md`, read and follow it before interacting with Instagram.
@@ -359,14 +361,14 @@ If a real-time signal comes from an account with an existing profile, load that 
 
 ## Phase 3: Scan the Ponds (pond-first, not account-first)
 
-**This is the revamped core.** Scan by **pond** (vernacular topic clusters), not by "Enneagram accounts." Your scanning map is now `enneagram-engagement-clusters.md`, not the account-tier list. The goal of every scan is to find people talking the *wound vernacular* and the creators whose comment sections those people live in.
+**This is the revamped core.** Scan by **pond** (vernacular topic clusters), not by "Enneagram accounts." Your scanning map is now `enneagram-engagement-clusters.md`, not the account-tier list. The goal of every scan is to find people talking the _wound vernacular_ and the creators whose comment sections those people live in.
 
 Scan in this priority order:
 
 1. **This Week's Pond first** (from Phase 1b). Work the active type's hashtags and the comment sections of the large creators in that type's "creator/community clusters." This is where the week's post will land, so these are the warmest contacts to surface.
 2. **The three evergreen giant ponds** — always worked, every scan, regardless of the active type:
    - **Anxiety / overthinking (Type 6)** — the single largest, safest, highest-volume pond.
-   - **People-pleasing / boundaries / "empath vs narcissist" (Type 2)** — huge; fish the narcissist-*survivor* side, meet them as the over-giver.
+   - **People-pleasing / boundaries / "empath vs narcissist" (Type 2)** — huge; fish the narcissist-_survivor_ side, meet them as the over-giver.
    - **ADHD / dopamine / "can't sit still" (Type 7)** — fun, low-risk, young, very online.
 3. **Back-door cross-type ponds** (each reaches multiple types at once — see the cluster doc's shortcuts):
    - **Attachment-style** accounts (anxious → 2 & 6; avoidant → 5 & 8; disorganized → 4 & 6).
@@ -381,18 +383,18 @@ Scan in this priority order:
 For each pond you work, use the cluster doc's map for that type:
 
 - **Hashtags** — search the type's hashtag set; sort by recent, skim for fresh (<24h) posts with real comment threads.
-- **Big-creator comment sections** — the richest rooms. Open a large therapy/psych/ADHD/attachment creator from that pond's "creator/community clusters," then mine the *commenters* (Engagement Mode `comment-level`) — the strangers in there are the pool, not the creator.
+- **Big-creator comment sections** — the richest rooms. Open a large therapy/psych/ADHD/attachment creator from that pond's "creator/community clusters," then mine the _commenters_ (Engagement Mode `comment-level`) — the strangers in there are the pool, not the creator.
 - **Trending "POV: you're the [pattern]" audios** — fast entry points; log which audios are trending per pond (cluster doc, Open gaps).
 
 ### Pond engagement discipline (carry into the reply angle you write)
 
 - Match the pond's **engagement angle** from the cluster doc (e.g. Type 1: "the standard moved the second you hit it, didn't it?" — offer relief, not optimization).
-- **Visibility Level 0 is the default in ponds.** These strangers have not opted into Enneagram language. Level 1+ only when the post is *already* personality/typology-coded.
+- **Visibility Level 0 is the default in ponds.** These strangers have not opted into Enneagram language. Level 1+ only when the post is _already_ personality/typology-coded.
 - Never reply "that's Enneagram Type X." Validate their words → add one specific pattern insight → leave the door open.
 
 ### Account tiers are now a SECONDARY map (not the primary scan)
 
-`docs/instagram/instagram-engagement-targets.md` is still the **relationship CRM and peer-growth universe** — use it to recognize known accounts, track tiers, and find peers. But it is **no longer the primary scanning map.** You are not "scanning Tier 1 Enneagram accounts" as the main move; you are working ponds and *noticing* when a Tier 1/2 account shows up in one.
+`docs/instagram/instagram-engagement-targets.md` is still the **relationship CRM and peer-growth universe** — use it to recognize known accounts, track tiers, and find peers. But it is **no longer the primary scanning map.** You are not "scanning Tier 1 Enneagram accounts" as the main move; you are working ponds and _noticing_ when a Tier 1/2 account shows up in one.
 
 During peer-growth discovery, look for:
 
@@ -579,10 +581,10 @@ Use this structure:
 
 ## Priority Summary
 
-| #   | Account | Pond / Type        | Topic         | Age | Comments | Mode          | Opp Type                | Level | Score | Profile | Queue  |
-| --- | ------- | ------------------ | ------------- | --- | -------- | ------------- | ----------------------- | ----- | ----- | ------- | ------ |
-| 1   | @handle | people-pleasing/2  | [brief topic] | 2h  | 3        | post          | Relationship/attachment | 0     | 98    | [path]  | Queued |
-| 2   | @handle | anxiety/6          | [brief topic] | 6h  | 312      | comment-level | Community amplification | 1     | 88    | [path]  | Queued |
+| #   | Account | Pond / Type       | Topic         | Age | Comments | Mode          | Opp Type                | Level | Score | Profile | Queue  |
+| --- | ------- | ----------------- | ------------- | --- | -------- | ------------- | ----------------------- | ----- | ----- | ------- | ------ |
+| 1   | @handle | people-pleasing/2 | [brief topic] | 2h  | 3        | post          | Relationship/attachment | 0     | 98    | [path]  | Queued |
+| 2   | @handle | anxiety/6         | [brief topic] | 6h  | 312      | comment-level | Community amplification | 1     | 88    | [path]  | Queued |
 
 ---
 
