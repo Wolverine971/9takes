@@ -82,7 +82,7 @@ Two things people will conflate this with. Both wrong.
 
 **Object Relations ≠ Attachment Theory.** Bowlby and Ainsworth's attachment theory came out of object relations and looked at observable behavior: how does a kid act when the caregiver leaves? That gave us secure / anxious / avoidant / disorganized. Object Relations is the older, more interior cousin: it's about the **internal cast** the child built, not the behavioral output. They overlap. They're not the same lens. (We dig into the behavioral side in [Attachment Styles and Enneagram Types](/enneagram-corner/attachment-styles-and-enneagram-types).)
 
-**Object Relations ≠ Hornevian Groups.** The Enneagram has another set of triads — compliant (1, 2, 6), withdrawn (4, 5, 9), assertive (3, 7, 8) — derived from Karen Horney's social moves. Different model, different groupings, different question. Hornevian asks _how do you move toward people._ Object Relations asks _what early image of a caregiver is running the show._ Don't mix the maps.
+**Object Relations ≠ Hornevian Groups.** The Enneagram has another set of triads — compliant (1, 2, 6), withdrawn (4, 5, 9), assertive (3, 7, 8) — derived from Karen Horney's social moves. Different model, different groupings, different question. [Hornevian asks how you move toward people](/enneagram-corner/enneagram-social-styles). Object Relations asks _what early image of a caregiver is running the show._ Don't mix the maps.
 
 OK. Now the structure.
 

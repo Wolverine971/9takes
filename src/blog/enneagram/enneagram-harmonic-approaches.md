@@ -53,7 +53,7 @@ You have all three in you. But one is your default — the move you make before 
 
 ### Harmonics ≠ Hornevian Groups (clearing up the most common confusion)
 
-People constantly mix this up: the **Hornevian groups** (assertive 3-7-8, compliant 1-2-6, withdrawn 4-5-9) describe how each type _moves toward what they want_. The Harmonics describe how each type _copes when they can't get it_.
+People constantly mix this up: the [Hornevian groups](/enneagram-corner/enneagram-social-styles) (assertive 3-7-8, compliant 1-2-6, withdrawn 4-5-9) describe how each type _moves toward what they want_. The Harmonics describe how each type _copes when they can't get it_.
 
 Same nine numbers, different combinations, completely different question. If a friend keeps slipping into "yes but isn't 3 in the assertive group?" — they're conflating the two frameworks. Hornevian = strategy. Harmonic = stress response.
 

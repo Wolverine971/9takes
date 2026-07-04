@@ -148,11 +148,10 @@
 </svelte:head>
 
 <div class="auth-container" in:fade={{ duration: 300 }}>
-	<h1 class="auth-title" in:fly={{ y: -20, duration: 300, delay: 150 }}>
-		<a href="/login" class="inactive-link">Login</a>
-		/
-		<span class="active-link">Register</span>
-	</h1>
+	<h1 class="auth-title" in:fly={{ y: -20, duration: 300, delay: 150 }}>Register</h1>
+	<p class="auth-switch" in:fly={{ y: -12, duration: 300, delay: 200 }}>
+		Already have an account? <a href="/login">Log in</a>
+	</p>
 	<form
 		action="?/register"
 		method="POST"
@@ -235,27 +234,27 @@
 
 	.auth-title {
 		text-align: center;
-		margin-bottom: 2rem;
+		margin-bottom: 0.5rem;
 		font-size: 1.8rem;
 		font-weight: bold;
 		color: var(--ink-bright);
 	}
 
-	.active-link {
-		color: var(--lamp-glow);
-		border-bottom: 2px solid var(--lamp-glow);
-		padding-bottom: 4px;
-	}
-
-	.inactive-link {
+	.auth-switch {
+		margin: 0 0 2rem;
+		text-align: center;
 		color: var(--ink-mid);
-		text-decoration: none;
-		opacity: 0.7;
-		transition: all 0.3s ease;
+		font-size: 0.95rem;
 
-		&:hover {
-			opacity: 1;
+		a {
 			color: var(--lamp-glow);
+			font-weight: 700;
+			text-decoration: none;
+			transition: color 0.2s ease;
+
+			&:hover {
+				color: var(--lamp-bright);
+			}
 		}
 	}
 

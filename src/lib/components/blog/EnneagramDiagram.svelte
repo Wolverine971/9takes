@@ -620,7 +620,7 @@
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.35rem 0.5rem;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		border: 1px solid transparent;
 		text-decoration: none;
 		transition:

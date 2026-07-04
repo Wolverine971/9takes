@@ -55,6 +55,8 @@ No teleprompter. No editor. No ad breaks every seven minutes. Just two people ta
 
 For the broader landscape of how personality type maps across the entire podcasting ecosystem—including Alex Cooper, Theo Von, Howard Stern, and more—check out [The Podcaster Personality Map](/pop-culture/podcaster-personality-map).
 
+For the comedy-specific branch of that ecosystem, the [Comedy Kings Enneagram analysis](/pop-culture/comedy-kings-enneagram-analysis) looks at why Type 7 and Type 9 comedians took so naturally to long-form podcasting.
+
 ## The Podcast Bro Personality Map
 
 | Podcaster                                                  | Enneagram Type        | Interview Style          | Core Need                        | What Listeners Get       |

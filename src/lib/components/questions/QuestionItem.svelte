@@ -97,7 +97,6 @@
 	:global(.greek-question-card) {
 		@apply relative overflow-hidden;
 		background-color: var(--stone-warm);
-		backdrop-filter: blur(4px);
 		border-left: 3px solid color-mix(in srgb, var(--lamp-glow) 60%, transparent);
 		border-radius: 0.625rem;
 		color: var(--ink-bright);

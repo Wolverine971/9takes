@@ -266,9 +266,8 @@
 		background: linear-gradient(
 			180deg,
 			var(--night-deep) 0%,
-			color-mix(in srgb, var(--night-deep) 95%, transparent) 100%
+			color-mix(in srgb, var(--night-deep) 95%, var(--stone-warm)) 100%
 		);
-		backdrop-filter: blur(12px);
 		border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 		padding: 0.75rem 0;
 		margin-bottom: 1rem;

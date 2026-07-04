@@ -312,7 +312,7 @@ A few corners of podcasting deserve their own map, not an attempt to squeeze the
 - **True crime** — Ashley Flowers (Crime Junkie), Karen Kilgariff and Georgia Hardstark (My Favorite Murder), the team behind Morbid, the anchor archetype of Sarah Koenig on Serial. This is one of the biggest categories in podcasting by total listens, it is overwhelmingly female-hosted, and it runs a completely different interview engine than the shows above. That's most of why the "not enough women at the top of podcasting" observation is partly an artifact of which tier you look at. True crime has the women. The long-form interview tier just doesn't.
 - **News and journalism** — Michael Barbaro's _The Daily_, Ezra Klein, Kara Swisher. Covered in the Type 1 section above, but worth repeating: when the format is structured, the 1s show up. The absence of 1s in the top of the landscape is an absence in one _tier_, not the whole medium.
 - **Ensemble shows** — SmartLess, Pod Save America, Pardon My Take, Conan O'Brien Needs a Friend. Group dynamics are a different beast than solo or duo interviews. Three 7s together produces something different than a 7 next to an 8 or a 5 next to a 6. The chemistry rules shift when you add chairs.
-- **Comedy podcasts as a tier** — Marc Maron's WTF (the mentioned 4 exception), Bill Burr's Monday Morning Podcast, Conan's friendship show. These are neither strict interview shows nor news nor true crime. They're comedian-brained, usually 7-heavy with 4 and 6 accents, and they ride on the host's standup voice rather than a guest pipeline.
+- **Comedy podcasts as a tier** — Marc Maron's WTF (the mentioned 4 exception), Bill Burr's Monday Morning Podcast, Conan's friendship show. These are neither strict interview shows nor news nor true crime. They're comedian-brained, usually 7-heavy with 4 and 6 accents, and they ride on the host's standup voice rather than a guest pipeline. For that branch, see the [Comedy Kings Enneagram analysis](/pop-culture/comedy-kings-enneagram-analysis).
 
 Each of those deserves its own full treatment. What this map covers is the specific tier where personality IS the product—where there's no editorial layer between the host and the audience, and the entire show lives or dies on the host's type.
 
@@ -331,6 +331,8 @@ How a podcaster handles controversy is the clearest window into their type. The 
 #### The 7 Turns the Page
 
 **The Type 7 turns the page.** When the Call Her Daddy split went nuclear in 2020—co-host Sofia Franklyn publicly accused Cooper of betrayal—Cooper took the deal Sofia rejected and never looked back. She reframed the loss as growth, went solo, and sprinted from a Barstool deal to a $60M Spotify deal to a $125M SiriusXM deal. When asked years later if she'd pick up Sofia's call, Cooper said: "I don't think there's anything to say. It's kind of done." A 4 would have written an album about it. A 6 would still be processing it. _A 7 turned the page before the ink was dry._
+
+That same Type 7 crisis pattern shows up again in the [Alex Cooper vs Alix Earle split](/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis), where a media builder's need for forward motion collided with a Type 9 creator's need for relational safety.
 
 #### The 6 Confronts Their Own History
 

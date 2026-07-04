@@ -84,8 +84,9 @@ run_stage() {
   local stage_name="$2"
   local command="$3"
   local log_file="$LOG_DIR/${stage_num}_${stage_name}.log"
-  local started_at
+  local started_at start_epoch
   started_at="$(date +%H:%M:%S)"
+  start_epoch="$(date +%s)"
 
   CURRENT_STAGE="${stage_num}_${stage_name}"
 
@@ -98,10 +99,21 @@ run_stage() {
   claude -p "$command" --dangerously-skip-permissions 2>&1 | tee "$log_file"
   local exit_code="${PIPESTATUS[0]}"
 
-  local finished_at
+  local finished_at dur
   finished_at="$(date +%H:%M:%S)"
-  echo "[Stage $stage_num] $stage_name finished $finished_at (exit=$exit_code)"
+  dur=$(( $(date +%s) - start_epoch ))
+  echo "[Stage $stage_num] $stage_name finished $finished_at (exit=$exit_code, ${dur}s)"
   echo
+
+  # Structured per-stage record: one tab-separated line per stage.
+  printf '%s\t%s\t%s\t%ss\n' "$stage_num" "$stage_name" "$exit_code" "$dur" \
+    >> "$LOG_DIR/stage-summary.tsv"
+  # A stage that errored but did NOT kill the run is a warning, not a crash.
+  if [[ "$exit_code" -ne 0 ]]; then
+    printf 'stage=%s_%s exit=%s dur=%ss at=%s\n' \
+      "$stage_num" "$stage_name" "$exit_code" "$dur" "$(date '+%Y-%m-%d %H:%M:%S')" \
+      >> "$LOG_DIR/STAGE_WARNINGS"
+  fi
 
   # Always continue — user chose run-all-then-report.
   return 0
@@ -261,5 +273,9 @@ if [[ -f "$FULL_DRAFT" ]]; then
   awk '/^---$/{c++; next} c==1' "$FULL_DRAFT" | grep -E "^\s*(hook|enneagram|evidence|writing|originality|discoverability|overall|letter|rubric_version|graded_at):" || \
     echo "  (no content_quality block found — grade stage may have failed)"
 fi
+
+# Clean, full completion — the EXIT trap must NOT write a false FAILED_AT_STAGE.
+# Any death before this line is a real failure and should leave the sentinel.
+PIPELINE_COMPLETED=1
 
 echo "═════════════════════════════════════════════════════"

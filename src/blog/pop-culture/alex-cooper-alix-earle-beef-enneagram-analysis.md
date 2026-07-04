@@ -105,6 +105,8 @@ Both women are telling the truth. And both are leaving out the part that persona
 
 For anyone outside the creator-economy chatter: Alix Earle is the 25-year-old University of Miami alum who became TikTok's defining "it girl" in late 2022, gaining nearly two million followers in a single month off casual-glam "get ready with me" videos. Alex Cooper, 31, co-founded Call Her Daddy with Sofia Franklyn at Barstool Sports in 2018, fought Dave Portnoy for ownership of the show in 2020, signed a $60 million Spotify deal in 2021, then jumped to SiriusXM in 2024 in an arrangement reported as worth up to $125 million. Unwell Network is the podcast company she launched in September 2023 to sign other female creators under the Call Her Daddy umbrella. Hot Mess — Earle's confessional vlogcast, mostly filmed from her bed with friends — was Unwell's first show.
 
+That is why this is more than creator gossip. It sits at the collision point between the [podcaster personality map](/pop-culture/podcaster-personality-map) and the [influencer personality economy](/pop-culture/influencer-enneagram-types-instagram): a Type 7 media builder trying to scale a Type 9 creator whose product was atmospheric intimacy.
+
 ## Two Types Walk Into a Business Deal
 
 Here's what you need to understand before the timeline matters.
@@ -288,6 +290,8 @@ Cooper used the heat the way Sevens always do: she converted it into the next th
 ## The Boss Who Was Also a Friend
 
 This isn't just podcast drama. It's a story about what happens when women build professional relationships that carry the weight of friendship.
+
+The TikTok layer matters too, because the platform turns private ambiguity into audience prosecution. That public-shame machine is the same one driving broader creator pile-ons, explained in [The Anatomy of Public Shame](/pop-culture/psychology-of-public-shame).
 
 Cooper praised Earle like a mentor. Earle positioned herself under Cooper like a protegee. The deal was professional. The dynamic was personal. When the professional terms created friction, neither woman had the language to separate _this deal isn't working_ from _you stopped being in the room with me_. The Seven hears a business issue. The Nine feels the harmony breaking. Both are reading the same situation. Neither is hearing the other.
 

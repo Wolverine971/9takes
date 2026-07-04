@@ -213,6 +213,10 @@ if [[ -f "$draft" ]]; then
     needs_review="true"
     log WARN "Pipeline left a FAILED_AT_STAGE sentinel: $(cat "$latest_log_dir/FAILED_AT_STAGE")"
   fi
+  if [[ -n "$latest_log_dir" && -f "$latest_log_dir/STAGE_WARNINGS" ]]; then
+    needs_review="true"
+    log WARN "Pipeline left STAGE_WARNINGS (a stage errored but the run continued): $(cat "$latest_log_dir/STAGE_WARNINGS")"
+  fi
   queue_update --arg now "$NOW_ISO" --arg grade "${overall:-ungraded}" --arg letter "${letter:-?}" \
     --arg disc "${disc:-?}" --arg dur "~${duration_min} min" --argjson review "$needs_review" \
     '.completed = ([.inProgress + {completedAt: $now, contentGrade: $grade, letter: $letter, discoverability: $disc, duration: $dur, needsReview: $review}] + .completed)

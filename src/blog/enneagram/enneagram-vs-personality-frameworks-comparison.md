@@ -108,6 +108,8 @@ Here's what that looks like in practice:
 
 The Big Five tells you someone is introverted. The Enneagram tells you whether they're introverted because they're **conserving energy to understand the world** (Type 5), **withdrawing to process authentic feelings** (Type 4), or **avoiding conflict to maintain inner peace** (Type 9).
 
+That is the useful way to compare frameworks: each is a map, not the person. If you want the fuller warning against turning personality systems into identity cages, read [You Didn't Find Yourself in the Enneagram. You Found a Map.](/community/personality-frameworks-map-not-territory).
+
 Same behavior. Three completely different motivations. Three completely different approaches if you're a therapist, manager, partner, or friend trying to actually help.
 
 Anthropologist Clifford Geertz called this the difference between "thin description" (recording observable behavior) and "thick description" (capturing the meaning, intention, and context behind it). Most personality frameworks give you thin description. The Enneagram gives you thick description.

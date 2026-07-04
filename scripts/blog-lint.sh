@@ -48,6 +48,13 @@ pass() { echo "ok    $1"; }
 # --- split frontmatter / body ---------------------------------------------
 FM="$(awk '/^---$/{c++; next} c==1' "$FILE")"
 BODY="$(awk '/^---$/{c++; next} c>=2' "$FILE")"
+# HTML-comment-stripped body, for STRUCTURAL checks only. Grade/review comments and
+# the QUALITY GRADE block contain arbitrary prose (CSS class names, TODO/FAQ words,
+# self-slugs) that must not fool presence/count checks. The gate-LEDGER checks below
+# deliberately read raw $FILE because the ledgers ARE comments; the em-dash and
+# banned-phrase checks already use their own stripped BODY_PROSE. Reuses the exact
+# awk transform already proven in production for BODY_PROSE.
+BODY_NOCOMMENT="$(awk 'BEGIN{inc=0} /<!--/{inc=1} inc{if (/-->/) inc=0; next} {print}' <<<"$BODY")"
 
 if [[ -z "$FM" ]]; then
   fail "no YAML frontmatter found"
@@ -91,19 +98,19 @@ if [[ -n "$MTITLE" ]]; then
 fi
 
 # --- required type-section headings ----------------------------------------
-if grep -qiE "^## What is .*personality type\?" <<<"$BODY"; then
+if grep -qiE "^## What is .*personality type\?" <<<"$BODY_NOCOMMENT"; then
   pass "required H2 'What is [Person]'s personality type?' present"
 else
   fail "missing required H2: 'What is [Person]'s personality type?'"
 fi
-if grep -qiE "^### .* is an Enneagram Type [1-9]" <<<"$BODY"; then
+if grep -qiE "^### .* is an Enneagram Type [1-9]" <<<"$BODY_NOCOMMENT"; then
   pass "required H3 '[Person] is an Enneagram Type X' present"
 else
   fail "missing required H3: '[Person] is an Enneagram Type X'"
 fi
 
 # --- rabbit hole (required, exactly one) ------------------------------------
-RH_COUNT=$(grep -c 'enneagram-rabbit-hole' <<<"$BODY" || true)
+RH_COUNT=$(grep -c 'enneagram-rabbit-hole' <<<"$BODY_NOCOMMENT" || true)
 if (( RH_COUNT == 0 )); then
   fail "missing Enneagram Rabbit Hole block (<details class=\"enneagram-rabbit-hole\">)"
 elif (( RH_COUNT > 1 )); then
@@ -113,14 +120,14 @@ else
 fi
 
 # --- TL;DR accordion ---------------------------------------------------------
-if grep -q 'summary class="accordion"' <<<"$BODY"; then
+if grep -q 'summary class="accordion"' <<<"$BODY_NOCOMMENT"; then
   pass "TL;DR accordion present"
 else
   fail "missing TL;DR <details>/<summary class=\"accordion\"> block"
 fi
 
 # --- firstLetter intro -------------------------------------------------------
-if grep -q 'class="firstLetter"' <<<"$BODY"; then
+if grep -q 'class="firstLetter"' <<<"$BODY_NOCOMMENT"; then
   pass "firstLetter intro paragraph present"
 else
   fail "missing <p class=\"firstLetter\"> intro paragraph"
@@ -137,15 +144,15 @@ done
 
 # --- self-loop links ---------------------------------------------------------
 BASE_LOWER="$(tr '[:upper:]' '[:lower:]' <<<"$BASE")"
-if grep -qiE "/personality-analysis/${BASE}([)\"'/#]|$)" <<<"$BODY" || \
-   grep -qiE "/personality-analysis/${BASE_LOWER}([)\"'/#]|$)" <<<"$BODY"; then
+if grep -qiE "/personality-analysis/${BASE}([)\"'/#]|$)" <<<"$BODY_NOCOMMENT" || \
+   grep -qiE "/personality-analysis/${BASE_LOWER}([)\"'/#]|$)" <<<"$BODY_NOCOMMENT"; then
   fail "self-loop: body links to its own slug /personality-analysis/$BASE"
 else
   pass "no self-loop links"
 fi
 
 # --- visible FAQ section (banned in body; FAQs live in frontmatter schema) ---
-if grep -qiE "^##+ +FAQs?( |$)" <<<"$BODY"; then
+if grep -qiE "^##+ +FAQs?( |$)" <<<"$BODY_NOCOMMENT"; then
   fail "visible FAQ section in body (FAQ content belongs in frontmatter faqs: only)"
 else
   pass "no visible FAQ section in body"
@@ -159,7 +166,7 @@ else
 fi
 
 # --- unfinished markers ------------------------------------------------------
-if grep -qE "TODO|\[PLACEHOLDER|Lorem ipsum|\[TBD\]" <<<"$BODY"; then
+if grep -qE "TODO|\[PLACEHOLDER|Lorem ipsum|\[TBD\]" <<<"$BODY_NOCOMMENT"; then
   fail "unfinished marker in body (TODO / [PLACEHOLDER / Lorem ipsum / [TBD])"
 else
   pass "no unfinished markers"
@@ -173,7 +180,7 @@ else
 fi
 
 # --- internal link count (creator spec: 2-5) ---------------------------------
-LINK_COUNT=$(grep -oE 'href="/(personality-analysis|enneagram-corner|community|how-to-guides|pop-culture)/[^"]+"|\]\(/(personality-analysis|enneagram-corner|community|how-to-guides|pop-culture)/[^)]+\)' <<<"$BODY" | wc -l | tr -d ' ')
+LINK_COUNT=$(grep -oE 'href="/(personality-analysis|enneagram-corner|community|how-to-guides|pop-culture)/[^"]+"|\]\(/(personality-analysis|enneagram-corner|community|how-to-guides|pop-culture)/[^)]+\)' <<<"$BODY_NOCOMMENT" | wc -l | tr -d ' ')
 if (( LINK_COUNT < 2 )); then
   warn "only $LINK_COUNT internal links (creator spec: 2-5)"
 elif (( LINK_COUNT > 6 )); then

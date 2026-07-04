@@ -479,7 +479,6 @@
 			color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep)) 0%,
 			color-mix(in srgb, var(--stone-warm) 88%, var(--night-deep)) 100%
 		);
-		backdrop-filter: blur(12px);
 		border-bottom: 1px solid var(--accent-border);
 		padding: 0.75rem 0;
 		margin-bottom: 1rem;

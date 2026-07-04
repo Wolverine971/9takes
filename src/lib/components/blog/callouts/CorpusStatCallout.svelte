@@ -75,11 +75,15 @@
 		creator: NINE_TAKES_ORGANIZATION,
 		citation: datasetAbsoluteAnchor
 	});
+
+	const quotationSchemaHtml = $derived(
+		'<' + 'script type="application/ld+json">' + JSON.stringify(quotationSchema) + '</' + 'script>'
+	);
 </script>
 
 <svelte:head>
 	{#if emitJsonLd}
-		{@html `<script type="application/ld+json">${JSON.stringify(quotationSchema)}</script>`}
+		{@html quotationSchemaHtml}
 	{/if}
 </svelte:head>
 

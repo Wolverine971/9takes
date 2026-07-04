@@ -125,10 +125,10 @@
 </svelte:head>
 
 <div class="container" in:fade={{ duration: 300 }}>
-	<h1 class="title" in:fly={{ y: -20, duration: 300, delay: 150 }}>
-		<span class="active">Login</span> /
-		<a href="/register" class="inactive">Register</a>
-	</h1>
+	<h1 class="title" in:fly={{ y: -20, duration: 300, delay: 150 }}>Log in</h1>
+	<p class="auth-switch" in:fly={{ y: -12, duration: 300, delay: 200 }}>
+		Need an account? <a href="/register">Register</a>
+	</p>
 	{#if data.confirmationError}
 		<div class="confirm-error" role="alert">
 			That confirmation link is invalid or has expired. Try logging in, or register again to get a
@@ -191,26 +191,26 @@
 
 	.title {
 		text-align: center;
-		margin-bottom: 2rem;
+		margin-bottom: 0.5rem;
 		font-size: 1.8rem;
 		font-weight: bold;
 		color: var(--ink-bright);
+	}
 
-		.active {
+	.auth-switch {
+		margin: 0 0 2rem;
+		text-align: center;
+		color: var(--ink-mid);
+		font-size: 0.95rem;
+
+		a {
 			color: var(--lamp-glow);
-			border-bottom: 2px solid var(--lamp-glow);
-			padding-bottom: 4px;
-		}
-
-		.inactive {
-			color: var(--ink-mid);
+			font-weight: 700;
 			text-decoration: none;
-			opacity: 0.7;
-			transition: all 0.3s ease;
+			transition: color 0.2s ease;
 
 			&:hover {
-				opacity: 1;
-				color: var(--lamp-glow);
+				color: var(--lamp-bright);
 			}
 		}
 	}

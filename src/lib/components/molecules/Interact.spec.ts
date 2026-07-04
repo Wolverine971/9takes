@@ -118,6 +118,10 @@ describe('Interact', () => {
 			}
 		});
 
+		await fireEvent.click(
+			getByRole('button', { name: /answer this question to unlock comments/i })
+		);
+
 		const commentBox = getByRole('textbox');
 		await fireEvent.input(commentBox, {
 			target: { value: longComment }
@@ -187,6 +191,10 @@ describe('Interact', () => {
 				}
 			}
 		});
+
+		await fireEvent.click(
+			getByRole('button', { name: /answer this question to unlock comments/i })
+		);
 
 		const commentBox = getByRole('textbox');
 		await fireEvent.input(commentBox, {

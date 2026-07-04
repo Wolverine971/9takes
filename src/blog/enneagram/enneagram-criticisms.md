@@ -339,7 +339,7 @@ The goal isn't having the most informed first response, but rather capturing gen
 
 ## The Real Question
 
-No personality system is perfect. The Enneagram isn't magic. It's a map — and maps are never the territory.
+No personality system is perfect. The Enneagram isn't magic. It's a map — and [maps are never the territory](/community/personality-frameworks-map-not-territory).
 
 **The question isn't "Is the Enneagram scientifically flawless?"**
 

@@ -714,9 +714,8 @@
 	.final-cta {
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
 		border-radius: 1rem;
-		background: color-mix(in srgb, var(--stone-warm) 88%, transparent);
+		background: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
 		box-shadow: var(--shadow-lg);
-		backdrop-filter: blur(14px);
 	}
 
 	.section-eyebrow {

@@ -247,7 +247,7 @@
 		width: 100%;
 		resize: vertical;
 		padding: 0.9rem 1rem;
-		border-radius: 0.6rem;
+		border-radius: 0.625rem;
 		border: 1px solid color-mix(in srgb, var(--stone-400, #9ca3af) 40%, transparent);
 		background: var(--night-950, #0a0a0b);
 		color: var(--ink-50, #fafafa);
@@ -282,7 +282,7 @@
 		border: none;
 		cursor: pointer;
 		padding: 0.7rem 1.25rem;
-		border-radius: 0.6rem;
+		border-radius: 0.625rem;
 		font-weight: 700;
 		font-size: 0.95rem;
 		background: var(--lamp-glow, #f59e0b);
@@ -376,7 +376,7 @@
 	.voice {
 		border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
 		border-left: 3px solid var(--accent);
-		border-radius: 0.55rem;
+		border-radius: 0.625rem;
 		padding: 0.85rem 1rem;
 		background: color-mix(in srgb, var(--accent) 7%, var(--night-950, #0a0a0b));
 		animation: rise 0.45s ease both;
@@ -415,7 +415,7 @@
 	.qr {
 		width: 120px;
 		height: 120px;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		background: #fff;
 		padding: 6px;
 		flex: none;

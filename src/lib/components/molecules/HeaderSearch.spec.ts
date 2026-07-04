@@ -72,10 +72,10 @@ describe('HeaderSearch', () => {
 	it('shows the typeahead panel after typing a query', async () => {
 		render(HeaderSearch);
 
-		const input = screen.getByRole('searchbox', { name: /search 9takes/i });
+		const input = screen.getByRole('combobox', { name: /search 9takes/i });
 		await fireEvent.input(input, { target: { value: 'cillian' } });
 
-		expect(screen.getByText('Searching…')).toBeTruthy();
+		expect(screen.getAllByText('Searching…').length).toBeGreaterThan(0);
 
 		await vi.advanceTimersByTimeAsync(200);
 
@@ -106,7 +106,7 @@ describe('HeaderSearch', () => {
 
 		render(HeaderSearch);
 
-		const input = screen.getByRole('searchbox', { name: /search 9takes/i });
+		const input = screen.getByRole('combobox', { name: /search 9takes/i });
 		await fireEvent.input(input, { target: { value: 'boundary' } });
 		await vi.advanceTimersByTimeAsync(200);
 

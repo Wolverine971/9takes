@@ -145,6 +145,8 @@ The psychology is ancient. The mechanics are new. Cancel culture in its current 
 - **Context collapse.** A joke meant for a comedy room reaches the audience least equipped to read it. The "right audience" no longer exists.
 - **Anonymous accounts.** The infantry of any cancellation has nothing to lose. Targets fight people, but get attacked by handles.
 
+For the broader psychology of why the crowd enjoys punishment once a target has been marked, see [The Anatomy of Public Shame](/pop-culture/psychology-of-public-shame).
+
 Take any of these away and the dynamic weakens. Together, they're the operating system.
 
 ## The In-Group Always Lights the Match

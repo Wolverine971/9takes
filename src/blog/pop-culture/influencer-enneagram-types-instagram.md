@@ -165,6 +165,8 @@ The point isn't that any of these people are "fake." It's that Instagram is the 
 
 **Faces:** Casey Neistat's daily uploads. David Dobrik's Vlog Squad chaos. Alex Cooper's "Daddy Gang" expansion across podcasts, brands, and time zones. Mr. Beast, on his Type 7 wing, when he's the one in the obstacle course rather than the one running spreadsheets.
 
+Cooper's creator-economy arc gets sharper when you put it next to a Type 9 influencer. The [Alex Cooper vs Alix Earle breakdown](/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis) shows what happens when a Type 7 media engine tries to scale a creator whose value is ease, intimacy, and room-merger.
+
 **Quote:** "Why would I stick to one thing when everything is interesting?"
 
 ### [Type 8: The Challenger Influencer](/enneagram-corner/enneagram-type-8)

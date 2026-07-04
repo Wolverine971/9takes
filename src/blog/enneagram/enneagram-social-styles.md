@@ -238,7 +238,7 @@ Three frameworks get tangled here all the time. Untangle them once and you'll ne
 
 The biggest single point of confusion: **Social Style ≠ Social Subtype.** "Social Style" is this article — the Hornevian groups. "Social Subtype" is one of the three instinctual variants (the one that focuses on group, status, and belonging). A Self-preservation 4 is still socially **Withdrawn**. Same person, different lens.
 
-If you want a deeper dive on the centers, start with our [overview of the Enneagram triads](/enneagram-corner/enneagram-concepts). For the instincts, see the [instinctual subtypes guide](/enneagram-corner/enneagram-instinctual-subtypes).
+If you want a deeper dive on the centers, start with our [overview of the Enneagram triads](/enneagram-corner/enneagram-concepts). For conflict and disappointment patterns, use the [Harmonic Approaches guide](/enneagram-corner/enneagram-harmonic-approaches). For the instincts, see the [instinctual subtypes guide](/enneagram-corner/enneagram-instinctual-subtypes).
 
 ## Quick diagnostic — which style runs you?
 

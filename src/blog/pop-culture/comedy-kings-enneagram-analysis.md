@@ -217,6 +217,8 @@ Then 2019 happened.
 
 SNL hired him, then fired him before his first episode aired when old podcast clips resurfaced. Plenty of comics would have spiraled, lawyered up, or gone scorched-earth on the people who cut them. Gillis basically shrugged. He kept making podcasts and specials, built an independent audience too big for the network to keep ignoring, and in 2024 SNL brought him back as the host. He won by refusing to fight the thing that hurt him.
 
+That is the rare case where public shame became distribution instead of exile. For the broader mechanics of why some pile-ons destroy people while others harden an audience, read [The Anatomy of Public Shame](/pop-culture/psychology-of-public-shame).
+
 His delivery is the tell.
 
 Flat. Calm. A little bored, like he's telling a story to friends and couldn't care less whether you approve. That unbothered flatness is a 9 refusing to escalate. He'll drop something genuinely provocative in the exact tone you'd use to order a sandwich, and the calm is precisely what lets it land.
@@ -258,6 +260,8 @@ A club demands that you command the room, own the silence, force the laugh. The 
 Stack those two facts together and the whole picture snaps into focus.
 
 7-heavy comedians colonized podcasting first and hardest, because it is the Type 7's native habitat, a place built for tangents and momentum. The 9s followed close behind, because it finally let them be honest without having to be loud. Same room. Two types. Two completely different reasons to love it. One walks in and hears freedom. The other walks in and hears safety.
+
+This is the comedy-specific chapter of a larger pattern. The broader [podcaster personality map](/pop-culture/podcaster-personality-map) explains why different host types dominate different formats, and [Podcast Bros](/pop-culture/podcast-bros-enneagram-analysis) covers the audience-side version: why millions of listeners now use long-form hosts as emotional regulation, identity signal, and substitute community.
 
 ## The Dark Side: When the Laughter Stops
 

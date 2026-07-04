@@ -313,7 +313,9 @@
 
 	// Initialize on mount
 	onMount(() => {
-		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		reduceMotion =
+			typeof window.matchMedia === 'function' &&
+			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 		// Parse any escaped newlines in placeholders
 		document.querySelectorAll('textarea').forEach((elem) => {
@@ -517,9 +519,8 @@
 				color-mix(in srgb, var(--lamp-soft) 32%, transparent) 0%,
 				transparent 100%
 			),
-			color-mix(in srgb, var(--stone-warm) 92%, transparent);
+			color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep));
 		box-shadow: var(--shadow-sm);
-		backdrop-filter: blur(12px);
 	}
 
 	.toolbar-buttons {
@@ -556,9 +557,8 @@
 				color-mix(in srgb, var(--lamp-soft) 36%, transparent) 0%,
 				transparent 30%
 			),
-			color-mix(in srgb, var(--stone-warm) 94%, transparent);
+			color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
 		box-shadow: var(--shadow-sm);
-		backdrop-filter: blur(14px);
 	}
 
 	.composer-body {

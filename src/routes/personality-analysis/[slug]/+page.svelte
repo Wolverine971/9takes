@@ -1079,11 +1079,10 @@
 		align-items: center;
 		min-height: 34px;
 		padding: 7px 10px;
-		background: linear-gradient(90deg, rgba(10, 8, 7, 0.86), rgba(10, 8, 7, 0.68));
+		background: linear-gradient(90deg, rgba(10, 8, 7, 0.92), rgba(10, 8, 7, 0.82));
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 46%, rgba(250, 248, 244, 0.18));
 		box-shadow: 0 10px 24px rgba(10, 8, 7, 0.34);
 		color: #faf8f4;
-		backdrop-filter: blur(5px);
 
 		.mono {
 			color: #faf8f4;
@@ -1134,7 +1133,7 @@
 		padding: 1.75rem 1.75rem 2rem;
 		background: var(--night-mid);
 		border: 1px solid var(--stone-edge);
-		border-radius: 20px;
+		border-radius: 1rem;
 		box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
 
 		/* The card carries its own outer margin for standalone use (enneagram-corner
@@ -1271,7 +1270,7 @@
 			background: var(--night-mid);
 			border: 1px solid var(--stone-edge);
 			border-left: 3px solid var(--data-teal);
-			border-radius: 8px;
+			border-radius: 0.625rem;
 			box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
 		}
 
