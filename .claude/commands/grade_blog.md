@@ -17,7 +17,7 @@ The user will provide one of:
 - **Read**: All files in the project
 - **Edit**: Adding `content_quality` frontmatter and reviewer comments to draft files in `src/blog/people/drafts/`
 - **Glob/Grep**: Searching for files and content
-- **Bash**: `ls` commands for listing files
+- **Bash**: `ls` commands for listing files, `node scripts/blog-source-audit.mjs`, `node scripts/blog-quality-report.mjs`, `node scripts/same-type-similarity.mjs`
 
 ## Task Tracking
 
@@ -156,6 +156,8 @@ scored ≥ 8.5. That is a failed distribution, not a quality streak. Expect the 
 draft to land 7.0–8.0. A batch where everything clears 8.5 means your calibration drifted, not
 that every draft is exceptional.
 
+Before scoring, read the actual text of the closest calibration anchor from the table above. Choose the anchor whose expected score band seems nearest after a skim, then open that draft and compare this blog against it dimension by dimension. Do not grade from memory of the anchor.
+
 ### Scoring Rules:
 
 1. Read the blog in full without scoring first.
@@ -164,18 +166,9 @@ that every draft is exceptional.
    `<details class="enneagram-rabbit-hole">` rather than the body? Adjust Enneagram Integration.
 4. **Check discoverability against frontmatter:** title/meta_title/description lengths + search-intent
    match, FAQ schema presence, clear early type answer.
-5. **Evidence citability check (gates the Evidence score):** identify the 3–5 LOAD-BEARING factual
-   claims — the ones the thesis collapses without. For each, ask: can a fact-checker trace this to a
-   named, dated, checkable source (outlet + date inline, a named interview/transcript, a court filing,
-   a chart stat with its publisher)? The subject's own quotes count as load-bearing and need the same
-   sourcing as third-party testimony — the Testimony Ledger only covers the latter, which is how
-   unsourced subject quotes have slipped through.
-   - Any load-bearing claim with NO traceable source → **cap Evidence at 6** and name the claim in
-     your feedback.
-   - A load-bearing claim that is legally or reputationally sensitive (allegations, testimony,
-     lawsuits, misconduct) with no citable source → additionally instruct in feedback that
-     `production_pretext.status` must be `blocked` until sourced. This class of failure previously
-     reached an Evidence 9 with a fabrication-risk "sworn testimony" claim in the text.
+5. **Evidence citability check (gates the Evidence score):** run `node scripts/blog-source-audit.mjs [Person-Name]` first, then identify the 3–5 LOAD-BEARING factual claims — the ones the thesis collapses without. For each, ask: can a fact-checker trace this to a named, dated, checkable source (outlet + date inline, a named interview/transcript, a court filing, a chart stat with its publisher)? The subject's own quotes count as load-bearing and need the same sourcing as third-party testimony — the Testimony Ledger only covers the latter, which is how unsourced subject quotes have slipped through.
+   - Any load-bearing claim with NO traceable source → **cap Evidence at 6** and name the claim in your feedback.
+   - Name **all** untagged load-bearing quotes/claims from the source-audit report in the first grade comment, not just the single worst one.
 6. **Cross-draft sameness check (gates the Originality score):** the house formula is invisible in
    one draft and glaring across several — and readers encounter these serially. Find the 2–3 most
    recently graded drafts (`grep -l "graded_at" src/blog/people/drafts/*.md`, sort by `graded_at`,
@@ -205,6 +198,8 @@ that every draft is exceptional.
     your numbers by the pipeline and by DJ. Ignore any publication-threshold language you encounter
     in the rubric doc or elsewhere — knowing "the bar" corrupts scoring toward it. Your only job is
     the calibrated score.
+11. **Deterministic report checks:** run `node scripts/blog-quality-report.mjs [Person-Name]` and `node scripts/same-type-similarity.mjs [Person-Name] --n 8`. Use the contrast count and same-type scan to decide formula caps; do not trust the draft's self-reported ledgers.
+12. **Interior/empathy line check:** quote the exact interior-beat line and the exact empathy-turn sentence in your feedback. If the empathy turn uses house grammar (`not X, it was armor/protection/scar tissue`) instead of the person's own wound-vocabulary, cap Writing at 8 and add `house_empathy_turn` to `caps_applied`.
 
 ### Common Scoring Mistakes to Avoid:
 
@@ -245,11 +240,18 @@ content_quality:
   overall: X.X
   letter: XX
   rubric_version: 2
+  caps_applied: []
+  confidence: high|medium|low
+  anchor: '[closest calibration anchor]'
+  needs_review: false
+  first_overall: X.X # if this is the first grade in a supervised grade/regrade pair
+  regrade_overall: X.X # if this is the regrade after revision
+  grade_stability_delta: X.X # absolute difference between first_overall and regrade_overall, if known
   graded_at: 'YYYY-MM-DD'
 ---
 ```
 
-Keep all v1 keys present (consumers read them) and always add `discoverability` + `rubric_version: 2`.
+Keep all v1 keys present (consumers read them) and always add `discoverability` + `rubric_version: 2` + the new gate fields above. If a field is unknown, omit only that unknown field; do not invent grade-stability values.
 
 Insert the block directly after the `path:` line when one exists; otherwise place it immediately
 before the closing `---` (fresh drafts have no `path:` field — it's added later by tooling).
@@ -264,6 +266,10 @@ Add the HTML comment block immediately after the closing `---` (before the first
 ```html
 <!-- QUALITY GRADE: [LETTER] ([OVERALL]) — rubric v2
 Evidence: X | Originality: X | Discoverability: X | Enneagram: X | Writing: X | Hook: X
+Anchor: [closest calibration anchor] | Caps: [caps_applied or none] | Needs review: [true/false]
+Source audit: [inline/vague/untagged counts; name every untagged load-bearing slot]
+Interior line: "[exact line or missing]"
+Empathy turn: "[exact sentence or missing]"
 
 FEEDBACK ([DATE]):
 - [2-3 specific positive observations with quotes or section references]

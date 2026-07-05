@@ -21,7 +21,7 @@ The following operations are pre-approved and should be executed automatically w
 - **Read operations**: All file reads in project directories
 - **Write operations**: Editing the target draft file in `src/blog/people/drafts/`
 - **Glob/Grep**: Searching for the target draft and checking for obvious AI-language patterns
-- **Bash commands**: `grep`, `ls`, `echo`, `test`, `./scripts/blog-lint.sh`
+- **Bash commands**: `grep`, `ls`, `echo`, `test`, `node scripts/blog-quality-report.mjs`, `./scripts/blog-lint.sh`
 
 ## Task Tracking
 
@@ -95,6 +95,14 @@ Typical triggers for this command:
 
 If the draft has a deeper structural problem, fix that too, but do not reopen the whole research phase unless absolutely necessary.
 
+Before editing, run:
+
+```bash
+node scripts/blog-quality-report.mjs [Person-Name]
+```
+
+Use the reported contrast-pair lines as your concrete edit list. Do not rely on the draft's `FORMULA FINGERPRINT LEDGER`; it may be stale.
+
 ---
 
 ## Step 4: Edit the Draft Directly
@@ -109,7 +117,7 @@ Apply the 9takes-editorial-standards rulebook to the full draft.
 - Collapse duplicate ideas into one strong version
 - Replace vague analytical filler with direct, specific claims
 - Tighten headings if they feel generic or too formulaic
-- Break repeated contrast-pair phrasing ("not X but Y," "less X than Y," "looked like X, was really Y") by replacing the pattern with scenes, stakes, or consequences
+- Break contrast-pair phrasing ("not X but Y," "less X than Y," "looked like X, was really Y") by replacing the pattern with scenes, stakes, or consequences
 - Cut main-body counter-typing ladders; keep type comparisons to one focused pressure test unless they live in the Rabbit Hole
 - Add or sharpen one critic-pressure moment and one current-tense or legacy-now anchor when the draft dodges them
 - Protect the emotional layer: the empathy turn (a criticized behavior made understandable through motivation) and the interior beat (one inside-the-feeling moment) must survive the polish — never trim them as "padding," and sharpen them if they read flat
@@ -124,6 +132,17 @@ Apply the 9takes-editorial-standards rulebook to the full draft.
 - Do not add obvious AI phrases while trying to "improve" the prose
 - Keep the focus on the person, not on Enneagram jargon
 - **NEVER modify `lastmod`** — DJ manages that field manually (editorial-standards hard rule)
+
+### Required Exit Check
+
+Before finishing, run:
+
+```bash
+BLOG_LINT_CONTRAST_TARGET=0 ./scripts/blog-lint.sh [Person-Name]
+node scripts/blog-quality-report.mjs [Person-Name]
+```
+
+You may not exit if `blog-lint.sh` reports any strong contrast-pair sentence engine. Keep editing until the strong count is 0 or explicitly mark the draft blocked with a short note explaining why the sentence cannot be rewritten.
 
 ---
 
@@ -153,4 +172,5 @@ Briefly tell the user:
 
 - Which draft you polished
 - The main language or flow problems you cleaned up
+- The final contrast-pair count from `blog-quality-report`
 - Whether the draft now feels production-ready or still needs another substantive pass

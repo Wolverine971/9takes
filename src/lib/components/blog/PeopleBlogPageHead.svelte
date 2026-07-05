@@ -108,7 +108,11 @@
 					wordCount: data?.word_count,
 					timeRequired: data?.time_required,
 					faqs: data?.faqs ?? [],
-					includeFaqPage: data?.include_faq_schema === true
+					// Emit FAQPage JSON-LD whenever the row carries real FAQs. The old
+					// `include_faq_schema` flag was never wired end-to-end (no DB column,
+					// never selected) so it left the AEO schema permanently dark. The
+					// builder still enforces the MIN_FAQ_ITEMS (2) floor itself.
+					includeFaqPage: Array.isArray(data?.faqs) && data.faqs.length >= 2
 				})
 			);
 		} catch (error) {

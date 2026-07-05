@@ -1,37 +1,11 @@
 {
-	"lastUpdated": "2026-07-04T06:38:52Z",
+	"lastUpdated": "2026-07-05T06:08:05Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "jerry-seinfeld",
-			"displayName": "Jerry Seinfeld",
-			"type": 1,
-			"priority": 52,
-			"priorityReason": "Comedy icon with evergreen search demand, observational precision, and a strong Type 1 perfectionist angle",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-12",
-			"retryCount": 0,
-			"strategicValue": "comedy-icon-cluster"
-		},
-		{
-			"name": "oliver-tree",
-			"displayName": "Oliver Tree",
-			"type": 4,
-			"priority": 51,
-			"priorityReason": "Eccentric alt-pop artist with a deeply crafted persona, bowl-cut icon, and strong Type 4 individualist analysis angle",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-15",
-			"retryCount": 0,
-			"strategicValue": "alt-pop-eccentric-cluster"
-		},
 		{
 			"name": "julia-fox",
 			"displayName": "Julia Fox",
@@ -941,8 +915,36 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "oliver-tree",
+		"displayName": "Oliver Tree",
+		"type": 4,
+		"priority": 51,
+		"priorityReason": "Eccentric alt-pop artist with a deeply crafted persona, bowl-cut icon, and strong Type 4 individualist analysis angle",
+		"estimatedTraffic": "medium",
+		"searchVolume": "medium",
+		"personaTitle": null,
+		"addedToQueue": "2026-04-15",
+		"retryCount": 0,
+		"strategicValue": "alt-pop-eccentric-cluster",
+		"startedAt": "2026-07-05T06:08:05Z"
+	},
 	"skipped": [
+		{
+			"name": "jerry-seinfeld",
+			"displayName": "Jerry Seinfeld",
+			"type": 1,
+			"priority": 52,
+			"priorityReason": "Comedy icon with evergreen search demand, observational precision, and a strong Type 1 perfectionist angle",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-12",
+			"retryCount": 0,
+			"strategicValue": "comedy-icon-cluster",
+			"skippedAt": "2026-07-05T06:08:05Z",
+			"skipReason": "draft already exists"
+		},
 		{
 			"name": "zac-efron",
 			"displayName": "Zac Efron",

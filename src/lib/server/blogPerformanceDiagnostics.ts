@@ -483,8 +483,7 @@ export async function loadPeopleBlogPerformanceDiagnostics(
 				has_testimony_ledger: /TESTIMONY LEDGER/i.test(blog.content),
 				has_heading_mix_ledger: /HEADING MIX LEDGER/i.test(blog.content),
 				has_distribution_ledger: /DISTRIBUTION LEDGER/i.test(blog.content),
-				has_faq_schema:
-					data.include_faq_schema === true && Array.isArray(data.faqs) && data.faqs.length >= 2
+				has_faq_schema: Array.isArray(data.faqs) && data.faqs.length >= 2
 			},
 			link_stats: {
 				outgoing_internal_count: blog.outgoingInternalHrefs.size,

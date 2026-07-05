@@ -162,6 +162,8 @@ clear_grading_frontmatter() {
 run_lint() {
   local stage_label="${1:-6.5}"
   local log_file="$LOG_DIR/${stage_label}_lint.log"
+  local start_epoch
+  start_epoch="$(date +%s)"
   echo "─────────────────────────────────────────────────────"
   echo "[Stage $stage_label] lint (deterministic checks — scripts/blog-lint.sh)"
   echo "Log:     $log_file"
@@ -173,7 +175,51 @@ run_lint() {
   else
     echo "[Stage $stage_label] lint passed"
   fi
+  local dur
+  dur=$(( $(date +%s) - start_epoch ))
+  printf '%s\t%s\t%s\t%ss\n' "$stage_label" "lint" "$LINT_EXIT" "$dur" \
+    >> "$LOG_DIR/stage-summary.tsv"
+  if [[ "$LINT_EXIT" -ne 0 ]]; then
+    printf 'stage=%s_lint exit=%s dur=%ss at=%s\n' \
+      "$stage_label" "$LINT_EXIT" "$dur" "$(date '+%Y-%m-%d %H:%M:%S')" \
+      >> "$LOG_DIR/STAGE_WARNINGS"
+  fi
   echo
+}
+
+run_report_stage() {
+  local stage_label="$1"
+  local stage_name="$2"
+  shift 2
+  local log_file="$LOG_DIR/${stage_label}_${stage_name}.log"
+  local started_at start_epoch
+  started_at="$(date +%H:%M:%S)"
+  start_epoch="$(date +%s)"
+
+  CURRENT_STAGE="${stage_label}_${stage_name}"
+
+  echo "─────────────────────────────────────────────────────"
+  echo "[Stage $stage_label] $stage_name  (started $started_at)"
+  echo "Command: $*"
+  echo "Log:     $log_file"
+  echo "─────────────────────────────────────────────────────"
+
+  "$@" 2>&1 | tee "$log_file"
+  local exit_code="${PIPESTATUS[0]}"
+
+  local dur
+  dur=$(( $(date +%s) - start_epoch ))
+  printf '%s\t%s\t%s\t%ss\n' "$stage_label" "$stage_name" "$exit_code" "$dur" \
+    >> "$LOG_DIR/stage-summary.tsv"
+  if [[ "$exit_code" -ne 0 ]]; then
+    printf 'stage=%s_%s exit=%s dur=%ss at=%s\n' \
+      "$stage_label" "$stage_name" "$exit_code" "$dur" "$(date '+%Y-%m-%d %H:%M:%S')" \
+      >> "$LOG_DIR/STAGE_WARNINGS"
+  fi
+  echo "[Stage $stage_label] $stage_name finished (exit=$exit_code, ${dur}s)"
+  echo
+
+  return 0
 }
 
 # Pull a numeric score out of the draft's content_quality block ("" if absent).
@@ -223,6 +269,9 @@ run_stage 4 cohesion           "/cohesion-check $DRAFT_PATH"
 run_stage 5 editor_pass        "/blog_content_editor_pass_people $PERSON"
 run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $PERSON"
 run_lint 6.5
+run_report_stage 6.6 quality_report node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$PERSON"
+run_report_stage 6.7 source_audit node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON"
+run_report_stage 6.8 same_type_similarity node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$PERSON" --n 8
 clear_grading_frontmatter
 run_stage 7 grade              "/grade_blog $PERSON"
 
@@ -257,6 +306,8 @@ else
 fi
 if [[ "$REVISED" -eq 1 ]]; then
   FINAL_OVERALL="$(read_quality_field overall)"
+  run_report_stage 9.5 quality_report_after_revision node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$PERSON"
+  run_report_stage 9.6 source_audit_after_revision node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON"
   echo "REVISION LOOP: ran once (trigger: ${REVISION_REASONS%; })"
   echo "GRADE: ${FIRST_OVERALL:-?} → ${FINAL_OVERALL:-?} (first grade → after revision)"
   if [[ -n "$FINAL_OVERALL" ]] && awk -v o="$FINAL_OVERALL" 'BEGIN { exit !(o < 8.5) }'; then
@@ -273,6 +324,43 @@ if [[ -f "$FULL_DRAFT" ]]; then
   awk '/^---$/{c++; next} c==1' "$FULL_DRAFT" | grep -E "^\s*(hook|enneagram|evidence|writing|originality|discoverability|overall|letter|rubric_version|graded_at):" || \
     echo "  (no content_quality block found — grade stage may have failed)"
 fi
+
+FINAL_OVERALL="$(read_quality_field overall)"
+FINAL_DISC="$(read_quality_field discoverability)"
+SUMMARY_PATH="$LOG_DIR/summary.json" \
+PERSON="$PERSON" \
+DRAFT_PATH="$DRAFT_PATH" \
+PIPELINE_LOG_DIR="$LOG_DIR" \
+FIRST_OVERALL="${FIRST_OVERALL:-}" \
+FINAL_OVERALL="${FINAL_OVERALL:-}" \
+FINAL_DISCOVERABILITY="${FINAL_DISC:-}" \
+LINT_EXIT="${LINT_EXIT:-0}" \
+REVISED="$REVISED" \
+HAS_STAGE_WARNINGS="$([[ -f "$LOG_DIR/STAGE_WARNINGS" ]] && echo true || echo false)" \
+node -e '
+const fs = require("fs");
+const env = process.env;
+const num = (value) => value === "" || value == null ? null : Number(value);
+const summary = {
+  person: env.PERSON,
+  draft_path: env.DRAFT_PATH,
+  log_dir: env.PIPELINE_LOG_DIR,
+  completed: true,
+  revised: env.REVISED === "1",
+  lint_exit: Number(env.LINT_EXIT || 0),
+  first_overall: num(env.FIRST_OVERALL),
+  final_overall: num(env.FINAL_OVERALL),
+  final_discoverability: num(env.FINAL_DISCOVERABILITY),
+  grade_stability_delta:
+    env.FIRST_OVERALL && env.FINAL_OVERALL
+      ? Math.abs(Number(env.FIRST_OVERALL) - Number(env.FINAL_OVERALL))
+      : null,
+  has_stage_warnings: env.HAS_STAGE_WARNINGS === "true",
+  generated_at: new Date().toISOString()
+};
+fs.writeFileSync(env.SUMMARY_PATH, JSON.stringify(summary, null, 2) + "\n");
+'
+echo "Summary JSON: $LOG_DIR/summary.json"
 
 # Clean, full completion — the EXIT trap must NOT write a false FAILED_AT_STAGE.
 # Any death before this line is a real failure and should leave the sentinel.

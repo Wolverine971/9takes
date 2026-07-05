@@ -40,6 +40,7 @@ fi
 BASE="$(basename "$FILE" .md)"
 FAILS=0
 WARNS=0
+CONTRAST_TARGET="${BLOG_LINT_CONTRAST_TARGET:-0}"
 
 fail() { echo "FAIL  $1"; FAILS=$((FAILS + 1)); }
 warn() { echo "WARN  $1"; WARNS=$((WARNS + 1)); }
@@ -97,6 +98,39 @@ if [[ -n "$MTITLE" ]]; then
   fi
 fi
 
+# --- meta_title head-term + name check (AEO/discoverability) ----------------
+# The people SERP target is explicit: [Name] + one query head term, unless a
+# human writes a frontmatter exception. This prevents clever-but-unfindable
+# titles from passing the nightly lint.
+HEAD_TERM_EXCEPTION="$(grep -m1 -E "^head_term_exception:" <<<"$FM" | sed -E "s/^head_term_exception:[[:space:]]*//; s/^['\"]//; s/['\"]$//")"
+PERSON_FIELD="$(grep -m1 -E "^person:" <<<"$FM" | sed -E "s/^person:[[:space:]]*//; s/^['\"]//; s/['\"]$//")"
+PERSON_SLUG="${PERSON_FIELD:-$BASE}"
+MTITLE_LOWER="$(tr '[:upper:]' '[:lower:]' <<<"$MTITLE")"
+PERSON_LOWER="$(tr '[:upper:]' '[:lower:]' <<<"$PERSON_SLUG" | tr '_-' '  ')"
+NAME_PRESENT=0
+while IFS= read -r token; do
+  [[ ${#token} -ge 3 ]] || continue
+  if grep -qF "$token" <<<"$MTITLE_LOWER"; then
+    NAME_PRESENT=1
+    break
+  fi
+done < <(tr -cs '[:alnum:]' '\n' <<<"$PERSON_LOWER")
+
+if [[ -n "$HEAD_TERM_EXCEPTION" && "$HEAD_TERM_EXCEPTION" != "false" && "$HEAD_TERM_EXCEPTION" != "null" ]]; then
+  pass "head-term exception present"
+else
+  if grep -qiE "\benneagram\b|\btype[[:space:]]*[1-9]\b|\bpersonality type\b" <<<"$MTITLE"; then
+    pass "meta_title contains a searchable head term"
+  else
+    fail "meta_title missing searchable head term (needs enneagram, type N, or personality type)"
+  fi
+fi
+if (( NAME_PRESENT == 1 )); then
+  pass "meta_title contains a person-name token"
+else
+  fail "meta_title missing person name token"
+fi
+
 # --- required type-section headings ----------------------------------------
 if grep -qiE "^## What is .*personality type\?" <<<"$BODY_NOCOMMENT"; then
   pass "required H2 'What is [Person]'s personality type?' present"
@@ -107,6 +141,36 @@ if grep -qiE "^### .* is an Enneagram Type [1-9]" <<<"$BODY_NOCOMMENT"; then
   pass "required H3 '[Person] is an Enneagram Type X' present"
 else
   fail "missing required H3: '[Person] is an Enneagram Type X'"
+fi
+
+# --- extractable type answer block -----------------------------------------
+# The first prose paragraph after the required type-answer H2/H3 must be short
+# enough for answer engines to lift. HTML wrappers are stripped for counting.
+ANSWER_BLOCK="$(awk '
+  BEGIN { seen = 0; collecting = 0; printed = 0; block = "" }
+  /^##[[:space:]]+What[[:space:]]+is[[:space:]].*personality[[:space:]]+type\??[[:space:]]*$/ { seen = 1; next }
+  seen && /^###[[:space:]].*is an Enneagram Type [1-9]/ { next }
+  seen && /^[[:space:]]*$/ {
+    if (collecting) { print block; printed = 1; exit }
+    next
+  }
+  seen && /^#{1,6}[[:space:]]/ { if (collecting) { print block; printed = 1; exit } else { next } }
+  seen && /^<details/ { if (collecting) { print block; printed = 1; exit } else { next } }
+  seen {
+    collecting = 1
+    block = block (block == "" ? "" : " ") $0
+  }
+  END { if (collecting && !printed) print block }
+' <<<"$BODY_NOCOMMENT" | sed -E 's/<[^>]+>/ /g; s/[[:space:]]+/ /g; s/^ //; s/ $//')"
+if [[ -z "$ANSWER_BLOCK" ]]; then
+  fail "missing extractable type-answer block after required personality-type heading"
+else
+  ANSWER_WORDS="$(wc -w <<<"$ANSWER_BLOCK" | tr -d ' ')"
+  if (( ANSWER_WORDS > 60 )); then
+    fail "type-answer opening block is $ANSWER_WORDS words (must be <=60)"
+  else
+    pass "type-answer opening block is extractable ($ANSWER_WORDS words)"
+  fi
 fi
 
 # --- rabbit hole (required, exactly one) ------------------------------------
@@ -174,9 +238,44 @@ fi
 
 # --- faqs presence (enrich stage output) -------------------------------------
 if grep -qE "^faqs:" <<<"$FM"; then
-  pass "faqs present in frontmatter"
+  FAQ_BLOCK="$(awk '
+    /^faqs:[[:space:]]*$/ { in_faq = 1; next }
+    in_faq && /^[A-Za-z_][A-Za-z0-9_]*:/ { exit }
+    in_faq { print }
+  ' <<<"$FM")"
+  FAQ_Q_COUNT="$(grep -cE "^[[:space:]]*-[[:space:]]*question:[[:space:]]*.+" <<<"$FAQ_BLOCK" || true)"
+  FAQ_A_COUNT="$(grep -cE "^[[:space:]]*answer:[[:space:]]*.+" <<<"$FAQ_BLOCK" || true)"
+  FAQ_REAL_COUNT=$(( FAQ_Q_COUNT < FAQ_A_COUNT ? FAQ_Q_COUNT : FAQ_A_COUNT ))
+  if (( FAQ_REAL_COUNT >= 2 )); then
+    pass "faqs present and FAQPage-eligible ($FAQ_REAL_COUNT real Q/A pairs)"
+  else
+    fail "faqs frontmatter has fewer than 2 real question/answer pairs"
+  fi
 else
   warn "no faqs in frontmatter — frontmatter enrich stage has not run (discoverability cost)"
+fi
+
+# --- contrast-pair / negative-parallelism counter ---------------------------
+if [[ -f "$REPO_ROOT/scripts/blog-quality-report.mjs" ]]; then
+  QUALITY_JSON="$(node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$FILE" --json 2>/dev/null || true)"
+  if [[ -n "$QUALITY_JSON" ]]; then
+    CONTRAST_STRONG="$(node -e 'let s="";process.stdin.on("data",d=>s+=d);process.stdin.on("end",()=>{const r=JSON.parse(s); console.log(r.contrast_pairs?.strong ?? 0);});' <<<"$QUALITY_JSON" 2>/dev/null || echo 0)"
+    CONTRAST_COMPARATIVE="$(node -e 'let s="";process.stdin.on("data",d=>s+=d);process.stdin.on("end",()=>{const r=JSON.parse(s); console.log(r.contrast_pairs?.comparative ?? 0);});' <<<"$QUALITY_JSON" 2>/dev/null || echo 0)"
+    if (( CONTRAST_STRONG > CONTRAST_TARGET )); then
+      fail "contrast-pair sentence engines: $CONTRAST_STRONG strong (target <= $CONTRAST_TARGET; run node scripts/blog-quality-report.mjs $BASE)"
+    else
+      pass "contrast-pair sentence engines: $CONTRAST_STRONG strong (target <= $CONTRAST_TARGET)"
+    fi
+    if (( CONTRAST_COMPARATIVE > 0 )); then
+      warn "comparative contrast patterns detected: $CONTRAST_COMPARATIVE (review with blog-quality-report)"
+    else
+      pass "no comparative contrast patterns detected"
+    fi
+  else
+    warn "blog-quality-report did not return JSON; contrast counter skipped"
+  fi
+else
+  warn "blog-quality-report.mjs missing; contrast counter skipped"
 fi
 
 # --- internal link count (creator spec: 2-5) ---------------------------------

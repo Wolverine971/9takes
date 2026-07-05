@@ -11,7 +11,7 @@
 //   node scripts/personBlogParser.js --publish          # Publish top eligible unpublished draft
 //
 import { promises as fs } from 'fs';
-import { execSync } from 'child_process';
+import { execFileSync, execSync } from 'child_process';
 import path from 'path';
 import matter from 'gray-matter';
 import dotenv from 'dotenv';
@@ -42,7 +42,14 @@ dotenv.config();
  *   overall?: number,
  *   letter?: string,
  *   rubric_version?: number,
- *   graded_at?: string
+ *   graded_at?: string,
+ *   caps_applied?: string[],
+ *   confidence?: string,
+ *   anchor?: string,
+ *   needs_review?: boolean,
+ *   first_overall?: number,
+ *   regrade_overall?: number,
+ *   grade_stability_delta?: number
  * }} ContentQuality
  */
 
@@ -126,8 +133,18 @@ dotenv.config();
  *   qualityOverall: number | null,
  *   imageStatus: PublishImageStatus,
  *   blockers: string[],
+ *   sourceAudit?: SourceAuditSummary | null,
  *   dbPublished?: boolean
  * }} PublishCandidate
+ *
+ * @typedef {{
+ *   quotes_total?: number,
+ *   inline?: number,
+ *   vague?: number,
+ *   untagged?: number,
+ *   untagged_in_epigraph_or_cold_open?: boolean,
+ *   any_untagged_load_bearing_slot?: boolean
+ * }} SourceAuditSummary
  */
 
 const SUPABASE_URL = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL;
@@ -285,6 +302,24 @@ export function normalizeContentQuality(raw) {
 		typeof qualityInput.graded_at === 'string' && qualityInput.graded_at.trim() !== ''
 			? qualityInput.graded_at.trim()
 			: null;
+	const capsApplied = normalizeStringArray(qualityInput.caps_applied);
+	const confidence = normalizeTrimmedString(qualityInput.confidence);
+	const anchor = normalizeTrimmedString(qualityInput.anchor);
+	const needsReview =
+		typeof qualityInput.needs_review === 'boolean'
+			? qualityInput.needs_review
+			: typeof qualityInput.needsReview === 'boolean'
+				? qualityInput.needsReview
+				: null;
+	const firstOverall = normalizeScore(
+		qualityInput.first_overall ?? qualityInput.first_grade ?? qualityInput.pre_revision_overall
+	);
+	const regradeOverall = normalizeScore(
+		qualityInput.regrade_overall ?? qualityInput.final_overall ?? qualityInput.post_revision_overall
+	);
+	const gradeStabilityDelta = normalizeScore(
+		qualityInput.grade_stability_delta ?? qualityInput.grade_delta
+	);
 
 	/** @type {ContentQuality} */
 	const normalized = {};
@@ -298,6 +333,13 @@ export function normalizeContentQuality(raw) {
 	if (overall !== null) normalized.overall = overall;
 	if (letter !== null) normalized.letter = letter;
 	if (gradedAt !== null) normalized.graded_at = gradedAt;
+	if (capsApplied) normalized.caps_applied = capsApplied;
+	if (confidence) normalized.confidence = confidence;
+	if (anchor) normalized.anchor = anchor;
+	if (needsReview !== null) normalized.needs_review = needsReview;
+	if (firstOverall !== null) normalized.first_overall = firstOverall;
+	if (regradeOverall !== null) normalized.regrade_overall = regradeOverall;
+	if (gradeStabilityDelta !== null) normalized.grade_stability_delta = gradeStabilityDelta;
 
 	return Object.keys(normalized).length > 0 ? normalized : undefined;
 }
@@ -882,6 +924,40 @@ async function saveBlogEntriesToJson(entries, outputPath) {
 }
 
 /**
+ * @param {ContentQuality | null | undefined} quality
+ * @returns {number | null}
+ */
+function getGradeStabilityDelta(quality) {
+	if (!quality) return null;
+	const explicit = normalizeScore(quality.grade_stability_delta);
+	if (explicit !== null) return explicit;
+	const first = normalizeScore(quality.first_overall);
+	const regrade = normalizeScore(quality.regrade_overall);
+	if (first !== null && regrade !== null) return Math.abs(first - regrade);
+	return null;
+}
+
+/**
+ * @param {string} filePath
+ * @returns {SourceAuditSummary | null}
+ */
+function runPublishSourceAudit(filePath) {
+	const scriptPath = path.join(process.cwd(), 'scripts', 'blog-source-audit.mjs');
+	try {
+		const output = execFileSync(process.execPath, [scriptPath, filePath, '--json'], {
+			encoding: 'utf8',
+			stdio: ['ignore', 'pipe', 'pipe']
+		});
+		const parsed = JSON.parse(output);
+		return parsed?.summary && typeof parsed.summary === 'object' ? parsed.summary : null;
+	} catch (error) {
+		const message = error instanceof Error ? error.message : String(error);
+		console.warn(`Unable to run source audit for ${filePath}: ${message}`);
+		return null;
+	}
+}
+
+/**
  * @param {string} filePath
  * @returns {Promise<PublishCandidate>}
  */
@@ -895,6 +971,7 @@ export async function readPublishCandidate(filePath) {
 	const sectionCount = countPublishableSections(content);
 	const unfinishedMarkers = findUnfinishedDraftMarkers(content);
 	const missingFields = getMissingPublishFrontmatterFields(data);
+	const sourceAudit = runPublishSourceAudit(filePath);
 	const blockers = [];
 
 	if (missingFields.length > 0) {
@@ -916,6 +993,24 @@ export async function readPublishCandidate(filePath) {
 		} else if (discoverability < PUBLISH_MIN_DISCOVERABILITY) {
 			blockers.push(`discoverability_below_${PUBLISH_MIN_DISCOVERABILITY}:${discoverability}`);
 		}
+		const capsApplied = entry.content_quality?.caps_applied ?? [];
+		if (Array.isArray(capsApplied) && capsApplied.length > 0) {
+			blockers.push(`active_content_caps:${capsApplied.join(',')}`);
+		}
+		if (entry.content_quality?.needs_review === true) {
+			blockers.push('content_quality_needs_review');
+		}
+		const gradeStabilityDelta = getGradeStabilityDelta(entry.content_quality);
+		if (gradeStabilityDelta === null) {
+			blockers.push('missing_grade_stability_delta:run supervised grade/regrade');
+		} else if (gradeStabilityDelta > 0.3) {
+			blockers.push(`grade_unstable:${gradeStabilityDelta.toFixed(1)}_delta`);
+		}
+	}
+	if (!sourceAudit) {
+		blockers.push('source_audit_unavailable:run scripts/blog-source-audit.mjs');
+	} else if (sourceAudit.untagged_in_epigraph_or_cold_open === true) {
+		blockers.push('source_standard_failed:untagged_epigraph_or_cold_open');
 	}
 	if (wordCount < PUBLISH_MIN_WORD_COUNT) {
 		blockers.push(`too_short:${wordCount}_words`);
@@ -942,6 +1037,7 @@ export async function readPublishCandidate(filePath) {
 		sectionCount,
 		qualityOverall,
 		imageStatus,
+		sourceAudit,
 		blockers
 	};
 }

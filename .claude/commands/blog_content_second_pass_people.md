@@ -22,7 +22,7 @@ The following operations are pre-approved and should be executed automatically w
 - **Write operations**: Editing the target draft file in `src/blog/people/drafts/`
 - **WebSearch**: Targeted research to verify or fill important gaps surfaced by the review comments
 - **Glob/Grep**: Searching `src/blog/people/drafts/` for the correct file and finding existing review blocks
-- **Bash commands**: `grep`, `ls`, `echo`, `test`
+- **Bash commands**: `grep`, `ls`, `echo`, `test`, `node scripts/blog-source-audit.mjs`
 
 ## Task Tracking
 
@@ -63,6 +63,14 @@ If they gave a slug or person name:
 
 Read the full draft, including any bottom review comments.
 
+Run the load-bearing source audit before reading fresh-eyes notes:
+
+```bash
+node scripts/blog-source-audit.mjs [Person-Name]
+```
+
+Treat every untagged load-bearing quote in the report as a first-order revision item. Fix the source traceability for all untagged load-bearing slots wholesale before doing ordinary reader-response edits. Do not wait for the grader to name one quote at a time.
+
 ---
 
 ## Step 2: Evaluate the Existing Review Notes
@@ -100,11 +108,12 @@ Make the blog stronger using the comments, your judgment, and any targeted resea
 
 ### Priorities
 
-1. Keep the strongest insight and make the whole article serve it
-2. Add missing substance only where it creates real lift
-3. Trim duplicated anecdotes, concepts, or quotes
-4. Cut filler controversies, weak subsections, and low-value padding
-5. Keep the story moving. Do not let the Enneagram explanation overrun the profile
+1. Fix untagged load-bearing source slots from `blog-source-audit` before anything else
+2. Keep the strongest insight and make the whole article serve it
+3. Add missing substance only where it creates real lift
+4. Trim duplicated anecdotes, concepts, or quotes
+5. Cut filler controversies, weak subsections, and low-value padding
+6. Keep the story moving. Do not let the Enneagram explanation overrun the profile
 
 ### Editing Rules
 
@@ -147,6 +156,9 @@ Kept as-is:
 
 Still open:
 - ...
+
+Source audit:
+- [inline/vague/untagged counts after the pass]
 -->
 ```
 
@@ -165,4 +177,5 @@ Briefly tell the user:
 
 - Which draft you updated
 - The main things you changed
+- The source-audit result after the pass
 - Anything still unresolved that might justify an editor pass

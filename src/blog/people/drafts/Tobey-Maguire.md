@@ -59,7 +59,7 @@ faqs:
     answer: "Molly Bloom, who ran his high-stakes games, called him 'the worst tipper, the best player, and the absolute worst loser,' and described him making a dealer bark like a seal for a chip. For a boy raised on food stamps, losing is never abstract; it is the old fear of having nothing walking back into the room. The cruelty is never about the money. It is a Type 6 under stress sliding to Type 3, proving he controls the one table whose rules he owns."
     anchor: 'why-tobey-maguire-turns-cold-when-the-stakes-are-real'
   - question: "How did Tobey Maguire's childhood shape his personality?"
-    answer: "Born to teenage parents who divorced by the time he was three, Maguire grew up poor and transient: food stamps, groceries from neighbors, nights in shelters, a father later convicted of bank robbery. That early lesson that the adults in charge can lose the house is the root of the Type 6 bargain. His stated ambition was not fame or art but money, because money was the missing thing that would mean it could never happen again."
+    answer: "Born to teenage parents who divorced by the time he was three, Maguire grew up poor and transient: food stamps, groceries from neighbors, nights in shelters. That early lesson that the adults in charge can lose the house is the root of the Type 6 bargain. His stated ambition was not fame or art but money, because money was the missing thing that would mean it could never happen again."
     anchor: 'why-tobey-maguire-grew-up-afraid-of-losing-everything'
   - question: 'Why did Tobey Maguire stop making movies?'
     answer: "Around 2014 one of the most recognizable actors in the world quietly tapered off, roughly eight film roles across two decades, and turned to poker and producing through his company Material Pictures. For a Six who had finally banked enough safety, disappearing was not defeat but the whole point: he only ever needed certainty, not the next role, so when scripts stopped delivering it he simply stopped gambling on them."
@@ -181,7 +181,7 @@ Here is where it gets specific to him. Maguire lives at both ends of the Six's r
 
 He was born to teenagers. His mother was around eighteen, his father around twenty, and they were divorced by the time he was three. What followed was not stable.
 
-"As a kid, I was very poor," he told The Guardian. "We would get groceries from neighbors. I slept on the couches of relatives, and some nights we wandered into a shelter. My family had food stamps and government medical insurance." His father was later convicted of bank robbery. Tobey moved constantly, dropped out of high school, and never went back.
+"As a kid, I was very poor," he told The Guardian. "We would get groceries from neighbors. I slept on the couches of relatives, and some nights we wandered into a shelter. My family had food stamps and government medical insurance." Tobey moved constantly, dropped out of high school, and never went back.
 
 The childhood explains the adult. This is a person who learned early, in his body, that the floor is not guaranteed, that the adults in charge can lose the house, that safety is something you either secure yourself or go without.
 

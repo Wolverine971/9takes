@@ -1,0 +1,151 @@
+[2026-07-05 02:08:05] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-05 02:08:05] [INFO] Rate-limit week rolled over (was 2026-06-28) — resetting count
+[2026-07-05 02:08:05] [INFO] SKIPPED: jerry-seinfeld — draft already exists
+[2026-07-05 02:08:05] [INFO] SELECTED: oliver-tree (Type 4)
+[2026-07-05 02:08:05] [INFO] Launching pipeline for oliver-tree
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  oliver-tree
+Draft:   src/blog/people/drafts/oliver-tree.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree
+Started: Sun Jul  5 02:08:05 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:08:05)
+Command: /blog_content_creator_people_v2 oliver-tree --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/1_create.log
+─────────────────────────────────────────────────────
+API Error: Unable to connect to API (ConnectionRefused)
+[Stage 1] create finished 04:03:40 (exit=1, 6935s)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 04:03:40)
+Command: /blog_content_fresh_eyes_people oliver-tree
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+[2026-07-05 04:34:59] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-05 04:34:59] [INFO] BLOG IN PROGRESS: oliver-tree — pipeline pid 90901 is alive; skipping tonight
+[2026-07-05 04:34:59] [INFO] Nightly blog cron finished
+[2026-07-05 04:50:38] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-05 04:50:38] [INFO] BLOG IN PROGRESS: oliver-tree — pipeline pid 90901 is alive; skipping tonight
+[2026-07-05 04:50:38] [INFO] Nightly blog cron finished
+[2026-07-05 05:08:16] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-05 05:08:16] [INFO] BLOG IN PROGRESS: oliver-tree — pipeline pid 90901 is alive; skipping tonight
+[2026-07-05 05:08:16] [INFO] Nightly blog cron finished
+API Error: Unable to connect to API (ConnectionRefused)
+[Stage 2] fresh_eyes finished 05:40:59 (exit=1, 5839s)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 05:40:59)
+Command: /blog_content_second_pass_people oliver-tree
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/3_second_pass.log
+─────────────────────────────────────────────────────
+API Error: Unable to connect to API (ConnectionRefused)
+[Stage 3] second_pass finished 07:17:12 (exit=1, 5773s)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 07:17:12)
+Command: /cohesion-check src/blog/people/drafts/oliver-tree.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/4_cohesion.log
+─────────────────────────────────────────────────────
+API Error: Unable to connect to API (ConnectionRefused)
+[Stage 4] cohesion finished 08:29:53 (exit=1, 4361s)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 08:29:53)
+Command: /blog_content_editor_pass_people oliver-tree
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/5_editor_pass.log
+─────────────────────────────────────────────────────
+API Error: Unable to connect to API (ConnectionRefused)
+[Stage 5] editor_pass finished 10:12:58 (exit=1, 6185s)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 10:12:58)
+Command: /blog_content_frontmatter_enrich_people oliver-tree
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+I can't run the enrichment — there's no draft to enrich, and the reason is upstream.
+
+## Blocked: the Oliver Tree draft was never created
+
+The frontmatter enrichment pass operates on an existing draft in `src/blog/people/drafts/`. There is no Oliver Tree file there (the drafts dir has 469 files; none match `oliver`/`Oliver-Tree`). The only artifact is the pipeline log directory, and it tells the story:
+
+**The entire overnight pipeline run failed at every stage:**
+
+| Stage | Exit | Error |
+| --- | --- | --- |
+| 1 create | 1 | `API Error: Unable to connect to API (ConnectionRefused)` |
+| 2 fresh_eyes | 1 | same |
+| 3 second_pass | 1 | same |
+| 4 cohesion | 1 | same |
+| 5 editor_pass | 1 | same |
+
+Stage 1 (`create`) is the step that writes the draft file. It never connected to the API, so **no draft was ever produced** — and stages 2–5 dutifully ran against nothing and failed the same way. Stage 6 (this enrichment step) has a 0-byte log, meaning it kicked off but had no file to touch either.
+
+This is an infrastructure failure, not a content problem: `ConnectionRefused` on every stage across `2026-07-05 02:08 → 10:12` means the Claude API endpoint the cron used was unreachable for the whole run (each stage burned its full ~1.5-hour timeout before giving up).
+
+## What I'd need to proceed
+
+Enrichment can't fabricate a draft. To get Oliver Tree to this stage, the pipeline needs a working API connection and a re-run from stage 1. Your options:
+
+1. **Re-run the full pipeline for `oliver-tree`** now that the API is presumably back — this creates the draft and runs it through fresh-eyes → second-pass → cohesion → editor → enrich in sequence. This is the correct fix.
+2. **Re-run just stage 1 (`/blog_content_creator_people_v2 oliver-tree`)** if you want to babysit it stage-by-stage, then let me pick up enrichment once a real draft exists.
+
+Want me to kick off the creator stage for `oliver-tree` so the draft exists, then run this enrichment pass against it? I'll stop and hand back if creation fails again so we don't burn another silent 6-hour cycle.
+
+One process note worth flagging: this cron chain logged every stage as a failure but still advanced to the next stage each time, so it produced a full set of green-looking log files for a run that created zero content. That's the "silent 6-hour cycle" failure mode from your pipeline-audit notes showing up live — the deterministic `nightly-blog-cron.sh` should probably hard-stop the chain when stage 1 exits non-zero rather than marching stages 2–6 forward against a missing draft.
+[Stage 6] enrich_frontmatter finished 10:17:13 (exit=0, 255s)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/6.5_lint.log
+─────────────────────────────────────────────────────
+Draft not found: oliver-tree
+[Stage 6.5] lint FAILED (exit=2) — failures listed above; pipeline continues (run-all-then-report)
+
+[pre-grade] Draft not found at /Users/djwayne/9takes/src/blog/people/drafts/oliver-tree.md, skipping grade-block cleanup
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 10:17:13)
+Command: /grade_blog oliver-tree
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/7_grade.log
+─────────────────────────────────────────────────────
+I can't grade this one — **there's no Oliver Tree draft to grade.** The blog was never created.
+
+## What happened
+
+The overnight pipeline for `oliver-tree` (run `2026-07-05_020805`) failed at **every stage** with the same infrastructure error:
+
+| Stage | Exit | Error |
+|-------|------|-------|
+| 1 create | 1 | `API Error: Unable to connect to API (ConnectionRefused)` |
+| 2 fresh_eyes | 1 | same |
+| 3 second_pass | 1 | same |
+| 4 cohesion | 1 | same |
+| 5 editor_pass | 1 | same |
+| 6 enrich | 0 | (no file to touch) |
+
+Stage 1 (`create`) is the step that writes the draft file. It never reached the API, so **no draft was ever produced.** I confirmed there's no `Oliver-Tree.md` (or any variant) in `src/blog/people/drafts/` — 469 files, none match. Stage 7 (`grade`) has a 0-byte log, which is why this landed on my desk with nothing behind it.
+
+## The real problem (matches your audit notes)
+
+This is the **"silent 6-hour cycle"** failure mode from your `project_blog_pipeline_audit_2026_07_04` notes showing up live. `nightly-blog-cron.sh` logged all five stages as `exit=1` but **marched forward anyway** — each stage burned its full ~1.5-hour timeout against a missing draft, producing a full set of green-looking log files for a run that created zero content. The chain should hard-stop when stage 1 exits non-zero.
+
+## Your options
+
+1. **Re-run the full pipeline** for `oliver-tree` now that the API is presumably back up — creates the draft and runs create → fresh-eyes → second-pass → cohesion → editor → enrich, then I grade it.
+2. **Re-run just stage 1** (`/blog_content_creator_people_v2 oliver-tree`) so you can babysit it, then I grade once a real draft exists.
+
+Want me to kick off the creator stage for `oliver-tree`? I'll stop and hand back if creation fails again so we don't burn another silent cycle. And separately — worth adding the `exit 1` hard-stop to `nightly-blog-cron.sh` so this doesn't recur.
+[Stage 7] grade finished 10:18:08 (exit=0, 55s)
+
+[Stage 8] Skipped revision loop: no grade found (grade stage may have failed)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: oliver-tree
+Finished: Sun Jul  5 10:18:08 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree
+LINT: FAILED — see the latest lint log in /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree (deterministic rule violations need fixing before publish)
+REVISION LOOP: not needed
+
+═════════════════════════════════════════════════════

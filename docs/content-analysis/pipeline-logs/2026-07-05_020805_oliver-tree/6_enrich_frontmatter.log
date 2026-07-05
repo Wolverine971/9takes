@@ -1,0 +1,30 @@
+I can't run the enrichment — there's no draft to enrich, and the reason is upstream.
+
+## Blocked: the Oliver Tree draft was never created
+
+The frontmatter enrichment pass operates on an existing draft in `src/blog/people/drafts/`. There is no Oliver Tree file there (the drafts dir has 469 files; none match `oliver`/`Oliver-Tree`). The only artifact is the pipeline log directory, and it tells the story:
+
+**The entire overnight pipeline run failed at every stage:**
+
+| Stage | Exit | Error |
+| --- | --- | --- |
+| 1 create | 1 | `API Error: Unable to connect to API (ConnectionRefused)` |
+| 2 fresh_eyes | 1 | same |
+| 3 second_pass | 1 | same |
+| 4 cohesion | 1 | same |
+| 5 editor_pass | 1 | same |
+
+Stage 1 (`create`) is the step that writes the draft file. It never connected to the API, so **no draft was ever produced** — and stages 2–5 dutifully ran against nothing and failed the same way. Stage 6 (this enrichment step) has a 0-byte log, meaning it kicked off but had no file to touch either.
+
+This is an infrastructure failure, not a content problem: `ConnectionRefused` on every stage across `2026-07-05 02:08 → 10:12` means the Claude API endpoint the cron used was unreachable for the whole run (each stage burned its full ~1.5-hour timeout before giving up).
+
+## What I'd need to proceed
+
+Enrichment can't fabricate a draft. To get Oliver Tree to this stage, the pipeline needs a working API connection and a re-run from stage 1. Your options:
+
+1. **Re-run the full pipeline for `oliver-tree`** now that the API is presumably back — this creates the draft and runs it through fresh-eyes → second-pass → cohesion → editor → enrich in sequence. This is the correct fix.
+2. **Re-run just stage 1 (`/blog_content_creator_people_v2 oliver-tree`)** if you want to babysit it stage-by-stage, then let me pick up enrichment once a real draft exists.
+
+Want me to kick off the creator stage for `oliver-tree` so the draft exists, then run this enrichment pass against it? I'll stop and hand back if creation fails again so we don't burn another silent 6-hour cycle.
+
+One process note worth flagging: this cron chain logged every stage as a failure but still advanced to the next stage each time, so it produced a full set of green-looking log files for a run that created zero content. That's the "silent 6-hour cycle" failure mode from your pipeline-audit notes showing up live — the deterministic `nightly-blog-cron.sh` should probably hard-stop the chain when stage 1 exits non-zero rather than marching stages 2–6 forward against a missing draft.

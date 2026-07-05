@@ -46,6 +46,10 @@ This command owns the final release step:
 - Require `content_quality.overall >= 8.5`
 - Require `content_quality.rubric_version: 2` — v1 grades were inflated and discoverability-blind; a v1-graded draft must be re-graded with `/grade_blog` before it can publish
 - Require `content_quality.discoverability >= 7` (the v2 discoverability gate, enforced at publish, not just at grading)
+- Require `content_quality.caps_applied` to be empty
+- Require `content_quality.needs_review` to be false or absent
+- Require grade stability as `content_quality.grade_stability_delta <= 0.3`, or as `first_overall` / `regrade_overall` with absolute delta <= 0.3
+- Require `scripts/blog-source-audit.mjs` to find zero untagged quotes in the epigraph or cold open
 - Require the draft to look like a real article, not a skeleton or outline
 - Require both personality image files:
   - `static/types/[type]s/[Person].webp`
@@ -97,6 +101,10 @@ The script rejects candidates with:
 - `content_quality.overall < 8.5`
 - Stale grade: `rubric_version` missing or < 2 (blocker says `stale_grade_rubric_v1:re-run /grade_blog`)
 - `discoverability` missing or < 7
+- Active caps in `content_quality.caps_applied`
+- `content_quality.needs_review: true`
+- Missing or unstable grade-stability delta
+- Untagged load-bearing quote in the epigraph or cold open from `scripts/blog-source-audit.mjs`
 - Too little article body content
 - Too few `##` sections
 - TODO/placeholder/outline markers

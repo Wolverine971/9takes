@@ -41,7 +41,7 @@ After the editor pass produces the final body, enrich frontmatter with:
 - Source citations drawn from the body
 - FAQPage data (`faqs`) — 3–5 question/answer/anchor entries derived from the **final** analysis
 
-These fields are read by `src/routes/personality-analysis/[slug]/+page.server.ts` and rendered as Schema.org Person + FAQPage JSON-LD on every personality-analysis page, plus an on-page `<FAQSection>`. Filling them well is direct SEO and AI-search lift.
+These fields are read by `src/routes/personality-analysis/[slug]/+page.server.ts` and rendered as Schema.org Person + FAQPage JSON-LD on every personality-analysis page, plus an on-page `<FAQSection>`. The renderer emits FAQPage when the row has at least two real FAQ entries; there is no separate `include_faq_schema` database column to set. Filling `faqs` well is direct SEO and AI-search lift.
 
 ---
 
