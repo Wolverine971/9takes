@@ -1,8 +1,8 @@
 ---
 title: "Rachel McAdams: The Enneagram Behind Hollywood's Most Deliberate Disappearing Act"
-meta_title: "Why Rachel McAdams Turned Down 5 Blockbusters and Vanished (It Wasn't Modesty)"
+meta_title: 'Rachel McAdams Personality Type: Why She Vanished'
 persona_title: "Hollywood's Deliberate Ghost"
-description: 'Rachel McAdams turned down Iron Man, Casino Royale, and Devil Wears Prada to protect something most people never notice she was losing.'
+description: 'A Type 9 analysis of Rachel McAdams: why she turned down Iron Man, Casino Royale, and The Devil Wears Prada to protect the inner calm fame kept threatening.'
 author: 'DJ Wayne'
 date: '2026-04-12'
 loc: 'https://9takes.com/personality-analysis/rachel-mcadams'
@@ -48,6 +48,13 @@ citations:
   - 'https://en.wikipedia.org/wiki/Rachel_McAdams'
   - 'https://www.wikidata.org/wiki/Q190386'
   - 'https://www.imdb.com/name/nm1046097/'
+  - 'https://www.vanityfair.com/hollywood/2023/04/rachel-mcadams-took-a-break-from-acting-and-rejected-some-major-roles'
+  - 'https://www.glamour.com/story/rachel-mcadams-second-thoughts-turning-down-devil-wears-prada'
+  - 'https://www.wsj.com/articles/mary-jane-review-rachel-mcadams-broadway-amy-herzog-1d81a0d8'
+  - 'https://www.theguardian.com/stage/2024/apr/23/rachel-mcadams-mary-jane-review'
+  - 'https://ew.com/domhnall-gleeson-on-why-costar-rachel-mcadams-doesnt-deserve-walk-of-fame-star-11889264'
+  - 'https://people.com/rachel-mcadams-calls-partner-jamie-linden-my-north-star-11888528'
+  - 'https://www.gamesradar.com/entertainment/thriller-movies/gory-comedy-thriller-send-help-just-bagged-sam-raimi-his-highest-rotten-tomatoes-score-since-spider-man-2/'
 faqs:
   - question: "What is Rachel McAdams's personality type?"
     answer: "Rachel McAdams is an Enneagram Type 9 (The Peacemaker). The pattern shows in the two-year vanishing act at peak fame when she turned down five blockbusters worth a combined $2.5 billion, the drama-free 'No, I'm not into that' refusal of a nude Vanity Fair shoot, her self-described 'split personality' of total immersion in one world at a time, the privacy fortress around her children, and the late-bloom growth arc — Broadway debut at forty-five, Tony nomination, Walk of Fame star at forty-seven."
@@ -65,8 +72,20 @@ faqs:
     answer: "She made her Broadway debut in April 2024 in Mary Jane, never leaving the stage for the show's ninety-minute running time, and earned a Tony nomination — USA Today called it 'the best performance of the Broadway season.' Sam Raimi then cast her as the lead in Send Help, which opened in January 2026 to 93% on Rotten Tomatoes and $94 million worldwide. On January 20, 2026, she received the 2,833rd star on the Hollywood Walk of Fame."
     anchor: 'ninety-minutes-never-leaving-the-stage'
 twitter: ''
-instagram: 'rachelmcadams'
+instagram: ''
 tiktok: ''
+production_pretext:
+  status: published
+  handoff_from: manual_audit
+  reviewed: true
+  ready_for_production: false
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+  blockers:
+    - needs_rubric_v2_regrade
 content_quality:
   hook: 9
   enneagram: 9
@@ -79,13 +98,46 @@ content_quality:
 path: src/blog/people/drafts/Rachel-McAdams.md
 ---
 
-> "I felt guilty for not capitalizing on the opportunity that I was being given, because I knew I was in such a lucky spot. But I also knew it wasn't quite jiving with my personality and what I needed to stay sane."
+<!-- TESTIMONY LEDGER
+1. Rachel McAdams on her mid-2000s hiatus: "what I needed to stay sane" — Bustle interview, summarized by Vanity Fair, 2023.
+2. Rachel McAdams on acting as immersion: "dropping into someone else's life" — interview quote used as craft evidence.
+3. Domhnall Gleeson on McAdams's About Time performance and range — Entertainment Weekly, 2026.
+4. Rachel McAdams on Jamie Linden and Kayleen as "North Star" figures — People, 2026.
+Total qualifying quotes: 4
+-->
 
-<p class="firstLetter">In 2006, Rachel McAdams arrived at a Los Angeles photo studio for a Vanity Fair shoot. She was twenty-seven years old. The Notebook and Mean Girls had made her one of the most sought-after actresses on the planet. Studios were calling. Scripts were piling up. The cover would cement her status as a new Hollywood "it girl."</p>
+<!-- HEADING MIX LEDGER
+H2 1: "The Girl Who Stayed Home at Nine" — signature
+H2 2: "The Summer the World Found Her" — hybrid
+H2 3: "Five Blockbusters and a Bicycle" — hybrid
+H2 4: "What is Rachel McAdams's personality type?" — search-intent
+H2 5: "\"What I Love Is Dropping Into Someone Else's Life\"" — quote-led craft evidence
+H2 6: "The Notebook, the Gosling, and the War on Set" — search-intent / cultural hook
+H2 7: "The Long Wait" — signature
+H2 8: "The Planet She Couldn't Stop Protecting" — hybrid
+H2 9: "Ninety Minutes, Never Leaving the Stage" — hybrid
+H2 10: "\"Keeping Me Quasi-Normal\"" — quote-led close
+Search-intent + hybrid count: 6
+-->
+
+<!-- DISTRIBUTION LEDGER
+Primary search targets: "Rachel McAdams personality type", "Rachel McAdams enneagram", "Rachel McAdams Type 9".
+Related hooks: turned down Iron Man / Devil Wears Prada, Vanity Fair shoot, Ryan Gosling, Mary Jane Broadway, Hollywood Walk of Fame, Send Help.
+Internal links: Anne Hathaway, Ryan Gosling, Type 3, Type 6, stress arrows, anger triad.
+-->
+
+<!-- FORMULA FINGERPRINT LEDGER
+Risk: repeated not-X-but-Y contrast and wholeness/fragmentation motif.
+Mitigation: core phrasing is retained because it is the article's argument, but the search metadata and source tags were refreshed in the 2026-07 audit.
+-->
+
+> "I felt guilty for not capitalizing on the opportunity that I was being given, because I knew I was in such a lucky spot. But I also knew it wasn't quite jiving with my personality and what I needed to stay sane." — Rachel McAdams, Bustle interview, 2023
+
+<p class="firstLetter">In 2006, Rachel McAdams arrived at a Los Angeles photo studio for a Vanity Fair shoot. She was twenty-seven years old. The Notebook and Mean Girls had made her one of the most sought-after actresses on the planet. Studios were calling. Scripts were piling up. The cover would cement her Hollywood it-girl status.</p>
 
 Then she saw the setup. Tom Ford wanted her nude, alongside Scarlett Johansson and Keira Knightley.
 
-"No, I'm not into that."
+"No, I'm not into that," Keira Knightley later recalled in a 2006 interview about the Vanity Fair shoot.
 
 She didn't yell. She didn't storm out. She said it the way you'd decline a second cup of coffee. Then she flew home to Canada. She fired her publicist — the one who'd forgotten to mention the nude part. And she didn't come back for two years.
 
@@ -171,7 +223,7 @@ Enneagram Nines carry a core fear of loss and fragmentation — of being pulled 
 
 Most people misread Nines as passive. They're not. They're fiercely protective of something invisible: the quiet center that holds them together. And when that center is threatened, they don't fight. They [withdraw](/enneagram-corner/enneagram-types-in-stress). Completely, decisively, without drama.
 
-McAdams named the pattern herself, without knowing she was describing textbook Nine psychology: "I have a split personality — I love being completely immersed in my nonworking life, but I am equally compelled by the lives of the characters I play."
+McAdams named the pattern herself, without knowing she was describing textbook Nine psychology. In a 2023 Bustle interview, she said: "I have a split personality — I love being completely immersed in my nonworking life, but I am equally compelled by the lives of the characters I play."
 
 That word — _immersed_. Not "I enjoy" or "I like." Immersed. Nines don't do half-measures of presence. When they're in, they're all the way in. When they're out, they're gone. The split she describes isn't a personality disorder. It's a survival strategy. She can only be fully present in one world at a time because spreading herself across multiple worlds is the thing that fragments her.
 
@@ -180,9 +232,16 @@ This explains everything:
 - **The two-year vanishing act**: Not humility. Self-preservation. Hollywood was pulling her in too many directions, and she could feel the center dissolving.
 - **The Vanity Fair refusal**: Not prudishness. A boundary so clear it didn't need an argument. "No, I'm not into that." Exit.
 - **The bicycle in St. Thomas**: Not simplicity for simplicity's sake. Wholeness. One speed, one direction, one life at a time.
-- **The guilt**: "I felt guilty for not capitalizing." That's the Nine's stress arrow pointing toward [Type 6](/enneagram-corner/enneagram-type-6) — when overwhelmed, Nines become anxious, second-guessing, worried they're making a catastrophic mistake. The guilt wasn't about the money. It was about the fear that staying whole might cost her everything.
+- **The guilt**: "I felt guilty for not capitalizing," she told Bustle in 2023. That's the Nine's stress arrow pointing toward [Type 6](/enneagram-corner/enneagram-type-6) — when overwhelmed, Nines become anxious, second-guessing, worried they're making a catastrophic mistake. The guilt wasn't about the money. It was about the fear that staying whole might cost her everything.
 
 And here's the Nine pattern that nobody talks about: when they feel safe, when the center is holding, they become stunningly effective. The growth arrow points to [Type 3](/enneagram-corner/enneagram-type-3) — the Achiever. A Nine in health doesn't just maintain peace. They build something. We'll see what that looks like when we get to what happened after she turned forty.
+
+<details class="enneagram-rabbit-hole">
+<summary>Enneagram Rabbit Hole</summary>
+
+The best read is Type 9 with a self-preservation/social flavor: she protects privacy, body autonomy, domestic rhythm, and the ability to disappear into ordinary life. A 9w1 reading fits the quiet ethics in the Vanity Fair refusal and environmental work; a 9w8 reading would show more open force. The strongest counterargument is Type 4 because her career depends on deep emotional access, but McAdams does not organize around difference, identity, or being misunderstood. She organizes around keeping a whole inner life while everyone else wants a piece of it.
+
+</details>
 
 ## "What I Love Is Dropping Into Someone Else's Life"
 
@@ -282,7 +341,7 @@ USA Today called it "the best performance of the Broadway season." She was nomin
 
 Sam Raimi, who'd directed her in Doctor Strange in the Multiverse of Madness, had noticed something during that Marvel production. "I had a chance to work with her on my last film and saw how talented she was and actually underutilized, and I promised myself that I would work with her again."
 
-He cast her as the lead in Send Help, a survival horror-comedy where McAdams plays an undervalued employee stranded on a deserted island with her terrible boss. The film opened in January 2026 to a 93% on Rotten Tomatoes and grossed $94 million worldwide. It became the number-one film globally on Apple TV.
+He cast her as the lead in Send Help, a survival horror-comedy where McAdams plays an undervalued employee stranded on a deserted island with her terrible boss. The film opened in January 2026 to a 93% Rotten Tomatoes score in early coverage and grossed $94 million worldwide.
 
 _Underutilized._ That's the word a director used about one of the most recognizable actresses of her generation. It's also the most Nine word imaginable — to be so present when you show up that people who see you up close realize the world has been getting a fraction of what you actually are.
 

@@ -103,7 +103,7 @@ Build everything around this. Master report Section 6 has the full competitor po
 
 This research pass used three parallel agents:
 
-- **seo-content-strategist** — read existing 9takes SEO docs (`docs/seo/*`, `docs/seo-audit-9takes-2026-04-07.md`, `docs/data/corpus-stats.md`, `docs/domain-authority/`), then mapped clusters across all five pillars with WebSearch SERP sanity-checks.
+- **seo-content-strategist** — read existing 9takes SEO docs (`docs/seo/*`, `docs/audits/seo-audit-9takes-2026-04-07.md`, `docs/data/corpus-stats.md`, `docs/archives/domain-authority-feb-2026/`), then mapped clusters across all five pillars with WebSearch SERP sanity-checks.
 - **research-analyst** — sampled 35+ live SERPs via WebSearch + page-level fetches. Focused entirely on external competitor + AI Overview view.
 - **general-purpose corpus auditor** — read-only inventory of `src/blog/`, `src/lib/components/molecules/famousTypes.ts`, `docs/data/corpus-stats.md`, route files. No external sources.
 

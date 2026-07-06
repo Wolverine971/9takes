@@ -98,14 +98,18 @@ export const load: PageServerLoad = async () => {
 	const topTypeKey = topType[0];
 	const topTypeShare = topType[1];
 	const topTypeName = TYPE_NAMES[topTypeKey];
+	const rarestType = sortedTypes[sortedTypes.length - 1]; // [typeKey, share]
+	const rarestTypeKey = rarestType[0];
+	const rarestTypeShare = rarestType[1];
+	const rarestTypeName = TYPE_NAMES[rarestTypeKey];
 
 	// ----- Dynamic SEO copy. Bound to live numbers. -----
-	const title = `Enneagram Type Distribution: ${published} Public Figures Analyzed`;
+	const title = `Enneagram Type Distribution Statistics: ${published} Public Figures by Type`;
 	const description =
-		`Type distribution and over/under-representation across ${published} published ` +
-		`public-figure profiles on 9takes, compared against ${externalSampleTotal.toLocaleString()}+ ` +
-		`Enneagram test-takers from public datasets. Regenerated on every deploy.`;
-	const headline = `The 9takes Corpus: Enneagram Type Distribution Across ${published} Public Figures`;
+		`Current Enneagram type distribution statistics from ${published} published ` +
+		`public-figure profiles on 9takes, including musician, comedian, tech founder, ` +
+		`politician, and author breakdowns. Regenerated on every deploy.`;
+	const headline = `Enneagram Type Distribution Statistics: ${published} Public Figures by Type`;
 
 	// ----- FAQ entries — Q&A pairs derived from citable claims + domain leaders. -----
 	// These mirror visible content on the page (required by Google for FAQPage rich results).
@@ -125,7 +129,7 @@ export const load: PageServerLoad = async () => {
 		},
 		{
 			q: 'Are Enneagram types evenly distributed across public figures?',
-			a: `No. The 9takes corpus shows an uneven distribution: Type ${topTypeKey} (${topTypeName}) leads at ${pct(topTypeShare)}% while the rarest types sit near 7%. The often-cited "11.11% per type" baseline is a theoretical prior, not an empirical finding — no primary public dataset supports an even distribution.`
+			a: `No. The 9takes corpus shows an uneven distribution: Type ${topTypeKey} (${topTypeName}) leads at ${pct(topTypeShare)}%, while Type ${rarestTypeKey} (${rarestTypeName}) is rarest at ${pct(rarestTypeShare)}%. The often-cited "11.11% per type" baseline is a theoretical prior, not an empirical finding — no primary public dataset supports an even distribution.`
 		}
 	];
 
@@ -200,6 +204,8 @@ export const load: PageServerLoad = async () => {
 			'public figures',
 			'celebrity Enneagram',
 			'type prevalence',
+			'Enneagram statistics',
+			'Enneagram type percentages',
 			'data journalism',
 			'Enneagram research',
 			'comparison to published data',

@@ -1,4 +1,4 @@
-<!-- docs/admin-style-audit.md -->
+<!-- docs/design/admin-style-audit.md -->
 
 # Admin Panel Style Audit
 

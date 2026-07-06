@@ -1,4 +1,4 @@
-<!-- docs/performance-audit-2026-02-23.md -->
+<!-- docs/audits/performance-audit-2026-02-23.md -->
 
 # 9takes Performance Audit (2026-02-23)
 

@@ -5,7 +5,7 @@ meta_title: "Why Dixie D'Amelio Can't Escape Charli's Shadow (Psychology Explain
 description: "Inside Dixie D'Amelio's battle with identity, anxiety, and being the 'other' D'Amelio sister. A deep Type 4 personality analysis."
 author: 'DJ Wayne'
 date: '2025-01-07'
-loc: "https://9takes.com/personality-analysis/dixie-d'Amelio"
+loc: "https://9takes.com/personality-analysis/dixie-d'amelio"
 lastmod: '2026-01-17'
 changefreq: 'monthly'
 priority: '0.6'

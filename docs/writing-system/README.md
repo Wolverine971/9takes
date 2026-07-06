@@ -2,7 +2,7 @@
 
 # Writing System
 
-_Last Updated: 2026-01-06_
+_Last Updated: 2026-07-06_
 _Purpose: Complete workflows for creating and editing content_
 
 ---
@@ -182,10 +182,10 @@ After every blog post, create:
 | Brand voice              | `/docs/brand/brand-style-guide-v2.md`                                                                   |
 | Celebrity optimization   | `/docs/content-generation/celebrity-page-optimization-instructions.md`                                  |
 | AI search optimization   | `/docs/content-analysis/ai-search-optimization-guide.md`                                                |
-| Current action plan      | `/docs/30-DAY-ACTION-PLAN-DEC-2025.md`                                                                  |
+| Current operating brief  | [`/docs/START-HERE.md`](../START-HERE.md)                                                               |
 | X/Twitter strategy       | `/docs/twitter/strategy/master-strategy.md`                                                             |
 
-### Workflow Templates ⭐ NEW
+### Workflow Templates
 
 | Template                       | Purpose                                  | Location                                                                                      |
 | ------------------------------ | ---------------------------------------- | --------------------------------------------------------------------------------------------- |

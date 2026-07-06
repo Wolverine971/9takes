@@ -1,4 +1,4 @@
-<!-- docs/design/solo-leveling-9takes-brand-direction.md -->
+<!-- docs/archives/design/solo-leveling-9takes-brand-direction.md -->
 
 > ⚠️ **ARCHIVED 2026-05-04** — Solo Leveling aesthetic retired. The locked design system is `docs/design-system.md` (Streetlamp Symposium). Asset generators that use Solo Leveling outputs migrate to V5 in Phase 6 of `docs/design/2026-05-04-rollout-plan.md`.
 
@@ -374,7 +374,7 @@ Answer: no commit to the direction and implement it across the site
 
 ## Reference Materials
 
-- `docs/brand/solo-leveling-visual-guide-unified.md` - Current visual system
+- `docs/archives/design/solo-leveling-visual-guide-unified.md` - Archived visual system
 - `docs/brand/brand-style-guide-v2.md` - Current brand voice
 - `docs/domain-authority/02-personality-maxing.md` - Personality maxing framework
 - `src/blog/enneagram/personality-maxing.md` - Main blog post

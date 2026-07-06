@@ -25,7 +25,7 @@ Closest related references:
 - `src/blog/people/drafts/*.md` for current `type` frontmatter
 - `src/lib/components/molecules/BlogTiles.svelte` for an older hard-coded people taxonomy
 - `src/lib/instagram/postingStrategy.ts` for the cleanest existing normalization of raw `type` tags into broader lanes
-- `docs/domain-authority/07-pop-culture-celebrities.md` for strategic category buckets
+- `docs/archives/domain-authority-feb-2026/07-pop-culture-celebrities.md` for historical strategic category buckets
 - `docs/development/content-command-center-spec.md` for category-distribution thinking
 
 Important constraint:

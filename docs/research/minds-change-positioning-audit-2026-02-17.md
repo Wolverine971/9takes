@@ -30,8 +30,8 @@ Convert the research in `blog-persuasion-ideas.md` into:
 
 ### Strategy/internal docs
 
-- `docs/domain-authority/08-community-engagement.md`
-- `docs/domain-authority/00-master-index.md`
+- `docs/archives/domain-authority-feb-2026/08-community-engagement.md`
+- `docs/archives/domain-authority-feb-2026/00-master-index.md`
 - `docs/project-docs/9takes-context.md`
 
 ## What 9takes Already Has (Strong)
@@ -107,7 +107,7 @@ Without explicit internal language, this positioning remains implicit and incons
    - added 3-layer mind-change architecture
    - expanded key messaging and LLM guidelines to include identity-safety and curiosity-first communication goals
 
-2. `docs/domain-authority/08-community-engagement.md`
+2. `docs/archives/domain-authority-feb-2026/08-community-engagement.md`
    - added a dedicated strategic opportunity section for belief-change authority
    - added a priority content cluster for mind-change/community outcomes
    - updated immediate priorities with this lane

@@ -28,7 +28,7 @@ re-reporting the same findings.
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | [`docs/design/2026-06-09-design-audit.md`](../2026-06-09-design-audit.md)           | V5 execution audit: tokens, radius, callouts, header/footer, question thread, prose measure |
 | [`docs/design/2026-06-11-mobile-audit.md`](../2026-06-11-mobile-audit.md)           | Mobile-specific design findings and follow-up work                                          |
-| [`docs/admin-style-audit.md`](../../admin-style-audit.md)                           | Admin styling baseline where relevant                                                       |
+| [`docs/design/admin-style-audit.md`](../admin-style-audit.md)                       | Admin styling baseline where relevant                                                       |
 | [`docs/development/STYLE_AUDIT_REPORT.md`](../../development/STYLE_AUDIT_REPORT.md) | Older style migration context                                                               |
 | [`docs/development/css-audit-findings.md`](../../development/css-audit-findings.md) | CSS/token drift context                                                                     |
 

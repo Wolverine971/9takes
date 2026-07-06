@@ -252,7 +252,7 @@ Before marking a post as "fixed," verify:
 ## Related Documents
 
 - [crosslink-action-plan.md](./crosslink-action-plan.md) - Detailed crosslink tracking
-- [blog-crosslink-index.md](./blog-crosslink-index.md) - Full analysis data
+- [Current blog cross-link index](../BLOG-CROSSLINK-INDEX.md) - Full current analysis data
 - [../writing-system/02-blog-optimization-framework.md](../writing-system/02-blog-optimization-framework.md) - Quality standards
 
 ---

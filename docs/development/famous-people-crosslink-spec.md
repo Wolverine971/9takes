@@ -6,7 +6,7 @@ status: implemented
 category: spec
 related:
   - ./content-board-enhancement-spec.md
-  - ../content-analysis/blog-crosslink-index.md
+  - ../BLOG-CROSSLINK-INDEX.md
 path: docs/development/famous-people-crosslink-spec.md
 ---
 
@@ -608,7 +608,7 @@ When viewing a blog, show:
 ## Related Documentation
 
 - [Content Board Enhancement Spec](./content-board-enhancement-spec.md) - Main content board design
-- [Blog Cross-Link Index](../content-analysis/blog-crosslink-index.md) - Static cross-link report for MDsvex blogs
+- [Blog Cross-Link Index](../BLOG-CROSSLINK-INDEX.md) - Static cross-link report for MDsvex blogs
 
 ---
 

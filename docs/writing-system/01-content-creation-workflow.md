@@ -401,7 +401,7 @@ Every blog post should generate these within 48 hours:
 - [Blog optimization framework](/docs/writing-system/02-blog-optimization-framework.md)
 - [McPhee editing method](/docs/writing-system/03-mcphee-editing-method.md)
 - [Content examples](/docs/writing-system/04-content-patterns-library.md)
-- [SEO checklist](/docs/seo/seo-optimization-checklist.md)
+- [SEO checklist](/docs/content-analysis/seo-optimization-checklist.md)
 
 ### External Tools
 

@@ -1,4 +1,4 @@
-<!-- docs/seo-audit-9takes-2026-04-07.md -->
+<!-- docs/audits/seo-audit-9takes-2026-04-07.md -->
 
 # 9takes SEO Audit
 

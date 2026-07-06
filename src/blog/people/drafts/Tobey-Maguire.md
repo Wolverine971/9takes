@@ -5,7 +5,7 @@ persona_title: "Hollywood's Guarded Everyman"
 description: "Why did America's gentlest superhero turn ruthless at the poker table? Tobey Maguire is an Enneagram Type 6, where warmth and cruelty run on one fear."
 author: 'DJ Wayne'
 date: '2026-07-03'
-loc: 'https://9takes.com/personality-analysis/Tobey-Maguire'
+loc: 'https://9takes.com/personality-analysis/tobey-maguire'
 lastmod: '2026-07-03'
 changefreq: 'monthly'
 priority: '0.6'

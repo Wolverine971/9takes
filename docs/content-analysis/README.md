@@ -2,48 +2,52 @@
 
 # Content Analysis Resources
 
-_Last Updated: 2025-12-04_
-_Purpose: SEO, traffic, and content optimization analysis_
+Last updated: 2026-07-06  
+Purpose: SEO, traffic, quality, and content-refresh analysis
 
----
+## Start Here
 
-## Key Resources
+| Need                                    | File                                                                                                                     |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Optimize for AI/search snippets         | [`ai-search-optimization-guide.md`](./ai-search-optimization-guide.md)                                                   |
+| Run the SEO checklist                   | [`seo-optimization-checklist.md`](./seo-optimization-checklist.md)                                                       |
+| Fix internal-link gaps                  | [`../BLOG-CROSSLINK-INDEX.md`](../BLOG-CROSSLINK-INDEX.md)                                                               |
+| Use current people-corpus numbers       | [`../data/corpus-stats.md`](../data/corpus-stats.md)                                                                     |
+| Understand current pipeline health      | [`pipeline-audit-2026-07-04/automation-report.md`](./pipeline-audit-2026-07-04/automation-report.md)                     |
+| Pick content refresh targets            | [`tier1-blog-refresh-plan-2026-07-01.md`](./tier1-blog-refresh-plan-2026-07-01.md)                                       |
+| Review personality-analysis performance | [`personality-analysis-performance-deep-dive-2026-05-29.md`](./personality-analysis-performance-deep-dive-2026-05-29.md) |
 
-| File                                                                                   | Purpose                                     | When to Use                    |
-| -------------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------ |
-| [`ai-search-optimization-guide.md`](./ai-search-optimization-guide.md)                 | **PRIMARY** - How to optimize for AI search | Optimizing any content         |
-| [`enneagram-content-staleness-analysis.md`](./enneagram-content-staleness-analysis.md) | Analysis of repetitive patterns             | Refreshing stale content       |
-| [`remaining-optimizations-todo.md`](./remaining-optimizations-todo.md)                 | Outstanding optimization tasks              | Finding what still needs work  |
-| [`revised-analysis-traffic-ai-search.md`](./revised-analysis-traffic-ai-search.md)     | Traffic & AI search analysis                | Understanding traffic patterns |
+## Current Generated Inputs
 
----
+- [`../BLOG-CROSSLINK-INDEX.md`](../BLOG-CROSSLINK-INDEX.md) was generated
+  2026-07-06 and is the current source for internal-link priorities.
+- [`../data/corpus-stats.md`](../data/corpus-stats.md) was generated
+  2026-07-06 and is the current source for people-profile counts.
+- Search Console exports may be stale. Check [`../data/gsc/README.md`](../data/gsc/README.md)
+  and the latest dated export before making current SEO-performance claims.
 
 ## Quick Reference: AI Search Optimization
 
-### What Makes Content "AI-Friendly"
+AI-friendly content usually has:
 
-1. **Direct answers** in first 2 sentences
-2. **Numbered lists** and bullet points
-3. **Tables** for comparisons
-4. **Clear headers** that match search queries
-5. **Authoritative language** (no hedging)
-6. **FAQ sections** with real questions
-7. **Updated dates**
+1. A direct answer in the first 2 sentences.
+2. Clear headings that match real questions.
+3. Tables for comparisons.
+4. Numbered lists for procedural answers.
+5. FAQ sections sourced from visible page content.
+6. Updated dates and concrete examples.
+7. Strong internal links to adjacent authority pages.
 
-### Replace Hedging Language
+## Active Cleanup Targets
 
-| Find             | Replace With             |
-| ---------------- | ------------------------ |
-| "may experience" | "commonly experience"    |
-| "tend to have"   | "frequently display"     |
-| "might struggle" | "often struggle"         |
-| "can develop"    | "are at higher risk for" |
+- Completely isolated posts in [`../BLOG-CROSSLINK-INDEX.md`](../BLOG-CROSSLINK-INDEX.md).
+- Pop-culture posts with no outgoing links.
+- Personality-analysis pages with high impressions and weak CTR.
+- Stale docs or taskers that still cite pre-V5 design guidance, old root paths,
+  or outdated corpus totals.
 
----
+## Archived Context
 
-## Archived Files
-
-Session-specific files from October 2025 have been moved to:
-`/docs/archives/content-analysis-oct-2025/`
-
-These include handoff summaries, quick checklists, and dated session notes.
+Session-specific October 2025 content-analysis files live in
+[`../archives/content-analysis-oct-2025/`](../archives/content-analysis-oct-2025/).
+Use them for history, not current operating guidance.

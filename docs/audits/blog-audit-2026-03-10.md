@@ -1,4 +1,4 @@
-<!-- docs/blog-audit-2026-03-10.md -->
+<!-- docs/audits/blog-audit-2026-03-10.md -->
 
 # Blog Quality Audit — 2026-03-10
 

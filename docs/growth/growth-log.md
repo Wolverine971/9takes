@@ -8,6 +8,47 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-07-06 - Weekly growth audit: gate conversion ticked up, but activation still has no fuel
+
+- Area: Activation / give-first instrumentation / signup quality / email / coaching
+- Status: audit complete. The 2026-07-06 daily brief flagged stale growth data; this run used live DB numbers. 2026-07-06 is Monday WTD and immature.
+- Observed numbers (last 8 weeks queried; recent cohorts shown):
+
+| Cohort wk  | New visitors | Signups (active/unsub) | Profiles | Comments | Gate fps -> comments | Contributor D7 | Waitlist | Active seq/profile sends open/click |
+| ---------- | -----------: | ---------------------: | -------: | -------: | -------------------: | -------------: | -------: | ----------------------------------: |
+| 2026-07-06 |          634 |              0 (0 / 0) |        0 |        0 |          1 -> 0 = 0% |              - |        0 |                           0 / 0 / 0 |
+| 2026-06-29 |        3,615 |              1 (1 / 0) |        0 |        2 |        10 -> 2 = 20% |     0 / 2 = 0% |        0 |                           1 / 0 / 0 |
+| 2026-06-22 |        2,597 |              1 (1 / 0) |        0 |        1 |        10 -> 1 = 10% |     0 / 1 = 0% |        0 |                           1 / 0 / 0 |
+| 2026-06-15 |        3,599 |           83 (10 / 73) |        0 |        5 |      30 -> 4 = 13.3% |    1 / 4 = 25% |        0 |                           3 / 2 / 0 |
+
+- Direction changes vs 2026-07-01 audit:
+  - **The 2026-06-29 week matured better than the WTD snapshot.** It finished at 3,615 new visitors, 2 comments, 10 gated fingerprints, and 20% inferred wall -> comment conversion; on 2026-07-01 it only showed 1,622 visitors, 0 comments, 2 gated fps, and 0% conversion.
+  - **The upstream capture problem did not move.** The same week still produced only 1 signup, 0 profiles, 0 waitlist adds, and current 2026-07-06 WTD is 634 new visitors -> 0 signups, 0 profiles, 0 comments.
+  - **Contributor retention stayed dead.** 2026-06-29 added 2 first-time contributors but 0 returned within 7 days. The only non-zero return remains the 2026-06-15 spike cohort.
+  - **Signup hardening remains clean but starves volume.** Since 2026-06-20: 7 signups, 7 active, 0 unsubscribed; `newsletter_signup_security_events` still shows 11 honeypot blocks and 2 successes. No new signup has appeared since 2026-06-29.
+  - **Email is running but unfueled.** `welcome_sequence` is active with 23 completed enrollments, 0 active enrollments, latest enrollment 2026-06-19, latest send 2026-06-29. Profile/welcome-like sends were 1 in each of the last two completed weeks, with 0 opens and 0 clicks. Active-sequence subject matching is caveated because code-managed welcome subjects changed while old sends remain in `email_sends`.
+  - **Give-first instrumentation is still half-blind.** `give_first_funnel_events` has only `gate_shown` (115 events / 54 fps); there is still no native `contribution` event. `nine_user_takes` is still 1 row in the last 8 weeks.
+
+- **Biggest leak this week: 9takes can occasionally turn a gated question visitor into a comment, but it still does not turn organic attention into reachable, returning users.** Completed week 2026-06-29 had 2,213 personality-analysis fps + 1,032 enneagram-corner fps + only 24 question fps, producing 1 signup, 0 profiles, 2 comments, and 0 contributor returns.
+
+- Recommended bets:
+  1. **Move a reachable activation ask onto the high-traffic content surfaces.** We believe an above-fold, page-matched email capture or Chorus/give-first prompt on personality-analysis and enneagram-corner will lift visitor -> reachable user because those surfaces supplied ~90% of recent attention while questions got only 24 fps. Success = >=1% of those sessions submit email or trigger Chorus/reveal within 30 days; guardrail = bounce does not worsen by >3 pts.
+  2. **Ship native submit-side give-first instrumentation.** We believe emitting `contribution` / `comment_submitted` with the same fingerprint as `gate_shown` will make the only moving activation signal readable because current wall conversion is still inferred by joining comments. Success = native gate_shown -> contributed funnel exists for >=1 fingerprint within 7 days, including Chorus.
+  3. **Revive Experiment A as post-comment email capture, not a broad newsletter ask.** We believe asking anonymous first commenters for reply notifications will create the missing reachable identity loop because 2026-06-29 produced contributors but 0 D7 return. Success = >=10% email capture among anonymous first commenters and >=1 captured commenter returns within 30 days; guardrail = first-comment completion does not fall.
+
+- Running experiment status:
+  - Welcome sequence remains `running`, but is starved: 0 active enrollments, no new profiles since 2026-06-15, last send 2026-06-29, no clicks in the last 8 weeks of profile/welcome-like sends.
+  - Experiment A is still planned/unshipped; the 2026-06-29 commenter uptick makes it more urgent, but submit-side instrumentation remains the measurement prerequisite.
+  - Signup hardening read remains positive on quality and negative on volume: 7/7 post-2026-06-20 signups active, 0 unsubscribed, but no new signup since 2026-06-29.
+
+- Repro SQL used this audit:
+  - New visitors: first-touch CTE on `page_analytics_visits.fingerprint`, grouped by `date_trunc('week', min(started_at))`.
+  - Core counts: `signups`, `profiles`, `comments`, and `coaching_waitlist` grouped by `date_trunc('week', created_at)`.
+  - Wall conversion: `give_first_funnel_events.event_type = 'gate_shown'` joined to same-fingerprint, same-question `comments` within 7 days.
+  - Contributor return: first comment per `coalesce(author_id, fingerprint)` joined to a second comment within 7 days.
+  - Email: active `email_sequences`, code-managed welcome subjects, `email_sends`, `email_tracking_events`, plus profile-recipient send proxy for historical subject drift.
+  - Running checks: `newsletter_signup_security_events`, `nine_user_takes`, and `give_first_funnel_events` event-type distribution.
+
 ### 2026-07-01 - Weekly growth audit: signup spam is suppressed, but real activation went quiet again
 
 - Area: Activation / give-first instrumentation / signup quality / email

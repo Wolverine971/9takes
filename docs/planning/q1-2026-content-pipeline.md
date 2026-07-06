@@ -279,7 +279,7 @@ Continue TIER 3 celebrities + enneagram core pages.
 ### Strategy Documents
 
 - `/docs/START-HERE.md` — Master strategy
-- `/docs/domain-authority/00-master-index.md` — Content gaps
+- `/docs/archives/domain-authority-feb-2026/00-master-index.md` — Historical content gaps
 - `/docs/marketing/viral-coach-framework-reference.md` — Trust Onion framework
 
 ### Research Resources

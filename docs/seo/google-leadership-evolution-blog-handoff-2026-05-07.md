@@ -176,7 +176,7 @@ This is the section that justifies the existence of the blog. Founders-vs-stewar
 
 Must-hit beats:
 
-- Both meet at Stanford 1995. Both call the meeting obnoxious. Bicker buddies. ([Page draft](src/blog/people/drafts/Larry-Page.md), [Brin draft](src/blog/people/drafts/Sergey-Brin.md))
+- Both meet at Stanford 1995. Both call the meeting obnoxious. Bicker buddies. ([Page draft](../../src/blog/people/drafts/Larry-Page.md), [Brin draft](../../src/blog/people/drafts/Sergey-Brin.md))
 - **Page = 5w6 (the fortress).** Reference once: GUS / Zee.Aero (one sentence + link to Page analysis). Five private islands. Vocal cord paralysis funded into research, not announced. The 6 wing is the secrecy infrastructure.
 - **Brin = 5w7 (the trapeze).** Reference once: pebbles at police cars (one sentence + link to Brin analysis). Genome scan revealing his own Parkinson's risk. Handstands, Rollerblades, Burning Man, cow-costume interviews. The 7 wing is the iconoclast.
 - The synthesis: Page's 6 wanted the system to be _safe_. Brin's 7 wanted the system to be _interesting_. Both wings serving the same Type 5 hunger to know. _Google was a building only those two wings could have constructed together._

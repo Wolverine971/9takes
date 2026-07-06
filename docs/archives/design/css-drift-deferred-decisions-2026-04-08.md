@@ -1,4 +1,8 @@
-<!-- docs/css-drift-deferred-decisions-2026-04-08.md -->
+<!-- docs/archives/design/css-drift-deferred-decisions-2026-04-08.md -->
+
+> Archived 2026-07-06. These deferred decisions were captured before the
+> Streetlamp Symposium V5 lock. Use `docs/design-system.md` for current color,
+> typography, radius, and token decisions.
 
 # CSS Drift Deferred Decisions
 

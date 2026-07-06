@@ -2,7 +2,7 @@
 
 # Agent Prompt for 9takes Content Strategy
 
-_Last Updated: 2025-12-03_
+_Last Updated: 2026-07-06_
 
 ## Start Here
 
@@ -16,25 +16,26 @@ GSC data proves mental health + problem-focused content wins. Type descriptions 
 
 ---
 
-## Current State (December 2025)
+## Current State (July 2026)
 
-### Content Inventory
+Use generated or dated sources for current numbers. Do not hand-copy old
+inventory counts into new briefs.
 
-- **Total Published:** 300+ posts
-- **Celebrity Analyses:** 215+ (drives discovery)
-- **Enneagram Core:** 68 posts
-- **Mental Health Guides:** 10 + variants (TOP TRAFFIC DRIVER)
-- **Relationship Content:** 18+ posts
-- **Drafts:** 100+ ready for development
+### Current Sources
 
-### What Works (GSC Data)
+| Source                                              | What to use it for                                                          |
+| --------------------------------------------------- | --------------------------------------------------------------------------- |
+| `/docs/data/corpus-stats.md`                        | Published profile counts, draft counts, type distribution, publish velocity |
+| `/docs/BLOG-CROSSLINK-INDEX.md`                     | Current internal-link priorities                                            |
+| `/docs/daily-briefs/2026-07-06_marketing-status.md` | Latest channel and automation state                                         |
+| `/docs/growth/growth-log.md`                        | Activation and signup-quality audits                                        |
 
-| Content Type             | Performance          |
-| ------------------------ | -------------------- |
-| Mental health content    | 177 clicks, 6.7% CTR |
-| Toxic traits content     | 63 clicks, 4.8% CTR  |
-| Cross-system comparisons | 46 clicks            |
-| Type descriptions (1-9)  | 0-5 clicks (FAILING) |
+### Current Read
+
+- Content demand works; conversion and distribution are the bottlenecks.
+- Personality-analysis and Enneagram authority pages carry the attention.
+- Internal-link cleanup is current high-leverage SEO work.
+- Fresh GSC is required before making current CTR/click claims.
 
 ---
 
@@ -75,12 +76,12 @@ Add to top pages:
 
 ### Opening Structure
 
-```markdown
-<div class="quick-answer">
+```svelte
+<script>
+	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+</script>
 
-**Quick Answer:** [Direct 2-sentence answer]
-
-</div>
+<QuickAnswer question="[The question your title implies]">[Direct 2-sentence answer]</QuickAnswer>
 
 <p class="firstLetter">[Emotional hook naming the problem]</p>
 ```
@@ -97,14 +98,14 @@ Add to top pages:
 
 ## Key Resources
 
-| Purpose          | Location                                                 |
-| ---------------- | -------------------------------------------------------- |
-| Main strategy    | `/docs/START-HERE.md`                                    |
-| Content workflow | `/docs/writing-system/01-content-creation-workflow.md`   |
-| SEO checklist    | `/docs/seo/seo-optimization-checklist.md`                |
-| AI optimization  | `/docs/content-analysis/ai-search-optimization-guide.md` |
-| Domain gaps      | `/docs/domain-authority/00-master-index.md`              |
-| Brand voice      | `/docs/brand/brand-style-guide-v2.md`                    |
+| Purpose          | Location                                                      |
+| ---------------- | ------------------------------------------------------------- |
+| Main strategy    | `/docs/START-HERE.md`                                         |
+| Content workflow | `/docs/writing-system/01-content-creation-workflow.md`        |
+| SEO checklist    | `/docs/content-analysis/seo-optimization-checklist.md`        |
+| AI optimization  | `/docs/content-analysis/ai-search-optimization-guide.md`      |
+| Domain gaps      | `/docs/archives/domain-authority-feb-2026/00-master-index.md` |
+| Brand voice      | `/docs/brand/brand-style-guide-v2.md`                         |
 
 ---
 

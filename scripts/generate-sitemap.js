@@ -1,5 +1,6 @@
 // scripts/generate-sitemap.js
 import { execFileSync } from 'child_process';
+import { existsSync } from 'fs';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -267,6 +268,15 @@ function getPathname(loc) {
 				.replace(/\/+$/, '') || '/'
 		);
 	}
+}
+
+/**
+ * @param {string} assetPath
+ * @returns {boolean}
+ */
+function staticAssetExists(assetPath) {
+	if (!assetPath) return false;
+	return existsSync(path.join(SITE_ROOT, 'static', assetPath.replace(/^\//, '')));
 }
 
 /**
@@ -925,7 +935,7 @@ function buildPostEntry(post) {
 		return {
 			loc,
 			lastmod,
-			...(imagePath && { imageLoc: `${SITE_URL}${imagePath}` })
+			...(imagePath && staticAssetExists(imagePath) && { imageLoc: `${SITE_URL}${imagePath}` })
 		};
 	}
 

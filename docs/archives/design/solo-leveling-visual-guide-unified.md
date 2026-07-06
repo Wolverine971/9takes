@@ -1,4 +1,4 @@
-<!-- docs/design/solo-leveling-visual-guide-unified.md -->
+<!-- docs/archives/design/solo-leveling-visual-guide-unified.md -->
 
 > ⚠️ **ARCHIVED 2026-05-04** — Solo Leveling aesthetic retired. The locked visual identity is Streetlamp Symposium in `docs/design-system.md`. See `docs/design/2026-05-04-rollout-plan.md` for migration phases.
 

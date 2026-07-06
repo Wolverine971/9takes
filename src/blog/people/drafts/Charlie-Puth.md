@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/charlie-puth'
 lastmod: '2026-07-01'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type:
   - musician
@@ -306,5 +306,4 @@ Cleaned up:
 Preserved: the Bieber empathy turn, the Elton John inner-thought beat, the light-switch hook/ending frame, all ledgers and the Rabbit Hole.
 Production-ready pending grade.
 -->
-
 

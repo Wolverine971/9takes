@@ -17,12 +17,12 @@ These are imported via `<script>` blocks in MDsvex files. Each renders a styled,
 **Path**: `$lib/components/blog/callouts/QuickAnswer.svelte`
 **Usage**: ~90 files | **Best for**: SEO-optimized featured snippet at top of article
 
-A dark-themed callout box with a purple left accent, question icon, and "Quick Answer" label. Designed to win Google's featured snippet for the article's primary question. Has Schema.org `Answer` markup built in.
+A Streetlamp V5 callout box with a lamp accent, question icon, and "Quick Answer" label. Designed to win Google's featured snippet for the article's primary question. Has Schema.org `Answer` markup built in.
 
 **Props**:
 
 - `question` (string, optional) — The question to display
-- `variant` (`'default'` | `'subtle'`, default: `'default'`) — `'default'` = purple gradient, `'subtle'` = neutral gray
+- `variant` (`'default'` | `'subtle'`, default: `'default'`) — `'default'` = lamp-accent callout, `'subtle'` = neutral ink accent
 
 ```html
 <QuickAnswer question="Why do world leaders constantly misunderstand each other?">
@@ -147,7 +147,7 @@ A callout box with a colored left accent bar. Tone controls the color.
 **Props**:
 
 - `title` (string, optional) — Box heading
-- `tone` (`'success'` | `'info'` | `'warning'` | `'neutral'`, default: `'success'`) — Color accent: green/purple/amber/gray
+- `tone` (`'success'` | `'info'` | `'warning'` | `'neutral'`, default: `'success'`) — Color accent mapped through the current callout tone system
 
 ```html
 <InsightBox title="The Relaxation Discovery" tone="success">

@@ -39,7 +39,7 @@ Two surprising **strengths** that didn't fit on the surface:
 
 **Vibe:** dark scholar, void with serif headlines, glowing edges. Two of these decisions (Noticia Text serif + dark void) are mutually rare — most dark-void aesthetics use sans-serif gaming fonts.
 
-### Direction B — "Solo Leveling Awakening" (per `solo-leveling-visual-guide-unified.md`)
+### Direction B — "Solo Leveling Awakening" (per `docs/archives/design/solo-leveling-visual-guide-unified.md`)
 
 | Element           | Value                                         |
 | ----------------- | --------------------------------------------- |
@@ -50,7 +50,7 @@ Two surprising **strengths** that didn't fit on the surface:
 
 **Vibe:** gaming-coded, glowing system UI, XP bars, quest cards, scanlines, particle floats. Same color story as A but fonts are completely different — sans-serif gaming.
 
-### Direction C — "Warm Tech Spec" (per `warm-tech-theme-plan.md`)
+### Direction C — "Warm Tech Spec" (per `docs/archives/design/warm-tech-theme-plan.md`)
 
 | Element    | Value                                        |
 | ---------- | -------------------------------------------- |
@@ -90,13 +90,13 @@ What exists:
 - `docs/brand/brand-style-guide-v2.md` — voice and copy conventions. **Solid, locked.**
 - `docs/brand/dj-communication-guide.md` — how to talk to DJ. **Useful, separate concern.**
 - `docs/brand/BRAND-KIT.md` — Direction A (purple primary, Noticia Text serif). **Outdated, contradicts code.**
-- `docs/brand/solo-leveling-visual-guide-unified.md` — Direction B (purple + Rajdhani gaming). **Outdated, contradicts code.**
+- `docs/archives/design/solo-leveling-visual-guide-unified.md` — Direction B (purple + Rajdhani gaming). **Outdated, contradicts code.**
 - `docs/brand/9takes-style-guide-for-assets.md` — asset generation reference. **Status unclear, likely Direction-A flavored.**
-- `docs/design/warm-tech-theme-plan.md` — Direction C (amber/rose). **Was a plan, never fully shipped — code went teal-not-amber.**
-- `docs/design/solo-leveling-*` (5 files) — Direction B variants. **Outdated.**
+- `docs/archives/design/warm-tech-theme-plan.md` — Direction C (amber/rose). **Was a plan, never fully shipped — code went teal-not-amber.**
+- `docs/archives/design/solo-leveling-*` (5 files) — Direction B variants. **Outdated.**
 - `docs/design/2026-04-27-ui-audit-kole-jain-8-mistakes.md` — Kole-framework audit. **Excellent, partial implementation in progress.**
 - `docs/design/2026-04-27-mobile-audit.md` — mobile-specific findings. **Worth keeping.**
-- `docs/design/admin-style-audit.md` — admin-specific. **Status TBD.**
+- `docs/design/admin-style-audit.md` — admin-specific. **Updated 2026-05-14.**
 
 **Verdict:** Voice/copy docs are gold — leave alone. Visual identity docs are a graveyard of three different products. The unified `docs/design-system.md` should be the new source of truth; old brand-visual docs should get an "ARCHIVED — see design-system.md" header but not be deleted (DJ may want to revisit Direction B for the poster/social asset skin).
 
@@ -110,7 +110,7 @@ What exists:
 
 - `--accent-rgb: 45, 212, 191;` — that's teal RGB, but the variable is named accent. Should be `--primary-rgb`.
 - Legacy aliases: `--color-theme-purple: var(--primary)` — purple → teal aliasing. Confusing but harmless; flag for cleanup.
-- Per `css-drift-audit-2026-04-07.md`: ~100 inline `rgba(45, 212, 191, …)` instances (teal hardcoded), 39 inline `#fff`, two competing near-black overlays (`rgba(12, 10, 9, …)` and `rgba(10, 10, 15, …)`).
+- Per the archived `docs/archives/design/css-drift-audit-2026-04-07.md`: ~100 inline `rgba(45, 212, 191, …)` instances (teal hardcoded), 39 inline `#fff`, two competing near-black overlays (`rgba(12, 10, 9, …)` and `rgba(10, 10, 15, …)`).
 - Coaching card hardcodes amber even though `--status-gold` aliases to rose — leftover from the Warm Tech amber proposal.
 
 **What's missing:** no formal documentation of the palette anywhere besides the Tailwind config (`BRAND-KIT.md` documents a different palette entirely). Fixed by `docs/design-system.md` §5.
@@ -128,7 +128,7 @@ What exists:
 **Drift in docs:**
 
 - `BRAND-KIT.md` lines 12, 91–106 — Noticia Text everywhere
-- `solo-leveling-visual-guide-unified.md` lines 180–186 — Rajdhani / Space Grotesk / JetBrains Mono
+- `docs/archives/design/solo-leveling-visual-guide-unified.md` lines 180–186 — Rajdhani / Space Grotesk / JetBrains Mono
 - No documented type scale anywhere
 
 **Verdict:** Typography is the single most contested area. Resolution requires picking the brand mood first (Option A → likely a serif/sans pairing change, Option B → keep Rajdhani+Space Grotesk, Option C → mandate serif).
@@ -164,7 +164,7 @@ Tiny cleanup: `tailwind.config.ts:124` still defines `lg: '0.75rem'` as "DEPRECA
 - No documented duration scale (instant / fast / base / slow)
 - No documented easing scale (`ease-out-soft`, `ease-in-out-soft`)
 - **No global `@media (prefers-reduced-motion: reduce)` rule.** Only one local use in `index.scss:1055–1058` for view-transitions. This is an accessibility gap.
-- `@keyframes` for `pulse-glow`, `emerge`, `ring-rotate`, `center-pulse` defined in `solo-leveling-visual-guide-unified.md` but I haven't verified which are actually used in shipping CSS.
+- `@keyframes` for `pulse-glow`, `emerge`, `ring-rotate`, `center-pulse` defined in archived `solo-leveling-visual-guide-unified.md`, but I haven't verified which are actually used in shipping CSS.
 
 ### Components
 
@@ -311,11 +311,11 @@ This sequence assumes Direction A (Warm Tech Spec) gets ratified — adjust if D
 
 - `docs/design-system.md` — companion living spec
 - `docs/brand/brand-positioning.md`, `brand-style-guide-v2.md`, `BRAND-KIT.md`, `dj-communication-guide.md`
-- `docs/brand/solo-leveling-visual-guide-unified.md` (and 4 other solo-leveling-\* variants in `docs/design/`)
-- `docs/design/warm-tech-theme-plan.md`
+- `docs/archives/design/solo-leveling-visual-guide-unified.md` (and the other archived solo-leveling-\* variants)
+- `docs/archives/design/warm-tech-theme-plan.md`
 - `docs/design/2026-04-27-ui-audit-kole-jain-8-mistakes.md`
 - `docs/design/2026-04-27-mobile-audit.md`
-- `docs/css-drift-audit-2026-04-07.md`
+- `docs/archives/design/css-drift-audit-2026-04-07.md`
 - `tailwind.config.ts`
 - `src/scss/index.scss`, `components.scss`, `_mixins.scss`
 - `src/app.html`

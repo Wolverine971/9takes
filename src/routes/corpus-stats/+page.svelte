@@ -82,6 +82,16 @@
 	// the most-cited domain breakdowns without relying on <details> expansion.
 	const sortedDomains = $derived(Object.values(stats.domains).sort((a, b) => b.total - a.total));
 	const OPEN_TOP_N = 3;
+
+	const sortedTypeEntries = $derived(
+		Object.entries(stats.enneagram_distribution.shares).sort((a, b) => b[1] - a[1])
+	);
+	const mostCommonType = $derived(sortedTypeEntries[0]);
+	const rarestType = $derived(sortedTypeEntries[sortedTypeEntries.length - 1]);
+	const musicStats = $derived(stats.domains['music']);
+	const comedyStats = $derived(stats.domains['comedy']);
+	const techStats = $derived(stats.domains['tech-business']);
+	const politicsStats = $derived(stats.domains['politics-public']);
 </script>
 
 <SEOHead
@@ -132,6 +142,40 @@
 				· <a href="/corpus-stats.json">Download raw JSON</a>
 			</p>
 		</header>
+
+		<!-- ========== DIRECT ANSWER + SECTION LINKS ========== -->
+		<section class="answer-panel" aria-labelledby="direct-answer-heading">
+			<h2 id="direct-answer-heading">What the Enneagram Type Distribution Shows</h2>
+			<p>
+				Across {stats.totals.published} public-figure profiles on 9takes,
+				<a href="/personality-analysis/type/{mostCommonType[0]}"
+					>{TYPE_NAMES[Number(mostCommonType[0])]}</a
+				>
+				is the most common Enneagram type at {pct(mostCommonType[1])}%.
+				<a href="/personality-analysis/type/{rarestType[0]}">{TYPE_NAMES[Number(rarestType[0])]}</a>
+				is the rarest at {pct(rarestType[1])}%.
+			</p>
+			<p>
+				The strongest domain skews are where the data gets useful:
+				<a href="#domain-music">musicians</a> over-index as Type {musicStats.top_over_represented
+					.type},
+				<a href="#domain-comedy">comedians</a> over-index as Type {comedyStats.top_over_represented
+					.type},
+				<a href="#domain-tech-business">tech founders and business figures</a> over-index as Type {techStats
+					.top_over_represented.type}, and
+				<a href="#domain-politics-public">politicians and public figures</a> over-index as Type {politicsStats
+					.top_over_represented.type}.
+			</p>
+			<nav class="jump-links" aria-label="Corpus stats sections">
+				<a href="#enneagram-distribution">Type distribution</a>
+				<a href="#domain-music">Musicians</a>
+				<a href="#domain-comedy">Comedians</a>
+				<a href="#domain-tech-business">Tech founders</a>
+				<a href="#domain-politics-public">Politicians</a>
+				<a href="#domain-authors-thinkers">Authors</a>
+				<a href="#per-type-domains">Rarest/common types</a>
+			</nav>
+		</section>
 
 		<!-- ========== KEY FINDINGS (was TL;DR) ========== -->
 		<section class="page-section" aria-labelledby="key-findings-heading">
@@ -446,6 +490,53 @@
 		margin: 0;
 	}
 	.hero-meta a {
+		color: var(--shadow-flame, var(--lamp-glow));
+	}
+
+	.answer-panel {
+		margin-bottom: 2.5rem;
+		padding: 1.25rem;
+		border: 1px solid color-mix(in srgb, var(--data-teal) 30%, transparent);
+		border-left: 3px solid var(--shadow-flame, var(--lamp-glow));
+		border-radius: 8px;
+		background: linear-gradient(180deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+	}
+	.answer-panel h2 {
+		font-family: var(--font-display);
+		font-size: clamp(1.2rem, 2vw, 1.45rem);
+		font-weight: 700;
+		margin: 0 0 0.75rem;
+		color: var(--ink-bright);
+	}
+	.answer-panel p {
+		margin: 0 0 0.75rem;
+		color: var(--ink-mid);
+		line-height: 1.6;
+	}
+	.answer-panel a {
+		color: var(--shadow-flame, var(--lamp-glow));
+	}
+	.jump-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.55rem;
+		margin-top: 1rem;
+	}
+	.jump-links a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 2rem;
+		padding: 0.35rem 0.65rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 6px;
+		background: color-mix(in srgb, var(--night-deep) 82%, var(--data-teal));
+		color: var(--ink-bright);
+		font-family: var(--font-mono);
+		font-size: 0.76rem;
+		text-decoration: none;
+	}
+	.jump-links a:hover {
+		border-color: color-mix(in srgb, var(--data-teal) 45%, transparent);
 		color: var(--shadow-flame, var(--lamp-glow));
 	}
 

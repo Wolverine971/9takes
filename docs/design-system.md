@@ -12,7 +12,7 @@
 > - `docs/brand/brand-style-guide-v2.md` — voice & copy conventions
 > - `design-walkthrough-template.md` — playbook this doc was built from
 >
-> Older brand/visual docs (BRAND-KIT.md, solo-leveling-\*, warm-tech-theme-plan.md) are **historical**. They contradict each other and the code. Treat them as archives, not specs.
+> Older brand/visual docs (`BRAND-KIT.md`, `docs/archives/design/solo-leveling-*`, `docs/archives/design/warm-tech-theme-plan.md`) are **historical**. They contradict each other and the code. Treat them as archives, not specs.
 
 ---
 
@@ -141,7 +141,7 @@ Voice is **locked** in `docs/brand/brand-positioning.md` and `docs/brand/brand-s
 
 ### Locked (de-facto, awaiting brand-mood ratification)
 
-The Tailwind config and `src/scss/index.scss` already agree on this palette. Locking it formally just means saying "yes, this is the palette" and stripping the alternative-history docs (`BRAND-KIT.md`'s purple-primary, `solo-leveling-visual-guide-unified.md`'s shadow-monarch).
+The Tailwind config and `src/scss/index.scss` already agree on this palette. Locking it formally just means saying "yes, this is the palette" and stripping the alternative-history docs (`BRAND-KIT.md`'s purple-primary, archived `solo-leveling-visual-guide-unified.md`'s shadow-monarch).
 
 #### Brand palette
 

@@ -104,14 +104,14 @@ What are you creating?
 
 ## Related Resources (Outside This Folder)
 
-| Resource                      | Location                                               |
-| ----------------------------- | ------------------------------------------------------ |
-| Writing workflow              | `/docs/writing-system/01-content-creation-workflow.md` |
-| Brand voice                   | `/docs/brand/brand-style-guide-v2.md`                  |
-| Current action plan           | `/docs/30-DAY-ACTION-PLAN-DEC-2025.md`                 |
-| Content gaps                  | `/docs/domain-authority/00-master-index.md`            |
-| Active research               | `/docs/content-research/`                              |
-| Supabase celebrity management | `/docs/blogs-famous-people/mcp-blogs-famous-people.md` |
+| Resource                      | Location                                                      |
+| ----------------------------- | ------------------------------------------------------------- |
+| Writing workflow              | `/docs/writing-system/01-content-creation-workflow.md`        |
+| Brand voice                   | `/docs/brand/brand-style-guide-v2.md`                         |
+| Current operating brief       | `/docs/START-HERE.md`                                         |
+| Content gaps                  | `/docs/archives/domain-authority-feb-2026/00-master-index.md` |
+| Active research               | `/docs/content-research/`                                     |
+| Supabase celebrity management | `/docs/blogs-famous-people/mcp-blogs-famous-people.md`        |
 
 ---
 

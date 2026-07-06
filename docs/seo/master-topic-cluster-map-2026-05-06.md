@@ -405,7 +405,7 @@ Action: link **into** these from the rest of the site, not the other way around.
 
 #### Cluster 5B — "Circumstances layer" content (per domain-authority master index, this is your TOP gap)
 
-The Trust Onion outer layer (per `/Users/djwayne/9takes/docs/domain-authority/00-master-index.md`). These are basically op-eds with first-party data:
+The Trust Onion outer layer (per `/Users/djwayne/9takes/docs/archives/domain-authority-feb-2026/00-master-index.md`). These are basically op-eds with first-party data:
 
 | Spoke                                        | Primary                      | DIFF | STATUS                                  |
 | -------------------------------------------- | ---------------------------- | ---- | --------------------------------------- |
@@ -757,11 +757,11 @@ Use the existing `getRelatedBlogs` / `getCrossLinkSuggestions` utilities (`src/l
 - `/Users/djwayne/9takes/docs/seo/corpus-stats-seo.md`
 - `/Users/djwayne/9takes/docs/seo/enneagram-corner-seo.md`
 - `/Users/djwayne/9takes/docs/seo/personality-analysis-categories-seo.md`
-- `/Users/djwayne/9takes/docs/seo-audit-9takes-2026-04-07.md`
+- `/Users/djwayne/9takes/docs/audits/seo-audit-9takes-2026-04-07.md`
 - `/Users/djwayne/9takes/docs/question-page-seo-recommendations-2026-04-07.md`
 - `/Users/djwayne/9takes/docs/data/corpus-stats.md`
-- `/Users/djwayne/9takes/docs/domain-authority/00-master-index.md`
-- `/Users/djwayne/9takes/docs/domain-authority/01-enneagram-core.md`
+- `/Users/djwayne/9takes/docs/archives/domain-authority-feb-2026/00-master-index.md`
+- `/Users/djwayne/9takes/docs/archives/domain-authority-feb-2026/01-enneagram-core.md`
 - `/Users/djwayne/9takes/docs/brand/README.md`
 - `/Users/djwayne/9takes/static/sitemap.xml`
 - `/Users/djwayne/9takes/scripts/generate-sitemap.js` (referenced for the sitemap-coverage fix)

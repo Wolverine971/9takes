@@ -85,7 +85,7 @@ Insert at the VERY TOP of content (after script imports, before first paragraph)
 </QuickAnswer>
 ```
 
-**Note:** The QuickAnswer component includes Schema.org Answer markup for SEO and has a distinctive purple gradient styling that stands out from regular content.
+**Note:** The QuickAnswer component includes Schema.org Answer markup for SEO and renders through the shared Streetlamp V5 `Callout` shell with a lamp accent by default.
 
 ### Step 4: REWRITE OPENING (First 150 words)
 

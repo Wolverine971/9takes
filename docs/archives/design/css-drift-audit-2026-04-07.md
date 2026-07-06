@@ -1,4 +1,8 @@
-<!-- docs/css-drift-audit-2026-04-07.md -->
+<!-- docs/archives/design/css-drift-audit-2026-04-07.md -->
+
+> Archived 2026-07-06. This audit predates the Streetlamp Symposium V5 lock and
+> describes the old teal/rose bridge palette. Use `docs/design-system.md` and
+> `docs/design/2026-06-09-design-audit.md` for current design guidance.
 
 # CSS Drift Audit — 9takes
 

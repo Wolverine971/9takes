@@ -1,520 +1,107 @@
 <!-- docs/START-HERE.md -->
 
-# 9takes Content Strategy - START HERE
+# 9takes Start Here
 
-_Last Updated: 2026-02-10_
-_Status: **Active** - Content creation + distribution in parallel_
+Last updated: 2026-07-06  
+Status: active operating brief
 
-> **AI Agents:** For quick task-based navigation, see [`/docs/README.md`](./README.md)
+## One Sentence Strategy
 
----
+9takes has working content demand, especially personality-analysis and
+Enneagram authority pages. The current bottleneck is converting that attention
+into reliable product action, email capture, distribution, and repeatable
+publishing.
 
-## 🎯 THE ONE THING TO REMEMBER
+## Current Truths
 
-**People search for PROBLEMS, not personality descriptions.**
+Use dated evidence. Do not repeat old December 2025 or Q1 2026 numbers as
+current.
 
-Your GSC data proves it:
+| Area                  | Current read                                                                                                                                                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| People/profile corpus | [`docs/data/corpus-stats.md`](./data/corpus-stats.md) generated 2026-07-06: 378 published profiles, 131 drafts, 22 profiles published in the last 30 days, 106 in the last 90 days.                                                                           |
+| Blog cross-links      | [`docs/BLOG-CROSSLINK-INDEX.md`](./BLOG-CROSSLINK-INDEX.md) generated 2026-07-06: 190 posts analyzed, 26 completely isolated, 27 with no outgoing links, 42 with no incoming links.                                                                           |
+| Marketing status      | [`docs/daily-briefs/2026-07-06_marketing-status.md`](./daily-briefs/2026-07-06_marketing-status.md): people automation regressed on `oliver-tree`, Instagram session is blocked, Quora is dark since 2026-05-19, distribution packets are queued but unfired. |
+| Growth data           | [`docs/growth/growth-log.md`](./growth/growth-log.md) newest audit is 2026-07-01, so activation metrics are stale as of 2026-07-06. Signup spam hardening exists, but real activation still needs fresh measurement.                                          |
+| Product pillars       | [`docs/audits/2026-06-11_state-of-9takes.md`](./audits/2026-06-11_state-of-9takes.md): content works as a traffic engine; Q&A, coaching, and email capture are under-converting.                                                                              |
+| Design system         | [`docs/design-system.md`](./design-system.md): Streetlamp Symposium V5 is the current source of truth. Old purple, teal-primary, Solo Leveling, and Noticia Text docs are historical only unless explicitly called out.                                       |
 
-- Mental health content: **177 clicks, 6.7% CTR** (TOP PERFORMER)
-- Toxic traits content: **63 clicks, 4.8% CTR**
-- Individual type posts: **0-5 clicks each** (despite quality)
+## Current Priorities
 
-### The 9takes Philosophy: "Clickbait to the Door, Quality Inside"
+1. Stabilize people automation before increasing volume.
+   The July 6 brief shows two failed `oliver-tree` runs where Stage 1 failed but later stages still advanced against a missing draft. Fix hard-stop behavior first, then fix the `pnpm gen:all` path if the Supabase CLI dependency is still missing.
 
-| Layer        | Purpose         | Style                                                          |
-| ------------ | --------------- | -------------------------------------------------------------- |
-| `meta_title` | Get the click   | Clickbait, problem-focused, curiosity-inducing                 |
-| `title`      | Build authority | Evergreen, professional, timeless                              |
-| Content      | Create value    | Deep research, comprehensive analysis, stands the test of time |
+2. Convert content attention above the fold.
+   Personality-analysis and Enneagram pages have the traffic. The June growth review says the signup/give-first mechanics are too low on the page and under-instrumented. Put one high-intent action near the first viewport and instrument `shown -> submitted`.
 
-**Why this works:** Viral titles drive traffic → Quality content earns trust → Deep analysis builds authority → Authority drives sustainable growth
+3. Repair internal-link gaps.
+   Start with the 26 isolated posts in [`BLOG-CROSSLINK-INDEX.md`](./BLOG-CROSSLINK-INDEX.md), especially the pop-culture cluster.
 
----
+4. Restore distribution only after the publishing path is stable.
+   Nine launch packets are queued in [`distribution-assets/LAUNCH-CHECKLIST.md`](./distribution-assets/LAUNCH-CHECKLIST.md). Do not add more strategy docs until there is send/post evidence.
 
-## STRATEGIC FRAMEWORKS (Audience-Aware Content)
+5. Pull fresh GSC before making SEO performance claims.
+   The July 6 brief says the repo GSC export is still dated 2026-06-11.
 
-**What this section is:** These frameworks help you create content that matches where your reader is in their journey. Even great advice falls flat if delivered to the wrong audience at the wrong time.
+## What To Stop Doing
 
-**Where these come from:** Adapted from the Viral Coach Masterclass, a professional content coaching course focused on social media growth.
+- Do not cite old December 2025 dashboards as current state.
+- Do not create new plans when an existing active plan or status brief already names the bottleneck.
+- Do not publish content without a distribution or internal-link follow-up.
+- Do not use archived design docs for current UI guidance.
+- Do not hand-write corpus totals. Use [`data/corpus-stats.md`](./data/corpus-stats.md).
 
-> **Deep dive:** [`/docs/marketing/viral-coach-framework-reference.md`](./marketing/viral-coach-framework-reference.md) — Full course notes with detailed explanations of each framework.
+## Content Guidance
 
-### 1. Content Funnel (ToF/MoF/BoF)
+The durable content insight still holds: people search for problems, not static
+type descriptions.
 
-Every piece of content serves one of three purposes:
+For Enneagram/topical posts:
 
-| Stage                | Purpose             | % of Content | Example                                        |
-| -------------------- | ------------------- | ------------ | ---------------------------------------------- |
-| **Top of Funnel**    | Attract new readers | 50%          | "Why dating apps are harder for certain types" |
-| **Middle of Funnel** | Build trust         | 35%          | "How each type self-sabotages success"         |
-| **Bottom of Funnel** | Convert             | 15%          | Direct CTAs, newsletter signups                |
+- Lead with the problem the reader is trying to solve.
+- Add a direct `<QuickAnswer>` near the top for snippet and AI-search clarity.
+- Use type-specific application only after the reader knows why the topic matters.
+- Add 3-5 internal links before publishing.
 
-**9takes gap:** Most content is Middle/Bottom. Need more Top of Funnel for growth.
+For personality-analysis posts:
 
-### 2. Trust Onion Framework 🧅
+- Keep the dual-title model: `title` for the page, `meta_title` for search/social.
+- Use a concrete life moment as the entry point, then tie it to the Enneagram pattern.
+- Prefer respectful analysis over certainty theater. The type is the lens, not the person.
+- After publish, update launch packets and internal links.
 
-New readers blame EXTERNAL factors. Meet them there before asking for self-reflection.
+Current component notes:
 
-| Layer      | They Blame                          | Content Strategy                          |
-| ---------- | ----------------------------------- | ----------------------------------------- |
-| **Outer**  | Circumstances (time, apps, economy) | Validate struggles, offer quick wins      |
-| **Middle** | Specific people (boss, ex, parents) | Pattern recognition, strategic advice     |
-| **Inner**  | Themselves                          | Coaching content (only after trust built) |
+- `<QuickAnswer>` renders through the shared [`Callout`](../src/lib/components/blog/callouts/Callout.svelte) shell with the `lamp` tone by default. It is not the retired pre-V5 box anymore.
+- `<TypeQuotes>` also renders through the shared callout shell unless `variant="minimal"` is used.
+- `PopCard` is for image/person cards, not plain text quotes.
 
-**9takes gap:** Content often jumps to the Inner layer. Add more Outer layer content first.
+## Daily Operating Loop
 
-### 3. EEO Continuum (Voice Calibration)
+1. Check the newest status brief or relevant generated file.
+2. Pick one bottleneck: automation, conversion, cross-links, distribution, or content quality.
+3. Make the smallest concrete change that moves that bottleneck.
+4. Update the relevant tracker or status doc with date and evidence.
+5. Avoid new strategy docs unless the existing docs cannot answer the decision.
 
-| Voice           | Use When          | Example                            |
-| --------------- | ----------------- | ---------------------------------- |
-| **Observation** | New/cold audience | "Studies show Type 5s tend to..."  |
-| **Experience**  | Warming audience  | "In my experience with Type 5s..." |
-| **Expert**      | Trusted audience  | "Type 5s do this because..."       |
+## Active Docs
 
-**Default:** Start with Observation/Experience, earn the Expert voice.
+| Need                     | Link                                                                                           |
+| ------------------------ | ---------------------------------------------------------------------------------------------- |
+| Docs hub                 | [`README.md`](./README.md)                                                                     |
+| Project overview         | [`project-docs/00-project-overview.md`](./project-docs/00-project-overview.md)                 |
+| Current marketing status | [`daily-briefs/2026-07-06_marketing-status.md`](./daily-briefs/2026-07-06_marketing-status.md) |
+| Growth log               | [`growth/growth-log.md`](./growth/growth-log.md)                                               |
+| Writing workflow         | [`writing-system/README.md`](./writing-system/README.md)                                       |
+| SEO/content analysis     | [`content-analysis/README.md`](./content-analysis/README.md)                                   |
+| Distribution checklist   | [`distribution-assets/LAUNCH-CHECKLIST.md`](./distribution-assets/LAUNCH-CHECKLIST.md)         |
+| Design system            | [`design-system.md`](./design-system.md)                                                       |
+| Annual strategy          | [`planning/2026-annual-strategy.md`](./planning/2026-annual-strategy.md)                       |
 
-### 4. Content Flywheel
+## Historical Context
 
-Every blog post should generate 5-10 social posts AND trigger the distribution workflow:
-
-```
-Blog Post → X Thread → Standalone Tweets → Engagement → New Blog Ideas
-    │                                                          ↑
-    ├→ Instagram Carousel (2-4 slides)                         │
-    ├→ Reddit Discussion Post (r/Enneagram + person-specific)  │
-    ├→ Email Outreach (3-5 personalized pitches)               │
-    └→ Fan Community Engagement ───────────────────────────────┘
-```
-
-See [`/docs/writing-system/README.md`](./writing-system/README.md) for the full flywheel checklist.
-See [`/docs/marketing/blog-distribution-strategy.md`](./marketing/blog-distribution-strategy.md) for the full distribution playbook.
-
----
-
-## 📊 CURRENT STATE (December 2025)
-
-### Content Inventory
-
-| Category             | Count         | Status                              |
-| -------------------- | ------------- | ----------------------------------- |
-| **Total Published**  | 305+          | Strong foundation                   |
-| Celebrity Analyses   | 215+          | DOMINANT (drives discovery)         |
-| Enneagram Core       | 73            | +5 problem-focused posts (Dec 2025) |
-| Mental Health Guides | 10 + variants | TOP TRAFFIC DRIVER                  |
-| Relationship Content | 18+           | Improved (was 1.7%)                 |
-| Drafts in Pipeline   | 100+          | Ready for development               |
-
-### Top Performing Pages (GSC Data)
-
-| Page                                | Clicks | Impressions | CTR  |
-| ----------------------------------- | ------ | ----------- | ---- |
-| enneagram-and-mental-illness        | 177    | 2,650       | 6.7% |
-| toxic-traits-of-each-enneagram-type | 63     | 1,313       | 4.8% |
-| astrology-and-the-enneagram         | 46     | 2,595       | 1.8% |
-| enneagram-instinctual-subtypes      | 29     | 2,445       | 1.2% |
-| enneagram-strengths-and-weaknesses  | 20     | 620         | 3.2% |
-
-### Recent Optimizations Completed
-
-**December 2025 Progress:**
-
-- ✅ **5 problem-focused posts PUBLISHED** (Dec 7):
-  - Red Flags Dating, ADHD, Self-Sabotage, Overthinking, Manipulation
-- ✅ **10 TIER 1 celebrities optimized** (Dec 3): IShowSpeed, Emma Watson, Elon Musk, Sabrina Carpenter, Mark Zuckerberg, Selena Gomez, Zendaya, Billie Eilish, Sam Altman, Jenna Ortega
-- ✅ 11 pages optimized with clickbait titles + Quick Answer boxes (Dec 3)
-- ✅ Deep rewrites: MBTI comparison, Biggest compliments (removed dated slang)
-- ✅ **FAQ Expansions + Comparison Tables** (Dec 9): All high-traffic pages verified
-- ✅ **Content Refresh** (Dec 9-10): 5 high-CTR posts updated with new MarqueeHorizontal links
-- ✅ **Internal Linking Audit** (Dec 20): MarqueeHorizontal updated on 3 power pages to feature Dec 2025 content
-- ✅ **System Templates Created** (Dec 20): `/docs/templates/` with 3 workflow templates
-
----
-
-## 📅 CURRENT ACTION PLAN
-
-**Completed Plan:** [`/docs/archives/30-DAY-ACTION-PLAN-DEC-2025.md`](./archives/30-DAY-ACTION-PLAN-DEC-2025.md) ✅
-**Next Plan:** Q1 2026 (see `/docs/planning/q1-2026-content-pipeline.md`)
-
-### December 2025 Results ✅
-
-| Goal                      | Target | Actual | Status |
-| ------------------------- | ------ | ------ | ------ |
-| New problem-focused posts | 5      | 5      | ✅     |
-| Pages optimized           | 15     | 20+    | ✅     |
-| System templates created  | 3      | 3      | ✅     |
-
-### January 2026 Focus: Trust Onion Outer Layer
-
-**Theme:** Meet new readers where they are (validate external struggles first)
-
-| Week         | Post Topic                                                 |
-| ------------ | ---------------------------------------------------------- |
-| Jan 6-12     | "Why Dating Apps Are Harder for Certain Personality Types" |
-| Jan 13-19    | "The Algorithm Is Designed to Exploit Your Type"           |
-| Jan 20-26    | "Why Therapy Doesn't Work the Same for Every Type"         |
-| Jan 27-Feb 2 | "Remote Work vs Office: Which Types Get Screwed"           |
-
-**See:** [`/docs/planning/q1-2026-content-pipeline.md`](./planning/q1-2026-content-pipeline.md)
-
----
-
-## 🔥 DECEMBER 2025 - COMPLETE ✅
-
-### Content Created
-
-- ✅ All 5 problem-focused posts published (Dec 7)
-- ✅ 20 celebrity pages optimized (TIER 1 + TIER 2)
-- ✅ FAQ expansions + comparison tables on key pages
-- ✅ Internal linking audit complete (Dec 20)
-- ✅ 3 system templates created
-
-### Planning Documents Created (Dec 31)
-
-| Document             | Location                                                                               |
-| -------------------- | -------------------------------------------------------------------------------------- |
-| 30-Day Analysis      | [`/docs/analytics/30-day-review-dec-2025.md`](./analytics/30-day-review-dec-2025.md)   |
-| Q1 2026 Pipeline     | [`/docs/planning/q1-2026-content-pipeline.md`](./planning/q1-2026-content-pipeline.md) |
-| 2026 Annual Strategy | [`/docs/planning/2026-annual-strategy.md`](./planning/2026-annual-strategy.md)         |
-
-### Key Insight from December
-
-**Trust Onion Gap Identified:** Most content skips to self-reflection (inner layer) before validating external struggles (outer layer). January focus: Meet readers where they are.
-
----
-
-## 📁 KEY RESOURCES
-
-### Strategy Documents
-
-| Purpose                      | Location                                                                                                                                   |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Full doc index**           | [`/docs/README.md`](./README.md)                                                                                                           |
-| 🆕 **Distribution Playbook** | [`/docs/marketing/blog-distribution-strategy.md`](./marketing/blog-distribution-strategy.md)                                               |
-| 🆕 **2026 Annual Strategy**  | [`/docs/planning/2026-annual-strategy.md`](./planning/2026-annual-strategy.md)                                                             |
-| 🆕 **Q1 2026 Pipeline**      | [`/docs/planning/q1-2026-content-pipeline.md`](./planning/q1-2026-content-pipeline.md)                                                     |
-| Content workflow             | [`/docs/writing-system/01-content-creation-workflow.md`](./writing-system/01-content-creation-workflow.md)                                 |
-| X/Twitter strategy           | [`/docs/twitter/strategy/master-strategy.md`](./twitter/strategy/master-strategy.md)                                                       |
-| AI & SEO optimization        | [`/docs/content-analysis/ai-search-optimization-guide.md`](./content-analysis/ai-search-optimization-guide.md)                             |
-| Celebrity optimization       | [`/docs/content-generation/celebrity-page-optimization-instructions.md`](./content-generation/celebrity-page-optimization-instructions.md) |
-| Domain gaps                  | [`/docs/archives/domain-authority-feb-2026/00-master-index.md`](./archives/domain-authority-feb-2026/00-master-index.md)                   |
-| Brand voice                  | [`/docs/brand/brand-style-guide-v2.md`](./brand/brand-style-guide-v2.md)                                                                   |
-| DJ communication style       | [`/docs/brand/dj-communication-guide.md`](./brand/dj-communication-guide.md)                                                               |
-| Supabase celebrity CRUD      | [`/docs/blogs-famous-people/mcp-blogs-famous-people.md`](./blogs-famous-people/mcp-blogs-famous-people.md)                                 |
-| Mental health blog system    | [`/docs/content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md`](./content-generation/MENTAL_HEALTH_BLOG_SYSTEM.md)                               |
-| Midjourney prompts           | [`/docs/content-generation/midjourney_prompt_templates.md`](./content-generation/midjourney_prompt_templates.md)                           |
-
-### 🆕 Workflow Templates (Dec 2025)
-
-| Template                   | Purpose                        | Location                                                                                     |
-| -------------------------- | ------------------------------ | -------------------------------------------------------------------------------------------- |
-| Weekly Content Audit       | GSC tracking, optimization log | [`/docs/templates/weekly-content-audit.md`](./templates/weekly-content-audit.md)             |
-| Content Creation Checklist | Full blog post checklist       | [`/docs/templates/content-creation-checklist.md`](./templates/content-creation-checklist.md) |
-| Monthly Content Plan       | Monthly planning & goals       | [`/docs/templates/monthly-content-plan.md`](./templates/monthly-content-plan.md)             |
-
-### Content Locations
-
-| Content Type     | Location                                  |
-| ---------------- | ----------------------------------------- |
-| Enneagram blogs  | `/src/blog/enneagram/`                    |
-| Celebrity posts  | `/src/blog/people/`                       |
-| Drafts           | `/src/blog/enneagram/drafts/`             |
-| Mental health    | `/src/blog/enneagram/mental-health/`      |
-| Content research | `/docs/content-research/`                 |
-| Image prompts    | `/docs/content-generation/image-prompts/` |
-
----
-
-## 🚀 DISTRIBUTION PROCESS (Post-Publish)
-
-**Every personality analysis blog you publish should be distributed, not just indexed.**
-
-SEO alone is passive. Distribution creates buzz, backlinks, and brand awareness for 9takes. The distribution strategy doc has the full playbook -- this section is the quick-reference checklist.
-
-> **Full playbook:** [`/docs/marketing/blog-distribution-strategy.md`](./marketing/blog-distribution-strategy.md) -- Person-specific channels, email templates, Instagram carousel system, Reddit/Twitter playbooks
-
-### Post-Publish Checklist (Per Blog)
-
-**Day 1 (Publish Day):**
-
-- [ ] Publish blog on 9takes.com
-- [ ] Post Twitter/X thread (8-10 AM EST) -- tag the person, use 2-3 hashtags
-- [ ] Create Instagram carousel in Canva (2-4 slides) -- see carousel format in distribution doc
-
-**Days 2-3:**
-
-- [ ] Post to r/Enneagram as a discussion (not a link drop)
-- [ ] Post to person-specific subreddit (separate day from r/Enneagram)
-- [ ] Share carousel to Instagram stories with poll sticker
-
-**Days 4-7:**
-
-- [ ] Send 3-5 personalized email outreach pitches (see templates in distribution doc)
-- [ ] Share in one Enneagram Facebook group
-- [ ] Engage in Personality Database comments for the person
-
-**Days 8-14:**
-
-- [ ] Repost Twitter thread with a different hook
-- [ ] Post in secondary forum or Discord community
-- [ ] Share in fan community where you have credibility
-
-**Ongoing:**
-
-- [ ] When the person is in the news, create reactive tweets connecting to your analysis
-- [ ] Update the blog if new events validate your analysis, then redistribute
-
-### Tone: Respectful and Reverent
-
-Every person you analyze has a real story. The tone across all distribution should feel like you're honoring their journey, not dissecting them.
-
-- Speak about them like you admire the complexity of who they are
-- Never reduce someone to a number -- the Enneagram type is a doorway, not a box
-- Acknowledge what you don't know: "This is my read" not "this is who he is"
-- Let the person's own words and actions do the heavy lifting
-
-### Instagram Carousel Quick Reference
-
-| Slide | Content                                               | Notes                    |
-| ----- | ----------------------------------------------------- | ------------------------ |
-| 1     | Photo of person + one curiosity-driven hook line      | Let the face do the work |
-| 2     | Core Enneagram insight tied to a specific moment      | 40-60 words max          |
-| 3     | The tension/cost/growth edge of their type (optional) | Honor the struggle       |
-| 4     | CTA: "Full breakdown on 9takes.com. Link in bio."     | Warm, not salesy         |
-
-**Hashtags:** 15-20 per post. Person-specific (3-5) + Enneagram (5-7) + Niche discovery (5-8).
-
-### Currently Active Distribution Targets (Feb 2026)
-
-These people have full distribution channel research in the playbook:
-
-| Person            | Type | Key Distribution Angle                                                  |
-| ----------------- | ---- | ----------------------------------------------------------------------- |
-| Benson Boone      | 7    | Music fan communities, Switched on Pop                                  |
-| Chris Williamson  | 3    | r/DecodingTheGurus, self-improvement subs, Locals.com                   |
-| John Coogan       | 3    | Startup subs, TBPN live chat, tech newsletters                          |
-| Shawn Ryan        | 5    | r/ShawnRyanShow, military/veteran publications                          |
-| Ali Abdaal        | 3    | r/productivity, Creator Science, The Friendzone Discord                 |
-| Chappell Roan     | 8    | Tumblr (her strongest platform), LGBTQ+ publications                    |
-| Pete Davidson     | 9    | r/BPD (respectful angle), mental health nonprofits, Netflix timing      |
-| Dax Shepard       | -    | r/ArmchairExpert, r/stopdrinking, The Sober Curator                     |
-| Dolly Parton      | -    | Facebook (massive), Dolly Parton's America podcast, country music sites |
-| Alex Cooper       | 7    | r/CallHerDaddy, podcast industry writers, TikTok                        |
-| Theo Von          | 7    | r/TheoVon, comedy journalists (Vulture), recovery publications          |
-| Dave Portnoy      | 8    | r/barstoolsports, sports media sites, book launch timing (June 2026)    |
-| Joe Rogan         | 8    | r/JoeRogan, MMA forums, podcast industry newsletters                    |
-| Sabrina Carpenter | 3    | r/popheads, PopCrave, Tumblr, fashion publications                      |
-
----
-
-## 🚫 STOP DOING
-
-1. **Writing type descriptions** - They don't convert
-2. **Academic/theoretical content** - No search volume
-3. **Publishing without distributing** - A blog nobody sees is a blog that doesn't exist
-4. **Hedging language** - Weakens authority for AI search
-5. **Planning without executing** - Strategy is complete, execute it
-
----
-
-## ✅ FOCUS ON
-
-1. **Mental health angles** - Your proven traffic winner
-2. **Problem-focused titles** - "Why you can't stop X" beats "What Type X is like"
-3. **Distributing every blog you publish** - Twitter thread + Instagram carousel + Reddit + email outreach
-4. **Celebrity analyses of trending people** - Celebrity content drives discovery; distribution amplifies it
-5. **Optimizing existing pages** - Better ROI than new content
-6. **Building presence in Enneagram communities** - r/Enneagram, PersonalityCafe, Personality Database, Facebook groups
-
----
-
-## 📈 SUCCESS METRICS
-
-### Track Weekly
-
-- [ ] GSC clicks on optimized pages (target: 2-3% CTR improvement)
-- [ ] New content published (target: 2-3 problem-focused posts/week)
-- [ ] AI citations (check ChatGPT/Perplexity for mentions)
-
-### 30-Day Targets
-
-- [ ] 50% traffic increase on top 10 pages
-- [ ] 5+ new problem-focused posts published
-- [ ] Featured snippet captured for 1+ queries
-- [ ] AI platforms citing your content
-
----
-
-## 🎯 CONTENT CREATION QUICK REFERENCE
-
-### Title Formula That Works
-
-**For Enneagram/topical blogs:**
-❌ "The Complete Guide to Enneagram Wings"
-✅ "Why You Don't Match Your Enneagram Description (It's Your Wing)"
-
-❌ "Understanding Type 4 Personality"
-✅ "Type 4: Why You Feel Different From Everyone Else"
-
-### Dual-Title System (Celebrity Blogs)
-
-Celebrity blogs use TWO titles to balance virality with evergreen quality:
-
-| Field        | Purpose       | Where It Shows                | Style                    |
-| ------------ | ------------- | ----------------------------- | ------------------------ |
-| `title`      | Page headline | On the blog page              | Evergreen, authoritative |
-| `meta_title` | SEO/social    | Search results, social shares | Clickbait, CTR-optimized |
-
-**How it works:** `PeopleBlogPageHead.svelte` uses `meta_title` for search/social if it exists.
-
-**Examples:**
-
-| Person       | `title` (Evergreen)                         | `meta_title` (Clickbait)                                  |
-| ------------ | ------------------------------------------- | --------------------------------------------------------- |
-| Elon Musk    | "Elon Musk: Enneagram Type 5 Analysis"      | "Inside Elon Musk's Mind: Why He Can't Stop Taking Risks" |
-| Taylor Swift | "Taylor Swift: Type 3 Personality Analysis" | "Why Taylor Swift Can't Stop Reinventing Herself"         |
-| IShowSpeed   | "IShowSpeed: Enneagram Type 7 Analysis"     | "Why IShowSpeed Acts So Crazy (It's Not What You Think)"  |
-
-**Meta title patterns:**
-
-- "Why [Person] Can't Stop [Behavior]"
-- "Inside [Person]'s Mind: [Insight]"
-- "The Real Reason [Person] [Did Thing]"
-- "[Person]'s Hidden [Trait]: What It Reveals"
-
-### Opening Formula
-
-```svelte
-<script>
-	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
-</script>
-
-<QuickAnswer question="[The question your title implies]">
-	[Direct answer to the implied question in 2 sentences]
-</QuickAnswer>
-
-<p class="firstLetter">[Emotional hook that names the problem]</p>
-```
-
-**Note:** The `QuickAnswer` component includes Schema.org Answer markup for SEO and has distinctive purple gradient styling.
-
-### TypeQuotes Component (Enneagram Type Statements)
-
-Use `TypeQuotes` to display characteristic quotes/statements from different Enneagram types. Perfect for showing how types express themselves or react differently to situations.
-
-```svelte
-<script>
-	import TypeQuotes from '$lib/components/blog/callouts/TypeQuotes.svelte';
-</script>
-
-<TypeQuotes
-	quotes={[
-		{ type: 8, quote: "I'm not angry, I'm just passionate." },
-		{ type: 9, quote: 'I never get angry.', note: "Narrator: They're seething inside" },
-		{ type: 1, quote: "I'm not angry, I'm just frustrated things aren't done correctly." }
-	]}
-/>
-```
-
-**Props:**
-
-- `quotes` (required): Array with `type` (1-9), `quote`, and optional `note`
-- `title` (optional): Heading for the quote group
-- `variant`: `'default'` (purple), `'subtle'` (gray), or `'minimal'` (no background)
-
-**Features:** Color-coded badges per type, hover animations, dark mode support.
-
-**Important:** Do NOT use `PopCard` for text quotes. `PopCard` is for image cards with overlays only.
-
-### Content Structure
-
-1. **Quick Answer** - Direct answer for AI/featured snippets
-2. **Hook** - Name the problem emotionally
-3. **Why it happens** - Psychological depth (childhood → adult patterns)
-4. **What to do** - Specific, actionable strategies
-5. **Type-by-type** - Practical application for each type
-
----
-
-## 📋 DAILY WORKFLOW
-
-### Morning (30 min)
-
-1. Check GSC for new data
-2. Identify 1 page to optimize or 1 post to write
-3. Execute (don't plan more)
-
-### During Work
-
-1. Write problem-focused content OR personality analysis blog
-2. Apply Quick Answer boxes to existing pages
-3. Update titles on low-CTR pages
-
-### Distribution Block (20-30 min)
-
-1. Check: did anything publish in the last 1-7 days that needs distribution?
-2. Follow the post-publish checklist above for that day's step
-3. Engage genuinely in 2-3 communities (comment, reply, add value -- no links)
-4. If a person you've analyzed is trending, post a reactive tweet connecting to your analysis
-
-### Evening (15 min)
-
-1. Track what you published/optimized/distributed
-2. Note tomorrow's single priority
-
----
-
-## 🗂️ DOCUMENT STRUCTURE
-
-### Navigation
-
-- **[`README.md`](./README.md)** - Master phone book for AI agents (task-based navigation)
-- **`START-HERE.md`** - This file (strategy overview for humans)
-
-### Active Plans
-
-- **[`30-DAY-ACTION-PLAN-DEC-2025.md`](./archives/30-DAY-ACTION-PLAN-DEC-2025.md)** - Archived execution plan (Dec 4 - Jan 3)
-
-### Content Generation Resources
-
-- **[`content-generation/README.md`](./content-generation/README.md)** - Index of all content creation resources
-- `writing-system/` - Content creation workflows and editing methods
-- `content-research/` - Active research for current posts
-- `blogs-famous-people/` - Supabase CRUD and celebrity prompts
-
-### Analysis & Optimization
-
-- `content-analysis/` - AI search optimization, traffic analysis
-- `archives/domain-authority-feb-2026/` - Content gaps and opportunities
-
-### Brand & Voice
-
-- `brand/` - Style guide and communication preferences
-
-### Archives (Historical Context Only)
-
-- `archives/` - Old audits, dated session notes, historical plans
-
----
-
-## 💡 THE PATH TO ENNEAGRAM DOMINANCE
-
-**Your competitive advantages:**
-
-1. Largest celebrity personality database online (215+ analyses)
-2. Most comprehensive mental health + Enneagram integration
-3. Problem-focused content (not just descriptions)
-4. Real user data from Q&A platform
-
-**The strategy is simple:**
-
-1. Double down on mental health angles (proven winner)
-2. Create more shadow/problem content (what people actually search)
-3. Optimize existing high-impression pages (quick wins)
-4. Let celebrity content drive discovery → practical content converts
-5. **Distribute every analysis you publish** → SEO is passive, distribution is active
-
-**You're not competing on descriptions. You're competing on solutions. And you're not waiting for Google to find you -- you're putting the work in front of the people who care.**
-
----
-
-_Check this document weekly. Update after major accomplishments. Execute daily._
+Old plans remain useful for context, but they are not current operating truth:
+
+- [`archives/30-DAY-ACTION-PLAN-DEC-2025.md`](./archives/30-DAY-ACTION-PLAN-DEC-2025.md)
+- [`planning/q1-2026-content-pipeline.md`](./planning/q1-2026-content-pipeline.md)
+- [`archives/domain-authority-feb-2026/00-master-index.md`](./archives/domain-authority-feb-2026/00-master-index.md)

@@ -5,7 +5,7 @@ persona_title: "TV's Restless Escape Artist"
 description: 'Why does Matt Smith keep vanishing into volatile, dangerous men? Lose your only identity at 16, and you spend a lifetime ensuring no self can trap you.'
 author: 'DJ Wayne'
 date: '2026-07-03'
-loc: 'https://9takes.com/personality-analysis/Matt-Smith'
+loc: 'https://9takes.com/personality-analysis/matt-smith'
 lastmod: '2026-07-03'
 changefreq: 'monthly'
 priority: '0.6'
@@ -451,6 +451,5 @@ Lint: ./scripts/blog-lint.sh Matt-Smith → 0 fail, 0 warn (no prose em-dashes, 
 Regrade: B+ (8.6) → A (9.0). Discoverability 8→9 (meta_title), Evidence 8→9 (Task 2 sourcing), rest held at 9.
 lastmod untouched.
 -->
-
 
 

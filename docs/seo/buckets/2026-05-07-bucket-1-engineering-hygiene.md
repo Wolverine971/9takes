@@ -12,7 +12,7 @@ Per the competitor brief, 9takes is leaving sitewide CTR and entity-resolution l
 
 ## Source docs to read first
 
-- `docs/seo-audit-9takes-2026-04-07.md` (original audit findings — the bug list)
+- `docs/audits/seo-audit-9takes-2026-04-07.md` (original audit findings — the bug list)
 - `docs/seo/2026-05-06-research-synthesis.md` (priority #9 in the top-10)
 - `docs/seo/master-topic-cluster-map-2026-05-06.md` Section 4 Quick Wins #10, #11, #14
 

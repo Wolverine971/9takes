@@ -3,7 +3,7 @@
 # Blog Crosslink Action Plan
 
 _Last Updated: 2025-12-05 (Session 2)_
-_Source: [blog-crosslink-index.md](./blog-crosslink-index.md) (regenerate with `node scripts/generate-crosslink-report.js`)_
+_Historical source: the old February 2026 cross-link report. Current source: [`../BLOG-CROSSLINK-INDEX.md`](../BLOG-CROSSLINK-INDEX.md) (regenerate with `node scripts/generate-crosslink-report.js`)._
 
 ---
 

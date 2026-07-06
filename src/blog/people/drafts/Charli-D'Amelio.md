@@ -5,7 +5,7 @@ meta_title: "Inside Charli D'Amelio's Psychology: Why Fame Made Her Lose Herself
 description: "At 100 million followers, Charli D'Amelio was having 15 panic attacks a day. The psychology behind TikTok's most watched identity crisis."
 author: 'DJ Wayne'
 date: '2025-03-24'
-loc: "https://9takes.com/personality-analysis/charli-d'Amelio"
+loc: "https://9takes.com/personality-analysis/charli-d'amelio"
 lastmod: '2026-02-18'
 changefreq: 'monthly'
 priority: '0.6'
@@ -385,4 +385,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Develop the Landon Barker / sister Dixie sections. Right now the merge-and-withdraw pattern in relationships is asserted by example without enough texture.
 
 ============================================================ -->
-

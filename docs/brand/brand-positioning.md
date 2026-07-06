@@ -278,13 +278,12 @@ _Source of truth: `docs/design-system.md` (living doc). Old guides (`BRAND-KIT.m
 
 ## Related Documents
 
-| Document                                  | Purpose                                  |
-| ----------------------------------------- | ---------------------------------------- |
-| `brand-style-guide-v2.md`                 | Complete voice, tone, and style guide    |
-| `solo-leveling-visual-guide-unified.md`   | Visual identity, colors, UI components   |
-| `solo-leveling-9takes-brand-direction.md` | Brand direction & gamification decisions |
-| `BRAND-KIT.md`                            | Complete asset library for design tools  |
-| `dj-communication-guide.md`               | Personal communication preferences       |
+| Document                    | Purpose                               |
+| --------------------------- | ------------------------------------- |
+| `brand-style-guide-v2.md`   | Complete voice, tone, and style guide |
+| `../design-system.md`       | Current visual identity and UI tokens |
+| `BRAND-KIT.md`              | Archived purple-era asset library     |
+| `dj-communication-guide.md` | Personal communication preferences    |
 
 ---
 

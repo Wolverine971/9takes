@@ -1,4 +1,8 @@
-<!-- docs/design/warm-tech-theme-plan.md -->
+<!-- docs/archives/design/warm-tech-theme-plan.md -->
+
+> Archived 2026-07-06. This was an intermediate visual proposal before the
+> Streetlamp Symposium V5 lock. Use `docs/design-system.md` for current visual
+> guidance.
 
 # Warm Tech Spec Theme Plan
 
