@@ -3,7 +3,7 @@
 # 9takes Personality-Analysis Outreach Playbook
 
 **Crystallized:** 2026-05-15 from the long-form network campaign (12 recipients, `docs/outreach/2026-05-11_long-form-network-emails.md`).
-**Use this for:** any cold outreach to a public figure whose personality analysis 9takes has published. For general business outreach, see `cold-outreach-system.md` — the broader operating system this playbook descends from.
+**Use this for:** any cold outreach to a public figure whose personality analysis 9takes has published. For general business outreach, see `docs/outreach/cold-outreach-system.md` — the broader operating system this playbook descends from.
 
 ---
 
@@ -207,7 +207,7 @@ After the plain-English claim, name the signature image from the piece so the re
 
 - Memory: [[outreach-inevitability-voice]] (DJ's voice rules — "with or without you")
 - Memory: [[cold-outreach-principles]] (2026 research synthesis: 50–125 words, 1 link, 5–7 day follow-up, 1–3% realistic ceiling)
-- Source system: `cold-outreach-system.md` (full operating system this descends from — 10 layers, source-of-truth, OfferLab, etc.)
+- Source system: `docs/outreach/cold-outreach-system.md` (full operating system this descends from — 10 layers, source-of-truth, OfferLab, etc.)
 - Campaign instance: `docs/outreach/2026-05-11_long-form-network-emails.md`
 
 ---

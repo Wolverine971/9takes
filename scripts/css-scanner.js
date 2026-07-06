@@ -80,8 +80,8 @@ const CONFIG = {
 		/^(is|has)-[\w-]+$/
 	],
 
-	outputReportJson: 'unused-css-report.json',
-	outputReportHtml: 'unused-css-report.html',
+	outputReportJson: 'docs/development/reports/unused-css-report.json',
+	outputReportHtml: 'docs/development/reports/unused-css-report.html',
 	// Track file origins for better reporting
 	trackOrigins: true
 };

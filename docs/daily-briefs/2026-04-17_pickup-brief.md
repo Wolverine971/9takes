@@ -21,18 +21,18 @@
 
 Commits on `main`, newest first:
 
-| SHA        | Time             | Summary                                                                                                                                                                                                                             |
-| ---------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `e24f0c5a` | 2026-04-17 00:36 | `/corpus-stats` page polish + homepage tile content refresh + Elon/Taylor drafts touched + v2 command update                                                                                                                        |
-| `b198be33` | 2026-04-16 23:05 | Corpus stats **Phase 2 + 3 shipped** — CorpusStatsPanel + CorpusStatsTable + `/corpus-stats` route + raw JSON endpoint + sitemap entry; Anna Kendrick + Jeremy Allen White drafts                                                   |
-| `285bf854` | 2026-04-16 17:41 | v2 command big rewrite (1,026 lines) + copywriting-audit/pass commands + `9takes-strat.md` priorities added + corpus-stats spec + rabbit-hole task doc + blog-furniture-guide + Meghan Trainor draft + big SCSS blog.scss additions |
-| `b085cbbf` | 2026-04-15 21:45 | Neurodiversity blog polish + TableOfContents / ArticleSubTitle tweaks                                                                                                                                                               |
-| `039f20f0` | 2026-04-15 17:12 | Neurodiversity blog sources doc expanded                                                                                                                                                                                            |
-| `83e56b8d` | 2026-04-15 16:43 | **Admin users page expansion** (+860 lines across server + svelte) + Robert Oppenheimer draft tightened                                                                                                                             |
-| `8278d70f` | 2026-04-15 15:46 | copywriting-audit + copywriting-pass **created** + David Dobrik draft + personality-frameworks community post + content-editor/content-polish agents                                                                                |
-| `bc4471d6` | 2026-04-15 13:26 | Dua Lipa + Lady Gaga + Lana Del Rey + Rooney Mara + Robert Oppenheimer drafts + **welcome-sequence admin UI expansion** (+920 lines across server + svelte) + unsubscribe test-preview API                                          |
-| `14e749a4` | 2026-04-15 11:19 | Jensen Huang draft + **welcome-sequence-content.ts introduced** (welcome emails moved into code-override pattern) + base-template tests + sender.ts overhaul + unsubscribe endpoint rework                                          |
-| `31788efe` | 2026-04-15 07:55 | Rachel Brosnahan draft + quora-warmup-night session log                                                                                                                                                                             |
+| SHA        | Time             | Summary                                                                                                                                                                                                                                           |
+| ---------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `e24f0c5a` | 2026-04-17 00:36 | `/corpus-stats` page polish + homepage tile content refresh + Elon/Taylor drafts touched + v2 command update                                                                                                                                      |
+| `b198be33` | 2026-04-16 23:05 | Corpus stats **Phase 2 + 3 shipped** — CorpusStatsPanel + CorpusStatsTable + `/corpus-stats` route + raw JSON endpoint + sitemap entry; Anna Kendrick + Jeremy Allen White drafts                                                                 |
+| `285bf854` | 2026-04-16 17:41 | v2 command big rewrite (1,026 lines) + copywriting-audit/pass commands + `docs/planning/9takes-strat.md` priorities added + corpus-stats spec + rabbit-hole task doc + blog-furniture-guide + Meghan Trainor draft + big SCSS blog.scss additions |
+| `b085cbbf` | 2026-04-15 21:45 | Neurodiversity blog polish + TableOfContents / ArticleSubTitle tweaks                                                                                                                                                                             |
+| `039f20f0` | 2026-04-15 17:12 | Neurodiversity blog sources doc expanded                                                                                                                                                                                                          |
+| `83e56b8d` | 2026-04-15 16:43 | **Admin users page expansion** (+860 lines across server + svelte) + Robert Oppenheimer draft tightened                                                                                                                                           |
+| `8278d70f` | 2026-04-15 15:46 | copywriting-audit + copywriting-pass **created** + David Dobrik draft + personality-frameworks community post + content-editor/content-polish agents                                                                                              |
+| `bc4471d6` | 2026-04-15 13:26 | Dua Lipa + Lady Gaga + Lana Del Rey + Rooney Mara + Robert Oppenheimer drafts + **welcome-sequence admin UI expansion** (+920 lines across server + svelte) + unsubscribe test-preview API                                                        |
+| `14e749a4` | 2026-04-15 11:19 | Jensen Huang draft + **welcome-sequence-content.ts introduced** (welcome emails moved into code-override pattern) + base-template tests + sender.ts overhaul + unsubscribe endpoint rework                                                        |
+| `31788efe` | 2026-04-15 07:55 | Rachel Brosnahan draft + quora-warmup-night session log                                                                                                                                                                                           |
 
 Ten commits across the two days — not small. A lot of what's here is the tail end of several multi-day threads.
 
@@ -82,8 +82,8 @@ Ten commits across the two days — not small. A lot of what's here is the tail 
 **What's NOT done:**
 
 - **Validation on a real published blog.** Spec Step 3 says pick a Type 5/8 test (suggested: Elon Musk, Peter Thiel, Taylor Swift), edit the DB row via `/admin/content-board`, insert a hand-written rabbit hole, then visual/SEO/LLM check. Never executed.
-- **Retrofit onto top 10 traffic personality pages.** Pair with the Fan-Out Audit in `9takes-strat.md` Part 4. The top-traffic blog is `enneagram-and-mental-illness` per memory — but that's not a personality page. For personality pages, query `blogs_famous_people` ordered by analytics views.
-- **JSON-LD `FAQPage` derived from the four sub-sections** — out of scope for this task but listed as a follow-up in `9takes-strat.md` Tier 0 #3.
+- **Retrofit onto top 10 traffic personality pages.** Pair with the Fan-Out Audit in `docs/planning/9takes-strat.md` Part 4. The top-traffic blog is `enneagram-and-mental-illness` per memory — but that's not a personality page. For personality pages, query `blogs_famous_people` ordered by analytics views.
+- **JSON-LD `FAQPage` derived from the four sub-sections** — out of scope for this task but listed as a follow-up in `docs/planning/9takes-strat.md` Tier 0 #3.
 
 ### 2.3 Blog creator command v2 — REWRITE SHIPPED
 
@@ -94,7 +94,7 @@ Ten commits across the two days — not small. A lot of what's here is the tail 
 - Four unified craft principles (Show/Point/Story/Sound) merging show-don't-tell with Harry Dry's three rules.
 - "Heading mix" rule — 1–2 signature / 2–3 search-intent / remainder hybrids — resolving the SEO vs. copywriting tension.
 - New Step 6 Furniture Pass with explicit call-out for the Enneagram Rabbit Hole.
-- "Statistical Claims & Cited Sources (Strongly Encouraged, Not Required)" section in Part 1 — this is the softened version after you realized a hard requirement was producing invented stats. The softening is explicitly documented in `9takes-strat.md` Tier 0 #2.
+- "Statistical Claims & Cited Sources (Strongly Encouraged, Not Required)" section in Part 1 — this is the softened version after you realized a hard requirement was producing invented stats. The softening is explicitly documented in `docs/planning/9takes-strat.md` Tier 0 #2.
 
 **`blog-creator-restructure-plan.md` at repo root** is the design doc that preceded the rewrite — it's committed but sits at the top level. Consider moving it to `docs/content-generation/` once you're done referencing it.
 
@@ -141,7 +141,7 @@ Past two days, new drafts (all in `src/blog/people/drafts/`):
 
 ⚠ **Failed blog:** Brené Brown failed on 2026-04-06 — "Process interrupted - Claude Code session terminated." Sits in the `failed` array with `retryCount: 1`. She's not been re-queued.
 
-### 2.6 Strategy + measurement — `9takes-strat.md` updated
+### 2.6 Strategy + measurement — `docs/planning/9takes-strat.md` updated
 
 **What landed (2026-04-16):**
 
@@ -202,7 +202,7 @@ The welcome-sequence admin is now essentially feature-complete per the replicati
 | `docs/development/enneagram-rabbit-hole-furniture-task.md` | SCSS + guide shipped, validation + rollout pending   | Validate on Elon/Taylor/Thiel blog via `/admin/content-board` (~30 min) |
 | `blog-creator-restructure-plan.md`                         | Executed → v2 command rewritten                      | Move to `docs/content-generation/` or archive; it's served its purpose  |
 | `docs/neurodiversity-blog-sources.md`                      | Living doc, up to date through 04-15                 | Template for future stat-check companion docs                           |
-| `9takes-strat.md`                                          | Priorities + ACTION annotations shipped 04-16        | Pick next Tier 0 / Tier 1 item (see §5)                                 |
+| `docs/planning/9takes-strat.md`                            | Priorities + ACTION annotations shipped 04-16        | Pick next Tier 0 / Tier 1 item (see §5)                                 |
 | `docs/content-generation/blog-furniture-guide.md`          | Rabbit Hole entry added                              | None — reference doc                                                    |
 | `docs/youtube-transcript-cloud.md`                         | Research complete, no implementation                 | Decide if/when to build                                                 |
 | `docs/data/corpus-stats.md`                                | Regenerated 04-17 00:00 (292 published / 102 drafts) | Auto, no action                                                         |
@@ -309,7 +309,7 @@ Good luck, future DJ. Today-you shipped a lot.
 - `src/blog/enneagram/enneagram-books-websites-podcasts.md` — new "Data & Research" subsection under Websites + sentence appended to the scientific-validation FAQ (which already cited Hook et al. 2021, same paper as our research brief).
 - `src/blog/enneagram/enneagram-faqs.md` — "Is the Enneagram scientifically valid?" FAQ.
 
-**Spec + strat updated.** `docs/specs/corpus-stats-on-site.md` Phase 3b marked shipped with file list. `9takes-strat.md` Tier 1 #4 marked ✅ DONE.
+**Spec + strat updated.** `docs/specs/corpus-stats-on-site.md` Phase 3b marked shipped with file list. `docs/planning/9takes-strat.md` Tier 1 #4 marked ✅ DONE.
 
 **Still open from item 5 list (none of this moved):**
 

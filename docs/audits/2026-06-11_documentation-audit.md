@@ -47,7 +47,7 @@ The brand voice/positioning docs are coherent and current. The design system is 
 - `youtube-design-principles-guide.md`, `design-walkthrough-template.md` → `docs/design/`
 - `celebs-that-lost-respect.md`, `eddie-murphy-quotes-research.md`, `clavicular-logan-paul-podcast.md` → `docs/content-research/` or transcripts dirs
 
-**Keep at root:** `9takes-strat.md`, `outreach-plan.md`, `cold-outreach-system.md` (heavily cross-referenced), `youtube-transcripts-people/`, `youtube-transcripts/` (active asset libraries for blog commands).
+**Relocated from root in 2026-07 cleanup:** `docs/planning/9takes-strat.md`, `docs/outreach/outreach-plan.md`, `docs/outreach/cold-outreach-system.md`. Keep `youtube-transcripts-people/` and `youtube-transcripts/` under review because they are active asset libraries for blog commands.
 
 ## 4. CONFLICTS to resolve
 

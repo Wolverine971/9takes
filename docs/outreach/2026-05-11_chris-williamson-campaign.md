@@ -446,5 +446,5 @@ After 5–10 sends, look for patterns:
 1. **Sender identity** — when sending email, is it `dj@9takes.com`, a personal address, or another box? Affects "From" name + signature line.
 2. **Recipient swaps** — any of the 10 above to remove or replace? In particular: confirm Jordan Peterson is worth the time vs. swapping in a more reachable interviewer (e.g., Andrew Schulz, Lex Fridman).
 3. **Subject DM — Draft A or B?** A is the recommended version (longer, more specific). B is leaner.
-4. **Ali Abdaal profile** — disk shows `published: false` but `outreach-plan.md` lists him as A-grade live. Confirm the URL works before send.
+4. **Ali Abdaal profile** — disk shows `published: false` but `docs/outreach/outreach-plan.md` lists him as A-grade live. Confirm the URL works before send.
 5. **Sequencing** — send all 10 same day, stagger over a week, or hit Tiers 3/4 first to build social proof before pinging the subject?

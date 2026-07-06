@@ -28,8 +28,8 @@ const CONFIG = {
 	jsGlob: 'src/**/*.{js,ts,jsx,tsx}',
 
 	// Output files
-	outputReportJson: 'unused-selectors-report.json',
-	outputReportHtml: 'unused-selectors-report.html',
+	outputReportJson: 'docs/development/reports/unused-selectors-report.json',
+	outputReportHtml: 'docs/development/reports/unused-selectors-report.html',
 
 	// Patterns to ignore
 	ignoreSelectors: [

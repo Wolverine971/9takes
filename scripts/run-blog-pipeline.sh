@@ -159,6 +159,52 @@ clear_grading_frontmatter() {
   fi
 }
 
+write_summary() {
+  local completed="$1"
+  local halt_reason="${2:-}"
+  local final_overall final_disc
+  final_overall="$(read_quality_field overall)"
+  final_disc="$(read_quality_field discoverability)"
+
+  SUMMARY_PATH="$LOG_DIR/summary.json" \
+  PERSON="$PERSON" \
+  DRAFT_PATH="$DRAFT_PATH" \
+  PIPELINE_LOG_DIR="$LOG_DIR" \
+  FIRST_OVERALL="${FIRST_OVERALL:-}" \
+  FINAL_OVERALL="${final_overall:-}" \
+  FINAL_DISCOVERABILITY="${final_disc:-}" \
+  LINT_EXIT="${LINT_EXIT:-0}" \
+  REVISED="$REVISED" \
+  COMPLETED="$completed" \
+  HALT_REASON="$halt_reason" \
+  HAS_STAGE_WARNINGS="$([[ -f "$LOG_DIR/STAGE_WARNINGS" ]] && echo true || echo false)" \
+  node -e '
+const fs = require("fs");
+const env = process.env;
+const num = (value) => value === "" || value == null ? null : Number(value);
+const summary = {
+  person: env.PERSON,
+  draft_path: env.DRAFT_PATH,
+  log_dir: env.PIPELINE_LOG_DIR,
+  completed: env.COMPLETED === "true",
+  halt_reason: env.HALT_REASON || null,
+  revised: env.REVISED === "1",
+  lint_exit: Number(env.LINT_EXIT || 0),
+  first_overall: num(env.FIRST_OVERALL),
+  final_overall: num(env.FINAL_OVERALL),
+  final_discoverability: num(env.FINAL_DISCOVERABILITY),
+  grade_stability_delta:
+    env.FIRST_OVERALL && env.FINAL_OVERALL
+      ? Math.abs(Number(env.FIRST_OVERALL) - Number(env.FINAL_OVERALL))
+      : null,
+  has_stage_warnings: env.HAS_STAGE_WARNINGS === "true",
+  generated_at: new Date().toISOString()
+};
+fs.writeFileSync(env.SUMMARY_PATH, JSON.stringify(summary, null, 2) + "\n");
+'
+  echo "Summary JSON: $LOG_DIR/summary.json"
+}
+
 run_lint() {
   local stage_label="${1:-6.5}"
   local log_file="$LOG_DIR/${stage_label}_lint.log"
@@ -266,8 +312,16 @@ LINT_EXIT=0
 REPORT_WARNINGS=0
 REVISION_REASONS=""
 REVISED=0
+FIRST_OVERALL=""
+FIRST_DISC=""
 
 run_stage 1 create             "/blog_content_creator_people_v2 $PERSON --non-interactive"
+if [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
+  echo "[Stage 1] create did not produce $DRAFT_PATH; halting remaining stages."
+  write_summary false "draft_missing_after_stage_1_create"
+  PIPELINE_COMPLETED=1
+  exit 0
+fi
 run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $PERSON"
 run_stage 3 second_pass        "/blog_content_second_pass_people $PERSON"
 run_stage 4 cohesion           "/cohesion-check $DRAFT_PATH"
@@ -331,42 +385,7 @@ if [[ -f "$FULL_DRAFT" ]]; then
     echo "  (no content_quality block found — grade stage may have failed)"
 fi
 
-FINAL_OVERALL="$(read_quality_field overall)"
-FINAL_DISC="$(read_quality_field discoverability)"
-SUMMARY_PATH="$LOG_DIR/summary.json" \
-PERSON="$PERSON" \
-DRAFT_PATH="$DRAFT_PATH" \
-PIPELINE_LOG_DIR="$LOG_DIR" \
-FIRST_OVERALL="${FIRST_OVERALL:-}" \
-FINAL_OVERALL="${FINAL_OVERALL:-}" \
-FINAL_DISCOVERABILITY="${FINAL_DISC:-}" \
-LINT_EXIT="${LINT_EXIT:-0}" \
-REVISED="$REVISED" \
-HAS_STAGE_WARNINGS="$([[ -f "$LOG_DIR/STAGE_WARNINGS" ]] && echo true || echo false)" \
-node -e '
-const fs = require("fs");
-const env = process.env;
-const num = (value) => value === "" || value == null ? null : Number(value);
-const summary = {
-  person: env.PERSON,
-  draft_path: env.DRAFT_PATH,
-  log_dir: env.PIPELINE_LOG_DIR,
-  completed: true,
-  revised: env.REVISED === "1",
-  lint_exit: Number(env.LINT_EXIT || 0),
-  first_overall: num(env.FIRST_OVERALL),
-  final_overall: num(env.FINAL_OVERALL),
-  final_discoverability: num(env.FINAL_DISCOVERABILITY),
-  grade_stability_delta:
-    env.FIRST_OVERALL && env.FINAL_OVERALL
-      ? Math.abs(Number(env.FIRST_OVERALL) - Number(env.FINAL_OVERALL))
-      : null,
-  has_stage_warnings: env.HAS_STAGE_WARNINGS === "true",
-  generated_at: new Date().toISOString()
-};
-fs.writeFileSync(env.SUMMARY_PATH, JSON.stringify(summary, null, 2) + "\n");
-'
-echo "Summary JSON: $LOG_DIR/summary.json"
+write_summary true
 
 # Clean, full completion — the EXIT trap must NOT write a false FAILED_AT_STAGE.
 # Any death before this line is a real failure and should leave the sentinel.

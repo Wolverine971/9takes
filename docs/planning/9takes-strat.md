@@ -1,4 +1,4 @@
-<!-- 9takes-strat.md -->
+<!-- docs/planning/9takes-strat.md -->
 
 # 9takes Distribution & Citation Strategy: Agent Handoff Document
 

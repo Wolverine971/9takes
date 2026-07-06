@@ -13,7 +13,7 @@
 - `docs/development/url-case-redirect-audit-tasker.md` — **delegation doc for the URL case fix** (parallel workstream)
 - `docs/development/rabbit-hole-baseline-snapshot.md` — pre-intervention GSC + LLM snapshot (fill-in template)
 - `docs/development/llm-citation-baseline-tasker.md` — **delegation doc for the Chrome-browser LLM baseline agent**
-- `9takes-strat.md` Part 4 — Fan-Out Audit
+- `docs/planning/9takes-strat.md` Part 4 — Fan-Out Audit
 - `docs/daily-briefs/2026-04-17_pickup-brief.md` §2.2 — current state
 
 ---

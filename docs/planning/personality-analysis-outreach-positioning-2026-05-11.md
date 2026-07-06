@@ -11,10 +11,10 @@ This doc defines how to pitch 9takes personality analysis blogs to public figure
 Use this with:
 
 - `docs/planning/personality-analysis-outreach-workflow-2026-05-06.md` for the manual send workflow, CTAs, and objection handling.
-- `outreach-plan.md` for the ranked list of published profiles and priority targets.
+- `docs/outreach/outreach-plan.md` for the ranked list of published profiles and priority targets.
 - `docs/research/blog-distribution-research.md` for existing target clusters, contact paths, and communities.
 - `docs/brand/brand-positioning.md` for the 9takes voice and core promise.
-- `9takes-strat.md` for the broader distribution, entity authority, and LLM citation strategy.
+- `docs/planning/9takes-strat.md` for the broader distribution, entity authority, and LLM citation strategy.
 - `breaking-points-pitch-strategy.md` for the lesson that personality profiles can be a relationship builder, not always the first line of the pitch.
 
 ## Core Pitch

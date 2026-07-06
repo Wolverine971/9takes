@@ -1,4 +1,4 @@
-<!-- outreach-plan.md -->
+<!-- docs/outreach/outreach-plan.md -->
 
 # 9takes Celebrity Blog Outreach Plan
 

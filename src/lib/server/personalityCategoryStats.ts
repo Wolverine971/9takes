@@ -1,7 +1,7 @@
 // src/lib/server/personalityCategoryStats.ts
 // Surfaces citation-grade, sourced numerical claims for each personality
 // category index page (the "Statistics Addition" + "Cite Sources" levers from
-// the GEO/AEO research — see 9takes-strat.md Part 3).
+// the GEO/AEO research — see docs/planning/9takes-strat.md Part 3).
 //
 // corpus-stats.json keys domains by the exact category slug used in
 // personalityCategories.ts, so the domain total matches the page's filter

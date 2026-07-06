@@ -8,7 +8,7 @@ _Priority: P0 (strat Tier 0 #3)_
 
 ## TL;DR for the next agent
 
-The `/personality-analysis/[slug]` pages (celebrity analyses) currently ship `Article` + `BreadcrumbList` JSON-LD, but **no `FAQPage` schema**. The strat ([`9takes-strat.md`](../../9takes-strat.md) section 7.1) calls this out as the single biggest remaining technical citation-boost.
+The `/personality-analysis/[slug]` pages (celebrity analyses) currently ship `Article` + `BreadcrumbList` JSON-LD, but **no `FAQPage` schema**. The strat ([`9takes-strat.md`](./9takes-strat.md) section 7.1) calls this out as the single biggest remaining technical citation-boost.
 
 **Before writing code, do the research pass below.** There are at least three overlapping JSON-LD surfaces on these pages and a DB-sourced `jsonld_snippet` override path that can be either a single node or a full `@graph`. Getting the integration shape right matters more than the schema itself.
 
@@ -28,7 +28,7 @@ The `/personality-analysis/[slug]` pages (celebrity analyses) currently ship `Ar
 
 ## Why This Matters (strat context)
 
-Pulled from `9takes-strat.md`:
+Pulled from `docs/planning/9takes-strat.md`:
 
 - **Part 3 #4:** "Structured markup (JSON-LD). FAQPage, Article, Person schemas measurably reduce model hallucination risk, which increases citation rate."
 - **Part 7.1 P0:** "Add `FAQPage` schema if the page includes Q&A sections about the person's type. This is the single biggest technical citation-boost available."
@@ -206,7 +206,7 @@ The next agent should ship:
 
 In this order:
 
-1. `9takes-strat.md` — Parts 3 + 7.1 for strategic context.
+1. `docs/planning/9takes-strat.md` — Parts 3 + 7.1 for strategic context.
 2. `src/lib/components/blog/PeopleBlogPageHead.svelte` — current JSON-LD output (the file to modify).
 3. `src/lib/utils/schema.ts` — existing `buildFAQSchema` + `parseJsonLdSnippet` helpers.
 4. `src/lib/server/blogContentProcessor.ts` — `TocHeading` type + how headings are extracted.

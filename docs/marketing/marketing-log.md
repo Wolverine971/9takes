@@ -10,6 +10,17 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-07-06 — Unattended status brief: growth stale; people pipeline reliability broke; IG session unstable
+
+- Brief: [`docs/daily-briefs/2026-07-06_marketing-status.md`](../daily-briefs/2026-07-06_marketing-status.md).
+- **Growth freshness gate:** newest growth-log entry is 2026-07-01, not today, so the brief leads with `⚠️ STALE GROWTH DATA (last audit 2026-07-01)` and does not present old funnel numbers as current.
+- **Biggest operational change:** people automation shipped through 07-04, then `oliver-tree` failed on both 07-05 and 07-06 before draft creation because of API connection failures. Both runs still advanced downstream stages against a missing draft, so the old "silent cycle" failure mode is still live.
+- **Signup status corrected:** `/api/signups` still has no recaptcha, but direct inspection shows layered hardening now exists (honeypot, 2.5s time-trap, bot-user-agent blocks, malformed-local blocking, per-IP/per-email rate limits, auth-abuse checks, and `newsletter_signup_security_events`). Needs fresh growth audit to verify real-world effect.
+- **Instagram regressed from "healthy" to "cadence present, account blocked":** 2026-07-06 warmup blocked at `instagram_account_not_in_picker`; latest warmup says 5 of last 7 mornings blocked and only 07-01 / 07-04 worked.
+- **Still idle:** 9 distribution packets remain queued; Quora is ~48 days dark since 2026-05-19; Long-Form outreach remains staged, with new 06-29 Bartlett/Ferriss/Schulz/Diary-of-a-CEO assets but no send evidence.
+- **SEO state:** corpus stats + cross-link index generated 2026-07-06; GSC export still 2026-06-11.
+- **Owner:** DJ. Open decisions in brief §"Open questions for DJ": Oliver Tree retry vs advance queue, whether current `scripts/run-blog-pipeline.sh` edit is the Stage-1 hard-stop fix, Instagram re-login/dedicated profile, fresh growth audit, distribution priority, Quora revive/retire.
+
 ### 2026-07-01 — Unattended status brief: publish gate UNJAMMED; IG healthy; signups leak + Quora still open
 
 - Brief: [`docs/daily-briefs/2026-07-01_marketing-status.md`](../daily-briefs/2026-07-01_marketing-status.md).
@@ -146,6 +157,13 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-07-06 — Current blockers needing DJ / eng decision
+
+- **Growth audit stale:** newest growth-log entry is 2026-07-01; weekly 2026-07-06 audit did not append before this brief.
+- **Blog automation:** `oliver-tree` failed twice before draft creation (07-05 `ConnectionRefused`; 07-06 connection closed mid-response). Decide retry vs advance queue after fixing the API/tooling issue.
+- **Instagram:** @9takesdotcom not in picker on 2026-07-06; manual re-login or dedicated Chrome profile required before warmups can reliably clear the owed @enneagrampaths reply.
+- **Quora:** no session/question-log/cron activity after 2026-05-19; revive or retire.
+
 ### 2026-05-11 — Daily brief cadence
 
 - Only 2 briefs total exist: `2026-04-17_pickup-brief.md`, `2026-05-09_marketing-status.md` (gap of ~3 weeks).
@@ -183,6 +201,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-07-06](../daily-briefs/2026-07-06_marketing-status.md) — stale growth data; people pipeline failed twice on Oliver Tree; IG session blocked again; distribution/Quora still idle.
 - [2026-07-01](../daily-briefs/2026-07-01_marketing-status.md) — publish gate unjammed (shipping daily again); IG healthy; signups leak + Quora + growth-audit-skip still open.
 - [2026-06-20](../daily-briefs/2026-06-20_marketing-status.md) — two jammed gates (publish + Quora) + signups spam leak.
 - [2026-05-09](../daily-briefs/2026-05-09_marketing-status.md) — first full marketing-state brief. Identified pop-culture queue as bottleneck.

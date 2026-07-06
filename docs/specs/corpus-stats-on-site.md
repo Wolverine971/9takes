@@ -5,7 +5,7 @@
 **Status:** Draft — pending DJ review
 **Created:** 2026-04-16
 **Owner:** DJ
-**Ties to:** `9takes-strat.md` Tier 1 #4 (corpus stats data file) — already shipped; this spec extends it onto the site.
+**Ties to:** `docs/planning/9takes-strat.md` Tier 1 #4 (corpus stats data file) — already shipped; this spec extends it onto the site.
 
 ---
 

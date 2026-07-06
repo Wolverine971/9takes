@@ -1,4 +1,4 @@
-<!-- agent-files/agent-readme.md -->
+<!-- docs/archives/agents/root-agent-files/agent-readme.md -->
 
 Search for info on the interent update blog post.
 

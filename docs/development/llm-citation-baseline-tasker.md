@@ -15,7 +15,7 @@
 
 We need a _pre-intervention_ baseline of what three major LLMs say when asked typology questions about the celebrities we've retrofitted (and a control set we haven't). In two weeks we'll re-run the same prompts and compare. This is the **only** measurement that isn't confounded by the URL case 301 redirect landing in parallel — GSC numbers will shift because of URL consolidation regardless of whether rabbit holes help, but LLM citation rates only move if the content changed.
 
-The strategic goal behind the rabbit hole (per `9takes-strat.md` Part 4) is fan-out coverage: we want LLMs to cite 9takes for sub-queries like "What is Elon Musk's wing?" or "Is Pete Davidson a 4 or a 9?" We can only verify that by asking the models directly. That's this tasker.
+The strategic goal behind the rabbit hole (per `docs/planning/9takes-strat.md` Part 4) is fan-out coverage: we want LLMs to cite 9takes for sub-queries like "What is Elon Musk's wing?" or "Is Pete Davidson a 4 or a 9?" We can only verify that by asking the models directly. That's this tasker.
 
 ---
 

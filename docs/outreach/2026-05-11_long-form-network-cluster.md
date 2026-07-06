@@ -552,5 +552,5 @@ Add a `cluster_role` column to the outreach tracker per recipient (host / guest-
 - Marketing log: `docs/marketing/marketing-log.md`
 - Marketing PM agent: `.claude/agents/marketing-pm.md`
 - Chris Williamson individual campaign: `docs/outreach/2026-05-11_chris-williamson-campaign.md`
-- Outreach plan (Feb 2026 priority list): `outreach-plan.md`
+- Outreach plan (Feb 2026 priority list): `docs/outreach/outreach-plan.md`
 - Distribution packets in flight: `docs/distribution-assets/`

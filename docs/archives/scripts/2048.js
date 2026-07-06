@@ -1,4 +1,4 @@
-// scripts/2048.js
+// docs/archives/scripts/2048.js
 
 let gridCol = 4;
 let gridRow = 4;

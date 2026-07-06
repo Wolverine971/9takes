@@ -1,4 +1,4 @@
-<!-- claude-code-skills.md -->
+<!-- docs/project-docs/claude-code-skills.md -->
 
 # Claude Code Skills Assessment for 9takes
 

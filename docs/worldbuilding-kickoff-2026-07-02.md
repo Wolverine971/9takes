@@ -17,7 +17,7 @@ Run Caleb Ralston's "7 Elements of Worldbuilding" (Named Concepts, Re-defined Te
 - 9takes is "like Reddit based on the Enneagram" — a Q&A/community platform organized by the nine types.
 - **Unfair worldbuilding advantage:** the founder's domain obsession IS the product. DJ highly identifies with the Enneagram and is an **8 — the Challenger**; that identity "encapsulates all my obsessions" and should shape how the 9takes world is framed.
 - **Native lore:** the Enneagram web scraper DJ built ("scrape everything anyone on the internet said about the Enneagram") is both 9takes origin lore _and_ the story that got him his YC-company job — the obsession→build-the-tool pattern starts here.
-- Harvest sources in this repo: `9takes-strat.md`, `cold-outreach-system.md`, `outreach-plan.md`, `docs/`, plus the Enneagram content itself.
+- Harvest sources in this repo: `docs/planning/9takes-strat.md`, `docs/outreach/cold-outreach-system.md`, `docs/outreach/outreach-plan.md`, `docs/`, plus the Enneagram content itself.
 - Likely enemy-space to explore (verify against docs, don't assume): personality-content shallowness / Buzzfeed-quiz-ification vs. actual depth of understanding people.
 
 ## Output expected

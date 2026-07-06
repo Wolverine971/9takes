@@ -19,7 +19,7 @@
 		"format": "prettier --write .",
 		"format:transcripts": "prettier --ignore-path /dev/null --write youtube-transcript-research youtube-transcripts-people",
 		"clean": "rimraf .svelte-kit",
-		"gen:sctx": "tsx scripts/generateStreamlinedProjectContext2.ts . -o ./sproject-context.json",
+		"gen:sctx": "tsx scripts/generateStreamlinedProjectContext2.ts . -o docs/archives/sproject-context.json",
 		"label-paths": "tsx scripts/labelFilePaths.ts",
 		"gen:types": "node scripts/generate-types.js",
 		"gen:personality-image-map": "node scripts/generate-personality-image-slug-map.js",

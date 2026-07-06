@@ -190,7 +190,7 @@ These are queued execution work. None require writing. Recommendation: fire CW p
 - `docs/outreach/2026-05-11_chris-williamson-campaign.md` — fine-grained CW-centric campaign (10 recipients around CW)
 - `docs/planning/personality-analysis-outreach-positioning-2026-05-11.md` — pitch framing + archetypes
 - `docs/planning/personality-analysis-outreach-workflow-2026-05-06.md` — manual workflow + CTA ladder
-- `outreach-plan.md` (root) — Feb 2026 priority list of all graded profiles
+- `docs/outreach/outreach-plan.md` — Feb 2026 priority list of all graded profiles
 
 **Doctrine (auto-loaded by Claude memory — but worth reviewing):**
 

@@ -5,7 +5,7 @@ reference: internal-outreach-operating-system
 visibility: internal
 publish: false
 purpose: Private blueprint for designing a full cold outreach operating system around right person -> right moment -> right reason -> right offer -> right ask -> right follow-up.
-path: cold-outreach-system.md
+path: docs/outreach/cold-outreach-system.md
 ---
 
 # Internal Cold Outreach Operating System
