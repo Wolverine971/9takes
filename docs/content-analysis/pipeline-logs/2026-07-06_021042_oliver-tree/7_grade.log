@@ -1,0 +1,22 @@
+## Can't grade — there is no Oliver Tree draft
+
+I looked, and there's **nothing to grade**. No `Oliver-Tree.md` exists in `src/blog/people/drafts/` (or anywhere in the repo, tracked or untracked). The only `oliver` artifacts are empty pipeline-log directories.
+
+**Root cause — the create stage died on transient API drops, both nights:**
+
+| Run | Stage 1 (create) | Detail |
+|-----|------------------|--------|
+| `2026-07-06_021042` | exit 1, ~5.6h | `API Error: Connection closed mid-response` |
+| `2026-07-05_020805` | exit 1, ~1.9h | `API Error: Unable to connect to API (ConnectionRefused)` |
+
+The draft body was never generated. Every downstream stage confirms it — the enrichment stage refused to fabricate a body, and the deterministic checks all reported `Draft not found: oliver-tree`. These were **connection failures, not content failures**, so a retry may just work.
+
+I'm not going to invent a grade for a file that doesn't exist, and I won't kick off a multi-hour create run (the two failed attempts logged ~2h and ~5.6h) on my own.
+
+### Your options
+
+1. **Create it now** — run `/blog_content_creator_people_v2 oliver-tree`, then chain fresh-eyes → second-pass → cohesion → editor → enrichment, and I'll grade once the draft lands.
+2. **Re-run the nightly pipeline** for `oliver-tree`; I'll grade the moment a valid draft exists.
+3. **Skip Oliver Tree** if he's no longer a priority.
+
+Want me to start the create stage, or point me at a different draft to grade instead?

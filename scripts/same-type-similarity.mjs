@@ -27,9 +27,9 @@
 // clear of the same-type noise floor (see the run in the handoff report).
 //
 // Usage:
-//   node scripts/same-type-similarity.mjs <Person-Name | path/to/draft.md> [--n 8] [--json]
+//   node scripts/same-type-similarity.mjs <Person-Name | path/to/draft.md> [--n 8] [--json] [--fail-on-trip]
 //
-// Exit codes: 0 = ran, 2 = usage / file error.
+// Exit codes: 0 = ran/clear, 1 = --fail-on-trip and similarity tripped, 2 = usage / file error.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -45,6 +45,7 @@ const DRAFTS_DIR = path.join(REPO_ROOT, 'src', 'blog', 'people', 'drafts');
 // ---------------------------------------------------------------------------
 const argv = process.argv.slice(2);
 const asJson = argv.includes('--json');
+const failOnTrip = argv.includes('--fail-on-trip');
 let n = 8;
 const nIdx = argv.indexOf('--n');
 if (nIdx >= 0 && argv[nIdx + 1]) n = Math.max(1, parseInt(argv[nIdx + 1], 10) || 8);
@@ -53,7 +54,7 @@ const target = positional[0];
 
 if (!target) {
 	process.stderr.write(
-		'Usage: node scripts/same-type-similarity.mjs <Person-Name | path/to/draft.md> [--n 8] [--json]\n'
+		'Usage: node scripts/same-type-similarity.mjs <Person-Name | path/to/draft.md> [--n 8] [--json] [--fail-on-trip]\n'
 	);
 	process.exit(2);
 }
@@ -481,7 +482,7 @@ const report = {
 
 if (asJson) {
 	process.stdout.write(JSON.stringify(report, null, 2) + '\n');
-	process.exit(0);
+	process.exit(failOnTrip && report.tripped ? 1 : 0);
 }
 
 // ---------------------------------------------------------------------------
@@ -535,4 +536,4 @@ if (topOther) {
 		`Top pair scores ${topOther.score} vs median ${floor.median}  (~${aboveFloor}x the noise floor).`
 	);
 }
-process.exit(0);
+process.exit(failOnTrip && report.tripped ? 1 : 0);

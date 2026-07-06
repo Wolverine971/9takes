@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-07-05T06:08:05Z",
+	"lastUpdated": "2026-07-06T06:10:42Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
@@ -925,9 +925,10 @@
 		"searchVolume": "medium",
 		"personaTitle": null,
 		"addedToQueue": "2026-04-15",
-		"retryCount": 0,
+		"retryCount": 1,
 		"strategicValue": "alt-pop-eccentric-cluster",
-		"startedAt": "2026-07-05T06:08:05Z"
+		"recoveryNote": "Returned to queue by nightly-blog-cron after a dead launch (no draft, no live pipeline).",
+		"startedAt": "2026-07-06T06:10:42Z"
 	},
 	"skipped": [
 		{

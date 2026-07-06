@@ -1,0 +1,25 @@
+There's no draft to revise. Here's what I found:
+
+## No Oliver Tree draft exists
+
+The second-pass command needs an existing draft in `src/blog/people/drafts/Oliver-Tree.md`, but there isn't one — anywhere in the repo. I confirmed with a case-insensitive search across the whole tree; the only Oliver Tree artifacts are two empty pipeline-log directories.
+
+**Why:** both blog-pipeline runs died at **Stage 1 (create)** with API connection drops, so a draft was never written:
+
+| Run | Stage 1 result | Detail |
+|-----|----------------|--------|
+| `2026-07-06_021042` | exit 1, ~5.5h | `API Error: Connection closed mid-response` |
+| `2026-07-05_020805` | exit 1, ~1.9h | `API Error: Unable to connect to API (ConnectionRefused)` |
+
+The source audit confirms the same thing: `Draft not found: Oliver-Tree`. Today's run stopped cleanly at Stage 1; yesterday's run had stages 2–5 each error against the missing file, then 6–7 "passed" trivially on nothing. Neither produced content.
+
+These were **connection failures, not content failures** — a retry may simply work.
+
+## What I can do next
+
+There's nothing for a second pass to improve until the draft exists. Your call:
+
+1. **Kick off the create stage** — I run `/blog_content_creator_people_v2 oliver-tree` to generate the draft, then chain fresh-eyes → this second pass on it.
+2. **You re-run the nightly pipeline** for `oliver-tree` and I pick up the second pass once `Oliver-Tree.md` lands.
+
+Want me to run the create step now so there's a draft to work from?

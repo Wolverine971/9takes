@@ -1,0 +1,33 @@
+I can't run the frontmatter enrichment — **there is no Oliver Tree draft to enrich.** This is a blocker upstream of my pass, not something I can work around.
+
+## What I found
+
+The enrichment stage is step 6 of the people pipeline, but step 1 (create) never produced a file. Confirmed across the whole repo — the only `oliver` artifacts are two empty pipeline-log directories:
+
+```
+docs/content-analysis/pipeline-logs/2026-07-06_021042_oliver-tree/
+docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/
+```
+
+No `Oliver-Tree.md` exists in `src/blog/people/drafts/` (or anywhere else), and there's no git history for it.
+
+**Root cause — Stage 1 (create) died on transient API connection drops both nights:**
+
+| Run | Stage 1 result | Detail |
+|-----|----------------|--------|
+| `2026-07-06_021042` | exit 1, ~5.6h | `API Error: Connection closed mid-response` |
+| `2026-07-05_020805` | exit 1, ~1.9h | `API Error: Unable to connect to API (ConnectionRefused)` |
+
+Stages 2–5 all hit the same wall and deferred to you (the editor-pass log at `5_editor_pass.log` lays this out). These were **connection failures, not content failures** — the create step never finished generating. A retry may simply work.
+
+## Why I'm not silently proceeding
+
+I own frontmatter only — I can't fabricate a body, and I won't kick off a multi-hour create run (the two failed attempts logged ~2h and ~5.6h) on my own initiative. That's a decision for you.
+
+## Your options
+
+1. **Kick off create now** — `/blog_content_creator_people_v2 oliver-tree`, then chain fresh-eyes → second-pass → cohesion → editor → *this* enrichment pass once the draft lands.
+2. **Re-run the nightly pipeline** for `oliver-tree`; I pick up enrichment the moment `Oliver-Tree.md` exists and is editor-approved.
+3. **Skip Oliver Tree** if he's no longer a priority subject.
+
+Want me to start the create stage, or are you handling the re-run?

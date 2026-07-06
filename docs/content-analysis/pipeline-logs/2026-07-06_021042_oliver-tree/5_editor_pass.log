@@ -1,0 +1,33 @@
+I've traced the full picture. Here's what's going on — and it's a blocker, not an edit job.
+
+## There is no Oliver Tree draft to polish
+
+The editor pass is the *final* step of the pipeline, but the *first* step never produced a file. I confirmed with a case-insensitive search across the whole repo (`find . -iname "*oliver*"`): the only Oliver Tree artifacts are two empty pipeline-log directories. No `Oliver-Tree.md` exists in `src/blog/people/drafts/` or anywhere else.
+
+**Root cause — Stage 1 (create) died on transient API connection drops, both nights:**
+
+| Run | Stage 1 result | Detail |
+|-----|----------------|--------|
+| `2026-07-06_021042` | exit 1, ~5.6h | `API Error: Connection closed mid-response` |
+| `2026-07-05_020805` | exit 1, ~1.9h | `API Error: Unable to connect to API (ConnectionRefused)` |
+
+Stages 2–4 in today's run all reached the same wall and logged it:
+- **Fresh-eyes (Stage 2):** "No draft exists to review."
+- **Second-pass (Stage 3):** "There's no draft to revise."
+- **Cohesion (Stage 4):** "CANNOT RUN — there is no draft to check."
+
+Stage 5 (this editor pass) is the last domino. Its log is empty because there's nothing to edit, and the exit checks (`blog-quality-report.mjs` / `blog-lint.sh`) would just report `Draft not found: Oliver-Tree`.
+
+The key detail: **these were connection failures, not content failures.** The create step never got to finish generating — a retry may simply work.
+
+## What I need from you
+
+I'm not going to silently kick off the create stage — it's a multi-hour run (the failed attempts logged ~2h and ~5.6h), which is well outside a "final polish pass" and something you'd want to decide on. The upstream agents deferred to you on this for the same reason.
+
+Your options:
+
+1. **I kick off create now** — `/blog_content_creator_people_v2 oliver-tree` to generate the draft, then I chain fresh-eyes → second-pass → cohesion → this editor pass on it once it lands. (Long run; I'd want your go-ahead first.)
+2. **You re-run the nightly pipeline** for `oliver-tree` and I pick up the editor pass the moment `Oliver-Tree.md` exists.
+3. **Skip Oliver Tree** if he's no longer a priority subject.
+
+Want me to start the create stage?

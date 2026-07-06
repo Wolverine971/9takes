@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-07-05_
+_Generated: 2026-07-06_
 _Total Posts Analyzed: 190 (Published: 169, Unpublished: 21)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -16,7 +16,7 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Posts with 0 outgoing links | 27 |
 | Posts with 0 incoming links | 42 |
 | Completely isolated (0 in, 0 out) | 26 |
-| Total internal cross-links | 994 |
+| Total internal cross-links | 995 |
 | Average outgoing links per post | 5.2 |
 
 ---
@@ -123,7 +123,7 @@ These posts are "orphaned" - no other content links to them.
 
 | Incoming | Outgoing | Post Title | Path |
 |----------|----------|------------|------|
-| 71 | 16 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
+| 72 | 16 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
 | 50 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 32 | 9 | Find Your Enneagram Type in 10 Minutes (4 Simple Steps) | `enneagram/beginners-guide-to-determining-your-enneagram-type.md` |
 | 32 | 12 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
@@ -156,7 +156,7 @@ These posts are "orphaned" - no other content links to them.
 | 34 | 28 | What | `enneagram/enneagram-tldr.md` |
 | 25 | 2 | Enneagram Books, Websites, Podcasts & Influencers | `enneagram/enneagram-books-websites-podcasts.md` |
 | 18 | 23 | The Enneagram and Mental Illness: Understand Each Type | `enneagram/enneagram-and-mental-illness.md` |
-| 16 | 71 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
+| 16 | 72 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
 | 16 | 9 | Relationship Communication Guide: The Enneagram Key | `enneagram/relationship-communication-guide.md` |
 | 15 | 30 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
 | 15 | 30 | How Each Enneagram Type Self-Sabotages Success (And How to S... | `enneagram/how-each-enneagram-type-self-sabotages-success.md` |
@@ -187,7 +187,7 @@ Sorted by total connections (incoming + outgoing).
 
 | Total | In | Out | Post Title | Path |
 |-------|----|----|------------|------|
-| 87 | 71 | 16 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
+| 88 | 72 | 16 | How Each Type Falls Apart (Your Stress Breakdown Pattern) | `enneagram/enneagram-types-in-stress.md` |
 | 62 | 28 | 34 | What | `enneagram/enneagram-tldr.md` |
 | 58 | 50 | 8 | Why Nobody Understands You (It | `enneagram/enneagram-communication-styles.md` |
 | 45 | 30 | 15 | Enneagram Types in Relationships: How Each Type Loves (And W... | `enneagram/enneagram-types-in-relationships.md` |
@@ -302,6 +302,7 @@ Sorted by total connections (incoming + outgoing).
 | 6 | 3 | 3 | Enneagram Team Dynamics: Which Pairs Click, Which Implode | `enneagram/enneagram-team-dynamics.md` |
 | 6 | 3 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
 | 6 | 3 | 3 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |
+| 6 | 1 | 5 | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried... | `pop-culture/fallen-founders-enneagram-analysis.md` |
 | 5 | 2 | 3 | Kant Said Reality Is Filtered. The Enneagram Shows the Other... | `community/kantian-filters-and-nine-perspectives.md` |
 | 5 | 1 | 4 | 3 Societal Ticking Time Bombs Nobody Is Connecting | `community/societal-ticking-time-bombs.md` |
 | 5 | 2 | 3 | What Winning Online Arguments Looks Like | `community/what-winning-online-arguments-looks-like.md` |
@@ -314,7 +315,6 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 1 | 4 | How to Read People: The 4-Step Guide to Understanding Anyone | `guides/how-to-psychoanalyze-people.md` |
 | 5 | 2 | 3 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` |
 | 5 | 2 | 3 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
-| 5 | 1 | 4 | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried... | `pop-culture/fallen-founders-enneagram-analysis.md` |
 | 5 | 2 | 3 | Google | `pop-culture/google-leadership-evolution.md` |
 | 5 | 3 | 2 | The Anatomy of Public Shame: What We | `pop-culture/psychology-of-public-shame.md` |
 | 5 | 0 | 5 | Succession Enneagram: Why Logan Roy Bred Four Different Pers... | `pop-culture/succession-roy-siblings-enneagram-types.md` |

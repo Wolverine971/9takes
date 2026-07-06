@@ -3,12 +3,13 @@
 //
 // Deterministic QUALITY-SIGNAL report for a single 9takes people draft.
 // Sibling to scripts/blog-lint.sh — but where blog-lint enforces hard structural
-// rules (and is wired into the pipeline), this script only MEASURES the soft
+// rules (and enforces hard failures), this script MEASURES the soft
 // quality signals the 2026-07-04 pipeline audit found were being self-reported
 // (and drifting): negative-parallelism "contrast pairs", searchable head-terms,
-// and hand-keyed corpus counts. It is READ-ONLY and NOT wired into the pipeline,
-// so it can never destabilise the nightly cron. Phase 3 prompt changes cite these
-// readings as their exit condition instead of asking an LLM stage to grade itself.
+// and hand-keyed corpus counts. It is READ-ONLY; the pipeline logs it as a report
+// stage, while hard contrast gating lives in scripts/blog-lint.sh. Phase 3 prompt
+// changes cite these readings as their exit condition instead of asking an LLM
+// stage to grade itself.
 //
 // Checks:
 //   2.1  contrast-pair / negative-parallelism counter   (ground truth: Steve-Martin >= 5)

@@ -1,0 +1,23 @@
+Both pipeline runs for Oliver Tree failed before a draft was ever written, so there's nothing to review. Here's what I found:
+
+## No draft exists to review
+
+There is **no `Oliver-Tree.md` draft** anywhere in the repo (I searched `src/blog/people/drafts/` and the whole tree case-insensitively). The fresh-eyes command requires an existing draft — there's nothing to read.
+
+**Why:** Both blog-pipeline attempts for `oliver-tree` died at **Stage 1 (create)** with API connection errors, so no file was ever produced:
+
+| Run | Stage 1 outcome | Detail |
+|-----|----------------|--------|
+| `2026-07-06_021042` | exit 1, ~5.5h | `API Error: Connection closed mid-response` |
+| `2026-07-05_020805` | exit 1, ~1.9h | `API Error: Unable to connect to API (ConnectionRefused)` |
+
+In the 07-05 run, stages 2–5 also each logged an error (they ran against a missing/empty draft), and stages 6–7 "passed" trivially on nothing. The 07-06 run stopped cleanly at Stage 1.
+
+## What to do next
+
+The create step needs to actually succeed before any fresh-eyes pass is possible. Options:
+
+1. **Re-run the create stage** — `/blog_content_creator_people_v2 oliver-tree` (or the full nightly pipeline) to generate the draft. These were connection-drop failures, not content failures, so a retry may just work.
+2. Once a draft lands in `src/blog/people/drafts/Oliver-Tree.md`, re-run `/blog_content_fresh_eyes_people oliver-tree` and I'll do the actual reader-response pass.
+
+Want me to kick off the create stage now so the draft exists, then run fresh-eyes on it?

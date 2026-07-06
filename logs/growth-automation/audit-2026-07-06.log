@@ -1,0 +1,4 @@
+[2026-07-06 06:09:32] Starting weekly growth audit
+API Error: Connection closed mid-response. The response above may be incomplete.
+[2026-07-06 06:16:53] claude exited 1
+[2026-07-06 06:16:53] FAIL: claude exited 1

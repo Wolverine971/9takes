@@ -35,9 +35,9 @@
 // A *venue* reference ("in an interview") is what earns the vague tier.
 //
 // Usage:
-//   node scripts/blog-source-audit.mjs <Person-Name | path/to/draft.md> [--json]
+//   node scripts/blog-source-audit.mjs <Person-Name | path/to/draft.md> [--json] [--fail-on-untagged-load-bearing]
 //
-// Exit codes: 0 = ran, 2 = usage / file error.
+// Exit codes: 0 = ran/clear, 1 = --fail-on-untagged-load-bearing and an untagged load-bearing slot was found, 2 = usage / file error.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -53,12 +53,13 @@ const DRAFTS_DIR = path.join(REPO_ROOT, 'src', 'blog', 'people', 'drafts');
 // ---------------------------------------------------------------------------
 const args = process.argv.slice(2);
 const asJson = args.includes('--json');
+const failOnUntaggedLoadBearing = args.includes('--fail-on-untagged-load-bearing');
 const positional = args.filter((a) => !a.startsWith('--'));
 const target = positional[0];
 
 if (!target) {
 	process.stderr.write(
-		'Usage: node scripts/blog-source-audit.mjs <Person-Name | path/to/draft.md> [--json]\n'
+		'Usage: node scripts/blog-source-audit.mjs <Person-Name | path/to/draft.md> [--json] [--fail-on-untagged-load-bearing]\n'
 	);
 	process.exit(2);
 }
@@ -515,7 +516,7 @@ report.summary = {
 
 if (asJson) {
 	process.stdout.write(JSON.stringify(report, null, 2) + '\n');
-	process.exit(0);
+	process.exit(failOnUntaggedLoadBearing && report.summary.any_untagged_load_bearing_slot ? 1 : 0);
 }
 
 // ---------------------------------------------------------------------------
@@ -574,4 +575,4 @@ line(
 	`  any untagged load-bearing quote:         ${report.summary.any_untagged_load_bearing_slot ? 'YES' : 'no'}`
 );
 line('-'.repeat(72));
-process.exit(0);
+process.exit(failOnUntaggedLoadBearing && report.summary.any_untagged_load_bearing_slot ? 1 : 0);

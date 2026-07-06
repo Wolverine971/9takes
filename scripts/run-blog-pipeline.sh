@@ -212,6 +212,7 @@ run_report_stage() {
   printf '%s\t%s\t%s\t%ss\n' "$stage_label" "$stage_name" "$exit_code" "$dur" \
     >> "$LOG_DIR/stage-summary.tsv"
   if [[ "$exit_code" -ne 0 ]]; then
+    REPORT_WARNINGS=1
     printf 'stage=%s_%s exit=%s dur=%ss at=%s\n' \
       "$stage_label" "$stage_name" "$exit_code" "$dur" "$(date '+%Y-%m-%d %H:%M:%S')" \
       >> "$LOG_DIR/STAGE_WARNINGS"
@@ -255,10 +256,14 @@ revision_needed() {
   if [[ "$LINT_EXIT" -ne 0 ]]; then
     REVISION_REASONS+="lint failures; "
   fi
+  if [[ "$REPORT_WARNINGS" -ne 0 ]]; then
+    REVISION_REASONS+="deterministic report warnings; "
+  fi
   [[ -n "$REVISION_REASONS" ]]
 }
 
 LINT_EXIT=0
+REPORT_WARNINGS=0
 REVISION_REASONS=""
 REVISED=0
 
@@ -270,8 +275,8 @@ run_stage 5 editor_pass        "/blog_content_editor_pass_people $PERSON"
 run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $PERSON"
 run_lint 6.5
 run_report_stage 6.6 quality_report node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$PERSON"
-run_report_stage 6.7 source_audit node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON"
-run_report_stage 6.8 same_type_similarity node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$PERSON" --n 8
+run_report_stage 6.7 source_audit node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON" --fail-on-untagged-load-bearing
+run_report_stage 6.8 same_type_similarity node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$PERSON" --n 8 --fail-on-trip
 clear_grading_frontmatter
 run_stage 7 grade              "/grade_blog $PERSON"
 
@@ -307,7 +312,8 @@ fi
 if [[ "$REVISED" -eq 1 ]]; then
   FINAL_OVERALL="$(read_quality_field overall)"
   run_report_stage 9.5 quality_report_after_revision node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$PERSON"
-  run_report_stage 9.6 source_audit_after_revision node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON"
+  run_report_stage 9.6 source_audit_after_revision node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON" --fail-on-untagged-load-bearing
+  run_report_stage 9.7 same_type_similarity_after_revision node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$PERSON" --n 8 --fail-on-trip
   echo "REVISION LOOP: ran once (trigger: ${REVISION_REASONS%; })"
   echo "GRADE: ${FIRST_OVERALL:-?} → ${FINAL_OVERALL:-?} (first grade → after revision)"
   if [[ -n "$FINAL_OVERALL" ]] && awk -v o="$FINAL_OVERALL" 'BEGIN { exit !(o < 8.5) }'; then

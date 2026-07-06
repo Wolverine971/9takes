@@ -1,0 +1,27 @@
+## Cohesion Check: `src/blog/people/drafts/oliver-tree.md` — CANNOT RUN
+
+**There is no draft to check.** The file `src/blog/people/drafts/oliver-tree.md` (or any casing/location variant) does not exist anywhere in the repo. I confirmed with a case-insensitive search across the whole tree.
+
+### Why (root cause)
+
+Both blog-pipeline runs for `oliver-tree` died at **Stage 1 (create)** before a draft was ever written, so Stages 2–4 have nothing to operate on:
+
+| Run | Stage 1 result | Detail |
+|-----|----------------|--------|
+| `2026-07-06_021042` | exit 1, ~5.6h | `API Error: Connection closed mid-response` |
+| `2026-07-05_020805` | exit 1, ~1.9h | `API Error: Unable to connect to API (ConnectionRefused)` |
+
+The two upstream stages in today's run reached the same conclusion:
+- **Stage 2 (fresh_eyes):** "No draft exists to review."
+- **Stage 3 (second_pass):** "There's no draft to revise."
+
+These were **connection-drop failures, not content failures** — the create step never got to finish generating.
+
+### Closest matches (not drafts)
+- `docs/content-analysis/pipeline-logs/2026-07-06_021042_oliver-tree/` — today's log dir (empty artifacts)
+- `docs/content-analysis/pipeline-logs/2026-07-05_020805_oliver-tree/` — yesterday's log dir
+
+### What's needed
+Cohesion is a structural pass over prose — it has no input until `Oliver-Tree.md` exists. The fix is upstream: **re-run the create stage** (`/blog_content_creator_people_v2 oliver-tree`, or the full nightly pipeline for `oliver-tree`). Because the failures were transient connection drops, a retry may simply succeed. Once the draft lands in `src/blog/people/drafts/`, re-run this cohesion check and it will produce a real audit.
+
+No file was read, edited, or created — there was nothing to act on. Logging this as the Stage 4 outcome; I'm not kicking off the create stage myself since that's outside this command's scope (and would be a ~5h run you'd want to decide on).
