@@ -1,7 +1,7 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-07-06_
-_Total Posts Analyzed: 190 (Published: 169, Unpublished: 21)_
+_Generated: 2026-07-07_
+_Total Posts Analyzed: 191 (Published: 170, Unpublished: 21)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -10,13 +10,13 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 190 |
-| Published posts | 169 |
+| Total posts | 191 |
+| Published posts | 170 |
 | Unpublished posts | 21 |
 | Posts with 0 outgoing links | 27 |
-| Posts with 0 incoming links | 42 |
+| Posts with 0 incoming links | 43 |
 | Completely isolated (0 in, 0 out) | 26 |
-| Total internal cross-links | 995 |
+| Total internal cross-links | 997 |
 | Average outgoing links per post | 5.2 |
 
 ---
@@ -92,7 +92,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (42 posts)
+## Priority 3: Posts with NO Incoming Links (43 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -110,6 +110,7 @@ These posts are "orphaned" - no other content links to them.
 | Succession Enneagram: Why Logan Roy Bred Four Different Pers... | `pop-culture/succession-roy-siblings-enneagram-types.md` | 5 |
 | Attachment, Frustration, Rejection: Object Relations by Type | `enneagram/enneagram-object-relations.md` | 4 |
 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | 2 |
+| What Enneagram Type Are Most Musicians? The Data Says Type 4 | `pop-culture/what-enneagram-type-are-most-musicians.md` | 2 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
 | My First Million | `pop-culture/my-first-million-shaan-sam-enneagram-dynamic.md` | 1 |
 | The PayPal Mafia: How One Company Produced More Tech Billion... | `pop-culture/tech-titans-paypal-mafia.md` | 1 |
@@ -141,11 +142,11 @@ These posts are "orphaned" - no other content links to them.
 | 15 | 7 | Your Dark Side Has a Number (And It | `enneagram/enneagram-stress-number.md` |
 | 14 | 8 | How Your Enneagram Type Shapes Your Relationship with Medica... | `enneagram/mental-health/enneagram-medication-mental-health.md` |
 | 13 | 12 | Enneagram Self-Development: What I Got Wrong as a Type 8 | `enneagram/enneagram-self-development.md` |
+| 13 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
+| 12 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 12 | 7 | Enneagram Types on a First Date: What to Expect | `enneagram/enneagram-types-on-a-first-date.md` |
-| 12 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
 | 12 | 7 | Crisis Management by Enneagram Type: A Mental Health Toolkit | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
 | 11 | 5 | Attachment Styles and Enneagram Types: A Map | `enneagram/attachment-styles-and-enneagram-types.md` |
-| 11 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 11 | 11 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 10 | 4 | Enneagram Harmonic Approaches: How Each Type Handles Conflic... | `enneagram/enneagram-harmonic-approaches.md` |
 
@@ -211,19 +212,19 @@ Sorted by total connections (incoming + outgoing).
 | 22 | 11 | 11 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 21 | 8 | 13 | Enneagram Concepts: The Personality Box You | `enneagram/enneagram-concepts.md` |
 | 19 | 12 | 7 | Enneagram Types on a First Date: What to Expect | `enneagram/enneagram-types-on-a-first-date.md` |
+| 19 | 13 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
 | 19 | 9 | 10 | Enneagram and Addiction: Why Each Type Self-Medicates Differ... | `enneagram/mental-health/enneagram-addiction-recovery-guide.md` |
 | 19 | 12 | 7 | Crisis Management by Enneagram Type: A Mental Health Toolkit | `enneagram/mental-health/enneagram-crisis-management-guide.md` |
 | 19 | 9 | 10 | Enneagram and Neurodivergence: When Personality Meets Brain ... | `enneagram/mental-health/enneagram-neurodivergence-guide.md` |
 | 19 | 10 | 9 | Why You | `enneagram/mental-health/enneagram-workplace-mental-health.md` |
-| 18 | 12 | 6 | Why You Don | `enneagram/enneagram-wings-complete-guide.md` |
 | 17 | 7 | 10 | Why MBTI Failed and What to Use Instead | `community/mbti-vs-enneagram.md` |
 | 17 | 9 | 8 | Why Your Anxiety Is Different (And What Actually Works for Y... | `enneagram/anxiety-and-enneagram-types-guide.md` |
 | 17 | 6 | 11 | Is the Enneagram Real? 27 Questions Everyone Asks (Finally A... | `enneagram/enneagram-faqs.md` |
 | 17 | 7 | 10 | When  | `enneagram/mental-health/enneagram-parenting-mental-health.md` |
 | 17 | 10 | 7 | Shadow Work by Enneagram Type: Your Dark Side Has a Pattern | `enneagram/shadow-work-by-enneagram-type.md` |
 | 16 | 11 | 5 | Attachment Styles and Enneagram Types: A Map | `enneagram/attachment-styles-and-enneagram-types.md` |
+| 16 | 12 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 16 | 9 | 7 | Is the Enneagram Scientifically Valid? The Research | `enneagram/mental-health/enneagram-science-mental-health.md` |
-| 15 | 11 | 4 | Why You Don | `enneagram/enneagram-instinctual-subtypes.md` |
 | 15 | 9 | 6 | Why Therapy Doesn | `enneagram/why-therapy-doesnt-work-the-same-for-every-type.md` |
 | 15 | 5 | 10 | Dark Triad Meets Enneagram: How Each Type Goes Wrong | `pop-culture/dark-triad-meets-enneagram.md` |
 | 14 | 6 | 8 | The Consensus on Human Nature | `community/consensus-on-human-nature.md` |
@@ -346,6 +347,7 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 2 | 0 | 2 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` |
 | 2 | 1 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
+| 2 | 0 | 2 | What Enneagram Type Are Most Musicians? The Data Says Type 4 | `pop-culture/what-enneagram-type-are-most-musicians.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |
 | 1 | 0 | 1 | My First Million | `pop-culture/my-first-million-shaan-sam-enneagram-dynamic.md` |
 | 1 | 0 | 1 | The PayPal Mafia: How One Company Produced More Tech Billion... | `pop-culture/tech-titans-paypal-mafia.md` |

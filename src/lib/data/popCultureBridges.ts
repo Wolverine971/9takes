@@ -133,6 +133,12 @@ export const POP_CULTURE_BRIDGES: Record<string, PopCultureBridges> = {
 		corpusAnchor: 'creator-media',
 		category: 'creator-media'
 	},
+	// Musicians — corpus data shows a Type 4 over-index in music
+	'what-enneagram-type-are-most-musicians': {
+		type: 4,
+		corpusAnchor: 'music',
+		category: 'music'
+	},
 	// Reddit moderators — explicit Type 1
 	'reddit-moderators-type-1-internet': {
 		type: 1,
