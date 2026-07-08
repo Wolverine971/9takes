@@ -1,0 +1,132 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — oliver-tree (Type 4)
+/Users/djwayne/9takes/src/blog/people/drafts/oliver-tree.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 35
+Comparison set (last 8 other Type-4 drafts by date):
+  - oliver-tree  (2026-07-07, 35 units)
+  - sza  (2026-07-04, 47 units)
+  - Rose-Blackpink  (2026-07-02, 29 units)
+  - megan-fox  (2026-06-28, 47 units)
+  - odessa-azion  (2026-06-27, 27 units)
+  - lily-allen  (2026-06-24, 24 units)
+  - Andrew-Garfield  (2026-06-09, 24 units)
+  - noah-kahan  (2026-06-09, 12 units)
+
+Noise floor over 8575 unit pairs:  median=0  p90=0  p99=0.011  max=1
+Trip threshold: 0.044  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] He named his record label Alien Boy Records.
+   OTHER  [diagnosis] He named his record label Alien Boy Records.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] "Oliver Tree's debut album proves that
+   OTHER  [diagnosis] "Oliver Tree's debut album proves that
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] the fake retirements as escape hatches
+   OTHER  [counter-typing] the fake retirements as escape hatches
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] Here is why the Four call holds anyway.
+   OTHER  [counter-typing] Here is why the Four call holds anyway.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] He named two companies after it
+   OTHER  [counter-typing] He named two companies after it
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] The travel and the chaos were a Four's search for meaning under a private certainty that time was short.
+   OTHER  [counter-typing] The travel and the chaos were a Four's search for meaning under a private certainty that time was short.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] A Type 3 case exists too
+   OTHER  [counter-typing] A Type 3 case exists too
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] and this man built an aesthetic literally titled Ugly Is Beautiful and called himself "the ugly Justin Bieber." He wanted to be unrepeatable more than he wanted to be admired.
+   OTHER  [counter-typing] and this man built an aesthetic literally titled Ugly Is Beautiful and called himself "the ugly Justin Bieber." He wanted to be unrepeatable more than he wanted to be admired.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] Oliver Tree was an Enneagram Type 4
+   OTHER  [diagnosis] Oliver Tree was an Enneagram Type 4
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] Fours build their identity out of what sets them apart
+   OTHER  [diagnosis] Fours build their identity out of what sets them apart
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] Oliver Tree pushed that instinct further than almost any artist of his generation.
+   OTHER  [diagnosis] Oliver Tree pushed that instinct further than almost any artist of his generation.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] "Alien Boy" was also a breakout single
+   OTHER  [diagnosis] "Alien Boy" was also a breakout single
+
+
+Most similar drafts (max unit-pair score):
+  1.000 ######################################## oliver-tree
+  0.108 ####                 megan-fox
+  0.049 ##                   odessa-azion
+  0.032 #                    Andrew-Garfield
+  0.031 #                    lily-allen
+  0.025 #                    noah-kahan
+  0.022 #                    sza
+  0.018 #                    Rose-Blackpink
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] He named his record label Alien Boy Records.
+   OTHER  [diagnosis] He named his record label Alien Boy Records.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] "Oliver Tree's debut album proves that
+   OTHER  [diagnosis] "Oliver Tree's debut album proves that
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] the fake retirements as escape hatches
+   OTHER  [counter-typing] the fake retirements as escape hatches
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] Here is why the Four call holds anyway.
+   OTHER  [counter-typing] Here is why the Four call holds anyway.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] He named two companies after it
+   OTHER  [counter-typing] He named two companies after it
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] The travel and the chaos were a Four's search for meaning under a private certainty that time was short.
+   OTHER  [counter-typing] The travel and the chaos were a Four's search for meaning under a private certainty that time was short.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] A Type 3 case exists too
+   OTHER  [counter-typing] A Type 3 case exists too
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [counter-typing] and this man built an aesthetic literally titled Ugly Is Beautiful and called himself "the ugly Justin Bieber." He wanted to be unrepeatable more than he wanted to be admired.
+   OTHER  [counter-typing] and this man built an aesthetic literally titled Ugly Is Beautiful and called himself "the ugly Justin Bieber." He wanted to be unrepeatable more than he wanted to be admired.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] Oliver Tree was an Enneagram Type 4
+   OTHER  [diagnosis] Oliver Tree was an Enneagram Type 4
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] Fours build their identity out of what sets them apart
+   OTHER  [diagnosis] Fours build their identity out of what sets them apart
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] Oliver Tree pushed that instinct further than almost any artist of his generation.
+   OTHER  [diagnosis] Oliver Tree pushed that instinct further than almost any artist of his generation.
+
+score 1.000   oliver-tree  <->  oliver-tree
+   TARGET [diagnosis] "Alien Boy" was also a breakout single
+   OTHER  [diagnosis] "Alien Boy" was also a breakout single
+
+------------------------------------------------------------------------------
+Top pair scores 1 vs median 0  (~∞x the noise floor).

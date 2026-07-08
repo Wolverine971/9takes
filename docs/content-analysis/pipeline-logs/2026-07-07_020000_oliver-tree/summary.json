@@ -1,0 +1,15 @@
+{
+	"person": "oliver-tree",
+	"draft_path": "src/blog/people/drafts/oliver-tree.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-07_020000_oliver-tree",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.5,
+	"final_overall": 8.8,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.3000000000000007,
+	"has_stage_warnings": true,
+	"generated_at": "2026-07-07T07:09:47.941Z"
+}

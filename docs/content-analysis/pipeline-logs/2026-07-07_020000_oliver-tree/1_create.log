@@ -1,0 +1,36 @@
+Draft complete and saved. All hard gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Oliver-Tree.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass, Gate 2: pass, Gate 4: pass, Gate 5: pass, Gate 6: pass]
+LIMITATIONS: see below
+```
+
+## ⚠️ Human review required before publish — read first
+
+**Oliver Tree died on 2026-06-14** (aged 32) in the Rio de Janeiro mid-air helicopter collision. I verified this is real, not a hoax (Wikipedia's dedicated crash article, NBC/BBC/Guardian/Variety, a Snopes debunk of the "faked death" theory, father Jesse Nickell's confirmation). This draft is therefore a **posthumous legacy profile written ~3 weeks after his death** (memorial 2026-07-25). I wrote the death soberly and reserved it for the final section; the typing is about how he lived, and the tragedy deepens the thesis without becoming a gimmick. **A human should sign off on tone/timing/dignity before this publishes.** The pipeline picked him almost certainly because his death made him surge in search.
+
+## What the piece argues
+Type **4 (4w3, Sexual subtype)**, confidence high. Thesis: the absurd bowl-cut clown was how a hyper-self-conscious Individualist let himself be seen — an auteur who wrote, produced, mixed, and directed everything, made himself a meme so no one would catch him being sincere, and kept begging his audience to cry. The 4-vs-7 call is resolved in the Rabbit Hole (tiebreaker: he *built and inhabited* the outsider/hurt identity — companies named "Alien Boy," two grief albums — rather than fleeing it like a 7 would).
+
+## Gate ledgers
+- **Gate 1 (Testimony):** 5 named quotes — Diplo, Getter, Anthony Fantano, Casey Mattson (childhood friend), family statement. All in body.
+- **Gate 6 (Formula Fingerprint):** 0 contrast-pair engines, 0 body counter-typing ladders, same-type similarity top score **0.063** (no trip; T4 is saturated at n=64, avoided all tics + the Billie Eilish comparison). Bespoke form: the Guinness world's-biggest-scooter **scene-autopsy timeline**. Critic anchor: Fantano's "serious musical potential." Empathy turn + interior beat + legacy-now anchor all present.
+- **blog-lint:** 0 fail, 1 warn (missing `faqs` frontmatter — that's the downstream enrich stage, out of scope here).
+
+## Internal links added (5)
+- Type 4 → `/enneagram-corner/enneagram-type-4`
+- Tyler, the Creator → `/personality-analysis/tyler-the-creator`
+- Grimes → `/personality-analysis/grimes`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (Rabbit Hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (Rabbit Hole)
+
+## LIMITATIONS / deliberately excluded (per research flags)
+- **"Billions of streams" is false** — his top track "Miss You" is ~740M Spotify; I cited the verifiable ~348M for "Alien Boy" instead.
+- Dropped the unverified **CalArts thesis title** ("How to Turn Yourself into a Meme"), the unverified **"Life Goes On" dam-jump**, and the **LSD-funeral / "drug addict"** self-account (diagnosis-adjacent). Used only the well-sourced cousin's-death-at-13 → "I could die at any time" thread, as his own repeated account.
+- Deliberately did **not** exploit the eerie "Flowers" video / two-helicopter coincidence as a "prediction" gimmick.
+
+Next step per workflow: human reviews the draft (especially the death handling), then `production_pretext.status: ready` → `blog_content_production_people`. I did not grade it (grading is owned by `/grade_blog`).

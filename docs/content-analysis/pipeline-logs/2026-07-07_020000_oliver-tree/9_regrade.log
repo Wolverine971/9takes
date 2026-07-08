@@ -1,0 +1,25 @@
+Grading complete. Both the `content_quality` frontmatter block and the reviewer comment are written to the draft.
+
+## Grading Complete — Oliver Tree
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Oliver-Tree | 9 | 8.5 | 9 | 9 | 8.5 | 9 | **8.8** | **B+** |
+
+*(Weighted: (9×1.5 + 8.5×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.8. Discoverability 9 ≥ 7 → no gate. No caps applied.)*
+
+### Key observations
+
+- **Genuinely strong B+, not the A the pipeline was fishing for.** The prior grade was 8.5; the revision pass targeted Evidence + detractor and moved it to 8.8 (delta 0.3 — a healthy, non-inflated bump, not a wild swing).
+- **What lifts it above competent:** the sourced costume-from-childhood-relics paradox (its best original beat) and the bespoke scooter-timeline scene-autopsy. Discoverability is objectively excellent — head-term meta_title, extractable answer block, 4 real FAQs including the "death hoax" long-tail, complete `same_as`.
+- **What holds it under A:** single-lane thesis (everything routes to "joke as sincerity delivery system"), and mildly metronomic aphoristic section-closers — the one visible house fingerprint. Evidence is a strong 9 but the Spotify stream counts lack a pull-date/publisher and the cousin-death conviction rests on "his own repeated account."
+
+### Deterministic checks
+- **Source audit:** 5 load-bearing quotes — the 2 "untagged" ("Alien Boy"/"Miss You") are song titles (parser false positives), the 1 "vague" (Fantano) is prose-attributed to The Needle Drop 2020. No load-bearing claim lacks a traceable source → no Evidence cap.
+- **Quality report:** 0 contrast pairs, head-term PASS, answer-block PASS.
+- **Same-type scan:** trips only on self-comparisons — no cross-draft near-verbatim reuse against the other Type 4 drafts. Sameness gate does not fire.
+- **Empathy turn** uses person-specific grammar, not the house "not X, it was armor" shape → no `house_empathy_turn` cap.
+
+**Note (not part of the grade):** the WORKING NOTES correctly flag this as a posthumous profile requiring human tone/dignity review before publish. The 8.8 reflects craft only; that sensitivity gate is a downstream decision.
+
+**Total graded this session: 1**

@@ -1,3 +1,5 @@
+<!-- docs/seo/what-enneagram-type-are-most-musicians-tasker-2026-07-06.md -->
+
 # Tasker: Draft "What Enneagram Type Are Most Musicians?"
 
 **Requested by:** DJ Wayne / 9takes
@@ -44,18 +46,18 @@ Use only current generated corpus data from:
 
 Current required stats as of 2026-07-06:
 
-| Claim | Value |
-| --- | ---: |
-| Published 9takes profiles | 379 |
-| Musician and artist profiles | 67 |
-| Type 4 musicians/artists | 26 |
-| Type 4 musician/artist share | 38.8% |
+| Claim                           |                    Value |
+| ------------------------------- | -----------------------: |
+| Published 9takes profiles       |                      379 |
+| Musician and artist profiles    |                       67 |
+| Type 4 musicians/artists        |                       26 |
+| Type 4 musician/artist share    |                    38.8% |
 | Type 4 delta vs corpus baseline | +24.29 percentage points |
-| Corpus-wide Type 4 share | 14.5% |
-| Type 3 musician/artist share | 20.9% |
-| Type 7 musician/artist share | 11.9% |
-| Type 8 musician/artist share | 10.4% |
-| Type 9 musician/artist share | 9.0% |
+| Corpus-wide Type 4 share        |                    14.5% |
+| Type 3 musician/artist share    |                    20.9% |
+| Type 7 musician/artist share    |                    11.9% |
+| Type 8 musician/artist share    |                    10.4% |
+| Type 9 musician/artist share    |                     9.0% |
 
 Hard constraint: Frame this as "among public figures profiled by 9takes," not "among all musicians in the world." The corpus is editorial, not a population survey.
 
@@ -140,12 +142,12 @@ Do not include a person as an example unless their profile is published and the 
 Include a compact table near the top:
 
 | Enneagram type | Musician count | Musician share | Delta vs baseline |
-| --- | ---: | ---: | ---: |
-| Type 4 | 26 | 38.8% | +24.29 pp |
-| Type 3 | 14 | 20.9% | +2.95 pp |
-| Type 7 | 8 | 11.9% | -3.10 pp |
-| Type 8 | 7 | 10.4% | -0.90 pp |
-| Type 9 | 6 | 9.0% | -1.07 pp |
+| -------------- | -------------: | -------------: | ----------------: |
+| Type 4         |             26 |          38.8% |         +24.29 pp |
+| Type 3         |             14 |          20.9% |          +2.95 pp |
+| Type 7         |              8 |          11.9% |          -3.10 pp |
+| Type 8         |              7 |          10.4% |          -0.90 pp |
+| Type 9         |              6 |           9.0% |          -1.07 pp |
 
 Include the full 9-type table only if it does not slow the article down. The compact table is enough for the first draft.
 

@@ -1,0 +1,27 @@
+Revision pass complete on `src/blog/people/drafts/Oliver-Tree.md`.
+
+## What triggered the loop
+Grade **B+ (8.5)**, with **Evidence at 8** the lowest weighted dimension. Lint was already clean (0 fail), so this was purely a grader-feedback pass on the NEEDS WORK + TO REACH A items. Because it's a posthumous piece asserting a real death, I verified every claim by web search before touching the prose — the death (June 14, 2026, Rio mid-air helicopter collision) is confirmed by NBC, Variety, ABC, Wikipedia, so the premise is sound, not a pipeline fabrication.
+
+## Fixes applied → to the item they address
+
+**Sourcing (NEEDS WORK — the single biggest lever, all five verified):**
+- **Will/foundation coda** → now "an April 2026 appearance on *The Zach Sang Show*" (in Shrek costume; confirmed by Stereogum/Complex/Vice)
+- **Rapunzel-holed-up quote** → tagged to *Hypebeast*, 2024 (the interview already cited two paragraphs up)
+- **R&S Records / Thom Yorke** → dated (signed at twenty; 2013 EP *Demons*); "praised" softened to "signed off on" — the sources say Yorke *approved the demo*, not that he praised it
+- **Stream counts** → corrected to reality and kept Spotify-attributed: "Alien Boy" 348M → "more than 340 million" (actual ~340M); "Miss You" "pass 700 million" → "climb past 800 million" (actual ~816M, his #1)
+
+**Genuine detractor (TO REACH A #2):** replaced the author-ventriloquized skeptic beat with a real, dated one — RANGE 2022's "Is Oliver Tree for real?" framing plus the documented fan bind (bit found exhausting by year three, yet the fanbase revolted when he hinted at dropping it, Variety 2022) — then answered by handoff to authorship/grief/will. Killed the "Keep that read close" reader-command.
+
+**Type-generalization openers (NEEDS WORK + TO REACH A #3):** person-anchored all three the grader named ("The trade is pure Type 4" → "He would happily be a joke…"; "For a Four…" → "For Oliver Tree…"; "That is the Individualist's cruelest trick…" → "He had built a self so distinct…"), and converted the "Return to that scooter" command to a declarative.
+
+## Rejected (with reason)
+- **Burning Man self-funeral rhyme (TO REACH A #4):** out of scope for an automated pass and explicitly sensitivity-gated on human review by both fresh-eyes and the second pass. Left for the human reviewer, as flagged.
+- **Wholesale monocausal-thesis rework:** out of scope for a targeted pass; the detractor addition adds the missing dimension without reopening research.
+
+## Housekeeping
+- Updated the FORMULA FINGERPRINT critic-pressure anchor to log the new detractor; other ledgers unchanged (heading mix, distribution count, testimony count all still accurate).
+- Appended a `REVISION PASS NOTES (2026-07-07)` block.
+- **Lint: clean (0 fail, 0 warn).**
+
+The pipeline will now strip the old grade and re-grade. Two standing flags carry forward untouched: the **posthumous human tone/dignity review before publish**, and `published: false`.

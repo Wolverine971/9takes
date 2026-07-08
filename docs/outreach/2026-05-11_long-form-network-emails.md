@@ -3,13 +3,13 @@
 # Long-Form Network — Email Drafts (12, ready-to-send)
 
 **Created:** 2026-05-11
-**Last updated:** 2026-05-15
-**Status:** All 12 emails rebuilt to 4-layer template (2026-05-15). See **[Personality-Analysis Outreach Playbook](./personality-analysis-outreach-playbook.md)** for the crystallized methodology behind every email below.
+**Last updated:** 2026-07-06
+**Status:** All 12 emails rebuilt to 4-layer template (2026-05-15). Ali Abdaal next-send packet refreshed 2026-07-06 after live URL verification. See **[Personality-Analysis Outreach Playbook](./personality-analysis-outreach-playbook.md)** for the crystallized methodology behind every email below.
 **Companion to:** `docs/outreach/2026-05-11_long-form-network-cluster.md` (strategy + sequencing) and `docs/outreach/2026-05-11_chris-williamson-campaign.md` (Williamson's surrounding network)
 **Methodology:** Every body uses the 4-layer template — earned connection → truth hook + labeling-sensitivity acknowledgment → plain-English argument (no Enneagram jargon in email) → per-person offer + smallest-yes ask. Subject = signature scene from the piece. See playbook for full reasoning.
 **Voice:** Each opener leads with a signature specific pulled from the actual published piece. No generic "I write personality analysis" openers.
 **Network-proof rule:** Every email cites 2–3 other cluster members as adjacent links, rotated per recipient.
-**Blocker:** Bartlett piece still shows `published: false` on disk despite 8.8 grade — run `/blog_content_publish_people Steven-Bartlett` before any sends.
+**Blocker:** Steven Bartlett only: piece still shows `published: false` on disk despite 8.8 grade — run `/blog_content_publish_people Steven-Bartlett` before his send. This does not block Ali.
 
 ---
 
@@ -63,7 +63,7 @@ The piece is **already published.** The email is post-publication courtesy, not 
 
 **Prefer:** "It's already up" / "Felt strange not to share" / "If you'd refine anything, I'd love that. If not, glad you saw it."
 
-This is now applied to Chris (#1) and Steven (#6); needs to be back-propagated to the other 10 drafts.
+This is now applied to Chris (#1), Alex (#2), Ali (#3), and Steven (#6); needs to be back-propagated to the remaining drafts.
 
 ### Subject-line template (revised 2026-05-14 — kill the generic primary, kill the Enneagram jargon)
 
@@ -131,6 +131,7 @@ This keeps total first-touch URLs at 1 (the recipient's own piece). Better deliv
 For some of these people, DM is a more direct path than email even though email exists:
 
 - **Hormozi:** IG `@hormozi` is primary — he's known to read and reply.
+- **Ali Abdaal:** IG `@aliabdaal` should run in parallel with `ali@aliabdaal.com`; the DM is likely the higher-signal path.
 - **Theo Von, Schulz:** X DMs often faster than management.
 - **Williamson, Bartlett:** Both active on X but unlikely to read DMs from strangers; email is better.
 
@@ -294,9 +295,13 @@ P.S. Reply "no thanks" if you'd rather I stop.
 
 ## #3 — Ali Abdaal
 
+> **NEXT SEND — campaign resumed 2026-06-28; docs refreshed 2026-07-06.** Channel: email to `ali@aliabdaal.com` plus IG DM `@aliabdaal` in parallel. Email draft is staged in `dj@9takes.com` Gmail Drafts awaiting DJ review + send. Use email subject `A good reason and the real reason`; use IG opener `ali — no ask, just FYI I wrote 5,000 words on you`. Live URL verified clean 2026-07-06: public page renders at `/personality-analysis/ali-abdaal`, displays `6,500 WORDS`, and the 5,000-word outreach claim is a safe round-down.
+
+> **Personality tuning notes (3w2):** Ali is the warmer, teacher-hearted Three. The send should not feel like a productivity-YouTuber pitch or a generic Enneagram label. Lead with his own language ("good reason and the real reason"), then the post-Burning Man reflective turn, then the Paul Millerd hit-delete/hit-publish admission. Keep the correction offer humble and craft-to-craft. The close can be warmer than Hormozi's because Ali's 2-wing makes teaching and usefulness the recognition hook.
+
 **Subject options:**
 
-- `ali — no ask, just FYI I wrote 4,500 words on you` _(recommended for IG DM — 50 chars, the "no ask FYI" disarm DJ validated 2026-05-18. Lands harder on 3w2 (warmer, intimacy-as-craft) than on Alex's 8-flavored wing because Ali's entire business is inbound — every email he opens wants something. The disarm earns the second of attention you won't get otherwise. Lowercase `ali` reads peer-to-peer; "4,500 words" proves effort; "on you" is curiosity hook. Best for IG DM @aliabdaal where the subject IS the opener.)_
+- `ali — no ask, just FYI I wrote 5,000 words on you` _(recommended for IG DM — ~50 chars, the "no ask FYI" disarm DJ validated 2026-05-18. Lands harder on 3w2 (warmer, intimacy-as-craft) than on Alex's 8-flavored wing because Ali's entire business is inbound — every email he opens wants something. The disarm earns the second of attention you won't get otherwise. Lowercase `ali` reads peer-to-peer; "5,000 words" proves effort; "on you" is curiosity hook. Best for IG DM @aliabdaal where the subject IS the opener.)_
 - `A good reason and the real reason` _(33 chars, his own framing; proves you read past the productivity-YouTuber surface into the reflective post-Burning Man Ali, which is where he actually lives now — a teacher's-heart Three will click to see how someone else handled his most-used phrase. Use for the email-channel send to `ali@aliabdaal.com` where signature-image lands harder than the disarm.)_
 - `The "just" doing work` _(21 chars, names the load-bearing word in his "just a YouTuber" Prestige Calculator — signals you watched HOW he undersells himself, not just THAT he does)_
 - `Ali — wrote a long read on you` _(30 chars, status-neutral journalistic fallback — works inside the aliabdaal.com contact form where there's no recipient name field anyway)_
@@ -327,29 +332,43 @@ P.S. Reply "no thanks" if you'd rather I stop.
 
 ---
 
-**Body V2 (revised 2026-05-18 — matches Hormozi V2 cadence; ~140 words):**
+**Body V2 (canonical send — revised 2026-05-18; tightened 2026-07-06 against the live piece and the newer lean outreach drafts):**
 
-> _Changes from V1:_ (1) Cut the "Here's the thinking" boilerplate paragraph — it doubled the length without adding personalization; the earned-connection opener + thesis already carry the post-publication-courtesy frame. (2) "wanted to tell you directly rather than hope it found you" + "No ask attached" moved up to the opener, matching the inevitability voice. (3) URL moved up from buried position to right after the opener — 3s scroll fast, primary CTA should be visible in first frame. (4) Swapped the abstract "just a YouTuber framing isn't modesty" thesis line for the **six-year-old/neurosurgeon scene** — DJ's own original framing in the blog, signature image, lands as recognition not abstraction. (5) Anchored to the **"hit publish vs hit delete" Pathless Path quote** — the blog's own FEEDBACK comment flags this as "the most honest Type 3 quote in the collection"; naming it proves you read past the productivity-YouTuber surface. (6) Kept **"teacher to teacher"** close — 3w2 wing-specific tell, this is the part that distinguishes Ali from a 3w8 like Hormozi.
+> _Changes from V1:_ (1) Cut the "Here's the thinking" boilerplate paragraph — it doubled the length without adding personalization; the earned-connection opener + thesis already carry the post-publication-courtesy frame. (2) "wanted to tell you directly rather than hope it found you" + "No ask attached" moved up to the opener, matching the inevitability voice. (3) URL moved up from buried position to right after the opener — 3s scroll fast, primary CTA should be visible in first frame. (4) Swapped the abstract "just a YouTuber framing isn't modesty" thesis line for the **six-year-old/neurosurgeon scene** — DJ's own original framing in the blog, signature image, lands as recognition not abstraction. (5) Anchored to the **"hit delete instead of publish" Pathless Path / Paul Millerd quote** — the blog's own FEEDBACK comment flags this as "the most honest Type 3 quote in the collection"; naming it proves you read past the productivity-YouTuber surface. (6) Kept **"teacher to teacher"** close — 3w2 wing-specific tell, this is the part that distinguishes Ali from a colder Type 3 read.
 
 Hi Ali,
 
-I've been reading you for years — the "good reason and the real reason" framing, the post-Burning Man reflective turn. Wrote a 5,000-word piece on you. Wanted to tell you directly rather than hope it found you. No ask attached.
+I've been reading you for years — the "good reason and the real reason" framing, the post-Burning Man reflective turn. I wrote a 5,000-word personality analysis of you and wanted to tell you directly rather than hope it found you. No ask attached.
 
 https://9takes.com/personality-analysis/Ali-Abdaal
 
-What I respect most is the public introspection. You told Paul Millerd you wouldn't do the work if you couldn't hit publish — most creators at your scale go opaque. That's the line the piece pivots on.
+What I respect most is the public introspection. You told Paul Millerd that if the deal were doing the same work but hitting delete instead of publish, you wouldn't do it. Most creators at your scale go opaque. You keep making the introspection public.
 
-I'm DJ. I run 9takes.com. The piece is an argument, not a verdict — the six-year-old who said "neurosurgeon" because it sounded impressive is still running the show, just with better vocabulary. But the teacher's hand stays open because it's the part of the engine that isn't about you.
+I'm DJ. I run 9takes.com. The piece is an argument, not a verdict — the six-year-old who said "neurosurgeon" because it sounded impressive is still part of the engine. But the teacher's hand stays open because it's the part that isn't only about you.
 
 If anything in there teaches better than what I wrote, I'd rather learn from you than be right. Teacher to teacher.
 
-Also written on Hormozi, Williamson, Ferriss.
+Also wrote on Hormozi, Williamson, Ferriss.
 
 Best,
 DJ Wayne
 9takes.com
 
 P.S. Reply "no thanks" if you'd rather I stop.
+
+---
+
+**Parallel IG DM (send after/alongside email):**
+
+```
+ali — no ask, just FYI I wrote 5,000 words on you
+
+https://9takes.com/personality-analysis/Ali-Abdaal
+
+The piece turns on your good-reason/real-reason line, the Paul Millerd hit-delete-instead-of-publish moment, and the teacher's-heart 2-wing. No ask — just felt strange not to tell you directly.
+
+— DJ
+```
 
 ---
 
@@ -728,7 +747,7 @@ P.S. Reply "no thanks" if you'd rather I stop.
 | --- | ---------------- | ------------- | ------------------------------------------------------------ |
 | 1   | Chris Williamson | ✅ ready      | none                                                         |
 | 2   | Alex Hormozi     | ✅ ready      | none                                                         |
-| 3   | Ali Abdaal       | ✅ ready      | verify URL renders                                           |
+| 3   | Ali Abdaal       | ✅ ready      | none — URL verified clean 2026-07-06                         |
 | 4   | Andrew Huberman  | ✅ ready      | verify URL renders                                           |
 | 5   | Tim Ferriss      | ✅ ready      | verify URL renders                                           |
 | 6   | Steven Bartlett  | ⚠️ ready text | **Run `/blog_content_publish_people Steven-Bartlett` first** |

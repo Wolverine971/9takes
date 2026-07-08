@@ -1,0 +1,24 @@
+Publish blocked — stopping per command scope (image generation is not owned by this command).
+
+```text
+Publish attempt: BLOCKED
+
+Auto-select (no arg): No publishable draft found across 463 candidates.
+Every other draft was either already published, still v1-graded
+(needs /grade_blog), missing a grade-stability delta, or failed the
+source-tag audit.
+
+Top eligible draft: Oliver-Tree (the only draft that clears every
+content, grade, discoverability, stability, and source-audit gate).
+
+Person: oliver-tree (Enneagram 4, type: musician/creator)
+Draft: src/blog/people/drafts/Oliver-Tree.md
+
+Blockers:
+- missing_full_image      → static/types/4s/Oliver-Tree.webp
+- missing_thumbnail_image → static/types/4s/s-Oliver-Tree.webp
+```
+
+**What's needed to unblock:** Oliver-Tree is grade/source-ready and would publish immediately once both image files exist. Generate the 3-file variant set (per your image pipeline: png master + `Oliver-Tree.webp` ≤1200/q82 + `s-Oliver-Tree.webp` 400px/q72) into `static/types/4s/`, then re-run `/blog_content_publish_people Oliver-Tree`.
+
+Image generation is outside this command's scope, so I stopped rather than bypassing the gate. Want me to kick off the hero image generation (`scripts/gen-blog-image-openrouter.mjs`) or the Canva/manual type-image path so this can go out?

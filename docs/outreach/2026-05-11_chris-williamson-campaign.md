@@ -29,18 +29,18 @@
 
 ## Recipient roster (10)
 
-| #   | Recipient                       | Tier        | Channel              | Relationship to CW                                                    |
-| --- | ------------------------------- | ----------- | -------------------- | --------------------------------------------------------------------- |
-| 1   | Chris Williamson                | 1 (subject) | X DM @ChrisWillx     | Subject                                                               |
-| 2   | Steven Bartlett                 | 2           | X DM @StevenBartlett | Interviewed CW on Diary of a CEO (2025 mold/Lyme conversation)        |
-| 3   | Tom Bilyeu                      | 2           | X DM @TomBilyeu      | Interviewed CW on Impact Theory                                       |
-| 4   | Alex Hormozi                    | 2           | X DM @AlexHormozi    | CW has interviewed Hormozi; both A-grade 9takes profiles              |
-| 5   | Jordan Peterson                 | 2           | Email/X              | CW has interviewed Peterson multiple times                            |
-| 6   | Jay Clouse (Creator Science)    | 3           | Email                | Profiled CW's growth on Creator Science ep #138                       |
-| 7   | Courtney Kocak (Podcast Bestie) | 3           | Email                | Podcast industry commentator on Substack                              |
-| 8   | r/Enneagram community           | 4           | Reddit post          | Type discussion community                                             |
-| 9   | r/DecodingTheGurus community    | 4           | Reddit post          | Had a 116-comment CW thread in Dec 2025                               |
-| 10  | Ali Abdaal                      | wildcard    | X DM @aliabdaal      | Type 3, self-improvement creator, MW-adjacent, A-grade 9takes profile |
+| #   | Recipient                       | Tier        | Channel                          | Relationship to CW                                                                                              |
+| --- | ------------------------------- | ----------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| 1   | Chris Williamson                | 1 (subject) | X DM @ChrisWillx                 | Subject                                                                                                         |
+| 2   | Steven Bartlett                 | 2           | X DM @StevenBartlett             | Interviewed CW on Diary of a CEO (2025 mold/Lyme conversation)                                                  |
+| 3   | Tom Bilyeu                      | 2           | X DM @TomBilyeu                  | Interviewed CW on Impact Theory                                                                                 |
+| 4   | Alex Hormozi                    | 2           | X DM @AlexHormozi                | CW has interviewed Hormozi; both A-grade 9takes profiles                                                        |
+| 5   | Jordan Peterson                 | 2           | Email/X                          | CW has interviewed Peterson multiple times                                                                      |
+| 6   | Jay Clouse (Creator Science)    | 3           | Email                            | Profiled CW's growth on Creator Science ep #138                                                                 |
+| 7   | Courtney Kocak (Podcast Bestie) | 3           | Email                            | Podcast industry commentator on Substack                                                                        |
+| 8   | r/Enneagram community           | 4           | Reddit post                      | Type discussion community                                                                                       |
+| 9   | r/DecodingTheGurus community    | 4           | Reddit post                      | Had a 116-comment CW thread in Dec 2025                                                                         |
+| 10  | Ali Abdaal                      | wildcard    | Hold until after Ali direct send | Separate CW-support ask only. Current Ali direct outreach lives in `2026-05-11_long-form-network-emails.md` #3. |
 
 **Swap candidates if any of the above don't fit:**
 
@@ -336,9 +336,9 @@ DJ Wayne
 
 ## Wildcard
 
-### #10 — Ali Abdaal (X DM via @aliabdaal)
+### #10 — Ali Abdaal (hold until after Ali direct send)
 
-> Relationship hook: Also a Type 3 per 9takes (grade A, 9.2). Productivity creator, MW-adjacent audience. Lower-stakes test — he engages thoughtfully with framework content and is reachable.
+> Relationship hook: Also a Type 3 per 9takes (grade A, 9.2). Productivity creator, MW-adjacent audience. Lower-stakes test — he engages thoughtfully with framework content and is reachable. **Do not use this for the current Ali direct outreach.** The canonical 2026-07-06 Ali send packet is in `2026-05-11_long-form-network-emails.md` #3 and uses email + IG DM.
 
 ```
 Hey Ali — wrote a personality analysis of Chris Williamson that
@@ -361,7 +361,7 @@ https://9takes.com/personality-analysis/Alex-Hormozi)
 — DJ
 ```
 
-> Note: confirm Ali Abdaal's 9takes profile is live before sending. If not, drop the self-reference line and keep just the Hormozi link.
+> Note: Ali's profile was verified live 2026-07-06. Hold this CW-support ask until after the direct Ali email/IG send, otherwise the two messages compete.
 
 ---
 
@@ -446,5 +446,5 @@ After 5–10 sends, look for patterns:
 1. **Sender identity** — when sending email, is it `dj@9takes.com`, a personal address, or another box? Affects "From" name + signature line.
 2. **Recipient swaps** — any of the 10 above to remove or replace? In particular: confirm Jordan Peterson is worth the time vs. swapping in a more reachable interviewer (e.g., Andrew Schulz, Lex Fridman).
 3. **Subject DM — Draft A or B?** A is the recommended version (longer, more specific). B is leaner.
-4. **Ali Abdaal profile** — disk shows `published: false` but `docs/outreach/outreach-plan.md` lists him as A-grade live. Confirm the URL works before send.
+4. **Ali Abdaal profile** — resolved 2026-07-06. URL works; direct Ali outreach is now staged in `2026-05-11_long-form-network-emails.md` #3. Hold the CW-support ask until after that send.
 5. **Sequencing** — send all 10 same day, stagger over a week, or hit Tiers 3/4 first to build social proof before pinging the subject?

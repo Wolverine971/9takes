@@ -1,0 +1,41 @@
+```
+Frontmatter enrichment complete: Oliver-Tree
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved untouched):
+- wikipedia (kept as-is: https://en.wikipedia.org/wiki/Oliver_Tree)
+- title, meta_title, persona_title, description, enneagram, type, person, suggestions
+
+FAQs generated (4):
+1. What is Oliver Tree's personality type?        → #what-is-oliver-trees-personality-type
+2. Why did Oliver Tree turn himself into a meme?  → #why-oliver-tree-turned-himself-into-a-meme
+3. Was Oliver Tree a Type 4 or a Type 7?          → #counterarguments-why-he-might-not-be-a-four
+4. Why did fans think his death was a hoax?       → #why-the-world-couldnt-believe-oliver-tree-was-really-gone
+
+Verification notes:
+- imdb_id nm10708902 cross-checked against Wikidata P345 (confirmed, not a guess).
+- wikidata_qid Q55956050 confirmed via Wikidata + Wikipedia interlink.
+- All four FAQ anchors map to real body headings (rehype-slug forms).
+
+Issues:
+- BIRTHPLACE CONFLICT (resolved): Wikidata P19 lists Santa Rosa, CA (Q159232), but the
+  English Wikipedia infobox, the draft body, and GoodTimes (Santa Cruz local outlet) all
+  say Santa Cruz, CA. I wrote 'Santa Cruz, California, United States'. Flagging the Wikidata
+  discrepancy for anyone who later reconciles the entity record.
+- CITATIONS not literally inline in body: the article carries zero external URLs (all links
+  are internal /enneagram-corner and /personality-analysis links). I did NOT invent citations
+  — I resolved sources the body explicitly names/quotes to their real URLs: The Needle Drop
+  (Fantano review, quoted verbatim) and Snopes (the fact-check the body describes), plus
+  Wikipedia (bio backbone) and two verified death-coverage sources (Hollywood Reporter,
+  GoodTimes) backing the final section. Content-quality note: the body itself would benefit
+  from inline source links.
+- SENSITIVITY (unchanged, human-review still required): this is a posthumous profile (death
+  2026-06-14, memorial 2026-07-25) with an active WORKING NOTES flag requiring human tone/
+  dignity review before publish. I touched only frontmatter — body, comment blocks,
+  production_pretext, content_quality, and lastmod were all left exactly as found.
+```
+
+Body, HTML comment blocks (Testimony Ledger, Fresh Eyes, Second Pass, Editor Pass), and `lastmod` were not modified. The draft is still `published: false` and carries its pre-existing human-review blocker, which is correct for a posthumous piece.

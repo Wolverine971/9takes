@@ -1,3 +1,5 @@
+<!-- docs/seo/keyword-research-2026-07-06.md -->
+
 # 9takes Keyword Research Foundation
 
 Date: 2026-07-06
@@ -21,25 +23,25 @@ The highest ROI work right now is not a net-new keyword brainstorm. It is packag
 
 From the fresh 90-day GSC pull:
 
-| Section | Clicks | Impressions | CTR | Avg position | Read |
-| --- | ---: | ---: | ---: | ---: | --- |
-| `enneagram-corner` | 1,619 | 224,012 | 0.72% | 12.9 | Biggest authority base, strong mental-health wins |
-| `personality-analysis` | 885 | 173,791 | 0.51% | 12.5 | Broad visibility, weak CTR |
-| `pop-culture` | 56 | 11,134 | 0.50% | 9.6 | Small but surprisingly close to page one |
-| `how-to-guides` | 7 | 1,368 | 0.51% | 22.7 | Needs clearer keyword targeting |
-| `corpus-stats` | 0 | 1,079 | 0.00% | 8.1 | Data-query opportunity, currently not packaged for clicks |
+| Section                | Clicks | Impressions |   CTR | Avg position | Read                                                      |
+| ---------------------- | -----: | ----------: | ----: | -----------: | --------------------------------------------------------- |
+| `enneagram-corner`     |  1,619 |     224,012 | 0.72% |         12.9 | Biggest authority base, strong mental-health wins         |
+| `personality-analysis` |    885 |     173,791 | 0.51% |         12.5 | Broad visibility, weak CTR                                |
+| `pop-culture`          |     56 |      11,134 | 0.50% |          9.6 | Small but surprisingly close to page one                  |
+| `how-to-guides`        |      7 |       1,368 | 0.51% |         22.7 | Needs clearer keyword targeting                           |
+| `corpus-stats`         |      0 |       1,079 | 0.00% |          8.1 | Data-query opportunity, currently not packaged for clicks |
 
 Pattern-level query totals:
 
-| Pattern | Clicks | Impressions | CTR | Avg pos | Examples |
-| --- | ---: | ---: | ---: | ---: | --- |
-| celebrity `personality type` | 28 | 4,552 | 0.62% | 8.7 | Sabrina Carpenter, Ryan Gosling, Messi, Marilyn Monroe |
-| celebrity `personality` | 62 | 6,886 | 0.90% | 9.6 | Ryan Gosling, Emma Watson, Sabrina Carpenter |
-| `compatibility` | 27 | 1,811 | 1.49% | 8.5 | chart, pairings, tritype compatibility |
-| `test` | 4 | 1,309 | 0.31% | 15.7 | best free enneagram test, Cloverleaf test |
-| `subtype/blind` | 7 | 171 | 4.09% | 12.2 | sp blind, sx blind, instinctual variant blind spots |
-| `most likely/most` | 4 | 382 | 1.05% | 10.1 | narcissist, cheat, depressed |
-| `enneagram and...` | 33 | 282 | 11.70% | 6.5 | ADHD, autism, astrology, neurodivergence |
+| Pattern                      | Clicks | Impressions |    CTR | Avg pos | Examples                                               |
+| ---------------------------- | -----: | ----------: | -----: | ------: | ------------------------------------------------------ |
+| celebrity `personality type` |     28 |       4,552 |  0.62% |     8.7 | Sabrina Carpenter, Ryan Gosling, Messi, Marilyn Monroe |
+| celebrity `personality`      |     62 |       6,886 |  0.90% |     9.6 | Ryan Gosling, Emma Watson, Sabrina Carpenter           |
+| `compatibility`              |     27 |       1,811 |  1.49% |     8.5 | chart, pairings, tritype compatibility                 |
+| `test`                       |      4 |       1,309 |  0.31% |    15.7 | best free enneagram test, Cloverleaf test              |
+| `subtype/blind`              |      7 |         171 |  4.09% |    12.2 | sp blind, sx blind, instinctual variant blind spots    |
+| `most likely/most`           |      4 |         382 |  1.05% |    10.1 | narcissist, cheat, depressed                           |
+| `enneagram and...`           |     33 |         282 | 11.70% |     6.5 | ADHD, autism, astrology, neurodivergence               |
 
 ## Keyword Tests
 
@@ -47,33 +49,33 @@ Pattern-level query totals:
 
 These are already getting meaningful impressions and are close enough to optimize before creating new pages.
 
-| Keyword | Impr | CTR | Pos | Current page | Action |
-| --- | ---: | ---: | ---: | --- | --- |
-| `sabrina carpenter personality type` | 769 | 0.26% | 6.4 | `/personality-analysis/sabrina-carpenter` | Rewrite title/meta around "personality type" and add a 50-word direct answer above the fold |
-| `sabrina carpenter personality` | 599 | 0.17% | 6.7 | same | Same as above; add FAQ for personality, Enneagram, MBTI-style intent |
-| `ryan gosling personality` | 796 | 1.26% | 9.0 | `/personality-analysis/ryan-gosling` | Add "personality type" snippet and stronger H2 matching the query |
-| `ryan gosling personality type` | 532 | 0.38% | 6.5 | same | Add concise answer block plus internal links to type page |
-| `emma watson personality` | 613 | 0.16% | 10.4 | `/personality-analysis/emma-watson` | CTR title pass and answer block |
-| `enneagram compatibility chart` | 971 | 1.24% | 8.0 | `/enneagram-corner/enneagram-compatibility-matrix` | Add a table-first top section and title/meta exact match |
-| `enneagram compatibility` | 587 | 0.68% | 9.3 | same | Split intent: chart vs calculator vs pairings |
-| `best free enneagram test` | 389 | 0.77% | 14.5 | `/enneagram-corner/enneagram-test-comparison-2025` | Create comparison table above fold and target "actually free" phrasing |
-| `cloverleaf enneagram test` | 309 | 0.32% | 9.0 | same | Add a Cloverleaf-specific subsection |
-| `sp blind enneagram` | 148 | 0.68% | 10.4 | `/enneagram-corner/enneagram-instinctual-subtypes` | Add a dedicated `sp blind` H2 and consider a standalone page |
+| Keyword                              | Impr |   CTR |  Pos | Current page                                       | Action                                                                                      |
+| ------------------------------------ | ---: | ----: | ---: | -------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `sabrina carpenter personality type` |  769 | 0.26% |  6.4 | `/personality-analysis/sabrina-carpenter`          | Rewrite title/meta around "personality type" and add a 50-word direct answer above the fold |
+| `sabrina carpenter personality`      |  599 | 0.17% |  6.7 | same                                               | Same as above; add FAQ for personality, Enneagram, MBTI-style intent                        |
+| `ryan gosling personality`           |  796 | 1.26% |  9.0 | `/personality-analysis/ryan-gosling`               | Add "personality type" snippet and stronger H2 matching the query                           |
+| `ryan gosling personality type`      |  532 | 0.38% |  6.5 | same                                               | Add concise answer block plus internal links to type page                                   |
+| `emma watson personality`            |  613 | 0.16% | 10.4 | `/personality-analysis/emma-watson`                | CTR title pass and answer block                                                             |
+| `enneagram compatibility chart`      |  971 | 1.24% |  8.0 | `/enneagram-corner/enneagram-compatibility-matrix` | Add a table-first top section and title/meta exact match                                    |
+| `enneagram compatibility`            |  587 | 0.68% |  9.3 | same                                               | Split intent: chart vs calculator vs pairings                                               |
+| `best free enneagram test`           |  389 | 0.77% | 14.5 | `/enneagram-corner/enneagram-test-comparison-2025` | Create comparison table above fold and target "actually free" phrasing                      |
+| `cloverleaf enneagram test`          |  309 | 0.32% |  9.0 | same                                               | Add a Cloverleaf-specific subsection                                                        |
+| `sp blind enneagram`                 |  148 | 0.68% | 10.4 | `/enneagram-corner/enneagram-instinctual-subtypes` | Add a dedicated `sp blind` H2 and consider a standalone page                                |
 
 ### Validated By Autocomplete
 
 Autocomplete showed these related searches:
 
-| Seed | Returned phrases | Read |
-| --- | --- | --- |
-| `enneagram and` | christianity, MBTI, astrology, wing test, marriage, parenting, ADHD | Adjacent "Enneagram and X" pages are worth testing |
-| `enneagram compatibility` | chart, calculator, test, circle, reddit, 2 and 7, MBTI, 2 and 5, 2 and 4 | Compatibility should become a small tool/content cluster |
-| `sabrina carpenter personality` | personality type, traits, reddit, description, database, quiz, MBTI | Searchers want a quick answer and alternate systems, not only a long essay |
-| `enneagram type 4` | wing 5, 4w5, wing 3, careers to avoid, characters, wings, subtypes | Type 4 is a strong bridge from musician data to wing pages |
-| `the office enneagram` | types, characters, Holly, Pam | The Office article is worth publishing/indexing |
-| `enneagram musicians` | what enneagram are musicians, enneagram 4 musicians, enneagram 9 musicians, etc. | Use first-party stats to own "musicians by type" |
-| `what enneagram type are most ceos` | exact match plus best leader and personality type variants | Tech/business corpus stats can support this |
-| `sp blind enneagram` | sp blind enneagram 5, reddit | Low-volume but high-intent subtype opportunity |
+| Seed                                | Returned phrases                                                                 | Read                                                                       |
+| ----------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `enneagram and`                     | christianity, MBTI, astrology, wing test, marriage, parenting, ADHD              | Adjacent "Enneagram and X" pages are worth testing                         |
+| `enneagram compatibility`           | chart, calculator, test, circle, reddit, 2 and 7, MBTI, 2 and 5, 2 and 4         | Compatibility should become a small tool/content cluster                   |
+| `sabrina carpenter personality`     | personality type, traits, reddit, description, database, quiz, MBTI              | Searchers want a quick answer and alternate systems, not only a long essay |
+| `enneagram type 4`                  | wing 5, 4w5, wing 3, careers to avoid, characters, wings, subtypes               | Type 4 is a strong bridge from musician data to wing pages                 |
+| `the office enneagram`              | types, characters, Holly, Pam                                                    | The Office article is worth publishing/indexing                            |
+| `enneagram musicians`               | what enneagram are musicians, enneagram 4 musicians, enneagram 9 musicians, etc. | Use first-party stats to own "musicians by type"                           |
+| `what enneagram type are most ceos` | exact match plus best leader and personality type variants                       | Tech/business corpus stats can support this                                |
+| `sp blind enneagram`                | sp blind enneagram 5, reddit                                                     | Low-volume but high-intent subtype opportunity                             |
 
 ## Low-Volume Opportunities
 
@@ -219,12 +221,12 @@ Optimize before creating new test content. Searchers want a table with free/paid
 
 ## Do Not Prioritize Yet
 
-| Query family | Reason |
-| --- | --- |
-| `enneagram 9`, `enneagram 4`, pure type head terms | Current positions are 50-60 range; incumbents are too strong |
-| Broad `enneagram instinctual variants` | Current position around 37; use blind-spot long-tail first |
-| Generic MBTI crossover | Lots of impressions, low differentiation unless tied to celebrity pages |
-| Full wing-pair program | Test one pair page first; do not create hundreds yet |
+| Query family                                       | Reason                                                                  |
+| -------------------------------------------------- | ----------------------------------------------------------------------- |
+| `enneagram 9`, `enneagram 4`, pure type head terms | Current positions are 50-60 range; incumbents are too strong            |
+| Broad `enneagram instinctual variants`             | Current position around 37; use blind-spot long-tail first              |
+| Generic MBTI crossover                             | Lots of impressions, low differentiation unless tied to celebrity pages |
+| Full wing-pair program                             | Test one pair page first; do not create hundreds yet                    |
 
 ## First 30-Day Test Plan
 
@@ -238,16 +240,15 @@ Optimize before creating new test content. Searchers want a table with free/paid
 
 ## Working Priority List
 
-| Priority | Keyword/page | Type | Why |
-| ---: | --- | --- | --- |
-| 1 | `sabrina carpenter personality type` | Existing page CTR | 769 impressions, position 6.4, weak CTR |
-| 2 | `/corpus-stats` / `enneagram type distribution statistics` | Existing page packaging | Position 8.1 with 0 clicks, unique data moat |
-| 3 | `enneagram compatibility chart` | Existing page CTR | 971 impressions, position 8 |
-| 4 | `the office enneagram types` | Publish/index test | Autocomplete demand, article exists unpublished |
-| 5 | `sp blind enneagram` | Long-tail page | Position 10.4, clear low-volume intent |
-| 6 | `best free enneagram test` | Existing page rewrite | 389 impressions, position 14.5 |
-| 7 | `ryan gosling personality type` | Existing page CTR | 532 impressions, position 6.5 |
-| 8 | `what enneagram type are most musicians` | New data post | Autocomplete plus unique Type 4 corpus stat |
-| 9 | `what enneagram type are most ceos` | New data post | Autocomplete plus tech/founder corpus stat |
-| 10 | `enneagram and anxiety/trauma` | New cluster | Mental-health pages already converting strongly |
-
+| Priority | Keyword/page                                               | Type                    | Why                                             |
+| -------: | ---------------------------------------------------------- | ----------------------- | ----------------------------------------------- |
+|        1 | `sabrina carpenter personality type`                       | Existing page CTR       | 769 impressions, position 6.4, weak CTR         |
+|        2 | `/corpus-stats` / `enneagram type distribution statistics` | Existing page packaging | Position 8.1 with 0 clicks, unique data moat    |
+|        3 | `enneagram compatibility chart`                            | Existing page CTR       | 971 impressions, position 8                     |
+|        4 | `the office enneagram types`                               | Publish/index test      | Autocomplete demand, article exists unpublished |
+|        5 | `sp blind enneagram`                                       | Long-tail page          | Position 10.4, clear low-volume intent          |
+|        6 | `best free enneagram test`                                 | Existing page rewrite   | 389 impressions, position 14.5                  |
+|        7 | `ryan gosling personality type`                            | Existing page CTR       | 532 impressions, position 6.5                   |
+|        8 | `what enneagram type are most musicians`                   | New data post           | Autocomplete plus unique Type 4 corpus stat     |
+|        9 | `what enneagram type are most ceos`                        | New data post           | Autocomplete plus tech/founder corpus stat      |
+|       10 | `enneagram and anxiety/trauma`                             | New cluster             | Mental-health pages already converting strongly |

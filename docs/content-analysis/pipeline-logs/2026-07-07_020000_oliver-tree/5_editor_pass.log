@@ -1,0 +1,20 @@
+Polished **`src/blog/people/drafts/Oliver-Tree.md`** (Enneagram Type 4 posthumous profile).
+
+## What I found
+This draft was already unusually clean — it had been through creator, fresh-eyes, and second-pass edits. Every mechanical check was green before I touched it: **0 em-dashes, 0 contrast pairs, 0 banned phrases**, description at 160 chars. So this was a light, surgical polish, not a rework.
+
+## What I fixed (two edits)
+1. **Stacked type-generalization openers.** "The Director Hiding Inside the Clown" was carrying two abstraction-led paragraphs back to back ("For a Four…" and "Fours reach for exactly that kind of discipline…") — the sentence-shape fingerprint the fresh-eyes note flagged and the DISTRIBUTION LEDGER meant to avoid. Re-anchored the second one to him: *"He had that kind of discipline in excess."*
+2. **Verbal echo in the paradox beat.** The meme-section paragraph opened on "barely a disguise" and closed on "barely disguised at all." Replaced the close with *"The bit and the man were wearing the same clothes."* — lands the same paradox without the repeat, and no "thought X, was really Y" contrast engine sneaks back in.
+
+I left line 119's "look at you without ever seeing you / the louder the costume…" pair alone — the second clause adds a dose-response escalation, so it's rhetorical emphasis with a new dimension, not pure restatement.
+
+## Protected
+The empathy turn (Casey Mattson), the interior beat (`inner-thought`), the scooter timeline div, and the ending are all untouched — those are the piece's best moments.
+
+## Exit checks (both pass)
+- `blog-lint.sh` (contrast target 0): **0 fail** — em-dash, contrast, comparative, banned-phrase all clean.
+- `blog-quality-report`: **contrast pairs 0 total (0 strong / 0 comparative)**, head-term PASS, answer block ok.
+
+## Status
+Prose is **production-ready** — no further substantive pass needed. **But it is not clear-to-publish on its own:** the working notes flag this as a posthumous legacy profile (Oliver Tree died 2026-06-14), and both `published: false` and the sensitivity block call for a **human tone/timing/dignity review before publish**. That gate is unchanged and correctly still stands. One non-blocking lint WARN: no `faqs` in frontmatter (the frontmatter-enrich stage hasn't run yet — a discoverability nicety, not an editorial issue).

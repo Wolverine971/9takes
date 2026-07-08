@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-07-06T06:10:42Z",
+	"lastUpdated": "2026-07-07T07:09:47Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
@@ -86,6 +86,27 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "oliver-tree",
+			"displayName": "Oliver Tree",
+			"type": 4,
+			"priority": 51,
+			"priorityReason": "Eccentric alt-pop artist with a deeply crafted persona, bowl-cut icon, and strong Type 4 individualist analysis angle",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-15",
+			"retryCount": 2,
+			"strategicValue": "alt-pop-eccentric-cluster",
+			"recoveryNote": "Returned to queue by nightly-blog-cron after a dead launch (no draft, no live pipeline).",
+			"startedAt": "2026-07-07T06:00:00Z",
+			"completedAt": "2026-07-07T07:09:47Z",
+			"contentGrade": "8.8",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~69 min",
+			"needsReview": true
+		},
 		{
 			"name": "steve-martin",
 			"displayName": "Steve Martin",
@@ -915,21 +936,7 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": {
-		"name": "oliver-tree",
-		"displayName": "Oliver Tree",
-		"type": 4,
-		"priority": 51,
-		"priorityReason": "Eccentric alt-pop artist with a deeply crafted persona, bowl-cut icon, and strong Type 4 individualist analysis angle",
-		"estimatedTraffic": "medium",
-		"searchVolume": "medium",
-		"personaTitle": null,
-		"addedToQueue": "2026-04-15",
-		"retryCount": 1,
-		"strategicValue": "alt-pop-eccentric-cluster",
-		"recoveryNote": "Returned to queue by nightly-blog-cron after a dead launch (no draft, no live pipeline).",
-		"startedAt": "2026-07-06T06:10:42Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "jerry-seinfeld",

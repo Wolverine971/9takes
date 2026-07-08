@@ -3,7 +3,7 @@
 # The Long-Form Network — Cluster Outreach Campaign
 
 **Created:** 2026-05-11
-**Last touched:** 2026-05-14 (Ferriss typing corrected; cold-outreach + inevitability pass NOT yet applied to these DM drafts)
+**Last touched:** 2026-07-06 (Ali DM refreshed and pointed to the canonical email packet; most other DM drafts still need cold-outreach + inevitability pass)
 **Editorial frame:** The Long-Form Network — the people running the most consequential long-form interview shows on the internet
 **Strategy:** Network-proof private outreach (no public moment yet)
 **Channel mix:** X DM for podcasters/creators; email as backup; Reddit posts to communities once core sends land
@@ -38,7 +38,7 @@
 | 7   | Theo Von         | X DM @TheoVon                 | 9.7 (A+) | Likely ✓    | Comedy / Rogan-orbit                    |
 | 8   | Tim Ferriss      | X DM @tferriss                | 9.1      | Likely ✓    | OG long-form, networks everyone         |
 | 9   | Andrew Huberman  | X DM @hubermanlab             | 8.5      | Likely ✓    | Science / Rogan-orbit                   |
-| 10  | Ali Abdaal       | X DM @aliabdaal               | 9.2      | Likely ✓    | Productivity / creator lane             |
+| 10  | Ali Abdaal       | Email + IG DM @aliabdaal      | 9.2      | ✓ Live      | Productivity / creator lane             |
 | 11  | Andrew Schulz    | X DM @andrewschulz            | 8.0      | Likely ✓    | Comedy / Flagrant                       |
 | 12  | Steven Bartlett  | X DM @StevenBartlett          | 8.0      | ⚠️ NOT live | DOAC connector — see special-case below |
 
@@ -137,7 +137,7 @@ Hit the 3 most likely to engage and reply. Their reply (or lack thereof) tunes t
 
 1. **Mon — Alex Hormozi** (X DM). Engages publicly with content about him; A-grade piece; lowest risk first-mover.
 2. **Wed — Chris Williamson** (X DM). His piece is sharpest; he's most native to the framework; previous campaign already drafted.
-3. **Fri — Ali Abdaal** (X DM). Productivity creator, engages thoughtfully, low risk.
+3. **Fri — Ali Abdaal** (email + IG DM). Productivity creator, engages thoughtfully, low risk.
 
 ### Week 2 — Connectors + intellectuals (4 sends, M/T/Th/F)
 
@@ -427,31 +427,24 @@ Fridman: https://9takes.com/personality-analysis/Lex-Fridman
 
 ---
 
-### Slot 10 — Ali Abdaal (X DM @aliabdaal)
+### Slot 10 — Ali Abdaal (email + IG DM @aliabdaal)
+
+> **Canonical send packet lives in** [`2026-05-11_long-form-network-emails.md`](./2026-05-11_long-form-network-emails.md) §"#3 — Ali Abdaal". Use email subject `A good reason and the real reason` and send the IG DM below in parallel. This replaces the older X-DM draft.
 
 ```
-Hey Ali — wrote a personality analysis of you. The read is Type 3
-(Achiever) but with a productivity-as-meaning angle that's
-distinct from most 3s — the part where the doctor-to-creator
-pivot isn't really a career change so much as the same engine
-finding a more legible scoreboard.
+ali — no ask, just FYI I wrote 5,000 words on you
 
 https://9takes.com/personality-analysis/Ali-Abdaal
 
-Trying to be sharp but fair. What's off?
-
-I've also analyzed Williamson, Ferriss, and Hormozi — all Threes
-running different versions of the same engine. Curious if the
-shared-pattern read holds up from where you sit:
-
-Williamson: https://9takes.com/personality-analysis/Chris-Williamson
-Ferriss: https://9takes.com/personality-analysis/Tim-Ferriss
-Hormozi: https://9takes.com/personality-analysis/Alex-Hormozi
+The piece turns on your good-reason/real-reason line, the Paul
+Millerd hit-delete-instead-of-publish moment, and the
+teacher's-heart 2-wing. No ask — just felt strange not to tell
+you directly.
 
 — DJ
 ```
 
-> **Pre-send check:** Verify all four are typed as 3s in their actual pieces. If any aren't, drop the "all Threes running different versions" line. Verify Ali's typing especially.
+> **Pre-send check:** Done 2026-07-06. Live URL redirects cleanly to lowercase and displays `6,500 WORDS`, so "5,000 words" is a safe round-down.
 
 ---
 

@@ -1,0 +1,19 @@
+Second pass complete on **`src/blog/people/drafts/Oliver-Tree.md`**.
+
+## What I changed
+
+**The paradox that inverts the whole thesis** (fresh-eyes' best catch, verified against the Steve-O *Wild Ride* #173 transcript in the repo): the "disguise" wasn't a mask he bought — it was assembled entirely from his own childhood. The bowl cut was his lifelong haircut ("too scared to get any other haircut"), the ski jacket was stolen from his mother's closet (a family relic his dad wore skiing), the glasses were his childhood pair, and the whole look was engineered to be "as ugly as possible." So the most-mocked costume in pop was the most autobiographical thing about him. I added this as a new beat in the meme section and fixed the now-backwards "bowl cut hid the real face" line upstream.
+
+**A genuine skeptic**, answered — "one viral gimmick milked through fake retirements; death upgraded a novelty act to auteur." I named it and handed the rebuttal to the rest of the piece rather than re-spending the authorship/will/grief cards. Keeps the empathy from tipping into hagiography.
+
+**Factual correction:** softened the too-tidy "injuries closed the door on scooting" — scootering stayed his signature live stunt to the end — and grounded the stunt persona in real action-sports roots (dad built Santa Cruz's first legit bike park; BMX/downhill/cyclocross; "my real addiction").
+
+**Source fixes:** tagged the cold-open "mirror" quote (High Times, 2020) and Fantano (The Needle Drop, 2020); replaced the unsourceable "worst rapper alive" self-quote with a sourced characterization. Trimmed museum-and-meme from 3 mentions to 2, named "Miss You" as his biggest hit, varied 2 of the 4 "That is the Four's…" sentence shapes, de-duped the "millions of views" quote.
+
+## Source audit after the pass
+5 load-bearing quotes — **2 inline, 1 vague, 2 untagged**. The **A/B+ blocker is cleared** (no untagged quote in the epigraph or cold open). The "vague" is Fantano — fully attributed in prose, but the parser only reads the year, not "The Needle Drop." The 2 "untagged" are the song titles `"Alien Boy"` and `"Miss You"` in quotes — parser false positives, not testimony. Lint: **0 fail, 1 warn** (the warn is the downstream frontmatter-enrich stage, unrelated to this pass).
+
+## Left for the human editor
+I deliberately did **not** add the Burning Man self-funeral rhyme (self-staged funeral at 17 → fake endings → disbelieved real death). It's drug-vision material the creator pass excluded for a posthumous profile, and fresh-eyes flagged it as reviewer's call. It's the single strongest possible deepening of the ending, but it's a sensitivity/dignity judgment for you, not the second pass. The draft also still carries its `SENSITIVITY / HUMAN REVIEW REQUIRED BEFORE PUBLISH` flag — this remains a posthumous piece that needs a human sign-off on tone/timing before it ships.
+
+Sources used: [High Times](https://hightimes.com/culture/oliver-tree-deals-art/), [Wild Ride! with Steve-O #173 (IMDb, 2023)](https://m.imdb.com/title/tt28731411/), [Turbo persona / Fandom](https://oliver-tree.fandom.com/wiki/Turbo).
