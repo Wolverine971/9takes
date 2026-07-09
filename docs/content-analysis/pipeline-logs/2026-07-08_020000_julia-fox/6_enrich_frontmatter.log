@@ -1,0 +1,28 @@
+Frontmatter enrichment complete: **Julia Fox**
+
+**Fields filled:**
+`wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved, untouched):**
+- `wikipedia` (`https://en.wikipedia.org/wiki/Julia_Fox`), `instagram` (`juliafox`), plus all creator-owned fields (`title`, `meta_title`, `persona_title`, `description`, `enneagram`, `type`, `person`, `suggestions`, `production_pretext`, `lastmod`, etc.)
+
+**Cross-verification:**
+- **Wikidata QID `Q79055374`** — confirmed English label "Julia Fox," Italian-American actress/model born 1990.
+- **IMDb `nm9681752`** — cross-verified two ways: Wikidata property **P345** and the Wikipedia infobox (plus search).
+- **Birth place** — Wikidata's P19 wrongly lists New York City; Wikipedia infobox + IMDb + the draft body all agree on **Milan, Lombardy, Italy** (she moved to NY at age 6). Went with Milan.
+
+**FAQs generated (5):**
+1. What is Julia Fox's personality type? → `#what-is-julia-foxs-personality-type`
+2. Did Kanye West discover Julia Fox? → `#why-everyone-thinks-kanye-discovered-julia-fox`
+3. What was the R.I.P. Julia Fox art show? → `#rip-julia-fox-the-art-show-she-threw-before-anyone-was-watching`
+4. Why did Julia Fox swear off men? → `#why-julia-fox-swore-off-men`
+5. Is Julia Fox a Type 4 or a Type 3? → `#counterarguments-why-julia-fox-might-not-be-type-4`
+
+All five anchors map to real H2/H3 headings in the body (github-slugger/rehype-slug rules), and every answer summarizes the actual analysis — no invented facts.
+
+**Issues:**
+- **No inline external links in the body** (only internal `/personality-analysis/` and `/enneagram-corner/` links). Per the Einstein pattern, I built `citations` from canonical/authoritative URLs for sources the body genuinely references by name: the Wikipedia bio, *Uncut Gems*, the **Time** review (quoted: "most authentic storytellers"), the **Slate** "two voices" review, and the Wikidata entity. Nothing fabricated, but sourcing in the body is thin (named outlets, no URLs) — a content-quality note, not a blocker.
+- **Wikidata P19 birth-place error** flagged above (says NYC; correct is Milan). Did not use it.
+- `wikipedia` was already correct and points to the right entity, so it was left as-is.
+
+Validated the full frontmatter block through `gray-matter` — parses with no YAML errors (the doubled-vs-backslash quote hazard was avoided by using double-quoted answer strings with single inner quotes). Body content, HTML comment ledgers, and `lastmod` were not touched.

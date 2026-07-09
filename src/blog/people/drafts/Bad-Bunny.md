@@ -1,7 +1,7 @@
 ---
 title: 'Bad Bunny: The Puerto Rican Shape-Shifter Who Refused Every Cage'
 meta_title: 'Bad Bunny Enneagram Type 7: Why He Keeps Reinventing'
-description: 'Bad Bunny went from supermarket bagger to billionaire, never making the same album twice — until his latest forced him to stand still.'
+description: 'Bad Bunny went from supermarket bagger to billionaire, never making the same album twice, until his latest forced him to stand still.'
 persona_title: 'The Conejo Who Ate Every Cage'
 author: 'DJ Wayne'
 date: '2025-06-25'
@@ -89,9 +89,9 @@ FEEDBACK (2026-02-18):
 
 > "This is for my people, my culture, and our history."
 
-<p class="firstLetter">In two weeks, Bad Bunny will take the stage at Super Bowl LX—the first Latino to headline the halftime show solo. Days later, he could become the first Spanish-language artist to win Album of the Year at the Grammys. From bagging groceries at a Puerto Rican supermarket to this moment, Benito Antonio Martínez Ocasio has lived a story that rewrites what's possible.</p>
+<p class="firstLetter">In one week in February 2026, Benito Antonio Martínez Ocasio did two things no Spanish-language artist had ever done. On February 2 he won Album of the Year at the Grammys, the first all-Spanish-language album to take the top prize. Six days later he headlined the Super Bowl LX halftime show, solo and almost entirely in Spanish, in front of 128 million people. From bagging groceries at a Puerto Rican supermarket to that week, Benito has lived a story that rewrites what's possible.</p>
 
-But map his psychology, and the meteoric rise makes perfect sense.
+But map his psychology, and the rise makes perfect sense.
 
 What drives someone to dominate Latin trap, reggaeton, pop, merengue, and bachata, then pivot to WWE wrestling, Hollywood films, and hosting _Saturday Night Live_? Why refuse to stay in one lane when that lane made him a billionaire?
 
@@ -102,10 +102,10 @@ The answer unlocks when you decode how Bad Bunny's mind actually works.
 <div class="panel">
 <ul>
 <li><b>Relentless Variety-Seeking:</b> Bad Bunny has never made the same album twice. From Latin trap to reggaeton to full Puerto Rican folk music, his refusal to repeat himself screams Type 7's core fear of limitation and boredom.</li>
-<li><b>Fearless Experience Collector:</b> WWE wrestler, Met Gala co-chair, Hollywood actor, Calvin Klein model, SNL host—Type 7s need to taste everything life offers. Bad Bunny doesn't just dabble; he commits fully to each new adventure.</li>
+<li><b>Fearless Experience Collector:</b> WWE wrestler, Met Gala co-chair, Hollywood actor, Calvin Klein model, SNL host. Type 7s need to taste everything life offers. Bad Bunny doesn't just dabble; he commits fully to each new adventure.</li>
 <li><b>Optimistic Reframing:</b> His stage name came from being forced to wear a bunny costume as a child and hating it. Instead of burying that memory, he transformed it into his brand. Classic Type 7 alchemy of pain into possibility.</li>
 <li><b>Avoidance of Constraint:</b> He refuses to sing in English despite massive pressure, won't fit into industry boxes, and designs his own fashion. Type 7s feel suffocated by anything that limits their freedom.</li>
-<li><b>Growth Through Depth:</b> His 2025 album "Debí Tirar Más Fotos" shows Type 7 integration toward Type 5—going deep into Puerto Rican identity rather than chasing the next shiny trend.</li>
+<li><b>Growth Through Depth:</b> His 2025 album "Debí Tirar Más Fotos" shows Type 7 integration toward Type 5, going deep into Puerto Rican identity rather than chasing the next shiny trend.</li>
 </ul>
 </div>
 </details>
@@ -128,11 +128,11 @@ That's Type 7 philosophy distilled: seize the moment, reject artificial limits, 
 
 The Almirante Sur neighborhood of Vega Baja, Puerto Rico shaped everything. His father Tito drove trucks. His mother Lysaurie taught school. Every Sunday, mass.
 
-Young Benito sang in the church choir until age 13. Some kids rebel against religious upbringing by abandoning it entirely. Benito absorbed its emotional expressiveness while finding new vessels for it. The choir didn't leave him — it just started sounding different.
+Young Benito sang in the church choir until age 13. Some kids rebel against religious upbringing by abandoning it entirely. Benito absorbed its emotional expressiveness while finding new vessels for it. The choir didn't leave him; it just started sounding different.
 
 "I wasn't the kid who got involved in the streets," he later reflected. "I liked to be at home with my family."
 
-This is the quieter side of Type 7 that people miss. They crave external stimulation, yes. But many build a fixed point to launch from. Family became Benito's anchor — stable enough that he could keep moving without losing himself.
+This is the quieter side of Type 7 that people miss. They crave external stimulation, yes. But many build a fixed point to launch from. Family became Benito's anchor, stable enough that he could keep moving without losing himself.
 
 His stage name carries childhood pain transformed. As a young boy, he was forced to wear a bunny costume for school and was photographed looking furious about it. That angry bunny face became iconic.
 
@@ -274,27 +274,19 @@ Bad Bunny responded by releasing two more albums that same year.
 
 No Latin artist had achieved what Bad Bunny has achieved. But the numbers matter less than the pattern behind them.
 
-Three Grammy Awards. Seventeen Latin Grammy Awards, with five more won in November 2025, including his first Album of the Year for "Debi Tirar Mas Fotos." Billboard named him the Top Latin Artist of the 21st Century.
+Five Grammy Awards. More than twenty Latin Grammy Awards. Billboard named him the Top Latin Artist of the 21st Century. His album "Un Verano Sin Ti" became the most-streamed album ever on Spotify, and four consecutive albums debuted at number one on the Billboard 200, an all-genre chart dominated by English-language artists.
 
-His album "Un Verano Sin Ti" became the most-streamed album ever on Spotify. Four consecutive albums debuted at number one on the Billboard 200, an all-genre chart dominated by English-language artists.
+Every one of those records was set while refusing to sing in English. That's a Type 7 who found a constraint worth keeping, the one that makes everything he does distinctly his. What the industry called genre-defying, he experienced as boredom avoidance. What Billboard called record-breaking, he experienced as following his curiosity. The chart positions are just what happens when a Type 7's appetite is bigger than the categories built to contain it.
 
-Every one of those records was set while refusing to sing in English. That's not stubbornness. That's a Type 7 who found a constraint worth keeping — the one that makes everything he does distinctly his. What the industry called genre-defying, he experienced as boredom avoidance. What Billboard called record-breaking, he experienced as following his curiosity. The chart positions are just what happens when a Type 7's appetite is bigger than the categories built to contain it.
+### The Puerto Rico Residency: $713 Million and a Line in the Sand
 
-### The 2026 Grammy Nominations
+At the peak of his popularity, Bad Bunny did something unexpected: he left the U.S. mainland off the tour entirely and made his home island the destination.
 
-Bad Bunny made history in late 2025 when he became the first Latino, Hispanic, and Spanish-language artist to be nominated in the same year for Album of the Year, Record of the Year, and Song of the Year, the three most prestigious categories at the Grammy Awards. The ceremony takes place February 2, 2026.
+Part of that was love. Part of it was protest. He told i-D magazine he skipped the States because he feared ICE would raid his shows and target his fans: "But there was the issue of, like, f---ing ICE could be outside my concert. And it's something that we were talking about and very concerned about." He was careful to say it wasn't personal: he'd performed in the U.S. many times, and every time had been magnificent. This was about who might get hurt walking in the door.
 
-If "Debi Tirar Mas Fotos" wins Album of the Year, it would be the first all-Spanish-language album to ever take the prize.
+So instead of asking Latino fans to take that risk for him, he built something they could come home to. The "No Me Quiero Ir de Aquí" (I Don't Want to Leave Here) residency ran 31 sold-out shows at San Juan's Coliseo de Puerto Rico between July and September 2025.
 
-Six nominations total put him alongside [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) as one of the most-nominated artists of the year.
-
-### The Puerto Rico Residency: $713 Million Impact
-
-At the peak of his popularity, Bad Bunny did something unexpected: he skipped the typical North American arena tour to center his homeland.
-
-The "No Me Quiero Ir de Aqui" (I Don't Want to Leave Here) residency consisted of 31 sold-out shows at San Juan's Coliseo de Puerto Rico between July and September 2025.
-
-Nearly 600,000 people attended. The first nine shows were reserved exclusively for Puerto Rico residents, with ticket prices ranging from just $35 to $250. A deliberate rejection of Ticketmaster-era price gouging.
+Nearly 600,000 people attended. The first nine shows were reserved exclusively for Puerto Rico residents, with ticket prices from just $35 to $250, a deliberate rejection of Ticketmaster-era price gouging.
 
 The economic impact? $713 million injected into Puerto Rico's economy, according to Gaither International. Hotel occupancy surged 25%. Over half of the international attendees cited the concerts as their primary reason for visiting, staying an average of 8.7 nights. Moody's raised Puerto Rico's 2025 economic forecast partly because of the residency.
 
@@ -306,17 +298,25 @@ Bad Bunny's 2025 wasn't just about music. He appeared in two major films:
 
 **Caught Stealing** (August 2025): Directed by Darren Aronofsky, this crime thriller stars Austin Butler and <a href="/personality-analysis/zoe-kravitz">Zoë Kravitz</a>. Bad Bunny plays Colorado, a Puerto Rican gang member navigating New York's criminal underworld. Aronofsky called him "the sweetest guy in the world" on set.
 
-**Happy Gilmore 2** (July 2025): Adam Sandler's Netflix sequel cast Bad Bunny as Oscar Mejías, Happy's caddy and a former busboy dreaming of owning a restaurant. The film debuted at #1 on Netflix with 46.7 million views in three days—the biggest US Netflix film debut of 2025.
+**Happy Gilmore 2** (July 2025): Adam Sandler's Netflix sequel cast Bad Bunny as Oscar Mejías, Happy's caddy and a former busboy dreaming of owning a restaurant. The film debuted at #1 on Netflix with 46.7 million views in three days, the biggest US Netflix film debut of 2025.
+
+### The Night He Made Grammy History
+
+At the February 2, 2026 ceremony, "Debí Tirar Más Fotos" won Album of the Year. It was the first all-Spanish-language album to ever take the prize, the top award at a show that had spent decades filing non-English music under a side category. He won Best Música Urbana Album the same night.
+
+Then he did the thing that ties his whole year together. Before thanking anyone, he opened his acceptance with a demand: "ICE out." He kept going: "We're not savages, we're not animals, we're not aliens. We are Americans."
+
+A Type 7's reflex is to keep a triumphant moment light. Bad Bunny did the opposite. He spent the biggest award of his life on something that could cost him, because the freedom he cares about now is no longer only his own.
 
 ### The Super Bowl Moment
 
-When the NFL announced Bad Bunny would headline the Super Bowl LX halftime show, scheduled for February 8, 2026, at Levi's Stadium, it triggered predictable backlash from conservative commentators. [Donald Trump](/personality-analysis/donald-trump) called it "absolutely ridiculous."
+When the NFL announced Bad Bunny would headline the Super Bowl LX halftime show, it triggered predictable backlash. [Donald Trump](/personality-analysis/donald-trump) called it "absolutely ridiculous." NFL Commissioner Roger Goodell defended the pick: "He's one of the leading and most popular entertainers in the world... this was carefully thought through." The trailer, shot in Puerto Rico around the flamboyán tree, promised only this: "The world will dance."
 
-NFL Commissioner Roger Goodell defended the selection: "He's one of the leading and most popular entertainers in the world... this was carefully thought through."
+On February 8, 2026, at Levi's Stadium, he made good on it. The set opened with "Tití Me Preguntó" and ran through "Yo Perreo Sola," "Baile Inolvidable," and "El Apagón" before closing on "DtMF." Lady Gaga turned "Die With a Smile" into salsa. Ricky Martin, making his Super Bowl debut, sang "Lo Que Le Pasó a Hawaii," a warning about Puerto Rico being priced out of its own future. The stage was built as a Puerto Rican _casita_, and the light-blue independence flag flew behind him.
 
-The performance will make Bad Bunny the first Latino and Spanish-speaking artist to lead the Super Bowl halftime show as a solo act.
+The man who months earlier wouldn't tour the U.S. for fear of ICE now stood on the country's biggest stage and told the crowd to "dance without fear, speak without fear." He redefined the word _America_ in real time, naming more than twenty countries and territories across the hemisphere. Back on SNL in October he'd given English-speaking critics four months to learn Spanish; he spent those four months building the most-watched almost-entirely-Spanish performance in Super Bowl history.
 
-A new trailer, shot in Puerto Rico featuring the flamboyan tree (an important island symbol), carries the message: "The world will dance."
+It drew 128.2 million domestic viewers, the fourth-most-watched halftime show ever, and four billion social-media views in a day, more than half from outside the United States. Rolling Stone's Rob Sheffield ranked it the second-best Super Bowl halftime performance of all time, behind only Prince.
 
 ## The Controversies That Exposed the Pattern
 
@@ -326,7 +326,7 @@ Bad Bunny's lyrical content has drawn criticism for misogyny and explicit sexual
 
 When he appeared in drag for that video, some called it queerbaiting. Others saw genuine allyship. The critique lands differently depending on whether you've watched him put on a skirt to honor a murdered trans woman on The Tonight Show.
 
-Type 7s attract this tension because they genuinely contain multitudes. The same person who makes a party anthem and a political anthem isn't performing contradiction — they're just not limiting themselves to one. Consistency isn't the goal. Fullness is.
+Type 7s attract this tension because they genuinely contain multitudes. The same person who makes a party anthem and a political anthem isn't performing contradiction; they're just not limiting themselves to one. Consistency isn't the goal. Fullness is.
 
 ### Political Lightning Rod
 
@@ -334,13 +334,13 @@ After a comedian at a Trump rally called Puerto Rico "a floating island of garba
 
 His support for Puerto Rican independence and criticism of gentrification has made him a political figure whether he wanted that role or not.
 
-His 2022 documentary-length music video for "El Apagon" directly addressed American investors buying up the island post-Hurricane Maria. "This is my culture," he said simply. "If you don't like it, don't listen to me."
+His 2022 documentary-length music video for "El Apagón" turned a party track into an exposé of American investors buying up the island after Hurricane Maria, splicing club footage with reporting on displaced Puerto Rican families. He was making the gentrification argument on the dance floor years before "Debí Tirar Más Fotos" made it his whole album.
 
 ### How Bad Bunny Handles Criticism
 
 Type 7s are supposed to avoid pain. So how does Bad Bunny handle the constant backlash?
 
-With defiant humor, mostly. When conservative commentators called him a "demonic Marxist" after the Super Bowl announcement, he used his SNL monologue to address it directly. He delivered an emotional message to Latinos in Spanish, then told English-speaking critics: "If you didn't understand what I just said, you have four months to learn."
+With defiant humor, mostly. When commentators called him a "demonic Marxist" after the Super Bowl announcement, he didn't fire back with anger. He hosted SNL, spoke to Latinos in Spanish, and let his critics translate on their own time.
 
 When he threw a fan's phone after she shoved it in his face, he didn't apologize: "Anyone who comes up to me to say hello will always receive my attention and respect. Those who come to put a damn phone in my face, I'll consider that what it is: a lack of respect."
 
@@ -390,34 +390,80 @@ For Bad Bunny, that's Puerto Rico itself.
 
 The island's colonial history, its hurricane recovery, its cultural survival, its people's resilience. The man who seemed to want everything has discovered what actually matters most.
 
-His acting career continues expanding. His fashion influence grows. His advocacy deepens. The Super Bowl awaits. The Grammys could make history.
+His acting career keeps expanding. His fashion influence grows. His advocacy deepens. And in one February week, the Grammy stage and the Super Bowl both bent to a man performing in Spanish.
 
 But the story has shifted. The supermarket bagger who wanted to experience everything has become a cultural ambassador choosing his experiences deliberately.
 
 ## What Makes His Type 7 Different
 
-The question isn't what Bad Bunny has in common with other Type 7 artists. It's what makes his version of 7 work differently than theirs.
+The question isn't what Bad Bunny shares with other Type 7 artists. It's why his version works when so many burn out.
 
-[Miley Cyrus](/personality-analysis/miley-cyrus) channels variety-seeking through image reinvention — the self becomes the project. Robin Williams expressed it through improvisational overflow — the performance became the escape. The comparison reveals something about what each artist was fleeing. Miley fled the good-girl box. Robin fled the silence.
+[Miley Cyrus](/personality-analysis/miley-cyrus) channels variety-seeking through image reinvention; the self becomes the project. Robin Williams expressed it through improvisational overflow; the performance became the escape. Both were running from something. Miley fled the good-girl box. Robin fled the silence.
 
-Bad Bunny isn't fleeing anything. He's moving toward something.
-
-His 2020 trilogy — three albums in one year — wasn't scattered output. It was a Type 7 responding to a chaotic moment by making the most party music possible, then releasing it into a world under lockdown. The irony wasn't lost on him. He just kept going.
-
-The decisive difference is what he does with his curiosity. Most Type 7s accumulate stimulation. Bad Bunny has increasingly narrowed toward Puerto Rico itself — its music, its neighborhoods, its people being priced out of their own island. That's not the work of someone running from stillness.
-
-Debi Tirar Mas Fotos is what happens when a Type 7 finally finds something worth slowing down for.
+Bad Bunny is running toward something instead. Most Type 7s accumulate stimulation until they scatter. He has done the opposite, narrowing year over year toward Puerto Rico itself: its music, its neighborhoods, its people being priced off their own island. "Debí Tirar Más Fotos" is what happens when a Type 7 finally finds something worth slowing down for.
 
 ## Why He Still Can't Stand Still
 
-Here's what casual observers miss about Bad Bunny: the constant reinvention isn't chaos. It's a coherent philosophy expressed through action.
+The constant reinvention was never chaos. It was a philosophy: freedom isn't doing everything, it's doing what genuinely matters without anyone else's permission.
 
-Type 7s at their best understand that freedom isn't about doing everything. It's about doing what genuinely matters without artificial constraint.
+He sings in Spanish because that's who he is. He wears what he wants because performance doesn't stop at the music. He fights for Puerto Rico because home is the anchor that makes the adventure possible. The angry kid in the bunny costume became the most-streamed artist on the planet. The bagger from the Econo won Album of the Year and headlined the Super Bowl in the same week.
 
-Bad Bunny sings in Spanish because that's who he is. He wears what he wants because performance extends beyond music. He advocates for Puerto Rico because home is the anchor that makes adventure possible.
-
-The angry kid in the bunny costume became the most-streamed artist on the planet. The supermarket bagger became a Super Bowl headliner.
-
-The pattern isn't luck. It's what happens when a Type 7's need for stimulation finds a purpose large enough to contain it — and Bad Bunny found his in the island he kept almost leaving.
+The pattern was never luck. It's what happens when a Type 7's hunger for everything finally finds a purpose big enough to hold it, and Bad Bunny found his in the island he kept almost leaving.
 
 > **Disclaimer:** This analysis of Bad Bunny's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bad Bunny.
+
+<!-- FRESH-EYES REVIEW — DJ, 2026-07-08 (Claude)
+
+Read this cold, the way a Bad Bunny fan would. It's genuinely strong: the creative-process
+detail (Tommy Torres / "Rain Man"), the collaboration-as-intimacy quote, the machismo section,
+and the integration-to-5 read on "Debí Tirar Más Fotos" are the best parts. But it had one big
+problem and a few smaller ones. I fixed the important ones in this pass.
+
+BIGGEST ISSUE — the piece was STALE, written in the future tense for events that already happened.
+- It opened with "In two weeks, Bad Bunny will take the stage at Super Bowl LX" and "he could
+  become the first Spanish-language artist to win Album of the Year." Both happened in Feb 2026,
+  ~5 months before today (July 8, 2026).
+- FIXED: rewrote the opening, the Grammy section, the Super Bowl section, and the Legacy close to
+  reflect reality. He WON Album of the Year (Feb 2, first all-Spanish-language album ever) plus
+  Best Música Urbana. Then he headlined the Super Bowl (Feb 8) with Lady Gaga (salsa "Die With a
+  Smile"), Ricky Martin ("Lo Que Le Pasó a Hawaii"), and Los Pleneros de la Cresta — 128.2M
+  domestic viewers, 4th-most-watched halftime ever, Rob Sheffield ranked it #2 all-time behind
+  Prince.
+
+BIGGEST CONTENT GAP — the ICE story was completely missing.
+- The single biggest Bad Bunny narrative of 2025 was that he refused to tour the U.S. mainland
+  because he feared ICE would raid his shows and grab his fans ("f---ing ICE could be outside my
+  concert," i-D magazine). The draft framed the Puerto Rico residency purely as homeland-love plus
+  $713M economics and never mentioned it.
+- It matters because it's the through-line of the whole year: refuse the U.S. out of fear → win
+  the Grammy and OPEN the speech with "ICE out / We are Americans" → headline the Super Bowl and
+  tell the crowd "dance without fear, speak without fear." A fan expects this. FIXED: threaded it
+  through the residency, Grammy, and Super Bowl sections so it reads as one arc.
+
+DUPLICATION TRIMMED:
+- "If you don't like it, don't listen to me" appeared twice (Trevor Noah + El Apagón). Cut #2.
+- The SNL "you have four months to learn" quote appeared twice. Kept it in the SNL section, turned
+  it into a callback (not a re-quote) in the Super Bowl section, removed the third instance from
+  the criticism section.
+- The "three albums in one year / lockdown irony" was told three times. Cut it from the closer.
+- Two stacked conclusions ("What Makes His Type 7 Different" + "Why He Still Can't Stand Still").
+  Tightened both; kept the Miley/Robin Williams contrast (best originality) and sharpened the final
+  callback to the February week.
+
+OVERDONE (noted, lightly reduced — worth a future pass):
+- The "it isn't X, it's Y" construction fires 6+ times ("This isn't contradiction. It's...", "That's
+  not scattered energy. That's...", "The pattern isn't luck. It's..."). It's a flagged AI tell and
+  reads as a tic once you notice it. Removed a couple in sections I touched.
+- Em-dashes cleaned out of the body per editorial standards (left the ones in the grade comment).
+
+STILL COULD ADD (didn't, to avoid scope creep — your call):
+- Gabriela Berlingeri: his long-term partner who sang on YHLQMDLG and shot the "Un Verano" cover.
+  The romance section only covers Kendall, which skews the picture.
+- Pre-2025 acting (Bullet Train, Narcos: Mexico). The Hollywood section starts at 2025 as if it's
+  his screen debut.
+- "Tití Me Preguntó" as a lens on the settle-down/commitment tension — ties straight to the Type 7
+  fear of being pinned down, and it's currently unused despite opening the Super Bowl set.
+
+Did NOT touch lastmod (you manage that). Grade block left for the next /grade_blog pass.
+-->
+

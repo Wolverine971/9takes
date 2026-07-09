@@ -1,0 +1,26 @@
+Revision pass complete on `src/blog/people/drafts/Olivia-Cooke.md`.
+
+## What triggered the loop
+Grade **C (7.9)** with **Evidence (7)** as the single dimension holding it under B. Lint was already clean, so this was a pure grade-feedback pass focused on the weighted Evidence and Originality dimensions.
+
+## Fixes applied (mapped to grader items)
+
+**Evidence — the score's biggest drag (weighted 1.5×):**
+- **Café-firing → softened.** The named café, the fired-by-text verbatim, and "the last time anyone made a decision for her" were unverified by the pipeline's own SECOND PASS and I couldn't confirm them in a fresh source sweep. Re-anchored the required interior beat to *confirmable* teenage service work + the confirmable `Blackout`/left-college fact. The "net folded up" resolve survives.
+- **RADA → attributed + de-quoted.** Cited the confirmable rejection inline (**Den of Geek, 2018**, with the northern-accent detail) and converted the unverified verbatims ("Who's the winner here?", "vocally unprepared") to reported speech. Preserved the Type 3 contrast. Added Den of Geek to `citations`.
+- **Class → attributed inline.** "Cut through steel with a twig" / "not working class any more" are verified verbatim from the **2025 Who What Wear cover profile**; attributed there.
+- **Script-advisor + Instagram → de-quoted.** The "Tess, where am I?" line and "I've got my mind back" don't pin to a named outlet, so I kept the documented behavior/deletion and dropped the unsourceable verbatims. Aligned FAQs #2 and #3 to match.
+
+**Originality (TO REACH B #2):** Planted the *"the gift and the affliction are the same equipment"* inversion in the intro so it now frames the piece; the closing "locate the exact inner weather" line pays it off instead of introducing it cold.
+
+**House fingerprint:** Cut two of three reader-command imperatives — removed "Read the childhood quote… again" and the julia-fox reuse "Sit with what she has actually lived through"; kept only "Hold onto that shape."
+
+## Rejected
+- **"not fragility. It is triage."** — the grader flagged this as a `not X, it is [protection]` near-miss but explicitly quarantined it as a near-miss, not a required cut; it's separately praised as the earned empathy turn built from her own wound-vocabulary. Left intact.
+
+## Preserved (grader's STRONG list, untouched)
+Casting-ledger table + Ready Player One fold-back, the Alicent-face open → "worried face was never a costume" close, and the skeptic concession + rabbit-hole tiebreaker.
+
+**Lint: clean (0 fail, 0 warn).** I did not touch `lastmod` or `content_quality`. The pipeline will now strip the old grade and re-grade.
+
+One flag for you: several quotes this draft leaned on (the café firing, "Tess," the exact Instagram phrasings) turned out to be unsourceable across multiple passes — worth a note that the creator stage is occasionally minting vivid-but-untraceable verbatims that later passes have to walk back.

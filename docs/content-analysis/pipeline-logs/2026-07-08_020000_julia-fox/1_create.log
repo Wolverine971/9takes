@@ -1,0 +1,34 @@
+The Julia Fox draft is complete and passes all gates. Here is the completion report.
+
+---
+
+**Thesis:** Most people see a "hot internet girl" famous for being *looked at* — Kanye's muse, the "Uncah Jams" meme, vibes with no thoughts. Through Enneagram Type 4, Julia Fox has spent her life turning the experience of being discarded into art she signs. She was never the muse; she held the brush.
+
+**Core tension:** object vs. author. **Signature detail anchor:** the 2017 *R.I.P. Julia Fox* show — silk canvases painted in her own blood, staged before fame. **Emotional thesis:** a child left alone in an empty apartment learned she was disposable and spent her life becoming the one thing no one could throw away.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/julia-fox.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: none (transcript fetched successfully — Call Her Daddy, 2022)
+```
+
+**Gate evidence**
+- **Gate 1 (Testimony):** 3 named third-party quotes in body — Josh Safdie (Highsnobiety, 2019), Charli XCX (*Brat*, 2024), Kirkus Reviews (2023). ≥2 ✓
+- **Gate 2 (Heading mix):** 4 search-intent/hybrid H2s of 7. ✓
+- **Gate 4 (Anti-imitation):** callback ending, no "A [Type]" anaphora; hook is her real blood-canvas show, not a reference-library object-reveal clone. ✓
+- **Gate 5 (Distribution):** ~1 type-theory paragraph outside diagnosis + Rabbit Hole (≤4). ✓
+- **Gate 6 (Formula fingerprint):** 0 contrast-pair engines, counter-typing quarantined in Rabbit Hole, bespoke "Insults Julia Fox Kept" ledger, critic-pressure anchor (Slate/Kirkus), empathy turn from her own wound-vocabulary, current-tense anchor (Chanel suit 2025), interior beat, ending swaps clean. ✓
+
+**Deterministic reports:** `blog-lint.sh` → 0 fail (1 warn: no FAQs, a downstream frontmatter-enrich stage — out of scope here). `blog-quality-report` → 0 contrast pairs, head-term pass, answer block extractable. `same-type-similarity --n 8` → top pair 0.199 (well below any trip; matches are generic Type-4 diagnostic phrasing, not copied arguments).
+
+**Internal links added (6 total):**
+- Kanye West → `/personality-analysis/kanye`
+- Charli XCX → `/personality-analysis/charli-xcx`
+- Frida Kahlo → `/personality-analysis/frida-kahlo`
+- Type 4 → `/enneagram-corner/enneagram-type-4`
+- (Rabbit Hole) wings → `/enneagram-corner/enneagram-wings-complete-guide`; subtypes → `/enneagram-corner/enneagram-instinctual-subtypes`
+
+No self-loops. Saved as `status: draft` — human review is still required before production. Grading is owned by `/grade_blog`; after approval, hand off to `blog_content_production_people`.

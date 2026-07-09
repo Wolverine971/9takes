@@ -1,0 +1,20 @@
+Grade written to the file. Here's the summary.
+
+## Grading Complete — Olivia-Cooke (regrade after revision)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Olivia-Cooke | 8 | 8 | 9 | 8.5 | 8 | 8.5 | **8.3** | **B** |
+
+*(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7 = 58.25/7 = 8.3`. Discoverability 9 ≥ 7, gate clear.)*
+
+### Key Observations
+
+- **The revision earned its bump: C (7.9) → B (8.3), delta 0.4.** The pass fixed the exact thing that was holding it under B — it de-quoted the unverifiable café-firing / RADA / Instagram verbatims to reported speech, attributed the load-bearing claims inline (Den of Geek 2018, Sunday Times 2025, Who What Wear 2025), and folded *Ready Player One* in as pressure rather than leaving it as a cherry-pick hole. Source audit came back **0 untagged**.
+- **Cap applied: `house_empathy_turn`.** The empathy turn "*Deleting it is not fragility. It is triage.*" is the house `not X, it is [protection-noun]` grammar (triage = the armor/scar-tissue family), and it's the second "not X. It is Y." in two sentences. That holds Writing at 8. It's the single clearest path to B+ — the wound-vocab around it is already earned; just carry the reframe in her own words.
+- **Discoverability is the strongest dimension (9)** — length-optimal metadata, extractable early answer, 5 real FAQs, complete entity metadata. Evidence and Originality are the two 8s to lift for a B+.
+- **Deterministic checks all clean:** 0 contrast pairs, head-term PASS, same-type scan CLEAR (top 0.084 collisions are boilerplate diagnosis furniture, not the thesis).
+
+**Total graded this session: 1**
+
+A note on calibration: I anchored to the **human-audit B** standard for the Matt-Smith draft (not the 9.0 in its file), so this lands below the recent julia-fox (8.5) and Oliver-Tree (8.8) grades. This is genuinely strong pipeline output with two visible limitations (house-template empathy grammar; solid-but-not-exceptional Evidence) — a B, and a fair one.

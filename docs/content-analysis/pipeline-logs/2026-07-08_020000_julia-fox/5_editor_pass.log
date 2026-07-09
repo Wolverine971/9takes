@@ -1,0 +1,21 @@
+Polished **`src/blog/people/drafts/julia-fox.md`**.
+
+## What I found
+This draft was already in strong shape — it had been through a fresh-eyes review and a full second pass, and its emotional layer was intact (the empty-fridge interior beat, the Kanye "chosen" empathy turn, and the Gianna grief thread that Fox "could never turn into art"). So this was a genuine light-touch pass, not a rescue.
+
+## What I cleaned up
+The only real problem was **one strong contrast-pair engine** the second pass had missed (its ledger claimed 0, but the report found 1):
+
+- **L146:** `"Not luck, not a stylist."` → `"No stylist built them; she did, from whatever was around:"` — a direct positive claim instead of the "not X, not Y" AI cadence. While there, I folded a triple restatement of "she makes her own looks" into a single clause so the fashion paragraph advances instead of circling.
+
+Everything else I left alone on purpose — the strongest lines (the R.I.P. cold open + obituary callback, "I set up that dinner and I invited Kanye," "She handed it over wet," "The muse builds the muse") and the emotional beats were doing their job, and over-editing would have flattened the voice.
+
+**Verified mechanically** (not by feel): em-dashes are confined to comments and quote-attribution lines (lint: no prose em-dashes), no banned AI phrases.
+
+## Final numbers
+- `blog-lint.sh`: **0 fail** (was 1), contrast engines **0 strong / 0 comparative**
+- `blog-quality-report`: **0 contrast pairs** (was 1 strong)
+- Remaining lint output is a single WARN — `faqs` not yet in frontmatter — which is the frontmatter-enrich stage's job, not this pass.
+
+## Verdict
+**Production-ready** from an editorial standpoint. It reads like a sharp human piece, the thesis (the object who is actually the author) is distinct from the other Type 4 drafts, and it lands rather than summarizes. The one remaining pipeline step before publish is the frontmatter-enrich stage (FAQs) and the DB sync noted in `production_pretext`.

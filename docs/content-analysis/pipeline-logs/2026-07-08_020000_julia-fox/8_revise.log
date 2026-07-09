@@ -1,0 +1,28 @@
+Revision pass complete on `src/blog/people/drafts/julia-fox.md`.
+
+## What triggered the loop
+Grade **B+ (8.5)** with lint already clean. So this pass consumed the grader's **NEEDS WORK** + **TO REACH A- (9.0+)** lists — no lint FAILs to fix.
+
+## Fixes applied (mapped to grader items)
+
+| Grader item | Fix |
+|---|---|
+| **TO REACH #1** — pin childhood-neglect spine to inline memoir citation | Changed vague "by her account" → **"as she tells it in _Down the Drain_ … The memoir describes her left in the apartment for stretches without food."** The disposability thesis now rests on a checkable source. |
+| **TO REACH #1** — date the Call Her Daddy receipt | **"On _Call Her Daddy_ in February 2022…"** — verified via web search: episode released Feb 2022; the "I set it up, not Kanye" Madonna-dinner substance is corroborated (Daily Beast, W Magazine). |
+| **TO REACH #2** + **NEEDS WORK** (triumphant middle) | Let the Gianna loss **cost more**. It no longer collapses into "a reason to stay clean" — the object/author frame is now named exactly where it breaks: *"no artifact to build, no verdict to reclaim, no version of Gianna's death she gets to author… Some of the grief went into staying clean. The rest of it just stays."* That's the counter-register the arc was missing. |
+| **TO REACH #3** + **NEEDS WORK** (generic line) | Replaced the boilerplate **"Fours build identity out of what makes them singular…"** paragraph (the exact line overlapping oliver-tree) with Fox-specific language — call-sheet interchangeability, recasting, blood-as-paint — while preserving the type's core fear/desire and the `/enneagram-type-4` link. |
+| **TO REACH #4** + **NEEDS WORK** (house tells) | Cut the **"Read it twice"** reader-command; varied one more **"sign"** use ("she signs it before the verdict" → "she claims it"). Kept "Sit with where the hunger comes from" (it pivots the strongest paragraph, the Kanye empathy turn) and the spine at the persona_title + closing death-certificate line. |
+
+**Rejected:** none — every named item was in scope and fixable.
+
+## Verification
+- `blog-lint.sh julia-fox` → **0 fail, 0 warn**
+- Contrast pairs: **0 strong / 0 comparative** (checked directly, since I added parallel constructions)
+- Internal links: **6** (unchanged), ledgers untouched (no headings/testimony/distribution/fingerprint enumerations changed)
+- Did **not** touch `lastmod` or `content_quality`
+
+A short `REVISION PASS NOTES (2026-07-08)` block was appended at the bottom. The pipeline will now strip the old B+ grade and re-grade — I did not grade it myself (that's `/grade_blog`'s job).
+
+**Sources for the date fix:**
+- [Julia Fox on Call Her Daddy (Daily Beast)](https://www.thedailybeast.com/obsessed/julia-fox-calls-kanye-west-her-boyfriend-and-shoots-down-kim-kardashian-comparisons-on-call-her-daddy/)
+- [Kanye West and Julia Fox Head to Dinner with Madonna (W Magazine)](https://www.wmagazine.com/culture/kanye-west-julia-fox-date-night-madonna-antonio-brown)

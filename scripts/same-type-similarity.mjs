@@ -40,6 +40,14 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 const DRAFTS_DIR = path.join(REPO_ROOT, 'src', 'blog', 'people', 'drafts');
 
+function canonicalPath(filePath) {
+	try {
+		return fs.realpathSync.native(filePath);
+	} catch {
+		return path.resolve(filePath);
+	}
+}
+
 // ---------------------------------------------------------------------------
 // CLI
 // ---------------------------------------------------------------------------
@@ -67,7 +75,7 @@ function resolveDraftPath(arg) {
 	];
 	for (const c of candidates) {
 		try {
-			if (fs.statSync(c).isFile()) return c;
+			if (fs.statSync(c).isFile()) return canonicalPath(c);
 		} catch {
 			/* keep looking */
 		}
@@ -328,7 +336,7 @@ const allFiles = fs.readdirSync(DRAFTS_DIR).filter((f) => f.endsWith('.md'));
 const sameType = [];
 for (const f of allFiles) {
 	const full = path.join(DRAFTS_DIR, f);
-	if (path.resolve(full) === path.resolve(targetPath)) continue;
+	if (canonicalPath(full) === targetPath) continue;
 	const raw = fs.readFileSync(full, 'utf8');
 	const { fm } = splitFrontmatter(raw);
 	if (enneagramType(fm) !== targetDraft.type) continue;

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-07T07:09:47Z",
+	"lastUpdated": "2026-07-08T06:59:59Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "julia-fox",
-			"displayName": "Julia Fox",
-			"type": 4,
-			"priority": 49,
-			"priorityReason": "Provocative cultural figure with viral style moments, raw memoir, and a strong Type 4 individualist analysis angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-18",
-			"retryCount": 0,
-			"strategicValue": "downtown-icon-cluster"
-		},
 		{
 			"name": "madelaine-petsch",
 			"displayName": "Madelaine Petsch",
@@ -86,6 +73,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "julia-fox",
+			"displayName": "Julia Fox",
+			"type": 4,
+			"priority": 49,
+			"priorityReason": "Provocative cultural figure with viral style moments, raw memoir, and a strong Type 4 individualist analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "downtown-icon-cluster",
+			"startedAt": "2026-07-08T06:00:00Z",
+			"completedAt": "2026-07-08T06:59:59Z",
+			"contentGrade": "8.5",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~59 min",
+			"needsReview": true
+		},
 		{
 			"name": "oliver-tree",
 			"displayName": "Oliver Tree",

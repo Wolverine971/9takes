@@ -1,0 +1,24 @@
+Second pass complete on **`src/blog/people/drafts/julia-fox.md`**.
+
+## What I changed
+
+**Load-bearing sources (fixed first, wholesale).** The audit flagged 2 untagged + 2 vague quotes; all four are now inline (**3 inline / 0 vague / 0 untagged**):
+- Epigraph → `_Down the Drain_, 2023`
+- Cold-open `"Uncut Gems"` → de-quoted to an italic film title (it was a title, not a sourced quote, but the mechanical audit read it as one)
+- `"Josh always thought of me as a star…"` → attributed to **Interview Magazine, 2019**. This also fixed a factual slip: the draft called it her read "years later," but the quote is contemporaneous with the film.
+- `"an artist in the role of a lifetime, playing Me"` → dated to the 2023 memoir. I verified this is **Fox's own memoir line**, not the Slate critic's phrasing (the working-notes memo was ambiguous on that) — Slate merely quoted it, so the draft's framing was right.
+
+**Substance (both fresh-eyes notes were correct and high-value):**
+- **Gianna** added to the growth section as the first of two ordered catalysts — grief → staying clean, Valentino → structure. Framed as *the one loss she could never turn into art*, which sharpens the object/author thesis and keeps the middle from resolving too neatly. Kept the medium-consulting detail.
+- **Fashion-as-authorship** beat added before the Charli payoff (beach-towel dress, leaf/resin jewelry, condom top, "end-of-the-world fashion" tutorials) — grounds "holding the brush" in her most literal ongoing medium. Closes on "The muse builds the muse."
+
+**Trims:** varied 4 of the "sign" uses (byline / put her name on / publishes / brand), keeping the spine at the title + Insults payoff + closing death-certificate line; and defused the triple gaze-reversal at the close so only the final "a room where no one is looking" lands it (the close now callbacks to the epigraph with "comes back").
+
+**One correction to the fresh-eyes note:** it said Gianna's death "drove Fox to get sober." Sources show she was *already* sober — the death drove her to *stay* clean. I wrote it that way to avoid overstating causation.
+
+## Checks
+- Source audit: **3 inline / 0 vague / 0 untagged**
+- `blog-lint`: **0 fail, 1 warn** — the warn is only "no faqs in frontmatter," which is the later frontmatter-enrich stage, not this pass.
+
+## Still open (may justify an editor pass)
+- I could not source the fresh-eyes claim that Gianna was "with her when she got cast in *Uncut Gems*," so I left it as "the year *Uncut Gems* made her famous" rather than assert co-presence at casting. If you can confirm it, that beat would land even harder.

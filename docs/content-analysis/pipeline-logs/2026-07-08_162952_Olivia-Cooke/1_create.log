@@ -1,0 +1,25 @@
+The Olivia Cooke draft is complete. All six hard gates pass and the deterministic checks are clean (`blog-lint: 0 fail`, contrast pairs 0, similarity clear).
+
+**The read:** Olivia Cooke as an Enneagram Type 6 — the anxious loyalist. The thesis resolves a real contradiction: the breezy, self-deprecating northern actress who "fell into" fame is the same woman who deletes Instagram to survive her own head, refuses to watch the monitor, and asks a trusted script advisor "emotionally, where am I?" She plays women fraying at the seams so well because she's fluent in it. Core tension threaded through a childhood-to-adult line ("look at me, love me" → RADA rejection → imposter tax), an empathy turn on the fame-retreat, and a callback ending on the Alicent-face joke.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Olivia-Cooke.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: none (transcript fetched successfully via youtube-transcript-api; frontmatter `faqs` intentionally deferred to the downstream enrich stage)
+```
+
+**Gate evidence:**
+- **Gate 1 (Testimony):** 4 qualifying quotes — Anya Taylor-Joy ×2 ("I can't slack in the slightest…"; the "symbiotic… hair-tucking"), Cory Finley ×2 ("takes a very extreme character and makes her very, very human"; the "unassisted tears, four times").
+- **Gate 2 (Heading mix):** 6/6 H2s are search-intent or hybrid.
+- **Gate 4 (Anti-imitation):** ending has zero "A [Type]" sentences; hook opens on a fan complaint + her deadpan reply, no object-reveal cadence.
+- **Gate 5 (Distribution):** ~2 type-theory paragraphs outside diagnosis + rabbit hole.
+- **Gate 6 (Formula fingerprint):** 0 strong contrast engines, bespoke role-ledger table, critic-pressure anchor, empathy turn, 2025 current-tense anchor, interior beat, swap-test-pass ending; same-type similarity **clear** (0.04 threshold).
+
+**Internal links (5):** Anya-Taylor-Joy (personality-analysis), Type 6, Enneagram wings, instinctual subtypes, types-in-stress.
+
+Rabbit Hole present (572 words: 6w7 / self-preservation 6 / stress→3, growth→9 / Type 4 & Type 1 counterarguments). Status left at `draft` per non-interactive rules — human review required before `blog_content_production_people`.
+
+Two research notes for review: I attributed the "look at me, love me" childhood line to *The Guardian, 2024* (from a syndicated version of that profile), and I dropped an unverifiable "Robin Wright/moxie" line that surfaced in one fetch since Cooke has no Robin Wright project.

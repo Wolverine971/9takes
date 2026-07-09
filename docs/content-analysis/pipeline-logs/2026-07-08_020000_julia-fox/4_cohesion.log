@@ -1,0 +1,26 @@
+Both fixes applied.
+
+## Cohesion Check Complete: julia-fox.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Julia Fox was never the discovered muse or object — her Type 4 drive makes her the author of her own image, turning her wreckage into signed art to survive a childhood wound of being disposable.
+
+### Changes Made (2 total)
+
+**Internal Flow Fixes (2):**
+- **H2 4 "Why Everyone Thinks Kanye Discovered Julia Fox," fashion paragraph:** Changed the opener from `None of this was luck, and none of it was a stylist` to `Even the looks were hers. Not luck, not a stylist.` The old opener had no antecedent for "this" coming off the emotional Kanye beat that precedes it (the second-pass insertion showed its seam). "Even the looks were hers" bridges from the empathy beat back to the object/author thesis and gives the paragraph a clear referent, while keeping the existing fragment rhythm.
+- **H2 3 "R.I.P. Julia Fox," paragraph 2:** Reworked `a national bestseller assembled entirely from the years most people would spend a lifetime hiding` → `a national bestseller made from the same private wreckage`. Paragraph 1 ended on "the exact material most people spend a lifetime **burying**"; the original paragraph 2 repeated the identical "most people spend a lifetime [verb]-ing" frame one sentence later. The new phrasing removes the echo and uses "the same" to tie the memoir back to the photo books as continuity rather than repetition. No facts dropped.
+
+### What Was Preserved
+- All frontmatter, `production_pretext`, and every ledger/working-note block
+- `lastmod` untouched (DJ-managed)
+- All Svelte/HTML components, internal links, epigraph, TL;DR, pull-quote, scroll-table, Rabbit Hole, and the FRESH EYES / SECOND PASS comment blocks
+- No em-dashes introduced; no banned phrases used
+- The strong seams left alone: cold-open → diagnosis → wound → art → Kanye → insults → celibacy → close, plus the "Trace one habit across her whole life" zoom-out into H2 5 and the obituary callback in H2 7
+
+### Remaining Concerns (writer's judgment, not fixed)
+- **H2 3 → H2 4 seam (art → Kanye)** rates *adequate*, not strong: the Frida line closes the art thread and the next section jumps straight to Kanye's arm with no bridge sentence. I left it deliberately — the intro already primed "Kanye discovered her" as one of the discovery myths, and the search-intent heading picks that thread up at the document level. A bridge sentence at the top of a search-intent H2 would read as bolted-on, which the format warns against. Flagging in case you want to add a one-clause connector.
+- **The middle arc runs uniformly triumphant** (she reclaims everything). The Gianna beat in H2 6 is the one counterweight and the close resists total resolution, so the piece doesn't over-resolve — but if you ever want more friction, H2 6 is where a second note of unresolved loss would go. This is a substance call, outside cohesion's lane.

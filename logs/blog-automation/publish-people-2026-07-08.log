@@ -1,0 +1,21 @@
+Publish **blocked** — no eligible draft could be published.
+
+Auto-select checked 464 candidates and found none publishable. The only draft that clears every editorial and quality gate is the newly created **Julia Fox** draft, but it's blocked solely on missing image files:
+
+```text
+Publish attempt: blocked.
+
+Person: julia-fox (Enneagram Type 4 — "The Muse Who Signs Herself")
+Draft: src/blog/people/drafts/julia-fox.md
+Quality gates: PASS (overall/rubric v2/discoverability/caps/stability/source-audit all clear)
+
+Blockers:
+- missing_full_image      → static/types/4s/julia-fox.webp
+- missing_thumbnail_image → static/types/4s/s-julia-fox.webp
+```
+
+**Why it stopped:** This command owns the release step only — it does not generate images, and I don't bypass the publish gate without your explicit go-ahead. The draft is untouched (`published: false` intact); no partial writes occurred.
+
+**To unblock:** generate the two Type-4 image variants for `julia-fox` (full + `s-` thumbnail, per your manual Canva/`gen-blog-image` pipeline), drop them into `static/types/4s/`, then re-run `/blog_content_publish_people julia-fox`.
+
+Every other unpublished draft in the pool has heavier blockers (stale v1 grades, missing grade-stability deltas, untagged epigraph/cold-open quotes), so none is a shortcut around this. Want me to point one of them at `/grade_blog` to start clearing those, or is the Julia Fox image generation the next step you'd rather take?

@@ -4,12 +4,12 @@ meta_title: "Why Warren Buffett Can Read Markets But Couldn't Read His Wife"
 persona_title: "Omaha's Quiet Fortress"
 description: 'Warren Buffett built the greatest fortune in history by observing from a distance. The same withdrawal that made him billions made him lose what mattered most.'
 author: 'DJ Wayne'
-date: '2026-04-10'
+date: '2026-07-08'
 loc: 'https://9takes.com/personality-analysis/warren-buffett'
-lastmod: '2026-04-10'
+lastmod: '2026-07-08'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['entrepreneur', 'business-operator']
 person: 'warren-buffett'

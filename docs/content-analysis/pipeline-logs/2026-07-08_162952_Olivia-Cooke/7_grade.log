@@ -1,0 +1,23 @@
+Grading complete.
+
+## Grading Complete — Olivia Cooke (single)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Olivia-Cooke | 7 | 7.5 | 8.5 | 8.5 | 8 | 8.5 | **7.9** | **C** |
+
+*(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7` = 55.25/7 = 7.9. Discoverability 8.5 ≥ 7, so the gate did not fire.)*
+
+### Key Observations
+
+- **A high C, held just under B by evidence integrity.** Deterministic checks are clean — 0 contrast pairs, head-term PASS, 59-word answer block, same-type scan CLEAR (max 0.084 vs Tobey-Maguire), 0 untagged quotes in the audited slots. What the 4-slot script *can't* see is the real drag: the café-firing anecdote — the piece's best interior beat — is presented as vivid, named, quoted fact while the pipeline's own SECOND PASS admits the café name and fired-by-text detail are **unverified**. Plus the RADA, script-advisor, and Instagram quotes carry no inline outlet+date where they're used.
+
+- **Genuinely strong where it counts for traffic.** Discoverability (8.5) is the standout — extractable type answer up top, real FAQ schema on five true search questions, complete entity metadata, meta lengths in range. The casting-ledger table and the "paid to locate the exact inner weather of women who cannot locate their own" line are real signature beats, and the Ready Player One fold-back handles the strongest counter-thesis honestly.
+
+- **Calibration note vs. the anchors:** better than Alex-Warren (no monochrome tone, no metronomic closers, critic pressure handled) but below the Matt-Smith B, which *removed* its unverifiable claim — Cooke *retained* its unverifiable claim as the emotional centerpiece. That's the exact hinge keeping it at 7.9 rather than 8.0+.
+
+- **House fingerprint present but mild:** three reader-command imperatives ("Sit with…" is near-verbatim from the julia-fox draft), and an empathy-turn punch ("not fragility. It is triage") that lands on the house `not X, it is [protection]` shape — a near-miss since the setup uses her own wound-vocabulary.
+
+The clearest path to B is entirely in Evidence: source or soften the café anecdote and add inline attribution to the RADA/script-advisor/Instagram quotes. Full feedback (with the concrete TO-REACH-B steps) is written into the file's `content_quality` block and grade comment.
+
+**Total graded this session: 1**

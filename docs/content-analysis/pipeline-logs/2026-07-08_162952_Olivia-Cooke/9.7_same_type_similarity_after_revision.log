@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Olivia-Cooke (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Olivia-Cooke.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 38
+Comparison set (last 8 other Type-6 drafts by date):
+  - morgan-wallen  (2026-07-08, 53 units)
+  - Tobey-Maguire  (2026-07-03, 24 units)
+  - andrew-ross-sorkin  (2026-07-03, 21 units)
+  - keira-knightley  (2026-06-12, 29 units)
+  - john-ternus  (2026-06-05, 18 units)
+  - sean-evans  (2026-06-04, 14 units)
+  - penelope-cruz  (2026-06-02, 83 units)
+  - Greta-Gerwig  (2026-05-30, 24 units)
+
+Noise floor over 10108 unit pairs:  median=0  p90=0  p99=0.006  max=0.084
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.084 ###                  Tobey-Maguire
+  0.082 ###                  penelope-cruz
+  0.048 ##                   sean-evans
+  0.041 ##                   Greta-Gerwig
+  0.034 #                    john-ternus
+  0.034 #                    andrew-ross-sorkin
+  0.030 #                    keira-knightley
+  0.027 #                    morgan-wallen
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.084   Olivia-Cooke  <->  Tobey-Maguire
+   TARGET [diagnosis] and it is why the anxiety alone proves nothing.
+   OTHER  [diagnosis] which is why the gentle everyman reads as Hollywood's default face.
+
+score 0.082   Olivia-Cooke  <->  penelope-cruz
+   TARGET [diagnosis] and bind themselves to the few they decide they can trust.
+   OTHER  [diagnosis] by finding people they can trust more than they trust themselves
+
+score 0.051   Olivia-Cooke  <->  penelope-cruz
+   TARGET [diagnosis] Anxiety by itself is not a personality type.
+   OTHER  [diagnosis] I could hear him — and that was like my safety net." That is not a metaphor.
+
+score 0.050   Olivia-Cooke  <->  penelope-cruz
+   TARGET [diagnosis] Anxiety by itself is not a personality type.
+   OTHER  [diagnosis] and it's hard to change." That is not a celebrity admission designed to humanize an image.
+
+score 0.049   Olivia-Cooke  <->  penelope-cruz
+   TARGET [counter-typing] is what makes the Six call hold.
+   OTHER  [diagnosis] She needs the commitment to exist because the commitment is what makes her safe.
+
+score 0.048   Olivia-Cooke  <->  sean-evans
+   TARGET [counter-typing] is what makes the Six call hold.
+   OTHER  [diagnosis] The 5 wing is what makes him a researcher first and an entertainer second.
+
+score 0.041   Olivia-Cooke  <->  Greta-Gerwig
+   TARGET [counter-typing] A Four withdraws into a private world
+   OTHER  [counter-typing] a Four cultivates difference as identity
+
+score 0.035   Olivia-Cooke  <->  Tobey-Maguire
+   TARGET [counter-typing] A Four withdraws into a private world
+   OTHER  [counter-typing] A true Five conserves and withdraws into self-sufficiency
+
+score 0.034   Olivia-Cooke  <->  john-ternus
+   TARGET [diagnosis] and it is why the anxiety alone proves nothing.
+   OTHER  [diagnosis] and it is the entire reason Apple's leadership trusted him with the Apple Silicon transition — the move that reinvented the Mac and removed Intel from 40 years of product history.
+
+score 0.034   Olivia-Cooke  <->  andrew-ross-sorkin
+   TARGET [diagnosis] the ferocious loyalty to a chosen few
+   OTHER  [diagnosis] loyalty to institutions that have proven reliable
+
+score 0.032   Olivia-Cooke  <->  Greta-Gerwig
+   TARGET [counter-typing] A Four withdraws into a private world
+   OTHER  [diagnosis] not a Four cultivating one that feels specially deep.
+
+score 0.031   Olivia-Cooke  <->  Greta-Gerwig
+   TARGET [counter-typing] A Four's darkness runs on longing for what they lack.
+   OTHER  [counter-typing] a Four cultivates difference as identity
+
+------------------------------------------------------------------------------
+Top pair scores 0.084 vs median 0  (~∞x the noise floor).

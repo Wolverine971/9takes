@@ -1,0 +1,23 @@
+Second pass complete on **`src/blog/people/drafts/Olivia-Cooke.md`**.
+
+## What I changed
+
+**Source traceability (priority 1).** The audit flagged 4 untagged + 1 vague load-bearing quote, including the whole cold open. After the pass: **0 untagged, cold open now clean**, epigraph inline, one vague quote in diagnosis (year present, so not untagged). Key fixes:
+- The hook line ("that's just what my face does when I'm in distress") is a real video-junket quip but is **untraceable to any outlet** — I converted it to reported speech, keeping the frame and the "worried face was never a costume" payoff intact.
+- Tagged the breakdown quotes to **Sunday Times 2025** ("tortured from within," "I don't want to be here any more") and the repression quote to **Hollywood Reporter 2025**.
+
+**Fresh-eyes notes I acted on:**
+- **Ready Player One** handled as pressure, not omission — a fold-back paragraph after the role table (Art3mis is the confident hero who still hides her real face behind an avatar, sure a birthmark makes her unlovable). Neutralizes the strongest counter to the thesis.
+- **Growth arc now has an engine** — rebuilt the ending on the verified Telegraph 2025 quote ("lots of therapy… 'Olivia, just rest'") and named the stable relationship (Ralph Davis). Seeded the same evidence into the rabbit-hole Type-9 arrow, which was previously just asserted.
+- **Added Me and Earl and the Dying Girl** (Sundance 2015 breakout, shaved head) to the rise section, fixing the gap of narrating her rise without her breakout.
+- **Trimmed the recycled darkest quotes** so the anxiety section owns them.
+
+**Research contradicted the draft in two places, which I corrected:**
+- **"so vain, so shallow"** was misframed. Verified context: she said it about wanting the blonde Rhaenyra *wig* (Happy Sad Confused podcast, 2022), **not** her ambitions. Cut from both spots; replaced with verified "huge impostor syndrome."
+- The diagnosis's unverifiable "unburdened by my appearance" quote → verified method-acting self-protection material ("method acting is for men usually," Who What Wear 2025), same Type 6 point.
+
+**Lint:** 0 fail (no em-dashes, no banned phrases, 5 internal links). One warn — `no faqs in frontmatter` — which is the downstream frontmatter-enrich stage, not this pass.
+
+## Still open (worth an editor's eye)
+- The diagnosis anchor classifies "vague" because *Who What Wear* isn't on the audit's recognized-outlet list (the citation is real and dated). Fine to ship; swappable if a recognized-outlet craft quote surfaces.
+- I left the café-firing detail and the RADA "vocally unprepared" verbatims in place — research couldn't confirm or disprove them, they're the draft's best interior beat / substance is verified, and gutting them was out of scope. An editor pass could pressure-test those against the paywalled i-D interview.

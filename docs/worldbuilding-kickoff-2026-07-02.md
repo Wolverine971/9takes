@@ -8,8 +8,8 @@
 
 Run Caleb Ralston's "7 Elements of Worldbuilding" (Named Concepts, Re-defined Terms, Weaknesses, Characters & Settings, Interests & Values, Lore & Legends, Common Enemy) against 9takes, following the template and worked example:
 
-- **Template (how to run it):** `/Users/djwayne/buildos-platform/docs/marketing/brand/worldbuilding/WORLDBUILDING_TEMPLATE.md`
-- **Worked example (quality bar):** `/Users/djwayne/buildos-platform/docs/marketing/brand/worldbuilding/BUILDOS_WORLDBUILDING_MAP.md`
+- **Template (how to run it):** `docs/worldbuilding/WORLDBUILDING_TEMPLATE.md`
+- **Worked example (quality bar):** `docs/worldbuilding/reference-buildos/BUILDOS_WORLDBUILDING_MAP.md`
 - **DJ's founder context (canonical, cross-project — includes the Sensitive Index whose internal-only rulings apply here too):** `/Users/djwayne/buildos-platform/docs/marketing/social-media/FOUNDER_DEEP_CONTEXT.md`
 
 ## Seed notes (from DJ, 7/02)
@@ -23,3 +23,13 @@ Run Caleb Ralston's "7 Elements of Worldbuilding" (Named Concepts, Re-defined Te
 ## Output expected
 
 `docs/worldbuilding/9TAKES_WORLDBUILDING_MAP.md` in this repo (+ archetype maps for 2–3 key personas + a content queue), same structure as the BuildOS example.
+
+## Pulled into this repo 2026-07-08
+
+- `docs/worldbuilding/WORLDBUILDING_TEMPLATE.md`
+- `docs/worldbuilding/reference-buildos/`
+- `docs/worldbuilding/9TAKES_WORLDBUILDING_MAP.md`
+- `docs/worldbuilding/ARCHETYPE_CONFLICT_POSTER.md`
+- `docs/worldbuilding/ARCHETYPE_PERSONALITY_ANALYSIS_READER.md`
+- `docs/worldbuilding/ARCHETYPE_SOCIAL_NAVIGATOR.md`
+- `docs/worldbuilding/content-queue/`

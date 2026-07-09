@@ -1,0 +1,37 @@
+Frontmatter parses cleanly and all fields are correct.
+
+```
+Frontmatter enrichment complete: Olivia-Cooke
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Olivia_Cooke — verified correct, left untouched)
+
+Verified identifiers:
+- Wikidata QID: Q15069963
+- IMDb ID: nm4972453 — cross-checked against Wikidata P345 (confirmed match)
+- birth_date 1993-12-27, birth_place Oldham (P569/P19), UK citizenship (P27)
+
+FAQs generated (5):
+1. What is Olivia Cooke's personality type? → #what-is-olivia-cookes-personality-type
+2. Why does Olivia Cooke still feel like she doesn't belong? → #why-olivia-cooke-still-feels-like-she-doesnt-belong
+3. Why did Olivia Cooke delete her Instagram? → #why-olivia-cooke-deleted-her-instagram
+4. What kind of roles does Olivia Cooke keep choosing? → #the-roles-olivia-cooke-keeps-choosing
+5. Did Olivia Cooke struggle with anxiety? → #olivia-cookes-anxiety-and-the-years-she-felt-tortured-from-within
+
+All FAQ anchors match existing H2 slugs in the body; answers summarize the actual analysis (no invented facts).
+
+Issues:
+- The body contains ZERO inline external URLs — only internal 9takes links and sources named-but-unlinked (Guardian 2024, Telegraph 2025, Sunday Times 2025, Who What Wear 2025, Hollywood Reporter 2025). Rather than leave citations empty or fabricate them, I recovered and verified real URLs for the sources the body explicitly quotes: the Hollywood Reporter 2025 feature and the Who What Wear UK Autumn 2025 cover, plus the Wikipedia biographical page. The Guardian article (theguardian.com) is blocked from the fetch crawler, so I did not include a Guardian URL rather than guess. Content-quality flag: the writer should ideally hyperlink these named sources inline in the body.
+- same_as has 3 entries (Wikipedia, Wikidata, IMDb) — within the 3–6 range; no additional authoritative entity pages (Britannica/museum/etc.) apply for a working contemporary actor.
+- No em-dashes introduced; `lastmod` untouched; body and all HTML comment blocks left read-only.
+```
+
+Sources used for research:
+- [Olivia Cooke — Wikidata (Q15069963)](https://www.wikidata.org/wiki/Q15069963)
+- [Olivia Cooke — IMDb (nm4972453)](https://www.imdb.com/name/nm4972453/)
+- [Olivia Cooke — Wikipedia](https://en.wikipedia.org/wiki/Olivia_Cooke)
+- [The Hollywood Reporter, 2025](https://www.hollywoodreporter.com/tv/tv-features/olivia-cooke-interview-the-girlfriend-house-of-the-dragon-1236352849/)
+- [Who What Wear UK, Autumn 2025](https://www.whowhatwear.com/fashion/cover-features/olivia-cooke)

@@ -63,16 +63,16 @@ faqs:
     answer: "Zendaya is an Enneagram Type 6 (The Loyal Skeptic). The pattern shows in repeating kindergarten because anxiety made her too shy to function, negotiating producing credits on K.C. Undercover at 17 to control her Disney exit, walking away from a platinum music career over bad contracts, keeping the same stylist since age 14, and diversifying into Dune, Challengers, and five other projects so a collapse of Euphoria couldn't collapse her career."
     anchor: 'what-is-zendayas-personality-type'
   - question: 'Why did Zendaya quit music?'
-    answer: "Despite a platinum single ('Replay'), she walked away: 'I stepped away from music on purpose because of bad contracts, to be honest with you.' She also calculated that pop stardom costs the anonymity acting allows — 'As an actor, there's a level of anonymity that I get to have, which I really like.' The essay frames it not as quitting but strategic withdrawal; she didn't perform live again for eight years, until one song with Labrinth at Coachella in 2023."
+    answer: "Despite a platinum single ('Replay'), she walked away: 'I stepped away from music on purpose because of bad contracts, to be honest with you.' She also calculated that pop stardom costs the anonymity acting allows: 'As an actor, there's a level of anonymity that I get to have, which I really like.' She kept singing on her own terms (in The Greatest Showman, then one song with Labrinth at Coachella in 2023), but never chased the pop-star machine again."
     anchor: 'the-music-pivot-when-a-type-6-cuts-her-losses'
   - question: "What is Zendaya's method dressing?"
-    answer: "A practice she invented with stylist Law Roach: fashion as an extension of her film roles, every outfit researched and intentional. For the Dune: Part Two tour they bought archival pieces outright — 'We don't borrow, we buy' — including a 1995 Mugler robot suit. She made over 50 red carpet appearances in 2024, each one researched, curated, and controlled, including changing into a second custom gown mid-Met Gala."
+    answer: "A practice she invented with stylist Law Roach: fashion as an extension of her film roles, every outfit researched and intentional. For the Dune: Part Two tour they bought archival pieces outright ('We don't borrow, we buy'), including a 1995 Mugler robot suit. She made over 50 red carpet appearances in 2024, each one researched, curated, and controlled, including changing into a second custom gown mid-Met Gala."
     anchor: 'method-dressing-how-zendaya-turns-fashion-into-type-6-armor'
   - question: 'Why did Zendaya repeat kindergarten?'
-    answer: "Not for academics — her parents, both teachers, held her back because she was so shy and anxious in new situations that they wanted to build her confidence. 'I was described as energetic and outgoing at home but reserved and shy at school,' she has said. Childhood tests made her panic so badly a teacher had to walk her out of the room, and that anxiety still followed her to a 2024 Variety interview."
+    answer: "Not for academics. Her parents, both teachers, held her back because she was so shy and anxious in new situations that they wanted to build her confidence. 'I was described as energetic and outgoing at home but reserved and shy at school,' she has said. Childhood tests made her panic so badly a teacher had to walk her out of the room, and that anxiety still followed her to a 2024 Variety interview."
     anchor: 'the-oakland-foundation-where-her-type-6-patterns-formed'
   - question: 'Are Zendaya and Tom Holland engaged?'
-    answer: "Yes — they got engaged between Christmas and New Year's 2024, after more than three years together. The relationship runs on boundaries she needs: he doesn't walk her red carpets ('It's not my moment, it's her moment'), and when he deleted social media for his mental health, she later unfollowed everyone on Instagram. They're set to appear together in Spider-Man: Brand New Day and Christopher Nolan's The Odyssey."
+    answer: "Yes. They got engaged between Christmas and New Year's 2024, after more than three years together. The relationship runs on boundaries she needs: he doesn't walk her red carpets ('It's not my moment, it's her moment'), and when he deleted social media for his mental health, she later unfollowed everyone on Instagram. They're set to appear together in Spider-Man: Brand New Day and Christopher Nolan's The Odyssey."
     anchor: 'the-tom-holland-dynamic-when-two-types-find-security-in-each-other'
 twitter: ''
 instagram: ''
@@ -118,7 +118,7 @@ Most celebrities hide this. She weaponizes it.
 
 <div class="quick-answer">
 
-**Quick Answer:** Zendaya is an [Enneagram Type 6](/enneagram-corner/enneagram-type-6)—"The Loyal Skeptic." Her groundedness despite fame, strategic career moves, and open discussion of anxiety all stem from the same source: Type 6s need security and prepare meticulously for threats. She's not just "different" from other celebrities, she's operating from a fundamentally different psychological playbook.
+**Quick Answer:** Zendaya is an [Enneagram Type 6](/enneagram-corner/enneagram-type-6), "The Loyal Skeptic." Her groundedness despite fame, strategic career moves, and open discussion of anxiety all stem from the same source: Type 6s need security and prepare hard for threats. She's not just "different" from other celebrities, she's operating from a fundamentally different psychological playbook.
 
 </div>
 
@@ -126,8 +126,8 @@ Most celebrities hide this. She weaponizes it.
 <summary class="accordion">TL;DR: Why Zendaya is an Enneagram Type 6</summary>
 <div class="panel">
 <ul>
-<li><b>Security through preparation:</b> Every career move is calculated. She didn't jump from Disney—she produced K.C. Undercover as a deliberate bridge. She walked away from a platinum music single because the contracts and exposure weren't worth the risk. She researched Rue's psychology more than any actor Sam Levinson had worked with.</li>
-<li><b>Anxiety as operating system:</b> She's openly discussed her anxiety since childhood. But instead of paralysis, she channels it into meticulous preparation—arriving at every role, every red carpet, every interview over-prepared. When Euphoria faced years of delays, she diversified into Dune, Challengers, and five other projects.</li>
+<li><b>Security through preparation:</b> Every career move is calculated. She didn't jump from Disney; she produced K.C. Undercover as a deliberate bridge. She walked away from a platinum music single because the contracts and exposure weren't worth the risk. She researched Rue's psychology more than any actor Sam Levinson had worked with.</li>
+<li><b>Anxiety as operating system:</b> She's openly discussed her anxiety since childhood. But instead of paralysis, she channels it into preparation, arriving at every role, every red carpet, every interview over-prepared. When Euphoria faced years of delays, she diversified into Dune, Challengers, and five other projects.</li>
 <li><b>Loyalty that borders on unusual:</b> Same stylist since age 14. Same core team. Same family-first values. In an industry that churns through relationships, her consistency is almost defiant.</li>
 <li><b>Skepticism of the machine:</b> She calls herself "Hollywood's acceptable version of a Black girl" and acknowledges her privilege openly. She questions industry norms, refuses to play the fame game, and maintains boundaries that most stars her age abandon for clout.</li>
 <li><b>Control as comfort:</b> "I need to be able to have that say." From fashion choices to career trajectory to her fiercely protected relationship, Zendaya needs the steering wheel. She's building a producing empire so she'll still have power even when she's no longer the obvious casting choice.</li>
@@ -173,7 +173,7 @@ Notice the pattern: structured environments. Clear expectations. Time to prepare
 
 Most Disney kids crash. The tabloid graveyard is full of them.
 
-Compare the trajectories. Miley Cyrus went through a very public "Can't Be Tamed" phase—shock imagery, provocative performances, a deliberate demolition of her Hannah Montana image. Selena Gomez has been open about her struggles, telling the New York Times: "I was still under Hollywood and Disney and I was being held to this expectation of being the good girl... I was forced to get very uncomfortable for a while."
+Compare the trajectories. Miley Cyrus went through a very public "Can't Be Tamed" phase: shock imagery, provocative performances, a deliberate demolition of her Hannah Montana image. Selena Gomez has been open about her struggles, telling the New York Times: "I was still under Hollywood and Disney and I was being held to this expectation of being the good girl... I was forced to get very uncomfortable for a while."
 
 Both eventually found their footing. But both went through messy, public transitions that risked everything.
 
@@ -187,7 +187,7 @@ Her next project? "K.C. Undercover", which she didn't just star in, she produced
 
 When she took the role of Rue in "Euphoria," the decision wasn't impulsive. Director Sam Levinson noted that she "asked more questions about the character's psychology than anyone I've worked with."
 
-That's not perfectionism. That's Type 6 threat assessment: _What am I signing up for? What could go wrong? How do I prepare for every scenario?_
+That's Type 6 threat assessment in its purest form: _What am I signing up for? What could go wrong? How do I prepare for every scenario?_
 
 The result? Two Emmy wins before turning 27. The youngest two-time winner in the Outstanding Lead Actress category.
 
@@ -209,9 +209,9 @@ Music artists are their brand. Their face is the product 24/7. For someone who n
 
 "When you put music and business together, sometimes it cannot feel so good," she explained.
 
-She didn't fail at music. She calculated the cost (control, privacy, constant exposure) and determined it wasn't worth it. That's not quitting. That's strategic withdrawal.
+She didn't fail at music. She priced out what pop stardom would cost her, control, privacy, constant exposure, and decided it wasn't worth paying. That's strategic withdrawal dressed up as a career detour.
 
-In 2023, she made her first live performance in eight years, joining Labrinth at Coachella. On her terms. For one song. And only because she'd already won the other game.
+And she never fully put the mic down. She moved singing inside the roles she controls. In 2017 she recorded "Rewrite the Stars" with Zac Efron for The Greatest Showman, training on a trapeze to do her own aerial work, singing on a blockbuster soundtrack instead of fronting a tour. Her first real live performance in roughly eight years didn't come until 2023, when she surprised the Coachella crowd during Labrinth's set. On her terms. For one song. And only because she'd already won the other game.
 
 ## 2024: When Zendaya Stopped Hiding Her Anxiety
 
@@ -229,7 +229,7 @@ This is Type 6 growth in real-time.
 
 She's not ashamed of the anxiety anymore. She's naming it. Managing it. Using it.
 
-Her therapist, family, and friends tell her to get up and get out. She never wants to—"but when I make myself do it, I realize it's actually kind of nice. I'm less anxious."
+Her therapist, family, and friends tell her to get up and get out. She never wants to, but "when I make myself do it, I realize it's actually kind of nice. I'm less anxious."
 
 The control freak is learning that some security comes from surrendering control.
 
@@ -291,6 +291,8 @@ For the Challengers press tour, she leaned into tennis iconography. Vintage athl
 
 Over 50 red carpet appearances in 2024. Every single one researched, curated, and controlled.
 
+The industry made it official back in 2021. At 25, Zendaya became the youngest person ever to receive the CFDA Fashion Icon Award, an honor previously handed to Rihanna, Beyoncé, and Naomi Campbell. She earned it the way she earns everything, by treating each outfit as a problem solved before anyone else even saw the answer.
+
 ## The Tom Holland Dynamic: When Two Types Find Security in Each Other
 
 She's been with [Tom Holland](/personality-analysis/tom-holland) for over three years now. They got engaged between Christmas and New Year's 2024.
@@ -303,17 +305,9 @@ He doesn't walk her red carpets.
 
 For someone who compartmentalizes work and personal life, who builds security through clear boundaries, this is everything.
 
-But relationships work both ways. What does she bring to him?
+But it runs both ways. Zendaya has described what he gives her: "I'm more shy and kind of quiet, so it takes a little bit more to pull me out of my shell. But he's great at just talking to people and getting to know people." He's the charisma; she's the quiet. Both value loyalty, and both deliver it.
 
-Zendaya described it herself: "I think someone who has beautiful charisma, works for me, is Mr. Tom Holland. I'm more shy and kind of quiet, so it takes a little bit more to pull me out of my shell. But he's great at just talking to people and getting to know people."
-
-He's the extrovert. She's the introvert. He pulls her out of her shell. She gives him a soft space to fall. Both value loyalty. Both deliver it.
-
-When he deleted social media for his mental health in 2022, she unfollowed everyone on Instagram in January 2024. "Being on [social media] would kind of make me anxious," she's said. They understand each other's need for boundaries.
-
-He's also openly denied breakup rumors when she unfollowed everyone. Quick response. Clear communication. No ambiguity.
-
-Type 6s hate ambiguity. They need to know where they stand.
+When he deleted social media for his mental health in 2022, she unfollowed everyone on Instagram in January 2024. "Being on [social media] would kind of make me anxious," she's said. When that move sparked breakup rumors, he shut them down fast. Type 6s hate ambiguity, and this relationship runs on the opposite: clear boundaries, clear answers, no guessing.
 
 When asked about the future, Holland said: "When I have kids, you will not see me in movies anymore. Golf and dad. And I will just disappear off the face of the Earth."
 
@@ -329,17 +323,17 @@ The symbolism isn't lost. Athena is the patron deity of heroes. She doesn't figh
 
 **Spider-Man: Brand New Day** (2026): She's reprising MJ opposite Holland. The couple will spend much of 2025 filming together in Morocco, Greece, Italy, Iceland, and Scotland.
 
-Despite delivering critically acclaimed performances in both Dune: Part Two and Challengers, she was snubbed from Oscar nominations in 2025. For a Type 6, that kind of institutional rejection stings, but also confirms the skepticism about the machine.
+Despite critically acclaimed performances in both Dune: Part Two and Challengers, the 2025 Oscars passed her over completely. Challengers was shut out of every category, including the Trent Reznor and Atticus Ross score that had just won at the Golden Globes. Dune: Part Two collected five nominations, none for acting. She earned a Golden Globe nod for Challengers, lost to Demi Moore, and skipped the Oscars entirely. Critics and fans called it a snub. For a Type 6, institutional rejection stings, and it also confirms the suspicion she's carried since the bad music contracts: the gatekeepers were never the thing worth relying on.
 
-**Euphoria Season 3** finally began production in February 2025 after four years between seasons. The show went through cancellation rumors, cast departures (Barbie Ferreira, Storm Reid), and creative disagreements over Sam Levinson's proposed five-year time jump and wild storylines like Rue becoming a private investigator.
+**Euphoria Season 3** is the puzzle in her portfolio. The show lost cast between seasons (Barbie Ferreira left in 2022, saying she wanted different kinds of roles), absorbed the death of Angus Cloud in 2023, and went roughly four years between installments as strikes, scheduling, and creator Sam Levinson's rewrite-heavy process, well documented in the trades, kept pushing it back. Season 3 finally started filming in February 2025 and premiered in April 2026.
 
-How does a Type 6 handle being attached to something this unpredictable?
+Here's the Type 6 tension the show exposes. Everything else about Zendaya says minimize exposure, avoid the unpredictable. Yet she stayed bolted to the least predictable production in prestige TV, as both its star and an executive producer. Why stay?
 
-By diversifying. By the time Euphoria Season 3 started filming, Zendaya had Dune, Challengers, The Odyssey, Spider-Man 4, and the Ronnie Spector biopic locked down. If Euphoria collapsed entirely, her career wouldn't.
+Because Rue is the role that won her two Emmys and the one she's said she feels responsible to, having built it for people in recovery who recognize themselves in it. For a Type 6, loyalty isn't only about safety. It's about refusing to abandon the thing that proved trustworthy when it counted, even when staying looks reckless from the outside.
+
+And she hedged anyway. By the time Season 3 rolled, Zendaya had Dune, Challengers, The Odyssey, Spider-Man, and the Ronnie Spector biopic lined up. If Euphoria had collapsed entirely, her career wouldn't have.
 
 That's not pessimism. That's risk management.
-
-She's still moving forward. Still preparing. Still building.
 
 ## The Breadwinner Weight: Type 6 Responsibility in Action
 
@@ -357,23 +351,21 @@ No wonder she developed such sophisticated threat-assessment systems. No wonder 
 
 The stakes were never just about her.
 
-This weight still shows up in her career choices today. She doesn't take unnecessary risks. She doesn't experiment publicly the way other stars her age do. Every move is calculated because she learned early that her success wasn't just personal—it was the family business.
+This weight still shows up in her career choices today. She doesn't take unnecessary risks. She doesn't experiment publicly the way other stars her age do. Every move is calculated because she learned early that her career was the family business, with everyone's livelihood riding on it.
 
 The breadwinner doesn't get to fail casually. Every project needs to work.
 
-## The Loyalty Patterns: 10+ Years With the Same Team
+## The Loyalty Test: When Her Stylist Quit Everyone But Her
 
-In Hollywood, people cycle through teams faster than they cycle through partners.
+In Hollywood, people cycle through teams faster than they cycle through partners. Zendaya has worked with the same stylist, Law Roach, since she was 14.
 
-Zendaya has worked with Law Roach since she was 14.
+Then in March 2023, Roach detonated his own career. A viral moment at a Louis Vuitton show in Paris had fed rumors of a rift between them, and days later he announced he was retiring as a celebrity stylist. "My Cup is empty," he wrote. "The politics, the lies and false narratives finally got me! You win… I'm out."
 
-He dedicated his book, "How to Build a Fashion Icon," to her: "My muse, my little sister, one of my biggest advocates."
+He walked away from every client in the world except one. Zendaya killed the feud rumors herself: "So y'all really think I'm breaking up with Z… we are forever!" Roach kept dressing her, and only her, straight through the Dune: Part Two and Challengers press tours, the most acclaimed styling runs of either of their careers. He didn't take on another outside client until 2025. Through all of it, she stayed his one constant.
 
-They call each other "fashion soulmates." They describe their relationship as "big ideas, small details."
+"She's my little sister and it's real love not the fake industry love," he said.
 
-This isn't just professional loyalty. It's Type 6 security building. When you find someone trustworthy, you hold on. You don't take risks on unknowns when you've already done the work of finding reliable people.
-
-Same core team. Same family involvement. Same deliberate, long-term approach to everything.
+This is what Type 6 loyalty actually looks like. When you find the rare person who's proven trustworthy, you don't trade them for a shinier option when the pressure spikes. You build a fortress around the relationship. In a business that runs on disposable alliances, keeping the same partner for over a decade, through his very public burnout, is almost defiant.
 
 ## "Hollywood's Acceptable Version of a Black Girl": Type 6 Honesty About Power
 
@@ -387,7 +379,11 @@ Most celebrities in her position would quietly benefit from their proximity to w
 
 For someone skeptical of authority and institutions, being positioned as an authority figure herself creates tension. She handles it by being transparent about her privilege rather than pretending it doesn't exist.
 
-Her response? Use the access to open doors.
+She's been meeting these moments with the same prepared control since she was a teenager. At the 2015 Oscars, an 18-year-old Zendaya wore faux locs. The next night on E!'s Fashion Police, host Giuliana Rancic joked that Zendaya's hair looked like it "smells like patchouli oil… or weed." Zendaya didn't fire back in the heat of it. She wrote a statement, argued and specific: "To say that an 18-year-old young woman with locs must smell of patchouli oil or 'weed' is not only a large stereotype but outrageously offensive." Rancic apologized on air within a day.
+
+That's the Type 6 move. A prepared, argued statement, delivered a beat late and ice cold, that left no room to argue back. She turned being disrespected into a case she couldn't lose.
+
+Her response to the bigger problem? Use the access to open doors.
 
 She tells her theatrical manager: "Anytime it says they're looking for white girls, send me out. Let me get in the room. Maybe they'll change their minds."
 
@@ -405,7 +401,7 @@ But what's she built since?
 
 Challengers (2024) listed her as executive producer alongside Luca Guadagnino, Amy Pascal, and Rachel O'Connor. She wasn't just the face of the film. She had skin in the game.
 
-_Be My Baby_, the Ronnie Spector biopic with A24 and New Regency, will feature her as both star and producer. She's playing the frontwoman of the Ronettes and shaping how the story gets told.
+_Be My Baby_, the Ronnie Spector biopic now set up at A24 with Barry Jenkins directing, has her attached as both star and producer. Spector, the frontwoman of the Ronettes, personally picked Zendaya to play her before she died in 2022. It's still in development, but it's another story Zendaya gets to shape from the inside.
 
 Industry rumors suggest she's in talks to launch her own production company, building infrastructure for projects she controls from development through distribution.
 
@@ -441,9 +437,7 @@ Type 6s at their best don't stop scanning for threats. They get better at assess
 
 And sometimes, they end up playing the goddess of wisdom and strategy in a Christopher Nolan epic.
 
-The kid who repeated kindergarten because she was too anxious to function in a classroom is now the person Christopher Nolan calls when he needs someone to carry a film. She didn't stop scanning for threats. She just got better at deciding which ones were worth running from — and which were worth running toward.
-
-That's not overcoming Type 6 tendencies. That's perfecting them.
+The kid who repeated kindergarten because she was too anxious to function in a classroom is now the person Christopher Nolan calls when he needs someone to carry a film. She never stopped scanning for threats. She just got better at deciding which ones were worth running from, and which were worth running toward.
 
 > **Disclaimer:** This analysis of Zendaya's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Zendaya.
 
@@ -500,5 +494,45 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 1. Cut the editor-block (lines 41-56) and execute its actual recommendation — drop the closing summary line ("That's not overcoming Type 6 tendencies. That's perfecting them.") and end on the Christopher Nolan / kindergarten callback paragraph.
 2. Trim the Tom Holland section by 20% as the editor block already prescribed. The current section repeats the "he's the extrovert / she's the introvert" framing three different ways.
 3. Engage the Euphoria-as-liability question. The piece spends two paragraphs on Euphoria delays as if they confirm her risk management, but never asks why she remains attached. That's the Type-6 question worth answering.
+
+============================================================ -->
+
+<!-- ============================================================
+READER COLD-READ — 2026-07-08 (normal-fan reaction, not a rubric)
+============================================================
+
+I read this as someone who likes Zendaya and knows the broad strokes. Where my attention actually went:
+
+WHAT WORKED (kept me reading):
+- The anxiety-as-operating-system idea is a real thesis, not a gimmick, and it holds up section to section. Rare for a celebrity-typing post.
+- The Miley/Selena comparison is fair — named outcomes, not a strawman. I believed it.
+- "Method dressing as armor" reframed something I thought I understood. That's the good stuff.
+- The breadwinner weight landed. It's the one place the piece felt like it was about a person, not a type.
+
+WHAT A FAN WILL NOTICE IS MISSING (these are the real gaps):
+1. THE GIULIANA RANCIC / "SMELLS LIKE PATCHOULI OR WEED" HAIR MOMENT (2015 Oscars). This is THE Zendaya-and-race moment everyone remembers, and she handled it with a calm, prepared, surgical statement at eighteen. It is the single best real-world proof of the "controlled response" thesis, and the "acceptable version of a Black girl" section reads incomplete without it. Biggest miss in the piece.
+2. LAW ROACH RETIRING FROM EVERYONE BUT HER (2023). The "10+ Years With the Same Team" section is the flattest in the article AND it omits the best loyalty story available: he quit styling the entire world and kept only Zendaya. That's not filler-chapter material, that's the headline. Fix the section by telling the actual story.
+3. WHY SHE STAYS WITH EUPHORIA. The piece uses Euphoria's chaos (delays, cast exits, Angus Cloud's death, Levinson's reputation) to praise her diversification, but never asks the more interesting question a fan is already asking: why stay loyal to a show that keeps looking like a liability? That's the juiciest Type-6 puzzle here and it's dodged.
+4. GREATEST SHOWMAN. The music section says she vanished from music for eight years but skips that she sang "Rewrite the Stars" (and did her own trapeze) in a 2017 blockbuster. She didn't quit performing, she moved it inside film where she keeps control. That nuance strengthens the thesis.
+5. THE OSCAR SNUB gets one sentence. If you're going to raise it, take a side.
+
+WHAT FELT OVERDONE / REPEATED (trim these):
+- The open tells me she's a Type 6 four times before the story starts: cold open, Quick Answer box, the H2, then the TL;DR. I got it by the second one.
+- The "That's not X. That's Y." move appears at least four times ("not quitting / strategic withdrawal," "not pessimism / risk management," "not perfectionism / threat assessment," "not overcoming / perfecting them"). First time = sharp. Fourth time = tic. Keep one, ideally the risk-management one.
+- Tom Holland section makes the extrovert-pulls-out-introvert point three separate ways. Say it once.
+- The closing paragraph wraps up a beat too neatly. The Nolan/kindergarten callback right before it is the better ending.
+
+NET: strong piece, top quartile for the genre. It doesn't need a rewrite — it needs the two missing real-world scenes (Rancic, Roach's retirement) that a fan is actively waiting for, one honest paragraph on the Euphoria loyalty puzzle, and a haircut on the front-loaded thesis and the contrast-pair tic. Doing that trades filler for the exact material that makes people trust the read.
+
+ADDRESSED same session (2026-07-08), research-verified before writing:
+- ADDED the 2015 Giuliana Rancic "patchouli oil / weed" Fashion Police scene to the race section, with her exact response quote — the missing proof of the controlled-response thesis.
+- REPLACED the flat "10+ Years With the Same Team" section with the actual Law Roach March-2023 retirement story (he quit every client but her; "we are forever"; kept styling only her through the Dune 2 + Challengers tours). Loyalty is now shown, not asserted.
+- REWROTE the Euphoria beat to engage the loyalty puzzle head-on (why a risk-minimizer stays bolted to prestige TV's least predictable show: Rue, two Emmys, executive-producer stake, responsibility to people in recovery). Currency corrected: S3 premiered April 2026; Angus Cloud's 2023 death and Barbie Ferreira's exit added with attributed, non-defamatory framing.
+- EXPANDED the one-line Oscar snub into the real story (Challengers shut out entirely; Dune 2 five noms, none acting; Golden Globe nom, lost to Demi Moore; skipped the ceremony).
+- ADDED Greatest Showman to the music section, precisely framed (a recorded 2017 duet, not a live show; Coachella 2023 remained her first LIVE performance in ~8 years). Added the CFDA Fashion Icon Award (2021, youngest ever) to method dressing.
+- UPDATED Be My Baby to current facts (A24, Barry Jenkins, in development, Ronnie Spector hand-picked her).
+- TRIMMED the Tom Holland section (extrovert/introvert point was made three ways; now once).
+- CUT the tidy closing line ("That's not overcoming Type 6 tendencies. That's perfecting them."); the piece now ends on the kindergarten/Nolan callback.
+- KILLED all 7 rendered em-dashes (lint gate now green) and cut the contrast-pair tic from ~4 instances to one deliberate use ("That's not pessimism. That's risk management."). Remaining lint FAILs (production_pretext, ledgers, rabbit-hole block, meta_title 66ch) are pre-existing creator-v2 scaffolding this older A-grade draft predates — left for a separate structural pass.
 
 ============================================================ -->

@@ -1,0 +1,15 @@
+{
+	"person": "Olivia-Cooke",
+	"draft_path": "src/blog/people/drafts/Olivia-Cooke.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-08_162952_Olivia-Cooke",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 7.9,
+	"final_overall": 8.3,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.40000000000000036,
+	"has_stage_warnings": false,
+	"generated_at": "2026-07-08T21:57:16.426Z"
+}

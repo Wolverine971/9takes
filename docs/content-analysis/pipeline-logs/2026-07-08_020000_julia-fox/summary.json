@@ -1,0 +1,15 @@
+{
+	"person": "julia-fox",
+	"draft_path": "src/blog/people/drafts/julia-fox.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-08_020000_julia-fox",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.5,
+	"final_overall": 8.5,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0,
+	"has_stage_warnings": true,
+	"generated_at": "2026-07-08T06:59:59.700Z"
+}

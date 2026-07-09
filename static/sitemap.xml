@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -949,7 +949,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1394,7 +1394,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1849,6 +1849,13 @@
     <lastmod>2026-03-29</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Gigi-Hadid.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/gordon-ramsay</loc>
+    <lastmod>2026-07-08</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/8s/Gordon-Ramsay.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2717,6 +2724,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/morgan-wallen</loc>
+    <lastmod>2026-07-08</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Morgan-Wallen.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/mother-teresa</loc>
     <lastmod>2026-06-22</lastmod>
     <image:image>
@@ -3567,11 +3581,11 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
@@ -3579,7 +3593,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-08</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
@@ -3604,6 +3618,13 @@
     <lastmod>2026-02-19</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Vladimir-Putin.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/warren-buffett</loc>
+    <lastmod>2026-07-08</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/5s/Warren-Buffett.webp</image:loc>
     </image:image>
   </url>
   <url>

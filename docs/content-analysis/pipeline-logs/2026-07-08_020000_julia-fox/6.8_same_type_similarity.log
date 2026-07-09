@@ -1,0 +1,92 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — julia-fox (Type 4)
+/Users/djwayne/9takes/src/blog/people/drafts/julia-fox.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 27
+Comparison set (last 8 other Type-4 drafts by date):
+  - oliver-tree  (2026-07-07, 37 units)
+  - sza  (2026-07-04, 47 units)
+  - Rose-Blackpink  (2026-07-02, 29 units)
+  - megan-fox  (2026-06-28, 47 units)
+  - odessa-azion  (2026-06-27, 27 units)
+  - lily-allen  (2026-06-24, 24 units)
+  - Andrew-Garfield  (2026-06-09, 24 units)
+  - noah-kahan  (2026-06-09, 12 units)
+
+Noise floor over 6669 unit pairs:  median=0  p90=0  p99=0.007  max=0.199
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.199   julia-fox  <->  oliver-tree
+   TARGET [diagnosis] Julia Fox is an Enneagram Type 4
+   OTHER  [diagnosis] Oliver Tree was an Enneagram Type 4
+
+score 0.084   julia-fox  <->  noah-kahan
+   TARGET [diagnosis] Julia Fox is an Enneagram Type 4
+   OTHER  [diagnosis] Noah Kahan is a Type 4 with a 5 wing — the Individualist with an Investigator's introversion.
+
+
+Most similar drafts (max unit-pair score):
+  0.199 ########             oliver-tree
+  0.084 ###                  noah-kahan
+  0.071 ###                  Rose-Blackpink
+  0.056 ##                   lily-allen
+  0.031 #                    megan-fox
+  0.026 #                    Andrew-Garfield
+  0.023 #                    sza
+  0.016 #                    odessa-azion
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.199   julia-fox  <->  oliver-tree
+   TARGET [diagnosis] Julia Fox is an Enneagram Type 4
+   OTHER  [diagnosis] Oliver Tree was an Enneagram Type 4
+
+score 0.172   julia-fox  <->  oliver-tree
+   TARGET [diagnosis] Fours build identity out of what makes them singular.
+   OTHER  [diagnosis] Fours build their identity out of what sets them apart
+
+score 0.084   julia-fox  <->  noah-kahan
+   TARGET [diagnosis] Julia Fox is an Enneagram Type 4
+   OTHER  [diagnosis] Noah Kahan is a Type 4 with a 5 wing — the Individualist with an Investigator's introversion.
+
+score 0.077   julia-fox  <->  oliver-tree
+   TARGET [diagnosis] which is why the typing surprises people who only know the tabloid version of Fox.
+   OTHER  [counter-typing] Here is why the Four call holds anyway.
+
+score 0.071   julia-fox  <->  Rose-Blackpink
+   TARGET [counter-typing] But a Three optimizes the self for admiration and hides the failures that would undercut the brand.
+   OTHER  [diagnosis] But a Three protects the image and buries the failure.
+
+score 0.056   julia-fox  <->  lily-allen
+   TARGET [diagnosis] Three hundred actresses auditioned for the role that made her.
+   OTHER  [diagnosis] because the same sensitivity that made her feel separate also made her want the separateness seen — not just felt privately
+
+score 0.048   julia-fox  <->  Rose-Blackpink
+   TARGET [diagnosis] and they ache to be seen and understood as exactly themselves.
+   OTHER  [diagnosis] and whose deepest wish is to be seen all the way down and kept anyway.
+
+score 0.045   julia-fox  <->  oliver-tree
+   TARGET [diagnosis] and I think he wanted to be the one to discover me." That instinct
+   OTHER  [counter-typing] and this man built an aesthetic literally titled Ugly Is Beautiful and called himself "the ugly Justin Bieber." He wanted to be unrepeatable more than he wanted to be admired.
+
+score 0.031   julia-fox  <->  megan-fox
+   TARGET [diagnosis] with a strong Three wing (4w3) and a sexual-instinct intensity.
+   OTHER  [diagnosis] Her pattern reads as a sexual-dominant Four.
+
+score 0.031   julia-fox  <->  megan-fox
+   TARGET [diagnosis] As she told Interview Magazine in 2019
+   OTHER  [diagnosis] " she told CR Fashion Book in 2021.
+
+score 0.029   julia-fox  <->  megan-fox
+   TARGET [diagnosis] and a sexual-instinct intensity turns longing into performance instead of retreat.
+   OTHER  [diagnosis] Her pattern reads as a sexual-dominant Four.
+
+score 0.027   julia-fox  <->  Rose-Blackpink
+   TARGET [counter-typing] But a Three optimizes the self for admiration and hides the failures that would undercut the brand.
+   OTHER  [counter-typing] a Three hides the crack and sells the win
+
+------------------------------------------------------------------------------
+Top pair scores 0.199 vs median 0  (~∞x the noise floor).

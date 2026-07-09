@@ -1,0 +1,22 @@
+Done. Here's the report.
+
+## Editor pass: `Olivia-Cooke.md`
+
+**What I polished.** The draft came in structurally solid (it had already been through fresh-eyes and second-pass), so this was a surgical rhythm/AI-tell cleanup, not a rework:
+
+- **Killed the `[statement]+[restatement]` tell in the cold open** — "It lands as a joke. It is a joke. It is also…" → "It lands as a joke, and it is one. It is also…" (also thinned a three-`It`-in-a-row cadence).
+- **Removed three essay/AI-transition tells:**
+  - "That instant fusion is worth pausing on" → "The speed of that fusion is the tell"
+  - "Which brings us to the single most Six thing…" → led with the claim directly
+  - "There is one image that stays with you" → "One image sticks"
+- **Fixed a broken comparative** in the diagnosis: "The bigger the proof of belonging *arrived*" → "The more proof of belonging arrived."
+- **Broke a clustered opener** — "That is the shape to hold onto" → "Hold onto that shape," and de-doubled a repeated "the evidence."
+
+**What I deliberately protected** (the emotional layer and the swap-proof frame): the Alicent-face open paying off in "the worried face was never a costume… the one part she never auditioned for"; the café-firing inner-thought beat; the Instagram empathy turn (ingratitude reframed as triage); the "anxiety by itself is not a personality type" skeptic concession. The four remaining "That is" openers are spread across four separate sections doing distinct work — not a cluster, so I left them rather than flatten the voice.
+
+**Final checks (both required exits pass):**
+- `blog-lint.sh` (contrast target 0): **0 fail**, 1 warn — the warn is the *frontmatter-enrich* stage (no `faqs` yet), which runs after this editor pass, not part of it.
+- **0 prose em-dashes** (verified mechanically; all em-dashes in the file are inside comment ledgers or the epigraph attribution, both exempt).
+- **Contrast pairs: 0 strong / 0 comparative.** No banned AI phrases. Description 153 chars, head-term PASS.
+
+**Verdict:** production-ready. The prose reads clean and human; no remaining structural pass needed. Note it's still `published: false` and the frontmatter-enrich (faqs) stage hasn't run — that's the next pipeline step, not an editorial gap.
