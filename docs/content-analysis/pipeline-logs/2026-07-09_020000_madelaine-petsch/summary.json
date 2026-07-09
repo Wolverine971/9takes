@@ -1,0 +1,15 @@
+{
+  "person": "madelaine-petsch",
+  "draft_path": "src/blog/people/drafts/madelaine-petsch.md",
+  "log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch",
+  "completed": true,
+  "halt_reason": null,
+  "revised": false,
+  "lint_exit": 0,
+  "first_overall": 8.5,
+  "final_overall": 8.5,
+  "final_discoverability": 9,
+  "grade_stability_delta": 0,
+  "has_stage_warnings": false,
+  "generated_at": "2026-07-09T07:02:55.488Z"
+}

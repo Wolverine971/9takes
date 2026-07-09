@@ -23,6 +23,7 @@ import {
 	emptyTrendingAnalyticsPayload,
 	loadTrendingAnalytics
 } from '$lib/server/adminTrendingAnalytics';
+import { buildAdminDataStatus } from '$lib/server/adminDataStatus';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
 
@@ -277,6 +278,54 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const trending = trendingPagesResult ?? emptyTrendingAnalyticsPayload(trendingOptions, false);
+	const dataStatus = buildAdminDataStatus([
+		{ key: 'visitor-history', label: 'Visitor history', error: dailyVisitorsResult.error },
+		{ key: 'comment-history', label: 'Comment history', error: dailyCommentsResult.error },
+		{ key: 'question-activity', label: 'Question activity', error: dailyQuestionsResult.error },
+		{ key: 'user-total', label: 'User total', error: totalUsersResult.error },
+		{ key: 'new-users-month', label: '30-day user growth', error: newUsersMonthResult.error },
+		{ key: 'new-users-today', label: "Today's user growth", error: newUsersTodayResult.error },
+		{ key: 'waitlist-total', label: 'Waitlist total', error: coachingWaitlistResult.error },
+		{
+			key: 'waitlist-recent',
+			label: 'Recent waitlist entries',
+			error: coachingWaitlistUsersResult.error
+		},
+		{ key: 'question-total', label: 'Question total', error: totalQuestionsResult.error },
+		{ key: 'comment-total', label: 'Comment total', error: totalCommentsResult.error },
+		{ key: 'recent-users', label: 'Recent users', error: recentSignupsResult.error },
+		{ key: 'email-total', label: 'Email signup total', error: totalEmailSignupsResult.error },
+		{
+			key: 'email-today',
+			label: "Today's email signups",
+			error: newEmailSignupsTodayResult.error
+		},
+		{
+			key: 'email-week',
+			label: '7-day email signups',
+			error: newEmailSignupsWeekResult.error
+		},
+		{
+			key: 'email-month',
+			label: '30-day email signups',
+			error: newEmailSignupsMonthResult.error
+		},
+		{
+			key: 'email-recent',
+			label: 'Recent email signups',
+			error: recentEmailSignupsResult.error
+		},
+		{ key: 'questions-today', label: "Today's questions", error: questionsTodayResult.error },
+		{ key: 'comments-today', label: "Today's comments", error: commentsTodayResult.error },
+		{
+			key: 'retention',
+			label: 'Retention summary',
+			error:
+				retentionSummaryResult.error && !isMissingRetentionSummaryRpc(retentionSummaryResult.error)
+					? retentionSummaryResult.error
+					: null
+		}
+	]);
 
 	let activeContributors = retentionSummary.activeContributorsThisWeek;
 	if (!retentionSummary.available) {
@@ -289,6 +338,7 @@ export const load: PageServerLoad = async (event) => {
 
 	return {
 		demoTime: demo_time,
+		dataStatus,
 		dailyVisitors: dailyVisitorsResult.error ? [] : dailyVisitorsResult.data,
 		dailyComments: dailyCommentsResult.error ? [] : dailyCommentsResult.data,
 		dailyQuestions: dailyQuestionsResult.error ? [] : dailyQuestionsResult.data,

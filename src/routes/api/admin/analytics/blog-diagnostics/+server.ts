@@ -1,27 +1,11 @@
 // src/routes/api/admin/analytics/blog-diagnostics/+server.ts
 import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 import { loadPeopleBlogPerformanceDiagnostics } from '$lib/server/blogPerformanceDiagnostics';
 
-async function assertAdmin(locals: App.Locals): Promise<void> {
-	const session = locals.session;
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await locals.supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
-}
-
 export const GET: RequestHandler = async ({ locals }) => {
-	await assertAdmin(locals);
+	await requireAdmin(locals);
 
 	try {
 		const rows = await loadPeopleBlogPerformanceDiagnostics();

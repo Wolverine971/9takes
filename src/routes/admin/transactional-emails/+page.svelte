@@ -462,7 +462,7 @@
 	</div>
 </div>
 
-<Modal id="send-email-to-everyone">
+<Modal id="send-email-to-everyone" name="Confirm bulk email send">
 	<div class="p-6">
 		<h2 class="mb-4 text-2xl font-bold text-error-700">⚠️ Confirmation Required</h2>
 		<p class="mb-6 text-neutral-700">

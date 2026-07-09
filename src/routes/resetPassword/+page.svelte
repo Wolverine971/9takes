@@ -228,7 +228,7 @@
 	.error-message {
 		padding: 0.75rem 0.9rem;
 		font-size: 0.9rem;
-		color: var(--error);
+		color: var(--error-text);
 		background: color-mix(in srgb, var(--error) 10%, transparent);
 		border: 1px solid color-mix(in srgb, var(--error) 28%, transparent);
 		border-radius: 0.625rem;
@@ -237,7 +237,7 @@
 	.error-hint {
 		margin-top: 0.25rem;
 		font-size: 0.85rem;
-		color: var(--error);
+		color: var(--error-text);
 	}
 
 	.back-link {

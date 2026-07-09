@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/ARCHETYPE_YOUTUBER.md -->
+<!-- docs/worldbuilding/reference-buildos/ARCHETYPE_YOUTUBER.md -->
 
 # Worldbuilding Map — The YouTuber
 

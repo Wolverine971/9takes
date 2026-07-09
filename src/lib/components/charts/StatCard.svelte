@@ -152,7 +152,7 @@
 	}
 
 	.stat-warning .stat-value {
-		color: var(--warning);
+		color: var(--warning-text);
 	}
 
 	.stat-danger {

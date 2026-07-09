@@ -3,19 +3,23 @@ import type { PageServerLoad } from './$types';
 import { createHash } from 'node:crypto';
 import { error, fail, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../../utils/api';
-import { tagQuestion } from '../../../utils/server/openai';
 import { mapDemoValues } from '../../../utils/demo';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
-import { adminUserUpdateSchema, adminUpdateAdminStatusSchema } from '$lib/validation/schemas';
+import { adminUpdateAdminStatusSchema, adminUsersQuerySchema } from '$lib/validation/schemas';
+import { guardAdminActions } from '$lib/server/adminAuth';
+import { setAdminStatusSafely } from '$lib/server/adminUserAccess';
 import { z } from 'zod';
 import { logger } from '$lib/utils/logger';
+import { loadAdminEnneagramDistribution } from '$lib/server/adminAnalytics';
 
 const USER_DETAIL_LIMIT = 10;
+const ADMIN_USER_PAGE_SIZE = 100;
+const ADMIN_SIGNUP_PAGE_SIZE = 100;
 const SIGNUP_AUTH_EVENT_WINDOW_MS = 10 * 60 * 1000;
 const SIGNUP_AUTH_EVENT_LOOKBACK_DAYS = 30;
 
 const adminUserDetailsSchema = z.object({
-	userId: z.string().min(1)
+	userId: z.string().uuid()
 });
 
 type UserActivityQuestion = {
@@ -75,33 +79,6 @@ type SignupWithSignals = SignupRow & {
 	signupSignal: SignupSecuritySignal;
 	signupSignalReason: string;
 };
-
-async function validateAdminAccess(
-	supabase: App.Locals['supabase'],
-	session: App.Locals['session'],
-	demoTime: boolean
-) {
-	if (!session?.user?.id) {
-		throw error(400, 'unauthorized');
-	}
-
-	const { data: user, error: findUserError } = await supabase
-		.from(demoTime ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', session.user.id)
-		.single();
-
-	if (findUserError) {
-		logger.error('Admin user lookup failed', findUserError, { userId: session.user.id });
-		throw error(404, { message: 'Error searching for user' });
-	}
-
-	if (!user?.admin) {
-		throw redirect(307, '/questions');
-	}
-
-	return user;
-}
 
 function normalizeEmailText(email?: string | null): string {
 	return email?.trim().toLowerCase() ?? '';
@@ -292,20 +269,103 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(307, '/questions');
 	}
 
-	const { data: profiles, error: profilesError } = await supabase.rpc('get_all_users');
+	const readPage = (name: string) => {
+		const value = Number.parseInt(event.url.searchParams.get(name) ?? '1', 10);
+		return Number.isSafeInteger(value) && value > 0 ? value : 1;
+	};
+	const userQuery = adminUsersQuerySchema.parse({
+		search: event.url.searchParams.get('q') ?? undefined,
+		filter: event.url.searchParams.get('filter') ?? undefined,
+		sort: event.url.searchParams.get('sort') ?? undefined,
+		direction: event.url.searchParams.get('dir') ?? undefined,
+		profilePage: event.url.searchParams.get('profilePage') ?? undefined
+	});
+	const profilePage = userQuery.profilePage;
+	const signupPage = readPage('signupPage');
+	const profileOffset = (profilePage - 1) * ADMIN_USER_PAGE_SIZE;
+	const signupOffset = (signupPage - 1) * ADMIN_SIGNUP_PAGE_SIZE;
+	const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
 
-	if (profilesError) {
-		console.log(profilesError);
+	const [profilesResult, profileCountResult, adminCountResult, typedCountResult, distribution] =
+		await Promise.all([
+			supabase.rpc('get_admin_users_page', {
+				p_search: userQuery.search,
+				p_filter: userQuery.filter,
+				p_sort_by: userQuery.sort,
+				p_sort_direction: userQuery.direction,
+				p_limit: ADMIN_USER_PAGE_SIZE,
+				p_offset: profileOffset
+			}),
+			supabase.from(profileTable).select('id', { count: 'exact', head: true }),
+			supabase.from(profileTable).select('id', { count: 'exact', head: true }).eq('admin', true),
+			supabase
+				.from(profileTable)
+				.select('id', { count: 'exact', head: true })
+				.not('enneagram', 'is', null),
+			loadAdminEnneagramDistribution(supabase as any, {
+				demoTime: demo_time === true,
+				profilesTable: profileTable
+			})
+		]);
+	const { data: profiles, error: profilesError } = profilesResult;
+	const filteredProfileCount = profiles?.[0]?.total_rows ?? 0;
+
+	if (
+		profilesError ||
+		profileCountResult.error ||
+		adminCountResult.error ||
+		typedCountResult.error
+	) {
+		logger.error(
+			'Failed to load paginated admin users',
+			(profilesError ||
+				profileCountResult.error ||
+				adminCountResult.error ||
+				typedCountResult.error) as Error
+		);
+		throw error(500, { message: 'Failed to load users' });
 	}
-	const { data: signups, error: signupsError } = await supabase
+
+	if ((profiles?.length ?? 0) === 0 && profilePage > 1) {
+		const { data: firstFilteredProfile, error: firstFilteredProfileError } = await supabase.rpc(
+			'get_admin_users_page',
+			{
+				p_search: userQuery.search,
+				p_filter: userQuery.filter,
+				p_sort_by: userQuery.sort,
+				p_sort_direction: userQuery.direction,
+				p_limit: 1,
+				p_offset: 0
+			}
+		);
+
+		if (firstFilteredProfileError) {
+			logger.error('Failed to validate admin user page bounds', firstFilteredProfileError as Error);
+			throw error(500, { message: 'Failed to load users' });
+		}
+
+		if ((firstFilteredProfile?.[0]?.total_rows ?? 0) > 0) {
+			const canonicalUrl = new URL(event.url);
+			canonicalUrl.searchParams.delete('profilePage');
+			throw redirect(303, `${canonicalUrl.pathname}${canonicalUrl.search}`);
+		}
+	}
+	const {
+		data: signups,
+		error: signupsError,
+		count: signupCount
+	} = await supabase
 		.from('signups')
 		.select(
-			'id, email, name, created_at, unsubscribed_date, first_visit_at, first_landing_path, first_acquisition_source, first_referrer_host, first_entry_surface, first_touch_fingerprint'
+			'id, email, name, created_at, unsubscribed_date, first_visit_at, first_landing_path, first_acquisition_source, first_referrer_host, first_entry_surface, first_touch_fingerprint',
+			{ count: 'exact' }
 		)
-		.order('created_at', { ascending: false });
+		.order('created_at', { ascending: false })
+		.range(signupOffset, signupOffset + ADMIN_SIGNUP_PAGE_SIZE - 1);
 
 	if (signupsError) {
-		console.log(signupsError);
+		logger.error('Failed to load paginated email signups', signupsError as Error);
+		throw error(500, { message: 'Failed to load email signups' });
 	}
 	const signupsWithSignals = await attachSignupSignals((signups ?? []) as SignupRow[]);
 
@@ -314,7 +374,31 @@ export const load: PageServerLoad = async (event) => {
 			user: mapDemoValues(user),
 			profiles: mapDemoValues(profiles),
 			signups: signupsWithSignals,
-			demoTime: demo_time
+			demoTime: demo_time,
+			profileStats: {
+				total: profileCountResult.count ?? 0,
+				admins: adminCountResult.count ?? 0,
+				withType: typedCountResult.count ?? 0,
+				enneagramDistribution: distribution
+			},
+			profilePagination: {
+				page: profilePage,
+				limit: ADMIN_USER_PAGE_SIZE,
+				total: filteredProfileCount,
+				totalPages: Math.max(1, Math.ceil(filteredProfileCount / ADMIN_USER_PAGE_SIZE))
+			},
+			filters: {
+				search: userQuery.search,
+				filter: userQuery.filter,
+				sort: userQuery.sort,
+				direction: userQuery.direction
+			},
+			signupPagination: {
+				page: signupPage,
+				limit: ADMIN_SIGNUP_PAGE_SIZE,
+				total: signupCount ?? 0,
+				totalPages: Math.max(1, Math.ceil((signupCount ?? 0) / ADMIN_SIGNUP_PAGE_SIZE))
+			}
 		};
 	} else {
 		throw error(404, {
@@ -323,15 +407,12 @@ export const load: PageServerLoad = async (event) => {
 	}
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	getUserDetails: async ({ request, locals }) => {
 		try {
-			const session = locals?.session;
 			const supabase = locals.supabase;
 			const demo_time = await checkDemoTime(supabase);
 			const isDemo = demo_time === true;
-
-			await validateAdminAccess(supabase, session, isDemo);
 
 			const body = Object.fromEntries(await request.formData());
 			const parsed = adminUserDetailsSchema.safeParse(body);
@@ -522,210 +603,33 @@ export const actions: Actions = {
 		}
 	},
 
-	classifyQuestion: async ({ request, locals }) => {
-		try {
-			const session = locals?.session;
-			const supabase = locals.supabase;
+	updateAdmin: async ({ request, locals }) => {
+		const body = Object.fromEntries(await request.formData());
+		const parsed = adminUpdateAdminStatusSchema.safeParse(body);
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(supabase);
-
-			const { data: user, error: findUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (findUserError) {
-				console.log(findUserError);
-			}
-
-			if (!user?.admin) {
-				throw redirect(307, '/questions');
-			}
-
-			const body = Object.fromEntries(await request.formData());
-			const questionId = body.questionId as string;
-			const questionText = body.questionText as string;
-
-			await tagQuestion(supabase, questionText, parseInt(questionId));
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to classify question ${JSON.stringify(e)}`
-			});
+		if (!parsed.success) {
+			logger.warn('Admin status update validation failed', { errors: parsed.error.errors });
+			return fail(400, { success: false, message: 'Invalid user or administrator status.' });
 		}
-	},
 
-	classifyAllUntaggedQuestions: async ({ request, locals }) => {
-		try {
-			const session = locals?.session;
-			const supabase = locals.supabase;
+		const { userId, isAdmin } = parsed.data;
+		const result = await setAdminStatusSafely(locals.supabase, userId, isAdmin);
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(supabase);
-
-			const { data: user, error: findUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (findUserError) {
-				console.log(findUserError);
-			}
-
-			if (!user?.admin) {
-				throw redirect(307, '/questions');
-			}
-
-			const body = Object.fromEntries(await request.formData());
-			const questionId = body.questionId as string;
-			const questionText = body.questionText as string;
-
-			await tagQuestion(supabase, questionText, parseInt(questionId));
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to classify question ${JSON.stringify(e)}`
-			});
-		}
-	},
-
-	updateUserAccount: async ({ request, locals }) => {
-		try {
-			const session = locals?.session;
-			const supabase = locals.supabase;
-
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(supabase);
-
-			const { data: user, error: findUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (findUserError) {
-				console.log(findUserError);
-			}
-
-			if (!user?.admin) {
-				throw redirect(307, '/questions');
-			}
-
-			const body = Object.fromEntries(await request.formData());
-
-			// Validate input data
-			let validatedData;
-			try {
-				validatedData = adminUserUpdateSchema.parse(body);
-			} catch (e) {
-				if (e instanceof z.ZodError) {
-					logger.warn('Admin user update validation failed', { errors: e.errors });
-					throw error(400, 'Invalid input data');
-				}
-				throw e;
-			}
-
-			const { firstName, lastName, enneagram, email } = validatedData;
-
-			const { error: updateUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({
-					first_name: firstName,
-					last_name: lastName,
-					enneagram: String(enneagram)
-				})
-				.eq('email', email);
-
-			if (updateUserError) {
-				logger.error('Failed to update user', updateUserError, { email });
-				throw error(500, 'Failed to update user account');
-			}
-
-			logger.info('Admin updated user account', { email, adminId: session.user.id });
-			return { success: true };
-		} catch (e) {
-			if (e instanceof Error && e.message.includes('Invalid input data')) {
-				throw e;
-			}
-			logger.error('Unexpected error in updateUserAccount', e as Error);
-			throw error(500, 'An unexpected error occurred');
-		}
-	},
-	updateAdmin: async (event) => {
-		try {
-			const session = event.locals.session;
-			const supabase = event.locals.supabase;
-
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime(supabase);
-
-			const { data: user, error: findUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (findUserError) {
-				console.log(findUserError);
-			}
-
-			if (!user?.admin) {
-				throw redirect(307, '/questions');
-			}
-
-			const { request } = event;
-
-			const body = Object.fromEntries(await request.formData());
-
-			// Validate input data
-			let validatedData;
-			try {
-				validatedData = adminUpdateAdminStatusSchema.parse(body);
-			} catch (e) {
-				if (e instanceof z.ZodError) {
-					logger.warn('Admin status update validation failed', { errors: e.errors });
-					throw error(400, 'Invalid input data');
-				}
-				throw e;
-			}
-
-			const { email, isAdmin } = validatedData;
-
-			const { error: updateUserToAdminError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({ admin: isAdmin })
-				.eq('email', email);
-
-			if (updateUserToAdminError) {
-				logger.error('Failed to update admin status', updateUserToAdminError, { email, isAdmin });
-				throw error(500, 'Failed to update admin status');
-			}
-
-			logger.info('Admin status updated', {
-				targetEmail: email,
+		if (!result.ok) {
+			logger.warn('Admin status update rejected', {
+				targetUserId: userId,
 				isAdmin,
-				updatedBy: session.user.id
+				status: result.status
 			});
-			return { success: true };
-		} catch (e) {
-			if (e instanceof Error && e.message.includes('Invalid input data')) {
-				throw e;
-			}
-			logger.error('Unexpected error in updateAdmin', e as Error);
-			throw error(500, 'An unexpected error occurred');
+			return fail(result.status, { success: false, message: result.message });
 		}
+
+		logger.info('Admin status updated', {
+			targetUserId: result.user.id,
+			targetEmail: result.user.email,
+			isAdmin: result.user.admin,
+			updatedBy: locals.session?.user.id
+		});
+		return { success: true, user: result.user };
 	}
-};
+});

@@ -1035,7 +1035,7 @@
 				career decisions, or the patterns you can&rsquo;t name yet.
 			</p>
 			<div class="coaching-cta-row">
-				<Button size="lg" variant="primary" href="/book-session">Book a session</Button>
+				<Button size="lg" variant="primary" href="/book-session">Join the coaching waitlist</Button>
 			</div>
 		</div>
 	</section>

@@ -32,6 +32,7 @@
 	let resolvedTitle = '';
 	let resolvedCopy = '';
 	let resolvedButtonLabel = '';
+	const inputId = 'enneagram-cta-sidebar-email';
 	const errorId = 'enneagram-cta-sidebar-error';
 
 	async function handleSubmit() {
@@ -64,9 +65,11 @@
 				submitted = true;
 				notifications.warning('Already subscribed', 3000);
 			} else {
+				error = result.message || 'We could not subscribe you. Please try again.';
 				notifications.warning('Signup failed', 3000);
 			}
 		} catch {
+			error = 'We could not subscribe you. Check your connection and try again.';
 			notifications.warning('Signup failed', 3000);
 		} finally {
 			loading = false;
@@ -189,7 +192,9 @@
 		<p class="sidebar-copy">{resolvedCopy}</p>
 
 		{#if submitted}
-			<p class="sidebar-success">You&rsquo;re in. Check your inbox for the welcome note.</p>
+			<p class="sidebar-success" role="status">
+				You&rsquo;re in. Check your inbox for the welcome note.
+			</p>
 		{:else}
 			<form
 				on:submit|preventDefault={handleSubmit}
@@ -209,8 +214,10 @@
 						autocomplete="new-password"
 					/>
 				</div>
-				<div>
+				<div class="sidebar-field">
+					<label class="sidebar-label" for={inputId}>Email address</label>
 					<input
+						id={inputId}
 						type="email"
 						bind:value={email}
 						on:input={() => (error = '')}
@@ -227,7 +234,7 @@
 				</button>
 			</form>
 			{#if error}
-				<p class="sidebar-error" id={errorId}>{error}</p>
+				<p class="sidebar-error" id={errorId} role="alert">{error}</p>
 			{/if}
 		{/if}
 	</div>
@@ -302,7 +309,7 @@
 
 	.sidebar-error {
 		margin-top: 0.55rem;
-		color: var(--warning);
+		color: var(--error-text);
 	}
 
 	.sidebar-form {
@@ -316,6 +323,18 @@
 		width: 1px;
 		height: 1px;
 		overflow: hidden;
+	}
+
+	.sidebar-field {
+		display: grid;
+		gap: 0.35rem;
+	}
+
+	.sidebar-label {
+		color: var(--ink-bright);
+		font-size: 0.78rem;
+		font-weight: 600;
+		line-height: 1.3;
 	}
 
 	.sidebar-input {
@@ -351,7 +370,7 @@
 	}
 
 	.sidebar-input[aria-invalid='true'] {
-		border-color: var(--warning);
+		border-color: var(--error);
 		box-shadow: none;
 	}
 

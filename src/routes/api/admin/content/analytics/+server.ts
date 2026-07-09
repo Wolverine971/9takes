@@ -1,6 +1,7 @@
 // src/routes/api/admin/content/analytics/+server.ts
-import { error, json } from '@sveltejs/kit';
+import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 // Type for the blog data we fetch from the database
 interface BlogRow {
@@ -107,24 +108,7 @@ function calculateHealthScore(
 }
 
 export const GET: RequestHandler = async ({ locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	// Check authentication
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	// Check admin role
-	const { data: profile } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!profile?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	try {
 		// Fetch only fields needed for content health analytics.
@@ -303,6 +287,7 @@ export const GET: RequestHandler = async ({ locals }) => {
 
 		return json({ data: result });
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error in analytics endpoint:', e);
 		if (e instanceof Error && 'status' in e) {
 			throw e;

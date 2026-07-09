@@ -314,7 +314,7 @@
 
 	.error {
 		padding: 1rem;
-		color: var(--error);
+		color: var(--error-text);
 		text-align: center;
 	}
 

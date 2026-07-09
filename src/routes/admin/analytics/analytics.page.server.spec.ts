@@ -52,7 +52,8 @@ describe('/admin/analytics page server load', () => {
 			filters: {
 				from: '2026-03-10',
 				to: '2026-04-08',
-				scope: 'all'
+				scope: 'all',
+				timeZone: 'UTC'
 			},
 			cohortFilters: {
 				from: '2026-02-09',

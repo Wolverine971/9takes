@@ -1,20 +1,22 @@
 {
-	"pause": false,
-	"reason": null,
-	"pausedBy": null,
-	"pausedAt": null,
-	"resumeAt": null,
-	"forceNext": null,
-	"rateLimit": {
-		"maxPerWeek": 5,
-		"currentWeekCount": 2,
-		"weekStartDate": "2026-07-05"
-	},
-	"notifications": {
-		"enabled": true,
-		"channels": ["telegram"],
-		"onSuccess": true,
-		"onFailure": true,
-		"onPause": true
-	}
+  "pause": false,
+  "reason": null,
+  "pausedBy": null,
+  "pausedAt": null,
+  "resumeAt": null,
+  "forceNext": null,
+  "rateLimit": {
+    "maxPerWeek": 5,
+    "currentWeekCount": 3,
+    "weekStartDate": "2026-07-05"
+  },
+  "notifications": {
+    "enabled": true,
+    "channels": [
+      "telegram"
+    ],
+    "onSuccess": true,
+    "onFailure": true,
+    "onPause": true
+  }
 }

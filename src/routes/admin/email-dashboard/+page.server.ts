@@ -2,6 +2,7 @@
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import { getWelcomeSequenceOverview } from '$lib/server/emailAdminSequences';
+import { buildAdminDataStatus } from '$lib/server/adminDataStatus';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -32,7 +33,7 @@ export const load: PageServerLoad = async (event) => {
 		scheduledResult,
 		analyticsResult,
 		cronStatusResult,
-		welcomeSequence
+		welcomeSequenceResult
 	] = await Promise.all([
 		// Get first page of users
 		supabase.rpc('get_email_dashboard_users', {
@@ -68,13 +69,28 @@ export const load: PageServerLoad = async (event) => {
 			.select('api_endpoint, enabled, health_status, last_run_at, last_run_status, updated_at')
 			.single(),
 		getWelcomeSequenceOverview(supabase)
+			.then((data) => ({ data, error: null }))
+			.catch((error: unknown) => ({ data: null, error }))
 	]);
 
 	// Get total user count
-	const { data: totalCount } = await supabase.rpc('count_email_dashboard_users', {
-		p_source: 'all',
-		p_search: undefined
-	});
+	const { data: totalCount, error: totalCountError } = await supabase.rpc(
+		'count_email_dashboard_users',
+		{
+			p_source: 'all',
+			p_search: undefined
+		}
+	);
+
+	const dataStatus = buildAdminDataStatus([
+		{ key: 'recipients', label: 'Recipient list', error: usersResult.error },
+		{ key: 'recipient-total', label: 'Recipient total', error: totalCountError },
+		{ key: 'drafts', label: 'Email drafts', error: draftsResult.error },
+		{ key: 'scheduled', label: 'Scheduled emails', error: scheduledResult.error },
+		{ key: 'analytics', label: 'Email analytics', error: analyticsResult.error },
+		{ key: 'scheduler', label: 'Scheduler status', error: cronStatusResult.error },
+		{ key: 'welcome-sequence', label: 'Welcome sequence', error: welcomeSequenceResult.error }
+	]);
 
 	const analyticsDefaults = {
 		total_sent: 0,
@@ -98,12 +114,13 @@ export const load: PageServerLoad = async (event) => {
 
 	return {
 		session,
+		dataStatus,
 		users: usersResult.data || [],
 		totalUsers: totalCount || 0,
 		drafts: draftsResult.data || [],
 		scheduledEmails: scheduledResult.data || [],
 		analytics: { ...analyticsDefaults, ...analyticsData },
 		cronStatus: cronStatusResult.data || null,
-		welcomeSequence
+		welcomeSequence: welcomeSequenceResult.data
 	};
 };

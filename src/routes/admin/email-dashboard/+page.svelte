@@ -14,6 +14,7 @@
 		FetchBatchRecipientsResponse
 	} from '$lib/types/email';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 	import { Button } from '$lib/components/atoms';
 
@@ -653,6 +654,22 @@
 		<h1>Email Dashboard</h1>
 		<p class="subtitle">Send emails to users across all sources</p>
 	</div>
+
+	{#if data.dataStatus?.state === 'degraded'}
+		<div class="data-status" role="status" aria-live="polite">
+			<div>
+				<strong>Some email data could not be refreshed.</strong>
+				<p>
+					Unavailable: {data.dataStatus.warnings.map((warning) => warning.label).join(', ')}. Empty
+					values in those areas may not mean zero activity.
+				</p>
+			</div>
+			<div class="data-status-meta">
+				<span>Checked {new Date(data.dataStatus.generatedAt).toLocaleTimeString()}</span>
+				<a href="/admin/email-dashboard">Retry</a>
+			</div>
+		</div>
+	{/if}
 
 	<!-- Analytics Controls -->
 	<div class="analytics-toolbar">
@@ -1388,9 +1405,10 @@
 						{#if sentDetailRaw}
 							<pre class="raw-html">{sentDetailEmail.html_content}</pre>
 						{:else}
-							<div class="email-preview">
-								{@html sentDetailEmail.html_content}
-							</div>
+							<HtmlPreviewFrame
+								html={sentDetailEmail.html_content}
+								title={`Sent email preview: ${sentDetailEmail.subject}`}
+							/>
 						{/if}
 					</div>
 
@@ -1454,6 +1472,38 @@
 	.subtitle {
 		color: var(--ink-mid);
 		margin: 0;
+	}
+
+	.data-status {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 1rem;
+		margin-bottom: 1rem;
+		padding: 0.875rem 1rem;
+		border: 1px solid color-mix(in srgb, var(--warning) 45%, transparent);
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--warning) 9%, var(--night));
+		color: var(--ink-bright);
+	}
+
+	.data-status p {
+		margin: 0.25rem 0 0;
+		color: var(--ink-mid);
+	}
+
+	.data-status-meta {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		white-space: nowrap;
+		font-size: 0.82rem;
+		color: var(--ink-mid);
+	}
+
+	.data-status-meta a {
+		color: var(--accent);
+		font-weight: 700;
 	}
 
 	/* Analytics Toolbar */
@@ -2117,32 +2167,6 @@
 		margin-bottom: 0.5rem;
 	}
 
-	.email-preview {
-		border: 1px solid var(--stone-warm);
-		border-radius: 1rem;
-		padding: 1rem;
-		background: #ffffff;
-		color: #111111;
-		color-scheme: light;
-	}
-
-	.email-preview h1,
-	.email-preview h2,
-	.email-preview h3,
-	.email-preview h4,
-	.email-preview p,
-	.email-preview li,
-	.email-preview td,
-	.email-preview th,
-	.email-preview span,
-	.email-preview div {
-		color: inherit;
-	}
-
-	.email-preview a {
-		color: #b45309;
-	}
-
 	.raw-html {
 		background: var(--night-deep);
 		border: 1px solid var(--stone-warm);
@@ -2193,6 +2217,15 @@
 
 	/* Responsive */
 	@media (max-width: 640px) {
+		.data-status {
+			flex-direction: column;
+		}
+
+		.data-status-meta {
+			width: 100%;
+			justify-content: space-between;
+		}
+
 		.tabs {
 			overflow-x: auto;
 			padding-bottom: 0.25rem;

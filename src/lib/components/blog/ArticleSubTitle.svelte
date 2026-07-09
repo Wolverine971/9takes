@@ -108,7 +108,7 @@
 		color: var(--ink-mid);
 	}
 	.date.updated {
-		color: var(--success);
+		color: var(--success-text);
 		font-weight: 500;
 	}
 

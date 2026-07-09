@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/06-productivity-is-a-byproduct.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/06-productivity-is-a-byproduct.md -->
 
 # Productivity is a byproduct
 

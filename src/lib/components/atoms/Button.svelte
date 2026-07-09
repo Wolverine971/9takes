@@ -12,7 +12,7 @@
 	//   primary    — solid lamp-glow bg, dark text. Default brand action.
 	//   secondary  — transparent bg, 1px stone-edge border, ink-bright text.
 	//   ghost      — transparent bg + border, lamp-glow text, hover lamp-soft bg.
-	//   danger     — solid error bg, white text. Destructive only.
+	//   danger     — theme-safe danger surface + paired text. Destructive only.
 	//
 	// Sizes: sm | md | lg.  All rounded-md (10px). NO gradients. NO resting glow.
 	//
@@ -210,13 +210,13 @@
 	}
 
 	.btn--danger {
-		background: var(--error, #ef4444);
-		color: #ffffff;
-		border-color: var(--error, #ef4444);
+		background: var(--danger-surface, #ef4444);
+		color: var(--text-on-danger, #0a0807);
+		border-color: var(--danger-surface, #ef4444);
 
 		&:hover:not(:disabled):not([aria-disabled='true']) {
-			background: var(--error-700, #dc2626);
-			border-color: var(--error-700, #dc2626);
+			background: var(--danger-surface-hover, #f87171);
+			border-color: var(--danger-surface-hover, #f87171);
 		}
 	}
 

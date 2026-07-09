@@ -45,6 +45,7 @@
 	let textareaHeight = $state('auto');
 	let shortAnswerNudge = $state(false);
 	let confirmShortSubmit = $state(false);
+	let commentError = $state('');
 	let reduceMotion = $state(false);
 
 	const SHORT_ANSWER_THRESHOLD = 100;
@@ -106,9 +107,11 @@
 	const createComment = async () => {
 		if (!canComment()) return;
 		if (!comment.trim()) {
+			commentError = 'Write a comment before posting.';
 			notifications.info('Comment cannot be empty', 3000);
 			return;
 		}
+		commentError = '';
 
 		// Nudge for short answers on questions (not replies)
 		if (
@@ -133,6 +136,7 @@
 			handleCommentResult(result);
 		} catch (error) {
 			console.error('Error creating comment:', error);
+			commentError = 'Failed to create comment. Please try again.';
 			notifications.danger('Failed to create comment', 3000);
 		} finally {
 			loading = false;
@@ -144,9 +148,11 @@
 		const flags = isQuestionPageData(data) ? data.flags : null;
 		if (!flags?.userSignedIn && !user?.id) {
 			if (flags?.userHasAnswered || anonymousComment) {
+				commentError = 'Register or log in to comment more than once.';
 				notifications.info('Must register or login to comment multiple times', 3000);
 				return false;
 			} else if (parentType === 'comment') {
+				commentError = 'Register or log in to reply to another comment.';
 				notifications.info('Must register or login to comment on other comments', 3000);
 				return false;
 			}
@@ -200,9 +206,11 @@
 	// Handle comment submission result
 	const handleCommentResult = (result: any) => {
 		if (result.error || result.type === 'error' || result.type === 'failure') {
-			notifications.danger(getActionErrorMessage(result), 5000);
+			commentError = getActionErrorMessage(result);
+			notifications.danger(commentError, 5000);
 			console.error(result.error || result.data);
 		} else {
+			commentError = '';
 			notifications.success('Comment Added', 3000);
 			if (isAnonymousQuestionCommenter()) {
 				anonymousComment = true;
@@ -283,6 +291,7 @@
 	// Handle textarea auto-growth
 	const handleTextareaInput = (e: Event) => {
 		const target = e.target as HTMLTextAreaElement;
+		commentError = '';
 
 		// Reset nudge when user keeps typing
 		if (shortAnswerNudge && target.value.trim().length >= SHORT_ANSWER_THRESHOLD) {
@@ -409,6 +418,9 @@
 						{depthPrompts[currentPromptIndex]}
 					</p>
 				{/if}
+				<label class="composer-label" for="comment-box">
+					{parentType === 'question' ? 'Your answer' : 'Your reply'}
+				</label>
 				<div
 					class="textarea-container"
 					data-replicated-value={comment}
@@ -421,13 +433,20 @@
 						class="composer-textarea bg-[var(--night-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--stone-warm)] px-3 py-2 text-sm leading-relaxed text-[var(--ink-bright)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-1 focus:ring-[var(--lamp-glow)]"
 						bind:value={comment}
 						id="comment-box"
+						aria-invalid={commentError ? 'true' : 'false'}
+						aria-describedby={`comment-composer-count${shortAnswerNudge ? ' comment-composer-nudge' : ''}${commentError ? ' comment-composer-error' : ''}`}
 						rows="4"
 						oninput={handleTextareaInput}
 						onkeydown={handleKeydown}
 					></textarea>
 				</div>
 				{#if shortAnswerNudge}
-					<div class="short-answer-nudge" in:slide={{ duration: reduceMotion ? 0 : 200 }}>
+					<div
+						class="short-answer-nudge"
+						id="comment-composer-nudge"
+						role="status"
+						in:slide={{ duration: reduceMotion ? 0 : 200 }}
+					>
 						<span class="short-answer-nudge__icon">&#9997;</span>
 						<p class="short-answer-nudge__copy">
 							<span class="font-medium">Your take could go deeper.</span> Try adding a personal
@@ -438,9 +457,14 @@
 						</p>
 					</div>
 				{/if}
+				{#if commentError}
+					<p class="composer-error" id="comment-composer-error" role="alert">
+						{commentError}
+					</p>
+				{/if}
 			</div>
 			<div class="composer-footer">
-				<span class="text-xs text-[var(--ink-dim)]">
+				<span id="comment-composer-count" class="text-xs text-[var(--ink-dim)]">
 					{#if parentType === 'question' && comment.length > 0 && comment.length < SHORT_ANSWER_THRESHOLD}
 						<span class="comment-length-warning"
 							>{comment.length} chars. Keep going and add some detail.</span
@@ -489,7 +513,7 @@
 </div>
 
 <!-- QR Code Modal -->
-<Modal id="qr-modal">
+<Modal id="qr-modal" name="Share this question">
 	<div class="mx-auto flex max-w-sm flex-col items-center py-2 text-center">
 		<h2 class="mb-1 text-xl font-semibold text-[var(--ink-bright)]">Share This Question</h2>
 		<p class="mb-5 text-sm text-[var(--ink-mid)]">Scan the QR code to share with others</p>
@@ -563,6 +587,14 @@
 
 	.composer-body {
 		padding: 1rem;
+	}
+
+	.composer-label {
+		display: block;
+		margin: 0 0 0.45rem;
+		color: var(--ink-bright);
+		font-size: 0.875rem;
+		font-weight: 600;
 	}
 
 	.depth-prompt {
@@ -655,6 +687,14 @@
 		color: var(--lamp-light);
 		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
+	}
+
+	.composer-error {
+		margin: 0.6rem 0 0;
+		color: var(--error-text);
+		font-size: 0.875rem;
+		font-weight: 600;
+		line-height: 1.45;
 	}
 
 	.comment-length-warning {

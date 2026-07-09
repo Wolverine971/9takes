@@ -3,11 +3,13 @@
 	import type { PageData } from './$types';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { deserialize } from '$app/forms';
+	import { goto, invalidateAll } from '$app/navigation';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { convertDateToReadable } from '../../../utils/conversions';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
 	import { Button } from '$lib/components/atoms';
+	import { onDestroy } from 'svelte';
 
 	let { data }: { data: PageData } = $props();
 
@@ -116,87 +118,76 @@
 	let detailError = $state('');
 	let detailData = $state<UserActivityDetails | null>(null);
 
-	// Sorting state
-	let sortField = $state<SortField>('last_sign_in_at');
-	let sortDirection = $state<'asc' | 'desc'>('desc');
-
-	// Search/filter state
+	let sortField = $derived(data.filters.sort as SortField);
+	let sortDirection = $derived(data.filters.direction);
 	let searchQuery = $state('');
-	let filterType = $state<'all' | 'admins' | 'with-type' | 'no-type'>('all');
+	let searchTimeout: ReturnType<typeof setTimeout>;
+
+	$effect(() => {
+		searchQuery = data.filters.search;
+	});
 
 	// Compute enneagram distribution
 	let enneagramDistribution = $derived(
-		formattedProfiles.reduce(
-			(acc: Record<number, number>, p: any) => {
-				if (p.enneagram) {
-					acc[p.enneagram] = (acc[p.enneagram] || 0) + 1;
-				}
-				return acc;
-			},
-			{} as Record<number, number>
-		)
+		data.profileStats.enneagramDistribution as Record<number, number>
 	);
 
-	// Filter profiles based on search and filter
-	let filteredProfiles = $derived(
-		formattedProfiles.filter((p) => {
-			const matchesSearch =
-				!searchQuery ||
-				p.email?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-				p.username?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-				p.first_name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-				p.last_name?.toLowerCase().includes(searchQuery.toLowerCase());
-
-			let matchesFilter = true;
-			if (filterType === 'admins') matchesFilter = p.admin === true;
-			else if (filterType === 'with-type') matchesFilter = !!p.enneagram;
-			else if (filterType === 'no-type') matchesFilter = !p.enneagram;
-
-			return matchesSearch && matchesFilter;
-		})
-	);
-
-	// Sort profiles by field
-	function getSortValue(profile: Profile, field: SortField): number | string {
-		switch (field) {
-			case 'last_sign_in_at':
-				return profile.last_sign_in_at ? new Date(profile.last_sign_in_at).getTime() : 0;
-			case 'created_at':
-				return profile.created_at ? new Date(profile.created_at).getTime() : 0;
-			case 'email':
-				return profile.email?.toLowerCase() ?? '';
-			case 'enneagram':
-				return profile.enneagram ? Number(profile.enneagram) : 0;
-			case 'admin':
-				return profile.admin ? 1 : 0;
-		}
+	function paginationHref(profilePage: number, signupPage: number): string {
+		const params = new URLSearchParams();
+		if (data.filters.search) params.set('q', data.filters.search);
+		if (data.filters.filter !== 'all') params.set('filter', data.filters.filter);
+		if (data.filters.sort !== 'last_sign_in_at') params.set('sort', data.filters.sort);
+		if (data.filters.direction !== 'desc') params.set('dir', data.filters.direction);
+		if (profilePage > 1) params.set('profilePage', String(profilePage));
+		if (signupPage > 1) params.set('signupPage', String(signupPage));
+		const query = params.toString();
+		return query ? `?${query}` : '/admin/users';
 	}
 
-	let sortedProfiles = $derived(
-		[...filteredProfiles].sort((a, b) => {
-			const aVal = getSortValue(a, sortField);
-			const bVal = getSortValue(b, sortField);
-			if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
-			if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
-			return 0;
-		})
-	);
+	let sortedProfiles = $derived(formattedProfiles);
+
+	function navigateUserDirectory(mutator: (url: URL) => void, replaceState = false) {
+		const url = new URL(window.location.href);
+		mutator(url);
+		url.searchParams.delete('profilePage');
+		goto(url.toString(), { replaceState, invalidateAll: true });
+	}
+
+	function handleSearch() {
+		clearTimeout(searchTimeout);
+		searchTimeout = setTimeout(() => {
+			navigateUserDirectory((url) => {
+				if (searchQuery.trim()) url.searchParams.set('q', searchQuery.trim());
+				else url.searchParams.delete('q');
+			}, true);
+		}, 300);
+	}
+
+	function setFilter(filter: 'all' | 'admins' | 'with-type' | 'no-type') {
+		navigateUserDirectory((url) => {
+			if (filter === 'all') url.searchParams.delete('filter');
+			else url.searchParams.set('filter', filter);
+		});
+	}
 
 	function toggleSort(field: SortField) {
-		if (sortField === field) {
-			sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
-		} else {
-			sortField = field;
-			sortDirection = 'desc';
-		}
+		const direction = sortField === field && sortDirection === 'desc' ? 'asc' : 'desc';
+		navigateUserDirectory((url) => {
+			if (field === 'last_sign_in_at') url.searchParams.delete('sort');
+			else url.searchParams.set('sort', field);
+			if (direction === 'desc') url.searchParams.delete('dir');
+			else url.searchParams.set('dir', direction);
+		});
 	}
+
+	onDestroy(() => clearTimeout(searchTimeout));
 
 	// Save admin status changes
 	const saveUserAdminChanges = async () => {
 		try {
 			const body = new FormData();
 			body.append('isAdmin', activeAdmin.toString());
-			body.append('email', active.email);
+			body.append('userId', active.id);
 
 			const resp = await fetch('?/updateAdmin', {
 				method: 'POST',
@@ -211,21 +202,18 @@
 			) {
 				notifications.success('User updated successfully', 3000);
 
-				// Update local data - formattedProfiles derives from data.profiles automatically
-				if (data.profiles) {
-					data.profiles = data.profiles.map((p) => ({
-						...p,
-						admin: p.email === active.email ? activeAdmin : p.admin
-					}));
-				}
+				await invalidateAll();
+				getModal('user-modal').close();
 			} else {
-				notifications.danger('Error updating user', 3000);
+				const message =
+					result.type === 'failure'
+						? (result.data as { message?: string } | undefined)?.message
+						: undefined;
+				notifications.danger(message || 'Error updating user', 4000);
 			}
 		} catch (error) {
 			console.error('Error saving admin changes:', error);
 			notifications.danger('Failed to update user', 3000);
-		} finally {
-			getModal('user-modal').close();
 		}
 	};
 
@@ -348,26 +336,31 @@
 	<!-- Stats Grid -->
 	<section class="stats-section">
 		<div class="stats-grid">
-			<StatCard icon="👥" label="Total Users" value={formattedProfiles.length} color="primary" />
-			<StatCard
-				icon="🛡️"
-				label="Admins"
-				value={formattedProfiles.filter((p) => p.admin).length}
-				color="warning"
-			/>
+			<StatCard icon="👥" label="Total Users" value={data.profileStats.total} color="primary" />
+			<StatCard icon="🛡️" label="Admins" value={data.profileStats.admins} color="warning" />
 			<StatCard
 				icon="✅"
 				label="With Type"
-				value={formattedProfiles.filter((p) => p.enneagram).length}
+				value={data.profileStats.withType}
 				subValue="{(
-					(formattedProfiles.filter((p) => p.enneagram).length / formattedProfiles.length) *
+					(data.profileStats.withType / Math.max(1, data.profileStats.total)) *
 					100
 				).toFixed(0)}%"
 				color="success"
 			/>
-			<StatCard icon="📧" label="Email Signups" value={formattedSignups.length} />
-			<StatCard icon="🚧" label="Quarantined" value={quarantinedSignups.length} color="warning" />
-			<StatCard icon="🔎" label="Needs Review" value={reviewSignups.length} color="primary" />
+			<StatCard icon="📧" label="Email Signups" value={data.signupPagination.total} />
+			<StatCard
+				icon="🚧"
+				label="Quarantined on page"
+				value={quarantinedSignups.length}
+				color="warning"
+			/>
+			<StatCard
+				icon="🔎"
+				label="Needs review on page"
+				value={reviewSignups.length}
+				color="primary"
+			/>
 		</div>
 	</section>
 
@@ -384,64 +377,125 @@
 	</section>
 
 	<!-- User Profiles Table -->
-	{#if formattedProfiles?.length}
-		<section class="table-section">
-			<div class="table-card">
-				<div class="table-header">
-					<h3 class="table-title">
-						<span class="title-icon">👥</span>
-						User Profiles
-						<span class="count-badge">{sortedProfiles.length}</span>
-					</h3>
-					<div class="table-controls">
-						<input
-							type="text"
-							placeholder="Search users..."
-							bind:value={searchQuery}
-							class="search-input"
-						/>
-						<select bind:value={filterType} class="filter-select">
-							<option value="all">All Users</option>
-							<option value="admins">Admins Only</option>
-							<option value="with-type">Has Enneagram</option>
-							<option value="no-type">No Enneagram</option>
-						</select>
-					</div>
+	<section class="table-section">
+		<div class="table-card">
+			<div class="table-header">
+				<h3 class="table-title">
+					<span class="title-icon">👥</span>
+					User Profiles
+					<span class="count-badge">{data.profilePagination.total} matching</span>
+				</h3>
+				<div class="table-controls">
+					<input
+						type="text"
+						placeholder="Search users..."
+						bind:value={searchQuery}
+						oninput={handleSearch}
+						class="search-input"
+						aria-label="Search all users"
+					/>
+					<select
+						value={data.filters.filter}
+						onchange={(event) =>
+							setFilter(event.currentTarget.value as 'all' | 'admins' | 'with-type' | 'no-type')}
+						class="filter-select"
+						aria-label="Filter users"
+					>
+						<option value="all">All Users</option>
+						<option value="admins">Admins Only</option>
+						<option value="with-type">Has Enneagram</option>
+						<option value="no-type">No Enneagram</option>
+					</select>
 				</div>
+			</div>
+			{#if sortedProfiles.length}
 				<div class="table-content">
 					<table class="data-table">
 						<thead>
 							<tr>
-								<th class="sortable" onclick={() => toggleSort('last_sign_in_at')}>
-									Last Active
-									{#if sortField === 'last_sign_in_at'}
-										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
-									{/if}
+								<th
+									class="sortable"
+									aria-sort={sortField === 'last_sign_in_at'
+										? sortDirection === 'asc'
+											? 'ascending'
+											: 'descending'
+										: 'none'}
+								>
+									<button
+										type="button"
+										class="sort-button"
+										onclick={() => toggleSort('last_sign_in_at')}
+									>
+										Last Active
+										{#if sortField === 'last_sign_in_at'}
+											<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+										{/if}
+									</button>
 								</th>
-								<th class="sortable" onclick={() => toggleSort('created_at')}>
-									Joined
-									{#if sortField === 'created_at'}
-										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
-									{/if}
+								<th
+									class="sortable"
+									aria-sort={sortField === 'created_at'
+										? sortDirection === 'asc'
+											? 'ascending'
+											: 'descending'
+										: 'none'}
+								>
+									<button
+										type="button"
+										class="sort-button"
+										onclick={() => toggleSort('created_at')}
+									>
+										Joined
+										{#if sortField === 'created_at'}
+											<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+										{/if}
+									</button>
 								</th>
-								<th class="sortable" onclick={() => toggleSort('email')}>
-									Email
-									{#if sortField === 'email'}
-										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
-									{/if}
+								<th
+									class="sortable"
+									aria-sort={sortField === 'email'
+										? sortDirection === 'asc'
+											? 'ascending'
+											: 'descending'
+										: 'none'}
+								>
+									<button type="button" class="sort-button" onclick={() => toggleSort('email')}>
+										Email
+										{#if sortField === 'email'}
+											<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+										{/if}
+									</button>
 								</th>
-								<th class="sortable" onclick={() => toggleSort('enneagram')}>
-									Type
-									{#if sortField === 'enneagram'}
-										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
-									{/if}
+								<th
+									class="sortable"
+									aria-sort={sortField === 'enneagram'
+										? sortDirection === 'asc'
+											? 'ascending'
+											: 'descending'
+										: 'none'}
+								>
+									<button type="button" class="sort-button" onclick={() => toggleSort('enneagram')}>
+										Type
+										{#if sortField === 'enneagram'}
+											<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+										{/if}
+									</button>
 								</th>
 								<th>Name</th>
-								<th class="sortable" onclick={() => toggleSort('admin')}>
-									Admin
-									{#if sortField === 'admin'}
-										<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
-									{/if}
+								<th
+									class="sortable"
+									aria-sort={sortField === 'admin'
+										? sortDirection === 'asc'
+											? 'ascending'
+											: 'descending'
+										: 'none'}
+								>
+									<button type="button" class="sort-button" onclick={() => toggleSort('admin')}>
+										Admin
+										{#if sortField === 'admin'}
+											<span class="sort-icon">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+										{/if}
+									</button>
 								</th>
 								<th></th>
 							</tr>
@@ -511,9 +565,34 @@
 						</tbody>
 					</table>
 				</div>
-			</div>
-		</section>
-	{/if}
+			{:else}
+				<div class="table-empty" role="status">No users match the current search and filter.</div>
+			{/if}
+			{#if data.profilePagination.totalPages > 1}
+				<nav class="pagination" aria-label="User profile pages">
+					<a
+						class:disabled={data.profilePagination.page === 1}
+						aria-disabled={data.profilePagination.page === 1}
+						href={data.profilePagination.page === 1
+							? undefined
+							: paginationHref(data.profilePagination.page - 1, data.signupPagination.page)}
+					>
+						Previous
+					</a>
+					<span>Page {data.profilePagination.page} of {data.profilePagination.totalPages}</span>
+					<a
+						class:disabled={data.profilePagination.page >= data.profilePagination.totalPages}
+						aria-disabled={data.profilePagination.page >= data.profilePagination.totalPages}
+						href={data.profilePagination.page >= data.profilePagination.totalPages
+							? undefined
+							: paginationHref(data.profilePagination.page + 1, data.signupPagination.page)}
+					>
+						Next
+					</a>
+				</nav>
+			{/if}
+		</div>
+	</section>
 
 	<!-- Email Signups Table -->
 	{#if formattedSignups?.length}
@@ -523,7 +602,7 @@
 					<h3 class="table-title">
 						<span class="title-icon">📧</span>
 						Email Signups
-						<span class="count-badge">{formattedSignups.length}</span>
+						<span class="count-badge">{formattedSignups.length} on page</span>
 					</h3>
 				</div>
 				<div class="table-content">
@@ -581,12 +660,35 @@
 						</tbody>
 					</table>
 				</div>
+				{#if data.signupPagination.totalPages > 1}
+					<nav class="pagination" aria-label="Email signup pages">
+						<a
+							class:disabled={data.signupPagination.page === 1}
+							aria-disabled={data.signupPagination.page === 1}
+							href={data.signupPagination.page === 1
+								? undefined
+								: paginationHref(data.profilePagination.page, data.signupPagination.page - 1)}
+						>
+							Previous
+						</a>
+						<span>Page {data.signupPagination.page} of {data.signupPagination.totalPages}</span>
+						<a
+							class:disabled={data.signupPagination.page >= data.signupPagination.totalPages}
+							aria-disabled={data.signupPagination.page >= data.signupPagination.totalPages}
+							href={data.signupPagination.page >= data.signupPagination.totalPages
+								? undefined
+								: paginationHref(data.profilePagination.page, data.signupPagination.page + 1)}
+						>
+							Next
+						</a>
+					</nav>
+				{/if}
 			</div>
 		</section>
 	{/if}
 </div>
 
-<Modal id="user-details-modal" maxWidth="840px">
+<Modal id="user-details-modal" name="User details" maxWidth="840px">
 	<div class="modal-content detail-modal-content">
 		<h2 class="modal-title">User Details</h2>
 
@@ -778,7 +880,7 @@
 	</div>
 </Modal>
 
-<Modal id="user-modal">
+<Modal id="user-modal" name="Edit user">
 	<div class="modal-content">
 		<h2 class="modal-title">Edit User</h2>
 		<div class="modal-user-info">
@@ -804,8 +906,11 @@
 			<label for="isAdmin">Administrator Status</label>
 			<select name="isAdmin" id="isAdmin" bind:value={activeAdmin} class="form-select">
 				<option value={true}>Administrator</option>
-				<option value={false}>Regular User</option>
+				<option value={false} disabled={active?.id === data.user?.id}>Regular User</option>
 			</select>
+			{#if active?.id === data.user?.id}
+				<p class="field-hint">Your own administrator access cannot be removed here.</p>
+			{/if}
 		</div>
 
 		<div class="modal-actions">
@@ -941,6 +1046,42 @@
 		-webkit-overflow-scrolling: touch;
 	}
 
+	.table-empty {
+		padding: 36px 16px;
+		color: var(--ink-mid);
+		font-size: 0.8125rem;
+		text-align: center;
+	}
+
+	.pagination {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		padding: 12px 14px;
+		border-top: 1px solid var(--stone-warm);
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+	}
+
+	.pagination a {
+		padding: 7px 10px;
+		border: 1px solid var(--stone-warm);
+		border-radius: 0.625rem;
+		color: var(--ink-bright);
+		text-decoration: none;
+		font-weight: 650;
+	}
+
+	.pagination a:hover {
+		border-color: var(--lamp-glow);
+	}
+
+	.pagination a.disabled {
+		pointer-events: none;
+		opacity: 0.45;
+	}
+
 	.data-table {
 		width: 100%;
 		border-collapse: collapse;
@@ -967,12 +1108,30 @@
 	}
 
 	.data-table th.sortable {
-		cursor: pointer;
 		user-select: none;
 	}
 
-	.data-table th.sortable:hover {
+	.sort-button {
+		display: inline-flex;
+		align-items: center;
+		padding: 0;
+		border: 0;
+		background: transparent;
+		color: inherit;
+		font: inherit;
+		text-transform: inherit;
+		letter-spacing: inherit;
+		cursor: pointer;
+	}
+
+	.sort-button:hover,
+	.sort-button:focus-visible {
 		color: var(--lamp-glow);
+	}
+
+	.sort-button:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 4px;
 	}
 
 	.sort-icon {
@@ -1431,6 +1590,13 @@
 	.form-select:focus {
 		outline: none;
 		border-color: var(--lamp-glow);
+	}
+
+	.field-hint {
+		margin: 0.5rem 0 0;
+		color: var(--ink-mid);
+		font-size: 0.75rem;
+		line-height: 1.5;
 	}
 
 	.modal-actions {

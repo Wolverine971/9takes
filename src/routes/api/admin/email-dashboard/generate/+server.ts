@@ -1,10 +1,12 @@
 // src/routes/api/admin/email-dashboard/generate/+server.ts
 // Generate email content using LLM
 
-import { json, error } from '@sveltejs/kit';
+import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import type { GenerateEmailRequest, GenerateEmailResponse } from '$lib/types/email';
+import type { GenerateEmailResponse } from '$lib/types/email';
 import { SmartLLMService } from '../../../../../utils/server/smart-llm-service';
+import { requireAdmin } from '$lib/server/adminAuth';
+import { adminGenerateEmailSchema } from '$lib/validation/adminEmailSchemas';
 
 const SYSTEM_PROMPT = `You are an email copywriter for 9takes.
 
@@ -89,32 +91,15 @@ Important:
 - For buttons, use: <a href="URL" style="display:inline-block;padding:14px 28px;background-color:#6c5ce7;color:#ffffff;text-decoration:none;border-radius:6px;font-weight:600;">Button Text</a>`;
 
 export const POST: RequestHandler = async ({ request, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	// Check authentication
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	// Check admin status
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { session, supabase } = await requireAdmin(locals);
 
 	try {
-		const body: GenerateEmailRequest = await request.json();
-		const { instructions, context } = body;
-
-		if (!instructions || !instructions.trim()) {
-			throw error(400, 'Instructions are required');
+		const parsed = adminGenerateEmailSchema.safeParse(await request.json().catch(() => null));
+		if (!parsed.success) {
+			throw error(400, 'Invalid email generation payload');
 		}
+		const body = parsed.data;
+		const { instructions, context } = body;
 
 		const userPrompt = `Generate an email based on these instructions:
 
@@ -156,6 +141,7 @@ Generate the email content now. Return valid JSON only.`;
 
 		return json(response);
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error generating email:', e);
 		if (e instanceof Error && 'status' in e) {
 			throw e;

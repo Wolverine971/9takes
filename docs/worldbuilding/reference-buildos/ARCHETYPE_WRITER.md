@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/ARCHETYPE_WRITER.md -->
+<!-- docs/worldbuilding/reference-buildos/ARCHETYPE_WRITER.md -->
 
 # Worldbuilding Map — The Writer
 

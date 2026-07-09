@@ -1,6 +1,7 @@
 // src/routes/admin/consulting/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { fail } from '@sveltejs/kit';
+import { guardAdminActions } from '$lib/server/adminAuth';
 import type { Database } from '../../../../database.types';
 
 type ClientIdentity = Pick<
@@ -398,7 +399,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	};
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	// Promote waitlist entry to client
 	promoteToClient: async ({ request, locals }) => {
 		const formData = await request.formData();
@@ -463,4 +464,4 @@ export const actions: Actions = {
 
 		return { success: true, clientId: newClient.id };
 	}
-};
+});

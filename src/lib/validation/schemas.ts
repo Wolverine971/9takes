@@ -124,8 +124,19 @@ export const adminUserUpdateSchema = z.object({
 });
 
 export const adminUpdateAdminStatusSchema = z.object({
-	email: emailSchema,
-	isAdmin: z.string().transform((val) => val === 'true')
+	userId: z.string().uuid(),
+	isAdmin: z.enum(['true', 'false']).transform((val) => val === 'true')
+});
+
+export const adminUsersQuerySchema = z.object({
+	search: z.string().trim().max(200).default('').catch(''),
+	filter: z.enum(['all', 'admins', 'with-type', 'no-type']).default('all').catch('all'),
+	sort: z
+		.enum(['last_sign_in_at', 'created_at', 'email', 'enneagram', 'admin'])
+		.default('last_sign_in_at')
+		.catch('last_sign_in_at'),
+	direction: z.enum(['asc', 'desc']).default('desc').catch('desc'),
+	profilePage: z.coerce.number().int().min(1).max(10_000).default(1).catch(1)
 });
 
 // Email validation schemas

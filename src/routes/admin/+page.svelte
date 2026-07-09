@@ -427,6 +427,22 @@
 		</div>
 	</section>
 
+	{#if data.dataStatus?.state === 'degraded'}
+		<section class="data-status" role="status" aria-live="polite">
+			<div>
+				<strong>Some dashboard data could not be refreshed.</strong>
+				<p>
+					Unavailable: {data.dataStatus.warnings.map((warning) => warning.label).join(', ')}. Empty
+					values in those areas may not mean zero activity.
+				</p>
+			</div>
+			<div class="data-status-meta">
+				<span>Checked {new Date(data.dataStatus.generatedAt).toLocaleTimeString()}</span>
+				<a href="/admin">Retry</a>
+			</div>
+		</section>
+	{/if}
+
 	<section class="dashboard-section">
 		<div class="section-header">
 			<div class="section-copy">
@@ -764,7 +780,7 @@
 	</section>
 </div>
 
-<Modal id="confirmReindex">
+<Modal id="confirmReindex" name="Reindex Elasticsearch">
 	<div class="modal-content">
 		<div class="modal-icon">🔄</div>
 		<h2 class="modal-title">Reindex Elasticsearch</h2>
@@ -812,10 +828,42 @@
 
 	.dashboard-section,
 	.dashboard-hero,
+	.data-status,
 	.metrics-grid,
 	.insights-grid,
 	.queue-grid {
 		min-width: 0;
+	}
+
+	.data-status {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 16px;
+		padding: 14px 16px;
+		border: 1px solid color-mix(in srgb, var(--warning) 45%, transparent);
+		border-radius: 10px;
+		background: color-mix(in srgb, var(--warning) 9%, var(--night));
+		color: var(--ink-bright);
+	}
+
+	.data-status p {
+		margin: 4px 0 0;
+		color: var(--ink-mid);
+	}
+
+	.data-status-meta {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		white-space: nowrap;
+		font-size: 0.82rem;
+		color: var(--ink-mid);
+	}
+
+	.data-status-meta a {
+		color: var(--accent);
+		font-weight: 700;
 	}
 
 	.panel {
@@ -1456,6 +1504,15 @@
 	@media (max-width: 768px) {
 		.admin-dashboard {
 			gap: 20px;
+		}
+
+		.data-status {
+			flex-direction: column;
+		}
+
+		.data-status-meta {
+			width: 100%;
+			justify-content: space-between;
 		}
 
 		.hero-bar {

@@ -1,6 +1,7 @@
 // src/routes/admin/consulting/sessions/[id]/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { error, fail } from '@sveltejs/kit';
+import { guardAdminActions } from '$lib/server/adminAuth';
 import type { Database } from '../../../../../../database.types';
 
 type ConsultingClient = Database['public']['Tables']['consulting_clients']['Row'];
@@ -475,7 +476,7 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 	};
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	// Update session status
 	updateStatus: async ({ request, params, locals }) => {
 		const formData = await request.formData();
@@ -643,4 +644,4 @@ export const actions: Actions = {
 
 		return { success: true };
 	}
-};
+});

@@ -1,5 +1,8 @@
 // src/routes/admin/consulting/sessions/+page.server.ts
 import type { PageServerLoad } from './$types';
+import { error as httpError } from '@sveltejs/kit';
+
+const SESSION_PAGE_SIZE = 100;
 
 export const load: PageServerLoad = async ({ locals, url }) => {
 	const supabase = locals.supabase;
@@ -7,17 +10,22 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 	// Get filter params
 	const view = url.searchParams.get('view') || 'upcoming';
 	const clientId = url.searchParams.get('client') || null;
+	const requestedPage = Number.parseInt(url.searchParams.get('page') ?? '1', 10);
+	const page = Number.isSafeInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
+	const offset = (page - 1) * SESSION_PAGE_SIZE;
 
 	// Base query
 	let query = supabase
 		.from('consulting_sessions')
 		.select(
 			`
-			*,
+			id, client_id, scheduled_at, session_type, status, duration_minutes, meeting_link,
 			client:consulting_clients(id, name, email, enneagram_type, trust_layer)
-		`
+		`,
+			{ count: 'exact' }
 		)
-		.order('scheduled_at', { ascending: view === 'upcoming' });
+		.order('scheduled_at', { ascending: view === 'upcoming' })
+		.range(offset, offset + SESSION_PAGE_SIZE - 1);
 
 	const now = new Date();
 	const isoNow = now.toISOString();
@@ -42,10 +50,11 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 		query = query.eq('client_id', clientId);
 	}
 
-	const { data: sessions, error } = await query;
+	const { data: sessions, error, count: filteredSessionCount } = await query;
 
 	if (error) {
 		console.error('Error fetching sessions:', error);
+		throw httpError(500, 'Failed to load consulting sessions');
 	}
 
 	// Get clients for filter dropdown
@@ -84,6 +93,12 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 			upcoming: totalUpcoming || 0,
 			today: totalToday || 0,
 			completed: totalCompleted || 0
+		},
+		pagination: {
+			page,
+			limit: SESSION_PAGE_SIZE,
+			total: filteredSessionCount ?? 0,
+			totalPages: Math.max(1, Math.ceil((filteredSessionCount ?? 0) / SESSION_PAGE_SIZE))
 		}
 	};
 };

@@ -1,5 +1,6 @@
 // src/routes/admin/marketing/+page.server.ts
 import { error, fail } from '@sveltejs/kit';
+import { guardAdminActions } from '$lib/server/adminAuth';
 import type { PageServerLoad } from './$types';
 import type { Actions } from './$types';
 
@@ -38,7 +39,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	createCampaign: async (event) => {
 		const { request } = event;
 		const supabase = event.locals.supabase;
@@ -276,4 +277,4 @@ export const actions: Actions = {
 
 		return { success: true };
 	}
-};
+});

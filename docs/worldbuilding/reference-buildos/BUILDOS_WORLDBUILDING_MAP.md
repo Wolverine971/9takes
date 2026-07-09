@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/BUILDOS_WORLDBUILDING_MAP.md -->
+<!-- docs/worldbuilding/reference-buildos/BUILDOS_WORLDBUILDING_MAP.md -->
 
 # BuildOS Worldbuilding Map
 

@@ -4,6 +4,7 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { deserialize } from '$app/forms';
+	import { Button } from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
@@ -21,6 +22,7 @@
 	let question = $state('');
 	let context = $state('');
 	let url = $state('');
+	let questionError = $state('');
 	let loading = $state(false);
 	// Social-card preview scales from its measured width (card art is 1200×630).
 	// Fixed 320px tiers clipped inside the modal at ≤390px (2026-06-11 audit).
@@ -50,6 +52,7 @@
 		question.trim().length >= MIN_CHAR_COUNT && question.length <= MAX_CHAR_COUNT
 	);
 	let questionCharCount = $derived(question.length);
+	let questionLengthInvalid = $derived(questionCharCount > 0 && !isQuestionValid);
 	let contextCharCount = $derived(context.length);
 
 	onMount(() => {
@@ -77,6 +80,9 @@
 
 	async function getUrl() {
 		if (!isQuestionValid) {
+			questionError = question.trim()
+				? `Question must be between ${MIN_CHAR_COUNT} and ${MAX_CHAR_COUNT} characters.`
+				: 'Enter a question before continuing.';
 			notifications.warning(
 				`Please enter a valid question (${MIN_CHAR_COUNT}-${MAX_CHAR_COUNT} characters)`,
 				3000
@@ -91,6 +97,7 @@
 
 		// Check if sanitized question still meets minimum length
 		if (sanitizedQuestion.length < MIN_CHAR_COUNT) {
+			questionError = `Use at least ${MIN_CHAR_COUNT} letters or numbers in your question.`;
 			notifications.warning(
 				`Question must have at least ${MIN_CHAR_COUNT} letters/numbers after removing special characters`,
 				3000
@@ -111,6 +118,7 @@
 
 			const data = await response.json();
 			url = JSON.parse(data?.data)?.[0];
+			questionError = '';
 			createProgressStage = 'saving';
 			loading = false;
 
@@ -122,6 +130,7 @@
 		} catch (error) {
 			console.error('Error generating URL:', error);
 			const message = error instanceof Error ? error.message : 'Failed to prepare question';
+			questionError = message;
 			notifications.danger(message, 5000);
 		}
 	}
@@ -276,6 +285,7 @@
 
 	function handleInput(event: Event) {
 		const target = event.target as HTMLTextAreaElement;
+		if (target.name === 'question') questionError = '';
 
 		// Debounce resize for performance
 		if (resizeDebounceTimer) clearTimeout(resizeDebounceTimer);
@@ -303,7 +313,17 @@
 		class="mt-6 rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-lg shadow-[var(--shadow-md)] transition hover:border-[var(--lamp-soft)] hover:shadow-[var(--glow-sm)] sm:p-8"
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
+		<label
+			for="question-input"
+			class="mb-2 block text-sm font-semibold uppercase tracking-[0.16em] text-[var(--ink-mid)]"
+		>
+			Your question
+		</label>
+		<p id="question-help" class="mb-3 text-sm text-[var(--ink-mid)]">
+			Ask one clear, open-ended question that invites people to share their perspective.
+		</p>
 		<textarea
+			id="question-input"
 			rows="4"
 			name="question"
 			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
@@ -311,8 +331,11 @@
 			bind:value={question}
 			oninput={handleInput}
 			maxlength={MAX_CHAR_COUNT}
+			aria-invalid={questionError || questionLengthInvalid ? 'true' : 'false'}
+			aria-describedby={`question-help question-count${questionError ? ' question-error' : ''}`}
 		></textarea>
 		<div
+			id="question-count"
 			class={`text-right text-sm ${questionCharCount > MAX_CHAR_COUNT || (questionCharCount > 0 && questionCharCount < MIN_CHAR_COUNT) ? 'text-[var(--error-text)]' : 'text-[var(--ink-dim)]'}`}
 		>
 			{questionCharCount}/{MAX_CHAR_COUNT} characters
@@ -320,6 +343,11 @@
 				<span class="ml-2">(min {MIN_CHAR_COUNT})</span>
 			{/if}
 		</div>
+		{#if questionError}
+			<p id="question-error" class="mt-2 text-sm font-medium text-[var(--error-text)]" role="alert">
+				{questionError}
+			</p>
+		{/if}
 		<div class="mt-5">
 			<label
 				for="question-context"
@@ -344,14 +372,16 @@
 				{contextCharCount}/{MAX_CONTEXT_CHAR_COUNT} characters
 			</div>
 		</div>
-		<button
-			class="mt-5 inline-flex w-full items-center justify-center rounded-md bg-[var(--lamp-glow)] px-5 py-3 text-base font-semibold text-[var(--text-on-primary)] transition-colors hover:bg-[var(--lamp-glow)] disabled:cursor-not-allowed disabled:opacity-60"
+		<Button
+			class="mt-5"
+			fullWidth
+			size="lg"
 			disabled={!isQuestionValid}
 			onclick={getUrl}
 			type="button"
 		>
 			Launch Your Question
-		</button>
+		</Button>
 	</div>
 	<p
 		class="mt-6 text-center text-base italic text-[var(--ink-mid)]"
@@ -361,7 +391,7 @@
 	</p>
 </div>
 
-<Modal id="question-create" name="create question" navTop={loading} disableClose={loading}>
+<Modal id="question-create" name="Create question" navTop={loading} disableClose={loading}>
 	<div
 		class="relative w-full max-w-2xl rounded-xl border border-[var(--stone-warm)] bg-[var(--night-deep)] p-6 text-[var(--ink-bright)] shadow-[var(--shadow-lg)] sm:p-8"
 		in:fade={{ duration: 300 }}

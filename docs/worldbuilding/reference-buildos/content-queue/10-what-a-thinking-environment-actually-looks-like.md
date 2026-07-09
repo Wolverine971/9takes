@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/10-what-a-thinking-environment-actually-looks-like.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/10-what-a-thinking-environment-actually-looks-like.md -->
 
 # What a thinking environment actually looks like
 

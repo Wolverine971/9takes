@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/05-the-two-headed-machine.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/05-the-two-headed-machine.md -->
 
 # The two-headed machine
 

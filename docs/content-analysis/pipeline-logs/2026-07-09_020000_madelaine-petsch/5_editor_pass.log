@@ -1,0 +1,19 @@
+Editor pass on `src/blog/people/drafts/Madelaine-Petsch.md` is done, and both exit checks pass.
+
+**What I found:** This draft was already unusually clean going in. It had been through fresh-eyes and second-pass edits, and every mechanical check was green before I touched it: zero em-dashes, zero contrast-pair sentence engines, zero banned AI phrases. The prose itself is strong — the "Four Phone Calls" section, the wrongful-conviction empathy turn, and the greenhouse ending are the piece's best material and I left them word-for-word intact, along with the inner-thought beat.
+
+**What I fixed:** The one real polish problem was paragraph density. Seven paragraphs ran 6–10 sentences as single walls of text, which fails the mobile-first rhythm rule. I split each at its natural turn:
+
+- The adult-evidence stack in the diagnosis section
+- Call Three (the longest of the four calls, now broken after the diagnosis-echo line)
+- The critic-pressure block (Collider's verdict now sits apart from her rebuttal)
+- The February 2026 franchise exit, now three beats so "Hold that next to the woman who counted one day off..." lands as its own paragraph
+- The Choni payoff in the YouTube section
+- The growth/motherhood block, now three beats so the "colder reading" of the motherhood reversal stands alone
+- The mother's close in the ending
+
+The only wording change in the entire pass: "And eight months" became "Eight months" where a split created a new paragraph start.
+
+**Exit checks:** blog-lint reports 0 fail, contrast pairs at 0 strong / 0 comparative, em-dash check green. Quality report confirms 0 contrast pairs and head-term PASS. `lastmod` untouched.
+
+**Verdict:** Production-ready on prose. The one remaining item is the lint WARN — no `faqs` in frontmatter — which belongs to the frontmatter-enrich stage (`/blog_content_frontmatter_enrich_people`), not this pass. Run that before publish.

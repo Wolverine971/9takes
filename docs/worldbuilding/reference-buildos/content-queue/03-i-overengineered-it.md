@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/03-i-overengineered-it.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/03-i-overengineered-it.md -->
 
 # "I overengineered it"
 

@@ -2,6 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogDiffViewer from '$lib/components/admin/BlogDiffViewer.svelte';
+	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import { goto } from '$app/navigation';
 
@@ -254,7 +255,11 @@
 					/>
 				</div>
 
-				{@html rightContent}
+				<HtmlPreviewFrame
+					html={rightContent}
+					title={`Blog version preview: ${rightTitle}`}
+					kind="document"
+				/>
 
 				<div class="blog-purpose-placeholder">
 					<p>

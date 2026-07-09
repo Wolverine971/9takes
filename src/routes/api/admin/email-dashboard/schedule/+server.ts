@@ -1,49 +1,25 @@
 // src/routes/api/admin/email-dashboard/schedule/+server.ts
 // Schedule emails for future delivery
 
-import { json, error } from '@sveltejs/kit';
+import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import type { ScheduleEmailRequest } from '$lib/types/email';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
+import { requireAdmin } from '$lib/server/adminAuth';
+import {
+	adminScheduledEmailStatusSchema,
+	adminScheduleEmailSchema
+} from '$lib/validation/adminEmailSchemas';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { session, supabase } = await requireAdmin(locals);
 
 	try {
-		const body: ScheduleEmailRequest = await request.json();
+		const parsed = adminScheduleEmailSchema.safeParse(await request.json().catch(() => null));
+		if (!parsed.success) {
+			throw error(400, 'Invalid scheduled email payload');
+		}
+		const body = parsed.data;
 		const { recipients, subject, html_content, scheduled_for, campaign_id } = body;
-
-		// Validate required fields
-		if (!recipients || recipients.length === 0) {
-			throw error(400, 'At least one recipient is required');
-		}
-
-		if (!subject || !subject.trim()) {
-			throw error(400, 'Subject is required');
-		}
-
-		if (!html_content || !html_content.trim()) {
-			throw error(400, 'Email content is required');
-		}
-
-		if (!scheduled_for) {
-			throw error(400, 'Scheduled time is required');
-		}
 
 		const scheduledDate = new Date(scheduled_for);
 		if (Number.isNaN(scheduledDate.getTime())) {
@@ -73,7 +49,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		const { data: scheduledEmail, error: insertError } = await supabase
 			.from('scheduled_emails')
 			.insert({
-				subject: subject.trim(),
+				subject,
 				html_content,
 				recipients: validRecipients,
 				scheduled_for: scheduledForIso,
@@ -98,6 +74,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			excluded_count: recipients.length - validRecipients.length
 		});
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error scheduling emails:', e);
 		if (e instanceof Error && 'status' in e) {
 			throw e;
@@ -108,24 +85,13 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 // GET - List scheduled emails
 export const GET: RequestHandler = async ({ url, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
+	const { supabase } = await requireAdmin(locals);
 
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
+	const parsedStatus = adminScheduledEmailStatusSchema.safeParse(url.searchParams.get('status'));
+	if (!parsedStatus.success) {
+		throw error(400, 'Invalid scheduled email status');
 	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
-
-	const status = url.searchParams.get('status') || null;
+	const status = parsedStatus.data;
 
 	try {
 		let query = supabase
@@ -148,6 +114,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 
 		return json({ scheduled_emails: scheduledEmails || [] });
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error in schedule GET:', e);
 		if (e instanceof Error && 'status' in e) {
 			throw e;

@@ -37,3 +37,31 @@ export async function requireAdmin(locals: App.Locals): Promise<{
 		profile
 	};
 }
+
+type GuardableAdminAction = (event: { locals: App.Locals }) => unknown;
+
+/**
+ * Wrap an admin route's action map so authorization runs before any handler code.
+ *
+ * SvelteKit layout loads do not authorize direct action POSTs. Keeping the guard at
+ * the action-map boundary makes it difficult to add a new handler without also
+ * protecting it.
+ */
+export function guardAdminActions<T extends Record<string, unknown>>(actions: T): T {
+	const guardedEntries = Object.entries(actions).map(([name, candidate]) => {
+		if (typeof candidate !== 'function') {
+			throw new TypeError(`Admin action "${name}" must be a function`);
+		}
+
+		const action = candidate as GuardableAdminAction;
+		return [
+			name,
+			async (event: { locals: App.Locals }) => {
+				await requireAdmin(event.locals);
+				return action(event);
+			}
+		] as const;
+	});
+
+	return Object.fromEntries(guardedEntries) as T;
+}

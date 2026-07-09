@@ -1,9 +1,10 @@
 // src/routes/api/admin/email-dashboard/recipients/+server.ts
 // Fetch full recipient batches for selected sources (deduped by email)
 
-import { json, error } from '@sveltejs/kit';
+import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import type { EmailRecipient, RecipientSource } from '$lib/types/email';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 const ALL_SOURCES: RecipientSource[] = ['profiles', 'signups', 'coaching_waitlist'];
 const PAGE_SIZE = 1000;
@@ -66,22 +67,7 @@ function parseRequestedSources(raw: string | null): RecipientSource[] {
 }
 
 export const GET: RequestHandler = async ({ url, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	const requestedSources = parseRequestedSources(url.searchParams.get('sources'));
 
@@ -136,6 +122,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			}
 		});
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error in batch recipients GET:', e);
 		if (e instanceof Error && 'status' in e) {
 			throw e;

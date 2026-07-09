@@ -66,6 +66,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'audrey-hepburn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
 		{ name: 'brené-brown', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['author'] },
 		{ name: 'jacinda-ardern', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
+		{ name: 'madelaine-petsch', link: false, hasImage: false, lastmod: '2026-07-09', personaTitle: 'Riverdale\'s Recovering Fixer', contentGrade: 8.5, types: ['newMovieStar', 'creator'] },
 		{ name: 'richard-simmons', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'simon-sinek', link: false, hasImage: false, lastmod: '2026-03-28', personaTitle: 'Leadership\'s Loneliest Optimist', contentGrade: null, types: ['author', 'entrepreneur', 'business-operator'] }
 	],
@@ -309,7 +310,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'marilyn-monroe', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Armored Icon', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'mark-twain', link: false, hasImage: true, lastmod: '2026-04-09', personaTitle: 'Literature\'s Counterphobic Prophet', contentGrade: 8.2, types: ['historical', 'historical-artist'] },
 		{ name: 'meghan-trainor', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Pop\'s Bubblegum Sentinel', contentGrade: 8.9, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
-		{ name: 'morgan-wallen', link: true, hasImage: true, lastmod: '2026-07-08', personaTitle: 'Nashville\'s Counterphobic Watchdog', contentGrade: 8.8, types: ['musician'] },
+		{ name: 'morgan-wallen', link: true, hasImage: true, lastmod: '2026-07-08', personaTitle: 'Nashville\'s Counterphobic Watchdog', contentGrade: 8.8, types: ['musician', 'music-crossover'] },
 		{ name: 'olivia-munn', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Counterphobic Sentinel', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'pedro-pascal', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s Anxious Guardian', contentGrade: 9.4, types: ['movieStar', 'screen-icon'] },
 		{ name: 'penelope-cruz', link: true, hasImage: true, lastmod: '2026-06-02', personaTitle: 'Cinema\'s Trembling Loyalist', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },

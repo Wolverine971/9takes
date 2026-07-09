@@ -1,0 +1,16 @@
+**Publish blocked — no eligible draft.** The script checked 466 candidates; 84 are unpublished and every one of them fails at least one gate, so nothing was published and no files were changed.
+
+Where the pool stands, grouped by what's actually blocking:
+
+**Closest to publishable (one blocker each):**
+- **hailee-steinfeld (8.6)** — only `missing_grade_stability_delta`. Rubric v2, images present, source audit passes. One supervised `/grade_blog` grade/regrade run away from eligible.
+- **oliver-tree (8.8)** and **julia-fox (8.5)** — only `missing_full_image` + `missing_thumbnail_image`. All quality gates pass. Type images are manual Canva work on your side.
+
+**Two blockers, images already present:** victoria-justice (9.0), alex-warren (8.9), olivia-wilde (8.8), glen-powell (8.5) — each needs the grade-stability run plus a fix for `source_standard_failed` (untagged quote in the epigraph or cold open).
+
+**The rest of the pool:**
+- ~50 drafts (including everything graded 9.0+: clint-eastwood 9.3, frank-lloyd-wright 9.3, britney-spears 9.2, ninja 9.2) are stuck on some combination of `stale_grade_rubric_v1` (needs v2 re-grade), missing grade-stability delta, untagged epigraph quotes, and missing images.
+- 14 drafts sit below the 8.5 grade floor (james-clear, jeff-goldblum, rose-blackpink at 8.4 are the closest).
+- 14 are skeletons or ungraded stubs (anthony-hopkins, antonio-banderas, nelk-boys, william-shakespeare, etc. — some are 26-word placeholders), plus one file with empty frontmatter worth cleaning up: `src/blog/people/drafts/Napoleon-Bonaparte-research.md` is likely the no-person row.
+
+Per the command I'm stopping here rather than bypassing the gate. Fastest path to a publish: run `/grade_blog Hailee-Steinfeld` to establish the stability delta, then re-run `/blog_content_publish_people Hailee-Steinfeld` — or drop Canva images in for Oliver Tree or Julia Fox and publish one of those.

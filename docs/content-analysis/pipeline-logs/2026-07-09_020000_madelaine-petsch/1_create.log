@@ -1,0 +1,23 @@
+Draft complete and all gates green. Madelaine Petsch typed as **Enneagram 2w3** — the fixer reading, anchored by her own Call Her Daddy admission that nobody ever assigned her the role of calming her father down ("I immediately saw a place that I could try to help"), the brother's-house-before-her-own purchase, and pride self-named as her motive. The 3w2 counter-case ("I'm happiest when I'm somebody else," the seven unworn Cartier rings) is engaged honestly in the Rabbit Hole.
+
+The piece is built from two full transcripts I pulled and mined (Call Her Daddy, Sept 2025; Angle on Producers, 2025) plus print sources (THR, Refinery29, Moviefone, Luxury London, Collider). Hook: the Craigslist window-sales job where she cried on command to close husbands, at eighteen. Bespoke section: her biography told as four phone calls, ending on the outbound-only rule. Ending: the interview her father didn't know she was giving.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Madelaine-Petsch.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (3 qualifying quotes: Renny Harlin ×2 Moviefone 2024, Carolina Groppa 2025)
+       Gate 2: pass (6 of 8 H2s search-intent/hybrid)
+       Gate 4: pass (no type-anaphora ending; scene-first hook)
+       Gate 5: pass (2 type-theory paragraphs outside diagnosis/Rabbit Hole)
+       Gate 6: pass (contrast pairs 0/0; similarity scan clear, top 0.061; bespoke form,
+               critic anchor = Collider's Chapter 2 pan, empathy turn = the six-million-
+               subscriber kindness campaign, current anchor = Maintenance Required #1 on
+               Prime Oct 2025, interior beat = inner-thought fix-it loop)
+LIMITATIONS: Harlin's casting video has captions disabled (quotes sourced from print);
+             father's diagnosis never named on air (draft mirrors her "chemical imbalance"
+             wording); ballet-night event stated only as she stated it
+```
+
+Deterministic checks: `blog-lint.sh` 0 fail / 1 warn (the warn is the expected pre-enrichment FAQ gap, owned by the frontmatter-enrich stage). Internal links added (5): Type 2 explainer, Lili-Reinhart, types-in-stress, wings guide, instinctual subtypes. Transcripts saved to `youtube-transcripts/` for downstream passes. Grading is left to `/grade_blog` per the command spec.

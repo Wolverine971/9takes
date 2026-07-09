@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/11-the-knots-test.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/11-the-knots-test.md -->
 
 # The knots test
 

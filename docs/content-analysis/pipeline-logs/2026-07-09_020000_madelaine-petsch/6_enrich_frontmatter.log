@@ -1,0 +1,33 @@
+```
+Frontmatter enrichment complete: Madelaine-Petsch
+
+Fields filled:
+- wikidata_qid (Q28839217), imdb_id (nm6663708, cross-checked via Wikidata P345),
+  birth_date (1994-08-18), birth_place (Port Orchard, Washington, United States),
+  nationality (American + South African, per Wikidata dual citizenship),
+  occupation (3), knows_about (5), keywords (9), same_as (3), citations (7), faqs (5)
+
+Fields already present (preserved):
+- wikipedia (correct canonical URL, left untouched)
+- twitter, instagram, lastmod, and all creator fields untouched
+
+FAQs generated (5):
+1. What is Madelaine Petsch's personality type? → #what-is-madelaine-petschs-personality-type
+2. Why was Madelaine Petsch sent in to fix her father as a child? → #madelaine-petschs-childhood-the-kid-sent-in-to-fix-her-father
+3. Why did Madelaine Petsch leave The Strangers franchise? → #how-madelaine-petsch-earned-the-credit-nobody-believed
+4. Why did Madelaine Petsch delete her YouTube videos? → #why-madelaine-petsch-built-a-youtube-channel-to-prove-shes-kind
+5. What is Madelaine Petsch's relationship with her father now? → #you-cant-fix-him
+
+Issues:
+- The body contains zero inline external links (sources are cited by outlet name, per house
+  style). Citations were built by resolving the body's named sources to canonical URLs:
+  the Call Her Daddy episode (Spotify), the Moviefone Renny Harlin interview (source of both
+  Testimony Ledger Harlin quotes), both Hollywood Reporter pieces (2024 "52 days" + 2026
+  "behind-the-scenes tears"), the Seattle Times exit interview, the Collider Chapter 2 review,
+  and Wikipedia. Nothing was invented.
+- Closes a Second Pass open item: the Seattle Times exit piece is confirmed as a
+  seattletimes.com original (Feb 4, 2026, byline Chase Hutchinson), not wire copy — the
+  outlet attribution in the body is correct as written.
+```
+
+All anchors match the body's actual H2 slugs, so each FAQ deep-links to its section. Verification: YAML parses, `blog-lint.sh` reports 0 fail / 0 warn (including "faqs present and FAQPage-eligible (5 real Q/A pairs)"), and the diff adds no em-dashes — the 33 in the file all live in the pre-existing comment ledgers' quote attributions, which lint exempts. Body, comment blocks, and `lastmod` are untouched. The draft is now ready for the grading stage (`/grade_blog`).

@@ -314,7 +314,7 @@
 		margin-top: 0.5rem;
 		padding: 0.5rem 0.75rem;
 		background-color: color-mix(in srgb, var(--error) 15%, transparent);
-		color: var(--error);
+		color: var(--error-text);
 		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
 		border-radius: 0.625rem;
 		font-size: 0.875rem;

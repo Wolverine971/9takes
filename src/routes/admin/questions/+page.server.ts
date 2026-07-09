@@ -1,8 +1,6 @@
 // src/routes/admin/questions/+page.server.ts
 import type { PageServerLoad } from './$types';
-import { error, redirect, type Actions } from '@sveltejs/kit';
-import { checkDemoTime } from '../../../utils/api';
-import { tagQuestion } from '../../../utils/server/openai';
+import { error, redirect } from '@sveltejs/kit';
 import { mapDemoValues } from '../../../utils/demo';
 import type { Database } from '../../../../database.types';
 
@@ -19,6 +17,8 @@ type AdminTagOption = {
 	tag_id: number;
 	tag_name: string;
 };
+
+const QUESTION_PAGE_SIZE = 100;
 
 async function validateAdmin(
 	session: App.Locals['session'],
@@ -56,18 +56,26 @@ export const load: PageServerLoad = async (event) => {
 		const { demo_time } = await event.parent();
 		const isDemo = demo_time === true;
 		const db = supabase as any;
+		const requestedPage = Number.parseInt(event.url.searchParams.get('page') ?? '1', 10);
+		const page = Number.isSafeInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
+		const offset = (page - 1) * QUESTION_PAGE_SIZE;
 
 		// Validate user is an admin
 		const user = await validateAdmin(session, isDemo, supabase);
 
 		// Get questions with related data
-		const { data: questions, error: questionsError } = await db
+		const {
+			data: questions,
+			error: questionsError,
+			count: questionCount
+		} = await db
 			.from(isDemo ? 'questions_demo' : 'questions')
 			.select(
-				`*, question_tag(*), ${isDemo ? 'profiles_demo' : 'profiles'} ( external_id, email, enneagram )`
+				`id, author_id, comment_count, context, created_at, data, es_id, flagged, img_url, last_comment_date, name, question, question_formatted, removed, tagged, updated_at, url, question_tag(*), ${isDemo ? 'profiles_demo' : 'profiles'} ( external_id, email, enneagram )`,
+				{ count: 'exact' }
 			)
 			.order('created_at', { ascending: false })
-			.limit(100);
+			.range(offset, offset + QUESTION_PAGE_SIZE - 1);
 
 		if (questionsError) {
 			console.error('Error fetching questions:', questionsError);
@@ -134,7 +142,13 @@ export const load: PageServerLoad = async (event) => {
 			user: mapDemoValues(user),
 			questions: mapDemoValues(questionsWithKeywords),
 			demoTime: isDemo,
-			tags
+			tags,
+			pagination: {
+				page,
+				limit: QUESTION_PAGE_SIZE,
+				total: questionCount ?? 0,
+				totalPages: Math.max(1, Math.ceil((questionCount ?? 0) / QUESTION_PAGE_SIZE))
+			}
 		};
 	} catch (err) {
 		// Pass through redirects and errors
@@ -142,99 +156,5 @@ export const load: PageServerLoad = async (event) => {
 
 		console.error('Unexpected error in load function:', err);
 		throw error(500, { message: 'An unexpected error occurred' });
-	}
-};
-
-export const actions: Actions = {
-	// Classify a single question
-	classifyQuestion: async ({ request, locals }) => {
-		try {
-			const session = locals?.session;
-			const supabase = locals.supabase;
-			const demo_time = (await checkDemoTime(supabase)) === true;
-
-			// Validate user is an admin
-			await validateAdmin(session, demo_time, supabase);
-
-			// Get question data from form
-			const body = Object.fromEntries(await request.formData());
-			const questionId = Number.parseInt(String(body.questionId ?? '0'), 10);
-			const questionText = String(body.questionText ?? '');
-
-			// Process question tagging
-			await tagQuestion(supabase, questionText, questionId);
-
-			return { success: true };
-		} catch (e) {
-			console.error('Failed to classify question:', e);
-			throw error(500, 'Failed to classify question');
-		}
-	},
-
-	// Classify all untagged questions
-	classifyAllUntaggedQuestions: async ({ request, locals }) => {
-		try {
-			const session = locals?.session;
-			const supabase = locals.supabase;
-			const demo_time = (await checkDemoTime(supabase)) === true;
-
-			// Validate user is an admin
-			await validateAdmin(session, demo_time, supabase);
-
-			// Get question data from form
-			const body = Object.fromEntries(await request.formData());
-			const questionId = Number.parseInt(String(body.questionId ?? '0'), 10);
-			const questionText = String(body.questionText ?? '');
-
-			// Process question tagging
-			await tagQuestion(supabase, questionText, questionId);
-
-			return { success: true };
-		} catch (e) {
-			console.error('Failed to classify all questions:', e);
-			throw error(500, 'Failed to classify questions');
-		}
-	},
-
-	// Update user account details
-	updateUserAccount: async ({ request, locals }) => {
-		try {
-			const session = locals?.session;
-			const supabase = locals.supabase;
-			const demo_time = (await checkDemoTime(supabase)) === true;
-			const db = supabase as any;
-
-			// Validate user is an admin
-			await validateAdmin(session, demo_time, supabase);
-
-			// Get user data from form
-			const body = Object.fromEntries(await request.formData());
-			const userData = {
-				first_name: String(body.firstName ?? ''),
-				last_name: String(body.lastName ?? ''),
-				enneagram: String(body.enneagram ?? '')
-			};
-			const email = String(body.email ?? '');
-
-			// Update user in database
-			const { error: updateUserError } = await db
-				.from(demo_time ? 'profiles_demo' : 'profiles')
-				.update(userData)
-				.eq('email', email);
-
-			if (updateUserError) {
-				console.error('Failed to update user:', updateUserError);
-				throw error(500, {
-					message: `Database error: ${updateUserError.message}`
-				});
-			}
-
-			return { success: true };
-		} catch (e) {
-			console.error('Failed to update user:', e);
-			throw error(400, {
-				message: `Failed to update user: ${e instanceof Error ? e.message : 'Unknown error'}`
-			});
-		}
 	}
 };

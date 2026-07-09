@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/02-hard-work-doesnt-speak-for-itself.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/02-hard-work-doesnt-speak-for-itself.md -->
 
 # Hard work doesn't speak for itself
 

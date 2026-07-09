@@ -253,7 +253,7 @@
 			transition: color 0.2s ease;
 
 			&:hover {
-				color: var(--lamp-bright);
+				color: var(--lamp-deep);
 			}
 		}
 	}
@@ -312,7 +312,7 @@
 		}
 
 		li.met {
-			color: var(--success);
+			color: var(--success-text);
 
 			&::before {
 				content: '● ';
@@ -323,7 +323,7 @@
 	.error-message {
 		padding: 0.75rem 0.9rem;
 		font-size: 0.9rem;
-		color: var(--error);
+		color: var(--error-text);
 		background: color-mix(in srgb, var(--error) 10%, transparent);
 		border: 1px solid color-mix(in srgb, var(--error) 28%, transparent);
 		border-radius: 0.625rem;

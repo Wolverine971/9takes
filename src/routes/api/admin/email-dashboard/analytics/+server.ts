@@ -1,26 +1,12 @@
 // src/routes/api/admin/email-dashboard/analytics/+server.ts
 // Fetch email analytics summary
 
-import { json, error } from '@sveltejs/kit';
+import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 export const GET: RequestHandler = async ({ url, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	const campaignId = url.searchParams.get('campaign_id');
 	const fromDate = url.searchParams.get('from_date');
@@ -54,6 +40,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			}
 		});
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error in analytics GET:', e);
 		throw error(500, 'Internal server error');
 	}

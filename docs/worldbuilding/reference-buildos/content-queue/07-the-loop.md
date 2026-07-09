@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/07-the-loop.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/07-the-loop.md -->
 
 # The Loop
 

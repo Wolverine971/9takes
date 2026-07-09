@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/08-canvas-for-you-checkpoint-for-agents.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/08-canvas-for-you-checkpoint-for-agents.md -->
 
 # A canvas for you, a checkpoint for your agents
 

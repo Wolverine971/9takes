@@ -33,6 +33,7 @@
 			} else {
 				url.searchParams.delete('q');
 			}
+			url.searchParams.delete('page');
 			goto(url.toString(), { replaceState: true, invalidateAll: true });
 		}, 300);
 	}
@@ -44,7 +45,15 @@
 		} else {
 			url.searchParams.set(key, value);
 		}
+		url.searchParams.delete('page');
 		goto(url.toString(), { replaceState: true, invalidateAll: true });
+	}
+
+	function goToPage(page: number) {
+		const url = new URL(window.location.href);
+		if (page <= 1) url.searchParams.delete('page');
+		else url.searchParams.set('page', String(page));
+		goto(url.toString(), { invalidateAll: true });
 	}
 
 	function formatDate(dateStr: string | null): string {
@@ -228,6 +237,22 @@
 			</table>
 		{/if}
 	</div>
+
+	{#if data.pagination.totalPages > 1}
+		<nav class="pagination" aria-label="Client pages">
+			<Button
+				variant="secondary"
+				disabled={data.pagination.page === 1}
+				onclick={() => goToPage(data.pagination.page - 1)}>Previous</Button
+			>
+			<span>Page {data.pagination.page} of {data.pagination.totalPages}</span>
+			<Button
+				variant="secondary"
+				disabled={data.pagination.page >= data.pagination.totalPages}
+				onclick={() => goToPage(data.pagination.page + 1)}>Next</Button
+			>
+		</nav>
+	{/if}
 </div>
 
 <!-- Create Client Modal -->
@@ -396,6 +421,16 @@
 		border: 1px solid var(--stone-warm);
 		border-radius: 1rem;
 		overflow-x: auto;
+	}
+
+	.pagination {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		margin-top: 1rem;
+		color: var(--ink-mid);
+		font-size: 0.85rem;
 	}
 
 	.clients-table {

@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/09-punching-above-your-weight-class.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/09-punching-above-your-weight-class.md -->
 
 # Punching above your weight class
 

@@ -1,0 +1,29 @@
+Lint is clean: 0 failures, and my bridge sentences register zero contrast-pair engines, no em-dashes, no banned phrases. The one WARN (no `faqs` frontmatter) is expected — the frontmatter-enrich stage just hasn't run yet in the pipeline.
+
+## Cohesion Check Complete: madelaine-petsch.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+Petsch is a Type 2 whose identity was welded at age eight to being the family's fixer of her father's moods; every adult pattern is that job replaying, and the arc of the piece is her slow resignation from it.
+
+### Changes Made (5 total)
+
+**Transition Fixes (3):**
+- *Four Phone Calls* → *Can't Stop Working*: Added "The phone is one boundary. The calendar has never had one." It carries the phone thread out of the calls section and frames the workaholism section as the boundary she hasn't built yet.
+- *Can't Stop Working* → *Earned the Credit*: Added "The producing has its own origin scene in the Port Orchard house." before the fake-car-keys paragraph, signaling the rewind to childhood instead of dropping the reader there.
+- *Earned the Credit* → *YouTube*: Added "The producer skeptics were not her first jury." It bridges the vanity-credit fear into the Cheryl misjudgment and plants "jury" ahead of the section's wrongful-conviction metaphor.
+
+**Internal Flow Fixes (2):**
+- *Can't Fix Something*, opening line: "The reflex outlived the insight" now reads "All that therapy produced the insight. The reflex outlived it." — anchors the referent, which was floating after the Cheryl-love quote.
+- *Can't Stop Working*: "The streak broke" → "The streak of day jobs broke" — the preceding sentences were about journals, so the referent needed one word of help.
+
+### What Was Preserved
+- All frontmatter, ledger comments, working notes, and the rabbit-hole accordion
+- All internal links (still 5)
+- The Four Phone Calls section, the empathy turn, and the ending — all untouched, per the fresh-eyes note that these are the piece's strongest material
+- Transitions that were already strong: cold open → diagnosis, diagnosis → childhood, YouTube → stress section, stress → ending
+
+### Remaining Concerns
+None structural. This draft had already been through fresh-eyes and a second pass, and it shows: the thread map reads as a coherent outline top to bottom, the promise in the title (the fixer job and the quitting) is delivered, and the ending passes the swap test. The three seams I bridged were the only places a reader would feel a bump.

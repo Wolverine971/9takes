@@ -664,7 +664,7 @@
 	.error-banner {
 		background: color-mix(in srgb, var(--error) 12%, transparent);
 		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
-		color: var(--error);
+		color: var(--error-text);
 		padding: 0.75rem 1rem;
 		border-radius: 0.625rem;
 		margin-bottom: 1rem;

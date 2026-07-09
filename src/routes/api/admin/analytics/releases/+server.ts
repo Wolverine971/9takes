@@ -2,6 +2,7 @@
 import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 import { analyticsDateSchema } from '$lib/validation/analyticsSchemas';
 import {
 	computeReleasePerformanceScoreFieldsFromWindows,
@@ -117,23 +118,6 @@ function parseDate(value: string | null): string | undefined {
 		throw error(400, `Invalid date: ${value}`);
 	}
 	return parsed.data;
-}
-
-async function assertAdmin(locals: App.Locals): Promise<void> {
-	const session = locals.session;
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await locals.supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
 }
 
 async function fetchReleasePerformanceRows(
@@ -344,7 +328,7 @@ async function buildDemandScoreFields(
 }
 
 export const GET: RequestHandler = async ({ url, locals }) => {
-	await assertAdmin(locals);
+	await requireAdmin(locals);
 
 	const fromDate = parseDate(url.searchParams.get('from'));
 	const toDate = parseDate(url.searchParams.get('to'));

@@ -1,28 +1,15 @@
 // src/routes/api/admin/email-dashboard/drafts/+server.ts
 // Manage email drafts
 
-import { json, error } from '@sveltejs/kit';
+import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import type { EmailDraft, SaveDraftRequest } from '$lib/types/email';
+import type { EmailDraft } from '$lib/types/email';
+import { requireAdmin } from '$lib/server/adminAuth';
+import { adminSaveEmailDraftSchema } from '$lib/validation/adminEmailSchemas';
 
 // GET - List all drafts
 export const GET: RequestHandler = async ({ locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	try {
 		const { data: drafts, error: draftsError } = await supabase
@@ -37,6 +24,7 @@ export const GET: RequestHandler = async ({ locals }) => {
 
 		return json({ drafts: drafts || [] });
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error in drafts GET:', e);
 		throw error(500, 'Internal server error');
 	}
@@ -44,25 +32,14 @@ export const GET: RequestHandler = async ({ locals }) => {
 
 // POST - Create or update draft
 export const POST: RequestHandler = async ({ request, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { session, supabase } = await requireAdmin(locals);
 
 	try {
-		const body: SaveDraftRequest = await request.json();
+		const parsed = adminSaveEmailDraftSchema.safeParse(await request.json().catch(() => null));
+		if (!parsed.success) {
+			throw error(400, 'Invalid email draft payload');
+		}
+		const body = parsed.data;
 		const { id, subject, html_content, recipients, scheduled_for } = body;
 
 		const draftData = {
@@ -113,6 +90,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		return json({ draft: result as EmailDraft });
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error in drafts POST:', e);
 		if (e instanceof Error && 'status' in e) {
 			throw e;

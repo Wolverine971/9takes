@@ -1,50 +1,22 @@
 // src/routes/api/admin/email-dashboard/reactivation-enroll/+server.ts
 // Profiles-only reactivation enrollment dry-run and execution endpoint.
 
-import { json, error } from '@sveltejs/kit';
+import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { enrollDormantCandidatesInReactivationSequence } from '$lib/server/emailSequences';
-import type { ReactivationBucket } from '$lib/email/sequences';
-
-const ALLOWED_BUCKETS = new Set<ReactivationBucket>(['cold', 'dormant', 'zombies']);
-
-function parseBuckets(value: unknown): ReactivationBucket[] | undefined {
-	if (!Array.isArray(value)) {
-		return undefined;
-	}
-
-	const buckets = value.filter((bucket): bucket is ReactivationBucket => {
-		return typeof bucket === 'string' && ALLOWED_BUCKETS.has(bucket as ReactivationBucket);
-	});
-
-	return buckets.length > 0 ? [...new Set(buckets)] : undefined;
-}
+import { requireAdmin } from '$lib/server/adminAuth';
+import { adminReactivationEnrollmentSchema } from '$lib/validation/adminEmailSchemas';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
+	await requireAdmin(locals);
 
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
+	const parsed = adminReactivationEnrollmentSchema.safeParse(
+		await request.json().catch(() => null)
+	);
+	if (!parsed.success) {
+		throw error(400, 'Invalid reactivation enrollment payload');
 	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
-
-	const body = await request.json().catch(() => ({}));
-	const limit =
-		typeof body.limit === 'number' && Number.isFinite(body.limit)
-			? Math.floor(body.limit)
-			: undefined;
-	const dryRun = body.dryRun !== false;
-	const buckets = parseBuckets(body.buckets);
+	const { dryRun, limit, buckets } = parsed.data;
 
 	const summary = await enrollDormantCandidatesInReactivationSequence({
 		dryRun,

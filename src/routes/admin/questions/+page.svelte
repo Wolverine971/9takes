@@ -61,16 +61,17 @@
 	>('all');
 
 	// Stats
-	let totalQuestions = $derived(questions.length);
-	let totalComments = $derived(
+	let loadedQuestions = $derived(questions.length);
+	let totalQuestions = $derived(data.pagination.total);
+	let loadedComments = $derived(
 		questions.reduce((sum: number, q: any) => sum + (q.comment_count || 0), 0)
 	);
 	let taggedCount = $derived(questions.filter((q: any) => hasAssignedTags(q)).length);
-	let untaggedCount = $derived(totalQuestions - taggedCount);
+	let untaggedCount = $derived(loadedQuestions - taggedCount);
 	let processedCount = $derived(
 		questions.filter((q: any) => q.question_formatted && q.question_formatted !== q.question).length
 	);
-	let unprocessedCount = $derived(totalQuestions - processedCount);
+	let unprocessedCount = $derived(loadedQuestions - processedCount);
 
 	// Build unique tag list for category filter
 	let allTags = $derived.by(() => {
@@ -198,19 +199,19 @@
 
 	<section class="stats-section">
 		<div class="stats-grid">
-			<StatCard icon="❓" label="Total Questions" value={totalQuestions} color="primary" />
-			<StatCard icon="💬" label="Total Comments" value={totalComments} color="success" />
+			<StatCard icon="❓" label="Questions in database" value={totalQuestions} color="primary" />
+			<StatCard icon="💬" label="Comments on this page" value={loadedComments} color="success" />
 			<StatCard
 				icon="🏷️"
-				label="Tagged"
-				value="{taggedCount}/{totalQuestions}"
+				label="Tagged on this page"
+				value="{taggedCount}/{loadedQuestions}"
 				color={untaggedCount > 0 ? 'warning' : 'success'}
 				subValue="{untaggedCount} untagged"
 			/>
 			<StatCard
 				icon="✅"
-				label="Processed"
-				value="{processedCount}/{totalQuestions}"
+				label="Processed on this page"
+				value="{processedCount}/{loadedQuestions}"
 				color={unprocessedCount > 0 ? 'warning' : 'success'}
 				subValue="{unprocessedCount} unprocessed"
 			/>
@@ -222,10 +223,10 @@
 			<div class="card-header">
 				<div class="card-heading">
 					<div>
-						<h2 class="card-title">All Questions</h2>
+						<h2 class="card-title">Questions page {data.pagination.page}</h2>
 						<p class="card-subtitle">
-							Search across the original and formatted text, then sort by moderation signals or
-							recent activity.
+							Showing {loadedQuestions} of {totalQuestions}. Search, filters, and sorting apply to
+							this loaded page.
 						</p>
 					</div>
 					<span class="count-badge">{displayedQuestions.length} visible</span>
@@ -397,11 +398,33 @@
 					<p>Try clearing one of the filters or broadening your search.</p>
 				</div>
 			{/if}
+
+			{#if data.pagination.totalPages > 1}
+				<nav class="pagination" aria-label="Question pages">
+					<a
+						class:disabled={data.pagination.page === 1}
+						aria-disabled={data.pagination.page === 1}
+						href={data.pagination.page === 1 ? undefined : `?page=${data.pagination.page - 1}`}
+					>
+						Previous
+					</a>
+					<span>Page {data.pagination.page} of {data.pagination.totalPages}</span>
+					<a
+						class:disabled={data.pagination.page >= data.pagination.totalPages}
+						aria-disabled={data.pagination.page >= data.pagination.totalPages}
+						href={data.pagination.page >= data.pagination.totalPages
+							? undefined
+							: `?page=${data.pagination.page + 1}`}
+					>
+						Next
+					</a>
+				</nav>
+			{/if}
 		</div>
 	</section>
 </div>
 
-<Modal id="question-details-modal" maxWidth="1080px">
+<Modal id="question-details-modal" name="Question details" maxWidth="1080px">
 	{#if selectedQuestion}
 		<AdminQuestionItem
 			questionData={selectedQuestion}
@@ -592,6 +615,34 @@
 		font-size: 0.78rem;
 		font-weight: 700;
 		white-space: nowrap;
+	}
+
+	.pagination {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+		padding: 18px 24px;
+		border-top: 1px solid var(--stone-edge);
+		color: var(--ink-mid);
+	}
+
+	.pagination a {
+		padding: 9px 13px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		color: var(--ink-bright);
+		text-decoration: none;
+		font-weight: 650;
+	}
+
+	.pagination a:hover {
+		border-color: var(--lamp-glow);
+	}
+
+	.pagination a.disabled {
+		pointer-events: none;
+		opacity: 0.45;
 	}
 
 	.controls-grid {

@@ -235,6 +235,8 @@ export async function sendEmailWithTracking(
 		htmlContent: string;
 		plainTextContent?: string;
 		campaignId?: string;
+		sequenceEnrollmentId?: string;
+		sequenceStepNumber?: number;
 		sentBy?: string | null;
 		includeFooter?: boolean;
 	}
@@ -246,6 +248,8 @@ export async function sendEmailWithTracking(
 		htmlContent,
 		plainTextContent,
 		campaignId,
+		sequenceEnrollmentId,
+		sequenceStepNumber,
 		sentBy,
 		includeFooter = true
 	} = options;
@@ -263,6 +267,8 @@ export async function sendEmailWithTracking(
 			html_content: htmlContent,
 			plain_text_content: resolvedPlainTextContent,
 			campaign_id: campaignId,
+			sequence_enrollment_id: sequenceEnrollmentId,
+			sequence_step_number: sequenceStepNumber,
 			sent_by: normalizeSentBy(sentBy),
 			status: 'pending'
 		})

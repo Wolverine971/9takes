@@ -5,6 +5,7 @@ import matter from 'gray-matter';
 import { marked } from 'marked';
 import { load as parseHtml } from 'cheerio';
 import { slugFromPath } from '$lib/slugFromPath';
+import { guardAdminActions } from '$lib/server/adminAuth';
 import type { Database } from '../../../../../database.types';
 import {
 	normalizeEnneagram,
@@ -107,7 +108,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	};
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	fetchBlog: async ({ request, locals }) => {
 		try {
 			const formData = await request.formData();
@@ -132,7 +133,7 @@ export const actions: Actions = {
 			});
 		}
 	}
-};
+});
 
 function normalizeInputUrl(input: string): URL {
 	const trimmed = input.trim();

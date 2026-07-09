@@ -11,8 +11,11 @@ import { generateEmailHtml } from '$lib/email/base-template';
 import { prepareSequenceSend, type SequenceSendRow } from '$lib/email/sequences';
 import { sendEmail } from '$lib/email/sender';
 import { logger } from '$lib/utils/logger';
+import type { SequenceStepMetric } from '$lib/server/emailSequenceMetrics';
 
 const TEST_UNSUBSCRIBE_URL = 'https://9takes.com/api/track/unsubscribe/test-preview';
+const RECENT_ENROLLMENT_LIMIT = 200;
+const QUEUED_ENROLLMENT_LIMIT = 100;
 
 type StepRow = {
 	step_number: number;
@@ -41,14 +44,6 @@ type EnrollmentRow = {
 	last_error: string | null;
 };
 
-type EmailSendRow = {
-	subject: string;
-	status: string | null;
-	opened_at: string | null;
-	clicked_at: string | null;
-	recipient_source_id: string | null;
-};
-
 type DbStepRow = {
 	step_number: number;
 	subject: string;
@@ -72,6 +67,92 @@ type ScheduledEmailQueueRow = {
 	recipient_count: number;
 	created_at: string | null;
 };
+
+type WelcomeFunnelCounts = {
+	total_enrolled: number;
+	reached_step_1: number;
+	reached_step_2: number;
+	reached_step_3: number;
+	reached_step_4: number;
+	completed: number;
+	exited: number;
+	errored: number;
+	active: number;
+};
+
+async function loadWelcomeFunnelCounts(
+	supabase: App.Locals['supabase'],
+	sequenceId: string
+): Promise<WelcomeFunnelCounts> {
+	const baseQuery = () =>
+		supabase
+			.from('email_sequence_enrollments')
+			.select('id', { count: 'exact', head: true })
+			.eq('sequence_id', sequenceId);
+	const results = await Promise.all([
+		baseQuery(),
+		baseQuery().gte('current_step_number', 1),
+		baseQuery().gte('current_step_number', 2),
+		baseQuery().gte('current_step_number', 3),
+		baseQuery().gte('current_step_number', 4),
+		baseQuery().eq('status', 'completed'),
+		baseQuery().eq('status', 'exited'),
+		baseQuery().eq('status', 'errored'),
+		baseQuery().eq('status', 'active')
+	]);
+	const failed = results.find((result) => result.error);
+	if (failed?.error) throw failed.error;
+	const count = (index: number) => results[index]?.count ?? 0;
+
+	return {
+		total_enrolled: count(0),
+		reached_step_1: count(1),
+		reached_step_2: count(2),
+		reached_step_3: count(3),
+		reached_step_4: count(4),
+		completed: count(5),
+		exited: count(6),
+		errored: count(7),
+		active: count(8)
+	};
+}
+
+async function loadSequenceStepMetrics(
+	supabase: App.Locals['supabase'],
+	sequenceId: string,
+	steps: StepRow[]
+): Promise<SequenceStepMetric[]> {
+	return Promise.all(
+		steps.map(async (step) => {
+			const baseQuery = () =>
+				supabase
+					.from('email_sends')
+					.select('id', { count: 'exact', head: true })
+					.eq('sequence_id', sequenceId)
+					.eq('sequence_step_number', step.step_number);
+			const [deliveredResult, openedResult, clickedResult] = await Promise.all([
+				baseQuery().in('status', ['sent', 'delivered']),
+				baseQuery().not('opened_at', 'is', null),
+				baseQuery().not('clicked_at', 'is', null)
+			]);
+			const failed = [deliveredResult, openedResult, clickedResult].find((result) => result.error);
+			if (failed?.error) throw failed.error;
+			const totalSent = deliveredResult.count ?? 0;
+			const totalOpened = openedResult.count ?? 0;
+			const totalClicked = clickedResult.count ?? 0;
+
+			return {
+				step_number: step.step_number,
+				subject: step.subject,
+				total_sent: totalSent,
+				total_opened: totalOpened,
+				total_clicked: totalClicked,
+				open_rate: totalSent > 0 ? Math.round((totalOpened / totalSent) * 100) : 0,
+				click_rate: totalSent > 0 ? Math.round((totalClicked / totalSent) * 100) : 0
+			};
+		})
+	);
+}
 
 function buildSequenceRow({
 	sequenceKey,
@@ -150,11 +231,18 @@ export const load: PageServerLoad = async ({ locals }) => {
 			scheduledEmails: [],
 			stepMetrics: [],
 			funnelCounts: null,
+			enrollmentWindowLimit: RECENT_ENROLLMENT_LIMIT,
 			adminEmail: session?.user?.email ?? ''
 		};
 	}
 
-	const [stepsResult, enrollmentsResult, scheduledEmailsResult] = await Promise.all([
+	const [
+		stepsResult,
+		enrollmentsResult,
+		queuedEnrollmentsResult,
+		scheduledEmailsResult,
+		funnelCounts
+	] = await Promise.all([
 		supabase
 			.from('email_sequence_steps')
 			.select('step_number, subject, html_content, plain_text, delay_days_after_previous')
@@ -166,28 +254,39 @@ export const load: PageServerLoad = async ({ locals }) => {
 				'id, user_id, recipient_email, recipient_source, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error'
 			)
 			.eq('sequence_id', sequence.id)
-			.order('enrolled_at', { ascending: false }),
+			.order('enrolled_at', { ascending: false })
+			.limit(RECENT_ENROLLMENT_LIMIT),
+		supabase
+			.from('email_sequence_enrollments')
+			.select(
+				'id, user_id, recipient_email, recipient_source, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error'
+			)
+			.eq('sequence_id', sequence.id)
+			.in('status', ['active', 'processing'])
+			.not('next_step_number', 'is', null)
+			.not('next_send_at', 'is', null)
+			.order('next_send_at', { ascending: true })
+			.limit(QUEUED_ENROLLMENT_LIMIT),
 		supabase
 			.from('scheduled_emails')
 			.select('id, subject, scheduled_for, status, recipients, created_at')
 			.in('status', ['pending', 'processing'])
 			.order('scheduled_for', { ascending: true })
-			.limit(25)
+			.limit(25),
+		loadWelcomeFunnelCounts(supabase, sequence.id)
 	]);
+
+	if (stepsResult.error || enrollmentsResult.error || queuedEnrollmentsResult.error) {
+		throw stepsResult.error || enrollmentsResult.error || queuedEnrollmentsResult.error;
+	}
 
 	const dbSteps = (stepsResult.data || []) as DbStepRow[];
 	const steps = dbSteps.map((step) => buildEffectiveStep(sequence.key, step));
 	const enrollments: EnrollmentRow[] = enrollmentsResult.data || [];
+	const queueEnrollments: EnrollmentRow[] = queuedEnrollmentsResult.data || [];
 	const nowTime = Date.now();
 	const stepsByNumber = new Map(steps.map((step) => [step.step_number, step]));
-	const queuedEnrollments: QueueRow[] = enrollments
-		.filter((enrollment) => {
-			return (
-				(enrollment.status === 'active' || enrollment.status === 'processing') &&
-				enrollment.next_step_number !== null &&
-				enrollment.next_send_at !== null
-			);
-		})
+	const queuedEnrollments: QueueRow[] = queueEnrollments
 		.map((enrollment) => {
 			const nextStep = enrollment.next_step_number
 				? stepsByNumber.get(enrollment.next_step_number)
@@ -207,7 +306,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 			const bTime = b.next_send_at ? new Date(b.next_send_at).getTime() : Number.MAX_SAFE_INTEGER;
 			return aTime - bTime;
 		})
-		.slice(0, 100);
+		.slice(0, QUEUED_ENROLLMENT_LIMIT);
 	const scheduledEmails: ScheduledEmailQueueRow[] = (scheduledEmailsResult.data || []).map(
 		(scheduled) => ({
 			id: scheduled.id,
@@ -219,54 +318,8 @@ export const load: PageServerLoad = async ({ locals }) => {
 		})
 	);
 
-	// Match email_sends to sequence steps by subject for per-step delivery metrics
-	const stepSubjects = [
-		...new Set([
-			...steps.map((s) => s.subject),
-			...dbSteps.map((s) => s.subject).filter((subject): subject is string => Boolean(subject))
-		])
-	];
-
-	const { data: emailSends } = stepSubjects.length
-		? await supabase
-				.from('email_sends')
-				.select('subject, status, opened_at, clicked_at, recipient_source_id')
-				.in('subject', stepSubjects)
-		: { data: [] };
-	const sequenceEmailSends: EmailSendRow[] = emailSends || [];
-
-	const stepMetrics = steps.map((step) => {
-		const dbStep = dbSteps.find((candidate) => candidate.step_number === step.step_number);
-		const acceptedSubjects = new Set([step.subject, dbStep?.subject].filter(Boolean));
-		const sends = sequenceEmailSends.filter((emailSend) => acceptedSubjects.has(emailSend.subject));
-		const delivered = sends.filter(
-			(emailSend) => emailSend.status === 'sent' || emailSend.status === 'delivered'
-		);
-		const opened = sends.filter((emailSend) => emailSend.opened_at);
-		const clicked = sends.filter((emailSend) => emailSend.clicked_at);
-		return {
-			step_number: step.step_number,
-			subject: step.subject,
-			total_sent: delivered.length,
-			total_opened: opened.length,
-			total_clicked: clicked.length,
-			open_rate: delivered.length > 0 ? Math.round((opened.length / delivered.length) * 100) : 0,
-			click_rate: delivered.length > 0 ? Math.round((clicked.length / delivered.length) * 100) : 0
-		};
-	});
-
-	// Funnel: how many enrollments reached each step
-	const funnelCounts = {
-		total_enrolled: enrollments.length,
-		reached_step_1: enrollments.filter((e) => e.current_step_number >= 1).length,
-		reached_step_2: enrollments.filter((e) => e.current_step_number >= 2).length,
-		reached_step_3: enrollments.filter((e) => e.current_step_number >= 3).length,
-		reached_step_4: enrollments.filter((e) => e.current_step_number >= 4).length,
-		completed: enrollments.filter((e) => e.status === 'completed').length,
-		exited: enrollments.filter((e) => e.status === 'exited').length,
-		errored: enrollments.filter((e) => e.status === 'errored').length,
-		active: enrollments.filter((e) => e.status === 'active').length
-	};
+	// Aggregate by immutable sequence/step identity without transferring every send row.
+	const stepMetrics = await loadSequenceStepMetrics(supabase, sequence.id, steps);
 
 	// Get return visits for enrolled users from page analytics
 	const userIds = [...new Set(enrollments.map((e) => e.user_id).filter(Boolean))] as string[];
@@ -318,6 +371,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 		scheduledEmails,
 		stepMetrics,
 		funnelCounts,
+		enrollmentWindowLimit: RECENT_ENROLLMENT_LIMIT,
 		adminEmail: session?.user?.email ?? ''
 	};
 };

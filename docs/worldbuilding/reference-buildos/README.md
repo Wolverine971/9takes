@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/README.md -->
+<!-- docs/worldbuilding/reference-buildos/README.md -->
 
 # Worldbuilding
 

@@ -121,14 +121,17 @@
 					<textarea
 						id="chorus-take"
 						bind:value={draft}
+						oninput={() => (submitError = null)}
 						maxlength="2000"
 						rows="4"
 						placeholder="Answer honestly. No one sees this, and no one else's answers, until you write yours."
+						aria-invalid={submitError ? 'true' : 'false'}
+						aria-describedby={`chorus-take-count${submitError ? ' chorus-take-error' : ''}`}
 					></textarea>
 				</label>
 
 				<div class="give-foot">
-					<span class="count" class:ready={wordCount >= 3}>
+					<span id="chorus-take-count" class="count" class:ready={wordCount >= 3}>
 						{wordCount === 0
 							? 'A sentence is enough.'
 							: `${wordCount} word${wordCount === 1 ? '' : 's'}`}
@@ -137,7 +140,9 @@
 						{submitting ? 'Listening…' : 'Answer and see the nine'}
 					</button>
 				</div>
-				{#if submitError}<p class="submit-error">{submitError}</p>{/if}
+				{#if submitError}
+					<p id="chorus-take-error" class="submit-error" role="alert">{submitError}</p>
+				{/if}
 				<p class="promise">You answer before you see. That is the whole point.</p>
 			</div>
 		{:else}
@@ -305,7 +310,7 @@
 	}
 
 	.submit-error {
-		color: color-mix(in srgb, #ef4444 75%, var(--ink-100, #ededed));
+		color: var(--error-text);
 		font-size: 0.9rem;
 		margin: 0.6rem 0 0;
 	}
@@ -340,7 +345,7 @@
 		padding-left: 1.1rem;
 	}
 	.your-answer .block-kicker {
-		color: var(--accent);
+		color: var(--ink-bright);
 	}
 	.your-text {
 		font-size: 1.1rem;
@@ -357,7 +362,7 @@
 		font-size: 0.78rem;
 		font-weight: 700;
 		letter-spacing: 0.04em;
-		color: var(--accent);
+		color: var(--ink-bright);
 	}
 
 	.sub {
@@ -393,7 +398,7 @@
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		font-weight: 700;
-		color: var(--accent);
+		color: var(--ink-bright);
 	}
 	.voice-take {
 		margin: 0.35rem 0 0;

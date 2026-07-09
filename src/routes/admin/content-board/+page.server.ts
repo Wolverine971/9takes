@@ -1,6 +1,7 @@
 // src/routes/admin/content-board/+page.server.ts
 import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
+import { guardAdminActions } from '$lib/server/adminAuth';
 import matter from 'gray-matter';
 
 import type { Actions, PageServerLoad } from './$types';
@@ -203,7 +204,7 @@ export const load: PageServerLoad = async (
 	};
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	updateStage: async ({ request, locals }) => {
 		try {
 			const supabase = locals.supabase;
@@ -280,4 +281,4 @@ export const actions: Actions = {
 			});
 		}
 	}
-};
+});

@@ -2,9 +2,15 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { afterNavigate } from '$app/navigation';
-	import { onDestroy } from 'svelte';
+	import { onDestroy, tick } from 'svelte';
 	import { fly, fade } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
+	import {
+		focusInitialElement,
+		inertBodySiblings,
+		restoreFocus,
+		trapFocus
+	} from '$lib/utils/focusBoundary';
 	import { lockBodyScroll } from '$lib/utils/scrollLock';
 
 	// Props to receive navigation items
@@ -16,6 +22,10 @@
 	let isMenuOpen = false;
 	let isDropdownOpen = true;
 	let releaseBodyScroll: (() => void) | null = null;
+	let releaseBackgroundInert: (() => void) | null = null;
+	let menuDialog: HTMLDivElement;
+	let menuToggle: HTMLButtonElement;
+	let previouslyFocused: HTMLElement | null = null;
 
 	function lockMenuScroll() {
 		releaseBodyScroll ??= lockBodyScroll();
@@ -28,39 +38,54 @@
 
 	// Close menu when page changes
 	afterNavigate(() => {
-		closeMenu();
+		closeMenu(false);
 	});
 
 	// Cleanup on component destroy
 	onDestroy(() => {
 		unlockMenuScroll();
+		releaseBackgroundInert?.();
+		releaseBackgroundInert = null;
 	});
 
 	/**
 	 * Toggle the mobile menu
 	 */
 	function toggleMenu() {
-		const nextMenuOpen = !isMenuOpen;
-		isMenuOpen = nextMenuOpen;
-
-		if (!nextMenuOpen) {
-			// Reset to expanded so the next open shows the Library again
-			isDropdownOpen = true;
+		if (isMenuOpen) {
+			closeMenu();
+			return;
 		}
 
-		if (isMenuOpen) lockMenuScroll();
-		else unlockMenuScroll();
+		void openMenu();
+	}
+
+	async function openMenu() {
+		previouslyFocused =
+			document.activeElement instanceof HTMLElement ? document.activeElement : menuToggle;
+		isMenuOpen = true;
+		lockMenuScroll();
+		await tick();
+
+		if (!isMenuOpen || !menuDialog) return;
+		releaseBackgroundInert = inertBodySiblings(menuDialog);
+		focusInitialElement(menuDialog, '.close-button');
 	}
 
 	/**
 	 * Close the mobile menu
 	 */
-	function closeMenu() {
+	function closeMenu(returnFocus = true) {
+		if (!isMenuOpen && !releaseBackgroundInert) return;
 		isMenuOpen = false;
 		// Reset to expanded so the next open shows the Library again
 		isDropdownOpen = true;
 
 		unlockMenuScroll();
+		releaseBackgroundInert?.();
+		releaseBackgroundInert = null;
+		if (returnFocus) restoreFocus(previouslyFocused);
+		previouslyFocused = null;
 	}
 
 	/**
@@ -74,7 +99,15 @@
 	 * Handle keyboard navigation
 	 */
 	function handleKeydown(event: KeyboardEvent) {
-		if (event.key === 'Escape' && isMenuOpen) {
+		if (!isMenuOpen || !menuDialog) return;
+
+		if (event.key === 'Tab') {
+			trapFocus(event, menuDialog);
+			return;
+		}
+
+		if (event.key === 'Escape') {
+			event.preventDefault();
 			closeMenu();
 		}
 	}
@@ -113,6 +146,7 @@
 <div class="mobile-nav-container">
 	<!-- Menu toggle button -->
 	<button
+		bind:this={menuToggle}
 		class="mobile-nav-toggle"
 		aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
 		aria-expanded={isMenuOpen}
@@ -130,6 +164,7 @@
 	{#if isMenuOpen}
 		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 		<div
+			bind:this={menuDialog}
 			use:portalToBody
 			class="mobile-nav-overlay"
 			role="dialog"
@@ -151,7 +186,12 @@
 				<!-- Header -->
 				<div class="mobile-nav-header">
 					<h2 id="mobile-nav-title" class="nav-title">Menu</h2>
-					<button class="close-button" aria-label="Close navigation" on:click={closeMenu}>
+					<button
+						type="button"
+						class="close-button"
+						aria-label="Close navigation"
+						on:click={() => closeMenu()}
+					>
 						<svg
 							width="24"
 							height="24"
@@ -176,7 +216,7 @@
 									{href}
 									class="nav-link"
 									class:active={isActive(href)}
-									on:click={closeMenu}
+									on:click={() => closeMenu(false)}
 									aria-current={isActive(href) ? 'page' : undefined}
 								>
 									{label}
@@ -189,7 +229,6 @@
 							<button
 								type="button"
 								class="dropdown-toggle"
-								aria-haspopup="true"
 								aria-expanded={isDropdownOpen}
 								aria-controls="mobile-library-menu"
 								on:click={toggleDropdown}
@@ -222,7 +261,7 @@
 												{href}
 												class="submenu-link"
 												class:active={isActive(href)}
-												on:click={closeMenu}
+												on:click={() => closeMenu(false)}
 												aria-current={isActive(href) ? 'page' : undefined}
 											>
 												{label}
@@ -242,7 +281,7 @@
 									href="/admin"
 									class="admin-button"
 									class:active={$page.url.pathname.startsWith('/admin')}
-									on:click={closeMenu}
+									on:click={() => closeMenu(false)}
 									aria-current={$page.url.pathname.startsWith('/admin') ? 'page' : undefined}
 								>
 									Admin
@@ -250,7 +289,9 @@
 							{/if}
 
 							{#if !$page.data?.user}
-								<a href="/login" class="login-button" on:click={closeMenu}> Login / Register </a>
+								<a href="/login" class="login-button" on:click={() => closeMenu(false)}>
+									Login / Register
+								</a>
 							{/if}
 						</div>
 					{/if}

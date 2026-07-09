@@ -1,0 +1,426 @@
+[2026-07-09 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-09 02:00:00] [INFO] SELECTED: madelaine-petsch (Type 6)
+[2026-07-09 02:00:00] [INFO] Launching pipeline for madelaine-petsch
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  madelaine-petsch
+Draft:   src/blog/people/drafts/madelaine-petsch.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch
+Started: Thu Jul  9 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 madelaine-petsch --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/1_create.log
+─────────────────────────────────────────────────────
+Draft complete and all gates green. Madelaine Petsch typed as **Enneagram 2w3** — the fixer reading, anchored by her own Call Her Daddy admission that nobody ever assigned her the role of calming her father down ("I immediately saw a place that I could try to help"), the brother's-house-before-her-own purchase, and pride self-named as her motive. The 3w2 counter-case ("I'm happiest when I'm somebody else," the seven unworn Cartier rings) is engaged honestly in the Rabbit Hole.
+
+The piece is built from two full transcripts I pulled and mined (Call Her Daddy, Sept 2025; Angle on Producers, 2025) plus print sources (THR, Refinery29, Moviefone, Luxury London, Collider). Hook: the Craigslist window-sales job where she cried on command to close husbands, at eighteen. Bespoke section: her biography told as four phone calls, ending on the outbound-only rule. Ending: the interview her father didn't know she was giving.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Madelaine-Petsch.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (3 qualifying quotes: Renny Harlin ×2 Moviefone 2024, Carolina Groppa 2025)
+       Gate 2: pass (6 of 8 H2s search-intent/hybrid)
+       Gate 4: pass (no type-anaphora ending; scene-first hook)
+       Gate 5: pass (2 type-theory paragraphs outside diagnosis/Rabbit Hole)
+       Gate 6: pass (contrast pairs 0/0; similarity scan clear, top 0.061; bespoke form,
+               critic anchor = Collider's Chapter 2 pan, empathy turn = the six-million-
+               subscriber kindness campaign, current anchor = Maintenance Required #1 on
+               Prime Oct 2025, interior beat = inner-thought fix-it loop)
+LIMITATIONS: Harlin's casting video has captions disabled (quotes sourced from print);
+             father's diagnosis never named on air (draft mirrors her "chemical imbalance"
+             wording); ballet-night event stated only as she stated it
+```
+
+Deterministic checks: `blog-lint.sh` 0 fail / 1 warn (the warn is the expected pre-enrichment FAQ gap, owned by the frontmatter-enrich stage). Internal links added (5): Type 2 explainer, Lili-Reinhart, types-in-stress, wings guide, instinctual subtypes. Transcripts saved to `youtube-transcripts/` for downstream passes. Grading is left to `/grade_blog` per the command spec.
+[Stage 1] create finished 02:26:08 (exit=0, 1568s)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:26:08)
+Command: /blog_content_fresh_eyes_people madelaine-petsch
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Fresh-eyes review complete for `src/blog/people/drafts/Madelaine-Petsch.md`. The notes are appended as a `FRESH EYES REVIEW (2026-07-09)` comment block at the bottom of the file — no body edits were made.
+
+The two biggest issues flagged:
+
+1. **Cheryl Blossom is frozen at season one.** The draft only frames her as a "menace"/"bully," but the character's defining public arc — coming out as bisexual, the Choni relationship, and Petsch fighting the writers' room for that representation while fans told her the character helped them accept themselves — is completely missing. It's both the most obvious reader-expectation gap and a missed thesis-reinforcer: she spent seven seasons fixing her own character.
+2. **The mother thread never closes.** The outbound-only phone rule covers *both* parents and the resentment lands on "everyone in my family," but the ending litigates only dad — mom stays a plot device.
+
+Also worth knowing: the current-tense anchor is stale — *The Strangers: Chapter 3* released February 6, 2026 and Petsch has said she's walking away from the franchise "for my own mental health," which is arc-relevant material (the fixer learning to quit). Smaller notes cover trims (the age-8 night is touched five times, the Cartier rings three) and a TL;DR bullet that pre-spends the ending's payoff. The review also flags what to preserve: the "Four Phone Calls" section, the YouTube empathy turn, and the ending.
+
+Sources: [Nylon — Petsch on Choni shippers](https://www.nylon.com/articles/madelaine-petsch-riverdale-choni-interview), [Capital — Petsch confirms Cheryl is bisexual](https://www.capitalfm.com/news/tv-film/is-cheryl-blossom-bisexual/), [Refinery29 — Cheryl's coming out](https://www.refinery29.com/en-us/2018/03/192895/cheryl-coming-out-bisexual-riverdale-season-2), [THR — Chapter 3 ending interview](https://www.hollywoodreporter.com/movies/movie-features/the-strangers-chapter-3-star-madelaine-petsch-1236496498/), [Wikipedia — The Strangers: Chapter 3](https://en.wikipedia.org/wiki/The_Strangers_%E2%80%93_Chapter_3)
+[Stage 2] fresh_eyes finished 02:29:18 (exit=0, 190s)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:29:18)
+Command: /blog_content_second_pass_people madelaine-petsch
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/3_second_pass.log
+─────────────────────────────────────────────────────
+Second pass complete on `src/blog/people/drafts/Madelaine-Petsch.md`. The source audit is now clean (9 load-bearing quote units: 1 inline, 8 vague, **0 untagged**) and blog-lint passes with 0 fails (the one warning is the missing `faqs` frontmatter, which belongs to the enrich stage, not this pass).
+
+**Source traceability (fixed first, wholesale):** All 6 untagged load-bearing quotes now carry venue/year tags — the five diagnosis-section quotes (the volunteer admission, family support, producing peak, pride confession, "It's for life") and the close's "I've not told him I'm going on this."
+
+**Fresh-eyes notes addressed:**
+- **Strangers exit (the stale anchor):** Verified and added. Chapter 3 closed the trilogy February 6, 2026, and she announced she's walking away "for my own mental health" — the quote runs in the [Seattle Times](https://www.seattletimes.com/entertainment/movies/madelaine-petsch-is-done-with-the-strangers-after-chapter-3-for-now/)/[Yakima Herald](https://www.yakimaherald.com/news/nation_and_world/entertainment/madelaine-petsch-is-done-with-the-strangers-after-chapter-3-for-now/article_bbb0ec73-a05b-50c7-8316-bee4935c9dea.html) piece, backed by the ["behind-the-scenes tears" quote from THR](https://www.hollywoodreporter.com/movies/movie-features/the-strangers-chapter-3-star-madelaine-petsch-1236496498/). It now ends the producer section as the first thing in the whole story she quit for her own sake.
+- **Cheryl frozen at season one:** Added a Choni paragraph closing the YouTube section — the season-two coming-out, the fan-impact quote from [Wonderland Magazine, 2018](https://www.wonderlandmagazine.com/2018/07/12/madelaine-petsch/), and her Call Her Daddy "love a character" line. The "mean girl did her old job for strangers" framing reinforces the thesis rather than diluting it.
+- **Mother thread:** Closed in the ending with transcript-verified material — the "destined to be mothers" line, the "peace and tranquility" suppression cost, the family now comparing memories that don't match, and the outbound-only rule covering her too.
+- **Smaller items:** Riverdale bridge added (2016, meeting Lili Reinhart "in this thing together where we both hadn't booked it"); the Denver healer now gets an introductory clause; the motherhood reversal gets its skeptical reading in two sentences; the diagnosis-section age-8 preview compressed; Cartier rings trimmed to two mentions; the TL;DR no longer spoils the phone-rule payoff.
+
+**Rejected:** The fresh-eyes claim that Petsch "fought the writers' room" for Cheryl's bisexuality — I couldn't verify it, so the Choni material went in without it.
+
+**Still open (flagged in the notes block):** The exit quote's original byline is unverifiable behind the Seattle Times paywall; if an editor confirms it's wire copy, the outlet name should be swapped. Frontmatter enrich (`faqs`) still needs its own pass.
+[Stage 3] second_pass finished 02:43:23 (exit=0, 846s)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:43:24)
+Command: /cohesion-check src/blog/people/drafts/madelaine-petsch.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/4_cohesion.log
+─────────────────────────────────────────────────────
+Lint is clean: 0 failures, and my bridge sentences register zero contrast-pair engines, no em-dashes, no banned phrases. The one WARN (no `faqs` frontmatter) is expected — the frontmatter-enrich stage just hasn't run yet in the pipeline.
+
+## Cohesion Check Complete: madelaine-petsch.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+Petsch is a Type 2 whose identity was welded at age eight to being the family's fixer of her father's moods; every adult pattern is that job replaying, and the arc of the piece is her slow resignation from it.
+
+### Changes Made (5 total)
+
+**Transition Fixes (3):**
+- *Four Phone Calls* → *Can't Stop Working*: Added "The phone is one boundary. The calendar has never had one." It carries the phone thread out of the calls section and frames the workaholism section as the boundary she hasn't built yet.
+- *Can't Stop Working* → *Earned the Credit*: Added "The producing has its own origin scene in the Port Orchard house." before the fake-car-keys paragraph, signaling the rewind to childhood instead of dropping the reader there.
+- *Earned the Credit* → *YouTube*: Added "The producer skeptics were not her first jury." It bridges the vanity-credit fear into the Cheryl misjudgment and plants "jury" ahead of the section's wrongful-conviction metaphor.
+
+**Internal Flow Fixes (2):**
+- *Can't Fix Something*, opening line: "The reflex outlived the insight" now reads "All that therapy produced the insight. The reflex outlived it." — anchors the referent, which was floating after the Cheryl-love quote.
+- *Can't Stop Working*: "The streak broke" → "The streak of day jobs broke" — the preceding sentences were about journals, so the referent needed one word of help.
+
+### What Was Preserved
+- All frontmatter, ledger comments, working notes, and the rabbit-hole accordion
+- All internal links (still 5)
+- The Four Phone Calls section, the empathy turn, and the ending — all untouched, per the fresh-eyes note that these are the piece's strongest material
+- Transitions that were already strong: cold open → diagnosis, diagnosis → childhood, YouTube → stress section, stress → ending
+
+### Remaining Concerns
+None structural. This draft had already been through fresh-eyes and a second pass, and it shows: the thread map reads as a coherent outline top to bottom, the promise in the title (the fixer job and the quitting) is delivered, and the ending passes the swap test. The three seams I bridged were the only places a reader would feel a bump.
+[Stage 4] cohesion finished 02:47:45 (exit=0, 261s)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:47:45)
+Command: /blog_content_editor_pass_people madelaine-petsch
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/5_editor_pass.log
+─────────────────────────────────────────────────────
+Editor pass on `src/blog/people/drafts/Madelaine-Petsch.md` is done, and both exit checks pass.
+
+**What I found:** This draft was already unusually clean going in. It had been through fresh-eyes and second-pass edits, and every mechanical check was green before I touched it: zero em-dashes, zero contrast-pair sentence engines, zero banned AI phrases. The prose itself is strong — the "Four Phone Calls" section, the wrongful-conviction empathy turn, and the greenhouse ending are the piece's best material and I left them word-for-word intact, along with the inner-thought beat.
+
+**What I fixed:** The one real polish problem was paragraph density. Seven paragraphs ran 6–10 sentences as single walls of text, which fails the mobile-first rhythm rule. I split each at its natural turn:
+
+- The adult-evidence stack in the diagnosis section
+- Call Three (the longest of the four calls, now broken after the diagnosis-echo line)
+- The critic-pressure block (Collider's verdict now sits apart from her rebuttal)
+- The February 2026 franchise exit, now three beats so "Hold that next to the woman who counted one day off..." lands as its own paragraph
+- The Choni payoff in the YouTube section
+- The growth/motherhood block, now three beats so the "colder reading" of the motherhood reversal stands alone
+- The mother's close in the ending
+
+The only wording change in the entire pass: "And eight months" became "Eight months" where a split created a new paragraph start.
+
+**Exit checks:** blog-lint reports 0 fail, contrast pairs at 0 strong / 0 comparative, em-dash check green. Quality report confirms 0 contrast pairs and head-term PASS. `lastmod` untouched.
+
+**Verdict:** Production-ready on prose. The one remaining item is the lint WARN — no `faqs` in frontmatter — which belongs to the frontmatter-enrich stage (`/blog_content_frontmatter_enrich_people`), not this pass. Run that before publish.
+[Stage 5] editor_pass finished 02:51:45 (exit=0, 240s)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:51:45)
+Command: /blog_content_frontmatter_enrich_people madelaine-petsch
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+```
+Frontmatter enrichment complete: Madelaine-Petsch
+
+Fields filled:
+- wikidata_qid (Q28839217), imdb_id (nm6663708, cross-checked via Wikidata P345),
+  birth_date (1994-08-18), birth_place (Port Orchard, Washington, United States),
+  nationality (American + South African, per Wikidata dual citizenship),
+  occupation (3), knows_about (5), keywords (9), same_as (3), citations (7), faqs (5)
+
+Fields already present (preserved):
+- wikipedia (correct canonical URL, left untouched)
+- twitter, instagram, lastmod, and all creator fields untouched
+
+FAQs generated (5):
+1. What is Madelaine Petsch's personality type? → #what-is-madelaine-petschs-personality-type
+2. Why was Madelaine Petsch sent in to fix her father as a child? → #madelaine-petschs-childhood-the-kid-sent-in-to-fix-her-father
+3. Why did Madelaine Petsch leave The Strangers franchise? → #how-madelaine-petsch-earned-the-credit-nobody-believed
+4. Why did Madelaine Petsch delete her YouTube videos? → #why-madelaine-petsch-built-a-youtube-channel-to-prove-shes-kind
+5. What is Madelaine Petsch's relationship with her father now? → #you-cant-fix-him
+
+Issues:
+- The body contains zero inline external links (sources are cited by outlet name, per house
+  style). Citations were built by resolving the body's named sources to canonical URLs:
+  the Call Her Daddy episode (Spotify), the Moviefone Renny Harlin interview (source of both
+  Testimony Ledger Harlin quotes), both Hollywood Reporter pieces (2024 "52 days" + 2026
+  "behind-the-scenes tears"), the Seattle Times exit interview, the Collider Chapter 2 review,
+  and Wikipedia. Nothing was invented.
+- Closes a Second Pass open item: the Seattle Times exit piece is confirmed as a
+  seattletimes.com original (Feb 4, 2026, byline Chase Hutchinson), not wire copy — the
+  outlet attribution in the body is correct as written.
+```
+
+All anchors match the body's actual H2 slugs, so each FAQ deep-links to its section. Verification: YAML parses, `blog-lint.sh` reports 0 fail / 0 warn (including "faqs present and FAQPage-eligible (5 real Q/A pairs)"), and the diff adds no em-dashes — the 33 in the file all live in the pre-existing comment ledgers' quote attributions, which lint exempts. Body, comment blocks, and `lastmod` are untouched. The draft is now ready for the grading stage (`/grade_blog`).
+[Stage 6] enrich_frontmatter finished 02:57:17 (exit=0, 332s)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 153 chars
+ok    meta_title length 54 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (43 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+ok    no comparative contrast patterns detected
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: madelaine-petsch — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+─────────────────────────────────────────────────────
+[Stage 6.6] quality_report  (started 02:57:17)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs madelaine-petsch
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/6.6_quality_report.log
+─────────────────────────────────────────────────────
+blog-quality-report: madelaine-petsch
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Why Madelaine Petsch Can't Stop Fixing People (Type 2)
+   answer-block: ok (43 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 382)
+[Stage 6.6] quality_report finished (exit=0, 1s)
+
+─────────────────────────────────────────────────────
+[Stage 6.7] source_audit  (started 02:57:18)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs madelaine-petsch --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/6.7_source_audit.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — Madelaine-Petsch  (Type 2)
+/Users/djwayne/9takes/src/blog/people/drafts/madelaine-petsch.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "I remember in therapy once, I said, 'I'm happiest when I'm somebody else.' I'm an actor. And I think that's how."
+             outlet="Call Her Daddy"  year=2025
+
+### COLD OPEN
+  [VAGUE   ] "I would make myself cry and get the husbands to buy windows,"
+             year=2025
+
+### DIAGNOSIS
+  [VAGUE   ] "Honestly, I don't think she ever asked me to do that. I think I immediately saw a place that I could try to help and I just tried to help every time I could."
+             year=2025  venue="episode"
+  [VAGUE   ] "a lot of my family,"
+             year=2025  venue="interview"
+  [VAGUE   ] "No one asked me to. I wanted to help."
+             year=2025  venue="interview"
+  [VAGUE   ] "The coolest part of producing so far has been having actors come to me, being like, hey, I'm having this problem with this wardrobe, or the sound thing is this... where actors trust and believe in me enough to do that with me."
+             year=2025  venue="podcast"
+  [VAGUE   ] "I won't take a producer credit unless I actually produced something, probably because I have too much pride."
+             venue="podcast"
+  [VAGUE   ] "It's for life."
+             year=2025
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  [VAGUE   ] "I've not told him I'm going on this, and I'm very curious to see how that goes."
+             venue="episode"
+
+------------------------------------------------------------------------
+SUMMARY: 9 load-bearing quote(s) — 1 inline, 8 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 6.7] source_audit finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.8] same_type_similarity  (started 02:57:18)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs madelaine-petsch --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/6.8_same_type_similarity.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Madelaine-Petsch (Type 2)
+/Users/djwayne/9takes/src/blog/people/drafts/Madelaine-Petsch.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 33
+Comparison set (last 8 other Type-2 drafts by date):
+  - mother-teresa  (2026-06-22, 28 units)
+  - bill-clinton  (2026-04-20, 41 units)
+  - hilary-duff  (2026-04-12, 37 units)
+  - sky-bri  (2026-04-09, 24 units)
+  - khloe-kardashian  (2026-04-04, 31 units)
+  - hugh-jackman  (2026-04-01, 31 units)
+  - simon-sinek  (2026-03-28, 22 units)
+  - tom-hiddleston  (2026-03-24, 21 units)
+
+Noise floor over 7755 unit pairs:  median=0  p90=0  p99=0.006  max=0.061
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.061 ##                   khloe-kardashian
+  0.057 ##                   bill-clinton
+  0.029 #                    hilary-duff
+  0.028 #                    mother-teresa
+  0.022 #                    hugh-jackman
+  0.021 #                    sky-bri
+  0.015 #                    tom-hiddleston
+  0.006                      simon-sinek
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.061   Madelaine-Petsch  <->  khloe-kardashian
+   TARGET [counter-typing] If she ever starts collecting credits she didn't sweat for
+   OTHER  [diagnosis] She didn't stay with Lamar because she was weak.
+
+score 0.059   Madelaine-Petsch  <->  khloe-kardashian
+   TARGET [counter-typing] If she ever starts collecting credits she didn't sweat for
+   OTHER  [diagnosis] She didn't forgive Tristan because she lacked self-respect.
+
+score 0.057   Madelaine-Petsch  <->  bill-clinton
+   TARGET [diagnosis] Explaining to the same podcast why she turns down honorary credits
+   OTHER  [diagnosis] Every single pattern points to the same engine
+
+score 0.042   Madelaine-Petsch  <->  khloe-kardashian
+   TARGET [diagnosis] I wanted to help." She bought a house in Washington and moved her brother into it so he could get out of their parents' home.
+   OTHER  [diagnosis] "I want to be remembered for giving second chances
+
+score 0.034   Madelaine-Petsch  <->  khloe-kardashian
+   TARGET [diagnosis] at an age when volunteering was the only power available
+   OTHER  [diagnosis] She stayed because leaving meant admitting she wasn't enough to save him — and being enough was the only thing she had.
+
+score 0.029   Madelaine-Petsch  <->  hilary-duff
+   TARGET [diagnosis] whether her mother assigned her the role
+   OTHER  [diagnosis] Her mother moved across the country for the girls' careers.
+
+score 0.028   Madelaine-Petsch  <->  bill-clinton
+   TARGET [diagnosis] She financially supports "a lot of my family
+   OTHER  [diagnosis] or my family." The apology was textbook Two
+
+score 0.028   Madelaine-Petsch  <->  mother-teresa
+   TARGET [diagnosis] a personality built around a trade struck young
+   OTHER  [diagnosis] Type 2 is the type whose engine is built around love
+
+score 0.022   Madelaine-Petsch  <->  bill-clinton
+   TARGET [diagnosis] I wanted to help." She bought a house in Washington and moved her brother into it so he could get out of their parents' home.
+   OTHER  [diagnosis] The result is not just someone who wants to help but someone who wants to be seen as the greatest helper alive.
+
+score 0.022   Madelaine-Petsch  <->  hugh-jackman
+   TARGET [counter-typing] "I'm happiest when I'm somebody else" is a textbook Achiever sentence
+   OTHER  [diagnosis] But the engine underneath is a Two's engine
+
+score 0.021   Madelaine-Petsch  <->  sky-bri
+   TARGET [diagnosis] I'm having this problem with this wardrobe
+   OTHER  [diagnosis] "They're proud of me now that I'm financially stable
+
+score 0.020   Madelaine-Petsch  <->  hilary-duff
+   TARGET [diagnosis] It took nine years of weekly
+   OTHER  [diagnosis] about whether the people around her feel close to her. - Years of absorbing cruelty with a smile.
+
+------------------------------------------------------------------------------
+Top pair scores 0.061 vs median 0  (~∞x the noise floor).
+[Stage 6.8] same_type_similarity finished (exit=0, 0s)
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:57:18)
+Command: /grade_blog madelaine-petsch
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Madelaine-Petsch
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Madelaine-Petsch | 9 | 8 | 9 | 8 | 8 | 9 | 8.5 | B+ |
+
+(Weighted: `(9×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 8.5`. Discoverability 9 — no gate. Caps applied: none.)
+
+### Key Observations
+
+- **Deterministic checks all clean**: 0 contrast pairs, head-term PASS with a 43-word answer block, same-type similarity scan clear (max 0.061 against khloe-kardashian, semantically unrelated pairs), and the source audit found 0 untagged load-bearing quotes — 1 inline, 8 vague-but-traceable to named antecedents (Call Her Daddy Sept 2025, Angle on Producers 2025).
+- **What earns the 9s**: the evidence layer is drenched in her own dated words across two full transcripts plus THR, Seattle Times, Collider, Refinery29, Wonderland, and Moviefone; the frontmatter nails search intent (55-char meta_title, 153-char description, 5 genuine FAQ questions with anchors, complete entity metadata); and the window-sales cold open — cry on command to sell windows door-to-door — is the fixer thesis in miniature.
+- **What holds it at B+ rather than A**: the personal half (childhood, romance, motherhood, therapy) traces almost entirely to one podcast episode, so for a reader arriving from Call Her Daddy the piece reads partly as a superbly organized recap; two arrow-mechanics bleeds sit in the body ("Twos move toward Type 8" plus the growth-direction framing) that v2 wants quarantined in the rabbit hole; and the house architecture (epigraph → cold open → TL;DR accordion → wound-return ending) stays visible to a serial reader, which caps Writing in the 8 band per the Matt-Smith anchor comparison.
+- **Sameness check**: passed — TL;DR labels are bespoke, no corpus-stat sentence, no "The tell:" or reader-imperative reuse against julia-fox / Olivia-Cooke / Oliver-Tree; only the structural epigraph/cold-open furniture and the return-to-the-wound closing shape recur (2 shape-level echoes, below the 3-move cap threshold). The empathy turn uses her own wound-vocabulary (wrongful conviction / verdict), not house armor-grammar — no cap.
+- **Distribution sanity**: 8.5 sits between Olivia-Cooke (8.3) and Oliver-Tree (8.8) from this week's grades, and right at the structural ceiling documented for formula-compliant pipeline output — consistent, not drifted.
+
+Grade block and reviewer comment written to `src/blog/people/drafts/Madelaine-Petsch.md` (first grade for this file — no prior QUALITY GRADE comments existed).
+
+**Total graded this session: 1**
+[Stage 7] grade finished 03:02:55 (exit=0, 337s)
+
+[Stage 8] No revision needed (overall 8.5 >= 8.5, discoverability 9 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: madelaine-petsch
+Finished: Thu Jul  9 03:02:55 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '2'
+  hook: 9
+  enneagram: 8
+  evidence: 9
+  writing: 8
+  originality: 8
+  discoverability: 9
+  overall: 8.5
+  letter: 'B+'
+  rubric_version: 2
+  graded_at: '2026-07-09'
+Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-09_020000_madelaine-petsch/summary.json
+═════════════════════════════════════════════════════
+[2026-07-09 03:02:55] [INFO] Pipeline exited code=0 after 62 min
+[2026-07-09 03:02:55] [SUCCESS] Completed: Madelaine Petsch — grade 8.5 (B+)
+[2026-07-09 03:02:55] [INFO] NOTIFY: ✅ 9takes nightly blog: Madelaine Petsch (Type 6) — grade 8.5 (B+), disc 9, 62 min. needsReview=false
+[2026-07-09 03:02:56] [INFO] Nightly blog cron finished

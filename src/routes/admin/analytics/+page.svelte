@@ -614,6 +614,15 @@
 	);
 	const pageBreakdownCache = new Map<PageBreakdownWindow, PageBreakdownWindowSnapshot>();
 	let tableFetchRequestId = 0;
+	let pageviewFetchRequestId = 0;
+	let overviewFetchRequestId = 0;
+	let insightsFetchRequestId = 0;
+	let trendingFetchRequestId = 0;
+	let timingFetchRequestId = 0;
+	let releaseFetchRequestId = 0;
+	let releaseSelectionRequestId = 0;
+	let releaseEventsRequestId = 0;
+	let blogDiagnosticsFetchRequestId = 0;
 	let seededPageBreakdownCache = false;
 
 	let loading = $state(!hasInitialPageviewData);
@@ -1804,6 +1813,7 @@
 	}
 
 	async function fetchOverviewAndTimeseries() {
+		const requestId = ++overviewFetchRequestId;
 		loading = true;
 		try {
 			const params = buildParams(false).toString();
@@ -1822,13 +1832,18 @@
 				throw new Error(timeseriesBody.message || 'Failed to load timeseries');
 			}
 
+			if (requestId !== overviewFetchRequestId) return;
+
 			overview = { ...defaultOverview, ...(overviewBody.summary ?? {}) };
 			timeseries = timeseriesBody.points ?? [];
 		} catch (err) {
+			if (requestId !== overviewFetchRequestId) return;
 			console.error('Analytics overview/timeseries fetch error:', err);
 			notifications.danger('Failed to load overview analytics', 3000);
 		} finally {
-			loading = false;
+			if (requestId === overviewFetchRequestId) {
+				loading = false;
+			}
 		}
 	}
 
@@ -1891,6 +1906,7 @@
 	}
 
 	async function fetchTopPagesInsights() {
+		const requestId = ++insightsFetchRequestId;
 		insightsLoading = true;
 		try {
 			const params = buildParams(false);
@@ -1905,6 +1921,8 @@
 				throw new Error(body.message || 'Failed to load top pages');
 			}
 
+			if (requestId !== insightsFetchRequestId) return;
+
 			topPages = {
 				topPagesOverTime: (body.topPagesOverTime ?? []) as TopPagesTimeseriesRow[],
 				topPagesThisWeek: (body.topPagesThisWeek ?? []) as PageSummaryRow[],
@@ -1916,14 +1934,18 @@
 				}
 			};
 		} catch (err) {
+			if (requestId !== insightsFetchRequestId) return;
 			console.error('Analytics top pages fetch error:', err);
 			notifications.danger('Failed to load top page insights', 3000);
 		} finally {
-			insightsLoading = false;
+			if (requestId === insightsFetchRequestId) {
+				insightsLoading = false;
+			}
 		}
 	}
 
 	async function fetchTrendingAnalytics() {
+		const requestId = ++trendingFetchRequestId;
 		trendingLoading = true;
 		try {
 			const params = new URLSearchParams({
@@ -1940,6 +1962,8 @@
 				throw new Error(body.message || 'Failed to load trending analytics');
 			}
 
+			if (requestId !== trendingFetchRequestId) return;
+
 			trending = {
 				...defaultTrending,
 				...(body ?? {}),
@@ -1950,14 +1974,18 @@
 			trendingBaselineDays = trending.baselineDays || trendingBaselineDays;
 			trendingMinUnique = trending.minUnique || trendingMinUnique;
 		} catch (err) {
+			if (requestId !== trendingFetchRequestId) return;
 			console.error('Trending analytics fetch error:', err);
 			notifications.danger('Failed to load trending pages', 3000);
 		} finally {
-			trendingLoading = false;
+			if (requestId === trendingFetchRequestId) {
+				trendingLoading = false;
+			}
 		}
 	}
 
 	async function fetchPageviewAnalytics() {
+		const requestId = ++pageviewFetchRequestId;
 		try {
 			await Promise.all([
 				fetchOverviewAndTimeseries(),
@@ -1965,13 +1993,18 @@
 				fetchTopPagesInsights(),
 				fetchTrendingAnalytics()
 			]);
-			selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
+			if (requestId === pageviewFetchRequestId) {
+				selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
+			}
 		} finally {
-			pageviewsLoaded = true;
+			if (requestId === pageviewFetchRequestId) {
+				pageviewsLoaded = true;
+			}
 		}
 	}
 
 	async function fetchTimingAnalytics() {
+		const requestId = ++timingFetchRequestId;
 		timingLoading = true;
 		try {
 			const response = await fetch(`/api/admin/analytics/timing?${buildParams(false).toString()}`);
@@ -1981,18 +2014,24 @@
 				throw new Error(body.message || 'Failed to load timing analytics');
 			}
 
+			if (requestId !== timingFetchRequestId) return;
+
 			timingRows = (body.rows ?? []) as TimingHeatmapRow[];
 			timingLoaded = true;
 		} catch (err) {
+			if (requestId !== timingFetchRequestId) return;
 			console.error('Analytics timing fetch error:', err);
 			notifications.danger('Failed to load timing analytics', 3000);
 		} finally {
-			timingLoading = false;
+			if (requestId === timingFetchRequestId) {
+				timingLoading = false;
+			}
 		}
 	}
 
 	async function selectRelease(slug: string) {
 		if (!slug) return;
+		const requestId = ++releaseSelectionRequestId;
 		selectedReleaseSlug = slug;
 
 		const cached = releaseGrowthCache.get(slug);
@@ -2012,26 +2051,35 @@
 				}
 
 				const points = (body.points ?? []) as ReleaseGrowthPoint[];
-				releaseGrowthPoints = points;
 				releaseGrowthCache.set(slug, points);
+				if (requestId !== releaseSelectionRequestId || selectedReleaseSlug !== slug) return;
+				releaseGrowthPoints = points;
 			} catch (err) {
+				if (requestId !== releaseSelectionRequestId || selectedReleaseSlug !== slug) return;
 				console.error('Release growth fetch error:', err);
 				notifications.danger('Failed to load release growth', 3000);
 			} finally {
-				releaseGrowthLoading = false;
+				if (requestId === releaseSelectionRequestId && selectedReleaseSlug === slug) {
+					releaseGrowthLoading = false;
+				}
 			}
 		}
 
-		await fetchReleaseEvents(slug);
+		if (requestId === releaseSelectionRequestId && selectedReleaseSlug === slug) {
+			await fetchReleaseEvents(slug);
+		}
 	}
 
 	async function fetchReleaseEvents(slug: string, force = false) {
 		if (!slug) return;
+		const requestId = ++releaseEventsRequestId;
 
 		const cached = releaseEventsCache.get(slug);
 		if (cached && !force) {
-			releaseEventRows = cached;
-			releaseEventsLoading = false;
+			if (selectedReleaseSlug === slug) {
+				releaseEventRows = cached;
+				releaseEventsLoading = false;
+			}
 			return;
 		}
 
@@ -2047,13 +2095,17 @@
 			}
 
 			const rows = (body.rows ?? []) as ReleaseEventImpactRow[];
-			releaseEventRows = rows;
 			releaseEventsCache.set(slug, rows);
+			if (requestId !== releaseEventsRequestId || selectedReleaseSlug !== slug) return;
+			releaseEventRows = rows;
 		} catch (err) {
+			if (requestId !== releaseEventsRequestId || selectedReleaseSlug !== slug) return;
 			console.error('Release event fetch error:', err);
 			notifications.danger('Failed to load release events', 3000);
 		} finally {
-			releaseEventsLoading = false;
+			if (requestId === releaseEventsRequestId && selectedReleaseSlug === slug) {
+				releaseEventsLoading = false;
+			}
 		}
 	}
 
@@ -2096,6 +2148,7 @@
 	}
 
 	async function fetchReleaseAnalytics() {
+		const requestId = ++releaseFetchRequestId;
 		releasesLoading = true;
 		try {
 			const params = buildReleaseParams();
@@ -2108,6 +2161,8 @@
 					typeof body.message === 'string' ? body.message : 'Failed to load release analytics';
 				throw new Error(message);
 			}
+
+			if (requestId !== releaseFetchRequestId) return;
 
 			releaseRows = (body.rows ?? []) as ReleasePerformanceRow[];
 			releasesLoaded = true;
@@ -2123,16 +2178,20 @@
 				await selectRelease(nextSlug);
 			}
 		} catch (err) {
+			if (requestId !== releaseFetchRequestId) return;
 			console.error('Release analytics fetch error:', err);
 			notifications.danger('Failed to load release analytics', 3000);
 		} finally {
-			releasesLoading = false;
+			if (requestId === releaseFetchRequestId) {
+				releasesLoading = false;
+			}
 		}
 	}
 
 	async function fetchBlogDiagnostics(force = false) {
 		if (blogDiagnosticsLoading || (blogDiagnosticsLoaded && !force)) return;
 
+		const requestId = ++blogDiagnosticsFetchRequestId;
 		blogDiagnosticsLoading = true;
 		try {
 			const response = await fetch('/api/admin/analytics/blog-diagnostics');
@@ -2142,13 +2201,18 @@
 				throw new Error(body.message || 'Failed to load blog diagnostics');
 			}
 
+			if (requestId !== blogDiagnosticsFetchRequestId) return;
+
 			blogDiagnosticsRows = (body.rows ?? []) as BlogDiagnosticsRow[];
 			blogDiagnosticsLoaded = true;
 		} catch (err) {
+			if (requestId !== blogDiagnosticsFetchRequestId) return;
 			console.error('Blog diagnostics fetch error:', err);
 			notifications.danger('Failed to load blog diagnostics', 3000);
 		} finally {
-			blogDiagnosticsLoading = false;
+			if (requestId === blogDiagnosticsFetchRequestId) {
+				blogDiagnosticsLoading = false;
+			}
 		}
 	}
 
@@ -2214,7 +2278,6 @@
 		) {
 			await fetchReleaseAnalytics();
 		}
-		selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
 	}
 
 	async function resetFilters() {
@@ -2249,7 +2312,6 @@
 		) {
 			await fetchReleaseAnalytics();
 		}
-		selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
 	}
 
 	async function goToPage(nextPage: number) {
@@ -2733,6 +2795,9 @@
 				<Button variant="secondary" onclick={resetFilters} disabled={loading || tableLoading}>
 					Reset
 				</Button>
+				<span class="reporting-time-zone"
+					>Reporting days use {initialFilters?.timeZone ?? 'UTC'}.</span
+				>
 			</div>
 		</section>
 
@@ -4437,8 +4502,16 @@
 
 	.filter-actions {
 		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
 		gap: 8px;
 		margin-top: 10px;
+	}
+
+	.reporting-time-zone {
+		margin-left: auto;
+		font-size: 0.78rem;
+		color: var(--ink-mid);
 	}
 
 	.metrics-grid {

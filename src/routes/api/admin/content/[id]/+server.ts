@@ -2,6 +2,7 @@
 import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 // GET - Fetch full content including markdown and history
 export const GET: RequestHandler = async ({ params, locals }) => {
@@ -9,24 +10,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	if (!Number.isFinite(contentId)) {
 		throw error(400, 'Invalid content ID');
 	}
-	const supabase = locals.supabase;
-	const session = locals.session;
-
-	// Ensure user is authenticated
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	// Check if user is admin
-	const { data: profile } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!profile?.admin) {
-		throw error(403, 'Forbidden - Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	// Fetch the content with history
 	const { data, error: fetchError } = await supabase
@@ -66,24 +50,7 @@ export const PUT: RequestHandler = async ({ params, request, locals }) => {
 	if (!Number.isFinite(contentId)) {
 		throw error(400, 'Invalid content ID');
 	}
-	const supabase = locals.supabase;
-	const session = locals.session;
-
-	// Ensure user is authenticated
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	// Check if user is admin
-	const { data: profile } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!profile?.admin) {
-		throw error(403, 'Forbidden - Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	const updates = await request.json();
 

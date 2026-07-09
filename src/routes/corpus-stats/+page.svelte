@@ -498,7 +498,7 @@
 		padding: 1.25rem;
 		border: 1px solid color-mix(in srgb, var(--data-teal) 30%, transparent);
 		border-left: 3px solid var(--shadow-flame, var(--lamp-glow));
-		border-radius: 8px;
+		border-radius: 1rem;
 		background: linear-gradient(180deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 	}
 	.answer-panel h2 {
@@ -528,7 +528,7 @@
 		min-height: 2rem;
 		padding: 0.35rem 0.65rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 6px;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--night-deep) 82%, var(--data-teal));
 		color: var(--ink-bright);
 		font-family: var(--font-mono);

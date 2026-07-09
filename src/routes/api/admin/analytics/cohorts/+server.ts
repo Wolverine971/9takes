@@ -2,6 +2,7 @@
 import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 import { analyticsDateSchema } from '$lib/validation/analyticsSchemas';
 
 const querySchema = z.object({
@@ -46,23 +47,6 @@ function isMissingRetentionDependency(err: unknown): boolean {
 	);
 }
 
-async function assertAdmin(locals: App.Locals): Promise<void> {
-	const session = locals.session;
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await locals.supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
-}
-
 const EMPTY_RESPONSE = {
 	available: false,
 	overview: [] as unknown[],
@@ -73,7 +57,7 @@ const EMPTY_RESPONSE = {
 };
 
 export const GET: RequestHandler = async ({ url, locals }) => {
-	await assertAdmin(locals);
+	await requireAdmin(locals);
 
 	const fromDate = parseDate(url.searchParams.get('from'));
 	const toDate = parseDate(url.searchParams.get('to'));

@@ -209,7 +209,7 @@
 </Button>
 
 <!-- Filter Modal -->
-<Modal id="sorter" maxWidth="420px">
+<Modal id="sorter" name="Filter and sort comments" maxWidth="420px">
 	<div
 		class="filter-modal"
 		in:fly={{ y: reduceMotion ? 0 : -20, duration: reduceMotion ? 0 : 300, easing: cubicOut }}
@@ -730,7 +730,7 @@
 		padding: 0.875rem 1.25rem;
 		background: var(--warning-light);
 		border-top: 1px solid var(--warning-border);
-		color: var(--warning);
+		color: var(--warning-text);
 		font-size: 0.8125rem;
 		text-align: center;
 	}

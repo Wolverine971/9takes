@@ -156,6 +156,8 @@ describe('processPendingSequenceSends', () => {
 			supabase,
 			expect.objectContaining({
 				plainTextContent: 'Hello',
+				sequenceEnrollmentId: 'enrollment-1',
+				sequenceStepNumber: 1,
 				includeFooter: true
 			})
 		);

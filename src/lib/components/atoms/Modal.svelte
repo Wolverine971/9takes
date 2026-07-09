@@ -10,10 +10,13 @@
 	function pushTopModal(node: HTMLDivElement) {
 		modalStack = modalStack.filter((modal) => modal !== node);
 		modalStack = [...modalStack, node];
+		for (const modal of modalStack) modal.toggleAttribute('inert', modal !== node);
 	}
 
 	function removeTopModal(node: HTMLDivElement) {
+		node.setAttribute('inert', '');
 		modalStack = modalStack.filter((modal) => modal !== node);
+		modalStack[modalStack.length - 1]?.removeAttribute('inert');
 	}
 
 	function isTopModal(node: HTMLDivElement) {
@@ -23,7 +26,13 @@
 
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import { onDestroy } from 'svelte';
+	import { onDestroy, tick } from 'svelte';
+	import {
+		focusInitialElement,
+		inertBodySiblings,
+		restoreFocus,
+		trapFocus
+	} from '$lib/utils/focusBoundary';
 	import { lockBodyScroll } from '$lib/utils/scrollLock';
 	import { portal } from '../../../utils/portal';
 
@@ -31,16 +40,31 @@
 	let visible = false;
 	let closeCallback: ((arg: any) => void) | null = null;
 	let releaseBodyScroll: (() => void) | null = null;
+	let releaseBackgroundInert: (() => void) | null = null;
+	let previouslyFocused: HTMLElement | null = null;
 
 	export let navTop = false;
-	export let name = 'modal';
+	export let name = 'Dialog';
 	export let id = '';
 	export let disableClose = false;
 	export let maxWidth: string | null = null;
 	export let fullMobile = false;
+	export let labelledBy: string | null = null;
+	export let describedBy: string | null = null;
+	export let initialFocus: string | null = null;
 
 	function keyPress(ev: KeyboardEvent) {
-		if (ev.key === 'Escape' && isTopModal(topDiv) && !disableClose) close(ev);
+		if (!isTopModal(topDiv)) return;
+
+		if (ev.key === 'Tab') {
+			trapFocus(ev, topDiv);
+			return;
+		}
+
+		if (ev.key === 'Escape' && !disableClose) {
+			ev.preventDefault();
+			close(ev);
+		}
 	}
 
 	function closeIfAllowed(retVal: any) {
@@ -52,12 +76,19 @@
 		if (visible) return;
 		closeCallback = callback || null;
 		if (browser) {
+			previouslyFocused =
+				document.activeElement instanceof HTMLElement ? document.activeElement : null;
 			releaseBodyScroll = lockBodyScroll();
 			window.addEventListener('keydown', keyPress);
+			document.body.appendChild(topDiv);
+			releaseBackgroundInert = inertBodySiblings(topDiv);
 		}
 		pushTopModal(topDiv);
 		visible = true;
-		document.body.appendChild(topDiv);
+
+		void tick().then(() => {
+			if (visible && isTopModal(topDiv)) focusInitialElement(topDiv, initialFocus);
+		});
 	}
 
 	function close(retVal: any) {
@@ -66,9 +97,13 @@
 			window.removeEventListener('keydown', keyPress);
 			releaseBodyScroll?.();
 			releaseBodyScroll = null;
+			releaseBackgroundInert?.();
+			releaseBackgroundInert = null;
 		}
 		removeTopModal(topDiv);
 		visible = false;
+		restoreFocus(previouslyFocused);
+		previouslyFocused = null;
 		if (closeCallback) closeCallback(retVal);
 	}
 
@@ -81,7 +116,11 @@
 			if (visible) {
 				releaseBodyScroll?.();
 				releaseBodyScroll = null;
+				releaseBackgroundInert?.();
+				releaseBackgroundInert = null;
 				removeTopModal(topDiv);
+				restoreFocus(previouslyFocused);
+				previouslyFocused = null;
 			}
 		}
 	});
@@ -94,11 +133,14 @@
 	bind:this={topDiv}
 	use:portal
 	role="dialog"
-	aria-modal="true"
-	aria-labelledby={name}
+	aria-modal={visible ? 'true' : undefined}
+	aria-label={labelledBy ? undefined : name || 'Dialog'}
+	aria-labelledby={labelledBy || undefined}
+	aria-describedby={describedBy || undefined}
+	aria-hidden={visible ? undefined : 'true'}
+	inert={!visible}
 	tabindex="-1"
 	on:click|self={closeIfAllowed}
-	on:keydown={keyPress}
 >
 	<!-- Modal content container -->
 	<div
@@ -110,6 +152,7 @@
 	>
 		{#if !navTop}
 			<button
+				type="button"
 				on:click={closeIfAllowed}
 				aria-label="Close dialog"
 				class="absolute right-3 top-3 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-[var(--night-deep)] p-0 transition-all duration-200 hover:rotate-90 hover:bg-[var(--lamp-soft)]"

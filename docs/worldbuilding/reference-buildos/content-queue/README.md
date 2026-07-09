@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/README.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/README.md -->
 
 # Worldbuilding Content Queue
 

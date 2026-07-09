@@ -1,6 +1,7 @@
 // src/routes/api/admin/content/[id]/crosslinks/+server.ts
 import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 interface CrossLinkItem {
 	id: number;
@@ -116,24 +117,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	if (!Number.isFinite(blogId)) {
 		throw error(400, 'Invalid blog ID');
 	}
-	const supabase = locals.supabase;
-	const session = locals.session;
-
-	// Ensure user is authenticated
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	// Check if user is admin
-	const { data: profile } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!profile?.admin) {
-		throw error(403, 'Forbidden - Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	// 1. Get current blog to find person slug and suggestions
 	const { data: currentBlog, error: fetchError } = await supabase

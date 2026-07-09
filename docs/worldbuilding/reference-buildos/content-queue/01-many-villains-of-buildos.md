@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/01-many-villains-of-buildos.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/01-many-villains-of-buildos.md -->
 
 # The many villains of BuildOS
 

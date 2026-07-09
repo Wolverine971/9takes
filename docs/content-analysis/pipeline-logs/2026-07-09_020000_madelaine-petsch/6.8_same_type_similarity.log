@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Madelaine-Petsch (Type 2)
+/Users/djwayne/9takes/src/blog/people/drafts/Madelaine-Petsch.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 33
+Comparison set (last 8 other Type-2 drafts by date):
+  - mother-teresa  (2026-06-22, 28 units)
+  - bill-clinton  (2026-04-20, 41 units)
+  - hilary-duff  (2026-04-12, 37 units)
+  - sky-bri  (2026-04-09, 24 units)
+  - khloe-kardashian  (2026-04-04, 31 units)
+  - hugh-jackman  (2026-04-01, 31 units)
+  - simon-sinek  (2026-03-28, 22 units)
+  - tom-hiddleston  (2026-03-24, 21 units)
+
+Noise floor over 7755 unit pairs:  median=0  p90=0  p99=0.006  max=0.061
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.061 ##                   khloe-kardashian
+  0.057 ##                   bill-clinton
+  0.029 #                    hilary-duff
+  0.028 #                    mother-teresa
+  0.022 #                    hugh-jackman
+  0.021 #                    sky-bri
+  0.015 #                    tom-hiddleston
+  0.006                      simon-sinek
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.061   Madelaine-Petsch  <->  khloe-kardashian
+   TARGET [counter-typing] If she ever starts collecting credits she didn't sweat for
+   OTHER  [diagnosis] She didn't stay with Lamar because she was weak.
+
+score 0.059   Madelaine-Petsch  <->  khloe-kardashian
+   TARGET [counter-typing] If she ever starts collecting credits she didn't sweat for
+   OTHER  [diagnosis] She didn't forgive Tristan because she lacked self-respect.
+
+score 0.057   Madelaine-Petsch  <->  bill-clinton
+   TARGET [diagnosis] Explaining to the same podcast why she turns down honorary credits
+   OTHER  [diagnosis] Every single pattern points to the same engine
+
+score 0.042   Madelaine-Petsch  <->  khloe-kardashian
+   TARGET [diagnosis] I wanted to help." She bought a house in Washington and moved her brother into it so he could get out of their parents' home.
+   OTHER  [diagnosis] "I want to be remembered for giving second chances
+
+score 0.034   Madelaine-Petsch  <->  khloe-kardashian
+   TARGET [diagnosis] at an age when volunteering was the only power available
+   OTHER  [diagnosis] She stayed because leaving meant admitting she wasn't enough to save him — and being enough was the only thing she had.
+
+score 0.029   Madelaine-Petsch  <->  hilary-duff
+   TARGET [diagnosis] whether her mother assigned her the role
+   OTHER  [diagnosis] Her mother moved across the country for the girls' careers.
+
+score 0.028   Madelaine-Petsch  <->  bill-clinton
+   TARGET [diagnosis] She financially supports "a lot of my family
+   OTHER  [diagnosis] or my family." The apology was textbook Two
+
+score 0.028   Madelaine-Petsch  <->  mother-teresa
+   TARGET [diagnosis] a personality built around a trade struck young
+   OTHER  [diagnosis] Type 2 is the type whose engine is built around love
+
+score 0.022   Madelaine-Petsch  <->  bill-clinton
+   TARGET [diagnosis] I wanted to help." She bought a house in Washington and moved her brother into it so he could get out of their parents' home.
+   OTHER  [diagnosis] The result is not just someone who wants to help but someone who wants to be seen as the greatest helper alive.
+
+score 0.022   Madelaine-Petsch  <->  hugh-jackman
+   TARGET [counter-typing] "I'm happiest when I'm somebody else" is a textbook Achiever sentence
+   OTHER  [diagnosis] But the engine underneath is a Two's engine
+
+score 0.021   Madelaine-Petsch  <->  sky-bri
+   TARGET [diagnosis] I'm having this problem with this wardrobe
+   OTHER  [diagnosis] "They're proud of me now that I'm financially stable
+
+score 0.020   Madelaine-Petsch  <->  hilary-duff
+   TARGET [diagnosis] It took nine years of weekly
+   OTHER  [diagnosis] about whether the people around her feel close to her. - Years of absorbing cruelty with a smile.
+
+------------------------------------------------------------------------------
+Top pair scores 0.061 vs median 0  (~∞x the noise floor).

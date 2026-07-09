@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['musician']
+type: ['musician', 'music-crossover']
 person: 'morgan-wallen'
 suggestions: ['Post-Malone', 'Jelly-Roll', 'Theo-Von', 'Dolly-Parton']
 wikipedia: 'https://en.wikipedia.org/wiki/Morgan_Wallen'

@@ -1,26 +1,12 @@
 // src/routes/api/admin/email-dashboard/drafts/[id]/+server.ts
 // Delete a draft
 
-import { json, error } from '@sveltejs/kit';
+import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 
 export const DELETE: RequestHandler = async ({ params, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	const { id } = params;
 
@@ -38,6 +24,7 @@ export const DELETE: RequestHandler = async ({ params, locals }) => {
 
 		return json({ success: true });
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error in draft DELETE:', e);
 		if (e instanceof Error && 'status' in e) {
 			throw e;
@@ -48,22 +35,7 @@ export const DELETE: RequestHandler = async ({ params, locals }) => {
 
 // GET - Fetch a single draft
 export const GET: RequestHandler = async ({ params, locals }) => {
-	const session = locals.session;
-	const supabase = locals.supabase;
-
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
+	const { supabase } = await requireAdmin(locals);
 
 	const { id } = params;
 
@@ -87,6 +59,7 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 
 		return json({ draft });
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		console.error('Error in draft GET:', e);
 		if (e instanceof Error && 'status' in e) {
 			throw e;

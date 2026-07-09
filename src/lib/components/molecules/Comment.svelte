@@ -37,6 +37,7 @@
 	let cachedFingerprint: string | null = null;
 
 	let newcomment = '';
+	let replyError = '';
 	let commenting = false;
 	let anonymousComment = false;
 	let commentEdit = '';
@@ -197,14 +198,17 @@
 	async function createReply() {
 		if (!canComment()) return;
 		if (!user?.id) {
+			replyError = 'Register or log in to reply.';
 			notifications.info('Must register or login to reply', 3000);
 			return;
 		}
 		if (!newcomment.trim()) {
+			replyError = 'Write a reply before posting.';
 			notifications.info('Comment cannot be empty', 3000);
 			return;
 		}
 
+		replyError = '';
 		loading = true;
 
 		try {
@@ -254,6 +258,7 @@
 			showReplies = true; // Show replies so user can see their new reply
 		} catch (error) {
 			console.error('Error adding reply:', error);
+			replyError = 'We could not add your reply. Please try again.';
 			notifications.danger('Error adding reply', 3000);
 		} finally {
 			loading = false;
@@ -264,9 +269,11 @@
 	function canComment() {
 		if (!questionPageData?.flags?.userSignedIn && !user?.id) {
 			if (questionPageData?.flags?.userHasAnswered || anonymousComment) {
+				replyError = 'Register or log in to comment more than once.';
 				notifications.info('Must register or login to comment multiple times', 3000);
 				return false;
 			} else {
+				replyError = 'Register or log in to reply to another comment.';
 				notifications.info('Must register or login to comment on other comments', 3000);
 				return false;
 			}
@@ -522,12 +529,31 @@
 				transition:slide={{ duration: 300 }}
 			>
 				<div class="mb-3">
+					<label
+						for={`reply-comment-${_commentComment.id}`}
+						class="mb-2 block text-sm font-medium text-[var(--ink-mid)]"
+					>
+						Your reply
+					</label>
 					<textarea
+						id={`reply-comment-${_commentComment.id}`}
 						placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
 						class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-3 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 						bind:value={newcomment}
+						on:input={() => (replyError = '')}
 						rows="3"
+						aria-invalid={replyError ? 'true' : 'false'}
+						aria-describedby={replyError ? `reply-error-${_commentComment.id}` : undefined}
 					></textarea>
+					{#if replyError}
+						<p
+							id={`reply-error-${_commentComment.id}`}
+							class="mt-2 text-sm font-medium text-[var(--error-text)]"
+							role="alert"
+						>
+							{replyError}
+						</p>
+					{/if}
 				</div>
 				<div class="flex justify-end gap-2">
 					<button
@@ -536,6 +562,7 @@
 						on:click={() => {
 							commenting = false;
 							newcomment = '';
+							replyError = '';
 						}}
 					>
 						Cancel
@@ -635,7 +662,7 @@
 {/if}
 
 <!-- Edit Comment Modal -->
-<Modal id={`edit-modal-${_commentComment?.id}`} maxWidth="480px">
+<Modal id={`edit-modal-${_commentComment?.id}`} name="Edit comment" maxWidth="480px">
 	<div class="w-full">
 		<h2 class="mb-2 mt-0 text-2xl font-semibold text-[var(--ink-bright)]">Edit Comment</h2>
 		<p class="mb-6 text-sm text-[var(--ink-mid)]">Make changes to your comment below.</p>
@@ -683,8 +710,12 @@
 </Modal>
 
 <!-- Flag Comment Modal -->
-<Modal id={`flag-comment-modal-${_commentComment?.id}`} maxWidth="480px">
-	<div class="w-full" role="dialog" aria-labelledby={`flag-modal-title-${_commentComment?.id}`}>
+<Modal
+	id={`flag-comment-modal-${_commentComment?.id}`}
+	labelledBy={`flag-modal-title-${_commentComment?.id}`}
+	maxWidth="480px"
+>
+	<div class="w-full">
 		<div class="mb-6">
 			<h2
 				id={`flag-modal-title-${_commentComment?.id}`}

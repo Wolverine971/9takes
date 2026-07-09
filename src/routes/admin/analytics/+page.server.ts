@@ -2,6 +2,13 @@
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import type { AnalyticsScope } from '$lib/analytics/pageAnalytics';
+import {
+	ADMIN_ANALYTICS_TIME_ZONE,
+	getCompletedUtcWeeksRange,
+	startOfUtcMonth,
+	startOfUtcWeek,
+	toUtcDateString
+} from '$lib/analytics/adminAnalyticsDates';
 import { emptyTrendingAnalyticsPayload } from '$lib/server/adminTrendingAnalytics';
 
 interface AnalyticsOverview {
@@ -28,48 +35,6 @@ const overviewDefaults: AnalyticsOverview = {
 	bounce_rate: 0
 };
 
-function toDateString(date: Date): string {
-	const year = date.getFullYear();
-	const month = String(date.getMonth() + 1).padStart(2, '0');
-	const day = String(date.getDate()).padStart(2, '0');
-	return `${year}-${month}-${day}`;
-}
-
-function startOfWeek(date: Date): Date {
-	const result = new Date(date);
-	const day = result.getDay();
-	const mondayOffset = day === 0 ? -6 : 1 - day;
-	result.setDate(result.getDate() + mondayOffset);
-	result.setHours(0, 0, 0, 0);
-	return result;
-}
-
-function startOfMonth(date: Date): Date {
-	const result = new Date(date);
-	result.setDate(1);
-	result.setHours(0, 0, 0, 0);
-	return result;
-}
-
-function endOfPreviousWeek(date: Date): Date {
-	const result = startOfWeek(date);
-	result.setDate(result.getDate() - 1);
-	result.setHours(0, 0, 0, 0);
-	return result;
-}
-
-function getCompletedWeeksRange(anchorDate: Date, weeks: number): { from: string; to: string } {
-	const to = endOfPreviousWeek(anchorDate);
-	const from = new Date(to);
-	from.setDate(from.getDate() - (weeks * 7 - 1));
-	from.setHours(0, 0, 0, 0);
-
-	return {
-		from: toDateString(from),
-		to: toDateString(to)
-	};
-}
-
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
 	const supabase = event.locals.supabase;
@@ -93,19 +58,20 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const today = new Date();
-	const toDate = toDateString(today);
+	const toDate = toUtcDateString(today);
 	const fromDateObj = new Date(today);
-	fromDateObj.setDate(fromDateObj.getDate() - 29);
-	const fromDate = toDateString(fromDateObj);
-	const weekFromDate = toDateString(startOfWeek(today));
-	const monthFromDate = toDateString(startOfMonth(today));
-	const cohortRange = getCompletedWeeksRange(today, DEFAULT_COHORT_WEEKS);
+	fromDateObj.setUTCDate(fromDateObj.getUTCDate() - 29);
+	const fromDate = toUtcDateString(fromDateObj);
+	const weekFromDate = toUtcDateString(startOfUtcWeek(today));
+	const monthFromDate = toUtcDateString(startOfUtcMonth(today));
+	const cohortRange = getCompletedUtcWeeksRange(today, DEFAULT_COHORT_WEEKS);
 
 	return {
 		filters: {
 			from: fromDate,
 			to: toDate,
-			scope: DEFAULT_SCOPE
+			scope: DEFAULT_SCOPE,
+			timeZone: ADMIN_ANALYTICS_TIME_ZONE
 		},
 		cohortFilters: {
 			from: cohortRange.from,

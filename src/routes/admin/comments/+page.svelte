@@ -405,7 +405,7 @@
 	{/if}
 
 	<!-- Confirmation Modal -->
-	<Modal id="confirmation-modal">
+	<Modal id="confirmation-modal" name="Confirm comment action">
 		<div class="modal-content">
 			<h3 class="modal-title">
 				{actionType === 'remove' ? 'Remove Comment' : 'Approve Comment'}

@@ -3,9 +3,7 @@ import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 
-const MAX_POSTS = 6;
-
-export const load: PageLoad = async ({ params }) => {
+export const load: PageLoad = async ({ params, data }) => {
 	const modules = import.meta.glob([
 		`/src/blog/community/*.{md,svx,svelte.md}`,
 		'!**/societal-ticking-time-bombs-fact-check.md'
@@ -21,29 +19,6 @@ export const load: PageLoad = async ({ params }) => {
 
 	const post = await match?.resolver?.();
 
-	const postPromises = Object.entries(modules).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				}) as App.BlogPost
-		)
-	);
-
-	const posts = await Promise.all(postPromises);
-	const publishedPosts = posts
-		.filter((p) => p.published)
-		.filter(
-			(p) =>
-				(post?.metadata.enneagram && p?.enneagram === Number(post?.metadata.enneagram)) ||
-				(post?.metadata?.type?.[0] && p.type?.includes(post.metadata.type[0]))
-		)
-		.filter((p) => params.slug !== p.slug)
-		.slice(0, MAX_POSTS);
-
-	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
-
 	if (!post || !post.metadata.published) {
 		// throw error(404); // Couldn't resolve the post
 		throw error(404, {
@@ -55,6 +30,6 @@ export const load: PageLoad = async ({ params }) => {
 		component: post.default,
 		frontmatter: post.metadata as App.BlogPost,
 		slug: params.slug,
-		posts: publishedPosts
+		posts: data.posts
 	};
 };

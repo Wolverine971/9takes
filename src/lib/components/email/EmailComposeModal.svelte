@@ -4,6 +4,7 @@
 	import { fade, scale } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 	import type { EmailRecipient } from '$lib/types/email';
+	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { Button } from '$lib/components/atoms';
 
@@ -371,9 +372,7 @@
 					</div>
 
 					{#if showPreview}
-						<div class="email-preview">
-							{@html htmlContent}
-						</div>
+						<HtmlPreviewFrame html={htmlContent} title="Email composition preview" />
 					{:else}
 						<textarea
 							id="compose-content"
@@ -651,16 +650,6 @@
 	.content-actions {
 		display: flex;
 		gap: 0.5rem;
-	}
-
-	/* Email Preview */
-	.email-preview {
-		border: 1px solid var(--border-color, #e5e7eb);
-		border-radius: var(--border-radius, 8px);
-		padding: 1.5rem;
-		background: white;
-		min-height: 200px;
-		font-family: var(--font-family);
 	}
 
 	/* Context Info */

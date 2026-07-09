@@ -1,4 +1,4 @@
-<!-- docs/marketing/brand/worldbuilding/content-queue/04-the-context-snowball.md -->
+<!-- docs/worldbuilding/reference-buildos/content-queue/04-the-context-snowball.md -->
 
 # The context snowball
 

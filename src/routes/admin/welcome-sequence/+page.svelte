@@ -441,7 +441,15 @@
 
 	<!-- Enrollment Details -->
 	<section class="section">
-		<h2>Enrollments ({data.enrollments.length})</h2>
+		<h2>
+			Recent enrollments ({data.funnelCounts?.total_enrolled ?? data.enrollments.length} total)
+		</h2>
+		<p class="section-note">
+			Showing the newest {data.enrollments.length} enrollment{data.enrollments.length === 1
+				? ''
+				: 's'}{#if (data.funnelCounts?.total_enrolled ?? 0) > data.enrollments.length}
+				of {data.funnelCounts?.total_enrolled}{/if}.
+		</p>
 		<div class="table-wrapper">
 			<table class="enrollments-table">
 				<thead>
@@ -509,7 +517,7 @@
 
 		{#if data.enrollments.length > 50 && !showAllEnrollments}
 			<button class="show-all-btn" onclick={() => (showAllEnrollments = true)}>
-				Show all {data.enrollments.length} enrollments
+				Show all {data.enrollments.length} loaded enrollments
 			</button>
 		{/if}
 
@@ -629,6 +637,12 @@
 		font-weight: 600;
 		margin: 0 0 16px 0;
 		color: var(--ink-bright);
+	}
+
+	.section-note {
+		margin: -0.75rem 0 1rem;
+		color: var(--ink-mid);
+		font-size: 0.85rem;
 	}
 
 	.test-panel {

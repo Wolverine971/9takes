@@ -12,6 +12,7 @@
 	let submitted = $state(false);
 	let formExtra = $state('');
 	let formLoadTime = $state(Date.now());
+	const inputId = 'blog-purpose-signup-email';
 	const errorId = 'blog-purpose-signup-error';
 
 	onMount(() => {
@@ -49,9 +50,11 @@
 				submitted = true;
 				notifications.warning('Already subscribed', 3000);
 			} else {
+				error = result.message || 'We could not subscribe you. Please try again.';
 				notifications.warning('Signup failed', 3000);
 			}
 		} catch {
+			error = 'We could not subscribe you. Check your connection and try again.';
 			notifications.warning('Signup failed', 3000);
 		} finally {
 			loading = false;
@@ -93,7 +96,9 @@
 			</div>
 
 			{#if submitted}
-				<p class="signup-success">You&rsquo;re in. Check your inbox for the welcome note.</p>
+				<p class="signup-success" role="status">
+					You&rsquo;re in. Check your inbox for the welcome note.
+				</p>
 			{:else}
 				<form
 					onsubmit={handleSubmit}
@@ -113,23 +118,27 @@
 							autocomplete="new-password"
 						/>
 					</div>
-					<input
-						type="email"
-						bind:value={email}
-						oninput={() => (error = '')}
-						placeholder="you@example.com"
-						required
-						autocomplete="email"
-						aria-invalid={error ? 'true' : 'false'}
-						aria-describedby={error ? errorId : undefined}
-						class="signup-input"
-					/>
+					<div class="signup-field">
+						<label class="signup-label" for={inputId}>Email address</label>
+						<input
+							id={inputId}
+							type="email"
+							bind:value={email}
+							oninput={() => (error = '')}
+							placeholder="you@example.com"
+							required
+							autocomplete="email"
+							aria-invalid={error ? 'true' : 'false'}
+							aria-describedby={error ? errorId : undefined}
+							class="signup-input"
+						/>
+					</div>
 					<button type="submit" class="signup-button" disabled={loading}>
 						{loading ? 'Submitting...' : 'Send it to me'}
 					</button>
 				</form>
 				{#if error}
-					<p class="signup-error" id={errorId}>{error}</p>
+					<p class="signup-error" id={errorId} role="alert">{error}</p>
 				{/if}
 			{/if}
 
@@ -284,6 +293,18 @@
 		overflow: hidden;
 	}
 
+	.signup-field {
+		display: grid;
+		gap: 0.35rem;
+	}
+
+	.signup-label {
+		color: var(--ink-bright);
+		font-size: 0.8rem;
+		font-weight: 600;
+		line-height: 1.3;
+	}
+
 	.signup-input {
 		box-sizing: border-box;
 		width: 100%;
@@ -381,7 +402,7 @@
 
 	.signup-error {
 		font-weight: 600;
-		color: var(--error);
+		color: var(--error-text);
 	}
 
 	.secondary-link {

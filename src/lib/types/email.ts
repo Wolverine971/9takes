@@ -39,6 +39,9 @@ export interface EmailTemplate {
 export interface EmailSend {
 	id: string;
 	campaign_id?: string;
+	sequence_id?: string;
+	sequence_enrollment_id?: string;
+	sequence_step_number?: number;
 	recipient_email: string;
 	recipient_name?: string;
 	recipient_source: RecipientSource;

@@ -2,7 +2,9 @@
 import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
+import { requireAdmin } from '$lib/server/adminAuth';
 import { analyticsDateSchema, analyticsScopeSchema } from '$lib/validation/analyticsSchemas';
+import { endOfUtcDay, toUtcDateString } from '$lib/analytics/adminAnalyticsDates';
 import { attachAnalyticsLastModified } from '$lib/server/analyticsPageLastModified';
 
 interface AnalyticsPagesRow {
@@ -76,28 +78,17 @@ function parseDate(value: string | null): string | undefined {
 	return parsed.data;
 }
 
-function toDateString(date: Date): string {
-	const year = date.getFullYear();
-	const month = String(date.getMonth() + 1).padStart(2, '0');
-	const day = String(date.getDate()).padStart(2, '0');
-	return `${year}-${month}-${day}`;
-}
-
-function endOfDay(date: string): Date {
-	return new Date(`${date}T23:59:59.999`);
-}
-
 function getWindowBounds(window: PageBreakdownWindow, anchorDate?: string): WindowBounds {
 	const now = new Date();
-	const today = toDateString(now);
-	const to = anchorDate && anchorDate !== today ? endOfDay(anchorDate) : now;
+	const today = toUtcDateString(now);
+	const to = anchorDate && anchorDate !== today ? endOfUtcDay(anchorDate) : now;
 	const from = new Date(to.getTime() - pageBreakdownWindowHours[window] * 60 * 60 * 1000);
 
 	return {
 		fromTs: from.toISOString(),
 		toTs: to.toISOString(),
-		fromDate: toDateString(from),
-		toDate: toDateString(to),
+		fromDate: toUtcDateString(from),
+		toDate: toUtcDateString(to),
 		label: pageBreakdownWindowLabels[window]
 	};
 }
@@ -121,25 +112,8 @@ function parseScope(value: string | null): z.infer<typeof analyticsScopeSchema> 
 	return parsed.data;
 }
 
-async function assertAdmin(locals: App.Locals): Promise<void> {
-	const session = locals.session;
-	if (!session?.user?.id) {
-		throw error(401, 'Unauthorized');
-	}
-
-	const { data: user } = await locals.supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw error(403, 'Admin access required');
-	}
-}
-
 export const GET: RequestHandler = async ({ url, locals }) => {
-	await assertAdmin(locals);
+	await requireAdmin(locals);
 
 	const fromDate = parseDate(url.searchParams.get('from'));
 	const toDate = parseDate(url.searchParams.get('to'));

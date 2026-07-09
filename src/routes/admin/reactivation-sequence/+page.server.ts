@@ -18,13 +18,13 @@ import {
 	REACTIVATION_STEP_2_FINAL
 } from '$lib/email/reactivation-sequence-content';
 import { sendEmail } from '$lib/email/sender';
-import { normalizeEmail } from '$lib/email/suppression';
 import { enrollDormantCandidatesInReactivationSequence } from '$lib/server/emailSequences';
+import { loadReactivationCandidateSummary } from '$lib/server/reactivationCandidates';
 import { logger } from '$lib/utils/logger';
 
 const TEST_UNSUBSCRIBE_URL = 'https://9takes.com/api/track/unsubscribe/test-preview';
-const WELCOME_SEQUENCE_KEY = 'welcome_sequence';
 const EMAIL_PATTERN = /\S+@\S+\.\S+/;
+const QUEUE_PREVIEW_LIMIT = 200;
 
 const BUCKET_LABELS: Record<ReactivationBucket, string> = {
 	cold: 'Cold',
@@ -78,15 +78,6 @@ type EnrollmentRow = {
 	updated_at: string | null;
 };
 
-type ProfileCandidateRow = {
-	id: string;
-	email: string | null;
-	first_name: string | null;
-	username: string | null;
-	enneagram: string | null;
-	created_at: string | null;
-};
-
 type CandidatePreview = {
 	userId: string;
 	email: string;
@@ -106,49 +97,67 @@ type CandidatePreviewSummary = {
 	totalProfilesChecked: number;
 };
 
-function isReactivationSequenceKey(value: string): value is ReactivationSequenceKey {
-	return REACTIVATION_SEQUENCE_KEYS.includes(value as ReactivationSequenceKey);
-}
+type ReactivationEnrollmentCounts = {
+	total: number;
+	active: number;
+	processing: number;
+	completed: number;
+	exited: number;
+	errored: number;
+	rePermissioned: number;
+	reactivatedClick: number;
+};
 
-function emptyBucketCounts(): Record<ReactivationBucket, number> {
+async function loadReactivationEnrollmentCounts(
+	supabase: App.Locals['supabase'],
+	sequenceIds: string[]
+): Promise<ReactivationEnrollmentCounts> {
+	if (sequenceIds.length === 0) {
+		return {
+			total: 0,
+			active: 0,
+			processing: 0,
+			completed: 0,
+			exited: 0,
+			errored: 0,
+			rePermissioned: 0,
+			reactivatedClick: 0
+		};
+	}
+
+	const baseQuery = () =>
+		supabase
+			.from('email_sequence_enrollments')
+			.select('id', { count: 'exact', head: true })
+			.in('sequence_id', sequenceIds);
+	const results = await Promise.all([
+		baseQuery(),
+		baseQuery().eq('status', 'active'),
+		baseQuery().eq('status', 'processing'),
+		baseQuery().eq('status', 'completed'),
+		baseQuery().eq('status', 'exited'),
+		baseQuery().eq('status', 'errored'),
+		baseQuery().eq('exit_reason', 're_permissioned'),
+		baseQuery().eq('exit_reason', 'reactivated_click')
+	]);
+	const failed = results.find((result) => result.error);
+	if (failed?.error) throw failed.error;
+	const count = (index: number) => results[index]?.count ?? 0;
+
 	return {
-		cold: 0,
-		dormant: 0,
-		zombies: 0
+		total: count(0),
+		active: count(1),
+		processing: count(2),
+		completed: count(3),
+		exited: count(4),
+		errored: count(5),
+		rePermissioned: count(6),
+		reactivatedClick: count(7)
 	};
 }
 
-function incrementSkipped(skipped: Map<string, number>, reason: string) {
-	skipped.set(reason, (skipped.get(reason) ?? 0) + 1);
-}
-
-function getReactivationBucket(createdAt: string, now = new Date()): ReactivationBucket | 'fresh' {
-	const createdDate = new Date(createdAt);
-	if (Number.isNaN(createdDate.getTime())) {
-		return 'fresh';
-	}
-
-	const ageDays = Math.floor((now.getTime() - createdDate.getTime()) / (24 * 60 * 60 * 1000));
-	if (ageDays < 30) {
-		return 'fresh';
-	}
-
-	if (ageDays < 90) {
-		return 'cold';
-	}
-
-	if (ageDays < 365) {
-		return 'dormant';
-	}
-
-	return 'zombies';
-}
-
-function ageDays(createdAt: string, now = new Date()) {
-	return Math.max(
-		0,
-		Math.floor((now.getTime() - new Date(createdAt).getTime()) / (24 * 60 * 60 * 1000))
-	);
+function isReactivationSequenceKey(value: string): value is ReactivationSequenceKey {
+	return REACTIVATION_SEQUENCE_KEYS.includes(value as ReactivationSequenceKey);
 }
 
 function recommendedBatch(bucket: ReactivationBucket, bucketIndex: number) {
@@ -274,130 +283,34 @@ async function assertAdmin(locals: App.Locals) {
 async function buildCandidatePreview(
 	supabase: App.Locals['supabase']
 ): Promise<CandidatePreviewSummary> {
-	const skipped = new Map<string, number>();
-	const counts = emptyBucketCounts();
-	const candidatesByEmail = new Map<string, CandidatePreview>();
-	const now = new Date();
-
-	const [profilesResult, unsubscribesResult, sequenceRowsResult] = await Promise.all([
-		supabase
-			.from('profiles')
-			.select('id, email, first_name, username, enneagram, created_at')
-			.not('email', 'is', null)
-			.not('created_at', 'is', null),
-		supabase.from('email_unsubscribes').select('email'),
-		supabase
-			.from('email_sequences')
-			.select('id, key')
-			.in('key', [WELCOME_SEQUENCE_KEY, ...REACTIVATION_SEQUENCE_KEYS])
-	]);
-
-	if (profilesResult.error) {
-		throw profilesResult.error;
-	}
-	if (unsubscribesResult.error) {
-		throw unsubscribesResult.error;
-	}
-	if (sequenceRowsResult.error) {
-		throw sequenceRowsResult.error;
-	}
-
-	const suppressedEmails = new Set(
-		(unsubscribesResult.data ?? [])
-			.map((row) => normalizeEmail(row.email))
-			.filter((email): email is string => Boolean(email))
-	);
-	const sequenceIds = (sequenceRowsResult.data ?? []).map((sequence) => sequence.id);
-	const enrolledEmails = new Set<string>();
-
-	if (sequenceIds.length > 0) {
-		const { data: enrollments, error } = await supabase
-			.from('email_sequence_enrollments')
-			.select('recipient_email')
-			.in('sequence_id', sequenceIds);
-
-		if (error) {
-			throw error;
-		}
-
-		for (const enrollment of enrollments ?? []) {
-			const email = normalizeEmail(enrollment.recipient_email);
-			if (email) {
-				enrolledEmails.add(email);
-			}
-		}
-	}
-
-	for (const profile of (profilesResult.data ?? []) as ProfileCandidateRow[]) {
-		const email = normalizeEmail(profile.email);
-
-		if (!email || !EMAIL_PATTERN.test(email)) {
-			incrementSkipped(skipped, 'invalid_email');
-			continue;
-		}
-
-		if (!profile.created_at) {
-			incrementSkipped(skipped, 'missing_created_at');
-			continue;
-		}
-
-		if (suppressedEmails.has(email)) {
-			incrementSkipped(skipped, 'suppressed');
-			continue;
-		}
-
-		if (enrolledEmails.has(email)) {
-			incrementSkipped(skipped, 'already_in_welcome_or_reactivation');
-			continue;
-		}
-
-		const bucket = getReactivationBucket(profile.created_at, now);
-		if (bucket === 'fresh') {
-			incrementSkipped(skipped, 'fresh_under_30_days');
-			continue;
-		}
-
-		const existing = candidatesByEmail.get(email);
-		if (existing) {
-			incrementSkipped(skipped, 'duplicate_profile_email');
-			if (new Date(profile.created_at).getTime() >= new Date(existing.created_at).getTime()) {
-				continue;
-			}
-		}
-
-		candidatesByEmail.set(email, {
-			userId: profile.id,
-			email,
-			name: profile.first_name?.trim() || profile.username?.trim() || 'there',
-			bucket,
-			created_at: profile.created_at,
-			age_days: ageDays(profile.created_at, now),
-			recommended_batch: '',
+	const summary = await loadReactivationCandidateSummary(supabase, {
+		limit: QUEUE_PREVIEW_LIMIT
+	});
+	const bucketIndexes: Record<ReactivationBucket, number> = {
+		cold: 0,
+		dormant: 0,
+		zombies: 0
+	};
+	const candidates = summary.candidates.map((candidate) => {
+		const bucketIndex = bucketIndexes[candidate.bucket]++;
+		return {
+			userId: candidate.userId,
+			email: candidate.email,
+			name: candidate.name,
+			bucket: candidate.bucket,
+			created_at: candidate.createdAt,
+			age_days: candidate.ageDays,
+			recommended_batch: recommendedBatch(candidate.bucket, bucketIndex),
 			first_send_timing: 'Email 1 queues immediately when enrolled'
-		});
-	}
-
-	for (const candidate of candidatesByEmail.values()) {
-		counts[candidate.bucket]++;
-	}
-
-	const orderedCandidates = (['dormant', 'cold', 'zombies'] as ReactivationBucket[]).flatMap(
-		(bucket) =>
-			[...candidatesByEmail.values()]
-				.filter((candidate) => candidate.bucket === bucket)
-				.sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime())
-				.map((candidate, index) => ({
-					...candidate,
-					recommended_batch: recommendedBatch(bucket, index)
-				}))
-	);
+		};
+	});
 
 	return {
-		candidates: orderedCandidates.slice(0, 200),
-		counts,
-		totalEligible: orderedCandidates.length,
-		totalProfilesChecked: profilesResult.data?.length ?? 0,
-		skipped: [...skipped.entries()].map(([reason, count]) => ({ reason, count }))
+		candidates,
+		counts: summary.counts,
+		totalEligible: summary.totalEligible,
+		totalProfilesChecked: summary.totalProfilesChecked,
+		skipped: summary.skipped
 	};
 }
 
@@ -421,7 +334,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const sequenceIds = sequences.map((sequence) => sequence.id);
 	const sequenceById = new Map(sequences.map((sequence) => [sequence.id, sequence]));
 
-	const [stepsResult, enrollmentsResult, candidatePreview] = await Promise.all([
+	const [stepsResult, enrollmentsResult, candidatePreview, enrollmentCounts] = await Promise.all([
 		sequenceIds.length
 			? supabase
 					.from('email_sequence_steps')
@@ -438,9 +351,14 @@ export const load: PageServerLoad = async ({ locals }) => {
 						'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
 					)
 					.in('sequence_id', sequenceIds)
+					.in('status', ['active', 'processing'])
+					.not('next_step_number', 'is', null)
+					.not('next_send_at', 'is', null)
 					.order('next_send_at', { ascending: true })
+					.limit(QUEUE_PREVIEW_LIMIT)
 			: Promise.resolve({ data: [], error: null }),
-		buildCandidatePreview(supabase)
+		buildCandidatePreview(supabase),
+		loadReactivationEnrollmentCounts(supabase, sequenceIds)
 	]);
 
 	if (stepsResult.error) {
@@ -599,16 +517,6 @@ export const load: PageServerLoad = async ({ locals }) => {
 			};
 		});
 
-	const enrollmentCounts = {
-		total: enrollmentRows.length,
-		active: enrollmentRows.filter((row) => row.status === 'active').length,
-		processing: enrollmentRows.filter((row) => row.status === 'processing').length,
-		completed: enrollmentRows.filter((row) => row.status === 'completed').length,
-		exited: enrollmentRows.filter((row) => row.status === 'exited').length,
-		errored: enrollmentRows.filter((row) => row.status === 'errored').length,
-		rePermissioned: enrollmentRows.filter((row) => row.exit_reason === 're_permissioned').length,
-		reactivatedClick: enrollmentRows.filter((row) => row.exit_reason === 'reactivated_click').length
-	};
 	const step2Items = editorItems.filter((step) => step.step_number === 2);
 	const copyReadiness = {
 		// Ready when the code-managed step 2 copy is final, or every bucket has a

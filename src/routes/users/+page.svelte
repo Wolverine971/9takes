@@ -121,7 +121,7 @@
 	{/if}
 </div>
 
-<Modal id="user-modal2">
+<Modal id="user-modal2" name="Edit user">
 	<div>
 		<h1>Edit {active?.email}</h1>
 		<h2>{active?.first_name} {active?.last_name}</h2>

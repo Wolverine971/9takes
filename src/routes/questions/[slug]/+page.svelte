@@ -1514,11 +1514,11 @@
 	}
 
 	.category-editor-msg--error {
-		color: var(--error);
+		color: var(--error-text);
 	}
 
 	.category-editor-msg--success {
-		color: var(--success);
+		color: var(--success-text);
 	}
 
 	.category-editor-actions {

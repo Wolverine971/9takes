@@ -2137,13 +2137,13 @@
 	}
 
 	.sg-btn--danger {
-		background: var(--error, #ef4444);
-		color: #ffffff;
-		border-color: var(--error, #ef4444);
+		background: var(--danger-surface, #ef4444);
+		color: var(--text-on-danger, #0a0807);
+		border-color: var(--danger-surface, #ef4444);
 
 		&:hover:not(:disabled) {
-			background: var(--error-700, #dc2626);
-			border-color: var(--error-700, #dc2626);
+			background: var(--danger-surface-hover, #f87171);
+			border-color: var(--danger-surface-hover, #f87171);
 		}
 	}
 

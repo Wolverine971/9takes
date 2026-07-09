@@ -1,9 +1,11 @@
 // src/routes/admin/consulting/clients/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
-import { fail } from '@sveltejs/kit';
+import { error as httpError, fail } from '@sveltejs/kit';
+import { guardAdminActions } from '$lib/server/adminAuth';
 import type { Database } from '../../../../../database.types';
 
 type ClientStatus = Pick<Database['public']['Tables']['consulting_clients']['Row'], 'status'>;
+const CLIENT_PAGE_SIZE = 100;
 
 export const load: PageServerLoad = async ({ locals, url }) => {
 	const supabase = locals.supabase;
@@ -12,6 +14,9 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 	const statusFilter = url.searchParams.get('status') || 'all';
 	const typeFilter = url.searchParams.get('type') || 'all';
 	const searchQuery = url.searchParams.get('q') || '';
+	const requestedPage = Number.parseInt(url.searchParams.get('page') ?? '1', 10);
+	const page = Number.isSafeInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
+	const offset = (page - 1) * CLIENT_PAGE_SIZE;
 
 	// Build query
 	let query = supabase
@@ -21,9 +26,11 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 			*,
 			sessions:consulting_sessions(count),
 			intake:consulting_intake_forms(status)
-		`
+		`,
+			{ count: 'exact' }
 		)
-		.order('created_at', { ascending: false });
+		.order('created_at', { ascending: false })
+		.range(offset, offset + CLIENT_PAGE_SIZE - 1);
 
 	// Apply filters
 	if (statusFilter !== 'all') {
@@ -38,22 +45,43 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 		query = query.or(`name.ilike.%${searchQuery}%,email.ilike.%${searchQuery}%`);
 	}
 
-	const { data: clients, error } = await query;
+	const { data: clients, error, count: filteredClientCount } = await query;
 
 	if (error) {
 		console.error('Error fetching clients:', error);
+		throw httpError(500, 'Failed to load consulting clients');
 	}
 
-	// Get counts for filters
-	const { data: allClients } = await supabase
-		.from('consulting_clients')
-		.select('status, enneagram_type');
+	// Reuse the dashboard aggregate instead of transferring every client for filter counts.
+	const { data: summaryRows, error: summaryError } = await supabase.rpc(
+		'get_admin_consulting_dashboard_summary'
+	);
+	let totalClients = summaryRows?.[0]?.total_clients ?? 0;
+	let statusCounts =
+		summaryRows?.[0]?.status_counts && typeof summaryRows[0].status_counts === 'object'
+			? (summaryRows[0].status_counts as Record<string, number>)
+			: {};
 
-	const statusCounts = (allClients || []).reduce((acc: Record<string, number>, c: ClientStatus) => {
-		const status = c.status ?? 'unknown';
-		acc[status] = (acc[status] || 0) + 1;
-		return acc;
-	}, {});
+	if (summaryError) {
+		console.error('Consulting summary RPC unavailable; using count fallback', summaryError);
+		const { data: allClients, error: fallbackError } = await supabase
+			.from('consulting_clients')
+			.select('status');
+		if (fallbackError) {
+			console.error('Error loading consulting status counts:', fallbackError);
+			throw httpError(500, 'Failed to load consulting client totals');
+		} else {
+			totalClients = allClients?.length ?? 0;
+			statusCounts = (allClients || []).reduce(
+				(acc: Record<string, number>, client: ClientStatus) => {
+					const status = client.status ?? 'unknown';
+					acc[status] = (acc[status] || 0) + 1;
+					return acc;
+				},
+				{}
+			);
+		}
+	}
 
 	return {
 		clients: clients || [],
@@ -63,11 +91,17 @@ export const load: PageServerLoad = async ({ locals, url }) => {
 			search: searchQuery
 		},
 		statusCounts,
-		totalClients: allClients?.length || 0
+		totalClients,
+		pagination: {
+			page,
+			limit: CLIENT_PAGE_SIZE,
+			total: filteredClientCount ?? 0,
+			totalPages: Math.max(1, Math.ceil((filteredClientCount ?? 0) / CLIENT_PAGE_SIZE))
+		}
 	};
 };
 
-export const actions: Actions = {
+export const actions: Actions = guardAdminActions({
 	// Create a new client
 	createClient: async ({ request, locals }) => {
 		const formData = await request.formData();
@@ -156,4 +190,4 @@ export const actions: Actions = {
 
 		return { success: true };
 	}
-};
+});

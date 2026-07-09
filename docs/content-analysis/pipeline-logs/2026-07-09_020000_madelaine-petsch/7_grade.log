@@ -1,0 +1,19 @@
+## Grading Complete — Madelaine-Petsch
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Madelaine-Petsch | 9 | 8 | 9 | 8 | 8 | 9 | 8.5 | B+ |
+
+(Weighted: `(9×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 8.5`. Discoverability 9 — no gate. Caps applied: none.)
+
+### Key Observations
+
+- **Deterministic checks all clean**: 0 contrast pairs, head-term PASS with a 43-word answer block, same-type similarity scan clear (max 0.061 against khloe-kardashian, semantically unrelated pairs), and the source audit found 0 untagged load-bearing quotes — 1 inline, 8 vague-but-traceable to named antecedents (Call Her Daddy Sept 2025, Angle on Producers 2025).
+- **What earns the 9s**: the evidence layer is drenched in her own dated words across two full transcripts plus THR, Seattle Times, Collider, Refinery29, Wonderland, and Moviefone; the frontmatter nails search intent (55-char meta_title, 153-char description, 5 genuine FAQ questions with anchors, complete entity metadata); and the window-sales cold open — cry on command to sell windows door-to-door — is the fixer thesis in miniature.
+- **What holds it at B+ rather than A**: the personal half (childhood, romance, motherhood, therapy) traces almost entirely to one podcast episode, so for a reader arriving from Call Her Daddy the piece reads partly as a superbly organized recap; two arrow-mechanics bleeds sit in the body ("Twos move toward Type 8" plus the growth-direction framing) that v2 wants quarantined in the rabbit hole; and the house architecture (epigraph → cold open → TL;DR accordion → wound-return ending) stays visible to a serial reader, which caps Writing in the 8 band per the Matt-Smith anchor comparison.
+- **Sameness check**: passed — TL;DR labels are bespoke, no corpus-stat sentence, no "The tell:" or reader-imperative reuse against julia-fox / Olivia-Cooke / Oliver-Tree; only the structural epigraph/cold-open furniture and the return-to-the-wound closing shape recur (2 shape-level echoes, below the 3-move cap threshold). The empathy turn uses her own wound-vocabulary (wrongful conviction / verdict), not house armor-grammar — no cap.
+- **Distribution sanity**: 8.5 sits between Olivia-Cooke (8.3) and Oliver-Tree (8.8) from this week's grades, and right at the structural ceiling documented for formula-compliant pipeline output — consistent, not drifted.
+
+Grade block and reviewer comment written to `src/blog/people/drafts/Madelaine-Petsch.md` (first grade for this file — no prior QUALITY GRADE comments existed).
+
+**Total graded this session: 1**

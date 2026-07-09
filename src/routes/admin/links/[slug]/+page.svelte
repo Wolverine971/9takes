@@ -319,7 +319,7 @@
 	</main>
 </div>
 
-<Modal id="edit-link">
+<Modal id="edit-link" name="Change linked question">
 	<div class="modal-content">
 		<h2>Change Question</h2>
 
