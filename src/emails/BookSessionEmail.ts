@@ -86,7 +86,7 @@ export const welcomeEmail = (name: string) => {
                     <tr>
                       <td valign="top" width="48%" style="padding-right: 2%;">
                         <a href="https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" style="text-decoration: none;">
-                          <img src="https://9takes.com/blogs/greek-statues-discovering.webp" alt="Discover Your Type" width="100%" style="max-width: 260px; height: auto; display: block; border-radius: 8px; margin-bottom: 12px; filter: sepia(100%) hue-rotate(160deg);">
+                          <img src="https://9takes.com/blogs/greek-statue-finding-enneagram-type.webp" alt="Discover Your Type" width="100%" style="max-width: 260px; height: auto; display: block; border-radius: 8px; margin-bottom: 12px; filter: sepia(100%) hue-rotate(160deg);">
                           <h3 style="margin: 0 0 10px; color: #2a2d34; font-size: 16px; font-weight: 600;">Discover Your Type</h3>
                         </a>
                       </td>

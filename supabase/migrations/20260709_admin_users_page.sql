@@ -1,3 +1,4 @@
+-- supabase/migrations/20260709_admin_users_page.sql
 -- Return one globally filtered and sorted admin-user page without exposing
 -- auth.users directly to the browser or transferring the full user directory.
 

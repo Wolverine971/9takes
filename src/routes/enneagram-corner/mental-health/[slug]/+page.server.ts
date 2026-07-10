@@ -1,24 +1,12 @@
 // src/routes/enneagram-corner/mental-health/[slug]/+page.server.ts
 
-import { dev } from '$app/environment';
 import { slugFromPath } from '$lib/slugFromPath';
 import matter from 'gray-matter';
 import type { PageServerLoad } from './$types';
 
 const MAX_POSTS = 6;
 
-export const load: PageServerLoad = async ({ params, setHeaders }) => {
-	if (!dev) {
-		setHeaders({
-			// Keep article requests uncached so hooks.server can inspect every fetch.
-			'Cache-Control': 'private, no-store'
-		});
-	} else {
-		setHeaders({
-			'Cache-Control': 'no-store'
-		});
-	}
-
+export const load: PageServerLoad = async ({ params }) => {
 	const modules = import.meta.glob(
 		[
 			`/src/blog/enneagram/mental-health/*.{md,svx,svelte.md}`,

@@ -1,3 +1,4 @@
+-- supabase/migrations/20260709_admin_user_status_safety.sql
 -- Atomically change administrator status without allowing self-lockout or
 -- removal of the final administrator account.
 

@@ -1,6 +1,5 @@
 // src/routes/pop-culture/[slug]/+page.server.ts
 
-import { dev } from '$app/environment';
 import {
 	loadBlogPostMetadata,
 	selectPopCultureRelatedPosts,
@@ -21,18 +20,7 @@ const RAW_POP_CULTURE_MODULES = import.meta.glob(
 	}
 ) as RawBlogModules;
 
-export const load: PageServerLoad = async ({ params, setHeaders }) => {
-	if (!dev) {
-		setHeaders({
-			// Keep article requests uncached so hooks.server can inspect every fetch.
-			'Cache-Control': 'private, no-store'
-		});
-	} else {
-		setHeaders({
-			'Cache-Control': 'no-store'
-		});
-	}
-
+export const load: PageServerLoad = async ({ params }) => {
 	const posts = await loadBlogPostMetadata(RAW_POP_CULTURE_MODULES);
 
 	return {

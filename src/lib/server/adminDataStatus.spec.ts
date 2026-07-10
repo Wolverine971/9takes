@@ -1,3 +1,4 @@
+// src/lib/server/adminDataStatus.spec.ts
 import { describe, expect, it } from 'vitest';
 import { buildAdminDataStatus } from './adminDataStatus';
 

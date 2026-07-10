@@ -1,3 +1,4 @@
+// src/lib/validation/adminEmailSchemas.ts
 import { z } from 'zod';
 
 const recipientSourceSchema = z.enum(['profiles', 'signups', 'coaching_waitlist']);

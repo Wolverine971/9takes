@@ -1,3 +1,4 @@
+-- supabase/migrations/20260709_email_sequence_send_identity.sql
 -- Give every sequence-generated email an immutable sequence identity. Admin
 -- analytics can then aggregate by sequence and step instead of editable subject text.
 

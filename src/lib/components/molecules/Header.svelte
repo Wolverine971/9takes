@@ -6,12 +6,13 @@
 	import HeaderSearch from './HeaderSearch.svelte';
 	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
 	import { Button } from '$lib/components/atoms';
+	import { getAuthShellUser } from '$lib/authShell';
 	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
 	// Phase 3 (2026-05-04): inline SVGs migrated to lucide-svelte per design-system.md
 	// rollout-plan Phase 3. Stroke widths normalized to Lucide defaults (1.5).
 	import { CircleUserRound, ChevronDown } from 'lucide-svelte';
 
-	export let data: any;
+	const authUser = getAuthShellUser();
 
 	interface NavigationItem {
 		href: string;
@@ -100,7 +101,7 @@
 
 			<div class="header-actions mobile-actions">
 				<ThemeToggle />
-				{#if data?.user}
+				{#if $authUser}
 					<a href="/account" class="account-button" aria-label="Go to account" title="Account">
 						<CircleUserRound size={24} strokeWidth={1.5} class="account-icon" />
 					</a>
@@ -169,7 +170,7 @@
 
 		<div class="header-actions">
 			<ThemeToggle />
-			{#if data?.user}
+			{#if $authUser}
 				<a href="/account" class="account-button" aria-label="Go to account" title="Account">
 					<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
 				</a>

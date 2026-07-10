@@ -8,6 +8,8 @@
 		url: string;
 	}
 
+	export let wide = false;
+
 	let navSteps: NavStep[] = [];
 
 	function getHref(index: number, steps: string[]): string {
@@ -27,7 +29,7 @@
 		});
 
 		return pathSegments.slice(0, -1).map((segment, i) => ({
-			name: segment === 'questions' ? 'Question List' : segment.replace(/-/g, ' '),
+			name: segment === 'questions' ? 'Questions' : segment.replace(/-/g, ' '),
 			url: getHref(i + 1, pathSegments)
 		}));
 	}
@@ -45,7 +47,7 @@
 </script>
 
 {#if navSteps.length}
-	<div class="xs:px-1 mx-auto w-full max-w-4xl px-2">
+	<div class="xs:px-1 mx-auto w-full px-2" class:max-w-4xl={!wide} class:max-w-7xl={wide}>
 		<div
 			class="flex min-h-12 items-center border-b border-[var(--stone-edge)] transition-transform hover:-translate-x-0.5 hover:bg-[var(--lamp-soft)] active:-translate-x-1"
 		>

@@ -23,8 +23,10 @@
 	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
 	import { buildHowToSchema } from '$lib/utils/schema';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
+	import { getAuthShellUser } from '$lib/authShell';
 
 	let { data }: { data: PageData } = $props();
+	const authUser = getAuthShellUser();
 
 	// Build HowTo schema if steps are defined in frontmatter
 	let howToSchema = $derived(
@@ -151,7 +153,7 @@
 <SuggestionsBlog posts={data?.posts} blogType={'How to Guides'} slugPrefix={'how-to-guides'} />
 
 <div class="join">
-	{#if !data?.user}
+	{#if !$authUser}
 		<EnneagramCTASidebar />
 		<EmailSignup cta={'Get the next practical guide from 9takes'} />
 	{/if}

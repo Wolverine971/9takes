@@ -1,5 +1,9 @@
 <!-- src/lib/components/blog/TableOfContents.svelte -->
 <script lang="ts">
+	// The article stylesheet is intentionally route-scoped through this shared
+	// article-chrome component. Every public long-form template renders a TOC,
+	// so non-editorial routes no longer pay for blog furniture and prose rules.
+	import '../../../scss/blog.scss';
 	import { onMount, onDestroy, afterUpdate } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { writable, type Writable } from 'svelte/store';

@@ -1951,6 +1951,9 @@ export type Database = {
           recipient_source: string
           recipient_source_id: string
           retry_count: number | null
+          sequence_enrollment_id: string | null
+          sequence_id: string | null
+          sequence_step_number: number | null
           sent_at: string | null
           sent_by: string | null
           status: string | null
@@ -1976,6 +1979,9 @@ export type Database = {
           recipient_source: string
           recipient_source_id: string
           retry_count?: number | null
+          sequence_enrollment_id?: string | null
+          sequence_id?: string | null
+          sequence_step_number?: number | null
           sent_at?: string | null
           sent_by?: string | null
           status?: string | null
@@ -2001,6 +2007,9 @@ export type Database = {
           recipient_source?: string
           recipient_source_id?: string
           retry_count?: number | null
+          sequence_enrollment_id?: string | null
+          sequence_id?: string | null
+          sequence_step_number?: number | null
           sent_at?: string | null
           sent_by?: string | null
           status?: string | null
@@ -2015,6 +2024,27 @@ export type Database = {
             isOneToOne: false
             referencedRelation: "email_campaigns"
             referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "email_sends_sequence_enrollment_id_fkey"
+            columns: ["sequence_enrollment_id"]
+            isOneToOne: false
+            referencedRelation: "email_sequence_enrollments"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "email_sends_sequence_id_fkey"
+            columns: ["sequence_id"]
+            isOneToOne: false
+            referencedRelation: "email_sequences"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "email_sends_sequence_step_fkey"
+            columns: ["sequence_id", "sequence_step_number"]
+            isOneToOne: false
+            referencedRelation: "email_sequence_steps"
+            referencedColumns: ["sequence_id", "step_number"]
           },
           {
             foreignKeyName: "email_sends_sent_by_fkey"
@@ -4381,6 +4411,52 @@ export type Database = {
         Args: { p_anchor_date?: string }
         Returns: Json
       }
+      get_admin_question_category_rollup: {
+        Args: never
+        Returns: {
+          category_name: string
+          direct_question_count: number
+          id: number
+          intro_generated_at: string | null
+          intro_reviewed_at: string | null
+          intro_source: string | null
+          intro_status: string | null
+          intro_updated_at: string | null
+          level: number | null
+          parent_id: number | null
+          slug: string | null
+          subtree_question_count: number
+        }[]
+      }
+      get_admin_users_page: {
+        Args: {
+          p_filter?: string
+          p_limit?: number
+          p_offset?: number
+          p_search?: string
+          p_sort_by?: string
+          p_sort_direction?: string
+        }
+        Returns: {
+          admin: boolean
+          aud: string
+          confirmation_sent_at: string | null
+          confirmed_at: string | null
+          created_at: string
+          email: string
+          enneagram: string | null
+          external_id: string | null
+          first_name: string | null
+          id: string
+          invited_at: string | null
+          last_name: string | null
+          last_sign_in_at: string | null
+          phone: string | null
+          role: string
+          total_rows: number
+          username: string | null
+        }[]
+      }
       get_all_users: {
         Args: never
         Returns: {
@@ -4409,6 +4485,10 @@ export type Database = {
           tag_name: string
           tagid: number
         }[]
+      }
+      get_reactivation_candidate_summary: {
+        Args: { p_buckets?: string[]; p_limit?: number }
+        Returns: Json
       }
       get_category_children_structure: {
         Args: { input_category_name: string }
@@ -5162,6 +5242,14 @@ export type Database = {
           rank: number
           updated_at: string
           url: string
+        }[]
+      }
+      set_admin_status_safely: {
+        Args: { p_is_admin: boolean; p_target_user_id: string }
+        Returns: {
+          admin: boolean
+          email: string
+          id: string
         }[]
       }
       show_limit: { Args: never; Returns: number }

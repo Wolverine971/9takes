@@ -1,3 +1,4 @@
+-- supabase/migrations/20260709_reactivation_candidate_summary.sql
 -- Classify, suppress, deduplicate, count, and page reactivation candidates in
 -- Postgres. This keeps the admin preview and enrollment worker from loading the
 -- entire profile, suppression, and historical enrollment sets into memory.

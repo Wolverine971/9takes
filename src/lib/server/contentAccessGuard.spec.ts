@@ -4,6 +4,7 @@ import {
 	CONTENT_ACCESS_ANON_COOKIE_NAME,
 	CONTENT_GUARD_CACHE_CONTROL,
 	CONTENT_SEARCH_PREVIEW_CACHE_CONTROL,
+	PUBLIC_EDITORIAL_CACHE_CONTROL,
 	createAnonymousContentAccessId,
 	getContentAccessDecision,
 	getContentRequestKind,
@@ -11,6 +12,7 @@ import {
 	getContentRequester,
 	getHardBlockedReason,
 	getProtectedContentPath,
+	getPublicEditorialCachePath,
 	isTrackableContentRequester
 } from './contentAccessGuard';
 
@@ -24,6 +26,18 @@ describe('contentAccessGuard', () => {
 		).toBe('/pop-culture/breaking-points-enneagram-analysis');
 		expect(getProtectedContentPath('/pop-culture')).toBeNull();
 		expect(getContentRequestKind('/pop-culture/post/__data.json')).toBe('data');
+	});
+
+	it('separates cacheable editorial routes from personalized personality pages', () => {
+		expect(getPublicEditorialCachePath('/community/kantian-filters-and-nine-perspectives')).toBe(
+			'/community/kantian-filters-and-nine-perspectives'
+		);
+		expect(
+			getPublicEditorialCachePath('/enneagram-corner/mental-health/types-and-anxiety/__data.json')
+		).toBe('/enneagram-corner/mental-health/types-and-anxiety');
+		expect(getPublicEditorialCachePath('/personality-analysis/scott-galloway')).toBeNull();
+		expect(getPublicEditorialCachePath('/personality-analysis/type/enneagram-type-5')).toBeNull();
+		expect(getPublicEditorialCachePath('/community')).toBeNull();
 	});
 
 	it('allows named AI crawlers while still classifying them for tracking', () => {
@@ -238,12 +252,12 @@ describe('contentAccessGuard', () => {
 
 		expect(
 			getContentAccessDecision(requester, {
-				total_10m: 80,
-				unique_10m: 40,
-				total_1h: 120,
-				unique_1h: 90,
-				total_24h: 1001,
-				unique_24h: 450
+				total_10m: 555,
+				unique_10m: 555,
+				total_1h: 900,
+				unique_1h: 555,
+				total_24h: 1501,
+				unique_24h: 555
 			})
 		).toEqual({
 			action: 'throttle',
@@ -252,10 +266,37 @@ describe('contentAccessGuard', () => {
 		});
 	});
 
+	it('allows one complete pass over the current protected sitemap corpus', () => {
+		const requester = getContentRequester({
+			method: 'GET',
+			pathname: '/pop-culture/tech-titans-ai-wars',
+			userAgent: 'GPTBot/1.0',
+			clientIp: '203.0.113.11',
+			anonymousId: null,
+			isAuthenticated: false
+		});
+
+		if (!requester || !isTrackableContentRequester(requester)) {
+			throw new Error('Expected allowed AI crawler requester');
+		}
+
+		expect(
+			getContentAccessDecision(requester, {
+				total_10m: 555,
+				unique_10m: 555,
+				total_1h: 555,
+				unique_1h: 555,
+				total_24h: 555,
+				unique_24h: 555
+			})
+		).toEqual({ action: 'allow' });
+	});
+
 	it('exports the expected cookie name and cache policy', () => {
 		expect(CONTENT_ACCESS_ANON_COOKIE_NAME).toBe('9tanon');
 		expect(CONTENT_GUARD_CACHE_CONTROL).toBe('private, no-store');
 		expect(CONTENT_SEARCH_PREVIEW_CACHE_CONTROL).toContain('s-maxage=3600');
+		expect(PUBLIC_EDITORIAL_CACHE_CONTROL).toContain('stale-while-revalidate=86400');
 	});
 
 	it('uses crawl-friendly cache headers only for search preview bots', () => {
@@ -296,6 +337,12 @@ describe('contentAccessGuard', () => {
 		expect(getContentResponseCacheControl(human)).toBe(CONTENT_GUARD_CACHE_CONTROL);
 		expect(getContentResponseCacheControl(aiCrawler)).toBe(CONTENT_GUARD_CACHE_CONTROL);
 		expect(getContentResponseCacheControl(authenticatedGooglebot)).toBe(
+			CONTENT_GUARD_CACHE_CONTROL
+		);
+		expect(
+			getContentResponseCacheControl(human, '/community/kantian-filters-and-nine-perspectives')
+		).toBe(PUBLIC_EDITORIAL_CACHE_CONTROL);
+		expect(getContentResponseCacheControl(human, '/personality-analysis/scott-galloway')).toBe(
 			CONTENT_GUARD_CACHE_CONTROL
 		);
 	});

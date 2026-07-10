@@ -1104,8 +1104,7 @@
 		margin: 0;
 	}
 
-	.home :global(ul),
-	.home :global(ol) {
+	.home :global(:where(ul, ol)) {
 		list-style: none;
 		padding: 0;
 		margin: 0;

@@ -1,3 +1,4 @@
+// src/lib/server/emailSequenceMetrics.spec.ts
 import { describe, expect, it } from 'vitest';
 
 import { buildSequenceStepMetrics } from './emailSequenceMetrics';

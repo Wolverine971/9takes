@@ -784,19 +784,19 @@
 								"type": "small",
 								"title": "Enneagram Types in Stress",
 								"url": "https://9takes.com/enneagram-corner/enneagram-types-in-stress",
-								"image": "https://9takes.com/blogs/default-blog-image.webp"
+								"image": "https://9takes.com/blogs/feeling-stressed.webp"
 							},
 							{
 								"type": "small",
 								"title": "Toxic Traits of Each Enneagram Type",
 								"url": "https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type",
-								"image": "https://9takes.com/blogs/default-blog-image.webp"
+								"image": "https://9takes.com/blogs/greek-statue-showing-cracks.webp"
 							},
 							{
 								"type": "small",
 								"title": "Enneagram Communication Styles",
 								"url": "https://9takes.com/enneagram-corner/enneagram-communication-styles",
-								"image": "https://9takes.com/blogs/default-blog-image.webp"
+								"image": "https://9takes.com/blogs/two-female-greek-statues-having-a-conversation.webp"
 							},
 							{
 								"type": "cta-link",

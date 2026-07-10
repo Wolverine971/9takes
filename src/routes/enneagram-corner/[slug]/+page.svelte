@@ -24,8 +24,10 @@
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
 	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
+	import { getAuthShellUser } from '$lib/authShell';
 
 	let { data }: { data: PageData } = $props();
+	const authUser = getAuthShellUser();
 	type C = Component;
 	let Article = $derived(data.component as unknown as C);
 
@@ -138,7 +140,7 @@
 
 <SuggestionsBlog posts={data?.posts} blogType={'Enneagram'} slugPrefix={'enneagram-corner'} />
 
-{#if !data?.user}
+{#if !$authUser}
 	<EnneagramCTASidebar />
 	<div class="join">
 		<EmailSignup />

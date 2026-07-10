@@ -1,3 +1,4 @@
+// src/lib/analytics/adminAnalyticsDates.ts
 export const ADMIN_ANALYTICS_TIME_ZONE = 'UTC' as const;
 
 export function toUtcDateString(date: Date): string {

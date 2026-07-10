@@ -1,3 +1,4 @@
+// src/lib/utils/semanticContrast.spec.ts
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 

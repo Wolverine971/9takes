@@ -1,9 +1,66 @@
 {
+	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"version": 2,
 	"alias": "9takes.com",
 	"framework": "sveltekit",
 	"installCommand": "pnpm i --frozen-lockfile",
 	"buildCommand": "pnpm run build:vercel",
+	"headers": [
+		{
+			"source": "/fonts/:path*",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=31536000, immutable"
+				}
+			]
+		},
+		{
+			"source": "/blogs/:path*",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=86400, stale-while-revalidate=604800"
+				}
+			]
+		},
+		{
+			"source": "/books/:path*",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=86400, stale-while-revalidate=604800"
+				}
+			]
+		},
+		{
+			"source": "/brand/:path*",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=86400, stale-while-revalidate=604800"
+				}
+			]
+		},
+		{
+			"source": "/icons/:path*",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=86400, stale-while-revalidate=604800"
+				}
+			]
+		},
+		{
+			"source": "/types/:path*",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=86400, stale-while-revalidate=604800"
+				}
+			]
+		}
+	],
 	"crons": [
 		{
 			"path": "/api/cron/process-sequences",
@@ -15,6 +72,11 @@
 		}
 	],
 	"redirects": [
+		{
+			"source": "/9takes-preview.svg",
+			"destination": "/9takes-preview.png",
+			"permanent": true
+		},
 		{
 			"source": "/blog/famous-enneagram-types/type/:slug",
 			"destination": "/personality-analysis/type/:slug",

@@ -1,3 +1,4 @@
+// src/lib/server/adminDataStatus.ts
 export type AdminDataWarning = {
 	key: string;
 	label: string;

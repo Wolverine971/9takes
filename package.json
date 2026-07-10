@@ -4,7 +4,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"devTest": "vavite-loader vite dev",
-		"build": "vite build",
+		"build": "vite build && node scripts/check-build-budgets.mjs",
 		"build:vercel": "pnpm run gen:personality-image-map && pnpm run gen:corpus-stats && pnpm run gen:sitemap && pnpm run gen:llms && pnpm run build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
@@ -12,6 +12,7 @@
 		"all:install": "pnpm -w i --filter=\"*\"",
 		"all:build": "pnpm -w exec nx run-many --target=build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:budgets": "node scripts/check-build-budgets.mjs",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
 		"lint": "prettier --check . && eslint . && node scripts/lint-radius.js",

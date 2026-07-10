@@ -22,8 +22,10 @@
 	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
+	import { getAuthShellUser } from '$lib/authShell';
 
 	let { data }: { data: PageData } = $props();
+	const authUser = getAuthShellUser();
 	type C = Component;
 	let Article = $derived(data.component as unknown as C);
 
@@ -109,7 +111,7 @@
 <SuggestionsBlog posts={data?.posts} blogType={'Community'} slugPrefix={'community'} />
 
 <div class="join">
-	{#if !data?.user}
+	{#if !$authUser}
 		<EnneagramCTASidebar />
 		<EmailSignup cta={'Get the next community take from 9takes'} />
 	{/if}

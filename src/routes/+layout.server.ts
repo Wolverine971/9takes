@@ -1,28 +1,17 @@
 // src/routes/+layout.server.ts
+import { dev } from '$app/environment';
 import type { LayoutServerLoad } from './$types';
 import {
 	buildQuestionCategoryPathRows,
 	type QuestionCategoryRow
 } from '$lib/server/questionCategoryTree';
+import { getPublicEditorialCachePath } from '$lib/server/contentAccessGuard';
 import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
 import { logger } from '$lib/utils/logger';
-import { checkDemoTime } from '../utils/api';
 
 type ParentCategory = Pick<QuestionCategoryRow, 'id' | 'category_name' | 'slug' | 'level'>;
 
 export const load: LayoutServerLoad = async (event) => {
-	let demoTimeValue: unknown = undefined;
-	try {
-		demoTimeValue = await checkDemoTime(event.locals.supabase, { timeoutMs: 1200 });
-	} catch (adminSettingsError) {
-		logger.warn('Failed to load admin_settings in layout', {
-			error:
-				adminSettingsError instanceof Error
-					? adminSettingsError.message
-					: String(adminSettingsError)
-		});
-	}
-
 	let parents: ParentCategory[] = [];
 	if (event.url.pathname.startsWith('/questions/categories/')) {
 		const rawSlug = event.url.pathname.split('/').pop();
@@ -57,9 +46,9 @@ export const load: LayoutServerLoad = async (event) => {
 		}
 	}
 
-	const demo_time = demoTimeValue;
 	const session = event.locals.session;
 	let user: (typeof event.locals.user & { admin?: boolean }) | null = event.locals.user;
+	const authShell = !dev && getPublicEditorialCachePath(event.url.pathname) ? 'client' : 'server';
 
 	if (user?.id) {
 		const { data: profile, error: profileError } = await event.locals.supabase
@@ -102,7 +91,7 @@ export const load: LayoutServerLoad = async (event) => {
 	}
 
 	return {
-		demo_time,
+		authShell,
 		parents,
 		session,
 		user

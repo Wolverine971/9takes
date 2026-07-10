@@ -2,48 +2,110 @@
 
 # Default rules for all crawlers
 User-agent: *
-Disallow: /register
-Disallow: /login
-Disallow: /users
-Disallow: /register/
-Disallow: /login/
-Disallow: /users/
+Disallow: /account
 Disallow: /admin
-Disallow: /admin/
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 # AI Search Crawlers - Allow for citation opportunities
 # ChatGPT Search (real-time search feature)
 User-agent: OAI-SearchBot
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 # Claude search
 User-agent: Claude-SearchBot
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 # Perplexity AI
 User-agent: PerplexityBot
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 # Meta AI search
 User-agent: meta-webindexer
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 # Allow named AI crawlers to sample content
 User-agent: GPTBot
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 User-agent: ClaudeBot
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 User-agent: anthropic-ai
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 User-agent: CCBot
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 # Google-Extended is Google's AI access token.
 User-agent: Google-Extended
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
 Allow: /
 
 Sitemap: https://9takes.com/sitemap.xml

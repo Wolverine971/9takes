@@ -15,6 +15,7 @@ import {
 	getContentRequester,
 	getHardBlockedReason,
 	getProtectedContentPath,
+	getPublicEditorialCachePath,
 	isTrackableContentRequester
 } from '$lib/server/contentAccessGuard';
 import { recordSharedContentAccessEvent } from '$lib/server/contentAccessStore';
@@ -69,10 +70,14 @@ export const handle: Handle = async ({ event, resolve }) => {
 
 	const userAgent = event.request.headers.get('user-agent');
 	const protectedContentPath = getProtectedContentPath(event.url.pathname);
+	const publicEditorialCachePath = getPublicEditorialCachePath(event.url.pathname);
+	const usePublicEditorialShell = !dev && !!publicEditorialCachePath;
 	const clientIp = getClientIp(event);
 	const anonCookieValue = event.cookies.get(CONTENT_ACCESS_ANON_COOKIE_NAME) ?? null;
 	const pendingAnonCookieValue =
-		!dev && protectedContentPath && !anonCookieValue ? createAnonymousContentAccessId() : null;
+		!dev && protectedContentPath && !publicEditorialCachePath && !anonCookieValue
+			? createAnonymousContentAccessId()
+			: null;
 
 	const hardBlockedReason = dev
 		? null
@@ -130,7 +135,12 @@ export const handle: Handle = async ({ event, resolve }) => {
 		return typeaheadResponse;
 	}
 
-	const { session, user } = await event.locals.safeGetSession();
+	// Cacheable editorial HTML must be identical for every visitor. Its small
+	// authenticated shell is hydrated through /api/auth-shell after the page is
+	// interactive; personalized routes continue to resolve auth on the server.
+	const { session, user } = usePublicEditorialShell
+		? { session: null, user: null }
+		: await event.locals.safeGetSession();
 	event.locals.session = session;
 	event.locals.user = user;
 
@@ -215,9 +225,14 @@ export const handle: Handle = async ({ event, resolve }) => {
 	});
 
 	if (protectedContentPath) {
-		response.headers.set('Cache-Control', getContentResponseCacheControl(requester));
-		if (requester?.kind === 'search_preview_bot') {
-			response.headers.append('Vary', 'User-Agent');
+		response.headers.set(
+			'Cache-Control',
+			dev
+				? CONTENT_GUARD_CACHE_CONTROL
+				: getContentResponseCacheControl(requester, event.url.pathname)
+		);
+		if (!dev && (publicEditorialCachePath || requester?.kind === 'search_preview_bot')) {
+			appendVary(response.headers, 'User-Agent');
 		}
 	}
 
@@ -441,4 +456,15 @@ function applySecurityHeaders(headers: Headers) {
 		'Permissions-Policy',
 		'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()'
 	);
+}
+
+function appendVary(headers: Headers, value: string) {
+	const values = new Set(
+		(headers.get('Vary') ?? '')
+			.split(',')
+			.map((entry) => entry.trim())
+			.filter(Boolean)
+	);
+	values.add(value);
+	headers.set('Vary', [...values].join(', '));
 }

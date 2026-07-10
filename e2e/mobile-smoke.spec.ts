@@ -5,7 +5,7 @@
 //      client-side navigation kept working, so nobody noticed),
 //   2. nothing forces horizontal scroll at 390px,
 //   3. no console errors / unhandled page errors.
-// Run with `pnpm test:smoke` (starts or reuses the dev server on :5173).
+// Run with `pnpm test:smoke` (starts an isolated dev server on :5199 by default).
 import { test, expect, type Page } from '@playwright/test';
 
 const STATIC_ROUTES = [

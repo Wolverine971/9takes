@@ -1,3 +1,4 @@
+// src/lib/server/adminUserAccess.spec.ts
 import { describe, expect, it, vi } from 'vitest';
 
 import { setAdminStatusSafely } from './adminUserAccess';

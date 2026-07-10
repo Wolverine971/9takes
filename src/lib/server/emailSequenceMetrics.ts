@@ -1,3 +1,4 @@
+// src/lib/server/emailSequenceMetrics.ts
 type SequenceMetricStep = {
 	step_number: number;
 	subject: string;

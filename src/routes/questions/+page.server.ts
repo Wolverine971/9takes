@@ -4,6 +4,7 @@ import {
 	buildQuestionCategoryPath,
 	buildQuestionCategorySlug
 } from '$lib/utils/questionCategorySlug';
+import { withOwnedPageShell } from '$lib/layout/pageShell';
 import {
 	buildQuestionCategoryPathRows,
 	buildVisibleQuestionCategoryTree,
@@ -157,7 +158,7 @@ export const load: PageServerLoad = async (event) => {
 
 		// Process the data
 		const processedData = {
-			user: session?.user,
+			user: session?.user ?? null,
 			canAskQuestion: pageData?.canAskQuestion || false,
 			categoryTree: [],
 			subcategoryTags: visibleBrowseCategories,
@@ -169,7 +170,7 @@ export const load: PageServerLoad = async (event) => {
 			selectedCategory: null
 		};
 
-		return processedData;
+		return withOwnedPageShell(processedData);
 	} catch (e) {
 		if (isRedirect(e)) {
 			throw e;

@@ -276,9 +276,9 @@ To understand which intelligence center you operate from, start with [the Enneag
       "url": "https://9takes.com/how-to-guides/enneagram-hidden-strengths-and-gifts",
       "image": {
         "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/greek-statue-glowing-different-colors.webp",
-        "width": 900,
-        "height": 900
+        "url": "https://9takes.com/blogs/stairs-of-self-improvement.webp",
+        "width": 2912,
+        "height": 1632
       },
       "keywords": ["Enneagram strengths", "hidden gifts", "personality type strengths", "intelligence centers", "emotional intelligence", "self-discovery", "personal growth", "Enneagram guide"],
       "mainEntityOfPage": {

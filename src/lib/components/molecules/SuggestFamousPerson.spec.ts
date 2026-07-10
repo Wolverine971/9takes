@@ -1,3 +1,4 @@
+// src/lib/components/molecules/SuggestFamousPerson.spec.ts
 // @vitest-environment jsdom
 
 import { fireEvent, render, screen, waitFor } from '@testing-library/svelte';

@@ -1,7 +1,7 @@
 // scripts/gen-blog-image-openrouter.mjs
 // Generate a blog hero image via OpenRouter (Google Gemini "Nano Banana" image model)
-// and produce the 9takes blog image variant set: {slug}.png (master), {slug}.webp (full),
-// s-{slug}.webp (thumbnail).
+// and produce the 9takes blog image variant set: source-assets/blogs/{slug}.png (master),
+// static/blogs/{slug}.webp (full), and static/blogs/s-{slug}.webp (thumbnail).
 //
 // Usage:
 //   node scripts/gen-blog-image-openrouter.mjs <slug> [model]
@@ -14,7 +14,8 @@ import path from 'node:path';
 import sharp from 'sharp';
 
 const ROOT = process.cwd();
-const OUT_DIR = path.join(ROOT, 'static', 'blogs');
+const SOURCE_DIR = path.join(ROOT, 'source-assets', 'blogs');
+const DELIVERY_DIR = path.join(ROOT, 'static', 'blogs');
 
 function loadKey() {
 	for (const file of ['.env.local', '.env']) {
@@ -80,9 +81,12 @@ if (!url || !url.startsWith('data:')) {
 
 const b64 = url.split(',')[1];
 const buf = Buffer.from(b64, 'base64');
-fs.mkdirSync(OUT_DIR, { recursive: true });
+fs.mkdirSync(SOURCE_DIR, { recursive: true });
+fs.mkdirSync(DELIVERY_DIR, { recursive: true });
 
-const pngPath = path.join(OUT_DIR, `${slug}.png`);
+// Preserve the lossless source outside SvelteKit's public static tree. Only delivery derivatives
+// belong in static/ so deploys do not copy hundreds of megabytes of source artwork.
+const pngPath = path.join(SOURCE_DIR, `${slug}.png`);
 fs.writeFileSync(pngPath, buf);
 
 // Full webp (cap longest edge at 1200, high quality) and small thumbnail (400px).
@@ -90,17 +94,17 @@ const meta = await sharp(buf).metadata();
 await sharp(buf)
 	.resize({ width: Math.min(meta.width || 1200, 1200), withoutEnlargement: true })
 	.webp({ quality: 82 })
-	.toFile(path.join(OUT_DIR, `${slug}.webp`));
+	.toFile(path.join(DELIVERY_DIR, `${slug}.webp`));
 await sharp(buf)
 	.resize({ width: 400, withoutEnlargement: true })
 	.webp({ quality: 72 })
-	.toFile(path.join(OUT_DIR, `s-${slug}.webp`));
+	.toFile(path.join(DELIVERY_DIR, `s-${slug}.webp`));
 
 const sizes = ['png', 'webp'].map((e) => {
-	const f = path.join(OUT_DIR, `${slug}.${e}`);
+	const f = e === 'png' ? pngPath : path.join(DELIVERY_DIR, `${slug}.${e}`);
 	return `${slug}.${e} ${(fs.statSync(f).size / 1024).toFixed(0)}KB`;
 });
-const sThumb = path.join(OUT_DIR, `s-${slug}.webp`);
+const sThumb = path.join(DELIVERY_DIR, `s-${slug}.webp`);
 sizes.push(`s-${slug}.webp ${(fs.statSync(sThumb).size / 1024).toFixed(0)}KB`);
 console.log(`[gen] source ${meta.width}x${meta.height}`);
 console.log(`[gen] wrote: ${sizes.join(' | ')}`);

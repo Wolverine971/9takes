@@ -104,6 +104,8 @@ export type ContentAccessDecision =
 export const CONTENT_GUARD_CACHE_CONTROL = 'private, no-store';
 export const CONTENT_SEARCH_PREVIEW_CACHE_CONTROL =
 	'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400';
+export const PUBLIC_EDITORIAL_CACHE_CONTROL =
+	'public, max-age=0, s-maxage=300, stale-while-revalidate=86400, stale-if-error=86400';
 export const CONTENT_ACCESS_ANON_COOKIE_NAME = '9tanon';
 export const CONTENT_ACCESS_ANON_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
 
@@ -112,10 +114,13 @@ const DATA_SUFFIX = '/__data.json';
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_10M = 24;
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_1H = 60;
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_24H = 120;
-const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_10M = 50;
-const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_10M = 100;
-const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_24H = 500;
-const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_24H = 1000;
+// The generated sitemap currently contains 555 protected editorial URLs. A
+// named crawler must be able to complete one corpus pass without tripping a
+// quota, while repeat fetching remains bounded over the day.
+const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_10M = 650;
+const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_10M = 750;
+const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_24H = 750;
+const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_24H = 1500;
 
 const SEARCH_PREVIEW_BOTS: BotDefinition<SearchPreviewBotName>[] = [
 	{ name: 'Googlebot', pattern: /googlebot/i },
@@ -202,6 +207,24 @@ export function getProtectedContentPath(pathname: string): string | null {
 	}
 
 	return null;
+}
+
+/**
+ * Editorial routes whose server-rendered payload is intentionally identical
+ * for every visitor. Authenticated header state is hydrated separately in the
+ * browser, so these responses can use a short shared-cache policy.
+ *
+ * Personality analysis stays private because its answer gate and comments are
+ * selected from the authenticated user or fingerprint on the server.
+ */
+export function getPublicEditorialCachePath(pathname: string): string | null {
+	const protectedPath = getProtectedContentPath(pathname);
+
+	if (!protectedPath || protectedPath.startsWith('/personality-analysis/')) {
+		return null;
+	}
+
+	return protectedPath;
 }
 
 export function getHardBlockedReason({
@@ -310,7 +333,14 @@ export function isTrackableContentRequester(
 	return requester?.kind === 'anonymous_human' || requester?.kind === 'allowed_ai_crawler';
 }
 
-export function getContentResponseCacheControl(requester: ContentRequester | null): string {
+export function getContentResponseCacheControl(
+	requester: ContentRequester | null,
+	pathname?: string
+): string {
+	if (pathname && getPublicEditorialCachePath(pathname)) {
+		return PUBLIC_EDITORIAL_CACHE_CONTROL;
+	}
+
 	return requester?.kind === 'search_preview_bot'
 		? CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
 		: CONTENT_GUARD_CACHE_CONTROL;

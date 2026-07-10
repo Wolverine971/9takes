@@ -17,7 +17,9 @@
 	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
 	import { getPopCultureBridges } from '$lib/data/popCultureBridges';
 	import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
+	import { getAuthShellUser } from '$lib/authShell';
 	let { data }: { data: PageData } = $props();
+	const authUser = getAuthShellUser();
 	type C = Component;
 	let Article = $derived(data.component as unknown as C);
 
@@ -208,7 +210,7 @@
 
 <SuggestionsBlog posts={data?.posts} blogType={'Pop Culture'} slugPrefix={'pop-culture'} />
 
-{#if !data?.user}
+{#if !$authUser}
 	<EnneagramCTASidebar />
 	<div class="join">
 		<EmailSignup />

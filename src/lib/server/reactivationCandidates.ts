@@ -1,3 +1,4 @@
+// src/lib/server/reactivationCandidates.ts
 import { z } from 'zod';
 
 import type { ReactivationBucket } from '$lib/email/sequences';

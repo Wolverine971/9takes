@@ -28,6 +28,8 @@
 	import { loadPostHog, setUserIdentity } from '$lib/analytics/posthog';
 	import { webVitals } from '$lib/vitals';
 	import { preparePageTransition } from '$lib/page-transition';
+	import { resolvePageShell } from '$lib/layout/pageShell';
+	import { createAuthShellUser, normalizeAuthShellUser, type AuthShellUser } from '$lib/authShell';
 	import {
 		AUTHOR_DJ_WAYNE_ID,
 		DJ_WAYNE_SAME_AS,
@@ -44,28 +46,15 @@
 
 	export let data: PageData;
 
+	const authShellUser = createAuthShellUser(data?.user);
+	let authShellRequest: Promise<void> | null = null;
+	let authShellHydrated = false;
+
 	// Constants
 	const VERCEL_ANALYTICS_ID = import.meta.env.VERCEL_ANALYTICS_ID;
 	const PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
 	const PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS =
 		String(import.meta.env.PUBLIC_ENABLE_DEV_INHOUSE_ANALYTICS || '').toLowerCase() === 'true';
-	// Routes that opt OUT of the max-w-4xl clamp and manage their own width.
-	// Content listing pages define their own 1280px inner max-widths + full-bleed
-	// alternating bands in SCSS — clamping them collapsed the 4-col case grids
-	// to 2 cols and broke the band rhythm (design audit 2026-06-09).
-	// Detail/article pages stay clamped: they need the reading measure.
-	const FULL_WIDTH_PAGES = [
-		'/',
-		'/content-board',
-		'/book-session',
-		'/search',
-		'/questions',
-		'/community',
-		'/enneagram-corner',
-		'/pop-culture',
-		'/how-to-guides',
-		'/personality-analysis'
-	];
 	const ANALYTICS_SESSION_STORAGE_KEY = '9t_analytics_session_key';
 	const ANALYTICS_SESSION_LAST_SEEN_STORAGE_KEY = '9t_analytics_session_last_seen';
 
@@ -74,7 +63,6 @@
 
 	// Initialize page-dependent variables to prevent server access
 	let isHomePage = false;
-	let isSignupPage = false;
 	let isCategoryPage = false;
 	let isAdminPage = false;
 	let shouldShowMaxWidth = true;
@@ -112,6 +100,33 @@
 			return crypto.randomUUID();
 		}
 		return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+	}
+
+	async function syncClientAuthShell() {
+		if (!browser || data?.authShell !== 'client' || authShellHydrated || authShellRequest) {
+			return;
+		}
+
+		authShellRequest = (async () => {
+			try {
+				const response = await fetch('/api/auth-shell', {
+					headers: { Accept: 'application/json' },
+					credentials: 'same-origin'
+				});
+
+				if (!response.ok) return;
+
+				const payload = (await response.json()) as { user?: AuthShellUser | null };
+				authShellUser.set(normalizeAuthShellUser(payload.user));
+				authShellHydrated = true;
+			} catch {
+				// Keep the public shell usable if the optional auth refresh fails.
+			} finally {
+				authShellRequest = null;
+			}
+		})();
+
+		await authShellRequest;
 	}
 
 	function setAnalyticsSessionLastSeen(now: number) {
@@ -382,6 +397,7 @@
 	afterNavigate((navigation) => {
 		const nextUrl = navigation.to?.url ?? $page.url;
 		const nextRouteId = navigation.to?.route?.id ?? null;
+		void syncClientAuthShell();
 		void (async () => {
 			if (analyticsVisitKey && !analyticsVisitEnded) {
 				await endAnalyticsVisit(false, false);
@@ -391,12 +407,11 @@
 	});
 
 	// Function to update all page-dependent values. Reads only $page (no
-	// window APIs), so it runs during SSR too — otherwise full-width pages
-	// first paint with the max-w-4xl clamp and pop wider after hydration.
+	// window APIs), so it runs during SSR too. Routes opt into an owned shell
+	// through page data; the root no longer maintains a path exception list.
 	function updatePageDerivedValues() {
 		const pathname = $page.url.pathname;
 		isHomePage = pathname === '/';
-		isSignupPage = pathname === '/signup';
 		isCategoryPage = pathname.includes('/categories');
 		isAdminPage = pathname.startsWith('/admin');
 		// Question detail pages render their own breadcrumbs, so we skip the
@@ -405,13 +420,9 @@
 			/^\/questions\/[^/]+$/.test(pathname) &&
 			pathname !== '/questions/create' &&
 			pathname !== '/questions/categories';
-		// Personality-analysis dossier pages manage their own widths (1280px
-		// case-file header + 880px reading measure in-page), so the max-w-4xl
-		// clamp only squeezes the header design — exempt them like listings.
-		const isPersonalityDossierPage = $page.route.id === '/personality-analysis/[slug]';
-		shouldShowMaxWidth =
-			!FULL_WIDTH_PAGES.includes(pathname) && !isAdminPage && !isPersonalityDossierPage;
-		shouldUseOwnedShell = pathname === '/questions' || $page.route.id === '/personality-analysis';
+		const pageShell = resolvePageShell($page.data);
+		shouldShowMaxWidth = pageShell === 'contained';
+		shouldUseOwnedShell = pageShell === 'owned';
 		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage;
 	}
 
@@ -507,6 +518,7 @@
 		// Update mobile status based on window width
 		updateMobileStatus();
 		initializePageAnalytics();
+		void syncClientAuthShell();
 
 		// 9takes initialized
 	});
@@ -538,6 +550,14 @@
 	// Update page values when page changes (SSR + client navigations)
 	$: if ($page) {
 		updatePageDerivedValues();
+	}
+
+	// Server-owned routes keep their existing SSR auth state. Public editorial
+	// routes leave this store alone so a hydrated account state survives client
+	// navigation between cached articles.
+	$: if (data?.authShell !== 'client') {
+		authShellUser.set(normalizeAuthShellUser(data?.user));
+		authShellHydrated = false;
 	}
 
 	// Sync PostHog identity with auth state. Calls made before PostHog
@@ -653,12 +673,12 @@
 		</a>
 		<FloatingParticles />
 		<div class="sticky top-0 z-50">
-			<Header {data} />
+			<Header />
 		</div>
 		<Toast />
 
 		{#if showBackButton}
-			<BackNavigation />
+			<BackNavigation wide={shouldUseOwnedShell} />
 		{/if}
 
 		<main

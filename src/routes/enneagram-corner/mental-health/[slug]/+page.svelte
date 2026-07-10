@@ -12,7 +12,9 @@
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import { getAuthShellUser } from '$lib/authShell';
 	export let data: PageData;
+	const authUser = getAuthShellUser();
 	type C = Component;
 	$: component = data.component as unknown as C;
 
@@ -151,7 +153,7 @@
 	slugPrefix={'enneagram-corner/mental-health'}
 />
 
-{#if !data?.user}
+{#if !$authUser}
 	<div class="join">
 		<EmailSignup />
 	</div>

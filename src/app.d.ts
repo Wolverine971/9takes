@@ -100,7 +100,10 @@ declare global {
 		}
 		interface PageData {
 			session: SbSession | null;
+			user?: TakesUser | null;
+			authShell?: 'server' | 'client';
 			flags?: string[];
+			pageShell?: 'contained' | 'owned';
 		}
 
 		// interface Platform {}

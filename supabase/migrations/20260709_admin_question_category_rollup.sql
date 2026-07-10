@@ -1,3 +1,4 @@
+-- supabase/migrations/20260709_admin_question_category_rollup.sql
 -- Aggregate category counts in Postgres so the admin page does not transfer
 -- every category mapping and active question merely to count them in memory.
 

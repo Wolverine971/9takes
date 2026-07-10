@@ -3,14 +3,16 @@
 	import type { PageData } from './$types';
 	import EnneagramCategoryIntro from '$lib/components/blog/EnneagramCategoryIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import { getAuthShellUser } from '$lib/authShell';
 
 	let { data }: { data: PageData } = $props();
+	const authUser = getAuthShellUser();
 </script>
 
 <div class="page-wrapper">
 	<EnneagramCategoryIntro subsection={data.slug} blogs={data.posts} />
 
-	{#if !data?.user}
+	{#if !$authUser}
 		<div class="signup-section">
 			<EmailSignup />
 		</div>

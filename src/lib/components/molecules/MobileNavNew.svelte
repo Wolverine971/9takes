@@ -3,6 +3,7 @@
 	import { page } from '$app/stores';
 	import { afterNavigate } from '$app/navigation';
 	import { onDestroy, tick } from 'svelte';
+	import { getAuthShellUser } from '$lib/authShell';
 	import { fly, fade } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 	import {
@@ -16,6 +17,7 @@
 	// Props to receive navigation items
 	export let navItems: Array<{ href: string; label: string }> = [];
 	export let libraryItems: Array<{ href: string; label: string }> = [];
+	const authUser = getAuthShellUser();
 
 	// State management. Library starts expanded — it holds the core product
 	// links (Questions, the blog sections) and the drawer has the room.
@@ -274,9 +276,9 @@
 					</ul>
 
 					<!-- Footer actions -->
-					{#if $page.data?.user?.admin || !$page.data?.user}
+					{#if $authUser?.admin || !$authUser}
 						<div class="nav-actions">
-							{#if $page.data?.user?.admin}
+							{#if $authUser?.admin}
 								<a
 									href="/admin"
 									class="admin-button"
@@ -288,7 +290,7 @@
 								</a>
 							{/if}
 
-							{#if !$page.data?.user}
+							{#if !$authUser}
 								<a href="/login" class="login-button" on:click={() => closeMenu(false)}>
 									Login / Register
 								</a>
