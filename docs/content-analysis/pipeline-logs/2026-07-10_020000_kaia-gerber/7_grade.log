@@ -1,0 +1,19 @@
+## Grading Complete — Kaia-Gerber
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Kaia-Gerber | 9 | 8.5 | 9 | 8.5 | 8.5 | 8.5 | **8.7** | **B+** |
+
+(Weighted: `(9×1.5 + 8.5×1.5 + 9×1.5 + 8.5 + 8.5 + 8.5×0.5) / 7 = 8.7`. Discoverability 9 — no gate. No caps applied.)
+
+### Key Observations
+
+- **This is a genuinely strong draft, and the score is earned, not drifted.** I graded it against the Matt-Smith B anchor and it clears that anchor on the two things Matt-Smith was dinged for: the monocausal thesis (Kaia gets a modeling-craft concession, an honest "we can't see inside the Butler years" hedge, and the Presley control-group paragraph) and evidence discipline (source audit came back 7/7 inline, 0 untagged — two quotes verified against local transcripts).
+- **Evidence (9) is the standout dimension.** Every load-bearing quote is dated and attributed inline, family/critic/collaborator testimony all check out against the body, and the two unreachable sources (TIME 2024, Interview 2024) are used as disclosed paraphrase with no invented quotes.
+- **Discoverability (9):** title/meta_title/description all length- and intent-optimal, 57-word extractable answer block (deterministic check passed), and five FAQs that map one-to-one onto the real query set (books, boyfriends, nepo baby, the play).
+- **The corpus-level flag worth tracking:** the Type 6 tiebreaker — "watch the direction of motion under fear; she schedules the scary thing" — is now the standard Six argument across morgan-wallen, keira-knightley, Tobey-Maguire, and this draft. Each is verbatim-clear (similarity scan: 0.068 max, under threshold), but the *argument shape* is converging. This draft executes it best; the next Type 6 draft should find a different tiebreaker or a serial reader will clock the formula.
+- **What keeps it from an A:** three two-beat aphorism transitions forming a cadence, one textbook-voice type bridge in the boyfriends section, and a stress section that inventories the scaffolding without rendering the over-functioning from inside. Concrete steps are in the file's feedback comment.
+
+Grade block and reviewer comment written to `src/blog/people/drafts/Kaia-Gerber.md` (frontmatter after `path:`, comment after the closing `---`; no prior grade comments existed).
+
+**Total graded this session: 1**

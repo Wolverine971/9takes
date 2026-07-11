@@ -124,4 +124,21 @@ describe('public delivery policy', () => {
 			permanent: true
 		});
 	});
+
+	it('redirects archived source masters to their reviewed delivery files', () => {
+		const config = JSON.parse(readFileSync(path.join(ROOT, 'vercel.json'), 'utf8')) as {
+			redirects?: Array<{ source: string; destination: string; permanent?: boolean }>;
+		};
+		const redirects = new Map((config.redirects ?? []).map((entry) => [entry.source, entry]));
+		const expected = new Map([
+			['/books/48-laws-of-power.PNG', '/books/48-laws-of-power.webp'],
+			['/books/michelle-book-becoming.PNG', '/books/michelle-book-becoming.webp'],
+			['/books/spare.PNG', '/books/spare.webp'],
+			['/brand/dj-profile-pic.jpg', '/brand/dj-profile-pic.webp']
+		]);
+
+		for (const [source, destination] of expected) {
+			expect(redirects.get(source)).toEqual({ source, destination, permanent: true });
+		}
+	});
 });

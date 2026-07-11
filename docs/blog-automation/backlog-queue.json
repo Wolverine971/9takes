@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-09T07:02:55Z",
+	"lastUpdated": "2026-07-10T07:52:41Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "kaia-gerber",
-			"displayName": "Kaia Gerber",
-			"type": 4,
-			"priority": 47,
-			"priorityReason": "Model-actor with literary book club platform, introspective public persona, and a 4w5 sensitive-artist angle (was Type 5 — corrected during audit; public literary curation ≠ Type 5 withdrawn-observer core)",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-18",
-			"retryCount": 0,
-			"strategicValue": "gen-z-hollywood-pop-cluster"
-		},
 		{
 			"name": "kiernan-shipka",
 			"displayName": "Kiernan Shipka",
@@ -60,6 +47,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "kaia-gerber",
+			"displayName": "Kaia Gerber",
+			"type": 4,
+			"priority": 47,
+			"priorityReason": "Model-actor with literary book club platform, introspective public persona, and a 4w5 sensitive-artist angle (was Type 5 — corrected during audit; public literary curation ≠ Type 5 withdrawn-observer core)",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster",
+			"startedAt": "2026-07-10T06:00:00Z",
+			"completedAt": "2026-07-10T07:52:41Z",
+			"contentGrade": "8.7",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~112 min",
+			"needsReview": false
+		},
 		{
 			"name": "madelaine-petsch",
 			"displayName": "Madelaine Petsch",

@@ -1,0 +1,9 @@
+blog-quality-report: kaia-gerber
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 0, comparative 1)
+   compar. [more/less-than] L202: <div class="pull-quote">For a long time, I thought my face and my body had more to say than I did.
+
+2.4 Head-term: PASS  meta_title=Why Kaia Gerber Hides in Plain Sight (Enneagram Type 6)
+   answer-block: ok (57 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 382)

@@ -73,6 +73,26 @@
 	],
 	"redirects": [
 		{
+			"source": "/books/48-laws-of-power.PNG",
+			"destination": "/books/48-laws-of-power.webp",
+			"permanent": true
+		},
+		{
+			"source": "/books/michelle-book-becoming.PNG",
+			"destination": "/books/michelle-book-becoming.webp",
+			"permanent": true
+		},
+		{
+			"source": "/books/spare.PNG",
+			"destination": "/books/spare.webp",
+			"permanent": true
+		},
+		{
+			"source": "/brand/dj-profile-pic.jpg",
+			"destination": "/brand/dj-profile-pic.webp",
+			"permanent": true
+		},
+		{
 			"source": "/9takes-preview.svg",
 			"destination": "/9takes-preview.png",
 			"permanent": true

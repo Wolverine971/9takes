@@ -1,0 +1,15 @@
+{
+	"person": "kaia-gerber",
+	"draft_path": "src/blog/people/drafts/kaia-gerber.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber",
+	"completed": true,
+	"halt_reason": null,
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": 8.7,
+	"final_overall": 8.7,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0,
+	"has_stage_warnings": false,
+	"generated_at": "2026-07-10T07:52:41.337Z"
+}

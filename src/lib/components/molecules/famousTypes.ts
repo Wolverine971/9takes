@@ -334,6 +334,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'jimmy-kimmel', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['celebrity'] },
 		{ name: 'joe-lonsdale', link: false, hasImage: false, lastmod: '2026-05-19', personaTitle: 'Silicon Valley\'s Counterphobic Strategist', contentGrade: 8.8, types: ['techie', 'entrepreneur', 'investor'] },
 		{ name: 'john-krasinski', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['newMovieStar'] },
+		{ name: 'kaia-gerber', link: false, hasImage: false, lastmod: '2026-07-10', personaTitle: 'Fashion\'s Undercover Librarian', contentGrade: 8.7, types: ['newMovieStar', 'celebrity'] },
 		{ name: 'keira-knightley', link: false, hasImage: false, lastmod: '2026-06-12', personaTitle: 'Cinema\'s Sword-Drawn Skeptic', contentGrade: 8.9, types: ['movieStar'] },
 		{ name: 'mila-kunis', link: false, hasImage: false, lastmod: '2026-05-12', personaTitle: 'Hollywood\'s Chillest Worrier', contentGrade: 8.9, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'milly-alcock', link: true, hasImage: false, lastmod: '2026-04-23', personaTitle: 'The Understudy Who Cast Herself', contentGrade: 9, types: ['movieStar', 'newMovieStar', 'rising-star'] },

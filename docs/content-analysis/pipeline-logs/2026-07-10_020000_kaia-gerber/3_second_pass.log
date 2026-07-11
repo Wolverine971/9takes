@@ -1,0 +1,17 @@
+Second pass complete on `src/blog/people/drafts/Kaia-Gerber.md`. The source audit now reads **7 inline, 0 vague, 0 untagged** (was 3/3/1), and blog-lint passes with 0 fails.
+
+**Source traceability (fixed first, wholesale):**
+- The cold-open "safety to fail" quote was untagged — verified it against the local transcript of Vogue's "A Day With Kaia Gerber" video and pinned it to Vogue, November 2024.
+- Dated the Collider quote (September 2024) and rephrased the Forces of Fashion attribution so the outlet registers.
+- Added "Hollywood Authentic" to the audit script's outlet list — it's a real outlet already in the epigraph and citations but was structurally undetectable, which is why the "Theatre terrified me" quote kept grading vague.
+
+**Fresh-eyes notes addressed:**
+- **Intro no longer spends the climax.** Cut "she picked the one room in Los Angeles where none of that transfers" so the black-box section's meaning arrives fresh.
+- **Presley Gerber added as the control group** (verified: "misunderstood" face tattoo at 20 in Feb 2020, removed ~18 months later), written compassionately, plus one Rande/Casamigos sentence. Two kids, one inheritance, opposite responses — it strengthens the temperament argument exactly as the review predicted.
+- **Dating section stops asserting redemption.** It now concedes the Butler years are unreadable from outside, treats the privacy itself as the datapoint, and offers the *Bulls* casting as one checkable beat rather than a verdict.
+- **Library Science correctly credited** to the 2020 Instagram Live club co-founded with Alyssa Reeder (verified via the platform's own about page) — which also deepens the Six reading. Both new sources added to citations.
+- **Modeling-craft concession added** so the thesis doesn't overclaim the career as pure fear management.
+- **"Stops preparing" now pays off its title**, opening with the Davidson winter as the one public failure of the system.
+- **Repetition thinned:** "safety to fail" cut from FAQ #2 and the Rabbit Hole, the "Theatre terrified me" quote now appears once, "five shows a week" deduplicated, and the ending explainer compressed so the models-falling video carries the close.
+
+**Still open:** the Elordi year remains thin (nothing public earns it more length), and the TIME/Interview 2024 pieces are still paraphrase-only due to 403s. Neither blocks an editor pass. Full details are in the SECOND PASS NOTES block at the bottom of the file.

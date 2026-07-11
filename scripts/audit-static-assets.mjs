@@ -10,6 +10,8 @@ const MIB = KIB * KIB;
 const ROOT = process.cwd();
 const STATIC_DIR = path.join(ROOT, 'static');
 const SOURCE_ASSET_DIR = path.join(ROOT, 'source-assets');
+const ASSET_POLICY_PATH = path.join(ROOT, 'scripts', 'static-asset-policy.json');
+const VERCEL_CONFIG_PATH = path.join(ROOT, 'vercel.json');
 const SOURCE_DIRS = ['src', 'scripts'];
 const RASTER_EXTENSIONS = new Set(['.avif', '.gif', '.jpeg', '.jpg', '.png', '.webp']);
 const TEXT_EXTENSIONS = new Set([
@@ -76,7 +78,14 @@ async function readSourceSignals() {
 	for (const sourceDir of SOURCE_DIRS) {
 		const absoluteDir = path.join(ROOT, sourceDir);
 		for (const file of await walkFiles(absoluteDir)) {
-			if (TEXT_EXTENSIONS.has(path.extname(file).toLowerCase())) sourceFiles.push(file);
+			const isTestFile = /\.(?:spec|test)\.[^.]+$/i.test(file);
+			if (
+				TEXT_EXTENSIONS.has(path.extname(file).toLowerCase()) &&
+				!isTestFile &&
+				file !== ASSET_POLICY_PATH
+			) {
+				sourceFiles.push(file);
+			}
 		}
 	}
 
@@ -107,6 +116,8 @@ function printMetricTable(title, metrics) {
 
 const staticFiles = await walkFiles(STATIC_DIR);
 const sourceAssetFiles = existsSync(SOURCE_ASSET_DIR) ? await walkFiles(SOURCE_ASSET_DIR) : [];
+const assetPolicy = JSON.parse(await readFile(ASSET_POLICY_PATH, 'utf8'));
+const vercelConfig = JSON.parse(await readFile(VERCEL_CONFIG_PATH, 'utf8'));
 const { directAssetPaths, blogPicStems, sourceFileCount } = await readSourceSignals();
 const rows = [];
 const byDirectory = new Map();
@@ -137,6 +148,18 @@ for (const file of staticFiles) {
 }
 
 const fileSet = new Set(rows.map((row) => row.relativePath));
+const largeAssetThreshold = assetPolicy.largeAssetThresholdBytes;
+const reviewedLargeAssets = new Map(
+	assetPolicy.reviewedLargeAssets.map((entry) => [entry.path, entry])
+);
+const largeAssetRows = rows.filter((row) => row.bytes > largeAssetThreshold);
+const unreviewedLargeAssets = largeAssetRows.filter(
+	(row) => !reviewedLargeAssets.has(row.relativePath)
+);
+const staleLargeAssetReviews = [...reviewedLargeAssets.keys()].filter((reviewedPath) => {
+	const row = rows.find((candidate) => candidate.relativePath === reviewedPath);
+	return !row || row.bytes <= largeAssetThreshold;
+});
 const blogRows = rows.filter((row) =>
 	row.relativePath.startsWith(`static${path.sep}blogs${path.sep}`)
 );
@@ -234,6 +257,47 @@ console.log(
 	`Famous-person portrait thumbnails: ${portraitThumbs.length} (${formatBytes(portraitThumbs.reduce((total, row) => total + row.bytes, 0))})`
 );
 
+console.log(`\nReviewed public assets over ${formatBytes(largeAssetThreshold)}`);
+for (const row of largeAssetRows.sort((a, b) => b.bytes - a.bytes)) {
+	const review = reviewedLargeAssets.get(row.relativePath);
+	console.log(
+		`${formatBytes(row.bytes).padStart(10)}  ${(review?.classification ?? 'UNREVIEWED').padEnd(30)}  ${row.relativePath}`
+	);
+}
+
+const redirectMap = new Map((vercelConfig.redirects ?? []).map((entry) => [entry.source, entry]));
+const archivedDeliveryResults = [];
+for (const entry of assetPolicy.archivedDeliveryPairs) {
+	const sourcePath = path.join(ROOT, entry.sourcePath);
+	const deliveryPath = path.join(ROOT, entry.deliveryPath);
+	const legacyStaticPath = path.join(STATIC_DIR, entry.legacyUrl.slice(1));
+	const redirect = redirectMap.get(entry.legacyUrl);
+	const actualHash = existsSync(sourcePath) ? await hashFile(sourcePath) : null;
+	archivedDeliveryResults.push({
+		...entry,
+		sourceExists: existsSync(sourcePath),
+		deliveryExists: existsSync(deliveryPath),
+		legacyStaticExists: existsSync(legacyStaticPath),
+		hashMatches: actualHash === entry.sha256,
+		redirectMatches:
+			redirect?.destination === `/${entry.deliveryPath.slice('static/'.length)}` &&
+			redirect?.permanent === true,
+		directlyReferenced: directAssetPaths.has(entry.legacyUrl)
+	});
+}
+
+console.log('\nArchived delivery-pair integrity');
+for (const result of archivedDeliveryResults) {
+	const passed =
+		result.sourceExists &&
+		result.deliveryExists &&
+		!result.legacyStaticExists &&
+		result.hashMatches &&
+		result.redirectMatches &&
+		!result.directlyReferenced;
+	console.log(`${passed ? '✓' : '✗'} ${result.sourcePath} -> ${result.deliveryPath}`);
+}
+
 console.log('\nLargest raster assets');
 for (const row of rows
 	.filter((candidate) => RASTER_EXTENSIONS.has(candidate.extension))
@@ -296,5 +360,32 @@ const missingArchivedDeliveries = archivedBlogMasters.filter((row) => !row.hasDe
 if (missingArchivedDeliveries.length > 0) {
 	console.error('\nArchived source masters missing same-stem WebP delivery files:');
 	for (const row of missingArchivedDeliveries) console.error(`- ${row.name}`);
+	process.exitCode = 1;
+}
+
+if (unreviewedLargeAssets.length > 0) {
+	console.error('\nUnreviewed public assets exceed the large-asset threshold:');
+	for (const row of unreviewedLargeAssets) console.error(`- ${row.relativePath}`);
+	process.exitCode = 1;
+}
+
+if (staleLargeAssetReviews.length > 0) {
+	console.error('\nLarge-asset policy entries are missing or no longer exceed the threshold:');
+	for (const reviewedPath of staleLargeAssetReviews) console.error(`- ${reviewedPath}`);
+	process.exitCode = 1;
+}
+
+const invalidArchivedDeliveries = archivedDeliveryResults.filter(
+	(result) =>
+		!result.sourceExists ||
+		!result.deliveryExists ||
+		result.legacyStaticExists ||
+		!result.hashMatches ||
+		!result.redirectMatches ||
+		result.directlyReferenced
+);
+if (invalidArchivedDeliveries.length > 0) {
+	console.error('\nArchived delivery-pair policy failed:');
+	for (const result of invalidArchivedDeliveries) console.error(`- ${result.sourcePath}`);
 	process.exitCode = 1;
 }

@@ -10,6 +10,7 @@ const CLIENT_DIR = path.join(ROOT, '.svelte-kit', 'output', 'client');
 const STATIC_DIR = path.join(ROOT, 'static');
 const MANIFEST_PATH = path.join(CLIENT_DIR, '.vite', 'manifest.json');
 const BUDGET_PATH = path.join(SCRIPT_DIR, 'build-budgets.json');
+const ASSET_POLICY_PATH = path.join(SCRIPT_DIR, 'static-asset-policy.json');
 const RUNTIME_ASSET_EXTENSIONS = new Set([
 	'.avif',
 	'.gif',
@@ -85,6 +86,7 @@ function findGlobalCss(manifest) {
 }
 
 const budgets = JSON.parse(readFileSync(BUDGET_PATH, 'utf8'));
+const assetPolicy = JSON.parse(readFileSync(ASSET_POLICY_PATH, 'utf8'));
 const manifest = JSON.parse(readFileSync(MANIFEST_PATH, 'utf8'));
 const clientFiles = walkFiles(CLIENT_DIR);
 const runtimeAssets = walkFiles(STATIC_DIR).filter((file) =>
@@ -134,6 +136,16 @@ const byteMetrics = new Set([
 	'portraitAssetBytes'
 ]);
 const failures = [];
+const reviewedLargeAssetPaths = new Set(assetPolicy.reviewedLargeAssets.map((entry) => entry.path));
+const largeRuntimeAssets = runtimeAssetRows.filter(
+	(asset) => asset.bytes > assetPolicy.largeAssetThresholdBytes
+);
+const unreviewedLargeAssets = largeRuntimeAssets.filter(
+	(asset) => !reviewedLargeAssetPaths.has(asset.path)
+);
+const staleLargeAssetReviews = [...reviewedLargeAssetPaths].filter(
+	(reviewedPath) => !largeRuntimeAssets.some((asset) => asset.path === reviewedPath)
+);
 
 for (const [key, maximum] of Object.entries(budgets)) {
 	const actual = metrics[key];
@@ -151,6 +163,19 @@ if (runtimeAssetRows[0]) {
 	console.log(
 		`  Largest runtime asset: ${runtimeAssetRows[0].path} (${formatBytes(runtimeAssetRows[0].bytes)})`
 	);
+}
+const largeAssetPolicyPassed =
+	unreviewedLargeAssets.length === 0 && staleLargeAssetReviews.length === 0;
+console.log(
+	`${largeAssetPolicyPassed ? '✓' : '✗'} Reviewed large public assets: ${largeRuntimeAssets.length} / ${reviewedLargeAssetPaths.size}`
+);
+if (unreviewedLargeAssets.length > 0) {
+	failures.push(
+		`Unreviewed large public assets: ${unreviewedLargeAssets.map((asset) => asset.path).join(', ')}`
+	);
+}
+if (staleLargeAssetReviews.length > 0) {
+	failures.push(`Stale large-asset reviews: ${staleLargeAssetReviews.join(', ')}`);
 }
 
 if (failures.length > 0) {

@@ -1,0 +1,29 @@
+New Kaia Gerber draft is written, gated, and saved. She's typed as an **Enneagram 6w5** with the thesis: the world's most bookable face spent her career hiding inside it, and went looking for the one thing fame couldn't give her — "the safety to fail" (her words, from a 2024 Vogue video, which anchor the hook: five shows a week in a 99-seat theater on Melrose while shooting Palm Royale).
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Kaia-Gerber.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (4 qualifying testimony quotes: Cindy Crawford ×2 at Forces of Fashion 2019, theater critics Michael M. Landman-Karny and Amanda Callas, 2025)
+       Gate 2: pass (6 of 8 H2s search-intent or hybrid)
+       Gate 4: pass (zero "A [Type]" sentences in the ending; hook is a scene, not an object-reveal echo)
+       Gate 5: pass (2 type-theory paragraphs outside diagnosis + Rabbit Hole, limit 4)
+       Gate 6: pass (0 strong contrast pairs; similarity scan clear at 0.068 max vs 8 Type-6 drafts;
+               bespoke section = four-book annotated dossier; critic anchor = NY Mag nepo cover +
+               AHS "wooden" pile-on; empathy turn in her own wound-vocabulary; current anchors =
+               Palm Royale S2 Nov 2025 / Outcome 2026 / Bulls / NARS Dec 2025)
+LIMITATIONS: TIME 2024 essay and Interview Magazine 2024 returned 403s — used via paraphrase, no
+             invented quotes; WWD Palm Royale interview paywalled, skipped; a rumored sobriety
+             angle could not be verified and was dropped.
+```
+
+Supporting details:
+
+- **Research**: 3 fresh transcripts fetched and saved to `youtube-transcripts/` (Vogue "A Day With" 2024, Collider Shell interview with Kate Hudson, Vogue Forces of Fashion panel with Cindy Crawford). The Vogue video yielded the load-bearing quotes: "the safety to fail," loving the Marc Jacobs shows where a hat hid her face, and the pages-long phone document of Hotel Chelsea residents.
+- **Deterministic checks**: `blog-lint.sh` finishes **0 fail, 1 warn** — the warn is a comparative pattern inside Kaia's own direct quote ("my face and my body had more to say than I did"), which the quote-exemption rule protects. Head-term check passes after retitling the meta_title to "Why Kaia Gerber Hides in Plain Sight (Enneagram Type 6)".
+- **Internal links (6 total)**: Enneagram Type 6 explainer, Pete Davidson, Jacob Elordi, and Austin Butler in the body; wings guide and instinctual subtypes inside the Rabbit Hole (491 words, within budget).
+- **Type call confidence**: medium-high. The honest ambiguity is with Type 9 (merging, "I'll let everyone else be sad," contentment language); the tiebreaker — she schedules what terrifies her instead of avoiding it — is argued in the Rabbit Hole counterarguments, and the full memo is preserved as a working-notes comment in the draft.
+- Note: this morning's 2am pipeline run had created an empty log directory for kaia-gerber and produced nothing; this run completes that slot.
+
+Next steps when you're ready: `/grade_blog Kaia-Gerber` for the numeric grade, then human review before flipping `production_pretext` to `ready` for `blog_content_production_people`.

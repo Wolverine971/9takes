@@ -1,0 +1,51 @@
+Lint is clean: 0 fail, 1 warn — and the warn is the pre-existing comparative inside Kaia's own quote, already documented in the fingerprint ledger. Here's the full report.
+
+## Cohesion Check Complete: Kaia-Gerber.md
+
+*(Note: the argument was `kaia-gerber.md`; the actual file is `src/blog/people/drafts/Kaia-Gerber.md` — took that as the match.)*
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Kaia Gerber is a Type 6 for whom inherited safety never felt like ground, so her whole career logic (the vetting, the reading, the hiding, the 99-seat theater) is a hunt for rooms where losing is possible, because only earned safety registers as real.
+
+### Thread Map
+
+1. **Intro** — poses the puzzle: the most bookable face in fashion chose a tiny play, explained by "the safety to fail."
+2. **Diagnosis** — answers it: Type 6 wiring, shown through the Minghella trust-screenshot, preparation-as-entry-ticket, help-seeking as victory, terror as to-do list.
+3. **Childhood** — origin of the wiring: love expressed as preparation (models-falling video), fame as weather, the nepo vertigo, Presley as control group.
+4. **Runway hiding** — what the wiring did with the career: visibility as concealment; ends on safety being buildable ("she has been building those rooms ever since").
+5. **Reading list** — the rooms made of paper: each book hired to guard a specific fear.
+6. **Boyfriends** — the same fear-logic in relationships: borrowed certainty, then studied recovery.
+7. **Black box** — the public verdict (nepo cover, "wooden") and her signature response: schedule the room where the name has no purchase.
+8. **Stops preparing** — stress signature and growth direction; safe-room builder for strangers.
+9. **Ending** — inherited ground never feels like ground; returns to the models-falling video and Cindy's "fearless."
+
+Every section serves the thesis. Promise-delivery is tight: the description's mystery (why the 99-seat theater?) is answered by the climax, and the ending lands the same argument the intro opened.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 9/10  | 1      |
+| Section Transitions     | 8/10  | 2      |
+| Internal Paragraph Flow | 9/10  | 0      |
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+
+- **Boyfriends → Black box** (the one weak seam): the dating section ended on the Pullman datapoint and the next section jumped to the December 2022 nepo cover with no bridge, also jumping backward in time. Added "Privacy worked for her relationships. It was never on offer for her last name." — carries the privacy concept the dating section just established into the public-verdict section, and reads standalone for readers who deep-link via the FAQ anchor.
+- **Reading list → Boyfriends**: the dossier closed on "a book is a mentor that cannot leave, misread you, or change its mind about you overnight," and the implicit contrast with the dating history went unstated. Added "Books hold still. People don't." — makes the handoff explicit in the piece's fragment rhythm.
+
+### What Was Preserved
+
+- All frontmatter, ledgers, working-notes comments, Svelte/HTML components, internal links, and FAQ anchors
+- All 6 other section transitions untouched (diagnosis→childhood, childhood→runway, runway→reading-list, black-box→stops-preparing, and the ending were already adequate-to-strong)
+- Everything the second pass deliberately kept (TL;DR teaser, "sit with the strangeness" hook, compressed ending explainer)
+
+### Remaining Concerns
+
+None structural. Two adequate-but-not-explicit transitions were left alone on purpose: runway→reading-list (the "first-aid kit" opener already carries the safety theme) and black-box→stops-preparing (the H2 itself asks the question the first sentence answers). Bridging those would risk the mechanical-transition pattern the piece currently avoids. Lint confirms: 0 fail, 1 pre-existing warn.

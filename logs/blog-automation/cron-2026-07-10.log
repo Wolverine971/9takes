@@ -1,0 +1,444 @@
+[2026-07-10 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-10 02:00:00] [INFO] SELECTED: kaia-gerber (Type 4)
+[2026-07-10 02:00:00] [INFO] Launching pipeline for kaia-gerber
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  kaia-gerber
+Draft:   src/blog/people/drafts/kaia-gerber.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber
+Started: Fri Jul 10 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 kaia-gerber --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/1_create.log
+─────────────────────────────────────────────────────
+New Kaia Gerber draft is written, gated, and saved. She's typed as an **Enneagram 6w5** with the thesis: the world's most bookable face spent her career hiding inside it, and went looking for the one thing fame couldn't give her — "the safety to fail" (her words, from a 2024 Vogue video, which anchor the hook: five shows a week in a 99-seat theater on Melrose while shooting Palm Royale).
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Kaia-Gerber.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (4 qualifying testimony quotes: Cindy Crawford ×2 at Forces of Fashion 2019, theater critics Michael M. Landman-Karny and Amanda Callas, 2025)
+       Gate 2: pass (6 of 8 H2s search-intent or hybrid)
+       Gate 4: pass (zero "A [Type]" sentences in the ending; hook is a scene, not an object-reveal echo)
+       Gate 5: pass (2 type-theory paragraphs outside diagnosis + Rabbit Hole, limit 4)
+       Gate 6: pass (0 strong contrast pairs; similarity scan clear at 0.068 max vs 8 Type-6 drafts;
+               bespoke section = four-book annotated dossier; critic anchor = NY Mag nepo cover +
+               AHS "wooden" pile-on; empathy turn in her own wound-vocabulary; current anchors =
+               Palm Royale S2 Nov 2025 / Outcome 2026 / Bulls / NARS Dec 2025)
+LIMITATIONS: TIME 2024 essay and Interview Magazine 2024 returned 403s — used via paraphrase, no
+             invented quotes; WWD Palm Royale interview paywalled, skipped; a rumored sobriety
+             angle could not be verified and was dropped.
+```
+
+Supporting details:
+
+- **Research**: 3 fresh transcripts fetched and saved to `youtube-transcripts/` (Vogue "A Day With" 2024, Collider Shell interview with Kate Hudson, Vogue Forces of Fashion panel with Cindy Crawford). The Vogue video yielded the load-bearing quotes: "the safety to fail," loving the Marc Jacobs shows where a hat hid her face, and the pages-long phone document of Hotel Chelsea residents.
+- **Deterministic checks**: `blog-lint.sh` finishes **0 fail, 1 warn** — the warn is a comparative pattern inside Kaia's own direct quote ("my face and my body had more to say than I did"), which the quote-exemption rule protects. Head-term check passes after retitling the meta_title to "Why Kaia Gerber Hides in Plain Sight (Enneagram Type 6)".
+- **Internal links (6 total)**: Enneagram Type 6 explainer, Pete Davidson, Jacob Elordi, and Austin Butler in the body; wings guide and instinctual subtypes inside the Rabbit Hole (491 words, within budget).
+- **Type call confidence**: medium-high. The honest ambiguity is with Type 9 (merging, "I'll let everyone else be sad," contentment language); the tiebreaker — she schedules what terrifies her instead of avoiding it — is argued in the Rabbit Hole counterarguments, and the full memo is preserved as a working-notes comment in the draft.
+- Note: this morning's 2am pipeline run had created an empty log directory for kaia-gerber and produced nothing; this run completes that slot.
+
+Next steps when you're ready: `/grade_blog Kaia-Gerber` for the numeric grade, then human review before flipping `production_pretext` to `ready` for `blog_content_production_people`.
+[Stage 1] create finished 02:27:14 (exit=0, 1634s)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:27:14)
+Command: /blog_content_fresh_eyes_people kaia-gerber
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Fresh-eyes review complete for `src/blog/people/drafts/Kaia-Gerber.md`. The notes were appended as a `FRESH EYES REVIEW (2026-07-10)` comment block at the bottom of the file — no body edits were made.
+
+The two biggest issues flagged:
+
+1. **The 99-seat play is over-leveraged.** It's retold five times (intro, TL;DR, FAQ, black-box section, ending), and the intro already gives away its interpretation, so the climactic section arrives pre-summarized. The fix is to keep the intro's image but save the meaning for the payoff.
+2. **The family is only Cindy.** Rande Gerber never appears, and brother Presley — same house, same privilege, opposite public outcome (the 2020 "Misunderstood" face tattoo flameout, which I verified is a real, well-covered theme) — is the missing control group for the piece's central thesis that inherited ground never feels like ground.
+
+Other notable flags: the dating section asserts a redemption arc the body doesn't show (the Rabbit Hole holds the 9-merge tension honestly, but the body picks a side), Library Science is presented as solo when it's co-founded with Alyssa Reeder (the partnership actually helps the Six reading), and "safety to fail" repeats seven times across the file. On the preserve list: the reading-list dossier, the Minghella screenshot tell, and the way critic pressure is genuinely conceded before the lens turn.
+
+Sources from the reality check: [Library Science — About](https://libraryscience.net/about), [Fashion Week Daily on Presley's face tattoo](https://fashionweekdaily.com/presley-gerber-face-tattoo-transphobia/), [Hollywood Authentic — Kaia Gerber](https://hollywoodauthentic.com/kaia-gerber/) (sobriety turned up no confirmed public theme, so I left it out).
+[Stage 2] fresh_eyes finished 02:30:11 (exit=0, 177s)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:30:11)
+Command: /blog_content_second_pass_people kaia-gerber
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/3_second_pass.log
+─────────────────────────────────────────────────────
+Second pass complete on `src/blog/people/drafts/Kaia-Gerber.md`. The source audit now reads **7 inline, 0 vague, 0 untagged** (was 3/3/1), and blog-lint passes with 0 fails.
+
+**Source traceability (fixed first, wholesale):**
+- The cold-open "safety to fail" quote was untagged — verified it against the local transcript of Vogue's "A Day With Kaia Gerber" video and pinned it to Vogue, November 2024.
+- Dated the Collider quote (September 2024) and rephrased the Forces of Fashion attribution so the outlet registers.
+- Added "Hollywood Authentic" to the audit script's outlet list — it's a real outlet already in the epigraph and citations but was structurally undetectable, which is why the "Theatre terrified me" quote kept grading vague.
+
+**Fresh-eyes notes addressed:**
+- **Intro no longer spends the climax.** Cut "she picked the one room in Los Angeles where none of that transfers" so the black-box section's meaning arrives fresh.
+- **Presley Gerber added as the control group** (verified: "misunderstood" face tattoo at 20 in Feb 2020, removed ~18 months later), written compassionately, plus one Rande/Casamigos sentence. Two kids, one inheritance, opposite responses — it strengthens the temperament argument exactly as the review predicted.
+- **Dating section stops asserting redemption.** It now concedes the Butler years are unreadable from outside, treats the privacy itself as the datapoint, and offers the *Bulls* casting as one checkable beat rather than a verdict.
+- **Library Science correctly credited** to the 2020 Instagram Live club co-founded with Alyssa Reeder (verified via the platform's own about page) — which also deepens the Six reading. Both new sources added to citations.
+- **Modeling-craft concession added** so the thesis doesn't overclaim the career as pure fear management.
+- **"Stops preparing" now pays off its title**, opening with the Davidson winter as the one public failure of the system.
+- **Repetition thinned:** "safety to fail" cut from FAQ #2 and the Rabbit Hole, the "Theatre terrified me" quote now appears once, "five shows a week" deduplicated, and the ending explainer compressed so the models-falling video carries the close.
+
+**Still open:** the Elordi year remains thin (nothing public earns it more length), and the TIME/Interview 2024 pieces are still paraphrase-only due to 403s. Neither blocks an editor pass. Full details are in the SECOND PASS NOTES block at the bottom of the file.
+[Stage 3] second_pass finished 02:58:14 (exit=0, 1683s)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:58:14)
+Command: /cohesion-check src/blog/people/drafts/kaia-gerber.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/4_cohesion.log
+─────────────────────────────────────────────────────
+Lint is clean: 0 fail, 1 warn — and the warn is the pre-existing comparative inside Kaia's own quote, already documented in the fingerprint ledger. Here's the full report.
+
+## Cohesion Check Complete: Kaia-Gerber.md
+
+*(Note: the argument was `kaia-gerber.md`; the actual file is `src/blog/people/drafts/Kaia-Gerber.md` — took that as the match.)*
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Kaia Gerber is a Type 6 for whom inherited safety never felt like ground, so her whole career logic (the vetting, the reading, the hiding, the 99-seat theater) is a hunt for rooms where losing is possible, because only earned safety registers as real.
+
+### Thread Map
+
+1. **Intro** — poses the puzzle: the most bookable face in fashion chose a tiny play, explained by "the safety to fail."
+2. **Diagnosis** — answers it: Type 6 wiring, shown through the Minghella trust-screenshot, preparation-as-entry-ticket, help-seeking as victory, terror as to-do list.
+3. **Childhood** — origin of the wiring: love expressed as preparation (models-falling video), fame as weather, the nepo vertigo, Presley as control group.
+4. **Runway hiding** — what the wiring did with the career: visibility as concealment; ends on safety being buildable ("she has been building those rooms ever since").
+5. **Reading list** — the rooms made of paper: each book hired to guard a specific fear.
+6. **Boyfriends** — the same fear-logic in relationships: borrowed certainty, then studied recovery.
+7. **Black box** — the public verdict (nepo cover, "wooden") and her signature response: schedule the room where the name has no purchase.
+8. **Stops preparing** — stress signature and growth direction; safe-room builder for strangers.
+9. **Ending** — inherited ground never feels like ground; returns to the models-falling video and Cindy's "fearless."
+
+Every section serves the thesis. Promise-delivery is tight: the description's mystery (why the 99-seat theater?) is answered by the climax, and the ending lands the same argument the intro opened.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 9/10  | 1      |
+| Section Transitions     | 8/10  | 2      |
+| Internal Paragraph Flow | 9/10  | 0      |
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+
+- **Boyfriends → Black box** (the one weak seam): the dating section ended on the Pullman datapoint and the next section jumped to the December 2022 nepo cover with no bridge, also jumping backward in time. Added "Privacy worked for her relationships. It was never on offer for her last name." — carries the privacy concept the dating section just established into the public-verdict section, and reads standalone for readers who deep-link via the FAQ anchor.
+- **Reading list → Boyfriends**: the dossier closed on "a book is a mentor that cannot leave, misread you, or change its mind about you overnight," and the implicit contrast with the dating history went unstated. Added "Books hold still. People don't." — makes the handoff explicit in the piece's fragment rhythm.
+
+### What Was Preserved
+
+- All frontmatter, ledgers, working-notes comments, Svelte/HTML components, internal links, and FAQ anchors
+- All 6 other section transitions untouched (diagnosis→childhood, childhood→runway, runway→reading-list, black-box→stops-preparing, and the ending were already adequate-to-strong)
+- Everything the second pass deliberately kept (TL;DR teaser, "sit with the strangeness" hook, compressed ending explainer)
+
+### Remaining Concerns
+
+None structural. Two adequate-but-not-explicit transitions were left alone on purpose: runway→reading-list (the "first-aid kit" opener already carries the safety theme) and black-box→stops-preparing (the H2 itself asks the question the first sentence answers). Bridging those would risk the mechanical-transition pattern the piece currently avoids. Lint confirms: 0 fail, 1 pre-existing warn.
+[Stage 4] cohesion finished 03:26:23 (exit=0, 1689s)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 03:26:23)
+Command: /blog_content_editor_pass_people kaia-gerber
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/5_editor_pass.log
+─────────────────────────────────────────────────────
+Editor pass on `src/blog/people/drafts/Kaia-Gerber.md` is done. This draft arrived in unusually good shape (it had already been through fresh-eyes and second-pass), so the mechanical checks were green before I touched it; this pass was line-level de-AI work.
+
+**What I cleaned up:**
+
+- **Pipeline jargon leaked into the body.** "This is the empathy turn the jokes never made room for" used our internal editorial vocabulary on the reader. Now "Here is what the jokes never made room for" — the turn itself (unearned wins never registered as wins) is untouched.
+- **Doubled reader-command tic.** The piece told the reader to re-process twice ("Sit with the strangeness of that" in the intro, "Read that again" in the runway section). Kept the intro hook, cut the echo; the fragment that followed lands on its own.
+- **Connective filler and symmetry.** Cut "in other words" ("Fame was never the dream. It was the weather." is stronger bare), trimmed "very specific," replaced the flat "Her actual next moves form a pattern worth staring at" with "Look at what she booked instead," and broke two repeated constructions ("its own kind of..." ×2 → the Malibu house now "had its own curriculum," which ties into the online-school detail; "Both things hold" → "It can be both").
+- **A small accuracy fix:** "The moments she describes as turning points" introduced exactly one moment (the "Can I tuck your shirt in?" beat) — now singular.
+- **Mobile rhythm.** Split four dense paragraphs (both childhood blocks, the Butler-years paragraph, the stress-scaffolding paragraph). No content lost.
+
+**Exit checks:** blog-lint with `BLOG_LINT_CONTRAST_TARGET=0` — 0 fail, 0 prose em-dashes, 0 strong contrast pairs, no banned phrases. The one warn is the comparative "more to say than I did," which is inside Kaia's own pull-quote and never gets altered (documented in the ledger). Quality report confirms: 1 total contrast pair, strong 0.
+
+**Verdict:** production-ready from an editorial standpoint. The empathy turn, interior beat at the Matrix Theatre, critic-pressure moment, and the models-falling ending all survived intact. Remaining known soft spot (noted in the editor comment): the Elordi year is still four words, but the second pass already established no public material earns it more. Next step when you're ready is `/grade_blog` or the publish flow.
+[Stage 5] editor_pass finished 03:47:12 (exit=0, 1249s)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 03:47:12)
+Command: /blog_content_frontmatter_enrich_people kaia-gerber
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+```
+Frontmatter enrichment complete: Kaia-Gerber
+
+Fields filled:
+- wikidata_qid ('Q22673974', resolved via enwiki sitelink)
+- same_as (+1: added the Wikidata URL, bringing the list to 3 — Wikipedia, Wikidata, IMDb)
+
+Fields already present (preserved):
+- wikipedia, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as (existing 2 entries), citations (16), faqs (5)
+
+FAQs generated (0):
+- None — the draft already had 5 substantive FAQs with real answers and
+  anchors. Idempotency rule: left exactly as-is.
+
+Issues:
+- imdb_id cross-checked against Wikidata P345 on Q22673974: nm7333021
+  confirmed correct. Birth date (2001-09-03) and birth place (Los Angeles)
+  also match Wikidata.
+- citations has 16 entries vs. the 3–8 guideline. All appear to be real
+  body sources (additive-only rule, so I left them), but the publish gate
+  may want to trim to the load-bearing ones.
+- twitter: 'KaiaGerber' — she deactivated her X account years ago; not my
+  field to touch, just noting in case the publish pass wants to drop it.
+```
+
+The creator pass had already done nearly all the enrichment work, so this was a two-field job: the missing `wikidata_qid` and the Wikidata entry in `same_as`. Body, FAQs, ledgers, and `lastmod` are untouched.
+[Stage 6] enrich_frontmatter finished 03:48:36 (exit=0, 84s)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 154 chars
+ok    meta_title length 55 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (58 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+WARN  comparative contrast patterns detected: 1 (review with blog-quality-report)
+ok    internal link count: 6
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: kaia-gerber — 0 fail, 1 warn
+[Stage 6.5] lint passed
+
+─────────────────────────────────────────────────────
+[Stage 6.6] quality_report  (started 03:48:36)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs kaia-gerber
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/6.6_quality_report.log
+─────────────────────────────────────────────────────
+blog-quality-report: kaia-gerber
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 0, comparative 1)
+   compar. [more/less-than] L202: <div class="pull-quote">For a long time, I thought my face and my body had more to say than I did.
+
+2.4 Head-term: PASS  meta_title=Why Kaia Gerber Hides in Plain Sight (Enneagram Type 6)
+   answer-block: ok (57 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 382)
+[Stage 6.6] quality_report finished (exit=0, 1s)
+
+─────────────────────────────────────────────────────
+[Stage 6.7] source_audit  (started 03:48:37)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs kaia-gerber --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/6.7_source_audit.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — Kaia-Gerber  (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/kaia-gerber.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "There's nowhere to hide, and in modelling I got quite used to hiding and being able to conceal."
+             outlet="Hollywood Authentic"  year=2025
+
+### COLD OPEN
+  [INLINE  ] "the safety to fail is something that I haven't felt very much in my life."
+             outlet="Vogue"  year=2024
+
+### DIAGNOSIS
+  [INLINE  ] "I just was like, I can trust you with whatever,"
+             outlet="Collider"  year=2024
+  [INLINE  ] "until I felt self-confident enough and I knew myself enough to protect myself."
+             outlet="Vogue"  year=2019
+  [INLINE  ] "By the time Kaia started in the fashion industry she was pretty well versed. She teaches me stuff all the time... just being prepared"
+             outlet="Vogue"  year=2024  venue="essay"
+  [INLINE  ] "I got put in situations where one day I'd wake up and be like, 'How did I get here?' I have no idea what I'm doing, and I need help. And being able to ask for that help was amazing."
+             outlet="Vogue"  year=2021
+  [INLINE  ] "Theatre terrified me, which made me realise that I needed to do it again"
+             outlet="Hollywood Authentic"  year=2025
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  (no quoted material in slot)
+
+------------------------------------------------------------------------
+SUMMARY: 7 load-bearing quote(s) — 7 inline, 0 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 6.7] source_audit finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.8] same_type_similarity  (started 03:48:37)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs kaia-gerber --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/6.8_same_type_similarity.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Kaia-Gerber (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Kaia-Gerber.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 30
+Comparison set (last 8 other Type-6 drafts by date):
+  - Olivia-Cooke  (2026-07-08, 38 units)
+  - morgan-wallen  (2026-07-08, 53 units)
+  - Tobey-Maguire  (2026-07-03, 24 units)
+  - andrew-ross-sorkin  (2026-07-03, 21 units)
+  - keira-knightley  (2026-06-12, 29 units)
+  - john-ternus  (2026-06-05, 18 units)
+  - sean-evans  (2026-06-04, 14 units)
+  - penelope-cruz  (2026-06-02, 83 units)
+
+Noise floor over 8400 unit pairs:  median=0  p90=0  p99=0.006  max=0.068
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.068 ###                  morgan-wallen
+  0.050 ##                   keira-knightley
+  0.041 ##                   Tobey-Maguire
+  0.037 #                    penelope-cruz
+  0.023 #                    Olivia-Cooke
+  0.020 #                    john-ternus
+  0.017 #                    andrew-ross-sorkin
+  0.007                      sean-evans
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.068   Kaia-Gerber  <->  morgan-wallen
+   TARGET [diagnosis] The tell for a Six is what the fear gets used for.
+   OTHER  [diagnosis] is what Nine integration looks like for a Six.
+
+score 0.050   Kaia-Gerber  <->  keira-knightley
+   TARGET [diagnosis] she started reading obsessively so she could hold her own in conversations with the brilliant older people suddenly around her
+   OTHER  [diagnosis] she used hypnotherapy specifically so she could walk back onto one.
+
+score 0.045   Kaia-Gerber  <->  morgan-wallen
+   TARGET [diagnosis] which made me realise that I needed to do it again" (Hollywood Authentic
+   OTHER  [diagnosis] A man who was terrified of performing sober forced himself to do it anyway.
+
+score 0.041   Kaia-Gerber  <->  Tobey-Maguire
+   TARGET [diagnosis] The tell for a Six is what the fear gets used for.
+   OTHER  [diagnosis] The calm you see on a Six is anxiety that has already done its homework
+
+score 0.037   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] And being able to ask for that help was amazing." Asking for backup
+   OTHER  [diagnosis] but I know he will be there to sustain me." She has described being able to do the hardest scenes of her career because Almodóvar would stand two meters off-camera and just stay there
+
+score 0.035   Kaia-Gerber  <->  penelope-cruz
+   TARGET [counter-typing] The Three case leans on the surface
+   OTHER  [diagnosis] still openly leaning on a director two meters off-camera
+
+score 0.034   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] She teaches me stuff all the time... just being prepared" (Cindy Crawford
+   OTHER  [diagnosis] The Enthusiast wing is what lets the Six who is scared all the time still take meetings with strangers and still try roles in languages she had to learn from scratch.
+
+score 0.032   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] The tell for a Six is what the fear gets used for.
+   OTHER  [diagnosis] That is what the Enneagram lens makes visible — not "she is anxious" but "she has constructed a thirty-year system to keep being anxious productively." "I have a little bit of an addiction to work.
+
+score 0.027   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] In 2021 she described her lowest stretch to Vogue in words most stars never say on the record
+   OTHER  [diagnosis] On the Venice Film Festival stage in 2021
+
+score 0.026   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] And then there is her stated reason for returning to the stage
+   OTHER  [diagnosis] She returned to Almodóvar for Volver in 2006
+
+score 0.025   Kaia-Gerber  <->  morgan-wallen
+   TARGET [diagnosis] which made me realise that I needed to do it again" (Hollywood Authentic
+   OTHER  [diagnosis] releasing the need to scan for threats
+
+score 0.024   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] The Enneagram Type 6 runs on exactly this wiring.
+   OTHER  [diagnosis] Enneagram Sixes do not lead with fear the way the diagnostic books describe.
+
+------------------------------------------------------------------------------
+Top pair scores 0.068 vs median 0  (~∞x the noise floor).
+[Stage 6.8] same_type_similarity finished (exit=0, 0s)
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 03:48:37)
+Command: /grade_blog kaia-gerber
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Kaia-Gerber
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Kaia-Gerber | 9 | 8.5 | 9 | 8.5 | 8.5 | 8.5 | **8.7** | **B+** |
+
+(Weighted: `(9×1.5 + 8.5×1.5 + 9×1.5 + 8.5 + 8.5 + 8.5×0.5) / 7 = 8.7`. Discoverability 9 — no gate. No caps applied.)
+
+### Key Observations
+
+- **This is a genuinely strong draft, and the score is earned, not drifted.** I graded it against the Matt-Smith B anchor and it clears that anchor on the two things Matt-Smith was dinged for: the monocausal thesis (Kaia gets a modeling-craft concession, an honest "we can't see inside the Butler years" hedge, and the Presley control-group paragraph) and evidence discipline (source audit came back 7/7 inline, 0 untagged — two quotes verified against local transcripts).
+- **Evidence (9) is the standout dimension.** Every load-bearing quote is dated and attributed inline, family/critic/collaborator testimony all check out against the body, and the two unreachable sources (TIME 2024, Interview 2024) are used as disclosed paraphrase with no invented quotes.
+- **Discoverability (9):** title/meta_title/description all length- and intent-optimal, 57-word extractable answer block (deterministic check passed), and five FAQs that map one-to-one onto the real query set (books, boyfriends, nepo baby, the play).
+- **The corpus-level flag worth tracking:** the Type 6 tiebreaker — "watch the direction of motion under fear; she schedules the scary thing" — is now the standard Six argument across morgan-wallen, keira-knightley, Tobey-Maguire, and this draft. Each is verbatim-clear (similarity scan: 0.068 max, under threshold), but the *argument shape* is converging. This draft executes it best; the next Type 6 draft should find a different tiebreaker or a serial reader will clock the formula.
+- **What keeps it from an A:** three two-beat aphorism transitions forming a cadence, one textbook-voice type bridge in the boyfriends section, and a stress section that inventories the scaffolding without rendering the over-functioning from inside. Concrete steps are in the file's feedback comment.
+
+Grade block and reviewer comment written to `src/blog/people/drafts/Kaia-Gerber.md` (frontmatter after `path:`, comment after the closing `---`; no prior grade comments existed).
+
+**Total graded this session: 1**
+[Stage 7] grade finished 03:52:41 (exit=0, 244s)
+
+[Stage 8] No revision needed (overall 8.7 >= 8.5, discoverability 9 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: kaia-gerber
+Finished: Fri Jul 10 03:52:41 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '6'
+  hook: 8.5
+  enneagram: 8.5
+  evidence: 9
+  writing: 8.5
+  originality: 8.5
+  discoverability: 9
+  overall: 8.7
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-07-10'
+Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-10_020000_kaia-gerber/summary.json
+═════════════════════════════════════════════════════
+[2026-07-10 03:52:41] [INFO] Pipeline exited code=0 after 112 min
+[2026-07-10 03:52:41] [SUCCESS] Completed: Kaia Gerber — grade 8.7 (B+)
+[2026-07-10 03:52:41] [INFO] NOTIFY: ✅ 9takes nightly blog: Kaia Gerber (Type 4) — grade 8.7 (B+), disc 9, 112 min. needsReview=false
+[2026-07-10 03:52:41] [INFO] Nightly blog cron finished

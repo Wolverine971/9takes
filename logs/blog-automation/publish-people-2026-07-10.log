@@ -1,0 +1,23 @@
+Publish blocked — no draft went out.
+
+The auto-select checked all 467 candidates and found zero publishable drafts (92 are unpublished, but every one fails at least one gate). The intended next-in-queue is clearly **Kaia-Gerber** — fresh from last night's pipeline, graded today with a passing score (overall 8.7, rubric v2, discoverability 9, no caps, `needs_review: false`) — but the script rejects her for three exact blockers:
+
+```text
+Publish blocked.
+
+Person: Kaia-Gerber
+Draft: src/blog/people/drafts/Kaia-Gerber.md
+Grade: 8.7 overall, rubric v2, discoverability 9 — passes quality gates
+
+Blockers (from script):
+- missing_grade_stability_delta: run supervised grade/regrade
+- missing_full_image: static/types/6s/Kaia-Gerber.webp not found
+- missing_thumbnail_image: static/types/6s/s-Kaia-Gerber.webp not found
+```
+
+What it takes to unblock:
+
+1. **Grade stability** — run `/grade_blog` on Kaia-Gerber to produce the regrade/stability delta (must be ≤ 0.3). The draft has a single grade from today but no delta recorded.
+2. **Images** — both `Kaia-Gerber.webp` and `s-Kaia-Gerber.webp` need to land in `static/types/6s/`. Type images are your manual Canva step, so this one's on you (cwebp recipe: full ≤1200px/q82, thumb 400px/q72).
+
+Per the command rules I'm stopping here rather than bypassing the gate. Once the images are in place and the regrade is done, re-running `/blog_content_publish_people Kaia-Gerber` should go through.

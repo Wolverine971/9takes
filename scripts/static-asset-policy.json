@@ -1,0 +1,106 @@
+{
+	"largeAssetThresholdBytes": 1048576,
+	"reviewedLargeAssets": [
+		{
+			"path": "static/philosopher-gathering.png",
+			"classification": "admin-generator-input",
+			"decision": "Keep public at full resolution for the poster generator; do not replace with the smaller WebP without an export-quality review."
+		},
+		{
+			"path": "static/blogs/female-greek-statues-of-different-professions2.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		},
+		{
+			"path": "static/greek_distorted_statue_face.png",
+			"classification": "brand-handoff-master",
+			"decision": "Keep the high-quality public PNG because brand documentation exposes it directly; the application already uses its WebP delivery sibling."
+		},
+		{
+			"path": "static/blogs/wolverine971_Greek_statues_of_plato_and_socrates_working_in_a_c_40dc0777-3b73-4c2c-bee6-f3b106fbc481.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		},
+		{
+			"path": "static/greek_pantheon.png",
+			"classification": "social-card-and-og-input",
+			"decision": "Keep unchanged; question social-card rendering, OG metadata, and the admin poster generator intentionally consume this PNG."
+		},
+		{
+			"path": "static/blogs/wolverine971_greek_statues_in_a_busy_modern_coffee_shop_greek_s_9cc2dbe9-c651-40f8-a74d-2a07d2df4f13.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		},
+		{
+			"path": "static/blogs/wolverine971_greek_statue_listening_to_a_podcast_on_a_subway_Un_104f7ae3-81a7-4b96-a6bc-ccff419c6856.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		},
+		{
+			"path": "static/blogs/wolverine971_greek_statues_gathered_around_the_table_Unreal_Eng_3ee7274e-e1c5-4e33-8a20-1b35e97dcee2.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		},
+		{
+			"path": "static/acrop.png",
+			"classification": "admin-generator-input",
+			"decision": "Keep public at full resolution for the poster generator and documented brand handoff."
+		},
+		{
+			"path": "static/brand/djface.png",
+			"classification": "brand-handoff-master",
+			"decision": "Keep the transparent PNG exposed for brand handoff; product surfaces use djface.webp and s-djface.webp."
+		},
+		{
+			"path": "static/blogs/wolverine971_a_greek_statue_drawing_a_sagittarius_on_a_piece_of_576592dc-3a35-4367-8d41-a8af117e3d48.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		},
+		{
+			"path": "static/blogs/wolverine971_a_greek_statue_of_a_photographer_taking_a_picture__4176613d-997b-4048-9a83-ac63c481db1e.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		},
+		{
+			"path": "static/brand/concepts/icon-3a-greek-face.png",
+			"classification": "brand-icon-master",
+			"decision": "Keep while the documented 512/256/128/64/32 pixel derivative family remains a public brand handoff."
+		},
+		{
+			"path": "static/blogs/greekman-pointing.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		},
+		{
+			"path": "static/blogs/DALL·E 2023-12-11 01.49.15 - A hyper-realistic, hyper-detailed image of a Greek statue, portrayed in a black, white, and grey color scheme, symbolizing listening by pointing to it.png",
+			"classification": "unresolved-public-blog-asset",
+			"decision": "No repository, sitemap, history, or indexed caller found; keep public until traffic or external-link evidence is available."
+		}
+	],
+	"archivedDeliveryPairs": [
+		{
+			"sourcePath": "source-assets/books/48-laws-of-power.PNG",
+			"deliveryPath": "static/books/48-laws-of-power.webp",
+			"legacyUrl": "/books/48-laws-of-power.PNG",
+			"sha256": "98977a7c7800ae40b9e3839aebbe01d174db20174b9ec8c25745f1535bb55fff"
+		},
+		{
+			"sourcePath": "source-assets/books/michelle-book-becoming.PNG",
+			"deliveryPath": "static/books/michelle-book-becoming.webp",
+			"legacyUrl": "/books/michelle-book-becoming.PNG",
+			"sha256": "d560614b39e9bf8e4f8ed60debfd945917cee5105e273926c78363d3bf236533"
+		},
+		{
+			"sourcePath": "source-assets/books/spare.PNG",
+			"deliveryPath": "static/books/spare.webp",
+			"legacyUrl": "/books/spare.PNG",
+			"sha256": "aad7985a6e9838b8f14a3ed059d6ac218263157395daaff62b3c7e2c625758ef"
+		},
+		{
+			"sourcePath": "source-assets/brand/dj-profile-pic.jpg",
+			"deliveryPath": "static/brand/dj-profile-pic.webp",
+			"legacyUrl": "/brand/dj-profile-pic.jpg",
+			"sha256": "1037d1bf3a0304ae39e2558671eb7fa018d59c1063d15882c135622283dad18f"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Kaia-Gerber (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Kaia-Gerber.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 30
+Comparison set (last 8 other Type-6 drafts by date):
+  - Olivia-Cooke  (2026-07-08, 38 units)
+  - morgan-wallen  (2026-07-08, 53 units)
+  - Tobey-Maguire  (2026-07-03, 24 units)
+  - andrew-ross-sorkin  (2026-07-03, 21 units)
+  - keira-knightley  (2026-06-12, 29 units)
+  - john-ternus  (2026-06-05, 18 units)
+  - sean-evans  (2026-06-04, 14 units)
+  - penelope-cruz  (2026-06-02, 83 units)
+
+Noise floor over 8400 unit pairs:  median=0  p90=0  p99=0.006  max=0.068
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.068 ###                  morgan-wallen
+  0.050 ##                   keira-knightley
+  0.041 ##                   Tobey-Maguire
+  0.037 #                    penelope-cruz
+  0.023 #                    Olivia-Cooke
+  0.020 #                    john-ternus
+  0.017 #                    andrew-ross-sorkin
+  0.007                      sean-evans
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.068   Kaia-Gerber  <->  morgan-wallen
+   TARGET [diagnosis] The tell for a Six is what the fear gets used for.
+   OTHER  [diagnosis] is what Nine integration looks like for a Six.
+
+score 0.050   Kaia-Gerber  <->  keira-knightley
+   TARGET [diagnosis] she started reading obsessively so she could hold her own in conversations with the brilliant older people suddenly around her
+   OTHER  [diagnosis] she used hypnotherapy specifically so she could walk back onto one.
+
+score 0.045   Kaia-Gerber  <->  morgan-wallen
+   TARGET [diagnosis] which made me realise that I needed to do it again" (Hollywood Authentic
+   OTHER  [diagnosis] A man who was terrified of performing sober forced himself to do it anyway.
+
+score 0.041   Kaia-Gerber  <->  Tobey-Maguire
+   TARGET [diagnosis] The tell for a Six is what the fear gets used for.
+   OTHER  [diagnosis] The calm you see on a Six is anxiety that has already done its homework
+
+score 0.037   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] And being able to ask for that help was amazing." Asking for backup
+   OTHER  [diagnosis] but I know he will be there to sustain me." She has described being able to do the hardest scenes of her career because Almodóvar would stand two meters off-camera and just stay there
+
+score 0.035   Kaia-Gerber  <->  penelope-cruz
+   TARGET [counter-typing] The Three case leans on the surface
+   OTHER  [diagnosis] still openly leaning on a director two meters off-camera
+
+score 0.034   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] She teaches me stuff all the time... just being prepared" (Cindy Crawford
+   OTHER  [diagnosis] The Enthusiast wing is what lets the Six who is scared all the time still take meetings with strangers and still try roles in languages she had to learn from scratch.
+
+score 0.032   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] The tell for a Six is what the fear gets used for.
+   OTHER  [diagnosis] That is what the Enneagram lens makes visible — not "she is anxious" but "she has constructed a thirty-year system to keep being anxious productively." "I have a little bit of an addiction to work.
+
+score 0.027   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] In 2021 she described her lowest stretch to Vogue in words most stars never say on the record
+   OTHER  [diagnosis] On the Venice Film Festival stage in 2021
+
+score 0.026   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] And then there is her stated reason for returning to the stage
+   OTHER  [diagnosis] She returned to Almodóvar for Volver in 2006
+
+score 0.025   Kaia-Gerber  <->  morgan-wallen
+   TARGET [diagnosis] which made me realise that I needed to do it again" (Hollywood Authentic
+   OTHER  [diagnosis] releasing the need to scan for threats
+
+score 0.024   Kaia-Gerber  <->  penelope-cruz
+   TARGET [diagnosis] The Enneagram Type 6 runs on exactly this wiring.
+   OTHER  [diagnosis] Enneagram Sixes do not lead with fear the way the diagnostic books describe.
+
+------------------------------------------------------------------------------
+Top pair scores 0.068 vs median 0  (~∞x the noise floor).

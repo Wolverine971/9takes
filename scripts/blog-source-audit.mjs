@@ -174,6 +174,7 @@ const OUTLETS = [
 	'Interview Magazine',
 	'PAPER',
 	'Hot Ones',
+	'Hollywood Authentic',
 	'SmartLess',
 	'TODAY',
 	'Nielsen',

@@ -1,0 +1,13 @@
+Editor pass on `src/blog/people/drafts/Kaia-Gerber.md` is done. This draft arrived in unusually good shape (it had already been through fresh-eyes and second-pass), so the mechanical checks were green before I touched it; this pass was line-level de-AI work.
+
+**What I cleaned up:**
+
+- **Pipeline jargon leaked into the body.** "This is the empathy turn the jokes never made room for" used our internal editorial vocabulary on the reader. Now "Here is what the jokes never made room for" — the turn itself (unearned wins never registered as wins) is untouched.
+- **Doubled reader-command tic.** The piece told the reader to re-process twice ("Sit with the strangeness of that" in the intro, "Read that again" in the runway section). Kept the intro hook, cut the echo; the fragment that followed lands on its own.
+- **Connective filler and symmetry.** Cut "in other words" ("Fame was never the dream. It was the weather." is stronger bare), trimmed "very specific," replaced the flat "Her actual next moves form a pattern worth staring at" with "Look at what she booked instead," and broke two repeated constructions ("its own kind of..." ×2 → the Malibu house now "had its own curriculum," which ties into the online-school detail; "Both things hold" → "It can be both").
+- **A small accuracy fix:** "The moments she describes as turning points" introduced exactly one moment (the "Can I tuck your shirt in?" beat) — now singular.
+- **Mobile rhythm.** Split four dense paragraphs (both childhood blocks, the Butler-years paragraph, the stress-scaffolding paragraph). No content lost.
+
+**Exit checks:** blog-lint with `BLOG_LINT_CONTRAST_TARGET=0` — 0 fail, 0 prose em-dashes, 0 strong contrast pairs, no banned phrases. The one warn is the comparative "more to say than I did," which is inside Kaia's own pull-quote and never gets altered (documented in the ledger). Quality report confirms: 1 total contrast pair, strong 0.
+
+**Verdict:** production-ready from an editorial standpoint. The empathy turn, interior beat at the Matrix Theatre, critic-pressure moment, and the models-falling ending all survived intact. Remaining known soft spot (noted in the editor comment): the Elordi year is still four words, but the second pass already established no public material earns it more. Next step when you're ready is `/grade_blog` or the publish flow.

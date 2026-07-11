@@ -1,0 +1,27 @@
+```
+Frontmatter enrichment complete: Kaia-Gerber
+
+Fields filled:
+- wikidata_qid ('Q22673974', resolved via enwiki sitelink)
+- same_as (+1: added the Wikidata URL, bringing the list to 3 — Wikipedia, Wikidata, IMDb)
+
+Fields already present (preserved):
+- wikipedia, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as (existing 2 entries), citations (16), faqs (5)
+
+FAQs generated (0):
+- None — the draft already had 5 substantive FAQs with real answers and
+  anchors. Idempotency rule: left exactly as-is.
+
+Issues:
+- imdb_id cross-checked against Wikidata P345 on Q22673974: nm7333021
+  confirmed correct. Birth date (2001-09-03) and birth place (Los Angeles)
+  also match Wikidata.
+- citations has 16 entries vs. the 3–8 guideline. All appear to be real
+  body sources (additive-only rule, so I left them), but the publish gate
+  may want to trim to the load-bearing ones.
+- twitter: 'KaiaGerber' — she deactivated her X account years ago; not my
+  field to touch, just noting in case the publish pass wants to drop it.
+```
+
+The creator pass had already done nearly all the enrichment work, so this was a two-field job: the missing `wikidata_qid` and the Wikidata entry in `same_as`. Body, FAQs, ledgers, and `lastmod` are untouched.

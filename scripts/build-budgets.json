@@ -1,8 +1,8 @@
 {
 	"globalCssBytes": 307200,
-	"clientOutputBytes": 167772160,
-	"runtimeAssetBytes": 130181879,
-	"runtimeAssetsOver1MiB": 17,
+	"clientOutputBytes": 164626432,
+	"runtimeAssetBytes": 126816495,
+	"runtimeAssetsOver1MiB": 15,
 	"runtimeAssetsOver5MiB": 1,
 	"largestRuntimeAssetBytes": 5400000,
 	"portraitAssetBytes": 42553408,
