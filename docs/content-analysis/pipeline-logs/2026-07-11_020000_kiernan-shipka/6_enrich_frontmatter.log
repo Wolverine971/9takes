@@ -1,0 +1,23 @@
+Frontmatter enrichment complete: **Kiernan-Shipka**
+
+**Fields filled:**
+- `wikidata_qid` — `Q439939` (inserted after `wikipedia`)
+- `same_as` — 3 items (Wikipedia, Wikidata, IMDb)
+- `citations` — 7 items: Wikipedia, the Bustle May 2022 profile (prom + summer-breaks quotes), the RogerEbert.com Oz Perkins interview, the IndieWire 2018 Sabrina review ("stilted" quote verified verbatim against the article), and the three YouTube podcast episodes that supply most of the body's quotes (So True with Caleb Hearon, Lipstick on the Rim, Salon Talks)
+- `faqs` — 5 entries (was missing; the second-pass notes flagged it as the open lint WARN)
+
+**Fields already present (preserved):** `wikipedia`, `imdb_id`, `twitter`, `instagram`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`. The existing `imdb_id` (`nm2215143`) was cross-checked against Wikidata property P345 and is correct.
+
+**FAQs generated (5):**
+1. What is Kiernan Shipka's personality type? → `#what-is-kiernan-shipkas-personality-type`
+2. Why do critics call Kiernan Shipka poised or stilted? → `#why-critics-keep-calling-kiernan-shipka-poised`
+3. How did Kiernan Shipka get cast on Mad Men? → `#kiernan-shipkas-childhood-was-a-workplace`
+4. What is Kiernan Shipka's second adolescence? → `#kiernan-shipkas-second-adolescence`
+5. Is Kiernan Shipka a Type 7 instead of a Type 3? → `#counterarguments-why-kiernan-shipka-might-not-be-a-type-3`
+
+All anchors match real H2/H3 headings in the body (note the fifth points inside the collapsed Rabbit Hole `<details>`). YAML validated with js-yaml, no em-dashes introduced anywhere in the new fields, `lastmod` untouched, body untouched.
+
+**Issues:**
+- The body has zero inline external links; citations were built from the named sources the body leans on, matching how the Einstein gold standard handles it. The W Magazine 2016 Weiner quote ("the only sequel to Mad Men...") could not be pinned to a live URL, so it's excluded from citations rather than guessed.
+- `occupation` has only 1 item (`'Actress'`) against the 2–5 spec, but it matches her Wikipedia infobox exactly and was already filled, so I left it per the additive-only rule.
+- FAQ 5's anchor deep-links into a collapsed `<details>` block; the jump works but won't auto-expand the accordion. That's the same tradeoff Einstein's third FAQ makes.

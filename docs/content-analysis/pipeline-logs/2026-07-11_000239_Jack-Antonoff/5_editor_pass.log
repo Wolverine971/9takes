@@ -1,0 +1,12 @@
+Editor pass complete on `src/blog/people/drafts/Jack-Antonoff.md`. Both exit checks pass: **0 lint fails** (was 1) and **0 contrast pairs** (strong 0, comparative 0).
+
+This draft came in unusually clean — it had already been through fresh-eyes and a second pass — so this was a light-touch polish rather than a rescue:
+
+- **Fixed the one em-dash FAIL.** The party-glance pull quote had its attribution formatted as `<br />— Jack Antonoff...`, which the lint's exemption doesn't recognize (attribution lines must *begin* with the em-dash). Moved the `<br />` to the end of the quote line; rendering is identical, lint now passes.
+- **Fixed a fuzzy antecedent** in the diagnosis section: "Those two sentences hold the whole diagnosis... He wrote a whole career from inside that sentence" now reads "from inside that fear."
+- **Smoothed one clunky attribution clause** ("a thing he told NME in 2024 is..." → "which he called... (NME, 2024)").
+- **Split four dense paragraphs** for mobile rhythm: the Grandma Zelda/Rick/Rachel family block, the fun.-era block, the monk-schedule-to-Qualley seam, and the Dirty Wedding Dress paragraph. No lines were cut.
+
+Deliberately untouched: the cold open, the floor-plan section, the empathy turn (perimeter-alarm paragraph), the interior beat (grief-town block), and the ragtime ending — the emotional layer survives intact. The parallel diagnostics ("Fours want their pain recognized as theirs alone. Antonoff wants his pain to prove he has company.") are earned emphasis and score clean on the fingerprint script, so I left them.
+
+**Verdict: production-ready on prose.** Two non-editorial items remain before publish, both carried forward in the editor notes: the Qualley separation needs re-verification (the working-notes volatility flag from July 8), and the `faqs` frontmatter enrich stage hasn't run yet (the lone lint WARN) — that's `/blog_content_frontmatter_enrich_people` territory, not this pass.

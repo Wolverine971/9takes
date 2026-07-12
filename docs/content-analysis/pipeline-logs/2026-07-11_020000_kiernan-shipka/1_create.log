@@ -1,0 +1,26 @@
+Draft complete. Kiernan Shipka is typed as an **Enneagram 3w2** (high confidence), and the piece is built around the inversion of the usual child-star arc: she delivered a finished adulthood by fifteen and has spent her twenties methodically acquiring the youth she skipped.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Kiernan-Shipka.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (7 qualifying quotes), Gate 2: pass (5 search-intent/hybrid H2s),
+       Gate 4: pass (no type-named ending sentences, scene-based hook),
+       Gate 5: pass (0 type-theory paragraphs outside diagnosis + Rabbit Hole),
+       Gate 6: pass (0 contrast pairs, similarity top score 0.027, bespoke section,
+       critic anchor, empathy turn, 2026 anchors, ending swap-test pass)
+LIMITATIONS: transcripts are YouTube auto-captions (wording verbatim, punctuation cleaned);
+             Interview Magazine Dec 2025 piece returned 403 and is cited nowhere;
+             the teen movie in the locker anecdote is unnamed in sources
+```
+
+**The thesis:** everyone sees the one child star who made it out clean. The Type 3 lens flips it: the put-togetherness didn't survive the child stardom, it *was* the child stardom. Her family moved states on a six-year-old's begging, so flawless delivery became how a small girl kept everyone okay. Key evidence in her own words: "I am kind of trying to untether from my own perfectionism," "I'm starving for the work," and her advice to her ten-year-old self: "you don't have to be perfect... You're safe."
+
+**Structural highlights:** the hook is the locker she couldn't open at fifteen; the bespoke section braids Sally Draper's milestones against Kiernan's (Sally got her period first, scripted); the empathy turn rebuilds the "stilted/poised" criticism from her own wound-vocabulary ("wall on wall on wall"); the ending is her mother applauding her mistakes. Two sourced stats: Mad Men's four straight Outstanding Drama Emmys (2008–2011) and Forbes 30 Under 30 (2025).
+
+**Internal links (5):** Type 3 explainer (TL;DR), [Pamela Anderson](/personality-analysis/Pamela-Anderson) cross-link, plus wings, subtypes, and stress-arrow pillar pages inside the Rabbit Hole.
+
+**Checks:** blog-lint 0 fail / 1 warn (the expected "faqs frontmatter not enriched" — that stage runs downstream), quality report clean, no corpus-drift, all four Type 3 avoid-list phrases dodged.
+
+**Side artifacts:** three new transcripts saved to `youtube-transcripts/` (So True with Caleb Hearon, Salon Talks, Lipstick on the Rim — all 2024). Per non-interactive rules the draft was **not** graded (that's `/grade_blog`) and not promoted to `ready` — human review comes first. Preview at `/admin/drafts/Kiernan-Shipka`.

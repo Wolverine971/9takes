@@ -1,0 +1,42 @@
+## Cohesion Check Complete: Benny-Blanco.md
+
+**Before score: 8.5/10** → **After score: 9/10**
+
+### Central Thesis
+
+Benny Blanco is an Enneagram Type 2 whose entire career, home life, and marriage run on one pattern: manufacturing comfort for others as a survival strategy against a fear of being unlovable that predates the music.
+
+### Thread Map
+
+Cold open (comfort engineering, "what is all that comfort for?") → diagnosis (Type 2, Stern role-play as tiebreaker) → the method in the studio → childhood origin (the "mmph" ritual: caretaking before music) → success and breakdown at 21 (the recovery toolbox gets catered out too) → the same machine at home (house menu) → the marriage and the mockery (can he believe he'd be chosen for himself?) → the fame paradox (holds rooms, hates standing in front of them) → close (breakfast as the adult "mmph"). Every section serves the thesis; the ending lands the exact question the intro opened.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 9/10  | 0      |
+| Section Transitions     | 7→9   | 2      |
+| Internal Paragraph Flow | 8→9   | 1      |
+
+### Changes Made (3 total, all single bridge sentences)
+
+**Transition fixes (2):**
+
+- "The house menu" → "Why the internet can't believe Selena Gomez married him": the menu section ended on curation and guest-list leverage, then the next section opened cold on internet mockery. Added "The one room he cannot curate is the internet." to carry the curation keyword across the boundary (and adjusted "treated it" to "treated the match" so the pronoun has a referent).
+- "Selena Gomez" section → "From 'I beat the system'": ended on "He can't lie," then jumped back to 2018 fame aversion with no stated link. Added "The marriage put him in the one place he had spent his career avoiding: the middle of the room." — the visibility paradox is the section's actual argument, now stated up front.
+
+**Internal flow fix (1):**
+
+- Inside "From 'I beat the system'": the Grammy-stats sentence jumped straight to the wedding paragraph. Added "Then the sideman threw the most public party of his life." — picks up "the sideman thesis" from two sentences earlier and the party motif from the house-menu section.
+
+### What Was Preserved
+
+- All frontmatter, ledger comments, review comments, dialogue/pull-quote/inner-thought blocks, and internal links
+- The Stern role-play, the "mmph" bookend, the house-menu courses, and the entire ending (the fresh-eyes review flagged these as the strongest material; they were already cohesive)
+- 6 of 8 section boundaries untouched — the diagnosis → method bridge ("Watch the method under pressure") and the house-menu opener ("The studio method never clocks out") were already strong
+
+Lint confirms 0 fails after the edits; the 2 warnings (missing `faqs` frontmatter, one comparative pattern inside Selena's direct quote) both pre-existed and are already documented in the draft's ledgers.
+
+### Remaining Concerns
+
+None structural. The childhood section opens without an explicit bridge from the method section, but the H2 heading signals the origin-story turn and the section's third paragraph explicitly connects back ("the detail that unlocks everything that came after"), so I left it alone rather than add connective tissue it doesn't need.

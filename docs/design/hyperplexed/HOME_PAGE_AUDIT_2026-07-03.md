@@ -28,3 +28,24 @@ Target: `/`, covering `src/routes/+page.svelte`, `src/routes/+page.server.ts`, s
 - Screenshots captured:
   - `/private/tmp/9takes-homepage-tier23-desktop.png`
   - `/private/tmp/9takes-homepage-tier23-mobile-reduced.png`
+
+## Follow-up - 2026-07-09
+
+### Tier 1 - cheap, high-impact
+
+- The open-floor take list was pinned to the section's left padding because the homepage-wide
+  `ul`/`ol` reset had higher specificity than the list's `margin: 0 auto`. Lowered the reset with
+  `:where()` so the take list, question header, and CTA share the intended centerline. -> P3
+
+### Verification
+
+- `pnpm check`: pass, 0 errors and 126 existing warnings.
+- `pnpm lint:radius`: pass, 0 class violations and CSS backlog 0/0.
+- Targeted Prettier check for the homepage and audit docs: pass.
+- Desktop at `2048x1223`: the open-floor header, `880px` take list, and CTA all measured at the
+  viewport center (`0px` centerline delta).
+- Mobile at `390x844`: the take list measured at the viewport center and the document stayed
+  `390px` wide, with no horizontal overflow.
+- Screenshots captured:
+  - `/private/tmp/9takes-homepage-centered-desktop.png`
+  - `/private/tmp/9takes-homepage-centered-mobile.png`

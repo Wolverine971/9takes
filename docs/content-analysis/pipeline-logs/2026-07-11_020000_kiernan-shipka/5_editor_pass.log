@@ -1,0 +1,12 @@
+Editor pass on `src/blog/people/drafts/Kiernan-Shipka.md` is done, and the draft came in unusually clean — the creator, fresh-eyes, and second passes had already handled em-dashes, contrast pairs, and dedup, so this was a light-touch line edit rather than a rescue.
+
+**What I cleaned up:**
+- **A cadence tic the lint can't see:** six paragraphs closed on the same "It is the..." syntax. I rewrote two of them, leaving four spread far apart (including the ending's "It is the same sound," which stays untouched). The self-portrait line is now active ("She has never handed anyone a closer self-portrait").
+- **A restatement in the heartbreak beat:** "no visible progress" followed by "the last milestone she has not booked" said the same thing twice. The closer is now a sharper Type 3 insight instead: "Heartbreak is the one milestone she can't book in advance, which might be exactly why it's still pending."
+- **A doubled "precisely"** (kept the strong one in the Longlegs payoff) and a hedge ("it is worth hearing") sitting right at the ramp into the empathy turn, now an imperative "listen to."
+
+**What I deliberately left alone:** the empathy turn (the Sweethearts "wall on wall on wall" self-portrait), the interior beat at the Netflix binge, the hypnotist payoff, the Chance Perdomo restraint, and the mother-applauds-mistakes ending — all flagged as working in prior passes, all intact. The "feelings get filed" motif recurs by design as setup/payoff and I kept it.
+
+**Exit checks:** blog-lint is 0 fail with contrast target 0 (em-dash check passes, 0 strong / 0 comparative contrast pairs, no banned phrases), and blog-quality-report confirms **0 contrast pairs total**. The one remaining WARN is missing `faqs` frontmatter, which belongs to the frontmatter-enrich stage, not this pass.
+
+**Verdict:** production-ready on prose. Remaining steps are pipeline stages, not editorial: run the frontmatter enrich for `faqs`, then grading/publish.

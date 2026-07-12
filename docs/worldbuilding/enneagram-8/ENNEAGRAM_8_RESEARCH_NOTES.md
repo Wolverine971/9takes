@@ -152,6 +152,15 @@ Use as a supporting psychology bridge, not Enneagram doctrine:
 4. **Biography:** Public-person typings are hypotheses. A credible profile needs repeated evidence of motivation across contexts and must distinguish sourced facts from interpretation.
 5. **Origin stories:** Childhood adversity can illustrate a pattern when self-reported. It is not required, and the type should never be used to infer trauma.
 
+## Model Limitations
+
+Source: https://pubmed.ncbi.nlm.nih.gov/33332604/
+
+- A 2021 systematic review of 104 independent samples found mixed evidence for Enneagram reliability and validity.
+- Some findings partially align with theory and some users report personal or spiritual growth benefits.
+- The review found little research supporting secondary features such as wings and movement between types.
+- Editorial implication: present Type 8 as an interpretive self-reflection framework, not settled clinical science or a diagnostic assessment.
+
 ## Audit Findings Resolved
 
 - Reduced eight public redefinitions to four canonical terms.
@@ -160,6 +169,7 @@ Use as a supporting psychology bridge, not Enneagram doctrine:
 - Labeled famous-person examples as typing hypotheses rather than canonical facts.
 - Replaced the Wikipedia reactance overview with a peer-reviewed review.
 - Added impact-aware relationship language and explicit non-diagnostic guardrails.
+- Added the empirical limitations of the Enneagram model itself.
 
 ## Synthesis
 

@@ -1,0 +1,16 @@
+Second pass on `src/blog/people/drafts/Jack-Antonoff.md` is complete. The source audit now reads **4 inline / 4 vague / 0 untagged** (was 2/4/2 with two untagged in the diagnosis slot).
+
+**Source fixes (done first, per the audit):**
+- Traced both untagged diagnosis quotes to the local transcripts: "the people upstairs" and "six-way marriage" are Zane Lowe 2026; "shattered my existence" is the 2024 Apple Music Electric Lady interview. All now attributed in-text.
+- Caught a real misattribution: the "I don't hear a mirror" / continuum quote sat next to an NME 2024 citation but is actually from the Zane Lowe 2026 interview. Fixed.
+- The party-glance pull quote got a proper attribution line, and the NME quote was upgraded to inline.
+
+**Substantive changes from the fresh-eyes notes (all three big ones taken):**
+- **fun. era added** as one paragraph closing the sister section: 2008 recruitment by Nate Ruess, "We Are Young" six weeks at #1, the 2013 Song of the Year + Best New Artist night, and "It wasn't my band" promoted from the Rabbit Hole (de-duped there). It feeds the thesis directly: fame arrived in the one room he never tested, so he built Bleachers in his bedroom. The Big Four sentence later now points back at 2013.
+- **Kendrick cashed out**: Sounwave's text, 11 of 12 GNX tracks produced, guitar and Mellotron under the Vandross sample on "Luther" for its 13 weeks at #1, plus "Nobody argued Kendrick Lamar had his edges dulled." Broadway's Romeo + Juliet got its clause in the same paragraph.
+- **Craft beat added** in the Swift section: what he actually does once trusted (plays most of what you hear; the thin-out/hold-still/detonate structure under the rant bridge).
+- Smaller items: the "he died" lyric referent identified (cousin killed in Iraq, with his Vogue jacket quote), Rachel/Ally Coalition body sentence, trailer floor-plan entry cut to two lines, "tested room wins every time" trimmed, the second "never X. It was Y." engine reworked, and the closing now acknowledges the separation in one non-speculative clause before the "Dirty Wedding Dress" reading. New prose was checked against the em-dash ban and contrast-pair engines (clean). Three citations added to frontmatter; `lastmod` untouched.
+
+**Still open:** re-verify the Qualley separation before publish (the working-notes volatility flag stands), and the same-type similarity scan wasn't re-run after the new paragraphs, so an editor pass could re-check that number.
+
+Sources used for verification: [Gold Derby on fun.'s 2013 Grammys](https://www.goldderby.com/feature/grammys-fun-we-are-young-jack-antonoff-1205355593/), [Variety on the GNX production](https://variety.com/2025/music/news/jack-antonoff-mustard-sounwave-production-kendrick-gnx-1236598023/), [Variety on Romeo + Juliet](https://variety.com/2024/legit/news/rachel-zegler-kit-connor-romeo-juliet-broadway-debut-romeo-juliet-jack-antonoff-1235972439/), [Playbill red-carpet interview](https://playbill.com/article/on-the-red-carpet-romeo-juliet-composer-jack-antonoff-reveals-that-his-favorite-musical-is-fun-home), and [the "I Wanna Get Better" background](https://en.wikipedia.org/wiki/I_Wanna_Get_Better) for the cousin/Iraq detail.

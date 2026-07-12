@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Jack-Antonoff (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Jack-Antonoff.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 39
+Comparison set (last 8 other Type-6 drafts by date):
+  - Kaia-Gerber  (2026-07-10, 30 units)
+  - Olivia-Cooke  (2026-07-08, 38 units)
+  - morgan-wallen  (2026-07-08, 53 units)
+  - Tobey-Maguire  (2026-07-03, 24 units)
+  - andrew-ross-sorkin  (2026-07-03, 21 units)
+  - keira-knightley  (2026-06-12, 29 units)
+  - john-ternus  (2026-06-05, 18 units)
+  - sean-evans  (2026-06-04, 14 units)
+
+Noise floor over 8853 unit pairs:  median=0  p90=0  p99=0.006  max=0.038
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.038 ##                   john-ternus
+  0.036 #                    Kaia-Gerber
+  0.030 #                    morgan-wallen
+  0.029 #                    Olivia-Cooke
+  0.025 #                    andrew-ross-sorkin
+  0.023 #                    keira-knightley
+  0.022 #                    Tobey-Maguire
+  0.019 #                    sean-evans
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.038   Jack-Antonoff  <->  john-ternus
+   TARGET [diagnosis] never look away from your people
+   OTHER  [diagnosis] then step away from the group and read the patents.
+
+score 0.036   Jack-Antonoff  <->  Kaia-Gerber
+   TARGET [diagnosis] he skipped every brag a producer might make about the most storied studio in New York.
+   OTHER  [diagnosis] "until I felt self-confident enough and I knew myself enough to protect myself." When she landed in New York at 16
+
+score 0.035   Jack-Antonoff  <->  Kaia-Gerber
+   TARGET [diagnosis] Back in the 2024 Apple Music interview
+   OTHER  [diagnosis] Before signing on to the 2024 film Shell
+
+score 0.030   Jack-Antonoff  <->  morgan-wallen
+   TARGET [diagnosis] Antonoff wants his pain to prove he has company. (Typology diehards
+   OTHER  [diagnosis] He wants people to "prove him wrong
+
+score 0.029   Jack-Antonoff  <->  Olivia-Cooke
+   TARGET [counter-typing] and Antonoff keeps insisting his loss makes him ordinary
+   OTHER  [diagnosis] Cooke keeps one foot on dry land
+
+score 0.028   Jack-Antonoff  <->  Kaia-Gerber
+   TARGET [counter-typing] and Antonoff keeps insisting his loss makes him ordinary
+   OTHER  [counter-typing] and Gerber schedules discomfort on purpose
+
+score 0.025   Jack-Antonoff  <->  andrew-ross-sorkin
+   TARGET [counter-typing] and a bedroom in a trailer say otherwise.
+   OTHER  [diagnosis] and a constant background scan for hidden danger.
+
+score 0.023   Jack-Antonoff  <->  andrew-ross-sorkin
+   TARGET [counter-typing] and a self-declared lifelong feeling of being misunderstood.
+   OTHER  [diagnosis] and a constant background scan for hidden danger.
+
+score 0.023   Jack-Antonoff  <->  Kaia-Gerber
+   TARGET [counter-typing] and a bedroom in a trailer say otherwise.
+   OTHER  [diagnosis] an origin she described in a 2024 TIME essay.
+
+score 0.023   Jack-Antonoff  <->  keira-knightley
+   TARGET [diagnosis] 2024 Those two sentences hold the whole diagnosis.
+   OTHER  [diagnosis] unless saying yes to the frightening thing is the whole operating system.
+
+score 0.022   Jack-Antonoff  <->  Tobey-Maguire
+   TARGET [diagnosis] and he does confess to feeling "really misunderstood
+   OTHER  [counter-typing] and he describes his baseline as anxious rather than detached.
+
+score 0.022   Jack-Antonoff  <->  Olivia-Cooke
+   TARGET [counter-typing] evidence that the safety language is aesthetic rather than lived.
+   OTHER  [diagnosis] The world hands Cooke evidence that she has made it
+
+------------------------------------------------------------------------------
+Top pair scores 0.038 vs median 0  (~∞x the noise floor).

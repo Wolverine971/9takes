@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-10T07:52:41Z",
+	"lastUpdated": "2026-07-11T06:52:06Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "kiernan-shipka",
-			"displayName": "Kiernan Shipka",
-			"type": 3,
-			"priority": 46,
-			"priorityReason": "Mad Men and Sabrina prestige actor with polished public persona and a clear Type 3 performance analysis angle",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-18",
-			"retryCount": 0,
-			"strategicValue": "gen-z-hollywood-pop-cluster"
-		},
 		{
 			"name": "xochitl-gomez",
 			"displayName": "Xochitl Gomez",
@@ -47,6 +34,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "kiernan-shipka",
+			"displayName": "Kiernan Shipka",
+			"type": 3,
+			"priority": 46,
+			"priorityReason": "Mad Men and Sabrina prestige actor with polished public persona and a clear Type 3 performance analysis angle",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster",
+			"startedAt": "2026-07-11T06:00:00Z",
+			"completedAt": "2026-07-11T06:52:06Z",
+			"contentGrade": "ungraded",
+			"letter": "?",
+			"discoverability": "?",
+			"duration": "~52 min",
+			"needsReview": true
+		},
 		{
 			"name": "kaia-gerber",
 			"displayName": "Kaia Gerber",

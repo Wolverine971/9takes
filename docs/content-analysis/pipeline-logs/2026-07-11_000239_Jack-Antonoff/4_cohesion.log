@@ -1,0 +1,44 @@
+The epigraph format matches other drafts (e.g., Alex-Lieberman uses the same `> "quote" — Name` pattern), so this is a pre-existing lint quirk where the exemption regex doesn't recognize blockquote-style attributions. Not a cohesion issue and not introduced by this pass; leaving it for DJ/the pipeline to adjudicate. Final report:
+
+## Cohesion Check Complete: Jack-Antonoff.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+Jack Antonoff is an Enneagram Type 6 whose entire career is safety architecture: an inherited "keep it tight" pact, broken once by his sister's death, rebuilt as a system of small tested rooms, decade-long loyalties, and rigid routines that he duplicates and carries with him instead of ever trading up.
+
+### Thread Map
+The piece runs one argument through five media, and each section hands off to the next: cold open poses the question (why does he need his bedroom with him?) → diagnosis answers it (a Six's safety inventory: which rooms are safe, which people stay) → childhood locates the inventory's origin (the ancestral pact, the van that broke it) → sister's death shows the pact failing and the rewiring that followed → floor plan makes the thesis spatial (rooms) → Taylor/Lana applies it to people (no contracts, trust before art) → the sameness critique shows its cost on record → the monk schedule applies it to time → the close lands on access, nested rooms, and the ragtime figure. Nothing is off-thread; the ending only works for this subject.
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 9/10 | 1 minor |
+| Section Transitions | 7 → 9/10 | 3 fixed |
+| Internal Paragraph Flow | 8 → 9/10 | 1 fixed |
+
+### Changes Made (4 total)
+
+**Transition Fixes (3):**
+- Diagnosis → Childhood: added "The inventory is older than he is." The diagnosis ended in the Four-vs-Six debate, then jumped to biography; the bridge carries the section's "inventory" keyword into the origin story.
+- Floor plan → Taylor/Lana: added "He keeps people the way he keeps rooms." The section ended on duplicated rooms and opened cold on a business fact; the bridge cashes out the diagnosis line "Which rooms are safe. Which people stay."
+- Taylor/Lana → Sameness critique: added "Run trust-first for a decade with the same short list of artists, and the rest of the world starts hearing a pattern." The prior section ended on the North Star theory and the next began "The backlash has a name now" with no causal link; this states it.
+
+**Internal Flow Fixes (1):**
+- Sister's-death section: added "The world he dragged himself back into was the van." before the Steel Train paragraph. The jump from the Mountain Goats grief beat to career chronology was abrupt; the bridge picks up "drag yourself back" from the inner-thought block and the van from childhood.
+
+All four additions pass the AI-language ban (no em-dashes, no banned words, no contrast-pair engines) and lint confirms contrast-pairs still sit at 0.
+
+### What Was Preserved
+- All frontmatter, ledger comments, working notes, and review notes
+- All Svelte/HTML components (accordion, pull-quote, key-stat-row, inner-thought)
+- All internal links and quote attributions
+- 5 transitions left untouched (already strong): the "She" pronoun carry into the sister section, room-keyword carry into the floor plan, "stays inside them" → access-themed close, and both accordion seams
+- The monk-schedule → relationship pivot, which the second pass already deliberately kept as-is
+
+### Remaining Concerns
+- **Lint flags 1 prose em-dash**, but it's the epigraph attribution line (line 106), a format other drafts share (Alex-Lieberman.md). The lint's attribution exemption only recognizes `<br />—` pull-quote style, not blockquote epigraphs. Either the lint regex needs widening or the epigraph attribution needs reformatting; that call is outside a cohesion pass.
+- The "man who wrote a whole song asking who gets access to him" reference in the close lands one paragraph before "Dirty Wedding Dress" is named. It reads as a deliberate tease and resolves quickly, so I left it.
+- Pre-existing open items from the second pass still stand: Qualley-separation re-verify before publish, similarity scan not re-run, and the `faqs` frontmatter WARN (enrich stage hasn't run).

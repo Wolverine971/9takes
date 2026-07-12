@@ -15,4 +15,4 @@ Ideas generated during the 2026-07-08 Type 8 worldbuilding run. Status flow: `qu
 | 07  | [The Power Map](07-the-power-map.md)                                         | Product / question prompt  | queued |
 | 08  | [The Lone-Wolf Ceiling](08-the-lone-wolf-ceiling.md)                         | Success / self-sabotage    | queued |
 
-Recommended first ship: 01, because it directly becomes a 9takes question page and has already proven itself in the Chappell Roan Mirror Moment.
+Recommended first ship: 01, because it directly becomes a 9takes question page and the framing has already been used in the Chappell Roan Mirror Moment.

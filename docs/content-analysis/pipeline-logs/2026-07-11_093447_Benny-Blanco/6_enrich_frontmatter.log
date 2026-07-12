@@ -1,0 +1,29 @@
+Frontmatter enrichment complete: **Benny-Blanco**
+
+**Fields filled:**
+
+- `wikidata_qid` (Q818048), `imdb_id` (nm4251296 — cross-checked against Wikidata property P345), `birth_date` (1988-03-08), `birth_place` (Reston, Virginia, United States), `nationality`, `occupation` (4, from the Wikipedia infobox), `knows_about` (5), `keywords` (9), `same_as` (5: Wikipedia, Wikidata, IMDb, Britannica, MusicBrainz), `citations` (6), `faqs` (5)
+
+**Fields already present (preserved):**
+
+- `wikipedia`, `twitter`, `instagram`, `tiktok`, plus all creator-owned fields. `lastmod` untouched. Body and HTML comment blocks untouched — the only change is the new block inserted between `wikipedia:` and `twitter:`.
+
+**FAQs generated (5):**
+
+1. What is Benny Blanco's personality type? → `#what-is-benny-blancos-personality-type`
+2. Why does Benny Blanco cook for every artist he works with? → `#why-benny-blanco-feeds-pop-stars-before-he-records-them`
+3. How did Benny Blanco and Selena Gomez get together? → `#why-the-internet-cant-believe-selena-gomez-married-him`
+4. Does Benny Blanco have OCD? → `#benny-blancos-childhood-shut-up-and-go-to-school`
+5. Why is Benny Blanco a Type 2 and not a Type 6 or Type 7? → `#counterarguments-why-benny-blanco-might-not-be-a-type-2`
+
+All anchors match the draft's actual H2/H3 slugs, and the frontmatter was verified to parse as valid YAML (apostrophes handled via double-quoted strings, per the known people-pipeline YAML build-break failure mode).
+
+**Issues:**
+
+- The body cites sources by outlet name only (no inline URLs), so `citations` was built by resolving the body's named sources to their canonical URLs. Six verified: Wikipedia (person + album pages), Variety 2017 (Janick "divine ability" quote), Billboard 2018 (Julia Michaels ice-in-hands story), NME 2021 feature (Juice WRLD / "meet my mom" material), and Stereogum 2018 (the Chris DeVille "optimized millennial pop" column).
+- The New York Times 2018 profile and Guardian 2025 review are load-bearing in the body, but both domains block the search crawler, so I couldn't verify their exact URLs and omitted them rather than guess. If you want them included, they're easy to add by hand.
+- FAQ 4's OCD framing is careful: the answer describes his self-reported compulsions and CBT history as the body does, without asserting a clinical diagnosis (the draft's research notes flagged that first-person sourcing on diagnoses is thin).
+
+The draft's "Still open: faqs frontmatter absent" lint warning from the editor pass is now resolved. Next stage in the pipeline is `/grade_blog`.
+
+Sources: [Benny Blanco — Wikidata](https://m.wikidata.org/wiki/Q818048) · [Benny Blanco — Wikipedia](https://en.wikipedia.org/wiki/Benny_Blanco) · [Variety 2017](https://variety.com/2017/biz/news/hitmaker-benny-blanco-extends-deal-with-interscope-1202574786/) · [Billboard 2018](https://www.billboard.com/music/pop/julia-michaels-interview-songwriting-shawn-mendes-ed-sheeran-8465621/) · [NME 2021](https://www.nme.com/features/music-interviews/benny-blanco-friends-keep-secrets-juice-wrld-6-dogs-2923477) · [Stereogum 2018](https://www.stereogum.com/2033737/benny-blanco-eastside-friends-kee-secrets/columns/the-week-in-pop/) · [I Said I Love You First — Wikipedia](https://en.wikipedia.org/wiki/I_Said_I_Love_You_First) · [Britannica](https://www.britannica.com/biography/Benny-Blanco)

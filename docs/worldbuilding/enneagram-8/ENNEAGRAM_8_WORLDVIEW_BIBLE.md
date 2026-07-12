@@ -274,13 +274,13 @@ Avoid:
 
 ## Common Misreads And Better Repairs
 
-| Misread | What may actually be happening | Better repair language |
-| --- | --- | --- |
-| "They want to control everyone." | Control may be restoring autonomy or preventing a feared dependency. | "What outcome are you protecting, and what can stay shared?" |
-| "They are not affected." | Impact may be denied, converted into action, or kept private. | "You do not have to explain everything. What landed?" |
-| "Direct means honest." | Directness can still omit uncertainty, tenderness, or the other person's impact. | "What is true in your intent, and what is true in their experience?" |
-| "Vulnerability means disclosure." | Forced access repeats the exact threat the Eight is organized against. | "What amount of access feels chosen rather than extracted?" |
-| "Yielding means losing." | A low-stakes yield can be evidence of self-command. | "What changes if you let this be their call?" |
+| Misread                           | What may actually be happening                                                   | Better repair language                                               |
+| --------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| "They want to control everyone."  | Control may be restoring autonomy or preventing a feared dependency.             | "What outcome are you protecting, and what can stay shared?"         |
+| "They are not affected."          | Impact may be denied, converted into action, or kept private.                    | "You do not have to explain everything. What landed?"                |
+| "Direct means honest."            | Directness can still omit uncertainty, tenderness, or the other person's impact. | "What is true in your intent, and what is true in their experience?" |
+| "Vulnerability means disclosure." | Forced access repeats the exact threat the Eight is organized against.           | "What amount of access feels chosen rather than extracted?"          |
+| "Yielding means losing."          | A low-stakes yield can be evidence of self-command.                              | "What changes if you let this be their call?"                        |
 
 ## Writing And Evidence Standard
 

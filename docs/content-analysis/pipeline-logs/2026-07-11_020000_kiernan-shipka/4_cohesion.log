@@ -1,0 +1,27 @@
+## Cohesion Check Complete: Kiernan-Shipka.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Kiernan Shipka is a Type 3 whose excellence-as-safety pattern was installed by a childhood spent working, and her twenties are a deliberate project of learning imperfection that she can't help executing like an assignment.
+
+### Changes Made (3 total)
+
+**Transition Fixes (2):**
+- Diagnosis → Childhood: The diagnosis ended by pointing two sections ahead ("Hold that thought. It explains her reviews.") and then jumped to her birth in Chicago. Added "First, the workplace where the pattern got installed." so the handoff lands on the next heading instead of leaving the reader expecting the reviews.
+- Second adolescence, heartbreak → friend group: The heartbreak paragraph ended on "the last milestone she has not booked" and the friend-group paragraph started cold. Added "Friendship is the opposite story." to state the contrast the two paragraphs already imply (dating tier closed, friendship tier fully staffed).
+
+**Thread Fixes (1):**
+- Cashed the heart-triad plant in the poised section. The diagnosis asks the reader to hold "emotion gets filed for later so the delivery lands on time" across two sections, but the payoff was only implicit. Added "The feelings got filed. The delivery landed on time." after "flawless delivery kept everyone okay," using the plant's own vocabulary and matching the piece's existing file/report motif ("Even the feelings file a report").
+
+### What Was Preserved
+- All frontmatter, ledger comments, Svelte/HTML blocks (timeline, accordions, pull quote), and internal links
+- All 5 remaining section transitions, which were already strong: childhood → Sally (recast brother → "most consistent peer was a fictional girl") and Sally → poised ("someone other than Sally / the reviews found the same person anyway") are the best bridges in the piece
+- The intro-to-ending frame: the question posed in the intro is landed exactly by the mother-applauding-misses close
+
+Lint passes after the edits: 0 fail, 1 pre-existing WARN (no `faqs` frontmatter, which belongs to the enrich stage, not this pass).
+
+### Remaining Concerns
+- The meme-account paragraph in "second adolescence" is a brief aside between the dinners and the bookings; the reconnect sentence ("The bookings run the same direction as the dinners") deliberately reaches back over it, so I left it. If it ever grows, it should move rather than sit mid-chain.
+- The "When Kiernan Shipka can't reframe" section ends on a reframe that *succeeded* (burnout filed under good timing) beneath a heading about failing to reframe. It works as an escalation ladder (small feeling catered → grief left heavy → her own crash still spun), so I didn't touch it, but it's the one heading/content pairing a reader could quibble with.

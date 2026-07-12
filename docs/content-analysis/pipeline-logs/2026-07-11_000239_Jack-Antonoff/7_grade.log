@@ -1,0 +1,20 @@
+Grade written to the file. Here's the summary:
+
+## Grading Complete — Jack-Antonoff
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jack-Antonoff | 9 | 7 | 9 | 9 | 8 | 9 | 8.4 | B |
+
+(Weighted: `(9×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. Discoverability ≥ 7, so no gate; the letter comes from the score alone.)
+
+### Key Observations
+
+- **The cap is the whole story.** On raw craft this is the strongest draft I've seen in this queue — Evidence, Enneagram, Discoverability, and Hook all earn 9s independently (10 dated testimony quotes, three primary transcripts, a 52-word extractable answer block, an interior beat and an empathy turn that both pass in Antonoff's own vocabulary). Uncapped, it computes to 8.9 (B+). What holds it at B is the cross-draft sameness check: 4 of the 7 house moves recur near-verbatim against Kaia-Gerber, Madelaine-Petsch, and Olivia-Cooke — the epigraph→cold-open→reframe furniture, seven reader-command imperatives ("Watch what Antonoff does…", "Listen to…", "Walk it room by room"…), aphoristic-fragment closers, and the return-to-the-wound ending shape. Per the rubric that's a mandatory Originality cap at 7. These are exactly what the revision pass is supposed to vary, and the fix is cheap: cut the imperatives to ≤2, rework two closers, and fold "keep it tight" into the ragtime sentence.
+- **Deterministic checks all clean**: 0 contrast pairs, same-type similarity max 0.038 (below the 0.04 trip threshold), head-term PASS, 0 untagged load-bearing quotes. The ledgers are honest — I spot-checked headings and three testimony quotes against the body and none are stale.
+- **Genuine standouts worth protecting in revision**: the floor-plan section (a bespoke form that collapses if transplanted) and the Billboard timeline discrepancy ("He rounds his own life toward home") — a real signature detail.
+- **Pre-publish flags carried forward**: the Qualley separation (reported July 8, three days before drafting) needs re-verification, and the ICU and "It wasn't my band" quotes need dates inline.
+
+I set `confidence: medium` — the dimension scores are solid, but the sameness cap is the one judgment call that flips B+ to B, so it's worth a human glance if this feeds the revise loop.
+
+**Total graded this session: 1**

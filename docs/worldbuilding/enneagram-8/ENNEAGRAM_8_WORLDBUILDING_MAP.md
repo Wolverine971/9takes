@@ -65,6 +65,16 @@ The portable ideas Type 8 content should teach.
 4. Growth law: Power With > Power Over.
 5. Destination: Protective Tenderness.
 
+**Word-hook and image-hook pairs:**
+
+| Concept               | Word hook                                | Image hook                                                         |
+| --------------------- | ---------------------------------------- | ------------------------------------------------------------------ |
+| The Armor             | "Protection can outlive the danger."     | A cuirass with warm light visible through its seams                |
+| The Power Map         | "Who controls what happens next?"        | A room diagram marked with leverage, exits, and a protected figure |
+| Open the Visor        | "Chosen access, not forced exposure."    | A raised visor with the rest of the armor intact                   |
+| Power With            | "Strength that multiplies strength."     | Several hands holding one shield as shelter                        |
+| Protective Tenderness | "Strong enough to be gentle on purpose." | An open hand resting beside a sheathed sword                       |
+
 ### 02 - Re-defined Terms
 
 The four core redefinitions to repeat across public content:
@@ -105,6 +115,12 @@ The relatable flaws that make Type 8 content land.
 
 > You do not have to stop being powerful. You have to stop being only powerful.
 
+**Confession lane:**
+
+- "I said I was protecting them. I was also making sure nobody could make a decision I disliked."
+- "I kept waiting for someone to prove they could handle the truth, while making the test impossible to pass."
+- "I called it independence after it had already become isolation."
+
 ### 04 - Characters & Settings
 
 Recurring people and places inside the Type 8 world.
@@ -121,6 +137,15 @@ Recurring people and places inside the Type 8 world.
 - **The Betrayer** - the figure who justifies the fortress.
 - **The Inner Circle** - the people who get fierce protection and rare access.
 - **The Helper** - the growth figure who teaches the Eight to receive care without contempt.
+
+**Audience supporting cast:**
+
+- partner who can name impact without retaliating or collapsing
+- teammate who can disagree directly and remain allied
+- direct report who needs room to own a decision
+- leader whose authority comes from responsibility rather than force
+- friend who does not punish rare uncertainty
+- coach, therapist, or mentor who preserves agency and does not use Enneagram as treatment
 
 **Settings:**
 
@@ -205,6 +230,13 @@ Use these as case-study candidates, not proof of Type 8 and not settled facts ab
 - Beyonce: control, silence, retreat, and curated access.
 - Tom Hardy: intensity redirected into recovery and protection.
 - Malcolm X: powerlessness converted into force and later expanded mission.
+
+**Intellectual lineage:**
+
+- Riso-Hudson / Enneagram Institute: fear of harm or control, armor, arrows, and levels of development.
+- Narrative and Chestnut-Paes traditions: attention to power, denial of vulnerability, lust, innocence, and subtype variation.
+- Integrative9: action, feeling, thinking, blind spots, and applied subtype language.
+- Psychological reactance: a general research analogy for resistance when freedom feels threatened, not validation of Type 8.
 
 ### 07 - Common Enemy
 

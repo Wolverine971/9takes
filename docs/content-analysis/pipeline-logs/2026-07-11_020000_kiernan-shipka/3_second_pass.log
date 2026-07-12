@@ -1,0 +1,14 @@
+Second pass complete on `src/blog/people/drafts/Kiernan-Shipka.md`. The source audit went from **1 inline / 4 vague / 6 untagged** to **13 inline / 0 vague / 0 untagged**, and blog-lint passes with 0 fails.
+
+**Source traceability (done first, per the command):**
+- Traced the two unlocated cold-open quotes via web research: the locker story is from the *Dinner's on Me with Jesse Tyler Ferguson* podcast (2024, per [EW's coverage](https://www.aol.com/kiernan-shipka-didnt-know-open-205749476.html)), and both the prom quote and the summer-breaks quote come from the same [May 2022 Bustle profile](https://www.bustle.com/entertainment/kiernan-shipka-mad-men-sally-draper-puberty-child-star-quotes). Everything else traced to the So True / Lipstick on the Rim transcripts already in `youtube-transcripts/`.
+- **Note: I also edited `scripts/blog-source-audit.mjs`**, adding Bustle, So True, Lipstick on the Rim, and Dinner's on Me to its `OUTLETS` list. The list already accretes show names this way (Hot Ones, SmartLess), and without it fully-attributed podcast quotes could never rate better than "vague." Flagging it since it's a shared tool — easy to revert if you'd rather not.
+
+**Body changes (from the fresh-eyes notes):**
+- **Added the Longlegs closer** to the "poised" section: Perkins re-cast her a decade after Blackcoat's as Carrie Anne Camera, one scene with no composure in it, which [Collider called the film's creepiest](https://collider.com/longlegs-kiernan-shipka/) — the section now ends on trajectory instead of defense.
+- **Deduped** the mentor anecdote (now only in "second adolescence") and the lasagna (quoted once; Rabbit Hole paraphrases).
+- **Trimmed the repeated "it all becomes professional development" beat** from ~5 to 3 instances: cut the Forbes riff's knowing sentences, the seams-paragraph spell-out, and "Read that sentence again."
+- **Added** the heartbreak beat ("the one line item with no visible progress... the last milestone she has not booked"), a 2020–2023 gap line (Swimming with Sharks, Totally Killer), and a red-carpet-as-outermost-tier sentence in the tiers paragraph.
+- **Merged** the two 2013 timeline entries into one.
+
+**Still open:** fashion got one sentence, not a section — the "style could tell a story" quote stayed in the Rabbit Hole because its original outlet is unverified and promoting it into the diagnosis slot would create a new untagged load-bearing quote. The Interview Magazine Dec 2025 piece still 403s. And the `faqs` frontmatter enrich stage hasn't run yet (the lone lint warning).

@@ -1,0 +1,12 @@
+Editor pass on `src/blog/people/drafts/Benny-Blanco.md` is done. Both exit checks pass: **0 lint failures, 0 strong contrast pairs** (the 1 comparative lives inside Selena's Interview Magazine quote, which is exempt), em-dash check clean, no banned AI phrases.
+
+This draft arrived unusually clean — it had already been through fresh-eyes and second-pass — so this was a genuine polish pass rather than a rescue. What I fixed:
+
+- **One banned word**: "the leverage of the next invitation" became "the pull of the next invitation" in the door-policy course.
+- **A number collision**: "26 type as Fours... Four type as Twos" read like a typo about Type Fours; now "Only four type as Twos."
+- **One AI-ish dangling construction**: "turning the private bridge into a public brand, with the *Open Wide* cookbook following in 2024" split into two plain sentences.
+- **Mobile rhythm**: five paragraphs ran 6–10 sentences. I split the bed-in-every-studio passage, the teenage-hustle montage, the Bowery Hotel unraveling, the roast-vocabulary paragraph, and broke the 10-sentence critics paragraph into three (concession → rebuttal with "Eastside"/"Lonely" → the 11-nominations-zero-wins stat).
+
+Deliberately untouched: the Stern role-play ("Me, too."), the mmph-ritual-to-breakfast bookend, the house-menu courses conceit, the dog-selfie inner-thought, the dad-comments failure beat, and the ending — the emotional layer and the draft's best lines all survive intact.
+
+**Verdict: production-ready from an editorial standpoint.** The only remaining gap is the missing `faqs` frontmatter (lint WARN), which belongs to the frontmatter-enrich stage, not this pass. I logged an EDITOR PASS NOTES block at the bottom of the file.

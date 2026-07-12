@@ -8,11 +8,11 @@
 
 ## Hook
 
-Type 8s do not want control because they love control. They want control because dependence once felt dangerous.
+Type 8s are not necessarily pursuing control for its own sake. In the Type 8 pattern, control can protect against dependence, betrayal, humiliation, or powerlessness.
 
 ## Core idea
 
-Control is a safety strategy. The real desire is autonomy, self-mastery, and the ability to protect what matters.
+Control can function as a safety strategy. The deeper desire in the Enneagram model is autonomy, self-mastery, and the ability to protect what matters.
 
 ## Structure
 

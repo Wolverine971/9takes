@@ -1,0 +1,31 @@
+Frontmatter enrichment complete: **Jack-Antonoff**
+
+**Fields filled:**
+
+- `wikidata_qid: 'Q151304'`
+- `imdb_id: 'nm3054787'` — cross-checked against Wikidata property P345 on Q151304, as required
+- `birth_date: '1984-03-31'`, `birth_place: 'Bergenfield, New Jersey, United States'`, `nationality: 'American'` (all from the Wikidata entity record)
+- `occupation` (4): Record producer, Singer-songwriter, Musician, Composer
+- `knows_about` (5): Pop record production, Songwriting, Bleachers, Synth-pop arrangement, Broadway score composition
+- `keywords` (9): including "Jack Antonoff enneagram", "Jack Antonoff 6w7", "Jack Antonoff childhood bedroom tour", "Loyalist enneagram"
+- `same_as` (4): Wikipedia, Wikidata, IMDb, plus the MusicBrainz artist page (ID also verified from Wikidata P434)
+- `faqs` (5) — was missing entirely, so freshly generated
+
+**Fields already present (preserved untouched):** `wikipedia` (correctly points to the person), `twitter`, `instagram`, and `citations` (16 URLs already curated by the creator pass — left exactly as-is). `lastmod` was not modified, and the body, working notes, and all review comment blocks are untouched.
+
+**FAQs generated (5):**
+
+1. What is Jack Antonoff's personality type? → `#what-is-jack-antonoffs-personality-type`
+2. Why did Jack Antonoff take his childhood bedroom on tour? → `#a-floor-plan-of-jack-antonoffs-safe-rooms`
+3. How did his sister's death shape Jack Antonoff? → `#how-his-sisters-death-rewired-jack-antonoff`
+4. Why do Taylor Swift and Lana Del Rey keep working with Jack Antonoff? → `#why-taylor-swift-and-lana-del-rey-keep-coming-back`
+5. Is the criticism that every pop album sounds like Jack Antonoff fair? → `#why-every-pop-album-sounds-like-jack-antonoff`
+
+All five anchors match the body's actual H2 headings, and every answer summarizes arguments the body actually makes. I validated the full frontmatter block with a YAML parser (the FAQ-quoting build break from the pipeline audit is the known failure mode here — it parses clean) and confirmed zero em-dashes in the new fields.
+
+**Issues:**
+
+- Carried forward from the editor pass, not mine to resolve: the **Qualley separation re-verify before publish** flag still stands (reported July 8, 2026 — three days before this draft).
+- `citations` has 16 entries, above the 3–8 guideline — pre-existing, additive-only rule says leave it; flagging for the publish gate to trim if desired.
+
+Sources: [Jack Antonoff - Wikidata](https://www.wikidata.org/wiki/Q151304), [Wikidata entity data (P345/P569/P19/P27)](https://www.wikidata.org/wiki/Special:EntityData/Q151304.json), [Bergenfield - Wikidata](https://www.wikidata.org/wiki/Special:EntityData/Q819548.json)

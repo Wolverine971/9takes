@@ -1,0 +1,15 @@
+{
+	"person": "kiernan-shipka",
+	"draft_path": "src/blog/people/drafts/kiernan-shipka.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka",
+	"completed": true,
+	"halt_reason": null,
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": null,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": true,
+	"generated_at": "2026-07-11T06:52:06.576Z"
+}

@@ -1,0 +1,22 @@
+Publish blocked — no eligible people draft.
+
+`node scripts/personBlogParser.js --publish` checked 469 candidates and rejected all of them. No files or Supabase rows were modified. I swept all 87 frontmatter-unpublished drafts through the same gate logic to rank them; the closest candidates and their exact blockers:
+
+**One blocker away:**
+- `hailee-steinfeld` — `missing_grade_stability_delta:run supervised grade/regrade` (everything else passes, images present)
+- `rose-blackpink` — `content_quality_below_8.5:8.4`
+- `carina-zavline` — `missing_content_quality` (never graded)
+
+**Two blockers:**
+- `oliver-tree`, `julia-fox` — missing full + thumbnail images only (grades pass)
+- `alex-warren`, `glen-powell`, `olivia-wilde`, `victoria-justice` — missing stability delta + untagged epigraph/cold-open quote
+- Several at 7.8–8.3 overall + untagged quote (`zac-efron` 8.3, `mark-twain` 8.2, `nikki-glaser` 8.1, others)
+
+**The two fresh pipeline drafts:**
+- `jack-antonoff` — `grade_unstable:0.5_delta` (exceeds the 0.3 limit); missing full image; missing thumbnail image
+- `kiernan-shipka` — `missing_content_quality` (not yet graded); missing full image; missing thumbnail image
+
+Fastest paths to a publish: run `/grade_blog` (supervised regrade) on **hailee-steinfeld** to record a stability delta, or add the Canva images for **oliver-tree** or **julia-fox** (type images are manual per your pipeline). I'm stopping here per the command — the gate blocked everything and bypassing requires your explicit go-ahead.
+
+Blockers:
+- No eligible draft among 469 candidates (87 unpublished); nearest candidates listed above.

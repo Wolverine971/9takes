@@ -1,0 +1,15 @@
+{
+	"person": "Jack-Antonoff",
+	"draft_path": "src/blog/people/drafts/Jack-Antonoff.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_000239_Jack-Antonoff",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.4,
+	"final_overall": 8.9,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.5,
+	"has_stage_warnings": true,
+	"generated_at": "2026-07-11T05:30:25.357Z"
+}

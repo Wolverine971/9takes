@@ -1,0 +1,92 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Kiernan-Shipka (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Kiernan-Shipka.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 46
+Comparison set (last 8 other Type-3 drafts by date):
+  - Alex-Warren  (2026-07-01, 25 units)
+  - amelia-dimoldenberg  (2026-06-22, 15 units)
+  - Olivia-Wilde  (2026-06-17, 18 units)
+  - Hailee-Steinfeld  (2026-06-15, 23 units)
+  - Carina-Zavline  (2026-06-08, 14 units)
+  - teyana-taylor  (2026-06-01, 20 units)
+  - Paige-Spiranac  (2026-05-23, 16 units)
+  - vivek-ramaswamy  (2026-05-22, 24 units)
+
+Noise floor over 7130 unit pairs:  median=0  p90=0  p99=0.008  max=0.118
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.118   Kiernan-Shipka  <->  Alex-Warren
+   TARGET [diagnosis] The honest counter-read is Type 7
+   OTHER  [counter-typing] The through-line that survives every counter-read is the Achiever's
+
+score 0.067   Kiernan-Shipka  <->  vivek-ramaswamy
+   TARGET [diagnosis] Kiernan Shipka is an Enneagram Type 3
+   OTHER  [diagnosis] Vivek Ramaswamy is what happens when that wiring is paired with extraordinary native capacity.
+
+
+Most similar drafts (max unit-pair score):
+  0.118 #####                Alex-Warren
+  0.067 ###                  vivek-ramaswamy
+  0.054 ##                   Paige-Spiranac
+  0.048 ##                   Hailee-Steinfeld
+  0.032 #                    amelia-dimoldenberg
+  0.022 #                    Olivia-Wilde
+  0.021 #                    teyana-taylor
+  0.016 #                    Carina-Zavline
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.118   Kiernan-Shipka  <->  Alex-Warren
+   TARGET [diagnosis] The honest counter-read is Type 7
+   OTHER  [counter-typing] The through-line that survives every counter-read is the Achiever's
+
+score 0.067   Kiernan-Shipka  <->  vivek-ramaswamy
+   TARGET [diagnosis] Kiernan Shipka is an Enneagram Type 3
+   OTHER  [diagnosis] Vivek Ramaswamy is what happens when that wiring is paired with extraordinary native capacity.
+
+score 0.054   Kiernan-Shipka  <->  Paige-Spiranac
+   TARGET [counter-typing] and that her relationship to feelings is deferral ("stuff that I never would have even let myself feel before")
+   OTHER  [diagnosis] The 3w2 wing shows in her relationship to that audience.
+
+score 0.048   Kiernan-Shipka  <->  Hailee-Steinfeld
+   TARGET [diagnosis] and anyone who has heard her talk about restaurants for a full hour has felt it
+   OTHER  [diagnosis] made her take acting lessons for a full year before she was allowed to audition for anything.
+
+score 0.035   Kiernan-Shipka  <->  Paige-Spiranac
+   TARGET [diagnosis] I wanted to just get through the curriculum." As an adult she preps roles on the same doctrine
+   OTHER  [diagnosis] And I want to fit in." A Type 5 would have walked away from public life by 2017.
+
+score 0.032   Kiernan-Shipka  <->  amelia-dimoldenberg
+   TARGET [diagnosis] the fashion press gets the most art-directed version of her that exists.
+   OTHER  [diagnosis] The self becomes whatever version of you gets the applause.
+
+score 0.030   Kiernan-Shipka  <->  amelia-dimoldenberg
+   TARGET [diagnosis] " she told Caleb Hearon on So True in 2024.
+   OTHER  [diagnosis] " she told Louis Theroux on his podcast.
+
+score 0.024   Kiernan-Shipka  <->  Hailee-Steinfeld
+   TARGET [diagnosis] Threes sit in the Enneagram's heart triad while spending the least time of anyone inside their own feelings
+   OTHER  [diagnosis] the heart-triad type whose engine runs on a single early lesson
+
+score 0.023   Kiernan-Shipka  <->  Alex-Warren
+   TARGET [diagnosis] "I am kind of trying to untether from my own perfectionism
+   OTHER  [counter-typing] Warren keeps trying to convert it into reassurance and resolution.
+
+score 0.022   Kiernan-Shipka  <->  Olivia-Wilde
+   TARGET [diagnosis] " she said on Lipstick on the Rim in 2024
+   OTHER  [diagnosis] she said his process "was not conducive to the ethos that I demand in my productions
+
+score 0.021   Kiernan-Shipka  <->  teyana-taylor
+   TARGET [diagnosis] Shipka's version had a call sheet.
+   OTHER  [diagnosis] By 15 she had a credit on Beyoncé's "Ring the Alarm" video.
+
+score 0.021   Kiernan-Shipka  <->  teyana-taylor
+   TARGET [diagnosis] Shipka's version had a call sheet.
+   OTHER  [diagnosis] By 16 she had a record deal with Pharrell's Star Trak label.
+
+------------------------------------------------------------------------------
+Top pair scores 0.118 vs median 0  (~∞x the noise floor).

@@ -1,0 +1,405 @@
+[2026-07-11 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-11 02:00:00] [INFO] SELECTED: kiernan-shipka (Type 3)
+[2026-07-11 02:00:00] [INFO] Launching pipeline for kiernan-shipka
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  kiernan-shipka
+Draft:   src/blog/people/drafts/kiernan-shipka.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka
+Started: Sat Jul 11 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 kiernan-shipka --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/1_create.log
+─────────────────────────────────────────────────────
+Draft complete. Kiernan Shipka is typed as an **Enneagram 3w2** (high confidence), and the piece is built around the inversion of the usual child-star arc: she delivered a finished adulthood by fifteen and has spent her twenties methodically acquiring the youth she skipped.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Kiernan-Shipka.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (7 qualifying quotes), Gate 2: pass (5 search-intent/hybrid H2s),
+       Gate 4: pass (no type-named ending sentences, scene-based hook),
+       Gate 5: pass (0 type-theory paragraphs outside diagnosis + Rabbit Hole),
+       Gate 6: pass (0 contrast pairs, similarity top score 0.027, bespoke section,
+       critic anchor, empathy turn, 2026 anchors, ending swap-test pass)
+LIMITATIONS: transcripts are YouTube auto-captions (wording verbatim, punctuation cleaned);
+             Interview Magazine Dec 2025 piece returned 403 and is cited nowhere;
+             the teen movie in the locker anecdote is unnamed in sources
+```
+
+**The thesis:** everyone sees the one child star who made it out clean. The Type 3 lens flips it: the put-togetherness didn't survive the child stardom, it *was* the child stardom. Her family moved states on a six-year-old's begging, so flawless delivery became how a small girl kept everyone okay. Key evidence in her own words: "I am kind of trying to untether from my own perfectionism," "I'm starving for the work," and her advice to her ten-year-old self: "you don't have to be perfect... You're safe."
+
+**Structural highlights:** the hook is the locker she couldn't open at fifteen; the bespoke section braids Sally Draper's milestones against Kiernan's (Sally got her period first, scripted); the empathy turn rebuilds the "stilted/poised" criticism from her own wound-vocabulary ("wall on wall on wall"); the ending is her mother applauding her mistakes. Two sourced stats: Mad Men's four straight Outstanding Drama Emmys (2008–2011) and Forbes 30 Under 30 (2025).
+
+**Internal links (5):** Type 3 explainer (TL;DR), [Pamela Anderson](/personality-analysis/Pamela-Anderson) cross-link, plus wings, subtypes, and stress-arrow pillar pages inside the Rabbit Hole.
+
+**Checks:** blog-lint 0 fail / 1 warn (the expected "faqs frontmatter not enriched" — that stage runs downstream), quality report clean, no corpus-drift, all four Type 3 avoid-list phrases dodged.
+
+**Side artifacts:** three new transcripts saved to `youtube-transcripts/` (So True with Caleb Hearon, Salon Talks, Lipstick on the Rim — all 2024). Per non-interactive rules the draft was **not** graded (that's `/grade_blog`) and not promoted to `ready` — human review comes first. Preview at `/admin/drafts/Kiernan-Shipka`.
+[Stage 1] create finished 02:24:13 (exit=0, 1453s)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:24:14)
+Command: /blog_content_fresh_eyes_people kiernan-shipka
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Fresh-eyes review complete. I reviewed `src/blog/people/drafts/Kiernan-Shipka.md` and appended a `FRESH EYES REVIEW (2026-07-11)` comment block at the bottom of the file (no body edits made, per the command).
+
+The two biggest issues flagged:
+
+1. **Longlegs is missing from the body entirely.** It's in the frontmatter `knows_about` but never mentioned in the article — and it's not just a filmography gap. Oz Perkins, whose "flip the switch" quote anchors the draft's best section, re-cast her a decade after Blackcoat's Daughter as Carrie Anne Camera, a catatonic survivor whose five-minute scene was widely called the film's creepiest. That role is pure un-composure — the strongest available rebuttal to the IndieWire "too polished" critique — and I suggested landing it as the closer of the "poised" section, converting that section from defense into trajectory.
+
+2. **The central irony repeats too often.** The "everything turns back into professional development" move lands at least four times in the same shape ("reports to the machine," "the feelings file a report," the Forbes riff, "she caters it"). It's the spine of the piece, but by the fourth pass the reader notices the writer's move instead of her. Related duplicates: the mentor's assignment is spent twice (diagnosis + pull-quote section), and the 5 a.m. lasagna appears near-verbatim in both the diagnosis and the Rabbit Hole.
+
+Also noted: the "get your heart broken" setup never gets cashed out romantically, the 2020–2023 career gap makes the second-adolescence section read like four years of dinners, and the ending, the Sally timeline, and the Perdomo restraint are keepers the next pass should preserve.
+
+Sources: [Collider on Shipka's Longlegs scene](https://collider.com/longlegs-kiernan-shipka/), [Crooked Marquee — "The Year of Kiernan Shipka"](https://crookedmarquee.com/growing-up-onscreen-the-year-of-kiernan-shipka/)
+[Stage 2] fresh_eyes finished 02:26:42 (exit=0, 148s)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:26:42)
+Command: /blog_content_second_pass_people kiernan-shipka
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/3_second_pass.log
+─────────────────────────────────────────────────────
+Second pass complete on `src/blog/people/drafts/Kiernan-Shipka.md`. The source audit went from **1 inline / 4 vague / 6 untagged** to **13 inline / 0 vague / 0 untagged**, and blog-lint passes with 0 fails.
+
+**Source traceability (done first, per the command):**
+- Traced the two unlocated cold-open quotes via web research: the locker story is from the *Dinner's on Me with Jesse Tyler Ferguson* podcast (2024, per [EW's coverage](https://www.aol.com/kiernan-shipka-didnt-know-open-205749476.html)), and both the prom quote and the summer-breaks quote come from the same [May 2022 Bustle profile](https://www.bustle.com/entertainment/kiernan-shipka-mad-men-sally-draper-puberty-child-star-quotes). Everything else traced to the So True / Lipstick on the Rim transcripts already in `youtube-transcripts/`.
+- **Note: I also edited `scripts/blog-source-audit.mjs`**, adding Bustle, So True, Lipstick on the Rim, and Dinner's on Me to its `OUTLETS` list. The list already accretes show names this way (Hot Ones, SmartLess), and without it fully-attributed podcast quotes could never rate better than "vague." Flagging it since it's a shared tool — easy to revert if you'd rather not.
+
+**Body changes (from the fresh-eyes notes):**
+- **Added the Longlegs closer** to the "poised" section: Perkins re-cast her a decade after Blackcoat's as Carrie Anne Camera, one scene with no composure in it, which [Collider called the film's creepiest](https://collider.com/longlegs-kiernan-shipka/) — the section now ends on trajectory instead of defense.
+- **Deduped** the mentor anecdote (now only in "second adolescence") and the lasagna (quoted once; Rabbit Hole paraphrases).
+- **Trimmed the repeated "it all becomes professional development" beat** from ~5 to 3 instances: cut the Forbes riff's knowing sentences, the seams-paragraph spell-out, and "Read that sentence again."
+- **Added** the heartbreak beat ("the one line item with no visible progress... the last milestone she has not booked"), a 2020–2023 gap line (Swimming with Sharks, Totally Killer), and a red-carpet-as-outermost-tier sentence in the tiers paragraph.
+- **Merged** the two 2013 timeline entries into one.
+
+**Still open:** fashion got one sentence, not a section — the "style could tell a story" quote stayed in the Rabbit Hole because its original outlet is unverified and promoting it into the diagnosis slot would create a new untagged load-bearing quote. The Interview Magazine Dec 2025 piece still 403s. And the `faqs` frontmatter enrich stage hasn't run yet (the lone lint warning).
+[Stage 3] second_pass finished 02:37:52 (exit=0, 670s)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:37:52)
+Command: /cohesion-check src/blog/people/drafts/kiernan-shipka.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/4_cohesion.log
+─────────────────────────────────────────────────────
+## Cohesion Check Complete: Kiernan-Shipka.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Kiernan Shipka is a Type 3 whose excellence-as-safety pattern was installed by a childhood spent working, and her twenties are a deliberate project of learning imperfection that she can't help executing like an assignment.
+
+### Changes Made (3 total)
+
+**Transition Fixes (2):**
+- Diagnosis → Childhood: The diagnosis ended by pointing two sections ahead ("Hold that thought. It explains her reviews.") and then jumped to her birth in Chicago. Added "First, the workplace where the pattern got installed." so the handoff lands on the next heading instead of leaving the reader expecting the reviews.
+- Second adolescence, heartbreak → friend group: The heartbreak paragraph ended on "the last milestone she has not booked" and the friend-group paragraph started cold. Added "Friendship is the opposite story." to state the contrast the two paragraphs already imply (dating tier closed, friendship tier fully staffed).
+
+**Thread Fixes (1):**
+- Cashed the heart-triad plant in the poised section. The diagnosis asks the reader to hold "emotion gets filed for later so the delivery lands on time" across two sections, but the payoff was only implicit. Added "The feelings got filed. The delivery landed on time." after "flawless delivery kept everyone okay," using the plant's own vocabulary and matching the piece's existing file/report motif ("Even the feelings file a report").
+
+### What Was Preserved
+- All frontmatter, ledger comments, Svelte/HTML blocks (timeline, accordions, pull quote), and internal links
+- All 5 remaining section transitions, which were already strong: childhood → Sally (recast brother → "most consistent peer was a fictional girl") and Sally → poised ("someone other than Sally / the reviews found the same person anyway") are the best bridges in the piece
+- The intro-to-ending frame: the question posed in the intro is landed exactly by the mother-applauding-misses close
+
+Lint passes after the edits: 0 fail, 1 pre-existing WARN (no `faqs` frontmatter, which belongs to the enrich stage, not this pass).
+
+### Remaining Concerns
+- The meme-account paragraph in "second adolescence" is a brief aside between the dinners and the bookings; the reconnect sentence ("The bookings run the same direction as the dinners") deliberately reaches back over it, so I left it. If it ever grows, it should move rather than sit mid-chain.
+- The "When Kiernan Shipka can't reframe" section ends on a reframe that *succeeded* (burnout filed under good timing) beneath a heading about failing to reframe. It works as an escalation ladder (small feeling catered → grief left heavy → her own crash still spun), so I didn't touch it, but it's the one heading/content pairing a reader could quibble with.
+[Stage 4] cohesion finished 02:41:05 (exit=0, 193s)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:41:05)
+Command: /blog_content_editor_pass_people kiernan-shipka
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/5_editor_pass.log
+─────────────────────────────────────────────────────
+Editor pass on `src/blog/people/drafts/Kiernan-Shipka.md` is done, and the draft came in unusually clean — the creator, fresh-eyes, and second passes had already handled em-dashes, contrast pairs, and dedup, so this was a light-touch line edit rather than a rescue.
+
+**What I cleaned up:**
+- **A cadence tic the lint can't see:** six paragraphs closed on the same "It is the..." syntax. I rewrote two of them, leaving four spread far apart (including the ending's "It is the same sound," which stays untouched). The self-portrait line is now active ("She has never handed anyone a closer self-portrait").
+- **A restatement in the heartbreak beat:** "no visible progress" followed by "the last milestone she has not booked" said the same thing twice. The closer is now a sharper Type 3 insight instead: "Heartbreak is the one milestone she can't book in advance, which might be exactly why it's still pending."
+- **A doubled "precisely"** (kept the strong one in the Longlegs payoff) and a hedge ("it is worth hearing") sitting right at the ramp into the empathy turn, now an imperative "listen to."
+
+**What I deliberately left alone:** the empathy turn (the Sweethearts "wall on wall on wall" self-portrait), the interior beat at the Netflix binge, the hypnotist payoff, the Chance Perdomo restraint, and the mother-applauds-mistakes ending — all flagged as working in prior passes, all intact. The "feelings get filed" motif recurs by design as setup/payoff and I kept it.
+
+**Exit checks:** blog-lint is 0 fail with contrast target 0 (em-dash check passes, 0 strong / 0 comparative contrast pairs, no banned phrases), and blog-quality-report confirms **0 contrast pairs total**. The one remaining WARN is missing `faqs` frontmatter, which belongs to the frontmatter-enrich stage, not this pass.
+
+**Verdict:** production-ready on prose. Remaining steps are pipeline stages, not editorial: run the frontmatter enrich for `faqs`, then grading/publish.
+[Stage 5] editor_pass finished 02:44:18 (exit=0, 193s)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:44:18)
+Command: /blog_content_frontmatter_enrich_people kiernan-shipka
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Frontmatter enrichment complete: **Kiernan-Shipka**
+
+**Fields filled:**
+- `wikidata_qid` — `Q439939` (inserted after `wikipedia`)
+- `same_as` — 3 items (Wikipedia, Wikidata, IMDb)
+- `citations` — 7 items: Wikipedia, the Bustle May 2022 profile (prom + summer-breaks quotes), the RogerEbert.com Oz Perkins interview, the IndieWire 2018 Sabrina review ("stilted" quote verified verbatim against the article), and the three YouTube podcast episodes that supply most of the body's quotes (So True with Caleb Hearon, Lipstick on the Rim, Salon Talks)
+- `faqs` — 5 entries (was missing; the second-pass notes flagged it as the open lint WARN)
+
+**Fields already present (preserved):** `wikipedia`, `imdb_id`, `twitter`, `instagram`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`. The existing `imdb_id` (`nm2215143`) was cross-checked against Wikidata property P345 and is correct.
+
+**FAQs generated (5):**
+1. What is Kiernan Shipka's personality type? → `#what-is-kiernan-shipkas-personality-type`
+2. Why do critics call Kiernan Shipka poised or stilted? → `#why-critics-keep-calling-kiernan-shipka-poised`
+3. How did Kiernan Shipka get cast on Mad Men? → `#kiernan-shipkas-childhood-was-a-workplace`
+4. What is Kiernan Shipka's second adolescence? → `#kiernan-shipkas-second-adolescence`
+5. Is Kiernan Shipka a Type 7 instead of a Type 3? → `#counterarguments-why-kiernan-shipka-might-not-be-a-type-3`
+
+All anchors match real H2/H3 headings in the body (note the fifth points inside the collapsed Rabbit Hole `<details>`). YAML validated with js-yaml, no em-dashes introduced anywhere in the new fields, `lastmod` untouched, body untouched.
+
+**Issues:**
+- The body has zero inline external links; citations were built from the named sources the body leans on, matching how the Einstein gold standard handles it. The W Magazine 2016 Weiner quote ("the only sequel to Mad Men...") could not be pinned to a live URL, so it's excluded from citations rather than guessed.
+- `occupation` has only 1 item (`'Actress'`) against the 2–5 spec, but it matches her Wikipedia infobox exactly and was already filled, so I left it per the additive-only rule.
+- FAQ 5's anchor deep-links into a collapsed `<details>` block; the jump works but won't auto-expand the accordion. That's the same tradeoff Einstein's third FAQ makes.
+[Stage 6] enrich_frontmatter finished 02:49:00 (exit=0, 282s)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 160 chars
+ok    meta_title length 58 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (48 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+ok    no comparative contrast patterns detected
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: kiernan-shipka — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+─────────────────────────────────────────────────────
+[Stage 6.6] quality_report  (started 02:49:01)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs kiernan-shipka
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/6.6_quality_report.log
+─────────────────────────────────────────────────────
+blog-quality-report: kiernan-shipka
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Why Kiernan Shipka Makes Mistakes on Purpose (Enneagram 3)
+   answer-block: ok (48 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 382)
+[Stage 6.6] quality_report finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.7] source_audit  (started 02:49:01)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs kiernan-shipka --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/6.7_source_audit.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — Kiernan-Shipka  (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/kiernan-shipka.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "I'm starving. I'm starving for the work."
+             outlet="So True"  year=2024
+
+### COLD OPEN
+  [INLINE  ] "Oh no, oh no, I never got to this,"
+             outlet="Dinner's on Me"  year=2024  venue="podcast"
+  [INLINE  ] "This isn't part of my skill set yet, guys."
+             outlet="Dinner's on Me"  year=2024  venue="podcast"
+  [INLINE  ] "I was going to the Emmys every year, but I really wanted to go to prom."
+             outlet="Bustle"  year=2022
+  [INLINE  ] "probably the most well-rounded, put-together 25-year-old I know"
+             outlet="Lipstick on the Rim"  year=2024
+
+### DIAGNOSIS
+  [INLINE  ] "I didn't want to take summer breaks, I wanted to just get through the curriculum."
+             outlet="Lipstick on the Rim"  year=2022
+  [INLINE  ] "The number one thing is coming in super prepared, so that I can throw everything away."
+             outlet="Lipstick on the Rim"  year=2024
+  [INLINE  ] "When I see someone and I like them, I make a very active effort to have them in my life,"
+             outlet="So True"  year=2024  venue="red carpet"
+  [INLINE  ] "They can't know too much about me, … You got to put a ring on it first."
+             outlet="So True"  year=2024  venue="instagram"
+  [INLINE  ] "a little bit of a playboy,"
+             outlet="So True"  year=2024
+  [INLINE  ] "I did tell him to spread the rumor. I do like it for the brand."
+             outlet="So True"  year=2024
+  [INLINE  ] "I have a good distance between what's going on in my life and the people that are really in my life, and then whatever the internet is saying. … I am kind of trying to untether from my own perfectionism,"
+             outlet="Lipstick on the Rim"  year=2024
+  [INLINE  ] "a low but also a high"
+             outlet="So True"  year=2024
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  (no quoted material in slot)
+
+------------------------------------------------------------------------
+SUMMARY: 13 load-bearing quote(s) — 13 inline, 0 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 6.7] source_audit finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.8] same_type_similarity  (started 02:49:01)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs kiernan-shipka --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/6.8_same_type_similarity.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Kiernan-Shipka (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Kiernan-Shipka.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 46
+Comparison set (last 8 other Type-3 drafts by date):
+  - Alex-Warren  (2026-07-01, 25 units)
+  - amelia-dimoldenberg  (2026-06-22, 15 units)
+  - Olivia-Wilde  (2026-06-17, 18 units)
+  - Hailee-Steinfeld  (2026-06-15, 23 units)
+  - Carina-Zavline  (2026-06-08, 14 units)
+  - teyana-taylor  (2026-06-01, 20 units)
+  - Paige-Spiranac  (2026-05-23, 16 units)
+  - vivek-ramaswamy  (2026-05-22, 24 units)
+
+Noise floor over 7130 unit pairs:  median=0  p90=0  p99=0.008  max=0.118
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.118   Kiernan-Shipka  <->  Alex-Warren
+   TARGET [diagnosis] The honest counter-read is Type 7
+   OTHER  [counter-typing] The through-line that survives every counter-read is the Achiever's
+
+score 0.067   Kiernan-Shipka  <->  vivek-ramaswamy
+   TARGET [diagnosis] Kiernan Shipka is an Enneagram Type 3
+   OTHER  [diagnosis] Vivek Ramaswamy is what happens when that wiring is paired with extraordinary native capacity.
+
+
+Most similar drafts (max unit-pair score):
+  0.118 #####                Alex-Warren
+  0.067 ###                  vivek-ramaswamy
+  0.054 ##                   Paige-Spiranac
+  0.048 ##                   Hailee-Steinfeld
+  0.032 #                    amelia-dimoldenberg
+  0.022 #                    Olivia-Wilde
+  0.021 #                    teyana-taylor
+  0.016 #                    Carina-Zavline
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.118   Kiernan-Shipka  <->  Alex-Warren
+   TARGET [diagnosis] The honest counter-read is Type 7
+   OTHER  [counter-typing] The through-line that survives every counter-read is the Achiever's
+
+score 0.067   Kiernan-Shipka  <->  vivek-ramaswamy
+   TARGET [diagnosis] Kiernan Shipka is an Enneagram Type 3
+   OTHER  [diagnosis] Vivek Ramaswamy is what happens when that wiring is paired with extraordinary native capacity.
+
+score 0.054   Kiernan-Shipka  <->  Paige-Spiranac
+   TARGET [counter-typing] and that her relationship to feelings is deferral ("stuff that I never would have even let myself feel before")
+   OTHER  [diagnosis] The 3w2 wing shows in her relationship to that audience.
+
+score 0.048   Kiernan-Shipka  <->  Hailee-Steinfeld
+   TARGET [diagnosis] and anyone who has heard her talk about restaurants for a full hour has felt it
+   OTHER  [diagnosis] made her take acting lessons for a full year before she was allowed to audition for anything.
+
+score 0.035   Kiernan-Shipka  <->  Paige-Spiranac
+   TARGET [diagnosis] I wanted to just get through the curriculum." As an adult she preps roles on the same doctrine
+   OTHER  [diagnosis] And I want to fit in." A Type 5 would have walked away from public life by 2017.
+
+score 0.032   Kiernan-Shipka  <->  amelia-dimoldenberg
+   TARGET [diagnosis] the fashion press gets the most art-directed version of her that exists.
+   OTHER  [diagnosis] The self becomes whatever version of you gets the applause.
+
+score 0.030   Kiernan-Shipka  <->  amelia-dimoldenberg
+   TARGET [diagnosis] " she told Caleb Hearon on So True in 2024.
+   OTHER  [diagnosis] " she told Louis Theroux on his podcast.
+
+score 0.024   Kiernan-Shipka  <->  Hailee-Steinfeld
+   TARGET [diagnosis] Threes sit in the Enneagram's heart triad while spending the least time of anyone inside their own feelings
+   OTHER  [diagnosis] the heart-triad type whose engine runs on a single early lesson
+
+score 0.023   Kiernan-Shipka  <->  Alex-Warren
+   TARGET [diagnosis] "I am kind of trying to untether from my own perfectionism
+   OTHER  [counter-typing] Warren keeps trying to convert it into reassurance and resolution.
+
+score 0.022   Kiernan-Shipka  <->  Olivia-Wilde
+   TARGET [diagnosis] " she said on Lipstick on the Rim in 2024
+   OTHER  [diagnosis] she said his process "was not conducive to the ethos that I demand in my productions
+
+score 0.021   Kiernan-Shipka  <->  teyana-taylor
+   TARGET [diagnosis] Shipka's version had a call sheet.
+   OTHER  [diagnosis] By 15 she had a credit on Beyoncé's "Ring the Alarm" video.
+
+score 0.021   Kiernan-Shipka  <->  teyana-taylor
+   TARGET [diagnosis] Shipka's version had a call sheet.
+   OTHER  [diagnosis] By 16 she had a record deal with Pharrell's Star Trak label.
+
+------------------------------------------------------------------------------
+Top pair scores 0.118 vs median 0  (~∞x the noise floor).
+[Stage 6.8] same_type_similarity finished (exit=1, 0s)
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:49:01)
+Command: /grade_blog kiernan-shipka
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/7_grade.log
+─────────────────────────────────────────────────────
+You've hit your session limit · resets 3:40am (America/New_York)
+[Stage 7] grade finished 02:52:06 (exit=1, 185s)
+
+[Stage 8] Skipped revision loop: no grade found (grade stage may have failed)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: kiernan-shipka
+Finished: Sat Jul 11 02:52:06 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '3'
+Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_020000_kiernan-shipka/summary.json
+═════════════════════════════════════════════════════
+[2026-07-11 02:52:06] [INFO] Pipeline exited code=0 after 52 min
+[2026-07-11 02:52:06] [WARN] Pipeline left STAGE_WARNINGS (a stage errored but the run continued): stage=6.8_same_type_similarity exit=1 dur=0s at=2026-07-11 02:49:01
+stage=7_grade exit=1 dur=185s at=2026-07-11 02:52:06
+[2026-07-11 02:52:06] [SUCCESS] Completed: Kiernan Shipka — grade ungraded (?)
+[2026-07-11 02:52:06] [INFO] NOTIFY: ✅ 9takes nightly blog: Kiernan Shipka (Type 3) — grade ungraded (?), disc ?, 52 min. needsReview=true
+[2026-07-11 02:52:07] [INFO] Nightly blog cron finished

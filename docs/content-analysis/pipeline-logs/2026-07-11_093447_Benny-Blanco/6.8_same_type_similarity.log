@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Benny-Blanco (Type 2)
+/Users/djwayne/9takes/src/blog/people/drafts/Benny-Blanco.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 45
+Comparison set (last 8 other Type-2 drafts by date):
+  - Madelaine-Petsch  (2026-07-09, 33 units)
+  - mother-teresa  (2026-06-22, 28 units)
+  - bill-clinton  (2026-04-20, 41 units)
+  - hilary-duff  (2026-04-12, 37 units)
+  - sky-bri  (2026-04-09, 24 units)
+  - khloe-kardashian  (2026-04-04, 31 units)
+  - hugh-jackman  (2026-04-01, 31 units)
+  - simon-sinek  (2026-03-28, 22 units)
+
+Noise floor over 11115 unit pairs:  median=0  p90=0  p99=0.005  max=0.13
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.130 #####                mother-teresa
+  0.058 ##                   hugh-jackman
+  0.057 ##                   khloe-kardashian
+  0.051 ##                   hilary-duff
+  0.037 #                    Madelaine-Petsch
+  0.035 #                    bill-clinton
+  0.031 #                    simon-sinek
+  0.013 #                    sky-bri
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.130   Benny-Blanco  <->  mother-teresa
+   TARGET [diagnosis] This is the engine of an Enneagram Type 2.
+   OTHER  [diagnosis] Mother Teresa was an Enneagram Type 2
+
+score 0.089   Benny-Blanco  <->  mother-teresa
+   TARGET [diagnosis] Benny walks toward the pain in the room
+   OTHER  [diagnosis] The pain in them is never I have failed to live up to a standard.
+
+score 0.073   Benny-Blanco  <->  mother-teresa
+   TARGET [counter-typing] The food gets cooked for other people
+   OTHER  [diagnosis] The Type 2 child learns early that love is something you make for other people
+
+score 0.058   Benny-Blanco  <->  hugh-jackman
+   TARGET [diagnosis] Benny walks toward the pain in the room
+   OTHER  [diagnosis] the warmest person in the room becomes volatile
+
+score 0.057   Benny-Blanco  <->  khloe-kardashian
+   TARGET [diagnosis] This is the engine of an Enneagram Type 2.
+   OTHER  [diagnosis] This is the Khloé who punched Lamar in the face when she found him smoking crack after his recovery.
+
+score 0.054   Benny-Blanco  <->  khloe-kardashian
+   TARGET [diagnosis] This is the engine of an Enneagram Type 2.
+   OTHER  [diagnosis] This is the Khloé who admitted she couldn't bond with her own son for months and didn't hide it. ---
+
+score 0.051   Benny-Blanco  <->  hilary-duff
+   TARGET [diagnosis] production is the one job in music where the deliverable is other people's best work.
+   OTHER  [diagnosis] When your entire life is spent reading other people's needs
+
+score 0.037   Benny-Blanco  <->  Madelaine-Petsch
+   TARGET [diagnosis] Benny scaled it into a production method
+   OTHER  [counter-typing] a production company) runs opposite to Six caution.
+
+score 0.035   Benny-Blanco  <->  bill-clinton
+   TARGET [diagnosis] Benny walks toward the pain in the room
+   OTHER  [diagnosis] they move toward the unhealthy patterns of Type 8.
+
+score 0.032   Benny-Blanco  <->  bill-clinton
+   TARGET [diagnosis] Most Twos run the pattern on a household.
+   OTHER  [diagnosis] hilarious on a late-night stage
+
+score 0.031   Benny-Blanco  <->  simon-sinek
+   TARGET [diagnosis] lives in the rabbit hole below.
+   OTHER  [diagnosis] The Marines embody the world he wants to live in
+
+score 0.030   Benny-Blanco  <->  mother-teresa
+   TARGET [diagnosis] "I feel so ugly that no one could ever love me." Blanco
+   OTHER  [diagnosis] took a private fourth vow that no one was asking her to take
+
+------------------------------------------------------------------------------
+Top pair scores 0.13 vs median 0  (~∞x the noise floor).

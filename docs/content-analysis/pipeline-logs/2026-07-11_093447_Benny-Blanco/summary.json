@@ -1,0 +1,15 @@
+{
+	"person": "Benny-Blanco",
+	"draft_path": "src/blog/people/drafts/Benny-Blanco.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-11_093447_Benny-Blanco",
+	"completed": true,
+	"halt_reason": null,
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": 8.7,
+	"final_overall": 8.7,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0,
+	"has_stage_warnings": false,
+	"generated_at": "2026-07-11T14:39:57.734Z"
+}

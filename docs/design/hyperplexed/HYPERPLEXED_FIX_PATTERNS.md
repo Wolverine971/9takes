@@ -66,6 +66,13 @@ product shells should start from a shared center container and the spacing scale
 Do not introduce a one-off `max-w-[1170px]`, `p-5`, `gap-7`, or bespoke side padding unless the
 audit documents why the surface needs a carve-out.
 
+The root layout defaults to the contained reading shell. A route that owns a broad marketing,
+index, or product canvas must opt into `pageShell: 'owned'` from its `+page` or `+layout` load,
+preferably through `withOwnedPageShell` in `src/lib/layout/pageShell.ts`. Keep route families on a
+parent layout where possible. Do not restore pathname allowlists in the root layout: they drift as
+new nested routes are added and make a page's effective width impossible to infer from its own
+route files.
+
 ---
 
 ## Hierarchy & Labels
@@ -224,6 +231,31 @@ Use `src/lib/components/atoms/Button.svelte`, `src/lib/components/atoms/Modal.sv
 `src/lib/components/blog/callouts/Callout.svelte` where they fit. If a control cannot use the primitive,
 it must still replicate the basics: clear label, keyboard operation, focus-visible ring, disabled/loading
 state, 44px-ish tap target where practical, and reduced-motion-safe transitions.
+
+Modal dialogs and modal navigation drawers must also provide the complete focus-boundary contract:
+
+- A descriptive accessible name through `name`/`aria-label` or `labelledBy`.
+- Initial focus inside the overlay, with an explicit selector when the first control is not the right target.
+- Tab and Shift+Tab wrapping within the active overlay.
+- An inert page background and a shared, reference-counted body scroll lock.
+- Escape-to-close where dismissal is allowed, plus focus restoration to the opener.
+- Inert, accessibility-hidden markup while a persistent portaled dialog is closed.
+
+Use `src/lib/utils/focusBoundary.ts` for shared focus discovery, trapping, background inerting, and focus
+restoration. Do not create another route-local focus-trap implementation.
+
+Public forms must also preserve their meaning when placeholder text disappears and when a toast times
+out:
+
+- Keep a persistent, visible `<label>` associated through `for`/`id`; placeholders are examples only.
+- Give help, counters, and errors stable IDs, then connect the relevant control with
+  `aria-describedby` and `aria-invalid`.
+- Keep validation and API failures in the form as durable `role="alert"` content. A toast may repeat
+  the message, but it cannot be the only error channel.
+- Use theme-aware text roles (`--success-text`, `--warning-text`, `--error-text`, `--info-text`) for
+  status copy. Reserve raw status/type hues for borders, fills, stripes, and data marks.
+- Filled destructive controls must pair `--danger-surface` with `--text-on-danger`; do not assume
+  white text is readable on every danger surface or theme.
 
 Do not edit canonical primitives during an audit unless DJ explicitly approves changing the system itself.
 

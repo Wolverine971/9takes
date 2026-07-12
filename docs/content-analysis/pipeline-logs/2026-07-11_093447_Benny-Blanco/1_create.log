@@ -1,0 +1,18 @@
+Draft complete. Benny Blanco is typed as an **Enneagram Type 2 (2w3, "The Host")**, and every gate passed on the deterministic checks.
+
+**The piece in brief:** The core tension is *indispensable to everyone vs. convinced he's "the worst guy in every room."* The thesis: the goofball persona is the craft — he industrialized being needed, and the comfort he manufactures for superstars is the substance he never believed he deserved. The diagnostic centerpiece is the Stern exchange (Stern, role-playing an artist: "I feel so ugly no one could ever love me." Benny, instantly: "I'd say, 'Me, too.'"), and the signature detail is his childhood OCD ritual: a sound he had to make or he believed his parents would die. The caretaking predates the music. The ending runs the thread forward to the daily 6 a.m. breakfast he cooks Selena and his own question, "When's it going to get bad?"
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Benny-Blanco.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (7 qualifying testimony quotes: Halsey, Janick, Julia Michaels, Selena Gomez x2, DeVille, Petridis) | Gate 2: pass (6 of 8 H2s search-intent/hybrid) | Gate 4: pass (0 "A [Type]" ending sentences, no reference-library cadence) | Gate 5: pass (0 type-theory paragraphs outside diagnosis + Rabbit Hole) | Gate 6: pass (0 strong contrast pairs; similarity scan clear after counterarguments rewrite; bespoke "house menu" course-format section; critic anchors DeVille/Petridis; empathy turn on the slob-persona mockery in his own wound-vocabulary; interior beat = dead-dog selfie inner-thought; current anchors through Sept 2026)
+LIMITATIONS: Zane Lowe 2021 transcript unavailable (subtitles disabled; worked from Therapuss 2025, Stern 2024, Behind the Wall 2025 + web research) | ADHD omitted (thinly quoted first-person) | dropped as unverified: towels-under-door, mustard, "naked album covers" | lint warns: faqs frontmatter not enriched (downstream stage), 1 comparative contrast inside a direct quote (exempt)
+```
+
+**Deterministic checks:** `blog-lint.sh` 0 fail / 2 warn; `blog-quality-report` head-term PASS, answer-block 49 words, contrast pairs 0 strong; `same-type-similarity --n 8` clear (the initial 0.423 trip against Madelaine-Petsch was fixed by restructuring the counterarguments phrasing); Type 2 avoid-list tics: none.
+
+**Internal links (5):** Enneagram Type 2 explainer, Ed Sheeran and Selena Gomez profiles, the 9takes corpus-stats page (citing that only 4 of 68 profiled musicians type as Twos), plus wings + instinctual-subtypes pillar links inside the Rabbit Hole.
+
+Grading is owned by `/grade_blog` (not run here), and human review is required before any promotion to `ready`. Three fetched transcripts were saved to `youtube-transcripts/benny-blanco-*.md` for reuse.

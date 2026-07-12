@@ -1,0 +1,26 @@
+Draft complete and saved. One thing you should know first: **the research surfaced that Antonoff and Margaret Qualley separated on July 8, 2026** (People, three days ago), mid-way through a press cycle built on marriage-as-salvation quotes. The draft handles the marriage as past-tense and unresolved, with no speculation, and notes his lifelong pattern of never litigating breakups publicly (the Lena Dunham precedent). Worth a re-verify before this ever publishes.
+
+**The blog:** Jack Antonoff as Enneagram Type 6 (6w7, sp/so). Core tension: "get in the van" vs. "keep it tight" — he broke his family's survival pact by touring at 15, then rebuilt the pact portable everywhere he went. The hook is the verified 2017 story of him physically extracting his childhood bedroom from his parents' house and touring it in a trailer. The bespoke section is a room-by-room "floor plan of his safe rooms" (bedroom → van → Electric Lady → trailer → stage replica → the Long Beach Island house three blocks from his childhood beach house). Built from three full transcripts I pulled (Zane Lowe 2026, CBS 2024, Apple Music/Electric Lady 2024) plus a deep research packet.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Jack-Antonoff.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony): PASS — 10 qualifying named quotes (Swift ×2, Lorde, Lana, St. Vincent, his father, Rylander, 3 named critics)
+       Gate 2 (heading mix): PASS — 6 of 8 H2s search-intent/hybrid
+       Gate 3 (self-loop): PASS — lint-verified
+       Gate 4 (anti-imitation): PASS — zero "A [Type]..." sentences in the ending; scene-based hook
+       Gate 5 (distribution): PASS — 0 type-theory paragraphs outside diagnosis/Rabbit Hole
+       Gate 6 (formula fingerprint): PASS — 0 contrast pairs, similarity scan clear (max 0.038), bespoke form, critic anchor, empathy turn, current anchor, swap-test ending
+LIMITATIONS: Qualley separation is 3 days old — re-verify status at publish time; Grammy three-peat framed
+       conservatively ("a run only Babyface had matched") because outlets conflict on "first ever";
+       bedroom-departure age conflicts across sources (27 vs 29) — the draft uses the discrepancy itself
+       as a tell rather than picking a number.
+```
+
+Deterministic checks: `blog-lint.sh` 0 fail / 1 warn (missing `faqs` frontmatter — that belongs to the enrich stage), `blog-quality-report` 0 contrast pairs + head-term pass, `same-type-similarity` clear against the last 8 Type 6 drafts (deliberately divergent from yesterday's Kaia Gerber Type 6 frame).
+
+Internal links added (5 total): Taylor Swift and Lana Del Rey → their `/personality-analysis/` pages, Type 6 → `/enneagram-corner/enneagram-type-6`, plus wings and instinctual-subtypes guides inside the Rabbit Hole. Transcripts saved to `youtube-transcripts/` for reuse.
+
+Per non-interactive rules the draft stays at `status: draft` — next steps when you're ready are `/grade_blog` and, after your review, `blog_content_production_people`.

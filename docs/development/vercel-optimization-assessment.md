@@ -35,6 +35,10 @@ Remaining opportunity: skip the hook entirely for paths that don't need user con
 
 Two queries per request: `admin_settings` lookup and (for logged-in users) `profiles` + an RPC. The `admin_settings` demo flag should be cached in module memory with a short TTL (60s), not refetched per request.
 
+**Update 2026-07-09:** the root layout no longer reads `admin_settings` at all. The cached demo flag
+now loads only from `/questions`, `/account`, `/users`, and `/admin` route-family layouts that
+actually consume it. Anonymous editorial requests cannot inherit the old 1.2-second timeout.
+
 ### 4. Content-access guard hits Supabase RPC on every protected page request
 
 `record_content_access_event` runs synchronously in the request path via `recordSharedContentAccessEvent`. For human traffic this is wasted DB load.
@@ -87,14 +91,18 @@ Start with the low-risk wins that trim every request, then tackle the higher-imp
 
 ### Phase 3 — ISR / prerender proof-of-concept
 
-- [ ] Pick one blog route (`pop-culture/[slug]` recommended) and convert to ISR.
-- [ ] Move the give-first gate to a client-side fetch against a new `/api/has-commented` endpoint.
-- [ ] Verify crawler traffic + logged-in users behave correctly.
+- [x] Edge-cache the static Markdown article families with a five-minute SWR policy.
+- [x] Move authenticated header/mobile-nav/signup state behind the private `/api/auth-shell` endpoint.
+- [x] Verify normal visitors, named crawlers, unknown crawlers, and the personalized exception.
+- [ ] Move the personality-analysis give-first gate to a client-side endpoint before making those
+      database-driven pages public. They intentionally remain `private, no-store` today.
 
 ### Phase 4 — Roll out ISR to remaining routes
 
-- [ ] `enneagram-corner/[slug]`
-- [ ] `community/[slug]`
+- [x] `enneagram-corner/[slug]` plus mental-health and subtopic leaves
+- [x] `community/[slug]`
+- [x] `how-to-guides/[slug]`
+- [x] `pop-culture/[slug]`
 - [ ] `personality-analysis/[slug]` (careful: DB-driven content, needs revalidation after `/admin/content-board` edits)
 
 ### Phase 5 — Per-route tuning
