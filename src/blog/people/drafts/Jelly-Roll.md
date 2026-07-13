@@ -13,7 +13,7 @@ published: true
 enneagram: 9
 type: ['musician', 'singer-songwriter']
 person: 'jelly-roll'
-suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle']
+suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle', 'Ella-Langley']
 wikipedia: 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
 wikidata_qid: 'Q6176881'
 imdb_id: 'nm2000227'

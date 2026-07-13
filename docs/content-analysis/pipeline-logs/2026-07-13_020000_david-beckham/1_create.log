@@ -1,0 +1,31 @@
+The David Beckham draft is complete and clears every hard gate. Here's the required non-interactive completion report:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/David-Beckham.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass
+LIMITATIONS: some quotes drawn from YouTube auto-subs (Stick to Football, 2023) treated as approximate; verbatim wording relies on published-article sourcing where available (logged in working notes)
+```
+
+## What was built
+
+**Type call:** Enneagram **Type 3** (Achiever), self-preservation dominant, wing **3w2** — high confidence, named tiebreaker present.
+
+**Thesis:** The world sees an effortless golden boy handed everything. Understand Type 3 and the real driver is that Beckham *built* every inch of it and can't stop building, because a whole nation once showed him how fast love turns to hate. The private 2am OCD (candles, symmetrical fridge) is the same engine as the free kick, the brand, and the redemption arc.
+
+**Gate evidence:**
+- **Gate 1 (Testimony):** 6 qualifying third-party quotes — Ferguson, Gary Neville ×2, Roy Keane, Victoria ×2.
+- **Gate 2 (Heading mix):** 6 of 7 H2s are search-intent/hybrid.
+- **Gate 4 (Anti-imitation):** ending is a candles callback, no "A [Type]" anaphora.
+- **Gate 5 (Distribution):** 1 type-theory paragraph outside diagnosis + Rabbit Hole (≤4).
+- **Gate 6 (Formula fingerprint):** `blog-quality-report` → **0 strong contrast pairs**; `same-type-similarity` → **CLEAR** (reworked the diagnosis line that mirrored Hailee-Steinfeld 0.184 → clear); bespoke villain-to-knight **timeline**; critic anchor = Qatar 2022 backlash; empathy turn built from his own wound-vocabulary (spat at, "I don't know how I functioned"); current anchors = Messi/Miami 2023, knighthood 2025; interior beat = late-night cleaning; ending passes swap test.
+
+**Also verified:** `blog-lint` → 0 fail; no prose em-dashes; no banned AI phrases; no self-loop links; frontmatter parses via gray-matter; `production_pretext.status: draft` (never auto-promoted).
+
+**Internal links (5):** Cristiano Ronaldo, Lionel Messi, Enneagram Type 3, plus wings and instinctual-subtypes inside the Rabbit Hole.
+
+Transcripts saved to `youtube-transcripts/` for provenance. Two lint **warns** remain (both expected, non-blocking): no `faqs` in frontmatter (the frontmatter-enrich stage runs downstream) and 5 natural comparative "more X than Y" phrases (WARN, not a gate).
+
+Next step per the workflow: human review, then set `production_pretext.status: ready` and hand off to `blog_content_production_people`. Grading is owned separately by `/grade_blog` (not run here).

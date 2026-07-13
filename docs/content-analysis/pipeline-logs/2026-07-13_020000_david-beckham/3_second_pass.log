@@ -1,0 +1,25 @@
+Second pass complete on **`src/blog/people/drafts/David-Beckham.md`**.
+
+## What I changed
+
+**Source traceability (the first-order fix).** The audit opened with 2 untagged load-bearing quotes (including the epigraph, which was blocking A/B+) plus 1 vague. All three are now **inline**:
+- Epigraph OCD quote → **ITV, 2006**
+- Ferguson diagnosis quote → **Managing My Life, 1999** (his autobiography)
+- Neville tiebreaker → **Stick to Football, 2023**
+- Also tagged the Keane and Neville-jeans quotes; all four podcast lines verified against the local transcript in the repo.
+
+**The Brooklyn estrangement (the fatal miss).** The fresh-eyes note was right and it went straight at the thesis. I folded the Jan 2026 fracture into the marriage section exactly where "family is the point" used to resolve warmly, using the draft's own line — *"A Three builds a trophy and then needs the trophy to be true"* — as the pivot. Brooklyn's "family brand ahead of the family" charge is held as live, unresolved tension; no clean redemption arc invented. The ending now echoes it (*"a grown son can walk out of the frame and refuse to be arranged"*) while keeping **"Himself"** as the close.
+
+**Flying boot (Feb 2003).** Added the Ferguson-boot → Alice-band stitches reveal to "brand out of a haircut" as Type-3 image management (a private wound turned into a controlled photo), bridging into the Real Madrid sale. The timeline's "2003 exile" entry now names the boot as the cause.
+
+**Smaller lifts.** Victoria added as co-architect (1999 wedding as brand merger). England captaincy added to the redemption timeline (2000 armband: villain → captain). Trimmed the candle motif's one over-fire (dropped the fridge line from the 2am inner-thought so Victoria's fridge quote carries it alone). Cut the unexplained "agent he was told not to hire."
+
+## Post-pass status
+- **Source audit: 3 inline / 0 vague / 0 untagged** (was 0/1/2)
+- **Lint: 0 fail, 2 warn** — no faqs frontmatter (enrich stage hasn't run) and 5 comparative patterns (WARN, natural prose; strong contrast pairs = 0, the actual gate)
+
+## Still open for an editor
+- The **2006 captaincy drop** (McClaren) is a real rejection-rebuild beat I left out of the timeline to avoid bloat — worth a downward step before the knighthood if an editor wants it.
+- Frontmatter enrich (`faqs`) hasn't been run yet — discoverability cost only, not a blocker.
+
+The draft stays `published: false` and I did not touch `lastmod`.

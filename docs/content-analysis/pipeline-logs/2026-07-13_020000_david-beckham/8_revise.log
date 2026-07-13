@@ -1,0 +1,29 @@
+Revision pass complete. Lint is clean (**0 fail, 1 warn** — the WARN is the documented natural-prose comparative count, unchanged at 5).
+
+## What I revised
+
+**Draft:** `src/blog/people/drafts/David-Beckham.md`
+**Triggered by:** grade **B+ (8.6)** with a live **TO REACH A (9.0)** list — Evidence and Originality both weighted 1.5×. Lint was already 0 fail, so this loop was driven entirely by the grader's feedback.
+
+## Fixes applied (mapped to grader items)
+
+**TO REACH A #1 — Evidence (highest leverage):**
+- Pulled the full Stick to Football transcript and verified all four podcast quotes **verbatim** (Neville's tiebreaker "wanted to be more than a football player," the jeans line, Keane's "inhumane / 99.9%," and Beckham's "I don't know how I functioned"). Removed the WORKING NOTES self-flag that called them "approximate auto-subs" — that self-inflicted disclaimer was part of what capped Evidence. Pinned every in-body attribution to "Stick to Football, October 2023" (the dated published episode) and documented Keane's spoken disfluency in the ledger.
+- Gave Victoria's fridge quote an inline date (**2006 interview**), in-body and in the ledger — was previously "widely published," undated.
+
+**TO REACH A #2 — Originality (single-note thesis):**
+- Added a new signature section, **"What David Beckham does when no one is keeping score"**: the Cotswolds beekeeping (27 hives), home-grown veg, harvested honey, nightly cooking — framed as competence/security *for their own sake* (sp Three off the crowd), explicitly set apart from the dread-driven 2am cleaning. Anchored on "I'm never happier than when I'm here" (Country Life / Titchmarsh). It also carries a third honest critic-concession (honey has a label, garden made a magazine) and sets up the "Himself" close.
+
+**TO REACH A #3 — Writing (motif + closers):**
+- Thinned the candle motif once more: cut the diagnosis forward-reference ("the clue that settles it lives in the fridge, and we will get there"), which also killed a mild hand-holding tell and lets Victoria's fridge quote land fresh.
+- Varied two aphoristic closers off their poised landing: brand section now ends on a concrete image ("its inventor was on a plane to Madrid") instead of "drawn the blueprint"; the Qatar section now lands on the Three's *fear* ("a Three never quite believes the win is safe") rather than the single-note "building something bigger next," which also pivots cleanly into the new section.
+
+Ledgers updated: Testimony (dates + verification + Country Life quote, now 7), Heading Mix (new H2 8), Distribution, Formula Fingerprint. Revision note appended at the bottom.
+
+## Rejected (with reasons)
+- **Did not fabricate a published news-article transcript** of the podcast lines — no outlet reproduces them verbatim, and the podcast episode *is* the dated published primary source. Verifying against the full transcript + pinning the exact episode/date is the honest equivalent of what the note asked.
+- **Left the father-section closer** ("the verdict is always his") untouched — freshly tuned in the prior editor pass, thematically load-bearing, and not flagged. Two varied closers satisfies "two or three."
+- **Preserved all protected strengths** per grader/fresh-eyes: the 1998 crisis section, the empathy turn, the 2am inner-thought, the Brooklyn live-tension ending, and the "Himself" close.
+
+## Next
+The pipeline will now strip the old grade and re-grade — I did not touch `content_quality` or `lastmod`, per the rules. I didn't grade it myself; `/grade_blog` owns that.

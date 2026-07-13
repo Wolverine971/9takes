@@ -1,0 +1,38 @@
+David-Beckham passes every editorial gate — it's blocked **only** on the two missing image files. Per this command's scope (it does not own image generation), I'll stop and report rather than bypass the gate.
+
+```text
+Published people blog.
+
+Person: (none — no eligible draft)
+Result: BLOCKED — no draft is currently publishable.
+```
+
+## What auto-select found
+
+The publish script checked **473 candidates** and found **zero** publishable. The real unpublished candidates are the four fresh drafts in your working tree. Here's where each stands:
+
+| Draft | Grade | Blockers |
+|---|---|---|
+| **David-Beckham** ⭐ | B+ 8.6 (v2, stable, disc 9) | `missing_full_image`, `missing_thumbnail_image` — **only images** |
+| Morgan-Wallen | stale v1 | `stale_grade_rubric_v1` (re-run /grade_blog), `missing_grade_stability_delta`, `source_standard_failed` (untagged epigraph/cold-open) |
+| Jelly-Roll | stale v1 | same three as Morgan-Wallen |
+| N3on | ungraded | `missing_content_quality`, `missing_full_image`, `missing_thumbnail_image` |
+
+## The one that's genuinely close: David-Beckham
+
+Everything editorial passes — `overall: 8.6`, `rubric_version: 2`, `discoverability: 9`, `caps_applied: []`, `needs_review: false`, `grade_stability_delta: 0.0`, and the source audit did **not** trip. The **only** thing standing between it and publish is two missing personality image files:
+
+- `static/types/3s/David-Beckham.webp` (full)
+- `static/types/3s/s-David-Beckham.webp` (thumbnail)
+
+Type 3, `static/types/3s/` exists but has no Beckham files.
+
+**This command does not own image generation, so I stopped here rather than bypassing the gate.**
+
+## Your call
+
+1. **Generate David-Beckham's images**, then re-run this command — it will publish cleanly. (Image gen is out of this command's scope; say the word and I'll run the blog-image pipeline for it.)
+2. **Morgan-Wallen / Jelly-Roll** each need a `/grade_blog` re-run (v1→v2) plus tagging the untagged epigraph/cold-open quote before they're eligible.
+3. **N3on** needs grading and images — furthest from ready.
+
+Want me to generate David-Beckham's two image files so it can ship?

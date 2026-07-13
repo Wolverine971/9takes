@@ -157,6 +157,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'cleopatra', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['historical'] },
 		{ name: 'corina-conf', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'dalton-cadwell', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['techie'] },
+		{ name: 'david-beckham', link: false, hasImage: false, lastmod: '2026-07-13', personaTitle: 'Football\'s Self-Made Idol', contentGrade: 8.6, types: ['celebrity', 'entrepreneur'] },
 		{ name: 'gal-gadot', link: false, hasImage: false, lastmod: '2026-05-08', personaTitle: 'Hollywood\'s Drill-Trained Wonder', contentGrade: null, types: ['movieStar', 'screen-icon'] },
 		{ name: 'halle-berry', link: false, hasImage: false, lastmod: '2026-05-10', personaTitle: 'Hollywood\'s Relentless Vessel', contentGrade: 9.1, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'jackson-wang', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] },
@@ -166,6 +167,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'kiernan-shipka', link: false, hasImage: false, lastmod: '2026-07-11', personaTitle: 'Hollywood\'s Youngest Adult', contentGrade: null, types: ['newMovieStar', 'celebrity'] },
 		{ name: 'marie-kondo', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['lifestyleInfluencer'] },
 		{ name: 'michael-le', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
+		{ name: 'n3on', link: false, hasImage: false, lastmod: '2026-07-13', personaTitle: 'Streaming\'s Manufactured Star', contentGrade: null, types: ['creator', 'streamer'] },
 		{ name: 'patrick-starr', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
 		{ name: 'pelosi-schumer-dynamic', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'pete-buttigieg', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
@@ -173,7 +175,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'riyaz-aly', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'ted-bundy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'tyga', link: false, hasImage: false, lastmod: '2026-04-18', personaTitle: 'Rap\'s Pharaoh Who Crowned Himself', contentGrade: 9.1, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
-		{ name: 'whitney-wolfe-herd', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Dating\'s Relentless Architect', contentGrade: 9.1, types: ['entrepreneur', 'techie', 'business-operator'] }
+		{ name: 'whitney-wolfe-herd', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Dating\'s Relentless Architect', contentGrade: 9.1, types: ['entrepreneur', 'techie', 'business-operator'] },
+		{ name: 'xochitl-gomez', link: false, hasImage: false, lastmod: '2026-07-12', personaTitle: 'Hollywood\'s Rehearsed Sunshine', contentGrade: 8.4, types: ['newMovieStar', 'rising-star'] }
 	],
 	4: [
 		{ name: 'adele', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Music\'s Rawest Nerve', contentGrade: 8.7, types: ['musician'] },

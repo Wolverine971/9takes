@@ -1,0 +1,28 @@
+[2026-07-13 06:03:55] Starting weekly marketing brief
+Weekly marketing brief complete. Both artifacts written and the marketing log appended (newest-on-top, no prior history touched, no drafts/`published:` flags/git modified).
+
+**Files:**
+- `docs/daily-briefs/2026-07-13_marketing-status.md` ✅
+- `docs/marketing/marketing-log.md` (appended) ✅
+
+Growth freshness gate **passed** — the audit ran today (2026-07-13), so growth numbers were folded verbatim rather than re-derived.
+
+---
+
+## TL;DR — 2026-07-13 Marketing Status
+
+- **Growth data is FRESH (audit ran today).** Headline, verbatim: *"the traffic surge made the activation leak more expensive. The now-complete week of 2026-07-06 drew 5,357 new visitors — the highest week in the 8-week window (+48% WoW) — almost entirely onto personality-analysis, and converted it to 0 signups, 0 comments, 1 profile, 0 waitlist, 0/6 wall conversion."* The single biggest attention week in the window produced essentially nothing.
+
+- **The bottleneck flipped: create is fixed, PUBLISH is now jammed.** Last week's `oliver-tree` API failures are gone — the nightly cron shipped clean drafts (David Beckham, Type 3, grade 8.6 B+, 69 min; N3on, Type 3) on 07-13. But `publish-people` shipped **0 posts on 07-10, 07-11, and 07-12** — every unpublished draft is rejected by the gate on missing grade-stability deltas, missing manual Canva images, or grades 0.1 under 8.5. The engine writes daily and ships nothing.
+
+- **Instagram is fully dark — 7 of the last 7 mornings blocked** (07-06 → 07-12, all `instagram_account_not_in_picker`). Regression from "5 of 7" last brief. @9takesdotcom is evicted from the shared Chrome profile; only DJ can re-login.
+
+- **Quora is ~55 days dark** (last activity 2026-05-19). Distribution: 9 packets still queued, none fired. Both unchanged.
+
+- **SEO infra is current, and GSC refreshed.** corpus-stats + crosslink index regenerated 07-12; GSC `latest.json` is now runDate 2026-07-06 (90-day window ending 07-04) — fresher than the 06-11 export flagged last brief.
+
+- **New front-of-funnel scout landed 07-13.** Top new pick: **Michael Truell** (Cursor/Anysphere CEO, SpaceX's $60B acquisition) — highest-ROI create target; backlog queue was down to 1 entry at scan time, so there's room to feed it.
+
+**The one thing to surface to DJ:** the publish valve is closed on a full tank. Create is healthy and personality-analysis just took its biggest traffic week ever, but nothing has cleared the publish gate in 3+ days — and the unblocks are small and known (supervised regrades on `hailee-steinfeld`/`Kaia-Gerber`, manual images for `oliver-tree`/`julia-fox`). That, plus the IG re-login, are the two lowest-effort/highest-leverage moves waiting on him.
+[2026-07-13 06:09:10] claude exited 0
+[2026-07-13 06:09:10] Weekly marketing brief OK: /Users/djwayne/9takes/docs/daily-briefs/2026-07-13_marketing-status.md

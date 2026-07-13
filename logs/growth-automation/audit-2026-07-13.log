@@ -1,0 +1,17 @@
+[2026-07-13 06:00:00] Starting weekly growth audit
+The growth log was updated successfully. The dated entry `### 2026-07-13` is at the top of the Experiment Log with prior history intact (the `### 2026-07-06` entry follows below it). No commits or changes outside `docs/growth/`.
+
+## Weekly Growth Audit — 2026-07-13
+
+**Biggest growth leak this week:** The traffic surge made the activation leak more expensive. The now-complete week of **2026-07-06 drew 5,357 new visitors — the highest week in the 8-week window (+48% WoW)** — almost entirely onto personality-analysis, and converted it to **0 signups, 0 comments, 1 profile, 0 waitlist, 0/6 wall conversion.** The extra ~1,700 visitors were 38% shallower (PA dwell fell to **11.7s, an 8-week low**, from 18.8s) at 99% bounce. Same "no conversion path exists on the pages people actually read" leak, now amplified by more wasted organic attention. Give-first is still half-blind (`give_first_funnel_events` has only `gate_shown`, no native contribution event) and the Chorus reveal is still dead (`nine_user_takes` = 1 row ever, from 2026-06-15 — likely a silent bug). No new signup in 2 weeks; email still starved at 2 sends/week.
+
+*One small positive:* the first new profile in weeks registered ~07-09 and enrolled in `welcome_sequence` (1 active enrollment) — first welcome fuel since mid-June.
+
+**Recommended bets (ranked):**
+1. **Above-fold, page-matched, one-field capture on personality-analysis — ship now.** It just took 3,575 fps/week at 11.7s dwell; the CTA must fire before the ~12-second cliff instead of sitting below the fold. Target ≥1% session capture (~36/week vs ~0); guardrail: bounce not worse by >3 pts. Highest EV given the surge.
+2. **Ship native submit-side give-first instrumentation + smoke-test `/api/nine/mirror`.** 1 Chorus take in ~4 weeks on a 13k-fp surface reads as a bug, not disuse. Target: a native `gate_shown → contributed` funnel for ≥1 fingerprint within 7 days, plus confirmation Chorus works.
+3. **Post-comment email capture (Experiment A) — hold behind #1.** Right retention loop, but starved (0 comments this week); revive once contribution volume is non-zero.
+
+*Explicitly not recommended:* paid acquisition (loop unreadable) and any questions-surface A/B test (99 fps/week too low-traffic).
+[2026-07-13 06:03:55] claude exited 0
+[2026-07-13 06:03:55] Weekly growth audit OK: Weekly growth audit: biggest visitor week in the window, converted to ~nothing

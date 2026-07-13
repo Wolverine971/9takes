@@ -8,6 +8,48 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-07-13 - Weekly growth audit: biggest visitor week in the window, converted to ~nothing
+
+- Area: Activation / give-first / signup capture / email / coaching
+- Status: audit complete. Live DB numbers. 2026-07-13 is Monday WTD and immature (ignore its 334-visitor row). The story is the now-complete 2026-07-06 week.
+- Observed numbers (last 8 weeks; recent cohorts shown):
+
+| Cohort wk  | New visitors | Signups (act/uns) | Profiles | Comments | Gate fps -> comment | Contributor D7 | Waitlist | Email sends/open/click | PA dwell (s) |
+| ---------- | -----------: | ----------------: | -------: | -------: | ------------------: | -------------: | -------: | ---------------------: | -----------: |
+| 2026-07-06 |    **5,357** |           0 (0/0) |        1 |        0 |         6 -> 0 = 0% |              - |        0 |              2 / 1 / 0 |     **11.7** |
+| 2026-06-29 |        3,613 |           1 (1/0) |        0 |        2 |       10 -> 2 = 20% |     0 / 2 = 0% |        0 |              2 / 0 / 0 |         18.8 |
+| 2026-06-22 |        2,591 |           1 (1/0) |        0 |        1 |       10 -> 1 = 10% |     0 / 1 = 0% |        0 |              2 / 1 / 0 |         17.5 |
+| 2026-06-15 |        3,597 |        83 (10/73) |        0 |        5 |     30 -> 4 = 13.3% |    1 / 4 = 25% |        0 |          228 / 28 / 14 |         15.1 |
+
+- Direction changes vs 2026-07-06 audit:
+  - **Traffic SURGED, then leaked.** 2026-07-06 finished at 5,357 new visitors — the highest week in the 8-week window, +48% vs 06-29's 3,613 (prior audit only saw the immature 634 WTD). It produced 0 signups, 1 profile, 0 comments, 0 waitlist, and 0/6 wall conversion. The single biggest attention week converted to essentially nothing.
+  - **The surge was shallower.** personality-analysis took 3,575 fps (up from 2,281) but avg engaged dwell fell to **11.7s — the 8-week low**, down from 18.8s; scroll 5.5 vs 8.2; 99.0% one-page bounce. Top pages were a long tail (cristiano-ronaldo 55 fps/32s, ariana-grande 53/1.3s, ishowspeed 50/14s, ryan-gosling 41/32s, lionel-messi 29/70s) mixed with near-zero-dwell hub/category rows (music 0.0s, creator-media 0.1s). Real search reads plus likely shallow/bot inflation. (inferred caveat: part of the +1,700 WoW is low-intent.)
+  - **One small forward motion:** the first new profile in weeks registered ~07-09 and enrolled in `welcome_sequence` (now 24 enrollments, **1 active**, last enroll 2026-07-09) — first welcome fuel since mid-June. One profile is not a trend.
+  - **Signup volume still zero for 2 weeks.** No new signup since 2026-06-29; honeypot blocks rose 11 -> 17, successes still 2. Hardening holding; capture starved.
+  - **Give-first still half-blind; Chorus still dead.** `nine_user_takes` = 1 row ever (2026-06-15). `give_first_funnel_events` still only `gate_shown` (122 events / 58 fps, last 2026-07-11); no native `contribution` event shipped. Wall conversion remains fingerprint-inferred.
+  - **Reactivation sequences exist but are not running.** `reactivation_cold/dormant/zombies` are all `draft`, 0 enrollments. Only `welcome_sequence` is active. Email still starved: 2 sends/wk for 3 straight weeks, 1 open, 0 clicks; the 228-send 06-15 week remains the historical outlier.
+
+- **Biggest leak this week: the surge made the activation leak more expensive.** 9takes pulled its largest visitor week in the window (5,357) onto its highest-traffic surface and converted it to 0 signups, 0 comments, 1 profile. The extra ~1,700 visitors vs the prior week were 38% shallower on dwell and produced no reachable identity. Same "the conversion path doesn't exist on the pages people read" leak — now amplified by more wasted attention.
+
+- Recommended bets (ranked):
+  1. **Ship an above-fold, page-matched, one-field capture on personality-analysis NOW.** We believe a first-viewport email/reveal hook on person pages will lift visitor -> reachable user because that surface just took 3,575 fps/wk at only 11.7s dwell — the CTA must fire before the 12-second cliff, and today it sits far below the fold. Success = >=1% of PA sessions capture email or trigger reveal within 30 days (~36/wk vs ~0); guardrail = bounce does not worsen by >3 pts. Highest EV given the surge.
+  2. **Ship native submit-side give-first instrumentation + smoke-test Chorus.** We believe emitting `contribution`/`reveal_shown` keyed to fingerprint will make activation readable, and that 1 Chorus take in ~4 weeks on a 13k-fp surface is a likely silent bug, not just disuse. Success = a native gate_shown -> contributed funnel exists for >=1 fp within 7 days AND `/api/nine/mirror` confirmed working.
+  3. **Post-comment email capture (Experiment A), deprioritized.** Still the right retention-identity loop, but starved: 0 comments this week. Hold behind #1 until contribution volume is non-zero.
+
+- Running experiment status:
+  - `welcome_sequence`: still `running`, first fuel in weeks (1 active enrollment, enrolled 2026-07-09). No open/click signal yet; too early to call.
+  - Reactivation sequences: authored but `draft`/0 enrollments — NOT running.
+  - Experiment A: still planned/unshipped; submit-side instrumentation remains the prerequisite.
+  - Signup hardening: quality positive (7/7 post-06-20 active, 17 honeypot blocks), volume negative (0 signups in 2 weeks).
+
+- Repro SQL used this audit:
+  - New visitors: first-touch CTE on `page_analytics_visits.fingerprint`, grouped by `date_trunc('week', min(started_at))`.
+  - Core counts: weekly `signups` (active/unsub), `profiles`, `comments`, `coaching_waitlist`.
+  - Wall conversion: `give_first_funnel_events.event_type='gate_shown'` fps joined to same-fingerprint `comments` within 7 days; contributor D7 = second comment within 7 days of first per `coalesce(author_id, fingerprint)`.
+  - Surge characterization: weekly `page_analytics_visits` bucketed by path into surfaces with avg `engaged_ms`/`max_scroll_pct`; top `content_slug` and `referrer_host` for 2026-07-06..07-13; `page_analytics_sessions` bounce by entry.
+  - Email: `email_sequences` status/enrollments, weekly `email_sends` joined to `email_tracking_events` open/click.
+  - Running checks: `nine_user_takes`, `give_first_funnel_events` distribution, `newsletter_signup_security_events`.
+
 ### 2026-07-06 - Weekly growth audit: gate conversion ticked up, but activation still has no fuel
 
 - Area: Activation / give-first instrumentation / signup quality / email / coaching

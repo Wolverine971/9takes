@@ -1,0 +1,17 @@
+## Polished: `src/blog/people/drafts/David-Beckham.md`
+
+**What I found:** This draft was already unusually clean going in — it had been through both a fresh-eyes and a second-pass. The mechanical scans came back empty for banned words, dangling `-ing` depth-fakers, filler openers, essay conjunctions, and prose em-dashes (every `—` is a quote-attribution line, the allowed exception). So this was a genuine light-touch pass, not a rescue.
+
+**What I cleaned up:**
+- **The one AI tell in the prose** — negative parallelism at the fridge beat: *"The order is not a party trick. It is the one arena where the verdict is always his."* → *"Outsiders file it under celebrity quirk. It is the one arena where the verdict is always his."* Keeps the two-beat rhythm and the payoff, drops the "not X, it is Y" pattern.
+- **A word-repetition wobble** — *"People who meet him... fools people..."* → *"Everyone who meets him... fools people..."*
+
+**What I deliberately protected** (per the emotional-layer rule): the 1998 crisis section with Keane's "inhumane" and "I don't know how I functioned," the 2am inner-thought paragraph, the walking-billboard-as-insurance empathy turn, both Qatar concessions, and the live Brooklyn-estrangement tension that keeps the ending honest. I did not touch the opening anaphora triplet — it's a single deliberate hook device, not a structural symmetry problem, and breaking it would flatten the lede.
+
+**Final contrast-pair count:** `0 strong / 5 comparative`. All five comparatives are natural "more X than Y" prose (e.g. *"more icon than all-time great"*, *"loved, then hated, then loved again by more people than almost anyone alive"*) — WARN, not gate.
+
+**Exit checks:**
+- `blog-lint.sh` (target 0): **0 fail**, em-dash check PASS, strong contrast = 0, no banned phrases. 2 WARNs are expected/non-blocking (no `faqs` frontmatter yet — enrich stage hasn't run; comparative-pattern WARN).
+- Head-term PASS, answer block 56 words (≤60).
+
+**Verdict:** Production-ready from an editorial standpoint. The only open item before publish is the frontmatter enrich stage (`faqs`), which is a separate pipeline step, not a polish concern. `published: false` still — awaiting your publish call.

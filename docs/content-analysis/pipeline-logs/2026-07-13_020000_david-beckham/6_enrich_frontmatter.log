@@ -1,0 +1,31 @@
+```
+Frontmatter enrichment complete: David-Beckham
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved, untouched):
+- wikipedia ('https://en.wikipedia.org/wiki/David_Beckham')
+- twitter ('davidbeckham'), instagram ('davidbeckham')
+- title, meta_title, persona_title, description, author, date, loc, lastmod, changefreq, priority, published, enneagram, type, person, suggestions, production_pretext
+
+Entity IDs (cross-checked):
+- Wikidata QID: Q10520 (WebSearch + EntityData label "David Beckham")
+- IMDb: nm0065743 — confirmed via Wikidata P345 on Q10520
+- birth_date 1975-05-02 from Wikidata P569; birth_place Leytonstone, London, England
+
+FAQs generated (5):
+1. What is David Beckham's personality type? → #what-is-david-beckhams-personality-type
+2. Why did an entire nation turn on David Beckham in 1998? → #why-an-entire-nation-turned-on-david-beckham
+3. Does David Beckham really have OCD? → #the-father-who-took-david-beckham-out-for-hours
+4. Why did David Beckham take the Qatar World Cup money? → #why-david-beckham-took-the-qatar-money
+5. Is David Beckham a Type 3 or a Type 9? → #what-is-david-beckhams-personality-type
+
+Every FAQ answer is drawn from the actual body (Ferguson/Neville testimony, the 1998 crisis, the fridge/2am motif, the Qatar concession, the 3-vs-9 counter-typing from the Rabbit Hole). Body, HTML comment blocks, and `lastmod` untouched. YAML re-validated (parses clean, 30 keys, £/$/apostrophes intact).
+
+Issues:
+- **No external citation URLs in the body.** The body carries only internal links (`/personality-analysis/*`, `/enneagram-corner/*`) plus prose-named sources (Ferguson's *Managing My Life*, *Stick to Football*, the Netflix doc, ITV 2006, WSJ, Fortune) — no inline external URLs. Per the Einstein gold standard, I built `citations` from canonical authoritative URLs for the named entities/events the body actually discusses (all HTTP-verified 200; Britannica returns 403 to curl but is confirmed valid via Wikidata P1417). Flagging because the draft would benefit from real inline source links to those sources rather than relying on entity pages.
+- FAQ #5 reuses the diagnosis-section anchor (shared with #1). Deliberate: both are typing questions and that section is the always-visible home for the 3-vs-9 read; the fuller counterargument lives in the collapsed Rabbit Hole, so I avoided anchoring into a `<details>` that may not auto-expand on hash nav in all browsers.
+```
+
+Sources: [David Beckham — Wikidata](https://www.wikidata.org/wiki/Q10520), [David Beckham — Wikipedia](https://en.wikipedia.org/wiki/David_Beckham)

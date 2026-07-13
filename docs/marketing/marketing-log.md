@@ -10,6 +10,18 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-07-13 — Unattended status brief: growth FRESH (biggest week → nothing); publish gate jammed; IG fully dark
+
+- Brief: [`docs/daily-briefs/2026-07-13_marketing-status.md`](../daily-briefs/2026-07-13_marketing-status.md).
+- **Growth freshness gate PASSED:** the weekly audit ran today (growth-log newest entry `2026-07-13`), so the brief folds its headline + biggest leak verbatim instead of re-deriving numbers.
+- **Growth headline:** the now-complete 2026-07-06 week drew **5,357 new visitors — the highest in the 8-week window (+48% WoW)**, almost entirely onto personality-analysis, and converted it to **0 signups, 0 comments, 1 profile, 0 waitlist, 0/6 wall conversion.** PA dwell fell to **11.7s (8-week low)** from 18.8s at 99% bounce. Give-first still half-blind (only `gate_shown`), Chorus still dead (`nine_user_takes` = 1 row ever — likely silent bug). Growth's #1 bet: above-fold, page-matched, one-field capture on personality-analysis (product/eng scope).
+- **Bottleneck flipped create → publish.** Last week's `oliver-tree` API failures are gone: the nightly cron shipped clean drafts 07-13 (David Beckham T3, grade 8.6 B+, 69 min; N3on T3). But `publish-people` shipped **0 posts 07-10/07-11/07-12** — every unpublished draft rejected on missing grade-stability deltas, missing manual Canva images, or grades 0.1 under 8.5. Engine writes daily, ships nothing. Fastest unblocks: supervised `/grade_blog` regrade on `hailee-steinfeld` + `Kaia-Gerber` (both grade-passing, need only the delta); add images for `oliver-tree` / `julia-fox`.
+- **Instagram fully dark:** 7 of 7 recent mornings blocked (07-06 → 07-12, `instagram_account_not_in_picker`). Regression from "5/7" last brief. @9takesdotcom evicted from shared Chrome profile; only DJ can re-login.
+- **SEO refreshed:** corpus-stats + crosslink index regenerated 07-12; GSC `latest.json` now runDate 2026-07-06 (was 06-11).
+- **New scout 07-13** (`docs/content-research/2026-07-13_surging-people-scout.md`): top create pick **Michael Truell** ($60B Cursor/SpaceX), then Josh O'Connor; Milly Alcock refresh. Backlog queue drained to ~1 entry.
+- **Unchanged:** 9 distribution packets unfired; Quora ~55 days dark; Long-Form outreach staged (06-29 Bartlett/Ferriss/Schulz assets, no send evidence); email starved (2 sends/wk, welcome_sequence now 1 active enrollment).
+- **Owner:** DJ. Open decisions in brief §"Open questions for DJ": PA above-fold capture, publish-gate regrades, manual images for oliver-tree/julia-fox, IG re-login, approve Truell/O'Connor/Alcock, Chorus/give-first smoke-test, distribution + Quora standing calls.
+
 ### 2026-07-06 — Unattended status brief: growth stale; people pipeline reliability broke; IG session unstable
 
 - Brief: [`docs/daily-briefs/2026-07-06_marketing-status.md`](../daily-briefs/2026-07-06_marketing-status.md).
@@ -157,6 +169,14 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-07-13 — Current blockers needing DJ / eng decision
+
+- **Publish gate jammed (NEW primary bottleneck):** create engine healthy but `publish-people` shipped 0 posts 07-10/07-11/07-12. Blockers are human-in-loop: supervised `/grade_blog` regrades to record stability deltas (`hailee-steinfeld`, `Kaia-Gerber` — both grade-passing) + manual Canva images (`oliver-tree`, `julia-fox` — grades pass). Any one clears a publish.
+- **Instagram fully dark:** 7/7 recent mornings blocked (`instagram_account_not_in_picker`). DJ re-login + dedicated Chrome profile required.
+- **Growth activation (product/eng):** biggest visitor week (5,357) converted to 0 signups; growth's #1 bet is an above-fold PA capture. Also: `nine_user_takes`=1 row ever flagged as likely silent Chorus bug — smoke-test `/api/nine/mirror` + ship submit-side give-first instrumentation.
+- **Backlog queue drained to ~1 entry:** approve scout picks (Michael Truell top) to keep the create engine fed.
+- **Carried:** 9 distribution packets unfired; Quora ~55 days dark (revive or retire).
+
 ### 2026-07-06 — Current blockers needing DJ / eng decision
 
 - **Growth audit stale:** newest growth-log entry is 2026-07-01; weekly 2026-07-06 audit did not append before this brief.
@@ -201,6 +221,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-07-13](../daily-briefs/2026-07-13_marketing-status.md) — growth fresh (biggest visitor week converted to ~nothing); bottleneck flipped create→publish (0 posts 3 days); IG fully dark 7/7; GSC refreshed; new scout (Truell top pick).
 - [2026-07-06](../daily-briefs/2026-07-06_marketing-status.md) — stale growth data; people pipeline failed twice on Oliver Tree; IG session blocked again; distribution/Quora still idle.
 - [2026-07-01](../daily-briefs/2026-07-01_marketing-status.md) — publish gate unjammed (shipping daily again); IG healthy; signups leak + Quora + growth-audit-skip still open.
 - [2026-06-20](../daily-briefs/2026-06-20_marketing-status.md) — two jammed gates (publish + Quora) + signups spam leak.

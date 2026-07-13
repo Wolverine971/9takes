@@ -13,7 +13,7 @@ published: true
 enneagram: 6
 type: ['musician', 'music-crossover']
 person: 'morgan-wallen'
-suggestions: ['Post-Malone', 'Jelly-Roll', 'Theo-Von', 'Dolly-Parton']
+suggestions: ['Post-Malone', 'Jelly-Roll', 'Theo-Von', 'Dolly-Parton', 'Ella-Langley']
 wikipedia: 'https://en.wikipedia.org/wiki/Morgan_Wallen'
 wikidata_qid: 'Q29561472'
 imdb_id: 'nm9147070'

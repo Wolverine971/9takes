@@ -1,0 +1,92 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — David-Beckham (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/David-Beckham.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 44
+Comparison set (last 8 other Type-3 drafts by date):
+  - n3on  (2026-07-13, 38 units)
+  - xochitl-gomez  (2026-07-12, 43 units)
+  - Kiernan-Shipka  (2026-07-11, 46 units)
+  - Alex-Warren  (2026-07-01, 25 units)
+  - amelia-dimoldenberg  (2026-06-22, 15 units)
+  - Olivia-Wilde  (2026-06-17, 18 units)
+  - Hailee-Steinfeld  (2026-06-15, 23 units)
+  - Carina-Zavline  (2026-06-08, 14 units)
+
+Noise floor over 9768 unit pairs:  median=0  p90=0  p99=0.007  max=0.077
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.041   David-Beckham  <->  xochitl-gomez
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Xochitl Gomez is an Enneagram Type 3
+
+score 0.041   David-Beckham  <->  Kiernan-Shipka
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Kiernan Shipka is an Enneagram Type 3
+
+
+Most similar drafts (max unit-pair score):
+  0.077 ###                  n3on
+  0.059 ##                   xochitl-gomez
+  0.052 ##                   Kiernan-Shipka
+  0.044 ##                   Carina-Zavline
+  0.031 #                    amelia-dimoldenberg
+  0.029 #                    Alex-Warren
+  0.022 #                    Hailee-Steinfeld
+  0.012                      Olivia-Wilde
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.077   David-Beckham  <->  n3on
+   TARGET [counter-typing] and it is why some people type him as a peaceful self-forgetter.
+   OTHER  [counter-typing] and it is why this reads as a 3 with a loud 7 streak rather than a clean 3.
+
+score 0.065   David-Beckham  <->  n3on
+   TARGET [diagnosis] whose whole image is that he has no image.
+   OTHER  [diagnosis] The giveaway is that he will happily take the loss if the clip wins.
+
+score 0.059   David-Beckham  <->  xochitl-gomez
+   TARGET [diagnosis] watched the same thing up close and saw what it was really for.
+   OTHER  [counter-typing] she composes herself and keeps performing the same thing
+
+score 0.052   David-Beckham  <->  Kiernan-Shipka
+   TARGET [diagnosis] It is the giveaway of the self-preservation Three
+   OTHER  [diagnosis] It is the rare celebrity self-diagnosis that matches the footage.
+
+score 0.044   David-Beckham  <->  Carina-Zavline
+   TARGET [diagnosis] It is the giveaway of the self-preservation Three
+   OTHER  [diagnosis] This is someone for whom the brand is not a layer on top of the self.
+
+score 0.041   David-Beckham  <->  n3on
+   TARGET [counter-typing] The one thing no clean typing fully explains is the private
+   OTHER  [counter-typing] " and calls himself "very low attention span." That genuine spontaneity is the one thing the Type 3 frame does not fully cover
+
+score 0.041   David-Beckham  <->  xochitl-gomez
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Xochitl Gomez is an Enneagram Type 3
+
+score 0.041   David-Beckham  <->  Kiernan-Shipka
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Kiernan Shipka is an Enneagram Type 3
+
+score 0.031   David-Beckham  <->  amelia-dimoldenberg
+   TARGET [counter-typing] But a Nine lets ambition drift into the background
+   OTHER  [diagnosis] Every Type 3 runs the same childhood equation in the background.
+
+score 0.029   David-Beckham  <->  xochitl-gomez
+   TARGET [counter-typing] The one thing no clean typing fully explains is the private
+   OTHER  [diagnosis] the public image and the private self fuse into one thing
+
+score 0.029   David-Beckham  <->  Alex-Warren
+   TARGET [counter-typing] a quiet surface stretched over an engine that never idles.
+   OTHER  [counter-typing] applause that never pays the debt.
+
+score 0.029   David-Beckham  <->  n3on
+   TARGET [diagnosis] It is the giveaway of the self-preservation Three
+   OTHER  [diagnosis] The giveaway is that he will happily take the loss if the clip wins.
+
+------------------------------------------------------------------------------
+Top pair scores 0.077 vs median 0  (~∞x the noise floor).

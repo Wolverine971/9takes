@@ -1,0 +1,28 @@
+The draft is complete and every gate passes. Here is the required non-interactive completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/N3on.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass]
+LIMITATIONS: real name unconfirmed (kept out of draft); some controversy items attributed/hedged per legal-risk caution
+```
+
+## What I built
+
+**Subject:** "Neon" resolved to **N3on** (the Kick/IRL livestreamer). The pipeline lock named a bare "Neon" that wasn't in the backlog queue with an empty create-log — a stale auto-run — so I confirmed identity via research before drafting.
+
+**Type call: Enneagram Type 3 (Social subtype, 3w4).** The public read is "unhinged chaos"; the thesis is that N3on is a Social 3 who runs the *most controlled operation on the internet*, and whose own definition of success is pure image work: *"Seeing people change their perspective on me, that's success."* The tiebreaker (which the independent research agent reached separately): he spends millions to fabricate the *documented image* of an experience, not the experience — a 7 chases the party, a 3 pays a thousand clippers to make everyone believe the party was legendary.
+
+**Evidence base:** his 101K-word "Life Story" interview (pulled + saved), the Business Insider "calculated chaos" profile, and named Adin Ross quotes. Signature material: he **faked his own death at ~14** for views, attended school via a **telepresence robot** while homebound with Crohn's, and **paid clippers to post bad press about himself** to stay relevant.
+
+**Craft/gate status:**
+- Lint: **0 fail / 0 warn**; contrast-pair engines: **0**; same-type similarity: **CLEAR**; head-term & type-answer block: pass
+- All 4 hard-gate ledgers embedded; **6 internal links** (Type 3, IShowSpeed, Adin Ross + 3 rabbit-hole pillars); bespoke "ledger/receipts" section; critic anchor (Adin's "top streamers do not like him") with the empathy turn; current anchor (BI April 2026 + July 2026 NBA/NFL collabs); interior beat; ending passes swap test
+
+**Corrections applied from research (legal-risk):** dropped the unconfirmed legal name, softened the DD Osama "fight" framing to on-stream confrontations, fixed the Adin reconciliation date to early 2025, and kept every "staged"/"bad-PR" claim sourced to Business Insider.
+
+**Not done (out of scope / by design):** no numeric grade (owned by `/grade_blog`), left `status: draft` (non-interactive never auto-promotes), and left the pipeline's `.pipeline.lock` untouched since I didn't create it. Human review before production is still required.
+
+Next step when you're ready: review, then mark `production_pretext.status: ready` and run `blog_content_production_people`.

@@ -1,0 +1,55 @@
+I've read the full draft. It's a heavily-worked people-pipeline draft (multiple ledgers, fresh-eyes + second-pass notes already applied). Here's the cohesion audit — prose only, frontmatter/Svelte/ledgers excluded.
+
+## Cohesion Audit: David-Beckham.md
+
+### Central Thesis
+The world sees an effortless golden boy handed everything; understanding Type 3 reveals Beckham built every inch of it himself and cannot stop building, because he learned as a boy that love is earned by delivering, and once, for three years, an entire nation showed him how fast that love turns to hate.
+
+### Thread Map
+| # | Section | What it argues | Link to the one before |
+|---|---------|----------------|------------------------|
+| — | Intro (candles / night watchman) | The 2am ritual disproves the "handed everything" myth; the perfection was assembled from inside | Sets the thesis |
+| 1 | *What is his personality type?* | Defines the Type 3 engine; Ferguson + Neville prove built-not-gifted; reserve = sp-3 counter-type; **teases the fridge** | Turns the intro's ritual into a diagnosis |
+| 2 | *The father who took him out for hours* | Origin of the engine: love-as-transaction, "get on with it"; 2am rendered from inside; **pays off the fridge** | Answers "how was a Three made?" |
+| 3 | *Why an entire nation turned on him* | The wound that supercharges the engine: loved-for-one-thing = destroyable-for-one-thing; he answers by delivering (timeline); billboard-as-insurance | The private arena where "the verdict is always his" flips to the public arena where it wasn't |
+| 4 | *How he built a brand out of a haircut* | The insurance in action: image as second career, staged reveals, flying boot turned into a photo, Ronaldo inherits the blueprint | "He built a life with more than one thing in it" → here's how |
+| 5 | *Why the marriage survived its worst year* | The marriage was the brand's founding act; rebuilt under threat; Brooklyn estrangement = the one arena the self-builder can't deliver his way out of | "Beckham had already drawn the blueprint" → the marriage was the first draft of it |
+| — | Rabbit Hole (quarantined) | Wings/subtype/arrows/counterargs | Skippable buffer |
+| 6 | *Why he took the Qatar money* | The pattern at its most morally costly; honest critic pressure; Messi delivered; knighthood = effigy come full circle | Returns to the delivery pattern at full throttle |
+| 7 | *The straight lines still have to hold* | Loved-hated-loved; more rooms than any crowd can burn; the son walks out; back to 2am; the crowd he can't win is himself | "Answered every wound by building bigger" → and the one place building fails |
+
+The outline reads coherently top-to-bottom. That is itself the headline finding: **there is no thread break anywhere in this piece.**
+
+### Scores
+| Check | Score | Issues |
+|-------|-------|--------|
+| Through-Line Clarity | 10/10 | 0 |
+| Promise-Delivery Match | 10/10 | 0 |
+| Reader Mental Model | 9/10 | 1 |
+| Section Transitions | 8/10 | 1 |
+| Internal Paragraph Flow | 9/10 | 0 |
+
+**Overall Cohesion Score: 9/10**
+
+### Transition detail
+- **Intro → myth → "candles give it away"**: Strong. The night-watchman ritual is set directly against the "gods handed him the ticket" myth, then the candles are named as the evidence.
+- **Type-3 tease "the clue lives in the fridge, we will get there" → father section**: Strong. A deliberate suspense hook, held across the childhood narrative and paid off by Victoria's fridge quote at that section's close. Nothing orphaned.
+- **Father → crisis**: Strong-implicit. Section ends "the one arena where the verdict is always his"; the crisis is the arena where the verdict was taken from him entirely. The inner-thought paragraph pre-loads the contrast ("Out there, the crowd decides... In here, tonight, he decides"), so the H2 carries the bridge without a seam sentence.
+- **Crisis → brand**: Adequate-to-strong. "He built a life with more than one thing in it... insurance" hands off to the image as a "second career running alongside the first." One real tonal shift (grave → wry haircut cold-open), but it's a deliberate stylistic beat, not a logic gap.
+- **Brand → marriage**: Strong. "Beckham had already drawn the blueprint" → "It was the founding act of the brand." The keyword *brand* carries and recontextualizes.
+- **Marriage → Qatar** (the one soft seam): Adequate. The marriage section escalates to the thesis's *limit* (the arena consent won't let him build), then Qatar rewinds to 2022 and returns to triumph. The Rabbit Hole physically buffers the two, and the closing re-gathers the Brooklyn thread, so it's suspended, not dropped. Still the weakest join in the piece.
+- **Qatar → close**: Strong. Knighthood just landed; "answered every wound by building bigger" flows straight into the summation and the return to the 2am ritual.
+
+### Verdict
+This is already a cohesive piece (9/10). Every section earns its place, the promise from title/description/intro is fully delivered, and the one forward-reference (the fridge) is paid off cleanly. Per the cohesion-check protocol, at 8+ I stop and check with you rather than manufacturing bridges, because the two candidate spots are exactly where a forced transition would read as mechanical and *lower* the score.
+
+The only judgment call worth your eye:
+
+**The marriage → Qatar seam.** After the Brooklyn estrangement (the thesis's hardest test, set in 2026), the Qatar section steps back to 2022 for another delivery-triumph lap. My recommendation is **leave it as-is**: the Rabbit Hole buffers the reader reset, and the closing deliberately re-picks-up Brooklyn ("a grown son can walk out of the frame and refuse to be arranged"). Forcing a bridge from "the arena he can't win" straight into "here's another arena he won" would flatten the honest downbeat you built. The suspension is working for you.
+
+Do you want me to:
+1. **Leave it untouched** (my recommendation — it's ship-ready on cohesion), or
+2. Attempt a one-sentence bridge at the top of the Qatar section to smooth that single seam (I'd draft it in Beckham's voice, no mechanical "moving on to" filler), or
+3. Anything else you noticed reading it?
+
+I made no edits.
