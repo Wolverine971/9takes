@@ -1,0 +1,26 @@
+## Cohesion Check Complete: Xochitl-Gomez.md
+
+**Before score: 8/10**
+**After score: 8/10** (the one Weak transition is now resolved; Section Transitions moves 7→8)
+
+### Central Thesis
+Xochitl Gomez is a Type 3 for whom image and self are one object, which is why her deepfake response read as a reputation problem, not a privacy one. The piece traces that fusion from its origin (family trade) to its ultimate failure (the image she couldn't take down).
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- **H2 6 "The two things Xochitl Gomez does with her own face" → H2 7 "The Dancing with the Stars trophy…":** Added a two-sentence bridge at the start of the DWTS section — *"The self under the makeup stays private. Her public wins run the other way, handed outward to the people who built the life around her."* It carries the keyword "under the makeup" from the previous section's scrub-ritual close and previews the section's own thesis (wins as tribute to family). The bridge introduces no new argument; the "wins routed outward as gifts to family" thread was already established in the diagnosis section, so this just reconnects it. Fixed the one spot where a reader stumbled from interior-hope to an external competition win with no connective tissue.
+
+### What Was Preserved
+- All frontmatter, working-notes, ledgers, and review-history comments
+- All Svelte/HTML blocks (`firstLetter`, `inner-thought`, `contrast-panel`, both `<details>` accordions)
+- All internal links, quotes, and the deliberate second-pass structural decisions
+- 8 of 9 transitions untouched (Open→H2 1, H2 3→4, H2 4→5, H2 8→Close were already Strong)
+
+### Remaining Concerns (offered, not applied — your call on an already-8 draft)
+
+1. **H2 1 → H2 2 (diagnosis → childhood):** Hard start on "born in Los Angeles in 2006" right after "the warmth is not the engine." The childhood thread is pre-planted, so it holds, but a half-line bridge ("The engine was installed early.") would smooth the jump.
+2. **H2 2 → H2 3 (childhood → harness):** Time-jumps from her childhood worldview straight onto a Marvel set. A short bridge carrying "performing your way to safety" into the adult grind would tighten it.
+3. **H2 7 → H2 8 (DWTS → what she can't control):** Adequate, but the underlying sub-arc — control of face → control of a win → **loss** of control — would become visible with one line marking the pivot from winning to what she can't win. This is the payoff of the bridge I just added; adding its mirror here would make the whole back-half arc legible.
+
+None of these is a thread break. Say the word and I'll apply any or all of them.

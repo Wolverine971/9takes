@@ -1,0 +1,25 @@
+Done. One disciplined revision iteration complete.
+
+## Revision report: `Xochitl-Gomez.md`
+
+**Triggered by:** grade **C (7.8)** — Evidence 7, tone + sourcing held it in the Cs. Lint was already clean (0 FAILs), so the entire work list came from the grader's three **TO REACH B** items (which map exactly onto the three **NEEDS WORK** items).
+
+### Fixes applied
+
+**1. MONOCHROME / MONOCAUSAL** (grader's single highest-leverage fix) → added a new signature section, **"The Xochitl her fans fell for."** It lets her goofy, unfiltered self *simply be fun* for a beat — no reframe as "the most effective presentation she owns." This is the one place the piece steps out of the single "composed sunshine over a wound" register (the Matt-Smith fish-fingers move the grader named). It ties lightly to the two-faces "self worth returning to" note without turning the fun back into a tool.
+
+**2. SOURCING DISCIPLINE** → the real gap, the lipstick + makeup-scrub quotes that had *no source anywhere in the file*, is now pinned to **Brit + Co (Aug 2024)** (verified via WebSearch + WebFetch — same interview carries both quote clusters). Also tagged inline: Olsen "way more prepared" (Screen Rant, 2022), Wong (via ComicBook.com, 2022), Raimi (Screen Rant, 2022), Chmerkovskiy (ET, 2023), and Olsen's "speak up" advice (Brit + Co, 2024). Childhood 22-musicals/age-5 stats reframed to "by her own account" (already backed by the cited Wikipedia entry).
+
+**3. HOUSE-VOICE TICS** → cut reader-command openers from **three to one**. Kept *"Sit with how strange that reaction is"* (the hook pivot); converted *"Hold onto that," "Notice what love and attention were made of,"* and *"Listen to what she kept returning to"* to direct statements. The diagnosis tease ("we will come back to it") is preserved.
+
+### Rejected (with reason)
+- **Did not force a single named interview+date onto the childhood stats** — they're stable biographical facts already backed by the cited Wikipedia entry; a specific outlet risked a shaky citation. The genuinely unsourced material (lipstick/makeup) got the hard source.
+- **Left the diagnosis pressure-test's "most effective presentation she owns" intact** — it answers the real skeptical reading and is load-bearing for the Type 3 defense. The grader's concern is resolved by the new fun section, where the spontaneity is *not* subsumed.
+- **Left the epigraph's "The Squeeze podcast, 2024"** — grader called it defensible; routing is documented in the working notes.
+
+### Ledgers & mechanics
+- HEADING MIX updated (new H2 7 signature; renumbered to 10 H2s; search-intent+hybrid count unchanged at 6). DISTRIBUTION/TESTIMONY/FINGERPRINT unchanged.
+- Did **not** touch `content_quality`, the QUALITY GRADE comment, or `lastmod`.
+- **Lint: clean — 0 fail, 1 warn** (the warn is the same pre-existing exempt Olsen comparative inside a direct quote, documented in the FORMULA FINGERPRINT LEDGER).
+
+The pipeline will now strip the old grade and re-grade. I did not grade it myself — `/grade_blog` owns that.

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-11T06:52:06Z",
+	"lastUpdated": "2026-07-12T07:13:18Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "xochitl-gomez",
-			"displayName": "Xochitl Gomez",
-			"type": 7,
-			"priority": 45,
-			"priorityReason": "MCU actor and DWTS champion with fast-rising Gen Z recognition and a lively Type 7 performer analysis angle",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-04-18",
-			"retryCount": 0,
-			"strategicValue": "gen-z-hollywood-pop-cluster"
-		},
 		{
 			"name": "david-beckham",
 			"displayName": "David Beckham",
@@ -34,6 +21,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "xochitl-gomez",
+			"displayName": "Xochitl Gomez",
+			"type": 7,
+			"priority": 45,
+			"priorityReason": "MCU actor and DWTS champion with fast-rising Gen Z recognition and a lively Type 7 performer analysis angle",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-04-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster",
+			"startedAt": "2026-07-12T06:00:00Z",
+			"completedAt": "2026-07-12T07:13:18Z",
+			"contentGrade": "8.4",
+			"letter": "B",
+			"discoverability": "9",
+			"duration": "~73 min",
+			"needsReview": true
+		},
 		{
 			"name": "kiernan-shipka",
 			"displayName": "Kiernan Shipka",

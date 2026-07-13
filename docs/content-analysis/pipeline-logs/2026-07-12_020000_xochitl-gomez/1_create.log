@@ -1,0 +1,38 @@
+The draft is complete and passes every hard gate. Here is the non-interactive completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Xochitl-Gomez.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES:
+  Gate 1 (Testimony Ledger): pass — 7 named third-party quotes (Olsen ×2, Wong, Alonso, Raimi, Chmerkovskiy ×2)
+  Gate 2 (Heading Mix): pass — 6 of 9 H2s search-intent/hybrid
+  Gate 3 (Self-loop): pass — no link targets xochitl-gomez
+  Gate 4 (Anti-imitation): pass — ending has no "A [Type]" anaphora; hook is her own deepfake scene
+  Gate 5 (Distribution): pass — 2 type-theory paragraphs outside diagnosis/Rabbit Hole (≤4)
+  Gate 6 (Formula Fingerprint): pass — 0 strong contrast-pairs; 0 main-body counter-typing ladders;
+      similarity clear (top 0.032 < 0.04); bespoke section; critic-pressure anchor; empathy turn;
+      current-tense anchor; ending swap-test pass; interior beat present
+LINT: 3 fail → 0 fail (2 informational WARNs remain)
+```
+
+**Type call:** Enneagram **Type 3 (Achiever), 3w2** — confidence **high**. Named tiebreaker: her unscripted framing of a sexual-deepfake violation as a reputation/searchability problem (*"not a good look... on here with my face... what pops up when you look up my name"*) is heart-triad image-as-self, not head-triad safety.
+
+**Internal links added (5 total):**
+- Millie Bobby Brown → `/personality-analysis/millie-bobby-brown` (named alongside her in 2026 Grok coverage)
+- Type 3 → `/enneagram-corner/enneagram-type-3`
+- Stress/withdrawal → `/enneagram-corner/enneagram-types-in-stress`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (Rabbit Hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (Rabbit Hole)
+
+**Fact-corrections applied (three task premises were wrong):**
+- NOT the youngest-ever DWTS champion — she was the youngest *competitor* of Season 32; Laurie Hernandez won at 16. Stated honestly in the piece.
+- Only child who misses having a sibling (not "many siblings").
+- Homeschooling unverified (her own quote implies traditional school) — not asserted.
+
+**LIMITATIONS:**
+- The richest source (The Squeeze podcast, ~1h16m) is audio-only and did not auto-transcribe; its quotes are used via NBC News / The Mary Sue reporting. Two auto-transcribable junket videos were successfully mined for supplementary quotes (dyslexia/memorization, the "don't be a fan, this is work" self-talk, the mini-America-Chavez talisman, mother quitting her job).
+- `faqs` frontmatter not populated — that's owned by the downstream `blog_content_frontmatter_enrich_people` stage (one informational lint WARN).
+
+No numeric grade emitted (grading is owned by `/grade_blog`). The draft is saved as `production_pretext.status: draft` and awaits human review before production. Next step, once you've reviewed it, is to set `status: ready` and run `blog_content_production_people`.

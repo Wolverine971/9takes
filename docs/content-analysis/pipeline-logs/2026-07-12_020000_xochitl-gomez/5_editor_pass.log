@@ -1,0 +1,16 @@
+## Editor pass complete — `src/blog/people/drafts/Xochitl-Gomez.md`
+
+This draft arrived in strong shape (it had already been through fresh-eyes and second-pass revisions), so this was a genuine light-touch polish, not a rescue. Mechanical gates were already clean before I touched it: **0 strong contrast pairs, 0 prose em-dashes, 0 banned AI phrases.**
+
+**What I cleaned up (prose-level tells the grep can't catch):**
+
+1. **Directive-opener tic** — the piece leaned on 6–7 second-person reader commands ("Think about that image", "Look at the small choice she made… you can see how she thinks", "watch what happens"). Clustered like that, it reads as a cadence. I converted the two weakest to direct statements so the remaining ones ("Sit with…", "Notice…", "Hold onto that") still hit instead of blurring into a pattern.
+2. **Restatement** — cut "The struggle disappears under so much rehearsal that the effort becomes invisible." The invisible-effort point already lands twice in the same two paragraphs; the section now closes harder on "learns everyone's part so she can never be caught out."
+3. **Mobile rhythm** — split two dense 7-sentence paragraphs (the diagnosis objection and the growth arrow) at natural seams so they read on a phone.
+4. **De-echoed "load-bearing"** — it was doing double duty for both the warmth and the image-wall; kept the stronger "load-bearing wall of the self" and reworded the weaker instance.
+
+I protected the emotional layer throughout: the empathy turn, the search-bar inner-thought, the invented denim-jacket backstory, the keep-face/scrub-face contrast panel and its "the type does not fully account for this" note, and the ending — all untouched or preserved.
+
+**Final contrast-pair count:** `0 strong / 1 comparative` — and that lone comparative is inside Elizabeth Olsen's direct quote ("way more prepared than I was at 25"), which is exempt. Lint: **0 fail, 2 warn** (both warnings are out of scope for this pass: missing `faqs` frontmatter belongs to the enrich stage, and the comparative flag is the exempt Olsen quote).
+
+**Verdict:** Production-ready from an editorial standpoint. The only remaining pipeline step before publish is the **frontmatter-enrich stage** (to add `faqs` for discoverability) — that's a separate command, not an editor-pass concern.

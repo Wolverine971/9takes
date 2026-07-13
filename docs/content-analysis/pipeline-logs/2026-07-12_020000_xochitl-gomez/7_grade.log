@@ -1,0 +1,25 @@
+Grade written to the file. Here's the summary.
+
+## Grading Complete — Xochitl Gomez
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Xochitl-Gomez | 7 | 8 | 8 | 8 | 8 | 8 | **7.8** | **C** |
+
+*(Weighted: (7×1.5 + 8×1.5 + 8×1.5 + 8 + 8 + 8×0.5) / 7 = 7.8. Discoverability 8 → gate not triggered. No caps applied.)*
+
+### Key Observations
+
+- **A genuinely competent, clean draft that lands high-C, not the pipeline's usual ~8.8.** It clears the mechanical formula checks (0 strong contrast pairs, 0 prose em-dashes, 0 body counter-typing ladders — verified by `blog-quality-report.mjs`), has a real signature detail (the fixed-lipstick / compulsive-scrub "two faces"), and an empathy turn built from her own vocabulary rather than house grammar. Those are real strengths.
+
+- **Two things hold it below B, and they're the same two the recalibration keeps surfacing:**
+  1. **Monochrome + monocausal.** The deepfake anchors the open, the diagnosis, the whole "actually upset about" section, and the close; every beat routes to "the image is the injury." There's no tonal-contrast beat (no equivalent of Matt-Smith's joy section), so she reads in one register throughout. This is precisely what the calibration table pins Matt-Smith to a **B** for — and this draft is a notch below him because it has *less* range.
+  2. **Sourcing discipline.** `blog-source-audit.mjs` shows 0 untagged quotes *in its slots*, but across the body several load-bearing quotes carry no inline outlet/date — most notably the lipstick and makeup-scrub quotes (load-bearing for the signature section, **no source anywhere in the file**), the "22 musicals / performing at 5" stats, and the Olsen/Wong/Raimi/Chmerkovskiy testimony (in the ledger, not inline). The richest source (The Squeeze, 2024) is audio-only and routes through NBC/Mary Sue, yet the epigraph attributes it straight to the podcast.
+
+- **Sameness check:** the same-type scan trips only on the structural "X is an Enneagram Type 3" line and one generic Type-3-vs-6 counter-typing overlap — no near-verbatim reuse, so no Originality cap. But the "Sit with… / Notice… / Hold onto that" reader-command imperatives are the exact house-voice tic flagged in the Benny-Blanco grade.
+
+- **Calibration anchor:** Alex-Warren (C). Xochitl sits roughly at/just below it — comparable monochrome tone, a good-but-less-devastating signature than Alex-Warren's empty-seat, and slightly weaker inline sourcing.
+
+**Total graded this session: 1**
+
+The "TO REACH B" path is concrete in the file: (1) one genuine tonal-contrast beat (let the goofy "I mean" Xochitl just be fun), (2) tighten inline sourcing on the lipstick/makeup/childhood-grind claims, (3) cut the reader-command openers to one.

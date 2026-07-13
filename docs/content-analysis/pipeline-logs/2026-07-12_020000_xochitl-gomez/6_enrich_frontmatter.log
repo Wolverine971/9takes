@@ -1,0 +1,33 @@
+```
+Frontmatter enrichment complete: Xochitl-Gomez
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (real value — left untouched)
+- twitter / instagram / tiktok (empty; creator-owned, not mine to fill)
+- lastmod left exactly as found ('2026-07-12')
+
+Entity IDs (cross-checked):
+- Wikidata QID Q102427314 — English label "Xochitl Gomez" ✓
+- IMDb nm7961780 — confirmed via Wikidata P345 ✓
+- birth_date 2006-04-29, birth_place Los Angeles CA — confirmed via Wikipedia + Wikidata P569/P19
+
+FAQs generated (5):
+1. What is Xochitl Gomez's personality type? → #what-is-xochitl-gomezs-personality-type
+2. Why did Xochitl Gomez react to her deepfakes as an image problem instead of a privacy one? → #what-xochitl-gomez-was-actually-upset-about
+3. Why did playing America Chavez make Xochitl Gomez a target? → #why-playing-america-chavez-made-xochitl-gomez-a-target
+4. Could Xochitl Gomez be a Type 7 or Type 2 instead of a Type 3? → #counterarguments-why-xochitl-gomez-might-not-be-a-type-3
+5. Did Xochitl Gomez win Dancing with the Stars, and was she the youngest champion? → #the-dancing-with-the-stars-trophy-that-belonged-to-her-nana
+
+All FAQ anchors map to real H2/H3 headings in the body; answers drawn only from the final analysis.
+
+Issues:
+- Body contains zero external inline URLs (all inline links are internal /enneagram-corner and /personality-analysis paths). Per the Einstein gold-standard pattern, `citations` were built from authoritative source URLs for the entities and reporting the body relies on: the NBC News + The Mary Sue deepfake reports (the load-bearing quote source, named in the working notes) plus Wikipedia pages for Xochitl Gomez, Doctor Strange in the Multiverse of Madness, America Chavez, Gentefied, and DWTS season 32. 7 citations total — none invented, DWTS season 32 slug verified live.
+- occupation includes 'Dancer' alongside 'Actress' (Wikipedia lists only actress); justified by 22 musicals + DWTS championship in the body. Flagging in case you'd rather keep it to 'Actress'.
+- Body did not touch `production_pretext`, `content_quality` (absent here), or any HTML comment blocks / body content — frontmatter-only edit.
+```
+
+Draft is now enrichment-ready and passes YAML validation, so it won't break the bundled build.

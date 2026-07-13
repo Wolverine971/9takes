@@ -1,0 +1,92 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — xochitl-gomez (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Xochitl-Gomez.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-3 drafts by date):
+  - Kiernan-Shipka  (2026-07-11, 46 units)
+  - Alex-Warren  (2026-07-01, 25 units)
+  - amelia-dimoldenberg  (2026-06-22, 15 units)
+  - Olivia-Wilde  (2026-06-17, 18 units)
+  - Hailee-Steinfeld  (2026-06-15, 23 units)
+  - Carina-Zavline  (2026-06-08, 14 units)
+  - teyana-taylor  (2026-06-01, 20 units)
+  - Paige-Spiranac  (2026-05-23, 16 units)
+
+Noise floor over 7611 unit pairs:  median=0  p90=0  p99=0.01  max=1
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 1.000   xochitl-gomez  <->  Kiernan-Shipka
+   TARGET [diagnosis] Xochitl Gomez is an Enneagram Type 3
+   OTHER  [diagnosis] Kiernan Shipka is an Enneagram Type 3
+
+score 0.073   xochitl-gomez  <->  Hailee-Steinfeld
+   TARGET [counter-typing] but Xochitl's anxiety is image-shaped rather than threat-shaped
+   OTHER  [counter-typing] but her anxiety is image-and-worth anxiety (heart triad) rather than security-and-threat anxiety (head triad)
+
+
+Most similar drafts (max unit-pair score):
+  1.000 ######################################## Kiernan-Shipka
+  0.135 #####                Carina-Zavline
+  0.117 #####                Paige-Spiranac
+  0.082 ###                  amelia-dimoldenberg
+  0.073 ###                  Hailee-Steinfeld
+  0.059 ##                   Olivia-Wilde
+  0.040 ##                   Alex-Warren
+  0.023 #                    teyana-taylor
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 1.000   xochitl-gomez  <->  Kiernan-Shipka
+   TARGET [diagnosis] Xochitl Gomez is an Enneagram Type 3
+   OTHER  [diagnosis] Kiernan Shipka is an Enneagram Type 3
+
+score 0.135   xochitl-gomez  <->  Carina-Zavline
+   TARGET [diagnosis] The warmth sits on top of the Three.
+   OTHER  [diagnosis] This is someone for whom the brand is not a layer on top of the self.
+
+score 0.117   xochitl-gomez  <->  Paige-Spiranac
+   TARGET [diagnosis] stays fixed on the work in front of her
+   OTHER  [diagnosis] Spiranac is still in front of the camera
+
+score 0.085   xochitl-gomez  <->  Paige-Spiranac
+   TARGET [counter-typing] Xochitl stays fixed on the projects in front of her and grinds through them.
+   OTHER  [diagnosis] Spiranac is still in front of the camera
+
+score 0.082   xochitl-gomez  <->  amelia-dimoldenberg
+   TARGET [counter-typing] Type 2 is the subtler rival because the warmth is so real.
+   OTHER  [diagnosis] The warmth is how she keeps the people who build it. ---
+
+score 0.073   xochitl-gomez  <->  Hailee-Steinfeld
+   TARGET [counter-typing] but Xochitl's anxiety is image-shaped rather than threat-shaped
+   OTHER  [counter-typing] but her anxiety is image-and-worth anxiety (heart triad) rather than security-and-threat anxiety (head triad)
+
+score 0.059   xochitl-gomez  <->  Olivia-Wilde
+   TARGET [diagnosis] We saw the defiance of America Chavez in her." Here is the honest objection
+   OTHER  [diagnosis] Here is the tension a Three lives inside
+
+score 0.053   xochitl-gomez  <->  amelia-dimoldenberg
+   TARGET [diagnosis] The version of you that the world sees and rewards stops being a presentation you manage and becomes the self you actually believe you are.
+   OTHER  [diagnosis] The self becomes whatever version of you gets the applause.
+
+score 0.045   xochitl-gomez  <->  Kiernan-Shipka
+   TARGET [diagnosis] because it is the only frame in which her deepfake response stops sounding shallow.
+   OTHER  [diagnosis] It is the rare celebrity self-diagnosis that matches the footage.
+
+score 0.040   xochitl-gomez  <->  Alex-Warren
+   TARGET [diagnosis] and it also keeps the work coming.
+   OTHER  [diagnosis] It also explains the comment sections.
+
+score 0.035   xochitl-gomez  <->  Hailee-Steinfeld
+   TARGET [counter-typing] which reads as heart-triad behavior more than head-triad.
+   OTHER  [counter-typing] but her anxiety is image-and-worth anxiety (heart triad) rather than security-and-threat anxiety (head triad)
+
+score 0.034   xochitl-gomez  <->  Kiernan-Shipka
+   TARGET [diagnosis] The warmth sits on top of the Three.
+   OTHER  [diagnosis] roughly a hundred people sit on her Instagram Close Friends list.
+
+------------------------------------------------------------------------------
+Top pair scores 1 vs median 0  (~∞x the noise floor).

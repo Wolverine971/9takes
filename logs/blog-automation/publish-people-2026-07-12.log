@@ -1,0 +1,20 @@
+Both attempts are blocked by the publish gate. Auto-select found no eligible draft (all 471 are already published or gated), and the one fresh draft — `Xochitl-Gomez` — fails three gates. Per this command's scope, I stop and report rather than bypass.
+
+```text
+Publish blocked.
+
+Person: Xochitl Gomez
+Draft: src/blog/people/drafts/Xochitl-Gomez.md
+
+Blockers:
+- content_quality_below_8.5:8.4  (overall grade is 8.4; needs ≥8.5)
+- missing_full_image      (static/types/[type]s/Xochitl-Gomez.webp)
+- missing_thumbnail_image (static/types/[type]s/s-Xochitl-Gomez.webp)
+```
+
+None of these are in this command's lane to fix — it doesn't do rewrites, re-grading, or image generation. To get this draft to publishable:
+
+1. **Grade (8.4 → ≥8.5):** run a revision pass (`/blog_content_revision_pass_people`) then re-grade with `/grade_blog`. It's only 0.1 short, so a light revision plus honest regrade will likely clear it — but I won't touch the article under this command.
+2. **Images:** generate the two personality image files. Per your memory, type images are manual (Canva), and the blog hero pipeline is `scripts/gen-blog-image-openrouter.mjs` — but note the publish gate wants the `static/types/[type]s/` webp pair, which is the manual Canva path.
+
+Want me to kick off the revision + regrade loop, or is this draft not the one you meant to publish? If there's a different person you had in mind, give me the slug.

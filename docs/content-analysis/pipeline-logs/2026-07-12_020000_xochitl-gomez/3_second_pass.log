@@ -1,0 +1,25 @@
+Done. Second pass complete on the Xochitl Gomez draft.
+
+## What I updated
+`src/blog/people/drafts/Xochitl-Gomez.md`
+
+## Main changes
+
+**Consolidated the deepfake thesis (the fresh-eyes reviewer's #1 issue).** The image-not-privacy point was being *delivered* three times — cold open, diagnosis, and "What Xochitl Gomez was actually upset about." I cut the redundant diagnosis paragraph that re-delivered it, so now the cold open **hooks**, the diagnosis **teases** ("we will come back to it"), and the deepfake section is the single full **payoff**. The middle no longer sags. Also trimmed the "searchability" recurrence.
+
+**Engaged the *real* skeptical reading.** The reviewer was right that the draft's stated critic pressure (vanity / PR-brand) was softer than the truth: she's famous for being goofy and unfiltered — the "I mean" meme — not "rehearsed." I built that objection into the diagnosis pressure-test and resolved it two ways that both *strengthen* the Type 3 read: for a Three, lovably-real is the winning image; and the tell is her "take it down" reflex when the image is hit, versus a Seven's scatter. This turns the piece's sharpest counter-evidence into supporting evidence.
+
+**Added the representation-vessel thread.** Verified via research: before America Chavez she played young Ana in *Gentefied*'s "Brown Love" flashback — the moment the character first realizes she likes girls. So: queer Ana → superhero with two mothers → absorbing homophobic hate for a queerness she represents rather than lives. Richer than "the role drew trolls."
+
+**Un-froze her from seventeen.** Added present-day stakes: she's 20 now, carried her first grown-up lead in *HIVE* (2026) plus the Johnny Orlando video — someone picking her own projects, not a prodigy driven from audition to audition (a deliberate echo of the childhood beat).
+
+## Source-audit result
+**0 untagged load-bearing quotes** (tagged the Victoria Alonso quote → Marvel.com, 2022). The 2 remaining "vague" flags are both heuristic noise: the Alonso quote *is* attributed but the parser missed the outlet token, and "I mean" is a meme colloquialism the parser mistook for a testimonial. Lint: **0 fail** (the lone warn is the exempt Elizabeth Olsen comparative quote).
+
+## Two calls I made against the fresh-eyes notes
+- **Kept `persona_title: "Hollywood's Rehearsed Sunshine."`** The reviewer flagged it as fighting her unfiltered rep, but the body now *earns* the provocation — even the unrehearsed charm is the presentation that wins the room. Changing it would forfeit the thesis.
+- **Did not make the goofy persona a "third face"** in the two-rituals section — that section is about literal makeup (lipstick on / scrub off), and the behavioral persona belongs in the pressure-test. Avoided category strain.
+
+## Still open (for an editor pass, not blocking)
+- *Ursa Major* (a reported upcoming lead) left out — only a low-reliability source surfaced it.
+- The Squeeze podcast is still audio-only; its quotes route through NBC/Mary Sue reporting (unchanged).
