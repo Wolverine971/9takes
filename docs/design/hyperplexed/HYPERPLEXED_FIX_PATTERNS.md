@@ -415,6 +415,38 @@ Marketing/editorial only. Never app chrome. Confirm contrast in the live pass.
 
 ---
 
+## Color Harmony
+
+### P19 - Budget The Brand Accent
+
+**Finding:** several neighboring elements all use fully saturated `--lamp-glow`, so the interface
+loses hierarchy and the sodium-amber identity reads as generic yellow UI chrome.
+
+Give the strongest amber to primary actions, focus indicators, active states, and compact
+`SectionKicker` illumination. Resting identity text and passive chrome should sit in the ink/marble
+family; borders and surface tints may mix a small amount of amber into stone.
+
+```css
+.brand-wordmark {
+	color: color-mix(in srgb, var(--ink-bright) 90%, var(--lamp-deep));
+}
+
+.brand-wordmark:hover {
+	color: color-mix(in srgb, var(--ink-bright) 72%, var(--lamp-glow));
+}
+
+.quiet-accent-border {
+	border-color: color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
+}
+```
+
+Do not replace every amber usage mechanically. Judge the local accent budget: one dominant action,
+small illuminated labels, and quiet mixed borders can coexist; several solid yellow elements cannot.
+Color-only transitions do not require a reduced-motion fallback, but never attach glow movement or
+hover translation merely to make the quieter treatment noticeable.
+
+---
+
 ## Using This Doc In An Audit
 
 In audit findings, cite patterns as `-> P1`, `-> P6+P1`, etc. If a fix does not match any pattern and

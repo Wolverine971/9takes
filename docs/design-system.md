@@ -123,6 +123,11 @@ Voice is **locked** in `docs/brand/brand-positioning.md` and `docs/brand/brand-s
 - Sodium-amber primary glow — never neon, never gradient-drenched
 - Negative space treated as deep night, not empty white
 
+**Header wordmark accent rule (ratified 2026-07-13):** the text wordmark rests in warm marble
+(`--ink-bright` mixed lightly with `--lamp-deep`). Full `--lamp-glow` is reserved for hover/focus,
+primary action, and compact illuminated labels. The search edge and Library border carry low-alpha
+amber mixed into stone; the logo does not compete with them. See HyperPlexed pattern P19.
+
 **What we are visually NOT** (final):
 
 - ❌ Generic SaaS template (Notion/Linear/Stripe wholesale aesthetic)

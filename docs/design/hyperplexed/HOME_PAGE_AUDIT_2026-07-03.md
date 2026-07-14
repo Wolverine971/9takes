@@ -49,3 +49,77 @@ Target: `/`, covering `src/routes/+page.svelte`, `src/routes/+page.server.ts`, s
 - Screenshots captured:
   - `/private/tmp/9takes-homepage-centered-desktop.png`
   - `/private/tmp/9takes-homepage-centered-mobile.png`
+
+## Follow-up - 2026-07-13 brand-story Tier 1
+
+### Tier 1 - cheap, high-impact
+
+- The resting header wordmark used the same fully saturated amber as the Login CTA, section
+  kickers, focus states, and active chrome. Moved it into a warm-marble mix while retaining amber
+  on interaction, so the search and Library edge treatments read as the shared source of light. -> P19
+- The hero opened with the clinical label `OBSERVATION` and feature-inventory support copy. Renamed
+  it to `THE CIRCLE` and tightened the two support lines into the give-first story: one situation,
+  nine perspectives, then entering the room to hear the rest. -> P6
+- The existing statue media slot remains unchanged while the paired modern/Greek gathering assets
+  are being finalized; media composition and scrim treatment are deliberately deferred. -> P10
+
+### Verification
+
+- `pnpm check`: pass, 0 errors and 126 existing warnings.
+- `pnpm lint:radius`: pass, 0 class violations and CSS backlog 0/0.
+- Targeted ESLint and Prettier checks for the touched source/docs: pass.
+- Full `pnpm lint`: blocked in the repository-wide Prettier stage by eight pre-existing unrelated
+  markdown files; none of the files in this pass are in the failure list.
+- Live desktop at `1440x900`: header hierarchy and hero copy reviewed; document width matched the
+  viewport with no horizontal overflow.
+- Live mobile at `390x844`: wordmark, search edge, hero label, and support-copy wrapping reviewed;
+  document width remained `390px` with no horizontal overflow.
+
+## Follow-up - 2026-07-13 brand-story Phase 2
+
+### Tier 2 - structural within the surface
+
+- The §04 mechanism section presented the product as a large feature schematic, then maintained a
+  second stacked implementation for phones. Replaced both with one semantic three-beat story rail:
+  enter alone, let the room open, then see the emotional pattern underneath the takes. -> P6+P4+P3
+- The shared structure now turns from three columns into one connected mobile timeline without
+  duplicating content or scaling diagram text below a readable size. This resolves the homepage M1
+  finding in the 2026-06-11 mobile audit. -> P3+P4
+- The final line, `ONE SITUATION · NINE PERSPECTIVES · NO CONSENSUS REQUIRED`, makes the product's
+  social contract explicit before the live open-question section begins. -> P6+P19
+- The paired modern/Greek gathering media remains deferred until approved assets exist; this pass
+  does not wire a temporary image into the hero. -> P10
+
+### Verification
+
+- `pnpm check`: pass, 0 errors and 126 existing warnings.
+- `pnpm lint:radius`: pass, 0 class violations and CSS backlog 0/0.
+- Targeted ESLint and Prettier checks for the homepage and audit docs: pass.
+- Live desktop at `1440x900`, dark and light: three equal beats, connector rhythm, hierarchy, and
+  section handoff reviewed; no horizontal overflow.
+- Live mobile at `390x844`, dark and light: one readable connected timeline, clean transition into
+  §05, and no horizontal overflow.
+
+## Follow-up - 2026-07-13 brand-story Phase 3
+
+### Tier 3 - polish/signature
+
+- Added one earned signature effect to §04: a restrained streetlamp pool follows the pointer across
+  the gathering rail. One pointer listener writes bounded local coordinates; CSS owns the warm-to-
+  teal radial illumination, with a quieter mix in light mode. -> P14+P15+P19
+- The illumination never changes layout, elevates one voice, or dims the other perspectives. Touch,
+  coarse-pointer, no-hover, and reduced-motion contexts receive the static rail. -> P11
+- Animated gradient text and peer-dimming were deliberately rejected: both would compete with the
+  equal-voice premise and overspend the page's accent budget. -> P16+P18+P19
+- The paired modern/Greek gathering media remains the only deferred brand-story item. -> P10
+
+### Verification
+
+- `pnpm check`: pass, 0 errors and 126 existing warnings.
+- `pnpm lint:radius`: pass, 0 class violations and CSS backlog 0/0.
+- Targeted ESLint and Prettier checks for the homepage and audit docs: pass.
+- Live desktop at `1440x900`, dark and light: pointer coordinates moved across the rail, the
+  illumination reached full computed opacity, and the light-mode mix remained restrained.
+- Live mobile at `390x844`: the vertical story rail remained readable at a 16px body-copy floor with
+  no horizontal overflow. Touch/coarse-pointer and reduced-motion no-op gates were verified in code
+  and CSS. No browser console errors were reported.

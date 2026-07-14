@@ -330,6 +330,33 @@
 			? buildPersonalityAnalysisPath(person.name)
 			: `/enneagram-corner/enneagram-type-${person.type}`;
 	}
+
+	// ------------------------------------------------------------------
+	// Phase 3 signature — a restrained streetlamp pool follows the pointer
+	// across §04. CSS owns the rendering; touch and reduced-motion are no-ops.
+	// ------------------------------------------------------------------
+	function handleGatheringPointer(event: PointerEvent): void {
+		if (
+			!browser ||
+			event.pointerType === 'touch' ||
+			window.matchMedia('(prefers-reduced-motion: reduce)').matches
+		) {
+			return;
+		}
+
+		const rail = event.currentTarget;
+		if (!(rail instanceof HTMLElement)) return;
+
+		const rect = rail.getBoundingClientRect();
+		rail.style.setProperty('--gathering-x', `${event.clientX - rect.left}px`);
+		rail.style.setProperty('--gathering-y', `${event.clientY - rect.top}px`);
+		rail.dataset.illuminated = 'true';
+	}
+
+	function clearGatheringPointer(event: PointerEvent): void {
+		const rail = event.currentTarget;
+		if (rail instanceof HTMLElement) delete rail.dataset.illuminated;
+	}
 </script>
 
 <SEOHead
@@ -367,7 +394,7 @@
 			<div class="anatomy-top">
 				<div class="anatomy-text">
 					<div class="anatomy-eyebrow">
-						<SectionKicker num="01" label="OBSERVATION" />
+						<SectionKicker num="01" label="THE CIRCLE" />
 					</div>
 
 					<h1 class="display-xl">See the emotions behind every take.</h1>
@@ -387,10 +414,10 @@
 					</div>
 
 					<p class="hero-subhead hero-subhead-line-1">
-						One situation. 9 emotional reads &mdash; one per personality type.
+						One situation. Nine perspectives. Nine different reads.
 					</p>
 					<p class="hero-subhead hero-subhead-line-2">
-						Drop yours first &mdash; anonymously, before you see anyone else&rsquo;s.
+						Give yours first. Then enter the room and hear the rest.
 					</p>
 				</div>
 
@@ -525,371 +552,59 @@
 	</section>
 
 	<!-- =====================================================================
-	  §04 — THE FLOW (connected SVG flow chart)
+	  §04 — THE GATHERING (one situation, then the room opens)
 	  ===================================================================== -->
 	<section class="flow">
 		<div class="flow-pool" aria-hidden="true"></div>
 
 		<header class="flow-header">
-			<SectionKicker class="section-tag" num="04" label="THE FLOW" />
-			<h2 class="display-md">How a situation becomes 9 reads.</h2>
-			<p class="flow-sub">One moment in. Give-first lock. 9 typed reads out. Then the pattern.</p>
+			<SectionKicker class="section-tag" num="04" label="THE GATHERING" />
+			<h2 class="display-md">First you speak. Then the room opens.</h2>
+			<p class="flow-sub">
+				No likes to chase. No consensus to copy. Your perspective lands before anyone else&rsquo;s
+				can shape it.
+			</p>
 		</header>
 
-		<div class="flow-diagram" aria-label="9takes mechanism flow chart">
-			<svg
-				viewBox="0 0 800 980"
-				xmlns="http://www.w3.org/2000/svg"
-				class="flow-svg"
-				role="img"
-				aria-label="Flow chart: situation to give-first lock to 9 reads to pattern"
-				preserveAspectRatio="xMidYMid meet"
-			>
-				<defs>
-					<marker
-						id="home-flow-arrowhead"
-						markerWidth="10"
-						markerHeight="10"
-						refX="9"
-						refY="5"
-						orient="auto"
-						markerUnits="strokeWidth"
-					>
-						<path d="M0,0 L0,10 L10,5 z" fill="var(--lamp-glow)" />
-					</marker>
-				</defs>
+		<div
+			class="flow-story"
+			aria-label="How a perspective enters the 9takes gathering"
+			onpointermove={handleGatheringPointer}
+			onpointerleave={clearGatheringPointer}
+			onpointercancel={clearGatheringPointer}
+		>
+			<article class="flow-beat flow-beat--speak">
+				<div class="flow-beat-marker" aria-hidden="true"><span>01</span></div>
+				<p class="mono flow-beat-kicker">01 · ENTER ALONE</p>
+				<h3>Say what you actually saw.</h3>
+				<p>A real situation enters the circle with your unfiltered read attached.</p>
+			</article>
 
-				<!-- NODE 1 — YOUR SITUATION -->
-				<g aria-label="Your situation">
-					<rect
-						x="270"
-						y="20"
-						width="260"
-						height="100"
-						rx="8"
-						ry="8"
-						fill="var(--stone-warm)"
-						stroke="var(--stone-edge)"
-						stroke-width="1"
-					/>
-					<text x="400" y="52" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
-						>YOUR SITUATION</text
-					>
-					<text x="400" y="80" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
-						>a real moment</text
-					>
-					<text x="400" y="100" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
-						>from your life</text
-					>
-				</g>
+			<article class="flow-beat flow-beat--listen">
+				<div class="flow-beat-marker" aria-hidden="true"><span>02</span></div>
+				<p class="mono flow-beat-kicker">02 · THE ROOM OPENS</p>
+				<h3>Listen without a leader.</h3>
+				<p>
+					Only after you answer do the other perspectives appear&mdash;each noticing something
+					different.
+				</p>
+			</article>
 
-				<line
-					x1="400"
-					y1="120"
-					x2="400"
-					y2="170"
-					stroke="var(--lamp-glow)"
-					stroke-width="2"
-					marker-end="url(#home-flow-arrowhead)"
-				/>
-
-				<!-- NODE 2 — GIVE-FIRST LOCK -->
-				<g aria-label="Give-first lock">
-					<rect
-						x="250"
-						y="180"
-						width="300"
-						height="120"
-						rx="8"
-						ry="8"
-						fill="var(--stone-warm)"
-						stroke="var(--stone-edge)"
-						stroke-width="1"
-					/>
-					<text x="400" y="212" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
-						>GIVE-FIRST LOCK</text
-					>
-					<text x="400" y="240" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
-						>your honest take,</text
-					>
-					<text x="400" y="260" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
-						>written before</text
-					>
-					<text x="400" y="280" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
-						>the room shapes it</text
-					>
-				</g>
-
-				<line
-					x1="400"
-					y1="300"
-					x2="400"
-					y2="350"
-					stroke="var(--lamp-glow)"
-					stroke-width="2"
-					marker-end="url(#home-flow-arrowhead)"
-				/>
-
-				<!-- NODE 3 — 9 READS UNLOCK -->
-				<g aria-label="Nine reads unlock">
-					<rect
-						x="290"
-						y="360"
-						width="220"
-						height="68"
-						rx="8"
-						ry="8"
-						fill="var(--stone-warm)"
-						stroke="var(--stone-edge)"
-						stroke-width="1"
-					/>
-					<text x="400" y="392" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
-						>9 READS UNLOCK</text
-					>
-					<text
-						x="400"
-						y="412"
-						text-anchor="middle"
-						class="flow-body flow-body--mid"
-						fill="var(--ink-mid)">fan-out by type</text
-					>
-				</g>
-
-				<line
-					x1="400"
-					y1="428"
-					x2="135"
-					y2="510"
-					stroke="var(--lamp-glow)"
-					stroke-width="2"
-					marker-end="url(#home-flow-arrowhead)"
-				/>
-				<line
-					x1="400"
-					y1="428"
-					x2="400"
-					y2="510"
-					stroke="var(--lamp-glow)"
-					stroke-width="2"
-					marker-end="url(#home-flow-arrowhead)"
-				/>
-				<line
-					x1="400"
-					y1="428"
-					x2="665"
-					y2="510"
-					stroke="var(--lamp-glow)"
-					stroke-width="2"
-					marker-end="url(#home-flow-arrowhead)"
-				/>
-
-				<!-- T1 SAMPLE READ -->
-				<g aria-label="Type 1 read">
-					<rect
-						x="40"
-						y="520"
-						width="190"
-						height="120"
-						rx="8"
-						ry="8"
-						fill="var(--stone-warm)"
-						stroke="var(--stone-edge)"
-						stroke-width="1"
-					/>
-					<rect x="40" y="520" width="190" height="4" fill="var(--type-1-color)" />
-					<text x="135" y="552" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
-						>T1 · THE PERFECTIONIST</text
-					>
-					<text
-						x="135"
-						y="582"
-						text-anchor="middle"
-						class="flow-body flow-body--italic"
-						fill="var(--ink-bright)">leads with</text
-					>
-					<text
-						x="135"
-						y="610"
-						text-anchor="middle"
-						class="flow-body flow-body--strong"
-						fill="var(--ink-bright)">&ldquo;what&rsquo;s broken&rdquo;</text
-					>
-				</g>
-
-				<!-- T5 SAMPLE READ -->
-				<g aria-label="Type 5 read">
-					<rect
-						x="305"
-						y="520"
-						width="190"
-						height="120"
-						rx="8"
-						ry="8"
-						fill="var(--stone-warm)"
-						stroke="var(--stone-edge)"
-						stroke-width="1"
-					/>
-					<rect x="305" y="520" width="190" height="4" fill="var(--type-5-color)" />
-					<text x="400" y="552" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
-						>T5 · THE INVESTIGATOR</text
-					>
-					<text
-						x="400"
-						y="582"
-						text-anchor="middle"
-						class="flow-body flow-body--italic"
-						fill="var(--ink-bright)">leads with</text
-					>
-					<text
-						x="400"
-						y="610"
-						text-anchor="middle"
-						class="flow-body flow-body--strong"
-						fill="var(--ink-bright)">&ldquo;the system underneath&rdquo;</text
-					>
-				</g>
-
-				<!-- T9 SAMPLE READ -->
-				<g aria-label="Type 9 read">
-					<rect
-						x="570"
-						y="520"
-						width="190"
-						height="120"
-						rx="8"
-						ry="8"
-						fill="var(--stone-warm)"
-						stroke="var(--stone-edge)"
-						stroke-width="1"
-					/>
-					<rect x="570" y="520" width="190" height="4" fill="var(--type-9-color)" />
-					<text x="665" y="552" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
-						>T9 · THE PEACEMAKER</text
-					>
-					<text
-						x="665"
-						y="582"
-						text-anchor="middle"
-						class="flow-body flow-body--italic"
-						fill="var(--ink-bright)">leads with</text
-					>
-					<text
-						x="665"
-						y="610"
-						text-anchor="middle"
-						class="flow-body flow-body--strong"
-						fill="var(--ink-bright)">&ldquo;the harmony&rdquo;</text
-					>
-				</g>
-
-				<text x="400" y="675" text-anchor="middle" class="flow-annotation" fill="var(--ink-dim)"
-					>... 6 MORE TYPED READS (T2, T3, T4, T6, T7, T8) ...</text
-				>
-
-				<line
-					x1="135"
-					y1="700"
-					x2="395"
-					y2="780"
-					stroke="var(--lamp-glow)"
-					stroke-width="2"
-					marker-end="url(#home-flow-arrowhead)"
-				/>
-				<line
-					x1="400"
-					y1="700"
-					x2="400"
-					y2="780"
-					stroke="var(--lamp-glow)"
-					stroke-width="2"
-					marker-end="url(#home-flow-arrowhead)"
-				/>
-				<line
-					x1="665"
-					y1="700"
-					x2="405"
-					y2="780"
-					stroke="var(--lamp-glow)"
-					stroke-width="2"
-					marker-end="url(#home-flow-arrowhead)"
-				/>
-
-				<!-- FINAL — THE PATTERN -->
-				<g aria-label="The pattern">
-					<rect
-						x="220"
-						y="790"
-						width="360"
-						height="160"
-						rx="8"
-						ry="8"
-						fill="var(--stone-warm)"
-						stroke="var(--lamp-glow)"
-						stroke-width="2"
-					/>
-					<text x="400" y="824" text-anchor="middle" class="flow-label" fill="var(--lamp-glow)"
-						>THE PATTERN</text
-					>
-					<text x="400" y="858" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
-						>you see what each type</text
-					>
-					<text x="400" y="880" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
-						>leads with &mdash; and what</text
-					>
-					<text x="400" y="902" text-anchor="middle" class="flow-body" fill="var(--ink-bright)"
-						>you&rsquo;ve been missing</text
-					>
-					<text x="400" y="932" text-anchor="middle" class="flow-annotation" fill="var(--ink-dim)"
-						>&mdash; OUTPUT &mdash;</text
-					>
-				</g>
-			</svg>
-
-			<div class="flow-mobile-list" aria-label="9takes mechanism flow">
-				<article class="flow-mobile-card">
-					<p class="mono flow-mobile-kicker">01 · YOUR SITUATION</p>
-					<h3>A real moment from your life</h3>
-				</article>
-
-				<div class="flow-mobile-arrow" aria-hidden="true">&darr;</div>
-
-				<article class="flow-mobile-card">
-					<p class="mono flow-mobile-kicker">02 · GIVE-FIRST LOCK</p>
-					<h3>Your honest take, written before the room shapes it</h3>
-				</article>
-
-				<div class="flow-mobile-arrow" aria-hidden="true">&darr;</div>
-
-				<article class="flow-mobile-card flow-mobile-card--accent">
-					<p class="mono flow-mobile-kicker">03 · 9 READS UNLOCK</p>
-					<h3>Fan-out by type</h3>
-				</article>
-
-				<div class="flow-mobile-fan" aria-label="Example type reads">
-					<article class="flow-mobile-read" style="--type-stripe: var(--type-1-color);">
-						<p class="mono flow-mobile-kicker">T1 · THE PERFECTIONIST</p>
-						<h3>Leads with &ldquo;what&rsquo;s broken&rdquo;</h3>
-					</article>
-					<article class="flow-mobile-read" style="--type-stripe: var(--type-5-color);">
-						<p class="mono flow-mobile-kicker">T5 · THE INVESTIGATOR</p>
-						<h3>Leads with &ldquo;the system underneath&rdquo;</h3>
-					</article>
-					<article class="flow-mobile-read" style="--type-stripe: var(--type-9-color);">
-						<p class="mono flow-mobile-kicker">T9 · THE PEACEMAKER</p>
-						<h3>Leads with &ldquo;the harmony&rdquo;</h3>
-					</article>
-				</div>
-
-				<p class="mono flow-mobile-note">+ 6 more typed reads</p>
-
-				<div class="flow-mobile-arrow" aria-hidden="true">&darr;</div>
-
-				<article class="flow-mobile-card flow-mobile-card--output">
-					<p class="mono flow-mobile-kicker">04 · THE PATTERN</p>
-					<h3>You see what each type leads with, and what you have been missing</h3>
-				</article>
-			</div>
+			<article class="flow-beat flow-beat--see">
+				<div class="flow-beat-marker" aria-hidden="true"><span>03</span></div>
+				<p class="mono flow-beat-kicker">03 · THE PATTERN APPEARS</p>
+				<h3>See what everyone was protecting.</h3>
+				<p>
+					The distance between the takes reveals the fear, pride, care, control, or longing
+					underneath.
+				</p>
+			</article>
 		</div>
+
+		<p class="mono flow-manifesto">
+			ONE SITUATION <span aria-hidden="true">·</span> NINE PERSPECTIVES
+			<span aria-hidden="true">·</span> NO CONSENSUS REQUIRED
+		</p>
 	</section>
 
 	<!-- =====================================================================
@@ -1757,150 +1472,200 @@
 		max-width: 580px;
 	}
 
-	.flow-diagram {
+	.flow-story {
 		position: relative;
 		z-index: 1;
-		max-width: 880px;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		max-width: 1100px;
 		margin: 0 auto;
-		padding: 8px;
+		border-block: 1px solid var(--stone-edge);
 	}
 
-	.flow-svg {
-		display: block;
-		width: 100%;
-		height: auto;
-		max-width: 100%;
+	.flow-story::before {
+		content: '';
+		position: absolute;
+		top: 31px;
+		left: calc(100% / 6);
+		right: calc(100% / 6);
+		height: 1px;
+		background: linear-gradient(
+			90deg,
+			color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-edge)),
+			color-mix(in srgb, var(--data-teal) 55%, var(--stone-edge)),
+			var(--stone-edge)
+		);
 	}
 
-	.flow-mobile-list {
-		display: none;
+	.flow-story::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		opacity: 0;
+		background: radial-gradient(
+			460px circle at var(--gathering-x, 50%) var(--gathering-y, 50%),
+			color-mix(in srgb, var(--lamp-glow) 12%, transparent) 0%,
+			color-mix(in srgb, var(--data-teal) 4%, transparent) 42%,
+			transparent 70%
+		);
+		transition: opacity 420ms ease;
 	}
 
-	.flow-svg :global(.flow-label) {
+	.flow-story:global([data-illuminated='true'])::after {
+		opacity: 1;
+	}
+
+	.flow-beat {
+		position: relative;
+		z-index: 1;
+		min-width: 0;
+		padding: 86px 34px 42px;
+	}
+
+	.flow-beat + .flow-beat {
+		border-left: 1px solid var(--stone-edge);
+	}
+
+	.flow-beat-marker {
+		position: absolute;
+		top: 18px;
+		left: 50%;
+		display: grid;
+		width: 28px;
+		height: 28px;
+		place-items: center;
+		translate: -50% 0;
+		border: 1px solid var(--stone-edge);
+		border-radius: 50%;
+		background: var(--night-mid);
+		color: var(--ink-mid);
 		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 500;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
+		font-size: 9px;
+		line-height: 1;
+		letter-spacing: 0.04em;
 	}
 
-	.flow-svg :global(.flow-body) {
-		font-family: var(--font-display);
-		font-size: 14px;
-		font-weight: 400;
+	.flow-beat--speak .flow-beat-marker {
+		border-color: color-mix(in srgb, var(--lamp-glow) 58%, var(--stone-edge));
+		color: var(--lamp-glow);
+		box-shadow: 0 0 18px rgba(var(--pool-rgb), var(--pool-alpha-low));
 	}
 
-	.flow-svg :global(.flow-body--mid) {
-		font-style: italic;
+	.flow-beat--listen .flow-beat-marker {
+		border-color: color-mix(in srgb, var(--data-teal) 52%, var(--stone-edge));
+		color: var(--data-teal);
 	}
 
-	.flow-svg :global(.flow-body--italic) {
-		font-style: italic;
-		font-size: 13px;
-	}
-
-	.flow-svg :global(.flow-body--strong) {
-		font-weight: 600;
-		font-size: 14px;
-	}
-
-	.flow-svg :global(.flow-annotation) {
-		font-family: var(--font-mono);
-		font-size: 10.5px;
-		font-weight: 500;
+	.flow-beat-kicker {
+		margin: 0 0 14px;
+		color: var(--ink-mid);
+		font-size: 11px;
+		line-height: 1.35;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 	}
 
+	.flow-beat h3 {
+		margin: 0 0 14px;
+		color: var(--ink-bright);
+		font-family: var(--font-display);
+		font-size: clamp(1.25rem, 1.8vw, 1.6rem);
+		font-weight: 500;
+		line-height: 1.15;
+		letter-spacing: -0.015em;
+	}
+
+	.flow-beat > p:last-child {
+		margin: 0;
+		color: var(--ink-mid);
+		font-family: var(--font-display);
+		font-size: 15px;
+		line-height: 1.6;
+	}
+
+	.flow-manifesto {
+		position: relative;
+		z-index: 1;
+		margin: 28px auto 0;
+		color: var(--ink-dim);
+		font-size: 10px;
+		letter-spacing: 0.14em;
+		line-height: 1.6;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.flow-manifesto span {
+		margin-inline: 0.55em;
+		color: var(--lamp-glow);
+	}
+
+	:global(:root.light) .home .flow-story::after {
+		background: radial-gradient(
+			460px circle at var(--gathering-x, 50%) var(--gathering-y, 50%),
+			color-mix(in srgb, var(--lamp-glow) 8%, transparent) 0%,
+			color-mix(in srgb, var(--data-teal) 3%, transparent) 42%,
+			transparent 70%
+		);
+	}
+
+	@media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
+		.flow-story::after {
+			display: none;
+		}
+	}
+
 	@media (max-width: 768px) {
-		.flow-diagram {
-			padding: 0;
+		.flow-header {
+			margin-bottom: 40px;
 		}
 
-		.flow-svg {
+		.flow-story {
+			grid-template-columns: 1fr;
+			border-block: 0;
+			border-left: 1px solid var(--stone-edge);
+		}
+
+		.flow-story::before {
 			display: none;
 		}
 
-		.flow-mobile-list {
-			display: grid;
-			gap: 12px;
+		.flow-beat {
+			padding: 2px 0 32px 42px;
 		}
 
-		.flow-mobile-card,
-		.flow-mobile-read {
-			position: relative;
-			overflow: hidden;
-			border: 1px solid var(--stone-edge);
-			border-radius: 1rem;
-			background: var(--stone-warm);
-			box-shadow: var(--shadow-sm);
+		.flow-beat + .flow-beat {
+			padding-top: 30px;
+			border-top: 1px solid var(--stone-edge);
+			border-left: 0;
 		}
 
-		.flow-mobile-card {
-			padding: 18px;
+		.flow-beat:last-child {
+			padding-bottom: 2px;
 		}
 
-		.flow-mobile-card--accent {
-			border-color: color-mix(in srgb, var(--lamp-glow) 42%, var(--stone-edge));
-		}
-
-		.flow-mobile-card--output {
-			border-color: var(--lamp-glow);
-		}
-
-		.flow-mobile-read {
-			padding: 16px;
-		}
-
-		.flow-mobile-read::before {
-			content: '';
-			position: absolute;
+		.flow-beat-marker {
 			top: 0;
 			left: 0;
-			right: 0;
-			height: 4px;
-			background: var(--type-stripe);
+			translate: -50% 0;
 		}
 
-		.flow-mobile-kicker {
-			margin: 0 0 8px;
-			color: var(--lamp-glow);
-			font-size: 12px;
-			letter-spacing: 0.08em;
-			text-transform: uppercase;
+		.flow-beat + .flow-beat .flow-beat-marker {
+			top: 28px;
 		}
 
-		.flow-mobile-card h3,
-		.flow-mobile-read h3 {
-			margin: 0;
-			color: var(--ink-bright);
-			font-family: var(--font-display);
+		.flow-beat h3 {
+			font-size: 21px;
+		}
+
+		.flow-beat > p:last-child {
 			font-size: 16px;
-			line-height: 1.35;
-			font-weight: 500;
 		}
 
-		.flow-mobile-fan {
-			display: grid;
-			gap: 10px;
-		}
-
-		.flow-mobile-arrow,
-		.flow-mobile-note {
-			justify-self: center;
-			color: var(--ink-dim);
-		}
-
-		.flow-mobile-arrow {
-			font-size: 20px;
-			line-height: 1;
-		}
-
-		.flow-mobile-note {
-			margin: 0;
-			font-size: 12px;
-			letter-spacing: 0.1em;
-			text-transform: uppercase;
+		.flow-manifesto {
+			margin-top: 38px;
+			max-width: 290px;
 		}
 	}
 
