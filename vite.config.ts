@@ -2,7 +2,6 @@
 import { enhancedImages } from '@sveltejs/enhanced-img';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { svelteTesting } from '@testing-library/svelte/vite';
-import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createLogger } from 'vite';
@@ -36,7 +35,7 @@ function injectGlobalScssMixins(source: string, filename?: string): string {
 const logger = createLogger();
 const originalWarn = logger.warn.bind(logger);
 logger.warn = (msg, options) => {
-	// Suppress flowbite-svelte Carousel sourcemap/annotation warnings
+	// Suppress unactionable third-party sourcemap/annotation warnings.
 	if (msg.includes('sourcemap for reporting an error') && msg.includes('node_modules')) return;
 	if (
 		msg.includes('contains an annotation that Rollup cannot interpret') &&
@@ -49,7 +48,7 @@ logger.warn = (msg, options) => {
 /** @type {import('vite').UserConfig} */
 const config = {
 	customLogger: logger,
-	plugins: [enhancedImages(), sveltekit(), svelteTesting(), nodeLoaderPlugin()],
+	plugins: [enhancedImages(), sveltekit(), svelteTesting()],
 	resolve: {
 		preserveSymlinks: false
 	},

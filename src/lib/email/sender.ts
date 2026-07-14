@@ -150,13 +150,12 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 			throw new Error('privateKey field is missing from PRIVATE_gmail_private_key');
 		}
 
-		const authClient = new google.auth.JWT(
-			'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
-			'',
-			privateKey,
-			['https://www.googleapis.com/auth/gmail.send'],
-			'usersup@9takes.com'
-		);
+		const authClient = new google.auth.JWT({
+			email: 'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
+			key: privateKey,
+			scopes: ['https://www.googleapis.com/auth/gmail.send'],
+			subject: 'usersup@9takes.com'
+		});
 
 		const gmail = google.gmail({
 			auth: authClient,

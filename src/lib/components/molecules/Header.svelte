@@ -1,6 +1,7 @@
 <!-- src/lib/components/molecules/Header.svelte -->
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
+	import { resolve } from '$app/paths';
 	import { page } from '$app/stores';
 	import MobileNav from './MobileNavNew.svelte';
 	import HeaderSearch from './HeaderSearch.svelte';
@@ -8,14 +9,26 @@
 	import { Button } from '$lib/components/atoms';
 	import { getAuthShellUser } from '$lib/authShell';
 	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
-	// Phase 3 (2026-05-04): inline SVGs migrated to lucide-svelte per design-system.md
+	// Phase 3 (2026-05-04): inline SVGs migrated to @lucide/svelte per design-system.md
 	// rollout-plan Phase 3. Stroke widths normalized to Lucide defaults (1.5).
-	import { CircleUserRound, ChevronDown } from 'lucide-svelte';
+	import { CircleUserRound, ChevronDown } from '@lucide/svelte';
 
 	const authUser = getAuthShellUser();
 
+	type NavigationHref =
+		| '/'
+		| '/about'
+		| '/book-session'
+		| '/community'
+		| '/corpus-stats'
+		| '/enneagram-corner'
+		| '/how-to-guides'
+		| '/personality-analysis'
+		| '/pop-culture'
+		| '/questions';
+
 	interface NavigationItem {
-		href: string;
+		href: NavigationHref;
 		label: string;
 		description?: string;
 		featured?: boolean;
@@ -64,10 +77,14 @@
 		}
 	];
 
-	let isLibraryOpen = false;
+	let isLibraryOpen = $state(false);
 
-	$: isLibraryActive = libraryItems.some((item) =>
-		item.href === '/' ? $page.url.pathname === item.href : $page.url.pathname.startsWith(item.href)
+	let isLibraryActive = $derived(
+		libraryItems.some((item) =>
+			item.href === '/'
+				? $page.url.pathname === item.href
+				: $page.url.pathname.startsWith(item.href)
+		)
 	);
 
 	afterNavigate(() => {
@@ -95,18 +112,23 @@
 		<div class="mobile-top-row">
 			<MobileNav navItems={mobileNavItems} {libraryItems} />
 
-			<a href="/" class="logo-link" aria-label="Go to homepage">
+			<a href={resolve('/')} class="logo-link" aria-label="Go to homepage">
 				<span class="logo-text">9takes</span>
 			</a>
 
 			<div class="header-actions mobile-actions">
 				<ThemeToggle />
 				{#if $authUser}
-					<a href="/account" class="account-button" aria-label="Go to account" title="Account">
+					<a
+						href={resolve('/account')}
+						class="account-button"
+						aria-label="Go to account"
+						title="Account"
+					>
 						<CircleUserRound size={24} strokeWidth={1.5} class="account-icon" />
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-					<a href="/login" class="mobile-login">Log in</a>
+					<a href={resolve('/login')} class="mobile-login">Log in</a>
 				{/if}
 			</div>
 		</div>
@@ -119,7 +141,7 @@
 	</div>
 
 	<nav class="header-frame" aria-label="Main navigation">
-		<a href="/" class="logo-link" aria-label="Go to homepage">
+		<a href={resolve('/')} class="logo-link" aria-label="Go to homepage">
 			<span class="logo-text">9takes</span>
 		</a>
 
@@ -136,7 +158,7 @@
 					aria-haspopup="true"
 					aria-expanded={isLibraryOpen}
 					aria-controls="desktop-library-menu"
-					on:click={toggleLibrary}
+					onclick={toggleLibrary}
 				>
 					<span class="library-button-spacer" aria-hidden="true"></span>
 					<span class="library-button-label">Library</span>
@@ -149,13 +171,13 @@
 
 				{#if isLibraryOpen}
 					<div id="desktop-library-menu" class="library-menu">
-						{#each libraryItems as item}
+						{#each libraryItems as item (item.href)}
 							<a
-								href={item.href}
+								href={resolve(item.href)}
 								class="library-item"
 								class:is-current={isActive(item.href)}
 								class:is-featured={item.featured}
-								on:click={closeLibrary}
+								onclick={closeLibrary}
 							>
 								<span class="library-label">{item.label}</span>
 								{#if item.description}
@@ -171,11 +193,16 @@
 		<div class="header-actions">
 			<ThemeToggle />
 			{#if $authUser}
-				<a href="/account" class="account-button" aria-label="Go to account" title="Account">
+				<a
+					href={resolve('/account')}
+					class="account-button"
+					aria-label="Go to account"
+					title="Account"
+				>
 					<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
 				</a>
 			{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-				<Button href="/login" class="desktop-login">Log in</Button>
+				<Button href={resolve('/login')} class="desktop-login">Log in</Button>
 			{/if}
 		</div>
 	</nav>
@@ -237,7 +264,7 @@
 		color: var(--lamp-glow);
 	}
 
-	.desktop-login {
+	.header-shell :global(.desktop-login) {
 		padding-inline: 1rem;
 		white-space: nowrap;
 	}
@@ -387,7 +414,7 @@
 		color: color-mix(in srgb, var(--ink-mid) 82%, var(--lamp-glow));
 	}
 
-	.dropdown-arrow {
+	.library-button :global(.dropdown-arrow) {
 		width: 0.95rem;
 		height: 0.95rem;
 		color: color-mix(in srgb, var(--ink-mid) 72%, var(--lamp-glow));

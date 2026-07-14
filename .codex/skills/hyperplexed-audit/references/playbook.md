@@ -246,7 +246,7 @@ surfaces, and one intentional signature moment when earned.
    Static UI uses borders; shadows are for hover/floating UI.
 6. **Overflow is explicit** — audit every label, title, person name, question, answer, tag, and email
    that can run long for truncation, line clamps, or a mobile fallback.
-7. **Icons and imagery** — 9takes has no canonical icon atom yet. Prefer `lucide-svelte` for new line
+7. **Icons and imagery** — 9takes has no canonical icon atom yet. Prefer `@lucide/svelte` for new line
    icons, keep stroke weight/box size consistent, and use scrims whenever text sits over imagery.
 8. **Motion restraint + a11y** — respect `prefers-reduced-motion`; verify keyboard operation of any
    custom control; remove gratuitous overlays; prefer `Button`, `Modal`, and `Callout` atoms when applicable.

@@ -1,0 +1,26 @@
+**Publish blocked — no eligible draft found.**
+
+The gate ran across all **473** candidates and rejected every one. Nothing was published; no files were changed.
+
+**Why nothing published:** All 90 genuinely-unpublished drafts (`published: false`) carry at least one blocker. Blocker breakdown across all candidates:
+
+| Count | Blocker | Fix |
+|---|---|---|
+| 399 | `missing_grade_stability_delta` | Re-run `/grade_blog` (supervised regrade to record delta) |
+| 397 | `source_standard_failed` | Tag the epigraph/cold-open quote source |
+| 331 | `stale_grade_rubric_v1` | Re-run `/grade_blog` (upgrade v1→v2 grade) |
+| 76 / 76 | `missing_full_image` / `missing_thumbnail_image` | Generate hero + thumbnail |
+| 35 | `content_quality_below_8.5` | Revise + regrade above bar |
+| 35 | `missing_content_quality` | Grade the draft |
+
+**Closest-to-ready unpublished drafts** (highest grade, fewest/most-fixable blockers):
+
+- **`hailee-steinfeld`** (8.6) — *single blocker:* `missing_grade_stability_delta`. Images present, rubric v2, above bar. One supervised `/grade_blog` run from eligible.
+- **`victoria-justice`** (9.0), **`alex-warren`** (8.9), **`olivia-wilde`** (8.8), **`glen-powell`** (8.5), **`greta-gerwig`** (8.5) — each needs only a regrade (`missing_grade_stability_delta`) + quote-source tag (`source_standard_failed`); images already present.
+- High-grade drafts **`clint-eastwood`** (9.3), **`frank-lloyd-wright`** (9.3), **`britney-spears`** (9.2), **`ninja`** (9.2) score well but need stale-grade re-run **and** both images generated.
+
+**Blockers:**
+- No publishable draft found. Checked 473 candidate(s); 90 unpublished, 0 eligible.
+- Dominant gate failures: stale/incomplete grades (need `/grade_blog`), untagged epigraph/cold-open quotes, and missing hero/thumbnail images.
+
+Per this command's scope, I stopped at the gate rather than re-grading, tagging quotes, or generating images — those are owned by `/grade_blog` and the image pipeline. Fastest path to a publish: run `/grade_blog` on **hailee-steinfeld** (one blocker away), then re-run `/blog_content_publish_people`. Want me to kick that off?

@@ -6,6 +6,7 @@ import type { Database } from '../../../../../../database.types';
 
 type ConsultingClient = Database['public']['Tables']['consulting_clients']['Row'];
 type ConsultingSession = Database['public']['Tables']['consulting_sessions']['Row'];
+type ConsultingSessionUpdate = Database['public']['Tables']['consulting_sessions']['Update'];
 type ConsultingNote = Database['public']['Tables']['consulting_client_notes']['Row'];
 type ConsultingIntakeForm = Database['public']['Tables']['consulting_intake_forms']['Row'];
 
@@ -486,7 +487,7 @@ export const actions: Actions = guardAdminActions({
 			return fail(400, { error: 'Status required' });
 		}
 
-		const updates: Record<string, any> = {
+		const updates: ConsultingSessionUpdate = {
 			status,
 			updated_at: new Date().toISOString()
 		};
@@ -496,9 +497,9 @@ export const actions: Actions = guardAdminActions({
 			updates.started_at = new Date().toISOString();
 		}
 
-		// Set completed_at when completing
+		// Sessions use ended_at as the completion timestamp in the database schema.
 		if (status === 'completed') {
-			updates.completed_at = new Date().toISOString();
+			updates.ended_at = new Date().toISOString();
 		}
 
 		const { error: updateError } = await locals.supabase
@@ -615,7 +616,7 @@ export const actions: Actions = guardAdminActions({
 	updateSession: async ({ request, params, locals }) => {
 		const formData = await request.formData();
 
-		const updates: Record<string, any> = {
+		const updates: ConsultingSessionUpdate = {
 			updated_at: new Date().toISOString()
 		};
 

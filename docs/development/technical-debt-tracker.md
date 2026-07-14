@@ -2,11 +2,12 @@
 
 # Technical Debt Tracker
 
-Last verified: 2026-03-29
+Broad UI inventory last verified: 2026-03-29
+Dependency and typecheck status last verified: 2026-07-14
 
 ---
 
-This document tracks technical debt that is verified in the current tree. Counts below were checked on March 29, 2026 with local code search, and dependency versions were spot-checked against the npm registry on the same date.
+This document tracks technical debt that is verified in the current tree. The broad UI counts were checked on March 29, 2026; dependency versions and the typecheck baseline were reverified on July 14, 2026.
 
 Out of scope for this tracker:
 
@@ -18,13 +19,23 @@ Out of scope for this tracker:
 
 1. Theme token debt in shared UI
 2. Dual-value Svelte 5 and typecheck hotspots in shared components and route shells
-3. Repo-wide `npm run check` backlog
+3. Repo-wide Svelte warning cleanup
 4. Dependency upgrade planning for packages with large major-version gaps
 5. Final rollout step for the new error-tracking migration
 
 ---
 
-## Recently Fixed On March 29, 2026
+## Recently Fixed
+
+### July 14, 2026
+
+- Completed the Node 22/pnpm 11 dependency-security wave and removed the unused FingerprintJS, Supabase auth-helper, Vavite loader, Flowbite Svelte, Mermaid, and legacy Lucide packages
+- Migrated Supabase SSR cookies to `getAll`/`setAll`, updated Google JWT construction, and aligned Lucide imports with `@lucide/svelte`
+- Reduced the dependency audit to one moderate and one low advisory whose fixed releases are not yet published
+- Restored a clean peer graph with a single PostCSS 8.5.19 resolution
+- Reached a repo-wide Svelte check baseline of 0 errors and 126 warnings in 44 files
+
+### March 29, 2026
 
 - Migrated 10 shared Svelte components to `$props`/runes, including `SEOHead`, `BlogPageHead`, `PeopleBlogPageHead`, `ModalNew`, and the shared question/blog display components
 - Follow-up Svelte pass migrated `ComboBox.svelte` and `SearchQuestion.svelte` to runes-style props/state, removed `ComboBox` from the top Svelte/typecheck hotspot list, and typed the shared `onClickOutside` action in `Context.svelte`
@@ -44,7 +55,7 @@ Out of scope for this tracker:
 **Impact**: Mixed component style, slower adoption of Svelte 5 runes
 **Effort**: Large
 
-The project already runs `svelte@^5.46.1`, but a large part of the UI still uses legacy component syntax. That is not broken by itself, but it keeps the codebase split between two mental models.
+The project now runs `svelte@^5.56.5`, but a large part of the UI still uses legacy component syntax. That is not broken by itself, but it keeps the codebase split between two mental models.
 
 ### Verified inventory
 
@@ -182,73 +193,59 @@ That result is too noisy to treat as a direct work queue. It includes intentiona
 **Impact**: Security, missing features, API drift
 **Effort**: Medium to high
 
-Current versions below are the declared versions in `package.json`, and latest versions were checked against npm on March 29, 2026. Because the repo uses caret ranges, the installed patch or minor version in the lockfile may be slightly newer.
+Current versions below are installed versions from the lockfile, and latest versions were checked against npm on July 14, 2026.
 
-Progress note: `@fingerprintjs/fingerprintjs` was upgraded from `^4.5.0` to `^5.1.0` on March 29, 2026 and verified against the existing `Interact.spec.ts` test.
+The July 14 security wave completed current patch/minor upgrades and removed unused or deprecated packages. The remaining queue is intentionally limited to breaking-major migrations.
 
 ### Highest-risk gaps
 
-| Package                | Declared   | Latest   | Gap        | Notes                                |
-| ---------------------- | ---------- | -------- | ---------- | ------------------------------------ |
-| `stripe`               | `^11.18.0` | `21.0.1` | +10 majors | Likely webhook and API-surface churn |
-| `@vavite/node-loader`  | `^1.8.3`   | `5.1.0`  | +4 majors  | Dev/runtime integration risk         |
-| `postcss-preset-env`   | `^7.8.3`   | `11.2.0` | +4 majors  | Build pipeline behavior may shift    |
-| `eslint`               | `^8.57.1`  | `10.1.0` | +2 majors  | Config and plugin compatibility      |
-| `@typescript-eslint/*` | `^6.21.0`  | `8.57.2` | +2 majors  | Should move with ESLint              |
-| `flowbite`             | `^2.5.1`   | `4.0.1`  | +2 majors  | Component and styling API drift      |
-| `postcss-load-config`  | `^4.0.2`   | `6.0.1`  | +2 majors  | Build tooling change surface         |
+| Package                | Current   | Latest   | Gap        | Notes                                |
+| ---------------------- | --------- | -------- | ---------- | ------------------------------------ |
+| `stripe`               | `11.18.0` | `22.3.1` | +11 majors | Likely webhook and API-surface churn |
+| `postcss-preset-env`   | `7.8.3`   | `11.3.2` | +4 majors  | Build pipeline behavior may shift    |
+| `eslint`               | `8.57.1`  | `10.7.0` | +2 majors  | Config and plugin compatibility      |
+| `@typescript-eslint/*` | `6.21.0`  | `8.64.0` | +2 majors  | Should move with ESLint              |
+| `flowbite`             | `2.5.2`   | `4.0.2`  | +2 majors  | Styling API drift                    |
+| `postcss-load-config`  | `4.0.2`   | `6.0.1`  | +2 majors  | Build tooling change surface         |
+| `typescript`           | `5.9.2`   | `7.0.2`  | +2 majors  | Compiler and ecosystem compatibility |
 
 ### Next wave
 
-| Package                        | Declared   | Latest   | Gap      |
-| ------------------------------ | ---------- | -------- | -------- |
-| `flowbite-svelte`              | `^0.46.16` | `1.33.0` | +1 major |
-| `@elastic/elasticsearch`       | `^8.15.0`  | `9.3.4`  | +1 major |
-| `@sveltejs/vite-plugin-svelte` | `^6.2.4`   | `7.0.0`  | +1 major |
-| `jspdf`                        | `^3.0.1`   | `4.2.1`  | +1 major |
-| `supabase` (CLI)               | `^1.192.5` | `2.84.4` | +1 major |
+| Package                        | Current   | Latest    | Gap      |
+| ------------------------------ | --------- | --------- | -------- |
+| `@elastic/elasticsearch`       | `8.19.0`  | `9.4.2`   | +1 major |
+| `@sveltejs/vite-plugin-svelte` | `6.2.4`   | `7.2.0`   | +1 major |
+| `supabase` (CLI)               | `1.226.4` | `2.109.1` | +1 major |
+| `tailwindcss`                  | `3.4.17`  | `4.3.2`   | +1 major |
+| `vite`                         | `7.3.5`   | `8.1.4`   | +1 major |
+| `zod`                          | `3.25.76` | `4.4.3`   | +1 major |
 
 ### Notes
 
 - Do not mass-upgrade all of these together
 - Treat lint stack upgrades, build stack upgrades, and runtime SDK upgrades as separate efforts
-- `flowbite` and `flowbite-svelte` should be evaluated together
+- `flowbite-svelte` has been removed; evaluate the remaining `flowbite` Tailwind plugin independently
 - `@sveltejs/vite-plugin-svelte` should be considered alongside the current SvelteKit version, not in isolation
 
 ---
 
 ## 4. Repo-wide Typecheck and Compiler Backlog
 
-**Status**: Open, verified with `npm run check`
-**Impact**: Prevents a clean static check baseline and makes new regressions harder to spot
-**Effort**: Large
+**Status**: Error-free; warning cleanup remains
+**Impact**: Warning noise can still hide new accessibility, reactivity, and CSS regressions
+**Effort**: Medium
 
-The current repo-wide check run reports **194 errors and 188 warnings in 69 files**. This is a separate debt bucket from Svelte 5 migration work: some files overlap, but a large share of the backlog is plain TypeScript, stale CSS noise, and route-level runes migration issues.
+The July 14, 2026 Node 22 check reports **0 errors and 126 warnings in 44 files**.
 
 ### Dominant diagnostic buckets
 
-These are counts of reported occurrences in the current `npm run check` output, not normalized root-cause groups.
+The remaining output is primarily:
 
-- 103 `css_unused_selector` warnings
-- 63 `Type '...' is not assignable to type '...'` errors
-- 47 diagnostics containing `implicitly has an 'any' type`
-- 11 `No index signature ...` errors
-- 8 `No overload matches this call` errors
-- 1 missing declaration-file error (`opentype.js`)
-- 1 remaining `<slot>` deprecation warning
-
-### Highest-volume files in the current output
-
-- `src/routes/admin/comments/+page.svelte` (30)
-- `src/routes/admin/links/[slug]/+page.svelte` (24)
-- `src/routes/admin/content-board/+page.svelte` (20)
-- `src/routes/admin/email-dashboard/+page.svelte` (17)
-- `src/routes/test-solo-leveling/+page.svelte` (16)
-- `src/lib/components/molecules/LinkMap.svelte` (15)
-- `src/lib/components/questions/QuestionItem.svelte` (14)
-- `src/lib/components/molecules/MobileNav.svelte` (14)
-- `src/lib/components/molecules/MobileNavNew.svelte` (13)
-- `src/lib/components/molecules/QuestionSearch.svelte` (12)
+- Unused scoped CSS selectors
+- Accessibility warnings for click-handled containers and unlabeled icon buttons
+- Svelte 5 `state_referenced_locally` warnings
+- Legacy `<slot>` and event-handler syntax
+- CSS compatibility warnings such as `line-clamp`
 
 ### Most actionable next splits
 
@@ -256,7 +253,7 @@ These are counts of reported occurrences in the current `npm run check` output, 
 - Shared component cleanup: `LinkMap.svelte`, `QuestionItem.svelte`, `MobileNav.svelte`, `MobileNavNew.svelte`, and `QuestionSearch.svelte` can reduce both theme debt and `css_unused_selector`/typing noise
 - Shared Svelte hotspots: `Comments.svelte`, `TableOfContents.svelte`, `src/routes/+layout.svelte`, and `src/routes/personality-analysis/[slug]/+page.svelte` still offer dual-value Svelte 5 plus check-backlog wins
 - CSS warning triage: remove or scope stale selectors instead of carrying forward `css_unused_selector` noise
-- Third-party typing gap: add a local `opentype.js` declaration unless that package is removed or typed upstream
+- Keep the 0-error baseline as a required gate while reducing warning groups incrementally
 
 ---
 

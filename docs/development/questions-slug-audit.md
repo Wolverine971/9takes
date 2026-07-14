@@ -313,18 +313,11 @@ on:click={toggleLike}
 **Impact:** Inconsistent styling approach, larger bundle
 **Fix:** Migrate to Tailwind for consistency
 
-#### CQ-007: Duplicated fingerprint loading logic
+#### CQ-007: Duplicated fingerprint loading logic — resolved
 
 **Files:** `Interact.svelte:76-89`, `Comment.svelte:199-211`
 
-```typescript
-// Same fingerprint loading code duplicated
-const FingerprintJS = (await import('@fingerprintjs/fingerprintjs')).default;
-const fp = await FingerprintJS.load();
-const fpval = await fp.get();
-```
-
-**Fix:** Extract to shared utility function
+Both components now use the shared `getOrCreateVisitorId()` utility. The unused FingerprintJS dependency was removed in the July 14, 2026 dependency-security wave.
 
 #### CQ-008: Circular component dependency
 

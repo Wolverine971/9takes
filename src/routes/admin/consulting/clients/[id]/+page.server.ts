@@ -5,6 +5,7 @@ import { guardAdminActions } from '$lib/server/adminAuth';
 import type { Database } from '../../../../../../database.types';
 
 type ConsultingClient = Database['public']['Tables']['consulting_clients']['Row'];
+type ConsultingClientUpdate = Database['public']['Tables']['consulting_clients']['Update'];
 type ConsultingSession = Database['public']['Tables']['consulting_sessions']['Row'];
 type ConsultingNote = Database['public']['Tables']['consulting_client_notes']['Row'];
 type ConsultingIntakeForm = Database['public']['Tables']['consulting_intake_forms']['Row'];
@@ -81,14 +82,17 @@ export const actions: Actions = guardAdminActions({
 		const formData = await request.formData();
 		const supabase = locals.supabase;
 
-		const updates: Record<string, any> = {
+		const updates: ConsultingClientUpdate = {
 			updated_at: new Date().toISOString()
 		};
 
-		// Collect all fields that were submitted
-		const fields = [
-			'name',
-			'email',
+		const requiredStringFields = ['name', 'email'] as const;
+		for (const field of requiredStringFields) {
+			const value = formData.get(field);
+			if (value !== null) updates[field] = value.toString();
+		}
+
+		const nullableStringFields = [
 			'phone',
 			'status',
 			'trust_layer',
@@ -98,17 +102,17 @@ export const actions: Actions = guardAdminActions({
 			'instinctual_variant',
 			'notes',
 			'initial_goal'
-		];
+		] as const;
 
-		for (const field of fields) {
+		for (const field of nullableStringFields) {
 			const value = formData.get(field);
-			if (value !== null) {
-				if (field === 'enneagram_type' || field === 'enneagram_wing') {
-					updates[field] = value ? parseInt(value.toString()) : null;
-				} else {
-					updates[field] = value.toString() || null;
-				}
-			}
+			if (value !== null) Object.assign(updates, { [field]: value.toString() || null });
+		}
+
+		const numberFields = ['enneagram_type', 'enneagram_wing'] as const;
+		for (const field of numberFields) {
+			const value = formData.get(field);
+			if (value !== null) updates[field] = value ? parseInt(value.toString()) : null;
 		}
 
 		const enneagramConfirmed = formData.get('enneagram_confirmed');

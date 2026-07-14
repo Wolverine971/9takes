@@ -447,7 +447,7 @@ Add a `safelist` regex to `tailwind.config.ts` so dynamic class names (`bg-{ramp
 
 Things deferred — capture here so they're not lost.
 
-- [ ] **Iconography library.** Recommendation: `lucide-svelte` (Feather-lineage, tree-shakeable, themeable via `currentColor`). 27 hand-rolled icons get replaced one route at a time. Stroke width = 1.5 (matches Lucide default). Custom Enneagram-type symbols stay (different category).
+- [ ] **Iconography library.** Recommendation: `@lucide/svelte` (Feather-lineage, tree-shakeable, themeable via `currentColor`). 27 hand-rolled icons get replaced one route at a time. Stroke width = 1.5 (matches Lucide default). Custom Enneagram-type symbols stay (different category).
 - [ ] **Logo system.** `aero.webp` is the current header/footer logo. 8 color variants exist (`aria/fresco/nimbus/oceanic/polar/dark-rubix/rock-rubix`) with no documented usage rules. Decide: which variants survive, which are deleted?
 - [ ] **Photography direction.** Greek statues (`greek_distorted_statue_face.png`), philosopher gathering, cyber campfire — three different aesthetics in the hero rotation. Pick one or document the rule.
 - [ ] **Brand-flavored dark mode personality.** Current dark mode is "warm stone" (brown undertone) — feels intentional. Confirm or pick differently (e.g. "deep teal-tinted").

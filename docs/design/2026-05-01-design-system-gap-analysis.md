@@ -218,7 +218,7 @@ ThemeToggle.svelte              // ✅ shipped, good
 - Naming: `leftIcon`, `arrowRightIcon`, `commentsIcon`, `CommentXMarkIcon`, `enneagram`, `rubix`, `NO-caseyNeistatCareer.svelte` — chaos
 - No tooltip discipline — non-obvious icons (header library dropdown) are unlabeled
 
-**No icon library.** `lucide-svelte` is the recommendation per Kole audit Week 2.
+**No icon library.** `@lucide/svelte` is the recommendation per Kole audit Week 2.
 
 ### Imagery
 
@@ -275,7 +275,7 @@ This sequence assumes Direction A (Warm Tech Spec) gets ratified — adjust if D
 ### Phase 2 — Component canonicalization (weeks 3–4)
 
 8. Build canonical `<Button>` atom (replaces `LoadingButton` + inline gradient buttons).
-9. Adopt `lucide-svelte`. Replace 27 hand-rolled icons one route at a time.
+9. Adopt `@lucide/svelte`. Replace 27 hand-rolled icons one route at a time.
 10. Pick one Skeleton, one Rubix, one MobileNav. Delete the others.
 11. Rename `Modal2.svelte` → `Modal.svelte` (12 import-path updates).
 12. Build `<EmptyState>` and `<ErrorState>` atoms. Wire into search routes.

@@ -227,7 +227,7 @@ Kole's recipe is the inverse of what we do today:
 
 | Severity | Fix                                                                                                                                                                                                                                                                         |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🔴       | **Adopt a single icon library.** Recommended: [`lucide-svelte`](https://lucide.dev/) — same family Kole praises (Feather lineage), tree-shakeable, themeable via `currentColor`. Add `lucide-svelte` to deps, replace existing icons one route at a time.                   |
+| 🔴       | **Adopt a single icon library.** Recommended: [`@lucide/svelte`](https://lucide.dev/) — same family Kole praises (Feather lineage), tree-shakeable, themeable via `currentColor`. Add `@lucide/svelte` to deps, replace existing icons one route at a time.                 |
 | 🔴       | **Standardize stroke width = 1.5** (matches Lucide's default and the existing Header icons). Update remaining custom icons to match.                                                                                                                                        |
 | 🟡       | **Replace inline SVGs in `Header.svelte`** with `<UserCircle />` and `<ChevronDown />` from the chosen library.                                                                                                                                                             |
 | 🟡       | Remove the hardcoded `stroke="#BE26D7"` from `rubix.svelte` — replace with `currentColor` so it themes correctly.                                                                                                                                                           |
@@ -375,13 +375,13 @@ Add to `.eslintrc` / stylelint:
 ### Week 2 — Component canonicalization
 
 4. **Pick the canonical primary button** and roll out across `Comment.svelte`, `/questions/create`, `/book-session`. (§4 🔴, §7 🟡)
-5. **Adopt `lucide-svelte`** as the icon library. Replace icons in `Header.svelte` first (highest visibility). (§5 🔴)
+5. **Adopt `@lucide/svelte`** as the icon library. Replace icons in `Header.svelte` first (highest visibility). (§5 🔴)
 6. **Delete dead components** — `MobileNav.svelte`, second Rubix/Skeleton, `NO-caseyNeistatCareer.svelte`. (§4 🔴, §6 🟡)
 
 ### Week 3 — Consistency and lint
 
 7. **Standardize corner radius** — `rounded-md` for buttons/inputs/chips, `rounded-xl` for cards, `rounded-full` for avatars. Add stylelint rule. (§4 🔴)
-8. **Migrate remaining icons** to `lucide-svelte` in route order: top-traffic first (`/personality-analysis`, `/questions`, `/`). (§5 🔴)
+8. **Migrate remaining icons** to `@lucide/svelte` in route order: top-traffic first (`/personality-analysis`, `/questions`, `/`). (§5 🔴)
 9. **Reconcile token sources** between `tailwind.config.ts` and `index.scss`. (Cross-cutting #1)
 
 ### Week 4 — Charts and polish

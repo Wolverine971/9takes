@@ -1,6 +1,4 @@
 // src/routes/calendar/+page.server.ts
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-
 import { PRIVATE_gmail_private_key } from '$env/static/private';
 
 import content from './events.json';
@@ -31,7 +29,7 @@ export const load: PageServerLoad = async (event) => {
 
 		return {
 			// events: res.data,
-			session: await getServerSession(event)
+			session: event.locals.session
 		};
 	} catch (e) {
 		console.log(e);
@@ -74,13 +72,12 @@ export const actions: Actions = {
 
 		try {
 			const { privateKey } = JSON.parse(PRIVATE_gmail_private_key);
-			const authClient = new google.auth.JWT(
-				'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
-				undefined,
-				privateKey,
-				['https://www.googleapis.com/auth/calendar'],
-				'usersup@9takes.com'
-			);
+			const authClient = new google.auth.JWT({
+				email: 'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
+				key: privateKey,
+				scopes: ['https://www.googleapis.com/auth/calendar'],
+				subject: 'usersup@9takes.com'
+			});
 
 			const calendar = google.calendar({ version: 'v3', auth: authClient });
 
@@ -199,13 +196,12 @@ const makeBody = ({
 const sendEmail = async ({ to, subject, body }: { to: string; subject: string; body: string }) => {
 	try {
 		const { privateKey } = JSON.parse(PRIVATE_gmail_private_key);
-		const authClient = new google.auth.JWT(
-			'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
-			undefined,
-			privateKey,
-			['https://www.googleapis.com/auth/gmail.send'],
-			'usersup@9takes.com'
-		);
+		const authClient = new google.auth.JWT({
+			email: 'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
+			key: privateKey,
+			scopes: ['https://www.googleapis.com/auth/gmail.send'],
+			subject: 'usersup@9takes.com'
+		});
 		const gmail = google.gmail({
 			auth: authClient,
 			version: 'v1'

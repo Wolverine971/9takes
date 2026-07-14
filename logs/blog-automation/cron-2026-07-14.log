@@ -1,0 +1,4 @@
+[2026-07-14 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-14 02:00:00] [ERROR] Queue is empty (or every candidate already has a draft) — nothing to run
+[2026-07-14 02:00:00] [INFO] NOTIFY: 9takes nightly blog: queue is EMPTY — refill docs/blog-automation/backlog-queue.json
+[2026-07-14 02:00:00] [INFO] Nightly blog cron finished

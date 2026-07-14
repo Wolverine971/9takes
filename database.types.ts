@@ -818,6 +818,8 @@ export type Database = {
           modified_at: string | null
           parent_id: number | null
           parent_type: string | null
+          removed: boolean
+          removed_at: string | null
         }
         Insert: {
           author_id?: string | null
@@ -832,6 +834,8 @@ export type Database = {
           modified_at?: string | null
           parent_id?: number | null
           parent_type?: string | null
+          removed?: boolean
+          removed_at?: string | null
         }
         Update: {
           author_id?: string | null
@@ -846,6 +850,8 @@ export type Database = {
           modified_at?: string | null
           parent_id?: number | null
           parent_type?: string | null
+          removed?: boolean
+          removed_at?: string | null
         }
         Relationships: [
           {
@@ -3444,12 +3450,14 @@ export type Database = {
           created_at: string
           data: Json | null
           es_id: string | null
+          flagged: boolean | null
           id: number
           img_url: string | null
           name: string | null
           question: string | null
           question_formatted: string | null
           removed: boolean | null
+          tagged: boolean | null
           updated_at: string
           url: string | null
         }
@@ -3460,12 +3468,14 @@ export type Database = {
           created_at?: string
           data?: Json | null
           es_id?: string | null
+          flagged?: boolean | null
           id?: number
           img_url?: string | null
           name?: string | null
           question?: string | null
           question_formatted?: string | null
           removed?: boolean | null
+          tagged?: boolean | null
           updated_at?: string
           url?: string | null
         }
@@ -3476,12 +3486,14 @@ export type Database = {
           created_at?: string
           data?: Json | null
           es_id?: string | null
+          flagged?: boolean | null
           id?: number
           img_url?: string | null
           name?: string | null
           question?: string | null
           question_formatted?: string | null
           removed?: boolean | null
+          tagged?: boolean | null
           updated_at?: string
           url?: string | null
         }

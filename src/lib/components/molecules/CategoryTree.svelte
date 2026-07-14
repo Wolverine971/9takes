@@ -1,8 +1,9 @@
 <!-- src/lib/components/molecules/CategoryTree.svelte -->
 <script lang="ts">
-	import { A } from 'flowbite-svelte';
+	import { resolve } from '$app/paths';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import { slide } from 'svelte/transition';
+	import Self from './CategoryTree.svelte';
 
 	interface Category {
 		id: number;
@@ -11,8 +12,12 @@
 		children?: Category[];
 	}
 
-	export let category: Category;
-	let expanded = category.level === 1;
+	let { category }: { category: Category } = $props();
+	let expanded = $state(isInitiallyExpanded());
+
+	function isInitiallyExpanded() {
+		return category.level === 1;
+	}
 
 	function toggleExpand() {
 		expanded = !expanded;
@@ -23,8 +28,8 @@
 	<div
 		role="button"
 		class="flex cursor-pointer items-center rounded-md p-2 hover:bg-[var(--stone-mid)]"
-		on:click={toggleExpand}
-		on:keydown={(e) => e.key === 'Enter' && toggleExpand()}
+		onclick={toggleExpand}
+		onkeydown={(e) => e.key === 'Enter' && toggleExpand()}
 		tabindex="0"
 	>
 		{#if category.children && category.children.length > 0}
@@ -32,18 +37,21 @@
 				{expanded ? '▼' : '►'}
 			</span>
 		{/if}
-		<A
-			href={buildQuestionCategoryPath(category.name)}
+		<a
+			href={resolve(
+				buildQuestionCategoryPath(category.name) as
+					'/questions/categories' | `/questions/categories/${string}`
+			)}
 			class="ml-auto"
 			data-sveltekit-preload-data="tap"
-			id="category-link-{category.id}">{category.name}</A
+			id="category-link-{category.id}">{category.name}</a
 		>
 	</div>
 
 	{#if expanded && category.children && category.children.length > 0}
 		<div class="ml-6 mt-2" transition:slide|local>
-			{#each category.children as childCategory}
-				<svelte:self category={childCategory} />
+			{#each category.children as childCategory (childCategory.id)}
+				<Self category={childCategory} />
 			{/each}
 		</div>
 	{/if}

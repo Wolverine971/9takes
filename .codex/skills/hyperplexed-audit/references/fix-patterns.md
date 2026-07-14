@@ -154,7 +154,7 @@ the row stable. If a drawer ends up with zero or one real items, delete the draw
 
 **Finding:** mixed icon weights/sets, icons changing row height, or labels moving because glyph widths differ.
 
-9takes does not have a canonical icon atom yet. For new line icons, prefer `lucide-svelte` and keep
+9takes does not have a canonical icon atom yet. For new line icons, prefer `@lucide/svelte` and keep
 stroke, size, and container treatment consistent. Custom Enneagram/type marks are a separate data-symbol category.
 
 ```svelte

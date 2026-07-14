@@ -3,6 +3,9 @@ import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { requireAdmin } from '$lib/server/adminAuth';
+import type { Database } from '../../../../../../database.types';
+
+type FamousPeopleUpdate = Database['public']['Tables']['blogs_famous_people']['Update'];
 
 // GET - Fetch full content including markdown and history
 export const GET: RequestHandler = async ({ params, locals }) => {
@@ -151,7 +154,7 @@ export const PUT: RequestHandler = async ({ params, request, locals }) => {
 
 	const { data, error: updateError } = await supabase
 		.from('blogs_famous_people')
-		.update(safeUpdates)
+		.update(safeUpdates as FamousPeopleUpdate)
 		.eq('id', contentId)
 		.select()
 		.single();

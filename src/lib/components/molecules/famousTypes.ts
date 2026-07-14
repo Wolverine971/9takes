@@ -500,7 +500,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'keanu-reeves', link: true, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Gentle Vanishing Act', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'keith-lee', link: true, hasImage: true, lastmod: '2026-06-25', personaTitle: 'The Quiet Killa', contentGrade: 8.6, types: ['creator', 'tiktoker', 'lifestyle-builder'] },
 		{ name: 'kylie-jenner', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Most Visible Ghost', contentGrade: 9, types: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder'] },
-		{ name: 'lionel-messi', link: true, hasImage: true, lastmod: '2026-04-14', personaTitle: 'Football\'s Quiet Volcano', contentGrade: 9, types: ['celebrity', 'celebrity-image'] },
+		{ name: 'lionel-messi', link: true, hasImage: true, lastmod: '2026-07-14', personaTitle: 'Football\'s Quiet Volcano', contentGrade: 9, types: ['celebrity', 'celebrity-image'] },
 		{ name: 'matthew-mcconaughey', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Wide-Awake Philosopher', contentGrade: 8.7, types: ['movieStar', 'screen-icon'] },
 		{ name: 'mikey-madison', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'The Shy Girl\'s Vanishing Act', contentGrade: 9.2, types: ['newMovieStar', 'rising-star'] },
 		{ name: 'naomi-osaka', link: true, hasImage: true, lastmod: '2026-05-10', personaTitle: 'Tennis\'s Apologetic Champion', contentGrade: 9.16, types: ['celebrity', 'celebrity-image'] },

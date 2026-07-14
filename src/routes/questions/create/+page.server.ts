@@ -234,10 +234,7 @@ export const actions: Actions = {
 					}
 
 					if (imagePath) {
-						const updates: Record<string, string | null> = {};
-						if (imagePath) updates.img_url = imagePath;
-
-						await supabase.from(questionTable).update(updates).eq('id', questionId);
+						await supabase.from(questionTable).update({ img_url: imagePath }).eq('id', questionId);
 					}
 
 					if (!demo_time) {

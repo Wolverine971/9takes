@@ -377,7 +377,7 @@ Add new collapsible section below "Related Content" (suggestions):
 ```svelte
 <!-- CrossLinkAnalysis.svelte -->
 <script lang="ts">
-	import { Accordion, AccordionItem, Badge, Spinner } from 'flowbite-svelte';
+	import { Spinner } from '$lib/components/atoms';
 
 	let { personId }: { personId: number } = $props();
 
@@ -393,7 +393,7 @@ Add new collapsible section below "Related Content" (suggestions):
 			if (!res.ok) throw new Error('Failed to fetch');
 			crosslinks = await res.json();
 		} catch (e) {
-			error = e.message;
+			error = e instanceof Error ? e.message : 'Failed to fetch';
 		} finally {
 			loading = false;
 		}
@@ -409,7 +409,7 @@ Add new collapsible section below "Related Content" (suggestions):
 	<div class="section-header">
 		<h4>Cross-Link Analysis</h4>
 		<button onclick={fetchCrosslinks} disabled={loading}>
-			{#if loading}<Spinner size="4" />{:else}🔄{/if}
+			{#if loading}<Spinner size="sm" ariaLabel="Refreshing cross-link analysis" />{:else}🔄{/if}
 		</button>
 	</div>
 
@@ -417,20 +417,20 @@ Add new collapsible section below "Related Content" (suggestions):
 		<p class="error">{error}</p>
 	{:else if crosslinks}
 		<!-- Incoming Links -->
-		<Accordion>
-			<AccordionItem>
-				<span slot="header">
+		<div class="accordion">
+			<details open>
+				<summary>
 					📥 Incoming Links
-					<Badge>{crosslinks.stats.totalIncoming}</Badge>
-				</span>
+					<span class="badge">{crosslinks.stats.totalIncoming}</span>
+				</summary>
 				<ul class="link-list">
-					{#each crosslinks.incomingSuggestions as link}
+					{#each crosslinks.incomingSuggestions as link (link.person)}
 						<li>
-							<a href="/personality-analysis/{link.person}" target="_blank">
+							<a href="/personality-analysis/{link.person}" target="_blank" rel="noreferrer">
 								{link.title || link.person}
 							</a>
 							{#if link.enneagram}
-								<Badge color="dark">Type {link.enneagram}</Badge>
+								<span class="badge">Type {link.enneagram}</span>
 							{/if}
 						</li>
 					{/each}
@@ -438,20 +438,20 @@ Add new collapsible section below "Related Content" (suggestions):
 						<li class="empty">No incoming links found</li>
 					{/if}
 				</ul>
-			</AccordionItem>
+			</details>
 
 			<!-- Potential Links -->
-			<AccordionItem>
-				<span slot="header">
+			<details>
+				<summary>
 					💡 Potential Links
-					<Badge color={crosslinks.stats.totalPotential > 0 ? 'yellow' : 'dark'}>
+					<span class:badge-warning={crosslinks.stats.totalPotential > 0} class="badge">
 						{crosslinks.stats.totalPotential}
-					</Badge>
-				</span>
+					</span>
+				</summary>
 				<ul class="link-list">
-					{#each crosslinks.potentialLinks as link}
+					{#each crosslinks.potentialLinks as link (link.person)}
 						<li>
-							<a href="/personality-analysis/{link.person}" target="_blank">
+							<a href="/personality-analysis/{link.person}" target="_blank" rel="noreferrer">
 								{link.title || link.person}
 							</a>
 							<span class="mention-count">({link.mentionCount}x)</span>
@@ -461,25 +461,25 @@ Add new collapsible section below "Related Content" (suggestions):
 						<li class="empty">All mentions are already linked!</li>
 					{/if}
 				</ul>
-			</AccordionItem>
+			</details>
 
 			<!-- Duplicate Warnings (conditional) -->
 			{#if crosslinks.stats.hasDuplicateWarnings}
-				<AccordionItem>
-					<span slot="header">
+				<details>
+					<summary>
 						⚠️ Duplicate Warnings
-						<Badge color="red">{crosslinks.duplicates.excessiveMentions.length}</Badge>
-					</span>
+						<span class="badge badge-error">{crosslinks.duplicates.excessiveMentions.length}</span>
+					</summary>
 					<ul class="link-list warning">
-						{#each crosslinks.duplicates.excessiveMentions as mention}
+						{#each crosslinks.duplicates.excessiveMentions as mention (mention.person)}
 							<li>
 								{mention.title}: <strong>{mention.mentionCount} mentions</strong>
 							</li>
 						{/each}
 					</ul>
-				</AccordionItem>
+				</details>
 			{/if}
-		</Accordion>
+		</div>
 	{:else}
 		<p class="loading">Loading cross-link data...</p>
 	{/if}

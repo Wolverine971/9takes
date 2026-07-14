@@ -78,7 +78,7 @@ Without this, drift returns within a month. The atoms are what stops route files
 | --------------------------------------------------------------------------------------------------------------- | ------ |
 | Build `/styleguide` route — renders every locked V5 token + every base component, both modes, with theme toggle | 4–6 hr |
 | Build canonical `<Button>` atom (replaces inline gradient buttons + `LoadingButton`)                            | 2 hr   |
-| Add `lucide-svelte` for icons; replace `Header.svelte` inline SVGs first                                        | 2 hr   |
+| Add `@lucide/svelte` for icons; replace `Header.svelte` inline SVGs first                                       | 2 hr   |
 | Build `<EmptyState>` atom (used by question search, blog search)                                                | 1 hr   |
 | Build `<SectionKicker>` atom (for the `§NN · LABEL` mono pattern that V5 uses everywhere)                       | 30 min |
 | Rename `Modal2.svelte` → `Modal.svelte` (12 import-path updates)                                                | 30 min |

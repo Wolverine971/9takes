@@ -44,12 +44,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 				fetch: event.fetch
 			},
 			cookies: {
-				get: (key) => event.cookies.get(key),
-				set: (key, value, options) => {
-					event.cookies.set(key, value, { ...options, path: '/' });
-				},
-				remove: (key, options) => {
-					event.cookies.delete(key, { ...options, path: '/' });
+				getAll: () => event.cookies.getAll(),
+				setAll: (cookiesToSet) => {
+					for (const { name, value, options } of cookiesToSet) {
+						event.cookies.set(name, value, { ...options, path: '/' });
+					}
 				}
 			}
 		}
