@@ -129,7 +129,8 @@ Reject the draft if ANY of the following fails. Report every blocker (not just t
 
 - Body (everything after the closing `---` of frontmatter) has at least **1000 words**
 - Body has at least **5 `##` H2 sections**
-- Body contains **no placeholder markers**: case-insensitive matches for `TODO`, `TBD`, `PLACEHOLDER`, `XXX`, `[FIXME]`, `<!-- TODO`, `<!-- placeholder`. (HTML comments that are not placeholders, e.g., the file-path comment, are fine.)
+- Body contains **no placeholder markers**: case-insensitive matches for `TODO`, `TBD`, `PLACEHOLDER`, `XXX`, `[FIXME]`, `<!-- TODO`, `<!-- placeholder`.
+- Body contains **no internal pipeline or reviewer HTML comments**. Reject comment markers whose opening label contains a grade, review, feedback, ledger, or notes. File-path comments and media prompts are allowed; reviewer judgment is not.
 
 **Asset checks:**
 

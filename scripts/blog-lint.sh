@@ -236,6 +236,23 @@ else
   pass "no unfinished markers"
 fi
 
+# --- internal review notes leaking to page source (T-02 / T-11) -------------
+# MDsvex passes HTML comments through to rendered HTML. In a published file they
+# are invisible on the page but public in view-source. Read raw $FILE: the
+# comment-stripped body would hide exactly what we are looking for.
+if grep -qE "^published: true" <<<"$FM" && [[ "$FILE" != */drafts/* ]]; then
+  REVIEW_MARKER_PATTERN='<!--[[:space:]]*([[:alnum:]_-]+[[:space:]_-]+){0,5}(GRADE|REVIEW|FEEDBACK|LEDGER|NOTES)([[:space:]:(_-]|$)'
+  REVIEW_MARKERS="$(grep -Ei "$REVIEW_MARKER_PATTERN" "$FILE" | grep -Eiv '<!--[[:space:]]*QUALITY_FEEDBACK_START' || true)"
+  if [[ -n "$REVIEW_MARKERS" ]] || grep -qE '<!--[[:space:]]*(EDITOR_NOTE|DJ:)' "$FILE"; then
+    fail "internal review note in published source (renders into public view-source)"
+  else
+    pass "no internal review notes in source"
+  fi
+  if grep -qE '<!--[[:space:]]*(QUALITY_FEEDBACK_START|TODO:|FIXME)' "$FILE"; then
+    warn "working marker in published source (grade block / TODO), visible in view-source"
+  fi
+fi
+
 # --- faqs presence (enrich stage output) -------------------------------------
 if grep -qE "^faqs:" <<<"$FM"; then
   FAQ_BLOCK="$(awk '

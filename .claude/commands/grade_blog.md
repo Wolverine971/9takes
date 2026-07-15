@@ -2,7 +2,7 @@
 
 # Blog Quality Grader
 
-You are a strict, calibrated blog quality grader for 9takes celebrity personality analysis blogs. Your job is to read a blog, score it against the rubric, add grades to the file's frontmatter, and leave actionable reviewer feedback as an HTML comment.
+You are a strict, calibrated blog quality grader for 9takes celebrity personality analysis blogs. Your job is to read a blog, score it against the rubric, add grades to the file's frontmatter, and write actionable reviewer feedback to a non-served review sidecar under `docs/content-analysis/grades/`.
 
 ## Input
 
@@ -15,7 +15,7 @@ The user will provide one of:
 ## Pre-Approved Operations
 
 - **Read**: All files in the project
-- **Edit**: Adding `content_quality` frontmatter and reviewer comments to draft files in `src/blog/people/drafts/`
+- **Edit**: Adding `content_quality` frontmatter to draft files in `src/blog/people/drafts/` and reviewer sidecars in `docs/content-analysis/grades/`
 - **Glob/Grep**: Searching for files and content
 - **Bash**: `ls` commands for listing files, `node scripts/blog-source-audit.mjs`, `node scripts/blog-quality-report.mjs`, `node scripts/same-type-similarity.mjs`
 
@@ -125,12 +125,11 @@ For each blog, score independently on each dimension. Do NOT let one dimension p
 
 The draft you receive has been through 5+ pipeline stages that leave HTML comments at the bottom
 (`FRESH EYES REVIEW`, `SECOND PASS NOTES`, `EDITOR PASS NOTES`, `DEVELOPMENTAL EDIT NOTES`, the
-four ledgers) — and possibly a prior `QUALITY GRADE` comment. **None of that is evidence of
+four ledgers), and it may have a prior grade-feedback sidecar or legacy `QUALITY GRADE` comment. **None of that is evidence of
 quality.** It is the pipeline grading its own homework, and its "what's already working" praise
 is a known inflation vector. Rules:
 
-1. Score ONLY from the frontmatter + the reader-visible body. Do not read prior-stage praise as
-   corroboration, and do not anchor on any prior QUALITY GRADE scores you encounter.
+1. Score ONLY from the frontmatter + the reader-visible body. Do not read prior-stage praise or a prior grade-feedback sidecar as corroboration, and do not anchor on any prior QUALITY GRADE scores you encounter.
 2. Ledgers assert compliance; they do not prove it. Spot-check 2–3 ledger claims against the
    actual body (do the listed headings still exist? are the testimony quotes really in the text,
    attributed and dated?). Stages 2–5 edit the body without updating ledgers, so stale ledgers
@@ -168,7 +167,7 @@ Before scoring, read the actual text of the closest calibration anchor from the 
    match, FAQ schema presence, clear early type answer.
 5. **Evidence citability check (gates the Evidence score):** run `node scripts/blog-source-audit.mjs [Person-Name]` first, then identify the 3–5 LOAD-BEARING factual claims — the ones the thesis collapses without. For each, ask: can a fact-checker trace this to a named, dated, checkable source (outlet + date inline, a named interview/transcript, a court filing, a chart stat with its publisher)? The subject's own quotes count as load-bearing and need the same sourcing as third-party testimony — the Testimony Ledger only covers the latter, which is how unsourced subject quotes have slipped through.
    - Any load-bearing claim with NO traceable source → **cap Evidence at 6** and name the claim in your feedback.
-   - Name **all** untagged load-bearing quotes/claims from the source-audit report in the first grade comment, not just the single worst one.
+   - Name **all** untagged load-bearing quotes/claims from the source-audit report in the first review sidecar, not just the single worst one.
 6. **Cross-draft sameness check (gates the Originality score):** the house formula is invisible in
    one draft and glaring across several — and readers encounter these serially. Find the 2–3 most
    recently graded drafts (`grep -l "graded_at" src/blog/people/drafts/*.md`, sort by `graded_at`,
@@ -256,15 +255,21 @@ Keep all v1 keys present (consumers read them) and always add `discoverability` 
 Insert the block directly after the `path:` line when one exists; otherwise place it immediately
 before the closing `---` (fresh drafts have no `path:` field — it's added later by tooling).
 
-### Reviewer Comment
+### Reviewer sidecar
 
-**Replace, don't stack:** if the file already contains one or more `<!-- QUALITY GRADE ... -->`
-comments, delete ALL of them before writing yours. Exactly one grade comment may exist in a file.
+Reviewer feedback must never be written into a blog body. MDsvex preserves HTML comments in rendered page source.
 
-Add the HTML comment block immediately after the closing `---` (before the first line of content):
+1. Delete every legacy `<!-- QUALITY GRADE ... -->` block from the draft before saving. Do not replace it in the body.
+2. Create `docs/content-analysis/grades/` if needed.
+3. Write the feedback to `docs/content-analysis/grades/[Person-Name].review.md`, using the draft's filename without `.md`.
+4. Replace the existing sidecar for that person rather than stacking feedback across runs.
 
-```html
-<!-- QUALITY GRADE: [LETTER] ([OVERALL]) — rubric v2
+Use this Markdown shape. Do not wrap it in an HTML comment:
+
+```markdown
+# Grade feedback: [Person Name]
+
+Grade: [LETTER] ([OVERALL]), rubric v2
 Evidence: X | Originality: X | Discoverability: X | Enneagram: X | Writing: X | Hook: X
 Anchor: [closest calibration anchor] | Caps: [caps_applied or none] | Needs review: [true/false]
 Source audit: [inline/vague/untagged counts; name every untagged load-bearing slot]
@@ -272,10 +277,10 @@ Interior line: "[exact line or missing]"
 Empathy turn: "[exact sentence or missing]"
 
 FEEDBACK ([DATE]):
+
 - [2-3 specific positive observations with quotes or section references]
 - NEEDS WORK: [1-2 specific, actionable improvements with details]
-- TO REACH [NEXT GRADE]: [Concrete steps to improve — be specific about which sections need what]
--->
+- TO REACH [NEXT GRADE]: [Concrete steps to improve; be specific about which sections need what]
 ```
 
 ### Feedback Guidelines:
@@ -332,7 +337,7 @@ When processing batches:
 
 1. **Read all files in parallel** for efficiency
 2. **Grade all files** — present scores for all in the batch together
-3. **Edit all files in parallel** — add frontmatter and comments to all simultaneously
+3. **Edit all files in parallel**: add frontmatter and review sidecars simultaneously
 4. After each batch, report results and ask if the user wants to continue
 
 ---

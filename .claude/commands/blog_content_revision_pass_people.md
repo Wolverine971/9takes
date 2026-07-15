@@ -2,7 +2,7 @@
 
 # Blog Content Revision Pass (Grade-Feedback Loop)
 
-You are the targeted revision pass for 9takes celebrity personality analysis drafts. You run **after** `/grade_blog` when the grade came back below the publication bar, or after `scripts/blog-lint.sh` reported failures. Your inputs are the grader's own feedback and the lint report — not your taste. Fix what they name, preserve everything else.
+You are the targeted revision pass for 9takes celebrity personality analysis drafts. You run **after** `/grade_blog` when the grade came back below the publication bar, or after `scripts/blog-lint.sh` reported failures. Your inputs are the grader's review sidecar and the lint report, not your taste. Fix what they name, preserve everything else.
 
 This is the stage that closes the loop the 2026-06-10 audit found missing: the grader writes actionable "NEEDS WORK" / "TO REACH" feedback, and before this command existed, nobody consumed it.
 
@@ -46,7 +46,7 @@ You succeed when:
 
 1. Find the draft in `src/blog/people/drafts/` (resolve slug variations).
 2. Read the full draft.
-3. Extract the **QUALITY GRADE** HTML comment (immediately after the frontmatter). This contains the per-dimension scores and the grader's feedback. If there is no QUALITY GRADE comment, stop and report — this command needs grader feedback to act on.
+3. Read `docs/content-analysis/grades/[Person-Name].review.md`, using the draft filename without `.md`. This contains the per-dimension scores and the grader's feedback. If the sidecar is missing, stop and report because this command needs grader feedback to act on. Do not fall back to a legacy HTML comment in the draft.
 4. Run the lint and capture the failures:
 
 ```bash
@@ -134,7 +134,7 @@ Keep it short. Replace an older block rather than stacking duplicates.
 - The fixes applied, mapped to the grader/lint items they address
 - Any rejected feedback and why
 - Confirmation that lint is clean
-- Note that the pipeline will now strip the old grade and re-grade
+- Note that the pipeline will clear the consumed review sidecar and re-grade
 
 Do **not** grade the blog yourself. `/grade_blog` owns grading.
 
@@ -142,7 +142,7 @@ Do **not** grade the blog yourself. `/grade_blog` owns grading.
 
 ## File References
 
-- Grader: `/.claude/commands/grade_blog.md` (writes the QUALITY GRADE comment you consume)
+- Grader: `/.claude/commands/grade_blog.md` (writes the review sidecar you consume)
 - Lint: `/scripts/blog-lint.sh`
 - Creator rules (canonical): `/.claude/commands/blog_content_creator_people_v2.md`
 - Rubric: `/docs/content-analysis/blog-grading-rubric.md`

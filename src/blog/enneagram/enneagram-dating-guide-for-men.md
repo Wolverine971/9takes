@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Dating Guide for Men: Type-Specific Strategies That Actually Work'
-description: 'Discover how your Enneagram type shapes your dating style, blind spots, and path to authentic connection — with how to read her type, compatibility patterns, and what each of the 9 types does at every stage of dating.'
+title: 'Enneagram Dating Guide for Men: Blind Spots and Practical Moves'
+description: 'See how your Enneagram type shapes attraction, texting, first dates, rejection, and compatibility—then use one practical move to stop repeating the same pattern.'
 author: 'DJ Wayne'
 date: '2024-09-13'
 loc: 'https://9takes.com/enneagram-corner/enneagram-dating-guide-for-men'
-lastmod: '2026-04-07'
+lastmod: '2026-07-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -20,63 +20,59 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.8) | Priority: none | Safety: n/a
-Strengths: practical utility (9.5); Enneagram depth (9.2).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
-Tags: weak-hook
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Most men blow a promising date in the same five minutes.</p>
+<p class="firstLetter">Most men don't lose a promising date in the opening or the goodbye. They lose it in the five minutes after she says something real.</p>
 
-Not the opening. Not the close. The moment she reveals something real — a fear, a weird laugh, a loose thread in a story — and he responds exactly the way his personality has trained him to since he was six.
+She admits a fear, lets out a strange laugh, or leaves a loose thread in a story. Instead of meeting her there, the familiar reflex fires: fix it, impress her, question it, joke past it, or pull away.
 
-He performs, or deflects, or fixes, or pulls away, or disappears behind a joke. The script runs before he notices he's reading it.
+The reflex feels natural because you've practiced it for years. To her, it can feel like criticism, performance, pressure, distance, or indifference.
 
-**That script has a name. It's his Enneagram type.**
+**The Enneagram gives you a useful name for that reflex.** It isn't a diagnosis or a prediction. It's a map of the motive underneath what you keep doing automatically.
 
-Once you can see yours, you can rewrite the five minutes that keep costing you — without fake confidence, coached lines, or another dating book telling you to just "be yourself."
+I'm a Type 4, and I learned this on a date years ago. She asked about my dreams, my struggles, and my day. I felt intensely seen. Three dates later, I realized I knew almost nothing about her. I had mistaken the feeling of being understood for mutual intimacy—a very Type 4 way to chase depth while missing the actual person across the table.
 
-<!-- DJ: swap in your actual Enneagram type and one specific date story in the note below for maximum authenticity. Reader feedback flagged missing author voice as the #1 trust issue in the previous version. -->
+This guide helps you catch your version of that moment. You'll find the blind spot your type brings into dating, how it may land for her, and one concrete move to practice on your next date. Then we'll cover how to read her patterns without boxing her in, compatibility, texting, and rejection.
 
-> **A quick note before we start.** I'm going to give away the thing I wish somebody had told me at 27, when I was convinced the right script would finally make dates work. The script _was_ the problem. Not the lines. Not the venues. The fact that I had a script at all. Everything below is what I'd tell a younger version of me — minus the ego damage. — _DJ_
+Start with your own type. The Enneagram is most useful as a mirror before it becomes a lens.
 
-## Why Your Enneagram Type Determines Your Dating Success
+## How Your Enneagram Type Shapes Your Dating Life
 
 <div class="scroll-table">
 
-| Type | Your Dating Superpower   | Your Fatal Flaw      | What Women Actually See                |
-| ---- | ------------------------ | -------------------- | -------------------------------------- |
-| 1    | Principled reliability   | Constant criticism   | A man who makes them feel inadequate   |
-| 2    | Emotional attentiveness  | Self-abandonment     | Someone trying too hard to be needed   |
-| 3    | Magnetic achievement     | Image over substance | A LinkedIn profile, not a person       |
-| 4    | Emotional depth          | Drama addiction      | Exhausting intensity                   |
-| 5    | Intellectual fascination | Emotional absence    | A brain without a heart                |
-| 6    | Rock-solid loyalty       | Anxiety spirals      | Someone who needs constant reassurance |
-| 7    | Infectious enthusiasm    | Commitment phobia    | Fun that never goes deeper             |
-| 8    | Protective strength      | Domination patterns  | Intimidation masked as confidence      |
-| 9    | Calming presence         | Self-erasure         | Nice but forgettable                   |
+| Type | Your dating strength     | Blind spot under stress         | How it can land                          |
+| ---- | ------------------------ | ------------------------------- | ---------------------------------------- |
+| 1    | Principled reliability   | Correction and rigidity         | "I can never get it right with him"      |
+| 2    | Emotional attentiveness  | Giving with hidden expectations | "He needs me to need him"                |
+| 3    | Magnetic achievement     | Performing for approval         | "I feel like his audience"               |
+| 4    | Emotional depth          | Chasing intensity               | "Ordinary moments aren't enough for him" |
+| 5    | Intellectual fascination | Retreating into analysis        | "I can't reach him"                      |
+| 6    | Rock-solid loyalty       | Testing for reassurance         | "I have to keep proving I'm safe"        |
+| 7    | Infectious enthusiasm    | Escaping discomfort             | "He's here until it gets hard"           |
+| 8    | Protective strength      | Control disguised as care       | "There isn't room for my pace"           |
+| 9    | Calming presence         | Agreeing instead of revealing   | "He's beside me, but I can't find him"   |
 
 </div>
 
-### You might be missing the point if...
+Use the table as a mirror, not a sentence. Your maturity, wing, instincts, culture, and circumstances all affect how a pattern shows up.
 
-- You think "being yourself" means not growing
-- You believe vulnerability equals weakness
-- You're performing confidence instead of building it
-- You treat dating like a game to win
-- You've never seriously examined your relationship patterns
+### You might be using this guide wrong if...
 
-The truth? **The men who do well in dating aren't the most attractive — they're the most self-aware.** And self-awareness isn't a vibe. It's a skill you can actually build.
+- You use your type as an excuse: "I'm a 5, so of course I disappear"
+- You diagnose her before examining yourself
+- You copy the date idea but skip the uncomfortable practice attached to it
+- You treat the compatibility table like a swipe filter
+- You expect self-awareness to make dating risk-free
+
+Looks and chemistry may get you to a date. **Self-awareness changes what happens when your reflex fires.** It creates the pause in which you can choose a response instead of repeating a pattern.
 
 > **Dating mostly on apps?** This guide's companion is built for that. The [Online Dating Companion Guide](/enneagram-corner/enneagram-online-dating-guide) covers profiles, photos, opening messages, and the first five minutes in person. Start here to understand your patterns. Read that to apply them to Hinge and Bumble.
 
-> **Don't know your type yet?** <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Take our comprehensive type test →</a>
+> **Don't know your type yet?** <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Use the guide to determine your Enneagram type →</a>
+
+**Jump to your type:** [1](#type-1) · [2](#type-2) · [3](#type-3) · [4](#type-4) · [5](#type-5) · [6](#type-6) · [7](#type-7) · [8](#type-8) · [9](#type-9) · [Read her type](#how-to-read-her-type) · [Compatibility](#compatibility) · [Texting](#texting) · [Rejection](#rejection)
 
 <span id="type-1"></span>
 
@@ -437,66 +433,70 @@ Ask: _"What's something you want that you usually stay quiet about?"_ Then answe
 
 ## How to Read Her Type in the First Three Dates
 
-You know yourself now. Next skill: learning to see her.
+Once you can recognize your own pattern, the next skill is noticing hers without turning the date into a typing exercise.
 
-You won't be able to confidently type her from one date. You'll barely be able to from three. But you'll start noticing patterns — and patterns are the whole point. Every clue below is a probability, not a verdict.
+You can't type someone confidently from one date, and three may not be enough either. The same behavior can come from different motives: an organized woman might be a Type 1 trying to do things correctly, a Type 3 trying to be effective, or a Type 6 trying to prevent surprises. **Behavior tells you what happened. Type lives in why.**
+
+Look for where her attention returns, what threat she tries to prevent, and which need is hardest for her to name.
 
 **Type 1 — The Perfectionist**  
-Her texts are grammatically pristine. She has strong opinions about the "right" way to do small things. She subtly corrects the waiter's recommendation. When she laughs, it's like she finally gave herself permission to.
+Her attention goes to errors, obligations, and how things could be improved. Listen for frustration when people don't do their share and difficulty relaxing before everything is handled. The deeper motive is being good or responsible, not merely being organized.
 
 **Type 2 — The Helper**  
-She remembers what you mentioned last week. She asks about your mom, your friend, your dog — by name. She brings a small, specific thing to date two. She's already worrying about whether you've eaten.
+Her attention flows quickly to other people's needs. She may read you accurately while struggling to name her own preference or receive without repaying. The deeper motive is securing connection by being valuable, not simply being warm.
 
 **Type 3 — The Achiever**  
-Her stories have accomplishments embedded in them without her noticing. She checks her phone faster than other people do. She's efficient with her time in a way that feels slightly off for a first date — until one of her rehearsed answers cracks and a real person appears behind it.
+She reads what success looks like in a room and adapts fast. Her presentation may feel polished, but the better clue is how hard it is to separate what she wants from what earns approval. The deeper motive is feeling valuable, not ambition by itself.
 
 **Type 4 — The Individualist**  
-Small talk visibly depletes her. She wants to skip to the real questions. She has unusual, considered aesthetic preferences and she will tell you about them. She uses the word "ordinary" like a mild slur.
+Her attention goes to what is missing, emotionally true, or distinct. She may compare the present with an imagined version that feels more meaningful. The deeper motive is preserving identity and significance, not an unusual aesthetic.
 
 **Type 5 — The Investigator**  
-She asks a lot more than she shares. She knows a strange amount about one narrow subject. She needs a beat of silence you might want to fill — don't fill it. She'll go quiet for a day after a heavy conversation; it's not rejection, it's processing.
+She conserves time, energy, and privacy. She may ask more than she shares, then come alive around a subject she knows deeply. The deeper motive is feeling capable without being overwhelmed, not introversion alone.
 
 **Type 6 — The Loyalist**  
-She asks what your friends would say about you. She wants to know your plans — for the night, the week, sometimes life. She notices the exits. She double-checks the bill. She tests you in small ways and then apologizes for it.
+Her attention scans for reliability, contradictions, and what could go wrong. She may question plans or claims before trusting them and rely on people or systems she has already vetted. The deeper motive is finding trustworthy ground, not simply feeling anxious.
 
 **Type 7 — The Enthusiast**  
-Her sentences run into each other. She's already pitched three things she wants to do next. She reroutes conversation every time it lands somewhere heavy. Her phone has more open apps than yours has icons.
+Her attention jumps to options, future plans, and ways to reframe discomfort. Notice what happens when the plan stalls or the conversation gets painful. The deeper motive is maintaining freedom and avoiding entrapment in pain, not being extroverted.
 
 **Type 8 — The Challenger**  
-Direct from the first sentence. She tests what you'll push back on and respects you more when you do. She's scanning for performance and she can smell it. Kindness from her hits like a warm surprise — because she wasn't giving it for free.
+Her attention goes to power, autonomy, and hidden agendas. She may test your directness, resist being managed, and become fiercely protective. The deeper motive is avoiding control and exposure, not being loud or confrontational.
 
 **Type 9 — The Peacemaker**  
-"Whatever you want" is her first answer to almost every question. Her body language mirrors yours within thirty seconds. She takes a while to tell you what she actually thinks — and when she does, the air in the room changes.
+Her attention finds other people's agendas before her own. She may accommodate easily, then become quietly immovable when pushed too far. The deeper motive is preserving connection and inner stability by minimizing herself, not passivity.
 
 Three rules when reading her:
 
-1. **Strength shows up first; the trap shows up under stress.** Wait for a hard moment — a rude server, a canceled reservation, a genuine disagreement — and watch what her personality does with it. That's the tell.
-2. **Don't type her to control her. Type her to understand her.** She's not a puzzle to solve. She's a person to meet.
-3. **If you can't tell, you haven't asked enough real questions.** Most people will tell you exactly who they are inside the first hour, if you stop performing long enough to hear them do it.
+1. **Look for a repeated motive, not a single tell.** One late reply, strong opinion, or vulnerable story proves nothing. Notice the same concern appearing across different situations.
+2. **Ask instead of announcing.** _"What made that important to you?" "What were you worried might happen?"_ Curiosity gets you closer than _"You're such a 6."_
+3. **Let the insight improve your response.** If typing her makes you feel clever but doesn't make you more patient, direct, or curious, you're using the Enneagram as a control strategy.
 
 <span id="compatibility"></span>
 
 ## Compatibility at a Glance
 
-Any two types can work if both people are healthy and self-aware. The Enneagram isn't astrology, it's not a matching app, and nobody should swipe based on it. But some pairings run easier, and some have louder friction. Here's the short version.
+There is no universally "best" Enneagram match. Maturity, values, communication, attraction, and timing matter more than a number. Still, some pairings can feel easy because their strengths complement each other, while others expose both people's blind spots faster.
+
+Read this table as a conversation starter, not a ranking.
 
 <div class="scroll-table">
 
-| If you're a Type  | You'll click easily with                                     | You'll feel friction with                                             |
-| ----------------- | ------------------------------------------------------------ | --------------------------------------------------------------------- |
-| 1 (Perfectionist) | 7 (lightness balances your grip), 9 (calms your critic)      | 4 (intensity overwhelms your structure), 8 (refuses your corrections) |
-| 2 (Helper)        | 8 (accepts care without suspicion), 4 (feels your attention) | 5 (recoils from your warmth), 3 (treats your giving as transactional) |
-| 3 (Achiever)      | 9 (safe harbor from the hustle), 6 (loyalty you can trust)   | 4 (exposes your performance), 5 (unimpressed by your metrics)         |
-| 4 (Individualist) | 5 (depth without drama), 9 (holds space for your intensity)  | 3 (feels inauthentic to you), 7 (skips the depth you crave)           |
-| 5 (Investigator)  | 4 (meets your depth), 1 (gives you structure)                | 2 (crowds your space), 8 (demands emotional presence fast)            |
-| 6 (Loyalist)      | 9 (slows your anxiety), 2 (supplies reassurance naturally)   | 7 (flakes on plans you needed), 4 (mood swings trigger your alarm)    |
-| 7 (Enthusiast)    | 5 (grounds your mind), 1 (steadies your plans)               | 4 (too much gravity), 6 (too much worry)                              |
-| 8 (Challenger)    | 2 (melts your armor), 7 (matches your energy)                | 5 (withdraws from your heat), 9 (disappears under your intensity)     |
-| 9 (Peacemaker)    | 3 (draws you out of hiding), 6 (matches your stability)      | 8 (overruns your boundaries), 1 (sharpens your self-criticism)        |
+| If you're a Type  | A pairing that may feel easy                                      | A pairing that may expose your blind spot                                 |
+| ----------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| 1 (Perfectionist) | 7 (invites play), 9 (slows your inner critic)                     | 4 (prioritizes emotional truth), 8 (resists correction)                   |
+| 2 (Helper)        | 8 (states needs directly), 4 (welcomes emotional attention)       | 5 (may experience attention as pressure), 3 (can overvalue usefulness)    |
+| 3 (Achiever)      | 9 (offers space from achievement), 6 (values your follow-through) | 4 (questions image), 5 (doesn't respond much to status signals)           |
+| 4 (Individualist) | 5 (offers depth with low drama), 9 (makes room for emotion)       | 3 (adapts where you seek singularity), 7 (may reframe pain too quickly)   |
+| 5 (Investigator)  | 4 (invites your inner world), 1 (respects structure)              | 2 (pursues closeness when you need space), 8 (asks for immediacy)         |
+| 6 (Loyalist)      | 9 (steadies the pace), 2 (offers visible reassurance)             | 7 (changes plans), 4 (brings emotional variability)                       |
+| 7 (Enthusiast)    | 5 (adds depth and pause), 1 (turns ideas into plans)              | 4 (wants to linger in feelings), 6 (wants certainty before moving)        |
+| 8 (Challenger)    | 2 (brings warmth), 7 (shares your speed)                          | 5 (withdraws under pressure), 9 (may hide disagreement to keep the peace) |
+| 9 (Peacemaker)    | 3 (invites action), 6 (values steadiness)                         | 8 (can crowd your preferences), 1 (can amplify your self-criticism)       |
 
 </div>
 
-Use this as a starting hypothesis, not a verdict. Every rule here has beautiful exceptions — usually two people who did the work.
+Every pairing in the "easy" column can become unhealthy. Every pairing in the "friction" column can become growth-producing. The table names a likely dynamic, not your future.
 
 <span id="texting"></span>
 
@@ -518,7 +518,7 @@ Every type sabotages the texting stage in its own signature way:
 - **Type 8:** You open with a challenge. _"Bet you can't keep up."_ She blocks.
 - **Type 9:** "Haha yeah." "Haha yeah." "Haha yeah." The conversation flatlines by message four.
 
-The rule under all of it: **texting isn't dating — it's logistics.** The goal of the message is the meeting. Anything more is anxiety wearing a productive outfit.
+The rule under all of it: **use texting to maintain connection and make a plan, not to manufacture certainty.** Good texting can be playful and personal. The problem starts when it replaces meeting, becomes a test, or turns into a tool for regulating your anxiety. If the interest is mutual, move toward a concrete date.
 
 > **The full breakdown — app profiles, opening messages, photos, and the first five minutes in person:** the [Online Dating Companion Guide](/enneagram-corner/enneagram-online-dating-guide) is built for exactly this.
 
@@ -530,7 +530,7 @@ The rule under all of it: **texting isn't dating — it's logistics.** The goal 
 
 ## When It Doesn't Work Out: Rejection by Type
 
-Nobody talks about this part. Rejection is where the Enneagram earns its keep, because your type handles getting rejected so predictably you could almost set your watch by it. Here's the script that runs, and the corrective move for each one.
+Rejection makes your core defense louder. You may perfect, perform, withdraw, reframe, control, or disappear before you've admitted that losing the possibility actually hurts. Here are nine common scripts and the corrective move for each one.
 
 - **Type 1:** You review the tape. You find the mistake. You decide she was right to leave. _Corrective: there was no exam, and you didn't fail one._
 - **Type 2:** You wonder what else you could have given. _Corrective: giving more wouldn't have saved it. You weren't the reason and you're not the solution._
@@ -550,11 +550,11 @@ Every type has a script for rejection. Your job is to notice the script running 
 
 ## A Note on Wings
 
-One more thing before we close: the Enneagram has **wings**. Each type is flavored by one of the two types next to it, which means a 3w2 (Achiever with Helper wing) dates very differently than a 3w4 (Achiever with Individualist wing). A 3w2 will perform care. A 3w4 will perform uniqueness. Same core type. Different date.
+One more thing before we close: the Enneagram has **wings**. Each type is influenced by one of the two types next to it, which means a 3w2 (Achiever with a Helper wing) may present differently from a 3w4 (Achiever with an Individualist wing). Under stress, the first might lean harder on being helpful; the second might lean harder on being distinctive. Same core motive, different flavor.
 
-You don't need to master wings to use this guide. Just know this: your core type is the shape, your wing is the color. If a section above felt 80% right but something was off, your wing is probably what's explaining the other 20%.
+You don't need to master wings to use this guide. Your core type is the shape; your wing adds color. If your section felt mostly right but not exact, your wing, instinct, current health, or context may explain the difference.
 
-Start with your core type. The wing is what happens after.
+Start with your core type, then use the [complete guide to Enneagram wings](/enneagram-corner/enneagram-wings-complete-guide) to add nuance.
 
 </section>
 
@@ -572,100 +572,13 @@ After, the same pattern still starts. But now you can see it start. And seeing i
 2. **Read only your type section again, slowly**, as if she wrote it about you.
 3. **Pick one move from that section.** One. Try it on the next date.
 
-> **Ready to go deeper?** <a href="/questions">Join thousands exploring their personality patterns</a>
+> **Ready to test your assumptions against real perspectives?** <a href="/questions">Explore the questions people are discussing on 9takes →</a>
 
 Women aren't looking for a perfect man. They're looking for an aware one — somebody who notices his own script, has the nerve to rewrite it in real time, and can laugh at the old version without pretending it isn't still trying to run the show.
 
 The Enneagram isn't here to fix you. You're not broken. It's here to make the invisible visible — so you can stop performing the version of yourself your childhood needed, and start showing up as the one the next decade of your life requires.
 
 **Your move:** Stop trying to be everyone's type. Master being yours.
-
-<!-- READER_FEEDBACK_START
-STATUS: Addressed in revision on 2026-04-07
-
-Addressed in this revision:
-- Online dating: offloaded to new companion guide (linked prominently in intro, texting section, and closing callouts)
-- Reading her type: added "How to Read Her Type in the First Three Dates" section
-- Compatibility: added "Compatibility at a Glance" table
-- "Science-backed" claim: dropped from description (and softened FAQ language)
-- Author voice: added author's note from DJ near intro (flagged with HTML comment for DJ to personalize with real type + real story)
-- Texting: added "Between Dates: The Texting Trap" section with per-type pitfalls, linking out to online dating guide for depth
-- Rejection: added "When It Doesn't Work Out: Rejection by Type" section
-- Wings: added "A Note on Wings" section
-- Weak hook: replaced with concrete scene (the "five minutes when the script runs" opening)
-- Template repetition: per-type sections cut from 8 subsections to 5 (Wound/Pattern → If → Strength & Trap → Shift → On a Date + Your Move). Mindset Shift is now prose. Superpower + Why You Struggle merged into one honest paragraph.
-- Duplicate "women aren't looking for perfection": removed the intro version, kept the closing version (which is stronger)
-- First-date suggestion duplication: diversified per type — cooking classes now only appear for Type 1, museums for Type 5 only, etc.
-- Power convo generics: rewritten to be genuinely type-specific (e.g., Type 6 "what does safety feel like when you have it" couldn't swap with any other type)
-- Generic closing lists: removed the "You stop / You start" bullets, replaced with tighter prose
-- Quick Type Identifier box duplicating table: removed
-- Jump nav: added a simple anchor-link jump row at the top as a lightweight alternative to a sticky nav (which would need component work)
-
-Not done in this pass (separate tasks if you want them):
-- Sticky type-nav component (would need Svelte component + scroll behavior)
-- Actual personal anecdote from DJ (left as an HTML comment placeholder — DJ needs to fill in his type + real story)
-- Inline citations for attachment / EQ research (dropped the claim instead, which is the cleaner fix)
-
----
-
-ORIGINAL READER FEEDBACK (preserved for reference):
-
-Reviewer: read-through as a normal guy in the target audience (mid-30s, single, has dabbled in Enneagram)
-Date: 2026-04-07
-
-## What I missed / wanted more of
-
-1. **Online dating is completely absent.** I'm not meeting women at farmer's markets — I'm on Hinge. A section on "how each type writes a bio / swipes / handles the app stage" would immediately make this more useful. Right now it reads like it was written for 2010 dating.
-
-2. **How do I read HER type?** The whole guide is self-focused. Half the value of knowing Enneagram for dating is recognizing patterns in the person across the table. A short "how to spot her type in the first 3 dates" section would be huge.
-
-3. **Compatibility is teased but never delivered.** Every type section links out to a "relationships" page, but the reader wants at least a quick "which types tend to click / clash with yours" right here. Losing people to a click-through on every type feels like a missed opportunity.
-
-4. **"Science-backed" is in the subtitle but there's no science.** No studies, no stats, no citations. Either cite something (attachment research, EQ research) or drop the claim — readers who care will notice, and Google will too.
-
-5. **No author voice or credibility marker.** DJ Wayne is bylined but never shows up. One personal anecdote ("I'm a Type 5, here's the date I bombed because I intellectualized her grief...") would make this 10x more trustworthy than the current omniscient-coach voice.
-
-6. **Texting / between-date communication.** A huge chunk of modern dating happens in text. Types handle this very differently (7s love-bomb, 5s go silent, 6s spiral over read receipts). This is a natural section and it's missing.
-
-7. **Nothing on rejection or breakups by type.** Dating includes getting rejected. How each type handles it (and how not to spiral) would be valuable and on-topic.
-
-8. **Wings aren't mentioned anywhere.** A 3w2 and a 3w4 date very differently. At least a one-paragraph acknowledgment would signal depth to Enneagram-literate readers.
-
-9. **The opening doesn't earn my attention.** The quality feedback at the top already flags this (weak-hook). As a reader I agree — "You've read the dating books" is a generic content-marketer opener. A concrete scene or a surprising stat would work harder.
-
-## What felt overdone / repetitive
-
-1. **The 8-subsection template repeats 9 times.** By Type 4 I'm skimming. Every type has: Hidden Psychology → You Might Be If → Superpower → Why You Struggle → Mindset Shift → First Date → Second Date → Growth Edge. That's 72 mini-sections. Consider collapsing "Mindset Shift" into the narrative and merging "Superpower + Why You Struggle" into one honest paragraph.
-
-2. **The "From X / To Y" Mindset Shift format.** Starts to feel like a worksheet by Type 3. Could be written as prose instead of the same framed callout 9 times.
-
-3. **"The move that ___" and "The growth edge" in every section.** I started mentally tuning them out. They're useful but the formula makes them feel like filler.
-
-4. **The top table + the Quick Type Identifier box overlap.** The table already tells me Type 1's fatal flaw is "constant criticism." Then the identifier box tells me Type 1 "mentally grades dates and finds flaws." Same info, two formats. Pick one.
-
-5. **"Women aren't looking for perfection" appears twice.** Once in the intro ("Women aren't looking for perfection. They're looking for emotional intelligence.") and once at the end ("Women aren't looking for a perfect man. They're looking for an aware one."). Feels like you forgot you already said it.
-
-6. **First-date suggestions recycle.** Cooking classes show up for Types 1, 2, 5, 7. Museums show up for Types 1, 3, 5, 7. After a while it feels less "tailored to your type" and more "generic good-date list with different justifications."
-
-7. **Power conversation questions aren't always type-specific.** "What lights you up outside of work?" (Type 3) and "When do you feel most yourself?" (Type 4) could swap with no loss. If a question could work for any type, it's not really type-specific advice.
-
-8. **The closing "You stop / You start" lists are generic self-help.** Could apply to any framework — astrology, attachment theory, MBTI. Doesn't earn its place at the end of a 3000+ word guide.
-
-## What worked
-
-- The **childhood wound → adult pattern** framing is the best part. Insightful and actually Enneagram-native.
-- Type descriptions feel accurate — I recognized myself and two exes.
-- The scannability (headers, bullets, check/x lists) makes it easy to jump to your type.
-- "What Women Actually See" column in the opening table is a great gut-punch. More of that energy throughout would sharpen the whole piece.
-
-## One structural suggestion
-
-Consider adding a sticky type-nav at the top (anchors to each type) so readers can jump straight to theirs. Right now if I already know I'm a 7, I'm scrolling past 50% of the article to find my section.
-
-## Biggest single improvement
-
-Cut 30% of the template repetition and use the space for: (a) online dating, (b) how to read her type, (c) one real personal story from DJ. That turns this from a solid reference piece into something people actually share.
-READER_FEEDBACK_END -->
 
 <svelte:head>
 
@@ -697,7 +610,7 @@ READER_FEEDBACK_END -->
           "name": "Can knowing your Enneagram type really improve dating outcomes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Self-awareness is the foundation of emotional intelligence, and recognizing your own patterns is often the difference between repeating a cycle and changing it. The Enneagram provides a practical framework for spotting those patterns in yourself and in the person across the table."
+            "text": "It can help, but it cannot guarantee an outcome. The Enneagram offers a practical vocabulary for noticing recurring motives and defenses. That awareness can create a pause between a trigger and your response, which gives you a better chance to act differently."
           }
         },
         {
@@ -705,7 +618,7 @@ READER_FEEDBACK_END -->
           "name": "How can I tell what Enneagram type the woman I am dating is?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You won't type her confidently from one date, but patterns emerge across three. Watch how she handles stress (rude server, canceled plans), what she talks about unprompted, and how she reacts when you reveal something real. Her strength shows up first; her trap shows up under pressure. Use what you notice to understand her, not to control her."
+            "text": "You cannot determine someone's Enneagram type from one trait or one date. Across several situations, notice the motives her attention returns to, the threats she tries to prevent, and the needs she finds difficult to name. Ask curious questions and treat any type as a hypothesis she gets to confirm, not a label you impose."
           }
         },
         {
@@ -713,7 +626,7 @@ READER_FEEDBACK_END -->
           "name": "Which Enneagram types are most compatible in dating?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Any two types can work when both people are healthy and self-aware, but some pairings run easier. Type 1s tend to click with 7s and 9s, Type 2s with 8s and 4s, Type 3s with 9s and 6s, Type 4s with 5s and 9s, Type 5s with 4s and 1s, Type 6s with 9s and 2s, Type 7s with 5s and 1s, Type 8s with 2s and 7s, and Type 9s with 3s and 6s. Success depends more on emotional maturity than on specific type matches."
+            "text": "There is no universally most compatible Enneagram pairing. Maturity, values, communication, attraction, and timing matter more than type. Some pairings may feel easier because their strengths complement each other, while others expose blind spots sooner, but either dynamic can become healthy or unhealthy."
           }
         }
       ]

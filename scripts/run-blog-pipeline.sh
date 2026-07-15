@@ -3,8 +3,8 @@
 #
 # Run the full 9takes personality-blog pipeline for one person.
 # Each stage runs as a separate `claude -p` invocation, so every stage gets
-# a fresh context. The markdown draft in src/blog/people/drafts/<Person>.md
-# is the only state passed between stages.
+# a fresh context. The markdown draft and its non-served grade-feedback sidecar
+# under docs/content-analysis/grades/ pass state between the grading stages.
 #
 # Pipeline:
 #   1. create             - /blog_content_creator_people_v2 (non-interactive)
@@ -18,7 +18,7 @@
 #   8. revise             - /blog_content_revision_pass_people  (CONDITIONAL — only if
 #                           overall < 8.5, discoverability < 7, or lint failed)
 #   8.5 lint (re-run)     - scripts/blog-lint.sh
-#   9. regrade            - /grade_blog (after stripping the stage-7 grade)
+#   9. regrade            - /grade_blog (after clearing the stage-7 grade and feedback)
 #
 # The revise loop runs AT MOST ONCE. If the re-grade still lands below the bar,
 # the draft stays below the bar and a human decides — no infinite polishing.
@@ -31,8 +31,8 @@
 #   - Run-all-then-report: if a stage errors, the pipeline keeps going.
 #     Check the per-stage log files for failures.
 #   - Re-running on an already-graded blog: the pipeline strips any existing
-#     `content_quality:` block from the draft frontmatter just before each grade
-#     stage, so re-runs always produce a fresh score with no prompt collision.
+#     `content_quality:` block from the draft frontmatter and the prior review
+#     sidecar just before each grade stage, so re-runs start without grade anchoring.
 #
 
 set -uo pipefail
@@ -130,6 +130,7 @@ echo
 
 clear_grading_frontmatter() {
   local file="$REPO_ROOT/$DRAFT_PATH"
+  local feedback_file="$REPO_ROOT/docs/content-analysis/grades/${PERSON}.review.md"
   if [[ ! -f "$file" ]]; then
     echo "[pre-grade] Draft not found at $file, skipping grade-block cleanup"
     return 0
@@ -156,6 +157,10 @@ clear_grading_frontmatter() {
       in_grade { if (/-->[[:space:]]*$/) in_grade = 0; next }
       { print }
     ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+  fi
+  if [[ -f "$feedback_file" ]]; then
+    echo "[pre-grade] Removing prior grade-feedback sidecar for $PERSON"
+    rm -f "$feedback_file"
   fi
 }
 

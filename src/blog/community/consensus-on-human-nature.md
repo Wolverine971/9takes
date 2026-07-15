@@ -5,7 +5,7 @@ description: "Plato, Hume, Freud, and modern neuroscience keep finding the same 
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/community/consensus-on-human-nature'
-lastmod: '2026-02-21'
+lastmod: '2026-07-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -26,47 +26,6 @@ content_quality:
   rubric_version: 2
   graded_at: '2026-06-14'
 ---
-
-<!-- QUALITY GRADE: B+ (8.7) — rubric v2 (ADAPTED: idea-essay, not a person analysis)
-Evidence: 9 | Originality: 8.5 | Discoverability: 9 | Enneagram: 8 | Writing: 9 | Hook: 8
-
-NOTE: This is a community idea-essay, not a celebrity personality blog. Person-specific
-dimensions (Hook-on-a-moment, Enneagram emotional-interior check) were adapted to the essay form.
-The `content_quality` block is inert for community blogs (the JSONB column lives on
-`blogs_famous_people`); it's recorded here as a quality marker only.
-
-ELEVATION PASS (2026-06-14): research-backed upgrade from B (8.0) to B+ (8.7).
-DISCOVERABILITY 7 -> 9:
-- Added `meta_title` ("The 3 Parts of Human Nature: Plato to the Enneagram", 51 chars) — front-loads
-  the head term while the H1 keeps the editorial title. BlogPageHead consumes meta_title for <title>.
-- Replaced the hand-rolled BlogPosting JSON-LD (a DUPLICATE — BlogPageHead.svelte already emits
-  BlogPosting + BreadcrumbList for every community post) with FAQPage structured data (8 Q&As on
-  real search queries), mirrored by a visible "## Frequently asked questions" section (schema ==
-  visible, required for rich-result eligibility).
-- Added a search-intent H2 + extractable answer block ("The three dimensions of human nature:
-  thinking, feeling, and instinct") right after the thesis.
-- Keyword-echoed 3 editorial H2s (Hume / Kahneman / the four-tradition convergence) without losing
-  the voice line. Updated description to lead with "thinking, feeling, instinct" + a curiosity hook.
-EVIDENCE 8 -> 9 (verified by research-analyst agent + web sources):
-- FIXED a likely fabrication: the "blue pen vs. black pen" deliberation is not in Descartes' Error;
-  replaced with Damasio's verified appointment-date anecdote.
-- Added 3 verbatim, sourced quotes at the marquee moments: Damasio's "I never saw a tinge of
-  emotion..." and "reduction in emotion may constitute an equally important source of irrational
-  behavior," plus Pinker's own instrumental definition ("a kit of cognitive tools") — which turns
-  Pinker into a witness for the thesis.
-- Hedged two contested claims: attributed Pinker's "decline in violence" to him (Taleb/historians
-  dispute it); flagged spirit->superego as the looser of the three Plato/Freud mappings.
-SYSTEM INTEGRATION: 6 new contextual outbound links (mbti-vs-enneagram, software-and-hardware-of-
-the-mind, overthinking/head, oversharing/heart, instinctual-subtypes/gut, enneagram-tldr) + 3
-bidirectional backlinks added FROM philosophy-psychology-and-the-enneagram, enneagram-concepts, and
-mbti-vs-enneagram.
-
-STILL HOLDING IT BELOW A: Enneagram Integration is 8 (idea-essay — names the alarms fear/shame/anger
-but renders no single person's felt interior, which is correct for the genre, not a flaw to fix).
-Hook 8 and Originality 8.5 are the remaining ceiling; the core synthesis is unchanged, just better
-sourced. To push toward A would mean a sharper single-sentence thesis up top and one more genuinely
-novel turn — optional, not needed for publication.
--->
 
 <script>
 	const pinkerVideoUrl = "https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&clipt=EOjvARjzygM";
@@ -175,14 +134,10 @@ Human nature has three dimensions, not two. There is the **intellect** (thinking
 
 ## Plato is to Aristotle as Freud is to Pinker
 
-<!--
-Image concept: rationality versus layered human nature.
-Scene: marble classroom split into two study zones, one side orderly with geometry tools and clean diagrams, the other side crowded with masks, mirrored water, layered anatomy sketches, and unfinished notes.
-Props: compasses, scrolls, busts, theater masks, brain sketches, stacked books, half-open curtain, measuring tools.
-Lighting: crisp white light on the rational side, deeper amber shadow on the layered side.
-Midjourney prompt:
-split marble classroom scene with a Greek scholar statue standing between two study zones, left side orderly with geometry tools, clean diagrams, stacked scrolls, bright white light, right side layered with theater masks, mirrored water bowl, anatomy sketches, unfinished notes, half-open curtain, deeper amber shadow, editorial still life photography, realistic stone paper and brass textures, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 125
--->
+<figure style="margin: 2rem 0; text-align: center;">
+<img loading="lazy" src="/blogs/human-nature-rationality-vs-layered.webp" alt="A marble scholar standing between an orderly geometry study and a shadowed room of masks and anatomy sketches" />
+<figcaption>Reason is part of the mind, but it shares the room with emotion, appetite, and the unconscious.</figcaption>
+</figure>
 
 There's a recurring split in how great thinkers approach human nature. Some look at people and see layered complexity. Others see one defining trait, rationality, and treat everything else as noise.
 
@@ -295,14 +250,10 @@ That isn't a refutation of the three-part model. It's a demonstration of why we 
 
 ## The pattern that won't go away: Plato, Freud, neuroscience, and the Enneagram agree
 
-<!--
-Image concept: four traditions discovering the same three-part pattern.
-Scene: long stone study table with four workstations for Plato, Freud, neuroscience, and the Enneagram, each station arranged differently but all built around the same three colored tokens.
-Props: parchment scrolls, quill, small brain model, carved stone enneagram disc, three colored glass pieces, calipers, oil lamps.
-Lighting: museum study-room light, grounded and scholarly.
-Midjourney prompt:
-long stone study table in a museum-like library, four distinct workstations representing Plato, Freud, neuroscience, and the Enneagram, each arranged with different tools yet all centered around the same three colored glass tokens, parchment scrolls, quill, small brain model, carved stone enneagram disc, brass calipers, oil lamps, grounded scholarly atmosphere, balanced natural window light, photorealistic editorial photography, no readable text --ar 16:9 --v 6 --style raw --q 2 --stylize 100
--->
+<figure style="margin: 2rem 0; text-align: center;">
+<img loading="lazy" src="/blogs/human-nature-three-part-convergence.webp" alt="Four scholarly workstations representing Greek philosophy, psychoanalysis, neuroscience, and the Enneagram, each paired with the same blue, red, and amber tokens" />
+<figcaption>Different traditions, different tools, the same recurring three: thinking, feeling, and instinct.</figcaption>
+</figure>
 
 Step back and the convergence is hard to dismiss. Plato described three forces in ancient Athens. Freud rediscovered them in turn-of-the-century Vienna (he knew his Plato, so count that one as influence if you like). Neuroscientist Paul MacLean formalized a three-layer "triune brain" in the 1960s. Jonathan Haidt's moral psychology found intuition driving the elephant while reasoning rides on top. And the Enneagram, which developed through an entirely separate lineage, arrived at the same structure through its three [intelligence centers](/enneagram-corner/enneagram-concepts).
 
