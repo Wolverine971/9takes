@@ -1,0 +1,9 @@
+stage=1_create exit=1 dur=1s at=2026-07-14 22:23:58
+stage=2_fresh_eyes exit=1 dur=1s at=2026-07-14 22:23:59
+stage=3_second_pass exit=1 dur=0s at=2026-07-14 22:23:59
+stage=4_cohesion exit=1 dur=1s at=2026-07-14 22:24:00
+stage=5_editor_pass exit=1 dur=0s at=2026-07-14 22:24:00
+stage=6_enrich_frontmatter exit=1 dur=1s at=2026-07-14 22:24:01
+stage=6.5_lint exit=1 dur=0s at=2026-07-14 22:24:01
+stage=6.7_source_audit exit=1 dur=0s at=2026-07-14 22:24:01
+stage=7_grade exit=1 dur=1s at=2026-07-14 22:24:02

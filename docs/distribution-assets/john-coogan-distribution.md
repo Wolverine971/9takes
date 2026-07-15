@@ -2,6 +2,8 @@
 
 # John Coogan - Distribution Assets
 
+> **Retype notice (2026-07-14):** John Coogan is now assigned Enneagram Type 7. The distribution copy below predates the retype and is retained only as an archived draft. Do not distribute it until it is rewritten from the current Type 7 profile.
+
 ## Twitter/X Thread
 
 **Tweet 1 (Hook):**

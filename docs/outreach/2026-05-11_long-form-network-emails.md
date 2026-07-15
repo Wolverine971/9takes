@@ -1,15 +1,15 @@
 <!-- docs/outreach/2026-05-11_long-form-network-emails.md -->
 
-# Long-Form Network — Email Drafts (12, ready-to-send)
+# Long-Form Network — Email Campaign
 
 **Created:** 2026-05-11
-**Last updated:** 2026-07-06
-**Status:** All 12 emails rebuilt to 4-layer template (2026-05-15). Ali Abdaal next-send packet refreshed 2026-07-06 after live URL verification. See **[Personality-Analysis Outreach Playbook](./personality-analysis-outreach-playbook.md)** for the crystallized methodology behind every email below.
+**Last updated:** 2026-07-14
+**Status:** Gmail-audited 2026-07-14. Chris Williamson (sent 2026-05-15), Alex Hormozi (sent 2026-05-18), and Andrew Schulz (sent 2026-06-30) have no human reply and should not be resent. Steven Bartlett was sent 2026-07-14 and returned only an automated PR-inbox response; hold while that attempt is pending. Ali Abdaal remains unsent. See **[Who Is Most Likely to Reply? — Top 10 Outreach Plan](./2026-07-14_reply-likelihood-top-10.md)** for the evidence-led next sequence and **[Personality-Analysis Outreach Playbook](./personality-analysis-outreach-playbook.md)** for the methodology behind the drafts below.
 **Companion to:** `docs/outreach/2026-05-11_long-form-network-cluster.md` (strategy + sequencing) and `docs/outreach/2026-05-11_chris-williamson-campaign.md` (Williamson's surrounding network)
 **Methodology:** Every body uses the 4-layer template — earned connection → truth hook + labeling-sensitivity acknowledgment → plain-English argument (no Enneagram jargon in email) → per-person offer + smallest-yes ask. Subject = signature scene from the piece. See playbook for full reasoning.
 **Voice:** Each opener leads with a signature specific pulled from the actual published piece. No generic "I write personality analysis" openers.
 **Network-proof rule:** Every email cites 2–3 other cluster members as adjacent links, rotated per recipient.
-**Blocker:** Steven Bartlett only: piece still shows `published: false` on disk despite 8.8 grade — run `/blog_content_publish_people Steven-Bartlett` before his send. This does not block Ali.
+**Blocker:** None for Ali. Steven's public profile URL was verified live, but outreach is now on hold because a press-inbox send is already pending.
 
 ---
 
@@ -743,20 +743,20 @@ P.S. Reply "no thanks" if you'd rather I stop.
 
 # Send-readiness summary
 
-| #   | Recipient        | Email ready?  | Blocker before send                                          |
-| --- | ---------------- | ------------- | ------------------------------------------------------------ |
-| 1   | Chris Williamson | ✅ ready      | none                                                         |
-| 2   | Alex Hormozi     | ✅ ready      | none                                                         |
-| 3   | Ali Abdaal       | ✅ ready      | none — URL verified clean 2026-07-06                         |
-| 4   | Andrew Huberman  | ✅ ready      | verify URL renders                                           |
-| 5   | Tim Ferriss      | ✅ ready      | verify URL renders                                           |
-| 6   | Steven Bartlett  | ⚠️ ready text | **Run `/blog_content_publish_people Steven-Bartlett` first** |
-| 7   | Theo Von         | ✅ ready      | verify URL renders                                           |
-| 8   | Jordan Peterson  | ✅ ready      | none                                                         |
-| 9   | Lex Fridman      | ✅ ready      | verify URL renders                                           |
-| 10  | Joe Rogan        | ✅ ready text | No public email — needs mutual intro or X DM fallback        |
-| 11  | Shawn Ryan       | ✅ ready      | verify URL renders                                           |
-| 12  | Andrew Schulz    | ✅ ready      | verify URL renders; management address uncertain             |
+| #   | Recipient        | Email ready?  | Blocker before send                                                                |
+| --- | ---------------- | ------------- | ---------------------------------------------------------------------------------- |
+| 1   | Chris Williamson | 📤 sent       | Sent 2026-05-15; no reply found as of 2026-07-14 — do not resend                   |
+| 2   | Alex Hormozi     | 📤 sent       | Sent 2026-05-18; no reply found as of 2026-07-14 — do not resend                   |
+| 3   | Ali Abdaal       | ✅ ready      | none — URL verified clean 2026-07-06                                               |
+| 4   | Andrew Huberman  | ✅ ready      | verify URL renders                                                                 |
+| 5   | Tim Ferriss      | ✅ ready      | verify URL renders                                                                 |
+| 6   | Steven Bartlett  | ⏳ hold       | Sent 2026-07-14; automated PR response only — do not duplicate while pending       |
+| 7   | Theo Von         | ✅ ready      | verify URL renders                                                                 |
+| 8   | Jordan Peterson  | ✅ ready      | none                                                                               |
+| 9   | Lex Fridman      | ✅ ready      | verify URL renders                                                                 |
+| 10  | Joe Rogan        | ✅ ready text | No public email — needs mutual intro or X DM fallback                              |
+| 11  | Shawn Ryan       | ✅ ready      | verify URL renders                                                                 |
+| 12  | Andrew Schulz    | 📤 sent       | Sent to Jamiel Hibbert 2026-06-30; no reply found as of 2026-07-14 — do not resend |
 
 ---
 

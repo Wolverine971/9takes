@@ -3,6 +3,7 @@
 # Andrew Schulz — Cold Outreach Message
 
 **Date staged:** 2026-06-29
+**Status:** **SENT 2026-06-30** to `jamiel@theandrewschulz.com`. Gmail audit on 2026-07-14 found no reply. **Do not send a new first-touch email.** Any future contact must be a deliberate follow-up with new value in the existing thread.
 **Target:** Andrew Schulz (Flagrant, stand-up — "Infamous," "LIFE")
 **Context:** Post-publication outreach for the Enneagram Type 7 (7w8) analysis at https://9takes.com/personality-analysis/Andrew-Schulz
 **Channel:** No personal/management email surfaced. One real inbox on his own domain: **`jamiel@theandrewschulz.com`** (Jamiel Hibbert, Head of Partnerships, Flagrant Media Group) — use the **Jamiel version** below (a forward-this-along note, NOT a sponsorship pitch). Backups: **X DM `@andrewschulz`** (often faster than management for him) and the **Flagrant Media Group** contact form ([flagrantmediagroup.co](https://www.flagrantmediagroup.co/)). Treat the **lean version as the DM-native** one.

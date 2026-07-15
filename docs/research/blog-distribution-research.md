@@ -14,7 +14,7 @@ All 5 target blogs are currently **drafts (unpublished)**.
 | ---------------- | --------------------- | -------------------------------------------- | ------ |
 | Benson Boone     | Type 7 (Enthusiast)   | `src/blog/people/drafts/Benson-Boone.md`     | Draft  |
 | Chris Williamson | Type 3 (Achiever)     | `src/blog/people/drafts/Chris-Williamson.md` | Draft  |
-| John Coogan      | Type 3 (Achiever)     | `src/blog/people/drafts/John-Coogan.md`      | Draft  |
+| John Coogan      | Type 7 (Enthusiast)   | `src/blog/people/drafts/John-Coogan.md`      | Draft  |
 | Shawn Ryan       | Type 5 (Investigator) | `src/blog/people/drafts/Shawn-Ryan.md`       | Draft  |
 | Pokimane         | Type 6 (Loyalist)     | `src/blog/people/drafts/Pokimane.md`         | Draft  |
 

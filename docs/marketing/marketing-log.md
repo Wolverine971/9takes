@@ -10,6 +10,13 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-07-14 — Gmail audit corrected Long-Form outreach send history
+
+- Gmail Sent confirms **Chris Williamson was emailed 2026-05-15** via `jonathan@chriswillx.com`; no reply found.
+- Gmail Sent confirms **Andrew Schulz outreach was emailed to Jamiel Hibbert on 2026-06-30**; no reply found. Do not resend the first-touch email.
+- No matching Gmail Sent messages were found for **Ali Abdaal** or **Steven Bartlett** across the known recipient addresses, subject hooks, names, and profile URLs. Their polished drafts remain safe to send. This does not rule out an unlogged website contact-form submission.
+- Earlier `0/12 sent` / `no send evidence` entries below were based on repo evidence only and are superseded by this direct Gmail audit.
+
 ### 2026-07-13 — Unattended status brief: growth FRESH (biggest week → nothing); publish gate jammed; IG fully dark
 
 - Brief: [`docs/daily-briefs/2026-07-13_marketing-status.md`](../daily-briefs/2026-07-13_marketing-status.md).

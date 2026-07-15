@@ -1,0 +1,18 @@
+blog-quality-report: John-Coogan
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 10 total  (strong 4, comparative 6)
+   strong  [X,-not-Y] L124: The social-first call is a best guess, not a certainty.
+   strong  [X,-not-Y] L134: The former article's most status-conscious evidence also came from Jordi Hays, not John.
+   strong  [not…but/it-was] L173: He described having a _"voracious appetite for data,"_ not for the joy of knowing, but to optimize, to scale faster and smarter than the com
+   strong  [X,-not-Y] L253: Coogan writes the newsletter **for Jordi, not the audience**: "I'm pitching an idea to Jordi.
+   compar. [more/less-than] L108: He manufactures difficult work because a demanding new problem feels more alive than comfortable repetition.
+   compar. [more/less-than] L120: The more forceful 7w8 case is visible in his appetite for entrepreneurial danger and his confidence that sustained effort eventually wins, b
+   compar. [more/less-than] L145: But there was another compulsion running alongside the ambition, one that would prove more durable than the astronaut dream.
+   compar. [more/less-than] L219: Much more so than if I just watched a different video and came away with one thing that I was parroting."
+   compar. [more/less-than] L221: That's more people than gather for some of the biggest protests in the world."
+   compar. [more/less-than] L337: Then the show will begin, and for John Coogan the essential promise will be renewed: by the end of the next three hours, something has to be
+
+2.4 Head-term: PASS  meta_title=Is John Coogan an Enneagram Type 7? The Curiosity Behind TBPN
+   answer-block: ok (44 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 382)

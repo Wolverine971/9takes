@@ -1,0 +1,15 @@
+{
+	"person": "John-Coogan",
+	"draft_path": "src/blog/people/drafts/John-Coogan.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-14_222357_John-Coogan",
+	"completed": true,
+	"halt_reason": null,
+	"revised": false,
+	"lint_exit": 1,
+	"first_overall": null,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": true,
+	"generated_at": "2026-07-15T02:24:02.368Z"
+}

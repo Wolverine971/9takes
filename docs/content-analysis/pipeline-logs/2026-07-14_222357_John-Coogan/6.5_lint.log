@@ -1,0 +1,37 @@
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 148 chars
+ok    meta_title length 61 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+FAIL  missing extractable type-answer block after required personality-type heading
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+FAIL  missing ledger comment: TESTIMONY LEDGER (creator v2 hard gates require it)
+FAIL  missing ledger comment: HEADING MIX LEDGER (creator v2 hard gates require it)
+FAIL  missing ledger comment: DISTRIBUTION LEDGER (creator v2 hard gates require it)
+FAIL  missing ledger comment: FORMULA FINGERPRINT LEDGER (creator v2 hard gates require it)
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (2 real Q/A pairs)
+FAIL  contrast-pair sentence engines: 4 strong (target <= 0; run node scripts/blog-quality-report.mjs John-Coogan)
+WARN  comparative contrast patterns detected: 6 (review with blog-quality-report)
+ok    internal link count: 6
+WARN  published: true while production_pretext.status: draft — states disagree
+FAIL  25 prose em-dashes in body (banned; quote attributions are exempt) — rewrite with periods, commas, or colons
+WARN  banned AI phrases in body: 'It's worth noting'×1 (check whether inside direct quotes)
+
+blog-lint: John-Coogan — 7 fail, 3 warn

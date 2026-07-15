@@ -566,21 +566,21 @@
 			</p>
 		</header>
 
-		<div
+		<ol
 			class="flow-story"
 			aria-label="How a perspective enters the 9takes gathering"
 			onpointermove={handleGatheringPointer}
 			onpointerleave={clearGatheringPointer}
 			onpointercancel={clearGatheringPointer}
 		>
-			<article class="flow-beat flow-beat--speak">
+			<li class="flow-beat flow-beat--speak">
 				<div class="flow-beat-marker" aria-hidden="true"><span>01</span></div>
 				<p class="mono flow-beat-kicker">01 · ENTER ALONE</p>
 				<h3>Say what you actually saw.</h3>
 				<p>A real situation enters the circle with your unfiltered read attached.</p>
-			</article>
+			</li>
 
-			<article class="flow-beat flow-beat--listen">
+			<li class="flow-beat flow-beat--listen">
 				<div class="flow-beat-marker" aria-hidden="true"><span>02</span></div>
 				<p class="mono flow-beat-kicker">02 · THE ROOM OPENS</p>
 				<h3>Listen without a leader.</h3>
@@ -588,9 +588,9 @@
 					Only after you answer do the other perspectives appear&mdash;each noticing something
 					different.
 				</p>
-			</article>
+			</li>
 
-			<article class="flow-beat flow-beat--see">
+			<li class="flow-beat flow-beat--see">
 				<div class="flow-beat-marker" aria-hidden="true"><span>03</span></div>
 				<p class="mono flow-beat-kicker">03 · THE PATTERN APPEARS</p>
 				<h3>See what everyone was protecting.</h3>
@@ -598,8 +598,8 @@
 					The distance between the takes reveals the fear, pride, care, control, or longing
 					underneath.
 				</p>
-			</article>
-		</div>
+			</li>
+		</ol>
 
 		<p class="mono flow-manifesto">
 			ONE SITUATION <span aria-hidden="true">·</span> NINE PERSPECTIVES
@@ -1479,7 +1479,9 @@
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 		max-width: 1100px;
 		margin: 0 auto;
+		padding: 0;
 		border-block: 1px solid var(--stone-edge);
+		list-style: none;
 	}
 
 	.flow-story::before {

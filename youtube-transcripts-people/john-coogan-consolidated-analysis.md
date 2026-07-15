@@ -2,6 +2,8 @@
 
 # Consolidated Analysis: John Coogan Across 4 Episodes
 
+> **Retype notice (2026-07-14):** The current editorial assignment is Enneagram Type 7, not Type 3. Read [john-coogan-type-7-retype-notes.md](./john-coogan-type-7-retype-notes.md) before using this packet. That file also corrects multiple John/Jordi speaker-attribution errors in the old blog.
+
 **Sources (local transcript dumps):**
 
 - [john-coogan-youtube-soylent-launch.md](./john-coogan-youtube-soylent-launch.md) (YouTube, Mar 4, 2021)

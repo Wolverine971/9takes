@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — john-coogan (Type 7)
+/Users/djwayne/9takes/src/blog/people/drafts/John-Coogan.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 30
+Comparison set (last 8 other Type-7 drafts by date):
+  - Jeff-Goldblum  (2026-07-03, 23 units)
+  - Matt-Smith  (2026-07-03, 24 units)
+  - cathie-wood  (2026-07-02, 22 units)
+  - Jim-Carrey  (2026-06-30, 23 units)
+  - conan-obrien  (2026-06-30, 12 units)
+  - bert-kreischer  (2026-06-26, 20 units)
+  - corinna-kopf  (2026-06-22, 7 units)
+  - markiplier  (2026-06-22, 26 units)
+
+Noise floor over 4710 unit pairs:  median=0  p90=0  p99=0.008  max=0.135
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.135 #####                Matt-Smith
+  0.068 ###                  Jeff-Goldblum
+  0.040 ##                   cathie-wood
+  0.039 ##                   bert-kreischer
+  0.028 #                    Jim-Carrey
+  0.021 #                    conan-obrien
+  0.021 #                    markiplier
+  0.015 #                    corinna-kopf
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.135   john-coogan  <->  Matt-Smith
+   TARGET [diagnosis] He does not avoid difficult work.
+   OTHER  [counter-typing] He does not perform suffering as identity.
+
+score 0.068   john-coogan  <->  Jeff-Goldblum
+   TARGET [diagnosis] Then he said that route was not really available to him.
+   OTHER  [diagnosis] Yippee!" He was in his mid-sixties when he said that.
+
+score 0.040   john-coogan  <->  cathie-wood
+   TARGET [diagnosis] That is the difference between ambition as identity and ambition as transportation.
+   OTHER  [diagnosis] That is the rigorous research analyst she trained as for forty years.
+
+score 0.039   john-coogan  <->  bert-kreischer
+   TARGET [diagnosis] He has said that performing the same scripted program every day would be a waking nightmare. 🐇 Enneagram Rabbit Hole
+   OTHER  [diagnosis] see the rabbit hole below.)
+
+score 0.028   john-coogan  <->  Jim-Carrey
+   TARGET [diagnosis] That is the difference between ambition as identity and ambition as transportation.
+   OTHER  [counter-typing] The difference is the fifty years of running that came first.
+
+score 0.025   john-coogan  <->  bert-kreischer
+   TARGET [diagnosis] See the guide to instinctual subtypes .
+   OTHER  [diagnosis] see the rabbit hole below.)
+
+score 0.025   john-coogan  <->  cathie-wood
+   TARGET [diagnosis] He repeatedly turns it into another skill
+   OTHER  [diagnosis] and she says it into a camera without flinching.
+
+score 0.021   john-coogan  <->  conan-obrien
+   TARGET [diagnosis] and willing to keep an unanswered question active for years.
+   OTHER  [diagnosis] For years he told doctors he wasn't depressed
+
+score 0.021   john-coogan  <->  Matt-Smith
+   TARGET [diagnosis] Coogan presents a more industrial version of the pattern.
+   OTHER  [diagnosis] " he told the press while promoting House of the Dragon .
+
+score 0.021   john-coogan  <->  conan-obrien
+   TARGET [diagnosis] Coogan presents a more industrial version of the pattern.
+   OTHER  [diagnosis] The evidence isn't in any single behavior — it's in the pattern across forty years. - The reframe reflex
+
+score 0.021   john-coogan  <->  markiplier
+   TARGET [diagnosis] Enneagram Type 7 is often reduced to the entertaining optimist who hates missing out.
+   OTHER  [diagnosis] Enneagram Sevens are called "The Enthusiast" — but that label undersells the mechanism.
+
+score 0.020   john-coogan  <->  Matt-Smith
+   TARGET [diagnosis] Coogan presents a more industrial version of the pattern.
+   OTHER  [diagnosis] It is the part of the human map built around appetite
+
+------------------------------------------------------------------------------
+Top pair scores 0.135 vs median 0  (~∞x the noise floor).
