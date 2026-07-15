@@ -378,7 +378,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'grimes', link: true, hasImage: true, lastmod: '2026-01-29', personaTitle: 'Music\'s Boundless Futurist', contentGrade: 9.1, types: ['musician', 'alternative-artist'] },
 		{ name: 'jack-black', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Comedy\'s Boundless Showman', contentGrade: 8.1, types: ['celebrity', 'comedian', 'musician', 'tv-comedy-crossover', 'music-crossover', 'sketch-comic'] },
 		{ name: 'jimmy-fallon', link: true, hasImage: true, lastmod: '2025-06-25', personaTitle: 'Late Night\'s Grinning Escape Artist', contentGrade: 8.8, types: ['celebrity', 'comedian'] },
-		{ name: 'john-coogan', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Silicon Valley\'s Restless Systems Explorer', contentGrade: 8.6, types: ['creator', 'entrepreneur', 'business-creator', 'business-operator'] },
+		{ name: 'john-coogan', link: true, hasImage: true, lastmod: '2026-07-14', personaTitle: 'Silicon Valley\'s Restless Systems Explorer', contentGrade: 8.6, types: ['creator', 'entrepreneur', 'business-creator', 'business-operator'] },
 		{ name: 'john-f-kennedy', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Camelot\'s Graceful Fugitive', contentGrade: 9.2, types: ['politician', 'historical', 'modern-leader'] },
 		{ name: 'john-mcafee', link: true, hasImage: true, lastmod: '2026-05-09', personaTitle: 'Cybersecurity\'s Doomed Escape Artist', contentGrade: 9.3, types: ['techie', 'entrepreneur', 'business-operator'] },
 		{ name: 'jon-stewart', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Comedy\'s Wounded Compass', contentGrade: 9, types: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host'] },

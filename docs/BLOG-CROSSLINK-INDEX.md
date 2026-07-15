@@ -1,7 +1,7 @@
 # Blog Cross-Link Index
 
 _Generated: 2026-07-15_
-_Total Posts Analyzed: 191 (Published: 170, Unpublished: 21)_
+_Total Posts Analyzed: 192 (Published: 170, Unpublished: 22)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
 ---
@@ -10,13 +10,13 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 
 | Metric | Count |
 |--------|-------|
-| Total posts | 191 |
+| Total posts | 192 |
 | Published posts | 170 |
-| Unpublished posts | 21 |
+| Unpublished posts | 22 |
 | Posts with 0 outgoing links | 27 |
-| Posts with 0 incoming links | 43 |
+| Posts with 0 incoming links | 44 |
 | Completely isolated (0 in, 0 out) | 26 |
-| Total internal cross-links | 997 |
+| Total internal cross-links | 999 |
 | Average outgoing links per post | 5.2 |
 
 ---
@@ -92,7 +92,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (43 posts)
+## Priority 3: Posts with NO Incoming Links (44 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -110,6 +110,7 @@ These posts are "orphaned" - no other content links to them.
 | Succession Enneagram: Why Logan Roy Bred Four Different Pers... | `pop-culture/succession-roy-siblings-enneagram-types.md` | 5 |
 | Attachment, Frustration, Rejection: Object Relations by Type | `enneagram/enneagram-object-relations.md` | 4 |
 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | 2 |
+| John Coogan and Jordi Hays Built TBPN by Wanting Different T... | `pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md` | 2 |
 | What Enneagram Type Are Most Musicians? The Data Says Type 4 | `pop-culture/what-enneagram-type-are-most-musicians.md` | 2 |
 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` | 1 |
 | My First Million | `pop-culture/my-first-million-shaan-sam-enneagram-dynamic.md` | 1 |
@@ -262,6 +263,7 @@ Sorted by total connections (incoming + outgoing).
 | 9 | 2 | 7 | Why Type 6 Isn | `enneagram/mental-health/enneagram-anxiety-complete-guide.md` |
 | 9 | 4 | 5 | Why Dating Apps Are Harder for Certain Personality Types | `enneagram/why-dating-apps-are-harder-for-certain-personality-types.md` |
 | 9 | 3 | 6 | The Definitive Guide to Relationship Conflict [Part 1] | `guides/definitive-guide-to-relationship-conflict-part-1.md` |
+| 9 | 5 | 4 | The Podcaster Personality Map: Why Every Host Gravitates to ... | `pop-culture/podcaster-personality-map.md` |
 | 8 | 2 | 6 | 5 Reasons Reddit Can | `community/reddit-deep-connections-limitations.md` |
 | 8 | 2 | 6 | Enneagram Compatibility: Why Charts Lie | `enneagram/enneagram-compatibility-guide.md` |
 | 8 | 6 | 2 | The Complete Enneagram Compatibility Matrix: All 81 Type Com... | `enneagram/enneagram-compatibility-matrix.md` |
@@ -283,7 +285,6 @@ Sorted by total connections (incoming + outgoing).
 | 8 | 3 | 5 | Active Listening Guide: Why Your Personality Type Sabotages ... | `guides/ultimate-guide-to-active-listening.md` |
 | 8 | 1 | 7 | The Blackpill Pipeline: How Shame Radicalizes Young Men | `pop-culture/incel-blackpill-radicalization-enneagram.md` |
 | 8 | 3 | 5 | Influencer Enneagram Types: Why Type 3s Dominate Instagram | `pop-culture/influencer-enneagram-types-instagram.md` |
-| 8 | 4 | 4 | The Podcaster Personality Map: Why Every Host Gravitates to ... | `pop-culture/podcaster-personality-map.md` |
 | 8 | 6 | 2 | Founders vs Stewards: The Personality Types That Replace Tec... | `pop-culture/tech-titans-founders-vs-stewards.md` |
 | 7 | 2 | 5 | You Didn | `community/personality-frameworks-map-not-territory.md` |
 | 7 | 2 | 5 | How to Compliment Each Enneagram Type (Words That Actually L... | `enneagram/biggest-compliments-to-give-each-enneagram-type.md` |
@@ -302,6 +303,7 @@ Sorted by total connections (incoming + outgoing).
 | 6 | 2 | 4 | The Voice in Your Head: Self-Talk by Enneagram Type | `enneagram/enneagram-positive-self-talk.md` |
 | 6 | 3 | 3 | Enneagram Team Dynamics: Which Pairs Click, Which Implode | `enneagram/enneagram-team-dynamics.md` |
 | 6 | 3 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
+| 6 | 3 | 3 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 6 | 3 | 3 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |
 | 6 | 1 | 5 | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried... | `pop-culture/fallen-founders-enneagram-analysis.md` |
 | 5 | 2 | 3 | Kant Said Reality Is Filtered. The Enneagram Shows the Other... | `community/kantian-filters-and-nine-perspectives.md` |
@@ -315,7 +317,6 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 4 | 1 | The Pattern-Breaking Guide to Fighting Depression | `guides/guide-to-fighting-depression.md` |
 | 5 | 1 | 4 | How to Read People: The 4-Step Guide to Understanding Anyone | `guides/how-to-psychoanalyze-people.md` |
 | 5 | 2 | 3 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` |
-| 5 | 2 | 3 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
 | 5 | 2 | 3 | Google | `pop-culture/google-leadership-evolution.md` |
 | 5 | 3 | 2 | The Anatomy of Public Shame: What We | `pop-culture/psychology-of-public-shame.md` |
 | 5 | 0 | 5 | Succession Enneagram: Why Logan Roy Bred Four Different Pers... | `pop-culture/succession-roy-siblings-enneagram-types.md` |
@@ -346,6 +347,7 @@ Sorted by total connections (incoming + outgoing).
 | 2 | 1 | 1 | The Stress Paradox: Why Emotional Patterns Outlast Situation... | `enneagram/situations-change-emotions-dont.md` |
 | 2 | 1 | 1 | Cancel Culture by Enneagram Type: Who Cancels and Who Gets C... | `pop-culture/cancel-culture-enneagram-type.md` |
 | 2 | 0 | 2 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` |
+| 2 | 0 | 2 | John Coogan and Jordi Hays Built TBPN by Wanting Different T... | `pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md` |
 | 2 | 1 | 1 | Trump | `pop-culture/trump-type-8-vs-biden-type-2.md` |
 | 2 | 0 | 2 | What Enneagram Type Are Most Musicians? The Data Says Type 4 | `pop-culture/what-enneagram-type-are-most-musicians.md` |
 | 1 | 0 | 1 | The Psychology of Epstein | `pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md` |

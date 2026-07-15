@@ -1,0 +1,29 @@
+Permission allow rule (.claude/settings.local.json): Write(/tmp/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/tmp/**) instead (Edit rules cover all file-editing tools).
+Nothing was published — the script rejected all 480 drafts and wrote no files. (The `famousTypes.ts` and `sitemap.xml` diffs above were already present before I started, per the session-opening git status.)
+
+**Nothing is publishable right now, and the reason is systemic rather than about any one draft.** The auto-select only printed the first 8 candidates alphabetically, which was misleading, so I evaluated all 480 drafts directly through the script's own `readPublishCandidate` to get the real picture.
+
+Blockers across all 480 drafts:
+
+| Count | Blocker |
+| --- | --- |
+| 399 | `missing_grade_stability_delta` |
+| 398 | `source_standard_failed` (untagged epigraph/cold open) |
+| 330 | `stale_grade_rubric_v1` |
+| 83 | missing full + thumbnail image |
+| 42 | `missing_content_quality` |
+| 35 | `content_quality_below_8.5` |
+
+The dominant wall is grade stability: only 7 of the 88 v2-graded drafts carry a stability field at all. That gate needs a supervised grade-then-regrade cycle, which this command doesn't own, so I stopped rather than bypassing it.
+
+Two paths forward, both needing your call:
+
+**Closest single draft — Hailee Steinfeld** (grade 8.6, discoverability 8, rubric v2, images present). Its only blocker is the missing stability delta. One supervised `/grade_blog` regrade would make it publishable, assuming the regrade lands within 0.3 of 8.6.
+
+**Three drafts already clear stability but need images.** Type images are manual Canva work per your setup, so I can't unblock these myself:
+
+- Oliver Tree — 8.8, type 4, delta 0.3 → needs `static/types/4s/oliver-tree.webp` + `s-oliver-tree.webp`
+- David Beckham — 8.6, type 3, delta 0.0 → needs `static/types/3s/david-beckham.webp` + `s-david-beckham.webp`
+- julia-fox — 8.5, type 4, delta 0.0 → needs `static/types/4s/julia-fox.webp` + `s-julia-fox.webp`
+
+Worth flagging separately: 398 drafts failing the source-standard audit and 330 still on inflated v1 grades is a backlog that will keep this command returning nothing until it's worked down. Want me to start with the Hailee Steinfeld regrade?
