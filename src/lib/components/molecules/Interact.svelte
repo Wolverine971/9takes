@@ -8,6 +8,7 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import { Button } from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
+	import VoiceRecorder from '$lib/components/molecules/VoiceRecorder.svelte';
 	import type {
 		User,
 		Comment as CommentType,
@@ -47,6 +48,20 @@
 	let confirmShortSubmit = $state(false);
 	let commentError = $state('');
 	let reduceMotion = $state(false);
+	let voiceBusy = $state(false);
+	let textareaElement = $state<HTMLTextAreaElement | null>(null);
+	let voiceInsertionRange = { start: 0, end: 0 };
+	let composerId = $derived(
+		parentType === 'question'
+			? `question-${questionId}`
+			: `comment-${isQuestionPageData(data) ? questionId : data.id}`
+	);
+	let textareaId = $derived(`comment-box-${composerId}`);
+	let countId = $derived(`comment-composer-count-${composerId}`);
+	let nudgeId = $derived(`comment-composer-nudge-${composerId}`);
+	let errorId = $derived(`comment-composer-error-${composerId}`);
+	let commentButtonId = $derived(`comment-button-${composerId}`);
+	let qrModalId = $derived(`qr-modal-${composerId}`);
 
 	const SHORT_ANSWER_THRESHOLD = 100;
 
@@ -89,7 +104,7 @@
 	// Handle QR code modal opening
 	const openQRModal = () => {
 		if (!shareReady) return;
-		getModal('qr-modal').open();
+		getModal(qrModalId).open();
 	};
 
 	const getCommentFingerprint = (): string => {
@@ -105,6 +120,10 @@
 
 	// Create a new comment
 	const createComment = async () => {
+		if (voiceBusy) {
+			notifications.info('Finish your voice recording before posting.', 3000);
+			return;
+		}
 		if (!canComment()) return;
 		if (!comment.trim()) {
 			commentError = 'Write a comment before posting.';
@@ -292,6 +311,7 @@
 	const handleTextareaInput = (e: Event) => {
 		const target = e.target as HTMLTextAreaElement;
 		commentError = '';
+		rememberCommentSelection();
 
 		// Reset nudge when user keeps typing
 		if (shortAnswerNudge && target.value.trim().length >= SHORT_ANSWER_THRESHOLD) {
@@ -316,20 +336,55 @@
 		// Submit comment with Ctrl+Enter or Cmd+Enter
 		if ((e.ctrlKey || e.metaKey) && e.key === 'Enter' && comment.trim()) {
 			e.preventDefault();
+			if (voiceBusy) return;
 			createComment();
 		}
 	};
+
+	function rememberCommentSelection() {
+		if (!textareaElement) return;
+		voiceInsertionRange = {
+			start: textareaElement.selectionStart ?? comment.length,
+			end: textareaElement.selectionEnd ?? comment.length
+		};
+	}
+
+	function insertVoiceTranscript(transcript: string) {
+		const trimmedTranscript = transcript.trim();
+		if (!trimmedTranscript) return;
+
+		const start = Math.min(voiceInsertionRange.start, comment.length);
+		const end = Math.min(Math.max(voiceInsertionRange.end, start), comment.length);
+		const replacingSelection = start !== end;
+		const needsSpaceBefore =
+			!replacingSelection && start > 0 && !/\s/.test(comment[start - 1] ?? '');
+		const needsSpaceAfter =
+			!replacingSelection && end < comment.length && !/\s/.test(comment[end] ?? '');
+		const insertedText = `${needsSpaceBefore ? ' ' : ''}${trimmedTranscript}${needsSpaceAfter ? ' ' : ''}`;
+
+		comment = `${comment.slice(0, start)}${insertedText}${comment.slice(end)}`;
+		commentError = '';
+		if (comment.trim().length >= SHORT_ANSWER_THRESHOLD) {
+			shortAnswerNudge = false;
+			confirmShortSubmit = false;
+		}
+
+		const cursorPosition = start + insertedText.length;
+		voiceInsertionRange = { start: cursorPosition, end: cursorPosition };
+		queueMicrotask(() => {
+			if (!textareaElement) return;
+			textareaElement.style.height = 'auto';
+			textareaElement.style.height = `${textareaElement.scrollHeight + 2}px`;
+			textareaElement.focus();
+			textareaElement.setSelectionRange(cursorPosition, cursorPosition);
+		});
+	}
 
 	// Initialize on mount
 	onMount(() => {
 		reduceMotion =
 			typeof window.matchMedia === 'function' &&
 			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-		// Parse any escaped newlines in placeholders
-		document.querySelectorAll('textarea').forEach((elem) => {
-			elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
-		});
 
 		cachedFingerprint = getOrCreateVisitorId();
 	});
@@ -368,7 +423,9 @@
 				variant="primary"
 				size="md"
 				onclick={() => (commenting = !commenting)}
+				disabled={voiceBusy}
 				aria-label={commenting ? 'Hide comment box' : commentActionAria}
+				aria-busy={voiceBusy || undefined}
 				icon={commentIcon}
 			>
 				{commenting ? 'Hide answer' : commentActionLabel}
@@ -418,7 +475,7 @@
 						{depthPrompts[currentPromptIndex]}
 					</p>
 				{/if}
-				<label class="composer-label" for="comment-box">
+				<label class="composer-label" for={textareaId}>
 					{parentType === 'question' ? 'Your answer' : 'Your reply'}
 				</label>
 				<div
@@ -427,23 +484,33 @@
 					style="--text-height: {textareaHeight};"
 				>
 					<textarea
+						bind:this={textareaElement}
 						placeholder={parentType === 'question'
 							? 'Say something real. Share what happened, give an example, or explain why you see it that way.\n\nThe best comments are honest and specific.'
 							: 'Write your reply...'}
 						class="composer-textarea bg-[var(--night-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--stone-warm)] px-3 py-2 text-sm leading-relaxed text-[var(--ink-bright)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-1 focus:ring-[var(--lamp-glow)]"
 						bind:value={comment}
-						id="comment-box"
+						id={textareaId}
 						aria-invalid={commentError ? 'true' : 'false'}
-						aria-describedby={`comment-composer-count${shortAnswerNudge ? ' comment-composer-nudge' : ''}${commentError ? ' comment-composer-error' : ''}`}
+						aria-describedby={`${countId}${shortAnswerNudge ? ` ${nudgeId}` : ''}${commentError ? ` ${errorId}` : ''}`}
 						rows="4"
 						oninput={handleTextareaInput}
 						onkeydown={handleKeydown}
-					></textarea>
+						onselect={rememberCommentSelection}
+						onclick={rememberCommentSelection}
+						onkeyup={rememberCommentSelection}></textarea>
 				</div>
+				<VoiceRecorder
+					label={parentType === 'question' ? 'Record answer' : 'Record reply'}
+					disabled={loading}
+					onbeforestart={rememberCommentSelection}
+					ontranscript={insertVoiceTranscript}
+					onbusychange={(busy) => (voiceBusy = busy)}
+				/>
 				{#if shortAnswerNudge}
 					<div
 						class="short-answer-nudge"
-						id="comment-composer-nudge"
+						id={nudgeId}
 						role="status"
 						in:slide={{ duration: reduceMotion ? 0 : 200 }}
 					>
@@ -458,13 +525,13 @@
 					</div>
 				{/if}
 				{#if commentError}
-					<p class="composer-error" id="comment-composer-error" role="alert">
+					<p class="composer-error" id={errorId} role="alert">
 						{commentError}
 					</p>
 				{/if}
 			</div>
 			<div class="composer-footer">
-				<span id="comment-composer-count" class="text-xs text-[var(--ink-dim)]">
+				<span id={countId} class="text-xs text-[var(--ink-dim)]">
 					{#if parentType === 'question' && comment.length > 0 && comment.length < SHORT_ANSWER_THRESHOLD}
 						<span class="comment-length-warning"
 							>{comment.length} chars. Keep going and add some detail.</span
@@ -472,7 +539,7 @@
 					{:else if comment.length > 0}
 						{comment.length} characters
 					{:else}
-						Press Ctrl+Enter to submit
+						<span class="keyboard-submit-hint">Press Ctrl/⌘+Enter to submit</span>
 					{/if}
 				</span>
 				<div class="flex gap-2">
@@ -486,6 +553,7 @@
 								commenting = false;
 								comment = '';
 							}}
+							disabled={loading || voiceBusy}
 						>
 							Cancel
 						</Button>
@@ -496,9 +564,9 @@
 						size="md"
 						type="button"
 						onclick={createComment}
-						disabled={!comment.trim() || loading}
+						disabled={!comment.trim() || loading || voiceBusy}
 						{loading}
-						id="comment-button"
+						id={commentButtonId}
 					>
 						{#if confirmShortSubmit}
 							Post Anyway
@@ -513,18 +581,20 @@
 </div>
 
 <!-- QR Code Modal -->
-<Modal id="qr-modal" name="Share this question">
-	<div class="mx-auto flex max-w-sm flex-col items-center py-2 text-center">
-		<h2 class="mb-1 text-xl font-semibold text-[var(--ink-bright)]">Share This Question</h2>
-		<p class="mb-5 text-sm text-[var(--ink-mid)]">Scan the QR code to share with others</p>
+{#if parentType === 'question'}
+	<Modal id={qrModalId} name="Share this question">
+		<div class="mx-auto flex max-w-sm flex-col items-center py-2 text-center">
+			<h2 class="mb-1 text-xl font-semibold text-[var(--ink-bright)]">Share This Question</h2>
+			<p class="mb-5 text-sm text-[var(--ink-mid)]">Scan the QR code to share with others</p>
 
-		<div class="mb-5 rounded-xl border border-[var(--lamp-soft)] bg-[var(--night-deep)] p-4">
-			<img src={qrCodeUrl} alt="Share question QR code" class="h-[180px] w-[180px]" />
+			<div class="mb-5 rounded-xl border border-[var(--lamp-soft)] bg-[var(--night-deep)] p-4">
+				<img src={qrCodeUrl} alt="Share question QR code" class="h-[180px] w-[180px]" />
+			</div>
+
+			<p class="text-xs text-[var(--ink-dim)]">Share and explore different perspectives</p>
 		</div>
-
-		<p class="text-xs text-[var(--ink-dim)]">Share and explore different perspectives</p>
-	</div>
-</Modal>
+	</Modal>
+{/if}
 
 <style>
 	.interact-shell {
@@ -723,6 +793,10 @@
 		:global(.composer-action-button) {
 			flex: 1 1 0;
 			min-width: 0;
+		}
+
+		.keyboard-submit-hint {
+			display: none;
 		}
 	}
 
