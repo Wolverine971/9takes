@@ -1,6 +1,6 @@
 ---
 title: 'How to Compliment Each Enneagram Type (Words That Actually Land)'
-description: "Generic compliments fall flat. Here's exactly what each Enneagram type secretly wants to hear—the words that make them feel truly seen and appreciated."
+description: 'Generic compliments fall flat. Learn what each Enneagram type wants recognized, plus exact words that feel specific, sincere, and useful in real life.'
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/enneagram-corner/biggest-compliments-to-give-each-enneagram-type'
@@ -19,283 +19,228 @@ quality_rewrite_priority: 'light'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B (8.1) | Priority: light | Safety: n/a
-Strengths: Enneagram depth (8.9); framing (7.8).
-Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions. Reduce repeated section scaffolding and make type sections more differentiated.
-Tags: style-friction, template-fatigue
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
-<!-- // notes:  -->
-
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+	import PopCard from "$lib/components/atoms/PopCard.svelte";
+	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
 <QuickAnswer question="What compliments work best for each Enneagram type?">
-The best compliment names what each type secretly fears they lack. Type 1s want goodness, Type 2s want love without earning it, Type 3s want worth beyond achievement, Type 4s want understanding, Type 5s want useful insight, Type 6s want self-trust, Type 7s want depth, Type 8s want fairness, and Type 9s want voice.
+The best compliment gives specific evidence that you noticed what matters to that person. Type 1s value integrity, Type 2s want to be valued beyond their help, Type 3s want worth beyond achievement, Type 4s want their perspective understood, Type 5s want their insight to have an effect, Type 6s want their judgment trusted, Type 7s want their depth recognized, Type 8s want their protective heart seen, and Type 9s want proof that their voice matters.
 </QuickAnswer>
 
-## Compliment Cheat Sheet
+<p class="firstLetter">"You're so smart" describes a category. "The question you asked changed how I approached that meeting" proves you were paying attention.</p>
 
-| Type       | What They Fear        | Compliment That Lands                         | Avoid                                    |
-| ---------- | --------------------- | --------------------------------------------- | ---------------------------------------- |
-| **Type 1** | Being corrupt/bad     | "Your integrity inspires me"                  | "You're always right" (sounds sarcastic) |
-| **Type 2** | Being unloved         | "I love you for who you are, not what you do" | "Thanks for helping" (too transactional) |
-| **Type 3** | Being worthless       | "I admire the person behind the success"      | "You're so accomplished" (surface level) |
-| **Type 4** | Being ordinary        | "Your perspective is unlike anyone's"         | "You're so unique" (feels dismissive)    |
-| **Type 5** | Being incompetent     | "Your insight changed how I see this"         | "You're so smart" (too generic)          |
-| **Type 6** | Being without support | "I trust your judgment completely"            | "Don't worry so much" (invalidating)     |
-| **Type 7** | Being trapped in pain | "I see the depth beneath your energy"         | "You're so fun!" (misses the point)      |
-| **Type 8** | Being controlled/hurt | "Your fairness inspires loyalty"              | "You're so strong" (expected)            |
-| **Type 9** | Being insignificant   | "Your presence makes everything better"       | "You're so easy-going" (invisibilizing)  |
+That difference is why one compliment disappears in 10 seconds and another gets remembered for years. The words that land name a real choice, quality, or effect. They tell someone, "I saw what you did, and I understand why it mattered."
 
-<p class="firstLetter">"You're so smart!" "You're so nice!" "Great job!"</p>
+The Enneagram gives you a useful place to look. Each type tends to guard a different part of its identity. Treat the type as a clue, then compliment the person in front of you.
 
-These compliments fall flat. They're generic, forgettable, and don't make anyone feel truly seen.
+## Compliment cheat sheet
 
-The secret to meaningful compliments? **Acknowledge what they secretly fear they lack.** Each Enneagram type has a core fear, and when you affirm the opposite of that fear, you touch something deep.
+| Type       | What they want recognized        | A compliment that lands                                  | A generic version to skip |
+| ---------- | -------------------------------- | -------------------------------------------------------- | ------------------------- |
+| **Type 1** | Integrity and discernment        | "You held that standard when nobody would have noticed"  | "You're always right"     |
+| **Type 2** | Lovability beyond usefulness     | "I enjoy you even when you aren't taking care of anyone" | "You're so helpful"       |
+| **Type 3** | Character behind achievement     | "I respected how honest you were when that went badly"   | "You're a machine"        |
+| **Type 4** | The effect of their perspective  | "That phrase gave me a new way to describe what I felt"  | "You're so unique"        |
+| **Type 5** | Useful insight                   | "Your explanation changed my decision"                   | "You're so smart"         |
+| **Type 6** | Sound judgment and courage       | "You spotted the risk, and I trust your read"            | "Don't worry so much"     |
+| **Type 7** | Depth and follow-through         | "You stayed present when that conversation got hard"     | "You're always fun"       |
+| **Type 8** | Protection and fair use of power | "You made sure the quietest person got heard"            | "You're intimidating"     |
+| **Type 9** | Voice and visible impact         | "Your suggestion is the reason this plan works"          | "You're so easygoing"     |
+
+## Before you use the script, get the evidence
+
+A type-based compliment can still feel fake. Four moves make it believable:
+
+1. **Name the moment.** Point to the meeting, choice, joke, question, or conversation you actually witnessed.
+2. **Describe the effect.** Tell them what changed for you or for the group.
+3. **Match the size of the praise to the evidence.** A small, accurate observation beats a sweeping claim.
+4. **Leave out the hidden request.** A compliment loses its warmth when it turns into "and could you do one more thing for me?"
+
+Here is how to put that into practice for all 9 types.
+
+## Body types: recognize how they use their presence
+
+Types 8, 9, and 1 tend to read a room through instinct. Their strongest compliments often recognize what they did with their energy, standards, or influence.
 
 <article class="section-content">
 
-### Type 1: The Perfectionist
+### Type 8: Compliment the protection behind the power
 
-**Core fear:** Being corrupt, bad, or morally flawed
+Type 8s already know people see their force. A better compliment catches the moment they used that force on someone else's behalf or chose restraint when they could have taken over.
 
-Type 1s have a relentless inner critic constantly telling them they're not good enough. They strive for perfection because they genuinely want to be good people.
+After a tense meeting, try: **"You could see Jordan getting talked over, and you made room for him without making it a performance. I respected that."**
 
-**Say this:** "Your integrity inspires me. I've noticed how you always try to do the right thing, even when it's hard."
+That line recognizes control, fairness, and protection in one observable moment. "You're so strong" only repeats what an 8 hears from everyone else.
 
-**Why it works:** You're telling them what their inner critic never does: that they ARE good, not just correct.
-
-**Avoid saying:**
-
-- "You're always right" (sounds sarcastic)
-- "You need to relax" (dismisses their values)
-- "It's good enough" (triggers their inner critic)
-
-[More on Type 1s](/enneagram-corner/enneagram-type-1)
+[Read the full Type 8 guide](/enneagram-corner/enneagram-type-8)
 
 </article>
 
 <article class="section-content">
 
-### Type 2: The Helper
+### Type 9: Show them where their voice changed the outcome
 
-**Core fear:** Being unloved or unwanted for who they are
+Type 9s can watch louder personalities claim the result while their own contribution fades into the background. Bring their impact back into focus.
 
-Type 2s give constantly because they fear that without being useful, they won't be loved. They need to know they matter beyond what they provide.
+**Use their actual idea:** "Your suggestion to move the conversation outside is what got everyone talking honestly. I want to hear your read earlier next time."
 
-**Say this:** "I love spending time with you—not because of what you do for me, but because of who you are."
+The second sentence matters because it invites future participation. Avoid praising a 9 only for being calm, agreeable, or easy to be around. Those labels can reward their disappearance.
 
-**Why it works:** You're separating their worth from their usefulness. This is the validation they crave but rarely receive.
-
-**Avoid saying:**
-
-- "Thanks for helping" (too transactional)
-- "What would I do without you?" (reinforces usefulness = worth)
-- "You're so selfless" (pressure to keep giving)
-
-[More on Type 2s](/enneagram-corner/enneagram-type-2)
+[Read the full Type 9 guide](/enneagram-corner/enneagram-type-9)
 
 </article>
 
 <article class="section-content">
 
-### Type 3: The Achiever
+### Type 1: Notice the standard nobody would have caught
 
-**Core fear:** Being worthless without achievements
+A Type 1 may spend an hour fixing a detail that protects other people from confusion, embarrassment, or unfairness. Most observers only see the correction. Your compliment should name the care inside it.
 
-Type 3s chase success because they believe they ARE their accomplishments. Deep down, they fear that without the wins, no one would want them.
+At work: **"Nobody would have noticed that inconsistency, but fixing it made the whole process fairer. Your integrity improved the result."**
 
-**Say this:** "I admire who you are, not just what you've achieved. The person behind all that success is someone I genuinely respect."
+At home: **"You kept your word even when changing plans would have been easier. That makes you someone I can rely on."**
 
-**Why it works:** You're seeing past the resume to the human. That's rare for them, and deeply meaningful.
+Skip "You're always right" and "You need to relax." One sounds sarcastic; the other treats their standards as a personality defect.
 
-**Avoid saying:**
+[Read the full Type 1 guide](/enneagram-corner/enneagram-type-1)
 
-- "You're so successful" (surface level; they hear this constantly)
-- "You're a machine!" (dehumanizing)
-- "I could never do what you do" (puts them on a pedestal)
+</article>
 
-[More on Type 3s](/enneagram-corner/enneagram-type-3)
+## Heart types: separate worth from performance
+
+Types 2, 3, and 4 pay close attention to how they are seen. The compliment has to reach the person underneath the role they have learned to play.
+
+<article class="section-content">
+
+### Type 2: Appreciate something they did not do for you
+
+If every compliment follows a favor, a Type 2 can hear the same old bargain: you matter because you are useful. Break that pattern by noticing their humor, taste, curiosity, or company.
+
+Try this during an ordinary moment with no request attached: **"I love how you make a boring errand funny. I would choose your company even if neither of us needed anything."**
+
+Thank them when they help, of course. Just make sure help is not the only part of them that earns your attention.
+
+[Read the full Type 2 guide](/enneagram-corner/enneagram-type-2)
+
+</article>
+
+<article class="section-content">
+
+### Type 3: Praise the part that cannot go on a resume
+
+Success is easy to applaud. Character becomes visible when the launch fails, the promotion goes elsewhere, or somebody else gets the spotlight.
+
+That is your opening: **"I watched you give Maya credit after your own idea got rejected. The way you handled that told me more about you than the win would have."**
+
+This kind of compliment loosens the link between admiration and achievement. "You're a machine" tightens it.
+
+[Read the full Type 3 guide](/enneagram-corner/enneagram-type-3)
 
 <div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
+	style="display: flex;
+	justify-content: center;
+	margin: 1rem 0;"
 >
-    <PopCard
-        image={`/blogs/greek-statue-yeah-boi-1.webp`}
-        showIcon={false}
-        displayText=""
-        altText="Greek statues being happy again"
-        tint={false}
-        subtext="wow! you make me feel so good about myself"
-    />
+	<PopCard
+		image={`/blogs/greek-statue-yeah-boi-1.webp`}
+		showIcon={false}
+		displayText=""
+		altText="Greek statues celebrating a sincere compliment"
+		tint={false}
+		subtext="You noticed the part nobody puts on LinkedIn."
+	/>
 </div>
 
 </article>
 
 <article class="section-content">
 
-### Type 4: The Individualist
+### Type 4: Describe the effect of their perspective
 
-**Core fear:** Being ordinary, having no identity or significance
+"You're unique" can feel like a polite label slapped on something you did not understand. A Type 4 is more likely to believe you when you can show where their expression reached you.
 
-Type 4s feel fundamentally different from others, like everyone else got a manual for being human that they never received. They search constantly for their authentic self.
+Quote the detail: **"When you called grief 'love with nowhere to go,' I finally had words for what this month has felt like."**
 
-**Say this:** "I've never met anyone who sees the world quite like you do. Your perspective genuinely makes me think differently."
+You do not need to declare them unlike anyone who has ever lived. Tell them how one choice in their writing, style, music, or conversation changed your view.
 
-**Why it works:** You're validating their uniqueness without the dismissive "you're so unique" that they've heard a thousand times. You're saying their difference MATTERS.
-
-**Avoid saying:**
-
-- "You're so unique" (feels like a brush-off)
-- "Cheer up!" (dismisses their emotional depth)
-- "Everyone feels that way" (erases their identity)
-
-[More on Type 4s](/enneagram-corner/enneagram-type-4)
+[Read the full Type 4 guide](/enneagram-corner/enneagram-type-4)
 
 </article>
 
+## Head types: recognize what their mind contributes
+
+Types 5, 6, and 7 each manage uncertainty differently. Good compliments show how their thinking, preparation, or imagination helped in a real situation.
+
 <article class="section-content">
 
-### Type 5: The Investigator
+### Type 5: Give them the before-and-after
 
-**Core fear:** Being incompetent, overwhelmed, or depleted
+A generic intelligence compliment scores the person. A Type 5 usually gets more from hearing how their knowledge became useful.
 
-Type 5s hoard knowledge and energy because they fear they don't have enough to meet the world's demands. They need to know their insights actually matter.
+Use this formula: **"Before you explained [specific idea], I thought [old assumption]. Now I am going to [changed action]."**
 
-**Say this:** "Your insight on this completely changed how I understand it. You have a way of seeing patterns others miss."
+For example: "Before you explained the pricing model, I thought the cheaper plan was safer. Now I see why it would cost us more in six months." That proves their insight left the library and entered the world.
 
-**Why it works:** You're showing their knowledge had IMPACT. It wasn't just information; it was valuable. That's what they need to hear.
-
-**Avoid saying:**
-
-- "You're so smart" (too generic)
-- "You think too much" (dismisses their process)
-- "Just trust your gut" (invalidates their approach)
-
-[More on Type 5s](/enneagram-corner/enneagram-type-5)
+[Read the full Type 5 guide](/enneagram-corner/enneagram-type-5)
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+	<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 </article>
 
 <article class="section-content">
 
-### Type 6: The Loyalist
+### Type 6: Trust their judgment before offering reassurance
 
-**Core fear:** Being without support or guidance, unable to survive on their own
+Type 6s often hear that they worry too much. That response skips the useful part of their process: they notice weak spots, test assumptions, and prepare people for what could go wrong.
 
-Type 6s question everything, including themselves. They're looking for something or someone trustworthy in an uncertain world. What they really need is to trust themselves.
+Say: **"You asked the question the rest of us missed. I trust your read on this, and I want to know what you think we should do."**
 
-**Say this:** "I trust your judgment on this. You always think things through carefully, and that's valuable."
+The invitation to recommend a next step turns anxiety into agency. It also tells them that caution and courage can exist in the same person.
 
-**Why it works:** You're reflecting back the trustworthiness they desperately want to believe they have. You're saying they can rely on themselves.
-
-**Avoid saying:**
-
-- "Don't worry so much" (dismisses their legitimate concerns)
-- "Just relax" (invalidating)
-- "You're being paranoid" (confirms their worst fears)
-
-[More on Type 6s](/enneagram-corner/enneagram-type-6)
+[Read the full Type 6 guide](/enneagram-corner/enneagram-type-6)
 
 </article>
 
 <article class="section-content">
 
-### Type 7: The Enthusiast
+### Type 7: Catch them staying when escape was available
 
-**Core fear:** Being trapped in pain, deprivation, or boredom
+Fun is visible, so Type 7s get praised for it constantly. Depth shows up in quieter moments: finishing the dull part of a project, sitting with a friend's bad news, or keeping a commitment after the novelty wears off.
 
-Type 7s chase experiences because they're running FROM something, usually painful emotions they don't want to feel. They want to be seen as more than just "the fun one."
+Name that moment. **"You stayed with me through a hard conversation and never tried to rush me toward a silver lining. I felt safe telling you the truth."**
 
-**Say this:** "I really appreciate how you can find the possibility in any situation. But I also see there's a lot more depth to you than people realize."
+That compliment sees their capacity for presence. It gives them something more meaningful than another request to keep the room entertained.
 
-**Why it works:** You're acknowledging their optimism while seeing beneath it. That's rare, and it means you actually see THEM.
-
-**Avoid saying:**
-
-- "You're so fun!" (reduces them to entertainment)
-- "You're always so positive" (pressure to perform)
-- "Must be nice to never worry" (dismisses their inner world)
-
-[More on Type 7s](/enneagram-corner/enneagram-type-7)
+[Read the full Type 7 guide](/enneagram-corner/enneagram-type-7)
 
 <div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
+	style="display: flex;
+	justify-content: center;
+	margin: 1rem 0;"
 >
-    <PopCard
-        image={`/blogs/greek-statue-yeah-boi-2.webp`}
-        showIcon={false}
-        displayText=""
-        altText="happy greek statues"
-        tint={false}
-        subtext="Bring it in. You are my friend now."
-    />
+	<PopCard
+		image={`/blogs/greek-statue-yeah-boi-2.webp`}
+		showIcon={false}
+		displayText=""
+		altText="Happy Greek statues sharing a warm moment"
+		tint={false}
+		subtext="Being fun got the laugh. Staying present built the trust."
+	/>
 </div>
 
 </article>
 
-<article class="section-content">
+## The wording matters less than the attention
 
-### Type 8: The Challenger
+You cannot manufacture a meaningful compliment by copying the perfect sentence. Borrow the structure, then replace every general phrase with something you actually observed.
 
-**Core fear:** Being controlled, harmed, or violated by others
+Pick one person today. Write down the moment, the quality it revealed, and the effect it had. Send the compliment without adding advice, a joke that undercuts it, or a favor you need next.
 
-Type 8s project strength because vulnerability once got them hurt. They protect others fiercely, but they also want to be seen as fair and just, not just powerful.
-
-**Say this:** "I respect how you stand up for people who can't stand up for themselves. Your sense of fairness is something I really admire."
-
-**Why it works:** Everyone tells 8s they're strong. Few acknowledge their justice-oriented heart. This sees past the armor.
-
-**Avoid saying:**
-
-- "You're so intimidating" (confirms their fear of being seen as a threat)
-- "You're so strong" (expected and surface-level)
-- "Calm down" (will backfire spectacularly)
-
-[More on Type 8s](/enneagram-corner/enneagram-type-8)
-
-</article>
-
-<article class="section-content">
-
-### Type 9: The Peacemaker
-
-**Core fear:** Loss of connection, fragmentation, being shut out
-
-Type 9s merge with others and minimize themselves to maintain harmony. They're often overlooked, and they've learned to be okay with that, even though it hurts.
-
-**Say this:** "I really want to hear what YOU think about this. Your perspective matters to me."
-
-**Why it works:** You're literally saying their voice matters—the thing they most doubt. You're pulling them into existence.
-
-**Avoid saying:**
-
-- "You're so easy-going" (makes them invisible)
-- "Whatever you want is fine" (forces them to disappear)
-- "Don't you have an opinion?" (accusatory)
-
-[More on Type 9s](/enneagram-corner/enneagram-type-9)
-
-</article>
-
-The Enneagram is a mirror, reflecting the multifaceted nature of humanity. By understanding and appreciating each type, we bridge gaps, forge connections, and create a world rich in empathy and understanding.
-
-To explore more of the Enneagram world, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is so much more to discover. 🚀
+That is the real social skill: showing people that their best qualities did not pass through the room unnoticed.
 
 <svelte:head>
 
@@ -310,9 +255,9 @@ To explore more of the Enneagram world, sign up and join 9takes below ⬇️. Of
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The compliments provided in the article are crafted based on the essence and desires of each Enneagram type. It is designed to resonate deeply and acknowledge the strengths of each type."
+            "text": "The best Enneagram compliments name a specific choice, quality, or effect tied to what that type values. Use the type as a clue, then point to something you actually observed so the compliment feels personal rather than scripted."
           },
-          "name": "How were the compliments for each Enneagram type determined?"
+          "name": "How do you compliment each Enneagram type?"
         }
       ]
     }
