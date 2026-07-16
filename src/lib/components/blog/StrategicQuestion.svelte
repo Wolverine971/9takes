@@ -257,7 +257,10 @@
 				placeholder="Answer honestly. A sentence is enough."
 				aria-invalid={submitError ? 'true' : 'false'}
 				aria-describedby={submitError ? 'sq-take-error' : undefined}></textarea>
-			<div class="sq-composer-footer">
+			<div
+				class={['sq-composer-footer', voiceBusy && 'sq-composer-footer--voice-active']}
+				aria-busy={voiceBusy || undefined}
+			>
 				<div class="sq-voice">
 					<VoiceRecorder
 						id={`strategic-question-${blogSlug}-voice`}
@@ -269,16 +272,11 @@
 						onbusychange={(busy) => (voiceBusy = busy)}
 					/>
 				</div>
-				<Button
-					class="sq-button"
-					variant="primary"
-					size="md"
-					type="submit"
-					loading={submitting}
-					disabled={voiceBusy}
-				>
-					{submitting ? 'Opening the chorus…' : 'Give your take'}
-				</Button>
+				{#if !voiceBusy}
+					<Button class="sq-button" variant="primary" size="md" type="submit" loading={submitting}>
+						{submitting ? 'Opening the chorus…' : 'Give your take'}
+					</Button>
+				{/if}
 			</div>
 		</form>
 		{#if submitError}
@@ -440,18 +438,23 @@
 	}
 
 	.sq .sq-composer-footer {
-		display: flex;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
 		align-items: center;
-		justify-content: space-between;
 		gap: 0.75rem;
 		padding: 0.65rem 0.75rem;
 		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 72%, transparent);
 		background: color-mix(in srgb, var(--night-deep) 52%, transparent);
 	}
 
+	.sq .sq-composer-footer--voice-active {
+		grid-template-columns: minmax(0, 1fr);
+		align-items: stretch;
+	}
+
 	.sq .sq-voice {
+		width: 100%;
 		min-width: 0;
-		flex: 1 1 auto;
 	}
 
 	.sq :global(.sq-button) {
@@ -461,8 +464,8 @@
 
 	@media (max-width: 560px) {
 		.sq .sq-composer-footer {
+			grid-template-columns: minmax(0, 1fr);
 			align-items: stretch;
-			flex-direction: column;
 		}
 
 		.sq :global(.sq-button) {

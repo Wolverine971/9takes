@@ -1,5 +1,5 @@
 // src/routes/admin/comments/+page.server.ts
-import { error, redirect } from '@sveltejs/kit';
+import { error, fail, redirect } from '@sveltejs/kit';
 import type { Actions } from './$types';
 import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
@@ -13,6 +13,7 @@ type CommentRow = Database['public']['Tables']['comments']['Row'];
 type CommentDemoRow = Database['public']['Tables']['comments_demo']['Row'];
 type FlaggedCommentRow = Database['public']['Tables']['flagged_comments']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
+type FlagReasonRow = Database['public']['Tables']['flag_reasons']['Row'];
 type ProfileRow = Database['public']['Tables']['profiles']['Row'];
 type AppSupabase = SupabaseClient<Database>;
 type CommentParentData = Pick<CommentRow | CommentDemoRow, 'parent_type' | 'parent_id'>;
@@ -33,6 +34,7 @@ type AdminComment = (CommentRow | CommentDemoRow) & {
 type FlaggedComment = FlaggedCommentRow & {
 	comments: Pick<CommentRow, 'id' | 'comment'> | null;
 	profiles: ProfileSummary | null;
+	flag_reasons: Pick<FlagReasonRow, 'reason'> | null;
 };
 type AdminBlogComment = BlogCommentRow & {
 	profiles: ProfileSummary | null;
@@ -47,7 +49,17 @@ const commentActionSchema = z.object({
  * Configuration constants
  */
 const PAGE_SIZE = 50;
-const MAX_COMMENTS = 1000;
+
+function parsePageIndex(value: string | null): number {
+	if (value === null || value.trim() === '') return 0;
+
+	const page = Number(value);
+	return Number.isSafeInteger(page) && page >= 0 ? page : 0;
+}
+
+function hasNextPage(count: number | null, loadedRows: number, page: number): boolean {
+	return count === null ? loadedRows === PAGE_SIZE : (page + 1) * PAGE_SIZE < count;
+}
 
 /**
  * Validates if a user is an admin and returns the user data
@@ -169,7 +181,7 @@ async function getPaginatedComments(
 
 		let query = supabase
 			.from(table)
-			.select(selectionFields)
+			.select(selectionFields, { count: 'exact' })
 			.order(orderField, orderDirection)
 			.range(page * limit, page * limit + limit - 1);
 
@@ -279,8 +291,7 @@ export const load: PageServerLoad = async (event) => {
 		const locals = event.locals;
 		const { demo_time } = await event.parent();
 		const isDemo = demo_time === true;
-		const pageParam = event.url.searchParams.get('page');
-		const page = pageParam ? Number.parseInt(pageParam, 10) || 0 : 0;
+		const page = parsePageIndex(event.url.searchParams.get('page'));
 
 		// Validate user is an admin
 		const user = await validateAdmin(session, isDemo, locals.supabase);
@@ -291,45 +302,52 @@ export const load: PageServerLoad = async (event) => {
 		const profileSelection = `profiles:${profilesTable} (email, external_id)`;
 
 		// Parallelize all comment loading for better performance
-		const [{ data: comments }, { data: flaggedComments }, { data: blogComments }] =
-			await Promise.all([
-				// Load regular comments
-				getPaginatedComments(
-					commentsTable,
-					page,
-					{
-						selectionFields: `id, comment, created_at, parent_id, parent_type, removed, ${profileSelection}`,
-						limit: PAGE_SIZE,
-						orderField: 'created_at',
-						orderDirection: { ascending: false }
-					},
-					locals.supabase
-				),
-				// Load flagged comments
-				getPaginatedComments(
-					'flagged_comments',
-					page,
-					{
-						selectionFields: `id, comment_id, profile_id, description, created_at, removed_at, cleared_at, comments (id, comment), profiles (email, external_id)`,
-						limit: PAGE_SIZE,
-						filters: {
-							removed_at: null,
-							cleared_at: null
-						}
-					},
-					locals.supabase
-				),
-				// Load blog comments
-				getPaginatedComments(
-					'blog_comments',
-					page,
-					{
-						selectionFields: `id, comment, created_at, blog_link, blog_type, profiles (email, external_id)`,
-						limit: PAGE_SIZE
-					},
-					locals.supabase
-				)
-			]);
+		const [
+			{ data: comments, count: commentsCount },
+			{ data: flaggedComments, count: flaggedCommentsCount },
+			{ data: blogComments, count: blogCommentsCount }
+		] = await Promise.all([
+			// Load regular comments
+			getPaginatedComments(
+				commentsTable,
+				page,
+				{
+					selectionFields: `id, comment, created_at, parent_id, parent_type, removed, ${profileSelection}`,
+					limit: PAGE_SIZE,
+					orderField: 'created_at',
+					orderDirection: { ascending: false }
+				},
+				locals.supabase
+			),
+			// Load flagged comments
+			isDemo
+				? Promise.resolve({ data: [], count: 0 })
+				: getPaginatedComments(
+						'flagged_comments',
+						page,
+						{
+							selectionFields: `id, comment_id, flagged_by, reason_id, description, created_at, removed_at, cleared_at, comments (id, comment), profiles (email, external_id), flag_reasons (reason)`,
+							limit: PAGE_SIZE,
+							filters: {
+								removed_at: null,
+								cleared_at: null
+							}
+						},
+						locals.supabase
+					),
+			// Load blog comments
+			isDemo
+				? Promise.resolve({ data: [], count: 0 })
+				: getPaginatedComments(
+						'blog_comments',
+						page,
+						{
+							selectionFields: `id, comment, created_at, blog_link, blog_type, profiles (email, external_id)`,
+							limit: PAGE_SIZE
+						},
+						locals.supabase
+					)
+		]);
 
 		// Process comments to include parent questions
 		const recentComments = (comments ?? []) as unknown as AdminComment[];
@@ -345,9 +363,9 @@ export const load: PageServerLoad = async (event) => {
 			demoTime: isDemo,
 			currentPage: page,
 			hasMore:
-				comments?.length === PAGE_SIZE ||
-				flaggedComments?.length === PAGE_SIZE ||
-				blogComments?.length === PAGE_SIZE
+				hasNextPage(commentsCount, comments?.length ?? 0, page) ||
+				hasNextPage(flaggedCommentsCount, flaggedComments?.length ?? 0, page) ||
+				hasNextPage(blogCommentsCount, blogComments?.length ?? 0, page)
 		};
 	} catch (err) {
 		// Pass through redirects and errors
@@ -362,144 +380,148 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions: Actions = {
 	removeComment: async ({ request, locals }) => {
+		const demoTime = await checkDemoTime(locals.supabase);
+		const isDemo = demoTime === true;
+
+		await validateAdmin(locals.session, isDemo, locals.supabase);
+
+		if (isDemo) {
+			return fail(400, {
+				success: false,
+				message: 'Moderation actions are unavailable while demo mode is enabled'
+			});
+		}
+
+		const body = Object.fromEntries(await request.formData());
+		const parsedBody = commentActionSchema.safeParse(body);
+		if (!parsedBody.success) {
+			return fail(400, {
+				success: false,
+				message: parsedBody.error.issues[0]?.message ?? 'Invalid comment ID'
+			});
+		}
+
+		const { commentId } = parsedBody.data;
+		const removedAt = new Date().toISOString();
+
 		try {
-			const session = locals.session;
-			const demo_time = await checkDemoTime(locals.supabase);
-			const isDemo = demo_time === true;
+			const { data: updatedFlags, error: flagError } = await locals.supabase
+				.from('flagged_comments')
+				.update({ removed_at: removedAt })
+				.eq('comment_id', commentId)
+				.is('removed_at', null)
+				.is('cleared_at', null)
+				.select('id');
 
-			// Validate user is an admin
-			await validateAdmin(session, isDemo, locals.supabase);
+			if (flagError) throw new Error('Failed to update flagged comment record');
+			if (!updatedFlags?.length) {
+				return fail(409, { success: false, message: 'This flag is no longer pending review' });
+			}
 
-			// Get comment ID from form data
-			const body = Object.fromEntries(await request.formData());
-			const { commentId } = commentActionSchema.parse(body);
+			const { data: comment, error: removedError } = await locals.supabase
+				.from('comments')
+				.update({ removed: true, removed_at: removedAt })
+				.eq('id', commentId)
+				.select('parent_id, parent_type')
+				.single();
 
-			const removedAt = new Date().toISOString();
-			const commentsTable: CommentsQueryTable = isDemo ? 'comments_demo' : 'comments';
-
-			// Start a transaction
-			const transaction = async () => {
-				// 1. Update flagged_comments table
-				const { error: flagError } = await locals.supabase
+			if (removedError || !comment) {
+				const flagIds = updatedFlags.map((flag) => flag.id);
+				const { error: rollbackError } = await locals.supabase
 					.from('flagged_comments')
-					.update({ removed_at: removedAt })
-					.eq('comment_id', commentId);
+					.update({ removed_at: null })
+					.in('id', flagIds)
+					.eq('removed_at', removedAt);
 
-				if (flagError) {
-					console.error('Error updating flagged comment:', flagError);
-					throw new Error('Failed to update flagged comment record');
-				}
+				if (rollbackError) console.error('Failed to roll back flag removal:', rollbackError);
+				throw new Error('Failed to remove comment');
+			}
 
-				// 2. Update comments table
-				const { error: removedError } = await locals.supabase
-					.from(commentsTable)
-					.update({ removed: true, removed_at: removedAt })
-					.eq('id', commentId);
+			const countsUpdated = await updateCommentCounts(comment, false, locals.supabase);
 
-				if (removedError) {
-					console.error('Error removing comment:', removedError);
-					throw new Error('Failed to remove comment');
-				}
-
-				// 3. Get the comment data for updating counts
-				const { data: comment, error: commentError } = await locals.supabase
-					.from(commentsTable)
-					.select('parent_id, parent_type')
-					.eq('id', commentId)
-					.single();
-
-				if (commentError) {
-					console.error('Error fetching comment data:', commentError);
-					throw new Error('Failed to get comment data');
-				}
-
-				// 4. Update comment counts for parent content
-				await updateCommentCounts(comment, isDemo, locals.supabase);
-
-				return comment;
+			return {
+				success: true,
+				warning: countsUpdated
+					? undefined
+					: 'Comment removed, but its parent comment count could not be refreshed'
 			};
-
-			// Execute the transaction
-			await transaction();
-
-			return { success: true };
 		} catch (e) {
 			console.error('Error in removeComment action:', e);
 			const message = e instanceof Error ? e.message : 'Failed to remove comment';
-			throw error(400, {
-				message
-			});
+			return fail(500, { success: false, message });
 		}
 	},
 
 	unflagComment: async ({ request, locals }) => {
+		const demoTime = await checkDemoTime(locals.supabase);
+		const isDemo = demoTime === true;
+
+		await validateAdmin(locals.session, isDemo, locals.supabase);
+
+		if (isDemo) {
+			return fail(400, {
+				success: false,
+				message: 'Moderation actions are unavailable while demo mode is enabled'
+			});
+		}
+
+		const body = Object.fromEntries(await request.formData());
+		const parsedBody = commentActionSchema.safeParse(body);
+		if (!parsedBody.success) {
+			return fail(400, {
+				success: false,
+				message: parsedBody.error.issues[0]?.message ?? 'Invalid comment ID'
+			});
+		}
+
+		const { commentId } = parsedBody.data;
+		const clearedAt = new Date().toISOString();
+
 		try {
-			const session = locals.session;
-			const demo_time = await checkDemoTime(locals.supabase);
-			const isDemo = demo_time === true;
+			const { data: updatedFlags, error: unflagError } = await locals.supabase
+				.from('flagged_comments')
+				.update({ cleared_at: clearedAt })
+				.eq('comment_id', commentId)
+				.is('removed_at', null)
+				.is('cleared_at', null)
+				.select('id');
 
-			// Validate user is an admin
-			await validateAdmin(session, isDemo, locals.supabase);
+			if (unflagError) throw new Error('Failed to unflag comment');
+			if (!updatedFlags?.length) {
+				return fail(409, { success: false, message: 'This flag is no longer pending review' });
+			}
 
-			// Get comment ID from form data
-			const body = Object.fromEntries(await request.formData());
-			const { commentId } = commentActionSchema.parse(body);
+			const { data: comment, error: restoredError } = await locals.supabase
+				.from('comments')
+				.update({ removed: false, removed_at: null })
+				.eq('id', commentId)
+				.select('parent_id, parent_type')
+				.single();
 
-			const clearedAt = new Date().toISOString();
-			const commentsTable: CommentsQueryTable = isDemo ? 'comments_demo' : 'comments';
-
-			// Start a transaction
-			const transaction = async () => {
-				// 1. Update flagged_comments table
-				const { error: unFlagError } = await locals.supabase
+			if (restoredError || !comment) {
+				const flagIds = updatedFlags.map((flag) => flag.id);
+				const { error: rollbackError } = await locals.supabase
 					.from('flagged_comments')
-					.update({ cleared_at: clearedAt })
-					.eq('comment_id', commentId);
+					.update({ cleared_at: null })
+					.in('id', flagIds)
+					.eq('cleared_at', clearedAt);
 
-				if (unFlagError) {
-					console.error('Error unflagging comment:', unFlagError);
-					throw new Error('Failed to unflag comment');
-				}
+				if (rollbackError) console.error('Failed to roll back flag approval:', rollbackError);
+				throw new Error('Failed to restore comment');
+			}
 
-				// 2. Update comments table
-				const { error: clearedCommentError } = await locals.supabase
-					.from(commentsTable)
-					.update({ removed: false, removed_at: null })
-					.eq('id', commentId);
+			const countsUpdated = await updateCommentCounts(comment, false, locals.supabase);
 
-				if (clearedCommentError) {
-					console.error('Error clearing comment flag:', clearedCommentError);
-					throw new Error('Failed to restore comment');
-				}
-
-				// 3. Get the comment data for updating counts
-				const { data: comment, error: commentError } = await locals.supabase
-					.from(commentsTable)
-					.select('parent_id, parent_type')
-					.eq('id', commentId)
-					.single();
-
-				if (commentError) {
-					console.error('Error fetching comment data:', commentError);
-					throw new Error('Failed to get comment data');
-				}
-
-				// 4. Update comment counts for parent content
-				await updateCommentCounts(comment, isDemo, locals.supabase);
-
-				return comment;
+			return {
+				success: true,
+				warning: countsUpdated
+					? undefined
+					: 'Comment approved, but its parent comment count could not be refreshed'
 			};
-
-			// Execute the transaction
-			await transaction();
-
-			return { success: true };
-		} catch (e: any) {
+		} catch (e) {
 			console.error('Error in unflagComment action:', e);
 			const message = e instanceof Error ? e.message : 'Failed to unflag comment';
-			throw error(400, {
-				message
-			});
+			return fail(500, { success: false, message });
 		}
 	}
 };

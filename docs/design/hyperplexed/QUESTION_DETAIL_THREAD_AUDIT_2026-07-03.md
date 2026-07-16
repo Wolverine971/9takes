@@ -50,12 +50,40 @@ Post-fix live verification:
 - [first-answer composer] Voice capture no longer renders as a separate mini-section between the textarea and submit footer. `Record your answer` now sits at the left of the unified action row, `Post answer` sits at the right, and the old footer divider/background were removed. The specialized recording control keeps its 44px target, focus ring, disabled/busy states, and reduced-motion treatment. -> P8+P13
 - [first-answer microcopy] The flow now uses one noun consistently: `Your answer`, `Record your answer`, `Post answer`, and `Answer posted`. Returning question commenters and replies derive the matching `comment` / `reply` language. The textarea example is shorter, the Ctrl/Command+Enter hint and passive character counter are gone, and the transcript reassurance is demoted to `Review the transcript before you post.` -> P6+P4
 - [responsive action row] Desktop keeps record/help and submit on one line. At 390px, the two actions become full-width stacked controls, the idle helper hides, and the page retains zero horizontal overflow. -> P1+P4+P8
+- [long-answer overflow] The answer field now grows with typed or transcribed text to 320px on larger screens and 256px at phone widths, then keeps the rest of the response in a native internal scroll region. The unbounded mirrored-text layout was removed so very long answers cannot keep expanding the page. -> P1+P8
 
 Fresh live verification:
 
 - Desktop light and dark at 1440x1000: record and post share one visually continuous composer surface; no footer border/background; no horizontal overflow in empty or filled states.
 - Mobile dark at 390x844: controls stack full-width, the idle helper hides, microcopy remains readable, and document overflow remains zero.
+- A live 5,000-word stress test measured a 318px desktop field with 17,192px of scrollable content and a 254px mobile field with 60,032px of scrollable content; document width stayed matched to the viewport at both sizes.
 - Browser console: zero errors during the composer-open, filled-answer, theme, and responsive checks.
+
+## Microphone Permission Flow - 2026-07-16
+
+- [permission policy] The server was sending `microphone=()` in `Permissions-Policy`, so browsers rejected `getUserMedia()` before they could show a native permission prompt. The policy now allows microphone capture for the same origin with `microphone=(self)` while the other restricted capabilities remain disabled. -> P8+P13
+- [first-use disclosure] Selecting `Record your answer` with an unknown permission state now opens the shared Modal primitive with a short explanation: recordings become editable text, nothing posts automatically, and the browser prompt comes next. `Allow microphone` calls `getUserMedia()` directly from the user gesture; previously granted visitors still start recording in one click. -> P6+P4+P13
+- [blocked recovery] A denied request stays in the dialog and switches to `Microphone is blocked`, with targeted recovery copy for Chrome/Edge, Firefox, macOS Safari, iPhone/iPad Safari, and iOS Chrome/Firefox. `Keep typing` closes the dialog without disabling the composer. Missing, busy, and unavailable microphone states use the same recoverable shell. -> P6+P8+P13
+- [responsive/accessibility] The shared modal supplies focus trapping, Escape/backdrop close, focus restoration, scroll locking, dialog labels, and a `100dvh` mobile-safe shell. The permission UI uses the Button atom, 44px-plus controls, and has no custom motion beyond the primitive. -> P1+P11+P13
+
+Permission-flow verification:
+
+- Response header: local `HEAD /` returned `Permissions-Policy: ... microphone=(self) ...`.
+- Focused component tests cover first-use disclosure before `getUserMedia()`, a successful transcript flow, browser-specific blocked recovery with typing preserved, and the already-granted one-click path.
+- Desktop dark, default browser viewport: the explanation dialog fit cleanly over the open answer composer with a clear primary action and no console errors.
+- iPhone-sized dark, 390x844: dialog content and both actions fit without horizontal overflow (`scrollWidth` matched the 390px viewport).
+
+## Active Voice Capture Layout - 2026-07-16
+
+- [recording hierarchy] While capture or transcription is active, the recorder now owns the full composer action row. Unavailable Post/Cancel actions yield until editable text is ready, leaving Stop or the transcription status as the single current action instead of competing with it. The actions return as soon as capture completes or recovers from an error. -> P4+P8+P13
+- [transcript geometry] The transport row and live transcript now use explicit `minmax(0, 1fr)` grids, full-width bounds, tabular timing, and `overflow-wrap: anywhere`. Long live speech can wrap and clamp inside the composer instead of expanding underneath the submit control. -> P1+P13
+- [responsive/shared behavior] At phone widths the Stop control and listening status stack cleanly, while the live transcript remains a full-width row. The shared treatment applies to first answers, returning comments, replies, and the inline strategic-question composer. -> P1+P4+P8
+
+Post-fix verification:
+
+- Focused VoiceRecorder and Interact component suites pass, including the active `recording` phase contract and transcript-to-editable-text handoff.
+- Svelte validation reports no component errors in VoiceRecorder, Interact, or StrategicQuestion.
+- Fresh post-fix active-recording screenshots remain owed; the supplied production screenshot is the before reference.
 
 ## Tier 3 - polish/signature (motion/effects, at most one per surface)
 

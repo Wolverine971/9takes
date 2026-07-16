@@ -91,6 +91,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		}
 
 		const mirror = await generateMirror(chorus.question, take);
+		let answerRecorded = false;
 
 		// Typed corpus capture (carries the resonant type). Best-effort.
 		await recordUserTake({
@@ -107,14 +108,25 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		// duplicate answers (one-per-fingerprint) are expected and ignored.
 		if (chorus.questionId && (fingerprint || userId)) {
 			try {
-				await (locals.supabase.rpc as any)('create_comment_atomic', {
+				const { error: commentError } = await (locals.supabase.rpc as any)(
+					'create_comment_atomic',
+					{
 					p_comment: take,
 					p_parent_id: chorus.questionId,
 					p_author_id: userId,
 					p_parent_type: 'question',
 					p_fingerprint: fingerprint,
 					p_ip: getClientAddress()
-				});
+					}
+				);
+
+				if (commentError) {
+					logger.warn('Chorus answer not recorded as comment', {
+						error: String(commentError)
+					});
+				} else {
+					answerRecorded = true;
+				}
 			} catch (commentErr) {
 				logger.warn('Chorus answer not recorded as comment', { error: String(commentErr) });
 			}
@@ -137,7 +149,12 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 			});
 		}
 
-		return json({ ...mirror, takes: chorus.takes, questionUrl: chorus.questionUrl });
+		return json({
+			...mirror,
+			takes: chorus.takes,
+			questionUrl: chorus.questionUrl,
+			answerRecorded
+		});
 	} catch (e) {
 		if ((e as any)?.status) throw e;
 		logger.error('Error in POST /api/nine/mirror', e as Error);

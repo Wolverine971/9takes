@@ -1,5 +1,6 @@
 <!-- src/routes/admin/comments/+page.svelte -->
 <script lang="ts">
+	import { deserialize } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
 	import type { PageData } from './$types';
 	import { convertDateToReadable } from '../../../utils/conversions';
@@ -10,6 +11,12 @@
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import { Button } from '$lib/components/atoms';
 
+	type CommentActionPayload = {
+		success?: boolean;
+		message?: string;
+		warning?: string;
+	};
+
 	let { data }: { data: PageData } = $props();
 
 	// State variables
@@ -18,6 +25,7 @@
 	let actionType = $state<'remove' | 'unflag' | null>(null);
 	let searchQuery = $state('');
 	let activeTab = $state<'recent' | 'flagged' | 'blog'>('recent');
+	let normalizedSearch = $derived(searchQuery.trim().toLowerCase());
 
 	// Computed stats
 	let flaggedCount = $derived(data.flaggedComments?.length ?? 0);
@@ -28,45 +36,84 @@
 	// Filtered comments based on search
 	let filteredFlagged = $derived(
 		(data.flaggedComments ?? []).filter((c) => {
-			if (!searchQuery) return true;
+			if (!normalizedSearch) return true;
 			const comment = c?.comments?.comment?.toLowerCase() ?? '';
-			const reason = c?.description?.toLowerCase() ?? '';
+			const reason = c?.flag_reasons?.reason?.toLowerCase() ?? '';
+			const description = c?.description?.toLowerCase() ?? '';
 			const email = c?.profiles?.email?.toLowerCase() ?? '';
 			return (
-				comment.includes(searchQuery.toLowerCase()) ||
-				reason.includes(searchQuery.toLowerCase()) ||
-				email.includes(searchQuery.toLowerCase())
+				comment.includes(normalizedSearch) ||
+				reason.includes(normalizedSearch) ||
+				description.includes(normalizedSearch) ||
+				email.includes(normalizedSearch)
 			);
 		})
 	);
 
 	let filteredRecent = $derived(
 		(data.comments ?? []).filter((c) => {
-			if (!searchQuery) return true;
+			if (!normalizedSearch) return true;
 			const comment = c?.comment?.toLowerCase() ?? '';
 			const email = c?.profiles?.email?.toLowerCase() ?? '';
-			const question = c?.parentQuestion?.question_formatted?.toLowerCase() ?? '';
+			const question = (
+				c?.parentQuestion?.question_formatted ||
+				c?.parentQuestion?.question ||
+				''
+			).toLowerCase();
+			const parentComment = c?.parentComment?.comment?.toLowerCase() ?? '';
 			return (
-				comment.includes(searchQuery.toLowerCase()) ||
-				email.includes(searchQuery.toLowerCase()) ||
-				question.includes(searchQuery.toLowerCase())
+				comment.includes(normalizedSearch) ||
+				email.includes(normalizedSearch) ||
+				question.includes(normalizedSearch) ||
+				parentComment.includes(normalizedSearch)
 			);
 		})
 	);
 
 	let filteredBlog = $derived(
 		(data.blogComments ?? []).filter((c) => {
-			if (!searchQuery) return true;
+			if (!normalizedSearch) return true;
 			const comment = c?.comment?.toLowerCase() ?? '';
 			const blogLink = c?.blog_link?.toLowerCase() ?? '';
 			const email = c?.profiles?.email?.toLowerCase() ?? '';
 			return (
-				comment.includes(searchQuery.toLowerCase()) ||
-				blogLink.includes(searchQuery.toLowerCase()) ||
-				email.includes(searchQuery.toLowerCase())
+				comment.includes(normalizedSearch) ||
+				blogLink.includes(normalizedSearch) ||
+				email.includes(normalizedSearch)
 			);
 		})
 	);
+
+	const truncate = (value: string | null | undefined, maxLength = 40) => {
+		const text = value?.trim() || 'Unknown';
+		return text.length > maxLength ? `${text.slice(0, maxLength)}…` : text;
+	};
+
+	const submitCommentAction = async (
+		action: 'removeComment' | 'unflagComment',
+		commentId: number
+	): Promise<CommentActionPayload> => {
+		const body = new FormData();
+		body.append('commentId', commentId.toString());
+
+		const response = await fetch(`?/${action}`, {
+			method: 'POST',
+			body
+		});
+		const result = deserialize<CommentActionPayload, CommentActionPayload>(await response.text());
+
+		if (response.ok && result.type === 'success' && result.data?.success) {
+			return result.data;
+		}
+
+		const message =
+			result.type === 'failure'
+				? result.data?.message
+				: result.type === 'error'
+					? result.error?.message
+					: undefined;
+		throw new Error(message || 'The moderation action failed');
+	};
 
 	// Set up action confirmation
 	const confirmAction = (id: number, type: 'remove' | 'unflag') => {
@@ -81,28 +128,17 @@
 
 		loading = true;
 		try {
-			const body = new FormData();
-			body.append('commentId', commentId.toString());
-
-			const response = await fetch(`?/removeComment`, {
-				method: 'POST',
-				body
-			});
-
-			if (!response.ok) {
-				throw new Error('Failed to remove comment');
-			}
-
-			const result = await response.json();
-			if (result.success) {
-				notifications.success('Comment removed successfully', 3000);
-				await invalidateAll();
+			const result = await submitCommentAction('removeComment', commentId);
+			await invalidateAll();
+			if (result.warning) {
+				notifications.warning(result.warning, 5000);
 			} else {
-				throw new Error(result.message || 'Failed to remove comment');
+				notifications.success('Comment removed successfully', 3000);
 			}
-		} catch (error: any) {
+		} catch (error: unknown) {
 			console.error('Error removing comment:', error);
-			notifications.danger('Error removing comment: ' + (error.message || 'Unknown error'), 3000);
+			const message = error instanceof Error ? error.message : 'Unknown error';
+			notifications.danger(`Error removing comment: ${message}`, 3000);
 		} finally {
 			loading = false;
 			currentCommentId = null;
@@ -116,28 +152,17 @@
 
 		loading = true;
 		try {
-			const body = new FormData();
-			body.append('commentId', commentId.toString());
-
-			const response = await fetch(`?/unflagComment`, {
-				method: 'POST',
-				body
-			});
-
-			if (!response.ok) {
-				throw new Error('Failed to unflag comment');
-			}
-
-			const result = await response.json();
-			if (result.success) {
-				notifications.success('Comment approved and unflagged', 3000);
-				await invalidateAll();
+			const result = await submitCommentAction('unflagComment', commentId);
+			await invalidateAll();
+			if (result.warning) {
+				notifications.warning(result.warning, 5000);
 			} else {
-				throw new Error(result.message || 'Failed to unflag comment');
+				notifications.success('Comment approved and unflagged', 3000);
 			}
-		} catch (error: any) {
+		} catch (error: unknown) {
 			console.error('Error unflagging comment:', error);
-			notifications.danger('Error approving comment: ' + (error.message || 'Unknown error'), 3000);
+			const message = error instanceof Error ? error.message : 'Unknown error';
+			notifications.danger(`Error approving comment: ${message}`, 3000);
 		} finally {
 			loading = false;
 			currentCommentId = null;
@@ -199,14 +224,18 @@
 			value={flaggedCount}
 			icon="🚩"
 			color={flaggedCount > 0 ? 'warning' : 'default'}
-			subValue={flaggedCount > 0 ? 'Needs review' : 'All clear'}
+			subValue={data.demoTime
+				? 'Hidden in demo mode'
+				: flaggedCount > 0
+					? 'Needs review'
+					: 'All clear'}
 		/>
 		<StatCard
 			label="Blog Comments"
 			value={blogCount}
 			icon="📝"
 			color="success"
-			subValue="On blog posts"
+			subValue={data.demoTime ? 'Hidden in demo mode' : 'On blog posts'}
 		/>
 	</div>
 
@@ -216,12 +245,14 @@
 			<input
 				type="text"
 				placeholder="Search comments..."
+				aria-label="Search loaded comments"
 				bind:value={searchQuery}
 				class="search-input"
 			/>
 		</div>
 		<div class="tabs">
 			<button
+				type="button"
 				class="tab"
 				class:active={activeTab === 'recent'}
 				onclick={() => (activeTab = 'recent')}
@@ -230,6 +261,7 @@
 				<span class="tab-badge">{recentCount}</span>
 			</button>
 			<button
+				type="button"
 				class="tab"
 				class:active={activeTab === 'flagged'}
 				onclick={() => (activeTab = 'flagged')}
@@ -240,7 +272,12 @@
 				{/if}
 			</button>
 
-			<button class="tab" class:active={activeTab === 'blog'} onclick={() => (activeTab = 'blog')}>
+			<button
+				type="button"
+				class="tab"
+				class:active={activeTab === 'blog'}
+				onclick={() => (activeTab = 'blog')}
+			>
 				Blog
 				<span class="tab-badge">{blogCount}</span>
 			</button>
@@ -257,7 +294,7 @@
 			<div class="card-content">
 				{#if filteredFlagged.length > 0}
 					<div class="comments-list">
-						{#each filteredFlagged as comment}
+						{#each filteredFlagged as comment (comment.id)}
 							<div class="comment-item flagged">
 								<div class="comment-body">
 									{#if comment?.comments}
@@ -265,8 +302,14 @@
 										<div class="flag-info">
 											<div class="flag-detail">
 												<span class="flag-label">Flag Reason:</span>
-												<span>{comment.description || 'No description provided'}</span>
+												<span>{comment.flag_reasons?.reason || 'Other'}</span>
 											</div>
+											{#if comment.description?.trim()}
+												<div class="flag-detail">
+													<span class="flag-label">Details:</span>
+													<span>{comment.description}</span>
+												</div>
+											{/if}
 											<div class="flag-detail">
 												<span class="flag-label">Reported By:</span>
 												<span>{comment?.profiles?.email || 'Anonymous'}</span>
@@ -308,7 +351,11 @@
 				{:else}
 					<div class="empty-state">
 						<span class="empty-icon">✓</span>
-						<p>No flagged comments{searchQuery ? ' matching your search' : ''}</p>
+						<p>
+							{data.demoTime
+								? 'Live flagged comments are hidden in demo mode'
+								: `No flagged comments${normalizedSearch ? ' matching your search' : ''}`}
+						</p>
 					</div>
 				{/if}
 			</div>
@@ -325,7 +372,7 @@
 			<div class="card-content">
 				{#if filteredRecent.length > 0}
 					<div class="comments-list">
-						{#each filteredRecent as comment}
+						{#each filteredRecent as comment (comment.id)}
 							<div class="comment-item" class:removed={comment.removed}>
 								<div class="comment-body">
 									<p class="comment-text">
@@ -339,12 +386,23 @@
 									<div class="comment-meta">
 										{#if comment?.parentQuestion}
 											<a href="/questions/{comment?.parentQuestion?.url}" class="meta-link">
-												Q: {(comment?.parentQuestion?.question_formatted || '').slice(0, 40)}...
+												Q: {truncate(
+													comment.parentQuestion.question_formatted ||
+														comment.parentQuestion.question
+												)}
 											</a>
+										{:else if comment?.parentComment}
+											<span class="meta-text"
+												>Reply to: {truncate(comment.parentComment.comment)}</span
+											>
 										{/if}
-										<a href="/users/{comment?.profiles?.external_id}" class="meta-link">
-											{comment?.profiles?.email || 'Anonymous'}
-										</a>
+										{#if comment?.profiles?.external_id}
+											<a href="/users/{comment.profiles.external_id}" class="meta-link">
+												{comment.profiles.email || 'Unknown user'}
+											</a>
+										{:else}
+											<span class="meta-text">Anonymous</span>
+										{/if}
 									</div>
 									<span class="comment-date">
 										{convertDateToReadable(comment.created_at ?? '')}
@@ -356,7 +414,7 @@
 				{:else}
 					<div class="empty-state">
 						<span class="empty-icon">💬</span>
-						<p>No comments{searchQuery ? ' matching your search' : ''}</p>
+						<p>No comments{normalizedSearch ? ' matching your search' : ''}</p>
 					</div>
 				{/if}
 			</div>
@@ -373,19 +431,27 @@
 			<div class="card-content">
 				{#if filteredBlog.length > 0}
 					<div class="comments-list">
-						{#each filteredBlog as blogComment}
+						{#each filteredBlog as blogComment (blogComment.id)}
 							<div class="comment-item">
 								<div class="comment-body">
 									<p class="comment-text">{blogComment?.comment || 'No comment text'}</p>
 								</div>
 								<div class="comment-footer">
 									<div class="comment-meta">
-										<a href="/{blogComment.blog_type}/{blogComment?.blog_link}" class="meta-link">
-											{blogComment?.blog_link?.replace(/-/g, ' ') ?? 'Unknown blog'}
-										</a>
-										<a href="/users/{blogComment?.profiles?.external_id}" class="meta-link">
-											{blogComment?.profiles?.email || 'Anonymous'}
-										</a>
+										{#if blogComment.blog_type && blogComment.blog_link}
+											<a href="/{blogComment.blog_type}/{blogComment.blog_link}" class="meta-link">
+												{blogComment.blog_link.replace(/-/g, ' ')}
+											</a>
+										{:else}
+											<span class="meta-text">Unknown blog</span>
+										{/if}
+										{#if blogComment?.profiles?.external_id}
+											<a href="/users/{blogComment.profiles.external_id}" class="meta-link">
+												{blogComment.profiles.email || 'Unknown user'}
+											</a>
+										{:else}
+											<span class="meta-text">Anonymous</span>
+										{/if}
 									</div>
 									<span class="comment-date">
 										{convertDateToReadable(blogComment.created_at ?? '')}
@@ -397,11 +463,39 @@
 				{:else}
 					<div class="empty-state">
 						<span class="empty-icon">📝</span>
-						<p>No blog comments{searchQuery ? ' matching your search' : ''}</p>
+						<p>
+							{data.demoTime
+								? 'Live blog comments are hidden in demo mode'
+								: `No blog comments${normalizedSearch ? ' matching your search' : ''}`}
+						</p>
 					</div>
 				{/if}
 			</div>
 		</div>
+	{/if}
+
+	{#if data.currentPage > 0 || data.hasMore}
+		<nav class="pagination" aria-label="Comment pages">
+			<a
+				class:disabled={data.currentPage === 0}
+				aria-disabled={data.currentPage === 0}
+				href={data.currentPage === 0
+					? undefined
+					: data.currentPage === 1
+						? '/admin/comments'
+						: `?page=${data.currentPage - 1}`}
+			>
+				Previous
+			</a>
+			<span>Page {data.currentPage + 1}</span>
+			<a
+				class:disabled={!data.hasMore}
+				aria-disabled={!data.hasMore}
+				href={data.hasMore ? `?page=${data.currentPage + 1}` : undefined}
+			>
+				Next
+			</a>
+		</nav>
 	{/if}
 
 	<!-- Confirmation Modal -->
@@ -420,8 +514,12 @@
 				{/if}
 			</p>
 			<div class="modal-actions">
-				<Button variant="secondary" onclick={cancelAction}>Cancel</Button>
-				<Button variant={actionType === 'remove' ? 'danger' : 'primary'} onclick={executeAction}>
+				<Button variant="secondary" onclick={cancelAction} disabled={loading}>Cancel</Button>
+				<Button
+					variant={actionType === 'remove' ? 'danger' : 'primary'}
+					onclick={executeAction}
+					{loading}
+				>
 					{actionType === 'remove' ? 'Remove' : 'Approve'}
 				</Button>
 			</div>
@@ -687,6 +785,11 @@
 		text-decoration: underline;
 	}
 
+	.meta-text {
+		font-size: 0.75rem;
+		color: var(--ink-mid);
+	}
+
 	.comment-date {
 		font-size: 0.6875rem;
 		color: var(--ink-mid);
@@ -712,6 +815,37 @@
 		color: var(--ink-mid);
 		margin: 0;
 		font-size: 0.8125rem;
+	}
+
+	.pagination {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 14px;
+		margin-top: 18px;
+		font-size: 0.8125rem;
+		color: var(--ink-mid);
+	}
+
+	.pagination a {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 40px;
+		padding: 8px 14px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		color: var(--lamp-glow);
+		text-decoration: none;
+	}
+
+	.pagination a:hover:not(.disabled) {
+		background: var(--stone-mid);
+	}
+
+	.pagination a.disabled {
+		opacity: 0.45;
+		pointer-events: none;
 	}
 
 	/* Loading Overlay */

@@ -151,6 +151,63 @@ describe('Interact', () => {
 		expect((commentBox as HTMLTextAreaElement).value).toBe('');
 	});
 
+	it('caps long answers and keeps the textarea internally scrollable', async () => {
+		const { getByRole } = render(Interact, {
+			intro: false,
+			props: {
+				parentType: 'question',
+				questionId: 85,
+				qrCodeUrl: '',
+				user: null,
+				data: {
+					question: {
+						id: 85,
+						question: 'what are you thinking about these days',
+						created_at: '2023-09-22T05:23:03.858015+00:00',
+						url: 'what-are-you-thinking-about-these-days',
+						img_url: '',
+						es_id: '48FXu4oBxTGqyww5ba_8',
+						comment_count: 10,
+						removed: false,
+						flagged: false,
+						subscriptions: []
+					},
+					comments: [],
+					removedComments: [],
+					comment_count: 11,
+					removed_comment_count: 0,
+					questionTags: [],
+					user: null,
+					flags: {
+						userHasAnswered: false,
+						userSignedIn: false
+					},
+					aiComments: null,
+					links: null,
+					links_count: 0,
+					flagReasons: []
+				}
+			}
+		});
+
+		await fireEvent.click(
+			getByRole('button', { name: /answer this question to unlock comments/i })
+		);
+
+		const commentBox = getByRole('textbox') as HTMLTextAreaElement;
+		Object.defineProperty(commentBox, 'scrollHeight', {
+			configurable: true,
+			value: 5_000
+		});
+
+		await fireEvent.input(commentBox, {
+			target: { value: 'A very long answer '.repeat(500) }
+		});
+
+		expect(commentBox.style.height).toBe('320px');
+		expect(commentBox.classList.contains('overflow-y-auto')).toBe(true);
+	});
+
 	it('allows an anonymous user to submit a short first comment after confirmation', async () => {
 		const shortComment = 'Short first take';
 

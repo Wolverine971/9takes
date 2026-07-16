@@ -497,7 +497,14 @@
 </script>
 
 {#if isSupported}
-	<div class={['voice-capture', compact && 'voice-capture--compact']}>
+	<div
+		class={[
+			'voice-capture',
+			compact && 'voice-capture--compact',
+			phase !== 'idle' && 'voice-capture--busy'
+		]}
+		data-phase={phase}
+	>
 		<div class="voice-capture__main">
 			<button
 				type="button"
@@ -601,15 +608,20 @@
 <style>
 	.voice-capture {
 		display: flex;
+		width: 100%;
 		min-width: 0;
+		max-width: 100%;
+		box-sizing: border-box;
+		flex: 1 1 auto;
 		flex-direction: column;
 		gap: 0.45rem;
 	}
 
 	.voice-capture__main {
-		display: flex;
+		display: grid;
+		min-width: 0;
+		grid-template-columns: auto minmax(0, 1fr);
 		align-items: center;
-		justify-content: space-between;
 		gap: 0.75rem;
 	}
 
@@ -617,10 +629,13 @@
 		display: flex;
 		min-width: 0;
 		align-items: center;
+		justify-self: end;
 		gap: 0.45rem;
 		color: var(--ink-dim);
 		font-size: 0.75rem;
 		line-height: 1.35;
+		font-variant-numeric: tabular-nums;
+		white-space: nowrap;
 	}
 
 	.voice-capture__status strong {
@@ -697,13 +712,17 @@
 	}
 
 	.voice-capture__preview {
-		display: flex;
+		display: grid;
+		width: 100%;
+		min-width: 0;
+		box-sizing: border-box;
+		grid-template-columns: auto minmax(0, 1fr);
 		align-items: flex-start;
 		gap: 0.55rem;
-		padding: 0.55rem 0.7rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, var(--stone-edge));
+		padding: 0.65rem 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--stone-edge) 78%, transparent);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--lamp-soft) 38%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 58%, transparent);
 	}
 
 	.voice-capture__preview > span {
@@ -727,8 +746,10 @@
 
 	.voice-capture__preview p {
 		display: -webkit-box;
+		min-width: 0;
 		overflow: hidden;
 		color: var(--ink-mid);
+		overflow-wrap: anywhere;
 		line-clamp: 3;
 		-webkit-box-orient: vertical;
 		-webkit-line-clamp: 3;
@@ -827,16 +848,20 @@
 	}
 
 	@media (max-width: 420px) {
-		.voice-capture {
-			width: 100%;
-		}
-
 		.voice-capture__main {
+			grid-template-columns: minmax(0, 1fr);
 			align-items: stretch;
+			gap: 0.55rem;
 		}
 
 		.voice-capture__button {
 			width: 100%;
+		}
+
+		.voice-capture__status {
+			width: 100%;
+			justify-content: center;
+			justify-self: stretch;
 		}
 	}
 

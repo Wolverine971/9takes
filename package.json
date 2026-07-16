@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"packageManager": "pnpm@11.7.0",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "node --max-http-header-size=65536 ./node_modules/vite/bin/vite.js dev",
 		"build": "vite build && node scripts/check-build-budgets.mjs",
 		"build:vercel": "pnpm run gen:personality-image-map && pnpm run gen:corpus-stats && pnpm run gen:sitemap && pnpm run gen:llms && pnpm run build",
 		"preview": "vite preview",

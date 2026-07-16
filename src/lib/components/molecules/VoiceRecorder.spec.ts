@@ -92,7 +92,7 @@ describe('VoiceRecorder', () => {
 	it('turns a recording into editable transcript text', async () => {
 		const ontranscript = vi.fn();
 		const onbusychange = vi.fn();
-		const { getByRole, getByText } = render(VoiceRecorder, {
+		const { container, getByRole, getByText } = render(VoiceRecorder, {
 			props: { ontranscript, onbusychange }
 		});
 
@@ -105,6 +105,9 @@ describe('VoiceRecorder', () => {
 
 		await fireEvent.click(getByRole('button', { name: 'Allow microphone' }));
 		await waitFor(() => expect(MockMediaRecorder.instances).toHaveLength(1));
+		expect(container.querySelector('.voice-capture--busy')?.getAttribute('data-phase')).toBe(
+			'recording'
+		);
 
 		const recorder = MockMediaRecorder.instances[0];
 		recorder.emitData(new Blob(['x'.repeat(600)], { type: 'audio/webm' }));
@@ -113,6 +116,7 @@ describe('VoiceRecorder', () => {
 		await waitFor(() => {
 			expect(ontranscript).toHaveBeenCalledWith('A polished voice answer.');
 		});
+		expect(container.querySelector('.voice-capture--busy')).toBeNull();
 
 		expect(fetchMock).toHaveBeenCalledWith(
 			'/api/transcribe',

@@ -43,7 +43,6 @@
 	let loading = $state(false);
 	let subscriptionLoading = $state(false);
 	let anonymousComment = $state(false);
-	let textareaHeight = $state('auto');
 	let shortAnswerNudge = $state(false);
 	let confirmShortSubmit = $state(false);
 	let commentError = $state('');
@@ -63,6 +62,7 @@
 	let qrModalId = $derived(`qr-modal-${composerId}`);
 
 	const SHORT_ANSWER_THRESHOLD = 100;
+	const TEXTAREA_MAX_HEIGHT_PX = 320;
 
 	const depthPrompts = [
 		'What personal experience shaped your view on this?',
@@ -250,9 +250,11 @@
 			}
 			oncommentAdded?.(commentData);
 			comment = '';
-			textareaHeight = 'auto';
 			shortAnswerNudge = false;
 			confirmShortSubmit = false;
+			queueMicrotask(() => {
+				if (textareaElement) resizeTextarea(textareaElement);
+			});
 
 			// Hide comment box after submitting for non-first-time users
 			if (userHasAnswered) {
@@ -316,6 +318,11 @@
 		}
 	};
 
+	function resizeTextarea(target: HTMLTextAreaElement) {
+		target.style.height = 'auto';
+		target.style.height = `${Math.min(target.scrollHeight + 2, TEXTAREA_MAX_HEIGHT_PX)}px`;
+	}
+
 	// Handle textarea auto-growth
 	const handleTextareaInput = (e: Event) => {
 		const target = e.target as HTMLTextAreaElement;
@@ -328,16 +335,7 @@
 			confirmShortSubmit = false;
 		}
 
-		// Reset height temporarily to get the right scrollHeight
-		target.style.height = 'auto';
-		// Set new height based on scrollHeight (with a small buffer)
-		target.style.height = `${target.scrollHeight + 2}px`;
-
-		// Update the data attribute for the container
-		const container = target.parentNode as HTMLElement;
-		if (container) {
-			container.dataset.replicatedValue = target.value;
-		}
+		resizeTextarea(target);
 	};
 
 	// Handle keyboard shortcuts
@@ -382,8 +380,7 @@
 		voiceInsertionRange = { start: cursorPosition, end: cursorPosition };
 		queueMicrotask(() => {
 			if (!textareaElement) return;
-			textareaElement.style.height = 'auto';
-			textareaElement.style.height = `${textareaElement.scrollHeight + 2}px`;
+			resizeTextarea(textareaElement);
 			textareaElement.focus();
 			textareaElement.setSelectionRange(cursorPosition, cursorPosition);
 		});
@@ -487,28 +484,22 @@
 				<label class="composer-label" for={textareaId}>
 					Your {composerKind}
 				</label>
-				<div
-					class="textarea-container"
-					data-replicated-value={comment}
-					style="--text-height: {textareaHeight};"
-				>
-					<textarea
-						bind:this={textareaElement}
-						placeholder={parentType === 'question'
-							? 'Share what happened, give an example, or explain what shaped your view.'
-							: 'Share what you want to add.'}
-						class="composer-textarea bg-[var(--night-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--stone-warm)] px-3 py-2 text-sm leading-relaxed text-[var(--ink-bright)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-1 focus:ring-[var(--lamp-glow)]"
-						bind:value={comment}
-						id={textareaId}
-						aria-invalid={commentError ? 'true' : 'false'}
-						aria-describedby={textareaDescribedBy}
-						rows="4"
-						oninput={handleTextareaInput}
-						onkeydown={handleKeydown}
-						onselect={rememberCommentSelection}
-						onclick={rememberCommentSelection}
-						onkeyup={rememberCommentSelection}></textarea>
-				</div>
+				<textarea
+					bind:this={textareaElement}
+					placeholder={parentType === 'question'
+						? 'Share what happened, give an example, or explain what shaped your view.'
+						: 'Share what you want to add.'}
+					class="composer-textarea bg-[var(--night-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--stone-warm)] px-3 py-2 text-sm leading-relaxed text-[var(--ink-bright)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-1 focus:ring-[var(--lamp-glow)]"
+					bind:value={comment}
+					id={textareaId}
+					aria-invalid={commentError ? 'true' : 'false'}
+					aria-describedby={textareaDescribedBy}
+					rows="4"
+					oninput={handleTextareaInput}
+					onkeydown={handleKeydown}
+					onselect={rememberCommentSelection}
+					onclick={rememberCommentSelection}
+					onkeyup={rememberCommentSelection}></textarea>
 				{#if shortAnswerNudge}
 					<div
 						class="short-answer-nudge"
@@ -532,7 +523,10 @@
 					</p>
 				{/if}
 			</div>
-			<div class="composer-footer">
+			<div
+				class={['composer-footer', voiceBusy && 'composer-footer--voice-active']}
+				aria-busy={voiceBusy || undefined}
+			>
 				<VoiceRecorder
 					id={`${composerId}-voice-recorder`}
 					label={`Record your ${composerKind}`}
@@ -541,39 +535,41 @@
 					ontranscript={insertVoiceTranscript}
 					onbusychange={(busy) => (voiceBusy = busy)}
 				/>
-				<div class="composer-footer__actions">
-					{#if userHasAnswered}
+				{#if !voiceBusy}
+					<div class="composer-footer__actions">
+						{#if userHasAnswered}
+							<Button
+								class="composer-action-button"
+								variant="secondary"
+								size="md"
+								type="button"
+								onclick={() => {
+									commenting = false;
+									comment = '';
+								}}
+								disabled={loading}
+							>
+								Cancel
+							</Button>
+						{/if}
 						<Button
-							class="composer-action-button"
-							variant="secondary"
+							class="composer-action-button composer-action-button--submit"
+							variant="primary"
 							size="md"
 							type="button"
-							onclick={() => {
-								commenting = false;
-								comment = '';
-							}}
-							disabled={loading || voiceBusy}
+							onclick={createComment}
+							disabled={!comment.trim() || loading}
+							{loading}
+							id={commentButtonId}
 						>
-							Cancel
+							{#if confirmShortSubmit}
+								Post anyway
+							{:else}
+								Post {composerKind}
+							{/if}
 						</Button>
-					{/if}
-					<Button
-						class="composer-action-button composer-action-button--submit"
-						variant="primary"
-						size="md"
-						type="button"
-						onclick={createComment}
-						disabled={!comment.trim() || loading || voiceBusy}
-						{loading}
-						id={commentButtonId}
-					>
-						{#if confirmShortSubmit}
-							Post anyway
-						{:else}
-							Post {composerKind}
-						{/if}
-					</Button>
-				</div>
+					</div>
+				{/if}
 			</div>
 		</div>
 	{/if}
@@ -678,11 +674,17 @@
 	}
 
 	.composer-footer {
-		display: flex;
+		display: grid;
+		min-width: 0;
+		grid-template-columns: minmax(0, 1fr) auto;
 		align-items: center;
-		justify-content: space-between;
 		gap: 1rem;
 		padding: 0 1rem 1rem;
+	}
+
+	.composer-footer--voice-active {
+		grid-template-columns: minmax(0, 1fr);
+		align-items: stretch;
 	}
 
 	.composer-footer__actions {
@@ -691,29 +693,17 @@
 		align-items: center;
 		justify-content: flex-end;
 		gap: 0.75rem;
-		margin-left: auto;
+		justify-self: end;
 	}
 
-	/* Custom textarea auto-grow grid technique - complex layout that doesn't translate well to utilities */
-	.textarea-container {
-		position: relative;
-		display: grid;
-	}
-
-	.textarea-container::after {
-		content: attr(data-replicated-value) ' ';
-		white-space: pre-wrap;
-		visibility: hidden;
-	}
-
-	.textarea-container::after,
-	.textarea-container > textarea {
+	.composer-textarea {
+		display: block;
 		min-height: 80px;
+		max-height: 20rem;
 		padding: 1rem;
 		font: inherit;
 		font-size: 16px;
 		line-height: 1.5;
-		grid-area: 1 / 1 / 2 / 2;
 	}
 
 	.composer-textarea::placeholder {
@@ -798,13 +788,18 @@
 	}
 
 	@media (max-width: 520px) {
+		.composer-textarea {
+			max-height: 16rem;
+		}
+
 		.composer-footer {
+			grid-template-columns: minmax(0, 1fr);
 			align-items: stretch;
-			flex-direction: column;
 		}
 
 		.composer-footer__actions {
-			margin-left: 0;
+			width: 100%;
+			justify-self: stretch;
 		}
 	}
 
