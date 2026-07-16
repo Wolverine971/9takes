@@ -14,6 +14,7 @@ pic_alt: 'Nine greek statues in circle showing depression patterns and healing j
 midjourney_prompt: 'nine greek statues arranged in a circle each displaying different expressions of depression and healing, some statues with cracks showing light breaking through representing healing, others with shadows but growing plants from the marble representing growth, center statue transforming from broken to whole with golden light, mental health healing journey, soft volumetric lighting with hope-filled glow, cyberpunk healing aesthetic with gentle neon blues and healing greens, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lense, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lense, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, Chromatic Aberration, GB Displacement, Scan Lines, Ray Traced, Ray Tracing Ambient Occlusion, Anti-Aliasing, FKAA, TXAA, RTX, SSAO, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cel Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hypermaximalist, elegant, hyper realistic, super detailed'
 title: 'Depression Patterns by Enneagram Type'
 path: src/blog/enneagram/depression-patterns-by-enneagram-type.md
+strategic_question_url: 'whats-something-every-day-seem-fine-nobody-knows-costing-effort'
 quality_grade: 'B+'
 quality_score: 8.7
 quality_graded_at: '2026-02-22'
@@ -30,6 +31,7 @@ Keyword Strategy:
 
 <script>
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+  import StrategicQuestion from "$lib/components/blog/StrategicQuestion.svelte";
 </script>
 
 <QuickAnswer question="How does depression manifest differently by Enneagram type?">
@@ -329,6 +331,8 @@ This might be the most dangerous misidentification of all because it looks like 
 **Core Pattern:** "Beneath all my activity and optimism, I'm trapped, limited, and missing out on real fulfillment."
 
 Type 7 depression is masked by manic activity and forced optimism. Early experiences of pain, limitation, or deprivation were too overwhelming for a child to process, so you learned to run. Now, when it breaks through, you experience deep emptiness and terror of being trapped in pain.
+
+<StrategicQuestion question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?" questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort" blogSlug="depression-patterns-by-enneagram-type" />
 
 **How it shows up:**
 

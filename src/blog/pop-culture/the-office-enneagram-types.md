@@ -233,7 +233,7 @@ Not regional sales.
 
 What Dunder Mifflin Scranton actually produced, for nine seasons, was a controlled experiment in what happens when nine personality types share an office without anyone ever explaining to them what the other types need. The show is funny because we recognize ourselves. It is sad because we recognize the people we've worked with — the Dwight who couldn't stop testing us, the Angela who silently disapproved, the Michael who just wanted us to like him.
 
-The Enneagram doesn't give you a way out of any of that. It gives you the language to understand why your office is the way it is. It tells you why you keep being assigned the Stanley role, or the Toby role, or the Andy role. It lets you stop blaming the job and start reading the room.
+The Enneagram doesn't give you a way out of any of that. It gives you a name for the role you keep getting cast in, the Stanley role, the Toby role, the Andy role, and it shows you the eight other scripts running in the same conference room. It lets you stop blaming the job and start reading the room.
 
 If you want to know which character you'd be — and which colleagues are on which floor of your own type stack — the [Enneagram beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) is where to start.
 

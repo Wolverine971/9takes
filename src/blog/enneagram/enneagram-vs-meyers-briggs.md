@@ -62,7 +62,7 @@ If you want the more opinionated version of this argument, read [MBTI Failed Us 
 
 ## The Core Difference (In One Sentence)
 
-**MBTI tells you HOW you process information. Enneagram tells you WHY you do what you do.**
+**MBTI sorts people by how they process information. The Enneagram sorts them by motive, and the same four letters can hide two completely different motives.**
 
 An INTJ and an Enneagram 5 can look similar on the surface. Both are analytical, independent, and knowledge-seeking. But they're not the same thing:
 

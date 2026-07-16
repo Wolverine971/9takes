@@ -4,22 +4,54 @@
 // the emotional logic back, return the nine takes, AND record their answer as a
 // real comment on the backing question (via the same create_comment_atomic RPC
 // the questions page uses) so it lives on /questions/[slug] and unlocks the gate.
+//
+// Two subject shapes:
+//   personality-analysis -> chorus keyed by blogs_famous_people person slug
+//   question             -> chorus keyed directly by the questions.url slug
+//                           (the blog-embedded StrategicQuestion widget)
 
 import { json, error } from '@sveltejs/kit';
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
-import { getChorus, generateMirror, recordUserTake } from '$lib/server/nineTakes';
+import {
+	getChorus,
+	getChorusForQuestion,
+	generateMirror,
+	recordUserTake
+} from '$lib/server/nineTakes';
+import { recordGiveFirstEvent } from '$lib/server/giveFirstFunnel';
 import { logger } from '$lib/utils/logger';
 
-const requestSchema = z.object({
-	subjectType: z.literal('personality-analysis'),
-	slug: z
-		.string()
-		.min(1)
-		.max(160)
-		.regex(/^[a-z0-9-]+$/i, 'invalid slug'),
-	take: z.string().trim().min(8, 'Say a little more').max(2000)
-});
+const takeSchema = z.string().trim().min(8, 'Say a little more').max(2000);
+// Same-site path of the page hosting the widget, for funnel attribution.
+const sourcePathSchema = z
+	.string()
+	.max(300)
+	.regex(/^\/[a-zA-Z0-9\-_/]*$/, 'invalid path')
+	.optional();
+
+const requestSchema = z.discriminatedUnion('subjectType', [
+	z.object({
+		subjectType: z.literal('personality-analysis'),
+		slug: z
+			.string()
+			.min(1)
+			.max(160)
+			.regex(/^[a-z0-9-]+$/i, 'invalid slug'),
+		take: takeSchema,
+		sourcePath: sourcePathSchema
+	}),
+	z.object({
+		subjectType: z.literal('question'),
+		questionUrl: z
+			.string()
+			.min(1)
+			.max(160)
+			.regex(/^[a-z0-9-]+$/i, 'invalid slug'),
+		take: takeSchema,
+		sourcePath: sourcePathSchema
+	})
+]);
 
 // Lightweight in-memory throttle: one mirror every few seconds per fingerprint.
 const lastCallAt = new Map<string, number>();
@@ -36,7 +68,8 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		throw error(400, 'Invalid request');
 	}
 
-	const { subjectType, slug, take } = payload;
+	const { subjectType, take } = payload;
+	const subjectSlug = payload.subjectType === 'question' ? payload.questionUrl : payload.slug;
 
 	const fingerprint = cookies.get('9tfingerprint') ?? null;
 	const userId = locals.session?.user?.id ?? null;
@@ -49,7 +82,10 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 	lastCallAt.set(throttleKey, now);
 
 	try {
-		const chorus = await getChorus(slug);
+		const chorus =
+			payload.subjectType === 'question'
+				? await getChorusForQuestion(payload.questionUrl)
+				: await getChorus(payload.slug);
 		if (!chorus) {
 			throw error(409, 'This chorus is not ready yet');
 		}
@@ -59,7 +95,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		// Typed corpus capture (carries the resonant type). Best-effort.
 		await recordUserTake({
 			subjectType,
-			subjectSlug: slug,
+			subjectSlug,
 			take,
 			resonantType: mirror.resonantType,
 			fingerprint,
@@ -82,6 +118,23 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 			} catch (commentErr) {
 				logger.warn('Chorus answer not recorded as comment', { error: String(commentErr) });
 			}
+		}
+
+		// Give-first funnel: the widget answer is a contribution. Joins the
+		// gate_shown / widget-impression event by fingerprint; the RPC's unique
+		// constraint dedupes repeat answers. Best-effort by construction.
+		if (chorus.questionId && fingerprint) {
+			const fallbackPath =
+				payload.subjectType === 'personality-analysis'
+					? `/personality-analysis/${payload.slug}`
+					: null;
+			await recordGiveFirstEvent({
+				fingerprint,
+				eventType: 'contribution',
+				questionId: chorus.questionId,
+				path: payload.sourcePath ?? fallbackPath,
+				userId
+			});
 		}
 
 		return json({ ...mirror, takes: chorus.takes, questionUrl: chorus.questionUrl });

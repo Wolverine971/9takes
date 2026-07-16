@@ -13,6 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-adhd-scattered-thoughts'
 path: src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md
+strategic_question_url: 'whats-something-every-day-seem-fine-nobody-knows-costing-effort'
 quality_grade: 'B+'
 quality_score: 8.8
 quality_graded_at: '2026-02-22'
@@ -32,6 +33,7 @@ QUALITY_FEEDBACK_END -->
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+	import StrategicQuestion from "$lib/components/blog/StrategicQuestion.svelte";
 </script>
 
 <svelte:head>
@@ -259,6 +261,8 @@ Type 4s already experience emotions more intensely than most. ADHD adds somethin
 Here's what emotional flooding actually looks like: your partner makes an offhand comment about the dishes. Within seconds you're furious. Ten minutes later you're crying. Three hours later you're still replaying the conversation, convinced it means something fundamental about your relationship. The trigger was tiny. Your brain's response was not.
 
 As one ADHD coach noted: "If you're a Type 4, emotional regulation might be your biggest hurdle." Both Type 4s and people with ADHD experience emotions more intensely than others, struggle with mundane tasks, feel fundamentally "different," and get lost in their inner world. When you have both, those tendencies compound.
+
+<StrategicQuestion question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?" questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort" blogSlug="enneagram-and-adhd-which-types-struggle-most" />
 
 **How It Manifests:**
 

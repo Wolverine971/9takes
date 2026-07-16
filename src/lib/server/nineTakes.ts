@@ -103,6 +103,40 @@ export type ChorusData = {
 	takes: NineTake[];
 };
 
+/**
+ * Chorus lookup for a widget keyed directly by a `questions` row (the markdown
+ * blog StrategicQuestion path). The nine takes live in `nine_takes` under
+ * subject_type 'question' with subject_slug = questions.url, so no schema
+ * change is needed. `nine_takes.situation` holds the properly punctuated
+ * question text (some hand-created question rows lost punctuation in the
+ * create UI); prefer it for the mirror prompt.
+ */
+export async function getChorusForQuestion(questionUrl: string): Promise<ChorusData | null> {
+	const supabase = getSupabaseAdminClient();
+
+	const { data: q } = await (supabase as any)
+		.from('questions')
+		.select('id, question')
+		.eq('url', questionUrl)
+		.maybeSingle();
+	if (!q?.id) return null;
+
+	const { data: row } = await (supabase as any)
+		.from('nine_takes')
+		.select('takes, situation')
+		.eq('subject_type', 'question')
+		.eq('subject_slug', questionUrl)
+		.maybeSingle();
+
+	const takes = Array.isArray(row?.takes) ? (row.takes as NineTake[]) : [];
+	if (takes.length !== 9) return null;
+
+	const question = clean(row?.situation) || clean(q.question);
+	if (!question) return null;
+
+	return { question, questionUrl, questionId: q.id, takes };
+}
+
 /** Read the evergreen question, its backing question row, and the nine takes. */
 export async function getChorus(subjectSlug: string): Promise<ChorusData | null> {
 	const supabase = getSupabaseAdminClient();

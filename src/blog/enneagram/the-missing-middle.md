@@ -478,7 +478,7 @@ Ask a Question on 9takes
           "name": "How is the Enneagram different from a clinical diagnosis?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A clinical diagnosis tells you WHAT your brain does differently and unlocks medical support. The Enneagram tells you WHY you respond the way you do — your core fears, childhood coping strategies, and emotional patterns. Two people with identical diagnoses can have completely different emotional worlds. The Enneagram explains those differences and provides a growth path."
+            "text": "A clinical diagnosis tells you what your brain does differently and unlocks medical support. It also puts millions of very different people under one label: two people with identical diagnoses can have completely different emotional worlds. The Enneagram is a vocabulary for telling those emotional worlds apart, and each of its nine patterns comes with a specific growth path."
           }
         },
         {

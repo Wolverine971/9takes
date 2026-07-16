@@ -175,7 +175,7 @@ We started with MBTI and it helped. The Enneagram goes deeper: it maps your core
       "name": "Why the Enneagram over MBTI?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We started with MBTI and it helped. The Enneagram goes deeper: it maps your core fears, motivations, and the emotional baggage you carry into every conversation. MBTI tells you how someone processes information. The Enneagram tells you why they react the way they do when things get heated. For relationships, that 'why' is everything. Full comparison here."
+        "text": "We started with MBTI and it helped. The Enneagram goes deeper: it maps your core fears, motivations, and the emotional baggage you carry into every conversation. Two people with the same MBTI letters can fight in completely different ways when things get heated. The Enneagram gave us the vocabulary to tell the difference, and in a marriage that difference is everything. Full comparison here."
       }
     }
   ]

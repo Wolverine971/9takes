@@ -33,6 +33,17 @@
 
 	const contentStore = writable('');
 
+	// Pages hosting the in-article strategic question (T-12) declare it via
+	// frontmatter. The question is the page's primary ask there, so the quiz
+	// card is demoted to its compact form (kept, not removed; email capture
+	// surfaces stay untouched per the resolved decision 3).
+	const hasStrategicQuestion = $derived(
+		Boolean(
+			(data?.frontmatter as { strategic_question_url?: unknown } | undefined)
+				?.strategic_question_url
+		)
+	);
+
 	// Detect enneagram type pages (enneagram-type-1 … enneagram-type-9). When
 	// matched, the dossier card renders in place of the standard featured PopCard.
 	const enneagramTypeMatch = $derived(/^enneagram-type-([1-9])$/.exec(data?.slug ?? ''));
@@ -134,7 +145,11 @@
 	<AuthorBio author={data.frontmatter.author} />
 </article>
 
-<TestYourTypeCTA secondaryHref="/corpus-stats" secondaryLabel="See the corpus stats" />
+<TestYourTypeCTA
+	compact={hasStrategicQuestion}
+	secondaryHref={hasStrategicQuestion ? null : '/corpus-stats'}
+	secondaryLabel={hasStrategicQuestion ? null : 'See the corpus stats'}
+/>
 
 <hr class="section-divider" />
 

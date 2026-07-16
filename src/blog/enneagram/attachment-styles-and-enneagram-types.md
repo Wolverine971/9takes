@@ -43,10 +43,10 @@ Keyword Strategy:
 -->
 
 <QuickAnswer question="How does Enneagram relate to attachment styles?">
-Attachment style tells you what relationship pattern you default to (anxious, avoidant, secure, disorganized). The Enneagram tells you why you run that pattern your way. Two anxiously attached people can look nothing alike: a Type 2 seeks reassurance by over-giving until you feel needed, while a Type 6 seeks it through constant loyalty tests. Together, they point to a specific way to heal, not just a label.
+Attachment style names your default relationship pattern (anxious, avoidant, secure, disorganized). The Enneagram tells apart the nine different ways people run that same pattern. Two anxiously attached people can look nothing alike: a Type 2 seeks reassurance by over-giving until you feel needed, while a Type 6 seeks it through constant loyalty tests. Same label, different moves, and the repair that works for one backfires on the other.
 </QuickAnswer>
 
-**Read time**: 20 minutes | **Key insight**: Attachment explains the pattern, Enneagram explains the motive
+**Read time**: 20 minutes | **Key insight**: One attachment style, nine different ways of running it
 
 | Attachment Style | Common Enneagram Types | Core Pattern                           |
 | ---------------- | ---------------------- | -------------------------------------- |
@@ -61,7 +61,7 @@ So do millions of other people with completely different relationship patterns.
 
 Two anxiously attached people can look nothing alike. One smothers. One tests. One gives until they collapse. One interrogates until they push people away. Same attachment style. Totally different behaviors.
 
-**Attachment theory tells you WHAT your pattern is. The Enneagram tells you WHY you run it that way.**
+**Attachment theory hands millions of people the same four labels. The Enneagram is how you tell the people behind one label apart.**
 
 In this guide, you'll learn:
 

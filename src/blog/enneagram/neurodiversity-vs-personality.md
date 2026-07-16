@@ -13,11 +13,13 @@ blog: true
 previewHtml: ''
 pic: 'brain-vs-heart-dichotomy'
 path: src/blog/enneagram/neurodiversity-vs-personality.md
+strategic_question_url: 'whats-something-every-day-seem-fine-nobody-knows-costing-effort'
 ---
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import StrategicQuestion from "$lib/components/blog/StrategicQuestion.svelte";
 </script>
 
 <div class="mx-auto max-w-4xl px-6 py-12">
@@ -115,6 +117,11 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 			</p>
 		</div>
 	</section>
+	<StrategicQuestion
+		question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?"
+		questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort"
+		blogSlug="neurodiversity-vs-personality"
+	/>
 	<!-- Image Placeholder 3 -->
 	<div class="my-4 flex justify-center">
 		<PopCard
@@ -138,10 +145,10 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 				If you genuinely suspect you have ADHD, autism, or another neurodivergent condition, <strong>get assessed by a professional.</strong> A proper diagnosis opens doors that personality frameworks can't: medication, accommodations, targeted therapies, community support. That matters. Don't let anyone, including this article, talk you out of pursuing answers about your brain.
 			</p>
 			<p>
-				But here's what a diagnosis won't give you: it won't explain why <em>you specifically</em> respond to stress the way you do, why your relationships follow the same patterns, or what's really driving the behaviors you can't seem to change. Two people with identical ADHD diagnoses can have completely different emotional worlds, coping strategies, and relationship patterns.
+				But here's what a diagnosis won't give you: any way to tell <em>you specifically</em> apart from the millions of people who share it. Two people with identical ADHD diagnoses can have completely different emotional worlds, coping strategies, and relationship patterns. The label covers all of them at once.
 			</p>
 			<p>
-				That's where personality frameworks fill the gap. A person with ADHD can benefit enormously from understanding their <a href="/enneagram-corner/enneagram-tldr" class="font-semibold text-primary-700 dark:text-primary-400 underline">Enneagram type</a>. The diagnosis tells you what your brain does differently. The Enneagram tells you <em>why you respond to it the way you do.</em>
+				That's where personality frameworks fill the gap. A person with ADHD can benefit enormously from understanding their <a href="/enneagram-corner/enneagram-tldr" class="font-semibold text-primary-700 dark:text-primary-400 underline">Enneagram type</a>. The diagnosis tells you what your brain does differently. The Enneagram tells apart the nine very different people <em>living the same diagnosis.</em>
 			</p>
 		</div>
 		<div class="my-8 overflow-x-auto">
@@ -159,7 +166,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 					</tr>
 					<tr class="bg-primary-100 dark:bg-primary-900/10">
 						<td class="border border-primary-300 dark:border-primary-700 p-3">Access to medication</td>
-						<td class="border border-primary-300 dark:border-primary-700 p-3">The reason you cope this way and not some other way</td>
+						<td class="border border-primary-300 dark:border-primary-700 p-3">Which of the nine coping patterns is yours</td>
 					</tr>
 					<tr class="bg-primary-50 dark:bg-primary-900/30">
 						<td class="border border-primary-300 dark:border-primary-700 p-3">Workplace and school accommodations</td>
@@ -167,7 +174,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
 					</tr>
 					<tr class="bg-primary-100 dark:bg-primary-900/10">
 						<td class="border border-primary-300 dark:border-primary-700 p-3">A community of shared experience</td>
-						<td class="border border-primary-300 dark:border-primary-700 p-3">Where the childhood wound started</td>
+						<td class="border border-primary-300 dark:border-primary-700 p-3">How your inner world differs from others with the same label</td>
 					</tr>
 					<tr class="bg-primary-50 dark:bg-primary-900/30">
 						<td class="border border-primary-300 dark:border-primary-700 p-3">Insurance coverage for treatment</td>
@@ -388,7 +395,7 @@ path: src/blog/enneagram/neurodiversity-vs-personality.md
           "name": "Can you be neurodivergent and still benefit from the Enneagram?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely. A clinical diagnosis tells you what your brain does differently, while the Enneagram tells you why you respond to it the way you do. Two people with identical ADHD diagnoses can have completely different emotional worlds and coping strategies. The Enneagram explains those differences."
+            "text": "Absolutely. A clinical diagnosis tells you what your brain does differently. It doesn't tell apart the people who share it: two people with identical ADHD diagnoses can have completely different emotional worlds and coping strategies. The Enneagram gives you a vocabulary for those differences, the part the diagnosis leaves blank."
           }
         },
         {

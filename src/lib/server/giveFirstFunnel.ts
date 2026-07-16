@@ -52,3 +52,61 @@ export async function recordGiveFirstEvent({
 		});
 	}
 }
+
+// Small in-memory cache so blog pageviews do not pay a questions lookup on
+// every request. Serverless instances each keep their own copy; that is fine
+// because the funnel RPC dedupes on (fingerprint, event_type, question_id).
+const questionIdByUrl = new Map<string, { id: number | null; expiresAt: number }>();
+const QUESTION_ID_CACHE_MS = 5 * 60 * 1000;
+
+async function resolveQuestionIdByUrl(questionUrl: string): Promise<number | null> {
+	const cached = questionIdByUrl.get(questionUrl);
+	if (cached && cached.expiresAt > Date.now()) return cached.id;
+
+	const supabaseAdmin = getSupabaseAdminClient() as any;
+	const { data } = await supabaseAdmin
+		.from('questions')
+		.select('id')
+		.eq('url', questionUrl)
+		.maybeSingle();
+
+	const id = typeof data?.id === 'number' ? data.id : null;
+	questionIdByUrl.set(questionUrl, { id, expiresAt: Date.now() + QUESTION_ID_CACHE_MS });
+	return id;
+}
+
+/**
+ * Strategic-question widget impression: a blog page that embeds the widget was
+ * served to a fingerprinted visitor. Reuses gate_shown semantics so the funnel
+ * reads widget served -> contribution, attributed per source page via `path`.
+ * The table's unique constraint keeps this at one row per visitor per question
+ * (earliest occurrence wins), matching the funnel grain.
+ */
+export async function recordStrategicQuestionImpression({
+	questionUrl,
+	fingerprint,
+	path,
+	userId = null
+}: {
+	questionUrl: string;
+	fingerprint: string | undefined | null;
+	path: string | null;
+	userId?: string | null;
+}): Promise<void> {
+	if (!fingerprint || !questionUrl) return;
+
+	try {
+		const questionId = await resolveQuestionIdByUrl(questionUrl);
+		if (questionId == null) return;
+
+		await recordGiveFirstEvent({
+			fingerprint,
+			eventType: 'gate_shown',
+			questionId,
+			path,
+			userId
+		});
+	} catch (error) {
+		console.error('Failed to record strategic question impression', { questionUrl, error });
+	}
+}

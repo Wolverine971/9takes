@@ -4,6 +4,12 @@ import { dev } from '$app/environment';
 import { slugFromPath } from '$lib/slugFromPath';
 import matter from 'gray-matter';
 
+import { recordStrategicQuestionImpression } from '$lib/server/giveFirstFunnel';
+import {
+	logBestEffortTelemetryFailure,
+	runBestEffortTelemetry
+} from '$lib/server/bestEffortTelemetry';
+
 import type { PageServerLoad } from './$types';
 
 const MAX_POSTS = 6;
@@ -112,11 +118,40 @@ const loadPosts = async (): Promise<App.BlogPost[]> => {
 	return loadPostsFromModules();
 };
 
-export const load: PageServerLoad = async ({ params }) => {
+export const load: PageServerLoad = async (event) => {
+	const { params } = event;
 	const posts = await loadPosts();
 
 	const currentPost = posts.find((post) => post.slug === params.slug);
 	const currentType = getPrimaryType(currentPost?.type);
+
+	// Strategic-question widget impression (T-12): when this page embeds the
+	// widget (frontmatter strategic_question_url), record a gate_shown funnel
+	// event keyed by fingerprint, attributed to this blog via path. Best-effort;
+	// the funnel table dedupes to one row per visitor per question.
+	const strategicQuestionUrl = (currentPost as { strategic_question_url?: unknown } | undefined)
+		?.strategic_question_url;
+	if (typeof strategicQuestionUrl === 'string' && strategicQuestionUrl) {
+		const fingerprint = event.cookies.get('9tfingerprint');
+		if (fingerprint) {
+			runBestEffortTelemetry(
+				event,
+				recordStrategicQuestionImpression({
+					questionUrl: strategicQuestionUrl,
+					fingerprint,
+					path: event.url.pathname,
+					userId: event.locals.session?.user?.id ?? null
+				}),
+				(telemetryError) => {
+					logBestEffortTelemetryFailure(
+						'Failed to record strategic question impression',
+						telemetryError,
+						{ questionUrl: strategicQuestionUrl, slug: params.slug }
+					);
+				}
+			);
+		}
+	}
 
 	const publishedPosts = posts
 		.filter((post) => post.published)

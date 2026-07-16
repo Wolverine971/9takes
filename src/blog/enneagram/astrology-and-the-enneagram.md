@@ -21,14 +21,14 @@ path: src/blog/enneagram/astrology-and-the-enneagram.md
 </script>
 
 <QuickAnswer question="What Enneagram type matches my zodiac sign?">
-The Enneagram maps psychological patterns while astrology maps cosmic influences. Common correlations: Type 1 with Virgo (perfectionism), Type 3 with Leo (achievement), Type 4 with Pisces (emotional depth), Type 7 with Sagittarius (enthusiasm), Type 8 with Aries/Scorpio (intensity). The Enneagram reveals "why" you act; astrology suggests "when" and under what influences. They're complementary, not identical — see the full chart below.
+The Enneagram maps psychological patterns while astrology maps cosmic influences. Common correlations: Type 1 with Virgo (perfectionism), Type 3 with Leo (achievement), Type 4 with Pisces (emotional depth), Type 7 with Sagittarius (enthusiasm), Type 8 with Aries/Scorpio (intensity). The Enneagram maps motivation patterns; astrology maps timing and influence. They're complementary, not identical: see the full chart below.
 </QuickAnswer>
 
 <p class="firstLetter">You've typed yourself twice. Once by the stars. Once by your fears.</p>
 
 Do they line up? Or are they telling you two different stories about the same person?
 
-**Astrology tells you WHAT influences you. The Enneagram tells you WHY you respond to those influences the way you do.**
+**Astrology tracks what's influencing you. The Enneagram tells two people with the same chart apart.**
 
 Your Scorpio intensity and your Type 8 drive aren't the same thing. But they're not unrelated either. One comes from the cosmos. One comes from your core wound.
 
@@ -42,12 +42,12 @@ People treat astrology and the Enneagram as interchangeable personality tools. T
 | --------------------- | -------------------------------------------- | ------------------------------------- |
 | **Based on**          | Self-assessment and core motivations         | Birth date, time, and location        |
 | **Number of types**   | 9 core types (+ wings, subtypes)             | 12 sun signs (+ moon, rising, houses) |
-| **What it reveals**   | Why you do what you do                       | What influences you and when          |
+| **What it reveals**   | Your core motivation pattern                 | What influences you and when          |
 | **Changes over time** | Core type stays the same; growth is possible | Transits create shifting influences   |
 | **Determined by**     | Self-reflection and honest assessment        | Astronomical calculations             |
 | **Focus**             | Inner fears, desires, and defense mechanisms | Cosmic energies, cycles, and timing   |
 
-The Enneagram is a map of motivation. Astrology is a map of influence. One tells you why you avoid conflict. The other tells you when that avoidance will be tested.
+The Enneagram is a map of motivation. Astrology is a map of influence. One names the pattern you bring to every situation. The other predicts when that pattern will be tested.
 
 Use both. The Enneagram tells you who you are. Astrology tells you which week that's about to matter.
 
@@ -206,7 +206,7 @@ The Enneagram has three instinctual subtypes — self-preservation, social, and 
 
 A Self-Preservation Type 7 with strong Earth signs in their chart channels that 7 energy into financial security and physical comfort — adventure means great restaurants and travel, not risky cliff-jumping. A Sexual Type 5 with heavy Scorpio placements turns the 5's detachment inside out: they withdraw from the world in general but become intensely focused in one-to-one connections.
 
-Your dominant subtype combined with your astrological element emphasis tells you _where_ your Enneagram type's energy gets expressed. The type tells you why. The subtype and element tell you the arena.
+Your dominant subtype combined with your astrological element emphasis tells you _where_ your Enneagram type's energy gets expressed. The type names the drive. The subtype and element name the arena.
 
 ## How to Read Your Birth Chart and Enneagram Type Together
 
