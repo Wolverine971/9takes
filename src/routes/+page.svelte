@@ -1,361 +1,196 @@
 <!-- src/routes/+page.svelte -->
-<!--
-  Production homepage — Streetlamp Symposium V5.
-  Phase 4 of docs/design/2026-05-04-rollout-plan.md.
-
-  Visual ground truth: /design-preview/v5  (kept alive 2 weeks for rollback).
-  Spec: docs/design/2026-05-04-streetlamp-symposium-v5.md.
-  Locked tokens (warm stone surfaces, sodium-amber primary, Inter + JetBrains Mono)
-  live in src/scss/index.scss bridge blocks; this file references them via var(--…).
--->
+<!-- src/routes/+page.svelte — production homepage, promoted from the home-reimagined preview. -->
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import SEOHead from '$lib/components/SEOHead.svelte';
-	import { Button, SectionKicker } from '$lib/components/atoms';
-	import {
-		buildPersonalityAnalysisPath,
-		buildPersonalityAnalysisUrl,
-		buildPersonalityImagePath,
-		buildPersonalityImageUrl,
-		formatPersonalityDisplayName
-	} from '$lib/utils/personalityAnalysis';
-	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+	import { resolve } from '$app/paths';
+	import { tick } from 'svelte';
+	import { ArrowUpRight, CircleCheck, EyeOff, LockKeyhole, UnlockKeyhole } from '@lucide/svelte';
 	import type { PageData } from './$types';
+	import { capture } from '$lib/analytics/posthog';
+	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
+	import { Button, SectionKicker } from '$lib/components/atoms';
+	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
 
 	let { data }: { data: PageData } = $props();
 
-	// ------------------------------------------------------------------
-	// SEO + structured-data — preserved verbatim from the previous homepage.
-	// ------------------------------------------------------------------
 	const siteUrl = 'https://9takes.com';
-	const organizationId = `${siteUrl}/#organization`;
-	const websiteId = `${siteUrl}/#website`;
-	const webpageId = `${siteUrl}/#webpage`;
-	const primarySectionsId = `${siteUrl}/#primary-sections`;
-	const enneagramTypesId = `${siteUrl}/#enneagram-types`;
-	const featuredAnalysisId = `${siteUrl}/#featured-analysis`;
-	const homepageTitle =
-		'Enneagram Personality Types, Social Dynamics, and Emotional Intelligence | 9takes';
+	const homepageTitle = 'One Question, Nine Perspectives | 9takes';
 	const homepageDescription =
-		'Explore the nine Enneagram personality types, famous-person analysis, community questions, and practical guides for relationships, conflict, and emotional intelligence.';
-	const socialImageUrl = `${siteUrl}/greek_pantheon.png`;
-	const socialImageAlt = '9takes - One situation, 9 ways to see it';
+		'Answer anonymously before reading the crowd, then unlock nine Enneagram perspectives and see the emotions behind every take.';
+	const socialImageUrl = `${siteUrl}/images/home-reimagined/streetlamp-nine.webp`;
+	const socialImageAlt = 'Nine people gathered in conversation beneath a streetlamp';
 
-	const primaryResources = [
-		{
-			name: 'Questions',
-			path: '/questions',
-			url: `${siteUrl}/questions`,
-			description:
-				'Give your take first, then compare how each Enneagram type answers the same question.'
-		},
-		{
-			name: 'Enneagram Corner',
-			path: '/enneagram-corner',
-			url: `${siteUrl}/enneagram-corner`,
-			description: 'Deep guides on all nine types, relationships, growth, and emotional patterns.'
-		},
-		{
-			name: 'Famous Personality Analysis',
-			path: '/personality-analysis',
-			url: `${siteUrl}/personality-analysis`,
-			description:
-				'See how celebrities, historical figures, and public personalities map to each type.'
-		},
-		{
-			name: 'How-to Guides',
-			path: '/how-to-guides',
-			url: `${siteUrl}/how-to-guides`,
-			description:
-				'Practical playbooks for conflict, communication, boundaries, and self-awareness.'
-		},
-		{
-			name: 'Community Essays',
-			path: '/community',
-			url: `${siteUrl}/community`,
-			description:
-				'Opinionated essays about the internet, personality theory, and how people change.'
-		}
-	];
-
-	const typeGuideSummaries: Record<number, string> = {
-		1: 'Principled, improvement-driven, and sensitive to what feels wrong.',
-		2: 'Warm, relational, and highly attuned to what other people need.',
-		3: 'Adaptive, ambitious, and focused on momentum, image, and results.',
-		4: 'Emotionally intense, identity-driven, and tuned to what feels missing.',
-		5: 'Private, analytical, and protective of time, energy, and competence.',
-		6: 'Security-minded, skeptical, and quick to scan for risk and trust.',
-		7: 'Future-oriented, energetic, and always looking for freedom and options.',
-		8: 'Direct, forceful, and instinctively protective of autonomy and strength.',
-		9: 'Steady, receptive, and skilled at reducing tension and conflict.'
+	type Center = {
+		name: string;
+		label: string;
+		types: string;
+		question: string;
+		detail: string;
+		className: string;
 	};
 
-	const typeGuideLinks = Array.from({ length: 9 }, (_, index) => {
-		const type = index + 1;
-		const info = ENNEAGRAM_TYPE_COLORS[type];
-		return {
-			type,
-			href: `/enneagram-corner/enneagram-type-${type}`,
-			name: info.name,
-			color: info.color,
-			summary: typeGuideSummaries[type]
-		};
-	});
+	type Perspective = {
+		center: string;
+		take: string;
+		className: string;
+	};
 
-	const homepageStructuredData = $derived.by(() => {
-		const featuredPeople = data.typeRepresentatives.map((person, index) => {
-			const displayName = formatPersonalityDisplayName(person.name);
-			const fallbackUrl = `${siteUrl}/enneagram-corner/enneagram-type-${person.type}`;
-			const analysisUrl = person.hasLink ? buildPersonalityAnalysisUrl(person.name) : fallbackUrl;
-			return {
-				'@type': 'ListItem',
-				position: index + 1,
-				item: {
-					'@type': 'WebPage',
-					'@id': analysisUrl,
-					name: `${displayName} Enneagram analysis`,
-					url: analysisUrl,
-					description:
-						person.personaTitle && person.personaTitle.trim().length > 0
-							? `${displayName} through the lens of Enneagram Type ${person.type}: ${person.personaTitle}.`
-							: `${displayName} through the lens of Enneagram Type ${person.type}.`,
-					...(person.hasImage && {
-						image: buildPersonalityImageUrl(person.type, person.name, 'thumbnail')
-					})
-				}
-			};
-		});
+	type ChorusTake = {
+		type: number;
+		archetype: string;
+		take: string;
+		source: 'ai' | 'human';
+	};
 
-		return {
-			'@context': 'https://schema.org',
-			'@graph': [
-				{
-					'@type': 'WebPage',
-					'@id': webpageId,
-					url: siteUrl,
-					name: homepageTitle,
-					description: homepageDescription,
-					inLanguage: 'en-US',
-					isPartOf: { '@id': websiteId },
-					publisher: { '@id': organizationId },
-					mainEntity: { '@id': primarySectionsId },
-					about: [
-						{
-							'@type': 'Thing',
-							name: 'Enneagram personality types',
-							sameAs: 'https://en.wikipedia.org/wiki/Enneagram_of_Personality'
-						},
-						{ '@type': 'Thing', name: 'Social dynamics' },
-						{ '@type': 'Thing', name: 'Emotional intelligence' },
-						{ '@type': 'Thing', name: 'Personality analysis' }
-					],
-					significantLink: [
-						...primaryResources.map((r) => r.url),
-						...typeGuideLinks.map((t) => `${siteUrl}${t.href}`)
-					],
-					primaryImageOfPage: {
-						'@type': 'ImageObject',
-						url: socialImageUrl,
-						width: 1200,
-						height: 630,
-						caption: socialImageAlt
-					}
-				},
-				{
-					'@type': 'ItemList',
-					'@id': primarySectionsId,
-					name: 'Primary 9takes sections',
-					numberOfItems: primaryResources.length,
-					itemListOrder: 'https://schema.org/ItemListUnordered',
-					itemListElement: primaryResources.map((resource, index) => ({
-						'@type': 'ListItem',
-						position: index + 1,
-						item: {
-							'@type': 'WebPage',
-							'@id': resource.url,
-							name: resource.name,
-							url: resource.url,
-							description: resource.description
-						}
-					}))
-				},
-				{
-					'@type': 'ItemList',
-					'@id': enneagramTypesId,
-					name: 'Enneagram type guides',
-					numberOfItems: typeGuideLinks.length,
-					itemListOrder: 'https://schema.org/ItemListOrderAscending',
-					itemListElement: typeGuideLinks.map((t, index) => ({
-						'@type': 'ListItem',
-						position: index + 1,
-						item: {
-							'@type': 'WebPage',
-							'@id': `${siteUrl}${t.href}`,
-							name: `Enneagram Type ${t.type}: ${t.name}`,
-							url: `${siteUrl}${t.href}`,
-							description: t.summary
-						}
-					}))
-				},
-				...(featuredPeople.length
-					? [
-							{
-								'@type': 'ItemList',
-								'@id': featuredAnalysisId,
-								name: 'Featured personality analysis examples',
-								numberOfItems: featuredPeople.length,
-								itemListOrder: 'https://schema.org/ItemListUnordered',
-								itemListElement: featuredPeople
-							}
-						]
-					: [])
-			]
-		};
-	});
+	type Mirror = {
+		reflection: string;
+		resonantType: number;
+		resonantArchetype: string;
+	};
 
-	// ------------------------------------------------------------------
-	// V5 §03 — 9-in-9-lines primer (each type leads with a different read).
-	// ------------------------------------------------------------------
-	type NineType = { num: number; name: string; read: string };
-	const nineTypes: NineType[] = [
-		{ num: 1, name: 'THE PERFECTIONIST', read: "what's broken" },
-		{ num: 2, name: 'THE HELPER', read: 'what people need' },
-		{ num: 3, name: 'THE ACHIEVER', read: 'what wins' },
-		{ num: 4, name: 'THE INDIVIDUALIST', read: "what's missing" },
-		{ num: 5, name: 'THE INVESTIGATOR', read: 'the system underneath' },
-		{ num: 6, name: 'THE LOYALIST', read: 'the threat' },
-		{ num: 7, name: 'THE ENTHUSIAST', read: "what's next" },
-		{ num: 8, name: 'THE CHALLENGER', read: 'the power dynamic' },
-		{ num: 9, name: 'THE PEACEMAKER', read: 'the harmony' }
-	];
-
-	// ------------------------------------------------------------------
-	// V5 §05 — locked Type-take teasers shown on the open-question section.
-	// Production wires real data for the question itself; the 3 teasers stay
-	// locked per the give-first promise.
-	// ------------------------------------------------------------------
-	type LockedTake = { type: number; typeName: string; hint: string };
-	const lockedTakes: LockedTake[] = [
+	const centers: Center[] = [
 		{
-			type: 4,
-			typeName: 'The Individualist',
-			hint: "They think I'm dramatic. I'm trying to feel something real..."
+			name: 'Anger',
+			label: 'Instinct center',
+			types: 'Types 8 · 9 · 1',
+			question: 'What needs to be protected, corrected, controlled, or kept at peace?',
+			detail:
+				'These perspectives often register impact, boundaries, and what feels right before anything else.',
+			className: 'center--anger'
 		},
 		{
-			type: 6,
-			typeName: 'The Loyalist',
-			hint: "They think I'm anxious. I'm scanning for the threat they missed..."
+			name: 'Shame',
+			label: 'Identity center',
+			types: 'Types 2 · 3 · 4',
+			question: 'What makes me valuable, lovable, successful, or real?',
+			detail:
+				'These perspectives often notice relationship, recognition, and the meaning an answer carries.',
+			className: 'center--shame'
 		},
 		{
-			type: 8,
-			typeName: 'The Challenger',
-			hint: "They think I'm angry. I'm refusing to fold for fake politeness..."
+			name: 'Fear',
+			label: 'Mind center',
+			types: 'Types 5 · 6 · 7',
+			question: 'What will keep me capable, prepared, supported, or free?',
+			detail:
+				'These perspectives often scan for information, certainty, options, and what could happen next.',
+			className: 'center--fear'
 		}
 	];
 
-	// ------------------------------------------------------------------
-	// V5 §07 — corpus stats. Real numbers from src/lib/data/corpus-stats.json
-	// (regenerated by `pnpm gen:all`). Lineage stays a constant.
-	// ------------------------------------------------------------------
-	type StatBlock = { label: string; value: string; annotation: string };
-	const numberFmt = new Intl.NumberFormat('en-US');
-	const corpusStats: StatBlock[] = $derived.by(() => [
+	const revealedPerspectives: Perspective[] = [
 		{
-			label: 'PERSONALITY BREAKDOWNS',
-			value: numberFmt.format(data.corpusStats.published),
-			annotation: `+${numberFmt.format(data.corpusStats.inDraft)} in pipeline`
+			center: 'Instinct',
+			take: 'I swallow my frustration and keep moving so nobody else has to deal with it.',
+			className: 'perspective--anger'
 		},
-		{ label: 'EMOTIONAL FRAMES', value: '9', annotation: 'exact' },
-		{ label: 'LINEAGE', value: '2,500 yr', annotation: 'plato → now' },
 		{
-			label: 'NEW LAST 30 DAYS',
-			value: numberFmt.format(data.corpusStats.publishedLast30Days),
-			annotation: `~${Math.round(data.corpusStats.avgNewPerMonth)}/mo avg`
+			center: 'Identity',
+			take: 'I make sure everyone else feels okay before I admit that I am exhausted.',
+			className: 'perspective--shame'
+		},
+		{
+			center: 'Mind',
+			take: 'I rehearse every possible problem until being prepared looks effortless.',
+			className: 'perspective--fear'
 		}
-	]);
+	];
 
-	// ------------------------------------------------------------------
-	// V5 §05 — time-dynamic open-question kicker.
-	// SSR renders a neutral default; the client-only $effect below swaps in
-	// the per-visitor local-time variant. Slight mismatch is invisible.
-	// ------------------------------------------------------------------
-	type TimeWindow = { title: string; kicker: string };
+	let previewTake = $state('');
+	let previewRevealed = $state(false);
+	let submitting = $state(false);
+	let submitError = $state<string | null>(null);
+	let mirror = $state<Mirror | null>(null);
+	let chorusTakes = $state.raw<ChorusTake[]>([]);
+	let revealEl = $state<HTMLElement | null>(null);
+	let eraPaused = $state(false);
 
-	function getTimeWindow(): TimeWindow {
-		const hour = new Date().getHours();
-		if (hour >= 5 && hour < 12) {
-			return { title: "This morning's open question", kicker: 'MORNING' };
-		} else if (hour >= 12 && hour < 17) {
-			return { title: "This afternoon's open question", kicker: 'AFTERNOON' };
-		} else if (hour >= 17 && hour < 22) {
-			return { title: "This evening's open question", kicker: 'EVENING' };
+	const trimmedTake = $derived(previewTake.trim());
+	const wordCount = $derived(trimmedTake ? trimmedTake.split(/\s+/).length : 0);
+	const canSubmit = $derived(trimmedTake.length >= 8 && wordCount >= 3 && !submitting);
+	const questionHref = $derived(`/questions/${data.featuredQuestion.url}`);
+	const homepageStructuredData = $derived.by(() => ({
+		'@context': 'https://schema.org',
+		'@type': 'WebPage',
+		'@id': `${siteUrl}/#webpage`,
+		url: siteUrl,
+		name: homepageTitle,
+		description: homepageDescription,
+		inLanguage: 'en-US',
+		isPartOf: { '@id': `${siteUrl}/#website` },
+		primaryImageOfPage: {
+			'@type': 'ImageObject',
+			url: socialImageUrl,
+			width: 1400,
+			height: 788,
+			caption: socialImageAlt
+		},
+		mainEntity: {
+			'@type': 'Question',
+			'@id': `${siteUrl}${questionHref}`,
+			name: data.featuredQuestion.question,
+			url: `${siteUrl}${questionHref}`
 		}
-		return { title: 'Still open at midnight', kicker: 'LATE' };
-	}
+	}));
 
-	function getDateLabel(): string {
-		const months = [
-			'JAN',
-			'FEB',
-			'MAR',
-			'APR',
-			'MAY',
-			'JUN',
-			'JUL',
-			'AUG',
-			'SEP',
-			'OCT',
-			'NOV',
-			'DEC'
-		];
-		const d = new Date();
-		const day = String(d.getDate()).padStart(2, '0');
-		return `${months[d.getMonth()]} ${day}`;
-	}
-
-	let timeWindow = $state<TimeWindow>({ title: "Today's open question", kicker: 'TODAY' });
-	let dateLabel = $state<string>('');
-
-	$effect(() => {
-		if (!browser) return;
-		timeWindow = getTimeWindow();
-		dateLabel = getDateLabel();
-	});
-
-	// ------------------------------------------------------------------
-	// Helpers used by the §06 Library cards (real data).
-	// ------------------------------------------------------------------
-	function personLink(person: { name: string; type: number; hasLink: boolean }): string {
-		return person.hasLink
-			? buildPersonalityAnalysisPath(person.name)
-			: `/enneagram-corner/enneagram-type-${person.type}`;
-	}
-
-	// ------------------------------------------------------------------
-	// Phase 3 signature — a restrained streetlamp pool follows the pointer
-	// across §04. CSS owns the rendering; touch and reduced-motion are no-ops.
-	// ------------------------------------------------------------------
-	function handleGatheringPointer(event: PointerEvent): void {
-		if (
-			!browser ||
-			event.pointerType === 'touch' ||
-			window.matchMedia('(prefers-reduced-motion: reduce)').matches
-		) {
+	async function submitTake() {
+		if (submitting) return;
+		if (trimmedTake.length < 8 || wordCount < 3) {
+			submitError = 'Say a little more. A short sentence is enough.';
 			return;
 		}
 
-		const rail = event.currentTarget;
-		if (!(rail instanceof HTMLElement)) return;
+		submitting = true;
+		submitError = null;
 
-		const rect = rail.getBoundingClientRect();
-		rail.style.setProperty('--gathering-x', `${event.clientX - rect.left}px`);
-		rail.style.setProperty('--gathering-y', `${event.clientY - rect.top}px`);
-		rail.dataset.illuminated = 'true';
+		try {
+			if (browser) getOrCreateVisitorId();
+
+			const response = await fetch('/api/nine/mirror', {
+				method: 'POST',
+				headers: { 'content-type': 'application/json' },
+				body: JSON.stringify({
+					subjectType: 'question',
+					questionUrl: data.featuredQuestion.url,
+					take: trimmedTake,
+					sourcePath: browser ? window.location.pathname : undefined
+				})
+			});
+			const result = await response.json();
+
+			if (!response.ok) {
+				throw new Error(result?.error ?? result?.message ?? 'Something slipped. Try once more.');
+			}
+			if (!result?.answerRecorded) {
+				throw new Error('We could not add your answer to the live question. Please try again.');
+			}
+			if (!Array.isArray(result?.takes) || result.takes.length !== 9) {
+				throw new Error('Your answer was posted, but the nine perspectives are not ready yet.');
+			}
+
+			mirror = {
+				reflection: result.reflection,
+				resonantType: result.resonantType,
+				resonantArchetype: result.resonantArchetype
+			};
+			chorusTakes = result.takes;
+			previewRevealed = true;
+			void capture('homepage_question_answered', {
+				question_url: data.featuredQuestion.url,
+				source_path: browser ? window.location.pathname : undefined
+			});
+			await tick();
+			revealEl?.focus();
+		} catch (error) {
+			submitError = error instanceof Error ? error.message : 'Something slipped. Try once more.';
+		} finally {
+			submitting = false;
+		}
 	}
 
-	function clearGatheringPointer(event: PointerEvent): void {
-		const rail = event.currentTarget;
-		if (rail instanceof HTMLElement) delete rail.dataset.illuminated;
+	function typeColor(type: number) {
+		return TYPE_COLOR_MAP[type] ?? 'var(--lamp-glow)';
 	}
 </script>
 
@@ -364,8 +199,8 @@
 	description={homepageDescription}
 	canonical={siteUrl}
 	ogImage={socialImageUrl}
-	ogImageWidth={1200}
-	ogImageHeight={630}
+	ogImageWidth={1400}
+	ogImageHeight={788}
 	twitterImage={socialImageUrl}
 	twitterImageAlt={socialImageAlt}
 	jsonLd={homepageStructuredData}
@@ -377,1816 +212,1603 @@
 		},
 		{
 			property: 'og:image:type',
-			content: 'image/png'
+			content: 'image/webp'
 		}
 	]}
 />
 
-<div class="home">
-	<!-- =====================================================================
-	  §01 OBSERVATION — tagline + statue + give-first subtext
-	  ===================================================================== -->
-	<section class="anatomy">
-		<div class="grain" aria-hidden="true"></div>
-		<div class="anatomy-pool" aria-hidden="true"></div>
-
-		<div class="anatomy-inner">
-			<div class="anatomy-top">
-				<div class="anatomy-text">
-					<div class="anatomy-eyebrow">
-						<SectionKicker num="01" label="THE CIRCLE" />
-					</div>
-
-					<h1 class="display-xl">See the emotions behind every take.</h1>
-
-					<div class="scale-marker" aria-hidden="true">
-						<span class="tick"></span>
-						<span class="tick"></span>
-						<span class="tick"></span>
-						<span class="tick"></span>
-						<span class="tick"></span>
-						<span class="tick tick--major"></span>
-						<span class="tick"></span>
-						<span class="tick"></span>
-						<span class="tick"></span>
-						<span class="tick"></span>
-						<span class="tick"></span>
-					</div>
-
-					<p class="hero-subhead hero-subhead-line-1">
-						One situation. Nine perspectives. Nine different reads.
-					</p>
-					<p class="hero-subhead hero-subhead-line-2">
-						Give yours first. Then enter the room and hear the rest.
-					</p>
-				</div>
-
-				<div class="anatomy-subject" aria-hidden="true">
-					<div class="subject-frame">
-						<!-- .anatomy-subject is display:none ≤968px; media-gated so phones
-						     never download the statue (2026-06-11 audit) -->
-						<picture>
-							<source media="(min-width: 969px)" srcset="/greek_distorted_statue_face.webp" />
-							<source
-								media="(max-width: 968px)"
-								srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-							/>
-							<img
-								src="/greek_distorted_statue_face.webp"
-								alt=""
-								class="statue"
-								loading="eager"
-								decoding="async"
-							/>
-						</picture>
-						<div class="subject-vignette"></div>
-						<div class="subject-mono">
-							<span class="mono">9TAKES · ONE SUBJECT · NINE READS</span>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="anatomy-divider" aria-hidden="true"></div>
-
-			<!-- §02 — two-column NO | YES path split (with locked teasers in YES) -->
-			<div class="path-split" aria-label="Do you know the Enneagram?">
-				<div class="path-split-kicker">
-					<SectionKicker
-						size="md"
-						num="02"
-						label="DO YOU KNOW THE ENNEAGRAM?"
-						class="region-label"
-					/>
-				</div>
-
-				<div class="path-split-grid">
-					<!-- LEFT — NO panel: send curious newcomers to the primer below -->
-					<div class="path-panel path-panel--no">
-						<SectionKicker num="02A" label="NO" tone="lamp" class="path-label path-label--no" />
-						<p class="path-body">
-							Never heard of it. That&rsquo;s most people. The Enneagram is a 2,500-year-old
-							framework that maps 9 ways emotions drive behavior. Once you see the patterns, you
-							can&rsquo;t unsee them.
-						</p>
-						<a href="#primer" class="path-cta path-cta--no">
-							<span class="mono path-cta-kicker">New here</span>
-							<span class="path-cta-label">Start with the 9 in 9 lines</span>
-							<span class="mono path-cta-arrow" aria-hidden="true">&darr;</span>
-						</a>
-					</div>
-
-					<!-- RIGHT — YES panel: drop a take + locked teasers preserve give-first -->
-					<div class="path-panel path-panel--yes">
-						<SectionKicker num="02B" label="YES" tone="data" class="path-label path-label--yes" />
-						<p class="path-body">
-							You know the rabbit hole. 9takes uses it to break down real situations &mdash; yours,
-							others&rsquo;, public figures&rsquo;. The give-first mechanic keeps every comment
-							honest.
-						</p>
-
-						<div
-							class="locked-preview"
-							aria-label="Three locked takes — drop yours to unlock the room"
-						>
-							{#each lockedTakes as t}
-								<div class="locked-take" style="--type-stripe: var(--type-{t.type}-color);">
-									<div class="locked-take-head">
-										<span class="mono">TYPE {t.type} · {t.typeName.toUpperCase()}</span>
-										<span class="mono locked-take-status">LOCKED</span>
-									</div>
-									<p class="locked-take-hint">{t.hint}</p>
-								</div>
-							{/each}
-						</div>
-
-						<a href="#open-question" class="path-cta path-cta--yes">
-							<span class="mono path-cta-kicker">Ready</span>
-							<span class="path-cta-label">Drop today&rsquo;s take</span>
-							<span class="mono path-cta-arrow" aria-hidden="true">&rarr;</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- =====================================================================
-	  §03 — THE 9 IN 9 LINES (primer table, anchor target #primer)
-	  ===================================================================== -->
-	<section id="primer" class="primer">
-		<header class="primer-header">
-			<SectionKicker class="section-tag" num="03" label="THE 9 IN 9 LINES" />
-			<h2 class="display-md">The 9 in 9 lines.</h2>
-			<p class="primer-sub">
-				Each type leads with a different emotional read of the same situation.
-			</p>
-		</header>
-
-		<div class="primer-table-wrap">
-			<div
-				class="primer-table"
-				role="table"
-				aria-label="Nine personality types and what each leads with"
-			>
-				<div class="primer-row primer-row--head" role="row">
-					<span class="primer-col-num mono" role="columnheader">№</span>
-					<span class="primer-col-type mono" role="columnheader">TYPE</span>
-					<span class="primer-col-read mono" role="columnheader">WHAT THEY SEE FIRST</span>
-				</div>
-
-				{#each nineTypes as t}
-					<a
-						href={`/enneagram-corner/enneagram-type-${t.num}`}
-						class="primer-row"
-						role="row"
-						style="--type-stripe: var(--type-{t.num}-color);"
-					>
-						<span class="primer-col-num mono" role="cell">{String(t.num).padStart(2, '0')}</span>
-						<span class="primer-col-type" role="cell">{t.name}</span>
-						<span class="primer-col-read" role="cell">{t.read}</span>
-					</a>
-				{/each}
-			</div>
-		</div>
-	</section>
-
-	<!-- =====================================================================
-	  §04 — THE GATHERING (one situation, then the room opens)
-	  ===================================================================== -->
-	<section class="flow">
-		<div class="flow-pool" aria-hidden="true"></div>
-
-		<header class="flow-header">
-			<SectionKicker class="section-tag" num="04" label="THE GATHERING" />
-			<h2 class="display-md">First you speak. Then the room opens.</h2>
-			<p class="flow-sub">
-				No likes to chase. No consensus to copy. Your perspective lands before anyone else&rsquo;s
-				can shape it.
-			</p>
-		</header>
-
-		<ol
-			class="flow-story"
-			aria-label="How a perspective enters the 9takes gathering"
-			onpointermove={handleGatheringPointer}
-			onpointerleave={clearGatheringPointer}
-			onpointercancel={clearGatheringPointer}
-		>
-			<li class="flow-beat flow-beat--speak">
-				<div class="flow-beat-marker" aria-hidden="true"><span>01</span></div>
-				<p class="mono flow-beat-kicker">01 · ENTER ALONE</p>
-				<h3>Say what you actually saw.</h3>
-				<p>A real situation enters the circle with your unfiltered read attached.</p>
-			</li>
-
-			<li class="flow-beat flow-beat--listen">
-				<div class="flow-beat-marker" aria-hidden="true"><span>02</span></div>
-				<p class="mono flow-beat-kicker">02 · THE ROOM OPENS</p>
-				<h3>Listen without a leader.</h3>
-				<p>
-					Only after you answer do the other perspectives appear&mdash;each noticing something
-					different.
+<div class="home-reimagined">
+	<section class="hero" aria-labelledby="hero-title">
+		<div class="hero-atmosphere" aria-hidden="true"></div>
+		<div class="shell hero-grid">
+			<div class="hero-copy">
+				<SectionKicker num="01" label="THE OPEN QUESTION" />
+				<h1 id="hero-title">One question.<br /><span>Nine ways to see it.</span></h1>
+				<p class="hero-lede">
+					Say what you actually think before the crowd can shape your take. Then unlock the other
+					perspectives—and notice what someone else can see that you cannot.
 				</p>
-			</li>
 
-			<li class="flow-beat flow-beat--see">
-				<div class="flow-beat-marker" aria-hidden="true"><span>03</span></div>
-				<p class="mono flow-beat-kicker">03 · THE PATTERN APPEARS</p>
-				<h3>See what everyone was protecting.</h3>
-				<p>
-					The distance between the takes reveals the fear, pride, care, control, or longing
-					underneath.
-				</p>
-			</li>
-		</ol>
+				<div class="hero-action">
+					<Button href="#live-question" size="lg">Answer the question</Button>
+					<p>No type knowledge needed.</p>
+				</div>
 
-		<p class="mono flow-manifesto">
-			ONE SITUATION <span aria-hidden="true">·</span> NINE PERSPECTIVES
-			<span aria-hidden="true">·</span> NO CONSENSUS REQUIRED
-		</p>
-	</section>
+				<ul class="proof-line" aria-label="How 9takes is different">
+					<li>Anonymous answers</li>
+					<li>Give first</li>
+					<li>Reveal through response</li>
+				</ul>
+			</div>
 
-	<!-- =====================================================================
-	  §05 — THE FLOOR IS OPEN (real questionOfTheDay, anchor #open-question)
-	  ===================================================================== -->
-	<section id="open-question" class="open-floor">
-		<div class="open-floor-pool" aria-hidden="true"></div>
-		<header class="open-floor-header">
-			<SectionKicker class="section-tag" num="05" label="THE FLOOR IS OPEN" />
-			<h2 class="display-md">{timeWindow.title}.</h2>
-			<p class="mono open-floor-kicker">
-				OPEN · {timeWindow.kicker}{dateLabel ? ` · ${dateLabel}` : ''} · {data.questionOfTheDay
-					?.comment_count ?? 0} RESPONSES
-			</p>
-			<blockquote class="open-floor-question">
-				&ldquo;{data.questionOfTheDay?.question_formatted ??
-					'What is something people misunderstand about you?'}&rdquo;
-			</blockquote>
-		</header>
-
-		<ul class="open-floor-takes">
-			{#each lockedTakes as t}
-				<li class="take-card" style="--type-stripe: var(--type-{t.type}-color);">
-					<div class="take-card-top">
-						<span class="mono take-card-label">
-							TYPE {t.type} · {t.typeName.toUpperCase()} · LOCKED
-						</span>
-					</div>
-					<p class="take-body">{t.hint}</p>
-					<div class="take-meta">
-						<span class="mono">DROP YOURS TO UNLOCK</span>
-					</div>
-				</li>
-			{/each}
-		</ul>
-
-		<div class="open-floor-cta-row">
-			<Button
-				size="lg"
-				variant="primary"
-				href={data.questionOfTheDay?.url ? `/questions/${data.questionOfTheDay.url}` : '/questions'}
-			>
-				Drop your take →
-			</Button>
-			<p class="mono open-floor-footnote">the platform locks responses until you give yours</p>
-		</div>
-	</section>
-
-	<!-- =====================================================================
-	  §06 — THE LIBRARY (famous-people dossier grid; real data)
-	  ===================================================================== -->
-	<section class="library">
-		<header class="library-header">
-			<SectionKicker class="section-tag" num="06" label="CASE FILES" />
-			<h2 class="display-md">The Library.</h2>
-			<p class="library-sub">
-				Personality breakdowns of public figures, fictional characters, athletes, and founders. Read
-				at the depth you&rsquo;d expect from a real psychologist, not a clickbait listicle.
-			</p>
-			<p class="mono library-kicker">
-				THE LIBRARY · {numberFmt.format(data.corpusStats.published)} BREAKDOWNS · 9 TYPES · GROWING
-			</p>
-		</header>
-
-		<div class="library-grid">
-			{#each data.typeRepresentatives as person}
-				{@const typeNum = person.type}
-				{@const info = ENNEAGRAM_TYPE_COLORS[typeNum]}
-				{@const displayName = formatPersonalityDisplayName(person.name)}
-				{@const personaTitle = person.personaTitle?.trim() || info.name}
-				<a
-					href={personLink(person)}
-					class="library-card"
-					style="--type-stripe: var(--type-{typeNum}-color);"
+			<figure class="hero-figure">
+				<button
+					type="button"
+					class="image-frame era-frame"
+					class:is-paused={eraPaused}
+					aria-pressed={eraPaused}
+					aria-label={eraPaused
+						? 'Resume the time-shifting image: nine modern people under a streetlamp dissolve into nine marble Greek philosophers around a fire.'
+						: 'Pause the time-shifting image: nine modern people under a streetlamp dissolve into nine marble Greek philosophers around a fire.'}
+					onclick={() => (eraPaused = !eraPaused)}
 				>
-					<div class="library-image-wrap">
-						{#if person.hasImage}
-							<img
-								src={buildPersonalityImagePath(typeNum, person.name, 'thumbnail')}
-								alt={displayName}
-								class="library-image"
-								loading="lazy"
-								fetchpriority="low"
-								width="320"
-								height="240"
-								decoding="async"
-							/>
+					<img
+						src="/images/home-reimagined/streetlamp-nine.webp"
+						class="era-image era-image--modern"
+						alt=""
+						width="1400"
+						height="788"
+						loading="eager"
+						fetchpriority="high"
+						decoding="async"
+					/>
+					<img
+						src="/images/home-reimagined/ancient-fire-nine.webp"
+						class="era-image era-image--ancient"
+						alt=""
+						width="1400"
+						height="788"
+						loading="eager"
+						decoding="async"
+					/>
+					<div class="image-scrim" aria-hidden="true"></div>
+					<div class="image-coordinate" aria-hidden="true">
+						{eraPaused ? 'NOW ↔ THEN · PAUSED' : 'NOW ↔ THEN · HOVER TO HOLD'}
+					</div>
+					<div class="image-caption">
+						<span class="caption-mark" aria-hidden="true"></span>
+						<span>The setting changes. The question does not.</span>
+					</div>
+				</button>
+				<figcaption>
+					<span>THE CIRCLE · THEN / NOW</span>
+					<span aria-hidden="true">01 02 03 04 05 06 07 08 09</span>
+				</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section id="live-question" class="product-proof" aria-labelledby="proof-title">
+		<div class="shell proof-layout">
+			<header class="section-heading proof-heading">
+				<SectionKicker num="02" label="ANSWER BEFORE THE ROOM OPENS" />
+				<h2 id="proof-title">Read the question before you read the room.</h2>
+				<p>
+					Your answer comes first. Other responses stay out of sight until you contribute, giving
+					your take a chance to be yours.
+				</p>
+			</header>
+
+			<div class="question-stage">
+				<div class="proof-meta">
+					<span>Open question · {String(data.featuredQuestion.id).padStart(4, '0')}</span>
+					<span class="status">
+						{#if previewRevealed}
+							<CircleCheck size={14} aria-hidden="true" /> Answer posted
 						{:else}
-							<div class="library-image-stub" aria-hidden="true">
-								<span class="mono">[PORTRAIT]</span>
+							<LockKeyhole size={14} aria-hidden="true" /> Other takes hidden
+						{/if}
+					</span>
+				</div>
+
+				<div class="question-display-card">
+					<h3>{data.featuredQuestion.question}</h3>
+				</div>
+
+				{#if !previewRevealed}
+					<form
+						class="question-composer"
+						aria-busy={submitting || undefined}
+						onsubmit={(event) => {
+							event.preventDefault();
+							void submitTake();
+						}}
+						novalidate
+					>
+						<div class="composer-body">
+							<div class="composer-heading">
+								<label for="preview-take">Your answer</label>
+								<span>Live question</span>
+							</div>
+
+							<textarea
+								id="preview-take"
+								bind:value={previewTake}
+								oninput={() => (submitError = null)}
+								rows="4"
+								maxlength="2000"
+								placeholder="Answer honestly. A short sentence is enough."
+								aria-invalid={submitError ? 'true' : 'false'}
+								aria-describedby={submitError ? 'answer-help answer-error' : 'answer-help'}
+								disabled={submitting}></textarea>
+						</div>
+
+						<div class="composer-footer">
+							<div class="answer-foot">
+								<span id="answer-help">
+									{wordCount >= 3 && trimmedTake.length >= 8
+										? 'Ready to post · no account required'
+										: 'Your take becomes a real answer · no account required'}
+								</span>
+								<span>{wordCount} word{wordCount === 1 ? '' : 's'} · {previewTake.length}/2000</span
+								>
+							</div>
+
+							<div class="composer-action">
+								<Button size="md" type="submit" disabled={!canSubmit} loading={submitting}>
+									{submitting ? 'Posting your answer…' : 'Post answer and reveal'}
+								</Button>
+							</div>
+						</div>
+						{#if submitError}
+							<p id="answer-error" class="composer-error" role="alert">{submitError}</p>
+						{/if}
+					</form>
+				{:else}
+					<div class="question-composer submitted-answer" bind:this={revealEl} tabindex="-1">
+						<div class="submitted-answer-head">
+							<span class="submitted-check"><CircleCheck size={18} aria-hidden="true" /></span>
+							<div>
+								<strong>Your answer is in the conversation.</strong>
+								<span>The nine perspectives are open.</span>
+							</div>
+						</div>
+						<blockquote>{trimmedTake}</blockquote>
+						{#if mirror}
+							<div class="mirror-read">
+								<span>Your mirror</span>
+								<p>{mirror.reflection}</p>
+								<small>Closest lens: {formatTypeLabel(mirror.resonantType)}</small>
 							</div>
 						{/if}
-						<span class="mono library-type-chip" aria-hidden="true">T{typeNum}</span>
 					</div>
-					<div class="library-card-body">
-						<span class="mono library-id">
-							TYPE {typeNum} · {personaTitle.toUpperCase()}
-						</span>
-						<h3 class="library-name">{displayName}</h3>
-						<p class="library-subtitle">{info.name}.</p>
+				{/if}
+
+				<div class="takes-shell" class:is-revealed={previewRevealed} aria-live="polite">
+					<div class="takes-nav">
+						<div class="takes-tab">
+							<span class="takes-icon">
+								{#if previewRevealed}
+									<UnlockKeyhole size={17} aria-hidden="true" />
+								{:else}
+									<EyeOff size={17} aria-hidden="true" />
+								{/if}
+							</span>
+							<span><strong>9</strong> perspectives</span>
+						</div>
+						<span class="takes-state"
+							>{previewRevealed ? 'Revealed after your answer' : 'Hidden until you post'}</span
+						>
 					</div>
-				</a>
-			{/each}
-		</div>
 
-		<div class="library-cta-row">
-			<Button size="lg" variant="ghost" href="/personality-analysis">
-				Browse all breakdowns →
-			</Button>
-		</div>
-	</section>
-
-	<!-- =====================================================================
-	  §07 — BY THE NUMBERS (4 stat blocks)
-	  ===================================================================== -->
-	<section class="compiled">
-		<div class="compiled-pool" aria-hidden="true"></div>
-		<header class="compiled-header">
-			<SectionKicker class="section-tag" num="07" label="CORPUS" />
-			<h2 class="display-md">By the numbers.</h2>
-		</header>
-
-		<div class="compiled-grid">
-			{#each corpusStats as s}
-				<div class="compiled-stat">
-					<span class="mono compiled-stat-label">{s.label}</span>
-					<span class="compiled-stat-value">{s.value}</span>
-					<span class="mono compiled-stat-annotation">— {s.annotation} —</span>
+					<div class="takes-body">
+						{#if previewRevealed}
+							<div class="perspectives chorus-perspectives">
+								{#each chorusTakes as take (take.type)}
+									<article
+										class="perspective chorus-take"
+										style:--perspective-color={typeColor(take.type)}
+									>
+										<div class="perspective-meta">
+											<span class="perspective-label">{formatTypeLabel(take.type)}</span>
+											<small>{take.source === 'human' ? 'Community take' : 'AI-seeded'}</small>
+										</div>
+										<p>&ldquo;{take.take}&rdquo;</p>
+									</article>
+								{/each}
+							</div>
+						{:else}
+							<div class="blurred-perspectives" aria-hidden="true">
+								{#each revealedPerspectives as perspective (perspective.center)}
+									<article class="perspective {perspective.className}">
+										<span class="perspective-label">{perspective.center}</span>
+										<p>&ldquo;{perspective.take}&rdquo;</p>
+									</article>
+								{/each}
+							</div>
+							<div class="lock-message">
+								<span class="lock-icon"><LockKeyhole size={18} aria-hidden="true" /></span>
+								<span>
+									<strong>Other answers stay blurred.</strong>
+									Post yours to reveal them.
+								</span>
+							</div>
+						{/if}
+					</div>
 				</div>
-			{/each}
-		</div>
-	</section>
 
-	<!-- =====================================================================
-	  §08 — COACHING (production-only quiet CTA; not in V5 prototype)
-	  ===================================================================== -->
-	<section class="coaching">
-		<div class="coaching-inner">
-			<SectionKicker class="section-tag" num="08" label="COACHING" />
-			<h2 class="display-md">Want to take it deeper?</h2>
-			<p class="coaching-sub">
-				Direct application. Personalized EQ work. 1-on-1 sessions with DJ &mdash; for relationships,
-				career decisions, or the patterns you can&rsquo;t name yet.
-			</p>
-			<div class="coaching-cta-row">
-				<Button size="lg" variant="primary" href="/book-session">Join the coaching waitlist</Button>
+				<div class="proof-card-foot">
+					<p>
+						{#if previewRevealed}
+							<strong>Your answer is live.</strong> Continue into the community thread.
+						{:else}
+							<strong>This is the real room.</strong> Your answer is added to the live question.
+						{/if}
+					</p>
+					<Button href={questionHref} variant="ghost">
+						{previewRevealed ? 'See community answers' : 'Open this question'}
+					</Button>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- =====================================================================
-	  Footer is rendered by +layout.svelte — no inline footer here.
-	  ===================================================================== -->
+	<section class="centers-section" id="perspectives" aria-labelledby="centers-title">
+		<div class="center-orbit" aria-hidden="true"></div>
+		<div class="shell">
+			<header class="section-heading centers-heading">
+				<SectionKicker num="03" label="WHY THE ANSWERS DIFFER" tone="data" />
+				<h2 id="centers-title">The same question can stir anger, shame, or fear.</h2>
+				<p>
+					The Enneagram describes nine recurring personality patterns organized around anger, shame,
+					and fear. It is a lens for noticing what an answer protects, pursues, or avoids—not a
+					diagnosis.
+				</p>
+			</header>
+
+			<div class="center-grid">
+				{#each centers as center, index (center.name)}
+					<article class="center-card {center.className}">
+						<div class="center-card-top">
+							<span class="center-index">0{index + 1}</span>
+							<span class="center-types">{center.types}</span>
+						</div>
+						<p class="center-label">{center.label}</p>
+						<h3>{center.name}</h3>
+						<p class="center-question">{center.question}</p>
+						<p class="center-detail">{center.detail}</p>
+					</article>
+				{/each}
+			</div>
+
+			<p class="centers-note">
+				<span aria-hidden="true"></span>
+				Nine patterns, three centers, no mechanical typing required.
+			</p>
+		</div>
+	</section>
+
+	<section class="paths-section" aria-labelledby="paths-title">
+		<div class="shell">
+			<header class="section-heading paths-heading">
+				<SectionKicker num="04" label="CHOOSE YOUR DEPTH" />
+				<h2 id="paths-title">Start with a question. Follow the pattern when you&rsquo;re ready.</h2>
+			</header>
+
+			<div class="path-grid">
+				<article class="path-card">
+					<div class="path-number">A</div>
+					<div class="path-content">
+						<p class="path-label">I am new to this</p>
+						<h3>Start with what feels real.</h3>
+						<p>
+							You do not need to know your type. Answer a question and notice which perspectives
+							feel familiar—or completely foreign.
+						</p>
+						<Button href={resolve('/questions')} size="lg">Start with a question</Button>
+					</div>
+				</article>
+
+				<article class="path-card path-card--data">
+					<div class="path-number">B</div>
+					<div class="path-content">
+						<p class="path-label">I know my type</p>
+						<h3>Look beneath the opinion.</h3>
+						<p>
+							Notice the strategy underneath: what is this answer trying to protect, prove, avoid,
+							or understand?
+						</p>
+						<Button href={resolve('/enneagram-corner')} size="lg" variant="secondary"
+							>Explore the Enneagram</Button
+						>
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<section class="final-section" aria-labelledby="final-title">
+		<div class="final-pool" aria-hidden="true"></div>
+		<div class="shell final-inner">
+			<div class="final-copy">
+				<SectionKicker num="05" label="YOUR TAKE IS MISSING" />
+				<h2 id="final-title">What do you see that everyone else misses?</h2>
+				<p>Add your take. Then enter the conversation.</p>
+				<Button href={resolve('/questions')} size="lg">Browse the questions</Button>
+			</div>
+
+			<div class="deeper-row" aria-label="Go deeper with 9takes">
+				<span class="deeper-label">Go deeper</span>
+				<a href={resolve('/personality-analysis')}>
+					Personality analysis <ArrowUpRight size={16} aria-hidden="true" />
+				</a>
+				<a href={resolve('/how-to-guides')}>
+					Practical guides <ArrowUpRight size={16} aria-hidden="true" />
+				</a>
+				<a href={resolve('/community')}>
+					The takes of 9takes <ArrowUpRight size={16} aria-hidden="true" />
+				</a>
+			</div>
+		</div>
+	</section>
 </div>
 
 <style lang="scss">
-	/* =========================================================
-	  Streetlamp Symposium — production homepage.
-	  Brand tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
-	  --pool-rgb, --pool-deep-rgb, --type-N-color) are bridge tokens
-	  shipped globally in src/scss/index.scss. The few preview-only
-	  tokens (--cta-text, --pool-alpha-*, --statue-blend, --grain-opacity,
-	  --lamp-glow-rgba, --data-cyan, --marble-*) are declared on .home
-	  here so they only apply to this page until Phase 7 cleanup.
-	  ========================================================= */
-	.home {
+	.home-reimagined {
 		--cta-text: var(--night-deep);
-		--pool-alpha-strong: 0.28;
-		--pool-alpha-mid: 0.18;
-		--pool-alpha-soft: 0.08;
-		--statue-blend: screen;
-		--grain-opacity: 0.05;
-
+		--preview-anger: #b9683c;
+		--preview-anger-soft: rgba(185, 104, 60, 0.14);
+		--preview-shame: #b8797f;
+		--preview-shame-soft: rgba(184, 121, 127, 0.14);
+		--preview-fear: #2f8f8c;
+		--preview-fear-soft: rgba(47, 143, 140, 0.14);
+		position: relative;
+		z-index: 26;
+		isolation: isolate;
+		width: 100%;
+		max-width: none;
+		margin: 0;
+		padding: 0;
+		overflow: clip;
 		background: var(--night-deep);
 		color: var(--ink-bright);
-		font-family: var(--font-display);
-		min-height: 100vh;
+		font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
+	}
+
+	:global(html.light) .home-reimagined {
+		--cta-text: #faf8f4;
+		--preview-anger-soft: rgba(185, 104, 60, 0.1);
+		--preview-shame-soft: rgba(184, 121, 127, 0.1);
+		--preview-fear-soft: rgba(47, 143, 140, 0.1);
+	}
+
+	.home-reimagined,
+	.home-reimagined * {
+		box-sizing: border-box;
+	}
+
+	.home-reimagined > section {
+		margin: 0;
+	}
+
+	.shell {
+		width: min(100% - 3rem, 86rem);
+		margin-inline: auto;
+	}
+
+	.hero {
 		position: relative;
-		overflow: hidden;
-		scroll-behavior: smooth;
-
-		@media (prefers-reduced-motion: reduce) {
-			scroll-behavior: auto;
-		}
-
-		/* Light-mode adjustments — global :root.light flips brand tokens for us;
-		   here we only soften pool intensity + statue blend. */
-		:global(:root.light) & {
-			--pool-alpha-strong: 0.14;
-			--pool-alpha-mid: 0.08;
-			--pool-alpha-soft: 0.04;
-			--statue-blend: normal;
-			--grain-opacity: 0.025;
-			--cta-text: #faf8f4;
-		}
-	}
-
-	/* ---------- shared utilities ---------- */
-	/* .mono / .display-xl / .display-md are global utilities in index.scss
-	   (promoted 2026-06-10 — identical copies lived in three route files). */
-
-	.home :global(.section-tag) {
-		display: inline-block;
-		margin-bottom: 16px;
-		color: var(--lamp-glow);
-	}
-
-	.home :global(p),
-	.home :global(h1),
-	.home :global(h2),
-	.home :global(h3) {
-		margin: 0;
-	}
-
-	.home :global(:where(ul, ol)) {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
-	.home :global(a) {
-		color: inherit;
-		text-decoration: none;
-	}
-
-	.home :global(blockquote) {
-		margin: 0;
-	}
-
-	/* ---------- subtle paper grain ---------- */
-	.grain {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		opacity: var(--grain-opacity);
-		mix-blend-mode: overlay;
-		z-index: 1;
-		background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.6 0 0 0 0.7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
-	}
-
-	/* =========================================================
-	  §01 + §02 — anatomy
-	  ========================================================= */
-	.anatomy {
-		position: relative;
-		padding: 96px 48px 72px;
-		background: var(--night-deep);
-		overflow: hidden;
-
-		@media (max-width: 768px) {
-			padding: 64px 20px 56px;
-		}
-	}
-
-	.anatomy-pool {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
+		padding: clamp(4.5rem, 8vw, 8rem) 0 clamp(5rem, 9vw, 9rem);
 		background:
-			radial-gradient(
-				ellipse 60% 55% at 18% 8%,
-				rgba(var(--pool-rgb), var(--pool-alpha-strong)) 0%,
-				rgba(var(--pool-rgb), var(--pool-alpha-soft)) 30%,
-				transparent 60%
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--night-mid) 28%, transparent),
+				transparent 28%
 			),
-			radial-gradient(
-				ellipse 90% 70% at 22% 12%,
-				rgba(var(--pool-deep-rgb), var(--pool-alpha-mid)) 0%,
-				transparent 55%
-			);
-		z-index: 0;
+			var(--night-deep);
 	}
 
-	.anatomy-inner {
-		position: relative;
-		z-index: 2;
-		max-width: 1280px;
-		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		gap: 28px;
+	.hero-atmosphere {
+		position: absolute;
+		z-index: -1;
+		inset: 0;
+		background:
+			radial-gradient(circle at 74% 26%, rgba(245, 158, 11, 0.13), transparent 28%),
+			radial-gradient(circle at 87% 46%, rgba(13, 148, 136, 0.06), transparent 22%);
+		pointer-events: none;
 	}
 
-	.anatomy-top {
+	.hero-grid {
 		display: grid;
-		grid-template-columns: 1.15fr 0.85fr;
-		gap: 56px;
+		grid-template-columns: minmax(19rem, 0.78fr) minmax(34rem, 1.32fr);
 		align-items: center;
-
-		@media (max-width: 968px) {
-			grid-template-columns: 1fr;
-			gap: 24px;
-		}
+		gap: clamp(3rem, 6vw, 6.5rem);
 	}
 
-	.anatomy-text {
-		max-width: 680px;
+	.hero-copy {
+		position: relative;
+		z-index: 1;
 	}
 
-	.anatomy-eyebrow {
-		margin-bottom: 22px;
+	.hero h1 {
+		max-width: 10ch;
+		margin: 1.5rem 0 1.75rem;
+		color: var(--ink-bright);
+		font-size: clamp(3.35rem, 5.8vw, 5.9rem);
+		font-weight: 780;
+		letter-spacing: -0.055em;
+		line-height: 0.94;
+		text-wrap: balance;
 	}
 
-	.scale-marker {
-		display: flex;
-		align-items: flex-end;
-		gap: 6px;
-		height: 18px;
-		margin: 24px 0 14px;
-		opacity: 0.7;
-
-		.tick {
-			width: 1px;
-			height: 8px;
-			background: var(--stone-edge);
-
-			&--major {
-				height: 16px;
-				background: var(--lamp-glow);
-				width: 1.5px;
-			}
-		}
+	.hero h1 span {
+		color: color-mix(in srgb, var(--ink-bright) 70%, var(--lamp-glow));
 	}
 
-	.hero-subhead {
-		font-family: var(--font-display);
-		font-size: 18px;
-		line-height: 1.55;
+	.hero-lede {
+		max-width: 37rem;
+		margin: 0;
 		color: var(--ink-mid);
-		max-width: 600px;
-		font-weight: 400;
-
-		@media (max-width: 540px) {
-			font-size: 16px;
-		}
+		font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+		line-height: 1.65;
 	}
 
-	.hero-subhead-line-1 {
-		margin-bottom: 10px;
+	.hero-action {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin-top: 2rem;
 	}
 
-	.anatomy-subject {
+	.hero-action p {
+		margin: 0;
+		color: var(--ink-dim);
+		font-size: 0.82rem;
+	}
+
+	.proof-line {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.7rem 1.3rem;
+		margin: 2.5rem 0 0;
+		padding: 1.2rem 0 0;
+		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
+		list-style: none;
+	}
+
+	.proof-line li {
 		position: relative;
-
-		@media (max-width: 968px) {
-			display: none;
-		}
+		padding-left: 0.8rem;
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.67rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
 	}
 
-	.subject-frame {
+	.proof-line li::before {
+		position: absolute;
+		left: 0;
+		top: 0.45em;
+		width: 0.25rem;
+		height: 0.25rem;
+		border-radius: 9999px;
+		background: var(--lamp-glow);
+		content: '';
+	}
+
+	.hero-figure {
+		min-width: 0;
+		margin: 0;
+	}
+
+	.image-frame {
 		position: relative;
-		aspect-ratio: 4 / 5;
-		max-height: 460px;
-		margin-left: auto;
+		isolation: isolate;
 		overflow: hidden;
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		padding: 0;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, var(--stone-edge));
+		border-radius: 1rem;
+		background: var(--night-mid);
+		color: inherit;
+		font: inherit;
+		text-align: left;
+		box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.36);
+		cursor: pointer;
 	}
 
-	.statue {
+	.era-frame:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 4px;
+	}
+
+	.image-frame::before,
+	.image-frame::after {
+		position: absolute;
+		z-index: 3;
+		width: 4rem;
+		height: 4rem;
+		border-color: color-mix(in srgb, var(--lamp-glow) 60%, transparent);
+		pointer-events: none;
+		content: '';
+	}
+
+	.image-frame::before {
+		inset: 0.85rem auto auto 0.85rem;
+		border-top: 1px solid;
+		border-left: 1px solid;
+	}
+
+	.image-frame::after {
+		inset: auto 0.85rem 0.85rem auto;
+		border-right: 1px solid;
+		border-bottom: 1px solid;
+	}
+
+	.image-frame img {
+		position: absolute;
+		inset: 0;
+		display: block;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		object-position: center 30%;
-		filter: contrast(1.18) brightness(1.04) saturate(0.88);
-		mix-blend-mode: var(--statue-blend);
+		object-position: center;
 	}
 
-	:global(:root.light) .home .statue {
-		filter: contrast(1.05) brightness(1) saturate(1);
+	.era-image--modern {
+		filter: saturate(0.86) contrast(1.04);
 	}
 
-	.subject-vignette {
+	.era-image--ancient {
+		opacity: 0;
+		filter: saturate(0.82) contrast(1.04) brightness(0.96);
+	}
+
+	.image-scrim {
 		position: absolute;
+		z-index: 1;
 		inset: 0;
+		background:
+			linear-gradient(180deg, rgba(10, 8, 7, 0.06) 40%, rgba(10, 8, 7, 0.82) 100%),
+			linear-gradient(90deg, rgba(10, 8, 7, 0.18), transparent 34%);
 		pointer-events: none;
-		background:
-			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.22) 0%, transparent 55%),
-			linear-gradient(135deg, transparent 35%, rgba(10, 8, 7, 0.65) 100%),
-			linear-gradient(180deg, transparent 60%, rgba(10, 8, 7, 0.85) 100%);
 	}
 
-	:global(:root.light) .home .subject-vignette {
-		background:
-			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.08) 0%, transparent 55%),
-			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.06) 100%);
-	}
-
-	.subject-mono {
+	.image-coordinate {
 		position: absolute;
-		left: 12px;
-		bottom: 12px;
-		color: var(--ink-mid);
-
-		.mono {
-			color: var(--ink-mid);
-		}
-	}
-
-	.anatomy-divider {
-		height: 1px;
-		background: linear-gradient(
-			90deg,
-			transparent 0%,
-			var(--stone-edge) 12%,
-			var(--stone-edge) 88%,
-			transparent 100%
-		);
-		opacity: 0.65;
-	}
-
-	/* ---------- §02 PATH SPLIT (NO | YES) ---------- */
-	.path-split {
-		display: flex;
-		flex-direction: column;
-		gap: 18px;
-	}
-
-	.path-split-kicker {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 10px;
-		text-align: center;
-	}
-
-	.home :global(.region-label) {
-		color: var(--lamp-glow);
-	}
-
-	.path-split-grid {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 24px;
-		position: relative;
-		margin-top: 28px;
-
-		@media (max-width: 768px) {
-			grid-template-columns: 1fr;
-			gap: 16px;
-			margin-top: 0;
-		}
-
-		@media (min-width: 769px) {
-			&::before {
-				content: '';
-				position: absolute;
-				top: -28px;
-				left: 50%;
-				transform: translateX(-50%);
-				width: 2px;
-				height: 14px;
-				background: linear-gradient(180deg, transparent, var(--lamp-glow));
-				border-radius: 9999px;
-			}
-
-			&::after {
-				content: '';
-				position: absolute;
-				top: -14px;
-				left: 22%;
-				right: 22%;
-				height: 2px;
-				background: linear-gradient(
-					90deg,
-					transparent 0%,
-					var(--lamp-glow) 12%,
-					var(--lamp-glow) 88%,
-					transparent 100%
-				);
-				border-radius: 9999px;
-			}
-		}
-	}
-
-	/* labeled diagram regions, NOT cards: 1px stone-edge, no fill, no shadow */
-	.path-panel {
-		background: transparent;
-		border: 1px solid var(--stone-edge);
-		border-radius: 10px;
-		padding: 26px 26px;
-		display: flex;
-		flex-direction: column;
-		gap: 0;
-		box-shadow: none;
-		transition: border-color 0.18s ease;
-		position: relative;
-
-		&:hover {
-			border-color: var(--ink-dim);
-		}
-
-		@media (min-width: 769px) {
-			&::before {
-				content: '';
-				position: absolute;
-				top: -14px;
-				left: 50%;
-				transform: translateX(-50%);
-				width: 2px;
-				height: 14px;
-				background: linear-gradient(180deg, var(--lamp-glow), transparent);
-				border-radius: 9999px;
-			}
-		}
-
-		@media (max-width: 480px) {
-			padding: 22px 20px;
-		}
-	}
-
-	.home :global(.path-label) {
-		font-size: 12px;
+		z-index: 4;
+		top: 1.15rem;
+		right: 1.2rem;
+		color: rgba(250, 248, 244, 0.72);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.65rem;
 		letter-spacing: 0.08em;
 	}
 
-	.home :global(.path-label--no) {
-		color: var(--lamp-glow);
-	}
-
-	.home :global(.path-label--yes) {
-		color: var(--data-teal);
-	}
-
-	.path-body {
-		font-family: var(--font-display);
-		font-weight: 500;
-		font-size: 18px;
-		line-height: 1.5;
-		color: var(--ink-bright);
-		margin-top: 12px;
-		margin-bottom: 16px;
-
-		@media (max-width: 540px) {
-			font-size: 16px;
-		}
-	}
-
-	.path-cta {
-		display: grid;
-		grid-template-columns: auto minmax(0, 1fr) auto;
+	.image-caption {
+		position: absolute;
+		z-index: 4;
+		right: 1.5rem;
+		bottom: 1.5rem;
+		left: 1.5rem;
+		display: flex;
 		align-items: center;
-		gap: 12px;
-		width: 100%;
-		margin-top: auto;
-		padding: 14px 0 0;
-		font-family: var(--font-display);
-		font-size: 16px;
-		font-weight: 500;
-		line-height: 1.25;
-		border-top: 1px solid var(--stone-edge);
-		transition:
-			border-color 0.18s ease,
-			color 0.18s ease;
-
-		.path-cta-kicker {
-			font-size: 10px;
-			line-height: 1;
-			color: var(--ink-dim);
-			white-space: nowrap;
-		}
-
-		.path-cta-arrow {
-			display: inline-flex;
-			align-items: center;
-			justify-content: center;
-			width: 28px;
-			height: 28px;
-			font-family: var(--font-mono);
-			font-size: 16px;
-			line-height: 1;
-			border: 1px solid currentColor;
-			border-radius: 999px;
-			background: rgba(245, 158, 11, 0.07);
-			transition:
-				background 0.18s ease,
-				transform 0.18s ease;
-		}
-
-		.path-cta-label {
-			font-family: var(--font-display);
-			overflow-wrap: anywhere;
-		}
-
-		&:hover {
-			border-top-color: currentColor;
-		}
-
-		&:hover .path-cta-arrow {
-			background: var(--lamp-soft);
-			transform: translateY(1px);
-		}
-
-		@media (max-width: 768px) {
-			margin-top: 0;
-		}
-
-		@media (max-width: 480px) {
-			grid-template-columns: minmax(0, 1fr) auto;
-			gap: 10px;
-
-			.path-cta-kicker {
-				grid-column: 1 / -1;
-			}
-		}
+		gap: 0.75rem;
+		color: rgba(250, 248, 244, 0.9);
+		font-size: 0.9rem;
 	}
 
-	.path-cta--no {
-		color: var(--lamp-glow);
-
-		&:hover {
-			color: var(--lamp-deep);
-		}
+	.caption-mark {
+		width: 1.8rem;
+		height: 1px;
+		background: var(--lamp-glow);
 	}
 
-	.path-cta--yes {
-		color: var(--data-teal);
-
-		&:hover {
-			opacity: 0.78;
-		}
-
-		.path-cta-arrow {
-			background: rgba(13, 148, 136, 0.08);
-		}
-
-		&:hover .path-cta-arrow {
-			background: var(--data-teal-rgba, rgba(13, 148, 136, 0.14));
-			transform: translateX(1px);
-		}
-	}
-
-	/* ---------- locked-take preview inside YES panel ---------- */
-	.locked-preview {
-		display: flex;
-		flex-direction: column;
-		gap: 8px;
-		margin-bottom: 18px;
-		padding: 14px;
-		border: 1px dashed var(--stone-edge);
-		border-radius: 0.625rem;
-		background: rgba(0, 0, 0, 0);
-	}
-
-	.locked-take {
-		--type-stripe: var(--lamp-glow);
-		display: flex;
-		flex-direction: column;
-		gap: 4px;
-		padding: 10px 12px 12px;
-		border-left: 2px solid var(--type-stripe);
-		background: var(--stone-warm);
-		border-radius: 4px;
-	}
-
-	.locked-take-head {
+	.hero-figure figcaption {
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
-		gap: 12px;
+		gap: 1rem;
+		padding: 0.8rem 0.2rem 0;
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.65rem;
+		letter-spacing: 0.08em;
 	}
 
-	.locked-take-head .mono {
-		color: var(--type-stripe);
-		font-size: 10.5px;
+	.product-proof {
+		scroll-margin-top: 5.5rem;
+		padding: clamp(5rem, 9vw, 8rem) 0;
+		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 58%, transparent);
+		background: var(--night-mid);
 	}
 
-	.locked-take-status {
-		color: var(--ink-dim) !important;
+	.proof-layout {
+		display: grid;
+		grid-template-columns: minmax(17rem, 0.56fr) minmax(0, 1.44fr);
+		align-items: start;
+		gap: clamp(2.5rem, 7vw, 7rem);
 	}
 
-	.locked-take-hint {
-		font-family: var(--font-display);
-		font-size: 13.5px;
-		line-height: 1.45;
+	.section-heading h2 {
+		margin: 1.25rem 0 1.1rem;
+		color: var(--ink-bright);
+		font-size: clamp(2.35rem, 4.6vw, 4.35rem);
+		font-weight: 760;
+		letter-spacing: -0.045em;
+		line-height: 1.02;
+		text-wrap: balance;
+	}
+
+	.section-heading > p {
+		max-width: 45rem;
+		margin: 0;
 		color: var(--ink-mid);
-		font-style: italic;
+		font-size: 1.05rem;
+		line-height: 1.7;
 	}
 
-	/* =========================================================
-	  §03 PRIMER — THE 9 IN 9 LINES
-	  ========================================================= */
-	.primer {
-		padding: 96px 48px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
-		scroll-margin-top: 72px;
-
-		@media (max-width: 768px) {
-			padding: 64px 20px;
-		}
+	.question-stage {
+		display: grid;
+		gap: 0.85rem;
+		min-width: 0;
 	}
 
-	.primer-header {
-		max-width: 820px;
-		margin: 0 auto 36px;
-		text-align: center;
+	.proof-meta {
 		display: flex;
-		flex-direction: column;
 		align-items: center;
-		gap: 12px;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 0 0.2rem;
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.68rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
 	}
 
-	.primer-sub {
-		font-family: var(--font-display);
-		font-size: 16px;
-		line-height: 1.55;
-		color: var(--ink-mid);
-		max-width: 580px;
+	.status {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		color: var(--lamp-glow);
 	}
 
-	.primer-table-wrap {
-		max-width: 980px;
-		margin: 0 auto;
+	.question-display-card {
+		padding: clamp(1.7rem, 4vw, 2.6rem);
 		border: 1px solid var(--stone-edge);
 		border-radius: 1rem;
-		overflow: hidden;
 		background: var(--stone-warm);
 	}
 
-	.primer-table {
+	.question-display-card h3 {
+		max-width: 25ch;
+		margin: 0 auto;
+		color: var(--ink-bright);
+		font-size: clamp(1.55rem, 3vw, 2.35rem);
+		font-weight: 720;
+		letter-spacing: -0.035em;
+		line-height: 1.18;
+		text-align: center;
+		text-wrap: balance;
+	}
+
+	.question-composer {
+		overflow: hidden;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
+		border-radius: 1rem;
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--lamp-soft) 36%, transparent),
+				transparent 38%
+			),
+			color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
+	}
+
+	.composer-body {
+		padding: 1rem;
+	}
+
+	.composer-heading {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 1rem;
+		margin-bottom: 0.55rem;
+	}
+
+	.composer-heading label {
+		color: var(--ink-bright);
+		font-size: 0.875rem;
+		font-weight: 600;
+	}
+
+	.composer-heading span {
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.65rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+
+	.question-composer textarea {
 		display: block;
 		width: 100%;
-	}
-
-	.primer-row {
-		--type-stripe: var(--lamp-glow);
-		display: grid;
-		grid-template-columns: 80px 1.4fr 1.6fr;
-		align-items: center;
-		gap: 16px;
-		padding: 16px 22px 16px 19px;
-		border-bottom: 1px solid var(--stone-edge);
-		border-left: 3px solid var(--type-stripe);
-		transition: background 0.18s ease;
-
-		&:last-child {
-			border-bottom: none;
-		}
-
-		&:hover {
-			background: var(--lamp-soft);
-		}
-
-		@media (max-width: 640px) {
-			grid-template-columns: 56px 1.2fr 1.4fr;
-			gap: 12px;
-			padding: 14px 14px 14px 11px;
-		}
-
-		@media (max-width: 480px) {
-			grid-template-columns: 44px 1.1fr 1.2fr;
-			gap: 10px;
-			padding: 12px 10px 12px 7px;
-		}
-	}
-
-	.primer-row--head {
-		border-left-color: var(--stone-edge);
-		background: var(--night-mid);
-
-		&:hover {
-			background: var(--night-mid);
-		}
-	}
-
-	.primer-col-num {
-		font-family: var(--font-mono);
-		font-size: 14px;
-		color: var(--ink-dim);
-		letter-spacing: 0.06em;
-
-		.primer-row--head & {
-			color: var(--ink-mid);
-			font-size: 11px;
-		}
-	}
-
-	.primer-col-type {
-		font-family: var(--font-display);
-		font-weight: 600;
-		font-size: 16px;
-		line-height: 1.3;
+		min-height: 7.5rem;
+		resize: vertical;
+		padding: 1rem;
+		border: 1px solid var(--stone-warm);
+		border-radius: 0.625rem;
+		outline: 0;
+		background: color-mix(in srgb, var(--night-deep) 80%, transparent);
 		color: var(--ink-bright);
-		text-transform: uppercase;
-		letter-spacing: 0.04em;
-
-		.primer-row--head & {
-			font-family: var(--font-mono);
-			font-size: 11px;
-			font-weight: 500;
-			color: var(--ink-mid);
-			letter-spacing: 0.08em;
-		}
-
-		@media (max-width: 480px) {
-			font-size: 14px;
-			letter-spacing: 0.02em;
-		}
+		font: inherit;
+		font-size: 1rem;
+		line-height: 1.5;
 	}
 
-	.primer-col-read {
-		font-family: var(--font-display);
-		font-size: 16px;
-		line-height: 1.4;
+	.question-composer textarea::placeholder {
 		color: var(--ink-mid);
-		font-style: italic;
-		font-weight: 400;
-
-		.primer-row--head & {
-			font-family: var(--font-mono);
-			font-size: 11px;
-			font-weight: 500;
-			font-style: normal;
-			color: var(--ink-mid);
-			letter-spacing: 0.08em;
-		}
-
-		@media (max-width: 480px) {
-			font-size: 14px;
-		}
 	}
 
-	/* =========================================================
-	  §04 FLOW
-	  ========================================================= */
-	.flow {
-		position: relative;
-		padding: 96px 48px;
-		background: var(--night-mid);
-		overflow: hidden;
-		border-top: 1px solid var(--stone-edge);
-
-		@media (max-width: 768px) {
-			padding: 64px 20px;
-		}
+	.question-composer textarea:disabled {
+		cursor: wait;
+		opacity: 0.72;
 	}
 
-	.flow-pool {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		background: radial-gradient(
-			ellipse 70% 55% at 50% 30%,
-			rgba(var(--pool-rgb), var(--pool-alpha-mid)) 0%,
-			transparent 55%
-		);
+	:global(.home-reimagined .question-composer textarea:focus-visible) {
+		border-color: var(--lamp-glow);
+		box-shadow: 0 0 0 1px var(--lamp-glow);
 	}
 
-	.flow-header {
-		position: relative;
-		z-index: 1;
-		max-width: 820px;
-		margin: 0 auto 48px;
-		text-align: center;
+	.composer-footer {
 		display: flex;
-		flex-direction: column;
 		align-items: center;
-		gap: 12px;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 0.9rem 1rem;
+		border-top: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
+		background: color-mix(in srgb, var(--night-deep) 74%, transparent);
 	}
 
-	.flow-sub {
-		font-family: var(--font-display);
-		font-size: 16px;
+	.answer-foot {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		margin: 0;
+		color: var(--ink-dim);
+		font-size: 0.67rem;
+		line-height: 1.35;
+	}
+
+	.composer-action {
+		flex: 0 0 auto;
+	}
+
+	.composer-error {
+		margin: 0;
+		padding: 0.85rem 1rem;
+		border-top: 1px solid color-mix(in srgb, var(--error-text) 35%, var(--stone-edge));
+		color: var(--error-text);
+		font-size: 0.82rem;
+		line-height: 1.45;
+	}
+
+	.submitted-answer {
+		padding: 1.1rem;
+	}
+
+	.submitted-answer:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 3px;
+	}
+
+	.submitted-answer-head {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+	}
+
+	.submitted-answer-head > div {
+		display: grid;
+		gap: 0.15rem;
+	}
+
+	.submitted-answer-head strong {
+		color: var(--ink-bright);
+		font-size: 0.92rem;
+	}
+
+	.submitted-answer-head div > span {
+		color: var(--ink-dim);
+		font-size: 0.76rem;
+	}
+
+	.submitted-check {
+		display: grid;
+		width: 2.35rem;
+		height: 2.35rem;
+		flex: 0 0 2.35rem;
+		place-items: center;
+		border: 1px solid color-mix(in srgb, var(--success-text) 35%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--success-text) 8%, var(--night-mid));
+		color: var(--success-text);
+	}
+
+	.submitted-answer blockquote {
+		margin: 1rem 0 0;
+		padding: 0.9rem 1rem;
+		border-left: 3px solid var(--lamp-glow);
+		background: color-mix(in srgb, var(--night-deep) 72%, transparent);
+		color: var(--ink-bright);
+		font-size: 0.95rem;
 		line-height: 1.55;
-		color: var(--ink-mid);
-		max-width: 580px;
 	}
 
-	.flow-story {
+	.mirror-read {
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--stone-edge);
+	}
+
+	.mirror-read > span,
+	.mirror-read small {
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.65rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	.mirror-read > span {
+		color: var(--lamp-glow);
+	}
+
+	.mirror-read p {
+		margin: 0.5rem 0;
+		color: var(--ink-mid);
+		font-size: 0.9rem;
+		line-height: 1.55;
+	}
+
+	.mirror-read small {
+		color: var(--ink-dim);
+	}
+
+	.takes-shell {
+		overflow: hidden;
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--stone-warm);
+	}
+
+	.takes-shell.is-revealed {
+		border-color: color-mix(in srgb, var(--lamp-glow) 34%, var(--stone-edge));
+	}
+
+	.takes-nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 0.55rem;
+		border-bottom: 1px solid var(--stone-edge);
+		background: var(--night-mid);
+	}
+
+	.takes-tab {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		min-width: 0;
+		padding: 0.7rem 0.8rem;
+		border-radius: 0.625rem;
+		background: var(--lamp-soft);
+		color: var(--ink-bright);
+		font-size: 0.88rem;
+		font-weight: 600;
+		box-shadow: inset 0 -2px 0 var(--lamp-glow);
+	}
+
+	.takes-icon {
+		display: inline-flex;
+		flex: 0 0 auto;
+		color: var(--lamp-glow);
+	}
+
+	.takes-state {
+		min-width: 0;
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.64rem;
+		letter-spacing: 0.05em;
+		text-align: right;
+		text-transform: uppercase;
+	}
+
+	.takes-body {
 		position: relative;
-		z-index: 1;
+		min-height: 17.2rem;
+		padding: 1rem;
+		background: radial-gradient(circle at 50% 50%, var(--lamp-soft), transparent 64%);
+	}
+
+	.blurred-perspectives {
+		display: grid;
+		gap: 0.7rem;
+		filter: blur(5px);
+		opacity: 0.38;
+		pointer-events: none;
+		transform: scale(0.985);
+		user-select: none;
+	}
+
+	.lock-message {
+		position: absolute;
+		inset: 50% auto auto 50%;
+		display: flex;
+		align-items: center;
+		gap: 0.7rem;
+		width: min(calc(100% - 2rem), 22rem);
+		padding: 0.9rem 1rem;
+		transform: translate(-50%, -50%);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep));
+		color: var(--ink-mid);
+		font-size: 0.8rem;
+		line-height: 1.45;
+		box-shadow: var(--shadow-sm);
+	}
+
+	.lock-icon {
+		display: grid;
+		width: 2.25rem;
+		height: 2.25rem;
+		flex: 0 0 2.25rem;
+		place-items: center;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		background: var(--night-mid);
+		color: var(--lamp-glow);
+	}
+
+	.lock-message strong {
+		display: block;
+		color: var(--ink-bright);
+	}
+
+	.perspectives {
+		display: grid;
+		gap: 0.7rem;
+	}
+
+	.chorus-perspectives {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.perspective {
+		position: relative;
+		overflow: hidden;
+		padding: 1rem 1rem 1rem 1.15rem;
+		border: 1px solid color-mix(in srgb, var(--perspective-color) 38%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--perspective-color) 8%, var(--stone-warm));
+	}
+
+	.perspective::before {
+		position: absolute;
+		inset: 0 auto 0 0;
+		width: 3px;
+		background: var(--perspective-color);
+		content: '';
+	}
+
+	.perspective-label {
+		color: var(--perspective-color);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.65rem;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	.perspective-meta {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 0.75rem;
+	}
+
+	.perspective-meta small {
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.58rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+
+	.perspective p {
+		margin: 0.45rem 0 0;
+		color: var(--ink-bright);
+		font-size: 0.83rem;
+		line-height: 1.45;
+	}
+
+	.perspective--anger {
+		--perspective-color: var(--preview-anger);
+	}
+
+	.perspective--shame {
+		--perspective-color: var(--preview-shame);
+	}
+
+	.perspective--fear {
+		--perspective-color: var(--preview-fear);
+	}
+
+	.proof-card-foot {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1.5rem;
+		padding: 0.85rem 0.2rem 0;
+		border-top: 1px solid var(--stone-edge);
+	}
+
+	.proof-card-foot p {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+	}
+
+	.proof-card-foot strong {
+		color: var(--ink-bright);
+	}
+
+	.centers-section {
+		position: relative;
+		padding: clamp(5.5rem, 10vw, 9.5rem) 0;
+		background: var(--night-deep);
+	}
+
+	.center-orbit {
+		position: absolute;
+		top: 13rem;
+		left: 50%;
+		width: min(76vw, 64rem);
+		aspect-ratio: 1;
+		transform: translateX(-50%);
+		border: 1px solid color-mix(in srgb, var(--stone-edge) 24%, transparent);
+		border-radius: 9999px;
+		background: radial-gradient(circle, var(--data-teal-rgba), transparent 63%);
+		pointer-events: none;
+	}
+
+	.centers-heading {
+		position: relative;
+		max-width: 62rem;
+		margin: 0 auto clamp(3rem, 6vw, 5rem);
+		text-align: center;
+	}
+
+	.centers-heading > p {
+		margin-inline: auto;
+	}
+
+	.center-grid {
+		position: relative;
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
-		max-width: 1100px;
-		margin: 0 auto;
-		padding: 0;
-		border-block: 1px solid var(--stone-edge);
-		list-style: none;
+		gap: 1rem;
 	}
 
-	.flow-story::before {
-		content: '';
-		position: absolute;
-		top: 31px;
-		left: calc(100% / 6);
-		right: calc(100% / 6);
-		height: 1px;
-		background: linear-gradient(
-			90deg,
-			color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-edge)),
-			color-mix(in srgb, var(--data-teal) 55%, var(--stone-edge)),
-			var(--stone-edge)
-		);
-	}
-
-	.flow-story::after {
-		content: '';
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		opacity: 0;
-		background: radial-gradient(
-			460px circle at var(--gathering-x, 50%) var(--gathering-y, 50%),
-			color-mix(in srgb, var(--lamp-glow) 12%, transparent) 0%,
-			color-mix(in srgb, var(--data-teal) 4%, transparent) 42%,
-			transparent 70%
-		);
-		transition: opacity 420ms ease;
-	}
-
-	.flow-story:global([data-illuminated='true'])::after {
-		opacity: 1;
-	}
-
-	.flow-beat {
-		position: relative;
-		z-index: 1;
+	.center-card {
+		--center-color: var(--lamp-glow);
+		--center-soft: var(--lamp-soft);
 		min-width: 0;
-		padding: 86px 34px 42px;
+		padding: clamp(1.4rem, 3vw, 2.25rem);
+		border: 1px solid color-mix(in srgb, var(--center-color) 34%, var(--stone-edge));
+		border-radius: 1rem;
+		background: linear-gradient(180deg, var(--center-soft), transparent 44%), var(--stone-warm);
 	}
 
-	.flow-beat + .flow-beat {
-		border-left: 1px solid var(--stone-edge);
+	.center--anger {
+		--center-color: var(--preview-anger);
+		--center-soft: var(--preview-anger-soft);
 	}
 
-	.flow-beat-marker {
-		position: absolute;
-		top: 18px;
-		left: 50%;
-		display: grid;
-		width: 28px;
-		height: 28px;
-		place-items: center;
-		translate: -50% 0;
-		border: 1px solid var(--stone-edge);
-		border-radius: 50%;
-		background: var(--night-mid);
+	.center--shame {
+		--center-color: var(--preview-shame);
+		--center-soft: var(--preview-shame-soft);
+	}
+
+	.center--fear {
+		--center-color: var(--preview-fear);
+		--center-soft: var(--preview-fear-soft);
+	}
+
+	.center-card-top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+	}
+
+	.center-index {
+		color: var(--center-color);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.75rem;
+		letter-spacing: 0.08em;
+	}
+
+	.center-types {
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.65rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+
+	.center-label {
+		margin: clamp(2.8rem, 6vw, 5.25rem) 0 0.5rem;
+		color: var(--ink-dim);
+		font-size: 0.74rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.center-card h3 {
+		margin: 0;
+		color: var(--center-color);
+		font-size: clamp(2.15rem, 4vw, 3.6rem);
+		font-weight: 760;
+		letter-spacing: -0.045em;
+	}
+
+	.center-question {
+		min-height: 6.2rem;
+		margin: 1.1rem 0 0;
+		color: var(--ink-bright);
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 1.5;
+	}
+
+	.center-detail {
+		margin: 1.4rem 0 0;
+		padding-top: 1.2rem;
+		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
 		color: var(--ink-mid);
-		font-family: var(--font-mono);
-		font-size: 9px;
-		line-height: 1;
-		letter-spacing: 0.04em;
+		font-size: 0.88rem;
+		line-height: 1.62;
 	}
 
-	.flow-beat--speak .flow-beat-marker {
-		border-color: color-mix(in srgb, var(--lamp-glow) 58%, var(--stone-edge));
+	.centers-note {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.75rem;
+		margin: 2rem 0 0;
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.7rem;
+		letter-spacing: 0.06em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.centers-note span {
+		width: 0.35rem;
+		height: 0.35rem;
+		border-radius: 9999px;
+		background: var(--data-teal);
+	}
+
+	.paths-section {
+		padding: clamp(5rem, 9vw, 8.5rem) 0;
+		border-block: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
+		background: var(--night-mid);
+	}
+
+	.paths-heading {
+		display: grid;
+		grid-template-columns: 0.42fr 1.58fr;
+		align-items: end;
+		gap: 2rem;
+		margin-bottom: clamp(2.5rem, 5vw, 4rem);
+	}
+
+	.paths-heading h2 {
+		margin: 0;
+	}
+
+	.path-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1rem;
+	}
+
+	.path-card {
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		gap: 1.5rem;
+		min-width: 0;
+		padding: clamp(1.5rem, 4vw, 2.5rem);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 28%, var(--stone-edge));
+		border-radius: 1rem;
+		background: var(--stone-warm);
+	}
+
+	.path-card--data {
+		border-color: color-mix(in srgb, var(--data-teal) 34%, var(--stone-edge));
+	}
+
+	.path-number {
+		display: grid;
+		width: 2.75rem;
+		height: 2.75rem;
+		place-items: center;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
 		color: var(--lamp-glow);
-		box-shadow: 0 0 18px rgba(var(--pool-rgb), var(--pool-alpha-low));
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.8rem;
+		background: var(--night-mid);
 	}
 
-	.flow-beat--listen .flow-beat-marker {
-		border-color: color-mix(in srgb, var(--data-teal) 52%, var(--stone-edge));
+	.path-card--data .path-number {
 		color: var(--data-teal);
 	}
 
-	.flow-beat-kicker {
-		margin: 0 0 14px;
-		color: var(--ink-mid);
-		font-size: 11px;
-		line-height: 1.35;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-	}
-
-	.flow-beat h3 {
-		margin: 0 0 14px;
-		color: var(--ink-bright);
-		font-family: var(--font-display);
-		font-size: clamp(1.25rem, 1.8vw, 1.6rem);
-		font-weight: 500;
-		line-height: 1.15;
-		letter-spacing: -0.015em;
-	}
-
-	.flow-beat > p:last-child {
+	.path-label {
 		margin: 0;
-		color: var(--ink-mid);
-		font-family: var(--font-display);
-		font-size: 15px;
-		line-height: 1.6;
-	}
-
-	.flow-manifesto {
-		position: relative;
-		z-index: 1;
-		margin: 28px auto 0;
 		color: var(--ink-dim);
-		font-size: 10px;
-		letter-spacing: 0.14em;
-		line-height: 1.6;
-		text-align: center;
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.7rem;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
 	}
 
-	.flow-manifesto span {
-		margin-inline: 0.55em;
-		color: var(--lamp-glow);
+	.path-content h3 {
+		margin: 0.8rem 0 0;
+		color: var(--ink-bright);
+		font-size: clamp(1.75rem, 3vw, 2.55rem);
+		font-weight: 720;
+		letter-spacing: -0.035em;
+		line-height: 1.08;
 	}
 
-	:global(:root.light) .home .flow-story::after {
-		background: radial-gradient(
-			460px circle at var(--gathering-x, 50%) var(--gathering-y, 50%),
-			color-mix(in srgb, var(--lamp-glow) 8%, transparent) 0%,
-			color-mix(in srgb, var(--data-teal) 3%, transparent) 42%,
-			transparent 70%
-		);
+	.path-content > p:not(.path-label) {
+		max-width: 34rem;
+		min-height: 5.5rem;
+		margin: 1rem 0 1.75rem;
+		color: var(--ink-mid);
+		font-size: 0.98rem;
+		line-height: 1.65;
 	}
 
-	@media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
-		.flow-story::after {
-			display: none;
+	.final-section {
+		position: relative;
+		padding: clamp(6rem, 12vw, 11rem) 0 3rem;
+		background: var(--night-deep);
+	}
+
+	.final-pool {
+		position: absolute;
+		top: 2rem;
+		left: 50%;
+		width: min(78vw, 60rem);
+		height: 34rem;
+		transform: translateX(-50%);
+		background: radial-gradient(ellipse, rgba(245, 158, 11, 0.14), transparent 66%);
+		pointer-events: none;
+	}
+
+	.final-inner {
+		position: relative;
+	}
+
+	.final-copy {
+		max-width: 68rem;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.final-copy h2 {
+		margin: 1.35rem auto 1.2rem;
+		color: var(--ink-bright);
+		font-size: clamp(3rem, 7vw, 6.5rem);
+		font-weight: 790;
+		letter-spacing: -0.06em;
+		line-height: 0.96;
+		text-wrap: balance;
+	}
+
+	.final-copy p {
+		margin: 0 0 2rem;
+		color: var(--ink-mid);
+		font-size: 1.1rem;
+	}
+
+	.deeper-row {
+		display: grid;
+		grid-template-columns: 0.7fr repeat(3, 1fr);
+		align-items: center;
+		margin-top: clamp(5rem, 10vw, 9rem);
+		border-block: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
+	}
+
+	.deeper-label,
+	.deeper-row a {
+		padding: 1.25rem 1rem;
+	}
+
+	.deeper-label {
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.7rem;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.deeper-row a {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		border-left: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
+		color: var(--ink-mid);
+		font-size: 0.84rem;
+		text-decoration: none;
+	}
+
+	:global(.home-reimagined .deeper-row a:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: -2px;
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		.era-image--ancient {
+			will-change: opacity;
+			animation: era-dissolve 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+		}
+
+		.era-frame:hover .era-image--ancient,
+		.era-frame.is-paused .era-image--ancient {
+			animation-play-state: paused;
+		}
+
+		.takes-shell,
+		.perspective,
+		.deeper-row a {
+			transition:
+				opacity 280ms ease,
+				background-color 180ms ease,
+				border-color 180ms ease,
+				color 180ms ease;
+		}
+
+		.takes-shell.is-revealed .perspective {
+			animation: perspective-enter 420ms both;
+		}
+
+		.takes-shell.is-revealed .perspective:nth-child(2) {
+			animation-delay: 70ms;
+		}
+
+		.takes-shell.is-revealed .perspective:nth-child(3) {
+			animation-delay: 140ms;
+		}
+
+		.deeper-row a:hover {
+			background: var(--stone-warm);
+			color: var(--ink-bright);
 		}
 	}
 
-	@media (max-width: 768px) {
-		.flow-header {
-			margin-bottom: 40px;
+	@keyframes era-dissolve {
+		0%,
+		36% {
+			opacity: 0;
 		}
 
-		.flow-story {
+		50%,
+		86% {
+			opacity: 1;
+		}
+
+		100% {
+			opacity: 0;
+		}
+	}
+
+	@keyframes perspective-enter {
+		from {
+			transform: translateY(8px);
+			opacity: 0;
+		}
+		to {
+			transform: translateY(0);
+			opacity: 1;
+		}
+	}
+
+	@media (max-width: 72rem) {
+		.hero-grid {
+			grid-template-columns: minmax(17rem, 0.72fr) minmax(30rem, 1.28fr);
+			gap: 3rem;
+		}
+
+		.proof-layout {
 			grid-template-columns: 1fr;
-			border-block: 0;
-			border-left: 1px solid var(--stone-edge);
 		}
 
-		.flow-story::before {
-			display: none;
+		.proof-heading {
+			max-width: 52rem;
+		}
+	}
+
+	@media (max-width: 61rem) {
+		.hero-grid {
+			grid-template-columns: 1fr;
 		}
 
-		.flow-beat {
-			padding: 2px 0 32px 42px;
+		.hero-copy {
+			max-width: 48rem;
 		}
 
-		.flow-beat + .flow-beat {
-			padding-top: 30px;
-			border-top: 1px solid var(--stone-edge);
+		.hero h1 {
+			max-width: 11ch;
+		}
+
+		.hero-figure {
+			width: 100%;
+		}
+
+		.center-grid,
+		.path-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.center-question,
+		.path-content > p:not(.path-label) {
+			min-height: auto;
+		}
+
+		.center-label {
+			margin-top: 2.5rem;
+		}
+
+		.paths-heading {
+			grid-template-columns: 1fr;
+		}
+
+		.deeper-row {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		.deeper-row a:nth-of-type(2) {
 			border-left: 0;
 		}
 
-		.flow-beat:last-child {
-			padding-bottom: 2px;
-		}
-
-		.flow-beat-marker {
-			top: 0;
-			left: 0;
-			translate: -50% 0;
-		}
-
-		.flow-beat + .flow-beat .flow-beat-marker {
-			top: 28px;
-		}
-
-		.flow-beat h3 {
-			font-size: 21px;
-		}
-
-		.flow-beat > p:last-child {
-			font-size: 16px;
-		}
-
-		.flow-manifesto {
-			margin-top: 38px;
-			max-width: 290px;
+		.deeper-row a:nth-of-type(3) {
+			border-top: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
 		}
 	}
 
-	/* =========================================================
-	  §05 OPEN FLOOR
-	  ========================================================= */
-	.open-floor {
-		position: relative;
-		padding: 96px 48px;
-		background: var(--night-deep);
-		overflow: hidden;
-		border-top: 1px solid var(--stone-edge);
-		scroll-margin-top: 72px;
-
-		@media (max-width: 768px) {
-			padding: 64px 20px;
-		}
-	}
-
-	.open-floor-pool {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		background: radial-gradient(
-			ellipse 80% 60% at 50% 0%,
-			rgba(var(--pool-rgb), var(--pool-alpha-mid)) 0%,
-			transparent 55%
-		);
-	}
-
-	.open-floor-header {
-		position: relative;
-		z-index: 1;
-		max-width: 820px;
-		margin: 0 auto 56px;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 12px;
-	}
-
-	.open-floor-kicker {
-		color: var(--ink-dim);
-	}
-
-	.open-floor-question {
-		font-family: var(--font-display);
-		font-style: italic;
-		font-weight: 500;
-		font-size: clamp(24px, 3.4vw, 36px);
-		line-height: 1.25;
-		color: var(--ink-bright);
-		padding: 16px 0 16px 24px;
-		margin-top: 12px;
-		border-left: 3px solid var(--lamp-glow);
-		text-align: left;
-		max-width: 720px;
-		letter-spacing: -0.015em;
-	}
-
-	.open-floor-takes {
-		position: relative;
-		z-index: 1;
-		max-width: 880px;
-		margin: 0 auto;
-		display: flex;
-		flex-direction: column;
-		gap: 18px;
-	}
-
-	.take-card {
-		--type-stripe: var(--lamp-glow);
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-left: 3px solid var(--type-stripe);
-		border-radius: 1rem;
-		padding: 22px 26px;
-		display: flex;
-		flex-direction: column;
-		gap: 14px;
-		transition:
-			border-color 0.2s ease,
-			transform 0.2s ease;
-
-		&:hover {
-			border-color: var(--type-stripe);
+	@media (max-width: 46rem) {
+		.shell {
+			width: min(100% - 2rem, 86rem);
 		}
 
-		@media (max-width: 540px) {
-			padding: 18px 20px;
-		}
-	}
-
-	.take-card-top {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 12px;
-	}
-
-	.take-card-label {
-		color: var(--type-stripe);
-	}
-
-	.take-body {
-		font-family: var(--font-display);
-		font-size: 17px;
-		line-height: 1.55;
-		color: var(--ink-bright);
-		font-style: italic;
-	}
-
-	.take-meta {
-		display: flex;
-		align-items: center;
-		gap: 10px;
-		flex-wrap: wrap;
-		padding-top: 8px;
-		border-top: 1px dashed var(--stone-mid);
-
-		.mono {
-			color: var(--ink-dim);
-		}
-	}
-
-	.open-floor-cta-row {
-		position: relative;
-		z-index: 1;
-		max-width: 880px;
-		margin: 40px auto 0;
-		display: flex;
-		flex-direction: column;
-		gap: 14px;
-		align-items: center;
-		text-align: center;
-	}
-
-	.open-floor-footnote {
-		color: var(--ink-dim);
-		text-transform: none;
-		letter-spacing: 0.04em;
-		font-size: 11.5px;
-	}
-
-	/* =========================================================
-	  §06 LIBRARY
-	  ========================================================= */
-	.library {
-		padding: 96px 48px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
-
-		@media (max-width: 768px) {
-			padding: 64px 20px;
-		}
-	}
-
-	.library-header {
-		max-width: 820px;
-		margin: 0 auto 48px;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 12px;
-	}
-
-	.library-sub {
-		font-family: var(--font-display);
-		font-size: 17px;
-		line-height: 1.55;
-		color: var(--ink-mid);
-		max-width: 720px;
-	}
-
-	.library-kicker {
-		color: var(--ink-dim);
-		margin-top: 4px;
-	}
-
-	.library-grid {
-		max-width: 1280px;
-		margin: 0 auto;
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 22px;
-
-		@media (max-width: 968px) {
-			grid-template-columns: repeat(2, 1fr);
+		.hero {
+			padding-top: 4.25rem;
 		}
 
-		@media (max-width: 640px) {
-			/* 2-across (was 3) — 3-across forced 12.5px names below legibility
-			   on small phones. Design audit 2026-06-10. */
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-			gap: 12px;
-		}
-	}
-
-	.library-card {
-		--type-stripe: var(--lamp-glow);
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		min-width: 0;
-		transition:
-			background 0.2s ease,
-			border-color 0.2s ease;
-
-		&:hover {
-			background: var(--stone-mid);
-			border-color: var(--type-stripe);
+		.hero h1 {
+			font-size: clamp(3rem, 15vw, 4.35rem);
 		}
 
-		@media (prefers-reduced-motion: no-preference) {
-			transition:
-				background 0.2s ease,
-				border-color 0.2s ease,
-				transform 0.2s ease;
-
-			&:hover {
-				transform: translateY(-2px);
-			}
-		}
-	}
-
-	.library-image-wrap {
-		position: relative;
-		border-bottom: 1px solid var(--stone-edge);
-		border-top: 3px solid var(--type-stripe);
-	}
-
-	.library-image {
-		display: block;
-		width: 100%;
-		aspect-ratio: 4 / 3;
-		object-fit: cover;
-		object-position: center 25%;
-		filter: contrast(1.05) brightness(0.96) saturate(0.92);
-	}
-
-	.library-type-chip {
-		display: none;
-	}
-
-	:global(:root.light) .home .library-image {
-		filter: contrast(1.02) brightness(1) saturate(0.96);
-	}
-
-	.library-image-stub {
-		aspect-ratio: 4 / 3;
-		background: var(--stone-mid);
-		background-image: repeating-linear-gradient(
-			45deg,
-			transparent 0,
-			transparent 14px,
-			rgba(var(--pool-rgb), 0.04) 14px,
-			rgba(var(--pool-rgb), 0.04) 15px
-		);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-		.mono {
-			color: var(--ink-dim);
-			font-size: 11px;
-		}
-	}
-
-	.library-card-body {
-		padding: 18px 20px 22px;
-		display: flex;
-		flex-direction: column;
-		gap: 8px;
-		flex: 1;
-	}
-
-	.library-id {
-		color: var(--type-stripe);
-		font-size: 10.5px;
-	}
-
-	.library-name {
-		font-family: var(--font-display);
-		font-weight: 700;
-		font-size: 24px;
-		line-height: 1.15;
-		color: var(--ink-bright);
-		letter-spacing: -0.02em;
-	}
-
-	.library-subtitle {
-		font-family: var(--font-display);
-		font-size: 14px;
-		line-height: 1.5;
-		color: var(--ink-mid);
-	}
-
-	@media (max-width: 640px) {
-		.library-header {
-			margin-bottom: 32px;
+		.hero-action {
+			align-items: flex-start;
+			flex-direction: column;
 		}
 
-		.library-grid {
-			max-width: 420px;
+		.hero-action p {
+			padding-left: 0.1rem;
 		}
 
-		.library-card {
-			border-radius: 1rem;
-
-			&:hover {
-				transform: none;
-			}
-		}
-
-		.library-image-wrap {
-			border-top-width: 2px;
-		}
-
-		.library-image,
-		.library-image-stub {
-			aspect-ratio: 1 / 1;
-		}
-
-		.library-type-chip {
-			position: absolute;
-			top: 6px;
-			left: 6px;
-			z-index: 1;
-			display: inline-flex;
-			align-items: center;
-			justify-content: center;
-			min-width: 24px;
-			height: 20px;
-			padding: 0 6px;
-			border: 1px solid var(--type-stripe);
-			border-radius: 999px;
-			background: rgba(10, 8, 7, 0.78);
-			color: var(--type-stripe);
-			font-size: 9px;
-			letter-spacing: 0.04em;
-			line-height: 1;
-			backdrop-filter: blur(4px);
-		}
-
-		:global(:root.light) .home .library-type-chip {
-			background: rgba(250, 248, 244, 0.84);
-		}
-
-		.library-card-body {
-			min-height: 66px;
-			padding: 8px 8px 10px;
-			gap: 4px;
-		}
-
-		.library-id {
+		.image-coordinate,
+		.image-caption {
 			display: none;
 		}
 
-		.library-name {
-			display: -webkit-box;
-			overflow: hidden;
-			font-size: 15px;
-			line-height: 1.2;
-			letter-spacing: 0;
-			-webkit-box-orient: vertical;
-			-webkit-line-clamp: 2;
-			line-clamp: 2;
+		.hero-figure figcaption span:last-child {
+			font-size: 0.55rem;
+			letter-spacing: 0.03em;
 		}
 
-		.library-subtitle {
-			overflow: hidden;
-			font-size: 12px;
-			line-height: 1.3;
-			text-overflow: ellipsis;
-			white-space: nowrap;
+		.proof-meta {
+			align-items: flex-start;
+			flex-direction: column;
 		}
 
-		.library .library-cta-row {
-			margin-top: 28px;
-		}
-	}
-
-	.library-cta-row {
-		max-width: 1280px;
-		margin: 40px auto 0;
-		text-align: center;
-		display: flex;
-		justify-content: center;
-	}
-
-	/* =========================================================
-	  §07 BY THE NUMBERS
-	  ========================================================= */
-	.compiled {
-		position: relative;
-		padding: 96px 48px;
-		background: var(--night-mid);
-		overflow: hidden;
-		border-top: 1px solid var(--stone-edge);
-
-		@media (max-width: 768px) {
-			padding: 64px 20px;
-		}
-	}
-
-	.compiled-pool {
-		position: absolute;
-		inset: 0;
-		pointer-events: none;
-		background: radial-gradient(
-			ellipse 80% 60% at 50% 50%,
-			rgba(var(--pool-rgb), var(--pool-alpha-mid)) 0%,
-			transparent 60%
-		);
-	}
-
-	.compiled-header {
-		position: relative;
-		z-index: 1;
-		max-width: 820px;
-		margin: 0 auto 48px;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 8px;
-	}
-
-	.compiled-grid {
-		position: relative;
-		z-index: 1;
-		max-width: 1180px;
-		margin: 0 auto;
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 18px;
-
-		@media (max-width: 968px) {
-			grid-template-columns: repeat(2, 1fr);
+		.question-display-card {
+			padding-inline: 1.1rem;
 		}
 
-		@media (max-width: 540px) {
+		.composer-footer {
+			align-items: stretch;
+			flex-direction: column;
+		}
+
+		.composer-action {
+			display: grid;
+		}
+
+		:global(.home-reimagined .composer-action .btn) {
+			width: 100%;
+		}
+
+		.takes-state {
+			max-width: 7.5rem;
+		}
+
+		.chorus-perspectives {
 			grid-template-columns: 1fr;
 		}
-	}
 
-	.compiled-stat {
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 16px;
-		padding: 24px;
-		display: flex;
-		flex-direction: column;
-		gap: 12px;
-		text-align: left;
-	}
+		.proof-card-foot {
+			align-items: stretch;
+			flex-direction: column;
+		}
 
-	.compiled-stat-label {
-		color: var(--ink-dim);
-		font-size: 11px;
-	}
+		.center-card,
+		.path-card {
+			padding: 1.25rem;
+		}
 
-	.compiled-stat-value {
-		font-family: var(--font-display);
-		font-weight: 800;
-		font-size: clamp(36px, 4.5vw, 56px);
-		line-height: 1;
-		color: var(--ink-bright);
-		letter-spacing: -0.03em;
-		font-feature-settings: 'tnum';
-	}
+		.path-card {
+			grid-template-columns: 1fr;
+		}
 
-	.compiled-stat-annotation {
-		color: var(--lamp-glow);
-		font-size: 10.5px;
-		text-transform: lowercase;
-		letter-spacing: 0.08em;
-	}
+		.center-orbit {
+			display: none;
+		}
 
-	/* =========================================================
-	  §08 COACHING (production-only quiet CTA)
-	  ========================================================= */
-	.coaching {
-		position: relative;
-		padding: 96px 48px;
-		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
+		.deeper-row {
+			grid-template-columns: 1fr;
+		}
 
-		@media (max-width: 768px) {
-			padding: 64px 20px;
+		.deeper-label {
+			padding-bottom: 0.75rem;
+		}
+
+		.deeper-row a,
+		.deeper-row a:nth-of-type(2),
+		.deeper-row a:nth-of-type(3) {
+			border-top: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
+			border-left: 0;
 		}
 	}
 
-	.coaching-inner {
-		max-width: 720px;
-		margin: 0 auto;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 16px;
-	}
+	@media (max-width: 25rem) {
+		.proof-line {
+			align-items: flex-start;
+			flex-direction: column;
+		}
 
-	.coaching-sub {
-		font-family: var(--font-display);
-		font-size: 17px;
-		line-height: 1.55;
-		color: var(--ink-mid);
-		max-width: 580px;
-	}
+		.question-display-card h3 {
+			font-size: 1.85rem;
+		}
 
-	.coaching-cta-row {
-		margin-top: 8px;
-		display: flex;
-		justify-content: center;
+		.answer-foot {
+			align-items: flex-start;
+			flex-direction: column;
+		}
 	}
 </style>

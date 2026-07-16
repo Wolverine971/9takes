@@ -1,11 +1,11 @@
 <!-- docs/design/hyperplexed/HOME_REIMAGINED_PREVIEW_2026-07-13.md -->
 
-# Home Reimagined Preview HyperPlexed Audit - 2026-07-13
+# Home Reimagined HyperPlexed Audit - 2026-07-13
 
-Target: `/design-preview/home-reimagined`, covering
-`src/routes/design-preview/home-reimagined/+page.svelte`, its owned-shell loader, and the provisional
-modern / Ancient Greece gathering pair. Production `/` and its data loader are out of scope and
-unchanged.
+Current target: production `/`, covering `src/routes/+page.svelte`, its owned-shell loader, the live
+featured-question flow, and the modern / Ancient Greece gathering pair. The page began at
+`/design-preview/home-reimagined`; that route now permanently redirects to `/`. The previous
+production homepage is preserved at `/old-home` with a visible archive notice and `noindex`.
 
 Source brief: `docs/design/homepage-reimagination-tasker-2026-07-13.md`.
 Image prompt record: `docs/design/home-reimagined-ancient-image-prompts-2026-07-14.md`.
@@ -23,7 +23,7 @@ Image prompt record: `docs/design/home-reimagined-ancient-image-prompts-2026-07-
 - The preview owns the full marketing shell instead of inheriting the global 1200px nested-main
   clamp. One shared `86rem` shell aligns every section and collapses safely at phone widths. -> P3
 - The hero leads with the question product in plain language, keeps Enneagram knowledge optional,
-  and uses one primary `/questions` action. -> P6+P8
+  and uses one primary action that lands on the page's live featured question. -> P6+P8
 - The paired gathering images are explicit 1400x788 responsive media with a shared accessible
   description, controlled bottom scrim, and exactly one speaker plus eight listeners in both eras.
   -> P10
@@ -48,9 +48,9 @@ Image prompt record: `docs/design/home-reimagined-ancient-image-prompts-2026-07-
   gathering gently dissolves into its Ancient Greece counterpart at the three-second mark, then
   returns at six seconds. Hover holds the current era; click or keyboard activation deliberately
   pauses or resumes it; and reduced motion removes the automatic dissolve. -> P10+P11+P15
-- The question proof's interaction remains product-specific: three real fixture responses sit visibly
-  blurred behind a lock state, then resolve only after the visitor writes a local preview answer. The
-  reveal transition is owned by CSS and exists only under
+- The question proof's interaction remains product-specific: three representative answers sit
+  visibly blurred behind a lock state, and the live nine-perspective result resolves only after the
+  visitor successfully posts an answer. The reveal transition is owned by CSS and exists only under
   `prefers-reduced-motion: no-preference`. -> P11+P13
 - Amber is reserved for the primary question path and illuminated labels; teal and the three center
   colors encode meaning without competing with the main action. -> P19
@@ -59,8 +59,8 @@ Image prompt record: `docs/design/home-reimagined-ancient-image-prompts-2026-07-
 
 ## Asset review
 
-- `static/images/home-reimagined/streetlamp-nine-provisional.webp`: 1400x788, 46,184-byte WebP.
-- `static/images/home-reimagined/ancient-fire-nine-provisional.webp`: 1400x788, 75,102-byte WebP.
+- `static/images/home-reimagined/streetlamp-nine.webp`: 1400x788, 46,184-byte WebP.
+- `static/images/home-reimagined/ancient-fire-nine.webp`: 1400x788, 75,102-byte WebP.
 - Both eras contain exactly nine countable figures: one speaker and eight listeners. The Ancient
   Greece image preserves the elevated framing, circle spacing, speaker position, figure scale, dark
   edge falloff, and warm central practical light of the modern scene.
@@ -69,8 +69,8 @@ Image prompt record: `docs/design/home-reimagined-ancient-image-prompts-2026-07-
   listening rather than a museum lineup.
 - No obvious duplicate bodies, extra figures, modern objects, pedestals, deformed visible hands, or
   impossible fire shadows were found in either original-resolution review.
-- Both filenames stay `provisional` until DJ approves the human authenticity, marble treatment, and
-  overall mood. Neither image is approved for the production homepage by this pass.
+- DJ approved the page for production on 2026-07-16. Both filenames were promoted out of their
+  provisional state without changing the reviewed image bytes.
 
 ## Verification
 
@@ -141,6 +141,56 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
   zero horizontal overflow, the CTA resolves to `/questions`, metadata and landmarks match the
   intended contract, and the browser console reports no warnings or errors.
 
+## Tier 2 live answer flow - 2026-07-16
+
+- Replaced the local-only `needing space` illustration with live question `#567`: “What's something
+  you do every day to seem ‘fine’ that nobody knows is costing you effort?” The question is backed
+  by a real `questions` row, one community answer, and a complete nine-take seed. -> P6+P13
+- Routed the composer through the existing Chorus `/api/nine/mirror` path. A successful submission
+  becomes a real top-level question answer, records the give-first contribution, returns the mirror,
+  and opens the nine perspectives without requiring an account. -> P8+P13
+- Converted the mock controls into one semantic form with a persistent label, help text, word and
+  character feedback, durable inline errors, disabled/loading states, and one action labeled “Post
+  answer and reveal.” The client creates the visitor fingerprint before posting and only enters the
+  success state when the endpoint confirms `answerRecorded`. -> P6+P13
+- The reveal now renders all nine seeded perspectives with their source labels, the reader's submitted
+  answer and mirror, and a direct link to the live community thread. The former local reset path was
+  removed because a posted answer is not disposable preview state. -> P4+P6+P13
+- The page records a best-effort question impression using the same gate event as the strategic
+  question widget, attributed to the homepage path, and captures a client-side answered event after
+  confirmed success.
+- Read-only database verification confirmed question `#567`, one existing comment, and exactly nine
+  seeded takes. `pnpm check` passes with 0 errors and the existing 125 warnings across 43 unrelated
+  files; `pnpm lint:radius` and targeted formatting checks pass.
+- Live pre-submit verification passed at 1440x900 and 390x844 in dark and light themes. Empty and
+  short drafts keep submission disabled, a valid sentence enables the action, the thread URL is
+  correct, both widths have zero horizontal overflow, and the browser console is clean. The final
+  submit was intentionally not clicked during verification so no synthetic production answer was
+  created.
+
+## Tier 3 production promotion - 2026-07-16
+
+- Promoted the reimagined page, its owned-shell loader, and its featured-question server loader to
+  `/`. The hero action now lands directly on `#live-question`, with a sticky-header scroll offset, so
+  the primary promise and destination are the same interaction. -> P6+P8+P13
+- Added production canonical, robots, Open Graph, Twitter, and `WebPage`/`Question` structured data
+  through the shared `SEOHead` component. The new root is explicitly `index, follow`, uses the
+  approved streetlamp image for social sharing, and renders exactly one main landmark. -> P6+P13
+- Preserved the former production homepage at `/old-home`. It retains its full loader and content,
+  adds a visible `ARCHIVED HOMEPAGE · OLD VERSION` notice with a route back to `/`, and is marked
+  `noindex, nofollow`. The former preview URL returns a permanent `308` to `/`. -> P6+P8+P13
+- Replaced the stale locked-answer fixture copy with examples that match the live `seem fine`
+  question while keeping the answers blurred and excluded from accessibility output. -> P4+P6
+- `pnpm check`: pass with 0 errors and the existing 125 warnings across 43 unrelated files.
+  `pnpm lint:radius`: pass, 0 class violations and CSS backlog 0/0. Targeted Prettier checks pass.
+  The standalone Svelte autofixer is not installed in this workspace, so the full Svelte check is
+  the validation fallback.
+- `pnpm build`: pass, including the Vercel adapter and all build/runtime-asset budgets. Fresh live
+  verification passed at 1440x900 and 390x844 in dark and light themes with zero horizontal
+  overflow, production metadata, archive metadata, the 308 redirect, the hero anchor, the valid-draft
+  enabled state, the time-mirror pressed state, and an empty browser console all confirmed. The live
+  form was not submitted during verification, so no synthetic public answer was created.
+
 ## Screenshots
 
 - `docs/design/screenshots/home-reimagined-desktop-dark-2026-07-13.png`
@@ -148,9 +198,7 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
 - `docs/design/screenshots/home-reimagined-mobile-dark-2026-07-13.png`
 - `docs/design/screenshots/home-reimagined-mobile-light-2026-07-13.png`
 
-## Approval gate
+## Production decision
 
-The preview is review-ready, but the paired images remain a taste gate. DJ should decide whether both
-groups feel observed rather than generated, whether weathered marble is the right ancient metaphor,
-and whether this five-beat page should inform or replace the production homepage. No production merge
-is authorized by this preview.
+DJ approved the Tier 3 polish, the paired images, and replacement of the production homepage on
+2026-07-16. The prior homepage remains available at `/old-home` for rollback or reference.
