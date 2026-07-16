@@ -534,6 +534,7 @@
 			</div>
 			<div class="composer-footer">
 				<VoiceRecorder
+					id={`${composerId}-voice-recorder`}
 					label={`Record your ${composerKind}`}
 					disabled={loading}
 					onbeforestart={rememberCommentSelection}

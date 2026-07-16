@@ -57,7 +57,7 @@ group of greek statues with glowing connections between them representing team s
 ## After Generation
 
 1. Save highest quality version as `greek-statues-team-dynamics-office.webp` in `static/blogs/`
-2. Create thumbnail version as `s-greek-statues-team-dynamics-office.webp`
+2. Create a 480px-wide thumbnail from the original master as `s-greek-statues-team-dynamics-office.webp`
 3. Update blog frontmatter:
 
 ```yaml

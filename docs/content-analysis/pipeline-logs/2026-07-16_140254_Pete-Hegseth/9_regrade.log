@@ -1,0 +1,20 @@
+## Grading Complete — Pete-Hegseth (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Pete-Hegseth | 9 | 8 | 9 | 9 | 8 | 9 | 8.6 | B+ |
+
+(Weighted: `(9×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6`. Discoverability 9 — gate clear, no caps applied.)
+
+This is the regrade in a supervised pair: first grade was B (8.3), regrade B+ (8.6), stability delta 0.3. The revision pass genuinely earned the lift — it wasn't drift.
+
+### Key Observations:
+
+- **What moved the grade**: Evidence went to 9. The revision pinned the previously floating quotes (Quantico → Pentagon's own transcript, religion cuts → Military.com, Murkowski → her dated X statement), and the deterministic audit now reads 4 inline / 2 vague / 0 untagged with all 6 testimony-ledger quotes verified in the body. The July 2026 Navy promotion-list epilogue to the 32-day reversal ("The Senate heard the recalibrated answer. The promotion list runs on the original one.") is the sharpest beat in the piece.
+- **What held it at B+, not A**: Originality and Writing both sit at 8. The "performer with a real resume" thesis is the ambient media read of Hegseth — the piece's freshness is in connections, not in any detail outside the public scandal record. And the house fingerprint survives in cadence: every section closes on an aphorism, and the "Watch…/Look at…" imperative move recurs in David-Beckham and Xochitl-Gomez too (under the 3-near-verbatim cap threshold, but noted for the next pass).
+- **Clean deterministic checks**: 0 contrast pairs, same-type similarity scan clear (max 0.038 vs a 0.04 trip line), head-term PASS, answer block 49 words. Ledger spot-checks all matched the actual body — no stale-ledger flags.
+- **Interior/empathy check passed**: interior beat ("Twenty years. Two wars. Two Bronze Stars. And the only thing they saw was the ink.") and an empathy turn in his own vocabulary, not house grammar — so no `house_empathy_turn` cap.
+
+Grade written to the draft frontmatter (with `first_overall: 8.3` / `regrade_overall: 8.6` stability fields) and the reviewer sidecar recreated at `docs/content-analysis/grades/Pete-Hegseth.review.md` with the concrete path to A: vary two section closers, surface one pre-fame signature detail no other profile has, convert the two vague quote slots to inline, and cut the three remaining imperative openers.
+
+**Total graded this session: 1**

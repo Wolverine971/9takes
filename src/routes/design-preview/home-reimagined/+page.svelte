@@ -83,20 +83,15 @@
 </script>
 
 <svelte:head>
-	<title>Homepage Reimagined — Design Preview · 9takes</title>
+	<title>One Question, Nine Perspectives · 9takes</title>
 	<meta
 		name="description"
-		content="A design preview for a give-first, anonymous question-and-answer experience from 9takes."
+		content="Answer anonymously before reading the crowd, then unlock other perspectives and see the emotions behind every take."
 	/>
 	<meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
-<main class="home-reimagined">
-	<div class="preview-note" role="note">
-		<span class="preview-dot" aria-hidden="true"></span>
-		<span>Design study · homepage reimagination · not production</span>
-	</div>
-
+<div class="home-reimagined">
 	<section class="hero" aria-labelledby="hero-title">
 		<div class="hero-atmosphere" aria-hidden="true"></div>
 		<div class="shell hero-grid">
@@ -109,7 +104,7 @@
 				</p>
 
 				<div class="hero-action">
-					<Button href={resolve('/questions')} size="lg">Answer today&rsquo;s question</Button>
+					<Button href={resolve('/questions')} size="lg">Choose a question to answer</Button>
 					<p>No type knowledge needed.</p>
 				</div>
 
@@ -377,7 +372,7 @@
 			</div>
 		</div>
 	</section>
-</main>
+</div>
 
 <style lang="scss">
 	.home-reimagined {
@@ -420,31 +415,6 @@
 	.shell {
 		width: min(100% - 3rem, 86rem);
 		margin-inline: auto;
-	}
-
-	.preview-note {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		min-height: 2.5rem;
-		padding: 0.5rem 1.5rem;
-		border-bottom: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
-		background: color-mix(in srgb, var(--night-mid) 82%, transparent);
-		color: var(--ink-dim);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.7rem;
-		letter-spacing: 0.08em;
-		text-align: center;
-		text-transform: uppercase;
-	}
-
-	.preview-dot {
-		width: 0.4rem;
-		height: 0.4rem;
-		border-radius: 9999px;
-		background: var(--lamp-glow);
-		box-shadow: var(--glow-sm);
 	}
 
 	.hero {
@@ -1529,16 +1499,6 @@
 	}
 
 	@media (max-width: 25rem) {
-		.preview-note {
-			align-items: flex-start;
-			padding-inline: 1rem;
-		}
-
-		.preview-dot {
-			margin-top: 0.3rem;
-			flex: 0 0 auto;
-		}
-
 		.proof-line {
 			align-items: flex-start;
 			flex-direction: column;

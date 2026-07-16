@@ -193,7 +193,7 @@ path: docs/templates/content-creation-checklist.md
 - [ ] 16:9 aspect ratio
 - [ ] Saved as `.webp` format
 - [ ] Filename matches `pic` field in frontmatter
-- [ ] Thumbnail version created (`s-[filename].webp`)
+- [ ] 480px-wide thumbnail created from the original master (`s-[filename].webp`)
 
 **Prompt saved to:** `/docs/content-generation/image-prompts/[post-name]-prompt.md`
 **Image saved to:** `/static/blogs/[filename].webp`

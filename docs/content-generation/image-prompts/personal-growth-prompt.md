@@ -57,7 +57,7 @@ greek marble statue looking into a mirror, reflection shows a more evolved confi
 ## After Generation
 
 1. Save highest quality version as `greek-statue-personal-growth-journey.webp` in `static/blogs/`
-2. Create thumbnail version as `s-greek-statue-personal-growth-journey.webp`
+2. Create a 480px-wide thumbnail from the original master as `s-greek-statue-personal-growth-journey.webp`
 3. Update blog frontmatter:
 
 ```yaml

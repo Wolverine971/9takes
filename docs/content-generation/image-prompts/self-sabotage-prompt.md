@@ -57,5 +57,5 @@ greek statue looking at its own reflection in cracked marble mirror, reflection 
 ## After Generation
 
 1. Save highest quality version as `greek-statues-self-sabotage.webp` in `static/blogs/`
-2. Create thumbnail version as `s-greek-statues-self-sabotage.webp`
+2. Create a 480px-wide thumbnail from the original master as `s-greek-statues-self-sabotage.webp`
 3. Ensure filename matches `pic` field in blog frontmatter

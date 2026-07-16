@@ -44,8 +44,12 @@ capture_theme() {
 
   local webp="${DEST_DIR}/${out_basename}.webp"
   local s_webp="${DEST_DIR}/s-${out_basename}.webp"
-  cwebp -quiet "$cropped_png" -o "$webp"
-  cwebp -quiet -sns 70 -f 50 -size 20000 "$cropped_png" -o "$s_webp"
+  cwebp -quiet -preset picture -q 82 -m 6 -mt -sharp_yuv \
+    -resize 1200 0 -resize_mode down_only \
+    "$cropped_png" -o "$webp"
+  cwebp -quiet -preset picture -q 72 -m 6 -mt -sharp_yuv \
+    -resize 480 0 -resize_mode down_only \
+    "$cropped_png" -o "$s_webp"
 
   echo "  ${theme}: ${w}x${h} → $(du -h "$webp" | cut -f1) · s: $(du -h "$s_webp" | cut -f1)"
 }

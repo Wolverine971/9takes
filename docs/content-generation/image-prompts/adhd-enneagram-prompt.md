@@ -72,7 +72,7 @@ nine greek marble statues arranged in a circle, each displaying different manife
 2. Upscale best result (U1, U2, U3, or U4)
 3. Download and convert to `.webp` format
 4. Save as `greek-statue-adhd-scattered-thoughts.webp` in `static/blogs/`
-5. Also create smaller version `s-greek-statue-adhd-scattered-thoughts.webp`
+5. Also create a 480px-wide thumbnail from the original master as `s-greek-statue-adhd-scattered-thoughts.webp`
 
 ---
 

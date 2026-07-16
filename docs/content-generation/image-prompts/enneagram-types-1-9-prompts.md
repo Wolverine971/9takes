@@ -212,5 +212,5 @@ pic_alt: 'Greek statue peacefully mediating conflict while its own voice starts 
 
 1. Generate each prompt with `--ar 16:9 --style raw`.
 2. Upscale final variant and export WebP to `static/blogs/[pic].webp`.
-3. Create thumbnail `static/blogs/s-[pic].webp`.
+3. Create a 480px-wide thumbnail from the original master at `static/blogs/s-[pic].webp`.
 4. Update each blog frontmatter `pic` and `pic_alt` values.

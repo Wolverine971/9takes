@@ -65,7 +65,7 @@ greek marble statue couple embracing, but red fabric flags waving ominously behi
 2. Upscale best result (U1, U2, U3, or U4)
 3. Download and convert to `.webp` format
 4. Save as `greek-statues-relationship-red-flags.webp` in `static/blogs/`
-5. Also create smaller version `s-greek-statues-relationship-red-flags.webp`
+5. Also create a 480px-wide thumbnail from the original master as `s-greek-statues-relationship-red-flags.webp`
 
 ---
 

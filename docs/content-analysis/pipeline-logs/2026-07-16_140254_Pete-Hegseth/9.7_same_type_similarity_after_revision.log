@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — pete-hegseth (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Pete-Hegseth.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 54
+Comparison set (last 8 other Type-3 drafts by date):
+  - David-Beckham  (2026-07-13, 43 units)
+  - n3on  (2026-07-13, 38 units)
+  - xochitl-gomez  (2026-07-12, 43 units)
+  - Kiernan-Shipka  (2026-07-11, 46 units)
+  - Alex-Warren  (2026-07-01, 25 units)
+  - amelia-dimoldenberg  (2026-06-22, 15 units)
+  - Olivia-Wilde  (2026-06-17, 18 units)
+  - Hailee-Steinfeld  (2026-06-15, 23 units)
+
+Noise floor over 13554 unit pairs:  median=0  p90=0  p99=0.006  max=0.038
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.038 ##                   David-Beckham
+  0.037 #                    Alex-Warren
+  0.031 #                    Olivia-Wilde
+  0.029 #                    Kiernan-Shipka
+  0.028 #                    n3on
+  0.028 #                    Hailee-Steinfeld
+  0.023 #                    xochitl-gomez
+  0.023 #                    amelia-dimoldenberg
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.038   pete-hegseth  <->  David-Beckham
+   TARGET [diagnosis] Thirty-two days after the podcast
+   OTHER  [diagnosis] On the podcast Stick to Football in 2023
+
+score 0.037   pete-hegseth  <->  Alex-Warren
+   TARGET [diagnosis] He hired a war secretary the way a producer books a lead
+   OTHER  [diagnosis] He collects approval the way a defendant collects evidence
+
+score 0.031   pete-hegseth  <->  Olivia-Wilde
+   TARGET [diagnosis] and the lead has spent his whole tenure proving the casting right.
+   OTHER  [diagnosis] trusting environment" and "to protect" the cast.
+
+score 0.029   pete-hegseth  <->  Kiernan-Shipka
+   TARGET [diagnosis] and he chose the exact vocabulary of the pattern.
+   OTHER  [diagnosis] the workplace where the pattern got installed.
+
+score 0.028   pete-hegseth  <->  n3on
+   TARGET [diagnosis] He hired a war secretary the way a producer books a lead
+   OTHER  [diagnosis] This is a person who treats his own image the way a factory treats output.
+
+score 0.028   pete-hegseth  <->  Hailee-Steinfeld
+   TARGET [diagnosis] and a win only counts if someone sees it.
+   OTHER  [diagnosis] So a win never settles the question.
+
+score 0.026   pete-hegseth  <->  Alex-Warren
+   TARGET [counter-typing] That reading explains the religious intensity and the repeat combat volunteering better than 3 does
+   OTHER  [diagnosis] It also explains the comment sections.
+
+score 0.025   pete-hegseth  <->  Hailee-Steinfeld
+   TARGET [diagnosis] Thirty-two days after the podcast
+   OTHER  [diagnosis] that affection arrives after the performance
+
+score 0.025   pete-hegseth  <->  n3on
+   TARGET [diagnosis] our best warriors are women." Senator Elizabeth Warren did the math out loud at the January 2025 confirmation hearing
+   OTHER  [diagnosis] He also ranks himself out loud
+
+score 0.025   pete-hegseth  <->  Hailee-Steinfeld
+   TARGET [diagnosis] and the audience became the United States Senate
+   OTHER  [diagnosis] and because she has never once let the audience see the seams. ---
+
+score 0.023   pete-hegseth  <->  xochitl-gomez
+   TARGET [diagnosis] The Enneagram Type 3 is called the Achiever.
+   OTHER  [diagnosis] Xochitl Gomez is an Enneagram Type 3
+
+score 0.023   pete-hegseth  <->  Kiernan-Shipka
+   TARGET [diagnosis] The Enneagram Type 3 is called the Achiever.
+   OTHER  [diagnosis] Kiernan Shipka is an Enneagram Type 3
+
+------------------------------------------------------------------------------
+Top pair scores 0.038 vs median 0  (~∞x the noise floor).

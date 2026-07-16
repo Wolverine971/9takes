@@ -64,7 +64,7 @@ two greek marble statues playing chess, one statue with manipulative subtle expr
 ## After Generation
 
 1. Save highest quality version as `greek-statues-manipulation-tactics.webp` in `static/blogs/`
-2. Create thumbnail version as `s-greek-statues-manipulation-tactics.webp`
+2. Create a 480px-wide thumbnail from the original master as `s-greek-statues-manipulation-tactics.webp`
 3. Ensure filename matches `pic` field in blog frontmatter when post is written
 
 ---

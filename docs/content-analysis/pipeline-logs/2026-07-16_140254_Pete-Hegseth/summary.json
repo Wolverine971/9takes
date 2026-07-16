@@ -1,0 +1,15 @@
+{
+	"person": "Pete-Hegseth",
+	"draft_path": "src/blog/people/drafts/Pete-Hegseth.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-16_140254_Pete-Hegseth",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.3,
+	"final_overall": 8.6,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.29999999999999893,
+	"has_stage_warnings": false,
+	"generated_at": "2026-07-16T19:08:46.338Z"
+}

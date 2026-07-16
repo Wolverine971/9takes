@@ -1,0 +1,18 @@
+Grading complete. The frontmatter block and review sidecar are both in place.
+
+## Grading Complete — Pete-Hegseth
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Pete-Hegseth | 8 | 8 | 9 | 8 | 8 | 9 | 8.3 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Discoverability is 9, so no gate applies. Caps applied: none. Anchor: Matt-Smith draft — the "what very good pipeline output looks like" B reference.)
+
+### Key Observations:
+
+- **This is top-of-B pipeline output, held back by sourcing polish rather than substance.** The 32-day women-in-combat reversal with its July 2026 promotion-list payoff ("The Senate heard the recalibrated answer. The promotion list runs on the original one") is a genuinely type-precise finding, and the Signal-chats section built as the Army's own after-action-review format is a bespoke device that passes the transplant test.
+- **All deterministic checks came back clean**: 0 contrast pairs, head-term PASS with a 49-word answer block, and the same-type similarity scan is CLEAR (max 0.038 vs David-Beckham, under the 0.04 threshold). The cross-draft sameness check against John-Coogan, David-Beckham, and Xochitl-Gomez found no reused house moves — no "The tell:" bullets, no corpus-stat sentence, and the empathy turn avoids armor/scar-tissue grammar entirely.
+- **What keeps Evidence and Writing at 8**: the Quantico quotes ("fat generals," "No more beardos"), the religion-list cut, and the testosterone-screening announcement all lack an inline outlet in the body (they trace only through frontmatter citations), Murkowski's statement has no outlet, and seven-plus imperative section-openers ("Trace…," "Be precise…," "Give the record its due…") make the house cadence visible. Two small typology bleeds ("Social 3" label and a stress-arrow sentence in the body) hold Enneagram at 8.
+- The concrete path to B+ is in the sidecar at `docs/content-analysis/grades/Pete-Hegseth.review.md` — inline-sourcing those four claims alone would lift the weighted overall to roughly 8.5.
+
+**Total graded this session: 1**

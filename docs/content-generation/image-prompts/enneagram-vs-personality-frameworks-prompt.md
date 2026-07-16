@@ -57,7 +57,7 @@ two groups of greek scholar statues facing each other across a marble floor map,
 ## After Generation
 
 1. Save hero image as `static/blogs/greek-statues-disagreeing.webp`.
-2. Save thumbnail as `static/blogs/s-greek-statues-disagreeing.webp`.
+2. Save a 480px-wide thumbnail from the original master as `static/blogs/s-greek-statues-disagreeing.webp`.
 3. Confirm frontmatter remains:
 
 ```yaml

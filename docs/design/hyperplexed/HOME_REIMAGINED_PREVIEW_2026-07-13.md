@@ -12,12 +12,11 @@ Image prompt record: `docs/design/home-reimagined-ancient-image-prompts-2026-07-
 
 ## Regions
 
-1. Preview note
-2. Hero invitation and nine-person gathering
-3. Give-first question proof and illustrative reveal
-4. Anger, shame, and fear center explanation
-5. Newcomer / Enneagram-familiar depth fork
-6. Final question invitation and quiet deep links
+1. Hero invitation and nine-person gathering
+2. Give-first question proof and illustrative reveal
+3. Anger, shame, and fear center explanation
+4. Newcomer / Enneagram-familiar depth fork
+5. Final question invitation and quiet deep links
 
 ## Tier 1 - cheap, high-impact
 
@@ -125,6 +124,22 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
   seconds, then completes a 0.8-second dissolve so the opposite era lands every three seconds. The
   faster cadence keeps one CSS timing owner and preserves the existing pause and reduced-motion
   behavior. -> P11+P15
+
+## Tier 1 follow-up - 2026-07-16
+
+- Renamed the generic hero action from `Answer today's question` to `Choose a question to answer`
+  so its promise matches the `/questions` destination. -> P6
+- Removed the preview-local status banner and replaced preview-specific title and description copy
+  with production-ready metadata. The route intentionally retains `noindex, nofollow` while it lives
+  under `/design-preview` so it cannot compete with the production homepage in search. -> P6
+- Replaced the page-owned `<main>` with a neutral wrapper because the root layout already owns the
+  page's main landmark. The rendered route now contains exactly one `<main>`. -> P13
+- `pnpm check`: pass with 0 errors; 125 existing warnings remain across 43 unrelated files.
+- `pnpm lint:radius`: pass, 0 class violations and CSS backlog 0/0. Targeted Prettier check also
+  passes.
+- Fresh live verification passed at 1440x900 and 390x844 in dark and light themes. Both widths report
+  zero horizontal overflow, the CTA resolves to `/questions`, metadata and landmarks match the
+  intended contract, and the browser console reports no warnings or errors.
 
 ## Screenshots
 

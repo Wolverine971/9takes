@@ -58,7 +58,7 @@ close-medium shot in a classical stone lab, one marble Kant statue at center tab
 ## After Generation
 
 1. Export selected image as `static/blogs/kantian-filters-nine-perspectives.webp`.
-2. Create thumbnail as `static/blogs/s-kantian-filters-nine-perspectives.webp`.
+2. Create a 480px-wide thumbnail from the original master as `static/blogs/s-kantian-filters-nine-perspectives.webp`.
 3. Confirm blog references remain:
 
 ```yaml

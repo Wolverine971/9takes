@@ -8,7 +8,7 @@ loc: 'https://9takes.com/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynam
 lastmod: '2026-07-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 popCulture:
   category: business-culture

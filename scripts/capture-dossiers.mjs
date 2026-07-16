@@ -2,7 +2,7 @@
 //
 // Capture each Enneagram type dossier as a static image for use as the
 // blog `pic:` frontmatter image. Saves PNG to /tmp, then runs cwebp twice
-// (full-quality + ~20KB small) into static/blogs/.
+// (full image capped at 1200px + true 480px thumbnail) into static/blogs/.
 //
 // Requires: dev server running on http://localhost:5173
 // Usage: node scripts/capture-dossiers.mjs
@@ -69,10 +69,52 @@ for (const n of TYPES) {
 	const webpPath = path.join(DEST, `${slug}.webp`);
 	const sWebpPath = path.join(DEST, `s-${slug}.webp`);
 
-	execFileSync('cwebp', [pngPath, '-o', webpPath], { stdio: 'inherit' });
-	execFileSync('cwebp', ['-sns', '70', '-f', '50', '-size', '20000', pngPath, '-o', sWebpPath], {
-		stdio: 'inherit'
-	});
+	execFileSync(
+		'cwebp',
+		[
+			'-quiet',
+			'-preset',
+			'picture',
+			'-q',
+			'82',
+			'-m',
+			'6',
+			'-mt',
+			'-sharp_yuv',
+			'-resize',
+			'1200',
+			'0',
+			'-resize_mode',
+			'down_only',
+			pngPath,
+			'-o',
+			webpPath
+		],
+		{ stdio: 'inherit' }
+	);
+	execFileSync(
+		'cwebp',
+		[
+			'-quiet',
+			'-preset',
+			'picture',
+			'-q',
+			'72',
+			'-m',
+			'6',
+			'-mt',
+			'-sharp_yuv',
+			'-resize',
+			'480',
+			'0',
+			'-resize_mode',
+			'down_only',
+			pngPath,
+			'-o',
+			sWebpPath
+		],
+		{ stdio: 'inherit' }
+	);
 
 	console.log(
 		`  webp ${(statSync(webpPath).size / 1024).toFixed(0)}KB · s-webp ${(

@@ -8,12 +8,57 @@
 
 <!-- 9 something -->
 
+## Personality analysis image workflow
+
+Personality analysis portraits use two square WebP derivatives from the original Canva PNG:
+
+- `Person-Name.webp`: full page image, capped at 1200px wide, quality 82.
+- `s-Person-Name.webp`: 480px thumbnail, quality 72.
+
+Always create both files directly from the lossless Canva export. Do not create the thumbnail from
+the full WebP, and do not use `-size 20000`: `-size` targets encoded bytes, not pixel dimensions.
+
+### Preferred command
+
+From the repository root, pass the Canva export and Enneagram type to the helper:
+
+```bash
+./scripts/prepare-personality-image.sh "/path/to/Joe-Biden.png" 2
+```
+
+This writes:
+
+```text
+static/types/2s/Joe-Biden.webp
+static/types/2s/s-Joe-Biden.webp
+```
+
+If the Canva filename is not already the desired person slug, provide it as the third argument:
+
+```bash
+./scripts/prepare-personality-image.sh "/path/to/canva-export.png" 2 Joe-Biden
+```
+
+### Equivalent `cwebp` commands
+
+```bash
+cwebp -quiet -preset picture -q 82 -m 6 -mt -sharp_yuv \
+  -resize 1200 0 -resize_mode down_only \
+  "/path/to/Joe-Biden.png" \
+  -o "static/types/2s/Joe-Biden.webp"
+
+cwebp -quiet -preset picture -q 72 -m 6 -mt -sharp_yuv \
+  -resize 480 0 -resize_mode down_only \
+  "/path/to/Joe-Biden.png" \
+  -o "static/types/2s/s-Joe-Biden.webp"
+```
+
+Keep the Canva PNG as the editable master, but do not place it in `static/`; only delivery assets
+belong in the public static tree.
+
 ## Monetization
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
-
-cwebp "Joe-Biden.png" -o "Joe-Biden.webp"
-cwebp -sns 70 -f 50 -size 20000 "Joe-Biden.webp" -o "./s-Joe-Biden.webp"
 
 <!-- find missing links
 find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

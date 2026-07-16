@@ -453,7 +453,7 @@ function applySecurityHeaders(headers: Headers) {
 	headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
 	headers.set(
 		'Permissions-Policy',
-		'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()'
+		'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), payment=(), usb=()'
 	);
 }
 

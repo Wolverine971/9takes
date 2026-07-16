@@ -67,6 +67,7 @@ citations:
   - 'https://www.military.com/dod-officially-drops-180-faiths-from-militarys-recognized-religion-list'
   - 'https://www.presspubs.com/forest_lake/news/fox-commentator-pete-hegseth-if-you-want-something-go-after-it/article_51c660de-d263-11e4-90e1-cb0fc0380f14.html'
   - 'https://www.yahoo.com/news/politics/articles/loves-war-trump-slaps-pete-164505134.html'
+  - 'https://www.startribune.com/pete-hegseths-religious-rhetoric-has-sparked-scrutiny-his-faith-has-minnesota-roots/601761469'
 faqs:
   - question: "What is Pete Hegseth's personality type?"
     answer: "Pete Hegseth is best understood as an Enneagram Type 3, the Achiever. His life runs on visible wins with witnesses: valedictorian, Princeton, two Bronze Stars, prime-time television, and a Pentagon he has spent 2025 and 2026 rebranding."
@@ -92,23 +93,25 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Pete-Hegseth.md
 content_quality:
   hook: 9
-  enneagram: 8
-  evidence: 8
+  enneagram: 9
+  evidence: 9
   writing: 8
   originality: 8
   discoverability: 9
-  overall: 8.3
-  letter: B
+  overall: 8.6
+  letter: B+
   rubric_version: 2
   caps_applied: []
   confidence: high
   anchor: 'Matt-Smith draft (2026-06-28)'
   needs_review: false
   first_overall: 8.3
+  regrade_overall: 8.6
+  grade_stability_delta: 0.3
   graded_at: '2026-07-16'
-path: src/blog/people/drafts/Pete-Hegseth.md
 ---
 
 <!-- WORKING NOTES (non-interactive run, 2026-07-16)
@@ -152,7 +155,7 @@ TYPE-CHALLENGE MEMO
 5. Sen. Elizabeth Warren: called his reversal on women in combat "a very, very big about-face in a
    very, very short period of time" — Senate confirmation hearing, January 2025
 6. Sen. Lisa Murkowski: "I must conclude that I cannot in good conscience support his nomination for
-   Secretary of Defense." — public statement, January 2025
+   Secretary of Defense." — written statement posted to X, January 23, 2025
 Total qualifying quotes: 6
 -->
 
@@ -227,7 +230,7 @@ His personality type answers that question. And once you see it, the axe, the ta
 
 Pete Hegseth's personality type is Enneagram 3, the Achiever. His identity runs on certified, visible winning: the valedictorian speech, the Bronze Stars, the prime-time slot, the cabinet title. The pattern needs witnesses, which is why, since the Army, every job he has held has come with a camera attached.
 
-Start with how his boss describes him. Trump slapped his war secretary's bicep for the cameras at a cabinet meeting and delivered the review, as The Independent clipped it in May 2026: "We have great people, and the Secretary of War, Pete Hegseth, Central Casting. He loves war."
+His boss got there first. Trump slapped his war secretary's bicep for the cameras at a cabinet meeting and delivered the review, as The Independent clipped it in May 2026: "We have great people, and the Secretary of War, Pete Hegseth, Central Casting. He loves war."
 
 Trump meant it as praise, and he chose the exact vocabulary of the pattern. Casting. The look. The part. He hired a war secretary the way a producer books a lead, and the lead has spent his whole tenure proving the casting right.
 
@@ -235,7 +238,7 @@ Trump meant it as praise, and he chose the exact vocabulary of the pattern. Cast
 
 The [Enneagram Type 3](/enneagram-corner/enneagram-type-3) is called the Achiever. The math is simple and brutal: somewhere early, worth got fused to winning, and a win only counts if someone sees it. A Three grows into whatever shape the nearest audience will certify.
 
-Trace Hegseth's ladder. Valedictorian at Forest Lake in 1999. Princeton. Infantry officer with two Bronze Stars. Harvard graduate degree. Prime-time Fox host. Secretary of War at 44. And alongside the ladder, a publishing schedule: four books between 2016 and 2024, each one arriving right as he needed a bigger platform, from In the Arena when he flirted with political office to The War on Warriors five months before Trump picked him.
+The ladder is the plainest exhibit. Valedictorian at Forest Lake in 1999. Princeton. Infantry officer with two Bronze Stars. Harvard graduate degree. Prime-time Fox host. Secretary of War at 44. And alongside the ladder, a publishing schedule: four books between 2016 and 2024, each one arriving right as he needed a bigger platform, from In the Arena when he flirted with political office to The War on Warriors five months before Trump picked him.
 
 The diagnosis gets its sharpest evidence from a 32-day window. On November 7, 2024, he told the Shawn Ryan Show: "I'm straight up just saying we should not have women in combat roles. It hasn't made us more effective, hasn't made us more lethal, has made fighting more complicated." Within a week CNN had resurfaced the clip alongside a decade of similar statements, Trump nominated him anyway, and the audience became the United States Senate, which includes women who flew combat missions.
 
@@ -245,7 +248,7 @@ The reversal got its epilogue in July 2026, when The New York Times reported tha
 
 The Type 8 reading, the Challenger, tracks his aggression and misses his mechanism. An 8 plants a costly position and dares the room to take it. Hegseth adjusts the position and keeps the room. (Type nerds: the wing, the subtype, and the best argument that this call is wrong are boxed up in the 🐇 section after the extremist chapter.)
 
-The Senate, for its part, split exactly in half. Lisa Murkowski announced in a January 2025 statement, "I must conclude that I cannot in good conscience support his nomination for Secretary of Defense." Fifty votes to fifty, and [JD Vance](/personality-analysis/jd-vance) walked in to break the tie. The only other vice president ever forced to do that for a cabinet seat was Mike Pence, for Betsy DeVos, in 2017.
+The Senate, for its part, split exactly in half. Lisa Murkowski put her refusal in writing, in a statement posted to X on January 23, 2025: "I must conclude that I cannot in good conscience support his nomination for Secretary of Defense." Fifty votes to fifty, and [JD Vance](/personality-analysis/jd-vance) walked in to break the tie. The only other vice president ever forced to do that for a cabinet seat was Mike Pence, for Betsy DeVos, in 2017.
 
 A man confirmed by the thinnest margin in Pentagon history had two options: quietly earn the room he barely won, or perform for it. Everything that followed answered which.
 
@@ -257,6 +260,8 @@ The pattern was installed early, in a house that kept score. Peter Brian Hegseth
 
 A coach's house has a particular emotional weather. Effort is visible. Results are posted. Love is rarely conditional in such homes, but attention often is, and a sharp kid learns the difference early.
 
+His father read him accurately even then. Pete looked forward to the Christian basketball camps every summer, Brian told the Minnesota Star Tribune, though he suspected the Bible verses and testimony-sharing ran a distant second to the court time with friends. Even at church camp, the boy had found the part with a scoreboard.
+
 In this house the lesson came with a gym attached: Brian Hegseth coached the boys' basketball team at Forest Lake Area High School, the same school where his son suited up at point guard. Look at the shape of Pete's game there. Undersized and slow for the position, he built his value on the one shot the scorebook weights extra, and left holding school records for three-pointers in a season, three-pointers in a career, and three-point percentage.
 
 "I was a short, slow guy who had no business playing basketball," he told the Forest Lake Press in 2015. "But I did the best I possibly could." The team reached the state tournament in 1999, the same spring he graduated valedictorian, and the school eventually put him in its hall of fame for academics and athletics both.
@@ -265,7 +270,7 @@ Then came the choice that quietly runs the rest of the story. He had West Point 
 
 He spent the next twenty years correcting for it. ROTC commission in 2003. A 90-page senior thesis, submitted that April, on how American presidents talk about war (The Daily Princetonian). Guantanamo in 2004 as an infantry platoon leader. Iraq in 2005, Baghdad and Samarra, and a Bronze Star. Afghanistan in 2011 as a counterinsurgency instructor, and a second one. Each deployment was real. Each also repaired something the Princeton choice had left open.
 
-Give the record its due here, because these are the years the type cannot fully claim. Nobody volunteers for Samarra to polish a resume, the mortars did not care about his brand, and there were no cameras at the checkpoints. He went back anyway, twice. If the Achiever pattern explains anything about those years, look past the courage to what happened to it afterward: every tour became a chapter, every chapter a segment, and the uniform something he could put back on under studio lights. A man can be brave and still need you to watch.
+These are the years the type cannot fully claim, and the record deserves that said plainly. Nobody volunteers for Samarra to polish a resume, the mortars did not care about his brand, and there were no cameras at the checkpoints. He went back anyway, twice. If the Achiever pattern explains anything about those years, look past the courage to what happened to it afterward: every tour became a chapter, every chapter a segment, and the uniform something he could put back on under studio lights. A man can be brave and still need you to watch.
 
 By his early thirties he held degrees from Princeton and Harvard and medals from two wars. The resume was complete. What he needed next was somewhere big enough to display it.
 
@@ -277,7 +282,7 @@ The display came through veterans advocacy, and then it came apart in private wh
 
 Hegseth ran two veterans organizations in his late twenties and early thirties, Vets for Freedom and then Concerned Veterans for America. By The New Yorker's 2024 account, both pushed him out, amid reports of financial mismanagement and drinking. A whistleblower report written by former CVA employees in February 2015 described him being repeatedly intoxicated at official events. At a November 2014 event at a Louisiana strip club, staff said, he had to be physically stopped from climbing on stage with the dancers. One complaint described him drunk in an Ohio bar chanting "Kill All Muslims." Hegseth denied the accounts and called them anonymous smears.
 
-Here is what makes the period psychologically legible rather than just sordid: while the reports piled up privately, his public trajectory only climbed. Fox brought him on as a contributor in 2014. By 2017 he was co-hosting Fox & Friends Weekend, grinning through the 6 a.m. light. The performer was rising exactly as fast as the man was sinking, and nobody watching could see the second line on the chart. When Threes hit that kind of internal collapse, the pattern runs toward numbing and autopilot rather than confession, a spiral [the stress research](/enneagram-corner/enneagram-types-in-stress) maps closely.
+What makes the period psychologically legible rather than just sordid is the split screen: while the reports piled up privately, his public trajectory only climbed. Fox brought him on as a contributor in 2014. By 2017 he was co-hosting Fox & Friends Weekend, grinning through the 6 a.m. light. The performer was rising exactly as fast as the man was sinking, and nobody watching could see the second line on the chart. When a man built on visible winning hits that kind of internal collapse, the slide runs toward numbing and autopilot rather than confession, a spiral [the stress research](/enneagram-corner/enneagram-types-in-stress) maps closely.
 
 Even his vices got delivered as content. In February 2019 he announced on air, "I don't think I've washed my hands for 10 years," then explained that germs are invisible and therefore not real. He later called it a joke. Watch the clip and you see something more specific: a man who cannot let even hygiene be private, off-script, unwitnessed.
 
@@ -377,17 +382,17 @@ He championed the September 2025 executive order rebranding the Department of De
 
 <div class="key-stat">$2,000,000,000: the estimated cost of renaming the Department of Defense (NBC News, 2025)</div>
 
-Twenty-five days later he summoned hundreds of generals and admirals from commands around the world to a single auditorium at Quantico, a gathering with no operational agenda. "Welcome to the War Department," he told them, "because the era of the Department of Defense is over." He announced that it was "completely unacceptable to see fat generals and admirals in the halls of the Pentagon." He declared, "No more beardos." The men and women in the seats, many with combat records dwarfing his, sat in silence while a former weekend television host graded their appearance.
+Twenty-five days later, on September 30, 2025, he summoned hundreds of generals and admirals from commands around the world to a single auditorium at Quantico, a gathering with no operational agenda. "Welcome to the War Department," he told them, "because the era of the Department of Defense is over." He announced that it was "completely unacceptable to see fat generals and admirals in the halls of the Pentagon." He declared, "No more beardos." Every quote survives in the Pentagon's own official transcript, posted to the department's website. The men and women in the seats, many with combat records dwarfing his, sat in silence while a former weekend television host graded their appearance.
 
 Then came the move that gives the whole tenure away. Two weeks later he ordered every member of the armed forces, more than two million people, to review the speech.
 
-Think about what that order is. A commander confident in a message trusts it to travel. This was something else: an audience, compelled by directive. The one thing a performer cannot survive is the possibility that nobody watched.
+That order is its own confession. A commander confident in a message trusts it to travel. This was something else: an audience, compelled by directive. The one thing a performer cannot survive is the possibility that nobody watched.
 
-Above the two million compelled viewers sits the audience of one. At the same May 2026 cabinet meeting where Trump delivered the Central Casting review, Hegseth returned it by comparing him to George Washington and Abraham Lincoln. He has survived the Signal chats, the inspector general, and his own spokesman's resignation because the only certifier with the power to cancel the show stays pleased. For a Social 3, the compelled audience below and the flattered patron above amount to one project: proof, running on every screen at once, that the performance is landing.
+Above the two million compelled viewers sits the audience of one. At the same May 2026 cabinet meeting where Trump delivered the Central Casting review, Hegseth returned it by comparing him to George Washington and Abraham Lincoln. He has survived the Signal chats, the inspector general, and his own spokesman's resignation because the only certifier with the power to cancel the show stays pleased. For a performer whose worth is certified by the crowd, the compelled audience below and the flattered patron above amount to one project: proof, running on every screen at once, that the performance is landing.
 
-The faith got the same treatment. In May 2026 his Pentagon cut the military's list of recognized religions from more than 200 to 31, and 22 of the surviving codes are Christian denominations. The tattoo that once got him flagged now files policy.
+The faith got the same treatment. In May 2026 his Pentagon cut the military's list of recognized religions from more than 200 to 31, Military.com reported, and 22 of the surviving codes are Christian denominations. The tattoo that once got him flagged now files policy.
 
-The pattern is still compounding. On July 15, 2026, he announced mandatory annual testosterone screening for every service member over 30, framing low-T as a readiness crisis. The force's own bloodwork, conscripted into the aesthetic. Even biology now reports to the brand.
+The pattern is still compounding. On July 15, 2026, he announced mandatory annual testosterone screening for every service member over 30, framing low-T as a readiness crisis (Salon). The force's own bloodwork, conscripted into the aesthetic. Even biology now reports to the brand.
 
 Which brings it back to the book that started his public life. In the Arena, 2016, titled after Theodore Roosevelt's 1910 speech: the credit belongs to the man "whose face is marred by dust and sweat and blood," never to the critic watching from the seats. Hegseth has carried that speech for twenty years, through three deployments, four books, two careers, and one confirmation he won by a single borrowed vote.
 
@@ -506,6 +511,32 @@ Cleaned up:
 
 Still rough:
 - Murkowski and Central Casting quotes still rate vague on source adjacency (carried from second pass).
+-->
+
+<!-- REVISION PASS NOTES (2026-07-16)
+Triggered by: grade B (8.3), rubric v2; lint was already clean (0 fail)
+Fixed:
+- Evidence (8→9 target): Quantico quotes pinned to the Pentagon's own official transcript with the
+  September 30, 2025 date in prose; religion-list cut (200+ → 31) pinned to Military.com; July 15,
+  2026 testosterone screening pinned to Salon; Murkowski line now sourced as her written statement
+  posted to X, January 23, 2025 (body + Testimony Ledger entry 6 updated).
+- Enneagram (de-labeled both body bleeds): "For a Social 3" → "For a performer whose worth is
+  certified by the crowd" (final section); "When Threes hit that kind of internal collapse" →
+  "When a man built on visible winning..." (Decade section). Both internal links kept.
+- Writing (imperative-opener cadence): varied 5 of the 8 flagged instances — "Start with how his
+  boss describes him" → "His boss got there first"; "Trace Hegseth's ladder" → "The ladder is the
+  plainest exhibit"; "Give the record its due here" → declarative rewrite; "Think about what that
+  order is" → "That order is its own confession"; Decade-section "Here is what makes..." →
+  "What makes the period... is the split screen". Kept "Be precise about what happened", "Watch it
+  through the stand-down call", and the AAR "Here is the one his Pentagon never filed" (device line).
+- Childhood archetype gap: added a sourced father-son anecdote — Brian Hegseth told the Minnesota
+  Star Tribune that Pete looked forward to summer Christian basketball camps, suspecting the draw
+  was court time with friends over the Bible verses. Star Tribune URL added to citations.
+
+Rejected (with reason):
+- none
+
+Lint: clean (0 fail, 0 warn; contrast pairs 0 strong / 0 comparative)
 -->
 
 

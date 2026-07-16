@@ -89,14 +89,14 @@ fs.mkdirSync(DELIVERY_DIR, { recursive: true });
 const pngPath = path.join(SOURCE_DIR, `${slug}.png`);
 fs.writeFileSync(pngPath, buf);
 
-// Full webp (cap longest edge at 1200, high quality) and small thumbnail (400px).
+// Full webp (cap longest edge at 1200, high quality) and small thumbnail (480px).
 const meta = await sharp(buf).metadata();
 await sharp(buf)
 	.resize({ width: Math.min(meta.width || 1200, 1200), withoutEnlargement: true })
 	.webp({ quality: 82 })
 	.toFile(path.join(DELIVERY_DIR, `${slug}.webp`));
 await sharp(buf)
-	.resize({ width: 400, withoutEnlargement: true })
+	.resize({ width: 480, withoutEnlargement: true })
 	.webp({ quality: 72 })
 	.toFile(path.join(DELIVERY_DIR, `s-${slug}.webp`));
 

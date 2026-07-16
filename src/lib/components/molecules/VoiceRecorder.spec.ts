@@ -40,19 +40,32 @@ class MockMediaRecorder {
 
 describe('VoiceRecorder', () => {
 	const getUserMediaMock = vi.fn();
+	const queryPermissionMock = vi.fn();
 	const stopTrackMock = vi.fn();
 	const fetchMock = vi.fn();
+	let permissionState: PermissionState;
+	let permissionStatus: PermissionStatus;
 
 	beforeEach(() => {
 		MockMediaRecorder.instances = [];
 		MockMediaRecorder.isTypeSupported.mockClear();
 		getUserMediaMock.mockReset();
+		queryPermissionMock.mockReset();
 		stopTrackMock.mockReset();
 		fetchMock.mockReset();
+		permissionState = 'prompt';
+		permissionStatus = {
+			get state() {
+				return permissionState;
+			},
+			addEventListener: vi.fn(),
+			removeEventListener: vi.fn()
+		} as unknown as PermissionStatus;
 
 		getUserMediaMock.mockResolvedValue({
 			getTracks: () => [{ stop: stopTrackMock }]
 		});
+		queryPermissionMock.mockResolvedValue(permissionStatus);
 		fetchMock.mockResolvedValue({
 			ok: true,
 			json: vi.fn().mockResolvedValue({ transcript: 'A polished voice answer.' })
@@ -62,7 +75,12 @@ describe('VoiceRecorder', () => {
 		vi.stubGlobal('fetch', fetchMock);
 		vi.stubGlobal('navigator', {
 			language: 'en-US',
-			mediaDevices: { getUserMedia: getUserMediaMock }
+			userAgent:
+				'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/140.0 Safari/537.36',
+			platform: 'MacIntel',
+			maxTouchPoints: 0,
+			mediaDevices: { getUserMedia: getUserMediaMock },
+			permissions: { query: queryPermissionMock }
 		});
 	});
 
@@ -82,6 +100,10 @@ describe('VoiceRecorder', () => {
 		expect(getByText('Review the transcript before you post.')).toBeTruthy();
 
 		await fireEvent.click(getByRole('button', { name: 'Record your answer' }));
+		expect(getByRole('dialog', { name: 'Use your microphone?' })).toBeTruthy();
+		expect(getUserMediaMock).not.toHaveBeenCalled();
+
+		await fireEvent.click(getByRole('button', { name: 'Allow microphone' }));
 		await waitFor(() => expect(MockMediaRecorder.instances).toHaveLength(1));
 
 		const recorder = MockMediaRecorder.instances[0];
@@ -100,20 +122,44 @@ describe('VoiceRecorder', () => {
 		expect(stopTrackMock).toHaveBeenCalledOnce();
 	});
 
-	it('keeps typing available when microphone permission is denied', async () => {
-		getUserMediaMock.mockRejectedValue(new DOMException('Denied', 'NotAllowedError'));
+	it('shows browser-specific recovery when microphone permission is denied', async () => {
+		getUserMediaMock.mockImplementation(() => {
+			permissionState = 'denied';
+			return Promise.reject(new DOMException('Denied', 'NotAllowedError'));
+		});
 		const ontranscript = vi.fn();
-		const { getByRole } = render(VoiceRecorder, { props: { ontranscript } });
+		const { getByRole, getByText } = render(VoiceRecorder, { props: { ontranscript } });
 
 		await waitFor(() => expect(getByRole('button', { name: 'Record your answer' })).toBeTruthy());
 		await fireEvent.click(getByRole('button', { name: 'Record your answer' }));
+		await fireEvent.click(getByRole('button', { name: 'Allow microphone' }));
 
 		await waitFor(() => {
-			expect(getByRole('alert').textContent).toContain('Microphone access was blocked');
+			expect(getByRole('dialog', { name: 'Microphone is blocked' })).toBeTruthy();
 		});
+		expect(getByText(/site controls icon beside the address bar/i)).toBeTruthy();
+		expect(getByRole('button', { name: 'Try microphone again' })).toBeTruthy();
 
 		expect(fetchMock).not.toHaveBeenCalled();
 		expect(ontranscript).not.toHaveBeenCalled();
+
+		await fireEvent.click(getByRole('button', { name: 'Keep typing' }));
 		expect(getByRole('button', { name: 'Record your answer' })).toBeTruthy();
+
+		await fireEvent.click(getByRole('button', { name: 'Record your answer' }));
+		expect(getByRole('dialog', { name: 'Microphone is blocked' })).toBeTruthy();
+		expect(getUserMediaMock).toHaveBeenCalledOnce();
+	});
+
+	it('starts immediately when microphone permission was already granted', async () => {
+		permissionState = 'granted';
+		const ontranscript = vi.fn();
+		const { getByRole, queryByRole } = render(VoiceRecorder, { props: { ontranscript } });
+
+		await waitFor(() => expect(queryPermissionMock).toHaveBeenCalledOnce());
+		await fireEvent.click(getByRole('button', { name: 'Record your answer' }));
+
+		await waitFor(() => expect(MockMediaRecorder.instances).toHaveLength(1));
+		expect(queryByRole('dialog')).toBeNull();
 	});
 });

@@ -2,8 +2,12 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
 	import { LoaderCircle, Mic, Square } from '@lucide/svelte';
+	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 
 	type VoicePhase = 'idle' | 'preparing' | 'recording' | 'transcribing';
+	type MicrophonePermission = PermissionState | 'unknown';
+	type PermissionDialogState = 'intro' | 'blocked' | 'missing' | 'busy' | 'unavailable';
 
 	type SpeechRecognitionResultLike = {
 		isFinal: boolean;
@@ -34,6 +38,7 @@
 	};
 
 	interface Props {
+		id?: string;
 		disabled?: boolean;
 		label?: string;
 		onbeforestart?: () => void;
@@ -42,6 +47,7 @@
 	}
 
 	let {
+		id = 'voice-recorder',
 		disabled = false,
 		label = 'Record your answer',
 		onbeforestart,
@@ -51,9 +57,15 @@
 
 	const MAX_RECORDING_SECONDS = 120;
 	const PREFERRED_MIME_TYPES = ['audio/webm', 'audio/ogg', 'audio/mp4', 'audio/mpeg'];
+	let permissionModalId = $derived(`${id}-permission`);
+	let permissionTitleId = $derived(`${permissionModalId}-title`);
+	let permissionDescriptionId = $derived(`${permissionModalId}-description`);
+	let permissionPrimaryId = $derived(`${permissionModalId}-primary`);
 
 	let phase = $state<VoicePhase>('idle');
 	let isSupported = $state(false);
+	let microphonePermission = $state<MicrophonePermission>('unknown');
+	let permissionDialogState = $state<PermissionDialogState>('intro');
 	let durationSeconds = $state(0);
 	let liveTranscript = $state('');
 	let voiceError = $state('');
@@ -70,6 +82,7 @@
 	let maxDurationTimer: ReturnType<typeof setTimeout> | null = null;
 	let recognitionRestartTimer: ReturnType<typeof setTimeout> | null = null;
 	let transcriptionController: AbortController | null = null;
+	let permissionStatus: PermissionStatus | null = null;
 
 	const isRecording = $derived(phase === 'recording');
 	const isTranscribing = $derived(phase === 'transcribing');
@@ -79,6 +92,26 @@
 		if (phase === 'recording') return `Stop recording, ${formatDuration(durationSeconds)}`;
 		if (phase === 'transcribing') return 'Transcribing your recording…';
 		return label;
+	});
+	const permissionDialogTitle = $derived.by(() => {
+		if (permissionDialogState === 'blocked') return 'Microphone is blocked';
+		if (permissionDialogState === 'missing') return 'No microphone found';
+		if (permissionDialogState === 'busy') return 'Microphone is in use';
+		if (permissionDialogState === 'unavailable') return 'Couldn’t open the microphone';
+		return 'Use your microphone?';
+	});
+	const permissionDialogDescription = $derived.by(() => {
+		if (permissionDialogState === 'blocked') return getBlockedMicrophoneInstructions();
+		if (permissionDialogState === 'missing') {
+			return 'Connect or enable a microphone, then try again. You can keep typing in the meantime.';
+		}
+		if (permissionDialogState === 'busy') {
+			return 'Another app or browser tab may be using your microphone. Close it, then try again.';
+		}
+		if (permissionDialogState === 'unavailable') {
+			return 'Your browser couldn’t start the microphone. Check this site’s microphone permission, then try again.';
+		}
+		return '9takes turns your recording into editable text. You can review it before anything is posted.';
 	});
 
 	function setPhase(nextPhase: VoicePhase) {
@@ -182,23 +215,100 @@
 		}
 	}
 
-	function permissionErrorMessage(error: unknown): string {
-		if (error instanceof DOMException) {
-			if (error.name === 'NotAllowedError') {
-				return 'Microphone access was blocked. Allow it in your browser and try again.';
-			}
-			if (error.name === 'NotFoundError') return 'No microphone was found.';
-			if (error.name === 'NotReadableError') {
-				return 'Your microphone is busy in another app.';
-			}
-		}
-		return 'Could not start the microphone. Please try again.';
-	}
-
 	function fail(message: string) {
 		voiceError = message;
 		liveTranscript = '';
 		setPhase('idle');
+	}
+
+	function getBlockedMicrophoneInstructions(): string {
+		if (typeof navigator === 'undefined') {
+			return 'Open this site’s permissions in your browser, allow Microphone, then try again.';
+		}
+
+		const userAgent = navigator.userAgent ?? '';
+		const platform = navigator.platform ?? '';
+		const isIOS =
+			/iPad|iPhone|iPod/i.test(userAgent) ||
+			(platform === 'MacIntel' && (navigator.maxTouchPoints ?? 0) > 1);
+
+		if (isIOS && /CriOS/i.test(userAgent)) {
+			return 'Open iPhone Settings, choose Chrome, and turn on Microphone. Then return here and try again.';
+		}
+		if (isIOS && /FxiOS/i.test(userAgent)) {
+			return 'Open iPhone Settings, choose Firefox, and turn on Microphone. Then return here and try again.';
+		}
+		if (isIOS) {
+			return 'In Safari, open the Page Menu, choose More, then Website Settings and allow Microphone. You can also check Settings → Apps → Safari → Microphone.';
+		}
+		if (/Firefox/i.test(userAgent)) {
+			return 'Click the permissions icon beside the address bar, clear the blocked Microphone setting, then try again.';
+		}
+		if (/Safari/i.test(userAgent) && !/Chrome|Chromium|CriOS|Edg/i.test(userAgent)) {
+			return 'Open Safari → Settings → Websites → Microphone, then allow this site and try again.';
+		}
+		if (/Chrome|Chromium|Edg/i.test(userAgent)) {
+			return 'Click the site controls icon beside the address bar, set Microphone to Allow, then try again.';
+		}
+
+		return 'Open this site’s permissions in your browser, allow Microphone, then try again.';
+	}
+
+	function handlePermissionChange() {
+		if (!permissionStatus) return;
+		microphonePermission = permissionStatus.state;
+	}
+
+	async function watchMicrophonePermission() {
+		if (typeof navigator === 'undefined' || !navigator.permissions?.query) return;
+
+		try {
+			const nextStatus = await navigator.permissions.query({
+				name: 'microphone' as PermissionName
+			});
+			if (destroyed) return;
+			permissionStatus?.removeEventListener('change', handlePermissionChange);
+			permissionStatus = nextStatus;
+			microphonePermission = nextStatus.state;
+			nextStatus.addEventListener('change', handlePermissionChange);
+		} catch {
+			// Safari and older browsers may not expose microphone permission status.
+			if (microphonePermission !== 'denied') microphonePermission = 'unknown';
+		}
+	}
+
+	function openPermissionDialog(state: PermissionDialogState) {
+		permissionDialogState = state;
+		getModal(permissionModalId)?.open();
+	}
+
+	function closePermissionDialog() {
+		getModal(permissionModalId)?.close();
+	}
+
+	function handleMicrophoneError(error: unknown) {
+		stopMediaTracks();
+		liveTranscript = '';
+		setPhase('idle');
+
+		if (error instanceof DOMException) {
+			if (error.name === 'NotAllowedError' || error.name === 'SecurityError') {
+				microphonePermission = 'denied';
+				openPermissionDialog('blocked');
+				void watchMicrophonePermission();
+				return;
+			}
+			if (error.name === 'NotFoundError') {
+				openPermissionDialog('missing');
+				return;
+			}
+			if (error.name === 'NotReadableError' || error.name === 'AbortError') {
+				openPermissionDialog('busy');
+				return;
+			}
+		}
+
+		openPermissionDialog('unavailable');
 	}
 
 	async function startRecording() {
@@ -221,6 +331,8 @@
 					autoGainControl: true
 				}
 			});
+			microphonePermission = 'granted';
+			closePermissionDialog();
 
 			if (destroyed) {
 				stopMediaTracks();
@@ -271,8 +383,7 @@
 			}, 1000);
 			maxDurationTimer = setTimeout(() => void stopRecording(), MAX_RECORDING_SECONDS * 1000);
 		} catch (error) {
-			stopMediaTracks();
-			fail(permissionErrorMessage(error));
+			handleMicrophoneError(error);
 		}
 	}
 
@@ -353,13 +464,15 @@
 
 	function toggleRecording() {
 		if (isRecording) stopRecording();
-		else void startRecording();
+		else if (microphonePermission === 'granted') void startRecording();
+		else openPermissionDialog(microphonePermission === 'denied' ? 'blocked' : 'intro');
 	}
 
 	onMount(() => {
 		isSupported =
 			typeof MediaRecorder !== 'undefined' &&
 			typeof navigator.mediaDevices?.getUserMedia === 'function';
+		if (isSupported) void watchMicrophonePermission();
 	});
 
 	onDestroy(() => {
@@ -368,6 +481,8 @@
 		stopSpeechRecognition();
 		transcriptionController?.abort();
 		transcriptionController = null;
+		permissionStatus?.removeEventListener('change', handlePermissionChange);
+		permissionStatus = null;
 
 		if (mediaRecorder && mediaRecorder.state !== 'inactive') {
 			mediaRecorder.onstop = null;
@@ -433,6 +548,52 @@
 			<p class="voice-capture__error" role="alert">{voiceError}</p>
 		{/if}
 	</div>
+
+	<Modal
+		id={permissionModalId}
+		name={permissionDialogTitle}
+		labelledBy={permissionTitleId}
+		describedBy={permissionDescriptionId}
+		initialFocus={`#${permissionPrimaryId}`}
+		maxWidth="30rem"
+	>
+		<div class="permission-dialog" aria-live="polite">
+			<div class="permission-dialog__icon" aria-hidden="true">
+				<Mic size={24} />
+			</div>
+			<div class="permission-dialog__copy">
+				<p class="permission-dialog__eyebrow">Voice recording</p>
+				<h2 id={permissionTitleId}>{permissionDialogTitle}</h2>
+				<p id={permissionDescriptionId}>{permissionDialogDescription}</p>
+				{#if permissionDialogState === 'intro'}
+					<p class="permission-dialog__note">Your browser will ask for permission next.</p>
+				{/if}
+			</div>
+			<div class="permission-dialog__actions">
+				<Button
+					id={permissionPrimaryId}
+					variant="primary"
+					size="lg"
+					fullWidth
+					type="button"
+					loading={phase === 'preparing'}
+					onclick={() => void startRecording()}
+				>
+					{permissionDialogState === 'intro' ? 'Allow microphone' : 'Try microphone again'}
+				</Button>
+				<Button
+					variant="secondary"
+					size="md"
+					fullWidth
+					type="button"
+					disabled={phase === 'preparing'}
+					onclick={closePermissionDialog}
+				>
+					{permissionDialogState === 'intro' ? 'Not now' : 'Keep typing'}
+				</Button>
+			</div>
+		</div>
+	</Modal>
 {/if}
 
 <style>
@@ -556,6 +717,69 @@
 
 	.voice-capture__error {
 		color: var(--error-text);
+	}
+
+	.permission-dialog {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		padding: 0.25rem 0;
+		text-align: center;
+	}
+
+	.permission-dialog__icon {
+		display: grid;
+		width: 3.5rem;
+		height: 3.5rem;
+		place-items: center;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 45%, var(--stone-edge));
+		border-radius: 999px;
+		background: var(--lamp-soft);
+		color: var(--lamp-glow);
+	}
+
+	.permission-dialog__copy {
+		display: grid;
+		gap: 0.5rem;
+	}
+
+	.permission-dialog__copy h2,
+	.permission-dialog__copy p {
+		margin: 0;
+	}
+
+	.permission-dialog__eyebrow {
+		color: var(--lamp-glow);
+		font-size: 0.7rem;
+		font-weight: 750;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.permission-dialog__copy h2 {
+		color: var(--ink-bright);
+		font-size: clamp(1.35rem, 5vw, 1.75rem);
+		line-height: 1.15;
+	}
+
+	.permission-dialog__copy > p:not(.permission-dialog__eyebrow):not(.permission-dialog__note) {
+		color: var(--ink-mid);
+		font-size: 0.95rem;
+		line-height: 1.55;
+	}
+
+	.permission-dialog__note {
+		color: var(--ink-dim);
+		font-size: 0.78rem;
+		line-height: 1.4;
+	}
+
+	.permission-dialog__actions {
+		display: grid;
+		width: 100%;
+		gap: 0.65rem;
+		padding-top: 0.25rem;
 	}
 
 	:global(.voice-capture__spinner) {
