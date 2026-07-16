@@ -1,0 +1,14 @@
+Second pass complete on `src/blog/people/drafts/Pete-Hegseth.md`. Source audit went from **0 inline / 4 vague / 2 untagged → 4 inline / 2 vague / 0 untagged**, and lint passes (0 fail, 1 pre-existing-style warn on comparative contrast patterns, now noted in the fingerprint ledger).
+
+**Fact correction worth knowing about:** the draft had the "Central Casting" bicep moment at an August 2025 cabinet meeting. It actually happened **May 27, 2026** (The Independent), and Trump's full line is better than the draft knew: *"Central Casting. He loves war."* Fixed in the body, TL;DR, and testimony ledger.
+
+**Main changes, all verified by research before writing:**
+- **2019 pardon lobbying added** (the fresh-eyes review's biggest catch): as a Fox host, Hegseth privately lobbied Trump for Gallagher, Lorance, and Golsteyn (CNN, May 2019); Trump pardoned two and restored Gallagher's rank that November over Pentagon objections. It now sits in the AAR section as the precedent beat, making 2019 pardons → "kill them all" → refused video one accountability through-line.
+- **The 32-day reversal got its darker 2026 epilogue**: NYT-reported July 2026 block of seven Navy two-star promotions (five women or people of color, including Bauernschmidt), first year in a decade with no active-duty woman making admiral. New close: "The Senate heard the recalibrated answer. The promotion list runs on the original one." The TL;DR bullet and FAQs 2/4 were converted from full retellings into teasers, and the duplicate 8-vs-3 sentence in the rabbit hole was cut.
+- **Childhood de-wallpapered**: his father coached the basketball team at Pete's own high school, the three-point records (the shot the scorebook weights extra), and his 2015 Forest Lake Press quote: "I was a short, slow guy who had no business playing basketball."
+- **Deployments tension moved into the main body** — the type explains the narration, not the courage — plus an audience-of-one paragraph (Washington/Lincoln flattery at the same May 2026 meeting) and a faith-as-governance line (religion codes cut 200+ → 31, 22 of them Christian).
+- Warren's "deathbed conversions" line added, 8 new citations in frontmatter, `lastmod` untouched.
+
+**Rejected:** the fresh-eyes "infected by political correctness" quote for the religion cuts — I couldn't verify that phrasing, so I used the verified numbers instead.
+
+**Still open:** the Murkowski and Central Casting quotes rate "vague" in the audit (correct year and venue, but no audit-recognized outlet adjacent — The Independent isn't in the script's outlet list). And Operation Epic Fury / the Iran war (May 2026) surfaced during research but is deliberately out of scope; if you want it covered, that's an editor-pass decision since it would need its own beat.

@@ -1,0 +1,24 @@
+Permission allow rule (../.claude/settings.local.json): Write(/tmp/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/tmp/**) instead (Edit rules cover all file-editing tools).
+Draft complete. Here's the run report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Pete-Hegseth.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony): pass — 6 qualifying named quotes | Gate 2 (heading mix): pass — 5 of 6 H2s search-intent/hybrid | Gate 4 (anti-imitation): pass — zero "A [Type]" ending sentences, no anaphora | Gate 5 (distribution): pass — 1 type-theory paragraph outside diagnosis/Rabbit Hole (limit 4) | Gate 6 (formula fingerprint): pass — 0 strong contrast pairs, similarity scan clear, bespoke AAR section, Ullyot critic anchor, empathy turn, July-2026 current anchor, ending swap-test pass
+LIMITATIONS: wikidata_qid/imdb_id omitted (couldn't verify; frontmatter-enrich can add later); one full transcript reviewed (Shawn Ryan Show #143 via published transcript) with remaining quotes verified through press coverage; all allegations (drinking, Monterey, "kill them all" order) presented with his denials attributed
+```
+
+**The thesis:** Pete Hegseth as Enneagram Type 3 (Social 3, likely 3w2), built around the question "why does a man with the real resume still need the cameras this badly?" The hook is the 2015 Fox & Friends axe throw that wounded an actual West Point soldier; the skeleton key is his own line, "I joined the army to fight extremists in 2001. 20 years later, that same army labeled me one"; the tiebreaker evidence is the 32-day reversal on women in combat once the audience changed from a podcast to the Senate. The ending runs through his own book title (*In the Arena*) back at Roosevelt. Body is 3,612 words.
+
+**Deterministic checks (all run 2026-07-16):** `blog-lint.sh` 0 fail / 1 warn (a single allowed comparative), `blog-quality-report.mjs` 0 strong contrast pairs + head-term PASS + 49-word extractable answer block, `same-type-similarity.mjs --n 8` clear at max 0.037 (threshold 0.04). The scan initially tripped three times against recent Type 3 drafts (n3on, David-Beckham, Kiernan-Shipka/xochitl-gomez — including the literal "X is an Enneagram Type 3" answer sentence, which those drafts shipped with); I rewrote each colliding unit until clear. I also deliberately steered away from the JD Vance draft's chameleon/"reads the room" thesis since he's the closest same-type political neighbor.
+
+**Internal links added (6 total):**
+- Donald Trump → `/personality-analysis/donald-trump` (TL;DR)
+- Enneagram Type 3 → `/enneagram-corner/enneagram-type-3` (diagnosis)
+- JD Vance → `/personality-analysis/jd-vance` (tiebreak vote)
+- Types in stress → `/enneagram-corner/enneagram-types-in-stress` (drinking-years bridge)
+- Wings + instinctual subtypes guides (Rabbit Hole)
+
+Grading is not part of this command — next step in the pipeline is `/grade_blog`, and the draft stays `published: false` pending human review before `blog_content_production_people`.

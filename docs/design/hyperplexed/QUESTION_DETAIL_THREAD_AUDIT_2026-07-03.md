@@ -45,6 +45,18 @@ Post-fix live verification:
 - [articles tab] The live sample had no links and the empty state was only "No linked articles yet." The populated card path still uses a fixed 300px image card with a dark text patch over media rather than a predictable scrim and text priority order. Give the empty state a useful sentence, and convert populated links to auto-height rows/cards with line clamps and a real image scrim. -> P6+P10+P1
 - [AI carousel] The unlocked AI carousel is browser-only, uses tiny dot tabs, has no arrow-key handling, runs transform/opacity transitions without reduced-motion handling, and the label "Enneagram Takes (stereotypes)" undercuts the rest of the page's warmer editorial tone. Treat it as a compact "Sample type perspectives" preview, make controls keyboard-complete, and gate motion. -> P6+P13+P11
 
+## Composer Refinement - 2026-07-16
+
+- [first-answer composer] Voice capture no longer renders as a separate mini-section between the textarea and submit footer. `Record your answer` now sits at the left of the unified action row, `Post answer` sits at the right, and the old footer divider/background were removed. The specialized recording control keeps its 44px target, focus ring, disabled/busy states, and reduced-motion treatment. -> P8+P13
+- [first-answer microcopy] The flow now uses one noun consistently: `Your answer`, `Record your answer`, `Post answer`, and `Answer posted`. Returning question commenters and replies derive the matching `comment` / `reply` language. The textarea example is shorter, the Ctrl/Command+Enter hint and passive character counter are gone, and the transcript reassurance is demoted to `Review the transcript before you post.` -> P6+P4
+- [responsive action row] Desktop keeps record/help and submit on one line. At 390px, the two actions become full-width stacked controls, the idle helper hides, and the page retains zero horizontal overflow. -> P1+P4+P8
+
+Fresh live verification:
+
+- Desktop light and dark at 1440x1000: record and post share one visually continuous composer surface; no footer border/background; no horizontal overflow in empty or filled states.
+- Mobile dark at 390x844: controls stack full-width, the idle helper hides, microcopy remains readable, and document overflow remains zero.
+- Browser console: zero errors during the composer-open, filled-answer, theme, and responsive checks.
+
 ## Tier 3 - polish/signature (motion/effects, at most one per surface)
 
 - [motion pass] The surface already has enough visual identity from the type-color stripe and Streetlamp case-file styling. Do not add P14-P18 signature effects yet. First gate the existing `slide`, `fade`, hover translate, carousel transform, spinner, and modal fly/scale motion for reduced-motion users. -> P11

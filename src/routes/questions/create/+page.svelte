@@ -1,6 +1,6 @@
 <!-- src/routes/questions/create/+page.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { deserialize } from '$app/forms';
@@ -26,15 +26,33 @@
 	let preparing = $state(false);
 	let loading = $state(false);
 	let createdQuestionPath = $state<string | null>(null);
+	let loadingStatus = $state<HTMLDivElement | null>(null);
 	// Social-card preview scales from its measured width (card art is 1200×630).
 	// Fixed 320px tiers clipped inside the modal at ≤390px (2026-06-11 audit).
 	let previewWidth = $state(0);
 	type CreateProgressStage = 'saving' | 'generatingImage' | 'redirecting';
+	const CREATE_PROGRESS_STEPS: Array<{ stage: CreateProgressStage; label: string }> = [
+		{ stage: 'saving', label: 'Save question' },
+		{ stage: 'generatingImage', label: 'Prepare card' },
+		{ stage: 'redirecting', label: 'Open discussion' }
+	];
 	let createProgressStage = $state<CreateProgressStage>('saving');
+	let createProgressIndex = $derived(
+		CREATE_PROGRESS_STEPS.findIndex((step) => step.stage === createProgressStage)
+	);
+	let createProgressTitle = $derived.by(() => {
+		if (createProgressStage === 'saving') return 'Saving your question';
+		if (createProgressStage === 'generatingImage') return 'Question saved';
+		return 'Question created';
+	});
 	let createProgressMessage = $derived.by(() => {
-		if (createProgressStage === 'saving') return 'Saving your question...';
-		if (createProgressStage === 'generatingImage') return 'Preparing your question card...';
-		return 'Question created. Taking you there now...';
+		if (createProgressStage === 'saving') {
+			return 'Securing your question and preparing its discussion page.';
+		}
+		if (createProgressStage === 'generatingImage') {
+			return 'Finishing the share card before we open the discussion.';
+		}
+		return 'Opening your new discussion now.';
 	});
 	let html2canvasModule = $state<
 		((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>) | null
@@ -48,6 +66,7 @@
 	const MIN_CHAR_COUNT = 10;
 	const MAX_CHAR_COUNT = 280;
 	const MAX_CONTEXT_CHAR_COUNT = 2000;
+	const IMAGE_GENERATION_TIMEOUT_MS = 10000;
 	const IMAGE_UPLOAD_TIMEOUT_MS = 7000;
 	const SOCIAL_CARD_CAPTURE_ID = 'question-social-card-capture';
 	let normalizedQuestion = $derived(question.trim().replace(/\s+/g, ' '));
@@ -83,11 +102,16 @@
 
 	async function getUrl() {
 		if (createdQuestionPath) {
+			preparing = true;
+			questionError = '';
 			try {
 				await goto(createdQuestionPath);
 			} catch (error) {
 				console.error('Error opening created question:', error);
+				questionError = 'Your question is ready, but it could not be opened yet.';
 				notifications.warning('Your question was created, but it could not be opened yet.', 5000);
+			} finally {
+				preparing = false;
 			}
 			return;
 		}
@@ -217,6 +241,8 @@
 	}
 
 	async function createQuestion() {
+		let navigationCompleted = false;
+
 		try {
 			if (loading) return;
 			if (createdQuestionPath) {
@@ -225,6 +251,8 @@
 			}
 			loading = true;
 			createProgressStage = 'saving';
+			await tick();
+			loadingStatus?.focus({ preventScroll: true });
 
 			if (!data?.session?.user?.id) {
 				notifications.info('Please login to create a question', 3000);
@@ -267,7 +295,12 @@
 
 			try {
 				createProgressStage = 'generatingImage';
-				const png = await generateQuestionImage(SOCIAL_CARD_CAPTURE_ID);
+				// Let the social card render the final collision-safe URL before capture.
+				await tick();
+				const png = await withTimeout(
+					generateQuestionImage(SOCIAL_CARD_CAPTURE_ID),
+					IMAGE_GENERATION_TIMEOUT_MS
+				);
 				// Check image size (rough estimate: base64 is ~1.37x larger than binary)
 				const estimatedSize = png.length * 0.75;
 				if (estimatedSize > 10 * 1024 * 1024) {
@@ -296,9 +329,10 @@
 			}
 
 			createProgressStage = 'redirecting';
-			notifications.success('Question created successfully!', 3000);
-			getModal('question-create')?.close();
+			await tick();
 			await goto(createdQuestionPath);
+			navigationCompleted = true;
+			notifications.success('Question created successfully!', 3000);
 		} catch (error) {
 			console.error('Error creating question:', error);
 			if (createdQuestionPath) {
@@ -314,7 +348,7 @@
 			notifications.danger(message, 5000);
 			createProgressStage = 'saving';
 		} finally {
-			loading = false;
+			if (!navigationCompleted) loading = false;
 		}
 	}
 
@@ -436,18 +470,71 @@
 	>
 		{#if loading}
 			<div
-				class="bg-[var(--night-deep)]/95 absolute inset-0 z-20 flex flex-col items-center justify-center rounded-xl px-6 text-center"
+				class="absolute inset-0 z-20 flex flex-col items-center justify-center rounded-xl bg-[var(--night-deep)] px-6 text-center"
 				in:fade={{ duration: 150 }}
+				bind:this={loadingStatus}
+				role="status"
+				aria-live="polite"
+				aria-atomic="true"
+				tabindex="-1"
 			>
-				<div class="loader"></div>
+				{#if createProgressStage === 'redirecting'}
+					<div
+						class="flex h-12 w-12 items-center justify-center rounded-full border border-[var(--lamp-soft)] bg-[var(--lamp-soft)] text-[var(--lamp-glow)]"
+						aria-hidden="true"
+					>
+						<svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor">
+							<path
+								d="m5 12 4 4L19 6"
+								stroke-width="2.25"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							></path>
+						</svg>
+					</div>
+				{:else}
+					<div class="creation-spinner" aria-hidden="true"></div>
+				{/if}
 				<h3 class="mt-5 text-xl font-semibold text-[var(--lamp-glow)]">
-					{createProgressStage === 'redirecting' ? 'Question Created' : 'Creating Question'}
+					{createProgressTitle}
 				</h3>
 				<p class="mt-2 max-w-sm text-sm text-[var(--ink-mid)]">{createProgressMessage}</p>
+
+				<ol class="mt-6 grid w-full max-w-md grid-cols-3 gap-2" aria-label="Creation progress">
+					{#each CREATE_PROGRESS_STEPS as step, index}
+						<li
+							class={`flex flex-col items-center gap-2 text-xs font-medium ${index <= createProgressIndex ? 'text-[var(--ink-bright)]' : 'text-[var(--ink-dim)]'}`}
+							aria-current={index === createProgressIndex ? 'step' : undefined}
+						>
+							<span
+								class={`flex h-6 w-6 items-center justify-center rounded-full border ${index <= createProgressIndex ? 'border-[var(--lamp-glow)]' : 'border-[var(--stone-edge)]'} ${index < createProgressIndex ? 'bg-[var(--lamp-glow)] text-[var(--text-on-primary)]' : ''}`}
+								aria-hidden="true"
+							>
+								{#if index < createProgressIndex}
+									<svg viewBox="0 0 16 16" class="h-3.5 w-3.5" fill="none" stroke="currentColor">
+										<path
+											d="m3 8 3 3 7-7"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										></path>
+									</svg>
+								{:else if index === createProgressIndex}
+									<span class="h-2 w-2 rounded-full bg-[var(--lamp-glow)]"></span>
+								{/if}
+							</span>
+							<span>{step.label}</span>
+						</li>
+					{/each}
+				</ol>
 			</div>
 		{/if}
 
-		<div class={loading ? 'pointer-events-none select-none opacity-40' : ''}>
+		<div
+			class={loading ? 'pointer-events-none select-none opacity-0' : ''}
+			inert={loading}
+			aria-hidden={loading ? 'true' : undefined}
+		>
 			<h2 class="mt-0 text-2xl font-semibold text-[var(--lamp-glow)]">Create Question</h2>
 
 			<div class="mt-4 rounded-xl border border-[var(--lamp-soft)] bg-[var(--stone-warm)] p-4">
@@ -483,3 +570,27 @@
 		questionUrl={questionPublicUrl}
 	/>
 </div>
+
+<style>
+	.creation-spinner {
+		width: 3rem;
+		height: 3rem;
+		border: 3px solid var(--lamp-soft);
+		border-top-color: var(--lamp-glow);
+		border-radius: 9999px;
+		animation: creation-spin 0.8s linear infinite;
+		box-shadow: var(--glow-sm);
+	}
+
+	@keyframes creation-spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.creation-spinner {
+			animation: none;
+		}
+	}
+</style>

@@ -1,0 +1,21 @@
+Frontmatter enrichment complete: Pete-Hegseth
+
+The draft arrived mostly enriched from the creator pass, so this was a gap-fill: I added the two missing entity identifiers and brought `same_as` up to spec. Body, comment blocks, and `lastmod` untouched.
+
+**Fields filled:**
+- `wikidata_qid: 'Q7172014'` — verified via Wikipedia pageprops; entity label and birth date (1980-06-06) match the draft
+- `imdb_id: 'nm2886912'` — cross-checked via Wikidata property P345 per the verification rule
+- `same_as` — appended the Wikidata and IMDb URLs (was 2 entries, below the 3–6 target; now 4, in priority order with war.gov kept last)
+
+**Fields already present (preserved):**
+- `wikipedia`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about` (real expertise areas, not the templated backfill pattern), `keywords`, `citations` (19 URLs), and all creator-owned fields
+
+**FAQs preserved (4)** — all substantive and body-derived, so strict idempotency applied:
+1. What is Pete Hegseth's personality type? → #what-is-pete-hegseths-personality-type
+2. Why is Pete Hegseth typed as an Enneagram Type 3? → #why-is-pete-hegseth-typed-as-an-enneagram-type-3
+3. Is Pete Hegseth an Enneagram Type 8? → #is-pete-hegseth-an-enneagram-type-8
+4. Why did Pete Hegseth change his position on women in combat? → #why-did-pete-hegseth-change-his-position-on-women-in-combat
+
+**Issues:** none. Citations are plentiful (19), the FAQ block clears the 2-entry threshold for FAQPage JSON-LD, and the existing `wikipedia` URL points at the correct entity. One non-blocking observation: Wikidata's entity description still reads "United States Secretary of Defense" (predates the Department of War rebrand), which doesn't affect anything we render.
+
+Sources: [Wikipedia API — Pete Hegseth pageprops](https://en.wikipedia.org/w/api.php?action=query&titles=Pete%20Hegseth&prop=pageprops&ppprop=wikibase_item&format=json), [Wikidata Q7172014](https://www.wikidata.org/wiki/Special:EntityData/Q7172014.json)

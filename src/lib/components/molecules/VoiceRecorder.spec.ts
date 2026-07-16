@@ -1,3 +1,4 @@
+// src/lib/components/molecules/VoiceRecorder.spec.ts
 // @vitest-environment jsdom
 
 import { fireEvent, render, waitFor } from '@testing-library/svelte';
@@ -77,10 +78,10 @@ describe('VoiceRecorder', () => {
 			props: { ontranscript, onbusychange }
 		});
 
-		await waitFor(() => expect(getByRole('button', { name: 'Record answer' })).toBeTruthy());
-		expect(getByText('Speak naturally. Audio is transcribed, not posted.')).toBeTruthy();
+		await waitFor(() => expect(getByRole('button', { name: 'Record your answer' })).toBeTruthy());
+		expect(getByText('Review the transcript before you post.')).toBeTruthy();
 
-		await fireEvent.click(getByRole('button', { name: 'Record answer' }));
+		await fireEvent.click(getByRole('button', { name: 'Record your answer' }));
 		await waitFor(() => expect(MockMediaRecorder.instances).toHaveLength(1));
 
 		const recorder = MockMediaRecorder.instances[0];
@@ -104,8 +105,8 @@ describe('VoiceRecorder', () => {
 		const ontranscript = vi.fn();
 		const { getByRole } = render(VoiceRecorder, { props: { ontranscript } });
 
-		await waitFor(() => expect(getByRole('button', { name: 'Record answer' })).toBeTruthy());
-		await fireEvent.click(getByRole('button', { name: 'Record answer' }));
+		await waitFor(() => expect(getByRole('button', { name: 'Record your answer' })).toBeTruthy());
+		await fireEvent.click(getByRole('button', { name: 'Record your answer' }));
 
 		await waitFor(() => {
 			expect(getByRole('alert').textContent).toContain('Microphone access was blocked');
@@ -113,6 +114,6 @@ describe('VoiceRecorder', () => {
 
 		expect(fetchMock).not.toHaveBeenCalled();
 		expect(ontranscript).not.toHaveBeenCalled();
-		expect(getByRole('button', { name: 'Record answer' })).toBeTruthy();
+		expect(getByRole('button', { name: 'Record your answer' })).toBeTruthy();
 	});
 });

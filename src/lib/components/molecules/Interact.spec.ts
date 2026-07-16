@@ -79,7 +79,7 @@ describe('Interact', () => {
 		const longComment =
 			'This is a detailed comment that is intentionally long enough to avoid the short-answer confirmation path and submit immediately.';
 
-		const { getByRole } = render(Interact, {
+		const { getByRole, queryByText } = render(Interact, {
 			intro: false,
 			props: {
 				parentType: 'question',
@@ -121,13 +121,14 @@ describe('Interact', () => {
 		await fireEvent.click(
 			getByRole('button', { name: /answer this question to unlock comments/i })
 		);
+		expect(queryByText(/press ctrl/i)).toBeNull();
 
 		const commentBox = getByRole('textbox');
 		await fireEvent.input(commentBox, {
 			target: { value: longComment }
 		});
 
-		const button = getByRole('button', { name: /post comment/i });
+		const button = getByRole('button', { name: /post answer/i });
 		await fireEvent.click(button);
 
 		await waitFor(() => {
@@ -146,7 +147,7 @@ describe('Interact', () => {
 			id: 123,
 			comment: 'Posted comment'
 		});
-		expect(notificationsSuccessMock).toHaveBeenCalledWith('Comment Added', 3000);
+		expect(notificationsSuccessMock).toHaveBeenCalledWith('Answer posted', 3000);
 		expect((commentBox as HTMLTextAreaElement).value).toBe('');
 	});
 
@@ -201,10 +202,10 @@ describe('Interact', () => {
 			target: { value: shortComment }
 		});
 
-		await fireEvent.click(getByRole('button', { name: /post comment/i }));
+		await fireEvent.click(getByRole('button', { name: /post answer/i }));
 
 		expect(fetchMock).not.toHaveBeenCalled();
-		expect(getByText(/your take could go deeper\./i)).toBeTruthy();
+		expect(getByText(/your answer could go deeper\./i)).toBeTruthy();
 
 		await fireEvent.click(getByRole('button', { name: /post anyway/i }));
 
@@ -216,6 +217,6 @@ describe('Interact', () => {
 			'Must register or login to comment multiple times',
 			3000
 		);
-		expect(notificationsSuccessMock).toHaveBeenCalledWith('Comment Added', 3000);
+		expect(notificationsSuccessMock).toHaveBeenCalledWith('Answer posted', 3000);
 	});
 });

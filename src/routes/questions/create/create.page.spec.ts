@@ -91,25 +91,35 @@ describe('Create Question page', () => {
 		vi.unstubAllGlobals();
 	});
 
-	it('preserves question punctuation and closes the modal before navigating', async () => {
+	it('preserves punctuation and keeps the loading handoff visible until navigation resolves', async () => {
+		let resolveNavigation!: () => void;
+		let resolveCreation!: (response: Response) => void;
+		let resolveUpload!: (response: Response) => void;
 		const fetchMock = vi.fn((input: RequestInfo | URL, _init?: RequestInit) => {
 			const requestUrl = String(input);
 			if (requestUrl === '?/getUrl') {
 				return Promise.resolve(actionResponse({ url: 'whats-best-way-handle-this' }));
 			}
 			if (requestUrl === '?/createQuestion') {
-				return Promise.resolve(actionResponse([{ id: 101, url: 'whats-best-way-handle-this-1' }]));
+				return new Promise<Response>((resolve) => {
+					resolveCreation = resolve;
+				});
 			}
 			if (requestUrl === '/api/questions/upload-image') {
-				return Promise.resolve(new Response(JSON.stringify({ success: true }), { status: 200 }));
+				return new Promise<Response>((resolve) => {
+					resolveUpload = resolve;
+				});
 			}
 
 			throw new Error(`Unexpected request: ${requestUrl}`);
 		});
 		vi.stubGlobal('fetch', fetchMock);
-		gotoMock.mockImplementation(async () => {
-			expect(document.body.style.overflow).toBe('');
-		});
+		gotoMock.mockImplementation(
+			() =>
+				new Promise<void>((resolve) => {
+					resolveNavigation = resolve;
+				})
+		);
 
 		render(CreateQuestionPage, {
 			props: {
@@ -127,10 +137,33 @@ describe('Create Question page', () => {
 
 		const confirmButton = await screen.findByRole('button', { name: /Yes, create question/i });
 		await fireEvent.click(confirmButton);
+		let progressStatus = screen.getByRole('status');
+		expect(progressStatus.textContent).toContain('Saving your question');
+		expect(progressStatus.textContent).toContain(
+			'Securing your question and preparing its discussion page.'
+		);
+		expect(document.activeElement).toBe(progressStatus);
+
+		resolveCreation(actionResponse([{ id: 101, url: 'whats-best-way-handle-this-1' }]));
+		await waitFor(() => {
+			expect(screen.getByRole('status').textContent).toContain('Question saved');
+		});
+		await waitFor(() => {
+			expect(
+				fetchMock.mock.calls.some(([input]) => String(input) === '/api/questions/upload-image')
+			).toBe(true);
+		});
+		resolveUpload(new Response(JSON.stringify({ success: true }), { status: 200 }));
 
 		await waitFor(() => {
 			expect(gotoMock).toHaveBeenCalledWith('/questions/whats-best-way-handle-this-1');
 		});
+		progressStatus = screen.getByRole('status');
+		expect(progressStatus.textContent).toContain('Question created');
+		expect(progressStatus.textContent).toContain('Opening your new discussion now.');
+		expect(document.activeElement).toBe(progressStatus);
+		expect(document.body.style.overflow).toBe('hidden');
+		expect(notificationMocks.success).not.toHaveBeenCalled();
 
 		const prepareBody = fetchMock.mock.calls[0]?.[1]?.body as FormData;
 		const createBody = fetchMock.mock.calls[1]?.[1]?.body as FormData;
@@ -141,7 +174,65 @@ describe('Create Question page', () => {
 		expect(createBody.get('question')).toBe(normalizedQuestion);
 		expect(createBody.has('author_id')).toBe(false);
 		expect(uploadBody.get('url')).toBe('whats-best-way-handle-this-1');
-		expect(notificationMocks.success).toHaveBeenCalledWith('Question created successfully!', 3000);
+		expect(uploadBody.getAll('img_url')).toHaveLength(1);
+
+		resolveNavigation();
+		await waitFor(() => {
+			expect(notificationMocks.success).toHaveBeenCalledWith(
+				'Question created successfully!',
+				3000
+			);
+		});
 		expect(notificationMocks.danger).not.toHaveBeenCalled();
+	});
+
+	it('recovers from a failed handoff without creating a duplicate question', async () => {
+		const fetchMock = vi.fn((input: RequestInfo | URL, _init?: RequestInit) => {
+			const requestUrl = String(input);
+			if (requestUrl === '?/getUrl') {
+				return Promise.resolve(actionResponse({ url: 'how-do-i-recover' }));
+			}
+			if (requestUrl === '?/createQuestion') {
+				return Promise.resolve(actionResponse([{ id: 102, url: 'how-do-i-recover' }]));
+			}
+			if (requestUrl === '/api/questions/upload-image') {
+				return Promise.resolve(new Response(JSON.stringify({ success: true }), { status: 200 }));
+			}
+
+			throw new Error(`Unexpected request: ${requestUrl}`);
+		});
+		vi.stubGlobal('fetch', fetchMock);
+		gotoMock
+			.mockRejectedValueOnce(new Error('Destination load failed'))
+			.mockResolvedValueOnce(undefined);
+
+		render(CreateQuestionPage, {
+			props: {
+				data: {
+					session: { user: { id: '123e4567-e89b-12d3-a456-426614174000' } }
+				} as any
+			}
+		});
+
+		await fireEvent.input(screen.getByLabelText('Your question'), {
+			target: { value: 'How do I recover from this navigation failure?' }
+		});
+		await fireEvent.click(screen.getByRole('button', { name: 'Launch Your Question' }));
+		await fireEvent.click(await screen.findByRole('button', { name: /Yes, create question/i }));
+
+		const retryButton = await screen.findByRole('button', { name: 'View Your Question' });
+		const errorAlert = await screen.findByRole('alert');
+		expect(errorAlert.textContent).toContain(
+			'Your question was created, but it could not be opened automatically.'
+		);
+		expect(document.body.style.overflow).toBe('');
+		expect(notificationMocks.warning).toHaveBeenCalled();
+
+		await fireEvent.click(retryButton);
+		await waitFor(() => expect(gotoMock).toHaveBeenCalledTimes(2));
+		expect(gotoMock).toHaveBeenLastCalledWith('/questions/how-do-i-recover');
+		expect(
+			fetchMock.mock.calls.filter(([input]) => String(input) === '?/createQuestion')
+		).toHaveLength(1);
 	});
 });

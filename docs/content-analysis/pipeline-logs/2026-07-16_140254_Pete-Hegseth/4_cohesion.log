@@ -1,0 +1,48 @@
+## Cohesion Check Complete: Pete-Hegseth.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Pete Hegseth is an Enneagram Type 3 whose worth is fused to certified, witnessed winning, which turns the axe throw, the tattoo flag, the Signal chats, and the general-officer purge into one repeating pattern instead of separate scandals.
+
+### Thread Map
+
+| Section | Contribution | Link to next |
+|---|---|---|
+| Intro (axe throw) | Poses the question: why does a man with a real resume still need cameras? | "His personality type answers that question" hands directly to the diagnosis |
+| Diagnosis | Type 3 call, anchored by the 32-day women-in-combat reversal and its 2026 promotion-block payoff | Ends "perform for it... everything that followed answered which" — was a **weak** rewind into 1980 (fixed) |
+| Childhood | Where worth got fused to winning: coach's house, three-point records, Princeton over West Point | "Somewhere big enough to display it" → "The display came through veterans advocacy" (strong) |
+| Off-camera decade | The performer rose while the man sank; mother's two verdicts | Redemption arc → 2021 stand-down had no stated link (fixed) |
+| Extremist chapter | The certifying institution stamped him a threat; the purge as re-deciding | AAR section's cold open stands on its own (adequate, left alone) |
+| Signal Chats / AAR | The miss he can't admit, with the 2019 pardons as prehistory | "Choose the drama" → "Strip away the controversies" (strong) |
+| Still Auditioning | Presentation as the tenure's actual product; camera-check ending mirrors the intro's question | Closes the loop |
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 8/10 | 2 |
+| Section Transitions | 7/10 | 2 |
+| Internal Paragraph Flow | 8/10 | 1 minor |
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+
+- Diagnosis → Childhood: the diagnosis ends pointing forward ("everything that followed answered which"), then the piece rewinds 45 years with no signal. Added an opening bridge: *"The pattern was installed early, in a house that kept score."* It carries "pattern" from the intro and previews the section's scoreboard thesis, so the rewind reads as deliberate.
+- Off-camera decade → Extremist chapter: the decade ends on the mother's dueling verdicts and the redemption arc; the next section opened cold on January 2021. Added: *"Two years into the redemption arc, the Army issued a verdict of its own."* It carries both "verdict" and "redemption" across the boundary and sharpens the irony the section runs on.
+
+Both additions pass the house lint rules (no em-dashes, no banned phrases, short declarative sentences matching the surrounding voice).
+
+### What Was Preserved
+
+- All frontmatter, working-note comments, ledgers, Svelte-style components (`pull-quote`, `inner-thought`, `source-card`, accordions), and internal links
+- 4 of 6 section transitions untouched (already strong): display→display, drama→controversies, the AAR cold open, and the In the Arena close
+- The diagnosis section's chronological zigzag (reversal → July 2026 epilogue → 8-vs-3 aside → Senate vote) was left as is. It's deliberate: the epilogue must sit against the reversal, and the Senate paragraph has to sit last to set up "perform for it." "The Senate, for its part" already acknowledges the return.
+
+### Remaining Concerns
+
+- The axe throw never explicitly returns after the intro. The camera-check ending echoes it thematically, so this is a soft orphan, not a break. A one-clause callback in the final section would close it fully, but that's an authorial choice, not a cohesion defect.
+- "The faith got the same treatment" (final section) has a slightly loose referent ("same treatment" = conscripted into the presentation project). Readable in context; tightening it risks duplicating "conscripted" from the testosterone paragraph two lines down. Left alone.

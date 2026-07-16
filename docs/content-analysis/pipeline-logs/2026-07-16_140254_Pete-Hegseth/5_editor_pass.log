@@ -1,0 +1,12 @@
+Editor pass complete on `src/blog/people/drafts/Pete-Hegseth.md`. Both exit checks are clean: **blog-lint 0 fail / 0 warn** and **contrast pairs 0 total (0 strong, 0 comparative)**, down from 2 comparative.
+
+This draft arrived in unusually good shape (it had already been through fresh-eyes and a second pass), so this was a true polish pass rather than a rescue:
+
+- **Killed both comparative contrast engines** the quality report flagged. "The type explains less of it than it seems to" became "these are the years the type cannot fully claim," and the supporters/critics "more personal than either" line became "a third reading opens, the personal one," which keeps the setup without the sentence-engine pattern.
+- **De-twinned a symmetry tell**: the piece opened two different arguments with the same imperative construction ("Be fair to the record…" / "Be precise about what happened…"). The first now reads "Give the record its due," so the second, which anchors the strongest section, keeps the move to itself.
+- **Broke four 6–10 sentence walls into mobile-sized paragraphs**: the 32-day women-in-combat reversal, the coach's-house childhood scene, the 2019 pardon-lobbying prehistory, and the Caribbean boat-strike beat. No sentences cut, just breathing room.
+- **Left the load-bearing material untouched**: the axe-throw cold open, the empathy turn and inner-thought beat in the extremist chapter, the AAR bespoke form ("the one sentence he has never said on camera: I got that wrong"), the mother's two verdicts, and the *In the Arena* camera-check ending. Em-dashes were already at zero and stayed there.
+
+I also updated the FORMULA FINGERPRINT LEDGER to the new 0/0 count and appended a short EDITOR PASS NOTES block.
+
+**Verdict: production-ready from an editorial standpoint.** No further substantive pass needed. The only carryover item, noted in the second-pass notes, is that the Murkowski and Central Casting quotes still rate "vague" on source adjacency; that's a sourcing nit, not prose. Next step when you're ready would be `/grade_blog` for the publish gate.

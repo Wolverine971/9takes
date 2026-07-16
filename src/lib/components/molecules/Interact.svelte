@@ -57,7 +57,6 @@
 			: `comment-${isQuestionPageData(data) ? questionId : data.id}`
 	);
 	let textareaId = $derived(`comment-box-${composerId}`);
-	let countId = $derived(`comment-composer-count-${composerId}`);
 	let nudgeId = $derived(`comment-composer-nudge-${composerId}`);
 	let errorId = $derived(`comment-composer-error-${composerId}`);
 	let commentButtonId = $derived(`comment-button-${composerId}`);
@@ -93,6 +92,16 @@
 	let commentActionAria = $derived(
 		parentType === 'question' ? questionCommentActionAria : 'Write a reply'
 	);
+	let composerKind = $derived(
+		parentType === 'comment' ? 'reply' : userHasAnswered ? 'comment' : 'answer'
+	);
+	let composerKindTitle = $derived(
+		`${composerKind.charAt(0).toUpperCase()}${composerKind.slice(1)}`
+	);
+	let textareaDescribedBy = $derived(
+		[shortAnswerNudge ? nudgeId : null, commentError ? errorId : null].filter(Boolean).join(' ') ||
+			undefined
+	);
 	let shareReady = $derived(Boolean(qrCodeUrl));
 
 	// Update likes and subscription state from data
@@ -126,8 +135,8 @@
 		}
 		if (!canComment()) return;
 		if (!comment.trim()) {
-			commentError = 'Write a comment before posting.';
-			notifications.info('Comment cannot be empty', 3000);
+			commentError = `Write your ${composerKind} before posting.`;
+			notifications.info(`${composerKindTitle} cannot be empty`, 3000);
 			return;
 		}
 		commentError = '';
@@ -230,7 +239,7 @@
 			console.error(result.error || result.data);
 		} else {
 			commentError = '';
-			notifications.success('Comment Added', 3000);
+			notifications.success(`${composerKindTitle} posted`, 3000);
 			if (isAnonymousQuestionCommenter()) {
 				anonymousComment = true;
 			}
@@ -424,11 +433,11 @@
 				size="md"
 				onclick={() => (commenting = !commenting)}
 				disabled={voiceBusy}
-				aria-label={commenting ? 'Hide comment box' : commentActionAria}
+				aria-label={commenting ? `Hide ${composerKind} composer` : commentActionAria}
 				aria-busy={voiceBusy || undefined}
 				icon={commentIcon}
 			>
-				{commenting ? 'Hide answer' : commentActionLabel}
+				{commenting ? `Hide ${composerKind}` : commentActionLabel}
 			</Button>
 
 			{#if parentType === 'question'}
@@ -476,7 +485,7 @@
 					</p>
 				{/if}
 				<label class="composer-label" for={textareaId}>
-					{parentType === 'question' ? 'Your answer' : 'Your reply'}
+					Your {composerKind}
 				</label>
 				<div
 					class="textarea-container"
@@ -486,13 +495,13 @@
 					<textarea
 						bind:this={textareaElement}
 						placeholder={parentType === 'question'
-							? 'Say something real. Share what happened, give an example, or explain why you see it that way.\n\nThe best comments are honest and specific.'
-							: 'Write your reply...'}
+							? 'Share what happened, give an example, or explain what shaped your view.'
+							: 'Share what you want to add.'}
 						class="composer-textarea bg-[var(--night-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--stone-warm)] px-3 py-2 text-sm leading-relaxed text-[var(--ink-bright)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-1 focus:ring-[var(--lamp-glow)]"
 						bind:value={comment}
 						id={textareaId}
 						aria-invalid={commentError ? 'true' : 'false'}
-						aria-describedby={`${countId}${shortAnswerNudge ? ` ${nudgeId}` : ''}${commentError ? ` ${errorId}` : ''}`}
+						aria-describedby={textareaDescribedBy}
 						rows="4"
 						oninput={handleTextareaInput}
 						onkeydown={handleKeydown}
@@ -500,13 +509,6 @@
 						onclick={rememberCommentSelection}
 						onkeyup={rememberCommentSelection}></textarea>
 				</div>
-				<VoiceRecorder
-					label={parentType === 'question' ? 'Record answer' : 'Record reply'}
-					disabled={loading}
-					onbeforestart={rememberCommentSelection}
-					ontranscript={insertVoiceTranscript}
-					onbusychange={(busy) => (voiceBusy = busy)}
-				/>
 				{#if shortAnswerNudge}
 					<div
 						class="short-answer-nudge"
@@ -516,8 +518,8 @@
 					>
 						<span class="short-answer-nudge__icon">&#9997;</span>
 						<p class="short-answer-nudge__copy">
-							<span class="font-medium">Your take could go deeper.</span> Try adding a personal
-							story, a specific example, or what shaped your perspective. You can still
+							<span class="font-medium">Your {composerKind} could go deeper.</span> Try adding a
+							personal story, a specific example, or what shaped your perspective. You can still
 							<button class="short-answer-nudge__action" type="button" onclick={createComment}>
 								post as-is
 							</button>.
@@ -531,18 +533,14 @@
 				{/if}
 			</div>
 			<div class="composer-footer">
-				<span id={countId} class="text-xs text-[var(--ink-dim)]">
-					{#if parentType === 'question' && comment.length > 0 && comment.length < SHORT_ANSWER_THRESHOLD}
-						<span class="comment-length-warning"
-							>{comment.length} chars. Keep going and add some detail.</span
-						>
-					{:else if comment.length > 0}
-						{comment.length} characters
-					{:else}
-						<span class="keyboard-submit-hint">Press Ctrl/⌘+Enter to submit</span>
-					{/if}
-				</span>
-				<div class="flex gap-2">
+				<VoiceRecorder
+					label={`Record your ${composerKind}`}
+					disabled={loading}
+					onbeforestart={rememberCommentSelection}
+					ontranscript={insertVoiceTranscript}
+					onbusychange={(busy) => (voiceBusy = busy)}
+				/>
+				<div class="composer-footer__actions">
 					{#if userHasAnswered}
 						<Button
 							class="composer-action-button"
@@ -569,9 +567,9 @@
 						id={commentButtonId}
 					>
 						{#if confirmShortSubmit}
-							Post Anyway
+							Post anyway
 						{:else}
-							{parentType === 'question' ? 'Post Comment' : 'Reply'}
+							Post {composerKind}
 						{/if}
 					</Button>
 				</div>
@@ -656,7 +654,7 @@
 	}
 
 	.composer-body {
-		padding: 1rem;
+		padding: 1rem 1rem 0.75rem;
 	}
 
 	.composer-label {
@@ -682,11 +680,17 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: 1rem;
+		padding: 0 1rem 1rem;
+	}
+
+	.composer-footer__actions {
+		display: flex;
+		min-width: 0;
+		align-items: center;
+		justify-content: flex-end;
 		gap: 0.75rem;
-		padding: 0.9rem 1rem;
-		border-top: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--stone-edge));
-		border-radius: 0 0 1rem 1rem;
-		background: color-mix(in srgb, var(--night-deep) 74%, transparent);
+		margin-left: auto;
 	}
 
 	/* Custom textarea auto-grow grid technique - complex layout that doesn't translate well to utilities */
@@ -767,10 +771,6 @@
 		line-height: 1.45;
 	}
 
-	.comment-length-warning {
-		color: var(--lamp-glow);
-	}
-
 	@media (max-width: 640px) {
 		.interaction-toolbar {
 			padding: 0.7rem;
@@ -782,21 +782,28 @@
 		}
 
 		.composer-footer {
-			flex-direction: column;
-			align-items: stretch;
+			gap: 0.75rem;
 		}
 
-		.composer-footer > .flex {
-			justify-content: stretch;
+		.composer-footer__actions {
+			flex: 1 1 auto;
+			gap: 0.5rem;
 		}
 
 		:global(.composer-action-button) {
 			flex: 1 1 0;
 			min-width: 0;
 		}
+	}
 
-		.keyboard-submit-hint {
-			display: none;
+	@media (max-width: 520px) {
+		.composer-footer {
+			align-items: stretch;
+			flex-direction: column;
+		}
+
+		.composer-footer__actions {
+			margin-left: 0;
 		}
 	}
 

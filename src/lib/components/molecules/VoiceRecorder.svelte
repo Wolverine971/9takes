@@ -43,7 +43,7 @@
 
 	let {
 		disabled = false,
-		label = 'Record answer',
+		label = 'Record your answer',
 		onbeforestart,
 		ontranscript,
 		onbusychange
@@ -77,7 +77,7 @@
 	const buttonLabel = $derived.by(() => {
 		if (phase === 'preparing') return 'Starting microphone…';
 		if (phase === 'recording') return `Stop recording, ${formatDuration(durationSeconds)}`;
-		if (phase === 'transcribing') return 'Transcribing your answer…';
+		if (phase === 'transcribing') return 'Transcribing your recording…';
 		return label;
 	});
 
@@ -382,21 +382,6 @@
 {#if isSupported}
 	<div class="voice-capture">
 		<div class="voice-capture__main">
-			<div class="voice-capture__status" aria-live="polite">
-				{#if isRecording}
-					<span class="voice-capture__pulse" aria-hidden="true"></span>
-					<span><strong>Listening</strong> · {formatDuration(durationSeconds)}</span>
-				{:else if phase === 'preparing'}
-					<LoaderCircle class="voice-capture__spinner" size={15} aria-hidden="true" />
-					<span>Opening your microphone…</span>
-				{:else if isTranscribing}
-					<LoaderCircle class="voice-capture__spinner" size={15} aria-hidden="true" />
-					<span><strong>Polishing your words…</strong></span>
-				{:else}
-					<span>Speak naturally. Audio is transcribed, not posted.</span>
-				{/if}
-			</div>
-
 			<button
 				type="button"
 				class="voice-capture__button"
@@ -416,6 +401,25 @@
 				{/if}
 				<span>{isRecording ? 'Stop' : isTranscribing ? 'Transcribing' : label}</span>
 			</button>
+
+			<div
+				class="voice-capture__status"
+				class:voice-capture__status--idle={phase === 'idle'}
+				aria-live="polite"
+			>
+				{#if isRecording}
+					<span class="voice-capture__pulse" aria-hidden="true"></span>
+					<span><strong>Listening</strong> · {formatDuration(durationSeconds)}</span>
+				{:else if phase === 'preparing'}
+					<LoaderCircle class="voice-capture__spinner" size={15} aria-hidden="true" />
+					<span>Opening your microphone…</span>
+				{:else if isTranscribing}
+					<LoaderCircle class="voice-capture__spinner" size={15} aria-hidden="true" />
+					<span><strong>Creating your transcript…</strong></span>
+				{:else}
+					<span>Review the transcript before you post.</span>
+				{/if}
+			</div>
 		</div>
 
 		{#if (isRecording || isTranscribing) && liveTranscript}
@@ -434,9 +438,9 @@
 <style>
 	.voice-capture {
 		display: flex;
+		min-width: 0;
 		flex-direction: column;
 		gap: 0.45rem;
-		margin-top: 0.55rem;
 	}
 
 	.voice-capture__main {
@@ -472,30 +476,28 @@
 
 	.voice-capture__button {
 		display: inline-flex;
-		min-height: 2.5rem;
+		min-height: 2.75rem;
 		flex: 0 0 auto;
 		align-items: center;
 		justify-content: center;
 		gap: 0.4rem;
-		padding: 0.5rem 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 28%, var(--stone-edge));
+		padding: 0.625rem 1rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 48%, var(--stone-edge));
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--lamp-soft) 46%, var(--night-deep));
+		background: color-mix(in srgb, var(--lamp-soft) 72%, var(--night-deep));
 		color: var(--lamp-light);
 		font: inherit;
-		font-size: 0.75rem;
+		font-size: 0.875rem;
 		font-weight: 650;
 		cursor: pointer;
 		transition:
-			transform 140ms ease,
 			border-color 140ms ease,
 			background 140ms ease;
 	}
 
 	.voice-capture__button:hover:not(:disabled) {
-		transform: translateY(-1px);
 		border-color: var(--lamp-glow);
-		background: color-mix(in srgb, var(--lamp-soft) 72%, var(--night-deep));
+		background: color-mix(in srgb, var(--lamp-soft) 92%, var(--night-deep));
 	}
 
 	:global(.voice-capture__button:focus-visible) {
@@ -575,10 +577,19 @@
 		}
 	}
 
+	@media (max-width: 640px) {
+		.voice-capture__status--idle {
+			display: none;
+		}
+	}
+
 	@media (max-width: 420px) {
+		.voice-capture {
+			width: 100%;
+		}
+
 		.voice-capture__main {
 			align-items: stretch;
-			flex-direction: column;
 		}
 
 		.voice-capture__button {
@@ -589,10 +600,6 @@
 	@media (prefers-reduced-motion: reduce) {
 		.voice-capture__button {
 			transition: none;
-		}
-
-		.voice-capture__button:hover:not(:disabled) {
-			transform: none;
 		}
 
 		.voice-capture__pulse,
