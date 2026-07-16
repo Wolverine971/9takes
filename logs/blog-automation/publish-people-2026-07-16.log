@@ -1,0 +1,31 @@
+Permission allow rule (.claude/settings.local.json): Write(/tmp/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/tmp/**) instead (Edit rules cover all file-editing tools).
+```text
+Publish blocked. No eligible people draft.
+
+Person: none selected (auto-select)
+Command: node scripts/personBlogParser.js --publish
+Result: "No publishable draft found. Checked 473 candidate(s)." — no files changed, no Supabase writes, gen:all not run.
+
+Blockers:
+- Zero of the 91 unpublished drafts clear all gates.
+```
+
+The one thing standing between you and a publish is **images**. Three drafts pass every content gate — v2 rubric, overall ≥ 8.5, discoverability ≥ 7, stability delta ≤ 0.3, no caps, clean source audit — and are blocked only by missing personality images (both `static/types/[type]s/[Person].webp` and `s-[Person].webp`):
+
+| Draft | Overall | Delta | Missing |
+|---|---|---|---|
+| oliver-tree (Type 4) | 8.8 | 0.3 | both image files |
+| David-Beckham (Type 3) | 8.6 | 0.0 | both image files |
+| julia-fox (Type 4) | 8.5 | 0.0 | both image files |
+
+Since type images are your manual Canva step, adding images for any one of these and re-running `/blog_content_publish_people` will publish it (oliver-tree wins the auto-select on grade).
+
+The rest of the pool, for context:
+
+- **Jack-Antonoff (8.9)** — grade unstable (delta 0.5 > 0.3) and no images.
+- **~28 drafts with v2 grades** (Brendan-Fraser 9.0, Victoria-Justice 9.0, Alex-Warren 8.9, etc.) — missing `grade_stability_delta`; they need the supervised grade/regrade loop before they can publish.
+- **~40 drafts with v1 grades** — including the highest raw scores (clint-eastwood 9.3, frank-lloyd-wright 9.3, britney-spears 9.2, ninja 9.2) — stale rubric, need `/grade_blog` re-runs.
+- **~15 drafts with no grade at all** (anthony-hopkins, gal-gadot, william-shakespeare, etc.).
+- xochitl-gomez (8.4) and Olivia-Cooke (8.3, active `house_empathy_turn` cap) sit just under the 8.5 bar.
+
+Per the command spec I stopped without bypassing the gate. Fastest path to a publish: Canva images for oliver-tree, then re-run this command.

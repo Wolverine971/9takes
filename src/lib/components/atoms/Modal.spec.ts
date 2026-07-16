@@ -40,6 +40,22 @@ describe('Modal', () => {
 		expect(getModal('question-create')).toBeUndefined();
 	});
 
+	it('makes a cached modal controller safe after the component unmounts', () => {
+		const { unmount } = render(Modal, {
+			props: {
+				id: 'cached-modal',
+				name: 'Cached modal'
+			}
+		});
+		const modal = getModal('cached-modal');
+
+		modal?.open();
+		unmount();
+
+		expect(() => modal?.close(null)).not.toThrow();
+		expect(document.body.style.overflow).toBe('');
+	});
+
 	it('keeps body scroll locked until every open modal has closed', () => {
 		const background = document.querySelector('main');
 		const firstRender = render(Modal, {

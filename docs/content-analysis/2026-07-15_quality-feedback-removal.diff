@@ -1,0 +1,1554 @@
+diff --git a/src/blog/enneagram/90-day-personality-maxing-blueprint.md b/src/blog/enneagram/90-day-personality-maxing-blueprint.md
+--- a/src/blog/enneagram/90-day-personality-maxing-blueprint.md
++++ b/src/blog/enneagram/90-day-personality-maxing-blueprint.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.5) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.2).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+     import PopCard from "$lib/components/atoms/PopCard.svelte";
+ </script>
+diff --git a/src/blog/enneagram/anxiety-and-enneagram-types-guide.md b/src/blog/enneagram/anxiety-and-enneagram-types-guide.md
+--- a/src/blog/enneagram/anxiety-and-enneagram-types-guide.md
++++ b/src/blog/enneagram/anxiety-and-enneagram-types-guide.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.2) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.2).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add higher-quality sources and anchor key claims with specific evidence.
+-Tags: weak-hook, unsupported-claims, style-friction, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/attachment-styles-and-enneagram-types.md b/src/blog/enneagram/attachment-styles-and-enneagram-types.md
+--- a/src/blog/enneagram/attachment-styles-and-enneagram-types.md
++++ b/src/blog/enneagram/attachment-styles-and-enneagram-types.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.6).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
+-Tags: template-fatigue, overlap-duplication
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+     import PopCard from "$lib/components/atoms/PopCard.svelte";
+     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md b/src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
+--- a/src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
++++ b/src/blog/enneagram/beginners-guide-to-determining-your-enneagram-type.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.5).
+-Improve next: Push for more distinctive insight and less generic phrasing. Support key assertions with more explicit, high-quality sourcing.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
+   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md b/src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md
+--- a/src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md
++++ b/src/blog/enneagram/biggest-compliments-to-give-each-enneagram-type.md
+@@ -19,14 +19,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.1) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (8.9); framing (7.8).
+-Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions. Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: style-friction, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- // notes:  -->
+ 
+ <script>
+diff --git a/src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md b/src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md
+--- a/src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md
++++ b/src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Revised 2026-04-01: Rewrote intro with concrete scenario, eliminated Type 4/6/7 duplication, added Hidden Strengths to all types, added gender note and medication section, replaced repetitive FAQ with new questions, made conclusion actionable. Needs re-grading.
+-Tags: revised
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/enneagram-and-mental-illness.md b/src/blog/enneagram/enneagram-and-mental-illness.md
+--- a/src/blog/enneagram/enneagram-and-mental-illness.md
++++ b/src/blog/enneagram/enneagram-and-mental-illness.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A+ (9.5) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Intriguing Hooks, Provocative Titles, etc. (omitted for brevity)
+ 
+diff --git a/src/blog/enneagram/enneagram-and-religion.md b/src/blog/enneagram/enneagram-and-religion.md
+--- a/src/blog/enneagram/enneagram-and-religion.md
++++ b/src/blog/enneagram/enneagram-and-religion.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.2) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.6); practical utility (9.6).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+ </script>
+diff --git a/src/blog/enneagram/enneagram-anxiety-management-guide.md b/src/blog/enneagram/enneagram-anxiety-management-guide.md
+--- a/src/blog/enneagram/enneagram-anxiety-management-guide.md
++++ b/src/blog/enneagram/enneagram-anxiety-management-guide.md
+@@ -22,14 +22,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.7) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Add higher-quality sources and anchor key claims with specific evidence.
+-Tags: unsupported-claims
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/enneagram-books-websites-podcasts.md b/src/blog/enneagram/enneagram-books-websites-podcasts.md
+--- a/src/blog/enneagram/enneagram-books-websites-podcasts.md
++++ b/src/blog/enneagram/enneagram-books-websites-podcasts.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.3) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); evidence quality (9.6).
+-Improve next: Push for more distinctive insight and less generic phrasing. Improve structural flow and readability across sections.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+   import instagram from '$lib/images/instagram.svg';
+diff --git a/src/blog/enneagram/enneagram-childhood-stereotypes.md b/src/blog/enneagram/enneagram-childhood-stereotypes.md
+--- a/src/blog/enneagram/enneagram-childhood-stereotypes.md
++++ b/src/blog/enneagram/enneagram-childhood-stereotypes.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.2) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (8.2); framing (7.9).
+-Improve next: Add concrete steps, checklists, and "what to do next" guidance. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+-Tags: low-utility, style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+diff --git a/src/blog/enneagram/enneagram-coach-toolkit.md b/src/blog/enneagram/enneagram-coach-toolkit.md
+--- a/src/blog/enneagram/enneagram-coach-toolkit.md
++++ b/src/blog/enneagram/enneagram-coach-toolkit.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A+ (9.5) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.7); evidence quality (9.6).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+ </script>
+diff --git a/src/blog/enneagram/enneagram-communication-guide.md b/src/blog/enneagram/enneagram-communication-guide.md
+--- a/src/blog/enneagram/enneagram-communication-guide.md
++++ b/src/blog/enneagram/enneagram-communication-guide.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: weak-hook, template-fatigue, overlap-duplication
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- make this the hub for the other Enneagram blogs
+ 
+ Enneagram Communication
+diff --git a/src/blog/enneagram/enneagram-communication-styles.md b/src/blog/enneagram/enneagram-communication-styles.md
+--- a/src/blog/enneagram/enneagram-communication-styles.md
++++ b/src/blog/enneagram/enneagram-communication-styles.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.3) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.3).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/enneagram-communication-tips.md b/src/blog/enneagram/enneagram-communication-tips.md
+--- a/src/blog/enneagram/enneagram-communication-tips.md
++++ b/src/blog/enneagram/enneagram-communication-tips.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.2) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.5); Enneagram depth (9.0).
+-Improve next: Push for more distinctive insight and less generic phrasing. Support key assertions with more explicit, high-quality sourcing.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+ 	import MarqueeHorizontal from '$lib/components/atoms/MarqueeHorizontal.svelte';
+diff --git a/src/blog/enneagram/enneagram-compatibility-guide.md b/src/blog/enneagram/enneagram-compatibility-guide.md
+--- a/src/blog/enneagram/enneagram-compatibility-guide.md
++++ b/src/blog/enneagram/enneagram-compatibility-guide.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (8.6).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
+-Tags: template-fatigue, overlap-duplication
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Keyword Strategy:
+ - Primary: enneagram compatibility (22,000/mo)
+diff --git a/src/blog/enneagram/enneagram-compatibility-matrix.md b/src/blog/enneagram/enneagram-compatibility-matrix.md
+--- a/src/blog/enneagram/enneagram-compatibility-matrix.md
++++ b/src/blog/enneagram/enneagram-compatibility-matrix.md
+@@ -33,14 +33,6 @@
+     description: 'Childhood experiences that shape adult personality patterns'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.6) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.4); practical utility (8.5).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
+-Tags: template-fatigue, overlap-duplication
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Keyword Strategy:
+ - Primary: enneagram compatibility (18,100/mo)
+diff --git a/src/blog/enneagram/enneagram-concepts.md b/src/blog/enneagram/enneagram-concepts.md
+--- a/src/blog/enneagram/enneagram-concepts.md
++++ b/src/blog/enneagram/enneagram-concepts.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: evidence quality (9.6); practical utility (8.6).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- the enneagram describes your personality in a box
+ it is not
+ 
+diff --git a/src/blog/enneagram/enneagram-connecting-lines.md b/src/blog/enneagram/enneagram-connecting-lines.md
+--- a/src/blog/enneagram/enneagram-connecting-lines.md
++++ b/src/blog/enneagram/enneagram-connecting-lines.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.1) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (9.7); evidence quality (8.2).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
+-Tags: weak-hook, low-utility, style-friction, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- Take a free, ~5 min test here -->
+ <script>
+ 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/enneagram-criticisms.md b/src/blog/enneagram/enneagram-criticisms.md
+--- a/src/blog/enneagram/enneagram-criticisms.md
++++ b/src/blog/enneagram/enneagram-criticisms.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.1) | Priority: light | Safety: n/a
+-Strengths: evidence quality (8.0); framing (7.5).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
+-Tags: weak-hook, low-utility, style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+ </script>
+diff --git a/src/blog/enneagram/enneagram-dating-guide-for-women.md b/src/blog/enneagram/enneagram-dating-guide-for-women.md
+--- a/src/blog/enneagram/enneagram-dating-guide-for-women.md
++++ b/src/blog/enneagram/enneagram-dating-guide-for-women.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.7) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.2).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ </script>
+diff --git a/src/blog/enneagram/enneagram-faqs.md b/src/blog/enneagram/enneagram-faqs.md
+--- a/src/blog/enneagram/enneagram-faqs.md
++++ b/src/blog/enneagram/enneagram-faqs.md
+@@ -22,14 +22,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8) | Priority: light | Safety: n/a
+-Strengths: practical utility (9.5); Enneagram depth (9.4).
+-Improve next: Add higher-quality sources and anchor key claims with specific evidence. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+-Tags: unsupported-claims, style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <p class="firstLetter">"Is this just astrology for people who think they're too smart for astrology?"</p>
+ 
+ Fair question.
+diff --git a/src/blog/enneagram/enneagram-influences.md b/src/blog/enneagram/enneagram-influences.md
+--- a/src/blog/enneagram/enneagram-influences.md
++++ b/src/blog/enneagram/enneagram-influences.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.3) | Priority: light | Safety: n/a
+-Strengths: evidence quality (8.9); Enneagram depth (8.4).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
+-Tags: weak-hook, low-utility, style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import  Enneagram  from "$lib/components/icons/enneagram.svelte";
+ </script>
+diff --git a/src/blog/enneagram/enneagram-instinctual-subtypes.md b/src/blog/enneagram/enneagram-instinctual-subtypes.md
+--- a/src/blog/enneagram/enneagram-instinctual-subtypes.md
++++ b/src/blog/enneagram/enneagram-instinctual-subtypes.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.3) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.1).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+   import PopCard from "$lib/components/atoms/PopCard.svelte";
+diff --git a/src/blog/enneagram/enneagram-leadership.md b/src/blog/enneagram/enneagram-leadership.md
+--- a/src/blog/enneagram/enneagram-leadership.md
++++ b/src/blog/enneagram/enneagram-leadership.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.6) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.6).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- Midjourney Prompt: diverse group of 9 business leaders in a modern glass boardroom, each displaying distinct leadership styles - one pointing assertively at charts, another listening intently, one mediating between others, one analyzing data on tablet, one inspiring the group with animated gestures, one organizing documents methodically, one celebrating team wins, one questioning thoughtfully, one bringing harmony to discussion, professional attire, natural lighting through floor-to-ceiling windows, city skyline background, photorealistic, corporate photography style --ar 16:9 --stylize 750 -->
+ 
+ <script>
+diff --git a/src/blog/enneagram/enneagram-mental-health-flags.md b/src/blog/enneagram/enneagram-mental-health-flags.md
+--- a/src/blog/enneagram/enneagram-mental-health-flags.md
++++ b/src/blog/enneagram/enneagram-mental-health-flags.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.5); Enneagram depth (9.0).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--  -->
+ 
+ <!-- mental illness flag 1200
+diff --git a/src/blog/enneagram/enneagram-parenting-styles.md b/src/blog/enneagram/enneagram-parenting-styles.md
+--- a/src/blog/enneagram/enneagram-parenting-styles.md
++++ b/src/blog/enneagram/enneagram-parenting-styles.md
+@@ -22,14 +22,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/enneagram-party-planner.md b/src/blog/enneagram/enneagram-party-planner.md
+--- a/src/blog/enneagram/enneagram-party-planner.md
++++ b/src/blog/enneagram/enneagram-party-planner.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.2) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (8.4); framing (8.0).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/enneagram-personal-growth.md b/src/blog/enneagram/enneagram-personal-growth.md
+--- a/src/blog/enneagram/enneagram-personal-growth.md
++++ b/src/blog/enneagram/enneagram-personal-growth.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.7) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.3); practical utility (9.2).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ 
+diff --git a/src/blog/enneagram/enneagram-positive-self-talk.md b/src/blog/enneagram/enneagram-positive-self-talk.md
+--- a/src/blog/enneagram/enneagram-positive-self-talk.md
++++ b/src/blog/enneagram/enneagram-positive-self-talk.md
+@@ -22,14 +22,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.1) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.2).
+-Improve next: Add higher-quality sources and anchor key claims with specific evidence. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+-Tags: unsupported-claims, style-friction, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+   import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
+diff --git a/src/blog/enneagram/enneagram-self-development.md b/src/blog/enneagram/enneagram-self-development.md
+--- a/src/blog/enneagram/enneagram-self-development.md
++++ b/src/blog/enneagram/enneagram-self-development.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.3) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+   import TypeQuotes from '$lib/components/blog/callouts/TypeQuotes.svelte';
+diff --git a/src/blog/enneagram/enneagram-strengths-and-weaknesses.md b/src/blog/enneagram/enneagram-strengths-and-weaknesses.md
+--- a/src/blog/enneagram/enneagram-strengths-and-weaknesses.md
++++ b/src/blog/enneagram/enneagram-strengths-and-weaknesses.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: weak-hook, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- MIDJOURNEY PROMPTS
+ 
+ Hero Image - Balance of Strengths and Weaknesses:
+diff --git a/src/blog/enneagram/enneagram-stress-number.md b/src/blog/enneagram/enneagram-stress-number.md
+--- a/src/blog/enneagram/enneagram-stress-number.md
++++ b/src/blog/enneagram/enneagram-stress-number.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.7) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.5).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: weak-hook, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ todo update
+ keywords lashing out
+diff --git a/src/blog/enneagram/enneagram-team-diversity.md b/src/blog/enneagram/enneagram-team-diversity.md
+--- a/src/blog/enneagram/enneagram-team-diversity.md
++++ b/src/blog/enneagram/enneagram-team-diversity.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.5) | Priority: none | Safety: n/a
+-Strengths: evidence quality (8.2); Enneagram depth (7.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+-Tags: weak-hook, style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- Discover how to create high-performing teams by harnessing the Enneagram's insights into personality types and triads. Learn strategies for achieving balance, embracing diversity, and optimizing team dynamics for success. -->
+ 
+ <script>
+diff --git a/src/blog/enneagram/enneagram-team-dynamics.md b/src/blog/enneagram/enneagram-team-dynamics.md
+--- a/src/blog/enneagram/enneagram-team-dynamics.md
++++ b/src/blog/enneagram/enneagram-team-dynamics.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.4); evidence quality (8.1).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+-Tags: weak-hook, style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- Midjourney Prompt: group of greek statues in a modern office conference room, some statues standing at a whiteboard drawing diagrams, others sitting around a table with laptops and documents, one statue giving a presentation, another taking notes, collaborative team meeting in progress, marble white with gold accents, modern professional lighting, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
+ 
+ <!-- redo
+diff --git a/src/blog/enneagram/enneagram-test-comparison-2025.md b/src/blog/enneagram/enneagram-test-comparison-2025.md
+--- a/src/blog/enneagram/enneagram-test-comparison-2025.md
++++ b/src/blog/enneagram/enneagram-test-comparison-2025.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: C (7.9) | Priority: major | Safety: n/a
+-Strengths: practical utility (9.6); Enneagram depth (8.4).
+-Improve next: Add higher-quality sources and anchor key claims with specific evidence.
+-Tags: unsupported-claims
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Keyword Strategy:
+ - Primary: best enneagram test (246,000/mo)
+diff --git a/src/blog/enneagram/enneagram-tldr.md b/src/blog/enneagram/enneagram-tldr.md
+--- a/src/blog/enneagram/enneagram-tldr.md
++++ b/src/blog/enneagram/enneagram-tldr.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.4) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (9.6); practical utility (9.4).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/enneagram-type-1.md b/src/blog/enneagram/enneagram-type-1.md
+--- a/src/blog/enneagram/enneagram-type-1.md
++++ b/src/blog/enneagram/enneagram-type-1.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.3); practical utility (8.6).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ inner courtroom tension greek statue holding scales and standing between judge and child shadows, stern yet conflicted expression, marble tribunal chamber with geometric order lines, Unreal Engine, Cinematic, black white and grey with subtle gold accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Halfrear Lighting and Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-type-2.md b/src/blog/enneagram/enneagram-type-2.md
+--- a/src/blog/enneagram/enneagram-type-2.md
++++ b/src/blog/enneagram/enneagram-type-2.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.4); practical utility (8.9).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ over-giving and self-neglect greek statue pouring water into many cups while their own cup cracks, tender exhausted expression, neoclassical courtyard with reaching hands, Unreal Engine, Cinematic, warm amber and teal palette, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting and Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-type-3.md b/src/blog/enneagram/enneagram-type-3.md
+--- a/src/blog/enneagram/enneagram-type-3.md
++++ b/src/blog/enneagram/enneagram-type-3.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.4); practical utility (8.4).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ achievement identity conflict greek statue running past laurel crowns and masks, polished smile with hidden strain, grand marble stage with mirrored reflections, Unreal Engine, Cinematic, high-contrast monochrome with metallic gold highlights, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Spotlight Cinematic Lighting and Backlight, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-type-4.md b/src/blog/enneagram/enneagram-type-4.md
+--- a/src/blog/enneagram/enneagram-type-4.md
++++ b/src/blog/enneagram/enneagram-type-4.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.6) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.3); writing/structure (8.2).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ longing for the missing piece greek statue holding a single mosaic fragment near heart, melancholic and searching expression, romantic neoclassical ruins beside reflective water, Unreal Engine, Cinematic, indigo blue and muted rose with warm amber accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting and Contre-Jour, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-type-5.md b/src/blog/enneagram/enneagram-type-5.md
+--- a/src/blog/enneagram/enneagram-type-5.md
++++ b/src/blog/enneagram/enneagram-type-5.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.2); practical utility (8.8).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ fortress mind and cautious connection greek statue scholar guarding a library tower drawbridge, observant reserved expression, marble archive filled with scrolls and star charts, Unreal Engine, Cinematic, cool slate blue and ivory with warm doorway glow, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting and Accent Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-type-6.md b/src/blog/enneagram/enneagram-type-6.md
+--- a/src/blog/enneagram/enneagram-type-6.md
++++ b/src/blog/enneagram/enneagram-type-6.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.4); practical utility (9.3).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ vigilance under uncertainty greek statue sentinel mapping multiple paths with lantern and shield, alert worried expression, windy cliffside above distant city lights, Unreal Engine, Cinematic, stormy blue-gray with protective warm lantern tones, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Backlight and Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-type-7.md b/src/blog/enneagram/enneagram-type-7.md
+--- a/src/blog/enneagram/enneagram-type-7.md
++++ b/src/blog/enneagram/enneagram-type-7.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.3); practical utility (8.9).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ restless possibility-seeking greek statue at a crossroads of many glowing archways, excited but unsettled expression, expansive marble plaza with half-finished maps, Unreal Engine, Cinematic, sunrise gold with electric cyan accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting and Volumetric Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-type-8.md b/src/blog/enneagram/enneagram-type-8.md
+--- a/src/blog/enneagram/enneagram-type-8.md
++++ b/src/blog/enneagram/enneagram-type-8.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.6) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.3); evidence quality (8.0).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
+-Tags: weak-hook, low-utility
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ armored strength learning vulnerability greek statue warrior with cracked cuirass and open hand, fierce protective expression, monumental neoclassical colonnade after storm, Unreal Engine, Cinematic, charcoal stone with bronze and deep red accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Side Lighting and Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-type-9.md b/src/blog/enneagram/enneagram-type-9.md
+--- a/src/blog/enneagram/enneagram-type-9.md
++++ b/src/blog/enneagram/enneagram-type-9.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.4); practical utility (9.0).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ peacekeeping without self-erasure greek statue standing between two arguing figures with hand on chest, calm awakening expression, serene marble courtyard with roots and soft dawn haze, Unreal Engine, Cinematic, ivory marble with sage green and warm sunrise tones, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting and Natural Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/enneagram-types-and-career-choices.md b/src/blog/enneagram/enneagram-types-and-career-choices.md
+--- a/src/blog/enneagram/enneagram-types-and-career-choices.md
++++ b/src/blog/enneagram/enneagram-types-and-career-choices.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.6).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+ 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/enneagram-types-at-party.md b/src/blog/enneagram/enneagram-types-at-party.md
+--- a/src/blog/enneagram/enneagram-types-at-party.md
++++ b/src/blog/enneagram/enneagram-types-at-party.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (9.6); practical utility (8.5).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/enneagram-types-being-ghosted.md b/src/blog/enneagram/enneagram-types-being-ghosted.md
+--- a/src/blog/enneagram/enneagram-types-being-ghosted.md
++++ b/src/blog/enneagram/enneagram-types-being-ghosted.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.3) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.8); Enneagram depth (9.7).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/enneagram-types-in-relationships.md b/src/blog/enneagram/enneagram-types-in-relationships.md
+--- a/src/blog/enneagram/enneagram-types-in-relationships.md
++++ b/src/blog/enneagram/enneagram-types-in-relationships.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.6) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: weak-hook, template-fatigue, overlap-duplication
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- MIDJOURNEY PROMPTS
+ 
+ Hero Image - The Dance of Love:
+diff --git a/src/blog/enneagram/enneagram-types-in-stress.md b/src/blog/enneagram/enneagram-types-in-stress.md
+--- a/src/blog/enneagram/enneagram-types-in-stress.md
++++ b/src/blog/enneagram/enneagram-types-in-stress.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.2) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.6).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/enneagram-types-on-a-first-date.md b/src/blog/enneagram/enneagram-types-on-a-first-date.md
+--- a/src/blog/enneagram/enneagram-types-on-a-first-date.md
++++ b/src/blog/enneagram/enneagram-types-on-a-first-date.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (8.5).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/enneagram-types-working-in-teams.md b/src/blog/enneagram/enneagram-types-working-in-teams.md
+--- a/src/blog/enneagram/enneagram-types-working-in-teams.md
++++ b/src/blog/enneagram/enneagram-types-working-in-teams.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.7) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.3); Enneagram depth (8.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Tighten flow and readability by trimming dense blocks and sharpening transitions.
+-Tags: weak-hook, style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ </script>
+diff --git a/src/blog/enneagram/enneagram-vs-meyers-briggs.md b/src/blog/enneagram/enneagram-vs-meyers-briggs.md
+--- a/src/blog/enneagram/enneagram-vs-meyers-briggs.md
++++ b/src/blog/enneagram/enneagram-vs-meyers-briggs.md
+@@ -19,14 +19,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.3) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (9.4); framing (8.3).
+-Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions.
+-Tags: style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+diff --git a/src/blog/enneagram/enneagram-wings-complete-guide.md b/src/blog/enneagram/enneagram-wings-complete-guide.md
+--- a/src/blog/enneagram/enneagram-wings-complete-guide.md
++++ b/src/blog/enneagram/enneagram-wings-complete-guide.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.4) | Priority: minor | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.6); differentiated type sections.
+-Improve next: Consider adding real quotes/anecdotes from wing communities.
+-Tags: none
+-Graded: 2026-04-02
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Keyword Strategy:
+ - Primary: enneagram wings (22,200/mo)
+diff --git a/src/blog/enneagram/enneagram-workplace-team-building.md b/src/blog/enneagram/enneagram-workplace-team-building.md
+--- a/src/blog/enneagram/enneagram-workplace-team-building.md
++++ b/src/blog/enneagram/enneagram-workplace-team-building.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.6); practical utility (9.1).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- MIDJOURNEY PROMPTS
+ 
+ Hero Image - Collaborative Problem Solving:
+diff --git a/src/blog/enneagram/first-impression-enneagram-playbook.md b/src/blog/enneagram/first-impression-enneagram-playbook.md
+--- a/src/blog/enneagram/first-impression-enneagram-playbook.md
++++ b/src/blog/enneagram/first-impression-enneagram-playbook.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.6); practical utility (9.5).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ </script>
+diff --git a/src/blog/enneagram/how-each-enneagram-flexes.md b/src/blog/enneagram/how-each-enneagram-flexes.md
+--- a/src/blog/enneagram/how-each-enneagram-flexes.md
++++ b/src/blog/enneagram/how-each-enneagram-flexes.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.6) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.1); evidence quality (8.1).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
+-Tags: weak-hook, low-utility
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ </script>
+diff --git a/src/blog/enneagram/how-each-enneagram-type-manipulates.md b/src/blog/enneagram/how-each-enneagram-type-manipulates.md
+--- a/src/blog/enneagram/how-each-enneagram-type-manipulates.md
++++ b/src/blog/enneagram/how-each-enneagram-type-manipulates.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.2) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md b/src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
+--- a/src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
++++ b/src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.1) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/how-each-enneagram-type-unwinds.md b/src/blog/enneagram/how-each-enneagram-type-unwinds.md
+--- a/src/blog/enneagram/how-each-enneagram-type-unwinds.md
++++ b/src/blog/enneagram/how-each-enneagram-type-unwinds.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.2).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ </script>
+diff --git a/src/blog/enneagram/how-to-apologize-like-a-pro.md b/src/blog/enneagram/how-to-apologize-like-a-pro.md
+--- a/src/blog/enneagram/how-to-apologize-like-a-pro.md
++++ b/src/blog/enneagram/how-to-apologize-like-a-pro.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: C (7.8) | Priority: major | Safety: n/a
+-Strengths: practical utility (9.2); Enneagram depth (9.0).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add higher-quality sources and anchor key claims with specific evidence.
+-Tags: weak-hook, unsupported-claims, style-friction, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!-- Midjourney Prompt: two ancient greek statues, one kneeling with head bowed in humble apologetic gesture, hands extended forward, the other standing with a compassionate expression and hands reaching down to help the kneeling figure up, showing forgiveness and reconciliation, marble white with warm golden light, Unreal Engine, Cinematic, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Soft Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 750 -->
+ 
+ <svelte:head>
+diff --git a/src/blog/enneagram/how-to-navigate-early-relationship-stages.md b/src/blog/enneagram/how-to-navigate-early-relationship-stages.md
+--- a/src/blog/enneagram/how-to-navigate-early-relationship-stages.md
++++ b/src/blog/enneagram/how-to-navigate-early-relationship-stages.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.5).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ </script>
+diff --git a/src/blog/enneagram/how-type-8-challengers-actually-succeed.md b/src/blog/enneagram/how-type-8-challengers-actually-succeed.md
+--- a/src/blog/enneagram/how-type-8-challengers-actually-succeed.md
++++ b/src/blog/enneagram/how-type-8-challengers-actually-succeed.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.7) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); evidence quality (8.0).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ type 8 breakthrough through alliance greek statues gathered around a marble strategy table and clasping forearms in unity, focused determined expressions, grand neoclassical council chamber opening to a dawn horizon, Unreal Engine, Cinematic, marble white and gold with deep blue accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting and Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/love-languages-and-enneagram-types.md b/src/blog/enneagram/love-languages-and-enneagram-types.md
+--- a/src/blog/enneagram/love-languages-and-enneagram-types.md
++++ b/src/blog/enneagram/love-languages-and-enneagram-types.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.4) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.2).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add higher-quality sources and anchor key claims with specific evidence.
+-Tags: weak-hook, unsupported-claims, template-fatigue, overlap-duplication
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+     import PopCard from "$lib/components/atoms/PopCard.svelte";
+     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md b/src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md
+--- a/src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md
++++ b/src/blog/enneagram/mental-health/enneagram-addiction-recovery-guide.md
+@@ -21,15 +21,6 @@
+ quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened diagnostic claims and prescriptive treatment mappings'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: D (6.9) | Priority: rebuild | Safety: fail
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+-Tags: safety-boundary-risk
+-Graded: 2026-02-22
+-UPDATE 2026-03-10: Safety edits applied — added disclaimer, softened diagnostic claims, reframed prescriptive treatment mappings. Needs re-grading.
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import PopCard from "$lib/components/atoms/PopCard.svelte";
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md b/src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md
+--- a/src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md
++++ b/src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'pass'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9) | Priority: none | Safety: pass
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ NOTES:
+ - Immediate interventions for each type in crisis
+diff --git a/src/blog/enneagram/mental-health/enneagram-medication-mental-health.md b/src/blog/enneagram/mental-health/enneagram-medication-mental-health.md
+--- a/src/blog/enneagram/mental-health/enneagram-medication-mental-health.md
++++ b/src/blog/enneagram/mental-health/enneagram-medication-mental-health.md
+@@ -41,15 +41,6 @@
+     answer: '"Just exercise more." "You don''t need pills." "We don''t believe in that." This is painful and common. Many families carry stigma around psychiatric medication. Some come from cultures where mental health treatment is taboo. Some have outdated beliefs. Some are genuinely scared for you based on bad information. Here''s what''s true: your medical decisions are yours. You don''t owe anyone an explanation. Your family isn''t living in your brain. If they''re open to learning, share information selectively. If they''re not, protect yourself by finding support elsewhere: therapists, support groups, trusted friends who get it. Type 2s, 6s, and 9s struggle most with family disapproval because they value harmony and others'' opinions. Remember: advocating for your own health isn''t betraying your family. It''s taking care of yourself so you can show up for them.'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: D (6.9) | Priority: rebuild | Safety: fail
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+-Tags: template-fatigue, safety-boundary-risk
+-Graded: 2026-02-22
+-UPDATE 2026-03-10: Safety edits applied — removed specific drug-to-type mappings, reframed medication sections as "Topics to Discuss with Your Provider", added mid-article disclaimer, softened prescriptive headers. Template fatigue partially addressed (headers varied). Needs re-grading.
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ NOTES:
+ - How each type responds to different medications
+diff --git a/src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md b/src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md
+--- a/src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md
++++ b/src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md
+@@ -22,15 +22,6 @@
+ quality_update_note: 'Safety edits applied 2026-03-10: added formal disclaimer box, softened prescriptive claims'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: D (6.9) | Priority: rebuild | Safety: fail
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+-Tags: template-fatigue, safety-boundary-risk
+-Graded: 2026-02-22
+-UPDATE 2026-03-10: Safety edits applied — added formal disclaimer box, softened prescriptive claims. Needs re-grading.
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ NOTES:
+ - ADHD presentation in each type
+diff --git a/src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md b/src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md
+--- a/src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md
++++ b/src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md
+@@ -21,15 +21,6 @@
+ quality_update_note: 'Safety edits applied 2026-03-10: softened diagnostic language, added parent disclaimer, reframed clinical claims as observational patterns'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: D (6.9) | Priority: rebuild | Safety: fail
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+-Tags: safety-boundary-risk
+-Graded: 2026-02-22
+-UPDATE 2026-03-10: Safety edits applied — softened diagnostic language, added parent disclaimer, reframed clinical claims as observational patterns, softened warning signs table. Needs re-grading.
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import PopCard from "$lib/components/atoms/PopCard.svelte";
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/mental-health/enneagram-therapy-guide.md b/src/blog/enneagram/mental-health/enneagram-therapy-guide.md
+--- a/src/blog/enneagram/mental-health/enneagram-therapy-guide.md
++++ b/src/blog/enneagram/mental-health/enneagram-therapy-guide.md
+@@ -21,15 +21,6 @@
+ quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened prescriptive modality-to-type mappings, reframed directive language'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: D (6.9) | Priority: rebuild | Safety: fail
+-Strengths: practical utility (9.4); Enneagram depth (9.2).
+-Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+-Tags: safety-boundary-risk
+-Graded: 2026-02-22
+-UPDATE 2026-03-10: Safety edits applied — added disclaimer, softened prescriptive modality assignments, reframed directive language. Needs re-grading.
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import PopCard from "$lib/components/atoms/PopCard.svelte";
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md b/src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md
+--- a/src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md
++++ b/src/blog/enneagram/mental-health/enneagram-trauma-response-guide.md
+@@ -21,15 +21,6 @@
+ quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened diagnostic claims and prescriptive healing sections'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: D (6.9) | Priority: rebuild | Safety: fail
+-Strengths: Enneagram depth (9.7); practical utility (9.5).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+-Tags: weak-hook, safety-boundary-risk
+-Graded: 2026-02-22
+-UPDATE 2026-03-10: Safety edits applied — added disclaimer, softened diagnostic claims and prescriptive healing sections. Needs re-grading.
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ NOTES:
+ - Cover fight/flight/freeze/fawn responses by type
+diff --git a/src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md b/src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md
+--- a/src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md
++++ b/src/blog/enneagram/mental-health/enneagram-workplace-mental-health.md
+@@ -22,14 +22,6 @@
+ quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened prescriptive language, fixed dangerous depression-dismissal claim'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: D (6.9) | Priority: rebuild | Safety: fail
+-Strengths: practical utility (9.9); Enneagram depth (9.1).
+-Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+-Tags: safety-boundary-risk
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+   import PopCard from "$lib/components/atoms/PopCard.svelte";
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/oversharing-psychology-shame-boundaries.md b/src/blog/enneagram/oversharing-psychology-shame-boundaries.md
+--- a/src/blog/enneagram/oversharing-psychology-shame-boundaries.md
++++ b/src/blog/enneagram/oversharing-psychology-shame-boundaries.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.3) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (8.6); framing (8.3).
+-Improve next: Add concrete steps, checklists, and "what to do next" guidance. Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: low-utility, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/personality-maxing.md b/src/blog/enneagram/personality-maxing.md
+--- a/src/blog/enneagram/personality-maxing.md
++++ b/src/blog/enneagram/personality-maxing.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (9.2).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+     import PopCard from "$lib/components/atoms/PopCard.svelte";
+ </script>
+diff --git a/src/blog/enneagram/philosophy-psychology-and-the-enneagram.md b/src/blog/enneagram/philosophy-psychology-and-the-enneagram.md
+--- a/src/blog/enneagram/philosophy-psychology-and-the-enneagram.md
++++ b/src/blog/enneagram/philosophy-psychology-and-the-enneagram.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.2) | Priority: light | Safety: n/a
+-Strengths: evidence quality (9.1); originality (7.5).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
+-Tags: weak-hook, low-utility, style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ </script>
+ 
+diff --git a/src/blog/enneagram/red-flags-dating-each-enneagram-type.md b/src/blog/enneagram/red-flags-dating-each-enneagram-type.md
+--- a/src/blog/enneagram/red-flags-dating-each-enneagram-type.md
++++ b/src/blog/enneagram/red-flags-dating-each-enneagram-type.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.2) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/relationship-communication-guide.md b/src/blog/enneagram/relationship-communication-guide.md
+--- a/src/blog/enneagram/relationship-communication-guide.md
++++ b/src/blog/enneagram/relationship-communication-guide.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.8) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.4); evidence quality (9.4).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
+-Tags: template-fatigue, overlap-duplication
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+diff --git a/src/blog/enneagram/shadow-work-by-enneagram-type.md b/src/blog/enneagram/shadow-work-by-enneagram-type.md
+--- a/src/blog/enneagram/shadow-work-by-enneagram-type.md
++++ b/src/blog/enneagram/shadow-work-by-enneagram-type.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.9) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Add higher-quality sources and anchor key claims with specific evidence.
+-Tags: unsupported-claims
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+     import PopCard from "$lib/components/atoms/PopCard.svelte";
+     import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+diff --git a/src/blog/enneagram/situations-change-emotions-dont.md b/src/blog/enneagram/situations-change-emotions-dont.md
+--- a/src/blog/enneagram/situations-change-emotions-dont.md
++++ b/src/blog/enneagram/situations-change-emotions-dont.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.5) | Priority: none | Safety: n/a
+-Strengths: framing (7.9); Enneagram depth (7.9).
+-Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions.
+-Tags: style-friction
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ </script>
+ 
+diff --git a/src/blog/enneagram/toxic-traits-of-each-enneagram-type.md b/src/blog/enneagram/toxic-traits-of-each-enneagram-type.md
+--- a/src/blog/enneagram/toxic-traits-of-each-enneagram-type.md
++++ b/src/blog/enneagram/toxic-traits-of-each-enneagram-type.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.2) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
+-Tags: none
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/toxic-traits-relationships-warning-signs.md b/src/blog/enneagram/toxic-traits-relationships-warning-signs.md
+--- a/src/blog/enneagram/toxic-traits-relationships-warning-signs.md
++++ b/src/blog/enneagram/toxic-traits-relationships-warning-signs.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B+ (8.7) | Priority: none | Safety: n/a
+-Strengths: Enneagram depth (9.7); practical utility (8.2).
+-Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+diff --git a/src/blog/enneagram/why-dating-apps-are-harder-for-certain-personality-types.md b/src/blog/enneagram/why-dating-apps-are-harder-for-certain-personality-types.md
+--- a/src/blog/enneagram/why-dating-apps-are-harder-for-certain-personality-types.md
++++ b/src/blog/enneagram/why-dating-apps-are-harder-for-certain-personality-types.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.4) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (8.3); practical utility (8.3).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
+-Tags: weak-hook, template-fatigue
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md b/src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md
+--- a/src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md
++++ b/src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md
+@@ -21,14 +21,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: B (8.2) | Priority: light | Safety: n/a
+-Strengths: Enneagram depth (9.1); framing (7.9).
+-Improve next: Add higher-quality sources and anchor key claims with specific evidence. Add concrete steps, checklists, and "what to do next" guidance.
+-Tags: unsupported-claims, low-utility
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <!--
+ Midjourney prompt:
+ restless Greek traveler statue surrounded by multiple unfinished marble roads and open doorways, kneeling to drink from a single deep spring while abandoned masks and tickets scatter behind, twilight to dawn gradient, neoclassical landscape, cinematic depth, emotionally reflective editorial composition, detailed stone textures --ar 16:9 --stylize 700
+diff --git a/src/blog/enneagram/why-therapy-doesnt-work-the-same-for-every-type.md b/src/blog/enneagram/why-therapy-doesnt-work-the-same-for-every-type.md
+--- a/src/blog/enneagram/why-therapy-doesnt-work-the-same-for-every-type.md
++++ b/src/blog/enneagram/why-therapy-doesnt-work-the-same-for-every-type.md
+@@ -22,14 +22,6 @@
+ quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened prescriptive modality claims, reframed anti-therapy tone'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: D (6.9) | Priority: rebuild | Safety: fail
+-Strengths: Enneagram depth (9.7); practical utility (9.5).
+-Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
+-Tags: safety-boundary-risk
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+ 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+diff --git a/src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md b/src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
+--- a/src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
++++ b/src/blog/enneagram/why-you-cant-stop-overthinking-enneagram.md
+@@ -20,14 +20,6 @@
+ quality_safety_gate: 'n/a'
+ ---
+ 
+-<!-- QUALITY_FEEDBACK_START
+-Grade: A (9.3) | Priority: none | Safety: n/a
+-Strengths: practical utility (9.9); Enneagram depth (9.7).
+-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
+-Tags: weak-hook
+-Graded: 2026-02-22
+-QUALITY_FEEDBACK_END -->
+-
+ <script>
+ 	import PopCard from "$lib/components/atoms/PopCard.svelte";
+ 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

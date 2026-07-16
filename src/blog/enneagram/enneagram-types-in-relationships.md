@@ -13,6 +13,7 @@ type: ['relationships']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-in-relationships'
+pic_alt: 'Nine classical figures illustrating different ways people seek connection and protect themselves in relationships'
 path: src/blog/enneagram/enneagram-types-in-relationships.md
 ---
 
@@ -58,6 +59,14 @@ Use this guide to name patterns in yourself first. Typing your partner during an
 
 These are tendencies, not rules. Wings, instincts, attachment patterns, culture, trauma, and emotional health can all change how a type looks.
 
+## What the Research Can and Cannot Tell Us
+
+The Enneagram is not a validated compatibility test. A [2021 systematic review of 104 independent samples](https://pubmed.ncbi.nlm.nih.gov/33332604/) found mixed evidence for its reliability and validity. Some findings aligned with Enneagram theory, but researchers had not empirically derived the nine types through clustering. The type portraits below are best treated as prompts for reflection, not clinical findings or predictions about your partner.
+
+Relationship research gives us firmer ground at the level of **interaction patterns**. A [meta-analysis of 74 studies](https://doi.org/10.1080/03637751.2013.813632) found a meaningful association between demand-withdraw communication and worse relational and communication outcomes. Research on newlywed conflict also shows that [repair attempts can be observed by whether they reduce negativity or restore warmth](https://doi.org/10.1080/08975353.2015.1038962).
+
+That is why this guide keeps returning to the cycle between two people rather than declaring a type good or bad at love. Treat each section as a hypothesis: _Does this describe what happens between us?_ If it does, test the practice. If it does not, let the description go.
+
 ## How Each Enneagram Type Shows Up in Love
 
 <section class="section-content">
@@ -85,7 +94,7 @@ A healthy Type 1 brings something beautiful to love: integrity without rigidity.
 
 **A better move in the moment:** Before correcting, ask, “Does this need to be fixed, or do I need relief from the discomfort of it being different?” If it truly matters, lead with what worked and make one clear request.
 
-**For the partner:** Try, “Do you want appreciation, help, or feedback right now?” It gives the One structure without treating their anxiety as authority.
+**What lands better than criticism:** Try, “Do you want appreciation, help, or feedback right now?” It gives the One structure without treating their anxiety as authority.
 
 [Explore the deeper Type 1 pattern →](/enneagram-corner/enneagram-type-1)
 
@@ -111,7 +120,7 @@ Healthy Twos are generous without abandoning themselves. They can give because t
 
 **The conversation to practice:** “I want to help, and I also want to be honest. I have energy for this much, and I need this from you.” Specificity prevents resentment from having to speak later.
 
-**For the partner:** Appreciate the care, but do not guess at every suppressed need. Ask directly, make room for an honest answer, and follow through when they finally give you one.
+**How to care for the caregiver:** Appreciate the care, but do not guess at every suppressed need. Ask directly, make room for an honest answer, and follow through when they finally give you one.
 
 [See the Helper's deeper motivations →](/enneagram-corner/enneagram-type-2)
 
@@ -193,7 +202,7 @@ Healthy Fives do not surrender their boundaries. They make the boundary legible.
 
 **The sentence that keeps space from becoming abandonment:** “I am overloaded, not done with us. I need an hour alone, and I will come back at eight.”
 
-**For the partner:** Make a bounded request. “Could we talk for 20 minutes after dinner?” is easier to meet than “We need to communicate more.” Respect the answer, and notice whether promised re-entry actually happens.
+**Make the request easier to answer:** “Could we talk for 20 minutes after dinner?” is easier to meet than “We need to communicate more.” Respect the answer, and notice whether promised re-entry actually happens.
 
 [Understand the Investigator's need for space →](/enneagram-corner/enneagram-type-5)
 
@@ -219,7 +228,7 @@ At their best, Sixes are brave, funny, discerning, and dependable. They raise co
 
 **Run this three-column check:** What happened? What story did my mind add? What do I need to ask directly? “You were quiet at dinner; I started worrying that you were angry with me. Are you?”
 
-**For the partner:** Do not promise certainty you cannot provide. Give clear information, keep ordinary commitments, and own changes quickly. Reliability works better than grand reassurance.
+**What earns trust over time:** Do not promise certainty you cannot provide. Give clear information, keep ordinary commitments, and own changes quickly. Reliability works better than grand reassurance.
 
 [Decode the Loyalist's relationship fears →](/enneagram-corner/enneagram-type-6)
 
@@ -243,7 +252,7 @@ A mature Seven does not become less joyful. Their joy gains weight because it ca
 
 **A two-minute practice:** When you want to pivot, stay with the current topic for two more minutes. Reflect what you heard before adding perspective: “You felt alone, and my joke made it worse.”
 
-**For the partner:** Make the destination clear. “I want ten minutes to feel understood; I am not asking you to solve our entire future tonight.” A contained hard conversation feels more workable than an emotional horizon with no edge.
+**Contain the hard conversation:** “I want ten minutes to feel understood; I am not asking you to solve our entire future tonight.” A contained hard conversation feels more workable than an emotional horizon with no edge.
 
 [See what keeps the Enthusiast moving →](/enneagram-corner/enneagram-type-7)
 
@@ -267,7 +276,7 @@ Healthy Eights are still strong. They become easier to trust because their stren
 
 **Translate the first impulse:** Before accusing, try the sentence underneath it. “When you did not call, I was worried and then angry.” Naming the sequence keeps anger from rewriting the whole event.
 
-**For the partner:** Be direct, concise, and real. Do not match volume to prove strength. “My answer is no, and I am willing to explain after we both slow down” is a boundary, not a retreat.
+**Meet force with a boundary:** Be direct, concise, and real. Do not match volume to prove strength. “My answer is no, and I am willing to explain after we both slow down” is a boundary, not a retreat.
 
 [Look inside the Challenger's protective style →](/enneagram-corner/enneagram-type-8)
 
@@ -295,7 +304,7 @@ A healthy Nine offers genuine acceptance without disappearing. They can tolerate
 
 **Build preference reps:** Choose the restaurant, name the movie, or disagree with one small thing each day. Small preferences train the nervous system for larger conversations.
 
-**For the partner:** Replace “Anything is fine?” with a bounded choice, then wait. For bigger questions, agree on a return time: “Think about it tonight, and let us decide tomorrow at breakfast.”
+**Give the preference room to appear:** Replace “Anything is fine?” with a bounded choice, then wait. For bigger questions, agree on a return time: “Think about it tonight, and let us decide tomorrow at breakfast.”
 
 [Help the Peacemaker recover their voice →](/enneagram-corner/enneagram-type-9)
 
@@ -306,15 +315,6 @@ A healthy Nine offers genuine acceptance without disappearing. They can tolerate
 No pairing guarantees chemistry, safety, or longevity. Emotional health, shared values, repair skills, and the realities of two people's lives matter more than an Enneagram combination.
 
 Type pairing is still useful when it predicts **where two defenses may collide**.
-
-| Pairing   | Natural pull                     | Recurring friction                    | Repair to practice                      |
-| --------- | -------------------------------- | ------------------------------------- | --------------------------------------- |
-| **1 + 7** | Structure meets possibility      | Plans can feel rigid or unreliable    | Divide planned and open time            |
-| **2 + 5** | Care meets calm independence     | Pursuing can trigger withdrawal       | Make giving optional and space bounded  |
-| **3 + 9** | Momentum meets steadiness        | One drives while the other disappears | Name both people's priorities           |
-| **4 + 5** | Emotional and intellectual depth | Intensity can trigger retreat         | Pace disclosure and schedule re-entry   |
-| **6 + 9** | Loyalty meets stability          | Anxiety meets conflict avoidance      | State the concern and make one decision |
-| **8 + 9** | Protection meets acceptance      | Pressure can produce false agreement  | Slow the question and welcome a “no”    |
 
 For all pairings, ask a better question than “Are our types compatible?” Ask: **What happens between us when each of us feels threatened, and can we repair it?**
 
@@ -382,16 +382,16 @@ For more examples, see the [relationship communication guide](/enneagram-corner/
 
 ## How Attachment Style Intersects With Enneagram Type
 
-Attachment style and Enneagram type are separate frameworks.
+Attachment style and Enneagram type are separate frameworks. Popular articles often use four style labels; adult attachment research commonly measures two continuous dimensions, **attachment anxiety** and **attachment avoidance**. Those dimensions can be combined into the familiar secure, anxious, avoidant, and fearful-avoidant groupings, but people do not always fit a single neat box. The widely used ECR-R measure, for example, [scores anxiety and avoidance separately](https://pubmed.ncbi.nlm.nih.gov/10707340/).
 
-- **Attachment style** describes how someone manages closeness, separation, and relational threat.
-- **Enneagram type** proposes why certain threats carry so much meaning for that person.
+- **Attachment** describes patterns in how someone manages closeness, separation, and relational threat.
+- **Enneagram type** proposes a motivation that may help explain why certain threats carry so much meaning for that person.
 
 There is no established one-to-one map between them. Any Enneagram type can be secure, anxious, avoidant, or show a mixture of strategies. Treat claims that “all Fives are avoidant” or “all Twos are anxious” as shortcuts, not findings.
 
-The combination can still sharpen a conversation. Two people with anxious strategies may seek reassurance differently. A Type 2 may increase care to feel indispensable. A Type 6 may ask questions and look for inconsistencies. Two people with avoidant strategies may also differ: a Type 5 may protect energy by retreating, while a Type 8 may protect vulnerability by controlling the interaction.
+As a reflection exercise, the combination can still sharpen a conversation. Two people high in attachment anxiety may seek reassurance differently. A Type 2 may increase care to feel indispensable. A Type 6 may ask questions and look for inconsistencies. Two people high in attachment avoidance may also differ: a Type 5 may protect energy by retreating, while a Type 8 may protect vulnerability by controlling the interaction.
 
-The repair depends on both layers. The attachment pattern tells you what the nervous system is doing. The Enneagram lens can suggest what the behavior means to the person.
+The attachment lens describes the closeness strategy. The Enneagram lens offers a possible story about what the behavior means to the person. Verify that story with them rather than assuming it is true.
 
 Explore the distinction in [Attachment Styles and Enneagram Types](/enneagram-corner/attachment-styles-and-enneagram-types).
 
@@ -405,7 +405,7 @@ Insight matters only if it changes the next difficult ten minutes. Use this proc
 4. **Make one concrete request.** Ask for ten minutes of listening, an hour of space, a clear answer, a hug, or a decision by tomorrow.
 5. **Return and verify.** Repair is incomplete until both people know what will happen next and the promised follow-through occurs.
 
-This process does not apply when there is abuse, coercive control, or fear for someone's safety. In those cases, the priority is support and safety, not better type communication.
+This process does not apply when there is abuse, coercive control, or fear for someone's safety. In those cases, the priority is support and safety, not better type communication. In the United States, the [National Domestic Violence Hotline](https://www.thehotline.org/get-help/) offers phone, text, chat, and safety-planning support.
 
 ## The Growth Practice for Each Type in Love
 

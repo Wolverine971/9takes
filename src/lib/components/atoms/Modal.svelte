@@ -7,20 +7,21 @@
 		return modals[id];
 	}
 
-	function pushTopModal(node: HTMLDivElement) {
+	function pushTopModal(node: HTMLDivElement | null) {
+		if (!node) return;
 		modalStack = modalStack.filter((modal) => modal !== node);
 		modalStack = [...modalStack, node];
 		for (const modal of modalStack) modal.toggleAttribute('inert', modal !== node);
 	}
 
-	function removeTopModal(node: HTMLDivElement) {
-		node.setAttribute('inert', '');
-		modalStack = modalStack.filter((modal) => modal !== node);
+	function removeTopModal(node: HTMLDivElement | null) {
+		node?.setAttribute('inert', '');
+		modalStack = modalStack.filter((modal) => modal !== node && modal.isConnected);
 		modalStack[modalStack.length - 1]?.removeAttribute('inert');
 	}
 
-	function isTopModal(node: HTMLDivElement) {
-		return modalStack[modalStack.length - 1] === node;
+	function isTopModal(node: HTMLDivElement | null) {
+		return Boolean(node && modalStack[modalStack.length - 1] === node);
 	}
 </script>
 
@@ -36,7 +37,7 @@
 	import { lockBodyScroll } from '$lib/utils/scrollLock';
 	import { portal } from '../../../utils/portal';
 
-	let topDiv: HTMLDivElement;
+	let topDiv: HTMLDivElement | null = null;
 	let visible = false;
 	let closeCallback: ((arg: any) => void) | null = null;
 	let releaseBodyScroll: (() => void) | null = null;
@@ -54,10 +55,11 @@
 	export let initialFocus: string | null = null;
 
 	function keyPress(ev: KeyboardEvent) {
-		if (!isTopModal(topDiv)) return;
+		const node = topDiv;
+		if (!node || !isTopModal(node)) return;
 
 		if (ev.key === 'Tab') {
-			trapFocus(ev, topDiv);
+			trapFocus(ev, node);
 			return;
 		}
 
@@ -73,26 +75,31 @@
 	}
 
 	function open(callback?: (arg: any) => void) {
-		if (visible) return;
+		const node = topDiv;
+		if (visible || !node) return;
 		closeCallback = callback || null;
 		if (browser) {
 			previouslyFocused =
 				document.activeElement instanceof HTMLElement ? document.activeElement : null;
 			releaseBodyScroll = lockBodyScroll();
 			window.addEventListener('keydown', keyPress);
-			document.body.appendChild(topDiv);
-			releaseBackgroundInert = inertBodySiblings(topDiv);
+			document.body.appendChild(node);
+			releaseBackgroundInert = inertBodySiblings(node);
 		}
-		pushTopModal(topDiv);
+		pushTopModal(node);
 		visible = true;
 
 		void tick().then(() => {
-			if (visible && isTopModal(topDiv)) focusInitialElement(topDiv, initialFocus);
+			if (visible && node.isConnected && isTopModal(node)) focusInitialElement(node, initialFocus);
 		});
 	}
 
 	function close(retVal: any) {
 		if (!visible) return;
+		const node = topDiv;
+		const callback = closeCallback;
+		visible = false;
+		closeCallback = null;
 		if (browser) {
 			window.removeEventListener('keydown', keyPress);
 			releaseBodyScroll?.();
@@ -100,20 +107,23 @@
 			releaseBackgroundInert?.();
 			releaseBackgroundInert = null;
 		}
-		removeTopModal(topDiv);
-		visible = false;
+		removeTopModal(node);
 		restoreFocus(previouslyFocused);
 		previouslyFocused = null;
-		if (closeCallback) closeCallback(retVal);
+		callback?.(retVal);
 	}
 
-	modals[id] = { open, close };
+	const controller = { open, close };
+	modals[id] = controller;
 
 	onDestroy(() => {
-		delete modals[id];
+		if (modals[id] === controller) delete modals[id];
+		const wasVisible = visible;
+		visible = false;
+		closeCallback = null;
 		if (browser) {
 			window.removeEventListener('keydown', keyPress);
-			if (visible) {
+			if (wasVisible) {
 				releaseBodyScroll?.();
 				releaseBodyScroll = null;
 				releaseBackgroundInert?.();

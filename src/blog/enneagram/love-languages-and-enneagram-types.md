@@ -548,7 +548,7 @@ Don't argue about the expression—argue about the underlying need. "You never t
 
 ## What changes when you stop reading the behavior and start reading the wound
 
-The love language tells you what your partner reaches for. The Enneagram tells you why their hand shakes when they reach.
+The love language tells you what your partner reaches for. Nine different people reach for the same thing for nine different reasons, and the Enneagram is how you tell them apart.
 
 When your Type 6 partner asks, "do you still love me?" for the eighth time this week, you stop hearing neediness. You start hearing a nervous system checking that the floor is still there.
 
@@ -558,7 +558,7 @@ When your Type 3 partner arrives with the perfect-on-paper gift, you stop callin
 
 **You don't have to change your love language or your type. You have to stop mistranslating.**
 
-Your love language shows what your heart reaches for. Your type shows why that specific thing, and not the thing next to it on the shelf.
+Your love language shows what your heart reaches for. Your type tells your version of that need apart from the eight versions that look just like it from the outside.
 
 Together, they tell you which gestures land and which ones slide off.
 
@@ -582,7 +582,7 @@ Together, they tell you which gestures land and which ones slide off.
 
 The most meaningful relationships happen when two people understand not just how to love each other, but _why_ they need to be loved the way they do.
 
-So: **what's the mismatch pattern that feels most like yours?** Post it as "Type X gives **_, Type Y needs _**"—the one specific gap you've been bumping into. Naming the shape is the first real step toward closing it.
+So: **what's the mismatch pattern that feels most like yours?** Post it as "Type X gives **\_, Type Y needs _**"—the one specific gap you've been bumping into. Naming the shape is the first real step toward closing it.
 
 <script type="application/ld+json">
 {

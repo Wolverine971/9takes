@@ -62,7 +62,7 @@ The inventory screen happened in two passes. First, I removed profiles whose sub
 | ---: | ------------------ | ----------: | ----: | -------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |    1 | **Shaan Puri**     |           7 |    95 | Warm / proven              | Reply in the existing Gmail thread                                     | He already replied positively. The next ask must be smaller than the first and cannot repeat the pitch.                                                                                                    |
 |    2 | **Neil Strauss**   |           4 |    88 | High relative to this pool | His official contact form or a reply to his Inner Circle welcome email | His site says the inbox is checked daily and that his team responds to every email; his work is unusually aligned with identity analysis.                                                                  |
-|    3 | **John Coogan**    |           3 |    82 | Medium-high                | X DM first; `john@johncoogan.com` second                               | His official contact page says X is best and publishes the email pattern. The TBPN/OpenAI moment gives the profile a timely reason to exist.                                                               |
+|    3 | **John Coogan**    |           7 |    82 | Medium-high                | X DM first; `john@johncoogan.com` second                               | His official contact page says X is best and publishes the email pattern. Hold until the new Type 7 profile is live; the public URL still serves the retired Type 3 article.                               |
 |    4 | **Jordi Hays**     |           3 |    79 | Medium-high                | Thoughtful LinkedIn comment, then connection note/DM                   | Active, less gatekept than most celebrity founders, and the article’s “serious work under the bit” thesis invites a crisp correction.                                                                      |
 |    5 | **Michael Seibel** |           1 |    76 | Medium-high                | `michael@ycombinator.com`                                              | His own site publishes the direct email. A factual, thesis-level question fits his public preference for directness better than admiration does.                                                           |
 |    6 | **Alex Lieberman** |           7 |    72 | Medium                     | `the-crazy-ones@morningbrew.com`; LinkedIn backup                      | His site explicitly invites ideas/questions. He is active and the panic-attack/empty-calendar thesis is personal without being generic, but his 214K-person LinkedIn audience implies significant inbound. |
@@ -112,7 +112,7 @@ The repo already contains a 1080×1080 social card for each person in the top te
 | -------------- | --------------------------------------- |
 | Shaan Puri     | `static/types/7s/s-Shaan-Puri.webp`     |
 | Neil Strauss   | `static/types/4s/s-Neil-Strauss.webp`   |
-| John Coogan    | `static/types/3s/s-John-Coogan.webp`    |
+| John Coogan    | `static/types/7s/s-John-Coogan.webp`    |
 | Jordi Hays     | `static/types/3s/s-Jordi-Hays.webp`     |
 | Michael Seibel | `static/types/1s/s-Michael-Seibel.webp` |
 | Alex Lieberman | `static/types/7s/s-Alex-Lieberman.webp` |
@@ -189,31 +189,31 @@ One follow-up at day 7 is enough. It must add something new—a correction made,
 
 ---
 
-## 3. John Coogan — the scoreboard never shuts off
+## 3. John Coogan — curiosity or confinement
 
 **Evidence:** [John’s official contact page](https://www.johncoogan.com/contact/) says X is the best way to reach him and lists an address using his first name at his domain. [TBPN’s current site](https://www.tbpn.com/about) gives the article a timely context.
 
-**Personality-shaped lever:** A presumed Three will respond more readily to a concise model of his trajectory and a question about the next scoreboard than to a request for time.
+**Personality-shaped lever:** The current profile reads John as a Seven. Start with his explicit claim that curiosity outranks money, fame, prestige, health, and comfort; ask whether boredom or confinement is the deeper threat.
 
-**Channel:** X DM first. If DMs are closed or there is no answer, send the same note once to `john@johncoogan.com`. Do not use both on the same day.
+**Channel:** X DM first. If DMs are closed or there is no answer, use `john@johncoogan.com` once. **Do not send until the live URL displays the new Type 7 profile.** See the [send-ready John packet](./2026-07-15-top-five/03-john-coogan.md).
 
-**Subject:** `The scoreboard never shuts off`
+**Subject:** `Curiosity or confinement?`
 
 **Draft:**
 
-> John—I wrote the long profile of you that begins with “I’ve never held a full-time job at a company I didn’t start.”
+> John—you said curiosity outranks money, fame, prestige, health, and comfort. I took that literally in a profile I wrote about you.
 >
-> My read is that Soylent → Lucy → YouTube → TBPN → OpenAI is not random reinvention; each became a larger scoreboard.
+> The thesis: Soylent → Lucy → YouTube → TBPN isn’t an achievement ladder. It’s a series of systems that stayed interesting long enough to earn your commitment.
 >
-> Did TBPN feel like the next arena, or the first thing that made the old scoreboard irrelevant?
+> One forced choice: is the bigger threat **boredom** or **confinement**?
 >
-> [The Achiever Whose Scoreboard Never Shuts Off](https://9takes.com/personality-analysis/john-coogan)
+> [John Coogan: The Man Who Would Rather Learn Than Win](https://9takes.com/personality-analysis/john-coogan)
 >
 > —DJ
 
 **Short X version:**
 
-> John—I wrote a profile arguing Soylent → Lucy → YouTube → TBPN was one expanding scoreboard. One thing I can’t know: did TBPN feel like the next arena, or the first thing that made the old scoreboard irrelevant? [link]
+> John—you’ve said curiosity outranks money, fame, prestige, health, and comfort. I wrote a profile taking that literally. One thing I can’t know from outside: is the bigger threat boredom, or confinement inside something that already works? [link]
 
 ---
 

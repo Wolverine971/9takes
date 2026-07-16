@@ -23,7 +23,9 @@
 	let context = $state('');
 	let url = $state('');
 	let questionError = $state('');
+	let preparing = $state(false);
 	let loading = $state(false);
+	let createdQuestionPath = $state<string | null>(null);
 	// Social-card preview scales from its measured width (card art is 1200×630).
 	// Fixed 320px tiers clipped inside the modal at ≤390px (2026-06-11 audit).
 	let previewWidth = $state(0);
@@ -48,8 +50,9 @@
 	const MAX_CONTEXT_CHAR_COUNT = 2000;
 	const IMAGE_UPLOAD_TIMEOUT_MS = 7000;
 	const SOCIAL_CARD_CAPTURE_ID = 'question-social-card-capture';
+	let normalizedQuestion = $derived(question.trim().replace(/\s+/g, ' '));
 	let isQuestionValid = $derived(
-		question.trim().length >= MIN_CHAR_COUNT && question.length <= MAX_CHAR_COUNT
+		normalizedQuestion.length >= MIN_CHAR_COUNT && normalizedQuestion.length <= MAX_CHAR_COUNT
 	);
 	let questionCharCount = $derived(question.length);
 	let questionLengthInvalid = $derived(questionCharCount > 0 && !isQuestionValid);
@@ -79,8 +82,20 @@
 	});
 
 	async function getUrl() {
+		if (createdQuestionPath) {
+			try {
+				await goto(createdQuestionPath);
+			} catch (error) {
+				console.error('Error opening created question:', error);
+				notifications.warning('Your question was created, but it could not be opened yet.', 5000);
+			}
+			return;
+		}
+
+		if (preparing || loading) return;
+
 		if (!isQuestionValid) {
-			questionError = question.trim()
+			questionError = normalizedQuestion
 				? `Question must be between ${MIN_CHAR_COUNT} and ${MAX_CHAR_COUNT} characters.`
 				: 'Enter a question before continuing.';
 			notifications.warning(
@@ -90,49 +105,54 @@
 			return;
 		}
 
-		const sanitizedQuestion = question
-			.trim()
-			.replace(/[^\w\s]|_/g, '')
-			.replace(/\s+/g, ' ');
-
-		// Check if sanitized question still meets minimum length
-		if (sanitizedQuestion.length < MIN_CHAR_COUNT) {
-			questionError = `Use at least ${MIN_CHAR_COUNT} letters or numbers in your question.`;
-			notifications.warning(
-				`Question must have at least ${MIN_CHAR_COUNT} letters/numbers after removing special characters`,
-				3000
-			);
-			return;
-		}
-
 		const body = new FormData();
-		body.append('question', sanitizedQuestion);
+		body.append('question', normalizedQuestion);
+		preparing = true;
 
 		try {
 			const response = await fetch('?/getUrl', { method: 'POST', body });
+			const result = deserialize(await response.text());
 
-			if (!response.ok) {
-				const error = await response.text();
-				throw new Error(error || 'Failed to generate URL');
+			if (result.type !== 'success') {
+				throw new Error(getActionErrorMessage(result, 'Failed to prepare question'));
 			}
 
-			const data = await response.json();
-			url = JSON.parse(data?.data)?.[0];
-			questionError = '';
-			createProgressStage = 'saving';
-			loading = false;
-
-			if (!url) {
+			const generatedUrl =
+				result.data && typeof result.data === 'object'
+					? (result.data as Record<string, unknown>).url
+					: null;
+			if (typeof generatedUrl !== 'string' || !generatedUrl) {
 				throw new Error('No URL generated');
 			}
 
-			getModal('question-create').open();
+			url = generatedUrl;
+			questionError = '';
+			createProgressStage = 'saving';
+			getModal('question-create')?.open();
 		} catch (error) {
 			console.error('Error generating URL:', error);
 			const message = error instanceof Error ? error.message : 'Failed to prepare question';
 			questionError = message;
 			notifications.danger(message, 5000);
+		} finally {
+			preparing = false;
 		}
+	}
+
+	function getActionErrorMessage(result: unknown, fallback: string): string {
+		const resultRecord =
+			result && typeof result === 'object' ? (result as Record<string, unknown>) : {};
+
+		for (const value of [resultRecord.data, resultRecord.error]) {
+			if (typeof value === 'string' && value) return value;
+			if (value && typeof value === 'object') {
+				const record = value as Record<string, unknown>;
+				if (typeof record.error === 'string' && record.error) return record.error;
+				if (typeof record.message === 'string' && record.message) return record.message;
+			}
+		}
+
+		return fallback;
 	}
 
 	async function waitForImagesToLoad(element: HTMLElement): Promise<void> {
@@ -199,82 +219,97 @@
 	async function createQuestion() {
 		try {
 			if (loading) return;
+			if (createdQuestionPath) {
+				await goto(createdQuestionPath);
+				return;
+			}
 			loading = true;
 			createProgressStage = 'saving';
 
 			if (!data?.session?.user?.id) {
 				notifications.info('Please login to create a question', 3000);
-				getModal('question-create').close();
+				getModal('question-create')?.close();
 				return;
 			}
 
 			const body = new FormData();
-			body.append(
-				'question',
-				question
-					.trim()
-					.replace(/[^\w\s]|_/g, '')
-					.replace(/\s+/g, ' ')
-			);
-			body.append('author_id', data.session.user.id.toString());
+			body.append('question', normalizedQuestion);
 			body.append('context', context.trim());
 			body.append('url', url);
 
 			const resp = await fetch('?/createQuestion', { method: 'POST', body });
 			const result = deserialize(await resp.text());
 
-			if (result && typeof result === 'object') {
-				if ('error' in result) {
-					const error = (result as any).error;
-					throw new Error(error?.message || 'Failed to create question');
-				}
-				if ('type' in result && (result as any).type === 'failure') {
-					throw new Error((result as any).data?.error || 'Failed to create question');
-				}
+			if (result.type !== 'success') {
+				throw new Error(getActionErrorMessage(result, 'Failed to create question'));
 			}
 
-			const responseData = (result as any)?.data;
-			const questionId = Array.isArray(responseData) ? responseData?.[0]?.id : responseData?.id;
+			const responseData = result.data;
+			const createdQuestion = Array.isArray(responseData) ? responseData[0] : responseData;
+			const questionId =
+				createdQuestion && typeof createdQuestion === 'object'
+					? (createdQuestion as Record<string, unknown>).id
+					: null;
+			const createdUrl =
+				createdQuestion && typeof createdQuestion === 'object'
+					? (createdQuestion as Record<string, unknown>).url
+					: null;
 
-			if (questionId) {
-				try {
-					createProgressStage = 'generatingImage';
-					const png = await generateQuestionImage(SOCIAL_CARD_CAPTURE_ID);
-					// Check image size (rough estimate: base64 is ~1.37x larger than binary)
-					const estimatedSize = png.length * 0.75;
-					if (estimatedSize > 10 * 1024 * 1024) {
-						throw new Error('Generated image is too large. Please try a shorter question.');
-					}
+			if ((typeof questionId !== 'number' && typeof questionId !== 'string') || !createdUrl) {
+				throw new Error('Question creation returned an incomplete response');
+			}
+			if (typeof createdUrl !== 'string') {
+				throw new Error('Question creation returned an invalid URL');
+			}
 
-					const uploadBody = new FormData();
-					uploadBody.append('questionId', questionId.toString());
-					uploadBody.append('url', url);
-					uploadBody.append('img_url', png);
-					uploadBody.append('variant', QUESTION_SOCIAL_CARD_VARIANT);
+			url = createdUrl;
+			createdQuestionPath = `/questions/${encodeURIComponent(createdUrl)}`;
 
-					await withTimeout(
-						fetch('/api/questions/upload-image', { method: 'POST', body: uploadBody }).then(
-							async (uploadResp) => {
-								if (!uploadResp.ok) {
-									const uploadError = await uploadResp.text();
-									throw new Error(uploadError || 'Image upload failed');
-								}
-							}
-						),
-						IMAGE_UPLOAD_TIMEOUT_MS
-					);
-				} catch (error) {
-					console.error('Error generating or uploading image:', error);
+			try {
+				createProgressStage = 'generatingImage';
+				const png = await generateQuestionImage(SOCIAL_CARD_CAPTURE_ID);
+				// Check image size (rough estimate: base64 is ~1.37x larger than binary)
+				const estimatedSize = png.length * 0.75;
+				if (estimatedSize > 10 * 1024 * 1024) {
+					throw new Error('Generated image is too large. Please try a shorter question.');
 				}
+
+				const uploadBody = new FormData();
+				uploadBody.append('questionId', questionId.toString());
+				uploadBody.append('url', createdUrl);
+				uploadBody.append('img_url', png);
+				uploadBody.append('variant', QUESTION_SOCIAL_CARD_VARIANT);
+
+				await withTimeout(
+					fetch('/api/questions/upload-image', { method: 'POST', body: uploadBody }).then(
+						async (uploadResp) => {
+							if (!uploadResp.ok) {
+								const uploadError = await uploadResp.text();
+								throw new Error(uploadError || 'Image upload failed');
+							}
+						}
+					),
+					IMAGE_UPLOAD_TIMEOUT_MS
+				);
+			} catch (error) {
+				console.error('Error generating or uploading image:', error);
 			}
 
 			createProgressStage = 'redirecting';
 			notifications.success('Question created successfully!', 3000);
-			const questionCreateModal = getModal('question-create');
-			await goto(`/questions/${url}`);
-			questionCreateModal?.close();
+			getModal('question-create')?.close();
+			await goto(createdQuestionPath);
 		} catch (error) {
 			console.error('Error creating question:', error);
+			if (createdQuestionPath) {
+				getModal('question-create')?.close();
+				questionError = 'Your question was created, but it could not be opened automatically.';
+				notifications.warning(
+					'Your question was created, but it could not be opened automatically. Use “View Your Question” to try again.',
+					7000
+				);
+				return;
+			}
 			const message = error instanceof Error ? error.message : 'Failed to create question';
 			notifications.danger(message, 5000);
 			createProgressStage = 'saving';
@@ -330,6 +365,7 @@
 			class="font-body w-full rounded-md border-2 border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-lg text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 			bind:value={question}
 			oninput={handleInput}
+			disabled={preparing}
 			maxlength={MAX_CHAR_COUNT}
 			aria-invalid={questionError || questionLengthInvalid ? 'true' : 'false'}
 			aria-describedby={`question-help question-count${questionError ? ' question-error' : ''}`}
@@ -366,8 +402,8 @@
 				class="w-full rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 				bind:value={context}
 				oninput={handleInput}
-				maxlength={MAX_CONTEXT_CHAR_COUNT}
-			></textarea>
+				disabled={preparing}
+				maxlength={MAX_CONTEXT_CHAR_COUNT}></textarea>
 			<div class="mt-2 text-right text-sm text-[var(--ink-dim)]">
 				{contextCharCount}/{MAX_CONTEXT_CHAR_COUNT} characters
 			</div>
@@ -377,10 +413,11 @@
 			fullWidth
 			size="lg"
 			disabled={!isQuestionValid}
+			loading={preparing}
 			onclick={getUrl}
 			type="button"
 		>
-			Launch Your Question
+			{createdQuestionPath ? 'View Your Question' : 'Launch Your Question'}
 		</Button>
 	</div>
 	<p

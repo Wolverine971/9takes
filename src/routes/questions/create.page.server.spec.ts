@@ -35,12 +35,6 @@ vi.mock('$lib/server/welcomeSequenceGuards', () => ({
 	safelyExitWelcomeSequenceForQuestionCreation: vi.fn()
 }));
 
-vi.mock('$lib/utils/questionSlug', () => ({
-	appendQuestionSlugSuffix: vi.fn(),
-	buildQuestionSlug: vi.fn(),
-	QUESTION_URL_MAX_LENGTH: 120
-}));
-
 vi.mock('$lib/utils/logger', () => ({
 	logger: loggerMock
 }));
@@ -81,7 +75,7 @@ function buildRequest(context = '', authorId: string | null = AUTHOR_ID) {
 	});
 }
 
-function buildSupabase() {
+function buildSupabase(options: { existingUrls?: string[]; insertedRows?: unknown[] } = {}) {
 	const profileSingle = vi.fn().mockResolvedValue({
 		data: {
 			id: AUTHOR_ID,
@@ -91,17 +85,24 @@ function buildSupabase() {
 		error: null
 	});
 
-	const insertSelect = vi.fn().mockResolvedValue({
-		data: [{ id: 101, url: 'how-should-i-handle-this-conflict' }],
-		error: null
-	});
-
 	const insert = vi.fn((payload: Record<string, unknown>) => {
 		capturedInsertPayload.current = payload;
 		return {
-			select: insertSelect
+			select: vi.fn().mockResolvedValue({
+				data: options.insertedRows ?? [{ id: 101, url: payload.url }],
+				error: null
+			})
 		};
 	});
+
+	const selectQuestionUrls = vi.fn(() => ({
+		like: vi.fn(() => ({
+			limit: vi.fn().mockResolvedValue({
+				data: (options.existingUrls ?? []).map((url) => ({ url })),
+				error: null
+			})
+		}))
+	}));
 
 	const from = vi.fn((table: string) => {
 		if (table === 'profiles_demo') {
@@ -116,7 +117,8 @@ function buildSupabase() {
 
 		if (table === 'questions_demo') {
 			return {
-				insert
+				insert,
+				select: selectQuestionUrls
 			};
 		}
 
@@ -128,8 +130,12 @@ function buildSupabase() {
 	};
 }
 
-function buildEvent(context = '', authorId: string | null = AUTHOR_ID) {
-	const supabaseState = buildSupabase();
+function buildEvent(
+	context = '',
+	authorId: string | null = AUTHOR_ID,
+	options: { existingUrls?: string[]; insertedRows?: unknown[] } = {}
+) {
+	const supabaseState = buildSupabase(options);
 
 	return {
 		request: buildRequest(context, authorId),
@@ -159,6 +165,7 @@ describe('questions create action', () => {
 
 		expect(capturedInsertPayload.current).toEqual(
 			expect.objectContaining({
+				question: 'How should I handle this conflict?',
 				context: 'I need advice about a tense work situation.',
 				author_id: AUTHOR_ID,
 				data: {
@@ -167,6 +174,14 @@ describe('questions create action', () => {
 			})
 		);
 		expect(result).toEqual([{ id: 101, url: 'how-should-i-handle-this-conflict' }]);
+	});
+
+	it('returns a structured available URL for the confirmation step', async () => {
+		const event = buildEvent();
+
+		const result = await actions.getUrl(event as any);
+
+		expect(result).toEqual({ url: 'how-should-i-handle-this-conflict' });
 	});
 
 	it('leaves context metadata empty when no context is supplied', async () => {
@@ -190,5 +205,28 @@ describe('questions create action', () => {
 			status: 403
 		});
 		expect(capturedInsertPayload.current).toBeNull();
+	});
+
+	it('refreshes the available URL immediately before inserting', async () => {
+		const event = buildEvent('', AUTHOR_ID, {
+			existingUrls: ['how-should-i-handle-this-conflict']
+		});
+
+		const result = await actions.createQuestion(event as any);
+
+		expect(capturedInsertPayload.current).toEqual(
+			expect.objectContaining({
+				url: 'how-should-i-handle-this-conflict-1'
+			})
+		);
+		expect(result).toEqual([{ id: 101, url: 'how-should-i-handle-this-conflict-1' }]);
+	});
+
+	it('fails instead of reporting success when the insert returns no question', async () => {
+		const event = buildEvent('', AUTHOR_ID, { insertedRows: [] });
+
+		await expect(actions.createQuestion(event as any)).rejects.toMatchObject({
+			status: 500
+		});
 	});
 });

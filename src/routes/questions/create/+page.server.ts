@@ -18,8 +18,13 @@ import type { Actions, PageServerLoad } from './$types';
 const QUESTION_MIN_LENGTH = 10;
 const QUESTION_MAX_LENGTH = 280;
 
+const questionTextSchema = z.preprocess(
+	(value) => (typeof value === 'string' ? value.trim().replace(/\s+/g, ' ') : value),
+	z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH)
+);
+
 const getUrlSchema = z.object({
-	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim()
+	question: questionTextSchema
 });
 
 const optionalClientAuthorIdSchema = z.preprocess((value) => {
@@ -30,7 +35,7 @@ const optionalClientAuthorIdSchema = z.preprocess((value) => {
 }, z.string().uuid().optional());
 
 const createQuestionSchema = z.object({
-	question: z.string().min(QUESTION_MIN_LENGTH).max(QUESTION_MAX_LENGTH).trim(),
+	question: questionTextSchema,
 	author_id: optionalClientAuthorIdSchema,
 	context: z
 		.string()
@@ -38,7 +43,12 @@ const createQuestionSchema = z.object({
 		.optional()
 		.default('')
 		.transform((value) => value.trim()),
-	url: z.string().min(1).max(QUESTION_URL_MAX_LENGTH),
+	url: z
+		.string()
+		.trim()
+		.min(1)
+		.max(QUESTION_URL_MAX_LENGTH)
+		.regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Invalid question URL'),
 	img_url: z
 		.string()
 		.optional()
@@ -76,10 +86,13 @@ export const actions: Actions = {
 			const question = validatedData.question;
 			const tempUrl = buildQuestionSlug(question);
 
-			if (demo_time === true) {
-				return tempUrl;
-			}
-			return await findAvailableQuestionUrl(supabase, tempUrl, 'questions');
+			const url = await findAvailableQuestionUrl(
+				supabase,
+				tempUrl,
+				demo_time ? 'questions_demo' : 'questions'
+			);
+
+			return { url };
 
 			// const response = await client.search(typeaheadQuery('question', 'url', tempUrl, 200));
 
@@ -96,6 +109,7 @@ export const actions: Actions = {
 				});
 				throw error(400, 'Invalid question format');
 			}
+			if ((e as any)?.status) throw e;
 			logger.error('Error generating URL', e as Error);
 			throw error(500, 'Failed to generate URL');
 		}
@@ -107,11 +121,18 @@ export const actions: Actions = {
 		try {
 			const { request, locals } = event;
 			const supabase = locals.supabase;
+			const contentLength = request.headers.get('content-length');
+			if (contentLength && parseInt(contentLength) > MAX_FORM_SIZE) {
+				throw error(413, {
+					message: 'Request entity too large'
+				});
+			}
 
 			// Add timeout for formData parsing
 			const formDataPromise = request.formData();
+			let formDataTimeout: ReturnType<typeof setTimeout> | undefined;
 			const timeoutPromise = new Promise<never>((_, reject) => {
-				setTimeout(() => reject(new Error('FormData parsing timeout')), 30000); // 30 second timeout
+				formDataTimeout = setTimeout(() => reject(new Error('FormData parsing timeout')), 30000);
 			});
 
 			try {
@@ -119,14 +140,8 @@ export const actions: Actions = {
 			} catch (e) {
 				logger.error('FormData parsing error', e as Error);
 				throw error(400, 'Failed to parse form data - request may be too large or malformed');
-			}
-
-			// Check content length
-			const contentLength = request.headers.get('content-length');
-			if (contentLength && parseInt(contentLength) > MAX_FORM_SIZE) {
-				throw error(413, {
-					message: 'Request entity too large'
-				});
+			} finally {
+				if (formDataTimeout) clearTimeout(formDataTimeout);
 			}
 
 			const demo_time = await checkDemoTime(supabase);
@@ -151,7 +166,7 @@ export const actions: Actions = {
 
 			// Validate all fields with Zod
 			const validatedData = createQuestionSchema.parse(body);
-			const { question, author_id: claimedAuthorId, context, url, img_url } = validatedData;
+			const { question, author_id: claimedAuthorId, context, img_url } = validatedData;
 			const sessionUserId = session.user.id;
 
 			if (claimedAuthorId && claimedAuthorId !== sessionUserId) {
@@ -183,6 +198,13 @@ export const actions: Actions = {
 				});
 			}
 
+			const questionTable = demo_time ? 'questions_demo' : 'questions';
+			const url = await findAvailableQuestionUrl(
+				supabase,
+				buildQuestionSlug(question),
+				questionTable
+			);
+
 			// Insert question into database
 			const qData = {
 				question,
@@ -194,7 +216,7 @@ export const actions: Actions = {
 			};
 
 			const { data: insertedQuestion, error: questionInsertError } = await supabase
-				.from(demo_time ? 'questions_demo' : 'questions')
+				.from(questionTable)
 				.insert(qData)
 				.select();
 
@@ -207,7 +229,6 @@ export const actions: Actions = {
 			if (insertedQuestion?.length) {
 				const inserted = insertedQuestion[0];
 				const questionId = inserted.id;
-				const questionTable = demo_time ? 'questions_demo' : 'questions';
 
 				const postProcess = async () => {
 					let imagePath: string | null = null;
@@ -275,7 +296,9 @@ export const actions: Actions = {
 				return mapDemoValues(insertedQuestion);
 			}
 
-			return { success: true };
+			throw error(500, {
+				message: 'Failed to create question'
+			});
 		} catch (e) {
 			if (e instanceof z.ZodError) {
 				logger.warn('Invalid question data', {
