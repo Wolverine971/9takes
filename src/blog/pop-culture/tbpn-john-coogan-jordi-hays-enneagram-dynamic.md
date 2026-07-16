@@ -120,7 +120,7 @@ These ratings summarize repeated public behavior. "Very strong" means several in
 | -------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------- |
 | Tempo match                | Very strong | A shared early workout, hours of preparation, and a three-hour live show every weekday                               |
 | Skill complement           | Very strong | Technical depth plus business judgment; production systems plus advertising and brand direction                      |
-| Mutual revision            | Very strong | Jordi says John improves ideas inside fields Jordi considers personal strengths                                      |
+| Mutual revision            | Very strong | Jordi wants his ideas one-upped; John writes the daily newsletter to provoke Jordi's rebuttal                        |
 | Format fit                 | Very strong | A fixed daily desk gives John changing territory and Jordi a public standard                                         |
 | Corrective friction        | Mixed       | They debate for hours before air, though both approach the industry from an openly pro-technology position           |
 | Institutional independence | Unproven    | OpenAI promises editorial control, but its ownership is recent and the company remains one of the show's main topics |
@@ -153,7 +153,9 @@ He can bring John an advertising idea from a field he knows well and get back a 
 
 The respect here is specific. Jordi grants John revision authority inside his own competence. John often challenges with a possibility, which keeps the exchange focused on the idea's next version. The competition points toward the product, and both hosts can claim the result.
 
-Their disagreements usually happen before the audience sees them. From about 6:30 to 9:15 each morning, they work out, debate stories, test arguments, and narrow the day's subjects. John later turns that conversation into a one-page newsletter and the spine of the opening monologue. After the show, they discuss what worked and adjust the next broadcast. The apparent spontaneity is the final pass through hours of friction.
+The mechanism runs in the other direction too, and John has documented his side. He writes the show's daily newsletter and [claims he has never had writer's block](https://www.linkedin.com/feed/update/urn:li:activity:7437557131689545728/), because he is not writing for the audience: "I'm not writing for thousands of people, I'm writing for one. Jordi." The quality test is adversarial. He looks for the take that "makes him want to argue back," and when he senses a coming shrug, he pushes further. A Three who wants to be out-done and a Seven who writes to be argued with have built a quality-control system that neither man experiences as criticism.
+
+Their disagreements usually happen before the audience sees them. From about 6:30 to 9:15 each morning, they work out, debate stories, test arguments, and narrow the day's subjects. [John describes the gym ritual](https://www.linkedin.com/feed/update/urn:li:activity:7483573402117754880/) as the pair's "heavy creative lifting": ninety minutes of open-ended debate about everything from group chats to movies, continued over breakfast with the team, where they pressure-test arguments and hunt for missed angles. "The livestream is just the end product," he writes. John later turns that conversation into a one-page newsletter and the spine of the opening monologue. After the show, they discuss what worked and adjust the next broadcast. The apparent spontaneity is the final pass through hours of friction.
 
 One format decision shows how they revise. John's original premise was a two-person show with no guests. Three episodes in, they were already entertaining exceptions. Within a year, TBPN had hosted roughly a thousand guests. Jordi described the larger plan as "hyper-calculated," but the route stayed open to experiments. Their conflict style looks less like a public fight and more like a repeated question: _Is this version better enough to abandon yesterday's certainty?_
 
@@ -166,6 +168,8 @@ Will Manidis introduced them. The first thing they made together was neither TBP
 Jordi had prepared a deck for an energy drink aimed at white-collar workers. The pair explored the idea, recognized that neither wanted the operational slog of another consumer packaged-goods company, and turned the concept into content. They filmed an hour while playing exaggerated business-world characters. The five-minute piece they released contained the seed of Technology Brothers.
 
 The moment matters because it reveals how their minds already interlocked. Jordi arrived with the market category, positioning, and deck. John helped turn the commercial concept into a media format. Both knew enough about company-building to recognize the business they did not want. Their first win came from converting an abandoned product idea into a performance. The full origin appears in their [_Dialectic_ interview](https://jacksondahl.com/dialectic/tbpn).
+
+John has been direct about how unusual that click was. Before TBPN he tried solo shows and other co-hosts, and [by his own account](https://www.linkedin.com/feed/update/urn:li:activity:7442391265641639936/), "nothing really clicked until Jordi and I just started showing up every morning and going live." The first episode reached exactly one listener: they sent it to podcaster David Senra as an unpublished Google Drive MP3, and his reaction became doctrine. Take this "deadly seriously."
 
 John later brought conviction around an in-person, two-person reaction show. Jordi texted the name _Technology Brothers_. Within weeks they recorded an episode. By October 2024, they were publishing from a dark conference room at the Jonathan Club in downtown Los Angeles. The second episode covered an energy drink and Meta's Ray-Ban smart glasses.
 
@@ -181,7 +185,9 @@ TBPN needs that combination. Three hours of daily airtime punishes a host whose 
 
 He also understands live continuity. During the _Dialectic_ interview, John explained that he can take the camera when Jordi needs to message a guest, read from the _Wall Street Journal_, and keep the conversation moving. He described the handoff as easy. Anyone who has watched a co-hosted show die during one knows it describes a real skill.
 
-John's humor does a second job. Technology Brothers could launch with fake yacht sponsors and costumes because a joke lowers the social cost of an unfinished experiment. The bit gave them cover to try a version that ordinary business media would have rejected as unserious.
+The cleanest public demonstration of Seven non-attachment is a story [John tells about a planned AI day](https://www.linkedin.com/feed/update/urn:li:activity:7482854196942172169/). The team had top researchers on standby, one of the strongest lineups they had ever booked. It was also the day Trump and Elon Musk publicly fell out, and the live chat could talk about nothing else. Mid-show, the hosts canceled the interviews and followed the feud. "We can't afford to be attached to that content," John wrote about the team's minute-by-minute plans. Most media operations protect sunk costs. A Seven treats the plan as one option among several, even after paying for it.
+
+John's humor does a second job. Technology Brothers could launch with fake yacht sponsors and costumes because a joke lowers the social cost of an unfinished experiment. The bit gave them cover to try a version that ordinary business media would have rejected as unserious. The pattern predates the show: John describes early Soylent as [somewhere between a joke and performance art](https://www.linkedin.com/feed/update/urn:li:activity:7462561453330444288/), a company whose "weird origin earned us the conventional outcome." The joke that becomes an institution is his signature move, run twice.
 
 ### John's weak side
 
@@ -194,6 +200,10 @@ Jordi's gift is social compression. He can take a sprawling idea and make it leg
 His definition of brand is revealing. In the _Dialectic_ interview, he described brand as the average feeling a company creates over time. The logo and set matter because they accumulate that feeling through repetition.
 
 That is strong social Type 3 evidence. A healthy Three sees the invisible standard operating inside a group and can make work meet it. Jordi also described the year's production plan as "hyper-calculated." When the daily clock approaches zero, he says mood and personal feeling become irrelevant because the hosts promised to go live. Achievement here is a public obligation that outlasts inspiration.
+
+He has since published the sharper version: ["A brand is the average of everything you've ever made someone feel, not a $300K agency brief."](https://www.linkedin.com/feed/update/urn:li:activity:7435760363670904832/) The same post shows how little of TBPN's looseness is actually loose. One of the pair's first acts was writing a sheet of the show's friends, recurring themes, and inside jokes, because they "didn't want to leave world-building to chance." A gag that killed in episode six was filed so it could return in episode 200. Even the KPI is social rather than numerical: did someone laugh several times a week, and did someone text a friend a clip?
+
+Jordi reaches for instrumentation even when he praises the job itself. Media beats startups, [he argues](https://www.linkedin.com/feed/update/urn:li:activity:7435068751995305984/), because a startup takes years to tell you whether an idea worked, while a live show is "the closest thing you can get to a real-time product dashboard for your creativity." Where John describes the same schedule as freedom from a waking nightmare, Jordi describes a scoreboard that updates daily. Same desk, different dashboards.
 
 Jordi brought the business half of YouTube to a partnership led by two performers. He had worked in advertising and built Branded Native. At TBPN, he pushed for yearlong, category-exclusive sponsorships, comparing each advertiser to a Formula One partner. [Axios reported](https://www.axios.com/2025/12/05/tbpn-ads-jordi-hays-john-coogan) that the profitable company expected about $5 million in 2025 advertising revenue and had nearly sold its 2026 inventory.
 
@@ -213,6 +223,8 @@ The format does psychological work for both men. It gives John novelty inside co
 
 That arrangement also explains why neither can easily host the same show alone. John's curiosity would have less pressure to compound into an institution. Jordi's institution would have fewer strange inputs to keep it from becoming ordinary corporate television.
 
+John has already run the control experiment. His solo YouTube channel plateaued around 450,000 subscribers while Alex Hormozi, who started around the same time, passed four million by treating his channel like a media company. [John's own diagnosis](https://www.linkedin.com/feed/update/urn:li:activity:7481042266170621954/): "I was treating it more like a personal blog and following my interests." Curiosity alone built an audience. It took the partnership to build a company that could hold his curiosity to a commercial standard.
+
 ## Why the old-money costume feels convincing
 
 Matching suits. Polished shoes. Racing jackets covered in sponsors. Newspapers spread across the desk. Bronze horses, club rooms, gongs, tickers, and the visual grammar of 1980s finance.
@@ -220,6 +232,8 @@ Matching suits. Polished shoes. Racing jackets covered in sponsors. Newspapers s
 The aesthetic gives off inherited refinement. Its authority is deliberately constructed. Both men understand that credibility has a set design.
 
 Through an Enneagram lens, Jordi's Three instinct reads status symbols as a language while John's Seven instinct keeps turning the symbols into props. Both men participate in both sides. Together they borrow the authority of CNBC, the pacing of ESPN, the sponsor logic of Formula One, and the intimacy of a group chat.
+
+Both hosts have published their design theory, and the two versions diverge exactly along type lines. John's version is a creative rule: when they built the visual identity, [they refused to copy other tech podcasts](https://www.linkedin.com/feed/update/urn:li:activity:7459991965946888192/) and their "beige corner with a potted plant and a couch." Jordi's version is a competitive law: ["It's great to copy. It's great to get heavily inspired. But do it outside of the industry you're competing in."](https://www.linkedin.com/feed/update/urn:li:activity:7435390256243273728/) He inventories the sources without embarrassment: the chyron from linear TV, the sponsor structure from Formula One, the talent obsession from ESPN. The same borrowing produced [baseball cards for AI researchers and "trading" announcements for executive moves](https://www.linkedin.com/feed/update/urn:li:activity:7475621275227549696/), which is how a show ends up described as SportsCenter for the LinkedIn crowd. One man escaped a boring genre. The other outflanked a crowded market. They built the same set.
 
 The _New York Times_ called the look "Patrick Bateman-core" and described techno-capitalism played like fantasy football. [Peter Kafka supplied the social explanation](https://www.nytimes.com/2025/10/11/technology/tbpn-silicon-valley.html): the show resembles what a viewer might discuss with a friend over lunch, close enough that the viewer can imagine occupying the chairs.
 

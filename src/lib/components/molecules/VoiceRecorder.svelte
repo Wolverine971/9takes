@@ -40,6 +40,7 @@
 	interface Props {
 		id?: string;
 		disabled?: boolean;
+		compact?: boolean;
 		label?: string;
 		onbeforestart?: () => void;
 		ontranscript: (transcript: string) => void;
@@ -49,6 +50,7 @@
 	let {
 		id = 'voice-recorder',
 		disabled = false,
+		compact = false,
 		label = 'Record your answer',
 		onbeforestart,
 		ontranscript,
@@ -495,7 +497,7 @@
 </script>
 
 {#if isSupported}
-	<div class="voice-capture">
+	<div class={['voice-capture', compact && 'voice-capture--compact']}>
 		<div class="voice-capture__main">
 			<button
 				type="button"
@@ -675,6 +677,23 @@
 		border-color: color-mix(in srgb, var(--error-text) 72%, var(--stone-edge));
 		background: color-mix(in srgb, var(--error-text) 18%, var(--night-deep));
 		color: var(--error-text);
+	}
+
+	.voice-capture--compact .voice-capture__status--idle {
+		display: none;
+	}
+
+	.voice-capture--compact .voice-capture__button:not(.voice-capture__button--recording) {
+		border-color: var(--stone-edge);
+		background: transparent;
+		color: var(--ink-mid);
+	}
+
+	.voice-capture--compact
+		.voice-capture__button:hover:not(:disabled):not(.voice-capture__button--recording) {
+		border-color: var(--ink-dim);
+		background: var(--stone-mid);
+		color: var(--ink-bright);
 	}
 
 	.voice-capture__preview {

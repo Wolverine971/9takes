@@ -2,8 +2,9 @@
 <!--
   The strategic question: one give-first question embedded at the earned moment
   of a markdown blog (T-12). Deliberately minimal, set in article typography:
-  the question, a textarea, one button, one quiet line stating the deal. No card
-  chrome, no badges, no share block before the answer. After the answer: the
+  the question, one quiet line stating the deal, and one integrated composer.
+  The composer keeps typing, voice capture, and submit in a single visual unit.
+  No card chrome, badges, or share block before the answer. After the answer: the
   reader's take, the mirror, the nine takes, one UTM-stamped link to the real
   question page, and a quiet dismissible email ask.
 
@@ -16,6 +17,8 @@
 	import { tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { capture } from '$lib/analytics/posthog';
+	import { Button } from '$lib/components/atoms';
+	import VoiceRecorder from '$lib/components/molecules/VoiceRecorder.svelte';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
 
 	type Take = { type: number; archetype: string; take: string; source: 'ai' | 'human' };
@@ -46,6 +49,10 @@
 	let root = $state<HTMLElement | undefined>();
 	let revealEl = $state<HTMLElement | undefined>();
 	let seen = $state(false);
+	let voiceBusy = $state(false);
+	let composerFocused = $state(false);
+	let textareaElement = $state<HTMLTextAreaElement | null>(null);
+	let voiceInsertionRange = { start: 0, end: 0 };
 
 	// Email ask (post-reveal, dismissible).
 	let emailState = $state<'idle' | 'done' | 'dismissed'>('idle');
@@ -89,7 +96,7 @@
 	});
 
 	async function submit() {
-		if (submitting) return;
+		if (submitting || voiceBusy) return;
 		if (wordCount < 3) {
 			submitError = 'Say a little more. Three words is enough.';
 			return;
@@ -174,25 +181,106 @@
 	function typeColor(type: number) {
 		return TYPE_COLOR_MAP[type] ?? 'var(--lamp-glow, #f59e0b)';
 	}
+
+	function rememberDraftSelection() {
+		if (!textareaElement) return;
+		voiceInsertionRange = {
+			start: textareaElement.selectionStart ?? draft.length,
+			end: textareaElement.selectionEnd ?? draft.length
+		};
+	}
+
+	function insertVoiceTranscript(transcript: string) {
+		const trimmedTranscript = transcript.trim();
+		if (!trimmedTranscript) return;
+
+		const start = Math.min(voiceInsertionRange.start, draft.length);
+		const end = Math.min(Math.max(voiceInsertionRange.end, start), draft.length);
+		const replacingSelection = start !== end;
+		const needsSpaceBefore = !replacingSelection && start > 0 && !/\s/.test(draft[start - 1] ?? '');
+		const needsSpaceAfter =
+			!replacingSelection && end < draft.length && !/\s/.test(draft[end] ?? '');
+		const insertedText = `${needsSpaceBefore ? ' ' : ''}${trimmedTranscript}${needsSpaceAfter ? ' ' : ''}`;
+
+		draft = `${draft.slice(0, start)}${insertedText}${draft.slice(end)}`;
+		submitError = null;
+
+		const cursorPosition = start + insertedText.length;
+		voiceInsertionRange = { start: cursorPosition, end: cursorPosition };
+		queueMicrotask(() => {
+			if (!textareaElement) return;
+			textareaElement.focus();
+			textareaElement.setSelectionRange(cursorPosition, cursorPosition);
+		});
+	}
+
+	function handleComposerFocusOut(event: FocusEvent) {
+		const nextTarget = event.relatedTarget;
+		if (nextTarget instanceof Node && event.currentTarget instanceof HTMLFormElement) {
+			if (event.currentTarget.contains(nextTarget)) return;
+		}
+		composerFocused = false;
+	}
 </script>
 
 <section class="sq" bind:this={root} aria-label="A question for you">
 	{#if phase === 'ask'}
 		<p class="sq-question">{question}</p>
 		<p class="sq-deal">Give your take. Then see how nine different minds answered it.</p>
-		<label class="sq-visually-hidden" for="sq-take">Your take</label>
-		<textarea
-			id="sq-take"
-			bind:value={draft}
-			oninput={() => (submitError = null)}
-			maxlength="2000"
-			rows="3"
-			placeholder="Answer honestly. A sentence is enough."
-			aria-invalid={submitError ? 'true' : 'false'}
-			aria-describedby={submitError ? 'sq-take-error' : undefined}></textarea>
-		<button class="sq-button" onclick={submit} disabled={submitting}>
-			{submitting ? 'Listening…' : 'Give your take'}
-		</button>
+		<form
+			class={[
+				'sq-composer',
+				composerFocused && 'sq-composer--focused',
+				submitError && 'sq-composer--invalid'
+			]}
+			onfocusin={() => (composerFocused = true)}
+			onfocusout={handleComposerFocusOut}
+			onsubmit={(event) => {
+				event.preventDefault();
+				void submit();
+			}}
+		>
+			<label class="sq-visually-hidden" for="sq-take">Your take</label>
+			<textarea
+				id="sq-take"
+				bind:this={textareaElement}
+				bind:value={draft}
+				oninput={() => {
+					submitError = null;
+					rememberDraftSelection();
+				}}
+				onselect={rememberDraftSelection}
+				onclick={rememberDraftSelection}
+				onkeyup={rememberDraftSelection}
+				maxlength="2000"
+				rows="3"
+				placeholder="Answer honestly. A sentence is enough."
+				aria-invalid={submitError ? 'true' : 'false'}
+				aria-describedby={submitError ? 'sq-take-error' : undefined}></textarea>
+			<div class="sq-composer-footer">
+				<div class="sq-voice">
+					<VoiceRecorder
+						id={`strategic-question-${blogSlug}-voice`}
+						compact
+						label="Record your answer"
+						disabled={submitting}
+						onbeforestart={rememberDraftSelection}
+						ontranscript={insertVoiceTranscript}
+						onbusychange={(busy) => (voiceBusy = busy)}
+					/>
+				</div>
+				<Button
+					class="sq-button"
+					variant="primary"
+					size="md"
+					type="submit"
+					loading={submitting}
+					disabled={voiceBusy}
+				>
+					{submitting ? 'Opening the chorus…' : 'Give your take'}
+				</Button>
+			</div>
+		</form>
 		{#if submitError}
 			<p id="sq-take-error" class="sq-error" role="alert">{submitError}</p>
 		{/if}
@@ -309,15 +397,37 @@
 		margin: 0 0 1rem;
 	}
 
+	.sq .sq-composer {
+		overflow: hidden;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--stone-warm) 55%, transparent);
+		transition:
+			border-color 140ms ease,
+			box-shadow 140ms ease;
+
+		&.sq-composer--focused {
+			border-color: var(--lamp-glow);
+			box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
+		}
+
+		&.sq-composer--invalid {
+			border-color: var(--error-text);
+		}
+	}
+
 	.sq textarea {
+		display: block;
 		width: 100%;
 		resize: vertical;
-		padding: 0.85rem 1rem;
-		border-radius: 0.625rem;
-		border: 1px solid var(--stone-edge);
-		background: color-mix(in srgb, var(--stone-warm) 55%, transparent);
+		min-height: 8rem;
+		padding: 1rem;
+		border: 0;
+		border-radius: 0;
+		background: transparent;
 		color: var(--ink-bright);
 		font: inherit;
+		font-size: 1rem;
 		line-height: 1.5;
 	}
 
@@ -327,38 +437,43 @@
 
 	.sq textarea:focus {
 		outline: none;
-		border-color: var(--lamp-glow);
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 25%, transparent);
 	}
 
-	.sq .sq-button {
-		appearance: none;
-		border: none;
-		cursor: pointer;
-		margin-top: 0.75rem;
+	.sq .sq-composer-footer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		padding: 0.65rem 0.75rem;
+		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 72%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 52%, transparent);
+	}
+
+	.sq .sq-voice {
+		min-width: 0;
+		flex: 1 1 auto;
+	}
+
+	.sq :global(.sq-button) {
 		min-height: 2.75rem;
-		padding: 0.7rem 1.35rem;
-		border-radius: 0.625rem;
-		font-weight: 700;
-		font-size: 0.95rem;
-		background: var(--lamp-glow);
-		color: var(--text-on-primary); /* dark text on amber, per brand */
-		transition:
-			transform 0.1s ease,
-			filter 0.15s ease;
+		flex: 0 0 auto;
 	}
 
-	.sq .sq-button:hover:not(:disabled) {
-		filter: brightness(1.05);
+	@media (max-width: 560px) {
+		.sq .sq-composer-footer {
+			align-items: stretch;
+			flex-direction: column;
+		}
+
+		.sq :global(.sq-button) {
+			width: 100%;
+		}
 	}
 
-	.sq .sq-button:active:not(:disabled) {
-		transform: translateY(1px);
-	}
-
-	.sq .sq-button:disabled {
-		opacity: 0.45;
-		cursor: not-allowed;
+	@media (prefers-reduced-motion: reduce) {
+		.sq .sq-composer {
+			transition: none;
+		}
 	}
 
 	.sq .sq-error {
