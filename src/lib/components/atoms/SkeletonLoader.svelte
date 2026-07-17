@@ -33,7 +33,7 @@
 			class="skeleton skeleton--{variant} skeleton--{animation}"
 			style="width: {widthStyle}; height: {finalHeight}"
 			aria-hidden="true"
-		/>
+		></div>
 	{/each}
 </div>
 

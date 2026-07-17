@@ -155,7 +155,7 @@
 		</div>
 	</nav>
 
-	<main class="main-content">
+	<div class="main-content">
 		{#each sections as section}
 			<section class="content-section" id={section.id}>
 				<div class="section-header">
@@ -205,7 +205,7 @@
 				</div>
 			</section>
 		{/each}
-	</main>
+	</div>
 </div>
 
 <style lang="scss">
@@ -454,9 +454,9 @@
 			.card-overlay {
 				background: linear-gradient(
 					to top,
-					color-mix(in srgb, var(--night-deep) 95%, transparent) 0%,
-					color-mix(in srgb, var(--night-deep) 60%, transparent) 40%,
-					color-mix(in srgb, var(--night-deep) 30%, transparent) 100%
+					var(--image-overlay-strong) 0%,
+					var(--image-overlay-medium) 40%,
+					var(--image-overlay-soft) 100%
 				);
 			}
 		}

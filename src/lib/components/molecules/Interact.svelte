@@ -583,7 +583,15 @@
 			<p class="mb-5 text-sm text-[var(--ink-mid)]">Scan the QR code to share with others</p>
 
 			<div class="mb-5 rounded-xl border border-[var(--lamp-soft)] bg-[var(--night-deep)] p-4">
-				<img src={qrCodeUrl} alt="Share question QR code" class="h-[180px] w-[180px]" />
+				{#if shareReady}
+					<img
+						src={qrCodeUrl}
+						alt="Share question QR code"
+						width="180"
+						height="180"
+						class="h-[180px] w-[180px]"
+					/>
+				{/if}
 			</div>
 
 			<p class="text-xs text-[var(--ink-dim)]">Share and explore different perspectives</p>

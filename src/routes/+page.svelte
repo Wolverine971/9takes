@@ -236,7 +236,7 @@
 
 				<ul class="proof-line" aria-label="How 9takes is different">
 					<li>Anonymous answers</li>
-					<li>Give first</li>
+					<li>Answer first</li>
 					<li>Reveal through response</li>
 				</ul>
 			</div>
@@ -457,12 +457,13 @@
 		<div class="center-orbit" aria-hidden="true"></div>
 		<div class="shell">
 			<header class="section-heading centers-heading">
-				<SectionKicker num="03" label="WHY THE ANSWERS DIFFER" tone="data" />
-				<h2 id="centers-title">The same question can stir anger, shame, or fear.</h2>
+				<SectionKicker num="03" label="THE PATTERN UNDERNEATH" tone="data" />
+				<h2 id="centers-title">The same question can hold more than one honest perspective.</h2>
 				<p>
-					The Enneagram describes nine recurring personality patterns organized around anger, shame,
-					and fear. It is a lens for noticing what an answer protects, pursues, or avoids—not a
-					diagnosis.
+					Once the room opens, the differences are the point. We are more alike—and more
+					different—than we think: we all navigate anger, shame, and fear, but develop different
+					ways of managing them. Those strategies shape what we notice, what feels at stake, and how
+					we respond. The Enneagram maps those recurring strategies into nine personality patterns.
 				</p>
 			</header>
 
@@ -483,7 +484,8 @@
 
 			<p class="centers-note">
 				<span aria-hidden="true"></span>
-				Nine patterns, three centers, no mechanical typing required.
+				Nine patterns. Three emotional centers. You don&rsquo;t need a label to notice what someone sees
+				first.
 			</p>
 		</div>
 	</section>
