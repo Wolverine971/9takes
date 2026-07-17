@@ -743,3 +743,71 @@ library remains unchanged.
 Return to the visible surface-convergence backlog rather than making speculative image changes:
 secondary hubs, article navigation density, coaching hierarchy, icon consistency, and global
 ornament. Start with the `/blog` hub and its shared index grammar. -> P3+P5+P8+P9+P11
+
+---
+
+## 2026-07-16 Implementation Pass 9 - Site Health and Performance
+
+Status: the public site health pass is shipped in the working tree. The audit covered the route
+inventory, every sitemap URL, representative desktop and mobile renders, the production build,
+unit and browser tests, static assets, and repository lint/type checks.
+
+### Fixes Shipped
+
+- **The `/blog` hub has one page landmark.** Its nested `<main>` is now a neutral content wrapper,
+  leaving the shared layout as the single main landmark. -> P13
+- **Blog-card contrast is theme-stable.** Image cards now use the fixed image-overlay tokens instead
+  of the theme-changing page-surface token. Light mode no longer places white titles over a pale
+  overlay. -> P1+P9
+- **A published blog card no longer requests a missing asset.** The missing optimized thumbnail for
+  the John Coogan/Jordi Hays article was generated from its existing canonical WebP; all published
+  frontmatter image stems now have their expected card thumbnail. -> P8+performance
+- **Closed QR dialogs no longer emit an empty image request.** The question share image renders only
+  when the QR payload is ready, and explicit intrinsic dimensions prevent a layout jump. -> P7+P13
+- **Skeleton markup is valid HTML.** The non-void skeleton `<div>` now has an explicit closing tag,
+  removing one compiler warning and eliminating ambiguous browser parsing. -> P13
+
+### Coverage and Result
+
+- Inventory: 80 page components and 84 route server files.
+- Sitemap crawl: all 682 URLs returned a successful or redirect response; zero route failures.
+- Representative production renders: home, hubs, question detail, article detail, personality
+  detail, search, and coaching at desktop and mobile sizes. Every checked page had one `<main>`, one
+  `<h1>`, zero horizontal overflow, zero broken images, zero failed resources, and zero hydration
+  errors.
+- Visual review confirmed the corrected blog contrast and clean mobile layouts after the final
+  production build.
+
+### Verification
+
+- `pnpm check`: pass with 0 errors and 124 warnings in 42 files, down from the 125-warning baseline.
+- `pnpm test`: pass, 97 files and 430 tests.
+- `pnpm test:smoke`: pass, all 14 tests on the isolated mobile browser server.
+- `pnpm exec eslint .`: pass.
+- Targeted Prettier for all changed Svelte files: pass.
+- `pnpm lint:radius`: pass, zero violations and a zero-item backlog.
+- `node scripts/audit-static-assets.mjs`: pass; 15/15 large public assets remain reviewed and all
+  archive/delivery pairs are intact.
+- Production build and ratchets: pass at 168.36 KiB root CSS, 148.26 MiB client output, 121.57 MiB
+  runtime media/fonts, 15 assets over 1 MiB, and a 5.07 MiB largest runtime asset.
+- The required Svelte autofixer could not be fetched because it is not installed locally and the
+  sandbox denied an unpinned network execution. Local Svelte compiler, Prettier, ESLint, unit,
+  browser, and production-build checks were used as the safe fallback.
+
+### Residual Maintenance Debt
+
+- The repository-wide `pnpm lint` wrapper remains non-green because its Prettier phase reports 81
+  previously unformatted files. This pass did not rewrite that broad, unrelated set; full ESLint and
+  targeted formatting are green.
+- The remaining 124 Svelte warnings are concentrated in legacy/admin accessibility markup, unused
+  CSS selectors, deprecated slots, and state-initialization captures. Public-route health is green,
+  but the authenticated admin dialogs and calendar controls remain the highest-value warning cleanup
+  slice.
+- Runtime media is 2.43 MiB below its current 124 MiB ratchet and client output is 8.74 MiB below its
+  157 MiB ratchet, so future asset additions should continue to be reviewed before landing.
+
+### Next Highest-Priority Slice
+
+Clean up authenticated admin modal semantics, calendar control labels, and stale Svelte warning
+suppressions in small component-by-component batches. Preserve the passing public-route and asset
+ratchets while doing so. -> P13+accessibility+performance

@@ -10,7 +10,6 @@ import {
 	CONTENT_GUARD_CACHE_CONTROL,
 	getContentResponseCacheControl,
 	createAnonymousContentAccessId,
-	getContentAccessDecision,
 	getContentRequestKind,
 	getContentRequester,
 	getHardBlockedReason,
@@ -97,7 +96,10 @@ export const handle: Handle = async ({ event, resolve }) => {
 		return createContentGuardResponse({
 			event,
 			status: 403,
-			message: 'Content access denied.',
+			message:
+				hardBlockedReason === 'disallowed_ai_training_crawler'
+					? 'AI training access is not permitted. See https://9takes.com/ai-use-policy.txt.'
+					: 'Content access denied.',
 			cacheControl: CONTENT_GUARD_CACHE_CONTROL
 		});
 	}
@@ -168,48 +170,15 @@ export const handle: Handle = async ({ event, resolve }) => {
 			requestKind: getContentRequestKind(event.url.pathname)
 		});
 
-		// For anonymous humans (the bulk of traffic), don't block the response on
-		// the Supabase RPC. Human throttling is a soft anti-scraping measure;
-		// stable-cookie scrapers are rare and the latency cost on every page load
-		// outweighs the throttle's value. Fire-and-forget via waitUntil so the
-		// write still lands.
-		if (requester.kind === 'anonymous_human') {
-			const waitUntil = (
-				event.platform as { context?: { waitUntil?: (p: Promise<unknown>) => void } } | undefined
-			)?.context?.waitUntil;
-			if (waitUntil) {
-				waitUntil(recordEvent.catch(() => {}));
-			} else {
-				// Local dev / non-Vercel runtime: still fire, just don't await.
-				recordEvent.catch(() => {});
-			}
+		// Never hold a reader response open for telemetry. The write runs after
+		// the response on Vercel and remains best-effort in local runtimes.
+		const waitUntil = (
+			event.platform as { context?: { waitUntil?: (p: Promise<unknown>) => void } } | undefined
+		)?.context?.waitUntil;
+		if (waitUntil) {
+			waitUntil(recordEvent.catch(() => {}));
 		} else {
-			// Allowed AI crawlers: keep the await so quotas are enforced accurately.
-			const counters = await recordEvent;
-
-			if (counters) {
-				const rateLimitDecision = getContentAccessDecision(requester, counters);
-
-				if (rateLimitDecision.action === 'throttle') {
-					console.warn('Throttled article crawl', {
-						requester: requester.name,
-						reason: rateLimitDecision.reason,
-						path: protectedContentPath,
-						clientIp,
-						userAgent,
-						counters
-					});
-
-					return createContentGuardResponse({
-						event,
-						status: 429,
-						message: 'Crawler article budget exceeded for now.',
-						cacheControl: CONTENT_GUARD_CACHE_CONTROL,
-						retryAfterSeconds: rateLimitDecision.retryAfterSeconds,
-						anonCookieValue: shouldSetAnonCookie ? pendingAnonCookieValue : null
-					});
-				}
-			}
+			recordEvent.catch(() => {});
 		}
 	}
 
@@ -410,7 +379,8 @@ function createContentGuardResponse({
 }): Response {
 	const headers = new Headers({
 		'Cache-Control': cacheControl,
-		'Content-Type': 'text/plain; charset=utf-8'
+		'Content-Type': 'text/plain; charset=utf-8',
+		Link: '<https://9takes.com/license.xml>; rel="license"; type="application/rsl+xml"'
 	});
 
 	if (retryAfterSeconds) {

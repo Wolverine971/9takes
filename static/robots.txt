@@ -1,6 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
-
-# Default rules for all crawlers
+# Default: preserve public discovery and keep private application routes out.
 User-agent: *
 Disallow: /account
 Disallow: /admin
@@ -11,41 +9,10 @@ Disallow: /resetPassword
 Disallow: /users
 Allow: /
 
-# AI Search Crawlers - Allow for citation opportunities
-# ChatGPT Search (real-time search feature)
+# AI search crawlers: keep 9takes eligible for cited search answers.
 User-agent: OAI-SearchBot
-Disallow: /account
-Disallow: /admin
-Disallow: /forgotPassword
-Disallow: /login
-Disallow: /register
-Disallow: /resetPassword
-Disallow: /users
-Allow: /
-
-# Claude search
 User-agent: Claude-SearchBot
-Disallow: /account
-Disallow: /admin
-Disallow: /forgotPassword
-Disallow: /login
-Disallow: /register
-Disallow: /resetPassword
-Disallow: /users
-Allow: /
-
-# Perplexity AI
 User-agent: PerplexityBot
-Disallow: /account
-Disallow: /admin
-Disallow: /forgotPassword
-Disallow: /login
-Disallow: /register
-Disallow: /resetPassword
-Disallow: /users
-Allow: /
-
-# Meta AI search
 User-agent: meta-webindexer
 Disallow: /account
 Disallow: /admin
@@ -56,56 +23,29 @@ Disallow: /resetPassword
 Disallow: /users
 Allow: /
 
-# Allow named AI crawlers to sample content
+# User-directed retrieval: a person asked an assistant to fetch the page.
+User-agent: ChatGPT-User
+User-agent: Claude-User
+User-agent: Perplexity-User
+User-agent: meta-externalfetcher
+Disallow: /account
+Disallow: /admin
+Disallow: /forgotPassword
+Disallow: /login
+Disallow: /register
+Disallow: /resetPassword
+Disallow: /users
+Allow: /
+
+# Model-training and bulk-corpus crawlers: no automated access.
 User-agent: GPTBot
-Disallow: /account
-Disallow: /admin
-Disallow: /forgotPassword
-Disallow: /login
-Disallow: /register
-Disallow: /resetPassword
-Disallow: /users
-Allow: /
-
 User-agent: ClaudeBot
-Disallow: /account
-Disallow: /admin
-Disallow: /forgotPassword
-Disallow: /login
-Disallow: /register
-Disallow: /resetPassword
-Disallow: /users
-Allow: /
-
 User-agent: anthropic-ai
-Disallow: /account
-Disallow: /admin
-Disallow: /forgotPassword
-Disallow: /login
-Disallow: /register
-Disallow: /resetPassword
-Disallow: /users
-Allow: /
-
 User-agent: CCBot
-Disallow: /account
-Disallow: /admin
-Disallow: /forgotPassword
-Disallow: /login
-Disallow: /register
-Disallow: /resetPassword
-Disallow: /users
-Allow: /
-
-# Google-Extended is Google's AI access token.
 User-agent: Google-Extended
-Disallow: /account
-Disallow: /admin
-Disallow: /forgotPassword
-Disallow: /login
-Disallow: /register
-Disallow: /resetPassword
-Disallow: /users
-Allow: /
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+Disallow: /
 
 Sitemap: https://9takes.com/sitemap.xml
+License: https://9takes.com/license.xml

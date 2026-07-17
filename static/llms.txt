@@ -12,7 +12,6 @@
 ## Key sections
 
 - Home: https://9takes.com/
-- Full index: https://9takes.com/llms-full.txt
 - Enneagram Corner: https://9takes.com/enneagram-corner
 - Personality Analysis: https://9takes.com/personality-analysis
 - Personality Analysis by Category: https://9takes.com/personality-analysis/categories
@@ -22,6 +21,13 @@
 - Community: https://9takes.com/community
 - Coaching: https://9takes.com/book-session
 - About: https://9takes.com/about
+
+## Automated use
+
+- Automated use policy: https://9takes.com/ai-use-policy.txt
+- Machine-readable license: https://9takes.com/license.xml
+- AI model training is not permitted without prior written permission.
+- Search and user-directed retrieval should cite and link to the canonical 9takes source page.
 
 ## Content focus
 

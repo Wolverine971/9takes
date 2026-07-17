@@ -40,14 +40,25 @@ describe('contentAccessGuard', () => {
 		expect(getPublicEditorialCachePath('/community')).toBeNull();
 	});
 
-	it('allows named AI crawlers while still classifying them for tracking', () => {
-		expect(
-			getHardBlockedReason({
-				method: 'GET',
-				pathname: '/enneagram-corner/enneagram-type-9',
-				userAgent: 'GPTBot/1.0'
-			})
-		).toBeNull();
+	it('blocks named model-training crawlers on protected editorial routes', () => {
+		for (const userAgent of [
+			'GPTBot/1.0',
+			'ClaudeBot/1.0',
+			'anthropic-ai/1.0',
+			'CCBot/2.0',
+			'Google-Extended/1.0',
+			'Applebot-Extended/1.0',
+			'meta-externalagent/1.1'
+		]) {
+			expect(
+				getHardBlockedReason({
+					method: 'GET',
+					pathname: '/personality-analysis/jennifer-lopez',
+					userAgent
+				}),
+				userAgent
+			).toBe('disallowed_ai_training_crawler');
+		}
 
 		const requester = getContentRequester({
 			method: 'GET',
@@ -59,55 +70,64 @@ describe('contentAccessGuard', () => {
 		});
 
 		expect(requester).toEqual({
-			kind: 'allowed_ai_crawler',
-			name: 'ClaudeBot',
-			actorKey: 'crawler:claudebot',
-			actorType: 'allowed_ai_crawler'
+			kind: 'training_crawler',
+			name: 'ClaudeBot'
 		});
-		expect(isTrackableContentRequester(requester)).toBe(true);
+		expect(isTrackableContentRequester(requester)).toBe(false);
+		expect(
+			getContentRequester({
+				method: 'GET',
+				pathname: '/enneagram-corner/enneagram-type-9',
+				userAgent: 'Applebot-Extended/1.0',
+				clientIp: '17.0.0.1',
+				anonymousId: null,
+				isAuthenticated: false
+			})
+		).toEqual({
+			kind: 'training_crawler',
+			name: 'Applebot-Extended'
+		});
 	});
 
-	it('allows Google-Extended when AI crawling is enabled', () => {
+	it('allows AI search and user-directed retrieval agents', () => {
+		for (const userAgent of [
+			'OAI-SearchBot/1.4',
+			'Claude-SearchBot/1.0',
+			'PerplexityBot/1.0',
+			'meta-webindexer/1.1',
+			'ChatGPT-User/1.0',
+			'Claude-User/1.0',
+			'Perplexity-User/1.0',
+			'meta-externalfetcher/1.1'
+		]) {
+			expect(
+				getHardBlockedReason({
+					method: 'GET',
+					pathname: '/personality-analysis/scott-galloway',
+					userAgent
+				}),
+				userAgent
+			).toBeNull();
+		}
+
 		expect(
-			getHardBlockedReason({
+			getContentRequester({
 				method: 'GET',
 				pathname: '/personality-analysis/scott-galloway',
-				userAgent: 'Google-Extended/1.0'
+				userAgent: 'Claude-User/1.0',
+				clientIp: '203.0.113.2',
+				anonymousId: null,
+				isAuthenticated: false
 			})
-		).toBeNull();
-	});
-
-	it('classifies Meta-WebIndexer as an allowed AI crawler', () => {
-		expect(
-			getHardBlockedReason({
-				method: 'GET',
-				pathname: '/personality-analysis/jennifer-lopez',
-				userAgent:
-					'meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)'
-			})
-		).toBeNull();
-
-		const requester = getContentRequester({
-			method: 'GET',
-			pathname: '/personality-analysis/jennifer-lopez',
-			userAgent:
-				'meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)',
-			clientIp: '57.141.4.57',
-			anonymousId: null,
-			isAuthenticated: false
-		});
-
-		expect(requester).toEqual({
-			kind: 'allowed_ai_crawler',
-			name: 'Meta-WebIndexer',
-			actorKey: 'crawler:meta-webindexer',
-			actorType: 'allowed_ai_crawler'
+		).toEqual({
+			kind: 'user_fetch_bot',
+			name: 'Claude-User'
 		});
 	});
 
-	it('allows Meta external sharing crawler as a search preview bot', () => {
+	it('allows Meta user-directed retrieval as a user-fetch bot', () => {
 		const userAgent =
-			'meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)';
+			'meta-externalfetcher/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)';
 
 		expect(
 			getHardBlockedReason({
@@ -127,8 +147,8 @@ describe('contentAccessGuard', () => {
 		});
 
 		expect(requester).toEqual({
-			kind: 'search_preview_bot',
-			name: 'MetaExternalAgent'
+			kind: 'user_fetch_bot',
+			name: 'Meta-ExternalFetcher'
 		});
 	});
 
@@ -236,62 +256,6 @@ describe('contentAccessGuard', () => {
 		});
 	});
 
-	it('throttles allowed AI crawlers only after large daily crawl volume', () => {
-		const requester = getContentRequester({
-			method: 'GET',
-			pathname: '/pop-culture/tech-titans-ai-wars',
-			userAgent: 'GPTBot/1.0',
-			clientIp: '203.0.113.11',
-			anonymousId: null,
-			isAuthenticated: false
-		});
-
-		if (!requester || !isTrackableContentRequester(requester)) {
-			throw new Error('Expected allowed AI crawler requester');
-		}
-
-		expect(
-			getContentAccessDecision(requester, {
-				total_10m: 555,
-				unique_10m: 555,
-				total_1h: 900,
-				unique_1h: 555,
-				total_24h: 1501,
-				unique_24h: 555
-			})
-		).toEqual({
-			action: 'throttle',
-			reason: 'allowed_ai_crawler_24h_total_limit',
-			retryAfterSeconds: 86400
-		});
-	});
-
-	it('allows one complete pass over the current protected sitemap corpus', () => {
-		const requester = getContentRequester({
-			method: 'GET',
-			pathname: '/pop-culture/tech-titans-ai-wars',
-			userAgent: 'GPTBot/1.0',
-			clientIp: '203.0.113.11',
-			anonymousId: null,
-			isAuthenticated: false
-		});
-
-		if (!requester || !isTrackableContentRequester(requester)) {
-			throw new Error('Expected allowed AI crawler requester');
-		}
-
-		expect(
-			getContentAccessDecision(requester, {
-				total_10m: 555,
-				unique_10m: 555,
-				total_1h: 555,
-				unique_1h: 555,
-				total_24h: 555,
-				unique_24h: 555
-			})
-		).toEqual({ action: 'allow' });
-	});
-
 	it('exports the expected cookie name and cache policy', () => {
 		expect(CONTENT_ACCESS_ANON_COOKIE_NAME).toBe('9tanon');
 		expect(CONTENT_GUARD_CACHE_CONTROL).toBe('private, no-store');
@@ -316,7 +280,7 @@ describe('contentAccessGuard', () => {
 			anonymousId: 'anon-456',
 			isAuthenticated: false
 		});
-		const aiCrawler = getContentRequester({
+		const trainingCrawler = getContentRequester({
 			method: 'GET',
 			pathname: '/personality-analysis/scott-galloway',
 			userAgent: 'GPTBot/1.0',
@@ -335,7 +299,7 @@ describe('contentAccessGuard', () => {
 
 		expect(getContentResponseCacheControl(googlebot)).toBe(CONTENT_SEARCH_PREVIEW_CACHE_CONTROL);
 		expect(getContentResponseCacheControl(human)).toBe(CONTENT_GUARD_CACHE_CONTROL);
-		expect(getContentResponseCacheControl(aiCrawler)).toBe(CONTENT_GUARD_CACHE_CONTROL);
+		expect(getContentResponseCacheControl(trainingCrawler)).toBe(CONTENT_GUARD_CACHE_CONTROL);
 		expect(getContentResponseCacheControl(authenticatedGooglebot)).toBe(
 			CONTENT_GUARD_CACHE_CONTROL
 		);

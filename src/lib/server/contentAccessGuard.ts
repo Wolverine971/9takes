@@ -26,7 +26,7 @@ export type SearchPreviewBotName =
 	| 'YandexBot'
 	| 'Twitterbot'
 	| 'FacebookExternalHit'
-	| 'MetaExternalAgent'
+	| 'MetaWebIndexer'
 	| 'Slackbot'
 	| 'LinkedInBot'
 	| 'Discordbot'
@@ -36,15 +36,18 @@ export type SearchPreviewBotName =
 	| 'Claude-SearchBot'
 	| 'PerplexityBot';
 
-export type UserFetchBotName = 'ChatGPT-User' | 'Claude-User' | 'Perplexity-User';
-export type AllowedAiCrawlerName =
+export type UserFetchBotName =
+	'ChatGPT-User' | 'Claude-User' | 'Perplexity-User' | 'Meta-ExternalFetcher';
+export type TrainingCrawlerName =
 	| 'GPTBot'
 	| 'ClaudeBot'
+	| 'anthropic-ai'
 	| 'CCBot'
 	| 'Google-Extended'
-	| 'Meta-WebIndexer';
-export type HardBlockedReason = 'unknown_bot_user_agent';
-export type ContentActorType = 'anonymous_human' | 'allowed_ai_crawler';
+	| 'Applebot-Extended'
+	| 'Meta-ExternalAgent';
+export type HardBlockedReason = 'disallowed_ai_training_crawler' | 'unknown_bot_user_agent';
+export type ContentActorType = 'anonymous_human';
 export type ContentRequestKind = 'page' | 'data';
 
 export type ContentAccessCounters = {
@@ -56,20 +59,13 @@ export type ContentAccessCounters = {
 	unique_24h: number;
 };
 
-export type TrackableContentRequester =
-	| {
-			kind: 'anonymous_human';
-			name: 'anonymous_human';
-			actorKey: string;
-			actorType: 'anonymous_human';
-			anonymousId: string;
-	  }
-	| {
-			kind: 'allowed_ai_crawler';
-			name: AllowedAiCrawlerName;
-			actorKey: string;
-			actorType: 'allowed_ai_crawler';
-	  };
+export type TrackableContentRequester = {
+	kind: 'anonymous_human';
+	name: 'anonymous_human';
+	actorKey: string;
+	actorType: 'anonymous_human';
+	anonymousId: string;
+};
 
 export type ContentRequester =
 	| {
@@ -84,6 +80,10 @@ export type ContentRequester =
 			kind: 'user_fetch_bot';
 			name: UserFetchBotName;
 	  }
+	| {
+			kind: 'training_crawler';
+			name: TrainingCrawlerName;
+	  }
 	| TrackableContentRequester;
 
 export type ContentAccessDecision =
@@ -93,11 +93,7 @@ export type ContentAccessDecision =
 			reason:
 				| 'anonymous_human_10m_unique_limit'
 				| 'anonymous_human_1h_unique_limit'
-				| 'anonymous_human_24h_unique_limit'
-				| 'allowed_ai_crawler_10m_unique_limit'
-				| 'allowed_ai_crawler_10m_total_limit'
-				| 'allowed_ai_crawler_24h_unique_limit'
-				| 'allowed_ai_crawler_24h_total_limit';
+				| 'anonymous_human_24h_unique_limit';
 			retryAfterSeconds: number;
 	  };
 
@@ -114,13 +110,6 @@ const DATA_SUFFIX = '/__data.json';
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_10M = 24;
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_1H = 60;
 const ANONYMOUS_HUMAN_UNIQUE_LIMIT_24H = 120;
-// The generated sitemap currently contains 555 protected editorial URLs. A
-// named crawler must be able to complete one corpus pass without tripping a
-// quota, while repeat fetching remains bounded over the day.
-const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_10M = 650;
-const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_10M = 750;
-const ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_24H = 750;
-const ALLOWED_AI_CRAWLER_TOTAL_LIMIT_24H = 1500;
 
 const SEARCH_PREVIEW_BOTS: BotDefinition<SearchPreviewBotName>[] = [
 	{ name: 'Googlebot', pattern: /googlebot/i },
@@ -130,7 +119,7 @@ const SEARCH_PREVIEW_BOTS: BotDefinition<SearchPreviewBotName>[] = [
 	{ name: 'YandexBot', pattern: /yandex(bot)?/i },
 	{ name: 'Twitterbot', pattern: /twitterbot/i },
 	{ name: 'FacebookExternalHit', pattern: /facebookexternalhit/i },
-	{ name: 'MetaExternalAgent', pattern: /meta-externalagent/i },
+	{ name: 'MetaWebIndexer', pattern: /meta-webindexer/i },
 	{ name: 'Slackbot', pattern: /slackbot/i },
 	{ name: 'LinkedInBot', pattern: /linkedinbot/i },
 	{ name: 'Discordbot', pattern: /discordbot/i },
@@ -144,15 +133,18 @@ const SEARCH_PREVIEW_BOTS: BotDefinition<SearchPreviewBotName>[] = [
 const USER_FETCH_BOTS: BotDefinition<UserFetchBotName>[] = [
 	{ name: 'ChatGPT-User', pattern: /chatgpt-user/i },
 	{ name: 'Claude-User', pattern: /claude-user/i },
-	{ name: 'Perplexity-User', pattern: /perplexity-user/i }
+	{ name: 'Perplexity-User', pattern: /perplexity-user/i },
+	{ name: 'Meta-ExternalFetcher', pattern: /meta-externalfetcher/i }
 ];
 
-const ALLOWED_AI_CRAWLERS: BotDefinition<AllowedAiCrawlerName>[] = [
+const TRAINING_CRAWLERS: BotDefinition<TrainingCrawlerName>[] = [
 	{ name: 'GPTBot', pattern: /gptbot/i },
 	{ name: 'ClaudeBot', pattern: /claudebot/i },
+	{ name: 'anthropic-ai', pattern: /anthropic-ai/i },
 	{ name: 'CCBot', pattern: /\bccbot\b/i },
 	{ name: 'Google-Extended', pattern: /google-extended/i },
-	{ name: 'Meta-WebIndexer', pattern: /meta-webindexer/i }
+	{ name: 'Applebot-Extended', pattern: /applebot-extended/i },
+	{ name: 'Meta-ExternalAgent', pattern: /meta-externalagent/i }
 ];
 
 const GENERIC_BOT_PATTERNS = [/\bbot\b/i, /\bcrawler\b/i, /\bspider\b/i, /\bscraper\b/i];
@@ -242,10 +234,13 @@ export function getHardBlockedReason({
 		return null;
 	}
 
+	if (matchBotDefinition(normalizedUserAgent, TRAINING_CRAWLERS)) {
+		return 'disallowed_ai_training_crawler';
+	}
+
 	if (
 		matchBotDefinition(normalizedUserAgent, SEARCH_PREVIEW_BOTS) ||
-		matchBotDefinition(normalizedUserAgent, USER_FETCH_BOTS) ||
-		matchBotDefinition(normalizedUserAgent, ALLOWED_AI_CRAWLERS)
+		matchBotDefinition(normalizedUserAgent, USER_FETCH_BOTS)
 	) {
 		return null;
 	}
@@ -277,6 +272,15 @@ export function getContentRequester({
 	}
 
 	const normalizedUserAgent = normalizeUserAgent(userAgent);
+	const trainingCrawler = matchBotDefinition(normalizedUserAgent, TRAINING_CRAWLERS);
+
+	if (trainingCrawler) {
+		return {
+			kind: 'training_crawler',
+			name: trainingCrawler.name
+		};
+	}
+
 	const searchPreviewBot = matchBotDefinition(normalizedUserAgent, SEARCH_PREVIEW_BOTS);
 
 	if (searchPreviewBot) {
@@ -292,17 +296,6 @@ export function getContentRequester({
 		return {
 			kind: 'user_fetch_bot',
 			name: userFetchBot.name
-		};
-	}
-
-	const allowedAiCrawler = matchBotDefinition(normalizedUserAgent, ALLOWED_AI_CRAWLERS);
-
-	if (allowedAiCrawler) {
-		return {
-			kind: 'allowed_ai_crawler',
-			name: allowedAiCrawler.name,
-			actorKey: `crawler:${allowedAiCrawler.name.toLowerCase()}`,
-			actorType: 'allowed_ai_crawler'
 		};
 	}
 
@@ -330,7 +323,7 @@ export function getContentRequester({
 export function isTrackableContentRequester(
 	requester: ContentRequester | null
 ): requester is TrackableContentRequester {
-	return requester?.kind === 'anonymous_human' || requester?.kind === 'allowed_ai_crawler';
+	return requester?.kind === 'anonymous_human';
 }
 
 export function getContentResponseCacheControl(
@@ -347,66 +340,30 @@ export function getContentResponseCacheControl(
 }
 
 export function getContentAccessDecision(
-	requester: TrackableContentRequester,
+	_requester: TrackableContentRequester,
 	counters: ContentAccessCounters
 ): ContentAccessDecision {
-	if (requester.kind === 'anonymous_human') {
-		if (counters.unique_10m > ANONYMOUS_HUMAN_UNIQUE_LIMIT_10M) {
-			return {
-				action: 'throttle',
-				reason: 'anonymous_human_10m_unique_limit',
-				retryAfterSeconds: 10 * 60
-			};
-		}
-
-		if (counters.unique_1h > ANONYMOUS_HUMAN_UNIQUE_LIMIT_1H) {
-			return {
-				action: 'throttle',
-				reason: 'anonymous_human_1h_unique_limit',
-				retryAfterSeconds: 60 * 60
-			};
-		}
-
-		if (counters.unique_24h > ANONYMOUS_HUMAN_UNIQUE_LIMIT_24H) {
-			return {
-				action: 'throttle',
-				reason: 'anonymous_human_24h_unique_limit',
-				retryAfterSeconds: 6 * 60 * 60
-			};
-		}
-
-		return { action: 'allow' };
-	}
-
-	if (counters.unique_10m > ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_10M) {
+	if (counters.unique_10m > ANONYMOUS_HUMAN_UNIQUE_LIMIT_10M) {
 		return {
 			action: 'throttle',
-			reason: 'allowed_ai_crawler_10m_unique_limit',
+			reason: 'anonymous_human_10m_unique_limit',
+			retryAfterSeconds: 10 * 60
+		};
+	}
+
+	if (counters.unique_1h > ANONYMOUS_HUMAN_UNIQUE_LIMIT_1H) {
+		return {
+			action: 'throttle',
+			reason: 'anonymous_human_1h_unique_limit',
 			retryAfterSeconds: 60 * 60
 		};
 	}
 
-	if (counters.total_10m > ALLOWED_AI_CRAWLER_TOTAL_LIMIT_10M) {
+	if (counters.unique_24h > ANONYMOUS_HUMAN_UNIQUE_LIMIT_24H) {
 		return {
 			action: 'throttle',
-			reason: 'allowed_ai_crawler_10m_total_limit',
-			retryAfterSeconds: 60 * 60
-		};
-	}
-
-	if (counters.unique_24h > ALLOWED_AI_CRAWLER_UNIQUE_LIMIT_24H) {
-		return {
-			action: 'throttle',
-			reason: 'allowed_ai_crawler_24h_unique_limit',
-			retryAfterSeconds: 24 * 60 * 60
-		};
-	}
-
-	if (counters.total_24h > ALLOWED_AI_CRAWLER_TOTAL_LIMIT_24H) {
-		return {
-			action: 'throttle',
-			reason: 'allowed_ai_crawler_24h_total_limit',
-			retryAfterSeconds: 24 * 60 * 60
+			reason: 'anonymous_human_24h_unique_limit',
+			retryAfterSeconds: 6 * 60 * 60
 		};
 	}
 

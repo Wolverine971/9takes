@@ -191,6 +191,19 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
   enabled state, the time-mirror pressed state, and an empty browser console all confirmed. The live
   form was not submitted during verification, so no synthetic public answer was created.
 
+## Microcopy transition refinement - 2026-07-17
+
+- Renamed the hero proof point from `Give first` to the plain-language `Answer first`. -> P6
+- Reframed the third section from `WHY THE ANSWERS DIFFER` to `THE PATTERN UNDERNEATH`, then added the
+  missing narrative bridge from multiple honest perspectives, through shared core emotions and
+  different learned strategies, to the Enneagram's nine recurring personality patterns. -> P6
+- Replaced the mechanical-typing disclaimer with a clearer reassurance that visitors do not need a
+  label to notice what someone sees first, preserving the framework as an explanatory lens rather
+  than a prerequisite. -> P6
+- The official Svelte autofixer reports no findings for the changed markup. `pnpm check` passes with
+  0 errors and the existing 124 warnings across 42 unrelated files; `pnpm lint:radius` and targeted
+  Prettier checks pass. No new screenshots were captured for this copy-only follow-up.
+
 ## Screenshots
 
 - `docs/design/screenshots/home-reimagined-desktop-dark-2026-07-13.png`

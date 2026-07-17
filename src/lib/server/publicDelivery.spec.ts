@@ -1,13 +1,7 @@
 // src/lib/server/publicDelivery.spec.ts
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
-import {
-	getContentAccessDecision,
-	getContentRequester,
-	getProtectedContentPath,
-	isTrackableContentRequester
-} from './contentAccessGuard';
 
 const ROOT = process.cwd();
 const PRIVATE_ROUTES = [
@@ -19,56 +13,32 @@ const PRIVATE_ROUTES = [
 	'/resetPassword',
 	'/users'
 ];
-const NAMED_CRAWLERS = [
+const SEARCH_AND_USER_CRAWLERS = [
 	'OAI-SearchBot',
 	'Claude-SearchBot',
 	'PerplexityBot',
 	'meta-webindexer',
+	'ChatGPT-User',
+	'Claude-User',
+	'Perplexity-User',
+	'meta-externalfetcher'
+];
+const TRAINING_CRAWLERS = [
 	'GPTBot',
 	'ClaudeBot',
 	'anthropic-ai',
 	'CCBot',
-	'Google-Extended'
+	'Google-Extended',
+	'Applebot-Extended',
+	'meta-externalagent'
 ];
 
 describe('public delivery policy', () => {
-	it('lets a named crawler complete the current protected sitemap in one pass', () => {
-		const sitemap = readFileSync(path.join(ROOT, 'static', 'sitemap.xml'), 'utf8');
-		const protectedUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)]
-			.map((match) => getProtectedContentPath(new URL(match[1]).pathname))
-			.filter((pathname): pathname is string => Boolean(pathname));
-		const requestCount = new Set(protectedUrls).size;
-		const requester = getContentRequester({
-			method: 'GET',
-			pathname: protectedUrls[0],
-			userAgent: 'GPTBot/1.0',
-			clientIp: '203.0.113.30',
-			anonymousId: null,
-			isAuthenticated: false
-		});
-
-		if (!requester || !isTrackableContentRequester(requester)) {
-			throw new Error('Expected a trackable named crawler');
-		}
-
-		expect(requestCount).toBeGreaterThan(500);
-		expect(
-			getContentAccessDecision(requester, {
-				total_10m: requestCount,
-				unique_10m: requestCount,
-				total_1h: requestCount,
-				unique_1h: requestCount,
-				total_24h: requestCount,
-				unique_24h: requestCount
-			})
-		).toEqual({ action: 'allow' });
-	});
-
-	it('repeats private-route exclusions for every named crawler group', () => {
+	it('keeps search and user-directed AI retrieval open while excluding private routes', () => {
 		const robots = readFileSync(path.join(ROOT, 'static', 'robots.txt'), 'utf8');
 		const blocks = robots.split(/\n\s*\n/);
 
-		for (const crawler of NAMED_CRAWLERS) {
+		for (const crawler of SEARCH_AND_USER_CRAWLERS) {
 			const block = blocks.find((candidate) =>
 				candidate.split('\n').some((line) => line.trim() === `User-agent: ${crawler}`)
 			);
@@ -77,7 +47,33 @@ describe('public delivery policy', () => {
 			for (const route of PRIVATE_ROUTES) {
 				expect(block).toContain(`Disallow: ${route}`);
 			}
+			expect(block).toContain('Allow: /');
 		}
+	});
+
+	it('disallows named model-training and bulk-corpus crawlers', () => {
+		const robots = readFileSync(path.join(ROOT, 'static', 'robots.txt'), 'utf8');
+		const blocks = robots.split(/\n\s*\n/);
+
+		for (const crawler of TRAINING_CRAWLERS) {
+			const block = blocks.find((candidate) =>
+				candidate.split('\n').some((line) => line.trim() === `User-agent: ${crawler}`)
+			);
+			expect(block, `missing robots group for ${crawler}`).toBeDefined();
+			expect(block).toContain('Disallow: /');
+		}
+	});
+
+	it('publishes a no-training license without exposing a full LLM corpus manifest', () => {
+		const robots = readFileSync(path.join(ROOT, 'static', 'robots.txt'), 'utf8');
+		const license = readFileSync(path.join(ROOT, 'static', 'license.xml'), 'utf8');
+		const llms = readFileSync(path.join(ROOT, 'static', 'llms.txt'), 'utf8');
+
+		expect(robots).toContain('License: https://9takes.com/license.xml');
+		expect(license).toContain('<prohibits type="usage">ai-train</prohibits>');
+		expect(llms).toContain('https://9takes.com/ai-use-policy.txt');
+		expect(llms).not.toContain('llms-full.txt');
+		expect(existsSync(path.join(ROOT, 'static', 'llms-full.txt'))).toBe(false);
 	});
 
 	it('gives stable media a bounded browser cache and fonts an immutable cache', () => {
