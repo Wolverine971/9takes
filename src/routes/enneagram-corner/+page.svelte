@@ -68,7 +68,7 @@
 		{
 			question: 'What is the Enneagram personality system?',
 			answer:
-				'The Enneagram is a personality framework describing 9 interconnected types, each driven by distinct core fears, desires, and motivations. Unlike behavioral tests, it reveals WHY you act the way you do, not just what you do. Each type has predictable patterns of thinking, feeling, and responding to stress.'
+				'The Enneagram is a personality framework describing 9 interconnected types, each organized around a distinct core fear, desire, and attention pattern. Instead of scoring behaviors, it maps the recurring strategies underneath them: what each type protects, proves, avoids, or prepares for. Each type describes a recognizable pattern of thinking, feeling, and responding to stress.'
 		},
 		{
 			question: 'How do I find my Enneagram type?',
@@ -78,12 +78,12 @@
 		{
 			question: 'How is the Enneagram different from MBTI?',
 			answer:
-				'MBTI categorizes how you process information and make decisions (cognitive functions). The Enneagram maps your core emotional drivers and unconscious patterns. MBTI describes what you do; Enneagram explains why. Many find the Enneagram more useful for personal growth and understanding relationship dynamics.'
+				'MBTI categorizes how you process information and make decisions (cognitive functions). The Enneagram maps core emotional patterns: what feels at stake for you and where your attention snaps first. MBTI sorts your habits; the Enneagram maps the strategy underneath them. Many find the Enneagram more useful for personal growth and understanding relationship dynamics.'
 		},
 		{
 			question: 'Can my Enneagram type change over time?',
 			answer:
-				'Your core type remains constant throughout life, as it forms in childhood. However, you can grow within your type, accessing healthier behaviors and integrating traits from other types. Growth means expanding beyond your automatic patterns, not becoming a different type.'
+				'Most people find one type keeps describing them across decades of change. You grow within your pattern, accessing healthier behaviors and integrating traits from other types, rather than swapping to a new one. Growth means expanding beyond your automatic patterns, not becoming a different type.'
 		},
 		{
 			question: 'What are Enneagram wings?',
@@ -98,7 +98,7 @@
 		{
 			question: 'How can the Enneagram improve my relationships?',
 			answer:
-				'The Enneagram reveals why people react differently to the same situation. Understanding your partner\'s type helps you stop taking their behavior personally and communicate in ways that actually land. It transforms "they\'re being difficult" into "they need something different than I do."'
+				'The Enneagram maps how differently people can read the same situation. Understanding your partner\'s pattern helps you stop taking their behavior personally and communicate in ways that actually land. It transforms "they\'re being difficult" into "they need something different than I do."'
 		}
 	];
 
@@ -381,7 +381,7 @@
 	<IndexHero
 		title="The Enneagram, decoded."
 		line1="9 emotional types. Each one leads with a different read of the same situation. Here's what each one sees first — and what every type misses."
-		line2={`${publishedCount} reads. Decoded the way a real psychologist would — centers, wings, stress lines, growth lines, and the moments those patterns show up.`}
+		line2={`${publishedCount} reads. Centers, wings, stress lines, growth lines, and the moments those patterns show up in real life.`}
 		imageSrc="/greek_distorted_statue_face.webp"
 		imageMono="9TAKES · CASE FILES · ENNEAGRAM CORNER"
 	>

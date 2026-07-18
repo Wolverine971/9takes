@@ -39,7 +39,14 @@
 	let likes = $state<CommentLike[]>([]);
 	let subscriptions = $state<Subscription[]>([]);
 	let comment = $state('');
-	let commenting = $state(false);
+	// Give-first: on a question the user has not yet answered, the composer is
+	// the main event — open by default instead of hiding it behind a button.
+	// Replies and post-answer comments stay collapsed until asked for.
+	// svelte-ignore state_referenced_locally -- initial-open state is deliberately a snapshot
+	let commenting = $state(
+		parentType === 'question' &&
+			!(isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false)
+	);
 	let loading = $state(false);
 	let subscriptionLoading = $state(false);
 	let anonymousComment = $state(false);
@@ -82,9 +89,9 @@
 		isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false
 	);
 	let isSubscribed = $derived(subscriptions.some((e) => e.user_id === user?.id));
-	let questionCommentActionLabel = $derived(userHasAnswered ? 'Comment' : 'Answer to unlock');
+	let questionCommentActionLabel = $derived(userHasAnswered ? 'Comment' : 'Add your take');
 	let questionCommentActionAria = $derived(
-		userHasAnswered ? 'Write a comment' : 'Answer this question to unlock comments'
+		userHasAnswered ? 'Write a comment' : 'Add your take to reveal the other answers'
 	);
 	let commentActionLabel = $derived(
 		parentType === 'question' ? questionCommentActionLabel : 'Reply'
@@ -564,6 +571,8 @@
 						>
 							{#if confirmShortSubmit}
 								Post anyway
+							{:else if composerKind === 'answer'}
+								Post answer and reveal
 							{:else}
 								Post {composerKind}
 							{/if}

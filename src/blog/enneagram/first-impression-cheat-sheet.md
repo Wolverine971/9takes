@@ -1,338 +1,133 @@
 ---
-title: 'Enneagram First Impression Cheat Sheet: Instant Connection Guide'
-description: 'A printable, bookmarkable quick-reference card deck for making meaningful connections with each Enneagram type. Essential approaches, power questions, and key tips for authentic first impressions.'
+title: 'Enneagram First Impression Cheat Sheet: All 9 Types'
+description: 'The tell, the opening move, one question that lands, and the mistake to avoid for all nine Enneagram types. Scan it before you walk in.'
 author: 'DJ Wayne'
 date: '2025-05-20'
 loc: 'https://9takes.com/enneagram-corner/first-impression-cheat-sheet'
-lastmod: '2025-07-19'
+lastmod: '2026-07-18'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['situational', 'practical']
 blog: true
-previewHtml: ''
+previewHtml: 'Nine types, nine different scans. The tell, the move, the question, and the killer mistake for each type. The pocket version of the first-impression playbook.'
 pic: 'greek-statue-taking-notes'
 path: src/blog/enneagram/first-impression-cheat-sheet.md
 ---
 
-<script>
-  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-</script>
+<p class="firstLetter">Every person you meet is running a scan.</p>
 
-<!-- Main container with proper typography -->
-<div class="max-w-6xl mx-auto px-4 py-8">
+Nine types, nine different scans. One person is checking whether you take things seriously. Another is checking whether your story holds together. A third is deciding whether you're a door or a wall.
 
-  <!-- Introduction -->
-  <div class="mb-8 bg-white p-6 rounded-lg shadow-sm">
-    <p class="text-neutral-700"><strong>Decode social dynamics in any room.</strong> This cheat sheet gives you tactical approaches for authentic first impressions with each Enneagram type. Master these patterns and watch difficult people become allies.</p>
-    <p class="text-neutral-600 mt-3"><strong>Try this tonight:</strong> Pick your hardest-to-read person. Use their type's approach below. See the emotions behind their take transform before your eyes.</p>
-  </div>
+You can't type a stranger off a handshake, and you don't need to. Spot the scan, pass it, and let the rest happen like a human. Each block below: how to spot them, what they're checking, the move, the question, and the one mistake that ends it.
 
-  <!-- Quick-Reference Cheat Sheet -->
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-    <!-- Type 1 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 1</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-1" class="hover:underline font-bold text-lg">The Perfectionist</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Be prepared, orderly, on time</li>
-          <li>Notice and appreciate their attention to detail</li>
-          <li>Show your commitment to quality standards</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Sloppiness, excuses, "good enough" mentality</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about standards:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"Between perfect but late or good enough but on time - which do you prefer?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-1-perfectionist-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Type 2 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 2</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-2" class="hover:underline font-bold text-lg">The Helper</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Be warm and genuinely interested in them</li>
-          <li>Notice and appreciate their supportive nature</li>
-          <li>Remember personal details they share</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Coldness, talking only about yourself</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about support:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"What's the most interesting thing you've helped someone with recently?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-2-helper-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Type 3 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 3</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-3" class="hover:underline font-bold text-lg">The Achiever</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Be efficient and results-focused</li>
-          <li>Recognize their accomplishments specifically</li>
-          <li>Demonstrate your own competence</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Wasting time, undermining their image</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about accomplishments:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"What's your hidden win that most people don't know about?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-3-achiever-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Type 4 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 4</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-4" class="hover:underline font-bold text-lg">The Individualist</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Be authentic, not generic</li>
-          <li>Notice their unique qualities</li>
-          <li>Share something genuinely meaningful</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Generic approaches, forced positivity</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about depth:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"What's something that moved you recently that most people missed?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-4-individualist-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Type 5 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 5</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-5" class="hover:underline font-bold text-lg">The Investigator</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Respect their space and boundaries</li>
-          <li>Show intellectual substance</li>
-          <li>Be patient with their thoughtful pauses</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Crowding, emotional demands</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about expertise:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"What's your niche knowledge area that most people don't know about?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-5-investigator-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Type 6 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 6</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-6" class="hover:underline font-bold text-lg">The Loyalist</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Be transparent and consistent</li>
-          <li>Address concerns proactively</li>
-          <li>Provide concrete details and clear expectations</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Vague assurances, glossing over risks</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about instincts:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"What's your gut telling you about this situation right now?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-6-loyalist-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Type 7 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 7</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-7" class="hover:underline font-bold text-lg">The Enthusiast</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Match their energy and enthusiasm</li>
-          <li>Be open to spontaneity</li>
-          <li>Create a sense of exciting possibilities</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Negativity, rigid structures</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about adventures:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"If you had to leave for a surprise trip in two hours, where would you go?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-7-enthusiast-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Type 8 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 8</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-8" class="hover:underline font-bold text-lg">The Challenger</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Be direct and confident</li>
-          <li>Stand your ground respectfully</li>
-          <li>Address conflicts head-on</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Timidity, manipulation, sugarcoating</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about directness:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"What's something everyone is thinking but nobody's saying out loud?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-8-challenger-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Type 9 -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow min-h-[440px] flex flex-col">
-      <div class="bg-gradient-to-r from-primary-700 to-primary-600 text-white p-4">
-        <div class="flex flex-col">
-          <div class="flex items-center mb-1">
-            <span class="text-2xl font-bold mr-2">Type 9</span>
-          </div>
-          <a href="/enneagram-corner/enneagram-type-9" class="hover:underline font-bold text-lg">The Peacemaker</a>
-        </div>
-      </div>
-      <div class="p-4 flex-grow flex flex-col">
-        <ul class="text-sm text-neutral-700 space-y-2 list-disc pl-5 mb-auto">
-          <li>Create a calm, pressure-free environment</li>
-          <li>Listen patiently without interrupting</li>
-          <li>Value their balanced perspective</li>
-          <li class="text-error-600 font-semibold list-none -ml-5 mt-2 border-t pt-2">⚠️ AVOID: Rushing, creating tension or conflict</li>
-        </ul>
-        <div class="mt-auto pt-3 border-t border-neutral-100">
-          <p class="text-xs text-neutral-500">Ask about harmony:</p>
-          <p class="text-sm text-primary-700 italic min-h-[3rem] flex items-center">"What's something you think more people should slow down and appreciate?"</p>
-          <a href="/enneagram-corner/first-impression-enneagram-playbook#type-9-peacemaker-first-impression" class="mt-2 text-xs text-primary-600 hover:underline block text-right">
-            More details →
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+This is the pocket version. The full read on each type, what they're thinking, feeling, and doing in the first 30 seconds, lives in [the first-impression playbook](/enneagram-corner/first-impression-enneagram-playbook).
 
-  <!-- Final Tips Box -->
-  <div class="bg-gradient-to-br from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-8 mb-12 shadow-lg">
-    <h2 class="text-xl font-bold text-primary-800 mb-4">Your Social Advantage Playbook</h2>
-    <ul class="list-disc pl-6 text-neutral-700 space-y-2">
-      <li><strong>Pattern recognition beats guesswork</strong> - Use these emotional frequencies as your starting point</li>
-      <li><strong>Understanding beats judgment</strong> - Each type's "difficult" behavior has emotional logic</li>
-      <li><strong>Adjust as you learn</strong> - These approaches unlock the door; genuine interest builds the relationship</li>
-      <li><strong>Social dynamics, decoded</strong> - You're learning to speak their emotional language</li>
-    </ul>
-  </div>
+## Type 1: The Perfectionist
 
-  <!-- Call to Action -->
-  <div class="text-center">
-    <a href="/enneagram-corner/first-impression-enneagram-playbook" class="inline-block mb-6 bg-gradient-to-r from-primary-700 to-primary-600 hover:from-primary-800 hover:to-primary-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition-all transform hover:scale-105">
-      Master the Complete Playbook
-    </a>
-    <div class="mt-6 p-4 bg-neutral-100 rounded-lg">
-      <p class="text-neutral-700 mb-2"><strong>Ready for real-world practice?</strong></p>
-      <p class="text-sm text-neutral-600">Post your challenging situation on <a href="/questions" class="text-primary-700 hover:underline font-semibold">9takes</a> - get perspectives from all 9 types using our give-first platform.</p>
-    </div>
-    <div class="mt-8 text-sm text-neutral-500">
-      <p>Created by <a href="/about" class="text-primary-700 hover:underline">9takes</a> • <a href="/enneagram-corner" class="text-primary-700 hover:underline">Explore More Enneagram Resources</a></p>
-    </div>
-  </div>
-</div>
+- **Spot them:** arrived early, posture like a plumb line, already straightened the menu.
+- **The scan:** do you take this seriously?
+- **The move:** be on time and prepared. Name one specific thing they clearly put effort into.
+- **Ask:** "What's something you've improved lately that nobody noticed?"
+- **Never:** make an excuse. Own the mistake and the fix; they'll forgive almost anything else.
 
-<style lang="scss">
-  /* Card hover effects */
-  .bg-white.rounded-lg:hover {
-    transform: translateY(-2px);
-  }
-  
-  /* Smooth transitions */
-  * {
-    transition-property: transform, box-shadow;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
-  }
-  
-  /* Link hover state */
-  a:hover {
-    opacity: 0.9;
-  }
-  
-  @media print {
-    body {
-      background-color: white;
-    }
-    
-    .fixed {
-      display: none !important;
-    }
-    
-    a[href]:after {
-      content: none !important;
-    }
-    
-    .shadow-md, .shadow-lg, .shadow-sm {
-      box-shadow: none !important;
-    }
-    
-    .hover\:shadow-lg {
-      box-shadow: none !important;
-    }
-    
-    .border {
-      border-color: #e5e7eb !important;
-    }
-  }
-</style>
+[Type 1 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-1)
+
+## Type 2: The Helper
+
+- **Spot them:** knew your name before the introductions finished, asked three questions before you asked one.
+- **The scan:** is there warmth behind your competence?
+- **The move:** accept their care like a gift, then turn the spotlight on them and hold it past their deflection.
+- **Ask:** "You seem like the one who takes care of everyone. Who takes care of you?"
+- **Never:** treat their warmth like room service. They notice, and they keep quiet score.
+
+[Type 2 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-2)
+
+## Type 3: The Achiever
+
+- **Spot them:** dressed one notch above the room, mapped who matters in it within two minutes.
+- **The scan:** are you worth the time slot?
+- **The move:** bring pace. Get to the point. Engage the ambition with a specific question.
+- **Ask:** "What's the win you're chasing right now?"
+- **Never:** perform indifference. A 3 reads deliberate unimpressed-ness as a verdict on the whole meeting.
+
+[Type 3 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-3)
+
+## Type 4: The Individualist
+
+- **Spot them:** one style choice nobody else in the room would attempt, standing slightly outside the circle.
+- **The scan:** can you handle a real conversation?
+- **The move:** name one specific thing you noticed about them. Ditch the small-talk script early.
+- **Ask:** "What's something you noticed today that everyone else walked past?"
+- **Never:** say "you're so unique." Generic praise for their uniqueness proves you weren't paying attention.
+
+[Type 4 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-4)
+
+## Type 5: The Investigator
+
+- **Spot them:** corner seat, best sightlines in the room, three words a minute until their topic lands.
+- **The scan:** what do you want from me, and what will it cost?
+- **The move:** lead with an idea. Ask one real question. Let the pauses sit.
+- **Ask:** "What rabbit hole are you down right now?"
+- **Never:** crowd them, touch them, or demand feelings. Space is the price of admission.
+
+[Type 5 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-5)
+
+## Type 6: The Loyalist
+
+- **Spot them:** small talk that quietly checks your story for seams. They watched how you treated the waiter.
+- **The scan:** does your story hold together?
+- **The move:** answer directly, keep micro-promises, and name a downside before they find it.
+- **Ask:** "What's your read on this place?"
+- **Never:** say "trust me." Every unsolicited reassurance raises the alarm you meant to lower.
+
+[Type 6 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-6)
+
+## Type 7: The Enthusiast
+
+- **Spot them:** three topics a minute, planning next weekend mid-sentence, first and loudest laugh.
+- **The scan:** are you a door or a wall?
+- **The move:** match the tempo. Add options instead of killing them.
+- **Ask:** "If you had to leave on a trip in two hours, where are you going?"
+- **Never:** open with a complaint. Heaviness in the first minute files you under "drain."
+
+[Type 7 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-7)
+
+## Type 8: The Challenger
+
+- **Spot them:** the conversation recalibrated when they walked in. Direct gaze, zero filler.
+- **The scan:** can you stand your ground?
+- **The move:** be direct. Disagree once, cleanly, without heat.
+- **Ask:** "What's something everyone here is thinking but nobody's saying?"
+- **Never:** flatter or hedge. They would rather be challenged than managed.
+
+[Type 8 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-8)
+
+## Type 9: The Peacemaker
+
+- **Spot them:** the room got calmer when they joined. Agrees easily, deflects questions about what they want.
+- **The scan:** are you going to steamroll me?
+- **The move:** slow down. Wait out the pauses. When a preference finally surfaces, act on it.
+- **Ask:** "Zero stakes: if it were entirely up to you, what would you pick?"
+- **Never:** rush a decision. "Just pick something" closes the door you were trying to open.
+
+[Type 9 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-9)
+
+## If you can't get a read
+
+Four moves no type penalizes:
+
+1. Mirror their energy level before you try to change it.
+2. Respect the space they set, physical and emotional.
+3. Match their emotional temperature first.
+4. Ask what they're excited about lately, then follow the answer.
+
+## Run the field test
+
+Pick the person you find hardest to read. Find their block above. Use the move and the question next time you talk. Watch what changes.
+
+Then go deeper:
+
+- [The first-impression playbook](/enneagram-corner/first-impression-enneagram-playbook): what each type is thinking, feeling, and scanning for in the first 30 seconds, and why the same move lands with one type and bombs with another.
+- [Enneagram types on a first date](/enneagram-corner/enneagram-types-on-a-first-date): the same nine scans, higher stakes.
+- Someone you still can't crack? [Post the situation on 9takes](/questions). Give your take on someone else's question first, then watch nine types read yours nine different ways.

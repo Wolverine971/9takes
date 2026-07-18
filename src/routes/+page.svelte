@@ -102,6 +102,7 @@
 	let submitting = $state(false);
 	let submitError = $state<string | null>(null);
 	let mirror = $state<Mirror | null>(null);
+	let alreadyAnswered = $state(false);
 	let chorusTakes = $state.raw<ChorusTake[]>([]);
 	let revealEl = $state<HTMLElement | null>(null);
 	let eraPaused = $state(false);
@@ -175,6 +176,7 @@
 				resonantArchetype: result.resonantArchetype
 			};
 			chorusTakes = result.takes;
+			alreadyAnswered = Boolean(result.alreadyAnswered);
 			previewRevealed = true;
 			void capture('homepage_question_answered', {
 				question_url: data.featuredQuestion.url,
@@ -369,7 +371,11 @@
 						<div class="submitted-answer-head">
 							<span class="submitted-check"><CircleCheck size={18} aria-hidden="true" /></span>
 							<div>
-								<strong>Your answer is in the conversation.</strong>
+								<strong>
+									{alreadyAnswered
+										? 'You already answered this one.'
+										: 'Your answer is in the conversation.'}
+								</strong>
 								<span>The nine perspectives are open.</span>
 							</div>
 						</div>

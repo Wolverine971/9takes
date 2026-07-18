@@ -107,25 +107,34 @@
 			loading = false;
 		};
 	};
-	const ogImage = 'https://9takes.com/greek_pantheon.png';
+	const ogImage = 'https://9takes.com/images/home-reimagined/streetlamp-nine.webp';
 </script>
 
 <svelte:head>
-	<title>9takes Login</title>
-	<meta name="description" content="Login for a good time" />
+	<title>Log in | 9takes</title>
+	<meta
+		name="description"
+		content="Log back in to your takes, your type lens, and the questions you follow."
+	/>
 	<meta name="robots" content="noindex, follow" />
 	<link rel="canonical" href="https://9takes.com/login" />
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content="9takes - Login" />
-	<meta property="og:description" content="Login for a good time" />
+	<meta property="og:title" content="Log in | 9takes" />
+	<meta
+		property="og:description"
+		content="Log back in to your takes, your type lens, and the questions you follow."
+	/>
 	<meta property="og:url" content="https://9takes.com/login" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:type" content="image/webp" />
 </svelte:head>
 
 <div class="container" in:fade={{ duration: 300 }}>
 	<h1 class="title" in:fly={{ y: -20, duration: 300, delay: 150 }}>Log in</h1>
+	<p class="auth-lede" in:fly={{ y: -12, duration: 300, delay: 180 }}>
+		Back to your takes and the questions you follow.
+	</p>
 	<p class="auth-switch" in:fly={{ y: -12, duration: 300, delay: 200 }}>
 		Need an account? <a href="/register">Register</a>
 	</p>
@@ -195,6 +204,13 @@
 		font-size: 1.8rem;
 		font-weight: bold;
 		color: var(--ink-bright);
+	}
+
+	.auth-lede {
+		margin: 0 0 0.5rem;
+		text-align: center;
+		color: var(--ink-mid);
+		font-size: 0.95rem;
 	}
 
 	.auth-switch {

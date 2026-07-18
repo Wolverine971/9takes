@@ -79,11 +79,15 @@
 
 	let isLibraryOpen = $state(false);
 
+	// /questions is excluded: it has its own top-level header link (2026-07-18),
+	// so the Library trigger only lights for routes reached via the dropdown.
 	let isLibraryActive = $derived(
-		libraryItems.some((item) =>
-			item.href === '/'
-				? $page.url.pathname === item.href
-				: $page.url.pathname.startsWith(item.href)
+		libraryItems.some(
+			(item) =>
+				item.href !== '/questions' &&
+				(item.href === '/'
+					? $page.url.pathname === item.href
+					: $page.url.pathname.startsWith(item.href))
 		)
 	);
 
@@ -149,6 +153,15 @@
 			<div class="search-slot">
 				<HeaderSearch />
 			</div>
+
+			<a
+				href={resolve('/questions')}
+				class="questions-link"
+				class:is-active={isActive('/questions')}
+				aria-current={isActive('/questions') ? 'page' : undefined}
+			>
+				Questions
+			</a>
 
 			<div class="library-control" use:onClickOutside={closeLibrary}>
 				<button
@@ -267,6 +280,46 @@
 	.header-shell :global(.desktop-login) {
 		padding-inline: 1rem;
 		white-space: nowrap;
+	}
+
+	/* Top-level funnel link (2026-07-18): Questions is the give-first product,
+	   so it gets a persistent slot beside Library instead of living only in
+	   the dropdown. Mirrors .library-button chrome so the two read as siblings. */
+	.questions-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+		height: 3rem;
+		padding: 0 1rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		background: var(--stone-warm);
+		color: var(--ink-mid);
+		font-family: var(--font-mono);
+		font-size: 0.82rem;
+		font-weight: 600;
+		letter-spacing: 0.06em;
+		line-height: 1;
+		text-transform: uppercase;
+		text-decoration: none;
+		white-space: nowrap;
+		transition:
+			background-color 0.18s ease,
+			border-color 0.18s ease,
+			color 0.18s ease;
+	}
+
+	.questions-link:hover,
+	.questions-link.is-active {
+		color: var(--lamp-glow);
+		border-color: color-mix(in srgb, var(--lamp-glow) 42%, var(--stone-edge));
+		background: var(--stone-mid);
+	}
+
+	.questions-link:focus {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 
 	.library-control {

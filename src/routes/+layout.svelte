@@ -42,7 +42,6 @@
 	import Toast from '$lib/components/molecules/Toast.svelte';
 	import Footer from '$lib/components/molecules/Footer.svelte';
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
-	import FloatingParticles from '$lib/components/atoms/FloatingParticles.svelte';
 
 	export let data: PageData;
 
@@ -671,7 +670,6 @@
 		>
 			Skip to main content
 		</a>
-		<FloatingParticles />
 		<div class="sticky top-0 z-50">
 			<Header />
 		</div>

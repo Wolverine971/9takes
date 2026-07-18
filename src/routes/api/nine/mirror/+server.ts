@@ -105,27 +105,34 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 
 		// Record the answer as a real comment on the backing question, using the
 		// reader's own client so give-first identity rules apply. Best-effort:
-		// duplicate answers (one-per-fingerprint) are expected and ignored.
+		// a duplicate (one-per-fingerprint) means the reader already answered and
+		// is already unlocked, so it counts as success and they get the reveal.
+		let alreadyAnswered = false;
 		if (chorus.questionId && (fingerprint || userId)) {
 			try {
 				const { error: commentError } = await (locals.supabase.rpc as any)(
 					'create_comment_atomic',
 					{
-					p_comment: take,
-					p_parent_id: chorus.questionId,
-					p_author_id: userId,
-					p_parent_type: 'question',
-					p_fingerprint: fingerprint,
-					p_ip: getClientAddress()
+						p_comment: take,
+						p_parent_id: chorus.questionId,
+						p_author_id: userId,
+						p_parent_type: 'question',
+						p_fingerprint: fingerprint,
+						p_ip: getClientAddress()
 					}
 				);
 
-				if (commentError) {
-					logger.warn('Chorus answer not recorded as comment', {
-						error: String(commentError)
-					});
-				} else {
+				if (!commentError) {
 					answerRecorded = true;
+				} else if (
+					/once per question|duplicate|unique/i.test(String(commentError?.message ?? commentError))
+				) {
+					answerRecorded = true;
+					alreadyAnswered = true;
+				} else {
+					logger.warn('Chorus answer not recorded as comment', {
+						error: String(commentError?.message ?? commentError)
+					});
 				}
 			} catch (commentErr) {
 				logger.warn('Chorus answer not recorded as comment', { error: String(commentErr) });
@@ -153,7 +160,8 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 			...mirror,
 			takes: chorus.takes,
 			questionUrl: chorus.questionUrl,
-			answerRecorded
+			answerRecorded,
+			alreadyAnswered
 		});
 	} catch (e) {
 		if ((e as any)?.status) throw e;

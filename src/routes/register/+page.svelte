@@ -130,25 +130,35 @@
 		}
 	});
 
-	const ogImage = 'https://9takes.com/greek_pantheon.png';
+	const ogImage = 'https://9takes.com/images/home-reimagined/streetlamp-nine.webp';
 </script>
 
 <svelte:head>
-	<title>9takes Registration</title>
-	<meta name="description" content="Register for a good time" />
+	<title>Create your account | 9takes</title>
+	<meta
+		name="description"
+		content="Answering is anonymous and needs no account. An account keeps your takes, your type, and the questions you follow in one place."
+	/>
 	<meta name="robots" content="noindex, follow" />
 	<link rel="canonical" href="https://9takes.com/register" />
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content="9takes - Registration" />
-	<meta property="og:description" content="Register for a good time" />
+	<meta property="og:title" content="Create your account | 9takes" />
+	<meta
+		property="og:description"
+		content="Answering is anonymous and needs no account. An account keeps your takes, your type, and the questions you follow in one place."
+	/>
 	<meta property="og:url" content="https://9takes.com/register" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:type" content="image/webp" />
 </svelte:head>
 
 <div class="auth-container" in:fade={{ duration: 300 }}>
 	<h1 class="auth-title" in:fly={{ y: -20, duration: 300, delay: 150 }}>Register</h1>
+	<p class="auth-lede" in:fly={{ y: -12, duration: 300, delay: 180 }}>
+		Answering stays anonymous, no account needed. An account keeps your takes, your type, and the
+		questions you follow in one place.
+	</p>
 	<p class="auth-switch" in:fly={{ y: -12, duration: 300, delay: 200 }}>
 		Already have an account? <a href="/login">Log in</a>
 	</p>
@@ -238,6 +248,15 @@
 		font-size: 1.8rem;
 		font-weight: bold;
 		color: var(--ink-bright);
+	}
+
+	.auth-lede {
+		margin: 0 auto 0.5rem;
+		max-width: 26rem;
+		text-align: center;
+		color: var(--ink-mid);
+		font-size: 0.95rem;
+		line-height: 1.5;
 	}
 
 	.auth-switch {

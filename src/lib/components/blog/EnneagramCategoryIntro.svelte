@@ -24,7 +24,7 @@
 			title: 'The Enneagram: Your Operating System Decoded',
 			seoTitle: 'Master the Enneagram: The Complete Psychology Framework | 9takes',
 			description:
-				'Discover why millions use the Enneagram to decode human behavior. From childhood wounds to adult patterns, master the system that transforms self-understanding.',
+				'Discover why millions use the Enneagram to decode human behavior. Learn the nine recurring patterns that shape what people notice first, and how to work with yours.',
 			pic: 'nine-greek-statues-having-a-conversation-with-their-wings'
 		},
 		'nine-types': {
@@ -214,7 +214,7 @@
 			{
 				href: '/enneagram-corner/subtopic/overview',
 				label: 'Learn the Psychology',
-				hook: 'Understand the why'
+				hook: 'Understand the system'
 			},
 			{
 				href: '/enneagram-corner/subtopic/nine-types',
@@ -245,7 +245,7 @@
 			{
 				question: 'What makes the Enneagram different from other personality tests?',
 				answer:
-					'The Enneagram focuses on WHY you do things, not just what you do. It maps your core fears, desires, and unconscious motivations formed in childhood. This depth makes it more useful for personal growth than surface-level behavioral assessments.'
+					'The Enneagram focuses on the pattern underneath the behavior, not just the behavior. It maps the core fears and desires that shape where your attention goes first: what you protect, prove, avoid, or prepare for. That depth makes it more useful for personal growth than surface-level behavioral assessments.'
 			},
 			{
 				question: 'How long does it take to learn the Enneagram?',
@@ -514,13 +514,13 @@
 	{#if subsection === 'overview'}
 		<section id="introduction" class="intro-section">
 			<p class="hook">
-				<strong>You've been running on autopilot your entire life.</strong> Every reaction, every decision,
-				every relationship pattern: all driven by an invisible operating system you never chose to install.
+				<strong>Your reactions have a pattern.</strong> The same fights, the same stalls, the same snap
+				judgments: they repeat because your attention keeps going to the same place first.
 			</p>
 			<p>
-				The Enneagram reveals this hidden code. It's not another personality quiz. It's a map of
-				your psychological wiring, showing exactly why you sabotage yourself in predictable ways and
-				how to finally break free.
+				The Enneagram maps those patterns. It's not another personality quiz. It's a map of nine
+				recurring strategies people run under pressure, so you can catch yours in the act instead of
+				replaying it.
 			</p>
 			<p class="insight-callout">
 				Once you can read it, you can't unread it — in others or in yourself.
@@ -562,13 +562,12 @@
 			<h2>Your Next Move</h2>
 			<p>
 				Understanding the Enneagram isn't about putting people in boxes. It's about seeing the
-				<strong>emotional logic</strong> behind their behavior. Once you see the patterns, you can't
-				unsee them.
+				<strong>emotional logic</strong> behind their behavior. Once you see the patterns, you can't unsee
+				them.
 			</p>
 			<p>
-				<strong>Start with these articles</strong> to build your foundation. Then pick one person in
-				your life, guess their type, watch for the patterns, and notice how your understanding of them
-				shifts.
+				<strong>Start with these articles</strong> to build your foundation. Then pick one person in your
+				life, guess their type, watch for the patterns, and notice how your understanding of them shifts.
 			</p>
 		</section>
 	{:else if subsection === 'nine-types'}
@@ -693,8 +692,8 @@
 	{:else if subsection === 'relationships'}
 		<section id="introduction" class="intro-section">
 			<p class="hook">
-				<strong>Most relationship fights aren't about what you think they're about.</strong> They're
-				two different types with two different emotional needs talking past each other.
+				<strong>Most relationship fights aren't about what you think they're about.</strong> They're two
+				different types with two different emotional needs talking past each other.
 			</p>
 			<p>
 				Your partner isn't being "too emotional" or "too distant." They're responding from their
@@ -814,9 +813,9 @@
 	{:else if subsection === 'resources'}
 		<section id="introduction" class="intro-section">
 			<p class="hook">
-				<strong>Most Enneagram content wastes your time.</strong> Surface-level quizzes that mistype
-				you. Instagram infographics that reduce complex patterns to memes. Books that contradict each
-				other on fundamentals.
+				<strong>Most Enneagram content wastes your time.</strong> Surface-level quizzes that mistype you.
+				Instagram infographics that reduce complex patterns to memes. Books that contradict each other
+				on fundamentals.
 			</p>
 			<p>
 				We've tested dozens of resources and kept only what works: assessments with validated
@@ -870,8 +869,8 @@
 	{:else if subsection === 'situational'}
 		<section id="introduction" class="intro-section">
 			<p class="hook">
-				<strong>Theory is useless without application.</strong> You can memorize all nine types, but
-				can you spot them at a party? In a meeting? During a crisis? On a first date?
+				<strong>Theory is useless without application.</strong> You can memorize all nine types, but can
+				you spot them at a party? In a meeting? During a crisis? On a first date?
 			</p>
 			<p>
 				These guides show you exactly how each type behaves in specific, real-world situations. No

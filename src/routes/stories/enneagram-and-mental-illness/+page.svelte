@@ -97,26 +97,29 @@
 		<!-- Custom styles for the Web Story - 9takes branding -->
 		<style amp-custom>
 			:root {
-				--primary: #6c5ce7;
-				--primary-dark: #4834d4;
-				--primary-light: #a29bfe;
-				--accent: #8c7ae6;
-				--accent-dark: #7158e2;
-				--accent-light: #e9e4ff;
-				--white: #ffffff;
-				--off-white: #f9f9ff;
+				/* Streetlamp V5 — AMP doc is self-contained, so tokens live here */
+				--lamp-glow: #f59e0b;
+				--night-deep: #0a0807;
+				--primary: #f59e0b;
+				--primary-dark: #b45309;
+				--primary-light: #fbbf24;
+				--accent: #f59e0b;
+				--accent-dark: #b45309;
+				--accent-light: #fde68a;
+				--white: #faf8f4;
+				--off-white: #faf8f4;
 				--lightest-gray: #f0f2f5;
 				--light-gray: #e4e6eb;
 				--medium-gray: #c1c5d0;
 				--dark-gray: #65676b;
-				--darkest-gray: #2a2d34;
-				--black: #18191a;
-				--success: #00b894;
+				--darkest-gray: #241d17;
+				--black: #0a0807;
+				--success: #2f8f8c;
 				--warning: #fdcb6e;
-				--error: #e84393;
-				--info: #74b9ff;
-				--text-primary: #2d3436;
-				--text-secondary: #636e72;
+				--error: #b8797f;
+				--info: #2f8f8c;
+				--text-primary: #faf8f4;
+				--text-secondary: #c9c2b8;
 				--border-radius: 0.625rem;
 			}
 
@@ -223,11 +226,11 @@
 			}
 
 			.type4-color {
-				background: linear-gradient(135deg, var(--error), #be185d);
+				background: linear-gradient(135deg, var(--error), #8d565c);
 			}
 
 			.type5-color {
-				background: linear-gradient(135deg, var(--info), #1d4ed8);
+				background: linear-gradient(135deg, var(--info), #23706e);
 			}
 
 			.type6-color {
@@ -239,7 +242,7 @@
 			}
 
 			.type8-color {
-				background: linear-gradient(135deg, #e84393, var(--lamp-glow));
+				background: linear-gradient(135deg, #b9683c, var(--lamp-glow));
 			}
 
 			.type9-color {
@@ -258,7 +261,7 @@
 			/* Buttons and interactive elements */
 			.cta-button {
 				background-color: var(--lamp-glow);
-				color: var(--white);
+				color: var(--night-deep);
 				border-radius: var(--border-radius);
 				padding: 0.75em 1.5em;
 				font-weight: bold;

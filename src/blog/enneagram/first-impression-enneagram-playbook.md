@@ -1,694 +1,337 @@
 ---
-title: 'Read Anyone in 30 Seconds: The Enneagram Body Language Cheat Sheet'
-description: 'Stop guessing what people want. Learn the 9 personality tells that reveal exactly how to connect with anyone instantly—from job interviews to first dates.'
+title: 'Enneagram First Impressions: What Each Type Is Scanning For'
+description: 'Every stranger you meet is running one of nine scans. What each Enneagram type checks in the first 30 seconds of meeting you, and how to pass it.'
 author: 'DJ Wayne'
 date: '2025-05-20'
 loc: 'https://9takes.com/enneagram-corner/first-impression-enneagram-playbook'
-lastmod: '2025-08-15'
+lastmod: '2026-07-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['situational']
 blog: true
-previewHtml: ''
+previewHtml: 'You have 30 seconds before the verdict lands. What each Enneagram type is thinking, watching, and scanning for when they meet you, and how to pass all nine tests.'
 pic: 'greek-statues-getting-ready-to-approach'
 path: src/blog/enneagram/first-impression-enneagram-playbook.md
-quality_grade: 'A'
-quality_score: 9
-quality_graded_at: '2026-02-22'
-quality_rewrite_priority: 'none'
-quality_safety_gate: 'n/a'
 ---
-
-<!-- QUALITY_FEEDBACK_START
-Grade: A (9) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.6); practical utility (9.5).
-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
-Tags: none
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
 
 <script>
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">They've already decided about you.</p>
+<p class="firstLetter">Two people walk into the same coffee shop ten minutes early.</p>
 
-**10 seconds.** That's all it took.
+One is confirming the reservation and checking that the corner table is quiet enough for real conversation. The other is clocking the exits, the noise level, and whether the person they're meeting shows up when they said they would.
 
-Before you opened your mouth. Before your elevator pitch. Before your charming story.
+Same behavior. Two completely different scans running underneath it.
 
-Their Enneagram type determined exactly what they were looking for—and whether you delivered it.
+That's the problem with generic first-impression advice. "Be confident, smile, ask questions" assumes everyone is grading you on the same rubric. They aren't. There are nine rubrics.
 
-- Type 8s dismissed you for weak energy
-- Type 5s wrote you off for surface-level chatter
-- Type 2s felt your emotional coldness
-- Type 1s noticed you were 3 minutes late
+## The honest version of "reading people"
 
-You're not failing at first impressions. **You're using the wrong playbook for their personality.**
+You can't type a stranger from a handshake. Anyone who tells you otherwise is selling something.
 
-## The 30-Second Personality Decoder
+Here's what you can do: watch what someone's attention is doing. Attention is visible. The woman who straightened the crooked picture frame just told you where her attention goes. So did the guy who sat facing the door, and the one who had the room's power dynamics mapped before his coat was off.
+
+The Enneagram names nine patterns that attention runs. Treat each one as a hypothesis, never a verdict: read the signals, float a question, watch what happens. If you guessed wrong, you've still asked a better question than "so, what do you do?"
+
+## The verdict lands before you finish your first sentence
+
+Princeton researchers [Janine Willis and Alexander Todorov](https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01750.x) showed people unfamiliar faces for a tenth of a second and asked them to judge trustworthiness, competence, likeability, and aggressiveness. Those tenth-of-a-second judgments matched the ones people made with unlimited time. Extra exposure didn't change the verdict. It made people more confident in it.
+
+So the first impression can't be waited out, and it doesn't average itself out over the evening. The variable you control is which verdict they're primed to reach, and that depends on what their type scans for.
+
+## The 30-second decoder
 
 <div class="scroll-table">
 
-| What You See                           | Their Type | What They Need From You  | Fatal First Impression Error     |
-| -------------------------------------- | ---------- | ------------------------ | -------------------------------- |
-| Checking watch, perfect posture        | Type 1     | Competence signals       | Being late or sloppy             |
-| Leaning in, warm smile                 | Type 2     | Emotional availability   | Cold professionalism             |
-| Firm handshake, name-dropping          | Type 3     | Respect for achievement  | Not knowing who they are         |
-| Unique accessory, distant gaze         | Type 4     | Depth recognition        | Generic small talk               |
-| Observing quietly, minimal eye contact | Type 5     | Intellectual space       | Forced emotional connection      |
-| Nervous energy, testing questions      | Type 6     | Trustworthiness proof    | Overconfidence without substance |
-| Animated gestures, multiple topics     | Type 7     | Energy matching          | Being a downer                   |
-| Taking up space, direct stare          | Type 8     | Strength respect         | Weakness or indirection          |
-| Agreeable nodding, soft voice          | Type 9     | Non-threatening presence | Aggressive energy                |
+| What you notice                                    | The scan that might be running           | What lands                    | What bombs                   |
+| -------------------------------------------------- | ---------------------------------------- | ----------------------------- | ---------------------------- |
+| Early, straight posture, straightens the menu      | Type 1: do you take this seriously?      | Preparation, owned mistakes   | Excuses                      |
+| Knows your name, asks the third follow-up question | Type 2: is there warmth behind the role? | Care received and returned    | Cold professionalism         |
+| Dressed one notch above the room                   | Type 3: are you worth the time slot?     | Pace, specific respect        | Indifference to their work   |
+| One unrepeatable style choice, slightly apart      | Type 4: can you handle depth?            | Noticing the specific thing   | Generic compliments          |
+| Corner seat, sightlines, three words a minute      | Type 5: what will this cost me?          | Ideas, patience, space        | Crowding, feelings on demand |
+| Small talk that quietly checks your seams          | Type 6: does your story hold together?   | Consistency, named downsides  | "Trust me"                   |
+| Three topics a minute, first to laugh              | Type 7: are you a door or a wall?        | Tempo matching, added options | Opening with a complaint     |
+| The conversation recalibrated when they entered    | Type 8: can you stand your ground?       | One clean disagreement        | Flattery and hedging         |
+| The room got calmer, agrees easily                 | Type 9: are you going to steamroll me?   | Patience, low stakes          | "Just pick something"        |
 
 </div>
 
-### The Universal Truth Nobody Talks About
+Nine sections below, one per type. Each covers what their attention is doing, what they're thinking while you talk, what you'll observe, and the moves that pass or fail the scan.
 
-**People don't want connection. They want THEIR version of connection.**
+<section id="type-1" class="section-content">
 
-And their Enneagram type determines exactly what that looks like.
+## Type 1: you're on trial before you sit down
 
-Ready to go deeper than first impressions? Learn [how to psychoanalyze people comprehensively](/how-to-guides/how-to-psychoanalyze-people) using the full 4-step framework that reveals what truly drives someone's behavior.
+They got there early. Not to relax: to audit. Is the table right, is the plan sound, was this shirt the correct call. By the time you arrive, the courtroom in their head has been in session for hours, and it tries everyone. Especially them.
 
-<section class="section-content">
+**The scan:** effort. A Type 1's attention snags on whatever is not quite right: the typo, the wobbly table, the plan with no backup. When they meet you, that attention turns toward one question: do you take this seriously? Whatever "this" is, the meeting, the friendship, the evening.
 
-## Type 1 - The Perfectionist: They're Grading You Already
+**What they're thinking:** _"Three minutes late, no acknowledgment. Noted."_ And in the same breath, the part most people miss: _"Am I coming across stiff? Relax your jaw."_ The trial runs in both directions.
 
-### The 10-Second Test You Don't Know You're Taking
+**What you'll see:** they arrived first. Their things sit squared to the table edge. When the order comes out wrong, the jaw tightens while the voice stays pleasant. Plenty of Type 1s read as easy-going on a first meeting; the grading happens entirely offstage.
 
-**Body language tells:**
+**Pass the scan:**
 
-- Scanning your appearance for effort
-- Checking time obsessively
-- Sitting with perfect posture
-- Micro-expressions of judgment
+- Be on time, or name the lateness before they do. Ownership disarms a 1 faster than perfection ever could.
+- Compliment something they built or refined, and be specific. Not "great job" but "you accounted for the thing everyone forgets."
+- Ask: "What's something you've improved lately that nobody noticed?" Then watch someone who has waited years for that question.
 
-They're not looking for perfection. They're looking for **evidence you give a damn.**
+**Fail it:** make an excuse. To a 1, the excuse is worse than the mistake, because the mistake was human and the excuse is a choice.
 
-### You Might Be Talking to a Type 1 If:
+**The misread:** you'll hear their small correction as criticism of you. It's their inner monologue escaping. They were ten times harder on themselves before breakfast than they will ever be on you.
 
-- They correct something small in passing
-- Their workspace is suspiciously organized
-- They use phrases like "the right way" or "properly"
-- They physically tense at inefficiency
-- They arrived 10 minutes early
-
-### The Hidden Psychology
-
-**What they're really thinking:** _"Can I respect this person's standards?"_
-
-Their inner critic runs 24/7. If you pass their initial quality check, they relax into actual human connection.
-
-### Your 60-Second Playbook
-
-**Opening move:** Arrive early. Firm handshake. One specific compliment about something they've clearly put effort into.
-
-**Power questions that hook Type 1s:**
-
-- "What's something you've improved recently that most people wouldn't notice?"
-- "How do you maintain such high standards without burning out?"
-- "What's your take on [topic]? You seem like someone who's thought this through."
-
-**Body language that works:**
-
-- Upright posture (mirror theirs)
-- Clean, deliberate gestures
-- Direct eye contact
-- No fidgeting
-
-**Instant trust builders:**
-✓ Reference a system or process you follow  
-✓ Admit a mistake and how you fixed it  
-✓ Show appreciation for quality  
-✓ Keep your word on tiny things
-
-**Connection killers:**
-✗ Being late without acknowledgment  
-✗ Sloppy appearance or speech  
-✗ Suggesting ethical shortcuts  
-✗ Making excuses
-
-> **Going deeper with Type 1s:** <a href="/enneagram-corner/enneagram-type-1">Understand their inner world →</a>
+[How Type 1s see everything →](/enneagram-corner/enneagram-type-1)
 
 </section>
 
-<section class="section-content">
+<section id="type-2" class="section-content">
 
-## Type 2 - The Helper: They're Reading Your Heart
+## Type 2: they've been reading you since hello
 
-### The Emotional Temperature Check
+Twenty minutes in, they know about your sister's move, your dog's surgery, and the project keeping you up at night. You know their name. Maybe.
 
-**Body language tells:**
+**The scan:** openness. A 2's attention runs through a one-way mirror: your needs in high definition, their own barely visible. They're checking whether there's a person behind your role, warmth behind your competence, and whether any of that warmth might ever point back at them.
 
-- Leaning in when others speak
-- Touching arm while talking
-- Remembering everyone's name
-- Offering help before asked
+**What they're thinking:** _"They keep rubbing their neck. Long day. Should I say something?"_ And underneath, quieter: _"Do they notice what I'm doing here? Would they still be interested if I stopped?"_
 
-They're not being nice. They're **scanning for emotional availability.**
+**What you'll see:** your name used twice in the first five minutes. The better seat offered before you realized there was a better seat. Follow-up questions to your follow-up answers. And when you turn the spotlight around, a short answer and a smooth pivot back to you.
 
-### You Might Be Talking to a Type 2 If:
+**Pass the scan:**
 
-- They ask about your comfort/needs immediately
-- They remember personal details from last time
-- They're connecting people to each other
-- They deflect compliments reflexively
-- They look physically pained when unable to help
+- Receive their care like a gift instead of an amenity. "You didn't have to do that. Thank you" registers deeper than you'd expect.
+- Hold the spotlight on them one beat past their deflection. They're not used to it. They crave it.
+- Ask: "You seem like the one who takes care of everyone. Who takes care of you?" It's forward for a first meeting. Use it when it's true, and watch them recalibrate everything about you.
 
-### The Hidden Psychology
+**Fail it:** all business. Cold professionalism reads to a 2 as a closed door, and competence without warmth is just a spreadsheet.
 
-**What they're really thinking:** _"Am I needed here? Do they see my value?"_
+**The misread:** the attention feels personal, like you specifically fascinate them. This is their default setting with everyone. The warmth is real. The test is whether you offer any back.
 
-They've been earning love through service since childhood. Show them they matter beyond their usefulness.
-
-### Your 60-Second Playbook
-
-**Opening move:** Warm smile. Use their name twice. Ask how THEY are (and mean it).
-
-**Power questions that hook Type 2s:**
-
-- "You seem like someone who takes care of everyone—who takes care of you?"
-- "What's the most meaningful way someone's helped you recently?"
-- "How did you develop such strong emotional intelligence?"
-
-**Body language that works:**
-
-- Open posture
-- Genuine facial expressions
-- Appropriate touch (handshake with both hands)
-- Leaning in when they speak
-
-**Instant trust builders:**
-✓ Accept their help graciously  
-✓ Share a vulnerability  
-✓ Notice their efforts specifically  
-✓ Offer to help them with something
-
-**Connection killers:**
-✗ All business, no warmth  
-✗ Rejecting their offers to help  
-✗ Not reciprocating personal sharing  
-✗ Treating them like staff
-
-> **Understanding Type 2s:** <a href="/enneagram-corner/enneagram-type-2">Why they give until it hurts →</a>
+[Why Type 2s give until it costs them →](/enneagram-corner/enneagram-type-2)
 
 </section>
 
-<section class="section-content">
+<section id="type-3" class="section-content">
 
-## Type 3 - The Achiever: They're Calculating Your Value
+## Type 3: the room got mapped before you shook hands
 
-### The Success Scanner
+By the time a Type 3 crosses a room, they've located the most important person in it, registered what this crowd values, and adjusted their register to match. Two minutes, sometimes less. It's no more cynical than a chameleon is lying about being green.
 
-**Body language tells:**
+**The scan:** trajectory. Threes read for signal: does this person do things, want things, go anywhere? They're deciding whether you're worth a slot on a calendar that has no empty ones.
 
-- Firm handshake with eye contact
-- Checking phone frequently
-- Dressed one level above occasion
-- Name-dropping naturally
+**What they're thinking:** _"Founder, interesting, knows Sarah, sharp."_ And on a quieter channel they rarely admit to: _"Is my story landing? Which version of me does this room want?"_
 
-They're not showing off. They're **establishing pecking order.**
+**What you'll see:** dressed one notch above the occasion. The accomplishment arrives inside an anecdote, never as a boast, always on schedule. They check the phone, apologize for it, and check it again. Your goals come up within the first ten minutes, and they actually listen to the answer.
 
-### You Might Be Talking to a Type 3 If:
+**Pass the scan:**
 
-- They lead with credentials
-- They ask what you do within 60 seconds
-- They're multitasking while talking
-- They light up at recognition
-- They have that "closing deals" energy
+- Bring pace. Land the point of your own stories.
+- Engage the ambition specifically. "What's the win you're chasing right now?" beats an hour of pleasantries.
+- Advanced move: signal that you see the person behind the highlight reel. "That sounds like it took more than talent. What did it cost?" A healthy 3 will exhale.
 
-### The Hidden Psychology
+**Fail it:** perform indifference. Some people neg high-achievers to stand out. With a 3, unimpressed on purpose doesn't read as refreshing. It reads as a verdict.
 
-**What they're really thinking:** _"Are they successful enough to be worth my time?"_
+**The misread:** the polish looks like arrogance. Watch what happens when a real question lands: the tempo drops, the eye contact changes. The performance is for the room. The scan is searching for the one person who doesn't need it.
 
-Love equals achievement in their world. Show them you're going places too.
-
-### Your 60-Second Playbook
-
-**Opening move:** Strong energy. Match their pace. Lead with a recent win.
-
-**Power questions that hook Type 3s:**
-
-- "What's the biggest win you're working toward right now?"
-- "How did you build such impressive momentum?"
-- "What's your secret to getting so much done?"
-
-**Body language that works:**
-
-- Power posture
-- Efficient gestures
-- Time awareness
-- High energy level
-
-**Instant trust builders:**
-✓ Recognize their achievements specifically  
-✓ Share your own ambitions  
-✓ Demonstrate competence quickly  
-✓ Respect their time
-
-**Connection killers:**
-✗ Wasting their time with rambling  
-✗ Not knowing who they are  
-✗ Low energy or ambition  
-✗ Questioning their success
-
-> **Type 3s unmasked:** <a href="/enneagram-corner/enneagram-type-3">Beyond the success facade →</a>
+[What Type 3s trade for the trophy →](/enneagram-corner/enneagram-type-3)
 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'on a first date 💘', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
-<section class="section-content">
+<section id="type-4" class="section-content">
 
-## Type 4 - The Individualist: They're Testing Your Depth
+## Type 4: the depth test starts immediately
 
-### The Authenticity Detector
+They're at the party and slightly outside it at the same time, positioned at the edge like someone watching the room through glass.
 
-**Body language tells:**
+**The scan:** substance. Fours notice what's missing: the thing nobody said, the feeling under the anecdote, the one person in the room who seems real. Meeting you, the question is whether you can do an actual conversation or whether this is weather talk all the way down.
 
-- Unique style choices
-- Intense eye contact or none
-- Dramatic hand gestures
-- Visible emotional shifts
+**What they're thinking:** _"That story they just told was rehearsed. The pause before it wasn't."_ And under that: _"Say something true. Please. Anyone."_
 
-They're not being difficult. They're **screening for depth.**
+**What you'll see:** one style choice nobody else in the room would attempt. Eye contact that's intense or absent, no middle setting. They'll answer your small-talk question politely and let the silence afterward invite you to do better. If you say something honest, watch them arrive: the whole posture changes.
 
-### You Might Be Talking to a Type 4 If:
+**Pass the scan:**
 
-- They cringe at small talk
-- They share something deeply personal quickly
-- They're wearing something nobody else would
-- They ask about feelings, not facts
-- They seem slightly removed from the group
+- Notice the specific thing. The actual book they're carrying, the actual reference buried in their joke. Specificity is the entry fee.
+- Retire the script early. "How do you know the host?" is a wall. "You look like you're having a complicated relationship with this party" is a door.
+- Ask: "What's something you noticed today that everyone else walked past?"
 
-### The Hidden Psychology
+**Fail it:** "You're so unique!" Generic praise for their uniqueness is the exact shape of not being seen. Forced positivity runs a close second: cheer applied to a 4 like paint over damp wood.
 
-**What they're really thinking:** _"Do they see how different I am? Can they handle my intensity?"_
+**The misread:** the distance looks like disdain. It's screening. They've run this test on every room they've ever entered, and they would love for you to pass.
 
-Ordinary feels like death to them. Show them you see their uniqueness.
-
-### Your 60-Second Playbook
-
-**Opening move:** Notice something unique about them. Skip the weather. Go deep fast.
-
-**Power questions that hook Type 4s:**
-
-- "What's something you see that most people miss?"
-- "When did you realize you were different?"
-- "What are you creating right now?"
-
-**Body language that works:**
-
-- Authentic expressions
-- Emotional availability
-- Artistic gestures
-- Intensity matching
-
-**Instant trust builders:**
-✓ Share something vulnerable  
-✓ Appreciate their uniqueness specifically  
-✓ Go beyond surface conversation  
-✓ Show your own depth
-
-**Connection killers:**
-✗ Generic compliments  
-✗ Forced positivity  
-✗ Comparing them to others  
-✗ Surface-level anything
-
-> **The Type 4 experience:** <a href="/enneagram-corner/enneagram-type-4">Living at emotional extremes →</a>
+[Inside the Type 4's inner weather →](/enneagram-corner/enneagram-type-4)
 
 </section>
 
-<section class="section-content">
+<section id="type-5" class="section-content">
 
-## Type 5 - The Investigator: They're Analyzing Your Intelligence
+## Type 5: the quiet one is watching everything
 
-### The Competence Calculator
+Find the person with the best sightlines and the fewest words, close enough to watch, positioned to leave. That detached expression is processing: for every three-second exchange you have with a 5, a thirty-second version runs internally.
 
-**Body language tells:**
+**The scan:** cost. Fives budget energy the way other people budget money, and a new person is an unpriced expense. The scan runs constantly: what does this person want from me, how long will it take, is the topic worth the coins.
 
-- Maintaining physical distance
-- Minimal eye contact
-- Economical gestures
-- Observing before engaging
+**What they're thinking:** _"Interesting claim. Half right. Is it worth explaining the other half?"_ If the answer comes up yes, you'll suddenly be talking to an entirely different person.
 
-They're not cold. They're **conserving energy for what matters.**
+**What you'll see:** the corner position. Monosyllables through the small talk, polite and uninvested. Then someone mentions the thing they know deeply, and a fluent, structured, twenty-minute answer arrives from the person you'd concluded was shy.
 
-### You Might Be Talking to a Type 5 If:
+**Pass the scan:**
 
-- They take long pauses before responding
-- They ask precise, specific questions
-- They're in the corner at social events
-- They light up at intellectual topics
-- They seem to be taking mental notes
+- Lead with an idea, an observation, a real question. Content is the handshake.
+- Let pauses sit. A 5's pause means computing, and filling it costs you.
+- Ask: "What rabbit hole are you down right now?" Then actually follow them in.
+- Keep physical distance. No arm touches. Space is the price of admission, and it's non-negotiable.
 
-### The Hidden Psychology
+**Fail it:** demand emotional disclosure in the first hour. "But how do you _feel_ about that?" from a stranger is an invoice they never agreed to.
 
-**What they're really thinking:** _"Are they intellectually interesting enough to warrant my energy?"_
+**The misread:** minimal words look like minimal interest. Watch the eyes instead. A 5 who's tracking you closely while saying nothing is engaged; the talking comes after you've proven the conversation is worth the energy.
 
-Knowledge is safety. Stupidity is danger. Show them your brain first.
-
-### Your 60-Second Playbook
-
-**Opening move:** Respect their space. Lead with ideas, not feelings. One fascinating fact.
-
-**Power questions that hook Type 5s:**
-
-- "What are you researching lately?"
-- "What's your take on [complex topic]?"
-- "Have you noticed [interesting observation]?"
-
-**Body language that works:**
-
-- Respectful distance
-- Minimal gestures
-- Calm energy
-- No touching
-
-**Instant trust builders:**
-✓ Share unique knowledge  
-✓ Respect their boundaries  
-✓ Ask for their expertise  
-✓ Give them processing time
-
-**Connection killers:**
-✗ Invading personal space  
-✗ Emotional overwhelm  
-✗ Demanding immediate responses  
-✗ Anti-intellectual attitudes
-
-> **Inside Type 5s:** <a href="/enneagram-corner/enneagram-type-5">The fortress of the mind →</a>
+[The Type 5 fortress, mapped →](/enneagram-corner/enneagram-type-5)
 
 </section>
 
-<section class="section-content">
+<section id="type-6" class="section-content">
 
-## Type 6 - The Loyalist: They're Testing Your Trustworthiness
+## Type 6: the interview you don't know you're in
 
-### The Safety Assessment
+Somewhere between "how's your week" and the second round, they've cross-referenced your story twice, watched you interact with the waiter, and noted whether your description of your job matches what you said twenty minutes ago. None of it is conscious. All of it counts.
 
-**Body language tells:**
+**The scan:** congruence. Sixes read the gap between what people say and what they do, mapping trust in real time. Their attention keeps asking: does this person's story hold together, and what do they actually want from me?
 
-- Nervous energy
-- Scanning environment
-- Testing questions
-- Loyalty displays
+**What they're thinking:** _"They said the project 'basically' worked. Basically?"_ Hope and suspicion run at the same time, both sincere: _"this could be great"_ sharing a lane with _"what am I missing?"_
 
-They're not paranoid. They're **pattern-matching for danger.**
+**What you'll see:** questions that sound like small talk and aren't. "So what happened with your last job?" is a probe. How you talk about absent people is another: trash a friend who isn't there and their maybe quietly becomes a no. The nervous energy fades the moment something proves solid.
 
-### You Might Be Talking to a Type 6 If:
+**Pass the scan:**
 
-- They ask lots of "what if" questions
-- They mention past betrayals
-- They're checking your consistency
-- They show strong group loyalty
-- They seem anxious but engaged
+- Answer directly. Evasion, even charming evasion, is data.
+- Name a downside before they find it. "Honestly, the timeline worries me too" buys more trust than any assurance, because a 6 trusts people who can see hazards.
+- Keep micro-promises. Said you'd send the link? Send it that night.
+- Ask: "What's your read on this place?" You're hiring their radar instead of dodging it.
 
-### The Hidden Psychology
+**Fail it:** "Trust me." "Don't worry about it." "You're overthinking this." Every unsolicited reassurance raises the alarm you were trying to lower.
 
-**What they're really thinking:** _"Can I trust them? What's their agenda?"_
+**The misread:** the questions feel like doubt about you personally. They run this quality check on everyone and everything. It's how a 6 says "I'm considering letting you matter."
 
-The world proved dangerous early. Show them you're safe through consistency.
-
-### Your 60-Second Playbook
-
-**Opening move:** Calm presence. Consistent behavior. No sudden moves.
-
-**Power questions that hook Type 6s:**
-
-- "What helps you know who to trust?"
-- "How do you stay grounded when things get uncertain?"
-- "Who's in your inner circle?"
-
-**Body language that works:**
-
-- Steady, predictable movements
-- Reassuring tone
-- Open, honest expressions
-- Consistent energy
-
-**Instant trust builders:**
-✓ Be transparent about intentions  
-✓ Show loyalty to others  
-✓ Keep small promises  
-✓ Acknowledge their concerns
-
-**Connection killers:**
-✗ Inconsistent stories  
-✗ Dismissing their worries  
-✗ Overconfidence without substance  
-✗ Pressuring for quick trust
-
-> **Type 6 anxiety patterns:** <a href="/enneagram-corner/enneagram-type-6">From fear to security →</a>
+[How Type 6s decide who's safe →](/enneagram-corner/enneagram-type-6)
 
 </section>
 
-<section class="section-content">
+<section id="type-7" class="section-content">
 
-## Type 7 - The Enthusiast: They're Measuring Your Fun Factor
+## Type 7: keep up or wave goodbye
 
-### The Energy Evaluator
+You'll hear them before you're introduced. Three topics a minute, a plan forming mid-sentence, the first and loudest laugh. Where other people see a wall, a 7 sees seventeen doors, and they'd like to show you all of them tonight.
 
-**Body language tells:**
+**The scan:** momentum. Sevens read instantly for whether you add energy or subtract it. Door or wall: around you, does more become possible, or less?
 
-- Animated everything
-- Multiple conversation threads
-- Restless movement
-- Infectious laughter
+**What they're thinking:** _"Yes, and we could also... wait, they haven't finished the story. Land the plane. Land the plane."_ The wandering attention is genuinely listening. For the interesting part.
 
-They're not scattered. They're **optimizing for maximum life experience.**
+**What you'll see:** three options already sketched for later tonight, with a fourth invented on the spot if yours is better. Restless hands, quick pivots, stories that interlock like browser tabs they never closed. When the conversation turns heavy, the joke arrives within seconds, smooth as a lane change.
 
-### You Might Be Talking to a Type 7 If:
+**Pass the scan:**
 
-- They're planning five things simultaneously
-- They pivot topics rapidly
-- They're the loudest laugher
-- They suggest spontaneous adventures
-- They physically can't sit still
+- Match the tempo. You don't have to be loud. You have to be quick.
+- Add instead of subtracting: "yes, and" beats "yes, but" beats "no," each by a mile.
+- Ask: "If you had to leave on a trip in two hours, where are you going?" Then enjoy the itinerary.
+- Advanced move: be fun and unhurried at the same time. Sevens notice calm people who aren't boring. They're collecting evidence that those exist.
 
-### The Hidden Psychology
+**Fail it:** open with a complaint. Weather, traffic, your aching feet. You've filed yourself under "drain" before the drinks arrive.
 
-**What they're really thinking:** _"Will they add to my life or drain it?"_
+**The misread:** the topic-hopping looks like not listening. They heard everything. They're checking which thread leads somewhere alive.
 
-Boredom equals death. Pain equals danger. Be their dopamine hit.
-
-### Your 60-Second Playbook
-
-**Opening move:** Match their energy. Share something exciting. Suggest possibilities.
-
-**Power questions that hook Type 7s:**
-
-- "What's the most exciting thing in your life right now?"
-- "What adventure is next on your list?"
-- "Have you tried [exciting experience]?"
-
-**Body language that works:**
-
-- High energy
-- Expressive gestures
-- Genuine smiles
-- Movement and animation
-
-**Instant trust builders:**
-✓ Match their enthusiasm  
-✓ Share exciting ideas  
-✓ Be spontaneous  
-✓ Keep things light initially
-
-**Connection killers:**
-✗ Being a downer  
-✗ Limiting their options  
-✗ Getting too heavy too fast  
-✗ Killing their ideas
-
-> **The Type 7 paradox:** <a href="/enneagram-corner/enneagram-type-7">Running from pain into it →</a>
+[What Type 7s are outrunning →](/enneagram-corner/enneagram-type-7)
 
 </section>
 
-<section class="section-content">
+<section id="type-8" class="section-content">
 
-## Type 8 - The Challenger: They're Testing Your Strength
+## Type 8: the handshake is a question
 
-### The Power Assessment
+The conversation recalibrates when they walk in; people straighten without being asked. Within thirty seconds they've sorted the room: who has actual power, who's posturing, who folds under pressure. You're in that sort somewhere.
 
-**Body language tells:**
+**The scan:** spine. Eights test on contact, and the test is honest: push a little, watch what comes back. A challenge in the first five minutes is an invitation, and how you take it decides everything after.
 
-- Taking up space
-- Direct, unblinking stare
-- Firm everything
-- Protective positioning
+**What they're thinking:** _"Say what you actually mean and we'll get along fine."_ They're reading you for straightness the way a builder reads a wall: load-bearing or decorative?
 
-They're not intimidating you. They're **checking if you can handle them.**
+**What you'll see:** space taken without apology. Direct, unblinking eye contact. An opinion stated early and in absolutes, partly to see what you do with it. And if someone smaller is getting picked on nearby, watch how fast they move.
 
-### You Might Be Talking to a Type 8 If:
+**Pass the scan:**
 
-- They test you with confrontation
-- They respect pushback
-- They protect the underdog
-- They speak in absolutes
-- They radiate "don't fuck with me" energy
+- Hold your ground once, cleanly, without heat. "I see it differently, and here's why" is the password.
+- Be direct about what you want, including from them. Games read as weakness with extra steps.
+- Ask: "What's something everyone here is thinking but nobody's saying?" You've just told them the truth-tellers can sit at your table.
+- After you've shown spine, show something true. Strength first, then realness. That order matters.
 
-### The Hidden Psychology
+**Fail it:** flattery, hedging, agreeing with everything. To an 8, unbroken agreement means you're either not thinking or not being straight, and both are worse than being wrong.
 
-**What they're really thinking:** _"Are they strong enough to be trusted?"_
+**The misread:** the intensity reads as domination. Listen closer: most of it is a request for clarity. The people 8s keep for decades are the ones who met them head-on early.
 
-Weakness invites predators. Show them your spine.
-
-### Your 60-Second Playbook
-
-**Opening move:** Strong handshake. Direct eye contact. Stand your ground.
-
-**Power questions that hook Type 8s:**
-
-- "What battle are you fighting right now?"
-- "Who do you respect and why?"
-- "What injustice pisses you off most?"
-
-**Body language that works:**
-
-- Power posture
-- Direct gaze
-- Firm gestures
-- No shrinking
-
-**Instant trust builders:**
-✓ Stand up to them respectfully  
-✓ Show protective instincts  
-✓ Be direct, no games  
-✓ Demonstrate competence
-
-**Connection killers:**
-✗ Weakness or waffling  
-✗ Manipulation attempts  
-✗ Excessive emotion  
-✗ Going behind their back
-
-> **Type 8 vulnerability:** <a href="/enneagram-corner/enneagram-type-8">The soft heart under armor →</a>
+[The soft center under Type 8 armor →](/enneagram-corner/enneagram-type-8)
 
 </section>
 
-<section class="section-content">
+<section id="type-9" class="section-content">
 
-## Type 9 - The Peacemaker: They're Ensuring Harmony
+## Type 9: the easiest first impression you'll ever misread
 
-### The Comfort Checker
+The room relaxed when they joined and nobody could say why. Ten minutes with a 9 and you feel interesting, agreed with, at ease. The comfort is real. It also tells you almost nothing about them yet, and that's the part everyone gets wrong.
 
-**Body language tells:**
+**The scan:** pressure. Nines read for whether you're going to steamroll them: rush their answers, override their pace, fill every pause. Their own preference sits in their chest, half-formed, and your job is to not knock it over reaching past them.
 
-- Soft, agreeable presence
-- Mirroring your energy
-- Avoiding confrontation
-- Inclusive gestures
+**What they're thinking:** _"They want the loud bar. I'd rather the quiet one. It's fine. Is it fine? It's fine."_
 
-They're not passive. They're **managing everyone's comfort.**
+**What you'll see:** your energy mirrored back with a small smile. "Whatever works for you" as a default setting. Real skill at drawing you out, paired with gentle deflection of the same questions. Then, if you wait long enough, a preference floated quietly, once, like a test balloon.
 
-### You Might Be Talking to a Type 9 If:
+**Pass the scan:**
 
-- They agree with everything
-- They deflect from themselves
-- They mediate conflicts naturally
-- They seem to disappear in groups
-- They have that "human Xanax" energy
+- Slow down. Leave gaps in the conversation and resist filling them.
+- When the test balloon comes ("maybe the other place?"), catch it. Repeat it back. Act on it. Being taken up on a preference is intimacy for a 9.
+- Ask: "Zero stakes: if it were entirely up to you, what would you pick?" Then wait. The pause is where the answer lives.
 
-### The Hidden Psychology
+**Fail it:** "Just pick something." Impatience with their pace teaches them, in one move, to hand you the agreeable surface forever.
 
-**What they're really thinking:** _"How do I keep everyone comfortable?"_
+**The misread:** agreeable looks like empty. Nines hold more perspectives at once than anyone else in the room. The opinion exists. It needs a room quiet enough to come out.
 
-Conflict means disconnection. Help them feel safe to exist.
-
-### Your 60-Second Playbook
-
-**Opening move:** Gentle energy. No pressure. Create space for them to emerge.
-
-**Power questions that hook Type 9s:**
-
-- "What's your take when you have time to think?"
-- "What do YOU actually want?"
-- "When do you feel most yourself?"
-
-**Body language that works:**
-
-- Relaxed posture
-- Gentle movements
-- Patient presence
-- No aggressive energy
-
-**Instant trust builders:**
-✓ Give them time to respond  
-✓ Ask their opinion specifically  
-✓ Create comfortable silence  
-✓ Appreciate their calming presence
-
-**Connection killers:**
-✗ Forcing quick decisions  
-✗ Creating conflict  
-✗ Ignoring their presence  
-✗ Aggressive energy
-
-> **Finding Type 9s:** <a href="/enneagram-corner/enneagram-type-9">The invisible peacekeeper →</a>
+[Why Type 9s disappear in plain sight →](/enneagram-corner/enneagram-type-9)
 
 </section>
 
-## Your First Impression Cheat Sheet
+## Same move, three motives
 
-### The 10-Second Read
+Here's why the generic advice fails: identical behavior, different sources.
 
-**Look for these instant tells:**
+- **Arrived fifteen minutes early:** a 1 checking that everything is right, a 6 scouting the room, a 3 making the entrance count.
+- **Asking you lots of questions:** a 2 building connection, a 5 collecting data, a 6 verifying your story.
+- **Quiet in the corner:** a 5 conserving energy, a 9 merging with the room, a 4 waiting for a conversation worth having.
+- **The big laugh at your joke:** a 7 having genuine fun, a 3 building rapport, a 2 making sure you feel funny.
 
-1. **Energy level** - High (3,7,8) vs Low (4,5,9) vs Controlled (1,2,6)
-2. **Eye contact** - Intense (4,8) vs Minimal (5,9) vs Searching (1,2,3,6,7)
-3. **Physical space** - Invading (2,8) vs Protecting (5,6) vs Neutral (1,3,4,7,9)
-4. **Speaking style** - Rapid (3,7) vs Measured (1,5) vs Responsive (2,6,9) vs Intense (4,8)
+One behavior, read blind, tells you almost nothing. The cluster is what talks: the early 1 straightens things while they wait, the early 6 sits facing the door, the early 3 is on the phone making the extra minutes produce something.
 
-### The Universal First Impression Hack
+That's the actual skill. Notice which pattern the details cluster around, float a question, and adjust when you're wrong.
 
-**When in doubt:**
+## The fallback that works on all nine
 
-1. Mirror their energy level
-2. Respect their space preferences
-3. Match their emotional temperature
-4. Ask about what lights them up
+Can't get a read? Four moves no type penalizes:
 
-## The Science Behind Instant Connection
+1. Mirror their energy level before you try to change it.
+2. Respect the space they set, physical and emotional.
+3. Match their emotional temperature before adjusting it.
+4. Ask what they're excited about lately, then follow the answer.
 
-**MIT research shows:** We make 11 major decisions about someone in the first 7 seconds.
+## Where to take this
 
-**What the Enneagram reveals:** Those decisions are filtered through our type's core fear and desire.
+Keep [the first-impression cheat sheet](/enneagram-corner/first-impression-cheat-sheet) for your pocket: one block per type, the tell, the move, the question, the killer.
 
-- Type 1s scan for: Competence
-- Type 2s scan for: Warmth
-- Type 3s scan for: Success
-- Type 4s scan for: Depth
-- Type 5s scan for: Intelligence
-- Type 6s scan for: Safety
-- Type 7s scan for: Fun
-- Type 8s scan for: Strength
-- Type 9s scan for: Peace
+If the first impression you're preparing for is a date, the stakes bend everything. Here's [what each type is thinking, feeling, and watching for on a first date](/enneagram-corner/enneagram-types-on-a-first-date).
 
-**Give them what they're scanning for, and the door opens.**
-
-## Your Action Plan
-
-1. **This week:** Identify three people's types using the tells above
-2. **Test it:** Use their type's playbook in your next interaction
-3. **Notice:** How the conversation shifts when you speak their language
-4. **Advanced move:** Share this with someone and guess each other's types
-
-The person across from you isn't mysterious.
-
-They're predictable—once you know their type.
-
-Stop using generic approaches. Start speaking their emotional language.
-
-**First impressions aren't about being liked. They're about being understood.**
-
-> **Master all 9 types:** <a href="/enneagram-corner/enneagram-types-at-party">See how each type works a room →</a>
+And when you meet someone who scrambles every read you try: enjoy it. The map just met the territory. [Ask about the situation on 9takes](/questions), where you give your own take before you see anyone else's, and watch the same behavior read nine different ways.
 
 <svelte:head>
 
@@ -701,26 +344,26 @@ Stop using generic approaches. Start speaking their emotional language.
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How can you tell someone's Enneagram type in 30 seconds?",
+          "name": "Can you tell someone's Enneagram type from a first impression?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Look for key body language tells: Type 1s check time and maintain perfect posture, Type 2s lean in with warm smiles, Type 3s lead with firm handshakes and credentials, Type 4s display unique style choices, Type 5s maintain distance with minimal eye contact, Type 6s show nervous energy with testing questions, Type 7s use animated gestures, Type 8s take up space with direct stares, and Type 9s mirror others with soft presence."
+            "text": "Not reliably. A single behavior can come from several types: arriving early might be a Type 1 checking standards, a Type 6 scouting the room, or a Type 3 managing the entrance. What you can read is what someone's attention is doing, meaning what they check, what they ask, and where they position themselves. Treat the signals as a hypothesis, test it with a question, and adjust if you guessed wrong."
           }
         },
         {
           "@type": "Question",
-          "name": "What's the fastest way to connect with each Enneagram type?",
+          "name": "What is each Enneagram type scanning for when they meet someone new?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Give each type what they're scanning for: Type 1s need competence signals, Type 2s need emotional warmth, Type 3s need respect for achievement, Type 4s need depth recognition, Type 5s need intellectual space, Type 6s need trustworthiness proof, Type 7s need energy matching, Type 8s need strength respect, and Type 9s need non-threatening presence."
+            "text": "Type 1 scans for effort and seriousness, Type 2 for warmth and openness, Type 3 for ambition and respect for their time, Type 4 for depth and specificity, Type 5 for substance and respect for space, Type 6 for consistency and honesty about risk, Type 7 for energy and possibility, Type 8 for directness and spine, and Type 9 for patience and the absence of pressure."
           }
         },
         {
           "@type": "Question",
-          "name": "What kills connection with each Enneagram type?",
+          "name": "What ruins a first impression with each Enneagram type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Each type has specific connection killers: Being late or sloppy (Type 1), cold professionalism (Type 2), not knowing who they are (Type 3), generic small talk (Type 4), forced emotional connection (Type 5), overconfidence without substance (Type 6), being negative (Type 7), showing weakness (Type 8), and aggressive energy (Type 9)."
+            "text": "Excuses ruin it with Type 1, cold professionalism with Type 2, indifference or wasted time with Type 3, generic compliments with Type 4, crowding and demanded feelings with Type 5, unsolicited reassurance like 'trust me' with Type 6, opening with complaints with Type 7, flattery and hedging with Type 8, and rushed decisions with Type 9."
           }
         }
       ]
@@ -730,7 +373,3 @@ Stop using generic approaches. Start speaking their emotional language.
 </script>
 
 </svelte:head>
-
-<style lang="scss">
-
-</style>

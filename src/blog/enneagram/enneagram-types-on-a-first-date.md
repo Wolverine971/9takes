@@ -4,7 +4,7 @@ description: 'Discover what each Enneagram type thinks, feels, and values on a f
 author: 'DJ Wayne'
 date: '2025-02-25'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date'
-lastmod: '2026-02-02'
+lastmod: '2026-07-18'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.9) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.7); practical utility (8.5).
-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
-Tags: none
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
@@ -36,7 +28,7 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="How does each Enneagram type act on a first date?">
-Type 1s plan meticulously and arrive early. Type 2s focus entirely on you and your comfort. Type 3s impress with accomplishments. Type 4s seek deep emotional connection. Type 5s observe carefully before opening up. Type 6s evaluate your trustworthiness. Type 7s keep things light and fun. Type 8s test your authenticity. Type 9s adapt to your energy. Understanding your date's type helps you know what they're really looking for—and avoid their red flags.
+Type 1s plan meticulously and arrive early. Type 2s focus entirely on you and your comfort. Type 3s impress with accomplishments. Type 4s seek deep emotional connection. Type 5s observe carefully before opening up. Type 6s evaluate your trustworthiness. Type 7s keep things light and fun. Type 8s test your authenticity. Type 9s adapt to your energy. Understanding your date's type helps you know what they're really looking for, and how to avoid their red flags.
 </QuickAnswer>
 
 **Read time**: 15 minutes | **Key insight**: What they're looking for reveals their core fear
@@ -58,6 +50,8 @@ She was a Type 2, doing what Type 2s do: giving without asking for anything back
 **That's what this guide is for.** Below: what's actually happening beneath the surface for each type, how to spot them, and what to expect as things progress.
 
 (Still stuck swiping? [Dating apps are harder for certain personality types](/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types). It's not you.)
+
+This guide pairs with the [first-impression playbook](/enneagram-corner/first-impression-enneagram-playbook), which covers the same nine reads in any room, dates or not. Keep the [pocket cheat sheet](/enneagram-corner/first-impression-cheat-sheet) handy for the walk in.
 
 Here's what each Enneagram type is _really_ thinking, feeling, and looking for on a first date.
 
@@ -109,7 +103,7 @@ Beneath the composed exterior: a tug-of-war. Genuine excitement about connection
     Show up on time. Dress well. Engage on values. And acknowledge their planning efforts rather than calling them "uptight."
 </DateTip>
 
-**As things progress:** By date three, you'll see their standards applied to you. Not critically, but hopefully. They're imagining whether you fit into their vision of a "right" relationship.
+**As things progress:** By date three, you'll see their standards applied to you. They're imagining whether you fit into their vision of a "right" relationship.
 
 The good news: if they keep showing up, they've already decided you're worth their high standards.
 
@@ -144,7 +138,7 @@ They're genuinely excited about forming a connection, but there's an undercurren
     <div class="green-flags">
         <h4>Green Flags</h4>
         <ul>
-            <li>Reciprocated questions—asking about *them*</li>
+            <li>Reciprocated questions: asking about *them*</li>
             <li>Noticing their effort ("That was thoughtful of you")</li>
             <li>Talking about people you care about</li>
             <li>Warmth in how you treat the server</li>
@@ -162,7 +156,7 @@ They're genuinely excited about forming a connection, but there's an undercurren
 </div>
 
 <DateTip>
-    Turn the spotlight back on them. They're not used to it, but they crave it. Ask about their day, their feelings, their passions. Notice when they deflect.
+    Turn the spotlight back on them. They'll deflect at first; hold it there anyway. Ask about their day, their feelings, their passions. Notice when they deflect.
 </DateTip>
 
 **As things progress:** By date three, a healthy Type 2 starts revealing their own needs. Tentatively. If they don't, gently draw them out. An unhealthy Type 2 keeps giving while silently keeping score.
@@ -179,8 +173,8 @@ They're genuinely excited about forming a connection, but there's an undercurren
 
 <div class="type-intro">
     <div class="type-quotes">
-        <blockquote>"I just closed a major deal at work, but enough about me—what are your goals?"</blockquote>
-        <blockquote>"I've been to this restaurant before—the chef trained in Paris and they've won three local awards."</blockquote>
+        <blockquote>"I just closed a major deal at work, but enough about me. What are your goals?"</blockquote>
+        <blockquote>"I've been to this restaurant before. The chef trained in Paris and they've won three local awards."</blockquote>
     </div>
 </div>
 
@@ -237,12 +231,12 @@ The question they're asking themselves: "Will they still want me if I'm not impr
 
 <div class="type-intro">
     <div class="type-quotes">
-        <blockquote>"I discovered this hidden gem of a café—it reminds me of a place I visited during a particularly introspective time in my life."</blockquote>
+        <blockquote>"I discovered this hidden gem of a café. It reminds me of a place I visited during a particularly introspective time in my life."</blockquote>
         <blockquote>"What's the most meaningful experience that shaped who you are today?"</blockquote>
     </div>
 </div>
 
-**Spot a Type 4:** They chose somewhere with atmosphere. Not the popular spot, but the one with "character." Within twenty minutes, they've steered conversation toward meaning, emotions, or formative experiences.
+**Spot a Type 4:** They chose somewhere with atmosphere, the tucked-away spot with "character." Within twenty minutes, they've steered conversation toward meaning, emotions, or formative experiences.
 
 They might mention something melancholic without prompting. Their style is distinctive rather than trendy.
 
@@ -281,7 +275,7 @@ First dates hit them with intensity. Hope for deep connection. Vulnerability. An
     Go deeper than the usual first-date script. Ask about formative experiences, what moves them, what they create. They're looking for someone unafraid of emotional depth, and who has their own inner world to share.
 </DateTip>
 
-**As things progress:** By date three, expect the emotional intensity to increase. They're testing whether you can handle their full self—including the shadow parts. If you can sit with their complexity without trying to fix or simplify them, you've passed.
+**As things progress:** By date three, expect the emotional intensity to increase. They're testing whether you can handle their full self, including the shadow parts. If you can sit with their complexity without trying to fix or simplify them, you've passed.
 
 **Chemistry watch:** Type 4s find intellectual depth with Type 5s (stability meets creativity) and grounding structure with Type 1s (discipline balances their fluidity).
 
@@ -318,7 +312,7 @@ Beneath the calm exterior: a limited energy budget. Genuinely curious about you,
         <ul>
             <li>Intellectual curiosity and depth</li>
             <li>Comfort with silence (not filling every gap)</li>
-            <li>Independence—you have your own life</li>
+            <li>Independence: you have your own life</li>
             <li>Respecting their pace of opening up</li>
         </ul>
     </div>
@@ -389,7 +383,7 @@ Type 6s test without realizing they're testing. Watch for:
 
 - **Consistency checks:** They'll mention something you said earlier to see if your story holds
 - **Worst-case questions:** "What would you do if..." scenarios that reveal your character
-- **Loyalty probes:** How you talk about exes, friends, family—do you stay loyal or trash people?
+- **Loyalty probes:** How you talk about exes, friends, family. Do you stay loyal or trash people?
 - **Small promises:** They'll notice if you do what you said you'd do, even tiny things
 
 ### Green Flags They're Looking For
@@ -407,7 +401,7 @@ Type 6s test without realizing they're testing. Watch for:
     <div class="red-flags">
         <h4>Red Flags</h4>
         <ul>
-            <li>"I'm a free spirit—I don't make plans"</li>
+            <li>"I'm a free spirit, I don't make plans"</li>
             <li>Stories that don't add up</li>
             <li>"You're being paranoid" or similar dismissals</li>
             <li>Vagueness about your life, job, or past</li>
@@ -457,7 +451,7 @@ They're looking for someone who can match their energy. But underneath the exhil
         <h4>Green Flags</h4>
         <ul>
             <li>Matching their enthusiasm naturally</li>
-            <li>Flexibility—willing to change plans mid-date</li>
+            <li>Flexibility: willing to change plans mid-date</li>
             <li>Your own sense of adventure</li>
             <li>Playfulness without cynicism</li>
         </ul>
@@ -477,7 +471,7 @@ They're looking for someone who can match their energy. But underneath the exhil
     Embrace their enthusiasm authentically. Don't fake it. Say yes to spontaneous ideas when you can. But here's the secret: they're also drawn to people who can help them slow down. Be present. They might not know they need it.
 </DateTip>
 
-**As things progress:** By date three, notice whether they can sit still. Literally and conversationally. A healthy Seven starts showing depth, not just breadth. An unhealthy Seven keeps the energy manic, avoiding any topic that might bring things down.
+**As things progress:** By date three, notice whether they can sit still. Literally and conversationally. A healthy Seven starts adding depth to all that breadth. An unhealthy Seven keeps the energy manic, avoiding any topic that might bring things down.
 
 **Chemistry watch:** Type 7s find grounding with Type 5s (depth teaches them to focus) and surprising stability with Type 1s (structure balances their chaos).
 
@@ -517,7 +511,7 @@ Eagerness mixed with impatience. They enjoy spirited debate but have zero tolera
         <ul>
             <li>Standing your ground when challenged</li>
             <li>Directness without games</li>
-            <li>Passion for something—anything</li>
+            <li>Passion for something. Anything</li>
             <li>Handling their intensity without flinching</li>
         </ul>
     </div>
@@ -533,7 +527,7 @@ Eagerness mixed with impatience. They enjoy spirited debate but have zero tolera
 </div>
 
 <DateTip>
-    Be real. Don't shrink. They'll push to see what you're made of. It's not aggression, it's curiosity. Stand firm on what matters to you. And here's the paradox: once you've shown strength, show vulnerability. That's what earns their respect.
+    Be real. Don't shrink. They'll push to see what you're made of. The push is curiosity with muscle behind it. Stand firm on what matters to you. And here's the paradox: once you've shown strength, show vulnerability. That's what earns their respect.
 </DateTip>
 
 **As things progress:** By date three, you'll see softer sides if they trust you. Type 8s protect their vulnerability fiercely.
@@ -564,7 +558,7 @@ If they share something personal, something that makes them look weak, that's in
 
 <div class="type-intro">
     <div class="type-quotes">
-        <blockquote>"Whatever you'd like to do is fine with me—I'm happy just spending time together."</blockquote>
+        <blockquote>"Whatever you'd like to do is fine with me. I'm happy just spending time together."</blockquote>
         <blockquote>"I found this place has something for everyone on the menu, so I thought it would be perfect."</blockquote>
     </div>
 </div>
@@ -628,11 +622,11 @@ An unhealthy Nine keeps agreeing with everything, building a quiet resentment th
 
 What matters more than type matching: **health levels.**
 
-Research on 457 couples found no single pairing accounts for more than 20% of successful relationships. That means 80% of happy couples are "incompatible" on paper.
+Ask couples who've lasted decades what types they are and you'll find every combination on the board. No pairing is disqualifying, and no pairing is a guarantee.
 
-Two healthy "incompatible" types will always outperform two unhealthy "perfect matches."
+Two healthy "incompatible" types will outperform two struggling "perfect matches" every time.
 
-Here's the uncomfortable truth: **the chemistry you feel on a first date often signals you're trying to heal a childhood wound.** That's not compatibility. It's recognition.
+Here's the uncomfortable part: **instant chemistry is often familiarity wearing a costume.** The spark you feel across the table can be your pattern locking onto its counterpart, the giver finding someone who needs, the tester finding someone certain. Recognition feels like fate. It isn't the same thing as compatibility.
 
 Real compatibility emerges from:
 

@@ -1,144 +1,210 @@
 <!-- src/lib/components/molecules/AIComments.svelte -->
+<!--
+  The reveal moment. After a user posts their answer, this renders all nine
+  Enneagram takes at once as the homepage-style color-coded grid
+  (.chorus-perspectives on src/routes/+page.svelte) — not a one-at-a-time
+  carousel. Each card is honestly labeled "AI-seeded", matching the
+  homepage's attribution vocabulary.
+-->
 <script lang="ts">
-	import { browser } from '$app/environment';
-	import { onMount } from 'svelte';
-	import { fade } from 'svelte/transition';
-	import LeftIcon from '$lib/components/icons/leftIcon.svelte';
-	import RightIcon from '$lib/components/icons/rightIcon.svelte';
-	import type { QuestionPageData } from '$lib/types/questions';
+	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
+	import type { AIComment, QuestionPageData } from '$lib/types/questions';
 
-	export let parentType: 'question' | 'comment' = 'comment';
-	export let data: QuestionPageData;
-	export let showAiComments = true;
-
-	// State variables
-	let active = 0;
-	let direction: 'left' | 'right' = 'right';
-	let transitioning = false;
-	let carouselRef: HTMLElement;
-
-	// Navigation functions
-	function moveLeft() {
-		if (transitioning || !data?.aiComments?.length) return;
-		direction = 'left';
-		transitioning = true;
-		active = active === 0 ? data.aiComments.length - 1 : active - 1;
-		setTimeout(() => (transitioning = false), 300);
+	interface Props {
+		parentType?: 'question' | 'comment';
+		data: QuestionPageData;
+		showAiComments?: boolean;
 	}
 
-	function moveRight() {
-		if (transitioning || !data?.aiComments?.length) return;
-		direction = 'right';
-		transitioning = true;
-		active = (active + 1) % data.aiComments.length;
-		setTimeout(() => (transitioning = false), 300);
+	let { parentType = 'comment', data, showAiComments = true }: Props = $props();
+
+	// Each row carries a real Enneagram type number (enneagram_type, with the
+	// legacy `enneagram` column as fallback), so labels and colors derive from
+	// the data itself. Sorted 1 → 9 for the full nine-pattern sweep.
+	function typeNumberOf(take: AIComment): number {
+		const candidate = Number(take.enneagram_type ?? take.enneagram);
+		return Number.isFinite(candidate) && candidate >= 1 && candidate <= 9 ? candidate : 0;
 	}
 
-	onMount(() => {
-		// Auto-rotation could be initialized here if desired
-	});
+	let takes = $derived(
+		[...(data?.aiComments ?? [])]
+			.map((take) => ({ ...take, typeNumber: typeNumberOf(take) }))
+			.sort((a, b) => a.typeNumber - b.typeNumber)
+	);
+
+	function typeColor(typeNumber: number): string {
+		return TYPE_COLOR_MAP[typeNumber] ?? 'var(--lamp-glow)';
+	}
+
+	function takeLabel(typeNumber: number): string {
+		return typeNumber ? formatTypeLabel(typeNumber) : 'Enneagram pattern';
+	}
 </script>
 
-{#if browser && data?.aiComments?.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
-	<section class="mb-4 p-1" aria-label="Enneagram personality type perspectives">
-		<h3 class="m-2 text-center text-sm font-medium text-[var(--ink-mid)]">
-			Enneagram Takes (stereotypes)
-		</h3>
+{#if takes.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
+	<section class="nine-takes" aria-label="The nine takes">
+		<header class="nine-takes__head">
+			<h3 class="nine-takes__title">The nine takes</h3>
+			<p class="nine-takes__sub">Nine patterns, nine reads on the same question.</p>
+		</header>
 
-		<div
-			bind:this={carouselRef}
-			class="focus:ring-[var(--lamp-glow)]/50 relative flex items-center justify-center overflow-hidden rounded-md border border-[var(--stone-warm)] bg-[var(--stone-warm)] focus:outline-none focus:ring-2"
-			role="region"
-			aria-live="polite"
-			aria-roledescription="carousel"
-			aria-label="Enneagram personality type perspectives carousel"
-		>
-			<button
-				class="z-10 ml-1 flex h-11 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--stone-warm)] text-[var(--lamp-glow)] transition-all duration-200 hover:bg-[var(--lamp-soft)] hover:text-[var(--lamp-glow)]"
-				on:click={moveLeft}
-				aria-label="Previous perspective"
-				title="Previous perspective"
-			>
-				<LeftIcon />
-			</button>
-
-			<div class="flex-1 overflow-hidden">
-				<div
-					class="flex transition-transform duration-300 ease-out"
-					style="transform: translateX(-{active * 100}%)"
-				>
-					{#each data.aiComments as comment, index}
-						<div
-							class="box-border w-full flex-none px-2 py-2 transition-opacity duration-300 {index ===
-							active
-								? 'opacity-100'
-								: 'opacity-30'}"
-							role="tabpanel"
-							id={`enneagram-type-${comment.enneagram_type}`}
-							aria-labelledby={`enneagram-type-${comment.enneagram_type}-tab`}
-							tabindex={index === active ? 0 : -1}
-						>
-							<div class="flex items-center gap-3" in:fade={{ duration: 200, delay: 50 }}>
-								<span
-									class="ai-type-badge shrink-0 rounded-md px-2 py-1 text-xs font-semibold"
-									style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
-								>
-									Type {comment.enneagram_type}
-								</span>
-								<p class="m-0 line-clamp-2 text-sm italic text-[var(--ink-mid)]">
-									{comment.comment}
-								</p>
-							</div>
-						</div>
-					{/each}
-				</div>
-			</div>
-
-			<button
-				class="z-10 mr-1 flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-full border-none bg-[var(--stone-warm)] text-[var(--lamp-glow)] transition-all duration-200 hover:bg-[var(--lamp-soft)] hover:text-[var(--lamp-glow)]"
-				on:click={moveRight}
-				aria-label="Next perspective"
-				title="Next perspective"
-			>
-				<RightIcon />
-			</button>
-		</div>
-
-		<div class="mt-1.5 flex justify-center gap-1.5" role="tablist">
-			{#each data.aiComments as comment, index}
-				<button
-					class="h-1.5 w-1.5 cursor-pointer rounded-full border-none p-0 transition-all duration-200 {active ===
-					index
-						? 'bg-[var(--comment-type-color)]'
-						: 'bg-[var(--stone-mid)] hover:bg-[var(--ink-dim)]'}"
-					style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
-					on:click={() => {
-						direction = index > active ? 'right' : 'left';
-						active = index;
-					}}
-					role="tab"
-					id={`enneagram-type-${comment.enneagram_type}-tab`}
-					aria-controls={`enneagram-type-${comment.enneagram_type}`}
-					aria-selected={active === index}
-					tabindex={active === index ? 0 : -1}
-				>
-					<span class="sr-only">Type {comment.enneagram_type}</span>
-				</button>
+		<div class="chorus-perspectives">
+			{#each takes as take (take.id)}
+				<article class="perspective" style:--perspective-color={typeColor(take.typeNumber)}>
+					<div class="perspective-meta">
+						<span class="perspective-label">{takeLabel(take.typeNumber)}</span>
+						<small>AI-seeded</small>
+					</div>
+					<p>&ldquo;{take.comment}&rdquo;</p>
+				</article>
 			{/each}
 		</div>
 	</section>
 {/if}
 
 <style>
-	/* Type-tinted badge — mirrors .comment-type-badge in Comment.svelte so
-	   AI takes and user takes share one type-attribution language. */
-	.ai-type-badge {
-		background: color-mix(in srgb, var(--comment-type-color) 16%, transparent);
-		border: 1px solid color-mix(in srgb, var(--comment-type-color) 38%, transparent);
-		color: color-mix(in srgb, var(--comment-type-color) 65%, white);
+	/* Ported from the homepage .chorus-perspectives / .perspective system
+	   (src/routes/+page.svelte) so the question page delivers the same reveal
+	   the homepage demos. V5 tokens flip via :root.light. */
+	.nine-takes {
+		margin: 0 1rem 1.25rem;
 	}
 
-	:global(:root.light) .ai-type-badge {
-		color: color-mix(in srgb, var(--comment-type-color) 72%, black);
+	.nine-takes__head {
+		margin-bottom: 0.75rem;
+	}
+
+	.nine-takes__title {
+		margin: 0;
+		color: var(--ink-bright);
+		font-size: 1.05rem;
+		font-weight: 700;
+		letter-spacing: -0.01em;
+	}
+
+	.nine-takes__sub {
+		margin: 0.2rem 0 0;
+		color: var(--ink-dim);
+		font-size: 0.8rem;
+		line-height: 1.5;
+	}
+
+	.chorus-perspectives {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 0.7rem;
+	}
+
+	@media (min-width: 640px) {
+		.chorus-perspectives {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+
+	.perspective {
+		position: relative;
+		overflow: hidden;
+		min-width: 0;
+		padding: 1rem 1rem 1rem 1.15rem;
+		border: 1px solid color-mix(in srgb, var(--perspective-color) 38%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--perspective-color) 8%, var(--stone-warm));
+	}
+
+	.perspective::before {
+		position: absolute;
+		inset: 0 auto 0 0;
+		width: 3px;
+		background: var(--perspective-color);
+		content: '';
+	}
+
+	.perspective-meta {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 0.75rem;
+	}
+
+	.perspective-label {
+		min-width: 0;
+		color: var(--perspective-color);
+		font-family: var(--font-mono, ui-monospace, monospace);
+		font-size: 0.65rem;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	/* Type hexes are tuned for dark surfaces — deepen them on the light theme
+	   (same pattern as .public-perspective-card__eyebrow in QuestionContent). */
+	:global(:root.light) .perspective-label {
+		color: color-mix(in srgb, var(--perspective-color) 72%, black);
+	}
+
+	.perspective-meta small {
+		flex: 0 0 auto;
+		color: var(--ink-dim);
+		font-family: var(--font-mono, ui-monospace, monospace);
+		font-size: 0.58rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+
+	.perspective p {
+		margin: 0.45rem 0 0;
+		color: var(--ink-bright);
+		font-size: 0.83rem;
+		line-height: 1.45;
+		overflow-wrap: anywhere;
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		.perspective {
+			animation: perspective-enter 420ms both;
+		}
+
+		.perspective:nth-child(2) {
+			animation-delay: 45ms;
+		}
+
+		.perspective:nth-child(3) {
+			animation-delay: 90ms;
+		}
+
+		.perspective:nth-child(4) {
+			animation-delay: 135ms;
+		}
+
+		.perspective:nth-child(5) {
+			animation-delay: 180ms;
+		}
+
+		.perspective:nth-child(6) {
+			animation-delay: 225ms;
+		}
+
+		.perspective:nth-child(7) {
+			animation-delay: 270ms;
+		}
+
+		.perspective:nth-child(8) {
+			animation-delay: 315ms;
+		}
+
+		.perspective:nth-child(9) {
+			animation-delay: 360ms;
+		}
+	}
+
+	@keyframes perspective-enter {
+		from {
+			transform: translateY(8px);
+			opacity: 0;
+		}
+
+		to {
+			transform: translateY(0);
+			opacity: 1;
+		}
 	}
 </style>

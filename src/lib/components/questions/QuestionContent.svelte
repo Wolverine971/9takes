@@ -77,9 +77,11 @@
 	function getContentCount(tab: string): { count: number; label: string } {
 		switch (tab) {
 			case 'Comments':
+				// User-facing vocabulary is "takes"; the tab key stays 'Comments'
+				// so DOM ids (comments-tab/comments-panel) and logic are unchanged.
 				return {
 					count: displayCommentCount || 0,
-					label: displayCommentCount === 1 ? 'Comment' : 'Comments'
+					label: displayCommentCount === 1 ? 'Take' : 'Takes'
 				};
 			case 'Articles':
 				return {
@@ -155,55 +157,79 @@
 											<div class="public-perspective-preview__head">
 												<h3 class="public-perspective-preview__title">Sample perspectives</h3>
 												<p class="public-perspective-preview__copy">
-													Public visitors can preview a few Enneagram-style takes before joining the
-													discussion. Community comments stay locked until you share your own
-													perspective.
+													A preview of how the nine read it. The real thread stays locked until you
+													answer.
 												</p>
 											</div>
 
-											<div class="public-perspective-preview__grid">
-												{#each publicAiPreviewComments as comment}
-													<article
-														class="public-perspective-card"
-														style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
-													>
-														<div class="public-perspective-card__eyebrow">
-															Type {comment.enneagram_type}
-														</div>
-														<p class="public-perspective-card__body">{comment.comment}</p>
-													</article>
-												{/each}
+											<div class="locked-preview-stage">
+												<!-- Give-first integrity: only the already-public AI sample cards
+												     are blurred here. Real community takes never reach the DOM
+												     before the user answers. -->
+												<div
+													class="public-perspective-preview__grid blurred-perspectives"
+													aria-hidden="true"
+												>
+													{#each publicAiPreviewComments as comment}
+														<article
+															class="public-perspective-card"
+															style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
+														>
+															<div class="public-perspective-card__eyebrow">
+																Type {comment.enneagram_type}
+															</div>
+															<p class="public-perspective-card__body">{comment.comment}</p>
+														</article>
+													{/each}
+												</div>
+
+												<div class="lock-message" role="status">
+													<span class="lock-icon" aria-hidden="true">
+														<svg
+															class="h-4 w-4"
+															fill="none"
+															stroke="currentColor"
+															viewBox="0 0 24 24"
+														>
+															<path
+																stroke-linecap="round"
+																stroke-linejoin="round"
+																stroke-width="2"
+																d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+															/>
+														</svg>
+													</span>
+													<span class="lock-message__copy">
+														<strong>Other answers stay blurred.</strong>
+														Post yours to reveal them.
+														<span class="lock-message__meta">Anonymous · no account required</span>
+													</span>
+												</div>
 											</div>
 										</section>
-									{/if}
-
-									<div class="question-state question-state-locked">
-										<div class="state-icon state-icon-locked">
-											<svg
-												class="h-8 w-8 text-[var(--lamp-glow)]"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-												/>
-											</svg>
+									{:else}
+										<div class="question-state question-state-locked">
+											<div class="state-icon state-icon-locked">
+												<svg
+													class="h-8 w-8 text-[var(--lamp-glow)]"
+													fill="none"
+													stroke="currentColor"
+													viewBox="0 0 24 24"
+												>
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														stroke-width="2"
+														d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+													/>
+												</svg>
+											</div>
+											<p class="state-title" in:fade={{ duration: 200 }}>
+												Other answers stay blurred. Post yours to reveal them.
+											</p>
+											<p class="state-copy">Anonymous · no account required</p>
 										</div>
-										<p class="state-title" in:fade={{ duration: 200 }}>
-											{displayCommentCount === 0
-												? 'Be the first to share your perspective'
-												: 'Share your perspective to unlock comments'}
-										</p>
-										<p class="state-copy">
-											{displayCommentCount > 0
-												? `${displayCommentCount} perspectives waiting to be revealed`
-												: 'Your unique viewpoint matters'}
-										</p>
-									</div>
+									{/if}
 								</div>
 							{:else}
 								<!-- AI-Generated Comments -->
@@ -424,6 +450,70 @@
 	.public-perspective-preview__grid {
 		display: grid;
 		gap: 0.75rem;
+	}
+
+	/* Homepage give-first wall, ported from src/routes/+page.svelte:
+	   blurred sample cards behind a centered lock-message card. */
+	.locked-preview-stage {
+		position: relative;
+		min-height: 11rem;
+	}
+
+	.blurred-perspectives {
+		filter: blur(5px);
+		opacity: 0.38;
+		transform: scale(0.985);
+		pointer-events: none;
+		user-select: none;
+	}
+
+	.lock-message {
+		position: absolute;
+		inset: 50% auto auto 50%;
+		display: flex;
+		align-items: center;
+		gap: 0.7rem;
+		width: min(calc(100% - 2rem), 22rem);
+		padding: 0.9rem 1rem;
+		transform: translate(-50%, -50%);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--stone-warm) 96%, var(--night-deep));
+		color: var(--ink-mid);
+		font-size: 0.8rem;
+		line-height: 1.45;
+		box-shadow: var(--shadow-sm);
+	}
+
+	.lock-icon {
+		display: grid;
+		width: 2.25rem;
+		height: 2.25rem;
+		flex: 0 0 2.25rem;
+		place-items: center;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		background: var(--night-mid);
+		color: var(--lamp-glow);
+	}
+
+	.lock-message__copy {
+		min-width: 0;
+	}
+
+	.lock-message__copy strong {
+		display: block;
+		color: var(--ink-bright);
+	}
+
+	.lock-message__meta {
+		display: block;
+		margin-top: 0.3rem;
+		color: var(--ink-dim);
+		font-family: var(--font-mono, ui-monospace, monospace);
+		font-size: 0.65rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
 	}
 
 	.public-perspective-card {

@@ -115,6 +115,7 @@ const ROUTE_FILES = {
 		'src/routes/enneagram-corner/subtopic/[slug]/+page.svelte',
 		'src/routes/enneagram-corner/subtopic/[slug]/+page.server.ts'
 	],
+	enneagramTest: ['src/routes/enneagram-test/+page.svelte'],
 	howToGuides: [
 		'src/routes/how-to-guides/+page.svelte',
 		'src/routes/how-to-guides/+page.server.ts'
@@ -537,6 +538,13 @@ export function buildStaticPages({
 				siteFallbackLastmod
 			})
 		})),
+		{
+			loc: `${SITE_URL}/enneagram-test`,
+			lastmod: resolveStaticLastmod({
+				routePaths: ROUTE_FILES.enneagramTest,
+				siteFallbackLastmod
+			})
+		},
 		{
 			loc: `${SITE_URL}/how-to-guides`,
 			lastmod: resolveStaticLastmod({

@@ -118,9 +118,7 @@ describe('Interact', () => {
 			}
 		});
 
-		await fireEvent.click(
-			getByRole('button', { name: /answer this question to unlock comments/i })
-		);
+		// Composer opens by default for unanswered question-level visitors (give-first wall).
 		expect(queryByText(/press ctrl/i)).toBeNull();
 
 		const commentBox = getByRole('textbox');
@@ -190,9 +188,7 @@ describe('Interact', () => {
 			}
 		});
 
-		await fireEvent.click(
-			getByRole('button', { name: /answer this question to unlock comments/i })
-		);
+		// Composer opens by default for unanswered question-level visitors (give-first wall).
 
 		const commentBox = getByRole('textbox') as HTMLTextAreaElement;
 		Object.defineProperty(commentBox, 'scrollHeight', {
@@ -250,9 +246,7 @@ describe('Interact', () => {
 			}
 		});
 
-		await fireEvent.click(
-			getByRole('button', { name: /answer this question to unlock comments/i })
-		);
+		// Composer opens by default for unanswered question-level visitors (give-first wall).
 
 		const commentBox = getByRole('textbox');
 		await fireEvent.input(commentBox, {
