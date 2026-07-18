@@ -21,7 +21,7 @@
 	let newClientGoal = $state('');
 
 	// Search/filter
-	let searchInput = $state(data.filters.search);
+	let searchInput = $derived(data.filters.search);
 	let searchTimeout: ReturnType<typeof setTimeout>;
 
 	function handleSearch() {
@@ -127,7 +127,7 @@
 				onchange={(e) => setFilter('status', e.currentTarget.value)}
 			>
 				<option value="all">All ({data.totalClients})</option>
-				{#each Object.entries(statusLabels) as [value, { label }]}
+				{#each Object.entries(statusLabels) as [value, { label }] (value)}
 					<option {value}>{label} ({data.statusCounts[value] || 0})</option>
 				{/each}
 			</select>
@@ -141,7 +141,7 @@
 				onchange={(e) => setFilter('type', e.currentTarget.value)}
 			>
 				<option value="all">All Types</option>
-				{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
+				{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type (type)}
 					<option value={type.toString()}>Type {type}</option>
 				{/each}
 			</select>
@@ -156,7 +156,7 @@
 				<Button onclick={() => (showCreateModal = true)}>Create your first client</Button>
 			</div>
 		{:else}
-			<table class="clients-table">
+			<table class="clients-table desktop-clients-table">
 				<thead>
 					<tr>
 						<th>Client</th>
@@ -170,7 +170,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					{#each data.clients as client}
+					{#each data.clients as client (client.id)}
 						<tr>
 							<td class="client-cell">
 								<a href="/admin/consulting/clients/{client.id}" class="client-name">
@@ -235,6 +235,63 @@
 					{/each}
 				</tbody>
 			</table>
+
+			<div class="mobile-client-list" aria-label="Consulting clients">
+				{#each data.clients as client (client.id)}
+					<article class="mobile-client-card">
+						<header>
+							<div class="mobile-client-identity">
+								<a href="/admin/consulting/clients/{client.id}">{client.name}</a>
+								<span>{client.email}</span>
+							</div>
+							<span
+								class="status-badge"
+								style="--status-color: {statusLabels[client.status ?? '']?.color ||
+									'var(--ink-dim)'}"
+							>
+								{statusLabels[client.status ?? '']?.label || client.status}
+							</span>
+						</header>
+
+						<div class="mobile-client-metrics">
+							<div>
+								<span>Type</span>
+								<strong>
+									{client.enneagram_type
+										? `${client.enneagram_type}${client.enneagram_wing ? `w${client.enneagram_wing}` : ''}`
+										: '—'}
+								</strong>
+							</div>
+							<div>
+								<span>Sessions</span>
+								<strong>{client.sessions?.[0]?.count || 0}</strong>
+							</div>
+							<div>
+								<span>Intake</span>
+								<strong>{client.intake?.[0]?.status || 'Not sent'}</strong>
+							</div>
+						</div>
+
+						<div class="mobile-client-meta">
+							{#if client.trust_layer}
+								<span
+									class="trust-badge"
+									style="--trust-color: {trustLabels[client.trust_layer]?.color ||
+										'var(--ink-dim)'}"
+								>
+									{trustLabels[client.trust_layer]?.label || client.trust_layer} trust
+								</span>
+							{/if}
+							<span>Added {formatDate(client.created_at)}</span>
+						</div>
+
+						<div class="mobile-client-actions">
+							<a href="/admin/consulting/clients/{client.id}">Open client</a>
+							<a href="/admin/consulting/sessions?client={client.id}">Sessions</a>
+						</div>
+					</article>
+				{/each}
+			</div>
 		{/if}
 	</div>
 
@@ -311,7 +368,7 @@
 						<label for="enneagramType">Enneagram Type</label>
 						<select id="enneagramType" name="enneagramType" bind:value={newClientType}>
 							<option value="">Unknown</option>
-							{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type}
+							{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type (type)}
 								<option value={type.toString()}>Type {type}</option>
 							{/each}
 						</select>
@@ -335,8 +392,7 @@
 							name="initialGoal"
 							bind:value={newClientGoal}
 							rows="3"
-							placeholder="Their stated goal or reason for reaching out..."
-						></textarea>
+							placeholder="Their stated goal or reason for reaching out..."></textarea>
 					</div>
 				</div>
 
@@ -355,6 +411,10 @@
 	.clients-page {
 		max-width: 1200px;
 		margin: 0 auto;
+	}
+
+	.mobile-client-list {
+		display: none;
 	}
 
 	.page-header {
@@ -682,6 +742,125 @@
 
 		.filter-group select {
 			flex: 1;
+		}
+
+		.desktop-clients-table {
+			display: none;
+		}
+
+		.clients-table-wrapper {
+			overflow: visible;
+			border: none;
+			background: transparent;
+		}
+
+		.mobile-client-list {
+			display: grid;
+			gap: 0.7rem;
+		}
+
+		.mobile-client-card {
+			display: grid;
+			gap: 0.75rem;
+			min-width: 0;
+			padding: 0.85rem;
+			border: 1px solid var(--stone-edge);
+			border-radius: 16px;
+			background: var(--stone-warm);
+		}
+
+		.mobile-client-card header,
+		.mobile-client-meta {
+			display: flex;
+			min-width: 0;
+			align-items: flex-start;
+			justify-content: space-between;
+			gap: 0.65rem;
+		}
+
+		.mobile-client-identity {
+			display: grid;
+			min-width: 0;
+			gap: 0.18rem;
+		}
+
+		.mobile-client-identity a {
+			overflow: hidden;
+			color: var(--ink-bright);
+			font-size: 0.92rem;
+			font-weight: 750;
+			text-decoration: none;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.mobile-client-identity span {
+			overflow: hidden;
+			color: var(--ink-mid);
+			font-size: 0.7rem;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.mobile-client-metrics {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 1px;
+			overflow: hidden;
+			border: 1px solid var(--stone-edge);
+			border-radius: 10px;
+			background: var(--stone-edge);
+		}
+
+		.mobile-client-metrics div {
+			display: grid;
+			min-width: 0;
+			gap: 0.15rem;
+			padding: 0.55rem;
+			background: var(--night-mid);
+		}
+
+		.mobile-client-metrics span {
+			color: var(--ink-mid);
+			font-family: var(--font-mono);
+			font-size: 0.57rem;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+		}
+
+		.mobile-client-metrics strong {
+			overflow: hidden;
+			color: var(--ink-bright);
+			font-size: 0.76rem;
+			font-variant-numeric: tabular-nums;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.mobile-client-meta {
+			align-items: center;
+			color: var(--ink-mid);
+			font-size: 0.68rem;
+		}
+
+		.mobile-client-actions {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 0.5rem;
+		}
+
+		.mobile-client-actions a {
+			display: inline-flex;
+			min-height: 40px;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid var(--stone-edge);
+			border-radius: 10px;
+			background: var(--night-mid);
+			color: var(--lamp-glow);
+			font-size: 0.72rem;
+			font-weight: 700;
+			text-decoration: none;
 		}
 	}
 </style>

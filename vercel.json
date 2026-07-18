@@ -118,6 +118,16 @@
 			"permanent": true
 		},
 		{
+			"source": "/personality-analysis/kanye-west",
+			"destination": "/personality-analysis/kanye",
+			"permanent": true
+		},
+		{
+			"source": "/enneagram-corner/neurodiversity-vs-personality-enneagram",
+			"destination": "/enneagram-corner/neurodiversity-vs-personality",
+			"permanent": true
+		},
+		{
 			"source": "/apple-touch-icon.png",
 			"destination": "/brand/apple-touch-icon.png",
 			"permanent": true

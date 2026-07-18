@@ -22,6 +22,24 @@ describe('personalityAnalysis helpers', () => {
 		).toBe('https://9takes.com/personality-analysis/jordan-peterson');
 	});
 
+	it('strips URL-unsafe characters so clean URLs resolve (GSC 404 fix)', () => {
+		// Apostrophes (straight + curly) are dropped, not left in the slug.
+		expect(normalizePersonalitySlug("charli-d'amelio")).toBe('charli-damelio');
+		expect(normalizePersonalitySlug('charli-d’amelio')).toBe('charli-damelio');
+		expect(normalizePersonalitySlug("dixie-d'amelio")).toBe('dixie-damelio');
+		// Periods are dropped: j.k.-rowling -> jk-rowling.
+		expect(normalizePersonalitySlug('j.k.-rowling')).toBe('jk-rowling');
+		// Accents are folded to ASCII, not dropped: brené -> brene.
+		expect(normalizePersonalitySlug('brené-brown')).toBe('brene-brown');
+		expect(normalizePersonalitySlug('beyoncé')).toBe('beyonce');
+		// Already-clean slugs are unchanged (idempotent).
+		expect(normalizePersonalitySlug('barack-obama')).toBe('barack-obama');
+		expect(normalizePersonalitySlug('charli-damelio')).toBe('charli-damelio');
+		// Non-strings return empty.
+		expect(normalizePersonalitySlug(null)).toBe('');
+		expect(normalizePersonalitySlug(undefined)).toBe('');
+	});
+
 	it('maps lowercase slugs back to the existing mixed-case image assets', () => {
 		expect(resolvePersonalityImageSlug('jordan-peterson')).toBe('Jordan-Peterson');
 		expect(buildPersonalityImagePath(1, 'jordan-peterson')).toBe('/types/1s/Jordan-Peterson.webp');
@@ -36,6 +54,8 @@ describe('personalityAnalysis helpers', () => {
 
 	it('formats display names using the preserved asset casing when available', () => {
 		expect(formatPersonalityDisplayName('jordan-peterson')).toBe('Jordan Peterson');
-		expect(formatPersonalityDisplayName('j.k.-rowling')).toBe('J.K. Rowling');
+		// j.k.-rowling now normalizes to the URL-safe jk-rowling; the proper-cased
+		// "J.K. Rowling" lives in the DB title field, not the slug-derived name.
+		expect(formatPersonalityDisplayName('j.k.-rowling')).toBe('JK Rowling');
 	});
 });

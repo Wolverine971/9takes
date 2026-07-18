@@ -2,92 +2,26 @@
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
+	import { Database, Search } from '@lucide/svelte';
 	import {
-		ChartNoAxesCombined,
-		Database,
-		FileText,
-		FolderKanban,
-		LayoutDashboard,
-		Link2,
-		Mail,
-		Megaphone,
-		MessageCircle,
-		MessagesSquare,
-		PenLine,
-		RefreshCw,
-		Search,
-		Shapes,
-		Target,
-		Users,
-		Wrench
-	} from '@lucide/svelte';
+		adminNavGroups,
+		getAdminRouteContext,
+		isAdminNavActive
+	} from '$lib/admin/adminNavigation';
+	import { setMobileAdminCommand } from '$lib/admin/mobileAdminCommand';
 	import { Button } from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
+	import AdminMobileRouteRail from '$lib/components/admin/AdminMobileRouteRail.svelte';
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
+	import './admin-mobile.css';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 
 	let mobileMenuOpen = $state(false);
 	let mobileNavQuery = $state('');
 
-	const navGroups = [
-		{
-			label: 'Overview',
-			items: [
-				{ href: '/admin', label: 'Dashboard', icon: LayoutDashboard, exact: true },
-				{ href: '/admin/analytics', label: 'Analytics', icon: ChartNoAxesCombined },
-				{ href: '/admin/search', label: 'Search', icon: Search }
-			]
-		},
-		{
-			label: 'People',
-			items: [
-				{ href: '/admin/users', label: 'Users', icon: Users },
-				{ href: '/admin/consulting', label: 'Consulting', icon: Target },
-				{ href: '/admin/comments', label: 'Comments', icon: MessageCircle },
-				{ href: '/admin/messages', label: 'Messages', icon: MessagesSquare }
-			]
-		},
-		{
-			label: 'Content',
-			items: [
-				{ href: '/admin/content-board', label: 'Content board', icon: FolderKanban },
-				{ href: '/admin/questions', label: 'Questions', icon: MessageCircle },
-				{ href: '/admin/categories', label: 'Categories', icon: Shapes },
-				{ href: '/admin/drafts', label: 'Drafts', icon: PenLine }
-			]
-		},
-		{
-			label: 'Reach',
-			items: [
-				{ href: '/admin/email-dashboard', label: 'Email', icon: Mail },
-				{ href: '/admin/welcome-sequence', label: 'Welcome sequence', icon: FileText },
-				{
-					href: '/admin/reactivation-sequence',
-					label: 'Reactivation',
-					icon: RefreshCw
-				},
-				{ href: '/admin/marketing', label: 'Marketing', icon: Megaphone }
-			]
-		},
-		{
-			label: 'System',
-			items: [
-				{ href: '/admin/links', label: 'Links', icon: Link2 },
-				{ href: '/admin/asset-generators', label: 'Asset tools', icon: Wrench }
-			]
-		}
-	];
-	const navItems = navGroups.flatMap((group) => group.items);
-
-	// Check if nav item is active (supports sub-routes)
-	function isActive(item: { href: string; exact?: boolean }, pathname: string): boolean {
-		if (item.exact) {
-			return pathname === item.href;
-		}
-		return pathname === item.href || pathname.startsWith(item.href + '/');
-	}
+	const navItems = adminNavGroups.flatMap((group) => group.items);
 
 	afterNavigate(() => {
 		if (mobileMenuOpen) getModal('adminNavigation')?.close();
@@ -114,15 +48,15 @@
 		openMobileMenu();
 	}
 
+	setMobileAdminCommand({ openMenu: openMobileMenu });
+
 	// Get current page label for mobile header
-	let currentPageLabel = $derived(
-		navItems.find((item) => isActive(item, $page.url.pathname))?.label || 'Admin'
-	);
+	let currentPageLabel = $derived(getAdminRouteContext($page.url.pathname).label);
 	let filteredNavGroups = $derived.by(() => {
 		const query = mobileNavQuery.trim().toLocaleLowerCase();
-		if (!query) return navGroups;
+		if (!query) return adminNavGroups;
 
-		return navGroups
+		return adminNavGroups
 			.map((group) => ({
 				...group,
 				items: group.items.filter((item) => item.label.toLocaleLowerCase().includes(query))
@@ -161,8 +95,8 @@
 					{@const Icon = item.icon}
 					<a
 						href={item.href}
-						class={['nav-link', { active: isActive(item, $page.url.pathname) }]}
-						aria-current={isActive(item, $page.url.pathname) ? 'page' : undefined}
+						class={['nav-link', { active: isAdminNavActive(item, $page.url.pathname) }]}
+						aria-current={isAdminNavActive(item, $page.url.pathname) ? 'page' : undefined}
 					>
 						<span class="nav-icon">
 							<Icon size={16} strokeWidth={1.8} aria-hidden="true" />
@@ -175,6 +109,9 @@
 
 		<!-- Main Content Area -->
 		<main class="admin-content">
+			{#if $page.url.pathname !== '/admin'}
+				<AdminMobileRouteRail pathname={$page.url.pathname} onOpenMenu={openMobileMenu} />
+			{/if}
 			{@render children()}
 		</main>
 
@@ -217,8 +154,8 @@
 									{@const Icon = item.icon}
 									<a
 										href={item.href}
-										class={{ active: isActive(item, $page.url.pathname) }}
-										aria-current={isActive(item, $page.url.pathname) ? 'page' : undefined}
+										class={{ active: isAdminNavActive(item, $page.url.pathname) }}
+										aria-current={isAdminNavActive(item, $page.url.pathname) ? 'page' : undefined}
 										onclick={closeMobileMenu}
 									>
 										<span class="mobile-nav-icon">

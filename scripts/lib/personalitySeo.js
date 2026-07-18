@@ -6,7 +6,15 @@ import personalityImageSlugMap from '../../src/lib/generated/personalityImageSlu
  * @returns {string}
  */
 export function normalizePersonalitySlug(slug) {
-	return typeof slug === 'string' ? slug.trim().replace(/\s+/g, '-').toLowerCase() : '';
+	if (typeof slug !== 'string') return '';
+	return slug
+		.trim()
+		.toLowerCase()
+		.normalize('NFD') // decompose accents so diacritics can be stripped: é -> e + combining mark
+		.replace(/[̀-ͯ]/g, '') // strip combining diacritics: brené -> brene
+		.replace(/['’.]/g, '') // drop apostrophes (straight/curly) and periods: d'amelio -> damelio, j.k. -> jk
+		.replace(/[^a-z0-9]+/g, '-') // any other non-alphanumeric run -> single hyphen
+		.replace(/^-+|-+$/g, ''); // trim leading/trailing hyphens
 }
 
 /**

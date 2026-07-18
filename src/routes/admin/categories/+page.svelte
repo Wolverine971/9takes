@@ -366,7 +366,7 @@
 			</label>
 
 			<div class="filter-group" role="tablist" aria-label="Category filter">
-				{#each filterOptions as option}
+				{#each filterOptions as option (option.id)}
 					<button
 						type="button"
 						class="filter-pill"
@@ -425,7 +425,7 @@
 				<p>Try a different search term or switch the eligibility filter.</p>
 			</div>
 		{:else}
-			<div class="table-wrapper">
+			<div class="table-wrapper desktop-category-table">
 				<table>
 					<thead>
 						<tr>
@@ -496,6 +496,67 @@
 						{/each}
 					</tbody>
 				</table>
+			</div>
+
+			<div class="mobile-category-list" aria-label="Category intro queue">
+				{#each filteredCategories as category (category.id)}
+					<article class="mobile-category-card">
+						<header>
+							<div class="mobile-category-identity">
+								<a href={adminCategoryHref(category.id)}>{category.category_name}</a>
+								<span>{pathLabel(category.path)}</span>
+							</div>
+							<span class={statusClass(category.intro_status)}>{category.intro_status}</span>
+						</header>
+
+						<div class="mobile-category-metrics">
+							<div>
+								<span>Direct</span>
+								<strong>{category.directQuestionCount}</strong>
+							</div>
+							<div>
+								<span>Subtree</span>
+								<strong>{category.subtreeQuestionCount}</strong>
+							</div>
+							<div>
+								<span>Level</span>
+								<strong>{category.level}</strong>
+							</div>
+						</div>
+
+						<div class="mobile-category-status">
+							<span>{sourceLabel(category)} · {formatDate(category.intro_updated_at)}</span>
+							<span
+								class={`status-pill ${category.isEligibleForIntro ? 'status-pill--eligible' : 'status-pill--muted'}`}
+							>
+								{category.isEligibleForIntro ? 'Eligible' : 'Below threshold'}
+							</span>
+						</div>
+
+						<div class="mobile-category-actions">
+							<a href={adminCategoryHref(category.id)} class="table-link">Edit</a>
+							<a href={publicCategoryHref(category)} class="table-link">Public</a>
+							<button
+								type="button"
+								class="table-btn"
+								disabled={!category.isEligibleForIntro ||
+									category.intro_status === 'processing' ||
+									isGenerating(category.id)}
+								onclick={() => generateCategory(category)}
+							>
+								{isGenerating(category.id) ? 'Working…' : generateButtonLabel(category)}
+							</button>
+							<button
+								type="button"
+								class="table-btn table-btn--secondary"
+								disabled={!canReview(category) || isReviewing(category.id)}
+								onclick={() => reviewCategory(category)}
+							>
+								{isReviewing(category.id) ? 'Reviewing…' : 'Review'}
+							</button>
+						</div>
+					</article>
+				{/each}
 			</div>
 		{/if}
 	</section>
@@ -759,6 +820,10 @@
 		overflow-x: auto;
 	}
 
+	.mobile-category-list {
+		display: none;
+	}
+
 	table {
 		width: 100%;
 		border-collapse: collapse;
@@ -858,9 +923,188 @@
 			justify-content: flex-start;
 		}
 
-		th,
-		td {
-			min-width: 120px;
+		.controls-row,
+		.batch-row {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr);
+			align-items: stretch;
+			gap: 0.75rem;
+		}
+
+		.search-field {
+			width: 100%;
+		}
+
+		.filter-group {
+			flex-wrap: nowrap;
+			gap: 0.4rem;
+			overflow-x: auto;
+			padding-bottom: 0.2rem;
+			scrollbar-width: none;
+		}
+
+		.filter-group::-webkit-scrollbar {
+			display: none;
+		}
+
+		.filter-pill {
+			flex: 0 0 auto;
+			padding: 0.6rem 0.72rem;
+			font-size: 0.72rem;
+		}
+
+		.queue-summary {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 1px;
+			overflow: hidden;
+			border: 1px solid var(--stone-edge);
+			border-radius: 10px;
+			background: var(--stone-edge);
+		}
+
+		.queue-summary span {
+			display: grid;
+			align-content: center;
+			min-height: 52px;
+			padding: 0.5rem;
+			background: var(--night-mid);
+			font-size: 0.66rem;
+			line-height: 1.25;
+			text-align: center;
+		}
+
+		.batch-controls {
+			display: grid;
+			grid-template-columns: 76px repeat(2, minmax(0, 1fr));
+			align-items: end;
+			gap: 0.5rem;
+		}
+
+		.batch-field input {
+			width: 100%;
+			min-width: 0;
+		}
+
+		.batch-btn {
+			min-height: 44px;
+			padding: 0.5rem;
+			font-size: 0.68rem;
+			line-height: 1.2;
+		}
+
+		.desktop-category-table {
+			display: none;
+		}
+
+		.mobile-category-list {
+			display: grid;
+			gap: 0.7rem;
+		}
+
+		.mobile-category-card {
+			display: grid;
+			gap: 0.75rem;
+			min-width: 0;
+			padding: 0.85rem;
+			border: 1px solid var(--stone-edge);
+			border-radius: 10px;
+			background: color-mix(in srgb, var(--night-deep) 62%, var(--stone-warm));
+		}
+
+		.mobile-category-card header,
+		.mobile-category-status {
+			display: flex;
+			min-width: 0;
+			align-items: flex-start;
+			justify-content: space-between;
+			gap: 0.65rem;
+		}
+
+		.mobile-category-identity {
+			display: grid;
+			min-width: 0;
+			gap: 0.2rem;
+		}
+
+		.mobile-category-identity a {
+			overflow: hidden;
+			color: var(--ink-bright);
+			font-size: 0.9rem;
+			font-weight: 750;
+			text-decoration: none;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.mobile-category-identity span,
+		.mobile-category-status > span:first-child {
+			color: var(--ink-mid);
+			font-size: 0.68rem;
+			line-height: 1.4;
+			overflow-wrap: anywhere;
+		}
+
+		.mobile-category-metrics {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 1px;
+			overflow: hidden;
+			border: 1px solid var(--stone-edge);
+			border-radius: 10px;
+			background: var(--stone-edge);
+		}
+
+		.mobile-category-metrics div {
+			display: grid;
+			gap: 0.15rem;
+			padding: 0.55rem;
+			background: var(--night-mid);
+		}
+
+		.mobile-category-metrics span {
+			color: var(--ink-mid);
+			font-family: var(--font-mono);
+			font-size: 0.58rem;
+			letter-spacing: 0.06em;
+			text-transform: uppercase;
+		}
+
+		.mobile-category-metrics strong {
+			color: var(--ink-bright);
+			font-size: 0.9rem;
+			font-variant-numeric: tabular-nums;
+		}
+
+		.mobile-category-status {
+			align-items: center;
+		}
+
+		.mobile-category-status .status-pill {
+			flex: 0 0 auto;
+		}
+
+		.mobile-category-actions {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 0.5rem;
+		}
+
+		.mobile-category-actions :is(a, button) {
+			display: inline-flex;
+			min-width: 0;
+			min-height: 40px;
+			align-items: center;
+			justify-content: center;
+			padding: 0.5rem;
+			border: 1px solid var(--stone-edge);
+			border-radius: 10px;
+			font-size: 0.72rem;
+			text-align: center;
+		}
+
+		.mobile-category-actions a {
+			background: var(--night-mid);
 		}
 	}
 </style>

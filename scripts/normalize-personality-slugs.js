@@ -20,6 +20,9 @@ if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 const args = process.argv.slice(2);
 const writeMode = args.includes('--write');
+// Limit the run to published rows. Useful when unpublished drafts hold a
+// legacy slug that would collide with an already-clean published twin.
+const publishedOnly = args.includes('--published-only');
 const personFilterArg = args.find((arg) => !arg.startsWith('--'));
 const personFilter = normalizePersonalitySlug(personFilterArg);
 
@@ -55,6 +58,9 @@ async function fetchPeopleRows() {
 		.order('id');
 	if (personFilter) {
 		query.ilike('person', personFilter);
+	}
+	if (publishedOnly) {
+		query.eq('published', true);
 	}
 
 	const { data, error } = await query;

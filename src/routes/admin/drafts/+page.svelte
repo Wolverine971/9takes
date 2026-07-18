@@ -32,7 +32,7 @@
 	nofollow
 />
 
-<div class="header-section">
+<div class="header-section page-header">
 	<h1>Blog Drafts</h1>
 	<p class="header-subtitle">
 		Review and manage celebrity personality analysis drafts before publication
@@ -226,7 +226,7 @@
 
 			.person-name {
 				background: var(--lamp-glow);
-				color: white;
+				color: var(--text-on-primary);
 				padding: 0.2rem 0.625rem;
 				border-radius: 9999px;
 				font-size: 0.7rem;

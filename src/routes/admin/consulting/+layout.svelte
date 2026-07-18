@@ -1,13 +1,17 @@
 <!-- src/routes/admin/consulting/+layout.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { CalendarDays, ChartNoAxesCombined, Library, Users } from '@lucide/svelte';
+	import type { Snippet } from 'svelte';
 
 	const subNavItems = [
-		{ href: '/admin/consulting', label: 'Overview', icon: '📊', exact: true },
-		{ href: '/admin/consulting/clients', label: 'Clients', icon: '👥' },
-		{ href: '/admin/consulting/sessions', label: 'Sessions', icon: '📅' },
-		{ href: '/admin/consulting/resources', label: 'Resources', icon: '📚' }
+		{ href: '/admin/consulting', label: 'Overview', icon: ChartNoAxesCombined, exact: true },
+		{ href: '/admin/consulting/clients', label: 'Clients', icon: Users },
+		{ href: '/admin/consulting/sessions', label: 'Sessions', icon: CalendarDays },
+		{ href: '/admin/consulting/resources', label: 'Resources', icon: Library }
 	];
+
+	let { children }: { children: Snippet } = $props();
 
 	function isActive(item: { href: string; exact?: boolean }, pathname: string): boolean {
 		if (item.exact) {
@@ -20,9 +24,16 @@
 <div class="consulting-layout">
 	<!-- Sub Navigation -->
 	<nav class="sub-nav">
-		{#each subNavItems as item}
-			<a href={item.href} class="sub-nav-link" class:active={isActive(item, $page.url.pathname)}>
-				<span class="sub-nav-icon">{item.icon}</span>
+		{#each subNavItems as item (item.href)}
+			{@const Icon = item.icon}
+			<a
+				href={item.href}
+				class={['sub-nav-link', { active: isActive(item, $page.url.pathname) }]}
+				aria-current={isActive(item, $page.url.pathname) ? 'page' : undefined}
+			>
+				<span class="sub-nav-icon">
+					<Icon size={16} strokeWidth={1.8} aria-hidden="true" />
+				</span>
 				<span class="sub-nav-label">{item.label}</span>
 			</a>
 		{/each}
@@ -30,7 +41,7 @@
 
 	<!-- Content -->
 	<div class="consulting-content">
-		<slot />
+		{@render children()}
 	</div>
 </div>
 
@@ -41,44 +52,67 @@
 
 	.sub-nav {
 		display: flex;
-		gap: 2px;
+		gap: 6px;
 		margin-bottom: 20px;
-		border-bottom: 1px solid var(--stone-warm);
-		padding-bottom: 0;
+		padding: 6px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		background: var(--night-mid);
 		overflow-x: auto;
+		scrollbar-width: none;
 		-webkit-overflow-scrolling: touch;
+	}
+
+	.sub-nav::-webkit-scrollbar {
+		display: none;
 	}
 
 	.sub-nav-link {
 		display: flex;
 		align-items: center;
 		gap: 6px;
-		padding: 10px 14px;
-		border: none;
-		background: none;
+		min-height: 40px;
+		padding: 7px 12px 7px 7px;
+		border: 1px solid transparent;
+		border-radius: 10px;
+		background: transparent;
 		cursor: pointer;
 		font-size: 0.8125rem;
-		font-weight: 500;
+		font-weight: 650;
 		color: var(--ink-mid);
-		border-bottom: 2px solid transparent;
-		margin-bottom: -1px;
-		transition: all 0.15s ease;
+		transition:
+			background 0.15s ease,
+			border-color 0.15s ease,
+			color 0.15s ease;
 		text-decoration: none;
 		white-space: nowrap;
 	}
 
 	.sub-nav-icon {
-		font-size: 0.875rem;
-		line-height: 1;
+		display: grid;
+		width: 28px;
+		height: 28px;
+		flex: 0 0 28px;
+		place-items: center;
+		border-radius: 10px;
+		background: var(--stone-warm);
+		color: var(--lamp-glow);
 	}
 
 	.sub-nav-link:hover {
+		background: var(--stone-warm);
 		color: var(--ink-bright);
 	}
 
 	.sub-nav-link.active {
-		color: var(--lamp-glow);
-		border-bottom-color: var(--lamp-glow);
+		border-color: color-mix(in srgb, var(--lamp-glow) 48%, var(--stone-edge));
+		background: color-mix(in srgb, var(--lamp-glow) 10%, var(--stone-warm));
+		color: var(--ink-bright);
+	}
+
+	:global(.consulting-layout .sub-nav-link:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 
 	.consulting-content {
@@ -88,34 +122,21 @@
 	/* Mobile */
 	@media (max-width: 768px) {
 		.sub-nav {
-			margin-bottom: 16px;
-			gap: 0;
+			margin-bottom: 12px;
+			gap: 5px;
+			padding: 5px;
 		}
 
 		.sub-nav-link {
-			padding: 8px 12px;
-			font-size: 0.75rem;
-		}
-
-		.sub-nav-icon {
-			font-size: 0.8125rem;
+			min-height: 38px;
+			padding: 5px 10px 5px 5px;
+			font-size: 0.7rem;
 		}
 	}
 
-	/* Extra small screens */
-	@media (max-width: 480px) {
+	@media (prefers-reduced-motion: reduce) {
 		.sub-nav-link {
-			padding: 8px 10px;
-			font-size: 0.6875rem;
-			gap: 4px;
-		}
-
-		.sub-nav-icon {
-			font-size: 0.75rem;
-		}
-
-		.sub-nav-label {
-			display: none;
+			transition: none;
 		}
 	}
 </style>

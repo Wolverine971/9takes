@@ -1,0 +1,310 @@
+/*
+ * Shared phone treatment for the admin route family.
+ * Route components retain their desktop styles; this layer gives their common
+ * headers, controls, tabs, data regions, and dialogs one mobile vocabulary.
+ */
+@media (max-width: 768px) {
+	.admin-layout .admin-content > * {
+		min-width: 0;
+	}
+
+	.admin-layout .admin-content :is(.page-header, .dashboard-header) {
+		display: flex;
+		min-width: 0;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 10px;
+		margin: 0 0 12px;
+		padding: 12px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		background: var(--stone-warm);
+		box-shadow: none;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(.page-header, .dashboard-header)
+		:is(.header-copy, .header-content, .header-left, .header-info) {
+		min-width: 0;
+	}
+
+	.admin-layout .admin-content :is(.page-header, .dashboard-header) h1,
+	.admin-layout .admin-content :is(.page-title) {
+		margin: 0;
+		color: var(--ink-bright);
+		font-size: clamp(1.2rem, 6vw, 1.55rem);
+		line-height: 1.08;
+		letter-spacing: -0.025em;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(.page-header, .dashboard-header)
+		:is(.subtitle, .page-subtitle, p) {
+		max-width: none;
+		margin: 3px 0 0;
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+		line-height: 1.45;
+		overflow-wrap: anywhere;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(.page-header, .dashboard-header)
+		:is(.header-actions, .page-actions, .header-links, .header-right) {
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 8px;
+		justify-content: stretch;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(.page-header, .dashboard-header)
+		:is(.header-actions, .page-actions, .header-links, .header-right)
+		> :is(a, button) {
+		display: inline-flex;
+		min-width: 0;
+		min-height: 40px;
+		align-items: center;
+		justify-content: center;
+		padding-inline: 10px;
+		text-align: center;
+	}
+
+	.admin-layout .admin-content :is(.stats-grid, .metrics-grid, .stats-row, .summary-grid) {
+		display: grid;
+		min-width: 0;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 8px;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(.stat-card, .metric-card, .stat-chip, .summary-card, .sequence-stat) {
+		min-width: 0;
+		padding: 10px;
+		border-radius: 10px;
+		box-shadow: none;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(.stat-card, .metric-card, .stat-chip, .summary-card, .sequence-stat)
+		:is(strong, .stat-value, .stat-num, .metric-value, .summary-value) {
+		font-variant-numeric: tabular-nums;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(
+			.tabs,
+			.analytics-tabs,
+			.search-tabs,
+			.mobile-tabs,
+			.content-type-selector,
+			.sort-tabs,
+			.table-window-tabs,
+			.release-band-filters
+		) {
+		display: flex;
+		min-width: 0;
+		flex-wrap: nowrap;
+		gap: 6px;
+		overflow-x: auto;
+		overscroll-behavior-x: contain;
+		scrollbar-width: none;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(
+			.tabs,
+			.analytics-tabs,
+			.search-tabs,
+			.mobile-tabs,
+			.content-type-selector,
+			.sort-tabs,
+			.table-window-tabs,
+			.release-band-filters
+		)::-webkit-scrollbar {
+		display: none;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(
+			.tabs,
+			.analytics-tabs,
+			.search-tabs,
+			.mobile-tabs,
+			.content-type-selector,
+			.sort-tabs,
+			.table-window-tabs,
+			.release-band-filters
+		)
+		> :is(a, button) {
+		min-height: 38px;
+		flex: 0 0 auto;
+		white-space: nowrap;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(
+			.toolbar,
+			.analytics-toolbar,
+			.filters,
+			.filter-bar,
+			.filters-bar,
+			.controls-row,
+			.batch-row,
+			.table-header,
+			.section-header,
+			.insight-header
+		) {
+		min-width: 0;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(
+			input:not([type='checkbox']):not([type='radio']):not([type='range']):not([type='color']),
+			select,
+			textarea
+		) {
+		max-width: 100%;
+		min-height: 44px;
+		border-radius: 10px;
+		font-size: 16px;
+	}
+
+	.admin-layout .admin-content textarea {
+		line-height: 1.45;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(.search-box, .search-field, .search-wrapper, .toolbar-left, .filter-group) {
+		min-width: 0;
+		max-width: none;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(.search-box, .search-field, .search-wrapper, .toolbar-left)
+		:is(input, select) {
+		width: 100%;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(
+			.card,
+			.content-card,
+			.section-card,
+			.controls-card,
+			.controls-panel,
+			.filter-card,
+			.table-card,
+			.insight-card,
+			.sequence-panel,
+			.distribution-card,
+			.panel
+		) {
+		min-width: 0;
+		border-radius: 16px;
+		box-shadow: none;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(
+			.card,
+			.content-card,
+			.section-card,
+			.controls-card,
+			.controls-panel,
+			.filter-card,
+			.table-card,
+			.insight-card,
+			.sequence-panel,
+			.distribution-card,
+			.panel
+		) {
+		padding: 12px;
+	}
+
+	.admin-layout
+		.admin-content
+		:is(
+			.table-wrapper,
+			.table-content,
+			.clients-table-wrapper,
+			.data-table-container,
+			.scroll-table
+		) {
+		max-width: 100%;
+		min-width: 0;
+		overflow-x: auto;
+		overscroll-behavior-x: contain;
+		scrollbar-color: var(--stone-edge) transparent;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.admin-layout .admin-content table {
+		font-size: 0.78rem;
+	}
+
+	.admin-layout .admin-content :is(th, td) {
+		overflow-wrap: anywhere;
+	}
+
+	.admin-layout .admin-content :is(.empty-state, .loading-state, .error-state) {
+		min-width: 0;
+		padding: 24px 14px;
+		border-radius: 16px;
+	}
+
+	.admin-layout .admin-content :is(p, li, dd, .detail-value, .meta-value) {
+		overflow-wrap: anywhere;
+	}
+
+	.admin-layout
+		:is(.modal-overlay, .sent-detail-overlay)
+		> :is(.modal, .modal-container, .sent-detail-panel) {
+		width: min(100% - 20px, 680px);
+		max-width: none;
+		max-height: calc(100dvh - 20px);
+		border-radius: 16px;
+		overflow: auto;
+	}
+
+	.admin-layout :is(.modal-footer, .modal-actions) {
+		position: sticky;
+		bottom: 0;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 8px;
+		padding-bottom: max(12px, env(safe-area-inset-bottom));
+		background: var(--stone-warm);
+	}
+
+	.admin-layout :is(.modal-footer, .modal-actions) > :is(a, button) {
+		width: 100%;
+		min-height: 44px;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 420px) {
+	.admin-layout .admin-content {
+		padding-inline: 9px;
+	}
+}

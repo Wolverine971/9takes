@@ -5,6 +5,7 @@
 		ArrowUpRight,
 		ChartNoAxesCombined,
 		CircleAlert,
+		Command,
 		FileText,
 		FolderKanban,
 		Mail,
@@ -16,6 +17,7 @@
 		Users,
 		UserRoundPlus
 	} from '@lucide/svelte';
+	import { getMobileAdminCommand } from '$lib/admin/mobileAdminCommand';
 	import type { PageData } from './$types';
 
 	type Props = {
@@ -37,6 +39,7 @@
 	};
 
 	let { data, isDemoTime, isReindexing, onToggleDemo, onOpenReindex }: Props = $props();
+	const mobileCommand = getMobileAdminCommand();
 
 	const quickLinks = [
 		{ href: '/admin/analytics', label: 'Analytics', icon: ChartNoAxesCombined },
@@ -45,8 +48,7 @@
 		{ href: '/admin/questions', label: 'Questions', icon: MessageCircle },
 		{ href: '/admin/email-dashboard', label: 'Email', icon: Mail },
 		{ href: '/admin/consulting', label: 'Consulting', icon: Target },
-		{ href: '/admin/marketing', label: 'Marketing', icon: Megaphone },
-		{ href: '/admin/search', label: 'Search', icon: Search }
+		{ href: '/admin/marketing', label: 'Marketing', icon: Megaphone }
 	];
 
 	const formatCount = (value: number | null | undefined) => (value ?? 0).toLocaleString();
@@ -251,6 +253,12 @@
 					<span>{link.label}</span>
 				</a>
 			{/each}
+			<button type="button" class="launch-link launch-button" onclick={mobileCommand.openMenu}>
+				<span class="launch-icon">
+					<Command size={18} strokeWidth={1.8} aria-hidden="true" />
+				</span>
+				<span>All tools</span>
+			</button>
 		</div>
 	</nav>
 
@@ -741,6 +749,13 @@
 		font-weight: 650;
 		text-align: center;
 		text-decoration: none;
+	}
+
+	.launch-button {
+		width: 100%;
+		font: inherit;
+		text-align: left;
+		cursor: pointer;
 	}
 
 	.launch-link:nth-child(4n) {

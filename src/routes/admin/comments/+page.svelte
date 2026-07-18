@@ -916,7 +916,7 @@
 		}
 
 		.search-input {
-			font-size: 0.75rem;
+			font-size: 1rem;
 			padding: 8px 10px;
 		}
 
@@ -951,12 +951,15 @@
 		}
 
 		.comment-text {
-			font-size: 0.75rem;
+			font-size: 0.82rem;
+			line-height: 1.5;
+			overflow-wrap: anywhere;
 		}
 
 		.flag-info {
 			padding: 6px 8px;
-			font-size: 0.6875rem;
+			font-size: 0.72rem;
+			overflow-wrap: anywhere;
 		}
 	}
 

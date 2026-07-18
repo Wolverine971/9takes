@@ -206,7 +206,7 @@ status inputs at runtime; malformed JSON and invalid enums/IDs return 400 respon
 
 ### P2.1 Reorganize the shared admin navigation — `P2 + P6 + P9 + P13`
 
-**Status:** In progress; the mobile navigation slice shipped on 2026-07-18.
+**Status:** In progress; the complete mobile route-navigation slice shipped on 2026-07-18.
 
 The shell has 17 flat emoji-based destinations that wrap across multiple desktop rows. Group destinations
 into meaningful sections, use one icon set with fixed containers, fix the active amber contrast treatment,
@@ -216,22 +216,33 @@ The phone shell now opens a searchable full-screen command menu through the cano
 Destinations are grouped into Overview, People, Content, Reach, and System; Lucide icons use fixed
 containers; 16px search input and 44px controls avoid iOS zoom and undersized taps; filtering, Escape
 dismissal, focus trapping/restoration, background inerting, and body scroll lock were verified at 390px.
+The same shared route registry now drives a contextual workspace rail on every admin subpage, including
+detail-route labels and an All tools launcher, so navigation remains compact without hiding the complete
+admin surface. Consulting's nested navigation now uses the same icon and segmented-control language.
 Desktop grouping remains deferred.
 
 ### P2.2 Finish mobile table fallbacks — `P12`
 
-**Status:** Not started.
+**Status:** In progress; categories and consulting clients shipped on 2026-07-18.
 
 Categories remains a seven-column table with a 120px minimum per cell on phones. Use identity-first mobile
 cards, following the stronger users/email dashboard pattern. Reserve horizontal scroll for true matrices.
 
+Categories and consulting clients now swap desktop tables for identity-first cards with compact metric
+strips, trust/status context, safe truncation, and reachable row actions. The shared mobile adaptation
+layer also contains remaining true-table surfaces instead of allowing them to widen the viewport.
+
 ### P2.3 Fix mobile controls and table semantics — `P12 + P13`
 
-**Status:** Not started.
+**Status:** In progress; the mobile control-sizing slice shipped on 2026-07-18.
 
 Users and comments reduce mobile form controls to 11–12px, risking iOS zoom and poor readability. Keep
 mobile controls at least 16px. User sorting now uses keyboard-operable buttons with `aria-sort` inside
 sortable headers rather than click handlers on `<th>` elements.
+
+All admin-route text inputs, selects, and textareas now hold a 16px phone size and a 44px minimum target;
+comments' dense copy and search treatment were corrected directly. Shared phone toolbars, filter rows,
+tabs, modal sizing, sticky actions, card padding, and overflow containment now converge on one system.
 
 ### P2.4 Make content-board interactions device-independent — `P12 + P13`
 
@@ -269,10 +280,11 @@ secondary question filters behind a Filters control with selected chips while ke
 The dashboard previously sent the complete desktop hierarchy through one-column stacking on phones:
 12 equal-weight cards, three full chart panels, several long feeds, and system actions at the bottom.
 Mobile now renders a separate `MobileCommandCenter` composition while desktop retains the existing
-dashboard. The phone information order is pulse metrics, eight quick-launch destinations, live traffic
-signals, 7-day conversion and traffic summaries, expandable recent activity, then isolated system
-controls. Identity-first rows clamp or truncate user-supplied strings, every route/action remains
-reachable, and the full desktop charts are deliberately replaced by a compact seven-day bar summary.
+dashboard. The phone information order is pulse metrics, seven quick-launch destinations plus an All
+tools command, live traffic signals, 7-day conversion and traffic summaries, expandable recent activity,
+then isolated system controls. Identity-first rows clamp or truncate user-supplied strings, every
+route/action remains reachable, and the full desktop charts are deliberately replaced by a compact
+seven-day bar summary.
 
 ## Positive Baseline To Preserve
 
@@ -352,3 +364,19 @@ reachable, and the full desktop charts are deliberately replaced by a compact se
 - Live representative-data verification passed at 390x844 in dark and light mode: no horizontal
   overflow, 16px mobile search input, 44px menu target, command-menu filtering, Escape dismissal, and
   focus restoration. Authenticated verification against live admin data remains owed.
+
+### 2026-07-18 — Mobile admin route system
+
+- Centralized the admin information architecture into one typed route registry shared by the drawer,
+  dashboard launcher, route labels, and new contextual workspace rail on every admin subpage.
+- Added a route-family mobile adaptation layer for compact headers, two-column stat grids, scrollable
+  segmented tabs, dense toolbars, 16px controls, consistent 10/16/full radii, safe table containment,
+  and `dvh` modal behavior.
+- Applied P12 identity-first mobile card fallbacks to Categories and Consulting Clients, including safe
+  long-name/email handling, dense metric strips, status/trust context, and touch-sized actions.
+- Reworked consulting section navigation with Lucide icons, rebuilt Asset Generators as a compact
+  production bench, and corrected comments and drafts mobile readability/semantic color details.
+- Representative real-component verification passed at 390x844 in light and dark mode for Categories,
+  Consulting Clients, and Asset Generators: no horizontal overflow, two-column header actions, 16px
+  visible inputs, compact category batch controls, desktop-table replacement, and safe long-string
+  truncation. Authenticated verification against live admin data remains owed.
