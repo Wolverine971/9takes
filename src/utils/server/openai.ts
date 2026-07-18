@@ -6,11 +6,31 @@ import type { Database, Json } from '../../../database.types';
 
 import { checkDemoTime } from '../api';
 import { SmartLLMService } from './smart-llm-service';
+import { generateNineTakes, type TakesJsonCaller } from '$lib/server/nineTakesGenerator';
 
 const llmService = new SmartLLMService({
 	httpReferer: 'https://9takes.com',
 	appName: '9takes LLM'
 });
+
+// Adapter for the per-type take generator: 'powerful' profile because the
+// takes are user-facing product copy, not metadata.
+const nineTakesCaller: TakesJsonCaller = ({
+	systemPrompt,
+	userPrompt,
+	temperature,
+	operationType,
+	taskId
+}) =>
+	llmService.getJSONResponse({
+		systemPrompt,
+		userPrompt,
+		profile: 'powerful',
+		temperature,
+		operationType,
+		taskId,
+		validation: { retryOnParseError: true, maxRetries: 2 }
+	});
 
 type TaggedQuestion = {
 	id?: number | string;
@@ -534,23 +554,44 @@ export const tagQuestion = async (
 			tagCount: tags.length
 		});
 
-		const llmResponse = await llmService.getJSONResponse<TaggedQuestion[] | TaggedQuestion>({
-			systemPrompt: getPrompt(
-				tags.map((tag) => tag.category_name).filter((name): name is string => Boolean(name))
-			),
-			userPrompt: JSON.stringify({ id: questionId, question: questionText }),
-			profile: 'balanced',
-			temperature: 0.2,
-			validation: { retryOnParseError: true, maxRetries: 2 },
-			operationType: 'single_question_tagging',
-			taskId: String(questionId)
-		});
+		// Tagging/formatting/SEO is one metadata call; the nine takes are a
+		// separate per-type pipeline (director + nine voice calls). Run both in
+		// parallel; a takes failure must never cost us the tags.
+		const [metaSettled, takesSettled] = await Promise.allSettled([
+			llmService.getJSONResponse<TaggedQuestion[] | TaggedQuestion>({
+				systemPrompt: getPrompt(
+					tags.map((tag) => tag.category_name).filter((name): name is string => Boolean(name))
+				),
+				userPrompt: JSON.stringify({ id: questionId, question: questionText }),
+				profile: 'balanced',
+				temperature: 0.2,
+				validation: { retryOnParseError: true, maxRetries: 2 },
+				operationType: 'single_question_tagging',
+				taskId: String(questionId)
+			}),
+			generateNineTakes(questionText, nineTakesCaller, String(questionId))
+		]);
 
-		const [chatResp] = normalizeTaggedResponse(llmResponse);
-		const answers = normalizeAnswers(chatResp?.answers);
+		if (metaSettled.status === 'rejected') {
+			throw metaSettled.reason;
+		}
 
-		if (!chatResp || !answers) {
-			throw new Error('LLM tagging missing answers payload');
+		const [chatResp] = normalizeTaggedResponse(metaSettled.value);
+		if (!chatResp) {
+			throw new Error('LLM tagging returned no payload');
+		}
+
+		const takesResult = takesSettled.status === 'fulfilled' ? takesSettled.value : null;
+		const answers = takesResult?.answers ?? {};
+		const missingTakeTypes =
+			takesSettled.status === 'rejected'
+				? [1, 2, 3, 4, 5, 6, 7, 8, 9]
+				: (takesResult?.failedTypes ?? []);
+
+		if (takesSettled.status === 'rejected') {
+			logger.error('Nine takes generation failed', takesSettled.reason as Error, { questionId });
+		} else if (missingTakeTypes.length) {
+			logger.warn('Nine takes generation incomplete', { questionId, missingTakeTypes });
 		}
 
 		const matchedTags = tags
@@ -579,13 +620,19 @@ export const tagQuestion = async (
 			.eq('id', questionId);
 
 		if (options.jobId) {
+			// A partial nine is surfaced as a failure so the admin retry
+			// affordance can re-run it; tags and any successful takes are
+			// already persisted either way.
 			await updateQuestionAiTaggingState(supabase, questionTable, questionId, {
 				jobId: options.jobId,
-				status: 'completed',
+				status: missingTakeTypes.length ? 'failed' : 'completed',
 				startedAt: options.startedAt,
 				finishedAt: new Date().toISOString(),
 				tagCount: matchedTagIds.length,
-				flagged: matchedTagIds.length === 0
+				flagged: matchedTagIds.length === 0,
+				...(missingTakeTypes.length
+					? { error: `Takes missing for type(s) ${missingTakeTypes.join(', ')}` }
+					: {})
 			});
 		}
 	} catch (e) {
@@ -618,47 +665,25 @@ export const tagQuestion = async (
 	}
 };
 
-// I can pull this system prompt dynamically
+// Metadata only: the nine takes are generated separately, one per-type call,
+// by $lib/server/nineTakesGenerator (see tagQuestion above).
+const classifyOneQuestionPrompt = `You are going to be given a question or a statement with an id. Your job is to do 3 tasks and return a formatted json response.
+1st, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings. Use at most 5 tags.
+2nd, format the question and add punctuation.
+3rd, create between 3-5 SEO keywords or phrases that would be relevant to the question or statement.
 
-export const classifyOneQuestionPrompt2 = `You are an Enneagram expert and can easily get inside the mindset of each personality type. You are going to be given a question or a statement. Your job is to do 3 tasks and return a formatted json response. 
-1st, use the Enneagram system of personality to respond to the question or statement in each of the voices of the 9 different Enneagram types. You should consider the premise of the question and how each enneagram type would approach and answer the question.
-Your response should be conversational and you should approach the question like the Enneagram type. 
-
-2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings. Use at most 5 tags.
-3rd, format the question and add punctuation.
-For example: [
-    {id: 1, question: "I need date ideas What would you do", question_formatted: "I need date ideas, what would you do?", tags: ["Personal Growth", "Romantic Relationships"], answers: [{1: "A thoughtfully planned date that aligns with your shared values is ideal. Perhaps a museum visit, volunteering together, or dining at a reputable restaurant. The key is to be respectful, authentic, and create a meaningful connection."}, {2: "...."} ...]}
- ]
- Only tag from these predefined tags:
- `;
-
-const classifyOneQuestionPrompt = `You are an Enneagram expert and can easily get inside the mindset of different personality types. You are going to be given a question or a statement. Your job is to do 4 tasks and return a formatted json response. 
-1st, use the Enneagram system of personality to respond to the question or statement in each of the voices of the 9 different Enneagram types. You should consider the premise of the question and how each enneagram type would approach and answer the question.
-Your response should be conversational and should go into detail depending on how the Enneagram type would likely respond.
-2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings. Use at most 5 tags.
-3rd, format the question and add punctuation.
-4th, create between 3-5 SEO keywords or phrases that would be relevant to the question or statement.
- 
  Format the Response in VALID JSON like the following example:
  [
 	{
-	  id: 1,
-	  question: "I need date ideas What would you do",
-	  question_formatted: "I need date ideas, what would you do?",
-	  tags: [
+	  "id": 1,
+	  "question": "I need date ideas What would you do",
+	  "question_formatted": "I need date ideas, what would you do?",
+	  "tags": [
 		"Personal Growth", "Romantic Relationships"
 	  ],
-	  answers: {
-		  "1": "...",
-		  "2": "...",
-		  ...
-		},
-	  ],
-	  seo_keywords: ["date ideas", "romantic date ideas", "fun date ideas"]
-	},
+	  "seo_keywords": ["date ideas", "romantic date ideas", "fun date ideas"]
+	}
   ]
-
-  Vary up the response length depending on how the Enneagram type would likely respond.
 
 Classify the Question or Statement:
 Tag the question or statement with applicable predefined tags.

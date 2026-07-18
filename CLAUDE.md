@@ -263,9 +263,7 @@ export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
 
 	// Use RPC functions when combining multiple queries
-	const { data } = await supabase.rpc('get_page_data', {
-		/* ... */
-	});
+	const { data } = await supabase.rpc('get_page_data', {/* ... */});
 
 	return { data, user: session?.user ?? null };
 };
@@ -373,6 +371,7 @@ Run via `pnpm <alias>` where available:
 | `pnpm gen:instagram-plan`                       | Build Instagram posting plan               |
 | `pnpm index:blogs` / `:dry` / `:force`          | Direct blog indexer (bypasses env guard)   |
 | `pnpm push:people`                              | Parse + push famous-people blog drafts     |
+| `pnpm regen:takes`                              | Regenerate per-type AI takes (comments_ai) |
 | `pnpm supabase:normalize-personality-slugs`     | Normalize personality slugs in DB          |
 | `pnpm seo:normalize-internal-personality-links` | Rewrite internal personality links         |
 | `pnpm label-paths`                              | Annotate files with path comments          |

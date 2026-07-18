@@ -1,33 +1,85 @@
 <!-- src/routes/admin/+layout.svelte -->
 <script lang="ts">
+	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
-	import { browser } from '$app/environment';
+	import {
+		ChartNoAxesCombined,
+		Database,
+		FileText,
+		FolderKanban,
+		LayoutDashboard,
+		Link2,
+		Mail,
+		Megaphone,
+		MessageCircle,
+		MessagesSquare,
+		PenLine,
+		RefreshCw,
+		Search,
+		Shapes,
+		Target,
+		Users,
+		Wrench
+	} from '@lucide/svelte';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
+	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
 
-	let { data }: { data: LayoutData } = $props();
+	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 
 	let mobileMenuOpen = $state(false);
+	let mobileNavQuery = $state('');
 
-	const navItems = [
-		{ href: '/admin', label: 'Dashboard', icon: '📊', exact: true },
-		{ href: '/admin/analytics', label: 'Analytics', icon: '📉' },
-		{ href: '/admin/search', label: 'Search', icon: '🔍' },
-		{ href: '/admin/consulting', label: 'Consulting', icon: '🎯' },
-		{ href: '/admin/users', label: 'Users', icon: '👥' },
-		{ href: '/admin/email-dashboard', label: 'Email', icon: '📧' },
-		{ href: '/admin/welcome-sequence', label: 'Welcome Seq', icon: '📬' },
-		{ href: '/admin/reactivation-sequence', label: 'Reactivate', icon: '↩️' },
-		{ href: '/admin/questions', label: 'Questions', icon: '❓' },
-		{ href: '/admin/categories', label: 'Categories', icon: '🗂️' },
-		{ href: '/admin/comments', label: 'Comments', icon: '💬' },
-		{ href: '/admin/messages', label: 'Messages', icon: '📨' },
-		{ href: '/admin/content-board', label: 'Content', icon: '📝' },
-		{ href: '/admin/drafts', label: 'Drafts', icon: '✏️' },
-		{ href: '/admin/marketing', label: 'Marketing', icon: '📈' },
-		{ href: '/admin/links', label: 'Links', icon: '🔗' },
-		{ href: '/admin/asset-generators', label: 'Assets', icon: '🧰' }
+	const navGroups = [
+		{
+			label: 'Overview',
+			items: [
+				{ href: '/admin', label: 'Dashboard', icon: LayoutDashboard, exact: true },
+				{ href: '/admin/analytics', label: 'Analytics', icon: ChartNoAxesCombined },
+				{ href: '/admin/search', label: 'Search', icon: Search }
+			]
+		},
+		{
+			label: 'People',
+			items: [
+				{ href: '/admin/users', label: 'Users', icon: Users },
+				{ href: '/admin/consulting', label: 'Consulting', icon: Target },
+				{ href: '/admin/comments', label: 'Comments', icon: MessageCircle },
+				{ href: '/admin/messages', label: 'Messages', icon: MessagesSquare }
+			]
+		},
+		{
+			label: 'Content',
+			items: [
+				{ href: '/admin/content-board', label: 'Content board', icon: FolderKanban },
+				{ href: '/admin/questions', label: 'Questions', icon: MessageCircle },
+				{ href: '/admin/categories', label: 'Categories', icon: Shapes },
+				{ href: '/admin/drafts', label: 'Drafts', icon: PenLine }
+			]
+		},
+		{
+			label: 'Reach',
+			items: [
+				{ href: '/admin/email-dashboard', label: 'Email', icon: Mail },
+				{ href: '/admin/welcome-sequence', label: 'Welcome sequence', icon: FileText },
+				{
+					href: '/admin/reactivation-sequence',
+					label: 'Reactivation',
+					icon: RefreshCw
+				},
+				{ href: '/admin/marketing', label: 'Marketing', icon: Megaphone }
+			]
+		},
+		{
+			label: 'System',
+			items: [
+				{ href: '/admin/links', label: 'Links', icon: Link2 },
+				{ href: '/admin/asset-generators', label: 'Asset tools', icon: Wrench }
+			]
+		}
 	];
+	const navItems = navGroups.flatMap((group) => group.items);
 
 	// Check if nav item is active (supports sub-routes)
 	function isActive(item: { href: string; exact?: boolean }, pathname: string): boolean {
@@ -37,35 +89,64 @@
 		return pathname === item.href || pathname.startsWith(item.href + '/');
 	}
 
-	// Close menu on navigation
-	$effect(() => {
-		if (browser && $page.url.pathname) {
-			mobileMenuOpen = false;
-		}
+	afterNavigate(() => {
+		if (mobileMenuOpen) getModal('adminNavigation')?.close();
 	});
 
+	function openMobileMenu() {
+		mobileNavQuery = '';
+		mobileMenuOpen = true;
+		getModal('adminNavigation')?.open(() => {
+			mobileMenuOpen = false;
+		});
+	}
+
+	function closeMobileMenu() {
+		getModal('adminNavigation')?.close();
+	}
+
 	function toggleMenu() {
-		mobileMenuOpen = !mobileMenuOpen;
+		if (mobileMenuOpen) {
+			closeMobileMenu();
+			return;
+		}
+
+		openMobileMenu();
 	}
 
 	// Get current page label for mobile header
 	let currentPageLabel = $derived(
 		navItems.find((item) => isActive(item, $page.url.pathname))?.label || 'Admin'
 	);
+	let filteredNavGroups = $derived.by(() => {
+		const query = mobileNavQuery.trim().toLocaleLowerCase();
+		if (!query) return navGroups;
+
+		return navGroups
+			.map((group) => ({
+				...group,
+				items: group.items.filter((item) => item.label.toLocaleLowerCase().includes(query))
+			}))
+			.filter((group) => group.items.length > 0);
+	});
 </script>
 
 {#if data.user?.admin}
 	<div class="admin-layout">
 		<!-- Mobile Header -->
 		<header class="mobile-header">
-			<span class="current-page">{currentPageLabel}</span>
+			<div class="mobile-title">
+				<span>9takes / admin</span>
+				<strong class="current-page">{currentPageLabel}</strong>
+			</div>
 			<button
 				class="menu-toggle"
 				onclick={toggleMenu}
 				aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
 				aria-expanded={mobileMenuOpen}
+				aria-controls="admin-mobile-navigation"
 			>
-				<span class="hamburger" class:open={mobileMenuOpen}>
+				<span class={['hamburger', { open: mobileMenuOpen }]}>
 					<span></span>
 					<span></span>
 					<span></span>
@@ -74,32 +155,90 @@
 		</header>
 
 		<!-- Admin Navigation Bar -->
-		<nav class="admin-nav" class:open={mobileMenuOpen}>
+		<nav class="admin-nav">
 			<div class="nav-container">
 				{#each navItems as item}
+					{@const Icon = item.icon}
 					<a
 						href={item.href}
-						class="nav-link"
-						class:active={isActive(item, $page.url.pathname)}
+						class={['nav-link', { active: isActive(item, $page.url.pathname) }]}
 						aria-current={isActive(item, $page.url.pathname) ? 'page' : undefined}
 					>
-						<span class="nav-icon">{item.icon}</span>
+						<span class="nav-icon">
+							<Icon size={16} strokeWidth={1.8} aria-hidden="true" />
+						</span>
 						<span class="nav-label">{item.label}</span>
 					</a>
 				{/each}
 			</div>
 		</nav>
 
-		<!-- Overlay for mobile menu -->
-		{#if mobileMenuOpen}
-			<button class="menu-overlay" onclick={() => (mobileMenuOpen = false)} aria-label="Close menu"
-			></button>
-		{/if}
-
 		<!-- Main Content Area -->
 		<main class="admin-content">
-			<slot />
+			{@render children()}
 		</main>
+
+		<Modal
+			id="adminNavigation"
+			name="Admin navigation"
+			fullMobile={true}
+			navTop={true}
+			initialFocus="#admin-nav-close"
+		>
+			<div class="mobile-navigation" id="admin-mobile-navigation">
+				<header class="mobile-nav-header">
+					<div>
+						<span>9takes operations</span>
+						<h2>Command menu</h2>
+					</div>
+					<button
+						id="admin-nav-close"
+						type="button"
+						class="mobile-nav-close"
+						onclick={closeMobileMenu}
+						aria-label="Close admin navigation"
+					>
+						<span aria-hidden="true">×</span>
+					</button>
+				</header>
+
+				<label class="mobile-nav-search">
+					<Search size={18} strokeWidth={1.8} aria-hidden="true" />
+					<span class="sr-only">Find an admin page</span>
+					<input bind:value={mobileNavQuery} type="search" placeholder="Find a tool or page…" />
+				</label>
+
+				<div class="mobile-nav-groups">
+					{#each filteredNavGroups as group (group.label)}
+						<section class="mobile-nav-group">
+							<h3>{group.label}</h3>
+							<div class="mobile-nav-grid">
+								{#each group.items as item (item.href)}
+									{@const Icon = item.icon}
+									<a
+										href={item.href}
+										class={{ active: isActive(item, $page.url.pathname) }}
+										aria-current={isActive(item, $page.url.pathname) ? 'page' : undefined}
+										onclick={closeMobileMenu}
+									>
+										<span class="mobile-nav-icon">
+											<Icon size={18} strokeWidth={1.8} aria-hidden="true" />
+										</span>
+										<span>{item.label}</span>
+									</a>
+								{/each}
+							</div>
+						</section>
+					{:else}
+						<div class="mobile-nav-empty">
+							<Database size={24} strokeWidth={1.6} aria-hidden="true" />
+							<strong>No admin page found</strong>
+							<p>Try a shorter name like “email”, “users”, or “content”.</p>
+						</div>
+					{/each}
+				</div>
+			</div>
+		</Modal>
 	</div>
 {:else}
 	<div class="access-denied">
@@ -147,18 +286,39 @@
 		white-space: nowrap;
 	}
 
+	.mobile-title {
+		display: grid;
+		min-width: 0;
+		flex: 1;
+		gap: 1px;
+	}
+
+	.mobile-title > span {
+		color: var(--lamp-glow);
+		font-family: var(--font-mono);
+		font-size: 0.58rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
 	.menu-toggle {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 40px;
-		height: 40px;
+		width: 44px;
+		height: 44px;
+		flex: 0 0 44px;
 		padding: 0;
 		background: transparent;
 		border: none;
 		cursor: pointer;
-		border-radius: 0.625rem;
-		transition: all 0.2s ease;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		color: var(--ink-bright);
+		transition:
+			background 0.2s ease,
+			border-color 0.2s ease;
 	}
 
 	.menu-toggle:hover {
@@ -265,10 +425,9 @@
 	}
 
 	.nav-link.active {
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		color: white;
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
 		border-color: var(--lamp-glow);
-		box-shadow: var(--glow-sm);
 	}
 
 	/* Main Content */
@@ -280,18 +439,6 @@
 		padding: 24px 24px 48px;
 		box-sizing: border-box;
 		overflow-x: hidden;
-	}
-
-	/* Menu Overlay */
-	.menu-overlay {
-		display: none;
-		position: fixed;
-		inset: var(--site-header-height) 0 0 0;
-		background: rgba(0, 0, 0, 0.6);
-		backdrop-filter: blur(4px);
-		z-index: 9998;
-		border: none;
-		cursor: pointer;
 	}
 
 	/* Access Denied */
@@ -365,46 +512,7 @@
 		}
 
 		.admin-nav {
-			position: fixed;
-			top: var(--site-header-height);
-			left: 0;
-			bottom: 0;
-			width: 280px;
-			max-width: 85vw;
-			height: calc(100dvh - var(--site-header-height));
-			z-index: 9999;
-			transform: translateX(-100%);
-			transition: transform 0.3s ease;
-			border-bottom: none;
-			border-right: 1px solid var(--stone-warm);
-			box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4);
-			overflow-y: auto;
-		}
-
-		.admin-nav.open {
-			transform: translateX(0);
-		}
-
-		.nav-container {
-			flex-direction: column;
-			padding: 16px max(12px, env(safe-area-inset-left));
-			gap: 4px;
-			align-items: stretch;
-		}
-
-		.nav-link {
-			padding: 14px 18px;
-			font-size: 0.9375rem;
-			border-radius: 10px;
-		}
-
-		.nav-icon {
-			font-size: 1.125rem;
-			width: 28px;
-		}
-
-		.menu-overlay {
-			display: block;
+			display: none;
 		}
 
 		.admin-content {
@@ -416,6 +524,190 @@
 		}
 	}
 
+	.mobile-navigation {
+		display: grid;
+		gap: 16px;
+		min-height: calc(100dvh - 3rem);
+		align-content: start;
+		color: var(--ink-bright);
+	}
+
+	.mobile-nav-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
+		padding-bottom: 4px;
+	}
+
+	.mobile-nav-header span {
+		display: block;
+		color: var(--lamp-glow);
+		font-family: var(--font-mono);
+		font-size: 0.64rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.mobile-nav-header h2 {
+		margin: 3px 0 0;
+		color: var(--ink-bright);
+		font-size: 1.35rem;
+		letter-spacing: -0.02em;
+	}
+
+	.mobile-nav-close {
+		display: grid;
+		width: 44px;
+		height: 44px;
+		flex: 0 0 44px;
+		place-items: center;
+		padding: 0;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-mid);
+		color: var(--ink-bright);
+		cursor: pointer;
+	}
+
+	.mobile-nav-close span {
+		color: currentColor;
+		font-family: inherit;
+		font-size: 1.5rem;
+		font-weight: 400;
+		line-height: 1;
+		text-transform: none;
+	}
+
+	.mobile-nav-search {
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		align-items: center;
+		gap: 10px;
+		min-height: 48px;
+		padding: 0 13px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-mid);
+		color: var(--ink-mid);
+	}
+
+	.mobile-nav-search:focus-within {
+		border-color: var(--lamp-glow);
+		box-shadow: 0 0 0 2px color-mix(in srgb, var(--lamp-glow) 20%, transparent);
+	}
+
+	.mobile-nav-search input {
+		min-width: 0;
+		width: 100%;
+		height: 46px;
+		padding: 0;
+		border: none;
+		outline: none;
+		background: transparent;
+		color: var(--ink-bright);
+		font-size: 1rem;
+	}
+
+	.mobile-nav-search input::placeholder {
+		color: var(--ink-mid);
+	}
+
+	.mobile-nav-groups {
+		display: grid;
+		gap: 18px;
+	}
+
+	.mobile-nav-group {
+		display: grid;
+		gap: 8px;
+	}
+
+	.mobile-nav-group h3 {
+		margin: 0;
+		color: var(--ink-mid);
+		font-family: var(--font-mono);
+		font-size: 0.64rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.mobile-nav-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 8px;
+	}
+
+	.mobile-nav-grid a {
+		display: flex;
+		min-width: 0;
+		min-height: 52px;
+		align-items: center;
+		gap: 10px;
+		padding: 8px 10px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-mid);
+		color: var(--ink-mid);
+		font-size: 0.75rem;
+		font-weight: 650;
+		text-decoration: none;
+	}
+
+	.mobile-nav-grid a.active {
+		border-color: color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-edge));
+		background: color-mix(in srgb, var(--lamp-glow) 10%, var(--night-mid));
+		color: var(--ink-bright);
+	}
+
+	.mobile-nav-icon {
+		display: grid;
+		width: 32px;
+		height: 32px;
+		flex: 0 0 32px;
+		place-items: center;
+		border-radius: 10px;
+		background: var(--stone-warm);
+		color: var(--lamp-glow);
+	}
+
+	.mobile-nav-grid a > span:last-child {
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.mobile-nav-empty {
+		display: grid;
+		justify-items: center;
+		gap: 6px;
+		padding: 30px 16px;
+		border: 1px dashed var(--stone-edge);
+		border-radius: 16px;
+		color: var(--ink-mid);
+		text-align: center;
+	}
+
+	.mobile-nav-empty strong {
+		color: var(--ink-bright);
+		font-size: 0.85rem;
+	}
+
+	.mobile-nav-empty p {
+		margin: 0;
+		font-size: 0.75rem;
+		line-height: 1.45;
+	}
+
+	.mobile-nav-grid a:focus-visible,
+	.mobile-nav-close:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
 	/* Extra small screens */
 	@media (max-width: 480px) {
 		.admin-content {
@@ -424,6 +716,20 @@
 
 		.mobile-header {
 			padding: 10px 12px;
+		}
+	}
+
+	@media (min-width: 769px) {
+		.mobile-navigation {
+			display: none;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.menu-toggle,
+		.hamburger span,
+		.nav-link {
+			transition: none;
 		}
 	}
 </style>

@@ -206,11 +206,17 @@ status inputs at runtime; malformed JSON and invalid enums/IDs return 400 respon
 
 ### P2.1 Reorganize the shared admin navigation — `P2 + P6 + P9 + P13`
 
-**Status:** In progress; sortable user-table semantics shipped, mobile control sizing remains.
+**Status:** In progress; the mobile navigation slice shipped on 2026-07-18.
 
 The shell has 17 flat emoji-based destinations that wrap across multiple desktop rows. Group destinations
 into meaningful sections, use one icon set with fixed containers, fix the active amber contrast treatment,
 and give the mobile drawer focus trapping/return, Escape, inert/scroll-lock behavior, and clear labels.
+
+The phone shell now opens a searchable full-screen command menu through the canonical `Modal` boundary.
+Destinations are grouped into Overview, People, Content, Reach, and System; Lucide icons use fixed
+containers; 16px search input and 44px controls avoid iOS zoom and undersized taps; filtering, Escape
+dismissal, focus trapping/restoration, background inerting, and body scroll lock were verified at 390px.
+Desktop grouping remains deferred.
 
 ### P2.2 Finish mobile table fallbacks — `P12`
 
@@ -255,6 +261,18 @@ filter, async-state, and modal patterns with component tests.
 
 Add touch/pointer-accessible chart inspection, keyboard tab behavior, and visible scroll affordances. Collapse
 secondary question filters behind a Filters control with selected chips while keeping search visible.
+
+### P2.8 Purpose-built mobile dashboard — `P3 + P4 + P6 + P8 + P9 + P12 + P13`
+
+**Status:** Shipped on 2026-07-18.
+
+The dashboard previously sent the complete desktop hierarchy through one-column stacking on phones:
+12 equal-weight cards, three full chart panels, several long feeds, and system actions at the bottom.
+Mobile now renders a separate `MobileCommandCenter` composition while desktop retains the existing
+dashboard. The phone information order is pulse metrics, eight quick-launch destinations, live traffic
+signals, 7-day conversion and traffic summaries, expandable recent activity, then isolated system
+controls. Identity-first rows clamp or truncate user-supplied strings, every route/action remains
+reachable, and the full desktop charts are deliberately replaced by a compact seven-day bar summary.
 
 ## Positive Baseline To Preserve
 
@@ -322,3 +340,15 @@ secondary question filters behind a Filters control with selected chips while ke
   targeted ESLint, Prettier, `git diff --check`, the radius ratchet, and the PostgreSQL migration harness.
 - The five migrations still require deployment through the project Supabase environment. Authenticated
   desktop/mobile visual verification remains owed because this checkout has no local admin session.
+
+### 2026-07-18 — Mobile command center and navigation
+
+- Added a separate phone-only dashboard composition instead of continuing to stack the desktop surface.
+- Applied P3/P4/P6/P8/P12 to put six daily pulse metrics, eight essential destinations, current traffic
+  signals, compact conversion/traffic summaries, and expandable activity into a dense scan order.
+- Applied P9/P13 to replace the flat emoji mobile drawer with a grouped, searchable Lucide command menu
+  using the canonical focus/scroll/inert modal boundary.
+- Preserved the desktop dashboard and all existing server data/action contracts.
+- Live representative-data verification passed at 390x844 in dark and light mode: no horizontal
+  overflow, 16px mobile search input, 44px menu target, command-menu filtering, Escape dismissal, and
+  focus restoration. Authenticated verification against live admin data remains owed.

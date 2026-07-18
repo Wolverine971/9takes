@@ -39,6 +39,7 @@
 		"push:people": "node scripts/personBlogParser.js",
 		"gen:chorus": "node scripts/generate-chorus.mjs",
 		"gen:chorus:force": "node scripts/generate-chorus.mjs --force",
+		"regen:takes": "node --import tsx scripts/regen-nine-takes.ts",
 		"audit:people-seo": "node scripts/audit-people-seo.js",
 		"supabase:normalize-personality-slugs": "node scripts/normalize-personality-slugs.js",
 		"seo:normalize-internal-personality-links": "node scripts/normalize-internal-personality-links.js",

@@ -7,6 +7,7 @@
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import { convertDateToReadable } from '../../utils/conversions';
+	import MobileCommandCenter from './MobileCommandCenter.svelte';
 	import type { PageData } from './$types';
 
 	type ActionResultPayload = {
@@ -370,17 +371,15 @@
 	let recentUsers = $derived((data.recentSignups ?? []).slice(0, 8));
 	let recentEmailSignups = $derived((data.recentEmailSignups ?? []).slice(0, 8));
 	let questionActivity = $derived(
-		(data.dailyQuestions ?? []).slice(0, 10).map(
-			(question: QuestionDay): QuestionActivityItem => ({
-				question: question.question || 'Untitled question',
-				createdAt: formatDate(question.created_at),
-				todayComments: question.number_of_comments_today ?? 0,
-				totalComments: question.number_of_comments ?? 0,
-				authorEmail: question.user_email || 'Unknown author',
-				authorHref: question.user_external_id ? `/users/${question.user_external_id}` : undefined,
-				questionHref: question.url ? `/questions/${question.url}` : undefined
-			})
-		)
+		(data.dailyQuestions ?? []).slice(0, 10).map((question: QuestionDay): QuestionActivityItem => ({
+			question: question.question || 'Untitled question',
+			createdAt: formatDate(question.created_at),
+			todayComments: question.number_of_comments_today ?? 0,
+			totalComments: question.number_of_comments ?? 0,
+			authorEmail: question.user_email || 'Unknown author',
+			authorHref: question.user_external_id ? `/users/${question.user_external_id}` : undefined,
+			questionHref: question.url ? `/questions/${question.url}` : undefined
+		}))
 	);
 	let trendingBroadRows = $derived(
 		((data.trending?.broadRows ?? []) as TrendingPageRow[]).slice(0, 5)
@@ -396,7 +395,17 @@
 	};
 </script>
 
-<div class="admin-dashboard">
+<div class="mobile-command-shell">
+	<MobileCommandCenter
+		{data}
+		{isDemoTime}
+		{isReindexing}
+		onToggleDemo={changeDemoTime}
+		onOpenReindex={() => getModal('confirmReindex').open()}
+	/>
+</div>
+
+<div class="admin-dashboard desktop-dashboard">
 	<section class="dashboard-hero">
 		<div class="hero-bar">
 			<div class="hero-copy">
@@ -817,6 +826,10 @@
 </Modal>
 
 <style>
+	.mobile-command-shell {
+		display: none;
+	}
+
 	.admin-dashboard {
 		display: flex;
 		flex-direction: column;
@@ -1502,6 +1515,14 @@
 	}
 
 	@media (max-width: 768px) {
+		.mobile-command-shell {
+			display: block;
+		}
+
+		.desktop-dashboard {
+			display: none;
+		}
+
 		.admin-dashboard {
 			gap: 20px;
 		}
