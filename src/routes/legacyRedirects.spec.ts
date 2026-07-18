@@ -13,8 +13,8 @@ async function expectRedirect(load: (event: never) => unknown, location: string)
 }
 
 describe('legacy public routes', () => {
-	it('permanently redirects the retired signup page home', async () => {
-		await expectRedirect(loadSignup as (event: never) => unknown, '/');
+	it('permanently redirects the retired signup page to registration', async () => {
+		await expectRedirect(loadSignup as (event: never) => unknown, '/register');
 	});
 
 	it('permanently redirects followme to the maintained about page', async () => {

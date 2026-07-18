@@ -54,7 +54,7 @@
 		{
 			question: 'How can I ask questions anonymously on 9takes?',
 			answer:
-				'On 9takes, you can ask questions anonymously by creating an account using your Enneagram personality type as your identity. This allows you to maintain privacy while engaging in meaningful discussions.'
+				'Create an account to submit a new question; your email is never displayed with the post. Answering an existing question stays anonymous and does not require an account.'
 		},
 		{
 			question: 'What is the give-first commenting system?',

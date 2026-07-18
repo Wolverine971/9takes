@@ -215,7 +215,8 @@
 					<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
 				</a>
 			{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-				<Button href={resolve('/login')} class="desktop-login">Log in</Button>
+				<Button href={resolve('/login')} variant="secondary" class="desktop-login">Log in</Button>
+				<Button href={resolve('/register')} class="desktop-signup">Sign up</Button>
 			{/if}
 		</div>
 	</nav>
@@ -277,7 +278,8 @@
 		color: var(--lamp-glow);
 	}
 
-	.header-shell :global(.desktop-login) {
+	.header-shell :global(.desktop-login),
+	.header-shell :global(.desktop-signup) {
 		padding-inline: 1rem;
 		white-space: nowrap;
 	}

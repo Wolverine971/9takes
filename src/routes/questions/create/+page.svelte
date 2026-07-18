@@ -330,7 +330,7 @@
 				getModal('question-create')?.close();
 				questionError = 'Your question was created, but it could not be opened automatically.';
 				notifications.warning(
-					'Your question was created, but it could not be opened automatically. Use “View Your Question” to try again.',
+					'Your question was created, but it could not be opened automatically. Use “View your question” to try again.',
 					7000
 				);
 				return;
@@ -361,13 +361,14 @@
 		class="text-center text-3xl font-semibold text-[var(--lamp-glow)] sm:text-4xl"
 		in:fly={{ y: -20, duration: 300, delay: 150 }}
 	>
-		Spark a Conversation
+		Drop a question. Get nine reads.
 	</h1>
 	<p
 		class="mt-2 text-center text-base text-[var(--ink-mid)] sm:text-lg"
 		in:fly={{ y: -20, duration: 300, delay: 200 }}
 	>
-		Your question could lead to fascinating insights. What would you like to explore today?
+		Ask one clear, open-ended question. Each person gives their take before seeing everyone
+		else&rsquo;s.
 	</p>
 	<div
 		class="mt-6 rounded-xl border border-[var(--stone-warm)] bg-[var(--stone-warm)] p-lg shadow-[var(--shadow-md)] transition hover:border-[var(--lamp-soft)] hover:shadow-[var(--glow-sm)] sm:p-8"
@@ -386,7 +387,7 @@
 			id="question-input"
 			rows="4"
 			name="question"
-			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
+			placeholder="What are you trying to understand?"
 			class="font-body w-full rounded-md border-2 border-[var(--stone-warm)] bg-[var(--stone-warm)] p-4 text-lg text-[var(--ink-bright)] placeholder-[var(--ink-dim)] shadow-sm transition focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 			bind:value={question}
 			oninput={handleInput}
@@ -442,14 +443,14 @@
 			onclick={getUrl}
 			type="button"
 		>
-			{createdQuestionPath ? 'View Your Question' : 'Launch Your Question'}
+			{createdQuestionPath ? 'View your question' : 'Preview your question'}
 		</Button>
 	</div>
 	<p
-		class="mt-6 text-center text-base italic text-[var(--ink-mid)]"
+		class="mt-6 text-center text-sm text-[var(--ink-mid)]"
 		in:fly={{ y: 20, duration: 300, delay: 400 }}
 	>
-		Great questions lead to great conversations. Your unique perspective matters!
+		Your email is never displayed. Responses stay hidden until each person answers.
 	</p>
 </div>
 
@@ -526,7 +527,7 @@
 			inert={loading}
 			aria-hidden={loading ? 'true' : undefined}
 		>
-			<h2 class="mt-0 text-2xl font-semibold text-[var(--lamp-glow)]">Create Question</h2>
+			<h2 class="mt-0 text-2xl font-semibold text-[var(--lamp-glow)]">Preview your question</h2>
 
 			<div class="mt-4 rounded-xl border border-[var(--lamp-soft)] bg-[var(--stone-warm)] p-4">
 				<div
@@ -547,7 +548,7 @@
 				onclick={createQuestion}
 				disabled={loading}
 			>
-				Yes, create question
+				Post question
 				<RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#ffffff" />
 			</button>
 		</div>

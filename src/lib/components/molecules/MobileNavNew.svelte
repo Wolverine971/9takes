@@ -291,8 +291,15 @@
 							{/if}
 
 							{#if !$authUser}
-								<a href="/login" class="login-button" on:click={() => closeMenu(false)}>
-									Login / Register
+								<a
+									href="/login"
+									class="login-button login-button--secondary"
+									on:click={() => closeMenu(false)}
+								>
+									Log in
+								</a>
+								<a href="/register" class="login-button" on:click={() => closeMenu(false)}>
+									Sign up
 								</a>
 							{/if}
 						</div>
@@ -620,6 +627,18 @@
 		&:focus {
 			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
+		}
+	}
+
+	.login-button--secondary {
+		background-color: transparent;
+		border: 1px solid var(--stone-edge);
+		color: var(--ink-bright);
+
+		&:hover {
+			background-color: var(--stone-mid);
+			border-color: var(--ink-dim);
+			transform: none;
 		}
 	}
 

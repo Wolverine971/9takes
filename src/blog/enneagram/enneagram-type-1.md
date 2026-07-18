@@ -16,20 +16,23 @@ path: src/blog/enneagram/enneagram-type-1.md
 content_quality:
   hook: 8
   enneagram: 9
-  evidence: 7
+  evidence: 8
   writing: 8
   originality: 8
   discoverability: 8
-  overall: 7.9
-  letter: C
+  overall: 8.1
+  letter: B
   rubric_version: 2
   caps_applied: []
   confidence: medium
   anchor: 'Matt-Smith draft (2026-06-28)'
   needs_review: false
+  first_overall: 7.9
+  regrade_overall: 8.1
+  grade_stability_delta: 0.2
   graded_at: '2026-07-18'
-quality_grade: 'C'
-quality_score: 7.9
+quality_grade: 'B'
+quality_score: 8.1
 quality_graded_at: '2026-07-18'
 quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
@@ -95,7 +98,7 @@ The verdict is always the same: not quite.
 
 Two things make this court so hard to walk out of.
 
-**It sounds like reason.** From the outside, an inner critic sounds like a bully. From the inside, Ones report the opposite. As one panelist put it: "In our own heads, the inner critic seems well-reasoned and thought out." The voice doesn't rant. It reads the evidence aloud, calmly, and the case always sounds legitimate.
+**It sounds like reason.** From the outside, an inner critic sounds like a bully. From the inside, Ones report the opposite. As one One put it in <a href="https://www.olivemecounseling.com/blog/enneagram-one-panel-reformer" rel="nofollow">a Type One panel</a>: "In our own heads, the inner critic seems well-reasoned and thought out." The voice doesn't rant. It reads the evidence aloud, calmly, and the case always sounds legitimate.
 
 **It feels like protection.** The court's founding logic goes: if I catch the mistake first, no one else can catch it. If I'm beyond criticism, no one can condemn me. Self-prosecution feels responsible. Stopping feels like leaving the door unlocked.
 
@@ -146,7 +149,7 @@ Type 1's core emotion is anger, and they're often the last to know it.
 
 Anger feels like evidence for the prosecution. A good person, says the court, doesn't lose their temper. So the anger never quite leaves; it compresses. Enneagram teachers call the mechanism reaction formation: feel one thing, express its opposite. In practice it works like a renaming service. Anger becomes "frustration." Rage becomes "disappointment." Fury becomes "concern."
 
-The tell is unmistakable once you know it: when a One is angriest, they get rigid and extremely polite. The sentences shorten. The formality rises. The temperature drops. Everyone in the room feels it, and the One sincerely reports being fine.
+The tell is unmistakable once you know it. The Enneagram school <a href="https://www.integrative9.com/enneagram/introduction/type-1/" rel="nofollow">Integrative9</a> describes it exactly: when anger builds, Ones become "physically rigid and extremely polite." The sentences shorten. The formality rises. The temperature drops. Everyone in the room feels it, and the One sincerely reports being fine.
 
 What can't be renamed leaks out as criticism, correction, sighs, and silence with a temperature. And what can't leak gets stored. Resentment is anger with the lid held down.
 
@@ -212,7 +215,7 @@ The same machinery casts shadows:
 
 Here's the finding that should change how every One thinks about growth. Psychologists who study perfectionism keep splitting it into two ingredients: the height of your standards, and the fear of being wrong. They are not the same thing, and they do not do the same damage. A <a href="https://journals.sagepub.com/doi/abs/10.1177/1088868315596286" rel="nofollow">2016 meta-analysis of 43 studies</a> found burnout tracked the fear-of-mistakes ingredient strongly, while high personal standards on their own tracked weakly or not at all.
 
-Read that again if you're a One. The bar was never the problem. The trial is the problem.
+The bar was never the problem. The trial is the problem.
 
 Which means growth costs less than you fear. Nobody is asking you to care less, ship garbage, or become the sloppy colleague you resent. The standards stay. The self-punishment goes.
 
@@ -312,7 +315,7 @@ Many Ones describe growing up as the responsible one: praised for being "mature 
 
 The hidden cost shows up decades later. While other children learn through play and mistake-making, the responsible child learns through performance, and mistakes never get their season as ordinary learning material. The internal monitoring system gets built early: catch it before they do, criticize yourself before they can. Anger gets expensive; self-control pays out.
 
-By adulthood the scaffolding is invisible and load-bearing. The court runs itself.
+By adulthood the scaffolding is invisible and load-bearing, and the court no longer needs anyone outside it to stay in session.
 
 </section>
 
@@ -328,7 +331,7 @@ In subtype teaching, the Type 1 pattern comes in three flavors depending on whic
 
 **The one-to-one One (Zeal):** The countertype, and the one nobody guesses. This One's anger runs hot and outward, aimed at perfecting other people and society more than the self. Intense, reforming, entitled to improve what they love. Frequently mistyped as an 8.
 
-If you've dismissed Type 1 because you're not tidy, restrained, or self-flagellating, look hard at the third one. Some Ones look like a fire aimed at the world's flaws.
+If you've dismissed Type 1 because you're not tidy, restrained, or self-flagellating, look hard at the third one: the version of this type that aims the red pen at the world instead of the mirror.
 
 </section>
 
@@ -446,6 +449,8 @@ The classical Enneagram word for the One's destination is serenity, and it's wor
 <section class="section-content">
 
 ## Voices from the courtroom: Ones speak
+
+The voices below come from Type One panels and first-person accounts, shared here anonymously and lightly edited for length. The panel video at the end of this section is the same format at full depth.
 
 **On discovering their type**: "How did I know I was a One? A single word: anger. Many people after meeting me say I seem so laid-back and easy-going. They have no idea."
 

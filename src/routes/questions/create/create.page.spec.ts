@@ -133,9 +133,9 @@ describe('Create Question page', () => {
 		await fireEvent.input(questionInput, {
 			target: { value: "What's   the best way to handle this?" }
 		});
-		await fireEvent.click(screen.getByRole('button', { name: 'Launch Your Question' }));
+		await fireEvent.click(screen.getByRole('button', { name: 'Preview your question' }));
 
-		const confirmButton = await screen.findByRole('button', { name: /Yes, create question/i });
+		const confirmButton = await screen.findByRole('button', { name: /Post question/i });
 		await fireEvent.click(confirmButton);
 		let progressStatus = screen.getByRole('status');
 		expect(progressStatus.textContent).toContain('Saving your question');
@@ -217,10 +217,10 @@ describe('Create Question page', () => {
 		await fireEvent.input(screen.getByLabelText('Your question'), {
 			target: { value: 'How do I recover from this navigation failure?' }
 		});
-		await fireEvent.click(screen.getByRole('button', { name: 'Launch Your Question' }));
-		await fireEvent.click(await screen.findByRole('button', { name: /Yes, create question/i }));
+		await fireEvent.click(screen.getByRole('button', { name: 'Preview your question' }));
+		await fireEvent.click(await screen.findByRole('button', { name: /Post question/i }));
 
-		const retryButton = await screen.findByRole('button', { name: 'View Your Question' });
+		const retryButton = await screen.findByRole('button', { name: 'View your question' });
 		const errorAlert = await screen.findByRole('alert');
 		expect(errorAlert.textContent).toContain(
 			'Your question was created, but it could not be opened automatically.'
