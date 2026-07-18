@@ -1,0 +1,8 @@
+[2026-07-18 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-18 02:00:00] [INFO] SELECTED: lamine-yamal (Type ?)
+[2026-07-18 02:00:00] [INFO] Launching pipeline for lamine-yamal
+Another pipeline run (pid 2369, Madonna) is active. Exiting.
+[2026-07-18 02:00:00] [INFO] Pipeline exited code=2 after 0 min
+[2026-07-18 02:00:00] [ERROR] RETRY 1/3: lamine-yamal returned to queue (no draft)
+[2026-07-18 02:00:00] [INFO] NOTIFY: ⚠️ 9takes nightly blog: Lamine Yamal produced no draft (exit=2). Retry 1/3 tomorrow.
+[2026-07-18 02:00:01] [INFO] Nightly blog cron finished

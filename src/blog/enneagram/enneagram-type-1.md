@@ -13,9 +13,24 @@ type: ['nine-types']
 blog: true
 pic: 'enneagram-type-1-dossier'
 path: src/blog/enneagram/enneagram-type-1.md
-quality_grade: 'B+'
-quality_score: 8.8
-quality_graded_at: '2026-02-22'
+content_quality:
+  hook: 8
+  enneagram: 9
+  evidence: 7
+  writing: 8
+  originality: 8
+  discoverability: 8
+  overall: 7.9
+  letter: C
+  rubric_version: 2
+  caps_applied: []
+  confidence: medium
+  anchor: 'Matt-Smith draft (2026-06-28)'
+  needs_review: false
+  graded_at: '2026-07-18'
+quality_grade: 'C'
+quality_score: 7.9
+quality_graded_at: '2026-07-18'
 quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---

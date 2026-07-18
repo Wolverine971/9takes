@@ -335,7 +335,7 @@
 			<!-- Introduction -->
 			<amp-story-page id="intro" class="brand-gradient">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #4834d4, #8c7ae6);"></div>
+					<div style="background: linear-gradient(135deg, #7c3a06, #b45309);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -353,7 +353,7 @@
 			<!-- Type 1 -->
 			<amp-story-page id="type1" class="type1-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #6c5ce7, #4834d4);"></div>
+					<div style="background: linear-gradient(135deg, #8a4a28, #b9683c);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="top-overlay">
@@ -376,7 +376,7 @@
 			<!-- Type 1 Example -->
 			<amp-story-page id="type1-example" class="type1-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #6c5ce7, #4834d4);"></div>
+					<div style="background: linear-gradient(135deg, #8a4a28, #b9683c);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -395,7 +395,7 @@
 			<!-- Type 2 -->
 			<amp-story-page id="type2" class="type2-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #8c7ae6, #7158e2);"></div>
+					<div style="background: linear-gradient(135deg, #b8797f, #8d565c);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="top-overlay">
@@ -418,7 +418,7 @@
 			<!-- Type 2 Example -->
 			<amp-story-page id="type2-example" class="type2-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #8c7ae6, #7158e2);"></div>
+					<div style="background: linear-gradient(135deg, #b8797f, #8d565c);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -437,7 +437,7 @@
 			<!-- Type 3 -->
 			<amp-story-page id="type3" class="type3-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);"></div>
+					<div style="background: linear-gradient(135deg, #8d565c, #b8797f);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="top-overlay">
@@ -460,7 +460,7 @@
 			<!-- Type 3 Example -->
 			<amp-story-page id="type3-example" class="type3-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);"></div>
+					<div style="background: linear-gradient(135deg, #8d565c, #b8797f);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -479,7 +479,7 @@
 			<!-- Type 4 -->
 			<amp-story-page id="type4" class="type4-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #e84393, #be185d);"></div>
+					<div style="background: linear-gradient(135deg, #b8797f, #6e4348);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="top-overlay">
@@ -502,7 +502,7 @@
 			<!-- Type 4 Example -->
 			<amp-story-page id="type4-example" class="type4-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #e84393, #be185d);"></div>
+					<div style="background: linear-gradient(135deg, #b8797f, #6e4348);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -521,7 +521,7 @@
 			<!-- Type 5 -->
 			<amp-story-page id="type5" class="type5-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #74b9ff, #1d4ed8);"></div>
+					<div style="background: linear-gradient(135deg, #2f8f8c, #23706e);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="top-overlay">
@@ -544,7 +544,7 @@
 			<!-- Type 5 Example -->
 			<amp-story-page id="type5-example" class="type5-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #74b9ff, #1d4ed8);"></div>
+					<div style="background: linear-gradient(135deg, #2f8f8c, #23706e);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -563,7 +563,7 @@
 			<!-- Type 6 -->
 			<amp-story-page id="type6" class="type6-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #7158e2, #4834d4);"></div>
+					<div style="background: linear-gradient(135deg, #23706e, #1f5f5d);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="top-overlay">
@@ -586,7 +586,7 @@
 			<!-- Type 6 Example -->
 			<amp-story-page id="type6-example" class="type6-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #7158e2, #4834d4);"></div>
+					<div style="background: linear-gradient(135deg, #23706e, #1f5f5d);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -646,7 +646,7 @@
 			<!-- Type 8 -->
 			<amp-story-page id="type8" class="type8-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #e84393, #6c5ce7);"></div>
+					<div style="background: linear-gradient(135deg, #b9683c, #8a4a28);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="top-overlay">
@@ -668,7 +668,7 @@
 			<!-- Type 8 Example -->
 			<amp-story-page id="type8-example" class="type8-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #e84393, #6c5ce7);"></div>
+					<div style="background: linear-gradient(135deg, #b9683c, #8a4a28);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -687,7 +687,7 @@
 			<!-- Type 9 -->
 			<amp-story-page id="type9" class="type9-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #00b894, #74b9ff);"></div>
+					<div style="background: linear-gradient(135deg, #a05a33, #6f3e22);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="top-overlay">
@@ -709,7 +709,7 @@
 			<!-- Type 9 Example -->
 			<amp-story-page id="type9-example" class="type9-color">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #00b894, #74b9ff);"></div>
+					<div style="background: linear-gradient(135deg, #a05a33, #6f3e22);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -728,7 +728,7 @@
 			<!-- Conclusion -->
 			<amp-story-page id="conclusion" class="brand-gradient">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #4834d4, #8c7ae6);"></div>
+					<div style="background: linear-gradient(135deg, #7c3a06, #b45309);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">
@@ -746,7 +746,7 @@
 			<!-- Call to Action -->
 			<amp-story-page id="cta" class="brand-gradient">
 				<amp-story-grid-layer template="fill">
-					<div style="background: linear-gradient(135deg, #6c5ce7, #4834d4);"></div>
+					<div style="background: linear-gradient(135deg, #7c3a06, #b45309);"></div>
 				</amp-story-grid-layer>
 				<amp-story-grid-layer template="vertical">
 					<div class="centered-box">

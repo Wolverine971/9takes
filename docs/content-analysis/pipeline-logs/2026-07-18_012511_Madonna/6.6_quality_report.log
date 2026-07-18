@@ -1,0 +1,9 @@
+blog-quality-report: Madonna
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Madonna's Enneagram: Why She Still Has Something to Prove
+   answer-block: ok (44 words; <=60)
+
+1.4 Corpus-count drift: 1 stale hand-keyed count(s) (corpus total = 382)
+   type-3: stated 1991, correct 67  L?: "1991 Type 3s, [the Achiever](/enneagram-corner/enneagram-typ"

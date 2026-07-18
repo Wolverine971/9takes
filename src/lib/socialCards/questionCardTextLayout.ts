@@ -3,7 +3,7 @@
 export const QUESTION_CARD_LINE_HEIGHT = 1.18;
 export const QUESTION_CARD_MAX_TEXT_WIDTH = 980;
 export const QUESTION_CARD_MAX_TEXT_HEIGHT = 360;
-export const QUESTION_CARD_FONT_FAMILY = '"Noticia Text", "Georgia", "Times New Roman", serif';
+export const QUESTION_CARD_FONT_FAMILY = '"Inter Variable", "Inter", "Helvetica Neue", sans-serif';
 export const QUESTION_CARD_FONT_SIZES = [72, 68, 64, 60, 56, 52, 48, 44, 40, 36, 34, 32, 30, 28];
 
 export interface QuestionCardTextLayout {

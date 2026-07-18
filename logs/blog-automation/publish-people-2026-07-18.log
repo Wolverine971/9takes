@@ -1,0 +1,21 @@
+```text
+Not published — no eligible draft.
+
+Person: none selected (auto-select, no argument)
+Command: node scripts/personBlogParser.js --publish
+Result: "No publishable draft found. Checked 475 candidate(s)." Nothing was modified; the script exited before touching any files.
+
+Blockers:
+- Every one of the 93 unpublished drafts fails at least one gate.
+- Most (~55) still carry v1 rubric grades (stale_grade_rubric_v1) and need /grade_blog re-runs.
+- Of the 40 rubric-v2 drafts, only four clear every content gate (overall >= 8.5, discoverability >= 7, empty caps, stability delta <= 0.3, clean source audit) — and all four are blocked solely by missing personality images:
+  - David-Beckham (Type 3, overall 8.6, delta 0.0)
+  - Pete-Hegseth (Type 3, overall 8.6, delta 0.3)
+  - julia-fox (Type 4, overall 8.5, delta 0.0)
+  - Oliver-Tree (Type 4, overall 8.8, delta 0.3)
+  None have static/types/[t]s/[Person].webp or s-[Person].webp; I checked for casing mismatches — the files genuinely don't exist.
+```
+
+The fastest path to a publish is images for any one of those four — they're Canva-manual per your workflow, so that's on you. David-Beckham or julia-fox would be my pick (both have delta 0.0, clean audits, discoverability 9). Two other near-misses for context: Jack-Antonoff (8.9) fails only on grade stability (delta 0.5), and yesterday's Madonna draft is still ungraded entirely (no `content_quality` block, `ready_for_production: false`) — it needs `/grade_blog` before it can enter the pool.
+
+Per the command spec I stopped at the gate rather than bypassing it.

@@ -102,6 +102,21 @@
 	let composerKind = $derived(
 		parentType === 'comment' ? 'reply' : userHasAnswered ? 'comment' : 'answer'
 	);
+
+	// SvelteKit reuses this component on client-side question -> question
+	// navigation, so the creation-time composer snapshot goes stale. Re-seed
+	// the draft and the give-first open state when the question changes; the
+	// early return keeps answered-state flips from clobbering user toggles.
+	let seededForQuestionId = questionId;
+	$effect(() => {
+		if (questionId === seededForQuestionId) return;
+		seededForQuestionId = questionId;
+		comment = '';
+		commentError = '';
+		shortAnswerNudge = false;
+		confirmShortSubmit = false;
+		commenting = parentType === 'question' && !userHasAnswered;
+	});
 	let composerKindTitle = $derived(
 		`${composerKind.charAt(0).toUpperCase()}${composerKind.slice(1)}`
 	);

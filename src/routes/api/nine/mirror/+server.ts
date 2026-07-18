@@ -125,7 +125,10 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 				if (!commentError) {
 					answerRecorded = true;
 				} else if (
-					/once per question|duplicate|unique/i.test(String(commentError?.message ?? commentError))
+					// Exact message from create_comment_atomic's one-answer-per-fingerprint
+					// guard (20260513_harden_question_comment_identity.sql). Kept narrow so
+					// unrelated unique-constraint failures still surface as warnings.
+					/once per question/i.test(String(commentError?.message ?? commentError))
 				) {
 					answerRecorded = true;
 					alreadyAnswered = true;

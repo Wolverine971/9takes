@@ -74,7 +74,7 @@
 	const faqItems = $derived([...data.category.seoFaqs, ...statFaqs]);
 
 	const ogImageUrl = $derived(
-		data.category.ogImage ?? 'https://9takes.com/twitter-card-9takes.webp'
+		data.category.ogImage ?? 'https://9takes.com/images/home-reimagined/streetlamp-nine.webp'
 	);
 
 	const ORG_ID = 'https://9takes.com/#organization';
@@ -125,8 +125,8 @@
 				image: {
 					'@type': 'ImageObject',
 					url: ogImageUrl,
-					width: 1200,
-					height: 628
+					width: 1400,
+					height: 788
 				},
 				...(data.earliestPublish ? { datePublished: data.earliestPublish } : {}),
 				...(data.latestUpdate ? { dateModified: data.latestUpdate } : {}),
@@ -384,8 +384,7 @@
 							is the most under-represented at {corpusStats.under.sharePct}.
 						</p>
 						<p class="corpus-insight-meta">
-							{corpusStats.freshnessShare90dPct} of the corpus was refreshed in the last 90 days. As
-							of
+							{corpusStats.freshnessShare90dPct} of the corpus was refreshed in the last 90 days. As of
 							<time datetime={corpusStats.generatedAt}
 								>{formatCorpusDate(corpusStats.generatedAt)}</time
 							>. <a href="/corpus-stats">See the full dataset →</a>

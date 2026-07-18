@@ -1,0 +1,24 @@
+<!-- docs/content-analysis/grades/enneagram-type-1.review.md -->
+
+# Grade feedback: Enneagram Type 1 (pillar page)
+
+Grade: C (7.9), rubric v2
+Evidence: 7 | Originality: 8 | Discoverability: 8 | Enneagram: 9 | Writing: 8 | Hook: 8
+Anchor: Matt-Smith draft (2026-06-28) | Caps: none | Needs review: false
+Source audit: manual (blog-source-audit.mjs is people-only). 1 inline citation (Hill & Curran 2016 meta-analysis, real and checked), 1 embedded primary source (Chestnut panel video), 1 quote attributed only as "one panelist" (traceable to the Olive Me Counseling Type One panel per the worldbuilding research notes), 7 anonymous first-person quotes in "Voices from the courtroom" with no attribution, and the "rigid and extremely polite" tell borrowed from Integrative9 without credit. No load-bearing claim is untraceable (equations and arrows are hedged as doctrine/metaphor), so Evidence is not capped at 6, but the anonymous block is the ceiling.
+Interior line: "I made everyone uncomfortable. I need to be more careful. I need to be better."
+Empathy turn: "The tragic irony: the One's improvement orientation comes from love. Correction is their dialect of care. But to their partner, 'I see your potential' translates to 'you're not enough as you are.' Both readings are real, and the impact doesn't wait for the motive to be understood."
+
+Grader note: this regrade follows the 2026-07-18 worldview rework and was performed by the same session that wrote the rework; scores were held deliberately strict against the anchor to offset self-grading inflation. The prior frontmatter grade (B+/8.8, 2026-02-22) was a pre-recalibration score on the pre-rework text; the 2026-07-15 corpus audit had re-scored that older text at 7.5. Not comparable as a grade-stability pair, so first/regrade fields are omitted.
+
+Genre adaptations applied (people rubric on a nine-types pillar): the rabbit-hole rule was not enforced because typology depth is this page's purpose; the extractable-answer check was satisfied by the QuickAnswer block rather than a person type-answer block; the same-type-similarity script does not apply. Structural furniture shared across the nine-type series (QuickAnswer, stress/growth arrows, voices, famous) was treated as exempt series scaffolding, parallel to the exempt people-page H2 patterns.
+
+FEEDBACK (2026-07-18):
+
+- The critic-vs-conscience section is the best thing on the page and the best single Type 1 insight in the corpus: "the conscience produces a next action. The critic produces a verdict." It answers the exact objection ("if the critic goes, who keeps me good?") that makes Ones bounce off every competitor's "silence your inner critic" advice, and it feeds the "critic sort" practice so the insight becomes a behavior.
+- The compression chain is concrete and falsifiable at every link: renamed anger ("frustration," "disappointment," "concern") -> the "rigid and extremely polite" tell -> the resentment ledger with its collection events ("the cold comment with ten years of compound interest inside it"). This is the emotional heart the old draft was missing.
+- "Keep the bar, drop the trial" earns its section: a real, linked meta-analysis doing argumentative work (standards vs. fear-of-mistakes split), which is the only research-citation pattern that should ever appear on these pages.
+- The recess reframe gives the 1-to-7 arrow a native image (trial pause / ungraded play) instead of the generic "become more spontaneous," and the ending's give-first question ("What mistake are you still serving a sentence for?") is the first working product tie-in in the enneagram section.
+- NEEDS WORK (Evidence, the grade ceiling): the seven "Voices from the courtroom" quotes carry no attribution. Two are traceable to the Olive Me Counseling panel and the embedded Chestnut panel per docs/worldbuilding/enneagram-1/ENNEAGRAM_1_RESEARCH_NOTES.md; the rest have no recorded provenance. Add a one-line provenance note above the block (e.g. "collected from Type One panels, lightly edited") at minimum, or attribute each quote to its panel. Credit Integrative9 for the "rigid and extremely polite" observation.
+- NEEDS WORK (Writing fingerprint): three-plus aphoristic section closers in a row ("The court runs itself." / "The red pen stays. The gavel goes." / "Some Ones look like a fire aimed at the world's flaws."). Vary two of them into plain sentences; also cut or soften the one reader-command imperative ("Read that again if you're a One").
+- TO REACH B (8.0+): (1) Source the Voices block; Evidence 7 -> 8 alone moves the weighted overall to 8.1. (2) Vary two aphoristic closers. (3) Add entity depth to the head (same_as for the Enneagram/Type 1 entities, or the enneagram-corner equivalent of the people keywords stack) to push Discoverability toward 9.

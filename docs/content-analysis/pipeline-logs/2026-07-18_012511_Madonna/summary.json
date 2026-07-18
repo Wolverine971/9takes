@@ -1,0 +1,15 @@
+{
+	"person": "Madonna",
+	"draft_path": "src/blog/people/drafts/Madonna.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-18_012511_Madonna",
+	"completed": true,
+	"halt_reason": null,
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": null,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": true,
+	"generated_at": "2026-07-18T06:01:12.990Z"
+}

@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-07-17T02:50:35.353Z_
+_Generated: 2026-07-18T16:14:17.337Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -11,7 +11,7 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 ## Corpus Totals
 
 - **Published profiles:** 382
-- **Drafts in pipeline:** 138
+- **Drafts in pipeline:** 140
 
 > All stats below are computed against **published** profiles only.
 
@@ -173,15 +173,15 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Pipeline
 
-- **In the draft / review pipeline:** 138
+- **In the draft / review pipeline:** 140
 - **Published in the last 30 days:** 20
-- **Published in the last 90 days:** 82
-- **Average new profiles per month (trailing 90d):** 27.3
+- **Published in the last 90 days:** 80
+- **Average new profiles per month (trailing 90d):** 26.7
 
 ## Freshness
 
 - **Updated in last 30 days:** 45
-- **Updated in last 90 days:** 140 (36.6%)
+- **Updated in last 90 days:** 135 (35.3%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims
@@ -196,7 +196,7 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - Among 67 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.9% — +15.5 percentage points above the corpus baseline.
 - Among 31 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 45.2% — +29.98 percentage points above the corpus baseline.
 - Among 21 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 33.3% — +24.96 percentage points above the corpus baseline.
-- 138 additional profiles are in the review pipeline, with ~27.3 new profiles shipping per month.
+- 140 additional profiles are in the review pipeline, with ~26.7 new profiles shipping per month.
 
 ---
 

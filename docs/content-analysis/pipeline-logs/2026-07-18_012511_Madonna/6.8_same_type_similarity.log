@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — madonna (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Madonna.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 41
+Comparison set (last 8 other Type-3 drafts by date):
+  - pete-hegseth  (2026-07-16, 54 units)
+  - David-Beckham  (2026-07-13, 43 units)
+  - n3on  (2026-07-13, 38 units)
+  - xochitl-gomez  (2026-07-12, 43 units)
+  - Kiernan-Shipka  (2026-07-11, 46 units)
+  - Alex-Warren  (2026-07-01, 25 units)
+  - amelia-dimoldenberg  (2026-06-22, 15 units)
+  - Olivia-Wilde  (2026-06-17, 18 units)
+
+Noise floor over 11562 unit pairs:  median=0  p90=0  p99=0.006  max=0.329
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.329 #############        xochitl-gomez
+  0.329 #############        Kiernan-Shipka
+  0.048 ##                   n3on
+  0.034 #                    Olivia-Wilde
+  0.024 #                    amelia-dimoldenberg
+  0.018 #                    pete-hegseth
+  0.018 #                    David-Beckham
+  0.011                      Alex-Warren
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.329   madonna  <->  xochitl-gomez
+   TARGET [diagnosis] Madonna is an Enneagram Type 3 with a 4 wing
+   OTHER  [diagnosis] Xochitl Gomez is an Enneagram Type 3
+
+score 0.329   madonna  <->  Kiernan-Shipka
+   TARGET [diagnosis] Madonna is an Enneagram Type 3 with a 4 wing
+   OTHER  [diagnosis] Kiernan Shipka is an Enneagram Type 3
+
+score 0.048   madonna  <->  n3on
+   TARGET [diagnosis] Madonna is an Enneagram Type 3 with a 4 wing
+   OTHER  [diagnosis] N3on reads as an Enneagram Type 3
+
+score 0.034   madonna  <->  Olivia-Wilde
+   TARGET [counter-typing] But a core 4 lives inside melancholy and measures itself by authenticity.
+   OTHER  [diagnosis] Here is the tension a Three lives inside
+
+score 0.024   madonna  <->  Kiernan-Shipka
+   TARGET [diagnosis] When the internet mocked her face at the 2023 Grammys
+   OTHER  [diagnosis] and then whatever the internet is saying." She has named the engine herself.
+
+score 0.024   madonna  <->  amelia-dimoldenberg
+   TARGET [diagnosis] attack an 8 and you get coldness or war.
+   OTHER  [diagnosis] The self becomes whatever version of you gets the applause.
+
+score 0.018   madonna  <->  Kiernan-Shipka
+   TARGET [counter-typing] She co-founded Maverick in 1992 to sit on the ownership side of the table
+   OTHER  [diagnosis] She is also the only person at the table tracking her brand mid-joke.
+
+score 0.018   madonna  <->  pete-hegseth
+   TARGET [diagnosis] and four decades of reinvention have run on a fear of ordinariness she has described herself
+   OTHER  [diagnosis] The promotion list runs on the original one.
+
+score 0.018   madonna  <->  n3on
+   TARGET [diagnosis] She tracks the world's opinion of her the way pilots track weather they have to fly through.
+   OTHER  [diagnosis] Success is other people revising their opinion of him in real time.
+
+score 0.018   madonna  <->  David-Beckham
+   TARGET [diagnosis] each victory buys a short silence from the fear
+   OTHER  [counter-typing] from the staged haircuts to the split brow he let the cameras photograph.
+
+score 0.017   madonna  <->  Olivia-Wilde
+   TARGET [diagnosis] the Three learns that love responds to accomplishment
+   OTHER  [diagnosis] The Three organizes a life around image and accomplishment
+
+score 0.016   madonna  <->  David-Beckham
+   TARGET [counter-typing] fused with a Three's calculated bet that outrage would hold the world's attention.
+   OTHER  [counter-typing] The reserve is the self-preservation Three's chosen image
+
+------------------------------------------------------------------------------
+Top pair scores 0.329 vs median 0  (~∞x the noise floor).

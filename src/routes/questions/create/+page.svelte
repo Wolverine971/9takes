@@ -80,16 +80,7 @@
 	onMount(() => {
 		question = $page.url.searchParams.get('question') || '';
 
-		// Check if font is already loaded
-		if (!document.querySelector('link[href*="Noticia+Text"]')) {
-			const link = document.createElement('link');
-			link.href =
-				'https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap';
-			link.rel = 'stylesheet';
-			document.head.appendChild(link);
-		}
-
-		// Wait for font to load
+		// Wait for fonts to load
 		document.fonts.ready.then(() => {
 			fontLoaded = true;
 		});
@@ -228,7 +219,7 @@
 		const canvas = await html2canvasModule!(questionNode, {
 			useCORS: true,
 			allowTaint: true,
-			backgroundColor: '#10111f',
+			backgroundColor: '#0a0807',
 			scale: 1,
 			logging: false,
 			width: QUESTION_SOCIAL_CARD_WIDTH,

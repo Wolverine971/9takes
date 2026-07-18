@@ -28,13 +28,15 @@
 		locale?: string;
 	}
 
+	const DEFAULT_OG_IMAGE = 'https://9takes.com/images/home-reimagined/streetlamp-nine.webp';
+
 	let {
 		title = '9takes - See the emotions behind every take',
 		description = 'One situation, 9 ways to see it. Anonymous Q&A platform exploring perspectives through personality types.',
 		canonical,
-		ogImage = 'https://9takes.com/twitter-card-9takes.webp',
-		ogImageWidth = 1200,
-		ogImageHeight = 628,
+		ogImage = DEFAULT_OG_IMAGE,
+		ogImageWidth: providedOgImageWidth,
+		ogImageHeight: providedOgImageHeight,
 		twitterImage: providedTwitterImage,
 		twitterImageWidth: providedTwitterImageWidth,
 		twitterImageHeight: providedTwitterImageHeight,
@@ -51,6 +53,14 @@
 	}: Props = $props();
 
 	const TITLE_SUFFIX = ' - 9takes';
+	// Dimension hints are only emitted when they're actually known: either the
+	// caller passed them, or the tag describes the default image whose size we own.
+	let ogImageWidth = $derived(
+		providedOgImageWidth ?? (ogImage === DEFAULT_OG_IMAGE ? 1400 : undefined)
+	);
+	let ogImageHeight = $derived(
+		providedOgImageHeight ?? (ogImage === DEFAULT_OG_IMAGE ? 788 : undefined)
+	);
 	let twitterImage = $derived(providedTwitterImage ?? ogImage);
 	let twitterImageWidth = $derived(providedTwitterImageWidth ?? ogImageWidth);
 	let twitterImageHeight = $derived(providedTwitterImageHeight ?? ogImageHeight);
@@ -85,8 +95,10 @@
 		<meta property="og:url" content={canonical} />
 	{/if}
 	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:width" content={String(ogImageWidth)} />
-	<meta property="og:image:height" content={String(ogImageHeight)} />
+	{#if ogImageWidth && ogImageHeight}
+		<meta property="og:image:width" content={String(ogImageWidth)} />
+		<meta property="og:image:height" content={String(ogImageHeight)} />
+	{/if}
 	<meta property="og:image:alt" content={computedTwitterImageAlt} />
 	<meta property="og:locale" content={locale} />
 
@@ -97,8 +109,10 @@
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={twitterImage} />
-	<meta name="twitter:image:width" content={String(twitterImageWidth)} />
-	<meta name="twitter:image:height" content={String(twitterImageHeight)} />
+	{#if twitterImageWidth && twitterImageHeight}
+		<meta name="twitter:image:width" content={String(twitterImageWidth)} />
+		<meta name="twitter:image:height" content={String(twitterImageHeight)} />
+	{/if}
 	<meta name="twitter:image:alt" content={computedTwitterImageAlt} />
 
 	<!-- Additional Meta Tags -->

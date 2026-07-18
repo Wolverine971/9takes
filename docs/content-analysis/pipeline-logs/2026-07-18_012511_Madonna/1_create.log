@@ -1,0 +1,29 @@
+Draft complete. The Madonna analysis is written, gated, and saved.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Madonna.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony): pass — 3 qualifying quotes (Warren Beatty 1991, Patrick Leonard 2014, Stuart Price 2026)
+       Gate 2 (heading mix): pass — 7 of 8 H2s search-intent/hybrid
+       Gate 4 (anti-imitation): pass — no type-anaphora ending, no object-reveal hook cadence
+       Gate 5 (distribution): pass — 0 type-theory paragraphs outside diagnosis/Rabbit Hole
+       Gate 6 (formula fingerprint): pass — 0 contrast engines, similarity scan clear, bespoke form + critic anchor + empathy turn + current anchor present
+LIMITATIONS: full Howard Stern 2015 video was copyright-blocked; used an 84-min re-upload transcript instead. Seymour Stein's memoir quotes were paywalled (Variety/tollbit), so the hospital-bed signing is narrated without a direct Stein quote.
+```
+
+**The piece.** Type call is 3w4 (high confidence). The thesis: the queen of provocation runs on approval, not rebellion — she told Vanity Fair in 1991 her drive is "this horrible fear of being mediocre... even though I've become Somebody, I still have to prove that Somebody," and told Carrie Fisher she decided to "make the world love me" after her mother died. The tiebreaker against the Type 8 reading came from our own Type 8 post: 8s would rather be respected than liked, and Madonna recalibrates the show after every backlash. The empathy turn reframes her refusal to age gracefully through the mother who vanished at 30 and was never mentioned again. Signature detail: waking from her 2023 induced coma, her second thought was the ticket-holders. Current anchor: *Confessions II*, released two weeks ago (July 3, 2026).
+
+**Deterministic checks:** blog-lint 0 fail (1 expected warn — FAQ frontmatter belongs to the enrich stage), contrast pairs 0/0, head-term pass, same-type similarity clear vs. the last 8 Type-3 drafts. Two fetched transcripts saved to `youtube-transcripts/` (Stern 2015, Billboard 2016 speech).
+
+**Internal links added (5 total):**
+- the Achiever → /enneagram-corner/enneagram-type-3
+- Prince → /personality-analysis/prince
+- Lady Gaga → /personality-analysis/lady-gaga
+- wings → /enneagram-corner/enneagram-wings-complete-guide (Rabbit Hole)
+- instinctual subtypes → /enneagram-corner/enneagram-instinctual-subtypes (Rabbit Hole)
+
+Next steps (human): review the draft, run `/grade_blog`, then mark `production_pretext` ready and hand off to `blog_content_production_people`.
+
+Sources: [Quote Investigator (VF 1991 quote)](https://quoteinvestigator.com/2018/08/24/life-fear/), [Truth or Dare quotes (IMDb)](https://www.imdb.com/title/tt0102370/quotes/?item=qt0174989), [Variety — Seymour Stein excerpt](https://variety.com/2018/biz/news/how-i-met-madonna-by-seymour-stein-the-man-who-signed-her-book-excerpt-1202846755/), [Biography — mother's death](https://www.biography.com/musicians/madonna-mother-death), [Today — 2023 hospitalization statement](https://www.today.com/health/madonna-shares-update-hospitalization-bacterial-infection-rcna93461), [CNN — tour opening quote](https://www.cnn.com/2023/10/15/entertainment/madonna-celebration-tour/index.html), [ET — coma first word](https://www.etonline.com/madonna-says-her-first-word-after-waking-up-from-a-coma-was-a-response-to-god-221010), [Pollstar — Rio 1.6M record](https://news.pollstar.com/2024/05/05/madonnas-rio-concert-sets-all-time-record-with-1-6-million-fans/), [Wikipedia — Confessions II](https://en.wikipedia.org/wiki/Confessions_II), [Attitude — Stuart Price interview](https://www.attitude.co.uk/culture/stuart-price-on-madonna-and-making-confessions-ii-527550/), [Billboard — Leonard on Like a Prayer](https://www.billboard.com/music/pop/madonna-producer-patrick-leonard-talks-like-a-prayer-at-25-5944767/), [bell hooks essay (Amherst PDF)](https://www.amherst.edu/media/view/91806/original/hooks+-+Madonnna+-+Plantation+Mistress+or+Soul+Sister?.pdf=), [Billboard — 2016 speech](https://www.billboard.com/music/awards/madonna-billboard-woman-of-the-year-labrinth-7616927/), [Billboard — 2023 Grammys response](https://www.billboard.com/music/music-news/madonna-responds-grammys-backlash-ageism-misogyny-1235250203/), [HuffPost — Harper's Bazaar 2013 essay](https://www.huffpost.com/entry/madonna-raped-harpers-bazaar_n_4045732)
