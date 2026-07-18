@@ -103,7 +103,7 @@
 	// Load nested comments
 	async function loadNestedComments() {
 		if (!user) {
-			notifications.info('Must register or login to see nested comments', 3000);
+			notifications.info('Sign up or log in to see nested comments.', 3000);
 			return;
 		}
 
@@ -156,7 +156,7 @@
 	// Handle like/unlike
 	async function toggleLike() {
 		if (!user) {
-			notifications.info('Must register or login to like comments', 3000);
+			notifications.info('Sign up or log in to like comments.', 3000);
 			return;
 		}
 
@@ -198,8 +198,8 @@
 	async function createReply() {
 		if (!canComment()) return;
 		if (!user?.id) {
-			replyError = 'Register or log in to reply.';
-			notifications.info('Must register or login to reply', 3000);
+			replyError = 'Sign up or log in to reply.';
+			notifications.info('Sign up or log in to reply.', 3000);
 			return;
 		}
 		if (!newcomment.trim()) {
@@ -269,12 +269,12 @@
 	function canComment() {
 		if (!questionPageData?.flags?.userSignedIn && !user?.id) {
 			if (questionPageData?.flags?.userHasAnswered || anonymousComment) {
-				replyError = 'Register or log in to comment more than once.';
-				notifications.info('Must register or login to comment multiple times', 3000);
+				replyError = 'Sign up or log in to comment more than once.';
+				notifications.info('Sign up or log in to comment multiple times.', 3000);
 				return false;
 			} else {
-				replyError = 'Register or log in to reply to another comment.';
-				notifications.info('Must register or login to comment on other comments', 3000);
+				replyError = 'Sign up or log in to reply to another comment.';
+				notifications.info('Sign up or log in to comment on other comments.', 3000);
 				return false;
 			}
 		}
@@ -679,8 +679,7 @@
 				rows="6"
 				bind:value={commentEdit}
 				class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-4 text-base leading-relaxed text-[var(--ink-bright)] placeholder-[var(--ink-dim)] transition-colors duration-200 focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
-				placeholder="Edit your comment..."
-			></textarea>
+				placeholder="Edit your comment..."></textarea>
 		</div>
 
 		<div class="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">

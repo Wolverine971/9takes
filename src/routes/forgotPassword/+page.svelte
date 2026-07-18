@@ -159,7 +159,7 @@
 	{/if}
 
 	<div class="back-link">
-		<a href="/login">Back to Login</a>
+		<a href="/login">Back to log in</a>
 	</div>
 </div>
 

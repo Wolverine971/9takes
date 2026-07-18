@@ -198,12 +198,12 @@
 		const flags = isQuestionPageData(data) ? data.flags : null;
 		if (!flags?.userSignedIn && !user?.id) {
 			if (flags?.userHasAnswered || anonymousComment) {
-				commentError = 'Register or log in to comment more than once.';
-				notifications.info('Must register or login to comment multiple times', 3000);
+				commentError = 'Sign up or log in to comment more than once.';
+				notifications.info('Sign up or log in to comment multiple times.', 3000);
 				return false;
 			} else if (parentType === 'comment') {
-				commentError = 'Register or log in to reply to another comment.';
-				notifications.info('Must register or login to comment on other comments', 3000);
+				commentError = 'Sign up or log in to reply to another comment.';
+				notifications.info('Sign up or log in to comment on other comments.', 3000);
 				return false;
 			}
 		}
@@ -288,7 +288,7 @@
 	// Toggle subscription status
 	const toggleSubscription = async () => {
 		if (!user) {
-			notifications.info('Must register or login to subscribe to questions', 3000);
+			notifications.info('Sign up or log in to subscribe to questions.', 3000);
 			return;
 		}
 

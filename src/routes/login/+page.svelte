@@ -136,11 +136,11 @@
 		Back to your takes and the questions you follow.
 	</p>
 	<p class="auth-switch" in:fly={{ y: -12, duration: 300, delay: 200 }}>
-		Need an account? <a href="/register">Register</a>
+		Need an account? <a href="/register">Sign up</a>
 	</p>
 	{#if data.confirmationError}
 		<div class="confirm-error" role="alert">
-			That confirmation link is invalid or has expired. Try logging in, or register again to get a
+			That confirmation link is invalid or has expired. Try logging in, or sign up again to get a
 			new link.
 		</div>
 	{/if}
@@ -177,7 +177,7 @@
 			<div bind:this={captchaContainer}></div>
 		{/if}
 		<Button type="submit" variant="primary" size="lg" fullWidth {loading} class="mt-4">
-			Login
+			Log in
 		</Button>
 	</form>
 	<div class="forgot-password" in:fly={{ y: 20, duration: 300, delay: 450 }}>

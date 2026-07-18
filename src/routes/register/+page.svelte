@@ -97,7 +97,7 @@
 			result: { type: string; data?: { error?: string; captchaRequired?: boolean } };
 		}) => {
 			if (result.type === 'success') {
-				notifications.success('Registration successful! Please check your email.', 6000);
+				notifications.success('Account created! Please check your email.', 6000);
 				// Keep loading=true during navigation
 				await goto('/login');
 				await invalidateAll();
@@ -154,7 +154,7 @@
 </svelte:head>
 
 <div class="auth-container" in:fade={{ duration: 300 }}>
-	<h1 class="auth-title" in:fly={{ y: -20, duration: 300, delay: 150 }}>Register</h1>
+	<h1 class="auth-title" in:fly={{ y: -20, duration: 300, delay: 150 }}>Sign up</h1>
 	<p class="auth-lede" in:fly={{ y: -12, duration: 300, delay: 180 }}>
 		Answering stays anonymous, no account needed. An account keeps your takes, your type, and the
 		questions you follow in one place.
@@ -222,7 +222,7 @@
 		{/if}
 
 		<Button type="submit" variant="primary" size="lg" fullWidth {loading} class="mt-2">
-			Register
+			Sign up
 		</Button>
 	</form>
 	<div class="forgot-link" in:fly={{ y: 20, duration: 300, delay: 450 }}>

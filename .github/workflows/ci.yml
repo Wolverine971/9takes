@@ -19,6 +19,28 @@ jobs:
     name: Check, test, and build
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    # SvelteKit generates types for static env imports during `pnpm check`.
+    # CI only needs safe, syntactically valid placeholders; no production
+    # credentials are required for checks, unit tests, or the build.
+    env:
+      PUBLIC_SUPABASE_URL: https://ci-placeholder.supabase.co
+      PUBLIC_SUPABASE_PUBLISHABLE_KEY: ci-placeholder
+      PUBLIC_RECAPTCHA_SITE_KEY: ci-placeholder
+      PUBLIC_MAPBOX_TOKEN: ci-placeholder
+      PUBLIC_POSTHOG_KEY: ci-placeholder
+      PUBLIC_POSTHOG_HOST: https://us.i.posthog.com
+      PUBLIC_POSTHOG_ENABLE_IN_DEV: 'false'
+      SUPABASE_SERVICE_KEY: ci-placeholder
+      PRIVATE_ELASTICSEARCH_NODE: http://localhost:9200
+      PRIVATE_ELASTIC_ADMIN: ci-placeholder
+      PRIVATE_OPENROUTER_API_KEY: ci-placeholder
+      PRIVATE_SIGNUP_KEY: ci-placeholder
+      PRIVATE_ADMIN_EMAIL: ci@example.com
+      PRIVATE_gmail_private_key: ci-placeholder
+      PRIVATE_GOOGLE_MAPS_API_KEY: ci-placeholder
+      PRIVATE_WEBHOOK_AUTH: ci-placeholder
+      CRON_SECRET: ci-placeholder
+      RECAPTCHA_SECRET_KEY: ci-placeholder
 
     steps:
       - name: Check out repository
