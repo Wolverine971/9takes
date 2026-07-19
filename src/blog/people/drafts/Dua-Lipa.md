@@ -19,10 +19,7 @@ wikidata_qid: 'Q21914464'
 imdb_id: 'nm7645984'
 birth_date: '1995-08-22'
 birth_place: 'London, England, United Kingdom'
-nationality:
-  - 'British'
-  - 'Albanian'
-  - 'Kosovan'
+nationality: 'British, Albanian, and Kosovan'
 occupation:
   - 'Singer'
   - 'Songwriter'

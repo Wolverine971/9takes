@@ -5,7 +5,8 @@
 **For:** the agent assigned to strip the remaining `QUALITY_FEEDBACK` HTML comments out of published blogs.
 **Owner:** DJ
 **Created:** 2026-07-15
-**Status:** Dry run complete 2026-07-15; awaiting DJ review. 86 of the original 88 blocks remain in source. No T-10 bulk deletion has started.
+**Status:** Dry run complete 2026-07-15; awaiting DJ review. 86 of the original 88 blocks remained at the dry run. No T-10 bulk deletion has started.
+**Re-verified 2026-07-18:** the count is now **79** published files carrying `QUALITY_FEEDBACK_START`, down from 86, because subsequent per-file reworks (the 2026-07-15 etiology fixes and the type-1/type-8 worldview rebuilds) stripped several blocks along the way, e.g. `astrology-and-the-enneagram` and `depression-patterns-by-enneagram-type` are now clean. The leak still ships on the #1 traffic page (`enneagram-and-mental-illness`, leaks `Grade: A+ (9.5)`) and on the #3 mental-health page (`enneagram-neurodivergence-guide`, leaks `Grade: D (6.9) | Safety: fail | Tags: template-fatigue, safety-boundary-risk`). This is still the executable next step for the leak class. Re-run the count before writing any patch; it decays as T-13 touches the same top files.
 **Related:** `docs/content-analysis/2026-07-15_enneagram-blog-audit.md` §9.5 (the correction that owns this; §8 items 2-3 and §9.4 are the under-count it corrects). Siblings: `T-02` (the two prose-dump leaks, owns the lint guard), `T-03` (the frontmatter half of the same batch run).
 
 ---

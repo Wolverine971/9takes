@@ -3,6 +3,9 @@ import path from 'path';
 import { describe, expect, it } from 'vitest';
 
 import {
+	assertNonPublishPlanApproved,
+	buildNonPublishUpdatePlan,
+	buildPeopleManagedSnapshot,
 	countPublishableSections,
 	countPublishableWords,
 	extractJsonLd,
@@ -10,6 +13,7 @@ import {
 	findUnfinishedDraftMarkers,
 	getMissingPublishFrontmatterFields,
 	getPublishImageStatus,
+	hashPeopleContent,
 	normalizeBirthDate,
 	normalizeFaqs,
 	normalizeImdbId,
@@ -21,7 +25,8 @@ import {
 	resolveReleaseEventType,
 	selectPublishCandidate,
 	shouldProcessMarkdownFile,
-	updatePublishFrontmatterContent
+	updatePublishFrontmatterContent,
+	verifyNonPublishUpdate
 } from '../../../scripts/personBlogParser.js';
 
 describe('personBlogParser', () => {
@@ -47,6 +52,14 @@ describe('personBlogParser', () => {
 			letter: 'B+',
 			graded_at: '2026-03-04'
 		});
+	});
+
+	it('parses text nationality without silently nulling Dua Lipa structured data', async () => {
+		const filePath = path.resolve(process.cwd(), 'src/blog/people/drafts/Dua-Lipa.md');
+		const parsed = await parseMarkdownFile(filePath);
+
+		expect(parsed.nationality).toBe('British, Albanian, and Kosovan');
+		expect(parsed._explicit_fields).toContain('nationality');
 	});
 
 	it('filters out templates and research helpers from full person pushes', () => {
@@ -335,6 +348,126 @@ TODO: add source.
 			]);
 			expect(normalizeFaqs([])).toBeNull();
 			expect(normalizeFaqs(null)).toBeNull();
+		});
+	});
+
+	describe('non-publish update safety', () => {
+		const existing = {
+			id: 42,
+			person: 'example-person',
+			title: 'Old title',
+			meta_title: 'Old meta',
+			persona_title: 'Old persona',
+			description: 'Old description',
+			author: 'DJ Wayne',
+			date: '2026-01-01',
+			loc: 'https://9takes.com/personality-analysis/example-person',
+			lastmod: '2026-02-03',
+			changefreq: 'monthly',
+			priority: '0.6',
+			published: true,
+			enneagram: '3',
+			type: ['musician'],
+			suggestions: ['someone'],
+			wikipedia: '',
+			twitter: '',
+			instagram: '',
+			tiktok: '',
+			content: 'Old body',
+			jsonld_snippet: null,
+			content_quality: null,
+			keywords: null,
+			same_as: null,
+			faqs: null,
+			wikidata_qid: null,
+			imdb_id: null,
+			birth_date: null,
+			birth_place: null,
+			nationality: 'American',
+			occupation: null,
+			knows_about: null,
+			citations: null,
+			created_at: '2026-01-01T00:00:00Z',
+			search_vector: 'generated old value'
+		};
+
+		const entry = {
+			...existing,
+			enneagram: 3,
+			title: 'New title',
+			lastmod: '2099-12-31',
+			content: 'New body',
+			nationality: null,
+			_has_content_quality: false,
+			_has_valid_content_quality: true,
+			_explicit_fields: ['title', 'lastmod', 'content']
+		} as any;
+
+		it('preserves protected fields and only proposes explicitly represented fields', () => {
+			const plan = buildNonPublishUpdatePlan(existing, entry);
+
+			expect(plan.patch).toEqual({
+				title: 'New title',
+				content: 'New body'
+			});
+			expect(plan.patch).not.toHaveProperty('lastmod');
+			expect(plan.patch).not.toHaveProperty('published');
+			expect(plan.patch).not.toHaveProperty('nationality');
+			expect(plan.protectedDrift).toEqual([
+				{
+					field: 'lastmod',
+					live: '2026-02-03',
+					local: '2099-12-31'
+				}
+			]);
+			expect(plan.expectedContentHash).toBe(hashPeopleContent('Old body'));
+			expect(plan.expectedManaged).toEqual(buildPeopleManagedSnapshot(existing));
+		});
+
+		it('requires an exact reviewed hash and field approval set', () => {
+			const alignedEntry = { ...entry, lastmod: existing.lastmod };
+			const plan = buildNonPublishUpdatePlan(existing, alignedEntry);
+
+			expect(() =>
+				assertNonPublishPlanApproved(plan, {
+					expectedContentHash: plan.expectedContentHash,
+					approvedFields: ['content']
+				})
+			).toThrow(/exactly match/);
+			expect(() =>
+				assertNonPublishPlanApproved(plan, {
+					expectedContentHash: '00000000000000000000000000000000',
+					approvedFields: ['content', 'title']
+				})
+			).toThrow(/hash mismatch/i);
+			expect(() =>
+				assertNonPublishPlanApproved(plan, {
+					expectedContentHash: plan.expectedContentHash,
+					approvedFields: ['title', 'content']
+				})
+			).not.toThrow();
+		});
+
+		it('fails post-write verification when an unapproved field changes', () => {
+			const alignedEntry = { ...entry, lastmod: existing.lastmod };
+			const plan = buildNonPublishUpdatePlan(existing, alignedEntry);
+			const verified = {
+				...existing,
+				...plan.patch,
+				lastmod: '2026-07-18',
+				search_vector: 'generated new value'
+			};
+
+			expect(verifyNonPublishUpdate(existing, verified, plan)).toContain(
+				'lastmod changed without approval'
+			);
+			expect(
+				verifyNonPublishUpdate(existing, { ...verified, lastmod: existing.lastmod }, plan)
+			).toEqual([]);
+		});
+
+		it('refuses a missing row instead of preparing an insert', () => {
+			expect(() => buildNonPublishUpdatePlan(null, entry)).toThrow(/Existing-row-only/);
 		});
 	});
 });

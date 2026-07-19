@@ -1,17 +1,18 @@
 // scripts/personBlogParser.js
 //
 // Usage:
-//   node scripts/personBlogParser.js                    # Process all people
-//   node scripts/personBlogParser.js Malcolm-Gladwell   # Process single person
-//   node scripts/personBlogParser.js --changed          # Process changed drafts only
+//   node scripts/personBlogParser.js Malcolm-Gladwell   # Dry-run one existing person (default)
+//   node scripts/personBlogParser.js --changed          # Dry-run changed drafts
 //   node scripts/personBlogParser.js --changed Malcolm-Gladwell
-//   node scripts/personBlogParser.js --grades-only --changed
-//   node scripts/personBlogParser.js --grades-only Malcolm-Gladwell
+//   node scripts/personBlogParser.js Malcolm-Gladwell --apply \
+//     --expected-content-hash=<md5> --approve-fields=content,description
+//   node scripts/personBlogParser.js --grades-only Malcolm-Gladwell # Dry-run grade change
 //   node scripts/personBlogParser.js Malcolm-Gladwell --publish
 //   node scripts/personBlogParser.js --publish          # Publish top eligible unpublished draft
 //
 import { promises as fs } from 'fs';
 import { execFileSync, execSync } from 'child_process';
+import { createHash } from 'crypto';
 import path from 'path';
 import matter from 'gray-matter';
 import dotenv from 'dotenv';
@@ -94,12 +95,20 @@ dotenv.config();
 /**
  * @typedef {BlogRecord & {
  *   _has_content_quality: boolean,
- *   _has_valid_content_quality: boolean
+ *   _has_valid_content_quality: boolean,
+ *   _explicit_fields: string[]
  * }} PersonBlogEntry
  */
 
 /**
- * @typedef {{ gradesOnly?: boolean }} InsertIntoSupabaseOptions
+ * @typedef {{
+ *   gradesOnly?: boolean,
+ *   apply?: boolean,
+ *   expectedContentHash?: string | null,
+ *   approvedFields?: string[],
+ *   publishSync?: boolean,
+ *   supabase?: ReturnType<typeof createSupabaseServiceClient>
+ * }} InsertIntoSupabaseOptions
  */
 
 /**
@@ -150,6 +159,7 @@ dotenv.config();
 const SUPABASE_URL = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 const BLOG_HISTORY_SIGNATURE_SENTINEL_ID = 2147483648;
+const PEOPLE_ATOMIC_UPDATE_RPC = 'update_blogs_famous_people_if_unchanged';
 const PEOPLE_DRAFTS_DIR = 'src/blog/people/drafts';
 const PUBLISH_MIN_CONTENT_GRADE = 8.5;
 // Audit 2026-06-10: v1 grades clustered 8.5-9.4 and were discoverability-blind. Publishing
@@ -191,6 +201,51 @@ const UNFINISHED_DRAFT_PATTERNS = [
 		pattern: /\b(outline only|skeleton draft|bare bones|stub draft|unfinished draft)\b/i
 	}
 ];
+export const PERSON_BLOG_MANAGED_FIELDS = Object.freeze([
+	'title',
+	'meta_title',
+	'persona_title',
+	'description',
+	'author',
+	'date',
+	'loc',
+	'lastmod',
+	'changefreq',
+	'priority',
+	'published',
+	'enneagram',
+	'type',
+	'person',
+	'suggestions',
+	'wikipedia',
+	'twitter',
+	'instagram',
+	'tiktok',
+	'content',
+	'jsonld_snippet',
+	'content_quality',
+	'keywords',
+	'same_as',
+	'faqs',
+	'wikidata_qid',
+	'imdb_id',
+	'birth_date',
+	'birth_place',
+	'nationality',
+	'occupation',
+	'knows_about',
+	'citations'
+]);
+export const NON_PUBLISH_LOCKED_FIELDS = Object.freeze([
+	'date',
+	'loc',
+	'lastmod',
+	'published',
+	'enneagram',
+	'type',
+	'person'
+]);
+const DERIVED_DATABASE_FIELDS = new Set(['search_vector']);
 
 function createSupabaseServiceClient() {
 	if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
@@ -806,6 +861,10 @@ export async function parseMarkdownFile(filePath) {
 		data.citations,
 		`${normalizedPerson || 'citations'}:citations`
 	);
+	const explicitFields = new Set(Object.keys(data));
+	explicitFields.add('content');
+	if (jsonld_snippet !== null) explicitFields.add('jsonld_snippet');
+	if (hasContentQualityField) explicitFields.add('content_quality');
 
 	// Create the database record
 	return {
@@ -845,7 +904,8 @@ export async function parseMarkdownFile(filePath) {
 		knows_about,
 		citations,
 		_has_content_quality: hasContentQualityField,
-		_has_valid_content_quality: hasValidContentQuality
+		_has_valid_content_quality: hasValidContentQuality,
+		_explicit_fields: [...explicitFields]
 	};
 }
 
@@ -1341,7 +1401,10 @@ async function publishPersonBlog(options) {
 
 	await updateDraftFrontmatterForPublish(selected.filePath, publishDate);
 	const updatedEntry = await parseMarkdownFile(selected.filePath);
-	const syncResult = await insertIntoSupabase([updatedEntry]);
+	const syncResult = await insertIntoSupabase([updatedEntry], {
+		apply: true,
+		publishSync: true
+	});
 
 	if (syncResult.errors.length > 0) {
 		throw new Error(`Content sync failed before publish:\n${syncResult.errors.join('\n')}`);
@@ -1358,32 +1421,244 @@ async function publishPersonBlog(options) {
 }
 
 /**
- * Upsert blog entries into Supabase blogs_famous_people table
- * @param {PersonBlogEntry[]} entries - Blog entries to insert
- * @param {InsertIntoSupabaseOptions} [options={}] - Insert options
- * @returns {Promise<InsertIntoSupabaseResult>}
+ * @param {unknown} value
+ * @returns {unknown}
  */
-async function insertIntoSupabase(entries, options = {}) {
-	const supabase = createSupabaseServiceClient();
-	const gradesOnly = options.gradesOnly === true;
-	/** @type {InsertIntoSupabaseResult} */
-	const result = {
-		processed: entries.length,
-		updated: 0,
-		inserted: 0,
-		gradesUpdated: 0,
-		skipped: 0,
-		errors: []
-	};
+function canonicalizeForComparison(value) {
+	if (value instanceof Date) return value.toISOString();
+	if (Array.isArray(value)) return value.map(canonicalizeForComparison);
+	if (value && typeof value === 'object') {
+		return Object.fromEntries(
+			Object.entries(/** @type {Record<string, unknown>} */ (value))
+				.sort(([a], [b]) => a.localeCompare(b))
+				.map(([key, nested]) => [key, canonicalizeForComparison(nested)])
+		);
+	}
+	return value === undefined ? null : value;
+}
 
-	console.log(`Processing ${entries.length} blog entries...`);
+/**
+ * @param {unknown} left
+ * @param {unknown} right
+ * @returns {boolean}
+ */
+export function peopleFieldValuesEqual(left, right) {
+	return (
+		JSON.stringify(canonicalizeForComparison(left)) ===
+		JSON.stringify(canonicalizeForComparison(right))
+	);
+}
 
-	if (!gradesOnly && entries.length > 0) {
-		await assertBlogHistorySchemaCompatible(supabase);
+/**
+ * The database RPC compares this full parser-managed snapshot while holding the
+ * target row lock. That catches metadata drift as well as content drift.
+ * @param {Record<string, unknown>} row
+ * @returns {Record<string, unknown>}
+ */
+export function buildPeopleManagedSnapshot(row) {
+	return Object.fromEntries(
+		PERSON_BLOG_MANAGED_FIELDS.map((field) => [field, row[field] === undefined ? null : row[field]])
+	);
+}
+
+/**
+ * @param {unknown} content
+ * @returns {string}
+ */
+export function hashPeopleContent(content) {
+	return createHash('md5')
+		.update(typeof content === 'string' ? content : '')
+		.digest('hex');
+}
+
+/**
+ * @param {string} field
+ * @param {unknown} value
+ * @returns {unknown}
+ */
+function normalizeLockedField(field, value) {
+	if (field === 'enneagram' && value !== null && value !== undefined) return String(value);
+	return value;
+}
+
+/**
+ * Build a fail-closed update plan. Only fields explicitly represented by the
+ * draft are candidates; protected release/identity fields are never patched.
+ * @param {Record<string, unknown> | null | undefined} existing
+ * @param {PersonBlogEntry} entry
+ * @param {{ gradesOnly?: boolean }} [options]
+ */
+export function buildNonPublishUpdatePlan(existing, entry, options = {}) {
+	if (!existing) {
+		throw new Error(
+			`Existing-row-only update refused: ${entry.person || 'unknown person'} was not found`
+		);
+	}
+	if (normalizePersonalitySlug(existing.person) !== normalizePersonalitySlug(entry.person)) {
+		throw new Error(
+			`Target mismatch: draft ${entry.person} does not match live row ${String(existing.person || '')}`
+		);
 	}
 
-	/** @type {BlogRecord} */
-	const fields = {
+	const explicitFields = new Set(entry._explicit_fields || []);
+	explicitFields.add('content');
+	if (!entry._has_content_quality || !entry._has_valid_content_quality) {
+		explicitFields.delete('content_quality');
+	}
+
+	const candidateFields = options.gradesOnly
+		? ['content_quality']
+		: PERSON_BLOG_MANAGED_FIELDS.filter((field) => !NON_PUBLISH_LOCKED_FIELDS.includes(field));
+	/** @type {Record<string, unknown>} */
+	const patch = {};
+	const diff = [];
+
+	for (const field of candidateFields) {
+		if (!explicitFields.has(field)) continue;
+		const after = entry[field];
+		const before = existing[field] === undefined ? null : existing[field];
+		if (peopleFieldValuesEqual(before, after)) continue;
+		patch[field] = after === undefined ? null : after;
+		diff.push({ field, before, after: patch[field] });
+	}
+
+	const protectedDrift = NON_PUBLISH_LOCKED_FIELDS.flatMap((field) => {
+		const before = normalizeLockedField(field, existing[field]);
+		const local = normalizeLockedField(field, entry[field]);
+		return peopleFieldValuesEqual(before, local)
+			? []
+			: [{ field, live: existing[field], local: entry[field] }];
+	});
+
+	return {
+		id: existing.id,
+		person: String(existing.person || entry.person),
+		expectedContentHash: hashPeopleContent(existing.content),
+		localContentHash: hashPeopleContent(entry.content),
+		expectedManaged: buildPeopleManagedSnapshot(existing),
+		patch,
+		diff,
+		protectedDrift
+	};
+}
+
+/**
+ * Applying requires the reviewed hash and the exact changed-field set printed
+ * by the dry run. Missing or extra approvals fail closed.
+ * @param {ReturnType<typeof buildNonPublishUpdatePlan>} plan
+ * @param {{ expectedContentHash?: string | null, approvedFields?: string[] }} options
+ */
+export function assertNonPublishPlanApproved(plan, options) {
+	if (plan.protectedDrift.length > 0) {
+		throw new Error(
+			`Protected field drift must be reconciled before update: ${plan.protectedDrift
+				.map(({ field }) => field)
+				.join(', ')}`
+		);
+	}
+	if (!options.expectedContentHash || options.expectedContentHash !== plan.expectedContentHash) {
+		throw new Error(
+			`Expected content hash mismatch. Review the dry run and pass --expected-content-hash=${plan.expectedContentHash}`
+		);
+	}
+
+	const changed = [...new Set(plan.diff.map(({ field }) => field))].sort();
+	const approved = [...new Set(options.approvedFields || [])].sort();
+	if (!peopleFieldValuesEqual(changed, approved)) {
+		throw new Error(
+			`Approved fields must exactly match the dry-run diff. Changed: ${changed.join(', ') || '(none)'}. Approved: ${approved.join(', ') || '(none)'}`
+		);
+	}
+}
+
+/**
+ * @param {unknown} value
+ * @param {string} field
+ * @returns {unknown}
+ */
+function previewPeopleFieldValue(value, field) {
+	if (field === 'content') {
+		return {
+			hash: hashPeopleContent(value),
+			characters: typeof value === 'string' ? value.length : 0
+		};
+	}
+	return value;
+}
+
+/**
+ * @param {ReturnType<typeof buildNonPublishUpdatePlan>} plan
+ * @returns {void}
+ */
+export function printNonPublishUpdatePlan(plan) {
+	console.log(`\nPeople update preview: ${plan.person} (id=${String(plan.id)})`);
+	console.log(`Expected live content hash: ${plan.expectedContentHash}`);
+	console.log(`Local parsed content hash:  ${plan.localContentHash}`);
+	console.log(
+		`Protected fields: ${NON_PUBLISH_LOCKED_FIELDS.join(', ')} (preserved by code and RPC)`
+	);
+	if (plan.protectedDrift.length > 0) {
+		console.log('BLOCKED protected-field drift:');
+		for (const drift of plan.protectedDrift) {
+			console.log(
+				JSON.stringify({
+					field: drift.field,
+					live: previewPeopleFieldValue(drift.live, drift.field),
+					local: previewPeopleFieldValue(drift.local, drift.field)
+				})
+			);
+		}
+	}
+	if (plan.diff.length === 0) {
+		console.log('No parser-managed field changes.');
+		return;
+	}
+	console.log('Field-by-field diff:');
+	for (const change of plan.diff) {
+		console.log(
+			JSON.stringify({
+				field: change.field,
+				before: previewPeopleFieldValue(change.before, change.field),
+				after: previewPeopleFieldValue(change.after, change.field)
+			})
+		);
+	}
+	console.log(`Approval token: --approve-fields=${plan.diff.map(({ field }) => field).join(',')}`);
+}
+
+/**
+ * @param {Record<string, unknown>} before
+ * @param {Record<string, unknown>} after
+ * @param {ReturnType<typeof buildNonPublishUpdatePlan>} plan
+ * @returns {string[]}
+ */
+export function verifyNonPublishUpdate(before, after, plan) {
+	const errors = [];
+	for (const [field, expected] of Object.entries(plan.patch)) {
+		if (!peopleFieldValuesEqual(after[field], expected)) {
+			errors.push(`${field} does not match the approved draft value`);
+		}
+	}
+	for (const [field, value] of Object.entries(before)) {
+		if (Object.prototype.hasOwnProperty.call(plan.patch, field)) continue;
+		if (DERIVED_DATABASE_FIELDS.has(field)) continue;
+		if (!peopleFieldValuesEqual(value, after[field])) {
+			errors.push(`${field} changed without approval`);
+		}
+	}
+	const expectedContent =
+		typeof plan.patch.content === 'string' ? plan.patch.content : String(before.content || '');
+	if (hashPeopleContent(after.content) !== hashPeopleContent(expectedContent)) {
+		errors.push('live content hash does not match the reviewed parsed content hash');
+	}
+	return errors;
+}
+
+/**
+ * @returns {BlogRecord}
+ */
+function getEmptyBlogRecord() {
+	return {
 		title: '',
 		meta_title: '',
 		persona_title: '',
@@ -1418,136 +1693,191 @@ async function insertIntoSupabase(entries, options = {}) {
 		knows_about: null,
 		citations: null
 	};
+}
+
+/**
+ * Publish owns release metadata and deliberately retains the legacy insert path.
+ * It is isolated from the non-publish tasker path.
+ * @param {ReturnType<typeof createSupabaseServiceClient>} supabase
+ * @param {PersonBlogEntry} entry
+ * @param {InsertIntoSupabaseResult} result
+ */
+async function syncEntryForPublish(supabase, entry, result) {
+	const {
+		_has_content_quality,
+		_has_valid_content_quality,
+		_explicit_fields: _explicitFields,
+		...entryRecord
+	} = entry;
+	/** @type {BlogRecord} */
+	const record = { ...getEmptyBlogRecord(), ...entryRecord };
+	if (!_has_content_quality || !_has_valid_content_quality) delete record.content_quality;
+
+	const { data: existing, error: existingError } = await supabase
+		.from('blogs_famous_people')
+		.select('id,published')
+		.ilike('person', entry.person)
+		.maybeSingle();
+	if (existingError) throw new Error(existingError.message);
+
+	if (existing) {
+		const { published: _published, ...updateRecord } = record;
+		const { error } = await supabase
+			.from('blogs_famous_people')
+			.update(updateRecord)
+			.eq('id', existing.id);
+		if (error) throw new Error(error.message);
+		result.updated += 1;
+		return;
+	}
+
+	const { error } = await supabase
+		.from('blogs_famous_people')
+		.insert({ ...record, published: false });
+	if (error) throw new Error(error.message);
+	result.inserted += 1;
+}
+
+/**
+ * Preview or atomically update existing blogs_famous_people rows.
+ * Non-publish mode is dry-run by default and never inserts.
+ * @param {PersonBlogEntry[]} entries
+ * @param {InsertIntoSupabaseOptions} [options={}]
+ * @returns {Promise<InsertIntoSupabaseResult>}
+ */
+export async function insertIntoSupabase(entries, options = {}) {
+	const supabase = options.supabase || createSupabaseServiceClient();
+	const gradesOnly = options.gradesOnly === true;
+	const apply = options.apply === true;
+	const publishSync = options.publishSync === true;
+	/** @type {InsertIntoSupabaseResult} */
+	const result = {
+		processed: entries.length,
+		updated: 0,
+		inserted: 0,
+		gradesUpdated: 0,
+		skipped: 0,
+		errors: []
+	};
+
+	if (apply && !publishSync && entries.length !== 1) {
+		throw new Error('Fail-closed apply requires exactly one person');
+	}
+	if (publishSync && !apply) {
+		throw new Error('Internal publish sync requires apply mode');
+	}
+	if ((apply || publishSync) && entries.length > 0) {
+		await assertBlogHistorySchemaCompatible(supabase);
+	}
+
+	console.log(
+		`${apply ? 'Applying' : 'Dry-run previewing'} ${entries.length} people blog entr${entries.length === 1 ? 'y' : 'ies'}...`
+	);
 
 	for (const entry of entries) {
 		try {
-			if (!entry.person) {
-				console.error(`Skipping entry with missing person slug: ${entry.title || 'Untitled'}`);
+			if (!entry.person) throw new Error(`Missing person slug: ${entry.title || 'Untitled'}`);
+
+			if (publishSync) {
+				await syncEntryForPublish(supabase, entry, result);
+				continue;
+			}
+			if (gradesOnly && (!entry._has_content_quality || !entry._has_valid_content_quality)) {
+				console.log(
+					`Skipped (${entry._has_content_quality ? 'invalid' : 'no'} content_quality): ${entry.person}`
+				);
 				result.skipped += 1;
 				continue;
 			}
 
-			const { _has_content_quality, _has_valid_content_quality, ...entryRecord } = entry;
-			/** @type {BlogRecord} */
-			const record = { ...fields, ...entryRecord };
-
-			// Only update content_quality when explicitly present in frontmatter.
-			if (!_has_content_quality || !_has_valid_content_quality) {
-				delete record.content_quality;
-			}
-			if (_has_content_quality && !_has_valid_content_quality) {
-				console.warn(`Invalid content_quality for ${entry.person}; preserving DB value`);
-			}
-
-			if (gradesOnly) {
-				if (!_has_content_quality) {
-					console.log(`Skipped (no content_quality): ${entry.person}`);
-					result.skipped += 1;
-					continue;
-				}
-				if (!_has_valid_content_quality) {
-					console.log(`Skipped (invalid content_quality): ${entry.person}`);
-					result.skipped += 1;
-					continue;
-				}
-
-				const { data: existing, error: existingError } = await supabase
-					.from('blogs_famous_people')
-					.select('id')
-					.ilike('person', entry.person)
-					.maybeSingle();
-
-				if (existingError) {
-					console.error(`Error checking existing row for ${entry.person}:`, existingError);
-					result.errors.push(
-						`Error checking existing row for ${entry.person}: ${existingError.message}`
-					);
-					continue;
-				}
-
-				if (!existing) {
-					const message = `Error updating ${entry.person}: row not found (grades-only mode does not insert new rows)`;
-					console.error(message);
-					result.errors.push(message);
-					continue;
-				}
-
-				/** @type {{ content_quality: ContentQuality | null }} */
-				const gradePayload =
-					record.content_quality === undefined
-						? { content_quality: null }
-						: { content_quality: record.content_quality };
-				const { error } = await supabase
-					.from('blogs_famous_people')
-					.update(gradePayload)
-					.eq('id', existing.id);
-
-				if (error) {
-					console.error(`Error updating grade for ${entry.person}:`, error);
-					result.errors.push(`Error updating grade for ${entry.person}: ${error.message}`);
-				} else {
-					const gradePreview = gradePayload.content_quality?.overall ?? 'null';
-					console.log(`Updated grade: ${entry.person} (overall=${gradePreview})`);
-					result.gradesUpdated += 1;
-				}
-				continue;
-			}
-
-			// Check if record exists by person slug
 			const { data: existing, error: existingError } = await supabase
 				.from('blogs_famous_people')
-				.select('id,published')
+				.select('*')
 				.ilike('person', entry.person)
 				.maybeSingle();
-
-			if (existingError) {
-				console.error(`Error checking existing row for ${entry.person}:`, existingError);
-				result.errors.push(
-					`Error checking existing row for ${entry.person}: ${existingError.message}`
+			if (existingError) throw new Error(`Live-row lookup failed: ${existingError.message}`);
+			if (!existing) {
+				throw new Error(
+					`Existing-row-only update refused: ${entry.person} was not found; no row was inserted`
 				);
+			}
+
+			const plan = buildNonPublishUpdatePlan(existing, entry, { gradesOnly });
+			printNonPublishUpdatePlan(plan);
+			if (!apply) continue;
+
+			assertNonPublishPlanApproved(plan, {
+				expectedContentHash: options.expectedContentHash,
+				approvedFields: options.approvedFields
+			});
+			if (plan.diff.length === 0) {
+				console.log(`No-op verified: ${entry.person}`);
+				result.skipped += 1;
 				continue;
 			}
 
-			if (existing) {
-				// Preserve DB publish state for existing rows.
-				const { published: _published, ...updateRecord } = record;
+			const { error: updateError } = await supabase.rpc(PEOPLE_ATOMIC_UPDATE_RPC, {
+				p_id: existing.id,
+				p_expected_content_hash: plan.expectedContentHash,
+				p_expected_managed: plan.expectedManaged,
+				p_patch: plan.patch
+			});
+			if (updateError) {
+				const migrationHint =
+					updateError.code === 'PGRST202' ||
+					/update_blogs_famous_people_if_unchanged/i.test(updateError.message)
+						? ' Apply the hardened people-update migration before retrying.'
+						: '';
+				throw new Error(`Atomic update refused: ${updateError.message}.${migrationHint}`);
+			}
 
-				const { error } = await supabase
-					.from('blogs_famous_people')
-					.update(updateRecord)
-					.eq('id', existing.id);
+			const { data: verified, error: verifyReadError } = await supabase
+				.from('blogs_famous_people')
+				.select('*')
+				.eq('id', existing.id)
+				.maybeSingle();
+			if (verifyReadError || !verified) {
+				throw new Error(`Post-write read failed: ${verifyReadError?.message || 'row not found'}`);
+			}
+			const verificationErrors = verifyNonPublishUpdate(existing, verified, plan);
+			if (verificationErrors.length > 0) {
+				throw new Error(`Post-write verification failed: ${verificationErrors.join('; ')}`);
+			}
 
-				if (error) {
-					console.error(`Error updating ${entry.person}:`, error);
-					result.errors.push(`Error updating ${entry.person}: ${error.message}`);
-				} else {
-					console.log(
-						`Updated: ${entry.title} (${entry.person}, id=${existing.id}, published preserved=${existing.published})`
+			if (Object.prototype.hasOwnProperty.call(plan.patch, 'content')) {
+				const { data: history, error: historyError } = await supabase
+					.from('blogs_famous_people_history')
+					.select('id,new_content,changed_at')
+					.eq('famous_people_id', existing.id)
+					.order('changed_at', { ascending: false })
+					.order('id', { ascending: false })
+					.limit(1)
+					.maybeSingle();
+				if (
+					historyError ||
+					!history ||
+					hashPeopleContent(history.new_content) !== plan.localContentHash
+				) {
+					throw new Error(
+						`History snapshot verification failed: ${historyError?.message || 'latest snapshot does not match'}`
 					);
-					result.updated += 1;
-				}
-			} else {
-				// Force net-new rows to remain unpublished for manual release.
-				const insertRecord = { ...record, published: false };
-				const { error } = await supabase.from('blogs_famous_people').insert(insertRecord);
-
-				if (error) {
-					console.error(`Error inserting ${entry.person}:`, error);
-					result.errors.push(`Error inserting ${entry.person}: ${error.message}`);
-				} else {
-					console.log(`Inserted: ${entry.title} (${entry.person}, published=false)`);
-					result.inserted += 1;
 				}
 			}
-		} catch (error) {
-			console.error(`Error processing ${entry.title}:`, error);
-			result.errors.push(
-				`Error processing ${entry.title}: ${error instanceof Error ? error.message : String(error)}`
+
+			if (gradesOnly) result.gradesUpdated += 1;
+			else result.updated += 1;
+			console.log(
+				`Verified update: ${entry.person}; lastmod=${String(verified.lastmod)}; published=${String(verified.published)}`
 			);
+		} catch (error) {
+			const message = `Error processing ${entry.person || entry.title}: ${
+				error instanceof Error ? error.message : String(error)
+			}`;
+			console.error(message);
+			result.errors.push(message);
 		}
 	}
 
-	console.log('Processing complete!');
 	return result;
 }
 
@@ -1561,6 +1891,15 @@ async function main() {
 		const gradesOnly = args.includes('--grades-only');
 		const publish = args.includes('--publish');
 		const skipGenAll = args.includes('--skip-gen-all');
+		const apply = args.includes('--apply');
+		const explicitDryRun = args.includes('--dry-run');
+		const expectedContentHashArg = args.find((arg) => arg.startsWith('--expected-content-hash='));
+		const approvedFieldsArg = args.find((arg) => arg.startsWith('--approve-fields='));
+		const expectedContentHash = expectedContentHashArg?.slice('--expected-content-hash='.length);
+		const approvedFields = (approvedFieldsArg?.slice('--approve-fields='.length) || '')
+			.split(',')
+			.map((field) => field.trim())
+			.filter(Boolean);
 		const personFilter = args.find((arg) => !arg.startsWith('--')); // Optional: e.g. "Malcolm-Gladwell"
 		const normalizedPersonFilter = normalizePersonalitySlug(personFilter);
 		/** @type {PersonBlogEntry[]} */
@@ -1570,9 +1909,25 @@ async function main() {
 			if (gradesOnly) {
 				throw new Error('--publish cannot be combined with --grades-only');
 			}
+			if (apply || explicitDryRun || expectedContentHashArg || approvedFieldsArg) {
+				throw new Error(
+					'--publish is a distinct release workflow; do not combine it with non-publish preview/apply flags'
+				);
+			}
 
 			await publishPersonBlog({ personFilter, changedOnly, skipGenAll });
 			return;
+		}
+		if (apply && explicitDryRun) {
+			throw new Error('--apply cannot be combined with --dry-run');
+		}
+		if (apply && !personFilter) {
+			throw new Error('--apply requires an explicit single person slug');
+		}
+		if (!apply && (expectedContentHashArg || approvedFieldsArg)) {
+			throw new Error(
+				'--expected-content-hash and --approve-fields are apply-only; run the dry preview first'
+			);
 		}
 
 		if (changedOnly) {
@@ -1600,7 +1955,15 @@ async function main() {
 		}
 
 		console.log(`Found ${blogEntries.length} entries to process`);
-		await insertIntoSupabase(blogEntries, { gradesOnly });
+		const syncResult = await insertIntoSupabase(blogEntries, {
+			gradesOnly,
+			apply,
+			expectedContentHash,
+			approvedFields
+		});
+		if (syncResult.errors.length > 0) {
+			throw new Error(`People sync failed:\n${syncResult.errors.join('\n')}`);
+		}
 
 		console.log('Processing complete!');
 	} catch (error) {

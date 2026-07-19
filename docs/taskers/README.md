@@ -60,7 +60,7 @@ All eleven come out of the 2026-07-15 full-corpus audit: `docs/content-analysis/
 
 **T-03** is a decision, not a task. It can happen any time, but do it before the next grading run so the next batch does not re-stamp 89 files.
 
-**One loose thread nobody owns:** `src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md` line 3 has an em-dash in its `description` frontmatter. That is a live lint violation on the section's #3 traffic page. It is out of scope for every tasker here because each is single-file scoped. It is a two-minute fix.
+**Resolved by T-13:** `src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.md` had a U+2014 character in its `description` frontmatter. The visible description is now clean. One raw U+2014 character remains only inside the byte-identical QFB comment owned by T-10.
 
 ---
 
@@ -76,7 +76,21 @@ Context that is done, not queued: the WHAT/WHY etiology overclaim was purged fro
 
 ---
 
-## Progress update: 2026-07-15
+## New workstream: 2026-07-18 vintage-refresh / de-AI sweep
+
+Source: DJ's 2026-07-18 question, "the blogs not updated since Opus 4.8 (2026-05-28) may have quality issues." The scan that answered it is in this session's findings, not a standalone report. Headline: "not updated since May 28" flags ~85 to 90% of the corpus, so staleness alone is not a useful filter. The scan prioritized by still-broken-today times traffic. The scariest old-model artifact (the fabricated DOIs on the science page, T-01) was already fixed on 2026-07-15. What remains is one verified live leak (T-10, already queued) and a large em-dash / AI-tell debt across the sections the 2026-07-15 audit never covered.
+
+| ID       | Tasker                                                                        | What it is                                                                                                                                                                                                                       | Est.                      |
+| -------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| **T-13** | [De-AI top-traffic enneagram pages](T-13-deai-top-traffic-enneagram-pages.md) | **Completed 2026-07-18.** All 15 pages were audited at line-edit depth; 14 were edited and one was left unchanged. Protected metadata, links, widgets, QFB comments, JSON-LD, and search-visible legacy fragments were verified. | Done                      |
+| **T-14** | [Bulk de-AI the people corpus](T-14-deai-people-corpus-bulk.md)               | The big one. 382 published personality-analysis rows, 85% pre-Opus-4.8, **9,923 em-dashes across 349 rows**. DB-driven, pushed via `personBlogParser.js` (never `--publish`). **Decision first, then pilot.**                    | Pilot ~1 day, program TBD |
+| **T-15** | [Pop-culture section first audit](T-15-pop-culture-section-audit.md)          | **Diagnosis completed 2026-07-18.** Nine liability pages and 23 quality pages were audited. Five Tier A pages are recommended for temporary unpublishing until fixed; all liability changes remain DJ-gated.                     | DJ review                 |
+
+**Order within this workstream:** T-13 is complete. T-15's diagnosis is complete and now waits on DJ's P0 liability decision. T-14 remains gated on its tooling and method requirements. T-13 left every `QUALITY_FEEDBACK` block byte-identical, so T-10's review-gated removal can still proceed independently.
+
+---
+
+## Progress update: 2026-07-15 (see 2026-07-18 corrections below)
 
 | ID       | State                                | What changed or was learned                                                                                                                                                                                                   | Next gate                                                                                          |
 | -------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -88,6 +102,11 @@ Context that is done, not queued: the WHAT/WHY etiology overclaim was purged fro
 | **T-10** | Dry run complete                     | 86 historical `QUALITY_FEEDBACK` blocks remain. T-02 handled the dating-guide block, and the concurrent T-01 rewrite removed the science-page block. All 88 original blocks are preserved in the salvage report or a sidecar. | DJ reviews the generated 86-file patch before any source write.                                    |
 
 The next executable task is **T-10**. Its deletion phase is intentionally review-gated. Do not bulk-write the 86 source files until DJ has reviewed `docs/content-analysis/2026-07-15_quality-feedback-dry-run.md` and the full `.diff` artifact it links.
+
+### 2026-07-18 corrections to the table above
+
+- **T-01 is done, not "unpublished pending review."** The row above is stale. The T-01 tasker header now reads "Remediated and republished 2026-07-15. DJ approved the rewrite from zero." Verified against the live file 2026-07-18: `enneagram-science-mental-health.md` is `published: true` with correctly-attributed citations (Soto & John BFI-2, Daniels et al. _J. Adult Dev._, the correct Hook `jclp.23097`) and a skeptical "what remains unproven" framing. The fabricated-DOI liability is closed. It is live, so if the "final source review" gate was skipped, that review is the only open thread.
+- **T-10 is now 79 files, not 86.** Re-verified 2026-07-18. The count decays as individual pages get reworked. Still the executable next step for the leak; still review-gated. See the T-10 status block.
 
 ---
 
