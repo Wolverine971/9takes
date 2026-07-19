@@ -25,9 +25,12 @@ The audit looked for:
 - drafts that were incomplete or unsafe to publish in their current form
 - production notes that might accidentally be visible
 
-No files were changed during the audit. The existing working-tree modification to
-`musk-vs-altman-trial-personality-dynamics.md` was treated as user work and left
-untouched.
+No content files were changed during the initial audit. The existing working-tree
+modification to `musk-vs-altman-trial-personality-dynamics.md` was treated as user
+work and left untouched. Follow-up remediation began after the audit:
+
+- `parasocial-relationships-enneagram-type.md` — completed July 19, 2026
+- `masculinity-strength-and-the-enneagram.md` — next in the remediation queue
 
 One portfolio-wide issue stood out: 14 of the 32 published posts contained no
 external evidence links beyond self-links or canonical URLs. That is not necessarily
@@ -332,6 +335,14 @@ They were reviewed as supporting material but not scored as publishable blogs.
 
 The first follow-up update focused on
 [`parasocial-relationships-enneagram-type.md`](../../src/blog/pop-culture/parasocial-relationships-enneagram-type.md).
+
+**Status: remediated July 19, 2026.** The revision removed the unsupported
+neurological-equivalence claim, narrowed the loneliness and monetization language,
+distinguished parasocial interaction from parasocial relationship, labeled the
+Enneagram sections as a non-clinical reflection framework, added a safety distinction
+between fandom and dangerous conduct, and incorporated the research below. The
+MDsvex/Svelte markup, structured FAQ data, formatting, and stale-claim scan all passed
+validation.
 
 ### Evidence decisions
 
