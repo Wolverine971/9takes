@@ -1,4 +1,4 @@
-<!-- src/blog/people/drafts/sam-altman-new-yorker.md -->
+<!-- src/blog/people/drafts/sam-altman-new-yorker-research.md -->
 
 https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted
 
