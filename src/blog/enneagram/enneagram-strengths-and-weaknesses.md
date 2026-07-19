@@ -11,7 +11,7 @@ published: true
 type: ['development']
 blog: true
 pic: 'greek-statue-holding-scales'
-previewHtml: 'Understanding your Enneagram type reveals your natural strengths and hidden weaknesses. Learn what energizes each type, what drains them, and how to leverage these insights for personal and professional growth.'
+previewHtml: 'Understanding your Enneagram type reveals your natural strengths and hidden weaknesses. Learn what energizes each type, what drains them, and how to use these insights for personal and professional growth.'
 wordCount: 4892
 path: src/blog/enneagram/enneagram-strengths-and-weaknesses.md
 quality_grade: 'B+'
@@ -70,17 +70,17 @@ Yes, each type has a specific weakness that consistently sabotages their success
 
 <p class="firstLetter">Your greatest strength is also your greatest weakness. Same trait. Different context.</p>
 
-**Type 1's perfectionism?** Creates excellence — and also paralysis.
-**Type 3's drive?** Achieves the impossible — and also destroys relationships.
-**Type 9's calmness?** Brings peace — and also enables dysfunction.
+**Type 1's perfectionism?** Creates excellence. And paralysis.
+**Type 3's drive?** Achieves the impossible. And destroys relationships.
+**Type 9's calmness?** Brings peace. And enables dysfunction.
 
-Every superpower has a shadow. The Enneagram doesn't just show you _what_ you're good at — it reveals _how_ that same gift becomes a fatal flaw when you overuse it.
+Every superpower has a shadow. The Enneagram shows you _what_ you're good at, then reveals _how_ that same gift becomes a fatal flaw when you overuse it.
 
-This isn't about "fixing" your weaknesses. It's about recognizing when your autopilot is taking you somewhere you don't want to go.
+Recognize when your strengths run on autopilot and take you somewhere you don't want to go.
 
-**What energizes one type drains another.** Public speaking feels like oxygen to some types and slow death to others. Solitude recharges some while it suffocates others. Your job is to know which category you're in — and stop fighting your nature.
+**What energizes one type drains another.** Public speaking feels like oxygen to some types and slow death to others. Solitude recharges some while it suffocates others. Your job is to know which category you're in, then stop fighting your nature.
 
-Let's break down each type's superpower, shadow side, and what to actually do about it.
+Here is each type's superpower, shadow side, and practical counter-move.
 
 <section class="section-content">
 
@@ -120,15 +120,15 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Resentment:** Doing everything "correctly" while watching others cut corners
 - **Control Issues:** If it's not done their way, is it really done right?
 
-**Leveraging Your Type 1 Strengths:**
+**Using Your Type 1 Strengths:**
 
 1. **Accept "good enough":** Set specific completion criteria BEFORE starting so you know when to stop
 2. **Separate criticism from care:** Before offering feedback, ask: "Was this requested?"
 3. **Delegate imperfectly:** Let others do it their way and resist the urge to "fix" it
-4. **Schedule breaks:** Ones work until collapse — calendar the rest before you need it
+4. **Schedule breaks:** Ones work until collapse. Calendar the rest before you need it
 5. **Celebrate completion over perfection:** A finished 80% beats an unfinished 100%
 
-**Real-World Example:** Sarah, a Type 1 operations manager, couldn't delegate because "no one does it right." She started assigning tasks with explicit "done is better than perfect" criteria. Her team's productivity doubled because they weren't waiting for her approval on every detail. The work was "good enough" — and her stress dropped 50%.
+**Real-World Example:** Sarah, a Type 1 operations manager, couldn't delegate because "no one does it right." She started assigning tasks with explicit "done is better than perfect" criteria. Her team's productivity doubled because they weren't waiting for her approval on every detail. The work was "good enough," and her stress dropped 50%.
 
 [Explore Type 1 patterns →](/enneagram-corner/enneagram-type-1)
 
@@ -158,8 +158,8 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 
 **Natural Strengths:**
 
-- **Emotional Intelligence:** Twos read people and situations with uncanny accuracy
-- **Relationship Building:** They create trust and rapport effortlessly
+- **Emotional Intelligence:** Twos notice subtle shifts in people and group dynamics
+- **Relationship Building:** They create trust and rapport quickly
 - **Anticipation:** They sense what others need before it's expressed
 - **Team Cohesion:** Their warmth creates psychological safety in groups
 - **Crisis Support:** They show up with exactly what's needed in difficult times
@@ -172,11 +172,11 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Manipulation Risk:** Using emotional intelligence to control outcomes
 - **Identity Confusion:** Self-worth becomes dependent on being needed
 
-**Leveraging Your Type 2 Strengths:**
+**Using Your Type 2 Strengths:**
 
 1. **Set "helping hours":** Designate specific times for supporting others
 2. **Track your giving:** Notice patterns of over-giving to certain people
-3. **Develop expertise:** Become invaluable through skills, not just availability
+3. **Develop expertise:** Become valuable through skill instead of constant availability
 4. **Practice receiving:** Accept help gracefully to balance the giving
 5. **Define success internally:** Measure worth beyond others' appreciation
 
@@ -224,15 +224,15 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Impostor Syndrome:** Constant achieving masks deep insecurity
 - **Authenticity Struggles:** The "real self" gets lost in the performance
 
-**Leveraging Your Type 3 Strengths:**
+**Using Your Type 3 Strengths:**
 
 1. **Define multi-dimensional success:** Include relationships and wellbeing in your KPIs
-2. **Schedule non-productive time:** Make rest and play achievements to unlock
+2. **Schedule non-productive time:** Treat rest and play as planned commitments
 3. **Find meaning beyond metrics:** Connect achievements to deeper purpose
 4. **Practice vulnerable leadership:** Share failures and struggles strategically
-5. **Celebrate process, not just outcomes:** Acknowledge effort and learning
+5. **Celebrate process alongside outcomes:** Acknowledge effort and learning
 
-**Real-World Example:** Jennifer, a Type 3 CEO, realized her company's success came at the cost of her health and marriage. She redefined success to include "sustainable excellence" and started modeling work-life integration. Paradoxically, this made her company more successful as employee retention soared.
+**Real-World Example:** Jennifer, a Type 3 CEO, realized her company's success came at the cost of her health and marriage. She redefined success to include "sustainable excellence" and started modeling work-life integration. Employee retention rose after the change.
 
 [Master your Type 3 patterns →](/enneagram-corner/enneagram-type-3)
 
@@ -249,7 +249,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - Creating something original and meaningful
 - Having deep, authentic conversations
 - Being seen and understood for who they really are
-- Exploring complex emotions and inner landscapes
+- Exploring complex emotions and their inner life
 - Transforming pain into beauty or art
 
 **Drainers:**
@@ -266,7 +266,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Creative Vision:** They see possibilities others can't imagine
 - **Authenticity Radar:** They spot fakeness immediately
 - **Aesthetic Sense:** Natural understanding of beauty and symbolism
-- **Transformative Insight:** They alchemize suffering into wisdom
+- **Hard-Won Insight:** They turn painful experience into language other people can use
 
 **Shadow Sides:**
 
@@ -276,7 +276,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Push-Pull Dynamics:** Wanting connection while maintaining distance
 - **Productivity Struggles:** Waiting for the "right mood" to act
 
-**Leveraging Your Type 4 Strengths:**
+**Using Your Type 4 Strengths:**
 
 1. **Create emotional containers:** Set times for feeling deeply vs. taking action
 2. **Channel intensity creatively:** Use strong emotions as creative fuel
@@ -332,7 +332,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Social Withdrawal:** Isolation becomes a protective but limiting pattern
 - **Arrogance Risk:** Expertise can breed contempt for "lesser minds"
 
-**Leveraging Your Type 5 Strengths:**
+**Using Your Type 5 Strengths:**
 
 1. **Set research boundaries:** Time-box investigation phases before action
 2. **Translate expertise:** Learn to communicate complex ideas simply
@@ -340,7 +340,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 4. **Share knowledge incrementally:** Don't wait for complete understanding
 5. **Balance thinking with doing:** Pair research with experimentation
 
-**Real-World Example:** David, a Type 5 data scientist, realized his breakthrough insights weren't impacting the business because he couldn't explain them simply. He developed a "5-year-old test"—if he couldn't explain it to a child, he wasn't ready to present. His influence skyrocketed.
+**Real-World Example:** David, a Type 5 data scientist, realized his breakthrough insights weren't impacting the business because he couldn't explain them simply. He developed a "5-year-old test": if he couldn't explain it to a child, he wasn't ready to present. His influence skyrocketed.
 
 [Explore Type 5 patterns →](/enneagram-corner/enneagram-type-5)
 
@@ -384,7 +384,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Projection Patterns:** Seeing their fears reflected in others
 - **Trust Issues:** Suspicion undermines potentially good relationships
 
-**Leveraging Your Type 6 Strengths:**
+**Using Your Type 6 Strengths:**
 
 1. **Channel anxiety productively:** Turn worry into preparation, not rumination
 2. **Build a personal board of advisors:** Create your trusted authority network
@@ -436,7 +436,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Gluttony Pattern:** More becomes never enough
 - **Superficiality Risk:** Breadth without depth limits mastery
 
-**Leveraging Your Type 7 Strengths:**
+**Using Your Type 7 Strengths:**
 
 1. **Create variety within structure:** Build multiple projects into one role
 2. **Gamify difficult tasks:** Make challenges into adventures
@@ -460,7 +460,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 
 - Taking decisive action in crisis situations
 - Fighting against injustice or unfairness
-- Building something significant from scratch
+- Building something from scratch
 - Protecting vulnerable people
 - Overcoming seemingly impossible challenges
 
@@ -488,12 +488,12 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **All-or-Nothing:** Moderation feels like weakness
 - **Vengeance Patterns:** Betrayals get remembered and repaid
 
-**Leveraging Your Type 8 Strengths:**
+**Using Your Type 8 Strengths:**
 
 1. **Calibrate your intensity:** Learn when 10% power achieves 100% results
 2. **Make vulnerability a strength:** Strategic openness builds trust
-3. **Develop others' power:** Create leaders, not followers
-4. **Channel justice drives:** Fight for systems change, not just battles
+3. **Develop others' power:** Create more leaders around you
+4. **Channel justice drives:** Aim them at systems change
 5. **Practice strategic patience:** Sometimes waiting multiplies power
 
 **Real-World Example:** Maria, a Type 8 CEO, realized her forceful style was creating yes-people, not leaders. She started deliberately showing uncertainty in meetings and asking for pushback. This vulnerability paradoxically strengthened her authority and team performance.
@@ -540,15 +540,15 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 - **Inertia Patterns:** Comfort zones become prisons
 - **Merge Tendency:** Losing themselves in others' agendas
 
-**Leveraging Your Type 9 Strengths:**
+**Using Your Type 9 Strengths:**
 
 1. **Set non-negotiable priorities:** Identify what you won't compromise
 2. **Practice healthy conflict:** Learn that disagreement doesn't mean disconnection
 3. **Schedule self-check-ins:** Regularly ask "What do I want?"
-4. **Harness stubborn streaks:** Your resistance shows what matters
+4. **Use stubborn streaks:** Your resistance shows what matters
 5. **Voice opinions early:** Speak up before resentment builds
 
-**Real-World Example:** James, a Type 9 team lead, was loved but ineffective—until he realized his peace-keeping was enabling dysfunction. He learned to have "caring confrontations" that addressed issues while maintaining relationships. Team performance improved 40%.
+**Real-World Example:** James, a Type 9 team lead, was loved but ineffective, until he realized his peace-keeping was enabling dysfunction. He learned to have "caring confrontations" that addressed issues while maintaining relationships. Team performance improved 40%.
 
 [Explore Type 9 harmony →](/enneagram-corner/enneagram-type-9)
 
@@ -556,7 +556,7 @@ Let's break down each type's superpower, shadow side, and what to actually do ab
 
 ## Working With Your Weaknesses: A Strategic Approach
 
-Recognizing weaknesses isn't about fixing what's "wrong" with you—it's about understanding the shadow side of your strengths. Every weakness is a strength overused or misapplied.
+Recognizing a weakness means spotting where a strength has been overused or misapplied.
 
 ### Universal Strategies for Growth
 
@@ -573,13 +573,13 @@ Recognizing weaknesses isn't about fixing what's "wrong" with you—it's about u
    - Type 8: Let someone else lead
    - Type 9: State a strong opinion
 
-3. **The Integration Path**: Learn from your growth and stress points—they show you where to expand
+3. **The Integration Path**: Learn from your growth and stress points. They show you where to expand
 
 4. **The Accountability Partner**: Find someone who can lovingly call out your patterns
 
 ## Strengths in Different Contexts
 
-Your strengths aren't fixed—they show up differently depending on the situation:
+Strengths change with context:
 
 ### At Work
 
@@ -599,9 +599,11 @@ Your strengths aren't fixed—they show up differently depending on the situatio
 - Knowing yours helps you prepare and recover
 - Your weakness becomes most pronounced under pressure
 
-## The Integration Journey
+<span id="the-integration-journey"></span>
 
-True growth isn't about becoming a different type—it's about accessing the full spectrum of human capability while honoring your core motivation. Think of it as expanding your range rather than changing your nature.
+## Expand your range without changing type
+
+Growth expands your range while leaving your core motivation intact.
 
 The healthiest version of each type can access:
 
@@ -619,17 +621,17 @@ The healthiest version of each type can access:
 
 1. **Identify your type** if you haven't already
 2. **Notice your patterns** in real-time, without judgment
-3. **Experiment with balance** — lean into strengths while softening edges
+3. **Experiment with balance**: lean into strengths while softening edges
 4. **Track your energy** to discover your unique energizers and drainers
 5. **Practice compassion** for yourself and others' personality patterns
 
-Remember: Your personality is not your prison—it's your starting point. Understanding your strengths and weaknesses through the Enneagram gives you choice where you once had only habit.
+Your personality is a starting point. Once you can see the pattern, you can choose a different response.
 
-## Continue Your Journey
+## Put the pattern to work
 
-Ready to go deeper? Check out our guide on <a style="font-weight: bold;" href="/enneagram-corner/enneagram-self-development" >Enneagram self-development and personal growth</a> for specific practices tailored to your type.
+For specific practices tailored to your type, read our guide to <a style="font-weight: bold;" href="/enneagram-corner/enneagram-self-development" >Enneagram self-development and personal growth</a>.
 
-Want to see how your personality plays out in real situations? Explore our <a href="/questions" >community questions</a> to see how different types approach life's challenges. You might be surprised by the patterns you discover. 🌟
+Compare how different types handle the same real situation in our <a href="/questions" >community questions</a>.
 
 <svelte:head>
 
@@ -644,7 +646,7 @@ Want to see how your personality plays out in real situations? Explore our <a hr
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. These types are essentially your ego structure, which helps you to manage your feelings of shame, fear, and anger."
+            "text": "The Enneagram is a model of the human psyche taught as a typology of nine interconnected personality types. These types describe an ego structure that helps you manage feelings of shame, fear, and anger."
           },
           "name": "What is the Enneagram?"
         },
@@ -660,7 +662,7 @@ Want to see how your personality plays out in real situations? Explore our <a hr
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Your Enneagram type can provide insight into your strengths and weaknesses, which can be useful in various situations. For example, understanding your strengths can help you to leverage them more effectively in your career, while understanding your weaknesses can help you to identify areas for personal growth."
+            "text": "Your Enneagram type can provide insight into your strengths and weaknesses in different situations. Understanding your strengths can help you use them more effectively at work, while understanding your weaknesses can identify areas for personal growth."
           },
           "name": "How can understanding my Enneagram type help me?"
         },
@@ -693,7 +695,7 @@ Want to see how your personality plays out in real situations? Explore our <a hr
           "name": "Can I change my Enneagram weaknesses?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can't eliminate your type's weaknesses, but you can manage them. Your fatal flaw is the shadow side of your greatest strength - they're connected. The goal isn't to remove weaknesses but to recognize when they're active and develop strategies to minimize their impact while maximizing your strengths."
+            "text": "You can manage your type's weaknesses by recognizing when they are active. A fatal flaw is often the shadow side of a strength used in the wrong context. Build strategies that limit its impact while preserving the useful strength."
           }
         }
       ]

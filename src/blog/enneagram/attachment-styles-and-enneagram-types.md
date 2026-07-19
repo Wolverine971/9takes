@@ -73,16 +73,16 @@ If you're dating, start here: [your personality type creates specific dating dyn
 
 ## The Missing Piece: What Is the Enneagram?
 
-The Enneagram is a model of nine interconnected personality types, each driven by a core fear and core desire. Unlike surface-level personality tests, it maps the unconscious motivations that shape every decision you make, including how you love.
+The Enneagram is a model of nine interconnected personality types organized around core fears and desires. It offers a lens on personality motives that can influence your decisions, including how you approach love.
 
 Think of it this way:
 
-- **Attachment style** = Your relationship operating system
-- **Enneagram type** = The specific programming that runs on that system
+- **Attachment style** = Your default pattern around closeness and distance
+- **Enneagram type** = The personality motive shaping how you express that pattern
 
-When you combine them, you get something powerful: a complete map of why you love the way you do.
+When you combine them, you can see both the relationship pattern and the motive shaping how you express it.
 
-> **Your attachment style is your personality's survival strategy for managing the fear of abandonment.**
+> **Your attachment style describes how you manage closeness, distance, and fears of abandonment.**
 
 For example:
 
@@ -90,7 +90,7 @@ For example:
 
 - Two people can both be avoidant, but a <a href="/blog/enneagram/enneagram-type-5">Type 5 (The Investigator)</a> creates distance to preserve emotional resources, while a <a href="/blog/enneagram/enneagram-type-8">Type 8 (The Challenger)</a> does it to avoid the vulnerability that once got them hurt.
 
-This isn't theoretical. It's practical psychology that can change how you date, fight, and repair.
+The distinction changes how you date, fight, and repair.
 
 Once you understand both your attachment style and your Enneagram type, you get a personalized plan for earning secure attachment. For more on how types show up in relationships, explore [Enneagram types in relationships](/enneagram-corner/enneagram-types-in-relationships).
 
@@ -102,13 +102,13 @@ Midjourney Prompt: four interconnected spheres showing attachment patterns - sec
 
 ### Where Your Attachment Style Came From
 
-Attachment style isn't a personality flaw. It's an adaptation. In the first 18 months of life, your nervous system watches how reliably your caregiver responds when you're hungry, scared, or upset — and builds a working model of "how close can I get before this stops being safe?" John Bowlby and Mary Ainsworth mapped this in the 1960s–70s by watching how babies behaved when their mothers briefly left the room (the "Strange Situation"). What they found was that the patterns kids formed in infancy were still running the show in adulthood.
+Attachment style is an adaptation. In the first 18 months of life, your nervous system watches how reliably your caregiver responds when you're hungry, scared, or upset, then builds a working model of "how close can I get before this stops being safe?" John Bowlby and Mary Ainsworth mapped this in the 1960s and 70s by watching how babies behaved when their mothers briefly left the room (the "Strange Situation"). What they found was that the patterns kids formed in infancy were still running the show in adulthood.
 
-In other words: the way you hit "send" on a risky text message today was shaped by how your caregivers answered when you cried at 14 months. That's not destiny — but it is your starting line.
+The way you hit "send" on a risky text message today was shaped by how your caregivers answered when you cried at 14 months. That early pattern sets the starting line, and adults can still change it.
 
 ### The Four Core Attachment Styles
 
-Mickelson, Kessler & Shaver (1997), working from a U.S. national sample of 8,098 adults, found that roughly **59% of adults score secure, 25% avoidant, and 11% anxious** on self-report measures. (Adult self-report studies don't typically surface a separate "disorganized" category the way infant observation does — more on that below.)
+Mickelson, Kessler & Shaver (1997), working from a U.S. national sample of 8,098 adults, found that roughly **59% of adults score secure, 25% avoidant, and 11% anxious** on self-report measures. (Adult self-report studies don't typically surface a separate "disorganized" category the way infant observation does. More on that below.)
 
 **1. Secure (~59% of adults)**
 
@@ -134,19 +134,19 @@ Mickelson, Kessler & Shaver (1997), working from a U.S. national sample of 8,098
 - Often stems from [trauma or frightening/inconsistent caregiving](/enneagram-corner/mental-health/enneagram-trauma-response-guide)
 - Struggles most with emotional regulation under stress
 
-Mary Main and Judith Solomon added the disorganized category in 1990 after noticing infants in the Strange Situation who did contradictory things — approaching and freezing, reaching and turning away. The mechanism Main and Erik Hesse later proposed is "fright without solution": the caregiver is simultaneously the source of comfort and the source of fear, so the child's nervous system can't run a clean strategy. That's why disorganized attachment is so closely linked to unresolved childhood trauma.
+Mary Main and Judith Solomon added the disorganized category in 1990 after noticing infants in the Strange Situation who did contradictory things: approaching and freezing, reaching and turning away. The mechanism Main and Erik Hesse later proposed is "fright without solution": the caregiver is simultaneously the source of comfort and the source of fear, so the child's nervous system can't run a clean strategy. That's why disorganized attachment is so closely linked to unresolved childhood trauma.
 
-But here's what the four-style model misses on its own: **it can't explain why people with the same attachment style behave so differently in relationships.** A dismissive avoidant and a fearful avoidant both pull away — for totally different reasons, and they need totally different things to come back.
+But here's what the four-style model misses on its own: **it can't explain why people with the same attachment style behave so differently in relationships.** A dismissive avoidant and a fearful avoidant both pull away for totally different reasons, and they need totally different things to come back.
 
 ## Two Kinds of Avoidant: The Distinction Most Articles Skip
 
 In 1991, Kim Bartholomew and Leonard Horowitz argued that "avoidant" was actually two very different patterns pretending to be one. They split it along two axes: how you see yourself, and how you see other people.
 
-**Dismissive-avoidant** = positive self-model, negative other-model. The internal script is _"I'm fine, other people are unreliable, I'll handle it myself."_ They deactivate the attachment system entirely. They don't miss you when you leave the room — or more accurately, their nervous system is working hard to make sure they don't. Mikulincer's lab work shows the suppression is effortful, not absent feeling.
+**Dismissive-avoidant** = positive self-model, negative other-model. The internal script is _"I'm fine, other people are unreliable, I'll handle it myself."_ They deactivate the attachment system entirely. They don't miss you when you leave the room. Or more accurately, their nervous system is working hard to make sure they don't. Mikulincer's lab work shows the suppression is effortful, not absent feeling.
 
 **Fearful-avoidant** = negative self-model, negative other-model. The script is _"I want closeness, and closeness will destroy me."_ They reach in and then panic. They sabotage good relationships, show the highest jealousy of the four styles, and oscillate between clinging and bolting. This pattern is most often linked to early betrayal or frightening caregiving.
 
-This matters for the Enneagram because it resolves a contradiction in the rest of this article. A **Type 5** who withdraws to preserve energy and a **Type 8** who stonewalls after a fight look identical from the outside — they're both "avoidant." But they're not running the same program. A 5 is usually dismissive: _"I don't need as much as you need, please stop asking."_ An 8 who was betrayed young is usually fearful: _"If I let you in, you'll use it against me — and I already expect you will."_ Same label. Opposite interior.
+This matters for the Enneagram because it resolves a contradiction in the rest of this article. A **Type 5** who withdraws to preserve energy and a **Type 8** who stonewalls after a fight look identical from the outside. They're both "avoidant." But they're not running the same program. A 5 is usually dismissive: _"I don't need as much as you need, please stop asking."_ An 8 who was betrayed young is usually fearful: _"If I let you in, you'll use it against me, and I already expect you will."_ Same label. Opposite interior.
 
 When you read the type sections below, watch for which subtype fits you. Dismissive avoidants usually heal by letting the need in at all. Fearful avoidants usually heal by staying present through the panic.
 
@@ -154,11 +154,11 @@ When you read the type sections below, watch for which subtype fits you. Dismiss
 
 ## The Three Centers: A Quick Lens Before We Dive In
 
-The Enneagram groups its nine types into three "centers" — Body (8, 9, 1), Heart (2, 3, 4), and Head (5, 6, 7). Each center has a default strategy for managing the anxiety of closeness:
+The Enneagram groups its nine types into three "centers": Body (8, 9, 1), Heart (2, 3, 4), and Head (5, 6, 7). Each center has a default strategy for managing the anxiety of closeness:
 
-- **Body types (8, 9, 1)** try to control the attachment field — through force, withdrawal, or rules — so they don't have to feel exposed in it.
+- **Body types (8, 9, 1)** try to control the attachment field (through force, withdrawal, or rules) so they don't have to feel exposed in it.
 - **Heart types (2, 3, 4)** use the relationship as a mirror for identity: _am I loved, am I valuable, am I special?_ The attachment wound is usually about being seen for who you actually are.
-- **Head types (5, 6, 7)** intellectualize the intimacy problem — by minimizing (5), rehearsing worst cases (6), or escaping into the next thing (7) — to keep the raw fear out of reach.
+- **Head types (5, 6, 7)** intellectualize the intimacy problem to keep the raw fear out of reach, whether by minimizing (5), rehearsing worst cases (6), or escaping into the next thing (7).
 
 Keep this lens in mind as you read: two anxious attachers in different centers will need almost opposite interventions.
 
@@ -212,7 +212,7 @@ Type 1s learned early that **love comes with conditions**: be good, be right, be
 
 > **Maya is a Type 2.** Her partner has been quiet for forty minutes since he got home from work. Most people would assume he's tired. Maya is mentally rewriting the last three things she said to him, replaying his face when he walked in the door, and is already on her feet refilling his water without being asked. By the time he looks up and says "are you okay?", she's exhausted from a fight he didn't know they were having.
 
-This is how anxious attachment runs through a Type 2. They don't reach for reassurance by asking — they reach for it by giving, until the other person is locked into an unspoken debt. Their nervous system has decided that being needed is the only safe version of being loved.
+This is how anxious attachment runs through a Type 2. They don't reach for reassurance by asking. They reach for it by giving, until the other person is locked into an unspoken debt. Their nervous system has decided that being needed is the only safe version of being loved.
 
 ### The pattern underneath
 
@@ -268,10 +268,10 @@ Type 3s create **attachment through achievement**, leading to:
 
 ### How Type 3s Develop Secure Attachment
 
-- **Share failures and fears.** The image is the armor — letting someone see behind it is the only move that actually builds intimacy
+- **Share failures and fears.** The image is the armor. Letting someone see behind it is the only move that actually builds intimacy
 - **Slow down for connection.** A win nobody witnesses still counts
 - **Drop the performance with trusted partners.** You can be loved for who you are, not what you produced this quarter
-- **Prioritize being over doing** — at least for an hour at a time, to start
+- **Prioritize being over doing**, at least for an hour at a time, to start
 
 ### Type 3 Attachment Compatibility
 
@@ -291,9 +291,9 @@ Type 3s create **attachment through achievement**, leading to:
 **Most Common Attachment Style:** Anxious, often tipping into Disorganized
 **Core Attachment Wound:** "I'm either too much or not enough to actually be loved"
 
-> **Iris is a Type 4.** The first three months with her new partner were electric. She felt _seen_ for the first time in years — like someone had finally noticed her interior weather. Then he left a toothbrush at her place. Within a week she was picking a fight about whether he really got her. Two weeks later she was drafting a breakup text and, at the same time, missing him in advance. None of it was strategic. It was her nervous system's oldest reflex: rehearse the loss before it can arrive unannounced.
+> **Iris is a Type 4.** The first three months with her new partner were electric. She felt _seen_ for the first time in years, like someone had finally noticed her interior weather. Then he left a toothbrush at her place. Within a week she was picking a fight about whether he really got her. Two weeks later she was drafting a breakup text and, at the same time, missing him in advance. None of it was strategic. It was her nervous system's oldest reflex: rehearse the loss before it can arrive unannounced.
 
-Type 4 is where **disorganized attachment** shows up most cleanly in the Enneagram. The 4 core wound — "I am fundamentally different, and that difference is probably why I get left" — produces a system that both reaches for love and pre-emptively destroys it. Distance gets idealized because distance is safe. Presence gets devalued because presence is scary.
+Type 4 is where **disorganized attachment** shows up most cleanly in the Enneagram. The 4 core wound ("I am different, and that difference is probably why I get left") produces a system that both reaches for love and pre-emptively destroys it. Distance gets idealized because distance is safe. Presence gets devalued because presence is scary.
 
 ### The pattern underneath
 
@@ -322,13 +322,13 @@ The counter-intuitive move is to choose available love on purpose. Tolerate ordi
 **Most Common Attachment Style:** Dismissive-Avoidant
 **Core Attachment Wound:** "Relationships deplete resources I can't replace"
 
-Type 5 is the cleanest example of the **dismissive-avoidant** subtype described above. The internal model is: _"I'm fine on my own, other people's needs are a drain, I'll handle it."_ That isn't a performance. It's what the nervous system actually believes it needs to survive.
+Type 5 is the cleanest example of the **dismissive-avoidant** subtype described above. The internal model is: _"I'm fine on my own, other people's needs are a drain, I'll handle it."_ The nervous system treats that belief as a survival requirement.
 
-Caleb is a Type 5. His girlfriend tells him she had a hard day. He hears _"I need something from you that I haven't specified,"_ and his system starts triaging — how much energy will this take, what's the right answer, how do I get back to my own thoughts? She wants a hug. By the time he figures that out, she's hurt and he's depleted, and neither of them got what they came for.
+Caleb is a Type 5. His girlfriend tells him she had a hard day. He hears _"I need something from you that I haven't specified,"_ and his system starts triaging: how much energy will this take, what's the right answer, how do I get back to my own thoughts? She wants a hug. By the time he figures that out, she's hurt and he's depleted, and neither of them got what they came for.
 
 ### The pattern underneath
 
-- Withdrawing to preserve energy — not to punish
+- Withdrawing to preserve energy, not to punish
 - Intellectualizing emotions instead of feeling them in real time
 - Emotional minimalism: rationing feelings like they're scarce
 - Parallel-play relationships: together but cognitively separate
@@ -340,7 +340,7 @@ Unscheduled emotional demands. Partners who expect mind-reading. Intrusion into 
 
 ### How Type 5s build secure attachment
 
-The move is to let information out before it's fully processed — to share the half-formed thought, the unresolved feeling, the tentative preference. Scheduled connection rituals help ("Sunday afternoons are ours") because predictability lowers the energy cost. Direct asks from the partner help even more: vague emotional pressure is what shuts 5s down.
+The move is to let information out before it's fully processed: share the half-formed thought, the unresolved feeling, the tentative preference. Scheduled connection rituals help ("Sunday afternoons are ours") because predictability lowers the energy cost. Direct asks from the partner help even more: vague emotional pressure is what shuts 5s down.
 
 **Partner script to keep on hand:** _"Take the time you need. I'll be here when you come back. I'm not going to punish you for it."_ Do not add a deadline. The 5 will hear it and withdraw further.
 
@@ -357,11 +357,11 @@ The move is to let information out before it's fully processed — to share the 
 
 > **Jordan is a Type 6.** His partner hasn't replied to a text in two hours. He knows she's in a meeting. He knows her phone is on silent. He knows her. He is also, right now, watching himself open her Instagram to see when she was last active, drafting a breezy follow-up that is definitely not breezy, and running a mental ledger of every moment she's been "off" this week. When she finally texts back, he feels nothing for three seconds and then crashes with relief.
 
-Type 6 anxious attachment isn't driven by longing the way Type 2's is. It's driven by **threat assessment.** The 6 nervous system has decided that the world is unreliable, so love gets vetted — constantly, exhaustingly, and often unconsciously.
+Type 6 anxious attachment runs on **threat assessment** rather than Type 2-style longing. The 6 nervous system has decided that the world is unreliable, so love gets vetted: constantly, exhaustingly, and often unconsciously.
 
 ### The pattern underneath
 
-- Loyalty testing — creating scenarios to prove devotion
+- Loyalty testing: creating scenarios to prove devotion
 - Worst-case planning: rehearsing every abandonment in advance
 - Reassurance-seeking that functions like a fix
 - Alternating between clinging and suspicion
@@ -409,7 +409,7 @@ Type 7s use **positive excitement to avoid attachment depth**:
 - **Emotional heaviness** feels like quicksand
 - **Routine** triggers escape fantasies
 - **Partner's pain** they can't fix or cheer up
-- **Limitation** of any kind — real or imagined
+- **Limitation** of any kind, real or imagined
 
 ### How Type 7s Build Depth
 
@@ -433,14 +433,14 @@ Type 7s use **positive excitement to avoid attachment depth**:
 
 ## Type 8: The Challenger's Armored Heart
 
-**Most Common Attachment Style:** Avoidant — usually **fearful-avoidant** if there was early betrayal
+**Most Common Attachment Style:** Avoidant, usually **fearful-avoidant** if there was early betrayal
 **Core Attachment Wound:** "Vulnerability is dangerous; love is a power struggle"
 
-Remember the fearful vs dismissive split from earlier? Type 8 usually sits on the **fearful** side. Unlike the Type 5 (who believes they don't really need much), the 8 wants closeness badly and is also braced for it to be used against them. That's why the same person can look aggressive, devoted, tender, and suspicious in a single week — the approach system and the threat system are both running at full volume.
+Remember the fearful vs dismissive split from earlier? Type 8 usually sits on the **fearful** side. Unlike the Type 5 (who believes they don't really need much), the 8 wants closeness badly and is also braced for it to be used against them. That's why the same person can look aggressive, devoted, tender, and suspicious in a single week: the approach system and the threat system are both running at full volume.
 
 ### The pattern underneath
 
-- Testing partner strength through conflict — loyalty has to prove itself
+- Testing partner strength through conflict: loyalty has to prove itself
 - Controlling the room to avoid being the exposed one
 - All-or-nothing loyalty demands ("with me or against me")
 - Protecting partners _instead of_ connecting with them
@@ -448,11 +448,11 @@ Remember the fearful vs dismissive split from earlier? Type 8 usually sits on th
 
 ### What trips the wire
 
-Betrayal, real or imagined. Any whiff of being controlled. Weakness — especially in themselves. And the thing that really rips an 8 open: being seen as soft by someone who might later weaponize it.
+Betrayal, real or imagined. Any whiff of being controlled. Weakness, especially in themselves. And the thing that really rips an 8 open: being seen as soft by someone who might later weaponize it.
 
 ### How Type 8s soften into love
 
-The move is incremental, not heroic. Not one big tearful confession — a small tenderness, survived. Then another one. Each uneventful exposure is a data point for the nervous system: _I was soft and nothing terrible happened._ Over time, that's how the fearful-avoidant program rewrites itself.
+The move is incremental, not heroic. Not one big tearful confession: a small tenderness, survived. Then another one. Each uneventful exposure is a data point for the nervous system: _I was soft and nothing terrible happened._ Over time, that's how the fearful-avoidant program rewrites itself.
 
 **Partner script to keep on hand:** _"I see you. I'm not going anywhere. You don't have to be tough with me tonight."_ Short. No challenge. No prying. Say it once and let it land.
 
@@ -542,25 +542,25 @@ Type 9s create **attachment through self-erasure**:
 
 ### A Note on Wings and Subtypes
 
-Your dominant type isn't the whole story. A **6w5** attaches differently from a **6w7**: the first is more cerebral, withdrawn, and slow to reassure; the second is more gregarious, clingy, and reassurance-seeking out loud. A **social-subtype 2** over-gives to groups; a **one-on-one 2** fuses hard with a single person. Wings and instinctual subtypes can shift the flavor of the attachment pattern even when the core wound is the same. If the type description above sounds _mostly_ right but the texture is off, your wing or subtype is probably why.
+Your dominant type is only part of the story. A **6w5** attaches differently from a **6w7**: the first is more cerebral, withdrawn, and slow to reassure; the second is more gregarious, clingy, and reassurance-seeking out loud. A **social-subtype 2** over-gives to groups; a **one-on-one 2** fuses hard with a single person. Wings and instinctual subtypes can shift the flavor of the attachment pattern even when the core wound is the same. If the type description above sounds _mostly_ right but the texture is off, your wing or subtype is probably why.
 
 ## Can You Actually Change Your Attachment Style?
 
-Yes — and this isn't a self-help claim, it's a clinical one. The concept is called **earned secure attachment**, developed by Mary Main and colleagues working with the Adult Attachment Interview. In a landmark 1994 study, Pearson, Cohn, Cowan & Cowan identified adults who'd had difficult childhoods but who nonetheless produced coherent, reflective narratives about them — and who parented as securely as people with happy childhoods. The difference wasn't luck. It was processing.
+Yes. Clinical research calls the result **earned secure attachment**, a concept developed by Mary Main and colleagues working with the Adult Attachment Interview. In a landmark 1994 study, Pearson, Cohn, Cowan & Cowan identified adults who'd had difficult childhoods but who nonetheless produced coherent, reflective narratives about them, and who parented as securely as people with happy childhoods. Their coherent processing distinguished them from the insecure group.
 
 Three ingredients show up consistently across the research and clinical literature:
 
 1. **Awareness of your pattern.** Naming what you do when you're scared is the first actual intervention. (You're doing this now.)
-2. **Corrective experiences inside a safe relationship.** You don't heal attachment in a cave. The nervous system updates its model when it gets to run the risky move — reaching out, or staying still — and nothing bad happens.
+2. **Corrective experiences inside a safe relationship.** You don't heal attachment in a cave. The nervous system updates its model when it gets to run the risky move (reaching out, or staying still) and nothing bad happens.
 3. **Skilled support.** Sue Johnson's Emotionally Focused Therapy has the strongest randomized evidence for moving couples toward security; Stan Tatkin's PACT, Diane Poole Heller's DARe work, and somatic approaches are the clinical standards for individual work.
 
-How long does it take? Honestly, nobody has clean data. Clinicians working in EFT and PACT report meaningful shifts within months to a couple of years of consistent work. Don't trust specific numbers — trust direction.
+How long does it take? Honestly, nobody has clean data. Clinicians working in EFT and PACT report meaningful shifts within months to a couple of years of consistent work. Don't trust specific numbers. Trust direction.
 
 ### What Earned Secure Attachment Actually Feels Like
 
-A Tuesday morning for a Type 2 who's done the work: her partner is quiet at breakfast. She notices her stomach drop. She notices the old reflex — _fix something, start making him a coffee he didn't ask for, apologize for unnamed things_ — and she also notices that she doesn't have to run it. She says, "You're quiet. Are you okay?" He says, "Yeah, just tired." She believes him. She drinks her own coffee. Nothing happened, which is the whole point.
+A Tuesday morning for a Type 2 who's done the work: her partner is quiet at breakfast. She notices her stomach drop. She notices the old reflex (_fix something, start making him a coffee he didn't ask for, apologize for unnamed things_) and she also notices that she doesn't have to run it. She says, "You're quiet. Are you okay?" He says, "Yeah, just tired." She believes him. She drinks her own coffee. Nothing happened, which is the whole point.
 
-Earned secure isn't the absence of the old wiring. It's the old wiring showing up, getting noticed, and not getting obeyed. It's a slightly boring kind of relief.
+Earned secure means the old wiring shows up, gets noticed, and no longer runs the response. The relief can feel almost boring.
 
 ## The Integration Path: Attachment Meets Enneagram
 
@@ -578,11 +578,11 @@ Earned secure isn't the absence of the old wiring. It's the old wiring showing u
 
 ## When to Get Professional Help
 
-A pattern is a pattern. A crisis is different. If you recognize yourself — or a partner — in any of these, please stop reading self-help articles and talk to a licensed therapist: coercive control or intimidation, chronic emotional manipulation, paranoid accusations that don't respond to reassurance, complete and sustained emotional shutdown, or any situation where you feel unsafe. Attachment work can happen alongside therapy. It can't replace it.
+A pattern is a pattern. A crisis is different. If you recognize yourself, or a partner, in any of these, please stop reading self-help articles and talk to a licensed therapist: coercive control or intimidation, chronic emotional manipulation, paranoid accusations that don't respond to reassurance, complete and sustained emotional shutdown, or any situation where you feel unsafe. Attachment work can happen alongside therapy. It can't replace it.
 
 ## The Bottom Line
 
-Your attachment style isn't a verdict. Your Enneagram type isn't a box. Both are protective patterns your nervous system installed early because at the time, they kept you safe. They can be updated.
+Attachment style and Enneagram type both describe protective patterns your nervous system installed early because, at the time, they kept you safe. Those patterns can be updated.
 
 Here's the whole playbook in four moves:
 
@@ -591,15 +591,15 @@ Here's the whole playbook in four moves:
 3. **Tell your partner what's happening.** Share the relevant section. Agree on one script each of you can use when the old wiring flares.
 4. **Get real support if the wound is deep.** EFT for couples, PACT, somatic work, or EMDR for trauma-linked patterns.
 
-Every type can earn secure attachment. The work isn't becoming a different person — it's noticing your oldest reflex and choosing not to run it this time.
+Every type can earn secure attachment. The work is noticing your oldest reflex and choosing a different response this time.
 
 ### Resources for Deeper Work
 
-- _Attached_ by Amir Levine & Rachel Heller — accessible framework for identifying your style
-- _Hold Me Tight_ by Sue Johnson — the EFT workbook for couples
-- _The Power of Attachment_ by Diane Poole Heller — somatic and trauma-informed
-- _The Body Keeps the Score_ by Bessel van der Kolk — for the trauma layer
-- **EFT** (Emotionally Focused Therapy), **PACT**, **EMDR**, and somatic therapies — the clinical toolkit
+- _Attached_ by Amir Levine & Rachel Heller: accessible framework for identifying your style
+- _Hold Me Tight_ by Sue Johnson: the EFT workbook for couples
+- _The Power of Attachment_ by Diane Poole Heller: somatic and trauma-informed
+- _The Body Keeps the Score_ by Bessel van der Kolk: for the trauma layer
+- **EFT** (Emotionally Focused Therapy), **PACT**, **EMDR**, and somatic therapies: the clinical toolkit
 
 If you want a second lens on how you show love, read our guide to [love language by Enneagram type](/enneagram-corner/love-languages-and-enneagram-types). If you're in active dating mode, start with [dating dynamics by Enneagram type](/how-to-guides/dating-dynamics-by-enneagram-type).
 
@@ -609,7 +609,7 @@ If you want a second lens on how you show love, read our guide to [love language
 Yes. Types lean toward specific patterns because of their core wound, but your actual caregiving history is what decided it. A Type 2 raised by parents who shut down emotion will present avoidant, not anxious.
 
 **Can I have more than one attachment style?**
-Yes. You might be secure with friends and anxious in romance, or shift between styles under stress — that's disorganized attachment in practice.
+Yes. You might be secure with friends and anxious in romance, or shift between styles under stress. That's disorganized attachment in practice.
 
 **How long does it take to become securely attached?**
 Honestly, nobody has clean data. Clinicians in EFT and PACT report meaningful shifts within months to a couple of years of consistent work. Ignore anyone who gives you a specific timeline.
@@ -618,7 +618,7 @@ Honestly, nobody has clean data. Clinicians in EFT and PACT report meaningful sh
 Any combination can work with awareness. The classic anxious-avoidant pairing is high-friction but healable when both people know what's happening in their own nervous systems.
 
 **Is attachment style or Enneagram more important?**
-They work on different levels. Attachment tells you _what_ your pattern is. Enneagram tells you _why_ you run it your way. Together, they help you target the real trigger instead of the surface behavior.
+They work on different levels. Attachment style names your default relationship pattern. The Enneagram maps the personality motives that can shape how you express it. Together, they help you target the real trigger instead of the surface behavior.
 
 <svelte:head>
 

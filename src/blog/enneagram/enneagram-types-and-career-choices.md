@@ -1,6 +1,6 @@
 ---
 title: "Why You Hate Your Job (It's Not the Boss, It's Your Enneagram Type)"
-description: "Stuck in the wrong career? Your Enneagram type reveals why you're miserable at work and exactly what jobs will actually make you thrive. Find your perfect career match based on your core motivations, not just your skills."
+description: "Stuck in the wrong career? Your Enneagram type reveals why you're miserable at work and what jobs can help you thrive. Match your core motivations with your skills."
 author: 'DJ Wayne'
 date: '2023-11-29'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-and-career-choices'
@@ -34,10 +34,10 @@ QUALITY_FEEDBACK_END -->
 </script>
 
 <QuickAnswer question="What career should I pursue based on my Enneagram type?">
-Type 1s thrive in quality control and ethics roles. Type 2s excel in healthcare and HR. Type 3s dominate in sales and leadership. Type 4s flourish in creative fields. Type 5s belong in research and tech. Type 6s succeed in security and risk management. Type 7s shine in marketing and entrepreneurship. Type 8s lead in executive and crisis management. Type 9s excel in mediation and counseling. The real trick isn't matching skills, it's matching motivations.
+Type 1s thrive in quality control and ethics roles. Type 2s excel in healthcare and HR. Type 3s dominate in sales and leadership. Type 4s flourish in creative fields. Type 5s belong in research and tech. Type 6s succeed in security and risk management. Type 7s shine in marketing and entrepreneurship. Type 8s lead in executive and crisis management. Type 9s excel in mediation and counseling. The real trick is matching motivations as carefully as skills.
 </QuickAnswer>
 
-**Read time**: 12 minutes | **Key insight**: Your job dread isn't about the tasks. It's about whether the work feeds or starves your core motivation.
+**Read time**: 12 minutes | **Key insight**: Your job dread tracks whether the work feeds or starves your core motivation.
 
 ## Career Match Comparison Table
 
@@ -85,7 +85,7 @@ If three or more of those hit, this article is for you.
 
 ## Why the Enneagram Matters in Career Choice
 
-The Enneagram is not a personality quiz. It is a diagnosis of what you are chasing. Once you see your core motivation clearly, you can tell:
+The Enneagram maps what you keep chasing beneath your work habits. Once you see your core motivation clearly, you can tell:
 
 - Which jobs feed it (you will thrive)
 - Which jobs starve it (you will burn out, then blame the boss)
@@ -110,9 +110,9 @@ Type 1s are wired for "this could be better." Give them a broken system and they
 
 #### The Career Killer
 
-A Type 1 in a chaotic, "we'll fix it later" startup is not annoyed. They are morally offended. Every shipped bug feels like a small ethical violation. After eighteen months they either become the office martyr or quit on principle. Avoid founder-led teams that pivot weekly, "good enough" cultures, and any role that asks you to defend bad work to clients.
+A Type 1 in a chaotic, "we'll fix it later" startup feels morally offended by every shipped bug. Each one registers as a small ethical violation. After eighteen months they either become the office martyr or quit on principle. Avoid founder-led teams that pivot weekly, "good enough" cultures, and any role that asks you to defend bad work to clients.
 
-**Wing tilt**: A 1w9 wants quiet, careful, principled work (think academic editor or legal scholar). A 1w2 wants to fix people, not just systems (think ethics officer, nonprofit policy lead, or curriculum designer).
+**Wing tilt**: A 1w9 wants quiet, careful, principled work (think academic editor or legal scholar). A 1w2 wants to fix people as well as systems (think ethics officer, nonprofit policy lead, or curriculum designer).
 
 **Stress and growth**: Under stress, Type 1s shift toward Type 4 and get moody, sensitive, and convinced nobody appreciates their effort. That is the signal to build a creative outlet outside work. In growth, they shift toward Type 7 and rediscover play, which is exactly what makes a senior 1 a great team lead instead of a feared one.
 
@@ -144,7 +144,7 @@ A Type 2 stuck in a transactional, solo, or remote-first role with no human cont
 
 **Stress and growth**: Under stress, Type 2s shift toward Type 8 and get controlling, blunt, sometimes vindictive. That is the alarm bell that you are giving without receiving and need to either negotiate visibility or change roles. In growth, they shift toward Type 4 and get honest about their own needs, which is the prerequisite for actually leading other helpers.
 
-**Interview hack**: Practice saying "I" instead of "we." Recruiters need to see your individual contribution, not just how nicely you played with your last team. "We launched the program" is a Type 2 default. Replace it with "I designed the intake system that became the program."
+**Interview hack**: Practice saying "I" instead of "we." Recruiters need to see your individual contribution alongside your team skills. "We launched the program" is a Type 2 default. Replace it with "I designed the intake system that became the program."
 
 <a href="/enneagram-corner/enneagram-type-2">More on Type 2</a>
 
@@ -170,7 +170,7 @@ A Type 3 in a behind-the-scenes back-office role becomes a ghost. They start tyi
 
 **Wing tilt**: A 3w2 wants applause and connection (sales leader, public speaker, charismatic CEO). A 3w4 wants distinctive achievement that means something (creative director, niche consultant, founder of a brand with a story).
 
-**Stress and growth**: Under stress, Type 3s shift toward Type 9 and check out, going through the motions while pretending everything is fine. That is the signal you are chasing a goal you do not actually want. In growth, they shift toward Type 6 and develop loyalty to the team, not just to outcomes.
+**Stress and growth**: Under stress, Type 3s shift toward Type 9 and check out, going through the motions while pretending everything is fine. That is the signal you are chasing a goal you do not actually want. In growth, they shift toward Type 6 and develop loyalty to the team itself.
 
 **Interview hack**: Have a 90-second story ready about a real failure, not the "my biggest weakness is perfectionism" version. A real one. It is the single thing that separates a charismatic 3 from a polished one in the eyes of senior interviewers.
 
@@ -210,7 +210,7 @@ Type 4s are wired for meaning and authenticity. The dream job is one where what 
 
 #### The Career Killer
 
-A Type 4 in accounts payable or any high-volume, low-variation job will start drowning. The work itself is not the problem. The interchangeability is. They start chronically comparing themselves to friends with "more interesting" lives. By month six they are either applying to MFA programs or going quietly numb. Avoid large corporate environments with cubicle culture, jobs measured purely by throughput, and any role that treats personal style as a liability.
+A Type 4 in accounts payable or any high-volume, low-variation job will start drowning. The interchangeability drains them. They start chronically comparing themselves to friends with "more interesting" lives. By month six they are either applying to MFA programs or going quietly numb. Avoid large corporate environments with cubicle culture, jobs measured purely by throughput, and any role that treats personal style as a liability.
 
 **Wing tilt**: A 4w3 wants polished, public, signature work (creative director, designer with a recognizable brand). A 4w5 wants quiet, deep, intellectually rich work (novelist, art historian, depth psychologist).
 
@@ -388,11 +388,11 @@ Some of the career advice that worked in 2019 is actively dangerous in 2026. Thr
 
 **Who the gig economy actually fits**: Type 7s (variety baked in), Type 4s (creative freelance is their dream), and Type 8s (you are the boss, even if of one). Type 6s, 2s, and 9s usually do worse without the structure of a steady team, even if the gig work pays better on paper.
 
-The pattern: any time the market changes, the question for your type is not "can I survive?" but "does my motivation still get fed by this version of the work?" If the answer is no, the wages will not save you.
+The pattern: whenever the market changes, ask whether this version of the work still feeds your motivation. If the answer is no, the wages will not save you.
 
-## Transform Your Career Journey with Enneagram Insights
+## Match the role to the motivation
 
-Your dread at work is not laziness, is not burnout, and is not the boss. It is a mismatch between what you do all day and what your core motivation is hungry for. The fix is rarely a different industry. It is usually a different fit inside your current one.
+Work dread often points to a mismatch between your daily tasks and what your core motivation needs. A better fit inside your current industry may solve more than a total career change.
 
 Here is the one question to sit with by Monday morning, by type:
 

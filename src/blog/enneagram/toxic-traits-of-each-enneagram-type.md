@@ -91,7 +91,7 @@ Use the table below to find your type fast, then read the "If YOU have this trai
 
 ### The Ruthless Inner Judge
 
-Type 1s don't just have high standards. They weaponize them.
+Type 1s weaponize their high standards.
 
 Their critical eye misses nothing. The slightly crooked picture frame. Your grammatical error. The "wrong" way you loaded the dishwasher.
 
@@ -149,7 +149,7 @@ They remember every favor. Every thoughtful gesture. Every time they went out of
 
 And when they need something, those receipts come out fast.
 
-This behavior stems from a deep-seated fear: that they are fundamentally unlovable unless they're useful. Their generosity becomes a strategy to secure affection rather than a genuine expression of care.
+This behavior stems from a deep-seated fear: that they are unlovable unless they're useful. Their generosity becomes a strategy to secure affection rather than a genuine expression of care.
 
 ### The Boundary Bulldozer
 
@@ -195,7 +195,7 @@ This martyrdom disguises their inability to directly ask for what they need. Ins
 
 One moment they're passionate about environmental activism. The next, they're corporate climbers focused solely on the bottom line.
 
-Type 3s don't just adapt to their environment. They completely reinvent themselves based on what will earn them approval.
+Type 3s reinvent themselves around whatever will earn approval.
 
 This inauthenticity stems from their core fear: that their unvarnished self isn't worthy of love. They become whatever version of themselves will win the most applause, losing touch with who they actually are.
 
@@ -273,7 +273,7 @@ They don't simply want what others have. They believe others possess something f
 
 This envy creates a painful paradox: they desperately want to belong while simultaneously priding themselves on being different. They covet what others have while believing they're too unique to ever truly fit in.
 
-💡 **The root cause:** Type 4s believe they're fundamentally broken in a way others aren't. The drama and intensity become proof they're special enough to matter despite being "defective."
+💡 **The root cause:** Type 4s believe they're broken in a way other people aren't. The drama and intensity become proof they're special enough to matter despite being "defective."
 
 ---
 
@@ -303,7 +303,7 @@ This envy creates a painful paradox: they desperately want to belong while simul
 
 Try getting close to an unhealthy Type 5. I dare you.
 
-They retreat into their minds at the first hint of emotional intensity. Feelings aren't experienced. They're dissected. Vulnerability isn't embraced. It's avoided at all costs.
+They retreat into their minds at the first hint of emotional intensity. They dissect feelings and avoid vulnerability at all costs.
 
 This emotional detachment serves as their fortress. Type 5s believe they have limited emotional resources, and getting too close to others will drain what little they have.
 
@@ -323,7 +323,7 @@ Type 5s guard these resources like their phone is at 1% and the charger is acros
 
 This miserly behavior stems from their core fear of depletion. They believe they never have enough internal resources, so they conserve what they have at all costs.
 
-💡 **The root cause:** Type 5s feel overwhelmed by the world's demands. Withdrawal isn't coldness. It's self-preservation. They're terrified of being drained dry by people who need too much.
+💡 **The root cause:** Type 5s feel overwhelmed by the world's demands. Withdrawal becomes self-preservation against people who seem ready to drain them dry.
 
 ---
 
@@ -373,7 +373,7 @@ They'll create scenarios to probe your loyalty. They'll withhold information to 
 
 These loyalty tests stem from their fundamental doubt about who and what can be trusted. Deep down, they're convinced that everyone will eventually betray them. And they're determined to catch you in the act.
 
-💡 **The root cause:** Type 6s grew up feeling unsafe. Their hypervigilance isn't paranoia to them. It's survival. They're trying to spot the danger before it spots them.
+💡 **The root cause:** Type 6s grew up feeling unsafe. They experience hypervigilance as survival and try to spot danger before it spots them.
 
 ---
 
@@ -433,7 +433,7 @@ Their relentless positivity isn't always healthy. It can silence important conce
 
 This toxic optimism serves as their escape hatch from pain. By refusing to acknowledge negative emotions or difficult truths, they believe they can outrun the suffering that's part of the human condition.
 
-💡 **The root cause:** Type 7s experienced pain they couldn't process as children. Running toward pleasure isn't greed. It's flight from suffering they never learned to face.
+💡 **The root cause:** Type 7s experienced pain they couldn't process as children. Running toward pleasure becomes flight from suffering they never learned to face.
 
 ---
 
@@ -481,7 +481,7 @@ They hover. They second-guess. They take back tasks they've assigned because "if
 
 This controlling behavior stems from their deep distrust of others' competence. They believe that surrendering control means inviting disaster. So they maintain an iron grip on everything within their reach.
 
-💡 **The root cause:** Type 8s learned early that being soft gets you hurt. Their aggression isn't malice. It's armor. Underneath the intensity is a tender heart they're terrified to expose.
+💡 **The root cause:** Type 8s learned early that being soft gets you hurt. Aggression becomes armor around a tender heart they're terrified to expose.
 
 ---
 
@@ -545,7 +545,7 @@ They merge with others' agendas so completely that they lose sight of their own 
 
 This people-pleasing stems from their fear that asserting their own needs will lead to separation or conflict. They'd rather abandon themselves than risk rocking the boat.
 
-💡 **The root cause:** Type 9s learned that their presence caused problems. Their self-erasure isn't laziness. It's a survival strategy from childhood. They disappear because they believe their existence is disruptive.
+💡 **The root cause:** Type 9s learned that their presence caused problems. Self-erasure became a childhood survival strategy. They disappear because they believe their existence is disruptive.
 
 ---
 
@@ -618,7 +618,7 @@ Which type description felt the most personal, and what is one change you're wil
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Self-awareness is the crucial first step. Notice when you're engaging in your type's toxic behaviors, identify the underlying fear triggering them, and develop healthier coping strategies. Practice self-compassion rather than shame, as these traits developed as protection mechanisms."
+            "text": "Self-awareness is the first step. Notice when you're engaging in your type's toxic behaviors, identify the underlying fear triggering them, and develop healthier coping strategies. Practice self-compassion rather than shame, as these traits developed as protection mechanisms."
           },
           "name": "How can I address my own toxic traits according to my Enneagram type?"
         },

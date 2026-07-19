@@ -1,6 +1,6 @@
 ---
 title: "Why You Don't Fully Match Your Enneagram Type (It's Your Subtype)"
-description: "Same Enneagram type, completely different people? That's because of instinctual subtypes. Discover whether you're Self-Preservation, Social, or One-to-One—and why it changes everything about your type."
+description: "Same Enneagram type, completely different people? That's because of instinctual subtypes. Discover whether you're Self-Preservation, Social, or One-to-One, and why it changes everything about your type."
 author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes'
@@ -87,7 +87,7 @@ Below, we’ll explore how each subtype can alter the expression of the nine Enn
 #### Self-Preservation One (SP 1)
 
 - Prioritizes personal health, cleanliness, and routines
-- Strives for perfection in their own environment (e.g., meticulous organization)
+- Strives for perfection in their own environment (e.g., precise organization)
 - Could exhibit strict dietary or exercise habits
 
 **Recognize Them**: Often have a spotless home or a finely tuned personal schedule.
@@ -202,7 +202,7 @@ Below, we’ll explore how each subtype can alter the expression of the nine Enn
 - May be extremely private or protective of personal space
 - Prefers solitude to replenish energy
 
-**Recognize Them**: Keep a well-stocked pantry, meticulously research everything, and value privacy above all.
+**Recognize Them**: Keep a well-stocked pantry, research everything thoroughly, and value privacy above all.
 
 #### Social Five (SO 5)
 
@@ -302,7 +302,7 @@ Below, we’ll explore how each subtype can alter the expression of the nine Enn
 - Can be passionately protective or jealous
 - “Ride or die” mentality, fiercely loyal to a chosen few
 
-**Recognize Them**: Demonstrate intense commitment—or confrontation—in close partnerships.
+**Recognize Them**: Demonstrate intense commitment, or confrontation, in close partnerships.
 
 ---
 
@@ -338,9 +338,9 @@ Below, we’ll explore how each subtype can alter the expression of the nine Enn
 
 Beyond these dominant instincts, each person has a **stacking** that orders the three instincts by priority:
 
-1. **Dominant Instinct** – your strongest, most noticeable driver
-2. **Secondary Instinct** – influential but less central
-3. **Blind Spot** – the least developed instinct, often neglected
+1. **Dominant Instinct**: your strongest, most noticeable driver
+2. **Secondary Instinct**: influential but less central
+3. **Blind Spot**: the least developed instinct, often neglected
 
 **Example**: An `sp/sx/so` person focuses on self-preservation, then one-to-one, with the social instinct as a blind spot.
 
@@ -354,24 +354,24 @@ Beyond these dominant instincts, each person has a **stacking** that orders the 
 
 ## Wrap up
 
-Discovering your **Enneagram Instinctual Subtype** adds an extra layer of depth to your Enneagram journey. You’re more than just a **Type 2** or a **Type 7**. Your instinctual focus reveals _why_ you approach life the way you do.
+Discovering your **Enneagram Instinctual Subtype** adds another layer to your type. Your type number is only the starting point. Your instinctual focus shows where your attention goes first.
 
 - **Encourage Self-Exploration**: Which instinct resonates most with you? Notice how it shapes your daily choices and relationships.
 - **Promote Dialogue**: Share your thoughts or experiences with others. Start a conversation in your community or in the comments: how does your subtype affect your relationships, work, or personal goals?
 - **Keep Learning**: Check out our dedicated [Enneagram Type pages](https://9takes.com/enneagram-corner/) for insights on how each type interacts with these instincts.
 
-If you enjoy personality explorations, explore our [questions](https://9takes.com/questions) for a deeper dive into Enneagram-based self-awareness. Remember: self-discovery is a continuous journey. Embrace the process and let your instinctual subtype guide you toward a richer understanding of who you are.
+Compare your subtype hypothesis against real situations: where your attention goes under stress, what you track in a room, and what you neglect. The [questions](https://9takes.com/questions) page gives you more patterns to test against your own behavior.
 
 ## FAQs About Enneagram Instinctual Subtypes
 
 **How do I find my instinctual subtype?**
-Observe which domain consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort, often unconsciously.
+Observe which area consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort, often unconsciously.
 
 **Can your instinctual subtype change over time?**
 Your core instinctual stacking (sp/so/sx order) tends to remain stable, but you can develop your weaker instincts through conscious effort. Many people report their secondary instinct becoming more accessible with growth, while the "blind spot" instinct requires the most intentional work to develop.
 
 **What's the difference between the Sexual subtype and sexuality?**
-Despite the name, the Sexual (One-to-One) instinct isn't about sex; it's about intensity and deep connection. It drives the desire for chemistry, merger, and transformative relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences.
+Despite the name, the Sexual (One-to-One) instinct refers to intensity and deep connection. It drives the desire for chemistry, merger, and high-intensity relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences.
 
 **Why do two people with the same Enneagram type seem so different?**
 Instinctual subtypes are often the reason. A Social 7 focused on group fun and FOMO looks very different from a Self-Preservation 7 focused on personal pleasures and resource abundance. The same core fears and motivations express through different instinctual channels.
@@ -393,7 +393,7 @@ Each Enneagram type has one subtype that goes against the type's typical pattern
           "name": "How do I find my instinctual subtype?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Observe which domain consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort, often unconsciously."
+            "text": "Observe which area consumes most of your mental energy: physical security and comfort (Self-Preservation), group belonging and social standing (Social), or intense one-to-one connections and attraction (Sexual/One-to-One). Your dominant instinct is where you're most sensitive to threats and where you invest the most effort, often unconsciously."
           }
         },
         {
@@ -409,7 +409,7 @@ Each Enneagram type has one subtype that goes against the type's typical pattern
           "name": "What's the difference between the Sexual subtype and sexuality?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Despite the name, the Sexual (One-to-One) instinct isn't about sex; it's about intensity and deep connection. It drives the desire for chemistry, merger, and transformative relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences."
+            "text": "Despite the name, the Sexual (One-to-One) instinct refers to intensity and deep connection. It drives the desire for chemistry, merger, and high-intensity relationships. Someone can be asexual and still have a dominant One-to-One instinct, seeking intense platonic bonds and experiences."
           }
         },
         {

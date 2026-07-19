@@ -54,23 +54,23 @@ Depression shows up through each type's core fear. Type 1s freeze in imperfectio
 | **Type 8** | Rage masking vulnerability       | Betrayal or powerlessness | Aggressive isolation                | Practice vulnerability             |
 | **Type 9** | Numbness and self-erasure        | Forced conflict           | Complete disconnection from desires | Reclaim voice and preferences      |
 
-<p class="firstLetter">Depression isn't one-size-fits-all. Your Enneagram type determines how you experience it, what triggers it, and most importantly - how to heal from it.</p>
+<p class="firstLetter">Depression is not one-size-fits-all. Your Enneagram type can shape how you experience it, which patterns intensify it, and which forms of support may feel most accessible.</p>
 
 When you look at mental health through the Enneagram lens, something striking becomes clear: **Depression has a personality.**
 
 A Type 1's depression looks like perfectionist paralysis and harsh self-criticism. A Type 7's depression manifests as manic activity hiding deep emptiness. A Type 9's depression feels like complete disconnection from their own desires.
 
-Understanding your type's unique depression patterns isn't just academically interesting - it can be life-saving. Because when you know how YOUR mind creates suffering, you can finally address the root cause instead of just treating symptoms.
+Understanding your type's depression patterns can help you spot warning signs and seek support sooner. When you recognize how your mind creates suffering, you can address the pattern alongside its symptoms.
 
-**Don't know your type yet?** If you see yourself in multiple patterns below, pay attention to which one creates the most visceral "that's me" reaction - not which one sounds worst, but which one you'd least want others to read about you. That discomfort usually points to your core type. You can also [take our Enneagram quiz](/enneagram-corner/enneagram-types-overview) to find out.
+**Don't know your type yet?** If you see yourself in multiple patterns below, pay attention to which one creates the most visceral "that's me" reaction. Ignore which sounds worst; notice which one you'd least want others to read about you. That discomfort usually points to your core type. You can also [take our Enneagram quiz](/enneagram-corner/enneagram-types-overview) to find out.
 
-**Important Note:** This article explores psychological patterns and is not a substitute for professional mental health care. If you're experiencing suicidal thoughts or severe depression, please contact a mental health professional or crisis hotline immediately. For comprehensive strategies on breaking depression patterns specific to your type, read our detailed guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). If anxiety accompanies your depression—as it often does—explore [how each type experiences anxiety differently](/enneagram-corner/anxiety-and-enneagram-types-guide).
+**Important Note:** This article explores psychological patterns and is not a substitute for professional mental health care. If you're experiencing suicidal thoughts or severe depression, please contact a mental health professional or crisis hotline immediately. For comprehensive strategies on breaking depression patterns specific to your type, read our detailed guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). If anxiety accompanies your depression, as it often does, explore [how each type experiences anxiety differently](/enneagram-corner/anxiety-and-enneagram-types-guide).
 
 ## Why Depression Varies by Enneagram Type
 
-Most mental health approaches treat depression as a universal experience. But your Enneagram type fundamentally shapes what triggers your depression, how it feels in your body and mind, which thoughts dominate during episodes, which coping mechanisms you default to, and what healing approaches actually work.
+Most mental health approaches treat depression as a universal experience. But your Enneagram type changes what triggers your depression, how it feels in your body and mind, which thoughts dominate during episodes, which coping mechanisms you default to, and what healing approaches actually work.
 
-Your Enneagram type represents your core psychological pattern - including how you handle stress, process emotions, and make meaning of suffering. **Depression is what happens when your personality's defense mechanisms stop working.**
+Your Enneagram type represents your core psychological pattern, including how you handle stress, process emotions, and make meaning of suffering. **Depression can expose the limits of your usual defense mechanisms.**
 
 Every depressed person experiences a version of this loop:
 
@@ -84,7 +84,7 @@ It's 11 PM on a Wednesday and you're rewriting the same email for the fourth tim
 
 That's Type 1 depression. Not sadness - **self-punishment disguised as standards.**
 
-**Core Pattern:** "I'm fundamentally flawed and can never get anything right."
+**Core Pattern:** "I get everything wrong."
 
 Most Type 1s grew up learning that love was conditional on being "good" or "perfect." That early wiring creates a lifelong pattern where mistakes feel like moral failures, and the inner critic never clocks out.
 
@@ -114,7 +114,7 @@ Most Type 1s grew up learning that love was conditional on being "good" or "perf
 - **Error appreciation:** Find three things you learned from each "mistake"
 - **CBT** for perfectionist thinking, **IFS** to work with the inner critic, **MBSR** for stress
 
-**Growth Integration:** Access Type 7's spontaneity and joy. Practice being playful without needing to optimize the experience.
+**Growth Integration:** Access Type 7's spontaneity and joy. Practice play without planning the perfect experience.
 
 **Daily Practice:** Try the "B+ standard" - consciously do something imperfectly today. Notice that the world doesn't end.
 
@@ -208,9 +208,9 @@ Here's the paradox: Type 4s are the most likely to identify WITH their depressio
 
 **The tell:** When the melancholy stops producing creative insight and becomes a static, repetitive loop of deficiency-thinking, it's crossed from "emotional depth" into clinical depression.
 
-**Core Pattern:** "I am fundamentally defective and will always be missing something essential that others have."
+**Core Pattern:** "I am defective and will always be missing something other people have."
 
-Type 4 depression is characterized by deep melancholy, identity confusion, and feeling fundamentally different and flawed. You grew up feeling different, misunderstood, or like something was wrong with you compared to others. That wound never fully closed.
+Type 4 depression is characterized by deep melancholy, identity confusion, and feeling different and flawed. You grew up feeling misunderstood or like something was wrong with you compared to others. That wound never fully closed.
 
 **How it shows up:**
 
@@ -400,7 +400,7 @@ Type 8 depression emerges when your protective power fails and you're forced to 
 - **Receiving exercises:** Let others help you with something small
 - **Trauma therapy** for childhood powerlessness, **somatic therapy** to soften physical armoring, **couples therapy** for interdependence
 
-**Growth Integration:** Access Type 2's caring and nurturing. Practice protecting others through emotional support, not just force.
+**Growth Integration:** Access Type 2's caring and nurturing. Practice protecting others through emotional support instead of force.
 
 **Daily Practice:** Practice saying "I'm struggling" to someone you trust. True strength includes accepting support from others.
 
@@ -408,7 +408,7 @@ Type 8 depression emerges when your protective power fails and you're forced to 
 
 ## Type 9: The Peacemaker's Depression
 
-This is the most insidious misidentification. A depressed Type 9 says "I'm fine" and genuinely believes it. They experience emotional numbness but mistake it for inner peace. They can't name a single thing they want. They've lost the ability to feel annoyed or excited - not just suppressed it but lost access to it. "I'm easygoing. I just don't have strong feelings about things." That's not contentment. That's depressive dissociation masquerading as peacefulness.
+This is the most insidious misidentification. A depressed Type 9 says "I'm fine" and genuinely believes it. They experience emotional numbness but mistake it for inner peace. They can't name a single thing they want. They have lost access to annoyance and excitement rather than merely suppressing them. "I'm easygoing. I just don't have strong feelings about things." They are describing depressive dissociation while calling it peacefulness.
 
 **Core Pattern:** "I don't matter, my desires aren't important, and it's easier to disappear than to risk conflict or disappointment."
 
@@ -466,7 +466,7 @@ The most dangerous thing about depression isn't the pain - it's how your persona
 
 ## How Your Type Relates to Medication
 
-Most depression articles mention "medication if needed" and move on. But your type dramatically shapes how you approach psychiatric medication - and those patterns can help or sabotage your treatment. For a deep dive, read our full guide on [how your Enneagram type shapes your relationship with medication](/enneagram-corner/mental-health/enneagram-medication-mental-health).
+Most depression articles mention "medication if needed" and move on. But your type dramatically shapes how you approach psychiatric medication - and those patterns can help or sabotage your treatment. For the full pattern, read our guide on [how your Enneagram type shapes your relationship with medication](/enneagram-corner/mental-health/enneagram-medication-mental-health).
 
 **The quick version:**
 
@@ -508,7 +508,7 @@ Some people experience depression that combines patterns from multiple types, es
 
 ## Customizing Treatment by Type
 
-The key insight: [therapy doesn't work the same for every personality type](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type). The "talking cure" was designed for certain processing styles - if your brain works differently, you may need a different approach entirely.
+[Therapy doesn't work the same for every personality type](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type). The "talking cure" suits certain processing styles. If your brain works differently, you may need a different approach.
 
 **Types 1, 8, 9** (Body/Gut Center):
 Focus on physical practices (yoga, martial arts, dance), address anger and control, use body-based therapies.
@@ -527,7 +527,7 @@ Moving toward your growth direction provides specific resources for healing:
 - **Type 2 → 4:** Emotional authenticity and self-awareness
 - **Type 3 → 6:** Loyalty, teamwork, and commitment beyond self
 - **Type 4 → 1:** Structure, action, and principled improvement
-- **Type 5 → 8:** Confident action and robust energy
+- **Type 5 → 8:** Confident action and physical energy
 - **Type 6 → 9:** Inner calm and trust in life's process
 - **Type 7 → 5:** Depth, focus, and investigative patience
 - **Type 8 → 2:** Caring, nurturing, and emotional connection
@@ -559,7 +559,7 @@ The emotions behind your depression make complete sense. The pattern can be lovi
 
 ---
 
-**Ready to dive deeper into type-specific healing?** Start with practical strategies in our comprehensive guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). Then explore how all 9 types navigate mental health challenges in real-time on [9takes](/questions). Because healing happens not just in therapy rooms, but in the authentic sharing of our struggles and strengths with others who truly understand.
+**Ready for type-specific healing strategies?** Start with [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). Then see how all 9 types discuss mental health in real time on [9takes](/questions). Healing also happens when people name their struggle in front of someone who understands it.
 
 ## Recommended Reading by Type
 
@@ -567,7 +567,7 @@ The emotions behind your depression make complete sense. The pattern can be lovi
 - **Type 2:** "Codependent No More" by Melody Beattie - names the caretaking-as-survival pattern
 - **Type 3:** "Transitions" by William Bridges - frames identity crisis as a navigable process
 - **Type 4:** "Going to Pieces Without Falling Apart" by Mark Epstein - honors depth while offering a way through
-- **Type 5:** "Lost Connections" by Johann Hari - research-heavy case that isolation causes (not just accompanies) depression
+- **Type 5:** "Lost Connections" by Johann Hari - research-heavy case for isolation as a cause of depression
 - **Type 6:** "Unwinding Anxiety" by Judson Brewer - maps the anxiety habit loop with neuroscience precision
 - **Type 7:** "Wherever You Go, There You Are" by Jon Kabat-Zinn - the title alone is the Type 7 wake-up call
 - **Type 8:** "Emotional Agility" by Susan David - frames emotional openness as a competitive advantage, not surrender
@@ -581,7 +581,7 @@ The emotions behind your depression make complete sense. The pattern can be lovi
 
 ---
 
-**Remember:** Depression is treatable, and understanding your type's unique pattern is a powerful tool in your healing journey. You don't have to suffer alone, and you don't have to heal the same way as everyone else.
+**Remember:** Depression is treatable. Understanding your type's pattern can help you choose a useful next step. You don't have to suffer alone, and you don't have to heal the same way as everyone else.
 
 ## FAQs About Depression and Enneagram Types
 

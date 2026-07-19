@@ -68,7 +68,7 @@ Imagine two Type 8s walking into a room. One commands attention through raw char
 
 That's the power of wings.
 
-Here's the thing: **Your wing isn't just a minor detail - it's the secret sauce that explains why you don't perfectly fit your main type's description.**
+**Your wing is the piece that explains why you don't perfectly fit your main type's description.**
 
 Most people get their wing wrong. They either:
 
@@ -77,7 +77,7 @@ Most people get their wing wrong. They either:
 - Assume stronger = dominant (when subtle influence can be more powerful)
 - Change their wing based on mood (wings don't shift - your access to them does)
 
-This guide will show you exactly how to identify your true wing and use it for unprecedented self-understanding.
+This guide shows you exactly how to identify your true wing and use it for genuine self-understanding.
 
 ## What Are Enneagram Wings (And Why They Matter More Than You Think)
 
@@ -89,14 +89,14 @@ If you're a Type 4, your wings are 3 and 5. You'll lean toward one more than the
 
 ### The Deeper Truth
 
-Wings aren't just "add-ons" to your personality. They're:
+Wings change how the core type behaves. They affect:
 
 - **Your secondary motivation system** (different from your core fear/desire)
 - **Your adaptive mechanism** (how you flex in different situations)
 - **Your growth pathway** (the qualities you naturally access for development)
 - **Your relationship style** (how your core type shows up in connections)
 
-Think of your main type as your engine and your wing as your transmission - it determines how your core energy gets expressed in the world.
+Think of your main type as the engine and your wing as the transmission: the wing changes how your core energy reaches the road.
 
 ## How Wings Actually Work (The Mechanism Most People Miss)
 
@@ -110,7 +110,7 @@ Most people think wings work like this:
 
 ### The Real Mechanism
 
-Wings don't change how you act occasionally - they permanently flavor how your main type operates:
+Your wing consistently flavors how your main type operates:
 
 - **6w5**: Core anxiety expressed through research, analysis, and withdrawal
 - **6w7**: Core anxiety expressed through activity, planning, and seeking support
@@ -119,12 +119,13 @@ Both are dealing with Type 6's core issue (security), but the wing determines th
 
 ### The Wing Test
 
-Ask yourself: "When I'm being most myself - not performing or adapting - what secondary energy do I naturally access?"
+Ask yourself: "When I'm being most myself, what secondary energy do I naturally access?"
 
-Not: "What do I sometimes do?"
-But: "What feels like a natural extension of who I am?"
+Focus on what feels like a natural extension of who you are rather than something you do occasionally.
 
-## The 18 Wing Combinations: Deep Dive Analysis
+<span id="the-18-wing-combinations-deep-dive-analysis"></span>
+
+## How all 18 wing combinations differ
 
 ### Type 1: The Perfectionist
 
@@ -136,7 +137,7 @@ _"Principled restraint with gentle authority"_
 
 **Childhood Wound:** "I must be perfect, but I also can't upset anyone."
 
-**The Tell:** 1w9s are the Ones who edit their angry emails before sending them. They lead through calm principle rather than confrontation — reformist but patient, critical but diplomatic. Under stress, their suppressed anger goes passive-aggressive, procrastination masquerades as perfectionism, and eventually the pressure erupts unexpectedly.
+**The Tell:** 1w9s are the Ones who edit their angry emails before sending them. They lead through calm principle rather than confrontation: reformist but patient, critical but diplomatic. Under stress, their suppressed anger goes passive-aggressive, procrastination masquerades as perfectionism, and eventually the pressure erupts unexpectedly.
 
 **In Relationships:** Less critical than 1w2, but partners feel less judged and more ignored. Conflict-avoidant until pushed too far, then rigid about things being done "right."
 
@@ -160,9 +161,9 @@ _"Righteous action with helping hearts"_
 
 **Childhood Wound:** "I must be perfect AND needed by others."
 
-**The Tell:** 1w2s are passionate advocates who apply their high standards to helping others — then don't understand why people get defensive about it. They mentor, organize, and reform with genuine warmth, but under stress their "help" becomes controlling, their concern becomes criticism, and they burn out from over-giving while resenting that no one appreciates the effort.
+**The Tell:** 1w2s are passionate advocates who apply their high standards to helping others, then don't understand why people get defensive about it. They mentor, organize, and reform with genuine warmth, but under stress their "help" becomes controlling, their concern becomes criticism, and they burn out from over-giving while resenting that no one appreciates the effort.
 
-**In Relationships:** More emotionally expressive than 1w9. Gives advice freely (often unsolicited) and shows love through acts of service — with a side of wanting to "improve" their partner.
+**In Relationships:** More emotionally expressive than 1w9. Gives advice freely (often unsolicited) and shows love through acts of service, with a side of wanting to "improve" their partner.
 
 **Career Patterns:** Social work, coaching, management, politics, healthcare, education
 
@@ -186,7 +187,7 @@ _"Helping with high standards"_
 
 **Childhood Wound:** "I must be needed, and I must do it perfectly."
 
-**The Tell:** 2w1s have an internal code about the _right_ way to help. They won't just help anyone with anything — they help in ways that align with their values. This makes them more boundaried than 2w3, but it also means they can become rigid and preachy when others don't share their helping philosophy. Under stress, they guilt-spiral when they can't help "properly."
+**The Tell:** 2w1s have an internal code about the _right_ way to help. They won't just help anyone with anything. They help in ways that align with their values. This makes them more boundaried than 2w3, but it also means they can become rigid and preachy when others don't share their helping philosophy. Under stress, they guilt-spiral when they can't help "properly."
 
 **In Relationships:** Less likely to shape-shift for approval, but can be preachy about relationship "shoulds."
 
@@ -210,7 +211,7 @@ _"Helping through achievement and charm"_
 
 **Childhood Wound:** "I must be needed AND impressive."
 
-**The Tell:** 2w3s don't just help — they _perform_ helping. They're excellent at networking, connecting people, and making the whole thing look effortless. The dark side: they sometimes choose who to help based on who's watching, and they burn out from over-performing care. Under stress, they compete about being the "best" helper in the room.
+**The Tell:** 2w3s _perform_ helping. They're excellent at networking, connecting people, and making the whole thing look effortless. The dark side: they sometimes choose who to help based on who's watching, and they burn out from over-performing care. Under stress, they compete about being the "best" helper in the room.
 
 **In Relationships:** More dramatic and attention-seeking than 2w1. Generous but expects recognition. Adapts personality to what partner wants.
 
@@ -236,7 +237,7 @@ _"Success through connection and service"_
 
 **Childhood Wound:** "I must succeed AND be loved."
 
-**The Tell:** 3w2s achieve _through_ people. They're inspiring leaders who genuinely care about developing others — but they also use relationships to climb, sometimes without realizing it. Being disliked feels almost as painful as failing. Under stress, they burn out trying to manage both their image and all their relationships simultaneously.
+**The Tell:** 3w2s achieve _through_ people. They're inspiring leaders who genuinely care about developing others, but they also use relationships to climb, sometimes without realizing it. Being disliked feels almost as painful as failing. Under stress, they burn out trying to manage both their image and all their relationships simultaneously.
 
 **In Relationships:** More emotionally available than 3w4, but needs partner to reflect well on them.
 
@@ -246,7 +247,7 @@ _"Success through connection and service"_
 
 **Red Flags You're This Type:**
 
-- Your LinkedIn bio emphasizes how you helped your team achieve things, not just your own wins
+- Your LinkedIn bio foregrounds team wins over your own
 - You've stayed late to help someone and made sure the right people knew
 - Being genuinely disliked feels almost as painful as failing
 
@@ -260,9 +261,9 @@ _"Success through authenticity and depth"_
 
 **Childhood Wound:** "I must succeed AND be authentically myself."
 
-**The Tell:** 3w4s are the Threes who turn down good opportunities because they don't feel "authentic." They want success _and_ substance — which means they're often caught in an identity crisis between image and depth. Under stress, they get moody about whether their achievements actually mean anything. Hollow success hits them harder than failure.
+**The Tell:** 3w4s are the Threes who turn down good opportunities because they don't feel "authentic." They want success _and_ substance, which means they're often caught in an identity crisis between image and depth. Under stress, they get moody about whether their achievements actually mean anything. Hollow success hits them harder than failure.
 
-**In Relationships:** More emotionally intense than 3w2. Needs partner to see their "real" self, not just the polished version.
+**In Relationships:** More emotionally intense than 3w2. Needs a partner to see the "real" self behind the polished version.
 
 **Career Patterns:** Creative fields, entrepreneurship, consulting, design, writing, therapy
 
@@ -286,9 +287,9 @@ _"Unique identity through achievement"_
 
 **Childhood Wound:** "I must find my true self AND be recognized for it."
 
-**The Tell:** 4w3s don't just want to be unique — they want you to _notice_. They turn personal struggles into art, brand their authenticity, and mentally rehearse vulnerable moments before sharing them. Under stress, they get competitive about being special and anxious that their achievements might make them ordinary.
+**The Tell:** 4w3s want to be unique, and they need you to _notice_. They turn personal struggles into art, brand their authenticity, and mentally rehearse vulnerable moments before sharing them. Under stress, they get competitive about being special and anxious that their achievements might make them ordinary.
 
-**In Relationships:** More socially engaged than 4w5. Needs to feel special to their partner — not just loved, but _uniquely_ appreciated.
+**In Relationships:** More socially engaged than 4w5. Needs to feel _uniquely_ appreciated by their partner.
 
 **Career Patterns:** Arts, entertainment, fashion, design, marketing, entrepreneurship
 
@@ -298,7 +299,7 @@ _"Unique identity through achievement"_
 
 - You've mentally rehearsed how to share a vulnerable moment before actually sharing it
 - Being uniquely broken and being uniquely brilliant feel like two sides of the same coin
-- You care whether your niche thing is impressive, not just whether it's authentically yours
+- You care whether your niche thing impresses people as much as whether it feels authentically yours
 
 ---
 
@@ -310,9 +311,9 @@ _"Unique identity through depth and withdrawal"_
 
 **Childhood Wound:** "I must find my true self through deep understanding."
 
-**The Tell:** 4w5s are the Fours who disappear. They create meaningful work in solitude, develop penetrating insights into human nature, and guard their inner world fiercely. Under stress, they withdraw into fantasy, develop a superiority complex about their depth, and procrastinate endlessly — calling it "process."
+**The Tell:** 4w5s are the Fours who disappear. They create meaningful work in solitude, develop penetrating insights into human nature, and guard their inner world fiercely. Under stress, they withdraw into fantasy, develop a superiority complex about their depth, and procrastinate endlessly, calling it "process."
 
-**In Relationships:** Needs significant alone time. Partners must respect their creative process or get shut out entirely.
+**In Relationships:** Needs substantial alone time. Partners must respect their creative process or get shut out entirely.
 
 **Career Patterns:** Writing, research, academia, therapy, art, philosophy, technology
 
@@ -336,7 +337,7 @@ _"Understanding through personal meaning"_
 
 **Childhood Wound:** "I must understand the world AND find my place in it."
 
-**The Tell:** 5w4s don't just want to know things — they want to know things _no one else knows_. They combine deep research with creative insight and develop idiosyncratic theories that feel deeply personal. Under stress, they become arrogant about their unique insights and procrastinate waiting for "inspiration" that never comes. Their version of vulnerability is explaining their theory of everything.
+**The Tell:** 5w4s want to know things _no one else knows_. They combine deep research with creative insight and develop idiosyncratic theories that feel deeply personal. Under stress, they become arrogant about their unique insights and procrastinate waiting for "inspiration" that never comes. Their version of vulnerability is explaining their theory of everything.
 
 **In Relationships:** More emotionally expressive than 5w6, but shares ideas more than feelings. Needs a partner who appreciates their uniqueness.
 
@@ -360,7 +361,7 @@ _"Understanding through practical application"_
 
 **Childhood Wound:** "I must understand enough to be safe and helpful."
 
-**The Tell:** 5w6s are the Fives who actually _do_ something with what they know. They research thoroughly, build reliable expertise, and translate complex ideas for others. The 6 wing adds loyalty — they'll stick with a team or cause once they've committed. Under stress, they spiral into worst-case scenario thinking and analysis paralysis, convinced they don't know enough to act.
+**The Tell:** 5w6s are the Fives who actually _do_ something with what they know. They research thoroughly, build reliable expertise, and translate complex ideas for others. The 6 wing adds loyalty: they'll stick with a team or cause once they've committed. Under stress, they spiral into worst-case scenario thinking and analysis paralysis, convinced they don't know enough to act.
 
 **In Relationships:** More committed and loyal than 5w4. Shows care through sharing knowledge rather than emotions.
 
@@ -386,7 +387,7 @@ _"Security through knowledge and independence"_
 
 **Childhood Wound:** "I must be safe through understanding and self-reliance."
 
-**The Tell:** 6w5s manage anxiety by _researching_ it away. They prepare for difficult conversations (sometimes rehearsing multiple versions), vet restaurants before agreeing to go, and trust people who can explain their reasoning over people who just assert conclusions. Under stress, they withdraw into analysis and can tip into paranoid thinking — procrastinating endlessly while calling it "preparation."
+**The Tell:** 6w5s manage anxiety by _researching_ it away. They prepare for difficult conversations (sometimes rehearsing multiple versions), vet restaurants before agreeing to go, and trust people who can explain their reasoning over people who just assert conclusions. Under stress, they withdraw into analysis and can tip into paranoid thinking, procrastinating endlessly while calling it "preparation."
 
 **In Relationships:** More independent than 6w7. Needs intellectual connection and shows loyalty through consistent, quiet presence rather than grand gestures.
 
@@ -397,7 +398,7 @@ _"Security through knowledge and independence"_
 **Red Flags You're This Type:**
 
 - You've already rehearsed the difficult conversation before it happens. Sometimes multiple versions.
-- You trust people who can explain their reasoning, not just assert their conclusions
+- You trust people who explain their reasoning over people who only assert conclusions
 - You've researched a restaurant for twenty minutes before agreeing to go there
 
 ---
@@ -410,7 +411,7 @@ _"Security through activity and optimism"_
 
 **Childhood Wound:** "I must stay safe by staying active and connected."
 
-**The Tell:** 6w7s manage anxiety by _outrunning_ it. They organize group activities, make jokes when nervous (which is often), and build strong networks as a security strategy. They can generate 10 things that could go wrong and 10 ways to have fun anyway — simultaneously. Under stress, they become manic, over-committed, and clingy, unable to sit with uncertainty.
+**The Tell:** 6w7s manage anxiety by _outrunning_ it. They organize group activities, make jokes when nervous (which is often), and build strong networks as a security strategy. They can generate 10 things that could go wrong and 10 ways to have fun anyway. Simultaneously. Under stress, they become manic, over-committed, and clingy, unable to sit with uncertainty.
 
 **In Relationships:** More social and engaging than 6w5. Needs active partnership and shared adventures. Shows loyalty through shared experiences.
 
@@ -436,7 +437,7 @@ _"Adventure with security and loyalty"_
 
 **Childhood Wound:** "I must stay excited AND safe."
 
-**The Tell:** 7w6s are the Sevens who actually feel guilty when they bail on plans. They want adventure _and_ reliability — planning trips with just enough structure to feel safe while leaving room for spontaneity. Under stress, they're torn between FOMO and commitment, scattered but genuinely wanting to be dependable. They're enthusiastic and they really mean it — but they also really meant it last time.
+**The Tell:** 7w6s are the Sevens who actually feel guilty when they bail on plans. They want adventure _and_ reliability, planning trips with just enough structure to feel safe while leaving room for spontaneity. Under stress, they're torn between FOMO and commitment, scattered but genuinely wanting to be dependable. They're enthusiastic and they really mean it. But they also really meant it last time.
 
 **In Relationships:** More committed and loyal than 7w8. Wants shared adventures but gets anxious about partner's satisfaction.
 
@@ -460,7 +461,7 @@ _"Adventure with power and intensity"_
 
 **Childhood Wound:** "I must stay free through strength and control."
 
-**The Tell:** 7w8s don't just want experiences — they want to _make things happen_. They pitch ideas before thinking through details because momentum matters more than plans, turn vision into reality fast, and steamroll anyone who slows them down. Under stress, they become impulsive and aggressive when freedom is threatened. Their idea of a vacation involves logistics that stress out everyone else.
+**The Tell:** 7w8s want to _make things happen_. They pitch ideas before thinking through details because momentum matters more than plans, turn vision into reality fast, and steamroll anyone who slows them down. Under stress, they become impulsive and aggressive when freedom is threatened. Their idea of a vacation involves logistics that stress out everyone else.
 
 **In Relationships:** More dominant and intense than 7w6. Needs a partner who can match their energy or get left behind.
 
@@ -486,7 +487,7 @@ _"Power through enthusiasm and adventure"_
 
 **Childhood Wound:** "I must stay strong through excitement and freedom."
 
-**The Tell:** 8w7s walk into a room and immediately start making things happen — whether anyone asked them to or not. They're charismatic, visionary, and protective, but also impulsive and overwhelming. Under stress, they become reckless and aggressive when bored or constrained. They say "I'm just being direct" after things land harder than intended.
+**The Tell:** 8w7s walk into a room and immediately start making things happen, whether anyone asked them to or not. They're charismatic, visionary, and protective, but also impulsive and overwhelming. Under stress, they become reckless and aggressive when bored or constrained. They say "I'm just being direct" after things land harder than intended.
 
 **In Relationships:** More playful and adventurous than 8w9. Needs a partner who can keep up or will get steamrolled by sheer momentum.
 
@@ -510,7 +511,7 @@ _"Power through calm strength and persistence"_
 
 **Childhood Wound:** "I must stay strong through calm persistence."
 
-**The Tell:** 8w9s are the Eights people describe as "quietly terrifying." They lead through steady presence rather than volume — protecting others without creating drama, building consensus with patient authority. But cross them and you'll discover the 8 underneath. Under stress, they go passive-aggressive, stubbornly resist change, and then make their displeasure unmistakably clear in a single conversation after months of silence.
+**The Tell:** 8w9s are the Eights people describe as "quietly terrifying." They lead through steady presence rather than volume: protecting others without creating drama, building consensus with patient authority. But cross them and you'll discover the 8 underneath. Under stress, they go passive-aggressive, stubbornly resist change, and then make their displeasure unmistakably clear in a single conversation after months of silence.
 
 **In Relationships:** More grounding than 8w7. Shows love through consistent protection. Can be possessive in a quiet way.
 
@@ -536,7 +537,7 @@ _"Harmony through strength and action"_
 
 **Childhood Wound:** "I must keep peace through quiet strength."
 
-**The Tell:** 9w8s are the Nines who surprise people. They mediate conflicts, keep the peace, and seem endlessly accommodating — until they don't. People are shocked to discover how firm they are once they've actually decided something. Under stress, they let situations go too long, then respond with a force that surprises everyone, including themselves. They're stubbornly resistant but disguise it as peacemaking.
+**The Tell:** 9w8s are the Nines who surprise people. They mediate conflicts, keep the peace, and seem endlessly accommodating. Until they don't. People are shocked to discover how firm they are once they've actually decided something. Under stress, they let situations go too long, then respond with a force that surprises everyone, including themselves. They're stubbornly resistant but disguise it as peacemaking.
 
 **In Relationships:** More assertive than 9w1 when necessary. Shows love through steady presence and quiet protection.
 
@@ -560,7 +561,7 @@ _"Harmony through principles and idealism"_
 
 **Childhood Wound:** "I must keep peace by being good and right."
 
-**The Tell:** 9w1s have strong opinions about the right way to do things — and they almost never volunteer them. They create harmony through ethical consistency and gentle but firm values. Under stress, they become rigidly perfectionistic about peacemaking itself, give feedback so gently that no one realizes it was feedback, and quietly judge people who don't share their values without ever saying so directly.
+**The Tell:** 9w1s have strong opinions about the right way to do things, and they almost never volunteer them. They create harmony through ethical consistency and gentle but firm values. Under stress, they become rigidly perfectionistic about peacemaking itself, give feedback so gently that no one realizes it was feedback, and quietly judge people who don't share their values without ever saying so directly.
 
 **In Relationships:** More idealistic than 9w8. Needs partner to share their values. Can be quietly critical in ways the partner doesn't notice for months.
 
@@ -586,7 +587,7 @@ You can't identify your wing until you're certain of your main type. If you're s
 
 ### Step 2: Study Both Adjacent Types
 
-Don't just read summaries. Deep dive into:
+Read past the summaries. Compare:
 
 - Core fears and desires of each adjacent type
 - Childhood messages and wounds
@@ -656,7 +657,7 @@ Try wing-specific growth practices for a month:
 
 ## Wing Dynamics in Relationships
 
-Understanding wings transforms how you navigate relationships. (For foundational insights into how types connect, see [Enneagram types in relationships](/enneagram-corner/enneagram-types-in-relationships).)
+Wings explain why two people of the same type can handle relationships differently. (For foundational insights into how types connect, see [Enneagram types in relationships](/enneagram-corner/enneagram-types-in-relationships).)
 
 ### Same Type, Different Wings
 
@@ -673,7 +674,7 @@ Understanding wings transforms how you navigate relationships. (For foundational
 
 - 8w7 brings energy and vision
 - 8w9 provides stability and grounding
-- **Synergy:** Dynamic action balanced with steady persistence
+- **Balance:** Dynamic action paired with steady persistence
 - **Challenge:** 8w7 may overwhelm 8w9's need for peace
 
 ### Wing-to-Core Relationships
@@ -689,9 +690,9 @@ Understanding wings transforms how you navigate relationships. (For foundational
 
 Wings show up clearly in professional settings. Compare two Type 8 leaders:
 
-**8w7 Leaders** are fast-paced, visionary, and inspiring — they motivate teams toward big goals but can overwhelm detail-oriented people.
+**8w7 Leaders** are fast-paced, visionary, and inspiring: they motivate teams toward big goals but can overwhelm detail-oriented people.
 
-**8w9 Leaders** are steady, consensus-building, and protective — they create stable, loyal teams but may avoid necessary confrontations.
+**8w9 Leaders** are steady, consensus-building, and protective: they create stable, loyal teams but may avoid necessary confrontations.
 
 Same core drive for control. Completely different leadership experience. If you've ever worked for two people of the "same type" who felt nothing alike, the wing is probably why.
 
@@ -742,11 +743,11 @@ Understanding this interaction provides even deeper insight into your personalit
 
 ### Wings and Your Stress/Growth Arrows
 
-Wings work alongside your [integration and disintegration arrows](/enneagram-corner/enneagram-stress-number) — they shape _how_ you experience those movements, not _where_ you go.
+Wings work alongside your [integration and disintegration arrows](/enneagram-corner/enneagram-stress-number). They shape _how_ you experience those movements, not _where_ you go.
 
 **Example:** Both 6w5 and 6w7 move toward Type 3 under disintegration, but they do it differently. A 6w5 becomes calculating and quietly status-conscious, using analysis to manage image. A 6w7 becomes flashier and trend-chasing, using optimism to paper over the hollowness.
 
-Same arrow, different flavor. Your wing doesn't change the direction; it changes the texture of the journey.
+Same arrow, different flavor. Your wing doesn't change the direction; it changes how you move along it.
 
 ## The Wing Paradox: Why You Might Resist Your True Wing
 
@@ -791,7 +792,7 @@ Not all Enneagram teachers treat wings the same way:
 - **Some say balanced wings are real**, that you can have roughly equal pull from both adjacent types
 - **Most agree** that one wing is usually dominant and becomes clearest under stress or in authentic, unguarded moments
 
-The honest position: wings are a conceptual framework, not a measurable neurological reality. What makes them valuable isn't precision but the accuracy of recognition. When the description clicks, it clicks hard.
+The honest position: no neurological measure confirms wing theory. Its value is practical recognition. When the description clicks, it clicks hard.
 
 ### Wing and Trauma
 
@@ -807,7 +808,7 @@ You don't need to develop your wing from scratch. You need to notice it.
 
 It's in the pattern of your stress responses. It's in why certain self-help advice bounces off you while other advice lands immediately. It's in the gap between your type description and your actual lived experience.
 
-Start with the observation steps above. Pay attention under stress — that's when the wing signal gets loudest. And if you want to see all 18 wing combinations in action, explore how different types actually respond to the same situations on [9takes](/questions).
+Start with the observation steps above. Pay attention under stress. That's when the wing signal gets loudest. And if you want to see all 18 wing combinations in action, explore how different types actually respond to the same situations on [9takes](/questions).
 
 <svelte:head>
 

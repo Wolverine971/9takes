@@ -91,7 +91,7 @@ The unspoken belief is that it happens to other people.
   imageUrl="/blogs/greek-statue-2-sided-mask.webp"
 /> -->
 
-But every downward spiral starts somewhere — usually in the same patterns your personality already runs every day, just turned up too high.
+But every downward spiral starts somewhere, usually in the same patterns your personality already runs every day, just turned up too high.
 
 This guide uses the Enneagram to map those patterns: the specific way each of the 9 types breaks down when their healthy traits curdle into something darker. The framework draws on "<a class="external-link" target="_blank" rel="noopener" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which traces the shadow side of each type.
 
@@ -99,9 +99,9 @@ That **shadow side** is the engine of this exploration. Knowing yours is how you
 
 ## Important Context and Disclaimer
 
-The Enneagram is a **personality framework**—not a diagnostic tool. Everyone’s experience with mental health is unique, and symptoms or challenges can vary widely. This article is for **informational and self-reflection purposes** only and **does not replace professional mental health advice**. If you believe you might be experiencing mental health issues, please seek help from a qualified medical or mental health professional.
+The Enneagram is a **personality framework**, not a diagnostic tool. Everyone’s experience with mental health is unique, and symptoms or challenges can vary widely. This article is for **informational and self-reflection purposes** only and **does not replace professional mental health advice**. If you believe you might be experiencing mental health issues, please seek help from a qualified medical or mental health professional.
 
-In addition, we aim to address these topics with **sensitivity and inclusivity**. Mental health struggles affect people of all backgrounds, and it's important to use non-stigmatizing language. By exploring each type's risks, we encourage empathy and understanding—both for ourselves and for those around us.
+We address these topics with **sensitivity and inclusivity** and use non-stigmatizing language. Mental health struggles affect people of all backgrounds. Looking at each type's risks should build empathy for ourselves and others, never turn a pattern into a diagnosis.
 
 ---
 
@@ -163,7 +163,7 @@ Type 1s are susceptible to a range of mental health challenges, including:
    - Developing insomnia due to worry about potential mistakes
    - Eventual burnout and consideration of leaving the profession
 
-2. **Maria, a meticulous artist, exhibits OCPD-like patterns**
+2. **Maria, a detail-driven artist, exhibits OCPD-like patterns**
    - Refusing to show “imperfect” pieces, leading to missed opportunities
    - Developing ritualistic behaviors around her creative process
    - Experiencing intense anger and shame when receiving constructive criticism
@@ -441,7 +441,7 @@ Type 6s are susceptible to:
 - Intense anxiety attacks
 - Chronic fear and suspicion
 
-Research shows Type 6 has the highest correlation with anxiety—72% in one major study. For a deeper dive into [how anxiety manifests differently for Type 6 versus other types](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad), and practical strategies that actually work, see our anxiety guide.
+Research shows Type 6 has the highest correlation with anxiety, at 72% in one major study. For a deeper dive into [how anxiety manifests differently for Type 6 versus other types](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad), and practical strategies that actually work, see our anxiety guide.
 
 ### Unhealthy Behaviors - The Spectrum of Anxiety and Paranoia
 
@@ -667,25 +667,25 @@ Type 9s are susceptible to:
 
 ## Wrap up
 
-Exploring the [Enneagram types'](/enneagram-corner/enneagram-tldr) predispositions to mental health challenges is a heavy but crucial step toward self-awareness. By understanding the potential extremes of our personalities:
+Looking at the [Enneagram types'](/enneagram-corner/enneagram-tldr) potential mental health risks can sharpen self-awareness. It gives us three ways to respond:
 
-1. **We can proactively address signs of distress**—whether it’s perfectionism, codependency, addiction, or beyond.
+1. **We can proactively address signs of distress**, whether it’s perfectionism, codependency, addiction, or beyond.
 2. **We learn how to seek help and support**, from therapy to community resources.
 3. **We open the door to healthier coping mechanisms**, turning potential pitfalls into growth opportunities.
 
-**Remember**: If you are struggling, talking openly about your mental health is a powerful first step in the right direction. Consider confiding in a trusted friend, seeking guidance from a mental health professional, or utilizing online resources.
+**Remember**: If you are struggling, talking openly about your mental health is a useful first step. Consider confiding in a trusted friend, seeking guidance from a mental health professional, or using online resources.
 
-**Continue Your Journey**
+**Choose the next move**
 
-- Dive deeper into the Enneagram and learn more about how each type responds under stress.
-- Engage with our [questions](https://9takes.com/questions) or other Enneagram guides to better understand yourself.
-- Embrace self-awareness and reflection to transform potential vulnerabilities into strengths.
+- Read how each type responds under stress.
+- Compare your pattern with anonymous answers on [9takes questions](https://9takes.com/questions).
+- Catch a vulnerability before it becomes a habit.
 
-By integrating Enneagram insights with professional advice and personal reflection, you can foster a well-rounded approach to mental well-being.
+Use the Enneagram as a pattern map, then check it against professional advice and your own experience.
 
-## Mental Health Deep Dives
+## Mental health guides by topic
 
-Explore these comprehensive guides for specific mental health topics by Enneagram type:
+Use these guides to examine specific mental health topics by Enneagram type:
 
 - **[Why Your Anxiety Is Different](/enneagram-corner/anxiety-and-enneagram-types-guide)** - How anxiety manifests uniquely for each type and practical strategies that actually work for your wiring
 - **[Why Therapy Doesn't Work the Same for Everyone](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)** - The talking cure was built for certain types. Find out if it matches how your brain processes emotions.

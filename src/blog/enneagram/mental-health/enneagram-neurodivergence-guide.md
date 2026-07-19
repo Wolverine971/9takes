@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram and Neurodivergence: When Personality Meets Brain Wiring'
-description: 'How ADHD, autism, and other neurodivergent conditions interact with each Enneagram type — and strategies that address both your brain wiring and personality patterns.'
+description: 'How ADHD, autism, and other neurodivergent conditions interact with each Enneagram type, and strategies that address both your brain wiring and personality patterns.'
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-neurodivergence-guide'
@@ -60,7 +60,7 @@ NOTES:
 
 Same diagnosis. Different friction points.
 
-A Type 1 with ADHD isn't just managing executive dysfunction. They're fighting an inner critic that turns every missed task into evidence of moral failure. A Type 7 with ADHD? Different problem entirely. The chaos might feel good until they're 15 projects deep with nothing finished.
+A Type 1 with ADHD manages executive dysfunction while fighting an inner critic that turns every missed task into evidence of moral failure. A Type 7 with ADHD? Different problem entirely. The chaos might feel good until they're 15 projects deep with nothing finished.
 
 This guide maps strategies that address both your brain wiring and your personality patterns.
 
@@ -90,7 +90,7 @@ Both are real. Both matter. Neither is the whole picture.
 
 ### What Happens When They Collide
 
-Your neurodivergence doesn't just sit next to your personality. It changes how your type shows up:
+Neurodivergence changes how your type shows up:
 
 - **Amplifies**: ADHD + Type 7 can turn novelty-seeking into a full-time job
 - **Masks**: Autism + Type 2 can look like extra effort to read people while still wanting to care well
@@ -146,7 +146,7 @@ If medication is part of your plan, Type 1 perfectionism can turn it into a mora
 
 Type 1s already have strong internal rules. Autism can intensify this into rigid systematizing that's hard to flex. You might feel like you finally have the structure to do things "right," but implicit social rules create constant confusion.
 
-Sensory issues add another layer. An "imperfect" texture, an unexpected noise, or a messy environment can feel morally wrong, not just uncomfortable.
+Sensory issues add another layer. An "imperfect" texture, an unexpected noise, or a messy environment can trigger moral disgust alongside physical discomfort.
 
 **What This Looks Like**:
 
@@ -250,7 +250,7 @@ Many Type 3s mask neurodivergent challenges to maintain an image of competence. 
 
 **Strategies That Fit**:
 
-- Redefine success to include sustainability, not just results
+- Redefine success around sustainable results
 - Build ADHD-friendly productivity systems instead of forcing neurotypical ones
 - Strategic disclosure when it serves you
 - Celebrate what ADHD gives you: energy, creativity, hyperfocus when it aligns
@@ -295,7 +295,7 @@ Traditional achievement paths run through reading and writing. Academic success,
 
 **The Core Conflict**:
 
-You already feel things deeply. ADHD's emotional dysregulation amplifies that to overwhelming levels. Identity feels fluid, which can be interesting until it becomes destabilizing. RSD feeds directly into abandonment fears: every perceived rejection confirms you're fundamentally different in a way that makes connection impossible.
+You already feel things deeply. ADHD's emotional dysregulation amplifies that to overwhelming levels. Identity feels fluid, which can be interesting until it becomes destabilizing. RSD feeds directly into abandonment fears: every perceived rejection confirms the fear that you're too different to connect.
 
 **What This Looks Like**:
 
@@ -313,7 +313,7 @@ Emotional swings that feel like weather you can't predict. Hyperfocus on identit
 
 **The Core Conflict**:
 
-Type 4s already feel fundamentally different from others. Autism intensifies this. Social isolation can feel both like a wound and a relief. You might express emotions differently than neurotypical people expect, which creates misunderstanding even when you're being authentic.
+Type 4s already feel different from others. Autism intensifies this. Social isolation can feel both like a wound and a relief. You might express emotions differently than neurotypical people expect, which creates misunderstanding even when you're being authentic.
 
 <a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
@@ -433,7 +433,7 @@ Type 6s with ADHD often want extra clarity around treatment. If medication is on
 
 **The Core Conflict**:
 
-Social anxiety doubles when autism makes social cues harder to read. Rules feel essential, but implicit rules are confusing. Routine disruption triggers anxiety. Authority figures feel both necessary and untrustworthy, especially when they don't communicate clearly.
+Social anxiety doubles when autism makes social cues harder to read. Explicit rules feel stabilizing, but implicit rules are confusing. Routine disruption triggers anxiety. Authority figures feel both necessary and untrustworthy, especially when they don't communicate clearly.
 
 **What This Looks Like**:
 
@@ -480,7 +480,7 @@ Type 7s with ADHD can be more vulnerable to compulsive coping because stimulatio
 
 - Channel double energy into things that actually matter to you
 - Structured variety: rotation systems for projects, scheduled novelty
-- Mindfulness is crucial (and probably sounds boring, but it works)
+- Mindfulness helps (and probably sounds boring, but it works)
 - Find healthy stimulation sources
 - Completion rewards that make finishing as exciting as starting
 
@@ -536,7 +536,7 @@ If trauma is part of your history, it compounds these challenges. Rejection sens
 - Reframe ADHD traits as strengths: energy, quick thinking, intensity
 - Channel intensity into things that matter
 - Strategic disclosure when it serves you
-- Physical outlets are crucial (not optional)
+- Schedule regular physical outlets
 - Open about challenges when you choose to be, not when forced
 
 ### Type 8 + Autism
@@ -619,7 +619,7 @@ You ignore your own sensory needs because you don't want to make a fuss. Overwhe
 **Strategies That Fit**:
 
 - Build sensory awareness (learn to notice what your body actually experiences)
-- Regular check-ins with yourself, not just with others
+- Regular check-ins with yourself alongside check-ins with others
 - Environmental control that you give yourself permission to exercise
 - Body connection work that reconnects you to physical sensation
 
@@ -652,7 +652,7 @@ Consider these dimensions:
 - **Social energy**: How much interaction can you handle before depletion?
 - **Communication**: What modes work best for you? (Written, verbal, async)
 
-Your environment should work with both your brain wiring and your personality patterns. That's a lot to optimize. Start with the biggest pain point.
+Your environment should support both your brain wiring and your personality patterns. Start with the point of friction that costs you the most.
 
 ### Find Your People
 

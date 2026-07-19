@@ -50,7 +50,7 @@ QUALITY_FEEDBACK_END -->
           "name": "Does ADHD medication work differently based on personality type?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Research hasn't established direct links between Enneagram types and medication response. However, personality traits do influence medication adherence and how people interpret medication effects. Your personality may affect how comfortable you are with medication, how you describe its effects to your doctor, and whether you stick with treatment. Discuss your personality patterns with your prescriber to optimize treatment."
+            "text": "Research hasn't established direct links between Enneagram types and medication response. However, personality traits do influence medication adherence and how people interpret medication effects. Your personality may affect how comfortable you are with medication, how you describe its effects to your doctor, and whether you stick with treatment. Discuss your personality patterns with your prescriber when adjusting treatment."
           }
         },
         {
@@ -82,7 +82,7 @@ QUALITY_FEEDBACK_END -->
           "name": "Is ADHD underdiagnosed in certain Enneagram types?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Likely yes. Types that naturally develop strong coping structures — like Type 1 (rigid routines), Type 3 (overwork to compensate), and Type 6 (anxiety-driven preparation) — may mask ADHD symptoms so effectively that they fly under the diagnostic radar. Women are also diagnosed later and less often, and the inattentive presentation is easier to miss than hyperactive symptoms."
+            "text": "Likely yes. Types that naturally develop strong coping structures, like Type 1 (rigid routines), Type 3 (overwork to compensate), and Type 6 (anxiety-driven preparation), may mask ADHD symptoms so effectively that they fly under the diagnostic radar. Women are also diagnosed later and less often, and the inattentive presentation is easier to miss than hyperactive symptoms."
           }
         }
       ]
@@ -101,11 +101,11 @@ Type 7 (The Enthusiast) shows the highest correlation with ADHD symptoms, but ev
 
 You know you're capable. So why does everything feel this hard?
 
-Here's what most ADHD advice misses: **your [Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) changes how ADHD shows up.** The Type 1 with ADHD is drowning in self-criticism because nothing meets their standards. The Type 7 can't tell where their personality ends and ADHD begins. The Type 9 is stuck in amber — watching life happen from behind glass.
+Here's what most ADHD advice misses: **your [Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) changes how ADHD shows up.** The Type 1 with ADHD is drowning in self-criticism because nothing meets their standards. The Type 7 can't tell where their personality ends and ADHD begins. The Type 9 is stuck in amber, watching life happen from behind glass.
 
 Same condition. Completely different battles. And the coping strategies that work for one type can fail miserably for another.
 
-Here's how ADHD actually plays out for each Enneagram type — and what helps.
+Here's how ADHD actually plays out for each Enneagram type, and what helps.
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date 💜', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
@@ -113,7 +113,7 @@ Here's how ADHD actually plays out for each Enneagram type — and what helps.
 
 ## Why Your Enneagram Type Affects How ADHD Shows Up
 
-ADHD is neurological. It's about brain wiring. The Enneagram is psychological. It's about core motivations and fears. They're fundamentally different systems.
+ADHD describes brain wiring. The Enneagram maps core motivations and fears. The two systems measure different things.
 
 But they interact in powerful ways.
 
@@ -134,19 +134,19 @@ Understanding both gives you a roadmap that generic ADHD advice can never provid
 
 ### A Note on Gender
 
-ADHD shows up differently by gender, and this matters for typing. Women are more likely to have the inattentive presentation — disorganization, forgetfulness, daydreaming — rather than the hyperactive symptoms people typically picture. They're also more likely to develop rigid coping structures (strict lists, inflexible schedules) that mask symptoms entirely.
+ADHD shows up differently by gender, and this matters for typing. Women are more likely to have the inattentive presentation (disorganization, forgetfulness, daydreaming) rather than the hyperactive symptoms people typically picture. They're also more likely to develop rigid coping structures (strict lists, inflexible schedules) that mask symptoms entirely.
 
-The result: women often get diagnosed years or decades later than men. Their ADHD symptoms get attributed to anxiety, depression, or "just their personality." If you're a woman reading this and thinking "some of this sounds like me but I'm not hyperactive" — inattentive ADHD is still ADHD. Adult women diagnoses doubled between 2020 and 2022 as awareness caught up.
+The result: women often get diagnosed years or decades later than men. Their ADHD symptoms get attributed to anxiety, depression, or "just their personality." If you're a woman reading this and thinking "some of this sounds like me but I'm not hyperactive," inattentive ADHD is still ADHD. Adult women diagnoses doubled between 2020 and 2022 as awareness caught up.
 
 ## Which Enneagram Types Are Most Commonly Diagnosed with ADHD?
 
-Three types show particularly high correlation with ADHD diagnosis — each for different reasons:
+Three types show particularly high correlation with ADHD diagnosis, each for different reasons:
 
-- **Type 7 (The Enthusiast)** — The biggest overlap. Novelty-seeking, high energy, and difficulty with routine look nearly identical to ADHD symptoms. The confusion goes both ways: Type 7s get false ADHD diagnoses, and people with ADHD mistype as 7s.
-- **Type 4 (The Individualist)** — ADHD's emotional flooding mirrors Type 4's natural emotional intensity, leading to frequent diagnosis.
-- **Type 6 (The Loyalist)** — ADHD's anxiety component compounds Type 6's baseline worry, making it a frequently identified combination.
+- **Type 7 (The Enthusiast)** is the biggest overlap. Novelty-seeking, high energy, and difficulty with routine look nearly identical to ADHD symptoms. The confusion goes both ways: Type 7s get false ADHD diagnoses, and people with ADHD mistype as 7s.
+- **Type 4 (The Individualist)** gets diagnosed often because ADHD's emotional flooding mirrors Type 4's natural emotional intensity.
+- **Type 6 (The Loyalist)** is a frequently identified combination because ADHD's anxiety component compounds Type 6's baseline worry.
 
-However, **any type can have ADHD**. Don't rule it out because you're not a 7, 4, or 6. The sections below cover how ADHD shows up for every type — and what actually helps.
+However, **any type can have ADHD**. Don't rule it out because you're not a 7, 4, or 6. The sections below cover how ADHD shows up for every type, and what actually helps.
 
 ---
 
@@ -207,7 +207,7 @@ The combination creates a painful cycle. Type 2s promise to help, genuinely mean
 
 **The Hidden Strength:**
 
-When a Type 2 with ADHD hyperfocuses on someone they care about, they become extraordinarily attuned — their ADHD-enhanced emotional radar picks up on what others miss. In a crisis, this combination makes them powerfully supportive, reading the room faster and responding more intuitively than anyone else present.
+When a Type 2 with ADHD hyperfocuses on someone they care about, they become extraordinarily attuned. Their ADHD-enhanced emotional radar picks up on what others miss. In a crisis, this combination makes them powerfully supportive, reading the room faster and responding more intuitively than anyone else present.
 
 **What Helps:**
 
@@ -239,7 +239,7 @@ Type 3s often develop elaborate workarounds to hide their ADHD struggles. They m
 
 **The Hidden Strength:**
 
-Type 3s with ADHD often develop an unusual ability to rapidly switch contexts and pivot between projects. Their drive to succeed combined with ADHD's quick-fire thinking can make them exceptional in fast-paced environments where adaptability matters more than sustained focus — entrepreneurship, sales, crisis management.
+Type 3s with ADHD often develop an unusual ability to rapidly switch contexts and pivot between projects. Their drive to succeed combined with ADHD's quick-fire thinking can make them exceptional in fast-paced environments where adaptability matters more than sustained focus: entrepreneurship, sales, crisis management.
 
 **What Helps:**
 
@@ -256,31 +256,31 @@ Type 3s with ADHD often develop an unusual ability to rapidly switch contexts an
 
 **The Core Conflict:** Deep emotions plus neurological emotional flooding equals overwhelming intensity.
 
-Type 4s already experience emotions more intensely than most. ADHD adds something called "emotional flooding" on top — overwhelming emotional reactions that are disproportionate to the trigger. This is biological, not psychological. But it looks remarkably similar to Type 4's natural emotional depth.
+Type 4s already experience emotions more intensely than most. ADHD adds something called "emotional flooding" on top: overwhelming emotional reactions that are disproportionate to the trigger. This is biological, not psychological. But it looks remarkably similar to Type 4's natural emotional depth.
 
 Here's what emotional flooding actually looks like: your partner makes an offhand comment about the dishes. Within seconds you're furious. Ten minutes later you're crying. Three hours later you're still replaying the conversation, convinced it means something fundamental about your relationship. The trigger was tiny. Your brain's response was not.
 
-As one ADHD coach noted: "If you're a Type 4, emotional regulation might be your biggest hurdle." Both Type 4s and people with ADHD experience emotions more intensely than others, struggle with mundane tasks, feel fundamentally "different," and get lost in their inner world. When you have both, those tendencies compound.
+As one ADHD coach noted: "If you're a Type 4, emotional regulation might be your biggest hurdle." Both Type 4s and people with ADHD experience emotions more intensely than others, struggle with mundane tasks, feel out of step with other people, and get lost in their inner world. When you have both, those tendencies compound.
 
 <StrategicQuestion question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?" questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort" blogSlug="enneagram-and-adhd-which-types-struggle-most" />
 
 **How It Manifests:**
 
-- Emotional reactions that feel disproportionate — and you know they're disproportionate, which makes it worse
+- Emotional reactions that feel disproportionate, and you know they're disproportionate, which makes it worse
 - Difficulty with routines feels like betraying your authentic self
 - Creative hyperfocus sessions followed by complete burnout
-- Feeling even more "different" — now for neurological reasons on top of psychological ones
+- Feeling even more "different," now for neurological reasons on top of psychological ones
 - The gap between creative vision and practical execution feels unbridgeable
 
 **The Hidden Strength:**
 
-When ADHD hyperfocus meets Type 4's emotional depth, the creative output can be stunning. Some of the most raw, authentic creative work comes from this combination — art that captures what it actually feels like to live with a brain that won't cooperate. That "too much" quality becomes an asset.
+When ADHD hyperfocus meets Type 4's emotional depth, the creative output can be stunning. Some of the most raw, authentic creative work comes from this combination: art that captures what it actually feels like to live with a brain that won't cooperate. That "too much" quality becomes an asset.
 
 **What Helps:**
 
-- Use creative expression as an ADHD management tool (not just an outlet — a strategy)
+- Use creative expression as a concrete ADHD management strategy
 - Accept that structured routines don't make you less authentic
-- Separate creative tasks from practical ones — different approaches for each
+- Separate creative tasks from practical ones, with different approaches for each
 - Name the emotional flooding when it happens: "This is my brain overreacting, not the situation"
 
 <a href="/enneagram-corner/enneagram-type-4">Learn more about Type 4</a>
@@ -313,7 +313,7 @@ Type 5s with ADHD often become unexpectedly cross-disciplinary. While ADHD sends
 - Set time limits on research rabbit holes (use timers)
 - Break implementation into small, concrete tasks
 - Seek external support for organization (this is hard for independent Type 5s)
-- Harness curiosity within structure. Not unlimited exploration
+- Put curiosity inside a structure with clear limits
 
 <a href="/enneagram-corner/enneagram-type-5">Learn more about Type 5</a>
 
@@ -321,30 +321,30 @@ Type 5s with ADHD often become unexpectedly cross-disciplinary. While ADHD sends
 
 ### Type 6 (The Loyalist) with ADHD
 
-**The Core Conflict:** Double anxiety — from your type and from your ADHD — creating a spiral that feeds itself.
+**The Core Conflict:** Double anxiety, from your type and from your ADHD, creating a spiral that feeds itself.
 
 Type 6s already live with a baseline of anxiety about safety and reliability. ADHD adds its own layer: the constant worry about forgetting things, being late, missing deadlines, disappointing people.
 
-Here's what makes this combination especially tricky: ADHD anxiety often looks different from generalized anxiety. It's more situational — tied to specific ADHD failures and fears. But in Type 6s, it can be nearly impossible to untangle which anxiety comes from where. Is that knot in your stomach a legitimate concern or ADHD noise? You genuinely can't tell.
+Here's what makes this combination especially tricky: ADHD anxiety often looks different from generalized anxiety. It's more situational, tied to specific ADHD failures and fears. But in Type 6s, it can be nearly impossible to untangle which anxiety comes from where. Is that knot in your stomach a legitimate concern or ADHD noise? You genuinely can't tell.
 
 **How It Manifests:**
 
 - Overthinking amplified to paralysis
 - Decision-making feels impossible (and every wrong call confirms the fear)
-- Anxiety about ADHD symptoms creating more anxiety — a self-reinforcing loop
+- Anxiety about ADHD symptoms creating more anxiety, a self-reinforcing loop
 - Every missed deadline or forgotten commitment confirms Type 6's worst fear: "I'm unreliable"
 - Difficulty trusting your own judgment compounds with each failure
 
 **The Hidden Strength:**
 
-The combination of ADHD hypervigilance and Type 6's caution makes these individuals exceptionally good at catching problems before they escalate. They think through scenarios others overlook — making them valuable in risk assessment and planning roles where thorough preparation matters.
+The combination of ADHD hypervigilance and Type 6's caution makes these individuals exceptionally good at catching problems before they escalate. They think through scenarios others overlook, which makes them valuable in risk assessment and planning roles where thorough preparation matters.
 
 **What Helps:**
 
 - Develop strategies that address both anxiety sources simultaneously
 - Routines create stability and predictability (reduces uncertainty-based anxiety)
-- Build trusted external supports — people and systems you can rely on
-- Practice distinguishing "real concern" from "anxiety noise" — a therapist can help
+- Build trusted external supports: people and systems you can rely on
+- Practice distinguishing "real concern" from "anxiety noise" (a therapist can help)
 - Start with low-stakes decisions to build confidence in your own judgment
 
 <a href="/enneagram-corner/enneagram-type-6">Learn more about Type 6</a>
@@ -353,7 +353,7 @@ The combination of ADHD hypervigilance and Type 6's caution makes these individu
 
 ### Type 7 (The Enthusiast) with ADHD
 
-**The Core Conflict:** Your personality and your neurology look almost identical — and that's the problem.
+**The Core Conflict:** Your personality and your neurology look almost identical, and that's the problem.
 
 If you've spent time in Enneagram communities, you've heard the joke: "Type 7 is just ADHD with a personality test." One teacher observed: "Pretty much every enneagram 7 that I have ever known has been diagnosed with ADD."
 
@@ -365,14 +365,14 @@ This similarity creates two-way confusion. People with ADHD often mistype as Typ
 
 **The Critical Question:** Can you focus when you genuinely want to, when the stakes are high enough?
 
-- **If yes:** You might be experiencing Type 7 patterns — novelty-seeking to avoid pain — that look like ADHD but respond to psychological approaches.
+- **If yes:** You might be experiencing Type 7 patterns (novelty-seeking to avoid pain) that look like ADHD but respond to psychological approaches.
 - **If no:** ADHD is likely contributing, regardless of your type. Willpower isn't enough when the neurology won't cooperate.
 
 Many Type 7s have both. That requires addressing personality patterns and neurological patterns separately.
 
 **How It Manifests:**
 
-- Maximum distraction, minimum completion — amplified from both directions
+- Maximum distraction, minimum completion, amplified from both directions
 - Energy management becomes extremely difficult
 - Structure feels confining both psychologically and neurologically
 - Impulse regulation is challenged from two sides
@@ -385,8 +385,8 @@ Type 7s with ADHD are often the people who generate ten ideas in the time it tak
 
 **What Helps:**
 
-- Structure without feeling trapped — gamification, variety within limits
-- Mindfulness practices to slow down (hard but crucial)
+- Structure without feeling trapped: gamification, variety within limits
+- Mindfulness practices to slow down, even for five minutes
 - Physical outlets for abundant energy
 - Accept that finishing things requires a different approach than starting them
 
@@ -413,13 +413,13 @@ Type 8s often approach ADHD as an enemy to defeat. They try to overpower it thro
 
 **The Hidden Strength:**
 
-When a Type 8's intensity meets ADHD hyperfocus, they become unstoppable on tasks that matter to them. Their ability to make fast decisions under pressure — something ADHD can actually enhance — makes them natural crisis leaders who act while others are still deliberating.
+When a Type 8's intensity meets ADHD hyperfocus, they become unstoppable on tasks that matter to them. Their ability to make fast decisions under pressure, something ADHD can actually sharpen, makes them natural crisis leaders who act while others are still deliberating.
 
 **What Helps:**
 
 - Physical activities to channel excess energy and frustration
 - Intense, meaningful tasks that command attention naturally
-- Accept help: the hardest thing for an 8 to do, but essential
+- Accept help, even when every Type 8 reflex says not to
 - Reframe: use ADHD energy for advocacy and action instead of fighting it
 
 <a href="/enneagram-corner/enneagram-type-8">Learn more about Type 8</a>
@@ -440,11 +440,11 @@ Type 9s already struggle with inertia. They avoid conflict, go with the flow, an
 - Merging with others' priorities while forgetting their own
 - Numbing out becomes even more pronounced
 
-The combination can look like extreme laziness from the outside. From the inside, it feels like being stuck in amber — seeing what needs to be done but being genuinely unable to start.
+The combination can look like extreme laziness from the outside. From the inside, it feels like being stuck in amber, seeing what needs to be done but being genuinely unable to start.
 
 **The Hidden Strength:**
 
-Type 9s with ADHD often have an unusual ability to hold multiple perspectives simultaneously. Their mind's tendency to wander, combined with their natural openness, lets them synthesize ideas across conversations and contexts in ways that surprise everyone — including themselves. They're the ones who quietly connect dots no one else saw.
+Type 9s with ADHD often have an unusual ability to hold multiple perspectives simultaneously. Their mind's tendency to wander, combined with their natural openness, lets them synthesize ideas across conversations and contexts in ways that surprise everyone, including themselves. They're the ones who quietly connect dots no one else saw.
 
 **What Helps:**
 
@@ -510,9 +510,9 @@ Many people benefit from combining approaches: medication to address neurology, 
 
 ### A Note on Medication
 
-Many readers wonder whether personality type affects medication response. The honest answer: research hasn't established direct links between Enneagram types and medication effectiveness. But personality traits do influence medication adherence — how comfortable you are taking medication, how you interpret its effects, and whether you stick with treatment long enough for it to work.
+Many readers wonder whether personality type affects medication response. The honest answer: research hasn't established direct links between Enneagram types and medication effectiveness. But personality traits do influence medication adherence: how comfortable you are taking medication, how you interpret its effects, and whether you stick with treatment long enough for it to work.
 
-If you're a Type 1 who stops medication because it doesn't make you "perfect," or a Type 8 who resists it because it feels like losing control — those are personality-driven reactions worth discussing with your prescriber. Understanding your patterns helps you communicate more effectively about what's working and what isn't.
+If you're a Type 1 who stops medication because it doesn't make you "perfect," or a Type 8 who resists it because it feels like losing control, those are personality-driven reactions worth discussing with your prescriber. Understanding your patterns helps you communicate more effectively about what's working and what isn't.
 
 The Enneagram helps you understand why certain strategies work better for you than others. It doesn't replace professional mental health care.
 
@@ -524,13 +524,13 @@ For more on the connection between personality and mental health, see our guide 
 
 ### Does ADHD medication work differently based on personality type?
 
-Not in terms of brain chemistry — stimulants work the same way regardless of your Enneagram type. But personality absolutely affects the medication experience. Type 4s may be more distressed by emotional "flattening" side effects. Type 7s might resist medication that slows down their rapid thinking. Type 3s might love the productivity boost but miss the warning signs of overwork.
+Not in terms of brain chemistry. Stimulants work the same way regardless of your Enneagram type. But personality absolutely affects the medication experience. Type 4s may be more distressed by emotional "flattening" side effects. Type 7s might resist medication that slows down their rapid thinking. Type 3s might love the productivity boost but miss the warning signs of overwork.
 
-The practical takeaway: track how medication affects not just your focus, but your emotional range, creativity, and relationships. Bring those observations to your prescriber rather than just reporting "it's working" or "it's not."
+The practical takeaway: track focus alongside emotional range, creativity, and relationships. Bring those observations to your prescriber instead of a binary "it's working" or "it's not" report.
 
 ### Can my Enneagram type help me choose better ADHD coping strategies?
 
-Yes — and that's the core argument of this article. Generic ADHD advice ignores personality, which is why it often fails. "Just make a to-do list" doesn't work the same for a Type 7 fleeing structure as it does for a Type 1 craving order.
+Yes, and that's the core argument of this article. Generic ADHD advice ignores personality, which is why it often fails. "Just make a to-do list" doesn't work the same for a Type 7 fleeing structure as it does for a Type 1 craving order.
 
 Match strategies to your core motivations. A Type 3 needs visible progress tracking because achievement drives them. A Type 9 needs external accountability because internal motivation alone won't overcome their inertia. The coping table above gives type-specific starting points.
 
@@ -548,23 +548,23 @@ Frame it as personality context rather than diagnosis: "I tend to be perfectioni
 
 ### Is ADHD underdiagnosed in certain Enneagram types?
 
-Likely. Types that naturally develop strong coping structures — Type 1 (rigid routines), Type 3 (overwork to compensate), Type 6 (anxiety-driven hyper-preparation) — may mask ADHD symptoms so effectively that they never get flagged.
+Likely. Types that naturally develop strong coping structures may mask ADHD symptoms so effectively that they never get flagged: Type 1 with rigid routines, Type 3 with overwork to compensate, Type 6 with anxiety-driven hyper-preparation.
 
-This intersects with gender: women are diagnosed with ADHD less often and later than men. A Type 1 woman who has built meticulous organizational systems to compensate for executive function deficits might appear perfectly functional while internally struggling. If you've built your whole life around workarounds and it's exhausting — that's worth investigating.
+This intersects with gender: women are diagnosed with ADHD less often and later than men. A Type 1 woman who has built rigid organizational systems to compensate for executive function deficits might appear perfectly functional while internally struggling. If you've built your whole life around workarounds and it's exhausting, that's worth investigating.
 
 ---
 
 ## What to Do Next
 
-You now have a map that generic ADHD advice doesn't give you — how your specific personality pattern interacts with your neurology.
+You now have a map that generic ADHD advice doesn't give you: how your specific personality pattern interacts with your neurology.
 
 **Your next step depends on where you are:**
 
-- **Newly wondering if you have ADHD?** Take the "Can I focus when I genuinely want to?" question seriously. If the answer keeps coming back "no" — get a professional evaluation.
+- **Newly wondering if you have ADHD?** Take the "Can I focus when I genuinely want to?" question seriously. If the answer keeps coming back "no," get a professional evaluation.
 - **Already diagnosed?** Look at your type's section above and try one strategy this week. Just one. Match it to your core motivation, not someone else's advice about what "should" work.
-- **Supporting someone with ADHD?** Read their type's section. Understanding their specific battle — not just "ADHD" in the abstract — makes you a better ally.
+- **Supporting someone with ADHD?** Read their type's section. Understanding the type-specific battle makes you a better ally than treating "ADHD" as one generic experience.
 
-The goal isn't to fix yourself. It's to stop fighting how you're wired and start building systems that work with your brain, your personality, and the specific intersection of both.
+The goal is to stop fighting how you're wired and build systems that work with your brain, your personality, and the specific intersection of both.
 
 ---
 

@@ -69,7 +69,7 @@ The patterns are clear once you see them:
 - **Opposing types** often carry the exact medicine each partner needs.
 - **"Perfect matches"** frequently enable each other's worst tendencies.
 
-This guide covers all 81 type combinations. Not to tell you who to date or avoid, but to show you why certain pairings create magic while others create mayhem. And how to make ANY pairing work through conscious awareness.
+This guide covers all 81 type combinations. It shows why certain pairings create magic, why others create mayhem, and how conscious work can improve any pairing.
 
 ## How Compatibility Actually Works
 
@@ -161,7 +161,7 @@ The Two softens the One's sharp edges with warmth and emotional attunement. The 
 
 Watch for this pattern: the One criticizes the Two's "emotional" approach to problems. The Two starts feeling their care goes unappreciated. Resentment builds on both sides.
 
-**What makes it work:** The One must learn to express appreciation out loud, not just assume it's understood. The Two must develop boundaries instead of martyring themselves.
+**What makes it work:** The One must express appreciation out loud instead of assuming it's understood. The Two must develop boundaries instead of martyring themselves.
 
 #### 1 + 3: The Achievement Partnership
 
@@ -235,7 +235,7 @@ The Two supports the Three's ambitions with warmth and encouragement. The Three 
 
 The fracture: the Two starts feeling used for support without getting emotional depth back. The Three feels smothered by the Two's need for closeness.
 
-**What makes it work:** Scheduled quality time that is not about achievements. The Three learns to be present. The Two learns that the Three's drive is not rejection.
+**What makes it work:** Scheduled quality time disconnected from achievements. The Three learns to be present. The Two learns that the Three's drive is not rejection.
 
 #### 2 + 4: The Emotional Intensity
 
@@ -293,7 +293,7 @@ Shared ambition and mutual understanding of the drive to achieve. Both know why 
 
 The problem: competition infiltrates the relationship. Workaholism becomes normalized. Neither slows down long enough to actually connect.
 
-**What makes it work:** Celebrating being together, not just achieving together. Learning that presence matters more than productivity.
+**What makes it work:** Celebrating time together for its own sake. Learning that presence matters more than productivity.
 
 #### 3 + 4: The Success and Depth
 
@@ -359,7 +359,7 @@ Intellectual and creative connection creates initial rapport. Both appreciate co
 
 The divide: Four's emotional needs collide with Five's space needs. The Four feels abandoned. The Five feels smothered. Neither understands the other's rhythm.
 
-**What makes it work:** The Four learns that solitude is not rejection. The Five learns that emotions are not threats. Respecting different processing styles becomes paramount.
+**What makes it work:** The Four learns that solitude is not rejection. The Five learns that emotions are not threats. Respecting different processing styles keeps the relationship workable.
 
 #### 4 + 6: The Intensity and Anxiety
 
@@ -569,7 +569,7 @@ Integration line connections (your growth number) push you forward. Opposite cen
 
 The 1-6 pairing shares a focus on security and doing things right. The 6-9 combination offers mutual support without intensity. The 2-9 pairing provides gentle, consistent nurturing.
 
-**Most Transformative:**
+**Biggest Growth Pairing:**
 
 The 4-8 pairing brings intensity meeting intensity, with potential for profound depth or explosive conflict. The 5-8 dynamic combines mind and power in unexpected ways. The 3-6 combination balances achievement with loyalty.
 
@@ -607,7 +607,7 @@ Using type as an excuse: "I'm an Eight, I can't help being aggressive." Refusing
 
 **Universal Red Flags:**
 
-Contempt for your partner's type patterns. Trying to change who they fundamentally are. Using type knowledge as ammunition in fights. Refusing to do growth work.
+Contempt for your partner's type patterns. Trying to rewrite their personality. Using type knowledge as ammunition in fights. Refusing to do growth work.
 
 These patterns indicate a person who is not ready for conscious relationship.
 
@@ -647,9 +647,9 @@ Find other couples with your pairing. Consider a type-aware therapist or coach. 
 
 Any two types can make it work. Any two types can destroy each other.
 
-The difference is not compatibility. It is consciousness.
+Consciousness makes the difference.
 
-Your "perfect match" is not the person who never triggers you. That person does not exist. It is the person willing to grow with you through the triggers.
+A "perfect match" still triggers you. The real test is whether that person will grow with you through those triggers.
 
 Couples who look perfect on paper often fail because they enable each other's worst patterns. "Impossible" couples often create the deepest transformation because they cannot avoid their growth edges.
 
@@ -697,4 +697,4 @@ Want to explore your specific type combination in more depth? Check out our deta
 - [Enneagram Types Working in Teams](/enneagram-corner/enneagram-types-working-in-teams)
 - [Understanding Your Enneagram Type](/enneagram-corner/)
 
-The best relationship is not the one with no challenges. It is the one where both partners use those challenges as catalysts for growth.
+The best relationships turn challenges into shared growth.
