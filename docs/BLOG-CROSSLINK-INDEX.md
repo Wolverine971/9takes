@@ -232,7 +232,7 @@ Sorted by total connections (incoming + outgoing).
 | 14 | 4 | 10 | Enneagram Dating Guide for Men: Blind Spots and Practical Mo... | `enneagram/enneagram-dating-guide-for-men.md` |
 | 14 | 10 | 4 | Enneagram Harmonic Approaches: How Each Type Handles Conflic... | `enneagram/enneagram-harmonic-approaches.md` |
 | 14 | 6 | 8 | Best Free Enneagram Test (2025): Which One Actually Works? | `enneagram/enneagram-test-comparison-2025.md` |
-| 14 | 9 | 5 | Parasocial Relationships: Why Each Enneagram Type Forms Them | `pop-culture/parasocial-relationships-enneagram-type.md` |
+| 14 | 9 | 5 | Parasocial Relationships Through the Enneagram | `pop-culture/parasocial-relationships-enneagram-type.md` |
 | 14 | 7 | 7 | Tech Titans Through the Enneagram: A Series on the Personali... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 13 | 5 | 8 | What to Say to Each Enneagram Type (Scripts That Actually Wo... | `enneagram/enneagram-communication-tips.md` |
 | 13 | 7 | 6 | Enneagram Personal Growth: Why Type 3s Can | `enneagram/enneagram-personal-growth.md` |
@@ -339,7 +339,7 @@ Sorted by total connections (incoming + outgoing).
 | 3 | 1 | 2 | Ghislaine Maxwell: The Hostage Princess Who Became the Enabl... | `pop-culture/ghislaine-maxwell-psychology.md` |
 | 3 | 2 | 1 | Inside the Heartthrob Machine: What Fame Does to the Men Wom... | `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` |
 | 3 | 1 | 2 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` |
-| 3 | 2 | 1 | Musk vs Altman: A Type 5 and a Type 4 Walked Into a Federal ... | `pop-culture/musk-vs-altman-trial-personality-dynamics.md` |
+| 3 | 2 | 1 | Musk vs Altman Trial: The Verdict, the Vibes, and the Person... | `pop-culture/musk-vs-altman-trial-personality-dynamics.md` |
 | 3 | 1 | 2 | Reddit Moderators: Why Type 1s Run the Internet | `pop-culture/reddit-moderators-type-1-internet.md` |
 | 3 | 2 | 1 | You Can | `pop-culture/succession-personality-trap.md` |
 | 3 | 2 | 1 | The Disruptors: Why Type 8s Break Industries and Type 5s Dec... | `pop-culture/tech-titans-disruptors.md` |
