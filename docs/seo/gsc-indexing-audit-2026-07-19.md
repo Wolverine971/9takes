@@ -20,13 +20,15 @@ The 764 "not indexed" is **mostly benign or already-fixed-and-stale**, not 764 l
 - 2 clean redirects added.
 - Soft-404 category policy implemented and pushed: categories without substantive intro copy are
   `noindex, follow` and excluded from the generated sitemap.
-- Eighteen priority categories now have completed, reviewed production intros. The initial seven are
+- Twenty-two priority categories now have completed, reviewed production intros. The initial seven are
   **Relationships**, **Political, Social, and Economic Affairs**, **Self Relationship**,
   **Politics and Policy**, **Daily Routines**, **Professional Relationships**, and **Political
-  Ideologies**; the three formerly stale parent intros are also refreshed. The newest eight are
+  Ideologies**; the three formerly stale parent intros are also refreshed. The twelve rollout
+  additions are
   **Community and Social Relationships**, **Family and Kinship**, **Romantic Relationships**,
   **Government Systems**, **Education and Development**, **Personal Development**, **Personal
-  Challenges**, and **Self Awareness and Self Understanding**.
+  Challenges**, **Self Awareness and Self Understanding**, **Life Events**, **Building Self
+  Confidence and Self Worth**, **Diplomacy**, and **Elections and Voting**.
 - 1 data-debt flag: duplicate Brené Brown rows.
 
 ---
@@ -196,9 +198,16 @@ with 60-second timeouts.
   exhausted the 25-second multi-model timeout. Each intro was therefore written manually from its
   live child-category and question context, then inspected, saved, reviewed, and verified live
   with a self-canonical, 137–153 character meta description, and `index, follow`.
-- Current production intro totals: `completed=18`, `missing=474`; all 18 completed intros are
+- The newest batch targeted `life-events`, `building-self-confidence-and-self-worth`, `diplomacy`,
+  and `elections-and-voting`. Life Events and Elections and Voting generated successfully; both
+  generated descriptions ended mid-word, so they were replaced with natural 143- and 147-character
+  descriptions. Building Self Confidence and Self Worth and Diplomacy exhausted the 25-second
+  multi-model timeout, so their intros were written manually from the live sample questions. All
+  four were inspected, saved, reviewed, and verified live with their intro, self-canonical,
+  143–152 character meta description, and `index, follow`.
+- Current production intro totals: `completed=22`, `missing=470`; all 22 completed intros are
   reviewed, all stale intro states have been cleared, and there are 0 processing categories or
-  runs. The visible admin queue now shows 18 completed intros, 42 needing attention, and 7 eligible
+  runs. The visible admin queue now shows 22 completed intros, 38 needing attention, and 3 eligible
   missing/failed categories.
 - Deployment `b21bb3bd` initially failed only at the post-build asset-budget gate after commit
   `4c200c33` added 40 intentional portrait files. Commit `959aeeeb` added exactly those 40 files and
@@ -209,22 +218,22 @@ with 60-second timeouts.
 
 ### A. Continue the category intro rollout
 
-The historical Relationships run is closed, three four-category batches are reviewed, and all three
+The historical Relationships run is closed, four four-category batches are reviewed, and all three
 stale intros are refreshed. Continue the eligible missing queue by subtree count, using small
-batches and inspecting every draft before review. The next four are
-`life-events`, `building-self-confidence-and-self-worth`, `diplomacy`, and
-`elections-and-voting` (4 subtree questions each).
+batches and inspecting every draft before review. Only three eligible missing categories remain:
+`workplace-relationships-and-boundaries`, `relationship-challenges`, and `society-and-culture`
+(3 subtree questions each).
 
 ### B. Soft 404 background — 15 thin `/questions/categories/*` pages
 
 At audit time, all 15 had **0 intro content** (`intro_status='missing'`) and **1–6 questions**, except
 `relationships`, which qualified through its descendants and had 0 direct questions. Relationships,
-Romantic Relationships, and Self Awareness and Self Understanding now have reviewed intros; the
-remaining thin pages stay `noindex, follow` until repaired. Google reads near-empty category pages
-as soft-404.
+Romantic Relationships, Self Awareness and Self Understanding, and Life Events now have reviewed
+intros; the remaining thin pages stay `noindex, follow` until repaired. Google reads near-empty
+category pages as soft-404.
 
-**Systemic:** **474 of 492** categories do not yet have a reviewed completed intro
-(`intro_status`: missing=474, completed=18). Google has only flagged the 15 it crawled; more
+**Systemic:** **470 of 492** categories do not yet have a reviewed completed intro
+(`intro_status`: missing=470, completed=22). Google has only flagged the 15 it crawled; more
 are at risk.
 
 Route: `src/routes/questions/categories/[slug]/+page.server.ts` (+ `+page.svelte`). No existing noindex/robots logic there. Intro system: `intro_markdown`/`intro_status`/`intro_description` columns on `question_categories`; `src/lib/server/questionCategoryIntro.ts`. No ready CLI generator found (only `generate-sitemap.js` reads intro fields).
