@@ -1,11 +1,11 @@
 ---
-title: 'Reddit Moderators: Why Type 1s Run the Internet'
-meta_title: 'Why Type 1s Become Reddit Mods: The Psychology of Internet Governance'
-description: 'The thankless, unpaid, obsessive work of moderating Reddit and Wikipedia. Why certain personality types are psychologically compelled to govern the internet for free.'
+title: 'Reddit Moderators and Enneagram: What Actually Motivates Mods'
+meta_title: 'Reddit Moderators and Enneagram: A Behavior-First Guide'
+description: 'Are Reddit moderators usually Enneagram Type 1? Research has not established that. Here is what studies and Reddit policy actually say about volunteer moderation.'
 author: 'DJ Wayne'
 date: '2025-12-19'
 loc: 'https://9takes.com/pop-culture/reddit-moderators-type-1-internet'
-lastmod: '2026-02-03'
+lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -32,26 +32,26 @@ path: src/blog/pop-culture/reddit-moderators-type-1-internet.md
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How can communities get better moderation?",
+          "name": "Are most Reddit moderators Enneagram Type 1?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type-diverse mod teams (don't let one type dominate). Clear escalation paths (so Type 1s don't feel personally responsible for everything). Defined boundaries (hours per week, specific responsibilities). Burnout protocols (mandatory breaks, rotation systems)."
+            "text": "No published evidence has established the Enneagram distribution of Reddit moderators. Type 1 can be a useful reflection lens for standards-focused behavior, but it is not a finding about who becomes a moderator."
           }
         },
         {
           "@type": "Question",
-          "name": "Should I become a moderator?",
+          "name": "Why do people moderate Reddit without pay?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ask yourself which psychological need it would serve. Type 1s seeking perfection will find constant wrongness they can't fix. Type 5s will encounter users ignoring their elegant solutions. Type 6s will face endless potential threats. Type 8s will exhaust themselves fighting everyone. Moderation is most sustainable when you understand your type's limits and build in safeguards."
+            "text": "Research points to multiple motivations and psychological needs, including community belonging, competence, autonomy, fairness, and identification with a community. Motivations vary by person, team, and subreddit."
           }
         },
         {
           "@type": "Question",
-          "name": "How can understanding type psychology help me navigate moderation decisions?",
+          "name": "What makes a moderation team healthier?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "When a mod removes your post, consider what type they might be. A Type 1 needs to see you acknowledge the rule. A Type 6 needs reassurance you're not a threat. A Type 8 needs you to not challenge their authority directly. A Type 5 needs you to follow the system. This doesn't mean accepting bad moderation, but it helps you respond more effectively."
+            "text": "Clear rules, documented escalation paths, shared review of difficult cases, manageable workloads, planned breaks, conflict-resolution practices, and meaningful ways for users to ask for reconsideration are more useful than trying to type moderators."
           }
         }
       ]
@@ -63,248 +63,280 @@ path: src/blog/pop-culture/reddit-moderators-type-1-internet.md
 </svelte:head>
 
 <script>
-	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
-<QuickAnswer question="Why do Type 1s become Reddit moderators?">
-Type 1s can't see rule-breaking and do nothing. The wrongness sits there, irritating them, until they fix it. Reddit moderation gives them the tools to act on that impulse. The same psychology drives Wikipedia's power editors, who maintain nearly all of the encyclopedia despite being a tiny fraction of visitors.
+<QuickAnswer question="Are Reddit moderators usually Enneagram Type 1?">
+No published research has established that Type 1s dominate Reddit moderation. Studies describe varied motives, workloads, and governance styles, but they do not measure moderators by Enneagram type. The Enneagram can offer reflection prompts here; it cannot tell us who runs Reddit.
 </QuickAnswer>
 
-<p class="firstLetter">Forty hours a week. No pay. Enforcing rules in communities they don't own, for people who mostly hate them. When they screw up, they're publicly crucified. When they do well, no one notices.</p>
+<p class="firstLetter">A post disappears. The removal reason feels vague. You send a message and receive a sentence that sounds copied from a rulebook. It is tempting to explain the whole encounter with one label: "Type 1 moderator."</p>
 
-Why would anyone do this?
+That story is neat. The evidence is not.
 
-The question isn't whether these people are "power-tripping." The question is: what psychological need compels someone to govern the internet for free?
+Reddit moderators do consequential work: they write community rules, review reports,
+remove content, respond to users, configure automation, resolve internal disputes, and
+shape what millions of people see. Much of that work is voluntary, distributed, and
+invisible. But no study has established that one Enneagram type—or even four favored
+types—dominates it.
+
+This article separates three things that are easy to blur:
+
+1. what Reddit's current rules permit and require;
+2. what research has found about volunteer moderation; and
+3. what the Enneagram can offer as a non-validated reflection tool.
+
+## What Reddit Moderators Actually Control
+
+Reddit gives each community room to create and enforce its own rules, provided those
+rules remain consistent with sitewide policy. Moderators can remove or approve
+content, ban or unban users, manage community settings, configure tools, and invite
+other moderators.
+
+That authority is substantial, but it is not absolute.
 
-### The Four Types Who Run Online Spaces
+Reddit's [Moderator Code of Conduct](https://redditinc.com/policies/moderator-code-of-conduct)
+requires moderators to maintain stable communities, set reasonable expectations,
+respect neighboring communities, remain active, and follow sitewide rules. Reddit
+administrators can issue warnings, remove moderators, restrict tools, change community
+settings, suspend accounts, or ban communities when violations are not resolved.
+Users can also submit Moderator Code of Conduct reports to Reddit.
+
+The system still has a real accountability gap. A user disputing a subreddit-specific
+judgment often depends on that community's own team and modmail process. Platform
+oversight exists, but it is not the same as an independent appeal for every removed
+post or community ban.
 
-**Type 1 (The Perfectionist)** corrects wrongness. They fix rule violations. Risk: rigid authoritarianism.
+### The 2026 limit on high-traffic communities
 
-**Type 5 (The Systems Builder)** organizes chaos. They fix inefficient processes. Risk: disconnection from community.
+The old image of one "power mod" overseeing an unlimited number of Reddit's largest
+communities is now incomplete. As of March 31, 2026, Reddit actively enforces a limit:
+one account may moderate no more than
+[five communities with more than 100,000 weekly visitors](https://support.reddithelp.com/hc/en-us/articles/37922094698772-Moderation-limits).
+
+Communities below that traffic threshold do not count toward the limit, and Reddit
+lists exemptions for certain help communities, moderator bots, temporary reserve
+work, and advisor or alumni roles. The rule reduces one form of concentration; it
+does not eliminate hierarchy within a mod team or guarantee consistent decisions.
 
-**Type 6 (The Protector)** secures the community. They neutralize threats and bad actors. Risk: paranoid overreach.
+## What Research Can—and Cannot—Tell Us
 
-**Type 8 (The Sheriff)** confronts wrongdoers. They remove trolls and harassers. Risk: excessive force.
+Research supports several parts of the familiar moderator story. The labor is varied,
+often unseen, and psychologically demanding. The research does **not** support a
+type-by-type census.
 
-Why these four and not others? Type 2s (Helpers) occasionally start moderating but burn out fast. They need visible appreciation. Moderation is thankless by design. Type 3s need status and external validation. Moderation offers no career advancement, no titles, no measurable wins.
+### Moderation is more heterogeneous than it looks
 
-Before we decode each type, let's acknowledge what critics get right.
+A study using private logs from more than 900 moderators across 126 subreddits found
+substantial variation in work across both communities and moderators. It also found
+that studying only visible actions, such as public removals, misses a large amount of
+human labor happening behind the scenes.
 
-## What the Critics Get Right
+That finding matters because a user's most memorable interaction—often a removal or a
+ban—is not a complete picture of the role. Some moderators spend more time on
+automation, documentation, spam, team coordination, or reviewing reports than on
+direct exchanges with users.
 
-If you've ever had a post removed for a technicality, been banned without explanation, or watched a mod go on a power trip, your frustration is valid.
+### Motivation is not one-dimensional
 
-**Power without accountability.** Reddit mods can ban users, remove content, and shape discourse with zero oversight. No performance review, no appeals process that works, no consequences for abuse.
+A survey study of 605 Reddit moderators examined governance processes alongside needs
+such as fairness, autonomy, belonging, security, competence, and acceptance of the
+institution. Its results were more complicated than "democracy is good, hierarchy is
+bad": participatory rule-making was associated with greater perceived procedural
+justice, while more centralized governance was associated with stronger belonging
+and institutional acceptance among moderators.
 
-**Inconsistent enforcement.** "Rule 4 violation" on one post gets removed; an identical post stays up because the mod didn't see it or likes that user. Type 1 mods want consistency, but human moderation is inherently inconsistent.
+Those are associations, not a verdict that centralized moderation is best. They show
+that volunteer governance contains tradeoffs and that moderators' experiences cannot
+be reduced to a desire for power—or a single personality type.
 
-**Echo chamber creation.** Mods shape communities in their image. Type 1 mods enforce their definition of "quality." Type 6 mods remove anyone they perceive as a threat. Communities become mirrors of mod psychology.
+### Burnout is not a Type 1 diagnosis
 
-**The concentration problem.** The 2023 Reddit blackout revealed that a tiny number of users controlled massive portions of the site. Many power mods run dozens of subreddits simultaneously. That concentration of unpaid labor in specific personality types creates systemic vulnerability.
+Research on former volunteer moderators from Reddit and Facebook Groups linked
+psychological distress and reasons for quitting with conflict between moderators,
+harmful behavior by team leads, and insufficient time. It did not show that Type 1s
+burn out fastest, that every moderator follows the same five-stage cycle, or that
+burnout style can be predicted from an Enneagram number.
 
-Here's what the critics miss: understanding mod psychology doesn't excuse abuse. It explains it. And explanation is the first step toward better systems.
+Exposure to disturbing material may be part of the burden in some communities.
+Interpersonal conflict and organizational design matter too. That shifts the practical
+question from "Which type cannot handle moderation?" to "What conditions are making
+this role unsustainable?"
 
-## Why Type 1s Dominate Online Moderation
+## Where the Enneagram Fits
 
-[Type 1s](/enneagram-corner/enneagram-type-1) feel genuine discomfort when their internal standards are violated. They can't scroll past a rule violation without feeling compelled to act. The wrongness sits there, bothering them, until it's corrected.
+The Enneagram can help a moderator notice the story they tell themselves under
+pressure. It cannot remotely type a stranger, explain a removal decision, or predict
+who will abuse authority.
 
-Moderation satisfies every Type 1 need: remove rule-breaking content (fix wrongness), enforce community guidelines (uphold standards), structure chaotic spaces (create order), protect the community (moral purpose), shape culture (control environment).
+The following table is an **editorial reflection framework**, not a research finding
+about Reddit moderators.
 
-**What others see:** Power-tripping mod who removes posts for minor violations.
+| Type lens  | A constructive pull might sound like                      | Under strain, watch for                                        | Accountability question                                             |
+| ---------- | --------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **Type 1** | "Standards should be clear and consistent."               | Treating judgment calls as morally obvious                     | Did I apply the rule consistently and leave room for context?       |
+| **Type 2** | "People should feel welcomed and supported."              | Favoritism or overextending to rescue users                    | Am I helping the community or trying to be needed?                  |
+| **Type 3** | "This community should be active and effective."          | Optimizing visible growth over healthy discussion              | Which metric am I chasing, and what is it hiding?                   |
+| **Type 4** | "This space should have a distinct, authentic culture."   | Enforcing taste as though it were neutral policy               | Is this a rule violation or simply not my preferred tone?           |
+| **Type 5** | "A good system should reduce repeated chaos."             | Hiding behind automation or excessive complexity               | Can an ordinary user understand this process?                       |
+| **Type 6** | "The team should anticipate threats and protect members." | Reading ambiguity as coordinated hostility                     | What evidence separates a threat from a mistake?                    |
+| **Type 7** | "Participation should stay lively and generative."        | Avoiding tedious enforcement or changing direction too quickly | What necessary maintenance am I skipping?                           |
+| **Type 8** | "Someone must confront abuse and protect the vulnerable." | Retaliation, unilateral decisions, or excessive force          | Would I make the same decision if my authority were not challenged? |
+| **Type 9** | "Conflict should not destroy the community."              | Delaying decisions or letting dominant voices set policy       | What tension am I avoiding by doing nothing?                        |
 
-**What the Type 1 experiences:** "This clearly violates rule 3. It's wrong. I have to fix it. If I don't, the community degrades. Standards matter. Rules exist for reasons."
+Any moderator can show any behavior in this table. A Type 1 can prioritize warmth; a
+Type 7 can write meticulous rules; a Type 9 can make a decisive ban. The prompt is
+useful only if it improves self-observation rather than becoming a stereotype.
 
-Type 1 mods aren't cruel. They're principled. The problem is that their principles may be stricter than the community wants, and their correction impulse overrides relationship concerns.
+## Why Typing the Moderator Usually Backfires
 
-## The Other Types Who Moderate
+Suppose a moderator removes your post without explanation. Calling them an unhealthy
+Type 1 may feel clarifying, but it adds an unverified motive to a documented act.
 
-### Type 6: The Community Protector
+The same behavior could arise from:
 
-[Type 6s](/enneagram-corner/enneagram-type-6) moderate to protect. Scanning for danger is their default mode, and moderation gives them tools to neutralize threats.
+- a clear rule applied too mechanically;
+- a rushed volunteer clearing a large queue;
+- an automated filter the moderator did not configure;
+- a team policy the responding moderator disagrees with;
+- missing context about repeat behavior;
+- bias, retaliation, or misuse of authority.
 
-Type 6 mods are hypervigilant about trolls. They're quick to identify "sus" users. They build relationships with trusted community members and maintain mental lists of problematic ones. They may seem paranoid about coordinated attacks because they're always gaming out worst-case scenarios.
+The last possibilities are serious. The Enneagram does not help distinguish them.
+Evidence does.
 
-The key difference from Type 1: Type 6 mods ask "is this person dangerous?" not "did this violate rule 4?"
+Ask behavior-based questions:
 
-### Type 5: The Systems Builder
+- Which published rule was applied?
+- Does the reason match similar cases?
+- Was the decision automated or reviewed by a person?
+- Can another moderator review it?
+- Is the response addressing the content or attacking the user?
+- Is there a pattern of retaliation, favoritism, or unexplained reversals?
 
-[Type 5s](/enneagram-corner/enneagram-type-5) moderate because they enjoy building efficient systems, not because they care about individual rule violations.
+These questions do more than guessing whether the person behind the screen is a 1, 5,
+6, or 8.
 
-Type 5 mods create elaborate AutoMod configurations. They document everything meticulously. They prefer backend work to user interaction and may disappear for weeks, then return with system improvements. They get frustrated when emotional issues override their logical solutions.
+## Better Moderation Is a Systems Problem
 
-Type 5 mods are invisible infrastructure builders. They want systems that make moderation unnecessary.
+A healthy team does not need an Enneagram quota. It needs enough people, useful
+processes, and limits on concentrated authority.
 
-### Type 8: The Sheriff
+### 1. Write rules people can apply
 
-[Type 8s](/enneagram-corner/enneagram-type-8) moderate because they enjoy confronting wrongdoers directly. They won't be bullied by trolls. They like having the power to protect their community.
+Rules should state the purpose, show examples, and distinguish automatic removal from
+human judgment. "Low quality" is hard to follow. A short explanation of what counts as
+low quality gives users and moderators a shared reference point.
 
-Type 8 mods are direct and forceful. They enjoy banning trolls. They defend decisions without apologizing. They may be accused of being too harsh because they're less interested in rules for rules' sake and more interested in removing people who deserve removal.
+### 2. Separate routine cases from gray areas
 
-## The Wikipedia Parallel
+Spam and obvious sitewide violations may need fast action. Ambiguous jokes, suspected
+brigading, context-dependent language, and conflicts between rules deserve a second
+look. A review threshold prevents speed from masquerading as certainty.
 
-Reddit mods aren't unique. The same personality patterns govern Wikipedia.
+### 3. Make reconsideration possible
 
-### The 1% Who Build the Encyclopedia
+A modmail template can acknowledge the rule, explain the decision, and tell the user
+what information would change the outcome. Another moderator should review cases
+involving personal conflict, accusations against a moderator, or permanent bans when
+the team's capacity allows.
 
-Purdue research found that **1% of Wikipedia's editors generated 77% of the site's content.** Even more extreme: 0.1% of the community (about 4,200 editors) produced 44% of all value.
+### 4. Design for turnover and rest
 
-Jimmy Wales confirmed it: "Over 50% of all the edits are done by just 0.7% of the users... 524 people."
+Document automations, distribute permissions, rotate demanding queues, and normalize
+breaks. A community that depends on one exhausted person is fragile even when that
+person is thoughtful and fair.
 
-These aren't random people. They're specific personality types:
+### 5. Treat team conflict as operational risk
 
-**The Corrector (Type 1):** "This is wrong. I must fix it." Fixes errors, enforces citation standards, reverts vandalism.
+Private disagreement is normal. Undocumented reversals, public feuds, unilateral
+purges, and retaliation are not. Teams need a way to record decisions, resolve
+deadlocks, and escalate concerns about a lead moderator.
 
-**The Cataloguer (Type 5):** "I want to document everything about this topic." Writes comprehensive articles, organizes categories, builds reference systems.
+### 6. Recruit for perspective and skill
 
-**The Guardian (Type 6):** "This information could mislead people." Monitors controversial pages, flags misinformation, protects article integrity.
+Useful differences include time zone, subject expertise, community history, technical
+skill, conflict-management ability, and lived experience. These can be discussed and
+verified more responsibly than speculative personality labels.
 
-### The Correction Compulsion
+## How to Respond to a Moderation Decision
 
-Type 1 Wikipedia editors can't read an article with a typo without fixing it. They see a "citation needed" tag and feel discomfort until they've sourced it.
+If you think a decision is wrong:
 
-> "I just came here to look something up. Three hours later, I've corrected 47 articles and started an edit war about comma usage."
+1. Read the removal notice and current community rules.
+2. Ask one concise question through the stated channel, usually modmail.
+3. Explain the relevant context without insulting or typing the moderator.
+4. Request review by another team member if the decision involves a personal dispute
+   or unclear rule.
+5. Use Reddit's reporting or appeal routes when a sitewide rule, account sanction, or
+   Moderator Code of Conduct issue is involved.
+6. Decide whether the community's governance style is one you want to keep
+   participating in.
 
-Wrong information is wrong. Leaving errors is irresponsible.
-
-Type 5s are different. They don't care about correcting errors. They care about comprehensive understanding. A Type 5 will spend months writing the definitive article on an obscure topic. Not because it's wrong, but because it's incomplete. Their motivation is intellectual, not moral.
-
-### The Pattern
-
-The internet is governed by personality type, not democracy.
-
-Wikipedia isn't maintained by "the crowd." It's maintained by a tiny number of Type 1s and Type 5s who can't stop themselves from doing the work. Reddit isn't moderated by "the community." It's moderated by Type 1s, 5s, 6s, and 8s whose psychological needs are met by the role.
-
-This explains platform culture. Why certain platforms feel strict (Type 1 dominated). Why certain communities feel paranoid (Type 6 dominated). Why certain forums have elaborate systems but cold atmospheres (Type 5 dominated). Why certain spaces feel confrontational (Type 8 dominated).
-
-The personality of the governors becomes the personality of the governed.
-
-## When Mod Types Clash
-
-Most mod drama isn't about the issue. It's about clashing psychological approaches.
-
-### Type 1 vs Type 8: Process vs. Instinct
-
-**Type 1:** "We need to follow the rules as written. User X violated rule 3.2.1, subsection B."
-
-**Type 8:** "User X is clearly a problem. Ban them. Why are we debating this?"
-
-**Type 1:** "Because rules provide consistency and fairness."
-
-**Type 8:** "Rules are guidelines. Use judgment."
-
-Both want the same outcome. They disagree on methodology. In subreddits with Type 1 head mods and Type 8 enforcers, you'll see elaborate rule systems that the Type 8s ignore in practice. The Type 1 creates 47 rules; the Type 8 bans people based on vibes.
-
-### Type 6 vs Type 5: Intuition vs. Evidence
-
-**Type 6:** "I'm concerned about this coordinated brigade from another subreddit."
-
-**Type 5:** "The data doesn't support that conclusion. These are organic users with similar interests."
-
-**Type 6:** "Something feels wrong."
-
-**Type 5:** "Feelings aren't data."
-
-Type 6 operates on intuitive threat detection. Type 5 requires evidence. Both approaches have value. They frustrate each other constantly.
-
-### When Mod Teams Implode
-
-**The r/WallStreetBets Coup (2021):** During the GameStop frenzy, inactive moderators returned seeking movie and book deals. Active mod u/zjz posted "r/wallstreetbets will die soon unless the admins save us." Reddit had to intervene. Pattern: those who do the work vs. those who hold the title.
-
-**The r/Art Mass Resignation (2025):** An artist was permanently banned for mentioning "prints." Users rallied, mass-spamming the word in protest. Moderators posted "You win. We all resign." One former admin alleged the head mod "kicked his 13 co-moderators out" unilaterally. Pattern: single mod with disproportionate power vs. team consensus.
-
-**AMAgeddon (2015):** Reddit fired Victoria Taylor, the key liaison for r/IAmA, without warning. Within 24 hours, 1,400+ subreddits went private. Core grievance: "There is a feeling among many of the moderators of reddit that the admins do not respect the work that is put in by the thousands of unpaid volunteers."
-
-The collapse stages are predictable. Honeymoon (different types complement each other). Friction (Type 1 thinks Type 8 is too harsh, Type 5 thinks Type 6 is paranoid). Factions ("process people" vs. "action people"). Trigger event (a decision forces everyone to take sides). Purge or exodus (someone leaves or is removed, community suffers).
-
-## Why Reddit Specifically
-
-Reddit's structure attracts these types. Subreddit autonomy appeals to Type 1's desire for their own ordered space. Rule customization satisfies their need for clear standards. The voting system provides Type 5-friendly data. Anonymous accounts let Type 5s participate without personal exposure. Community focus satisfies Type 6's need for in-group belonging. Confrontation tools enable Type 8's direct enforcement style.
-
-### The Ownership Illusion
-
-Reddit mods don't own their communities. But they psychologically invest as if they do.
-
-Forty unpaid hours a week creates commitment. "My subreddit" language becomes natural. "Top mod" hierarchy creates stakes. The ability to shape culture feels like ownership.
-
-This illusory ownership explains why mods fight so hard over control. They've invested as if it were real property.
-
-## The Burnout Cycle
-
-Every mod burns out eventually. How they burn out depends on type.
-
-**Stage 1: Enthusiasm.** "I can fix this!" Every removed post feels satisfying. Warning signs: checking the mod queue constantly, over-commitment.
-
-**Stage 2: Escalation.** The wrongness never ends. Every fix reveals more problems. Warning signs: increasing time investment, declining other activities.
-
-**Stage 3: Conflict.** Users push back. Other mods disagree. No appreciation. Warning signs: defensive responses, "nobody understands" mentality.
-
-**Stage 4: Siege Mentality.** Users are the enemy. Only I truly understand. Warning signs: isolation from mod team, increasingly harsh enforcement.
-
-**Stage 5: Burnout or Explosion.** Quiet exit or public meltdown.
-
-### How Each Type Burns Out
-
-Research shows over 25% of content moderators demonstrate moderate to severe psychological distress. But the triggers differ by type.
-
-**Type 1** burns out because imperfection is endless. They can never "finish." Internal experience: "No matter how much I fix, it's never good enough." Exit style: quiet resignation with moral disappointment.
-
-**Type 5** burns out when emotional demands exceed systematic solutions. Internal experience: "People won't follow the systems I built." Exit style: withdraws to backend, eventually disappears.
-
-**Type 6** burns out when threats feel overwhelming. Internal experience: "I'm failing to keep the community safe." Exit style: becomes paranoid, then burns out from anxiety.
-
-**Type 8** burns out when constant pushback exhausts confrontational energy. Internal experience: "I'm tired of fighting everyone." Exit style: explosive exit, may burn bridges.
-
-Type 1s burn out fastest. Their psychology creates an impossible loop: see wrongness, fix it, fixing reveals more wrongness, internal critic says they're failing, external criticism confirms it, quit or become the rigid authoritarian everyone fears.
-
-> "If I just work harder, I can make this community perfect." You can't.
-
-Other types have escape valves. Type 8s accept some rule-breaking as inevitable. Type 5s detach emotionally. Type 6s focus on protecting key members. Type 1s see every violation as personal failure.
-
-## The "Power-Tripping Mod" Phenomenon
-
-**What users see:** Mod removes post for minor violation, seems to enjoy power, won't explain decision, appears authoritarian.
-
-**What's usually happening:** Type mismatch. The mod's psychology doesn't align with your expectations. The Type 1 is enforcing consistency. The Type 6 spotted a pattern you didn't see. The Type 8 made a judgment call. The Type 5 followed the enforcement matrix.
-
-**When it actually is power-tripping:** Real abuse comes from unhealthy versions of these types. Type 8s enjoying dominance for its own sake. Type 1s whose perfectionism has become rigid authoritarianism. Type 6s who see all users as threats. The key difference: healthy mods can explain their reasoning and change when wrong. Unhealthy mods cannot.
-
-## How Each Type Can Mod Better
-
-**Type 1:** Accept imperfection. The community will never be perfect. Create a "let it go" rule: if a post is borderline, let it stay. Your mental health matters more than rule 4.2.1.
-
-**Type 5:** Connect, don't just systematize. Systems can't solve everything. Schedule one "community interaction" per week where you respond to users as a human, not a mod.
-
-**Type 6:** Trust more. Most users aren't threats. Create a mental "probation" category: new users get benefit of the doubt for 30 days.
-
-**Type 8:** Explain your reasoning. "Because I said so" breeds resentment. Create a template: "This was removed because [reason]." Takes 10 seconds, prevents hours of drama.
+This process cannot guarantee a fair outcome. It keeps the disagreement anchored to
+rules, evidence, and conduct.
 
 ## FAQs
 
-**How can communities get better moderation?**
+**Are most Reddit moderators Enneagram Type 1?**
 
-Type-diverse mod teams (don't let one type dominate). Clear escalation paths (so Type 1s don't feel personally responsible for everything). Defined boundaries (hours per week, specific responsibilities). Burnout protocols (mandatory breaks, rotation systems).
+No published evidence has established the Enneagram distribution of Reddit
+moderators. Type 1 is one possible reflection lens for standards-focused behavior,
+not a demographic finding.
 
-**Should I become a moderator?**
+**Why do people moderate Reddit without pay?**
 
-Ask yourself which psychological need it would serve. Type 1s seeking perfection will find constant wrongness they can't fix. Type 5s will encounter users ignoring their elegant solutions. Type 6s will face endless potential threats. Type 8s will exhaust themselves fighting everyone. Moderation is most sustainable when you understand your type's limits and build in safeguards.
+There is no single motive. Research examines needs and experiences involving
+fairness, autonomy, competence, security, belonging, and identification with the
+community. Individuals may also value the topic, enjoy building systems, want to
+protect a space, learn governance skills, or simply keep a useful community working.
 
-**How can understanding type psychology help me navigate moderation decisions?**
+**Does Reddit hold moderators accountable?**
 
-When a mod removes your post, consider what type they might be. A Type 1 needs to see you acknowledge the rule. A Type 6 needs reassurance you're not a threat. A Type 8 needs you to not challenge their authority directly. A Type 5 needs you to follow the system. This doesn't mean accepting bad moderation, but it helps you respond more effectively.
+Reddit maintains a Moderator Code of Conduct and can warn or remove moderators,
+restrict communities, suspend accounts, and take other enforcement action. Users can
+report alleged Code violations. That platform oversight does not provide an
+independent appeal for every subreddit-level decision.
 
-## Who Actually Governs the Internet
+**What makes a moderation team healthier?**
 
-The internet pretends to be democratic. "Anyone can contribute to Wikipedia." "Anyone can create a subreddit." "The community decides."
+Clear rules, documented escalation paths, peer review for difficult cases, manageable
+workloads, planned breaks, team conflict processes, and meaningful reconsideration
+channels are more actionable than trying to create a "type-diverse" team.
 
-The reality is oligarchy by personality type.
+## The More Honest Conclusion
 
-A tiny fraction of users control the information architecture we all use. Type 1s enforce standards. Type 5s build systems. Type 6s protect communities. Type 8s confront wrongdoers. The rest of us just use what they create.
+Moderators do shape Reddit. They exercise real discretion inside systems that depend
+on unpaid labor, local rules, automation, team hierarchy, and platform oversight.
+Their decisions can make communities safer and more coherent; they can also be
+inconsistent, opaque, or abusive.
 
-This isn't inherently bad. These types are often well-suited to governance. But it means platform culture reflects mod psychology. Blind spots are predictable. Burnout is structural: the people willing to do this work are psychologically vulnerable to the work itself.
+But "Type 1s run the internet" is a personality story, not a research result.
 
-Understanding this doesn't mean accepting bad moderation. It helps everyone navigate these dynamics more effectively.
+The more defensible use of the Enneagram is inward: What am I trying to protect? What
+am I avoiding? How does authority change my judgment? Can I explain this decision,
+accept review, and change my mind?
+
+Those questions are useful for every moderator—and they do not require guessing
+anyone's type.
+
+### Research note
+
+This revision draws on:
+
+- Bulat et al. (2025),
+  [The psychology of volunteer moderators](https://doi.org/10.1177/14614448241259028).
+- Schöpke-Gonzalez et al. (2024),
+  [Why do volunteer content moderators quit?](https://doi.org/10.1177/14614448221138529).
+- Li, Hecht, and Chancellor (2022),
+  [All That's Happening behind the Scenes](https://doi.org/10.48550/arXiv.2205.14529).
+- Reddit's current
+  [Moderator Code of Conduct](https://redditinc.com/policies/moderator-code-of-conduct)
+  and
+  [moderation limits](https://support.reddithelp.com/hc/en-us/articles/37922094698772-Moderation-limits).
+
+The research above does not validate an Enneagram distribution for volunteer
+moderators. The type-specific table is a set of reflection prompts, not an assessment
+or causal model.
 
 **Related:** [The Psychology of Twitter Toxicity](/pop-culture/twitter-x-personality-types-toxic) | [How Different Types Become Influencers](/pop-culture/influencer-enneagram-types-instagram)
-
-> **Disclaimer:** This analysis of moderator and editor personality types is observational and speculative, based on behavioral patterns rather than tested typing of specific individuals. The internet governance patterns described are generalizations that won't apply to every moderator or community.

@@ -153,7 +153,7 @@ Even Reddit's DM system, the closest thing to continuity, feels like an aftertho
 
 ## The moderation layer nobody talks about
 
-Underneath all of this, subreddits are governed by unpaid moderators with their own biases and psychology. See [why Type 1s become Reddit mods](/pop-culture/reddit-moderators-type-1-internet). They decide what stays, what gets removed, and what tone is acceptable. The result: even the conversations you _could_ have are filtered through someone else's idea of what belongs.
+Underneath all of this, subreddits are governed by unpaid moderators with their own biases and psychology. See [what actually motivates Reddit moderators](/pop-culture/reddit-moderators-type-1-internet). They decide what stays, what gets removed, and what tone is acceptable. The result: even the conversations you _could_ have are filtered through someone else's idea of what belongs.
 
 This creates a hidden ceiling on depth. You might want to have a raw, vulnerable conversation about something complex. But if it doesn't fit the subreddit's rules or the moderator's sensibility, it gets pulled. The spaces that claim to be open are curated in ways you can't always see.
 
