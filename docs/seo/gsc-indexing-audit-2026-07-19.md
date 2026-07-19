@@ -20,8 +20,8 @@ The 764 "not indexed" is **mostly benign or already-fixed-and-stale**, not 764 l
 - 2 clean redirects added.
 - Soft-404 category policy implemented and pushed: categories without substantive intro copy are
   `noindex, follow` and excluded from the generated sitemap.
-- First two priority categories repaired in production: **Relationships** and **Political, Social,
-  and Economic Affairs** now have reviewed manual intros.
+- First three priority categories repaired in production: **Relationships**, **Political, Social,
+  and Economic Affairs**, and **Self Relationship** now have reviewed intros.
 - 1 data-debt flag: duplicate Brené Brown rows.
 
 ---
@@ -122,9 +122,9 @@ curl -s "https://9takes.com/personality-analysis/jk-rowling" \
 
 ## Follow-up work completed later on 2026-07-19
 
-The SEO and category-intro runtime changes are committed and pushed to `origin/main` in
-`b21bb3bd`. The production alias still serves the preceding successful deployment while the new
-commit's deployment is being unblocked and verified.
+The SEO and category-intro runtime changes are committed and pushed to `origin/main`. Production
+deployment `959aeeeb` is live on `9takes.com`; the single and batch generator functions were verified
+with 60-second timeouts.
 
 ### Category indexing policy
 
@@ -159,21 +159,24 @@ commit's deployment is being unblocked and verified.
 - `political-social-and-economic-affairs` was then completed and reviewed through the manual editor.
   It is **LIVE** with 12 subtree questions and no direct questions; its public page returns 200 with
   the saved intro and meta description.
-- Current production intro totals: `completed=2`, `missing=487`, `stale=3`.
+- `self-relationship` was generated successfully through the hardened production route, inspected,
+  given a natural 135-character meta description in place of the generated hard truncation, saved,
+  and reviewed. It is **LIVE** with `intro_source=ai_edited` and `index, follow`.
+- Current production intro totals: `completed=3`, `missing=486`, `stale=3`.
 - Deployment `b21bb3bd` initially failed only at the post-build asset-budget gate after commit
-  `4c200c33` added 40 intentional portrait files. The local budget ratchet now includes exactly those
-  40 files and 1,894,482 bytes while preserving the previous runtime headroom.
+  `4c200c33` added 40 intentional portrait files. Commit `959aeeeb` added exactly those 40 files and
+  1,894,482 bytes to the budget ratchet while preserving the previous runtime headroom; the local
+  and Vercel production builds now pass.
 
 ## OPEN ITEMS (next agent picks up here)
 
-### A. Deploy and verify the category intro runtime fix
+### A. Continue the category intro rollout and clean the historical run
 
-After the working-tree changes deploy:
-
-1. Retry one missing category from `/admin/categories` and confirm it completes in under 60 seconds.
-2. Confirm the old Relationships run is recovered or close it through a sanctioned admin workflow.
-3. Generate a small batch and inspect every draft before marking it reviewed.
-4. Continue priority order by subtree count; avoid overwriting the reviewed manual Relationships
+1. Close the old Relationships run `509d5c08-f4b8-4008-a165-49a979e41c74` through a sanctioned admin
+   workflow. It remains `processing` from the pre-fix 15-second timeout; do not overwrite the reviewed
+   manual Relationships intro.
+2. Generate a small batch and inspect every draft before marking it reviewed.
+3. Continue priority order by subtree count; avoid overwriting the reviewed Relationships
    intro.
 
 ### B. Soft 404 background — 15 thin `/questions/categories/*` pages
@@ -181,8 +184,8 @@ After the working-tree changes deploy:
 Investigated. All 15 have **0 intro content** (`intro_status='missing'`) and **1–6 questions**
 (`relationships` has 33 via descendants but 0 direct). Google reads near-empty category pages as soft-404.
 
-**Systemic:** **490 of 492** categories do not yet have a reviewed completed intro
-(`intro_status`: missing=487, stale=3, completed=2). Google has only flagged the 15 it crawled; more
+**Systemic:** **489 of 492** categories do not yet have a reviewed completed intro
+(`intro_status`: missing=486, stale=3, completed=3). Google has only flagged the 15 it crawled; more
 are at risk.
 
 Route: `src/routes/questions/categories/[slug]/+page.server.ts` (+ `+page.svelte`). No existing noindex/robots logic there. Intro system: `intro_markdown`/`intro_status`/`intro_description` columns on `question_categories`; `src/lib/server/questionCategoryIntro.ts`. No ready CLI generator found (only `generate-sitemap.js` reads intro fields).
