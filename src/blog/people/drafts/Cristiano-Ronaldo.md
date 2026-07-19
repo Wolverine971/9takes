@@ -102,7 +102,7 @@ REVISION 2026-04-29 (addresses 2026-02-18 editor feedback and pass-3 fresh-eyes 
 
 > "I'm not a perfectionist, but I like to feel that things are done well. More important than that, I feel an endless need to learn, to improve, to evolve."
 
-<p class="firstLetter">Cristiano Ronaldo keeps a sleep coach, a personal physio, a private chef, and a mobility specialist on retainer for his own body. He sleeps in five 90-minute naps spread across the day instead of one long stretch — a regimen designed by sleep coach Nick Littlehales, the same man who built Sir Bradley Wiggins's Tour de France sleep schedule. He has not touched alcohol since 2005, the year his father died of liver failure. Six small meals a day. No processed food. No sugar. He turned 40 in February. He has scored more goals than any footballer who has ever lived. And in his own private accounting, none of it has yet been enough.</p>
+<p class="firstLetter">Cristiano Ronaldo keeps a sleep coach, a personal physio, a private chef, and a mobility specialist on retainer for his own body. He sleeps in five 90-minute naps spread across the day instead of one long stretch — a regimen designed by sleep coach Nick Littlehales, the same man who built Sir Bradley Wiggins's Tour de France sleep schedule. He has not touched alcohol since 2005, the year his father died of liver failure. Six small meals a day. No processed food. No sugar. He turned 41 in February. He has scored more goals than any footballer who has ever lived, and in the summer of 2026 he became the first man to score at six different World Cups. In his own private accounting, none of it has yet been enough.</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Cristiano Ronaldo is an Enneagram Type 3</summary>
@@ -112,7 +112,7 @@ REVISION 2026-04-29 (addresses 2026-02-18 editor feedback and pass-3 fresh-eyes 
 <li><b>Obsessive Self-Improvement:</b> Ronaldo's 3-4 hours of extra daily training, six-meal diet, and hyper-engineered sleep routine aren't ordinary discipline. They're a Type 3's response to feeling that worth depends entirely on performance.</li>
 <li><b>Image-Conscious Brand Building:</b> With over a billion social media followers and a business empire that crossed $1 billion while still active, Ronaldo has mastered the Type 3 skill of crafting and monetizing a winning image.</li>
 <li><b>The Euro 2024 Breakthrough:</b> When Ronaldo burst into tears after missing a penalty against Slovenia, then explained "you have to express yourself, if you hide this stuff, you're not being true to yourself," it revealed a Type 3 learning to let the person and the achiever occupy the same body.</li>
-<li><b>The Never-Enough Mindset:</b> Despite being football's all-time top scorer with 960 goals, Ronaldo is chasing 1,000. Type 3s struggle to rest in their achievements. There is always another mountain.</li>
+<li><b>The Never-Enough Mindset:</b> In 2026 Ronaldo became the first man to score at six World Cups — then went home from his last one without the trophy Messi has. Past 970 career goals and chasing 1,000, he still can't rest in any of it. There is always another mountain.</li>
 </ul>
 </div>
 </details>
@@ -125,7 +125,7 @@ REVISION 2026-04-29 (addresses 2026-02-18 editor feedback and pass-3 fresh-eyes 
 
 Their core fear isn't losing. It's being seen as ordinary. Being exposed, despite everything, as just a person — the way a small child is just a person, before the goals and the records and the mirror selfies. That fear is what produces the discipline. The discipline is what produces the legend. And the legend is what holds the fear at bay, for a few hours, until the next morning's training.
 
-This is why, at 40, with 960 goals already in the books, Ronaldo trains harder than teammates half his age. Why the most decorated player in Champions League history still claims he needs to prove critics wrong. The proof is never finished, because the wound it's covering doesn't fully close.
+This is why, at 41, with more than 970 goals already in the books, Ronaldo trains harder than teammates half his age. Why the most decorated player in Champions League history still claims he needs to prove critics wrong. The proof is never finished, because the wound it's covering doesn't fully close.
 
 ## The Wound: Madeira, the Father, the Loss
 
@@ -167,7 +167,7 @@ Then there is the SIUUU. Arms out, the spinning jump, the cry. It started at Rea
 
 That's the Type 3 mind working. Not just performing, but enrolling the audience in the performance. The brand and the person aren't separable. In 2024, he launched his YouTube channel "UR Cristiano" and gained one million subscribers in 90 minutes. The channel presents his "real life" — carefully framed, beautifully shot, exactly the right amount of access. Same architecture as the SIUUU, scaled. The difficulty for a Type 3 is that the architecture eventually turns inward. You start performing for an audience that is no longer in the stadium.
 
-You also start needing the doubters. *"I don't mind people hating me, because it pushes me." "Your love makes me strong, your hate makes me unstoppable."* Healthy Type 3s use criticism as information — change technique, sharpen approach. The unhealthy version is more entangled: the critic becomes load-bearing. You reference people who wrote you off a decade ago, in interviews where no one asked. Ronaldo runs both programs at once and at 40 has not abandoned either.
+You also start needing the doubters. *"I don't mind people hating me, because it pushes me." "Your love makes me strong, your hate makes me unstoppable."* Healthy Type 3s use criticism as information — change technique, sharpen approach. The unhealthy version is more entangled: the critic becomes load-bearing. You reference people who wrote you off a decade ago, in interviews where no one asked. Ronaldo runs both programs at once and at 41 has not abandoned either.
 
 ## The Euro 2024 Breakthrough
 

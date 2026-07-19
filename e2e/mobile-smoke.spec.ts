@@ -19,7 +19,8 @@ const STATIC_ROUTES = [
 	'/book-session',
 	'/login',
 	'/register',
-	'/about'
+	'/about',
+	'/stories/enneagram-and-mental-illness'
 ];
 
 /** Console noise that isn't a product bug (dev tooling, third-party hiccups). */
