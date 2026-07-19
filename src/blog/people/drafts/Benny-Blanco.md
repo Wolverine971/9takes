@@ -175,7 +175,7 @@ RESEARCH LIMITATIONS
 
 <p class="firstLetter">Partway through a 2025 interview, Benny Blanco was explaining that he cooks something different for every artist he records, and he decided to demonstrate. He asked the host his favorite food, learned it was his mom's chocolate chip pumpkin bread, and had a plan ready before the sentence finished: "I'd call your mother and I would beg her for the recipe before you came in, and then have it the next time you came in. That's what I would do for you." The mission statement had come seconds earlier: "I make every experience different for everyone" (Behind the Wall, 2025).</p>
 
-The man plotting to cold-call a stranger's mother about bread ranked 16th on Billboard's 2025 list of the century's top Hot 100 songwriters, with 10 number-one hits as a writer through 2024 ([Billboard via Yahoo, 2025](https://www.yahoo.com/entertainment/music/articles/top-songwriters-21st-century-hot-173000758.html)). His credits run through Rihanna, Katy Perry, Kesha, Justin Bieber, Maroon 5, and Sia. Interscope chairman John Janick announced their label deal by crediting him with "an almost divine ability to bring out the best in his collaborators" (Variety, 2017).
+The man plotting to cold-call a stranger's mother about bread ranked 16th on Billboard's 2025 list of the century's top Hot 100 songwriters, with 10 number-one hits as a writer through 2024 ([Billboard via Yahoo, 2025](https://www.yahoo.com/entertainment/music/articles/top-songwriters-21st-century-hot-173000758.html)). His credits run through [Rihanna](/personality-analysis/rihanna), [Katy Perry](/personality-analysis/katy-perry), Kesha, [Justin Bieber](/personality-analysis/justin-bieber), Maroon 5, and Sia. Interscope chairman John Janick announced their label deal by crediting him with "an almost divine ability to bring out the best in his collaborators" (Variety, 2017).
 
 Benny's own scouting report sits at the top of this page. He records barefoot. He starts sessions with a meal. He refuses to rush anything: "I don't ever force the process. Ever." (Behind the Wall, 2025).
 
@@ -230,7 +230,7 @@ Sessions start late if you sleep late. They start with food. And there is a scre
 Inside the room, he demotes himself on purpose. "You're at the bench press," he explained in a 2025 Behind the Wall interview. "Some artists need you to spot them a little bit more, and some artists you just are there in case something happens. I just try to get in where I fit in." One rule governs everyone: "You walk through that door at the studio, you leave your ego at the door." He has released songs where a friend who happened to be crashing at his house walked away with a writing credit.
 
 <div class="pull-quote">
-"Benny is hands down the most tremendous human I know." — Halsey, New York Times profile, 2018
+"Benny is hands down the most tremendous human I know." — [Halsey](/personality-analysis/halsey), New York Times profile, 2018
 </div>
 
 Sometimes the music is almost incidental. Of his sessions with Juice WRLD, who died at 21: "We're making music, and then we went out to dinner. We talked about anxieties" (NME, 2021). The dinners became "Graduation," their 2019 single. His summary of the whole apparatus is one line from the Stern interview: "Food is the best bridge. It's the best lubricant in any room for conversation because it just brings people together."
@@ -243,7 +243,7 @@ Benjamin Levin grew up in Reston, Virginia, the younger son of two New York tran
 
 His inner weather got the same reception. "I'd be like, 'Mom, I feel weird.' They'd be like, 'Shut up and go to school.'" Nobody in the house had language for what was happening in him, least of all Benny. "I didn't know what that stuff was. I always kept it to myself. I was like, oh, of course the room spins when you're about to take a test when you're 12."
 
-One thing he kept to himself was a childhood compulsion. "When I was a kid, I used to have this thing where I had to go 'mmph,'" he told Jake Shane on <em>Therapuss</em> in 2025. "If I didn't do it, I thought my parents were going to die." Clinically, that describes thought-action fusion and supplies no Enneagram evidence. Psychologically, it gave a seven-year-old the impossible feeling that one private action stood between the people he loved and catastrophe. The later caretaking pattern requires separate adult evidence.
+One thing he kept to himself was a childhood compulsion. "When I was a kid, I used to have this thing where I had to go 'mmph,'" he told [Jake Shane](/personality-analysis/jake-shane) on <em>Therapuss</em> in 2025. "If I didn't do it, I thought my parents were going to die." Clinically, that describes thought-action fusion and supplies no Enneagram evidence. Psychologically, it gave a seven-year-old the impossible feeling that one private action stood between the people he loved and catastrophe. The later caretaking pattern requires separate adult evidence.
 
 The kid nobody believed got busy being impossible to ignore. He messaged anyone with a pulse on MySpace at 13 and amassed 15,000 friends. He waited outside studios asking strangers, "Do you make music?" He cold-called Atlantic Records posing as Jay-Z's attorney to get his demos heard (Grantland, 2011).
 
@@ -297,7 +297,7 @@ The studio method never clocks out; it just changes clients. The public has know
 
 **First course: the thread.** He runs a supper club of couples with assigned dishes coordinated over group text. His friend Dr. Dane flies in from Houston with suitcases full of meats and soups. SZA once ate an entire tray of his banana pudding (Yahoo, 2024). The photos of tonight's catfish go to the chat with Ali Wong and André 3000.
 
-**Second course: the piano.** Before Billy Joel came over, Benny hired a piano player so live piano would simply be happening when Joel walked in, an invitation with no pressure attached. Joel didn't touch the instrument. Benny's postmortem: "Nothing happened" (The Howard Stern Show, 2024). The same house hosted SZA, Ed Sheeran, and John Mayer on a night when nobody played a single note. He builds the stage, then genuinely doesn't mind when no one uses it.
+**Second course: the piano.** Before Billy Joel came over, Benny hired a piano player so live piano would simply be happening when Joel walked in, an invitation with no pressure attached. Joel didn't touch the instrument. Benny's postmortem: "Nothing happened" (The Howard Stern Show, 2024). The same house hosted SZA, Ed Sheeran, and [John Mayer](/personality-analysis/john-mayer) on a night when nobody played a single note. He builds the stage, then genuinely doesn't mind when no one uses it.
 
 **Third course: the exits.** His cookbook <em>Open Wide</em> includes guest-ejection tactics for the host who cannot say "go home": tilt your head back and close your eyes; ask "Does anyone want to help clean up?"; announce an early morning. His nuclear option is perfect: "I leave my own house" (<em>Open Wide</em>, 2024). Pop's warmest host would rather exile himself than risk one guest feeling unwanted.
 

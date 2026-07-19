@@ -241,7 +241,7 @@ By 2025 the prep had compounded. When Ryan Grim of Drop Site News came on in Dec
 
 The reading list confirms it. On Joe Rogan in 2025, Tim has cited Tom O'Neill's _Chaos_ (a 700-page Manson/CIA investigation), Carroll Quigley's _Tragedy and Hope_ (1,348 pages of twentieth-century geopolitical history), David McGowan's _Weird Scenes Inside the Canyon_, Smedley Butler's _War Is a Racket_, and Whitney Webb's _One Nation Under Blackmail_. Quigley is the tell. _Tragedy and Hope_ is the primary text the John Birch Society built a movement around — a casual reader doesn't reach for it. Naming it on Rogan signals Tim has actually waded into the source documents everyone else cites secondhand.
 
-The granularity shows up in his riffs. When the Thiel/Palantir bit names Joe Lonsdale by name — Palantir co-founder, 8VC, far less famous than Thiel — that's not improvised. When Silicon Valley Bank collapsed in March 2023, Tim booked an actual SVB staffer for the next episode. The Type 7 wants to be doing five things at once. The Type 5 quietly read the Quigley.
+The granularity shows up in his riffs. When the Thiel/Palantir bit names [Joe Lonsdale](/personality-analysis/joe-lonsdale) by name — Palantir co-founder, 8VC, far less famous than Thiel — that's not improvised. When Silicon Valley Bank collapsed in March 2023, Tim booked an actual SVB staffer for the next episode. The Type 7 wants to be doing five things at once. The Type 5 quietly read the Quigley.
 
 The "schizophrenic style" delivery critics note is associative cognition under analytical focus — the Seven's natural mental pattern, channeled. His mind connects ideas that seem unrelated until suddenly they're profound. Or profane. Usually both.
 
@@ -590,4 +590,3 @@ fired by the Saudis (Sept 20) → OutKick free-speech-hero embrace +
 "I'm now with Iran" (right, Sept 22). No documented Shapiro feud exists;
 never add one.
 ============================================================ -->
-

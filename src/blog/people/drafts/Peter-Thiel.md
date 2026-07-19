@@ -13,7 +13,7 @@ published: true
 enneagram: '6'
 type: ['techie', 'investor']
 person: 'peter-thiel'
-suggestions: ['Elon-Musk', 'David-Sacks', 'Sam-Altman', 'Mark-Zuckerberg']
+suggestions: ['Elon-Musk', 'David-Sacks', 'Sam-Altman', 'Mark-Zuckerberg', 'Joe-Lonsdale']
 wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'
 twitter: ''
 instagram: ''
@@ -86,7 +86,7 @@ FEEDBACK (2026-02-20):
 
 <p class="firstLetter">After 9/11, Peter Thiel bought a parachute and kept it in his office on the 42nd floor of 555 California Street in San Francisco.</p>
 
-Not a metaphor. An actual parachute, the kind you strap to your body and jump. Joe Lonsdale, who worked alongside Thiel at his hedge fund Clarium Capital, [confirmed the detail](https://youtu.be/iBzy_hDb2W4?si=aU8aPFbT_yBinwvP&t=340) on the My First Million podcast, adding with a laugh: "I always told him he should have parachutes for us too, but there was only one parachute." While most of America processed the attacks through grief or patriotism or cable news, Thiel assessed the threat and acquired equipment for the worst case.
+Not a metaphor. An actual parachute, the kind you strap to your body and jump. [Joe Lonsdale](/personality-analysis/joe-lonsdale), who worked alongside Thiel at his hedge fund Clarium Capital, [confirmed the detail](https://youtu.be/iBzy_hDb2W4?si=aU8aPFbT_yBinwvP&t=340) on the My First Million podcast, adding with a laugh: "I always told him he should have parachutes for us too, but there was only one parachute." While most of America processed the attacks through grief or patriotism or cable news, Thiel assessed the threat and acquired equipment for the worst case.
 
 That single detail tells you more about Peter Thiel than any op-ed about his political influence. It tells you he is _not_ the power-hungry tech oligarch of popular imagination. A man motivated by power buys influence. **A man motivated by fear buys a parachute.**
 

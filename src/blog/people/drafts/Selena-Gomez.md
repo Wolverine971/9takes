@@ -13,7 +13,8 @@ person: 'selena-gomez'
 date: '2026-06-11'
 published: true
 type: ['musician', 'pop-star', 'screen-icon']
-suggestions: ['demi-lovato', 'miley-cyrus', 'justin-bieber', 'taylor-swift', 'ariana-grande']
+suggestions:
+  ['demi-lovato', 'miley-cyrus', 'justin-bieber', 'taylor-swift', 'ariana-grande', 'benny-blanco']
 wikipedia: 'https://en.wikipedia.org/wiki/Selena_Gomez'
 wikidata_qid: 'Q83287'
 imdb_id: 'nm1411125'
@@ -111,7 +112,7 @@ That reflex, soothe first and stand firm quietly, is the key to everything else:
 
 <div class="quick-answer">
 
-**Quick Answer:** Selena Gomez is an [Enneagram Type 9](/enneagram-corner/enneagram-type-9)—"The Peacemaker." Her mental health openness, tendency to merge with partners (see: Justin Bieber years), and billion-dollar business built around self-acceptance all stem from the same psychological pattern: Type 9s seek inner peace above all else. Her struggles aren't despite her personality—they're because of it. Her 2025 marriage to Benny Blanco shows the healthy version: a Type 9 who learned to receive love instead of disappearing into it.
+**Quick Answer:** Selena Gomez is an [Enneagram Type 9](/enneagram-corner/enneagram-type-9)—"The Peacemaker." Her mental health openness, tendency to merge with partners (see: Justin Bieber years), and billion-dollar business built around self-acceptance all stem from the same psychological pattern: Type 9s seek inner peace above all else. Her struggles aren't despite her personality—they're because of it. Her 2025 marriage to [Benny Blanco](/personality-analysis/benny-blanco) shows the healthy version: a Type 9 who learned to receive love instead of disappearing into it.
 
 </div>
 

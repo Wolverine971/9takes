@@ -207,7 +207,7 @@ Plenty of celebrities are anxious, and anxiety alone does not settle a type. Ger
 
 Before her first runway show, Cindy Crawford gathered the family and played compilation videos of models falling. Gerber told the story on The Tonight Show in April 2024 as a joke, and it is funny. It is also a perfect portrait of the household: love, expressed as preparation for the moment everything goes wrong.
 
-The Malibu house had its own curriculum. Nude portraits of her mother, shot by Herb Ritts and Helmut Newton, lined the walls. "They were, to me, artistic," she told [Harper's Bazaar in January 2026](https://www.harpersbazaar.com/culture/film-tv/a69938175/kaia-gerber-interview-2026/). "It was a gift to grow up in a house that was without shame for the female body." Pamela Anderson worked as her elementary school crossing guard. Her father Rande co-founded Casamigos, the tequila brand Diageo agreed to acquire for up to $1 billion the year she turned 16 ([Diageo, 2017](https://www.diageo.com/en/news-and-media/press-releases/2017/diageo-to-acquire-super-premium-tequila-casamigos)).
+The Malibu house had its own curriculum. Nude portraits of her mother, shot by Herb Ritts and Helmut Newton, lined the walls. "They were, to me, artistic," she told [Harper's Bazaar in January 2026](https://www.harpersbazaar.com/culture/film-tv/a69938175/kaia-gerber-interview-2026/). "It was a gift to grow up in a house that was without shame for the female body." [Pamela Anderson](/personality-analysis/pamela-anderson) worked as her elementary school crossing guard. Her father Rande co-founded Casamigos, the tequila brand Diageo agreed to acquire for up to $1 billion the year she turned 16 ([Diageo, 2017](https://www.diageo.com/en/news-and-media/press-releases/2017/diageo-to-acquire-super-premium-tequila-casamigos)).
 
 She took her classes online through Malibu High while shooting campaigns; her first job, for Young Versace, came at age 10. "My mom had to bring me to work," she remembered with Marc Jacobs in 2024. "I couldn't even travel."
 
@@ -301,7 +301,7 @@ The self-preservation instinct is the best fit, though this is the most speculat
 
 ### Stress and Growth Arrows
 
-Under pressure she moves toward Three: the straight-A-in-everything era she confessed to Vogue, over-booking, image management, performing wellness itself as an achievement. In security she moves toward Nine, and says so almost verbatim: "the goal is contentment." The Nine motion is visible in the Chelsea readings she hosts, the yoga and breathwork practice, and her friendship orbit; she praised Gracie Abrams in Interview Magazine (2024) as "a person of balance, softness, and presence," which is a Six describing the destination.
+Under pressure she moves toward Three: the straight-A-in-everything era she confessed to Vogue, over-booking, image management, performing wellness itself as an achievement. In security she moves toward Nine, and says so almost verbatim: "the goal is contentment." The Nine motion is visible in the Chelsea readings she hosts, the yoga and breathwork practice, and her friendship orbit; she praised [Gracie Abrams](/personality-analysis/gracie-abrams) in Interview Magazine (2024) as "a person of balance, softness, and presence," which is a Six describing the destination.
 
 ### Counterarguments: Why Kaia Gerber Might Not Be Type 6
 

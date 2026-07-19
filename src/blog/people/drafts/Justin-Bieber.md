@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['musician']
 person: 'justin-bieber'
-suggestions: ['Hailey-Bieber', 'Selena-Gomez', 'Ariana-Grande', 'Drake']
+suggestions: ['Hailey-Bieber', 'Selena-Gomez', 'Ariana-Grande', 'Drake', 'Benny-Blanco']
 wikipedia: 'https://en.wikipedia.org/wiki/Justin_Bieber'
 wikidata_qid: 'Q34086'
 imdb_id: 'nm3595501'
@@ -217,7 +217,7 @@ He reconnected with Hailey Baldwin within weeks.
 
 "I was so surrounded. Millions of people in the audience, but I still felt lonely, I still felt misunderstood, I still felt hurt."
 
-He said this in his 2020 documentary while watching the music video for "Lonely," a song co-written with Benny Blanco and Finneas O'Connell. In the video, child actor Jacob Tremblay plays a young Justin — performing for huge crowds and returning to empty rooms.
+He said this in his 2020 documentary while watching the music video for "Lonely," a song co-written with [Benny Blanco](/personality-analysis/benny-blanco) and Finneas O'Connell. In the video, child actor Jacob Tremblay plays a young Justin — performing for huge crowds and returning to empty rooms.
 
 "I actually teared up when I was watching Jacob Tremblay play me," Justin said. "I just had no idea what was to come. I had no idea that this life would take me by storm. I had no idea that I would just get sucked up by all of this stuff."
 
@@ -416,4 +416,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Cut 4-5 of the "product replaced the person" restatements. The thesis is the spine of the piece; trust the reader to carry it after the first three iterations.
 
 ============================================================ -->
-

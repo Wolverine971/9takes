@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['techie', 'frontier-builder']
 person: 'palmer-luckey'
-suggestions: ['Elon-Musk', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg', 'Paul-Graham']
+suggestions: ['Elon-Musk', 'Peter-Thiel', 'Sam-Altman', 'Mark-Zuckerberg', 'Paul-Graham', 'Joe-Lonsdale']
 wikipedia: 'https://en.wikipedia.org/wiki/Palmer_Luckey'
 twitter: 'PalmerLuckey'
 instagram: ''
@@ -230,7 +230,7 @@ Then came the Meta reconciliation. In May 2025, Anduril and Meta jointly bid on 
 
 He's also fond of a sharper framing. "Mark didn't acquire me," Luckey has said. "I acquired them." It is not literally true. It is also not exactly false.
 
-Then OpenAI announced a partnership with Anduril, integrating large language models into the Lattice platform for counter-drone systems. Then **Erebor** — co-founded with Joe Lonsdale of Palantir and 8VC<!-- Parked unpublished related profile: Joe Lonsdale. -->, backed by Thiel — raised $350 million at a $4.35 billion valuation, secured conditional OCC approval for a national bank charter, and positioned itself to serve the gap SVB left behind for AI, crypto, defense, and manufacturing startups. The bank's name is not subtle. Palantir means "seeing-stones." Mithril Capital is named after the rarest metal in Middle Earth. Anduril is the sword. Erebor is the hoard. Thiel and his circle have spent fifteen years building a Tolkien-coded financial-industrial empire, and Luckey is the operating arm.
+Then OpenAI announced a partnership with Anduril, integrating large language models into the Lattice platform for counter-drone systems. Then **Erebor** — co-founded with [Joe Lonsdale](/personality-analysis/joe-lonsdale) of Palantir and 8VC, backed by Thiel — raised $350 million at a $4.35 billion valuation, secured conditional OCC approval for a national bank charter, and positioned itself to serve the gap SVB left behind for AI, crypto, defense, and manufacturing startups. The bank's name is not subtle. Palantir means "seeing-stones." Mithril Capital is named after the rarest metal in Middle Earth. Anduril is the sword. Erebor is the hoard. Thiel and his circle have spent fifteen years building a Tolkien-coded financial-industrial empire, and Luckey is the operating arm.
 
 "We are definitely going to be a publicly traded company," Luckey said of Anduril.
 

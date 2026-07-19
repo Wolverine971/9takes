@@ -252,7 +252,7 @@ The brevity is partly TikTok physics. It is also a knife.
 
 "I'm one of those people who, in my whole life, nothing is ever good enough," she told _Billboard_ in 2024, accepting its Producer of the Year honor.
 
-She traces the standard to her mind's wiring. On Jake Shane's _Therapuss_ podcast in 2025, she connected it directly to OCD: "If I don't consider myself a certain standard at what I'm doing, I don't see the point doing it. That's something birthed from my OCD, by not being satisfied by anything less than perfect."
+She traces the standard to her mind's wiring. On [Jake Shane's](/personality-analysis/jake-shane) _Therapuss_ podcast in 2025, she connected it directly to OCD: "If I don't consider myself a certain standard at what I'm doing, I don't see the point doing it. That's something birthed from my OCD, by not being satisfied by anything less than perfect."
 
 And the looping that comes with it: "Once I have a thought it loops, loops, loops for a month and it will never stop."
 

@@ -13,7 +13,7 @@ published: true
 enneagram: '9'
 type: ['movieStar', 'screen-icon']
 person: 'austin-butler'
-suggestions: ['Harrison-Ford', 'Callum-Turner', 'Ryan-Gosling', 'Brad-Pitt']
+suggestions: ['Harrison-Ford', 'Callum-Turner', 'Ryan-Gosling', 'Brad-Pitt', 'Kaia-Gerber']
 wikipedia: 'https://en.wikipedia.org/wiki/Austin_Butler'
 wikidata_qid: 'Q469954'
 imdb_id: 'nm2581521'
@@ -253,7 +253,7 @@ When the call sheet ends, the body comes for him.
 
 The Hudgens breakup is the cleanest read in the file. Nine years together, including the years he was caregiving his dying mother. It ended in early 2020, a few months into the Elvis monastery. He has never publicly described what happened. She has. On the _She Pivots_ podcast in 2024, Vanessa Hudgens said the split "catapulted me into a very, very special place" and "pushed me to the right person, which I'm so grateful for." Two people lived through the same nine years. One built a public arc out of the ending. The other has not said a word.
 
-That asymmetry is the 9 in love. Hudgens performs the breakup; Butler keeps it indoors. The merger strategy that nearly killed him on the Elvis set is the same thing intimacy quietly asks for, and Butler — a person whose deepest fear is losing himself to a stronger gravity — has learned to run it on lower power. Three serious relationships in fifteen years; near-zero quotes about any of them. _I don't think there's anything I want to share about that_, he told one journalist asking about Kaia Gerber. The role gets all of it.
+That asymmetry is the 9 in love. Hudgens performs the breakup; Butler keeps it indoors. The merger strategy that nearly killed him on the Elvis set is the same thing intimacy quietly asks for, and Butler — a person whose deepest fear is losing himself to a stronger gravity — has learned to run it on lower power. Three serious relationships in fifteen years; near-zero quotes about any of them. _I don't think there's anything I want to share about that_, he told one journalist asking about [Kaia Gerber](/personality-analysis/kaia-gerber). The role gets all of it.
 
 ## The voice that didn't come back
 

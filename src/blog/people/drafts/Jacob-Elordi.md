@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'jacob-elordi'
-suggestions: ['Timothee-Chalamet', 'Robert-Pattinson', 'Zendaya', 'Sydney-Sweeney']
+suggestions: ['Timothee-Chalamet', 'Robert-Pattinson', 'Zendaya', 'Sydney-Sweeney', 'Kaia-Gerber']
 wikipedia: 'https://en.wikipedia.org/wiki/Jacob_Elordi'
 twitter: ''
 instagram: ''
@@ -220,7 +220,7 @@ His process isn't "be intense." It's: build a world model, strip away everything
 
 The private Jacob Elordi is almost aggressively unglamorous. And that privacy extends to everything, not just his work, but his relationships.
 
-He dated [Zendaya](/personality-analysis/zendaya) during _Euphoria_ but publicly called her "like my sister." Not silence, but active denial. That's a specific kind of privacy-guarding. Silence leaves room for interpretation. Denial tries to kill the narrative entirely. For a Four, the logic makes sense: if the public gets to name and define the relationship, it stops being yours. The denial isn't dishonesty so much as a refusal to let the most intimate part of your inner life become content. He dated model Kaia Gerber for about a year; they dressed as Elvis and Priscilla for Halloween, a detail that feels almost too on-the-nose for a man who would later play Elvis. In every case, he says almost nothing. The relationships exist in public only through paparazzi photos and unnamed sources.
+He dated [Zendaya](/personality-analysis/zendaya) during _Euphoria_ but publicly called her "like my sister." Not silence, but active denial. That's a specific kind of privacy-guarding. Silence leaves room for interpretation. Denial tries to kill the narrative entirely. For a Four, the logic makes sense: if the public gets to name and define the relationship, it stops being yours. The denial isn't dishonesty so much as a refusal to let the most intimate part of your inner life become content. He dated model [Kaia Gerber](/personality-analysis/kaia-gerber) for about a year; they dressed as Elvis and Priscilla for Halloween, a detail that feels almost too on-the-nose for a man who would later play Elvis. In every case, he says almost nothing. The relationships exist in public only through paparazzi photos and unnamed sources.
 
 He paints, but won't discuss what he paints, because he worries that talking about it would "jeopardize what he gets out of it." He photographs everything on set, a habit that started after watching a documentary about Heath Ledger told entirely through Ledger's own photos and Super 8 footage. He reads voraciously: Sartre, Beckett, Joan Didion. He writes in Moleskine journals. He once co-wrote a one-act play. This is the 4w5 wing in daily operation: the emotional intensity turned inward, channeled through intellectual accumulation and private creative ritual. He doesn't just feel things. He builds private systems for processing what he feels.
 

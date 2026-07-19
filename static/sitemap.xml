@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -3998,19 +3998,35 @@
     <lastmod>2026-07-19</lastmod>
   </url>
   <url>
+    <loc>https://9takes.com/questions/categories/daily-routines</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
     <loc>https://9takes.com/questions/categories/personal-growth</loc>
     <lastmod>2026-04-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-interests-and-lifestyle</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-life-and-wellness</loc>
     <lastmod>2026-07-19</lastmod>
   </url>
   <url>
+    <loc>https://9takes.com/questions/categories/political-ideologies</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
     <loc>https://9takes.com/questions/categories/political-social-and-economic-affairs</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/politics-and-policy</loc>
+    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/categories/professional-relationships</loc>
     <lastmod>2026-07-19</lastmod>
   </url>
   <url>

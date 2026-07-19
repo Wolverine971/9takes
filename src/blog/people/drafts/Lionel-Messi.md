@@ -13,7 +13,7 @@ published: true
 enneagram: 9
 type: ['celebrity', 'celebrity-image']
 person: 'lionel-messi'
-suggestions: ['Cristiano-Ronaldo']
+suggestions: ['Cristiano-Ronaldo', 'Lamine-Yamal']
 wikipedia: 'https://en.wikipedia.org/wiki/Lionel_Messi'
 wikidata_qid: 'Q615'
 imdb_id: 'nm2177779'

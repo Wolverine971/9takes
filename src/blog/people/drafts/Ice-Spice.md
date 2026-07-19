@@ -13,7 +13,7 @@ published: true
 enneagram: '3'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'ice-spice'
-suggestions: ['Jennifer-Lopez', 'Taylor-Swift', 'Drake', 'Doja-Cat']
+suggestions: ['Jennifer-Lopez', 'Taylor-Swift', 'Drake', 'Doja-Cat', 'PinkPantheress']
 wikipedia: 'https://en.wikipedia.org/wiki/Ice_Spice'
 wikidata_qid: 'Q114114977'
 imdb_id: 'nm14039339'
@@ -204,7 +204,7 @@ Within twelve months of "Munch," she ran the cleanest year-one ladder climb in m
 The chronology, compressed:
 
 - **January 2023.** "Princess Diana" releases as an album track on her _Like..?_ EP.
-- **February 2023.** She features on PinkPantheress's "Boy's a Liar Pt. 2." It peaks at number three on the Billboard Hot 100 — her highest-charting song to date — and pulls her into the pop and indie audience drill rap usually walls her out of.
+- **February 2023.** She features on [PinkPantheress's](/personality-analysis/pinkpantheress) "Boy's a Liar Pt. 2." It peaks at number three on the Billboard Hot 100 — her highest-charting song to date — and pulls her into the pop and indie audience drill rap usually walls her out of.
 - **April 2023.** Nicki Minaj jumps on the "Princess Diana" remix. It peaks at number four on the Hot 100. The reigning queen of women in rap has officially co-signed.
 - **May 2023.** First Met Gala. Days later, [Taylor Swift](/personality-analysis/taylor-swift) adds her to the "Karma" remix.
 - **June 2023.** "Barbie World" with Nicki and Aqua debuts at number seven on the Hot 100 and charts top ten in fourteen countries. The Greta Gerwig _Barbie_ soundtrack puts her on every pop playlist on earth.

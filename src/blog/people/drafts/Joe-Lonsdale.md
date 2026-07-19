@@ -196,7 +196,7 @@ At six, the board gives you a merciless kind of certainty. Every piece has known
 
 That training does not prove a personality type. It does give Lonsdale's adult habits a native language. He evaluates threats, studies incentives, and asks whether the people beside him will hold their positions. For a Type 6, trust is a live calculation. Lonsdale spent childhood practicing the calculation on sixty-four squares.
 
-The board scaled. PayPal at nineteen. *Stanford Review* editor-in-chief at twenty. Then [Peter Thiel](/personality-analysis/Peter-Thiel)'s hedge fund, Clarium Capital, after college. Palantir at twenty-two, co-founded with Thiel, Alex Karp, Stephen Cohen, and Nathan Gettings to build data tools for intelligence and defense.
+The board scaled. PayPal at nineteen. *Stanford Review* editor-in-chief at twenty. Then [Peter Thiel](/personality-analysis/Peter-Thiel)'s hedge fund, Clarium Capital, after college. Palantir at twenty-two, co-founded with Thiel, [Alex Karp](/personality-analysis/alex-karp), Stephen Cohen, and Nathan Gettings to build data tools for intelligence and defense.
 
 Thiel became one of Lonsdale's two most important mentors, alongside Karp. Lonsdale later published a list of [lessons he learned from Thiel](https://joelonsdale.com/lessons-peter-thiel/): concentrate on the dominant reason, value exceptional intelligence, and work from first principles. The relationship matters because Lonsdale's network is unusually continuous. *Stanford Review* contacts lead to Clarium; Clarium leads to Palantir; people from that orbit reappear across Addepar, 8VC, UATX, and the institutions that follow.
 
@@ -240,7 +240,7 @@ Addepar complicates that reading in a useful way. The wealth-management platform
 
 ## Why Joe Lonsdale built the University of Austin
 
-In 2021, Lonsdale helped launch the University of Austin with journalist Bari Weiss, historian Niall Ferguson, and founding president Pano Kanelos. They argued that elite universities had become hostile to open inquiry and needed a serious competitor. Lonsdale became chairman of the board and a central fundraiser. By May 2023, [Fortune reported](https://fortune.com/2023/05/30/university-of-austin-marc-andreessen-joe-lonsdale-bari-weiss/) that the project had raised roughly $150 million, with support from donors including Marc Andreessen, Peter Thiel, Harlan Crow, and Bill Ackman.
+In 2021, Lonsdale helped launch the University of Austin with journalist Bari Weiss, historian Niall Ferguson, and founding president Pano Kanelos. They argued that elite universities had become hostile to open inquiry and needed a serious competitor. Lonsdale became chairman of the board and a central fundraiser. By May 2023, [Fortune reported](https://fortune.com/2023/05/30/university-of-austin-marc-andreessen-joe-lonsdale-bari-weiss/) that the project had raised roughly $150 million, with support from donors including [Marc Andreessen](/personality-analysis/marc-andreessen), Peter Thiel, Harlan Crow, and Bill Ackman.
 
 The school's regulatory status has changed since its turbulent launch. UATX now has [Texas authority to award a Bachelor of Arts in Liberal Studies](https://uaustin.org/accreditation/). Full accreditation remains pending. The Middle States Commission on Higher Education granted UATX candidate status on August 28, 2025. Candidate status is a formal, pre-accreditation stage, and the university says it expects the review process to continue through 2028.
 

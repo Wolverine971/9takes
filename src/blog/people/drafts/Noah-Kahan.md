@@ -13,7 +13,7 @@ published: true
 enneagram: '4'
 type: ['musician']
 person: 'noah-kahan'
-suggestions: ['Hozier', 'Lana-Del-Rey', 'Olivia-Rodrigo', 'Billie-Eilish']
+suggestions: ['Hozier', 'Lana-Del-Rey', 'Olivia-Rodrigo', 'Billie-Eilish', 'Kacey-Musgraves']
 wikipedia: 'https://en.wikipedia.org/wiki/Noah_Kahan'
 wikidata_qid: 'Q53832755'
 imdb_id: 'nm9664454'
@@ -243,7 +243,7 @@ The radical thing about _The Great Divide_ is not that it's a more honest record
 
 The challenge had not gone away. The vise around it had loosened.
 
-You can hear what Kahan does with that loosening in who he sings with. _Stick Season (Forever)_, the deluxe edition released February 2024, was effectively a duet album: Brandi Carlile on "You're Gonna Go Far," Kacey Musgraves on "She Calls Me Back," Sam Fender on "Homesick," Lizzy McAlpine on "Call Your Mom," Gracie Abrams on "Everywhere, Everything," Post Malone on "Dial Drunk." His duet with [Hozier](/personality-analysis/hozier) on "Northern Attitude" — another Type 4 who built a career out of dressing grief in folk arrangements — sounds like two people trading hauntings. Olivia Rodrigo pulled him onstage at MSG to share "Stick Season." Fours collect emotional twins. The suggestions panel under this article is mostly his collaborators.
+You can hear what Kahan does with that loosening in who he sings with. _Stick Season (Forever)_, the deluxe edition released February 2024, was effectively a duet album: Brandi Carlile on "You're Gonna Go Far," [Kacey Musgraves](/personality-analysis/kacey-musgraves) on "She Calls Me Back," Sam Fender on "Homesick," Lizzy McAlpine on "Call Your Mom," Gracie Abrams on "Everywhere, Everything," Post Malone on "Dial Drunk." His duet with [Hozier](/personality-analysis/hozier) on "Northern Attitude" — another Type 4 who built a career out of dressing grief in folk arrangements — sounds like two people trading hauntings. Olivia Rodrigo pulled him onstage at MSG to share "Stick Season." Fours collect emotional twins. The suggestions panel under this article is mostly his collaborators.
 
 ## Noah Kahan and the Busyhead Project: how the wound became the work
 
@@ -337,4 +337,3 @@ Reading this as a Noah Kahan fan who came in cold, with no advance knowledge of 
 It's a strong Type 4 case file built almost entirely out of interview material; it would land twice as hard with three or four lyric receipts and a paragraph on the addiction-in-the-catalog thread.
 
 -->
-
