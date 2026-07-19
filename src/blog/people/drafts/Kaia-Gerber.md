@@ -2,14 +2,14 @@
 title: 'Kaia Gerber: An Enneagram Type 6 Analysis'
 meta_title: 'Why Kaia Gerber Hides in Plain Sight (Enneagram Type 6)'
 persona_title: "Fashion's Undercover Librarian"
-description: 'She could book any runway on earth. So why was Kaia Gerber doing five shows a week in a 99-seat theater? Inside the quiet fear that runs her whole career.'
+description: 'She could book any runway on earth. So why was Kaia Gerber doing five performances a week in a 99-seat theater? Inside the preparation that runs her career.'
 author: 'DJ Wayne'
-date: '2026-07-10'
+date: '2026-07-19'
 loc: 'https://9takes.com/personality-analysis/Kaia-Gerber'
-lastmod: '2026-07-10'
+lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['newMovieStar', 'celebrity']
 person: 'Kaia-Gerber'
@@ -62,12 +62,20 @@ citations:
   - 'https://www.sheknows.com/entertainment/articles/1234964377/kaia-gerber-cindy-crawford-naked-photos-childhood/'
   - 'https://libraryscience.net/about'
   - 'https://www.eonline.com/news/1298394/presley-gerber-appears-to-have-removed-his-misunderstood-face-tattoo'
+  - 'https://www.harpersbazaar.com/culture/film-tv/a69938175/kaia-gerber-interview-2026/'
+  - 'https://www.washingtonpost.com/arts-entertainment/tv/2021/07/21/fear-street-american-horror-stories-review/'
+  - 'https://www.apple.com/tv-pr/news/2025/10/apple-celebrates-season-two-of-its-emmy-award-winning-comedy-palm-royale-with-series-stars-laura-dern-leslie-bibb-allison-janney-ricky-martin-kaia-gerber-patti-lupone-john-stamos-josh-lucas-mindy-cohn-amber-chardae-robinson-and-more/'
+  - 'https://www.apple.com/tv-pr/news/2026/02/apple-tv-sets-must-see-2026-lineup-of-star-studded-original-series-films-and-live-sports/'
+  - 'https://www.vogue.com/article/kaia-gerber-and-re-dones-ceo-talk-building-an-all-american-brand'
+  - 'https://www.usmagazine.com/entertainment/news/kaia-gerber-lewis-pullman-to-star-in-erotic-thriller-bulls/'
+  - 'https://www.diageo.com/en/news-and-media/press-releases/2017/diageo-to-acquire-super-premium-tequila-casamigos'
+  - 'https://www.vogue.com/article/exclusive-first-look-the-shards-ryan-murphy-bret-easton-ellis-kaia-gerber-homer-gere'
 faqs:
   - question: "What is Kaia Gerber's personality type?"
     answer: "Kaia Gerber is an Enneagram Type 6, the Loyalist, with a 5 wing (6w5). Her own words carry the case: she waited to model 'until I knew myself enough to protect myself,' calls asking for help 'amazing,' vets collaborators for trust signals, and returned to theater precisely because it terrified her. Fear works as her compass."
     anchor: 'what-is-kaia-gerbers-personality-type'
   - question: 'Why did Kaia Gerber do a 99-seat play in Los Angeles?'
-    answer: "In early 2025 she played Jane Jr. in Will Arbery's Evanston Salt Costs Climbing at Rogue Machine, five shows a week, while shooting Palm Royale season two. Her stated reason: theater terrified her, which she took as the sign she needed to go back, and small rehearsal rooms offered something she says she has rarely felt, permission to fail. For someone whose outcomes were pre-arranged her whole life, a room where she could genuinely lose was the point."
+    answer: "In early 2025 she played Jane Jr. in Will Arbery's Evanston Salt Costs Climbing at Rogue Machine, in a run scheduled for as many as five performances a week, while shooting Palm Royale season two. Her stated reason: theater terrified her, which she took as the sign she needed to go back, and small rehearsal rooms offered something she says she has rarely felt, permission to fail. For someone whose outcomes were pre-arranged her whole life, a room where she could genuinely lose was the point."
     anchor: 'the-safety-to-fail'
   - question: 'Is Kaia Gerber a nepo baby?'
     answer: "Yes, and she concedes the math: 'I won't deny the privilege that I have.' Her mother Cindy Crawford put it plainly in 2019: photographers 'might have her for an audition, but they're not booking her because she's my daughter.' The sharper answer came from a theater critic in 2025, who wrote that her stage performance had her 'shedding her nepo baby chrysalis like last season's couture.'"
@@ -94,37 +102,24 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Kaia-Gerber.md
 content_quality:
-  hook: 8.5
-  enneagram: 8.5
-  evidence: 9
+  hook: 9
+  enneagram: 9
+  evidence: 8.5
   writing: 8.5
-  originality: 8.5
+  originality: 9
   discoverability: 9
-  overall: 8.7
+  overall: 8.8
   letter: B+
   rubric_version: 2
   caps_applied: []
-  confidence: high
-  anchor: 'Matt-Smith (B)'
+  confidence: medium
+  anchor: 'Matt-Smith draft (B, 2026-06-28)'
   needs_review: false
-  graded_at: '2026-07-10'
+  first_overall: 8.7
+  regrade_overall: 8.8
+  grade_stability_delta: 0.1
+  graded_at: '2026-07-19'
 ---
-
-<!-- QUALITY GRADE: B+ (8.7) — rubric v2
-Evidence: 9 | Originality: 8.5 | Discoverability: 9 | Enneagram: 8.5 | Writing: 8.5 | Hook: 8.5
-Anchor: Matt-Smith (B) | Caps: none | Needs review: false
-Source audit: 7 load-bearing quotes — 7 inline, 0 vague, 0 untagged; no untagged slots to name. TIME 2024 + Interview 2024 remain paraphrase-only (403s, disclosed), neither carries a direct quote.
-Interior line: "No monitor tonight. No retouching, no second take, no one from the agency in the room. If I'm bad, ninety-nine people will know before curtain call. Good. Then I'll finally know too."
-Empathy turn: "The mockery assumed she wanted acting handed to her the way modeling was. Her own vocabulary points the opposite direction: she 'had to disprove people' before she could prove herself, and a win nobody can dispute requires a room where losing is genuinely possible." — her own wound-vocabulary, no armor-grammar, no cap.
-
-FEEDBACK (2026-07-10):
-- The reading-list dossier ("Most celebrity book clubs are mood boards. Gerber's reads like a first-aid kit") is the piece's bespoke form — book, year, and the fear each was hired to guard collapses if transplanted to any other subject. Best section.
-- The Minghella matching-outfit screenshot opening the diagnosis is decision-making shown, not described — the single best tell in the draft. The Presley control-group paragraph (two kids, one house, one last name; "He wore the doubt on his face. She built a career out of preparing for it.") patches the monocausal-thesis failure mode the Matt-Smith anchor was dinged for.
-- Critic pressure is genuinely faced, not staged: the nepo cover, "wooden," and her own Elle rebuttal explicitly called "the weakest sentence she has said on the record." The recanting critics land as earned.
-- NEEDS WORK: the Type 6 tiebreaker shape — "direction of motion under fear; she schedules the scary thing" — is now the corpus-standard Six argument (morgan-wallen's sober performing, keira-knightley's hypnotherapy, Tobey's "anxiety that has done its homework"). This draft executes it best, but a serial reader will clock the move. Corpus-level sameness, not a this-draft defect.
-- NEEDS WORK: three two-beat aphorism transitions ("Books hold still. People don't." / "Privacy worked for her relationships. It was never on offer for her last name." / "Fame was never the dream. It was the weather.") form a detectable cadence; the Elordi year is still four words, so the dating arc rests on the concession paragraph plus one Bulls datapoint.
-- TO REACH A: (1) Retire or vary one of the three two-beat aphorism transitions. (2) Rewrite the textbook bridge in the boyfriends section ("This is where the Enneagram earns its keep... a Six hands her judgment to someone who seems more certain") in her vocabulary instead of type-teacher voice. (3) The stress section inventories the scaffolding (therapy, meditation, yoga, breathwork, journaling) but never renders the over-functioning from inside — give it one interior beat the way the Matrix Theatre paragraph does for fear. (4) If TIME 2024 or Interview 2024 becomes reachable, pin the reading-origin claim to a direct quote.
--->
 
 <!-- TESTIMONY LEDGER
 1. Cindy Crawford: "They might have her for an audition, but they're not booking her because she's my daughter... I mean, she's doing things I never did." — Vogue Forces of Fashion summit, 2019
@@ -147,38 +142,38 @@ Search-intent + hybrid count: 6
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 2
-Locations: "Kaia Gerber's boyfriends, and the pattern nobody clocked" (borrowed-certainty paragraph), "The safety to fail" (unearned-ground paragraph)
+Type-theory paragraphs outside diagnosis section and Rabbit Hole: 1
+Location: "The safety to fail" (unearned-ground paragraph)
 -->
 
 <!-- FORMULA FINGERPRINT LEDGER
-Contrast-pair sentence engines: 0 strong / 1 comparative — from scripts/blog-quality-report.mjs 2026-07-10; the 1 comparative sits inside Kaia's own direct quote ("more to say than I did"), which is never altered
-Counter-typing ladders in main body: none (one two-type pressure-test line inside the diagnosis section; full debate quarantined in Rabbit Hole)
-Same-type similarity scan: clear — top score 0.068 vs morgan-wallen (noise-floor territory; no verbatim diagnosis or counter-typing overlap), scripts/same-type-similarity.mjs --n 8, 2026-07-10
+Contrast-pair sentence engines: 0 strong / 1 comparative — from scripts/blog-quality-report.mjs 2026-07-19; the comparative sits inside Kaia's own direct quote ("more to say than I did"), which is never altered
+Counter-typing ladders in main body: none; full debate quarantined in Rabbit Hole
+Same-type similarity scan: clear — top max score 0.101 vs Joe-Lonsdale, with no trip pair; scripts/same-type-similarity.mjs --n 8, 2026-07-19
 Bespoke section form: "What Kaia Gerber's reading list says about her" — an annotated four-book dossier (book, year, and the fear it was hired to guard); collapses if transplanted to any other subject
-Critic-pressure anchor: New York Magazine's December 2022 "Year of the Nepo Baby" cover (she appeared on it) + fan verdict that her 2021 American Horror Stories acting was wooden — conceded before the lens turn, in "The black box where nobody's name could save her"
+Critic-pressure anchor: New York Magazine's December 2022 "Year of the Nepo Baby" cover + the Washington Post's July 2021 "wooden" review — conceded before the lens turn; the later favorable stage reviews are explicitly identified as different critics, not recantations
 Empathy turn: the nepo-baby jokes and the wooden-acting pile-on become legible through her own vocabulary ("disprove people before I could prove myself," "the safety to fail"): unearned wins never registered as wins, so she kept engineering rooms where losing was possible — same section
-Current-tense or legacy-now anchor: Palm Royale season two (Nov 2025), Outcome with Jonah Hill and Keanu Reeves (2026), Mother Mary (2026), Bulls with Lewis Pullman (announced), NARS global ambassador (Dec 2025)
-Interior beat: <p class="inner-thought"> before curtain at the Matrix Theatre, in "The black box where nobody's name could save her"
+Current-tense or legacy-now anchor: Palm Royale season two (Nov 2025), Outcome (Apr 2026), Bulls casting (May 2026), Library Science's first publication (2026), The Shards (Aug 2026)
+Interior beat: explicitly labeled author's interpretive reconstruction before curtain at the Matrix Theatre, in "The black box where nobody's name could save her"
 Ending swap-test: pass — the ending runs on the models-falling home video and Cindy's "fearless" verdict; no other subject owns either
 -->
 
-<!-- TYPE-CHALLENGE MEMO (working notes, non-interactive run 2026-07-10)
+<!-- TYPE-CHALLENGE MEMO (working notes, updated 2026-07-19)
 1. Strongest case FOR Type 6: fear as compass ("Theatre terrified me, which made me realise that I needed to do it again"); safety vocabulary ("the safety to fail is something that I haven't felt very much in my life"); trust-vetting before commitment (Minghella Zoom-outfit omen: "I can trust you with whatever"); preparation as entry ticket (read her way into adult rooms; Cindy: "pretty well versed... just being prepared"); help-seeking framed as triumph ("I need help. And being able to ask for that help was amazing"); waited to model "until I knew myself enough to protect myself."
 2. Strongest case AGAINST (9): self-erasure and merging ("I'll let everyone else be sad"; "I was fine with" having no opinions; serial absorption into partners' worlds; "the goal is contentment"). (3): image dynasty, Model of the Year at 17, reinvention arc, straight-A framing.
-3. Named tiebreaker: direction of motion under fear. After the wooden-acting pile-on she booked a 99-seat black box five nights a week, the venue where her name has no purchase. A 9 protects comfort; a 3 protects the win rate; she keeps scheduling the exact thing that frightens her, with backup.
-4. One behavior the type does not explain cleanly: the apparent ease of walking 22 runway shows at 16 with no visible freeze. Preparation and lifelong familiarity explain most of it; still noted.
-5. Confidence: medium-high. The 9-merge ambiguity is real and is handled honestly in the Rabbit Hole counterarguments.
+3. Named tiebreaker: the recurring sequence in her own language — scan for trust, prepare, ask for backup, then enter the feared room. The public record does not establish that the 2021 criticism caused the 2025 theater booking.
+4. One behavior the type does not explain cleanly: her apparent ease inside a highly visible first Fashion Month at 16. Preparation and lifelong familiarity explain part of it; the achievement/image case remains live.
+5. Confidence: medium. The Nine merge and Three achievement cases remain real and are handled in the Rabbit Hole counterarguments.
 Research limitations: TIME 2024 essay and Interview Magazine 2024 piece returned 403s; both used via paraphrase from secondary coverage, no invented direct quotes. WWD Palm Royale S2 interview paywalled; skipped.
 -->
 
 > "There's nowhere to hide, and in modelling I got quite used to hiding and being able to conceal." — Kaia Gerber, Hollywood Authentic, 2025
 
-<p class="firstLetter">In January 2025, the most bookable face in fashion was performing five nights a week at the Matrix Theatre, one of Los Angeles's 99-seat houses, in a play about municipal road salt. Will Arbery's <em>Evanston Salt Costs Climbing</em> follows two snow-truck drivers through a Midwestern winter. Kaia Gerber played Jane Jr., a young woman coming apart quietly in the cold. There was no monitor to check, no retouching between takes, and no Steven Meisel anywhere in the building.</p>
+<p class="firstLetter">In January 2025, the most bookable face in fashion was performing as many as five shows a week at the Matrix Theatre, one of Los Angeles's 99-seat houses ([Hollywood Authentic](https://hollywoodauthentic.com/kaia-gerber/); [Stage and Cinema](https://stageandcinema.com/2025/01/28/evanston-salt-costs-climbing-rogue-machine/)). Will Arbery's <em>Evanston Salt Costs Climbing</em> follows two snow-truck drivers through a Midwestern winter. Kaia Gerber played Jane Jr., a young woman coming apart quietly in the cold. There was no monitor to check, no retouching between takes, and no Steven Meisel anywhere in the building.</p>
 
 She was 23 and shooting season two of Apple TV+'s <em>Palm Royale</em> at the same time. She did the play anyway, through March, for house sizes smaller than the crew of a Chanel campaign.
 
-The resume says this makes no sense. At 16 she walked 22 shows in her debut fashion month (Fox News, 2017). At 17 she was the British Fashion Awards' Model of the Year. Every door in two industries opens when her agent calls.
+The resume says this makes no sense. At 16 she debuted for Calvin Klein, then walked for Chanel, Miu Miu, Off-White, Saint Laurent, and Valentino in her first Fashion Month ([Harper's Bazaar, 2026](https://www.harpersbazaar.com/culture/film-tv/a69938175/kaia-gerber-interview-2026/)). At 17 she was the British Fashion Awards' Model of the Year. Her last name and booking record gave her unusual access in two industries.
 
 She has a sentence that explains it, said to Vogue's cameras in November 2024 like it weighed nothing: "the safety to fail is something that I haven't felt very much in my life."
 
@@ -191,7 +186,7 @@ Sit with the strangeness of that. Twenty-three years of guaranteed outcomes, and
 <li><b>Fashion's safest bet:</b> Kaia Gerber is an Enneagram Type 6, the pattern that treats preparation as oxygen. She read her way into adult rooms before she trusted herself to speak in them.</li>
 <li><b>The covered face:</b> her favorite runway memories are the shows where a hat hid her face. The world's most visible job doubled as her hiding place.</li>
 <li><b>The bodyguard bookshelf:</b> she keeps a book for every fear: one for the move to New York, one for the breakup at 18, one for the goodbyes she wasn't ready to say.</li>
-<li><b>The 99-seat cure:</b> after the internet called her acting wooden, she chose a tiny Melrose theater where her last name couldn't reach the stage, and made critics recant.</li>
+<li><b>The 99-seat cure:</b> after a major critic called her acting wooden, she chose a tiny Melrose theater where her last name couldn't reach the stage, and earned markedly better reviews.</li>
 </ul>
 </div>
 </details>
@@ -202,9 +197,9 @@ Sit with the strangeness of that. Twenty-three years of guaranteed outcomes, and
 
 Before signing on to the 2024 film <em>Shell</em>, Kaia Gerber got on a Zoom with director Max Minghella. Same outfit: white tee, blue crewneck. She screenshotted it. "I just was like, I can trust you with whatever," she told Collider in September 2024. That is how she decides: every offer filtered through one question, safe or unsafe.
 
-The [Enneagram Type 6](/enneagram-corner/enneagram-type-6) runs on exactly this wiring. Trust is the scarcest resource, preparation is the currency that buys it, and every new room gets vetted before it gets entered. Gerber's whole biography reads as vetting. She delayed her own start in fashion, waiting, as she told Vogue's Forces of Fashion audience in 2019, "until I felt self-confident enough and I knew myself enough to protect myself." When she landed in New York at 16, she started reading obsessively so she could hold her own in conversations with the brilliant older people suddenly around her, an origin she described in a 2024 TIME essay. Her mother confirmed it from the outside: "By the time Kaia started in the fashion industry she was pretty well versed. She teaches me stuff all the time... just being prepared" (Cindy Crawford, Forces of Fashion, 2019).
+The [Enneagram Type 6](/enneagram-corner/enneagram-type-6) runs on exactly this wiring. Trust is the scarcest resource, preparation is the currency that buys it, and every new room gets vetted before it gets entered. Gerber's whole biography reads as vetting. During Vogue's 2019 Forces of Fashion event, she said she waited "until I felt self-confident enough and I knew myself enough to protect myself." When she landed in New York at 16, she started reading obsessively so she could hold her own in conversations with the brilliant older people suddenly around her, an origin she described in a 2024 TIME essay. In a 2019 Vogue Forces of Fashion interview, her mother confirmed it from the outside: "By the time Kaia started in the fashion industry she was pretty well versed. She teaches me stuff all the time... just being prepared."
 
-Plenty of celebrities are anxious. The tell for a Six is what the fear gets used for. In 2021 she described her lowest stretch to Vogue in words most stars never say on the record: "I got put in situations where one day I'd wake up and be like, 'How did I get here?' I have no idea what I'm doing, and I need help. And being able to ask for that help was amazing." Asking for backup, celebrated as a victory. And then there is her stated reason for returning to the stage: "Theatre terrified me, which made me realise that I needed to do it again" (Hollywood Authentic, 2025). A Nine with her options would have stayed comfortable. A Three would have chased the bigger set. She treats terror as a to-do list.
+Plenty of celebrities are anxious, and anxiety alone does not settle a type. Gerber's recurring sequence offers a better signal. In 2021 she described her lowest stretch to Vogue in words most stars never say on the record: "I got put in situations where one day I'd wake up and be like, 'How did I get here?' I have no idea what I'm doing, and I need help. And being able to ask for that help was amazing." Asking for backup, celebrated as a victory. Her return to the stage supplies another instance: "Theatre terrified me, which made me realise that I needed to do it again" (Hollywood Authentic, 2025). She does not merely report fear; she recruits structure, allies, and practice to move through it.
 
 ---
 
@@ -212,7 +207,7 @@ Plenty of celebrities are anxious. The tell for a Six is what the fear gets used
 
 Before her first runway show, Cindy Crawford gathered the family and played compilation videos of models falling. Gerber told the story on The Tonight Show in April 2024 as a joke, and it is funny. It is also a perfect portrait of the household: love, expressed as preparation for the moment everything goes wrong.
 
-The Malibu house had its own curriculum. Nude portraits of her mother, shot by Herb Ritts and Helmut Newton, lined the walls. "They were, to me, artistic," she told Harper's Bazaar in January 2025. "It was a gift to grow up in a house that was without shame for the female body." Pamela Anderson worked as her elementary school crossing guard. Her father Rande co-founded Casamigos, the tequila brand that sold for up to a billion dollars the year she turned 16.
+The Malibu house had its own curriculum. Nude portraits of her mother, shot by Herb Ritts and Helmut Newton, lined the walls. "They were, to me, artistic," she told [Harper's Bazaar in January 2026](https://www.harpersbazaar.com/culture/film-tv/a69938175/kaia-gerber-interview-2026/). "It was a gift to grow up in a house that was without shame for the female body." Pamela Anderson worked as her elementary school crossing guard. Her father Rande co-founded Casamigos, the tequila brand Diageo agreed to acquire for up to $1 billion the year she turned 16 ([Diageo, 2017](https://www.diageo.com/en/news-and-media/press-releases/2017/diageo-to-acquire-super-premium-tequila-casamigos)).
 
 She took her classes online through Malibu High while shooting campaigns; her first job, for Young Versace, came at age 10. "My mom had to bring me to work," she remembered with Marc Jacobs in 2024. "I couldn't even travel."
 
@@ -255,27 +250,29 @@ Books hold still. People don't. The tabloid version of her dating history is a l
 
 She was 18 when she started dating [Pete Davidson](/personality-analysis/pete-davidson), 26 and publicly struggling. The relationship lasted about three months, and its collapse produced the Vogue quote above: waking up, wondering how she got there, learning to ask for help. On an Instagram Live with Lena Dunham in April 2020, she named the mechanism underneath it: "I've always kind of been the person who's like, 'I'll let everyone else be sad.'" Her own sadness could wait. His couldn't.
 
-This is where the Enneagram earns its keep. Under uncertainty, a Six hands her judgment to someone who seems more certain, and the anxious partner who needs managing can feel, briefly, like a job description that fits. The relationship becomes the security system. Which is why the fix she found matters: she didn't swear off closeness, she studied it, one library book at a time.
+Public chronology cannot prove what happened inside that relationship, and Gerber did not name Davidson in the 2021 Vogue account of waking up in situations she did not recognize. What can be said is narrower: in 2020 she described a habit of carrying everyone else's sadness first, then read a book about codependency while trying to change it. She did not swear off closeness; she studied the part of closeness she could not yet trust herself to navigate.
 
 What followed is harder to read, and it is worth being honest about why. A year with [Jacob Elordi](/personality-analysis/jacob-elordi). Then three quiet years with [Austin Butler](/personality-analysis/austin-butler), a relationship so guarded that its January 2025 ending arrived without a single public autopsy. Whether the merge pattern broke inside those years or simply went underground, no one outside can say. The privacy is the one legible fact, and it counts for something: the teenager who once narrated a breakup on Instagram Live now treats her relationships as rooms the public doesn't enter.
 
-The current chapter offers one checkable datapoint. Lewis Pullman, made red-carpet official at Venice in September 2025, has been cast alongside her in the thriller <em>Bulls</em>, which makes this the first relationship she enters holding her own call sheet. One datapoint does not settle a pattern. It does point somewhere new.
+The next public chapter offers one checkable datapoint. Gerber and Lewis Pullman appeared together on the Venice red carpet in September 2025; by May 2026, both had been cast in the thriller <em>Bulls</em> ([Us Weekly, 2026](https://www.usmagazine.com/entertainment/news/kaia-gerber-lewis-pullman-to-star-in-erotic-thriller-bulls/)). One shared call sheet does not settle a private pattern, and the public record cannot tell us whether that pattern changed.
 
 ## The black box where nobody's name could save her
 
 Privacy worked for her relationships. It was never on offer for her last name. In December 2022, New York Magazine put her on its "Year of the Nepo Baby" cover, the internet's group verdict rendered in print. The verdict had teeth because parts of it were true, and she knew it: "I won't deny the privilege that I have," she told Elle in 2023. Her rebuttal in that interview was the weakest sentence she has said on the record: "No artist is going to sacrifice their vision for someone's kid." Careers are made of exactly such sacrifices, and the internet said so, loudly.
 
-The acting reviews stung worse because they came first. Her 2021 television debut in Ryan Murphy's <em>American Horror Stories</em> drew a fan pile-on; "wooden" was the word that stuck. For most famous daughters the move here is obvious: retreat to the runway, where the wins are guaranteed.
+The acting reviews stung worse because they came first. In July 2021, a Washington Post review of Ryan Murphy's <em>American Horror Stories</em> called her performance "wooden" ([Washington Post, 2021](https://www.washingtonpost.com/arts-entertainment/tv/2021/07/21/fear-street-american-horror-stories-review/)). Her later choice of a small theater cannot be proved as a response to that review; Gerber's stated reasons were older love for theater, fear, and the appeal of live work.
 
-Look at what she booked instead. Audition rooms she could have skipped. A supporting part in <em>Babylon</em> for Damien Chazelle. A deadpan comic turn in <em>Bottoms</em> that critics liked. <em>Palm Royale</em>, where she spent takes apprenticing herself to Kristen Wiig and Carol Burnett: "I would always in between takes be like, 'Please, tell me all your stories'" (Entertainment Tonight, 2025). Then the black box on Melrose, playing a woman she described as "the darker parts of myself, and these dark thoughts that I've had."
+Look at what she booked next. Audition rooms she could have skipped. A supporting part in <em>Babylon</em> for Damien Chazelle. A deadpan comic turn in <em>Bottoms</em> that critics liked. <em>Palm Royale</em>, where she spent takes apprenticing herself to Kristen Wiig and Carol Burnett: "I would always in between takes be like, 'Please, tell me all your stories'" (Entertainment Tonight, 2025). Then the black box on Melrose, playing a woman she described as "the darker parts of myself, and these dark thoughts that I've had."
+
+Author's interpretive reconstruction:
 
 <p class="inner-thought">No monitor tonight. No retouching, no second take, no one from the agency in the room. If I'm bad, ninety-nine people will know before curtain call. Good. Then I'll finally know too.</p>
 
 Here is what the jokes never made room for. The mockery assumed she wanted acting handed to her the way modeling was. Her own vocabulary points the opposite direction: she "had to disprove people" before she could prove herself, and a win nobody can dispute requires a room where losing is genuinely possible. The privilege never needed her protection. It stood between her and ever finding out.
 
-The verdicts came back changed. Stage and Cinema's Michael M. Landman-Karny called her Jane Jr. "the production's most startling revelation," writing that she was "shedding her nepo baby chrysalis like last season's couture" (2025). BroadwayWorld's Amanda Callas wrote that she "does rather wondrous things with the unassuming part of Jane Jr.," finding in her "a genuine sweetness, quirk, lively humor and bone-deep authentic depth" (2025).
+The later verdicts came from different critics, so this was not a recantation. It was a sharply better response. Stage and Cinema's Michael M. Landman-Karny called her Jane Jr. "the production's most startling revelation," writing that she was "shedding her nepo baby chrysalis like last season's couture" (2025). BroadwayWorld's Amanda Callas wrote that she "does rather wondrous things with the unassuming part of Jane Jr.," finding in her "a genuine sweetness, quirk, lively humor and bone-deep authentic depth" (2025).
 
-The slate since reads like someone who finally trusts the instrument. <em>Palm Royale</em> season two arrived in November 2025 with her character Mitzi handed, in her words, "quite an evolution." Jonah Hill's <em>Outcome</em> (2026) put her opposite Keanu Reeves, her lifelong crush, the man whose life-size cardboard cutout once stood in her home. Her worry on set was pure Kaia: "I didn't want to scare him. I felt like my personality would freak him out." Even at hero altitude, the reflex holds: her unedited self might be too much.
+The slate since reads like someone testing the instrument in bigger rooms. <em>Palm Royale</em> season two premiered November 12, 2025 ([Apple](https://www.apple.com/tv-pr/news/2025/10/apple-celebrates-season-two-of-its-emmy-award-winning-comedy-palm-royale-with-series-stars-laura-dern-leslie-bibb-allison-janney-ricky-martin-kaia-gerber-patti-lupone-john-stamos-josh-lucas-mindy-cohn-amber-chardae-robinson-and-more/)); Jonah Hill's <em>Outcome</em> followed on April 10, 2026 ([Apple](https://www.apple.com/tv-pr/news/2026/02/apple-tv-sets-must-see-2026-lineup-of-star-studded-original-series-films-and-live-sports/)). By May, Vogue reported that Library Science had published its first publication. Ryan Murphy's <em>The Shards</em>, with Gerber as Susan Reynolds, is scheduled to premiere August 5 ([Vogue, July 13, 2026](https://www.vogue.com/article/exclusive-first-look-the-shards-ryan-murphy-bret-easton-ellis-kaia-gerber-homer-gere)).
 
 She has also said the quiet part about why she'll never leave: "I hope I get to act for as long as I'm breathing... even if there's absolutely no money involved I would still be doing it" (Vogue, 2024).
 
@@ -284,6 +281,8 @@ She has also said the quiet part about why she'll never leave: "I hope I get to 
 Preparation has failed her once in public view: the Davidson winter, at 18, when the study habits that carried her through fashion month had no purchase on someone else's crisis, and she ended up awake in a life she didn't recognize, asking how she got there. What she built when it was over was more system.
 
 Her stress signature is over-functioning, and the 2021 Vogue profile catches her mid-correction: "One thing I learned is that I have to let go of my need to be a straight-A student across every aspect of my life. Once I realized that I am going to mess up, I learned to be more forgiving of myself." Note the shape of the confession: even her healing had a report card. The same profile inventories her maintenance system: therapy, meditation, yoga, breathwork, daily journaling. That is a lot of scaffolding for one calm-looking person, and it is doing load-bearing work.
+
+By January 2026, her language had changed. She told Harper's Bazaar that she had spent her youth "masking as an adult" and was now willing to "show up messy and be kind of childish about certain things." Theater had also exposed the cost of playing "the easy one": withholding vulnerability, she said, kept people from feeling genuinely close to her. The change goes beyond adding another routine. It is the prepared child allowing other people to see the unprepared version ([Harper's Bazaar, 2026](https://www.harpersbazaar.com/culture/film-tv/a69938175/kaia-gerber-interview-2026/)).
 
 The growth direction looks different, and she has started saying it out loud. "The goal is contentment," she told Hollywood Authentic in 2025. For someone raised on scoreboards, that one sentence is the whole growth arc. You can watch her practice it at the Hotel Chelsea readings she hosts: her one rule is that every piece be written by a former resident, a guitarist plays an instrument built from the hotel's renovation lumber, and residents come down from their apartments to listen. The girl who needed safe rooms grew into the woman who builds them for strangers.
 
@@ -298,7 +297,7 @@ The five wing shows up everywhere the cameras aren't. Her restoration is solitar
 
 ### Kaia Gerber's Instinctual Subtype: sp/sx (best guess)
 
-The self-preservation instinct leads. Her vocabulary defaults to safety (rehearsal rooms that are "really safe," waiting to model until she "knew myself enough to protect myself"), her wellness stack is a fortress, and her idea of luxury is a nail salon, a dog, and eight uninterrupted hours with a novel. The sexual instinct runs second and explains the intensity she brings to one-to-one bonds: the hero-worship of Keanu Reeves, the fascination with intimate correspondence, the serial deep-merge relationships of her late teens. A social-dominant Six would have answered the nepo discourse by coalition-building; she answered it alone, on a stage. See <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a> for the full framework.
+The self-preservation instinct is the best fit, though this is the most speculative part of the typing. Her vocabulary defaults to safety (rehearsal rooms that are "really safe," waiting to model until she "knew myself enough to protect myself"), her wellness stack is a fortress, and her idea of luxury is a nail salon, a dog, and eight uninterrupted hours with a novel. The possible one-to-one current shows in her fascination with intimate correspondence and the intensity she described in early relationships. Public interviews leave the stacking unresolved; sp/sx remains a working hypothesis. See <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a> for the full framework.
 
 ### Stress and Growth Arrows
 
@@ -306,7 +305,7 @@ Under pressure she moves toward Three: the straight-A-in-everything era she conf
 
 ### Counterarguments: Why Kaia Gerber Might Not Be Type 6
 
-The Nine case is real. She merges ("I'll let everyone else be sad"), avoids conflict, kept her opinions parked for years, and names contentment as the goal. But her motion under fear breaks the tie: Nines protect comfort, and Gerber schedules discomfort on purpose, then staffs it with mentors and preparation. Her self-erasure came with vigilance attached, never numbness. The Three case leans on the surface: model dynasty, Model of the Year at 17, a reinvention arc. It collapses on her relationship to attention, which she consistently describes as something to survive ("I love not being recognizable"), and on her indifference to scoreboard logic ("even if there's absolutely no money involved I would still be doing it"). What would change our mind: if the merge pattern kept dominating into her thirties with the preparation signature fading, the Nine reading strengthens. Confidence: medium-high.
+The Nine case is real. She merges ("I'll let everyone else be sad"), avoids conflict, kept her opinions parked for years, and names contentment as the goal. The Three case is real too: model dynasty, Model of the Year at 17, a reinvention arc. Neither type is incapable of choosing frightening work. The narrower reason Six still leads is the repeated sequence in her own language: scan for trust, prepare, ask for backup, then enter the feared room. If merging still dominated into her thirties while the preparation signature faded, the Nine reading would gain strength. Consistent evidence that achievement and image outranked safety would strengthen Three. Confidence: medium.
 
 </div>
 </details>
@@ -317,7 +316,7 @@ Here is the sharpest thing the type lens reveals about Kaia Gerber: inherited gr
 
 Which brings everything back to the home video. A mother who survived the most scrutinized career in fashion, gathering her family before her daughter's first show, pressing play on a reel of models falling. The lesson was loving and practical: everyone falls, laugh first, get up.
 
-It took her daughter twenty years to improve on it. Five nights a week, on Melrose, in front of 99 strangers, she rented the fall itself. Her mother came to watch her do it, the woman who taught her everything about surviving being seen, and left calling her fearless.
+It took her daughter twenty years to improve on it. Across a live run scheduled for as many as five performances a week, on Melrose, in front of 99 strangers, she rented the fall itself. Her mother came to watch and praised her as "fearless on stage" in a January 26, 2025 Instagram post (Cindy Crawford, Instagram, January 26, 2025; [contemporaneous report](https://www.thenews.com.pk/latest/1276680-cindy-crawford-proud-of-daughter-kaia-gerber-on-her-latest-feat)).
 
 ---
 
@@ -386,4 +385,3 @@ Still rough:
 - Elordi year remains four words (no public material earns more, per second pass).
 - Comparative contrast warn is inside Kaia's own pull-quote; never altered.
 -->
-

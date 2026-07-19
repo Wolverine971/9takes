@@ -4,12 +4,12 @@ meta_title: 'PinkPantheress Enneagram Type 5: Why She Hid Her Face'
 persona_title: "Pop's Faceless Recluse"
 description: "Why did PinkPantheress stay faceless while becoming a pop star? The anonymity was never a marketing trick. A closer look at her Enneagram Type 5 wiring."
 author: 'DJ Wayne'
-date: '2026-05-29'
+date: '2026-07-19'
 loc: 'https://9takes.com/personality-analysis/pinkpantheress'
-lastmod: '2026-05-29'
+lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['musician']
 person: 'pinkpantheress'

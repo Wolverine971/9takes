@@ -116,11 +116,16 @@
 			});
 			const data = await res.json();
 			if (!res.ok) throw new Error(data?.error ?? data?.message ?? 'failed');
-			mirror = {
-				reflection: data.reflection,
-				resonantType: data.resonantType,
-				resonantArchetype: data.resonantArchetype
-			};
+			mirror =
+				typeof data?.reflection === 'string' &&
+				Number.isInteger(data?.resonantType) &&
+				typeof data?.resonantArchetype === 'string'
+					? {
+							reflection: data.reflection,
+							resonantType: data.resonantType,
+							resonantArchetype: data.resonantArchetype
+						}
+					: null;
 			takes = data.takes ?? [];
 			phase = 'revealed';
 			void capture('strategic_question_answered', {

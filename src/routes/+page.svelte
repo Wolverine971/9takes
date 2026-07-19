@@ -9,7 +9,14 @@
 	import { capture } from '$lib/analytics/posthog';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { Button, SectionKicker } from '$lib/components/atoms';
+	import TimeMirror from '$lib/components/marketing/TimeMirror.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import {
+		CHORUS_TAKE_MAX_CHARACTERS,
+		CHORUS_TAKE_MIN_CHARACTERS,
+		CHORUS_TAKE_MIN_WORDS,
+		CHORUS_TAKE_WARNING_CHARACTERS
+	} from '$lib/constants/answerLimits';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
 
 	let { data }: { data: PageData } = $props();
@@ -102,14 +109,35 @@
 	let submitting = $state(false);
 	let submitError = $state<string | null>(null);
 	let mirror = $state<Mirror | null>(null);
+	let mirrorUnavailable = $state(false);
 	let alreadyAnswered = $state(false);
 	let chorusTakes = $state.raw<ChorusTake[]>([]);
 	let revealEl = $state<HTMLElement | null>(null);
-	let eraPaused = $state(false);
 
 	const trimmedTake = $derived(previewTake.trim());
 	const wordCount = $derived(trimmedTake ? trimmedTake.split(/\s+/).length : 0);
-	const canSubmit = $derived(trimmedTake.length >= 8 && wordCount >= 3 && !submitting);
+	const wordsNeeded = $derived(Math.max(0, CHORUS_TAKE_MIN_WORDS - wordCount));
+	const charactersNeeded = $derived(Math.max(0, CHORUS_TAKE_MIN_CHARACTERS - trimmedTake.length));
+	const charactersRemaining = $derived(CHORUS_TAKE_MAX_CHARACTERS - previewTake.length);
+	const answerReady = $derived(wordsNeeded === 0 && charactersNeeded === 0);
+	const canSubmit = $derived(answerReady && charactersRemaining >= 0 && !submitting);
+	const characterProgress = $derived(
+		`${Math.min(100, Math.max(0, (previewTake.length / CHORUS_TAKE_MAX_CHARACTERS) * 100))}%`
+	);
+	const answerGuidance = $derived.by(() => {
+		if (wordsNeeded > 0) {
+			return `${wordsNeeded} more word${wordsNeeded === 1 ? '' : 's'} to post`;
+		}
+		if (charactersNeeded > 0) {
+			return `${charactersNeeded} more character${charactersNeeded === 1 ? '' : 's'} to post`;
+		}
+		return 'Ready to post';
+	});
+	const characterCounterClass = $derived([
+		'character-budget',
+		charactersRemaining <= CHORUS_TAKE_WARNING_CHARACTERS && 'character-budget--warning',
+		charactersRemaining <= 50 && 'character-budget--critical'
+	]);
 	const questionHref = $derived(`/questions/${data.featuredQuestion.url}`);
 	const homepageStructuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
@@ -137,7 +165,7 @@
 
 	async function submitTake() {
 		if (submitting) return;
-		if (trimmedTake.length < 8 || wordCount < 3) {
+		if (!answerReady) {
 			submitError = 'Say a little more. A short sentence is enough.';
 			return;
 		}
@@ -146,7 +174,7 @@
 		submitError = null;
 
 		try {
-			if (browser) getOrCreateVisitorId();
+			const visitorId = browser ? getOrCreateVisitorId() : undefined;
 
 			const response = await fetch('/api/nine/mirror', {
 				method: 'POST',
@@ -155,10 +183,11 @@
 					subjectType: 'question',
 					questionUrl: data.featuredQuestion.url,
 					take: trimmedTake,
-					sourcePath: browser ? window.location.pathname : undefined
+					sourcePath: browser ? window.location.pathname : undefined,
+					fingerprint: visitorId
 				})
 			});
-			const result = await response.json();
+			const result = await response.json().catch(() => null);
 
 			if (!response.ok) {
 				throw new Error(result?.error ?? result?.message ?? 'Something slipped. Try once more.');
@@ -170,11 +199,18 @@
 				throw new Error('Your answer was posted, but the nine perspectives are not ready yet.');
 			}
 
-			mirror = {
-				reflection: result.reflection,
-				resonantType: result.resonantType,
-				resonantArchetype: result.resonantArchetype
-			};
+			const hasMirror =
+				typeof result?.reflection === 'string' &&
+				Number.isInteger(result?.resonantType) &&
+				typeof result?.resonantArchetype === 'string';
+			mirror = hasMirror
+				? {
+						reflection: result.reflection,
+						resonantType: result.resonantType,
+						resonantArchetype: result.resonantArchetype
+					}
+				: null;
+			mirrorUnavailable = Boolean(result?.mirrorUnavailable || !hasMirror);
 			chorusTakes = result.takes;
 			alreadyAnswered = Boolean(result.alreadyAnswered);
 			previewRevealed = true;
@@ -243,50 +279,7 @@
 				</ul>
 			</div>
 
-			<figure class="hero-figure">
-				<button
-					type="button"
-					class="image-frame era-frame"
-					class:is-paused={eraPaused}
-					aria-pressed={eraPaused}
-					aria-label={eraPaused
-						? 'Resume the time-shifting image: nine modern people under a streetlamp dissolve into nine marble Greek philosophers around a fire.'
-						: 'Pause the time-shifting image: nine modern people under a streetlamp dissolve into nine marble Greek philosophers around a fire.'}
-					onclick={() => (eraPaused = !eraPaused)}
-				>
-					<img
-						src="/images/home-reimagined/streetlamp-nine.webp"
-						class="era-image era-image--modern"
-						alt=""
-						width="1400"
-						height="788"
-						loading="eager"
-						fetchpriority="high"
-						decoding="async"
-					/>
-					<img
-						src="/images/home-reimagined/ancient-fire-nine.webp"
-						class="era-image era-image--ancient"
-						alt=""
-						width="1400"
-						height="788"
-						loading="eager"
-						decoding="async"
-					/>
-					<div class="image-scrim" aria-hidden="true"></div>
-					<div class="image-coordinate" aria-hidden="true">
-						{eraPaused ? 'NOW ↔ THEN · PAUSED' : 'NOW ↔ THEN · HOVER TO HOLD'}
-					</div>
-					<div class="image-caption">
-						<span class="caption-mark" aria-hidden="true"></span>
-						<span>The setting changes. The question does not.</span>
-					</div>
-				</button>
-				<figcaption>
-					<span>THE CIRCLE · THEN / NOW</span>
-					<span aria-hidden="true">01 02 03 04 05 06 07 08 09</span>
-				</figcaption>
-			</figure>
+			<TimeMirror />
 		</div>
 	</section>
 
@@ -338,22 +331,32 @@
 								bind:value={previewTake}
 								oninput={() => (submitError = null)}
 								rows="4"
-								maxlength="2000"
+								maxlength={CHORUS_TAKE_MAX_CHARACTERS}
 								placeholder="Answer honestly. A short sentence is enough."
 								aria-invalid={submitError ? 'true' : 'false'}
-								aria-describedby={submitError ? 'answer-help answer-error' : 'answer-help'}
+								aria-describedby={submitError
+									? 'answer-help answer-count answer-error'
+									: 'answer-help answer-count'}
 								disabled={submitting}></textarea>
 						</div>
 
 						<div class="composer-footer">
 							<div class="answer-foot">
-								<span id="answer-help">
-									{wordCount >= 3 && trimmedTake.length >= 8
-										? 'Ready to post · no account required'
-										: 'Your take becomes a real answer · no account required'}
-								</span>
-								<span>{wordCount} word{wordCount === 1 ? '' : 's'} · {previewTake.length}/2000</span
-								>
+								<div class="answer-readiness">
+									<span
+										id="answer-help"
+										class={['answer-guidance', answerReady && 'answer-guidance--ready']}
+									>
+										{answerGuidance}
+									</span>
+									<span>Anonymous · no account required</span>
+								</div>
+								<div class={characterCounterClass} style:--character-progress={characterProgress}>
+									<span id="answer-count">
+										{Math.max(0, charactersRemaining).toLocaleString('en-US')} characters left
+									</span>
+									<span class="character-track" aria-hidden="true"><span></span></span>
+								</div>
 							</div>
 
 							<div class="composer-action">
@@ -385,6 +388,14 @@
 								<span>Your mirror</span>
 								<p>{mirror.reflection}</p>
 								<small>Closest lens: {formatTypeLabel(mirror.resonantType)}</small>
+							</div>
+						{:else if mirrorUnavailable}
+							<div class="mirror-read mirror-read--unavailable">
+								<span>Your mirror</span>
+								<p>
+									Your answer is posted and the room is open. The personal reflection did not load
+									this time, but the nine perspectives are ready below.
+								</p>
 							</div>
 						{/if}
 					</div>
@@ -705,126 +716,6 @@
 		content: '';
 	}
 
-	.hero-figure {
-		min-width: 0;
-		margin: 0;
-	}
-
-	.image-frame {
-		position: relative;
-		isolation: isolate;
-		overflow: hidden;
-		width: 100%;
-		aspect-ratio: 16 / 9;
-		padding: 0;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, var(--stone-edge));
-		border-radius: 1rem;
-		background: var(--night-mid);
-		color: inherit;
-		font: inherit;
-		text-align: left;
-		box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.36);
-		cursor: pointer;
-	}
-
-	.era-frame:focus-visible {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 4px;
-	}
-
-	.image-frame::before,
-	.image-frame::after {
-		position: absolute;
-		z-index: 3;
-		width: 4rem;
-		height: 4rem;
-		border-color: color-mix(in srgb, var(--lamp-glow) 60%, transparent);
-		pointer-events: none;
-		content: '';
-	}
-
-	.image-frame::before {
-		inset: 0.85rem auto auto 0.85rem;
-		border-top: 1px solid;
-		border-left: 1px solid;
-	}
-
-	.image-frame::after {
-		inset: auto 0.85rem 0.85rem auto;
-		border-right: 1px solid;
-		border-bottom: 1px solid;
-	}
-
-	.image-frame img {
-		position: absolute;
-		inset: 0;
-		display: block;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center;
-	}
-
-	.era-image--modern {
-		filter: saturate(0.86) contrast(1.04);
-	}
-
-	.era-image--ancient {
-		opacity: 0;
-		filter: saturate(0.82) contrast(1.04) brightness(0.96);
-	}
-
-	.image-scrim {
-		position: absolute;
-		z-index: 1;
-		inset: 0;
-		background:
-			linear-gradient(180deg, rgba(10, 8, 7, 0.06) 40%, rgba(10, 8, 7, 0.82) 100%),
-			linear-gradient(90deg, rgba(10, 8, 7, 0.18), transparent 34%);
-		pointer-events: none;
-	}
-
-	.image-coordinate {
-		position: absolute;
-		z-index: 4;
-		top: 1.15rem;
-		right: 1.2rem;
-		color: rgba(250, 248, 244, 0.72);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.65rem;
-		letter-spacing: 0.08em;
-	}
-
-	.image-caption {
-		position: absolute;
-		z-index: 4;
-		right: 1.5rem;
-		bottom: 1.5rem;
-		left: 1.5rem;
-		display: flex;
-		align-items: center;
-		gap: 0.75rem;
-		color: rgba(250, 248, 244, 0.9);
-		font-size: 0.9rem;
-	}
-
-	.caption-mark {
-		width: 1.8rem;
-		height: 1px;
-		background: var(--lamp-glow);
-	}
-
-	.hero-figure figcaption {
-		display: flex;
-		justify-content: space-between;
-		gap: 1rem;
-		padding: 0.8rem 0.2rem 0;
-		color: var(--ink-dim);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.65rem;
-		letter-spacing: 0.08em;
-	}
-
 	.product-proof {
 		scroll-margin-top: 5.5rem;
 		padding: clamp(5rem, 9vw, 8rem) 0;
@@ -982,13 +873,83 @@
 	}
 
 	.answer-foot {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.75rem;
+		display: grid;
+		min-width: 0;
+		flex: 1 1 auto;
+		grid-template-columns: minmax(0, 1fr) auto;
+		align-items: center;
+		gap: 1rem;
 		margin: 0;
 		color: var(--ink-dim);
+		line-height: 1.4;
+	}
+
+	.answer-readiness {
+		display: flex;
+		min-width: 0;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.3rem 0.55rem;
+		font-size: 0.75rem;
+	}
+
+	.answer-readiness > span:last-child {
+		color: var(--ink-dim);
+	}
+
+	.answer-guidance {
+		color: var(--ink-mid);
+		font-weight: 650;
+	}
+
+	.answer-guidance--ready {
+		color: var(--success-text);
+	}
+
+	.character-budget {
+		display: grid;
+		min-width: 9.5rem;
+		justify-items: end;
+		gap: 0.35rem;
+		color: var(--ink-mid);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
 		font-size: 0.67rem;
-		line-height: 1.35;
+		font-variant-numeric: tabular-nums;
+		letter-spacing: 0.025em;
+		white-space: nowrap;
+	}
+
+	.character-track {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: 0.25rem;
+		border-radius: 0.25rem;
+		background: color-mix(in srgb, var(--stone-edge) 52%, transparent);
+	}
+
+	.character-track > span {
+		position: absolute;
+		inset: 0 auto 0 0;
+		width: var(--character-progress);
+		border-radius: inherit;
+		background: var(--data-teal);
+	}
+
+	.character-budget--warning {
+		color: var(--warning-text);
+	}
+
+	.character-budget--warning .character-track > span {
+		background: var(--warning-text);
+	}
+
+	.character-budget--critical {
+		color: var(--error-text);
+	}
+
+	.character-budget--critical .character-track > span {
+		background: var(--error-text);
 	}
 
 	.composer-action {
@@ -1079,6 +1040,10 @@
 		color: var(--ink-mid);
 		font-size: 0.9rem;
 		line-height: 1.55;
+	}
+
+	.mirror-read--unavailable p {
+		margin-bottom: 0;
 	}
 
 	.mirror-read small {
@@ -1580,16 +1545,6 @@
 	}
 
 	@media (prefers-reduced-motion: no-preference) {
-		.era-image--ancient {
-			will-change: opacity;
-			animation: era-dissolve 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-		}
-
-		.era-frame:hover .era-image--ancient,
-		.era-frame.is-paused .era-image--ancient {
-			animation-play-state: paused;
-		}
-
 		.takes-shell,
 		.perspective,
 		.deeper-row a {
@@ -1615,22 +1570,6 @@
 		.deeper-row a:hover {
 			background: var(--stone-warm);
 			color: var(--ink-bright);
-		}
-	}
-
-	@keyframes era-dissolve {
-		0%,
-		36% {
-			opacity: 0;
-		}
-
-		50%,
-		86% {
-			opacity: 1;
-		}
-
-		100% {
-			opacity: 0;
 		}
 	}
 
@@ -1671,10 +1610,6 @@
 
 		.hero h1 {
 			max-width: 11ch;
-		}
-
-		.hero-figure {
-			width: 100%;
 		}
 
 		.center-grid,
@@ -1730,16 +1665,6 @@
 			padding-left: 0.1rem;
 		}
 
-		.image-coordinate,
-		.image-caption {
-			display: none;
-		}
-
-		.hero-figure figcaption span:last-child {
-			font-size: 0.55rem;
-			letter-spacing: 0.03em;
-		}
-
 		.proof-meta {
 			align-items: flex-start;
 			flex-direction: column;
@@ -1752,6 +1677,10 @@
 		.composer-footer {
 			align-items: stretch;
 			flex-direction: column;
+		}
+
+		.answer-foot {
+			width: 100%;
 		}
 
 		.composer-action {
@@ -1815,8 +1744,12 @@
 		}
 
 		.answer-foot {
-			align-items: flex-start;
-			flex-direction: column;
+			grid-template-columns: 1fr;
+		}
+
+		.character-budget {
+			width: 100%;
+			justify-items: start;
 		}
 	}
 </style>

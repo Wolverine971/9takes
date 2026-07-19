@@ -4,9 +4,9 @@ meta_title: "Why Milly Alcock Can't Stop Flinching at Her Own Success"
 persona_title: 'The Understudy Who Cast Herself'
 description: 'Milly Alcock''s Supergirl flopped and the backlash got personal. Why the anxious Type 6 who cold-called her own agent at 13 refused to back down.'
 author: 'DJ Wayne'
-date: '2026-04-23'
+date: '2026-07-19'
 loc: 'https://9takes.com/personality-analysis/milly-alcock'
-lastmod: '2026-04-23'
+lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

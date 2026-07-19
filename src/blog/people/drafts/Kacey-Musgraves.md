@@ -4,12 +4,12 @@ meta_title: 'Kacey Musgraves Enneagram Type 4: Discipline Behind the Drift'
 persona_title: "Country's Disciplined Mystic"
 description: 'Kacey Musgraves calls herself an Achiever. Her songs point to a neighboring type. A sourced 4w3 analysis, from Golden, Texas, to Middle of Nowhere.'
 author: 'DJ Wayne'
-date: '2026-05-06'
+date: '2026-07-19'
 loc: 'https://9takes.com/personality-analysis/kacey-musgraves'
 lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'kacey-musgraves'

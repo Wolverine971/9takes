@@ -44,10 +44,11 @@ Image prompt record: `docs/design/home-reimagined-ancient-image-prompts-2026-07-
 
 ## Tier 3 - polish/signature
 
-- The hero's signature atmospheric effect is a six-second time mirror: the modern streetlamp
-  gathering gently dissolves into its Ancient Greece counterpart at the three-second mark, then
-  returns at six seconds. Hover holds the current era; click or keyboard activation deliberately
-  pauses or resumes it; and reduced motion removes the automatic dissolve. -> P10+P11+P15
+- The hero's signature atmospheric effect is a state-driven time mirror: the modern streetlamp
+  gathering and its Ancient Greece counterpart each remain readable for six seconds, with a
+  restrained crossfade between them. Click or keyboard activation advances immediately and restarts
+  the cadence, hover holds the current era, and reduced motion removes autoplay while retaining
+  manual switching. -> P10+P11+P13+P15
 - The question proof's interaction remains product-specific: three representative answers sit
   visibly blurred behind a lock state, and the live nine-perspective result resolves only after the
   visitor successfully posts an answer. The reveal transition is owned by CSS and exists only under
@@ -188,7 +189,7 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
 - `pnpm build`: pass, including the Vercel adapter and all build/runtime-asset budgets. Fresh live
   verification passed at 1440x900 and 390x844 in dark and light themes with zero horizontal
   overflow, production metadata, archive metadata, the 308 redirect, the hero anchor, the valid-draft
-  enabled state, the time-mirror pressed state, and an empty browser console all confirmed. The live
+  enabled state, the time-mirror interaction state, and an empty browser console all confirmed. The live
   form was not submitted during verification, so no synthetic public answer was created.
 
 ## Microcopy transition refinement - 2026-07-17
@@ -203,6 +204,60 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
 - The official Svelte autofixer reports no findings for the changed markup. `pnpm check` passes with
   0 errors and the existing 124 warnings across 42 unrelated files; `pnpm lint:radius` and targeted
   Prettier checks pass. No new screenshots were captured for this copy-only follow-up.
+
+## Time-mirror interaction repair - 2026-07-19
+
+- Replaced the CSS-only infinite animation and misleading click-to-pause behavior with one
+  state-driven timing owner. Each era remains active for six seconds, then the ancient overlay
+  crossfades over 900ms; clicking or keyboard-activating the image advances immediately and starts a
+  fresh six-second dwell. -> P11+P13+P15
+- Preserved desktop hover-to-hold without allowing touch hover to strand the mobile carousel in a
+  paused state. Autoplay also stops while the document is hidden and resumes with a fresh cadence
+  when the page becomes visible. -> P11+P13
+- Reduced-motion visitors receive no autoplay or opacity transition, but the semantic button remains
+  available for instant manual switching. The accessible name now describes the visible era and the
+  action instead of exposing an unrelated pressed/pause state. -> P6+P11+P13
+- Extracted the image pair into `TimeMirror.svelte` and added four focused regression tests covering
+  immediate click advance, six-second autoplay plus timer reset, hover hold/resume, and
+  reduced-motion manual switching.
+- Live verification passed at 1440x900 and 390x844. Desktop click and autoplay both switched eras;
+  mobile tap switched eras, all nine figures remained in frame, helper copy collapsed at the phone
+  breakpoint, both widths had zero horizontal overflow, and the browser console was empty.
+- Focused verification passes: four `TimeMirror` tests, targeted ESLint, targeted Prettier, and the
+  official Svelte autofixer (no issues). Full `pnpm check` reaches only three unrelated
+  `personBlogParser.js` errors, with no time-mirror diagnostics; `pnpm lint:radius` is currently
+  blocked by two unrelated in-progress declarations in `QuestionSocialCardTemplate.svelte` and the
+  Enneagram test page.
+- The Vite client/server build and Vercel adapter compilation pass. The trailing repository budget
+  gate is currently blocked by unrelated portrait-library growth (40 files / 1.81 MiB over its
+  ratchet) and the resulting 979.93 KiB runtime-media overage.
+
+## Homepage answer composer reliability - 2026-07-19
+
+- Fixed the submit failure as a server workflow bug, not a visitor mistake. The endpoint previously
+  waited for the optional AI reflection before recording the answer and depended only on a
+  client-written cookie for anonymous identity. It now posts the answer first, accepts the same
+  stable visitor ID as a validated body fallback, and returns a durable retryable error without
+  clearing the draft when the write itself fails. -> P6+P13
+- Put the optional reflection behind an eight-second deadline. If the reflection provider fails or
+  runs long after the answer is posted, the endpoint still returns the nine pre-generated
+  perspectives and the homepage explains that only the personal mirror was unavailable. A
+  successful answer can no longer become a false error state because a secondary service failed.
+  -> P6+P13
+- Centralized the Chorus answer limits at 8 minimum characters, 3 minimum words in the composer, and
+  2,000 maximum characters. The footer now states the exact remaining character budget, the words or
+  characters still needed to enable submit, and the anonymous/no-account contract. A restrained
+  usage bar shifts from teal to warning and error roles near the cap. -> P4+P6+P13
+- Kept the counter and error as persistent `aria-describedby` content, preserved the native
+  `maxlength`, and stacked guidance, budget, and the full-width submit action at phone widths. Live
+  local verification passed at desktop and 390x844: minimum and ready states update immediately,
+  the 50-character warning state is visible, the cap is 2,000, `scrollWidth === clientWidth`, and the
+  console is clean. No answer was submitted during visual verification.
+- Five focused endpoint tests pass, covering cookie-less fingerprint fallback, post-before-mirror
+  ordering, reflection failure, reflection timeout, write failure, and the 2,000-character server
+  guard. Targeted ESLint, Prettier, and the official Svelte autofixer pass. Full `pnpm check` remains
+  blocked only by three unrelated `personBlogParser.js` indexing errors; `pnpm lint:radius` remains
+  blocked by the same two unrelated in-progress declarations noted above.
 
 ## Screenshots
 

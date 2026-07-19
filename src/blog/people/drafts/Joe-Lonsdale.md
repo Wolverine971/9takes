@@ -4,12 +4,12 @@ meta_title: 'Joe Lonsdale Enneagram Type 6: The Counterphobic Builder'
 persona_title: "Silicon Valley's Counterphobic Strategist"
 description: "Why Joe Lonsdale appears to be an Enneagram Type 6: his chess training, threat vocabulary, trusted network, and institutions behind this pattern."
 author: 'DJ Wayne'
-date: '2026-05-19'
+date: '2026-07-19'
 loc: 'https://9takes.com/personality-analysis/Joe-Lonsdale'
-lastmod: '2026-05-19'
+lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['techie', 'entrepreneur', 'investor']
 person: 'Joe-Lonsdale'

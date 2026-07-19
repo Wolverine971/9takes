@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/lamine-yamal'
 lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['celebrity', 'celebrity-image']
 person: 'lamine-yamal'
