@@ -1,0 +1,20 @@
+## Grading Complete — Lamine Yamal
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Lamine-Yamal | 8 | 8 | 9 | 8.5 | 8 | 9 | **8.4** | **B** |
+
+*(Overall weighted: (8×1.5 + 8×1.5 + 9×1.5 + 8.5 + 8 + 9×0.5) / 7 = 8.4. Discoverability 9 ≥ 7 → no gate cap. No caps applied.)*
+
+### Key observations
+
+- **Lands a genuine B — strong pipeline output, not an A.** Sits right on the Matt-Smith B-band anchor: real emotional interior, an ownable structural device, excellent discoverability — but the house template is visible and the thesis is the *expected* Seven read.
+- **Two standout signature moves:** the Messi-bathtub bookend (real 2007 UNICEF photo → the 2026 World Cup final, perfectly timed to this week) and the "08304 math" two-column pressure ledger built from his own public accounting. Both pass the swap test.
+- **Emotional layer is the strongest dimension (Enneagram 8.5):** all three interior checks pass, the empathy turn is anchored in his own wound-vocabulary (mother at sixteen, father in the hospital) rather than the house "scar tissue" grammar, and the second pass correctly left the live question open. Rabbit hole is well-formed and quarantines all the 7w8 / sx-so / arrow / counter-typing depth.
+- **Discoverability is a clear 9** — title/meta/description all length-optimal and search-intent-matched, direct extractable type answer, 5 real FAQ questions, complete entity metadata.
+- **Biggest lever to B+ is Evidence (8→9):** the two slot-quotes (CBS 60 Minutes) are inline, but most other load-bearing quotes — Messi, Guardiola, Lewandowski, the father's quote, and the "Spanish government monitor" racism stat — carry a named speaker with **no inline outlet/date**, sourced only in the Testimony Ledger. All are real and traceable (so no cap), but the inconsistent inline attribution is what holds Evidence out of the 9 band. Named every untagged slot in the sidecar.
+- **Deterministic checks all clean:** source audit 2 inline / 0 vague / 0 untagged on slots; 0 contrast pairs; head-term PASS (answer block 59 words); same-type similarity tops out at the 0.117 noise floor. The de-duplication work is real — corpus-stat sentence dropped, "scar tissue" empathy grammar varied — so **no sameness cap**.
+
+Grade written to the draft's `content_quality` frontmatter; reviewer feedback saved to `docs/content-analysis/grades/Lamine-Yamal.review.md`. One open item for the **publish step** (not editorial): the intro and "The Baby in Messi's Hands" frame an *unplayed* Spain–Argentina World Cup final — re-read both once the result exists.
+
+**Total graded this session: 1**

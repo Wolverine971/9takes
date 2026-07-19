@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-18T06:00:00Z",
+	"lastUpdated": "2026-07-19T07:08:03Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "lamine-yamal",
-			"displayName": "Lamine Yamal",
-			"type": null,
-			"priority": 72,
-			"priorityReason": "World Cup final July 19 vs Messi's Argentina; the tournament's breakout star at 19 with 43.5M IG followers; peak global search demand this exact window",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 1,
-			"strategicValue": "sports-icon-cluster"
-		},
 		{
 			"name": "travis-kelce",
 			"displayName": "Travis Kelce",
@@ -424,6 +411,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "lamine-yamal",
+			"displayName": "Lamine Yamal",
+			"type": null,
+			"priority": 72,
+			"priorityReason": "World Cup final July 19 vs Messi's Argentina; the tournament's breakout star at 19 with 43.5M IG followers; peak global search demand this exact window",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 1,
+			"strategicValue": "sports-icon-cluster",
+			"startedAt": "2026-07-19T06:00:00Z",
+			"completedAt": "2026-07-19T07:08:03Z",
+			"contentGrade": "8.3",
+			"letter": "B",
+			"discoverability": "9",
+			"duration": "~68 min",
+			"needsReview": true
+		},
 		{
 			"name": "david-beckham",
 			"displayName": "David Beckham",

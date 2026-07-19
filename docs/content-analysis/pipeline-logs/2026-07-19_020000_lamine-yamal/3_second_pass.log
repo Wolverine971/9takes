@@ -1,0 +1,32 @@
+Second pass complete. Here's the report.
+
+## What I updated
+
+`src/blog/people/drafts/Lamine-Yamal.md` — a substantive revision pass.
+
+## Main changes
+
+**Source traceability (the audit's top priority).** Both load-bearing quotes were untagged/vague. Research traced them to the same **CBS 60 Minutes** interview (Jon Wertheim, aired 30 Nov 2025):
+- Epigraph → `— Lamine Yamal, CBS's 60 Minutes, 2025`
+- Cold open → "he told CBS's 60 Minutes in 2025"
+- Added a light **Cadena SER** anchor to the "my mum had me at sixteen" pull-quote.
+- Result: **2 inline, 0 vague, 0 untagged.**
+
+**Kept the tension genuinely open** (the strongest fresh-eyes note). "Too Busy Enjoying Himself?" no longer wins the argument for him — I replaced "here's what the critics miss" with "the critics have a point, and they also miss one," and added a closing beat that leaves the live question unresolved: is the weightlessness wisdom, or untested youth?
+
+**Cashed out the 18th-birthday party.** Named the actual event (hired entertainers with dwarfism → disability-rights complaint → prosecutor's office), with the performers' pushback for balance, and used it as real evidence the appetite can outrun his judgment.
+
+**Promoted racism to a body beat** (was Rabbit-Hole-only): 60% of Spain's logged racist abuse targets him; "disrespectful and completely intolerable"; he hands the weight back. Removed the now-duplicate line from the 7w8 section.
+
+**Landed the Euro 2024 win** — assisted the final, youngest player ever in a Euro/WC final (broke Pelé's 1958 record), "a winners' medal before he was old enough to drive."
+
+**Added a concrete on-pitch image** — the signature cut inside from the right touchline onto his left foot.
+
+**Trimmed repetition** — triad cut from ~5 to 2 full placements + varied echoes; "next Messi" down to 2 body placements; "youngest goalscorer in Euros" down to one body mention + FAQ (swapped the stat-row dup for the 4-assist record).
+
+## Source-audit result after the pass
+2 load-bearing quotes — **2 inline, 0 vague, 0 untagged**. `blog-lint`: **0 fail, 0 warn** (fixed one contrast-pair fingerprint trip I'd introduced).
+
+## Still open (for the editor/publish step)
+- **Tense check at publish**: the intro and close frame a Spain–Argentina World Cup final that is unplayed as of today (2026-07-19). The phrasing ("opposite side of a World Cup final") stays true regardless of the result, but re-read both once the result exists.
+- I used the neutral "a Spanish disability-rights group" rather than the fresh-eyes note's "CERMI" — the actual complainant was **ADEE**, so I avoided naming the wrong org.

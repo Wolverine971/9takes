@@ -1,0 +1,56 @@
+Both fixes applied. Here's the full audit.
+
+## Cohesion Audit: Lamine-Yamal.md
+
+### Central Thesis
+Lamine Yamal is an Enneagram Type 7 whose refusal to feel pressure is not bravado but arithmetic learned in Rocafonda — and that weightlessness is the load-bearing engine of his greatness, not a flaw to coach out.
+
+### Thread Map
+- **Intro (Messi bathtub photo):** Sets the paradox — a teenager handed the heaviest expectations in football who plays like it's a street game. Poses the question: how? → hands to the diagnosis.
+- **H1 — What is his personality type:** He's a Type 7; the type runs on one reflex (reroute fear into appetite). The France goal (laughing after) is the fingerprint. → answers *what* the wiring is.
+- **H2 — Nothing to Lose:** The reflex in action — confidence before evidence, ice on the pitch, mischief off it, comparisons and racism handed back. → shows the wiring operating, ends on "he keeps handing the weight back."
+- **H3 — The Math in 08304:** *Why* the reflex exists — his name, Rocafonda, mother at 16, father in the street and later the hospital. The pressure ledger. The 304 celebration. → the origin that makes the weightlessness rational.
+- **H4 — Rewrote the Record Book:** The output — trophies, the #10, treated as "things that happen while he is enjoying himself." → the thesis made visible in results.
+- **H5 — Too Busy Enjoying Himself:** The bill — the same trait's cost (party misstep, injury, "mentally devoured"), left as a genuinely open question. → the honest counterweight.
+- **Rabbit Hole:** Wing/subtype/arrows/counter-typing (nerd aside).
+- **H6 — The Baby in Messi's Hands:** Bathtub callback closes the loop. → lands the same argument the intro opened.
+
+The outline reads coherently top to bottom. Every section serves the thesis; none is a detour.
+
+| Check                   | Score | Issues |
+|-------------------------|-------|--------|
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 1 (fixed) |
+| Reader Mental Model     | 9/10  | 1 (fixed) |
+| Section Transitions     | 9/10  | 1 fixed, 1 acceptable |
+| Internal Paragraph Flow | 9/10  | 0      |
+
+**Overall Cohesion Score: 8/10 → 9/10**
+
+The piece was already cohesive. I applied two surgical bridge fixes rather than any restructuring.
+
+---
+
+## Changes Made (2 total)
+
+**Transition Fixes (2):**
+
+1. **Intro → Diagnosis (`src/blog/people/drafts/Lamine-Yamal.md:123`).** The intro's closing pointer promised the neighborhood *next* ("The answer starts in a neighborhood with the postcode 08304"), but the required format delivers the Type 7 diagnosis first and doesn't reach 08304 until section 3. Small promise/delivery mismatch. Rewrote to hand off in the actual order the piece delivers:
+   > "The answer is a personality type. And it took shape in a neighborhood with the postcode 08304."
+   
+   Now the line tees up the diagnosis header (immediate next beat) *and* keeps the 08304 tease alive for its section. Still ends on "08304," so the hook is preserved.
+
+2. **Nothing to Lose → The Math in 08304 (`:159`).** H2 ends on "he keeps handing the weight back"; H3 opened cold with "His name is the first clue" — a clue to *what*, exactly? The reader had to infer. Added a one-line concept carry:
+   > "That reflex did not come from nowhere. His name is the first clue."
+   
+   "That reflex" reaches back to the handing-the-weight-back behavior just shown (and the "single reflex" established in H1), turning an orphaned opener into a bridge that sets up the origin story.
+
+### What Was Preserved
+- All frontmatter, working-notes and ledger comments, the epigraph, and both HTML data panels (contrast-panel, key-stat-row).
+- All Svelte/HTML components, internal links, and the FAQ block — untouched.
+- The Messi-bathtub bookend, the 08304 pressure ledger + inner-thought, and the H6 close (all flagged "working" — left alone).
+- The strong transitions left as-is: H1→H2 ("best thing happening" → "confidence arrives before evidence"), H4→H5 ("next fun thing" → "not everyone finds the lightness charming"), H5→Rabbit Hole→H6.
+
+### Remaining Concerns
+- **H3 → H4 (08304 → Record Book):** "...turned the address into a celebration." then "The trophies read like a typo." is a real gear-shift from emotional origin to a stats interlude, but the H2 header ("How Lamine Yamal Rewrote the Record Book at 16") does the bridging work and the "typo" hook is strong. I judged it **adequate** and left it rather than dilute the opener. Your call if you want a connective sentence there.
+- These were minor tightening edits on an already-solid draft — trivially reversible if you'd rather keep the original two lines. Everything else (the em-dash-free prose, the ledger PASS states, the publish-step tense check on the World Cup framing) is out of scope for a cohesion pass and I left it as your other tools set it.

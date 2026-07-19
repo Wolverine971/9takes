@@ -1,0 +1,31 @@
+Frontmatter enrichment complete. The body, HTML comment blocks, `lastmod`, and all creator-owned fields were left untouched.
+
+```
+Frontmatter enrichment complete: Lamine-Yamal
+
+Fields filled (added):
+- wikidata_qid → Q113704154
+- imdb_id → nm15043501 (verified via Wikidata P345 on the entity)
+- knows_about → 6 football-specific expertise areas
+- same_as → 4 authoritative URLs (Wikipedia, Wikidata, IMDb, Britannica)
+- citations → 3 authoritative source URLs
+
+Fields already present (preserved, untouched):
+- wikipedia, birth_date, birth_place, nationality, occupation, keywords, instagram
+- faqs → 5 substantive entries, freshly written from the body (NOT templated
+  backfill — no "with supporting context from" pattern). Left exactly as-is
+  per strict idempotency.
+
+FAQs generated (0):
+- None. Existing FAQ block is substantive and body-derived; preserved verbatim.
+```
+
+**Issues / GAPS:**
+
+1. **Body has zero external citation links (content-quality flag).** Every hyperlink in the body is an *internal* 9takes link (`/personality-analysis/lionel-messi`, `/personality-analysis/cristiano-ronaldo`, `/enneagram-corner/*`). The article names its sources in prose only — CBS's *60 Minutes* (2025), Cadena SER, the Spanish government racism monitor, the UNICEF calendar — but never links them. Per the command's rule against fabricating citations, I did **not** manufacture per-quote source URLs. Instead I populated `citations` with the three authoritative sources that unambiguously document the article's factual spine (the subject's Wikipedia and Britannica pages, plus the UEFA Euro 2024 page for the semifinal-goal / tournament-win claims), matching the Einstein gold-standard pattern where citations are authoritative reference pages. **Recommendation:** the editor/publish step should add inline external links to the actual quote sources (60 Minutes, Cadena SER, the monitor report) to strengthen sourcing.
+
+2. **Wikidata citizenship discrepancy (informational only — not acted on).** Wikidata lists his citizenship as Spain, Catalonia, and *Guinea-Bissau*, whereas the body says his mother is from *Equatorial Guinea*. This is a Wikidata quirk and doesn't affect the `nationality` field (already `'Spanish'`, left untouched). Worth a fact-check at some point, but out of scope for frontmatter enrichment.
+
+3. **`occupation` is a single item** (`'Association Football Player'`). The spec suggests 2–5, but he has no meaningful second profession, and I'm additive-only — left as the creator wrote it.
+
+One open item already tracked in the draft's own notes (not mine to resolve): the **publish-step tense/result check** on the intro and "The Baby in Messi's Hands" close, which frame a Spain–Argentina World Cup final that was unplayed as of the draft date (2026-07-19).

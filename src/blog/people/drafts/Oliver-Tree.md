@@ -4,12 +4,12 @@ meta_title: 'Oliver Tree Personality Type: The Artist Inside the Joke'
 persona_title: "Music's Alien Boy"
 description: 'Was Oliver Tree just a troll in a bowl cut? An Enneagram Type 4 analysis of the auteur who turned himself into a meme so no one would see the artist underneath.'
 author: 'DJ Wayne'
-date: '2026-07-07'
+date: '2026-07-19'
 loc: 'https://9takes.com/personality-analysis/oliver-tree'
-lastmod: '2026-07-07'
+lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician', 'creator']
 person: 'oliver-tree'

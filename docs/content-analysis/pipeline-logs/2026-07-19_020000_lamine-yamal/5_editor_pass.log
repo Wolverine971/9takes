@@ -1,0 +1,16 @@
+## Done — polished `src/blog/people/drafts/Lamine-Yamal.md`
+
+This draft came in already through fresh-eyes and second-pass reviews, so the mechanical checks were green from the start. The real work was the softer AI tells that the lint regex doesn't catch.
+
+**What I cleaned up:**
+- **Two residual negative-parallelism beats** the second pass left behind. `He is not being humble. He is doing X` → `Mistake that for modesty and you miss it...`, and I also fixed a dangling `-ing` in that same spot (`refusing to feel their weight` → the punchier standalone `He will not feel their weight.`). The `not bravado. It is arithmetic.` beat became a positive claim: `His refusal to feel pressure is arithmetic. He has done the sums since he was a boy...`
+- **Mobile readability**: split the ~8-sentence wall-of-text critique paragraph in "Too Busy Enjoying Himself?" into three scannable beats (Flick's reality check / birthday-party misstep / body + injury), and broke the Lewandowski run-on into two sentences.
+- **Minor rhythm**: de-cluttered the right-touchline dribble sentence (dropped a stacked `and`).
+
+**The one thing worth flagging:** my first attempt at the arithmetic line — `arithmetic, not bravado` — actually *tripped* the strong contrast-pair detector (the `X, not Y` comma form is the exact banned template). Caught it on the exit check and rewrote to drop the negation entirely, which reads cleaner anyway. Good reminder that "editing by feel" is exactly how these slip through; the grep is the proof.
+
+**Protected:** the empathy turn (mother-at-sixteen reframe) and the 08304 inner-thought were left untouched.
+
+**Final counts:** `blog-quality-report` → **0 contrast pairs (0 strong / 0 comparative)**; `blog-lint` → **0 fail, 0 warn**.
+
+**Verdict:** production-ready from an editorial standpoint. The only open item is not editorial — it's the publish-step tense/result check the second pass already flagged: the intro and "The Baby in Messi's Hands" close frame an unplayed Spain–Argentina World Cup final (today, 2026-07-19). Both need a re-read once the result exists. I left that note in the file's `EDITOR PASS NOTES` block.

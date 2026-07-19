@@ -224,7 +224,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'nikola-tesla', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Electricity\'s Haunted Prophet', contentGrade: 8.9, types: ['historical'] },
 		{ name: 'noah-kahan', link: true, hasImage: true, lastmod: '2026-06-09', personaTitle: 'Folk-Pop\'s Reluctant Survivor', contentGrade: 9, types: ['musician'] },
 		{ name: 'odessa-azion', link: true, hasImage: true, lastmod: '2026-06-27', personaTitle: 'Hollywood\'s Inherited Runaway', contentGrade: 8.6, types: ['newMovieStar', 'musician', 'rising-star'] },
-		{ name: 'oliver-tree', link: false, hasImage: true, lastmod: '2026-07-07', personaTitle: 'Music\'s Alien Boy', contentGrade: 8.8, types: ['musician', 'creator'] },
+		{ name: 'oliver-tree', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'Music\'s Alien Boy', contentGrade: 8.8, types: ['musician', 'creator'] },
 		{ name: 'paul-mescal', link: true, hasImage: true, lastmod: '2026-05-02', personaTitle: 'Cinema\'s Guarded Romantic', contentGrade: 8.9, types: ['movieStar', 'newMovieStar', 'rising-star'] },
 		{ name: 'prince', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'The Purple Individualist', contentGrade: 8.8, types: ['musician'] },
 		{ name: 'rick-rubin', link: true, hasImage: true, lastmod: '2026-04-25', personaTitle: 'The Producer of Missing Pieces', contentGrade: 9.1, types: ['musician', 'creator', 'music-crossover'] },

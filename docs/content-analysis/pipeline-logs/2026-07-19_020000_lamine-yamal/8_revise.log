@@ -1,0 +1,31 @@
+## Revision pass complete — `src/blog/people/drafts/Lamine-Yamal.md`
+
+**Triggered by:** grade **B (8.4)**. Lint was already clean, so this was a grader-feedback loop, not a lint loop. The grader named one dominant lever: **Evidence 8 → 9** (weighted 1.5×) — the load-bearing quotes were sourced only in the Testimony Ledger, not inline like the two CBS quotes. Secondary: thin the flagged repetition to unlock **Writing 8 → 8.5**.
+
+### Fixes applied (mapped to grader items)
+
+**Evidence (primary) — every flagged quote taken inline with outlet + year, web-verified first:**
+| Quote | Was | Now |
+|---|---|---|
+| Messi "reminds me…of myself" | ledger-only | "in 2025, in comments reported by **ESPN**" |
+| Guardiola "painter to Van Gogh" | ledger-only | "he told reporters in **July 2025**" |
+| Lewandowski "mentally devoured" | ledger-only | "in **mid-2025**" |
+| Father "I saw myself between life and death" | **no ledger entry** | "told **El Chiringuito** that year" (2024) |
+| Racism stat ("a Spanish government monitor") | unnamed publisher | "**Oberaxe, Spain's Observatory of Racism and Xenophobia**, reported in 2025" |
+| Yamal's Ballon d'Or-dream line | outlet-less | anchored to a year ("Asked in 2025…") |
+
+Testimony Ledger outlets updated to match inline (Messi → ESPN; Guardiola → July 2025 press).
+
+**Writing (secondary repetition trim, per the fresh-eyes map):**
+- Cut the "follow my own path" restatement in "Nothing to Lose" — the quote already lands in the intro.
+- De-verbatimed the first Rocafonda "no one knew what was going to happen," so the exact phrase now lands **once**, at the close (which strengthens the bookend rather than echoing it).
+
+### Rejected (with reason)
+- **Further triad cuts** (billion-euro clause / Messi's #10 / a nation). The only remaining full statements are the intro and the contrast panel — already the target of 2–3. The other echoes live in the interior beat ("This part is the easy part") and the Messi-bathtub close, both of which the grader explicitly said to **preserve**. Trimming them would cost more than the drumbeat does.
+
+### Preserved untouched (grader's strengths)
+Messi-bathtub bookend, the 08304 pressure ledger + contrast panel, the emotional layer (empathy turn + inner-thought), the open-question ending, and all discoverability metadata. `lastmod` and `content_quality` were not touched.
+
+**Lint: clean (0 fail / 0 warn).** No prose em-dashes introduced. The still-open **publish-step tense/result check** (the unplayed Spain–Argentina World Cup final in the intro and close) is preserved in the notes for the publish step.
+
+The pipeline will clear the consumed review sidecar and re-grade — I did not grade the blog myself.
