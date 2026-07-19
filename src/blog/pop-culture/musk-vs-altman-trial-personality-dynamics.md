@@ -1,12 +1,12 @@
 ---
-title: 'Musk vs Altman: A Type 5 and a Type 4 Walked Into a Federal Courtroom'
-meta_title: 'Elon Musk vs Sam Altman Trial: The Enneagram Behind the Vibes Contest'
-description: "Jacob Ward says the OpenAI trial will come down to vibes. He's right — and the vibes are a Type 5 control-freak vs. a Type 4 narrative-architect. Here's how that personality collision actually plays in front of a jury."
+title: 'Musk vs Altman Trial: The Verdict, the Vibes, and the Personality Clash'
+meta_title: 'Musk vs Altman Trial Verdict: Who Won and Why'
+description: 'OpenAI beat Elon Musk in court, but jurors never decided if Sam Altman betrayed its mission. What the verdict revealed about their Type 5 vs. Type 4 clash.'
 author: 'DJ Wayne'
 date: '2026-05-01'
 loc: 'https://9takes.com/pop-culture/musk-vs-altman-trial-personality-dynamics'
-lastmod: '2026-05-01'
-changefreq: 'weekly'
+lastmod: '2026-07-19'
+changefreq: 'monthly'
 priority: '0.7'
 published: true
 type: ['situational']
@@ -32,184 +32,251 @@ path: src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md
 	import InsightBox from "$lib/components/blog/callouts/InsightBox.svelte";
 </script>
 
-<svelte:head>
-
-<script async src="https://www.tiktok.com/embed.js"></script>
-
-</svelte:head>
-
-<QuickAnswer question="Why will the Musk vs Altman trial come down to vibes?">
-The legal record is dense, so a jury may default to which founder feels more honest about OpenAI's original mission. Elon Musk reads as a Type 5 trying to control a system he helped create. Sam Altman reads as a Type 4 trying to own the singular story. Their sincerity will perform very differently.
+<QuickAnswer question="Who won the Musk vs Altman trial?">
+OpenAI, Sam Altman, Greg Brockman, and Microsoft won at the trial level on May 18, 2026. A nine-person advisory jury unanimously found that Elon Musk waited too long to bring his claims, and Judge Yvonne Gonzalez Rogers adopted that finding and dismissed Musk's remaining claims. The jury did not decide whether OpenAI betrayed its founding mission. It decided that Musk missed the legal deadline to ask.
 </QuickAnswer>
 
-<p class="firstLetter">Jacob Ward — CNN contributor, founder of <a href="https://theripcurrent.com" target="_blank" rel="noopener">theripcurrent.com</a>, and one of the few journalists actually sitting in the Oakland federal courthouse for <em>Musk v. Altman</em> — said something this week that the rest of the tech press is missing.</p>
+<p class="firstLetter">When this article first ran on May 1, the trial was still unfolding in an Oakland federal courtroom. Jacob Ward, reporting from inside, said the case would come down to vibes. I agreed. I thought the jury would eventually have to choose between Elon Musk's tightly controlled moral certainty and Sam Altman's smoother, more emotionally coherent version of OpenAI's history.</p>
 
-He said this trial is going to come down to vibes.
+That is not quite what happened.
 
-He's right. And once you accept that he's right, the next question is the only one that matters: **whose vibes?** Because two specific personality types are about to walk past a jury, and those types perform "I was the noble one" in completely different ways.
+The jury did choose OpenAI—but it did so without reaching the grand question everyone came to watch. After three weeks of testimony and less than two hours of deliberation, all nine jurors concluded that Musk's remaining claims were filed too late. Judge Yvonne Gonzalez Rogers immediately accepted their advisory verdict.
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@byjacobward/video/7634599858753572110" data-video-id="7634599858753572110" style="max-width: 605px; min-width: 325px; margin: 2rem auto;">
-  <section>
-    <a target="_blank" rel="noopener" title="@byjacobward" href="https://www.tiktok.com/@byjacobward">@byjacobward</a> reporting from inside the <em>Musk v. Altman</em> federal trial in Oakland.
-  </section>
-</blockquote>
+So this is now a follow-up, a trial recap, and an audit of the original personality prediction. The legal result was decisive. The human result was much messier.
 
-## Where We Are Right Now
+> **Updated July 19, 2026:** The trial-level case is over. Musk announced that he intended to appeal. Unless an appellate court changes the result, OpenAI and its leaders face no liability from these claims.
 
-Federal courthouse in Oakland. Judge Yvonne Gonzalez presiding. Mark Savitt running point for OpenAI. Musk took the stand this week. Sam Altman is scheduled to testify next Thursday. Greg Brockman, OpenAI president, is expected to fill in the granular timeline of how the founding partnership fell apart.
+## The Verdict, in 30 Seconds
 
-The legal question is whether Musk was sincerely trying to build a nonprofit for humanity that Altman and Brockman then betrayed by turning OpenAI into a for-profit — or whether Musk wanted unilateral control, didn't get it, and built xAI as the consolation prize while raiding OpenAI talent on the way out.
+| Question                     | Answer                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------ |
+| Who won?                     | OpenAI, Altman, Brockman, and Microsoft                                  |
+| When?                        | May 18, 2026                                                             |
+| Who decided?                 | A nine-person advisory jury; Judge Gonzalez Rogers adopted its finding   |
+| How long did jurors take?    | Less than two hours                                                      |
+| Why did Musk lose?           | His remaining claims were barred by statutes of limitation               |
+| Did jurors reach the merits? | No—they did not decide whether OpenAI's mission was betrayed             |
+| What did Musk want?          | Up to $134 billion redirected, leadership changes, and structural relief |
+| What happens next?           | Musk said he would appeal; the trial judgment currently stands           |
 
-The legal question is not actually what the jury will decide. Jacob Ward is right about that part. Cap tables, capped-profit charters, side letters from 2017 — none of that is decidable from a jury box. What's decidable from a jury box is _which guy's story I want to be true_.
+That middle distinction matters. This was a civil case, so headlines saying Altman was "found not guilty" are already using the wrong vocabulary. Saying he was fully vindicated goes too far too.
 
-That's a vibes contest. So let's talk about whose vibes.
+The court found that Musk arrived too late. It did **not** find that OpenAI stayed perfectly faithful to its original promises, that Altman was candid in every important conversation, or that the nonprofit-to-for-profit evolution was morally clean.
 
-## The Buildup, In One Paragraph
+Altman won the case. He did not win a judicial declaration that his version of OpenAI history is the truth.
 
-2015: Musk and Altman co-found OpenAI as a nonprofit, "for humanity," explicitly anti-Google-DeepMind, explicitly not for profit. 2018: Musk leaves the board after losing an internal power fight (he reportedly wanted to merge OpenAI into Tesla). 2019: OpenAI creates the capped-profit subsidiary, takes the first Microsoft money. 2022: ChatGPT eats the world. 2023: Musk founds xAI. 2024: Musk sues, claiming OpenAI broke the founding charter. 2025–2026: Discovery, motions, and now this trial — the first time the original emails, texts, and term sheets are getting read into a public record under oath.
+## How a $134 Billion Fight Died on the Calendar
 
-The whole arc rhymes with one of the oldest startup stories there is: two co-founders agree on a mission, both quietly believe they should be the one running it, neither says that out loud, and the partnership ends in court a decade later. What's unusual is the stakes. They weren't fighting over a CRM company. They were fighting over who gets to be remembered as the person who built the most consequential technology since the printing press.
+Musk's story was simple enough to fit on a bumper sticker: he helped create and fund a nonprofit AI lab for humanity; Altman and Brockman later transferred its work and value into a commercial machine; therefore they "stole a charity."
 
-That's the part the personality types make legible.
+The evidence was not simple.
 
-## The Two Types on the Witness Stand
+OpenAI began as a nonprofit in 2015. By 2017, its leaders were already discussing how to raise the extraordinary capital that advanced AI research would require. Musk participated in conversations about a for-profit structure, pushed for control, and floated placing OpenAI under Tesla. He left the board in 2018. OpenAI announced a capped-profit subsidiary in 2019 and took Microsoft's first billion-dollar investment that year. Musk did not bring the federal case that went to trial until 2024.
 
-| Founder                                        | Enneagram Type         | Core Drive                       | What That Looks Like Under Oath          |
-| ---------------------------------------------- | ---------------------- | -------------------------------- | ---------------------------------------- |
-| [Elon Musk](/personality-analysis/elon-musk)   | Type 5 - Investigator  | Control through understanding    | Literal, blunt, first-principles, flat   |
-| [Sam Altman](/personality-analysis/sam-altman) | Type 4 - Individualist | Significance through singularity | Searching, reflective, narratively aware |
+That timeline gave OpenAI a case-ending defense: even if Musk believed a betrayal eventually occurred, he had known enough about the commercial direction years earlier that the filing clock had already expired.
 
-Same trial. Same evidence. Two completely different performances of "I am the noble one here."
+The judge had [spelled out the stakes before trial](https://cases.justia.com/federal/district-courts/california/candce/4%3A2024cv04722/433688/477/0.pdf). If the jury found Musk's action untimely, she wrote, the court was highly likely to accept the finding and enter judgment for the defendants. That is exactly what happened.
 
-## Elon as a Type 5: First Principles Don't Read as Sincere
-
-Musk is a Self-Preservation 5 with a counterphobic 6 wing. The shorthand: he decodes systems, hoards mastery, and charges at threats instead of avoiding them. That's why people keep mistyping him as a Type 8. The aggression is real, but the engine underneath it is "I need to understand this system better than anyone in the room."
-
-He has been open about being on the autism spectrum. That's not a slur — it's load-bearing context for what a jury is about to see. First-principles thinkers don't tell stories. They reduce questions to their irreducible parts and answer the part. Asked "did you believe OpenAI was a nonprofit at the founding," a first-principles 5 answers literally — _which definition of nonprofit, in which jurisdiction, as of which board resolution_ — when the jury was hoping for something closer to "yes, with all my heart."
-
-That's not lying. That's a 5 refusing to round off the truth into a feeling. But on a witness stand, refusing to round off reads as evasion.
+According to the [Associated Press's verdict report](https://apnews.com/article/musk-openai-trial-verdict-0b9b0bfaffe96f2c930341f52dfe4f8c), Musk had put roughly $38 million into OpenAI in its early years. By trial, he was seeking remedies that could have redirected as much as $134 billion and removed Altman from OpenAI's board. The moral scale was enormous. The legal hinge was a date.
 
 <InsightBox>
-A Type 5 on a witness stand has a specific failure mode: they answer the question that was asked, with the precision they think it deserves. Juries hear that as cold. Juries hear it as "this guy is hiding behind technicalities." It's not — it's just how a 5 honors a question. But the jury doesn't grade you on epistemic honesty. The jury grades you on whether you sounded like a person.
+The verdict does not mean "OpenAI never betrayed its mission." It means "Musk waited too long to pursue these particular claims." That is a complete legal loss and an incomplete historical answer.
 </InsightBox>
 
-The other thing to watch with Musk: SP5s under cross-examination flatten. The voice goes monotone. The answers get shorter. The body language gets stiller. Their internal experience is "I'm conserving energy and protecting my position" — but the external read is "this man does not seem to care."
+## What Three Weeks of Testimony Actually Revealed
 
-In Northern California, against a Northern California jury, with Northern California opinions about Musk's last five years of public behavior, that flatness is not going to be neutral.
+The statute of limitations ended the lawsuit. It did not make the trial pointless. Musk, Altman, Brockman, Ilya Sutskever, Mira Murati, former board members, Microsoft executives, and others put years of private conflict into a public record.
 
-## Sam as a Type 4: The Most Dangerous Witness in Tech
+The testimony produced three overlapping trials:
 
-Sam Altman is the cleanest example of a high-functioning Type 4 in modern tech. The Type 4 core is _I need to be uniquely significant_, and a 4's superpower is reading the emotional temperature of a room and adjusting the surface in real time without it looking like adjustment.
+1. A legal trial about charitable trust and unjust enrichment.
+2. A credibility trial about when Musk knew OpenAI would commercialize.
+3. A character trial about whether Musk or Altman could be trusted with the story of artificial intelligence.
 
-Paul Graham once described Altman as someone who, dropped into a foreign country with no resources, would be running it within five years. That's a 4 in healthy integration to Type 1 — strategic, principled-sounding, and _exquisitely_ aware of what each person in the room needs to hear to stay aligned with him.
+Only the second one produced the verdict. The third produced the material people will remember.
 
-It's also why Altman has, at multiple points, been quietly — and now loudly — accused of being a liar by people who've worked with him closely.
+### Musk Made the Case Smaller—and Himself Bigger
 
-### The Nature of Sam's Lies
+Musk testified for more than seven hours across three days. On direct examination, he reduced the sprawling corporate history to a clean moral proposition: it is not OK to steal a charity.
 
-This is worth slowing down on, because most people get the _kind_ of lying wrong. When you hear "liar," you picture someone who knows that A + B = C and tells you A + B = D. That's not what Altman does. That kind of lying requires you to consciously hold the true answer and the false answer in your head at the same time, and Sam's psychology isn't doing that.
+That was extremely Type 5. A Five under pressure tries to find the governing principle beneath the noise. Musk did not want to litigate a decade of mixed motives. He wanted to identify the system error, name it, and make every document answer to it.
 
-Here's what's actually happening: a Type 4 in front of another person enters a kind of high-resolution emotional read. He's not running through a checklist of facts and choosing which to disclose. He's running through _you_ — what you need, what you respect, what would make this conversation feel meaningful to both of you — and then producing the version of himself that lands in that read. He genuinely enjoys that exchange. The connection, the back-and-forth, the feeling of being the smartest, most generous mind in the room — that's the substance of the interaction for him. The factual content is the medium, not the message.
+He also placed himself at the center of OpenAI's creation. In his account, he conceived the counterweight to Google, supplied the money and network, recruited essential talent such as Sutskever, and opened doors at Microsoft and Nvidia. [Reuters' recap of his testimony](https://www.investing.com/news/stock-market-news/key-takeaways-from-musks-testimony-at-openai-trial-4652341) captured a witness insisting that OpenAI would not have existed without his intervention.
 
-The lie isn't in what he says. The lie is in what he _doesn't follow up on_. He'll commit to a thing in a meeting because that commitment makes the moment work. Then the moment ends, the next moment begins, the next person needs a different version, and the original commitment evaporates because it was never load-bearing in his mental model — it was emotional scaffolding for a conversation that's now over.
+Then cross-examination put pressure on the contradiction inside that story.
 
-Someone — and the phrase has stuck because it's accurate — described Altman as **"unburdened by the truth."** That's the perfect framing. He doesn't carry the truth around as a constraint on what he can say next. The truth is one of several inputs to a performance, and the performance optimizes for resonance, not consistency. That phrasing pattern-matches to Type 3 (the Achiever, who shape-shifts to win), and it can read as 3-coded — but it's also unmistakably 4-coded. A 3 lies to _win_. A 4 lies to _connect, to feel uniquely understood, to be the one whose presence in the room mattered most_. Altman's pattern is the latter. The 2023 board called it "not consistently candid" because they were trying to be polite. The honest version is: he produces a different Sam for every audience, and none of those Sams are explicitly false in the moment, but stacked on top of each other they don't form one human being.
+If a for-profit structure was itself the betrayal, why had Musk discussed one? If concentrated control over AI was the danger, why had he sought control or a Tesla merger? If commercial AI was corrupting OpenAI's mission, why was his own competitor, xAI, a for-profit company?
 
-A 4 doesn't experience that as deception. A 4 experiences it as _meeting people where they are_. The OpenAI board, in November 2023, experienced it differently — "not consistently candid" was the exact phrase. Five days later he was back, because the version of Sam that the company, Microsoft, and the press needed in that moment was the wronged visionary, and a 4 can become that version at speed.
+The original version of this article predicted that Musk would flatten under cross: shorter answers, less affect, more technical precision. That prediction was only half right. He was literal and impatient, but not especially flat. At times he became combative, complained that questions were designed to trick him, and drew warnings from the judge for answers that wandered past the question.
 
-### Why This Trial Is Different
+The Five pattern was still visible; it simply came out as resistance. Musk treated the lawyer's framing as a hostile system and tried to rewrite the premises before answering. To him, that can feel like accuracy. To a jury, it can look like a witness who will not concede a straightforward point.
 
-Here's the part that should make Altman's lawyers nervous. Most of his pattern has _never been called out in real time_. The criticism comes after — board statements, retrospective essays, "people who used to work with him" pieces. The performance happens, the room buys it, and the receipts only get stacked weeks or months later, by which point he's already in the next room running the next performance.
+### The Most Damaging Musk Moment Came After He Left
 
-Cross-examination is the first environment in his life designed to break exactly that pattern. A good Musk lawyer doesn't have to call him a liar. They just have to ask the same question four different ways an hour apart and let the four different Sams contradict each other on the record while he's still in the chair. That's the first time the _next-room reset_ doesn't work. That's the first time the audience for his last performance is still in the room for his current one.
+Musk did not remain in court for much of the defense case. Despite being under an order to remain available for possible recall, he traveled to China with President Donald Trump. OpenAI's lawyers used the absence in closing: their clients were present, they said, while Musk was in "parts unknown."
 
-Whether his 4 holds up under that kind of structural pressure is the actual unknown of the entire trial.
+That line mattered because presence was part of the case. Musk wanted the jury to believe he was protecting a charity and a civilizational mission. Then, when other witnesses complicated his account, he was not in the room.
 
-Now put that 4 on a witness stand against a 5.
+A Type 5 often withdraws once they believe they have supplied the essential information. The internal logic is: _I gave you the model; the rest is repetition._ The social read is different: _He came to tell his story, not to hear anyone else's._
 
-He's going to be searching. Reflective. He's going to look at the jury when he answers. He's going to acknowledge complexity — _we were all young, we all believed something, things changed, I'm still trying to understand it myself._ He's going to make his own ambition sound like reluctant duty, and he'll do it without anyone in the room being able to point at the moment he did it.
+We cannot know how much that affected the jury. We can say OpenAI recognized the symbolic weakness and made sure jurors noticed it.
 
-That is going to land. The jury is going to like him.
+### Altman's Credibility Problem Did Not Disappear
 
-## Why This Specific Collision Was Always Going to End in Court
+The original article argued that Altman's biggest risk was not one provable lie. It was the stack: different colleagues carrying different versions of what Sam had told them.
 
-There's a tidy version of this story where two co-founders just had a strategic disagreement. That's not what happened. What happened is that the two psychological needs at the center of OpenAI were _structurally incompatible from day one_, and neither founder could see it because each one assumed the other would eventually defer.
+The trial validated that concern more strongly than expected.
 
-A Type 5's deepest need around an important system is **to control it through understanding**. Not for ego — for safety. A 5 cannot tolerate being downstream of a system they consider critical and don't fully grasp. That's the engine behind Musk's "merge OpenAI into Tesla" pitch in 2018. It wasn't a power grab in the way the press framed it. It was a 5 trying to pull the most important system in the world inside the perimeter he could actually defend.
+[The Guardian's full trial recap](https://www.theguardian.com/us-news/2026/may/16/what-we-learned-elon-musk-sam-altman) reported that former OpenAI CTO Mira Murati described Altman as saying opposite things to different people. Former board member Tasha McCauley described recurring leadership crises. Ilya Sutskever confirmed that he had told the board Altman showed a "consistent pattern of lying" and pitting executives against one another. Helen Toner and other former board figures also testified about concerns over Altman's candor.
 
-A Type 4's deepest need around an important project is **to be the irreplaceable author of it**. Not the manager. The _author_. The one whose name is on the thing. A 4 can share authority. A 4 cannot share authorship. That's why Altman, after the 2023 firing, didn't quietly take the Microsoft offer and start fresh. He came back. Because a 4 doesn't leave the center of their own story.
+This did not prove Musk's charitable-trust claims. It did reopen the central question behind Altman's five-day firing and return in November 2023: how can an executive be effective enough to hold an institution together and leave so many close collaborators unsure whether they received the same truth?
 
-You cannot put a 5 who needs to control the system and a 4 who needs to be the author of the system on the same cap table and expect it to last. One of them has to lose, and neither of their psychologies allows losing. So you get exactly what we got: a slow, then sudden divorce, an industry-defining lawsuit, and now a federal jury in Oakland trying to decide which one was telling the truth about the original promise.
+On the stand, Altman did not make that history vanish. When asked whether people he had worked with had called him deceptive, he acknowledged that he had heard the criticism.
 
-They were both telling the truth. They were just telling two different truths, because they're two different types.
+That was smarter than fighting every example. A direct denial would have invited another receipt. Altman instead absorbed the criticism into a larger story: OpenAI was a difficult institution pursuing an almost impossibly expensive mission, people disagreed under extreme pressure, and Musk had abandoned the project when he could not control it.
 
-## Under Stress: Where Each Type Goes When Cornered
+That is the Type 4 advantage. A Four does not need every fact to be flattering if the facts can be placed inside a meaningful story.
 
-The Enneagram has a piece of mechanics that matters more than any other for predicting trial behavior: each type has a specific direction it moves when stressed, and that direction is not "more of the same." It's a different type entirely, expressed in a worse form. If you know the arrows, you can read the testimony before it happens.
+### Altman Played the Wounded Founder—But He Had Documents Behind Him
 
-Sam Altman, as a 4, **disintegrates to Type 2 (the Helper)** under stress. That sounds counterintuitive — going to the "people-pleaser" doesn't sound like a stress response. But disintegrated 2 is not healthy 2. It's the needy, possessive, "look how much I sacrificed for you" version of 2. It's the person who responds to being cornered by suddenly producing a long list of all the suffering they did on your behalf and how unfairly they're being treated for it.
+Altman testified that Musk wanted "total control" of OpenAI and had discussed passing that control to his children. He framed the original nonprofit as a safeguard against any one person dominating AGI, regardless of that person's intentions.
 
-Watch the November 2023 firing arc through that lens. Altman did not lash out. He did not threaten. He did not weaponize Microsoft against the board (his team did that for him, and he kept his hands clean). What Sam did was perform _wounded_. He gave the kind of interviews where his voice softened. He posted in the register of a man who couldn't believe what was happening to him. The narrative that calcified within 72 hours wasn't "the board overreached" — it was "look what they did to Sam." That's a 4 in stress-2: turning the room into people who needed to take care of him.
+He also made the conflict personal. Near the end of his testimony, Altman said it had been "extremely painful" to watch someone he respected abandon OpenAI, jeopardize its mission, and continue attacking it in public.
 
-Now scale that up to a federal courtroom. If a Musk lawyer manages to land a real hit — a contradiction Altman can't smooth over, a 2017 email that doesn't match his testimony — Altman's stress response is not going to be defensive aggression. It's going to be a pity party. He'll get smaller. He'll get gentler. He'll talk about how much he's sacrificed for the mission, how lonely the position has been, how often he's been misunderstood. It'll be subtle. It'll be effective on at least three jurors. And it'll be a 4 doing exactly what 4s do when they're losing: making the room feel guilty for hurting them.
+The original article predicted almost exactly that register: not rage, but hurt; not a direct counterattack, but a story about sacrifice and betrayal. It would be too easy, however, to dismiss the emotion as performance. Altman also had years of emails, structural discussions, and Musk's own proposals supporting the claim that Musk understood commercialization and wanted control.
 
-Elon Musk, as a 5, **disintegrates to Type 7 (the Enthusiast)** under stress. Healthy 7 is curious, multi-tracked, joyful. Disintegrated 7 is _scattered, impulsive, and chaos-seeking_ — the type's appetite for new stimulation runs without a filter. For a 5 already living in a fortress of mastery, going to stress-7 means abandoning the perimeter and chasing whatever shiny thing produces a hit of relief from the pressure.
+The Enneagram can describe how a person organizes an experience. It cannot tell us whether the experience is fake.
 
-You don't have to squint to see this in Musk's biography. Every period of acute stress in his life has been followed by some combination of: a new company nobody asked for, a new public feud he didn't need, a new child with a new partner, a new substance, a new platform purchase. The 5-to-7 disintegration is not metaphorical with this man. It is documentable in the public record, year by year. When the system inside him is overloaded, the 5 stops conserving and the 7 starts spending — wildly, in every direction, simultaneously.
+What it can show here is why Altman's account held together better in the room. Musk's narrative required one permanent promise: nonprofit forever. Altman's narrative allowed the form to change while the mission remained spiritually continuous. The first story is easier to understand. The second is easier to adapt to contradictory evidence.
 
-So if cross-examination genuinely rattles him — not just annoys him, _rattles_ him — the stress response won't be in the courtroom. It'll be in the next 96 hours after the courtroom. Expect a 3 a.m. X spree. Expect a brand-new product announcement that wasn't on any roadmap. Expect a feud with someone who had nothing to do with this trial. The 5 keeps it composed on the stand. The 7 unravels publicly the next morning.
+### Greg Brockman's Diary Exposed the Trial's Real Problem
 
-This matters for the trial because it predicts the _second-order_ vibes contest. The jury sees the testimony, but the country sees what happens after. A 4 in stress-2 produces sympathy in the days following testimony — soft posts, vulnerable interviews, a curated kind of woundedness. A 5 in stress-7 produces chaos in the days following testimony — public outbursts, impulsive moves, exactly the behavior that re-confirms every pre-existing prejudice against him.
+Greg Brockman may have given the most revealing testimony of the case.
 
-If you want to bet on this trial, don't bet on the testimony. Bet on the week after.
+Musk's lawyers confronted him with a private 2017 journal entry asking what would take him financially to $1 billion. At trial, Brockman disclosed that his current OpenAI stake was worth nearly $30 billion. He nevertheless maintained that money was not the point and that commercial capital served the mission.
 
-## How the Vibes Contest Actually Plays Out
+Jacob Ward's [courtroom dispatch on Brockman's testimony](https://www.theripcurrent.com/p/musk-v-altman-how-can-billionaires) identified the deeper tension: how can someone holding tens of billions of dollars in equity sincerely insist that the money is incidental?
 
-Jacob Ward framed it as "neither of these guys is exactly a shoo-in for the vibes contest" — Musk reviled in NorCal, Altman blamed for upending society. He's right that neither one is a hero. But vibes contests don't reward the most likable person. They reward **the person whose self-presentation matches the kind of mistake the jury wants to forgive**.
+The unsettling answer is that he may sincerely believe it.
 
-Here's what each type is going to look like under cross:
+Money, power, safety, and mission did not appear in separate boxes for OpenAI's founders. Each man experienced his preferred form of control as a necessary instrument for helping humanity:
 
-**Musk's testimony will sound like:** flat, technical, occasionally sardonic, increasingly impatient. He'll correct the lawyer's framing of questions. He'll cite numbers from memory. He'll say "that's not accurate" instead of "that's a lie." When asked about his motives, he'll talk about the _system_ — about safety, about alignment, about timelines — and not about himself. The jury will read that as either _brilliant and uncompromising_ or _cold and dodging_. There's no middle.
+- Musk needed control so the system would remain safe.
+- Altman needed flexibility so the institution could raise capital and survive.
+- Brockman needed ownership incentives so builders could do the work.
 
-**Altman's testimony will sound like:** measured, almost gentle, full of phrases like "the way I remember it" and "I think what we all believed at the time." He will not contradict Musk directly. He will _contextualize_ Musk — frame the disagreements as honest, frame himself as someone who learned from them. He will not raise his voice. He will not look angry. He will look _thoughtful_. The jury will read that as either _humble and genuine_ or _too smooth to fully trust_. There's no middle there either.
+Every self-interested move arrived wearing the clothes of mission. That does not make every move corrupt. It makes motive almost impossible to isolate—which is why the jury was being asked to do something more psychologically complicated than either side admitted.
 
-The structural advantage is Altman's. Type 4s perform sincerity for a living. They can't help it — it's the muscle they exercise every time they walk into a room. Type 5s perform precision, and precision is the wrong vibe for this courtroom.
+### The 2023 Firing Became a Trial Inside the Trial
 
-The structural disadvantage for Altman is reputation drift. The "not consistently candid" board statement is in the public record. The pattern of allies-turned-skeptics — Helen Toner, Ilya Sutskever, the entire pre-2023 safety team — is also in the public record. A clever Musk lawyer doesn't need to attack Altman's testimony. He just needs to set up a quiet contrast: _here's what Sam said in 2017. Here's what Sam said in 2019. Here's what Sam said in 2023. Now here's what Sam is saying today._ If those four versions don't stack, the 4's biggest weapon — narrative coherence — turns into the case against him.
+Much of Musk's case against Altman's credibility came from a board crisis that happened years after Musk left OpenAI. It was only indirectly connected to whether Musk's donations had legal restrictions. But it gave jurors a live test of Altman's character.
 
-That's the actual fight. Not Musk's character vs. Altman's character. **Musk's flatness vs. Altman's stack of past Sams.**
+Sutskever, Murati, Toner, and McCauley helped reconstruct the distrust that culminated in Altman's 2023 firing. Microsoft CEO Satya Nadella, meanwhile, described the board's execution of that decision as "amateur city" and recalled fearing that employees would leave en masse.
 
-## The Memory Angle Jacob Ward Raised
+Both things can be true:
 
-One of the best things in Ward's coverage is that he pulled in Karim Nader's 2000 reconsolidation research — the finding that retrieving a memory _changes_ the memory, every time. He's using it to suggest that both Musk and Altman probably believe their own conflicting versions of 2015 because they've each told their version to themselves so many times that the original is gone.
+- The board may have had serious reasons to distrust Altman.
+- The board may have handled those concerns so poorly that Altman became stronger.
 
-That's true. It's also type-specific.
+That is the pattern around Altman in miniature. People close to him raise concerns about candor. Then the institution attempting to constrain him fractures under the pressure of doing so. Altman survives because the organization cannot imagine continuing without the story, relationships, and momentum he provides.
 
-A Type 5's memory-rewrite tilts toward **systems and intentions**. They remember "I was the one who saw the risk earliest, I was the one whose framework was right, I was the one who tried to lock the safety in." The emotional details fade. The structural narrative sharpens.
+This trial did not resolve that pattern. It documented it under oath.
 
-A Type 4's memory-rewrite tilts toward **meaning and self**. They remember "I was the one who carried the original spirit of the thing, I was the one who held the team together, I was the one who suffered for the mission." The structural details soften. The personal narrative sharpens.
+## Did the Original "Vibes Contest" Prediction Hold Up?
 
-So when both men get up there and tell their versions of how OpenAI was founded, _both_ versions will be sincere reconstructions — and _both_ will be incompatible with what's actually in the discovery emails. The jury isn't going to catch them lying. The jury is going to catch them remembering the way their type remembers.
+Mostly—but not in the way I expected.
 
-## What to Watch For
+| Original prediction                                        | What happened                                                                                                                                                                                           | Score               |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| Altman would have the structural advantage                 | His account was more emotionally coherent and better supported on timing                                                                                                                                | Right               |
+| Musk would sound precise, flat, and impatient              | He was literal and impatient, but often combative rather than flat                                                                                                                                      | Half right          |
+| Cross-examination would stack Altman's past contradictions | Former colleagues gave unusually blunt testimony about his candor                                                                                                                                       | Very right          |
+| Altman would respond to pressure through hurt              | He framed Musk's departure and attacks as a painful personal betrayal                                                                                                                                   | Right, with caveats |
+| The jury would choose the founder whose story felt truer   | The jury ended the case on timing without reaching the founding mission                                                                                                                                 | Wrong legally       |
+| Musk's stress would spill into public reaction             | He [attacked the result and judge](https://www.lemonde.fr/en/economy/article/2026/05/18/musk-s-lawsuit-against-openai-dismissed-due-to-statute-of-limitations_6753577_19.html), then promised an appeal | Right               |
 
-A few things that will tell you, in real time, how the vibes contest is going:
+The verdict was not purely procedural in the everyday sense. To decide the deadline, jurors still had to decide what Musk knew and when his delay became unreasonable. That required evaluating documents and credibility. Vibes did not replace evidence; they colored how jurors interpreted a timeline full of self-serving memories.
 
-- **Does Musk's lawyer let him talk?** If they keep him on tight yes/no answers, they're protecting him from his 5-flatness. If they let him explain, they think he's winning the room.
-- **Does Altman cry?** Not literally — but does his voice catch, does he pause, does he visibly _struggle_ with a question? A 4 in healthy mode will modulate that perfectly. A 4 under pressure will overdo it, and the jury will feel it.
-- **Who blinks first on the original mission?** Whichever founder first concedes "we both believed it at the time, and we both drifted from it for understandable reasons" — that founder wins. Because that's the move that makes the _other_ guy look like the one with the grudge.
-- **What does the judge do with motive evidence?** Yvonne Gonzalez has already struck one Trump-adjacent line of attack on Musk. If she keeps protecting both founders from cheap-shot character attacks, the trial stays on the documents — and the documents are messy enough to favor the better storyteller. That's Altman.
+But the jury never answered the question at the heart of the original post: which founder was noble at the beginning, and which one betrayed the deal?
 
-## The Punchline
+That question may not have a clean answer.
 
-Jacob Ward is right that this trial will come down to vibes. What he's too generous to say — and what your type lens lets you see clearly — is that _the vibes are not symmetric_. A Type 4 walking into a vibes contest against a Type 5 is bringing a sword to a math test.
+## Type 5 vs. Type 4: What the Trial Changed
 
-Unless Musk's legal team can keep him off the stand long enough to let the documents speak — and unless they can quietly assemble the past-Sams contradiction stack — the personality math says Altman wins this jury.
+The Enneagram reading still clarifies the collision, but the trial made it less cartoonish.
 
-The personality math also says it won't matter. Because the part of this story that the jury can't reach is the part Ward already named at the top: both of these men were noble at the start, both of them got acquisitive in the middle, and both of them are now fighting over the credit. A 5 wants the credit because it proves he was right about the system. A 4 wants the credit because it proves he was the one. The jury picks the better performance. History picks neither.
+| Founder                                        | 9takes typing          | Needs to protect                | Courtroom story                                     |
+| ---------------------------------------------- | ---------------------- | ------------------------------- | --------------------------------------------------- |
+| [Elon Musk](/personality-analysis/elon-musk)   | Type 5 - Investigator  | Control through mastery         | "I built the safeguard; they corrupted the system." |
+| [Sam Altman](/personality-analysis/sam-altman) | Type 4 - Individualist | Significance through authorship | "I carried the mission after he abandoned it."      |
 
-We'll be back when Altman takes the stand next Thursday. That's when the actual collision happens.
+### Musk's Type 5 Control Is Visible
+
+Musk's preferred form of power is explicit. He wants authority over the system, the ability to interrogate it, and the right to override people he believes are making a catastrophic mistake. That makes his power easier to identify and easier to attack.
+
+The trial exposed the contradiction between Musk's fear of concentrated AI power and his belief that he should have been the person concentrating it. Altman did not have to prove Musk was indifferent to AI safety. He only had to show that Musk's definition of safety repeatedly ended with Musk in control.
+
+That does not make the safety concern insincere. It means sincerity and control can occupy the same motive.
+
+### Altman's Type 4 Control Is Narrative
+
+Altman's power is less formal and more relational. He builds the story people want to be part of, makes himself central to that story, and keeps enough interpretive flexibility to survive changes in structure.
+
+The nonprofit can create a for-profit subsidiary without abandoning the mission. Microsoft can become indispensable without controlling the mission. Altman can have no simple direct-founder payday story while companies in which he has outside stakes do business with OpenAI. Each tension receives context rather than a binary answer.
+
+That flexibility is a leadership asset. It is also why the criticism from former colleagues matters. When one leader can make several audiences feel aligned while giving each a differently emphasized account, institutional coherence may depend on everyone never comparing notes.
+
+The trial forced the notes into one room.
+
+### They Wanted the Same Thing in Different Languages
+
+Both men said they were protecting humanity from concentrated AI power.
+
+Both also believed the mission would be safest if their own judgment remained central.
+
+Musk's version was: _Give me the controls because I understand the danger._
+
+Altman's version was: _Let me author the institution because I can keep the coalition together._
+
+That is why the relationship was unstable from the beginning. A Five can share a mission but struggles to remain downstream of a system he considers unsafe. A Four can share management but struggles to surrender authorship of the defining project.
+
+Their conflict was not altruism versus greed. It was two forms of ambition, each experienced by its owner as stewardship.
+
+## So Who Really Won?
+
+By every practical legal measure, Altman and OpenAI won.
+
+| Arena                   | Winner            | Why                                                             |
+| ----------------------- | ----------------- | --------------------------------------------------------------- |
+| Trial                   | OpenAI and Altman | All remaining claims were dismissed as untimely                 |
+| Immediate business risk | OpenAI            | No forced restructuring, removal, or multibillion-dollar remedy |
+| Timing argument         | OpenAI            | Jurors unanimously found Musk waited too long                   |
+| Credibility             | Nobody            | Musk's control story and Altman's candor both took damage       |
+| Founding-mission debate | Unresolved        | The jury never reached whether OpenAI betrayed the mission      |
+| Historical record       | The public        | Private emails, diaries, and internal conflicts became visible  |
+
+Musk lost most clearly. The speed and unanimity of the verdict undercut his claim that the relevant betrayal had remained hidden until recently. His courtroom resistance, later absence, and angry response reinforced OpenAI's portrayal of a founder who could not accept losing control of the institution he helped start.
+
+Altman escaped liability, but not scrutiny. The trial placed former colleagues' concerns about his truthfulness beside his own sworn testimony. Anyone claiming the verdict proved those concerns false is asking the statute of limitations to do work it did not do.
+
+OpenAI won the freedom to keep moving. It did not receive a moral blank check.
+
+## The Verdict Beneath the Verdict
+
+The original article ended by predicting that Altman would win the jury because a Type 4 is built for a contest of sincerity while a Type 5 is built for a contest of precision.
+
+The follow-up is more interesting.
+
+Altman did win, but the most powerful story was not ultimately his. It was the calendar's. Musk knew enough, early enough, that the court would not let him transform a decade-old founder divorce into a present-day claim on OpenAI's future.
+
+Still, the personality collision explains why the lawsuit existed at all.
+
+Musk could not accept that the most important system in the world had escaped his perimeter. Altman could not accept Musk's attempt to reclaim authorship of an institution Altman had spent years becoming inseparable from. Each man described the other's desire for control as corruption and his own as responsibility.
+
+The jury never decided who betrayed humanity. It decided Musk had waited too long to ask.
+
+For a trial about people racing to build the future, that is a beautifully ordinary ending: **the whole thing came down to time.**
 
 ---
 
-_Source for the courtroom reporting: [Jacob Ward](https://theripcurrent.com), CNN contributor and founder of The Rip Current, who has been filing daily on-the-ground updates from the Oakland federal courthouse. His on-the-bench observation that this trial will come down to vibes is the reason this piece exists. Personality typing on Musk and Altman draws on prior 9takes analysis — see [The AI Wars: Why Personality Types Determine Who Gets to Build God](/pop-culture/tech-titans-ai-wars) for the longer treatment._
+_This article began with [Jacob Ward's](https://theripcurrent.com) opening-week courtroom observation that the case would come down to vibes. It was substantially updated after the verdict using the [court's pretrial order](https://cases.justia.com/federal/district-courts/california/candce/4%3A2024cv04722/433688/477/0.pdf), [Associated Press verdict coverage](https://apnews.com/article/musk-openai-trial-verdict-0b9b0bfaffe96f2c930341f52dfe4f8c), [Reuters' Musk testimony recap](https://www.investing.com/news/stock-market-news/key-takeaways-from-musks-testimony-at-openai-trial-4652341), [The Guardian's trial review](https://www.theguardian.com/us-news/2026/may/16/what-we-learned-elon-musk-sam-altman), [Axios' Altman testimony report](https://www.axios.com/2026/05/13/openai-trial-sam-altman-elon-musk-ai-safety), and Ward's continuing dispatches. For the broader personality map, read [The AI Wars: Why Personality Types Determine Who Gets to Build God](/pop-culture/tech-titans-ai-wars)._
