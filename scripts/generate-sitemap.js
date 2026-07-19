@@ -14,6 +14,7 @@ import {
 	normalizePersonalitySlug
 } from './lib/personalitySeo.js';
 import { buildQuestionCategorySlug } from '../src/lib/utils/questionCategorySlug.js';
+import { hasSubstantiveQuestionCategoryIntro } from '../src/lib/utils/questionCategorySeo.js';
 
 const { glob } = pkg;
 
@@ -35,7 +36,7 @@ dotenv.config();
  *   [key: string]: unknown
  * }} ContentPost
  * @typedef {{ id?: string | number, url?: string | null, updated_at?: DateInput, created_at?: DateInput }} QuestionRow
- * @typedef {{ id: string | number, category_name: string, slug?: string | null, parent_id: string | number | null, intro_updated_at?: DateInput }} QuestionCategory
+ * @typedef {{ id: string | number, category_name: string, slug?: string | null, parent_id: string | number | null, intro_markdown?: string | null, intro_updated_at?: DateInput }} QuestionCategory
  * @typedef {{ question_id: string | number, tag_id: string | number }} QuestionCategoryTag
  * @typedef {{
  *   id: string | number,
@@ -44,6 +45,7 @@ dotenv.config();
  *   parent_id: string | number | null,
  *   children: QuestionCategoryNode[],
  *   directQuestionIds: Set<string | number>,
+ *   isIndexable: boolean,
  *   introLastmod: string | null,
  *   lastmod?: string | null
  * }} QuestionCategoryNode
@@ -657,7 +659,7 @@ function dedupeEntries(entries) {
  * @param {QuestionRow[]} questions
  * @returns {QuestionCategoryPages}
  */
-function buildQuestionCategoryEntries(categories, categoryTags, questions) {
+export function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 	/** @type {Map<string | number, string | null>} */
 	const activeQuestionLastmodById = new Map(
 		questions
@@ -681,6 +683,7 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 				parent_id: category.parent_id,
 				children: [],
 				directQuestionIds: new Set(),
+				isIndexable: hasSubstantiveQuestionCategoryIntro(category.intro_markdown),
 				introLastmod: formatLastmod(category.intro_updated_at)
 			})
 		])
@@ -738,6 +741,7 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 			slug: node.slug,
 			parent_id: node.parent_id,
 			directQuestionIds: node.directQuestionIds,
+			isIndexable: node.isIndexable,
 			introLastmod: node.introLastmod,
 			lastmod,
 			children: prunedChildren
@@ -755,11 +759,14 @@ function buildQuestionCategoryEntries(categories, categoryTags, questions) {
 	 */
 	function collect(node) {
 		if (node.lastmod) {
-			entries.push({
-				loc: `${SITE_URL}/questions/categories/${node.slug || buildQuestionCategorySlug(node.category_name)}`,
-				lastmod: node.lastmod
-			});
 			latestLastmod = maxLastmod(latestLastmod, node.lastmod);
+
+			if (node.isIndexable) {
+				entries.push({
+					loc: `${SITE_URL}/questions/categories/${node.slug || buildQuestionCategorySlug(node.category_name)}`,
+					lastmod: node.lastmod
+				});
+			}
 		}
 
 		for (const child of node.children) {
@@ -803,7 +810,7 @@ async function getQuestionCategoryPages(questions) {
 	] = await Promise.all([
 		supabase
 			.from('question_categories')
-			.select('id, category_name, slug, parent_id, intro_updated_at')
+			.select('id, category_name, slug, parent_id, intro_markdown, intro_updated_at')
 			.order('id', { ascending: true }),
 		supabase.from('question_category_tags').select('question_id, tag_id')
 	]);

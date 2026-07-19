@@ -117,3 +117,53 @@ describe('buildStaticPages', () => {
 		expect(personalityIndex?.lastmod).toBe('2026-04-06');
 	});
 });
+
+describe('buildQuestionCategoryEntries', () => {
+	it('excludes thin categories while retaining indexable descendants and category freshness', async () => {
+		const { buildQuestionCategoryEntries } = await loadModuleWithGitDates({});
+		const result = buildQuestionCategoryEntries(
+			[
+				{
+					id: 1,
+					category_name: 'Relationships',
+					slug: 'relationships',
+					parent_id: null,
+					intro_markdown: null,
+					intro_updated_at: null
+				},
+				{
+					id: 2,
+					category_name: 'Friendships',
+					slug: 'friendships',
+					parent_id: 1,
+					intro_markdown: 'Questions about building and maintaining friendships.',
+					intro_updated_at: '2026-07-17'
+				},
+				{
+					id: 3,
+					category_name: 'Acquaintances',
+					slug: 'acquaintances',
+					parent_id: 1,
+					intro_markdown: ' \n ',
+					intro_updated_at: '2026-07-18'
+				}
+			],
+			[
+				{ question_id: 101, tag_id: 2 },
+				{ question_id: 102, tag_id: 3 }
+			],
+			[
+				{ id: 101, updated_at: '2026-07-17' },
+				{ id: 102, updated_at: '2026-07-19' }
+			]
+		);
+
+		expect(result.entries).toEqual([
+			{
+				loc: 'https://9takes.com/questions/categories/friendships',
+				lastmod: '2026-07-17'
+			}
+		]);
+		expect(result.latestLastmod).toBe('2026-07-19');
+	});
+});

@@ -1,6 +1,6 @@
 // src/lib/server/personBlogParser.spec.ts
 import path from 'path';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 
 import {
 	assertNonPublishPlanApproved,
@@ -14,6 +14,7 @@ import {
 	getMissingPublishFrontmatterFields,
 	getPublishImageStatus,
 	hashPeopleContent,
+	insertIntoSupabase,
 	normalizeBirthDate,
 	normalizeFaqs,
 	normalizeImdbId,
@@ -468,6 +469,28 @@ TODO: add source.
 
 		it('refuses a missing row instead of preparing an insert', () => {
 			expect(() => buildNonPublishUpdatePlan(null, entry)).toThrow(/Existing-row-only/);
+		});
+
+		it('skips a missing row during a dry run without attempting an insert', async () => {
+			const maybeSingle = vi.fn().mockResolvedValue({ data: null, error: null });
+			const ilike = vi.fn().mockReturnValue({ maybeSingle });
+			const select = vi.fn().mockReturnValue({ ilike });
+			const from = vi.fn().mockReturnValue({ select });
+			const rpc = vi.fn();
+
+			const result = await insertIntoSupabase([entry], {
+				supabase: { from, rpc } as any
+			});
+
+			expect(result).toMatchObject({
+				processed: 1,
+				inserted: 0,
+				updated: 0,
+				skipped: 1,
+				errors: []
+			});
+			expect(rpc).not.toHaveBeenCalled();
+			expect(from).toHaveBeenCalledTimes(1);
 		});
 	});
 });

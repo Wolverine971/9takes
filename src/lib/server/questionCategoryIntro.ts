@@ -57,13 +57,18 @@ type QuestionCategoryIntroGeneration = {
 };
 
 const CATEGORY_INTRO_PROMPT_VERSION = 'question-category-intro-v1';
-const CATEGORY_INTRO_MODEL = 'openai/gpt-5-mini';
+const CATEGORY_INTRO_MODEL = 'openrouter/fast-json-fallback';
+const CATEGORY_INTRO_PROVIDER_TIMEOUT_MS = 25_000;
+const CATEGORY_INTRO_MAX_OUTPUT_TOKENS = 1_024;
+const CATEGORY_INTRO_ORPHANED_RUN_AGE_MS = 2 * 60 * 1_000;
 const MAX_SAMPLE_QUESTIONS = 8;
 const MAX_SEMANTIC_TERMS = 8;
 
 const llmService = new SmartLLMService({
 	httpReferer: 'https://9takes.com',
-	appName: '9takes Category Intro'
+	appName: '9takes Category Intro',
+	openRouterTimeoutMs: CATEGORY_INTRO_PROVIDER_TIMEOUT_MS,
+	jsonMaxTokens: CATEGORY_INTRO_MAX_OUTPUT_TOKENS
 });
 
 const SEMANTIC_STOPWORDS = new Set([
@@ -285,6 +290,7 @@ export async function generateQuestionCategoryIntro(
 	}
 
 	const generationStartedAt = new Date().toISOString();
+	await failOrphanedQuestionCategoryIntroRuns(supabase, categoryId, generationStartedAt);
 	const persistedContext = {
 		path: context.path,
 		directQuestionCount: context.directQuestionCount,
@@ -320,7 +326,7 @@ export async function generateQuestionCategoryIntro(
 		});
 	}
 
-	await supabase
+	const { error: processingUpdateError } = await supabase
 		.from('question_categories')
 		.update({
 			intro_status: 'processing',
@@ -331,12 +337,28 @@ export async function generateQuestionCategoryIntro(
 		})
 		.eq('id', categoryId);
 
+	if (processingUpdateError) {
+		const message = 'Failed to mark category intro generation as processing';
+		if (runRow?.id) {
+			await supabase
+				.from('question_category_intro_runs')
+				.update({
+					status: 'failed',
+					error: message,
+					finished_at: new Date().toISOString(),
+					output: null
+				})
+				.eq('id', runRow.id);
+		}
+		throw new Error(message);
+	}
+
 	try {
 		const generation = await llmService.getJSONResponse<QuestionCategoryIntroGeneration>({
 			systemPrompt: getQuestionCategoryIntroPrompt(),
 			userPrompt: JSON.stringify(context, null, 2),
 			userId: adminUserId,
-			profile: 'balanced',
+			profile: 'fast',
 			temperature: 0.2,
 			validation: { retryOnParseError: true, maxRetries: 2 },
 			operationType: 'question_category_intro_generation',
@@ -379,11 +401,16 @@ export async function generateQuestionCategoryIntro(
 				intro_context: nextContext as unknown as Json
 			})
 			.eq('id', categoryId)
+			.eq('intro_status', 'processing')
+			.eq('intro_updated_at', generationStartedAt)
 			.select('*')
-			.single();
+			.maybeSingle();
 
 		if (categoryUpdateError || !updatedCategory) {
-			throw categoryUpdateError ?? new Error('Failed to save generated category intro');
+			throw (
+				categoryUpdateError ??
+				new Error('Category intro generation was superseded by a newer update')
+			);
 		}
 
 		if (runRow?.id) {
@@ -432,7 +459,9 @@ export async function generateQuestionCategoryIntro(
 				intro_updated_by: adminUserId,
 				intro_context: failureContext as unknown as Json
 			})
-			.eq('id', categoryId);
+			.eq('id', categoryId)
+			.eq('intro_status', 'processing')
+			.eq('intro_updated_at', generationStartedAt);
 
 		if (runRow?.id) {
 			await supabase
@@ -447,6 +476,56 @@ export async function generateQuestionCategoryIntro(
 		}
 
 		throw caughtError;
+	}
+}
+
+async function failOrphanedQuestionCategoryIntroRuns(
+	supabase: SupabaseClient<Database>,
+	categoryId: number,
+	recoveredAt: string
+): Promise<void> {
+	const orphanedBefore = new Date(
+		new Date(recoveredAt).getTime() - CATEGORY_INTRO_ORPHANED_RUN_AGE_MS
+	).toISOString();
+	await failProcessingQuestionCategoryIntroRuns(
+		supabase,
+		categoryId,
+		recoveredAt,
+		'Generation exceeded its runtime and was superseded by a retry',
+		orphanedBefore
+	);
+}
+
+async function failProcessingQuestionCategoryIntroRuns(
+	supabase: SupabaseClient<Database>,
+	categoryId: number,
+	failedAt: string,
+	message: string,
+	startedBefore?: string
+): Promise<void> {
+	let updateQuery = supabase
+		.from('question_category_intro_runs')
+		.update({
+			status: 'failed',
+			error: message,
+			finished_at: failedAt,
+			output: null
+		})
+		.eq('category_id', categoryId)
+		.eq('status', 'processing');
+
+	if (startedBefore) {
+		updateQuery = updateQuery.lt('started_at', startedBefore);
+	}
+
+	const { error: recoveryError } = await updateQuery;
+
+	if (recoveryError) {
+		logger.warn('Failed to close processing category intro runs', {
+			categoryId,
+			startedBefore,
+			recoveryError
+		});
 	}
 }
 
@@ -474,7 +553,7 @@ export async function saveQuestionCategoryIntro(
 	);
 	const hasExistingAiOutput = Boolean(
 		currentCategory.intro_generated_at ||
-			(currentCategory.intro_source === 'ai' && currentCategory.intro_markdown)
+		(currentCategory.intro_source === 'ai' && currentCategory.intro_markdown)
 	);
 	const nextSource = hasExistingAiOutput ? 'ai_edited' : 'manual';
 	const nextStatus = normalizedMarkdown ? 'completed' : 'missing';
@@ -504,6 +583,13 @@ export async function saveQuestionCategoryIntro(
 	if (updateError || !updatedCategory) {
 		throw updateError ?? new Error('Failed to save category intro');
 	}
+
+	await failProcessingQuestionCategoryIntroRuns(
+		supabase,
+		categoryId,
+		now,
+		'Generation was superseded by a manual category intro update'
+	);
 
 	return updatedCategory;
 }

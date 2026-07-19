@@ -544,6 +544,7 @@ export class SmartLLMService {
 	private apiKey: string = PRIVATE_OPENROUTER_API_KEY;
 	private apiUrl = 'https://openrouter.ai/api/v1/chat/completions';
 	private openRouterTimeoutMs = 120000;
+	private jsonMaxTokens = 8192;
 	private openRouterMaxFallbackModels = 3;
 	private costTracking = new Map<string, number>();
 	private performanceMetrics = new Map<string, number[]>();
@@ -561,11 +562,19 @@ export class SmartLLMService {
 		appName?: string;
 		supabase?: SupabaseClient<Database>;
 		errorLogger?: LLMErrorLogger;
+		openRouterTimeoutMs?: number;
+		jsonMaxTokens?: number;
 	}) {
 		this.httpReferer = config?.httpReferer || 'https://yourdomain.com';
 		this.appName = config?.appName || 'SmartLLMService';
 		this.supabase = config?.supabase;
 		this.errorLogger = config?.errorLogger;
+		if (config?.openRouterTimeoutMs && config.openRouterTimeoutMs > 0) {
+			this.openRouterTimeoutMs = Math.floor(config.openRouterTimeoutMs);
+		}
+		if (config?.jsonMaxTokens && config.jsonMaxTokens > 0) {
+			this.jsonMaxTokens = Math.floor(config.jsonMaxTokens);
+		}
 	}
 
 	// ============================================
@@ -713,7 +722,7 @@ export class SmartLLMService {
 				response_format: this.supportsJsonMode(preferredModels[0] || 'openai/gpt-4o-mini')
 					? { type: 'json_object' }
 					: undefined,
-				max_tokens: 8192,
+				max_tokens: this.jsonMaxTokens,
 				operationType: options.operationType || 'json_response'
 			});
 
@@ -775,7 +784,7 @@ export class SmartLLMService {
 							],
 							temperature: 0.1, // Lower temperature for retry
 							response_format: { type: 'json_object' },
-							max_tokens: 8192,
+							max_tokens: this.jsonMaxTokens,
 							operationType: `${options.operationType || 'json_response'}_parse_retry_${retryCount}`
 						});
 
@@ -867,7 +876,7 @@ export class SmartLLMService {
 				requestCompletedAt,
 				status: 'success',
 				temperature: options.temperature,
-				maxTokens: 8192,
+				maxTokens: this.jsonMaxTokens,
 				profile,
 				streaming: false,
 				projectId: options.projectId,
@@ -951,7 +960,7 @@ export class SmartLLMService {
 				status: isTimeout ? 'timeout' : 'failure',
 				errorMessage: lastError.message,
 				temperature: options.temperature,
-				maxTokens: 8192,
+				maxTokens: this.jsonMaxTokens,
 				profile,
 				streaming: false,
 				projectId: options.projectId,

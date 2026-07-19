@@ -5,6 +5,10 @@ import type { RequestHandler } from './$types';
 import { requireAdmin } from '$lib/server/adminAuth';
 import { generateQuestionCategoryIntro } from '$lib/server/questionCategoryIntro';
 
+export const config = {
+	maxDuration: 60
+};
+
 export const POST: RequestHandler = async ({ params, locals }) => {
 	try {
 		const categoryId = Number(params.id);

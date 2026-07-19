@@ -131,7 +131,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'paige-spiranac', link: false, hasImage: true, lastmod: '2026-05-23', personaTitle: 'Golf\'s Watched Outsider', contentGrade: 8.1, types: ['celebrity', 'creator', 'influencer', 'lifestyle-builder'] },
 		{ name: 'paris-hilton', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Pop Culture\'s Masked Mogul', contentGrade: 9, types: ['celebrity', 'celebrity-image'] },
 		{ name: 'patrick-bet-david', link: true, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Media\'s Self-Made Strategist', contentGrade: 8.8, types: ['creator', 'entrepreneur', 'business-creator', 'business-operator'] },
-		{ name: 'pete-hegseth', link: false, hasImage: true, lastmod: '2026-07-16', personaTitle: 'The Pentagon\'s Camera-Ready Crusader', contentGrade: 8.6, types: ['politician'] },
+		{ name: 'pete-hegseth', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'The Pentagon\'s Camera-Ready Crusader', contentGrade: 8.6, types: ['politician'] },
 		{ name: 'piers-morgan', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'Media\'s Relentless Shapeshifter', contentGrade: 8.8, types: ['creator', 'news-commentator'] },
 		{ name: 'rachel-brosnahan', link: false, hasImage: true, lastmod: '2026-04-14', personaTitle: 'Television\'s Reluctant Achiever', contentGrade: 8.1, types: ['movieStar', 'screen-icon'] },
 		{ name: 'reese-witherspoon', link: false, hasImage: true, lastmod: '2026-04-10', personaTitle: 'Hollywood\'s Relentless Architect', contentGrade: 8, types: ['movieStar', 'entrepreneur', 'screen-icon', 'business-operator'] },

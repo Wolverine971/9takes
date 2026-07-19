@@ -14,10 +14,15 @@ import {
 import { generateQuestionCategoryIntro } from '$lib/server/questionCategoryIntro';
 
 type ActiveQuestionRow = { id: number };
+const MAX_BATCH_SIZE = 4;
+
+export const config = {
+	maxDuration: 60
+};
 
 const batchGenerateSchema = z.object({
 	mode: z.enum(['missing', 'stale']).default('missing'),
-	limit: z.number().int().min(1).max(25).default(5)
+	limit: z.number().int().min(1).max(MAX_BATCH_SIZE).default(MAX_BATCH_SIZE)
 });
 
 type CategoryMetadataRow = QuestionCategoryRow & {
@@ -99,24 +104,39 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		}> = [];
 		const failures: Array<{ id: number; message: string }> = [];
 
-		for (const target of targets) {
-			try {
-				const result = await generateQuestionCategoryIntro(supabase, target.id, profile.id);
-				successes.push({
-					id: result.category.id,
-					intro_status: result.category.intro_status,
-					intro_source: result.category.intro_source,
-					intro_generated_at: result.category.intro_generated_at,
-					intro_reviewed_at: result.category.intro_reviewed_at,
-					intro_updated_at: result.category.intro_updated_at
-				});
-			} catch (caughtError) {
-				failures.push({
-					id: target.id,
-					message:
-						caughtError instanceof Error ? caughtError.message : 'Failed to generate category intro'
-				});
-			}
+		const results = await Promise.all(
+			targets.map(async (target) => {
+				try {
+					const result = await generateQuestionCategoryIntro(supabase, target.id, profile.id);
+					return {
+						success: {
+							id: result.category.id,
+							intro_status: result.category.intro_status,
+							intro_source: result.category.intro_source,
+							intro_generated_at: result.category.intro_generated_at,
+							intro_reviewed_at: result.category.intro_reviewed_at,
+							intro_updated_at: result.category.intro_updated_at
+						},
+						failure: null
+					};
+				} catch (caughtError) {
+					return {
+						success: null,
+						failure: {
+							id: target.id,
+							message:
+								caughtError instanceof Error
+									? caughtError.message
+									: 'Failed to generate category intro'
+						}
+					};
+				}
+			})
+		);
+
+		for (const result of results) {
+			if (result.success) successes.push(result.success);
+			if (result.failure) failures.push(result.failure);
 		}
 
 		return json({

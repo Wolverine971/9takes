@@ -14,7 +14,15 @@ enneagram: '3'
 type: ['politician', 'modern-leader']
 person: 'donald-trump'
 suggestions:
-  ['Joe-Biden', 'Kamala-Harris', 'Hillary-Clinton', 'JD-Vance', 'Joe-Rogan', 'Vladimir-Putin']
+  [
+    'Joe-Biden',
+    'Kamala-Harris',
+    'Hillary-Clinton',
+    'JD-Vance',
+    'Pete-Hegseth',
+    'Joe-Rogan',
+    'Vladimir-Putin'
+  ]
 wikipedia: 'https://en.wikipedia.org/wiki/Donald_Trump'
 twitter: 'realDonaldTrump'
 instagram: 'realdonaldtrump'
@@ -533,4 +541,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Cut "It is not X. It is Y." down to 1-2; trim the McAdams paragraph repetition; let the linguistic-analysis section be the standout it already is.
 
 ============================================================ -->
-

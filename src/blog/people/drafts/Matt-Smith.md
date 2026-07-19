@@ -13,7 +13,7 @@ published: true
 enneagram: '7'
 type: ['movieStar', 'celebrity']
 person: 'Matt-Smith'
-suggestions: ['David-Tennant', 'Claire-Foy', 'Olivia-Cooke', 'Benedict-Cumberbatch']
+suggestions: ['David-Tennant', 'Claire-Foy', 'Olivia-Cooke', 'Milly-Alcock', 'Benedict-Cumberbatch']
 wikipedia: 'https://en.wikipedia.org/wiki/Matt_Smith'
 wikidata_qid: 'Q312385'
 imdb_id: 'nm1741002'
@@ -451,5 +451,3 @@ Lint: ./scripts/blog-lint.sh Matt-Smith → 0 fail, 0 warn (no prose em-dashes, 
 Regrade: B+ (8.6) → A (9.0). Discoverability 8→9 (meta_title), Evidence 8→9 (Task 2 sourcing), rest held at 9.
 lastmod untouched.
 -->
-
-

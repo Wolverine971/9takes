@@ -11,6 +11,7 @@ import {
 	buildQuestionCategoryPath,
 	buildQuestionCategorySlug
 } from '$lib/utils/questionCategorySlug';
+import { hasSubstantiveQuestionCategoryIntro } from '$lib/utils/questionCategorySeo.js';
 import type { PageServerLoad } from './$types';
 import {
 	buildQuestionCategoryIntroDescription,
@@ -112,6 +113,7 @@ export const load: PageServerLoad = async (event) => {
 	return {
 		parents,
 		childCategories: currentCategoryNode.children,
+		isIndexable: hasSubstantiveQuestionCategoryIntro(questionTag.intro_markdown),
 		currentCategory: {
 			directQuestionCount: currentCategoryNode.directQuestionCount,
 			subtreeQuestionCount: currentCategoryNode.subtreeQuestionCount

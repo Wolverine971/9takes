@@ -13,7 +13,7 @@
 	let categoryOverrides = $state<Record<number, Partial<CategoryRow>>>({});
 	let searchQuery = $state('');
 	let activeFilter = $state<CategoryFilter>('eligible');
-	let batchSize = $state(5);
+	let batchSize = $state(4);
 	let generatingCategoryIds = $state<number[]>([]);
 	let reviewingCategoryIds = $state<number[]>([]);
 	let activeBatchMode = $state<BatchMode | null>(null);
@@ -389,7 +389,7 @@
 			<div class="batch-controls">
 				<label class="batch-field">
 					<span>Batch Size</span>
-					<input type="number" min="1" max="25" bind:value={batchSize} />
+					<input type="number" min="1" max="4" bind:value={batchSize} />
 				</label>
 				<button
 					type="button"

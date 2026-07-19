@@ -118,6 +118,16 @@
 			"permanent": true
 		},
 		{
+			"source": "/personality-analysis/charli-d-27amelio",
+			"destination": "/personality-analysis/charli-damelio",
+			"permanent": true
+		},
+		{
+			"source": "/personality-analysis/dixie-d-27amelio",
+			"destination": "/personality-analysis/dixie-damelio",
+			"permanent": true
+		},
+		{
 			"source": "/personality-analysis/kanye-west",
 			"destination": "/personality-analysis/kanye",
 			"permanent": true

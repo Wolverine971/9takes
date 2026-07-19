@@ -4,12 +4,12 @@ meta_title: "Why Pete Hegseth Can't Stop Performing the Warrior (Type 3)"
 persona_title: "The Pentagon's Camera-Ready Crusader"
 description: "Why does the Secretary of War need the cameras this badly? The axe throw, the tattoo, and the purge that reveal Pete Hegseth's Enneagram Type 3 pattern."
 author: 'DJ Wayne'
-date: '2026-07-16'
+date: '2026-07-19'
 loc: 'https://9takes.com/personality-analysis/pete-hegseth'
-lastmod: '2026-07-16'
+lastmod: '2026-07-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['politician']
 person: 'pete-hegseth'

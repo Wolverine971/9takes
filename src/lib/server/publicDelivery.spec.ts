@@ -137,4 +137,19 @@ describe('public delivery policy', () => {
 			expect(redirects.get(source)).toEqual({ source, destination, permanent: true });
 		}
 	});
+
+	it('recovers apostrophe slugs normalized by the Vercel edge', () => {
+		const config = JSON.parse(readFileSync(path.join(ROOT, 'vercel.json'), 'utf8')) as {
+			redirects?: Array<{ source: string; destination: string; permanent?: boolean }>;
+		};
+		const redirects = new Map((config.redirects ?? []).map((entry) => [entry.source, entry]));
+		const expected = new Map([
+			['/personality-analysis/charli-d-27amelio', '/personality-analysis/charli-damelio'],
+			['/personality-analysis/dixie-d-27amelio', '/personality-analysis/dixie-damelio']
+		]);
+
+		for (const [source, destination] of expected) {
+			expect(redirects.get(source)).toEqual({ source, destination, permanent: true });
+		}
+	});
 });

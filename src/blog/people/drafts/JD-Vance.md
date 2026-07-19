@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['politician', 'campaign-politician']
 person: 'jd-vance'
-suggestions: ['Donald-Trump', 'Peter-Thiel', 'Tucker-Carlson', 'Gavin-Newsom']
+suggestions: ['Donald-Trump', 'Peter-Thiel', 'Tucker-Carlson', 'Pete-Hegseth', 'Gavin-Newsom']
 wikipedia: 'https://en.wikipedia.org/wiki/JD_Vance'
 twitter: 'JDVance'
 instagram: 'jdvance'
@@ -427,4 +427,3 @@ PRIORITY FIXES:
 3. Open the dual-audience Fuentes / Psaki "eat shit" private quote. This is the single best Three-shaped-dual-audience evidence in the batch — public statement crafted for one room, private statement crafted for another, both authentic-sounding. Right now it's the last sentence of a paragraph. Build a paragraph around it.
 
 ============================================================ -->
-

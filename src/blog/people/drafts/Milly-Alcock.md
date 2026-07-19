@@ -2,7 +2,7 @@
 title: 'Milly Alcock: Enneagram Type 6 Analysis'
 meta_title: "Why Milly Alcock Can't Stop Flinching at Her Own Success"
 persona_title: 'The Understudy Who Cast Herself'
-description: 'Milly Alcock called her own agent at 13. Now she calls her director to ask permission. Inside the Type 6 anxiety pattern under the Supergirl cape.'
+description: 'Milly Alcock''s Supergirl flopped and the backlash got personal. Why the anxious Type 6 who cold-called her own agent at 13 refused to back down.'
 author: 'DJ Wayne'
 date: '2026-04-23'
 loc: 'https://9takes.com/personality-analysis/milly-alcock'
@@ -48,21 +48,30 @@ citations:
   - 'https://www.youtube.com/watch?v=UmV5jfybAwo'
   - 'https://www.youtube.com/watch?v=D2w8rcYm0Ys'
   - 'https://www.youtube.com/watch?v=Cth26PIfQUU'
+  - 'https://en.wikipedia.org/wiki/Supergirl_(2026_film)'
+  - 'https://variety.com/2026/film/features/milly-alcock-supergirl-interview-sexism-superheroes-1236753786/'
+  - 'https://variety.com/2026/film/features/milly-alcock-supergirl-journey-audition-sexist-backlash-1236788628/'
+  - 'https://www.flaunt.com/post/milly-alcock-chasing-the-sun-issue'
+  - 'https://www.brit.co/supergirl-interview-milly-alcock-craig-gillespie/'
+  - 'https://www.rottentomatoes.com/m/supergirl_2026'
 faqs:
   - question: "What is Milly Alcock's personality type?"
     answer: "Milly Alcock is an Enneagram Type 6 (The Loyalist), specifically a 6w7. The pattern shows in the thirteen-year-old who cold-called her own agent because 'no one's going to do it for me,' the day-two acting coach she took as confirmation she didn't belong, the 'I'm not very good at my job' line she delivers as a pre-emptive defense, and the call to her Supergirl director confessing 'I don't know how to be that person. I'm just me.' The 7 wing supplies the giggles and the humor that contain the anxiety."
     anchor: 'what-is-milly-alcocks-personality-type'
   - question: 'How did Milly Alcock get cast in House of the Dragon?'
-    answer: "She was washing dishes in a Petersham restaurant and living in her mum's attic when HBO sent a self-tape for an unnamed project with the names blacked out — a friend recognized it as a Game of Thrones scene, which Milly had never watched. She shot it on a phone, and six months later landed Princess Rhaenyra Targaryen. Her reaction: 'This doesn't happen to people like me.'"
+    answer: "She was washing dishes in a Petersham restaurant and living in her mum's attic when HBO sent a self-tape for an unnamed project with the names blacked out. A friend recognized it as a Game of Thrones scene, which Milly had never watched. She shot it on a phone, and six months later landed Princess Rhaenyra Targaryen. Her reaction: 'This doesn't happen to people like me.'"
     anchor: 'the-day-two-acting-coach'
   - question: 'Why did Milly Alcock think her life was over at 22?'
-    answer: "House of the Dragon's timeline jump handed Rhaenyra to Emma D'Arcy — a replacement written into Alcock's contract from day one. She wasn't in the edit or the marketing, and the structure that said 'you are allowed to be here' was gone. She later described the fear plainly: maybe twenty-two was the peak. Then Netflix offered her the lead in Sirens and James Gunn offered her Supergirl."
+    answer: "House of the Dragon's timeline jump handed Rhaenyra to Emma D'Arcy, a replacement written into Alcock's contract from day one. She wasn't in the edit or the marketing, and the structure that said 'you are allowed to be here' was gone. She later described the fear plainly: maybe twenty-two was the peak. Then Netflix offered her the lead in Sirens and James Gunn offered her Supergirl."
     anchor: 'why-milly-alcock-thought-her-life-was-over-at-22'
   - question: 'Why did Milly Alcock take Sirens after House of the Dragon?'
-    answer: "Instead of chasing another franchise, she took a five-episode Netflix character study opposite Julianne Moore and Meghann Fahy, playing Simone DeWitt — the photographic negative of Rhaenyra, a personal assistant who clawed into someone else's status. The article reads it as a classic Six hedge: build a second tower in case the first one falls. Critics singled her out by name, proving audiences would follow her into a different show."
+    answer: "Instead of chasing another franchise, she took a five-episode Netflix character study opposite Julianne Moore and Meghann Fahy, playing Simone DeWitt, the photographic negative of Rhaenyra, a personal assistant who clawed into someone else's status. The article reads it as a classic Six hedge: build a second tower in case the first one falls. Critics singled her out by name, proving audiences would follow her into a different show."
     anchor: 'the-sirens-detour'
   - question: 'How is Milly Alcock handling the Supergirl backlash?'
-    answer: "By pre-empting the verdict. She told Vanity Fair she was 'utterly terrified,' conceded Scorsese and Scott's old anti-superhero arguments rather than fighting them ('Not every film is for everyone'), and has spent years drilling a flat Midwestern accent with the same repetition that built Rhaenyra's English vowels. Her summary: 'Of course I'm scared... But ultimately, it's out of my control.'"
+    answer: "Supergirl opened in June 2026 to a soft box office and mixed reviews, but critics singled Alcock out as the best thing in it. Instead of the anxious retreat her Type 6 pattern predicts, she went counter-phobic. When a Vanity Fair comment about the 'weird ownership of women's bodies' went viral and the pile-on turned personal, she refused to walk it back: 'I didn't even say men, I said people. And they got so angry. I was like, you're proving my point.' Underneath, her stance held: she can't control public opinion, only which world she chooses to exist in."
+    anchor: 'how-milly-alcock-handles-the-supergirl-backlash'
+  - question: 'Did Supergirl flop, and how was Milly Alcock reviewed?'
+    answer: "Supergirl opened on June 26, 2026 to roughly $37 million domestically, well below its $55 million tracking, dropped about 74% the following weekend, and is projected to lose money. Reviews were mixed, with Rotten Tomatoes in the low 50s, but the critical consensus was near-unanimous that Alcock herself was the highlight, praising the 'swagger' she brought to Kara Zor-El. Despite the flop, James Gunn re-cast her as Supergirl in the DCU sequel Man of Tomorrow."
     anchor: 'how-milly-alcock-handles-the-supergirl-backlash'
 instagram: 'millyalcock'
 production_pretext:
@@ -94,7 +103,10 @@ path: src/blog/people/drafts/Milly-Alcock.md
 2. Emily Carey: "We're very lucky in that we get along in real life, so the chemistry came very organically. We're quite like our characters." — New York Times, 2022
 3. Miguel Sapochnik (director, House of the Dragon): "Just trust that you both have it." — press interview, 2022 (used in body re: don't-meet-Emma-D'Arcy beat)
 4. Meghann Fahy (co-star, Sirens): "You're a great hang. You're a cool girl… I adore you, dude." — Sirens press interview, May 2025
-Total qualifying quotes: 4
+5. Craig Gillespie (director, Supergirl): "She's so beautifully candid and honest and open. She's that as a person, and you see it in her performances." — Rolling Stone PH, 2026 (used in body, closing section)
+6. Rotten Tomatoes critics' consensus (2026): "Milly Alcock brings a swagger to Kara Zor-El that'd make Krypton proud... a promising new hero in the DCU." — critical reception, Supergirl section
+7. Brian Truitt (USA Today, 2026): "Alcock is superb at giving her likable depth while also maintaining an unpredictability." — critical reception, Supergirl section
+Total qualifying quotes: 7 (4 collaborator/co-star, 1 director, 2 critical-reception added in 2026-07-19 update)
 -->
 
 <!-- HEADING MIX LEDGER (updated 2026-04-23 after fresh-eyes review)
@@ -122,7 +134,9 @@ All other Six references are single-sentence bridges inside narrative paragraphs
 Note: Distribution increased after expanding the work-and-craft sections per fresh-eyes feedback. Body now does more diagnostic work outside the standalone diagnosis section, which is appropriate given the added biographical material.
 -->
 
-> "I'm not very good at my job." — Milly Alcock, _The Tonight Show with Jimmy Fallon_, 2025
+> "I'm not very good at my job."
+>
+> Milly Alcock, _The Tonight Show with Jimmy Fallon_, 2025
 
 <p class="firstLetter">At thirteen, Milly Alcock picked up the phone and called an agency in Sydney. She asked for an audition. No one had suggested it. No one had taken her. She had just learned something she would later say in every version of the same sentence: no one was going to do it for her. So she did it.</p>
 
@@ -134,7 +148,7 @@ On day two of filming, someone very high up at HBO pulled her aside. "We're gonn
 
 Years later, on her first ever American talk show, Milly told that story to Jimmy Fallon and delivered the epigraph of this piece as a punchline. The audience laughed. It landed as humility. It was actually a thesis.
 
-Two performances. One person. The thirteen-year-old cold-calling agents. The twenty-five-year-old telling a network television host she's an imposter. Both of them are her. That is the door she keeps opening and flinching through.
+Two performances. One person. The thirteen-year-old cold-calling agents. The twenty-six-year-old telling a network television host she's an imposter. Both of them are her. That is the door she keeps opening and flinching through.
 
 <details>
 <summary class="accordion">TL;DR: Why Milly Alcock is an Enneagram Type 6</summary>
@@ -144,7 +158,7 @@ Two performances. One person. The thirteen-year-old cold-calling agents. The twe
 <li><b>Counter-phobic action, phobic collapse.</b> She builds her own door at 13. She freezes at 22 when the door actually opens.</li>
 <li><b>Tell-on-yourself as defense.</b> She disarms every interviewer by being the first to doubt herself out loud. The self-deprecation reads as humility. It is actually a perimeter.</li>
 <li><b>Loyalty is her currency.</b> Emily Carey. Paddy Considine. Rhys Ifans. Meghann Fahy. She doesn't light up for the role. She lights up for the people in it with her.</li>
-<li><b>Under the cape: the same attic kid.</b> Supergirl is the biggest franchise test a Six could fail. Her strategy for surviving it is not becoming anyone new.</li>
+<li><b>Under the cape: the same attic kid.</b> Supergirl flopped and the reviews said she deserved better. When the pile-on came, the anxious Six went counter-phobic and refused to shrink. Her strategy for surviving it was never becoming anyone new.</li>
 </ul>
 </div>
 </details>
@@ -165,7 +179,7 @@ Riso and Hudson describe Sixes as having "both phobic and counter-phobic" impuls
 
 <div class="pull-quote">
 "I enrolled myself into high school and told my mum when the audition was. I called up my agent when I was 13, because I learned very young that no one's going to do it for me."
-— Milly Alcock, Vogue Australia
+Milly Alcock, Vogue Australia
 </div>
 
 The [wing](/enneagram-corner/enneagram-wings-complete-guide) call is Six with a Seven wing. The 7 wing gives her the giggles onstage at the Golden Globes, the chilli oil on ice cream, the obsession with the Australian punk band Amyl and the Sniffers that her co-stars Paddy Considine and Rhys Ifans kept feeding her. 6w7s are the warmer, funnier, more outwardly social Sixes. They use humor to outrun the doubt. Milly tells on herself before anyone else can, and she makes it a bit. That is the 7 wing doing the job the 6 cannot.
@@ -183,12 +197,14 @@ The family didn't model acting. They didn't encourage it or discourage it; they 
 So at six she wore a denim skirt and cowboy boots in her church theatre's _Little Red Rocking Hood_. At thirteen she phoned that Sydney agency on her own landline. By the time she was fifteen, she had enrolled herself in Newtown High School of the Performing Arts and informed her mother of the audition date.
 
 <div class="source-card">
-<strong>Source:</strong> Flaunt Magazine, August 2022 — "Go Ahead, Unleash That Voice." Alcock describes rewinding a stolen Blockbuster DVD of <em>Breakfast at Tiffany's</em> obsessively as a child. Later, on the <em>Sirens</em> press tour, she names <em>Annie</em> and <em>Matilda</em> as the films that made her want to act.
+<strong>Source:</strong> Flaunt Magazine, August 2022, "Go Ahead, Unleash That Voice." Alcock describes rewinding a stolen Blockbuster DVD of <em>Breakfast at Tiffany's</em> obsessively as a child. Later, on the <em>Sirens</em> press tour, she names <em>Annie</em> and <em>Matilda</em> as the films that made her want to act.
 </div>
 
 Notice the pattern in the movies she fixated on. _Breakfast at Tiffany's_, a woman performing a self she invented. _Annie_, a kid nobody came to rescue, rescuing herself. _Matilda_, a brilliant child in a house that doesn't understand her, finding her own power. Three films about girls who had to cast themselves before anyone else would. Milly didn't memorize _Annie_ by accident. She was reading the instruction manual.
 
 The bridge from school plays to HBO was a small Australian comedy almost no American reader has heard of. _Upright_, created by Tim Minchin for Sky and Foxtel, cast her as Meg Adams, a foul-mouthed runaway teenager who literally crashes her car into Lucky Flynn's life and ends up shotgunning an upright piano across the Outback toward his dying mother. The show ran two seasons. She dropped out of school to do it ("Education was never really my thing"). The role required her to hold the screen opposite a 45-year-old composer-comedian for hour-long episodes. It's the proof reel that got her the redacted Rhaenyra tape. Without _Upright_, no Targaryen. Without Tim Minchin's piano, no Iron Throne.
+
+Years later she named what Minchin had actually given her. "He was the first person to ever really see me," she told Flaunt. "I truly believe that each and every one of us just needs one person to see us and then we're unstoppable." That is the Six's whole formula in one sentence: one trustworthy set of eyes turns a scared kid unstoppable.
 
 The wound under all of this, if you want to call it one, isn't abandonment but _under-resourcing_. The quiet realization that if her life was going to shape itself around acting, she was the only one with the blueprints.
 
@@ -252,22 +268,30 @@ The same perimeter she runs around her work runs around her life. She kept her r
 
 The cape was the harder bet.
 
-_Supergirl_ isn't a role in the normal sense. It's a franchise. It's millions of people building an image of who she is, most of whom have never heard her speak, all of whom will have an opinion. For a Six, that's the exact nightmare: an authority built around you, about you, without your consent.
+_Supergirl_ isn't a role in the normal sense. It's a franchise. Millions of people build an image of who she is, most of whom have never heard her speak, all of whom will have an opinion. For a Six, that's the exact nightmare: an authority built around you, about you, without your consent.
 
-She did what she has done for every job since the agency call at thirteen: she pre-empted the verdict.
+So she did what she has done for every job since the agency call at thirteen. She pre-empted the verdict. Months before release she ran the interviews, told _Vanity Fair_ she was "utterly terrified," told the _Hollywood Reporter_ she expected backlash. Asked her biggest fear, she gave the Six's honest inventory: that it wouldn't do well, that she'd never work again, that she'd be rejected in some way. When reporters raised the old Scorsese and Ridley Scott broadsides against superhero films, comments aimed at Marvel years before her _Supergirl_ existed, she conceded the point instead of fighting it and kept her own small piece of ground.
 
-She did the interviews before the film came out. She told Vanity Fair she was "utterly terrified." She told the _Hollywood Reporter_ she expected backlash. When a _Deadline_ reporter brought up Martin Scorsese's and Ridley Scott's old, generic broadsides against the superhero genre (comments aimed at Marvel years before her Supergirl existed), she didn't flinch and she didn't posture. _"I get it. They've been around for fucking ever making phenomenal films. Not every film is for everyone. The beauty of art is that you can be selective."_
+She even told Vogue Australia she'd built Kara out of her own fear. "She's someone who doesn't want to be a hero. She doesn't want the responsibility she has. She's very scared of it. She's escaping it. And they were all things I could really relate to." An anxious actress cast as the most powerful girl in the universe, playing a girl who doesn't want the power. She pointed right at the seam instead of hiding it.
 
-Notice what she didn't do. She didn't defend the genre. She didn't argue. She didn't perform excitement. She conceded the critics' best point, then held her small piece of ground. _You're right, and also I'm going to keep doing my thing._ She gave two Oscar legends the terrain they were asking for and kept the door to her own work open.
+Then the movie came out, and the thing she'd rehearsed for arrived on schedule. _Supergirl_ opened June 26, 2026 to about $37 million domestically, well under the $55 million the studio had tracked. It fell roughly 74% the next weekend, one of the steepest drops a superhero film has ever posted, and slid toward a nine-figure loss. Rotten Tomatoes settled in the low fifties, and critics called the film flat and overfamiliar.
 
-There is also the simple physical fact of the role. Supergirl is American. Alcock is from Sydney. She has spent years training her voice into a flat Midwestern accent, the same dialect-coach repetition that built Rhaenyra's English vowels, now being run in reverse. Casting directors had been telling her for years that an American accent would help her land more parts. Now, on the biggest stage available, she is doing it in a cape, and any seam in the dialect will be screen-grabbed and turned into a TikTok before the credits roll. She isn't facing that exposure with bravado. She's facing it by repeating the line in a coach's office until she stops hearing herself.
+Here is the part a Six spends her whole life not daring to hope for. Almost every review that buried the movie stopped to defend her. The Rotten Tomatoes consensus said she "brings a swagger to Kara Zor-El that'd make Krypton proud." USA Today called her "superb." One critic wrote that the trolls who trashed her sight-unseen "need to eat crow." The verdict she'd braced against for two years came back split clean down the middle: the vehicle failed, and she was the reason anyone called it watchable.
 
-The Vanity Fair quote captures the same engine: _"Of course I'm scared. Of course I want people to like me and the movie. But ultimately, it's out of my control."_ She names the fear. She names the desire. Then she names the only Six-shaped solution: _control what you can, trust what you have to._
+The other half of the story got louder than the box office. That spring, in the _Vanity Fair_ interview, she'd said one sentence about being a woman in this kind of space. It went viral. It turned into a flashpoint. And the backlash that followed was not about her accent or her acting. It got personal.
 
 <blockquote class="twitter-tweet">
 "It definitely made me aware that simply existing as a woman in that space is something that people comment on. We have become very comfortable having this weird ownership of women's bodies. I can't really stop them. I can only be myself."
-— Milly Alcock to Vanity Fair, 2026
+Milly Alcock, Vanity Fair
 </blockquote>
+
+A Six under that kind of fire is supposed to fold. Appease, go quiet, wait it out. She did the opposite. Asked about the anger the comment provoked, she sharpened it instead of softening it. _"I didn't even say 'men,' I said 'people!' And they got so angry. I was like, 'You're proving my point. You're proving my point!'"_
+
+That is the half of the Six engine the humility hides. The thirteen-year-old who cold-called an agent because no one was going to do it for her is the same person who, cornered by a crowd, refused to hand it the apology it wanted. Sixes run on two settings. Phobic: defer, appease, seek the safety of the group. Counter-phobic: run straight at the fear before it can run at you. She had spent the whole press tour phobic, telling on herself before anyone else could get the chance. The moment the threat stopped being hypothetical and became an actual mob, she flipped counter-phobic and planted her feet in it.
+
+The accent ran underneath all of it. Supergirl is American and Alcock is from Sydney, and she'd built the flat Midwestern the way she built Rhaenyra's English vowels, through supervised repetition until she stopped hearing herself, knowing any seam would be a screenshot before the credits rolled. She never met that exposure with bravado. She met it by running the line until it went quiet.
+
+She still framed the whole thing as control, which is the most Six move in the piece. "I don't have the power to change the world or public opinion," she told Flaunt. "Choosing which world to exist in is incredibly important." She can't govern the reaction. She can govern where she stands. So she picked her ground and stopped refreshing the page.
 
 ---
 
@@ -279,9 +303,11 @@ The most recent version of that call went to Craig Gillespie. She had just been 
 
 For a Six, that is the whole architecture in one phone call. Concede the doubt. Name the limitation. Hand the authority figure the worst-case version of you before he gets a chance to discover it on his own. The director can now only be pleasantly surprised. The Six has built a floor under the worst possible review and can walk forward without checking it again. The audience hears _humility_. The Six hears _safety_.
 
+Gillespie wasn't looking for someone who already knew how to be Supergirl. "She's so beautifully candid and honest and open," he said of her. "She's that as a person, and you see it in her performances." The thing she called to apologize for was the thing he cast her for.
+
 When she can't reach the voice on the other end of the line, on the Golden Globes stage, in front of Rihanna, inside a Supergirl suit that still feels borrowed, she falls back to the one-line confession she opens every interview with. _I'm not very good at my job._ The audience laughs. The anxiety has a container. She gets through the night.
 
-There's a version of Milly Alcock's career where the next phase goes fine. The movie lands, the backlash is survivable, the work gets easier. There's another version where it doesn't, and she has to do what she has been training for since she was thirteen: cast herself again, from scratch, with no one in the room willing to do it for her. Either way, she has practiced the line.
+For two years she rehearsed both endings. In one, the movie lands and the work gets easier. In the other, it fails and she has to cast herself again from scratch, with no one in the room willing to do it for her. What happened was neither and both. The movie failed. The reviews said she deserved better. And James Gunn, who had every commercial reason to quietly move on, cast her as Supergirl again in the next film. The structure she was sure would drop her held anyway, and it held while she was still braced for the fall. The floor she keeps testing turned out to be there.
 
 The Targaryen heir, the billionaire's assistant, the Kryptonian, the Golden Globe winner: all of them are the same person, and none of them are the person she thinks she's supposed to become. She'll keep being the kid who picked up the phone, terrified, and dialed anyway.
 
@@ -316,6 +342,18 @@ Primary interviews and press used for this draft:
 - Forbes interview — "What have I done?" / "I really struggled to believe I could do it": referenced in The Movie Blog: https://www.themovieblog.com/2025/12/milly-alcock-reveals-the-thrill-and-fear-behind-becoming-supergirl/
 - Miguel Sapochnik / Ryan Condal press — "just trust that you both have it": ScreenRant interview: https://screenrant.com/house-of-the-dragon-ryan-j-condal-miguel-sapochnik-interview/
 - Wikipedia — biographical facts (born April 11, 2000, Petersham Sydney, Newtown HSPA): https://en.wikipedia.org/wiki/Milly_Alcock
+
+ADDED IN 2026-07-19 UPDATE (Supergirl release + press tour):
+- Supergirl (2026 film), Wikipedia — release June 26 2026, budget, box office, RT 54% / MC 50 / CinemaScore B-, critics' consensus ("brings a swagger to Kara Zor-El that'd make Krypton proud"): https://en.wikipedia.org/wiki/Supergirl_(2026_film)
+- Rotten Tomatoes, Supergirl (2026) — critics vs audience split, consensus: https://www.rottentomatoes.com/m/supergirl_2026
+- Variety cover profile (Kate Aurthur, spring 2026) — "biggest fears" inventory ("never work again... rejected in some way"), control quotes ("you don't choose what you say, what you wear, where you stand, how it's cut"), and the doubling-down on the backlash ("I didn't even say men, I said people... You're proving my point"): https://variety.com/2026/film/features/milly-alcock-supergirl-interview-sexism-superheroes-1236753786/
+- Variety, "Journey: Audition to Sexist Backlash": https://variety.com/2026/film/features/milly-alcock-supergirl-journey-audition-sexist-backlash-1236788628/
+- Vogue Australia (Alison Veness, ~May 2026) — Kara built out of her own fear ("doesn't want to be a hero... very scared of it... escaping it... things I could really relate to"), "still Milly," "little girls in Supergirl outfits": via https://www.supermanhomepage.com/sydney-girl-done-super-milly-alcock-lands-her-vogue-australia-moment/
+- Flaunt "Chasing the Sun" (Issue 205, 2026) — Tim Minchin "first person to ever really see me"; "this is all happening to somebody else"; "I don't have the power to change the world or public opinion... choosing which world to exist in is incredibly important": https://www.flaunt.com/post/milly-alcock-chasing-the-sun-issue
+- Brit + Co (Chloe Williams, June 19 2026) — "I have good hair. It's the best thing about me"; Gillespie on her training/on-set candor: https://www.brit.co/supergirl-interview-milly-alcock-craig-gillespie/
+- Box office: opening ~$37.1M domestic vs ~$55M tracking, ~74% second-weekend drop (one of the worst in superhero history), projected nine-figure loss (Variety, Forbes, ScreenRant, CBR).
+- DCU future: re-cast as Supergirl in James Gunn's Man of Tomorrow (2027); Safran "major role in the future of the DCU": https://screenrant.com/milly-alcock-james-gunn-dcu-return-supergirl-box-office/
+- Note on handling: the "her comments tanked the movie" causal claim comes from partisan/culture-war outlets (OutKick, Megyn Kelly) and is NOT the critical consensus (critics blamed the film's script/tone). Kept the read strictly psychological; the "goes both ways" character-sexuality remark and named political attacks were deliberately left out to avoid amplifying culture-war framing.
 -->
 
 <!-- FRESH-EYES REVIEW RESPONSE (2026-04-23, second pass)

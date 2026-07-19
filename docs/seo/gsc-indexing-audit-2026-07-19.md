@@ -1,4 +1,5 @@
 <!-- docs/seo/gsc-indexing-audit-2026-07-19.md -->
+
 # Google Search Console — Page Indexing Audit & Fixes (2026-07-19)
 
 Handoff doc. Everything needed to continue is inline (don't rely on chat history).
@@ -17,7 +18,9 @@ The 764 "not indexed" is **mostly benign or already-fixed-and-stale**, not 764 l
 
 - 1 real root-cause bug found and fixed: **malformed personality slugs** (apostrophes/dots/accents). **DB fix is LIVE**; code hardening + redirects committed & pushed (deploys on next Vercel build).
 - 2 clean redirects added.
-- 1 open decision for DJ: **soft-404 thin category pages** (investigated; recommendation below).
+- Soft-404 category policy implemented locally: categories without substantive intro copy are
+  `noindex, follow` and excluded from the generated sitemap.
+- First priority category repaired in production: **Relationships** now has a reviewed manual intro.
 - 1 data-debt flag: duplicate Brené Brown rows.
 
 ---
@@ -116,9 +119,55 @@ curl -s "https://9takes.com/personality-analysis/jk-rowling" \
 
 ---
 
+## Follow-up work completed later on 2026-07-19
+
+These changes are in the working tree and are **not committed or deployed yet** unless explicitly
+described as live below.
+
+### Category indexing policy
+
+- Added one shared `hasSubstantiveQuestionCategoryIntro` predicate.
+- `/questions/categories/[slug]` now emits `index, follow` only when saved intro markdown is
+  substantive; otherwise it emits `noindex, follow`.
+- `scripts/generate-sitemap.js` applies the same predicate, so no-intro category URLs are omitted
+  from the next generated sitemap.
+- Added focused coverage in the category SEO, sitemap, and public-delivery test suites.
+- Added explicit redirects for the encoded Charli and Dixie D'Amelio URL variants.
+- DJ is regenerating the sitemap separately; do not treat the current generated file as part of
+  this handoff.
+
+### Category intro production work
+
+- The admin queue showed 25 eligible categories: 22 missing/failed and 3 stale AI intros.
+- The first live AI attempt for `relationships` exposed a runtime bug. Production bundles the route
+  into a 15-second Vercel function while the OpenRouter client can wait 120 seconds. Vercel killed
+  the request and left run `509d5c08-f4b8-4008-a165-49a979e41c74` in `processing`.
+- Local hardening now:
+  - isolates single and batch generation in a 60-second function;
+  - uses the fast JSON model route with a 25-second provider timeout and 1,024-token cap;
+  - limits batches to four and runs those four concurrently;
+  - recovers orphaned runs on retry;
+  - prevents late AI responses from overwriting newer manual edits;
+  - closes processing runs when a manual save supersedes generation.
+- A production build completed and the emitted Vercel function config was verified at
+  `maxDuration: 60`.
+- Since the runtime fix is not deployed, `relationships` was completed through the existing manual
+  editor. It is **LIVE**, `intro_status=completed`, `intro_source=manual`, reviewed, and the public
+  page returns 200 with the intro, meta description, canonical, and `index, follow`.
+
 ## OPEN ITEMS (next agent picks up here)
 
-### A. Soft 404s — 15 thin `/questions/categories/*` pages ← DECISION PENDING (DJ)
+### A. Deploy and verify the category intro runtime fix
+
+After the working-tree changes deploy:
+
+1. Retry one missing category from `/admin/categories` and confirm it completes in under 60 seconds.
+2. Confirm the old Relationships run is recovered or close it through a sanctioned admin workflow.
+3. Generate a small batch and inspect every draft before marking it reviewed.
+4. Continue priority order by subtree count; avoid overwriting the reviewed manual Relationships
+   intro.
+
+### B. Soft 404 background — 15 thin `/questions/categories/*` pages
 
 Investigated. All 15 have **0 intro content** (`intro_status='missing'`) and **1–6 questions**
 (`relationships` has 33 via descendants but 0 direct). Google reads near-empty category pages as soft-404.
@@ -127,10 +176,11 @@ Investigated. All 15 have **0 intro content** (`intro_status='missing'`) and **1
 
 Route: `src/routes/questions/categories/[slug]/+page.server.ts` (+ `+page.svelte`). No existing noindex/robots logic there. Intro system: `intro_markdown`/`intro_status`/`intro_description` columns on `question_categories`; `src/lib/server/questionCategoryIntro.ts`. No ready CLI generator found (only `generate-sitemap.js` reads intro fields).
 
-**Recommendation (DJ was asked, leaning toward implementing the noindex):**
+**Policy now implemented locally:**
 
-1. **Now (code):** `noindex` category pages with no intro AND few questions (threshold TBD, e.g. <5 direct questions). Stops soft-404s + saves crawl budget. Reversible.
-2. **Later (content):** generate intros for categories worth ranking, then drop the noindex.
+1. `noindex, follow` every category without substantive intro markdown.
+2. Generate and review intros for categories worth ranking; a saved intro automatically makes the
+   page indexable and eligible for the generated sitemap.
 
 Query used to count questions per category (join `question_category_tags.tag_id` → `question_categories.id`; recurse `parent_id` for descendants):
 
@@ -145,11 +195,11 @@ skill-acquisition(2) social-movements(3) life-events(4) friendships(4)
 self-awareness-and-self-understanding(5) romantic-relationships(6) relationships(33 via children, 0 direct)`
 (+1 more not captured; pull the full list from the GSC Soft 404 drilldown.)
 
-### B. Data debt — duplicate Brené Brown rows
+### C. Data debt — duplicate Brené Brown rows
 
 `blogs_famous_people`: id **824** = `brené-brown` (empty draft, no content, `published=false`) and id **974** = `brene-brown` (real 21K-word draft, `published=false`). Both unpublished → no live/GSC impact. 824 is a dead duplicate; delete when convenient. This collision is why `--published-only` was needed (824 normalizes to `brene-brown` and collides with 974).
 
-### C. Optional GSC action (DJ, in the GSC UI)
+### D. Optional GSC action (DJ, in the GSC UI)
 
 Hit **"Validate Fix"** on Server error (5xx), Redirect error, and the personality-analysis 404s to nudge re-crawl. Not required — they clear on their own.
 

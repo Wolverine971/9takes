@@ -200,7 +200,7 @@ The social secondary is what puts him on stage at all. Biweekly Vision Quest add
 
 Under pressure, Dario reaches toward Type 7. "Machines of Loving Grace" is the tell — 14,000 words imagining AI curing every major disease, lifting the developing world out of poverty, solving mental health. A centered 5 wouldn't write that essay. A stressed 5 reaches for the 7's possibility-generator to keep the doom map bearable. The essay's scope is escape velocity from a risk surface the Investigator can't tolerate sitting inside any longer.
 
-In growth he moves toward Type 8. The Pentagon red lines are the clearest case: refusing Hegseth's demand to strip the autonomy and surveillance clauses, filing federal suits after the Supply-Chain Risk designation, walking 14 researchers out of OpenAI when the safety argument stalled. Healthy 5-to-8 looks like this — decisive confrontation backed by the map, not chest-thumping. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 5s borrow 8's gut-center force under growth.
+In growth he moves toward Type 8. The Pentagon red lines are the clearest case: refusing [Pete Hegseth's](/personality-analysis/pete-hegseth) demand to strip the autonomy and surveillance clauses, filing federal suits after the Supply-Chain Risk designation, walking 14 researchers out of OpenAI when the safety argument stalled. Healthy 5-to-8 looks like this — decisive confrontation backed by the map, not chest-thumping. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 5s borrow 8's gut-center force under growth.
 
 ### Counterarguments: Why Dario Might Not Be Type 5
 

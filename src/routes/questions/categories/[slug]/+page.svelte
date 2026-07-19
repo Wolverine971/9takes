@@ -61,6 +61,7 @@
 	$: questions = (data?.questionCategories ?? []) as QuestionRow[];
 	$: hasIntro = Boolean(categoryIntroHtml);
 	$: hasBranches = childCategories.length > 0;
+	$: robotsContent = `${data?.isIndexable === true ? 'index' : 'noindex'}, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`;
 	$: pageTitle = categoryName
 		? `9takes Question Categories | ${categoryName}`
 		: '9takes Question Categories';
@@ -102,10 +103,7 @@
 <svelte:head>
 	<title>{pageTitle}</title>
 	<meta name="description" content={pageDescription} />
-	<meta
-		name="robots"
-		content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-	/>
+	<meta name="robots" content={robotsContent} />
 	<meta name="author" content="DJ Wayne" />
 	<link rel="canonical" href={canonicalUrl} />
 	<link rel="alternate" href={canonicalUrl} hreflang="en-US" />

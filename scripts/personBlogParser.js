@@ -1797,6 +1797,13 @@ export async function insertIntoSupabase(entries, options = {}) {
 				.maybeSingle();
 			if (existingError) throw new Error(`Live-row lookup failed: ${existingError.message}`);
 			if (!existing) {
+				if (!apply) {
+					console.log(
+						`Skipped (not yet in database): ${entry.person}. Use --publish when this draft is ready to create and release.`
+					);
+					result.skipped += 1;
+					continue;
+				}
 				throw new Error(
 					`Existing-row-only update refused: ${entry.person} was not found; no row was inserted`
 				);
