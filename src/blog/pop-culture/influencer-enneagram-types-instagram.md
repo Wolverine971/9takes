@@ -155,17 +155,17 @@ behavior, but that behavior cannot be called a "Type 7 wing."
 The table below is an **editorial reflection framework**, not a validated creator
 assessment or a ranking of platform fit. Any creator can experience any pressure.
 
-| Type lens | A possible creative contribution | Under pressure, watch for | Sustainability question |
-| --- | --- | --- | --- |
-| **Type 1** | Standards, accuracy, craft, and ethical scrutiny | Perfection delaying publication or criticism becoming the whole brand | What is the responsible publishing threshold—not the flawless one? |
-| **Type 2** | Warmth, responsiveness, and community care | Unlimited audience access, rescuing, or resentment after overgiving | Which interactions are generous, and which require a boundary? |
-| **Type 3** | Goal clarity, iteration, packaging, and execution | Treating reach, income, or status as proof of personal worth | Which metric serves the work, and which one is becoming my identity? |
-| **Type 4** | Distinct voice, emotional specificity, and aesthetic depth | Turning authenticity into another performance or comparing uniqueness | What remains meaningful when nobody is watching? |
-| **Type 5** | Expertise, research, systems, and explanatory depth | Endless preparation, isolation, or exposure that exceeds capacity | Which format lets me share knowledge without surrendering all my privacy? |
-| **Type 6** | Trust-building, contingency planning, and audience protection | Threat scanning, compulsive reassurance, or fear-driven editing | What evidence separates useful feedback from anticipated catastrophe? |
-| **Type 7** | Experimentation, energy, cross-format play, and possibility | Trend chasing, abandoned series, or using novelty to outrun fatigue | What deserves sustained attention after the excitement fades? |
-| **Type 8** | Directness, advocacy, negotiation, and strong boundaries | Conflict becoming content, escalation, or confusing control with safety | What would strength look like if I did not need to dominate the exchange? |
-| **Type 9** | Calm presence, accessibility, mediation, and spacious pacing | Under-asserting, sponsor drift, or letting audience preference erase direction | What do I want this channel to stand for, even if someone objects? |
+| Type lens  | A possible creative contribution                              | Under pressure, watch for                                                      | Sustainability question                                                   |
+| ---------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| **Type 1** | Standards, accuracy, craft, and ethical scrutiny              | Perfection delaying publication or criticism becoming the whole brand          | What is the responsible publishing threshold—not the flawless one?        |
+| **Type 2** | Warmth, responsiveness, and community care                    | Unlimited audience access, rescuing, or resentment after overgiving            | Which interactions are generous, and which require a boundary?            |
+| **Type 3** | Goal clarity, iteration, packaging, and execution             | Treating reach, income, or status as proof of personal worth                   | Which metric serves the work, and which one is becoming my identity?      |
+| **Type 4** | Distinct voice, emotional specificity, and aesthetic depth    | Turning authenticity into another performance or comparing uniqueness          | What remains meaningful when nobody is watching?                          |
+| **Type 5** | Expertise, research, systems, and explanatory depth           | Endless preparation, isolation, or exposure that exceeds capacity              | Which format lets me share knowledge without surrendering all my privacy? |
+| **Type 6** | Trust-building, contingency planning, and audience protection | Threat scanning, compulsive reassurance, or fear-driven editing                | What evidence separates useful feedback from anticipated catastrophe?     |
+| **Type 7** | Experimentation, energy, cross-format play, and possibility   | Trend chasing, abandoned series, or using novelty to outrun fatigue            | What deserves sustained attention after the excitement fades?             |
+| **Type 8** | Directness, advocacy, negotiation, and strong boundaries      | Conflict becoming content, escalation, or confusing control with safety        | What would strength look like if I did not need to dominate the exchange? |
+| **Type 9** | Calm presence, accessibility, mediation, and spacious pacing  | Under-asserting, sponsor drift, or letting audience preference erase direction | What do I want this channel to stand for, even if someone objects?        |
 
 Use the row that exposes a live pressure—not the one that flatters your public persona.
 
@@ -349,8 +349,8 @@ This revision draws on:
 
 - Meta's
   [Instagram Feed ranking system card](https://ai.meta.com/tools/system-cards/instagram-feed-ranking/).
-- Langan et al. (2024),
-  [Mental health of social media influencers](https://doi.org/10.1002/1348-9585.12559).
+- Bray et al. (2024),
+  [Mental health of social media influencers](https://doi.org/10.1093/joccuh/uiae045).
 - Öberg and Arvidsson (2025),
   [The health paradoxes of social media influencers](https://doi.org/10.1186/s13731-025-00472-1).
 - Sepas et al. (2024),

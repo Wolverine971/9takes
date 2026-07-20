@@ -10,6 +10,19 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-07-20 — Unattended status brief: growth loop PROVEN to work; publish valve reopened; create timed out; IG escalated dark
+
+- Brief: [`docs/daily-briefs/2026-07-20_marketing-status.md`](../daily-briefs/2026-07-20_marketing-status.md).
+- **Growth freshness gate PASSED:** the weekly audit ran today (growth-log newest entry `2026-07-20`), so the brief folds its headline + biggest leak verbatim.
+- **Growth flipped positive for the first time.** Comments **0 → 9** (highest contribution week in the window), the native `contribution` event fired end-to-end on masking question 567 (T-12 wave 1), and Chorus `nine_user_takes` moved **1 → 3** — the "likely silent Chorus bug" caveat from every prior audit is **resolved: the mechanic works.** One full loop turn (n=1, real): profile `07d2e6c9` registered 07-16 → welcome_sequence → 5 comments in ~90 min → returned 07-18 for 3 more. Wall conversion 12% inferred / 8.3% native. **Honesty flag:** the 9 comments are ~one new human — not a trend yet.
+- **Biggest leak (verbatim):** _"the give-first loop is now PROVEN to work, but it is quarantined to ~0.6% of traffic… the working path isn't where the traffic is."_ PA takes the 4,260-visitor firehose with no capture → **0 signups / 0 identity for the 3rd straight week** (waitlist 0 for 8 weeks). Growth's #1 bet: port the proven give-first/Chorus reveal above the fold on personality-analysis (product/eng scope).
+- **Publish valve REOPENED** (last brief's 3-day jam cleared). 10+ people posts shipped 07-18→07-20: Benny Blanco, Joe Lonsdale, Kacey Musgraves, **Kaia Gerber**, Lamine Yamal, Madonna, **Milly Alcock** (07-13 scout pick), **Oliver Tree**, Pete Hegseth, PinkPantheress; **julia-fox published today** (Type 4, grade 8.5, row 1088). Kaia Gerber (grade-delta) and Oliver Tree (image) were both blocked last brief and cleared without marketing-pm intervention. People disk 382 → 391 published.
+- **CREATE regressed.** Tonight's cron target `travis-kelce` produced **no draft** — Stage 1 create timed out (research agent exceeded the 600s background ceiling; ran 957s). `halt_reason: draft_missing_after_stage_1_create`; retry 1/3 queued. Different signature from the earlier `oliver-tree` API refusals (timeout, not refusal); same net result.
+- **Instagram fully dark and ESCALATED:** every warmup 07-14→07-19 `BLOCKED`; **17 of last 20 runs** blocked. 07-19 regression — @9takesdotcom dropped out of the account picker entirely; one-tap re-login gone, DJ must retype full handle + password via "Log into an Existing Account." Matches memory `[[instagram-session-eviction]]`.
+- **SEO refreshed today:** corpus-stats.md + crosslink index regenerated 2026-07-20. GSC `latest.json` unchanged (still runDate 07-06, ~16 days stale).
+- **Unchanged:** 13 distribution assets unfired (9 packets + 2 carousels + 2 IG variants); Quora ~62 days dark; email starved (4 sends/3 opens/1 click, welcome_sequence live).
+- **Owner:** DJ. Open decisions in brief §"Open questions for DJ": PA give-first port, scale q567, create-timeout fix (`forceNext`/raise ceiling), IG re-login + dedicated profile, fire distribution, Quora revive/retire, GSC refresh.
+
 ### 2026-07-14 — Gmail audit corrected Long-Form outreach send history
 
 - Gmail Sent confirms **Chris Williamson was emailed 2026-05-15** via `jonathan@chriswillx.com`; no reply found.
@@ -176,6 +189,14 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-07-20 — Current blockers needing DJ / eng decision
+
+- **Growth activation (product/eng) — NOW the top move:** the give-first/Chorus mechanic is proven (12% wall, full loop turn) but quarantined to ~0.6% of traffic. Port it above the fold onto personality-analysis, where the ~4,260-visitor firehose lands with 0 capture. Also: scale masking-question 567 (the only native `contribution` source).
+- **Create engine timeout (NEW):** `travis-kelce` produced no draft — Stage 1 create exceeded the 600s research-agent ceiling. Retry 1/3 tomorrow. If it repeats, raise the create ceiling or `forceNext` a lower-research person in `override.json`. Publish backlog (85 unpublished drafts) gives runway.
+- **Instagram fully dark + escalated:** 17/20 mornings blocked; @9takesdotcom now fully evicted from the picker (full-handle re-login required). DJ re-login + dedicated Chrome profile.
+- **Carried:** 13 distribution assets unfired (IG variants also gated on the IG re-login); Quora ~62 days dark (revive or retire); GSC export ~16 days stale (refresh for seo-content-strategist).
+- **Resolved since 07-13:** publish gate unjammed on its own (10+ posts shipped 07-18→07-20, incl. both prior blockers Kaia Gerber + Oliver Tree). Chorus "silent bug" resolved — `nine_user_takes` and native `contribution` both firing.
+
 ### 2026-07-13 — Current blockers needing DJ / eng decision
 
 - **Publish gate jammed (NEW primary bottleneck):** create engine healthy but `publish-people` shipped 0 posts 07-10/07-11/07-12. Blockers are human-in-loop: supervised `/grade_blog` regrades to record stability deltas (`hailee-steinfeld`, `Kaia-Gerber` — both grade-passing) + manual Canva images (`oliver-tree`, `julia-fox` — grades pass). Any one clears a publish.
@@ -228,6 +249,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-07-20](../daily-briefs/2026-07-20_marketing-status.md) — growth loop PROVEN (0→9 comments, native funnel + Chorus live, one full loop turn) but quarantined to ~0.6% of traffic; publish valve reopened (10+ posts, both prior blockers cleared); create timed out (travis-kelce, no draft); IG escalated dark 17/20.
 - [2026-07-13](../daily-briefs/2026-07-13_marketing-status.md) — growth fresh (biggest visitor week converted to ~nothing); bottleneck flipped create→publish (0 posts 3 days); IG fully dark 7/7; GSC refreshed; new scout (Truell top pick).
 - [2026-07-06](../daily-briefs/2026-07-06_marketing-status.md) — stale growth data; people pipeline failed twice on Oliver Tree; IG session blocked again; distribution/Quora still idle.
 - [2026-07-01](../daily-briefs/2026-07-01_marketing-status.md) — publish gate unjammed (shipping daily again); IG healthy; signups leak + Quora + growth-audit-skip still open.

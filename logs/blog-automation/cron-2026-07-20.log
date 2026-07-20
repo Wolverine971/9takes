@@ -1,0 +1,26 @@
+[2026-07-20 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-20 02:00:00] [INFO] SELECTED: travis-kelce (Type ?)
+[2026-07-20 02:00:00] [INFO] Launching pipeline for travis-kelce
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  travis-kelce
+Draft:   src/blog/people/drafts/travis-kelce.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-20_020000_travis-kelce
+Started: Mon Jul 20 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 travis-kelce --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-20_020000_travis-kelce/1_create.log
+─────────────────────────────────────────────────────
+Background tasks still running after 600s; terminating. Set CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0 to wait indefinitely.
+Prep is complete. I'll continue automatically when the deep-research agent returns its brief — the loaded scaffolding (Type 7 lens, avoid-list, format template, heading plan, type-challenge memo) is ready to bind to the research quotes and testimony. Holding until that notification arrives.
+[Stage 1] create finished 02:15:57 (exit=0, 957s)
+
+[Stage 1] create did not produce src/blog/people/drafts/travis-kelce.md; halting remaining stages.
+Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-20_020000_travis-kelce/summary.json
+[2026-07-20 02:15:57] [INFO] Pipeline exited code=0 after 15 min
+[2026-07-20 02:15:57] [ERROR] RETRY 1/3: travis-kelce returned to queue (no draft)
+[2026-07-20 02:15:57] [INFO] NOTIFY: ⚠️ 9takes nightly blog: Travis Kelce produced no draft (exit=0). Retry 1/3 tomorrow.
+[2026-07-20 02:15:57] [INFO] Nightly blog cron finished

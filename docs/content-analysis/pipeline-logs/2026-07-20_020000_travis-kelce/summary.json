@@ -1,0 +1,15 @@
+{
+	"person": "travis-kelce",
+	"draft_path": "src/blog/people/drafts/travis-kelce.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-20_020000_travis-kelce",
+	"completed": false,
+	"halt_reason": "draft_missing_after_stage_1_create",
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": null,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": false,
+	"generated_at": "2026-07-20T06:15:57.275Z"
+}

@@ -30,7 +30,11 @@ modification to `musk-vs-altman-trial-personality-dynamics.md` was treated as us
 work and left untouched. Follow-up remediation began after the audit:
 
 - `parasocial-relationships-enneagram-type.md` — completed July 19, 2026
-- `masculinity-strength-and-the-enneagram.md` — next in the remediation queue
+- `masculinity-strength-and-the-enneagram.md` — completed July 19, 2026
+- `dark-triad-meets-enneagram.md` — completed July 19, 2026
+- `reddit-moderators-type-1-internet.md` — completed July 19, 2026
+- `influencer-enneagram-types-instagram.md` — completed July 19, 2026
+- `twitter-x-personality-types-toxic.md` — next in the remediation queue
 
 One portfolio-wide issue stood out: 14 of the 32 published posts contained no
 external evidence links beyond self-links or canonical URLs. That is not necessarily
@@ -172,6 +176,9 @@ regulation the most attractive form of masculine strength. This is a high reputa
 risk and needs evidence, narrower language, and greater variation across people and
 cultures.
 
+**Status: remediated July 19, 2026.** See the remediation notes and sources at the end
+of this report.
+
 ### Dark Triad Meets the Enneagram
 
 File: [`dark-triad-meets-enneagram.md`](../../src/blog/pop-culture/dark-triad-meets-enneagram.md)
@@ -183,6 +190,9 @@ between documented facts and speculative interpretation.
 
 The image-generation prompts are enclosed in HTML comments and are not a live
 rendering problem.
+
+**Status: remediated July 19, 2026.** See the remediation notes and sources at the end
+of this report.
 
 ### Reddit Moderators
 
@@ -196,6 +206,9 @@ Source checked:
 
 - [Reddit Help: Moderation limits](https://support.reddithelp.com/hc/en-us/articles/37922094698772-Moderation-limits)
 
+**Status: remediated July 19, 2026.** See the remediation notes and sources at the end
+of this report.
+
 ### Influencer Enneagram Types
 
 File: [`influencer-enneagram-types-instagram.md`](../../src/blog/pop-culture/influencer-enneagram-types-instagram.md)
@@ -204,6 +217,9 @@ The post classifies MrBeast as Type 3 but describes him as acting through a Type
 wing, which is impossible for Type 3. It also places Kylie Jenner among Type 3 examples
 while the Kardashian article profiles her as Type 9. The unpublished streaming draft
 introduces another contradiction by calling MrBeast Type 8.
+
+**Status: remediated July 19, 2026.** See the remediation notes and sources at the end
+of this report.
 
 ### Twitter/X Personality Types
 
@@ -402,3 +418,316 @@ validation.
   [R.I.P. Kutner: Parasocial grief following the death of a television character](https://doi.org/10.1177/0030222815600450).
 - Bingaman, J. (2022).
   [Parasocial grieving and the collective mourning of Kobe Bryant on Reddit](https://doi.org/10.1177/0030222820971531).
+
+## Masculinity article remediation research
+
+The second follow-up update focused on
+[`masculinity-strength-and-the-enneagram.md`](../../src/blog/pop-culture/masculinity-strength-and-the-enneagram.md).
+
+**Status: remediated July 19, 2026.** The revision replaced the universal "what women
+select for" thesis with a narrower discussion of stated preferences, real-life
+attraction, relationship capacities, and individual variation. It removed the
+unsupported prehistoric division-of-labor narrative, deterministic biological
+language, age-based claims, and the assertion that one kind of emotional strength is
+universally most attractive. It also reframed the Enneagram sections as non-clinical
+reflection prompts and added the research below.
+
+### Evidence decisions
+
+1. **Separate group averages from individual rules.** A preregistered 45-country
+   study found average sex differences in some stated mate preferences. Those results
+   do not establish what every woman or man wants, do not eliminate cultural or
+   individual variation, and do not by themselves establish one exclusively
+   biological explanation.
+
+2. **Separate stated preferences from attraction after meeting.** Speed-dating
+   research found familiar sex differences in stated ideals but did not find the
+   expected sex-differentiated relationship between those ideals and desire for people
+   participants actually met.
+
+3. **Reject deterministic attraction forecasts.** Machine-learning models using more
+   than 100 traits and preferences could predict some broad actor and partner
+   tendencies but could not predict unique desire between two people before they met.
+   These studies focused mainly on other-sex attraction and should not be generalized
+   into a complete account of queer dating.
+
+4. **Do not treat physique as proof of character.** Exercise can support physical and
+   mental health. The cited evidence does not show that a muscular body proves
+   discipline, reliability, morality, or relationship readiness.
+
+5. **Discuss emotional regulation as a relationship capacity, not a universal
+   attraction trigger.** Research links constructive emotion regulation and perceived
+   partner responsiveness with relationship satisfaction. It does not establish that
+   emotional regulation is the single most attractive masculine trait.
+
+6. **Treat masculine norms specifically.** A meta-analysis found that conformity to
+   some norms—especially self-reliance, power over women, and "playboy" behavior—was
+   associated with worse mental-health-related outcomes. That is not evidence that all
+   masculinity is harmful or that one alternative masculinity guarantees wellbeing or
+   romantic success.
+
+7. **Label the Enneagram mapping as editorial.** No cited study validates the
+   article's three-dimension framework or its type-specific reflections. They remain
+   prompts for self-examination, not clinical assessments or scientific predictions.
+
+### Research sources
+
+- Walter, K. V., et al. (2020).
+  [Sex differences in mate preferences across 45 countries: A large-scale replication](https://doi.org/10.1177/0956797620904154).
+- Eastwick, P. W., & Finkel, E. J. (2008).
+  [Sex differences in mate preferences revisited](https://doi.org/10.1037/0022-3514.94.2.245).
+- Joel, S., Eastwick, P. W., & Finkel, E. J. (2017).
+  [Is romantic desire predictable?](https://doi.org/10.1177/0956797617714580).
+- Bloch, L., Haase, C. M., & Levenson, R. W. (2014).
+  [Emotion regulation predicts marital satisfaction](https://doi.org/10.1037/a0034272).
+- Gadassi, R., et al. (2016).
+  [Perceived partner responsiveness and marital satisfaction](https://doi.org/10.1007/s10508-014-0448-2).
+- Wong, Y. J., Ho, M.-H. R., Wang, S.-Y., & Miller, I. S. K. (2017).
+  [Masculine norms and mental-health-related outcomes](https://doi.org/10.1037/cou0000176).
+- Munro, N. R., et al. (2026).
+  [Effect of exercise on depression and anxiety symptoms](https://doi.org/10.1136/bjsports-2025-110301).
+
+### Validation
+
+- The article passed direct MDsvex preprocessing and Svelte 5 server compilation with
+  zero warnings.
+- The official Svelte autofixer reported no component issues.
+- Prettier, `git diff --check`, and the targeted stale-claim scan passed.
+- The full repository `pnpm check` still reports three pre-existing TypeScript errors
+  in `scripts/personBlogParser.js` and 140 warnings in unrelated files. It reported no
+  diagnostic for the revised article.
+
+## Dark Triad article remediation research
+
+The third follow-up update focused on
+[`dark-triad-meets-enneagram.md`](../../src/blog/pop-culture/dark-triad-meets-enneagram.md).
+
+**Status: remediated July 19, 2026.** The revision removed all named-criminal
+Enneagram assignments and the unsupported claims about their motives, empathy,
+remorse, diagnoses, and inner states. It now distinguishes trait research from
+clinical diagnosis, explains the empirical limits of the Enneagram, labels the nine
+type sections as hypothetical reflection prompts, and directs readers to assess
+observable behavior rather than personality labels.
+
+### Evidence decisions
+
+1. **Restore the Dark Triad's research meaning.** The original 2002 study examined
+   subclinical narcissism, Machiavellianism, and psychopathy in a student sample. A
+   score on those traits is not a remote clinical diagnosis or proof of abuse,
+   criminality, motive, or violence.
+
+2. **Acknowledge overlap and measurement limits.** A 2017 meta-analysis found the
+   three traits substantially intercorrelated and associated with multiple negative
+   psychosocial outcomes. It also questioned whether the constructs are sufficiently
+   distinct and whether common brief measures capture malevolent personality with
+   enough complexity.
+
+3. **Do not invent an Enneagram crosswalk.** A systematic review of 104 independent
+   Enneagram samples found mixed reliability and validity evidence. It found no
+   clustering study that derived the nine types and little support for several
+   secondary concepts. Neither that review nor the broader search conducted for this
+   update established a validated Dark Triad-by-Enneagram mapping.
+
+4. **Remove true-crime personality typing.** Public records may establish acts and
+   outcomes. They do not establish an Enneagram type, Dark Triad score, private motive,
+   empathy level, remorse, or the mental process behind a crime.
+
+5. **Make the nine sections explicitly hypothetical.** The revised type sections
+   examine possible rationalizations only. Each is paired with observable behaviors
+   and an accountability question, and none claims that a type causes or predicts a
+   harmful pattern.
+
+6. **Use behavior for safety decisions.** Repeated deception, boundary violations,
+   coercive control, threats, retaliation, isolation, and escalation are more useful
+   for choosing a response than an Enneagram number or an informal Dark Triad label.
+   These examples are practical guidance, not a validated risk-assessment scale.
+
+7. **Correct the Light Triad framing.** The 2019 Light Triad study found a moderate
+   negative correlation with the Dark Triad (`r = -0.48`) across four studies with
+   1,518 participants. The constructs were not simple opposites, and the correlational
+   design did not establish that adopting Light Triad beliefs causes dark traits to
+   disappear.
+
+### Research sources
+
+- Paulhus, D. L., & Williams, K. M. (2002).
+  [The Dark Triad of personality](<https://doi.org/10.1016/S0092-6566(02)00505-6>).
+- Muris, P., Merckelbach, H., Otgaar, H., & Meijer, E. (2017).
+  [The malevolent side of human nature](https://doi.org/10.1177/1745691616666070).
+- Hook, J. N., Hall, T. W., Davis, D. E., Van Tongeren, D. R., & Conner, M. (2021).
+  [The Enneagram: A systematic review](https://doi.org/10.1002/jclp.23097).
+- Kaufman, S. B., Yaden, D. B., Hyde, E., & Tsukayama, E. (2019).
+  [The Light vs. Dark Triad of personality](https://doi.org/10.3389/fpsyg.2019.00467).
+
+### Validation
+
+- The article passed direct MDsvex preprocessing and Svelte 5 server compilation with
+  zero warnings.
+- The official Svelte autofixer reported no component issues after one unnecessary
+  image-property interpolation was simplified.
+- Prettier, `git diff --check`, JSON parsing, metadata consistency checks, and the
+  targeted stale-claim scan passed.
+- The full repository `pnpm check` still reports three pre-existing TypeScript errors
+  in `scripts/personBlogParser.js` and 140 warnings in unrelated files. It reported no
+  diagnostic for either revised article.
+
+## Reddit moderators article remediation research
+
+The fourth follow-up update focused on
+[`reddit-moderators-type-1-internet.md`](../../src/blog/pop-culture/reddit-moderators-type-1-internet.md).
+
+**Status: remediated July 19, 2026.** The revision removed the unsupported claim that
+Type 1s dominate Reddit moderation, the categorical type-by-type motives and burnout
+predictions, the outdated concentration framing, and the unrelated Wikipedia and
+historical controversy sections. It now separates current Reddit policy, empirical
+volunteer-moderation research, and an explicitly editorial Enneagram reflection
+framework.
+
+### Evidence decisions
+
+1. **Do not claim a moderator type distribution.** No identified study measured the
+   Enneagram types of Reddit moderators. The revised article states that directly and
+   does not present Type 1, 5, 6, or 8 dominance as a finding.
+
+2. **Describe the labor as heterogeneous.** Research using private logs from more than
+   900 moderators across 126 subreddits found substantial variation across moderators
+   and communities and showed that visible actions undercount behind-the-scenes labor.
+   That evidence does not support a four-type taxonomy.
+
+3. **Use measured psychological constructs.** A survey of 605 Reddit moderators
+   studied fairness, autonomy, belonging, security, competence, institutional
+   acceptance, and governance processes. The revision reports its tradeoffs without
+   translating those constructs into Enneagram types or treating association as
+   causation.
+
+4. **Correct the burnout section.** Research on former Reddit and Facebook Group
+   volunteer moderators linked distress and quitting with team conflict, harmful
+   behavior by team leads, and insufficient time. It did not establish that Type 1s
+   burn out fastest or validate type-specific exit styles.
+
+5. **Update platform concentration policy.** Since March 31, 2026, Reddit has actively
+   enforced a limit of five communities with more than 100,000 weekly visitors per
+   moderator account, subject to listed exemptions. The revision explains what the
+   rule changes and what it does not solve.
+
+6. **Correct the accountability claim.** Moderators retain substantial local
+   discretion, and not every subreddit decision has an independent appeal. However,
+   Reddit's Moderator Code of Conduct authorizes warnings, moderator removal,
+   community restrictions, suspensions, and other enforcement, so "zero oversight"
+   was inaccurate.
+
+7. **Keep the Enneagram inward-facing.** The nine-type table is labeled as editorial.
+   Each row offers a possible contribution, a strain pattern, and an accountability
+   question. It is not a personality assessment, a remote typing method, or a causal
+   model of moderator behavior.
+
+8. **Recommend observable safeguards.** The revised guidance focuses on clear rules,
+   review for ambiguous cases, reconsideration paths, distributed permissions,
+   manageable workloads, team conflict procedures, and skill- and perspective-based
+   recruitment.
+
+### Research sources
+
+- Bulat, B., Wang, H., Fujimoto, S., & Frey, S. (2025).
+  [The psychology of volunteer moderators](https://doi.org/10.1177/14614448241259028).
+- Schöpke-Gonzalez, A. M., Atreja, S., Shin, H. N., Ahmed, N., & Hemphill, L. (2024).
+  [Why do volunteer content moderators quit?](https://doi.org/10.1177/14614448221138529).
+- Li, H., Hecht, B., & Chancellor, S. (2022).
+  [All That's Happening behind the Scenes](https://doi.org/10.48550/arXiv.2205.14529).
+- Reddit.
+  [Moderator Code of Conduct](https://redditinc.com/policies/moderator-code-of-conduct).
+- Reddit Help.
+  [Moderation limits](https://support.reddithelp.com/hc/en-us/articles/37922094698772-Moderation-limits).
+
+### Validation
+
+- The article passed direct MDsvex preprocessing and Svelte 5 server compilation with
+  zero warnings.
+- The official Svelte autofixer reported no component issues.
+- Prettier, `git diff --check`, JSON parsing, metadata consistency checks, and the
+  targeted stale-claim scan passed.
+- The full repository `pnpm check` still reports three pre-existing TypeScript errors
+  in `scripts/personBlogParser.js` and 140 warnings in unrelated files. It reported no
+  diagnostic for the revised Reddit article.
+
+## Influencer article remediation research
+
+The fifth follow-up update focused on
+[`influencer-enneagram-types-instagram.md`](../../src/blog/pop-culture/influencer-enneagram-types-instagram.md).
+
+**Status: remediated July 19, 2026.** The revision removed the unsupported claim that
+Type 3s dominate Instagram, the celebrity type assignments, the impossible Type 7
+wing assigned to a Type 3, and the deterministic platform-fit, burnout, spending,
+negotiation, audience-harm, and exit-style predictions. It now separates platform
+ranking mechanics, the limited creator-wellbeing evidence, audience research, and an
+explicitly editorial Enneagram reflection framework.
+
+### Evidence decisions
+
+1. **Do not claim an influencer type distribution.** No identified study measured the
+   Enneagram types of Instagram creators or established that Type 3s are more common
+   or successful. The revised headline and quick answer state that limitation.
+
+2. **Describe ranking through observable signals.** Meta's Feed system card describes
+   models that predict viewer actions such as comments, likes, saves, profile taps,
+   and viewing, using post attributes and interaction history. Meta publishes separate
+   system cards for several Instagram surfaces. This does not support the claim that
+   Instagram has one personality or selects creators by Enneagram type.
+
+3. **Separate public strategy from private motive.** A/B testing, high output,
+   curation, disclosure, and sponsorships can reflect many motives or a team's standard
+   production practices. They do not establish a creator's core type.
+
+4. **Resolve the named-person contradictions.** The revision no longer uses MrBeast,
+   Kylie Jenner, or other public figures as proof of a type-platform relationship. It
+   explicitly explains that a Type 3 can only have a Type 2 or Type 4 wing, not a Type
+   7 wing.
+
+5. **State how thin the creator-wellbeing evidence is.** A 2024 review found very
+   little direct evidence about influencers as an occupational group. A 2025
+   qualitative study of 12 Swedish creators identified possible tensions involving
+   income, authenticity, exposure, sponsorships, negative comments, and
+   disconnection, but its authors cautioned against broad generalization.
+
+6. **Do not confuse audience associations with creator causation.** A 2024
+   meta-analysis found associations between problematic Instagram use and distress
+   across 37 heterogeneous studies with 14,305 participants. It did not establish
+   causation or type-specific susceptibility.
+
+7. **Represent influencer health effects narrowly.** A systematic review of 12
+   intervention studies found both positive and negative health outcomes. Negative
+   effects were most consistent for idealized body imagery and body dissatisfaction,
+   while many studies had methodological or generalizability limits.
+
+8. **Keep the Enneagram inward-facing.** The new nine-type table offers one possible
+   creative contribution, pressure pattern, and sustainability question for each type.
+   It is labeled as editorial and is not a ranking, assessment, or prediction model.
+
+9. **Frame burnout behaviorally and structurally.** The revised article replaces
+   type-specific burnout and quitting scripts with observable pressures involving
+   distribution volatility, income, exposure, scaled intimacy, harassment, work-life
+   boundaries, and identity. Its warning signs are explicitly non-diagnostic.
+
+### Research sources
+
+- Meta.
+  [Instagram Feed ranking system card](https://ai.meta.com/tools/system-cards/instagram-feed-ranking/).
+- Bray, I., Lerigo-Sampson, M., Morey, Y., & Williams, J. (2024).
+  [Mental health of social media influencers](https://doi.org/10.1093/joccuh/uiae045).
+- Öberg, C., & Arvidsson, H. (2025).
+  [The health paradoxes of social media influencers](https://doi.org/10.1186/s13731-025-00472-1).
+- Sepas, A., et al. (2024).
+  [Problematic Instagram use, psychological distress, and wellbeing](https://doi.org/10.1089/cyber.2023.0222).
+- Powell, J., & Pring, T. (2024).
+  [The impact of social media influencers on health outcomes](https://doi.org/10.1016/j.socscimed.2023.116472).
+
+### Validation
+
+- The article passed direct MDsvex preprocessing and Svelte 5 server compilation with
+  zero warnings.
+- The official Svelte autofixer reported no component issues.
+- Prettier, `git diff --check`, JSON parsing, metadata consistency checks, and the
+  targeted stale-claim scan passed.
+- The full repository `pnpm check` still reports three pre-existing TypeScript errors
+  in `scripts/personBlogParser.js` and 140 warnings in unrelated files. It reported no
+  diagnostic for the revised influencer article.

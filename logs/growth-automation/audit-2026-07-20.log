@@ -1,0 +1,21 @@
+[2026-07-20 06:00:00] Starting weekly growth audit
+Confirmed — the `### 2026-07-20` entry is written at the top of `docs/growth/growth-log.md` (append-only, prior history intact, nothing touched outside `docs/growth/`).
+
+## Weekly Growth Audit — 2026-07-20
+
+**Biggest leak: the give-first loop is now PROVEN to work, but it's quarantined to ~0.6% of traffic.**
+
+The now-complete week (2026-07-13) flipped positive for the first time:
+- **Comments 0 → 9** — highest contribution week in the entire window. All real, 7 distinct questions, one a reply, 0 removed.
+- **Both give-first mechanics fired end-to-end for the first time.** The native `contribution` event now exists in `give_first_funnel_events` (2 events, both on masking question 567 / T-12 wave 1). `nine_user_takes` (Chorus) moved **1 → 3**, matching the q567 contributions. Every prior audit's "Chorus is a likely silent bug" caveat is **resolved** — it works.
+- **First full loop turn in the window (n=1, real):** profile `07d2e6c9` registered 07-16 → enrolled in welcome_sequence same second → posted 5 comments in ~90 min → **returned 07-18** for 3 more.
+- Wall conversion readable and up: **12% inferred** (25 gate fps → 3 contributors), 8.3% native on q567.
+
+But the 4,260-visitor firehose still lands on **personality-analysis**, which has no contribution/capture mechanic and produced **0 signups / 0 reachable identity for the 3rd straight week** (coaching waitlist: 0 for 8 weeks). The path works — it just isn't where the traffic is. *Honesty flag:* the 9 comments are concentrated in essentially one new human — don't read it as a trend yet.
+
+**Recommended bets (ranked):**
+1. **Port the now-proven give-first / Chorus reveal onto personality-analysis** (above the fold, before the ~12s dwell cliff). Identical mechanic already converts 8–12% on the tiny question surface vs ~0 on PA. Success = ≥1% of PA sessions fire a native `gate_shown → contribution` in 30 days; guardrail = bounce not worse by >3 pts.
+2. **Scale the masking-question 567 pattern to more high-traffic questions**, watching the native funnel (q567 is the sole source of native contribution events). Success = ≥10 native contributions across ≥3 questions in 30 days.
+3. **Add post-contribution email / notify-on-reply capture** — the loop finally has fuel (a reply + a returning contributor), but signups are 0 for 3 weeks. Success = ≥10% capture among first contributors and ≥1 return in 30 days.
+[2026-07-20 06:05:00] claude exited 0
+[2026-07-20 06:05:00] Weekly growth audit OK: Weekly growth audit: the give-first loop finally turned — 9-comment week, native funnel live, one full loop turn — but only on the ~0.6% of traffic it reaches

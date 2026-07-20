@@ -4,12 +4,12 @@ meta_title: 'Why Julia Fox Was Never the Muse: Enneagram Type 4'
 persona_title: 'The Muse Who Signs Herself'
 description: 'Everyone thinks Kanye discovered Julia Fox and the memes made her a joke. Her Enneagram Type 4 tells a different story: the muse was always the artist.'
 author: 'DJ Wayne'
-date: '2026-07-08'
+date: '2026-07-20'
 loc: 'https://9takes.com/personality-analysis/julia-fox'
-lastmod: '2026-07-08'
+lastmod: '2026-07-20'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['celebrity', 'movieStar']
 person: 'julia-fox'

@@ -1,0 +1,2 @@
+Background tasks still running after 600s; terminating. Set CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0 to wait indefinitely.
+Prep is complete. I'll continue automatically when the deep-research agent returns its brief — the loaded scaffolding (Type 7 lens, avoid-list, format template, heading plan, type-challenge memo) is ready to bind to the research quotes and testimony. Holding until that notification arrives.

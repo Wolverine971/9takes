@@ -1,0 +1,23 @@
+All gates passed and the publish is verified.
+
+```text
+Published people blog.
+
+Person: julia-fox
+Draft: src/blog/people/drafts/julia-fox.md
+Date/lastmod: 2026-07-20
+Supabase: published=true (row id 1088)
+Images: full + thumbnail present (static/types/4s/Julia-Fox.webp + s-Julia-Fox.webp)
+Generated files: pnpm gen:all completed
+
+Blockers:
+- none
+```
+
+**Verified:**
+- Draft frontmatter now has `published: true`, `date: '2026-07-20'`, `lastmod: '2026-07-20'`
+- `famousTypes.ts` entry: `link: true, hasImage: true, lastmod: '2026-07-20'` (Type 4, grade 8.5)
+- Sitemap includes `https://9takes.com/personality-analysis/julia-fox` (+ image URL)
+- Content grade 8.5 cleared the gate; 2,828 words
+
+Type 4 is now at 58 published people.

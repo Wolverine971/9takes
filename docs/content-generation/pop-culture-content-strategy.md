@@ -86,7 +86,7 @@ _Last Modified: 2026-01-21_
 
 #### Social Media Psychology
 
-- **"Influencer Enneagram Types: Why Type 3s Dominate Instagram"**
+- **"Influencer Enneagram Types: Nine Creator Pressure Patterns"**
 - **"TikTok's Algorithm and Type 7 Content Addiction"**
 - **"Cancel Culture by Enneagram Type: Who Cancels and Who Gets Cancelled"**
 - **"The Psychology of Going Viral: Which Types Create Viral Content"**
@@ -95,7 +95,7 @@ _Last Modified: 2026-01-21_
 
 - **"Internet Trolls Are Usually Type 8s and Counterphobic 6s"**
 - **"OnlyFans Creators by Enneagram: The Psychology of Digital Intimacy"**
-- **"Reddit Moderators: Why Type 1s Run the Internet"**
+- **"Reddit Moderators and Enneagram: What Actually Motivates Mods"**
 - **"Twitter/X Personality Types: Why It's So Toxic"**
 
 #### Digital Age Phenomena

@@ -339,4 +339,4 @@ The research above does not validate an Enneagram distribution for volunteer
 moderators. The type-specific table is a set of reflection prompts, not an assessment
 or causal model.
 
-**Related:** [The Psychology of Twitter Toxicity](/pop-culture/twitter-x-personality-types-toxic) | [How Different Types Become Influencers](/pop-culture/influencer-enneagram-types-instagram)
+**Related:** [The Psychology of Twitter Toxicity](/pop-culture/twitter-x-personality-types-toxic) | [Nine Creator Pressure Patterns](/pop-culture/influencer-enneagram-types-instagram)

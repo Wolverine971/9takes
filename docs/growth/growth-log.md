@@ -8,6 +8,50 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-07-20 - Weekly growth audit: the give-first loop finally turned — 9-comment week, native funnel live, one full loop turn — but only on the ~0.6% of traffic it reaches
+
+- Area: Activation / give-first / Chorus instrumentation / contribution loop / email / signup capture
+- Status: audit complete. Live DB numbers. The now-complete week is 2026-07-13; 2026-07-20 is Monday WTD and immature (ignore its 161-visitor / 1-comment / 1-contribution-today row).
+- Observed numbers (last 8 weeks queried; recent cohorts shown). Gate fps→contrib is inferred (fp join); native q567 funnel is separate.
+
+| Cohort wk  | New visitors | Signups (act/uns) | Profiles | Comments | Gate fps -> contrib |  Contributor D7 | Waitlist | Email sends/open/click | Chorus takes (cum) |
+| ---------- | -----------: | ----------------: | -------: | -------: | ------------------: | --------------: | -------: | ---------------------: | -----------------: |
+| 2026-07-13 |        4,260 |           0 (0/0) |        1 |    **9** |       25 -> 3 = 12% | **1 / 2 = 50%** |        0 |          **4 / 3 / 1** |              **3** |
+| 2026-07-06 |        5,357 |           0 (0/0) |        1 |        0 |         6 -> 0 = 0% |               - |        0 |              2 / 1 / 0 |                  1 |
+| 2026-06-29 |        3,613 |           1 (1/0) |        0 |        2 |       10 -> 2 = 20% |      0 / 2 = 0% |        0 |              2 / 0 / 0 |                  1 |
+| 2026-06-22 |        2,591 |           1 (1/0) |        0 |        1 |       10 -> 1 = 10% |      0 / 1 = 0% |        0 |              2 / 1 / 0 |                  1 |
+
+- Direction changes vs 2026-07-13 audit (which covered the 0-comment 07-06 week):
+  - **The activation leak finally moved the RIGHT way. Comments 0 -> 9** — the highest contribution week in the entire window. All 10 comments since 07-13 are real and varied (7 distinct questions, one is a reply: comment 676 -> 675), 0 removed. Not spam.
+  - **Both give-first mechanics fired end-to-end for the first time — closing out prior bet #2.** The native `contribution` event now EXISTS in `give_first_funnel_events` (2 events, both on masking question 567). `nine_user_takes` moved **1 -> 3 rows** (the 2 new takes at 07-19 19:40 and 07-20 09:58 match the q567 contribution events and comments). The "half-blind / Chorus is a likely silent bug" caveat from every prior audit is **resolved**: the mechanic works. This is T-12 wave 1 (q567 masking question), confirmed live and capturing.
+  - **First full loop turn in the window (n=1, but real).** New profile `07d2e6c9` registered 07-16 20:25:58, enrolled in `welcome_sequence` the same second, posted 5 comments within ~90 min (incl. a reply), then **RETURNED 07-18 and posted 3 more.** register -> welcome -> contribute -> return-contribute actually happened once.
+  - **Separate new vs existing:** the 9-comment week = 1 genuinely new user (5 comments), 1 reactivated 2023 Type-8 profile (3 comments, mostly q567), 2 anonymous fp (2 comments via the gate). Real activation, but concentrated in one new human — do not read 9 as a trend yet.
+  - **Wall conversion is now readable AND up.** Inferred 25 gate fps -> 3 contributors = 12% (best robust-volume read since the 06-15 spike); native q567 funnel = 24 gate fps -> 2 contributions = 8.3%. `gate_shown` volume jumped 8 -> 86 (25 fps).
+  - **Traffic normalized down and still converted better.** New visitors 5,357 -> 4,260 (-20% WoW), yet this smaller week produced the activity. Confirms (again) it was never a traffic problem.
+  - **Upstream capture still dead. 0 signups for the 3rd straight week; 0 coaching waitlist (8 weeks).** Reactivation sequences (`reactivation_cold/dormant/zombies`) still `draft` / 0 enrollments. Email still starved (4 sends, but 3 opens / 1 click — a small tick from 2/wk).
+
+- **Biggest leak this week: the give-first loop is now PROVEN to work, but it is quarantined to ~0.6% of traffic.** 9takes just showed the mechanic converts (12% inferred wall, live native funnel, one full register->contribute->return turn) — but only on `questions`, which drew ~25 gated fps. The 4,260-visitor firehose still lands on personality-analysis, which has no contribution/capture mechanic and produced 0 signups / 0 reachable identity for the 3rd straight week. The leak is no longer "does the path work" (it does) — it is "the working path isn't where the traffic is."
+
+- Recommended bets (ranked):
+  1. **Port the now-proven give-first / Chorus reveal onto personality-analysis.** We believe surfacing the reveal (or a masking-question prompt like q567) above the fold on person pages will lift visitor -> contribution because the identical mechanic already converts at 8-12% on the tiny question surface while PA converts ~0. Success = >=1% of PA sessions fire a native `gate_shown` -> `contribution`/reveal within 30 days (~35/wk vs ~0); guardrail = bounce does not worsen by >3 pts. Highest EV: it moves the working mechanic to the traffic.
+  2. **Scale the masking-question 567 pattern to more high-traffic questions and watch the native funnel.** q567 is the ONLY surface emitting native contribution events (24 fps -> 2 contributions, 2 Chorus takes). We believe replicating that instrumented prompt on more question/blog entry points scales the only working native funnel. Success = >=10 native contributions across >=3 questions in 30 days; guardrail = contribution quality holds (non-removed, >20 chars).
+  3. **Add post-contribution email/notify-on-reply capture — the loop now has fuel.** This week produced a reply and a returning contributor but 0 signups. We believe asking first contributors for reply notifications will finally capture reachable identity. Success = >=10% capture among first contributors AND >=1 returns within 30 days; guardrail = first-contribution completion does not fall.
+
+- Running experiment status:
+  - **Give-first native instrumentation (was bet #2, now SHIPPED/won):** `contribution` event live, Chorus wired end-to-end on q567, `nine_user_takes` 1 -> 3. Wall conversion no longer fingerprint-inferred on the instrumented question.
+  - **Masking question 567 (T-12 wave 1): `running` and productive** — sole source of native contribution events and 2 of 3 Chorus takes.
+  - `welcome_sequence`: `running`, 1 active enrollment — and for the first time that enrolled user (07d2e6c9) also contributed and returned. Too early for open/click read.
+  - Reactivation sequences: still `draft` / 0 enrollments — NOT running. Unchanged.
+  - Signup capture: 0 signups for 3rd straight week — still starved. Unchanged negative.
+
+- Repro SQL used this audit:
+  - New visitors: first-touch CTE on `page_analytics_visits.fingerprint`, `date_trunc('week', min(started_at))`.
+  - Core counts: weekly `signups` (active/unsub via `unsubscribed_date`), `profiles`, `comments`, `coaching_waitlist`.
+  - Comment reality: per-row `parent_type/parent_id`, `author_id`, `fingerprint`, `removed`, length, preview; author join to `profiles.created_at`/`enneagram` to split new vs existing.
+  - Wall conversion (inferred): distinct `gate_shown` fps in-week joined to same-fp `comments` within 7 days. Native funnel: `give_first_funnel_events` counts `WHERE question_id=567`.
+  - Contributor D7: first comment per `coalesce(author_id::text, fingerprint)` within window, second within 7 days, bucketed by cohort week.
+  - Chorus: `nine_user_takes` count + timestamps. Email: weekly `email_sends` left-joined to `email_tracking_events` open/click; `email_sequences` (key/status) + `email_sequence_enrollments`.
+
 ### 2026-07-13 - Weekly growth audit: biggest visitor week in the window, converted to ~nothing
 
 - Area: Activation / give-first / signup capture / email / coaching

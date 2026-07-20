@@ -1,0 +1,28 @@
+[2026-07-20 06:05:00] Starting weekly marketing brief
+Both files are confirmed on disk. The dated brief (`2026-07-20_marketing-status.md`, 16 KB) was written at 06:09 and the marketing log carries its append-only header intact.
+
+Per the command, printing the brief's TL;DR to the cron log:
+
+---
+
+## 9takes Weekly Marketing Brief — 2026-07-20 (TL;DR)
+
+- **Growth data is FRESH (audit ran today, 2026-07-20).** Headline, verbatim from the growth audit: *"the give-first loop finally turned — 9-comment week, native funnel live, one full loop turn — but only on the ~0.6% of traffic it reaches."* Comments went **0 → 9** (highest contribution week in the window), the native `contribution` event now fires end-to-end, and `nine_user_takes` (Chorus) moved **1 → 3** — **the "Chorus is a likely silent bug" caveat from every prior audit is resolved: the mechanic works.**
+
+- **Biggest leak, verbatim:** *"the give-first loop is now PROVEN to work, but it is quarantined to ~0.6% of traffic… The leak is no longer 'does the path work' (it does) — it is 'the working path isn't where the traffic is.'"* The 4,260-visitor firehose still lands on personality-analysis, which has **0 signups / 0 reachable identity for the 3rd straight week** (coaching waitlist: 0 for 8 weeks).
+
+- **Publish valve REOPENED.** Last brief's 3-day publish jam is cleared: **10+ people posts shipped in the last 3 days** (Benny Blanco, Joe Lonsdale, Kacey Musgraves, Kaia Gerber, Lamine Yamal, Madonna, Milly Alcock [the 07-13 scout pick], Oliver Tree, Pete Hegseth, PinkPantheress) plus **julia-fox published today** (Type 4, grade 8.5, row 1088). Kaia Gerber and Oliver Tree were both publish-blocked last brief and have now cleared.
+
+- **But the CREATE engine failed again.** Tonight's cron target `travis-kelce` produced **no draft** — Stage 1 create timed out (background research agent didn't return inside the 600s ceiling; ran 957s, halted). `halt_reason: draft_missing_after_stage_1_create`. Queued for retry 1/3. Same net result as the earlier `oliver-tree` failures, different signature (timeout, not API refusal).
+
+- **Instagram is fully dark AND has escalated — 17 of the last 20 mornings blocked.** Every warmup 07-14 → 07-19 is `BLOCKED`. On 07-19 @9takesdotcom **dropped out of the account picker entirely** — the one-tap re-login is gone; DJ must now go through "Log into an Existing Account" and retype the full handle + password.
+
+- **Quora ~62 days dark** (last activity 2026-05-19). **Distribution: 9 packets + 2 carousels + 2 IG variants still queued, none fired.** Both unchanged.
+
+---
+
+Brief and log written; nothing outside `docs/daily-briefs/` and `docs/marketing/marketing-log.md` was touched (no git, no drafts, no `published:` flags). The full brief — including the "Open questions for DJ" section — is at `docs/daily-briefs/2026-07-20_marketing-status.md`.
+
+The two things most worth DJ's attention this week: **(1)** the Instagram re-login has now fully degraded (account dropped from the picker — needs a manual full re-login, not the one-tap), and **(2)** the strategic pivot the growth audit surfaced — the give-first loop is *proven working* but quarantined to ~0.6% of traffic, so the leak is now "route the personality-analysis firehose to the working path," not "fix the path."
+[2026-07-20 06:10:35] claude exited 0
+[2026-07-20 06:10:35] Weekly marketing brief OK: /Users/djwayne/9takes/docs/daily-briefs/2026-07-20_marketing-status.md
