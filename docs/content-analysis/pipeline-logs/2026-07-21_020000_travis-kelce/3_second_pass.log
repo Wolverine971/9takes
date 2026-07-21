@@ -1,0 +1,31 @@
+Done. The revision pass is complete and verified.
+
+## What I updated
+`src/blog/people/drafts/Travis-Kelce.md` (Enneagram Type 7).
+
+## Main changes
+
+**Source traceability (priority #1) — audit went from 2 untagged → 0**
+- Delegated a research agent to source-trace all load-bearing quotes. It surfaced real errors, not just missing tags:
+  - **Donna's car-key line was misquoted *and* untagged** (the cold-open A/B+ blocker). Fixed to her verbatim ("He knew exactly what to do… it jumped") and attributed to Kylie Kelce's podcast, 2025.
+  - **"I only know one speed" was Rich Eisen's phrasing**, which Kelce only affirmed — removed as a Kelce quote.
+  - **"worked out perfect" (New Heights 2025) and "kicked me into the tight end room" (Bussin' With The Boys 2023) were two different shows** conflated as one — de-conflated.
+  - **GQ is Sept 2025, not 2023**; two GQ strings were only partially verifiable, so I converted them from direct quotes to paraphrase to kill fabricated-quote risk.
+
+**Fact-check** — all four wedding details in the draft are accurate: July 3, 2026, Madison Square Garden, Adam Sandler officiating, Jason Kelce best man.
+
+**Substance (the two highest-leverage fresh-eyes notes)**
+- **New section "The Bracelet Travis Kelce Made for Taylor Swift"** — the Eras Tour bracelet → "took it personal" on New Heights → public pursuit → MSG wedding, pulled out of the old list-dump. This is the on-the-nose Type 7 beat that was missing, and it now earns the closing image.
+- **Grounded the greatness** — added the Jan 2024 Jerry Rice postseason-receptions record (his 152nd catch) and Mahomes' "favorite teammate" quote (testimony #4, which was never in the body) to the Discipline section.
+
+**Trims** — cut the ending's rescue-recap, reduced the "party guy" sentence-inversion from ~4 to 2, thinned "appetite," and let the breadth ambivalence breathe instead of resolving it toward danger.
+
+**One rejection:** kept the intro's "it was not his" hook that fresh-eyes flagged as pre-spoiling — the Discipline section now delivers the on-field payoff and ongoing cost, so it's no longer merely spoiled. Noted in the pass notes.
+
+## Verification
+- **Source audit:** 6 load-bearing quotes — 1 inline, 5 vague, **0 untagged**; epigraph/cold-open clean.
+- **Blog-lint:** 0 fail, 1 warn (the `faqs` frontmatter-enrich stage simply hasn't run yet — expected for a draft).
+- Ledgers updated (heading mix now 8 H2s, current-tense anchor), `SECOND PASS NOTES` appended, `lastmod` untouched.
+
+## Still open (would justify an editor pass, not blocking)
+The 5 "vague" load-bearing quotes are all real, dated, traceable (Rich Eisen Show 2024, New Heights 2025, Kylie's podcast 2025) — they read as vague only because the audit script doesn't recognize those show names as outlets. An editor could upgrade them to "inline" by citing a recognized outlet that re-reported each.

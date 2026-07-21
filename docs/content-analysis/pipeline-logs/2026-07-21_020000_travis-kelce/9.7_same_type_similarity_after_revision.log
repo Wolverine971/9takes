@@ -1,0 +1,104 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Travis-Kelce (Type 7)
+/Users/djwayne/9takes/src/blog/people/drafts/Travis-Kelce.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 44
+Comparison set (last 8 other Type-7 drafts by date):
+  - lamine-yamal  (2026-07-19, 21 units)
+  - john-coogan  (2026-07-14, 25 units)
+  - Jeff-Goldblum  (2026-07-03, 23 units)
+  - Matt-Smith  (2026-07-03, 24 units)
+  - cathie-wood  (2026-07-02, 22 units)
+  - Jim-Carrey  (2026-06-30, 23 units)
+  - conan-obrien  (2026-06-30, 12 units)
+  - bert-kreischer  (2026-06-26, 20 units)
+
+Noise floor over 7480 unit pairs:  median=0  p90=0  p99=0.009  max=0.122
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.118   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] Cathie Wood is the corrected portrait
+
+score 0.092   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] Cathie Wood is a believer who throws elbows.
+
+score 0.079   Travis-Kelce  <->  Jim-Carrey
+   TARGET [diagnosis] It's a good time." That is the bright side of the wiring
+   OTHER  [diagnosis] His comedy was never a relaxed man having a good time.
+
+score 0.046   Travis-Kelce  <->  john-coogan
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] John Coogan's public record points most strongly to Enneagram Type 7
+
+score 0.046   Travis-Kelce  <->  bert-kreischer
+   TARGET [counter-typing] He told GQ he does not want anyone saying anything negative about him
+   OTHER  [diagnosis] That is one who does not want to orbit alone. (For where this lands on the 7w6-versus-7w8 question
+
+
+Most similar drafts (max unit-pair score):
+  0.122 #####                Jeff-Goldblum
+  0.118 #####                cathie-wood
+  0.083 ###                  Matt-Smith
+  0.079 ###                  Jim-Carrey
+  0.046 ##                   john-coogan
+  0.046 ##                   bert-kreischer
+  0.027 #                    lamine-yamal
+  0.021 #                    conan-obrien
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.122   Travis-Kelce  <->  Jeff-Goldblum
+   TARGET [diagnosis] and the pursuit of a life that never goes dull.
+   OTHER  [diagnosis] or the flat gray of a life that has stopped moving.
+
+score 0.118   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] Cathie Wood is the corrected portrait
+
+score 0.092   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] Cathie Wood is a believer who throws elbows.
+
+score 0.083   Travis-Kelce  <->  Matt-Smith
+   TARGET [counter-typing] He told GQ he does not want anyone saying anything negative about him
+   OTHER  [counter-typing] He does not perform suffering as identity.
+
+score 0.079   Travis-Kelce  <->  Jim-Carrey
+   TARGET [diagnosis] It's a good time." That is the bright side of the wiring
+   OTHER  [diagnosis] His comedy was never a relaxed man having a good time.
+
+score 0.069   Travis-Kelce  <->  Matt-Smith
+   TARGET [diagnosis] that alone was all I needed to come back." He does not describe the work as work.
+   OTHER  [counter-typing] He does not perform suffering as identity.
+
+score 0.048   Travis-Kelce  <->  Jeff-Goldblum
+   TARGET [diagnosis] he offered the cleanest summary of a life most people would find exhausting
+   OTHER  [diagnosis] or the flat gray of a life that has stopped moving.
+
+score 0.046   Travis-Kelce  <->  john-coogan
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] John Coogan's public record points most strongly to Enneagram Type 7
+
+score 0.046   Travis-Kelce  <->  bert-kreischer
+   TARGET [counter-typing] He told GQ he does not want anyone saying anything negative about him
+   OTHER  [diagnosis] That is one who does not want to orbit alone. (For where this lands on the 7w6-versus-7w8 question
+
+score 0.043   Travis-Kelce  <->  Matt-Smith
+   TARGET [diagnosis] Why does that word sound so intense?" A man who can joke the word out of his own lowest moment is telling you exactly how he survives.
+   OTHER  [counter-typing] and was literally cast out of his first identity.
+
+score 0.042   Travis-Kelce  <->  bert-kreischer
+   TARGET [diagnosis] Why does that word sound so intense?" A man who can joke the word out of his own lowest moment is telling you exactly how he survives.
+   OTHER  [diagnosis] That is not a man who wants to dominate the room.
+
+score 0.040   Travis-Kelce  <->  Matt-Smith
+   TARGET [diagnosis] Why does that word sound so intense?" A man who can joke the word out of his own lowest moment is telling you exactly how he survives.
+   OTHER  [counter-typing] Smith leaps out of his the instant the scene ends
+
+------------------------------------------------------------------------------
+Top pair scores 0.122 vs median 0  (~∞x the noise floor).

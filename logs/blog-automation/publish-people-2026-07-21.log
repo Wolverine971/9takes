@@ -1,0 +1,24 @@
+Publish blocked. The publish gate rejected the only unpublished candidate.
+
+```text
+No people blog published.
+
+Auto-select: no eligible draft found (476 candidates checked; the rest are already published).
+Only unpublished draft: Travis-Kelce (Enneagram 7, overall 8.6, rubric_version 2, discoverability 9, caps [], needs_review false).
+
+Person: Travis Kelce
+Draft: src/blog/people/drafts/Travis-Kelce.md
+Supabase: not published (gate blocked)
+
+Blockers:
+- missing_grade_stability_delta — frontmatter has a single graded_at pass but no grade_stability_delta / first_overall / regrade_overall. Needs a supervised regrade via /grade_blog to prove the 8.6 is stable (delta ≤ 0.3).
+- missing_full_image — static/types/7s/Travis-Kelce.webp does not exist.
+- missing_thumbnail_image — static/types/7s/s-Travis-Kelce.webp does not exist.
+```
+
+The quality bar itself is met (8.6 ≥ 8.5, v2 rubric, discoverability 9, no caps, `needs_review: false`). What's missing is operational, and both fall outside this publisher command's scope:
+
+- **Re-grade** — run `/grade_blog Travis-Kelce` to establish the stability delta.
+- **Images** — generate `Travis-Kelce.webp` + `s-Travis-Kelce.webp` into `static/types/7s/` (the manual Canva/image pipeline).
+
+Once those three are resolved, re-run `/blog_content_publish_people Travis-Kelce` and it'll clear the gate. Want me to kick off the regrade, or is the image step something you're handling manually?

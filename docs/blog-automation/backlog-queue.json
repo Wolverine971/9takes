@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-20T06:15:57Z",
+	"lastUpdated": "2026-07-21T07:19:44Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "travis-kelce",
-			"displayName": "Travis Kelce",
-			"type": null,
-			"priority": 70,
-			"priorityReason": "Married Taylor Swift July 3 2026 at MSG; NFL season starts September; most conspicuous coverage gap on the site given Swift is covered",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 1,
-			"strategicValue": "sports-icon-cluster"
-		},
 		{
 			"name": "christopher-nolan",
 			"displayName": "Christopher Nolan",
@@ -127,8 +114,8 @@
 			"name": "chase-infiniti",
 			"displayName": "Chase Infiniti",
 			"type": null,
-			"priority": 58,
-			"priorityReason": "Critics Choice Best Actress breakout from One Battle After Another; The Testaments later this year keeps the arc rising",
+			"priority": 62,
+			"priorityReason": "Now a surprise 2026 Emmy nominee (The Testaments) on top of the Critics Choice Best Actress win for One Battle After Another — two live award catalysts; Emmy ceremony Sept 14 sustains the arc through fall",
 			"estimatedTraffic": "high",
 			"searchVolume": "medium",
 			"personaTitle": null,
@@ -408,9 +395,42 @@
 			"addedToQueue": "2026-07-18",
 			"retryCount": 0,
 			"strategicValue": "tech-philosophy-cluster"
+		},
+		{
+			"name": "yang-zhilin",
+			"displayName": "Yang Zhilin",
+			"type": null,
+			"priority": 67,
+			"priorityReason": "Moonshot AI CEO; Kimi K3 is this week's 'China closing the gap on OpenAI/Anthropic' story (The National/AOL/Storyboard18, July 17-19). Strongest niche (frontier-builder, 178 median) with the deepest English record of any AI-founder pick this month (CMU PhD in 4yrs, XLNet first author, turned down Apple) — strictly better than the thin-record Liang Wenfeng queued at 49",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-20",
+			"retryCount": 0,
+			"strategicValue": "frontier-builder"
 		}
 	],
 	"completed": [
+		{
+			"name": "travis-kelce",
+			"displayName": "Travis Kelce",
+			"type": null,
+			"priority": 70,
+			"priorityReason": "Married Taylor Swift July 3 2026 at MSG; NFL season starts September; most conspicuous coverage gap on the site given Swift is covered",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 1,
+			"strategicValue": "sports-icon-cluster",
+			"startedAt": "2026-07-21T06:00:00Z",
+			"completedAt": "2026-07-21T07:19:44Z",
+			"contentGrade": "8.6",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~79 min",
+			"needsReview": true
+		},
 		{
 			"name": "lamine-yamal",
 			"displayName": "Lamine Yamal",

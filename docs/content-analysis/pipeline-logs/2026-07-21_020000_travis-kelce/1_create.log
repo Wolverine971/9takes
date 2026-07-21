@@ -1,0 +1,32 @@
+The Travis Kelce draft is complete and clears every hard gate.
+
+**Thesis:** Most people see a happy-go-lucky party guy who lucked into greatness (and a pop-star fiancée). Through Type 7, the real driver is a man whose appetite nearly ended his career at 20, whose discipline was *installed from the outside* by his brother and his coaches — and who says so out loud. The signature detail that cracks him open: his jersey number 87 is Jason's birth year. His identity literally encodes the debt.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Travis-Kelce.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (Testimony): pass · Gate 2 (Heading Mix): pass · Gate 3 (Self-loop): pass · Gate 4 (Anti-imitation): pass · Gate 5 (Distribution): pass · Gate 6 (Formula Fingerprint): pass
+LIMITATIONS: no faqs in frontmatter (owned by the downstream frontmatter-enrich stage); a few coach/family lines (Butch Jones's expulsion speech, "heart sunk to the floor") are widely-reported reconstructions and were rendered with attribution hedges rather than as hard quotes
+```
+
+**How each gate cleared:**
+- **Gate 1 (Testimony):** 5 qualifying named third-party quotes — Andy Reid, Jason Kelce (×2), Brett Veach, Patrick Mahomes.
+- **Gate 2 (Heading Mix):** 5 of 7 H2s are search-intent or strong-hybrid.
+- **Gate 6 (Formula Fingerprint):** `blog-quality-report` shows **0 contrast pairs** (strong and comparative); same-type similarity scan cleared (a template collision at 0.266 — "A Type 8 case exists too" — was rewritten down to 0.122 benign overlap); bespoke Cincinnati case-file timeline; empathy turn built from Kelce's own wound-vocabulary ("that's been the battle of my career"); current-tense anchor (2025 statistical low, July 2026 wedding, 14th-season return); interior beat via `inner-thought`.
+- **`blog-lint.sh`: 0 fail, 1 warn.** No prose em-dashes, no banned phrases, no Type 7 avoid-list tics.
+
+**Deliverables in the draft:**
+- Enneagram **Type 7 (7w8)**, high confidence, with the type-challenge memo logged
+- Required `What is Travis Kelce's personality type?` / `is an Enneagram Type 7` pair + 46-word extractable answer block
+- Enneagram Rabbit Hole (553 words, all four sub-sections)
+- Furniture: TL;DR accordion, Cincinnati case-file timeline, public/private contrast-panel, inner-thought, Rabbit Hole
+
+**Internal links added (5):**
+- Travis's own type → `/enneagram-corner/enneagram-type-7`
+- Taylor Swift → `/personality-analysis/taylor-swift`
+- Kevin Hart (fellow Type 7) → `/personality-analysis/kevin-hart`
+- Rabbit Hole pillars → `/enneagram-corner/enneagram-wings-complete-guide`, `/enneagram-corner/enneagram-instinctual-subtypes`
+
+Per non-interactive rules, I saved as `status: draft` and did **not** auto-promote to `ready` — human review before production is still required. Grading is a separate step owned by `/grade_blog`. Next step when you're ready: review, then mark `production_pretext` ready and run `blog_content_production_people`.

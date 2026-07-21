@@ -1,0 +1,18 @@
+Grading complete. Frontmatter and reviewer sidecar written.
+
+## Grading Complete — Travis Kelce
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Travis-Kelce | 8.5 | 8.5 | 9 | 8.5 | 8.5 | 9 | **8.6** | **B+** |
+
+*(Weighted: (8.5×1.5 + 8.5×1.5 + 9×1.5 + 8.5 + 8.5 + 9×0.5) / 7 = 60.5/7 = 8.6. Discoverability 9 ≥ 7 → no gate. No caps applied.)*
+
+### Key observations
+
+- **Lands exactly on its freshly-graded peer.** Lamine-Yamal (same Type 7, graded 2 days ago) scored an identical 8.6/B+ with the same profile — strong correction pass, exceptional discoverability, one legible closer-cadence tell, felt-fear slightly more argued than felt. That peer consistency gives the grade high confidence.
+- **Genuinely strong, not inflated.** The car-keys cold open, the counter-typical "borrowed discipline" thesis, No. 87-as-receipt, and the Super Bowl LVIII empathy turn + interior beat put this well above the median pipeline draft. The revision pass *corrected two factual errors* (Baltimore-not-Buffalo; a false "lowest-in-a-decade" stat) rather than just citing sources — a real evidence signal.
+- **What holds it at B+, not A:** (1) Evidence leans on podcast self-testimony over primary third-party documents, and two emotionally load-bearing body quotes (the Butch Jones jersey inscription, the No. 87 quote) carry no inline outlet+date. (2) The aphoristic one-line section-closer cadence is the piece's most legible house fingerprint. (3) Felt fear lives almost entirely in the one Super Bowl beat.
+- **Ledger integrity:** all 5 testimony quotes, 8 H2s, and the 0-contrast-pair claim spot-checked against the body and match — no stale-ledger flag. Sameness scan tripped only on the mandated SEO diagnosis sentence (max 0.118), so no Originality cap.
+
+The four concrete steps to A- are in `docs/content-analysis/grades/Travis-Kelce.review.md`. Note the draft's `production_pretext` still reads `reviewed: false` / `ready_for_production: false` — publication is a downstream call, not part of this grade.

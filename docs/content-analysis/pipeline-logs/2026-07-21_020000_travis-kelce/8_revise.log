@@ -1,0 +1,28 @@
+## Revision complete — `src/blog/people/drafts/Travis-Kelce.md`
+
+**Triggered by:** grade **B (8.4)**, just under the 8.5 bar. Lint was already clean, so no mechanical FAILs — the work was the grader's `NEEDS WORK` / `TO REACH B+` list, focused on the two 1.5×-weighted dimensions (Evidence 8, Originality 8).
+
+### Fixes applied
+
+**Evidence — sourced all 3 load-bearing stats inline** (the grader's highest-leverage lever, "likely lifts Evidence to 9 and clears the threshold"):
+- Jerry Rice postseason-receptions record → NFL.com
+- Nine-figure New Heights deal → CNN Business
+- 2025 receiving decline → pro-football-reference; 2025 playoff miss → NFL.com
+- Added the three URLs to the `citations` frontmatter.
+
+**Two factual errors caught while sourcing** (fixed, not just cited — this is what the loop exists for):
+1. The 152nd-catch/Jerry Rice record happened in the **Jan 2024 AFC Championship vs. Baltimore**, not "against Buffalo" (the draft conflated it with the separate Buffalo QB-receiver playoff-TD record).
+2. **"2025 lowest receiving total in a decade" was false** — 2024 (823 yds) was lower than 2025 (851 yds). Rewrote to the accurate claim: below his 1,000-yard prime for a third straight year. Also dropped "the off-field abundance had a price on the field" (the 2025 collapse traces to Mahomes's Week-14 ACL, not Kelce's side projects) and named the injury instead — keeps the "was the breadth worth it" tension without false causation.
+
+**Originality — cut the repeated-device drag:**
+- Varied the back-to-back "appetite" in the diagnosis → main-body count now 4 (plant / TL;DR / diagnosis / bookend).
+- Trimmed the party-guy inversion to its two strongest instances (contrast panel + GQ growth beat); removed the direct echo and de-doubled "party guy" in the GQ paragraph.
+- Updated the FORMULA FINGERPRINT ledger to match the corrected stat.
+
+### Rejected (with reason)
+- **Re-cutting the intro's "it was not his" thesis** — a deliberate prior-pass choice (the counter-typical hook the grader praised). The grader's actual named ask ("stop re-explaining borrowed discipline *in the ending*") was already satisfied by the second pass; the ending is the "and then he stayed" turn, no rescue recap.
+- **Chasing recognized-outlet re-reports for the 5 podcast quotes** — grader said the 3 stats alone clear it; the podcast quotes are already tagged to show + date with no cap triggered.
+
+**Lint: clean (0 fail, 0 warn).** The pipeline will clear the consumed review sidecar and re-grade.
+
+One flag worth surfacing: I did not touch the July 3, 2026 wedding details (a prior-pass verify note), but the two stat errors I found were both in "recent/near-term" claims — worth a fact-check eye on other very-recent specifics before publish.

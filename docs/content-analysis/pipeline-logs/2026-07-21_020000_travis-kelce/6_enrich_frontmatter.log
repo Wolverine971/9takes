@@ -1,0 +1,33 @@
+YAML parses cleanly, all 11 fields added, and every FAQ anchor maps to a real H2 in the body. Enrichment is complete.
+
+```
+Frontmatter enrichment complete: Travis-Kelce
+```
+
+**Fields filled:**
+- `wikidata_qid` (Q7836292), `imdb_id` (nm7907935), `birth_date` (1989-10-05), `birth_place` (Westlake, Ohio, United States), `nationality` (American), `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved, untouched):**
+- `wikipedia` (already correct → `en.wikipedia.org/wiki/Travis_Kelce`)
+- `twitter` (tkelce), `instagram` (killatrav), `tiktok` ('') — creator's social handles
+- All creator fields (`title`, `meta_title`, `persona_title`, `description`, `enneagram`, `type`, `suggestions`, `production_pretext`, `lastmod`, etc.)
+
+**Verification done:**
+- `imdb_id` cross-checked three ways — Wikidata P345 on Q7836292, the IMDb name-page search result, and biographical match (born Oct 5 1989). Confirmed, not guessed.
+- `wikidata_qid` confirmed as Q7836292 (my first guessed QID turned out to be a British painter; discarded it).
+- Birth place set to Westlake, Ohio per IMDb / Britannica / Wikipedia consensus. (A fast-model read of the Wikidata JSON reported "Westfield, Indiana" in P19 — treated as a misread/data error, not authoritative.)
+
+**FAQs generated (5):**
+1. What is Travis Kelce's personality type? → `#what-is-travis-kelces-personality-type`
+2. Why did Cincinnati kick Travis Kelce off the team? → `#the-year-cincinnati-kicked-travis-kelce-off-the-team`
+3. Why does Travis Kelce wear No. 87? → `#why-travis-kelce-wears-no-87`
+4. Why did Travis Kelce shove Andy Reid at the Super Bowl? → `#why-travis-kelce-shoved-his-own-coach-at-the-super-bowl`
+5. How did Travis Kelce and Taylor Swift get together? → `#the-bracelet-travis-kelce-made-for-taylor-swift`
+
+All five anchors resolve to real H2 headings in the body; all answers are drawn from the actual analysis, not invented.
+
+**Issues:**
+- **No inline external URLs in the body.** Every link in the body is internal (`/enneagram-corner/...`, `/personality-analysis/...`). The article's real sources are named in prose (New Heights podcast, The Rich Eisen Show, ESPN, GQ, Yahoo Sports, Kylie Kelce's podcast, the family documentary) but never as URLs. Per the command's "do not invent citations" rule, I built `citations` from authoritative entity/source pages that substantiate the body's specific claims (Kelce + Jason Kelce Wikipedia, Pro-Football-Reference for the stat claims, Britannica), matching the Einstein gold-standard pattern rather than pulling literal body URLs. Flagging that the draft's sourcing is prose-named, not linked — a downstream editor could upgrade by citing recognized outlets that re-reported each quote (this echoes the SECOND PASS / EDITOR notes already in the file).
+- `tiktok` left as empty string (creator-owned social field; not mine to fill or remove).
+
+The body, all HTML comment blocks (Testimony Ledger, Fresh Eyes, Second Pass, Editor Pass), `production_pretext`, and `lastmod` were left completely untouched.

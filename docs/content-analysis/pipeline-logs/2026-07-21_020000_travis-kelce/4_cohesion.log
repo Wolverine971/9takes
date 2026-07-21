@@ -1,0 +1,29 @@
+Done. Here's the summary.
+
+## Cohesion Check Complete: Travis-Kelce.md
+
+**Before score: 8/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Travis Kelce is a Type 7 whose greatness came not from self-made discipline but from a cage other people built around his appetite, and his arc is a man wired to leave every room finally deciding to stay in one.
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- **Cincinnati → No. 87:** Added a two-sentence bridge at the section open ("Kelce paid Butch Jones back with a signed jersey. He pays Jason back every Sunday."). This carries the just-stated gratitude/repayment beat across the boundary, names the next subject (Jason) before the number reveal instead of after it, and pre-plants the "receipt" motif the section already closes on. Matches the piece's short-sentence contrast rhythm; no em-dash, no new argument.
+
+### What Was Preserved
+- All frontmatter, the four HTML ledgers, and both review comment-blocks (fresh-eyes + second-pass) — untouched
+- All Svelte components (`<details>`, `.timeline`, `.contrast-panel`, `.inner-thought`, rabbit hole), internal links, and the epigraph
+- 7 of 8 section transitions left as-is (already strong). The "yes" carry into the Bracelet section and the "overflow → no longer big enough to hold him" echo into Can't-Do-One-Thing are particularly clean.
+
+### Remaining Concerns (deliberately not "fixed" — they're content calls, not cohesion breaks)
+
+1. **Diagnosis pre-tells Cincinnati.** The Type 7 section already delivers the weed story, the "worked out perfect" line, and the marijuana joke, so Cincinnati re-tells beats the reader has heard. The draft's own second-pass note flags this as intentional layering (diagnosis = the reflex; Cincinnati = the case file). It reads fine, but it's the one spot where the through-line doubles back. Your call whether to thin the diagnosis version.
+
+2. **"Can't Do Just One Thing" holds three sub-threads** under one roof — the breadth-vs-depth question, the "he actually cares about his reputation" GQ beat, and the 2025 stat low + comeback. They're loosely bound by "the Enthusiast at full stretch." Coherent, but the reputation beat leans more toward the Type 3 counter-read than toward breadth. Not a break; just the least unified section.
+
+3. **Discipline → Super Bowl** rides on an implicit link ("went deep in one arena / never anywhere else" → the sideline being "anywhere else"). It works via the "happy-go-lucky myth" callback, so I left it rather than risk cluttering a strong opener. Flagging in case you want to make the depth-vs-combustion pivot explicit.
+
+The piece was already cohesive, so I applied only the one transition that genuinely benefited and held off on forcing bridges where they'd have added noise.

@@ -1,0 +1,19 @@
+Done. Frontmatter grade added and reviewer sidecar written.
+
+## Grading Complete — Travis Kelce
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Travis-Kelce | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+*(Overall weighted: (8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4. Discoverability 9 ≥ 7 → no gate cap. No fingerprint caps: contrast-pairs 0, ending passes swap, empathy turn uses wound-vocabulary not house grammar, current anchor present, critic pressure faced, rabbit hole well-formed.)*
+
+### Key observations
+- **Top of the B band, just short of the B+ threshold.** This is a genuinely strong pipeline draft — closest to the Matt-Smith B anchor ("what very good pipeline output looks like — a B, not an A").
+- **Standout dimensions:** Discoverability (9) is near-perfect — length-optimal metadata, extractable 46-word answer block, 5 real search-intent FAQs, complete entity metadata. Enneagram (9) clears all three interior checks — real critic pressure, a wound-vocabulary empathy turn on the Super Bowl shove, and a genuine interior beat. Hook (9) — the three-year-old starting the car is swap-proof and unmistakably Kelce.
+- **What's holding it at 8.4:** the "borrowed discipline" thesis is excellent but monocausal and re-stated ~5-6 times (caps Originality/Writing at 8 on merits), and Evidence is short of 9 only because three load-bearing stats (Jerry Rice record, nine-figure deal, 2025 receiving low) aren't cited inline and the podcast quotes are named-but-not-linked.
+- **Deterministic checks all clean:** 0 untagged load-bearing quotes, 0 contrast-pairs, head-term PASS, same-type similarity max 0.118 (the mandated SEO sentence only). No sameness or citability cap triggered.
+
+The single highest-leverage fix to cross into B+: source those three stats inline and trim the thesis repetition — details in `docs/content-analysis/grades/Travis-Kelce.review.md`.
+
+**Total graded this session: 1**

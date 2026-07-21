@@ -1,0 +1,8 @@
+blog-quality-report: travis-kelce
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Why Travis Kelce Almost Threw It All Away (Type 7)
+   answer-block: ok (46 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 391)

@@ -1,0 +1,16 @@
+## Editor pass complete — `src/blog/people/drafts/Travis-Kelce.md`
+
+**Which draft:** The Travis Kelce Type 7 analysis. It had already been through creation → second pass → fresh eyes, so the mechanical baseline was clean coming in (0 em-dashes, 0 contrast pairs, no banned phrases). This pass targeted the subtler AI tells the lint can't see.
+
+**What I cleaned up:**
+
+- **Repeated signpost frame.** "Here is where the story…", "Here is where the Enneagram earns its keep", and "here is the tell that undoes…" — three of the same structural crutch. Left one, rewrote the other two as direct statements. Fixed a bonus echo: "undoes the myth/caricature" was doubling too.
+- **De-collided the loss→lesson beat.** The diagnosis section pre-spent the exact "take a loss / repackage as a lesson" move that's the payoff of the Super Bowl empathy turn. Rewrote the diagnosis line so the sideline reframe lands fresh instead of feeling pre-heard.
+- **Two residual negative-parallelism tells** (the #1 AI tell, invisible to the contrast-pair check because they're not the classic engine): the No. 87 reveal ("not a lucky number… It is") and the breadth question ("is not whether… It is whether"). Both rewritten to direct statements while keeping the misdirection-then-reveal and the open tension.
+- **House-term echoes:** varied "watch the moment through the wiring" and the "That is the entire wiring in one gesture" opener so "wiring" doesn't read as a tic.
+
+**Protected:** the car-keys cold open, the No. 87 beat, and — critically — the Super Bowl empathy turn plus the inner-thought interior beat, which are the emotional core. Left the party-guy inversion at two prose instances rather than gut the contrast-panel device.
+
+**Final contrast-pair count:** 0 total (0 strong / 0 comparative). Em-dashes: 0. Lint: 0 fail, 1 warn (the frontmatter `faqs` enrich stage hasn't run — a discoverability item, not a prose problem).
+
+**Verdict:** Prose is production-ready. The one thing standing between this and publish-eligible is the open `faqs` enrichment stage (and the standard db-sync/verify blockers in the frontmatter). No further substantive editorial pass needed.
