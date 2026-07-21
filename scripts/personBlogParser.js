@@ -201,6 +201,7 @@ const UNFINISHED_DRAFT_PATTERNS = [
 		pattern: /\b(outline only|skeleton draft|bare bones|stub draft|unfinished draft)\b/i
 	}
 ];
+/** @type {ReadonlyArray<keyof BlogRecord>} */
 export const PERSON_BLOG_MANAGED_FIELDS = Object.freeze([
 	'title',
 	'meta_title',
@@ -236,6 +237,7 @@ export const PERSON_BLOG_MANAGED_FIELDS = Object.freeze([
 	'knows_about',
 	'citations'
 ]);
+/** @type {ReadonlyArray<keyof BlogRecord>} */
 export const NON_PUBLISH_LOCKED_FIELDS = Object.freeze([
 	'date',
 	'loc',
@@ -1506,6 +1508,7 @@ export function buildNonPublishUpdatePlan(existing, entry, options = {}) {
 		explicitFields.delete('content_quality');
 	}
 
+	/** @type {Array<keyof BlogRecord>} */
 	const candidateFields = options.gradesOnly
 		? ['content_quality']
 		: PERSON_BLOG_MANAGED_FIELDS.filter((field) => !NON_PUBLISH_LOCKED_FIELDS.includes(field));
