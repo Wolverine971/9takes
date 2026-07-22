@@ -85,6 +85,28 @@ Post-fix verification:
 - Svelte validation reports no component errors in VoiceRecorder, Interact, or StrategicQuestion.
 - Fresh post-fix active-recording screenshots remain owed; the supplied production screenshot is the before reference.
 
+## Community-first handoff and share nudge - 2026-07-22
+
+- [discussion hierarchy] The unlocked page now names and renders `What people actually said` before
+  any generated content. The nine AI examples moved below the community stream into a closed,
+  explicitly optional disclosure that says generated examples are not community posts. -> P4+P6+P8
+- [answer-card consistency] Extracted one `PerspectivePreviewCard` using the existing community take
+  stripe, type badge, metadata, body hierarchy, long-string wrapping, and V5 card radius. Both the
+  homepage reveal and optional question-page comparison now use it. -> P1+P2+P3+P4
+- [desktop share nudge] Eight seconds after a first answer, or after entering from the homepage
+  handoff, desktop visitors receive one dismissible side card: `Who would answer this differently?`
+  The primary action opens native sharing when available and otherwise copies the canonical URL with
+  group-chat-specific confirmation copy. It never appears below 900px and is session-deduped per
+  question. -> P6+P8+P11+P13
+- [accessibility and motion] The nudge does not steal focus, has a labeled 44px dismissal control,
+  uses the Button primitive for sharing, and reduces its entrance to an immediate render when reduced
+  motion is requested. -> P11+P13
+- Targeted Svelte autofixer, ESLint, and Prettier checks pass. `pnpm check` passes with existing
+  repository warnings; `pnpm lint:radius` is still blocked by two unrelated in-progress files.
+- Fixture-backed browser verification confirmed the delayed card appears on desktop with no console
+  errors or horizontal overflow, while the same entry route leaves the nudge absent at 390x844.
+  Capture: `/private/tmp/9takes-share-nudge-desktop.png`.
+
 ## Tier 3 - polish/signature (motion/effects, at most one per surface)
 
 - [motion pass] The surface already has enough visual identity from the type-color stripe and Streetlamp case-file styling. Do not add P14-P18 signature effects yet. First gate the existing `slide`, `fade`, hover translate, carousel transform, spinner, and modal fly/scale motion for reduced-motion users. -> P11

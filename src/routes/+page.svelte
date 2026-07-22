@@ -9,6 +9,7 @@
 	import { capture } from '$lib/analytics/posthog';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { Button, SectionKicker } from '$lib/components/atoms';
+	import PerspectivePreviewCard from '$lib/components/molecules/PerspectivePreviewCard.svelte';
 	import TimeMirror from '$lib/components/marketing/TimeMirror.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import {
@@ -17,7 +18,7 @@
 		CHORUS_TAKE_MIN_WORDS,
 		CHORUS_TAKE_WARNING_CHARACTERS
 	} from '$lib/constants/answerLimits';
-	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
+	import { formatTypeLabel } from '$lib/constants/enneagramColors';
 
 	let { data }: { data: PageData } = $props();
 
@@ -139,6 +140,7 @@
 		charactersRemaining <= 50 && 'character-budget--critical'
 	]);
 	const questionHref = $derived(`/questions/${data.featuredQuestion.url}`);
+	const questionThreadHref = $derived(`${questionHref}?from=homepage-answer#comments-panel`);
 	const homepageStructuredData = $derived.by(() => ({
 		'@context': 'https://schema.org',
 		'@type': 'WebPage',
@@ -225,10 +227,6 @@
 		} finally {
 			submitting = false;
 		}
-	}
-
-	function typeColor(type: number) {
-		return TYPE_COLOR_MAP[type] ?? 'var(--lamp-glow)';
 	}
 </script>
 
@@ -411,27 +409,33 @@
 									<EyeOff size={17} aria-hidden="true" />
 								{/if}
 							</span>
-							<span><strong>9</strong> perspectives</span>
+							<span><strong>9</strong> perspective previews</span>
 						</div>
 						<span class="takes-state"
-							>{previewRevealed ? 'Revealed after your answer' : 'Hidden until you post'}</span
+							>{previewRevealed ? 'Seeded starting points' : 'Hidden until you post'}</span
 						>
 					</div>
 
 					<div class="takes-body">
 						{#if previewRevealed}
-							<div class="perspectives chorus-perspectives">
-								{#each chorusTakes as take (take.type)}
-									<article
-										class="perspective chorus-take"
-										style:--perspective-color={typeColor(take.type)}
-									>
-										<div class="perspective-meta">
-											<span class="perspective-label">{formatTypeLabel(take.type)}</span>
-											<small>{take.source === 'human' ? 'Community take' : 'AI-seeded'}</small>
-										</div>
-										<p>&ldquo;{take.take}&rdquo;</p>
-									</article>
+							<header class="reveal-intro">
+								<div>
+									<span>Perspective preview</span>
+									<h4>One question. Nine different instincts.</h4>
+								</div>
+								<p>
+									These seeded examples open the lens and each one is labeled by source. Community
+									answers are waiting in the live discussion.
+								</p>
+							</header>
+							<div class="discussion-takes">
+								{#each chorusTakes as take, index (take.type)}
+									<PerspectivePreviewCard
+										typeNumber={take.type}
+										text={take.take}
+										source={take.source}
+										delay={index * 55}
+									/>
 								{/each}
 							</div>
 						{:else}
@@ -454,18 +458,35 @@
 					</div>
 				</div>
 
-				<div class="proof-card-foot">
-					<p>
-						{#if previewRevealed}
-							<strong>Your answer is live.</strong> Continue into the community thread.
-						{:else}
+				{#if previewRevealed}
+					<section class="discussion-door" aria-labelledby="discussion-door-title">
+						<div class="discussion-door__copy">
+							<span>The live discussion</span>
+							<h4 id="discussion-door-title">Now read what people actually said.</h4>
+							<p>
+								Your answer is already in the room. Compare it with the community, reply to a
+								perspective, or send the question to someone who would answer differently.
+							</p>
+						</div>
+						<Button
+							href={questionThreadHref}
+							size="lg"
+							onclick={() =>
+								void capture('homepage_discussion_opened', {
+									question_url: data.featuredQuestion.url
+								})}
+						>
+							Read everyone’s answers <ArrowUpRight size={17} aria-hidden="true" />
+						</Button>
+					</section>
+				{:else}
+					<div class="proof-card-foot">
+						<p>
 							<strong>This is the real room.</strong> Your answer is added to the live question.
-						{/if}
-					</p>
-					<Button href={questionHref} variant="ghost">
-						{previewRevealed ? 'See community answers' : 'Open this question'}
-					</Button>
-				</div>
+						</p>
+						<Button href={questionHref} variant="ghost">Open this question</Button>
+					</div>
+				{/if}
 			</div>
 		</div>
 	</section>
@@ -1108,6 +1129,50 @@
 		background: radial-gradient(circle at 50% 50%, var(--lamp-soft), transparent 64%);
 	}
 
+	.takes-shell.is-revealed .takes-body {
+		background: color-mix(in srgb, var(--night-deep) 72%, var(--stone-warm));
+	}
+
+	.reveal-intro {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.8fr);
+		align-items: end;
+		gap: 1.5rem;
+		padding: 0.3rem 0.15rem 1rem;
+		border-bottom: 1px solid var(--stone-edge);
+	}
+
+	.reveal-intro span,
+	.discussion-door__copy > span {
+		color: var(--lamp-glow);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.64rem;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	.reveal-intro h4,
+	.discussion-door h4 {
+		margin: 0.35rem 0 0;
+		color: var(--ink-bright);
+		font-size: 1.05rem;
+		font-weight: 700;
+		letter-spacing: -0.015em;
+	}
+
+	.reveal-intro p {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+		line-height: 1.5;
+	}
+
+	.discussion-takes {
+		display: grid;
+		gap: 0.7rem;
+		margin-top: 0.85rem;
+	}
+
 	.blurred-perspectives {
 		display: grid;
 		gap: 0.7rem;
@@ -1219,6 +1284,41 @@
 
 	.perspective--fear {
 		--perspective-color: var(--preview-fear);
+	}
+
+	.discussion-door {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		align-items: center;
+		gap: 1.5rem;
+		padding: 1.35rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 34%, var(--stone-edge));
+		border-radius: 1rem;
+		background:
+			radial-gradient(
+				circle at 92% 50%,
+				color-mix(in srgb, var(--lamp-glow) 12%, transparent),
+				transparent 38%
+			),
+			var(--stone-warm);
+	}
+
+	.discussion-door h4 {
+		font-size: 1.2rem;
+	}
+
+	.discussion-door p {
+		max-width: 43rem;
+		margin: 0.45rem 0 0;
+		color: var(--ink-mid);
+		font-size: 0.84rem;
+		line-height: 1.55;
+	}
+
+	:global(.home-reimagined .discussion-door .btn-label) {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
 	}
 
 	.proof-card-foot {
@@ -1695,8 +1795,18 @@
 			max-width: 7.5rem;
 		}
 
-		.chorus-perspectives {
+		.chorus-perspectives,
+		.reveal-intro,
+		.discussion-door {
 			grid-template-columns: 1fr;
+		}
+
+		.discussion-door {
+			align-items: stretch;
+		}
+
+		:global(.home-reimagined .discussion-door .btn) {
+			width: 100%;
 		}
 
 		.proof-card-foot {

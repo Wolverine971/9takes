@@ -17,6 +17,7 @@
 	import { invalidateAll } from '$app/navigation';
 	import { deserialize } from '$app/forms';
 	import { onMount } from 'svelte';
+	import { Share2, X } from '@lucide/svelte';
 	import QRCode from 'qrcode';
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
 	import Interact from '$lib/components/molecules/Interact.svelte';
@@ -24,6 +25,7 @@
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 	import { Button, SectionKicker } from '$lib/components/atoms';
+	import { capture } from '$lib/analytics/posthog';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import { buildBreadcrumbSchemaForGraph, type BreadcrumbItem } from '$lib/utils/schema';
 	import type { PageData } from './$types';
@@ -52,6 +54,9 @@
 	// Local state for optimistic updates
 	let optimisticComments = $state<Comment[]>([]);
 	let optimisticUserHasAnswered = $state(false);
+	let shareNudgeVisible = $state(false);
+	let shareNudgeFeedback = $state('');
+	let shareNudgeTimer: number | null = null;
 	let categoryEditorOpen = $state(false);
 	let categoryEditorError = $state('');
 	let categoryEditorSuccess = $state('');
@@ -242,6 +247,7 @@
 		normalizeText(data.question.question_formatted || data.question.question)
 	);
 	let url = $derived(`https://9takes.com/questions/${data.question.url}`);
+	let shareNudgeStorageKey = $derived(`9takes:share-nudge:${data.question.url}`);
 	let hasUserProvidedContext = $derived(hasUserProvidedQuestionContext(data.question.data));
 	let questionContext = $derived(
 		hasUserProvidedContext
@@ -337,9 +343,9 @@
 	function hasUserProvidedQuestionContext(value: unknown): boolean {
 		return Boolean(
 			value &&
-				typeof value === 'object' &&
-				!Array.isArray(value) &&
-				(value as Record<string, unknown>).userProvidedContext === true
+			typeof value === 'object' &&
+			!Array.isArray(value) &&
+			(value as Record<string, unknown>).userProvidedContext === true
 		);
 	}
 
@@ -420,11 +426,83 @@
 		// Always mark as answered so the gate opens immediately
 		if (isFirstComment) {
 			optimisticUserHasAnswered = true;
+			queueShareNudge('question-answer');
 		}
 
 		// Invalidate for first-time commenters to refresh permissions and load all comments
 		if (isFirstComment) {
 			invalidateAll();
+		}
+	}
+
+	function shareNudgeSeen(): boolean {
+		try {
+			return window.sessionStorage.getItem(shareNudgeStorageKey) === 'seen';
+		} catch {
+			return false;
+		}
+	}
+
+	function markShareNudgeSeen() {
+		try {
+			window.sessionStorage.setItem(shareNudgeStorageKey, 'seen');
+		} catch {
+			// Storage can be unavailable in privacy modes; dismissal still works in memory.
+		}
+	}
+
+	function queueShareNudge(source: 'homepage-answer' | 'question-answer') {
+		if (!window.matchMedia('(min-width: 900px)').matches || shareNudgeSeen()) return;
+		if (shareNudgeTimer !== null) window.clearTimeout(shareNudgeTimer);
+
+		shareNudgeTimer = window.setTimeout(() => {
+			shareNudgeFeedback = '';
+			shareNudgeVisible = true;
+			shareNudgeTimer = null;
+			void capture('question_share_nudge_shown', {
+				question_url: data.question.url,
+				source
+			});
+		}, 8000);
+	}
+
+	function dismissShareNudge(action: 'dismissed' | 'shared' = 'dismissed') {
+		shareNudgeVisible = false;
+		markShareNudgeSeen();
+		void capture('question_share_nudge_closed', {
+			question_url: data.question.url,
+			action
+		});
+	}
+
+	async function shareQuestionFromNudge() {
+		const shareData = {
+			title: 'A question from 9takes',
+			text: `${formattedQuestionText}\n\nWhat’s your take?`,
+			url
+		};
+
+		try {
+			if (navigator.share) {
+				await navigator.share(shareData);
+				void capture('question_shared_from_nudge', {
+					question_url: data.question.url,
+					method: 'native'
+				});
+				dismissShareNudge('shared');
+				return;
+			}
+
+			await navigator.clipboard.writeText(url);
+			shareNudgeFeedback = 'Link copied. Drop it in the group chat.';
+			markShareNudgeSeen();
+			void capture('question_shared_from_nudge', {
+				question_url: data.question.url,
+				method: 'clipboard'
+			});
+		} catch (error) {
+			if (error instanceof DOMException && error.name === 'AbortError') return;
+			shareNudgeFeedback = 'Could not open sharing. Copy the page URL from your browser.';
 		}
 	}
 
@@ -434,6 +512,14 @@
 		QRCode.toDataURL(`https://9takes.com/questions/${data.question.url}`, QR_OPTS)
 			.then((url) => (qrCodeUrl = url))
 			.catch((err) => console.error('QR Code generation failed:', err));
+
+		if (new URL(window.location.href).searchParams.get('from') === 'homepage-answer') {
+			queueShareNudge('homepage-answer');
+		}
+
+		return () => {
+			if (shareNudgeTimer !== null) window.clearTimeout(shareNudgeTimer);
+		};
 	});
 
 	// SEO metadata (derived to stay reactive with data changes)
@@ -982,6 +1068,35 @@
 			{/if}
 		</div>
 	</section>
+
+	{#if shareNudgeVisible}
+		<aside
+			class="share-nudge"
+			aria-labelledby="share-nudge-title"
+			aria-describedby="share-nudge-copy"
+		>
+			<button
+				type="button"
+				class="share-nudge__close"
+				onclick={() => dismissShareNudge()}
+				aria-label="Dismiss share suggestion"
+			>
+				<X size={17} aria-hidden="true" />
+			</button>
+			<span class="share-nudge__icon" aria-hidden="true">
+				<Share2 size={20} />
+			</span>
+			<p class="share-nudge__kicker">A friend-to-friend test</p>
+			<h2 id="share-nudge-title">Who would answer this differently?</h2>
+			<p id="share-nudge-copy" class="share-nudge__copy">
+				Drop this question in a group chat. Compare answers after everyone gives their own take.
+			</p>
+			<Button fullWidth size="md" onclick={shareQuestionFromNudge}>Share in a group chat</Button>
+			{#if shareNudgeFeedback}
+				<p class="share-nudge__feedback" role="status">{shareNudgeFeedback}</p>
+			{/if}
+		</aside>
+	{/if}
 </article>
 
 <style lang="scss">
@@ -1005,6 +1120,115 @@
 
 	:global(:root.light) .question-page {
 		--cta-text: var(--ink-bright);
+	}
+
+	.share-nudge {
+		position: fixed;
+		right: max(1.5rem, env(safe-area-inset-right));
+		bottom: max(1.5rem, env(safe-area-inset-bottom));
+		z-index: 30;
+		display: none;
+		width: min(23rem, calc(100vw - 3rem));
+		padding: 1.2rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
+		border-radius: 1rem;
+		background: color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
+		box-shadow: var(--shadow-lg);
+	}
+
+	.share-nudge__close {
+		position: absolute;
+		top: 0.55rem;
+		right: 0.55rem;
+		display: grid;
+		width: 2.75rem;
+		height: 2.75rem;
+		place-items: center;
+		padding: 0;
+		border: 0;
+		border-radius: 0.625rem;
+		background: transparent;
+		color: var(--ink-dim);
+		cursor: pointer;
+	}
+
+	.share-nudge__close:hover {
+		background: var(--stone-mid);
+		color: var(--ink-bright);
+	}
+
+	:global(.question-page .share-nudge__close:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
+	.share-nudge__icon {
+		display: grid;
+		width: 2.5rem;
+		height: 2.5rem;
+		place-items: center;
+		margin-bottom: 0.85rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 34%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: var(--lamp-soft);
+		color: var(--lamp-glow);
+	}
+
+	.share-nudge__kicker {
+		margin: 0;
+		color: var(--lamp-glow);
+		font-family: var(--font-mono);
+		font-size: 0.62rem;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	.share-nudge h2 {
+		max-width: 17rem;
+		margin: 0.4rem 0 0;
+		color: var(--ink-bright);
+		font-size: 1.2rem;
+		font-weight: 720;
+		letter-spacing: -0.02em;
+		line-height: 1.2;
+	}
+
+	.share-nudge__copy {
+		margin: 0.65rem 0 1rem;
+		color: var(--ink-mid);
+		font-size: 0.84rem;
+		line-height: 1.55;
+	}
+
+	.share-nudge__feedback {
+		margin: 0.75rem 0 0;
+		color: var(--success-text);
+		font-size: 0.75rem;
+		line-height: 1.45;
+	}
+
+	@media (min-width: 900px) {
+		.share-nudge {
+			display: block;
+		}
+	}
+
+	@media (min-width: 900px) and (prefers-reduced-motion: no-preference) {
+		.share-nudge {
+			animation: share-nudge-enter 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
+		}
+	}
+
+	@keyframes share-nudge-enter {
+		from {
+			transform: translateY(10px);
+			opacity: 0;
+		}
+
+		to {
+			transform: translateY(0);
+			opacity: 1;
+		}
 	}
 
 	/* .mono is a global utility in index.scss (promoted 2026-06-10). */

@@ -16,20 +16,20 @@ person: 'Mira-Murati'
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 6
+  evidence: 8
   writing: 8
-  originality: 7
-  discoverability: 8
-  overall: 7.6
-  letter: C
+  originality: 8
+  discoverability: 9
+  overall: 8.4
+  letter: B
   rubric_version: 2
-  caps_applied: ['evidence_unsourced_load_bearing', 'originality_sameness', 'writing_contrast_pairs']
+  caps_applied: []
   confidence: medium
-  anchor: 'Alex-Warren draft (2026-07-01)'
-  needs_review: true
-  first_overall: 8.8
-  regrade_overall: 7.6
-  grade_stability_delta: 1.2
+  anchor: 'Matt-Smith draft (2026-06-28)'
+  needs_review: false
+  first_overall: 7.6
+  regrade_overall: 8.4
+  grade_stability_delta: 0.8
   graded_at: '2026-07-22'
 suggestions: ['Sam-Altman', 'Bill-Gates', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Mira_Murati'

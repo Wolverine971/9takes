@@ -1,13 +1,11 @@
 <!-- src/lib/components/molecules/AIComments.svelte -->
 <!--
-  The reveal moment. After a user posts their answer, this renders all nine
-  Enneagram takes at once as the homepage-style color-coded grid
-  (.chorus-perspectives on src/routes/+page.svelte) — not a one-at-a-time
-  carousel. Each card is honestly labeled "AI-seeded", matching the
-  homepage's attribution vocabulary.
+  A secondary comparison set shown after the real community discussion.
+  Cards share the same visual grammar as user takes while keeping their
+  AI origin explicit.
 -->
 <script lang="ts">
-	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
+	import PerspectivePreviewCard from './PerspectivePreviewCard.svelte';
 	import type { AIComment, QuestionPageData } from '$lib/types/questions';
 
 	interface Props {
@@ -31,14 +29,6 @@
 			.map((take) => ({ ...take, typeNumber: typeNumberOf(take) }))
 			.sort((a, b) => a.typeNumber - b.typeNumber)
 	);
-
-	function typeColor(typeNumber: number): string {
-		return TYPE_COLOR_MAP[typeNumber] ?? 'var(--lamp-glow)';
-	}
-
-	function takeLabel(typeNumber: number): string {
-		return typeNumber ? formatTypeLabel(typeNumber) : 'Enneagram pattern';
-	}
 </script>
 
 {#if takes.length && parentType === 'question' && data?.flags?.userHasAnswered && showAiComments}
@@ -49,25 +39,21 @@
 		</header>
 
 		<div class="chorus-perspectives">
-			{#each takes as take (take.id)}
-				<article class="perspective" style:--perspective-color={typeColor(take.typeNumber)}>
-					<div class="perspective-meta">
-						<span class="perspective-label">{takeLabel(take.typeNumber)}</span>
-						<small>AI-seeded</small>
-					</div>
-					<p>&ldquo;{take.comment}&rdquo;</p>
-				</article>
+			{#each takes as take, index (take.id)}
+				<PerspectivePreviewCard
+					typeNumber={take.typeNumber}
+					text={take.comment}
+					source="ai"
+					delay={index * 45}
+				/>
 			{/each}
 		</div>
 	</section>
 {/if}
 
 <style>
-	/* Ported from the homepage .chorus-perspectives / .perspective system
-	   (src/routes/+page.svelte) so the question page delivers the same reveal
-	   the homepage demos. V5 tokens flip via :root.light. */
 	.nine-takes {
-		margin: 0 1rem 1.25rem;
+		margin: 0.9rem 0 0;
 	}
 
 	.nine-takes__head {
@@ -93,118 +79,5 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: 0.7rem;
-	}
-
-	@media (min-width: 640px) {
-		.chorus-perspectives {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-	}
-
-	.perspective {
-		position: relative;
-		overflow: hidden;
-		min-width: 0;
-		padding: 1rem 1rem 1rem 1.15rem;
-		border: 1px solid color-mix(in srgb, var(--perspective-color) 38%, var(--stone-edge));
-		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--perspective-color) 8%, var(--stone-warm));
-	}
-
-	.perspective::before {
-		position: absolute;
-		inset: 0 auto 0 0;
-		width: 3px;
-		background: var(--perspective-color);
-		content: '';
-	}
-
-	.perspective-meta {
-		display: flex;
-		align-items: baseline;
-		justify-content: space-between;
-		gap: 0.75rem;
-	}
-
-	.perspective-label {
-		min-width: 0;
-		color: var(--perspective-color);
-		font-family: var(--font-mono, ui-monospace, monospace);
-		font-size: 0.65rem;
-		letter-spacing: 0.07em;
-		text-transform: uppercase;
-	}
-
-	/* Type hexes are tuned for dark surfaces — deepen them on the light theme
-	   (same pattern as .public-perspective-card__eyebrow in QuestionContent). */
-	:global(:root.light) .perspective-label {
-		color: color-mix(in srgb, var(--perspective-color) 72%, black);
-	}
-
-	.perspective-meta small {
-		flex: 0 0 auto;
-		color: var(--ink-dim);
-		font-family: var(--font-mono, ui-monospace, monospace);
-		font-size: 0.58rem;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-	}
-
-	.perspective p {
-		margin: 0.45rem 0 0;
-		color: var(--ink-bright);
-		font-size: 0.83rem;
-		line-height: 1.45;
-		overflow-wrap: anywhere;
-	}
-
-	@media (prefers-reduced-motion: no-preference) {
-		.perspective {
-			animation: perspective-enter 420ms both;
-		}
-
-		.perspective:nth-child(2) {
-			animation-delay: 45ms;
-		}
-
-		.perspective:nth-child(3) {
-			animation-delay: 90ms;
-		}
-
-		.perspective:nth-child(4) {
-			animation-delay: 135ms;
-		}
-
-		.perspective:nth-child(5) {
-			animation-delay: 180ms;
-		}
-
-		.perspective:nth-child(6) {
-			animation-delay: 225ms;
-		}
-
-		.perspective:nth-child(7) {
-			animation-delay: 270ms;
-		}
-
-		.perspective:nth-child(8) {
-			animation-delay: 315ms;
-		}
-
-		.perspective:nth-child(9) {
-			animation-delay: 360ms;
-		}
-	}
-
-	@keyframes perspective-enter {
-		from {
-			transform: translateY(8px);
-			opacity: 0;
-		}
-
-		to {
-			transform: translateY(0);
-			opacity: 1;
-		}
 	}
 </style>

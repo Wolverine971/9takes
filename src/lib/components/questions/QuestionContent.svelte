@@ -20,7 +20,6 @@
 
 	// Local state
 	let selectedTab = $state('Comments');
-	let showAiComments = $state(true);
 	let reduceMotion = $state(false);
 
 	// Create a deep copy of data to avoid mutation issues
@@ -42,7 +41,6 @@
 	// Sort comments handler
 	function sortCommentsHandler(newSortedComments: CommentType[]) {
 		sortedComments = JSON.parse(JSON.stringify(newSortedComments)) as CommentType[];
-		showAiComments = false;
 	}
 
 	// Get the comments to display (sorted if user sorted, otherwise from data)
@@ -232,8 +230,13 @@
 									{/if}
 								</div>
 							{:else}
-								<!-- AI-Generated Comments -->
-								<AIComments data={_data} parentType={'question'} {showAiComments} />
+								<header class="community-discussion-head">
+									<div>
+										<span>Community discussion</span>
+										<h3>What people actually said</h3>
+									</div>
+									<p>Real answers from people who responded before reading the room.</p>
+								</header>
 								<div class="content-toolbar">
 									<SortComments
 										data={_data}
@@ -242,7 +245,6 @@
 									/>
 								</div>
 
-								<!-- User Comments -->
 								<Comments
 									questionId={_data.question.id}
 									comments={displayComments}
@@ -253,6 +255,22 @@
 									key={displayCommentCount}
 									on:commentAdded={handleCommentAdded}
 								/>
+
+								{#if (_data.aiComments ?? []).length}
+									<details class="ai-perspectives-disclosure">
+										<summary>
+											<span>Compare with nine AI perspectives</span>
+											<small>Optional · generated examples</small>
+										</summary>
+										<div class="ai-perspectives-disclosure__body">
+											<p>
+												These are prompts for comparison, not community posts. The real discussion
+												above always comes first.
+											</p>
+											<AIComments data={_data} parentType={'question'} />
+										</div>
+									</details>
+								{/if}
 
 								<!-- Removed comments: quiet disclosure, not a top-level tab -->
 								{#if _data?.removed_comment_count > 0}
@@ -394,6 +412,91 @@
 		justify-content: space-between;
 		margin-bottom: 1rem;
 		padding: 0 1rem;
+	}
+
+	.community-discussion-head {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(13rem, 0.7fr);
+		align-items: end;
+		gap: 1rem;
+		margin: 0 1rem 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid var(--stone-edge);
+	}
+
+	.community-discussion-head span {
+		color: var(--lamp-glow);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.64rem;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	.community-discussion-head h3 {
+		margin: 0.3rem 0 0;
+		color: var(--ink-bright);
+		font-size: 1.15rem;
+		font-weight: 700;
+		letter-spacing: -0.015em;
+	}
+
+	.community-discussion-head p {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.8rem;
+		line-height: 1.5;
+	}
+
+	.ai-perspectives-disclosure {
+		margin: 1.5rem 1rem 0;
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--night-mid);
+	}
+
+	.ai-perspectives-disclosure summary {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		min-height: 3.25rem;
+		padding: 0.75rem 1rem;
+		color: var(--ink-bright);
+		font-size: 0.86rem;
+		font-weight: 650;
+		cursor: pointer;
+	}
+
+	.ai-perspectives-disclosure summary::marker {
+		color: var(--lamp-glow);
+	}
+
+	.ai-perspectives-disclosure summary:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
+	.ai-perspectives-disclosure summary small {
+		color: var(--ink-dim);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.6rem;
+		font-weight: 500;
+		letter-spacing: 0.05em;
+		text-align: right;
+		text-transform: uppercase;
+	}
+
+	.ai-perspectives-disclosure__body {
+		padding: 0 1rem 1rem;
+		border-top: 1px solid var(--stone-edge);
+	}
+
+	.ai-perspectives-disclosure__body > p {
+		margin: 0;
+		padding: 0.9rem 0 0;
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+		line-height: 1.5;
 	}
 
 	.removed-comments-disclosure {
@@ -630,6 +733,26 @@
 
 		.content-toolbar {
 			padding: 0 0.8rem;
+		}
+
+		.community-discussion-head {
+			grid-template-columns: 1fr;
+			gap: 0.45rem;
+			margin-inline: 0.8rem;
+		}
+
+		.ai-perspectives-disclosure {
+			margin-inline: 0.8rem;
+		}
+
+		.ai-perspectives-disclosure summary {
+			align-items: flex-start;
+			flex-direction: column;
+			gap: 0.2rem;
+		}
+
+		.ai-perspectives-disclosure summary small {
+			text-align: left;
 		}
 
 		.locked-comments-shell {

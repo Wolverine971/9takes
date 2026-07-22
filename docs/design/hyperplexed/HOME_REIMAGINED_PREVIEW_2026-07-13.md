@@ -259,6 +259,26 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
   blocked only by three unrelated `personBlogParser.js` indexing errors; `pnpm lint:radius` remains
   blocked by the same two unrelated in-progress declarations noted above.
 
+## Homepage-to-discussion handoff - 2026-07-22
+
+- Replaced the revealed two-column AI grid with a one-column take stream that uses the same type
+  stripe, type badge, metadata, body hierarchy, and overflow behavior as community answer cards.
+  Every preview remains explicitly labeled `AI perspective` or `Community answer`; the section
+  introduction now calls the set seeded examples instead of presenting it as the discussion. -> P4+P6+P1
+- Promoted the quiet footer link into a full `THE LIVE DISCUSSION` doorway with one primary action,
+  `Read everyone’s answers`. The handoff says the submitted answer is already in the room, links
+  directly to the question's comments panel, and records a dedicated discussion-open event. -> P6+P8+P13
+- The nine cards reveal with one restrained 55ms stagger under normal motion and render immediately
+  under reduced motion. The shared `PerspectivePreviewCard` now keeps the homepage and question
+  detail comparison set in sync. -> P3+P11
+- Targeted Svelte autofixer, ESLint, and Prettier checks pass. `pnpm check` passes with the existing
+  repository warnings. `pnpm lint:radius` remains blocked by the two unrelated declarations already
+  recorded in this audit.
+- Fixture-backed browser verification passed without writing a real answer: all nine cards and the
+  discussion doorway rendered at 1440x1000 and 390x844, both widths held zero horizontal overflow,
+  and both browser consoles stayed empty. Captures: `/private/tmp/9takes-desktop-reveal.png` and
+  `/private/tmp/9takes-mobile-reveal.png`.
+
 ## Screenshots
 
 - `docs/design/screenshots/home-reimagined-desktop-dark-2026-07-13.png`
