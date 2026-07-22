@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-21T07:19:44Z",
+	"lastUpdated": "2026-07-22T06:55:51Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "christopher-nolan",
-			"displayName": "Christopher Nolan",
-			"type": null,
-			"priority": 68,
-			"priorityReason": "The Odyssey opened July 17 2026 (96% RT, first all-IMAX feature, biggest budget of his career); most of his cast is covered but the director is not",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "director-auteur-cluster"
-		},
 		{
 			"name": "sadie-sink",
 			"displayName": "Sadie Sink",
@@ -411,6 +398,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "christopher-nolan",
+			"displayName": "Christopher Nolan",
+			"type": null,
+			"priority": 68,
+			"priorityReason": "The Odyssey opened July 17 2026 (96% RT, first all-IMAX feature, biggest budget of his career); most of his cast is covered but the director is not",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "director-auteur-cluster",
+			"startedAt": "2026-07-22T06:00:00Z",
+			"completedAt": "2026-07-22T06:55:51Z",
+			"contentGrade": "8.9",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~55 min",
+			"needsReview": false
+		},
 		{
 			"name": "travis-kelce",
 			"displayName": "Travis Kelce",

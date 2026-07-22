@@ -1,0 +1,14 @@
+Polished **`src/blog/people/drafts/Christopher-Nolan.md`**.
+
+**What I found:** This draft came into the pass unusually clean — the mechanical checks (em-dashes, contrast-pair engines, banned phrases) were already at zero from the second pass. So the work was the layer the regexes can't see.
+
+**What I cleaned up (10 edits):**
+
+- **Negative-parallelism tells** hiding below the lint's radar — five instances of the "not X, it's Y" shape in sentence-pair form: "He never adapted... He re-engineered...", "The efficiency is not the point. The freedom is.", "stop looking like paranoia. They are stagecraft", "never travels raw; it travels packaged", and "That was not anxiety talking" in the Rabbit Hole. Each collapsed into its single positive claim, keeping the insight and dropping the AI cadence.
+- **Lecture-voice imperatives** trimmed from ~7 to 4 — cut "Look at the pattern of his work," "Remember what converted him at seven," "Understand what had been attacked." Kept the ones that earn their place via the Memento reverse-reading conceit (Apply/Start/Put/Ask).
+- **Two clarity fixes:** untangled the "audience that he cannot personally verify" relative clause, and split the double-colon stress-arrow sentence in the Rabbit Hole.
+- **Protected everything load-bearing:** the Zimmer cold open, the inner-thought beat, the Stargate empathy turn, the Ledger grief beat, and the Leicester Square loop ending are all untouched.
+
+**Exit checks:** `blog-lint` (contrast target 0) — **0 fail, 1 warn**; quality report — **0 contrast pairs** (0 strong, 0 comparative), head-term PASS, no corpus drift. The one WARN is the `faqs` frontmatter enrich stage, which hasn't run yet and isn't this pass's job.
+
+**Verdict:** production-ready on prose. Remaining before publish are the pipeline stages, not editing: the frontmatter enrich (`faqs`), plus the two open source-verification items the second pass flagged (THR efficiency-quote date, *Nolan Variations* page-level check).

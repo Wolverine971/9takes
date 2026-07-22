@@ -1,0 +1,438 @@
+[2026-07-22 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-22 02:00:00] [INFO] SELECTED: christopher-nolan (Type ?)
+[2026-07-22 02:00:00] [INFO] Launching pipeline for christopher-nolan
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  christopher-nolan
+Draft:   src/blog/people/drafts/christopher-nolan.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan
+Started: Wed Jul 22 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 christopher-nolan --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/1_create.log
+─────────────────────────────────────────────────────
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Christopher-Nolan.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (10 qualifying testimony quotes), Gate 2: pass (6 search-intent/hybrid H2s), Gate 4: pass, Gate 5: pass (1 type-theory paragraph, cap 4), Gate 6: pass (0 contrast pairs, similarity scan clear)]
+LIMITATIONS: [interview quotes from Happy Sad Confused 2023/2020 + 60 Minutes 2026 are YouTube auto-caption verbatim (transcripts saved in youtube-transcripts/, spot-check before publish); Shone boarding-school quotes need page-level book verification; SHARP "greatest fear" quote and THR efficiency quote have unpinned dates — all hedged in prose and flagged in working notes]
+```
+
+**The draft:** Christopher Nolan typed as **Enneagram 5w6, sp-dominant** (confidence: high). Thesis: the "cold engineer" reputation inverts the actual method — the Zimmer fable letter proves he locates the feeling first, then builds the machine around it; everything he hoards (information, attention, surprise), he hoards on behalf of the audience. Ending closes the loop between 2001: A Space Odyssey at age seven in Leicester Square and The Odyssey's premiere in the same square 49 years later.
+
+**Deterministic checks:** blog-lint 0 fail / 1 warn (missing `faqs` — owned by the downstream frontmatter-enrich stage); blog-quality-report 0 contrast pairs, head-term PASS, answer block 50 words; same-type-similarity clear (max 0.045 vs Steve Martin after three rephrases); no concentrated Type 5 avoid-list phrases. Rabbit Hole: 588 words, all wing/subtype/arrow/counter-typing content quarantined there.
+
+**Internal links added (6 total):**
+- Enneagram Type 5 → `/enneagram-corner/enneagram-type-5`
+- Anne Hathaway → `/personality-analysis/Anne-Hathaway`
+- Christian Bale → `/personality-analysis/Christian-Bale`
+- Cillian Murphy → `/personality-analysis/Cillian-Murphy`
+- Wings guide + instinctual subtypes → inside the Rabbit Hole
+- (plus `/corpus-stats` as the citation for the "4 of 146 Film & TV Fives" stat)
+
+**Current-tense anchor:** The Odyssey — $264.1M global opening (Variety actuals), budget cleared in 3 days, presales a year out, knighthood Dec 2024, July 2026 AI comments.
+
+Per non-interactive rules: draft saved with `status: draft`, not auto-promoted; no grade emitted (that's `/grade_blog`'s job). Next steps downstream: human review → `blog_content_production_people`.
+[Stage 1] create finished 02:30:46 (exit=0, 1846s)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:30:46)
+Command: /blog_content_fresh_eyes_people christopher-nolan
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Fresh-eyes review complete on `src/blog/people/drafts/Christopher-Nolan.md` — notes appended as a `FRESH EYES REVIEW (2026-07-22)` block at the bottom of the file. No body edits made.
+
+**The two biggest issues flagged:**
+
+1. **The Dark Knight is missing.** The timeline jumps 2005 → 2014, and the film that made Nolan a titan — plus Heath Ledger's death, the posthumous Oscar, and the Best Picture snub that changed Academy rules — appears only as one word in the dead-wives inventory. It's the most conspicuous hole for any reader who knows Nolan, and Ledger is the career's one unavoidable grief event, a natural interior beat the draft never touches.
+
+2. **Emma Thomas is never identified as his wife, and the four kids go unstated** — despite fatherhood being a load-bearing theme (Flora's Letter, "spoke to me as a father"). The reader has to infer the marriage from "the woman from his first week at university."
+
+Also worth noting: I flagged **The Prestige** (a whole film about magicians who die rather than reveal the trick, unmentioned in a piece centered on demystification) and the **Tenet COVID-release controversy** (the one place his theatrical crusade drew real criticism — currently the streaming-war section is the only one where critics get no voice) as expansions, and the over-dense banking/ledger metaphor (~10 instances) plus the every-section mic-drop cadence as trims.
+
+The draft's core is strong — the Zimmer cold open, the reverse timeline, the "no great Oz" center, and the Leicester Square ending loop are all worth protecting in the next pass.
+[Stage 2] fresh_eyes finished 02:33:01 (exit=0, 135s)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:33:01)
+Command: /blog_content_second_pass_people christopher-nolan
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/3_second_pass.log
+─────────────────────────────────────────────────────
+Second pass complete on `src/blog/people/drafts/Christopher-Nolan.md`.
+
+## What changed
+
+**Source traceability (first-order, per audit):** 8/8 load-bearing quotes now INLINE — was 2 inline / 4 vague / 2 untagged, with an untagged quote in the cold open blocking A/B+.
+- Zimmer's "better make the movie now" exchange verified to the same [2014 Hollywood Reporter video interview](https://www.hollywoodreporter.com/news/general-news/composer-hans-zimmer-talks-interstellar-745891/) as the thick-paper quote and tagged.
+- "Fullest flavor" quote traced to the 60 Minutes 2026 interview via the local transcript and tagged.
+- SHARP Magazine "greatest fear" year pinned to [November 2023](https://sharpmagazine.com/2023/11/15/christopher-nolan-oppenheimer-interview/).
+- The 4 VAGUE flags were script recognition gaps, not prose gaps — the prose already said "The Talks in 2023," "(Scientific American, 2014)," "60 Minutes in 2026." I added those (plus The Telegraph, The Independent, The Scotsman, Newsweek, Happy Sad Confused) to the OUTLETS whitelist in `scripts/blog-source-audit.mjs:201` — a small additive fix that benefits every future draft. Flagging since it touches shared tooling.
+
+**Fresh-eyes notes — all four substance items taken:**
+- **The Dark Knight hole filled**: 2008 timeline entry (real truck flip, first $1B superhero film, Best Picture expansion) plus a Ledger grief beat after the timeline, quoting Nolan's verified [Newsweek tribute](https://www.newsweek.com/charisma-natural-gravity-87331) ("wonder about each take we chose, each trim we made").
+- **Emma Thomas named as wife** (married 1997, four children), framed as the Type 5 datum fresh eyes spotted: one permanent structure built by the ocean-from-home boy.
+- **The Prestige paragraph** added to the secrecy section — "Are you watching closely?" and Caine's secret/trick rule now fuse the locked-room reads to the filmography.
+- **Tenet's pandemic release** added to the streaming-war section: ~[$365M against a $205M budget](https://en.wikipedia.org/wiki/Tenet_(film)), didn't break even, the one time defending the room had a public cost.
+
+**Trims:** ledger/banking metaphor cut from ~10 instances to the 4 best; "Read it twice" deleted; three section endings quieted; Loughrey's 2026 verdict moved from the dialogue section to the Odyssey section so redemption follows the film it reviews. No fresh-eyes notes rejected.
+
+## After the pass
+- Source audit: **8 inline, 0 vague, 0 untagged**
+- blog-lint: **0 fail, 1 warn** (no `faqs` frontmatter — that's the enrich stage, not yet run)
+- `lastmod` untouched
+
+## Still open
+- THR "efficiency-as-freedom" quote date remains unpinned (~2025-26), hedged in prose
+- Boarding-school quotes still rest on *The Nolan Variations* without page-level verification
+- Next pipeline stages: frontmatter enrich, then grade/publish
+[Stage 3] second_pass finished 02:41:16 (exit=0, 495s)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:41:16)
+Command: /cohesion-check src/blog/people/drafts/christopher-nolan.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/4_cohesion.log
+─────────────────────────────────────────────────────
+## Cohesion Check Complete: Christopher-Nolan.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Nolan is a Type 5 who finds the feeling first, then builds machines of secrecy and control to deliver it to strangers without exposing where he keeps it.
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+- [Career backwards] → [Dialogue]: Added "A pattern that constant collects critics." before "The complaints are real, recurring, and fair." — carries the constancy argument from the timeline section into the criticism section and states the logical step that was previously implicit (`Christopher-Nolan.md:229`)
+- [Childhood] → [Smartphone]: Added "The adult version of that loophole is a list of refusals." before "The facts first, because they sound invented." — carries the childhood section's "loophole" keyword (the camera as the one device that obeys its owner) into the input-minimization section, which is its inverse (`Christopher-Nolan.md:156`)
+
+Both bridges use short declarative sentences matching the surrounding prose; no em-dashes, no banned words or structures.
+
+**Thread Fixes (0)** · **Internal Flow Fixes (0)** · **Orphaned Threads (0)** — none needed. All threads resolve: the "greatest fear" quote (diagnosis) pays off in the streaming-war section, fatherhood pays off the Zimmer cold open, and the Leicester Square ending answers the intro's question directly.
+
+### What Was Preserved
+- All frontmatter fields (including `lastmod`, untouched)
+- All ledger/working-note HTML comments, Svelte-style components (`key-stat`, `timeline`, `pull-quote`, `inner-thought`, accordions)
+- All internal links and quote attributions
+- 6 of 8 section transitions untouched (already strong or adequate-by-design): Intro → Diagnosis, Smartphone → Secrecy ("the room" keyword carries), Secrecy → Career backwards ("forty-nine years" launches the reverse timeline), Dialogue → Streaming ("70 millimeters" → theatrical room), Streaming → Odyssey, and the ending
+
+### Non-Interactive Decisions Logged
+- Took `Christopher-Nolan.md` as the exact-name match for the lowercase arg (only Nolan file in drafts)
+- Score was 8+, so minor fixes were applied rather than withheld
+- Deliberately did NOT bridge Diagnosis → Childhood: the closing counter-type pointer sentence is a formula requirement (single-sentence Rabbit Hole pointer) and the search-intent H2 resets topic cleanly
+- Deliberately did NOT touch the Streaming → Odyssey seam: "He never gloated" is an intentionally quiet close per the fresh-eyes/second-pass notes, and the Odyssey H2's question-answer open covers the pivot
+
+### Remaining Concerns
+None structural. This is the tightest people draft I've audited: the Zimmer open states the thesis as an anecdote, the reverse timeline is a bespoke form that can't be transplanted, and the ending closes the exact question the intro poses. The two known open items (THR quote date unpinned, boarding-school quotes pending page-level verification) are sourcing issues already tracked in the second-pass notes, not cohesion issues.
+[Stage 4] cohesion finished 02:43:59 (exit=0, 163s)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:43:59)
+Command: /blog_content_editor_pass_people christopher-nolan
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/5_editor_pass.log
+─────────────────────────────────────────────────────
+Polished **`src/blog/people/drafts/Christopher-Nolan.md`**.
+
+**What I found:** This draft came into the pass unusually clean — the mechanical checks (em-dashes, contrast-pair engines, banned phrases) were already at zero from the second pass. So the work was the layer the regexes can't see.
+
+**What I cleaned up (10 edits):**
+
+- **Negative-parallelism tells** hiding below the lint's radar — five instances of the "not X, it's Y" shape in sentence-pair form: "He never adapted... He re-engineered...", "The efficiency is not the point. The freedom is.", "stop looking like paranoia. They are stagecraft", "never travels raw; it travels packaged", and "That was not anxiety talking" in the Rabbit Hole. Each collapsed into its single positive claim, keeping the insight and dropping the AI cadence.
+- **Lecture-voice imperatives** trimmed from ~7 to 4 — cut "Look at the pattern of his work," "Remember what converted him at seven," "Understand what had been attacked." Kept the ones that earn their place via the Memento reverse-reading conceit (Apply/Start/Put/Ask).
+- **Two clarity fixes:** untangled the "audience that he cannot personally verify" relative clause, and split the double-colon stress-arrow sentence in the Rabbit Hole.
+- **Protected everything load-bearing:** the Zimmer cold open, the inner-thought beat, the Stargate empathy turn, the Ledger grief beat, and the Leicester Square loop ending are all untouched.
+
+**Exit checks:** `blog-lint` (contrast target 0) — **0 fail, 1 warn**; quality report — **0 contrast pairs** (0 strong, 0 comparative), head-term PASS, no corpus drift. The one WARN is the `faqs` frontmatter enrich stage, which hasn't run yet and isn't this pass's job.
+
+**Verdict:** production-ready on prose. Remaining before publish are the pipeline stages, not editing: the frontmatter enrich (`faqs`), plus the two open source-verification items the second pass flagged (THR efficiency-quote date, *Nolan Variations* page-level check).
+[Stage 5] editor_pass finished 02:47:52 (exit=0, 233s)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:47:52)
+Command: /blog_content_frontmatter_enrich_people christopher-nolan
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+```
+Frontmatter enrichment complete: Christopher-Nolan
+
+Fields filled:
+- wikidata_qid (Q25191), imdb_id (nm0634240 — cross-checked via Wikidata P345),
+  birth_date (1970-07-30), birth_place (Westminster, London, England),
+  nationality (British + American, dual), occupation (3), knows_about (6),
+  keywords (9), same_as (4), citations (7), faqs (5)
+
+Fields already present (preserved):
+- wikipedia (already correct: canonical en.wikipedia URL — left untouched)
+- All creator fields, production_pretext, lastmod (2026-07-22, unmodified)
+
+FAQs generated (5):
+1. What is Christopher Nolan's personality type? → #what-is-christopher-nolans-personality-type
+2. Why doesn't Christopher Nolan have a phone? → #why-christopher-nolan-doesnt-own-a-smartphone
+3. Why can't you hear the dialogue in Christopher Nolan's movies? → #why-you-cant-hear-the-dialogue-in-christopher-nolans-movies
+4. Why is Christopher Nolan so secretive? → #read-it-while-im-still-here-how-nolan-guards-a-story
+5. Why did Christopher Nolan make The Odyssey? → #why-christopher-nolan-made-the-odyssey
+
+Issues:
+- Body has zero literal external URLs (sources are cited by outlet name in prose, per house
+  style). Citations built Einstein-style: Wikipedia topic URLs for the works the analysis
+  leans on (Nolan, The Odyssey 2026, Oppenheimer, Tenet, The Dark Knight, Interstellar,
+  The Prestige). Not fabricated article links.
+- Britannica same_as URL 403'd on direct fetch (bot-blocking) but confirmed real via
+  Britannica's own search listing.
+```
+
+All 5 FAQ anchors deep-link to existing H2 headings in the body. Verification: gray-matter parses the frontmatter cleanly (no YAML build-break risk), and `blog-lint` now reports **0 fail, 0 warn** — the `faqs` WARN left open by the second/editor passes is cleared. Body, testimony ledger, and review comment blocks untouched.
+
+Still open from the earlier passes (not this stage's scope, flagging for publish gate): THR efficiency-quote date unpinned, and the Nolan Variations boarding-school quotes lack page-level verification.
+[Stage 6] enrich_frontmatter finished 02:51:49 (exit=0, 237s)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 155 chars
+ok    meta_title length 56 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (50 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+ok    no comparative contrast patterns detected
+ok    internal link count: 6
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: christopher-nolan — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+─────────────────────────────────────────────────────
+[Stage 6.6] quality_report  (started 02:51:50)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs christopher-nolan
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/6.6_quality_report.log
+─────────────────────────────────────────────────────
+blog-quality-report: christopher-nolan
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Why Christopher Nolan's Films Feel Cold (Type 5 Decoded)
+   answer-block: ok (50 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 391)
+[Stage 6.6] quality_report finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.7] source_audit  (started 02:51:50)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs christopher-nolan --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/6.7_source_audit.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — Christopher-Nolan  (Type 5)
+/Users/djwayne/9takes/src/blog/people/drafts/christopher-nolan.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "Time is the most cinematic of subjects because before the movie camera came along, human beings had no way of seeing time backwards, slowed down, sped up."
+             outlet="NPR"  year=2020
+
+### COLD OPEN
+  [INLINE  ] "It's quite thick paper and it's typewritten, … The thick paper meant I knew there was no carbon copy. This is the only one. … Dear Zimmer, here is the fable."
+             outlet="Hollywood Reporter"  year=2014
+  [INLINE  ] "Well I better make the movie now. … this tiny little thing. … Yes, but I now know what the heart of the story is,"
+             outlet="Hollywood Reporter"  year=2014
+
+### DIAGNOSIS
+  [INLINE  ] "I don't start writing a script until I am firmly in control of the structure of the piece,"
+             outlet="The Talks"  year=2023
+  [INLINE  ] "an artist that has a tremendous intuition into the universe and the laws of nature from self-education, but no real training"
+             outlet="Scientific American"  year=2014
+  [INLINE  ] "I think of myself as the representative of the audience on set. That's my North Star. So in a sense I am the most important person on the set because I'm the audience."
+             outlet="60 Minutes"  year=2026
+  [INLINE  ] "Your greatest fear is that, for whatever reason, you won't get the chance for people to view your film"
+             outlet="SHARP Magazine"  year=2023
+  [INLINE  ] "to give the audience the fullest flavor, the fullest set of images and events that we can give them for a given story."
+             outlet="60 Minutes"  year=2026
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  (no quoted material in slot)
+
+------------------------------------------------------------------------
+SUMMARY: 8 load-bearing quote(s) — 8 inline, 0 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 6.7] source_audit finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.8] same_type_similarity  (started 02:51:50)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs christopher-nolan --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/6.8_same_type_similarity.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Christopher-Nolan (Type 5)
+/Users/djwayne/9takes/src/blog/people/drafts/Christopher-Nolan.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-5 drafts by date):
+  - pinkpantheress  (2026-07-19, 25 units)
+  - warren-buffett  (2026-07-08, 30 units)
+  - steve-martin  (2026-07-04, 38 units)
+  - leonardo-da-vinci  (2026-07-01, 18 units)
+  - john-d-rockefeller  (2026-06-22, 19 units)
+  - jerry-seinfeld  (2026-05-17, 25 units)
+  - ray-dalio  (2026-05-14, 12 units)
+  - stephen-hawking  (2026-05-12, 15 units)
+
+Noise floor over 7826 unit pairs:  median=0  p90=0  p99=0.006  max=0.045
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.045 ##                   steve-martin
+  0.034 #                    pinkpantheress
+  0.034 #                    john-d-rockefeller
+  0.027 #                    leonardo-da-vinci
+  0.020 #                    jerry-seinfeld
+  0.018 #                    stephen-hawking
+  0.017 #                    ray-dalio
+  0.012                      warren-buffett
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.045   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] The Type 6 case is the strongest neighbor
+   OTHER  [diagnosis] The honest counter-case is Type 3
+
+score 0.037   Christopher-Nolan  <->  steve-martin
+   TARGET [diagnosis] "to give the audience the fullest flavor
+   OTHER  [diagnosis] " and studied the audience's reaction like data.
+
+score 0.034   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] when he named the anxiety that shadows the whole enterprise
+   OTHER  [counter-typing] given the OCD looping and the anxiety.
+
+score 0.034   Christopher-Nolan  <->  john-d-rockefeller
+   TARGET [diagnosis] Most people manage that budget with habits.
+   OTHER  [diagnosis] Most people see a rapacious tycoon.
+
+score 0.033   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] Nolan built his entire life around it.
+   OTHER  [diagnosis] PinkPantheress built that room from a Wii microphone
+
+score 0.029   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] Yet a Three optimizes for being seen
+   OTHER  [diagnosis] A Three chases the applause and optimizes the win.
+
+score 0.028   Christopher-Nolan  <->  steve-martin
+   TARGET [diagnosis] "I think of myself as the representative of the audience on set.
+   OTHER  [diagnosis] " and studied the audience's reaction like data.
+
+score 0.027   Christopher-Nolan  <->  leonardo-da-vinci
+   TARGET [diagnosis] and the collapsed Rabbit Hole after the streaming-war section pressure-tests all three.
+   OTHER  [diagnosis] From his retreat after the sodomy accusation
+
+score 0.023   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] Nolan's rules are efficiency math
+   OTHER  [diagnosis] Read Martin's life through that lens and the contradictions stop being contradictions.
+
+score 0.023   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] The public gets the finished machine and none of the scaffolding. 4 of 146 Film &amp
+   OTHER  [diagnosis] The public pattern points to Enneagram Type 5
+
+score 0.021   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] a type that starts from one hard premise.
+   OTHER  [diagnosis] competence-seeking type that protects its energy and controls access to the self.
+
+score 0.020   Christopher-Nolan  <->  jerry-seinfeld
+   TARGET [diagnosis] the Nobel-winning physicist who worked with him on Interstellar
+   OTHER  [diagnosis] When Marc Maron pressed him on what fuels comedy
+
+------------------------------------------------------------------------------
+Top pair scores 0.045 vs median 0  (~∞x the noise floor).
+[Stage 6.8] same_type_similarity finished (exit=0, 0s)
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:51:50)
+Command: /grade_blog christopher-nolan
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Christopher-Nolan
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Christopher-Nolan | 9 | 9 | 9 | 9 | 8.5 | 9 | 8.9 | B+ |
+
+(Weighted: `(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.93 → 8.9`. Discoverability ≥ 7, no gate. No caps applied.)
+
+### Key Observations
+
+- **This is the strongest draft since the recalibration** — above Travis-Kelce and PinkPantheress (both 8.6). What earns it: the Zimmer typewritten-letter cold open states the thesis as an anecdote, the reverse-chronology timeline is a genuinely bespoke form (Memento's grammar applied to its maker), and the Leicester Square loop ending (2001 at seven → The Odyssey premiere in the same square, 49 years later) passes the swap test absolutely.
+- **Evidence is the standout dimension**: 10 qualifying testimony quotes, 8/8 load-bearing quotes inline and dated, local transcripts saved for the TV material, and the working notes document an honest verification trail. Critic pressure is faced unusually well — the Tenet-COVID release is presented as a fight with a real public cost, not smoothed away.
+- **Why it isn't an A**: (1) One near-verbatim house move survived — the corpus-stat sentence is Matt-Smith's with swapped numbers, plus a "the tell" vocabulary echo. (2) ~4 sections still close on aphoristic fragments, a cadence a serial reader starts predicting. (3) Two quotes are outlet-named but undated (THR efficiency quote, Interview Magazine Caine doorstep), and the box-office figures have no inline outlet.
+- **Ledger integrity checked out** — all 8 H2s, the inner-thought beat, the rabbit-hole quarantine, and the 0-contrast-pair claim all verified against the body and scripts. No stale-ledger flags.
+- **Pre-publish debt** (from the draft's own working notes, echoed in the sidecar): spot-check the auto-caption 60 Minutes / Happy Sad Confused quotes against video, and page-verify the two Nolan Variations boarding-school quotes — the childhood section's psychology leans on them.
+
+Grade block added to frontmatter (`content_quality`, rubric v2), sidecar written to `docs/content-analysis/grades/Christopher-Nolan.review.md`.
+
+**Total graded this session: 1**
+[Stage 7] grade finished 02:55:51 (exit=0, 241s)
+
+[Stage 8] No revision needed (overall 8.9 >= 8.5, discoverability 9 >= 7, lint clean)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: christopher-nolan
+Finished: Wed Jul 22 02:55:51 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '5'
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  discoverability: 9
+  overall: 8.9
+  letter: B+
+  rubric_version: 2
+  graded_at: '2026-07-22'
+Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-22_020000_christopher-nolan/summary.json
+═════════════════════════════════════════════════════
+[2026-07-22 02:55:51] [INFO] Pipeline exited code=0 after 55 min
+[2026-07-22 02:55:51] [SUCCESS] Completed: Christopher Nolan — grade 8.9 (B+)
+[2026-07-22 02:55:51] [INFO] NOTIFY: ✅ 9takes nightly blog: Christopher Nolan (Type ?) — grade 8.9 (B+), disc 9, 55 min. needsReview=false
+[2026-07-22 02:55:52] [INFO] Nightly blog cron finished

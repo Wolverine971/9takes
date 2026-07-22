@@ -1,0 +1,24 @@
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Christopher-Nolan.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (10 qualifying testimony quotes), Gate 2: pass (6 search-intent/hybrid H2s), Gate 4: pass, Gate 5: pass (1 type-theory paragraph, cap 4), Gate 6: pass (0 contrast pairs, similarity scan clear)]
+LIMITATIONS: [interview quotes from Happy Sad Confused 2023/2020 + 60 Minutes 2026 are YouTube auto-caption verbatim (transcripts saved in youtube-transcripts/, spot-check before publish); Shone boarding-school quotes need page-level book verification; SHARP "greatest fear" quote and THR efficiency quote have unpinned dates — all hedged in prose and flagged in working notes]
+```
+
+**The draft:** Christopher Nolan typed as **Enneagram 5w6, sp-dominant** (confidence: high). Thesis: the "cold engineer" reputation inverts the actual method — the Zimmer fable letter proves he locates the feeling first, then builds the machine around it; everything he hoards (information, attention, surprise), he hoards on behalf of the audience. Ending closes the loop between 2001: A Space Odyssey at age seven in Leicester Square and The Odyssey's premiere in the same square 49 years later.
+
+**Deterministic checks:** blog-lint 0 fail / 1 warn (missing `faqs` — owned by the downstream frontmatter-enrich stage); blog-quality-report 0 contrast pairs, head-term PASS, answer block 50 words; same-type-similarity clear (max 0.045 vs Steve Martin after three rephrases); no concentrated Type 5 avoid-list phrases. Rabbit Hole: 588 words, all wing/subtype/arrow/counter-typing content quarantined there.
+
+**Internal links added (6 total):**
+- Enneagram Type 5 → `/enneagram-corner/enneagram-type-5`
+- Anne Hathaway → `/personality-analysis/Anne-Hathaway`
+- Christian Bale → `/personality-analysis/Christian-Bale`
+- Cillian Murphy → `/personality-analysis/Cillian-Murphy`
+- Wings guide + instinctual subtypes → inside the Rabbit Hole
+- (plus `/corpus-stats` as the citation for the "4 of 146 Film & TV Fives" stat)
+
+**Current-tense anchor:** The Odyssey — $264.1M global opening (Variety actuals), budget cleared in 3 days, presales a year out, knighthood Dec 2024, July 2026 AI comments.
+
+Per non-interactive rules: draft saved with `status: draft`, not auto-promoted; no grade emitted (that's `/grade_blog`'s job). Next steps downstream: human review → `blog_content_production_people`.

@@ -1,0 +1,27 @@
+Second pass complete on `src/blog/people/drafts/Christopher-Nolan.md`.
+
+## What changed
+
+**Source traceability (first-order, per audit):** 8/8 load-bearing quotes now INLINE — was 2 inline / 4 vague / 2 untagged, with an untagged quote in the cold open blocking A/B+.
+- Zimmer's "better make the movie now" exchange verified to the same [2014 Hollywood Reporter video interview](https://www.hollywoodreporter.com/news/general-news/composer-hans-zimmer-talks-interstellar-745891/) as the thick-paper quote and tagged.
+- "Fullest flavor" quote traced to the 60 Minutes 2026 interview via the local transcript and tagged.
+- SHARP Magazine "greatest fear" year pinned to [November 2023](https://sharpmagazine.com/2023/11/15/christopher-nolan-oppenheimer-interview/).
+- The 4 VAGUE flags were script recognition gaps, not prose gaps — the prose already said "The Talks in 2023," "(Scientific American, 2014)," "60 Minutes in 2026." I added those (plus The Telegraph, The Independent, The Scotsman, Newsweek, Happy Sad Confused) to the OUTLETS whitelist in `scripts/blog-source-audit.mjs:201` — a small additive fix that benefits every future draft. Flagging since it touches shared tooling.
+
+**Fresh-eyes notes — all four substance items taken:**
+- **The Dark Knight hole filled**: 2008 timeline entry (real truck flip, first $1B superhero film, Best Picture expansion) plus a Ledger grief beat after the timeline, quoting Nolan's verified [Newsweek tribute](https://www.newsweek.com/charisma-natural-gravity-87331) ("wonder about each take we chose, each trim we made").
+- **Emma Thomas named as wife** (married 1997, four children), framed as the Type 5 datum fresh eyes spotted: one permanent structure built by the ocean-from-home boy.
+- **The Prestige paragraph** added to the secrecy section — "Are you watching closely?" and Caine's secret/trick rule now fuse the locked-room reads to the filmography.
+- **Tenet's pandemic release** added to the streaming-war section: ~[$365M against a $205M budget](https://en.wikipedia.org/wiki/Tenet_(film)), didn't break even, the one time defending the room had a public cost.
+
+**Trims:** ledger/banking metaphor cut from ~10 instances to the 4 best; "Read it twice" deleted; three section endings quieted; Loughrey's 2026 verdict moved from the dialogue section to the Odyssey section so redemption follows the film it reviews. No fresh-eyes notes rejected.
+
+## After the pass
+- Source audit: **8 inline, 0 vague, 0 untagged**
+- blog-lint: **0 fail, 1 warn** (no `faqs` frontmatter — that's the enrich stage, not yet run)
+- `lastmod` untouched
+
+## Still open
+- THR "efficiency-as-freedom" quote date remains unpinned (~2025-26), hedged in prose
+- Boarding-school quotes still rest on *The Nolan Variations* without page-level verification
+- Next pipeline stages: frontmatter enrich, then grade/publish

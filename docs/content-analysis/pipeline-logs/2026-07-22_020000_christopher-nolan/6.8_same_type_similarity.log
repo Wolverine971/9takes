@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Christopher-Nolan (Type 5)
+/Users/djwayne/9takes/src/blog/people/drafts/Christopher-Nolan.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-5 drafts by date):
+  - pinkpantheress  (2026-07-19, 25 units)
+  - warren-buffett  (2026-07-08, 30 units)
+  - steve-martin  (2026-07-04, 38 units)
+  - leonardo-da-vinci  (2026-07-01, 18 units)
+  - john-d-rockefeller  (2026-06-22, 19 units)
+  - jerry-seinfeld  (2026-05-17, 25 units)
+  - ray-dalio  (2026-05-14, 12 units)
+  - stephen-hawking  (2026-05-12, 15 units)
+
+Noise floor over 7826 unit pairs:  median=0  p90=0  p99=0.006  max=0.045
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.045 ##                   steve-martin
+  0.034 #                    pinkpantheress
+  0.034 #                    john-d-rockefeller
+  0.027 #                    leonardo-da-vinci
+  0.020 #                    jerry-seinfeld
+  0.018 #                    stephen-hawking
+  0.017 #                    ray-dalio
+  0.012                      warren-buffett
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.045   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] The Type 6 case is the strongest neighbor
+   OTHER  [diagnosis] The honest counter-case is Type 3
+
+score 0.037   Christopher-Nolan  <->  steve-martin
+   TARGET [diagnosis] "to give the audience the fullest flavor
+   OTHER  [diagnosis] " and studied the audience's reaction like data.
+
+score 0.034   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] when he named the anxiety that shadows the whole enterprise
+   OTHER  [counter-typing] given the OCD looping and the anxiety.
+
+score 0.034   Christopher-Nolan  <->  john-d-rockefeller
+   TARGET [diagnosis] Most people manage that budget with habits.
+   OTHER  [diagnosis] Most people see a rapacious tycoon.
+
+score 0.033   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] Nolan built his entire life around it.
+   OTHER  [diagnosis] PinkPantheress built that room from a Wii microphone
+
+score 0.029   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] Yet a Three optimizes for being seen
+   OTHER  [diagnosis] A Three chases the applause and optimizes the win.
+
+score 0.028   Christopher-Nolan  <->  steve-martin
+   TARGET [diagnosis] "I think of myself as the representative of the audience on set.
+   OTHER  [diagnosis] " and studied the audience's reaction like data.
+
+score 0.027   Christopher-Nolan  <->  leonardo-da-vinci
+   TARGET [diagnosis] and the collapsed Rabbit Hole after the streaming-war section pressure-tests all three.
+   OTHER  [diagnosis] From his retreat after the sodomy accusation
+
+score 0.023   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] Nolan's rules are efficiency math
+   OTHER  [diagnosis] Read Martin's life through that lens and the contradictions stop being contradictions.
+
+score 0.023   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] The public gets the finished machine and none of the scaffolding. 4 of 146 Film &amp
+   OTHER  [diagnosis] The public pattern points to Enneagram Type 5
+
+score 0.021   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] a type that starts from one hard premise.
+   OTHER  [diagnosis] competence-seeking type that protects its energy and controls access to the self.
+
+score 0.020   Christopher-Nolan  <->  jerry-seinfeld
+   TARGET [diagnosis] the Nobel-winning physicist who worked with him on Interstellar
+   OTHER  [diagnosis] When Marc Maron pressed him on what fuels comedy
+
+------------------------------------------------------------------------------
+Top pair scores 0.045 vs median 0  (~∞x the noise floor).

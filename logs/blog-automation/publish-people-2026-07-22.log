@@ -1,0 +1,20 @@
+```text
+Publish blocked — no eligible people draft.
+
+Auto-select: checked 477 candidates, zero passed the gate.
+Top fresh candidate: Christopher-Nolan (src/blog/people/drafts/Christopher-Nolan.md, from last night's pipeline)
+
+Blockers (from personBlogParser.js):
+- missing_grade_stability_delta: run supervised grade/regrade (/grade_blog) — draft has a single v2 grade (8.9 B+, discoverability 9) but no stability delta
+- missing_full_image: static/types/5s/Christopher-Nolan.webp does not exist
+- missing_thumbnail_image: static/types/5s/s-Christopher-Nolan.webp does not exist
+
+No files were modified. Supabase untouched. pnpm gen:all not run.
+```
+
+Two things need to happen before this can publish:
+
+1. **Regrade for stability** — run `/grade_blog` on Christopher-Nolan so the draft gets a `grade_stability_delta` (or `first_overall`/`regrade_overall` pair within 0.3).
+2. **Images** — generate the hero + thumbnail. `scripts/gen-blog-image-openrouter.mjs Christopher-Nolan` handles the 3-file variant set (per your blog image pipeline), or drop in manual Canva assets.
+
+Want me to kick off either of those?

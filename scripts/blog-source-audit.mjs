@@ -198,7 +198,15 @@ const OUTLETS = [
 	'The Verge',
 	'TechCrunch',
 	'Business Insider',
-	'Variety'
+	'Variety',
+	'Scientific American',
+	'60 Minutes',
+	'The Talks',
+	'The Telegraph',
+	'The Independent',
+	'The Scotsman',
+	'Newsweek',
+	'Happy Sad Confused'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

@@ -1,0 +1,32 @@
+## Cohesion Check Complete: Christopher-Nolan.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Nolan is a Type 5 who finds the feeling first, then builds machines of secrecy and control to deliver it to strangers without exposing where he keeps it.
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+- [Career backwards] → [Dialogue]: Added "A pattern that constant collects critics." before "The complaints are real, recurring, and fair." — carries the constancy argument from the timeline section into the criticism section and states the logical step that was previously implicit (`Christopher-Nolan.md:229`)
+- [Childhood] → [Smartphone]: Added "The adult version of that loophole is a list of refusals." before "The facts first, because they sound invented." — carries the childhood section's "loophole" keyword (the camera as the one device that obeys its owner) into the input-minimization section, which is its inverse (`Christopher-Nolan.md:156`)
+
+Both bridges use short declarative sentences matching the surrounding prose; no em-dashes, no banned words or structures.
+
+**Thread Fixes (0)** · **Internal Flow Fixes (0)** · **Orphaned Threads (0)** — none needed. All threads resolve: the "greatest fear" quote (diagnosis) pays off in the streaming-war section, fatherhood pays off the Zimmer cold open, and the Leicester Square ending answers the intro's question directly.
+
+### What Was Preserved
+- All frontmatter fields (including `lastmod`, untouched)
+- All ledger/working-note HTML comments, Svelte-style components (`key-stat`, `timeline`, `pull-quote`, `inner-thought`, accordions)
+- All internal links and quote attributions
+- 6 of 8 section transitions untouched (already strong or adequate-by-design): Intro → Diagnosis, Smartphone → Secrecy ("the room" keyword carries), Secrecy → Career backwards ("forty-nine years" launches the reverse timeline), Dialogue → Streaming ("70 millimeters" → theatrical room), Streaming → Odyssey, and the ending
+
+### Non-Interactive Decisions Logged
+- Took `Christopher-Nolan.md` as the exact-name match for the lowercase arg (only Nolan file in drafts)
+- Score was 8+, so minor fixes were applied rather than withheld
+- Deliberately did NOT bridge Diagnosis → Childhood: the closing counter-type pointer sentence is a formula requirement (single-sentence Rabbit Hole pointer) and the search-intent H2 resets topic cleanly
+- Deliberately did NOT touch the Streaming → Odyssey seam: "He never gloated" is an intentionally quiet close per the fresh-eyes/second-pass notes, and the Odyssey H2's question-answer open covers the pivot
+
+### Remaining Concerns
+None structural. This is the tightest people draft I've audited: the Zimmer open states the thesis as an anecdote, the reverse timeline is a bespoke form that can't be transplanted, and the ending closes the exact question the intro poses. The two known open items (THR quote date unpinned, boarding-school quotes pending page-level verification) are sourcing issues already tracked in the second-pass notes, not cohesion issues.

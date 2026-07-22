@@ -1,0 +1,32 @@
+```
+Frontmatter enrichment complete: Christopher-Nolan
+
+Fields filled:
+- wikidata_qid (Q25191), imdb_id (nm0634240 — cross-checked via Wikidata P345),
+  birth_date (1970-07-30), birth_place (Westminster, London, England),
+  nationality (British + American, dual), occupation (3), knows_about (6),
+  keywords (9), same_as (4), citations (7), faqs (5)
+
+Fields already present (preserved):
+- wikipedia (already correct: canonical en.wikipedia URL — left untouched)
+- All creator fields, production_pretext, lastmod (2026-07-22, unmodified)
+
+FAQs generated (5):
+1. What is Christopher Nolan's personality type? → #what-is-christopher-nolans-personality-type
+2. Why doesn't Christopher Nolan have a phone? → #why-christopher-nolan-doesnt-own-a-smartphone
+3. Why can't you hear the dialogue in Christopher Nolan's movies? → #why-you-cant-hear-the-dialogue-in-christopher-nolans-movies
+4. Why is Christopher Nolan so secretive? → #read-it-while-im-still-here-how-nolan-guards-a-story
+5. Why did Christopher Nolan make The Odyssey? → #why-christopher-nolan-made-the-odyssey
+
+Issues:
+- Body has zero literal external URLs (sources are cited by outlet name in prose, per house
+  style). Citations built Einstein-style: Wikipedia topic URLs for the works the analysis
+  leans on (Nolan, The Odyssey 2026, Oppenheimer, Tenet, The Dark Knight, Interstellar,
+  The Prestige). Not fabricated article links.
+- Britannica same_as URL 403'd on direct fetch (bot-blocking) but confirmed real via
+  Britannica's own search listing.
+```
+
+All 5 FAQ anchors deep-link to existing H2 headings in the body. Verification: gray-matter parses the frontmatter cleanly (no YAML build-break risk), and `blog-lint` now reports **0 fail, 0 warn** — the `faqs` WARN left open by the second/editor passes is cleared. Body, testimony ledger, and review comment blocks untouched.
+
+Still open from the earlier passes (not this stage's scope, flagging for publish gate): THR efficiency-quote date unpinned, and the Nolan Variations boarding-school quotes lack page-level verification.
