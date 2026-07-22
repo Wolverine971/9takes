@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">9takes Turn Mark candidate board</title>
+  <desc id="desc">A presentation board showing the 9t Turn Mark in monochrome, as an app icon, inside common masks, and at small sizes.</desc>
+  <defs>
+    <symbol id="turn-mark" viewBox="0 0 512 512">
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        transform="translate(-20 -8) scale(1.36)"
+        d="M275 155H320V190H348V215H304V264C304 274 311 279 322 279H348V317H302C274 317 258 300 258 271V211C250 216 243 225 237 235L218 269C207 289 194 304 178 317H107C131 302 150 286 164 268L200 208C220 177 243 158 275 155ZM140 72C177 69 211 87 228 119C235 132 239 147 237 158C219 166 201 182 189 204L162 251C124 257 91 240 72 210C54 181 57 143 70 119C85 93 111 75 140 72ZM145 123C171 121 189 139 188 160C187 183 171 202 149 203C126 204 109 187 109 165C108 143 123 126 145 123Z"
+      />
+    </symbol>
+    <clipPath id="circle-mask"><circle cx="0" cy="0" r="92"/></clipPath>
+    <style>
+      .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#EDE6DA"/>
+  <text x="80" y="78" class="mono" font-size="18" letter-spacing="3" fill="#B45309">9TAKES IDENTITY EXPLORATION / 2026-07-22</text>
+  <text x="80" y="130" class="sans" font-size="44" font-weight="760" fill="#1C1917">The Turn Mark</text>
+  <text x="1518" y="78" class="mono" font-size="18" text-anchor="end" fill="#5C4F47">CANDIDATE 01</text>
+
+  <rect x="80" y="170" width="680" height="650" rx="28" fill="#FAF8F4"/>
+  <use href="#turn-mark" x="175" y="205" width="490" height="490" color="#1C1917"/>
+  <line x1="125" y1="710" x2="715" y2="710" stroke="#D7CBBE"/>
+  <text x="125" y="756" class="mono" font-size="16" letter-spacing="2" fill="#5C4F47">MONOCHROME MASTER</text>
+  <text x="125" y="789" class="sans" font-size="18" fill="#3A302A">One take enters. Perspective turns. The name resolves.</text>
+
+  <rect x="800" y="170" width="720" height="650" rx="28" fill="#D7CBBE"/>
+  <rect x="850" y="220" width="300" height="300" rx="66" fill="#0A0807"/>
+  <use href="#turn-mark" x="895" y="265" width="210" height="210" color="#F59E0B"/>
+  <text x="1188" y="246" class="mono" font-size="16" letter-spacing="2" fill="#5C4F47">APP ICON</text>
+  <text x="1188" y="282" class="sans" font-size="21" font-weight="700" fill="#1C1917">Streetlamp palette</text>
+  <text x="1188" y="316" class="sans" font-size="17" fill="#3A302A">Warm-stone field</text>
+  <text x="1188" y="342" class="sans" font-size="17" fill="#3A302A">Sodium-amber mark</text>
+  <text x="1188" y="382" class="sans" font-size="15" fill="#5C4F47">No bevel. No glow. No stray side.</text>
+
+  <text x="850" y="585" class="mono" font-size="16" letter-spacing="2" fill="#5C4F47">MASK TESTS</text>
+  <rect x="850" y="615" width="150" height="150" rx="34" fill="#0A0807"/>
+  <use href="#turn-mark" x="872" y="637" width="106" height="106" color="#F59E0B"/>
+  <circle cx="1095" cy="690" r="75" fill="#0A0807"/>
+  <use href="#turn-mark" x="1042" y="637" width="106" height="106" color="#F59E0B"/>
+  <rect x="1190" y="615" width="150" height="150" fill="#0A0807"/>
+  <use href="#turn-mark" x="1212" y="637" width="106" height="106" color="#F59E0B"/>
+
+  <text x="80" y="884" class="mono" font-size="16" letter-spacing="2" fill="#5C4F47">SMALL-SIZE TEST</text>
+  <use href="#turn-mark" x="80" y="905" width="64" height="64" color="#1C1917"/>
+  <use href="#turn-mark" x="180" y="921" width="32" height="32" color="#1C1917"/>
+  <use href="#turn-mark" x="248" y="929" width="16" height="16" color="#1C1917"/>
+  <text x="304" y="949" class="sans" font-size="16" fill="#5C4F47">64 / 32 / 16 px</text>
+
+  <use href="#turn-mark" x="760" y="866" width="104" height="104" color="#1C1917"/>
+  <text x="884" y="946" class="sans" font-size="74" font-weight="720" letter-spacing="-4" fill="#1C1917">9takes</text>
+  <text x="1518" y="949" class="mono" font-size="15" text-anchor="end" fill="#5C4F47">MONOGRAM + WORDMARK RELATIONSHIP</text>
+</svg>

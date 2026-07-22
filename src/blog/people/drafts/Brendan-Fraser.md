@@ -68,14 +68,21 @@ faqs:
 content_quality:
   hook: 8.5
   enneagram: 9
-  evidence: 9
-  writing: 9
-  originality: 9
-  discoverability: 9
-  overall: 9.0
-  letter: A
+  evidence: 6
+  writing: 8
+  originality: 8.5
+  discoverability: 8
+  overall: 7.9
+  letter: C
   rubric_version: 2
-  graded_at: '2026-06-29'
+  caps_applied: ['evidence_untraceable_quote', 'contrast_pairs_gt2']
+  confidence: medium
+  anchor: 'Matt-Smith draft (B calibration band)'
+  needs_review: true
+  first_overall: 9.0
+  regrade_overall: 7.9
+  grade_stability_delta: 1.1
+  graded_at: '2026-07-22'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -90,18 +97,6 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Brendan-Fraser.md
 ---
-
-<!-- QUALITY GRADE: A (9.0) — rubric v2
-Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 9 | Writing: 9 | Hook: 8.5
-
-FEEDBACK (2026-06-29):
-- Evidence is the spine: 8 dated, sourced collaborator quotes (Sommers "we kind of beat the crap out of him," Chau, Sandler, Weisz, Aronofsky) plus Fraser's own voice doing the analytical work ("It made me retreat... I was blaming myself," the "exoskeleton" line, the "wilderness/breadcrumbs" thank-you). Quotes are structural, not decoration.
-- The "rental family = his whole life" closer is a true signature detail — the eternal new kid, the body rented out to absorb impact, the man literally cast as a paid stand-in relative. Passes the swap test cleanly; this ending closes no other 9takes post.
-- Empathy turn is textbook-correct: the skeptic is let in FIRST ("Why didn't he fight, sue, name him, swing") before "fighting back was never the skill he built; absorbing was." Reframes a weakness-read into understanding without excusing it.
-- Formula discipline is high and the ledgers prove it: 2 contrast-pairs, 0 counter-typing ladders in the body, all alternate-type debate (Type 2, 9w8) quarantined in a well-formed rabbit hole. The Killers of the Flower Moon backlash is a real critic-pressure anchor with Scorsese's defense, not a token concession.
-- NEEDS WORK (to push toward A+): the hook, while excellent, opens on the expected emotional peak (the ovation). The lost-decade section (line 213) stacks divorce + son + mother's death + courtroom + "withered on the vine" into one dense paragraph — splitting it would improve mobile rhythm and let each blow land.
-- TO REACH A+ (9.5): (1) Fold the still-open Griffin/The Whale connection the second-pass notes flagged — Fraser has said his autistic son helped him reach the role — so the fatherhood thread touches the comeback, not just the collapse; that's the one move that would make the rental-family closer detonate. (2) Find a hook beat that isn't the ovation everyone already associates with him — e.g., open inside the tightened-noose Mummy moment (strangled, and his instinct is to agree) to seed "absorb the impact, smile" from sentence one.
--->
 
 <!-- TESTIMONY LEDGER
 1. Philip Berk (former HFPA president): Fraser's account is "a total fabrication." — GQ (email statement), 2018

@@ -72,14 +72,21 @@ faqs:
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 8.5
-  writing: 9
-  originality: 9
-  discoverability: 9
-  overall: 8.9
-  letter: B+
+  evidence: 6
+  writing: 8
+  originality: 7
+  discoverability: 7
+  overall: 7.4
+  letter: C
   rubric_version: 2
-  graded_at: '2026-06-30'
+  caps_applied: ['evidence_untraceable_quote', 'originality_cross_draft_sameness', 'writing_contrast_pair_engines']
+  confidence: high
+  anchor: 'Alex-Warren draft (C, 2026-07-01); upper C, below Matt-Smith (B)'
+  needs_review: true
+  first_overall: 8.9
+  regrade_overall: 7.4
+  grade_stability_delta: 1.5
+  graded_at: '2026-07-22'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
@@ -94,18 +101,6 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Jim-Carrey.md
 ---
-
-<!-- QUALITY GRADE: B+ (8.9) — rubric v2
-Evidence: 8.5 | Originality: 9 | Discoverability: 9 | Enneagram: 9 | Writing: 9 | Hook: 9
-
-FEEDBACK (2026-06-30):
-- The check-in-the-coffin beat ("returning the evidence to the one man whose failure had built the whole machine... The Seven's victory and the Seven's wound, in the same wooden box") is the signature detail that makes the whole Type 7 read click — a public law-of-attraction parable reframed as a wound.
-- The Truman Show / Man on the Moon / Eternal Sunshine rhyme ("acted out 'Jim Carrey is a character I played' fifteen years before he said it on a red carpet") is the strongest originality move; it converts three known films into one new insight.
-- The "both Carreys are on tape" held tension, grounded in the Cathriona White loss and the wrongful-death suit, is the empathy turn done with restraint — it refuses to resolve the mysticism cleanly, which is exactly right. Rabbit hole is well-formed: all wing/subtype/arrow/counter-typing depth is quarantined out of the body.
-- NEEDS WORK: Evidence is good-not-exceptional — the piece leans on authorial narration between quotes. Carrey's own words carry the frame, but several structural beats (the Mulholland visualization "I'm a popular actor," the depression-as-"deep rest" turn) are paraphrased where a sourced direct quote would lift Evidence to 9+.
-- WATCH: the running/escape motif is still slightly heavy even after the second-pass trim ("outrunning something," "stopped running," "fifty years of running," plus three escape-themed section titles); thinning one more instance would sharpen the rest.
-- TO REACH A (9.0+): (1) Convert 2–3 paraphrased structural beats into sourced direct quotes — especially the Mulholland visualization and the "deep rest" depression framing — to push Evidence to 9. (2) Trim one more running-motif instance. Everything else (discoverability, originality, rabbit hole, ending) is already at A level.
--->
 
 <!-- TESTIMONY LEDGER
 1. Judd Apatow: "He would go onstage every night and improvise his entire set. His goal was not to repeat one line from any other night. It was the funniest thing I've ever seen in my life." — Judd Apatow on Carrey's early Improv sets, 2017

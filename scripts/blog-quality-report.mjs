@@ -223,19 +223,50 @@ function typeCount(n) {
 	return typeof v === 'number' ? v : (v.count ?? v.n ?? null);
 }
 const corpusFindings = [];
+// Every count the corpus knows (catalog total, per-type counts, per-domain
+// totals, per-domain per-type counts) so domain-scoped stats ("146 of the
+// figures", film-tv) validate instead of false-flagging against the catalog total.
+const knownTotals = new Set(corpusTotal != null ? [corpusTotal] : []);
+const knownTypeCounts = {};
+for (let t = 1; t <= 9; t++) {
+	const c = typeCount(t);
+	knownTypeCounts[t] = new Set(c != null ? [c] : []);
+}
+for (const dom of Object.values(corpus?.domains ?? {})) {
+	if (typeof dom?.total === 'number') knownTotals.add(dom.total);
+	for (const [t, c] of Object.entries(dom?.counts_by_type ?? {})) {
+		if (typeof c === 'number') knownTypeCounts[parseInt(t, 10)]?.add(c);
+	}
+}
 if (corpusTotal != null) {
-	// "the 373 people we have profiled" / "369 personality analyses" / "N figures profiled"
+	// "the 373 people we have profiled" / "369 personality analyses" / "146 of the figures in the corpus"
 	const totalRe =
-		/\b(\d{2,4})\b\s+(?:people|figures|celebrities|public figures|personality analyses|profiles)\b[^.]{0,40}\b(?:profil|analys|we have|we['’]ve|on 9takes|in the (?:9takes )?corpus)/gi;
+		/\b(\d{2,4})\b\s+(?:of\s+the\s+)?(?:people|figures|subjects|celebrities|public figures|personality analyses|profiles)\b[^.]{0,40}\b(?:profil|analys|we have|we['’]ve|on 9takes|in the (?:9takes )?corpus)/gi;
 	let m;
 	while ((m = totalRe.exec(flat))) {
 		const n = parseInt(m[1], 10);
-		if (n >= 40 && n !== corpusTotal) {
+		if (n >= 40 && !knownTotals.has(n)) {
 			corpusFindings.push({
 				kind: 'total',
 				stated: n,
-				correct: corpusTotal,
+				correct: [...knownTotals].sort((a, b) => a - b).join(' or '),
 				snippet: flat.slice(m.index, m.index + 70).trim(),
+				line: lineForSnippet(flat.slice(m.index, m.index + 40))
+			});
+		}
+	}
+	// gap-tolerant per-type: "22 of them read as Type 9" / "21 read as Type 9"
+	const readAsRe = /\b(\d{1,3})\b[^.]{0,25}\bread(?:s)? as (?:a )?Type\s*([1-9])\b/gi;
+	while ((m = readAsRe.exec(flat))) {
+		const stated = parseInt(m[1], 10);
+		const typeNum = parseInt(m[2], 10);
+		const valid = knownTypeCounts[typeNum];
+		if (valid && valid.size && !valid.has(stated)) {
+			corpusFindings.push({
+				kind: `type-${typeNum}`,
+				stated,
+				correct: [...valid].sort((a, b) => a - b).join(' or '),
+				snippet: flat.slice(m.index, m.index + 60).trim(),
 				line: lineForSnippet(flat.slice(m.index, m.index + 40))
 			});
 		}
@@ -260,12 +291,12 @@ if (corpusTotal != null) {
 		let typeNum =
 			WORDNUM[label] ?? (label.match(/[1-9]/) ? parseInt(label.match(/[1-9]/)[0], 10) : null);
 		if (typeNum == null) continue;
-		const correct = typeCount(typeNum);
-		if (correct != null && stated !== correct) {
+		const valid = knownTypeCounts[typeNum];
+		if (valid && valid.size && !valid.has(stated)) {
 			corpusFindings.push({
 				kind: `type-${typeNum}`,
 				stated,
-				correct,
+				correct: [...valid].sort((a, b) => a - b).join(' or '),
 				snippet: flat.slice(m.index, m.index + 60).trim(),
 				line: lineForSnippet(flat.slice(m.index, m.index + 40))
 			});

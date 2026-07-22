@@ -1,0 +1,1453 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>9takes — Blackpill downward spiral social assets</title>
+		<style>
+			@font-face {
+				font-family: 'Inter Brand';
+				src: url('../../../../static/fonts/inter/Inter-Bold.ttf') format('truetype');
+				font-style: normal;
+				font-weight: 400 800;
+			}
+
+			@font-face {
+				font-family: 'Inter Brand';
+				src: url('../../../../static/fonts/inter/Inter-Black.ttf') format('truetype');
+				font-style: normal;
+				font-weight: 900;
+			}
+
+			:root {
+				--night: #0a0807;
+				--night-mid: #16110d;
+				--stone: #241d17;
+				--stone-mid: #3a302a;
+				--edge: #5c4f47;
+				--amber: #f59e0b;
+				--amber-light: #fbbf24;
+				--amber-deep: #b45309;
+				--teal: #0d9488;
+				--cyan: #5eead4;
+				--marble: #faf8f4;
+				--marble-warm: #ede6da;
+				--ink-mid: #a8a095;
+				--ink-dim: #948578;
+			}
+
+			* {
+				box-sizing: border-box;
+			}
+
+			html,
+			body {
+				margin: 0;
+				min-height: 100%;
+				background: #050403;
+				color: var(--marble);
+				font-family:
+					'Inter Brand',
+					Inter,
+					system-ui,
+					-apple-system,
+					sans-serif;
+				font-weight: 400;
+			}
+
+			body {
+				display: grid;
+				gap: 32px;
+				justify-content: center;
+				padding: 32px;
+			}
+
+			.slide,
+			.landscape {
+				position: relative;
+				isolation: isolate;
+				overflow: hidden;
+				background:
+					radial-gradient(circle at 82% 14%, rgba(245, 158, 11, 0.12), transparent 27%),
+					linear-gradient(145deg, rgba(36, 29, 23, 0.46), transparent 42%), var(--night);
+			}
+
+			.slide {
+				width: 1080px;
+				height: 1350px;
+			}
+
+			.slide::before,
+			.landscape::before {
+				position: absolute;
+				z-index: -1;
+				inset: 20px;
+				border: 1px solid rgba(92, 79, 71, 0.45);
+				border-radius: 16px;
+				content: '';
+			}
+
+			.slide::after,
+			.landscape::after {
+				position: absolute;
+				z-index: -1;
+				inset: 0;
+				opacity: 0.18;
+				background-image:
+					linear-gradient(rgba(250, 248, 244, 0.035) 1px, transparent 1px),
+					linear-gradient(90deg, rgba(250, 248, 244, 0.035) 1px, transparent 1px);
+				background-size: 54px 54px;
+				content: '';
+				mask-image: linear-gradient(to bottom, black, transparent 80%);
+			}
+
+			.chrome {
+				position: absolute;
+				z-index: 10;
+				top: 55px;
+				left: 68px;
+				right: 68px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+				font-size: 15px;
+				font-weight: 700;
+				letter-spacing: 0.12em;
+				text-transform: uppercase;
+			}
+
+			.brand {
+				color: var(--marble-warm);
+				font-family: 'Inter Brand', Inter, sans-serif;
+				font-size: 27px;
+				font-weight: 900;
+				letter-spacing: -0.06em;
+				text-transform: lowercase;
+			}
+
+			.series {
+				color: var(--ink-dim);
+			}
+
+			.slide-count {
+				color: var(--amber);
+			}
+
+			.slide-inner {
+				position: relative;
+				height: 100%;
+				padding: 145px 72px 100px;
+			}
+
+			.footer {
+				position: absolute;
+				z-index: 10;
+				left: 72px;
+				right: 72px;
+				bottom: 53px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+				font-size: 14px;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+				color: var(--ink-dim);
+			}
+
+			.footer .rule {
+				width: 86px;
+				height: 2px;
+				background: linear-gradient(90deg, var(--amber), transparent);
+			}
+
+			.eyebrow {
+				margin: 0 0 23px;
+				font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+				font-size: 17px;
+				font-weight: 700;
+				letter-spacing: 0.13em;
+				text-transform: uppercase;
+				color: var(--amber-light);
+			}
+
+			.eyebrow.teal {
+				color: var(--cyan);
+			}
+
+			h1,
+			h2,
+			h3,
+			p {
+				margin-top: 0;
+			}
+
+			.display {
+				max-width: 920px;
+				margin-bottom: 26px;
+				font-size: 73px;
+				font-weight: 900;
+				letter-spacing: -0.055em;
+				line-height: 0.99;
+			}
+
+			.display .amber {
+				color: var(--amber-light);
+			}
+
+			.h2 {
+				max-width: 900px;
+				margin-bottom: 20px;
+				font-size: 55px;
+				font-weight: 900;
+				letter-spacing: -0.048em;
+				line-height: 1.02;
+			}
+
+			.lede {
+				max-width: 870px;
+				color: var(--ink-mid);
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 1.42;
+			}
+
+			.note {
+				padding: 20px 23px;
+				border: 1px solid rgba(245, 158, 11, 0.34);
+				border-left: 4px solid var(--amber);
+				border-radius: 10px;
+				background: rgba(36, 29, 23, 0.84);
+				color: var(--marble-warm);
+				font-size: 21px;
+				line-height: 1.4;
+			}
+
+			.note.teal {
+				border-color: rgba(13, 148, 136, 0.46);
+				border-left-color: var(--cyan);
+			}
+
+			/* Slide 1 */
+			.cover .slide-inner {
+				padding-top: 188px;
+			}
+
+			.cover .eyebrow {
+				margin-bottom: 34px;
+			}
+
+			.cover .display {
+				position: relative;
+				z-index: 4;
+				max-width: 920px;
+				font-size: 79px;
+			}
+
+			.cover .lede {
+				position: relative;
+				z-index: 4;
+				max-width: 720px;
+				font-size: 27px;
+			}
+
+			.cover-orbit {
+				position: absolute;
+				right: -95px;
+				bottom: 45px;
+				width: 740px;
+				height: 740px;
+				opacity: 0.92;
+			}
+
+			.cover-orbit .ring {
+				fill: none;
+				stroke: var(--edge);
+				stroke-width: 2;
+			}
+
+			.cover-orbit .path {
+				fill: none;
+				stroke: url(#coverGradient);
+				stroke-width: 10;
+				stroke-linecap: round;
+				filter: drop-shadow(0 0 18px rgba(245, 158, 11, 0.32));
+			}
+
+			.cover-orbit .break {
+				fill: var(--cyan);
+				filter: drop-shadow(0 0 12px rgba(94, 234, 212, 0.54));
+			}
+
+			/* Slide 2 */
+			.downward-map {
+				position: relative;
+				height: 790px;
+				margin-top: 24px;
+			}
+
+			.downward-map svg {
+				position: absolute;
+				inset: 4px 0 0;
+				width: 100%;
+				height: 760px;
+			}
+
+			.downward-map .rail {
+				fill: none;
+				stroke: url(#downGradient);
+				stroke-width: 7;
+				stroke-linecap: round;
+				filter: drop-shadow(0 0 13px rgba(245, 158, 11, 0.26));
+			}
+
+			.downward-map .return {
+				fill: none;
+				stroke: rgba(245, 158, 11, 0.38);
+				stroke-width: 3;
+				stroke-dasharray: 9 12;
+			}
+
+			.loop-node {
+				position: absolute;
+				display: flex;
+				align-items: center;
+				gap: 17px;
+				width: 405px;
+				min-height: 92px;
+				padding: 18px 22px;
+				border: 1px solid var(--edge);
+				border-radius: 10px;
+				background: rgba(36, 29, 23, 0.96);
+				box-shadow: 0 14px 35px rgba(0, 0, 0, 0.22);
+			}
+
+			.loop-node .num {
+				display: grid;
+				width: 42px;
+				height: 42px;
+				flex: 0 0 42px;
+				place-items: center;
+				border: 1px solid rgba(245, 158, 11, 0.44);
+				border-radius: 4px;
+				background: var(--night);
+				color: var(--amber-light);
+				font-family: ui-monospace, monospace;
+				font-size: 16px;
+			}
+
+			.loop-node strong {
+				font-size: 24px;
+				line-height: 1.15;
+			}
+
+			.loop-node small {
+				display: block;
+				margin-top: 6px;
+				color: var(--ink-mid);
+				font-size: 15px;
+				line-height: 1.25;
+			}
+
+			.downward-map .n1 {
+				top: 0;
+				left: 25px;
+			}
+			.downward-map .n2 {
+				top: 126px;
+				right: 15px;
+			}
+			.downward-map .n3 {
+				top: 252px;
+				left: 77px;
+			}
+			.downward-map .n4 {
+				top: 378px;
+				right: 47px;
+			}
+			.downward-map .n5 {
+				top: 504px;
+				left: 129px;
+			}
+			.downward-map .n6 {
+				top: 630px;
+				right: 80px;
+				border-color: rgba(245, 158, 11, 0.66);
+				background: linear-gradient(135deg, rgba(180, 83, 9, 0.24), var(--stone));
+			}
+
+			.return-label {
+				position: absolute;
+				left: 0;
+				bottom: -5px;
+				width: 335px;
+				color: var(--amber-light);
+				font-family: ui-monospace, monospace;
+				font-size: 15px;
+				letter-spacing: 0.06em;
+				line-height: 1.4;
+				text-transform: uppercase;
+			}
+
+			/* Slide 3 */
+			.truth-grid {
+				display: grid;
+				gap: 18px;
+				margin-top: 46px;
+			}
+
+			.truth-row {
+				display: grid;
+				grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr);
+				align-items: stretch;
+			}
+
+			.truth-side {
+				display: grid;
+				align-content: center;
+				min-height: 158px;
+				padding: 25px 27px;
+				border: 1px solid var(--edge);
+				border-radius: 10px;
+				background: rgba(36, 29, 23, 0.9);
+				font-size: 25px;
+				line-height: 1.27;
+			}
+
+			.truth-side.right {
+				border-color: rgba(245, 158, 11, 0.38);
+				color: var(--ink-mid);
+			}
+
+			.truth-neq {
+				display: grid;
+				place-items: center;
+				color: var(--amber-light);
+				font-size: 42px;
+			}
+
+			.truth-key {
+				display: grid;
+				grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr);
+				margin-top: 36px;
+				color: var(--ink-dim);
+				font-family: ui-monospace, monospace;
+				font-size: 15px;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+			}
+
+			.truth-key span:last-child {
+				grid-column: 3;
+			}
+
+			.truth-slide .note {
+				margin-top: 34px;
+			}
+
+			/* Slide 4 */
+			.reward-stage {
+				position: relative;
+				display: grid;
+				gap: 18px;
+				margin-top: 58px;
+				padding-left: 94px;
+			}
+
+			.reward-stage::before {
+				position: absolute;
+				top: 15px;
+				bottom: 15px;
+				left: 31px;
+				width: 2px;
+				background: linear-gradient(var(--amber), rgba(245, 158, 11, 0.1));
+				content: '';
+			}
+
+			.reward-card {
+				position: relative;
+				display: grid;
+				grid-template-columns: 1fr 1.2fr;
+				align-items: center;
+				min-height: 174px;
+				padding: 30px 34px;
+				border: 1px solid var(--edge);
+				border-radius: 16px;
+				background: linear-gradient(115deg, rgba(58, 48, 42, 0.82), rgba(36, 29, 23, 0.94));
+			}
+
+			.reward-card::before {
+				position: absolute;
+				left: -79px;
+				display: grid;
+				width: 34px;
+				height: 34px;
+				place-items: center;
+				border: 2px solid var(--amber);
+				border-radius: 50%;
+				background: var(--night);
+				color: var(--amber-light);
+				font-family: ui-monospace, monospace;
+				font-size: 13px;
+				content: attr(data-number);
+			}
+
+			.reward-card h3 {
+				margin: 0;
+				font-size: 34px;
+				letter-spacing: -0.03em;
+			}
+
+			.reward-card p {
+				margin: 0;
+				color: var(--amber-light);
+				font-size: 23px;
+				line-height: 1.3;
+			}
+
+			.reward-slide .note {
+				margin-top: 34px;
+			}
+
+			/* Slides 5 and 6 */
+			.causal-list {
+				position: relative;
+				display: grid;
+				gap: 14px;
+				margin: 40px 0 0;
+				padding: 0 0 0 54px;
+				list-style: none;
+			}
+
+			.causal-list::before {
+				position: absolute;
+				top: 25px;
+				bottom: 25px;
+				left: 20px;
+				width: 3px;
+				background: linear-gradient(var(--amber-light), var(--amber-deep));
+				content: '';
+			}
+
+			.causal-list li {
+				position: relative;
+				display: grid;
+				grid-template-columns: 54px 1fr;
+				align-items: center;
+				min-height: 91px;
+				padding: 17px 24px;
+				border: 1px solid var(--edge);
+				border-radius: 10px;
+				background: rgba(36, 29, 23, 0.92);
+			}
+
+			.causal-list li::before {
+				position: absolute;
+				left: -45px;
+				width: 21px;
+				height: 21px;
+				border: 4px solid var(--night);
+				border-radius: 50%;
+				background: var(--amber);
+				box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.4);
+				content: '';
+			}
+
+			.causal-list .step-num {
+				color: var(--ink-dim);
+				font-family: ui-monospace, monospace;
+				font-size: 15px;
+			}
+
+			.causal-list strong {
+				font-size: 24px;
+				line-height: 1.25;
+			}
+
+			.causal-list li:last-child {
+				border-color: rgba(245, 158, 11, 0.63);
+				background: linear-gradient(100deg, rgba(180, 83, 9, 0.2), var(--stone));
+			}
+
+			.loop-footer {
+				margin: 24px 0 0 54px;
+				color: var(--ink-mid);
+				font-size: 19px;
+				line-height: 1.42;
+			}
+
+			.economic-slide .causal-list {
+				gap: 11px;
+				margin-top: 28px;
+			}
+
+			.economic-slide .causal-list li {
+				min-height: 76px;
+			}
+
+			.economic-slide .note {
+				margin-top: 25px;
+			}
+
+			.leverage {
+				display: flex;
+				align-items: center;
+				gap: 14px;
+				margin-top: 18px;
+				color: var(--cyan);
+				font-family: ui-monospace, monospace;
+				font-size: 14px;
+				letter-spacing: 0.06em;
+				line-height: 1.35;
+				text-transform: uppercase;
+			}
+
+			.leverage::before {
+				width: 44px;
+				height: 2px;
+				background: var(--teal);
+				content: '';
+			}
+
+			/* Slide 7 */
+			.validation-grid {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 18px;
+				margin-top: 42px;
+			}
+
+			.validation-panel {
+				min-height: 427px;
+				padding: 28px 29px;
+				border: 1px solid var(--edge);
+				border-radius: 16px;
+				background: rgba(36, 29, 23, 0.92);
+			}
+
+			.validation-panel.good {
+				border-color: rgba(13, 148, 136, 0.62);
+				background: linear-gradient(155deg, rgba(13, 148, 136, 0.15), var(--stone) 50%);
+			}
+
+			.validation-panel.bad {
+				border-color: rgba(245, 158, 11, 0.46);
+			}
+
+			.validation-panel h3 {
+				margin-bottom: 24px;
+				font-size: 29px;
+				letter-spacing: -0.03em;
+			}
+
+			.validation-panel.good h3 {
+				color: var(--cyan);
+			}
+			.validation-panel.bad h3 {
+				color: var(--amber-light);
+			}
+
+			.validation-panel p {
+				margin-bottom: 21px;
+				padding-bottom: 21px;
+				border-bottom: 1px solid rgba(92, 79, 71, 0.6);
+				color: var(--marble-warm);
+				font-size: 21px;
+				line-height: 1.35;
+			}
+
+			.validation-panel p:last-child {
+				margin-bottom: 0;
+				padding-bottom: 0;
+				border-bottom: 0;
+			}
+
+			.bridge-question {
+				position: relative;
+				margin-top: 25px;
+				padding: 27px 34px;
+				border: 1px solid rgba(94, 234, 212, 0.36);
+				border-radius: 10px;
+				background: var(--night-mid);
+				font-size: 26px;
+				line-height: 1.3;
+				text-align: center;
+			}
+
+			.bridge-question span {
+				color: var(--cyan);
+			}
+
+			/* Slide 8 */
+			.break-stage {
+				display: grid;
+				grid-template-columns: 300px 1fr;
+				gap: 36px;
+				align-items: center;
+				margin-top: 45px;
+			}
+
+			.open-link {
+				width: 300px;
+				height: 375px;
+			}
+
+			.open-link path {
+				fill: none;
+				stroke-width: 34;
+				stroke-linecap: round;
+			}
+
+			.break-steps {
+				display: grid;
+				gap: 16px;
+			}
+
+			.break-step {
+				display: grid;
+				grid-template-columns: 45px 1fr;
+				gap: 15px;
+				padding: 23px;
+				border: 1px solid var(--edge);
+				border-radius: 10px;
+				background: rgba(36, 29, 23, 0.91);
+			}
+
+			.break-step .num {
+				color: var(--cyan);
+				font-family: ui-monospace, monospace;
+				font-size: 16px;
+			}
+
+			.break-step strong {
+				display: block;
+				margin-bottom: 4px;
+				font-size: 25px;
+			}
+
+			.break-step p {
+				margin: 0;
+				color: var(--ink-mid);
+				font-size: 18px;
+				line-height: 1.35;
+			}
+
+			.action-examples {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 18px;
+				margin-top: 34px;
+			}
+
+			.action-card {
+				min-height: 175px;
+				padding: 22px 25px;
+				border: 1px solid rgba(13, 148, 136, 0.43);
+				border-radius: 10px;
+				background: rgba(13, 148, 136, 0.08);
+			}
+
+			.action-card span {
+				color: var(--cyan);
+				font-family: ui-monospace, monospace;
+				font-size: 14px;
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+			}
+
+			.action-card p {
+				margin: 13px 0 0;
+				font-size: 19px;
+				line-height: 1.38;
+			}
+
+			/* Slide 9 */
+			.upward-map {
+				position: relative;
+				height: 730px;
+				margin-top: 35px;
+			}
+
+			.upward-map svg {
+				position: absolute;
+				inset: 0;
+				width: 100%;
+				height: 100%;
+			}
+
+			.upward-map .rise {
+				fill: none;
+				stroke: url(#upGradient);
+				stroke-width: 8;
+				stroke-linecap: round;
+				filter: drop-shadow(0 0 16px rgba(94, 234, 212, 0.26));
+			}
+
+			.up-node {
+				position: absolute;
+				display: flex;
+				align-items: center;
+				gap: 16px;
+				width: 365px;
+				min-height: 90px;
+				padding: 18px 21px;
+				border: 1px solid rgba(13, 148, 136, 0.62);
+				border-radius: 10px;
+				background: linear-gradient(120deg, rgba(13, 148, 136, 0.16), rgba(36, 29, 23, 0.96));
+			}
+
+			.up-node .num {
+				display: grid;
+				width: 40px;
+				height: 40px;
+				flex: 0 0 40px;
+				place-items: center;
+				border: 1px solid rgba(94, 234, 212, 0.45);
+				border-radius: 4px;
+				color: var(--cyan);
+				font-family: ui-monospace, monospace;
+				font-size: 14px;
+			}
+
+			.up-node strong {
+				font-size: 22px;
+				line-height: 1.2;
+			}
+
+			.upward-map .u1 {
+				left: 20px;
+				bottom: 15px;
+			}
+			.upward-map .u2 {
+				left: 165px;
+				bottom: 158px;
+			}
+			.upward-map .u3 {
+				left: 320px;
+				bottom: 301px;
+			}
+			.upward-map .u4 {
+				left: 465px;
+				bottom: 444px;
+			}
+			.upward-map .u5 {
+				right: 10px;
+				bottom: 587px;
+				border-color: var(--cyan);
+			}
+
+			.upward-return {
+				position: absolute;
+				left: 20px;
+				bottom: -31px;
+				color: var(--cyan);
+				font-family: ui-monospace, monospace;
+				font-size: 15px;
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+			}
+
+			/* Slide 10 */
+			.closing {
+				background:
+					radial-gradient(circle at 50% 60%, rgba(13, 148, 136, 0.14), transparent 25%),
+					radial-gradient(circle at 50% 48%, rgba(245, 158, 11, 0.15), transparent 41%),
+					var(--night);
+			}
+
+			.closing .slide-inner {
+				display: grid;
+				place-items: center;
+				padding-top: 125px;
+				text-align: center;
+			}
+
+			.closing-content {
+				position: relative;
+				z-index: 2;
+				max-width: 880px;
+			}
+
+			.closing .display {
+				font-size: 72px;
+				line-height: 1.02;
+			}
+
+			.closing-mark {
+				width: 310px;
+				height: 255px;
+				margin: 0 auto 35px;
+			}
+
+			.closing-mark path {
+				fill: none;
+				stroke-width: 18;
+				stroke-linecap: round;
+			}
+
+			.closing-cta {
+				margin-top: 34px;
+				color: var(--marble-warm);
+				font-size: 22px;
+				line-height: 1.4;
+			}
+
+			.crisis {
+				position: absolute;
+				left: 110px;
+				right: 110px;
+				bottom: 102px;
+				color: var(--ink-dim);
+				font-size: 14px;
+				line-height: 1.45;
+				text-align: center;
+			}
+
+			/* Landscape share cards */
+			.landscape {
+				width: 1200px;
+				height: 675px;
+			}
+
+			.landscape .chrome {
+				top: 41px;
+				left: 55px;
+				right: 55px;
+			}
+
+			.landscape-inner {
+				height: 100%;
+				padding: 102px 56px 47px;
+			}
+
+			.landscape h2 {
+				max-width: 1050px;
+				margin: 0;
+				font-size: 43px;
+				font-weight: 900;
+				letter-spacing: -0.04em;
+				line-height: 1.05;
+			}
+
+			.landscape h2 em {
+				color: var(--amber-light);
+				font-style: normal;
+			}
+
+			.landscape.up h2 em {
+				color: var(--cyan);
+			}
+
+			.landscape-flow {
+				position: relative;
+				display: grid;
+				grid-template-columns: repeat(5, 1fr);
+				gap: 12px;
+				margin-top: 53px;
+			}
+
+			.landscape-flow::before {
+				position: absolute;
+				top: 64px;
+				left: 80px;
+				right: 80px;
+				height: 4px;
+				background: linear-gradient(90deg, var(--amber-light), var(--amber-deep));
+				content: '';
+			}
+
+			.landscape.up .landscape-flow::before {
+				background: linear-gradient(90deg, var(--teal), var(--cyan));
+			}
+
+			.landscape-node {
+				position: relative;
+				z-index: 2;
+				display: grid;
+				align-content: center;
+				min-height: 137px;
+				padding: 20px 17px;
+				border: 1px solid var(--edge);
+				border-radius: 10px;
+				background: rgba(36, 29, 23, 0.97);
+				text-align: center;
+			}
+
+			.landscape-node span {
+				margin-bottom: 9px;
+				color: var(--amber-light);
+				font-family: ui-monospace, monospace;
+				font-size: 12px;
+			}
+
+			.landscape.up .landscape-node {
+				border-color: rgba(13, 148, 136, 0.5);
+			}
+
+			.landscape.up .landscape-node span {
+				color: var(--cyan);
+			}
+
+			.landscape-node strong {
+				font-size: 20px;
+				line-height: 1.16;
+			}
+
+			.landscape-return {
+				position: relative;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin-top: 22px;
+				padding: 17px 23px;
+				border: 1px solid rgba(245, 158, 11, 0.33);
+				border-radius: 10px;
+				background: rgba(22, 17, 13, 0.82);
+				color: var(--ink-mid);
+				font-size: 17px;
+			}
+
+			.landscape-return strong {
+				color: var(--amber-light);
+			}
+
+			.landscape.up .landscape-return {
+				border-color: rgba(13, 148, 136, 0.42);
+			}
+
+			.landscape.up .landscape-return strong {
+				color: var(--cyan);
+			}
+		</style>
+	</head>
+	<body>
+		<section class="slide cover" data-name="01-cover">
+			<div class="chrome">
+				<span class="brand">9takes</span>
+				<span class="series">The blackpill loop</span>
+				<span class="slide-count">01 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow">A self-fulfilling worldview</p>
+				<h1 class="display">
+					Often, the blackpill doesn’t start with hate.
+					<span class="amber">It starts with pain that finds a fatal story.</span>
+				</h1>
+				<p class="lede">A map of the downward spiral—and where to break it.</p>
+				<svg class="cover-orbit" viewBox="0 0 740 740" aria-hidden="true">
+					<defs>
+						<linearGradient id="coverGradient" x1="0" y1="0" x2="1" y2="1">
+							<stop offset="0" stop-color="#fbbf24" />
+							<stop offset="0.72" stop-color="#b45309" />
+							<stop offset="1" stop-color="#0d9488" />
+						</linearGradient>
+					</defs>
+					<ellipse class="ring" cx="370" cy="370" rx="310" ry="290" />
+					<ellipse class="ring" cx="370" cy="370" rx="236" ry="217" />
+					<ellipse class="ring" cx="370" cy="370" rx="160" ry="145" />
+					<path
+						class="path"
+						d="M95 215 C540 70 672 350 523 476 C410 571 227 488 279 344 C324 220 502 253 496 364 C491 449 399 457 372 410"
+					/>
+					<circle class="break" cx="372" cy="410" r="12" />
+				</svg>
+			</div>
+			<div class="footer"><span>Swipe to see the loop</span><span class="rule"></span></div>
+		</section>
+
+		<section class="slide downward" data-name="02-downward-spiral">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">The downward spiral</span
+				><span class="slide-count">02 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow">How the mechanism works</p>
+				<h2 class="h2">How pain becomes “proof”</h2>
+				<div class="downward-map">
+					<svg viewBox="0 0 936 760" aria-hidden="true">
+						<defs>
+							<linearGradient id="downGradient" x1="0" y1="0" x2="0" y2="1">
+								<stop offset="0" stop-color="#fbbf24" />
+								<stop offset="1" stop-color="#b45309" />
+							</linearGradient>
+						</defs>
+						<path
+							class="rail"
+							d="M250 52 C690 70 724 158 680 190 C611 241 276 218 287 312 C300 418 749 331 699 456 C657 560 344 505 364 617 C382 709 758 664 750 715"
+						/>
+						<path class="return" d="M750 715 C899 652 891 133 607 56 C472 19 231 25 118 73" />
+					</svg>
+					<div class="loop-node n1">
+						<span class="num">01</span>
+						<div>
+							<strong>Real pain</strong
+							><small>Rejection · loneliness · joblessness · poverty</small>
+						</div>
+					</div>
+					<div class="loop-node n2">
+						<span class="num">02</span>
+						<div><strong>Shame</strong><small>“This revealed what I am.”</small></div>
+					</div>
+					<div class="loop-node n3">
+						<span class="num">03</span>
+						<div>
+							<strong>Fatal story</strong><small>“My place was fixed before I was born.”</small>
+						</div>
+					</div>
+					<div class="loop-node n4">
+						<span class="num">04</span>
+						<div><strong>Defensive or cynical action</strong></div>
+					</div>
+					<div class="loop-node n5">
+						<span class="num">05</span>
+						<div>
+							<strong>Worse result</strong
+							><small>More tension · isolation · stalled momentum</small>
+						</div>
+					</div>
+					<div class="loop-node n6">
+						<span class="num">06</span>
+						<div><strong>“See? The story was true.”</strong></div>
+					</div>
+					<p class="return-label">↺ Then the result feeds the original pain.</p>
+				</div>
+			</div>
+			<div class="footer"><span>Self-fulfilling ≠ inevitable</span><span class="rule"></span></div>
+		</section>
+
+		<section class="slide truth-slide" data-name="03-hard-truth-vs-total-doom">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">Separate pain from story</span
+				><span class="slide-count">03 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow">The crucial distinction</p>
+				<h2 class="h2">Keep the hard truth. Drop the total doom.</h2>
+				<div class="truth-key"><span>Hard truth</span><span>Total conclusion</span></div>
+				<div class="truth-grid">
+					<div class="truth-row">
+						<div class="truth-side">Looks matter.</div>
+						<div class="truth-neq">≠</div>
+						<div class="truth-side right">Looks decide your whole life.</div>
+					</div>
+					<div class="truth-row">
+						<div class="truth-side">Money shapes access.</div>
+						<div class="truth-neq">≠</div>
+						<div class="truth-side right">Birth fixes your class forever.</div>
+					</div>
+					<div class="truth-row">
+						<div class="truth-side">Rejection hurts.</div>
+						<div class="truth-neq">≠</div>
+						<div class="truth-side right">Women already hate you.</div>
+					</div>
+				</div>
+				<p class="note">
+					Validating pain is not validating a prediction about the rest of someone’s life.
+				</p>
+			</div>
+			<div class="footer">
+				<span>Pressure is real. Destiny is an added claim.</span><span class="rule"></span>
+			</div>
+		</section>
+
+		<section class="slide reward-slide" data-name="04-why-the-story-sticks">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">Why the story sticks</span
+				><span class="slide-count">04 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow">The emotional rewards</p>
+				<h2 class="h2">A total story can feel like relief.</h2>
+				<div class="reward-stage">
+					<article class="reward-card" data-number="01">
+						<h3>Clarity</h3>
+						<p>“Now I get it.”</p>
+					</article>
+					<article class="reward-card" data-number="02">
+						<h3>Identity</h3>
+						<p>“I see the real world.”</p>
+					</article>
+					<article class="reward-card" data-number="03">
+						<h3>Belonging</h3>
+						<p>“These men understand me.”</p>
+					</article>
+				</div>
+				<p class="note">That relief is real. It is why facts alone rarely pull someone out.</p>
+			</div>
+			<div class="footer">
+				<span>An explanation can become an identity and a tribe.</span><span class="rule"></span>
+			</div>
+		</section>
+
+		<section class="slide social-slide" data-name="05-social-women-loop">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">The social / women loop</span
+				><span class="slide-count">05 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow">Loop one</p>
+				<h2 class="h2">The social loop manufactures the evidence it expects.</h2>
+				<ol class="causal-list">
+					<li><span class="step-num">01</span><strong>“Women already hate me.”</strong></li>
+					<li>
+						<span class="step-num">02</span><strong>Avoid talking—or enter defensive.</strong>
+					</li>
+					<li><span class="step-num">03</span><strong>The interaction feels tense.</strong></li>
+					<li><span class="step-num">04</span><strong>She keeps her distance.</strong></li>
+					<li><span class="step-num">05</span><strong>More rejection and isolation.</strong></li>
+					<li><span class="step-num">↺</span><strong>“See? Women hate me.”</strong></li>
+				</ol>
+				<p class="loop-footer">
+					Avoidance alone can keep ordinary, neutral counter-evidence from entering the picture.
+				</p>
+			</div>
+			<div class="footer">
+				<span>Women are people—not a category, judge, or prize.</span><span class="rule"></span>
+			</div>
+		</section>
+
+		<section class="slide economic-slide" data-name="06-economic-class-loop">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">The economic / class loop</span
+				><span class="slide-count">06 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow">Loop two</p>
+				<h2 class="h2">The money loop is not “just mindset.”</h2>
+				<ol class="causal-list">
+					<li><span class="step-num">01</span><strong>“I will always be poor.”</strong></li>
+					<li><span class="step-num">02</span><strong>Little stability or money.</strong></li>
+					<li>
+						<span class="step-num">03</span><strong>Less mobility, training, and access.</strong>
+					</li>
+					<li><span class="step-num">04</span><strong>Fewer contacts and openings.</strong></li>
+					<li><span class="step-num">05</span><strong>Exhaustion and stalled momentum.</strong></li>
+					<li><span class="step-num">↺</span><strong>“See? There is no way up.”</strong></li>
+				</ol>
+				<p class="note">The barriers are real. The permanent sentence is the added claim.</p>
+				<p class="leverage">
+					Skills · referrals · training · transportation · support can reveal another door
+				</p>
+			</div>
+			<div class="footer">
+				<span>Build a ladder with other people on it.</span><span class="rule"></span>
+			</div>
+		</section>
+
+		<section class="slide validation-slide" data-name="07-validate-pain-not-sentence">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">If you are trying to help</span
+				><span class="slide-count">07 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow teal">Start with what is true</p>
+				<h2 class="h2">Validate the pain. Do not validate the sentence.</h2>
+				<div class="validation-grid">
+					<article class="validation-panel good">
+						<h3>Validate the pain</h3>
+						<p>“You have been lonely.”</p>
+						<p>“The job search has been brutal.”</p>
+						<p>“That rejection hurt.”</p>
+					</article>
+					<article class="validation-panel bad">
+						<h3>Do not affirm</h3>
+						<p>“Your future is fixed.”</p>
+						<p>“Every woman is the enemy.”</p>
+						<p>“Nothing can change.”</p>
+					</article>
+				</div>
+				<p class="bridge-question">
+					“What part is a <span>fact</span>—and what part predicts the rest of your life?”
+				</p>
+			</div>
+			<div class="footer">
+				<span>Compassion and disagreement can coexist.</span><span class="rule"></span>
+			</div>
+		</section>
+
+		<section class="slide break-slide" data-name="08-break-one-link">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">The practical exit</span
+				><span class="slide-count">08 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow teal">Do less—but make it real</p>
+				<h2 class="h2">You do not have to solve your whole life. Break one link.</h2>
+				<div class="break-stage">
+					<svg class="open-link" viewBox="0 0 300 375" aria-hidden="true">
+						<defs>
+							<linearGradient id="linkGradient" x1="0" y1="0" x2="1" y2="1">
+								<stop offset="0.52" stop-color="#f59e0b" />
+								<stop offset="0.78" stop-color="#0d9488" />
+								<stop offset="1" stop-color="#5eead4" />
+							</linearGradient>
+						</defs>
+						<path d="M92 232 C35 175 34 102 83 55 C132 8 206 16 249 67" stroke="#5c4f47" />
+						<path
+							d="M208 143 C265 200 266 273 217 320 C168 367 94 359 51 308"
+							stroke="url(#linkGradient)"
+						/>
+						<path d="M106 116 L194 259" stroke="#5eead4" opacity="0.85" />
+					</svg>
+					<div class="break-steps">
+						<div class="break-step">
+							<span class="num">01</span>
+							<div>
+								<strong>See</strong>
+								<p>Name the sentence being added.</p>
+							</div>
+						</div>
+						<div class="break-step">
+							<span class="num">02</span>
+							<div>
+								<strong>Notice</strong>
+								<p>What does the belief make you do next?</p>
+							</div>
+						</div>
+						<div class="break-step">
+							<span class="num">03</span>
+							<div>
+								<strong>Test</strong>
+								<p>Choose one result small enough to learn from this week.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="action-examples">
+					<article class="action-card">
+						<span>Social</span>
+						<p>One ordinary conversation with no dating goal.</p>
+					</article>
+					<article class="action-card">
+						<span>Economic</span>
+						<p>One skill, referral, introduction, or threshold that creates more options.</p>
+					</article>
+				</div>
+			</div>
+			<div class="footer">
+				<span>Proof-sized action beats a vague command to “hope.”</span><span class="rule"></span>
+			</div>
+		</section>
+
+		<section class="slide upward-slide" data-name="09-upward-spiral">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">The upward spiral</span
+				><span class="slide-count">09 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<p class="eyebrow teal">Build a new loop from results</p>
+				<h2 class="h2">Evidence restores agency. Agency makes the next action possible.</h2>
+				<div class="upward-map">
+					<svg viewBox="0 0 936 730" aria-hidden="true">
+						<defs>
+							<linearGradient id="upGradient" x1="0" y1="1" x2="1" y2="0">
+								<stop offset="0" stop-color="#b45309" />
+								<stop offset="0.25" stop-color="#0d9488" />
+								<stop offset="1" stop-color="#5eead4" />
+							</linearGradient>
+						</defs>
+						<path
+							class="rise"
+							d="M112 662 C255 636 232 539 351 512 C483 483 402 382 538 348 C668 316 603 214 730 183 C818 161 815 102 852 71"
+						/>
+					</svg>
+					<div class="up-node u1"><span class="num">01</span><strong>One small action</strong></div>
+					<div class="up-node u2">
+						<span class="num">02</span><strong>Real counter-evidence</strong>
+					</div>
+					<div class="up-node u3">
+						<span class="num">03</span><strong>Competence + connection</strong>
+					</div>
+					<div class="up-node u4"><span class="num">04</span><strong>Agency</strong></div>
+					<div class="up-node u5"><span class="num">05</span><strong>More hope</strong></div>
+					<p class="upward-return">↻ More hope makes the next small action easier.</p>
+				</div>
+			</div>
+			<div class="footer">
+				<span>Not blind optimism. A new loop built from results.</span><span class="rule"></span>
+			</div>
+		</section>
+
+		<section class="slide closing" data-name="10-break-one-link-cta">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">Read the full map</span
+				><span class="slide-count">10 / 10</span>
+			</div>
+			<div class="slide-inner">
+				<div class="closing-content">
+					<svg class="closing-mark" viewBox="0 0 310 255" aria-hidden="true">
+						<defs>
+							<linearGradient id="closingGradient" x1="0" y1="0" x2="1" y2="1">
+								<stop offset="0" stop-color="#f59e0b" />
+								<stop offset="0.62" stop-color="#b45309" />
+								<stop offset="1" stop-color="#5eead4" />
+							</linearGradient>
+						</defs>
+						<path d="M52 176 C3 100 57 26 136 23 C205 20 264 76 257 146" stroke="#5c4f47" />
+						<path d="M257 146 C252 194 219 227 173 233" stroke="url(#closingGradient)" />
+						<circle cx="173" cy="233" r="8" fill="#5eead4" />
+					</svg>
+					<p class="eyebrow teal">The practical exit</p>
+					<h2 class="display">
+						You do not have to prove the whole worldview wrong today.
+						<span class="amber">Break one link in the loop.</span>
+					</h2>
+					<p class="closing-cta">
+						Read the full downward map and practical exit at <strong>9takes.com</strong>
+					</p>
+				</div>
+				<p class="crisis">
+					If hopelessness has become thoughts of harming yourself or someone else, call or text 988
+					in the U.S., or contact your local crisis service.
+				</p>
+			</div>
+			<div class="footer">
+				<span>9takes.com/pop-culture/incel-blackpill-radicalization-enneagram</span
+				><span class="rule"></span>
+			</div>
+		</section>
+
+		<section class="landscape down" data-name="downward-spiral-1200x675">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">The downward spiral</span>
+			</div>
+			<div class="landscape-inner">
+				<h2>
+					Hopelessness becomes convincing when it starts <em>manufacturing its own proof.</em>
+				</h2>
+				<div class="landscape-flow">
+					<div class="landscape-node"><span>01</span><strong>Real pain</strong></div>
+					<div class="landscape-node"><span>02</span><strong>Total story</strong></div>
+					<div class="landscape-node"><span>03</span><strong>Cynical action</strong></div>
+					<div class="landscape-node"><span>04</span><strong>Bad result</strong></div>
+					<div class="landscape-node"><span>05</span><strong>“The story was true”</strong></div>
+				</div>
+				<div class="landscape-return">
+					<span>↺ The result feeds the original pain.</span
+					><strong>Pain is real. The story turns it into fate.</strong>
+				</div>
+			</div>
+		</section>
+
+		<section class="landscape up" data-name="upward-spiral-1200x675">
+			<div class="chrome">
+				<span class="brand">9takes</span><span class="series">The upward spiral</span>
+			</div>
+			<div class="landscape-inner">
+				<h2>You do not have to disprove an entire worldview. <em>Break one link.</em></h2>
+				<div class="landscape-flow">
+					<div class="landscape-node"><span>01</span><strong>One small action</strong></div>
+					<div class="landscape-node"><span>02</span><strong>Real counter-evidence</strong></div>
+					<div class="landscape-node"><span>03</span><strong>Competence + connection</strong></div>
+					<div class="landscape-node"><span>04</span><strong>Agency</strong></div>
+					<div class="landscape-node"><span>05</span><strong>More hope</strong></div>
+				</div>
+				<div class="landscape-return">
+					<span>↻ More hope makes the next small action easier.</span
+					><strong>Not blind optimism. A new loop built from results.</strong>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

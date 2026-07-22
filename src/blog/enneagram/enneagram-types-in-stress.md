@@ -1,16 +1,16 @@
 ---
-title: 'How Each Type Falls Apart (Your Stress Breakdown Pattern)'
-description: "Watch yourself unravel under pressure and don't understand why? That's your type's stress pattern. Learn how each Enneagram type breaks down, what triggers their collapse, and how to stop the spiral."
+title: 'Enneagram Types in Stress: Trigger → Fear → Defense → Backfire'
+description: 'Every Enneagram type tries to prevent a different feared outcome. See the exact trigger, fear, defense, and backfire loop for all nine types.'
 author: 'DJ Wayne'
 date: '2023-04-14'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-in-stress'
-lastmod: '2026-02-02'
+lastmod: '2026-07-22'
 changefreq: 'monthly'
-priority: '0.6'
+priority: '0.7'
 published: true
 type: ['situational']
 blog: true
-previewHtml: ''
+previewHtml: 'Stress is not random. Something happens, you predict a feared outcome, and your personality reaches for its favorite way to stop it. Here is how that loop works for all nine Enneagram types.'
 pic: 'feeling-stressed'
 path: src/blog/enneagram/enneagram-types-in-stress.md
 quality_grade: 'A'
@@ -20,592 +20,659 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: A (9.2) | Priority: none | Safety: n/a
-Strengths: practical utility (9.9); Enneagram depth (9.6).
-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
-Tags: none
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
-  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-  import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+	import MarqueeHorizontal from '$lib/components/atoms/MarqueeHorizontal.svelte';
+	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
+	import StressLoopOverview from '$lib/components/blog/stress/StressLoopOverview.svelte';
+	import StressLoopTypeMap from '$lib/components/blog/stress/StressLoopTypeMap.svelte';
+	import TypeStressLoop from '$lib/components/blog/stress/TypeStressLoop.svelte';
+	import { ENNEAGRAM_STRESS_LOOPS_BY_TYPE } from '$lib/data/enneagramStressLoops';
+
+	const loops = ENNEAGRAM_STRESS_LOOPS_BY_TYPE;
 </script>
 
-<QuickAnswer question="How does each type fall apart under stress?">
-Each Enneagram type has a predictable breakdown pattern triggered by specific stressors. Type 1s become rigidly critical, Type 2s turn manipulative and needy, Type 3s work until they burn out, Type 4s spiral into dramatic withdrawal, Type 5s isolate completely, Type 6s catastrophize everything, Type 7s scatter into frantic distraction, Type 8s become dominating and aggressive, Type 9s go numb and passive-aggressive. Understanding your stress pattern reveals when you're starting to unravel.
+<QuickAnswer question="Why does each Enneagram type react differently under stress?">
+Stress turns an event into a prediction: “This could lead to the thing I most fear.” Each type then uses a familiar defense to prevent that outcome and recover safety. The defense may help in the short term, but when it becomes automatic or extreme, it can create the very result the person was trying to stop. The basic loop is trigger → fear → defense → backfire.
 </QuickAnswer>
 
-**Read time**: 15 minutes | **Key insight**: Your stress behavior is predictable. And preventable
+<div class="article-meta" aria-label="Article summary">
+	<span>Read time · 14 minutes</span>
+	<span>Key idea · Stress is a prevention loop</span>
+</div>
 
-## Stress Breakdown Comparison Table
+<p class="lead">Something happens. Then your mind decides what it could mean.</p>
 
-| Type       | Primary Trigger       | Breakdown Behavior                          | Warning Sign                      | Quick Fix                          |
-| ---------- | --------------------- | ------------------------------------------- | --------------------------------- | ---------------------------------- |
-| **Type 1** | Imperfection, chaos   | Becomes rigidly critical of self and others | "Nothing is good enough" thinking | Accept "good enough"               |
-| **Type 2** | Feeling unappreciated | Becomes manipulative and clingy             | Keeping score of who owes what    | Express needs directly             |
-| **Type 3** | Fear of failure       | Works compulsively until burnout            | Can't stop achieving              | Separate worth from accomplishment |
-| **Type 4** | Feeling misunderstood | Withdraws into dramatic melancholy          | "Nobody understands me" spiral    | Engage with present reality        |
-| **Type 5** | Emotional demands     | Retreats into complete isolation            | Cutting off all contact           | Small social engagement            |
-| **Type 6** | Uncertainty           | Catastrophizes worst-case scenarios         | "What if everything goes wrong?"  | Ground in present facts            |
-| **Type 7** | Boredom, pain         | Frantically seeks new distractions          | Can't sit still with feelings     | Sit with one emotion               |
-| **Type 8** | Loss of control       | Becomes dominating and confrontational      | Pushing everyone away             | Practice vulnerability             |
-| **Type 9** | Conflict              | Goes numb and passive-aggressive            | Checking out mentally             | Assert one small need              |
+<p>
+	Maybe the mistake means the whole project could fail. Maybe a delayed reply means the relationship
+	is slipping. Maybe one closed door means you are about to become trapped.
+</p>
 
-<p class="firstLetter">You know that thing you do when everything falls apart?</p>
+<p>
+	You do not react only to what happened. You react to the future you think it could produce. Then
+	you reach for the move that normally makes that future feel less likely.
+</p>
 
-**That's not random. It's your type's signature breakdown.**
+<div class="core-thesis">
+	<span>The whole article in one sentence</span>
+	<p>
+		<strong>Something happens → it points toward a feared outcome → you react to prevent it →
+		the reaction may produce the outcome anyway.</strong>
+	</p>
+</div>
 
-Type 1s reorganize the kitchen at 2 AM because "someone has to maintain standards." Type 7s book three vacations in one panic session. Type 8s start fights with people who weren't even involved.
+<section class="article-section" aria-labelledby="core-loop">
+	<h2 id="core-loop">The four-part stress loop</h2>
 
-And the worst part? You don't see it happening. Everyone else does.
+    <p>
+    The defense is not random and it is not automatically bad. It is an attempt to solve a problem:
+    gain safety, reduce risk, and stop the feared future from happening. The problem begins when one
+    defense becomes the answer to every threat.
+    </p>
 
-Each [Enneagram type](/enneagram-corner/enneagram-tldr) has a predictable collapse pattern: a specific way you unravel under pressure that you've been running since childhood. The pattern feels like survival. To everyone watching, it looks like self-destruction.
+    <StressLoopOverview />
 
-This connects directly to your [toxic traits](/enneagram-corner/toxic-traits-of-each-enneagram-type) and [mental health vulnerabilities](/enneagram-corner/enneagram-and-mental-illness): the same wound, different expressions.
+    <div class="stage-definitions" aria-label="The four parts of the stress loop">
+    <article class="stage-definition" data-stage="trigger">
+    	<span>01 · Trigger</span>
+    	<h3>What happened?</h3>
+    	<p>
+    		A trigger is the event that gets your attention: criticism, uncertainty, conflict, rejection,
+    		failure, limitation, or loss of control.
+    	</p>
+    </article>
 
-**Ready to see your breakdown pattern before it happens?**
+    <article class="stage-definition" data-stage="fear">
+    	<span>02 · Fear</span>
+    	<h3>What could this lead to?</h3>
+    	<p>
+    		The event becomes stressful when it seems to predict an outcome you feel organized against.
+    		Fear here means the predicted outcome—not merely the feeling of being scared.
+    	</p>
+    </article>
 
-### About the Stress Arrows
+    <article class="stage-definition" data-stage="defense">
+    	<span>03 · Defense</span>
+    	<h3>How do I stop it?</h3>
+    	<p>
+    		The defense is your prevention strategy: perfect, help, achieve, differentiate, prepare,
+    		plan, escape, control, or accommodate.
+    	</p>
+    </article>
 
-Each type section below includes a diagram showing your "stress arrow," the type whose unhealthy traits you take on under pressure. This pattern is consistent: Type 1s become moody like unhealthy 4s, Type 7s become rigid like unhealthy 1s, and so on. You don't become that type. You borrow their worst coping mechanisms when yours stop working.
+    <article class="stage-definition" data-stage="backfire">
+    	<span>04 · Backfire</span>
+    	<h3>What did the defense produce?</h3>
+    	<p>
+    		A defense can create short-term relief while making the long-term threat worse. The result
+    		then looks like proof that the original fear was right.
+    	</p>
+    </article>
+    </div>
+
+</section>
+
+<section class="article-section" aria-labelledby="fear-versus-defense">
+	<h2 id="fear-versus-defense">Do not confuse the fear with the defense</h2>
+
+    <p>
+    “I am not doing enough,” “I do not know enough,” and “I need more options” sound like fears.
+    Usually they are the alarm thought or the instruction generated by the defense. Ask what would
+    happen if the person did not obey that instruction.
+    </p>
+
+    <figure class="clarifier" aria-labelledby="clarifier-title">
+    <figcaption id="clarifier-title">Type 5 example · Follow the thought one level deeper</figcaption>
+    <div class="clarifier-flow">
+    	<div class="clarifier-node">
+    		<span>Surface alarm</span>
+    		<strong>“I do not know enough.”</strong>
+    	</div>
+    	<div class="clarifier-arrow" aria-hidden="true">Ask what that could lead to →</div>
+    	<div class="clarifier-node clarifier-node--fear">
+    		<span>Core feared outcome</span>
+    		<strong>“I may be unable to handle what is coming.”</strong>
+    	</div>
+    	<div class="clarifier-arrow" aria-hidden="true">So I try to prevent it →</div>
+    	<div class="clarifier-node clarifier-node--defense">
+    		<span>Defense</span>
+    		<strong>Learn more before acting.</strong>
+    	</div>
+    </div>
+    </figure>
+
+    <div class="distinction-list">
+    <p><strong>Type 2:</strong> “I must do more” is the defense. “I may not be loved” is the fear.</p>
+    <p><strong>Type 4:</strong> “I must be more unique” is the defense. “I may have no real identity or significance” is the fear.</p>
+    <p><strong>Type 7:</strong> “I need more options” is the defense. “I may become trapped in pain or limitation” is the fear.</p>
+    </div>
+
+</section>
 
 <MarqueeHorizontal theme="types" />
 
-<section class="section-content">
+<section class="type-section" aria-labelledby="type-1-loop">
+	<header class="type-section-header">
+		<span>Type 1 · The Perfectionist</span>
+		<h2 id="type-1-loop">Prevent being wrong or responsible for failure</h2>
+		<p>
+			“This is not good enough” is the Type 1 alarm. Under it is a more personal risk: if the One
+			allows something wrong, careless, or incomplete, they may become blameworthy too.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[1]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> Type 1 is not mainly trying to look successful. They are
+		trying to make the situation right. <a href="/enneagram-corner/enneagram-type-1">Explore Type 1 →</a>
+	</p>
+</section>
 
-## Enneagram 1 in Stress
+<section class="type-section" aria-labelledby="type-2-loop">
+	<header class="type-section-header">
+		<span>Type 2 · The Helper</span>
+		<h2 id="type-2-loop">Prevent becoming unwanted or unloved</h2>
+		<p>
+			“I am not doing enough” is not the deepest fear. It is the command that appears when a Two
+			worries their place in someone’s heart is becoming less secure.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[2]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> Giving is the safety mechanism. Love and belonging are the
+		stakes. <a href="/enneagram-corner/enneagram-type-2">Explore Type 2 →</a>
+	</p>
+</section>
 
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
-</p>
+<section class="type-section" aria-labelledby="type-3-loop">
+	<header class="type-section-header">
+		<span>Type 3 · The Achiever</span>
+		<h2 id="type-3-loop">Prevent becoming worthless or exposed as a failure</h2>
+		<p>
+			“I am not successful enough,” “I am not attractive enough,” and “I am falling behind” can
+			all point to the same shame: without a winning image, there may be nothing valuable underneath.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[3]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> The specific scoreboard can change—career, money, beauty,
+		status, fitness. The deeper question is whether achievement is being used as evidence of worth.
+		<a href="/enneagram-corner/enneagram-type-3">Explore Type 3 →</a>
+	</p>
+</section>
 
-**[Type 1s](/enneagram-corner/enneagram-type-1) under stress become the person reorganizing the entire kitchen at 2 AM while silently prosecuting everyone for their crimes against order.**
+<section class="type-section" aria-labelledby="type-4-loop">
+	<header class="type-section-header">
+		<span>Type 4 · The Individualist</span>
+		<h2 id="type-4-loop">Prevent having no identity or personal significance</h2>
+		<p>
+			“Not unique enough” is close, but uniqueness is usually the proposed solution. The deeper
+			fear is that nothing essential, authentic, or meaningful distinguishes the Four at all.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[4]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> Type 4 is not pursuing difference for its own sake. Difference
+		becomes proof that the self is real, significant, and capable of being deeply seen.
+		<a href="/enneagram-corner/enneagram-type-4">Explore Type 4 →</a>
+	</p>
+</section>
 
-That helpful "feedback" becomes a courtroom closing argument. The inner critic that usually just berates _them_ now has a second defendant: you.
+<section class="type-section" aria-labelledby="type-5-loop">
+	<header class="type-section-header">
+		<span>Type 5 · The Investigator</span>
+		<h2 id="type-5-loop">Prevent being incapable, depleted, or overwhelmed</h2>
+		<p>
+			“I do not know enough” is the alarm. Knowledge is meant to prevent a more threatening outcome:
+			being forced into a situation the Five lacks the competence, time, or energy to handle.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[5]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> Type 5 asks, “Do I understand enough to handle this?” Type 6
+		asks, “Have we found the danger and made this safe?”
+		<a href="/enneagram-corner/enneagram-type-5">Explore Type 5 →</a>
+	</p>
+</section>
 
-### The Stress Signature
+<section class="type-section" aria-labelledby="type-6-loop">
+	<header class="type-section-header">
+		<span>Type 6 · The Loyalist</span>
+		<h2 id="type-6-loop">Prevent being unsafe, unsupported, or unprepared</h2>
+		<p>
+			“We have not considered every scenario” is a Type 6 warning. The goal is not knowledge for its
+			own sake. It is enough certainty, support, and preparation to keep danger from arriving unseen.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[6]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> Plans and reassurance are safety tools. The deeper fear is
+		facing danger without reliable support or confidence in one’s own judgment.
+		<a href="/enneagram-corner/enneagram-type-6">Explore Type 6 →</a>
+	</p>
+</section>
 
-Watch for these tells:
+<section class="type-section" aria-labelledby="type-7-loop">
+	<header class="type-section-header">
+		<span>Type 7 · The Enthusiast</span>
+		<h2 id="type-7-loop">Prevent becoming trapped in pain or limitation</h2>
+		<p>
+			“We do not have enough options” describes the closing of escape routes. More choices are not
+			the final goal. They keep the Seven from feeling stuck with deprivation, regret, boredom, or pain.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[7]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> Options create psychological exits. The fear is what might
+		happen if there is nowhere else to go.
+		<a href="/enneagram-corner/enneagram-type-7">Explore Type 7 →</a>
+	</p>
+</section>
 
-- Correcting grammar in a heated argument
-- Sighing loudly at how the dishwasher was loaded
-- That tight-lipped silence that somehow screams disapproval
-- Suddenly needing to "fix" things that were fine yesterday
-- Working even harder while getting angrier about it
+<section class="type-section" aria-labelledby="type-8-loop">
+	<header class="type-section-header">
+		<span>Type 8 · The Challenger</span>
+		<h2 id="type-8-loop">Prevent being controlled, harmed, or placed at someone’s mercy</h2>
+		<p>
+			“I do not have enough freedom” points toward a threat to autonomy. Strength and control are
+			meant to prevent anyone else from gaining the power to corner, betray, or violate the Eight.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[8]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> Power is the defense. The feared outcome is vulnerability
+		without protection—not simply losing an argument.
+		<a href="/enneagram-corner/enneagram-type-8">Explore Type 8 →</a>
+	</p>
+</section>
 
-**The quote that signals breakdown:** "Why can't people just do things _correctly_?"
+<section class="type-section" aria-labelledby="type-9-loop">
+	<header class="type-section-header">
+		<span>Type 9 · The Peacemaker</span>
+		<h2 id="type-9-loop">Prevent conflict from breaking connection</h2>
+		<p>
+			“Everything may crumble if I speak up” is close to the heart of the Type 9 pattern. A preference,
+			boundary, or disagreement can feel capable of disturbing both the relationship and inner stability.
+		</p>
+	</header>
+	<TypeStressLoop loop={loops[9]} />
+	<p class="type-distinction">
+		<strong>The key distinction:</strong> Going quiet is meant to protect connection. Over time, the
+		disappearing act makes real connection impossible.
+		<a href="/enneagram-corner/enneagram-type-9">Explore Type 9 →</a>
+	</p>
+</section>
 
-### What's Actually Happening
+<section class="article-section" aria-labelledby="nine-prevention-systems">
+	<h2 id="nine-prevention-systems">The nine prevention systems at a glance</h2>
+	<p>
+		Every type is trying to make one feared outcome less likely. This is the complete structure
+		without the examples.
+	</p>
+	<StressLoopTypeMap />
+</section>
 
-The internal courtroom is in session 24/7. Every imperfection, theirs and yours, gets logged, cataloged, and used as evidence that the world is falling apart.
+<section class="article-section scope-note" aria-labelledby="what-about-stress-arrows">
+	<h2 id="what-about-stress-arrows">What about the Enneagram stress arrows?</h2>
+	<p>
+		This article is about the primary defense loop: how each type interprets a threat and tries to
+		prevent it. The stress-arrow model asks a different question—what traits from a connected type
+		may appear after the primary strategy starts failing.
+	</p>
+	<p>
+		Those ideas can be layered together, but they should not be confused. First identify the core
+		loop. Then examine any secondary stress behavior. For that second layer, read the
+		<a href="/enneagram-corner/enneagram-stress-number">guide to Enneagram stress numbers</a>.
+	</p>
+</section>
 
-**Stressors that trigger the spiral:**
+<section class="article-section" aria-labelledby="catch-the-loop">
+	<h2 id="catch-the-loop">How to catch your loop in real time</h2>
+	<p>After a stressful moment, reconstruct it in this order:</p>
 
-- Chaos or disorder (especially visible mess)
-- Other people not following the rules
-- Time constraints that threaten quality
-- Receiving criticism (the thing they fear most because they're already so hard on themselves)
+    <ol class="reflection-chain">
+    <li><span>01</span><strong>Trigger</strong><p>What actually happened?</p></li>
+    <li><span>02</span><strong>Prediction</strong><p>What did I think it could lead to?</p></li>
+    <li><span>03</span><strong>Fear</strong><p>What outcome was I trying to prevent?</p></li>
+    <li><span>04</span><strong>Defense</strong><p>What did I do to feel safer?</p></li>
+    <li><span>05</span><strong>Result</strong><p>Did it create safety—or feed the fear?</p></li>
+    </ol>
 
-**The childhood wound:** Somewhere along the way, imperfection became intolerable. Maybe a critical parent. Maybe a chaotic home that needed someone to hold it together. The inner critic that formed to protect them from judgment never learned when to stop.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "I'm a failure if everything isn't perfect."
-
-**What they need to hear:** "Good enough is not giving up. It's growing up."
-
-**The escape hatch:**
-
-- Accept that "good enough" exists (radical concept)
-- Delegate and _actually_ trust others to do it their way
-- Schedule breaks before the breakdown, not after
-
-When you see a Type 1 in this spiral, don't tell them to "relax." Acknowledge the effort first. Say: "You clearly care about getting this right." Then help them see that perfection isn't the goal. Completion is.
+    <p class="closing-line">
+    <strong>The goal is not to have no defense.</strong> The goal is to notice when one prevention move
+    has become your answer to everything.
+    </p>
 
 </section>
 
-<section class="section-content">
-
-## Enneagram 2 in Stress
-
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
-</p>
-
-**Stressed [Type 2s](/enneagram-corner/enneagram-type-2) weaponize their sacrifices. That ledger they've been keeping in their head? It's about to become everyone's problem.**
-
-"After everything I've done for you..."
-
-There it is. The phrase that signals a Two has hit the wall.
-
-### The Stress Signature
-
-Watch for these tells:
-
-- Keeping track of exactly who owes them what
-- Helping with a martyred sigh instead of genuine warmth
-- Bringing up past favors in unrelated arguments
-- Becoming clingy and demanding emotional reassurance
-- Helping _more aggressively_ when they should be helping less
-
-**The quote that signals breakdown:** "After everything I've done for you, this is how you treat me?"
-
-### What's Actually Happening
-
-A Two in stress has finally realized they've been pouring from an empty cup. Instead of filling it, they're shaking it at everyone, demanding refills.
-
-**Stressors that trigger the spiral:**
-
-- Feeling unappreciated or taken for granted
-- Watching someone they love suffer without accepting help
-- Having their "selfless" motives questioned
-- Being in situations where they _can't_ help
-
-**The childhood wound:** Love felt conditional on usefulness. They learned: "I'm only worthy if I'm needed." So they became indispensable, then resented it.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "If I don't help, nobody will. I have to do more."
-
-**What they need to hear:** "Having needs doesn't make you needy. It makes you human."
-
-**The escape hatch:**
-
-- Say "no" to one thing today (the world won't end)
-- Accept help without immediately reciprocating
-- Express a need _before_ you've reached the breaking point
-
-When you see a Type 2 in this spiral, don't dismiss their sacrifices. Say: "I see how much you give. What do _you_ need right now?" Then actually listen. The answer might take them a minute. They're not used to thinking about it.
-
+<section class="related-reading" aria-labelledby="related-reading">
+	<h2 id="related-reading">Keep following the pattern</h2>
+	<ul>
+		<li><a href="/enneagram-corner/anxiety-and-enneagram-types-guide">Why anxiety looks different for each type</a></li>
+		<li><a href="/enneagram-corner/why-you-cant-stop-overthinking-enneagram">Why each type gets stuck overthinking</a></li>
+		<li><a href="/enneagram-corner/how-each-enneagram-type-self-sabotages-success">How each type’s protection strategy becomes self-sabotage</a></li>
+		<li><a href="/enneagram-corner/enneagram-personal-growth">The Enneagram personal-growth guide</a></li>
+	</ul>
 </section>
-
-<section class="section-content">
-
-## Enneagram 3 in Stress
-
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
-</p>
-
-**Stressed [Type 3s](/enneagram-corner/enneagram-type-3) don't slow down. They speed up. They'll outwork the breakdown, outperform the pain, and optimize their way straight into a wall.**
-
-Ask them how they're doing and they'll tell you about their to-do list.
-
-That's the tell.
-
-### The Stress Signature
-
-Watch for these tells:
-
-- Working 70-hour weeks while insisting they're "fine"
-- Checking email at 2 AM "just to get ahead"
-- Measuring their worth in accomplishments that never feel like enough
-- Becoming obsessively image-conscious (everything becomes a performance)
-- Responding to "how are you?" with "busy" every single time
-
-**The quote that signals breakdown:** "I don't have time to feel things right now."
-
-### What's Actually Happening
-
-A Three in stress has confused being productive with being valuable. They're running on a treadmill that speeds up the faster they go. They can't figure out why they never arrive.
-
-**Stressors that trigger the spiral:**
-
-- Failure (especially public failure)
-- Being outperformed by someone else
-- Having achievements dismissed or overlooked
-- Situations where they can't control how they're perceived
-
-**The childhood wound:** They learned that love and worth came from what they _did_, not who they _were_. So they keep doing. And doing. And doing.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "If I'm not the best, I'm nothing. I just need to work harder."
-
-**What they need to hear:** "You are not your achievements. You exist even when you're not producing."
-
-**The escape hatch:**
-
-- Do something you're bad at. On purpose. In front of people.
-- Spend 30 minutes doing absolutely nothing productive
-- Share a failure story without spinning it into a lesson
-
-When you see a Type 3 in this spiral, don't praise their hustle. Say: "I don't care what you've accomplished this week. How are _you_?" Then wait out the awkward silence. The real answer is buried under all those KPIs.
-
-</section>
-
-<section class="section-content">
-
-## Enneagram 4 in Stress
-
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
-</p>
-
-**Stressed [Type 4s](/enneagram-corner/enneagram-type-4) will romanticize their own breakdown because at least the suffering is _theirs_.**
-
-They don't just feel bad. They inhabit a multi-chapter emotional saga where they're simultaneously the misunderstood protagonist and the narrator documenting their exquisite pain.
-
-### The Stress Signature
-
-Watch for these tells:
-
-- Withdrawing dramatically (not just leaving, but making an exit)
-- Creating emotional tests to see who truly understands them
-- Comparing their life to everyone else's highlight reel
-- Saying "you wouldn't understand" about increasingly normal things
-- Finding beauty in their pain instead of seeking relief from it
-
-**The quote that signals breakdown:** "Nobody will ever truly understand me."
-
-### What's Actually Happening
-
-A Four in stress has disappeared into their inner world, where emotions become amplified echoes of emotions. They're not processing. They're marinating.
-
-**Stressors that trigger the spiral:**
-
-- Feeling forced to be "normal" or conventional
-- Having their creative work criticized (or worse, ignored)
-- Seeing others easily have what they desperately want
-- Relationships that feel shallow or inauthentic
-
-**The childhood wound:** They felt fundamentally different, like everyone else got a manual for life they never received. So they made "different" their identity. The problem is, that identity depends on staying separate.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "I'm destined to be alone and misunderstood. That's just who I am."
-
-**What they need to hear:** "Your depth is real. But so is ordinary happiness. You can have both."
-
-**The escape hatch:**
-
-- Engage with present reality instead of imagined ideals
-- Find one beautiful thing about today (not yesterday's loss)
-- Let someone understand you without testing them first
-
-When you see a Type 4 in this spiral, don't try to cheer them up. They'll resent it. Instead, say: "I can't fully understand your experience, but I want to be here with you in it." Witness the pain without fixing it. That's what they're actually asking for.
-
-</section>
-
-<section class="section-content">
-
-## Enneagram 5 in Stress
-
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
-</p>
-
-**Stressed [Type 5s](/enneagram-corner/enneagram-type-5) don't ghost you because they're rude. They ghost you because your emotional needs feel like a vampire sucking their life force.**
-
-Every "how are you feeling?" = energy debt.
-Every "we need to talk" = existential threat.
-
-It's not personal. It's survival math.
-
-### The Stress Signature
-
-Watch for these tells:
-
-- Radio silence lasting days or weeks
-- Retreating into research spirals about increasingly niche topics
-- Giving one-word answers to questions that require conversation
-- Physically present but mentally somewhere in the 1400s
-- That glazed look when you ask about feelings
-
-**The quote that signals breakdown:** "I just need some time to think." (Translation: Do not approach for 3-5 business days)
-
-### What's Actually Happening
-
-A Five in stress has calculated that their internal resources are critically low, and you're an expense they can't afford. They're not withdrawing from _you_. They're retreating into the only space that doesn't drain them: their own mind.
-
-**Stressors that trigger the spiral:**
-
-- Emotional demands from too many directions
-- Being put on the spot without preparation time
-- Situations where their competence is questioned
-- Information overload (ironically, the thing they usually crave)
-
-**The childhood wound:** The world felt overwhelming and invasive. Knowledge became protection. Withdrawal became safety. They learned that needing less meant surviving more.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "If I engage, I'll be depleted. I need to conserve."
-
-**What they need to hear:** "You have more resources than you think. Connection actually gives you energy, if you let it."
-
-**The escape hatch:**
-
-- Small social engagement (not parties, just one person for one hour)
-- Share one thought before it's fully formed
-- Notice that emotions aren't actually emergencies
-
-When you see a Type 5 in this spiral, don't chase them. You'll make it worse. Send a simple "I'm here when you're ready" and then actually wait. When they resurface, act like they never left. Low-pressure is the only pressure that works.
-
-</section>
-
-<section class="section-content">
-
-## Enneagram 6 in Stress
-
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
-</p>
-
-**Stressed [Type 6s](/enneagram-corner/enneagram-type-6) asking for reassurance for the 47th time today aren't afraid of the thing. They're afraid of trusting their own judgment.**
-
-They don't want your opinion. They want to borrow your certainty because theirs has left the building.
-
-### The Stress Signature
-
-Watch for these tells:
-
-- Running every decision past five different people
-- Googling "is this normal" about increasingly normal things
-- Creating backup plans for the backup plans
-- Suddenly suspicious of people they've trusted for years
-- That spiral where fixing one worry creates three new ones
-
-**The quote that signals breakdown:** "What if everything goes wrong?"
-
-### What's Actually Happening
-
-A Six in stress has lost access to their own inner compass. The anxiety isn't about the thing they're worried about. It's about not knowing if they can handle whatever comes next. So they prepare for every scenario except the one where they're okay.
-
-**Stressors that trigger the spiral:**
-
-- Uncertainty or ambiguity without clear guidance
-- Feeling unsupported or alone in facing a problem
-- Discovering someone they trusted wasn't trustworthy
-- Too many unknowns stacking up at once
-
-**The childhood wound:** Safety was never guaranteed. Maybe the adults in their life were inconsistent, or the environment shifted without warning. Hypervigilance became survival. The scanning never stops because the original threat taught them that relaxing means missing the danger.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "I can't trust anyone. Everything is going to fall apart. I need to prepare for the worst."
-
-**What they need to hear:** "You've handled unexpected things before. You'll handle this too. You can trust yourself."
-
-**The escape hatch:**
-
-- Move before you're ready (action beats rumination)
-- Trust one thing without testing it first
-- Notice that most worst-case scenarios never happen
-
-When you see a Type 6 in this spiral, don't dismiss their fears or tell them to "relax." Say: "That sounds really hard. What's the smallest next step you could take?" Help them move from overthinking to action. Motion is the only thing that breaks the anxiety loop.
-
-</section>
-
-<section class="section-content">
-
-## Enneagram 7 in Stress
-
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
-</p>
-
-**Stressed [Type 7s](/enneagram-corner/enneagram-type-7) will plan six vacations to avoid sitting with one emotion.**
-
-That spontaneous energy that makes them fun? Under stress, it becomes frantic. They're not seeking adventure anymore. They're fleeing something. Usually themselves.
-
-### The Stress Signature
-
-Watch for these tells:
-
-- Booking trips they can't afford while ignoring bills
-- Starting five new projects to avoid finishing one
-- Making jokes about serious topics until everyone's uncomfortable
-- Eyes glazing over the moment a conversation gets heavy
-- "This is too much. Let's just go do something fun."
-
-**The quote that signals breakdown:** "I don't want to talk about it. What's the plan for this weekend?"
-
-### What's Actually Happening
-
-A Seven in stress is running. Not toward something, but away from something. Usually pain, boredom, or any emotion that threatens to pin them down. They've convinced themselves that staying in motion means staying safe.
-
-**Stressors that trigger the spiral:**
-
-- Being trapped in routine without variety
-- Facing consequences of impulsive decisions
-- Situations that demand sustained focus (the F-word for Sevens)
-- Emotions that won't be outrun
-
-**The childhood wound:** Pain was too much to bear, so they learned to escape into possibility. The future was always better than the present. The next thing was always the answer. Sitting still meant feeling things they weren't equipped to feel.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "I just need something new. There's always something better waiting."
-
-**What they need to hear:** "The thing you're running from can't catch you if you turn around and face it."
-
-**The escape hatch:**
-
-- Sit with one uncomfortable emotion for 60 seconds (set a timer)
-- Finish one thing before starting three new things
-- Notice that boredom won't actually kill you
-
-When you see a Type 7 in this spiral, don't lecture them about responsibility. They'll leave. Instead, make depth feel like discovery. Say: "What would it be like to really feel this?" Make sitting still sound like an adventure. It's the only reframe they'll accept.
-
-For the deeper pattern — why chasing the next thing never delivers and what actually does — read [Why the Next Thing Won't Fix It](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7).
-
-</section>
-
-<section class="section-content">
-
-## Enneagram 8 in Stress
-
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
-</p>
-
-**Stressed [Type 8s](/enneagram-corner/enneagram-type-8) will blow up a relationship at 2 AM over something minor, then show up the next morning with coffee and an unspoken apology.**
-
-Under pressure, their protective intensity becomes a bulldozer. They're not trying to hurt you. They're trying to survive, and survival mode means taking control at any cost.
-
-### The Stress Signature
-
-Watch for these tells:
-
-- Picking fights over things that weren't conflicts
-- Escalating intensity until everyone backs down
-- Making ultimatums ("my way or I'm out")
-- Becoming physically restless, pacing, clenching, needing to move
-- Going completely silent instead of vulnerable (the scarier option)
-
-**The quote that signals breakdown:** "I don't need anyone. I can handle this myself."
-
-### What's Actually Happening
-
-An Eight in stress has detected a threat to their control or autonomy, and their response is to reassert dominance over the situation. But the aggression isn't about you. It's armor. Underneath that iron exterior is someone terrified of being controlled, betrayed, or exposed.
-
-**Stressors that trigger the spiral:**
-
-- Feeling controlled or manipulated
-- Being forced to rely on others (weakness alert)
-- Situations where they can't protect the people they love
-- Having their authority undermined or questioned
-
-**The childhood wound:** They learned early that being vulnerable meant being exploited. Softness got you hurt. Power was the only protection. So they built walls, not to keep people out, but to make sure no one could ever hurt them again.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "If I show weakness, I'll be destroyed. I have to stay strong."
-
-**What they need to hear:** "Strength includes knowing when to let go. Vulnerability isn't weakness. It's courage."
-
-**The escape hatch:**
-
-- Admit one fear to someone you trust
-- Let someone else lead (just this once)
-- Notice that not every situation requires combat mode
-
-When you see a Type 8 in this spiral, don't back down, but don't escalate either. Stand your ground calmly. Say: "I'm not going anywhere. What's really going on?" They're waiting for you to break. When you don't, the armor might crack enough for the real conversation.
-
-If you want to see how Eights actually channel that intensity into breakthroughs — from Bezos to MLK to Rihanna — read [How Type 8 Challengers Actually Succeed](/enneagram-corner/how-type-8-challengers-actually-succeed).
-
-</section>
-
-<section class="section-content">
-
-## Enneagram 9 in Stress
-
-<p style="display: flex; justify-content: center;">
-<img loading="lazy" src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
-</p>
-
-**Stressed [Type 9s](/enneagram-corner/enneagram-type-9) saying "I'm fine" is the biggest lie in human history. They're not fine. They're drowning, but decided making waves would be worse.**
-
-That's not peace. That's death by accommodation.
-
-### The Stress Signature
-
-Watch for these tells:
-
-- "Whatever you want" (they have an opinion, they're just not saying it)
-- Zoning out mid-conversation about serious topics
-- Agreeing to things they'll quietly resent for years
-- Stubbornly refusing to engage, not hostile, just... gone
-- That passive-aggressive silence that somehow makes everything worse
-
-**The quote that signals breakdown:** "I'm fine. It's fine. Everything's fine." (Narrator: It was not fine.)
-
-### What's Actually Happening
-
-A Nine in stress has decided that maintaining connection requires erasing themselves. They've confused peace with absence of conflict, and now they're vanishing to keep everyone else comfortable.
-
-**Stressors that trigger the spiral:**
-
-- Direct confrontation or conflict they can't escape
-- Being forced to make decisions that might upset someone
-- Criticism that disrupts their sense of inner calm
-- Feeling invisible despite giving up so much
-
-**The childhood wound:** Their presence once felt like a burden, or at least that's the message they absorbed. Expressing wants created friction. Disappearing created calm. The math was simple: the less they needed, the less trouble they caused. The trouble is, they believed it.
-
-### Breaking the Pattern
-
-**What they're telling themselves:** "If I assert myself, I'll destroy the relationship. My needs don't matter."
-
-**What they need to hear:** "Healthy relationships can survive disagreement. You disappearing is more damaging than you speaking up."
-
-**The escape hatch:**
-
-- Voice one preference today: even something small
-- Notice that asserting a need didn't destroy anyone
-- Let someone else handle the discomfort of disagreement
-
-When you see a Type 9 in this spiral, don't accept "I'm fine." Say: "What would you want if you knew no one would be upset?" Give them explicit permission to have preferences. Then honor what they say: that's how you prove it's safe to speak.
-
-</section>
-
-## How to Catch Yourself Mid-Spiral
-
-The hardest part isn't understanding your pattern. It's recognizing it in real time. Here's how to build that awareness:
-
-**Body signals first.** Your body knows before your mind admits it. Tight jaw? Shallow breathing? That knot in your stomach? These physical cues arrive before the behavioral spiral. Learn your body's early warning system.
-
-**Track your triggers.** After your next stress episode, write down: What happened right before? What was the first thing you felt? What did you do? Pattern recognition requires data. Give yourself some.
-
-**Ask someone who sees it.** Tell a trusted person: "When I start doing [your stress behavior], can you gently point it out?" Having an external spotter helps you catch what you're too deep in to see.
-
-**The 10-second pause.** When you notice a trigger, pause before reacting. Ten seconds. That's enough time for your prefrontal cortex to catch up with your amygdala. The pattern requires speed. Slow it down.
-
-## The Pattern No One Talks About
-
-Here's what nobody tells you about stress: **You can't fight a pattern you can't see.**
-
-Every type thinks their stress response is logical. Type 1s genuinely believe more perfection is the answer. Type 7s are convinced the next adventure will finally fix things. Type 9s think disappearing is the kindest option.
-
-**It's not. It never is.**
-
-Your stress pattern isn't protection. It's the thing that's breaking you. And the first step to stopping it is recognizing the moment you slip into it.
-
-One caveat: the escape hatches above aren't cures. They're interrupts. Breaking a pattern you've been running since childhood requires repeated practice, self-compassion when you fail, and often support from a therapist or trusted person who can help you see what you can't. The tips give you something to try in the moment. The real work happens over months and years.
-
-**Which one just called you out?**
-
-The pattern you recognized is the one you need to interrupt first.
-
-Understanding your [stress number](/enneagram-corner/enneagram-stress-number) can provide valuable insights into how you change under pressure.
-
-If you're ready to work on personal development, explore our guides on [Enneagram personal growth](/enneagram-corner/enneagram-personal-growth) and learn to recognize [mental health warning flags](/enneagram-corner/enneagram-mental-health-flags) for each type.
-
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
-
-## Related Reading
-
-- **[Why Your Anxiety Is Different](/enneagram-corner/anxiety-and-enneagram-types-guide)**: How anxiety manifests for each type and what actually works for your wiring
-- **[The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression)**: When stress becomes chronic depression, type-specific escape routes that actually work
-- **[Why Therapy Doesn't Work the Same for Everyone](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type)**: Finding the therapeutic approach that matches how your brain processes emotions
-- **[Why You Can't Stop Overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)**: Your type's specific thought loop and how to finally interrupt it
-- **[How Each Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)**: The protection mechanisms that block your goals
-- **[How Each Enneagram Type Manipulates](/enneagram-corner/how-each-enneagram-type-manipulates)**: When stress drives manipulation patterns
-- **[Red Flags You're Dating Each Type](/enneagram-corner/red-flags-dating-each-enneagram-type)**: Stress behaviors in relationships
-- **[Enneagram and ADHD](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)**: How ADHD amplifies stress patterns
 
 <style lang="scss">
+	.article-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem 1.5rem;
+		margin: 1.25rem 0 2rem;
+		padding: 0.75rem 0;
+		border-top: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--stone-edge);
+		color: var(--ink-dim);
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
 
+	.lead {
+		margin-top: 0;
+		color: var(--ink-bright);
+		font-size: clamp(1.25rem, 3vw, 1.55rem);
+		font-weight: 650;
+		line-height: 1.35;
+		letter-spacing: -0.015em;
+	}
+
+	.core-thesis {
+		margin: 2rem 0 2.5rem;
+		padding: 1.25rem 1.5rem;
+		border-left: 4px solid var(--lamp-glow);
+		border-radius: 0 0.625rem 0.625rem 0;
+		background: var(--stone-warm);
+	}
+
+	.core-thesis span,
+	.type-section-header > span,
+	.clarifier figcaption {
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 600;
+		letter-spacing: 0.075em;
+		text-transform: uppercase;
+	}
+
+	.core-thesis span {
+		color: var(--lamp-glow);
+	}
+
+	.core-thesis p {
+		margin: 0.45rem 0 0;
+		line-height: 1.55;
+	}
+
+	.article-section,
+	.type-section {
+		scroll-margin-top: 6rem;
+	}
+
+	.article-section {
+		margin: 3.5rem 0;
+	}
+
+	.stage-definitions {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1rem;
+		margin: 2rem 0;
+	}
+
+	.stage-definition {
+		--stage-accent: var(--ink-mid);
+		padding: 1.1rem 1.2rem;
+		border: 1px solid var(--stone-edge);
+		border-top: 3px solid var(--stage-accent);
+		border-radius: 1rem;
+		background: var(--night-mid);
+	}
+
+	.stage-definition[data-stage='fear'] {
+		--stage-accent: var(--lamp-glow);
+	}
+
+	.stage-definition[data-stage='defense'] {
+		--stage-accent: var(--data-teal);
+	}
+
+	.stage-definition[data-stage='backfire'] {
+		--stage-accent: var(--error-text);
+	}
+
+	.stage-definition > span {
+		color: var(--stage-accent);
+		font-family: var(--font-mono);
+		font-size: 0.68rem;
+		font-weight: 600;
+		letter-spacing: 0.075em;
+		text-transform: uppercase;
+	}
+
+	.stage-definition h3 {
+		margin: 0.5rem 0 0.55rem;
+		padding: 0;
+		font-size: 1.05rem;
+	}
+
+	.stage-definition p {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.92rem;
+		line-height: 1.55;
+	}
+
+	.clarifier {
+		margin: 2rem 0;
+		padding: 1.25rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--night-mid);
+	}
+
+	.clarifier figcaption {
+		margin-bottom: 1rem;
+		color: var(--ink-dim);
+	}
+
+	.clarifier-flow {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+		align-items: stretch;
+		gap: 0.6rem;
+	}
+
+	.clarifier-node {
+		display: grid;
+		align-content: start;
+		gap: 0.4rem;
+		padding: 0.9rem;
+		border-top: 3px solid var(--ink-mid);
+		border-radius: 0.625rem;
+		background: var(--stone-warm);
+	}
+
+	.clarifier-node--fear {
+		border-top-color: var(--lamp-glow);
+	}
+
+	.clarifier-node--defense {
+		border-top-color: var(--data-teal);
+	}
+
+	.clarifier-node span {
+		color: var(--ink-dim);
+		font-family: var(--font-mono);
+		font-size: 0.65rem;
+		font-weight: 600;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	.clarifier-node strong {
+		font-size: 0.9rem;
+		line-height: 1.45;
+	}
+
+	.clarifier-arrow {
+		display: grid;
+		max-width: 5rem;
+		place-items: center;
+		color: var(--ink-dim);
+		font-family: var(--font-mono);
+		font-size: 0.58rem;
+		line-height: 1.35;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.distinction-list {
+		display: grid;
+		gap: 0.75rem;
+		margin: 1.5rem 0;
+	}
+
+	.distinction-list p {
+		margin: 0;
+		padding: 0.85rem 1rem;
+		border-left: 3px solid var(--data-teal);
+		background: color-mix(in srgb, var(--data-teal) 5%, var(--night-mid));
+		color: var(--ink-mid);
+		font-size: 0.95rem;
+	}
+
+	.type-section {
+		margin: 4.5rem 0;
+	}
+
+	.type-section-header {
+		max-width: 66ch;
+	}
+
+	.type-section-header > span {
+		color: var(--lamp-glow);
+	}
+
+	.type-section-header h2 {
+		margin-top: 0.45rem;
+		padding-top: 0;
+	}
+
+	.type-section-header p {
+		color: var(--ink-mid);
+	}
+
+	.type-distinction {
+		margin: -1.5rem 0 0;
+		padding: 1rem 1.15rem;
+		border-left: 3px solid var(--stone-edge);
+		color: var(--ink-mid);
+		font-size: 0.95rem;
+		line-height: 1.55;
+	}
+
+	.scope-note {
+		padding: 1.25rem 1.5rem;
+		border: 1px solid color-mix(in srgb, var(--data-teal) 30%, var(--stone-edge));
+		border-radius: 1rem;
+		background: color-mix(in srgb, var(--data-teal) 5%, var(--night-mid));
+	}
+
+	.scope-note h2 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.reflection-chain {
+		display: grid;
+		grid-template-columns: repeat(5, minmax(0, 1fr));
+		gap: 1px;
+		overflow: hidden;
+		margin: 1.5rem 0;
+		padding: 0;
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--stone-edge);
+		list-style: none;
+	}
+
+	.reflection-chain li {
+		position: relative;
+		min-width: 0;
+		padding: 1rem;
+		background: var(--night-mid);
+	}
+
+	.reflection-chain span {
+		display: block;
+		margin-bottom: 0.85rem;
+		color: var(--ink-dim);
+		font-family: var(--font-mono);
+		font-size: 0.68rem;
+	}
+
+	.reflection-chain strong {
+		display: block;
+		font-size: 0.9rem;
+	}
+
+	.reflection-chain p {
+		margin: 0.35rem 0 0;
+		color: var(--ink-mid);
+		font-size: 0.78rem;
+		line-height: 1.45;
+	}
+
+	.closing-line {
+		padding: 1rem 1.15rem;
+		border-left: 4px solid var(--lamp-glow);
+		background: var(--stone-warm);
+	}
+
+	.related-reading {
+		margin: 4rem 0 1rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--stone-edge);
+	}
+
+	.related-reading ul {
+		display: grid;
+		gap: 0.65rem;
+		padding-left: 1.25rem;
+	}
+
+	@media (max-width: 760px) {
+		.stage-definitions {
+			grid-template-columns: 1fr;
+		}
+
+		.stage-definition p,
+		.distinction-list p,
+		.type-distinction {
+			font-size: 1rem;
+		}
+
+		.clarifier-flow {
+			grid-template-columns: 1fr;
+		}
+
+		.clarifier-arrow {
+			max-width: none;
+			min-height: 2.5rem;
+		}
+
+		.reflection-chain {
+			grid-template-columns: 1fr;
+		}
+
+		.reflection-chain li {
+			padding: 1rem;
+		}
+
+		.reflection-chain p {
+			font-size: 1rem;
+		}
+	}
 </style>

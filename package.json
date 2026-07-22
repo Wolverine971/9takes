@@ -23,6 +23,7 @@
 		"gen:sctx": "tsx scripts/generateStreamlinedProjectContext2.ts . -o docs/archives/sproject-context.json",
 		"label-paths": "tsx scripts/labelFilePaths.ts",
 		"gen:types": "node scripts/generate-types.js",
+		"gen:brand-icons": "node scripts/generate-brand-icons.mjs",
 		"gen:personality-image-map": "node scripts/generate-personality-image-slug-map.js",
 		"gen:sitemap": "node scripts/generate-sitemap.js",
 		"gen:llms": "node scripts/generate-llms.js",

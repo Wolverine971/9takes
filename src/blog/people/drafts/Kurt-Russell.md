@@ -15,15 +15,22 @@ type: ['movieStar']
 person: 'Kurt-Russell'
 content_quality:
   hook: 9
-  enneagram: 9
-  evidence: 9
-  writing: 8.5
-  originality: 9
-  discoverability: 8.5
-  overall: 8.8
-  letter: B+
+  enneagram: 8.5
+  evidence: 6
+  writing: 8
+  originality: 7
+  discoverability: 7
+  overall: 7.3
+  letter: C
   rubric_version: 2
-  graded_at: '2026-06-17'
+  caps_applied: ['evidence_untraceable_quote', 'originality_cross_draft_sameness', 'writing_contrast_pairs']
+  confidence: medium
+  anchor: 'Alex-Warren draft (C calibration band)'
+  needs_review: true
+  first_overall: 8.8
+  regrade_overall: 7.3
+  grade_stability_delta: 1.5
+  graded_at: '2026-07-22'
 suggestions: ['Harrison-Ford', 'Kate-Hudson', 'Samuel-L-Jackson', 'Tom-Hanks']
 wikipedia: 'https://en.wikipedia.org/wiki/Kurt_Russell'
 instagram: ''
@@ -95,21 +102,6 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Kurt-Russell.md
 ---
-
-<!-- QUALITY GRADE: B+ (8.8) — rubric v2
-Evidence: 9 | Originality: 9 | Discoverability: 8.5 | Enneagram: 9 | Writing: 8.5 | Hook: 9
-
-FEEDBACK (2026-06-17):
-- SIGNATURE DETAIL LANDS: "On the bottle, he keeps his name off a thing he made for love. On 'Tombstone,' off a thing he made by force." The anonymous-directing beat doesn't just fill the Tombstone gap — it sharpens the thesis (the Nine who seizes control exactly once and still refuses the credit). This is the draft's best paragraph, exactly as the fresh-eyes pass predicted.
-- EVIDENCE IS STRUCTURAL, NOT DECORATIVE: ~12 dated/sourced quotes (True West 2006, People 2025, NHPR 2014, Fox News 2014) plus a 4-quote family/collaborator testimony ledger. The batting-cage inheritance from Bing ("Our backyard was a batting cage") is the spine, and it earns its weight.
-- EMOTIONAL INTERIOR COMPLETE: all three checks pass — felt interior, empathy turn ("coasting" → a man refusing to be turned into copy), and a genuine interior beat ("I just hope I haven't ruined it" / the "shattering" Fox News moment). Most drafts miss the interior beat entirely.
-- RABBIT HOLE CLEAN: wing (9w8), sp/sx subtype, 6/3 arrows, and the 6/7/3/8 counter-typing ladder all quarantined in the accordion; the body stays person-first and accessible.
-
-- NEEDS WORK (Discoverability): meta_title "Why Kurt Russell Won't Call Himself an Actor" is CTR-clever but drops the search keyword. People search "Kurt Russell enneagram / personality type / type 9" — the meta_title captures none of it (the title field does). This is the single thing keeping Discoverability off a 9.
-- NEEDS WORK (Writing): a couple of contrast-pair traces survive ("not father-son, it's the same person"; "not the studio that misspelled it... Not the awards") and the closing section, while strong, leans on the wine motif the reader already owns from the hook. Both keep Writing just under exceptional.
-
-TO REACH A (9.0+): (1) Rewrite meta_title to carry search intent while keeping the angle — e.g. "Kurt Russell Enneagram: Why He Won't Call Himself an Actor (Type 9)" or "Kurt Russell's Personality Type: The Unbothered Type 9". (2) Vary the two remaining "not X, Y" beats so the contrast engine fully disappears. (3) Trim the final section by ~20% — the tricolon ("Not the studio... Not the awards... Not even the one film") is the payoff; the surrounding restatement of the wine label is the part to cut.
--->
 
 <!-- TESTIMONY LEDGER
 1. Goldie Hawn: "I don't like ownership, you know? And I must say that I think Kurt feels the same way." — People / Entertainment Tonight, 2025

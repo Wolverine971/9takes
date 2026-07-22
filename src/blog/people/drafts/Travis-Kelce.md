@@ -89,8 +89,8 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9
-  enneagram: 8.5
-  evidence: 8.5
+  enneagram: 9
+  evidence: 8
   writing: 8.5
   originality: 8.5
   discoverability: 9
@@ -99,9 +99,12 @@ content_quality:
   rubric_version: 2
   caps_applied: []
   confidence: high
-  anchor: 'Matt-Smith draft (B band; edges into B+)'
+  anchor: 'Matt-Smith draft (B anchor; this draft clears it into B+)'
   needs_review: false
-  graded_at: '2026-07-21'
+  first_overall: 8.6
+  regrade_overall: 8.6
+  grade_stability_delta: 0.0
+  graded_at: '2026-07-22'
 path: src/blog/people/drafts/Travis-Kelce.md
 ---
 

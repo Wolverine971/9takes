@@ -89,15 +89,18 @@ content_quality:
   enneagram: 9
   evidence: 9
   writing: 8.5
-  originality: 9
+  originality: 8.5
   discoverability: 9
-  overall: 8.9
+  overall: 8.8
   letter: B+
   rubric_version: 2
   caps_applied: []
   confidence: high
   anchor: 'Matt-Smith draft (B calibration band)'
   needs_review: false
+  first_overall: 8.9
+  regrade_overall: 8.8
+  grade_stability_delta: 0.1
   graded_at: '2026-07-22'
 path: src/blog/people/drafts/Christopher-Nolan.md
 ---

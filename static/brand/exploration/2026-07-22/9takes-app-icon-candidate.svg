@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">9takes app icon candidate</title>
+  <desc id="desc">Sodium-amber 9t Turn Mark on a deep warm-stone field.</desc>
+  <rect width="1024" height="1024" fill="#0A0807"/>
+  <g transform="translate(132 132) scale(1.484375)">
+    <path
+      fill="#F59E0B"
+      fill-rule="evenodd"
+      transform="translate(-20 -8) scale(1.36)"
+      d="M275 155H320V190H348V215H304V264C304 274 311 279 322 279H348V317H302C274 317 258 300 258 271V211C250 216 243 225 237 235L218 269C207 289 194 304 178 317H107C131 302 150 286 164 268L200 208C220 177 243 158 275 155ZM140 72C177 69 211 87 228 119C235 132 239 147 237 158C219 166 201 182 189 204L162 251C124 257 91 240 72 210C54 181 57 143 70 119C85 93 111 75 140 72ZM145 123C171 121 189 139 188 160C187 183 171 202 149 203C126 204 109 187 109 165C108 143 123 126 145 123Z"
+    />
+  </g>
+</svg>

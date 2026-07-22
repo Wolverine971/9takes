@@ -87,36 +87,23 @@ production_pretext:
 content_quality:
   hook: 9
   enneagram: 8
-  evidence: 9
+  evidence: 8.5
   writing: 8
   originality: 8
   discoverability: 9
-  overall: 8.5
-  letter: 'B+'
+  overall: 8.4
+  letter: 'B'
   rubric_version: 2
   caps_applied: []
   confidence: high
   anchor: 'Matt-Smith (B anchor)'
   needs_review: false
-  graded_at: '2026-07-09'
+  first_overall: 8.5
+  regrade_overall: 8.4
+  grade_stability_delta: 0.1
+  graded_at: '2026-07-22'
 path: src/blog/people/drafts/Madelaine-Petsch.md
 ---
-
-<!-- QUALITY GRADE: B+ (8.5) — rubric v2
-Evidence: 9 | Originality: 8 | Discoverability: 9 | Enneagram: 8 | Writing: 8 | Hook: 9
-Anchor: Matt-Smith (B anchor) | Caps: none | Needs review: false
-Source audit: 9 load-bearing quote units — 1 inline, 8 vague, 0 untagged. The 8 vague tags all resolve to named antecedents in the same section (Call Her Daddy Sept 2025, Angle on Producers 2025); no untagged load-bearing slot to name.
-Interior line: "I'm rageful inside, cuz I'm like, I have to fix it, I have to fix it, I have to fix it. It's okay. I'm just going to move my ankle and sit here and listen to you talk."
-Empathy turn: "The channel gets read as vanity. It ran more like a years-long appeal of a wrongful conviction." (her own wound-vocabulary — verdict/conviction from "I'm not mean, I promise" / "you don't know me"; no house armor-grammar, no cap)
-
-FEEDBACK (2026-07-09):
-- The window-sales cold open ("I would make myself cry and get the husbands to buy windows") is the thesis in miniature — the fixer skill monetized before fame — and lands the 9-hook spec exactly.
-- "Four Phone Calls That Explain Madelaine Petsch" is genuinely bespoke form; the direction-of-the-phone through-line ("The girl in call one waited for love to call back. The woman in call four decides when the line opens.") pays off cleanly in the ending, which passes the swap test.
-- The Feb-2026 Strangers exit read as the first quit of her life ("a category of reason the eight-year-old in Port Orchard was never issued") converts a news beat into the arc's resolution — the strongest analytic move in the piece.
-- Pride is correctly parsed via her own unprompted confession ("probably because I have too much pride"), and 0 contrast pairs across the whole body is rare for this pipeline.
-- NEEDS WORK: (1) Single-episode dependence — the childhood arc, the romance pattern, the motherhood reversal, and the therapy material all trace to one podcast (Call Her Daddy, Sept 2025). For a reader arriving from that episode (it's in the keywords), the personal half reads as a beautifully organized recap; the producer half, built on Angle on Producers + THR + Seattle Times + Moviefone, escapes this. (2) Two typology bleeds in the body: the stress-arrow sentence ("under stress, Twos move toward Type 8...") and the growth-direction framing in the same section are arrow mechanics that belong in the rabbit hole under v2. (3) The 6M subscriber count and 2019 Shorty Award carry no inline source; the Seattle Times exit quote still has the unresolved wire-copy caveat from second pass.
-- TO REACH A: (1) Break the CHD monopoly on the interior material — corroborate the family story or the work pattern with one pre-2025 source (early YouTube-launch interviews, Refinery29-era profiles). (2) Move the Type-8 stress-arrow sentence into the rabbit hole and render the "rageful" beat purely in her vocabulary. (3) Inline-source the subscriber count and Shorty Award; confirm whether the Seattle Times piece is wire copy and fix the attribution. (4) Loosen the monocausal grip once in the work-ethic section — the piece already owns the tool (the motherhood section's "colder reading" move); "For a Two, a packed calendar doubles as proof of position" is where the thesis currently enforces rather than describes.
--->
 
 <!-- TESTIMONY LEDGER
 1. Renny Harlin: "We were just really impressed by her intelligence, by her passion, by her insightfulness, and her charm." — Moviefone interview, 2024

@@ -80,30 +80,24 @@ production_pretext:
   blockers: []
 content_quality:
   hook: 9
-  enneagram: 9
-  evidence: 9
-  writing: 8
-  originality: 9
-  discoverability: 8
-  overall: 8.6
-  letter: B+
+  enneagram: 8.5
+  evidence: 6
+  writing: 6
+  originality: 7
+  discoverability: 7
+  overall: 7.0
+  letter: C
   rubric_version: 2
-  graded_at: '2026-06-15'
+  caps_applied: ['evidence_untraceable_load_bearing', 'originality_sameness', 'contrast_pair_drives_piece']
+  confidence: medium
+  anchor: 'Alex-Warren draft (C calibration band)'
+  needs_review: true
+  first_overall: 8.6
+  regrade_overall: 7.0
+  grade_stability_delta: 1.6
+  graded_at: '2026-07-22'
 path: src/blog/people/drafts/Hailee-Steinfeld.md
 ---
-
-<!-- QUALITY GRADE: B+ (8.6) — rubric v2
-Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 9 | Writing: 8 | Hook: 9
-
-FEEDBACK (2026-06-15):
-- SIGNATURE INSIGHT: The Dickinson beat — "Steinfeld, who cannot cash a nomination the entire world watched, spent three seasons inhabiting the patron saint of unrewarded inner work" — is the originality anchor. It turns a casting fact into the sharpest possible evidence for the worth-wound thesis. This is what makes the piece swap-proof.
-- EMPATHY TURN LANDS: The humblebrag reframe ("It is not a humblebrag. It is the most honest thing she says") plus the heart-triad explanation (applause lands on the output, never the self underneath) is the analytical core. The strike-era inner-thought box ("If I'm not making something, what am I") delivers the felt interior the rubric requires.
-- CLEAN RABBIT HOLE: 3w2, social subtype, 9/6 arrows, and the Type 1 / Type 6 counter-cases all live in the accordion. The body stays accessible — zero counter-typing ladders in the narrative. Textbook quarantine.
-- NEEDS WORK — WRITING CAPPED AT 8: The contrast-pair / negation-correction engine recurs well past the 2-use ceiling: "Not the craft. The screen itself." / "Not panicked. Stunted." / "She does not abandon a lane because she is fickle. She abandons it..." / "It is not a humblebrag. It is..." The trophy/bill version is the thesis and earns its place; thin the others by ~half so the device reads as deliberate punctuation, not a tic.
-- NEEDS WORK — META_TITLE KEYWORD: meta_title "Why Hailee Steinfeld Works Like Her Oscar Didn't Count" is CTR-strong but carries no search keyword. The <title> tag is the SERP lever — consider "Hailee Steinfeld Enneagram: The Type 3 Who Can't Bank a Win" or similar so it matches "[person] enneagram / type 3" intent. Title field and description already carry the keywords, so this is the single thing between Discoverability 8 and 9.
-- TO REACH A (9.0+): (1) Cut ~3 of the contrast-pair constructions to lift Writing off the cap. (2) Make meta_title keyword-forward for Discoverability 9. (3) Optional Evidence boost: promote one unused collaborator quote from the ledger (James L. Brooks "if she hadn't walked in, we wouldn't make the movie" is the strongest) into the body.
--->
-
 
 <!-- WORKING NOTES (non-interactive run)
 - Type call: 3w2, stress arrow to 9 (apathy/creative collapse), growth arrow to 6 (loyalty/security). Confidence: high.
