@@ -1,0 +1,92 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Yang-Zhilin (Type 5)
+/Users/djwayne/9takes/src/blog/people/drafts/Yang-Zhilin.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 46
+Comparison set (last 8 other Type-5 drafts by date):
+  - Christopher-Nolan  (2026-07-22, 43 units)
+  - pinkpantheress  (2026-07-19, 25 units)
+  - warren-buffett  (2026-07-08, 30 units)
+  - steve-martin  (2026-07-04, 38 units)
+  - leonardo-da-vinci  (2026-07-01, 18 units)
+  - john-d-rockefeller  (2026-06-22, 19 units)
+  - jerry-seinfeld  (2026-05-17, 25 units)
+  - ray-dalio  (2026-05-14, 12 units)
+
+Noise floor over 9660 unit pairs:  median=0  p90=0  p99=0.006  max=0.103
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.103   Yang-Zhilin  <->  Christopher-Nolan
+   TARGET [counter-typing] holding nearly one in four of its 68 subjects ( 9takes corpus data ).
+   OTHER  [diagnosis] exactly four type as Fives (9takes corpus data).
+
+score 0.087   Yang-Zhilin  <->  warren-buffett
+   TARGET [diagnosis] Yang Zhilin is an Enneagram Type 5
+   OTHER  [diagnosis] Warren Buffett is the pattern made flesh. - The scarcity economy made literal.
+
+
+Most similar drafts (max unit-pair score):
+  0.103 ####                 Christopher-Nolan
+  0.087 ###                  warren-buffett
+  0.051 ##                   steve-martin
+  0.042 ##                   leonardo-da-vinci
+  0.035 #                    john-d-rockefeller
+  0.028 #                    ray-dalio
+  0.017 #                    pinkpantheress
+  0.016 #                    jerry-seinfeld
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.103   Yang-Zhilin  <->  Christopher-Nolan
+   TARGET [counter-typing] holding nearly one in four of its 68 subjects ( 9takes corpus data ).
+   OTHER  [diagnosis] exactly four type as Fives (9takes corpus data).
+
+score 0.087   Yang-Zhilin  <->  warren-buffett
+   TARGET [diagnosis] Yang Zhilin is an Enneagram Type 5
+   OTHER  [diagnosis] Warren Buffett is the pattern made flesh. - The scarcity economy made literal.
+
+score 0.069   Yang-Zhilin  <->  Christopher-Nolan
+   TARGET [diagnosis] "I don't want to share control of my company" (via TechCrunch
+   OTHER  [diagnosis] "I don't start writing a script until I am firmly in control of the structure of the piece
+
+score 0.068   Yang-Zhilin  <->  warren-buffett
+   TARGET [diagnosis] and the only thing that actually works is the scaling law" (Overseas Unicorn interview
+   OTHER  [diagnosis] They become masters of understanding because understanding is the only thing that makes the world feel manageable.
+
+score 0.052   Yang-Zhilin  <->  warren-buffett
+   TARGET [diagnosis] His worldview compresses to a single axiom
+   OTHER  [diagnosis] Gates was struck by how Buffett pressed him with "amazingly good questions that nobody had ever asked." Schroeder described his mind as defaulting to a single question
+
+score 0.051   Yang-Zhilin  <->  steve-martin
+   TARGET [counter-typing] The serious rival reading is Type 3.
+   OTHER  [diagnosis] The honest counter-case is Type 3
+
+score 0.044   Yang-Zhilin  <->  steve-martin
+   TARGET [counter-typing] and the Achiever case looks live.
+   OTHER  [counter-typing] and the serial reinvention all fit the Achiever cleanly.
+
+score 0.042   Yang-Zhilin  <->  leonardo-da-vinci
+   TARGET [diagnosis] a mind that treats understanding as safety and attention as a budget.
+   OTHER  [diagnosis] the same four behaviors repeat at the scale of genius. - He treated his own attention as a scarce resource and guarded it.
+
+score 0.035   Yang-Zhilin  <->  john-d-rockefeller
+   TARGET [diagnosis] Asked to explain his research philosophy
+   OTHER  [diagnosis] and anyone who asked him to explain himself in public.
+
+score 0.031   Yang-Zhilin  <->  john-d-rockefeller
+   TARGET [diagnosis] Altman narrates his industry in public
+   OTHER  [diagnosis] and anyone who asked him to explain himself in public.
+
+score 0.028   Yang-Zhilin  <->  ray-dalio
+   TARGET [diagnosis] and the only thing that actually works is the scaling law" (Overseas Unicorn interview
+   OTHER  [diagnosis] and that the only thing standing between him and ruin is whether he saw it coming.
+
+score 0.027   Yang-Zhilin  <->  warren-buffett
+   TARGET [diagnosis] His worldview compresses to a single axiom
+   OTHER  [diagnosis] He held his partnership with Charlie Munger for sixty-four years without a single argument
+
+------------------------------------------------------------------------------
+Top pair scores 0.103 vs median 0  (~∞x the noise floor).

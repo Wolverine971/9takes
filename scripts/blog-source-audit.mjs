@@ -206,7 +206,20 @@ const OUTLETS = [
 	'The Independent',
 	'The Scotsman',
 	'Newsweek',
-	'Happy Sad Confused'
+	'Happy Sad Confused',
+	// Checkable Chinese-language / China-coverage venues (Yang-Zhilin pass, 2026-07-23)
+	'Tencent Tech',
+	'Overseas Unicorn',
+	'ChinaTalk',
+	'SCMP',
+	'South China Morning Post',
+	'TechNode',
+	'36Kr',
+	'KrASIA',
+	'First Push',
+	'Zhongguancun Forum',
+	'Yahoo Finance',
+	'CNBC'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

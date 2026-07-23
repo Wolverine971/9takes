@@ -1,0 +1,34 @@
+```
+Frontmatter enrichment complete: Yang-Zhilin
+
+Fields filled:
+- wikidata_qid, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations
+
+Fields already present (preserved):
+- wikipedia (verified correct: en.wikipedia.org/wiki/Yang_Zhilin)
+- faqs (2 substantive entries — strict idempotency, left exactly as-is)
+- lastmod untouched; body and HTML comment blocks untouched
+
+imdb_id: omitted — Wikidata P345 absent (verified via entity JSON); no IMDb presence
+
+FAQs generated (0):
+- none; existing 2 preserved
+
+Issues:
+- birth_date is year-precision only: Wikidata P569 = 1992 (precision 9) and no
+  published source gives month/day, so '1992-01-01' per the year-only convention.
+- Wikidata P19 is actually Chenghai District (a district of Shantou) — used
+  'Shantou, Guangdong, China' to match Wikipedia and the body.
+- faqs has 2 entries but the FAQPage renderer needs ≥2, so JSON-LD will emit;
+  the command's 3–5 target isn't met. Idempotency rule wins, but if you want a
+  3rd FAQ, the natural candidate is the arbitration ("Why did investors take
+  Yang Zhilin to arbitration?") — the body's strongest sub-question.
+- Body contains zero external inline URLs (sources are named parenthetically);
+  citations built from canonical URLs of the body's named sources, all verified
+  live: Wikipedia ×2, The Wire China profile (Sept 2025), LessWrong translated
+  interviews (the Zhang Xiaojun/Tencent Tech quotes), ChinaTalk's Overseas
+  Unicorn translation.
+```
+
+YAML validated post-edit (parses clean, 31 fields) — relevant given the known people-drafts YAML build-break risk.

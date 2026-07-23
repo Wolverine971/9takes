@@ -1,0 +1,27 @@
+Draft complete. Final report:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Yang-Zhilin.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (7 qualifying quotes, 4 named speakers) | Gate 2: pass (6 of 8 H2s search-intent/hybrid) | Gate 4: pass (dialogue-beat hook, zero type-named ending sentences) | Gate 5: pass (0 type-theory paragraphs outside diagnosis + rabbit hole) | Gate 6: pass (0 strong contrast engines, bespoke section, critic anchor, empathy turn, current-tense anchor, ending swap-test)
+LIMITATIONS: transcripts_via_translated_longform_interviews (no English video transcripts exist; used full LessWrong/ChinaTalk translations of his three long Chinese interviews); childhood record thin (acknowledged in-body); band name contested (hedged); arbitration outcome unresolved (stated as such)
+```
+
+**The piece:** Yang Zhilin (Moonshot AI/Kimi founder) as an **Enneagram 5w4**, built on the core tension *lossless ideals vs. chosen losses*. Hook: the white piano with the Pink Floyd record he never noticed at his own front door. The bespoke section is a dialogue autopsy of the one long unguarded interview he's given, where every question about feelings came back as a number (a probability, a headcount). Empathy turn takes the Zhu Xiaohu arbitration head-on, conceding the grievance before reframing it through his own regret-vocabulary. Ends on the album cover's prism, cut to black. Current anchors run through last week's K3 release and the $31.5-50B IPO talk.
+
+**Deterministic checks:** blog-lint **0 fail / 1 warn** (1 comparative contrast, allowed; strong engines = 0). Rabbit hole 461 words with the Type 3 counterargument and the honest anomaly (no textbook Five burns ¥200M/month on ads). None of the T5 avoid-list tics appear.
+
+**One judgment call to flag:** the same-type similarity scan raised its flag at 0.089 vs. Christopher-Nolan, but both surviving pairs are template-mandated strings (the required "X is an Enneagram Type 5" answer sentence and the prescribed "(9takes corpus data)" citation format). Genuine phrase overlaps were rewritten out; the call and evidence are documented in the draft's Formula Fingerprint Ledger.
+
+**Internal links added (7 total):**
+- [Enneagram Type 5] → /enneagram-corner/enneagram-type-5 (TL;DR)
+- [Sam Altman] → /personality-analysis/sam-altman
+- [stress patterns] → /enneagram-corner/enneagram-types-in-stress
+- [Elon Musk] → /personality-analysis/elon-musk
+- [wings] → /enneagram-corner/enneagram-wings-complete-guide (rabbit hole)
+- [instinctual subtypes] → /enneagram-corner/enneagram-instinctual-subtypes (rabbit hole)
+- [9takes corpus data] → /corpus-stats (rabbit hole)
+
+Not auto-promoted to `ready` — human review still required before `blog_content_production_people` runs. Grading is downstream via `/grade_blog`.

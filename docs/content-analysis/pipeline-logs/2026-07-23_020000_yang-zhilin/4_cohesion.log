@@ -1,0 +1,48 @@
+Read the draft (`src/blog/people/drafts/Yang-Zhilin.md` — capitalized filename, exact-name match). This one has already been through fresh-eyes and a second pass, and it shows. Full audit:
+
+## Cohesion Audit: Yang-Zhilin.md
+
+### Central Thesis
+Yang Zhilin is a Type 5 whose "lossless compression" creed looks contradicted by a career of deliberate losses (Apple, his first company, half his users, the model weights) until the profile resolves it: the losses ARE the compression — redundancy cut so the one signal, the work, survives.
+
+### Thread Map
+1. **Cold open (piano/record)** — Establishes the mythology-assembles-around-him pattern, then poses the engine: a lossless believer who keeps choosing losses, "and he has never said what" they buy.
+2. **Diagnosis** — Answers the type question; Altman and Liang Wenfeng contrasts sharpen *which kind* of reclusive founder he is; ends promising "the middle of this story" (the borrowed-style fight). → Forward bridge to sections 5–6.
+3. **Early life** — Chronological rewind; the Apple decision prices regret, PanGu/Wu Dao end on "Neither belonged to him" → plants the founding motive the lawsuit section later cashes.
+4. **Dark side of the moon** — Founding, thesis, and the Kimi-is-his-name reveal, ending "It has never told them anything about him" → hands off cleanly to the one interview that did.
+5. **The interview** — Feelings converted to quantities; names the real fear: the imaginable life.
+6. **¥200M burn** — The borrowed-style fight the diagnosis promised; "The playbook was never his."
+7. **Lawsuit** — "The bill for the founding came due" (strong bridge); holds grievance and explanation together.
+8. **Comeback** — Open weights as the first strategy that behaves like him; **explicitly pays off the intro engine** ("It also settles the question this profile opened on").
+9. **Closer** — K3, IPO, his absence from his own arrival; piano and prism bookend the open.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 10/10 | 0      |
+| Reader Mental Model     | 9/10  | 1      |
+| Section Transitions     | 8/10  | 1      |
+| Internal Paragraph Flow | 9/10  | 0      |
+
+**Overall Cohesion Score: 9/10**
+
+Every thread raised is resolved: the "he has never said what" question, the piano, the "middle of this story" promise, the Kimi-name reveal (echoed in "Both names"), the Liang capital-structure contrast (paid out across the arbitration/ad-war/IPO middle). The prior passes closed all the big loops.
+
+## Fixes Found (1 minor + 1 judgment call)
+
+### Minor (Tightening)
+
+1. **Interview → ¥200M section** is the one seam rated below strong. The interview ends on his fear of "a life small enough to be fully understood" / a dream everyone can imagine; the next section opens cold on "By mid-2024 China's model war had become a marketing war." The strongest available bridge is already in the piece's own vocabulary — the ad blitz was precisely the *imaginable* strategy. Proposed one-clause edit to the topic sentence:
+
+   > Current: "…and Moonshot fought it with money."
+   > Proposed: "…and Moonshot fought it with the one strategy everyone could already imagine: money."
+
+   Carries the keyword across the seam and sharpens the later "The playbook was never his" payoff. No new argument added.
+
+### Remaining Concern (your call, not a cohesion edit)
+
+2. **Salakhutdinov's "What a huge win for the open-source community!" quote** (Fortune, July 2026) buttons the comeback section but is almost certainly a K3 reaction — and K3 isn't revealed until the next section. It reads fine as a general open-source-strategy reaction since the quote doesn't name K3, but if an editor pass touches that section, it's the one sequencing wobble left.
+
+---
+
+Score is 8+, so per the interactive-run rule I'm pausing before touching the file: **want me to apply the one bridge edit?** It's a single-sentence change to the ¥200M section opener; everything else stays untouched.

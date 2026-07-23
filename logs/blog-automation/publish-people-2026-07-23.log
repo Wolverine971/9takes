@@ -1,0 +1,21 @@
+```text
+Publish blocked — no eligible draft.
+
+Person: Yang-Zhilin (only unpublished candidate; auto-select checked 478, rest are already_published)
+Draft: src/blog/people/drafts/Yang-Zhilin.md
+Supabase: not touched
+Generated files: not run (gate blocked before publish)
+
+Blockers:
+- grade_unstable:0.8_delta — first_overall 7.9 → regrade_overall 8.7; gate allows ≤0.3
+- missing_full_image — static/types/5s/Yang-Zhilin.webp does not exist
+- missing_thumbnail_image — static/types/5s/s-Yang-Zhilin.webp does not exist
+```
+
+Everything else on the draft passes: overall 8.7, rubric v2, discoverability 9, no caps, `needs_review: false`, source audit clean, real article body.
+
+To unblock:
+1. **Regrade** — run `/grade_blog` on Yang-Zhilin until the delta converges to ≤0.3. One flag worth knowing: a 7.9 → 8.7 jump on regrade is exactly the regrade-anchoring pattern the July pipeline audit called out, so a blind regrade here is the honest check — it may land below 8.5, not just stabilize above it.
+2. **Images** — generate the hero set with `scripts/gen-blog-image-openrouter.mjs Yang-Zhilin` (produces the webp + s- thumbnail variants), or drop in your own.
+
+Want me to run either of those now?

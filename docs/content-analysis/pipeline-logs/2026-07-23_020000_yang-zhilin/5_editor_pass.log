@@ -1,0 +1,13 @@
+## Editor pass complete: `src/blog/people/drafts/Yang-Zhilin.md`
+
+**Exit checks: `blog-lint` 0 fail / 0 warn · contrast pairs 0 total (was 0 strong / 1 comparative) · 0 em-dashes · 0 banned phrases.**
+
+This draft arrived in unusually good shape — the fresh-eyes and second passes had already done the structural work — so this was a genuine polish pass, not a rescue. Three surgical fixes:
+
+1. **TL;DR comparative contrast killed** — "says more about him than any funding round" became "A man who hides from attention, buying it in bulk," which trades the template for the section's actual irony.
+2. **The #1 AI tell was sitting on the thesis payoff** — "Compression was never about keeping everything. It is about deciding…" (negative parallelism, right where the article cashes out its central question). Rewrote as "A compressor's first move is deletion: decide what counts as signal, discard the rest…" — same argument, direct claim instead of the not-X-but-Y engine.
+3. **De-echoed the ending** — "the one thing he has never been willing to compromise" (trillion-param bet paragraph) was pre-spoiling "the only thing he has never been willing to lose is the work" one paragraph later. Cut the first so the closer lands once.
+
+Deliberately left intact per the protection rules: the dialogue-autopsy interview section, the lawsuit empathy turn, the Apple-offer interior beat, the prism close, and the intentional parallelism ("Ask about the man… Ask about the mission"). `lastmod` untouched.
+
+**Verdict: production-ready on the editorial axis.** One pre-publish item carried forward from the second pass (not an editing issue): re-verify the arbitration outcome, which was still publicly unresolved as of the research date. Notes appended in an `EDITOR PASS NOTES (2026-07-23)` comment at the bottom.

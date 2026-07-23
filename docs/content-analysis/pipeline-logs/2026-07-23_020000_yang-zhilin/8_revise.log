@@ -1,0 +1,25 @@
+## Revision pass complete: Yang-Zhilin
+
+**Trigger:** Grade C (7.9) with the Originality cap at 7 for cross-draft sameness. Lint was already clean, so the whole work list came from the grader.
+
+### Fixes applied → grader items
+
+| Grader item | Fix |
+|---|---|
+| **Fragment-closer metronome** (6 of 8 sections) | 3 sections now end on plain sentences: early-life ("…the output now is intelligence instead of heat"), ¥200M ("…both of his names on the door"), lawsuit ("…while the case he brought stayed open"). Final prism close kept — it passed the ending swap-test and is fresh-eyes protected. |
+| **Reader commands ×4** | Cut 2 exactly as prescribed: "Note the chair he picked" and "Keep the sentence in view for the rest of this profile" rewritten declaratively. Kept "Watch what each answer does" (in the protected dialogue-autopsy section) and the closer's "Read them closely." |
+| **Corpus-stat formula** (3rd consecutive instance) | Rebuilt baseline-first: "Fives are scarce at 8.4 percent; the tech-and-founders shelf is where they concentrate, holding nearly one in four of its 68 subjects." Avoids both the percent-of-N shape *and* Nolan/Smith's N-of-M shape; numbers re-verified against `corpus-stats.json` (16/68). |
+| **Thin FAQ** | 2 → 5: arbitration (backs the orphaned `keywords` entry), Kimi-name, K3 open weights — all anchored to existing section slugs, YAML double-quoted (no `\'` risk). |
+| **Evidence polish** (optional TO REACH) | Liang control quote pinned via TechCrunch's 2025 report; added the checkable Chinese venues (Tencent Tech, Overseas Unicorn, SCMP, TechNode, 36Kr, ChinaTalk, etc.) to `blog-source-audit.mjs` OUTLETS per Nolan-pass precedent. Source audit moved **3 inline / 6 vague → 7 inline / 2 vague / 0 untagged**. |
+
+### Rejected (with reason)
+
+- **Cold-open architecture rebuild** (house move 1) — the prescription requires varying 2 of 4 moves; I varied 3. Hook scored 8.5 and the piano open is a graded strength.
+- **Naming an outlet for "most cited under 35"** — one search found no primary outlet, only Baidu Baike aggregation; the honest in-prose hedge beats a fabricated attribution.
+
+### Status
+
+- Lint: **clean** (0 fail, 0 warn); contrast pairs still 0, no new tells introduced. Ledgers checked — nothing they enumerate changed.
+- Protected strengths untouched: dialogue-autopsy section, lawsuit empathy turn, interior beat, prism close.
+- Revision note appended to the draft. The pipeline will clear the consumed review sidecar and re-grade — per the grader's own math, these fixes target ~8.4–8.5 (B/B+).
+- One pre-publish flag stands (not editorial): re-verify the arbitration outcome before publishing.

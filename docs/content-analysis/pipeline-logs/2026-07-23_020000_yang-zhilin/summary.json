@@ -1,0 +1,15 @@
+{
+	"person": "yang-zhilin",
+	"draft_path": "src/blog/people/drafts/yang-zhilin.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-23_020000_yang-zhilin",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 7.9,
+	"final_overall": 8.7,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.7999999999999989,
+	"has_stage_warnings": true,
+	"generated_at": "2026-07-23T07:00:27.329Z"
+}

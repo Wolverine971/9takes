@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-07-22T06:55:51Z",
+	"lastUpdated": "2026-07-23T07:00:27Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
@@ -382,7 +382,9 @@
 			"addedToQueue": "2026-07-18",
 			"retryCount": 0,
 			"strategicValue": "tech-philosophy-cluster"
-		},
+		}
+	],
+	"completed": [
 		{
 			"name": "yang-zhilin",
 			"displayName": "Yang Zhilin",
@@ -394,10 +396,15 @@
 			"personaTitle": null,
 			"addedToQueue": "2026-07-20",
 			"retryCount": 0,
-			"strategicValue": "frontier-builder"
-		}
-	],
-	"completed": [
+			"strategicValue": "frontier-builder",
+			"startedAt": "2026-07-23T06:00:00Z",
+			"completedAt": "2026-07-23T07:00:27Z",
+			"contentGrade": "8.7",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~60 min",
+			"needsReview": true
+		},
 		{
 			"name": "christopher-nolan",
 			"displayName": "Christopher Nolan",

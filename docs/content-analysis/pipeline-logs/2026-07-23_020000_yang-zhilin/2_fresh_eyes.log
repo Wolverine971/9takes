@@ -1,0 +1,12 @@
+Reviewed `src/blog/people/drafts/Yang-Zhilin.md` and appended the fresh-eyes notes at the bottom (no prior review block existed). No body edits made.
+
+**Biggest issues flagged:**
+
+1. **The central engine doesn't pay off.** The intro sets up the profile's question — the lossless-compression creed vs. a career of chosen losses, "he has never said what the losses are buying" — and the body never explicitly closes the loop. The open-weights comeback section is the natural cash-out (giving away the frontier model is the biggest chosen loss of all) but it never reconnects to the frame.
+2. **Liang Wenfeng is missing.** The draft rebuts "China's Sam Altman," but the comparison a 2026 reader actually carries is DeepSeek's founder — the *other* reclusive Chinese open-weights founder who cratered US chip stocks. The contrast is substantive: Liang rejects outside capital; Yang raised billions, and investor pressure is the entire middle of this story.
+
+Also worth knowing before the next pass: the Rabbit Hole's "no confidant, no named inner circle" claim contradicts the draft's own lawsuit section — Zhang Yutao co-founded both companies with Yang across a decade and held ~14% of Moonshot. And the co-founder roster varies across sources (Wikipedia credits Zhou Xinyu and Wu Yuxin), so the lawsuit section carries a checkable wobble.
+
+The dialogue-autopsy section, the lawsuit section's held ambivalence, and the piano/prism bookends are the keepers — noted as such so the next pass preserves them.
+
+Sources: [Moonshot AI — Wikipedia](https://en.wikipedia.org/wiki/Moonshot_AI), [Who is Zhilin Yang? — The National](https://www.thenationalnews.com/future/technology/2026/07/17/who-is-zhilin-yang-kimi-moonshot-cmu/), [DeepSeek and Moonshot: The AI Labs That Refuse to Be Normal — Recode China AI](https://www.recodechinaai.com/p/deepseek-and-moonshot-the-ai-labs), [China's Moonshot AI chases 'DeepSeek moment' — France24](https://www.france24.com/en/live-news/20260717-china-s-moonshot-ai-chases-deepseek-moment-with-much-hyped-model)
