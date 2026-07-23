@@ -217,22 +217,24 @@ The `static/` directory is served at the site root. Any file at `static/foo.png`
 
 ### Primary logo
 
-| Asset            | Live URL                                                                 | Use                                                |
-| ---------------- | ------------------------------------------------------------------------ | -------------------------------------------------- |
-| **Aero (PNG)** ★ | [https://9takes.com/brand/aero.png](https://9takes.com/brand/aero.png)   | **Primary logo** — header, footer, OG, social meta |
-| Aero (WebP)      | [https://9takes.com/brand/aero.webp](https://9takes.com/brand/aero.webp) | Web-optimized version of the same logo             |
+| Asset                           | Live URL                                                                                                               | Use                                  |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| **Nine-mask production logo** ★ | [https://9takes.com/brand/9takes-nine-mask-logo.png](https://9takes.com/brand/9takes-nine-mask-logo.png)               | Primary optimized 512px public logo  |
+| Nine-mask 512                   | [https://9takes.com/brand/9takes-nine-mask-logo-512.png](https://9takes.com/brand/9takes-nine-mask-logo-512.png)       | Structured data and large placements |
+| Nine-mask 192                   | [https://9takes.com/brand/9takes-nine-mask-logo-192.png](https://9takes.com/brand/9takes-nine-mask-logo-192.png)       | Footer, cards, and compact UI        |
+| Social card                     | [https://9takes.com/brand/9takes-nine-mask-social-card.png](https://9takes.com/brand/9takes-nine-mask-social-card.png) | OG and social fallback image         |
 
-### Secondary brand marks
+### Legacy brand marks (do not use for new work)
 
-| Asset            | Live URL                                                                                   | Use                                      |
-| ---------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------- |
-| Dark Rubix (PNG) | [https://9takes.com/brand/darkRubix.png](https://9takes.com/brand/darkRubix.png)           | Brand icon / mark — celebrity blog pages |
-| Dark Rubix (SVG) | [https://9takes.com/brand/darkRubix.svg](https://9takes.com/brand/darkRubix.svg)           | Vector version                           |
-| Dark Rubix Thick | [https://9takes.com/brand/darkRubixThick.png](https://9takes.com/brand/darkRubixThick.png) | Heavier-stroke variant                   |
-| Nimbus           | [https://9takes.com/brand/nimbus.png](https://9takes.com/brand/nimbus.png)                 | Light variant — poster generator         |
-| Enneagram symbol | [https://9takes.com/enneagram.svg](https://9takes.com/enneagram.svg)                       | Enneagram diagrams                       |
+| Asset            | Live URL                                                                                   | Use                    |
+| ---------------- | ------------------------------------------------------------------------------------------ | ---------------------- |
+| Dark Rubix (PNG) | [https://9takes.com/brand/darkRubix.png](https://9takes.com/brand/darkRubix.png)           | Retired cube mark      |
+| Dark Rubix (SVG) | [https://9takes.com/brand/darkRubix.svg](https://9takes.com/brand/darkRubix.svg)           | Vector version         |
+| Dark Rubix Thick | [https://9takes.com/brand/darkRubixThick.png](https://9takes.com/brand/darkRubixThick.png) | Heavier-stroke variant |
+| Nimbus           | [https://9takes.com/brand/nimbus.png](https://9takes.com/brand/nimbus.png)                 | Retired poster mark    |
+| Enneagram symbol | [https://9takes.com/enneagram.svg](https://9takes.com/enneagram.svg)                       | Enneagram diagrams     |
 
-### Logo color variants (use sparingly — `aero` is the default)
+### Legacy logo color variants
 
 | Asset      | Live URL                                                                           | Tint        |
 | ---------- | ---------------------------------------------------------------------------------- | ----------- |
@@ -242,9 +244,9 @@ The `static/` directory is served at the site root. Any file at `static/foo.png`
 | Polar      | [https://9takes.com/brand/polar.png](https://9takes.com/brand/polar.png)           | Cool / icy  |
 | Rock Rubix | [https://9takes.com/brand/rock-rubix.png](https://9takes.com/brand/rock-rubix.png) | Textured    |
 
-### Greek face icon set (★ signature mark — NEW system)
+### Superseded Greek face exploration
 
-The new icon direction. Use these for app icons, favicons, and small-format brand moments where the Aero logo is too detailed to read.
+These files document the exploration that preceded the approved nine-mask mark. Do not use them as the current logo.
 
 | Asset                              | Live URL                                                                                                                         | Use                           |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
@@ -260,13 +262,15 @@ The new icon direction. Use these for app icons, favicons, and small-format bran
 
 ### Favicons & app icons
 
-| Size        | Live URL                                                                                                   |
-| ----------- | ---------------------------------------------------------------------------------------------------------- |
-| 16×16       | [https://9takes.com/brand/favicon-16x16.png](https://9takes.com/brand/favicon-16x16.png)                   |
-| 32×32       | [https://9takes.com/brand/favicon-32x32.png](https://9takes.com/brand/favicon-32x32.png)                   |
-| Apple Touch | [https://9takes.com/brand/apple-touch-icon.png](https://9takes.com/brand/apple-touch-icon.png)             |
-| Android 192 | [https://9takes.com/brand/android-chrome-192x192.png](https://9takes.com/brand/android-chrome-192x192.png) |
-| Android 512 | [https://9takes.com/brand/android-chrome-512x512.png](https://9takes.com/brand/android-chrome-512x512.png) |
+| Size         | Live URL                                                                                                                     |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| 16×16        | [https://9takes.com/brand/favicon-nine-mask-16x16.png](https://9takes.com/brand/favicon-nine-mask-16x16.png)                 |
+| 32×32        | [https://9takes.com/brand/favicon-nine-mask-32x32.png](https://9takes.com/brand/favicon-nine-mask-32x32.png)                 |
+| 48×48        | [https://9takes.com/brand/favicon-nine-mask-48x48.png](https://9takes.com/brand/favicon-nine-mask-48x48.png)                 |
+| Apple Touch  | [https://9takes.com/brand/apple-touch-icon-nine-mask.png](https://9takes.com/brand/apple-touch-icon-nine-mask.png)           |
+| PWA 192      | [https://9takes.com/brand/app-icon-nine-mask-192.png](https://9takes.com/brand/app-icon-nine-mask-192.png)                   |
+| PWA 512      | [https://9takes.com/brand/app-icon-nine-mask-512.png](https://9takes.com/brand/app-icon-nine-mask-512.png)                   |
+| PWA Maskable | [https://9takes.com/brand/app-icon-nine-mask-maskable-512.png](https://9takes.com/brand/app-icon-nine-mask-maskable-512.png) |
 
 ---
 
@@ -428,7 +432,7 @@ Empty space should feel like the void around a streetlamp. Default backgrounds a
 
 - Background: `--stone-warm` (`#241D17`) — slightly lifted from full void
 - 1px `--stone-edge` border, inset 16px
-- Top-left: aero logo (https://9takes.com/brand/aero.png) at ~80px tall
+- Top-left: nine-mask logo (https://9takes.com/brand/9takes-nine-mask-logo-192.png) at ~80px tall
 - Mono coordinate strip across the top: `§ ARTICLE · 2026-05-09 · ENNEAGRAM` in `--ink-dim`
 - Headline: Inter 800, ~52px, `--ink-bright` with one accent word in `--lamp-glow`
 - Optional subject image right-third, chiaroscuro lit
@@ -479,11 +483,9 @@ Error             #EF4444
 
 Pull these from the live URLs and upload to Canva:
 
-- `https://9takes.com/brand/aero.png` — primary logo
-- `https://9takes.com/brand/darkRubix.png` — brand mark
-- `https://9takes.com/brand/concepts/icon-3a-greek-face-512.png` — Greek face icon (new direction)
-- `https://9takes.com/brand/concepts/icon-3b-greek-reader-512.png` — Greek reader variant
-- `https://9takes.com/brand/concepts/icon-4-marble-nine.svg` — Marble Nine numeral
+- `https://9takes.com/brand/9takes-nine-mask-logo.png` — primary logo
+- `https://9takes.com/brand/9takes-nine-mask-logo-512.png` — large raster
+- `https://9takes.com/brand/9takes-nine-mask-social-card.png` — social card
 
 ### 9d. Upload to Brand Kit → Photos / Graphics
 
@@ -506,7 +508,7 @@ Build and save these as Canva templates:
 5. **OG / blog social card** (1200×630)
 6. **Personality analysis poster** (1080×1920)
 
-Each template should ship with: dark background, hairline border inset, mono kicker placeholder, Inter 800 headline placeholder, and an aero logo locked to the bottom-right.
+Each template should ship with: dark background, hairline border inset, mono kicker placeholder, Inter 800 headline placeholder, and the nine-mask logo locked to the bottom-right.
 
 ---
 
@@ -561,7 +563,7 @@ Run through this list. If any answer is "no," fix before shipping.
 7. ☐ Is there chiaroscuro contrast (light-pool against shadow), not flat fill?
 8. ☐ Does it avoid the "What we are NOT" list in §1? (No SaaS minimalist, no wellness softness, no Solo Leveling neon, no MBTI cartoon.)
 9. ☐ Does the copy use "you" (2nd person), strong verbs, and the Hook → Insight → Action rhythm?
-10. ☐ If there's a logo, is it `aero.png` (default) — not the old purple variants?
+10. ☐ If there’s a logo, is it the approved nine-mask mark—not Aero, the cube, or an exploration asset?
 
 ---
 

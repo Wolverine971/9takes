@@ -470,7 +470,7 @@ This is a solid B+ draft that's one revision away from something memorable. The 
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
+          "url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png"
         },
         "sameAs": [
           "https://www.instagram.com/9takesdotcom/",

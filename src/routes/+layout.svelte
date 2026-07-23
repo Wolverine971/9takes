@@ -580,15 +580,19 @@
 </script>
 
 <svelte:head>
-	<link rel="manifest" href="/site.webmanifest" />
-	<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon-v2.png" />
+	<link rel="manifest" href="/site.webmanifest?v=20260722" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon-nine-mask.png" />
 	<meta
 		name="viewport"
 		content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
 	/>
 	<meta name="theme-color" content="#0C0A09" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-title" content="9takes" />
 	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="application-name" content="9takes" />
+	<meta name="msapplication-TileColor" content="#0a0807" />
+	<meta name="msapplication-TileImage" content="/brand/app-icon-nine-mask-192.png" />
 	<meta name="color-scheme" content="dark light" />
 	{@html `<script>(function(){try{var stored=localStorage.getItem('9takes-theme');var effective=stored==='light'||stored==='dark'?stored:(window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');var root=document.documentElement;root.classList.toggle('light',effective==='light');root.classList.toggle('dark',effective==='dark');root.dataset.theme=effective;root.style.colorScheme=effective;var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content',effective==='light'?'#FAFAF9':'#0C0A09');}catch{}})()</script>`}
 
@@ -612,7 +616,7 @@
 				founder: { '@id': AUTHOR_DJ_WAYNE_ID },
 				logo: {
 					'@type': 'ImageObject',
-					url: 'https://9takes.com/brand/aero.png',
+					url: 'https://9takes.com/brand/9takes-nine-mask-logo-512.png',
 					width: 512,
 					height: 512
 				},

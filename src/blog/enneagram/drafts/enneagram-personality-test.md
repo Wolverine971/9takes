@@ -148,7 +148,7 @@ _Give your take, unlock everyone else’s._ 9takes is the metabolic gym for pers
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
+          "url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png"
         }
       }
     },

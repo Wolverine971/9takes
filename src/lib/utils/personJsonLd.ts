@@ -262,7 +262,7 @@ function buildPublisherNode(): JsonLdNode {
 		url: 'https://9takes.com/',
 		logo: {
 			'@type': 'ImageObject',
-			url: 'https://9takes.com/brand/darkRubix.png',
+			url: 'https://9takes.com/brand/9takes-nine-mask-logo-512.png',
 			width: 512,
 			height: 512
 		},

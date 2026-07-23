@@ -8,7 +8,7 @@ const CACHE_CONTROL = 'public, max-age=86400, s-maxage=604800, stale-while-reval
 const STATIC_ROOT = path.resolve('static');
 const ALLOWED_PATH_PREFIX = '/types/';
 const ALLOWED_EXTENSION = /\.(?:png|webp|jpe?g)$/i;
-const FALLBACK_IMAGE_PATH = '/brand/aero.png';
+const FALLBACK_IMAGE_PATH = '/brand/9takes-nine-mask-social-card.png';
 const MAX_CONVERTED_IMAGE_CACHE_ENTRIES = 256;
 const convertedImageCache = new Map<string, Buffer>();
 

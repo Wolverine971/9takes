@@ -65,7 +65,7 @@ path: src/blog/guides/guide-to-fighting-depression.md
 	        ],
 	        "logo": {
 	          "@type": "ImageObject",
-	          "url": "https://9takes.com/brand/aero.png"
+	          "url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png"
 	        }
       },
       "datePublished": "2025-05-22",

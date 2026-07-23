@@ -368,7 +368,9 @@
 
 	const canonicalUrl = $derived(`https://9takes.com/enneagram-corner/subtopic/${subsection}`);
 	const shareImage = $derived(
-		meta.pic ? `https://9takes.com/blogs/${meta.pic}.webp` : 'https://9takes.com/brand/aero.png'
+		meta.pic
+			? `https://9takes.com/blogs/${meta.pic}.webp`
+			: 'https://9takes.com/brand/9takes-nine-mask-social-card.png'
 	);
 	const shareImageAlt = $derived(meta.pic ? meta.pic.split('-').join(' ') : meta.title);
 
@@ -412,7 +414,7 @@
 				name: '9takes',
 				logo: {
 					'@type': 'ImageObject',
-					url: 'https://9takes.com/brand/aero.png'
+					url: 'https://9takes.com/brand/9takes-nine-mask-logo-512.png'
 				},
 				sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom']
 			},

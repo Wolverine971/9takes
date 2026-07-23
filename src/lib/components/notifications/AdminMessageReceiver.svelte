@@ -55,7 +55,7 @@
 		if ('Notification' in window && Notification.permission === 'granted') {
 			new Notification(`${type} from Admin`, {
 				body: message.content,
-				icon: '/favicon.png',
+				icon: '/brand/app-icon-nine-mask-192.png',
 				tag: 'admin-message'
 			});
 		}

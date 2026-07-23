@@ -68,7 +68,7 @@ path: src/blog/guides/drafts/how-to-get-along-with-your-relatives.md
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
+          "url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png"
         }
       }
     }

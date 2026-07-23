@@ -319,7 +319,7 @@ That moment is the most himself the camera has ever caught him.
         "sameAs": ["https://www.instagram.com/9telepathtakes/", "https://twitter.com/9telepathtakes"],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
+          "url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png"
         },
         "name": "9takes"
       }

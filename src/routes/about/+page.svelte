@@ -28,7 +28,7 @@
 		property="og:description"
 		content="9takes shows how different Enneagram types read the same situation after you give your own take first."
 	/>
-	<meta property="og:image" content="https://9takes.com/brand/aero.png" />
+	<meta property="og:image" content="https://9takes.com/brand/9takes-nine-mask-social-card.png" />
 	<meta property="og:image:alt" content="9takes brand mark" />
 	<meta property="og:url" content="https://9takes.com/about" />
 	<meta property="og:type" content="website" />
@@ -43,7 +43,7 @@
 		name="twitter:description"
 		content="Give your real take first. Then compare how nine Enneagram types read the same situation."
 	/>
-	<meta name="twitter:image" content="https://9takes.com/brand/aero.png" />
+	<meta name="twitter:image" content="https://9takes.com/brand/9takes-nine-mask-social-card.png" />
 	<meta name="twitter:image:alt" content="9takes brand mark" />
 
 	<!-- Structured Data for Person and Organization -->
@@ -63,7 +63,7 @@
 				"url": "https://9takes.com",
 				"logo": {
 					"@type": "ImageObject",
-					"url": "https://9takes.com/brand/aero.png",
+					"url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png",
 					"width": 512,
 					"height": 512
 				},

@@ -225,23 +225,24 @@ All shadows are dark/black-based (NOT light/gray) because of the dark theme:
 
 ### Primary Logo
 
-- **File**: `aero.webp` / `aero.png` - blue-tinted logo, used in header/footer
+- **File**: `9takes-nine-mask-logo.png` - nine expressive masks in an amber 3×3 frame
+- Use `9takes-nine-mask-logo-192.png` for compact UI placements and `9takes-nine-mask-logo-512.png` for structured data
 - Use on dark backgrounds
 
-### Secondary Brand Mark
+### Social Card
 
-- **Dark Rubix**: `darkRubix.png` - dark cube icon, used on celebrity blog pages
+- **File**: `9takes-nine-mask-social-card.png` - 1200×630 branded fallback for OG and Twitter metadata
 
 ### Logo Variants (available for different contexts)
 
-| Name    | File          | Description         |
-| ------- | ------------- | ------------------- |
-| Aero    | `aero.png`    | Primary - blue tint |
-| Aria    | `aria.png`    | Pink/rose variant   |
-| Fresco  | `fresco.png`  | Warm variant        |
-| Nimbus  | `nimbus.png`  | Cloud/light variant |
-| Oceanic | `oceanic.png` | Teal variant        |
-| Polar   | `polar.png`   | Cool/icy variant    |
+| Name    | File          | Description                  |
+| ------- | ------------- | ---------------------------- |
+| Aero    | `aero.png`    | Legacy — retired primary     |
+| Aria    | `aria.png`    | Pink/rose variant            |
+| Fresco  | `fresco.png`  | Warm variant                 |
+| Nimbus  | `nimbus.png`  | Legacy — retired poster mark |
+| Oceanic | `oceanic.png` | Teal variant                 |
+| Polar   | `polar.png`   | Cool/icy variant             |
 
 ### Enneagram Symbol
 

@@ -52,7 +52,13 @@
 			<!-- Brand Section -->
 			<div class="brand-section">
 				<div class="brand-logo">
-					<img src="/brand/aero.webp" alt="9takes Logo" height="48" width="48" loading="lazy" />
+					<img
+						src="/brand/9takes-nine-mask-logo-192.png"
+						alt="9takes nine-mask logo"
+						height="48"
+						width="48"
+						loading="lazy"
+					/>
 					<span class="brand-name">9takes</span>
 				</div>
 				<!-- Locked brand one-liner (brand-positioning.md) — the previous blurb

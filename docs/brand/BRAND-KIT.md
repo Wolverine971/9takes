@@ -123,43 +123,48 @@ Used only in admin code editors and markdown editing. Not needed for marketing m
 
 ### Primary Logo (ACTUALLY USED)
 
-| File                 | Path                     | Usage                                   |
-| -------------------- | ------------------------ | --------------------------------------- |
-| **Aero Logo (WebP)** | `static/brand/aero.webp` | **Header & Footer - the main logo**     |
-| **Aero Logo (PNG)**  | `static/brand/aero.png`  | OG images, social meta, structured data |
+| File                          | Path                                            | Usage                                     |
+| ----------------------------- | ----------------------------------------------- | ----------------------------------------- |
+| **Nine-mask production logo** | `static/brand/9takes-nine-mask-logo.png`        | Canonical optimized 512px public source   |
+| **Nine-mask 512**             | `static/brand/9takes-nine-mask-logo-512.png`    | Structured data and large logo placements |
+| **Nine-mask 192**             | `static/brand/9takes-nine-mask-logo-192.png`    | Footer, cards, and compact UI branding    |
+| **Nine-mask social card**     | `static/brand/9takes-nine-mask-social-card.png` | OG and social fallback image              |
 
-### Secondary Brand Marks (ACTUALLY USED)
+### Secondary Brand Marks
 
-| File             | Path                         | Usage                       |
-| ---------------- | ---------------------------- | --------------------------- |
-| Dark Rubix (PNG) | `static/brand/darkRubix.png` | Celebrity/people blog pages |
-| Nimbus           | `static/brand/nimbus.png`    | Poster generator            |
-| Enneagram Symbol | `static/enneagram.svg`       | Enneagram diagrams          |
+| File             | Path                   | Usage              |
+| ---------------- | ---------------------- | ------------------ |
+| Enneagram Symbol | `static/enneagram.svg` | Enneagram diagrams |
 
-### Logo Color Variants (Available)
+### Legacy Logo Variants (Do Not Use for New Work)
 
 All in `static/brand/`:
-| Name | File | Description |
-|------|------|-------------|
-| Aero | `aero.png` / `aero.webp` | **Primary - blue tint** |
-| Aria | `aria.png` | Pink/rose variant |
-| Fresco | `fresco.png` | Warm variant |
-| Nimbus | `nimbus.png` | Cloud/light variant |
-| Oceanic | `oceanic.png` | Teal variant |
-| Polar | `polar.png` | Cool/icy variant |
-| Dark Rubix | `darkRubix.png` / `.svg` / `.webp` | Dark cube icon |
-| Rock Rubix | `rock-rubix.png` | Textured variant |
+
+| Name       | File                               | Description         |
+| ---------- | ---------------------------------- | ------------------- |
+| Aero       | `aero.png` / `aero.webp`           | Retired primary     |
+| Aria       | `aria.png`                         | Pink/rose variant   |
+| Fresco     | `fresco.png`                       | Warm variant        |
+| Nimbus     | `nimbus.png`                       | Retired poster mark |
+| Oceanic    | `oceanic.png`                      | Teal variant        |
+| Polar      | `polar.png`                        | Cool/icy variant    |
+| Dark Rubix | `darkRubix.png` / `.svg` / `.webp` | Retired cube icon   |
+| Rock Rubix | `rock-rubix.png`                   | Textured variant    |
 
 ### Favicons & App Icons
 
 All in `static/brand/`:
-| Size | File |
-|------|------|
-| 16x16 | `favicon-16x16.png` |
-| 32x32 | `favicon-32x32.png` |
-| Apple Touch | `apple-touch-icon.png` |
-| Android 192 | `android-chrome-192x192.png` |
-| Android 512 | `android-chrome-512x512.png` |
+
+| Size             | File                                  |
+| ---------------- | ------------------------------------- |
+| 16x16            | `favicon-nine-mask-16x16.png`         |
+| 32x32            | `favicon-nine-mask-32x32.png`         |
+| 48x48            | `favicon-nine-mask-48x48.png`         |
+| ICO              | `static/favicon-nine-mask.ico`        |
+| Apple Touch      | `apple-touch-icon-nine-mask.png`      |
+| PWA 192          | `app-icon-nine-mask-192.png`          |
+| PWA 512          | `app-icon-nine-mask-512.png`          |
+| PWA Maskable 512 | `app-icon-nine-mask-maskable-512.png` |
 
 ### NOT Used (Legacy Files)
 
@@ -316,9 +321,9 @@ Upload these files to Canva Brand Kit:
 
 **Logos:**
 
-- `static/brand/aero.png` (Main logo - blue tint)
-- `static/brand/darkRubix.png` (Icon/mark)
-- `static/brand/nimbus.png` (Light variant)
+- `static/brand/9takes-nine-mask-logo.png` (canonical master)
+- `static/brand/9takes-nine-mask-logo-512.png` (large raster)
+- `static/brand/9takes-nine-mask-social-card.png` (social sharing)
 
 **Graphics:**
 
@@ -371,16 +376,9 @@ For quick Canva setup, gather these files from `static/brand/`:
 
 **Logos (Required):**
 
-- [ ] `aero.png` - Main logo (blue tint)
-- [ ] `darkRubix.png` - Brand icon/mark
-
-**Logo Variants (Optional):**
-
-- [ ] `nimbus.png` - Light/cloud variant
-- [ ] `aria.png` - Pink/rose variant
-- [ ] `oceanic.png` - Teal variant
-- [ ] `fresco.png` - Warm variant
-- [ ] `polar.png` - Cool/icy variant
+- [ ] `9takes-nine-mask-logo.png` - canonical master
+- [ ] `9takes-nine-mask-logo-512.png` - large raster
+- [ ] `9takes-nine-mask-social-card.png` - OG/social card
 
 **Fonts (from `static/fonts/`):**
 

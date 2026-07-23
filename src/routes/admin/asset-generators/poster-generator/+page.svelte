@@ -428,8 +428,7 @@
 							bind:value={question}
 							class="input textarea"
 							rows="3"
-							placeholder="Enter your question..."
-						></textarea>
+							placeholder="Enter your question..."></textarea>
 
 						{#if data.questions && data.questions.length > 0}
 							<Button
@@ -696,7 +695,11 @@
 						<!-- Logo -->
 						{#if showLogo}
 							<div class="poster-logo">
-								<img src="/brand/nimbus.png" alt="9takes" class="logo-img" />
+								<img
+									src="/brand/9takes-nine-mask-logo-192.png"
+									alt="9takes nine-mask logo"
+									class="logo-img"
+								/>
 								<span class="logo-text">9takes</span>
 							</div>
 						{/if}

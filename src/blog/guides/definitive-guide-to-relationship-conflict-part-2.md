@@ -48,7 +48,7 @@ internal and external conflict
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
+          "url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png"
         }
       },
       "datePublished": "2023-08-24",

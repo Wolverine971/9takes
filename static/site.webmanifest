@@ -1,19 +1,19 @@
 {
 	"icons": [
 		{
-			"src": "/brand/app-icon-192.png",
+			"src": "/brand/app-icon-nine-mask-192.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any"
 		},
 		{
-			"src": "/brand/app-icon-512.png",
+			"src": "/brand/app-icon-nine-mask-512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any"
 		},
 		{
-			"src": "/brand/app-icon-maskable-512.png",
+			"src": "/brand/app-icon-nine-mask-maskable-512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "maskable"

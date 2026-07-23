@@ -268,7 +268,7 @@ To understand which intelligence center you operate from, start with [the Enneag
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
+          "url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png"
         }
       },
       "datePublished": "2026-02-06",

@@ -186,8 +186,8 @@
 		{#if showIcon}
 			<img
 				class="drop-shadow-white mt-2 w-8 filter"
-				src="brand/darkRubix.webp"
-				alt="rubix cube"
+				src="/brand/9takes-nine-mask-logo-192.png"
+				alt="9takes nine-mask logo"
 				loading="lazy"
 			/>
 		{/if}

@@ -28,7 +28,7 @@
 	// SERP-budgeted variants - only constrain the snippet-facing tags.
 	let serpTitle = $derived(capTitleForSnippet(formattedTitle));
 	let serpDescription = $derived(capDescriptionForSnippet(description || seoTitle || articleTitle));
-	const defaultShareImage = 'https://9takes.com/brand/aero.png';
+	const defaultShareImage = 'https://9takes.com/brand/9takes-nine-mask-social-card.png';
 	let shareImage = $derived(
 		data?.picGroup?.length
 			? buildSocialImageUrl(data.picGroup[0].image)
@@ -43,6 +43,8 @@
 				? data.pic.split('-').join(' ')
 				: articleTitle || '9takes'
 	);
+	let shareImageWidth = $derived(data?.picGroup?.length ? '560' : data?.pic ? '900' : '1200');
+	let shareImageHeight = $derived(data?.picGroup?.length ? '560' : data?.pic ? '900' : '630');
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 	let canonicalUrl = $derived(`https://9takes.com/${slug}`);
@@ -170,7 +172,7 @@
 			url: 'https://9takes.com/',
 			logo: {
 				'@type': 'ImageObject',
-				url: 'https://9takes.com/brand/darkRubix.png'
+				url: 'https://9takes.com/brand/9takes-nine-mask-logo-512.png'
 			},
 			sameAs: PUBLISHER_SAME_AS
 		},
@@ -211,8 +213,8 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content={canonicalUrl} />
 	<meta property="og:image" content={shareImage} />
-	<meta property="og:image:width" content="900" />
-	<meta property="og:image:height" content="900" />
+	<meta property="og:image:width" content={shareImageWidth} />
+	<meta property="og:image:height" content={shareImageHeight} />
 	<meta property="og:image:alt" content={shareImageAlt} />
 	<meta property="og:locale" content="en_US" />
 

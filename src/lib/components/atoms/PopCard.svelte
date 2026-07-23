@@ -213,7 +213,12 @@
 	<!-- Content container positioned at bottom -->
 	<div class="image-card__content">
 		{#if showIcon}
-			<img class="image-card__icon" src="brand/darkRubix.webp" alt="rubix cube" loading="lazy" />
+			<img
+				class="image-card__icon"
+				src="/brand/9takes-nine-mask-logo-192.png"
+				alt="9takes nine-mask logo"
+				loading="lazy"
+			/>
 		{/if}
 
 		<div class="image-card__text">

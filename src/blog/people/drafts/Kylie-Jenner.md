@@ -464,7 +464,7 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
+          "url": "https://9takes.com/brand/9takes-nine-mask-logo-512.png"
         },
         "sameAs": [
           "https://www.instagram.com/9takesdotcom/",
