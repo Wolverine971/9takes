@@ -79,10 +79,10 @@ This is a raster identity direction. If approved, the next production phase shou
 
 ## Current files
 
-- `static/brand/exploration/2026-07-22/mask-wall-v4/route-a-nine-mask-cabinet.png`
-- `static/brand/exploration/2026-07-22/mask-wall-v4/route-b-mask-mosaic.png`
-- `static/brand/exploration/2026-07-22/mask-wall-v4/route-c-calm-mask-mosaic.png`
-- `static/brand/exploration/2026-07-22/mask-wall-v4/9takes-mask-mosaic-app-icon-candidate.png`
+- `source-assets/brand/exploration/2026-07-22/mask-wall-v4/route-a-nine-mask-cabinet.png`
+- `source-assets/brand/exploration/2026-07-22/mask-wall-v4/route-b-mask-mosaic.png`
+- `source-assets/brand/exploration/2026-07-22/mask-wall-v4/route-c-calm-mask-mosaic.png`
+- `source-assets/brand/exploration/2026-07-22/mask-wall-v4/9takes-mask-mosaic-app-icon-candidate.png`
 - small-size tests at 32, 64, 128, 192, and 512 pixels in the same folder.
 
 ## Generation record

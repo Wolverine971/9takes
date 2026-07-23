@@ -136,8 +136,8 @@ The symbol passes monochrome, reverse, and 16/32/64 px rendering tests. Its open
 
 ### Candidate files
 
-- `static/brand/exploration/2026-07-22/agora-v2/9takes-across-time-mark.svg`
-- `static/brand/exploration/2026-07-22/agora-v2/9takes-across-time-mark.png`
-- `static/brand/exploration/2026-07-22/agora-v2/9takes-across-time-concept-board.png`
+- `source-assets/brand/exploration/2026-07-22/agora-v2/9takes-across-time-mark.svg`
+- `source-assets/brand/exploration/2026-07-22/agora-v2/9takes-across-time-mark.png`
+- `source-assets/brand/exploration/2026-07-22/agora-v2/9takes-across-time-concept-board.png`
 
 All generated exploration sheets are preserved in the same folder. Live logo and app-icon references remain unchanged.

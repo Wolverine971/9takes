@@ -6,7 +6,8 @@ import sharp from 'sharp';
 const root = resolve(import.meta.dirname, '..');
 const brandDirectory = resolve(root, 'static/brand');
 const approvedLogoPath = resolve(
-	brandDirectory,
+	root,
+	'source-assets/brand',
 	'exploration/2026-07-22/mask-logo-carousel-v1/9takes-nine-face-slot-logo-v1.png'
 );
 const appIconSource = await readFile(approvedLogoPath);

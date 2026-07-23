@@ -19,3 +19,5 @@ unused-css-report.json
 unused-selectors-report.json
 unused-selectors-report.json
 .env*.local
+
+source-assets

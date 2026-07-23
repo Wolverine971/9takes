@@ -302,7 +302,7 @@ Only after expressions are approved, test whether the three centers receive subt
 
 ## Study 01 implementation — July 22, 2026
 
-The first controlled expression set is saved in [`static/brand/exploration/2026-07-22/mask-expression-v5/`](../../static/brand/exploration/2026-07-22/mask-expression-v5/).
+The first controlled expression set is saved in [`source-assets/brand/exploration/2026-07-22/mask-expression-v5/`](../../source-assets/brand/exploration/2026-07-22/mask-expression-v5/).
 
 Production followed the intended identity-lock method:
 

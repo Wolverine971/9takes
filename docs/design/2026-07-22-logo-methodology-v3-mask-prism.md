@@ -148,10 +148,10 @@ The vector is deterministic rather than AI-counted: it contains exactly nine ins
 
 Files:
 
-- `static/brand/exploration/2026-07-22/mask-v3/9takes-nine-voice-agora.svg`
-- `static/brand/exploration/2026-07-22/mask-v3/9takes-nine-voice-agora.png`
-- `static/brand/exploration/2026-07-22/mask-v3/9takes-nine-voice-agora-board.svg`
-- `static/brand/exploration/2026-07-22/mask-v3/9takes-nine-voice-agora-board.png`
+- `source-assets/brand/exploration/2026-07-22/mask-v3/9takes-nine-voice-agora.svg`
+- `source-assets/brand/exploration/2026-07-22/mask-v3/9takes-nine-voice-agora.png`
+- `source-assets/brand/exploration/2026-07-22/mask-v3/9takes-nine-voice-agora-board.svg`
+- `source-assets/brand/exploration/2026-07-22/mask-v3/9takes-nine-voice-agora-board.png`
 
 ### Current score
 

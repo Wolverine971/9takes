@@ -166,8 +166,8 @@ The candidate passes the monochrome, 16/32/64 px, reverse-color, and square/squi
 
 ### Candidate files
 
-- `static/brand/exploration/2026-07-22/9takes-9t-turn-mark-candidate.svg`
-- `static/brand/exploration/2026-07-22/9takes-app-icon-candidate.svg`
-- `static/brand/exploration/2026-07-22/9takes-logo-candidate-board.svg`
+- `source-assets/brand/exploration/2026-07-22/9takes-9t-turn-mark-candidate.svg`
+- `source-assets/brand/exploration/2026-07-22/9takes-app-icon-candidate.svg`
+- `source-assets/brand/exploration/2026-07-22/9takes-logo-candidate-board.svg`
 
 No live icon references were changed in this round. Approval of the symbol comes before asset replacement.
