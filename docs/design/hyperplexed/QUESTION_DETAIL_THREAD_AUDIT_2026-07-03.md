@@ -106,6 +106,12 @@ Post-fix verification:
 - Fixture-backed browser verification confirmed the delayed card appears on desktop with no console
   errors or horizontal overflow, while the same entry route leaves the nudge absent at 390x844.
   Capture: `/private/tmp/9takes-share-nudge-desktop.png`.
+- The follow-up robustness pass clears pending nudge state before client navigation, falls back to
+  clipboard when native sharing fails for a non-cancel reason, gives copy failures an error tone,
+  filters malformed AI type rows, and adds an explicit reduced-motion-safe disclosure chevron.
+  Browser verification exercised the failed-native-share fallback on desktop and reconfirmed no
+  mobile nudge or overflow. Captures: `/private/tmp/9takes-doublecheck-question-share-desktop.png`
+  and `/private/tmp/9takes-doublecheck-question-mobile.png`.
 
 ## Tier 3 - polish/signature (motion/effects, at most one per surface)
 

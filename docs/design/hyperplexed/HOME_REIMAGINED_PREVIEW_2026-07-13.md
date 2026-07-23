@@ -278,6 +278,10 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
   discussion doorway rendered at 1440x1000 and 390x844, both widths held zero horizontal overflow,
   and both browser consoles stayed empty. Captures: `/private/tmp/9takes-desktop-reveal.png` and
   `/private/tmp/9takes-mobile-reveal.png`.
+- Follow-up verification fixed the discussion-open analytics event on the rendered link, removed an
+  unused reveal selector, and confirmed keyboard navigation, dark desktop, light mobile, and reduced
+  motion. The 2026-07-22 captures are `/private/tmp/9takes-doublecheck-home-dark-desktop.png` and
+  `/private/tmp/9takes-doublecheck-home-light-mobile.png`.
 
 ## Screenshots
 
