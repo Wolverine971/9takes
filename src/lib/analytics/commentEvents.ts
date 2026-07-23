@@ -1,3 +1,4 @@
+// src/lib/analytics/commentEvents.ts
 import { capture } from '$lib/analytics/posthog';
 
 export type CommentCreatedSurface = 'homepage' | 'question_page' | 'strategic_question';

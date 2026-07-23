@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — margaret-qualley (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Margaret-Qualley.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 30
+Comparison set (last 8 other Type-3 drafts by date):
+  - pete-hegseth  (2026-07-19, 54 units)
+  - madonna  (2026-07-18, 41 units)
+  - David-Beckham  (2026-07-13, 43 units)
+  - n3on  (2026-07-13, 38 units)
+  - xochitl-gomez  (2026-07-12, 43 units)
+  - Kiernan-Shipka  (2026-07-11, 46 units)
+  - Alex-Warren  (2026-07-01, 25 units)
+  - amelia-dimoldenberg  (2026-06-22, 15 units)
+
+Noise floor over 9150 unit pairs:  median=0  p90=0  p99=0.006  max=0.111
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.111 ####                 madonna
+  0.044 ##                   amelia-dimoldenberg
+  0.039 ##                   Kiernan-Shipka
+  0.035 #                    Alex-Warren
+  0.035 #                    n3on
+  0.022 #                    xochitl-gomez
+  0.021 #                    David-Beckham
+  0.018 #                    pete-hegseth
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.111   margaret-qualley  <->  madonna
+   TARGET [diagnosis] The 4 wing explains the filmography that keeps confusing people.
+   OTHER  [diagnosis] The typology fine print (the 4 wing
+
+score 0.105   margaret-qualley  <->  madonna
+   TARGET [diagnosis] The 4 wing governs what she volunteers to be graded on.
+   OTHER  [diagnosis] The typology fine print (the 4 wing
+
+score 0.044   margaret-qualley  <->  amelia-dimoldenberg
+   TARGET [diagnosis] She goes after the hardest job in the room
+   OTHER  [diagnosis] that the fastest way to warmth in the room is to be impressive.
+
+score 0.040   margaret-qualley  <->  madonna
+   TARGET [diagnosis] The 4 wing explains the filmography that keeps confusing people.
+   OTHER  [diagnosis] Madonna is an Enneagram Type 3 with a 4 wing
+
+score 0.039   margaret-qualley  <->  Kiernan-Shipka
+   TARGET [diagnosis] "One thing that is super comforting about acting versus something that's a little bit more technical
+   OTHER  [diagnosis] "You got to put a ring on it first." When a date reported back that her own friends had described her as "a little bit of a playboy
+
+score 0.038   margaret-qualley  <->  madonna
+   TARGET [diagnosis] The 4 wing governs what she volunteers to be graded on.
+   OTHER  [diagnosis] Madonna is an Enneagram Type 3 with a 4 wing
+
+score 0.036   margaret-qualley  <->  Kiernan-Shipka
+   TARGET [diagnosis] "I am really hard on myself
+   OTHER  [diagnosis] "I am kind of trying to untether from my own perfectionism
+
+score 0.035   margaret-qualley  <->  Alex-Warren
+   TARGET [counter-typing] A 4w3 would explain all of that at least as economically
+   OTHER  [counter-typing] A Type 4 case also exists
+
+score 0.035   margaret-qualley  <->  n3on
+   TARGET [diagnosis] that I always feel like I'm harder on myself than anyone else in the room
+   OTHER  [diagnosis] but I really feel like I can get up there if I just lock in and keep going crazy." The two men he measures himself against
+
+score 0.032   margaret-qualley  <->  amelia-dimoldenberg
+   TARGET [diagnosis] that I always feel like I'm harder on myself than anyone else in the room
+   OTHER  [diagnosis] that the fastest way to warmth in the room is to be impressive.
+
+score 0.031   margaret-qualley  <->  Kiernan-Shipka
+   TARGET [counter-typing] She declines to correct the public record about herself at all
+   OTHER  [diagnosis] " she corrected the record on the So True mics in 2024
+
+score 0.031   margaret-qualley  <->  Alex-Warren
+   TARGET [diagnosis] "I think I just so desperately want to like be good
+   OTHER  [diagnosis] "I've worked so hard and I just want people to think I'm good enough
+
+------------------------------------------------------------------------------
+Top pair scores 0.111 vs median 0  (~∞x the noise floor).

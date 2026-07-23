@@ -1,3 +1,4 @@
+// src/lib/analytics/commentEvents.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { captureMock } = vi.hoisted(() => ({ captureMock: vi.fn() }));

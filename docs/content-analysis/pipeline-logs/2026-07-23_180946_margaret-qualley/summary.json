@@ -1,0 +1,15 @@
+{
+	"person": "margaret-qualley",
+	"draft_path": "src/blog/people/drafts/margaret-qualley.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-23_180946_margaret-qualley",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 7.9,
+	"final_overall": 8.9,
+	"final_discoverability": 9,
+	"grade_stability_delta": 1,
+	"has_stage_warnings": false,
+	"generated_at": "2026-07-23T23:29:14.432Z"
+}

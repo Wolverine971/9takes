@@ -1,0 +1,23 @@
+All items closed and verified. Lint clean (0 fail / 0 warn), YAML parses, `lastmod` and `content_quality` untouched.
+
+## What I revised
+
+`src/blog/people/drafts/Margaret-Qualley.md` — triggered by grade **C (7.9)** with the `evidence_unsourced_load_bearing_claim` cap. Lint was already clean, so every item came from the grader.
+
+**The cap (Evidence 6).** The ballet weigh-in/letter claim was sourceable, and better than expected — it recovers as a direct quote, not a paraphrase: *Evening Standard / ES Magazine*, Johanna Thomas-Corr, 2017-06-14. Her own words replace the flat assertion ("a little roller that pinches you to measure the fat all over your body… every semester, you get a letter"), and they add a consequence the draft never had: *"if you don't you're not asked back the next year."* The empathy turn's letter is now literal and sourced rather than inferred.
+
+**Two factual errors I found while sourcing — both outside the grader's list:**
+1. The stat row's "$17.5M budget" was actually the **domestic gross**. The Substance cost $18M (Box Office Mojo). Corrected and attributed.
+2. The Instagram handle changed in **April 2026**, months before the separation — not "that week." The adjacent "scrubbed of the marriage that week" claim was also backwards (photos came down *before* the news, went back up *after*). I kept the handle fact with its real date and cut the scrubbing sentence rather than correcting it, since the accurate version is tea-leaf reading on a private separation and carries no thesis weight.
+
+**Also fixed:** the three unsourced facts in "Sarah Margaret" (TMZ, Just Jared/WWD, Yahoo); the Testimony Ledger rebuilt from a false 9 to the 6 actually in the body, with the 3 unused listed separately; MacDowell's and Lanthimos's quotes promoted into the body — which closes the real gap that no collaborator described her from outside; the wing ladder moved to the rabbit hole; both stale pass-note blocks corrected; two weak fragment landings cut (kept "It was a dance class." and "She named survival."); and the TL;DR bullet that was near-verbatim with the Kacey draft rewritten.
+
+## What I rejected
+
+- **The ~400-word trim.** Net is roughly **+180 words, not −400**. Closing the cap with her actual quote plus the two collaborator voices costs ~340 words in 1.5×-weighted dimensions. I took the ~160 words of real trims available and declined to cut sourced material to hit a length number. The "bolted on" fix was the Kenzo/Maid seam, which I removed.
+- **Inline-tagging the cold-open "It was eight days."** Graded vague-but-recoverable and not fatal; a second outlet tag two lines under the LA Times attribution would flatten the piece's best structural moment. Recorded in the source audit instead.
+- **Naming the ballet company.** Sources conflict — the Evening Standard says American Ballet Theatre, the Belfast Telegraph syndication says North Carolina Dance Theatre. The draft's existing vagueness is correct; flagged in FACT-CHECK STATUS.
+
+One thing worth your attention: the ledgers have now been wrong twice in a row (testimony counts, "faqs absent," "6/6 inline"), and the box-office error survived four stages. That's a pipeline signal, not a Qualley problem — stages are editing past their own ledgers, and nothing verifies a stat row's numbers against a publisher before grading.
+
+The pipeline will clear the consumed review sidecar and re-grade. I did not grade this myself.

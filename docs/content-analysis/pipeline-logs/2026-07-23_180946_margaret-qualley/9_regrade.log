@@ -1,0 +1,20 @@
+## Grading Complete — Margaret Qualley (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Margaret-Qualley | 9 | 9 | 9 | 9 | 8 | 9 | **8.9** | **B+** |
+
+*(Weighted: (9×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.9. Discoverability 9 — no gate.)*
+
+**First grade 7.9 (C) → regrade 8.9 (B+), delta +1.0.** Recorded as `first_overall` / `regrade_overall` / `grade_stability_delta`.
+
+### Key observations
+
+- **The revision closed its cap for real.** The Evidence 6 cap was the ballet weigh-in claim asserted flat. The revision didn't paper over it — it recovered a primary source (Evening Standard, June 2017) that turned out to contain her own words, including the consequence the draft never had ("if you don't you're not asked back the next year"). The letter in the empathy turn is now literal, which is also what keeps the empathy turn off house grammar.
+- **Deterministic checks all clean:** 5 inline / 1 vague / 0 untagged load-bearing quotes; 0 contrast pairs; head-term PASS; answer block 48 words; same-type similarity CLEAR (top pair is the trivial phrase "the 4 wing").
+- **Cross-draft sameness:** shared house furniture only vs. Yang-Zhilin, Kacey-Musgraves, Travis-Kelce — no near-verbatim reuse, no "The tell:" bullet, no corpus-stat sentence, no armor/scar-tissue empathy grammar. Below the cap threshold.
+- **Three sourcing gaps the audit's slot map missed**, all named in the sidecar: "not losing my mind" has no outlet in its own section despite doing TL;DR and FAQ duty; the 67M-households metric has no inline publisher; the skin-damage / year-of-recovery claim is unsourced anywhere in the ledgers. None are load-bearing enough to fire the cap, but they're the remaining Evidence headroom.
+- **Writing is the sole 8**, on two specific grounds: the epigraph → `firstLetter` → TL;DR → answer-block furniture is identical across the recent cohort (the 9-10 band requires no visible template), and the fragment-landing drumbeat survived three trim passes. At ~4,350 words, two prior passes flagged length and both declined to cut.
+- **Ledger spot-checks passed** — the testimony ledger was rebuilt during revision to enumerate only the 6 voices the reader actually meets, and all 6 are in the body with attribution. The heading-mix and distribution ledgers also match the current text.
+
+Sidecar written to `docs/content-analysis/grades/Margaret-Qualley.review.md` (the prior one had been deleted from the worktree). No legacy `QUALITY GRADE` block existed in the body.

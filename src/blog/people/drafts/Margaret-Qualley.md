@@ -89,19 +89,21 @@ production_pretext:
 path: src/blog/people/drafts/Margaret-Qualley.md
 content_quality:
   hook: 9
-  enneagram: 8
-  evidence: 6
+  enneagram: 9
+  evidence: 9
   writing: 8
-  originality: 8
+  originality: 9
   discoverability: 9
-  overall: 7.9
-  letter: C
+  overall: 8.9
+  letter: B+
   rubric_version: 2
-  caps_applied: ['evidence_unsourced_load_bearing_claim']
+  caps_applied: []
   confidence: high
-  anchor: 'Matt-Smith draft (B, 2026-06-28) on craft; Mira-Murati sourcing failure mode'
+  anchor: 'Matt-Smith draft (2026-06-28), B band — this scores above it on Evidence and Discoverability'
   needs_review: false
   first_overall: 7.9
+  regrade_overall: 8.9
+  grade_stability_delta: 1.0
   graded_at: '2026-07-23'
 ---
 
@@ -599,5 +601,30 @@ Still open (carried from second pass, not editorial):
 - [SUPERSEDED 2026-07-23, revision pass] "faqs frontmatter absent" — STALE, repeated from the second pass. faqs are present with 5 entries.
 - [RESOLVED 2026-07-23, revision pass] Box office rechecked and corrected; the budget figure was wrong. See second-pass block.
 - Length is ~4,350 prose words. Long but within corpus range; the rabbit hole took a light trim and could take one more if it reads heavy on mobile.
+-->
+
+<!-- REVISION PASS NOTES (2026-07-23)
+Triggered by: grade C (7.9), Evidence 6, cap evidence_unsourced_load_bearing_claim. blog-lint was already clean (0 fail / 0 warn), so every item here comes from the grader.
+
+Fixed:
+- THE CAP. The ballet weigh-in/letter claim is sourced, and it turned out to be recoverable as a direct quote rather than a paraphrase: Evening Standard / ES Magazine, Johanna Thomas-Corr, 2017-06-14. Her own words are stronger than the flat assertion they replace ("a little roller that pinches you to measure the fat all over your body... every semester, you get a letter"), and they add the consequence the draft never had: "if you don't you're not asked back the next year." The empathy turn's letter is now literal.
+- Three unsourced facts in "Sarah Margaret" attributed: July 10 rep statement (TMZ, now quoted directly rather than characterized), July 22 Jersey City photographs (Just Jared / WWD), Instagram handle reversion (Yahoo Entertainment).
+- TWO FACTUAL ERRORS FOUND WHILE SOURCING, both outside the grader's list:
+  (1) The stat row's "$17.5M budget" was the DOMESTIC GROSS, not the budget. The Substance cost $18M (Box Office Mojo). Corrected, and the row now names its publisher.
+  (2) The Instagram handle changed in APRIL 2026, months before the separation, not "that week." The adjacent claim that her Instagram "was scrubbed of the marriage that week" was also wrong and backwards (photos came down before the news, went back up after). The handle fact is kept with its real date; the scrubbing sentence is cut rather than corrected, because the accurate version is tea-leaf reading on a private separation and carries no thesis weight.
+- Testimony Ledger rebuilt. It claimed 9 quotes; 5 were nowhere in the body. It now enumerates the 6 the reader actually meets and lists the 3 verified-but-unused separately with a reason each.
+- Two orphaned quotes promoted into the body, per TO REACH B+ item 4, which also fixes the "no collaborator describes her from outside" gap: MacDowell's "so much braver than I could have ever been" now cashes out the bravery reading the director section argues against (it was a bare paraphrase, "Her mother uses that word"), and Lanthimos's "doesn't take herself too seriously" sits in the critic section as the strongest outside evidence against the thesis, then gets answered rather than waved off.
+- 2-wing/8-wing ladder moved out of the diagnosis body into the Rabbit Hole's 3w4 section. Body paragraph is now person-first.
+- Stale ledger claims corrected in both the second-pass and editor-pass blocks: "faqs absent" (present, 5 entries) and "6/6 inline" (actually 5 inline / 1 vague, and the vague slot is recorded rather than silently re-asserted).
+- Fragment-landing drumbeat: cut "Nobody planned it." and "Then she installed a grader anyway." (merged into its neighbor), plus the hinge "That was dance with the grader removed. Four years later she arranged the opposite." Kept "It was a dance class." and "She named survival."
+- Cross-draft sameness: the final TL;DR bullet was near-verbatim with Kacey-Musgraves. Rewritten off the shared stem.
+- Trims: the Kenzo/Maid seam the grader named, a setup/quote restatement before the Robbie quote, a "left home at fourteen" repeat in the dance-class section, a redundant "four separate roles" mention, and a redundant fame beat in the Kenzo opener.
+
+Rejected (with reason):
+- The ~400-word trim target (TO REACH B+ item 6) is only partly met. Net change is roughly +180 prose words, not -400. Closing the Evidence cap with her actual quote, plus adding the two collaborator voices the grader asked for, costs about 340 words, and those are weighted 1.5x dimensions. I took the real trims available (~160 words) and declined to cut sourced material to hit a length number. Kenzo and Maid are load-bearing for the dance spine and the mother thesis; the fix for "bolted on" was the seam, not the sections.
+- Did not add an inline attribution to the cold-open "It was eight days." The grader graded it vague-but-recoverable and not fatal. Stacking a second outlet tag two lines under the LA Times attribution would flatten the piece's best structural moment for no reader gain. Recorded in the source audit instead.
+- Did not name the ballet company for the declined apprenticeship. Sources conflict (Evening Standard says American Ballet Theatre; the Belfast Telegraph syndication says North Carolina Dance Theatre). The draft's existing vagueness is correct; noted in FACT-CHECK STATUS.
+
+Lint: clean (0 fail, 0 warn).
 -->
 
