@@ -126,6 +126,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		}
 
 		let answerRecorded = false;
+		let commentId: number | string | null = null;
 
 		// Record the answer as a real comment on the backing question, using the
 		// reader's own client so give-first identity rules apply. This is the
@@ -135,7 +136,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		let alreadyAnswered = false;
 		if (chorus.questionId && (fingerprint || userId)) {
 			try {
-				const { error: commentError } = await (locals.supabase.rpc as any)(
+				const { data: commentRecord, error: commentError } = await (locals.supabase.rpc as any)(
 					'create_comment_atomic',
 					{
 						p_comment: take,
@@ -149,6 +150,11 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 
 				if (!commentError) {
 					answerRecorded = true;
+					const rawCommentId = commentRecord?.id;
+					commentId =
+						typeof rawCommentId === 'number' || typeof rawCommentId === 'string'
+							? rawCommentId
+							: null;
 				} else if (
 					// Exact message from create_comment_atomic's one-answer-per-fingerprint
 					// guard (20260513_harden_question_comment_identity.sql). Kept narrow so
@@ -223,6 +229,9 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 			mirrorUnavailable: mirror === null,
 			takes: chorus.takes,
 			questionUrl: chorus.questionUrl,
+			questionId: chorus.questionId,
+			commentId,
+			isAnonymous: !userId,
 			answerRecorded,
 			alreadyAnswered
 		});

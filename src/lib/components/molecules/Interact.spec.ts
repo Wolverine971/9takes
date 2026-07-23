@@ -10,6 +10,7 @@ const {
 	notificationsInfoMock,
 	notificationsDangerMock,
 	getOrCreateVisitorIdMock,
+	captureCommentCreatedMock,
 	fetchMock
 } = vi.hoisted(() => ({
 	deserializeMock: vi.fn(),
@@ -17,6 +18,7 @@ const {
 	notificationsInfoMock: vi.fn(),
 	notificationsDangerMock: vi.fn(),
 	getOrCreateVisitorIdMock: vi.fn(),
+	captureCommentCreatedMock: vi.fn(),
 	fetchMock: vi.fn()
 }));
 
@@ -34,6 +36,10 @@ vi.mock('$lib/components/molecules/notifications', () => ({
 
 vi.mock('$lib/analytics/visitorIdentity', () => ({
 	getOrCreateVisitorId: getOrCreateVisitorIdMock
+}));
+
+vi.mock('$lib/analytics/commentEvents', () => ({
+	captureCommentCreated: captureCommentCreatedMock
 }));
 
 vi.mock('svelte/transition', () => ({
@@ -61,6 +67,8 @@ describe('Interact', () => {
 
 		getOrCreateVisitorIdMock.mockReset();
 		getOrCreateVisitorIdMock.mockReturnValue('visitor-123');
+		captureCommentCreatedMock.mockReset();
+		captureCommentCreatedMock.mockResolvedValue(undefined);
 
 		fetchMock.mockReset();
 		fetchMock.mockResolvedValue({
@@ -146,6 +154,16 @@ describe('Interact', () => {
 			comment: 'Posted comment'
 		});
 		expect(notificationsSuccessMock).toHaveBeenCalledWith('Answer posted', 3000);
+		expect(captureCommentCreatedMock).toHaveBeenCalledWith({
+			commentId: 123,
+			questionId: 85,
+			questionUrl: 'what-are-you-thinking-about-these-days',
+			parentType: 'question',
+			commentKind: 'answer',
+			surface: 'question_page',
+			sourcePath: '/',
+			isAnonymous: true
+		});
 		expect((commentBox as HTMLTextAreaElement).value).toBe('');
 	});
 

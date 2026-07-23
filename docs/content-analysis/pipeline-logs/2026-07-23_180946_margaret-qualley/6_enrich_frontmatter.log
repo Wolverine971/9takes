@@ -1,0 +1,29 @@
+```
+Frontmatter enrichment complete: Margaret-Qualley
+```
+
+**Fields filled:** `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):** `wikipedia`, `instagram` — plus everything the creator owns (`title`, `meta_title`, `persona_title`, `description`, `lastmod`, `enneagram`, `type`, `person`, `suggestions`, `production_pretext`, `path`). Body untouched; all six HTML comment blocks untouched.
+
+**Verification:**
+- `imdb_id: nm4960279` cross-checked against Wikidata **P345** on Q17380672, plus IMDb's own *Substance* character page. Not a guess.
+- Birth data from Wikipedia infobox + Wikidata P569/P19/P27 (agree): 1994-10-23, Kalispell, Montana.
+- `blog-lint`: **0 fail, 0 warn** — the standing `faqs` warn carried from second pass and editor pass is now cleared.
+- YAML parses clean via gray-matter; no `\'` escape (the build-break pattern), 0 em-dashes in frontmatter.
+- Anchors match the house slug convention (apostrophes dropped), verified against Einstein / Emma-Stone / Sydney-Sweeney.
+
+**FAQs generated (5):**
+1. What is Margaret Qualley's personality type? → `#what-is-margaret-qualleys-personality-type`
+2. Why did Margaret Qualley quit ballet at sixteen? → `#why-margaret-qualley-quit-ballet-at-sixteen`
+3. Why did Margaret Qualley cry during a dance class on The Substance? → `#the-dance-class-margaret-qualley-couldnt-get-through`
+4. Why does Margaret Qualley keep taking such punishing roles? → `#why-margaret-qualley-keeps-hiring-directors-who-wreck-her`
+5. Why did Margaret Qualley cast her own mother in Maid? → `#why-margaret-qualley-cast-her-own-mother-in-maid`
+
+All five anchors point at real H2s in the body. Every answer is drawn from the body's own sourced material.
+
+**Issues:**
+- **Body has zero inline external links.** Citations were rebuilt from the outlets the body names, and I only wrote URLs I could verify: IndieWire (Kenzo audition — content matched the body's quotes exactly), Netflix Tudum (Robbie pitch), THR/Rooney, Rolling Stone/Fear, Showbiz411/Friedman, plus Wikipedia. Six total, inside the 3–8 range.
+- **Two named sources omitted from `citations` because I could not verify a URL.** `latimes.com` and `ew.com` both block our crawler, so the LA Times "torture chamber" piece (2024-09-03) and the EW dance-class piece (2024-09-23) are real and named in the body but have no citation entry. Not fabricated as a matter of policy.
+- **One sourcing discrepancy worth a look before publish, not an edit I made.** The body attributes *"I've asked a lot of everyone this year, and I'm sorry"* to **People, October 2024**. Search consistently traces that line and the Julie Shelby "You should have warned me" text to her **Tonight Show** appearance of **Sept 24, 2024**. People plausibly covered that appearance, so the attribution may be fine as syndication — but it belongs on the publish-gate checklist alongside the box-office recheck the second pass already flagged.
+- `wikidata_qid` note: Wikidata's P2003 still lists the old `isimolady` Instagram handle. The draft's `sarahmargaretqualley23` is correct per the body's July 2026 reporting; Wikidata just hasn't caught up. Left as-is.

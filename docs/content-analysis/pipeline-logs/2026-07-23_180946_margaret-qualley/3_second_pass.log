@@ -1,0 +1,19 @@
+Second pass done on `src/blog/people/drafts/Margaret-Qualley.md`. `lastmod` untouched.
+
+**Source audit first (the blocking item).** It came back 3 inline / 2 vague / 1 untagged, with the untagged quote sitting in the cold open, which blocks A/B+ under the source standard. All three are fixed and it now reads **6 inline / 0 vague / 0 untagged**:
+
+- The LA Times panic-attack line and the "It was eight days" line both carry outlet + year inside the parser's attribution window.
+- The Collider diagnosis quote was reattributed to "on *Collider Ladies Night*" so the outlet actually resolves (the previous "Name, Collider Ladies Night, August 2025" form failed the parser because of the month).
+
+**The two real holes fresh eyes found were both correct, and both are now sections:**
+
+- **Maid** (`Why Margaret Qualley cast her own mother in Maid`) — the Margot Robbie pitch, verified against Netflix Tudum quoting the *Skip Intro* podcast; 67M households and the *Queen's Gambit* record via Deadline; Golden Globe noms for both women. It carries the mother, and closes on the Collider transcript beat where she flattens the one collaboration she engineered into "super interesting" and apologizes for the answer.
+- **Kenzo** (`Margaret Qualley's Kenzo ad and the dance she couldn't get wrong`) — the "dance like a tree" audition, sourced to IndieWire, May 5 2017 (date read off the article's own `<time>` attribute). It's the counterexample that makes the dance thesis true instead of tidy.
+
+I put Maid **before** the body inventory rather than after it, as fresh eyes suggested. Its placement would have split the Substance block in half; this way the chronology runs ballet → Kenzo → Maid → Substance and the reader still meets the self-engineered comparison before the collapse.
+
+**Other substantive changes:** the critic section now has an actual adverse read of her *acting* (David Rooney, THR, Feb 2024, "shrill, annoying flake"), the unfalsifiability objection to this analysis stated plainly, and the first sentence in the piece describing what her performance does. The Vanity Fair reference is cashed out (Roger Friedman, Showbiz411, Feb 12 2026). Trims: corpus stat, IMDb score, two of four "eight days" mentions, the rabbit-hole re-narration, and several fragment landings.
+
+**One rejection, on the record:** I left Shia LaBeouf out. Including it means importing a third party's abuse litigation as color in a personality profile, and it carries no weight on the measurement thesis. The 2026 separation stays only because the *Possession* casting is load-bearing for the close. That reasoning is written into the notes block so an editor can overrule it.
+
+**Still open for an editor pass:** `faqs` frontmatter is absent (the enrich stage hasn't run — the one remaining lint WARN); the $77.3M box office needs a recheck at publish; and the piece is 4,442 prose words against a drafts-corpus median of 3,785, which is long but not an outlier.

@@ -1,0 +1,15 @@
+Polished `src/blog/people/drafts/Margaret-Qualley.md`.
+
+**What the draft actually needed.** It came in structurally sound (fresh-eyes and second-pass had already closed the Maid and Kenzo holes, and the mechanical checks were green on arrival). The problems left were rhythm-level, and the biggest was **setup/quote restatement** — the dance-class section narrated "The other dancers already knew it. Fargeat was watching. It was one of her first days," then quoted her saying those exact three facts. Same pattern on "She told the room she would be right back" sitting immediately above the quote "I'll be right back, I got this!" Both cut; the quotes now land cold.
+
+**Other main fixes:**
+- **The short-paragraph drumbeat.** ~20 standalone one-to-two-sentence paragraphs, most sections both opening and closing on one. That turns the good landings ("It was a dance class," "She named survival") into a template. Merged six of the weaker ones into their neighbors.
+- **Cold open** named the *LA Times* twice in consecutive paragraphs, and "she added something stranger than the panic attacks" was writerly-vague. Now "she talked herself out of it," which is what she does.
+- **Answer block** rewritten to lead with the type instead of opening on "The collapses are what settle it" — collapses the reader hadn't met yet. Still extractable at 48 words.
+- Meta-editorial asides cut ("the dissent is worth quoting rather than paraphrasing," "deserves stating fairly," one of the two reader-directives), plus run-ons, in-paragraph word repeats (relentlessly/relentlessness, mechanism, verdict), and a duplicated "no public perception" claim inside the rabbit hole.
+
+**Protected and untouched:** the cold-open misdirect, the body-parts inventory, the bathroom interior beat, the arriving-first empathy turn, the unresolved apology, the Jersey City close.
+
+**Final counts:** contrast pairs **0 strong / 0 comparative**. blog-lint **0 fail, 1 warn** (the warn is missing `faqs` frontmatter — the enrich stage hasn't run, not an editorial issue). Prose em-dashes 0, verified by grep. `lastmod` untouched.
+
+**Verdict: production-ready as prose.** It does not need another substantive pass. Two things still gate publishing, both carried from the second pass and outside this command's scope: run the frontmatter-enrich stage for `faqs`, and recheck *The Substance* box office ($77.3M / $17.5M) before it goes live.

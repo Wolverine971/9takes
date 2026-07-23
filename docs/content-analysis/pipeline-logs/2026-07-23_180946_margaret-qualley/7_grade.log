@@ -1,0 +1,21 @@
+## Grading Complete — Margaret Qualley
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Margaret-Qualley | 6 | 8 | 9 | 8 | 8 | 9 | 7.9 | C |
+
+(Weighted: `(6×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7` = 7.9. Discoverability 9, so no gate.)
+
+### Key Observations
+
+**The score is one sourcing failure, not a craft failure.** Uncapped, Evidence reads 8 and the draft lands at 8.3 (B). The cap comes from a single sentence: *"Add the ballet school, where students were weighed and measured at check-ins and sent a letter if the number came back wrong."* No attribution, and I could not find it in the transcripts on disk, the FACT-CHECK STATUS block, or any pipeline log. It's load-bearing twice — it closes the body-inventory section and the empathy turn's central image ("rather deliver the bad news herself than wait for the letter") rests on it entirely. Source it or cut it and this becomes a B.
+
+**The Testimony Ledger is false.** It claims 9 third-party quotes; 5 appear nowhere in the body (Moore, Tarantino, Lanthimos, Kail, MacDowell — grepped, zero hits). The reader-visible count is 4, all critics or hosts. No collaborator describes her from the outside anywhere in the piece. Two other ledger claims are also stale: "6/6 inline" (audit says 5 inline / 1 vague) and "faqs frontmatter absent" (5 faqs are present).
+
+**What's genuinely strong.** The cold-open misdirect is the best structural decision I've seen in this month's drafts. The body-inventory section checks out against the roundtable transcript line by line and passes the swap test cleanly. The empathy turn avoids house grammar entirely — no "scar tissue," no "it was armor" — and works in her own vocabulary. Discoverability is near-perfect: all three metadata fields in band, extractable 48-word answer block, and every FAQ anchor resolves to a real heading.
+
+**Deterministic checks:** contrast pairs 0 strong / 0 comparative; head-term PASS; same-type similarity clear (top pair 0.111 vs madonna is the trivial token "the 4 wing"). Cross-draft sameness against Kacey-Musgraves, Yang-Zhilin, and Travis-Kelce found shared architecture at shape level and one near-verbatim TL;DR disclaimer bullet — not enough to cap Originality at 7, and this draft beats its peers by cutting the corpus stat and de-housing the empathy turn.
+
+Sidecar written to `docs/content-analysis/grades/Margaret-Qualley.review.md`; frontmatter added at `src/blog/people/drafts/Margaret-Qualley.md:87`.
+
+**Total graded this session: 1**

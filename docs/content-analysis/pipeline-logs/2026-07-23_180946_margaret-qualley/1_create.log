@@ -1,0 +1,66 @@
+stage: 1_create (blog_content_creator_people_v2)
+subject: margaret-qualley
+mode: non-interactive
+date: 2026-07-23
+draft: src/blog/people/drafts/Margaret-Qualley.md
+status: draft (blockers: none)
+
+TYPE CALL
+  Enneagram 3w4, self-preservation dominant. Confidence medium-high.
+  Thesis: the reputation is fearlessness; the driver is that she found the one
+  arena where willingness to be destroyed is itself a credential. She hires
+  directors with total certainty because an external standard-holder is the only
+  thing that quiets her own verdict.
+  Named tiebreaker: she absorbed eight days of panic attacks inside a prosthetic
+  suit and minimized it ("I know that doesn't seem like a lot"), then broke down
+  in a dance class where the other dancers already knew the choreography. The
+  collapse tracks evaluation, not suffering. It rhymes with the ballet exit at 16.
+  Logged ambiguity: her stated preference for no public perception over an
+  inaccurate one (Vanity Fair, Mar 2026) is the strongest Type 4 counter-evidence.
+  Resolved here as the sp3 counter-type. A human reviewer may land on 4w3.
+
+RESEARCH
+  3 background agents: deep research packet, internal Enneagram lens brief
+  (6 posts read), transcript mining.
+  5 long-form transcripts fetched and persisted to youtube-transcripts-people/:
+    Happy Sad Confused (Josh Horowitz, 2025-01-13, 42m)
+    Collider Ladies Night (2025-08-23, 34m)
+    Collider Substance roundtable w/ Demi Moore + Coralie Fargeat (2024-09-15, 30m)
+    SAG-AFTRA Foundation Conversations w/ Demi Moore (2025-01-03, 29m)
+    MTV, Honey Don't! (2025-08-20, 14m)
+  1 additional target had captions disabled (eCRMMmRtUWc).
+
+GATES
+  Gate 1 testimony ........ PASS  7 named third-party quotes (min 2)
+  Gate 2 heading mix ...... PASS  5 search-intent/hybrid of 8 H2s (min 2)
+  Gate 3 self-loop ........ PASS  0 self-links
+  Gate 4 anti-imitation ... PASS  no "A [Type]" anaphora; hook is not an object-reveal
+  Gate 5 distribution ..... PASS  2 type-theory paragraphs outside diagnosis/rabbit hole (max 4)
+  Gate 6 formula .......... PASS  0 strong / 0 comparative contrast pairs;
+                                  same-type similarity CLEAR (max pair 0.111 vs
+                                  threshold 0.04 after rewriting the diagnosis
+                                  opener off the house stem, which had scored 0.638)
+
+DETERMINISTIC
+  blog-lint.sh ............ 0 fail, 1 warn (faqs enrich stage not yet run)
+  blog-quality-report ..... contrast 0/0; head-term PASS; answer-block 49 words
+  same-type-similarity .... clear
+  corpus avoid-list ....... body clean of all Type 3 concentrated tics
+  YAML .................... parses; description 148 chars, meta_title 58
+
+FACT CORRECTIONS MADE DURING SELF-REVIEW
+  - Research packet conflated the panic attack with the dance number. Verified
+    against LA Times (2024-09-03): the panic attacks were the PROSTHETICS. The
+    dance-number breakdown is a separate EW (2024-09-23) account. Draft separates them.
+  - Repo note said "Qualley has since addressed the rumors publicly." She has not.
+    Her REPRESENTATIVE issued a statement (2026-07-10) denying causes, not the
+    separation. Draft attributes to the rep and states she has said nothing.
+  - Cut Paul Dano from the Possession cast (unverifiable in any outlet).
+  - Cut a self-introduced error describing Robert Pattinson as Emma Stone's
+    Poor Things co-star. He was not in that film.
+  - Did not use: peacock/pigeon ballet note, Kenzo "argument with your hand"
+    prompt (both untraceable), tabloid "opposite personalities" separation framing.
+
+NEXT
+  Human review, then set production_pretext.status: ready and run
+  blog_content_production_people. Grading is owned by /grade_blog, not this stage.

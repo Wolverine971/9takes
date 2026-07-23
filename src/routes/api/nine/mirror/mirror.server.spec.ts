@@ -108,7 +108,13 @@ describe('POST /api/nine/mirror', () => {
 		const body = await response.json();
 
 		expect(response.status).toBe(200);
-		expect(body.answerRecorded).toBe(true);
+		expect(body).toMatchObject({
+			answerRecorded: true,
+			alreadyAnswered: false,
+			questionId: 567,
+			commentId: 123,
+			isAnonymous: true
+		});
 		expect(rpcMock).toHaveBeenCalledWith(
 			'create_comment_atomic',
 			expect.objectContaining({ p_fingerprint: 'visitor-body-fallback-1' })
@@ -116,6 +122,23 @@ describe('POST /api/nine/mirror', () => {
 		expect(rpcMock.mock.invocationCallOrder[0]).toBeLessThan(
 			generateMirrorMock.mock.invocationCallOrder[0]
 		);
+	});
+
+	it('does not return a comment id when the request only unlocks an existing answer', async () => {
+		const response = await POST(
+			buildEvent({
+				fingerprint: 'visitor-existing-answer-2',
+				rpcError: { message: 'Anonymous visitors can answer once per question' }
+			}) as never
+		);
+		const body = await response.json();
+
+		expect(response.status).toBe(200);
+		expect(body).toMatchObject({
+			answerRecorded: true,
+			alreadyAnswered: true,
+			commentId: null
+		});
 	});
 
 	it('reveals the perspectives when the optional mirror generation fails after posting', async () => {

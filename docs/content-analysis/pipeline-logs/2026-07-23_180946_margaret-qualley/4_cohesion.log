@@ -1,0 +1,35 @@
+Lint holds: 0 fail, 1 warn (the pre-existing `faqs` warning from the un-run enrich stage). No new em-dashes, no banned phrases, no contrast-pair engines introduced.
+
+## Cohesion Check Complete: `src/blog/people/drafts/Margaret-Qualley.md`
+
+**Before score: 7/10**
+**After score: 9/10**
+
+### Central Thesis
+Qualley organizes her life around being measured, collapses at the exact point of measurement, and keeps arranging conditions — art forms, directors, roles — where someone else holds the scorecard.
+
+### Changes Made (7 total)
+
+**Thread Fixes (1):**
+- Cut the dangling pointer `That reflex shows up again.` at the end of the ballet section. It promised a payoff the next section didn't deliver; the self-correction reflex is actually cashed out six sections later in the critics section, which now carries it without a stale forward reference.
+
+**Transition Fixes (5):**
+- **Kenzo → Maid**: added `That was dance with the grader removed. Four years later she arranged the opposite.` Carries the "grader" keyword planted in the diagnosis section and states the inversion the Maid section runs on.
+- **Maid → Body parts**: added `Her mother is the subject she will not discuss. Her own body is the one she hands over.` Turns a hard topic switch into the withhold/volunteer contrast the two sections are actually built on.
+- **Directors → Critics**: added `Her verdict on herself is one record. The reviews are another.` Bridges "She named survival" into external verdicts.
+- **Critics → Apology**: added `Against all that declining, there is one sentence she volunteered.` Picks up "the only measurement she gets to decline" from the previous line and frames the apology as the exception.
+- **Apology → Sarah Margaret**: added `What came next she did not arrange.` The worst jump in the piece (a reflective 2024 beat straight into a July 2026 separation). Now it moves time and pre-frames the close's argument, and rhymes with `Nobody planned it` later in that section.
+
+**Internal Flow Fixes (1):**
+- Critics section, paragraph order: moved the craft paragraph (the *Substance* third act, one eye and two hands) up to sit directly after the fair-skeptic paragraph, so it answers the praise-vs-material argument. This reunites the unfalsifiability objection with the self-deprecation dialogue that answers it — those two were previously split.
+
+**Orphaned Threads (0 remaining):** the one found was the ballet-section pointer, removed above.
+
+### What Was Preserved
+- All frontmatter, all ledgers and notes blocks, all Svelte/HTML components (`key-stat-row`, `inner-thought`, `dialogue`, rabbit-hole `<details>`), all 5 internal links.
+- The cold-open misdirect, the body-parts inventory, the empathy turn, the unresolved apology, and the Jersey City close — untouched.
+- 4 of 9 section boundaries were already strong and were left alone: diagnosis → ballet, ballet → Kenzo, body parts → dance class (the "before the prosthetics" rewind is the best transition in the piece), dance class → rabbit hole.
+
+### Remaining Concerns
+- The diagnosis section opens on `The collapses are what settle it` — plural, when the reader has seen one collapse teased and not yet described. It reads as a forward promise the piece does keep, so I left it. Worth noting that the fingerprint ledger records this opener as deliberately rewritten off the house stem to clear the same-type similarity scan, so rewording it would need a re-run of `scripts/same-type-similarity.mjs`.
+- The dance-class payoff promised in the cold open lands five sections later. Each intervening section builds the measurement frame and two of them are dance nodes, so the deferral is earned, but it is the longest open loop in the piece. Your call whether it needs an earlier anchor.

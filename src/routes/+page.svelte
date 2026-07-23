@@ -7,6 +7,7 @@
 	import { ArrowUpRight, CircleCheck, EyeOff, LockKeyhole, UnlockKeyhole } from '@lucide/svelte';
 	import type { PageData } from './$types';
 	import { capture } from '$lib/analytics/posthog';
+	import { captureCommentCreated } from '$lib/analytics/commentEvents';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	import PerspectivePreviewCard from '$lib/components/molecules/PerspectivePreviewCard.svelte';
@@ -216,6 +217,18 @@
 			chorusTakes = result.takes;
 			alreadyAnswered = Boolean(result.alreadyAnswered);
 			previewRevealed = true;
+			if (!alreadyAnswered) {
+				void captureCommentCreated({
+					commentId: result.commentId,
+					questionId: data.featuredQuestion.id,
+					questionUrl: data.featuredQuestion.url,
+					parentType: 'question',
+					commentKind: 'answer',
+					surface: 'homepage',
+					sourcePath: browser ? window.location.pathname : undefined,
+					isAnonymous: !data.user?.id
+				});
+			}
 			void capture('homepage_question_answered', {
 				question_url: data.featuredQuestion.url,
 				source_path: browser ? window.location.pathname : undefined

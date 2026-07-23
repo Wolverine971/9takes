@@ -16,6 +16,7 @@
 		Subscription,
 		QuestionPageData
 	} from '$lib/types/questions';
+	import { captureCommentCreated } from '$lib/analytics/commentEvents';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 
 	// Component props
@@ -261,6 +262,7 @@
 			console.error(result.error || result.data);
 		} else {
 			commentError = '';
+			const submittedKind = composerKind;
 			notifications.success(`${composerKindTitle} posted`, 3000);
 			if (isAnonymousQuestionCommenter()) {
 				anonymousComment = true;
@@ -270,6 +272,16 @@
 			if (Array.isArray(commentData)) {
 				commentData = commentData[0] ?? null;
 			}
+			void captureCommentCreated({
+				commentId: commentData?.id,
+				questionId,
+				questionUrl: isQuestionPageData(data) ? data.question.url : undefined,
+				parentType,
+				commentKind: submittedKind,
+				surface: 'question_page',
+				sourcePath: window.location.pathname,
+				isAnonymous: !user?.id
+			});
 			oncommentAdded?.(commentData);
 			comment = '';
 			shortAnswerNudge = false;

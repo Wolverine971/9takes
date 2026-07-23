@@ -17,6 +17,7 @@
 	import { tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { capture } from '$lib/analytics/posthog';
+	import { captureCommentCreated } from '$lib/analytics/commentEvents';
 	import { Button } from '$lib/components/atoms';
 	import VoiceRecorder from '$lib/components/molecules/VoiceRecorder.svelte';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
@@ -128,6 +129,19 @@
 					: null;
 			takes = data.takes ?? [];
 			phase = 'revealed';
+			if (!data?.alreadyAnswered) {
+				void captureCommentCreated({
+					commentId: data?.commentId,
+					questionId: Number(data?.questionId),
+					questionUrl,
+					parentType: 'question',
+					commentKind: 'answer',
+					surface: 'strategic_question',
+					sourcePath: browser ? window.location.pathname : undefined,
+					campaign,
+					isAnonymous: Boolean(data?.isAnonymous)
+				});
+			}
 			void capture('strategic_question_answered', {
 				blog_slug: blogSlug,
 				question_url: questionUrl,
