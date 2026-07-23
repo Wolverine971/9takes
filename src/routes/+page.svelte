@@ -228,6 +228,12 @@
 			submitting = false;
 		}
 	}
+
+	function trackDiscussionOpen() {
+		void capture('homepage_discussion_opened', {
+			question_url: data.featuredQuestion.url
+		});
+	}
 </script>
 
 <SEOHead
@@ -471,10 +477,10 @@
 						<Button
 							href={questionThreadHref}
 							size="lg"
-							onclick={() =>
-								void capture('homepage_discussion_opened', {
-									question_url: data.featuredQuestion.url
-								})}
+							onpointerup={trackDiscussionOpen}
+							onkeydown={(event: KeyboardEvent) => {
+								if (event.key === 'Enter') trackDiscussionOpen();
+							}}
 						>
 							Read everyone’s answers <ArrowUpRight size={17} aria-hidden="true" />
 						</Button>
@@ -1257,14 +1263,6 @@
 		align-items: baseline;
 		justify-content: space-between;
 		gap: 0.75rem;
-	}
-
-	.perspective-meta small {
-		color: var(--ink-dim);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.58rem;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
 	}
 
 	.perspective p {

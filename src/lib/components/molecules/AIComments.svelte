@@ -27,6 +27,7 @@
 	let takes = $derived(
 		[...(data?.aiComments ?? [])]
 			.map((take) => ({ ...take, typeNumber: typeNumberOf(take) }))
+			.filter((take) => take.typeNumber > 0)
 			.sort((a, b) => a.typeNumber - b.typeNumber)
 	);
 </script>

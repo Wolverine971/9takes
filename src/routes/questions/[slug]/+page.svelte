@@ -14,7 +14,7 @@
   globally in src/scss/index.scss.
 -->
 <script lang="ts">
-	import { invalidateAll } from '$app/navigation';
+	import { beforeNavigate, invalidateAll } from '$app/navigation';
 	import { deserialize } from '$app/forms';
 	import { onMount } from 'svelte';
 	import { Share2, X } from '@lucide/svelte';
@@ -55,7 +55,10 @@
 	let optimisticComments = $state<Comment[]>([]);
 	let optimisticUserHasAnswered = $state(false);
 	let shareNudgeVisible = $state(false);
-	let shareNudgeFeedback = $state('');
+	let shareNudgeFeedback = $state<{
+		message: string;
+		tone: 'success' | 'error';
+	} | null>(null);
 	let shareNudgeTimer: number | null = null;
 	let categoryEditorOpen = $state(false);
 	let categoryEditorError = $state('');
@@ -456,7 +459,7 @@
 		if (shareNudgeTimer !== null) window.clearTimeout(shareNudgeTimer);
 
 		shareNudgeTimer = window.setTimeout(() => {
-			shareNudgeFeedback = '';
+			shareNudgeFeedback = null;
 			shareNudgeVisible = true;
 			shareNudgeTimer = null;
 			void capture('question_share_nudge_shown', {
@@ -475,6 +478,16 @@
 		});
 	}
 
+	function resetShareNudge() {
+		if (shareNudgeTimer !== null) {
+			window.clearTimeout(shareNudgeTimer);
+			shareNudgeTimer = null;
+		}
+
+		shareNudgeVisible = false;
+		shareNudgeFeedback = null;
+	}
+
 	async function shareQuestionFromNudge() {
 		const shareData = {
 			title: 'A question from 9takes',
@@ -482,8 +495,8 @@
 			url
 		};
 
-		try {
-			if (navigator.share) {
+		if (navigator.share) {
+			try {
 				await navigator.share(shareData);
 				void capture('question_shared_from_nudge', {
 					question_url: data.question.url,
@@ -491,20 +504,34 @@
 				});
 				dismissShareNudge('shared');
 				return;
+			} catch (error) {
+				if (error instanceof DOMException && error.name === 'AbortError') return;
 			}
+		}
 
+		try {
+			if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
 			await navigator.clipboard.writeText(url);
-			shareNudgeFeedback = 'Link copied. Drop it in the group chat.';
+			shareNudgeFeedback = {
+				message: 'Link copied. Drop it in the group chat.',
+				tone: 'success'
+			};
 			markShareNudgeSeen();
 			void capture('question_shared_from_nudge', {
 				question_url: data.question.url,
 				method: 'clipboard'
 			});
-		} catch (error) {
-			if (error instanceof DOMException && error.name === 'AbortError') return;
-			shareNudgeFeedback = 'Could not open sharing. Copy the page URL from your browser.';
+		} catch {
+			shareNudgeFeedback = {
+				message: 'Could not open sharing. Copy the page URL from your browser.',
+				tone: 'error'
+			};
 		}
 	}
+
+	beforeNavigate(() => {
+		resetShareNudge();
+	});
 
 	// Generate QR code on component mount
 	onMount(() => {
@@ -518,7 +545,7 @@
 		}
 
 		return () => {
-			if (shareNudgeTimer !== null) window.clearTimeout(shareNudgeTimer);
+			resetShareNudge();
 		};
 	});
 
@@ -839,7 +866,7 @@
 				<Interact
 					data={dataForChild}
 					questionId={data.question.id}
-					parentType={'question'}
+					parentType="question"
 					oncommentAdded={addComment}
 					user={data?.user}
 					{qrCodeUrl}
@@ -896,7 +923,7 @@
 
 					{#if data.questionTags && data.questionTags.length > 0}
 						<div class="open-case-categories__pills">
-							{#each data.questionTags as tag}
+							{#each data.questionTags as tag (tag.tag_id)}
 								<a
 									href={buildQuestionCategoryPath(
 										tag.question_categories.slug || tag.question_categories.category_name
@@ -917,7 +944,7 @@
 							<div class="category-editor-step">
 								<p class="mono category-editor-step__label">STEP 1: TOP-LEVEL PARENT</p>
 								<div class="chip-row">
-									{#each rootCategories as category}
+									{#each rootCategories as category (category.id)}
 										<button
 											type="button"
 											onclick={() => selectRootCategory(category.id)}
@@ -934,7 +961,7 @@
 								<p class="mono category-editor-step__label">STEP 2: SECOND-LEVEL PARENT</p>
 								{#if parentCategories.length}
 									<div class="chip-row">
-										{#each parentCategories as category}
+										{#each parentCategories as category (category.id)}
 											<button
 												type="button"
 												onclick={() => selectParentCategory(category.id)}
@@ -962,7 +989,7 @@
 
 								{#if leafCategories.length}
 									<div class="leaf-grid">
-										{#each leafCategories as category}
+										{#each leafCategories as category (category.id)}
 											<button
 												type="button"
 												onclick={() => toggleLeafCategory(category.id)}
@@ -987,7 +1014,7 @@
 								<p class="mono category-editor-step__label">SELECTED CATEGORIES</p>
 								{#if selectedLeafCategories.length}
 									<div class="chip-row">
-										{#each selectedLeafCategories as category}
+										{#each selectedLeafCategories as category (category.id)}
 											<button
 												type="button"
 												onclick={() => toggleLeafCategory(category.id)}
@@ -1093,7 +1120,15 @@
 			</p>
 			<Button fullWidth size="md" onclick={shareQuestionFromNudge}>Share in a group chat</Button>
 			{#if shareNudgeFeedback}
-				<p class="share-nudge__feedback" role="status">{shareNudgeFeedback}</p>
+				<p
+					class={[
+						'share-nudge__feedback',
+						shareNudgeFeedback.tone === 'error' && 'share-nudge__feedback--error'
+					]}
+					role="status"
+				>
+					{shareNudgeFeedback.message}
+				</p>
 			{/if}
 		</aside>
 	{/if}
@@ -1205,6 +1240,10 @@
 		color: var(--success-text);
 		font-size: 0.75rem;
 		line-height: 1.45;
+	}
+
+	.share-nudge__feedback--error {
+		color: var(--warning-text);
 	}
 
 	@media (min-width: 900px) {

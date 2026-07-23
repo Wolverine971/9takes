@@ -8,7 +8,12 @@
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import ArticleLinks from '$lib/components/molecules/Links.svelte';
-	import type { User, Comment as CommentType, QuestionPageData } from '$lib/types/questions';
+	import type {
+		User,
+		AIComment,
+		Comment as CommentType,
+		QuestionPageData
+	} from '$lib/types/questions';
 
 	interface Props {
 		data: QuestionPageData;
@@ -46,7 +51,13 @@
 	// Get the comments to display (sorted if user sorted, otherwise from data)
 	let displayComments = $derived(sortedComments || _data.comments);
 	let displayCommentCount = $derived(sortedComments?.length ?? _data.comment_count);
-	let publicAiPreviewComments = $derived.by(() => (_data.aiComments ?? []).slice(0, 3));
+	let validAiComments = $derived((_data.aiComments ?? []).filter(hasValidAiType));
+	let publicAiPreviewComments = $derived(validAiComments.slice(0, 3));
+
+	function hasValidAiType(comment: AIComment): boolean {
+		const typeNumber = Number(comment.enneagram_type ?? comment.enneagram);
+		return Number.isInteger(typeNumber) && typeNumber >= 1 && typeNumber <= 9;
+	}
 
 	onMount(() => {
 		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -103,7 +114,7 @@
 <div class="question-content-shell">
 	<!-- Tabs Navigation -->
 	<div class="question-content-nav scrollbar-hide" role="tablist" aria-label="Question sections">
-		{#each tabs as tab}
+		{#each tabs as tab (tab)}
 			{@const IconComponent = iconComponents[tab]}
 			{@const contentCount = getContentCount(tab)}
 			<button
@@ -120,9 +131,9 @@
 			>
 				<span class="question-tab__icon" aria-hidden="true">
 					<IconComponent
-						iconStyle={''}
-						height={'1.25rem'}
-						fill={'currentColor'}
+						iconStyle=""
+						height="1.25rem"
+						fill="currentColor"
 						type={tab === 'Comments' ? 'multiple' : undefined}
 					/>
 				</span>
@@ -136,7 +147,7 @@
 
 	<!-- Tab Content -->
 	<div class="question-content-body">
-		{#each tabs as section}
+		{#each tabs as section (section)}
 			{#if selectedTab === section}
 				<div
 					in:fade={{ duration: reduceMotion ? 0 : 200 }}
@@ -168,7 +179,7 @@
 													class="public-perspective-preview__grid blurred-perspectives"
 													aria-hidden="true"
 												>
-													{#each publicAiPreviewComments as comment}
+													{#each publicAiPreviewComments as comment (comment.id)}
 														<article
 															class="public-perspective-card"
 															style="--comment-type-color: var(--type-{comment.enneagram_type}-color, var(--lamp-glow))"
@@ -238,25 +249,21 @@
 									<p>Real answers from people who responded before reading the room.</p>
 								</header>
 								<div class="content-toolbar">
-									<SortComments
-										data={_data}
-										oncommentsSorted={sortCommentsHandler}
-										size={'medium'}
-									/>
+									<SortComments data={_data} oncommentsSorted={sortCommentsHandler} size="medium" />
 								</div>
 
 								<Comments
 									questionId={_data.question.id}
 									comments={displayComments}
 									comment_count={displayCommentCount}
-									parentType={'question'}
+									parentType="question"
 									parentData={_data}
 									{user}
 									key={displayCommentCount}
 									on:commentAdded={handleCommentAdded}
 								/>
 
-								{#if (_data.aiComments ?? []).length}
+								{#if validAiComments.length}
 									<details class="ai-perspectives-disclosure">
 										<summary>
 											<span>Compare with nine AI perspectives</span>
@@ -267,7 +274,7 @@
 												These are prompts for comparison, not community posts. The real discussion
 												above always comes first.
 											</p>
-											<AIComments data={_data} parentType={'question'} />
+											<AIComments data={_data} parentType="question" />
 										</div>
 									</details>
 								{/if}
@@ -285,7 +292,7 @@
 												parentData={_data}
 												comment_count={_data.removed_comment_count}
 												comments={_data.removedComments}
-												parentType={'question'}
+												parentType="question"
 												{user}
 											/>
 										{/if}
@@ -296,7 +303,7 @@
 							<ArticleLinks
 								questionId={data.question.id}
 								data={_data}
-								parentType={'question'}
+								parentType="question"
 								oncommentAdded={handleCommentAdded}
 							/>
 						{/if}
@@ -455,20 +462,39 @@
 	}
 
 	.ai-perspectives-disclosure summary {
+		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		gap: 1rem;
 		min-height: 3.25rem;
-		padding: 0.75rem 1rem;
+		padding: 0.75rem 3rem 0.75rem 1rem;
 		color: var(--ink-bright);
 		font-size: 0.86rem;
 		font-weight: 650;
 		cursor: pointer;
+		list-style: none;
 	}
 
-	.ai-perspectives-disclosure summary::marker {
-		color: var(--lamp-glow);
+	.ai-perspectives-disclosure summary::-webkit-details-marker {
+		display: none;
+	}
+
+	.ai-perspectives-disclosure summary::after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		right: 1rem;
+		width: 0.5rem;
+		height: 0.5rem;
+		border-right: 2px solid var(--lamp-glow);
+		border-bottom: 2px solid var(--lamp-glow);
+		transform: translateY(-65%) rotate(45deg);
+		transition: transform 180ms ease;
+	}
+
+	.ai-perspectives-disclosure[open] summary::after {
+		transform: translateY(-35%) rotate(225deg);
 	}
 
 	.ai-perspectives-disclosure summary:focus-visible {
@@ -770,6 +796,12 @@
 
 		.state-title {
 			font-size: 1rem;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.ai-perspectives-disclosure summary::after {
+			transition: none;
 		}
 	}
 </style>
