@@ -4,9 +4,9 @@ meta_title: 'Kacey Musgraves Enneagram Type 4: Discipline Behind the Drift'
 persona_title: "Country's Disciplined Mystic"
 description: 'Kacey Musgraves calls herself an Achiever. Her songs point to a neighboring type. A sourced 4w3 analysis, from Golden, Texas, to Middle of Nowhere.'
 author: 'DJ Wayne'
-date: '2026-07-19'
+date: '2026-07-23'
 loc: 'https://9takes.com/personality-analysis/kacey-musgraves'
-lastmod: '2026-07-19'
+lastmod: '2026-07-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -62,7 +62,9 @@ citations:
   - 'https://glaad.org/releases/grammy-award-winning-country-music-artist-kacey-musgraves-perform-25th-annual-glaad-media/'
   - 'https://www.grammy.com/artists/kacey-musgraves/18025/'
   - 'https://au.rollingstone.com/music/music-news/kacey-musgraves-star-crossed-grammys-country-31862/'
+  - 'https://variety.com/2026/music/features/kacey-musgraves-middle-of-nowhere-country-masturbation-1236732175/'
   - 'https://www.the-independent.com/arts-entertainment/music/features/kacey-musgraves-interview-middle-of-nowhere-miranda-lambert-b2967838.html'
+  - 'https://www.kpbs.org/news/2026/03/11/on-her-new-album-kacey-musgraves-returns-home-to-the-middle-of-nowhere'
   - 'https://nz.news.yahoo.com/kacey-musgraves-country-homecoming-singer-150000581.html'
   - 'https://www.universalmusic.ca/2026/03/11/eight-time-grammy-winning-superstar-kacey-musgraves-announces-sixth-studio-album-middle-of-nowhere-set-for-release-may-1-2026/'
   - 'https://www.austinchronicle.com/music/watch-kacey-musgraves-and-miranda-lambert-bury-the-hatchet-at-gruene-hall/'
@@ -78,7 +80,7 @@ faqs:
     answer: "Musgraves later told CBS Sunday Morning that it was banned by country radio. The chart split supports her point: the song reached number 10 on Hot Country Songs but only number 43 on the radio-based Country Airplay chart. The CMA nevertheless named it Song of the Year in 2014."
     anchor: 'follow-your-arrow-and-the-door-country-radio-closed'
   - question: 'What happened between Kacey Musgraves and Miranda Lambert?'
-    answer: "Musgraves said co-writers Shane McAnally and Brandy Clark pitched 'Mama's Broken Heart' to Lambert without Musgraves's knowledge. The two singers were not friends for years, then addressed the old tension while writing 'Horses and Divorces' for Middle of Nowhere. They debuted the duet together at Gruene Hall in May 2026, where Lambert said they were burying the hatchet."
+    answer: "Musgraves said 'Mama's Broken Heart' was pitched to Lambert without Musgraves's consent or knowledge. Because the song had three writers, Musgraves also had her co-writers to consider. The two singers were not friends for years, then addressed the old tension while writing 'Horses and Divorces' for Middle of Nowhere. They debuted the duet together at Gruene Hall in May 2026, where Lambert said they were burying the hatchet."
     anchor: 'horses-divorces-and-an-old-grudge-put-down'
   - question: 'How did a psilocybin trip shape Star-Crossed?'
     answer: "After her divorce from Ruston Kelly, Musgraves undertook a therapeutically guided, seven-hour psilocybin session while listening to the Johns Hopkins research playlist. The playlist runs seven hours and forty minutes; the session itself was reported as seven hours. Musgraves described the larger creative aim as transforming trauma, and Star-Crossed shaped the divorce into a three-act tragedy."
@@ -99,33 +101,29 @@ production_pretext:
     - image_check
   blockers: []
 content_quality:
-  hook: 9
+  hook: 8.5
   enneagram: 8.5
-  evidence: 9
-  writing: 9
-  originality: 9
+  evidence: 8.5
+  writing: 8.5
+  originality: 8.5
   discoverability: 9
-  overall: 8.9
+  overall: 8.6
   letter: B+
   rubric_version: 2
   caps_applied: []
   confidence: medium
-  anchor: 'Jimmy-Carter (B+, 2026-07-01)'
+  anchor: 'Matt-Smith draft (B, 2026-06-28)'
   needs_review: false
-  graded_at: '2026-07-19'
+  first_overall: 8.9
+  regrade_overall: 8.6
+  grade_stability_delta: 0.3
+  graded_at: '2026-07-23'
 path: src/blog/people/drafts/Kacey-Musgraves.md
 ---
 
-<!-- QUALITY GRADE: B+ (8.9) — rubric v2
-Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 8.5 | Writing: 9 | Hook: 9
-Anchor: Jimmy-Carter (B+, 2026-07-01) | Caps: none | Needs review: false
-Source audit target: every opening and load-bearing quotation carries an outlet and year.
-Confidence is medium because Musgraves explicitly identifies as 3w4. The draft treats that statement as the strongest counterevidence and states what would change the call.
--->
-
 <!-- TESTIMONY LEDGER
 1. Brandi Carlile (peer and Grammy-winning songwriter): "Kacey Musgraves made a revolutionary record that I have listened to and worn out." — The Boot, 2019
-2. Cindy Mabe (then UMG Nashville president): "The idea that a handful of people ... are deciding what is country only exacerbates the problem." — Variety, 2021
+2. Cindy Mabe (then UMG Nashville president): "The idea that a handful of people ... are deciding what is country only exacerbates the problem." — Rolling Stone, 2021
 3. Daniel Tashian (co-writer and co-producer): "I really am country, and I've been out riding my horse all day." — Variety, 2026
 4. Shane McAnally (longtime co-writer and producer): "These two women are my Dolly and Loretta." — Variety, 2026
 Total qualifying third-party quotes: 4
@@ -195,7 +193,7 @@ The drift is sincere. So is the discipline.
 
 Kacey Musgraves is best read here as an Enneagram Type 4 with a 3 wing: identity-centered in the songs and achievement-driven in the execution. She has publicly called herself a 3w4, so this is a close, evidence-based neighboring call.
 
-[Type 4s](/enneagram-corner/enneagram-type-4) tend to organize experience around identity, meaning, and the feeling that something essential is missing. Musgraves's catalog returns to those questions. <em>Merry Go 'Round</em> watches a hometown repeat inherited lives. <em>Slow Burn</em> chooses a personal tempo. <em>Rainbow</em> began as an encouraging note to herself after reading her horoscope; it was the last song her grandmother heard her write, and Musgraves later performed it at the funeral. The older draft reversed that story and incorrectly said her grandmother requested the song.
+[Type 4s](/enneagram-corner/enneagram-type-4) tend to organize experience around identity, meaning, and the feeling that something essential is missing. Musgraves's catalog returns to those questions. <em>Merry Go 'Round</em> watches a hometown repeat inherited lives. <em>Slow Burn</em> chooses a personal tempo. <em>Rainbow</em> began as an encouraging note to herself after reading her horoscope; it was the last song her grandmother heard her write, and it was later played at the funeral.
 
 The 3 wing shows up in conversion. An emotion becomes a song, then an album architecture, then a stage and visual language. Musgraves has co-produced every studio album since <em>Same Trailer Different Park</em>. Her eight Grammys include Album of the Year, two country-album awards, three Best Country Song wins, a solo-performance win, and a duo/group win. The [Recording Academy's current tally](https://www.grammy.com/artists/kacey-musgraves/18025/) matters because repeated execution is the evidence.
 
@@ -271,9 +269,9 @@ Musgraves met fellow songwriter Ruston Kelly at Nashville's Bluebird Café in 20
 
 In a 2021 [Elle interview](https://www.elle.com/culture/a36398996/kacey-musgraves-2021-album-interview/), Musgraves said she had been "dying inside" before the split. She later undertook a therapeutically guided psilocybin session, lay blindfolded, and listened to the Johns Hopkins research playlist.
 
-The timing needs precision. [The Guardian reported a seven-hour session](https://www.theguardian.com/music/2021/sep/11/kacey-musgraves-nashville-country-music-interview-divorce-mushrooms). [Johns Hopkins says its playlist runs seven hours and forty minutes](https://www.hopkinsmedicine.org/news/articles/2020/10/inside-the-johns-hopkins-psilocybin-playlist). The older draft turned the playlist length into the trip length.
+The timing needs precision. [The Guardian reported a seven-hour session](https://www.theguardian.com/music/2021/sep/11/kacey-musgraves-nashville-country-music-interview-divorce-mushrooms). [Johns Hopkins says its playlist runs seven hours and forty minutes](https://www.hopkinsmedicine.org/news/articles/2020/10/inside-the-johns-hopkins-psilocybin-playlist).
 
-The safer interpretation is also the more interesting one. Musgraves entered the session with an intention to face painful material. <em>Star-Crossed</em> then gave that material a formal structure, dividing the record and its film into three acts. Psychedelics belong to the creative history of the album; they do not explain the craft by themselves.
+Musgraves entered the session with an intention to face painful material. <em>Star-Crossed</em> then gave that material a formal structure, dividing the record and its film into three acts. Psychedelics belong to the creative history of the album; they do not explain the craft by themselves.
 
 > "I want the chance to transform my trauma into something else, and I want to give myself that opportunity even if it's painful."
 > — Kacey Musgraves, <em>The Zane Lowe Interview Series</em>, 2021
@@ -283,7 +281,7 @@ The verbs do the diagnostic work: <em>want, transform, give myself</em>. Pain be
 The Recording Academy then made the identity question institutional. Its country screening committee ruled <em>Star-Crossed</em> ineligible for Best Country Album, although individual songs remained eligible in country categories. Cindy Mabe, then president of Universal Music Group Nashville, challenged the decision in an open letter.
 
 > "The idea that a handful of people ... are deciding what is country only exacerbates the problem."
-> — Cindy Mabe, quoted by Variety, 2021
+> — Cindy Mabe, quoted by Rolling Stone, 2021
 
 The episode echoed the radio dispute, but the stakes had changed. Musgraves was no longer trying to establish a career. The argument concerned who had authority to name work that already existed.
 
@@ -301,7 +299,7 @@ By 2026, that practice had become the premise of <em>Middle of Nowhere</em>. Mus
 > "I really learned that being alone does not have to equal being lonely."
 > — Kacey Musgraves, The Independent, 2026
 
-This is an important empathy turn. A less careful version of the story praises discipline and turns the sauna into evidence of superior self-management. Her own explanation is about safety. After relationships in which she felt responsible for pulling the other person closer, being alone offered a place to stop negotiating for reciprocity. The routines hold a boundary while she learns that peace can exist inside it.
+Her own explanation centers safety. After relationships in which she felt responsible for pulling the other person closer, being alone offered a place to stop negotiating for reciprocity. The routines hold a boundary while she learns that peace can exist inside it.
 
 The shift also complicates the Type 4 case. <em>Middle of Nowhere</em> does not make isolation glamorous. It allows boredom, sexual frustration, ghosting, family, horses, and geography to coexist. Ordinary experience carries the record.
 
@@ -309,7 +307,7 @@ The shift also complicates the Type 4 case. <em>Middle of Nowhere</em> does not 
 
 One track on the new album tests that growth against an actual relationship. Before either woman was nationally famous, Musgraves, Shane McAnally, and Brandy Clark wrote <em>Mama's Broken Heart</em>. Miranda Lambert recorded it and took it to number two on Billboard's Country Airplay chart.
 
-The old version of this article blamed Lambert for recording it without asking Musgraves. That collapses a three-writer publishing decision into a cleaner feud than the evidence supports. Musgraves's 2026 account was that McAnally and Clark pitched the song to Lambert without her knowledge. Whatever else happened privately, Musgraves and Lambert agree that they were not friends for years.
+The publishing history matters. In a [2026 NPR interview](https://www.kpbs.org/news/2026/03/11/on-her-new-album-kacey-musgraves-returns-home-to-the-middle-of-nowhere), Musgraves said the song was pitched to Lambert without her consent or knowledge. She also acknowledged that she had her co-writers to consider. Whatever else happened privately, Musgraves and Lambert agree that they were not friends for years.
 
 Years later, Musgraves saw Lambert riding a horse on Instagram. The image supplied a title: two East Texas songwriters had horses and divorces in common. They met to write <em>Horses and Divorces</em>, aired the old history, and made the song the final addition to <em>Middle of Nowhere</em>.
 

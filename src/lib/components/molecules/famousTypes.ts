@@ -210,7 +210,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'john-mayer', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Music\'s Haunted Virtuoso', contentGrade: 8.9, types: ['musician', 'singer-songwriter'] },
 		{ name: 'johnny-depp', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Hollywood\'s Beautiful Outsider', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'julia-fox', link: true, hasImage: true, lastmod: '2026-07-20', personaTitle: 'The Muse Who Signs Herself', contentGrade: 8.5, types: ['celebrity', 'movieStar'] },
-		{ name: 'kacey-musgraves', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'Country\'s Disciplined Mystic', contentGrade: 8.9, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
+		{ name: 'kacey-musgraves', link: true, hasImage: true, lastmod: '2026-07-23', personaTitle: 'Country\'s Disciplined Mystic', contentGrade: 8.6, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'kendrick-lamar', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Compton\'s Haunted Poet', contentGrade: 9, types: ['musician'] },
 		{ name: 'lady-gaga', link: true, hasImage: true, lastmod: '2026-04-15', personaTitle: 'Pop\'s Avant-Garde Mother', contentGrade: 8.5, types: ['musician'] },
 		{ name: 'lana-del-rey', link: true, hasImage: true, lastmod: '2026-04-15', personaTitle: 'Pop\'s Glamorous Exile', contentGrade: 9, types: ['musician'] },
