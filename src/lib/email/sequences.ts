@@ -170,8 +170,13 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 	const managedContent = getEffectiveManagedSequenceContent(row.sequence_key, row.step_number);
 	const isReactivation = isReactivationSequenceKey(row.sequence_key);
 	const reactivationOverrides = getReactivationTemplateOverrideState(row);
-	const firstName = row.recipient_name?.trim() || 'there';
-	const trimmedRecipientName = row.recipient_name?.trim() || undefined;
+	// The claim RPCs bake the 'there' fallback into recipient_name
+	// (COALESCE(first_name, username, 'there')), so treat that literal as a
+	// missing name, not a real one.
+	const rawName = row.recipient_name?.trim() ?? '';
+	const hasRealName = Boolean(rawName) && rawName.toLowerCase() !== 'there';
+	const firstName = hasRealName ? rawName : 'there';
+	const trimmedRecipientName = hasRealName ? rawName : undefined;
 	const trimmedEnneagram = row.enneagram?.trim() || undefined;
 	const signupDate =
 		parseDate(row.recipient_created_at) ?? parseDate(row.enrolled_at) ?? new Date();

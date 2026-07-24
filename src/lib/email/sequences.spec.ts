@@ -172,6 +172,25 @@ describe('prepareSequenceSend', () => {
 		expect(prepared.recipient.name).toBeUndefined();
 	});
 
+	it('treats the claim RPC literal "there" name as missing and strips the subject token', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'reactivation_dormant',
+				step_number: 1,
+				recipient_name: 'there',
+				recipient_created_at: '2025-09-10T12:00:00.000Z',
+				subject: 'Reactivation step 1',
+				html_content: '<p>Code-managed reactivation content</p>',
+				plain_text: 'Code-managed reactivation content'
+			})
+		);
+
+		expect(prepared.subject).toBe(
+			'You signed up for 9takes in September 2025. Quick re-introduction.'
+		);
+		expect(prepared.recipient.name).toBeUndefined();
+	});
+
 	it('drops a leading first_name token from the subject when no name exists', () => {
 		const prepared = prepareSequenceSend(
 			makeSequenceRow({
