@@ -2,7 +2,10 @@
 // Tracking pixel endpoint - returns 1x1 transparent GIF
 
 import type { RequestHandler } from './$types';
-import { supabase } from '$lib/supabase';
+import {
+	logBestEffortTelemetryFailure,
+	runBestEffortTelemetry
+} from '$lib/server/bestEffortTelemetry';
 import { isUuid } from '$lib/utils/uuid';
 
 // 1x1 transparent GIF
@@ -11,14 +14,19 @@ const TRANSPARENT_GIF = Buffer.from(
 	'base64'
 );
 
-export const GET: RequestHandler = async ({ params, request }) => {
+export const GET: RequestHandler = async (event) => {
+	const { params, request, locals } = event;
 	const { tracking_id } = params;
 
-	// Non-blocking update - don't wait for database
+	// Keep the pixel fast while allowing Vercel to finish the best-effort write.
 	if (isUuid(tracking_id)) {
-		updateOpenTracking(tracking_id, request).catch((err) => {
-			console.error('Error updating open tracking:', err);
-		});
+		runBestEffortTelemetry(
+			event,
+			updateOpenTracking(locals.supabase, tracking_id, request),
+			(trackingError) => {
+				logBestEffortTelemetryFailure('Failed to track email open', trackingError);
+			}
+		);
 	}
 
 	// Return tracking pixel immediately
@@ -33,7 +41,11 @@ export const GET: RequestHandler = async ({ params, request }) => {
 	});
 };
 
-async function updateOpenTracking(trackingId: string, request: Request): Promise<void> {
+async function updateOpenTracking(
+	supabaseClient: App.Locals['supabase'],
+	trackingId: string,
+	request: Request
+): Promise<void> {
 	if (!isUuid(trackingId)) {
 		return;
 	}
@@ -41,8 +53,8 @@ async function updateOpenTracking(trackingId: string, request: Request): Promise
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 	const userAgent = request.headers.get('user-agent') || 'unknown';
 
-	const supabaseAny = supabase as any;
-	const { error: trackingError, data: tracked } = await supabaseAny.rpc('track_email_event', {
+	const supabaseAny = supabaseClient as any;
+	const { error: trackingError } = await supabaseAny.rpc('track_email_event', {
 		p_tracking_id: trackingId,
 		p_event_type: 'open',
 		p_link_url: null,
@@ -50,7 +62,7 @@ async function updateOpenTracking(trackingId: string, request: Request): Promise
 		p_user_agent: userAgent
 	});
 
-	if (trackingError || !tracked) {
-		console.error('Error tracking email open:', trackingError);
+	if (trackingError) {
+		throw trackingError;
 	}
 }

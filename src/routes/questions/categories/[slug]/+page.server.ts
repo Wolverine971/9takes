@@ -23,35 +23,17 @@ type ActiveQuestionRow = { id: number };
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	const supabase = event.locals.supabase as any;
-	const { demo_time } = await event.parent();
 	const session = event.locals.session;
+	const [{ demo_time }, { data: categories, error: categoriesError }] = await Promise.all([
+		event.parent(),
+		supabase
+			.from('question_categories')
+			.select(
+				'id, category_name, slug, parent_id, level, intro_markdown, intro_description, intro_status, intro_source, intro_generated_at, intro_updated_at, intro_reviewed_at'
+			)
+			.order('id', { ascending: true })
+	]);
 	const questionTable = demo_time === true ? 'questions_demo' : 'questions';
-
-	let canAskQuestion = false;
-
-	if (session?.user?.id) {
-		const { data: questions, error: questionsError } = await supabase
-			.from(questionTable)
-			.select('id')
-			.eq('author_id', session?.user?.id)
-			.eq('removed', false)
-			.gte('created_at', new Date(new Date().getTime() - 24 * 60 * 60 * 1000).toISOString())
-			.limit(10);
-
-		if (questionsError) {
-			console.log(questionsError);
-		}
-		if (questions && questions.length <= 10) {
-			canAskQuestion = true;
-		}
-	}
-
-	const { data: categories, error: categoriesError } = await supabase
-		.from('question_categories')
-		.select(
-			'id, category_name, slug, parent_id, level, intro_markdown, intro_description, intro_status, intro_source, intro_generated_at, intro_updated_at, intro_reviewed_at'
-		)
-		.order('id', { ascending: true });
 
 	if (categoriesError || !categories) {
 		console.log(categoriesError);
@@ -72,14 +54,24 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(301, buildQuestionCategoryPath(canonicalSlug));
 	}
 
+	const recentQuestionsPromise = session?.user?.id
+		? supabase
+				.from(questionTable)
+				.select('id')
+				.eq('author_id', session.user.id)
+				.eq('removed', false)
+				.gte('created_at', new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString())
+				.limit(10)
+		: Promise.resolve({ data: null, error: null });
+
 	const [
-		questionCategories,
 		{ data: categoryTags, error: categoryTagsError },
-		{ data: activeQuestions, error: activeQuestionsError }
+		{ data: activeQuestions, error: activeQuestionsError },
+		{ data: recentQuestions, error: recentQuestionsError }
 	] = await Promise.all([
-		getCategoryQuestions(supabase, questionTable, questionTag.id),
 		supabase.from('question_category_tags').select('question_id, tag_id'),
-		supabase.from(questionTable).select('id').eq('removed', false)
+		supabase.from(questionTable).select('id').eq('removed', false),
+		recentQuestionsPromise
 	]);
 
 	if (categoryTagsError || activeQuestionsError) {
@@ -89,13 +81,26 @@ export const load: PageServerLoad = async (event) => {
 		});
 		throw error(500, 'Failed to load category tree');
 	}
+	if (recentQuestionsError) {
+		console.log(recentQuestionsError);
+	}
+	const canAskQuestion = Boolean(
+		session?.user?.id && recentQuestions && recentQuestions.length <= 10
+	);
+	const categoryTagRows = (categoryTags as QuestionCategoryTagRow[] | null) ?? [];
+	const questionCategories = await getCategoryQuestions(
+		supabase,
+		questionTable,
+		questionTag.id,
+		categoryTagRows
+	);
 
 	const activeQuestionIds = new Set(
 		(activeQuestions as ActiveQuestionRow[] | null)?.map((question) => question.id) ?? []
 	);
 	const categoryTree = buildVisibleQuestionCategoryTree(
 		categoryRows,
-		(categoryTags as QuestionCategoryTagRow[] | null) ?? [],
+		categoryTagRows,
 		activeQuestionIds
 	);
 	const currentCategoryNode = findQuestionCategoryNodeById(categoryTree, questionTag.id);
@@ -129,20 +134,16 @@ export const load: PageServerLoad = async (event) => {
 	};
 };
 
-async function getCategoryQuestions(supabase: any, questionTable: string, categoryId: number) {
-	const { data: questionTagRows, error: questionTagRowsError } = await supabase
-		.from('question_category_tags')
-		.select('question_id')
-		.eq('tag_id', categoryId);
-
-	if (questionTagRowsError) {
-		console.log(questionTagRowsError);
-		throw error(500, "couldn't find questions");
-	}
-
+async function getCategoryQuestions(
+	supabase: any,
+	questionTable: string,
+	categoryId: number,
+	categoryTags: QuestionCategoryTagRow[]
+) {
 	const questionIds = Array.from(
 		new Set(
-			(questionTagRows ?? [])
+			categoryTags
+				.filter((row) => row.tag_id === categoryId)
 				.map((row: { question_id: number | null }) => row.question_id)
 				.filter((questionId: number | null): questionId is number => Number.isFinite(questionId))
 		)

@@ -159,7 +159,7 @@
 	description={seoDescription}
 	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/personality-analysis-card.webp"
+	ogImage="https://9takes.com/brand/9takes-nine-mask-social-card.png"
 	author="9takes"
 	twitterImageAlt="Browse famous people personality analysis by category on 9takes"
 	jsonLd={structuredData}

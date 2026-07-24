@@ -1,51 +1,10 @@
 // src/routes/+layout.server.ts
 import { dev } from '$app/environment';
 import type { LayoutServerLoad } from './$types';
-import {
-	buildQuestionCategoryPathRows,
-	type QuestionCategoryRow
-} from '$lib/server/questionCategoryTree';
 import { getPublicEditorialCachePath } from '$lib/server/contentAccessGuard';
-import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
 import { logger } from '$lib/utils/logger';
 
-type ParentCategory = Pick<QuestionCategoryRow, 'id' | 'category_name' | 'slug' | 'level'>;
-
 export const load: LayoutServerLoad = async (event) => {
-	let parents: ParentCategory[] = [];
-	if (event.url.pathname.startsWith('/questions/categories/')) {
-		const rawSlug = event.url.pathname.split('/').pop();
-		const normalizedSlug = buildQuestionCategorySlug(rawSlug);
-
-		if (normalizedSlug) {
-			const { data: categories, error: categoriesError } = await event.locals.supabase
-				.from('question_categories')
-				.select('id, category_name, slug, parent_id, level')
-				.order('id', { ascending: true });
-
-			if (categoriesError) {
-				logger.warn('Failed to fetch category parents', {
-					error: categoriesError,
-					slug: rawSlug
-				});
-			} else {
-				const categoryRows = (categories ?? []) as QuestionCategoryRow[];
-				const currentCategory = categoryRows.find((category) => category.slug === normalizedSlug);
-
-				if (currentCategory) {
-					parents = buildQuestionCategoryPathRows(categoryRows, currentCategory.id).map(
-						(category) => ({
-							id: category.id,
-							category_name: category.category_name,
-							slug: category.slug,
-							level: category.level
-						})
-					);
-				}
-			}
-		}
-	}
-
 	const session = event.locals.session;
 	let user: (typeof event.locals.user & { admin?: boolean }) | null = event.locals.user;
 	const authShell = !dev && getPublicEditorialCachePath(event.url.pathname) ? 'client' : 'server';
@@ -92,7 +51,6 @@ export const load: LayoutServerLoad = async (event) => {
 
 	return {
 		authShell,
-		parents,
 		session,
 		user
 	};

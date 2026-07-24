@@ -159,7 +159,9 @@
 	let leadOgImage = $derived(
 		leadPerson ? buildPersonalityImageUrl(leadPerson.enneagram, leadPerson.slug, 'full') : ''
 	);
-	let ogImage = $derived(leadOgImage || 'https://9takes.com/personality-analysis-card.webp');
+	let ogImage = $derived(
+		leadOgImage || 'https://9takes.com/brand/9takes-nine-mask-social-card.png'
+	);
 
 	let breadcrumbSchema = $derived({
 		'@type': 'BreadcrumbList',

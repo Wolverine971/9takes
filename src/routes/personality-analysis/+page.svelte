@@ -181,7 +181,7 @@
 	description={`Explore ${totalPeople} in-depth Enneagram personality analyses of celebrities, historical figures, and influential people. Browse by type or category to decode what drives the world's most fascinating personalities.`}
 	canonical="https://9takes.com/personality-analysis"
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/personality-analysis-card.webp"
+	ogImage="https://9takes.com/brand/9takes-nine-mask-social-card.png"
 	jsonLd={structuredData}
 	author="9takes"
 />

@@ -37,6 +37,8 @@ type RelatedPersonalityPayload = {
 	sameEnneagramPosts: RelatedPersonalityCard[];
 };
 
+const PERSONALITY_ENRICHMENT_TIMEOUT_MS = 4_000;
+
 export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
 	const session = event.locals.session;
@@ -96,20 +98,41 @@ export const load: PageServerLoad = async (event) => {
 				.select('id')
 				.in('blog_link', commentSlugCandidates)
 				.eq('author_id', user?.id)
+				.abortSignal(AbortSignal.timeout(PERSONALITY_ENRICHMENT_TIMEOUT_MS))
 				.maybeSingle()
 		: supabase
 				.from('blog_comments')
 				.select('id')
 				.in('blog_link', commentSlugCandidates)
 				.eq('fingerprint', cookie ?? '')
+				.abortSignal(AbortSignal.timeout(PERSONALITY_ENRICHMENT_TIMEOUT_MS))
 				.maybeSingle();
-
-	const { data: hasCommented } = await queryPromise;
-	const userHasAnswered = !!hasCommented;
-
+	const hasCommentedPromise = Promise.resolve(queryPromise)
+		.then(({ data: hasCommented, error: commentLookupError }) => {
+			if (commentLookupError) {
+				console.warn('Failed to check personality comment access', commentLookupError);
+			}
+			return Boolean(hasCommented);
+		})
+		.catch((commentLookupError) => {
+			console.warn('Failed to check personality comment access', commentLookupError);
+			return false;
+		});
+	const bridgeLinks = buildPersonalityBridgeLinks({
+		enneagram: personData.enneagram,
+		types: personData.type,
+		personSlug: canonicalSlug
+	});
+	const postTypes = normalizePeopleTypes(personData.type);
+	const enneagramNum = parseEnneagramNumber(personData.enneagram);
+	const [userHasAnswered, { content, placeholders, headings }, relatedPosts] = await Promise.all([
+		hasCommentedPromise,
+		processBlogContent(personData.content ?? ''),
+		buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum)
+	]);
 	let comments: PublicBlogCommentRow[] = [];
 
-	// Only fetch comments if user has answered
+	// Only fetch comments if user has answered.
 	if (userHasAnswered) {
 		const { data: blogComments } = await supabase
 			.from('blog_comments')
@@ -121,18 +144,9 @@ export const load: PageServerLoad = async (event) => {
 		comments = blogComments || [];
 	}
 
-	const { content, placeholders, headings } = await processBlogContent(personData.content ?? '');
 	const wordCount = countRenderableWords(content);
 	const publishedAt = personData.published_at ?? personData.date ?? personData.created_at;
 	const modifiedAt = personData.lastmod ?? publishedAt;
-	const bridgeLinks = buildPersonalityBridgeLinks({
-		enneagram: personData.enneagram,
-		types: personData.type,
-		personSlug: canonicalSlug
-	});
-	const postTypes = normalizePeopleTypes(personData.type);
-	const enneagramNum = parseEnneagramNumber(personData.enneagram);
-	const relatedPosts = await buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum);
 
 	return {
 		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null, // Pass user info to components
@@ -166,8 +180,15 @@ export const load: PageServerLoad = async (event) => {
 	};
 };
 
-// In-memory cache for related posts
-const relatedPostsCache = new Map<string, RelatedPersonalityPayload>();
+const RELATED_POSTS_CACHE_TTL_MS = 5 * 60 * 1000;
+type RelatedPostsCacheEntry = { value: RelatedPersonalityPayload; expiresAt: number };
+type SimilarityRowsCacheEntry = { value: PersonalitySimilarityRow[]; expiresAt: number };
+
+// Deduplicate cold-instance lookups and keep different personality pages from
+// re-fetching the same reference set during a warm serverless invocation.
+const relatedPostsCache = new Map<string, RelatedPostsCacheEntry>();
+let similarityRowsCache: SimilarityRowsCacheEntry | null = null;
+let similarityRowsPromise: Promise<PersonalitySimilarityRow[]> | null = null;
 
 function countRenderableWords(content: string): number {
 	const plainText = content
@@ -308,24 +329,38 @@ async function buildRelatedPosts(
 	enneagram: number | null
 ): Promise<RelatedPersonalityPayload> {
 	const cacheKey = `${normalizePersonalitySlug(slug)}:${JSON.stringify(postTypes)}:${enneagram || ''}`;
+	const now = Date.now();
 	const cachedResult = relatedPostsCache.get(cacheKey);
 
-	if (cachedResult) {
-		return cachedResult;
+	if (cachedResult && cachedResult.expiresAt > now) {
+		return cachedResult.value;
 	}
 
+	const personData = await getPersonalitySimilarityRows(supabase);
 	let sameNichePosts: RelatedPersonalityCard[] = [];
 	let sameEnneagramPosts: RelatedPersonalityCard[] = [];
 
 	if (postTypes.length) {
-		sameNichePosts = await getSimilarPosts(supabase, slug, postTypes, enneagram);
+		sameNichePosts = mapSimilarResults(
+			rankSimilarPeople({
+				currentSlug: slug,
+				currentTypes: postTypes,
+				currentEnneagram: enneagram,
+				rows: personData
+			}).map((entry) => entry.row)
+		);
 	}
 
 	if (enneagram) {
-		sameEnneagramPosts = await getEnneagramPosts(supabase, slug, enneagram, postTypes).then(
-			(posts) =>
-				posts.filter((post) => !sameNichePosts.some((candidate) => candidate.slug === post.slug))
-		);
+		sameEnneagramPosts = mapSimilarResults(
+			rankSimilarPeople({
+				currentSlug: slug,
+				currentTypes: postTypes,
+				currentEnneagram: enneagram,
+				rows: personData,
+				requireSameEnneagram: true
+			}).map((entry) => entry.row)
+		).filter((post) => !sameNichePosts.some((candidate) => candidate.slug === post.slug));
 	}
 
 	const result = {
@@ -333,67 +368,54 @@ async function buildRelatedPosts(
 		sameEnneagramPosts
 	};
 
-	relatedPostsCache.set(cacheKey, result);
+	relatedPostsCache.set(cacheKey, {
+		value: result,
+		expiresAt: now + RELATED_POSTS_CACHE_TTL_MS
+	});
 	return result;
 }
 
-async function getSimilarPosts(
-	supabase: ServerSupabaseClient,
-	currentSlug: string,
-	postTypes: string[],
-	enneagram: number | null
-) {
-	const { data: personDataRaw, error: personDataError } = await supabase
-		.from('blogs_famous_people')
-		.select(
-			'person, enneagram, title, description, persona_title, lastmod, date, type, published, content_quality'
-		)
-		.eq('published', true);
-	const personData = (personDataRaw ?? []) as PersonalitySimilarityRow[];
-
-	if (personDataError) {
-		console.log(personDataError);
+async function getPersonalitySimilarityRows(
+	supabase: ServerSupabaseClient
+): Promise<PersonalitySimilarityRow[]> {
+	const now = Date.now();
+	if (similarityRowsCache && similarityRowsCache.expiresAt > now) {
+		return similarityRowsCache.value;
 	}
 
-	return mapSimilarResults(
-		rankSimilarPeople({
-			currentSlug,
-			currentTypes: postTypes,
-			currentEnneagram: enneagram,
-			rows: personData
-		}).map((entry) => entry.row)
-	);
-}
-
-// Function to get posts by enneagram number
-async function getEnneagramPosts(
-	supabase: ServerSupabaseClient,
-	currentSlug: string,
-	enneagramNum: number,
-	postTypes: string[]
-) {
-	const { data: personDataRaw, error: personDataError } = await supabase
-		.from('blogs_famous_people')
-		.select(
-			'person, enneagram, title, description, persona_title, lastmod, date, type, published, content_quality'
+	if (!similarityRowsPromise) {
+		similarityRowsPromise = Promise.resolve(
+			supabase
+				.from('blogs_famous_people')
+				.select(
+					'person, enneagram, title, description, persona_title, lastmod, date, type, published, content_quality'
+				)
+				.eq('published', true)
+				.abortSignal(AbortSignal.timeout(PERSONALITY_ENRICHMENT_TIMEOUT_MS))
 		)
-		.eq('published', true)
-		.eq('enneagram', String(enneagramNum));
-	const personData = (personDataRaw ?? []) as PersonalitySimilarityRow[];
+			.then(({ data, error: similarityRowsError }) => {
+				if (similarityRowsError) {
+					console.error('Failed to load personality similarity rows', similarityRowsError);
+					return similarityRowsCache?.value ?? [];
+				}
 
-	if (personDataError) {
-		console.log(personDataError);
+				const value = (data ?? []) as PersonalitySimilarityRow[];
+				similarityRowsCache = {
+					value,
+					expiresAt: Date.now() + RELATED_POSTS_CACHE_TTL_MS
+				};
+				return value;
+			})
+			.catch((similarityRowsError) => {
+				console.error('Failed to load personality similarity rows', similarityRowsError);
+				return similarityRowsCache?.value ?? [];
+			})
+			.finally(() => {
+				similarityRowsPromise = null;
+			});
 	}
 
-	return mapSimilarResults(
-		rankSimilarPeople({
-			currentSlug,
-			currentTypes: postTypes,
-			currentEnneagram: enneagramNum,
-			rows: personData,
-			requireSameEnneagram: true
-		}).map((entry) => entry.row)
-	);
+	return similarityRowsPromise;
 }
 
 // Server-only blog content processor - keeps marked library out of client bundle
