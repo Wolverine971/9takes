@@ -82,6 +82,18 @@ function renderSequenceTemplate(
 	});
 }
 
+// A subject that leads with "{{first_name}}, " reads as broken when the token
+// falls back to "there" ("there, what were you like as a kid?"), so with no
+// real name drop the leading token and re-capitalize instead.
+function stripLeadingFirstNameFromSubject(subject: string): string {
+	const stripped = subject.replace(/^\{\{\s*first_name\s*\}\}\s*,\s*/i, '');
+	if (stripped === subject) {
+		return subject;
+	}
+
+	return stripped.charAt(0).toUpperCase() + stripped.slice(1);
+}
+
 function getEffectiveManagedSequenceContent(
 	sequenceKey: string,
 	stepNumber: number
@@ -176,10 +188,13 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 		re_permission_yes_url: `${BASE_URL}/api/email/re-permission/yes/${TRACKING_ID_PLACEHOLDER}`,
 		re_permission_no_url: `${BASE_URL}/api/email/re-permission/no/${TRACKING_ID_PLACEHOLDER}`
 	};
-	const subjectTemplate =
+	const rawSubjectTemplate =
 		isReactivation && reactivationOverrides.subject
 			? row.subject
 			: (managedContent?.subject ?? row.subject);
+	const subjectTemplate = trimmedRecipientName
+		? rawSubjectTemplate
+		: stripLeadingFirstNameFromSubject(rawSubjectTemplate);
 	const htmlTemplate =
 		isReactivation && reactivationOverrides.htmlContent
 			? row.html_content

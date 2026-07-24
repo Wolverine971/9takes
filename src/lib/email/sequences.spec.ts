@@ -79,7 +79,7 @@ describe('prepareSequenceSend', () => {
 			'Alice, you signed up for 9takes in February 2025. Quick re-introduction.'
 		);
 		expect(prepared.htmlContent).toContain(
-			'https://9takes.com/enneagram-corner/enneagram-and-mental-illness'
+			'https://9takes.com/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort'
 		);
 		expect(prepared.htmlContent).not.toContain('Old DB body');
 	});
@@ -170,5 +170,48 @@ describe('prepareSequenceSend', () => {
 
 		expect(prepared.subject).toBe('Welcome, there');
 		expect(prepared.recipient.name).toBeUndefined();
+	});
+
+	it('drops a leading first_name token from the subject when no name exists', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'welcome_sequence',
+				step_number: 1,
+				recipient_name: null
+			})
+		);
+
+		expect(prepared.subject).toBe('What were you like as a kid? Three words.');
+		expect(prepared.htmlContent).toContain('Hi there,');
+	});
+
+	it('re-capitalizes reactivation subjects after dropping the first_name token', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'reactivation_dormant',
+				step_number: 1,
+				recipient_name: null,
+				recipient_created_at: '2025-02-10T12:00:00.000Z',
+				subject: 'Reactivation step 1',
+				html_content: '<p>Code-managed reactivation content</p>',
+				plain_text: 'Code-managed reactivation content'
+			})
+		);
+
+		expect(prepared.subject).toBe(
+			'You signed up for 9takes in February 2025. Quick re-introduction.'
+		);
+	});
+
+	it('keeps the leading first_name token in subjects when a name exists', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: 'welcome_sequence',
+				step_number: 1,
+				recipient_name: 'Alice'
+			})
+		);
+
+		expect(prepared.subject).toBe('Alice, what were you like as a kid? Three words.');
 	});
 });

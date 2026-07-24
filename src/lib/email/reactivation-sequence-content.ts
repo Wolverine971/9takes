@@ -32,6 +32,34 @@ export const REACTIVATION_HERO_URL =
 const PARTNER_QUESTION_URL =
 	'https://9takes.com/questions/what-are-you-afraid-to-tell-to-your-partner';
 
+// Live homepage question (id 567) featured in every step 1. The quoted answers
+// below are real takes from the thread; refresh them if the thread changes.
+const MASKING_QUESTION_URL =
+	'https://9takes.com/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort';
+
+const STEP_1_QUESTION_BLOCK_HTML = `<p>The whole platform is one loop: answer a question before you can see anyone else's takes. The value lives in the gap - what you noticed, what other people noticed, what everyone assumed too fast.</p>
+<p>Right now one question is pulling the most honest answers on the site:</p>
+<p><strong>"What's something you do every day to seem 'fine' that nobody knows is costing you effort?"</strong></p>
+<p>One person answered "taking supplements every morning." Another answered "Continuing to be alive." Same question. That range is why 9takes exists.</p>
+<p><a class="button" href="${MASKING_QUESTION_URL}">Give your take</a></p>
+<p>Your answer unlocks everyone else's. More next week - a personal note about why I built this in the first place.</p>
+<p>DJocrates<br />9takes.com</p>`;
+
+const STEP_1_QUESTION_BLOCK_TEXT = `The whole platform is one loop: answer a question before you can see anyone else's takes. The value lives in the gap - what you noticed, what other people noticed, what everyone assumed too fast.
+
+Right now one question is pulling the most honest answers on the site:
+
+"What's something you do every day to seem 'fine' that nobody knows is costing you effort?"
+
+One person answered "taking supplements every morning." Another answered "Continuing to be alive." Same question. That range is why 9takes exists.
+
+Give your take: ${MASKING_QUESTION_URL}
+
+Your answer unlocks everyone else's. More next week - a personal note about why I built this in the first place.
+
+DJocrates
+9takes.com`;
+
 // Step 2's personal story (the activation blocker) is final as of 2026-06-11.
 // Source: docs/brand/founder-story.md (synthesized) + founder-story-brief.md (raw).
 // Uses only tidbits cleared for public surfaces (no [needs-ruling] items).
@@ -47,119 +75,40 @@ const STEP_1_BY_SEQUENCE: Record<
 > = {
 	[REACTIVATION_COLD_KEY]: {
 		subject: "{{first_name}}, you signed up in {{signup_month_year}}. Here's what 9takes is now.",
-		preheader:
-			"One situation, nine ways to see it. Here's the best thread we've had since you joined.",
+		preheader: 'And the one question I want your take on.',
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>You signed up a couple months back, and I want to use the moment to actually show you what 9takes is - not what it was the day you joined. If this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.</p>
-<p>Here's the loop the whole platform runs on:</p>
-<ol>
-  <li>Pick a question that feels real.</li>
-  <li>Answer before seeing what anyone else thinks.</li>
-  <li>Compare your read with other people's.</li>
-</ol>
-<p>The value is the gap - what you noticed, what other people noticed, what everyone assumed too fast.</p>
-<p>The piece I'd start with: <a href="{{hero_url}}">Enneagram and Mental Illness</a>. It's the most-read thing on 9takes and the cleanest example of why I care about this work.</p>
-<p><a class="button" href="{{questions_url}}">Answer one live question</a></p>
-<p>More next week - a personal note about why I built this in the first place.</p>
-<p>DJocrates<br />9takes.com</p>`,
+${STEP_1_QUESTION_BLOCK_HTML}`,
 		plainText: `Hi {{first_name}},
 
 You signed up a couple months back, and I want to use the moment to actually show you what 9takes is - not what it was the day you joined. If this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.
 
-Here's the loop the whole platform runs on:
-
-1. Pick a question that feels real.
-2. Answer before seeing what anyone else thinks.
-3. Compare your read with other people's.
-
-The value is the gap - what you noticed, what other people noticed, what everyone assumed too fast.
-
-The piece I'd start with: Enneagram and Mental Illness. It's the most-read thing on 9takes and the cleanest example of why I care about this work.
-{{hero_url}}
-
-Answer one live question: {{questions_url}}
-
-More next week - a personal note about why I built this in the first place.
-
-DJocrates
-9takes.com`
+${STEP_1_QUESTION_BLOCK_TEXT}`
 	},
 	[REACTIVATION_DORMANT_KEY]: {
 		subject:
 			'{{first_name}}, you signed up for 9takes in {{signup_month_year}}. Quick re-introduction.',
-		preheader: "It's been a while. Here's what it's become.",
+		preheader: "It's been a while. One question, and I want your take on it.",
 		htmlContent: `<p>Hi {{first_name}},</p>
-<p>You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. Since then: a much bigger question board, a library of celebrity Enneagram breakdowns, and an Enneagram test built around real situations instead of quiz cliches.</p>
-<p>The core is still one loop:</p>
-<ol>
-  <li>Pick a question that feels real.</li>
-  <li>Answer before seeing what anyone else thinks.</li>
-  <li>Compare your read with other people's.</li>
-</ol>
-<p>The value is the gap - what you noticed, what other people noticed, what everyone assumed too fast.</p>
-<p>The piece I'd start with: <a href="{{hero_url}}">Enneagram and Mental Illness</a>. It's the most-read thing on 9takes and the cleanest example of why I care about this work.</p>
-<p><a class="button" href="{{questions_url}}">Answer one live question</a></p>
-<p>More next week - a personal note about why I built this in the first place.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. And if this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.</p>
+${STEP_1_QUESTION_BLOCK_HTML}`,
 		plainText: `Hi {{first_name}},
 
-You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. Since then: a much bigger question board, a library of celebrity Enneagram breakdowns, and an Enneagram test built around real situations instead of quiz cliches.
+You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. And if this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.
 
-The core is still one loop:
-
-1. Pick a question that feels real.
-2. Answer before seeing what anyone else thinks.
-3. Compare your read with other people's.
-
-The value is the gap - what you noticed, what other people noticed, what everyone assumed too fast.
-
-The piece I'd start with: Enneagram and Mental Illness. It's the most-read thing on 9takes and the cleanest example of why I care about this work.
-{{hero_url}}
-
-Answer one live question: {{questions_url}}
-
-More next week - a personal note about why I built this in the first place.
-
-DJocrates
-9takes.com`
+${STEP_1_QUESTION_BLOCK_TEXT}`
 	},
 	[REACTIVATION_ZOMBIES_KEY]: {
 		subject: 'You signed up for 9takes back in {{signup_year}}.',
 		preheader: 'I owe you a better intro than the silence you got.',
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>You signed up for 9takes in {{signup_year}}. That's {{signup_months_ago}} months of me not writing to you, which is on me. Before I start, one line of honesty: if this email is a surprise, the unsubscribe link at the bottom works on click one. No guilt, no trick.</p>
-<p>Here's the loop the whole platform runs on:</p>
-<ol>
-  <li>Pick a question that feels real.</li>
-  <li>Answer before seeing what anyone else thinks.</li>
-  <li>Compare your read with other people's.</li>
-</ol>
-<p>The value is the gap - what you noticed, what other people noticed, what everyone assumed too fast.</p>
-<p>The piece I'd start with: <a href="{{hero_url}}">Enneagram and Mental Illness</a>. It's the most-read thing on 9takes and the cleanest example of why I care about this work.</p>
-<p><a class="button" href="{{questions_url}}">Answer one live question</a></p>
-<p>More next week - a personal note about why I built this in the first place.</p>
-<p>DJocrates<br />9takes.com</p>`,
+${STEP_1_QUESTION_BLOCK_HTML}`,
 		plainText: `Hi {{first_name}},
 
 You signed up for 9takes in {{signup_year}}. That's {{signup_months_ago}} months of me not writing to you, which is on me. Before I start, one line of honesty: if this email is a surprise, the unsubscribe link at the bottom works on click one. No guilt, no trick.
 
-Here's the loop the whole platform runs on:
-
-1. Pick a question that feels real.
-2. Answer before seeing what anyone else thinks.
-3. Compare your read with other people's.
-
-The value is the gap - what you noticed, what other people noticed, what everyone assumed too fast.
-
-The piece I'd start with: Enneagram and Mental Illness. It's the most-read thing on 9takes and the cleanest example of why I care about this work.
-{{hero_url}}
-
-Answer one live question: {{questions_url}}
-
-More next week - a personal note about why I built this in the first place.
-
-DJocrates
-9takes.com`
+${STEP_1_QUESTION_BLOCK_TEXT}`
 	}
 };
 
@@ -205,7 +154,7 @@ DJocrates
 <p>Here's the situation people on 9takes keep circling back to.</p>
 <p>Two people texting. She replies within the hour, warm but brief. He reads it as cold. Meanwhile, he takes a day to respond because he's actually thinking about what to say. She reads it as needy-in-reverse - why so dramatic about a text.</p>
 <p>Both of them are doing the thing they think is considerate. Both of them are sure the other person started it.</p>
-<p>This is the shape of 80% of relationship conflict. Not malice. Not even bad communication. Two different internal rulebooks, neither one labeled.</p>
+<p>This is the shape of most relationship conflict. Not malice. Not even bad communication. Two different internal rulebooks, neither one labeled.</p>
 <p>The 9takes move here isn't "who's right." It's: what were each of them scanning for, and what did they assume the other person meant?</p>
 <p>There's a live question in the same lane: <strong>"What are you afraid to tell your partner?"</strong> Answer first, then see everyone else's.</p>
 <p><a class="button" href="${PARTNER_QUESTION_URL}">Add your take</a></p>
@@ -219,7 +168,7 @@ Two people texting. She replies within the hour, warm but brief. He reads it as 
 
 Both of them are doing the thing they think is considerate. Both of them are sure the other person started it.
 
-This is the shape of 80% of relationship conflict. Not malice. Not even bad communication. Two different internal rulebooks, neither one labeled.
+This is the shape of most relationship conflict. Not malice. Not even bad communication. Two different internal rulebooks, neither one labeled.
 
 The 9takes move here isn't "who's right." It's: what were each of them scanning for, and what did they assume the other person meant?
 
